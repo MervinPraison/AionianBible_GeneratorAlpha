@@ -1,0 +1,225 @@
+General warnings about formats
+===
+
+WARN! FIX_REF	Hebrew	ref='Gen.30.11-03q'	word='בָּ֣א/ /גָ֑ד'	morph='HVqp3ms//Ncbsa'	strongs='H935=בּוֹא=to come (in)_§1_come|go_in/_/H1409=גָּד=fortune' Divided word found in 'Q' entry will be challenge to display!
+Array
+(
+    [REF] => Gen.30.11-03q
+    [ACCENTS] => בָּ֣א/ /גָ֑ד
+    [MORPH] => HVqp3ms//Ncbsa
+    [STRONGS] => H935=בּוֹא=to come (in)_§1_come|go_in/_/H1409=גָּד=fortune
+)
+
+
+
+WARN! FIX_REF	Hebrew	ref='Deu.33.2-15q'	word='אֵ֥שׁ/ /דָּ֖ת'	morph='HNcbsc//Ncbsa'	strongs='H784=אֵשׁ=fire/_/H1881=דָּת=law' Divided word found in 'Q' entry will be challenge to display!
+Array
+(
+    [REF] => Deu.33.2-15q
+    [ACCENTS] => אֵ֥שׁ/ /דָּ֖ת
+    [MORPH] => HNcbsc//Ncbsa
+    [STRONGS] => H784=אֵשׁ=fire/_/H1881=דָּת=law
+)
+
+
+
+WARN! FIX_REF	Hebrew	ref='Jdg.20.13-14q'	word='אָבוּ֙/ /בְּנֵ֣י'	morph='HVqp3cp//Ncmpc'	strongs='H14=אָבָה=be willing/_/H1121a=בֵּן=son§3_people|men|nation|tribe' Divided word found in 'Q' entry will be challenge to display!
+Array
+(
+    [REF] => Jdg.20.13-14q
+    [ACCENTS] => אָבוּ֙/ /בְּנֵ֣י
+    [MORPH] => HVqp3cp//Ncmpc
+    [STRONGS] => H14=אָבָה=be willing/_/H1121a=בֵּן=son§3_people|men|nation|tribe
+)
+
+
+
+WARN! FIX_REF	Hebrew	ref='Rut.3.5-05q'	word='תֹּאמְרִ֥י/ /אֵלַ֖/י'	morph='HVqi2fs//Rd/Sp1bs'	strongs='H559=אָמַר=to say/_/H413=אֶל=to(wards)/H9030=Os1c=me' Divided word found in 'Q' entry will be challenge to display!
+Array
+(
+    [REF] => Rut.3.5-05q
+    [ACCENTS] => תֹּאמְרִ֥י/ /אֵלַ֖/י
+    [MORPH] => HVqi2fs//Rd/Sp1bs
+    [STRONGS] => H559=אָמַר=to say/_/H413=אֶל=to(wards)/H9030=Os1c=me
+)
+
+
+
+WARN! FIX_REF	Hebrew	ref='Rut.3.17-08q'	word='אָמַ֣ר/ /אֵלַ֔/י'	morph='HVqp3ms//Rd/Sp1bs'	strongs='H559=אָמַר=to say/_/H413=אֶל=to(wards)/H9030=Os1c=me' Divided word found in 'Q' entry will be challenge to display!
+Array
+(
+    [REF] => Rut.3.17-08q
+    [ACCENTS] => אָמַ֣ר/ /אֵלַ֔/י
+    [MORPH] => HVqp3ms//Rd/Sp1bs
+    [STRONGS] => H559=אָמַר=to say/_/H413=אֶל=to(wards)/H9030=Os1c=me
+)
+
+
+
+WARN! FIX_REF	Hebrew	ref='2Ki.18.27-25q'	word='מימֵ֥י/ /רַגְלֵי/הֶ֖ם'	morph='HNcmpc//Ncbdc/Sp3mp'	strongs='H4325=מַי=water_§_water/_/H7272=רֶ֫גֶל=foot/H9028=Pp3m=their' Divided word found in 'Q' entry will be challenge to display!
+Array
+(
+    [REF] => 2Ki.18.27-25q
+    [ACCENTS] => מימֵ֥י/ /רַגְלֵי/הֶ֖ם
+    [MORPH] => HNcmpc//Ncbdc/Sp3mp
+    [STRONGS] => H4325=מַי=water_§_water/_/H7272=רֶ֫גֶל=foot/H9028=Pp3m=their
+)
+
+
+
+WARN! FIX_REF	Hebrew	ref='2Ki.19.31-09q'	word='יְהוָ֥ה/ /צְבָא֖וֹת'	morph='HNpt//Ncfpa'	strongs='H3068=יהוה=YHWH|Yahweh_§LORD|God@Gen.1.1/_/H6635b=צָבָא=Hosts' Divided word found in 'Q' entry will be challenge to display!
+Array
+(
+    [REF] => 2Ki.19.31-09q
+    [ACCENTS] => יְהוָ֥ה/ /צְבָא֖וֹת
+    [MORPH] => HNpt//Ncfpa
+    [STRONGS] => H3068=יהוה=YHWH|Yahweh_§LORD|God@Gen.1.1/_/H6635b=צָבָא=Hosts
+)
+
+
+
+WARN! FIX_REF	Hebrew	ref='2Ki.19.37-08q'	word='וְ/שַׂרְאֶ֤צֶר/ /בָּנָי/ו֙'	morph='HC/Npm//Ncmpc/Sp3ms'	strongs='H9002=ו=and/H8272=שַׁרְאֶ֫צֶר=Sharezer_§Sharezer@2Ki.19.37/_/H1121a=בֵּן=son_§1_child|son/H9023=Ps3m=his' Divided word found in 'Q' entry will be challenge to display!
+Array
+(
+    [REF] => 2Ki.19.37-08q
+    [ACCENTS] => וְ/שַׂרְאֶ֤צֶר/ /בָּנָי/ו֙
+    [MORPH] => HC/Npm//Ncmpc/Sp3ms
+    [STRONGS] => H9002=ו=and/H8272=שַׁרְאֶ֫צֶר=Sharezer_§Sharezer@2Ki.19.37/_/H1121a=בֵּן=son_§1_child|son/H9023=Ps3m=his
+)
+
+
+
+WARN! FIX_REF	Hebrew	ref='1Ch.9.4-09q'	word='בָּנִ֔י/ /מִן'	morph='HNpm//R'	strongs='H1137=בָּנִי=Bani_§Bani@1Ch.9.4/_/H4480a=מִן־=from' Divided word found in 'Q' entry will be challenge to display!
+Array
+(
+    [REF] => 1Ch.9.4-09q
+    [ACCENTS] => בָּנִ֔י/ /מִן
+    [MORPH] => HNpm//R
+    [STRONGS] => H1137=בָּנִי=Bani_§Bani@1Ch.9.4/_/H4480a=מִן־=from
+)
+
+
+
+WARN! FIX_REF	Hebrew	ref='1Ch.27.12-06q'	word='לַ/בֵּ֣ן/׀/ /יְמִינִ֑י'	morph='HRd/Ncbsa//Ngbsa'	strongs='H9005=ל=to/H1121a=בֵּן=son/H9015=׀=separate/ /H1144«H3227b=יְמִינִי=Jaminite' Divided word found in 'Q' entry will be challenge to display!
+Array
+(
+    [REF] => 1Ch.27.12-06q
+    [ACCENTS] => לַ/בֵּ֣ן/׀/ /יְמִינִ֑י
+    [MORPH] => HRd/Ncbsa//Ngbsa
+    [STRONGS] => H9005=ל=to/H1121a=בֵּן=son/H9015=׀=separate/ /H1144«H3227b=יְמִינִי=Jaminite
+)
+
+
+
+WARN! FIX_REF	Hebrew	ref='Neh.2.13-17q'	word='הֵ֣ם/׀/ /פְּרוּצִ֔ים'	morph='HPp3mp//Vqsmpa'	strongs='H1992=הֵ֫מָּה=they(masc.)/H9015=׀=separate/_/H6555=פָּרַץ=to break through' Divided word found in 'Q' entry will be challenge to display!
+Array
+(
+    [REF] => Neh.2.13-17q
+    [ACCENTS] => הֵ֣ם/׀/ /פְּרוּצִ֔ים
+    [MORPH] => HPp3mp//Vqsmpa
+    [STRONGS] => H1992=הֵ֫מָּה=they(masc.)/H9015=׀=separate/_/H6555=פָּרַץ=to break through
+)
+
+
+
+WARN! FIX_REF	Hebrew	ref='Psa.10.10-05q'	word='חֵ֣יל/ /כָּאִֽים/׃'	morph='HNcbsc//Ncmpa'	strongs='H2426=חֵל=guard/_/H3512b=כָּאֶה=disheartened/H9016=׃=verseEnd' Divided word found in 'Q' entry will be challenge to display!
+Array
+(
+    [REF] => Psa.10.10-05q
+    [ACCENTS] => חֵ֣יל/ /כָּאִֽים/׃
+    [MORPH] => HNcbsc//Ncmpa
+    [STRONGS] => H2426=חֵל=guard/_/H3512b=כָּאֶה=disheartened/H9016=׃=verseEnd
+)
+
+
+
+WARN! FIX_REF	Hebrew	ref='Psa.55.15-01q'	word='יַשִּׁ֤י/ /מָ֨וֶת/׀'	morph='HVhi3ms//Ncbsa'	strongs='H5377=נָשָׁא=to deceive/_/H4194=מָ֫וֶת=death/H9015=׀=separate' Divided word found in 'Q' entry will be challenge to display!
+Array
+(
+    [REF] => Psa.55.15-01q
+    [ACCENTS] => יַשִּׁ֤י/ /מָ֨וֶת/׀
+    [MORPH] => HVhi3ms//Ncbsa
+    [STRONGS] => H5377=נָשָׁא=to deceive/_/H4194=מָ֫וֶת=death/H9015=׀=separate
+)
+
+
+
+WARN! FIX_REF	Hebrew	ref='Psa.123.4-08q'	word='לִ/גְאֵי/ /יוֹנִים/׃'	morph='HR/Aampc//Vqrmpa'	strongs='H9005=ל=to/H1343=גֵּאֶה=proud/_/H3238=יָנָה=to oppress/H9016=׃=verseEnd' Divided word found in 'Q' entry will be challenge to display!
+Array
+(
+    [REF] => Psa.123.4-08q
+    [ACCENTS] => לִ/גְאֵי/ /יוֹנִים/׃
+    [MORPH] => HR/Aampc//Vqrmpa
+    [STRONGS] => H9005=ל=to/H1343=גֵּאֶה=proud/_/H3238=יָנָה=to oppress/H9016=׃=verseEnd
+)
+
+
+
+WARN! FIX_REF	Hebrew	ref='Isa.36.12-24q'	word='מֵימֵ֥י/ /רַגְלֵי/הֶ֖ם'	morph='HNcmpc//Ncbdc/Sp3mp'	strongs='H4325=מַי=water_§_water/_/H7272=רֶ֫גֶל=foot/H9028=Pp3m=their' Divided word found in 'Q' entry will be challenge to display!
+Array
+(
+    [REF] => Isa.36.12-24q
+    [ACCENTS] => מֵימֵ֥י/ /רַגְלֵי/הֶ֖ם
+    [MORPH] => HNcmpc//Ncbdc/Sp3mp
+    [STRONGS] => H4325=מַי=water_§_water/_/H7272=רֶ֫גֶל=foot/H9028=Pp3m=their
+)
+
+
+
+WARN! FIX_REF	Hebrew	ref='Jer.6.29-03q'	word='מֵ/אֵ֖שׁ/ /תַּ֣ם'	morph='HR/Ncbsa//Aabsa'	strongs='H9006=מ=from/H784=אֵשׁ=fire/_/H8535=תָּם=complete' Divided word found in 'Q' entry will be challenge to display!
+Array
+(
+    [REF] => Jer.6.29-03q
+    [ACCENTS] => מֵ/אֵ֖שׁ/ /תַּ֣ם
+    [MORPH] => HR/Ncbsa//Aabsa
+    [STRONGS] => H9006=מ=from/H784=אֵשׁ=fire/_/H8535=תָּם=complete
+)
+
+
+
+WARN! FIX_REF	Hebrew	ref='Jer.31.38-02q'	word='יָמִ֥ים/ /בָּאִ֖ים'	morph='HNcmpa//Vqrmpa'	strongs='H3117=יוֹם=day_§2_when|time|(period|life)[of_days]/_/H935=בּוֹא=to come (in)_§1_come|go_in' Divided word found in 'Q' entry will be challenge to display!
+Array
+(
+    [REF] => Jer.31.38-02q
+    [ACCENTS] => יָמִ֥ים/ /בָּאִ֖ים
+    [MORPH] => HNcmpa//Vqrmpa
+    [STRONGS] => H3117=יוֹם=day_§2_when|time|(period|life)[of_days]/_/H935=בּוֹא=to come (in)_§1_come|go_in
+)
+
+
+
+WARN! FIX_REF	Hebrew	ref='Ezk.9.11-12q'	word='כְּ/כֹ֖ל/ /אֲשֶׁ֥ר'	morph='HR/Ncbsa//Tr'	strongs='H9004=כ=like/H3605=כֹּל=all/_/H834a=אֲשֶׁר=which' Divided word found in 'Q' entry will be challenge to display!
+Array
+(
+    [REF] => Ezk.9.11-12q
+    [ACCENTS] => כְּ/כֹ֖ל/ /אֲשֶׁ֥ר
+    [MORPH] => HR/Ncbsa//Tr
+    [STRONGS] => H9004=כ=like/H3605=כֹּל=all/_/H834a=אֲשֶׁר=which
+)
+
+
+
+WARN! FIX_REF	Greek	ref='44_Jhn.005.005'	word='ἦν'	morph='V-IAI-3S'	strongs='G1510' reference sort order problem!
+Array
+(
+    [REF] => 44_Jhn.005.005
+    [WORD] => ἦν
+    [STRONGS] => G1510
+    [MORPH] => V-IAI-3S
+    [VARIANTS] => H=Ἦν=G1510=V-IAI-3S;
+)
+
+
+
+WARN! FIX_REF	Greek	ref='45_Act.015.035'	word='Παῦλος'	morph='N-NSM-P'	strongs='G3972' reference sort order problem!
+Array
+(
+    [REF] => 45_Act.015.035
+    [WORD] => Παῦλος
+    [STRONGS] => G3972
+    [MORPH] => N-NSM-P
+    [VARIANTS] => 
+)
+
+
+

@@ -1,0 +1,39 @@
+# HANDLERS
+RewriteEngine On
+Options +FollowSymlinks
+RewriteBase /
+
+# EXPIRATION, 30 DAYS
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault A2592000
+  <FilesMatch \.php$>
+    ExpiresActive Off
+  </FilesMatch>
+</IfModule>
+
+# REWRITE EPUB LIBRARY
+RewriteCond %{REQUEST_URI} ^/(.+)$ [NC]
+RewriteCond %{DOCUMENT_ROOT}/library/%{REQUEST_URI} -d
+RewriteCond %{DOCUMENT_ROOT}/library/%{REQUEST_URI}/META-INF -d
+RewriteCond %{DOCUMENT_ROOT}/library/%{REQUEST_URI}/mimetype -f
+RewriteRule ^ http://%{HTTP_HOST}?e=/xcdn%{REQUEST_URI} [L]
+
+# REWRITE EPUB
+RewriteCond %{REQUEST_URI} ^/.+\.epub$ [NC]
+RewriteCond %{DOCUMENT_ROOT}/library/%{REQUEST_URI} -f
+RewriteRule ^ http://%{HTTP_HOST}/library/%{REQUEST_URI} [L]
+
+# REWRITE INDEX
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L]
+
+# REWRITE INFINITE LOOP
+RewriteCond %{ENV:REDIRECT_STATUS} 200
+RewriteRule .* - [L]
+# php -- BEGIN cPanel-generated handler, do not edit
+# NOTE this account's php is controlled via FPM and the vhost, this is a place holder.
+# Do not edit. This next line is to support the cPanel php wrapper (php_cli).
+# AddType application/x-httpd-ea-php56 .php .phtml
+# php -- END cPanel-generated handler, do not edit

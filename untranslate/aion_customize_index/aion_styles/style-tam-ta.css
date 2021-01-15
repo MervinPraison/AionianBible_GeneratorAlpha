@@ -1,0 +1,18 @@
+/* Tamil */
+@font-face {
+	font-family:
+		'NotoSans';
+	src:
+		url('../aion_fonts/notosans-basic-regular.woff2')	format('woff2'),
+		url('../aion_fonts/notosans-basic-regular.woff')	format('woff'),
+		url('../aion_fonts/notosans-basic-regular.ttf')		format('truetype');
+}
+@font-face {
+	font-family:
+		'Tamil';
+	src:
+		url('../aion_fonts/notoseriftamil-semicondensed.woff2')	format('woff2'),
+		url('../aion_fonts/notoseriftamil-semicondensed.woff')	format('woff'),
+		url('../aion_fonts/notoseriftamil-semicondensed.ttf')	format('truetype');
+}
+span.tam-ta { font-family: 'Tamil', 'NotoSans', 'Arial', 'sans-serif'; }

@@ -1,0 +1,206 @@
+# File Name: ANAVIGATION.txt
+# File Size: 9623        
+# File Date: 01/12/2021 21:28:54
+# File Purpose: Supporting resource for the Aionian Bible project
+# File Location: http://resources.AionianBible.org
+# File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2021
+# File Generator: ABCMS (alpha)
+# File Accuracy: Contact publisher with corrections to file format or content
+# Publisher Name: Nainoia Inc
+# Publisher Contact: http://www.AionianBible.org/Publisher
+# Publisher Mission: http://www.AionianBible.org/Preface
+# Publisher Website: http://NAINOIA-INC.signedon.net
+# Publisher Facebook: https://www.Facebook.com/AionianBible
+#
+BIBLE	STATUS	MISSING
+Holy-Bible---Albanian-Tosk---Albanian-Bible		
+Holy-Bible---Arabic---Arabic-Van-Dyck-Bible		
+Holy-Bible---Aramaic---Aramaic-NT-Peshitta		
+Holy-Bible---Arapaho---Arapaho-Luke		
+Holy-Bible---Armenian---Armenian-Bible-Eastern		
+Holy-Bible---Armenian---Armenian-Bible-Eastern	VERSMISS	042-LUK-001-055
+Holy-Bible---Armenian---Armenian-Bible-Eastern	VERSMISS	042-LUK-001-070
+Holy-Bible---Armenian---Armenian-Bible-Western		
+Holy-Bible---Assamese---Assamese-Bible		
+Holy-Bible---Azerbaijani---Azerbaijani-Bible		
+Holy-Bible---Azerbaijani---Azerbaijani-Bible	VERSMISS	042-LUK-001-055
+Holy-Bible---Azerbaijani---Azerbaijani-Bible	VERSMISS	044-ACT-015-018
+Holy-Bible---Basque---Basque-NT		
+Holy-Bible---Beaver---Beaver-Mark		
+Holy-Bible---Bengali---Bengali-Bible		
+Holy-Bible---Breton---Breton-Gospels		
+Holy-Bible---Calo---Calo-Bible		
+Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms		
+Holy-Bible---Cherokee---Cherokee-New-Testament		
+Holy-Bible---Chinese---Chinese-Union-Version-Simplified		
+Holy-Bible---Chinese---Chinese-Union-Version-Traditional		
+Holy-Bible---Coptic---Coptic-Boharic-NT		
+Holy-Bible---Coptic---Coptic-NT		
+Holy-Bible---Croatian---Croatian-Bible		
+Holy-Bible---Czech---Czech-Bible-Kralicka		
+Holy-Bible---Danish---Danish-Bible		
+Holy-Bible---Dutch---Canisiusvertaling		
+Holy-Bible---Dutch---Statenvertaling		
+Holy-Bible---English---A-Conservative-Version		
+Holy-Bible---English---Aionian-Bible		
+Holy-Bible---English---American-Standard-Version-1901		
+Holy-Bible---English---Bible-in-Basic-English		
+Holy-Bible---English---Brenton-English-Septuagint		
+Holy-Bible---English---British-English-Septuagint-2012		
+Holy-Bible---English---Catholic-Public-Domain		
+Holy-Bible---English---Darby-Translation		
+Holy-Bible---English---Douay-Rheims-1899		
+Holy-Bible---English---Free-Bible-Version		
+Holy-Bible---English---Geneva-Bible		
+Holy-Bible---English---Gods-Living-Word		
+Holy-Bible---English---Jewish-Bible		
+Holy-Bible---English---King-James-Version		
+Holy-Bible---English---King-James-Version-American		
+Holy-Bible---English---King-James-Version-Updated		
+Holy-Bible---English---LXX2012-U-S-English		
+Holy-Bible---English---Montgomery-NT		
+Holy-Bible---English---New-Heart-Aramaic		
+Holy-Bible---English---New-Heart-Jehovah		
+Holy-Bible---English---New-Heart-Jesus-Messiah		
+Holy-Bible---English---New-Heart-Messianic		
+Holy-Bible---English---New-Heart-Standard		
+Holy-Bible---English---New-Heart-YHWH		
+Holy-Bible---English---One-Unity-Resource-Bible		
+Holy-Bible---English---Open-English-Bible-Commonwealth		
+Holy-Bible---English---Open-English-Bible-US		
+Holy-Bible---English---Revised-Version		
+Holy-Bible---English---Rotherham-Bible		
+Holy-Bible---English---Trans-Trans		
+Holy-Bible---English---Twentieth-Century-NT		
+Holy-Bible---English---Tyndale-Bible		
+Holy-Bible---English---Unlocked-Literal-Bible		
+Holy-Bible---English---Webster-Bible		
+Holy-Bible---English---Webster-Bible-Revised		
+Holy-Bible---English---Weymouth-NT		
+Holy-Bible---English---World-English-Bible		
+Holy-Bible---English---World-English-Bible-British-Edition		
+Holy-Bible---English---World-Messianic-Bible		
+Holy-Bible---English---World-Messianic-Bible-British-Edition		
+Holy-Bible---English---Wycliffe-Bible		
+Holy-Bible---English---Youngs-Literal-Translation		
+Holy-Bible---Esperanto---Esperanto-Bible		
+Holy-Bible---Finnish---Finnish-Bible		
+Holy-Bible---Finnish---Finnish-Pyha-Raamattu		
+Holy-Bible---Flemish---Flemish-De-Jonge-Bible		
+Holy-Bible---French---French-Crampon-Bible		
+Holy-Bible---French---French-Darby-Bible		
+Holy-Bible---French---French-Khan-Bible		
+Holy-Bible---French---French-LXX		
+Holy-Bible---French---French-Louis-Segond-1910-Bible		
+Holy-Bible---French---French-Martin		
+Holy-Bible---French---French-Oltramare-Bible		
+Holy-Bible---French---French-Ostervald-Bible		
+Holy-Bible---French---French-Perret-Gentil-Rilliet		
+Holy-Bible---French---French-Stapfer-Bible		
+Holy-Bible---French---French-Synodale-Bible		
+Holy-Bible---German---German-Elberfelder-1871		
+Holy-Bible---German---German-Elberfelder-1905		
+Holy-Bible---German---German-Katholiche-Riessler		
+Holy-Bible---German---German-Kautzsch-Weizsacker		
+Holy-Bible---German---German-Luther-Bible-1545		
+Holy-Bible---German---German-Luther-Bible-1912		
+Holy-Bible---German---German-Reinhardt-Bible		
+Holy-Bible---German---German-Tafel-Bible		
+Holy-Bible---Greek---Greek-Antoniades		
+Holy-Bible---Greek---Greek-Byzantine-Majority		
+Holy-Bible---Greek---Greek-LXX-Septuagint		
+Holy-Bible---Greek---Greek-Majority-Text		
+Holy-Bible---Greek---Greek-Nestle		
+Holy-Bible---Greek---Greek-Pickering-Family-35		
+Holy-Bible---Greek---Greek-Textus-Receptus		
+Holy-Bible---Greek---Greek-Textus-Receptus-Elzevir		
+Holy-Bible---Greek---Greek-Tischendorf		
+Holy-Bible---Greek---Greek-Tregelles		
+Holy-Bible---Greek---Greek-Westcott-Hort		
+Holy-Bible---Gujarati---Gujarati-Bible		
+Holy-Bible---Haitian---Haitian-Creole-Bible		
+Holy-Bible---Hawaiian---Hawaiian-Bible-1868		
+Holy-Bible---Hebrew---Hebrew-Aleppo-Codex		
+Holy-Bible---Hebrew---Hebrew-Masoretic-OT		
+Holy-Bible---Hebrew---Hebrew-Open-Scriptures		
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad		
+Holy-Bible---Hindi---Hindi-Bible		
+Holy-Bible---Hungarian---Hungarian-Karoli		
+Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible		
+Holy-Bible---Italian---Italian-Riveduta-Bible		
+Holy-Bible---Japanese---Japanese-Bungo-yaku		
+Holy-Bible---Japanese---Japanese-Electronic-Network-Bible		
+Holy-Bible---Japanese---Japanese-Kougo-yaku		
+Holy-Bible---Japanese---Japanese-Meiji-yaku		
+Holy-Bible---Japanese---Japanese-Raguet-yaku		
+Holy-Bible---Japanese---New-Japanese-New-Testament		
+Holy-Bible---Japanese---New-Japanese-New-Testament	VERSMISS	045-ROM-016-025
+Holy-Bible---Japanese---New-Japanese-New-Testament	VERSMISS	045-ROM-016-026
+Holy-Bible---Kannada---Kannada-Bible		
+Holy-Bible---Kannada---Kannada-Bible	VERSMISS	042-LUK-001-055
+Holy-Bible---Kannada---Kannada-Bible	VERSMISS	045-ROM-016-026
+Holy-Bible---Kannada---Kannada-Bible	VERSMISS	049-EPH-003-011
+Holy-Bible---Kannada---Kannada-Bible	VERSMISS	054-1TI-006-019
+Holy-Bible---Kannada---Kannada-Bible	VERSMISS	056-TIT-003-007
+Holy-Bible---Kannada---Kannada-Bible	VERSMISS	058-HEB-006-002
+Holy-Bible---Kannada---Kannada-Bible	VERSMISS	058-HEB-013-021
+Holy-Bible---Korean---Korean-RV		
+Holy-Bible---Korean---Korean-RV	VERSMISS	019-PSA-016-010
+Holy-Bible---Kosraean---Kosraean-Bible		
+Holy-Bible---Latin---Clementine-Vulgate-1598		
+Holy-Bible---Latin---Clementine-Vulgate-Conte		
+Holy-Bible---Latin---Clementine-Vulgate-Hetzenauer		
+Holy-Bible---Latin---Clementine-Vulgate-Tweedale		
+Holy-Bible---Latin---Vulgata-Sistina		
+Holy-Bible---Latin---Vulgate-Jerome		
+Holy-Bible---Latvian---Latvian-Gluck-Bible		
+Holy-Bible---Malagasy---Malagasy-Bible		
+Holy-Bible---Malayalam---Malayalam-Bible		
+Holy-Bible---Marathi---Marathi-Bible		
+Holy-Bible---Matu-Chin---Matupi-Chin-Bible		
+Holy-Bible---Myanmar---Myanmar-Burmese-Judson		
+Holy-Bible---Myanmar---Myanmar-Burmese-Judson	VERSMISS	042-LUK-001-070
+Holy-Bible---Ndebele---Ndebele-Bible		
+Holy-Bible---Norwegian---Norwegian-Bible		
+Holy-Bible---Norwegian---Norwegian-Student-Bible		
+Holy-Bible---Oriya---Oriya-Bible		
+Holy-Bible---Panjabi---Punjabi-Bible		
+Holy-Bible---Persian---Old-Persion-Version-Bible		
+Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet		
+Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet		
+Holy-Bible---Polish---Polish-Gdansk		
+Holy-Bible---Polish---Polish-Updated-Gdansk		
+Holy-Bible---Portuguese---Almeida-Bible-1911		
+Holy-Bible---Portuguese---Almeida-NewOrthography		
+Holy-Bible---Portuguese---Biblia-Livre		
+Holy-Bible---Portuguese---Portuguese-Trans-Trans		
+Holy-Bible---Romanian---Bayash-Luke		
+Holy-Bible---Rote-Dela---Rote-Dela-Bible		
+Holy-Bible---Rote-Dela---Rote-Dela-Bible	VERSMISS	058-HEB-013-021
+Holy-Bible---Russian---Russian-Synodal-Translation		
+Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark		
+Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script		
+Holy-Bible---Serbian---Serbian-Ekavski-Bible		
+Holy-Bible---Shona---Shona-Bible		
+Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth		
+Holy-Bible---Slovene---Slovene-Savli-Bible		
+Holy-Bible---Slovene---Slovene-Stritarja-NT		
+Holy-Bible---Somali---Somali-Bible		
+Holy-Bible---Spanish---Free-Bible		
+Holy-Bible---Spanish---Reina-Valera-1865		
+Holy-Bible---Spanish---Reina-Valera-1909		
+Holy-Bible---Spanish---Reina-Valera-NT-1858		
+Holy-Bible---Spanish---Sagradas-Escrituras-1569		
+Holy-Bible---Spanish---Sencillo-Bible		
+Holy-Bible---Swahili---Swahili-Bible		
+Holy-Bible---Swedish---Swedish-Bible		
+Holy-Bible---Swedish---Swedish-Bible-1873		
+Holy-Bible---Tagalog---Tagalog-Bible		
+Holy-Bible---Tamil---Tamil-Bible		
+Holy-Bible---Telugu---Telugu-Bible		
+Holy-Bible---Tongan---Revised-West-Version		
+Holy-Bible---Ukrainian---Ukrainian-NT		
+Holy-Bible---Ukrainian---Ukrainian-Ogienko		
+Holy-Bible---Urdu---Urdu-Bible		
+Holy-Bible---Vietnamese---Vietnamese-Bible		
+Holy-Bible---Vietnamese---Vietnamese-Bible-1934		

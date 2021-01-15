@@ -1,0 +1,18 @@
+/* Urdu */
+@font-face {
+	font-family:
+		'NotoSans';
+	src:
+		url('../aion_fonts/notosans-basic-regular.woff2')	format('woff2'),
+		url('../aion_fonts/notosans-basic-regular.woff')	format('woff'),
+		url('../aion_fonts/notosans-basic-regular.ttf')		format('truetype');
+}
+@font-face {
+	font-family:
+		'HindiUrdu';
+	src:
+		url('../aion_fonts/akshar_unicode.woff2')	format('woff2'),
+		url('../aion_fonts/akshar_unicode.woff')	format('woff'),
+		url('../aion_fonts/akshar_unicode.ttf')		format('truetype');
+}
+span.urd-ur { font-family: 'HindiUrdu', 'NotoSans', 'Arial', 'sans-serif'; }

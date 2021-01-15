@@ -1,0 +1,18 @@
+/* BabelStoneHan */
+@font-face {
+	font-family:
+		'NotoSans';
+	src:
+		url('../aion_fonts/notosans-basic-regular.woff2')	format('woff2'),
+		url('../aion_fonts/notosans-basic-regular.woff')	format('woff'),
+		url('../aion_fonts/notosans-basic-regular.ttf')		format('truetype');
+}
+@font-face {
+	font-family:
+		'BabelStoneHan';
+	src:
+		url('../aion_fonts/babelstonehan.woff2')	format('woff2'),
+		url('../aion_fonts/babelstonehan.woff')		format('woff'),
+		url('../aion_fonts/babelstonehan.ttf')		format('truetype');
+}
+span.babelstonehan { font-family: 'BabelStoneHan', 'NotoSans', 'Arial', 'sans-serif'; }

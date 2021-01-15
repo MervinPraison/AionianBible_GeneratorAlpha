@@ -1,0 +1,52 @@
+Strongs numbers cannot parse
+===
+
+
+FIX_REF	Greek	ref='42_Mrk.006.007'	word='δύο'	morph='A-APM-NUI'	strongs='G1417'
+FIX_REF	Greek	ref='42_Mrk.006.007'	word='δύο'	morph='A-APM-NUI'	strongs='G1417'	Tagged text repeated Hebrew reference or identical entry
+FIX_REF	Greek	ref='42_Mrk.006.039'	word='συμπόσια'	morph='N-APN'	strongs='G4849'
+FIX_REF	Greek	ref='42_Mrk.006.039'	word='συμπόσια'	morph='N-APN'	strongs='G4849'	Tagged text repeated Hebrew reference or identical entry
+FIX_REF	Greek	ref='42_Mrk.006.040'	word='πρασιαὶ'	morph='N-NPF'	strongs='G4237'
+FIX_REF	Greek	ref='42_Mrk.006.040'	word='πρασιαὶ'	morph='N-NPF'	strongs='G4237'	Tagged text repeated Hebrew reference or identical entry
+FIX_REF	Greek	ref='43_Luk.010.041'	word='Μάρθα'	morph='N-VSF-P'	strongs='G3136'
+FIX_REF	Greek	ref='43_Luk.010.041'	word='Μάρθα'	morph='N-VSF-P'	strongs='G3136'	Tagged text repeated Hebrew reference or identical entry
+FIX_REF	Greek	ref='43_Luk.020.031'	word='ὡσαύτως'	morph='ADV'	strongs='G5615'
+FIX_REF	Greek	ref='43_Luk.020.031'	word='ὡσαύτως'	morph='ADV'	strongs='G5615'	Tagged text repeated Hebrew reference or identical entry
+FIX_REF	Greek	ref='43_Luk.022.031'	word='Σίμων'	morph='N-VSM-P'	strongs='G4613'
+FIX_REF	Greek	ref='43_Luk.022.031'	word='Σίμων'	morph='N-VSM-P'	strongs='G4613'	Tagged text repeated Hebrew reference or identical entry
+FIX_REF	Greek	ref='43_Luk.022.043'	word='τοῦ'	morph=''	strongs=''	word with empty strongs
+FIX_REF	Greek	ref='43_Luk.023.017'	word='δέ'	morph=''	strongs=''	word with empty strongs
+FIX_REF	Greek	ref='44_Jhn.003.011'	word='ἀμὴν'	morph='HEB'	strongs='G281'
+FIX_REF	Greek	ref='44_Jhn.003.011'	word='ἀμὴν'	morph='HEB'	strongs='G281'	Tagged text repeated Hebrew reference or identical entry
+FIX_REF	Greek	ref='44_Jhn.012.024'	word='ἀμὴν'	morph='HEB'	strongs='G281'
+FIX_REF	Greek	ref='44_Jhn.012.024'	word='ἀμὴν'	morph='HEB'	strongs='G281'	Tagged text repeated Hebrew reference or identical entry
+FIX_REF	Greek	ref='44_Jhn.013.016'	word='ἀμὴν'	morph='HEB'	strongs='G281'
+FIX_REF	Greek	ref='44_Jhn.013.016'	word='ἀμὴν'	morph='HEB'	strongs='G281'	Tagged text repeated Hebrew reference or identical entry
+FIX_REF	Greek	ref='44_Jhn.013.020'	word='ἀμὴν'	morph='HEB'	strongs='G281'
+FIX_REF	Greek	ref='44_Jhn.013.020'	word='ἀμὴν'	morph='HEB'	strongs='G281'	Tagged text repeated Hebrew reference or identical entry
+FIX_REF	Greek	ref='44_Jhn.013.038'	word='ἀμὴν'	morph='HEB'	strongs='G281'
+FIX_REF	Greek	ref='44_Jhn.013.038'	word='ἀμὴν'	morph='HEB'	strongs='G281'	Tagged text repeated Hebrew reference or identical entry
+FIX_REF	Greek	ref='44_Jhn.019.022'	word='γέγραφα'	morph='V-2RAI-1S'	strongs='G1125'
+FIX_REF	Greek	ref='44_Jhn.019.022'	word='γέγραφα'	morph='V-2RAI-1S'	strongs='G1125'	Tagged text repeated Hebrew reference or identical entry
+FIX_REF	Greek	ref='44_Jhn.019.031'	word='ἦν'	morph='V-IAI-3S'	strongs='G1510'
+FIX_REF	Greek	ref='44_Jhn.019.031'	word='ἦν'	morph='V-IAI-3S'	strongs='G1510'	Tagged text repeated Hebrew reference or identical entry
+FIX_REF	Greek	ref='46_Rom.006.010'	word='ζῇ'	morph='V-PAI-3S'	strongs='G2198'
+FIX_REF	Greek	ref='46_Rom.006.010'	word='ζῇ'	morph='V-PAI-3S'	strongs='G2198'	Tagged text repeated Hebrew reference or identical entry
+FIX_REF	Greek	ref='46_Rom.008.017'	word='κληρονόμοι'	morph='N-NPM'	strongs='G2818'
+FIX_REF	Greek	ref='46_Rom.008.017'	word='κληρονόμοι'	morph='N-NPM'	strongs='G2818'	Tagged text repeated Hebrew reference or identical entry
+FIX_REF	Greek	ref='46_Rom.009.025'	word='ἠγαπημένην'	morph='V-RPP-ASF'	strongs='G25'
+FIX_REF	Greek	ref='46_Rom.009.025'	word='ἠγαπημένην'	morph='V-RPP-ASF'	strongs='G25'	Tagged text repeated Hebrew reference or identical entry
+FIX_REF	Greek	ref='46_Rom.009.030'	word='δικαιοσύνην'	morph='N-ASF'	strongs='G1343'
+FIX_REF	Greek	ref='46_Rom.009.030'	word='δικαιοσύνην'	morph='N-ASF'	strongs='G1343'	Tagged text repeated Hebrew reference or identical entry
+FIX_REF	Greek	ref='48_2Co.009.006'	word='φειδομένως'	morph='ADV'	strongs='G5340'
+FIX_REF	Greek	ref='48_2Co.009.006'	word='φειδομένως'	morph='ADV'	strongs='G5340'	Tagged text repeated Hebrew reference or identical entry
+FIX_REF	Greek	ref='49_Gal.005.025'	word='πνεύματι'	morph='N-DSN'	strongs='G4151'
+FIX_REF	Greek	ref='49_Gal.005.025'	word='πνεύματι'	morph='N-DSN'	strongs='G4151'	Tagged text repeated Hebrew reference or identical entry
+FIX_REF	Greek	ref='51_Php.002.008'	word='θανάτου'	morph='N-GSM'	strongs='G2288'
+FIX_REF	Greek	ref='51_Php.002.008'	word='θανάτου'	morph='N-GSM'	strongs='G2288'	Tagged text repeated Hebrew reference or identical entry
+FIX_REF	Greek	ref='59_Heb.010.037'	word='ὅσον'	morph='K-ASM'	strongs='G3745'
+FIX_REF	Greek	ref='59_Heb.010.037'	word='ὅσον'	morph='K-ASM'	strongs='G3745'	Tagged text repeated Hebrew reference or identical entry
+FIX_REF	Greek	ref='59_Heb.011.016'	word='θεὸς'	morph='N-NSM'	strongs='G2316'
+FIX_REF	Greek	ref='59_Heb.011.016'	word='θεὸς'	morph='N-NSM'	strongs='G2316'	Tagged text repeated Hebrew reference or identical entry
+FIX_REF	Greek	ref='67_Rev.004.008'	word='ἅγιος'	morph='A-NSM'	strongs='G40'
+FIX_REF	Greek	ref='67_Rev.004.008'	word='ἅγιος'	morph='A-NSM'	strongs='G40'	Tagged text repeated Hebrew reference or identical entry

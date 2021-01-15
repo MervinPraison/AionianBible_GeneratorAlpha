@@ -1,0 +1,37 @@
+#!/usr/local/bin/php
+<?php
+
+
+
+/*** init ***/
+require_once('./aion_common.php');
+AION_ECHO("START " . basename(__FILE__, '.php'));
+
+
+/*** save DATAWEBS! ***/
+define('LIVE',		'../www-production-files');
+define('STAGE',		'../www-stage');
+define('AION',		'./aion_customize_index');
+define('WEBS',		'/aion_datawebs');
+system('rm -rf '.STAGE.WEBS);				if (is_dir(STAGE.WEBS)) {		AION_ECHO('ERROR! rm -rf failed: '.STAGE.WEBS); }
+system('cp -R '.LIVE.WEBS.' '.STAGE.WEBS);	if (!is_dir(STAGE.WEBS)) {		AION_ECHO('ERROR! cp -R '.STAGE.WEBS); }
+system('rm -rf '.AION.WEBS);				if (is_dir(AION.WEBS)) {		AION_ECHO('ERROR! rm -rf failed: '.AION.WEBS); }
+system('cp -R '.LIVE.WEBS.' '.AION.WEBS);	if (!is_dir(AION.WEBS)) {		AION_ECHO('ERROR! cp -R '.AION.WEBS); }
+
+
+/*** database ***/
+$database = array();
+AION_FILE_DATA_GET(			'./aion_database/VERSIONS.txt',	'T_VERSIONS',	$database, 'BIBLE', TRUE );
+AION_FILE_DATA_GET(			'./aion_database/BOOKS.txt',	'T_BOOKS',		$database, 'BIBLE', TRUE );
+AION_FILE_DATA_GET(			'./aion_database/NUMBERS.txt',	'T_NUMBERS',	$database, 'BIBLE', TRUE );
+AION_FILE_DATABASE_BOOKS(	$database );
+AION_FILE_DATABASE_PUT(		$database, '../www-resources', LIVE.'/library', 'resources.AionianBible.org', FALSE);
+
+
+/*** install index ***/
+AION_INSTALL_INDEX(			'../www-production');
+AION_SITEMAP(				'../www-production');
+
+
+/*** done ***/
+AION_ECHO("DONE!");

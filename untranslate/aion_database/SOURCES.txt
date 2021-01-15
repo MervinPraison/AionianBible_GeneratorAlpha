@@ -1,0 +1,407 @@
+FILE	UNBOUND	POST	VALUE	SOURCE	DESTINATION
+FILE_FuturePress_ePub.js				https://github.com/futurepress/epubjs-reader/archive/master.zip	FILE_FuturePress_ePub.js.zip
+Holy-Bible---Albanian-Tosk---Albanian-Bible				http://ebible.org/sword/zip/alsSHQ1994eb.zip	Holy-Bible---Albanian-Tosk---Albanian-Bible.crosswire.zip
+Holy-Bible---Albanian-Tosk---Albanian-Bible				http://ebible.org/epub/alsSHQ.epub	Holy-Bible---Albanian-Tosk---Albanian-Bible.epub
+Holy-Bible---Albanian-Tosk---Albanian-Bible				http://ebible.org/pdf/alsSHQ/alsSHQ_prt.pdf	Holy-Bible---Albanian-Tosk---Albanian-Bible.pdf
+Holy-Bible---Albanian-Tosk---Albanian-Bible				http://ebible.org/Scriptures/alsSHQ_vpl.zip	Holy-Bible---Albanian-Tosk---Albanian-Bible.vpl.zip
+Holy-Bible---Arabic---Arabic-Van-Dyck-Bible				http://ebible.org/sword/zip/arbVDeb.zip	Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.crosswire.zip
+Holy-Bible---Arabic---Arabic-Van-Dyck-Bible				http://ebible.org/epub/arb-vd.epub	Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.epub
+Holy-Bible---Arabic---Arabic-Van-Dyck-Bible				http://ebible.org/pdf/arb-vd/arb-vd_prt.pdf	Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.pdf
+Holy-Bible---Arabic---Arabic-Van-Dyck-Bible				http://ebible.org/Scriptures/arb-vd_vpl.zip	Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.vpl.zip
+Holy-Bible---Aramaic---Aramaic-NT-Peshitta	Aramaic NT: Peshitta	version_download	peshitta_ucs2	http://unbound.biola.edu/index.cfm?method=downloads.downloadBible	Holy-Bible---Aramaic---Aramaic-NT-Peshitta.unbound.zip
+Holy-Bible---Arapaho---Arapaho-Luke				http://ebible.org/sword/zip/arp1903eb.zip	Holy-Bible---Arapaho---Arapaho-Luke.crosswire.zip
+Holy-Bible---Arapaho---Arapaho-Luke				http://ebible.org/epub/arp.epub	Holy-Bible---Arapaho---Arapaho-Luke.epub
+Holy-Bible---Arapaho---Arapaho-Luke				http://ebible.org/pdf/arp/arp_prt.pdf	Holy-Bible---Arapaho---Arapaho-Luke.pdf
+Holy-Bible---Arapaho---Arapaho-Luke				http://ebible.org/Scriptures/arp_vpl.zip	Holy-Bible---Arapaho---Arapaho-Luke.vpl.zip
+Holy-Bible---Armenian---Armenian-Bible-Eastern		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/ArmEastern.zip	Holy-Bible---Armenian---Armenian-Bible-Eastern.crosswire.zip
+Holy-Bible---Armenian---Armenian-Bible-Western		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/ArmWestern.zip	Holy-Bible---Armenian---Armenian-Bible-Western.crosswire.zip
+Holy-Bible---Assamese---Assamese-Bible				http://ebible.org/sword/zip/asmfb2017eb.zip	Holy-Bible---Assamese---Assamese-Bible.crosswire.zip
+Holy-Bible---Assamese---Assamese-Bible				http://ebible.org/epub/asmfb.epub	Holy-Bible---Assamese---Assamese-Bible.epub
+Holy-Bible---Assamese---Assamese-Bible				http://ebible.org/pdf/asmfb/asmfb_prt.pdf	Holy-Bible---Assamese---Assamese-Bible.pdf
+Holy-Bible---Assamese---Assamese-Bible				http://ebible.org/Scriptures/asmfb_vpl.zip	Holy-Bible---Assamese---Assamese-Bible.vpl.zip
+Holy-Bible---Azerbaijani---Azerbaijani-Bible				http://ebible.org/sword/zip/azb2008eb.zip	Holy-Bible---Azerbaijani---Azerbaijani-Bible.crosswire.zip
+Holy-Bible---Azerbaijani---Azerbaijani-Bible				http://ebible.org/epub/azb.epub	Holy-Bible---Azerbaijani---Azerbaijani-Bible.epub
+Holy-Bible---Azerbaijani---Azerbaijani-Bible				http://ebible.org/pdf/azb/azb_prt.pdf	Holy-Bible---Azerbaijani---Azerbaijani-Bible.pdf
+Holy-Bible---Azerbaijani---Azerbaijani-Bible				http://ebible.org/Scriptures/azb_vpl.zip	Holy-Bible---Azerbaijani---Azerbaijani-Bible.vpl.zip
+Holy-Bible---Basque---Basque-NT		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/BasHautin.zip	Holy-Bible---Basque---Basque-NT.crosswire.zip
+Holy-Bible---Beaver---Beaver-Mark				http://ebible.org/sword/zip/bea1886eb.zip	Holy-Bible---Beaver---Beaver-Mark.crosswire.zip
+Holy-Bible---Beaver---Beaver-Mark				http://ebible.org/epub/bea.epub	Holy-Bible---Beaver---Beaver-Mark.epub
+Holy-Bible---Beaver---Beaver-Mark				http://ebible.org/pdf/bea/bea_prt.pdf	Holy-Bible---Beaver---Beaver-Mark.pdf
+Holy-Bible---Beaver---Beaver-Mark				http://ebible.org/Scriptures/bea_vpl.zip	Holy-Bible---Beaver---Beaver-Mark.vpl.zip
+Holy-Bible---Bengali---Bengali-Bible				http://ebible.org/sword/zip/ben2017eb.zip	Holy-Bible---Bengali---Bengali-Bible.crosswire.zip
+Holy-Bible---Bengali---Bengali-Bible				http://ebible.org/epub/ben2017.epub	Holy-Bible---Bengali---Bengali-Bible.epub
+Holy-Bible---Bengali---Bengali-Bible				http://ebible.org/pdf/ben2017/ben2017_prt.pdf	Holy-Bible---Bengali---Bengali-Bible.pdf
+Holy-Bible---Bengali---Bengali-Bible				http://ebible.org/Scriptures/ben2017_vpl.zip	Holy-Bible---Bengali---Bengali-Bible.vpl.zip
+Holy-Bible---Breton---Breton-Gospels				http://ebible.org/sword/zip/breBRG1827eb.zip	Holy-Bible---Breton---Breton-Gospels.crosswire.zip
+Holy-Bible---Breton---Breton-Gospels				http://ebible.org/epub/breBRG.epub	Holy-Bible---Breton---Breton-Gospels.epub
+Holy-Bible---Breton---Breton-Gospels				http://ebible.org/pdf/breBRG/breBRG_prt.pdf	Holy-Bible---Breton---Breton-Gospels.pdf
+Holy-Bible---Breton---Breton-Gospels				http://ebible.org/Scriptures/breBRG_vpl.zip	Holy-Bible---Breton---Breton-Gospels.vpl.zip
+Holy-Bible---Calo---Calo-Bible		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Calo.zip	Holy-Bible---Calo---Calo-Bible.crosswire.zip
+Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms				http://ebible.org/sword/zip/cha1908eb.zip	Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms.crosswire.zip
+Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms				http://ebible.org/epub/cha.epub	Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms.epub
+Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms				http://ebible.org/pdf/cha/cha_prt.pdf	Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms.pdf
+Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms				http://ebible.org/Scriptures/cha_vpl.zip	Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms.vpl.zip
+Holy-Bible---Cherokee---Cherokee-New-Testament		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Che1860.zip	Holy-Bible---Cherokee---Cherokee-New-Testament.crosswire.zip
+Holy-Bible---Chinese---Chinese-Union-Version-Simplified				http://ebible.org/sword/zip/cmnCUs889eb.zip	Holy-Bible---Chinese---Chinese-Union-Version-Simplified.crosswire.zip
+Holy-Bible---Chinese---Chinese-Union-Version-Simplified				http://ebible.org/epub/cmn-cu89s.epub	Holy-Bible---Chinese---Chinese-Union-Version-Simplified.epub
+Holy-Bible---Chinese---Chinese-Union-Version-Simplified				http://ebible.org/pdf/cmn-cu89s/cmn-cu89s_prt.pdf	Holy-Bible---Chinese---Chinese-Union-Version-Simplified.pdf
+Holy-Bible---Chinese---Chinese-Union-Version-Simplified				http://ebible.org/Scriptures/cmn-cu89s_vpl.zip	Holy-Bible---Chinese---Chinese-Union-Version-Simplified.vpl.zip
+Holy-Bible---Chinese---Chinese-Union-Version-Traditional				http://ebible.org/sword/zip/cmnCUt1889eb.zip	Holy-Bible---Chinese---Chinese-Union-Version-Traditional.crosswire.zip
+Holy-Bible---Chinese---Chinese-Union-Version-Traditional				http://ebible.org/epub/cmn-cu89t.epub	Holy-Bible---Chinese---Chinese-Union-Version-Traditional.epub
+Holy-Bible---Chinese---Chinese-Union-Version-Traditional				http://ebible.org/pdf/cmn-cu89t/cmn-cu89t_prt.pdf	Holy-Bible---Chinese---Chinese-Union-Version-Traditional.pdf
+Holy-Bible---Chinese---Chinese-Union-Version-Traditional				http://ebible.org/Scriptures/cmn-cu89t_vpl.zip	Holy-Bible---Chinese---Chinese-Union-Version-Traditional.vpl.zip
+Holy-Bible---Coptic---Coptic-Boharic-NT				http://ebible.org/sword/zip/copBHC1000eb.zip	Holy-Bible---Coptic---Coptic-Boharic-NT.crosswire.zip
+Holy-Bible---Coptic---Coptic-Boharic-NT				http://ebible.org/epub/copbhc.epub	Holy-Bible---Coptic---Coptic-Boharic-NT.epub
+Holy-Bible---Coptic---Coptic-Boharic-NT				http://ebible.org/pdf/copbhc/copbhc_prt.pdf	Holy-Bible---Coptic---Coptic-Boharic-NT.pdf
+Holy-Bible---Coptic---Coptic-Boharic-NT				http://ebible.org/Scriptures/copbhc_vpl.zip	Holy-Bible---Coptic---Coptic-Boharic-NT.vpl.zip
+Holy-Bible---Coptic---Coptic-NT				http://ebible.org/sword/zip/copC2006eb.zip	Holy-Bible---Coptic---Coptic-NT.crosswire.zip
+Holy-Bible---Coptic---Coptic-NT				http://ebible.org/epub/copcnt.epub	Holy-Bible---Coptic---Coptic-NT.epub
+Holy-Bible---Coptic---Coptic-NT				http://ebible.org/pdf/copcnt/copcnt_prt.pdf	Holy-Bible---Coptic---Coptic-NT.pdf
+Holy-Bible---Coptic---Coptic-NT				http://ebible.org/Scriptures/copcnt_vpl.zip	Holy-Bible---Coptic---Coptic-NT.vpl.zip
+Holy-Bible---Croatian---Croatian-Bible		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/CroSaric.zip	Holy-Bible---Croatian---Croatian-Bible.crosswire.zip
+Holy-Bible---Czech---Czech-Bible-Kralicka		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/CzeBKR.zip	Holy-Bible---Czech---Czech-Bible-Kralicka.crosswire.zip
+Holy-Bible---Danish---Danish-Bible				http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/DaOT1931NT1907.zip	Holy-Bible---Danish---Danish-Bible.crosswire.zip
+Holy-Bible---Danish---Danish-Bible	Danish	version_download	danish_ucs2	http://unbound.biola.edu/index.cfm?method=downloads.downloadBible	Holy-Bible---Danish---Danish-Bible.unbound.zip
+Holy-Bible---Dutch---Canisiusvertaling		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/NlCanisius1939.zip	Holy-Bible---Dutch---Canisiusvertaling.crosswire.zip
+Holy-Bible---Dutch---Canisiusvertaling				http://ebible.org/epub/nld1939.epub	Holy-Bible---Dutch---Canisiusvertaling.epub
+Holy-Bible---Dutch---Canisiusvertaling				http://ebible.org/pdf/nld1939/nld1939_prt.pdf	Holy-Bible---Dutch---Canisiusvertaling.pdf
+Holy-Bible---Dutch---Statenvertaling				http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/DutSVV.zip	Holy-Bible---Dutch---Statenvertaling.crosswire.zip
+Holy-Bible---Dutch---Statenvertaling	Dutch Staten Vertaling	version_download	dutch_svv_ucs2	http://unbound.biola.edu/index.cfm?method=downloads.downloadBible	Holy-Bible---Dutch---Statenvertaling.unbound.zip
+Holy-Bible---English---A-Conservative-Version		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/ACV.zip	Holy-Bible---English---A-Conservative-Version.crosswire.zip
+Holy-Bible---English---Aionian-Bible				http://www.nheb.net/files/NHEB.txt	Holy-Bible---English---Aionian-Bible.txt
+Holy-Bible---English---American-Standard-Version-1901				http://ebible.org/sword/zip/engASV1901eb.zip	Holy-Bible---English---American-Standard-Version-1901.crosswire.zip
+Holy-Bible---English---American-Standard-Version-1901				http://ebible.org/epub/eng-asv.epub	Holy-Bible---English---American-Standard-Version-1901.epub
+Holy-Bible---English---American-Standard-Version-1901				http://ebible.org/pdf/eng-asv/eng-asv_prt.pdf	Holy-Bible---English---American-Standard-Version-1901.pdf
+Holy-Bible---English---American-Standard-Version-1901				http://ebible.org/Scriptures/eng-asv_vpl.zip	Holy-Bible---English---American-Standard-Version-1901.vpl.zip
+Holy-Bible---English---Bible-in-Basic-English				http://ebible.org/sword/zip/engBBE1964eb.zip	Holy-Bible---English---Bible-in-Basic-English.crosswire.zip
+Holy-Bible---English---Bible-in-Basic-English				http://ebible.org/epub/engBBE.epub	Holy-Bible---English---Bible-in-Basic-English.epub
+Holy-Bible---English---Bible-in-Basic-English				http://ebible.org/pdf/engBBE/engBBE_prt.pdf	Holy-Bible---English---Bible-in-Basic-English.pdf
+Holy-Bible---English---Bible-in-Basic-English				http://ebible.org/Scriptures/engBBE_vpl.zip	Holy-Bible---English---Bible-in-Basic-English.vpl.zip
+Holy-Bible---English---Brenton-English-Septuagint				http://ebible.org/sword/zip/engBrent1851eb.zip	Holy-Bible---English---Brenton-English-Septuagint.crosswire.zip
+Holy-Bible---English---Brenton-English-Septuagint				http://ebible.org/epub/eng-Brenton.epub	Holy-Bible---English---Brenton-English-Septuagint.epub
+Holy-Bible---English---Brenton-English-Septuagint				http://ebible.org/pdf/eng-Brenton/eng-Brenton_prt.pdf	Holy-Bible---English---Brenton-English-Septuagint.pdf
+Holy-Bible---English---Brenton-English-Septuagint				./aion_source/Holy-Bible---English---Brenton-English-Septuagint.vpl.zip	Holy-Bible---English---Brenton-English-Septuagint.vpl.zip
+Holy-Bible---English---British-English-Septuagint-2012				http://ebible.org/sword/zip/engUKLXX2012eb.zip	Holy-Bible---English---British-English-Septuagint-2012.crosswire.zip
+Holy-Bible---English---British-English-Septuagint-2012				http://ebible.org/epub/eng-uk-lxx2012.epub	Holy-Bible---English---British-English-Septuagint-2012.epub
+Holy-Bible---English---British-English-Septuagint-2012				http://ebible.org/pdf/eng-uk-lxx2012/eng-uk-lxx2012_prt.pdf	Holy-Bible---English---British-English-Septuagint-2012.pdf
+Holy-Bible---English---British-English-Septuagint-2012				./aion_source/Holy-Bible---English---British-English-Septuagint-2012.vpl.zip	Holy-Bible---English---British-English-Septuagint-2012.vpl.zip
+Holy-Bible---English---Catholic-Public-Domain		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/CPDV.zip	Holy-Bible---English---Catholic-Public-Domain.crosswire.zip
+Holy-Bible---English---Darby-Translation				http://ebible.org/sword/zip/engDBY1884eb.zip	Holy-Bible---English---Darby-Translation.crosswire.zip
+Holy-Bible---English---Darby-Translation				http://ebible.org/epub/engDBY.epub	Holy-Bible---English---Darby-Translation.epub
+Holy-Bible---English---Darby-Translation				http://ebible.org/pdf/engDBY/engDBY_prt.pdf	Holy-Bible---English---Darby-Translation.pdf
+Holy-Bible---English---Darby-Translation				http://ebible.org/Scriptures/engDBY_vpl.zip	Holy-Bible---English---Darby-Translation.vpl.zip
+Holy-Bible---English---Douay-Rheims-1899				http://ebible.org/sword/zip/engDRA1899eb.zip	Holy-Bible---English---Douay-Rheims-1899.crosswire.zip
+Holy-Bible---English---Douay-Rheims-1899				http://ebible.org/epub/engDRA.epub	Holy-Bible---English---Douay-Rheims-1899.epub
+Holy-Bible---English---Douay-Rheims-1899				http://ebible.org/pdf/engDRA/engDRA_prt.pdf	Holy-Bible---English---Douay-Rheims-1899.pdf
+Holy-Bible---English---Douay-Rheims-1899				http://ebible.org/Scriptures/engDRA_vpl.zip	Holy-Bible---English---Douay-Rheims-1899.vpl.zip
+Holy-Bible---English---Free-Bible-Version				http://ebible.org/sword/zip/engfbv2018eb.zip	Holy-Bible---English---Free-Bible-Version.crosswire.zip
+Holy-Bible---English---Free-Bible-Version				http://ebible.org/epub/engfbv.epub	Holy-Bible---English---Free-Bible-Version.epub
+Holy-Bible---English---Free-Bible-Version				http://ebible.org/pdf/engfbv/engfbv_prt.pdf	Holy-Bible---English---Free-Bible-Version.pdf
+Holy-Bible---English---Free-Bible-Version				http://ebible.org/Scriptures/engfbv_vpl.zip	Holy-Bible---English---Free-Bible-Version.vpl.zip
+Holy-Bible---English---Geneva-Bible				http://ebible.org/sword/zip/enggnv1599eb.zip	Holy-Bible---English---Geneva-Bible.crosswire.zip
+Holy-Bible---English---Geneva-Bible				http://ebible.org/epub/enggnv.epub	Holy-Bible---English---Geneva-Bible.epub
+Holy-Bible---English---Geneva-Bible				http://ebible.org/pdf/enggnv/enggnv_prt.pdf	Holy-Bible---English---Geneva-Bible.pdf
+Holy-Bible---English---Geneva-Bible				http://ebible.org/Scriptures/enggnv_vpl.zip	Holy-Bible---English---Geneva-Bible.vpl.zip
+Holy-Bible---English---Gods-Living-Word				http://ebible.org/sword/zip/engGLW1996eb.zip	Holy-Bible---English---Gods-Living-Word.crosswire.zip
+Holy-Bible---English---Gods-Living-Word				http://ebible.org/epub/eng-glw.epub	Holy-Bible---English---Gods-Living-Word.epub
+Holy-Bible---English---Gods-Living-Word				http://ebible.org/pdf/eng-glw/eng-glw_prt.pdf	Holy-Bible---English---Gods-Living-Word.pdf
+Holy-Bible---English---Gods-Living-Word				http://ebible.org/Scriptures/eng-glw_vpl.zip	Holy-Bible---English---Gods-Living-Word.vpl.zip
+Holy-Bible---English---Jewish-Bible				http://ebible.org/sword/zip/engjps1917eb.zip	Holy-Bible---English---Jewish-Bible.crosswire.zip
+Holy-Bible---English---Jewish-Bible				http://ebible.org/epub/engjps.epub	Holy-Bible---English---Jewish-Bible.epub
+Holy-Bible---English---Jewish-Bible				http://ebible.org/pdf/engjps/engjps_prt.pdf	Holy-Bible---English---Jewish-Bible.pdf
+Holy-Bible---English---Jewish-Bible				http://ebible.org/Scriptures/engjps_vpl.zip	Holy-Bible---English---Jewish-Bible.vpl.zip
+Holy-Bible---English---King-James-Version				http://ebible.org/sword/zip/engKJV1769eb.zip	Holy-Bible---English---King-James-Version.crosswire.zip
+Holy-Bible---English---King-James-Version				http://ebible.org/epub/eng-kjv2006.epub	Holy-Bible---English---King-James-Version.epub
+Holy-Bible---English---King-James-Version				http://ebible.org/pdf/eng-kjv2006/eng-kjv2006_prt.pdf	Holy-Bible---English---King-James-Version.pdf
+Holy-Bible---English---King-James-Version				http://ebible.org/Scriptures/eng-kjv2006_vpl.zip	Holy-Bible---English---King-James-Version.vpl.zip
+Holy-Bible---English---King-James-Version-American		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/AKJV.zip	Holy-Bible---English---King-James-Version-American.crosswire.zip
+Holy-Bible---English---King-James-Version-Updated		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/UKJV.zip	Holy-Bible---English---King-James-Version-Updated.crosswire.zip
+Holy-Bible---English---LXX2012-U-S-English				http://ebible.org/sword/zip/engLXX2012eb.zip	Holy-Bible---English---LXX2012-U-S-English.crosswire.zip
+Holy-Bible---English---LXX2012-U-S-English				http://ebible.org/epub/eng-lxx2012.epub	Holy-Bible---English---LXX2012-U-S-English.epub
+Holy-Bible---English---LXX2012-U-S-English				http://ebible.org/pdf/eng-lxx2012/eng-lxx2012_prt.pdf	Holy-Bible---English---LXX2012-U-S-English.pdf
+Holy-Bible---English---LXX2012-U-S-English				./aion_source/Holy-Bible---English---LXX2012-U-S-English.vpl.zip	Holy-Bible---English---LXX2012-U-S-English.vpl.zip
+Holy-Bible---English---Montgomery-NT		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Montgomery.zip	Holy-Bible---English---Montgomery-NT.crosswire.zip
+Holy-Bible---English---New-Heart-Aramaic				http://www.nheb.net/files/NHEB-NT-AN.txt	Holy-Bible---English---New-Heart-Aramaic.txt
+Holy-Bible---English---New-Heart-Jehovah				http://www.nheb.net/files/NHEB-JE.txt	Holy-Bible---English---New-Heart-Jehovah.txt
+Holy-Bible---English---New-Heart-Jesus-Messiah				http://www.nheb.net/files/NHEB-JM.txt	Holy-Bible---English---New-Heart-Jesus-Messiah.txt
+Holy-Bible---English---New-Heart-Messianic				http://www.nheb.net/files/NHEB-ME.txt	Holy-Bible---English---New-Heart-Messianic.txt
+Holy-Bible---English---New-Heart-Standard				http://www.nheb.net/files/NHEB.txt	Holy-Bible---English---New-Heart-Standard.txt
+Holy-Bible---English---New-Heart-YHWH				http://www.nheb.net/files/NHEB-YHWH.txt	Holy-Bible---English---New-Heart-YHWH.txt
+Holy-Bible---English---One-Unity-Resource-Bible				http://ebible.org/sword/zip/engourb2016eb.zip	Holy-Bible---English---One-Unity-Resource-Bible.crosswire.zip
+Holy-Bible---English---One-Unity-Resource-Bible				http://ebible.org/epub/engourb.epub	Holy-Bible---English---One-Unity-Resource-Bible.epub
+Holy-Bible---English---One-Unity-Resource-Bible				http://ebible.org/pdf/engourb/engourb_prt.pdf	Holy-Bible---English---One-Unity-Resource-Bible.pdf
+Holy-Bible---English---One-Unity-Resource-Bible				http://ebible.org/Scriptures/engourb_vpl.zip	Holy-Bible---English---One-Unity-Resource-Bible.vpl.zip
+Holy-Bible---English---Open-English-Bible-Commonwealth				http://ebible.org/sword/zip/engoebcweb.zip	Holy-Bible---English---Open-English-Bible-Commonwealth.crosswire.zip
+Holy-Bible---English---Open-English-Bible-Commonwealth				http://ebible.org/epub/engoebcw.epub	Holy-Bible---English---Open-English-Bible-Commonwealth.epub
+Holy-Bible---English---Open-English-Bible-Commonwealth				http://ebible.org/pdf/engoebcw/engoebcw_prt.pdf	Holy-Bible---English---Open-English-Bible-Commonwealth.pdf
+Holy-Bible---English---Open-English-Bible-Commonwealth				http://ebible.org/Scriptures/engoebcw_vpl.zip	Holy-Bible---English---Open-English-Bible-Commonwealth.vpl.zip
+Holy-Bible---English---Open-English-Bible-US				http://ebible.org/sword/zip/engoebuseb.zip	Holy-Bible---English---Open-English-Bible-US.crosswire.zip
+Holy-Bible---English---Open-English-Bible-US				http://ebible.org/epub/engoebus.epub	Holy-Bible---English---Open-English-Bible-US.epub
+Holy-Bible---English---Open-English-Bible-US				http://ebible.org/pdf/engoebus/engoebus_prt.pdf	Holy-Bible---English---Open-English-Bible-US.pdf
+Holy-Bible---English---Open-English-Bible-US				http://ebible.org/Scriptures/engoebus_vpl.zip	Holy-Bible---English---Open-English-Bible-US.vpl.zip
+Holy-Bible---English---Revised-Version				http://ebible.org/sword/zip/engRV1895eb.zip	Holy-Bible---English---Revised-Version.crosswire.zip
+Holy-Bible---English---Revised-Version				http://ebible.org/epub/eng-rv.epub	Holy-Bible---English---Revised-Version.epub
+Holy-Bible---English---Revised-Version				http://ebible.org/pdf/eng-rv/eng-rv_prt.pdf	Holy-Bible---English---Revised-Version.pdf
+Holy-Bible---English---Revised-Version				http://ebible.org/Scriptures/eng-rv_vpl.zip	Holy-Bible---English---Revised-Version.vpl.zip
+Holy-Bible---English---Rotherham-Bible		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Rotherham.zip	Holy-Bible---English---Rotherham-Bible.crosswire.zip
+Holy-Bible---English---Trans-Trans				http://ebible.org/sword/zip/engT4T2014eb.zip	Holy-Bible---English---Trans-Trans.crosswire.zip
+Holy-Bible---English---Trans-Trans				http://ebible.org/epub/eng-t4t.epub	Holy-Bible---English---Trans-Trans.epub
+Holy-Bible---English---Trans-Trans				http://ebible.org/pdf/eng-t4t/eng-t4t_prt.pdf	Holy-Bible---English---Trans-Trans.pdf
+Holy-Bible---English---Trans-Trans				http://ebible.org/Scriptures/eng-t4t_vpl.zip	Holy-Bible---English---Trans-Trans.vpl.zip
+Holy-Bible---English---Twentieth-Century-NT		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Twenty.zip	Holy-Bible---English---Twentieth-Century-NT.crosswire.zip
+Holy-Bible---English---Tyndale-Bible		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Tyndale.zip	Holy-Bible---English---Tyndale-Bible.crosswire.zip
+Holy-Bible---English---Unlocked-Literal-Bible				http://ebible.org/sword/zip/engULBeb.zip	Holy-Bible---English---Unlocked-Literal-Bible.crosswire.zip
+Holy-Bible---English---Unlocked-Literal-Bible				http://ebible.org/epub/engULB.epub	Holy-Bible---English---Unlocked-Literal-Bible.epub
+Holy-Bible---English---Unlocked-Literal-Bible				http://ebible.org/pdf/engULB/engULB_prt.pdf	Holy-Bible---English---Unlocked-Literal-Bible.pdf
+Holy-Bible---English---Unlocked-Literal-Bible				http://ebible.org/Scriptures/engULB_vpl.zip	Holy-Bible---English---Unlocked-Literal-Bible.vpl.zip
+Holy-Bible---English---Webster-Bible	Webster Bible	version_download	webster	http://unbound.biola.edu/index.cfm?method=downloads.downloadBible	Holy-Bible---English---Webster-Bible.unbound.zip
+Holy-Bible---English---Webster-Bible-Revised		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/RWebster.zip	Holy-Bible---English---Webster-Bible-Revised.crosswire.zip
+Holy-Bible---English---Weymouth-NT	Weymouth NT	version_download	weymouth_nt	http://unbound.biola.edu/index.cfm?method=downloads.downloadBible	Holy-Bible---English---Weymouth-NT.unbound.zip
+Holy-Bible---English---World-English-Bible				http://ebible.org/sword/zip/engWEB2015peb.zip	Holy-Bible---English---World-English-Bible.crosswire.zip
+Holy-Bible---English---World-English-Bible				http://ebible.org/epub/engwebp.epub	Holy-Bible---English---World-English-Bible.epub
+Holy-Bible---English---World-English-Bible				http://ebible.org/pdf/engwebp/engwebp_prt.pdf	Holy-Bible---English---World-English-Bible.pdf
+Holy-Bible---English---World-English-Bible				http://ebible.org/Scriptures/engwebp_vpl.zip	Holy-Bible---English---World-English-Bible.vpl.zip
+Holy-Bible---English---World-English-Bible-British-Edition				http://ebible.org/sword/zip/engWEBBE2015peb.zip	Holy-Bible---English---World-English-Bible-British-Edition.crosswire.zip
+Holy-Bible---English---World-English-Bible-British-Edition				http://ebible.org/epub/engwebpb.epub	Holy-Bible---English---World-English-Bible-British-Edition.epub
+Holy-Bible---English---World-English-Bible-British-Edition				http://ebible.org/pdf/engwebpb/engwebpb_prt.pdf	Holy-Bible---English---World-English-Bible-British-Edition.pdf
+Holy-Bible---English---World-English-Bible-British-Edition				http://ebible.org/Scriptures/engwebpb_vpl.zip	Holy-Bible---English---World-English-Bible-British-Edition.vpl.zip
+Holy-Bible---English---World-Messianic-Bible				http://ebible.org/sword/zip/engWMB2015eb.zip	Holy-Bible---English---World-Messianic-Bible.crosswire.zip
+Holy-Bible---English---World-Messianic-Bible				http://ebible.org/epub/engwmb.epub	Holy-Bible---English---World-Messianic-Bible.epub
+Holy-Bible---English---World-Messianic-Bible				http://ebible.org/pdf/engwmb/engwmb_prt.pdf	Holy-Bible---English---World-Messianic-Bible.pdf
+Holy-Bible---English---World-Messianic-Bible				http://ebible.org/Scriptures/engwmb_vpl.zip	Holy-Bible---English---World-Messianic-Bible.vpl.zip
+Holy-Bible---English---World-Messianic-Bible-British-Edition				http://ebible.org/sword/zip/engWMBB2015eb.zip	Holy-Bible---English---World-Messianic-Bible-British-Edition.crosswire.zip
+Holy-Bible---English---World-Messianic-Bible-British-Edition				http://ebible.org/epub/engwmbb.epub	Holy-Bible---English---World-Messianic-Bible-British-Edition.epub
+Holy-Bible---English---World-Messianic-Bible-British-Edition				http://ebible.org/pdf/engwmbb/engwmbb_prt.pdf	Holy-Bible---English---World-Messianic-Bible-British-Edition.pdf
+Holy-Bible---English---World-Messianic-Bible-British-Edition				http://ebible.org/Scriptures/engwmbb_vpl.zip	Holy-Bible---English---World-Messianic-Bible-British-Edition.vpl.zip
+Holy-Bible---English---Wycliffe-Bible		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Wycliffe.zip	Holy-Bible---English---Wycliffe-Bible.crosswire.zip
+Holy-Bible---English---Youngs-Literal-Translation	English: Young's Literal Translation	version_download	ylt	http://unbound.biola.edu/index.cfm?method=downloads.downloadBible	Holy-Bible---English---Youngs-Literal-Translation.unbound.zip
+Holy-Bible---Esperanto---Esperanto-Bible		SWORD		./aion_source/Esperanto.zip	Holy-Bible---Esperanto---Esperanto-Bible.crosswire.zip
+Holy-Bible---Finnish---Finnish-Bible	Finnish: Bible (1776)	version_download	finnish_1776_ucs2	http://unbound.biola.edu/index.cfm?method=downloads.downloadBible	Holy-Bible---Finnish---Finnish-Bible.unbound.zip
+Holy-Bible---Finnish---Finnish-Pyha-Raamattu	Finnish: Pyhä Raamattu (1933/1938)	version_download	finnish_pr_1938_ucs2	http://unbound.biola.edu/index.cfm?method=downloads.downloadBible	Holy-Bible---Finnish---Finnish-Pyha-Raamattu.unbound.zip
+Holy-Bible---Flemish---Flemish-De-Jonge-Bible		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/vlsJoNT.zip	Holy-Bible---Flemish---Flemish-De-Jonge-Bible.crosswire.zip
+Holy-Bible---French---French-Crampon-Bible		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/FreCrampon.zip	Holy-Bible---French---French-Crampon-Bible.crosswire.zip
+Holy-Bible---French---French-Darby-Bible		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/FreJND.zip	Holy-Bible---French---French-Darby-Bible.crosswire.zip
+Holy-Bible---French---French-Khan-Bible		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/FreKhan.zip	Holy-Bible---French---French-Khan-Bible.crosswire.zip
+Holy-Bible---French---French-Louis-Segond-1910-Bible				http://ebible.org/sword/zip/fraLSG1910eb.zip	Holy-Bible---French---French-Louis-Segond-1910-Bible.crosswire.zip
+Holy-Bible---French---French-Louis-Segond-1910-Bible				http://ebible.org/epub/fraLSG.epub	Holy-Bible---French---French-Louis-Segond-1910-Bible.epub
+Holy-Bible---French---French-Louis-Segond-1910-Bible				http://ebible.org/pdf/fraLSG/fraLSG_prt.pdf	Holy-Bible---French---French-Louis-Segond-1910-Bible.pdf
+Holy-Bible---French---French-Louis-Segond-1910-Bible				http://ebible.org/Scriptures/fraLSG_vpl.zip	Holy-Bible---French---French-Louis-Segond-1910-Bible.vpl.zip
+Holy-Bible---French---French-LXX		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/FreLXX.zip	Holy-Bible---French---French-LXX.crosswire.zip
+Holy-Bible---French---French-Martin				http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/FreBDM1744.zip	Holy-Bible---French---French-Martin.crosswire.zip
+Holy-Bible---French---French-Martin	French Martin	version_download	french_martin_1744_ucs2	http://unbound.biola.edu/index.cfm?method=downloads.downloadBible	Holy-Bible---French---French-Martin.unbound.zip
+Holy-Bible---French---French-Oltramare-Bible		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/FreOltramare1874.zip	Holy-Bible---French---French-Oltramare-Bible.crosswire.zip
+Holy-Bible---French---French-Ostervald-Bible				http://ebible.org/sword/zip/fraFOB1744eb.zip	Holy-Bible---French---French-Ostervald-Bible.crosswire.zip
+Holy-Bible---French---French-Ostervald-Bible				http://ebible.org/epub/fra_fob.epub	Holy-Bible---French---French-Ostervald-Bible.epub
+Holy-Bible---French---French-Ostervald-Bible				http://ebible.org/pdf/fra_fob/fra_fob_prt.pdf	Holy-Bible---French---French-Ostervald-Bible.pdf
+Holy-Bible---French---French-Ostervald-Bible				http://ebible.org/Scriptures/fra_fob_vpl.zip	Holy-Bible---French---French-Ostervald-Bible.vpl.zip
+Holy-Bible---French---French-Perret-Gentil-Rilliet		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/FrePGR.zip	Holy-Bible---French---French-Perret-Gentil-Rilliet.crosswire.zip
+Holy-Bible---French---French-Stapfer-Bible		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/FreStapfer1889.zip	Holy-Bible---French---French-Stapfer-Bible.crosswire.zip
+Holy-Bible---French---French-Synodale-Bible		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/FreSynodale1921.zip	Holy-Bible---French---French-Synodale-Bible.crosswire.zip
+Holy-Bible---German---German-Elberfelder-1871	German: Elberfelder (1871)	version_download	german_elberfelder_1871_ucs2	http://unbound.biola.edu/index.cfm?method=downloads.downloadBible	Holy-Bible---German---German-Elberfelder-1871.unbound.zip
+Holy-Bible---German---German-Elberfelder-1905	German: Elberfelder (1905)	version_download	german_elberfelder_1905_ucs2	http://unbound.biola.edu/index.cfm?method=downloads.downloadBible	Holy-Bible---German---German-Elberfelder-1905.unbound.zip
+Holy-Bible---German---German-Katholiche-Riessler		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/GerGruenewald.zip	Holy-Bible---German---German-Katholiche-Riessler.crosswire.zip
+Holy-Bible---German---German-Kautzsch-Weizsacker				http://ebible.org/sword/zip/deutkw1906eb.zip	Holy-Bible---German---German-Kautzsch-Weizsacker.crosswire.zip
+Holy-Bible---German---German-Kautzsch-Weizsacker				http://ebible.org/epub/deutkw.epub	Holy-Bible---German---German-Kautzsch-Weizsacker.epub
+Holy-Bible---German---German-Kautzsch-Weizsacker				http://ebible.org/pdf/deutkw/deutkw_prt.pdf	Holy-Bible---German---German-Kautzsch-Weizsacker.pdf
+Holy-Bible---German---German-Kautzsch-Weizsacker				http://ebible.org/Scriptures/deutkw_vpl.zip	Holy-Bible---German---German-Kautzsch-Weizsacker.vpl.zip
+Holy-Bible---German---German-Luther-Bible-1545	German: Luther (1545)	version_download	german_luther_1545_ucs2	http://unbound.biola.edu/index.cfm?method=downloads.downloadBible	Holy-Bible---German---German-Luther-Bible-1545.unbound.zip
+Holy-Bible---German---German-Luther-Bible-1912				http://ebible.org/sword/zip/deu1912eb.zip	Holy-Bible---German---German-Luther-Bible-1912.crosswire.zip
+Holy-Bible---German---German-Luther-Bible-1912				http://ebible.org/epub/deu1912.epub	Holy-Bible---German---German-Luther-Bible-1912.epub
+Holy-Bible---German---German-Luther-Bible-1912				http://ebible.org/pdf/deu1912/deu1912_prt.pdf	Holy-Bible---German---German-Luther-Bible-1912.pdf
+Holy-Bible---German---German-Luther-Bible-1912				http://ebible.org/Scriptures/deu1912_vpl.zip	Holy-Bible---German---German-Luther-Bible-1912.vpl.zip
+Holy-Bible---German---German-Reinhardt-Bible		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/GerReinhardt.zip	Holy-Bible---German---German-Reinhardt-Bible.crosswire.zip
+Holy-Bible---German---German-Tafel-Bible		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/GerTafel.zip	Holy-Bible---German---German-Tafel-Bible.crosswire.zip
+Holy-Bible---Greek---Greek-Antoniades		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Antoniades.zip	Holy-Bible---Greek---Greek-Antoniades.crosswire.zip
+Holy-Bible---Greek---Greek-Byzantine-Majority				http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Byz.zip	Holy-Bible---Greek---Greek-Byzantine-Majority.crosswire.zip
+Holy-Bible---Greek---Greek-Byzantine-Majority	Greek NT Byzantine/Majority Text	version_download	greek_byzantine_2000_ucs2	http://unbound.biola.edu/index.cfm?method=downloads.downloadBible	Holy-Bible---Greek---Greek-Byzantine-Majority.unbound.zip
+Holy-Bible---Greek---Greek-LXX-Septuagint		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/LXX.zip	Holy-Bible---Greek---Greek-LXX-Septuagint.crosswire.zip
+Holy-Bible---Greek---Greek-Majority-Text				http://ebible.org/sword/zip/grcMT2000eb.zip	Holy-Bible---Greek---Greek-Majority-Text.crosswire.zip
+Holy-Bible---Greek---Greek-Majority-Text				http://ebible.org/epub/grcmt.epub	Holy-Bible---Greek---Greek-Majority-Text.epub
+Holy-Bible---Greek---Greek-Majority-Text				http://ebible.org/pdf/grcmt/grcmt_prt.pdf	Holy-Bible---Greek---Greek-Majority-Text.pdf
+Holy-Bible---Greek---Greek-Majority-Text				http://ebible.org/Scriptures/grcmt_vpl.zip	Holy-Bible---Greek---Greek-Majority-Text.vpl.zip
+Holy-Bible---Greek---Greek-Nestle		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Nestle1904.zip	Holy-Bible---Greek---Greek-Nestle.crosswire.zip
+Holy-Bible---Greek---Greek-Pickering-Family-35		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/f35.zip	Holy-Bible---Greek---Greek-Pickering-Family-35.crosswire.zip
+Holy-Bible---Greek---Greek-Textus-Receptus				http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/TR.zip	Holy-Bible---Greek---Greek-Textus-Receptus.crosswire.zip
+Holy-Bible---Greek---Greek-Textus-Receptus	Greek NT Textus Receptus	version_download	greek_textus_receptus_ucs2	http://unbound.biola.edu/index.cfm?method=downloads.downloadBible	Holy-Bible---Greek---Greek-Textus-Receptus.unbound.zip
+Holy-Bible---Greek---Greek-Textus-Receptus-Elzevir		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Elzevir.zip	Holy-Bible---Greek---Greek-Textus-Receptus-Elzevir.crosswire.zip
+Holy-Bible---Greek---Greek-Tischendorf				http://ebible.org/sword/zip/grcTischeb.zip	Holy-Bible---Greek---Greek-Tischendorf.crosswire.zip
+Holy-Bible---Greek---Greek-Tischendorf				http://ebible.org/epub/grc-tisch.epub	Holy-Bible---Greek---Greek-Tischendorf.epub
+Holy-Bible---Greek---Greek-Tischendorf				http://ebible.org/pdf/grc-tisch/grc-tisch_prt.pdf	Holy-Bible---Greek---Greek-Tischendorf.pdf
+Holy-Bible---Greek---Greek-Tischendorf				http://ebible.org/Scriptures/grc-tisch_vpl.zip	Holy-Bible---Greek---Greek-Tischendorf.vpl.zip
+Holy-Bible---Greek---Greek-Tregelles		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/TNT.zip	Holy-Bible---Greek---Greek-Tregelles.crosswire.zip
+Holy-Bible---Greek---Greek-Westcott-Hort				http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/WHNU.zip	Holy-Bible---Greek---Greek-Westcott-Hort.crosswire.zip
+Holy-Bible---Greek---Greek-Westcott-Hort	Greek NT Westcott/Hort	version_download	greek_WH_UBS4_ucs2	http://unbound.biola.edu/index.cfm?method=downloads.downloadBible	Holy-Bible---Greek---Greek-Westcott-Hort.unbound.zip
+Holy-Bible---Gujarati---Gujarati-Bible				http://ebible.org/sword/zip/guj2017eb.zip	Holy-Bible---Gujarati---Gujarati-Bible.crosswire.zip
+Holy-Bible---Gujarati---Gujarati-Bible				http://ebible.org/epub/guj2017.epub	Holy-Bible---Gujarati---Gujarati-Bible.epub
+Holy-Bible---Gujarati---Gujarati-Bible				http://ebible.org/pdf/guj2017/guj2017_prt.pdf	Holy-Bible---Gujarati---Gujarati-Bible.pdf
+Holy-Bible---Gujarati---Gujarati-Bible				http://ebible.org/Scriptures/guj2017_vpl.zip	Holy-Bible---Gujarati---Gujarati-Bible.vpl.zip
+Holy-Bible---Haitian---Haitian-Creole-Bible		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Haitian.zip	Holy-Bible---Haitian---Haitian-Creole-Bible.crosswire.zip
+Holy-Bible---Hawaiian---Hawaiian-Bible-1868				http://ebible.org/sword/zip/haw1868eb.zip	Holy-Bible---Hawaiian---Hawaiian-Bible-1868.crosswire.zip
+Holy-Bible---Hawaiian---Hawaiian-Bible-1868				http://ebible.org/epub/haw1868.epub	Holy-Bible---Hawaiian---Hawaiian-Bible-1868.epub
+Holy-Bible---Hawaiian---Hawaiian-Bible-1868				http://ebible.org/pdf/haw1868/haw1868_prt.pdf	Holy-Bible---Hawaiian---Hawaiian-Bible-1868.pdf
+Holy-Bible---Hawaiian---Hawaiian-Bible-1868				http://ebible.org/Scriptures/haw1868_vpl.zip	Holy-Bible---Hawaiian---Hawaiian-Bible-1868.vpl.zip
+Holy-Bible---Hebrew---Hebrew-Aleppo-Codex	Hebrew OT: Aleppo Codex	version_download	aleppo_ucs2	http://unbound.biola.edu/index.cfm?method=downloads.downloadBible	Holy-Bible---Hebrew---Hebrew-Aleppo-Codex.unbound.zip
+Holy-Bible---Hebrew---Hebrew-Masoretic-OT				http://ebible.org/sword/zip/hboMTeb.zip	Holy-Bible---Hebrew---Hebrew-Masoretic-OT.crosswire.zip
+Holy-Bible---Hebrew---Hebrew-Masoretic-OT				http://ebible.org/epub/hbo.epub	Holy-Bible---Hebrew---Hebrew-Masoretic-OT.epub
+Holy-Bible---Hebrew---Hebrew-Masoretic-OT				http://ebible.org/Scriptures/hbo_vpl.zip	Holy-Bible---Hebrew---Hebrew-Masoretic-OT.vpl.zip
+Holy-Bible---Hebrew---Hebrew-Open-Scriptures		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/OSHB.zip	Holy-Bible---Hebrew---Hebrew-Open-Scriptures.crosswire.zip
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad				http://ebible.org/sword/zip/hboWLCeb.zip	Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.crosswire.zip
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad				http://ebible.org/epub/hboWLC.epub	Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.epub
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad				http://ebible.org/Scriptures/hboWLC_vpl.zip	Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.vpl.zip
+Holy-Bible---Hindi---Hindi-Bible				http://ebible.org/sword/zip/hin2017eb.zip	Holy-Bible---Hindi---Hindi-Bible.crosswire.zip
+Holy-Bible---Hindi---Hindi-Bible				http://ebible.org/epub/hin2017.epub	Holy-Bible---Hindi---Hindi-Bible.epub
+Holy-Bible---Hindi---Hindi-Bible				http://ebible.org/pdf/hin2017/hin2017_prt.pdf	Holy-Bible---Hindi---Hindi-Bible.pdf
+Holy-Bible---Hindi---Hindi-Bible				http://ebible.org/Scriptures/hin2017_vpl.zip	Holy-Bible---Hindi---Hindi-Bible.vpl.zip
+Holy-Bible---Hungarian---Hungarian-Karoli		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/HunKar.zip	Holy-Bible---Hungarian---Hungarian-Karoli.crosswire.zip
+Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible		SWORD		./aion_source/ItaDio.zip	Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible.crosswire.zip
+Holy-Bible---Italian---Italian-Riveduta-Bible		SWORD		./aion_source/ItaRive.zip	Holy-Bible---Italian---Italian-Riveduta-Bible.crosswire.zip
+Holy-Bible---Japanese---Japanese-Bungo-yaku		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/JapBungo.zip	Holy-Bible---Japanese---Japanese-Bungo-yaku.crosswire.zip
+Holy-Bible---Japanese---Japanese-Electronic-Network-Bible		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/JapDenmo.zip	Holy-Bible---Japanese---Japanese-Electronic-Network-Bible.crosswire.zip
+Holy-Bible---Japanese---Japanese-Kougo-yaku		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/JapKougo.zip	Holy-Bible---Japanese---Japanese-Kougo-yaku.crosswire.zip
+Holy-Bible---Japanese---Japanese-Meiji-yaku		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/JapMeiji.zip	Holy-Bible---Japanese---Japanese-Meiji-yaku.crosswire.zip
+Holy-Bible---Japanese---Japanese-Raguet-yaku		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/JapRaguet.zip	Holy-Bible---Japanese---Japanese-Raguet-yaku.crosswire.zip
+Holy-Bible---Japanese---New-Japanese-New-Testament				http://ebible.org/sword/zip/jpn1965eb.zip	Holy-Bible---Japanese---New-Japanese-New-Testament.crosswire.zip
+Holy-Bible---Japanese---New-Japanese-New-Testament				http://ebible.org/epub/jpn1965.epub	Holy-Bible---Japanese---New-Japanese-New-Testament.epub
+Holy-Bible---Japanese---New-Japanese-New-Testament				http://ebible.org/pdf/jpn1965/jpn1965_prt.pdf	Holy-Bible---Japanese---New-Japanese-New-Testament.pdf
+Holy-Bible---Japanese---New-Japanese-New-Testament				http://ebible.org/Scriptures/jpn1965_vpl.zip	Holy-Bible---Japanese---New-Japanese-New-Testament.vpl.zip
+Holy-Bible---Kannada---Kannada-Bible				http://ebible.org/sword/zip/kan2017eb.zip	Holy-Bible---Kannada---Kannada-Bible.crosswire.zip
+Holy-Bible---Kannada---Kannada-Bible				http://ebible.org/epub/kan2017.epub	Holy-Bible---Kannada---Kannada-Bible.epub
+Holy-Bible---Kannada---Kannada-Bible				http://ebible.org/pdf/kan2017/kan2017_prt.pdf	Holy-Bible---Kannada---Kannada-Bible.pdf
+Holy-Bible---Kannada---Kannada-Bible				http://ebible.org/Scriptures/kan2017_vpl.zip	Holy-Bible---Kannada---Kannada-Bible.vpl.zip
+Holy-Bible---Korean---Korean-RV				http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/KorRV.zip	Holy-Bible---Korean---Korean-RV.crosswire.zip
+Holy-Bible---Korean---Korean-RV				./aion_source/Holy-Bible---Korean---Korean-RV.unbound.zip	Holy-Bible---Korean---Korean-RV.unbound.zip
+Holy-Bible---Kosraean---Kosraean-Bible				http://ebible.org/sword/zip/kos1928eb.zip	Holy-Bible---Kosraean---Kosraean-Bible.crosswire.zip
+Holy-Bible---Kosraean---Kosraean-Bible				http://ebible.org/epub/kos.epub	Holy-Bible---Kosraean---Kosraean-Bible.epub
+Holy-Bible---Kosraean---Kosraean-Bible				http://ebible.org/pdf/kos/kos_prt.pdf	Holy-Bible---Kosraean---Kosraean-Bible.pdf
+Holy-Bible---Kosraean---Kosraean-Bible				http://ebible.org/Scriptures/kos_vpl.zip	Holy-Bible---Kosraean---Kosraean-Bible.vpl.zip
+Holy-Bible---Latin---Clementine-Vulgate-1598				http://ebible.org/sword/zip/latVUC1880eb.zip	Holy-Bible---Latin---Clementine-Vulgate-1598.crosswire.zip
+Holy-Bible---Latin---Clementine-Vulgate-1598				http://ebible.org/epub/latVUC.epub	Holy-Bible---Latin---Clementine-Vulgate-1598.epub
+Holy-Bible---Latin---Clementine-Vulgate-1598				http://ebible.org/pdf/latVUC/latVUC_prt.pdf	Holy-Bible---Latin---Clementine-Vulgate-1598.pdf
+Holy-Bible---Latin---Clementine-Vulgate-1598				http://ebible.org/Scriptures/latVUC_vpl.zip	Holy-Bible---Latin---Clementine-Vulgate-1598.vpl.zip
+Holy-Bible---Latin---Clementine-Vulgate-Conte		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/VulgConte.zip	Holy-Bible---Latin---Clementine-Vulgate-Conte.crosswire.zip
+Holy-Bible---Latin---Clementine-Vulgate-Hetzenauer		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/VulgHetzenauer.zip	Holy-Bible---Latin---Clementine-Vulgate-Hetzenauer.crosswire.zip
+Holy-Bible---Latin---Clementine-Vulgate-Tweedale		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/VulgClementine.zip	Holy-Bible---Latin---Clementine-Vulgate-Tweedale.crosswire.zip
+Holy-Bible---Latin---Vulgata-Sistina		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/VulgSistine.zip	Holy-Bible---Latin---Vulgata-Sistina.crosswire.zip
+Holy-Bible---Latin---Vulgate-Jerome		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Vulgate.zip	Holy-Bible---Latin---Vulgate-Jerome.crosswire.zip
+Holy-Bible---Latvian---Latvian-Gluck-Bible		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/LvGluck8.zip	Holy-Bible---Latvian---Latvian-Gluck-Bible.crosswire.zip
+Holy-Bible---Malagasy---Malagasy-Bible		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Mg1865.zip	Holy-Bible---Malagasy---Malagasy-Bible.crosswire.zip
+Holy-Bible---Malayalam---Malayalam-Bible				http://ebible.org/sword/zip/mal2017eb.zip	Holy-Bible---Malayalam---Malayalam-Bible.crosswire.zip
+Holy-Bible---Malayalam---Malayalam-Bible				http://ebible.org/epub/mal.epub	Holy-Bible---Malayalam---Malayalam-Bible.epub
+Holy-Bible---Malayalam---Malayalam-Bible				http://ebible.org/pdf/mal/mal_prt.pdf	Holy-Bible---Malayalam---Malayalam-Bible.pdf
+Holy-Bible---Malayalam---Malayalam-Bible				http://ebible.org/Scriptures/mal_vpl.zip	Holy-Bible---Malayalam---Malayalam-Bible.vpl.zip
+Holy-Bible---Marathi---Marathi-Bible				http://ebible.org/sword/zip/mar2017eb.zip	Holy-Bible---Marathi---Marathi-Bible.crosswire.zip
+Holy-Bible---Marathi---Marathi-Bible				http://ebible.org/epub/mar.epub	Holy-Bible---Marathi---Marathi-Bible.epub
+Holy-Bible---Marathi---Marathi-Bible				http://ebible.org/pdf/mar/mar_prt.pdf	Holy-Bible---Marathi---Marathi-Bible.pdf
+Holy-Bible---Marathi---Marathi-Bible				http://ebible.org/Scriptures/mar_vpl.zip	Holy-Bible---Marathi---Marathi-Bible.vpl.zip
+Holy-Bible---Matu-Chin---Matupi-Chin-Bible				http://ebible.org/sword/zip/hlt2018eb.zip	Holy-Bible---Matu-Chin---Matupi-Chin-Bible.crosswire.zip
+Holy-Bible---Matu-Chin---Matupi-Chin-Bible				http://ebible.org/epub/hlt.epub	Holy-Bible---Matu-Chin---Matupi-Chin-Bible.epub
+Holy-Bible---Matu-Chin---Matupi-Chin-Bible				http://ebible.org/pdf/hlt/hlt_prt.pdf	Holy-Bible---Matu-Chin---Matupi-Chin-Bible.pdf
+Holy-Bible---Matu-Chin---Matupi-Chin-Bible				http://ebible.org/Scriptures/hlt_vpl.zip	Holy-Bible---Matu-Chin---Matupi-Chin-Bible.vpl.zip
+Holy-Bible---Myanmar---Myanmar-Burmese-Judson	Myanmar/Burmse Judson	version_download	myanmar_judson_1835_ucs2	http://unbound.biola.edu/index.cfm?method=downloads.downloadBible	Holy-Bible---Myanmar---Myanmar-Burmese-Judson.unbound.zip
+Holy-Bible---Ndebele---Ndebele-Bible		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Ndebele.zip	Holy-Bible---Ndebele---Ndebele-Bible.crosswire.zip
+Holy-Bible---Norwegian---Norwegian-Bible		SWORD		./aion_source/Norsk.zip	Holy-Bible---Norwegian---Norwegian-Bible.crosswire.zip
+Holy-Bible---Norwegian---Norwegian-Student-Bible		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/NorSMB.zip	Holy-Bible---Norwegian---Norwegian-Student-Bible.crosswire.zip
+Holy-Bible---Oriya---Oriya-Bible				http://ebible.org/sword/zip/ory2017eb.zip	Holy-Bible---Oriya---Oriya-Bible.crosswire.zip
+Holy-Bible---Oriya---Oriya-Bible				http://ebible.org/epub/ory.epub	Holy-Bible---Oriya---Oriya-Bible.epub
+Holy-Bible---Oriya---Oriya-Bible				http://ebible.org/pdf/ory/ory_prt.pdf	Holy-Bible---Oriya---Oriya-Bible.pdf
+Holy-Bible---Oriya---Oriya-Bible				http://ebible.org/Scriptures/ory_vpl.zip	Holy-Bible---Oriya---Oriya-Bible.vpl.zip
+Holy-Bible---Panjabi---Punjabi-Bible				http://ebible.org/sword/zip/pan2017eb.zip	Holy-Bible---Panjabi---Punjabi-Bible.crosswire.zip
+Holy-Bible---Panjabi---Punjabi-Bible				http://ebible.org/epub/pan.epub	Holy-Bible---Panjabi---Punjabi-Bible.epub
+Holy-Bible---Panjabi---Punjabi-Bible				http://ebible.org/pdf/pan/pan_prt.pdf	Holy-Bible---Panjabi---Punjabi-Bible.pdf
+Holy-Bible---Panjabi---Punjabi-Bible				http://ebible.org/Scriptures/pan_vpl.zip	Holy-Bible---Panjabi---Punjabi-Bible.vpl.zip
+Holy-Bible---Persian---Old-Persion-Version-Bible				http://ebible.org/sword/zip/pesOPV1895eb.zip	Holy-Bible---Persian---Old-Persion-Version-Bible.crosswire.zip
+Holy-Bible---Persian---Old-Persion-Version-Bible				http://ebible.org/epub/pesOPV.epub	Holy-Bible---Persian---Old-Persion-Version-Bible.epub
+Holy-Bible---Persian---Old-Persion-Version-Bible				http://ebible.org/pdf/pesOPV/pesOPV_prt.pdf	Holy-Bible---Persian---Old-Persion-Version-Bible.pdf
+Holy-Bible---Persian---Old-Persion-Version-Bible				http://ebible.org/Scriptures/pesOPV_vpl.zip	Holy-Bible---Persian---Old-Persion-Version-Bible.vpl.zip
+Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet				http://ebible.org/sword/zip/pon-pdneb.zip	Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet.crosswire.zip
+Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet				http://ebible.org/epub/pon-pdn.epub	Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet.epub
+Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet				http://ebible.org/pdf/pon-pdn/pon-pdn_prt.pdf	Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet.pdf
+Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet				http://ebible.org/Scriptures/pon-pdn_vpl.zip	Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet.vpl.zip
+Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet				http://ebible.org/sword/zip/pon1922eb.zip	Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet.crosswire.zip
+Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet				http://ebible.org/epub/pon.epub	Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet.epub
+Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet				http://ebible.org/pdf/pon/pon_prt.pdf	Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet.pdf
+Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet				http://ebible.org/Scriptures/pon_vpl.zip	Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet.vpl.zip
+Holy-Bible---Polish---Polish-Gdansk		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/PolGdanska.zip	Holy-Bible---Polish---Polish-Gdansk.crosswire.zip
+Holy-Bible---Polish---Polish-Updated-Gdansk				http://ebible.org/sword/zip/polubg2018eb.zip	Holy-Bible---Polish---Polish-Updated-Gdansk.crosswire.zip
+Holy-Bible---Polish---Polish-Updated-Gdansk				http://ebible.org/epub/polubg.epub	Holy-Bible---Polish---Polish-Updated-Gdansk.epub
+Holy-Bible---Polish---Polish-Updated-Gdansk				http://ebible.org/pdf/polubg/polubg_prt.pdf	Holy-Bible---Polish---Polish-Updated-Gdansk.pdf
+Holy-Bible---Polish---Polish-Updated-Gdansk				http://ebible.org/Scriptures/polubg_vpl.zip	Holy-Bible---Polish---Polish-Updated-Gdansk.vpl.zip
+Holy-Bible---Portuguese---Almeida-Bible-1911		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/PorAlmeida1911.zip	Holy-Bible---Portuguese---Almeida-Bible-1911.crosswire.zip
+Holy-Bible---Portuguese---Almeida-NewOrthography				./aion_source/Holy-Bible---Portuguese---Almeida-NewOrthography.unbound.zip	Holy-Bible---Portuguese---Almeida-NewOrthography.unbound.zip
+Holy-Bible---Portuguese---Biblia-Livre				./aion_source/Holy-Bible---Portuguese---Biblia-Livre.vpl.zip	Holy-Bible---Portuguese---Biblia-Livre.vpl.zip
+Holy-Bible---Portuguese---Portuguese-Trans-Trans				http://ebible.org/sword/zip/portft2018eb.zip	Holy-Bible---Portuguese---Portuguese-Trans-Trans.crosswire.zip
+Holy-Bible---Portuguese---Portuguese-Trans-Trans				http://ebible.org/epub/portft.epub	Holy-Bible---Portuguese---Portuguese-Trans-Trans.epub
+Holy-Bible---Portuguese---Portuguese-Trans-Trans				http://ebible.org/pdf/portft/portft_prt.pdf	Holy-Bible---Portuguese---Portuguese-Trans-Trans.pdf
+Holy-Bible---Portuguese---Portuguese-Trans-Trans				http://ebible.org/Scriptures/portft_vpl.zip	Holy-Bible---Portuguese---Portuguese-Trans-Trans.vpl.zip
+Holy-Bible---Romanian---Bayash-Luke				http://ebible.org/sword/zip/ronBayash2018eb.zip	Holy-Bible---Romanian---Bayash-Luke.crosswire.zip
+Holy-Bible---Romanian---Bayash-Luke				http://ebible.org/epub/ronBayash.epub	Holy-Bible---Romanian---Bayash-Luke.epub
+Holy-Bible---Romanian---Bayash-Luke				http://ebible.org/pdf/ronBayash/ronBayash_prt.pdf	Holy-Bible---Romanian---Bayash-Luke.pdf
+Holy-Bible---Romanian---Bayash-Luke				http://ebible.org/Scriptures/ronBayash_vpl.zip	Holy-Bible---Romanian---Bayash-Luke.vpl.zip
+Holy-Bible---Rote-Dela---Rote-Dela-Bible				http://ebible.org/sword/zip/row2016eb.zip	Holy-Bible---Rote-Dela---Rote-Dela-Bible.crosswire.zip
+Holy-Bible---Rote-Dela---Rote-Dela-Bible				http://ebible.org/epub/row.epub	Holy-Bible---Rote-Dela---Rote-Dela-Bible.epub
+Holy-Bible---Rote-Dela---Rote-Dela-Bible				http://ebible.org/pdf/row/row_prt.pdf	Holy-Bible---Rote-Dela---Rote-Dela-Bible.pdf
+Holy-Bible---Rote-Dela---Rote-Dela-Bible				http://ebible.org/Scriptures/row_vpl.zip	Holy-Bible---Rote-Dela---Rote-Dela-Bible.vpl.zip
+Holy-Bible---Russian---Russian-Synodal-Translation				http://ebible.org/sword/zip/rusSYN1876eb.zip	Holy-Bible---Russian---Russian-Synodal-Translation.crosswire.zip
+Holy-Bible---Russian---Russian-Synodal-Translation				http://ebible.org/epub/russyn.epub	Holy-Bible---Russian---Russian-Synodal-Translation.epub
+Holy-Bible---Russian---Russian-Synodal-Translation				http://ebible.org/pdf/russyn/russyn_prt.pdf	Holy-Bible---Russian---Russian-Synodal-Translation.pdf
+Holy-Bible---Russian---Russian-Synodal-Translation				http://ebible.org/Scriptures/russyn_vpl.zip	Holy-Bible---Russian---Russian-Synodal-Translation.vpl.zip
+Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/ScotsGaelic.zip	Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark.crosswire.zip
+Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script				http://ebible.org/sword/zip/srp1865eb.zip	Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script.crosswire.zip
+Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script				http://ebible.org/epub/srp1865.epub	Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script.epub
+Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script				http://ebible.org/pdf/srp1865/srp1865_prt.pdf	Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script.pdf
+Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script				http://ebible.org/Scriptures/srp1865_vpl.zip	Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script.vpl.zip
+Holy-Bible---Serbian---Serbian-Ekavski-Bible		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/SrKDEkavski.zip	Holy-Bible---Serbian---Serbian-Ekavski-Bible.crosswire.zip
+Holy-Bible---Shona---Shona-Bible		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Shona.zip	Holy-Bible---Shona---Shona-Bible.crosswire.zip
+Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/CSlElizabeth.zip	Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth.crosswire.zip
+Holy-Bible---Slovene---Slovene-Savli-Bible		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/SloKJV.zip	Holy-Bible---Slovene---Slovene-Savli-Bible.crosswire.zip
+Holy-Bible---Slovene---Slovene-Stritarja-NT		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/SloStritar.zip	Holy-Bible---Slovene---Slovene-Stritarja-NT.crosswire.zip
+Holy-Bible---Somali---Somali-Bible				http://ebible.org/sword/zip/som2008eb.zip	Holy-Bible---Somali---Somali-Bible.crosswire.zip
+Holy-Bible---Somali---Somali-Bible				http://ebible.org/epub/som.epub	Holy-Bible---Somali---Somali-Bible.epub
+Holy-Bible---Somali---Somali-Bible				http://ebible.org/pdf/som/som_prt.pdf	Holy-Bible---Somali---Somali-Bible.pdf
+Holy-Bible---Somali---Somali-Bible				http://ebible.org/Scriptures/som_vpl.zip	Holy-Bible---Somali---Somali-Bible.vpl.zip
+Holy-Bible---Spanish---Free-Bible				http://ebible.org/sword/zip/spavbl2018eb.zip	Holy-Bible---Spanish---Free-Bible.crosswire.zip
+Holy-Bible---Spanish---Free-Bible				http://ebible.org/epub/spavbl.epub	Holy-Bible---Spanish---Free-Bible.epub
+Holy-Bible---Spanish---Free-Bible				http://ebible.org/pdf/spavbl/spavbl_prt.pdf	Holy-Bible---Spanish---Free-Bible.pdf
+Holy-Bible---Spanish---Free-Bible				http://ebible.org/Scriptures/spavbl_vpl.zip	Holy-Bible---Spanish---Free-Bible.vpl.zip
+Holy-Bible---Spanish---Reina-Valera-1865		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/SpaRV1865.zip	Holy-Bible---Spanish---Reina-Valera-1865.crosswire.zip
+Holy-Bible---Spanish---Reina-Valera-1909				http://ebible.org/sword/zip/spaRV1909eb.zip	Holy-Bible---Spanish---Reina-Valera-1909.crosswire.zip
+Holy-Bible---Spanish---Reina-Valera-1909				http://ebible.org/epub/spaRV1909.epub	Holy-Bible---Spanish---Reina-Valera-1909.epub
+Holy-Bible---Spanish---Reina-Valera-1909				http://ebible.org/pdf/spaRV1909/spaRV1909_prt.pdf	Holy-Bible---Spanish---Reina-Valera-1909.pdf
+Holy-Bible---Spanish---Reina-Valera-1909				http://ebible.org/Scriptures/spaRV1909_vpl.zip	Holy-Bible---Spanish---Reina-Valera-1909.vpl.zip
+Holy-Bible---Spanish---Reina-Valera-NT-1858	Spanish: Reina Valera NT (1858)	version_download	spanish_reina_valera_nt_1858_ucs2	http://unbound.biola.edu/index.cfm?method=downloads.downloadBible	Holy-Bible---Spanish---Reina-Valera-NT-1858.unbound.zip
+Holy-Bible---Spanish---Sagradas-Escrituras-1569	Spanish: Sagradas Escrituras (1569)	version_download	spanish_sagradas_escrituras_1569_ucs2	http://unbound.biola.edu/index.cfm?method=downloads.downloadBible	Holy-Bible---Spanish---Sagradas-Escrituras-1569.unbound.zip
+Holy-Bible---Spanish---Sencillo-Bible				http://ebible.org/sword/zip/spaBES2018eb.zip	Holy-Bible---Spanish---Sencillo-Bible.crosswire.zip
+Holy-Bible---Spanish---Sencillo-Bible				http://ebible.org/epub/spabes.epub	Holy-Bible---Spanish---Sencillo-Bible.epub
+Holy-Bible---Spanish---Sencillo-Bible				http://ebible.org/pdf/spabes/spabes_prt.pdf	Holy-Bible---Spanish---Sencillo-Bible.pdf
+Holy-Bible---Spanish---Sencillo-Bible				http://ebible.org/Scriptures/spabes_vpl.zip	Holy-Bible---Spanish---Sencillo-Bible.vpl.zip
+Holy-Bible---Swahili---Swahili-Bible				http://ebible.org/sword/zip/swh1850eb.zip	Holy-Bible---Swahili---Swahili-Bible.crosswire.zip
+Holy-Bible---Swahili---Swahili-Bible				http://ebible.org/epub/swh1850.epub	Holy-Bible---Swahili---Swahili-Bible.epub
+Holy-Bible---Swahili---Swahili-Bible				http://ebible.org/pdf/swh1850/swh1850_prt.pdf	Holy-Bible---Swahili---Swahili-Bible.pdf
+Holy-Bible---Swahili---Swahili-Bible				http://ebible.org/Scriptures/swh1850_vpl.zip	Holy-Bible---Swahili---Swahili-Bible.vpl.zip
+Holy-Bible---Swedish---Swedish-Bible				http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Swe1917.zip	Holy-Bible---Swedish---Swedish-Bible.crosswire.zip
+Holy-Bible---Swedish---Swedish-Bible	Swedish	version_download	swedish_1917_ucs2	http://unbound.biola.edu/index.cfm?method=downloads.downloadBible	Holy-Bible---Swedish---Swedish-Bible.unbound.zip
+Holy-Bible---Swedish---Swedish-Bible-1873		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/SweKarlXII1873.zip	Holy-Bible---Swedish---Swedish-Bible-1873.crosswire.zip
+Holy-Bible---Tagalog---Tagalog-Bible	Taglog Ang Biblia	version_download	tagalog_1905_ucs2	http://unbound.biola.edu/index.cfm?method=downloads.downloadBible	Holy-Bible---Tagalog---Tagalog-Bible.unbound.zip
+Holy-Bible---Tamil---Tamil-Bible				http://ebible.org/sword/zip/tam2017eb.zip	Holy-Bible---Tamil---Tamil-Bible.crosswire.zip
+Holy-Bible---Tamil---Tamil-Bible				http://ebible.org/epub/tam2017.epub	Holy-Bible---Tamil---Tamil-Bible.epub
+Holy-Bible---Tamil---Tamil-Bible				http://ebible.org/pdf/tam2017/tam2017_prt.pdf	Holy-Bible---Tamil---Tamil-Bible.pdf
+Holy-Bible---Tamil---Tamil-Bible				http://ebible.org/Scriptures/tam2017_vpl.zip	Holy-Bible---Tamil---Tamil-Bible.vpl.zip
+Holy-Bible---Telugu---Telugu-Bible				http://ebible.org/sword/zip/tel2017eb.zip	Holy-Bible---Telugu---Telugu-Bible.crosswire.zip
+Holy-Bible---Telugu---Telugu-Bible				http://ebible.org/epub/tel2017.epub	Holy-Bible---Telugu---Telugu-Bible.epub
+Holy-Bible---Telugu---Telugu-Bible				http://ebible.org/pdf/tel2017/tel2017_prt.pdf	Holy-Bible---Telugu---Telugu-Bible.pdf
+Holy-Bible---Telugu---Telugu-Bible				http://ebible.org/Scriptures/tel2017_vpl.zip	Holy-Bible---Telugu---Telugu-Bible.vpl.zip
+Holy-Bible---Tongan---Revised-West-Version				http://ebible.org/sword/zip/ton2014eb.zip	Holy-Bible---Tongan---Revised-West-Version.crosswire.zip
+Holy-Bible---Tongan---Revised-West-Version				http://ebible.org/epub/ton.epub	Holy-Bible---Tongan---Revised-West-Version.epub
+Holy-Bible---Tongan---Revised-West-Version				http://ebible.org/pdf/ton/ton_prt.pdf	Holy-Bible---Tongan---Revised-West-Version.pdf
+Holy-Bible---Tongan---Revised-West-Version				http://ebible.org/Scriptures/ton_vpl.zip	Holy-Bible---Tongan---Revised-West-Version.vpl.zip
+Holy-Bible---Ukrainian---Ukrainian-NT		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/UkrKulish.zip	Holy-Bible---Ukrainian---Ukrainian-NT.crosswire.zip
+Holy-Bible---Ukrainian---Ukrainian-Ogienko		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Ukrainian.zip	Holy-Bible---Ukrainian---Ukrainian-Ogienko.crosswire.zip
+Holy-Bible---Urdu---Urdu-Bible				http://ebible.org/sword/zip/urd2017eb.zip	Holy-Bible---Urdu---Urdu-Bible.crosswire.zip
+Holy-Bible---Urdu---Urdu-Bible				http://ebible.org/epub/urd.epub	Holy-Bible---Urdu---Urdu-Bible.epub
+Holy-Bible---Urdu---Urdu-Bible				http://ebible.org/pdf/urd/urd_prt.pdf	Holy-Bible---Urdu---Urdu-Bible.pdf
+Holy-Bible---Urdu---Urdu-Bible				http://ebible.org/Scriptures/urd_vpl.zip	Holy-Bible---Urdu---Urdu-Bible.vpl.zip
+Holy-Bible---Vietnamese---Vietnamese-Bible-1934		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Viet.zip	Holy-Bible---Vietnamese---Vietnamese-Bible-1934.crosswire.zip
+Holy-Bible---Vietnamese---Vietnamese-Bible				http://ebible.org/sword/zip/vie1934eb.zip	Holy-Bible---Vietnamese---Vietnamese-Bible.crosswire.zip
+Holy-Bible---Vietnamese---Vietnamese-Bible				http://ebible.org/epub/vie1934.epub	Holy-Bible---Vietnamese---Vietnamese-Bible.epub
+Holy-Bible---Vietnamese---Vietnamese-Bible				http://ebible.org/pdf/vie1934/vie1934_prt.pdf	Holy-Bible---Vietnamese---Vietnamese-Bible.pdf
+Holy-Bible---Vietnamese---Vietnamese-Bible				http://ebible.org/Scriptures/vie1934_vpl.zip	Holy-Bible---Vietnamese---Vietnamese-Bible.vpl.zip

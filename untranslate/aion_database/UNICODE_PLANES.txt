@@ -1,0 +1,281 @@
+PLANE	DESCRIPTION	START	END	STARTDEC	ENDDEC	BLOCK	POINTS	ASSIGNED	SCRIPTS
+0	Basic Multilingual Plane	HX  0000	HX  007F	0	127	Basic Latin 	128	128	Latin (52 characters), Common (76 characters)
+0	Basic Multilingual Plane	HX  0080	HX  00FF	128	255	Latin-1 Supplement	128	128	Latin (64 characters), Common (64 characters)
+0	Basic Multilingual Plane	HX  0100	HX  017F	256	383	Latin Extended-A 	128	128	Latin
+0	Basic Multilingual Plane	HX  0180	HX  024F	384	591	Latin Extended-B 	208	208	Latin
+0	Basic Multilingual Plane	HX  0250	HX  02AF	592	687	IPA Extensions 	96	96	Latin
+0	Basic Multilingual Plane	HX  02B0	HX  02FF	688	767	Spacing Modifier Letters 	80	80	Bopomofo (2 characters), Latin (14 characters), Common (64 characters)
+0	Basic Multilingual Plane	HX  0300	HX  036F	768	879	Combining Diacritical Marks 	112	112	Inherited
+0	Basic Multilingual Plane	HX  0370	HX  03FF	880	1023	Greek and Coptic 	144	135	Coptic (14 characters), Greek (117 characters), Common (4 characters)
+0	Basic Multilingual Plane	HX  0400	HX  04FF	1024	1279	Cyrillic 	256	256	Cyrillic (254 characters), Inherited (2 characters)
+0	Basic Multilingual Plane	HX  0500	HX  052F	1280	1327	Cyrillic Supplement 	48	48	Cyrillic
+0	Basic Multilingual Plane	HX  0530	HX  058F	1328	1423	Armenian 	96	89	Armenian (88 characters), Common (1 character)
+0	Basic Multilingual Plane	HX  0590	HX  05FF	1424	1535	Hebrew 	112	87	Hebrew
+0	Basic Multilingual Plane	HX  0600	HX  06FF	1536	1791	Arabic 	256	255	Arabic (237 characters), Common (6 characters), Inherited (12 characters)
+0	Basic Multilingual Plane	HX  0700	HX  074F	1792	1871	Syriac 	80	77	Syriac
+0	Basic Multilingual Plane	HX  0750	HX  077F	1872	1919	Arabic Supplement 	48	48	Arabic
+0	Basic Multilingual Plane	HX  0780	HX  07BF	1920	1983	Thaana 	64	50	Thaana
+0	Basic Multilingual Plane	HX  07C0	HX  07FF	1984	2047	NKo 	64	59	Nko
+0	Basic Multilingual Plane	HX  0800	HX  083F	2048	2111	Samaritan 	64	61	Samaritan
+0	Basic Multilingual Plane	HX  0840	HX  085F	2112	2143	Mandaic 	32	29	Mandaic
+0	Basic Multilingual Plane	HX  0860	HX  086F	2144	2159	Syriac Supplement 	16	11	Syriac
+0	Basic Multilingual Plane	HX  08A0	HX  08FF	2208	2303	Arabic Extended-A 	96	73	Arabic (72 characters), Common (1 character)
+0	Basic Multilingual Plane	HX  0900	HX  097F	2304	2431	Devanagari 	128	128	Devanagari (124 characters), Common (2 characters), Inherited (2 characters)
+0	Basic Multilingual Plane	HX  0980	HX  09FF	2432	2559	Bengali 	128	95	Bengali
+0	Basic Multilingual Plane	HX  0A00	HX  0A7F	2560	2687	Gurmukhi 	128	79	Gurmukhi
+0	Basic Multilingual Plane	HX  0A80	HX  0AFF	2688	2815	Gujarati 	128	91	Gujarati
+0	Basic Multilingual Plane	HX  0B00	HX  0B7F	2816	2943	Oriya 	128	90	Oriya
+0	Basic Multilingual Plane	HX  0B80	HX  0BFF	2944	3071	Tamil 	128	72	Tamil
+0	Basic Multilingual Plane	HX  0C00	HX  0C7F	3072	3199	Telugu 	128	96	Telugu
+0	Basic Multilingual Plane	HX  0C80	HX  0CFF	3200	3327	Kannada 	128	88	Kannada
+0	Basic Multilingual Plane	HX  0D00	HX  0D7F	3328	3455	Malayalam 	128	117	Malayalam
+0	Basic Multilingual Plane	HX  0D80	HX  0DFF	3456	3583	Sinhala 	128	90	Sinhala
+0	Basic Multilingual Plane	HX  0E00	HX  0E7F	3584	3711	Thai 	128	87	Thai (86 characters), Common (1 character)
+0	Basic Multilingual Plane	HX  0E80	HX  0EFF	3712	3839	Lao 	128	67	Lao
+0	Basic Multilingual Plane	HX  0F00	HX  0FFF	3840	4095	Tibetan 	256	211	Tibetan (207 characters), Common (4 characters)
+0	Basic Multilingual Plane	HX  1000	HX  109F	4096	4255	Myanmar 	160	160	Myanmar
+0	Basic Multilingual Plane	HX  10A0	HX  10FF	4256	4351	Georgian 	96	88	Georgian (87 characters), Common (1 character)
+0	Basic Multilingual Plane	HX  1100	HX  11FF	4352	4607	Hangul Jamo 	256	256	Hangul
+0	Basic Multilingual Plane	HX  1200	HX  137F	4608	4991	Ethiopic 	384	358	Ethiopic
+0	Basic Multilingual Plane	HX  1380	HX  139F	4992	5023	Ethiopic Supplement 	32	26	Ethiopic
+0	Basic Multilingual Plane	HX  13A0	HX  13FF	5024	5119	Cherokee 	96	92	Cherokee
+0	Basic Multilingual Plane	HX  1400	HX  167F	5120	5759	Unified Canadian Aboriginal Syllabics 	640	640	Canadian Aboriginal
+0	Basic Multilingual Plane	HX  1680	HX  169F	5760	5791	Ogham 	32	29	Ogham
+0	Basic Multilingual Plane	HX  16A0	HX  16FF	5792	5887	Runic 	96	89	Runic (86 characters), Common (3 characters)
+0	Basic Multilingual Plane	HX  1700	HX  171F	5888	5919	Tagalog 	32	20	Tagalog
+0	Basic Multilingual Plane	HX  1720	HX  173F	5920	5951	Hanunoo 	32	23	Hanunoo (21 characters), Common (2 characters)
+0	Basic Multilingual Plane	HX  1740	HX  175F	5952	5983	Buhid 	32	20	Buhid
+0	Basic Multilingual Plane	HX  1760	HX  177F	5984	6015	Tagbanwa 	32	18	Tagbanwa
+0	Basic Multilingual Plane	HX  1780	HX  17FF	6016	6143	Khmer 	128	114	Khmer
+0	Basic Multilingual Plane	HX  1800	HX  18AF	6144	6319	Mongolian 	176	156	Mongolian (153 characters), Common (3 characters)
+0	Basic Multilingual Plane	HX  18B0	HX  18FF	6320	6399	Unified Canadian Aboriginal Syllabics Extended 	80	70	Canadian Aboriginal
+0	Basic Multilingual Plane	HX  1900	HX  194F	6400	6479	Limbu 	80	68	Limbu
+0	Basic Multilingual Plane	HX  1950	HX  197F	6480	6527	Tai Le 	48	35	Tai Le
+0	Basic Multilingual Plane	HX  1980	HX  19DF	6528	6623	New Tai Lue 	96	83	New Tai Lue
+0	Basic Multilingual Plane	HX  19E0	HX  19FF	6624	6655	Khmer Symbols 	32	32	Khmer
+0	Basic Multilingual Plane	HX  1A00	HX  1A1F	6656	6687	Buginese 	32	30	Buginese
+0	Basic Multilingual Plane	HX  1A20	HX  1AAF	6688	6831	Tai Tham 	144	127	Tai Tham
+0	Basic Multilingual Plane	HX  1AB0	HX  1AFF	6832	6911	Combining Diacritical Marks Extended 	80	15	Inherited
+0	Basic Multilingual Plane	HX  1B00	HX  1B7F	6912	7039	Balinese 	128	121	Balinese
+0	Basic Multilingual Plane	HX  1B80	HX  1BBF	7040	7103	Sundanese 	64	64	Sundanese
+0	Basic Multilingual Plane	HX  1BC0	HX  1BFF	7104	7167	Batak 	64	56	Batak
+0	Basic Multilingual Plane	HX  1C00	HX  1C4F	7168	7247	Lepcha 	80	74	Lepcha
+0	Basic Multilingual Plane	HX  1C50	HX  1C7F	7248	7295	Ol Chiki 	48	48	Ol Chiki
+0	Basic Multilingual Plane	HX  1C80	HX  1C8F	7296	7311	Cyrillic Extended-C 	16	9	Cyrillic
+0	Basic Multilingual Plane	HX  1CC0	HX  1CCF	7360	7375	Sundanese Supplement 	16	8	Sundanese
+0	Basic Multilingual Plane	HX  1CD0	HX  1CFF	7376	7423	Vedic Extensions 	48	42	Common (15 characters), Inherited (27 characters)
+0	Basic Multilingual Plane	HX  1D00	HX  1D7F	7424	7551	Phonetic Extensions 	128	128	Cyrillic (2 characters), Greek (15 characters), Latin (111 characters)
+0	Basic Multilingual Plane	HX  1D80	HX  1DBF	7552	7615	Phonetic Extensions Supplement 	64	64	Greek (1 character), Latin (63 characters)
+0	Basic Multilingual Plane	HX  1DC0	HX  1DFF	7616	7679	Combining Diacritical Marks Supplement 	64	63	Inherited
+0	Basic Multilingual Plane	HX  1E00	HX  1EFF	7680	7935	Latin Extended Additional 	256	256	Latin
+0	Basic Multilingual Plane	HX  1F00	HX  1FFF	7936	8191	Greek Extended 	256	233	Greek
+0	Basic Multilingual Plane	HX  2000	HX  206F	8192	8303	General Punctuation 	112	111	Common (109 characters), Inherited (2 characters)
+0	Basic Multilingual Plane	HX  2070	HX  209F	8304	8351	Superscripts and Subscripts 	48	42	Latin (15 characters), Common (27 characters)
+0	Basic Multilingual Plane	HX  20A0	HX  20CF	8352	8399	Currency Symbols 	48	32	Common
+0	Basic Multilingual Plane	HX  20D0	HX  20FF	8400	8447	Combining Diacritical Marks for Symbols 	48	33	Inherited
+0	Basic Multilingual Plane	HX  2100	HX  214F	8448	8527	Letterlike Symbols 	80	80	Greek (1 character), Latin (4 characters), Common (75 characters)
+0	Basic Multilingual Plane	HX  2150	HX  218F	8528	8591	Number Forms 	64	60	Latin (41 characters), Common (19 characters)
+0	Basic Multilingual Plane	HX  2190	HX  21FF	8592	8703	Arrows 	112	112	Common
+0	Basic Multilingual Plane	HX  2200	HX  22FF	8704	8959	Mathematical Operators 	256	256	Common
+0	Basic Multilingual Plane	HX  2300	HX  23FF	8960	9215	Miscellaneous Technical 	256	256	Common
+0	Basic Multilingual Plane	HX  2400	HX  243F	9216	9279	Control Pictures 	64	39	Common
+0	Basic Multilingual Plane	HX  2440	HX  245F	9280	9311	Optical Character Recognition 	32	11	Common
+0	Basic Multilingual Plane	HX  2460	HX  24FF	9312	9471	Enclosed Alphanumerics 	160	160	Common
+0	Basic Multilingual Plane	HX  2500	HX  257F	9472	9599	Box Drawing 	128	128	Common
+0	Basic Multilingual Plane	HX  2580	HX  259F	9600	9631	Block Elements 	32	32	Common
+0	Basic Multilingual Plane	HX  25A0	HX  25FF	9632	9727	Geometric Shapes 	96	96	Common
+0	Basic Multilingual Plane	HX  2600	HX  26FF	9728	9983	Miscellaneous Symbols 	256	256	Common
+0	Basic Multilingual Plane	HX  2700	HX  27BF	9984	10175	Dingbats 	192	192	Common
+0	Basic Multilingual Plane	HX  27C0	HX  27EF	10176	10223	Miscellaneous Mathematical Symbols-A 	48	48	Common
+0	Basic Multilingual Plane	HX  27F0	HX  27FF	10224	10239	Supplemental Arrows-A 	16	16	Common
+0	Basic Multilingual Plane	HX  2800	HX  28FF	10240	10495	Braille Patterns 	256	256	Braille
+0	Basic Multilingual Plane	HX  2900	HX  297F	10496	10623	Supplemental Arrows-B 	128	128	Common
+0	Basic Multilingual Plane	HX  2980	HX  29FF	10624	10751	Miscellaneous Mathematical Symbols-B 	128	128	Common
+0	Basic Multilingual Plane	HX  2A00	HX  2AFF	10752	11007	Supplemental Mathematical Operators 	256	256	Common
+0	Basic Multilingual Plane	HX  2B00	HX  2BFF	11008	11263	Miscellaneous Symbols and Arrows 	256	207	Common
+0	Basic Multilingual Plane	HX  2C00	HX  2C5F	11264	11359	Glagolitic 	96	94	Glagolitic
+0	Basic Multilingual Plane	HX  2C60	HX  2C7F	11360	11391	Latin Extended-C 	32	32	Latin
+0	Basic Multilingual Plane	HX  2C80	HX  2CFF	11392	11519	Coptic 	128	123	Coptic
+0	Basic Multilingual Plane	HX  2D00	HX  2D2F	11520	11567	Georgian Supplement 	48	40	Georgian
+0	Basic Multilingual Plane	HX  2D30	HX  2D7F	11568	11647	Tifinagh 	80	59	Tifinagh
+0	Basic Multilingual Plane	HX  2D80	HX  2DDF	11648	11743	Ethiopic Extended 	96	79	Ethiopic
+0	Basic Multilingual Plane	HX  2DE0	HX  2DFF	11744	11775	Cyrillic Extended-A 	32	32	Cyrillic
+0	Basic Multilingual Plane	HX  2E00	HX  2E7F	11776	11903	Supplemental Punctuation 	128	74	Common
+0	Basic Multilingual Plane	HX  2E80	HX  2EFF	11904	12031	CJK Radicals Supplement 	128	115	Han
+0	Basic Multilingual Plane	HX  2F00	HX  2FDF	12032	12255	Kangxi Radicals 	224	214	Han
+0	Basic Multilingual Plane	HX  2FF0	HX  2FFF	12272	12287	Ideographic Description Characters 	16	12	Common
+0	Basic Multilingual Plane	HX  3000	HX  303F	12288	12351	CJK Symbols and Punctuation 	64	64	Han (15 characters), Hangul (2 characters), Common (43 characters), Inherited (4 characters)
+0	Basic Multilingual Plane	HX  3040	HX  309F	12352	12447	Hiragana 	96	93	Hiragana (89 characters), Common (2 characters), Inherited (2 characters)
+0	Basic Multilingual Plane	HX  30A0	HX  30FF	12448	12543	Katakana 	96	96	Katakana (93 characters), Common (3 characters)
+0	Basic Multilingual Plane	HX  3100	HX  312F	12544	12591	Bopomofo 	48	42	Bopomofo
+0	Basic Multilingual Plane	HX  3130	HX  318F	12592	12687	Hangul Compatibility Jamo 	96	94	Hangul
+0	Basic Multilingual Plane	HX  3190	HX  319F	12688	12703	Kanbun 	16	16	Common
+0	Basic Multilingual Plane	HX  31A0	HX  31BF	12704	12735	Bopomofo Extended 	32	27	Bopomofo
+0	Basic Multilingual Plane	HX  31C0	HX  31EF	12736	12783	CJK Strokes 	48	36	Common
+0	Basic Multilingual Plane	HX  31F0	HX  31FF	12784	12799	Katakana Phonetic Extensions 	16	16	Katakana
+0	Basic Multilingual Plane	HX  3200	HX  32FF	12800	13055	Enclosed CJK Letters and Months 	256	254	Hangul (62 characters), Katakana (47 characters), Common (145 characters)
+0	Basic Multilingual Plane	HX  3300	HX  33FF	13056	13311	CJK Compatibility 	256	256	Katakana (88 characters), Common (168 characters)
+0	Basic Multilingual Plane	HX  3400	HX  4DBF	13312	19903	CJK Unified Ideographs Extension A 	6,592	6,582	Han
+0	Basic Multilingual Plane	HX  4DC0	HX  4DFF	19904	19967	Yijing Hexagram Symbols 	64	64	Common
+0	Basic Multilingual Plane	HX  4E00	HX  9FFF	19968	40959	CJK Unified Ideographs 	20,992	20,971	Han
+0	Basic Multilingual Plane	HX  A000	HX  A48F	40960	42127	Yi Syllables 	1,168	1,165	Yi
+0	Basic Multilingual Plane	HX  A490	HX  A4CF	42128	42191	Yi Radicals 	64	55	Yi
+0	Basic Multilingual Plane	HX  A4D0	HX  A4FF	42192	42239	Lisu 	48	48	Lisu
+0	Basic Multilingual Plane	HX  A500	HX  A63F	42240	42559	Vai 	320	300	Vai
+0	Basic Multilingual Plane	HX  A640	HX  A69F	42560	42655	Cyrillic Extended-B 	96	96	Cyrillic
+0	Basic Multilingual Plane	HX  A6A0	HX  A6FF	42656	42751	Bamum 	96	88	Bamum
+0	Basic Multilingual Plane	HX  A700	HX  A71F	42752	42783	Modifier Tone Letters 	32	32	Common
+0	Basic Multilingual Plane	HX  A720	HX  A7FF	42784	43007	Latin Extended-D 	224	160	Latin (155 characters), Common (5 characters)
+0	Basic Multilingual Plane	HX  A800	HX  A82F	43008	43055	Syloti Nagri 	48	44	Syloti Nagri
+0	Basic Multilingual Plane	HX  A830	HX  A83F	43056	43071	Common Indic Number Forms 	16	10	Common
+0	Basic Multilingual Plane	HX  A840	HX  A87F	43072	43135	Phags-pa 	64	56	Phags Pa
+0	Basic Multilingual Plane	HX  A880	HX  A8DF	43136	43231	Saurashtra 	96	82	Saurashtra
+0	Basic Multilingual Plane	HX  A8E0	HX  A8FF	43232	43263	Devanagari Extended 	32	30	Devanagari
+0	Basic Multilingual Plane	HX  A900	HX  A92F	43264	43311	Kayah Li 	48	48	Kayah Li (47 characters), Common (1 character)
+0	Basic Multilingual Plane	HX  A930	HX  A95F	43312	43359	Rejang 	48	37	Rejang
+0	Basic Multilingual Plane	HX  A960	HX  A97F	43360	43391	Hangul Jamo Extended-A 	32	29	Hangul
+0	Basic Multilingual Plane	HX  A980	HX  A9DF	43392	43487	Javanese 	96	91	Javanese (90 characters), Common (1 character)
+0	Basic Multilingual Plane	HX  A9E0	HX  A9FF	43488	43519	Myanmar Extended-B 	32	31	Myanmar
+0	Basic Multilingual Plane	HX  AA00	HX  AA5F	43520	43615	Cham 	96	83	Cham
+0	Basic Multilingual Plane	HX  AA60	HX  AA7F	43616	43647	Myanmar Extended-A 	32	32	Myanmar
+0	Basic Multilingual Plane	HX  AA80	HX  AADF	43648	43743	Tai Viet 	96	72	Tai Viet
+0	Basic Multilingual Plane	HX  AAE0	HX  AAFF	43744	43775	Meetei Mayek Extensions 	32	23	Meetei Mayek
+0	Basic Multilingual Plane	HX  AB00	HX  AB2F	43776	43823	Ethiopic Extended-A 	48	32	Ethiopic
+0	Basic Multilingual Plane	HX  AB30	HX  AB6F	43824	43887	Latin Extended-E 	64	54	Latin (52 characters), Greek (1 character), Common (1 character)
+0	Basic Multilingual Plane	HX  AB70	HX  ABBF	43888	43967	Cherokee Supplement 	80	80	Cherokee
+0	Basic Multilingual Plane	HX  ABC0	HX  ABFF	43968	44031	Meetei Mayek 	64	56	Meetei Mayek
+0	Basic Multilingual Plane	HX  AC00	HX  D7AF	44032	55215	Hangul Syllables 	11,184	11,172	Hangul
+0	Basic Multilingual Plane	HX  D7B0	HX  D7FF	55216	55295	Hangul Jamo Extended-B 	80	72	Hangul
+0	Basic Multilingual Plane	HX  D800	HX  DB7F	55296	56191	High Surrogates 	896	0	Unknown
+0	Basic Multilingual Plane	HX  DB80	HX  DBFF	56192	56319	High Private Use Surrogates 	128	0	Unknown
+0	Basic Multilingual Plane	HX  DC00	HX  DFFF	56320	57343	Low Surrogates 	1,024	0	Unknown
+0	Basic Multilingual Plane	HX  E000	HX  F8FF	57344	63743	Private Use Area 	6,400	6,400	Unknown
+0	Basic Multilingual Plane	HX  F900	HX  FAFF	63744	64255	CJK Compatibility Ideographs 	512	472	Han
+0	Basic Multilingual Plane	HX  FB00	HX  FB4F	64256	64335	Alphabetic Presentation Forms 	80	58	Armenian (5 characters), Hebrew (46 characters), Latin (7 characters)
+0	Basic Multilingual Plane	HX  FB50	HX  FDFF	64336	65023	Arabic Presentation Forms-A 	688	611	Arabic (609 characters), Common (2 characters)
+0	Basic Multilingual Plane	HX  FE00	HX  FE0F	65024	65039	Variation Selectors 	16	16	Inherited
+0	Basic Multilingual Plane	HX  FE10	HX  FE1F	65040	65055	Vertical Forms 	16	10	Common
+0	Basic Multilingual Plane	HX  FE20	HX  FE2F	65056	65071	Combining Half Marks 	16	16	Cyrillic (2 characters), Inherited (14 characters)
+0	Basic Multilingual Plane	HX  FE30	HX  FE4F	65072	65103	CJK Compatibility Forms 	32	32	Common
+0	Basic Multilingual Plane	HX  FE50	HX  FE6F	65104	65135	Small Form Variants 	32	26	Common
+0	Basic Multilingual Plane	HX  FE70	HX  FEFF	65136	65279	Arabic Presentation Forms-B 	144	141	Arabic (140 characters), Common (1 character)
+0	Basic Multilingual Plane	HX  FF00	HX  FFEF	65280	65519	Halfwidth and Fullwidth Forms 	240	225	Hangul (52 characters), Katakana (55 characters), Latin (52 characters), Common (66 characters)
+0	Basic Multilingual Plane	HX  FFF0	HX  FFFF	65520	65535	Specials 	16	5	Common
+1	Supplementary Multilingual Plane	HX  10000	HX  1007F	65536	65663	Linear B Syllabary 	128	88	Linear B
+1	Supplementary Multilingual Plane	HX  10080	HX  100FF	65664	65791	Linear B Ideograms 	128	123	Linear B
+1	Supplementary Multilingual Plane	HX  10100	HX  1013F	65792	65855	Aegean Numbers 	64	57	Common
+1	Supplementary Multilingual Plane	HX  10140	HX  1018F	65856	65935	Ancient Greek Numbers 	80	79	Greek
+1	Supplementary Multilingual Plane	HX  10190	HX  101CF	65936	65999	Ancient Symbols 	64	13	Greek (1 character), Common (12 characters)
+1	Supplementary Multilingual Plane	HX  101D0	HX  101FF	66000	66047	Phaistos Disc 	48	46	Common (45 characters), Inherited (1 character)
+1	Supplementary Multilingual Plane	HX  10280	HX  1029F	66176	66207	Lycian 	32	29	Lycian
+1	Supplementary Multilingual Plane	HX  102A0	HX  102DF	66208	66271	Carian 	64	49	Carian
+1	Supplementary Multilingual Plane	HX  102E0	HX  102FF	66272	66303	Coptic Epact Numbers 	32	28	Common (27 characters), Inherited (1 character)
+1	Supplementary Multilingual Plane	HX  10300	HX  1032F	66304	66351	Old Italic 	48	39	Old Italic
+1	Supplementary Multilingual Plane	HX  10330	HX  1034F	66352	66383	Gothic 	32	27	Gothic
+1	Supplementary Multilingual Plane	HX  10350	HX  1037F	66384	66431	Old Permic 	48	43	Old Permic
+1	Supplementary Multilingual Plane	HX  10380	HX  1039F	66432	66463	Ugaritic 	32	31	Ugaritic
+1	Supplementary Multilingual Plane	HX  103A0	HX  103DF	66464	66527	Old Persian 	64	50	Old Persian
+1	Supplementary Multilingual Plane	HX  10400	HX  1044F	66560	66639	Deseret 	80	80	Deseret
+1	Supplementary Multilingual Plane	HX  10450	HX  1047F	66640	66687	Shavian 	48	48	Shavian
+1	Supplementary Multilingual Plane	HX  10480	HX  104AF	66688	66735	Osmanya 	48	40	Osmanya
+1	Supplementary Multilingual Plane	HX  104B0	HX  104FF	66736	66815	Osage 	80	72	Osage
+1	Supplementary Multilingual Plane	HX  10500	HX  1052F	66816	66863	Elbasan 	48	40	Elbasan
+1	Supplementary Multilingual Plane	HX  10530	HX  1056F	66864	66927	Caucasian Albanian 	64	53	Caucasian Albanian
+1	Supplementary Multilingual Plane	HX  10600	HX  1077F	67072	67455	Linear A 	384	341	Linear A
+1	Supplementary Multilingual Plane	HX  10800	HX  1083F	67584	67647	Cypriot Syllabary 	64	55	Cypriot
+1	Supplementary Multilingual Plane	HX  10840	HX  1085F	67648	67679	Imperial Aramaic 	32	31	Imperial Aramaic
+1	Supplementary Multilingual Plane	HX  10860	HX  1087F	67680	67711	Palmyrene 	32	32	Palmyrene
+1	Supplementary Multilingual Plane	HX  10880	HX  108AF	67712	67759	Nabataean 	48	40	Nabataean
+1	Supplementary Multilingual Plane	HX  108E0	HX  108FF	67808	67839	Hatran 	32	26	Hatran
+1	Supplementary Multilingual Plane	HX  10900	HX  1091F	67840	67871	Phoenician 	32	29	Phoenician
+1	Supplementary Multilingual Plane	HX  10920	HX  1093F	67872	67903	Lydian 	32	27	Lydian
+1	Supplementary Multilingual Plane	HX  10980	HX  1099F	67968	67999	Meroitic Hieroglyphs 	32	32	Meroitic Hieroglyphs
+1	Supplementary Multilingual Plane	HX  109A0	HX  109FF	68000	68095	Meroitic Cursive 	96	90	Meroitic Cursive
+1	Supplementary Multilingual Plane	HX  10A00	HX  10A5F	68096	68191	Kharoshthi 	96	65	Kharoshthi
+1	Supplementary Multilingual Plane	HX  10A60	HX  10A7F	68192	68223	Old South Arabian 	32	32	Old South Arabian
+1	Supplementary Multilingual Plane	HX  10A80	HX  10A9F	68224	68255	Old North Arabian 	32	32	Old North Arabian
+1	Supplementary Multilingual Plane	HX  10AC0	HX  10AFF	68288	68351	Manichaean 	64	51	Manichaean
+1	Supplementary Multilingual Plane	HX  10B00	HX  10B3F	68352	68415	Avestan 	64	61	Avestan
+1	Supplementary Multilingual Plane	HX  10B40	HX  10B5F	68416	68447	Inscriptional Parthian 	32	30	Inscriptional Parthian
+1	Supplementary Multilingual Plane	HX  10B60	HX  10B7F	68448	68479	Inscriptional Pahlavi 	32	27	Inscriptional Pahlavi
+1	Supplementary Multilingual Plane	HX  10B80	HX  10BAF	68480	68527	Psalter Pahlavi 	48	29	Psalter Pahlavi
+1	Supplementary Multilingual Plane	HX  10C00	HX  10C4F	68608	68687	Old Turkic 	80	73	Old Turkic
+1	Supplementary Multilingual Plane	HX  10C80	HX  10CFF	68736	68863	Old Hungarian 	128	108	Old Hungarian
+1	Supplementary Multilingual Plane	HX  10E60	HX  10E7F	69216	69247	Rumi Numeral Symbols 	32	31	Arabic
+1	Supplementary Multilingual Plane	HX  11000	HX  1107F	69632	69759	Brahmi 	128	109	Brahmi
+1	Supplementary Multilingual Plane	HX  11080	HX  110CF	69760	69839	Kaithi 	80	66	Kaithi
+1	Supplementary Multilingual Plane	HX  110D0	HX  110FF	69840	69887	Sora Sompeng 	48	35	Sora Sompeng
+1	Supplementary Multilingual Plane	HX  11100	HX  1114F	69888	69967	Chakma 	80	67	Chakma
+1	Supplementary Multilingual Plane	HX  11150	HX  1117F	69968	70015	Mahajani 	48	39	Mahajani
+1	Supplementary Multilingual Plane	HX  11180	HX  111DF	70016	70111	Sharada 	96	94	Sharada
+1	Supplementary Multilingual Plane	HX  111E0	HX  111FF	70112	70143	Sinhala Archaic Numbers 	32	20	Sinhala
+1	Supplementary Multilingual Plane	HX  11200	HX  1124F	70144	70223	Khojki 	80	62	Khojki
+1	Supplementary Multilingual Plane	HX  11280	HX  112AF	70272	70319	Multani 	48	38	Multani
+1	Supplementary Multilingual Plane	HX  112B0	HX  112FF	70320	70399	Khudawadi 	80	69	Khudawadi
+1	Supplementary Multilingual Plane	HX  11300	HX  1137F	70400	70527	Grantha 	128	85	Grantha
+1	Supplementary Multilingual Plane	HX  11400	HX  1147F	70656	70783	Newa 	128	92	Newa
+1	Supplementary Multilingual Plane	HX  11480	HX  114DF	70784	70879	Tirhuta 	96	82	Tirhuta
+1	Supplementary Multilingual Plane	HX  11580	HX  115FF	71040	71167	Siddham 	128	92	Siddham
+1	Supplementary Multilingual Plane	HX  11600	HX  1165F	71168	71263	Modi 	96	79	Modi
+1	Supplementary Multilingual Plane	HX  11660	HX  1167F	71264	71295	Mongolian Supplement 	32	13	Mongolian
+1	Supplementary Multilingual Plane	HX  11680	HX  116CF	71296	71375	Takri 	80	66	Takri
+1	Supplementary Multilingual Plane	HX  11700	HX  1173F	71424	71487	Ahom 	64	57	Ahom
+1	Supplementary Multilingual Plane	HX  118A0	HX  118FF	71840	71935	Warang Citi 	96	84	Warang Citi
+1	Supplementary Multilingual Plane	HX  11A00	HX  11A4F	72192	72271	Zanabazar Square 	80	72	Zanabazar Square
+1	Supplementary Multilingual Plane	HX  11A50	HX  11AAF	72272	72367	Soyombo 	96	80	Soyombo
+1	Supplementary Multilingual Plane	HX  11AC0	HX  11AFF	72384	72447	Pau Cin Hau 	64	57	Pau Cin Hau
+1	Supplementary Multilingual Plane	HX  11C00	HX  11C6F	72704	72815	Bhaiksuki 	112	97	Bhaiksuki
+1	Supplementary Multilingual Plane	HX  11C70	HX  11CBF	72816	72895	Marchen 	80	68	Marchen
+1	Supplementary Multilingual Plane	HX  11D00	HX  11D5F	72960	73055	Masaram Gondi 	96	75	Masaram Gondi
+1	Supplementary Multilingual Plane	HX  12000	HX  123FF	73728	74751	Cuneiform 	1,024	922	Cuneiform
+1	Supplementary Multilingual Plane	HX  12400	HX  1247F	74752	74879	Cuneiform Numbers and Punctuation 	128	116	Cuneiform
+1	Supplementary Multilingual Plane	HX  12480	HX  1254F	74880	75087	Early Dynastic Cuneiform 	208	196	Cuneiform
+1	Supplementary Multilingual Plane	HX  13000	HX  1342F	77824	78895	Egyptian Hieroglyphs 	1,072	1,071	Egyptian Hieroglyphs
+1	Supplementary Multilingual Plane	HX  14400	HX  1467F	82944	83583	Anatolian Hieroglyphs 	640	583	Anatolian Hieroglyphs
+1	Supplementary Multilingual Plane	HX  16800	HX  16A3F	92160	92735	Bamum Supplement 	576	569	Bamum
+1	Supplementary Multilingual Plane	HX  16A40	HX  16A6F	92736	92783	Mro 	48	43	Mro
+1	Supplementary Multilingual Plane	HX  16AD0	HX  16AFF	92880	92927	Bassa Vah 	48	36	Bassa Vah
+1	Supplementary Multilingual Plane	HX  16B00	HX  16B8F	92928	93071	Pahawh Hmong 	144	127	Pahawh Hmong
+1	Supplementary Multilingual Plane	HX  16F00	HX  16F9F	93952	94111	Miao 	160	133	Miao
+1	Supplementary Multilingual Plane	HX  16FE0	HX  16FFF	94176	94207	Ideographic Symbols and Punctuation 	32	2	Nushu (1 character), Tangut (1 character)
+1	Supplementary Multilingual Plane	HX  17000	HX  187FF	94208	100351	Tangut 	6,144	6,125	Tangut
+1	Supplementary Multilingual Plane	HX  18800	HX  18AFF	100352	101119	Tangut Components 	768	755	Tangut
+1	Supplementary Multilingual Plane	HX  1B000	HX  1B0FF	110592	110847	Kana Supplement 	256	256	Hiragana (255 characters), Katakana (1 character)
+1	Supplementary Multilingual Plane	HX  1B100	HX  1B12F	110848	110895	Kana Extended-A 	48	31	Hiragana
+1	Supplementary Multilingual Plane	HX  1B170	HX  1B2FF	110960	111359	Nushu 	400	396	Nüshu
+1	Supplementary Multilingual Plane	HX  1BC00	HX  1BC9F	113664	113823	Duployan 	160	143	Duployan
+1	Supplementary Multilingual Plane	HX  1BCA0	HX  1BCAF	113824	113839	Shorthand Format Controls 	16	4	Common
+1	Supplementary Multilingual Plane	HX  1D000	HX  1D0FF	118784	119039	Byzantine Musical Symbols 	256	246	Common
+1	Supplementary Multilingual Plane	HX  1D100	HX  1D1FF	119040	119295	Musical Symbols 	256	231	Common (209 characters), Inherited (22 characters)
+1	Supplementary Multilingual Plane	HX  1D200	HX  1D24F	119296	119375	Ancient Greek Musical Notation 	80	70	Greek
+1	Supplementary Multilingual Plane	HX  1D300	HX  1D35F	119552	119647	Tai Xuan Jing Symbols 	96	87	Common
+1	Supplementary Multilingual Plane	HX  1D360	HX  1D37F	119648	119679	Counting Rod Numerals 	32	18	Common
+1	Supplementary Multilingual Plane	HX  1D400	HX  1D7FF	119808	120831	Mathematical Alphanumeric Symbols 	1,024	996	Common
+1	Supplementary Multilingual Plane	HX  1D800	HX  1DAAF	120832	121519	Sutton SignWriting 	688	672	SignWriting
+1	Supplementary Multilingual Plane	HX  1E000	HX  1E02F	122880	122927	Glagolitic Supplement 	48	38	Glagolitic
+1	Supplementary Multilingual Plane	HX  1E800	HX  1E8DF	124928	125151	Mende Kikakui 	224	213	Mende Kikakui
+1	Supplementary Multilingual Plane	HX  1E900	HX  1E95F	125184	125279	Adlam 	96	87	Adlam
+1	Supplementary Multilingual Plane	HX  1EE00	HX  1EEFF	126464	126719	Arabic Mathematical Alphabetic Symbols 	256	143	Arabic
+1	Supplementary Multilingual Plane	HX  1F000	HX  1F02F	126976	127023	Mahjong Tiles 	48	44	Common
+1	Supplementary Multilingual Plane	HX  1F030	HX  1F09F	127024	127135	Domino Tiles 	112	100	Common
+1	Supplementary Multilingual Plane	HX  1F0A0	HX  1F0FF	127136	127231	Playing Cards 	96	82	Common
+1	Supplementary Multilingual Plane	HX  1F100	HX  1F1FF	127232	127487	Enclosed Alphanumeric Supplement 	256	191	Common
+1	Supplementary Multilingual Plane	HX  1F200	HX  1F2FF	127488	127743	Enclosed Ideographic Supplement 	256	64	Hiragana (1 character), Common (63 characters)
+1	Supplementary Multilingual Plane	HX  1F300	HX  1F5FF	127744	128511	Miscellaneous Symbols and Pictographs 	768	768	Common
+1	Supplementary Multilingual Plane	HX  1F600	HX  1F64F	128512	128591	Emoticons 	80	80	Common
+1	Supplementary Multilingual Plane	HX  1F650	HX  1F67F	128592	128639	Ornamental Dingbats 	48	48	Common
+1	Supplementary Multilingual Plane	HX  1F680	HX  1F6FF	128640	128767	Transport and Map Symbols 	128	107	Common
+1	Supplementary Multilingual Plane	HX  1F700	HX  1F77F	128768	128895	Alchemical Symbols 	128	116	Common
+1	Supplementary Multilingual Plane	HX  1F780	HX  1F7FF	128896	129023	Geometric Shapes Extended 	128	85	Common
+1	Supplementary Multilingual Plane	HX  1F800	HX  1F8FF	129024	129279	Supplemental Arrows-C 	256	148	Common
+1	Supplementary Multilingual Plane	HX  1F900	HX  1F9FF	129280	129535	Supplemental Symbols and Pictographs 	256	148	Common
+2	Supplementary Ideographic Plane	HX  20000	HX  2A6DF	131072	173791	CJK Unified Ideographs Extension B 	42,720	42,711	Han
+2	Supplementary Ideographic Plane	HX  2A700	HX  2B73F	173824	177983	CJK Unified Ideographs Extension C 	4,160	4,149	Han
+2	Supplementary Ideographic Plane	HX  2B740	HX  2B81F	177984	178207	CJK Unified Ideographs Extension D 	224	222	Han
+2	Supplementary Ideographic Plane	HX  2B820	HX  2CEAF	178208	183983	CJK Unified Ideographs Extension E 	5,776	5,762	Han
+2	Supplementary Ideographic Plane	HX  2CEB0	HX  2EBEF	183984	191471	CJK Unified Ideographs Extension F 	7,488	7,473	Han
+2	Supplementary Ideographic Plane	HX  2F800	HX  2FA1F	194560	195103	CJK Compatibility Ideographs Supplement 	544	542	Han
+14	Supplementary Special-purpose Plane	HX  E0000	HX  E007F	917504	917631	Tags 	128	97	Common
+14	Supplementary Special-purpose Plane	HX  E0100	HX  E01EF	917760	917999	Variation Selectors Supplement 	240	240	Inherited
+15	Private Use Area A	HX  F0000	HX  FFFFF	983040	1048575	Supplementary Private Use Area-A 	65,536	65,534	Unknown
+16	Private Use Area B	HX  100000	HX  10FFFF	1048576	1114111	Supplementary Private Use Area-B 	65,536	65,534	Unknown

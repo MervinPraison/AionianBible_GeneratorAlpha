@@ -1,0 +1,86 @@
+# HANDLERS
+RewriteEngine On
+Options +FollowSymlinks
+RewriteBase /
+
+# EXPIRATION, 30 DAYS
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault A2592000
+  <FilesMatch \.php$>
+    ExpiresActive Off
+  </FilesMatch>
+</IfModule>
+
+# Force download
+<FilesMatch "\.(epub|zip|noia)$">
+   ForceType application/octet-stream
+   Header set Content-Disposition attachment
+</FilesMatch>
+
+# REWRITE BASICS
+RewriteCond %{REQUEST_URI} ^/Facebook [NC]
+RewriteRule ^ https://www.facebook.com/aionianbible [L,R=301]
+RewriteCond %{REQUEST_URI} ^/Amazon-AionianBible [NC]
+RewriteRule ^ https://www.amazon.com/dp/1727786262 [L,R=301]
+RewriteCond %{REQUEST_URI} ^/Amazon [NC]
+RewriteRule ^ https://www.amazon.com/s/keywords=holy+bible+aionian+edition [L,R=301]
+RewriteCond %{REQUEST_URI} ^/Lulu [NC]
+RewriteRule ^ https://www.lulu.com/search?q=Aionian+Bible [L,R=301]
+RewriteCond %{REQUEST_URI} ^/Scribal-Skips-by-Wayne-Mitchell [NC]
+RewriteRule ^ https://www.amazon.com/Scribal-Skips-1300-Words-Bible/dp/1483461874 [L,R=301]
+RewriteCond %{REQUEST_URI} ^/Google-Play [NC]
+RewriteRule ^ https://play.google.com/store/apps/details?id=net.signedon.aionianbible.aionianbible [L,R=301]
+RewriteCond %{HTTP_HOST} !^(stage|www|xcdn)\.aionianbible\.org$ [NC]
+RewriteRule ^ http://www.aionianbible.org%{REQUEST_URI} [L,R=301]
+RewriteCond %{REQUEST_URI} ^/App$ [NC]
+RewriteRule ^ http://%{HTTP_HOST} [L,R=301]
+RewriteCond %{REQUEST_URI} ^/Contact$ [NC,OR]
+RewriteCond %{REQUEST_URI} ^/Support$ [NC,OR]
+RewriteCond %{REQUEST_URI} ^/Help$ [NC]
+RewriteRule ^ http://%{HTTP_HOST}/Publisher [L,R=301]
+RewriteCond %{REQUEST_URI} ^/Proofer$ [NC]
+RewriteRule ^ http://%{HTTP_HOST}/library/Holy-Bible---AAA---Versions.htm [L,R=301]
+RewriteCond %{REQUEST_URI} ^/Please [NC]
+RewriteRule ^ http://%{HTTP_HOST}/library/Holy-Bible---AAA---Versions---Foreign-Phrases.htm [L,R=301]
+RewriteCond %{REQUEST_URI} ^/RTL$ [NC]
+RewriteRule ^ http://%{HTTP_HOST}/rtl.htm [L,R=301]
+RewriteCond %{REQUEST_URI} ^\/Timeline$ [NC]
+RewriteRule ^ http://www.aionianbible.org/Timeline-History-Aionian-Bible.pdf?reload=1 [L,R=301]
+RewriteCond %{REQUEST_URI} ^\/Future$ [NC]
+RewriteRule ^ http://www.aionianbible.org/Timeline-Eschatology-Aionian-Bible.pdf?reload=1 [L,R=301]
+RewriteCond %{REQUEST_URI} ^\/Life-Time-Entirety-Keizer$ [NC]
+RewriteRule ^ http://books.google.com/books?vid=ISBN9789090253800 [L,R=301]
+RewriteCond %{REQUEST_URI} ^\/Terms-for-Eternity-Ramelli-Konstan$ [NC]
+RewriteRule ^ https://www.amazon.com/Terms-Eternity-Ai%C3%B4nios-Classical-Christian/dp/1611439701 [L,R=301]
+RewriteCond %{REQUEST_URI} ^\/Wikipedia-Timeline-of-Christian-Missions$ [NC]
+RewriteRule ^ https://en.wikipedia.org/wiki/Timeline_of_Christian_missions [L,R=301]
+
+
+# LOGIC PROBLEM SOLVED - FIX THIS
+# Only a problem when cookie has no bible in history
+RewriteCond %{REQUEST_URI} ^/Bibles$
+RewriteRule ^ http://%{HTTP_HOST}/Read [L,R=301]
+
+# REWRITE EPUB
+RewriteCond %{REQUEST_URI} ^/epub/ [NC]
+RewriteCond %{DOCUMENT_ROOT}/library%{REQUEST_URI} -d
+RewriteRule ^ http://%{HTTP_HOST}?e=/xcdn%{REQUEST_URI} [L]
+
+# REWRITE INDEX
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L]
+# comment above, uncomment below to take offline
+#RewriteRule ^ index-offline.php [L,R=302]
+
+# REWRITE INFINITE LOOP
+RewriteCond %{ENV:REDIRECT_STATUS} 200
+RewriteRule .* - [L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php71” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php71 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

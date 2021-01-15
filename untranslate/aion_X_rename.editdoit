@@ -1,0 +1,18 @@
+cat aion_X_rename.edit | xargs sed -i \
+	-e 's/Holy-Bible---Dutch---Dutch-Petrus-Canisius/Holy-Bible---Dutch---Canisiusvertaling/g' \
+ 	-e 's/Holy-Bible---Dutch---Dutch-Staten-Vertaling/Holy-Bible---Dutch---Statenvertaling/g' \
+	-e 's/Holy-Bible---English---Heart-Aramaic/Holy-Bible---English---New-Heart-Aramaic/g' \
+	-e 's/Holy-Bible---English---Heart-Jehovah/Holy-Bible---English---New-Heart-Jehovah/g' \
+	-e 's/Holy-Bible---English---Heart-Jesus-Messiah/Holy-Bible---English---New-Heart-Jesus-Messiah/g' \
+	-e 's/Holy-Bible---English---Heart-Messianic/Holy-Bible---English---New-Heart-Messianic/g' \
+	-e 's/Holy-Bible---English---Heart-Standard/Holy-Bible---English---New-Heart-Standard/g' \
+	-e 's/Holy-Bible---English---Heart-YHWH/Holy-Bible---English---New-Heart-YHWH/g' \
+	-e 's/Holy-Bible---French---French-Rilliet-NT/Holy-Bible---French---French-Perret-Gentil-Rilliet/g' \
+	-e 's/Holy-Bible---German-Standard---German-Elberfelder-1871/Holy-Bible---German---German-Elberfelder-1871/g' \
+	-e 's/Holy-Bible---German-Standard---German-Elberfelder-1905/Holy-Bible---German---German-Elberfelder-1905/g' \
+	-e 's/Holy-Bible---German-Standard---German-Luther-Bible-1545/Holy-Bible---German---German-Luther-Bible-1545/g' \
+	-e 's/Holy-Bible---German-Standard---German-Luther-Bible-1912/Holy-Bible---German---German-Luther-Bible-1912/g' \
+	-e 's/Holy-Bible---German---Textual-Bible-Kautzsch-Weizsacker/Holy-Bible---German---German-Kautzsch-Weizsacker/g' \
+	-e 's/Holy-Bible---Greek---Tischendorf-Greek-NT/Holy-Bible---Greek---Greek-Tischendorf/g' \
+	-e 's/Holy-Bible---Hebrew---Westminster-Leningrad-Codex-Hebrew-OT/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad/g'
+

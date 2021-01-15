@@ -1,0 +1,18 @@
+/* Hebrew */
+@font-face {
+	font-family:
+		'NotoSans';
+	src:
+		url('../aion_fonts/notosans-basic-regular.woff2')	format('woff2'),
+		url('../aion_fonts/notosans-basic-regular.woff')	format('woff'),
+		url('../aion_fonts/notosans-basic-regular.ttf')		format('truetype');
+}
+@font-face {
+	font-family:
+		'Hebrew';
+	src:
+		url('../aion_fonts/ezra_sil.woff2')	format('woff2'),
+		url('../aion_fonts/ezra_sil.woff')	format('woff'),
+		url('../aion_fonts/ezra_sil.ttf')	format('truetype');
+}
+span.hbo-he { font-family: 'Hebrew', 'NotoSans', 'Arial', 'sans-serif'; }

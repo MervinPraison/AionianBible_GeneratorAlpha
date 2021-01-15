@@ -1,0 +1,1 @@
+When converting from Excel to UTF8 you must convert, remove last newline and ALSO remove all double quotes!

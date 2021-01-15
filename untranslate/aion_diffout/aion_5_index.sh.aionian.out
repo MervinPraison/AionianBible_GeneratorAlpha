@@ -1,0 +1,610 @@
+*** AION: INCLUDE aion_common
+*** AION: START aion_5_index.sh
+NumberOfPages: 648
+NumberOfPages: 176
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Albanian-Tosk---Albanian-Bible.php
+NumberOfPages: 634
+NumberOfPages: 182
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.php
+NumberOfPages: 178
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Aramaic---Aramaic-NT-Peshitta.php
+NumberOfPages: 56
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Arapaho---Arapaho-Luke.php
+NumberOfPages: 196
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Armenian---Armenian-Bible-Eastern.php
+NumberOfPages: 236
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Armenian---Armenian-Bible-Western.php
+NumberOfPages: 676
+NumberOfPages: 188
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Assamese---Assamese-Bible.php
+NumberOfPages: 674
+NumberOfPages: 190
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Azerbaijani---Azerbaijani-Bible.php
+NumberOfPages: 194
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Basque---Basque-NT.php
+NumberOfPages: 40
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Beaver---Beaver-Mark.php
+NumberOfPages: 656
+NumberOfPages: 184
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Bengali---Bengali-Bible.php
+NumberOfPages: 96
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Breton---Breton-Gospels.php
+NumberOfPages: 48
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Calo---Calo-Bible.php
+NumberOfPages: 156
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms.php
+NumberOfPages: 238
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Cherokee---Cherokee-New-Testament.php
+NumberOfPages: 694
+NumberOfPages: 194
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Chinese---Chinese-Union-Version-Simplified.php
+NumberOfPages: 696
+NumberOfPages: 196
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Chinese---Chinese-Union-Version-Traditional.php
+NumberOfPages: 276
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Coptic---Coptic-Boharic-NT.php
+NumberOfPages: 234
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Coptic---Coptic-NT.php
+NumberOfPages: 558
+NumberOfPages: 156
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Croatian---Croatian-Bible.php
+NumberOfPages: 592
+NumberOfPages: 162
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Czech---Czech-Bible-Kralicka.php
+NumberOfPages: 614
+NumberOfPages: 178
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Danish---Danish-Bible.php
+NumberOfPages: 682
+NumberOfPages: 190
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Dutch---Canisiusvertaling.php
+NumberOfPages: 696
+NumberOfPages: 190
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Dutch---Statenvertaling.php
+NumberOfPages: 676
+NumberOfPages: 182
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---A-Conservative-Version.php
+NumberOfPages: 686
+NumberOfPages: 198
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Aionian-Bible.php
+NumberOfPages: 682
+NumberOfPages: 182
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---American-Standard-Version-1901.php
+NumberOfPages: 690
+NumberOfPages: 190
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Bible-in-Basic-English.php
+NumberOfPages: 580
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Brenton-English-Septuagint.php
+NumberOfPages: 578
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---British-English-Septuagint-2012.php
+NumberOfPages: 696
+NumberOfPages: 186
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Catholic-Public-Domain.php
+NumberOfPages: 676
+NumberOfPages: 180
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Darby-Translation.php
+NumberOfPages: 668
+NumberOfPages: 180
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Douay-Rheims-1899.php
+NumberOfPages: 658
+NumberOfPages: 184
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Free-Bible-Version.php
+NumberOfPages: 692
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Geneva-Bible.php
+NumberOfPages: 46
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Gods-Living-Word.php
+NumberOfPages: 530
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Jewish-Bible.php
+NumberOfPages: 686
+NumberOfPages: 182
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---King-James-Version.php
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---King-James-Version-American.php
+NumberOfPages: 684
+NumberOfPages: 184
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---King-James-Version-Updated.php
+NumberOfPages: 578
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---LXX2012-U-S-English.php
+NumberOfPages: 186
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Montgomery-NT.php
+NumberOfPages: 668
+NumberOfPages: 180
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---New-Heart-Aramaic.php
+NumberOfPages: 666
+NumberOfPages: 178
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---New-Heart-Jehovah.php
+NumberOfPages: 666
+NumberOfPages: 178
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---New-Heart-Jesus-Messiah.php
+NumberOfPages: 668
+NumberOfPages: 180
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---New-Heart-Messianic.php
+NumberOfPages: 666
+NumberOfPages: 178
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---New-Heart-Standard.php
+NumberOfPages: 664
+NumberOfPages: 178
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---New-Heart-YHWH.php
+NumberOfPages: 314
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---One-Unity-Resource-Bible.php
+NumberOfPages: 254
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Open-English-Bible-Commonwealth.php
+NumberOfPages: 254
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Open-English-Bible-US.php
+NumberOfPages: 684
+NumberOfPages: 182
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Revised-Version.php
+NumberOfPages: 698
+NumberOfPages: 190
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Rotherham-Bible.php
+NumberOfPages: 812
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Trans-Trans.php
+NumberOfPages: 192
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Twentieth-Century-NT.php
+NumberOfPages: 180
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Tyndale-Bible.php
+NumberOfPages: 676
+NumberOfPages: 182
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Unlocked-Literal-Bible.php
+NumberOfPages: 676
+NumberOfPages: 182
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Webster-Bible.php
+NumberOfPages: 674
+NumberOfPages: 180
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Webster-Bible-Revised.php
+NumberOfPages: 196
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Weymouth-NT.php
+NumberOfPages: 658
+NumberOfPages: 178
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---World-English-Bible.php
+NumberOfPages: 660
+NumberOfPages: 178
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---World-English-Bible-British-Edition.php
+NumberOfPages: 660
+NumberOfPages: 180
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---World-Messianic-Bible.php
+NumberOfPages: 662
+NumberOfPages: 180
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---World-Messianic-Bible-British-Edition.php
+NumberOfPages: 686
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Wycliffe-Bible.php
+NumberOfPages: 686
+NumberOfPages: 186
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Youngs-Literal-Translation.php
+NumberOfPages: 676
+NumberOfPages: 182
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Esperanto---Esperanto-Bible.php
+NumberOfPages: 674
+NumberOfPages: 186
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Finnish---Finnish-Bible.php
+NumberOfPages: 670
+NumberOfPages: 188
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Finnish---Finnish-Pyha-Raamattu.php
+NumberOfPages: 192
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Flemish---Flemish-De-Jonge-Bible.php
+NumberOfPages: 680
+NumberOfPages: 190
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---French---French-Crampon-Bible.php
+NumberOfPages: 680
+NumberOfPages: 188
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---French---French-Darby-Bible.php
+NumberOfPages: 516
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---French---French-Khan-Bible.php
+NumberOfPages: 514
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---French---French-LXX.php
+NumberOfPages: 674
+NumberOfPages: 188
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---French---French-Louis-Segond-1910-Bible.php
+NumberOfPages: 694
+NumberOfPages: 190
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---French---French-Martin.php
+NumberOfPages: 192
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---French---French-Oltramare-Bible.php
+NumberOfPages: 678
+NumberOfPages: 190
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---French---French-Ostervald-Bible.php
+NumberOfPages: 676
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---French---French-Perret-Gentil-Rilliet.php
+NumberOfPages: 192
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---French---French-Stapfer-Bible.php
+NumberOfPages: 230
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---French---French-Synodale-Bible.php
+NumberOfPages: 698
+NumberOfPages: 190
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---German---German-Elberfelder-1871.php
+NumberOfPages: 698
+NumberOfPages: 190
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---German---German-Elberfelder-1905.php
+NumberOfPages: 680
+NumberOfPages: 194
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---German---German-Katholiche-Riessler.php
+NumberOfPages: 694
+NumberOfPages: 182
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---German---German-Kautzsch-Weizsacker.php
+NumberOfPages: 676
+NumberOfPages: 194
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---German---German-Luther-Bible-1545.php
+NumberOfPages: 692
+NumberOfPages: 194
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---German---German-Luther-Bible-1912.php
+NumberOfPages: 98
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---German---German-Reinhardt-Bible.php
+NumberOfPages: 612
+NumberOfPages: 194
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---German---German-Tafel-Bible.php
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-Antoniades.php
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-Byzantine-Majority.php
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-LXX-Septuagint.php
+NumberOfPages: 190
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-Majority-Text.php
+NumberOfPages: 194
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-Nestle.php
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-Pickering-Family-35.php
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-Textus-Receptus.php
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-Textus-Receptus-Elzevir.php
+NumberOfPages: 194
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-Tischendorf.php
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-Tregelles.php
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-Westcott-Hort.php
+NumberOfPages: 652
+NumberOfPages: 178
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Gujarati---Gujarati-Bible.php
+NumberOfPages: 684
+NumberOfPages: 194
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Haitian---Haitian-Creole-Bible.php
+NumberOfPages: 692
+NumberOfPages: 190
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Hawaiian---Hawaiian-Bible-1868.php
+NumberOfPages: 602
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Hebrew---Hebrew-Aleppo-Codex.php
+NumberOfPages: 620
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.php
+NumberOfPages: 652
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Hebrew---Hebrew-Open-Scriptures.php
+NumberOfPages: 616
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.php
+NumberOfPages: 686
+NumberOfPages: 188
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Hindi---Hindi-Bible.php
+NumberOfPages: 650
+NumberOfPages: 182
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Hungarian---Hungarian-Karoli.php
+NumberOfPages: 678
+NumberOfPages: 184
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible.php
+NumberOfPages: 650
+NumberOfPages: 176
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Italian---Italian-Riveduta-Bible.php
+NumberOfPages: 232
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Japanese---Japanese-Bungo-yaku.php
+NumberOfPages: 208
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Japanese---Japanese-Electronic-Network-Bible.php
+NumberOfPages: 700
+NumberOfPages: 202
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Japanese---Japanese-Kougo-yaku.php
+NumberOfPages: 310
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Japanese---Japanese-Meiji-yaku.php
+NumberOfPages: 236
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Japanese---Japanese-Raguet-yaku.php
+NumberOfPages: 298
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Japanese---New-Japanese-New-Testament.php
+NumberOfPages: 688
+NumberOfPages: 196
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Kannada---Kannada-Bible.php
+NumberOfPages: 696
+NumberOfPages: 192
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Korean---Korean-RV.php
+NumberOfPages: 680
+NumberOfPages: 198
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Kosraean---Kosraean-Bible.php
+NumberOfPages: 670
+NumberOfPages: 182
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Latin---Clementine-Vulgate-1598.php
+NumberOfPages: 670
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Latin---Clementine-Vulgate-Conte.php
+NumberOfPages: 672
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Latin---Clementine-Vulgate-Hetzenauer.php
+NumberOfPages: 670
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Latin---Clementine-Vulgate-Tweedale.php
+NumberOfPages: 672
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Latin---Vulgata-Sistina.php
+NumberOfPages: 654
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Latin---Vulgate-Jerome.php
+NumberOfPages: 672
+NumberOfPages: 186
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Latvian---Latvian-Gluck-Bible.php
+NumberOfPages: 698
+NumberOfPages: 192
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Malagasy---Malagasy-Bible.php
+NumberOfPages: 694
+NumberOfPages: 192
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Malayalam---Malayalam-Bible.php
+NumberOfPages: 674
+NumberOfPages: 190
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Marathi---Marathi-Bible.php
+NumberOfPages: 684
+NumberOfPages: 188
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Matu-Chin---Matupi-Chin-Bible.php
+NumberOfPages: 750
+NumberOfPages: 220
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Myanmar---Myanmar-Burmese-Judson.php
+NumberOfPages: 688
+NumberOfPages: 184
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Ndebele---Ndebele-Bible.php
+NumberOfPages: 616
+NumberOfPages: 170
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Norwegian---Norwegian-Bible.php
+NumberOfPages: 618
+NumberOfPages: 176
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Norwegian---Norwegian-Student-Bible.php
+NumberOfPages: 660
+NumberOfPages: 184
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Oriya---Oriya-Bible.php
+NumberOfPages: 680
+NumberOfPages: 190
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Panjabi---Punjabi-Bible.php
+NumberOfPages: 654
+NumberOfPages: 178
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Persian---Old-Persion-Version-Bible.php
+NumberOfPages: 208
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet.php
+NumberOfPages: 198
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet.php
+NumberOfPages: 640
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Polish---Polish-Gdansk.php
+NumberOfPages: 632
+NumberOfPages: 174
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Polish---Polish-Updated-Gdansk.php
+NumberOfPages: 666
+NumberOfPages: 180
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Portuguese---Almeida-Bible-1911.php
+NumberOfPages: 662
+NumberOfPages: 178
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Portuguese---Almeida-NewOrthography.php
+NumberOfPages: 654
+NumberOfPages: 182
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Portuguese---Biblia-Livre.php
+NumberOfPages: 336
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Portuguese---Portuguese-Trans-Trans.php
+NumberOfPages: 50
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Romanian---Bayash-Luke.php
+NumberOfPages: 290
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Rote-Dela---Rote-Dela-Bible.php
+NumberOfPages: 638
+NumberOfPages: 172
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Russian---Russian-Synodal-Translation.php
+NumberOfPages: 40
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark.php
+NumberOfPages: 554
+NumberOfPages: 156
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script.php
+NumberOfPages: 592
+NumberOfPages: 164
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Serbian---Serbian-Ekavski-Bible.php
+NumberOfPages: 184
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Shona---Shona-Bible.php
+NumberOfPages: 612
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth.php
+NumberOfPages: 494
+NumberOfPages: 172
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Slovene---Slovene-Savli-Bible.php
+NumberOfPages: 196
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Slovene---Slovene-Stritarja-NT.php
+NumberOfPages: 692
+NumberOfPages: 180
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Somali---Somali-Bible.php
+NumberOfPages: 398
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Spanish---Free-Bible.php
+NumberOfPages: 644
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Spanish---Reina-Valera-1865.php
+NumberOfPages: 642
+NumberOfPages: 178
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Spanish---Reina-Valera-1909.php
+NumberOfPages: 178
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Spanish---Reina-Valera-NT-1858.php
+NumberOfPages: 644
+NumberOfPages: 180
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Spanish---Sagradas-Escrituras-1569.php
+NumberOfPages: 682
+NumberOfPages: 190
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Spanish---Sencillo-Bible.php
+NumberOfPages: 190
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Swahili---Swahili-Bible.php
+NumberOfPages: 676
+NumberOfPages: 190
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Swedish---Swedish-Bible.php
+NumberOfPages: 634
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Swedish---Swedish-Bible-1873.php
+NumberOfPages: 694
+NumberOfPages: 192
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Tagalog---Tagalog-Bible.php
+NumberOfPages: 820
+NumberOfPages: 226
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Tamil---Tamil-Bible.php
+NumberOfPages: 674
+NumberOfPages: 186
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Telugu---Telugu-Bible.php
+NumberOfPages: 692
+NumberOfPages: 184
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Tongan---Revised-West-Version.php
+NumberOfPages: 166
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Ukrainian---Ukrainian-NT.php
+NumberOfPages: 622
+NumberOfPages: 170
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Ukrainian---Ukrainian-Ogienko.php
+NumberOfPages: 678
+NumberOfPages: 186
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Urdu---Urdu-Bible.php
+NumberOfPages: 988
+NumberOfPages: 262
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Vietnamese---Vietnamese-Bible.php
+NumberOfPages: 818
+NumberOfPages: 222
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Vietnamese---Vietnamese-Bible-1934.php
+*** AION: LOOP DONE! Function=AION_LOOP_HTMS_DOIT Files processed=175
+*** AION: DONE! index.php auth() turned ON: ../www-stage/index.php
+*** AION: SPELL CHECK: Holy-Bible---Albanian-Tosk---Albanian-Bible, WORDS
+*** AION: SPELL CHECK: Holy-Bible---Arabic---Arabic-Van-Dyck-Bible, ar
+*** AION: SPELL CHECK: Holy-Bible---Aramaic---Aramaic-NT-Peshitta, WORDS
+*** AION: SPELL CHECK: Holy-Bible---Arapaho---Arapaho-Luke, WORDS
+*** AION: SPELL CHECK: Holy-Bible---Armenian---Armenian-Bible-Eastern, hy
+*** AION: SPELL CHECK: Holy-Bible---Armenian---Armenian-Bible-Western, hy
+*** AION: SPELL CHECK: Holy-Bible---Assamese---Assamese-Bible, WORDS
+*** AION: SPELL CHECK: Holy-Bible---Azerbaijani---Azerbaijani-Bible, az
+*** AION: SPELL CHECK: Holy-Bible---Basque---Basque-NT, WORDS
+*** AION: SPELL CHECK: Holy-Bible---Beaver---Beaver-Mark, WORDS
+*** AION: SPELL CHECK: Holy-Bible---Bengali---Bengali-Bible, bn
+*** AION: SPELL CHECK: Holy-Bible---Breton---Breton-Gospels, br
+*** AION: SPELL CHECK: Holy-Bible---Calo---Calo-Bible, WORDS
+*** AION: SPELL CHECK: Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms, WORDS
+*** AION: SPELL CHECK: Holy-Bible---Cherokee---Cherokee-New-Testament, WORDS
+*** AION: SPELL CHECK: Holy-Bible---Coptic---Coptic-Boharic-NT, WORDS
+*** AION: SPELL CHECK: Holy-Bible---Coptic---Coptic-NT, WORDS
+*** AION: SPELL CHECK: Holy-Bible---Croatian---Croatian-Bible, hr
+*** AION: SPELL CHECK: Holy-Bible---Czech---Czech-Bible-Kralicka, cs
+*** AION: SPELL CHECK: Holy-Bible---Danish---Danish-Bible, da
+*** AION: SPELL CHECK: Holy-Bible---Dutch---Canisiusvertaling, nl
+*** AION: SPELL CHECK: Holy-Bible---Dutch---Statenvertaling, nl
+*** AION: SPELL CHECK: Holy-Bible---English---A-Conservative-Version, en
+*** AION: SPELL CHECK: Holy-Bible---English---Aionian-Bible, en
+*** AION: SPELL CHECK: Holy-Bible---English---American-Standard-Version-1901, en
+*** AION: SPELL CHECK: Holy-Bible---English---Bible-in-Basic-English, en
+*** AION: SPELL CHECK: Holy-Bible---English---Brenton-English-Septuagint, en
+*** AION: SPELL CHECK: Holy-Bible---English---British-English-Septuagint-2012, en
+*** AION: SPELL CHECK: Holy-Bible---English---Catholic-Public-Domain, en
+*** AION: SPELL CHECK: Holy-Bible---English---Darby-Translation, en
+*** AION: SPELL CHECK: Holy-Bible---English---Douay-Rheims-1899, en
+*** AION: SPELL CHECK: Holy-Bible---English---Free-Bible-Version, en
+*** AION: SPELL CHECK: Holy-Bible---English---Geneva-Bible, en
+*** AION: SPELL CHECK: Holy-Bible---English---Gods-Living-Word, en
+*** AION: SPELL CHECK: Holy-Bible---English---Jewish-Bible, en
+*** AION: SPELL CHECK: Holy-Bible---English---King-James-Version, en
+*** AION: SPELL CHECK: Holy-Bible---English---King-James-Version-American, en
+*** AION: SPELL CHECK: Holy-Bible---English---King-James-Version-Updated, en
+*** AION: SPELL CHECK: Holy-Bible---English---LXX2012-U-S-English, en
+*** AION: SPELL CHECK: Holy-Bible---English---Montgomery-NT, en
+*** AION: SPELL CHECK: Holy-Bible---English---New-Heart-Aramaic, en
+*** AION: SPELL CHECK: Holy-Bible---English---New-Heart-Jehovah, en
+*** AION: SPELL CHECK: Holy-Bible---English---New-Heart-Jesus-Messiah, en
+*** AION: SPELL CHECK: Holy-Bible---English---New-Heart-Messianic, en
+*** AION: SPELL CHECK: Holy-Bible---English---New-Heart-Standard, en
+*** AION: SPELL CHECK: Holy-Bible---English---New-Heart-YHWH, en
+*** AION: SPELL CHECK: Holy-Bible---English---One-Unity-Resource-Bible, en
+*** AION: SPELL CHECK: Holy-Bible---English---Open-English-Bible-Commonwealth, en
+*** AION: SPELL CHECK: Holy-Bible---English---Open-English-Bible-US, en
+*** AION: SPELL CHECK: Holy-Bible---English---Revised-Version, en
+*** AION: SPELL CHECK: Holy-Bible---English---Rotherham-Bible, en
+*** AION: SPELL CHECK: Holy-Bible---English---Trans-Trans, en
+*** AION: SPELL CHECK: Holy-Bible---English---Twentieth-Century-NT, en
+*** AION: SPELL CHECK: Holy-Bible---English---Tyndale-Bible, en
+*** AION: SPELL CHECK: Holy-Bible---English---Unlocked-Literal-Bible, en
+*** AION: SPELL CHECK: Holy-Bible---English---Webster-Bible, en
+*** AION: SPELL CHECK: Holy-Bible---English---Webster-Bible-Revised, en
+*** AION: SPELL CHECK: Holy-Bible---English---Weymouth-NT, en
+*** AION: SPELL CHECK: Holy-Bible---English---World-English-Bible, en
+*** AION: SPELL CHECK: Holy-Bible---English---World-English-Bible-British-Edition, en
+*** AION: SPELL CHECK: Holy-Bible---English---World-Messianic-Bible, en
+*** AION: SPELL CHECK: Holy-Bible---English---World-Messianic-Bible-British-Edition, en
+*** AION: SPELL CHECK: Holy-Bible---English---Wycliffe-Bible, en
+*** AION: SPELL CHECK: Holy-Bible---English---Youngs-Literal-Translation, en
+*** AION: SPELL CHECK: Holy-Bible---Esperanto---Esperanto-Bible, eo
+*** AION: SPELL CHECK: Holy-Bible---Finnish---Finnish-Bible, fi
+*** AION: SPELL CHECK: Holy-Bible---Finnish---Finnish-Pyha-Raamattu, fi
+*** AION: SPELL CHECK: Holy-Bible---Flemish---Flemish-De-Jonge-Bible, nl
+*** AION: SPELL CHECK: Holy-Bible---French---French-Crampon-Bible, fr
+*** AION: SPELL CHECK: Holy-Bible---French---French-Darby-Bible, fr
+*** AION: SPELL CHECK: Holy-Bible---French---French-Khan-Bible, fr
+*** AION: SPELL CHECK: Holy-Bible---French---French-Louis-Segond-1910-Bible, fr
+*** AION: SPELL CHECK: Holy-Bible---French---French-LXX, fr
+*** AION: SPELL CHECK: Holy-Bible---French---French-Martin, fr
+*** AION: SPELL CHECK: Holy-Bible---French---French-Oltramare-Bible, fr
+*** AION: SPELL CHECK: Holy-Bible---French---French-Ostervald-Bible, fr
+*** AION: SPELL CHECK: Holy-Bible---French---French-Perret-Gentil-Rilliet, fr
+*** AION: SPELL CHECK: Holy-Bible---French---French-Stapfer-Bible, fr
+*** AION: SPELL CHECK: Holy-Bible---French---French-Synodale-Bible, fr
+*** AION: SPELL CHECK: Holy-Bible---German---German-Elberfelder-1871, de
+*** AION: SPELL CHECK: Holy-Bible---German---German-Elberfelder-1905, de
+*** AION: SPELL CHECK: Holy-Bible---German---German-Katholiche-Riessler, de
+*** AION: SPELL CHECK: Holy-Bible---German---German-Kautzsch-Weizsacker, de
+*** AION: SPELL CHECK: Holy-Bible---German---German-Luther-Bible-1545, de
+*** AION: SPELL CHECK: Holy-Bible---German---German-Luther-Bible-1912, de
+*** AION: SPELL CHECK: Holy-Bible---German---German-Reinhardt-Bible, de
+*** AION: SPELL CHECK: Holy-Bible---German---German-Tafel-Bible, de
+*** AION: SPELL CHECK: Holy-Bible---Greek---Greek-Antoniades, grc
+*** AION: SPELL CHECK: Holy-Bible---Greek---Greek-Byzantine-Majority, grc
+*** AION: SPELL CHECK: Holy-Bible---Greek---Greek-LXX-Septuagint, grc
+*** AION: SPELL CHECK: Holy-Bible---Greek---Greek-Majority-Text, grc
+*** AION: SPELL CHECK: Holy-Bible---Greek---Greek-Nestle, grc
+*** AION: SPELL CHECK: Holy-Bible---Greek---Greek-Pickering-Family-35, grc
+*** AION: SPELL CHECK: Holy-Bible---Greek---Greek-Textus-Receptus, grc
+*** AION: SPELL CHECK: Holy-Bible---Greek---Greek-Textus-Receptus-Elzevir, grc
+*** AION: SPELL CHECK: Holy-Bible---Greek---Greek-Tischendorf, grc
+*** AION: SPELL CHECK: Holy-Bible---Greek---Greek-Tregelles, grc
+*** AION: SPELL CHECK: Holy-Bible---Greek---Greek-Westcott-Hort, grc
+*** AION: SPELL CHECK: Holy-Bible---Gujarati---Gujarati-Bible, gu
+*** AION: SPELL CHECK: Holy-Bible---Haitian---Haitian-Creole-Bible, WORDS
+*** AION: SPELL CHECK: Holy-Bible---Hawaiian---Hawaiian-Bible-1868, WORDS
+*** AION: SPELL CHECK: Holy-Bible---Hebrew---Hebrew-Aleppo-Codex, he
+*** AION: SPELL CHECK: Holy-Bible---Hebrew---Hebrew-Masoretic-OT, he
+*** AION: SPELL CHECK: Holy-Bible---Hebrew---Hebrew-Open-Scriptures, he
+*** AION: SPELL CHECK: Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad, he
+*** AION: SPELL CHECK: Holy-Bible---Hindi---Hindi-Bible, hi
+*** AION: SPELL CHECK: Holy-Bible---Hungarian---Hungarian-Karoli, hu
+*** AION: SPELL CHECK: Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible, it
+*** AION: SPELL CHECK: Holy-Bible---Italian---Italian-Riveduta-Bible, it
+*** AION: SPELL CHECK: Holy-Bible---Kannada---Kannada-Bible, kn
+*** AION: SPELL CHECK: Holy-Bible---Kosraean---Kosraean-Bible, WORDS
+*** AION: SPELL CHECK: Holy-Bible---Latin---Clementine-Vulgate-1598, la
+*** AION: SPELL CHECK: Holy-Bible---Latin---Clementine-Vulgate-Conte, la
+*** AION: SPELL CHECK: Holy-Bible---Latin---Clementine-Vulgate-Hetzenauer, la
+*** AION: SPELL CHECK: Holy-Bible---Latin---Clementine-Vulgate-Tweedale, la
+*** AION: SPELL CHECK: Holy-Bible---Latin---Vulgata-Sistina, la
+*** AION: SPELL CHECK: Holy-Bible---Latin---Vulgate-Jerome, la
+*** AION: SPELL CHECK: Holy-Bible---Latvian---Latvian-Gluck-Bible, lv
+*** AION: SPELL CHECK: Holy-Bible---Malagasy---Malagasy-Bible, mg
+*** AION: SPELL CHECK: Holy-Bible---Malayalam---Malayalam-Bible, ml
+*** AION: SPELL CHECK: Holy-Bible---Marathi---Marathi-Bible, mr
+*** AION: SPELL CHECK: Holy-Bible---Matu-Chin---Matupi-Chin-Bible, WORDS
+*** AION: SPELL CHECK: Holy-Bible---Myanmar---Myanmar-Burmese-Judson, WORDS
+*** AION: SPELL CHECK: Holy-Bible---Ndebele---Ndebele-Bible, WORDS
+*** AION: SPELL CHECK: Holy-Bible---Norwegian---Norwegian-Bible, nb
+*** AION: SPELL CHECK: Holy-Bible---Norwegian---Norwegian-Student-Bible, nn
+*** AION: SPELL CHECK: Holy-Bible---Oriya---Oriya-Bible, or
+*** AION: SPELL CHECK: Holy-Bible---Panjabi---Punjabi-Bible, pa
+*** AION: SPELL CHECK: Holy-Bible---Persian---Old-Persion-Version-Bible, fa
+*** AION: SPELL CHECK: Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet, WORDS
+*** AION: SPELL CHECK: Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet, WORDS
+*** AION: SPELL CHECK: Holy-Bible---Polish---Polish-Gdansk, pl
+*** AION: SPELL CHECK: Holy-Bible---Polish---Polish-Updated-Gdansk, pl
+*** AION: SPELL CHECK: Holy-Bible---Portuguese---Almeida-Bible-1911, pt_PT
+*** AION: SPELL CHECK: Holy-Bible---Portuguese---Almeida-NewOrthography, pt_PT
+*** AION: SPELL CHECK: Holy-Bible---Portuguese---Biblia-Livre, pt_PT
+*** AION: SPELL CHECK: Holy-Bible---Portuguese---Portuguese-Trans-Trans, pt_PT
+*** AION: SPELL CHECK: Holy-Bible---Romanian---Bayash-Luke, ro
+*** AION: SPELL CHECK: Holy-Bible---Rote-Dela---Rote-Dela-Bible, WORDS
+*** AION: SPELL CHECK: Holy-Bible---Russian---Russian-Synodal-Translation, ru
+*** AION: SPELL CHECK: Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark, gd
+*** AION: SPELL CHECK: Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script, sr
+*** AION: SPELL CHECK: Holy-Bible---Serbian---Serbian-Ekavski-Bible, sr
+*** AION: SPELL CHECK: Holy-Bible---Shona---Shona-Bible, WORDS
+*** AION: SPELL CHECK: Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth, WORDS
+*** AION: SPELL CHECK: Holy-Bible---Slovene---Slovene-Savli-Bible, sl
+*** AION: SPELL CHECK: Holy-Bible---Slovene---Slovene-Stritarja-NT, sl
+*** AION: SPELL CHECK: Holy-Bible---Somali---Somali-Bible, WORDS
+*** AION: SPELL CHECK: Holy-Bible---Spanish---Free-Bible, es
+*** AION: SPELL CHECK: Holy-Bible---Spanish---Reina-Valera-1865, es
+*** AION: SPELL CHECK: Holy-Bible---Spanish---Reina-Valera-1909, es
+*** AION: SPELL CHECK: Holy-Bible---Spanish---Reina-Valera-NT-1858, es
+*** AION: SPELL CHECK: Holy-Bible---Spanish---Sagradas-Escrituras-1569, es
+*** AION: SPELL CHECK: Holy-Bible---Spanish---Sencillo-Bible, es
+*** AION: SPELL CHECK: Holy-Bible---Swahili---Swahili-Bible, sw
+*** AION: SPELL CHECK: Holy-Bible---Swedish---Swedish-Bible, sv
+*** AION: SPELL CHECK: Holy-Bible---Swedish---Swedish-Bible-1873, sv
+*** AION: SPELL CHECK: Holy-Bible---Tagalog---Tagalog-Bible, tl
+*** AION: SPELL CHECK: Holy-Bible---Tamil---Tamil-Bible, ta
+*** AION: SPELL CHECK: Holy-Bible---Telugu---Telugu-Bible, te
+*** AION: SPELL CHECK: Holy-Bible---Tongan---Revised-West-Version, WORDS
+*** AION: SPELL CHECK: Holy-Bible---Ukrainian---Ukrainian-NT, uk
+*** AION: SPELL CHECK: Holy-Bible---Ukrainian---Ukrainian-Ogienko, uk
+*** AION: SPELL CHECK: Holy-Bible---Urdu---Urdu-Bible, WORDS
+*** AION: SPELL CHECK: Holy-Bible---Vietnamese---Vietnamese-Bible-1934, vi
+*** AION: SPELL CHECK: Holy-Bible---Vietnamese---Vietnamese-Bible, vi
+*** AION: DONE!

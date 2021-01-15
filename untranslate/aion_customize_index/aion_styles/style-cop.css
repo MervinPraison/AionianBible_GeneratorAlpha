@@ -1,0 +1,18 @@
+/* Coptic */
+@font-face {
+	font-family:
+		'NotoSans';
+	src:
+		url('../aion_fonts/notosans-basic-regular.woff2')	format('woff2'),
+		url('../aion_fonts/notosans-basic-regular.woff')	format('woff'),
+		url('../aion_fonts/notosans-basic-regular.ttf')		format('truetype');
+}
+@font-face {
+	font-family:
+		'Coptic';
+	src:
+		url('../aion_fonts/newathu5_5.woff2')	format('woff2'),
+		url('../aion_fonts/newathu5_5.woff')	format('woff'),
+		url('../aion_fonts/newathu5_5.ttf')		format('truetype');
+}
+span.cop { font-family: 'Coptic', 'NotoSans', 'Arial', 'sans-serif'; }

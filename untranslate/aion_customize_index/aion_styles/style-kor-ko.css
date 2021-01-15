@@ -1,0 +1,18 @@
+/* Korean */
+@font-face {
+	font-family:
+		'NotoSans';
+	src:
+		url('../aion_fonts/notosans-basic-regular.woff2')	format('woff2'),
+		url('../aion_fonts/notosans-basic-regular.woff')	format('woff'),
+		url('../aion_fonts/notosans-basic-regular.ttf')		format('truetype');
+}
+@font-face {
+	font-family:
+		'Korean';
+	src:
+		url('../aion_fonts/unbatang.woff2')	format('woff2'),
+		url('../aion_fonts/unbatang.woff')	format('woff'),
+		url('../aion_fonts/unbatang.ttf')	format('truetype');
+}
+span.kor-ko { font-family: 'Korean', 'NotoSans', 'Arial', 'sans-serif'; }

@@ -1,0 +1,5223 @@
+Strongs numbers in lexicon, but not in tagged texts, SEEMS LIKE TOO MANY!
+===
+
+G33	ἄγε	to lead	
+G39	ἅγιον	holy	
+G149	αἰσχρόν	shameful	
+G158	αἴτιον	reason for charge	
+G334	ἀνάθημα	a vow offering	
+G471	ἀντεῖπον	to contradict	
+G534	ἀπαρτί	henceforth	
+G542	ἀπεῖδον	to fix one's eyes	
+G566	ἀπέχει	to receive/be far	
+G567	ἀπέχομαι	to receive/be far	
+G680	ἅπτω	to touch	
+G756	ἄρχομαι	to rule/begin	
+G848	αὑτοῦ	him/herself	
+G1181	δεκάτη	tenth	
+G1221	δήποτε	whatever	
+G1302	διατί	why?	
+G1306	διαυγάζω	to shine through	
+G1399	δούλη	female slave	
+G1400	δοῦλον	slave	
+G1418	δυσ-	hard	
+G1488	εἶ	you are	
+G1490	εἰ δὲ μή(γε)	but if not	
+G1498	εἴην	may be	
+G1499	εἰ καί	if also	
+G1508	εἰ μή	except	
+G1509	εἰ μή τι	except what	
+G1511	εἶναι	to exist	
+G1526	εἰσί	they are	
+G1527	εἷς καθ᾽ εἷς	one by one	
+G1536	εἴ τις	if any	
+G1647	ἐλαχιστότερος	least	
+G1691	ἐμέ	me	
+G1698	ἐμοί	I	
+G1700	ἐμοῦ	of me	
+G1970	ἐπιπνίγω	to choke	
+G2046	ἐρέω, ἐρῶ	to speak	
+G2067	ἔσθησις	clothing	
+G2070	ἐσμέν	we are	
+G2071	ἔσομαι	will be	
+G2075	ἐστέ	you are	
+G2076	ἐστί	he is	
+G2077	ἔστω	to be	
+G2208	ζηλωτής	Zealot	
+G2229	ἦ	surely	
+G2248	ἡμᾶς	us	
+G2249	ἡμεῖς	we	
+G2252	ἤμην	I was	
+G2254	ἡμῖν	to us	
+G2257	ἡμῶν	of us	
+G2258	ἦν	was	
+G2277	ἤτω	let him/it be	
+G2467	ἴσημι	to know	
+G2468	ἴσθι	you should be	
+G2499	Ἰωσή	Jose	
+G2534	καίγε	even/even though	
+G2568	Καλοὶ Λιμένες	Fair Havens	
+G2909	κρείττων	stronger	
+G3018	Λευΐς	Levi	
+G3112	μακράν	far	
+G3165	μέ	me	
+G3176	μέγιστος	greatest	
+G3185	μεῖζον	greater	
+G3186	μειζότερος	greatest	
+G3187	μείζων	greater	
+G3362	ἐὰν μή	unless	
+G3363	ἵνα μή	lest/so that. not	
+G3364	οὐ μή	never	
+G3378	μὴ οὐκ	isn't it?	
+G3387	μήτις	unless/any	
+G3391	μία	first	
+G3397	μικρόν	little	
+G3415	μνάομαι	to remember	
+G3427	μοί	to me	
+G3450	μοῦ	of me	
+G3553	νόσημα	disease	
+G3603	ὅ ἐστι	which is	
+G3620	οἰκοδομία	edification	
+G3755	ὅτου	until	
+G3801	ο ων και ο ην και ο ερχομενος	was, is, will be	
+G4054	περισσότερον	more abundantly	
+G4113	πλατεῖα	wide street/road	
+G4162	ποίησις	doing	
+G4191	πονηρότερος	more evil	
+G4208	πορρωτέρω	farther	
+G4235	πρᾶος	gentle	
+G4236	πραότης	gentleness	
+G4275	προεῖδον	to foresee	
+G4386	πρότερον	before	
+G4412	πρῶτον	first	
+G4452	πω	somehow	
+G4483	ῥέω, ἐρέω	to utter	
+G4495	ῥιπτέω	to throw off	
+G4571	σέ	you	
+G4671	σοί	you	
+G4675	σοῦ	you	
+G4706	σπουδαιότερον	more diligently	
+G4707	σπουδαιότερος	more diligent	
+G5023	ταῦτα	this	
+G5024	ταὐτά	thus	
+G5025	ταύταις	hence	
+G5026	ταύτῃ	her	
+G5033	τάχιστα	most quickly	
+G5104	τοί	certainly	
+G5120	τοῦ	his	
+G5123	τουτέστι	that is	
+G5124	τοῦτο	that	
+G5125	τούτοις	to these	
+G5126	τοῦτον	this	
+G5127	τούτου	of this	
+G5128	τούτους	these	
+G5129	τούτῳ	to this	
+G5130	τούτων	of these	
+G5209	ὑμᾶς	you	
+G5210	ὑμεῖς	you	
+G5213	ὑμῖν	to you	
+G5216	ὑμῶν	of you	
+G5224	ὑπάρχοντα	possession	
+G5305	ὕστερον	later	
+G5600	ὦ	may be	
+G5607	ὤν	being	
+G6004	ἀλλαχοῦ	elsewhere	
+G6007	ἄμωμον	amomum	
+G6014	δεκαοκτώ	eighteen	
+G6023	ἐγκακέω	be discouraged	
+G6025	εἵνεκεν	because	
+G6039	εὐθύμως	cheerfully	
+G6063	οἶδα	to know	
+G6096	ἀποπληρόω	to satisfy	
+G6097	θρύπτω	to break	
+G6098	καταπίμπρημι	burnt	
+G6099	ξαίνω	to comb	
+G6100	ἀβασίλευτος	independent	
+G6101	ἄβατος	impassable	
+G6102	ἀβατόω	to make impassable	
+G6103	ἀβοήθητος	incurable	
+G6104	ἀβουλία	thoughtlessness	
+G6105	ἅβρα	handmaiden	
+G6106	ἀβροχία	drought	
+G6107	ἀγαθόω	to do good	
+G6108	ἀγαθύνω	be better	
+G6109	ἀγαθῶς	fine	
+G6110	ἀγαλλίαμα	a leap for joy	
+G6111	ἄγαλμα	a statue	
+G6112	αγανώθ	cups	
+G6113	ἀγάπησις	affection	
+G6114	ἁγίασμα	sanctification	
+G6115	ἁγιαστήριον	sanctuary	
+G6116	ἀγκαλίς	an arm	
+G6117	ἀγκύλη	a loop	
+G6118	ἀγκών	an angle	
+G6119	ἀγκωνίσκος	a joint	
+G6120	ἅγνισμα	purification	
+G6121	ἄγνος	a chaste tree	
+G6122	ἄγονος	barren	
+G6123	ἀγορασμός	a purchase	
+G6124	ἀγριαίνω	be wild	
+G6125	ἀγριοβάλανος	holm oak	
+G6126	ἀγριομυρίκη	tamarisk	
+G6127	ἄγροικος	rugged	
+G6128	ἄγρωστις	wild grass	
+G6129	ἀγχιστεία	right of inheritance	
+G6130	ἀγχιστεύς	a relative	
+G6131	ἀγχιστεύω	to be kin	
+G6132	ἄγχω	to squeeze	
+G6133	ἀδαμάντινος	adamantine	
+G6134	ἀδάμας	adamant	
+G6135	Ἄδαρ	Adar	
+G6136	ἄδειπνος	supperless	
+G6137	ἀδελφιδός	a kinsman	
+G6138	ἀδιάλυτος	reinforced	
+G6139	ἀδολεσχέω	to meditate	
+G6140	ἀδολεσχία	meditation	
+G6141	ἀδοξέω	be despised	
+G6142	ἁδρός	stout	
+G6143	ἁδρύνω	to mature	
+G6144	ἀδυναμία	powerlessness	
+G6145	ἀέναος	everlasting	
+G6146	ἀεργός	idle	
+G6147	ἀηδία	rancor	
+G6148	Αθανιν	Athanim	
+G6149	ἀθεσία	rebellion	
+G6150	ἀθέτημα	a disregarding	
+G6152	ἀθυμία	depression	
+G6153	ἄθυτος	unfit	
+G6154	ἀθῳόω	to acquit	
+G6155	αιδέδ	acclamation	
+G6156	αἰδέομαι	to stand in awe	
+G6157	αἰδοῖος	genitals	
+G6158	αἰθάλη	soot	
+G6159	αἴθριος	open air	
+G6160	αιλ	a portal	
+G6161	αιλάμ	porch	
+G6162	αιλαμμών	pediment	
+G6163	αἱμωδιάω	to have tooth-chills	
+G6164	αἰνετός	praiseworthy	
+G6165	αἴνη	praise	
+G6166	αἰνιγματιστής	enigma speaker	
+G6167	αἴξ	a goat	
+G6168	αἰπόλιον	a flock of goats	
+G6169	αἰπόλος	a herder	
+G6170	αἱρετός	preferred	
+G6171	αἰσθητικός	sensitive	
+G6172	αἰσχρῶς	disgracefully	
+G6173	αἴτησις	requesting	
+G6174	αἰτιάομαι	to blame	
+G6175	αἰτίωμα	accusation	
+G6176	αἰχμαλωτίς	a captive	
+G6177	ἀκακία	innocence	
+G6178	ἄκαν	a thorn	
+G6179	ἀκάρδιος	heartless	
+G6180	ἀκατάποτος	impotable	
+G6181	ἀκατασκεύαστος	unready	
+G6182	ἀκατέργαστος	unfinished	
+G6183	ἄκαυστος	inextinguishable	
+G6184	ἀκηδία	indifference	
+G6185	ἀκηδιάω	be discouraged	
+G6186	ἀκιδωτός	pointed	
+G6187	ἀκίνητος	fixed	
+G6188	ἀκίς	a point	
+G6189	ἄκλητος	uncalled	
+G6190	ἀκμή	at this moment	
+G6191	ἄκμων	anvil	
+G6192	ἀκόλαστος	unrestrained	
+G6193	ἀκονάω	to sharpen	
+G6194	ἀκοντίζω	to shoot	
+G6195	ἀκοντιστής	a shooter	
+G6196	ἄκοσμος	unbecoming	
+G6197	ἀκουσιάζομαι	to act unintentionally	
+G6198	ἀκούσιος	unintentional	
+G6199	ἀκουσίως	unintentionally	
+G6200	ἀκουστός	audible	
+G6201	ἀκουτίζω	to cause to hear	
+G6202	ἄκρα	Akra	
+G6203	ἀκριβασμός	restriction	
+G6204	ἀκροάομαι	to hear	
+G6205	ἀκρόασις	a hearing	
+G6206	ἀκρόβυστος	uncircumcised	
+G6207	ἀκρόδρυα	a fruit tree	
+G6208	ἄκρος	a toe/thumb/tip	
+G6209	ἀκρότομος	chiseled	
+G6210	ἀκρωτήριον	an extremity	
+G6211	ἄκυρος	void	
+G6212	ἀλαζονεύομαι	to act ostentatiously	
+G6213	ἀλάλαγμα	a price	
+G6214	ἀλαλαγμός	a shout	
+G6215	ἀλάομαι	be a runaway	
+G6216	ἀλγέω	to ache	
+G6217	ἀλγηδών	suffering	
+G6218	ἄλγημα	pain	
+G6219	ἀλγηρός	painful	
+G6220	ἄλγος	pain	
+G6221	ἄλειμμα	an anointing	
+G6222	ἀλέω	to grind flour	
+G6223	ἁλιαίετος	an osprey	
+G6224	ἅλιμος	a salty land	
+G6225	ἀλισγέω	to pollute	
+G6226	ἁλίσκομαι	to capture	
+G6227	ἀλλ᾽ ἢ	but only	
+G6228	ἄλλαγμα	a price	
+G6229	ἀλλόγλωσσος	foreign tongue	
+G6230	ἀλλοιόω	to change	
+G6231	ἀλλοίωσις	change	
+G6232	ἀλλοτριόω	to alienate	
+G6233	ἀλλοτρίως	strangely	
+G6234	ἀλλοτρίωσις	alienation	
+G6235	ἀλλόφωνος	foreign language	
+G6236	ἅλμα	a leap	
+G6237	ἅλμη	brine	
+G6238	ἁλμυρίς	salt-flats	
+G6239	ἁλμυρός	brackish	
+G6240	ἀλοητός	threshing	
+G6241	ἀλοιφή	ointment	
+G6242	ἄλσος	a sacred grove	
+G6243	ἀλσώδης	a woods	
+G6244	ἁλυσιδωτός	a chain-work	
+G6245	ἄλφιτον	toasted grain	
+G6246	ἀλφός	psoriasis	
+G6247	ἀλώθ	aloe	
+G6248	ἄμαξα	a wagon	
+G6249	αμασενίθ	octaves	
+G6250	ἀμάσητος	unchewable	
+G6251	αματταρί	a mark	
+G6252	ἀμαυρός	faint	
+G6253	ἀμαυρόω	to darken	
+G6254	ἀμβλύνω	to blunt	
+G6255	ἀμέλγω	to extract	
+G6256	ἄμελξις	a milking	
+G6257	ἀμελῶς	indifferently	
+G6258	ἀμέτρητος	unmeasured	
+G6259	ἄμητος	a harvest	
+G6260	ἀμισθί	without pay	
+G6261	ἀμνάς	a ewe-lamb	
+G6262	ἀμνήστευτος	not betrothed	
+G6263	ἀμορίτης	honey-bread	
+G6264	ἀμπλάκημα	an error	
+G6265	ἀμύγδαλον	an almond	
+G6266	ἀμύθητος	untold	
+G6267	ἀμφίασις	clothing	
+G6268	ἀμφιβολεύς	a fisherman	
+G6269	αμφίταπος	a spread	
+G6270	ἀμφοτεροδέξιος	ambidextrous	
+G6271	ἀνάμεσος	in between	
+G6272	ἀναβαθμίς	stairs	
+G6273	ἀνάβασις	ascending	
+G6274	ἀναβαστάζω	to carry	
+G6275	ἀναβάτης	a rider	
+G6276	ἀναβλαστάνω	to sprout up	
+G6277	ἀναβράσσω	to stir up	
+G6278	ἀναδενδράς	tendril	
+G6279	ἀναζεύγνυμι	to break camp	
+G6280	ἀναζέω	to break out	
+G6281	ἀναζυγή	marching	
+G6282	ἀναιδής	impudent	
+G6283	ἀναιδῶς	impudently	
+G6284	ἀνακαίω	to kindle	
+G6285	ἀνακαλέω	to call by name	
+G6286	ἀνάκλισις	laying down	
+G6287	ἀνάκλιτος	a couch	
+G6288	ἀνακρούω	to play music	
+G6289	ἀναλάμπω	to blaze up	
+G6290	ἀνάλγητος	unfeeling	
+G6291	ἀναλέγω	to gather up	
+G6292	ἀνάλημμα	an elevation	
+G6293	ἀνάλωσις	consumption	
+G6294	ἀναμίγνυμι	to intermingle	
+G6295	ἀνάνευσις	reluctance	
+G6296	ἀνανεύω	to disagree	
+G6297	ἀναντλέω	be fatigued	
+G6298	ἀναξηραίνω	to dry up	
+G6299	ἀνάπαυμα	rest	
+G6300	ἀναπετάω	be effronted	
+G6301	ἀναπλήρωσις	satisfying	
+G6302	ἀναπνέω	to breathe	
+G6303	ἀναπνοή	breathing	
+G6304	ἐναποθνῄσκω	to die in	
+G6305	ἀναποιέω	to prepare	
+G6306	ἀναπόστρεπτος	not be turned away	
+G6307	ἀναπτερόω	to incite	
+G6308	ἀναρπάζω	to kidnap	
+G6309	ἀναρρήγνυμι	to tear asunder	
+G6310	ἀνασκάπτω	to dig up	
+G6311	ἀναστέλλω	to rise upwards	
+G6312	ἀνάστημα	a height	
+G6313	ἀνασχίζω	to rip open	
+G6314	ἀνασῴζω	to escape	
+G6315	ἀνατιναγμός	violent shaking	
+G6316	ἀνατροπή	a diet	
+G6317	ἀναφάλαντος	forehead bald	
+G6318	ἀναφαλάντωμα	forehead bald	
+G6319	ἀναφορά	an offering	
+G6320	ἀναφορεύς	a bearing pole	
+G6321	ἀναφράσσω	to block up	
+G6322	ἀναφυράω	to mix up	
+G6323	ἀναφύω	to grow up	
+G6324	ἀναψυχή	respite	
+G6325	ἀνδραγαθία	valor	
+G6326	ἀνδρεία	courage	
+G6327	ἀνδρεῖος	vigorous	
+G6328	ἀνδρόγυνος	effeminate	
+G6329	ἀνδρόω	to become a man	
+G6330	ἀνειλέω	to unroll	
+G6331	ἀνελεημόνως	mercilessly	
+G6332	ἀνέλπιστος	unhoped for	
+G6333	ἀνεμοφθορία	wind-blown	
+G6334	ἀνεμόφθορος	destroyed by wind	
+G6335	ἀνεξέλεγκτος	unascertained	
+G6336	ἀνήκοος	unhearing	
+G6337	ἀνήλατος	not malleable	
+G6338	ἀνθ᾽ οὗ	because of	
+G6339	ἀνθ᾽ ὧν	because of	
+G6340	ἀνθέμιον	a flower ornament	
+G6341	ἀνθέω	to bloom	
+G6342	ἄνθινος	a flowered work	
+G6343	ἀνθομολόγησις	confession	
+G6344	ἀνθυφαιρέω	to deduct	
+G6345	ἀνίατος	incurable	
+G6346	ἀνίπταμαι	to fly about	
+G6347	ἄνισχυς	without strength	
+G6348	ἄνοιγμα	a passage	
+G6349	ἀνομέω	to act lawlessly	
+G6350	ἀνόμημα	a violation of law	
+G6351	ἀνορύσσω	to root up	
+G6352	ἄνους	mindless	
+G6353	ἀνταίρω	to rise against	
+G6354	ἀντακούω	to listen in turn	
+G6355	ἀνταλλάσσω	to bargain	
+G6356	ἀντάμειψις	remuneration	
+G6357	ἀνταναιρέω	to take away in return	
+G6358	ἀνταποθνήσκω	to die for	
+G6359	ἀνταπόκρισις	an answer	
+G6360	ἀντίγραφος	a copy	
+G6361	ἀντιδίδωμι	to repay	
+G6362	ἀντιδικέω	to plead	
+G6363	ἀντίζηλος	a rival	
+G6364	ἀντίθετος	contrary	
+G6365	ἀντικαθίζομαι	to relocate	
+G6366	ἀντικρίνω	to adjudicate	
+G6367	ἀντιλήπτωρ	a shielder	
+G6368	ἀντίον	a beam of a loom	
+G6369	ἀντιποιέω	to act against	
+G6370	ἀντιπολεμέω	to battle	
+G6371	ἀντιπρόσωπος	facing	
+G6372	ἀντίρρησις	a contradiction	
+G6373	ἀντιστήριγμα	a support	
+G6374	ἀντιστηρίζω	to support	
+G6375	ἀντιτίθημι	to substitute	
+G6376	ἄντρον	an inner room	
+G6377	ἀνυπόδετος	barefoot	
+G6378	ἀνυπομόνητος	unsufferable	
+G6379	ἀνυπόστατος	unsubdued	
+G6380	ἀνυψόω	to elevate	
+G6381	ἀξιόπιστος	worthy of trust	
+G6382	ἀξίωμα	a petition	
+G6383	ἄξων	an axle	
+G6384	ἀοίκητος	uninhabited	
+G6385	ἀορασία	inability to see	
+G6386	ἀπαγγελία	a report	
+G6387	ἀπαγωγή	enslavement	
+G6388	ἀπαιδευσία	stupidity	
+G6389	ἀπαίτησις	exaction	
+G6390	ἀπαλείφω	to wipe away	
+G6391	ἀπαλλοτρίωσις	alienation	
+G6392	ἁπαλότης	tenderness	
+G6393	ἁπαλύνω	to make tender	
+G6394	ἀπαμαυρόω	to blur	
+G6395	ἀπαναίνομαι	to refuse	
+G6396	ἀπαναισχυντέω	to cast shame	
+G6397	ἀπαναλίσκω	to consume	
+G6398	ἀπαντή	meet	
+G6399	ἀπάντημα	a meeting	
+G6400	ἀπάνωθεν	from on top	
+G6401	ἀπαράλλακτος	unalterable	
+G6402	ἄπαρσις	a departure	
+G6403	ἀπαρτία	chattel	
+G6404	ἀπάρχομαι	to dedicate	
+G6405	ἀπέκτασις	spreading out	
+G6406	ἀπελέκητος	unhewn	
+G6407	ἀπελευθερόω	to set free	
+G6408	ἀπενεόομαι	to silence	
+G6409	ἀπερείδω	to fasten	
+G6410	ἀπερικάθαρτος	impure	
+G6411	ἀπηλιώτης	east wind	
+G6412	ἄπιος	pear tree	
+G6413	ἄπλαστος	simple	
+G6414	ἄπληστος	insatiable	
+G6415	ἁπλοσύνη	singleness	
+G6416	ἁπλόω	to simplify	
+G6417	ἀποβιάζομαι	to repel	
+G6418	ἀπογαλακτίζω	to wean	
+G6419	ἀπόγονος	a descendant	
+G6420	ἀποδεσμεύω	to bind up	
+G6421	ἀπόδεσμος	a bundle	
+G6422	ἀποδέω	to tie up	
+G6423	ἀποδιαιρέω	to divide up	
+G6424	ἀποδιδράσκω	to run away	
+G6425	ἀποδιώκω	to banish	
+G6426	ἀπόδομα	a gift	
+G6427	ἀπόδοσις	restitution	
+G6428	ἀποθερίζω	to mow	
+G6429	ἀποικεσία	resettlement	
+G6430	ἀποικία	resettlement	
+G6432	ἀποικισμός	a settlement	
+G6433	ἀποίχομαι	to move	
+G6434	ἀποκαθαίρω	to clear away	
+G6435	ἀποκαθαρίζω	to cleanse	
+G6436	ἀποκάθημαι	to sit apart	
+G6437	ἀποκακέω	to suffer	
+G6438	ἀποκαλέω	to invoke	
+G6439	ἀποκεντέω	to pierce	
+G6440	ἀποκέντησις	a piercing	
+G6441	ἀποκιδαρόω	be without a turban	
+G6442	ἀποικίζω	to exile	
+G6443	ἀποκλαίω	to weep	
+G6444	ἀπόκλεισμα	a prison	
+G6445	ἀποκλίνω	to turn off	
+G6446	ἀποκλύζω	to rinse off	
+G6447	ἀποκνίζω	to pluck off	
+G6448	ἀποκομίζω	to transmit	
+G6449	ἀποκρυβή	concealment	
+G6450	ἀποκρυφή	concealment	
+G6451	ἀποκωλύω	to detain	
+G6452	ἀποκωφόομαι	be mute	
+G6453	ἀπολακτίζω	to kick up	
+G6454	ἀπολαύω	to enjoy	
+G6455	ἀπολέγω	to resign	
+G6456	ἀπολιθόω	to petrify	
+G6457	ἀπολόγημα	a plea	
+G6458	ἀπόλοιπος	left over	
+G6459	ἀπολυτρόω	to redeem	
+G6460	ἀπομέμφομαι	to blame	
+G6461	ἀποξενόω	be estranged	
+G6462	ἀποξηραίνω	to cause to dry up	
+G6463	ἀποξύω	to scrape off	
+G6464	ἀποπειράομαι	to put to the test	
+G6465	ἀποπεμπτόω	to take a fifth part	
+G6466	ἀποπηδάω	to leap back	
+G6467	αποπιάζω	to squeeze out	
+G6468	ἀποπλάνησις	digression	
+G6469	ἀποποιέω	to undo	
+G6470	ἀποπομπαῖος	a scapegoat	
+G6471	ἀποπομπή	acting as scapegoat	
+G6472	ἀπορρέω	to drop down	
+G6473	απορρήσω	to rip off	
+G6474	ἀποσάττω	to unharness	
+G6475	ἀποσβέννυμι	to consume	
+G6476	ἀποσείω	to shake off	
+G6477	ἀποσιωπάω	to keep silent	
+G6478	ἀποσκευή	accoutrements	
+G6479	ἀποσκηνόω	to move a tent	
+G6480	ἀποσκληρύνω	to harden against	
+G6481	ἀποσκοπεύω	to watch over	
+G6482	ἀποσκορακίζω	to send far away	
+G6483	ἀποσκορακισμός	dismissal	
+G6484	ἀποσοβέω	to frighten away	
+G6485	ἀπόσπασμα	a broken branch	
+G6486	ἀποστάζω	to drop from	
+G6487	ἀποσταλάζω	to trickle down	
+G6488	ἀπόστασις	defection	
+G6489	ἀποστατέω	to defect	
+G6490	ἀποστάτης	a defector	
+G6491	ἀποστάτις	a defecting	
+G6492	ἀποστέργω	to disregard	
+G6493	ἀποστροφή	rejection	
+G6494	ἀποσυνάγω	to cure	
+G6495	ἀποσυρίζω	to whistle	
+G6496	ἀποσφραγίζω	to seal up	
+G6497	ἀποσφράγισμα	a seal	
+G6498	ἀποσχίζω	to sever	
+G6499	ἀποτείνω	to extend	
+G6500	ἀποτέμνω	to shred	
+G6501	ἀποτηγανίζω	to fry	
+G6502	αποτιννύω	to pay for	
+G6503	ἀποτρέχω	to run from	
+G6504	ἀποτροπιάζω	to pacify	
+G6505	ἀποτρυγάω	to harvest	
+G6506	ἀποτυγχάνω	to miss	
+G6507	ἀποτύφλωσις	blindness	
+G6508	ἀποφαίνω	to sentence	
+G6509	ἀπόφθεγμα	a maxim	
+G6510	ἀποφορά	impost	
+G6511	ἀποφράσσω	to shut out	
+G6512	ἀποφυσάω	to blow away	
+G6513	ἀποχέω	to pour out	
+G6514	ἀποχώρησις	voidance	
+G6515	ἄπυρος	unfired	
+G6516	απφουσώθ	for the sick	
+G6517	σαφφώθ	silver things	
+G6518	ἀπῶρυξ	a layer of vine	
+G6519	ἄπωσις	repulsion	
+G6521	Ἀραβώθ	wilderness	
+G6522	ἀράομαι	to curse	
+G6523	ἀράχνη	of a spider	
+G6524	ἀργία	idleness	
+G6525	ἀργυροκοπέω	to work silver	
+G6526	ἀργυρώνητος	bought with silver	
+G6527	ἄρδην	entirely	
+G6528	ἄρθρον	articulation	
+G6529	αριήλ	altar hearth	
+G6530	αριήλ	a lion-like person	
+G6531	ἀριθμητός	counted	
+G6532	ἀριώθ	herbs	
+G6533	ἀρκεύθινος	of juniper	
+G6534	ἄρκευθος	juniper	
+G6535	ἁρμονία	a joint	
+G6536	ἀροτήρ	a plowman	
+G6537	ἀροτρίασις	plowing	
+G6538	ἀροτρόπους	a plowshare	
+G6539	ἄρουρα	plowed fields	
+G6540	ἅρπαγμα	a prey	
+G6541	ἄρριζος	rootless	
+G6542	ἀρρωστέω	be ill	
+G6543	ἀρρωστία	illness	
+G6544	ἀρσενικός	a male	
+G6545	ἄρσις	a load	
+G6546	ἀρτάβη	a measure	
+G6547	ἀρτήρ	a shoulder	
+G6548	ἀρτίως	just now	
+G6549	ἀρτοκοπικός	of a baker	
+G6550	ἀρχιδεσμοφύλαξ	chief jailer	
+G6551	ἀρχιδεσμώτης	chief jailer	
+G6552	ἀρχιεταῖρος	chief friend	
+G6553	ἀρχιευνοῦχος	chief eunuch	
+G6554	ἀρχιμάγειρος	chief guard	
+G6555	ἀρχιοινοχοΐα	chief wine taster	
+G6556	ἀρχιοινοχόος	chief wine taster	
+G6557	ἀρχιπατριώτης	chief patriarch	
+G6558	ἀρχισιτοποιός	chief baker	
+G6559	ἀρχιστράτηγος	commander-in-chief	
+G6560	ἀρχισωματοφύλαξ	chief guard	
+G6561	ἀρχιτεκτονέω	construction chief	
+G6562	ἀρχιτεκτονία	construction	
+G6563	ἀρχίφυλος	chief of a tribe	
+G6564	ἀρχός	chief	
+G6565	ασαφίμ	collection	
+G6566	ἀσβόλη	lamp black	
+G6567	ἀσέβημα	an act of impiety	
+G6568	ἄσηπτος	incorruptible	
+G6569	ἀσίδα	a stork	
+G6570	ἀσιτέω	to abstain	
+G6571	ᾆσμα	a song	
+G6572	ἀσπάλαξ	a mole	
+G6573	ἀσπιδίσκη	a bezel	
+G6574	ἄστεγος	homeless	
+G6575	ἀστράγαλος	a vertebrae	
+G6576	ἀστρολόγος	astrologer	
+G6577	ἄσυλος	against reprisal	
+G6578	ἀσύμφορος	hurtful	
+G6579	ἀσυνετέω	to lack sense	
+G6580	ἀσυνθεσία	breach-of-contract	
+G6581	ἀσυνθετέω	to break a contract	
+G6582	ἀσφαλτόπισσα	tar	
+G6583	ἄσφαλτος	tar	
+G6584	ἀσφαλτόω	to apply tar	
+G6585	ἄσωτος	carnal	
+G6586	ἀτάρ	nevertheless	
+G6587	ἀτείχιστος	unwalled	
+G6588	ἀτεκνία	childlessness	
+G6589	ἀτεκνόω	be barren	
+G6590	ἀτιμώρητος	unpunished	
+G6591	ἄτρακτος	a spindle	
+G6592	ἀτραπός	a short cut	
+G6593	ἄτρυγος	pure	
+G6594	ἀττάκης	a hopping locust	
+G6595	ἀττέλαβος	a small locust	
+G6596	ἀτυχέω	be unfortunate	
+G6597	αὔγασμα	a shining	
+G6598	αὐγέω	to shine	
+G6599	αὐθαδίᾳ	self-sufficiency	
+G6600	αὐθημερινός	daily	
+G6601	αὐθήμερος	daily	
+G6602	αὐλαία	a curtain	
+G6603	αὖλαξ	a furrow	
+G6604	αὐλάρχης	chief of the palace	
+G6605	αὐλών	a canyon	
+G6606	αὔρα	a breeze	
+G6607	αὐταρκέω	to suffice	
+G6608	αὐτόθι	at that time	
+G6609	αὐτομολέω	to desert	
+G6611	αὐτόχθων	native-born	
+G6612	αὐχήν	nape	
+G6613	αὐχμός	squalid	
+G6614	αὐχμώδης	austere	
+G6615	ἀφαγνίζω	to purify	
+G6616	ἀφαίρεμα	choice portion	
+G6617	ἀφάλλομαι	to hop	
+G6618	ἀφάπτω	to affix	
+G6619	ἄφεδρος	menstruation	
+G6620	ἀφειδῶς	unsparingly	
+G6621	ἀφελῶς	merely	
+G6622	ἀφηγέομαι	to guide	
+G6623	ἄφθορος	uncorrupted	
+G6624	ἀφοβία	fearlessness	
+G6625	ἄφοβος	without fear	
+G6626	ἀφορία	non-productivity	
+G6627	ἀφόρισμα	separation	
+G6628	ἀφορισμός	an offering	
+G6629	ἀφρονέω	be unwise	
+G6630	ἀφρόνως	unwisely	
+G6631	ἀφυλάκτως	unguardedly	
+G6633	αφφουσώθ	apart	
+G6634	ἀφφώ	now	
+G6635	ἀχάτης	agate	
+G6636	ἄχει	reed-grass	
+G6637	αχούχ	a thorn-bush	
+G6638	ἀωρία	midnight	
+G6639	ἄωρος	unseasonable	
+G6640	βααλτάμ	master	
+G6641	βαδδίν	linen clothes	
+G6642	βαδίζω	to proceed	
+G6643	βαθέως	deeply	
+G6644	βαθύφωνος	deep voiced	
+G6645	βαθύχειλος	having thick lips	
+G6646	βαίθ	bath (measure)	
+G6647	βαίνω	to go	
+G6648	βακτηρία	a staff	
+G6649	βακχούρια	first-fruit	
+G6650	βάλανος	a pin	
+G6651	βάμμα	a dye	
+G6652	βαρ	linen	
+G6653	βάραθρον	a pit	
+G6654	βᾶρις	a palace	
+G6655	βαρύγλωσσος	an unknown language	
+G6656	βαρυθυμέω	be weighed down	
+G6657	βαρυκάρδιος	heavy-hearted	
+G6658	βασιλίσκος	cobra	
+G6659	βάσκανος	bewitching	
+G6660	βάσταγμα	a burden	
+G6661	βδέλλα	leech	
+G6662	βδελυγμός	abomination	
+G6663	βεβαίως	firmly	
+G6664	βεβήλωσις	profaning	
+G6665	βεδέκ	a breach	
+G6666	βεζέκ	lightning	
+G6667	βελόστασις	weaponry	
+G6668	βερσεχθάν	a chest	
+G6669	βηρύλλιος	beryl	
+G6670	βιαίως	forcibly	
+G6671	βιβάζω	to breed	
+G6672	βίβλινος	papyrus	
+G6673	βιβλιοθήκη	a library	
+G6674	βιβλιοφόρος	courier	
+G6675	βῖκος	a pitcher	
+G6676	βιότης	sustenance	
+G6677	βιρά	a palace	
+G6678	βλέφαρον	eyelid	
+G6679	βόθρος	a cesspool	
+G6680	βοΐδιον	bullock	
+G6681	βόλβιτον	dung	
+G6682	βόλος	a casting	
+G6683	βομβέω	to resonate	
+G6684	βορά	carrion	
+G6685	βόσκημα	pastured	
+G6686	βόστρυχος	a curl	
+G6687	βοτρύδιον	a small cluster of grapes	
+G6688	βούβαλος	roebuck	
+G6689	βούκεντρον	an oxgoad	
+G6690	βουκόλιον	a herd	
+G6691	βουλευτικός	of a counselor	
+G6692	βουνίζω	to heap up	
+G6693	βούτομον	flowering rush	
+G6694	βούτυρον	butter	
+G6695	βραγχιάω	sore throat	
+G6696	βραδύγλωσσος	slow of tongue	
+G6697	βρόμος	groaning	
+G6698	βροντάω	to thunder	
+G6699	βροτός	human	
+G6700	βροῦχος	grasshopper	
+G6701	βρύχημα	a roaring	
+G6702	βρωτός	eatable	
+G6703	βύρσα	a hide	
+G6704	βύω	to plug	
+G6705	βῶλαξ	a clod	
+G6706	βῶλος	a droplet	
+G6707	γαβίς	crystal	
+G6708	γαζαρηνός	astrologer	
+G6709	γαζοφύλαξ	treasurer	
+G6710	γαῖα	land	
+G6711	γαῖσος	a javelin	
+G6712	γαλαθηνός	suckling	
+G6713	γαλεάγρα	a wicker cage	
+G6714	γαλῆ	weasel	
+G6715	γαμβρεύω	to marry	
+G6716	γαμβρός	an in-law	
+G6717	γαρέμ	frame	
+G6718	γασβαρηνός	a treasurer	
+G6719	γαυρίαμα	prancing	
+G6720	γαυριάω	to prance	
+G6721	γαυρόω	to prance	
+G6722	γεδδούρ	a troop	
+G6723	γεῖσος	molding	
+G6724	γειώρας	a foreigner	
+G6725	γελοιάζω	to joke	
+G6726	γελοιασμός	a joke	
+G6727	γελοιαστής	a jokester	
+G6728	γέρας	an honor	
+G6729	γεῦμα	taste	
+G6730	γεῦσις	tasting	
+G6731	γέφυρα	a dam	
+G6732	γεωμετρία	a surveying	
+G6733	γεωμετρικός	of a surveyor	
+G6734	γηγενής	earth-born	
+G6735	γίγαρτον	a grape-stone	
+G6736	γίγας	a giant	
+G6737	γλαύξ	owl	
+G6738	γλυκάζω	to sweeten	
+G6739	γλυκαίνω	to sweeten	
+G6740	γλύκασμα	sweetness	
+G6741	γλυκασμός	sweetness	
+G6742	γλυκερός	sweet	
+G6743	γλυκύτης	sweetness	
+G6744	γλύμμα	a carving	
+G6745	γλυπτός	a carving	
+G6746	γλυφή	a carving	
+G6747	γλύφω	to carve	
+G6748	γλωσσότμητος	with a tongue cut out	
+G6749	γλωσσοχαριτέω	to flatter	
+G6750	γλωσσώδης	talkative	
+G6751	γνάθος	a cheek	
+G6752	γνοφερός	dim	
+G6753	γνοφόω	to darken	
+G6754	γνοφώδης	dim	
+G6755	γνώριμος	acquaintance	
+G6756	γνωστῶς	knowingly	
+G6757	γόγγυσις	grumbling	
+G6758	γομόρ	a homer	
+G6759	γομφιάζω	to have a toothache	
+G6760	γομφιασμός	a toothache	
+G6761	γονορρυής	a seminal emission	
+G6762	γόνος	semen	
+G6763	γραμματεία	writing	
+G6764	γραμματεύω	to write	
+G6765	γραμματικός	an academic	
+G6766	γραμματοεισαγωγεύς	a judicial recorder	
+G6767	γραφεῖον	a stylus	
+G6768	γραφίς	a pen	
+G6769	γρηγόρησις	vigilance	
+G6770	γρύζω	to growl	
+G6771	γρύψ	a griffin	
+G6772	γυμνόω	be naked	
+G6773	γύμνωσις	nakedness	
+G6774	γυναικών	chamber of women	
+G6775	γύναιον	a helpless woman	
+G6776	γῦρος	a curve	
+G6777	γυρόω	to make a curvature	
+G6778	γύψ	a vulture	
+G6779	γωνιαῖος	angular	
+G6780	δαβείρ	dabir	
+G6781	δαλός	a firebrand	
+G6782	δάσος	a thicket	
+G6783	δασύπους	a hare	
+G6784	δασύς	bushy	
+G6785	δαψιλεύομαι	to worry	
+G6786	δείδω	be in awe	
+G6787	δείλαιος	wretched	
+G6788	δείλη	afternoon	
+G6789	δειλιαίνω	to make timid	
+G6790	δειλινός	dusk	
+G6791	δεινός	awful	
+G6792	δεκάδαρχος	a commander of ten	
+G6793	δεκαέξ	sixteen	
+G6794	δεκαεπτά	seventeen	
+G6795	δεκάπηχυς	ten cubits	
+G6796	δεκαπλασίων	ten-times	
+G6797	δέκαρχος	a commander of ten	
+G6798	δεκατρεῖς	thirteen	
+G6799	δεκάχορδος	ten-stringed	
+G6800	δεξαμενή	a trough	
+G6801	δέρρις	a hide covering	
+G6802	δεσπόζω	be master	
+G6803	δεσποτεία	mastery	
+G6804	δευτερεύω	be second	
+G6805	δευτερονόμιον	a second book of the law	
+G6806	δευτερόω	to repeat	
+G6807	δευτέρωσις	second rank	
+G6808	δῆγμα	a strike	
+G6809	δήλωσις	manifestation	
+G6810	διάβασις	a ford	
+G6811	διάβημα	a footstep	
+G6812	διαβητίζομαι	to force through	
+G6813	διαβιβάζω	to cause to pass over	
+G6814	διαβιόω	to continue to live	
+G6815	διαβοάω	to proclaim forth	
+G6816	διαβολή	distraction	
+G6817	διαβουλεύω	to deliberate upon	
+G6818	διαβουλία	deliberation	
+G6819	διαβούλιον	deliberation	
+G6820	διάγγελμα	declaration	
+G6821	διαγλύφω	to carve	
+G6822	διαγραφή	a diagram	
+G6823	διαγράφω	to circumscribe	
+G6824	διάδηλος	apparent	
+G6825	διαδύνω	to penetrate	
+G6826	διαθερμαίνω	to warm through	
+G6827	διάθεσις	a disposition	
+G6828	διαθρύπτω	to break through	
+G6829	δίαιτα	habitation	
+G6830	διαιτάω	to pass one's life	
+G6831	διακαθιζάνω	to sit separately	
+G6832	διακάμπτω	to bend	
+G6833	διακενῆς	ineffectual	
+G6834	διάκενος	empty	
+G6835	διακλάω	to snap	
+G6836	διακλέπτω	to steal away	
+G6837	διακομίζω	to carry across	
+G6838	διακοπή	a breach	
+G6839	διακόπτω	to cut through	
+G6840	διακύπτω	to look through	
+G6841	διαλανθάνω	to escape notice	
+G6842	διάλευκος	white-mixed	
+G6843	διάλλομαι	to leap across	
+G6844	διαλογή	versification	
+G6845	διάλυσις	parting	
+G6846	διαμαρτάνω	to miss entirely	
+G6847	διαμαρτυρία	bearing witness	
+G6848	διαμετρέω	to measure out	
+G6849	διαμέτρησις	a measurement	
+G6850	διαναπαύω	to give rest	
+G6851	διανήθω	to spin	
+G6852	διανθίζω	to decorate	
+G6853	διανίστημι	to arise	
+G6854	διανοέω	to consider	
+G6855	διανόησις	a device	
+G6856	διαπαρατριβή	useless disputation	
+G6857	διαπαρθενεύω	to lose virginity	
+G6858	διαπαύω	to discontinue	
+G6859	διαπειλέω	to threaten	
+G6860	διαπέμπω	to spread	
+G6861	διαπετάννυμι	to open and spread out	
+G6862	διάπηγα	a small pillar	
+G6863	διαπίπτω	to fail	
+G6864	διαπλατύνω	to flatten out	
+G6865	διαπληκτίζομαι	to skirmish	
+G6866	διαπνέω	to refresh	
+G6867	διάπρασις	a sale	
+G6868	διάπτωσις	a downfall	
+G6869	διαρπαγή	ravaging	
+G6870	διαρραίνω	to sprinkle	
+G6871	διαρρίπτω	to scatter	
+G6872	διαρτάω	to waver	
+G6873	διαρτίζω	to mold	
+G6874	διασαλεύω	to excite	
+G6875	διασάφησις	an explanation	
+G6876	διασκεδάννυμι	to disperse	
+G6877	διασκευάζω	to equip	
+G6878	διασκευή	equipment	
+G6879	διασκορπισμός	dispersing	
+G6880	δίασμα	a warp	
+G6881	διασπασμός	a tearing in pieces	
+G6882	διαστροφή	perverseness	
+G6883	διαστρώννυμι	to spread with carpets	
+G6884	διασφαγή	a gap	
+G6885	διασχίζω	to cut asunder	
+G6886	διάταξις	a disposition	
+G6887	διατείνω	to extend	
+G6888	διατήκω	to melt	
+G6889	διατήρησις	preservation	
+G6890	διατίλλω	to pluck out	
+G6891	διατόνιον	a clasp	
+G6892	διατόρευμα	carvings	
+G6893	διατρέπω	be overawed	
+G6894	διατρέφω	to maintain	
+G6895	διατρέχω	to run across	
+G6896	διατριβή	pastime	
+G6898	διαφαύσκω	to show light through	
+G6899	διαφλέγω	to burn up	
+G6900	διαφορέω	to disperse	
+G6901	διαφόρημα	dispersion	
+G6902	διαφωνέω	to dissent	
+G6903	διαφωτίζω	to illuminate	
+G6904	διαχέω	to diffuse	
+G6905	διαχρίω	to smear all over	
+G6906	διάχρυσος	interwoven with gold	
+G6907	διάχυσις	diffusion	
+G6908	διάψαλμα	a pause	
+G6909	διαψεύδω	to disappoint	
+G6910	δίγλωσσος	double-tongued	
+G6911	διδυμεύω	to bear twins	
+G6912	διεγγυάω	to mortgage	
+G6913	διεκβάλλω	to pass out through	
+G6914	διεκβολή	a mountain pass	
+G6915	διελαύνω	to thrust through	
+G6916	διελέγχω	to plead	
+G6917	διεμβάλλω	to insert	
+G6918	διεξάγω	to administer	
+G6919	διεξέρχομαι	to go through	
+G6920	διετηρίς	two whole years	
+G6921	διευλαβέομαι	to revere	
+G6922	διήγημα	a tale	
+G6923	διηθέω	to refine	
+G6924	διηλόω	to nail	
+G6925	δίθυμος	at variance	
+G6926	διΐημι	to thrust out	
+G6927	δικάζω	to act as judge	
+G6928	δικαστήριον	court of justice	
+G6929	δικτυόομαι	lattice work	
+G6930	δικτυωτός	latticed	
+G6931	δίμετρος	a double measure	
+G6932	δίοδος	a corridor	
+G6933	διοικητής	an administrator	
+G6934	διοικοδομέω	to build	
+G6935	διόλου	wholly	
+G6936	διοράω	to see clearly	
+G6937	διορθόω	to set right	
+G6938	διορίζω	to determine	
+G6939	διόρυγμα	a ditch	
+G6940	δίπηχυς	two cubits	
+G6941	διπλασιάζω	to repeat	
+G6942	διπλασιασμός	doubling	
+G6943	διπλοΐς	a doubled garment	
+G6944	δισσός	double	
+G6945	διυφαίνω	to interweave	
+G6946	διφθέρα	a leather covering	
+G6947	δίφρος	a chair	
+G6948	διχηλέω	be cloven	
+G6949	διχοτόμημα	a piece	
+G6950	δίψα	thirst	
+G6951	διωθέω	to push away	
+G6952	διώροφος	second story	
+G6953	διῶρυξ	an aqueduct	
+G6954	διωστήρ	a pole	
+G6955	δοκιμαστής	an approver	
+G6956	δόκωσις	a building	
+G6957	δολιότης	deceit	
+G6958	δολίως	deceitfully	
+G6959	δόμος	a layer	
+G6960	δόξασμα	glory	
+G6961	δοξαστός	glorious	
+G6962	δορά	skin	
+G6963	δορκάδιον	a young doe	
+G6964	δόρκων	a buck	
+G6965	δόρυ	a wooden spear	
+G6966	δοτός	dedicated	
+G6967	δράγμα	a sheaf	
+G6968	δράξ	a handful	
+G6969	δρομεύς	a runner	
+G6970	δρόσος	dew	
+G6971	δρυμός	a grove	
+G6972	δρῦς	an oak	
+G6973	δυναστεία	command	
+G6974	κυρεία	command	
+G6975	δυναστεύω	be in power	
+G6976	δυνατῶς	mightily	
+G6977	δὺο δύο	two by two	
+G6979	δυσκολία	discontent	
+G6980	δύσκωφος	hard of hearing	
+G6981	δυστοκέω	to suffer birth pangs	
+G6982	δύσχρηστος	inconvenient	
+G6983	δωδεκάμηνος	twelve months	
+G6984	δωροδέκτης	one that takes bribes	
+G6985	δωρολήπτης	one that receives bribes	
+G6987	ἔαρ	the spring season	
+G6988	ἑβδομάς	a period of seven	
+G6989	εβδομηκονταδύο	seventy-two	
+G6990	εβδομηκονταεπτά	seventy-seven	
+G6991	εβδομηκονταπέντε	seventy-five	
+G6992	εβδομηκοντατέσσαρες	seventy-four	
+G6993	εβδομηκοντατρεῖς	seventy-three	
+G6994	ἑβδομηκοστός	seventieth	
+G6995	ἐγγαστρίμυθος	one who delivers oracles	
+G6996	εγγελά	a heifer	
+G6997	ἐγγλύφω	to engrave upon	
+G6998	ἔγγραπτος	written	
+G6999	ἐγγυάω	to guarantee a loan	
+G7000	ἐγγύη	surety	
+G7001	ἐγγύθεν	near to	
+G7002	ἐγκάθημαι	to lie in wait	
+G7003	ἐγκαθίζω	to sit in place	
+G7004	ἐγκαινισμός	dedication	
+G7005	ἐγκαίνωσις	dedication	
+G7006	ἐγκαλύπτω	to cover up	
+G7007	ἔγκαρπος	containing fruit	
+G7008	ἔγκατα	insides	
+G7009	ἐγκατακρύπτω	to hide in	
+G7010	ἐγκατάλειμμα	leftover, surplus	
+G7011	ἐγκαταλιμπάνω	to abandon	
+G7012	ἐγκαταπαίζω	to mock	
+G7014	ἔγκειμαι	to cling	
+G7015	ἐγκισσάω	to stimulate	
+G7016	ἐγκλείω	to lock up	
+G7017	ἔγκληρος	hereditary	
+G7018	ἐγκλοιόω	to bind with a cord	
+G7019	ἐγκοίλια	the intestines	
+G7020	ἔγκοιλος	imbedded under	
+G7021	ἐγκολαπτός	sculptured	
+G7022	ἐγκολάπτω	to sculpt	
+G7023	ἐγκολλάω	to join	
+G7024	ἔγκοπος	wearied	
+G7025	ἐγκοτέω	be angry	
+G7026	ἐγκότημα	an object of anger	
+G7027	ἐγκρατέω	to have power over	
+G7028	ἐγκρίς	a pastry	
+G7029	ἐγκρούω	to hammer in	
+G7030	ἐγκρυφίας	cakes	
+G7031	ἔγκτητος	procured	
+G7032	ἐγκυλίω	to wrap up in	
+G7033	ἐγκωμιάζω	to laud	
+G7034	ἐγκώμιον	a commendation	
+G7035	ἐγρήγορος	a watchman	
+G7036	ἐγχειρέω	to take in hand	
+G7037	ἐγχείρημα	an enterprise	
+G7038	ἐγχειρίδιος	a knife	
+G7039	ἐγχειρίζω	to commit to	
+G7040	ἐγχέω	to pour	
+G7041	ἐγχρονίζω	to linger	
+G7042	ἐγχώριος	native inhabitant	
+G7043	ἔδεσμα	food	
+G7044	ἔδνα	a dowry	
+G7045	ἕδρα	buttock	
+G7046	ἑδράζω	to seat	
+G7047	ἐθισμός	a custom	
+G7048	εἰ δὲ καί	but if even	
+G7049	εἰ μήν	is it not?	
+G7050	εἰκάζω	to imagine	
+G7051	εἰκάς	the twentieth day	
+G7052	εἰκοσαετής	of twenty years	
+G7053	εικοσιδύο	twenty-two	
+G7054	εἰκοσιείς	twenty-one	
+G7055	εἰκοσιεννέα	twenty-nine	
+G7056	εἰκοσιέξ	twenty-six	
+G7057	εἰκοσιεπτά	twenty-seven	
+G7058	εἰκοσιοκτώ	twenty-eight	
+G7059	εἰκοσιπέντε	twenty-five	
+G7060	εἰκοσιτέσσαρες	twenty-four	
+G7061	εἰκοσιτρεῖς	twenty-three	
+G7062	εἱλέω	to wrap	
+G7063	εἶμι	to come	
+G7064	εἰρ	a sentinel	
+G7065	εἰσάπαξ	at once	
+G7066	εἰσβλέπω	to look in	
+G7067	εἰσδεκτός	acceptable	
+G7068	εισδύω	to enter into	
+G7069	εἰσοδιάζω	income	
+G7070	εἰσόδιος	an entrance	
+G7071	εἰσσπάομαι	to draw into	
+G7072	εἰσφορά	a contribution	
+G7073	ἑκάτερος	to each other	
+G7074	ἑκατονταπλασίως	a hundred foldly	
+G7075	ἑκατοντάς	a hundred	
+G7076	ἑκατοστεύω	to bear a hundred	
+G7078	ἐκβιάζω	to expel	
+G7079	ἐκβλαστάνω	to sprout forth	
+G7080	ἐκβλύζω	to gush out	
+G7081	ἐκβράζω	to throw out	
+G7082	ἐκβρασμός	an eruption	
+G7083	ἐκγελάω	to laugh out loud	
+G7084	ἐκγράφω	to write out	
+G7085	ἐκδανείζω	to lend with interest	
+G7086	ἐκδέρω	to flay	
+G7087	ἐκδέω	to suspend	
+G7088	ἐκδιδύσκω	to strip	
+G7089	ἐκδικάζω	to avenge	
+G7090	ἐκδικητής	avenger	
+G7091	ἐκζέω	to erupt	
+G7092	ἔκθεμα	public notice	
+G7093	ἐκθερίζω	to reap up	
+G7094	ἐκθηλάζω	to suck out	
+G7095	ἐκθλίβω	to squeeze out	
+G7096	ἐκκαθαρίζω	to clear out	
+G7097	ἑκκαίδεκα	sixteen	
+G7098	ἑκκαιδέκατος	sixteenth	
+G7099	ἐκκαλέω	to call forth	
+G7100	ἐκκενόω	to empty out	
+G7101	ἐκκήρυκτος	banished	
+G7102	ἐκκλησιάζω	to hold an assembly	
+G7103	ἐκκλησιαστής	assemblyman	
+G7104	ἐκκλύζω	to wash out	
+G7105	ἐκκόλαμμα	engravement	
+G7106	ἐκκρούω	to knock back	
+G7107	ἐκκύπτω	to look out of	
+G7108	ἐκλαμβάνω	to take out of	
+G7109	ἐκλατομέω	to quarry	
+G7110	ἐκλείχω	to lick up	
+G7111	ἔκλειψις	end	
+G7112	ἐκλευκαίνω	to whiten	
+G7113	ἔκλευκος	very white	
+G7114	ἐκλιμία	craving	
+G7115	ἐκλογίζομαι	to call into account	
+G7116	ἐκλοχίζω	to select	
+G7117	ἔκλυσις	feebleness	
+G7118	ἐκλύτρωσις	ransoming	
+G7119	ἐκμαίνω	to drive mad	
+G7120	ἐκμετρέω	to measure out	
+G7121	ἐκμιαίνω	to defile	
+G7122	ἐκμυελίζω	to extract marrow	
+G7123	ἔκνηψις	soberness	
+G7124	ἑκουσιάζομαι	be willing	
+G7125	ἑκουσιασμός	a voluntary offering	
+G7126	ἐκπεράω	to carry over	
+G7127	ἐκπεριπορεύομαι	to march around	
+G7128	ἐκπιέζω	to pressure	
+G7129	ἐκπικραίνομαι	to embitter greatly	
+G7130	ἐκπίνω	to drink up	
+G7131	ἔκπληξις	amazement	
+G7132	ἐκπλύνω	to thoroughly wash	
+G7133	ἐκποιέω	to furnish	
+G7134	ἐκπολεμέω	to wage war	
+G7135	ἐκπολιορκέω	to capture a city	
+G7136	ἐκπορθέω	to pillage	
+G7137	εκπριόω	to buy off	
+G7138	εκρέω	to flow away	
+G7139	ἔκρηγμα	an inundation	
+G7140	ἐκρήγνυμι	be torn from	
+G7141	ἐκρίπτω	to cast forth	
+G7142	ἔκρυσις	an outflow	
+G7143	ἐκσαρκίζομαι	to tear off flesh	
+G7144	ἐκσιφωνίζω	to siphon off	
+G7145	ἐκσπάω	to pull out	
+G7146	ἐκσπερματίζω	to produce offspring	
+G7147	ἐκστραγγίζω	to strain out	
+G7148	ἐκστρατεύω	to march	
+G7149	ἔκτασις	stretching out	
+G7150	ἐκτάσσω	to array	
+G7151	ἐκτέμνω	to cut off	
+G7152	ἐκτήκω	to waste away	
+G7153	ἐκτίκτω	to bring forth	
+G7154	ἐκτίλλω	to pluck out	
+G7155	ἐκτιναγμός	a thrusting out	
+G7156	ἐκτοκίζω	to lend with interest	
+G7157	ἐκτομίας	emasculated	
+G7158	ἐκτρέχω	to run forth	
+G7159	ἐκτριβή	obliteration	
+G7160	ἐκτρίβω	to obliterate	
+G7161	ἔκτριψις	obliteration	
+G7162	ἐκτρυγάω	to gather in grapes	
+G7163	ἐκτρώγω	to chew away	
+G7164	ἐκτυπόω	to shape	
+G7165	ἐκτύπωμα	an impression	
+G7166	ἐκτύπωσις	an impression	
+G7167	ἐκτυφλόω	to make blind	
+G7168	ἐκφορά	a funeral	
+G7169	ἐκφόριον	resource	
+G7170	ἐκφύρω	to defile	
+G7171	ἐκφυσάω	to blow away	
+G7172	ἔκχυσις	an outpouring	
+G7173	ἐλάϊνος	of olive	
+G7174	ἐλαιολογέω	to pick olives	
+G7175	ἔλασμα	a hammered piece	
+G7176	ἐλασσόω	to lack	
+G7177	ἐλάτη	fir tree	
+G7178	ἐλάτινος	of fir	
+G7179	ἐλατός	hammered out	
+G7180	ἔλαφος	hind	
+G7181	ἐλέφας	ivory	
+G7182	ἑλικτός	kneaded	
+G7183	ἕλιξ	a fetter	
+G7184	ἔλλειμμα	remains	
+G7185	ελμωνί	a concealed place	
+G7186	ἕλος	a marsh	
+G7187	ἐμβαθύνω	to deepen	
+G7188	ἐμβρίμημα	threatening	
+G7189	ἔμετος	vomit	
+G7190	ἐμμολύνω	to contaminate	
+G7191	ἔμμονος	permanent	
+G7192	εμμωνείμ	such and such place	
+G7193	ἔμπαιγμα	mockery	
+G7194	ἐμπαραγίνομαι	to come upon	
+G7195	ἐμπήγνυμι	to stick into	
+G7196	ἐμπίμπρημι	to set on fire	
+G7197	ἐμπιστεύω	to entrust	
+G7198	ἐμπλατύνω	to widen	
+G7199	ἐμπλόκιον	a wreath	
+G7200	ἔμπνευσις	blasting	
+G7201	ἐμποδίζω	to impede	
+G7202	ἐμποδοστατέω	to impede	
+G7203	ἐμποιέω	to cause	
+G7204	ἐμπολάω	to do business	
+G7205	ἐμπρόσθιος	in front	
+G7206	ἔμπτυσμα	spit	
+G7207	ἐμπυρίζω	to burn	
+G7208	ἐμπυρισμός	a combustion	
+G7209	ἔμπυρος	on a fire	
+G7210	ἐμφαίνω	to appear	
+G7211	ἐμφανῶς	visibly	
+G7212	ἐμφραγμός	an obstruction	
+G7213	ἐμφράσσω	to obstruct	
+G7214	ἐνακούω	to listen to attentively	
+G7215	ἐναλλάξ	crosswise	
+G7216	ἐνάλλομαι	to assail	
+G7217	ἐναντιόομαι	to withstand	
+G7218	ἔνδεια	a lack	
+G7219	ἐνδελεχισμός	in perpetuity	
+G7220	ἐνδελεχῶς	continually	
+G7221	ἔνδεσμος	bonding, bundles	
+G7222	ἐνδέω	to bind in	
+G7223	ἐνδιαβάλλω	to be adversary	
+G7224	ἐνδιατρίβω	to spend one's time	
+G7225	ἐνδίδωμι	to give forth	
+G7226	ἐνδογενής	natural	
+G7227	ἔνδοθεν	within	
+G7228	ἔνδον	inside	
+G7229	ἐνδόξως	gloriously	
+G7230	ἐνδόσθια	entrails	
+G7231	ἐνεῖδον	to see in	
+G7232	ἐνείρω	to entwine	
+G7233	ενενηκονταοκτώ	ninety-eight	
+G7234	ἐνεργός	operative	
+G7235	ἐνευφραίνομαι	be pleased with	
+G7236	ἐνεχυράζω	to take for security	
+G7237	ἐνεχύρασμα	collateral	
+G7238	ἐνεχυρασμός	collateral	
+G7239	ἐνέχυρον	a security	
+G7240	ἒνθα καὶ ἔνθα	here and there	
+G7241	ἔνθεμα	a garland	
+G7242	ἐνθρονίζω	to enthrone	
+G7243	ἐνθύμημα	a thought	
+G7244	ἐνθύμιος	inner thought	
+G7245	ἐνιαύσιος	of a year	
+G7246	ἐννακόσιοι	nine hundred	
+G7247	ἐννεακαίδεκα	nineteen	
+G7248	ἐννεακαιδέκατος	nineteenth	
+G7249	ἐννενήκοντα	ninety	
+G7250	εννενηκονταδύο	ninety-two	
+G7251	εννενηκονταέξ	ninety-six	
+G7252	ενενηκονταπέντε	ninety-five	
+G7253	ἐννοέω	to reflect on	
+G7254	ἐννοσσεύω, ἐννεοσσεύω	to nest	
+G7255	ἐνοικειόω	be related	
+G7256	ἐνοπλίζω	to arm oneself	
+G7257	ἔνοπλος	armed	
+G7258	ἐνόρκιος	affirmation	
+G7259	ἔνορκος	to bind by an oath	
+G7260	ἐνσιτέομαι	to feed upon	
+G7261	ἐνσκολιεύομαι	to catch in a snare	
+G7262	ἐντάσσω	to arrange in	
+G7263	ἐνταῦθα	here	
+G7264	ἐνταφιαστής	an embalmer	
+G7265	ἐντείνω	to stretch tight	
+G7266	ἔντερον	innards	
+G7267	ἐντήκω	to melt away	
+G7268	ἐντίθημι	to insert	
+G7269	ἐντιμάω	to value	
+G7270	ἐντίμως	highly valued	
+G7271	ἐντομίς	a cut	
+G7272	ἔντριτος	three-stranded	
+G7273	ἐντρύφημα	amusement	
+G7274	ἐνυπνιαστής	a dreamer	
+G7275	ἔνυστρον	large intestine	
+G7276	ἐνώπιος	face to face	
+G7277	ἕνωσις	uniting	
+G7278	ἐνώτιον	a ring	
+G7279	ἐξαγορεύω	to confess	
+G7280	ἐξαγριαίνω	to rage furiously	
+G7281	ἐξαιρετός	chosen out of	
+G7282	ἐξαίσιος	extraordinary	
+G7283	ἑξάκις	six times	
+G7284	ἑξακισχίλιοι	six thousand	
+G7285	ἐξακονάω	to make very sharp	
+G7286	ἑξακοσιοστός	six hundredth	
+G7287	ἐξακριβάζω	to determine	
+G7288	ἐξάλειπτρον	an ointment jar	
+G7289	ἐξάλειψις	a wiping out	
+G7290	ἐξαλλάσσω	to change	
+G7291	ἔξαλλος	special	
+G7292	ἐξαμαρτάνω	to lead into sin	
+G7293	ἑξάμηνος	six months	
+G7294	ἐξαναλίσκω	to consume	
+G7295	εξεναντίας	right opposite	
+G7296	ἐξανθέω	to blossom	
+G7297	ἐξαντλέω	to draw out	
+G7298	ἐξαπίνης	sudden	
+G7299	ἐξάπτω	to light up	
+G7300	ἐξαριθμέω	to count out	
+G7301	ἐξαρκέω	be enough	
+G7302	ἔξαρσις	a departure	
+G7303	ἐξαρτάω	be attached to	
+G7304	ἐξάρχω	to originate	
+G7305	ἐξατιμόομαι	to despise	
+G7306	ἐξέδρα	an inner chamber	
+G7307	ἐξεικονίζω	to completely form	
+G7308	ἐξεκκλησιάζω	to assemble	
+G7309	ἐξελαύνω	to launch an expedition	
+G7310	ἐξελίσσω	to expand	
+G7311	ἐξεμέω	to vomit forth	
+G7312	ἐξεργάζομαι	to complete	
+G7313	ἐξερεύγομαι	to discharge forth	
+G7314	ἐξερεύνησις	a search	
+G7315	ἐξερημόω	to make desolate	
+G7316	ἐξέρπω	to creep forth	
+G7317	ἐξετασμός	an inquisition	
+G7318	ἐξεύρεσις	a finding out	
+G7319	ἐξέχω	to protrude	
+G7320	ἐξήγησις	description	
+G7321	ἐξηγητής	an expositor	
+G7322	ἐξηγορία	an utterance	
+G7323	ἑξηκονταδύο	sixty-two	
+G7324	εξηκονταέξ	sixty-six	
+G7325	εξηκονταεπτά	sixty-seven	
+G7326	ἑξηκονταετής	sixty years old	
+G7327	εξηκονταοκτώ	sixty-eight	
+G7328	εξηκονταπέντε	sixty-five	
+G7329	ἐξηλιάζω	to hang in the sun	
+G7330	ἐξίλασις	atonement	
+G7331	ἐξιλάσκομαι	to appease	
+G7332	ἐξίλασμα	an appeasement	
+G7333	ἐξιλασμός	a making an atonement	
+G7334	ἐξιππάζομαι	to ride forth	
+G7335	ἐξίπταμαι	to flutter away	
+G7336	ἐξισόω	to make equal	
+G7337	ἐξιχνιάζω	to trace	
+G7338	ἐξιχνιασμός	a tracking out	
+G7339	ἐξοδία	a departure	
+G7340	ἐξοδιάζω	to spend	
+G7341	ἐξόδιος	a holiday recess	
+G7342	ἐξοικοδομέω	to build up	
+G7343	ἔξοικος	homeless	
+G7344	ἐξοκέλλω	to lead aground	
+G7345	ἐξόλλυμι	to totally ruin	
+G7346	εξολόθρευσις	devastation	
+G7347	ἐξομολόγησις	acknowledgment	
+G7348	ἐξόπισθεν	following	
+G7349	ἐξοπλίζω	to completely arm	
+G7350	ἐξορμάω	to sally out	
+G7351	ἐξουδένωμα	contempt	
+G7352	ἐξουδένωσις	contempt	
+G7353	ἐξουθένημα	a contemptible thing	
+G7354	ἐξυβρίζω	to overflow	
+G7355	ἔξωσμα	purgation	
+G7356	ἐξωτέρω	outer	
+G7357	ἐπαγωγή	an invasion	
+G7358	ἐπάδω	to charm	
+G7359	ἐπακρόασις	heeding	
+G7360	ἔπαλξις	a parapet	
+G7361	ἐπανακαινίζω	to renew	
+G7362	ἐπαναστρέφω	to return	
+G7363	ἐπανατρυγάω	to glean the vintage	
+G7364	ἐπανήκω	to come back again	
+G7365	ἐπανθέω	to bloom again	
+G7366	ἐπάνωθεν	about	
+G7367	ἐπαοιδή	enchantment	
+G7368	ἐπαοιδός	an enchanter	
+G7369	ἐπαποστέλλω	to send as successor	
+G7370	ἔπαρμα	raised elevation	
+G7371	ἔπαρσις	a raising	
+G7372	ἐπαρυστήρ	a funnel	
+G7373	ἐπαρυστρίς	an oil funnel	
+G7374	ἔπαρχος	a chief ruler	
+G7375	ἐπαφίημι	to let loose on	
+G7376	ἔπειμι	be used	
+G7377	ἔπειμι	coming	
+G7378	ἐπεισφέρω	to bring in addition	
+G7379	ἐπελπίζω	to raise hope	
+G7380	ἐπερείδω	to lean upon	
+G7381	ἐπερώτησις	questioning	
+G7382	ἐπέτειος	yearly	
+G7383	ἐπευκτός	longed for	
+G7384	ἐπεύχομαι	to invoke	
+G7385	ἐπήκοος	attentive	
+G7386	ἐπήλυτος	a stranger	
+G7387	ἐπίβασις	a step	
+G7388	ἐπιβάτης	a crewman	
+G7389	ἐπιβόλαιον	a covering	
+G7390	ἐπιβουλεύω	to plot against	
+G7391	ἐπίβουλος	a plotter	
+G7392	ἐπιβρέχω	to rain upon	
+G7393	ἐπιγαμία	related by marriage	
+G7394	ἐπιγελάω	to laugh at	
+G7395	ἐπιγεμίζω	to load upon	
+G7396	ἐπιγνωμοσύνη	knowledge	
+G7397	ἐπιγνώμων	an arbitrator	
+G7398	ἐπίγνωστος	well known	
+G7399	ἐπιγονή	a breed	
+G7400	ἐπιδέκατος	a tithe	
+G7401	ἐπιδέξιος	fitting	
+G7402	ἐπιδέω	to fasten	
+G7403	ἐπιδιπλόω	to double	
+G7404	ἐπιδιώκω	to pursue after	
+G7405	ἐπιεικεύομαι	be lenient	
+G7406	ἐπιεικῶς	please	
+G7407	ἐπιζάω	to outlive	
+G7408	ἐπιζήμιος	a fine	
+G7409	ἐπίθεμα	a lid	
+G7410	ἐπιθύμημα	desire	
+G7411	ἐπιθυμητός	desirable	
+G7412	ἐπιθύω	to sacrifice upon	
+G7413	ἐπικαταλαμβάνω	to overtake	
+G7414	ἐπικαταράομαι	to accurse	
+G7415	ἐπίκλητος	selected	
+G7416	ἐπικλίνω	to incline	
+G7417	ἐπικλύζω	to inundate	
+G7418	ἐπικοιμάομαι	to rest upon	
+G7419	ἐπικοσμέω	to embellish	
+G7420	ἐπικραταιόω	to prevail against	
+G7421	ἐπικρατέω	to prevail	
+G7422	ἐπικρεμάννυμι	to hang upon	
+G7423	ἐπικροτέω	to clap	
+G7424	ἐπικρούω	to strike	
+G7425	ἐπικυλίω	to roll upon	
+G7426	ἐπιλάμπω	to shine forth	
+G7427	ἐπίλεκτος	chosen	
+G7428	ἐπιληπτεύομαι	be possessed	
+G7429	ἐπίληπτος	convulsed	
+G7430	ἐπιμίγνυμι	to intermix	
+G7431	ἐπίμικτος	intermixed	
+G7432	ἐπιμύλιος	an upper millstone	
+G7433	ἐπινοέω	to think about	
+G7434	ἐπινυστάζω	to slumber	
+G7435	ἐπιξενόομαι	be welcomed as a guest	
+G7436	ἐπίπεμπτος	a fifth part	
+G7437	ἐπιπέμπω	to bring in addition	
+G7438	ἐπιπολάζω	to float	
+G7439	ἐπιρραντίζω	to sprinkle upon	
+G7440	ἐπιρρέω	to overflow	
+G7441	ἐπίσαγμα	a saddle	
+G7442	ἐπισάττω	to saddle	
+G7443	ἐπισείω	to stir up	
+G7444	ἐπισημαίνω	to mark	
+G7445	ἐπισκάζω	to limp	
+G7446	ἐπισκεπάζω	to envelop	
+G7447	ἐπισκευάζω	to repair	
+G7448	ἐπίσκεψις	a review	
+G7449	ἐπίσπαστρον	a draw curtain	
+G7450	ἐπισπεύδω	to hurry	
+G7451	ἐπισπλαγχνίζομαι	to show compassion	
+G7452	ἐπισπουδάζω	to hasten	
+G7453	ἐπισπουδαστής	a taskmaster	
+G7454	ἐπιστήμη	higher knowledge	
+G7455	ἐπιστήριγμα	a stay	
+G7456	ἐπιστοιβάζω	to pile up	
+G7457	ἐπιστρατεύω	to march against	
+G7458	ἐπισυνίστημι	to rise up together against	
+G7459	ἐπισυστρέφω	to gather together against	
+G7460	ἐπισφραγίζω	to put a seal upon	
+G7461	ἐπιτήδευμα	a practice	
+G7462	ἐπιτηδεύω	to apply	
+G7463	ἐπιτίμησις	reproach	
+G7464	ἐπιτοαυτό	together	
+G7465	ἐπιτρέχω	to run to	
+G7466	ἐπιτρίβω	to crush	
+G7467	ἐπίτριψις	wearing away	
+G7468	ἐπιφημίζω	to portend	
+G7469	ἐπιφυλλίζω	to glean	
+G7470	ἐπιφυλλίς	a gleaning	
+G7471	ἐπιχαίρω	to rejoice at	
+G7472	ἐπιχαρής	gratifying	
+G7473	ἐπίχαρμα	derision	
+G7474	ἐπίχαρτος	incurring ridicule	
+G7475	ἐπίχειρον	forearm	
+G7476	ἐπίχυσις	a vessel	
+G7477	ἐπιχώρησις	grant	
+G7478	ἐπόζω	to stink	
+G7479	ἐποίκιον	an estate	
+G7480	ἐπονείδιστος	reviled	
+G7481	ἔποψ	a hoopoe	
+G7482	ἑπταετής	of seven years	
+G7483	ἑπτακαίδεκα	seventeen	
+G7484	ἑπτακαιδέκατος	seventeenth	
+G7485	ἑπτακόσιοι	seven hundred	
+G7486	ἑπτάμηνος	of seven months	
+G7487	ἑπταπλάσιος, ἑπταπλασίων	seven-fold	
+G7488	ἑπταπλασίων	seven-fold	
+G7489	ἑπταπλασίως	seven-fold	
+G7490	ἐπωμίς	a shoulder-piece	
+G7491	ἐπωρύω	to roar against	
+G7492	ἐραστής	a lover	
+G7493	ἐράω	to love passionately	
+G7494	ἐργάβ	a chest	
+G7495	ἐργαλεῖον	a work tool	
+G7496	ἐργάσιμος	a deed	
+G7497	ἐργοδιωκτέω	to direct works	
+G7498	ἐργοδιώκτης	a foreman	
+G7499	ἐρεθισμός	aggravation	
+G7500	ἐρεθιστής	an irritant	
+G7501	ἔρεισμα	a support	
+G7502	ἐρεοῦς	woolen	
+G7503	ἐρημικός	solitary	
+G7504	ἐρημίτης	a recluse	
+G7505	ἔριθος	wool worker	
+G7506	ἐρικτός	ground up	
+G7507	ἑρμηνευτής	a translator	
+G7508	ἕρπω	to crawl	
+G7509	ἐρύθημα	red dye	
+G7510	ἐρυθροδανόω	to dye red	
+G7511	ἐρυσίβη	blight	
+G7512	ἐρῳδιός	a heron	
+G7513	ἔρως	passion	
+G7514	ἑσπερινός	during evening	
+G7515	ἑστιατορία	feasting	
+G7516	ἐσχάρα	a grate	
+G7517	ἐσχαρίτης	broiled	
+G7518	ἐσχατίζω	be late	
+G7519	ἐσώτατος	innermost	
+G7520	εσώτερον	inside	
+G7521	ἐτάζω	to chastise	
+G7522	ἑταίρα	a mistress	
+G7523	ἑταιρία	friendship	
+G7524	ἔτασις	chastisement	
+G7525	ἐτασμός	chastisement	
+G7526	ἑτερόζυγος	unequally yoked	
+G7527	εὐαγγελία	good news	
+G7528	εὐάλωτος	easily caught	
+G7529	εὐάρμοστος	well-tuned	
+G7531	εὐγένεια	magnanimity	
+G7532	εὔγνωστος	well-known	
+G7533	εὐδοκιμέω	be approved	
+G7534	εὐεκτέω	to enjoy good health	
+G7535	εὔελπις	confident	
+G7536	εὔζωνος	well-equipped	
+G7537	εὐήκοος	heedful	
+G7538	εὔηχος	distinct	
+G7539	εὐθαλέω	to thrive	
+G7540	εὐθαλής	flourishing	
+G7541	εὐθηνέω	to prosper	
+G7542	εὐθηνία	prosperity	
+G7543	εὐθής	right	
+G7544	εὐιλατεύω	to propitiate	
+G7545	εὐίλατος	propitious	
+G7546	εὐκαταφρόνητος	despicable	
+G7547	εὐκλεής	renowned	
+G7548	εὐκληματέω	to have good vine branches	
+G7549	εὔκολος	well-tempered	
+G7550	εὔλαλος	well-spoken	
+G7551	εὐμεγέθης	huge	
+G7552	εὐμετάβολος	changeable	
+G7553	εὐμήκης	tall	
+G7554	εὔοδος	prosperous	
+G7555	εὐόδως	prosperously	
+G7556	εὐπαθέω	to enjoy pleasure	
+G7557	εὐπάρυφος	elegantly	
+G7558	εὐπρεπής	beautiful	
+G7559	εὐπρόσωπος	good-looking	
+G7560	εὑρετής	an inventor	
+G7561	εὕρημα	unexpected gain	
+G7562	εὔριζος	well-rooted	
+G7563	εὖρος	breadth	
+G7564	εὐρύς	broad	
+G7565	εὐρωτιάω	be moldy	
+G7566	εὔσκιος	well-shaded	
+G7567	εὐσταθέω	be stable	
+G7568	εὐστόχως	skillfully	
+G7569	εὐστροφία	versatility	
+G7570	εὐσυναλλάκτως	conciliatory	
+G7571	εὐτάκτως	orderly	
+G7572	εὐχερής	easily managed	
+G7573	εὐχερῶς	easily	
+G7574	εὐψύχως	confidently	
+G7575	εὐώδης	sweet smelling	
+G7576	εὐωδιάζω	be fragrant	
+G7577	Ἐφαδανώ	a royal pavilion	
+G7578	ἐφαμαρτάνω	to tempt	
+G7579	ἐφάπτω	to attach to	
+G7580	ἐφέλκω	to drag upon	
+G7581	ἔφηλος	peeling skin	
+G7582	ἑφθός	cooked	
+G7583	ἐφοδεύω	to explore	
+G7584	ἐφοδιάζω	to provide	
+G7585	ἐφόδιος	supplies	
+G7586	ἐφοράω	to inspect	
+G7587	ἐφούδ	an ephod	
+G7588	ἐχθραίνω	to hate	
+G7589	ἐχθρεύω	be an enemy	
+G7590	ἐχθρία	hatred	
+G7591	ἐχῖνος	hedgehog	
+G7592	ἐξουσιαστής	a potentate	
+G7593	ἕψεμα	a stew	
+G7594	ἕψω	to bake	
+G7595	ἑωθινός	early morning	
+G7596	ἑωσφόρος	morning star	
+G7597	ζέα	spelt	
+G7598	ζέμα	boiling	
+G7599	ζεύγνυμι	harness	
+G7600	ζηλοτυπία	jealousy	
+G7601	ζήλωσις	jealousy	
+G7602	ζηλωτός	zealous	
+G7603	ζιβύνη	a pike	
+G7604	ζίου	Zif	
+G7605	ζυγόω	to join together	
+G7606	ζῦθος	beer	
+G7607	ζυμίτης	leavened	
+G7608	ζυμωτός	leavened	
+G7609	ζωγραφέω	to portray	
+G7610	ζωγρεία	taking alive	
+G7611	ζωμός	broth	
+G7612	ζωοποίησις	restoring to life	
+G7613	ζωόω	to enliven	
+G7614	ζωπυρέω	to enliven	
+G7615	ζῶσις	girding up	
+G7616	ἡγεμονικός	governing	
+G7617	ἥγημα	a leading	
+G7618	ἡγητέον	be esteemed	
+G7619	ἡδύνω	be delicious	
+G7620	ἡδύς	agreeable	
+G7621	ἥδυσμα	luscious	
+G7622	ἡδυσμός	luscious	
+G7623	ἡδύφωνος	sweet sounding	
+G7624	ἥδω	light; (in weight)	
+G7625	Ἠθάμ	continuance	
+G7626	ἤλεκτρον	molten bronze	
+G7627	ἡλιάζομαι	to expose to sun	
+G7628	ἡμίεφθος	half-boiled	
+G7629	ἡμίονος	the mule	
+G7630	ἡμίσευμα	the half	
+G7631	ἡμισεύω	to halve	
+G7632	ἡνία	reins	
+G7633	ἡνίοχος	a charioteer	
+G7634	ἧπαρ	the liver	
+G7635	ἠρεμάζω	be calm	
+G7636	ἥρως	a hero	
+G7637	ἡσυχῇ	tranquilly	
+G7638	ἠχώ	an echo	
+G7639	θάλλω	to flourish	
+G7640	θαλπιώθ	an armory	
+G7641	θανουρίμ	a furnace	
+G7642	θαρσείς	tharsis	
+G7643	θαυμαστόω	to cause wonder	
+G7644	θαυμαστῶς	wonderfully	
+G7645	θεέ	a vestibule	
+G7646	θεεβουλαθώθ	rule	
+G7647	θεηλάθ	a porch	
+G7648	θεκέλ	thekel	
+G7649	θελητής	a soothsayer	
+G7650	θελητός	wanted	
+G7651	θέμα	in place	
+G7652	θεμελίωσις	groundwork	
+G7653	θεννουρίμ	a furnace	
+G7654	θεράπαινα	a female attendant	
+G7655	θεραφείν	teraphim	
+G7656	θηρευτής	a hunter	
+G7657	θερινός	a harvest	
+G7658	θέριστρον	a reaping hook	
+G7659	θερμασία	heat	
+G7660	θερμαστρίς	a tong	
+G7661	θερμός	hot	
+G7662	θέσις	designation	
+G7663	θεσμός	a rule	
+G7664	θεωρητός	something visible	
+G7665	θηλυκός	female	
+G7666	θηλυμανής	sex-crazed	
+G7667	θημωνιά	a heap	
+G7668	θήρ	a wild beast	
+G7669	θήρευμα	a hunt	
+G7670	θηριάλωτος	taken by wild beasts	
+G7671	θηριόβρωτος	eaten by wild beasts	
+G7672	θησαύρισμα	a treasury	
+G7673	θησαυροφύλαξ	a treasurer	
+G7674	θίασος	revelry	
+G7675	θῖβις	a wicker basket	
+G7676	θίς	a hill	
+G7677	θλαδίας	crushed testicles	
+G7678	θλάσμα	a fracture	
+G7679	θλάω	to crush	
+G7680	θλιμμός	affliction	
+G7681	θνησιμαῖος	decaying flesh	
+G7682	θολερός	clouded	
+G7683	θράσος	boldness	
+G7684	θρασυκάρδιος	bold-hearted	
+G7685	θρασύνω	to embolden	
+G7686	θρασύς	bold	
+G7687	θραῦσις	a devastation	
+G7688	θραῦσμα	outbreak	
+G7689	θραυσμός	a breaking	
+G7690	θρεπτός	brought up	
+G7691	θρήνημα	wailing	
+G7692	θρυλλέω	to chatter	
+G7693	θρύλλημα	a common topic	
+G7694	θυία	a hand-mill	
+G7695	θυΐσκη	an incense pan	
+G7696	θύλακος	a purse	
+G7697	θῦμα	an offering	
+G7698	θυμώδης	inclined to rage	
+G7699	θύρωμα	a doorway	
+G7700	θυσιάζω	to sacrifice	
+G7701	θυσίασμα	a sacrifice	
+G7702	θωδαθά	thanksgiving	
+G7703	ιαμίν	mules	
+G7704	ἰατής	a healer	
+G7705	ἰατρεία	healing	
+G7706	ἰατρεῖον	a physician's fee	
+G7707	ἰατρεύω	to treat; medically	
+G7708	ἶβις	an ibis	
+G7709	ἰγνύα	ham	
+G7710	ἰδιοποιέω	to adopt	
+G7711	ἱδρύω	to secure	
+G7712	ἱέραξ	a hawk	
+G7713	ἱκανῶς	fittingly	
+G7714	ἱκετεύω	to entreat	
+G7715	ἱκέτης	a supplicant	
+G7716	ἴκτερος	jaundice	
+G7717	ἰκτίν	a kite	
+G7718	ἱλαρύνω	to make happy	
+G7719	ἱλαρῶς	happily	
+G7720	ἰλύς	slime	
+G7721	ἱματιοφύλαξ	keeper of cloaks	
+G7722	ἴνδαλμα	an effigy	
+G7723	ἰξευτής	a fowler	
+G7724	Ιοὐδαϊστί	in Hebrew	
+G7725	ἱππάζομαι	to ride a horse	
+G7726	ἱππάρχης	cavalry commander	
+G7727	ἱππασία	riding	
+G7728	ἱππεύω	to ride horseback	
+G7729	ἱπποδρόμος	course of horses	
+G7730	ἰσόω	to make equal	
+G7731	ἱστάνω	to establish	
+G7732	ἱστίον	a shroud	
+G7733	ἱστός	a mast	
+G7734	ἰσχίον	a hip	
+G7735	ἰσχνόφωνος	weak voiced	
+G7736	ἰσχυρόω	to strengthen	
+G7737	ἰσχυρῶς	strongly	
+G7738	ἰταμία	audacity	
+G7739	ἰταμός	audacious	
+G7740	ἰτέα	willow	
+G7741	ἰχθυηρός	of fish	
+G7742	ἰχθυϊκός	fishing	
+G7743	ἰχνεύω	to prowl	
+G7744	ἰχώρ	pus	
+G7745	Ἰωβήλ	a ram	
+G7746	κάβος	a cab measure	
+G7747	καδημείν	stream of antiquity	
+G7748	καδησίμ	male prostitutes	
+G7749	κάδιον	a canteen	
+G7750	κάδος	a pail	
+G7751	καθαγιάζω	to consecrate	
+G7752	καθαρεύω	be clean	
+G7753	καθαριότης	cleanliness	
+G7754	κάθαρσις	a cleansing	
+G7755	κάθεμα	a necklace	
+G7756	καθηλόω	to nail up	
+G7757	κάθιδρος	sweating	
+G7758	καθιζάνω	to sit down	
+G7759	κάθισις	sitting	
+G7760	καθοδηγέω	to direct	
+G7761	κάθοδος	a return	
+G7762	καθομολογέω	to promise	
+G7763	καθόρμιον	a hanging necklace	
+G7764	καθυβρίζω	to insult	
+G7765	καθυμνέω	to sing praise	
+G7766	καθυπνόω	to sleep	
+G7767	καθυστερέω	be late	
+G7768	καθυφαίνω	to interweave	
+G7769	καινίζω	to revive	
+G7770	καίριος	timely	
+G7771	κακοποίησις	an evil deed	
+G7772	κακουργία	evil actions	
+G7773	κακοφροσύνη	evil thinking	
+G7774	κακόφρων	evil-minded	
+G7775	καλαβώτης	a newt	
+G7776	κάλαθος	a reed basket	
+G7777	καλαμάομαι	to glean	
+G7778	καλάμινος	of reed	
+G7779	καλαμίσκος	a branch	
+G7780	καλλιόω	to beautify	
+G7781	καλλονή	beauty	
+G7782	κάλλος	beauty	
+G7783	κάλλυνθρον	a palm branch	
+G7784	καλλωπίζω	to bedeck	
+G7785	κάλος	rope	
+G7786	καλυπτήρ	a lid	
+G7787	καλῴδιον	rope	
+G7788	καμάρα	a vault	
+G7789	καμηλοπάρδαλις	giraffe	
+G7790	καμιναῖος	of a furnace	
+G7791	κάμπη	a curve	
+G7792	καμπύλος	curved	
+G7793	κάνθαρος	beetle	
+G7794	κανοῦν	a bin	
+G7795	κάπηλος	a peddler	
+G7796	καπνίζω	to smoke	
+G7797	κάππαρις	caper	
+G7798	καρδιόω	to take heart	
+G7799	καρόω	to stupefy	
+G7800	καρπάσινος	of cotton	
+G7801	καρπίζω	to gather fruit	
+G7802	κάρπιμος	fruitful	
+G7803	καρπόβρωτος	fruit-bearing	
+G7804	καρπός	wrist	
+G7805	καρπόω	to yield	
+G7806	κάρπωμα	a yield	
+G7807	κάρπωσις	a yield	
+G7808	καρπωτός	with long sleeves	
+G7809	κάρταλλος	a narrow basket	
+G7810	καρτερόω	to strengthen	
+G7811	καρύα	a walnut	
+G7812	καρύϊνος	of walnut	
+G7813	καρυΐσκος	nut-like	
+G7814	κάρυον	a walnut	
+G7815	καρυωτά	a knob	
+G7816	κασσία	cassia	
+G7817	κασσιτέρινος	of tin	
+G7818	κασσίτερος	tin	
+G7819	κατα πόδας	by tracks	
+G7820	καταβιάζω	to constrain	
+G7821	καταβιόω	to spend one's life	
+G7822	καταβλέπω	to look down	
+G7823	καταβοάω	to yell out against	
+G7824	καταβόσκω	to graze upon	
+G7825	κατάβρωμα	a thing devoured	
+G7826	κατάβρωσις	a thing devoured	
+G7827	καταβρώσκω	to devour	
+G7828	κατάγαιος	on the ground	
+G7829	κατάγελως	laughter	
+G7830	καταγηράσκω	to age	
+G7831	καταγίνομαι	to occupy	
+G7832	καταδείκνυμι	to introduce	
+G7833	καταδέομαι	to beseech	
+G7834	κατάδεσμος	a bandage	
+G7835	καταδέχομαι	to appreciate	
+G7836	καταδιαιρέω	to divide	
+G7837	καταδολεσχέω	to converse with	
+G7838	καταδυναστεία	tyranny	
+G7839	κατάδυσις	a retreat	
+G7840	καταδύω	to descend into	
+G7841	καταθαρσέω	to rely upon	
+G7842	καταθλάω	to break in pieces	
+G7843	καταθύμιος	wishes	
+G7844	καταιγίς	a blast	
+G7845	κατακάλυμμα	an overcovering	
+G7846	κατακάμπτω	to bend down	
+G7847	κατάκαρπος	fruitful	
+G7848	κατακάρπως	fruitfully	
+G7849	κατακάρπωσις	incinerated remains	
+G7850	κατάκαυμα	a burning	
+G7851	κατακενόω	to empty	
+G7852	κατακεντέω	to pierce through	
+G7853	κατακληρονομέω	to allot	
+G7854	κατακληρόω	to choose by lot	
+G7855	κατάκλιτον	a divan	
+G7856	κατακονδυλίζω	to strike with a fist	
+G7857	κατακοντίζω	to run through	
+G7858	κατάκοπος	exhausted	
+G7859	κατακοσμέω	to adorn	
+G7860	κατακρατέω	to hold firmly	
+G7861	κατακρύπτω	to hide	
+G7862	κατακτάομαι	to acquire	
+G7863	κατακυκλόω	to encircle	
+G7864	κατακυλίνδω	to roll downward	
+G7865	κατάλειψις	a remnant	
+G7866	καταλέω	to grind down	
+G7867	κατάληψις	a taking	
+G7868	καταλιθοβολέω	to cast a stone at	
+G7869	κατάλιθος	inlaid with precious stone	
+G7870	καταλιμπάνω	to leave behind	
+G7871	καταλογίζομαι	to reckon	
+G7872	καταλοχία	classification	
+G7873	καταλοχισμός	distribution	
+G7874	κατάλυσις	a resting-place	
+G7875	καταμερίζω	to divide among	
+G7876	καταμετρέω	to measure out	
+G7877	καταμίγνυμι	to mix with	
+G7878	καταμωκάομαι	to deride	
+G7879	κατανέμω	to feed on	
+G7880	κατανίσταμαι	to stand against	
+G7881	κατάντημα	an arrival	
+G7882	καταξαίνω	to rend in shreds	
+G7883	καταξηραίνω	to totally dry up	
+G7884	κατάξηρος	dried up	
+G7885	καταπαίζω	to mock	
+G7886	καταπανουργέυω	to deal treacherously	
+G7887	καταπάσσω	to strew	
+G7888	καταπάτημα	trampling	
+G7889	καταπάτησις	trampling	
+G7890	καταπελματόομαι	to mend	
+G7891	καταπενθέω	to mourn	
+G7892	καταπέτομαι	to fly down	
+G7893	καταπήγνυμι	to fasten down	
+G7894	καταπηδάω	to leap down	
+G7895	κατάπικρος	very bitter	
+G7896	καταπιστεύω	to confide in	
+G7897	καταπλάσσω	to plaster	
+G7898	κατάπληξις	a terror	
+G7899	καταπλήσσω	to strike with terror	
+G7900	καταπολεμέω	to make war against	
+G7901	καταποντισμός	drowning	
+G7902	καταπραΰνω	to soothe	
+G7903	καταπρονομεύω	to carry away captive	
+G7904	καταπτήσσω	to awe	
+G7905	κατάπτωμα	a ruin	
+G7906	κατάρασις	a curse	
+G7907	καταράσσω	to break down	
+G7908	καταργυρόω	to silver plate	
+G7909	καταρράκτης	a dungeon	
+G7910	καταρρεμβεύω	to stagger	
+G7911	καταρρέω	to flow down	
+G7912	καταρρήγνυμι	to break down	
+G7913	καταρρίπτω	to hurl down	
+G7914	κατάρχω	to rule	
+G7915	κατασβεννύω	to extinguish	
+G7916	κατασιγάω	to observe silence	
+G7917	κατασιωπάω	to observe silence	
+G7918	κατασκεδάζω	to scatter upon	
+G7919	κατασκέπτομαι	to survey	
+G7920	κατασκευή	apparatus	
+G7921	κατάσκιος	shady	
+G7922	κατασμικρύνω	to reduce	
+G7923	κατασπαταλάω	to live wastefully	
+G7924	κατασπάω	to tear down	
+G7925	κατασπείρω	to scatter abroad	
+G7926	κατασπεύδω	to hasten	
+G7927	κατασπουδάζομαι	to take seriously	
+G7928	καταστασιάζω	to revolt	
+G7929	καταστενάζω	to groan	
+G7930	καταστηρίζω	to firmly fix	
+G7931	καταστραγγίζω	to make drop	
+G7932	καταστρατοπεδεύω	to bivouac	
+G7933	κατατάσσω	to delegate	
+G7934	κατατείνω	to violently strain	
+G7935	κατατέμνω	to mutilate	
+G7936	κατατέρπω	to delight	
+G7937	κατατήκω	to dissolve	
+G7938	κατατίλλω	to pull about	
+G7939	κατατρίβω	to wear away	
+G7940	κατατρυφάω	to revel	
+G7941	κατατρώγω	to devour	
+G7942	κατατυγχάνω	to attain	
+G7943	καταφαίνω	to appear	
+G7944	καταφερής	inclined	
+G7945	καταφθάνω	to fall upon unawares	
+G7946	καταφθορά	corruption	
+G7947	καταφλέγω	to burn up	
+G7948	καταφλογίζω	to ignite	
+G7949	κατάφοβος	fear	
+G7950	καταφυγή	a refuge	
+G7951	καταφύτευσις	a planting	
+G7952	καταφυτεύω	to plant	
+G7953	καταχαίρω	to rejoice against	
+G7954	καταχαλάω	to let down	
+G7955	καταχαλκόω	to braze	
+G7956	καταχρίω	to besmear	
+G7957	καταχρύσεος	abounding in gold	
+G7958	καταχρυσόω	to gild	
+G7959	κατάχυσις	a throwing down	
+G7960	καταχώννυμι	to heap upon	
+G7961	καταχωρίζω	to set down in writing	
+G7962	κατειδών	to look down	
+G7963	κατεντευκτής	an accuser	
+G7964	κατεπείγω	to coerce	
+G7965	κατεῖπω	to denounce	
+G7966	κατεργασία	working out	
+G7967	κάτεργος	upkeep	
+G7968	κατευθύ	straightway	
+G7969	κατευοδόω	to greatly prosper	
+G7970	κατοικεσία	habitation	
+G7971	κατοικοδομέω	to build	
+G7972	κάτοικος	an inhabitant	
+G7973	κατοίομαι	be arrogant	
+G7974	κατόπισθεν	after	
+G7975	κάτοπτρον	a mirror	
+G7976	κατορθόω	to keep straight	
+G7977	κατόρθωσις	a success	
+G7978	κατορύσσω	to bury	
+G7979	κατορχέομαι	to treat despitefully	
+G7980	κατοχεύω	to mate	
+G7981	κατόχιμος	possession	
+G7982	κάτοχος	a hold	
+G7983	κατωδυνάω	to afflict grievously	
+G7984	κατώδυνος	in severe pain	
+G7985	κάτωθεν	from below	
+G7986	καυλός	a stem	
+G7987	καψάκης	a jar	
+G7988	κέγχρος	millet	
+G7989	κέδρινος	of cedar	
+G7990	κεκρυμμένως	secretly	
+G7991	κενολογέω	to use empty words	
+G7992	κενοτάφιον	a statue	
+G7993	κεντέω	to sting	
+G7994	κεπφωθείς	being easily led on	
+G7995	κέρασμα	a mixture	
+G7996	κεράστης	a horned serpent	
+G7997	κερατίζω	to butt	
+G7998	κερατίνη	a horn	
+G7999	κερατιστής	goring	
+G8000	κεραυνός	a thunderbolt	
+G8001	κεραυνόω	to strike with a thunderbolt	
+G8002	κέρκος	a tail	
+G8003	κέρκωψ	mischievous	
+G8004	κεφουρέ	a basin	
+G8005	κεφουρῆς	a basin	
+G8006	κηλιδόω	to spot	
+G8007	κημός	a muzzle	
+G8008	κηρός	beeswax	
+G8009	κίβδηλος	commingled	
+G8010	κίδαρις	a turban	
+G8011	κινύρα	a lute	
+G8012	κιρνάω	to dilute	
+G8013	κισσάω	to crave for strange food	
+G8014	κιχράω	to lend	
+G8015	κίων	a monumental pillar	
+G8016	κλαυθμών	a place of weeping	
+G8017	κλεῖθρον	a bolt	
+G8018	κληδονίζω	to prognosticate	
+G8019	κληδονισμός	prognosticating	
+G8020	κληματίς	a small vine branch	
+G8021	κληροδοσία	an allotment	
+G8022	κληροδοτέω	to allot	
+G8023	κληρωτί	by casting lots	
+G8024	κλιμακτήρ	a step	
+G8025	κλῖμαξ	a stairway	
+G8026	κλίτος	a corner	
+G8027	κλοιός	a neck yoke	
+G8028	κλοποφορέω	to ransack	
+G8029	κλώθω	to twine	
+G8030	κλών	a branch	
+G8031	κλῶσμα	yarn	
+G8032	κλωστός	spun	
+G8033	κνήμη	shank	
+G8034	κνημίς	a leg covering	
+G8035	κνήφη	itching	
+G8036	κνίδη	nettle	
+G8037	κνίζω	to pick	
+G8038	κοιλάς	a cavity	
+G8039	κοίλη	a ship's hold	
+G8040	κοῖλος	hollow	
+G8041	κοιλοσταθμέω	to vault	
+G8042	κοιλόσταθμος	vaulted	
+G8043	κοίλωμα	a hollow	
+G8044	κοιμίζω	to rest	
+G8045	κοιτάζω	to lay in bed	
+G8046	κοιτασία	a laying with	
+G8047	κολαβρίζω	to crush	
+G8048	κολακεύω	to flatter	
+G8049	κολαπτός	a gourd	
+G8050	κολάπτω	to chisel	
+G8051	κολεός	a sheath	
+G8052	κόλλη	glue	
+G8053	κολλυρίζω	to bake biscuits	
+G8054	κολλυρίς	a biscuit	
+G8055	κολοβόκερκος	tailless	
+G8056	κολοβόρριν	splitmouth	
+G8057	κολοκύνθη	a gourd	
+G8058	κόλπωμα	recess	
+G8059	κόνδυ	a drinking cup	
+G8060	κονδυλίζω	to smite	
+G8061	κονδυλισμός	ill-treatment	
+G8062	κονία	lime	
+G8063	κονίαμα	whitewash	
+G8064	κοντός	a shaft	
+G8065	κόνυζα	a briar	
+G8066	κοπανίζω	to pound out	
+G8067	κοπόω	to trouble	
+G8068	κόπρος	dung	
+G8069	κόπωσις	weariness	
+G8070	κόρη	pupil	
+G8071	κόριον	coriander	
+G8072	κορύνη	a truncheon	
+G8073	κορυφή	head	
+G8074	κορώνη	a crowbar	
+G8075	κόσυμβος	a fringe	
+G8076	κοσυμβωτός	fringed	
+G8077	κοτύλη	a small cup	
+G8078	κουρά	shearing	
+G8079	κουρεύς	a barber	
+G8080	κοῦφος	light (in weight)	
+G8081	κούφως	nimbly	
+G8082	κόχλαξ	a pebble	
+G8083	κραιπαλάω	be dizzy from wine	
+G8084	κρᾶμα	mixed wine	
+G8085	κραταιότης	force	
+G8086	κραταίωμα	fortification	
+G8087	κραταιῶς	forcefully	
+G8088	κραταίωσις	fortification	
+G8089	κρατήρ	a basin	
+G8090	κρεάγρα	a meat hook	
+G8091	κρεανομέω	to dress meat	
+G8092	κρεμαστός	hanging	
+G8093	κρήνη	a fountain	
+G8094	κρηπίς	a bank	
+G8095	κρίκος	a hook	
+G8096	κριός	a ram	
+G8097	κρόκη	woof	
+G8098	κροκόδειλος	crocodile	
+G8099	κρόκος	saffron	
+G8100	κρόμμυον	onion	
+G8101	κροσσός	a border	
+G8102	κροσσωτός	bordered fringes	
+G8103	κρόταφος	temple	
+G8104	κροτέω	to clap	
+G8105	κρυβῆ	secretly	
+G8106	κρυφαίως	secretly	
+G8107	κρύφιος	private	
+G8108	κτείνω	to slay	
+G8109	κτηνότροφος	grazing cattle	
+G8110	κτηνώδης	brutish	
+G8111	κτῆσις	a possession	
+G8112	κύαθος	a cup	
+G8113	κύαμος	a bean	
+G8114	κυβερνάω	to devise	
+G8115	κύβος	a cube	
+G8116	κυδοιμός	an uproar	
+G8117	κῦδος	dignity	
+G8118	κύησις	conception	
+G8119	κύκλωμα	a swirl	
+G8120	κύκνος	swan	
+G8121	κυμαίνω	to swell up	
+G8122	κυμάτιον	a waved border	
+G8123	κυμβαλίζω	to play cymbals	
+G8124	κυνηγέω	to hunt with hounds	
+G8125	κυνηγός	a hunter with hounds	
+G8126	κυνικός	churlish	
+G8127	κυνόμυια	the dog-fly	
+G8128	κυοφορέω	be with child	
+G8129	κυπαρίσσινος	of cypress	
+G8130	κυπάρισσος	cypress	
+G8131	κυπρίζω	to blossom	
+G8132	κυπρισμός	a blossom	
+G8133	κυρτός	humpback	
+G8134	κύτος	extent	
+G8135	κύφω	to have downcast eyes	
+G8136	κυψέλη	a granary	
+G8137	κύω	to sire	
+G8138	κώδων	a bell	
+G8139	κώθων	toasting	
+G8140	κωθωνίζω	to toast	
+G8141	κωλέα	a hind quarter	
+G8142	κώλυμα	a restraint	
+G8143	κωμάρχης	a magistrate	
+G8144	κώπη	an oar	
+G8145	κωπηλάτης	an oarsman	
+G8146	κωφεύω	be silent	
+G8147	κωφόω	be mute	
+G8148	λαβή	a handle	
+G8149	λαβίς	a tong	
+G8150	λάβρος	fierce	
+G8151	λάγανον	a pancake	
+G8152	λαθραίως	clandestinely	
+G8153	λάθριος	private	
+G8154	λάκκος	a pit	
+G8155	λάλημα	a discussion	
+G8156	λαλητός	power of speech	
+G8157	λαμπάδιον	an oil lamp bowl	
+G8158	λαμπήνη	a covered royal chariot	
+G8159	λαμπηνικός	like a covered chariot	
+G8160	λαμπτήρ	a torch	
+G8161	λαξευτήριον	a stone chisel	
+G8162	λαξεύω	to dress stone	
+G8163	λάπτω	to lap	
+G8164	λάρος	gull	
+G8165	λατομητός	quarried	
+G8166	λατόμος	a quarrier	
+G8167	λατρευτός	servile	
+G8168	λάφυρα	bounty	
+G8169	λαχανεία	vegetables	
+G8170	λέαινα	lioness	
+G8171	λεαίνω	to grind	
+G8172	λέβης	a kettle	
+G8173	λειτούργημα	ministration	
+G8174	λειτουργήσιμος	ministration	
+G8175	λειχήν	scabbed	
+G8176	λείχω	to lick	
+G8177	λεκάνη	a pan	
+G8178	λέξις	form of speech	
+G8179	λεπίζω	to peel	
+G8180	λέπισμα	a peel	
+G8181	λεπράω	to become leprous	
+G8182	λεπρόομαι	become leprous	
+G8183	λεπτύνω	to make fine	
+G8184	λεπυρός	rind	
+G8185	λέσχη	intrigue	
+G8186	λευκανθίζω	be white	
+G8187	λεύκη	white poplar	
+G8188	λεωπετρία	a smooth rock	
+G8189	λῆμμα	a concern	
+G8190	λῃστήριον	a band of robbers	
+G8191	λιγύριον	amber	
+G8192	λιθουργέω	to cut stones	
+G8193	λιθουργικός	stonecutting	
+G8194	λικμήτωρ	a winnower	
+G8195	λικμός	a winnowing shovel	
+G8196	λιμά	lima	
+G8197	λιμαγχονέω	to cause to hunger	
+G8198	λιμοκτονέω	to famish	
+G8199	λιμώσσω	be famished	
+G8200	λίνεος	of flaxen linen	
+G8201	λινοκαλάμη	a stalk of flax	
+G8202	λιπαίνω	to anoint	
+G8203	λίπασμα	fatness	
+G8204	λίσσομαι	to implore	
+G8205	λιτανεύω	to implore	
+G8206	λιτός	cheap	
+G8207	λοβός	a lobe	
+G8208	λοιδόρησις	reviling	
+G8209	λοιμεύομαι	to injure	
+G8210	λουτήρ	a bathing tub	
+G8211	λουτρών	a bathhouse	
+G8212	λοφιά	a ridge	
+G8213	λοχεύω	to give birth	
+G8214	λυπηρός	distressing	
+G8215	λῶμα	a hem	
+G8216	μᾶ	by!	
+G8217	μαασφάρ	a number	
+G8218	μαγειρεῖον	a cooking place	
+G8219	μαγειρεύω	to cut up meat	
+G8220	μαγείρισσα	a female cook	
+G8221	μάγειρος	a male cook	
+G8222	μαγίς	a loaf	
+G8223	μαδήση	loose of hair	
+G8224	μαδαρόω	to pluck hair	
+G8225	μαελέθ	a harp	
+G8226	μαζουρώθ	mazuroth	
+G8227	μάθημα	a lesson	
+G8228	μαῖα	a midwife	
+G8229	μαιμάσσω	be irresistibly led	
+G8230	μαιόομαι	to act as midwife	
+G8231	μακαριστός	most blessed	
+G8232	μακρόβιος	long-lived	
+G8233	μακροημερεύω	to prolong one's days	
+G8234	μακροήμερος	many days	
+G8235	μακρόθυμος	lenient	
+G8236	μακρότης	duration	
+G8237	μακροχρονέω	to live a long time	
+G8238	μάκρυμμα	abomination	
+G8239	μακρύνω	to prolong	
+G8240	μάλα	by all means	
+G8241	μάλαγμα	a dressing	
+G8242	μαλακίζομαι	be infirm	
+G8243	μαλακύνω	to soften	
+G8244	μαλακῶς	softly	
+G8245	μάν	manna	
+G8246	μαναά	a gift	
+G8247	μάνδρα	haven	
+G8248	μανδραγόρας	mandrake	
+G8249	μανδύας	a uniform	
+G8250	μανή	mane	
+G8251	μανιάκης	a golden necklace	
+G8252	μαντεία	divination	
+G8253	μαντεῖον	an oracle	
+G8254	μάντις	a clairvoyant	
+G8255	μαρμάρινος	of marble	
+G8256	μαρσίππιον	a money bag	
+G8257	μάρσιππος	a bag	
+G8258	μασαναί	second section	
+G8259	μασμαρώθ	a snuffer	
+G8260	ματαίως	acting in folly	
+G8261	μαχβάρ	a rag	
+G8262	μαχεήλ	food	
+G8263	μαχητής	a warrior	
+G8264	μάχιμος	combat	
+G8265	μαωζείν	a fortress	
+G8266	μεγαλοπρέπεια	majesty	
+G8267	μεγαλοπτέρυγος	having large wings	
+G8268	μεγαλορρημονέω	to speak great words	
+G8269	μεγαλορρημοσύνη	lofty language	
+G8270	μεγαλορρήμων	lofty speaking	
+G8271	μεγαλόσαρκος	fleshy	
+G8272	μεγαλόφρων	high-minded	
+G8273	μεγάλωμα	magnificence	
+G8274	μεθοδεύω	to use craft	
+G8275	μέθυσμα	strong drink	
+G8276	μεθωεσίμ	a genealogical register	
+G8277	μέλαθρον	a ridge	
+G8278	μελαθρόω	to arch over	
+G8279	μελάνθιον	pepperwort	
+G8280	μελανόομαι	to blacken	
+G8281	μελέτη	meditation	
+G8282	μελίζω	to dismember	
+G8283	μέλισσα	bee	
+G8284	μελισσών	an apiary	
+G8285	μέμψις	complaint	
+G8286	μέντοιγε	however	
+G8287	μεριτεύομαι	to partition	
+G8288	μεσαῖος	middle	
+G8289	μέσαντιον	a weaver's beam	
+G8290	μεσημβρινός	midday	
+G8291	μεσθάαλ	a wardrobe	
+G8292	μεσοπόρφυρος	purple ornamentation	
+G8293	μεσσάβ	a garrison	
+G8294	μεταβολή	revolt	
+G8295	μετάβολος	a trader	
+G8296	μετακίνησις	removal	
+G8297	μεταλλεύω	to mine	
+G8298	μεταμέλεια	repentance	
+G8299	μετάμελος	regret	
+G8300	μεταναστεύω	to migrate	
+G8301	μετανίστημι	to change residence	
+G8302	μεταπίπτω	to degenerate	
+G8303	μετασκευάζω	to fashion differently	
+G8304	μεταστροφή	converted	
+G8305	μετάφρενον	the upper back	
+G8306	μετέρχομαι	to pass between the ranks	
+G8307	μετεωρισμός	a crest	
+G8308	μετέωρος	a meteorite	
+G8309	μετοικέω	to displace	
+G8310	μετοικία	displacement	
+G8311	μέτοικος	a refugee	
+G8312	μέτρησις	a measuring	
+G8313	μετριάζω	be content	
+G8314	μεχωνώθ	a base	
+G8315	μηθέτερος	neither one	
+G8316	μῆλον	cheeks	
+G8317	μηνιαῖος	of a month	
+G8318	μῆνις	vehement anger	
+G8319	μηνίσκος	a crescent	
+G8320	μηνίω	be infuriated	
+G8321	μηρία	the thigh	
+G8322	μηρυκάομαι	to chew the cud	
+G8323	μηρυκισμός	chewing the cud	
+G8324	μηρύομαι	to furl	
+G8325	μηχανεύομαι	to construct	
+G8326	μηχανή	a machine	
+G8327	μίανσις	defilement	
+G8328	μικρότης	thinness	
+G8329	μίλτος	vermilion	
+G8330	μίσγω	to mingle	
+G8331	μισητός	detested	
+G8332	μῖσος	hatred	
+G8333	μίτρα	a mitre	
+G8334	μνημόσυνος	a memorandum	
+G8335	μνησικακέω	to resent	
+G8336	μνησίκακος	resentful	
+G8337	μόλιβδος	lead	
+G8338	μολόχη	a mallow (plant)	
+G8339	μόλυνσις	contamination	
+G8340	μονάζω	to live alone	
+G8341	μόνιμος	a stable	
+G8342	μονιός	a wild boar	
+G8343	μονόζωνος	lightly armed	
+G8344	μονόκερως	a unicorn	
+G8345	μονομαχέω	to fight one on one	
+G8346	μόνορχις	having one testicle	
+G8347	μονότροπος	simple	
+G8348	μοσφαθαϊμ	sheepfolds	
+G8349	μοσχάριον	a young calf	
+G8350	μοτόω	to dress a wound	
+G8351	μοχθέω	to make an effort	
+G8352	μοχλός	a bar	
+G8353	μυγαλῆ	a field-mouse	
+G8354	μυελόομαι	to fill with marrow	
+G8355	μυῖα	a fly	
+G8356	μυκτήρ	nostril	
+G8357	μυκτηρισμός	sneering	
+G8358	μύλη	a molar tooth	
+G8359	μυξωτῆρες	a tube	
+G8360	μυρεψικός	scented	
+G8361	μυρεψός	a perfumer	
+G8362	μυριοπλάσιος	ten thousand-fold	
+G8363	μυρμηκιάω	be troubled with warts	
+G8364	μυρμηκολέων	a small lion	
+G8365	μύρμηξ	an ant	
+G8366	μυρσίνη	a myrtle tree	
+G8367	μῦς	a mouse	
+G8368	μυσαρός	detestable	
+G8369	μύσταξ	a mustache	
+G8370	μωκάομαι	to scorn	
+G8371	μωμητός	scoffing	
+G8372	νάβλα	a stringed instrument	
+G8373	ναίω	to inhabit	
+G8374	νᾶμα	juice	
+G8375	νάπη	a grove	
+G8376	ναρκάω	be paralyzed	
+G8377	ναῦλον	fare	
+G8378	ναυτικός	mariner	
+G8379	νεᾶνις	a young woman	
+G8380	νέβελ	a hide flask	
+G8381	νεβρός	a fawn	
+G8382	νεέλασσα	ostriches	
+G8383	νεζέρ	a diadem	
+G8384	νεῖκος	altercation	
+G8385	νέμω	to feed	
+G8386	νεόω	to plow fallow land	
+G8387	νέσσα	feathers	
+G8388	νεῦμα	a beckon	
+G8389	νευρά	the bow string	
+G8390	νευροκοπέω	to hamstring	
+G8391	νεῦρον	a nerve	
+G8392	νεχωθά	spices	
+G8393	νέωμα	a field prepared for plowing	
+G8394	νηπιότης	infancy	
+G8395	νηστός	spun	
+G8396	νικοποιέω	to bring success	
+G8397	Νισάν	Nisan	
+G8398	νίτρον	bleach	
+G8399	νιφετός	snowflakes	
+G8400	νοήμων	intelligent	
+G8401	νοητῶς	intelligible	
+G8402	νομάς	feeding	
+G8403	νόμιμος	laws	
+G8404	νομοθέσμως	lawfully	
+G8405	νομός	abode	
+G8406	νοσερός	diseased	
+G8407	νοσσεύω	to nest	
+G8408	νοσσοποιέω	to build a nest	
+G8409	νωτόφορος	a load carrier	
+G8410	νουθέτημα	admonition	
+G8411	νουθέτησις	admonition	
+G8412	νυκτερινός	nightly	
+G8413	νυκτερίς	a bat	
+G8414	νυκτικόραξ	an owl	
+G8415	νυμφαγωγός	groomsman	
+G8416	νύμφευσις	a betrothing	
+G8417	νύσταγμα	a slumbering	
+G8418	νυσταγμός	a slumber	
+G8419	νωθροκάρδιος	dull of heart	
+G8420	νωκήδ	a shepherd	
+G8421	ξ	60	
+G8422	ξανθίζω	be yellowish	
+G8423	ξένιος	gifts	
+G8424	ξενισμός	hospitality	
+G8425	ξηρασία	dryness	
+G8426	ξίφος	a knife-blade	
+G8427	ξυλάριον	a stick	
+G8428	ξυλοκόπος	a woodcutter	
+G8429	ξυλοφορία	bearing wood	
+G8430	ξυλοφόρος	a wood bearer	
+G8431	ξυλόω	to board	
+G8432	ξυνωρίς	a double-horse chariot	
+G8433	ξύρησις	shaving	
+G8434	ξυρόν	a razor	
+G8435	ξυστός	planed	
+G8436	ξύω	to scrape	
+G8437	ὀβελίσκος	a point	
+G8438	ὀβολός	a obolus	
+G8439	ογδοηκονταέξ	eighty-six	
+G8440	ογδοηκονταπέντε	eighty-five	
+G8441	ὀγδοηκοντατέσσαρες	eighty-four	
+G8442	ογδοηκοντατρεῖς	eighty-three	
+G8443	ὀγδοηκοστός	eightieth	
+G8444	ὁδοιπόρος	a traveler	
+G8445	ὁδοποιέω	to open a way	
+G8446	ὀδυνηρός	grievous	
+G8447	ὀδύρομαι	to grieve	
+G8448	οἰακίζω	to steer	
+G8449	οἰκειότης	intimacy	
+G8450	οἰκέτις	a female domestic servant	
+G8451	οἴκησις	place of abode	
+G8452	οἰκητός	inhabited	
+G8453	οἰκήτωρ	an inhabitant	
+G8454	οἰκίζω	to resettle	
+G8455	οἰκίσκος	niche	
+G8456	οἰκογενής	a native-born servant	
+G8457	οἰκόπεδον	an area	
+G8458	οἰκτείρημα	pitying	
+G8459	οἶκτος	a lament	
+G8460	οἰκτρός	pitiable	
+G8461	οἴμοι	alas!	
+G8462	οἰνοποτέω	to drink wine	
+G8463	οἰνοφλυγέω	be drunk with wine	
+G8464	οἰνοχόη	a female wine server	
+G8465	οἰνοχόος	a male wine server	
+G8466	οἰνόω	be drunk with wine	
+G8467	οἰφί	an ephah	
+G8468	οἴχομαι	be undone	
+G8469	οἰωνίζομαι	to foretell	
+G8470	οἰώνισμα	an omen	
+G8471	οἰωνισμός	an omen	
+G8472	οἰωνός	an omen	
+G8473	ὀκλάζω	to kneel	
+G8474	ὀκνηρία	slothful	
+G8475	ὀκτακισχίλιοι	eight thousand	
+G8476	ὀκτακόσιοι	eight hundred	
+G8477	ὀκτάπηχυς	eight cubits	
+G8478	ὀκτωκαίδεκα	eighteen	
+G8479	ὀκτωκαιδέκατος	eighteenth	
+G8480	ὀλέθριος	pernicious	
+G8481	ὀλέκω	to destroy	
+G8482	ὀλιγόβιος	short-lived	
+G8483	ὀλιγοστός	very few	
+G8484	ὀλιγότης	fewness	
+G8485	ὀλιγοψυχέω	be faint-hearted	
+G8486	ὀλιγοψυχία	faint-heartedness	
+G8487	ὀλιγόω	to lessen	
+G8488	ὀλισθάνω	to slip	
+G8489	ὀλίσθημα	a slip	
+G8490	ὁλκή	a scale-weight	
+G8491	ὄλλυμι	to destroy	
+G8492	ὁλοκάρπωμα	a whole offering	
+G8493	ὁλοκάρπωσις	a whole offering	
+G8494	ὁλόκαυτος	wholly burnt	
+G8495	ὁλοκαύτωσις	bringing of a whole burnt-offering	
+G8496	ὀλολυγμός	shrieking of women	
+G8497	ὁλοπόρφυρος	entirely of purple	
+G8498	ὁλόρριζος	entirely from a root	
+G8499	ὁλοσχερῶς	soundly	
+G8500	ὄλυρα	a wild oat	
+G8501	ὀλυρίτης	of oaten bread	
+G8502	ὁμαλίζω	to level	
+G8503	ὁμαλισμός	leveling	
+G8504	ὄμβρημα	a shower	
+G8505	ὅμηρος	a security treaty	
+G8506	ὁμολόγως	confessedly	
+G8507	ὁμομήτριος	born of the same mother	
+G8508	ὁμονοέω	to consent	
+G8509	ὁμόνοια	concord	
+G8510	ὁμοπάτριος	of the same father	
+G8511	ὁμορέω	to adjoin	
+G8512	ὅμορος	adjoining	
+G8513	ὀμφακίζω	be sour	
+G8514	ὀμφαλός	anavel	
+G8515	ὄμφαξ	an unripe grape	
+G8516	ὄναγρος	a wild donkey	
+G8517	ὀνείδισμα	a scorning	
+G8518	ὄνησις	profitable	
+G8519	ὀνοκένταυρος	a satyr	
+G8520	ὀνομαστός	famous	
+G8521	ὄνυξ	a claw	
+G8522	ὀνυχίζω	to claw	
+G8523	ὀνύχιον	onyx	
+G8524	ὀνυχιστήρ	cloven-footed	
+G8525	ὀξέως	swiftly	
+G8526	ὀξυγράφος	writing fast	
+G8527	ὀξύθυμος	quick to rage	
+G8528	ὀξύνω	to sharpen	
+G8529	ὀξύτης	swift	
+G8530	ὀπήτιον	a shoemaker's awl	
+G8531	ὀπίσθιος	posterior	
+G8532	ὀπισθίως	backwardly	
+G8533	ὀπισθότονος	convulsion	
+G8534	ὀπισθοφανῶς	backwards	
+G8535	ὁπλή	a hoof	
+G8536	ὁπλίτης	armed with a large shield	
+G8537	ὁπλοθήκη	an armory	
+G8538	ὁπλομάχος	an armed warrior	
+G8539	ὁπλοφόρος	an armor-bearer	
+G8540	ὀπτάζομαι	to behold	
+G8541	ὀπτάω	to bake	
+G8542	ὀπωροφυλάκιον	a storehouse of fruits	
+G8543	ὁρατής	an observer	
+G8544	ὁρατικός	observant	
+G8545	ὄργανον	an instrument	
+G8546	ὀρθόω	be straight up	
+G8547	ὁρισμός	enactment	
+G8548	ὁρκισμός	a conjuring	
+G8549	ὁρμίσκος	pendant	
+G8550	ὅρμος	a mooring	
+G8551	ὀρνίθιον	a small bird	
+G8552	ὀρνιθοσκοπέομαι	to use augury	
+G8553	ὀρόδαμνος	a scion	
+G8554	ὅρος	a confirmation	
+G8555	ὀρόφωμα	roofing	
+G8556	ὀρτυγομήτρα	a mother-quail	
+G8557	ὄρυξ	a gazelle	
+G8558	ὀρφανία	bereavement	
+G8559	ὁσιόω	to purify	
+G8560	ὁστισοῦν	whatsoever	
+G8561	ὄστρακον	a potsherd	
+G8562	ὀσφραίνομαι	to savor	
+G8563	ὀσφρασία	a smell	
+G8564	οὐδαμοῦ	not at all	
+G8565	ουδὲ μή	neither	
+G8566	οὐλή	a discoloration	
+G8567	οὐραγία	a rear guard	
+G8568	οὐρέω	to urinate	
+G8569	οὔριος	a rotten egg	
+G8570	οὖρον	urine	
+G8571	ὀφθαλμοφανῶς	clear to the eyes	
+G8572	ὀφιομάχης	a crawling locust	
+G8573	ὄχθη	a riverbank	
+G8574	ὀχληρία	rioting	
+G8575	ὀχυρός	fortified	
+G8576	ὀχυρόω	to fortify	
+G8577	ὀψίζω	to arrive late	
+G8578	ὄψον	fish	
+G8579	παγετός	icy coldness	
+G8580	πάγος	ice	
+G8581	παθεινός	a mourner	
+G8582	παιγνία	play	
+G8583	παίγνιον	a plaything	
+G8584	παλάθη	a dried cluster	
+G8585	παλαιστή	a palm (plant)	
+G8586	παλαίω	to wrestle	
+G8587	παλαίωμα	that which has grown old	
+G8588	παλαίωσις	that which has grown old	
+G8589	παλλακή	a concubine	
+G8590	παλλακίς	a concubine	
+G8591	πάλλω	to agitate	
+G8592	παμβότανον	abundant herbage	
+G8593	πανδημεί	in full assembly	
+G8594	πανηγυρίζω	to assemble for a festival	
+G8595	πάνθηρ	a panther	
+G8596	πανοικία	whole family	
+G8597	πανουργεύω	to trick	
+G8598	παντοδαπός	of all kinds	
+G8599	πάπυρος	papyrus (plant)	
+G8600	παραβαπτός	deeply dyed	
+G8601	παραβιβάζω	to cast aside	
+G8602	παραβλέπω	to look over	
+G8603	παράγγελμα	a mobilization order	
+G8604	παραγραφίς	a scraper	
+G8605	παραγωνίσκος	a carpenter's square	
+G8606	παράδειγμα	a model	
+G8607	παραδείκνυμι	to hold forth as an example	
+G8608	παραδοξάζω	to do an incredible thing	
+G8609	παραδρομή	a passing by	
+G8610	παραζώνη	a sash	
+G8611	παραθερμαίνω	to overheat	
+G8612	παράθεσις	provision	
+G8613	παραθλίβω	to press against	
+G8614	παραιρέω	to lift from	
+G8615	παρακάθημαι	to sit near	
+G8616	παρακατατίθημι	to deposit in care of	
+G8617	παρακελεύομαι	to rouse	
+G8618	παρακλητικός	comforting	
+G8619	παρακλήτωρ	a comforter	
+G8620	παράκοιτος	a mistress	
+G8621	παρακρούω	to cheat	
+G8622	παραλαλέω	to speak improperly	
+G8623	παράλλαξις	alteration	
+G8624	παραλλάσσω	to alter	
+G8625	παράλυσις	paralysis	
+G8626	παραναλίσκω	to uselessly consume	
+G8627	παράνομος	a lawbreaker	
+G8628	παρανόμως	unlawfully	
+G8629	παραξιφίς	a dagger	
+G8630	παράπαν	thoroughly	
+G8631	παραπέτασμα	a canopy	
+G8632	παράπληκτος	deranged	
+G8633	παραπληξία	derangement	
+G8634	παράπτωσις	a transgression	
+G8635	παραρρίπτω	to throw aside	
+G8636	παράρυμα	a sheet of leather	
+G8637	παρασιωπάω	to remain silent	
+G8638	παράστασις	position	
+G8639	παρασυμβάλλομαι	to resemble	
+G8640	παράταξις	battle array	
+G8641	παρατάσσω	to deploy	
+G8642	παρατρέχω	be a bodyguard	
+G8643	παραφρόνησις	ranting	
+G8644	παραφυάς	a shoot	
+G8645	παρεδρεύω	to attend upon	
+G8646	παρεῖδω	to ignore	
+G8647	παρεκτείνω	to reach forth	
+G8648	παρέλκυσις	a deferment	
+G8649	πάρεξ	besides	
+G8650	παρεξίστημι	to move out of place	
+G8651	παρθένια	marks of virginity	
+G8652	παρθενικός	virgin	
+G8653	παριστάνω	to present	
+G8654	παροδεύω	to travel by	
+G8655	παροικεσία	a sojourning	
+G8656	παροίκησις	a sojourning	
+G8657	παροινέω	to insult drunkenly	
+G8658	παροιστράω	be in heat	
+G8659	παροράω	to overlook	
+G8660	παρόργισμα	provocation	
+G8661	παρωμίς	a shoulder strap	
+G8662	πάσσαλος	a peg	
+G8663	πάσσω	to strew	
+G8664	παστός	nuptial chamber	
+G8665	παστοφόριον	a chamber	
+G8666	πάτημα	trampled	
+G8667	πατητός	trampled	
+G8668	πατράδελφος	an uncle	
+G8669	πάτραρχος	a patriarchal idol	
+G8670	πάτριος	of a father	
+G8671	παῦσις	cessation	
+G8672	πάχνη	frost	
+G8673	πάχος	thickness	
+G8674	παχύς	robust	
+G8675	πεδάω	to shackle	
+G8676	πεδίον	a plain	
+G8677	πεζός	a footman	
+G8678	πειρατεύω	to maraud	
+G8679	πειρατήριον	a band of marauders	
+G8680	πειρατής	a marauder	
+G8681	πέλας	a one near	
+G8682	πελεκάν	pelican	
+G8683	πελεκάω	to hew	
+G8684	πελεκητός	hewn	
+G8685	πέλεκυς	a hewing axe	
+G8686	πελιδνός	dark colored	
+G8687	πελιόομαι	be darkened	
+G8688	πελταστής	armed with a small shield	
+G8689	πέλτη	a small shield	
+G8690	πέλυξ	a hewing axe	
+G8691	πέμμα	a cake	
+G8692	πενθικός	mournful	
+G8693	πενία	poverty	
+G8694	πένομαι	be in need	
+G8695	πενταετής	of five years	
+G8696	πεντάπηχυς	of five cubits	
+G8697	πενταπλασίως	five-fold	
+G8698	πενταπλοῦς	five-fold way	
+G8699	πεντεκαίδεκα	fifteen	
+G8700	πεντηκονταδύο	fifty-two	
+G8701	πεντηκονταέξ	fifty-six	
+G8702	πεντηκονταεπτά	fifty-seven	
+G8703	πεντηκονταπέντε	fifty-five	
+G8704	πεντηκονταπέτης	fifty years	
+G8705	πεντηκόνταρχος	a commander of fifty	
+G8706	πεντηκοντατρεῖς	fifty-three	
+G8707	πεντηκοντέσσαρες	fifty-four	
+G8708	πεντηκοστός	fiftieth	
+G8709	πέπειρος	mature	
+G8710	πεποιθότως	securely	
+G8711	πέπων	a melon	
+G8712	περαίνω	to achieve	
+G8713	περασμός	a limit	
+G8714	περάτης	a traveler	
+G8715	πέρδιξ	partridge	
+G8716	περιαργυρόω	to silver plate	
+G8717	περίβλεπτος	admired	
+G8718	περίβλημα	a wrap-around	
+G8719	περιβολή	a wrap-around	
+G8720	περίβολος	an enclosure	
+G8721	περιγίνομαι	be an advantage	
+G8722	περιδειπνέω	to eat at a wake	
+G8723	περιδέξιος	a right armband	
+G8724	περιδράσσομαι	to grasp in the hands	
+G8725	περίειμι	to remain over	
+G8726	περίζωμα	a loincloth	
+G8727	περίθεμα	an adornment	
+G8728	περικαθαίρω	to purge	
+G8729	περικαθαρίζω	to purge	
+G8730	περικάθημαι	to besiege	
+G8731	περικαθίζω	to besiege	
+G8732	περικείρω	to shave around	
+G8733	περικνημίς	a legging	
+G8734	περικοσμέω	to adorn sumptuously	
+G8735	περικύκλῳ	surrounding	
+G8736	περιλαμβάνω	to embrace	
+G8737	περίληψις	an embrace	
+G8738	περίλοιπος	residue	
+G8739	περίμετρον	perimeter	
+G8740	περιοδεύω	to travel about	
+G8741	περίοδος	a circuit	
+G8742	περιοικοδομέω	to enclose	
+G8743	περιονυχίζω	to trim nails	
+G8744	περιουσιασμός	prized possession	
+G8745	περίπατος	a promenade	
+G8746	περιπλέκω	to twist	
+G8747	περιπόλιον	a township	
+G8748	περιπόρφυρος	objects edged with purple	
+G8749	περίπτερος	sparks	
+G8750	περίπτωμα	by chance	
+G8751	περιρραίνω	to sprinkle about	
+G8752	περισιαλόομαι	to inlay	
+G8753	περισκελής	pants	
+G8754	περισκέπω	to cover	
+G8755	περισπασμός	distraction	
+G8756	περισπόρια	outskirts	
+G8757	περίστασις	a surrounding space	
+G8758	περιστέλλω	to screen	
+G8759	περιστήθιον	a breast-plate	
+G8760	περιστολή	attire	
+G8761	περιστόμιος	a cleft	
+G8762	περιστρέφω	to move around	
+G8763	περίστυλος	a peristyle	
+G8764	περισύρω	to tear away	
+G8765	περισχίζω	to split	
+G8766	περιτειχίζω	to wall around	
+G8767	περίτειχος	a rampart	
+G8768	περιφέρεια	madness	
+G8769	περιφερής	circumference	
+G8770	περιφορά	deviation	
+G8771	περιφράσσω	to enclose	
+G8772	περιχαλκόω	to brass plate	
+G8773	περιχαρακόω	to surround with a rampart	
+G8774	περιχαρής	overjoyed	
+G8775	περιχέω	to pour about	
+G8776	περιχρυσόω	to gild	
+G8777	περκάζω	to grow dark	
+G8778	πέσσω	to bake	
+G8779	πέταλον	a leaf	
+G8780	πετάννυμι	to spread out	
+G8781	πέταυρον	a perch	
+G8782	πέτρινος	of rock	
+G8783	πετροβόλος	a slinger	
+G8784	πεύκη	pine tree	
+G8785	πεύκινος	of pine	
+G8786	πέψις	baking	
+G8787	πῆγμα	a bank of water	
+G8788	πηδάω	to spring up	
+G8789	πήλινος	of clay	
+G8790	πιαίνω	to fatten	
+G8791	πίθηκος	ape	
+G8792	πίθος	a cask	
+G8793	πικρασμός	bitterness	
+G8794	πικρίς	a bitter herb	
+G8795	πίνινος	of mother of pearl	
+G8796	πίσσα	pitch	
+G8797	πίτυς	pine tree	
+G8798	πίων	plentiful	
+G8799	πλαγιάζω	to bend	
+G8800	πλάγιος	sideways	
+G8801	πλάνησις	a delusion	
+G8802	πλάτανος	plane tree	
+G8803	πλατυσμός	an enlargement	
+G8804	πλειστάκις	very often	
+G8805	πλεονάκις	many times	
+G8806	πλεόνασμα	surplus	
+G8807	πλεονασμός	usury	
+G8808	πλεοναστός	superabundant	
+G8809	πλεονέκτημα	advantage	
+G8810	πλευρόν	a side	
+G8811	πλημμέλεια	a trespass	
+G8812	πλημμελέω	to offend	
+G8813	πλημμέλημα	a trespass	
+G8814	πλημμέλησις	a trespass	
+G8815	πλήρωσις	a filling	
+G8816	πλησίος	dear one	
+G8817	πλινθεία	making of bricks	
+G8818	πλινθεύω	to make bricks	
+G8819	πλινθίον	a brick-kiln	
+G8820	πλίνθος	a brick	
+G8821	πλινθουργία	brickmaking	
+G8822	πλοκή	wreathen	
+G8823	πλόκιον	a braid	
+G8824	πλωτός	afloat	
+G8825	πνευματοφορέομαι	be carried by wind	
+G8826	πνευματοφόρος	carried by wind	
+G8827	πνεύμων	lungs	
+G8828	πόα	herbage	
+G8829	ποθέω	to feel absence	
+G8830	ποικιλία	embroidery	
+G8831	ποικίλλω	to embroidered	
+G8832	ποίκιλμα	color	
+G8833	ποικιλτής	an embroiderer	
+G8834	ποικιλτικός	embroidery	
+G8835	ποικιλτός	an embroidered work	
+G8836	ποικίλως	variously	
+G8837	ποιμενικός	of a shepherd	
+G8838	πόκος	fleece	
+G8839	πολεμικός	warfare	
+G8840	πολέμιος	warlike	
+G8841	πολεμιστής	a warrior	
+G8842	πολιά	grayness of hair	
+G8843	πολιορκέω	to assault	
+G8844	πολιορκία	an assault	
+G8845	πολιός	gray hair	
+G8846	πολλαχῶς	in many ways	
+G8847	πολλοστός	a great deal	
+G8848	πολυάνδριον	a cemetery	
+G8849	πολυέλεος	full of mercy	
+G8850	πολυήμερος	of many days	
+G8851	πολυοδία	many ways	
+G8852	πολυοχλία	a great multitude	
+G8853	πολυπλασιάζω	to manifoldly multiply	
+G8854	πολυπληθέω	be numerous	
+G8855	πολυπληθύνω	to greatly multiply	
+G8856	πολύπλοκος	crafty	
+G8857	πολυρρήμων	talkative	
+G8858	πολυτόκος	prolific	
+G8859	πολυχρονίζω	to delay long	
+G8860	πολυχρόνιος	long-lived	
+G8861	πολυωρέω	to take great care	
+G8862	πονέω	to suffer pain	
+G8863	πονηρεύομαι	to act wickedly	
+G8864	ποντοπορέω	to pass through a sea	
+G8865	πόρευσις	a trek	
+G8866	πορνεῖον	a place of harlotry	
+G8867	πορνικός	of a harlot	
+G8868	πορνοκόπος	a whoremonger	
+G8869	πορφυρίς	of purple	
+G8870	πορφυρίων	purple-legged stork	
+G8871	ποσαπλῶς	how often	
+G8872	πότημα	a drink	
+G8873	ποτιστήριον	a channel	
+G8874	ποτός	a beverage	
+G8875	πράσινος	leek colored	
+G8876	πρᾶσις	a sale	
+G8877	πράσον	a leek	
+G8878	πραΰθυμος	gentle-minded	
+G8879	πραΰνω	to calm	
+G8880	πρεσβεῖον	senior	
+G8881	πρέσβυς	an ambassador	
+G8882	πρήθω	to bloat	
+G8883	πρίαμαι	to buy	
+G8884	πριστηροειδής	toothed	
+G8885	πρίων	a saw	
+G8886	προαίρεσις	a resolve	
+G8887	προανατάσσω	to prefer	
+G8888	προανατέλλω	to sprout up early	
+G8889	προαπαγγέλλω	to forewarn	
+G8890	προάστειον	outskirts	
+G8891	πρόβασις	an entrance approach	
+G8892	πρόβλημα	a riddle	
+G8893	προεκφέρω	to put forth first	
+G8894	προθυμέομαι	to feel eager	
+G8895	πρόθυρον	a threshold	
+G8896	προΐημι	to let go	
+G8897	προκαθίστημι	to post in front	
+G8898	προκαταλαμβάνω	be first to take	
+G8899	προλήνιον	a wine press	
+G8900	πρόλοβος	a crop	
+G8901	προμαχών	a battlement	
+G8902	προνομεύω	to despoil	
+G8903	προνομή	plunder	
+G8904	προοίμιον	a retort	
+G8905	πρόπαππος	a forefather	
+G8906	προπέτεια	rashness	
+G8907	προπίπτω	to fall down	
+G8908	πρόπυλον	a gateway	
+G8909	προσανάβασις	an ascent leading to	
+G8910	προσαποθνῄσκω	to die in addition	
+G8911	προσβάλλω	to strike up	
+G8912	προσβλητός	amalgamated	
+G8913	προσγίνομαι	unite with	
+G8914	προσδεκτός	acceptable	
+G8915	προσδίδωμι	to give in addition	
+G8916	προσοράω	to look at	
+G8917	προσεῖπον	to say to	
+G8918	προσεκκαίω	to burn besides	
+G8919	προσεμπρήθω	to set on fire	
+G8920	προσέτι	moreover	
+G8921	προσηλυτεύω	to convert	
+G8922	προσηνής	kind	
+G8923	πρόσθεμα	an addition	
+G8924	πρόσθεσις	an addition	
+G8925	προσθλίβω	to press to	
+G8926	προσκαίω	be burnt through	
+G8927	προσκαταλείπω	to leave surplus	
+G8928	πρόσκαυμα	burnt	
+G8929	πρόσκειμαι	to join up with	
+G8930	προσκεφαλής	a pillow	
+G8931	προσκρούω	to rush upon	
+G8932	προσλογίζομαι	to count in addition to	
+G8933	προσμίγνυμι	to mingle with	
+G8934	προσνοέω	to pay attention to	
+G8935	πρόσοδος	revenue	
+G8936	προσόζω	to give out an odor	
+G8937	προσοίγω	to shut	
+G8938	προσόχθισμα	a loathsome thing	
+G8939	πρόσοψις	aspect	
+G8940	προσπαίζω	to play before	
+G8941	προσραίνω	to sprinkle on	
+G8942	προσσιελίζω	to salivate upon	
+G8943	πρόσταγμα	an order	
+G8944	προστάς	an antechamber	
+G8945	προστάτης	a superintendent	
+G8946	προσχαίρω	to rejoice with	
+G8947	προσχέω	to pour on	
+G8948	πρόσχωμα	a mound	
+G8949	προσχωρέω	to join with	
+G8950	προτείχισμα	area around a wall	
+G8951	προτέρημα	honor	
+G8952	προτομή	an upper part	
+G8953	προφασίζομαι	to make an excuse	
+G8954	προφασιστικός	offered as an excuse	
+G8955	προφυλακή	an advance guard	
+G8956	προφύλαξ	an advance guard	
+G8957	προφυλάσσω	to keep guard over	
+G8958	πρόχειρος	beforehand	
+G8959	προχώρημα	excrement	
+G8960	πρώην	a day before	
+G8961	πρωΐθεν	from morning	
+G8962	πρῳρεύς	a captain	
+G8963	πρωτοβαθρέω	be seated first	
+G8964	πρωτοβολέω	to put forth first	
+G8965	πρωτογενής	first-born	
+G8966	πρωτογέννημα	first produce	
+G8967	πρωτόγονος	first-ripe	
+G8968	πρωτολογία	beginning of speaking	
+G8969	πρωτοτοκεύω	to give a right of first-born	
+G8970	πρωτοτοκέω	to give birth first time	
+G8971	πταῖσμα	fault	
+G8972	πταρμός	a sneezing	
+G8973	πτερνίζω	to stomp	
+G8974	πτερνισμός	trickery	
+G8975	πτερόν	a feather	
+G8976	πτεροφυέω	to grow wings	
+G8977	πτερύσσομαι	to flap wings	
+G8978	πτερωτός	feathered	
+G8979	πτήσσω	to alarm	
+G8980	πτίλλος	hairless	
+G8981	πτύελος	spittle	
+G8982	πτύξις	fold	
+G8983	πτυχή	fold	
+G8984	πτωχίζω	to make poor	
+G8985	πύγαργος	white-tailed hart	
+G8986	πυθμήν	a lower branch	
+G8987	πυκάζω	to enclose	
+G8988	πυλωρός	a gatekeeper	
+G8989	πυξίον	a writing tablet	
+G8990	πύξος	boxwood	
+G8991	πυργόβαρις	a towered fortification	
+G8992	πυρεῖον	a censer	
+G8993	πυρίκαυστος	scorched	
+G8994	πυρός	wheat	
+G8995	πυροφόρος	a wheat harvest	
+G8996	πυρράκης	fiery red	
+G8997	πυρρίζω	be reddish	
+G8998	πυρσεύω	to light a fire	
+G8999	πυρσός	a signal-fire	
+G9000	πυρφόρος	a fire-bearer	
+G9001	πυρωτής	a refiner	
+G9002	πώγων	a beard	
+G9003	ῥαγάς	a breach	
+G9004	ράδαμνος	a tender branch	
+G9005	Ῥαθαμά	broom shrub	
+G9006	ῥαθυμέω	be lazy	
+G9007	ῥαίνω	to sprinkle	
+G9008	ῥακώδης	ragged	
+G9009	ῥάμμα	thread	
+G9010	ῥάμνος	white-thorn	
+G9011	ῥαντός	speckled	
+G9012	ῥαπτός	strung together	
+G9013	ῥάπτω	to sew	
+G9014	ρασίμ	courier	
+G9015	ῥάσσω	to dash down	
+G9016	ῥαφιδευτής	a stitcher	
+G9017	ῥαφιδευτός	a stitched work	
+G9018	ῥάχις	a spine	
+G9019	ῥέγχω	to snore	
+G9020	ῥεμβεύω	to stray	
+G9021	ῥέμβω	to stray	
+G9022	ῥῆσις	a saying	
+G9023	ῥητίνη	balm	
+G9024	ῥητός	in particular	
+G9025	ῥῖγος	shivering	
+G9026	ῥίζωμα	a root	
+G9027	ῥίν	nostril	
+G9028	ῥιπιστός	ventilated	
+G9029	ῥόα	a pomegranate	
+G9030	ῥοιζέω	to gurgle	
+G9031	ῥοῖζος	impetus	
+G9032	ῥοΐσκος	a pomegranate figure	
+G9033	ῥόπαλον	a club	
+G9034	ῥοπή	crux	
+G9035	ῥοών	a pomegranate grove	
+G9036	ῥύαξ	an overflow	
+G9037	ῥυθμίζω	to compose	
+G9038	ῥυθμός	a proportion	
+G9039	ῥύστης	a rescuer	
+G9040	Ρωκεϊμ	a perfumer	
+G9041	ῥωγαλέος	stone	
+G9042	ς	6	
+G9043	Σαββατίζω	to observe sabbaths	
+G9044	σαβεί	glory	
+G9045	σαβέκ	a thicket	
+G9046	σάγμα	a packsaddle	
+G9047	Σαδδαΐ	Saddai	
+G9048	σαδημώθ	a plain	
+G9049	σαδηρώθ	ranks	
+G9050	σαθρός	rotten	
+G9051	σαθρόω	to disintegrate	
+G9052	σαμβύκη	a sambuke	
+G9053	σανιδωτός	planked	
+G9054	σαπρία	rottenness	
+G9055	σαπρίζω	to rot	
+G9056	σαράβαρα	pantaloons	
+G9057	σάρδιος	a carnelian	
+G9058	σατραπεία	a satrapy	
+G9059	σατράπης	satrap	
+G9060	σαύρα	a lizard	
+G9061	σαφώθ	cheese	
+G9062	σαφῶς	clearly	
+G9063	Σειρήν	a siren	
+G9064	σειρομάστης	a spear	
+G9065	σελίς	column	
+G9066	σελισία	of three years	
+G9067	σεραφίμ	seraphim	
+G9068	σευτλίον	a beet	
+G9069	σημαία	a flag	
+G9070	σημασία	a cheer	
+G9071	σημείωσις	a signal	
+G9072	σῆψις	putrefaction	
+G9073	σθένος	strength (physical)	
+G9074	σιαγόνιον	a jawbone	
+G9075	σῖγα	quiet	
+G9076	σιδήριον	an iron implement	
+G9077	σίελον	saliva	
+G9078	σίκιμα	a portion	
+G9079	σίκλος	a shekel	
+G9080	σικυήρατον	a cucumber garden	
+G9081	σίκυος	a cucumber	
+G9082	σιρώνων	ornaments	
+G9083	σισόη	a consecrated lock of hair	
+G9084	σιτέω	be well fed	
+G9085	σιτοβολών	a granary	
+G9086	σιτοδεία	scarcity	
+G9087	σιτοδοσία	provision	
+G9088	σιτομετρέω	to measure out grain	
+G9089	σιτοποιός	a baker	
+G9090	σιωπή	silence	
+G9091	σιώπησις	a veil	
+G9092	σκάλλω	to till	
+G9093	σκαμβός	crooked	
+G9094	σκελίζω	to trip up	
+G9095	σκεπάζω	to shelter	
+G9096	σκέπαρνον	a hammer	
+G9097	σκεπαστής	a shelterer	
+G9098	σκέπη	a shelter	
+G9099	σκεπηνός	protected	
+G9100	σκέπτομαι	to look about	
+G9101	σκευασία	a concoction	
+G9102	σκευαστός	concocted	
+G9103	σκευοφύλαξ	provisions officer	
+G9104	σκῆπτρον	a chiefdom	
+G9105	σκιάδιον	an awning	
+G9106	σκιάζω	to shade	
+G9107	σκληροκάρδιος	hard-hearted	
+G9108	σκληροπρόσωπος	harsh	
+G9109	σκληρῶς	harshly	
+G9110	σκνίψ	a midge	
+G9111	σκολιάζω	to perverse	
+G9112	σκολιότης	deformity	
+G9113	σκολιῶς	crookedly	
+G9114	σκόπελον	a high rock	
+G9115	σκοπιά	a height	
+G9116	σκόρδον	garlic	
+G9117	σκοτάζω	to darken	
+G9118	σκοτομήνη	moonlight	
+G9119	σκυθρωπάζω	to look downcast	
+G9120	σκυλεύω	to despoil	
+G9121	σκύμνος	a cub	
+G9122	σκυτάλη	a stave	
+G9123	σκῶλον	an impediment	
+G9124	σμαραγδίτης	an emerald	
+G9125	σμῆγμα	beauty treatment	
+G9126	σμικρύνω	to diminish	
+G9127	σμῖλαξ	a yew tree	
+G9128	σμυρίτης	an emery stone	
+G9129	σμύρνινος	of myrrh	
+G9130	σοφιστής	a wise man	
+G9131	σοφόω	to give wisdom	
+G9132	σοφῶς	wisely	
+G9133	σπάδων	a castrato	
+G9134	σπανίζω	be depleted	
+G9135	σπάνιος	sparingly	
+G9136	σπάργανον	swaddling cloth	
+G9137	σπαρτίον	a cord	
+G9138	σπερματίζω	to conceive	
+G9139	σπερματισμός	a discharge of semen	
+G9140	σπιθαμή	a span	
+G9141	σπινθήρ	a spark	
+G9142	σποδιά	a pile of ashes	
+G9143	σποδοειδής	ashen	
+G9144	σπονδεῖον	a libation bowl	
+G9145	σπονδή	a libation	
+G9146	σταγών	a drop (liquid)	
+G9147	στάζω	to drip	
+G9148	σταθμάω	to measure by a rule	
+G9149	στάθμιον	a scale-weight	
+G9150	σταθμός	a doorpost	
+G9151	σταῖς	dough	
+G9152	στακτή	balsam	
+G9153	σταλάζω	to trickle	
+G9154	σταφίς	a dried grape	
+G9155	στέαρ	fat	
+G9156	στεατόομαι	to grow fat	
+G9157	στεγάζω	to roof	
+G9158	στεγνός	roofed	
+G9159	στέλεχος	a stick	
+G9160	στέμφυλον	dregs	
+G9161	στενακτός	bemoaned	
+G9162	στένω	to moan	
+G9163	στενῶς	in a strait	
+G9164	στένωσις	straitness	
+G9165	στερεοκάρδιος	hard-hearted	
+G9166	στερέω	to deprive	
+G9167	στερίσκω	to deprive	
+G9168	στεφάνη	a rim	
+G9169	στηθοδεσμίς	a breastband	
+G9170	στηθύνιον	a breast	
+G9171	στήλη	a monument	
+G9172	στηλογραφία	an inscription on a monument	
+G9173	στηλόω	to set up a monument	
+G9174	στήλωμα	a pillar	
+G9175	στήμων	a warp	
+G9176	στήριγμα	a reliance	
+G9177	στιβαρός	dense	
+G9178	στιβαρῶς	densely	
+G9179	στίβι	antimony	
+G9180	στιβίζομαι	to tinge with antimony	
+G9181	στικτός	a mark	
+G9182	στιλβόω	to brighten	
+G9183	στίλβωσις	shine	
+G9184	στίχος	a row	
+G9185	στοιβάζω	to pile	
+G9186	στοιβή	a pile	
+G9187	στοιχίζω	to set in rows	
+G9188	στολίζω	to robe	
+G9189	στολισμός	a uniform	
+G9190	στολιστής	a keeper of wardrobe	
+G9191	στοχάζομαι	to take thought	
+G9192	στοχαστής	a thinker	
+G9193	στραγγαλιά	perverseness	
+G9194	στραγγαλιώδης	insidious	
+G9195	στραγγίζω	to wring out	
+G9196	στρατοκῆρυξ	herald of an army	
+G9197	στρατοπεδεία	a military encampment	
+G9198	στρατοπεδεύω	to encamp	
+G9199	στρεβλός	crooked	
+G9200	στρέμμα	a strand	
+G9201	στρίφνος	tough	
+G9202	στροβέω	to whirl	
+G9203	στρογγύλος	globular	
+G9204	στρογγύλωμα	round	
+G9205	στρογγύλωσις	a battleline	
+G9206	στρουθίζω	to chirp	
+G9207	στρουθός	an ostrich	
+G9208	στροφεύς	a hinge	
+G9209	στροφή	a shift and turn	
+G9210	στρόφιγξ	a hinge	
+G9211	στροφωτός	turnings	
+G9212	στρῶμα	a bedding	
+G9213	στρωμνή	a strewn bed	
+G9214	στυγνός	gloomy	
+G9215	στυππέϊνος	of hemp	
+G9216	στυππίον	hemp	
+G9217	στυράκινος	of a green poplar	
+G9218	συγγίνομαι	be intimate with	
+G9219	συγγραφή	a writ	
+G9220	συγκαθυφαίνω	to interweave	
+G9221	συγκαίω	to burn with	
+G9222	συγκάλυμμα	a marriage veil	
+G9223	συγκατακληρονομέομαι	to inherit together	
+G9224	συγκαταμίγνυμι	to mix together with	
+G9225	συγκατεσθίω	to devour together	
+G9226	συγκαταφέρω	to carry together	
+G9227	συγκατοικέω	to dwell together	
+G9228	σύγκειμαι	be situated together	
+G9229	συγκερατίζομαι	to mix horns	
+G9230	συγκλασμός	a splinter	
+G9231	συγκλάω	to break in pieces together	
+G9232	σύγκλεισμα	a joinery	
+G9233	συγκλεισμός	a confinement	
+G9234	συγκλειστός	joined	
+G9235	σύγκλητος	summoned	
+G9236	συγκλύζω	to engulf	
+G9237	σύγκοιτος	a bed-mate	
+G9238	συγκόπτω	to cut down	
+G9239	σύγκρασις	an admixture	
+G9240	σύγκριμα	interpretation	
+G9241	σύγκρισις	amalgamation	
+G9242	συγκροτέω	to strike together	
+G9243	συγκυρέω	to fall in with	
+G9244	συζώννυμι	to tie together	
+G9245	συκάμινον	fruit of sycamine trees	
+G9246	συκεών	a fig grove	
+G9247	συκοφάντης	an extortioner	
+G9248	συκοφαντία	extortion	
+G9249	σύλληψις	a seizing	
+G9250	συλλογή	collection	
+G9251	συλλογισμός	assessment	
+G9252	συλλοιδορέω	to join in reviling	
+G9253	συμβαστάζω	be compared with	
+G9254	σύμβλημα	a coupling	
+G9255	σύμβλησις	a coupling	
+G9256	συμβοηθός	an ally	
+G9257	συμβολή	a compact	
+G9258	συμβολοκοπέω	be fond of carousing	
+G9259	σύμβολον	a symbol	
+G9260	συμβόσκομαι	to feed together	
+G9261	συμβουλία	advice	
+G9262	συμμαχέω	to fight along with	
+G9263	συμμαχία	an alliance in war	
+G9264	σύμμετρος	well-proportioned	
+G9265	συμμιγής	mixed together	
+G9266	συμμίγνυμι	to mix together with	
+G9267	σύμμικτος	consolidation	
+G9268	σύμμιξις	an alliance	
+G9269	συμπαρίστημι	to stand up with	
+G9270	σύμπας	all things	
+G9271	συμπατέω	to trample upon together	
+G9272	συμπεραίνω	to finish off together	
+G9273	συμπεριφέρω	to accommodate	
+G9274	σύμπλεκτος	closely joined	
+G9275	συμπλέκω	be closely joined	
+G9276	συμπλήρωσις	fulfillment	
+G9277	συμποδίζω	to bind hand and foot	
+G9278	συμπολεμέω	to join in war with	
+G9279	συμπορπάομαι	to clasp together	
+G9280	συμπροπέμπω	to escort	
+G9281	συμπρόσειμι	to adhere with	
+G9282	συμπροσπλέκομαι	to grapple together	
+G9283	σύμπτωμα	a coincidence	
+G9284	συμφλέγω	to burn together	
+G9285	συμφοράζω	to lament together	
+G9286	συμφράσσω	to shut up together	
+G9287	συμφρύγω	to parch	
+G9288	συμφύρω	to blend together	
+G9289	συμφώνως	harmoniously	
+G9290	συμψάω	to scrape away	
+G9291	συνᾴδω	to sing together in concert	
+G9292	συνάλλαγμα	exchange	
+G9293	συνανάμιξις	intermingling with	
+G9294	συναναφέρω	to join in carrying off	
+G9295	συναντή	a meeting with	
+G9296	συνάντημα	an event	
+G9297	συνάπτω	to join together	
+G9298	συναριθμέω	to count with	
+G9299	συναυλίζομαι	to lodge with	
+G9300	σύναψις	an association	
+G9301	συνδειπνέω	to dine with	
+G9302	συνδυάζω	to associate oneself	
+G9303	σύνεγγυς	in the vicinity	
+G9304	συνεδριάζω	to sit together with	
+G9305	συνεκπολεμέω	to join in making war	
+G9306	συνεκπορεύομαι	to go forth together	
+G9307	συνεκτρέφω	to bring up together	
+G9308	συνέλκω	to draw together	
+G9309	συνεξαίρω	to raise up together	
+G9310	συνεξέρχομαι	to go out together	
+G9311	συνεπακολουθέω	to follow after together	
+G9312	συνεπισκέπω	to consider together	
+G9313	συνεπίσταμαι	be conscious of	
+G9314	συνεπισχύω	to vigorously assist	
+G9315	συνεπιτίθημι	to join in making an attack	
+G9316	συνεταιρίς	a female companion	
+G9317	συνέταιρος	a male companion	
+G9318	συνετίζω	to bring understanding to	
+G9319	συνετῶς	expertly	
+G9320	συνευφραίνομαι	be glad with	
+G9321	συνῆλιξ	a contemporary	
+G9322	συνθέλω	to acquiesce	
+G9323	σύνθεμα	an agreement with	
+G9324	σύνθεσις	a composition	
+G9325	σύνθετος	compounded	
+G9326	συνθήκη	a treaty	
+G9327	συνίστωρ	a joint witness	
+G9328	συννέφω	to collect clouds together	
+G9329	συννεφής	covered with clouds	
+G9330	σύννυμφος	a sister-in-law	
+G9331	σύνοδος	a convocation	
+G9332	συνοικίζω	to live together	
+G9333	συνούλωσις	closing of a wound	
+G9334	συνταγή	an arranged order	
+G9335	σύνταγμα	an arranged order	
+G9336	σύνταξις	a rate	
+G9337	συνταράσσω	to disturb	
+G9338	συντέλεσμα	custom (tax)	
+G9339	συντίμησις	a price	
+G9340	συντριβή	a breaking	
+G9341	συντριμμός	a break	
+G9342	σύντριψις	a defeat	
+G9343	συντροχάζω	to roll together	
+G9344	συνυφαίνω	to weave together	
+G9345	συνυφή	a woven part	
+G9346	συνωμότης	a confederate	
+G9347	σύριγμα	a hissing	
+G9348	σῦριγξ	a flute	
+G9349	συρίζω	to hiss	
+G9350	συρισμός	a hissing	
+G9351	συρράπτω	to sew together	
+G9352	σύσκηνος	a fellow tent-dweller	
+G9353	συσκιάζω	to overshadow	
+G9354	σύσκιος	shady	
+G9355	συσκοτάζω	to darken	
+G9356	συσπάω	to shrivel	
+G9357	συσσεισμός	a quaking	
+G9358	συσσείω	to shake	
+G9359	σύστασις	a joint-conspiracy	
+G9360	σύστεμα	collection	
+G9361	σύστρεμμα	a confederation	
+G9362	συσφίγγω	to condense	
+G9363	σφαιρωτήρ	a knob	
+G9364	σφακελίζω	to have an inflammation	
+G9365	σφαλερός	unsteady	
+G9366	σφάλλω	to trip	
+G9367	σφάλμα	a trip	
+G9368	σφενδονάω	to sling	
+G9369	σφενδόνη	a sling	
+G9370	σφενδονήτης	a slinger	
+G9371	σφηκιά	a swarm of wasps	
+G9372	σφηνόω	to wedge	
+G9373	σφίγγω	to grasp	
+G9374	σφοδρός	vehement	
+G9375	σφόνδυλος	a neck vertebrae	
+G9376	σφῦρα	an adz	
+G9377	σφυροκοπέω	to strike with a hammer	
+G9378	σφυροκόπος	a hammer-smith	
+G9379	σχάζω	to open up	
+G9380	σχεδία	a barge	
+G9381	σχίδαξ	kindling	
+G9382	σχίζα	a dart	
+G9383	σχισμή	a fissure	
+G9384	σχιστός	shredded	
+G9385	σχοίνισμα	a measured out line	
+G9386	σχοινισμός	a piece of measured out land	
+G9387	σχοῖνος	a rush	
+G9388	σχολαστής	an idler	
+G9389	σωματοποιέω	to rejuvenate	
+G9390	σωρήκ	a choice vine	
+G9391	σωρός	a heap	
+G9392	σωφάρ	ram's horn	
+G9394	ταινία	fascia	
+G9395	τακτικός	tactician	
+G9396	ταλαιπώρως	miserably	
+G9397	τάλας	miserable	
+G9398	ταμίας	a storekeeper	
+G9399	ταμιεύω	to store up	
+G9400	τανύω	to stretch	
+G9401	ταπεινοφρονέω	be humble-minded	
+G9402	ταπεινόφρων	humble-minded	
+G9403	ταραχώδης	disturbing	
+G9404	Τάρταρος	infernal region	
+G9405	τάφρος	a trench	
+G9406	ταχύνω	to hasten	
+G9407	τείνω	to stretch out	
+G9408	τειχήρης	walled	
+G9409	τειχίζω	to wall	
+G9410	τειχιστής	a stonemason	
+G9411	τεκνοποιέω	to produce children	
+G9412	τεκταίνομαι	to contrive	
+G9413	τεκτονικός	a woodworker	
+G9414	τελαμών	a ligature	
+G9415	τελεσιουργέω	to perfect a work	
+G9416	τελετή	mystic rites	
+G9417	τελευταῖος	finality	
+G9418	τέμενος	a sacred precinct	
+G9419	τέμνω	to prune	
+G9420	τερατοσκόπος	an observer of signs	
+G9421	τερέβινθος	terebinth resin	
+G9422	τέρετρον	a drill	
+G9423	τερπνός	delightful	
+G9424	τερπνότης	delightfulness	
+G9425	τέρπω	to delight	
+G9426	τέρψις	delight	
+G9427	τεσσαρακονταδύο	forty-two	
+G9428	τεσσαρακονταεπτά	forty-seven	
+G9429	τεσσαρακονταοκτώ	forty-eight	
+G9430	τεσσαρακονταπέντε	forty-five	
+G9431	τεσσαρακοντατρεῖς	forty-three	
+G9432	τεσσαρακοστός	fortieth	
+G9433	τεσσαρεσκαίδεκα	fourteen	
+G9434	τετράδραχμος	four-drachma	
+G9435	τετραίνω	to puncture	
+G9436	τετρακισμύριοι	forty thousand	
+G9437	τετρακοσιοστός	four hundredth	
+G9438	τετράπεδος	quadrangular	
+G9439	τετραπλῶς	fourfold	
+G9440	τετράς	fourth	
+G9441	τετράστιχος	arranged in four rows	
+G9442	τεχνάζω	to cunningly contrive	
+G9443	Τηβήθ	Tebeth	
+G9444	τήγανον	a frying pan	
+G9445	τηλαύγημα	radiance	
+G9446	τηλαυγής	radiant	
+G9447	τηλαύγησις	radiance	
+G9448	τιάρα	a tiara	
+G9449	τιθηνέω	to suckle	
+G9450	τιθηνός	a wet-nurse	
+G9451	τίμημα	valuation	
+G9452	τιμογραφέω	to assess	
+G9453	τίναγμα	vibration	
+G9454	Τιτάν	titan	
+G9455	τιτρώσκω	to pierce	
+G9456	τμητός	to cut into shape	
+G9457	τοκετός	birth	
+G9458	τόλμα	daring	
+G9459	τολύπη	a wild gourd	
+G9460	τομή	pruning	
+G9461	τομίς	a pruning knife	
+G9462	τόμος	a roll of papyrus	
+G9463	τόξευμα	a bow	
+G9464	τοξεύω	to shoot	
+G9465	τοξότης	a bowman	
+G9466	τοπάρχης	a toparch	
+G9467	τορευτός	turned	
+G9468	τραγέλαφος	an antelope	
+G9469	τρανός	plainly	
+G9470	τραυματίας	slain	
+G9471	τραχηλιάω	to stiffen the neck	
+G9472	τρέπω	to rout	
+G9473	τριακονταδύο	thirty-two	
+G9474	τριακονταεννέα	thirty-nine	
+G9475	τριακονταέξ	thirty-six	
+G9476	τριακονταεπτά	thirty-seven	
+G9477	τριακονταέτης	thirty years old	
+G9478	τριακονταοκτώ	thirty-eight	
+G9479	τριακονταπέντε	thirty-five	
+G9480	τριακοντατρεῖς	thirty-three	
+G9481	τριακοντατέσσαρες	thirty-four	
+G9482	τριακοστός	thirtieth	
+G9483	τρίβω	be very busy	
+G9484	τριέτης	of three years	
+G9485	τριετίζω	be three years old	
+G9486	τριημερία	third day	
+G9487	τριμερίζω	be three parts	
+G9488	τριόδους	three-pronged	
+G9489	τριπλοῦς	triple	
+G9490	τρισκαίδεκα	thirteen	
+G9491	τρισκαιδέκατος	thirteenth	
+G9492	τρισσεύω	to do three times	
+G9493	τρισσός	third rank	
+G9494	τρισσόω	to do a third time	
+G9495	τρισσῶς	third	
+G9496	τριστάτης	a tribune	
+G9497	τριταῖος	three days	
+G9498	τρίχαπτος	a braid	
+G9499	τρίχωμα	hair on a head	
+G9500	τριώροφος	third story	
+G9501	τροπόω	to put to flight	
+G9502	τροφεύω	to nourish	
+G9503	τροφοφορέω	to nurture	
+G9504	τροχίσκος	a disc	
+G9505	τρυγητής	a grape gatherer	
+G9506	τρυγητός	a gathering of crops	
+G9507	τρυγίας	wine with dregs	
+G9508	τρυπάω	to make a hole	
+G9509	τρυφαλίς	cheese	
+G9510	τρυφερός	delicate	
+G9511	τρυφερότης	delicacy	
+G9512	τρώγλη	a bore	
+G9513	τυλόω	be hardened	
+G9514	τυμπανίστρια	performing on a tambourine	
+G9515	τύμπανον	a tambourine	
+G9516	τυραννέω	be sovereign	
+G9517	τυραννίς	a wife of a sovereign	
+G9518	τυρόω	to curdle into cheese	
+G9519	τύχη	good luck	
+G9520	ὕαινα	a hyena	
+G9521	ὑβριστικός	outrageous	
+G9522	ὑγιάζω	to heal	
+G9523	ὑγίεια	health	
+G9524	ὑγιῶς	fairly	
+G9525	ὑγραίνω	to wet	
+G9526	ὑγρασία	wetness	
+G9527	ὑδραγωγός	an aqueduct	
+G9528	ὑδρεύω	to draw water	
+G9529	ὑδρίσκη	a water-pot	
+G9530	ὑδροφόρος	a water-carrier	
+G9531	ὕειος	like a pig	
+G9532	ὑετίζω	to rain	
+G9533	ὑλακτέω	to bark	
+G9534	ὑλώδης	flush	
+G9535	ὕμνησις	singing of praise	
+G9536	ὑμνῳδέω	to sing a hymn	
+G9537	ὕπαιθρος	open air	
+G9538	ὕπατος	supreme	
+G9539	ὑπεξαίρω	to remove secretly	
+G9540	ὑπεράνωθεν	far above	
+G9541	ὑπέραρσις	overflowing	
+G9542	ὑπερασπίζω	to shield	
+G9543	ὑπερασπισμός	shielding	
+G9544	ὑπερασπιστής	a defender	
+G9545	ὑπερδυναμόω	to overpower	
+G9547	ὑπερεκχέω	to overflow	
+G9548	ὑπερηφανέω	be prideful	
+G9549	ὑπέρθυρον	a lintel	
+G9550	ὑπερισχύω	to excel in strength	
+G9551	ὑπέρκειμαι	to have precedence	
+G9552	ὑπερκρατέω	to prevail against	
+G9553	ὑπερμεγέθης	immense	
+G9554	ὑπερμήκης	exceedingly tall	
+G9555	ὕπερον	a pestle	
+G9556	ὑπερόρασις	neglect	
+G9557	ὑπεροράω	to neglect	
+G9558	ὑπέροψις	disdain	
+G9559	ὑπερτίθημι	to procrastinate	
+G9560	ὑπερφερής	overwhelming	
+G9561	ὑπερφέρω	to overwhelm	
+G9562	ὑπερχαρής	overjoyed	
+G9563	ὑπερχέω	to overflow	
+G9564	ὑπερωμία	head and shoulders above	
+G9565	ὑπεύθυνος	accountable	
+G9566	ὑπηρεσία	service	
+G9567	ὑπνόω	to sleep	
+G9568	ὑπνώδης	sleepy	
+G9569	ὑποβλέπω	to suspect	
+G9570	ὑπόγαιος	subterranean	
+G9571	ὑποδύτης	an undergarment	
+G9572	ὑπόθεμα	an underpart	
+G9573	ὑποκαίω	to fire up	
+G9574	ὑποκαλύπτω	to cover up	
+G9575	ὑποκάτωθεν	from beneath	
+G9576	ὑπόκειμαι	to lay in place of	
+G9578	ὑπόλοιπος	a vestige	
+G9579	ὑπόλυσις	a loosening	
+G9580	ὑπολύω	to untie	
+G9581	ὑπόμνημα	a record	
+G9582	ὑπομνηματισμός	a memoir	
+G9583	ὑπομνηματογράφος	a recorder	
+G9584	ὑπονύσσω	to goad	
+G9585	ὑποπίπτω	be penitent	
+G9586	ὑποπτεύω	to dread	
+G9587	ὑποπυρρίζω	be reddish	
+G9588	ὑποσκελίζω	to trip up	
+G9589	ὑποσκέλισμα	a fall	
+G9590	ὑπόστημα	a garrison	
+G9591	ὑποστήριγμα	a support	
+G9592	ὑποστηρίζω	to support	
+G9593	ὑποτίτθιος	under a breast	
+G9594	ὑπουργός	an aid	
+G9595	ὑπόφαυσις	a narrow opening	
+G9596	ὑπόφορος	subject to tribute	
+G9597	ὑποχείριος	under one's hand	
+G9598	ὑποχόνδριος	a spleen	
+G9599	ὑπόχρεως	a debtor	
+G9600	ὑποχυτήρ	an oil flask	
+G9601	ὑπτιάζω	to turn up and open hands	
+G9602	ὕπτιος	steep	
+G9603	ὑπώπιος	a bruise	
+G9604	ὑστεροβουλία	an afterthought	
+G9605	ὑφαίνω	to weave	
+G9606	ὑφαιρέω	to take up	
+G9607	ὑφάντης	a weaver	
+G9608	ὕφασμα	a woven work	
+G9609	ὑφίστημι	to stand	
+G9610	ὑψηλοκάρδιος	a proud heart	
+G9611	ὕψωσις	act of exaltation	
+G9612	ὕω	to rain	
+G9613	φαιός	gray	
+G9614	φακός	a flask	
+G9615	φαλακρός	bald	
+G9616	φαλάκρωμα	baldness	
+G9617	φαρέτρα	a quiver	
+G9618	φαρμακεύω	to administer potions	
+G9619	φάρμακον	a potion	
+G9620	φαρουρίμ	a compound	
+G9621	φάρυγξ	a throat	
+G9622	φασέκ	a passover	
+G9623	φάσμα	a visible manifestation	
+G9624	φατνόω	to decorate with fretwork	
+G9625	φάτνωμα	a fretwork	
+G9626	φαυλίζω	to treat as worthless	
+G9627	φαύλισμα	a careless attitude	
+G9628	φαυλισμός	disparagement	
+G9629	φαυλίστρια	heedless	
+G9630	φαῦσις	giving light	
+G9631	φερνή	a dowry	
+G9632	φερνίζω	to endow	
+G9633	φθάρμα	corruption	
+G9634	φθέγμα	an utterance	
+G9635	φθειρίζομαι	to fumigate	
+G9636	φθίνω	to wane	
+G9637	φιλαμαρτήμων	fond of sinning	
+G9638	φιλεχθρέω	to enjoy quarreling	
+G9639	φιλιάζω	to befriend	
+G9640	φιλογέωργος	fond of husbandry	
+G9641	φιλογύναιος	fond of women	
+G9642	φιλονεικέω	be fond of altercations	
+G9643	φιμός	a rein	
+G9644	φλεγμαίνω	be inflamed	
+G9645	φλέγω	to blaze	
+G9646	φλέψ	an artery	
+G9647	φλιά	a doorway	
+G9648	φλόγινος	flaming	
+G9649	φλυκτίς	a boil	
+G9650	φοβερίζω	to throw into fear	
+G9651	φοβερισμός	fright	
+G9652	φοβερῶς	fearfully	
+G9653	φοινίκεος	crimson	
+G9654	φοινικών	palm-grove	
+G9655	φονευτής	a man-killer	
+G9656	φονοκτονέω	to pollute with murder	
+G9657	φορβεά	a halter	
+G9658	φορεῖον	a carriage	
+G9659	φορθομμίν	nobles	
+G9660	φορολόγητος	tributary	
+G9661	φορολόγος	tribute-gatherer	
+G9662	φρίκη	shuddering awe	
+G9663	φρικτός	a cause for shuddering	
+G9664	φρικώδης	a cause for shuddering	
+G9665	φροντίς	bewilderment	
+G9666	φρουρά	a detachment of soldiers	
+G9667	φρουραί	lots	
+G9668	φρύαγμα	neighing	
+G9669	φρύγιον	dried sticks	
+G9670	φρύγω	to parch	
+G9671	φυγαδεία	flight	
+G9672	φυγαδεῖον	a place of refuge	
+G9673	φυγαδευτήριον	a place of refuge	
+G9674	φυγαδεύω	to drive into exile	
+G9675	φυγάς	an exile	
+G9676	φυή	development	
+G9677	φύλαγμα	an injunction	
+G9678	φυλάκισσα	a female keeper	
+G9679	φύλαρχος	a tribal chief	
+G9680	φύρασις	a mixing together	
+G9681	φυράω	to mix up	
+G9682	φυρμός	a befouling	
+G9683	φύρω	to befoul	
+G9684	φυσάω	to blow	
+G9685	φυσητήρ	a pair of bellows	
+G9686	φύτευμα	a plant	
+G9687	φυτόν	a plant	
+G9688	φωράω	be caught in the act	
+G9689	χ	600	
+G9690	χαίνω	to gape wide	
+G9691	χαλαστόν	a chain-work	
+G9692	χαλβάνη	galbanum	
+G9693	χάλιξ	gravel	
+G9694	χαλκεῖον	a brass cauldron	
+G9695	χάλκειος	of brass	
+G9696	χαλκεύω	to forge	
+G9697	χαμαιλέων	chameleon	
+G9698	χάος	chaos	
+G9699	χαραδριός	a curlew	
+G9700	χαρακοβολία	a palisade	
+G9701	χαρακόω	to build a palisade	
+G9702	χαράκωσις	a siege mound	
+G9703	χαράσσω	to grave	
+G9704	χαρμονή	a cause for joy	
+G9705	χαρμοσύνη	joyfulness	
+G9706	χαροποιός	a causing joy	
+G9707	χαρτίον	papyrus paper	
+G9708	χαυών	a cake	
+G9709	χαφουρή	bowls	
+G9710	χειμερινός	of winter	
+G9711	χειροπέδαι	manacles	
+G9712	χειροτονία	stretching forth hands	
+G9713	χειρόω	to lay hands against	
+G9714	χελιδών	a swallow	
+G9715	χελώνη	a tortoise	
+G9716	χελώνιον	a lip	
+G9717	χερούβ	a cherub	
+G9718	χερσαῖος	of dry land	
+G9719	χέρσος	uncultivated	
+G9720	χερσόω	to make barren	
+G9721	χέω	to pour	
+G9722	χηλή	a claw	
+G9723	χηρεία	widowhood	
+G9724	χήρευσις	widowhood	
+G9725	χηρεύω	be a widow	
+G9726	χθιζός	of yesterday	
+G9727	χθών	soil	
+G9728	χῖδρον	green wheat	
+G9729	χιλιαρχία	a command of a thousand	
+G9730	χιλιοπλασίως	a thousand times more	
+G9731	χίλιος	a thousand	
+G9732	χίμαιρα	a yearling	
+G9733	χίμαρος	1 winter yearling	
+G9734	χιονόομαι	to snow	
+G9735	χλαῖνα	a goat's hair coat	
+G9736	χλεύασμα	an object of taunts	
+G9737	χλευασμός	taunting	
+G9738	χλίδων	an armlet	
+G9739	χλωρίζω	be greenish	
+G9740	χλωρότης	greenness	
+G9741	χνόος	dust	
+G9742	χοιρογρύλλιος	hyrax	
+G9743	χολέρα	cholera	
+G9744	χόλος	bitter anger	
+G9745	χονδρίτης	of groats	
+G9746	χορδή	string of a lyre	
+G9747	χορεύω	to join in a dance	
+G9748	χορηγία	a bestowing of expenses	
+G9749	χόριον	afterbirth	
+G9750	χορρί	a patrol	
+G9751	χορτασία	a filling	
+G9752	χορτομανέω	be overgrown	
+G9753	χοῦς	a coos	
+G9754	χρεμετίζω	to snort	
+G9755	χρεμετισμός	snorting	
+G9756	χρέος	a debt	
+G9757	χρησμολογέω	to speak oracles	
+G9758	χρῖσις	an anointing	
+G9759	χροιά	complexion	
+G9760	χρυσαυγέω	to shine like gold	
+G9761	χρυσοτόρευτος	wrought in gold	
+G9762	χρυσοχόος	a goldsmith	
+G9763	χυδαῖος	extensive	
+G9764	χύμα	an increase	
+G9765	χυτός	cast	
+G9766	χύτρα	an earthen pot	
+G9767	χυτρόγαυλος	a pot	
+G9768	χυτρόπους	a pot with feet	
+G9769	χωθαρώθ	a capital	
+G9770	χωλαίνω	be lame	
+G9771	χῶμα	an embankment	
+G9772	χωμαρείμ	idolatrous priests	
+G9773	χωματίζω	be fortified	
+G9774	χώνευμα	a molten casting	
+G9775	χώνευσις	a molten casting	
+G9776	χωνευτήριον	a foundry furnace	
+G9777	χωνευτής	a smelterer	
+G9778	χωνευτός	casted	
+G9779	χωνεύω	to cast in a furnace	
+G9780	χωρισμός	separation	
+G9781	χωροβατέω	to explore	
+G9782	ψαλίς	a clip	
+G9783	ψαλτήριον	a psaltery	
+G9784	ψαλτός	strummed chords of music	
+G9785	ψαλτῳδέω	to sing along with stringed instruments	
+G9786	ψαλτῳδός	a psalm singer	
+G9787	ψαρός	dapple-gray	
+G9788	ψέκας	mist	
+G9789	ψελλίζω	to stutter	
+G9790	ψέλλιον	a bracelet	
+G9791	ψευδῶς	falsely	
+G9792	ψηλαφητός	tangible	
+G9793	ψήφισμα	a referendum	
+G9794	ψιθυρίζω	to whisper	
+G9795	ψιλός	bare	
+G9796	ψιλόω	to make bear	
+G9797	ψόα	a flank	
+G9798	ψόγος	fault	
+G9799	ψοφέω	to stamp	
+G9800	ψόφος	a noise	
+G9801	ψυγμός	a refreshing	
+G9802	ψυκτήρ	a wine-cooler	
+G9803	ψύλλος	a flea	
+G9804	ψωμός	a morsel	
+G9805	ψώρα	mange	
+G9806	ψωραγριάω	to have chronic mange	
+G9807	ᾤα	an edge	
+G9808	ᾠδός	a singer	
+G9809	ὠθέω	to thrust through	
+G9810	ὠμία	protrusion	
+G9811	ὠμός	raw	
+G9812	ὠμοτοκέω	to bring forth prematurely	
+G9813	ὡραιόομαι	be beautiful	
+G9814	ὡραιότης	beauty	
+G9815	ὡραϊσμός	finery	
+G9816	ὥριμος	in season	
+G9817	ὠρύωμα	a roaring	
+G9818	ὡς ἂν	continually	
+G9819	ὠτότμητος	mutilated ears	
+G9820	ὠφέλημα	benefit	
+G9821	ὤχρα	paleness	
+G9822	εὐρυχωρία	expanse	
+G9823	στρεπτός	twisted	
+G9824	ἵν	hin	
+G9825	Ἀσέν	Asen	
+G9826	Βουγαίου	Bougean	
+G9827	Ἐδέμ	Edem	
+G9828	Γεργεσαίοι	Gergashites	
+G9829	Ἡλιουπόλεως	Heliopolis	
+G9830	Ὡδουά	Hodijah	
+G9831	Ιανήν	Janen	
+G9832	Ιεμνάθ	Jemnath	
+G9833	Ιωθώρ	Jothor	
+G9834	Παρίνοις	Parian	
+G9835	Σουταλαάμ	Sutalaam	
+G9836	Ταάμ	Tam	
+G9837	φαρές	peres	
+G9838	θραέλ	gate	
+G9839	εἰκοστός	twenty	
+G9840	Σουρ	Sur	
+G9841	Αυσίτιδος	Ausis	
+G9842	ἐνθέμιον	socket	
+G9843	ακί	unexcepted	
+G9844	βλαστός	offspring	
+G9845	τυρός	cheese	
+G9980	πηρόω	to disable	
+G9981	προβάτιον	lamb	
+G9982	προσανέχω	to rise up	
+G9983	προσβιβάζω	to persuade	
+G9984	προσλέγω	to answer	
+G9985	Πύθιος	Pythius	
+G9986	ὑσσός	javelin	
+G9987	περιραίνω	to sprinkle	
+G9989	ὅρος	boundary	
+G9994	οἰκουργός	home-working	
+G9995	ἱερόθυτος	sacrificed to idols	
+G20001	ἀβατόομαι	be made desert	
+G20002	ἀβοηθησία	helplessness	
+G20003	ἀβούλευτος	ill-advised.	
+G20004	ἀγαθότης	goodness	
+G20005	ἀγαυρίαμα	insolence	
+G20006	ἀγαυριάομαι	be insolent	
+G20007	ἀγερωχία	feats of mastery	
+G20008	ἀγέρωχος	arrogant	
+G20009	ἁγιαστία	service	
+G20010	ἁγιοποιέω	to sanctify	
+G20011	ἁγιστεία	service	
+G20013	ἁγνιασμός	purification	
+G20014	ἄγυια	city	
+G20015	ἀγύναιξ	wifeless	
+G20016	ἀδελφικός	sisterly	
+G20017	ἀδελφοπρεπῶς	as befits a brother	
+G20018	ἀδιάστροφος	without molestation	
+G20019	ἀδιάτρεπτος	headstrong	
+G20020	ἀδιεξέταστος	unworthy	
+G20021	ἀδρανής	useless	
+G20022	ἀδυναμέω	be incapable	
+G20023	ἀέρινος	grey	
+G20024	ἀζημίωτος	immune	
+G20025	ἀθεΐα	faithlessness	
+G20026	ἀθλοθετέω	to direct	
+G20027	ἄθροισμα	human organism	
+G20028	ἀθώητος	impunity	
+G20029	αἴγεος	a goat's skin	
+G20030	αἰκισμός	wrench, shock	
+G20031	αἴλουρος	cat	
+G20032	αἱμάσσω	be bloody	
+G20033	αἱμόρραντος	blood-sprinkled	
+G20034	αἱρετίς	one who chooses	
+G20035	ἀκάλυπτος	uncovered, unveiled	
+G20036	ἀκαταμάχητος	unconquerable	
+G20037	ἀκαταστατέω	be unstable	
+G20038	ἀκηλίδωτος	spotless	
+G20039	ἀκοίμητος	sleepless, unresting	
+G20040	ἀκοινώνητος	inhuman	
+G20041	ἀκοπίατος	never tires of	
+G20042	ἀκουσείω	to long to hear	
+G20043	ἀκριβάζω	be proud	
+G20044	ἄκριτος	undiscriminating	
+G20045	ἀκρωτηριάζω	to jut out	
+G20046	ἀλλοεθνής	with foreign foe	
+G20047	ἀλλοφυλέω	to become native	
+G20048	ἀλλοφυλισμός	becoming native	
+G20049	ἀμβλυωπέω	be dim-sighted	
+G20050	ἀμειδής	gloomy	
+G20051	ἀμείδητος	gloomy	
+G20052	ἀμνησία	decree of amnesty	
+G20053	ἀμνησικακία	forgivingness	
+G20054	ἀμνηστία	amnesty	
+G20055	ἀμόλυντος	stainless	
+G20056	ἄμυνα	vengeance, requital	
+G20057	ἀμφιάζω	to put on	
+G20058	ἀνάβαθρα	going up, ascent	
+G20059	ἀναβίωσις	return to life	
+G20060	ἀνάγλυφος	low relief	
+G20061	ἀναγνεία	abominable wickedness	
+G20062	ἀνάγωγος	inerudite et	
+G20063	ἀνάδυσις	emergence	
+G20064	ἀναληπτήρ	bowl	
+G20065	ἀνάλογος	resembling	
+G20066	ἀνανεάζω	to renew youth	
+G20067	ἀνανέομαι	mount up	
+G20068	ἀναποδίζω	to correct oneself	
+G20069	ἀναποδισμός	recall	
+G20070	ἀναπτέρωσις	clamorous	
+G20071	ἀνατολάς	eastwards	
+G20072	ἀνδραγάθησις	bravery	
+G20073	ἀνδρειόω	to become a man	
+G20074	ἀνδρολογία	census	
+G20075	ἀνείκαστος	incapable of artistic representation	
+G20076	ἀνεκλιπής	incessant	
+G20077	ἀνεπιτρέπτως	without permission	
+G20078	ἀνθράκινος	(woad)	
+G20079	ἀνίκητος	plaster	
+G20080	ἀνοιγεύς	opener	
+G20081	ἀνομβρέω	to pour forth	
+G20082	ἀντανακλάω	to cause to revert	
+G20083	ἀντιδοκέω	to think oneself equal to	
+G20084	ἀντικάθημαι	lie over against	
+G20086	ἀντιπεριβάλλω	be clothed about	
+G20087	ἀντίπτωμα	accident	
+G20088	ἀντισχύω	to repel by force	
+G20089	ἀντιφιλοσοφέω	be contrary	
+G20090	ἀνυπέρθετος	incomparable	
+G20091	ἀπαδικέω	to wrong	
+G20092	ἀπαρασήμαντος	unnoticed	
+G20094	ἀπάτησις	beguiling	
+G20095	ἀπειράγαθος	foolish	
+G20096	ἀπεναντίον	opposite	
+G20097	ἀπένθητος	unlamented	
+G20098	ἀπερίσπαστος	continually	
+G20099	ἀπευθανατίζω	happily	
+G20100	ἀπλάνητος	err	
+G20101	ἀπληστεύομαι	insatiable	
+G20102	ἀποβάπτω	to draw	
+G20103	ἀπόβλημα	anything cast away	
+G20104	ἀποδεκατίζω	to tithe	
+G20105	ἀποδιαστέλλω	forbidden	
+G20106	ἀποδοχεῖον	cistern	
+G20107	ἀποκάλυμμα	arevelation	
+G20108	ἀποκενόω	to evacuate	
+G20109	ἀπόκλειστος	shut off, enclosed	
+G20110	ἀποκοσμέω	to remove	
+G20111	ἀποκτέννω	to kill	
+G20112	ἀπομιτρόω	to remove the mitre	
+G20113	ἀποξαίνω	to scarify	
+G20114	ἀποπαρθενεύομαι	deflower	
+G20115	ἀποπρατίζομαι	sell	
+G20116	ἀποργίζομαι	be angry	
+G20117	ἀπόρρηξις	breaking	
+G20118	ἀπορρωγάς	breakup	
+G20120	ἀποσκοπέω	to regard	
+G20121	ἀποσκορπίζω	to scatter widely	
+G20122	ἀποσκυθίζω	be shaved bare	
+G20123	ἀποστρεβαλόομαι	be tortured	
+G20124	ἀποσφενδονάω	to hurl	
+G20125	ἀποτεκνόομαι	be childless	
+G20126	ἀποτίναγμα	tow	
+G20127	ἀποτίνυμι	to repay	
+G20128	ἀπότομος	precisely	
+G20129	ἀποχύνω	to pour out	
+G20130	ἀπροσδεής	self-sufficient	
+G20131	ἀπτόητος	undaunted	
+G20132	ἄπωθεν	far from	
+G20133	ἀπωσμός	replusion	
+G20134	ἀργυρολόγητος	levy	
+G20135	ἀργυροχόος	silver worker	
+G20136	ἀρδαλόω	to spread	
+G20137	ἀρεταλογία	recitation of	
+G20138	ἀρετηφόρος	virtuous	
+G20139	ἀρθρέμβολον	instruments of torture	
+G20141	ἁρμόνιος	fitting, harmonious	
+G20142	ἀροτριασμός	ploughing	
+G20143	ἀροτριόω	be ploughed	
+G20144	ἀρραβωνίζεται	deposit paid	
+G20145	ἀρρενώδης	brave.	
+G20146	ἄρσην	aršan-	
+G20147	ἀρχιεράομαι	priestess	
+G20148	ἀρχιερατεύω	be high-priest	
+G20149	ἀρχιερωσύνη	high-priesthood	
+G20150	ἀρῳδιός	heron	
+G20151	ἀσθενόψυχος	weak-minded	
+G20152	ἀσκοπυτίνη	leathern canteen	
+G20153	ἀσταθής	unsteady, unstable	
+G20154	ἀσυρής	lewd, filthy	
+G20155	ἀσχολέω	to do business	
+G20156	ἀτεκνέω	to have no children	
+G20157	ἀτιμασμός	dishonour	
+G20158	ἀτίμητος	invaluable	
+G20159	ἀτοπία	wickedness, misdeed	
+G20160	ἀτράπελος	difficult	
+G20161	αὐθεντία	restriction	
+G20162	αὐθωρός	taking immediate effect	
+G20163	αὐλαῖος	doorkeeper	
+G20164	αὐτεξουσιότης	free will	
+G20165	αὐτοδέσποτος	absolute master	
+G20166	αὐτοσχέδιος	wild, natural	
+G20167	ἄφεμα	taxation	
+G20168	ἀφέστιος	far from home	
+G20169	ἀφήγημα	guiding, leading	
+G20170	ἀφόμοιος	copy	
+G20171	ἀφορολόγητος	untaxed	
+G20172	ἀφρονεύομαι	to act foolishly	
+G20173	ἄφυκτος	unable to escape	
+G20174	ἀχανής	vast, immense	
+G20175	ἀχρειότης	unprofitableness, worthlessness	
+G20176	βαθύγλωσσος	unintelligible	
+G20177	βάϊς	bai	
+G20178	βαρυηχής	deep-roaring	
+G20179	βαρυωπέω	be dim-sighted	
+G20180	βασκανία	jealousy	
+G20181	βιβλιοφυλάκιον	archives	
+G20182	βλαστάω	to bring forth	
+G20183	βόμβησις	buzzing	
+G20184	βοοζύγιον	ox-yoke	
+G20185	βραχυτελής	brief	
+G20186	βρῶμος	stink	
+G20187	βύβλινος	papyrus	
+G20188	βύβλος	papyrus	
+G20189	βυθοτρεφής	living in the deep	
+G20190	γαλακτοτροφέω	to give milk	
+G20191	γαλακτοτροφία	to suckle	
+G20192	γενεσιάρχης	creator	
+G20193	γενεσιουργός	fashioner, creator	
+G20194	γένημα	produce	
+G20196	γίγνομαι	gigno, gnatus.	
+G20197	γλωσσοκομεῖον	coffin	
+G20198	γνωριστής	diviner	
+G20199	γονορρυέω	be subject to spermatorrhoea	
+G20200	γόος	for	
+G20201	δᾳδουχία	torch-bearing	
+G20202	δακτυλήθρα	thumb-screw	
+G20203	δανίζω	to lend/borrow	
+G20204	δειλανδρέω	be cowardly	
+G20205	δειλόομαι	be afraid	
+G20206	δειλόψυχος	fainthearted	
+G20207	δεινάζω	be in straits	
+G20208	δεκαπλασιάζω	to multiply by ten	
+G20209	δεκάταρχος	head of a	
+G20210	δεξιάζω	to approve	
+G20211	δέσις	joint	
+G20212	δεσποτεύω	to enjoy ownership of.	
+G20213	δευτερολογέω	to speak a second time	
+G20214	δηλαϊστός	wretched	
+G20215	δημαγωγέω	be popular	
+G20216	διαβιάζομαι	penetrate	
+G20217	διαγορεύω	to declare	
+G20218	διαγωνιάω	to stand in dread of	
+G20219	διαδιδράσκω	to fly in all directions	
+G20220	διαιτέω	to turn by entreaty	
+G20221	διακαθίζω	to cause to sit apart	
+G20222	διακατέχω	to keep on foot	
+G20223	διακολυμβάω	to dive and swim across	
+G20224	διακριβεία	minute observance	
+G20225	διάληψις	digression	
+G20226	διάλιθος	set with precious stones	
+G20227	διαλοιδόρησις	railing, abuse	
+G20228	διαμασάομαι	carp at	
+G20229	διαμελίζω	to dismember	
+G20230	διαπαρατηρέομαι	lie in wait for continually	
+G20231	διαπειράζω	to attempt	
+G20232	διαπέφλοιδεν	interceed	
+G20233	διαπυρόομαι	be consumed with thirst	
+G20234	διαρρυθμίζω	to arrange in order	
+G20235	διασαφίζω	to declare	
+G20236	διασκεδάζω	to disperse	
+G20237	διασκιρτάω	to leap about	
+G20238	διάσταλσις	arrangement, compact	
+G20239	διαστράπτω	to glance like lightning	
+G20240	διασυρίζω	to whistle idly	
+G20241	διασφραγίζομαι	seal up	
+G20242	διατυπόω	be arranged, regulated by agreement	
+G20243	διαφαιρέω	to take quite away	
+G20244	διαφθονέω	be envied	
+G20245	διαψιθυρίζω	to whisper	
+G20246	διγομία	double burden, load	
+G20247	διεκκύπτω	to peep out	
+G20248	διεμπίμπλημι	fill completely	
+G20249	διεστραμμένως	distortedly	
+G20250	δικαιοκρίτης	righteous judge	
+G20251	δικαιολογία	forensic speeches	
+G20252	δίκησις	vengeance	
+G20253	διοργίζομαι	be very angry	
+G20254	διορθρίζω	to rise early	
+G20255	διορθωτής	of books, editor, reviser	
+G20256	διορυγή	canal	
+G20257	δισχιλιάς	number of twenty thousand	
+G20258	διτάλαντος	worth two talents	
+G20259	διχομηνία	mid-menstrual period	
+G20260	δορατοφόρος	spear-carrying	
+G20261	δορυφορία	body-guard	
+G20262	δράκος	eye	
+G20263	δυνάστευμα	natural resources	
+G20264	δυσάθλιος	most miserable	
+G20265	δυσάλυκτος	hard to escape	
+G20266	δυσδιήγητος	hard to narrate	
+G20267	δυσκατάπαυστος	restless	
+G20268	δυσκλεής	infamous, shameful	
+G20269	δυσνοέω	be ill-affected	
+G20270	δυσπέτημα	misfortune	
+G20271	δυσπόλεμος	unlucky in war	
+G20272	δυσσέβημα	impious act	
+G20273	ἑβδομάζω	to keep the Sabbath	
+G20274	ἐγγιάω	be near akin	
+G20275	ἐγγυιόω	to stretch the limbs upon	
+G20276	ἐγκαθυφαίνω	to set-firm	
+G20277	ἐγκαίω	to offer sacrifice	
+G20278	ἐγκαταλοχίζω	to divide into teams	
+G20279	ἐγκηδεύω	to bury in	
+G20280	ἐγκόλαμμα	engraved inscription	
+G20281	ἐγκοσμέω	be adorned	
+G20282	ἔγκτησις	acquisition of territory	
+G20283	ἐθέλω	be willing	
+G20284	ἐθνηδόν	by nations, as a whole nation	
+G20285	εἷ	where	
+G20286	εἰδέα	likeness	
+G20287	εἰδέχθεια	odious, ugly look	
+G20288	εἴδησις	forms of knowledge	
+G20289	εἴλω	to constrain	
+G20290	εἰσκολάπτω	to carve upon	
+G20291	εἰσκυκλέω	to plunge into	
+G20292	εἰσκύπτω	to overhang	
+G20293	ἐκβεβηλόω	to profane	
+G20294	ἐκβιάομαι	to expell	
+G20295	ἔκβολος	has broken in upon	
+G20296	ἐκβραγμός	erruption	
+G20297	ἐκγεννάω	to bringforth	
+G20298	ἐκδειματόω	to scare	
+G20299	ἐκδιαιτάω	to make to change one's habits	
+G20300	ἐκδικησία	to avenge	
+G20301	ἐκζητητής	searcher out	
+G20303	ἐκθλιβή	oppression	
+G20304	ἔκθλιψις	elision	
+G20305	ἐκκοσμέω	to adorn	
+G20306	ἔκλαμπρος	very bright	
+G20307	ἔκλαμψις	sudden development	
+G20308	ἐκλεκτόω	to purify	
+G20309	ἐκλεπίζω	to peel	
+G20310	ἐκλικμάω	to sift	
+G20311	ἐκλογιστής	accountant	
+G20312	ἐκλογιστία	reckoning: accounts	
+G20313	ἐκμελίζω	to dismember	
+G20314	ἐκπαίζω	to mock	
+G20315	ἐκπετάννυμι	gaping	
+G20316	ἐκπιάζω	to squeeze	
+G20317	ἐκπολιτεύω	to corrupt	
+G20318	ἐκριζωτής	rooter out, destroyer	
+G20319	ἐκσαόω	to escape	
+G20320	ἐκσπονδυλίζω	to break the vertebrae	
+G20321	ἐκσυρίζω	to hiss loudly	
+G20322	ἐκτοπίζω	to shun	
+G20323	ἐκφλέγω	to warm	
+G20324	ἐκφόρτιον	produce	
+G20325	ἐκφυγή	escape	
+G20326	ἐκχάσκω	to gaze	
+G20327	ἐκχολάω	be angry	
+G20328	ἐλαττονόω	to diminish	
+G20329	ἐλεάω	to have pity	
+G20330	ἐλεημοποιός	giving alms	
+G20331	ἐλευστέον	one must come	
+G20332	ἐλεφαντάρχης	commander of a squadron of sixteen elephants	
+G20333	ἐμβίωσις	taking root	
+G20334	ἐμμανής	maddened by	
+G20335	ἐμμελέτημα	instrument for practice	
+G20336	ἐμπαρρησιάζομαι	to speak openly	
+G20337	ἐμπειρέω	be experienced in, have knowledge of	
+G20338	ἐμπληθύνομαι	be filled with	
+G20339	ἐμποδιστικός	trammelling	
+G20340	ἐμπολιορκέω	to besiege	
+G20341	ἔμπονος	vehement	
+G20342	ἐμπορπάω	to fastened with a brooch upon the shoulder	
+G20343	ἐμπορπόομαι	to wear	
+G20344	ἐμφανισμός	explanation	
+G20345	ἐμφύρω	to confuse	
+G20346	ἐμφυσιόω	to instil	
+G20347	ἐναποσφραγίζω	to impress	
+G20348	ἐνάρμοστος	concordant	
+G20349	ἐνατενίξω	to stare	
+G20350	ἐνδείκτης	informer, complainant	
+G20351	ἐνδελεχέω	be persistently afflicted	
+G20352	ἐνδελεχίζω	to persevere	
+G20353	ἐνδεχομένως	to the best of his ability	
+G20354	ἐνδιαλλάσσω	to sodomize	
+G20355	ἐνδιασπείρω	to impregnate	
+G20356	ἐνδοσθίδια	stomach	
+G20357	ἐνεμπορεύομαι	trade with one in	
+G20358	ἐνεξουσιάζω	be brought into subjection	
+G20359	ἐνευκαιρέω	to idle	
+G20360	ἐνῆλιξ	of age, in the prime of manhood	
+G20361	ἔνηχος	sonorous	
+G20362	ἔνθεσμος	valid	
+G20363	ἐνθρύπτω	to crumble into liquid	
+G20364	ἐνθυσιάζω	to sacrifice	
+G20365	ἐννέμω	to live amongst	
+G20367	ἔννευμα	signal, wave of the hand	
+G20368	ἐννοσσοποιέομαι	make oneself a nest on	
+G20369	ἐνσείω	to jostle	
+G20370	ἐνσκηνόω	to encamp	
+G20371	ἐντιμόομαι	be held in honour	
+G20372	ἐντιναγμός	shaking	
+G20373	ἐντινάσσω	to collide with	
+G20374	ἐντόσθιος	inwards, entrails	
+G20375	ἐντότερος	inner	
+G20376	ἐντυχία	records	
+G20377	ἐνυποκρίνομαι	play the hypocrite	
+G20378	ἐνυποτάσσω	be made subject	
+G20379	ἐνυψόω	to exalt, excite	
+G20380	ἐξάδελφος	nephew	
+G20381	ἐξαλλοιόω	to change utterly	
+G20382	ἐξαλλοτριόω	be estranged	
+G20383	ἐξαποστολή	discharge	
+G20384	ἔξαρθρος	loose-jointed	
+G20385	ἐξαρθρόω	to dislocate	
+G20386	ἐξατιμάζω	to dishonour utterly	
+G20387	ἐξαφίημι	squander	
+G20388	ἐξαφίστημι	grow out of	
+G20389	ἐξέλευσις	to leave	
+G20390	ἐξευμενίζω	to propitiate	
+G20391	ἐξευφραίνομαι	show rejoicing	
+G20392	ἐξημερόω	to civilize	
+G20393	ἐξηχευη	stupes	
+G20394	ἐξισάζω	to equate	
+G20395	ἐξιστάνω	to divert	
+G20396	ἐξοδεύω	to depart	
+G20397	ἐξολέθρευμα	destruction	
+G20398	ἐξομβρέω	to pour like rain	
+G20399	ἐξόμνυμι	swear, make affidavit	
+G20400	ἐξουδενέω	to dispise	
+G20401	ἔξοχος	above all	
+G20402	ἐξυπνόω	to wake	
+G20403	ἐξυψόω	to elevate	
+G20404	ἐξωτάτω	outermost	
+G20405	ἑόρτασμα	festival, holiday	
+G20406	ἐπαίτης	begging	
+G20407	ἐπακουστός	be obeyed	
+G20408	ἐπαλγής	painful	
+G20409	ἐπανδρόω	to make manly	
+G20410	ἐπάνοδος	fuller statement	
+G20411	ἐπαξονέω	to enroll	
+G20412	ἐπάρδω	to irrigate	
+G20413	ἐπαρήγω	to help	
+G20414	ἔπαρξις	haughty	
+G20415	ἐπασθμαίνω	to pant	
+G20416	ἐπεισκυκλέω	to roll	
+G20418	ἐπιθραύω	to break besides	
+G20419	ἐπικαθιζάνω	to lie down	
+G20420	ἐπικαινίζω	to renew	
+G20421	ἐπικάλαμοι	stalk	
+G20422	ἐπικαρπολογέομαι	glean	
+G20423	ἐπικαταπνέω	against	
+G20424	ἐπικινέω	be moved	
+G20425	ἐπίκλησις	appellatio, appeal	
+G20426	ἐπίκοιλος	porous, spongy	
+G20427	ἐπικουφίζω	to lighten	
+G20428	ἐπίκρασις	tempering	
+G20429	ἐπίκριμα	decretum	
+G20430	ἐπίκυφος	bent over, crooked	
+G20431	ἐπιλαλέω	be said of.	
+G20432	ἐπιλειόω	to shave	
+G20433	ἐπιλήθω	to forget	
+G20435	ἐπιλυπέω	be troubled at	
+G20436	ἐπίμεικτος	in combination	
+G20437	ἐπιμερίζω	to enumerate	
+G20438	ἐπιμεσόω	be at the middle	
+G20439	ἐπιμήκης	extending	
+G20440	ἐπιμίξ	respect of persons	
+G20441	ἐπίμοχθος	with toil	
+G20442	ἐπιπληθύνω	to superabound	
+G20443	ἐπίπληξις	plagues	
+G20444	ἐπίποκος	covered with wool, woolly	
+G20445	ἐπιρρωγολογέομαι	glean grapes off	
+G20446	ἔπισος	comparable	
+G20448	ἐπισυνέχω	to appropriate	
+G20449	ἐπιτομή	right of cutting	
+G20450	ἐπιφαυλίζω	to minimise	
+G20451	ἐπιφυτεύω	to plant	
+G20452	ἐπιψάλλω	to sing	
+G20453	ἐποξύνω	to excite	
+G20454	ἐποργίζομαι	be wroth at	
+G20455	ἑπταμήτωρ	mother of seven children	
+G20456	ἑπταπλόος	sevenfold	
+G20457	ἑπτάπυργος	seven-towered	
+G20458	ἐριθεύομαι	indulge in petty intrigue	
+G20459	ἐριστής	to dispute	
+G20460	ἐρισύβη	blight	
+G20461	ἐρυθαίνω	to blush	
+G20462	ἐρύθρημα	red	
+G20463	ἔσθω	to devour	
+G20464	ἐσσήν	[hudot]ōšen	
+G20465	ἐσχατόγηρως	in extreme old age	
+G20466	ἑτεροκωφέω	be deaf of one ear	
+G20467	εὐαγής	rūgio	
+G20468	εὐαπάντητος	affable, courteous	
+G20469	εὐδράνεια	bodily strength and health	
+G20470	εὔθικτος	witty	
+G20471	εὐκατάλλακτος	easily appeased, placable	
+G20472	εὔκληρος	fortunate	
+G20473	εὐκοπία	ease, facility	
+G20474	εὐκοσμέω	to behave orderly	
+G20475	εὐλογίζω	to bless	
+G20476	εὔλογος	honourably	
+G20477	εὔοπτος	well-cooked	
+G20478	εὐπείθεια	ready obedience	
+G20479	εὐπόρφυρος	of bright purple colour	
+G20480	εὔσταθμος	in weight	
+G20481	εὔτηκτος	fusibility	
+G20482	εὐχαρής	pleasant	
+G20483	εὐχαριστήριος	mission of thanks	
+G20484	ἐφηβία	gymnasium	
+G20485	ἐφιορκία	perjury	
+G20486	ἐφύβριστος	contemptible	
+G20487	ἐχθές	yesterday	
+G20488	ζευγίζω	to yoke together	
+G20489	ζῆ	life	
+G20490	ζῶ	life	
+G20491	ζωγρίας	one taken alive	
+G20492	ζωνῖτις	seams	
+G20493	ζωτικός	true to life	
+G20494	ἡγεμόνη	flagship	
+G20495	ἡγεμονίδης	govenor	
+G20496	ἥγησις	command	
+G20497	ἡδομένως	with joy, gladly	
+G20498	ἠθολογέω	comedy of manners	
+G20499	ἡλιάζω	to ferment	
+G20500	ἡμεράλωψ	nictilopa	
+G20501	ἡμιθαλής	half-green	
+G20502	ἡμίθνητος	half-dead	
+G20503	ἡμισεύελπις	half-hopeful	
+G20504	ἡμισευτής	half time	
+G20505	ἡμισύνθεσις	half-set	
+G20507	ἠνίδε	look!	
+G20508	ἤνυστρον	first stomach	
+G20509	ἡπατοσκοπέω	to inspect the liver for soothsaying	
+G20510	ἠπιότης	gentleness	
+G20511	ἠχέτης	sounding	
+G20512	θεόκτιστος	founded by God	
+G20513	θεριστήριον	reaping-hook	
+G20514	θοίνη	feeding upon	
+G20515	θραῦμα	destruction	
+G20516	θρησκεύω	be a devotee	
+G20517	θρονίζομαι	be initiated, consecrated	
+G20518	θυμαρής	well-pleasing, delightful	
+G20519	θυρεόφορος	armed with such a shield	
+G20521	θωρακισμός	arming with breastplates	
+G20522	ἰδιόγραφος	separately written	
+G20523	ἰδιότης	relationship	
+G20524	ἱερεία	sanctuary	
+G20525	ἱερόδουλος	templecourtesans	
+G20526	ἱεροσύλημα	sacrilege	
+G20527	ἱεροψάλτης	singer in the temple	
+G20528	ἱερόψυχος	of holy, pious soul	
+G20529	ἱέρωμα	consecrated object, offering	
+G20530	ἴκτηρ	suppliant	
+G20531	ἱλαροτραγῳδία	burlesque tragedy	
+G20532	ἱλάσιμος	placable	
+G20533	ἱλαστής	propitiator	
+G20534	ἱλατεύω	gracious	
+G20535	ἱμάντωσις	piece of timber used instead of a bond-stone	
+G20536	ἰσάστερος	like a star, bright as a star	
+G20537	ἰσηγορέομαι	speak as an equal	
+G20538	ἰσοδυναμέω	be equivalent	
+G20539	ἰσοδύναμος	equal	
+G20540	ἰσοπολίτης	equitable citizen	
+G20541	ἴσχυσις	strength	
+G20542	καθάπαν	on the whole	
+G20543	καθαριόω	to purify	
+G20544	καθάρισις	cleansing	
+G20545	καθεῖς	one by one, one after antoher	
+G20546	καθεύρεμα	invention	
+G20547	καθηγεμών	leader	
+G20548	καθιδρύω	to settle	
+G20550	καινουργός	novelty	
+G20551	κακοεξία	bad habit	
+G20552	κακόμοχθος	perversely	
+G20553	κακοπραγία	misdeeds	
+G20554	καμιναία	furnace	
+G20555	καπνοδόκη	hole in the roof for the smoke to pass through	
+G20556	κάρρον	coach-builder	
+G20557	καρτερός	resolutely	
+G20558	καρτεροψυχία	strength of spirit	
+G20559	καταβαρύνω	to overload	
+G20560	καταβάσιος	descent	
+G20561	καταγογγύζω	to murmur against	
+G20562	καταδαμάζω	to subdue	
+G20563	καταδαπανάω	to consume	
+G20564	καταδεσμεύω	to repeat	
+G20565	καταδεύω	to make wet	
+G20566	καταδέω	to lack	
+G20567	καταδρομή	cryptoporticus	
+G20568	κατάκλειστος	precious	
+G20569	κατάκλιτος	flowing down	
+G20570	καταλαλητέον	one must talk against	
+G20571	καταλεαίνω	to placate	
+G20572	καταμερισμός	distribution	
+G20573	καταφαγεῖν	spend in eating, waste	
+G20574	καταφράσσω	to protect	
+G20575	καταφρονητέον	one must despise	
+G20576	κατάχρεος	involved in	
+G20577	καταψευσμός	slander, calumny	
+G20578	κατεμβλέπω	to despise	
+G20579	κατενισχύω	to establish	
+G20580	κατένωπα	over against, right opposite	
+G20581	κατεπίθυμος	very eager	
+G20582	κατεπικύπτω	to bow down upon	
+G20583	κατερευνάω	to dīrīmat	
+G20584	κατευθικτέω	to hit exactly	
+G20586	κατευφημέω	to applaud	
+G20587	κατιμονεύω	to let down	
+G20588	κατοδυνάω	to afflict grievously	
+G20590	κατοικτείρω	to feel compassion	
+G20591	κατοινύσαι	hidden	
+G20592	κατοπίσω	to overtake	
+G20593	κατώτατος	lowest	
+G20594	καυστικός	inflammatory humours	
+G20595	καυτήριον	kiln	
+G20596	κειράς	shorn	
+G20597	κελευσματικῶς	by way of command	
+G20598	κενεών	vacant space	
+G20599	κενοδοξέω	be vain-glorious	
+G20600	κηρογονία	combs	
+G20601	κίνημα	moving things	
+G20602	κισσόφυλλον	part of a torsion-engine shaped like an ivy-leaf	
+G20603	κλεψιμαῖος	furtim	
+G20604	κληδών	name, appellation	
+G20605	κληρουχία	inheritance	
+G20606	κλητέος	one must call	
+G20607	κμητός	scratch	
+G20608	κοίλασμα	interior	
+G20609	κοιλότης	shortage of cash	
+G20610	κολαβρισμός	derided	
+G20611	κολλύρα	bake	
+G20612	κολλύριον	PHolm, PLeid.X.	
+G20613	κολοβόρινος	slit-nosed	
+G20615	κοσμοπληθής	filling the world	
+G20616	κράτησις	holding firm, steadying	
+G20617	κρυφός	lurking-place	
+G20618	κύκλος	sphere, globe	
+G20619	κύκνειος	of Cycnus	
+G20620	κυλίκιον	small cup	
+G20621	κυνάμυια	shameless fly	
+G20622	κυνήγιον	prey	
+G20623	κυοφορία	pregnancy	
+G20624	κύπρος	a measure of corn	
+G20625	κυρία	possession, control	
+G20626	κωλῆ	membrum virile	
+G20627	κωνώπιον	cōnōpēum	
+G20628	Λακωνικός	female garment	
+G20629	λάμψις	shining	
+G20630	λαογραφία	poll-tax	
+G20631	λαπιστής	swaggerer	
+G20632	λατόμημα	stone hewn from a quarry	
+G20633	λαφυρεύω	to plunder	
+G20634	λεληθότως	secretly	
+G20635	λεοντηδόν	like a lion	
+G20636	λέπυρον	rind, shell, husk	
+G20637	λεχώς	giving birth	
+G20638	λιβανόομαι	be mixed with frankincense	
+G20639	λιθοβόλος	struck with stones, stoned	
+G20640	λιποτακτέω	to desert	
+G20641	λιτανεία	entreaty	
+G20642	λοιμότης	pestilent condition	
+G20643	λοχώ	to give birth	
+G20644	λυθρώδης	defiled with gore	
+G20645	λυσιτέλεια	economy	
+G20646	λυτρωτός	redeemable	
+G20647	λωποδυτέω	to rob	
+G20648	μάγδωλος	migdol	
+G20649	μαγειρευτικός	cooking	
+G20650	μαγικός	skilled in magic	
+G20651	μάγιν	cooking	
+G20652	μαδαρότης	falling off of the eyelashes	
+G20653	μαδάω	be bald	
+G20654	μαδών	íš mādhón	
+G20655	μᾶζα	amalgam	
+G20656	μακροβίωσις	long living	
+G20657	μακροημέρευσις	length of days	
+G20658	μάκροθριξ	long-haired	
+G20659	μακροτέρω	farther off	
+G20660	μακροτονέω	to persevere	
+G20661	μακροχρονίζω	long-lasting	
+G20662	μαλακία	calmness of the sea, malacia ac tranquillitas	
+G20663	μαλακοψυχέω	be cowardly	
+G20664	μαλάκυνσις	softening	
+G20665	μαρτιχόρας	mard-khwār	
+G20666	μαστιγοφόρος	policeman	
+G20667	μαστιγωτικός	demanding vengeance	
+G20668	μαστιστής	scourger	
+G20669	ματαιοτεχνία	dicta est	
+G20670	ματαιόφρων	weak-minded	
+G20671	ματαιόφωνος	talking idly	
+G20672	μαχητέον	one must fight	
+G20673	μεγάλαρτος	large loaf	
+G20674	μεγαλαυχία	exultation	
+G20675	μεγαλόδοξος	very glorious	
+G20676	μεγαλοημέρευσις	long-lived	
+G20677	μεγαλοκράτωρ	long-ruling	
+G20678	μεγαλομερής	magnificent, sumptuous	
+G20679	μεγαλοποιέω	to magnify	
+G20680	μεγαλορρέκτης	one who does great things	
+G20681	μεγάλος	great	
+G20682	μεγαλοσθενής	of great strength	
+G20683	μεγαλοφρονέω	be arrogant	
+G20684	μεγαλόψυχος	romantic, Quixotic	
+G20685	μεγαλώνυμος	having a higher denominator	
+G20686	μεγαλωστί	far and wide, over a vast space	
+G20687	μεγαρτός	envious	
+G20688	μεγήριτος	passing lovely	
+G20689	μεθαρμόζω	to re-order	
+G20690	μεθερμηνευτικός	fit for interpreting	
+G20691	μεθήμων	remiss, careless	
+G20692	μεθοδευτικός	regular	
+G20693	μέθοδος	stratagem	
+G20694	μεθορίζω	to determine	
+G20695	μέθυσις	drunkenness	
+G20696	μεθυσοκότταβος	drunk with cottabus-playing	
+G20697	μελάθρα	beam	
+G20698	μελετητικός	of meditations	
+G20699	μελετητός	be gained by practice	
+G20700	μελισσόφυτον	balm	
+G20701	μελοποιός	tuneful	
+G20702	μεριδάρχης	province	
+G20703	μεριδαρχία	his office	
+G20704	μεριζομένως	suffering	
+G20705	μερινων	portioned	
+G20706	μεριτεία	division	
+G20707	μεροποσπόρος	begetting men	
+G20708	μεσάζω	to occupy a central position	
+G20709	μεσημβρίζω	noon	
+G20710	μεσονεφής	in the midst	
+G20711	μεσοπορέω	be half-way	
+G20712	μεσοπόρος	mid	
+G20713	μεσορραγής	rent in twain	
+G20714	μεταγίγνομαι	be transferred, carried away	
+G20715	μεταδιαιτάω	to change one's way of life	
+G20716	μετακιρνάω	to intermix	
+G20717	μεταλλευτός	be got by mining	
+G20718	μετανάστατος	having departed	
+G20719	μεταπαιδεύω	to acquire a fresh tendency	
+G20720	μετατεύχω	to refashion	
+G20721	μετεξέτεροι	a certain amount of	
+G20722	μετεωροπορία	travelling through air	
+G20723	μετοιακίζομαι	have one's course changed	
+G20724	μετοίκησις	transmigration	
+G20725	μετοχετεύω	to divert	
+G20726	μετρητέον	one must measure	
+G20727	μὴ οὐ	isn't it?	
+G20728	μήλωσις	use of the probe	
+G20729	μηνίαμα	wrath	
+G20730	μηνιάω	be wrathful	
+G20731	μηνιτής	wrathful man	
+G20732	μὴπολλάκις	lest perchance	
+G20733	μηροραφής	thigh-burnt	
+G20734	μηρυκίζω	to chew the cud	
+G20735	μηχανάριος	engineer	
+G20736	μιαροφαγέω	to eat abominable food	
+G20737	Μιμνέρμειον	gymnasium named after Mimnermus	
+G20738	μισάρετος	hating virtue	
+G20739	μίσευμα	half	
+G20740	μισθαρχίδης	mercenary	
+G20741	μισοξενία	guests	
+G20742	μισοπονηρέω	to hate wickedness	
+G20743	μισοπονηρία	hatred because of wickedness	
+G20744	μισοπόνηρος	with hostile sentiments	
+G20745	μίσυβρις	hating insolence	
+G20746	Μίτρα	Mitra	
+G20747	μνημονευτός	objects of memory	
+G20748	μνησίθεος	remembering God	
+G20749	μνησικακία	remembrance of wrongs	
+G20750	μοιχαίνω	to commit adultery	
+G20751	μοιχεύτρια	adulteress	
+G20752	μόλυβος	lead	
+G20753	μολυνοπραγμονέομαι	get into dirty quarrels	
+G20754	μολυντός	apt to make dirty	
+G20755	μόλυσμα	spot, taint	
+G20756	μονήμερος	lasting one day	
+G20757	μονικῶς	uniquely	
+G20758	μονιμότης	constancy, steadfastness	
+G20759	μονόζυξ	single, solitary	
+G20760	μονοκένταυρος	man with ox's head	
+G20761	μονορύχης	digging with one point	
+G20762	μονοφαγία	eating alone	
+G20763	μονοφάγος	eating alone	
+G20764	μορφήεις	well-formed, shapely	
+G20765	μόσχευμα	PLond.ined.	
+G20766	μοχθίζω	to suffer	
+G20767	μυελοποιός	strengthening	
+G20768	μυθόλογος	prating	
+G20769	μυκτηριάζω	to dry nose	
+G20770	μυλήφατος	bruised in a mill	
+G20771	μυλόομαι	be hardened, cicatrized	
+G20772	μυρεψία	preparation of unguents	
+G20773	μυρέψιον	prepared unguent	
+G20774	μυρίνινος	of myrrh	
+G20775	μυριοπάλαι	time out of mind	
+G20776	μυριότης	myriad	
+G20777	μυρισμός	an anointing	
+G20778	μυρμηκίασις	irritation of the skin	
+G20779	μυρμηκοειδής	like an ant	
+G20780	μυροβραχής	wet with unguent	
+G20781	μυσαρία	loathsomeness	
+G20782	μυσάρχης	the originator of a foul deed	
+G20783	μυσερός	defiled	
+G20784	μυστάδης	teacher	
+G20785	μυστηρικός	for mysteries	
+G20786	μυστικός	scribere	
+G20787	μύστις	initiator	
+G20788	μώϊον	jar	
+G20789	μώκημα	mockery	
+G20790	μωκός	mocker	
+G20791	μωλωπικός	suitable for weals	
+G20792	μώμημα	blame	
+G20793	μῶν	are you	
+G20794	μωρεύω	be foolish	
+G20795	μωροπόνηρος	stupidly wicked	
+G20796	ναῦλος	rent	
+G20797	νάφθα	naft	
+G20798	νεικέω	to quarrell	
+G20799	νεκριμαῖος	carcas	
+G20800	νεόκτιστος	newly created	
+G20801	νεοσσιά	beehive	
+G20802	νεοσσοποιέω	to build a nest	
+G20803	νηπιοκτόνος	slaying children	
+G20804	νίζω	to wash hands	
+G20805	νοερός	world	
+G20806	νοθεύω	to consider spurious	
+G20807	νόμαρχος	govenor	
+G20808	νομιστέος	one must account, deem	
+G20809	νομοφύλαξ	observer of the law	
+G20810	νόος	point	
+G20811	νοσφιδόν	by stealth	
+G20812	νυμφικός	of the Nymphs	
+G20813	νωθρότης	sluggishness	
+G20814	Ξανδικός	Month Eandikos	
+G20815	ξενιτεία	life of a mercenary in foreign service	
+G20816	ξενολογέω	to enlist mercenaries	
+G20817	ξενοτροφέω	to maintain mercenary troops	
+G20818	ξεστός	smooth	
+G20819	οἰκετικός	slaves	
+G20820	οἰκίον	nest	
+G20821	οἰνοδόχος	cupbearer	
+G20822	οἰστρηλασία	mad passion	
+G20823	Οἰτόσυρος	Oitosupos (Apollo)	
+G20824	οἰωνόβρωτος	be eaten of birds	
+G20825	ὄλβος	olg[uglide]ā	
+G20826	ὀλεθρεία	fated	
+G20827	ὀλεθροφόρος	destruction-bringing	
+G20828	ὀλιγοποιέω	to diminish	
+G20829	ὁλοκαρπόομαι	be offered as a whole burnt-offering	
+G20830	ὄλονθος	sterile male inflorescence of the caprifig	
+G20831	ὁλορριζί	utterly	
+G20832	ὁλοσφύρατος	made of solid beaten metal	
+G20834	ὀμναῖσαι	remembered	
+G20835	ὁμοζηλία	common zeal	
+G20836	ὁμόσπονδος	bound by treaty to	
+G20837	ὁμόψυχος	endowed with the same soul	
+G20838	ὀνοκάρδιον	chamelion	
+G20839	ὀνοματογραφία	writing of names	
+G20840	ὁπηνίκα	when once	
+G20841	ὁπλοδοτέω	to arm	
+G20842	ὁπλολογέω	be disarmed	
+G20843	ὁπλοποιέω	to make weapons	
+G20844	ὅππως	like that	
+G20845	ὀργιάω	be fierce	
+G20846	ὀρθρόω	dawn	
+G20847	ὀρνιθοπώλης	dealer in birds	
+G20848	ὀροφοιτάω	frequent mountains	
+G20849	ὀροφόω	be roofed	
+G20850	ὀστρακώδης	full of potsherds	
+G20851	ὀσφράδιον	nosegay	
+G20852	οὐ μή	surely not	
+G20853	οὐθείς	none	
+G20854	οὐραγέω	to lag behind	
+G20855	ὀφιόδηκτος	bitten by a serpent	
+G20856	ὄφλησις	penalty	
+G20857	ὀχλαγωγέω	to attract a crowd	
+G20858	ὀχυρωμάτιον	small fort	
+G20859	ὀχύρωσις	fortification	
+G20860	ὀψοποίημα	food	
+G20861	ὄψος	fish	
+G20862	παγγέωργος	master-gardener	
+G20863	παγκρατής	victorious	
+G20864	πάθνη	manger	
+G20865	παθοκράτεια	government of the passions, self-restraint	
+G20866	παιωνισμός	chanting of the paean	
+G20867	παλαστή	*Geom.	
+G20868	παμβασιλεύς	absolute monarch	
+G20869	παμμελής	with all the limbs, entire	
+G20870	παμμίαρος	all-abominable	
+G20871	παμμιγής	mixed of all sorts, all-blended	
+G20872	πανάγιος	all-holy	
+G20873	πανεθνεί	with the whole nation	
+G20874	πανεπόπτης	all-observing	
+G20875	πανέχινος	shell/shield	
+G20876	πανηγυρισμός	display, ostentation	
+G20877	πανόδυρτος	most lamentable	
+G20878	πανούργευμα	wonderful feats	
+G20879	πανούργημα	sophistry	
+G20880	παντεπίσκοπος	all-surveying	
+G20881	παντευχία	in full armour	
+G20882	παντοδύναμος	all-powerful	
+G20883	παντοκρατέω	be almighty	
+G20884	παντοτρόφος	all-nurturing	
+G20885	παντοφαγία	indiscriminate eating	
+G20886	παραβαπτιστής	impostor	
+G20887	παραβασιλεύω	to commit treason	
+G20888	παραγώνιος	adjacent to an angle	
+G20889	παραδειγματισμός	military reprimand	
+G20890	παραδειπνίζω	to cause to dine	
+G20891	παράθεμα	appendage	
+G20892	παρακαθεύδω	to keep watch by	
+G20893	παρακάλυμμα	excuse, pretext	
+G20894	παρακλείω	to shut up	
+G20895	παρακλίνω	to avoid	
+G20896	παραναγιγνώσκω	to read publicly	
+G20897	παρανακλίνω	to lay beside	
+G20898	παραπλαγιάζω	to present oneself obliquely	
+G20899	παραριθμέω	to cheat	
+G20900	παραρρέγχω	near	
+G20901	παραστήκω	to preside	
+G20902	παρασυλλογιστικός	fallacious	
+G20903	παρασφαλίζω	to fortify next in order	
+G20904	παραχωρέω	to flow	
+G20905	παρδάλειος	like a pard	
+G20906	παρεγκλίνω	to incline	
+G20907	παρεισπορεύομαι	enter	
+G20908	παρεκλείπω	to fail	
+G20909	παρελέγχω	to rebuke	
+G20910	παρέλκω	be derived	
+G20911	παρεμπίπτω	be included in one form	
+G20912	παρέξω	outside	
+G20913	παρεπιδείκνυμι	exhibit out of season, make a display	
+G20914	παρθενεία	maiden song	
+G20915	παροδοποιέω	to make a side-road	
+G20916	πάροδος	passing by	
+G20917	παροιμιάζω	to make proverbial	
+G20918	παρόρασις	overlooking	
+G20919	παρπεπιθών	to beguile	
+G20920	παρρησιαστικός	outspoken	
+G20921	παρωθέω	to deny	
+G20922	πεδήτης	one fettered, prisoner	
+G20923	πέλμα	stalk	
+G20924	πελματόομαι	become worn in the sole	
+G20925	πενέω	be poor	
+G20926	πενταπέτηλον	wild rose	
+G20927	πεντάπλοκος	five times twisted	
+G20928	πεντάπολις	league of five cities	
+G20930	πεντηκοντατέσσαρες	fifty-four	
+G20931	περάτηθεν	from the far side	
+G20932	περιαγκωνίζω	to tie the hands behind the back	
+G20933	περιαντλέω	be completely drowned	
+G20934	περιάργυρος	set in silver	
+G20935	περιβιόω	to keep alive	
+G20936	περιβόητος	utter frantic cries	
+G20937	περιβώμιος	space round a	
+G20938	περίγλυφον	carved figure	
+G20939	περιδιπλόω	to wrap round	
+G20940	περικαίω	to inflame	
+G20941	περικατάληπτος	detected	
+G20942	περικλάω	to break	
+G20943	περικομπέω	to declare loudly	
+G20944	περικρατέω	be mastered, cured	
+G20945	περιλακίζω	to rend all round	
+G20946	περίλημμα	embrace	
+G20947	περιξύω	to scrape round	
+G20948	περιπαθής	pathetic, heartrending	
+G20949	περιπιλέω	to cover thick all round	
+G20950	περιπόθητος	much-beloved	
+G20951	περιρραντίζω	to sprinkle	
+G20952	περιρρέω	to surround	
+G20953	περισθενής	exceeding strong	
+G20954	περισκέλια	drawers	
+G20955	περισκυθίζω	to scalp in Scythian fashion	
+G20956	περιστερίδιον	small pidgeon	
+G20957	περιστέφω	to enwreathe	
+G20958	περιστροφή	whorls	
+G20959	περιτήκω	to cover with a coat	
+G20960	περίφρων	despising	
+G20961	περιφυτεύω	to plant round about	
+G20962	περιχαλάω	to relax all round	
+G20963	περιψύχω	to refresh	
+G20964	πέρνημι	renaid	
+G20965	πεταλόω	plates	
+G20966	πέτασος	baldacchino	
+G20967	πηδαλιουχέω	to govern	
+G20968	πηλουργός	working in clay	
+G20969	πήσσω	to pitch (a tent)	
+G20970	πιμπλάω	multitude	
+G20971	πιστοποιέω	to confirm	
+G20972	πλεοναστέον	one must use in abundance	
+G20973	πλεύμων	lungs	
+G20974	πληθύς	plebs	
+G20975	πληθύω	to multiply	
+G20976	πλινθεῖον	-casing	
+G20977	πολεμοτροφέω	to maintain war	
+G20978	πολεμόω	be made an enemy of	
+G20979	πολιτευτής	statesman	
+G20980	πολυετής	keeping for many years	
+G20981	πολυημερεύω	to attain length of days	
+G20982	πολυκέφαλος	the hissing of the serpents round the Gorgon's head	
+G20983	πολύορκος	swearing much	
+G20984	πολύπαις	with many children	
+G20985	πολυπειρία	great experience	
+G20986	πολύπειρος	much-experienced	
+G20987	πολυπλάσιος	many times	
+G20988	πολυπλήθεια	number	
+G20989	πολύφροντις	full of thought	
+G20990	πονήρευμα	condition	
+G20991	ποντόβροχος	drowned in the sea	
+G20992	πορευτός	going, travelling	
+G20993	πόρπη	hair-clasp	
+G20994	πραγματικός	troublesome, formidable	
+G20995	προαλής	rather rashly	
+G20996	προαναμέλπω	to sing before	
+G20997	προαναπληρόω	to fulfil before	
+G20998	προβασανίζω	to torture before	
+G20999	προβασκάνιον	muttonium	
+G21000	προβλής	forelands, headlands	
+G21001	πρόβλητος	spread, beaten out	
+G21002	προγονικός	ancestral	
+G21003	προενέχομαι	be involved in before	
+G21004	προεξαποστέλλω	to send out before	
+G21005	προήγορος	defender, advocate	
+G21006	προήκω	to extend	
+G21007	προθερίζω	to reap first	
+G21008	πρόκαιρος	prematurely	
+G21009	προκακόομαι	be afflicted before	
+G21010	προκατασκευάζω	to prepare before	
+G21011	προκατασκιρρόομαι	inveterate	
+G21012	προκαταχωρίζω	to set down first	
+G21013	πρόκρημνος	overhanging, beetling	
+G21014	πρόμαχος	cake	
+G21015	προμηνύω	to predict	
+G21016	προνουμηνία	the day before a new moon	
+G21017	προοδηγός	one who goes before to show the way	
+G21018	προπορευτής	vanguard	
+G21019	προπράσσω	to preempt	
+G21020	προπτύω	to spit out	
+G21021	πρόπτωσις	degeneration	
+G21022	προσαναλέγω	to recount	
+G21023	προσαναπαύω	to find rest in	
+G21024	προσανατρέπω	to overturn besides	
+G21025	προσανοικοδομέομαι	be added for edification	
+G21026	προσαξιόω	to demand	
+G21027	προσαποστέλλω	to dispatch besides	
+G21028	προσαπωθέω	to reject	
+G21029	προσαρτίως	lately	
+G21030	προσγελάω	to smile upon	
+G21031	προσγράφω	to write	
+G21033	προσεμβριμάομαι	threaten besides	
+G21034	προσεμπυρίζω	to burn through	
+G21035	προσενέχομαι	be holden by, in the grip of	
+G21036	προσεξηγέομαι	relate besides	
+G21037	προσεπικατατείνω	to strain	
+G21038	προσεπιτιμάω	to reproach	
+G21039	προσημειόομαι	be noted before	
+G21040	προσκαταβαίνω	to go down to meet	
+G21041	προσκατατείνω	to extend	
+G21042	προσκήνιον	painted scenery at the back of the stage	
+G21043	πρόσκλησις	invocation	
+G21044	προσοδύρομαι	lament beside	
+G21045	προσονομάζω	be surnamed	
+G21046	προσοχή	putting to land	
+G21047	προσοχυρόω	to strengthen	
+G21048	προσπάσσω	to sprinkle upon	
+G21049	προσπυρόω	to kindle incense	
+G21050	προσταγή	an order	
+G21051	προσταράσσω	to trouble further	
+G21052	πρόστιμον	licence-fee	
+G21053	προσυμνέω	to celebrate in song as well	
+G21054	προσυστέλλομαι	be drawn up beforehand	
+G21055	προσυφόω	to raise still higher	
+G21056	προσφύω	to cling fast	
+G21057	πρόσχεσις	obtutus)	
+G21058	προσχράομαι	abuse	
+G21059	προσωθέω	to push	
+G21060	προσωπεῖον	person	
+G21061	προϋποτάσσω	to place before	
+G21062	προϋφίσταμαι	antecedents	
+G21063	προφανής	conspicuous, extraordinary	
+G21064	προχαλάω	be loosed beforehand	
+G21065	πρόχωμα	dam	
+G21066	πρύτανις	president	
+G21067	πρωϊζός	yesterday	
+G21068	πρωτοκλήσια	coronation festival	
+G21069	πρωτοκουρία	first shearing	
+G21070	πρωτόπλαστος	first-formed	
+G21071	πτίλος	lippus	
+G21072	πτοία	excitement	
+G21073	πυροβόλος	arrows tipped with fire	
+G21074	πυρροπτέρυξ	red-winged	
+G21075	πυρώτερος	redder	
+G21076	ῥαβδίον	pointer	
+G21077	ῥανίς	drop, spot	
+G21078	ῥεμβάς	roving	
+G21079	ῥοδοφόρος	bearing roses	
+G21080	ῥῦσις	deliverance	
+G21081	ῥώξ	entrance	
+G21082	ῥωποπώλης	vendor	
+G21084	σαγή	padding	
+G21085	σανίδωμα	table	
+G21086	σατάνειος	medlar	
+G21087	σβεστικός	quenching	
+G21088	σέβημα	act of worship	
+G21089	Σειρήνειος	bewitching	
+G21090	σεῖσμα	extortions	
+G21091	σηκός	weight	
+G21092	σήπη	decay	
+G21093	σθένω	be able	
+G21094	σιγηρός	silence	
+G21095	σιδηροδέσμος	with bonds of iron	
+G21096	σιτοδοτεία	provision	
+G21097	σκέπασις	protection	
+G21098	σκεύασις	food preparation	
+G21099	σκεύασμα	furniture	
+G21100	σκευαστής	preparer	
+G21101	σκήνωσις	dwelling in one	
+G21102	σκιαγράφος	perspective-painter, scene-painter	
+G21103	σκληρόπους	hard-footed	
+G21104	σκοπεύω	to watch out	
+G21105	σκορακισμός	contumely	
+G21106	σκορπίδιον	small scorpion	
+G21107	σκοτεία	darkness	
+G21108	σκυβαλίζω	to reject contemptuously	
+G21109	σκυλεία	despoiling, plundering	
+G21110	σκυλμός	expenditure of effort, trouble	
+G21111	σκῶλος	evil, ruin	
+G21112	σπάλαξ	meadow-saffron, Colchicum parnassicum	
+G21113	σπάνις	craving	
+G21114	σπασμός	drawing	
+G21115	σπατάλη	bracelet	
+G21116	σπειρηδόν	in maniples, manipulatim	
+G21117	σπλαγχνισμός	a feeding on the inwards of a sacrifice	
+G21118	σπλαγχνοφάγος	eating the	
+G21119	σποδόομαι	with ashes	
+G21120	σταθμικός	by weight	
+G21121	στεατοκήλη	sebaceous formation in the scrotum	
+G21122	στέγος	brothel	
+G21123	στειρόω	to make barren	
+G21124	στέργω	to desire	
+G21125	στερεοειδής	of solid nature	
+G21126	στερέωσις	obstinacy	
+G21127	στεφανηφορέω	be a	
+G21128	στηθιστήρ	poitrel	
+G21129	στήλωσις	recording on a tablet	
+G21130	στιμμίζω	to apply any eye-salve	
+G21131	στιππύϊνος	made of tow	
+G21132	στιππύον	hemp	
+G21133	στιχίζω	to arrange	
+G21134	στοιχιαῖος	course	
+G21135	στομίς	a bit (of a horse)	
+G21136	στόμωμα	a scale which flies from hammered iron	
+G21137	στόρνυμι	strew.	
+G21138	στραγγαλάω	to strangle	
+G21139	στραγγαλίς	induration	
+G21140	στραγγεύομαι	agino	
+G21141	στρατηγέω	be general	
+G21142	στρατηγία	province governed by a	
+G21143	στρέβλη	torture	
+G21144	στρεβλωτήριος	rack	
+G21145	στρυφαλίς	cheese	
+G21146	στρύχνον	winter cherry	
+G21147	συγγελάω	to laugh with	
+G21149	συγγυμνασία	experience, training	
+G21150	συγκαταγηράσκω	to age together	
+G21151	συγκατακλείω	to enclose together	
+G21152	συγκεντέω	to pierce	
+G21153	συγκεραστός	a mixed drink, aqua calda	
+G21154	συγκεραυνόω	to thunder-strike	
+G21155	συγκληρονομέω	be joint-heir	
+G21156	συγκρουσμός	collision	
+G21157	συγκτίζω	be created along with	
+G21158	συγχρονίζω	be contemporaneous	
+G21159	συζυγής	conjugate	
+G21160	σύζωμα	girdle	
+G21161	σύκειον	useless	
+G21162	συκών	fig-yard	
+G21163	συλλοχάω	to ambush	
+G21164	συλλοχισμός	musterroll, census	
+G21165	συλλύω	to rest under the same roof.	
+G21166	συμβίωσις	club, society	
+G21167	συμβιωτής	confidants	
+G21168	συμβολοφύλαξ	keeper of receipts	
+G21169	συμβουλευτής	-senator	
+G21170	συμβραβεύω	be assessor with	
+G21171	συμμαίνομαι	be mad together, join in madness	
+G21172	συμμένω	to hold together	
+G21173	συμμιαίνω	to defile together with	
+G21174	συμμισοπονηρέω	to feel common hatred of what is bad	
+G21175	συμμολύνω	to disgrace together	
+G21176	σύμπορος	accompanying	
+G21177	συμποσία	drinking together	
+G21178	συμπροπορεύομαι	travel forward with	
+G21179	συμφλογίζω	to burn together	
+G21180	συμφρονέω	to bring together in thought	
+G21181	σύναγμα	gravel in the kidneys	
+G21182	συναναστρέφω	to wrestle with	
+G21183	συναναστροφή	living with, intercourse	
+G21184	συναποκλείω	to shut up altogether	
+G21185	συναποκρύπτω	to conceal together	
+G21186	συνδάκνω	to bite together	
+G21187	σύνδειπνος	members of a dining-club	
+G21188	συνεῖπον	arranged	
+G21189	συνεκκεντέω	to stab at once	
+G21190	συνεκτρίβω	to destroy utterly together	
+G21191	συνέλευσις	stronghold	
+G21192	συνερίζω	to contend together	
+G21193	συνευφράζομαι	counsel well with	
+G21194	συνίσσεις	recommendation	
+G21195	συνοδυνάομαι	suffer pain with	
+G21196	συνοράω	to decide	
+G21197	συνουσιασμός	licentiousness	
+G21198	συρίσδω	to pipe	
+G21199	συρρέμβομαι	roam together	
+G21200	συσκήνιος	tent-mate	
+G21201	συσσύρω	to sweep along with one	
+G21202	σύστημα	machine, apparatus	
+G21203	συστροφία	familiarity	
+G21204	σφηκίας	beam	
+G21205	σφήν	an instrument of torture	
+G21206	σφιγγία	greed	
+G21207	σφυρωτήρ	leather thong, shoe-latchet	
+G21208	σχεδιάζω	to act with insufficient care	
+G21209	σχῖνος	mastich, Pistacia Lentiscus	
+G21210	σωματοφύλαξ	protecting the body	
+G21211	σωρηδόν	in arithmetical progression	
+G21212	σῶς	safe, sure, certain	
+G21213	ταμιεῖον	chamber, closet	
+G21214	ταπεινότης	meanness	
+G21215	Ταρταρόπαις	child of Tartarus	
+G21216	Ταρτησσός	Tarshish	
+G21217	ταχύνοια	sagacity	
+G21218	ταχύρρωστος	swift-rushing, swift-flying	
+G21219	ταώς	tukkîyîm	
+G21220	τεκνοφόνος	child-murdering	
+G21221	τέκταινα	carpenter	
+G21222	τελεσφόρος	sorceress	
+G21223	τελίσκω	to dedicate	
+G21224	τελωνέω	to collect taxes	
+G21225	τερατοποιός	wonders	
+G21226	τετραμερής	quadripartite	
+G21227	τετραπλῇ	in a fourfold manner, fourfold	
+G21228	τεῦχος	masonry, fabric	
+G21229	τεχνῖτις	courtesan	
+G21230	τηγανίζω	to fry	
+G21231	τηλαύγεια	splendour	
+G21232	τιθηνία	nursing	
+G21233	τιθηνόκομον	nursing	
+G21234	τιμωρητής	avenger	
+G21235	τινάσσω	to quake	
+G21236	τοκοπράκτωρ	one who exacts interest	
+G21237	τολυπεύω	to endure	
+G21238	τομός	sharpest, hottest	
+G21239	τοξικός	venenum	
+G21240	τοξόκλυτος	famed for archery	
+G21241	τοπαρχία	district governed by a	
+G21242	τοπομαχέω	to manoeuvre	
+G21243	τοτέ	now and then	
+G21245	τρικυμία	swell	
+G21246	τρίοδος	the 'trivium'	
+G21247	τριπλάσιος	thrice as much as	
+G21248	τρισαλιτήριος	thrice-sinful	
+G21249	τρισσαχῆ	in three places	
+G21250	τρισσοκέφαλος	three-headed	
+G21251	τριώριον	trihorium	
+G21252	τρομέω	to stand in awe of	
+G21253	τροφοποιός	rearing, bringing up	
+G21254	τροχαντήρ	processes	
+G21255	τροχιαῖος	worked by a wheel	
+G21256	τροχωτός	wheel	
+G21257	τρυφερεύομαι	fastidious	
+G21258	τρυφεροστήμων	texture	
+G21259	τρώγανα	fruit eating	
+G21260	Τρωγοδύται	Trogodutai	
+G21261	τυμπανόεις	drum-like	
+G21262	τυπογράφος	lines	
+G21263	τυπτητέος	be beaten	
+G21264	τυροφόρος	with cheese on it	
+G21265	τύφωσις	crazy vanity	
+G21266	ὑβρίστρια	insolent	
+G21267	ὗλις	mud	
+G21268	ὑλοτόμος	worm	
+G21269	ὑμνητός	sung of, praised, lauded	
+G21270	ὑμνογράφος	composer of hymns	
+G21271	ὑπαίρω	to self-exalt	
+G21272	ὑπεραγόντως	exceedingly	
+G21273	ὑπεράγω	to exalt	
+G21274	ὑπεραινετός	be praised exceedingly	
+G21275	ὑπεράλλομαι	leap to a high place	
+G21276	ὑπερένδοξος	exceedingly glorious	
+G21277	ὑπερηφανεύω	to behave arrogantly	
+G21278	ὑπέρμαχος	champion, defender	
+G21279	ὑπερτήκω	to melt exceedingly	
+G21280	ὑπερτιμάω	to honour too much	
+G21281	ὑπερύμνητος	highly extolled	
+G21282	ὑπέρφοβος	very terrible	
+G21283	ὑπερφωνέω	to sing loudly	
+G21284	ὑπερῷος	upper	
+G21285	ὑπευλαβέομαι	be somewhat afraid	
+G21286	ὑπόθεσις	thing placed under, base	
+G21287	ὑποθραύω	to break	
+G21288	ὑπόληψις	payment in advance	
+G21289	ὑπολυπέομαι	be grieved at heart	
+G21290	ὑπομάσθιος	below-breast	
+G21291	ὑπομνηματίζομαι	explain, interpret	
+G21292	ὑπονόημα	supposition	
+G21293	ὑπονοθεύω	to procure by corruption	
+G21294	ὑπονομεύω	to intrigue	
+G21295	ὑποσχάζω	to trip up	
+G21296	ὑποτομεύς	a cutting instrument	
+G21297	ὑπόφρικος	shuddering a little	
+G21298	ὑποφυλλίς	a gleaning	
+G21299	ὑψαυχενέω	to show off	
+G21300	φαλακρόομαι	become bald	
+G21301	φαλάντωμα	bald place	
+G21302	φαντασιοκοπέω	to indulge vain fancies	
+G21303	φαρμακία	witchcraft	
+G21304	φάτνωσις	ceiling in coffers	
+G21305	φειδώ	thrift, sparing	
+G21306	φθειριάω	to have corrupt stock	
+G21307	φιλανθρωπέω	to obtain redress	
+G21308	φιλαργυρέω	to love money	
+G21309	φιλαρχία	efforts to gain power	
+G21310	φιλελεήμων	compassionate	
+G21311	φιλόγονος	loving one's children	
+G21312	φιλογύνης	womaniser	
+G21313	φιλοπολίτης	loving one's fellow-citizens	
+G21314	φιλοτεκνία	love of one's children	
+G21315	φιλόψυχος	souls	
+G21316	φλεγμονή	heat, passion, excess	
+G21317	φοβεροειδής	terrible to behold	
+G21318	φοιβάω	to cleanse	
+G21319	φονώδης	deadly, malignant	
+G21320	φορβαία	carry-chair	
+G21321	φορολογία	tribute	
+G21322	φρενόω	be high-minded, elated	
+G21323	φρικασμός	shuddering, shivering	
+G21324	φρούρησις	watching	
+G21325	φρυακτής	arrogant	
+G21326	φυγαγωγός	dragging along fugitives	
+G21327	φυλάρχης	a chief	
+G21328	φυτός	fruitful	
+G21329	φωταγωγέω	to draw down supernatural illumination	
+G21330	χαιρετίζω	to salute	
+G21331	χαλκοπλάστης	bronze-worker	
+G21332	χαροποίημα	joy caused to any one	
+G21333	χαροπός	grey	
+G21334	χαρτηρία	papyrus	
+G21335	χείμαρος	plug in a ship's bottom	
+G21336	χειρονομία	pantomimic movement, gesticulation	
+G21337	χελύνιον	cranium	
+G21338	χελώνινος	made of tortoise-shell	
+G21339	χελωνίς	threshold	
+G21340	χεροκένως	with empty hands	
+G21341	χθύπτης	knock	
+G21342	χλωροβοτάνη	green fodder	
+G21343	χοανεύω	to bring together	
+G21344	χορεῖον	dancing-place	
+G21345	χορτώδης	of grass, like grass	
+G21346	χοῦς	dust	
+G21347	χρηματιστήριον	oracle, sanctuary	
+G21348	χρησιμεύω	be useful	
+G21349	χρηστοήθεια	goodness of heart	
+G21350	χρονίσκος	a short time	
+G21351	χρυσουργός	goldsmith	
+G21352	χυλός	flavour	
+G21353	ψαλμῳδός	psalmist	
+G21354	ψάλτης	harper	
+G21355	ψάμμος	sabulum.	
+G21356	ψαμμωτός	stucco	
+G21357	ψάω	to rub	
+G21358	ψευδοθυρίς	secret door	
+G21359	ψηλάφησις	tickling	
+G21360	ψηφολογέω	to make mosaic	
+G21361	ψίθυρος	twittering	
+G21362	ψογέω	to blame	
+G21363	ψυχαγωγία	animi oblectamenta procurentur	
+G21364	ψυχουλκέομαι	be at the last gasp	
+G21365	ὠδίς	[hudot]èbel	
+G21366	ὤμιον	small shoulder	
+G21367	ὠμότης	savagery, fierceness, cruelty	
+G21368	ὠμόφρων	savage-minded	
+G21369	ὡραΐζω	to make display	

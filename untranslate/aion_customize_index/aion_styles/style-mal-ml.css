@@ -1,0 +1,18 @@
+/* Malayalam */
+@font-face {
+	font-family:
+		'NotoSans';
+	src:
+		url('../aion_fonts/notosans-basic-regular.woff2')	format('woff2'),
+		url('../aion_fonts/notosans-basic-regular.woff')	format('woff'),
+		url('../aion_fonts/notosans-basic-regular.ttf')		format('truetype');
+}
+@font-face {
+	font-family:
+		'Malayalam';
+	src:
+		url('../aion_fonts/notoserifmalayalam-regular.woff2')	format('woff2'),
+		url('../aion_fonts/notoserifmalayalam-regular.woff')	format('woff'),
+		url('../aion_fonts/notoserifmalayalam-regular.ttf')		format('truetype');
+}
+span.mal-ml { font-family: 'Malayalam', 'NotoSans', 'Arial', 'sans-serif'; }

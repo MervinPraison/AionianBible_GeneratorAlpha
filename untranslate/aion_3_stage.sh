@@ -1,0 +1,51 @@
+#!/usr/local/bin/php
+<?php
+
+
+
+/*** init ***/
+require_once('./aion_common.php');
+AION_ECHO("START " . basename(__FILE__, '.php'));
+
+AION_LOOP_CONV		(	'../source-production',
+						'../www-stageresources',
+						'../raw-original',
+						'../raw-fixed',
+						'../checks/UNTRANSLATEREVERSE.txt',
+						'../checks/SKIPPED.txt',
+						'../checks/TALLY.txt',
+						'../checks/UNICODE_USAGE.txt',
+						'../checks/TEXTREPAIR.txt',
+						'../checks/RAWCHECK.txt',
+						TRUE);
+						
+AION_LOOP_AION		(	'../www-stageresources',	'../www-stageresources',	'../www-stage/library');
+AION_LOOP_NOIA		(	'../www-stageresources',	'../www-stage/library');
+
+AION_LOOP_EPUB_ORIG	(	'../source-production',		'../www-stageresources');
+AION_LOOP_PDFS_ORIG	(	'../source-production',		'../www-stageresources');
+AION_LOOP_CROS_ORIG	(	'../source-production',		'../www-stageresources');
+
+require_once('./aion_3e_epub.php'); // Aionian Bible epub
+
+AION_LOOP_EPUB_UZIP	(	'../www-stageresources',	'../www-stage/library');
+
+$database = array();
+AION_FILE_DATA_GET(			'./aion_database/VERSIONS.txt',	'T_VERSIONS',	$database, 'BIBLE', TRUE );
+AION_FILE_DATA_GET(			'./aion_database/BOOKS.txt',	'T_BOOKS',		$database, 'BIBLE', TRUE );
+AION_FILE_DATA_GET(			'./aion_database/NUMBERS.txt',	'T_NUMBERS',	$database, 'BIBLE', TRUE );
+AION_FILE_DATABASE_BOOKS(	$database );
+AION_FILE_DATABASE_PUT(		$database, '../www-stageresources', '../www-stage/library', 'stageresources.AionianBible.org', TRUE);
+AION_SITEMAP(				'../www-stage');
+
+AION_LOOP_DIFF		(	'../www-stage/library', 	'../www-production/library',	'../diff-www-stage-with-www-production-BEFORE-DEPLOY', '/\.php$/', '', 'stageresources','resources');
+AION_LOOP_DIFF		(	'../www-stageresources', 	'../www-resources',				'../diff-www-stageresources-with-www-resources-BEFORE-DEPLOY', '', '/(Aionian-Edition\.noia|Standard-Edition\.noia|Source-Edition\.epub)$/');
+AION_LOOP_DIFF		(	'../raw-fixed', 			'../raw-original',				'../raw-diff');
+AION_LOOP_DIFF		(	'../raw-diff', 				'../raw-diff-MARKER',			'../raw-diff-diff');
+
+/*** done ***/
+AION_ECHO("REMINDER! COPY TO DATABASE: ../checks/UNTRANSLATEREVERSE.txt");
+AION_ECHO("REMINDER! COPY TO DATABASE: ../checks/SKIPPED.txt");
+AION_ECHO("REMINDER! COPY TO DATABASE: ../checks/TALLY.txt");
+AION_ECHO("REMINDER! COPY TO DATABASE: ../checks/UNICODE_USAGE.txt (with Linux cp and not ftp or Windows!)");
+AION_ECHO("DONE!");

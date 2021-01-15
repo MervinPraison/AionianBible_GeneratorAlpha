@@ -1,0 +1,220 @@
+/* DEFER CSS for Language Fonts */ 
+@font-face {
+	font-family:
+		'NotoSans';
+	src:
+		url('../aion_fonts/notosans-basic-regular.woff2')	format('woff2'),
+		url('../aion_fonts/notosans-basic-regular.woff')	format('woff'),
+		url('../aion_fonts/notosans-basic-regular.ttf')		format('truetype');
+}
+
+/* Aramaic */
+@font-face {
+	font-family:
+		'Aramaic';
+	src:
+		url('../aion_fonts/estrangelo_edessa.woff2')	format('woff2'),
+		url('../aion_fonts/estrangelo_edessa.woff')		format('woff'),
+		url('../aion_fonts/estrangelo_edessa.ttf')		format('truetype');
+}
+span.syr { font-family: 'Aramaic', 'NotoSans', 'Arial', 'sans-serif'; }
+
+/* Armenian */
+@font-face {
+	font-family:
+		'Armenian';
+	src:
+		url('../aion_fonts/arnamu_serif.woff2')	format('woff2'),
+		url('../aion_fonts/arnamu_serif.woff')	format('woff'),
+		url('../aion_fonts/arnamu_serif.ttf')	format('truetype');
+}
+span.hye-hy { font-family: 'Armenian', 'NotoSans', 'Arial', 'sans-serif'; }
+
+/* BabelStoneHan */
+@font-face {
+	font-family:
+		'BabelStoneHan';
+	src:
+		url('../aion_fonts/babelstonehan.woff2')	format('woff2'),
+		url('../aion_fonts/babelstonehan.woff')		format('woff'),
+		url('../aion_fonts/babelstonehan.ttf')		format('truetype');
+}
+span.babelstonehan { font-family: 'BabelStoneHan', 'NotoSans', 'Arial', 'sans-serif'; }
+
+/* Cherokee */
+@font-face {
+	font-family:
+		'Cherokee';
+	src:
+		url('../aion_fonts/donisiladv.woff2')	format('woff2'),
+		url('../aion_fonts/donisiladv.woff')	format('woff'),
+		url('../aion_fonts/donisiladv.ttf')		format('truetype');
+}
+span.chr { font-family: 'Cherokee', 'NotoSans', 'Arial', 'sans-serif'; }
+
+/* Coptic */
+@font-face {
+	font-family:
+		'Coptic';
+	src:
+		url('../aion_fonts/newathu5_5.woff2')	format('woff2'),
+		url('../aion_fonts/newathu5_5.woff')	format('woff'),
+		url('../aion_fonts/newathu5_5.ttf')		format('truetype');
+}
+span.cop { font-family: 'Coptic', 'NotoSans', 'Arial', 'sans-serif'; }
+
+/* Gujarati */
+@font-face {
+	font-family:
+		'Gujarati';
+	src:
+		url('../aion_fonts/notoserifgujarati-regular.woff2')	format('woff2'),
+		url('../aion_fonts/notoserifgujarati-regular.woff')		format('woff'),
+		url('../aion_fonts/notoserifgujarati-regular.ttf')		format('truetype');
+}
+span.guj-gu { font-family: 'Gujarati', 'NotoSans', 'Arial', 'sans-serif'; }
+
+/* Hebrew */
+@font-face {
+	font-family:
+		'Hebrew';
+	src:
+		url('../aion_fonts/ezra_sil.woff2')	format('woff2'),
+		url('../aion_fonts/ezra_sil.woff')	format('woff'),
+		url('../aion_fonts/ezra_sil.ttf')	format('truetype');
+}
+span.hbo-he { font-family: 'Hebrew', 'NotoSans', 'Arial', 'sans-serif'; }
+
+/* Kannada */
+@font-face {
+	font-family:
+		'Kannada';
+	src:
+		url('../aion_fonts/notoserifkannada-regular.woff2')	format('woff2'),
+		url('../aion_fonts/notoserifkannada-regular.woff')	format('woff'),
+		url('../aion_fonts/notoserifkannada-regular.ttf')	format('truetype');
+}
+span.kan-kn { font-family: 'Kannada', 'NotoSans', 'Arial', 'sans-serif'; }
+
+/* Korean */
+@font-face {
+	font-family:
+		'Korean';
+	src:
+		url('../aion_fonts/unbatang.woff2')	format('woff2'),
+		url('../aion_fonts/unbatang.woff')	format('woff'),
+		url('../aion_fonts/unbatang.ttf')	format('truetype');
+}
+span.kor-ko { font-family: 'Korean', 'NotoSans', 'Arial', 'sans-serif'; }
+
+/* Malayalam */
+@font-face {
+	font-family:
+		'Malayalam';
+	src:
+		url('../aion_fonts/notoserifmalayalam-regular.woff2')	format('woff2'),
+		url('../aion_fonts/notoserifmalayalam-regular.woff')	format('woff'),
+		url('../aion_fonts/notoserifmalayalam-regular.ttf')		format('truetype');
+}
+span.mal-ml { font-family: 'Malayalam', 'NotoSans', 'Arial', 'sans-serif'; }
+
+/* Marathi */
+@font-face {
+	font-family:
+		'Marathi';
+	src:
+		url('../aion_fonts/notoserifdevanagari-regular.woff2')	format('woff2'),
+		url('../aion_fonts/notoserifdevanagari-regular.woff')	format('woff'),
+		url('../aion_fonts/notoserifdevanagari-regular.ttf')	format('truetype');
+}
+span.mar-mr { font-family: 'Marathi', 'NotoSans', 'Arial', 'sans-serif'; }
+
+/* Myanmar */
+@font-face {
+	font-family:
+		'Myanmar';
+	src:
+		url('../aion_fonts/notoserifmyanmar-semicondensed.woff2')	format('woff2'),
+		url('../aion_fonts/notoserifmyanmar-semicondensed.woff')	format('woff'),
+		url('../aion_fonts/notoserifmyanmar-semicondensed.ttf')		format('truetype');
+}
+span.mya-my { font-family: 'Myanmar', 'NotoSans', 'Arial', 'sans-serif'; }
+
+/* Oriya */
+@font-face {
+	font-family:
+		'Oriya';
+	src:
+		url('../aion_fonts/notosansoriyaui-regular.woff2')	format('woff2'),
+		url('../aion_fonts/notosansoriyaui-regular.woff')	format('woff'),
+		url('../aion_fonts/notosansoriyaui-regular.ttf')	format('truetype');
+}
+span.ory-or { font-family: 'Oriya', 'NotoSans', 'Arial', 'sans-serif'; }
+
+/* Panjabi */
+@font-face {
+	font-family:
+		'Panjabi';
+	src:
+		url('../aion_fonts/notosansgurmukhiui-regular.woff2')	format('woff2'),
+		url('../aion_fonts/notosansgurmukhiui-regular.woff')	format('woff'),
+		url('../aion_fonts/notosansgurmukhiui-regular.ttf')		format('truetype');
+}
+span.pan-pa { font-family: 'Panjabi', 'NotoSans', 'Arial', 'sans-serif'; }
+
+/* Tamil */
+@font-face {
+	font-family:
+		'Tamil';
+	src:
+		url('../aion_fonts/notoseriftamil-semicondensed.woff2')	format('woff2'),
+		url('../aion_fonts/notoseriftamil-semicondensed.woff')	format('woff'),
+		url('../aion_fonts/notoseriftamil-semicondensed.ttf')	format('truetype');
+}
+span.tam-ta { font-family: 'Tamil', 'NotoSans', 'Arial', 'sans-serif'; }
+
+/* Telugu */
+@font-face {
+	font-family:
+		'Telugu';
+	src:
+		url('../aion_fonts/notoseriftelugu-regular.woff2')	format('woff2'),
+		url('../aion_fonts/notoseriftelugu-regular.woff')	format('woff'),
+		url('../aion_fonts/notoseriftelugu-regular.ttf')	format('truetype');
+}
+span.tel-te { font-family: 'Telugu', 'NotoSans', 'Arial', 'sans-serif'; }
+
+/* DOUBLES */
+
+/* Arabic, Persian */
+@font-face {
+	font-family:
+		'ArabicPersian';
+	src:
+		url('../aion_fonts/notonaskharabicui-regular.woff2')	format('woff2'),
+		url('../aion_fonts/notonaskharabicui-regular.woff')		format('woff'),
+		url('../aion_fonts/notonaskharabicui-regular.ttf')		format('truetype');
+}
+span.arb-ar, span.pes { font-family: 'ArabicPersian', 'NotoSans', 'Arial', 'sans-serif'; }
+
+/* Assamese, Bengali */
+@font-face {
+	font-family:
+		'AssameseBengali';
+	src:
+		url('../aion_fonts/solaimanlipi.woff2')	format('woff2'),
+		url('../aion_fonts/solaimanlipi.woff')	format('woff'),
+		url('../aion_fonts/solaimanlipi.ttf')	format('truetype');
+}
+span.ben-bn, span.asm-as { font-family: 'AssameseBengali', 'NotoSans', 'Arial', 'sans-serif'; }
+
+/* Hindi, Urdu */
+@font-face {
+	font-family:
+		'HindiUrdu';
+	src:
+		url('../aion_fonts/akshar_unicode.woff2')	format('woff2'),
+		url('../aion_fonts/akshar_unicode.woff')	format('woff'),
+		url('../aion_fonts/akshar_unicode.ttf')		format('truetype');
+}
+span.hin-hi, span.urd-ur { font-family: 'HindiUrdu', 'NotoSans', 'Arial', 'sans-serif'; }
