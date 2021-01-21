@@ -34,7 +34,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Malayalam).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Hebrew-Open-Scriptures).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Matupi|Updated-Gdansk|Slovene-Savli).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Arabic|Peshitta|Aleppo|Persian).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Aleppo).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic|Peshitta|Hebrew|Persian|Aionian-Bible|Segond).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic|Peshitta|Aleppo|Persian|Aionian-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Peshitta).*---Aionian-Edition\.noia$/",
@@ -169,6 +169,7 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 	$closetag = 'oldtest';
 	$database = array();
 	AION_FILE_DATA_GET( $args['filepath'], 'T_BIBLE', $database, array('INDEX','BOOK','CHAPTER','VERSE'), FALSE );
+	AION_FILE_BIBLE_RESORT( $forprint, $database );
 	AION_GLOSSARY_REFERENCES_GET( $bible, $database, $args );
 	foreach($database['T_BIBLE'] as $ref => $verse) {
 		// BOOK
@@ -1029,12 +1030,12 @@ if ($rtl=='TRUE') {
 $MARGIN_ONLINE_BLURB_NUDGE	= 115 - (empty($w_nudge) ? 0 : $w_nudge);
 // Glossary References +
 $REFERENCE_ROW		= '23';
-$REFERENCE_WIDTH	= '24';
+$REFERENCE_WIDTH	= '25';
 $REFERENCE_HEIGHT	= '134';
 $REFERENCE_HEIGHT1	= '111';
-$REFERENCE_LEFT		= '4';
-$REFERENCE_MIDDLE	= '29';
-$REFERENCE_RIGHT	= '54';
+$REFERENCE_LEFT		= '1';
+$REFERENCE_MIDDLE	= '27';
+$REFERENCE_RIGHT	= '53';
 // page name assignments
 $TITLEJUSTIFICATION		= "right";
 $page1colright			= "page1colright";
@@ -2865,4 +2866,52 @@ function AION_GLOSSARY_REFERENCES_PUT( $bible, $database, $args, $tt22=FALSE, $l
 	if (!file_put_contents(($filename="$bible---POD_INTERIOR-references_dataset.dataxml"), $references))			{ AION_ECHO("ERROR! file_put_contents: $filename"); }
 	if ($tt22 && !file_put_contents(($filename="$bible---POD_INTERIOR_22-references_dataset.dataxml"), $references)){ AION_ECHO("ERROR! file_put_contents: $filename"); }
 	if (!file_put_contents(($filename="$bible---POD_INTERIOR_NT-references_dataset.dataxml"), $references))			{ AION_ECHO("ERROR! file_put_contents: $filename"); }
+}
+
+
+/*** RESORT HEBREW BIBLE AND OTHERS ***/
+function AION_FILE_BIBLE_RESORT( $forprint, &$database ) {
+	if ($forprint['LANGUAGE']!="Hebrew") { return; }
+	AION_ECHO("WARN! resorting bible: ".$forprint['BIBLE']);
+	$hebrew_map = array(
+'008' => '031',
+'009' => '008',
+'010' => '009',
+'011' => '010',
+'012' => '011',
+'013' => '038',
+'014' => '039',
+'015' => '036',
+'016' => '037',
+'017' => '034',
+'018' => '028',
+'019' => '027',
+'020' => '029',
+'021' => '032',
+'022' => '031',
+'023' => '012',
+'024' => '013',
+'025' => '033',
+'026' => '014',
+'027' => '035',
+'028' => '015',
+'029' => '016',
+'030' => '017',
+'031' => '018',
+'032' => '019',
+'033' => '020',
+'034' => '021',
+'035' => '022',
+'036' => '023',
+'037' => '024',
+'038' => '025',
+'039' => '026',
+	);
+	foreach($database['T_BIBLE'] as $ref => $verse) {
+		if (empty($hebrew_map[$verse['INDEX']])) { continue; }
+		$new = $hebrew_map[$verse['INDEX']].'-'.$verse['BOOK'].'-'.$verse['CHAPTER'].'-'.$verse['VERSE'];
+		$database['T_BIBLE'][$new] = $verse;
+		unset($database['T_BIBLE'][$ref]);
+	}
+	if (!ksort($database['T_BIBLE'])) { AION_ECHO("ERROR! problem resorting bible: ".$database['T_FORPRINT']['BIBLE']); }
 }
