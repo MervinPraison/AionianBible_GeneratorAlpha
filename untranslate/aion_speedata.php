@@ -34,8 +34,8 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Malayalam).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Hebrew-Open-Scriptures).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Matupi|Updated-Gdansk|Slovene-Savli).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Aleppo).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Arabic|Peshitta|Hebrew|Persian|Aionian-Bible|Segond).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Aleppo|Scots|Aionian-Bible).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---(Arabic|Aramaic|Hebrew|Persian).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic|Peshitta|Aleppo|Persian|Aionian-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Peshitta).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic|Persian).*---Aionian-Edition\.noia$/",
@@ -46,7 +46,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Tamil).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/(Holy-Bible---Latvian---Latvian-Gluck-Bible|Holy-Bible---Japanese---Japanese-Yougo-yaku)---Aionian-Edition\.noia$/",
 		//'include'	=> "/.*Arapaho.*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Myanmar).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Youngs).*---Aionian-Edition\.noia$/",
 		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
@@ -96,20 +96,20 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 	// tags
 	$destiny_READ					= '---Aionian-Edition';
 	$destiny_STUDY					= '---Aionian-Edition---STUDY';
-	$destiny_POD_INTERIOR			= '---POD_INTERIOR';
-	$destiny_POD_COVER				= '---POD_COVER';
-	$destiny_POD_INTERIOR_22		= '---POD_INTERIOR_22';
-	$destiny_POD_COVER_22			= '---POD_COVER_22';
-	$destiny_POD_INTERIOR_NT		= '---POD_INTERIOR_NT';
-	$destiny_POD_COVER_NT			= '---POD_COVER_NT';
-	$destiny_POD_LULU				= '---POD_LULU';
-	$destiny_POD_COVER_LULU			= '---POD_COVER_LULU';
-	$destiny_POD_LULU_22			= '---POD_LULU_22';
-	$destiny_POD_COVER_LULU_22		= '---POD_COVER_LULU_22';
-	$destiny_POD_LULU_NT			= '---POD_LULU_NT';
-	$destiny_POD_COVER_LULU_NT		= '---POD_COVER_LULU_NT';
-	$destiny_POD_LULU_HARD			= '---POD_LULU_HARD';
-	$destiny_POD_COVER_LULU_HARD	= '---POD_COVER_LULU_HARD';
+	$destiny_POD_INTERIOR			= '---POD_KDP_ALL_BODY';
+	$destiny_POD_COVER				= '---POD_KDP_ALL_COVER';
+	$destiny_POD_INTERIOR_NT		= '---POD_KDP_NEW_BODY';
+	$destiny_POD_COVER_NT			= '---POD_KDP_NEW_COVER';
+	$destiny_POD_INTERIOR_22		= '---POD_KDP_X22_BODY';
+	$destiny_POD_COVER_22			= '---POD_KDP_X22_COVER';	
+	$destiny_POD_LULU				= '---POD_LULU_ALL_BODY';
+	$destiny_POD_COVER_LULU			= '---POD_LULU_ALL_COVER';
+	$destiny_POD_LULU_HARD			= '---POD_LULU_HAR_BODY';
+	$destiny_POD_COVER_LULU_HARD	= '---POD_LULU_HAR_COVER';
+	$destiny_POD_LULU_NT			= '---POD_LULU_NEW_BODY';
+	$destiny_POD_COVER_LULU_NT		= '---POD_LULU_NEW_COVER';
+	$destiny_POD_LULU_22			= '---POD_LULU_X22_BODY';
+	$destiny_POD_COVER_LULU_22		= '---POD_LULU_X22_COVER';
 	$destiny_EPUB					= '---EPUB_COVER';
 	$destiny_SPEEDATA				= '---SPEEDATA';
 	// replacements
@@ -383,20 +383,20 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 # FILETYPES:
 #	[prefix].[suffix]							// Online cover page + interior
 #	[prefix]---STUDY.[suffix]					// Online cover page + interior, wide margin study format
-#	[prefix]---POD_INTERIOR.[suffix]			// Print on demand interior for Amazon KDP specifications
-#	[prefix]---POD_COVER.[suffix]				// Print on demand cover for Amazon KDP specifications
-#	[prefix]---POD_INTERIOR_22.[suffix]			// Print on demand interior 22 books for Amazon KDP specifications
-#	[prefix]---POD_COVER_22.[suffix]			// Print on demand cover 22 books for Amazon KDP specifications
-#	[prefix]---POD_INTERIOR_NT.[suffix]			// Print on demand interior New Testament for Amazon KDP specifications
-#	[prefix]---POD_COVER_NT.[suffix]			// Print on demand cover New Testament for Amazon KDP specifications
-#	[prefix]---POD_LULU.[suffix]				// Print on demand interior paperback for LuLu specifications
-#	[prefix]---POD_COVER_LULU.[suffix]			// Print on demand cover for LuLu specifications
-#	[prefix]---POD_LULU_22.[suffix]				// Print on demand interior 22 books paperback for LuLu specifications
-#	[prefix]---POD_COVER_LULU_22.[suffix]		// Print on demand cover 22 books for LuLu specifications
-#	[prefix]---POD_LULU_NT.[suffix]				// Print on demand interior paperback New Testament for LuLu specifications
-#	[prefix]---POD_COVER_LULU_NT.[suffix]		// Print on demand cover New Testament for LuLu specifications
-#	[prefix]---POD_LULU_HARD.[suffix]			// Print on demand interior hardback for LuLu specifications
-#	[prefix]---POD_COVER_LULU_HARD.[suffix]		// Print on demand cover hardback for LuLu specifications
+#	[prefix]---POD_KDP_ALL_BODY.[suffix]		// Print on demand interior for Amazon KDP specifications
+#	[prefix]---POD_KDP_ALL_COVER.[suffix]		// Print on demand cover for Amazon KDP specifications
+#	[prefix]---POD_KDP_X22_BODY.[suffix]		// Print on demand interior 22 books for Amazon KDP specifications
+#	[prefix]---POD_KDP_X22_COVER.[suffix]		// Print on demand cover 22 books for Amazon KDP specifications
+#	[prefix]---POD_KDP_NEW_BODY.[suffix]		// Print on demand interior New Testament for Amazon KDP specifications
+#	[prefix]---POD_KDP_NEW_COVER.[suffix]		// Print on demand cover New Testament for Amazon KDP specifications
+#	[prefix]---POD_LULU_ALL_BODY.[suffix]		// Print on demand interior paperback for LuLu specifications
+#	[prefix]---POD_LULU_ALL_COVER.[suffix]		// Print on demand cover for LuLu specifications
+#	[prefix]---POD_LULU_X22_BODY.[suffix]		// Print on demand interior 22 books paperback for LuLu specifications
+#	[prefix]---POD_LULU_X22_COVER.[suffix]		// Print on demand cover 22 books for LuLu specifications
+#	[prefix]---POD_LULU_NEW_BODY.[suffix]		// Print on demand interior paperback New Testament for LuLu specifications
+#	[prefix]---POD_LULU_NEW_COVER.[suffix]		// Print on demand cover New Testament for LuLu specifications
+#	[prefix]---POD_LULU_HAR_BODY.[suffix]		// Print on demand interior hardback for LuLu specifications
+#	[prefix]---POD_LULU_HAR_COVER.[suffix]		// Print on demand cover hardback for LuLu specifications
 #
 error_exit()
 {
@@ -524,21 +524,37 @@ EOT;
 		$output = $bible.$destiny_POD_LULU."_ISBN.pdf";
 		system("pdftk A=$bible$destiny_POD_INTERIOR.pdf B=$bible$destiny_POD_LULU.pdf cat A1-3 B1 A5-end output $output");
 		if (!rename("$output",									"$bible$destiny_POD_LULU.pdf")) {					AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_POD_LULU.pdf");			$scripterr = TRUE; }
+		if (!empty($forprint['RTL'])) {
+			system("pdftk $bible$destiny_POD_LULU.pdf cat end-1 output $bible$destiny_POD_LULU.rev.pdf");
+			if (!rename("$bible$destiny_POD_LULU.rev.pdf",		"$bible$destiny_POD_LULU.pdf")) {					AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_POD_LULU.rev.pdf");		$scripterr = TRUE; }
+		}
 	}
 	if (($args['q_pdfall'] || $args['q_pdflu']) && !empty($forprint['ISBNLU22'])) {
 		$output = $bible.$destiny_POD_LULU_22."_ISBN.pdf";
 		system("pdftk A=$bible$destiny_POD_INTERIOR_22.pdf B=$bible$destiny_POD_LULU_22.pdf cat A1-3 B1 A5-end output $output");
 		if (!rename("$output",									"$bible$destiny_POD_LULU_22.pdf")) {				AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_POD_LULU_22.pdf");			$scripterr = TRUE; }
+		if (!empty($forprint['RTL'])) {
+			system("pdftk $bible$destiny_POD_LULU_22.pdf cat end-1 output $bible$destiny_POD_LULU_22.rev.pdf");
+			if (!rename("$bible$destiny_POD_LULU_22.rev.pdf",	"$bible$destiny_POD_LULU_22.pdf")) {				AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_POD_LULU_22.rev.pdf");		$scripterr = TRUE; }
+		}
 	}
 	if (($args['q_pdfall'] || $args['q_pdflu']) && !empty($forprint['ISBNLUNT'])) {
 		$output = $bible.$destiny_POD_LULU_NT."_ISBN.pdf";
 		system("pdftk A=$bible$destiny_POD_INTERIOR_NT.pdf B=$bible$destiny_POD_LULU_NT.pdf cat A1-3 B1 A5-end output $output");
 		if (!rename("$output",									"$bible$destiny_POD_LULU_NT.pdf")) {				AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_POD_LULU_NT.pdf");			$scripterr = TRUE; }
+		if (!empty($forprint['RTL'])) {
+			system("pdftk $bible$destiny_POD_LULU_NT.pdf cat end-1 output $bible$destiny_POD_LULU_NT.rev.pdf");
+			if (!rename("$bible$destiny_POD_LULU_NT.rev.pdf",	"$bible$destiny_POD_LULU_NT.pdf")) {				AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_POD_LULU_NT.rev.pdf");		$scripterr = TRUE; }
+		}
 	}
 	if (($args['q_pdfall'] || $args['q_pdflu']) && !empty($forprint['ISBNLUHARD'])) {
 		$output = $bible.$destiny_POD_LULU_HARD."_ISBN.pdf";
 		system("pdftk A=$bible$destiny_POD_INTERIOR.pdf B=$bible$destiny_POD_LULU_HARD.pdf cat A1-3 B1 A5-end output $output");
 		if (!rename("$output",									"$bible$destiny_POD_LULU_HARD.pdf")) {				AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_POD_LULU_HARD.pdf");		$scripterr = TRUE; }
+		if (!empty($forprint['RTL'])) {
+			system("pdftk $bible$destiny_POD_LULU_HARD.pdf cat end-1 output $bible$destiny_POD_LULU_HARD.rev.pdf");
+			if (!rename("$bible$destiny_POD_LULU_HARD.rev.pdf",	"$bible$destiny_POD_LULU_HARD.pdf")) {				AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_POD_LULU_HARD.rev.pdf");	$scripterr = TRUE; }
+		}
 	}
 	
 	// CLEANUP
@@ -2863,9 +2879,9 @@ function AION_GLOSSARY_REFERENCES_PUT( $bible, $database, $args, $tt22=FALSE, $l
 	$references .= "</references_element>";
 	if (!file_put_contents(($filename="$bible---Aionian-Edition-references_dataset.dataxml"), $references))			{ AION_ECHO("ERROR! file_put_contents: $filename"); }
 	if (!file_put_contents(($filename="$bible---Aionian-Edition---STUDY-references_dataset.dataxml"), $references))	{ AION_ECHO("ERROR! file_put_contents: $filename"); }
-	if (!file_put_contents(($filename="$bible---POD_INTERIOR-references_dataset.dataxml"), $references))			{ AION_ECHO("ERROR! file_put_contents: $filename"); }
-	if ($tt22 && !file_put_contents(($filename="$bible---POD_INTERIOR_22-references_dataset.dataxml"), $references)){ AION_ECHO("ERROR! file_put_contents: $filename"); }
-	if (!file_put_contents(($filename="$bible---POD_INTERIOR_NT-references_dataset.dataxml"), $references))			{ AION_ECHO("ERROR! file_put_contents: $filename"); }
+	if (!file_put_contents(($filename="$bible---POD_KDP_ALL_BODY-references_dataset.dataxml"), $references))		{ AION_ECHO("ERROR! file_put_contents: $filename"); }
+	if ($tt22 && !file_put_contents(($filename="$bible---POD_KDP_X22_BODY-references_dataset.dataxml"), $references)){ AION_ECHO("ERROR! file_put_contents: $filename"); }
+	if (!file_put_contents(($filename="$bible---POD_KDP_NEW_BODY-references_dataset.dataxml"), $references))		{ AION_ECHO("ERROR! file_put_contents: $filename"); }
 }
 
 

@@ -69,67 +69,67 @@ function build_pdftk($proofer, $filename, $pagename) {
 AION_ECHO("PDF PROOFER GENERATION: FUNCTION");
 
 // COVER PDFs
-if (file_exists("./AB-PROOFS/BIBLE-PROOF-ACOVER.pdf"))		{ unlink("./AB-PROOFS/BIBLE-PROOF-ACOVER.pdf"); }
-if (file_exists("./AB-PROOFS/BIBLE-PROOF-ACOVER_NT.pdf"))	{ unlink("./AB-PROOFS/BIBLE-PROOF-ACOVER_NT.pdf"); }
-if (file_exists("./AB-PROOFS/BIBLE-PROOF-ACOVER_HARD.pdf"))	{ unlink("./AB-PROOFS/BIBLE-PROOF-ACOVER_HARD.pdf"); }
-system("pdftk *POD_COVER.pdf           cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER.pdf");
-system("pdftk *POD_COVER_NT.pdf        cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_NT.pdf");
-system("pdftk *POD_COVER_LULU_HARD.pdf cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_HARD.pdf");
+if (file_exists("./AB-PROOFS/BIBLE-PROOF-ACOVER_ALL.pdf"))	{ unlink("./AB-PROOFS/BIBLE-PROOF-ACOVER_ALL.pdf"); }
+if (file_exists("./AB-PROOFS/BIBLE-PROOF-ACOVER_HAR.pdf"))	{ unlink("./AB-PROOFS/BIBLE-PROOF-ACOVER_HAR.pdf"); }
+if (file_exists("./AB-PROOFS/BIBLE-PROOF-ACOVER_NEW.pdf"))	{ unlink("./AB-PROOFS/BIBLE-PROOF-ACOVER_NEW.pdf"); }
+system("pdftk *POD_KDP_ALL_COVER.pdf   cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_ALL.pdf");
+system("pdftk *POD_LULU_HAR_COVER.pdf  cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_HAR.pdf");
+system("pdftk *POD_KDP_NEW_COVER.pdf   cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_NEW.pdf");
 AION_ECHO("PDF PROOFER GENERATION: COVERS");
 
 
 // INTERIOR PDFS
-system(build_pdftk($proofer, "---POD_INTERIOR.pdf", "TITLE"));
-system(build_pdftk($proofer, "---POD_INTERIOR.pdf", "COPYRIGHT"));
-system(build_pdftk($proofer, "---POD_INTERIOR.pdf", "TOC"));
-system(build_pdftk($proofer, "---POD_INTERIOR.pdf", "OT-INTRO"));
-system(build_pdftk($proofer, "---POD_INTERIOR.pdf", "OT-PIX"));
-system(build_pdftk($proofer, "---POD_INTERIOR.pdf", "OT-PAGE1"));
-system(build_pdftk($proofer, "---POD_INTERIOR.pdf", "NT-INTRO"));
-system(build_pdftk($proofer, "---POD_INTERIOR.pdf", "NT-PIX"));
-system(build_pdftk($proofer, "---POD_INTERIOR.pdf", "NT-PAGE1"));
-system(build_pdftk($proofer, "---POD_INTERIOR.pdf", "END-PIX"));
-system(build_pdftk($proofer, "---POD_INTERIOR.pdf", "READERS"));
-system(build_pdftk($proofer, "---POD_INTERIOR.pdf", "GLOSSARY1"));
-system(build_pdftk($proofer, "---POD_INTERIOR.pdf", "GLOSSARY2"));
-system(build_pdftk($proofer, "---POD_INTERIOR.pdf", "GLOSSARYA"));
-system(build_pdftk($proofer, "---POD_INTERIOR.pdf", "GLOSSARYB"));
-system(build_pdftk($proofer, "---POD_INTERIOR.pdf", "MAP1"));
-system(build_pdftk($proofer, "---POD_INTERIOR.pdf", "MAP2"));
-system(build_pdftk($proofer, "---POD_INTERIOR.pdf", "MAP3"));
-system(build_pdftk($proofer, "---POD_INTERIOR.pdf", "MAP4"));
-system(build_pdftk($proofer, "---POD_INTERIOR.pdf", "MAP5"));
-system(build_pdftk($proofer, "---POD_INTERIOR.pdf", "TIME1"));
-system(build_pdftk($proofer, "---POD_INTERIOR.pdf", "TIME2"));
-system(build_pdftk($proofer, "---POD_INTERIOR.pdf", "TIME3"));
-system(build_pdftk($proofer, "---POD_INTERIOR.pdf", "TIME4"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "TITLE"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "COPYRIGHT"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "TOC"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "OT-INTRO"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "OT-PIX"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "OT-PAGE1"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "NT-INTRO"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "NT-PIX"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "NT-PAGE1"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "END-PIX"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "READERS"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "GLOSSARY1"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "GLOSSARY2"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "GLOSSARYA"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "GLOSSARYB"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "MAP1"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "MAP2"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "MAP3"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "MAP4"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "MAP5"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "TIME1"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "TIME2"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "TIME3"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "TIME4"));
 AION_ECHO("PDF PROOFER GENERATION: INTERIOR");
 
 
-system(build_pdftk($proofer, "---POD_INTERIOR_NT.pdf", "TITLE"));
-system(build_pdftk($proofer, "---POD_INTERIOR_NT.pdf", "COPYRIGHT"));
-system(build_pdftk($proofer, "---POD_INTERIOR_NT.pdf", "TOC"));
-system(build_pdftk($proofer, "---POD_INTERIOR_NT.pdf", "OT-INTRO"));
-system(build_pdftk($proofer, "---POD_INTERIOR_NT.pdf", "OT-PIX"));
-system(build_pdftk($proofer, "---POD_INTERIOR_NT.pdf", "OT-PAGE1"));
-system(build_pdftk($proofer, "---POD_INTERIOR_NT.pdf", "NT-INTRO"));
-system(build_pdftk($proofer, "---POD_INTERIOR_NT.pdf", "NT-PIX"));
-system(build_pdftk($proofer, "---POD_INTERIOR_NT.pdf", "NT-PAGE1"));
-system(build_pdftk($proofer, "---POD_INTERIOR_NT.pdf", "END-PIX"));
-system(build_pdftk($proofer, "---POD_INTERIOR_NT.pdf", "READERS"));
-system(build_pdftk($proofer, "---POD_INTERIOR_NT.pdf", "GLOSSARY1"));
-system(build_pdftk($proofer, "---POD_INTERIOR_NT.pdf", "GLOSSARY2"));
-system(build_pdftk($proofer, "---POD_INTERIOR_NT.pdf", "GLOSSARYA"));
-system(build_pdftk($proofer, "---POD_INTERIOR_NT.pdf", "GLOSSARYB"));
-system(build_pdftk($proofer, "---POD_INTERIOR_NT.pdf", "MAP1"));
-system(build_pdftk($proofer, "---POD_INTERIOR_NT.pdf", "MAP2"));
-system(build_pdftk($proofer, "---POD_INTERIOR_NT.pdf", "MAP3"));
-system(build_pdftk($proofer, "---POD_INTERIOR_NT.pdf", "MAP4"));
-system(build_pdftk($proofer, "---POD_INTERIOR_NT.pdf", "MAP5"));
-system(build_pdftk($proofer, "---POD_INTERIOR_NT.pdf", "TIME1"));
-system(build_pdftk($proofer, "---POD_INTERIOR_NT.pdf", "TIME2"));
-system(build_pdftk($proofer, "---POD_INTERIOR_NT.pdf", "TIME3"));
-system(build_pdftk($proofer, "---POD_INTERIOR_NT.pdf", "TIME4"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "TITLE"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "COPYRIGHT"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "TOC"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "OT-INTRO"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "OT-PIX"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "OT-PAGE1"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "NT-INTRO"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "NT-PIX"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "NT-PAGE1"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "END-PIX"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "READERS"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "GLOSSARY1"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "GLOSSARY2"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "GLOSSARYA"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "GLOSSARYB"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "MAP1"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "MAP2"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "MAP3"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "MAP4"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "MAP5"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "TIME1"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "TIME2"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "TIME3"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "TIME4"));
 AION_ECHO("PDF PROOFER GENERATION: INTERIOR_NT");
 
 

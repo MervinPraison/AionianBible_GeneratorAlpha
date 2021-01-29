@@ -1,4 +1,4 @@
-TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - TyndaleHouse.com STEPBible.org CC BY-NC
+﻿TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - TyndaleHouse.com STEPBible.org CC BY-NC
 TFBDB - Tyndale Formatted full BDB lexicon - TyndaleHouse.com STEPBible.org CC BY-NC
 
 Extended Strongs for Hebrew is backward compatible with original Strong and extended to include all entries in BDB (compatible with OpenScriptures) and all prefixes, suffixes, personal pronoun endings and punctuation (as tagged in Tyndale House texts) 

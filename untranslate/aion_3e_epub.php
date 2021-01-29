@@ -775,7 +775,7 @@ $versionSS_CP .= $G_VERSIONS['SOURCE'].(empty($G_VERSIONS['YEAR']) ? "" : ", ".$
 $versionSS_CP .= (empty($G_VERSIONS['DESCRIPTION']) ? "" : $G_VERSIONS['DESCRIPTION']."<br />");
 $epublink = "http://resources.AionianBible.org/".$G_VERSIONS['BIBLE']."---Aionian-Edition.epub";
 $rundate = date("n/j/Y");
-if (NULL===($extension_text=preg_replace("#<[^<>]*>#ui","",trim($G_FORPRINT['EXTENSION'])))) { AION_ECHO("ERROR! preg_replace(<>)".$G_FORPRINT['BIBLE']." ".$G_FORPRINT['EXTENSION']); }
+if (NULL===($extension_text=preg_replace("#<[^<>]*>#ui"," ",trim($G_FORPRINT['EXTENSION'])))) { AION_ECHO("ERROR! preg_replace(<>)".$G_FORPRINT['BIBLE']." ".$G_FORPRINT['EXTENSION']); }
 $extension_text = (empty($extension_text) ? "" : "\nAdditional Information:<br /><br />$extension_text");
 $file = "$folder/front-2-copyright.xhtml";
 $contents = <<< EOF

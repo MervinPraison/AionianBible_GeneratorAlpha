@@ -1,4 +1,4 @@
-TEGMC - Tyndale Expansion of Greek Morphhology Codes - TyndaleHouse.com STEPBible.org CC BY-NC
+﻿TEGMC - Tyndale Expansion of Greek Morphhology Codes - TyndaleHouse.com STEPBible.org CC BY-NC
 =========================================================================
 
 Greek morphology codes with expanded explanations in terms of parsing, meaning and example

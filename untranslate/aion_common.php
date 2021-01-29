@@ -3155,12 +3155,12 @@ function AION_LOOP_HTMS_DOIT($args) {
 	// Marketing Blurbs
 	$blurbyear = (empty($args['database']['T_VERSIONS'][$bible]['YEAR']) ? "" : ", year ".trim($args['database']['T_VERSIONS'][$bible]['YEAR']));
 	$noderive = (stripos($args['database']['T_VERSIONS'][$bible]['COPYRIGHT'],'Derivative')!==FALSE ? "" : " Apocryphal text is removed and verses renumbered to the English standard.");
-	$blurb = "<b>The <i>Holy Bible Aionian Edition</i> is the world's first Bible <i>un-translation</i>!</b> This Bible helps us understand God's love for everyone, and after-life destinies. What is an <i>un-translation</i>? This Bible shows the locations of ten key Greek and Hebrew words. The primary word shown is <i>aionios</i>, typically translated <i>eternal</i>, yet <i>aionios</i> means something more wonderful than infinite time! Greeks used <i>aionios</i> to mean <i>entirety</i>, even <i>consummate</i>, but never merely <i>infinite</i> time. So the <i>aionios</i> life promised in John 3:16 is not simply a ticket to future <i>eternal</i> life, but the invitation to <i>consummate</i> life now! <i>Aionios</i> life with Christ is better than forever. This Bible is in the ".trim($args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH'])." language, with source: <i>".trim($args['database']['T_VERSIONS'][$bible]['SOURCE'])."</i>$blurbyear, from ".trim($args['database']['T_VERSIONS'][$bible]['SOURCEDOMAIN']).", free at AionianBible.org, and also known as <i>The Purple Bible</i>.$noderive<BR>";
+	$blurb = "<b>The <i>Holy Bible Aionian Edition</i> is the world's first Bible <i>un-translation</i>!</b> This Bible helps us understand God's love for everyone and after-life destinies. What is an <i>un-translation</i>? This Bible shows the locations of ten key Greek and Hebrew words. The primary word shown is <i>aionios</i>, typically translated <i>eternal</i>, yet <i>aionios</i> means something more wonderful than infinite time! Greeks used <i>aionios</i> to mean <i>entirety</i>, even <i>consummate</i>, but never merely <i>infinite</i> time. So the <i>aionios</i> life promised in John 3:16 is not simply a ticket to future <i>eternal</i> life, but the invitation to <i>consummate</i> life now! <i>Aionios</i> life with Christ is better than forever. ".trim($args['database']['T_FORPRINT'][$bible]['PDOEXTENSION'])." This Bible is in the ".trim($args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH'])." language, with source: <i>".trim($args['database']['T_VERSIONS'][$bible]['SOURCE'])."</i>$blurbyear, from ".trim($args['database']['T_VERSIONS'][$bible]['SOURCEDOMAIN']).", free at AionianBible.org, and also known as <i>The Purple Bible</i>.$noderive<BR>";
 	if (AION_LOOP_HTMS_DOIT_OTONLY($database['T_BIBLE'])) {
-	$blurb = "<b>The <i>Holy Bible Aionian Edition</i> is the world's first Bible <i>un-translation</i>!</b> This Bible helps us understand God's love for everyone, and after-life destinies. What is an <i>un-translation</i>? This Bible shows the location of the Hebrew word <i>Sheol</i>, typically translated as <i>Hell</i>. However, Hell is ill-defined when compared with the underlying Hebrew meaning. Instead, Sheol is the abode of deceased believers and unbelievers and should never be translated as Hell. The implications are more than noteworthy. This Bible is in the ".trim($args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH'])." language, with source: <i>".trim($args['database']['T_VERSIONS'][$bible]['SOURCE'])."</i>$blurbyear, from ".trim($args['database']['T_VERSIONS'][$bible]['SOURCEDOMAIN']).", free at AionianBible.org, and also known as <i>The Purple Bible</i>.$noderive<BR>";
+	$blurb = "<b>The <i>Holy Bible Aionian Edition</i> is the world's first Bible <i>un-translation</i>!</b> This Bible helps us understand God's love for everyone and after-life destinies. What is an <i>un-translation</i>? This Bible shows the location of the Hebrew word <i>Sheol</i>, typically translated as <i>Hell</i>. However, Hell is ill-defined when compared with the underlying Hebrew meaning. Instead, Sheol is the abode of deceased believers and unbelievers and should never be translated as Hell. The implications are more than noteworthy. ".trim($args['database']['T_FORPRINT'][$bible]['PDOEXTENSION'])." This Bible is in the ".trim($args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH'])." language, with source: <i>".trim($args['database']['T_VERSIONS'][$bible]['SOURCE'])."</i>$blurbyear, from ".trim($args['database']['T_VERSIONS'][$bible]['SOURCEDOMAIN']).", free at AionianBible.org, and also known as <i>The Purple Bible</i>.$noderive<BR>";
 	}
-	$PDFPA = AION_PDF_PAGECOUNT("../www-stageresources/$bible---POD_INTERIOR.pdf");
-	$PDFPN = AION_PDF_PAGECOUNT("../www-stageresources/$bible---POD_INTERIOR_NT.pdf");
+	$PDFPA = AION_PDF_PAGECOUNT("../www-stageresources/$bible---POD_KDP_ALL_BODY.pdf");
+	$PDFPN = AION_PDF_PAGECOUNT("../www-stageresources/$bible---POD_KDP_NEW_BODY.pdf");
 	$PDFPI = (float)($PDFPA <=0 ? 0 : ((0.85 + ($PDFPA * 0.012)) / 0.6));
 	$htm .= "<table style='border: 4px solid purple;'>\n";
 	$htm .= "<tr><td>TITLE</td><td><b>Holy Bible Aionian Edition: ".$args['database']['T_FORPRINT'][$bible]['VERSIONE']."</b></td></tr>\n";
@@ -3176,30 +3176,30 @@ function AION_LOOP_HTMS_DOIT($args) {
 		$kdpedit = (empty($args['database']['T_VERSIONS'][$bible]['KDP']) || $args['database']['T_VERSIONS'][$bible]['KDP']=='NULL' ? "Edit" : "<a href='https://kdp.amazon.com/action/dualbookshelf.editpaperbackdetails/en_US/title-setup/paperback/".$args['database']['T_VERSIONS'][$bible]['KDP']."/details?ref_=kdp_BS_D_ta_de' target='_blank'>Edit</a>");
 		if ($args['database']['T_FORPRINT'][$bible]['YESKDP']=='TRUE' && !empty($args['database']['T_VERSIONS'][$bible]['AMAZON']) && $args['database']['T_VERSIONS'][$bible]['AMAZON']!='NULL') {
 			$kdpbuy = "<a href='https://www.amazon.com/dp/".$args['database']['T_VERSIONS'][$bible]['AMAZON']."' target='_blank'>Buy</a>";
-			$htm .= "<tr><td>KDP</td><td>INTERIOR.pdf &nbsp;/&nbsp; COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
+			$htm .= "<tr><td>KDP</td><td>POD_KDP_ALL_BODY.pdf &nbsp;/&nbsp; POD_KDP_ALL_COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
 		}
 		else if (!empty($args['database']['T_VERSIONS'][$bible]['AMAZON']) && $args['database']['T_VERSIONS'][$bible]['AMAZON']!='NULL') {
 			$kdpbuy = "<a href='https://www.amazon.com/dp/".$args['database']['T_VERSIONS'][$bible]['AMAZON']."' target='_blank'>Buy*</a>";
-			$htm .= "<tr><td>KDP</td><td>INTERIOR.pdf &nbsp;/&nbsp; COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
+			$htm .= "<tr><td>KDP</td><td>POD_KDP_ALL_BODY.pdf &nbsp;/&nbsp; POD_KDP_ALL_COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
 		}
 		else if ($args['database']['T_FORPRINT'][$bible]['YESKDP']=='TRUE')  {
 			$kdpbuy = "<a href='https://www.amazon.com/s/keywords=Holy Bible Aionian Edition ".$args['database']['T_FORPRINT'][$bible]['VERSIONE']."' target='_blank'>Find</a>";
-			$htm .= "<tr><td>KDP</td><td>INTERIOR.pdf &nbsp;/&nbsp; COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
+			$htm .= "<tr><td>KDP</td><td>POD_KDP_ALL_BODY.pdf &nbsp;/&nbsp; POD_KDP_ALL_COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
 		}
 		else { $htm .= "<tr><td>KDP</td><td>None</td></tr>\n"; }
 		// KDP NT
 		$kdpedit = (empty($args['database']['T_VERSIONS'][$bible]['KDPNT']) || $args['database']['T_VERSIONS'][$bible]['KDPNT']=='NULL' ? "Edit" : "<a href='https://kdp.amazon.com/action/dualbookshelf.editpaperbackdetails/en_US/title-setup/paperback/".$args['database']['T_VERSIONS'][$bible]['KDPNT']."/details?ref_=kdp_BS_D_ta_de' target='_blank'>Edit</a>");
 		if ($args['database']['T_FORPRINT'][$bible]['YESNEW']=='TRUE' && $args['database']['T_FORPRINT'][$bible]['YESKDP']=='TRUE' && !empty($args['database']['T_VERSIONS'][$bible]['AMAZONNT']) && $args['database']['T_VERSIONS'][$bible]['AMAZONNT']!='NULL') {
 			$kdpbuy = "<a href='https://www.amazon.com/dp/".$args['database']['T_VERSIONS'][$bible]['AMAZONNT']."' target='_blank'>Buy</a>";
-			$htm .= "<tr><td>KDP_NT</td><td>INTERIOR_NT.pdf &nbsp;/&nbsp; COVER_NT.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
+			$htm .= "<tr><td>KDP_NEW</td><td>POD_KDP_NEW_BODY.pdf &nbsp;/&nbsp; POD_KDP_NEW_COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
 		}
 		else if (!empty($args['database']['T_VERSIONS'][$bible]['AMAZONNT']) && $args['database']['T_VERSIONS'][$bible]['AMAZONNT']!='NULL') {
 			$kdpbuy = "<a href='https://www.amazon.com/dp/".$args['database']['T_VERSIONS'][$bible]['AMAZONNT']."' target='_blank'>Buy*</a>";
-			$htm .= "<tr><td>KDP_NT</td><td>INTERIOR_NT.pdf &nbsp;/&nbsp; COVER_NT.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
+			$htm .= "<tr><td>KDP_NEW</td><td>POD_KDP_NEW_BODY.pdf &nbsp;/&nbsp; POD_KDP_NEW_COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
 		}
 		else if ($args['database']['T_FORPRINT'][$bible]['YESNEW']=='TRUE' && $args['database']['T_FORPRINT'][$bible]['YESKDP']=='TRUE')  {
 			$kdpbuy = "<a href='https://www.amazon.com/s/keywords=Holy Bible Aionian Edition ".$args['database']['T_FORPRINT'][$bible]['VERSIONE']."' target='_blank'>Find</a>";
-			$htm .= "<tr><td>KDP_NT</td><td>INTERIOR_NT.pdf &nbsp;/&nbsp; COVER_NT.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
+			$htm .= "<tr><td>KDP_NEW</td><td>POD_KDP_NEW_BODY.pdf &nbsp;/&nbsp; POD_KDP_NEW_COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
 		}
 		else { $htm .= "<tr><td>KDP_NT</td><td>None</td></tr>\n"; }
 		// Lulu Full
@@ -3207,29 +3207,29 @@ function AION_LOOP_HTMS_DOIT($args) {
 		if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLU']) && $args['database']['T_VERSIONS'][$bible]['LULU']!="NULL") { $htm .= "<tr><td>LULU-FULL</td><td>Problem</td></tr>\n"; }
 		else if (!empty($args['database']['T_FORPRINT'][$bible]['ISBNLU']) && $args['database']['T_VERSIONS'][$bible]['LULU']=="NULL") { $htm .= "<tr><td>LULU-FULL</td><td>Problem</td></tr>\n"; }
 		else if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLU'])) { $htm .= "<tr><td>LULU-FULL</td><td>None</td></tr>\n"; }
-		else { $htm .= "<tr><td>LULU_FULL</td><td>LULU.pdf &nbsp;/&nbsp; COVER_LULU.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLU']."</b> &nbsp;/&nbsp;      <a href='https://www.lulu.com/account/wizard/".$args['database']['T_VERSIONS'][$bible]['LULUX']."/start' target='_blank'>Edit</a> <a href='http://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULU']."' target='_blank'>Buy</a></td></tr>\n"; }
+		else { $htm .= "<tr><td>LULU_ALL</td><td>POD_LULU_ALL_BODY.pdf &nbsp;/&nbsp; POD_LULU_ALL_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLU']."</b> &nbsp;/&nbsp;      <a href='https://www.lulu.com/account/wizard/".$args['database']['T_VERSIONS'][$bible]['LULUX']."/start' target='_blank'>Edit</a> <a href='http://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULU']."' target='_blank'>Buy</a></td></tr>\n"; }
 		// Lulu NT	
 		if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLUNT']) && $args['database']['T_VERSIONS'][$bible]['LULUNT']!="NULL") { $htm .= "<tr><td>LULU-NT</td><td>Problem</td></tr>\n"; }
 		else if (!empty($args['database']['T_FORPRINT'][$bible]['ISBNLUNT']) && $args['database']['T_VERSIONS'][$bible]['LULUNT']=="NULL") { $htm .= "<tr><td>LULU-NT</td><td>Problem</td></tr>\n"; }
 		else if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLUNT'])) { $htm .= "<tr><td>LULU-NT</td><td>None</td></tr>\n"; }
-		else { $htm .= "<tr><td>LULU_NT</td><td>LULU_NT.pdf &nbsp;/&nbsp; COVER_LULU_NT.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUNT']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/wizard/".$args['database']['T_VERSIONS'][$bible]['LULUNTX']."/start' target='_blank'>Edit</a> <a href='http://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULUNT']."' target='_blank'>Buy</a></td></tr>\n"; }
+		else { $htm .= "<tr><td>LULU_NEW</td><td>POD_LULU_NEW_BODY.pdf &nbsp;/&nbsp; POD_LULU_NEW_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUNT']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/wizard/".$args['database']['T_VERSIONS'][$bible]['LULUNTX']."/start' target='_blank'>Edit</a> <a href='http://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULUNT']."' target='_blank'>Buy</a></td></tr>\n"; }
 		// Lulu Hardcover
 		if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLUHARD']) && $args['database']['T_VERSIONS'][$bible]['LULUHARD']!="NULL") { $htm .= "<tr><td>LULU-HARD</td><td>Problem</td></tr>\n"; }
 		else if (!empty($args['database']['T_FORPRINT'][$bible]['ISBNLUHARD']) && $args['database']['T_VERSIONS'][$bible]['LULUHARD']=="NULL") { $htm .= "<tr><td>LULU-HARD</td><td>Problem</td></tr>\n"; }
 		else if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLUHARD'])) { $htm .= "<tr><td>LULU-HARD</td><td>None</td></tr>\n"; }
-		else  { $htm .= "<tr><td>LULU_HARD</td><td>LULU_HARD.pdf &nbsp;/&nbsp; COVER_LULU_HARD.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUHARD']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/wizard/".$args['database']['T_VERSIONS'][$bible]['LULUHARDX']."/start' target='_blank'>Edit</a> <a href='http://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULUHARD']."' target='_blank'>Buy</a></td></tr>\n"; }
+		else  { $htm .= "<tr><td>LULU_HAR</td><td>POD_LULU_HAR_BODY.pdf &nbsp;/&nbsp; POD_LULU_HAR_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUHARD']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/wizard/".$args['database']['T_VERSIONS'][$bible]['LULUHARDX']."/start' target='_blank'>Edit</a> <a href='http://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULUHARD']."' target='_blank'>Buy</a></td></tr>\n"; }
 	}
 	$htm .= "<tr><td><br /></td><td></td></tr>\n";
 	$htm .= "<tr><td>LANGUAGE</td><td>".$args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH']."</td></tr>\n";
 	$htm .= "<tr><td>AUTHOR</td><td>Nainoia Inc</td></tr>\n";	
 	$htm .= "<tr><td>CATEGORY</td><td>Non-fiction > Bibles > General / Christian</td></tr>\n";
-	$htm .= "<tr><td>COPYRIGHT</td><td>Creative Commons Attribution-NoDerivatives 4.0 (International)<BR />https://creativecommons.org/licenses/by-nd/4.0</td></tr>\n";
-	$htm .= "<tr><td>TYPE</td><td>6x9, NO-BLEED, KDP=Matte  LULU=Glossy</td></tr>\n";
-	$htm .= "<tr><td>PAPER</td><td>Black and white interior with white paper</td></tr>\n";
+	$htm .= "<tr><td>COPYRIGHT</td><td>Creative Commons Attribution-NoDerivatives</td></tr>\n";
+	$htm .= "<tr><td>TYPE</td><td>6x9, NO-BLEED, Glossy</td></tr>\n";
+	$htm .= "<tr><td>PAPER</td><td>Standard black and white interior with white paper</td></tr>\n";
 	$htm .= "<tr><td>PAGES</td><td>Full=$PDFPA  New=$PDFPN</td></tr>\n";
 	$htm .= "<tr><td>TERRITORY</td><td>ALL</td></tr>\n";
-	$htm .= "<tr><td>PRICE</td><td>Approx $".sprintf("%.2f",$PDFPI)." + $1.67 = ".sprintf("%.2f",$PDFPI+1.67)." for $1 profit (Lulu %50 discount)</td></tr>\n";
-	$htm .= "<tr><td>KEYWORDS</td><td>Christian, Salvation, Jesus, Aionios, Hades, Gehenna, Grace</td></tr>\n";
+	$htm .= "<tr><td>PRICE</td><td>Approx $".sprintf("%.2f",$PDFPI)." + $1.67 = ".sprintf("%.2f",$PDFPI+1.67)." for $1 profit</td></tr>\n";
+	$htm .= "<tr><td>KEYWORDS</td><td>Christian, Salvation, Jesus, Aionios, Hades, Gehenna, Sheol</td></tr>\n";
 	$htm .= "<tr><td>TRANSLATOR</td><td>".$args['database']['T_VERSIONS'][$bible]['TRANSLATOR']."</td></tr>\n";
 	$htm .= "<tr><td>KDP_DESC</td><td>".htmlentities($blurb)."</td></tr>\n";
 	$htm .= "<tr><td>LULU_DESC</td><td>$blurb</td></tr>\n";
@@ -3647,11 +3647,11 @@ function AION_LOOP_HTMS_DOIT($args) {
 	$PDF_PKDP = $PDF_PLUL = $PDF_PKNT = $PDF_PLNT = $PDF_PLHC = $PDF_PRTL = "";
 	$PROBPDF = 0;
 	// POD PDF exist?
-	$pod_kdp_reg = (filenotzero("../www-stageresources/$bible---POD_COVER.pdf")				&& filenotzero("../www-stageresources/$bible---POD_INTERIOR.pdf")		? "" : "<span style='font-weight:bold; color:red;'>*?</span>");
-	$pod_kdp_new = (filenotzero("../www-stageresources/$bible---POD_COVER_NT.pdf")			&& filenotzero("../www-stageresources/$bible---POD_INTERIOR_NT.pdf")	? "" : "<span style='font-weight:bold; color:red;'>*?</span>");
-	$pod_luu_reg = (filenotzero("../www-stageresources/$bible---POD_COVER_LULU.pdf")		&& filenotzero("../www-stageresources/$bible---POD_LULU.pdf")			? "" : "<span style='font-weight:bold; color:red;'>*?</span>");
-	$pod_luu_new = (filenotzero("../www-stageresources/$bible---POD_COVER_LULU_NT.pdf")		&& filenotzero("../www-stageresources/$bible---POD_LULU_NT.pdf")		? "" : "<span style='font-weight:bold; color:red;'>*?</span>");
-	$pod_luu_har = (filenotzero("../www-stageresources/$bible---POD_COVER_LULU_HARD.pdf")	&& filenotzero("../www-stageresources/$bible---POD_LULU_HARD.pdf")		? "" : "<span style='font-weight:bold; color:red;'>*?</span>");
+	$pod_kdp_reg = (filenotzero("../www-stageresources/$bible---POD_KDP_ALL_COVER.pdf")		&& filenotzero("../www-stageresources/$bible---POD_KDP_ALL_BODY.pdf")	? "" : "<span style='font-weight:bold; color:red;'>*?</span>");
+	$pod_kdp_new = (filenotzero("../www-stageresources/$bible---POD_KDP_NEW_COVER.pdf")		&& filenotzero("../www-stageresources/$bible---POD_KDP_NEW_BODY.pdf")	? "" : "<span style='font-weight:bold; color:red;'>*?</span>");
+	$pod_luu_reg = (filenotzero("../www-stageresources/$bible---POD_LULU_ALL_COVER.pdf")	&& filenotzero("../www-stageresources/$bible---POD_LULU_ALL_BODY.pdf")	? "" : "<span style='font-weight:bold; color:red;'>*?</span>");
+	$pod_luu_new = (filenotzero("../www-stageresources/$bible---POD_LULU_NEW_COVER.pdf")	&& filenotzero("../www-stageresources/$bible---POD_LULU_NEW_BODY.pdf")	? "" : "<span style='font-weight:bold; color:red;'>*?</span>");
+	$pod_luu_har = (filenotzero("../www-stageresources/$bible---POD_LULU_HAR_COVER.pdf")	&& filenotzero("../www-stageresources/$bible---POD_LULU_HAR_BODY.pdf")	? "" : "<span style='font-weight:bold; color:red;'>*?</span>");
 
 	// PDF Priority
 	if ($args['database']['T_FORPRINT'][$bible]['YESKDP']!='TRUE') {
@@ -3696,9 +3696,9 @@ function AION_LOOP_HTMS_DOIT($args) {
 		else if (empty($pod_kdp_new)) { $PDF_PKNT="File"; }
 
 		// ISBN *************************************************
-		$pod_luu_reg = (filenotzero("../www-stageresources/AB-ISBN/$bible---POD_COVER_LULU_ISBN.pdf")		? $pod_luu_reg : "<span style='font-weight:bold; color:red;'>~?</span>");
-		$pod_luu_new = (filenotzero("../www-stageresources/AB-ISBN/$bible---POD_COVER_LULU_NT_ISBN.pdf")	? $pod_luu_new : "<span style='font-weight:bold; color:red;'>~?</span>");
-		$pod_luu_har = (filenotzero("../www-stageresources/AB-ISBN/$bible---POD_COVER_LULU_HARD_ISBN.pdf")	? $pod_luu_har : "<span style='font-weight:bold; color:red;'>~?</span>");
+		$pod_luu_reg = (filenotzero("../www-stageresources/AB-ISBN/$bible---POD_LULU_ALL_COVER_ISBN.pdf")	? $pod_luu_reg : "<span style='font-weight:bold; color:red;'>~?</span>");
+		$pod_luu_new = (filenotzero("../www-stageresources/AB-ISBN/$bible---POD_LULU_NEW_COVER_ISBN.pdf")	? $pod_luu_new : "<span style='font-weight:bold; color:red;'>~?</span>");
+		$pod_luu_har = (filenotzero("../www-stageresources/AB-ISBN/$bible---POD_LULU_HAR_COVER_ISBN.pdf")	? $pod_luu_har : "<span style='font-weight:bold; color:red;'>~?</span>");
 		
 		// Lulu Full *********************************************
 		// PROBLEM
