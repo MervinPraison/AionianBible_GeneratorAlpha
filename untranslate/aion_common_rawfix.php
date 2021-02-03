@@ -12282,56 +12282,6 @@ goto RAWHIDE;
 
 
 
-
-// RAWFIX BIBLE ********************
-case "Holy-Bible---Spanish---Free-Bible" :
-$textfix = <<<EOF
-LEV 25:54 i no son recomprados de ninguna de las maneras descritas, ellos y sus hijos serán liberados en el Año Jubilar.
-LEV 25:55 Porque los israelitas me pertenecen como mis esclavos. Son mis esclavos, yo los saqué de Egipto. Yo soy el Señor tu Dios”.
-LEV 26:1 
-EOF;
-if (!($bfile = preg_replace("/LEV 25:54 (.+?)LEV 26:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-NUM 11:34 Llamaron a ese lugar Quibrot-Hatavá, porque allí enterraron a la gente que tenía estos intensos antojos de comida.
-NUM 11:35 Luego se trasladaron de Quibrot-HataváhaciaJazerot, donde permanecieron durante algún tiempo.
-NUM 12:1 
-EOF;
-if (!($bfile = preg_replace("/NUM 11:34 (.+?)NUM 12:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-NUM 17:12 Entonces los israelitas vinieron y le dijeron a Moisés: “¿No ves que todos vamos a morir? ¡Nos van a destruir! ¡Nos van a matar a todos!
-NUM 17:13 El que se atreva a acercarse al Tabernáculo del Señor morirá. ¿Nos van a aniquilar a todos?”
-NUM 18:1 
-EOF;
-if (!($bfile = preg_replace("/NUM 17:12 (.+?)NUM 18:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-JOE 1:19 ¡A ti, Señor, clamo! Porque el fuego ha destruido la hierba en el desierto. Las llamas han quemado las huertas.
-JOE 1:20 Hasta los animales en las granjas anhelan tu ayuda porque los arroyos se han secado, y el fuego ha destruido los pastizales en el desierto.
-JOE 2:1 
-EOF;
-if (!($bfile = preg_replace("/JOE 1:19 (.+?)JOE 2:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-AMO 1:14 Yo haré que el fuego devore los muros de Rabá y que consuma sus castillos. Habrá gritos en el día de la batalla que causarán confusión como la ira de un vendaval.
-AMO 1:15 Su rey será exiliado junto a sus príncipes, dice el Señor.
-AMO 2:1 
-EOF;
-if (!($bfile = preg_replace("/AMO 1:14 (.+?)AMO 2:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-AMO 4:1 Escuchen este mensaje, vacas de Basán que habitan en el Monte de Samaria, que oprimen a los pobres y a los necesitados, y dan órdenes a sus esposos, diciéndoles: “¡tráigannos bebidas!”
-AMO 4:2 El Señor Dios ha Jurado por su santidad: ¡Tengan cuidado! Porque vendrá el tiempo en el que las sacarán con anzuelos; cada uno de ustedes será como un pez enganchado a un anzuelo.
-AMO 4:3 
-EOF;
-if (!($bfile = preg_replace("/AMO 4:1 (.+?)AMO 4:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-MAL 3:17 Ellos serán míos, dice el Señor Todopoderoso, serán mi especial tesoro en el día en que actúe. Y los trataré con bondad, como un padre trata a un hijo obediente.
-MAL 3:18 Entonces ustedes podrán volver a distinguir a los que hacen el bien de los que hacen el mal, y también a los que le sirven de los que no le sirven.
-MAL 4:1 
-EOF;
-if (!($bfile = preg_replace("/MAL 3:17 (.+?)MAL 4:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-goto RAWHIDE;
-
-
-
-
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Spanish---Reina-Valera-1865" :
 $textfix = <<<EOF

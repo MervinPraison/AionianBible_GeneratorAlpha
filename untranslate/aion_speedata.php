@@ -22,8 +22,8 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_onebook'	=> FALSE,	// TRUE = only do first bible book, otherwise all
 		'q_rtlhuh'	=> 'ALL',	// 'RTL' = RTL only,  'RTLNO' = Skip RTL, 'ALL' = all
 		'q_allall'	=> TRUE,	// TRUE = do all bibles not marked FALSE -OR- FALSE = do all bibles marked TRUE
-		'q_pdfall'	=> TRUE,	// TRUE = do ALL PDFs
-		'q_pdfpo'	=> FALSE,	// TRUE = do KDP PDFs
+		'q_pdfall'	=> FALSE,	// TRUE = do ALL PDFs
+		'q_pdfpo'	=> TRUE,	// TRUE = do KDP PDFs
 		'q_pdfnt'	=> FALSE,	// TRUE = do KDP NT PDFs
 		'q_pdflu'	=> FALSE,	// TRUE = do LULU PDFs
 		'q_pdfon'	=> FALSE,	// TRUE = do Online PDFs
@@ -43,11 +43,11 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Aleppo).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*1858.*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Kannada|Peshitta).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Tamil).*---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---.*(Aionian-Bible|Bengali).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/(Holy-Bible---Latvian---Latvian-Gluck-Bible|Holy-Bible---Japanese---Japanese-Yougo-yaku)---Aionian-Edition\.noia$/",
 		//'include'	=> "/.*Arapaho.*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Youngs).*---Aionian-Edition\.noia$/",
-		'include'	=> "/---Aionian-Edition\.noia$/",
+		//'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		) );
@@ -524,7 +524,7 @@ EOT;
 		$output = $bible.$destiny_POD_LULU."_ISBN.pdf";
 		system("pdftk A=$bible$destiny_POD_INTERIOR.pdf B=$bible$destiny_POD_LULU.pdf cat A1-3 B1 A5-end output $output");
 		if (!rename("$output",									"$bible$destiny_POD_LULU.pdf")) {					AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_POD_LULU.pdf");			$scripterr = TRUE; }
-		if (!empty($forprint['RTL'])) {
+		if ($forprint['RTL']=='TRUE') {
 			system("pdftk $bible$destiny_POD_LULU.pdf cat end-1 output $bible$destiny_POD_LULU.rev.pdf");
 			if (!rename("$bible$destiny_POD_LULU.rev.pdf",		"$bible$destiny_POD_LULU.pdf")) {					AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_POD_LULU.rev.pdf");		$scripterr = TRUE; }
 		}
@@ -533,7 +533,7 @@ EOT;
 		$output = $bible.$destiny_POD_LULU_22."_ISBN.pdf";
 		system("pdftk A=$bible$destiny_POD_INTERIOR_22.pdf B=$bible$destiny_POD_LULU_22.pdf cat A1-3 B1 A5-end output $output");
 		if (!rename("$output",									"$bible$destiny_POD_LULU_22.pdf")) {				AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_POD_LULU_22.pdf");			$scripterr = TRUE; }
-		if (!empty($forprint['RTL'])) {
+		if ($forprint['RTL']=='TRUE') {
 			system("pdftk $bible$destiny_POD_LULU_22.pdf cat end-1 output $bible$destiny_POD_LULU_22.rev.pdf");
 			if (!rename("$bible$destiny_POD_LULU_22.rev.pdf",	"$bible$destiny_POD_LULU_22.pdf")) {				AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_POD_LULU_22.rev.pdf");		$scripterr = TRUE; }
 		}
@@ -542,7 +542,7 @@ EOT;
 		$output = $bible.$destiny_POD_LULU_NT."_ISBN.pdf";
 		system("pdftk A=$bible$destiny_POD_INTERIOR_NT.pdf B=$bible$destiny_POD_LULU_NT.pdf cat A1-3 B1 A5-end output $output");
 		if (!rename("$output",									"$bible$destiny_POD_LULU_NT.pdf")) {				AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_POD_LULU_NT.pdf");			$scripterr = TRUE; }
-		if (!empty($forprint['RTL'])) {
+		if ($forprint['RTL']=='TRUE') {
 			system("pdftk $bible$destiny_POD_LULU_NT.pdf cat end-1 output $bible$destiny_POD_LULU_NT.rev.pdf");
 			if (!rename("$bible$destiny_POD_LULU_NT.rev.pdf",	"$bible$destiny_POD_LULU_NT.pdf")) {				AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_POD_LULU_NT.rev.pdf");		$scripterr = TRUE; }
 		}
@@ -551,7 +551,7 @@ EOT;
 		$output = $bible.$destiny_POD_LULU_HARD."_ISBN.pdf";
 		system("pdftk A=$bible$destiny_POD_INTERIOR.pdf B=$bible$destiny_POD_LULU_HARD.pdf cat A1-3 B1 A5-end output $output");
 		if (!rename("$output",									"$bible$destiny_POD_LULU_HARD.pdf")) {				AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_POD_LULU_HARD.pdf");		$scripterr = TRUE; }
-		if (!empty($forprint['RTL'])) {
+		if ($forprint['RTL']=='TRUE') {
 			system("pdftk $bible$destiny_POD_LULU_HARD.pdf cat end-1 output $bible$destiny_POD_LULU_HARD.rev.pdf");
 			if (!rename("$bible$destiny_POD_LULU_HARD.rev.pdf",	"$bible$destiny_POD_LULU_HARD.pdf")) {				AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_POD_LULU_HARD.rev.pdf");	$scripterr = TRUE; }
 		}
@@ -957,12 +957,10 @@ $versionSS_CP .= (empty($isbn) || $isbn=="UNKNOWN" ? "" : "<Value>ISBN: ".$isbn.
 $rundate = date("n/j/Y");
 // extension
 $extension_text = '';
-$copyright_rowA = '30';
-$copyright_rowB = '70';
+$copyright_row = '50';
 if (!empty($forprint['EXTENSION'])) {
 	$extension_text = trim($forprint['EXTENSION']);
-	$copyright_rowA = '6';
-	$copyright_rowB = '18';
+	$copyright_row = '6';
 }
 // KEIZER
 $web72 = '';
@@ -1058,8 +1056,6 @@ $page1colright			= "page1colright";
 $page1colleft			= "page1colleft";
 $page1colrightrotated	= "page1colrightrotated";
 $page1colleftrotated	= "page1colleftrotated";
-$pref1colright			= "pref1colright";
-$pref1colleft			= "pref1colleft";
 // MARGINS ALL
 if ($format=="READ") {
 	$web72 = '-web';
@@ -1175,13 +1171,19 @@ $fonts
 <Pageformat width="$PAGE_WIDTH" height="$PAGE_HEIGHT"/>
 
 <!-- INTRO PAGES -->
-<Pagetype name="page1colright" test="\$newpagetype != 'biblepage' and \$newpagetype != 'pref1colright' and \$newpagetype != 'pref1colleft' and \$newpagetype != 'page1rotated' and sd:odd(sd:current-page())">
+<Pagetype name="pagetoc" test="\$newpagetype = 'toc'">
 	<Margin left="$MARGIN_SINGLE_INSIDE" right="$MARGIN_SINGLE_OUTSIDE" top="$MARGIN_SINGLE_TOP" bottom="$MARGIN_SINGLE_BOTTOM"/>
 	<PositioningArea name="area1col">
 		<PositioningFrame row="1" column="1" width="$MARGIN_SINGLE_WIDTH" height="$MARGIN_SINGLE_HEIGHT"/>
 	</PositioningArea>
 </Pagetype>
-<Pagetype name="page1colleft" test="\$newpagetype != 'biblepage' and \$newpagetype != 'pref1colright' and \$newpagetype != 'pref1colleft' and \$newpagetype != 'page1rotated' and sd:even(sd:current-page())">
+<Pagetype name="page1colright" test="\$newpagetype != 'biblepage' and \$newpagetype != 'page1rotated' and sd:odd(sd:current-page())">
+	<Margin left="$MARGIN_SINGLE_INSIDE" right="$MARGIN_SINGLE_OUTSIDE" top="$MARGIN_SINGLE_TOP" bottom="$MARGIN_SINGLE_BOTTOM"/>
+	<PositioningArea name="area1col">
+		<PositioningFrame row="1" column="1" width="$MARGIN_SINGLE_WIDTH" height="$MARGIN_SINGLE_HEIGHT"/>
+	</PositioningArea>
+</Pagetype>
+<Pagetype name="page1colleft" test="\$newpagetype != 'biblepage' and \$newpagetype != 'page1rotated' and sd:even(sd:current-page())">
 	<Margin left="$MARGIN_SINGLE_OUTSIDE" right="$MARGIN_SINGLE_INSIDE" top="$MARGIN_SINGLE_TOP" bottom="$MARGIN_SINGLE_BOTTOM"/>
 	<PositioningArea name="area1col">
 		<PositioningFrame row="1" column="1" width="$MARGIN_SINGLE_WIDTH" height="$MARGIN_SINGLE_HEIGHT"/>
@@ -1198,26 +1200,6 @@ $fonts
 	<PositioningArea name="area1col">
 		<PositioningFrame row="1" column="1" width="$MARGIN_SINGLE_HEIGHT" height="$MARGIN_SINGLE_WIDTH"/>
 	</PositioningArea>
-</Pagetype>
-
-<!-- PREF PAGES -->
-<Pagetype name="pref1colright" test="\$newpagetype != 'biblepage' and \$newpagetype != 'page1colright' and \$newpagetype != 'page1colleft' and \$newpagetype != 'page1rotated' and sd:odd(sd:current-page())">
-	<Margin left="$MARGIN_SINGLE_INSIDE" right="$MARGIN_SINGLE_OUTSIDE" top="$MARGIN_SINGLE_TOP" bottom="$MARGIN_SINGLE_BOTTOM"/>
-	<PositioningArea name="area1col">
-		<PositioningFrame row="1" column="1" width="$MARGIN_SINGLE_WIDTH" height="$MARGIN_SINGLE_HEIGHT_PNUM"/>
-	</PositioningArea>
-	<AtPageCreation>
-		<PlaceObject row="$BOTTOM_ROW_PNUM" column="$BOTTOM_CENTER"><Textblock width="3" minheight="3" fontfamily="FF-Fnum" textformat="footercenter"><Paragraph><Value select="\$prefnumber"/></Paragraph></Textblock></PlaceObject>
-	</AtPageCreation>
-</Pagetype>
-<Pagetype name="pref1colleft" test="\$newpagetype != 'biblepage' and \$newpagetype != 'page1colright' and \$newpagetype != 'page1colleft' and \$newpagetype != 'page1rotated' and sd:even(sd:current-page())">
-	<Margin left="$MARGIN_SINGLE_OUTSIDE" right="$MARGIN_SINGLE_INSIDE" top="$MARGIN_SINGLE_TOP" bottom="$MARGIN_SINGLE_BOTTOM"/>
-	<PositioningArea name="area1col">
-		<PositioningFrame row="1" column="1" width="$MARGIN_SINGLE_WIDTH" height="$MARGIN_SINGLE_HEIGHT_PNUM"/>
-	</PositioningArea>
-	<AtPageCreation>
-		<PlaceObject row="$BOTTOM_ROW_PNUM" column="$BOTTOM_CENTER"><Textblock width="3" minheight="3" fontfamily="FF-Fnum" textformat="footercenter"><Paragraph><Value select="\$prefnumber"/></Paragraph></Textblock></PlaceObject>
-	</AtPageCreation>
 </Pagetype>
 
 <!-- ONE COLUMN -->
@@ -1308,7 +1290,6 @@ $fonts
 <Record element="bible">
 	<!-- VARIABLES -->
 	<SetVariable variable="lang" select="'Other'"/>
-	<SetVariable variable="prefnumber" select="''"/>
 	<SetVariable variable="pagesextra" select="'0'"/>
 	<SetVariable variable="newpagetype" select="'page1col'"/>
 	<SetVariable variable="gotold" select="'false'"/>
@@ -1362,10 +1343,7 @@ $fonts
 	<!-- BIBLE COPYRIGHT -->
 	<NewPage openon="left" pagetype="$page1colleft" />
 	<Bookmark level="1" select="'Copyright'" open="no" />
-	<PlaceObject row="$copyright_rowA" column="1"><Textblock><Paragraph textformat="center"><Fontface fontfamily='FF-Copy'>
-		<I><Value>Given to our family, friends, and fellowman for Christ’s victory of grace!</Value></I>
-	</Fontface></Paragraph></Textblock></PlaceObject>	
-	<PlaceObject row="$copyright_rowB" column="1"><Textblock>
+	<PlaceObject row="$copyright_row" column="1"><Textblock>
 		<Paragraph language="English (USA)" textformat="center" $bidi_center><Fontface fontfamily='FF-Copy'>
 			<I><Value>Holy Bible Aionian Edition ®</Value></I><Br />
 			$versionFO_CP
@@ -1391,40 +1369,25 @@ $fonts
 			</Case></Switch>
 	</Textblock></PlaceObject>
 	<Message select="concat('ABPROOFER $outpdf COPYRIGHT ',sd:current-page())" />
+	<NewPage openon="right" pagetype="$page1colright" />
+	<PlaceObject row="50" column="1"><Textblock><Paragraph textformat="center"><Fontface fontfamily='FF-Copy'>
+		<I><Value>Celebrate Jesus Christ’s victory of grace!</Value></I>
+	</Fontface></Paragraph></Textblock></PlaceObject>
 	
 	<!-- BIBLE PREFACE -->
 	<Switch><Case test="$keizer">
-		<SetVariable variable="prefnumber" select="'i'"    /><NewPage openon="right" pagetype="$pref1colright" /><Bookmark level="1" select="'$bm_pref'" open="no" /><Output area="area1col"><Text>$pref</Text></Output>
-		<SetVariable variable="prefnumber" select="'ii'"   /><NewPage openon="left"  pagetype="$pref1colleft"  /><Output area="area1col"><Text>$pref2</Text></Output>
-		<SetVariable variable="prefnumber" select="'iii'"  /><NewPage openon="right" pagetype="$pref1colright" /><PlaceObject row="1" column="1"><Image file='KEIZER-01$web72.jpg' width='76' /></PlaceObject>
-		<SetVariable variable="prefnumber" select="'iv'"   /><NewPage openon="left"  pagetype="$pref1colleft"  /><PlaceObject row="1" column="1"><Image file='KEIZER-02$web72.jpg' width='76' /></PlaceObject>
-		<SetVariable variable="prefnumber" select="'v'"    /><NewPage openon="right" pagetype="$pref1colright" /><PlaceObject row="1" column="1"><Image file='KEIZER-03$web72.jpg' width='76' /></PlaceObject>
-		<SetVariable variable="prefnumber" select="'vi'"   /><NewPage openon="left"  pagetype="$pref1colleft"  /><PlaceObject row="1" column="1"><Image file='KEIZER-04$web72.jpg' width='76' /></PlaceObject>
-		<SetVariable variable="prefnumber" select="'vii'"  /><NewPage openon="right" pagetype="$pref1colright" /><PlaceObject row="1" column="1"><Image file='KEIZER-05$web72.jpg' width='76' /></PlaceObject>
-		<SetVariable variable="prefnumber" select="'viii'" /><NewPage openon="left"  pagetype="$pref1colleft"  /><PlaceObject row="1" column="1"><Image file='KEIZER-06$web72.jpg' width='76' /></PlaceObject>
-		<SetVariable variable="prefnumber" select="'ix'"   /><NewPage openon="right" pagetype="$pref1colright" /><PlaceObject row="1" column="1"><Image file='KEIZER-07$web72.jpg' width='76' /></PlaceObject>
-		<SetVariable variable="prefnumber" select="'x'"    /><NewPage openon="left"  pagetype="$pref1colleft"  /><PlaceObject row="1" column="1"><Image file='KEIZER-08$web72.jpg' width='76' /></PlaceObject>
-		<SetVariable variable="prefnumber" select="'xi'"   /><NewPage openon="right" pagetype="$pref1colright" /><PlaceObject row="1" column="1"><Image file='KEIZER-09$web72.jpg' width='76' /></PlaceObject>
-		<SetVariable variable="prefnumber" select="'xii'"  /><NewPage openon="left"  pagetype="$pref1colleft"  /><PlaceObject row="1" column="1"><Image file='KEIZER-10$web72.jpg' width='76' /></PlaceObject>
-		<SetVariable variable="prefnumber" select="'xiii'" /><NewPage openon="right" pagetype="$pref1colright" /><PlaceObject row="1" column="1"><Image file='KEIZER-11$web72.jpg' width='76' /></PlaceObject>
-		<SetVariable variable="prefnumber" select="'xiv'"  /><NewPage openon="left"  pagetype="$pref1colleft"  /><PlaceObject row="1" column="1"><Image file='KEIZER-12$web72.jpg' width='76' /></PlaceObject>
-		<SetVariable variable="prefnumber" select="'xv'"   /><NewPage openon="right" pagetype="$pref1colright" /><PlaceObject row="1" column="1"><Image file='KEIZER-13$web72.jpg' width='76' /></PlaceObject>
-		<SetVariable variable="prefnumber" select="'xvi'"  /><NewPage openon="left"  pagetype="$pref1colleft"  /><PlaceObject row="1" column="1"><Image file='KEIZER-14$web72.jpg' width='76' /></PlaceObject>
-		<SetVariable variable="prefnumber" select="'xvii'" /><NewPage openon="right" pagetype="$pref1colright" /><PlaceObject row="1" column="1"><Image file='KEIZER-15$web72.jpg' width='76' /></PlaceObject>
-		<SetVariable variable="prefnumber" select="'xviii'"/><NewPage openon="left"  pagetype="$pref1colleft"  /><PlaceObject row="1" column="1"><Image file='KEIZER-16$web72.jpg' width='76' /></PlaceObject>
-		<SetVariable variable="prefnumber" select="'xix'"  /><NewPage openon="right" pagetype="$pref1colright" /><PlaceObject row="1" column="1"><Image file='KEIZER-17$web72.jpg' width='76' /></PlaceObject>
-		<SetVariable variable="prefnumber" select="'xx'"   /><NewPage openon="left"  pagetype="$pref1colleft"  /><PlaceObject row="1" column="1"><Image file='KEIZER-18$web72.jpg' width='76' /></PlaceObject>
-		<SetVariable variable="prefnumber" select="'xxi'"  /><NewPage openon="right" pagetype="$pref1colright" /><PlaceObject row="1" column="1"><Image file='KEIZER-19$web72.jpg' width='76' /></PlaceObject>
-		<SetVariable variable="prefnumber" select="''"  />
+		<NewPage openon="left" pagetype="$page1colleft" /><Bookmark level="1" select="'$bm_pref'" open="no" /><Output area="area1col"><Text>$pref</Text></Output>
+		<NewPage openon="right" pagetype="$page1colright"  /><Output area="area1col"><Text>$pref2</Text></Output>
 	</Case>
 	<Otherwise>
+		<NewPage openon="left" pagetype="$page1colleft"  />
 		<NewPage openon="right" pagetype="$page1colright" /><Bookmark level="1" select="'$bm_pref'" open="no" /><Output area="area1col"><Text>$pref</Text></Output>
 	</Otherwise>
 	</Switch>
 
 	<!-- BIBLE TOC -->
 	<SetVariable variable="newpagetype" select="'toc'"/>
-	<NewPage openon="right" pagetype="$page1colright" />
+	<NewPage openon="right" pagetype="$page1colright"  />
 	<InsertPages name="toc" pages="1" />
     <SetVariable variable="toc_variable"/>
 	<Message select="concat('ABPROOFER $outpdf TOC ',{ sd:current-page() - 1 })" />

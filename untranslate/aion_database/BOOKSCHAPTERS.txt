@@ -2,12 +2,12 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	MAP	FLAG
 # File Accuracy: Contact publisher with corrections to file format or content
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2021
-# File Date: 01/23/2021 13:49:03
+# File Date: 02/01/2021 12:13:41
 # File Generator: ABCMS (alpha)
 # File Location: http://resources.AionianBible.org
 # File Name: BOOKSCHAPTERS.txt
 # File Purpose: Supporting resource for the Aionian Bible project
-# File Size: 410931      
+# File Size: 407865      
 Holy-Bible---Aramaic---Aramaic-NT-Peshitta	066	REV	022	021	MISSING	END*
 Holy-Bible---Armenian---Armenian-Bible-Eastern	040	MAT	012	018	MISSING	MID
 Holy-Bible---Armenian---Armenian-Bible-Eastern	040	MAT	012	019	MISSING	MID-SEQ
@@ -5436,55 +5436,6 @@ Holy-Bible---Slovene---Slovene-Stritarja-NT	019	PSA	041	013	MISSING	END-SEQ*
 Holy-Bible---Slovene---Slovene-Stritarja-NT	019	PSA	099	008	MISSING	MID
 Holy-Bible---Slovene---Slovene-Stritarja-NT	019	PSA	099	009	MISSING	END-SEQ*
 Holy-Bible---Somali---Somali-Bible	064	3JO	001	015	EXTRA	END*
-Holy-Bible---Spanish---Free-Bible	001	GEN	042	012	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	002	EXO	029	020	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	003	LEV	011	031	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	003	LEV	015	023	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	003	LEV	017	005	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	003	LEV	017	006	MISSING	MID-SEQ
-Holy-Bible---Spanish---Free-Bible	003	LEV	019	003	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	003	LEV	019	004	MISSING	MID-SEQ
-Holy-Bible---Spanish---Free-Bible	003	LEV	019	028	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	003	LEV	020	002	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	003	LEV	020	003	MISSING	MID-SEQ
-Holy-Bible---Spanish---Free-Bible	003	LEV	020	004	MISSING	MID-SEQ
-Holy-Bible---Spanish---Free-Bible	003	LEV	021	010	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	003	LEV	024	010	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	003	LEV	024	011	MISSING	MID-SEQ
-Holy-Bible---Spanish---Free-Bible	003	LEV	026	002	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	003	LEV	026	003	MISSING	MID-SEQ
-Holy-Bible---Spanish---Free-Bible	003	LEV	027	003	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	004	NUM	008	016	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	004	NUM	009	002	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	004	NUM	009	018	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	004	NUM	010	028	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	004	NUM	013	026	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	004	NUM	014	023	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	004	NUM	015	032	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	004	NUM	022	007	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	004	NUM	027	017	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	004	NUM	028	005	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	004	NUM	028	015	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	004	NUM	028	019	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	004	NUM	029	008	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	004	NUM	033	055	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	005	DEU	003	015	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	005	DEU	006	004	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	005	DEU	010	002	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	005	DEU	014	005	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	005	DEU	014	013	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	005	DEU	018	011	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	005	DEU	027	006	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	005	DEU	027	008	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	005	DEU	029	013	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	005	DEU	030	013	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	005	DEU	030	014	MISSING	MID-SEQ
-Holy-Bible---Spanish---Free-Bible	005	DEU	030	017	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	019	PSA	018	020	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	019	PSA	022	020	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	019	PSA	060	005	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	019	PSA	068	014	MISSING	MID
-Holy-Bible---Spanish---Free-Bible	019	PSA	082	002	MISSING	MID
 Holy-Bible---Spanish---Free-Bible	040	MAT	017	021	MISSING	MID
 Holy-Bible---Spanish---Free-Bible	040	MAT	018	011	MISSING	MID
 Holy-Bible---Spanish---Free-Bible	040	MAT	023	014	MISSING	MID

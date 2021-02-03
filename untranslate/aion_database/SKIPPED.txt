@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 954509      
-# File Date: 01/23/2021 12:08:41
+# File Size: 955223      
+# File Date: 02/01/2021 10:40:20
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: http://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2021
@@ -5986,8 +5986,22 @@ Holy-Bible---Slovene---Slovene-Stritarja-NT	019	PSA	140	001	Načelniku godbe, ps
 Holy-Bible---Slovene---Slovene-Stritarja-NT	019	PSA	142	001	Pesem  ukovita Davidova, ko je bil v jami, molitev.
 Holy-Bible---Slovene---Slovene-Stritarja-NT	043	JOH	001	038	Obrnivši se pa Jezus, in ugledavši ju, da gresta za njim, reče jima:
 Holy-Bible---Slovene---Slovene-Stritarja-NT	064	3JO	001	014	Upam pa videti te skoraj, in govorila bodeva iz ust do ust.
-Holy-Bible---Spanish---Free-Bible	001	GEN	042	012	
+Holy-Bible---Spanish---Free-Bible	040	MAT	017	021	
+Holy-Bible---Spanish---Free-Bible	040	MAT	018	011	
+Holy-Bible---Spanish---Free-Bible	040	MAT	023	014	
+Holy-Bible---Spanish---Free-Bible	041	MAR	007	016	
+Holy-Bible---Spanish---Free-Bible	041	MAR	009	044	
+Holy-Bible---Spanish---Free-Bible	041	MAR	009	046	
+Holy-Bible---Spanish---Free-Bible	041	MAR	011	026	
+Holy-Bible---Spanish---Free-Bible	041	MAR	015	028	
+Holy-Bible---Spanish---Free-Bible	042	LUK	017	036	
+Holy-Bible---Spanish---Free-Bible	042	LUK	023	017	
+Holy-Bible---Spanish---Free-Bible	043	JOH	005	004	
+Holy-Bible---Spanish---Free-Bible	044	ACT	008	037	
+Holy-Bible---Spanish---Free-Bible	044	ACT	015	034	
+Holy-Bible---Spanish---Free-Bible	044	ACT	024	007	
 Holy-Bible---Spanish---Free-Bible	044	ACT	028	029	
+Holy-Bible---Spanish---Free-Bible	045	ROM	016	024	
 Holy-Bible---Spanish---Reina-Valera-1909	004	NUM	012	016	
 Holy-Bible---Spanish---Reina-Valera-1909	004	NUM	029	040	
 Holy-Bible---Spanish---Reina-Valera-1909	009	1SA	023	029	
