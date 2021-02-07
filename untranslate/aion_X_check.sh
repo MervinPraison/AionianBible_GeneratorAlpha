@@ -43,7 +43,7 @@ cp ../checksX/X-LONGLINE.txt ../www-stage/library/Holy-Bible---AAA---Versions---
 grep -P '`'		../www-stageresources/*Source-Edition.noia > ../checksX/PUNCTUATION-GRAVE.txt
 grep -P '~'		../www-stageresources/*Source-Edition.noia > ../checksX/PUNCTUATION-TILDE.txt
 grep -P '@'		../www-stageresources/*Source-Edition.noia > ../checksX/PUNCTUATION-AT.txt
-grep -P '#'		../www-stageresources/*Source-Edition.noia > ../checksX/PUNCTUATION-HASH.txt
+grep -P '#'		../www-stageresources/*Source-Edition.noia | sed -e '/# File Date: /d' > ../checksX/PUNCTUATION-HASH.txt
 grep -P '\$'	../www-stageresources/*Source-Edition.noia > ../checksX/PUNCTUATION-DOLLAR.txt
 grep -P '%'		../www-stageresources/*Source-Edition.noia > ../checksX/PUNCTUATION-PERCENT.txt
 grep -P '\^'	../www-stageresources/*Source-Edition.noia > ../checksX/PUNCTUATION-UPCAROT.txt
@@ -54,7 +54,7 @@ grep -P '\+'	../www-stageresources/*Source-Edition.noia > ../checksX/PUNCTUATION
 grep -P '='		../www-stageresources/*Source-Edition.noia | sed -e '/osisID=/d' -e '/ level="/d' -e '/ savlm="/d' -e '/ eID="/d' -e '/ sID="/d' -e '/ type="/d' -e '/ wn="/d' -e '/ n="/d' -e '/noia:[A-Z0-9\-]+$/d' | sort > ../checksX/PUNCTUATION-EQUALS.txt
 grep -P '\|'	../www-stageresources/*Source-Edition.noia > ../checksX/PUNCTUATION-PIPE.txt
 grep -P '\\'	../www-stageresources/*Source-Edition.noia > ../checksX/PUNCTUATION-BACKSLASH.txt
-grep -P '/'		../www-stageresources/*Source-Edition.noia | sed -e '/<\//d' -e '/\/>/d' > ../checksX/PUNCTUATION-FORESLASH.txt
+grep -P '/'		../www-stageresources/*Source-Edition.noia | sed -e '/# File Date: /d' > ../checksX/PUNCTUATION-FORESLASH.txt
 grep -P '[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]+'	../www-stageresources/*Source-Edition.noia > ../checksX/NOT-PRINTABLE.txt
 
 # STANDARD ################
@@ -86,7 +86,7 @@ cp ../checksX/X-LONGLINE-STD.txt ../www-stage/library/Holy-Bible---AAA---Version
 grep -P '`'		../www-stageresources/*Standard-Edition.noia > ../checksX/PUNCTUATION-GRAVE-STD.txt
 grep -P '~'		../www-stageresources/*Standard-Edition.noia > ../checksX/PUNCTUATION-TILDE-STD.txt
 grep -P '@'		../www-stageresources/*Standard-Edition.noia > ../checksX/PUNCTUATION-AT-STD.txt
-grep -P '#'		../www-stageresources/*Standard-Edition.noia > ../checksX/PUNCTUATION-HASH-STD.txt
+grep -P '#'		../www-stageresources/*Standard-Edition.noia | sed -e '/# File Date: /d' > ../checksX/PUNCTUATION-HASH-STD.txt
 grep -P '\$'	../www-stageresources/*Standard-Edition.noia > ../checksX/PUNCTUATION-DOLLAR-STD.txt
 grep -P '%'		../www-stageresources/*Standard-Edition.noia > ../checksX/PUNCTUATION-PERCENT-STD.txt
 grep -P '\^'	../www-stageresources/*Standard-Edition.noia > ../checksX/PUNCTUATION-UPCAROT-STD.txt
@@ -97,5 +97,5 @@ grep -P '\+'	../www-stageresources/*Standard-Edition.noia > ../checksX/PUNCTUATI
 grep -P '='		../www-stageresources/*Standard-Edition.noia > ../checksX/PUNCTUATION-EQUALS-STD.txt
 grep -P '\|'	../www-stageresources/*Standard-Edition.noia > ../checksX/PUNCTUATION-PIPE-STD.txt
 grep -P '\\'	../www-stageresources/*Standard-Edition.noia > ../checksX/PUNCTUATION-BACKSLASH-STD.txt
-grep -P '/'		../www-stageresources/*Standard-Edition.noia > ../checksX/PUNCTUATION-FORESLASH-STD.txt
+grep -P '/'		../www-stageresources/*Standard-Edition.noia | sed -e '/# File Date: /d' > ../checksX/PUNCTUATION-FORESLASH-STD.txt
 grep -P '[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]+'	../www-stageresources/*Standard-Edition.noia > ../checksX/NOT-PRINTABLE-STD.txt

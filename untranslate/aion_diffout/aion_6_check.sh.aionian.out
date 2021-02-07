@@ -106,7 +106,6 @@
 *** AION: UNTRANSLATE COMPARE TO STANDARD: Holy-Bible---Hawaiian---Hawaiian-Bible-1868
 *** AION: UNTRANSLATE COMPARE TO STANDARD: Holy-Bible---Hebrew---Hebrew-Aleppo-Codex
 *** AION: UNTRANSLATE COMPARE TO STANDARD: Holy-Bible---Hebrew---Hebrew-Masoretic-OT
-*** AION: UNTRANSLATE COMPARE TO STANDARD: Holy-Bible---Hebrew---Hebrew-Open-Scriptures
 *** AION: UNTRANSLATE COMPARE TO STANDARD: Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad
 *** AION: UNTRANSLATE COMPARE TO STANDARD: Holy-Bible---Hindi---Hindi-Bible
 *** AION: UNTRANSLATE COMPARE TO STANDARD: Holy-Bible---Hungarian---Hungarian-Karoli
@@ -176,7 +175,7 @@
 *** AION: UNTRANSLATE COMPARE TO STANDARD: Holy-Bible---Urdu---Urdu-Bible
 *** AION: UNTRANSLATE COMPARE TO STANDARD: Holy-Bible---Vietnamese---Vietnamese-Bible
 *** AION: UNTRANSLATE COMPARE TO STANDARD: Holy-Bible---Vietnamese---Vietnamese-Bible-1934
-*** AION: LOOP DONE! Function=AION_LOOP_CHECK_UNTRANSLATE_COMPARE_DOIT Files processed=175
+*** AION: LOOP DONE! Function=AION_LOOP_CHECK_UNTRANSLATE_COMPARE_DOIT Files processed=174
 *** AION: CREATE UNTRANSLATE MODULE
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Albanian-Tosk---Albanian-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible---Standard-Edition.noia
@@ -283,7 +282,6 @@
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Hawaiian---Hawaiian-Bible-1868---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Aleppo-Codex---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Masoretic-OT---Standard-Edition.noia
-*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Open-Scriptures---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Hindi---Hindi-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Hungarian---Hungarian-Karoli---Standard-Edition.noia
@@ -353,7 +351,7 @@
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Urdu---Urdu-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-Bible-1934---Standard-Edition.noia
-*** AION: LOOP DONE! Function=AION_LOOP_CHECK_UNTRANSLATE_MODULE_DOIT Files processed=175
+*** AION: LOOP DONE! Function=AION_LOOP_CHECK_UNTRANSLATE_MODULE_DOIT Files processed=174
 *** AION: DATA FILE CHECK
 *** AION: WARNING! SELAH! 019-PSA-003-002:	Shumë thonë për mua: “Nuk ka shpëtim për të pranë Perëndisë”. (Sela) 
 *** AION: WARNING! SELAH! 019-PSA-003-004:	Me zërin tim i thirra Zotit dhe ai m’u përgjigj nga mali i tij i shenjtë. (Sela) 
@@ -8473,7 +8471,7 @@
 *** AION: WARNING!!! BRACKET PROBLEM! 001-GEN-007-020:	Even the highest mountains were covered by more than (20 feet/6 meters) of water.
 *** AION: WARNING!!! BRACKET PROBLEM! 002-EXO-027-016:	They must make a curtain (30 feet/9 meters) long for the entrance. A skilled weaver must embroider it with blue, purple, and red yarn/thread. It must be (supported by/hung from) four posts, each one with a base under it.
 *** AION: WARNING!!! BRACKET PROBLEM! 002-EXO-038-009:	[Around the Sacred Tent] Bezalel and his helpers made a courtyard. To form the courtyard, they made curtains of fine white linen. On the south side, the curtain was (150 feet/46 meters) long.
-*** AION: WARNING!!! BRACKET PROBLEM! 002-EXO-038-012:	On the west side [of the courtyard], they made a curtain (75 feet/23 meters) long. They also made ten posts on which to hang the curtains, and ten bases, with silver hooks and [metal] rods [covered] with silver.
+*** AION: WARNING!!! BRACKET PROBLEM! 002-EXO-038-012:	On the west side [of the courtyard], they made a curtain (75 feet/23 meters) long. They also made ten posts on which to hang the curtains, and ten bases, with silver hooks and [metal] rods [covered with] silver.
 *** AION: WARNING!!! BRACKET PROBLEM! 002-EXO-038-013:	On the east side, [where the entrance is], the courtyard was (75 feet/23 meters) wide.
 *** AION: WARNING!!! BRACKET PROBLEM! 002-EXO-038-018:	For the entrance of the courtyard, they made a curtain from fine white linen, and a skilled weaver embroidered it with blue, purple, and red yarn/thread. The curtain was (30 feet/9 meters) long and (7-1/2 feet/2.3 meters) high, just like the other curtains around the courtyard.
 *** AION: WARNING!!! BRACKET PROBLEM! 004-NUM-011-031:	Then Yahweh sent a strong wind from the sea. It blew quail into the area all around the camp for miles in every direction, [and caused the quail to fall onto the ground]. They were piled up on the ground about (3 feet/1 meter) high!
@@ -8493,12 +8491,12 @@
 *** AION: WARNING!!! BRACKET PROBLEM! 027-DAN-003-001:	King Nebuchadnezzar ordered his men to make a gold statue. It was (90 feet/27 meters) high and (9 feet/2.7 meters) wide. They set it up in the Dura plain in Babylon province.
 *** AION: WARNING!!! BRACKET PROBLEM! 038-ZEC-005-002:	The angel asked me, “What do you see?” I replied, “I see a flying scroll that is [huge], (10 yards/9 meters) long and (5 yards/4.5 meters) wide.”
 *** AION: WARNING!!! BRACKET PROBLEM! 044-ACT-027-028:	So they lowered [a weight on a rope] to measure how deep [the water was]. When they pulled the rope up again, they measured it and saw that the water was (120 ft./37 meters) deep. They went a little farther and lowered the rope again. [That time], they saw that the water was [only] about (90 ft./28 meters) deep.
-*** AION: WARNING!!! BRACKET PROBLEM! 066-REV-021-017:	He measured its wall [and reported that it was] ( [216 ft./70 meters]) [thick] (OR, [high]). The angel used the measure that people [normally use].
+*** AION: WARNING!!! BRACKET PROBLEM! 066-REV-021-017:	He measured its wall [and reported that it was] ([216 ft./70 meters]) [thick] (OR, [high]). The angel used the measure that people [normally use].
 *** AION: WARNING!!! BRACKET PROBLEM! 001-GEN-006-016:	Make a roof for the boat. Leave a space of about (18 in./.5 meter) between the sides and the roof to let air and light enter (OR, the middle of the roof should be 18 inches higher than the sides). Build the boat with three decks inside, and put a door in one side.
 *** AION: WARNING!!! BRACKET PROBLEM! 001-GEN-007-020:	Even the highest mountains were covered by more than (20 feet/6 meters) of water.
 *** AION: WARNING!!! BRACKET PROBLEM! 002-EXO-027-016:	They must make a curtain (30 feet/9 meters) long for the entrance. A skilled weaver must embroider it with blue, purple, and red yarn/thread. It must be (supported by/hung from) four posts, each one with a base under it.
 *** AION: WARNING!!! BRACKET PROBLEM! 002-EXO-038-009:	[Around the Sacred Tent] Bezalel and his helpers made a courtyard. To form the courtyard, they made curtains of fine white linen. On the south side, the curtain was (150 feet/46 meters) long.
-*** AION: WARNING!!! BRACKET PROBLEM! 002-EXO-038-012:	On the west side [of the courtyard], they made a curtain (75 feet/23 meters) long. They also made ten posts on which to hang the curtains, and ten bases, with silver hooks and [metal] rods [covered] with silver.
+*** AION: WARNING!!! BRACKET PROBLEM! 002-EXO-038-012:	On the west side [of the courtyard], they made a curtain (75 feet/23 meters) long. They also made ten posts on which to hang the curtains, and ten bases, with silver hooks and [metal] rods [covered with] silver.
 *** AION: WARNING!!! BRACKET PROBLEM! 002-EXO-038-013:	On the east side, [where the entrance is], the courtyard was (75 feet/23 meters) wide.
 *** AION: WARNING!!! BRACKET PROBLEM! 002-EXO-038-018:	For the entrance of the courtyard, they made a curtain from fine white linen, and a skilled weaver embroidered it with blue, purple, and red yarn/thread. The curtain was (30 feet/9 meters) long and (7-1/2 feet/2.3 meters) high, just like the other curtains around the courtyard.
 *** AION: WARNING!!! BRACKET PROBLEM! 004-NUM-011-031:	Then Yahweh sent a strong wind from the sea. It blew quail into the area all around the camp for miles in every direction, [and caused the quail to fall onto the ground]. They were piled up on the ground about (3 feet/1 meter) high!
@@ -8518,12 +8516,12 @@
 *** AION: WARNING!!! BRACKET PROBLEM! 027-DAN-003-001:	King Nebuchadnezzar ordered his men to make a gold statue. It was (90 feet/27 meters) high and (9 feet/2.7 meters) wide. They set it up in the Dura plain in Babylon province.
 *** AION: WARNING!!! BRACKET PROBLEM! 038-ZEC-005-002:	The angel asked me, “What do you see?” I replied, “I see a flying scroll that is [huge], (10 yards/9 meters) long and (5 yards/4.5 meters) wide.”
 *** AION: WARNING!!! BRACKET PROBLEM! 044-ACT-027-028:	So they lowered [a weight on a rope] to measure how deep [the water was]. When they pulled the rope up again, they measured it and saw that the water was (120 ft./37 meters) deep. They went a little farther and lowered the rope again. [That time], they saw that the water was [only] about (90 ft./28 meters) deep.
-*** AION: WARNING!!! BRACKET PROBLEM! 066-REV-021-017:	He measured its wall [and reported that it was] ( [216 ft./70 meters]) [thick] (OR, [high]). The angel used the measure that people [normally use].
+*** AION: WARNING!!! BRACKET PROBLEM! 066-REV-021-017:	He measured its wall [and reported that it was] ([216 ft./70 meters]) [thick] (OR, [high]). The angel used the measure that people [normally use].
 *** AION: WARNING!!! BRACKET PROBLEM! 001-GEN-006-016:	Make a roof for the boat. Leave a space of about (18 in./.5 meter) between the sides and the roof to let air and light enter (OR, the middle of the roof should be 18 inches higher than the sides). Build the boat with three decks inside, and put a door in one side.
 *** AION: WARNING!!! BRACKET PROBLEM! 001-GEN-007-020:	Even the highest mountains were covered by more than (20 feet/6 meters) of water.
 *** AION: WARNING!!! BRACKET PROBLEM! 002-EXO-027-016:	They must make a curtain (30 feet/9 meters) long for the entrance. A skilled weaver must embroider it with blue, purple, and red yarn/thread. It must be (supported by/hung from) four posts, each one with a base under it.
 *** AION: WARNING!!! BRACKET PROBLEM! 002-EXO-038-009:	[Around the Sacred Tent] Bezalel and his helpers made a courtyard. To form the courtyard, they made curtains of fine white linen. On the south side, the curtain was (150 feet/46 meters) long.
-*** AION: WARNING!!! BRACKET PROBLEM! 002-EXO-038-012:	On the west side [of the courtyard], they made a curtain (75 feet/23 meters) long. They also made ten posts on which to hang the curtains, and ten bases, with silver hooks and [metal] rods [covered] with silver.
+*** AION: WARNING!!! BRACKET PROBLEM! 002-EXO-038-012:	On the west side [of the courtyard], they made a curtain (75 feet/23 meters) long. They also made ten posts on which to hang the curtains, and ten bases, with silver hooks and [metal] rods [covered with] silver.
 *** AION: WARNING!!! BRACKET PROBLEM! 002-EXO-038-013:	On the east side, [where the entrance is], the courtyard was (75 feet/23 meters) wide.
 *** AION: WARNING!!! BRACKET PROBLEM! 002-EXO-038-018:	For the entrance of the courtyard, they made a curtain from fine white linen, and a skilled weaver embroidered it with blue, purple, and red yarn/thread. The curtain was (30 feet/9 meters) long and (7-1/2 feet/2.3 meters) high, just like the other curtains around the courtyard.
 *** AION: WARNING!!! BRACKET PROBLEM! 004-NUM-011-031:	Then Yahweh sent a strong wind from the sea. It blew quail into the area all around the camp for miles in every direction, [and caused the quail to fall onto the ground]. They were piled up on the ground about (3 feet/1 meter) high!
@@ -8543,7 +8541,7 @@
 *** AION: WARNING!!! BRACKET PROBLEM! 027-DAN-003-001:	King Nebuchadnezzar ordered his men to make a gold statue. It was (90 feet/27 meters) high and (9 feet/2.7 meters) wide. They set it up in the Dura plain in Babylon province.
 *** AION: WARNING!!! BRACKET PROBLEM! 038-ZEC-005-002:	The angel asked me, “What do you see?” I replied, “I see a flying scroll that is [huge], (10 yards/9 meters) long and (5 yards/4.5 meters) wide.”
 *** AION: WARNING!!! BRACKET PROBLEM! 044-ACT-027-028:	So they lowered [a weight on a rope] to measure how deep [the water was]. When they pulled the rope up again, they measured it and saw that the water was (120 ft./37 meters) deep. They went a little farther and lowered the rope again. [That time], they saw that the water was [only] about (90 ft./28 meters) deep.
-*** AION: WARNING!!! BRACKET PROBLEM! 066-REV-021-017:	He measured its wall [and reported that it was] ( [216 ft./70 meters]) [thick] (OR, [high]). The angel used the measure that people [normally use].
+*** AION: WARNING!!! BRACKET PROBLEM! 066-REV-021-017:	He measured its wall [and reported that it was] ([216 ft./70 meters]) [thick] (OR, [high]). The angel used the measure that people [normally use].
 *** AION: DATA CHECK: aionian=30641 standard=30641 source=30643 file=../www-stageresources/Holy-Bible---English---Trans-Trans---Aionian-Edition.noia
 *** AION: WARNING! AION_LOOP_CHECKDATA_CLEANUP() preg_replace()==NULL: bible = Holy-Bible---English---Twentieth-Century-NT, 040 MAT 017 021
 *** AION: WARNING! SKIP BLANK! 040-MAT-017-021:	
@@ -14803,7 +14801,6 @@
 *** AION: DATA CHECK: aionian=31102 standard=31102 source=31102 file=../www-stageresources/Holy-Bible---Hawaiian---Hawaiian-Bible-1868---Aionian-Edition.noia
 *** AION: DATA CHECK: aionian=23121 standard=23121 source=23190 file=../www-stageresources/Holy-Bible---Hebrew---Hebrew-Aleppo-Codex---Aionian-Edition.noia
 *** AION: DATA CHECK: aionian=23144 standard=23144 source=23213 file=../www-stageresources/Holy-Bible---Hebrew---Hebrew-Masoretic-OT---Aionian-Edition.noia
-*** AION: DATA CHECK: aionian=23144 standard=23144 source=23213 file=../www-stageresources/Holy-Bible---Hebrew---Hebrew-Open-Scriptures---Aionian-Edition.noia
 *** AION: DATA CHECK: aionian=23144 standard=23144 source=23213 file=../www-stageresources/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad---Aionian-Edition.noia
 *** AION: DATA CHECK: aionian=31102 standard=31102 source=31105 file=../www-stageresources/Holy-Bible---Hindi---Hindi-Bible---Aionian-Edition.noia
 *** AION: WARNING! SELAH! 019-PSA-003-002:	Sokan mondják az én lelkem felől: Nincs számára segítség Istennél, (Szela) 
@@ -16356,15 +16353,27 @@
 *** AION: WARNING! AION_LOOP_CHECKDATA_CLEANUP() preg_replace()==NULL: bible = Holy-Bible---Latin---Vulgata-Sistina, 019 PSA 071 020
 *** AION: WARNING! SKIP BLANK! 019-PSA-071-020:	
 *** AION: DATA CHECK: aionian=31092 standard=31092 source=31454 file=../www-stageresources/Holy-Bible---Latin---Vulgata-Sistina---Aionian-Edition.noia
-*** AION: WARNING! AION_LOOP_CHECKDATA_CLEANUP() preg_replace()==NULL: bible = Holy-Bible---Latin---Vulgate-Jerome, 001 GEN 049 033
-*** AION: WARNING! SKIP BLANK! 001-GEN-049-033:	
-*** AION: WARNING! AION_LOOP_CHECKDATA_CLEANUP() preg_replace()==NULL: bible = Holy-Bible---Latin---Vulgate-Jerome, 022 SOL 001 001
-*** AION: WARNING! SKIP BLANK! 022-SOL-001-001:	
+*** AION: WARNING! AION_LOOP_CHECKDATA_CLEANUP() preg_replace()==NULL: bible = Holy-Bible---Latin---Vulgate-Jerome, 016 NEH 007 068
+*** AION: WARNING! SKIP BLANK! 016-NEH-007-068:	
+*** AION: WARNING! AION_LOOP_CHECKDATA_CLEANUP() preg_replace()==NULL: bible = Holy-Bible---Latin---Vulgate-Jerome, 040 MAT 023 014
+*** AION: WARNING! SKIP BLANK! 040-MAT-023-014:	
+*** AION: WARNING! AION_LOOP_CHECKDATA_CLEANUP() preg_replace()==NULL: bible = Holy-Bible---Latin---Vulgate-Jerome, 043 JOH 005 004
+*** AION: WARNING! SKIP BLANK! 043-JOH-005-004:	
+*** AION: WARNING! AION_LOOP_CHECKDATA_CLEANUP() preg_replace()==NULL: bible = Holy-Bible---Latin---Vulgate-Jerome, 044 ACT 008 037
+*** AION: WARNING! SKIP BLANK! 044-ACT-008-037:	
+*** AION: WARNING! AION_LOOP_CHECKDATA_CLEANUP() preg_replace()==NULL: bible = Holy-Bible---Latin---Vulgate-Jerome, 044 ACT 015 034
+*** AION: WARNING! SKIP BLANK! 044-ACT-015-034:	
+*** AION: WARNING! AION_LOOP_CHECKDATA_CLEANUP() preg_replace()==NULL: bible = Holy-Bible---Latin---Vulgate-Jerome, 044 ACT 018 004
+*** AION: WARNING! SKIP BLANK! 044-ACT-018-004:	
+*** AION: WARNING! AION_LOOP_CHECKDATA_CLEANUP() preg_replace()==NULL: bible = Holy-Bible---Latin---Vulgate-Jerome, 044 ACT 023 025
+*** AION: WARNING! SKIP BLANK! 044-ACT-023-025:	
+*** AION: WARNING! AION_LOOP_CHECKDATA_CLEANUP() preg_replace()==NULL: bible = Holy-Bible---Latin---Vulgate-Jerome, 044 ACT 024 007
+*** AION: WARNING! SKIP BLANK! 044-ACT-024-007:	
 *** AION: WARNING! AION_LOOP_CHECKDATA_CLEANUP() preg_replace()==NULL: bible = Holy-Bible---Latin---Vulgate-Jerome, 044 ACT 028 029
 *** AION: WARNING! SKIP BLANK! 044-ACT-028-029:	
 *** AION: WARNING! AION_LOOP_CHECKDATA_CLEANUP() preg_replace()==NULL: bible = Holy-Bible---Latin---Vulgate-Jerome, 045 ROM 016 024
 *** AION: WARNING! SKIP BLANK! 045-ROM-016-024:	
-*** AION: DATA CHECK: aionian=31086 standard=31086 source=31093 file=../www-stageresources/Holy-Bible---Latin---Vulgate-Jerome---Aionian-Edition.noia
+*** AION: DATA CHECK: aionian=31019 standard=31019 source=31108 file=../www-stageresources/Holy-Bible---Latin---Vulgate-Jerome---Aionian-Edition.noia
 *** AION: WARNING! SELAH! 019-PSA-003-002:	Daudz saka uz manu dvēseli: tai pestīšanas nav pie Dieva.(Sela.)
 *** AION: WARNING! SELAH! 019-PSA-003-004:	Es piesaucu To Kungu ar savu balsi, un Viņš mani paklausa no Sava svētā kalna. (Sela) 
 *** AION: WARNING! SELAH! 019-PSA-003-008:	Pie Tā Kunga ir pestīšana!  Tava svētība pār Taviem ļaudīm! (Sela) 
@@ -16579,13 +16588,217 @@
 *** AION: WARNING! SELAH! 035-HAB-003-009:	Tavs stops izvilkts spīd, rīkste, vārdos zvērēta (Sela) Zemi Tu skaldi upēs.
 *** AION: WARNING! SELAH! 035-HAB-003-013:	Tu izej, glābt Savus ļaudis, glābt Savu svaidīto, Tu satrieci bezdievīgā nama galvu, atsegdams pamatu līdz pat kaklam. (Sela) 
 *** AION: DATA CHECK: aionian=31102 standard=31102 source=31102 file=../www-stageresources/Holy-Bible---Latvian---Latvian-Gluck-Bible---Aionian-Edition.noia
-*** AION: WARNING! SELAH! 035-HAB-003-003:	Tamy avy any Temana Andriamanitra, Dia ny iray Masina avy any an-tendrombohitra Parana. (Sela) Manarona ny lanitra ny voninahiny, Ary manenika ny tany ny fiderana Azy.
-*** AION: WARNING! SELAH! 035-HAB-003-009:	Nalan-tsarona ny tsipìkanao; Efa nianianana ny fikapohan'ny teny. (Sela) Namakivaky ny tany Hianao mba hisy ony.
-*** AION: WARNING! SELAH! 035-HAB-003-003:	Tamy avy any Temana Andriamanitra, Dia ny iray Masina avy any an-tendrombohitra Parana. (Sela) Manarona ny lanitra ny voninahiny, Ary manenika ny tany ny fiderana Azy.
-*** AION: WARNING! SELAH! 035-HAB-003-009:	Nalan-tsarona ny tsipìkanao; Efa nianianana ny fikapohan'ny teny. (Sela) Namakivaky ny tany Hianao mba hisy ony.
-*** AION: WARNING! SELAH! 035-HAB-003-003:	Tamy avy any Temana Andriamanitra, Dia ny iray Masina avy any an-tendrombohitra Parana. (Sela) Manarona ny lanitra ny voninahiny, Ary manenika ny tany ny fiderana Azy.
-*** AION: WARNING! SELAH! 035-HAB-003-009:	Nalan-tsarona ny tsipìkanao; Efa nianianana ny fikapohan'ny teny. (Sela) Namakivaky ny tany Hianao mba hisy ony.
-*** AION: DATA CHECK: aionian=31088 standard=31088 source=31088 file=../www-stageresources/Holy-Bible---Malagasy---Malagasy-Bible---Aionian-Edition.noia
+*** AION: WARNING! SELAH! 019-PSA-003-002:	Maro no milaza ny fanahiko hoe: tsy manam-pamonjena amin’ Andriamanitra izy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-003-005:	Izaho nandry ka natory; nifoha aho, satria Jehovah no manohana ahy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-003-008:	An’ i Jehovah ny famonjena; Ho amin’ ny olonao anie ny fitahianao. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-004-002:	Ry lehibe, mandra-pahoviana no hataonareo ho henatra ny voninahitro, ary ho tia zava-poana sy hamoron-dainga ianareo? (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-004-004:	Tezera, fa aza manota; mieritrereta eo am-pandrianareo, ka mangìna. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-007-005:	Dia aoka ny fahavalo hanenjika ny fanahiko ka hahatratra azy; eny, aoka izy hanitsaka ny aiko amin’ ny tany, ary hampandry ny voninahitro amin’ ny vovoka. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-009-020:	Asio fampahatahorana izy, Jehovah ô; aoka ho fantatry ny jentilisa fa olona ihany izy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-020-003:	Hahatsiaro ny fanatitra hohaninao rehetra anie Izy, ary hankasitraka ny fanatitra doranao. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-021-002:	Ny nirin’ ny fony dia nomenao azy, ary ny nangatahin’ ny molony tsy mba nolavinao. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-024-006:	Izany no taranaka mitady Azy, izay mitady ny tavanao, dia Jakoba. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-024-010:	Iza ary izao Mpanjakan’ ny voninahitra izao?  Jehovah, Tompon’ ny maro, Izy no Mpanjakan’ ny voninahitra. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-032-004:	Fa efa navesatra tamiko andro aman’ alina ny tananao; niova ny fahatanjahako toy ny azon’ ny fahamainana amin’ ny lohataona. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-032-005:	Ny fahotako nambarako taminao, ary ny heloko tsy mba nafeniko.  Hoy izaho: hiaiky ny fahadisoako amin’ i Jehovah aho; ary Hianao dia namela ny heloky ny fahotako. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-032-007:	Hianao no fiereko, miaro ahy tsy ho azon’ ny fahoriana Hianao; fihobiam-pamonjena no ahodidinao ahy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-039-005:	Indro efa nataonao vodivoam-pelatanana ny androko, ary ny fiainako toy ny tsinontsinona eo anatrehanao.  Zava-poana ihany tokoa ny olon-drehetra, na dia matanjaka aza. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-039-011:	Anatra noho ny fahadisoany no ananaranao ny olona, ka manimba ny hatsaran-tarehiny tahaka ny kalalao ianao; zava-poana tokoa ny olona rehetra. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-044-008:	Andriamanitra no ankalazainay mandrakariva; ary ny anaranao no hoderainay mandrakizay. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-046-003:	Na mirohondrohona sy misamboaravoara aza ny onjany, ka mihorohoro ny tendrombohitra noho ny fisafoakany. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-046-007:	Jehovah, Tompon’ ny maro, no momba antsika; Andriamanitr’ i Jakoba no fiarovana avo ho antsika. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-046-011:	Jehovah, Tompon’ ny maro, no momba antsika; Andriamanitr’ i Jakoba no aro ho antsika. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-047-004:	Mifidy ny lovantsika ho antsika Izy, dia ny voninahitr’ i Jakoba izay tiany. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-048-008:	Araka izay efa rentsika no hitantsika, tao an-tanànan’ i Jehovah, Tompon’ ny maro, tao an-tanànan’ Andriamanitsika.  Andriamanitra mampitoetra azy mandrakizay. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-049-013:	Izany no falehan’ ny olona adala; ary ny taranany mandimby azy mankasitraka ny teniny. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-049-015:	Fa Andriamanitra kosa hamonjy ny aiko amin’ ny herin’ ny fiainan-tsi-hita, Satria handray ahy Izy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-050-006:	Hasehon’ ny lanitra ny fahamarinany; fa Andriamanitra no Mpitsara. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-052-003:	Efa tia ny ratsy noho ny tsara ianao, ary ny lainga noho ny miteny ny marina. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-052-005:	Andriamanitra kosa hanimba anao mandrakizay; hisambotra anao sy hanongotra anao hiala ao an-day Izy, ary hamongotra anao tsy ho eo amin’ ny tanin’ ny velona. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-054-003:	Fa olona hafa firenena no mitsangana hamely ahy, ary olon-dozabe no mitady ny aiko; tsy mihevitra an’ Andriamanitra ho eo anatrehany izy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-055-007:	Eny, handositra lavitra aho ka hitoetra any an-efitra. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-055-019:	Hihaino Andriamanitra, Izay mipetraka hatramin’ ny taloha, (Sela) ka hamaly ireo olona tsy miova toetra, sady tsy matahotra an’ Andriamanitra.
+*** AION: WARNING! SELAH! 019-PSA-057-003:	Haniraka avy any an-danitra Izy ka hamonjy ahy, raha miteny ratsy izay misafoaka manenjika ahy. (Sela) Eny, Andriamanitra haniraka ny famindram-pony sy ny fahamarinany.
+*** AION: WARNING! SELAH! 019-PSA-057-006:	Efa namela-pandrika harato haningotra ny diako izy, ary nampitanondrika ny fanahiko; nihady lavaka teo anoloako izy, kanjo ny tenany ihany no latsaka ao anatiny. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-059-005:	Ary Hianao, Jehovah ô, Andriamanitry ny maro, Andriamanitry ny Isiraely, mifohaza hitsara ny firenen-tsamy hafa; aza mamindra fo amin’ izay mpivadika ratsy fanahy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-059-013:	Aringano an-katezerana izy, aringano mba tsy ho ao intsony; ary aoka ho fantany fa Andriamanitra no manapaka eo amin’ ny Jakoba ka hatramin’ ny faran’ ny tany. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-060-004:	Efa notoloranao faneva ny matahotra Anao, hatsangany noho ny fahamarinana. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-062-004:	Misaina hanongana azy hiala amin’ ny voninahiny ireny; lainga no ifaliany, misaotra amin’ ny vavany izy, fa manozona amy ny fony. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-062-008:	Matokia Azy mandrakariva ianareo, ry olona; loary eo anatrehany ny fonareo; Andriamanitra no aro ho antsika. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-066-004:	Ny tany rehetra hiankohoka eo anatrehanao ka hankalaza Anao; eny, hankalaza ny anaranao izy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-066-007:	Manjaka mandrakizay amin’ ny heriny Izy, ary ny masony mandinika ny firenen-tsamy hafa; aoka tsy hanandra-tena ny maditra. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-066-015:	Hateriko aminao ho fanatitra dorana ny matavy mbamin’ ny setroky ny ondrilahy; hanatitra omby sy osilahy aho. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-067-001:	Ho an’ ny mpiventy hira.  Hampiarahina amin’ ny valiha.  Salamo.  Tonon-kira.  Andriamanitra anie hamindra fo aminay sy hitahy anay; (Sela) hampamirapiratra ny tavany aminay anie Izy;
+*** AION: WARNING! SELAH! 019-PSA-067-004:	Hifaly sy hihoby ny firenentsamy hafa, Satria mitsara marina ny firenena Hianao; ny firenen-tsamy hafa ambonin’ ny tany dia entinao. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-068-007:	Andriamanitra ô, raha nandeha teo alohan’ ny olonao Hianao ka namaky ny efitra, (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-068-019:	Isaorana anie ny Tompo Izay mitondra ny entan-tsika isan’ andro isan’ andro, eny, Andriamanitra Izay famonjena antsika. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-068-032:	Ry fanjakana ambonin’ ny tany, mihirà ho an’ Andriamanitra; mankalazà ny Tompo, (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-075-003:	Mihorohoro ny tany sy ny mponina rehetra eo aminy, nefa Izaho no nanorina ny andriny. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-076-003:	Teo no nanapatapahany ny zana-tsipìka manelatra, sy ny ampinga sy ny sabatra ary ny fiadiana. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-076-009:	Raha nitsangana hitsara Andriamanitra mba hamonjy ny mpandefitra rehetra ambonin’ ny tany. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-077-003:	Ta-hahatsiaro an’ Andriamanitra aho, ka dia nisento; te-hieritreritra aho, ka dia reraka ny fanahiko. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-077-009:	Efa nanadino hamindra fo va Andriamanitra?  Efa nohidiany an-katezerana va ny fiantràny? (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-077-015:	Navotan’ ny sandrinao ny olonao, dia ny taranak’ i Jakoba sy Josefa. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-081-007:	Fony azom-pahoriana ianao, dia niantso Ahy, ka namonjy anao Aho; namaly anao tao amin’ ny fiafenan’ ny kotrokorana Aho, ary nizaha toetra anao tao amin’ ny ranon’ i Meriba. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-082-002:	Mandra-pahoviana no hitsarànareo tsy marina ka ihenaranareo maso ny ratsy fanahy? (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-083-008:	Ny Asyriana koa nikambana taminy; tonga sandrin’ ny taranak’ i Lota ireo. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-084-004:	Sambatra izay mitoetra ao an-tranonao; hidera Anao mandrakariva izy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-084-008:	Jehovah, Andriamanitry ny maro ô, henoy ny fivavako; mandrenesa ry Andriamanitr’ i Jakoba ô. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-085-002:	Voaisotrao ny heloky ny olonao, Voasaronao ny fahotany rehetra. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-087-003:	Zava-malaza no anambarana anao Ry tanànan’ Andriamanitra. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-087-006:	Jehovah hanisa, raha manoratra ny firenena Izy: Ity no efa teraka teo. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-088-007:	Ny fahatezeranao manindry ahy mafy, Ary ny alon-dranonao rehetra azeranao amiko. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-089-004:	Hampitoetra ny taranakao ho mandrakizay Aho Ka hanangana ny seza fiandriananao hatramin’ ny taranaka fara mandimby.” (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-089-037:	Hampitoerina mandrakizay tahaka ny volana izy, Tahaka ny vavolombelona marina any an-danitra. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-089-045:	Efa nahafohy ny andron’ ny fahatanorany Hianao Ary efa nanaron-kenatra azy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-089-048:	Iza no olona ho velona tsy hahita fahafatesana, Fa hamonjy ny fanahiny tsy ho azon’ ny tanan’ ny fiainan-tsi-hita? (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-140-003:	Mandranitra ny lelany tahaka ny bibilava izy, Ny poizin’ ny menarana no ao ambanin’ ny molony. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-140-008:	Jehovah ô, aza manome ny irin’ ny ratsy fanahy; Ary aza avela ho tanteraka ny hevi-dratsiny, fandrao hisandratra izy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-143-006:	Mananty tanana aminao aho; Ny fanahiko dia tahaka ny tany mangetana eo anatrehanao. (Sela) 
+*** AION: WARNING! SELAH! 035-HAB-003-003:	Tamy avy any Temana Andriamanitra, Dia ny iray Masìna avy any an-tendrombohitra Parana. (Sela) Manarona ny lanitra ny voninahiny, Ary manenika ny tany ny fiderana Azy.
+*** AION: WARNING! SELAH! 035-HAB-003-009:	Nalan-tsarona ny tsipìkanao; Efa nianianana ny fikapohan’ ny teny. (Sela) Namakivaky ny tany Hianao mba hisy ony.
+*** AION: WARNING! SELAH! 035-HAB-003-013:	Mivoaka hamonjy ny olonao Hianao, dia hamonjy ny voahosotrao; Torotoroinao ny tapenaky ny tranon’ ny ratsy fanahy, Ka ahariharinao hatreo an-tenatenany ny fanorenany. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-003-002:	Maro no milaza ny fanahiko hoe: tsy manam-pamonjena amin’ Andriamanitra izy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-003-005:	Izaho nandry ka natory; nifoha aho, satria Jehovah no manohana ahy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-003-008:	An’ i Jehovah ny famonjena; Ho amin’ ny olonao anie ny fitahianao. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-004-002:	Ry lehibe, mandra-pahoviana no hataonareo ho henatra ny voninahitro, ary ho tia zava-poana sy hamoron-dainga ianareo? (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-004-004:	Tezera, fa aza manota; mieritrereta eo am-pandrianareo, ka mangìna. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-007-005:	Dia aoka ny fahavalo hanenjika ny fanahiko ka hahatratra azy; eny, aoka izy hanitsaka ny aiko amin’ ny tany, ary hampandry ny voninahitro amin’ ny vovoka. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-009-020:	Asio fampahatahorana izy, Jehovah ô; aoka ho fantatry ny jentilisa fa olona ihany izy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-020-003:	Hahatsiaro ny fanatitra hohaninao rehetra anie Izy, ary hankasitraka ny fanatitra doranao. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-021-002:	Ny nirin’ ny fony dia nomenao azy, ary ny nangatahin’ ny molony tsy mba nolavinao. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-024-006:	Izany no taranaka mitady Azy, izay mitady ny tavanao, dia Jakoba. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-024-010:	Iza ary izao Mpanjakan’ ny voninahitra izao?  Jehovah, Tompon’ ny maro, Izy no Mpanjakan’ ny voninahitra. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-032-004:	Fa efa navesatra tamiko andro aman’ alina ny tananao; niova ny fahatanjahako toy ny azon’ ny fahamainana amin’ ny lohataona. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-032-005:	Ny fahotako nambarako taminao, ary ny heloko tsy mba nafeniko.  Hoy izaho: hiaiky ny fahadisoako amin’ i Jehovah aho; ary Hianao dia namela ny heloky ny fahotako. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-032-007:	Hianao no fiereko, miaro ahy tsy ho azon’ ny fahoriana Hianao; fihobiam-pamonjena no ahodidinao ahy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-039-005:	Indro efa nataonao vodivoam-pelatanana ny androko, ary ny fiainako toy ny tsinontsinona eo anatrehanao.  Zava-poana ihany tokoa ny olon-drehetra, na dia matanjaka aza. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-039-011:	Anatra noho ny fahadisoany no ananaranao ny olona, ka manimba ny hatsaran-tarehiny tahaka ny kalalao ianao; zava-poana tokoa ny olona rehetra. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-044-008:	Andriamanitra no ankalazainay mandrakariva; ary ny anaranao no hoderainay mandrakizay. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-046-003:	Na mirohondrohona sy misamboaravoara aza ny onjany, ka mihorohoro ny tendrombohitra noho ny fisafoakany. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-046-007:	Jehovah, Tompon’ ny maro, no momba antsika; Andriamanitr’ i Jakoba no fiarovana avo ho antsika. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-046-011:	Jehovah, Tompon’ ny maro, no momba antsika; Andriamanitr’ i Jakoba no aro ho antsika. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-047-004:	Mifidy ny lovantsika ho antsika Izy, dia ny voninahitr’ i Jakoba izay tiany. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-048-008:	Araka izay efa rentsika no hitantsika, tao an-tanànan’ i Jehovah, Tompon’ ny maro, tao an-tanànan’ Andriamanitsika.  Andriamanitra mampitoetra azy mandrakizay. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-049-013:	Izany no falehan’ ny olona adala; ary ny taranany mandimby azy mankasitraka ny teniny. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-049-015:	Fa Andriamanitra kosa hamonjy ny aiko amin’ ny herin’ ny fiainan-tsi-hita, Satria handray ahy Izy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-050-006:	Hasehon’ ny lanitra ny fahamarinany; fa Andriamanitra no Mpitsara. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-052-003:	Efa tia ny ratsy noho ny tsara ianao, ary ny lainga noho ny miteny ny marina. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-052-005:	Andriamanitra kosa hanimba anao mandrakizay; hisambotra anao sy hanongotra anao hiala ao an-day Izy, ary hamongotra anao tsy ho eo amin’ ny tanin’ ny velona. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-054-003:	Fa olona hafa firenena no mitsangana hamely ahy, ary olon-dozabe no mitady ny aiko; tsy mihevitra an’ Andriamanitra ho eo anatrehany izy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-055-007:	Eny, handositra lavitra aho ka hitoetra any an-efitra. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-055-019:	Hihaino Andriamanitra, Izay mipetraka hatramin’ ny taloha, (Sela) ka hamaly ireo olona tsy miova toetra, sady tsy matahotra an’ Andriamanitra.
+*** AION: WARNING! SELAH! 019-PSA-057-003:	Haniraka avy any an-danitra Izy ka hamonjy ahy, raha miteny ratsy izay misafoaka manenjika ahy. (Sela) Eny, Andriamanitra haniraka ny famindram-pony sy ny fahamarinany.
+*** AION: WARNING! SELAH! 019-PSA-057-006:	Efa namela-pandrika harato haningotra ny diako izy, ary nampitanondrika ny fanahiko; nihady lavaka teo anoloako izy, kanjo ny tenany ihany no latsaka ao anatiny. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-059-005:	Ary Hianao, Jehovah ô, Andriamanitry ny maro, Andriamanitry ny Isiraely, mifohaza hitsara ny firenen-tsamy hafa; aza mamindra fo amin’ izay mpivadika ratsy fanahy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-059-013:	Aringano an-katezerana izy, aringano mba tsy ho ao intsony; ary aoka ho fantany fa Andriamanitra no manapaka eo amin’ ny Jakoba ka hatramin’ ny faran’ ny tany. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-060-004:	Efa notoloranao faneva ny matahotra Anao, hatsangany noho ny fahamarinana. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-062-004:	Misaina hanongana azy hiala amin’ ny voninahiny ireny; lainga no ifaliany, misaotra amin’ ny vavany izy, fa manozona amy ny fony. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-062-008:	Matokia Azy mandrakariva ianareo, ry olona; loary eo anatrehany ny fonareo; Andriamanitra no aro ho antsika. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-066-004:	Ny tany rehetra hiankohoka eo anatrehanao ka hankalaza Anao; eny, hankalaza ny anaranao izy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-066-007:	Manjaka mandrakizay amin’ ny heriny Izy, ary ny masony mandinika ny firenen-tsamy hafa; aoka tsy hanandra-tena ny maditra. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-066-015:	Hateriko aminao ho fanatitra dorana ny matavy mbamin’ ny setroky ny ondrilahy; hanatitra omby sy osilahy aho. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-067-001:	Ho an’ ny mpiventy hira.  Hampiarahina amin’ ny valiha.  Salamo.  Tonon-kira.  Andriamanitra anie hamindra fo aminay sy hitahy anay; (Sela) hampamirapiratra ny tavany aminay anie Izy;
+*** AION: WARNING! SELAH! 019-PSA-067-004:	Hifaly sy hihoby ny firenentsamy hafa, Satria mitsara marina ny firenena Hianao; ny firenen-tsamy hafa ambonin’ ny tany dia entinao. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-068-007:	Andriamanitra ô, raha nandeha teo alohan’ ny olonao Hianao ka namaky ny efitra, (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-068-019:	Isaorana anie ny Tompo Izay mitondra ny entan-tsika isan’ andro isan’ andro, eny, Andriamanitra Izay famonjena antsika. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-068-032:	Ry fanjakana ambonin’ ny tany, mihirà ho an’ Andriamanitra; mankalazà ny Tompo, (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-075-003:	Mihorohoro ny tany sy ny mponina rehetra eo aminy, nefa Izaho no nanorina ny andriny. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-076-003:	Teo no nanapatapahany ny zana-tsipìka manelatra, sy ny ampinga sy ny sabatra ary ny fiadiana. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-076-009:	Raha nitsangana hitsara Andriamanitra mba hamonjy ny mpandefitra rehetra ambonin’ ny tany. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-077-003:	Ta-hahatsiaro an’ Andriamanitra aho, ka dia nisento; te-hieritreritra aho, ka dia reraka ny fanahiko. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-077-009:	Efa nanadino hamindra fo va Andriamanitra?  Efa nohidiany an-katezerana va ny fiantràny? (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-077-015:	Navotan’ ny sandrinao ny olonao, dia ny taranak’ i Jakoba sy Josefa. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-081-007:	Fony azom-pahoriana ianao, dia niantso Ahy, ka namonjy anao Aho; namaly anao tao amin’ ny fiafenan’ ny kotrokorana Aho, ary nizaha toetra anao tao amin’ ny ranon’ i Meriba. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-082-002:	Mandra-pahoviana no hitsarànareo tsy marina ka ihenaranareo maso ny ratsy fanahy? (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-083-008:	Ny Asyriana koa nikambana taminy; tonga sandrin’ ny taranak’ i Lota ireo. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-084-004:	Sambatra izay mitoetra ao an-tranonao; hidera Anao mandrakariva izy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-084-008:	Jehovah, Andriamanitry ny maro ô, henoy ny fivavako; mandrenesa ry Andriamanitr’ i Jakoba ô. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-085-002:	Voaisotrao ny heloky ny olonao, Voasaronao ny fahotany rehetra. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-087-003:	Zava-malaza no anambarana anao Ry tanànan’ Andriamanitra. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-087-006:	Jehovah hanisa, raha manoratra ny firenena Izy: Ity no efa teraka teo. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-088-007:	Ny fahatezeranao manindry ahy mafy, Ary ny alon-dranonao rehetra azeranao amiko. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-089-004:	Hampitoetra ny taranakao ho mandrakizay Aho Ka hanangana ny seza fiandriananao hatramin’ ny taranaka fara mandimby.” (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-089-037:	Hampitoerina mandrakizay tahaka ny volana izy, Tahaka ny vavolombelona marina any an-danitra. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-089-045:	Efa nahafohy ny andron’ ny fahatanorany Hianao Ary efa nanaron-kenatra azy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-089-048:	Iza no olona ho velona tsy hahita fahafatesana, Fa hamonjy ny fanahiny tsy ho azon’ ny tanan’ ny fiainan-tsi-hita? (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-140-003:	Mandranitra ny lelany tahaka ny bibilava izy, Ny poizin’ ny menarana no ao ambanin’ ny molony. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-140-008:	Jehovah ô, aza manome ny irin’ ny ratsy fanahy; Ary aza avela ho tanteraka ny hevi-dratsiny, fandrao hisandratra izy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-143-006:	Mananty tanana aminao aho; Ny fanahiko dia tahaka ny tany mangetana eo anatrehanao. (Sela) 
+*** AION: WARNING! SELAH! 035-HAB-003-003:	Tamy avy any Temana Andriamanitra, Dia ny iray Masìna avy any an-tendrombohitra Parana. (Sela) Manarona ny lanitra ny voninahiny, Ary manenika ny tany ny fiderana Azy.
+*** AION: WARNING! SELAH! 035-HAB-003-009:	Nalan-tsarona ny tsipìkanao; Efa nianianana ny fikapohan’ ny teny. (Sela) Namakivaky ny tany Hianao mba hisy ony.
+*** AION: WARNING! SELAH! 035-HAB-003-013:	Mivoaka hamonjy ny olonao Hianao, dia hamonjy ny voahosotrao; Torotoroinao ny tapenaky ny tranon’ ny ratsy fanahy, Ka ahariharinao hatreo an-tenatenany ny fanorenany. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-003-003:	Maro no milaza ny fanahiko hoe: tsy manam-pamonjena amin’ Andriamanitra izy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-003-006:	Izaho nandry ka natory; nifoha aho, satria Jehovah no manohana ahy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-003-009:	An’ i Jehovah ny famonjena; Ho amin’ ny olonao anie ny fitahianao. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-004-003:	Ry lehibe, mandra-pahoviana no hataonareo ho henatra ny voninahitro, ary ho tia zava-poana sy hamoron-dainga ianareo? (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-004-005:	Tezera, fa aza manota; mieritrereta eo am-pandrianareo, ka mangìna. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-007-006:	Dia aoka ny fahavalo hanenjika ny fanahiko ka hahatratra azy; eny, aoka izy hanitsaka ny aiko amin’ ny tany, ary hampandry ny voninahitro amin’ ny vovoka. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-009-021:	Asio fampahatahorana izy, Jehovah ô; aoka ho fantatry ny jentilisa fa olona ihany izy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-020-004:	Hahatsiaro ny fanatitra hohaninao rehetra anie Izy, ary hankasitraka ny fanatitra doranao. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-021-003:	Ny nirin’ ny fony dia nomenao azy, ary ny nangatahin’ ny molony tsy mba nolavinao. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-024-006:	Izany no taranaka mitady Azy, izay mitady ny tavanao, dia Jakoba. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-024-010:	Iza ary izao Mpanjakan’ ny voninahitra izao?  Jehovah, Tompon’ ny maro, Izy no Mpanjakan’ ny voninahitra. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-032-004:	Fa efa navesatra tamiko andro aman’ alina ny tananao; niova ny fahatanjahako toy ny azon’ ny fahamainana amin’ ny lohataona. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-032-005:	Ny fahotako nambarako taminao, ary ny heloko tsy mba nafeniko.  Hoy izaho: hiaiky ny fahadisoako amin’ i Jehovah aho; ary Hianao dia namela ny heloky ny fahotako. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-032-007:	Hianao no fiereko, miaro ahy tsy ho azon’ ny fahoriana Hianao; fihobiam-pamonjena no ahodidinao ahy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-039-006:	Indro efa nataonao vodivoam-pelatanana ny androko, ary ny fiainako toy ny tsinontsinona eo anatrehanao.  Zava-poana ihany tokoa ny olon-drehetra, na dia matanjaka aza. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-039-012:	Anatra noho ny fahadisoany no ananaranao ny olona, ka manimba ny hatsaran-tarehiny tahaka ny kalalao ianao; zava-poana tokoa ny olona rehetra. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-044-009:	Andriamanitra no ankalazainay mandrakariva; ary ny anaranao no hoderainay mandrakizay. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-046-004:	Na mirohondrohona sy misamboaravoara aza ny onjany, ka mihorohoro ny tendrombohitra noho ny fisafoakany. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-046-008:	Jehovah, Tompon’ ny maro, no momba antsika; Andriamanitr’ i Jakoba no fiarovana avo ho antsika. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-046-012:	Jehovah, Tompon’ ny maro, no momba antsika; Andriamanitr’ i Jakoba no aro ho antsika. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-047-005:	Mifidy ny lovantsika ho antsika Izy, dia ny voninahitr’ i Jakoba izay tiany. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-048-009:	Araka izay efa rentsika no hitantsika, tao an-tanànan’ i Jehovah, Tompon’ ny maro, tao an-tanànan’ Andriamanitsika.  Andriamanitra mampitoetra azy mandrakizay. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-049-014:	Izany no falehan’ ny olona adala; ary ny taranany mandimby azy mankasitraka ny teniny. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-049-016:	Fa Andriamanitra kosa hamonjy ny aiko amin’ ny herin’ ny fiainan-tsi-hita, Satria handray ahy Izy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-050-006:	Hasehon’ ny lanitra ny fahamarinany; fa Andriamanitra no Mpitsara. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-052-005:	Efa tia ny ratsy noho ny tsara ianao, ary ny lainga noho ny miteny ny marina. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-052-007:	Andriamanitra kosa hanimba anao mandrakizay; hisambotra anao sy hanongotra anao hiala ao an-day Izy, ary hamongotra anao tsy ho eo amin’ ny tanin’ ny velona. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-054-005:	Fa olona hafa firenena no mitsangana hamely ahy, ary olon-dozabe no mitady ny aiko; tsy mihevitra an’ Andriamanitra ho eo anatrehany izy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-055-008:	Eny, handositra lavitra aho ka hitoetra any an-efitra. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-055-020:	Hihaino Andriamanitra, Izay mipetraka hatramin’ ny taloha, (Sela) ka hamaly ireo olona tsy miova toetra, sady tsy matahotra an’ Andriamanitra.
+*** AION: WARNING! SELAH! 019-PSA-057-004:	Haniraka avy any an-danitra Izy ka hamonjy ahy, raha miteny ratsy izay misafoaka manenjika ahy. (Sela) Eny, Andriamanitra haniraka ny famindram-pony sy ny fahamarinany.
+*** AION: WARNING! SELAH! 019-PSA-057-007:	Efa namela-pandrika harato haningotra ny diako izy, ary nampitanondrika ny fanahiko; nihady lavaka teo anoloako izy, kanjo ny tenany ihany no latsaka ao anatiny. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-059-006:	Ary Hianao, Jehovah ô, Andriamanitry ny maro, Andriamanitry ny Isiraely, mifohaza hitsara ny firenen-tsamy hafa; aza mamindra fo amin’ izay mpivadika ratsy fanahy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-059-014:	Aringano an-katezerana izy, aringano mba tsy ho ao intsony; ary aoka ho fantany fa Andriamanitra no manapaka eo amin’ ny Jakoba ka hatramin’ ny faran’ ny tany. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-060-006:	Efa notoloranao faneva ny matahotra Anao, hatsangany noho ny fahamarinana. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-062-005:	Misaina hanongana azy hiala amin’ ny voninahiny ireny; lainga no ifaliany, misaotra amin’ ny vavany izy, fa manozona amy ny fony. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-062-009:	Matokia Azy mandrakariva ianareo, ry olona; loary eo anatrehany ny fonareo; Andriamanitra no aro ho antsika. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-066-004:	Ny tany rehetra hiankohoka eo anatrehanao ka hankalaza Anao; eny, hankalaza ny anaranao izy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-066-007:	Manjaka mandrakizay amin’ ny heriny Izy, ary ny masony mandinika ny firenen-tsamy hafa; aoka tsy hanandra-tena ny maditra. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-066-015:	Hateriko aminao ho fanatitra dorana ny matavy mbamin’ ny setroky ny ondrilahy; hanatitra omby sy osilahy aho. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-067-002:	Andriamanitra anie hamindra fo aminay sy hitahy anay; (Sela) hampamirapiratra ny tavany aminay anie Izy;
+*** AION: WARNING! SELAH! 019-PSA-067-005:	Hifaly sy hihoby ny firenentsamy hafa, Satria mitsara marina ny firenena Hianao; ny firenen-tsamy hafa ambonin’ ny tany dia entinao. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-068-008:	Andriamanitra ô, raha nandeha teo alohan’ ny olonao Hianao ka namaky ny efitra, (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-068-020:	Isaorana anie ny Tompo Izay mitondra ny entan-tsika isan’ andro isan’ andro, eny, Andriamanitra Izay famonjena antsika. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-068-033:	Ry fanjakana ambonin’ ny tany, mihirà ho an’ Andriamanitra; mankalazà ny Tompo, (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-075-004:	Mihorohoro ny tany sy ny mponina rehetra eo aminy, nefa Izaho no nanorina ny andriny. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-076-004:	Teo no nanapatapahany ny zana-tsipìka manelatra, sy ny ampinga sy ny sabatra ary ny fiadiana. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-076-010:	Raha nitsangana hitsara Andriamanitra mba hamonjy ny mpandefitra rehetra ambonin’ ny tany. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-077-004:	Ta-hahatsiaro an’ Andriamanitra aho, ka dia nisento; te-hieritreritra aho, ka dia reraka ny fanahiko. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-077-010:	Efa nanadino hamindra fo va Andriamanitra?  Efa nohidiany an-katezerana va ny fiantràny? (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-077-016:	Navotan’ ny sandrinao ny olonao, dia ny taranak’ i Jakoba sy Josefa. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-081-008:	Fony azom-pahoriana ianao, dia niantso Ahy, ka namonjy anao Aho; namaly anao tao amin’ ny fiafenan’ ny kotrokorana Aho, ary nizaha toetra anao tao amin’ ny ranon’ i Meriba. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-082-002:	Mandra-pahoviana no hitsarànareo tsy marina ka ihenaranareo maso ny ratsy fanahy? (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-083-009:	Ny Asyriana koa nikambana taminy; tonga sandrin’ ny taranak’ i Lota ireo. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-084-005:	Sambatra izay mitoetra ao an-tranonao; hidera Anao mandrakariva izy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-084-009:	Jehovah, Andriamanitry ny maro ô, henoy ny fivavako; mandrenesa ry Andriamanitr’ i Jakoba ô. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-085-003:	Voaisotrao ny heloky ny olonao, Voasaronao ny fahotany rehetra. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-087-003:	Zava-malaza no anambarana anao Ry tanànan’ Andriamanitra. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-087-006:	Jehovah hanisa, raha manoratra ny firenena Izy: Ity no efa teraka teo. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-088-008:	Ny fahatezeranao manindry ahy mafy, Ary ny alon-dranonao rehetra azeranao amiko. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-089-005:	Hampitoetra ny taranakao ho mandrakizay Aho Ka hanangana ny seza fiandriananao hatramin’ ny taranaka fara mandimby.” (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-089-038:	Hampitoerina mandrakizay tahaka ny volana izy, Tahaka ny vavolombelona marina any an-danitra. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-089-046:	Efa nahafohy ny andron’ ny fahatanorany Hianao Ary efa nanaron-kenatra azy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-089-049:	Iza no olona ho velona tsy hahita fahafatesana, Fa hamonjy ny fanahiny tsy ho azon’ ny tanan’ ny fiainan-tsi-hita? (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-140-004:	Mandranitra ny lelany tahaka ny bibilava izy, Ny poizin’ ny menarana no ao ambanin’ ny molony. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-140-009:	Jehovah ô, aza manome ny irin’ ny ratsy fanahy; Ary aza avela ho tanteraka ny hevi-dratsiny, fandrao hisandratra izy. (Sela) 
+*** AION: WARNING! SELAH! 019-PSA-143-006:	Mananty tanana aminao aho; Ny fanahiko dia tahaka ny tany mangetana eo anatrehanao. (Sela) 
+*** AION: WARNING! SELAH! 035-HAB-003-003:	Tamy avy any Temana Andriamanitra, Dia ny iray Masìna avy any an-tendrombohitra Parana. (Sela) Manarona ny lanitra ny voninahiny, Ary manenika ny tany ny fiderana Azy.
+*** AION: WARNING! SELAH! 035-HAB-003-009:	Nalan-tsarona ny tsipìkanao; Efa nianianana ny fikapohan’ ny teny. (Sela) Namakivaky ny tany Hianao mba hisy ony.
+*** AION: WARNING! SELAH! 035-HAB-003-013:	Mivoaka hamonjy ny olonao Hianao, dia hamonjy ny voahosotrao; Torotoroinao ny tapenaky ny tranon’ ny ratsy fanahy, Ka ahariharinao hatreo an-tenatenany ny fanorenany. (Sela) 
+*** AION: DATA CHECK: aionian=31088 standard=31088 source=31171 file=../www-stageresources/Holy-Bible---Malagasy---Malagasy-Bible---Aionian-Edition.noia
 *** AION: WARNING! SELAH! 019-PSA-003-002:	“അവന് ദൈവത്തിങ്കൽ രക്ഷയില്ല” എന്ന് എന്നെക്കുറിച്ച് പലരും പറയുന്നു. (സേലാ) 
 *** AION: WARNING! SELAH! 019-PSA-003-004:	ഞാൻ യഹോവയോട് ഉച്ചത്തിൽ നിലവിളിക്കുന്നു; അവൻ തന്റെ വിശുദ്ധപർവ്വതത്തിൽനിന്ന് ഉത്തരം അരുളുകയും ചെയ്യുന്നു. (സേലാ) 
 *** AION: WARNING! SELAH! 019-PSA-003-008:	രക്ഷ യഹോവയ്ക്കുള്ളതാകുന്നു; നിന്റെ അനുഗ്രഹം നിന്റെ ജനത്തിന്മേൽ വരുമാറാകട്ടെ. (സേലാ) 
@@ -22320,7 +22533,7 @@
 *** AION: DATA CHECK: aionian=31102 standard=31102 source=31104 file=../www-stageresources/Holy-Bible---Urdu---Urdu-Bible---Aionian-Edition.noia
 *** AION: DATA CHECK: aionian=31102 standard=31102 source=31102 file=../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-Bible---Aionian-Edition.noia
 *** AION: DATA CHECK: aionian=31102 standard=31102 source=31102 file=../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-Bible-1934---Aionian-Edition.noia
-*** AION: LOOP DONE! Function=AION_LOOP_CHECK_DATA_DOIT Files processed=175
+*** AION: LOOP DONE! Function=AION_LOOP_CHECK_DATA_DOIT Files processed=174
 *** AION: BOOKS COUNT
 *** AION: SUCCESS BOOKS COUNT: ../checks/BOOKSCOUNT.txt
 *** AION: BOOKS COMPARE
@@ -22429,7 +22642,6 @@
 *** AION: BOOKS COMPARE: ../www-stageresources/Holy-Bible---Hawaiian---Hawaiian-Bible-1868---Standard-Edition.noia
 *** AION: BOOKS COMPARE: ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Aleppo-Codex---Standard-Edition.noia
 *** AION: BOOKS COMPARE: ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Masoretic-OT---Standard-Edition.noia
-*** AION: BOOKS COMPARE: ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Open-Scriptures---Standard-Edition.noia
 *** AION: BOOKS COMPARE: ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad---Standard-Edition.noia
 *** AION: BOOKS COMPARE: ../www-stageresources/Holy-Bible---Hindi---Hindi-Bible---Standard-Edition.noia
 *** AION: BOOKS COMPARE: ../www-stageresources/Holy-Bible---Hungarian---Hungarian-Karoli---Standard-Edition.noia
@@ -22499,7 +22711,7 @@
 *** AION: BOOKS COMPARE: ../www-stageresources/Holy-Bible---Urdu---Urdu-Bible---Standard-Edition.noia
 *** AION: BOOKS COMPARE: ../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-Bible---Standard-Edition.noia
 *** AION: BOOKS COMPARE: ../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-Bible-1934---Standard-Edition.noia
-*** AION: LOOP DONE! Function=AION_LOOP_CHECK_BOOKSCOMPARE_DOIT Files processed=175
+*** AION: LOOP DONE! Function=AION_LOOP_CHECK_BOOKSCOMPARE_DOIT Files processed=174
 *** AION: BOOKS CHAPTERS
 *** AION: BOOKS CHAPTERS: ../www-stageresources/Holy-Bible---Albanian-Tosk---Albanian-Bible---Standard-Edition.noia
 *** AION: BOOKS CHAPTERS: ../www-stageresources/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible---Standard-Edition.noia
@@ -22606,7 +22818,6 @@
 *** AION: BOOKS CHAPTERS: ../www-stageresources/Holy-Bible---Hawaiian---Hawaiian-Bible-1868---Standard-Edition.noia
 *** AION: BOOKS CHAPTERS: ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Aleppo-Codex---Standard-Edition.noia
 *** AION: BOOKS CHAPTERS: ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Masoretic-OT---Standard-Edition.noia
-*** AION: BOOKS CHAPTERS: ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Open-Scriptures---Standard-Edition.noia
 *** AION: BOOKS CHAPTERS: ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad---Standard-Edition.noia
 *** AION: BOOKS CHAPTERS: ../www-stageresources/Holy-Bible---Hindi---Hindi-Bible---Standard-Edition.noia
 *** AION: BOOKS CHAPTERS: ../www-stageresources/Holy-Bible---Hungarian---Hungarian-Karoli---Standard-Edition.noia
@@ -22676,7 +22887,7 @@
 *** AION: BOOKS CHAPTERS: ../www-stageresources/Holy-Bible---Urdu---Urdu-Bible---Standard-Edition.noia
 *** AION: BOOKS CHAPTERS: ../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-Bible---Standard-Edition.noia
 *** AION: BOOKS CHAPTERS: ../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-Bible-1934---Standard-Edition.noia
-*** AION: LOOP DONE! Function=AION_LOOP_CHECK_BOOKSCHAPTERS_DOIT Files processed=175
+*** AION: LOOP DONE! Function=AION_LOOP_CHECK_BOOKSCHAPTERS_DOIT Files processed=174
 *** AION: TESTWORDS
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Albanian-Tosk---Albanian-Bible, WORDS=53, SCANNED=1648406, MATCHES=1283, AIONIAN=324, OUT=959
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Arabic---Arabic-Van-Dyck-Bible, WORDS=1, SCANNED=31102, MATCHES=0, AIONIAN=0, OUT=0
@@ -22783,7 +22994,6 @@
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Hawaiian---Hawaiian-Bible-1868, WORDS=1, SCANNED=31102, MATCHES=0, AIONIAN=0, OUT=0
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Hebrew---Hebrew-Aleppo-Codex, WORDS=1, SCANNED=23121, MATCHES=0, AIONIAN=0, OUT=0
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Hebrew---Hebrew-Masoretic-OT, WORDS=1, SCANNED=23144, MATCHES=0, AIONIAN=0, OUT=0
-*** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Hebrew---Hebrew-Open-Scriptures, WORDS=1, SCANNED=23144, MATCHES=0, AIONIAN=0, OUT=0
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad, WORDS=1, SCANNED=23144, MATCHES=0, AIONIAN=0, OUT=0
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Hindi---Hindi-Bible, WORDS=17, SCANNED=528734, MATCHES=548, AIONIAN=386, OUT=162
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Hungarian---Hungarian-Karoli, WORDS=50, SCANNED=1555100, MATCHES=684, AIONIAN=242, OUT=442
@@ -22803,7 +23013,7 @@
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Latin---Clementine-Vulgate-Hetzenauer, WORDS=73, SCANNED=2270008, MATCHES=1231, AIONIAN=568, OUT=663
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Latin---Clementine-Vulgate-Tweedale, WORDS=73, SCANNED=2270008, MATCHES=1232, AIONIAN=568, OUT=664
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Latin---Vulgata-Sistina, WORDS=73, SCANNED=2269716, MATCHES=906, AIONIAN=402, OUT=504
-*** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Latin---Vulgate-Jerome, WORDS=73, SCANNED=2269278, MATCHES=902, AIONIAN=382, OUT=520
+*** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Latin---Vulgate-Jerome, WORDS=73, SCANNED=2264387, MATCHES=872, AIONIAN=382, OUT=490
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Latvian---Latvian-Gluck-Bible, WORDS=4, SCANNED=124408, MATCHES=48, AIONIAN=47, OUT=1
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Malagasy---Malagasy-Bible, WORDS=1, SCANNED=31088, MATCHES=0, AIONIAN=0, OUT=0
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Malayalam---Malayalam-Bible, WORDS=2, SCANNED=62192, MATCHES=1, AIONIAN=1, OUT=0
@@ -22853,7 +23063,7 @@
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Urdu---Urdu-Bible, WORDS=2, SCANNED=62204, MATCHES=0, AIONIAN=0, OUT=0
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Vietnamese---Vietnamese-Bible, WORDS=17, SCANNED=528734, MATCHES=1706, AIONIAN=413, OUT=1293
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Vietnamese---Vietnamese-Bible-1934, WORDS=17, SCANNED=528734, MATCHES=1697, AIONIAN=410, OUT=1287
-*** AION: LOOP DONE! Function=AION_LOOP_TESTWORDS_DOIT Files processed=175
+*** AION: LOOP DONE! Function=AION_LOOP_TESTWORDS_DOIT Files processed=174
 *** AION: NUMBERSHOT
 *** AION: SEARCHED NUMBERSHOT chap=PS119_ cnum=176 file=../www-stageresources/Holy-Bible---Albanian-Tosk---Albanian-Bible---Source-Edition.epub
 *** AION: SEARCHED NUMBERSHOT chap=PS119_ cnum=176 file=../www-stageresources/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible---Source-Edition.epub
@@ -22960,7 +23170,6 @@
 *** AION: SEARCHED NUMBERSHOT chap=PS119_ cnum=176 file=../www-stageresources/Holy-Bible---Hawaiian---Hawaiian-Bible-1868---Source-Edition.epub
 *** AION: SEARCHED NUMBERSHOT NO EPUB FOR THIS ONE! ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Aleppo-Codex---Source-Edition.epub
 *** AION: SEARCHED NUMBERSHOT chap=PS119_ cnum=176 file=../www-stageresources/Holy-Bible---Hebrew---Hebrew-Masoretic-OT---Source-Edition.epub
-*** AION: SEARCHED NUMBERSHOT NO EPUB FOR THIS ONE! ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Open-Scriptures---Source-Edition.epub
 *** AION: SEARCHED NUMBERSHOT chap=PS119_ cnum=176 file=../www-stageresources/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad---Source-Edition.epub
 *** AION: SEARCHED NUMBERSHOT chap=PS119_ cnum=176 file=../www-stageresources/Holy-Bible---Hindi---Hindi-Bible---Source-Edition.epub
 *** AION: SEARCHED NUMBERSHOT NO EPUB FOR THIS ONE! ../www-stageresources/Holy-Bible---Hungarian---Hungarian-Karoli---Source-Edition.epub
@@ -23036,7 +23245,7 @@
 *** AION: SEARCHED NUMBERSHOT chap=PS119_ cnum=176 file=../www-stageresources/Holy-Bible---Urdu---Urdu-Bible---Source-Edition.epub
 *** AION: SEARCHED NUMBERSHOT chap=PS119_ cnum=176 file=../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-Bible---Source-Edition.epub
 *** AION: SEARCHED NUMBERSHOT NO EPUB FOR THIS ONE! ../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-Bible-1934---Source-Edition.epub
-*** AION: LOOP DONE! Function=AION_LOOP_NUMBERSHOT_DOIT Files processed=175
+*** AION: LOOP DONE! Function=AION_LOOP_NUMBERSHOT_DOIT Files processed=174
 *** AION: IVERSE
 *** AION: IVERSE ../www-stageresources/Holy-Bible---Albanian-Tosk---Albanian-Bible---Standard-Edition.noia with missed = 0
 *** AION: IVERSE ../www-stageresources/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible---Standard-Edition.noia with missed = 0
@@ -23143,7 +23352,6 @@
 *** AION: IVERSE ../www-stageresources/Holy-Bible---Hawaiian---Hawaiian-Bible-1868---Standard-Edition.noia with missed = 0
 *** AION: IVERSE ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Aleppo-Codex---Standard-Edition.noia with missed = 8
 *** AION: IVERSE ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Masoretic-OT---Standard-Edition.noia with missed = 8
-*** AION: IVERSE ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Open-Scriptures---Standard-Edition.noia with missed = 8
 *** AION: IVERSE ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad---Standard-Edition.noia with missed = 8
 *** AION: IVERSE ../www-stageresources/Holy-Bible---Hindi---Hindi-Bible---Standard-Edition.noia with missed = 0
 *** AION: IVERSE ../www-stageresources/Holy-Bible---Hungarian---Hungarian-Karoli---Standard-Edition.noia with missed = 0
@@ -23213,7 +23421,7 @@
 *** AION: IVERSE ../www-stageresources/Holy-Bible---Urdu---Urdu-Bible---Standard-Edition.noia with missed = 0
 *** AION: IVERSE ../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-Bible---Standard-Edition.noia with missed = 0
 *** AION: IVERSE ../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-Bible-1934---Standard-Edition.noia with missed = 0
-*** AION: LOOP DONE! Function=AION_LOOP_IVERSE_DOIT Files processed=175
+*** AION: LOOP DONE! Function=AION_LOOP_IVERSE_DOIT Files processed=174
 *** AION: ANAVIGATION
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Albanian-Tosk---Albanian-Bible
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Arabic---Arabic-Van-Dyck-Bible
@@ -23324,7 +23532,6 @@
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Hawaiian---Hawaiian-Bible-1868
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Hebrew---Hebrew-Aleppo-Codex
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Hebrew---Hebrew-Masoretic-OT
-*** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Hebrew---Hebrew-Open-Scriptures
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Hindi---Hindi-Bible
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Hungarian---Hungarian-Karoli
@@ -23355,6 +23562,10 @@
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Latin---Clementine-Vulgate-Tweedale
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Latin---Vulgata-Sistina
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Latin---Vulgate-Jerome
+*** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Latin---Vulgate-Jerome, STATUS=VERSMISS MISSING=040-MAT-028-020
+*** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Latin---Vulgate-Jerome, STATUS=VERSMISS MISSING=045-ROM-016-027
+*** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Latin---Vulgate-Jerome, STATUS=VERSMISS MISSING=061-2PE-003-018
+*** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Latin---Vulgate-Jerome, STATUS=VERSMISS MISSING=065-JUD-001-025
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Latvian---Latvian-Gluck-Bible
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Malagasy---Malagasy-Bible
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Malayalam---Malayalam-Bible
@@ -23406,8 +23617,8 @@
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Urdu---Urdu-Bible
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Vietnamese---Vietnamese-Bible
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Vietnamese---Vietnamese-Bible-1934
-*** AION: LOOP DONE! Function=AION_LOOP_ANAVIGATION_DOIT Files processed=175
-*** AION: AIONIAN MISSING: COUNT=191
+*** AION: LOOP DONE! Function=AION_LOOP_ANAVIGATION_DOIT Files processed=174
+*** AION: AIONIAN MISSING: COUNT=194
 *** AION: REMINDER: CHECK DIFF FILES: ../checks/ADIFF.BOOKSCOUNT.txt
 *** AION: REMINDER: CHECK DIFF FILES: ../checks/ADIFF.BOOKS_CHECK.txt
 *** AION: REMINDER: CHECK DIFF FILES: ../checks/ADIFF.BOOKSCHAPTERS.txt

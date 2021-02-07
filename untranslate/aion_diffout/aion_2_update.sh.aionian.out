@@ -283,8 +283,6 @@
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.crosswire.zip VS ../source-production/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.epub VS ../source-production/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.epub
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.vpl.zip VS ../source-production/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.vpl.zip
-*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hebrew---Hebrew-Open-Scriptures.crosswire.zip VS ../source-production/Holy-Bible---Hebrew---Hebrew-Open-Scriptures.crosswire.zip
-*** AION: DIFF REG: ../source-stage/Holy-Bible---Hebrew---Hebrew-Open-Scriptures.sword VS ../source-production/Holy-Bible---Hebrew---Hebrew-Open-Scriptures.sword
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.crosswire.zip VS ../source-production/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.epub VS ../source-production/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.epub
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.vpl.zip VS ../source-production/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.vpl.zip
@@ -472,9 +470,9 @@
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Urdu---Urdu-Bible.vpl.zip VS ../source-production/Holy-Bible---Urdu---Urdu-Bible.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-Bible-1934.crosswire.zip VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-Bible-1934.crosswire.zip
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-Bible-1934.sword VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-Bible-1934.sword
-*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-NT.crosswire.zip VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-NT.crosswire.zip
-*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-NT.epub VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-NT.epub
-*** AION: DIFF REG: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-NT.pdf VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-NT.pdf
-*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-NT.vpl.zip VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-NT.vpl.zip
-*** AION: LOOP DONE! Function=AION_LOOP_DIFF_DOIT Files processed=476
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-Bible.crosswire.zip VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-Bible.epub VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-Bible.pdf VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-Bible.vpl.zip VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-Bible.vpl.zip
+*** AION: LOOP DONE! Function=AION_LOOP_DIFF_DOIT Files processed=474
 *** AION: DONE! Command=cp -a ../source-stage/. ../source-production/ Result=

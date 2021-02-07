@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 955223      
-# File Date: 02/01/2021 10:40:20
+# File Size: 961052      
+# File Date: 02/07/2021 10:36:47
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: http://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2021
@@ -3301,75 +3301,6 @@ Holy-Bible---Hebrew---Hebrew-Masoretic-OT	019	PSA	102	001	תְּ֭פִלָּה �
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT	019	PSA	108	001	שִׁ֖יר מִזְמֹ֣ור לְדָוִֽד׃
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT	019	PSA	140	001	לַמְנַצֵּ֗חַ מִזְמֹ֥ור לְדָוִֽד׃
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT	019	PSA	142	001	מַשְׂכִּ֥יל לְדָוִ֑ד בִּהְיֹותֹ֖ו בַמְּעָרָ֣ה תְפִלָּֽה׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	009	1SA	021	001	וַ  יָּקָם     וַ  יֵּלַךְ     וִ  יהוֹנָתָן    בָּא    הָ  עִֽיר   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	011	1KI	022	043	וַ  יֵּלֶךְ     בְּ  כָל   ־  דֶּרֶךְ   אָסָא    אָבִי  ו    לֹא  ־  סָר    מִמֶּ  נּוּ     לַ  עֲשׂוֹת     הַ  יָּשָׁר     בְּ  עֵינֵי    יְהוָֽה  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	003	001	מִזְמוֹר    לְ  דָוִד     בְּ  בָרְח  וֹ     מִ  פְּנֵי    ׀   אַבְשָׁלוֹם    בְּנֽ  וֹ   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	004	001	לַ  מְנַצֵּחַ     בִּ  נְגִינוֹת    מִזְמוֹר    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	005	001	לַ  מְנַצֵּחַ    אֶֽל  ־   הַ  נְּחִילוֹת    מִזְמוֹר    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	006	001	לַ  מְנַצֵּחַ     בִּ  נְגִינוֹת    עַֽל  ־   הַ  שְּׁמִינִית    מִזְמוֹר    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	007	001	שִׁגָּיוֹן    לְ  דָוִד    אֲשֶׁר  ־  שָׁר    לַ  יהוָה    עַל  ־  דִּבְרֵי  ־  כוּשׁ   בֶּן  ־  יְמִינִֽי  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	008	001	לַ  מְנַצֵּחַ    עַֽל  ־   הַ  גִּתִּית    מִזְמוֹר    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	009	001	לַ  מְנַצֵּחַ    עַלְמוּת   לַבֵּן   מִזְמוֹר    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	012	001	לַ  מְנַצֵּחַ    עַֽל  ־   הַ  שְּׁמִינִית    מִזְמוֹר    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	018	001	לַ  מְנַצֵּחַ    ׀    לְ  עֶבֶד    יְהוָה    לְ  דָוִד    אֲשֶׁר   דִּבֶּר   ׀    לַ  יהוָה    אֶת  ־  דִּבְרֵי    הַ  שִּׁירָה     הַ  זֹּאת     בְּ  יוֹם    הִֽצִּיל  ־  יְהוָה    אוֹת  וֹ     מִ  כַּף    כָּל  ־   אֹיְבָי  ו     וּ  מִ  יַּד    שָׁאֽוּל  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	019	001	לַ  מְנַצֵּחַ    מִזְמוֹר    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	020	001	לַ  מְנַצֵּחַ    מִזְמוֹר    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	021	001	לַ  מְנַצֵּחַ    מִזְמוֹר    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	022	001	לַ  מְנַצֵּחַ    עַל  ־  אַיֶּלֶת    הַ  שַּׁחַר    מִזְמוֹר    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	030	001	מִזְמוֹר   שִׁיר  ־  חֲנֻכַּת    הַ  בַּיִת     לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	031	001	לַ  מְנַצֵּחַ    מִזְמוֹר    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	034	001	לְ  דָוִד     בְּ  שַׁנּוֹת  וֹ    אֶת  ־   טַעְמ  וֹ     לִ  פְנֵי    אֲבִימֶלֶךְ    וַֽ  יְגָרֲשֵׁ  הוּ     וַ  יֵּלַֽךְ   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	036	001	לַ  מְנַצֵּחַ    ׀    לְ  עֶֽבֶד   ־  יְהוָה    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	038	001	מִזְמוֹר    לְ  דָוִד     לְ  הַזְכִּֽיר   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	039	001	לַ  מְנַצֵּחַ     ל  ידיתון    מִזְמוֹר    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	040	001	לַ  מְנַצֵּחַ     לְ  דָוִד    מִזְמֽוֹר  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	041	001	לַ  מְנַצֵּחַ    מִזְמוֹר    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	042	001	לַ  מְנַצֵּחַ    מַשְׂכִּיל    לִ  בְנֵי   ־  קֹֽרַח  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	044	001	לַ  מְנַצֵּחַ     לִ  בְנֵי   ־  קֹרַח   מַשְׂכִּֽיל  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	045	001	לַ  מְנַצֵּחַ    עַל  ־  שֹׁשַׁנִּים    לִ  בְנֵי   ־  קֹרַח   מַשְׂכִּיל   שִׁיר   יְדִידֹֽת  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	046	001	לַ  מְנַצֵּחַ     לִ  בְנֵי   ־  קֹרַח   עַֽל  ־  עֲלָמוֹת   שִֽׁיר  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	047	001	לַ  מְנַצֵּחַ    ׀    לִ  בְנֵי   ־  קֹרַח   מִזְמֽוֹר  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	048	001	שִׁיר   מִזְמוֹר    לִ  בְנֵי   ־  קֹֽרַח  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	049	001	לַ  מְנַצֵּחַ    ׀    לִ  בְנֵי   ־  קֹרַח   מִזְמֽוֹר  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	051	001	לַ  מְנַצֵּחַ    מִזְמוֹר    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	051	002	בְּֽ  בוֹא   ־   אֵלָי  ו    נָתָן    הַ  נָּבִיא     כַּֽ  אֲשֶׁר   ־  בָּא   אֶל  ־  בַּת  ־  שָֽׁבַע  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	052	001	לַ  מְנַצֵּחַ    מַשְׂכִּיל    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	052	002	בְּ  בוֹא    ׀   דּוֹאֵג    הָ  אֲדֹמִי     וַ  יַּגֵּד     לְ  שָׁאוּל     וַ  יֹּאמֶר     ל  וֹ    בָּא   דָוִד   אֶל  ־  בֵּית   אֲחִימֶֽלֶךְ  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	053	001	לַ  מְנַצֵּחַ    עַֽל  ־  מָחֲלַת   מַשְׂכִּיל    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	054	001	לַ  מְנַצֵּחַ     בִּ  נְגִינֹת    מַשְׂכִּיל    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	054	002	בְּ  בוֹא     הַ  זִּיפִים     וַ  יֹּאמְרוּ     לְ  שָׁאוּל     הֲ  לֹא    דָוִד   מִסְתַּתֵּר    עִמָּֽ  נוּ   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	055	001	לַ  מְנַצֵּחַ     בִּ  נְגִינֹת    מַשְׂכִּיל    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	056	001	לַ  מְנַצֵּחַ    ׀   עַל  ־  יוֹנַת   אֵלֶם   רְחֹקִים    לְ  דָוִד    מִכְתָּם    בֶּֽ  אֱחֹז     אֹת  וֹ    פְלִשְׁתִּים    בְּ  גַֽת   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	057	001	לַ  מְנַצֵּחַ    אַל  ־  תַּשְׁחֵת    לְ  דָוִד    מִכְתָּם    בְּ  בָרְח  וֹ     מִ  פְּנֵי   ־  שָׁאוּל    בַּ  מְּעָרָֽה   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	058	001	לַ  מְנַצֵּחַ    אַל  ־  תַּשְׁחֵת    לְ  דָוִד    מִכְתָּֽם  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	059	001	לַ  מְנַצֵּחַ    אַל  ־  תַּשְׁחֵת    לְ  דָוִד    מִכְתָּם    בִּ  שְׁלֹחַ    שָׁאוּל    וַֽ  יִּשְׁמְרוּ    אֶת  ־   הַ  בַּיִת     לַ  הֲמִיתֽ  וֹ   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	060	001	לַ  מְנַצֵּחַ    עַל  ־  שׁוּשַׁן   עֵדוּת   מִכְתָּם    לְ  דָוִד     לְ  לַמֵּֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	060	002	בְּ  הַצּוֹת  וֹ    ׀   אֶת   אֲרַם   נַהֲרַיִם    וְ  אֶת   ־  אֲרַם   צוֹבָה    וַ  יָּשָׁב    יוֹאָב    וַ  יַּךְ    אֶת  ־  אֱדוֹם    בְּ  גֵיא   ־  מֶלַח   שְׁנֵים   עָשָׂר   אָֽלֶף  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	061	001	לַ  מְנַצֵּחַ    ׀   עַֽל  ־  נְגִינַת    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	062	001	לַ  מְנַצֵּחַ    עַֽל  ־  יְדוּתוּן   מִזְמוֹר    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	063	001	מִזְמוֹר    לְ  דָוִד     בִּ  הְיוֹת  וֹ     בְּ  מִדְבַּר    יְהוּדָֽה  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	064	001	לַ  מְנַצֵּחַ    מִזְמוֹר    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	065	001	לַ  מְנַצֵּחַ    מִזְמוֹר    לְ  דָוִד    שִֽׁיר  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	067	001	לַ  מְנַצֵּח     בִּ  נְגִינֹת    מִזְמוֹר   שִֽׁיר  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	068	001	לַ  מְנַצֵּחַ     לְ  דָוִד    מִזְמוֹר   שִֽׁיר  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	069	001	לַ  מְנַצֵּחַ    עַֽל  ־  שׁוֹשַׁנִּים    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	070	001	לַ  מְנַצֵּחַ     לְ  דָוִד     לְ  הַזְכִּֽיר   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	075	001	לַ  מְנַצֵּחַ    אַל  ־  תַּשְׁחֵת   מִזְמוֹר    לְ  אָסָף    שִֽׁיר  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	076	001	לַ  מְנַצֵּחַ     בִּ  נְגִינֹת    מִזְמוֹר    לְ  אָסָף    שִֽׁיר  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	077	001	לַ  מְנַצֵּחַ    עַֽל  ־  ידיתון    לְ  אָסָף    מִזְמֽוֹר  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	080	001	לַ  מְנַצֵּחַ    אֶל  ־  שֹׁשַׁנִּים   עֵדוּת    לְ  אָסָף    מִזְמֽוֹר  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	081	001	לַ  מְנַצֵּחַ    ׀   עַֽל  ־   הַ  גִּתִּית     לְ  אָסָֽף   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	083	001	שִׁיר   מִזְמוֹר    לְ  אָסָֽף   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	084	001	לַ  מְנַצֵּחַ    עַֽל  ־   הַ  גִּתִּית     לִ  בְנֵי   ־  קֹרַח   מִזְמֽוֹר  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	085	001	לַ  מְנַצֵּחַ    ׀    לִ  בְנֵי   ־  קֹרַח   מִזְמֽוֹר  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	088	001	שִׁיר   מִזְמוֹר    לִ  בְנֵי    קֹרַח    לַ  מְנַצֵּחַ    עַל  ־  מָחֲלַת    לְ  עַנּוֹת    מַשְׂכִּיל    לְ  הֵימָן     הָ  אֶזְרָחִֽי   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	089	001	מַשְׂכִּיל    לְ  אֵיתָן     הָֽ  אֶזְרָחִֽי   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	092	001	מִזְמוֹר   שִׁיר    לְ  יוֹם     הַ  שַּׁבָּֽת   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	102	001	תְּפִלָּה    לְ  עָנִי    כִֽי  ־  יַעֲטֹף    וְ  לִ  פְנֵי    יְהוָה   יִשְׁפֹּךְ    שִׂיחֽ  וֹ   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	108	001	שִׁיר   מִזְמוֹר    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	140	001	לַ  מְנַצֵּחַ    מִזְמוֹר    לְ  דָוִֽד   ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	019	PSA	142	001	מַשְׂכִּיל    לְ  דָוִד     בִּ  הְיוֹת  וֹ     בַ  מְּעָרָה    תְפִלָּֽה  ׃
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	013	1CH	012	004	וְ  יִֽשְׁמַֽעְיָה     הַ  גִּבְעוֹנִי    גִּבּוֹר    בַּ  שְּׁלֹשִׁים     וְ  עַל   ־   הַ  שְּׁלֹשִֽׁים   ׃
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	009	1SA	021	001	וַיָּ֖קָם וַיֵּלַ֑ךְ וִיהוֹנָתָ֖ן בָּ֥א הָעִֽיר׃
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	011	1KI	022	043	וַיֵּ֗לֶךְ בְּכָל־דֶּ֛רֶךְ אָסָ֥א אָבִ֖יו לֹא־סָ֣ר מִמֶּ֑נּוּ לַעֲשׂ֥וֹת הַיָּשָׁ֖ר בְּעֵינֵ֥י יְהוָֽה׃
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	013	1CH	012	004	וְיִֽשְׁמַֽעְיָ֧ה הַגִּבְעוֹנִ֛י גִּבּ֥וֹר בַּשְּׁלֹשִׁ֖ים וְעַל־הַשְּׁלֹשִֽׁים׃
@@ -5251,13 +5182,178 @@ Holy-Bible---Latin---Vulgata-Sistina	028	HOS	002	023	Et seminabo eam mihi in ter
 Holy-Bible---Latin---Vulgata-Sistina	030	AMO	006	010	Et tollet eum propinquus suus, et comburet eum, ut efferat ossa de domo: et dicet ei, qui in penetralibus domus est: Numquid adhuc est penes te?
 Holy-Bible---Latin---Vulgata-Sistina	043	JOH	006	051	Ego sum panis vivus, qui de caelo descendi.
 Holy-Bible---Latin---Vulgata-Sistina	066	REV	012	018	Et stetit supra arenam maris.
-Holy-Bible---Latin---Vulgate-Jerome	001	GEN	049	033	
-Holy-Bible---Latin---Vulgate-Jerome	019	PSA	013	001	victori canticum David   usquequo Domine oblivisceris mei penitus usquequo abscondes faciem tuam a me
-Holy-Bible---Latin---Vulgate-Jerome	019	PSA	014	001	victori David   dixit stultus in corde suo non est Deus
-Holy-Bible---Latin---Vulgate-Jerome	019	PSA	044	001	pro victoria filiorum Core eruditionis
-Holy-Bible---Latin---Vulgate-Jerome	022	SOL	001	001	
+Holy-Bible---Latin---Vulgate-Jerome	004	NUM	020	028	cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius
+Holy-Bible---Latin---Vulgate-Jerome	006	JOS	004	023	siccante Domino Deo vestro aquas eius in conspectu vestro donec transiretis
+Holy-Bible---Latin---Vulgate-Jerome	006	JOS	005	014	qui respondit nequaquam sed sum princeps exercitus Domini et nunc venio
+Holy-Bible---Latin---Vulgate-Jerome	007	JDG	005	031	sic pereant omnes inimici tui Domine qui autem diligunt te sicut sol in ortu suo splendet ita rutilent
+Holy-Bible---Latin---Vulgate-Jerome	009	1SA	020	042	dixit ergo Ionathan ad David vade in pace quaecumque iuravimus ambo in nomine Domini dicentes Dominus sit inter me et te et inter semen meum et semen tuum usque in sempiternum
+Holy-Bible---Latin---Vulgate-Jerome	011	1KI	022	043	et ambulavit in omni via Asa patris sui et non declinavit ex ea fecitque quod rectum est in conspectu Domini
+Holy-Bible---Latin---Vulgate-Jerome	016	NEH	007	068	
+Holy-Bible---Latin---Vulgate-Jerome	018	JOB	016	004	poteram et ego similia vestri loqui atque utinam esset anima vestra pro anima mea
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	002	001	psalmus David quare fremuerunt gentes et populi meditati sunt inania
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	003	001	psalmus David cum fugeret a facie Abessalon filii sui
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	004	001	in finem in carminibus psalmus David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	004	002	cum invocarem exaudivit me Deus iustitiae meae in tribulatione dilatasti mihi miserere mei et exaudi orationem meam
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	005	001	in finem pro ea quae hereditatem consequitur psalmus David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	006	001	in finem in carminibus pro octava psalmus David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	007	001	psalmus David quem cantavit Domino pro verbis Chusi filii Iemini
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	008	001	in finem pro torcularibus psalmus David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	009	001	in finem pro occultis filii psalmus David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	011	001	in finem psalmus David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	012	001	in finem pro octava psalmus David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	018	001	in finem puero Domini David quae locutus est Domino verba cantici huius in die qua eripuit eum Dominus de manu omnium inimicorum eius et de manu Saul et dixit
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	019	001	in finem psalmus David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	020	001	in finem psalmus David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	021	001	in finem psalmus David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	022	001	in finem pro adsumptione matutina psalmus David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	030	001	psalmus cantici in dedicatione domus David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	031	001	in finem psalmus David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	034	001	David cum inmutavit vultum suum coram Abimelech et dimisit eum et abiit
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	036	001	in finem servo Domini David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	038	001	psalmus David in rememorationem de sabbato
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	039	001	in finem Idithun canticum David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	040	001	in finem David psalmus
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	041	001	in finem psalmus David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	042	001	in finem in intellectum filiis Core
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	045	001	in finem pro his qui commutabuntur filiis Core ad intellectum canticum pro dilecto
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	046	001	in finem pro filiis Core pro arcanis psalmus
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	047	001	in finem pro filiis Core psalmus
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	048	001	canticum psalmi filiis Core secunda sabbati
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	049	001	in finem filiis Core psalmus
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	051	001	in finem psalmus David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	051	002	cum venit ad eum Nathan propheta quando intravit ad Bethsabee
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	052	001	in finem intellectus David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	052	002	cum venit Doec Idumeus et adnuntiavit Saul et dixit venit David in domo Achimelech
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	053	001	in finem pro Melech intellegentiae David dixit insipiens in corde suo non est Deus
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	054	001	in finem in carminibus intellectus David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	054	002	cum venissent Ziphei et dixissent ad Saul nonne David absconditus est apud nos
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	055	001	in finem in carminibus intellectus David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	056	001	in finem pro populo qui a sanctis longe factus est David in tituli inscriptione cum tenuerunt eum Allophili in Geth
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	057	001	in finem ne disperdas David in tituli inscriptione cum fugeret a facie Saul in spelunca
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	058	001	in finem ne disperdas David in tituli inscriptione
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	059	001	in finem ne disperdas David in tituli inscriptione quando misit Saul et custodivit domum eius ut interficeret eum
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	060	001	in finem his qui inmutabuntur in tituli inscriptione David in doctrina
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	060	002	cum succendit Syriam Mesopotamiam et Syriam Soba et convertit Ioab et percussit vallem Salinarum duodecim milia
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	061	001	in finem in hymnis David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	062	001	in finem pro Idithun psalmus David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	063	001	psalmus David cum esset in deserto Iudaeae
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	064	001	in finem psalmus David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	065	001	in finem psalmus David canticum; Hieremiae et Aggei de verbo peregrinationis quando incipiebant proficisci
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	067	001	in finem in hymnis psalmus cantici
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	068	001	in finem David psalmus cantici
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	069	001	in finem pro his qui commutabuntur David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	070	001	in finem David in rememoratione eo quod salvum me fecit Dominus
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	075	001	in finem ne corrumpas psalmus Asaph cantici
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	076	001	in finem in laudibus psalmus Asaph canticum ad Assyrium
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	077	001	in finem pro Idithun psalmus Asaph
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	080	001	in finem pro his qui commutabuntur testimonium Asaph psalmus
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	081	001	in finem pro torcularibus Asaph
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	083	001	canticum psalmi Asaph
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	084	001	in finem pro torcularibus filiis Core psalmus
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	085	001	in finem filiis Core psalmus
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	088	001	canticum psalmi filiis Core in finem pro Maeleth ad respondendum intellectus Eman Ezraitae
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	089	001	intellectus Aethan Ezraitae
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	092	001	psalmus cantici in die sabbati
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	102	001	oratio pauperis cum anxius fuerit et coram Domino effuderit precem suam
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	108	001	canticum psalmi David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	140	001	in finem psalmus David
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	142	001	intellectus David cum esset in spelunca oratio
+Holy-Bible---Latin---Vulgate-Jerome	028	HOS	002	023	et seminabo eam mihi in terram et miserebor eius quae fuit absque misericordia
+Holy-Bible---Latin---Vulgate-Jerome	030	AMO	006	010	et tollet eum propinquus suus et conburet eum ut efferat ossa de domo et dicet ei qui in penetrabilibus domus est numquid adhuc est apud te
+Holy-Bible---Latin---Vulgate-Jerome	040	MAT	023	014	
+Holy-Bible---Latin---Vulgate-Jerome	043	JOH	005	004	
+Holy-Bible---Latin---Vulgate-Jerome	043	JOH	006	051	ego sum panis vivus qui de caelo descendi
+Holy-Bible---Latin---Vulgate-Jerome	044	ACT	008	037	
+Holy-Bible---Latin---Vulgate-Jerome	044	ACT	015	034	
+Holy-Bible---Latin---Vulgate-Jerome	044	ACT	018	004	
+Holy-Bible---Latin---Vulgate-Jerome	044	ACT	023	025	
+Holy-Bible---Latin---Vulgate-Jerome	044	ACT	024	007	
 Holy-Bible---Latin---Vulgate-Jerome	044	ACT	028	029	
 Holy-Bible---Latin---Vulgate-Jerome	045	ROM	016	024	
+Holy-Bible---Latin---Vulgate-Jerome	066	REV	012	018	et stetit super harenam maris
+Holy-Bible---Malagasy---Malagasy-Bible	009	1SA	020	042	Ary hoy Jonatana tamin’ i Davida: Mandehana soa aman-tsara; fa efa nianiana tamin’ ny anaran’ i Jehovah isika roa lahy hoe: Jehovah no vavolombelona amiko sy aminao ary amin’ ny taranako sy ny taranakao mandrakizay.
+Holy-Bible---Malagasy---Malagasy-Bible	011	1KI	022	043	Ary nandeha tamin’ ny lalana rehetra izay nalehan’ i Asa rainy izy ka tsy niala tamin’ izany, fa nanao izay mahitsy eo imason’ i Jehovah;
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	003	001	Salamo nataon’ i Davida, fony izy nandositra an’ i Absaloma zanany.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	004	001	Ho an’ ny mpiventy hira. Hampiarahina amin’ ny valiha. Salamo nataon’ i Davida.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	005	001	Ho an’ ny mpiventy hira. Hampiarahina amin’ ny sodina. Salamo nataon’ i Davida.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	006	001	Ho an’ ny mpiventy hira. Nampiarahina amin’ ny valiha. Al-hasheminith. Salamo nataon’ i Davida.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	007	001	Sigaiona nataon’ i Davida, izay nohirainy ho an’ i Jehovah noho ny tenin’ i Kosy Benjamita.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	008	001	Ho an’ ny mpiventy hira Al-hagitith. Salamo nataon’ i Davida.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	009	001	Ho an’ ny mpiventy hira, Almoth-laben. Salamo nataon’ i Davida.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	012	001	Ho an’ ny mpiventy hira. Al-hasheminith. Salamo nataon’ i Davida.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	018	001	Ho an’ ny mpiventy hira. Nataon’ i Davida, mpanompon’ i Jehovah, izay nilaza tamin’ i Jehovah ny tenin’ ity fihirana ity tamin’ ny andro namonjen’ i Jehovah azy tamin’ ny tanan’ ny fahavalony rehetra, indrindra fa tamin’ ny tanan’ i Saoly;
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	019	001	Ho an’ ny mpiventy hira. Salamo nataon’ i Davida.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	020	001	Ho an’ ny mpiventy hira. Salamo nataon’ i Davida.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	021	001	Ho an’ ny mpiventy hira. Salamo nataon’ i Davida.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	022	001	Ho an’ ny mpiventy hira. Alaieleth-hasahara. Salamo nataon’ i Davida.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	030	001	Salamo. Fihirana tamin’ ny nitokanana ny trano. Nataon’ i Davida.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	031	001	Ho an’ ny mpiventy hira. Salamo nataon’ i Davida.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	034	001	Nataon’ i Davida tamin’ izy nody adala teo anatrehan’ i Abimeleka, dia noroahiny ka lasa nandeha.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	036	001	Ho an’ ny mpiventy hira. Nataon’ i Davida, mpanompon’ i Jehovah.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	038	001	Salamo nataon’ i Davida. Ho fampahatsiarovana.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	039	001	Ho an’ ny mpiventy hira. Ho an’ i Jedotona Salamo nataon’ i Davida.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	040	001	Ho an’ ny mpiventy hira. Salamo nataon’ i Davida.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	041	001	Ho an’ ny mpiventy hira. Salamo nataon’ i Davida.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	042	001	Ho an’ ny mpiventy hira. Maskila. Nataon’ ny Koraïta.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	044	001	Ho an’ ny mpiventy hira. Nataon’ ny Koraïta. Maskila.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	045	001	Ho an’ ny mpiventy hira. Al-shoshanim. Nataon’ ny Koraïta. Maskila. Tonon-kiram-pitiavana.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	046	001	Ho an’ ny mpiventy hira. Nataon’ ny Koraïta; At-alamoth; Tonon-kira.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	047	001	Ho an’ ny mpiventy hira. Nataon’ ny Koraïta. Salamo.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	048	001	Tonon-kira. Salamo nataon’ ny Koraïta.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	049	001	Ho an’ ny mpiventy hira. Nataon’ ny Koraïta. Salamo.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	051	001	Ho an’ ny mpiventy hira. Salamo nataon’ i Davida,
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	051	002	fony Natana mpaminany nankao aminy rehefa naka an’ i Batseba izy.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	052	001	Ho an’ ny mpiventy hira. Maskila nataon’ i Davida,
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	052	002	fony tonga Doega Edomita ka nilaza tamin’ i Saoly hoe: Davida dia efa tonga ao an-tranon’ i Ahimeleka.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	053	001	Ho an’ ny mpiventy hira. Al-mahalath. Maskila nataon’ i Davida.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	054	001	Ho an’ ny mpiventy hira. Hampiarahina amin’ ny valiha. Maskila nataon’ i Davida,
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	054	002	fony tonga ny Zifita ka nanao tamin’ i Saoly hoe: Tsy miery any aminay va Davida?
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	055	001	Ho an’ ny mpiventy hira. Hampiarahina amin’ ny valiha. Maskila nataon’ i Davida.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	056	001	Ho an’ ny mpiventy hira. Al-jonathelem-rehokim. Miktama nataon’ i Davida, fony nisambotra azy tany Gata ny Filistina.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	057	001	Ho an’ ny mpiventy hira. Al-tasheth. Miktama nataon’ i Davida tamin’ ny nandosirany an’ i Saoly tao anaty zohy.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	058	001	Ho an’ ny mpiventy hira. Al-tasheth. Miktama nataon’ i Davida.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	059	001	Ho an’ ny mpiventy hira. Al-tasheth. Miktama nataon’ i Davida, fony Saoly naniraka, ka nisy niambina ny trano hamonoana azy.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	060	001	Ho an’ ny mpiventy hira Al-sho-shanedoth. Miktama nataon’ i Davida hampianarana,
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	060	002	fony izy nanafika an’ i Mesopotamia sy Arama-zoba tamin’ ny niverenan’ i Joaba ka namelezany ny Edomita roa arivo amby iray alin-dahy teo amin’ ny lohasahan-tsira.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	061	001	Ho an’ ny mpiventy hira. Hampiarahina amin’ ny valiha. Nataon’ i Davida.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	062	001	Ho an’ ny mpiventy hira. Al-jedotona. Salamo nataon’ i Davida.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	063	001	Salamo nataon’ i Davida, fony tany an-efitr’ i Joda izy.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	064	001	Ho an’ ny mpiventy hira. Salamo nataon’ i Davida.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	065	001	Ho an’ ny mpiventy hira. Salamo nataon’ i Davida. Tonon-kira.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	067	001	Ho an’ ny mpiventy hira. Hampiarahina amin’ ny valiha. Salamo. Tonon-kira.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	068	001	Ho an’ ny mpiventy hira. Salamo nataon’ i Davida. Tonon-kira.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	069	001	Ho an’ ny mpiventy hira. Al-shoshanim. Nataon’ i Davida.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	070	001	Ho an’ ny mpiventy hira. Nataon’ i Davida. Ho fampahatsiarovana.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	075	001	Ho an’ ny mpiventy hira. Al-tasheth. Salamo nataon’ i Asafa. Tonon-kira.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	076	001	Ho an’ ny mpiventy hira. Hampiarahina amin’ ny valiha. Salamo nataon’ i Asafa. Tonon-kira.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	077	001	Ho an’ ny mpiventy hira. Al-jedotona. Salamo nataon’ i Asafa.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	080	001	Ho an’ ny mpiventy hira. Al-shoshanim-edoth. Salamo nataon’ i Asafa.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	081	001	Ho an’ ny mpiventy hira. Al-gitith. Nataon’ i Asafa.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	083	001	Tonon-kira. Salamo nataon’ i Asafa.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	084	001	Ho an’ ny mpiventy hira. Al-hagitith. Salamo nataon’ ny Koraïta.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	085	001	Ho an’ ny mpiventy hira. Salamo nataon’ ny Koraïta.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	088	001	Tonon-kira. Salamo nataon’ ny Koraïta. Ho an’ ny mpiventy hira. Almahalath-leanoth. Maskila nataon’ i Hemana Ezrahita.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	089	001	Maskila nataon’ i Etana Ezrahita.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	092	001	Salamo. Tonon-kira hatao amin’ ny andro Sabata.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	102	001	Fivavaky ny ory, raha reraka izy ka mandoatra ny alahelony eo anatrehan’ i Jehovah.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	108	001	Tonon-kira. Salamo nataon’ i Davida.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	140	001	Ho an’ ny mpiventy hira. Salamo nataon’ i Davida.
+Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	142	001	Maskila nataon’ i Davida tamin’ izy tao anaty lavaka. Fivavahana.
+Holy-Bible---Malagasy---Malagasy-Bible	040	MAT	017	021	​
+Holy-Bible---Malagasy---Malagasy-Bible	041	MAR	007	016	​
+Holy-Bible---Malagasy---Malagasy-Bible	041	MAR	009	044	​
+Holy-Bible---Malagasy---Malagasy-Bible	041	MAR	009	046	​
+Holy-Bible---Malagasy---Malagasy-Bible	041	MAR	011	026	​
+Holy-Bible---Malagasy---Malagasy-Bible	041	MAR	015	028	​
+Holy-Bible---Malagasy---Malagasy-Bible	042	LUK	017	036	​
+Holy-Bible---Malagasy---Malagasy-Bible	042	LUK	023	017	​
+Holy-Bible---Malagasy---Malagasy-Bible	043	JOH	005	004	​
+Holy-Bible---Malagasy---Malagasy-Bible	044	ACT	008	037	​
+Holy-Bible---Malagasy---Malagasy-Bible	044	ACT	015	034	​
+Holy-Bible---Malagasy---Malagasy-Bible	044	ACT	024	007	​
+Holy-Bible---Malagasy---Malagasy-Bible	044	ACT	028	029	​
+Holy-Bible---Malagasy---Malagasy-Bible	045	ROM	016	024	​
+Holy-Bible---Malagasy---Malagasy-Bible	064	3JO	001	014	fa manantena hahita anao faingana ihany aho, dia hiteny mifanatrika isika.
 Holy-Bible---Malayalam---Malayalam-Bible	054	1TI	006	021	ആ ജ്ഞാനം ചിലർ സ്വീകരിച്ച് വിശ്വാസം വിട്ടു തെറ്റിപ്പോയിരിക്കുന്നു.
 Holy-Bible---Malayalam---Malayalam-Bible	064	3JO	001	014	എന്നാൽ ഞാൻ വേഗത്തിൽ നിന്നെ കാണ്മാൻ ആശിക്കുന്നു. അപ്പോൾ നമുക്ക് മുഖാമുഖമായി സംസാരിക്കാം.
 Holy-Bible---Marathi---Marathi-Bible	064	3JO	001	014	त्याऐवजी, तुला लवकर भेटण्याची मला आशा आहे. मग आपल्याला समोरासमोर बोलता येईल.

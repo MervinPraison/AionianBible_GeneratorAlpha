@@ -3,10 +3,10 @@
 NumberOfPages: 648
 NumberOfPages: 176
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Albanian-Tosk---Albanian-Bible.php
-NumberOfPages: 634
-NumberOfPages: 182
+NumberOfPages: 636
+NumberOfPages: 184
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.php
-NumberOfPages: 178
+NumberOfPages: 180
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Aramaic---Aramaic-NT-Peshitta.php
 NumberOfPages: 56
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Arapaho---Arapaho-Luke.php
@@ -14,8 +14,8 @@ NumberOfPages: 196
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Armenian---Armenian-Bible-Eastern.php
 NumberOfPages: 236
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Armenian---Armenian-Bible-Western.php
-NumberOfPages: 676
-NumberOfPages: 188
+NumberOfPages: 678
+NumberOfPages: 190
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Assamese---Assamese-Bible.php
 NumberOfPages: 674
 NumberOfPages: 190
@@ -24,8 +24,8 @@ NumberOfPages: 194
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Basque---Basque-NT.php
 NumberOfPages: 40
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Beaver---Beaver-Mark.php
-NumberOfPages: 656
-NumberOfPages: 184
+NumberOfPages: 658
+NumberOfPages: 186
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Bengali---Bengali-Bible.php
 NumberOfPages: 96
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Breton---Breton-Gospels.php
@@ -63,8 +63,8 @@ NumberOfPages: 190
 NumberOfPages: 676
 NumberOfPages: 182
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---A-Conservative-Version.php
-NumberOfPages: 686
-NumberOfPages: 198
+NumberOfPages: 668
+NumberOfPages: 180
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Aionian-Bible.php
 NumberOfPages: 682
 NumberOfPages: 182
@@ -253,16 +253,14 @@ NumberOfPages: 194
 NumberOfPages: 692
 NumberOfPages: 190
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Hawaiian---Hawaiian-Bible-1868.php
-NumberOfPages: 602
+NumberOfPages: 604
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Hebrew---Hebrew-Aleppo-Codex.php
 NumberOfPages: 620
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.php
-NumberOfPages: 652
-*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Hebrew---Hebrew-Open-Scriptures.php
 NumberOfPages: 616
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.php
-NumberOfPages: 686
-NumberOfPages: 188
+NumberOfPages: 688
+NumberOfPages: 190
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Hindi---Hindi-Bible.php
 NumberOfPages: 650
 NumberOfPages: 182
@@ -341,8 +339,8 @@ NumberOfPages: 184
 NumberOfPages: 680
 NumberOfPages: 190
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Panjabi---Punjabi-Bible.php
-NumberOfPages: 654
-NumberOfPages: 178
+NumberOfPages: 656
+NumberOfPages: 180
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Persian---Old-Persion-Version-Bible.php
 NumberOfPages: 208
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet.php
@@ -391,7 +389,7 @@ NumberOfPages: 196
 NumberOfPages: 692
 NumberOfPages: 180
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Somali---Somali-Bible.php
-NumberOfPages: 398
+NumberOfPages: 400
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Spanish---Free-Bible.php
 NumberOfPages: 644
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Spanish---Reina-Valera-1865.php
@@ -439,7 +437,7 @@ NumberOfPages: 262
 NumberOfPages: 818
 NumberOfPages: 222
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Vietnamese---Vietnamese-Bible-1934.php
-*** AION: LOOP DONE! Function=AION_LOOP_HTMS_DOIT Files processed=175
+*** AION: LOOP DONE! Function=AION_LOOP_HTMS_DOIT Files processed=174
 *** AION: DONE! index.php auth() turned ON: ../www-stage/index.php
 *** AION: SPELL CHECK: Holy-Bible---Albanian-Tosk---Albanian-Bible, WORDS
 *** AION: SPELL CHECK: Holy-Bible---Arabic---Arabic-Van-Dyck-Bible, ar
@@ -544,7 +542,6 @@ NumberOfPages: 222
 *** AION: SPELL CHECK: Holy-Bible---Hawaiian---Hawaiian-Bible-1868, WORDS
 *** AION: SPELL CHECK: Holy-Bible---Hebrew---Hebrew-Aleppo-Codex, he
 *** AION: SPELL CHECK: Holy-Bible---Hebrew---Hebrew-Masoretic-OT, he
-*** AION: SPELL CHECK: Holy-Bible---Hebrew---Hebrew-Open-Scriptures, he
 *** AION: SPELL CHECK: Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad, he
 *** AION: SPELL CHECK: Holy-Bible---Hindi---Hindi-Bible, hi
 *** AION: SPELL CHECK: Holy-Bible---Hungarian---Hungarian-Karoli, hu

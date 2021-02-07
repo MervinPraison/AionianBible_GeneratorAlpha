@@ -104,7 +104,6 @@ Holy-Bible---Haitian---Haitian-Creole-Bible		0			lanfè								NULL
 Holy-Bible---Hawaiian---Hawaiian-Bible-1868		0											NULL
 Holy-Bible---Hebrew---Hebrew-Aleppo-Codex		0											NULL
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT		0											NULL
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures		0											NULL
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad		0											NULL
 Holy-Bible---Hindi---Hindi-Bible		0		सनातन,सदैव	नरक	नरक	अधोलोक,नरक	अधोलोक,नरक	अधोलोक,नरक	अधोलोक,नरक	अथाह कुण्ड	आग की झील,मिलेगा, जो आग	NULL
 Holy-Bible---Hungarian---Hungarian-Karoli		0		örökkévaló,örökké,örökkön,világ,világi,világnak,világon,világot,világhoz,világból,világbírói,világhoz	pokol,pokolba,pokolra,pokolig,pokolból,pokoltól,pokolban,pokolnak	pokol,pokolba,pokolra	pokol,pokolba,pokolra,alvilágnál,alvilág,sírba,koporsóba,Seol,Seolban,Seolba,Seolra,holtak	gyehenna,gyehennára,gyehennában,gyehennának,gyehennától	pokol,pokolban,pokolra	taszítván	mélységbe,mélység,mélységnek,mélység,mélységbõl		NULL

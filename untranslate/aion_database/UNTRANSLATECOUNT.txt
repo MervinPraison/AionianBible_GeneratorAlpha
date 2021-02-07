@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
-# File Size: 18185       
-# File Date: 02/01/2021 11:58:35
+# File Size: 18090       
+# File Date: 02/07/2021 12:04:01
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: http://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2021
@@ -118,7 +118,6 @@ Holy-Bible---Haitian---Haitian-Creole-Bible	0	2	63	12	11	9	1	5	94	64	10	2	0	0	2	
 Holy-Bible---Hawaiian---Hawaiian-Bible-1868	0	0	63	12	11	9	1	5	94	64	10	2	0	1	0	271	264	263	0	0	0	1
 Holy-Bible---Hebrew---Hebrew-Aleppo-Codex	0	0	63	0	0	0	0	0	0	0	0	0	0	0	0	63	63	63	0	200	0	0
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT	0	0	63	0	0	0	0	0	0	0	0	0	0	0	0	63	63	63	0	200	0	0
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	0	0	63	0	0	0	0	0	0	0	0	0	0	0	0	63	63	63	0	200	0	0
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	0	0	63	0	0	0	0	0	0	0	0	0	0	0	0	63	63	63	0	200	0	0
 Holy-Bible---Hindi---Hindi-Bible	12	0	63	12	11	9	1	5	94	64	10	2	0	1	0	271	264	263	0	0	0	1
 Holy-Bible---Hungarian---Hungarian-Karoli	14	2	63	12	11	9	1	5	94	64	10	2	0	1	2	271	264	263	0	0	0	1
@@ -138,7 +137,7 @@ Holy-Bible---Latin---Clementine-Vulgate-Conte	127	6	63	12	11	9	1	5	94	64	10	2	0	
 Holy-Bible---Latin---Clementine-Vulgate-Hetzenauer	127	6	63	12	11	9	1	5	94	64	10	2	0	0	6	271	263	263	0	0	0	0
 Holy-Bible---Latin---Clementine-Vulgate-Tweedale	127	6	63	12	11	9	1	5	94	64	10	2	0	0	6	271	263	263	0	0	0	0
 Holy-Bible---Latin---Vulgata-Sistina	124	6	63	12	11	9	1	5	94	64	10	2	0	0	6	271	263	263	0	0	0	0
-Holy-Bible---Latin---Vulgate-Jerome	116	4	63	12	11	9	1	5	94	64	10	2	0	0	4	271	263	263	0	0	0	0
+Holy-Bible---Latin---Vulgate-Jerome	117	5	63	12	11	9	1	5	90	64	10	2	0	0	5	267	259	259	0	0	4	0
 Holy-Bible---Latvian---Latvian-Gluck-Bible	0	1	63	12	11	9	1	5	94	64	10	2	0	1	1	271	264	263	0	0	0	1
 Holy-Bible---Malagasy---Malagasy-Bible	0	0	63	12	11	9	1	5	94	64	10	2	0	0	0	271	263	263	0	0	0	0
 Holy-Bible---Malayalam---Malayalam-Bible	0	0	63	12	11	9	1	5	94	64	10	2	0	1	0	271	264	263	0	0	0	1

@@ -22,8 +22,8 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_onebook'	=> FALSE,	// TRUE = only do first bible book, otherwise all
 		'q_rtlhuh'	=> 'ALL',	// 'RTL' = RTL only,  'RTLNO' = Skip RTL, 'ALL' = all
 		'q_allall'	=> TRUE,	// TRUE = do all bibles not marked FALSE -OR- FALSE = do all bibles marked TRUE
-		'q_pdfall'	=> FALSE,	// TRUE = do ALL PDFs
-		'q_pdfpo'	=> TRUE,	// TRUE = do KDP PDFs
+		'q_pdfall'	=> TRUE,	// TRUE = do ALL PDFs
+		'q_pdfpo'	=> FALSE,	// TRUE = do KDP PDFs
 		'q_pdfnt'	=> FALSE,	// TRUE = do KDP NT PDFs
 		'q_pdflu'	=> FALSE,	// TRUE = do LULU PDFs
 		'q_pdfon'	=> FALSE,	// TRUE = do Online PDFs
@@ -36,18 +36,20 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Matupi|Updated-Gdansk|Slovene-Savli).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aleppo|Scots|Aionian-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Arabic|Aramaic|Hebrew|Persian).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Arabic|Peshitta|Aleppo|Persian|Aionian-Bible).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Arabic|Peshitta|Aleppo|Persian|Hindi|Bengali|Assamese|Aionian-Bible|Spanish---Free-Bible).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Beaver).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Arabic|Aionian-Bible|Spanish---Free-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Peshitta).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic|Persian).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Spanish---Free-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aleppo).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*1858.*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Kannada|Peshitta).*---Aionian-Edition\.noia$/",
-		'include'	=> "/Holy-Bible---.*(Aionian-Bible|Bengali).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Bengali).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/(Holy-Bible---Latvian---Latvian-Gluck-Bible|Holy-Bible---Japanese---Japanese-Yougo-yaku)---Aionian-Edition\.noia$/",
 		//'include'	=> "/.*Arapaho.*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Youngs).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/---Aionian-Edition\.noia$/",
+		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		) );
@@ -1375,19 +1377,20 @@ $fonts
 	</Fontface></Paragraph></Textblock></PlaceObject>
 	
 	<!-- BIBLE PREFACE -->
-	<Switch><Case test="$keizer">
-		<NewPage openon="left" pagetype="$page1colleft" /><Bookmark level="1" select="'$bm_pref'" open="no" /><Output area="area1col"><Text>$pref</Text></Output>
-		<NewPage openon="right" pagetype="$page1colright"  /><Output area="area1col"><Text>$pref2</Text></Output>
-	</Case>
-	<Otherwise>
-		<NewPage openon="left" pagetype="$page1colleft"  />
-		<NewPage openon="right" pagetype="$page1colright" /><Bookmark level="1" select="'$bm_pref'" open="no" /><Output area="area1col"><Text>$pref</Text></Output>
-	</Otherwise>
+	<Switch>
+		<Case test="$keizer">
+			<NewPage openon="left" pagetype="$page1colleft" /><Bookmark level="1" select="'$bm_pref'" open="no" /><Output area="area1col"><Text>$pref</Text></Output>
+			<NewPage openon="right" pagetype="$page1colright"  /><Output area="area1col"><Text>$pref2</Text></Output>
+		</Case>
+		<Otherwise>
+			<NewPage openon="left" pagetype="$page1colleft"  />
+			<NewPage openon="right" pagetype="$page1colright" /><Bookmark level="1" select="'$bm_pref'" open="no" /><Output area="area1col"><Text>$pref</Text></Output>
+		</Otherwise>
 	</Switch>
-
+	
 	<!-- BIBLE TOC -->
 	<SetVariable variable="newpagetype" select="'toc'"/>
-	<NewPage openon="right" pagetype="$page1colright"  />
+	<NewPage openon="right" pagetype="$page1colright" />
 	<InsertPages name="toc" pages="1" />
     <SetVariable variable="toc_variable"/>
 	<Message select="concat('ABPROOFER $outpdf TOC ',{ sd:current-page() - 1 })" />

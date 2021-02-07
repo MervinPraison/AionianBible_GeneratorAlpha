@@ -106,7 +106,6 @@
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Hawaiian---Hawaiian-Bible-1868---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Aleppo-Codex---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Masoretic-OT---Standard-Edition.noia
-*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Open-Scriptures---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Hindi---Hindi-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Hungarian---Hungarian-Karoli---Standard-Edition.noia
@@ -176,7 +175,7 @@
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Urdu---Urdu-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-Bible-1934---Standard-Edition.noia
-*** AION: LOOP DONE! Function=AION_LOOP_CHECK_UNTRANSLATE_MODULE_DOIT Files processed=175
+*** AION: LOOP DONE! Function=AION_LOOP_CHECK_UNTRANSLATE_MODULE_DOIT Files processed=174
 *** AION: REMINDER! COPY TO DATABASE: ../checks/UNTRANSLATEMODULE.txt
 *** AION: REMINDER! COPY TO DATABASE: ../checks/UNTRANSLATEMODULE.txt.sort
 *** AION: DONE!

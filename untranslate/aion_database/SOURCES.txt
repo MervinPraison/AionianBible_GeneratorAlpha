@@ -244,7 +244,6 @@ Holy-Bible---Hebrew---Hebrew-Aleppo-Codex	Hebrew OT: Aleppo Codex	version_downlo
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT				http://ebible.org/sword/zip/hboMTeb.zip	Holy-Bible---Hebrew---Hebrew-Masoretic-OT.crosswire.zip
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT				http://ebible.org/epub/hbo.epub	Holy-Bible---Hebrew---Hebrew-Masoretic-OT.epub
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT				http://ebible.org/Scriptures/hbo_vpl.zip	Holy-Bible---Hebrew---Hebrew-Masoretic-OT.vpl.zip
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures		SWORD		http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/OSHB.zip	Holy-Bible---Hebrew---Hebrew-Open-Scriptures.crosswire.zip
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad				http://ebible.org/sword/zip/hboWLCeb.zip	Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.crosswire.zip
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad				http://ebible.org/epub/hboWLC.epub	Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.epub
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad				http://ebible.org/Scriptures/hboWLC_vpl.zip	Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.vpl.zip

@@ -575,8 +575,6 @@ Holy-Bible---Hebrew---Hebrew-Aleppo-Codex	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Hebrew---Hebrew-Aleppo-Codex								NULL
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT								NULL
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures	061	2PE	002	017	NOTE			questioned
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures								NULL
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad								NULL
 Holy-Bible---Hindi---Hindi-Bible	061	2PE	002	017	NOTE			questioned

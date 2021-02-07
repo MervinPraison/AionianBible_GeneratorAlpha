@@ -1,6 +1,6 @@
 # File Name: TEXTREPAIR.txt
-# File Size: 17176       
-# File Date: 02/01/2021 10:40:20
+# File Size: 13276       
+# File Date: 02/07/2021 10:36:47
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: http://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2021
@@ -46,25 +46,6 @@ Holy-Bible---Kannada---Kannada-Bible	019	PSA	045	001	ಪ್ರಧಾನಗಾಯ
 Holy-Bible---Kannada---Kannada-Bible	019	PSA	046	001	ಪ್ರಧಾನಗಾಯಕನ ಕೀರ್ತನಸಂಗ್ರಹದಿಂದ ಆರಿಸಿಕೊಂಡದ್ದು; ಕೋರಹೀಯರ ಗೀತೆ; ತಾರಕಸ್ಥಾಯಿಯಲ್ಲಿ ಹಾಡತಕ್ಕದ್ದು. ದೇವರು ನಮಗೆ ಆಶ್ರಯದುರ್ಗವಾಗಿದ್ದಾನೆ; ಆತನು ಇಕ್ಕಟ್ಟಿನಲ್ಲಿ ನಮಗೆ ವಿಶೇಷ ಸಹಾಯಕನು.
 Holy-Bible---Latvian---Latvian-Gluck-Bible	002	EXO	023	030	Es pamazām tos izdzīšu tavā priekšā, tiekams tu pieaugsi un to zemi varēsi turēt.
 Holy-Bible---Latvian---Latvian-Gluck-Bible	038	ZEC	013	004	Un notiks tai dienā, ka pravieši kaunēsies ikviens par savu parādīšanu, to pasludināt, un vairs neapvilks spalvas mēteli uz meliem.
-Holy-Bible---Malagasy---Malagasy-Bible	006	JOS	024	015	Nefa raha tsy sitrakareo ny hanompo an'i Jehovah, dia fidionareo anio ary izay hotompoinareo. na ny andriamanitra izay notompoin'ny razanareo tany an-dafin'ny Ony,  na ny andriamanitry ny Amorita, izay mponina teto amin'ny tany onenanareo; fa raha izaho sy ny ankohonako kosa, dia hanompo an'i Jehovah izahay.
-Holy-Bible---Malagasy---Malagasy-Bible	009	1SA	015	021	Nefa nangalan'ny olona ondry aman'osy sy omby ny babo, dia izay soa avy tamin'ny zavatra haringana,  mba hovonoina hatao fanatitra ho an'i Jehovah Andriamanitrao ao Gilgala.
-Holy-Bible---Malagasy---Malagasy-Bible	011	1KI	021	026	Ary izy nanao vetaveta loatra tamin'ny   nanarahany ny sampy, dia tahaka izay rehetra nataon'ny Amorita. izay noroahin'i Jehovah teo anoloan'ny Zanak'Isiraely.
-Holy-Bible---Malagasy---Malagasy-Bible	018	JOB	017	008	Ankona noho izany ny olona mahitsy, ary ny tsy manan-tsiny mihendratra mahita ny mpihatsaravela-tsihy. 
-Holy-Bible---Malagasy---Malagasy-Bible	018	JOB	020	005	Dia vetivety foana ny firavoravoan'ny ratsy fanahy, ary indray mipi-maso monja ny fifalian'ny mpihatsaravelatsihy? 
-Holy-Bible---Malagasy---Malagasy-Bible	018	JOB	027	008	Fa inona no fanantenan'ny mpihatsaravelatsihy,  raha maito ny ainy, ka tsoahan'Andriamanitra ny fanahiny?
-Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	024	009	Asandrato ny lohanareo, ry vavahady; ary manandrata ny lohanareo, ry varavarana fahagola,  mba hidiran'ny Mpanjakan'ny voninahitra.
-Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	049	015	Fa Andriamanitra kosa hamonjy ny aiko amin'ny herin'ny fiainan-tsi-hita,  satria handray ahy Izy.
-Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	072	004	Hitsara  ny olona ory izy sy hamonjy ny zanaky ny mahantra ary hanorotoro ny mpampahory.
-Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	072	005	Hatahotra  anao ny olona, raha mbola maharitra koa ny masoandro sy ny volana hatramin'ny taranaka fara mandimby.
-Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	072	006	Hidina  tahaka ny ranonorana amin'ny saha voajinja izy, tahaka ny ranonorana mivatravatra amin'ny tany.
-Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	072	007	Ny  marina hitrebona amin'ny androny, ary ho be ny fiadanana mandra-paha-tsy hisy volana intsony.
-Holy-Bible---Malagasy---Malagasy-Bible	026	EZE	043	016	Roa ambin'ny folo hakiho ny lavan'ny fatana,  ary roa ambin'ny folo hakiho koa ny sakany, ary efa-joro sokera izy,
-Holy-Bible---Malagasy---Malagasy-Bible	026	EZE	044	011	Ary ho mpanao fanompoam-pivavahana ao amin'ny fitoerako masina izy, dia ho mpiadidy ny amin'ny fiandrasana ny vavahadin'ny tempoly sy ho mpanao fanompoam-pivavahana ao amin'ny tempoly;  hisolo ny olona hamono ny fanatitra dorana sy ny fanatitra hafa izy ary hitoetra eo anatrehany hanao fanompoam-pivavahana ho azy.
-Holy-Bible---Malagasy---Malagasy-Bible	027	DAN	002	008	Fa ny mpanjaka namaly ka nanao hoe: Fantatro marimarina fa mandany andro foana ianareo, satria hitanareo fa efa niloa-bava aho. 
-Holy-Bible---Malagasy---Malagasy-Bible	027	DAN	002	023	Hianao, ry Andriamanitry ny razako ô, no deraiko sy isaorako, satria nomenao fahendrena sy hery aho, ary ankehitriny efa nampahafantarinao ahy izay nangatahinay taminao; fa nampahafantarinao anay ilay nofin'  ny mpanjaka.
-Holy-Bible---Malagasy---Malagasy-Bible	030	AMO	005	010	Halany eo am-bavahady izay mananatra,  ary ataony ho fahavetavetana izay miteny ny marina.
-Holy-Bible---Malagasy---Malagasy-Bible	033	MIC	005	002	Koa dia hatolony ireny, Ambara-pihavin'ny fotoana hiterahan'izay anankiray hiteraka; Ary izay sisa amin'ny rahalahiny dia hiverina mbamin'  ny Zanak'Isiraely.
-Holy-Bible---Malagasy---Malagasy-Bible	038	ZEC	005	009	Dia natopiko ny masoko, ka hitako fa, indreo, nisy vehivavy roa nivoaka, ary nahazo rivotra ny elany, fa nanana elatra toy ny elatry ny vano izy; ary naingainy ho eo anelanelan'ny tany sy ny lanitra ny vata famarana. 
 Holy-Bible---Ukrainian---Ukrainian-NT	040	MAT	001	023	Ось дїва матиме в утробі, і вродить сина, і дадуть йому імя Емануіл, що перекладом є: З нами Бог.
 Holy-Bible---Ukrainian---Ukrainian-NT	040	MAT	004	017	З того часу почав Ісус проповідувати й глаголати:  Покайтесь, наближилось бо царство небесне.
 Holy-Bible---Ukrainian---Ukrainian-NT	040	MAT	021	025	Хрещеннє Иоанове звідкіля було: з неба, чи від людей?  Вони ж міркували собі, говорячи: Коли скажемо: З неба, то скаже нам: Чом же ви не вірували йому?

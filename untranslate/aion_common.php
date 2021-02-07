@@ -498,7 +498,7 @@ function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $ski
 		'source'	=> $source,
 		'uniusage'	=> $uniusage,
 		'include'	=> "/(\.vpl\.zip|.+\.txt|.+\.unbound\.zip|.+\.sword)$/",
-		//'include'	=> "/Holy-Bible---.*(French-Louis-Segond-1910).*(\.vpl\.zip|\.txt|\.unbound\.zip|\.sword)$/",
+		//'include'	=> "/Holy-Bible---.*(Malagasy).*(\.vpl\.zip|\.txt|\.unbound\.zip|\.sword)$/",
 		//'include'	=> "/Holy-Bible---.*(Spanish---Free-Bible).*(\.vpl\.zip|\.txt|\.unbound\.zip|\.sword)$/",
 		//'include'	=> "/Holy-Bible---.*(Tamil|Telugu).*(\.vpl\.zip|\.txt|\.unbound\.zip|\.sword)$/",
 		//'include'	=> "/Holy-Bible---[U-Z]+.*(\.vpl\.zip|\.txt|\.unbound\.zip|\.sword)$/",
@@ -2935,34 +2935,34 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 		'foreign'	=> &$foreign,
 		)));
 	$grandmarker = array();
-	$grandmarker['BIBLE_COUNT']	= $grandtotal['BIBLE_COUNT']-175;
+	$grandmarker['BIBLE_COUNT']	= $grandtotal['BIBLE_COUNT']-174;
 	$grandmarker['LANG_COUNT']	= $grandtotal['LANG_COUNT']-74;
-	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-4866;
+	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-4827;
 	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-4101;
-	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-156479;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-4117768;
-	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-38657;
-	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-238;
-	$grandmarker['LONG']		= $grandtotal['LONG']-516;
+	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-155550;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-4094557;
+	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-38590;
+	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-239;
+	$grandmarker['LONG']		= $grandtotal['LONG']-518;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-0;
-	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-1444;
-	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-734;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-8537;
-	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-5528;
-	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-8210;
-	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-521;
-	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-540;
-	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-590;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-89250;
-	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-18200;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-2020.17;
-	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-95;
+	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-1507;
+	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-733;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-8519;
+	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-5592;
+	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-7528;
+	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-520;
+	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-539;
+	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-589;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-88596;
+	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-18192;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-2005.67;
+	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-94;
 	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-55;
-	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-164;
+	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-163;
 	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-93;
-	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-113;
+	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-112;
 	$grandmarker['PDF_PRTL']	= $grandtotal['PDF_PRTL']-88;
-	$grandmarker['TRANS']		= $grandtotal['TRANS']-15;
+	$grandmarker['TRANS']		= $grandtotal['TRANS']-30;
 	$grandtotal['LONG']		= ($grandtotal['LONG']		== 0 ? $grandtotal['LONG']		: "<span style='font-weight:bold; color:red;'>".$grandtotal['LONG']."</span>" );
 	$grandtotal['CHAP_NO']	= ($grandtotal['CHAP_NO']	== 0 ? $grandtotal['CHAP_NO']	: "<span style='font-weight:bold; color:red;'>".$grandtotal['CHAP_NO']."</span>" );
 	$grandtotal['VERS_NO']	= ($grandtotal['VERS_NO']	== 0 ? $grandtotal['VERS_NO']	: "<span style='font-weight:bold; color:red;'>".$grandtotal['VERS_NO']."</span>" );
@@ -5314,6 +5314,7 @@ return(array(
 'SUS' => 'Susanna',
 'TOB' => 'Tobit',
 'WIS' => 'Wisdom of Solomon',
+'PSZ' => 'Additional Psalm',
 ));
 }
 
@@ -5415,6 +5416,7 @@ return(array(
 'SUS' => 'Susanna',
 'TOB' => 'Tobit',
 'WIS' => 'Wisdom',
+'PSZ' => 'Additional Psalm',
 ));
 }
 

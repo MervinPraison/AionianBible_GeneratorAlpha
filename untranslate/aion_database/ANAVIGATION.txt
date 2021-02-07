@@ -1,6 +1,6 @@
 # File Name: ANAVIGATION.txt
-# File Size: 9623        
-# File Date: 02/01/2021 12:29:34
+# File Size: 9820        
+# File Date: 02/07/2021 12:37:19
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: http://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2021
@@ -122,7 +122,6 @@ Holy-Bible---Haitian---Haitian-Creole-Bible
 Holy-Bible---Hawaiian---Hawaiian-Bible-1868		
 Holy-Bible---Hebrew---Hebrew-Aleppo-Codex		
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT		
-Holy-Bible---Hebrew---Hebrew-Open-Scriptures		
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad		
 Holy-Bible---Hindi---Hindi-Bible		
 Holy-Bible---Hungarian---Hungarian-Karoli		
@@ -153,6 +152,10 @@ Holy-Bible---Latin---Clementine-Vulgate-Hetzenauer
 Holy-Bible---Latin---Clementine-Vulgate-Tweedale		
 Holy-Bible---Latin---Vulgata-Sistina		
 Holy-Bible---Latin---Vulgate-Jerome		
+Holy-Bible---Latin---Vulgate-Jerome	VERSMISS	040-MAT-028-020
+Holy-Bible---Latin---Vulgate-Jerome	VERSMISS	045-ROM-016-027
+Holy-Bible---Latin---Vulgate-Jerome	VERSMISS	061-2PE-003-018
+Holy-Bible---Latin---Vulgate-Jerome	VERSMISS	065-JUD-001-025
 Holy-Bible---Latvian---Latvian-Gluck-Bible		
 Holy-Bible---Malagasy---Malagasy-Bible		
 Holy-Bible---Malayalam---Malayalam-Bible		
