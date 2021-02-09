@@ -6,7 +6,7 @@ else {					$bible = "/$_Part[1]";	$usageG = "/Bibles/$_Part[1]/New";	$usageH = "
 ?>
 <h2 class='center'><span class='notranslate'>Aionian</span> Glossary</h2>
 <p>
-The  <span class='notranslate'>Aionian</span>  Bible un-translates and instead transliterates ten special words to help us better understand the extent of God’s love for individuals and all mankind, and the nature of afterlife destinies.  The original translation is unaltered and a note is added to sixty-three Old Testament and two hundred New Testament verses. Compare to <a href='<? echo abcms_href("/Strongs$bible",FALSE,TRUE,TRUE); ?>' title='Strongs Concordance and Glossary'>Strong's Concordance</a>.  Follow the <span class='word-blue'>blue links</span> below to study the word's usage.
+The  <span class='notranslate'>Aionian</span>  Bible un-translates and instead transliterates ten special words to help us better understand the extent of God’s love for individuals and all mankind, and the nature of afterlife destinies.  The original translation is unaltered and a note is added to 63 Old Testament and 200 New Testament verses. Compare the definitions below to the <a href='<? echo abcms_href("/Strongs$bible",FALSE,TRUE,TRUE); ?>' title='Strongs Concordance and Glossary'>Strong's Concordance</a>.  Follow the <span class='word-blue'>blue links</span> below to study the word's usage.
 <br />
 </p>
 <p>
