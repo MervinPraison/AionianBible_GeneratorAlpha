@@ -4,27 +4,8 @@
 *** AION: READ FILE SOURCE TABLE
 *** AION: LOOP BIBLES
 *** AION: COPIED https://github.com/futurepress/epubjs-reader/archive/master.zip to ../source-stage/FILE_FuturePress_ePub.js.zip
-*** AION: POST http://unbound.biola.edu/index.cfm?method=downloads.downloadBible post(version_download=peshitta_ucs2) to ../source-stage/Holy-Bible---Aramaic---Aramaic-NT-Peshitta.unbound.zip
-*** AION: POST http://unbound.biola.edu/index.cfm?method=downloads.downloadBible post(version_download=danish_ucs2) to ../source-stage/Holy-Bible---Danish---Danish-Bible.unbound.zip
-*** AION: POST http://unbound.biola.edu/index.cfm?method=downloads.downloadBible post(version_download=dutch_svv_ucs2) to ../source-stage/Holy-Bible---Dutch---Statenvertaling.unbound.zip
-*** AION: POST http://unbound.biola.edu/index.cfm?method=downloads.downloadBible post(version_download=webster) to ../source-stage/Holy-Bible---English---Webster-Bible.unbound.zip
-*** AION: POST http://unbound.biola.edu/index.cfm?method=downloads.downloadBible post(version_download=weymouth_nt) to ../source-stage/Holy-Bible---English---Weymouth-NT.unbound.zip
-*** AION: POST http://unbound.biola.edu/index.cfm?method=downloads.downloadBible post(version_download=ylt) to ../source-stage/Holy-Bible---English---Youngs-Literal-Translation.unbound.zip
-*** AION: POST http://unbound.biola.edu/index.cfm?method=downloads.downloadBible post(version_download=finnish_1776_ucs2) to ../source-stage/Holy-Bible---Finnish---Finnish-Bible.unbound.zip
-*** AION: POST http://unbound.biola.edu/index.cfm?method=downloads.downloadBible post(version_download=finnish_pr_1938_ucs2) to ../source-stage/Holy-Bible---Finnish---Finnish-Pyha-Raamattu.unbound.zip
-*** AION: POST http://unbound.biola.edu/index.cfm?method=downloads.downloadBible post(version_download=french_martin_1744_ucs2) to ../source-stage/Holy-Bible---French---French-Martin.unbound.zip
-*** AION: POST http://unbound.biola.edu/index.cfm?method=downloads.downloadBible post(version_download=german_elberfelder_1871_ucs2) to ../source-stage/Holy-Bible---German---German-Elberfelder-1871.unbound.zip
-*** AION: POST http://unbound.biola.edu/index.cfm?method=downloads.downloadBible post(version_download=german_elberfelder_1905_ucs2) to ../source-stage/Holy-Bible---German---German-Elberfelder-1905.unbound.zip
-*** AION: POST http://unbound.biola.edu/index.cfm?method=downloads.downloadBible post(version_download=german_luther_1545_ucs2) to ../source-stage/Holy-Bible---German---German-Luther-Bible-1545.unbound.zip
-*** AION: POST http://unbound.biola.edu/index.cfm?method=downloads.downloadBible post(version_download=greek_byzantine_2000_ucs2) to ../source-stage/Holy-Bible---Greek---Greek-Byzantine-Majority.unbound.zip
-*** AION: POST http://unbound.biola.edu/index.cfm?method=downloads.downloadBible post(version_download=greek_textus_receptus_ucs2) to ../source-stage/Holy-Bible---Greek---Greek-Textus-Receptus.unbound.zip
-*** AION: POST http://unbound.biola.edu/index.cfm?method=downloads.downloadBible post(version_download=greek_WH_UBS4_ucs2) to ../source-stage/Holy-Bible---Greek---Greek-Westcott-Hort.unbound.zip
-*** AION: POST http://unbound.biola.edu/index.cfm?method=downloads.downloadBible post(version_download=aleppo_ucs2) to ../source-stage/Holy-Bible---Hebrew---Hebrew-Aleppo-Codex.unbound.zip
-*** AION: POST http://unbound.biola.edu/index.cfm?method=downloads.downloadBible post(version_download=myanmar_judson_1835_ucs2) to ../source-stage/Holy-Bible---Myanmar---Myanmar-Burmese-Judson.unbound.zip
-*** AION: POST http://unbound.biola.edu/index.cfm?method=downloads.downloadBible post(version_download=spanish_reina_valera_nt_1858_ucs2) to ../source-stage/Holy-Bible---Spanish---Reina-Valera-NT-1858.unbound.zip
-*** AION: POST http://unbound.biola.edu/index.cfm?method=downloads.downloadBible post(version_download=spanish_sagradas_escrituras_1569_ucs2) to ../source-stage/Holy-Bible---Spanish---Sagradas-Escrituras-1569.unbound.zip
-*** AION: POST http://unbound.biola.edu/index.cfm?method=downloads.downloadBible post(version_download=swedish_1917_ucs2) to ../source-stage/Holy-Bible---Swedish---Swedish-Bible.unbound.zip
-*** AION: POST http://unbound.biola.edu/index.cfm?method=downloads.downloadBible post(version_download=tagalog_1905_ucs2) to ../source-stage/Holy-Bible---Tagalog---Tagalog-Bible.unbound.zip
+*** AION: WARN! copy(http://ebible.org/sword/zip/engBrent1851eb.zip): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ ~ http://ebible.org/sword/zip/engBrent1851eb.zip to ../source-stage/Holy-Bible---English---Brenton-English-Septuagint.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/FILE_FuturePress_ePub.js.zip VS ../source-production/FILE_FuturePress_ePub.js.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Albanian-Tosk---Albanian-Bible.crosswire.zip VS ../source-production/Holy-Bible---Albanian-Tosk---Albanian-Bible.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Albanian-Tosk---Albanian-Bible.epub VS ../source-production/Holy-Bible---Albanian-Tosk---Albanian-Bible.epub
@@ -308,8 +289,6 @@
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.crosswire.zip VS ../source-production/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.epub VS ../source-production/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.epub
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.vpl.zip VS ../source-production/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.vpl.zip
-*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hebrew---Hebrew-Open-Scriptures.crosswire.zip VS ../source-production/Holy-Bible---Hebrew---Hebrew-Open-Scriptures.crosswire.zip
-*** AION: DIFF REG: ../source-stage/Holy-Bible---Hebrew---Hebrew-Open-Scriptures.sword VS ../source-production/Holy-Bible---Hebrew---Hebrew-Open-Scriptures.sword
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.crosswire.zip VS ../source-production/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.epub VS ../source-production/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.epub
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.vpl.zip VS ../source-production/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.vpl.zip
@@ -497,11 +476,11 @@
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Urdu---Urdu-Bible.vpl.zip VS ../source-production/Holy-Bible---Urdu---Urdu-Bible.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-Bible-1934.crosswire.zip VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-Bible-1934.crosswire.zip
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-Bible-1934.sword VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-Bible-1934.sword
-*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-NT.crosswire.zip VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-NT.crosswire.zip
-*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-NT.epub VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-NT.epub
-*** AION: DIFF REG: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-NT.pdf VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-NT.pdf
-*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-NT.vpl.zip VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-NT.vpl.zip
-*** AION: LOOP DONE! Function=AION_LOOP_DIFF_DOIT Files processed=476
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-Bible.crosswire.zip VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-Bible.epub VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-Bible.pdf VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-Bible.vpl.zip VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-Bible.vpl.zip
+*** AION: LOOP DONE! Function=AION_LOOP_DIFF_DOIT Files processed=474
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Albanian-Tosk---Albanian-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Arapaho---Arapaho-Luke.epub
@@ -576,7 +555,7 @@
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Telugu---Telugu-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Tongan---Revised-West-Version.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Urdu---Urdu-Bible.epub
-*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-NT.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-Bible.epub
 *** AION: LOOP DONE! Function=AION_LOOP_COPYRIGHT_DOIT Files processed=75
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Albanian-Tosk---Albanian-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.epub
@@ -652,7 +631,7 @@
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Telugu---Telugu-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Tongan---Revised-West-Version.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Urdu---Urdu-Bible.epub
-*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Vietnamese---Vietnamese-NT.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Vietnamese---Vietnamese-Bible.epub
 *** AION: LOOP DONE! Function=AION_LOOP_COPYRIGHT_DOIT Files processed=75
 *** AION: DIFF REG: ../copyright-source/AMASTER.COPYRIGHT VS ../copyright-production/AMASTER.COPYRIGHT
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Albanian-Tosk---Albanian-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Albanian-Tosk---Albanian-Bible.epub.copyright
@@ -729,7 +708,7 @@
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Telugu---Telugu-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Telugu---Telugu-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Tongan---Revised-West-Version.epub.copyright VS ../copyright-production/Holy-Bible---Tongan---Revised-West-Version.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Urdu---Urdu-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Urdu---Urdu-Bible.epub.copyright
-*** AION: DIFF REG: ../copyright-source/Holy-Bible---Vietnamese---Vietnamese-NT.epub.copyright VS ../copyright-production/Holy-Bible---Vietnamese---Vietnamese-NT.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Vietnamese---Vietnamese-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Vietnamese---Vietnamese-Bible.epub.copyright
 *** AION: LOOP DONE! Function=AION_LOOP_DIFF_DOIT Files processed=76
 *** AION: ALSO MANUALLY CHECK: unbound Korean RV  -AND-  Portuguese Biblia Livre
-*** AION: DONE! PostBible=21 PostFile=0 CopyBible=0 CopyFile=1 CopySkip=384
+*** AION: DONE! PostBible=0 PostFile=0 CopyBible=0 CopyFile=1 CopySkip=403

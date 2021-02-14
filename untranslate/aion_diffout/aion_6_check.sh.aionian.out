@@ -20259,7 +20259,7 @@
 *** AION: WARNING! SKIP BLANK! 044-ACT-028-029:	
 *** AION: WARNING! AION_LOOP_CHECKDATA_CLEANUP() preg_replace()==NULL: bible = Holy-Bible---Spanish---Free-Bible, 045 ROM 016 024
 *** AION: WARNING! SKIP BLANK! 045-ROM-016-024:	
-*** AION: DATA CHECK: aionian=18219 standard=18219 source=18235 file=../www-stageresources/Holy-Bible---Spanish---Free-Bible---Aionian-Edition.noia
+*** AION: DATA CHECK: aionian=19580 standard=19580 source=19596 file=../www-stageresources/Holy-Bible---Spanish---Free-Bible---Aionian-Edition.noia
 *** AION: WARNING! SELAH! 019-PSA-003-002:	Muchos dicen de mi alma: No hay para él salud en Dios. (Selah) 
 *** AION: WARNING! SELAH! 019-PSA-003-004:	Con mi voz clamé a Jehová, y él me respondió desde el monte de su santidad. (Selah) 
 *** AION: WARNING! SELAH! 019-PSA-003-008:	De Jehová es la salud: sobre tu pueblo será tu bendición. (Selah) 
@@ -23045,7 +23045,7 @@
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Slovene---Slovene-Savli-Bible, WORDS=5, SCANNED=121030, MATCHES=48, AIONIAN=46, OUT=2
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Slovene---Slovene-Stritarja-NT, WORDS=6, SCANNED=62478, MATCHES=21, AIONIAN=21, OUT=0
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Somali---Somali-Bible, WORDS=2, SCANNED=62206, MATCHES=11, AIONIAN=11, OUT=0
-*** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Spanish---Free-Bible, WORDS=40, SCANNED=728760, MATCHES=856, AIONIAN=203, OUT=653
+*** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Spanish---Free-Bible, WORDS=40, SCANNED=783200, MATCHES=862, AIONIAN=203, OUT=659
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Spanish---Reina-Valera-1865, WORDS=40, SCANNED=1244080, MATCHES=1577, AIONIAN=548, OUT=1029
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Spanish---Reina-Valera-1909, WORDS=40, SCANNED=1244080, MATCHES=1548, AIONIAN=520, OUT=1028
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Spanish---Reina-Valera-NT-1858, WORDS=40, SCANNED=318280, MATCHES=667, AIONIAN=354, OUT=313
@@ -23649,6 +23649,7 @@
 *** AION: REMINDER: CHECK DIFF FILES: ../checks/ADIFF.AMASTER.diff-www-stage-with-www-production-BEFORE-DEPLOY
 *** AION: REMINDER: CHECK DIFF FILES: ../checks/ADIFF.AMASTER.raw-diff
 *** AION: REMINDER: CHECK DIFF FILES: ../checks/ADIFF.AMASTER.raw-diff-diff
+diff: ../spellcheck-diff/AMASTER.spellcheck-diff: No such file or directory
 *** AION: REMINDER: CHECK DIFF FILES: ../checks/ADIFF.AMASTER.spellcheck-diff
 *** AION: REMINDER! COPY TO DATABASE: ../checks/UNTRANSLATEMODULE.txt
 *** AION: REMINDER! COPY TO DATABASE: ../checks/UNTRANSLATEMODULE.txt.sort

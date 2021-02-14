@@ -41,7 +41,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Arabic|Aionian-Bible|Spanish---Free-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Peshitta).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic|Persian).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Spanish---Free-Bible).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Slovene-Savli|Pohnpeian-NT-Psalms-New-Alphabet|Japanese-Kougo-yaku|Swedish-Bible|Assamese-Bible|Sagradas-Escrituras-1569|Aramaic-NT-Peshitta|Karadzic-Danicic-Latin-Script).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aleppo).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*1858.*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Kannada|Peshitta).*---Aionian-Edition\.noia$/",
@@ -2157,8 +2157,6 @@ $versionEN_TI = ($version == $versionE ? "" : "<Br /><Span language='English (US
 $versionNT_TI = (!$newtonly ? "" : "<Br /><Span language='English (USA)'><Fontface fontfamily='FF-VerE'><Value>$newtonly</Value></Fontface></Span>");
 // Binding version name
 $versionEN_BI = (!$newtonly ? $versionE : ($newtonly=="New Testament" ? "$versionE NT" : "$versionE 22"));
-// markers
-$markers = 'false()';
 // isbn
 if ((empty($isbnpix) || $isbnpix=='ISBN.pdf') && (!empty($forprint[$isbntype]) && trim($forprint[$isbntype])!='UNKNOWN')) { AION_ECHO("JEFF WARNING! $bible/$isbntype number but no image!"); }
 if ((!empty($isbnpix) && $isbnpix!='ISBN.pdf') && (empty($forprint[$isbntype]) || trim($forprint[$isbntype])=='UNKNOWN')) { AION_ECHO("JEFF WARNING! $bible/$isbntype image but no number!"); }
@@ -2239,7 +2237,7 @@ $fonts
 
 
 	<!-- MARKERS -->
-	<Switch><Case test='$markers'>
+	<Switch><Case test='false()'>
 		<PlaceObject row='0in' column='{\$cover_bindL} in' allocate='no'><Rule direction='vertical' length="{\$cover_height} in" rulewidth='1pt' color='white' /></PlaceObject>
 		<PlaceObject row='0in' column='{\$cover_bindM} in' allocate='no'><Rule direction='vertical' length="{\$cover_height} in" rulewidth='1pt' color='white' /></PlaceObject>
 		<PlaceObject row='0in' column='{\$cover_bindR} in' allocate='no'><Rule direction='vertical' length="{\$cover_height} in" rulewidth='1pt' color='white' /></PlaceObject>
@@ -2273,7 +2271,7 @@ $fonts
 	
 	<!-- BINDING -->
 	<Switch>
-		<Case test='\$cover_count > 500'>
+		<Case test='\$cover_count >= 495'>
 			<!-- BINDER FONTS -->
 			<DefineFontfamily name="FX-Holy" fontsize="66" leading="72"><Regular fontface="FT-IMPA"/></DefineFontfamily>
 			<DefineFontfamily name="FX-Aion" fontsize="51" leading="51"><Regular fontface="FT-ALEX"/></DefineFontfamily>
@@ -2294,13 +2292,53 @@ $fonts
 				<Fontface fontfamily="FX-VerE"><Value>$versionEN_BI</Value></Fontface>
 			</Paragraph></Textblock></PlaceObject>
 		</Case>
-		<Case test='\$cover_count > 182'>
+		<Case test='\$cover_count >= 210'>
+			<!-- BINDER FONTS -->
+			<DefineFontfamily name="FX-Holy" fontsize="23" leading="23"><Regular fontface="FT-IMPA"/></DefineFontfamily>
+			<DefineFontfamily name="FX-Aion" fontsize="26" leading="26"><Regular fontface="FT-ALEX"/></DefineFontfamily>
+			<DefineFontfamily name="FX-AioE" fontsize="19" leading="26"><Regular fontface="FT-IMPA"/></DefineFontfamily>
+			<DefineFontfamily name="FX-AioR" fontsize="14" leading="26"><Regular fontface="FT-REGU"/></DefineFontfamily>
+			<DefineFontfamily name="FX-VerE" fontsize="19" leading="22"><Regular fontface="FA-BOLD"/></DefineFontfamily>
+			<SetVariable variable="cover_bindX" select="{\$cover_bindR - max(0,((\$cover_spineX - 0.33) div 2))}"/>
+			<SetVariable variable="ylocation" select="(0.375 + $hardmargin)"/>
+			<PlaceObject row="{\$ylocation} in" column="{\$cover_bindX} in" allocate="no" rotate='90'><Textblock width='5in'><Paragraph textformat="left" color='white'>
+				<Fontface fontfamily="FX-Holy"><Value>Holy Bible</Value></Fontface>
+				<Fontface fontfamily="FX-Aion"><Value> Aionian </Value></Fontface>
+				<Fontface fontfamily="FX-AioE"><Value>Edition</Value></Fontface>
+				<Fontface fontfamily="FX-AioR"><Value>®</Value></Fontface>
+			</Paragraph></Textblock></PlaceObject>
+			<SetVariable variable="ylocation" select="(3.875 + $hardmargin)"/>
+			<PlaceObject row="{\$ylocation} in" column="{\$cover_bindX} in" allocate="no" rotate='90'><Textblock width='5in'><Paragraph textformat="right" color='white'>
+				<Fontface fontfamily="FX-VerE"><Value>$versionEN_BI</Value></Fontface>
+			</Paragraph></Textblock></PlaceObject>
+		</Case>
+		<Case test='\$cover_count >= 192'>
+			<!-- BINDER FONTS -->
+			<DefineFontfamily name="FX-Holy" fontsize="21" leading="21"><Regular fontface="FT-IMPA"/></DefineFontfamily>
+			<DefineFontfamily name="FX-Aion" fontsize="24" leading="24"><Regular fontface="FT-ALEX"/></DefineFontfamily>
+			<DefineFontfamily name="FX-AioE" fontsize="17" leading="24"><Regular fontface="FT-IMPA"/></DefineFontfamily>
+			<DefineFontfamily name="FX-AioR" fontsize="12" leading="24"><Regular fontface="FT-REGU"/></DefineFontfamily>
+			<DefineFontfamily name="FX-VerE" fontsize="17" leading="20"><Regular fontface="FA-BOLD"/></DefineFontfamily>
+			<SetVariable variable="cover_bindX" select="{\$cover_bindR - max(0,((\$cover_spineX - 0.28) div 2))}"/>
+			<SetVariable variable="ylocation" select="(0.375 + $hardmargin)"/>
+			<PlaceObject row="{\$ylocation} in" column="{\$cover_bindX} in" allocate="no" rotate='90'><Textblock width='5in'><Paragraph textformat="left" color='white'>
+				<Fontface fontfamily="FX-Holy"><Value>Holy Bible</Value></Fontface>
+				<Fontface fontfamily="FX-Aion"><Value> Aionian </Value></Fontface>
+				<Fontface fontfamily="FX-AioE"><Value>Edition</Value></Fontface>
+				<Fontface fontfamily="FX-AioR"><Value>®</Value></Fontface>
+			</Paragraph></Textblock></PlaceObject>
+			<SetVariable variable="ylocation" select="(3.875 + $hardmargin)"/>
+			<PlaceObject row="{\$ylocation} in" column="{\$cover_bindX} in" allocate="no" rotate='90'><Textblock width='5in'><Paragraph textformat="right" color='white'>
+				<Fontface fontfamily="FX-VerE"><Value>$versionEN_BI</Value></Fontface>
+			</Paragraph></Textblock></PlaceObject>
+		</Case>
+		<Case test='\$cover_count >= 182'>
 			<!-- BINDER FONTS -->
 			<DefineFontfamily name="FX-Holy" fontsize="19" leading="19"><Regular fontface="FT-IMPA"/></DefineFontfamily>
 			<DefineFontfamily name="FX-Aion" fontsize="22" leading="22"><Regular fontface="FT-ALEX"/></DefineFontfamily>
 			<DefineFontfamily name="FX-AioE" fontsize="15" leading="22"><Regular fontface="FT-IMPA"/></DefineFontfamily>
 			<DefineFontfamily name="FX-AioR" fontsize="10" leading="22"><Regular fontface="FT-REGU"/></DefineFontfamily>
-			<DefineFontfamily name="FX-VerE" fontsize="15" leading="22"><Regular fontface="FA-BOLD"/></DefineFontfamily>
+			<DefineFontfamily name="FX-VerE" fontsize="15" leading="18"><Regular fontface="FA-BOLD"/></DefineFontfamily>
 			<SetVariable variable="cover_bindX" select="{\$cover_bindR - max(0,((\$cover_spineX - 0.26) div 2))}"/>
 			<SetVariable variable="ylocation" select="(0.375 + $hardmargin)"/>
 			<PlaceObject row="{\$ylocation} in" column="{\$cover_bindX} in" allocate="no" rotate='90'><Textblock width='5in'><Paragraph textformat="left" color='white'>
@@ -2314,13 +2352,13 @@ $fonts
 				<Fontface fontfamily="FX-VerE"><Value>$versionEN_BI</Value></Fontface>
 			</Paragraph></Textblock></PlaceObject>
 		</Case>
-		<Case test='\$cover_count > 150'>
+		<Case test='\$cover_count >= 150'>
 			<!-- BINDER FONTS -->
 			<DefineFontfamily name="FX-Holy" fontsize="15" leading="15"><Regular fontface="FT-IMPA"/></DefineFontfamily>
 			<DefineFontfamily name="FX-Aion" fontsize="17" leading="17"><Regular fontface="FT-ALEX"/></DefineFontfamily>
 			<DefineFontfamily name="FX-AioE" fontsize="11" leading="17"><Regular fontface="FT-IMPA"/></DefineFontfamily>
-			<DefineFontfamily name="FX-AioR" fontsize="8" leading="17"><Regular fontface="FT-REGU"/></DefineFontfamily>
-			<DefineFontfamily name="FX-VerE" fontsize="14" leading="17"><Regular fontface="FA-BOLD"/></DefineFontfamily>
+			<DefineFontfamily name="FX-AioR" fontsize="8"  leading="17"><Regular fontface="FT-REGU"/></DefineFontfamily>
+			<DefineFontfamily name="FX-VerE" fontsize="14" leading="16"><Regular fontface="FA-BOLD"/></DefineFontfamily>
 			<SetVariable variable="cover_bindX" select="{\$cover_bindR - max(0,((\$cover_spineX - 0.21) div 2))}"/>
 			<SetVariable variable="ylocation" select="(0.375 + $hardmargin)"/>
 			<PlaceObject row="{\$ylocation} in" column="{\$cover_bindX} in" allocate="no" rotate='90'><Textblock width='5in'><Paragraph textformat="left" color='white'>
@@ -2402,7 +2440,7 @@ $fonts
 	<PlaceObject row="0in" column="0in" allocate="no"><Image file='COVER.jpg' height='10.75in' width='16.125in' clip='yes' /></PlaceObject>
 
 	<!-- MARKERS -->
-	<Switch><Case test='$markers'>
+	<Switch><Case test='false()'>
 		<PlaceObject row='0in' column='{\$cover_bindL} in' allocate='no'><Rule direction='vertical' length="{\$cover_height} in" rulewidth='1pt' color='white' /></PlaceObject>
 		<PlaceObject row='0in' column='{\$cover_bindM} in' allocate='no'><Rule direction='vertical' length="{\$cover_height} in" rulewidth='1pt' color='white' /></PlaceObject>
 		<PlaceObject row='0in' column='{\$cover_bindR} in' allocate='no'><Rule direction='vertical' length="{\$cover_height} in" rulewidth='1pt' color='white' /></PlaceObject>
@@ -2428,7 +2466,7 @@ $fonts
 	
 	<!-- BINDING -->
 	<Switch>
-		<Case test='\$cover_count > 500'>
+		<Case test='\$cover_count >= 495'>
 			<!-- BINDER FONTS -->
 			<DefineFontfamily name="FX-Holy" fontsize="66" leading="72"><Regular fontface="FT-IMPA"/></DefineFontfamily>
 			<DefineFontfamily name="FX-Aion" fontsize="51" leading="51"><Regular fontface="FT-ALEX"/></DefineFontfamily>
@@ -2449,13 +2487,53 @@ $fonts
 				<Fontface fontfamily="FX-VerE"><Value>$versionEN_BI</Value></Fontface>
 			</Paragraph></Textblock></PlaceObject>
 		</Case>
-		<Case test='\$cover_count > 182'>
+		<Case test='\$cover_count >= 210'>
+			<!-- BINDER FONTS -->
+			<DefineFontfamily name="FX-Holy" fontsize="23" leading="23"><Regular fontface="FT-IMPA"/></DefineFontfamily>
+			<DefineFontfamily name="FX-Aion" fontsize="26" leading="26"><Regular fontface="FT-ALEX"/></DefineFontfamily>
+			<DefineFontfamily name="FX-AioE" fontsize="19" leading="26"><Regular fontface="FT-IMPA"/></DefineFontfamily>
+			<DefineFontfamily name="FX-AioR" fontsize="14" leading="26"><Regular fontface="FT-REGU"/></DefineFontfamily>
+			<DefineFontfamily name="FX-VerE" fontsize="19" leading="22"><Regular fontface="FA-BOLD"/></DefineFontfamily>
+			<SetVariable variable="cover_bindX" select="{\$cover_bindR - max(0,((\$cover_spineX - 0.33) div 2))}"/>
+			<SetVariable variable="ylocation" select="(0.375 + $hardmargin)"/>
+			<PlaceObject row="{\$ylocation} in" column="{\$cover_bindX} in" allocate="no" rotate='90'><Textblock width='5in'><Paragraph textformat="left" color='white'>
+				<Fontface fontfamily="FX-Holy"><Value>Holy Bible</Value></Fontface>
+				<Fontface fontfamily="FX-Aion"><Value> Aionian </Value></Fontface>
+				<Fontface fontfamily="FX-AioE"><Value>Edition</Value></Fontface>
+				<Fontface fontfamily="FX-AioR"><Value>®</Value></Fontface>
+			</Paragraph></Textblock></PlaceObject>
+			<SetVariable variable="ylocation" select="(3.875 + $hardmargin)"/>
+			<PlaceObject row="{\$ylocation} in" column="{\$cover_bindX} in" allocate="no" rotate='90'><Textblock width='5in'><Paragraph textformat="right" color='white'>
+				<Fontface fontfamily="FX-VerE"><Value>$versionEN_BI</Value></Fontface>
+			</Paragraph></Textblock></PlaceObject>
+		</Case>
+		<Case test='\$cover_count >= 192'>
+			<!-- BINDER FONTS -->
+			<DefineFontfamily name="FX-Holy" fontsize="21" leading="21"><Regular fontface="FT-IMPA"/></DefineFontfamily>
+			<DefineFontfamily name="FX-Aion" fontsize="24" leading="24"><Regular fontface="FT-ALEX"/></DefineFontfamily>
+			<DefineFontfamily name="FX-AioE" fontsize="17" leading="24"><Regular fontface="FT-IMPA"/></DefineFontfamily>
+			<DefineFontfamily name="FX-AioR" fontsize="12" leading="24"><Regular fontface="FT-REGU"/></DefineFontfamily>
+			<DefineFontfamily name="FX-VerE" fontsize="17" leading="20"><Regular fontface="FA-BOLD"/></DefineFontfamily>
+			<SetVariable variable="cover_bindX" select="{\$cover_bindR - max(0,((\$cover_spineX - 0.28) div 2))}"/>
+			<SetVariable variable="ylocation" select="(0.375 + $hardmargin)"/>
+			<PlaceObject row="{\$ylocation} in" column="{\$cover_bindX} in" allocate="no" rotate='90'><Textblock width='5in'><Paragraph textformat="left" color='white'>
+				<Fontface fontfamily="FX-Holy"><Value>Holy Bible</Value></Fontface>
+				<Fontface fontfamily="FX-Aion"><Value> Aionian </Value></Fontface>
+				<Fontface fontfamily="FX-AioE"><Value>Edition</Value></Fontface>
+				<Fontface fontfamily="FX-AioR"><Value>®</Value></Fontface>
+			</Paragraph></Textblock></PlaceObject>
+			<SetVariable variable="ylocation" select="(3.875 + $hardmargin)"/>
+			<PlaceObject row="{\$ylocation} in" column="{\$cover_bindX} in" allocate="no" rotate='90'><Textblock width='5in'><Paragraph textformat="right" color='white'>
+				<Fontface fontfamily="FX-VerE"><Value>$versionEN_BI</Value></Fontface>
+			</Paragraph></Textblock></PlaceObject>
+		</Case>
+		<Case test='\$cover_count >= 182'>
 			<!-- BINDER FONTS -->
 			<DefineFontfamily name="FX-Holy" fontsize="19" leading="19"><Regular fontface="FT-IMPA"/></DefineFontfamily>
 			<DefineFontfamily name="FX-Aion" fontsize="22" leading="22"><Regular fontface="FT-ALEX"/></DefineFontfamily>
 			<DefineFontfamily name="FX-AioE" fontsize="15" leading="22"><Regular fontface="FT-IMPA"/></DefineFontfamily>
 			<DefineFontfamily name="FX-AioR" fontsize="10" leading="22"><Regular fontface="FT-REGU"/></DefineFontfamily>
-			<DefineFontfamily name="FX-VerE" fontsize="15" leading="22"><Regular fontface="FA-BOLD"/></DefineFontfamily>
+			<DefineFontfamily name="FX-VerE" fontsize="15" leading="18"><Regular fontface="FA-BOLD"/></DefineFontfamily>
 			<SetVariable variable="cover_bindX" select="{\$cover_bindR - max(0,((\$cover_spineX - 0.26) div 2))}"/>
 			<SetVariable variable="ylocation" select="(0.375 + $hardmargin)"/>
 			<PlaceObject row="{\$ylocation} in" column="{\$cover_bindX} in" allocate="no" rotate='90'><Textblock width='5in'><Paragraph textformat="left" color='white'>
@@ -2469,13 +2547,13 @@ $fonts
 				<Fontface fontfamily="FX-VerE"><Value>$versionEN_BI</Value></Fontface>
 			</Paragraph></Textblock></PlaceObject>
 		</Case>
-		<Case test='\$cover_count > 150'>
+		<Case test='\$cover_count >= 150'>
 			<!-- BINDER FONTS -->
 			<DefineFontfamily name="FX-Holy" fontsize="15" leading="15"><Regular fontface="FT-IMPA"/></DefineFontfamily>
 			<DefineFontfamily name="FX-Aion" fontsize="17" leading="17"><Regular fontface="FT-ALEX"/></DefineFontfamily>
 			<DefineFontfamily name="FX-AioE" fontsize="11" leading="17"><Regular fontface="FT-IMPA"/></DefineFontfamily>
-			<DefineFontfamily name="FX-AioR" fontsize="8" leading="17"><Regular fontface="FT-REGU"/></DefineFontfamily>
-			<DefineFontfamily name="FX-VerE" fontsize="14" leading="17"><Regular fontface="FA-BOLD"/></DefineFontfamily>
+			<DefineFontfamily name="FX-AioR" fontsize="8"  leading="17"><Regular fontface="FT-REGU"/></DefineFontfamily>
+			<DefineFontfamily name="FX-VerE" fontsize="14" leading="16"><Regular fontface="FA-BOLD"/></DefineFontfamily>
 			<SetVariable variable="cover_bindX" select="{\$cover_bindR - max(0,((\$cover_spineX - 0.21) div 2))}"/>
 			<SetVariable variable="ylocation" select="(0.375 + $hardmargin)"/>
 			<PlaceObject row="{\$ylocation} in" column="{\$cover_bindX} in" allocate="no" rotate='90'><Textblock width='5in'><Paragraph textformat="left" color='white'>

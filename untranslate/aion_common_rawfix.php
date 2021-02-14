@@ -12671,6 +12671,61 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---Spanish---Free-Bible" :
+if (!($bfile = preg_replace("/6 Una vez que hayas/us","Una vez que hayas",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOS 19:37 Cedes, Edrey, Enjazor,
+JOS 19:38 Irón, Migdal El, Jorén, BetAnat, y BetSemes. En total eran diecinueve ciudades con sus aldeas.
+JOS 19:39 
+EOF;
+if (!($bfile = preg_replace("/JOS 19:37 (.+?)JOS 19:39 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOS 23:7 No te asocieson las naciones que quedan. No menciones los nombres de sus dioses, ni jures por ellos, ni los adores, ni te inclines ante ellos.
+JOS 23:8 Mantente cerca del Señor, tu Dios, como has hecho hasta ahora.
+JOS 23:9 
+EOF;
+if (!($bfile = preg_replace("/JOS 23:7 (.+?)JOS 23:9 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JDG 5:13 Lossobrevivientesfueron a atacar a los nobles, el pueblo del Señor fue a atacar a los poderosos.
+JDG 5:14 Algunos vinieron de Efraín, tierra que solía pertenecer a los amalecitas; la tribu de Benjamín te siguió con sus hombres. Los comandantes vinieron de Maquir; de Zabulón vinieron los que llevan el bastón de mando de un militar.
+JDG 5:15 Los jefes de Isacar apoyaron a Débora y a Barac; corrieron hacia el valle siguiendo a Barac. Pero la tribu de Rubén estaba muy indecisa.
+JDG 5:16 ¿Por qué se quedaron en casa, en los rediles, escuchando a los pastores que silbaban por sus rebaños? La tribu de Rubén realmente no podía decidir qué hacer.
+JDG 5:17 Galaad se quedó al otro lado del Jordán. Dan se quedó con sus barcos. Aser se quedó en la costa, sin moverse de sus puertos.
+JDG 5:18 El pueblo de Zabulón arriesgó su vida, al igual que Neftalí en los campos de batalla de altura.
+JDG 5:19 
+EOF;
+if (!($bfile = preg_replace("/JDG 5:13 (.+?)JDG 5:19 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JDG 8:10 Zeba y Zalmuna estaban en Carcor con sus ejércitos de unos quince mil hombres. Estos eran todos los que quedaban de los ejércitos del pueblo de Oriente; ya habían muerto ciento veinte mil espadachines.
+JDG 8:11 Gedeón tomó la ruta de las caravanas hacia el este de Noba y Jogbehah, y atacó a su ejército, tomándolos desprevenidos.
+JDG 8:12 
+EOF;
+if (!($bfile = preg_replace("/JDG 8:10 (.+?)JDG 8:12 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JDG 12:9 Tuvo treinta hijos y treinta hijas. Casó a sus hijas con hombres de otras tribus, y trajo a treinta esposas de otras tribus para que se casaran con sus hijos. Ibzán dirigió a Israel como juez durante siete años.
+JDG 12:10 LuegoIbzán murió y fue enterrado en Belén.
+JDG 12:11 
+EOF;
+if (!($bfile = preg_replace("/JDG 12:9 (.+?)JDG 12:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JDG 14:8 Más tarde, cuando Sansón volvió para casarse con ella, se apartó del camino para buscar el cadáver del león. Dentro del cuerpo había un enjambre de abejas y su miel.
+JDG 14:9 Raspó un poco de miel en sus manos y la comió mientras caminaba. Cuando volvió con su padre y su madre, les dio un poco y se la comieron. Pero no les dijo que había tomado la miel del cadáver de un león.
+JDG 14:10 
+EOF;
+if (!($bfile = preg_replace("/JDG 14:8 (.+?)JDG 14:10 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JDG 21:24 Luego los israelitas partieron y se fueron a sus tribus y familias, cada uno a la tierra que poseía.
+JDG 21:25 En aquel tiempo Israel no tenía un rey; cada uno hacía lo que le parecía correcto.
+RUT 1:1 
+EOF;
+if (!($bfile = preg_replace("/JDG 21:24 (.+?)RUT 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---Spanish---Reina-Valera-1865" :
 $textfix = <<<EOF
 
