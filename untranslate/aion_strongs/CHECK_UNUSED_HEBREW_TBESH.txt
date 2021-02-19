@@ -56,11 +56,11 @@ H2679	חֲצִי הַמְּנֻחוֹת	Half-of-Manahathites
 H2680	חֲצִי הַמְּנַחְתִּי מְנַשֶּׁה	Chazi-manahethite	
 H2699	חֲצֵרִים	Hazerim	
 H2755	חֲרֵי־יוֹנִים	dove-dung	
-H3070	יְהֹוָה יִרְאֶה	YHWH|Jehovah-jireh	
-H3071	יְהֹוָה נִסִּי	YHWH|Jehovah-nissi	
-H3072	יְהֹוָה צִדְקֵנוּ	YHWH|Yahweh-tsidkenu	
-H3073	יְהֹוָה שָׁלוֹם	YHWH|Yahweh-shalom	
-H3074	יְהֹוָה שָׁמָּה	YHWH|Yahweh-shammah	
+H3070	יְהֹוָה יִרְאֶה	YHWH/Jehovah-jireh	
+H3071	יְהֹוָה נִסִּי	YHWH/Jehovah-nissi	
+H3072	יְהֹוָה צִדְקֵנוּ	YHWH/Yahweh-tsidkenu	
+H3073	יְהֹוָה שָׁלוֹם	YHWH/Yahweh-shalom	
+H3074	יְהֹוָה שָׁמָּה	YHWH/Yahweh-shammah	
 H3108	יוֹזָכָר	Jozachar	
 H3159	יִזְרְעֵאלִית	Jezreelitess	
 H3186	יָחַר	to delay	

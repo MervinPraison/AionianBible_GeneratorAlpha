@@ -2,12 +2,12 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	MAP	FLAG
 # File Accuracy: Contact publisher with corrections to file format or content
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2021
-# File Date: 02/13/2021 14:15:41
+# File Date: 02/18/2021 09:39:04
 # File Generator: ABCMS (alpha)
 # File Location: http://resources.AionianBible.org
 # File Name: BOOKSCHAPTERS.txt
 # File Purpose: Supporting resource for the Aionian Bible project
-# File Size: 412010      
+# File Size: 407649      
 Holy-Bible---Aramaic---Aramaic-NT-Peshitta	066	REV	022	021	MISSING	END*
 Holy-Bible---Armenian---Armenian-Bible-Eastern	040	MAT	012	018	MISSING	MID
 Holy-Bible---Armenian---Armenian-Bible-Eastern	040	MAT	012	019	MISSING	MID-SEQ
@@ -4567,88 +4567,21 @@ Holy-Bible---Latin---Vulgata-Sistina	019	PSA	072	020	MISSING	END*
 Holy-Bible---Latin---Vulgata-Sistina	020	PRO	025	024	MISSING	MID
 Holy-Bible---Latin---Vulgata-Sistina	022	SOL	001	001	MISSING	MID
 Holy-Bible---Latin---Vulgate-Jerome	001	GEN	049	032	MISSING	MID
-Holy-Bible---Latin---Vulgate-Jerome	001	GEN	050	026	MISSING	END*
 Holy-Bible---Latin---Vulgate-Jerome	002	EXO	040	013	MISSING	MID
 Holy-Bible---Latin---Vulgate-Jerome	002	EXO	040	014	MISSING	MID-SEQ
-Holy-Bible---Latin---Vulgate-Jerome	002	EXO	040	038	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	003	LEV	027	034	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	004	NUM	036	013	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	005	DEU	034	012	MISSING	END*
 Holy-Bible---Latin---Vulgate-Jerome	006	JOS	021	038	MISSING	MID
 Holy-Bible---Latin---Vulgate-Jerome	006	JOS	021	039	MISSING	MID-SEQ
-Holy-Bible---Latin---Vulgate-Jerome	006	JOS	024	033	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	007	JDG	021	024	MISSING	MID
-Holy-Bible---Latin---Vulgate-Jerome	007	JDG	021	025	MISSING	END-SEQ*
-Holy-Bible---Latin---Vulgate-Jerome	008	RUT	004	022	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	009	1SA	031	013	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	010	2SA	024	025	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	011	1KI	022	053	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	012	2KI	025	030	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	013	1CH	029	030	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	014	2CH	036	023	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	015	EZR	010	044	MISSING	END*
 Holy-Bible---Latin---Vulgate-Jerome	016	NEH	007	068	MISSING	MID
-Holy-Bible---Latin---Vulgate-Jerome	016	NEH	013	031	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	017	EST	010	003	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	018	JOB	042	016	MISSING	MID
-Holy-Bible---Latin---Vulgate-Jerome	018	JOB	042	017	MISSING	END-SEQ*
-Holy-Bible---Latin---Vulgate-Jerome	019	PSA	016	011	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	019	PSA	056	013	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	019	PSA	150	006	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	020	PRO	031	031	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	021	ECC	012	014	MISSING	END*
 Holy-Bible---Latin---Vulgate-Jerome	022	SOL	001	001	MISSING	MID
-Holy-Bible---Latin---Vulgate-Jerome	022	SOL	008	014	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	023	ISA	066	024	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	024	JER	052	034	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	025	LAM	005	022	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	026	EZE	048	035	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	028	HOS	014	009	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	029	JOE	003	021	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	030	AMO	009	015	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	031	OBA	001	021	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	032	JON	004	011	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	033	MIC	007	020	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	034	NAH	003	019	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	035	HAB	003	019	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	036	ZEP	003	020	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	037	HAG	002	023	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	038	ZEC	014	021	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	039	MAL	004	006	MISSING	END*
 Holy-Bible---Latin---Vulgate-Jerome	040	MAT	023	014	MISSING	MID
-Holy-Bible---Latin---Vulgate-Jerome	040	MAT	028	020	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	041	MAR	016	020	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	042	LUK	024	053	MISSING	END*
 Holy-Bible---Latin---Vulgate-Jerome	043	JOH	005	004	MISSING	MID
-Holy-Bible---Latin---Vulgate-Jerome	043	JOH	021	025	MISSING	END*
 Holy-Bible---Latin---Vulgate-Jerome	044	ACT	008	037	MISSING	MID
 Holy-Bible---Latin---Vulgate-Jerome	044	ACT	015	034	MISSING	MID
 Holy-Bible---Latin---Vulgate-Jerome	044	ACT	018	004	MISSING	MID
 Holy-Bible---Latin---Vulgate-Jerome	044	ACT	023	025	MISSING	MID
 Holy-Bible---Latin---Vulgate-Jerome	044	ACT	024	007	MISSING	MID
 Holy-Bible---Latin---Vulgate-Jerome	044	ACT	028	029	MISSING	MID
-Holy-Bible---Latin---Vulgate-Jerome	044	ACT	028	031	MISSING	END*
 Holy-Bible---Latin---Vulgate-Jerome	045	ROM	016	024	MISSING	MID
-Holy-Bible---Latin---Vulgate-Jerome	045	ROM	016	027	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	046	1CO	016	024	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	048	GAL	006	018	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	049	EPH	006	024	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	050	PHI	004	023	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	051	COL	004	018	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	052	1TH	005	028	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	053	2TH	003	018	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	054	1TI	006	021	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	055	2TI	004	022	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	056	TIT	003	015	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	057	PHM	001	025	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	058	HEB	013	025	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	059	JAM	005	020	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	060	1PE	005	014	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	061	2PE	003	018	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	062	1JO	005	021	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	063	2JO	001	013	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	065	JUD	001	025	MISSING	END*
-Holy-Bible---Latin---Vulgate-Jerome	066	REV	022	021	MISSING	END*
 Holy-Bible---Malagasy---Malagasy-Bible	040	MAT	017	021	MISSING	MID
 Holy-Bible---Malagasy---Malagasy-Bible	041	MAR	007	016	MISSING	MID
 Holy-Bible---Malagasy---Malagasy-Bible	041	MAR	009	044	MISSING	MID

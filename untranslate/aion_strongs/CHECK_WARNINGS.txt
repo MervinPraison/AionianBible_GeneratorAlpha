@@ -199,27 +199,3 @@ Array
 
 
 
-WARN! FIX_REF	Greek	ref='44_Jhn.005.005'	word='ἦν'	morph='V-IAI-3S'	strongs='G1510' reference sort order problem!
-Array
-(
-    [REF] => 44_Jhn.005.005
-    [WORD] => ἦν
-    [STRONGS] => G1510
-    [MORPH] => V-IAI-3S
-    [VARIANTS] => H=Ἦν=G1510=V-IAI-3S;
-)
-
-
-
-WARN! FIX_REF	Greek	ref='45_Act.015.035'	word='Παῦλος'	morph='N-NSM-P'	strongs='G3972' reference sort order problem!
-Array
-(
-    [REF] => 45_Act.015.035
-    [WORD] => Παῦλος
-    [STRONGS] => G3972
-    [MORPH] => N-NSM-P
-    [VARIANTS] => 
-)
-
-
-

@@ -1871,7 +1871,7 @@ Holy-Bible---Latin---Vulgate-Jerome	006	JOS	004	023	24	1	end
 Holy-Bible---Latin---Vulgate-Jerome	006	JOS	005	014	15	1	end
 Holy-Bible---Latin---Vulgate-Jerome	007	JDG	005	031	31	1	end
 Holy-Bible---Latin---Vulgate-Jerome	009	1SA	020	042	42	1	end
-Holy-Bible---Latin---Vulgate-Jerome	011	1KI	022	043	52	1	end
+Holy-Bible---Latin---Vulgate-Jerome	011	1KI	022	043	53	1	end
 Holy-Bible---Latin---Vulgate-Jerome	018	JOB	016	004	22	1	end
 Holy-Bible---Latin---Vulgate-Jerome	019	PSA	002	001	12	1	end
 Holy-Bible---Latin---Vulgate-Jerome	019	PSA	003	001	8	1	end
@@ -1907,7 +1907,7 @@ Holy-Bible---Latin---Vulgate-Jerome	019	PSA	052	001	9	2	end
 Holy-Bible---Latin---Vulgate-Jerome	019	PSA	053	001	6	1	end
 Holy-Bible---Latin---Vulgate-Jerome	019	PSA	054	001	7	2	end
 Holy-Bible---Latin---Vulgate-Jerome	019	PSA	055	001	23	1	end
-Holy-Bible---Latin---Vulgate-Jerome	019	PSA	056	001	12	1	end
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	056	001	13	1	end
 Holy-Bible---Latin---Vulgate-Jerome	019	PSA	057	001	11	1	end
 Holy-Bible---Latin---Vulgate-Jerome	019	PSA	058	001	11	1	end
 Holy-Bible---Latin---Vulgate-Jerome	019	PSA	059	001	17	1	end
@@ -1934,6 +1934,7 @@ Holy-Bible---Latin---Vulgate-Jerome	019	PSA	089	001	52	1	end
 Holy-Bible---Latin---Vulgate-Jerome	019	PSA	092	001	15	1	end
 Holy-Bible---Latin---Vulgate-Jerome	019	PSA	102	001	28	1	end
 Holy-Bible---Latin---Vulgate-Jerome	019	PSA	108	001	13	1	end
+Holy-Bible---Latin---Vulgate-Jerome	019	PSA	136	026	26	1	end
 Holy-Bible---Latin---Vulgate-Jerome	019	PSA	140	001	13	1	end
 Holy-Bible---Latin---Vulgate-Jerome	019	PSA	142	001	7	1	end
 Holy-Bible---Latin---Vulgate-Jerome	028	HOS	002	023	23	1	end

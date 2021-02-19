@@ -1,9 +1,9 @@
 # File Name: Greek_and_Hebrew_README.md
-# File Size: 2882        
-# File Date: 10/17/2020 12:32:58
+# File Size: 2911        
+# File Date: 02/15/2021 14:22:57
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: http://resources.AionianBible.org
-# File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2020
+# File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2021
 # File Generator: ABCMS (alpha)
 # File Accuracy: Contact publisher with corrections to file format or content
 # Publisher Name: Nainoia Inc
@@ -41,8 +41,8 @@ Greek_Lexicon_LSJ_Index.json > json byte index file to Full Liddell Scott Jones 
 Greek_Lexicon_Strongs.txt > Strong's Greek Lexicon
 Greek_Lexicon_Strongs_Index.json > json byte index file to Strong's Greek Lexicon
 Greek_Morphhology.json > json index file to Greek Lexicon morphhology codes
-Greek_Tagged_Text.txt > New Testament Strong's Tagged Text
-Greek_Tagged_Text_Count.json > json book, chapter, verse, and total Strong's usage count from NT Strong's Tagged Text
+Greek_Tagged_Text.txt > Translators Amalgamated Greek New Testament
+Greek_Tagged_Text_Count.json > json book, chapter, verse, and total Strong's usage count from Translators Amalgamated Greek New Testament
 Greek_Chapter_Usage.txt > Greek Strong's usage indicated by chapter index
 Greek_Chapter_Usage_Index.json > json byte index file to Greek Strong's usage indicated by chapter index
 Greek_Chapter_Usage > json per chapter verse Greek lexicon data files, also indexed by modulo verse number

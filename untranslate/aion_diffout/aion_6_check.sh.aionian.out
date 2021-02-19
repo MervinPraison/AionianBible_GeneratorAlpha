@@ -16353,8 +16353,11 @@
 *** AION: WARNING! AION_LOOP_CHECKDATA_CLEANUP() preg_replace()==NULL: bible = Holy-Bible---Latin---Vulgata-Sistina, 019 PSA 071 020
 *** AION: WARNING! SKIP BLANK! 019-PSA-071-020:	
 *** AION: DATA CHECK: aionian=31092 standard=31092 source=31454 file=../www-stageresources/Holy-Bible---Latin---Vulgata-Sistina---Aionian-Edition.noia
+*** AION: WARNING!!! PUNCTUATION PROBLEM! 019-PSA-056-012:	in me sunt Deus vota *tua; quae reddam laudationes tibi
+*** AION: WARNING!!! PUNCTUATION PROBLEM! 019-PSA-056-012:	in me sunt Deus vota *tua; quae reddam laudationes tibi
 *** AION: WARNING! AION_LOOP_CHECKDATA_CLEANUP() preg_replace()==NULL: bible = Holy-Bible---Latin---Vulgate-Jerome, 016 NEH 007 068
 *** AION: WARNING! SKIP BLANK! 016-NEH-007-068:	
+*** AION: WARNING!!! PUNCTUATION PROBLEM! 019-PSA-055-013:	in me sunt Deus vota *tua; quae reddam laudationes tibi
 *** AION: WARNING! AION_LOOP_CHECKDATA_CLEANUP() preg_replace()==NULL: bible = Holy-Bible---Latin---Vulgate-Jerome, 040 MAT 023 014
 *** AION: WARNING! SKIP BLANK! 040-MAT-023-014:	
 *** AION: WARNING! AION_LOOP_CHECKDATA_CLEANUP() preg_replace()==NULL: bible = Holy-Bible---Latin---Vulgate-Jerome, 043 JOH 005 004
@@ -16373,7 +16376,7 @@
 *** AION: WARNING! SKIP BLANK! 044-ACT-028-029:	
 *** AION: WARNING! AION_LOOP_CHECKDATA_CLEANUP() preg_replace()==NULL: bible = Holy-Bible---Latin---Vulgate-Jerome, 045 ROM 016 024
 *** AION: WARNING! SKIP BLANK! 045-ROM-016-024:	
-*** AION: DATA CHECK: aionian=31019 standard=31019 source=31108 file=../www-stageresources/Holy-Bible---Latin---Vulgate-Jerome---Aionian-Edition.noia
+*** AION: DATA CHECK: aionian=31086 standard=31086 source=31458 file=../www-stageresources/Holy-Bible---Latin---Vulgate-Jerome---Aionian-Edition.noia
 *** AION: WARNING! SELAH! 019-PSA-003-002:	Daudz saka uz manu dvēseli: tai pestīšanas nav pie Dieva.(Sela.)
 *** AION: WARNING! SELAH! 019-PSA-003-004:	Es piesaucu To Kungu ar savu balsi, un Viņš mani paklausa no Sava svētā kalna. (Sela) 
 *** AION: WARNING! SELAH! 019-PSA-003-008:	Pie Tā Kunga ir pestīšana!  Tava svētība pār Taviem ļaudīm! (Sela) 
@@ -23013,7 +23016,7 @@
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Latin---Clementine-Vulgate-Hetzenauer, WORDS=73, SCANNED=2270008, MATCHES=1231, AIONIAN=568, OUT=663
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Latin---Clementine-Vulgate-Tweedale, WORDS=73, SCANNED=2270008, MATCHES=1232, AIONIAN=568, OUT=664
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Latin---Vulgata-Sistina, WORDS=73, SCANNED=2269716, MATCHES=906, AIONIAN=402, OUT=504
-*** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Latin---Vulgate-Jerome, WORDS=73, SCANNED=2264387, MATCHES=872, AIONIAN=382, OUT=490
+*** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Latin---Vulgate-Jerome, WORDS=73, SCANNED=2269278, MATCHES=874, AIONIAN=382, OUT=492
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Latvian---Latvian-Gluck-Bible, WORDS=4, SCANNED=124408, MATCHES=48, AIONIAN=47, OUT=1
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Malagasy---Malagasy-Bible, WORDS=1, SCANNED=31088, MATCHES=0, AIONIAN=0, OUT=0
 *** AION: SUCCESS TESTWORDS: BIBLE=Holy-Bible---Malayalam---Malayalam-Bible, WORDS=2, SCANNED=62192, MATCHES=1, AIONIAN=1, OUT=0
@@ -23562,10 +23565,6 @@
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Latin---Clementine-Vulgate-Tweedale
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Latin---Vulgata-Sistina
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Latin---Vulgate-Jerome
-*** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Latin---Vulgate-Jerome, STATUS=VERSMISS MISSING=040-MAT-028-020
-*** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Latin---Vulgate-Jerome, STATUS=VERSMISS MISSING=045-ROM-016-027
-*** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Latin---Vulgate-Jerome, STATUS=VERSMISS MISSING=061-2PE-003-018
-*** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Latin---Vulgate-Jerome, STATUS=VERSMISS MISSING=065-JUD-001-025
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Latvian---Latvian-Gluck-Bible
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Malagasy---Malagasy-Bible
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Malayalam---Malayalam-Bible
@@ -23618,7 +23617,7 @@
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Vietnamese---Vietnamese-Bible
 *** AION: AIONIAN NAVIGATION: BIBLE=Holy-Bible---Vietnamese---Vietnamese-Bible-1934
 *** AION: LOOP DONE! Function=AION_LOOP_ANAVIGATION_DOIT Files processed=174
-*** AION: AIONIAN MISSING: COUNT=194
+*** AION: AIONIAN MISSING: COUNT=190
 *** AION: REMINDER: CHECK DIFF FILES: ../checks/ADIFF.BOOKSCOUNT.txt
 *** AION: REMINDER: CHECK DIFF FILES: ../checks/ADIFF.BOOKS_CHECK.txt
 *** AION: REMINDER: CHECK DIFF FILES: ../checks/ADIFF.BOOKSCHAPTERS.txt
@@ -23649,7 +23648,6 @@
 *** AION: REMINDER: CHECK DIFF FILES: ../checks/ADIFF.AMASTER.diff-www-stage-with-www-production-BEFORE-DEPLOY
 *** AION: REMINDER: CHECK DIFF FILES: ../checks/ADIFF.AMASTER.raw-diff
 *** AION: REMINDER: CHECK DIFF FILES: ../checks/ADIFF.AMASTER.raw-diff-diff
-diff: ../spellcheck-diff/AMASTER.spellcheck-diff: No such file or directory
 *** AION: REMINDER: CHECK DIFF FILES: ../checks/ADIFF.AMASTER.spellcheck-diff
 *** AION: REMINDER! COPY TO DATABASE: ../checks/UNTRANSLATEMODULE.txt
 *** AION: REMINDER! COPY TO DATABASE: ../checks/UNTRANSLATEMODULE.txt.sort

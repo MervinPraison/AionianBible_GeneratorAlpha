@@ -1,14 +1,3 @@
 Reference non-standard or missing
 ===
 
-WARN! VALIDATE_REF()  REFERENCE SKIPPED > 043	JOH	005	005	G1510	W	V-IAI-3S	ἦν	/H=Ἦν=G1510
-WARN! VALIDATE_REF()  REFERENCE SKIPPED > 044	ACT	015	035	G3972	W	N-NSM-P	Παῦλος	
-WARN! VALIDATE_REF()  REFERENCE OMITTED
-Array
-(
-    [JOH-5-4] => 1
-    [ACT-15-34] => 1
-)
-
-
-

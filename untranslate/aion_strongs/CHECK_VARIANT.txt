@@ -2,22 +2,3 @@ Variants used in tagged texts, but cannot parse
 ===
 
 
-FIX_REF	Greek	ref='42_Mrk.010.024'	word='οἱ'	morph='T-NPM'	strongs='G3588'	variants='= losM=Οἱ=G3588=T-NPM;'	vpart='= losM=Οἱ=G3588=T-NPM'	corrupt vpart
-FIX_REF	Greek	ref='43_Luk.012.028'	word='ἀγρῷ'	morph='N-DSM'	strongs='G68'	variants='IMNSWH>T=<;'	vpart='IMNSWH>T=<'	corrupt vpart
-FIX_REF	Greek	ref='43_Luk.014.026'	word='εἶναι'	morph='V-PAN'	strongs='G1510'	variants='IMNSTW>BR=<;'	vpart='IMNSTW>BR=<'	corrupt vpart
-FIX_REF	Greek	ref='46_Rom.005.006'	word='Ἔτι'	morph='ADV'	strongs='G2089'	variants='H=ἔτι=G2089=ADV; =Εἴ=G1487=CONJ; W=εἴ=G1487=CONJ;'	vpart='=Εἴ=G1487=CONJ'	corrupt vpart
-FIX_REF	Greek	ref='46_Rom.008.014'	word='εἰσιν'	morph='V-PAI-3P'	strongs='G1510'	variants='BR>HIMNW=<;'	vpart='BR>HIMNW=<'	corrupt vpart
-FIX_REF	Greek	ref='48_2Co.001.006'	word='εἴτε'	morph='CONJ'	strongs='G1535'	variants='IMNSW>BT=<;'	vpart='IMNSW>BT=<'	corrupt vpart
-FIX_REF	Greek	ref='48_2Co.001.006'	word='παρακαλούμεθα'	morph='V-PPI-1P'	strongs='G3870'	variants='IMNSW>BT=<;'	vpart='IMNSW>BT=<'	corrupt vpart
-FIX_REF	Greek	ref='48_2Co.001.006'	word='υπερ'	morph='PREP'	strongs='G5228'	variants='IMNSW>BT=<;'	vpart='IMNSW>BT=<'	corrupt vpart
-FIX_REF	Greek	ref='48_2Co.001.006'	word='της'	morph='T-GSF'	strongs='G3588'	variants='IMNSW>BT=<;'	vpart='IMNSW>BT=<'	corrupt vpart
-FIX_REF	Greek	ref='48_2Co.001.006'	word='υμων'	morph='P-2GP'	strongs='G4771'	variants='IMNSW>BT=<;'	vpart='IMNSW>BT=<'	corrupt vpart
-FIX_REF	Greek	ref='48_2Co.001.006'	word='παρακλησεως'	morph='N-GSF'	strongs='G3874'	variants='IMNSW>BT=<;'	vpart='IMNSW>BT=<'	corrupt vpart
-FIX_REF	Greek	ref='55_1Ti.005.020'	word='τοὺς'	morph='T-APM'	strongs='G3588'	variants='= a losIMN=Τοὺς=G3588=T-APM;'	vpart='= a losIMN=Τοὺς=G3588=T-APM'	corrupt vpart
-FIX_REF	Greek	ref='56_2Ti.002.022'	word='τὰς'	morph='T-APF'	strongs='G3588'	variants='= lasIMNH=Τὰς=G3588=T-APF;'	vpart='= lasIMNH=Τὰς=G3588=T-APF'	corrupt vpart
-FIX_REF	Greek	ref='62_2Pe.001.001'	word='Συμεὼν'	morph='N-NSM-P'	strongs='G4826'	variants='=Σιμων=G4613=N-NSM-P; W=Σίμων=G4613=N-NSM-P;'	vpart='=Σιμων=G4613=N-NSM-P'	corrupt vpart
-FIX_REF	Greek	ref='63_1Jn.004.012'	word='ἐν'	morph='PREP'	strongs='G1722'	variants='IMNS>BR=<;'	vpart='IMNS>BR=<'	corrupt vpart
-FIX_REF	Greek	ref='63_1Jn.004.012'	word='ἡμῖν'	morph='P-1DP'	strongs='G1473'	variants='IMNS>BR=<;'	vpart='IMNS>BR=<'	corrupt vpart
-FIX_REF	Greek	ref='67_Rev.017.009'	word='ἑπτά'	morph='A-NPM-NUI'	strongs='G2033'	variants='B>r=>;'	vpart='B>r=>'	corrupt vpart
-FIX_REF	Greek	ref='67_Rev.017.009'	word='ἑπτὰ'	morph='A-NPM-NUI'	strongs='G2033'	variants='IMNSTWH>r=<;'	vpart='IMNSTWH>r=<'	corrupt vpart
-FIX_REF	Greek	ref='67_Rev.018.014'	word='αὐτὰ'	morph='P-APN'	strongs='G846'	variants='B>R=<;'	vpart='B>R=<'	corrupt vpart

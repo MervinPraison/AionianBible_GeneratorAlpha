@@ -5,37 +5,65 @@ G33	ἄγε	to lead
 G39	ἅγιον	holy	
 G149	αἰσχρόν	shameful	
 G158	αἴτιον	reason for charge	
+G168	ἀκαθάρτης	uncleanness	
+G183	ἀκατάσχετος	uncontrollable	
+G300	Ἀμών	Amon	
 G334	ἀνάθημα	a vow offering	
+G348	ἀνακόπτω	to restrain	
+G445	ἀνθυπατεύω	to be proconsul	
 G471	ἀντεῖπον	to contradict	
+G481	ἀντικρύ	opposite	
 G534	ἀπαρτί	henceforth	
 G542	ἀπεῖδον	to fix one's eyes	
 G566	ἀπέχει	to receive/be far	
 G567	ἀπέχομαι	to receive/be far	
+G637	ἀποπλύνω	to wash off	
 G680	ἅπτω	to touch	
+G715	ἄρκτος	bear	
 G756	ἄρχομαι	to rule/begin	
+G821	ἀτιμόω	to disgrace	
 G848	αὑτοῦ	him/herself	
+G925	βαρύνω	to weigh down	
+G962	Βηθαβαρά	Bethabara	
+G1083	γέννησις	birth	
+G1094	γῆρας	old age	
+G1177	δεκαδύο	twelve	
 G1181	δεκάτη	tenth	
-G1221	δήποτε	whatever	
+G1196	δεσμέω	to shackle	
+G1222	δήπου	surely	
+G1232	διαγνωρίζω	to report	
+G1275	διαπαντός	always	
 G1302	διατί	why?	
 G1306	διαυγάζω	to shine through	
+G1307	διαφανής	transparent	
 G1399	δούλη	female slave	
 G1400	δοῦλον	slave	
 G1418	δυσ-	hard	
 G1488	εἶ	you are	
+G1489	εἴγε	if indeed/otherwise	
 G1490	εἰ δὲ μή(γε)	but if not	
 G1498	εἴην	may be	
 G1499	εἰ καί	if also	
+G1507	εἱλίσσω	to roll up	
 G1508	εἰ μή	except	
 G1509	εἰ μή τι	except what	
 G1511	εἶναι	to exist	
+G1512	εἴπερ	if so/since	
+G1513	εἴπως	if somehow	
 G1526	εἰσί	they are	
 G1527	εἷς καθ᾽ εἷς	one by one	
 G1536	εἴ τις	if any	
+G1547	ἐκγαμίζω	to marry	
+G1548	ἐκγαμίσκω	to give in marriage	
 G1647	ἐλαχιστότερος	least	
 G1691	ἐμέ	me	
 G1698	ἐμοί	I	
-G1700	ἐμοῦ	of me	
+G1749	ἔνεδρον	hinderance	
+G1827	ἐξελέγχω	to convict	
+G1897	ἐπείπερ	since	
+G1916	ἐπιβοάω	to cry out	
 G1970	ἐπιπνίγω	to choke	
+G1999	ἐπισύστασις, ἐπίστασις	insurrection	
 G2046	ἐρέω, ἐρῶ	to speak	
 G2067	ἔσθησις	clothing	
 G2070	ἐσμέν	we are	
@@ -43,6 +71,7 @@ G2071	ἔσομαι	will be
 G2075	ἐστέ	you are	
 G2076	ἐστί	he is	
 G2077	ἔστω	to be	
+G2179	Ἐφεσῖνος	Ephesian	
 G2208	ζηλωτής	Zealot	
 G2229	ἦ	surely	
 G2248	ἡμᾶς	us	
@@ -52,16 +81,31 @@ G2254	ἡμῖν	to us
 G2257	ἡμῶν	of us	
 G2258	ἦν	was	
 G2277	ἤτω	let him/it be	
+G2442	ἱμείρω	to desire	
+G2444	ἱνατί	why?	
 G2467	ἴσημι	to know	
 G2468	ἴσθι	you should be	
 G2499	Ἰωσή	Jose	
+G2504	κἀγώ	and I	
 G2534	καίγε	even/even though	
+G2543	καίτοι	and yet/although	
+G2544	καίτοιγε	and yet/although	
+G2546	κἀκεῖ	and there	
+G2547	κἀκεῖθεν	and from there	
+G2548	κἀκεῖνος	and that one	
 G2568	Καλοὶ Λιμένες	Fair Havens	
+G2579	κἄν	and/even if	
+G2601	καταβιβάζω	to bring down	
+G2640	κατάλειμμα	remnant	
+G2651	καταμόνας	alone	
+G2735	κατόρθωμα	accomplishments	
 G2909	κρείττων	stronger	
 G3018	Λευΐς	Levi	
 G3112	μακράν	far	
 G3165	μέ	me	
+G3166	μεγαλαυχέω	to boast	
 G3176	μέγιστος	greatest	
+G3181	μεθόριος	boundary	
 G3185	μεῖζον	greater	
 G3186	μειζότερος	greatest	
 G3187	μείζων	greater	
@@ -69,17 +113,31 @@ G3362	ἐὰν μή	unless
 G3363	ἵνα μή	lest/so that. not	
 G3364	οὐ μή	never	
 G3378	μὴ οὐκ	isn't it?	
+G3379	μήποτε	lest	
+G3381	μήπως	so that	
+G3386	γε	how much more	
 G3387	μήτις	unless/any	
 G3391	μία	first	
 G3397	μικρόν	little	
 G3415	μνάομαι	to remember	
 G3427	μοί	to me	
 G3450	μοῦ	of me	
-G3553	νόσημα	disease	
+G3459	μυλών	millhouse	
+G3496	Νεάπολις	Neapolis	
+G3535	Νινευΐ	Nineveh	
+G3569	τανῦν	now	
 G3603	ὅ ἐστι	which is	
 G3620	οἰκοδομία	edification	
+G3626	οἰκουρός	busy at home	
+G3698	ὁπότε	when(-ever)	
+G3721	ὄρθριος	morning	
+G3746	ὅσπερ	who	
 G3755	ὅτου	until	
+G3765	οὐκέτι	not any more	
 G3801	ο ων και ο ην και ο ερχομενος	was, is, will be	
+G3827	πάμπολυς	great	
+G3836	πανταχόθεν	from all sides	
+G3872	παρακαταθήκη	deposit	
 G4054	περισσότερον	more abundantly	
 G4113	πλατεῖα	wide street/road	
 G4162	ποίησις	doing	
@@ -88,22 +146,29 @@ G4208	πορρωτέρω	farther
 G4235	πρᾶος	gentle	
 G4236	πραότης	gentleness	
 G4275	προεῖδον	to foresee	
+G4315	προσάββατον	Friday	
+G4331	προσεγγίζω	to approach	
+G4384	προτάσσω	to predetermine	
 G4386	πρότερον	before	
 G4412	πρῶτον	first	
 G4452	πω	somehow	
 G4483	ῥέω, ἐρέω	to utter	
 G4495	ῥιπτέω	to throw off	
+G4555	σάρδινος	gem	
+G4566	Σατάν	Satan	
 G4571	σέ	you	
 G4671	σοί	you	
 G4675	σοῦ	you	
 G4706	σπουδαιότερον	more diligently	
 G4707	σπουδαιότερος	more diligent	
+G4839	συμπαραμένω	to continue	
+G4877	συνάντησις	meeting	
+G4900	συνελαύνω	to urge	
 G5023	ταῦτα	this	
 G5024	ταὐτά	thus	
 G5025	ταύταις	hence	
 G5026	ταύτῃ	her	
 G5033	τάχιστα	most quickly	
-G5104	τοί	certainly	
 G5120	τοῦ	his	
 G5123	τουτέστι	that is	
 G5124	τοῦτο	that	
@@ -113,21 +178,31 @@ G5127	τούτου	of this
 G5128	τούτους	these	
 G5129	τούτῳ	to this	
 G5130	τούτων	of these	
+G5182	τυρβάζω	to upset	
 G5209	ὑμᾶς	you	
 G5210	ὑμεῖς	you	
 G5213	ὑμῖν	to you	
 G5216	ὑμῶν	of you	
 G5224	ὑπάρχοντα	possession	
 G5305	ὕστερον	later	
+G5332	φαρμακεύς	sorcerer	
+G5391	φιλόφρων	friendly	
+G5414	φόρτος	cargo	
+G5516	χξϛ	666	
 G5600	ὦ	may be	
 G5607	ὤν	being	
 G6004	ἀλλαχοῦ	elsewhere	
-G6007	ἄμωμον	amomum	
 G6014	δεκαοκτώ	eighteen	
+G6019	δισμυριάς	two-myriad	
 G6023	ἐγκακέω	be discouraged	
 G6025	εἵνεκεν	because	
 G6039	εὐθύμως	cheerfully	
+G6049	κατακύπτω	to stoop	
 G6063	οἶδα	to know	
+G6066	ὀλιγοπιστία	little faith	
+G6087	ὑπερεκπερισσοῦ	superabundantly	
+G6088	ὑπερλίαν	greatly	
+G6093	σιρός	pit	
 G6096	ἀποπληρόω	to satisfy	
 G6097	θρύπτω	to break	
 G6098	καταπίμπρημι	burnt	
@@ -660,6 +735,7 @@ G6628	ἀφορισμός	an offering
 G6629	ἀφρονέω	be unwise	
 G6630	ἀφρόνως	unwisely	
 G6631	ἀφυλάκτως	unguardedly	
+G6632	ἀφυστερέω	to withhold	
 G6633	αφφουσώθ	apart	
 G6634	ἀφφώ	now	
 G6635	ἀχάτης	agate	
@@ -1011,6 +1087,7 @@ G6982	δύσχρηστος	inconvenient
 G6983	δωδεκάμηνος	twelve months	
 G6984	δωροδέκτης	one that takes bribes	
 G6985	δωρολήπτης	one that receives bribes	
+G6986	ἐάνπερ	if indeed	
 G6987	ἔαρ	the spring season	
 G6988	ἑβδομάς	a period of seven	
 G6989	εβδομηκονταδύο	seventy-two	
@@ -1509,7 +1586,7 @@ G7483	ἑπτακαίδεκα	seventeen
 G7484	ἑπτακαιδέκατος	seventeenth	
 G7485	ἑπτακόσιοι	seven hundred	
 G7486	ἑπτάμηνος	of seven months	
-G7487	ἑπταπλάσιος, ἑπταπλασίων	seven-fold	
+G7487	ἑπταπλάσιος	seven-fold	
 G7488	ἑπταπλασίων	seven-fold	
 G7489	ἑπταπλασίως	seven-fold	
 G7490	ἐπωμίς	a shoulder-piece	
@@ -3336,7 +3413,6 @@ G9311	συνεπακολουθέω	to follow after together
 G9312	συνεπισκέπω	to consider together	
 G9313	συνεπίσταμαι	be conscious of	
 G9314	συνεπισχύω	to vigorously assist	
-G9315	συνεπιτίθημι	to join in making an attack	
 G9316	συνεταιρίς	a female companion	
 G9317	συνέταιρος	a male companion	
 G9318	συνετίζω	to bring understanding to	
@@ -3873,9 +3949,9 @@ G9985	Πύθιος	Pythius
 G9986	ὑσσός	javelin	
 G9987	περιραίνω	to sprinkle	
 G9989	ὅρος	boundary	
-G9994	οἰκουργός	home-working	
-G9995	ἱερόθυτος	sacrificed to idols	
-G9996	συναλλάσσω	to reconcile	
+G9990	ιβ	12	
+G9991	ρμδ	144	
+G9993	ἕλιγμα	wrapping	
 G20001	ἀβατόομαι	be made desert	
 G20002	ἀβοηθησία	helplessness	
 G20003	ἀβούλευτος	ill-advised.	
@@ -4351,7 +4427,6 @@ G20483	εὐχαριστήριος	mission of thanks
 G20484	ἐφηβία	gymnasium	
 G20485	ἐφιορκία	perjury	
 G20486	ἐφύβριστος	contemptible	
-G20487	ἐχθές	yesterday	
 G20488	ζευγίζω	to yoke together	
 G20489	ζῆ	life	
 G20490	ζῶ	life	
@@ -4701,7 +4776,6 @@ G20840	ὁπηνίκα	when once
 G20841	ὁπλοδοτέω	to arm	
 G20842	ὁπλολογέω	be disarmed	
 G20843	ὁπλοποιέω	to make weapons	
-G20844	ὅππως	like that	
 G20845	ὀργιάω	be fierce	
 G20846	ὀρθρόω	dawn	
 G20847	ὀρνιθοπώλης	dealer in birds	

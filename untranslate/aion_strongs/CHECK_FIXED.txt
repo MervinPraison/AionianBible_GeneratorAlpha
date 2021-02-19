@@ -4,16 +4,16 @@ Textual hygiene change counts
 
 
 
-FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(<ref[^>]*>|</ref>)#usi	ref=106
-FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(<br[ /]*>|<lb[ /]*>)#usi	breaks=25056
-FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(H|G)[0]+([1-9]+[0-9]*)#usi	numbno=1096
-FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#<->#usi	tags=1
-FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#[([]+[ [:punct:]]*[)\]]+#usi	bracket=19
-FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#[ ]*[ \-—,:;?!.]+[ ]*([,.:;!?]{1})#usi	punct=112
-FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#([([]+)[ ]+#usi	space-bracket=41
-FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#[ ]+([)\]]+)#usi	space-bracket=23
-FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#[ ]+#usi	spaces=158763
-FIX2	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - TyndaleHouse.com STEPBible.org CC BY-NC.txt removed Hebrew '1)' times=8240
+FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#(<ref[^>]*>|</ref>)#usi	ref=106
+FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#(<br[ /]*>|<lb[ /]*>)#usi	breaks=25056
+FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#(H|G)[0]+([1-9]+[0-9]*)#usi	numbno=1096
+FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#<->#usi	tags=1
+FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#[([]+[ [:punct:]]*[)\]]+#usi	bracket=19
+FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#[ ]*[ \-—,:;?!.]+[ ]*([,.:;!?]{1})#usi	punct=112
+FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#([([]+)[ ]+#usi	space-bracket=41
+FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#[ ]+([)\]]+)#usi	space-bracket=23
+FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#[ ]+#usi	spaces=158763
+FIX2	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt removed Hebrew '1)' times=8240
 
 
 
@@ -40,68 +40,71 @@ FIX	./aion_strongs/TOTHT - Tyndale OT Hebrew Tagged text Isa-Mal - TyndaleHouse.
 
 
 
-FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(<b>|</b>|<i>|</i>|<u>|</u>)#usi	format=59992
-FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(<greek>|</greek>)#usi	greek=18
-FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(<note>|</note>)#usi	note=16
-FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(<author>|</author>)#usi	author=546
-FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(<date>|</date>)#usi	date=518
-FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(<corr>|</corr>)#usi	corr=2
-FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(<def>|</def>)#usi	def=4
-FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#<re>(.+?)</re>#usi	<re>=397
-FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(<ref[^>]*>|</ref>)#usi	ref=76447
-FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#<a href(.+?)</a>#usi	ahrefs=3767
-FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(<br[ /]*>|<lb[ /]*>)#usi	breaks=23407
-FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(H|G)[0]+([1-9]+[0-9]*)#usi	numbno=1000
-FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(†)#usi	cross=5138
-FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - TyndaleHouse.com STEPBible.org CC BY-NC.txt	# __([0-9]+)\. #usi	underN=3742
-FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#_[_]+#usi	unders=1940
-FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#[([]+[ [:punct:]]*[)\]]+#usi	bracket=3178
-FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#[ ]*[ \-—,:;?!.]+[ ]*([,.:;!?]{1})#usi	punct=63231
-FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#([([]+)[ ]+#usi	space-bracket=856
-FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#[ ]+([)\]]+)#usi	space-bracket=876
-FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#[ ]+#usi	spaces=330715
+FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#(<b>|</b>|<i>|</i>|<u>|</u>)#usi	format=59982
+FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#(<greek>|</greek>)#usi	greek=18
+FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#(<note>|</note>)#usi	note=16
+FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#(<author>|</author>)#usi	author=544
+FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#(<date>|</date>)#usi	date=516
+FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#(<corr>|</corr>)#usi	corr=2
+FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#(<def>|</def>)#usi	def=4
+FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#<re>(.+?)</re>#usi	<re>=397
+FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#(<ref[^>]*>|</ref>)#usi	ref=76451
+FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#<a href(.+?)</a>#usi	ahrefs=3762
+FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#(<br[ /]*>|<lb[ /]*>)#usi	breaks=23409
+FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#(H|G)[0]+([1-9]+[0-9]*)#usi	numbno=1000
+FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#(†)#usi	cross=5138
+FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	# __([0-9]+)\. #usi	underN=3742
+FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#_[_]+#usi	unders=1940
+FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#[([]+[ [:punct:]]*[)\]]+#usi	bracket=3173
+FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#[ ]*[ \-—,:;?!.]+[ ]*([,.:;!?]{1})#usi	punct=63228
+FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#([([]+)[ ]+#usi	space-bracket=859
+FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#[ ]+([)\]]+)#usi	space-bracket=879
+FIX	./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#[ ]+#usi	spaces=330758
 
 
 
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(<b>|</b>|<i>|</i>|<u>|</u>)#usi	format=258568
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(<author>|</author>)#usi	author=6
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(<date>|</date>)#usi	date=6
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(<ref[^>]*>|</ref>)#usi	ref=2132
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(<span [^>]*>|</span>)#usi	span=2
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#<a href(.+?)</a>#usi	ahrefs=84566
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#<Level[0-9]{1}>#usi	level#=23355
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#</Level[0-9]{1}>#usi	level/=23345
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(<br[ /]*>|<lb[ /]*>)#usi	breaks=29562
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(H|G)[0]+([1-9]+[0-9]*)#usi	numbno=1003
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(†)#usi	cross=436
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - TyndaleHouse.com STEPBible.org CC BY-NC.txt	# __([0-9]+)\. #usi	underN=112
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#_[_]+#usi	unders=23356
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#[([]+[ [:punct:]]*[)\]]+#usi	bracket=84557
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#[ ]*[ \-—,:;?!.]+[ ]*([,.:;!?]{1})#usi	punct=93373
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#([([]+)[ ]+#usi	space-bracket=694
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#[ ]+([)\]]+)#usi	space-bracket=24239
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#[ ]+#usi	spaces=653330
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - STEPBible.org CC BY.txt	#(<b>|</b>|<i>|</i>|<u>|</u>)#usi	format=258580
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - STEPBible.org CC BY.txt	#(<author>|</author>)#usi	author=6
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - STEPBible.org CC BY.txt	#(<date>|</date>)#usi	date=6
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - STEPBible.org CC BY.txt	#(<ref[^>]*>|</ref>)#usi	ref=2132
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - STEPBible.org CC BY.txt	#(<span [^>]*>|</span>)#usi	span=2
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - STEPBible.org CC BY.txt	#<a href(.+?)</a>#usi	ahrefs=84568
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - STEPBible.org CC BY.txt	#<Level[0-9]{1}>#usi	level#=23355
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - STEPBible.org CC BY.txt	#</Level[0-9]{1}>#usi	level/=23345
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - STEPBible.org CC BY.txt	#(<br[ /]*>|<lb[ /]*>)#usi	breaks=29566
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - STEPBible.org CC BY.txt	#&nbsp;#usi	nbsp=4
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - STEPBible.org CC BY.txt	#(H|G)[0]+([1-9]+[0-9]*)#usi	numbno=1003
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - STEPBible.org CC BY.txt	#(†)#usi	cross=436
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - STEPBible.org CC BY.txt	# __([0-9]+)\. #usi	underN=112
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - STEPBible.org CC BY.txt	#_[_]+#usi	unders=23356
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - STEPBible.org CC BY.txt	#[([]+[ [:punct:]]*[)\]]+#usi	bracket=84559
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - STEPBible.org CC BY.txt	#[ ]*[ \-—,:;?!.]+[ ]*([,.:;!?]{1})#usi	punct=93378
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - STEPBible.org CC BY.txt	#([([]+)[ ]+#usi	space-bracket=694
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - STEPBible.org CC BY.txt	#[ ]+([)\]]+)#usi	space-bracket=24239
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - STEPBible.org CC BY.txt	#[ ]+#usi	spaces=653333
 
 
 
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(<b>|</b>|<i>|</i>|<u>|</u>)#usi	format=104348
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(<ref[^>]*>|</ref>)#usi	ref=12
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#<a href(.+?)</a>#usi	ahrefs=32551
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#<Level[0-9]{1}>#usi	level#=8901
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#</Level[0-9]{1}>#usi	level/=8900
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(<br[ /]*>|<lb[ /]*>)#usi	breaks=13982
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#&nbsp;#usi	nbsp=4
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(H|G)[0]+([1-9]+[0-9]*)#usi	numbno=21
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(†)#usi	cross=4
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#_[_]+#usi	unders=8900
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#[([]+[ [:punct:]]*[)\]]+#usi	bracket=32564
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#[ ]*[ \-—,:;?!.]+[ ]*([,.:;!?]{1})#usi	punct=36421
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#([([]+)[ ]+#usi	space-bracket=234
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#[ ]+([)\]]+)#usi	space-bracket=9165
-FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#[ ]+#usi	spaces=231940
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - STEPBible.org CC BY.txt	#(<b>|</b>|<i>|</i>|<u>|</u>)#usi	format=104078
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - STEPBible.org CC BY.txt	#(<ref[^>]*>|</ref>)#usi	ref=12
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - STEPBible.org CC BY.txt	#<a href(.+?)</a>#usi	ahrefs=32489
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - STEPBible.org CC BY.txt	#<Level[0-9]{1}>#usi	level#=8865
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - STEPBible.org CC BY.txt	#</Level[0-9]{1}>#usi	level/=8864
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - STEPBible.org CC BY.txt	#(<br[ /]*>|<lb[ /]*>)#usi	breaks=13961
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - STEPBible.org CC BY.txt	#&nbsp;#usi	nbsp=20
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - STEPBible.org CC BY.txt	#(H|G)[0]+([1-9]+[0-9]*)#usi	numbno=21
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - STEPBible.org CC BY.txt	#(†)#usi	cross=4
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - STEPBible.org CC BY.txt	#_[_]+#usi	unders=8864
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - STEPBible.org CC BY.txt	#[([]+[ [:punct:]]*[)\]]+#usi	bracket=32502
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - STEPBible.org CC BY.txt	#[ ]*[ \-—,:;?!.]+[ ]*([,.:;!?]{1})#usi	punct=36329
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - STEPBible.org CC BY.txt	#([([]+)[ ]+#usi	space-bracket=231
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - STEPBible.org CC BY.txt	#[ ]+([)\]]+)#usi	space-bracket=9126
+FIX	./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - STEPBible.org CC BY.txt	#[ ]+#usi	spaces=230828
 
 
 
-FIX	./aion_strongs/TANTT - Tyndale Amalgamated NT Tagged texts - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#(H|G)[0]+([1-9]+[0-9]*)#usi	numbno=20434
-FIX	./aion_strongs/TANTT - Tyndale Amalgamated NT Tagged texts - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#[ ]*[ \-—,:;?!.]+[ ]*([,.:;!?]{1})#usi	punct=171
-FIX	./aion_strongs/TANTT - Tyndale Amalgamated NT Tagged texts - TyndaleHouse.com STEPBible.org CC BY-NC.txt	#[ ]+#usi	spaces=159962
+FIX	./aion_strongs/TAGNT - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt	#(H|G)[0]+([1-9]+[0-9]*)#usi	numbno=24420
+FIX	./aion_strongs/TAGNT - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt	#[ ]*[ \-—,:;?!.]+[ ]*([,.:;!?]{1})#usi	punct=9770
+FIX	./aion_strongs/TAGNT - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt	#([([]+)[ ]+#usi	space-bracket=1
+FIX	./aion_strongs/TAGNT - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt	#[ ]+([)\]]+)#usi	space-bracket=1
+FIX	./aion_strongs/TAGNT - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt	#[ ]+#usi	spaces=435644

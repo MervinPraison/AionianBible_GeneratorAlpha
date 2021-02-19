@@ -1,183 +1,199 @@
 {
     "A-APF": {
         "M": "Adjective Accusative Plural Feminine",
-        "U": "describing female people or things that are having something done to them"
-    },
-    "A-APF-LG": {
-        "M": "Adjective Accusative Plural Feminine Location Gentilic",
-        "U": "DESCRIBING those from a named location: female people or things that are having something done to them"
-    },
-    "A-APF-PG": {
-        "M": "Adjective Accusative Plural Feminine Person Gentilic",
-        "U": "DESCRIBING those related to a named person: female people or things that are having something done to them"
+        "U": "DESCRIBING female people or things that are having something done to them"
     },
     "A-APF-C": {
         "M": "Adjective Accusative Plural Feminine Comparative",
         "U": "DESCRIBING comparatively‚ female people or things that are having something done to them"
     },
+    "A-APF-LG": {
+        "M": "Adjective Accusative Plural Feminine Location Gentilic",
+        "U": "DESCRIBING those from a named location: female people or things that are having something done to them"
+    },
     "A-APF-NUI": {
         "M": "Adjective Accusative Plural Feminine Numeral",
         "U": "DESCRIBING numerically‚ female people or things that are having something done to them"
     },
+    "A-APF-PG": {
+        "M": "Adjective Accusative Plural Feminine Person Gentilic",
+        "U": "DESCRIBING those related to a named person: female people or things that are having something done to them"
+    },
     "A-APM": {
         "M": "Adjective Accusative Plural Masculine",
-        "U": "describing male people or things that are having something done to them"
+        "U": "DESCRIBING male people or things that are having something done to them"
     },
     "A-APM-C": {
         "M": "Adjective Accusative Plural Masculine Comparative",
         "U": "DESCRIBING comparatively‚ male people or things that are having something done to them"
     },
-    "A-APM-NUI": {
-        "M": "Adjective Accusative Plural Masculine Numeral",
-        "U": "DESCRIBING numerically‚ male people or things that are having something done to them"
-    },
     "A-APM-G": {
         "M": "Adjective Accusative Plural Masculine Gentilic",
         "U": "DESCRIBING a named group of male people or things that are having something done to them"
+    },
+    "A-APM-L": {
+        "M": "Adjective Accusative Plural Masculine Location",
+        "U": "DESCRIBING a named location: male people or things that are having something done to them"
     },
     "A-APM-LG": {
         "M": "Adjective Accusative Plural Masculine Location Gentilic",
         "U": "DESCRIBING those from a named location: male people or things that are having something done to them"
     },
+    "A-APM-NUI": {
+        "M": "Adjective Accusative Plural Masculine Numeral",
+        "U": "DESCRIBING numerically‚ male people or things that are having something done to them"
+    },
     "A-APM-PG": {
         "M": "Adjective Accusative Plural Masculine Person Gentilic",
         "U": "DESCRIBING those related to a named person: male people or things that are having something done to them"
     },
+    "A-APM-TG": {
+        "M": "Adjective Accusative Plural Masculine Title Gentilic",
+        "U": "DESCRIBING those of a type of group: male people or things that are having something done to them"
+    },
     "A-APN": {
         "M": "Adjective Accusative Plural Neuter",
-        "U": "describing neuter people or things that are having something done to them"
-    },
-    "A-APN-LG": {
-        "M": "Adjective Accusative Plural Neuter Location Gentilic",
-        "U": "DESCRIBING those from a named location: neuter people or things that are having something done to them"
-    },
-    "A-APN-PG": {
-        "M": "Adjective Accusative Plural Neuter Person Gentilic",
-        "U": "DESCRIBING those related to a named person: neuter people or things that are having something done to them"
+        "U": "DESCRIBING neuter people or things that are having something done to them"
     },
     "A-APN-C": {
         "M": "Adjective Accusative Plural Neuter Comparative",
         "U": "DESCRIBING comparatively‚ neuter people or things that are having something done to them"
     },
+    "A-APN-LG": {
+        "M": "Adjective Accusative Plural Neuter Location Gentilic",
+        "U": "DESCRIBING those from a named location: neuter people or things that are having something done to them"
+    },
     "A-APN-NUI": {
         "M": "Adjective Accusative Plural Neuter Numeral",
         "U": "DESCRIBING numerically‚ neuter people or things that are having something done to them"
     },
+    "A-APN-PG": {
+        "M": "Adjective Accusative Plural Neuter Person Gentilic",
+        "U": "DESCRIBING those related to a named person: neuter people or things that are having something done to them"
+    },
     "A-ASF": {
         "M": "Adjective Accusative Singular Feminine",
-        "U": "describing a female person or thing that is having something done to them"
-    },
-    "A-ASF-L": {
-        "M": "Adjective Accusative Singular Feminine Location",
-        "U": "DESCRIBING a female location that is having something done to them"
-    },
-    "A-ASF-LG": {
-        "M": "Adjective Accusative Singular Feminine Location Gentilic",
-        "U": "DESCRIBING those from a named location: a female person or thing that is having something done to them"
-    },
-    "A-ASF-PG": {
-        "M": "Adjective Accusative Singular Feminine Person Gentilic",
-        "U": "DESCRIBING those related to a named person: a female person or thing that is having something done to them"
+        "U": "DESCRIBING a female person or thing that is having something done to them"
     },
     "A-ASF-C": {
         "M": "Adjective Accusative Singular Feminine Comparative",
         "U": "DESCRIBING comparatively‚ a female person or thing that is having something done to them"
     },
+    "A-ASF-L": {
+        "M": "Adjective Accusative Singular Feminine Location",
+        "U": "DESCRIBING a female from a named location that is having something done to them"
+    },
+    "A-ASF-LG": {
+        "M": "Adjective Accusative Singular Feminine Location Gentilic",
+        "U": "DESCRIBING those from a named location: a female person or thing that is having something done to them"
+    },
     "A-ASF-N": {
         "M": "Adjective Accusative Singular Feminine Negative",
-        "U": "describing a female person or thing that is having something done to them"
+        "U": "DESCRIBING a female person or thing that is having something done to them"
+    },
+    "A-ASF-PG": {
+        "M": "Adjective Accusative Singular Feminine Person Gentilic",
+        "U": "DESCRIBING those related to a named person: a female person or thing that is having something done to them"
     },
     "A-ASF-S": {
         "M": "Adjective Accusative Singular Feminine Superlative",
-        "U": "describing superlatively a female person or thing that is having something done to them"
+        "U": "DESCRIBING superlatively a female person or thing that is having something done to them"
     },
     "A-ASM": {
         "M": "Adjective Accusative Singular Masculine",
-        "U": "describing a male person or thing that is having something done to them"
-    },
-    "A-ASM-LG": {
-        "M": "Adjective Accusative Singular Masculine Location Gentilic",
-        "U": "DESCRIBING those from a named location: a male person or thing that is having something done to them"
-    },
-    "A-ASM-PG": {
-        "M": "Adjective Accusative Singular Masculine Person Gentilic",
-        "U": "DESCRIBING those related to a named person: a male person or thing that is having something done to them"
+        "U": "DESCRIBING a male person or thing that is having something done to them"
     },
     "A-ASM-C": {
         "M": "Adjective Accusative Singular Masculine Comparative",
         "U": "DESCRIBING comparatively‚ a male person or thing that is having something done to them"
     },
+    "A-ASM-L": {
+        "M": "Adjective Accusative Singular Masculine Location",
+        "U": "DESCRIBING a named location: a male person or thing that is having something done to them"
+    },
+    "A-ASM-LG": {
+        "M": "Adjective Accusative Singular Masculine Location Gentilic",
+        "U": "DESCRIBING those from a named location: a male person or thing that is having something done to them"
+    },
     "A-ASM-N": {
         "M": "Adjective Accusative Singular Masculine Negative",
-        "U": "describing a male person or thing that is having something done to them"
+        "U": "DESCRIBING a male person or thing that is having something done to them"
+    },
+    "A-ASM-PG": {
+        "M": "Adjective Accusative Singular Masculine Person Gentilic",
+        "U": "DESCRIBING those related to a named person: a male person or thing that is having something done to them"
     },
     "A-ASM-S": {
         "M": "Adjective Accusative Singular Masculine Superlative",
-        "U": "describing a male person or thing that is having something done to them"
+        "U": "DESCRIBING a male person or thing that is having something done to them"
+    },
+    "A-ASM-T": {
+        "M": "Adjective Accusative Singular Masculine Title",
+        "U": "DESCRIBING a male person or thing of this type that is having something done to them"
     },
     "A-ASN": {
         "M": "Adjective Accusative Singular Neuter",
-        "U": "describing a neuter person or thing that is having something done to them"
-    },
-    "A-ASN-LG": {
-        "M": "Adjective Accusative Singular Neuter Location Gentilic",
-        "U": "DESCRIBING those from a named location: a neuter person or thing that is having something done to them"
-    },
-    "A-ASN-PG": {
-        "M": "Adjective Accusative Singular Neuter Person Gentilic",
-        "U": "DESCRIBING those related to a named person: a neuter person or thing that is having something done to them"
+        "U": "DESCRIBING a neuter person or thing that is having something done to them"
     },
     "A-ASN-C": {
         "M": "Adjective Accusative Singular Neuter Comparative",
         "U": "DESCRIBING comparatively‚ a neuter person or thing that is having something done to them"
     },
+    "A-ASN-LG": {
+        "M": "Adjective Accusative Singular Neuter Location Gentilic",
+        "U": "DESCRIBING those from a named location: a neuter person or thing that is having something done to them"
+    },
     "A-ASN-N": {
         "M": "Adjective Accusative Singular Neuter Negative",
-        "U": "describing a neuter person or thing that is having something done to them"
+        "U": "DESCRIBING a neuter person or thing that is having something done to them"
+    },
+    "A-ASN-PG": {
+        "M": "Adjective Accusative Singular Neuter Person Gentilic",
+        "U": "DESCRIBING those related to a named person: a neuter person or thing that is having something done to them"
     },
     "A-ASN-S": {
         "M": "Adjective Accusative Singular Neuter Superlative",
-        "U": "describing a neuter person or thing that is having something done to them"
+        "U": "DESCRIBING a neuter person or thing that is having something done to them"
     },
     "A-DPF": {
         "M": "Adjective Dative Plural Feminine",
+        "U": "DESCRIBING female people or things that something is done for‚ or done in relation to"
+    },
+    "A-DPF-C": {
+        "M": "Adjective Dative Plural Feminine Comparative",
         "U": "DESCRIBING female people or things that something is done for‚ or done in relation to"
     },
     "A-DPF-LG": {
         "M": "Adjective Dative Plural Feminine Location Gentilic",
         "U": "DESCRIBING those from a named location: female people or things that something is done for‚ or done in relation to"
     },
-    "A-DPF-PG": {
-        "M": "Adjective Dative Plural Feminine Person Gentilic",
-        "U": "DESCRIBING those related to a named person: female people or things that something is done for‚ or done in relation to"
-    },
-    "A-DPF-C": {
-        "M": "Adjective Dative Plural Feminine Comparative",
-        "U": "DESCRIBING female people or things that something is done for‚ or done in relation to"
-    },
     "A-DPF-NUI": {
         "M": "Adjective Dative Plural Feminine Numeral",
         "U": "DESCRIBING numerically, female people or things that something is done for‚ or done in relation to"
+    },
+    "A-DPF-PG": {
+        "M": "Adjective Dative Plural Feminine Person Gentilic",
+        "U": "DESCRIBING those related to a named person: female people or things that something is done for‚ or done in relation to"
     },
     "A-DPM": {
         "M": "Adjective Dative Plural Masculine",
         "U": "DESCRIBING male people or things that something is done for‚ or in relation to"
     },
-    "A-DPM-LG": {
-        "M": "Adjective Dative Plural Masculine Location Gentilic",
-        "U": "DESCRIBING those from a named location: male people or things that something is done for‚ or in relation to"
-    },
-    "A-DPM-PG": {
-        "M": "Adjective Dative Plural Masculine Person Gentilic",
-        "U": "DESCRIBING those related to a named person: male people or things that something is done for‚ or in relation to"
-    },
     "A-DPM-C": {
         "M": "Adjective Dative Plural Masculine Comparative",
         "U": "DESCRIBING comparatively‚ male people or things that something is done for‚ or in relation to"
     },
+    "A-DPM-LG": {
+        "M": "Adjective Dative Plural Masculine Location Gentilic",
+        "U": "DESCRIBING those from a named location: male people or things that something is done for‚ or in relation to"
+    },
     "A-DPM-NUI": {
         "M": "Adjective Dative Plural Masculine Numeral",
         "U": "DESCRIBING numerically‚ male people or things that something is done for‚ or in relation to"
+    },
+    "A-DPM-PG": {
+        "M": "Adjective Dative Plural Masculine Person Gentilic",
+        "U": "DESCRIBING those related to a named person: male people or things that something is done for‚ or in relation to"
     },
     "A-DPN": {
         "M": "Adjective Dative Plural Neuter",
@@ -187,21 +203,25 @@
         "M": "Adjective Dative Plural Neuter Location Gentilic",
         "U": "DESCRIBING those from a named location: neuter people or things that something is done for‚ or in relation to"
     },
-    "A-DPN-PG": {
-        "M": "Adjective Dative Plural Neuter Person Gentilic",
-        "U": "DESCRIBING those related to a named person: neuter people or things that something is done for‚ or in relation to"
+    "A-DPN-NUI": {
+        "M": "Adjective Dative Plural Neuter Numeral",
+        "U": "DESCRIBING numerically, neuter people or things that something is done for‚ or in relation to"
     },
     "A-DPN-P": {
         "M": "Adjective Dative Plural Neuter Individual",
         "U": "DESCRIBING neuter people or things that something is done for‚ or in relation to"
     },
-    "A-DPN-NUI": {
-        "M": "Adjective Dative Plural Neuter Numeral",
-        "U": "DESCRIBING numerically, neuter people or things that something is done for‚ or in relation to"
+    "A-DPN-PG": {
+        "M": "Adjective Dative Plural Neuter Person Gentilic",
+        "U": "DESCRIBING those related to a named person: neuter people or things that something is done for‚ or in relation to"
     },
     "A-DSF": {
         "M": "Adjective Dative Singular Feminine",
         "U": "DESCRIBING a female person or thing that something is done for‚ or in relation to"
+    },
+    "A-DSF-C": {
+        "M": "Adjective Dative Singular Feminine Comparative",
+        "U": "DESCRIBING comparatively‚ a female person or thing that something is done for‚ or in relation to"
     },
     "A-DSF-L": {
         "M": "Adjective Dative Singular Feminine Location",
@@ -215,33 +235,37 @@
         "M": "Adjective Dative Singular Feminine Person Gentilic",
         "U": "DESCRIBING those related to a named person: a female person or thing that something is done for‚ or in relation to"
     },
-    "A-DSF-C": {
-        "M": "Adjective Dative Singular Feminine Comparative",
-        "U": "DESCRIBING comparatively‚ a female person or thing that something is done for‚ or in relation to"
-    },
     "A-DSF-S": {
         "M": "Adjective Dative Singular Feminine Superlative",
         "U": "DESCRIBING superlatively a female person or thing that something is done for‚ or in relation to"
+    },
+    "A-DSF-T": {
+        "M": "Adjective Dative Singular Feminine of a type",
+        "U": "DESCRIBING a type of female person or thing that something is done for‚ or in relation to"
+    },
+    "A-DSF-TG": {
+        "M": "Adjective Dative Singular Feminine of a type of group",
+        "U": "DESCRIBING a type of group of a female person or thing that something is done for‚ or in relation to"
     },
     "A-DSM": {
         "M": "Adjective Dative Singular Masculine",
         "U": "DESCRIBING a male person or thing that something is done for‚ or in relation to"
     },
-    "A-DSM-N": {
-        "M": "Adjective Dative Singular Masculine Negative",
-        "U": "DESCRIBING a male person or thing that something is done for‚ or in relation to"
+    "A-DSM-C": {
+        "M": "Adjective Dative Singular Masculine Comparative",
+        "U": "DESCRIBING comparatively‚ a male person or thing that something is done for‚ or in relation to"
     },
     "A-DSM-LG": {
         "M": "Adjective Dative Singular Masculine Location Gentilic",
         "U": "DESCRIBING those from a named location: a male person or thing that something is done for‚ or in relation to"
     },
+    "A-DSM-N": {
+        "M": "Adjective Dative Singular Masculine Negative",
+        "U": "DESCRIBING a male person or thing that something is done for‚ or in relation to"
+    },
     "A-DSM-PG": {
         "M": "Adjective Dative Singular Masculine Person Gentilic",
         "U": "DESCRIBING those related to a named person: a male person or thing that something is done for‚ or in relation to"
-    },
-    "A-DSM-C": {
-        "M": "Adjective Dative Singular Masculine Comparative",
-        "U": "DESCRIBING comparatively‚ a male person or thing that something is done for‚ or in relation to"
     },
     "A-DSM-S": {
         "M": "Adjective Dative Singular Masculine Superlative",
@@ -251,6 +275,10 @@
         "M": "Adjective Dative Singular Neuter",
         "U": "DESCRIBING a neuter person or thing that something is done for‚ or in relation to"
     },
+    "A-DSN-C": {
+        "M": "Adjective Dative Singular Neuter Comparative",
+        "U": "DESCRIBING comparatively‚ a neuter person or thing that something is done for‚ or in relation to"
+    },
     "A-DSN-LG": {
         "M": "Adjective Dative Singular Neuter Location Gentilic",
         "U": "DESCRIBING those from a named location: a neuter person or thing that something is done for‚ or in relation to"
@@ -259,45 +287,53 @@
         "M": "Adjective Dative Singular Neuter Person Gentilic",
         "U": "DESCRIBING those related to a named person: a neuter person or thing that something is done for‚ or in relation to"
     },
-    "A-DSN-C": {
-        "M": "Adjective Dative Singular Neuter Comparative",
-        "U": "DESCRIBING comparatively‚ a neuter person or thing that something is done for‚ or in relation to"
-    },
     "A-DSN-S": {
         "M": "Adjective Dative Singular Neuter Superlative",
         "U": "DESCRIBING a neuter person or thing that something is done for‚ or in relation to"
     },
     "ADV": {
         "M": "Adverb",
-        "U": "describing a specific action"
+        "U": "DESCRIBING a specific ACTION"
     },
     "ADV-ARAM": {
         "M": "Adverb",
-        "U": "describing a specific action"
+        "U": "DESCRIBING a specific ACTION"
     },
     "ADV-C": {
         "M": "Adverb Comparative",
-        "U": "describing an action comparatively"
+        "U": "DESCRIBING an ACTION comparatively"
     },
     "ADV-I": {
         "M": "Adverb Interrogative",
-        "U": "describing an action questioningly"
+        "U": "DESCRIBING an ACTION questioningly"
     },
     "ADV-K": {
         "M": "Adverb or adverb and particle combined Comparative",
-        "U": "describing a specific action"
+        "U": "DESCRIBING a specific ACTION"
+    },
+    "ADV-L": {
+        "M": "Adverb or adverb and particle combined Location",
+        "U": "DESCRIBING a specific ACTION of a named location"
     },
     "ADV-N": {
         "M": "Adverb or adverb and particle combined Negative",
-        "U": "describing a specific action"
+        "U": "DESCRIBING a specific ACTION"
     },
     "ADV-S": {
         "M": "Adverb Superlative",
-        "U": "describing an action superlatively"
+        "U": "DESCRIBING an ACTION superlatively"
+    },
+    "ADV-TG": {
+        "M": "Adverb Title Gentilic",
+        "U": "DESCRIBING an ACTION of a type of group"
+    },
+    "ADV-PG": {
+        "M": "Adverb Title Gentilic",
+        "U": "DESCRIBING an ACTION of a type of a group related to a named person"
     },
     "A-GPF": {
         "M": "Adjective Genitive Plural Feminine",
-        "U": "describing female people or things that something belongs to"
+        "U": "DESCRIBING female people or things that something belongs to"
     },
     "A-GPF-L": {
         "M": "Adjective Genitive Plural Feminine Location",
@@ -307,77 +343,89 @@
         "M": "Adjective Genitive Plural Feminine Location Gentilic",
         "U": "DESCRIBING those from a named location: female people or things that something belongs to"
     },
+    "A-GPF-NUI": {
+        "M": "Adjective Genitive Plural Feminine",
+        "U": "DESCRIBING numerically female people or things that something belongs to"
+    },
+    "A-GPF-P": {
+        "M": "Adjective Genitive Plural Feminine Individual",
+        "U": "DESCRIBING female people or things that something belongs to"
+    },
     "A-GPF-PG": {
         "M": "Adjective Genitive Plural Feminine Person Gentilic",
         "U": "DESCRIBING those related to a named person: female people or things that something belongs to"
     },
-    "A-GPF-P": {
-        "M": "Adjective Genitive Plural Feminine Individual",
-        "U": "describing female people or things that something belongs to"
-    },
     "A-GPF-S": {
         "M": "Adjective Genitive Plural Feminine Superlative",
-        "U": "describing female people or things that something belongs to"
-    },
-    "A-GPF-NUI": {
-        "M": "Adjective Genitive Plural Feminine",
-        "U": "describing numerically female people or things that something belongs to"
+        "U": "DESCRIBING female people or things that something belongs to"
     },
     "A-GPM": {
         "M": "Adjective Genitive Plural Masculine",
-        "U": "describing male people or things that something belongs to"
+        "U": "DESCRIBING male people or things that something belongs to"
     },
     "A-GPM-C": {
         "M": "Adjective Genitive Plural Masculine Comparative",
         "U": "DESCRIBING comparatively‚ male people or things that something belongs to"
     },
-    "A-GPM-NUI": {
-        "M": "Adjective Genitive Plural Masculine Numeral",
-        "U": "DESCRIBING numerically‚ male people or things that something belongs to"
-    },
     "A-GPM-G": {
         "M": "Adjective Genitive Plural Masculine Gentilic",
         "U": "DESCRIBING a named group of male people or things that something belongs to"
-    },
-    "A-GPM-LG": {
-        "M": "Adjective Genitive Plural Masculine Location Gentilic",
-        "U": "DESCRIBING those from a named location: male people or things that something belongs to"
-    },
-    "A-GPM-PG": {
-        "M": "Adjective Genitive Plural Masculine Person Gentilic",
-        "U": "DESCRIBING those related to a named person: male people or things that something belongs to"
     },
     "A-GPM-L": {
         "M": "Adjective Genitive Plural Masculine Location",
         "U": "DESCRIBING male locations that something belongs to"
     },
+    "A-GPM-LG": {
+        "M": "Adjective Genitive Plural Masculine Location Gentilic",
+        "U": "DESCRIBING those from a named location: male people or things that something belongs to"
+    },
+    "A-GPM-NUI": {
+        "M": "Adjective Genitive Plural Masculine Numeral",
+        "U": "DESCRIBING numerically‚ male people or things that something belongs to"
+    },
+    "A-GPM-PG": {
+        "M": "Adjective Genitive Plural Masculine Person Gentilic",
+        "U": "DESCRIBING those related to a named person: male people or things that something belongs to"
+    },
     "A-GPM-S": {
         "M": "Adjective Genitive Plural Masculine Superlative",
-        "U": "describing male people or things that something belongs to"
+        "U": "DESCRIBING male people or things that something belongs to"
+    },
+    "A-GPM-TG": {
+        "M": "Adjective Genitive Plural Masculine Title Gentilic",
+        "U": "DESCRIBING a type of group of male people or things that something belongs to"
     },
     "A-GPN": {
         "M": "Adjective Genitive Plural Neuter",
-        "U": "describing neuter people or things that something belongs to"
-    },
-    "A-GPN-LG": {
-        "M": "Adjective Genitive Plural Neuter Location Gentilic",
-        "U": "DESCRIBING those from a named location: neuter people or things that something belongs to"
-    },
-    "A-GPN-PG": {
-        "M": "Adjective Genitive Plural Neuter Person Gentilic",
-        "U": "DESCRIBING those related to a named person: neuter people or things that something belongs to"
+        "U": "DESCRIBING neuter people or things that something belongs to"
     },
     "A-GPN-C": {
         "M": "Adjective Genitive Plural Neuter Comparative",
         "U": "DESCRIBING comparatively‚ neuter people or things that something belongs to"
     },
+    "A-GPN-L": {
+        "M": "Adjective Genitive Plural Neuter Location",
+        "U": "DESCRIBING a named location: neuter people or things that something belongs to"
+    },
+    "A-GPN-LG": {
+        "M": "Adjective Genitive Plural Neuter Location Gentilic",
+        "U": "DESCRIBING those from a named location: neuter people or things that something belongs to"
+    },
     "A-GPN-NUI": {
         "M": "Adjective Genitive Plural Neuter Numeral",
         "U": "DESCRIBING numerically‚ neuter people or things that something belongs to"
     },
+    "A-GPN-PG": {
+        "M": "Adjective Genitive Plural Neuter Person Gentilic",
+        "U": "DESCRIBING those related to a named person: neuter people or things that something belongs to"
+    },
     "A-GSF": {
         "M": "Adjective Genitive Singular Feminine",
-        "U": "describing a female person or thing that something belongs to"
+        "U": "DESCRIBING a female person or thing that something belongs to"
+    },
+    "A-GSF-C": {
+        "M": "Adjective Genitive Singular Feminine Comparative",
+        "U": "DESCRIBING comparatively‚ a female person or thing that something belongs to"
     },
     "A-GSF-L": {
         "M": "Adjective Genitive Singular Feminine Location",
@@ -391,81 +439,85 @@
         "M": "Adjective Genitive Singular Feminine Person Gentilic",
         "U": "DESCRIBING those related to a named person: a female person or thing that something belongs to"
     },
-    "A-GSF-C": {
-        "M": "Adjective Genitive Singular Feminine Comparative",
-        "U": "DESCRIBING comparatively‚ a female person or thing that something belongs to"
+    "A-GSF-P": {
+        "M": "Adjective Genitive Singular Feminine Individual",
+        "U": "DESCRIBING a female named person or thing that something belongs to"
     },
     "A-GSF-S": {
         "M": "Adjective Genitive Singular Feminine Superlative",
-        "U": "describing a female person or thing that something belongs to"
+        "U": "DESCRIBING a female person or thing that something belongs to"
     },
     "A-GSM": {
         "M": "Adjective Genitive Singular Masculine",
-        "U": "describing a male person or thing that something belongs to"
-    },
-    "A-GSM-LG": {
-        "M": "Adjective Genitive Singular Masculine Location Gentilic",
-        "U": "DESCRIBING those from a named location: a male person or thing that something belongs to"
-    },
-    "A-GSM-PG": {
-        "M": "Adjective Genitive Singular Masculine Person Gentilic",
-        "U": "DESCRIBING those related to a named person: a male person or thing that something belongs to"
+        "U": "DESCRIBING a male person or thing that something belongs to"
     },
     "A-GSM-C": {
         "M": "Adjective Genitive Singular Masculine Comparative",
         "U": "DESCRIBING comparatively‚ a male person or thing that something belongs to"
     },
+    "A-GSM-LG": {
+        "M": "Adjective Genitive Singular Masculine Location Gentilic",
+        "U": "DESCRIBING those from a named location: a male person or thing that something belongs to"
+    },
     "A-GSM-N": {
         "M": "Adjective Genitive Singular Masculine Negative",
-        "U": "describing a male person or thing that something belongs to"
+        "U": "DESCRIBING a male person or thing that something belongs to"
+    },
+    "A-GSM-PG": {
+        "M": "Adjective Genitive Singular Masculine Person Gentilic",
+        "U": "DESCRIBING those related to a named person: a male person or thing that something belongs to"
     },
     "A-GSM-S": {
         "M": "Adjective Genitive Singular Masculine Superlative",
-        "U": "describing a male person or thing that something belongs to"
+        "U": "DESCRIBING a male person or thing that something belongs to"
+    },
+    "A-GSM-T": {
+        "M": "Adjective Genitive Singular Masculine Title",
+        "U": "DESCRIBING a male person or thing of this type that something belongs to"
     },
     "A-GSN": {
         "M": "Adjective Genitive Singular Neuter",
-        "U": "describing a neuter person or thing that something belongs to"
+        "U": "DESCRIBING a neuter person or thing that something belongs to"
     },
     "A-GSN-LG": {
         "M": "Adjective Genitive Singular Neuter Location Gentilic",
         "U": "DESCRIBING those from a named location: a neuter person or thing that something belongs to"
     },
+    "A-GSN-N": {
+        "M": "Adjective Genitive Singular Neuter Negative",
+        "U": "DESCRIBING a neuter person or thing that something belongs to"
+    },
     "A-GSN-PG": {
         "M": "Adjective Genitive Singular Neuter Person Gentilic",
         "U": "DESCRIBING those related to a named person: a neuter person or thing that something belongs to"
     },
-    "A-GSN-N": {
-        "M": "Adjective Genitive Singular Neuter Negative",
-        "U": "describing a neuter person or thing that something belongs to"
-    },
     "A-GSN-S": {
         "M": "Adjective Genitive Singular Neuter Superlative",
-        "U": "describing superlatively a neuter person or thing that something belongs to"
+        "U": "DESCRIBING superlatively a neuter person or thing that something belongs to"
     },
     "A-NPF": {
         "M": "Adjective Nominative Plural Feminine",
-        "U": "describing female people or things that are doing something"
+        "U": "DESCRIBING female people or things that are doing something"
     },
-    "A-NPF-NUI": {
-        "M": "Adjective Nominative Plural Feminine",
-        "U": "describing numerically female people or things that are doing something"
-    },
-    "A-NPF-NUI-ABB": {
-        "M": "Adjective Nominative Plural Feminine",
-        "U": "describing female people or things that are doing something"
+    "A-NPF-C": {
+        "M": "Adjective Nominative Plural Feminine Comparative",
+        "U": "DESCRIBING comparatively‚ female people or things that are doing something"
     },
     "A-NPF-LG": {
         "M": "Adjective Nominative Plural Feminine Location Gentilic",
         "U": "DESCRIBING those from a named location: female people or things that are doing something"
     },
+    "A-NPF-NUI": {
+        "M": "Adjective Nominative Plural Feminine",
+        "U": "DESCRIBING numerically female people or things that are doing something"
+    },
+    "A-NPF-NUI-ABB": {
+        "M": "Adjective Nominative Plural Feminine",
+        "U": "DESCRIBING female people or things that are doing something"
+    },
     "A-NPF-PG": {
         "M": "Adjective Nominative Plural Feminine Person Gentilic",
         "U": "DESCRIBING those related to a named person: female people or things that are doing something"
-    },
-    "A-NPF-C": {
-        "M": "Adjective Nominative Plural Feminine Comparative",
-        "U": "DESCRIBING comparatively‚ female people or things that are doing something"
     },
     "A-NPF-S": {
         "M": "Adjective Nominative Plural Feminine Superlative",
@@ -473,15 +525,7 @@
     },
     "A-NPM": {
         "M": "Adjective Nominative Plural Masculine",
-        "U": "describing male people or things that are doing something"
-    },
-    "A-NPM-NUI": {
-        "M": "Adjective Nominative Plural Masculine",
-        "U": "describing numerically male people or things that are doing something"
-    },
-    "A-NPM-NUI-ABB": {
-        "M": "Adjective Nominative Plural Masculine",
-        "U": "describing male people or things that are doing something"
+        "U": "DESCRIBING male people or things that are doing something"
     },
     "A-NPM-C": {
         "M": "Adjective Nominative Plural Masculine Comparative",
@@ -495,133 +539,145 @@
         "M": "Adjective Nominative Plural Masculine Location Gentilic",
         "U": "DESCRIBING those from a named location: male people or things that are doing something"
     },
+    "A-NPM-NUI": {
+        "M": "Adjective Nominative Plural Masculine",
+        "U": "DESCRIBING numerically male people or things that are doing something"
+    },
+    "A-NPM-NUI-ABB": {
+        "M": "Adjective Nominative Plural Masculine",
+        "U": "DESCRIBING male people or things that are doing something"
+    },
     "A-NPM-PG": {
         "M": "Adjective Nominative Plural Masculine Person Gentilic",
         "U": "DESCRIBING those related to a named person: male people or things that are doing something"
     },
     "A-NPN": {
         "M": "Adjective Nominative Plural Neuter",
-        "U": "describing neuter people or things that are doing something"
-    },
-    "A-NPN-NUI": {
-        "M": "Adjective Nominative Plural Neuter",
-        "U": "describing numerically neuter people or things that are doing something"
-    },
-    "A-NPN-LG": {
-        "M": "Adjective Nominative Plural Neuter Location Gentilic",
-        "U": "DESCRIBING those from a named location: neuter people or things that are doing something"
-    },
-    "A-NPN-PG": {
-        "M": "Adjective Nominative Plural Neuter Person Gentilic",
-        "U": "DESCRIBING those related to a named person: neuter people or things that are doing something"
+        "U": "DESCRIBING neuter people or things that are doing something"
     },
     "A-NPN-C": {
         "M": "Adjective Nominative Plural Neuter Comparative",
         "U": "DESCRIBING comparatively‚ neuter people or things that are doing something"
     },
+    "A-NPN-L": {
+        "M": "Adjective Nominative Plural Neuter Location",
+        "U": "DESCRIBING a named location: neuter people or things that are doing something"
+    },
+    "A-NPN-LG": {
+        "M": "Adjective Nominative Plural Neuter Location Gentilic",
+        "U": "DESCRIBING those from a named location: neuter people or things that are doing something"
+    },
+    "A-NPN-NUI": {
+        "M": "Adjective Nominative Plural Neuter",
+        "U": "DESCRIBING numerically neuter people or things that are doing something"
+    },
+    "A-NPN-PG": {
+        "M": "Adjective Nominative Plural Neuter Person Gentilic",
+        "U": "DESCRIBING those related to a named person: neuter people or things that are doing something"
+    },
     "A-NPN-S": {
         "M": "Adjective Nominative Plural Neuter Superlative",
-        "U": "describing superlatively neuter people or things that are doing something"
+        "U": "DESCRIBING superlatively neuter people or things that are doing something"
     },
     "A-NSF": {
         "M": "Adjective Nominative Singular Feminine",
-        "U": "describing a female person or thing that is doing something"
-    },
-    "A-NSF-LG": {
-        "M": "Adjective Nominative Singular Feminine Location Gentilic",
-        "U": "DESCRIBING those from a named location: a female person or thing that is doing something"
-    },
-    "A-NSF-PG": {
-        "M": "Adjective Nominative Singular Feminine Person Gentilic",
-        "U": "DESCRIBING those related to a named person: a female person or thing that is doing something"
+        "U": "DESCRIBING a female person or thing that is doing something"
     },
     "A-NSF-C": {
         "M": "Adjective Nominative Singular Feminine Comparative",
         "U": "DESCRIBING comparatively‚ a female person or thing that is doing something"
     },
+    "A-NSF-LG": {
+        "M": "Adjective Nominative Singular Feminine Location Gentilic",
+        "U": "DESCRIBING those from a named location: a female person or thing that is doing something"
+    },
     "A-NSF-N": {
         "M": "Adjective Nominative Singular Feminine Negative",
-        "U": "describing a female person or thing that is doing something"
+        "U": "DESCRIBING a female person or thing that is doing something"
+    },
+    "A-NSF-PG": {
+        "M": "Adjective Nominative Singular Feminine Person Gentilic",
+        "U": "DESCRIBING those related to a named person: a female person or thing that is doing something"
     },
     "A-NSF-S": {
         "M": "Adjective Nominative Singular Feminine Superlative",
-        "U": "describing a female person or thing that is doing something"
+        "U": "DESCRIBING a female person or thing that is doing something"
     },
     "A-NSM": {
         "M": "Adjective Nominative Singular Masculine",
-        "U": "describing a male person or thing that is doing something"
-    },
-    "A-NSM-LG": {
-        "M": "Adjective Nominative Singular Masculine Location Gentilic",
-        "U": "DESCRIBING those from a named location: a male person or thing that is doing something"
-    },
-    "A-NSM-PG": {
-        "M": "Adjective Nominative Singular Masculine Person Gentilic",
-        "U": "DESCRIBING those related to a named person: a male person or thing that is doing something"
+        "U": "DESCRIBING a male person or thing that is doing something"
     },
     "A-NSM-ATT": {
         "M": "Adjective Nominative Singular Masculine Attic Greek form",
-        "U": "describing a male person or thing that is doing something"
+        "U": "DESCRIBING a male person or thing that is doing something"
     },
     "A-NSM-C": {
         "M": "Adjective Nominative Singular Masculine Comparative",
         "U": "DESCRIBING comparatively‚ a male person or thing that is doing something"
     },
+    "A-NSM-L": {
+        "M": "Adjective Nominative Singular Masculine Location",
+        "U": "DESCRIBING a named location: a male person or thing that is doing something"
+    },
+    "A-NSM-LG": {
+        "M": "Adjective Nominative Singular Masculine Location Gentilic",
+        "U": "DESCRIBING those from a named location: a male person or thing that is doing something"
+    },
+    "A-NSM-N": {
+        "M": "Adjective Nominative Singular Masculine Negative",
+        "U": "DESCRIBING a male person or thing that is doing something"
+    },
+    "A-NSM-PG": {
+        "M": "Adjective Nominative Singular Masculine Person Gentilic",
+        "U": "DESCRIBING those related to a named person: a male person or thing that is doing something"
+    },
     "A-NSM-S": {
         "M": "Adjective Nominative Singular Masculine Superlative",
         "U": "DESCRIBING superlatively‚ a male person or thing that is doing something"
     },
-    "A-NSM-N": {
-        "M": "Adjective Nominative Singular Masculine Negative",
-        "U": "describing a male person or thing that is doing something"
-    },
     "A-NSM-T": {
         "M": "Adjective Nominative Singular Masculine Title",
-        "U": "describing a male person or thing that is doing something"
+        "U": "DESCRIBING a male person or thing that is doing something"
     },
     "A-NSN": {
         "M": "Adjective Nominative Singular Neuter",
-        "U": "describing a neuter person or thing that is doing something"
-    },
-    "A-NSN-LG": {
-        "M": "Adjective Nominative Singular Neuter Location Gentilic",
-        "U": "DESCRIBING those from a named location: a neuter person or thing that is doing something"
-    },
-    "A-NSN-PG": {
-        "M": "Adjective Nominative Singular Neuter Person Gentilic",
-        "U": "DESCRIBING those related to a named person: a neuter person or thing that is doing something"
+        "U": "DESCRIBING a neuter person or thing that is doing something"
     },
     "A-NSN-C": {
         "M": "Adjective Nominative Singular Neuter Comparative",
         "U": "DESCRIBING comparatively‚ a neuter person or thing that is doing something"
     },
+    "A-NSN-LG": {
+        "M": "Adjective Nominative Singular Neuter Location Gentilic",
+        "U": "DESCRIBING those from a named location: a neuter person or thing that is doing something"
+    },
     "A-NSN-N": {
         "M": "Adjective Nominative Singular Neuter Negative",
-        "U": "describing a neuter person or thing that is doing something"
+        "U": "DESCRIBING a neuter person or thing that is doing something"
+    },
+    "A-NSN-PG": {
+        "M": "Adjective Nominative Singular Neuter Person Gentilic",
+        "U": "DESCRIBING those related to a named person: a neuter person or thing that is doing something"
     },
     "A-NSN-S": {
         "M": "Adjective Nominative Singular Neuter Superlative",
-        "U": "describing a neuter person or thing that is doing something"
-    },
-    "NUI": {
-        "M": "Adjective Indeclinable Numeral",
-        "U": "describing a number"
+        "U": "DESCRIBING a neuter person or thing that is doing something"
     },
     "A-NUI": {
         "M": "Adjective Indeclinable Numeral",
-        "U": "describing a number"
-    },
-    "A-NUI-LG": {
-        "M": "Adjective Indeclinable Numeral Location Gentilic",
-        "U": "describing a number of a group from a named location"
-    },
-    "A-NUI-PG": {
-        "M": "Adjective Indeclinable Numeral Person Gentilic",
-        "U": "describing a number of those related to a named person"
+        "U": "DESCRIBING a number"
     },
     "A-NUI-ABB": {
         "M": "Adjective Indeclinable Numeral Contracted form",
-        "U": "describing a number"
+        "U": "DESCRIBING a number"
+    },
+    "A-NUI-LG": {
+        "M": "Adjective Indeclinable Numeral Location Gentilic",
+        "U": "DESCRIBING a number of a group from a named location"
+    },
+    "A-NUI-PG": {
+        "M": "Adjective Indeclinable Numeral Person Gentilic",
+        "U": "DESCRIBING a number of those related to a named person"
     },
     "ARAM": {
         "M": "Aramaic transliterated word",
@@ -629,7 +685,7 @@
     },
     "A-VPF": {
         "M": "Adjective Vocative Plural Feminine",
-        "U": "describing female people or things that are being addressed"
+        "U": "DESCRIBING female people or things that are being addressed"
     },
     "A-VPF-LG": {
         "M": "Adjective Vocative Plural Feminine Location Gentilic",
@@ -641,11 +697,11 @@
     },
     "A-VPM": {
         "M": "Adjective Vocative Plural Masculine",
-        "U": "describing male people or things that are being addressed"
+        "U": "DESCRIBING male people or things that are being addressed"
     },
     "A-VPM-C": {
         "M": "Adjective Vocative Plural Masculine Comparative",
-        "U": "describing male people or things that are being addressed"
+        "U": "DESCRIBING male people or things that are being addressed"
     },
     "A-VPM-G": {
         "M": "Adjective Vocative Plural Masculine Gentilic",
@@ -661,7 +717,7 @@
     },
     "A-VPN": {
         "M": "Adjective Vocative Plural Neuter",
-        "U": "describing neuter things that are being addressed"
+        "U": "DESCRIBING neuter things that are being addressed"
     },
     "A-VPN-G": {
         "M": "Adjective Vocative Plural Neuter Gentilic",
@@ -677,7 +733,7 @@
     },
     "A-VSF": {
         "M": "Adjective Vocative Singular Feminine",
-        "U": "describing a female person or thing that is being addressed"
+        "U": "DESCRIBING a female person or thing that is being addressed"
     },
     "A-VSF-LG": {
         "M": "Adjective Vocative Singular Feminine Location Gentilic",
@@ -689,7 +745,7 @@
     },
     "A-VSM": {
         "M": "Adjective Vocative Singular Masculine",
-        "U": "describing a male person or thing that is being addressed"
+        "U": "DESCRIBING a male person or thing that is being addressed"
     },
     "A-VSM-LG": {
         "M": "Adjective Vocative Singular Masculine Location Gentilic",
@@ -701,7 +757,7 @@
     },
     "A-VSN": {
         "M": "Adjective Vocative Singular Neuter",
-        "U": "describing a neuter thing that is being addressed"
+        "U": "DESCRIBING a neuter thing that is being addressed"
     },
     "A-VSN-LG": {
         "M": "Adjective Vocative Singular Neuter Location Gentilic",
@@ -775,13 +831,13 @@
         "M": "Demonstrative pronoun Accusative Plural Masculine",
         "U": "a reference to SPECIFIC male people or things that are having something done to them"
     },
-    "D-APM-K": {
-        "M": "Demonstrative pronoun+Conjunction Accusative Plural Masculine",
-        "U": "a reference to additional SPECIFIC male people or things that are having something done to them"
-    },
     "D-APM-C": {
         "M": "Demonstrative pronoun Accusative Plural Masculine Contracted form",
         "U": "a reference to SPECIFIC male people or things that are having something done to them"
+    },
+    "D-APM-K": {
+        "M": "Demonstrative pronoun+Conjunction Accusative Plural Masculine",
+        "U": "a reference to additional SPECIFIC male people or things that are having something done to them"
     },
     "D-APN": {
         "M": "Demonstrative pronoun Accusative Plural Neuter",
@@ -799,12 +855,12 @@
         "M": "Demonstrative pronoun Accusative Singular Masculine",
         "U": "a reference to SPECIFIC a male person or thing that is having something done to them"
     },
-    "D-ASM-K": {
-        "M": "Demonstrative pronoun+Conjunction Accusative Singular Masculine",
-        "U": "a reference to SPECIFIC a male person or thing that is having something done to them"
-    },
     "D-ASM-C": {
         "M": "Demonstrative pronoun Accusative Singular Masculine Contracted form",
+        "U": "a reference to SPECIFIC a male person or thing that is having something done to them"
+    },
+    "D-ASM-K": {
+        "M": "Demonstrative pronoun+Conjunction Accusative Singular Masculine",
         "U": "a reference to SPECIFIC a male person or thing that is having something done to them"
     },
     "D-ASN": {
@@ -819,12 +875,12 @@
         "M": "Demonstrative pronoun Dative Plural Masculine",
         "U": "a reference to SPECIFIC male people or things that something is done for‚ or in relation to"
     },
-    "D-DPM-K": {
-        "M": "Demonstrative pronoun+Conjunction Dative Plural Masculine",
-        "U": "a reference to SPECIFIC male people or things that something is done for‚ or in relation to"
-    },
     "D-DPM-C": {
         "M": "Demonstrative pronoun Dative Plural Masculine Contracted form",
+        "U": "a reference to SPECIFIC male people or things that something is done for‚ or in relation to"
+    },
+    "D-DPM-K": {
+        "M": "Demonstrative pronoun+Conjunction Dative Plural Masculine",
         "U": "a reference to SPECIFIC male people or things that something is done for‚ or in relation to"
     },
     "D-DPN": {
@@ -875,24 +931,24 @@
         "M": "Demonstrative pronoun Nominative Plural Masculine",
         "U": "a reference to SPECIFIC male people or things that are doing something"
     },
-    "D-NPM-K": {
-        "M": "Demonstrative pronoun+Conjunction Nominative Plural Masculine",
-        "U": "a reference to SPECIFIC male people or things that are doing something"
-    },
     "D-NPM-C": {
         "M": "Demonstrative pronoun Nominative Plural Masculine Contracted form",
+        "U": "a reference to SPECIFIC male people or things that are doing something"
+    },
+    "D-NPM-K": {
+        "M": "Demonstrative pronoun+Conjunction Nominative Plural Masculine",
         "U": "a reference to SPECIFIC male people or things that are doing something"
     },
     "D-NPN": {
         "M": "Demonstrative pronoun Nominative Plural Neuter",
         "U": "a reference to SPECIFIC neuter people or things that are doing something"
     },
-    "D-NPN-K": {
-        "M": "Demonstrative pronoun+Conjunction Nominative Plural Neuter",
-        "U": "a reference to SPECIFIC neuter people or things that are doing something"
-    },
     "D-NPN-C": {
         "M": "Demonstrative pronoun Nominative Plural Neuter Contracted form",
+        "U": "a reference to SPECIFIC neuter people or things that are doing something"
+    },
+    "D-NPN-K": {
+        "M": "Demonstrative pronoun+Conjunction Nominative Plural Neuter",
         "U": "a reference to SPECIFIC neuter people or things that are doing something"
     },
     "D-NSF": {
@@ -903,12 +959,12 @@
         "M": "Demonstrative pronoun Nominative Singular Masculine",
         "U": "a reference to SPECIFIC a male person or thing that is doing something"
     },
-    "D-NSM-K": {
-        "M": "Demonstrative pronoun+Conjunction Nominative Singular Masculine",
-        "U": "a reference to SPECIFIC a male person or thing that is doing something"
-    },
     "D-NSM-C": {
         "M": "Demonstrative pronoun Nominative Singular Masculine Contracted form",
+        "U": "a reference to SPECIFIC a male person or thing that is doing something"
+    },
+    "D-NSM-K": {
+        "M": "Demonstrative pronoun+Conjunction Nominative Singular Masculine",
         "U": "a reference to SPECIFIC a male person or thing that is doing something"
     },
     "D-NSN": {
@@ -1195,6 +1251,14 @@
         "M": "Interrogative pronoun Genitive Singular Neuter",
         "U": "a question referring to a neuter person or thing that something belongs to"
     },
+    "INJ": {
+        "M": "Interjection",
+        "U": "an Interjection"
+    },
+    "INJ-HEB": {
+        "M": "Interjection Transcribed from Hebrew",
+        "U": "an Interjection"
+    },
     "I-NPF": {
         "M": "Interrogative pronoun Nominative Plural Feminine",
         "U": "a question referring to female people or things that are doing something"
@@ -1218,14 +1282,6 @@
     "I-NSN": {
         "M": "Interrogative pronoun Nominative Singular Neuter",
         "U": "a question referring to a neuter person or thing that is doing something"
-    },
-    "INJ": {
-        "M": "Interjection",
-        "U": "an Interjection"
-    },
-    "INJ-HEB": {
-        "M": "Interjection Transcribed from Hebrew",
-        "U": "an Interjection"
     },
     "K-APF": {
         "M": "Correlative pronoun Accusative Plural Feminine",
@@ -1299,13 +1355,13 @@
         "M": "Noun Accusative Plural Feminine",
         "U": "female PEOPLE OR THINGS that are having something done to them"
     },
-    "N-APF-L": {
-        "M": "Noun Accusative Plural Feminine Location",
-        "U": "female LOCATIONS that are having something done to them"
-    },
     "N-APF-C": {
         "M": "Noun Accusative Plural Feminine Contracted form",
         "U": "female PEOPLE OR THINGS that are having something done to them"
+    },
+    "N-APF-L": {
+        "M": "Noun Accusative Plural Feminine Location",
+        "U": "female LOCATIONS that are having something done to them"
     },
     "N-APF-P": {
         "M": "Noun Accusative Plural Feminine Individual",
@@ -1315,37 +1371,37 @@
         "M": "Noun Accusative Plural Masculine",
         "U": "male PEOPLE OR THINGS that are having something done to them"
     },
-    "N-APM-T": {
-        "M": "Noun Accusative Plural Masculine",
-        "U": "a proper name of male PEOPLE OR THINGS that are having something done to them"
-    },
-    "N-APM-PG": {
-        "M": "Noun Accusative Plural Masculine Person Gentilic",
-        "U": "male PEOPLE OR THINGS that are having something done to them"
+    "N-APM-L": {
+        "M": "Noun Accusative Plural Masculine Location",
+        "U": "male LOCATIONS that are having something done to them"
     },
     "N-APM-LG": {
         "M": "Noun Accusative Plural Masculine Location Gentilic",
         "U": "from a named place: male PEOPLE OR THINGS that are having something done to them"
     },
-    "N-APM-L": {
-        "M": "Noun Accusative Plural Masculine Location",
-        "U": "male LOCATIONS that are having something done to them"
-    },
     "N-APM-P": {
         "M": "Noun Accusative Plural Masculine Individual",
         "U": "male PEOPLE that are having something done to them"
+    },
+    "N-APM-PG": {
+        "M": "Noun Accusative Plural Masculine Person Gentilic",
+        "U": "male PEOPLE OR THINGS that are having something done to them"
+    },
+    "N-APM-T": {
+        "M": "Noun Accusative Plural Masculine",
+        "U": "a proper name of male PEOPLE OR THINGS that are having something done to them"
     },
     "N-APN": {
         "M": "Noun Accusative Plural Neuter",
         "U": "neuter PEOPLE OR THINGS that are having something done to them"
     },
-    "N-APN-L": {
-        "M": "Noun Accusative Plural Neuter Location",
-        "U": "neuter LOCATIONS that are having something done to them"
-    },
     "N-APN-C": {
         "M": "Noun Accusative Plural Neuter Contracted form",
         "U": "neuter PEOPLE OR THINGS that are having something done to them"
+    },
+    "N-APN-L": {
+        "M": "Noun Accusative Plural Neuter Location",
+        "U": "neuter LOCATIONS that are having something done to them"
     },
     "N-APN-P": {
         "M": "Noun Accusative Plural Neuter Individual",
@@ -1354,10 +1410,6 @@
     "N-ASF": {
         "M": "Noun Accusative Singular Feminine",
         "U": "a female PERSON OR THING that is having something done to them"
-    },
-    "N-ASF-T": {
-        "M": "Noun Accusative Singular Feminine",
-        "U": "a proper name of a female PERSON OR THING that is having something done to them"
     },
     "N-ASF-C": {
         "M": "Noun Accusative Singular Feminine Contracted form",
@@ -1371,17 +1423,21 @@
         "M": "Noun Accusative Singular Feminine Individual",
         "U": "a female PERSON that is having something done to them"
     },
+    "N-ASF-T": {
+        "M": "Noun Accusative Singular Feminine",
+        "U": "a proper name of a female PERSON OR THING that is having something done to them"
+    },
     "N-ASM": {
         "M": "Noun Accusative Singular Masculine",
         "U": "a male PERSON OR THING that is having something done to them"
     },
-    "N-ASM-LG": {
-        "M": "Noun Accusative Singular Masculine Location Gentilic",
-        "U": "from a named place: a male PERSON OR THING that is having something done to them"
-    },
     "N-ASM-L": {
         "M": "Noun Accusative Singular Masculine Location",
         "U": "a male LOCATION that is having something done to them"
+    },
+    "N-ASM-LG": {
+        "M": "Noun Accusative Singular Masculine Location Gentilic",
+        "U": "from a named place: a male PERSON OR THING that is having something done to them"
     },
     "N-ASM-P": {
         "M": "Noun Accusative Singular Masculine Individual",
@@ -1395,13 +1451,13 @@
         "M": "Noun Accusative Singular Neuter",
         "U": "a neuter PERSON OR THING that is having something done to them"
     },
-    "N-ASN-L": {
-        "M": "Noun Accusative Singular Neuter Location",
-        "U": "a neuter LOCATION that is having something done to them"
-    },
     "N-ASN-HEB": {
         "M": "Noun Transcribed from Hebrew Accusative Singular Neuter",
         "U": "a neuter PERSON OR THING that is having something done to them"
+    },
+    "N-ASN-L": {
+        "M": "Noun Accusative Singular Neuter Location",
+        "U": "a neuter LOCATION that is having something done to them"
     },
     "N-ASN-P": {
         "M": "Noun Accusative Singular Neuter Individual",
@@ -1423,25 +1479,25 @@
         "M": "Noun Dative Plural Masculine",
         "U": "male PEOPLE OR THINGS that something is done for‚ or in relation to"
     },
-    "N-DPM-T": {
-        "M": "Noun Dative Plural Masculine",
-        "U": "a proper name of male PEOPLE OR THINGS that something is done for‚ or in relation to"
-    },
-    "N-DPM-LG": {
-        "M": "Noun Dative Plural Masculine Location Gentilic",
-        "U": "from a named place: male PEOPLE OR THINGS that something is done for‚ or in relation to"
+    "N-DPM-G": {
+        "M": "Noun Dative Plural Masculine Gentilic",
+        "U": "a member of a named group: male PEOPLE OR THINGS that something is done for‚ or in relation to"
     },
     "N-DPM-L": {
         "M": "Noun Dative Plural Masculine Location",
         "U": "male LOCATIONS that something is done for‚ or in relation to"
     },
-    "N-DPM-G": {
-        "M": "Noun Dative Plural Masculine Gentilic",
-        "U": "a member of a named group: male PEOPLE OR THINGS that something is done for‚ or in relation to"
+    "N-DPM-LG": {
+        "M": "Noun Dative Plural Masculine Location Gentilic",
+        "U": "from a named place: male PEOPLE OR THINGS that something is done for‚ or in relation to"
     },
     "N-DPM-P": {
         "M": "Noun Dative Plural Masculine Individual",
         "U": "male PEOPLE that something is done for‚ or in relation to"
+    },
+    "N-DPM-T": {
+        "M": "Noun Dative Plural Masculine",
+        "U": "a proper name of male PEOPLE OR THINGS that something is done for‚ or in relation to"
     },
     "N-DPN": {
         "M": "Noun Dative Plural Neuter",
@@ -1459,33 +1515,33 @@
         "M": "Noun Dative Singular Feminine",
         "U": "a female PERSON OR THING that something is done for‚ or in relation to"
     },
-    "N-DSF-T": {
-        "M": "Noun Dative Singular Feminine",
-        "U": "a proper name of a female PERSON OR THING that something is done for‚ or in relation to"
+    "N-DSF-L": {
+        "M": "Noun Dative Singular Feminine Location",
+        "U": "a female LOCATION that something is done for‚ or in relation to"
     },
     "N-DSF-LG": {
         "M": "Noun Dative Singular Feminine Location Gentilic",
         "U": "from a named place: a female PERSON OR THING that something is done for‚ or in relation to"
     },
-    "N-DSF-L": {
-        "M": "Noun Dative Singular Feminine Location",
-        "U": "a female LOCATION that something is done for‚ or in relation to"
-    },
     "N-DSF-P": {
         "M": "Noun Dative Singular Feminine Individual",
         "U": "a female PERSON that something is done for‚ or in relation to"
+    },
+    "N-DSF-T": {
+        "M": "Noun Dative Singular Feminine",
+        "U": "a proper name of a female PERSON OR THING that something is done for‚ or in relation to"
     },
     "N-DSM": {
         "M": "Noun Dative Singular Masculine",
         "U": "a male PERSON OR THING that something is done for‚ or in relation to"
     },
-    "N-DSM-LG": {
-        "M": "Noun Dative Singular Masculine Location Gentilic",
-        "U": "from a named place: a male PERSON OR THING that something is done for‚ or in relation to"
-    },
     "N-DSM-L": {
         "M": "Noun Dative Singular Masculine Location",
         "U": "a male LOCATION that something is done for‚ or in relation to"
+    },
+    "N-DSM-LG": {
+        "M": "Noun Dative Singular Masculine Location Gentilic",
+        "U": "from a named place: a male PERSON OR THING that something is done for‚ or in relation to"
     },
     "N-DSM-P": {
         "M": "Noun Dative Singular Masculine Individual",
@@ -1511,13 +1567,13 @@
         "M": "Noun Genitive Plural Feminine",
         "U": "female PEOPLE OR THINGS that something belongs to"
     },
-    "N-GPF-LG": {
-        "M": "Noun Genitive Plural Feminine Location Gentilic",
-        "U": "from a named place: female PEOPLE OR THINGS that something belongs to"
-    },
     "N-GPF-L": {
         "M": "Noun Genitive Plural Feminine Location",
         "U": "female LOCATIONS that something belongs to"
+    },
+    "N-GPF-LG": {
+        "M": "Noun Genitive Plural Feminine Location Gentilic",
+        "U": "from a named place: female PEOPLE OR THINGS that something belongs to"
     },
     "N-GPF-P": {
         "M": "Noun Genitive Plural Feminine Individual",
@@ -1527,21 +1583,21 @@
         "M": "Noun Genitive Plural Masculine",
         "U": "male PEOPLE OR THINGS that something belongs to"
     },
-    "N-GPM-PG": {
-        "M": "Noun Genitive Plural Masculine Person Gentilic",
-        "U": "related to a named person: male PEOPLE OR THINGS that something belongs to"
+    "N-GPM-L": {
+        "M": "Noun Genitive Plural Masculine Location",
+        "U": "male LOCATIONS that something belongs to"
     },
     "N-GPM-LG": {
         "M": "Noun Genitive Plural Masculine Location Gentilic",
         "U": "from a named place: male PEOPLE OR THINGS that something belongs to"
     },
-    "N-GPM-L": {
-        "M": "Noun Genitive Plural Masculine Location",
-        "U": "male LOCATIONS that something belongs to"
-    },
     "N-GPM-P": {
         "M": "Noun Genitive Plural Masculine Individual",
         "U": "male PEOPLE that something belongs to"
+    },
+    "N-GPM-PG": {
+        "M": "Noun Genitive Plural Masculine Person Gentilic",
+        "U": "related to a named person: male PEOPLE OR THINGS that something belongs to"
     },
     "N-GPM-T": {
         "M": "Noun Genitive Plural Masculine Title",
@@ -1563,13 +1619,13 @@
         "M": "Noun Genitive Singular Feminine",
         "U": "a female PERSON OR THING that something belongs to"
     },
-    "N-GSF-LG": {
-        "M": "Noun Genitive Singular Feminine Location Gentilic",
-        "U": "from a named place: a female PERSON OR THING that something belongs to"
-    },
     "N-GSF-L": {
         "M": "Noun Genitive Singular Feminine Location",
         "U": "a female LOCATION that something belongs to"
+    },
+    "N-GSF-LG": {
+        "M": "Noun Genitive Singular Feminine Location Gentilic",
+        "U": "from a named place: a female PERSON OR THING that something belongs to"
     },
     "N-GSF-P": {
         "M": "Noun Genitive Singular Feminine Individual",
@@ -1583,14 +1639,6 @@
         "M": "Noun Genitive Singular Masculine",
         "U": "a male PERSON OR THING that something belongs to"
     },
-    "N-GSM-PG": {
-        "M": "Noun Genitive Singular Masculine Person Gentilic",
-        "U": "related to a named person: a male PERSON OR THING that something belongs to"
-    },
-    "N-GSM-LG": {
-        "M": "Noun Genitive Singular Masculine Location Gentilic",
-        "U": "from a named place: a male PERSON OR THING that something belongs to"
-    },
     "N-GSM-G": {
         "M": "Noun Genitive Singular Masculine Gentilic",
         "U": "a member of a named group: a male PERSON OR THING that something belongs to"
@@ -1599,9 +1647,17 @@
         "M": "Noun Genitive Singular Masculine Location",
         "U": "a male LOCATION that something belongs to"
     },
+    "N-GSM-LG": {
+        "M": "Noun Genitive Singular Masculine Location Gentilic",
+        "U": "from a named place: a male PERSON OR THING that something belongs to"
+    },
     "N-GSM-P": {
         "M": "Noun Genitive Singular Masculine Individual",
         "U": "a male PERSON that something belongs to"
+    },
+    "N-GSM-PG": {
+        "M": "Noun Genitive Singular Masculine Person Gentilic",
+        "U": "related to a named person: a male PERSON OR THING that something belongs to"
     },
     "N-GSM-T": {
         "M": "Noun Genitive Singular Masculine Title",
@@ -1611,13 +1667,13 @@
         "M": "Noun Genitive Singular Neuter",
         "U": "a neuter PERSON OR THING that something belongs to"
     },
-    "N-GSN-L": {
-        "M": "Noun Genitive Singular Neuter Location",
-        "U": "a neuter LOCATION that something belongs to"
-    },
     "N-GSN-HEB": {
         "M": "Noun Transcribed from Hebrew Genitive Singular Neuter",
         "U": "a neuter PERSON OR THING that something belongs to"
+    },
+    "N-GSN-L": {
+        "M": "Noun Genitive Singular Neuter Location",
+        "U": "a neuter LOCATION that something belongs to"
     },
     "N-GSN-P": {
         "M": "Noun Genitive Singular Neuter Individual",
@@ -1635,25 +1691,25 @@
         "M": "Noun Nominative Plural Masculine",
         "U": "male PEOPLE OR THINGS that are doing something"
     },
-    "N-NPM-PG": {
-        "M": "Noun Nominative Plural Masculine Person Gentilic",
-        "U": "related to a named person: male PEOPLE OR THINGS that are doing something"
-    },
-    "N-NPM-LG": {
-        "M": "Noun Nominative Plural Masculine Location Gentilic",
-        "U": "from a named place: male PEOPLE OR THINGS that are doing something"
+    "N-NPM-G": {
+        "M": "Noun Nominative Plural Masculine Gentilic",
+        "U": "a member of a named group: male PEOPLE OR THINGS that are doing something"
     },
     "N-NPM-L": {
         "M": "Noun Nominative Plural Masculine Location",
         "U": "male LOCATIONS that are doing something"
     },
-    "N-NPM-G": {
-        "M": "Noun Nominative Plural Masculine Gentilic",
-        "U": "a member of a named group: male PEOPLE OR THINGS that are doing something"
+    "N-NPM-LG": {
+        "M": "Noun Nominative Plural Masculine Location Gentilic",
+        "U": "from a named place: male PEOPLE OR THINGS that are doing something"
     },
     "N-NPM-P": {
         "M": "Noun Nominative Plural Masculine Individual",
         "U": "male PEOPLE that are doing something"
+    },
+    "N-NPM-PG": {
+        "M": "Noun Nominative Plural Masculine Person Gentilic",
+        "U": "related to a named person: male PEOPLE OR THINGS that are doing something"
     },
     "N-NPM-T": {
         "M": "Noun Nominative Plural Masculine Title",
@@ -1663,10 +1719,6 @@
         "M": "Noun Nominative Plural Neuter",
         "U": "neuter PEOPLE OR THINGS that are doing something"
     },
-    "N-NPN-T": {
-        "M": "Noun Nominative Plural Neuter Title",
-        "U": "a proper name of neuter PEOPLE OR THINGS that are doing something"
-    },
     "N-NPN-L": {
         "M": "Noun Nominative Plural Neuter Location",
         "U": "neuter LOCATIONS that are doing something"
@@ -1675,21 +1727,21 @@
         "M": "Noun Nominative Plural Neuter Individual",
         "U": "neuter PEOPLE that are doing something"
     },
+    "N-NPN-T": {
+        "M": "Noun Nominative Plural Neuter Title",
+        "U": "a proper name of neuter PEOPLE OR THINGS that are doing something"
+    },
     "N-NSF": {
         "M": "Noun Nominative Singular Feminine",
         "U": "a female PERSON OR THING that is doing something"
     },
-    "N-NSF-T": {
-        "M": "Noun Nominative Singular Feminine Title",
-        "U": "a proper name of a female PERSON OR THING that is doing something"
+    "N-NSF-L": {
+        "M": "Noun Nominative Singular Feminine Location",
+        "U": "a female LOCATION that is doing something"
     },
     "N-NSF-LG": {
         "M": "Noun Nominative Singular Feminine Location Gentilic",
         "U": "from a named place: a female PERSON OR THING that is doing something"
-    },
-    "N-NSF-L": {
-        "M": "Noun Nominative Singular Feminine Location",
-        "U": "a female LOCATION that is doing something"
     },
     "N-NSF-P": {
         "M": "Noun Nominative Singular Feminine Individual",
@@ -1699,17 +1751,13 @@
         "M": "Noun Nominative Singular Feminine Superlative",
         "U": "a female PERSON OR THING that is doing something"
     },
+    "N-NSF-T": {
+        "M": "Noun Nominative Singular Feminine Title",
+        "U": "a proper name of a female PERSON OR THING that is doing something"
+    },
     "N-NSM": {
         "M": "Noun Nominative Singular Masculine",
         "U": "a male PERSON OR THING that is doing something"
-    },
-    "N-NSM-PG": {
-        "M": "Noun Nominative Singular Masculine Person Gentilic",
-        "U": "related to a named person: a male PERSON OR THING that is doing something"
-    },
-    "N-NSM-LG": {
-        "M": "Noun Nominative Singular Masculine Location Gentilic",
-        "U": "from a named place: a male PERSON OR THING that is doing something"
     },
     "N-NSM-ARAM": {
         "M": "Noun Transcribed from Aramaic Nominative Singular Masculine",
@@ -1723,9 +1771,17 @@
         "M": "Noun Nominative Singular Masculine Location",
         "U": "a male LOCATION that is doing something"
     },
+    "N-NSM-LG": {
+        "M": "Noun Nominative Singular Masculine Location Gentilic",
+        "U": "from a named place: a male PERSON OR THING that is doing something"
+    },
     "N-NSM-P": {
         "M": "Noun Nominative Singular Masculine Individual",
         "U": "a PERSON"
+    },
+    "N-NSM-PG": {
+        "M": "Noun Nominative Singular Masculine Person Gentilic",
+        "U": "related to a named person: a male PERSON OR THING that is doing something"
     },
     "N-NSM-T": {
         "M": "Noun Nominative Singular Masculine Title",
@@ -1739,9 +1795,9 @@
         "M": "Noun Nominative Singular Neuter",
         "U": "a neuter PERSON OR THING that is doing something"
     },
-    "N-NSN-T": {
-        "M": "Noun Nominative Singular Neuter Title",
-        "U": "a proper name of a neuter PERSON OR THING that is doing something"
+    "N-NSN-C": {
+        "M": "Noun Nominative Singular Neuter Contracted form",
+        "U": "a neuter PERSON OR THING that is doing something"
     },
     "N-NSN-L": {
         "M": "Noun Nominative Singular Neuter Location",
@@ -1751,13 +1807,13 @@
         "M": "Noun Indeclinable Letter Nominative Singular Neuter",
         "U": "a neuter PERSON OR THING that is doing something"
     },
-    "N-NSN-C": {
-        "M": "Noun Nominative Singular Neuter Contracted form",
-        "U": "a neuter PERSON OR THING that is doing something"
-    },
     "N-NSN-P": {
         "M": "Noun Nominative Singular Neuter Individual",
         "U": "a neuter PERSON that is doing something"
+    },
+    "N-NSN-T": {
+        "M": "Noun Nominative Singular Neuter Title",
+        "U": "a proper name of a neuter PERSON OR THING that is doing something"
     },
     "N-OI": {
         "M": "Indeclinable Noun of Other type",
@@ -1767,15 +1823,15 @@
         "M": "Indeclinable Proper Noun",
         "U": "a name"
     },
+    "NUI": {
+        "M": "Adjective Indeclinable Numeral",
+        "U": "describing a number"
+    },
     "N-VPF": {
         "M": "Noun Vocative Plural Feminine",
         "U": "female PEOPLE OR THINGS that are being addressed"
     },
     "N-VPM": {
-        "M": "Noun Vocative Plural Masculine",
-        "U": "male PEOPLE OR THINGS that are being addressed"
-    },
-    "N-VPM-PG": {
         "M": "Noun Vocative Plural Masculine",
         "U": "male PEOPLE OR THINGS that are being addressed"
     },
@@ -1786,6 +1842,10 @@
     "N-VPM-P": {
         "M": "Noun Vocative Plural Masculine",
         "U": "male PEOPLE that are being addressed"
+    },
+    "N-VPM-PG": {
+        "M": "Noun Vocative Plural Masculine",
+        "U": "male PEOPLE OR THINGS that are being addressed"
     },
     "N-VPM-T": {
         "M": "Noun Vocative Plural Masculine",
@@ -1827,16 +1887,20 @@
         "M": "Noun Vocative Singular Masculine",
         "U": "a male PERSON that is being addressed"
     },
+    "N-VSM-P-ARAM": {
+        "M": "Noun Vocative Singular Masculine Name Transcribed from Aramaic",
+        "U": "a male PERSON that is being addressed"
+    },
     "N-VSM-T": {
         "M": "Noun Vocative Singular Masculine",
         "U": "a proper name of a male PERSON OR THING that is being addressed"
     },
-    "N-VSM-T-HEB": {
-        "M": "Noun Vocative Singular Masculine  Transcribed from Hebrew",
-        "U": "a male PERSON OR THING that is being addressed"
-    },
     "N-VSM-T-ARAM": {
         "M": "Noun Vocative Singular Masculine  Transcribed from Aramaic",
+        "U": "a male PERSON OR THING that is being addressed"
+    },
+    "N-VSM-T-HEB": {
+        "M": "Noun Vocative Singular Masculine  Transcribed from Hebrew",
         "U": "a male PERSON OR THING that is being addressed"
     },
     "N-VSN": {
@@ -2223,10 +2287,6 @@
         "M": "Posessive pronoun 1st Plural Accusative Singular Neuter",
         "U": "a reference to POSSESSORS of something who is neuter people or things that is speaking or writing that is having something done to them"
     },
-    "S-1SASN": {
-        "M": "Posessive pronoun 1st Singular Accusative Singular Neuter",
-        "U": "a reference to a POSSESSOR of something who is neuter people or things that is speaking or writing that is having something done to them"
-    },
     "S-1PDPF": {
         "M": "Posessive pronoun 1st Plural Dative Plural Feminine",
         "U": "a reference to POSSESSORS of something that are female people or things that are speaking or writing that something is done for‚ or in relation to"
@@ -2243,13 +2303,13 @@
         "M": "Posessive pronoun 1st Plural Genitive Plural Feminine",
         "U": "a reference to POSSESSORS of something that are female people or things that are speaking or writing that something belongs to"
     },
-    "S-1PGSF": {
-        "M": "Posessive pronoun 1st Singular Genitive Singular Feminine",
-        "U": "a reference to a POSSESSOR of something that are female people or things that are speaking or writing that something belongs to"
-    },
     "S-1PGPN": {
         "M": "Posessive pronoun 1st Plural Genitive Plural Neuter",
         "U": "a reference to POSSESSORS of something that are neuter people or things that are speaking or writing that something belongs to"
+    },
+    "S-1PGSF": {
+        "M": "Posessive pronoun 1st Singular Genitive Singular Feminine",
+        "U": "a reference to a POSSESSOR of something that are female people or things that are speaking or writing that something belongs to"
     },
     "S-1PNPF": {
         "M": "Posessive pronoun 1st Plural Nominative Plural Feminine",
@@ -2286,6 +2346,10 @@
     "S-1SASM": {
         "M": "Posessive pronoun 1st Singular Accusative Singular Masculine",
         "U": "a reference to a POSSESSOR of something who is a male person or thing that is speaking or writing that is having something done to them"
+    },
+    "S-1SASN": {
+        "M": "Posessive pronoun 1st Singular Accusative Singular Neuter",
+        "U": "a reference to a POSSESSOR of something who is neuter people or things that is speaking or writing that is having something done to them"
     },
     "S-1SDPN": {
         "M": "Posessive pronoun 1st Singular Dative Plural Neuter",
@@ -2568,7 +2632,7 @@
         "U": "an ACTION that happened - by people or things being discussed"
     },
     "V-2AAI-3P-ATT": {
-        "M": "Verb 2nd Aorist Active Indicative 3rd Plural Attic form",
+        "M": "Verb 2nd Aorist Active Indicative 3rd Plural Attic Greek form",
         "U": "an ACTION that happened - by people or things being discussed"
     },
     "V-2AAI-3S": {
@@ -2588,7 +2652,7 @@
         "U": "an ACTION that certainly should or must happen - by a person being spoken or written to"
     },
     "V-2AAM-2S-ATT": {
-        "M": "Verb 2nd Aorist Active Imperative 2nd Singular Attic form",
+        "M": "Verb 2nd Aorist Active Imperative 2nd Singular Attic Greek form",
         "U": "an ACTION that certainly should or must happen - by a person being spoken or written to"
     },
     "V-2AAM-3P": {
@@ -3135,12 +3199,12 @@
         "M": "Verb 2nd Aorist indefinite voice Subjunctive 2nd Plural",
         "U": "an ACTION that maybe happened - by persons being spoken or written to"
     },
-    "V-2FAI-3S": {
-        "M": "Verb 2nd Future Active Indicative 3rd Singular",
-        "U": "an ACTION that will happen - by a person or thing being discussed"
-    },
     "V-2FAI-1S": {
         "M": "Verb 2nd Future Active Indicative 1st Singular",
+        "U": "an ACTION that will happen - by a person or thing being discussed"
+    },
+    "V-2FAI-3S": {
+        "M": "Verb 2nd Future Active Indicative 3rd Singular",
         "U": "an ACTION that will happen - by a person or thing being discussed"
     },
     "V-2FDI-1S": {
@@ -3207,12 +3271,12 @@
         "M": "Verb Pluperfect Active Indicative 2nd Singular",
         "U": "an ACTION that had happened - by a person being spoken or written to"
     },
-    "V-2LAI-3P-ATT": {
-        "M": "Verb Pluperfect Active Indicative 3rd Plural Attic form",
-        "U": "an ACTION that had happened - by people or things being discussed"
-    },
     "V-2LAI-3P": {
         "M": "Verb 2nd Pluperfect Active Indicative 3rd Plural",
+        "U": "an ACTION that had happened - by people or things being discussed"
+    },
+    "V-2LAI-3P-ATT": {
+        "M": "Verb Pluperfect Active Indicative 3rd Plural Attic Greek form",
         "U": "an ACTION that had happened - by people or things being discussed"
     },
     "V-2LAI-3S": {
@@ -3227,12 +3291,16 @@
         "M": "Verb Present Active Infinitive",
         "U": "an ACTION that is to happen"
     },
+    "V-2PAP-NSM": {
+        "M": "Verb 2nd Present Active Participle Nominative Singular Masculine",
+        "U": "an ACTION that is happening - done by a male person or thing that is doing something"
+    },
     "V-2RAI-1P": {
         "M": "Verb 2nd Perfect Active Indicative 1st Plural",
         "U": "an ACTION that has happened - by people or things that are speaking or writing"
     },
     "V-2RAI-1P-ATT": {
-        "M": "Verb 2nd Perfect Active Indicative 1st Plural Attic form",
+        "M": "Verb 2nd Perfect Active Indicative 1st Plural Attic Greek form",
         "U": "an ACTION that has happened - by people or things that are speaking or writing"
     },
     "V-2RAI-1S": {
@@ -3244,7 +3312,7 @@
         "U": "an ACTION that has happened - by persons being spoken or written to"
     },
     "V-2RAI-2P-ATT": {
-        "M": "Verb 2nd Perfect Active Indicative 2nd Plural Attic form",
+        "M": "Verb 2nd Perfect Active Indicative 2nd Plural Attic Greek form",
         "U": "an ACTION that has happened - by persons being spoken or written to"
     },
     "V-2RAI-2S": {
@@ -3256,7 +3324,7 @@
         "U": "an ACTION that has happened - by people or things being discussed"
     },
     "V-2RAI-3P-ATT": {
-        "M": "Verb 2nd Perfect Active Indicative 3rd Plural Attic form",
+        "M": "Verb 2nd Perfect Active Indicative 3rd Plural Attic Greek form",
         "U": "an ACTION that has happened - by people or things being discussed"
     },
     "V-2RAI-3P-C": {
@@ -3268,7 +3336,7 @@
         "U": "an ACTION that has happened - by a person or thing being discussed"
     },
     "V-2RAI-3S-ATT": {
-        "M": "Verb 2nd Perfect Active Indicative 3rd Singular Attic form",
+        "M": "Verb 2nd Perfect Active Indicative 3rd Singular Attic Greek form",
         "U": "an ACTION that has happened - by a person or thing being discussed"
     },
     "V-2RAN": {
@@ -3284,7 +3352,7 @@
         "U": "an ACTION that was happening - done by male people or things that are having something done to them"
     },
     "V-2RAP-APM-ATT": {
-        "M": "Verb 2nd Perfect Active Participle Accusative Plural Masculine Attic form",
+        "M": "Verb 2nd Perfect Active Participle Accusative Plural Masculine Attic Greek form",
         "U": "an ACTION that was happening - done by male people or things that are having something done to them"
     },
     "V-2RAP-APN": {
@@ -3844,7 +3912,7 @@
         "U": "an ACTION that happened – by people or things that are speaking or writing"
     },
     "V-AOI-1P-ATT": {
-        "M": "Verb Aorist Passive Deponent Indicative 1st Plural Attic form",
+        "M": "Verb Aorist Passive Deponent Indicative 1st Plural Attic Greek form",
         "U": "an ACTION that happened – by people or things that are speaking or writing"
     },
     "V-AOI-1S": {
@@ -3852,7 +3920,7 @@
         "U": "an ACTION that happened – by a person or thing that is speaking or writing"
     },
     "V-AOI-1S-ATT": {
-        "M": "Verb Aorist Passive Deponent Indicative 1st Singular Attic form",
+        "M": "Verb Aorist Passive Deponent Indicative 1st Singular Attic Greek form",
         "U": "an ACTION that happened – by a person or thing that is speaking or writing"
     },
     "V-AOI-2P": {
@@ -3860,7 +3928,7 @@
         "U": "an ACTION that happened – by persons being spoken or written to"
     },
     "V-AOI-2P-ATT": {
-        "M": "Verb Aorist Passive Deponent Indicative 2nd Plural Attic form",
+        "M": "Verb Aorist Passive Deponent Indicative 2nd Plural Attic Greek form",
         "U": "an ACTION that happened – by persons being spoken or written to"
     },
     "V-AOI-3P": {
@@ -3868,7 +3936,7 @@
         "U": "an ACTION that happened – by people or things being discussed"
     },
     "V-AOI-3P-ATT": {
-        "M": "Verb Aorist Passive Deponent Indicative 3rd Plural Attic form",
+        "M": "Verb Aorist Passive Deponent Indicative 3rd Plural Attic Greek form",
         "U": "an ACTION that happened – by people or things being discussed"
     },
     "V-AOI-3S": {
@@ -3876,7 +3944,7 @@
         "U": "an ACTION that happened – by a person or thing being discussed"
     },
     "V-AOI-3S-ATT": {
-        "M": "Verb Aorist Passive Deponent Indicative 3rd Singular Attic form",
+        "M": "Verb Aorist Passive Deponent Indicative 3rd Singular Attic Greek form",
         "U": "an ACTION that happened – by a person or thing being discussed"
     },
     "V-AOM-2P": {
@@ -4176,7 +4244,7 @@
         "U": "an ACTION that will happen - by a person or thing that is speaking or writing"
     },
     "V-FAI-1S-ATT": {
-        "M": "Verb Future Active Indicative 1st Singular Attic form",
+        "M": "Verb Future Active Indicative 1st Singular Attic Greek form",
         "U": "an ACTION that will happen - by a person or thing that is speaking or writing"
     },
     "V-FAI-2P": {
@@ -4192,7 +4260,7 @@
         "U": "an ACTION that will happen - by people or things being discussed"
     },
     "V-FAI-3P-ATT": {
-        "M": "Verb Future Active Indicative 3rd Plural Attic form",
+        "M": "Verb Future Active Indicative 3rd Plural Attic Greek form",
         "U": "an ACTION that will happen - by people or things being discussed"
     },
     "V-FAI-3S": {
@@ -4200,7 +4268,7 @@
         "U": "an ACTION that will happen - by a person or thing being discussed"
     },
     "V-FAI-3S-ATT": {
-        "M": "Verb Future Active Indicative 3rd Singular Attic form",
+        "M": "Verb Future Active Indicative 3rd Singular Attic Greek form",
         "U": "an ACTION that will happen - by a person or thing being discussed"
     },
     "V-FAN": {
@@ -4260,7 +4328,7 @@
         "U": "an ACTION that will happen - by persons being spoken or written to"
     },
     "V-FDI-2P-ATT": {
-        "M": "Verb Future Middle Deponent Indicative 2nd Plural Attic form",
+        "M": "Verb Future Middle Deponent Indicative 2nd Plural Attic Greek form",
         "U": "an ACTION that will happen - by persons being spoken or written to"
     },
     "V-FDI-2S": {
@@ -4268,7 +4336,7 @@
         "U": "an ACTION that will happen - by a person being spoken or written to"
     },
     "V-FDI-2S-ATT": {
-        "M": "Verb Future Middle Deponent Indicative 2nd Singular Attic form",
+        "M": "Verb Future Middle Deponent Indicative 2nd Singular Attic Greek form",
         "U": "an ACTION that will happen - by a person being spoken or written to"
     },
     "V-FDI-3P": {
@@ -4280,7 +4348,7 @@
         "U": "an ACTION that will happen - by a person or thing being discussed"
     },
     "V-FDI-3S-ATT": {
-        "M": "Verb Future Middle Deponent Indicative 3rd Singular Attic form",
+        "M": "Verb Future Middle Deponent Indicative 3rd Singular Attic Greek form",
         "U": "an ACTION that will happen - by a person or thing being discussed"
     },
     "V-FDN": {
@@ -4444,7 +4512,7 @@
         "U": "an ACTION that was happening - done by people or things being discussed"
     },
     "V-IAI-3P-ATT": {
-        "M": "Verb Imperfect Active Indicative 3rd Plural Attic form",
+        "M": "Verb Imperfect Active Indicative 3rd Plural Attic Greek form",
         "U": "an ACTION that was happening - done by people or things being discussed"
     },
     "V-IAI-3S": {
@@ -4452,7 +4520,7 @@
         "U": "an ACTION that was happening - done by a person or thing being discussed"
     },
     "V-IAI-3S-ATT": {
-        "M": "Verb Imperfect Active Indicative 3rd Singular Attic form",
+        "M": "Verb Imperfect Active Indicative 3rd Singular Attic Greek form",
         "U": "an ACTION that was happening - done by a person or thing being discussed"
     },
     "V-IDI-3P": {
@@ -4460,7 +4528,7 @@
         "U": "an ACTION that was happening - by people or things being discussed"
     },
     "V-IEI-3S": {
-        "M": "Verb Imperfect Either Middle or Passive Indicative 3rd Singular",
+        "M": "Verb Imperfect Middle or Passive Indicative 3rd Singular",
         "U": "an ACTION that was happening to (or for?) a person or thing being discussed"
     },
     "V-IMI-1P": {
@@ -4500,7 +4568,7 @@
         "U": "an ACTION that was happening - by persons being spoken or written to"
     },
     "V-INI-2P-ATT": {
-        "M": "Verb Imperfect Middle or Passive Deponent Indicative 2nd Plural Attic form",
+        "M": "Verb Imperfect Middle or Passive Deponent Indicative 2nd Plural Attic Greek form",
         "U": "an ACTION that was happening - by persons being spoken or written to"
     },
     "V-INI-2S": {
@@ -4512,7 +4580,7 @@
         "U": "an ACTION that was happening - by people or things being discussed"
     },
     "V-INI-3P-ATT": {
-        "M": "Verb Imperfect Middle or Passive Deponent Indicative 3rd Plural Attic form",
+        "M": "Verb Imperfect Middle or Passive Deponent Indicative 3rd Plural Attic Greek form",
         "U": "an ACTION that was happening - by people or things being discussed"
     },
     "V-INI-3S": {
@@ -4520,7 +4588,7 @@
         "U": "an ACTION that was happening - by a person or thing being discussed"
     },
     "V-INI-3S-ATT": {
-        "M": "Verb Imperfect Middle or Passive Deponent Indicative 3rd Singular Attic form",
+        "M": "Verb Imperfect Middle or Passive Deponent Indicative 3rd Singular Attic Greek form",
         "U": "an ACTION that was happening - by a person or thing being discussed"
     },
     "V-IPI-1P": {
@@ -4588,7 +4656,7 @@
         "U": "an ACTION that had happened - by people or things being discussed"
     },
     "V-LAI-3P-ATT": {
-        "M": "Verb Pluperfect Active Indicative 3rd Plural Attic form",
+        "M": "Verb Pluperfect Active Indicative 3rd Plural Attic Greek form",
         "U": "an ACTION that had happened - by people or things being discussed"
     },
     "V-LAI-3S": {
@@ -4596,7 +4664,7 @@
         "U": "an ACTION that had happened - by a person or thing being discussed"
     },
     "V-LAI-3S-ATT": {
-        "M": "Verb Pluperfect Active Indicative 3rd Singular Attic form",
+        "M": "Verb Pluperfect Active Indicative 3rd Singular Attic Greek form",
         "U": "an ACTION that had happened - by a person or thing being discussed"
     },
     "V-LDI-3S": {
@@ -4636,7 +4704,7 @@
         "U": "an ACTION that happens - by people or things being discussed"
     },
     "V-PAI-3P-ATT": {
-        "M": "Verb Present Active Indicative 3rd Plural Attic form",
+        "M": "Verb Present Active Indicative 3rd Plural Attic Greek form",
         "U": "an ACTION that happens - by people or things being discussed"
     },
     "V-PAI-3S": {
@@ -4775,10 +4843,6 @@
         "M": "Verb Present Active Participle Nominative Singular Masculine",
         "U": "an ACTION that is happening - done by a male person or thing that is doing something"
     },
-    "V-2PAP-NSM": {
-        "M": "Verb 2nd Present Active Participle Nominative Singular Masculine",
-        "U": "an ACTION that is happening - done by a male person or thing that is doing something"
-    },
     "V-PAP-NSN": {
         "M": "Verb Present Active Participle Nominative Singular Neuter",
         "U": "an ACTION that is happening - done by a neuter person or thing that is doing something"
@@ -4832,35 +4896,35 @@
         "U": "an ACTION that is happening – done by neuter things that are doing something"
     },
     "V-PEI-1P": {
-        "M": "Verb Present Either Middle or Passive Indicative 1st Plural",
+        "M": "Verb Present Middle or Passive Indicative 1st Plural",
         "U": "an ACTION that happens to (or for?) people or things that are speaking or writing"
     },
     "V-PEI-1S": {
-        "M": "Verb Present Either Middle or Passive Indicative 1st Singular",
+        "M": "Verb Present Middle or Passive Indicative 1st Singular",
         "U": "an ACTION that happens to (or for?) a person or thing that is speaking or writing"
     },
     "V-PEI-2P": {
-        "M": "Verb Present Either Middle or Passive Indicative 2nd Plural",
+        "M": "Verb Present Middle or Passive Indicative 2nd Plural",
         "U": "an ACTION that happens to (or for?) persons being spoken or written to"
     },
     "V-PEI-3P": {
-        "M": "Verb Present Either Middle or Passive Indicative 3rd Plural",
+        "M": "Verb Present Middle or Passive Indicative 3rd Plural",
         "U": "an ACTION that happens to (or for?) people or things being discussed"
     },
     "V-PEI-3S": {
-        "M": "Verb Present Either Middle or Passive Indicative 3rd Singular",
+        "M": "Verb Present Middle or Passive Indicative 3rd Singular",
         "U": "an ACTION that happens to (or for?) a person or thing being discussed"
     },
     "V-PEM-2P": {
-        "M": "Verb Present Either Middle or Passive Imperative 2nd Plural",
+        "M": "Verb Present Middle or Passive Imperative 2nd Plural",
         "U": "an ACTION that certainly happens to (or for?) persons being spoken or written to"
     },
     "V-PEM-2S": {
-        "M": "Verb Present Either Middle or Passive Imperative 2nd Singular",
+        "M": "Verb Present Middle or Passive Imperative 2nd Singular",
         "U": "an ACTION that certainly happens to (or for?) a person being spoken or written to"
     },
     "V-PEN": {
-        "M": "Verb Present Either Middle or Passive Infinitive",
+        "M": "Verb Present Middle or Passive Infinitive",
         "U": "an ACTION that is to be done"
     },
     "V-PEP-ASM": {
@@ -4868,59 +4932,59 @@
         "U": "an action that is done to (or for?) a male person or thing that is doing something‚ or in relation to"
     },
     "V-PEP-DPF": {
-        "M": "Verb Present Either Middle or Passive Participle Dative Plural Feminine",
+        "M": "Verb Present Middle or Passive Participle Dative Plural Feminine",
         "U": "an action that is done to (or for?) female people or things that something is done for‚ or in relation to"
     },
     "V-PEP-DPM": {
-        "M": "Verb Present Either Middle or Passive Participle Dative Plural Masculine",
+        "M": "Verb Present Middle or Passive Participle Dative Plural Masculine",
         "U": "an action that is done to (or for?) male people or things that something is done for‚ or in relation to"
     },
     "V-PEP-DPN": {
-        "M": "Verb Present Either Middle or Passive Participle Dative Plural Neuter",
+        "M": "Verb Present Middle or Passive Participle Dative Plural Neuter",
         "U": "an action that is done to (or for?) neuter things that something is done for‚ or in relation to"
     },
     "V-PEP-DSF": {
-        "M": "Verb Present Either Middle or Passive Participle Dative Singular Feminine",
+        "M": "Verb Present Middle or Passive Participle Dative Singular Feminine",
         "U": "an action that is done to (or for?) a female person or thing that something is done for‚ or in relation to"
     },
     "V-PEP-DSM": {
-        "M": "Verb Present Either Middle or Passive Participle Dative Singular Masculine",
+        "M": "Verb Present Middle or Passive Participle Dative Singular Masculine",
         "U": "an action that is done to (or for?) a male person or thing that something is done for‚ or in relation to"
     },
     "V-PEP-DSN": {
-        "M": "Verb Present Either Middle or Passive Participle Dative Singular Neuter",
+        "M": "Verb Present Middle or Passive Participle Dative Singular Neuter",
         "U": "an action that is done to (or for?) a neuter thing that something is done for‚ or in relation to"
     },
     "V-PEP-GPN": {
-        "M": "Verb Present Either Middle or Passive Participle Genitive Plural Neuter",
+        "M": "Verb Present Middle or Passive Participle Genitive Plural Neuter",
         "U": "an ACTION that is done to (or for?) neuter people or things that something belongs to"
     },
     "V-PEP-GSF": {
-        "M": "Verb Present Either Middle or Passive Participle Genitive Singular Feminine",
+        "M": "Verb Present Middle or Passive Participle Genitive Singular Feminine",
         "U": "an ACTION that is done to (or for?) a female person or thing that something belongs to"
     },
     "V-PEP-GSM": {
-        "M": "Verb Present Either Middle or Passive Participle Genitive Singular Masculine",
+        "M": "Verb Present Middle or Passive Participle Genitive Singular Masculine",
         "U": "an ACTION that is done to (or for?) a male person or thing that something belongs to"
     },
     "V-PEP-GSN": {
-        "M": "Verb Present Either Middle or Passive Participle Genitive Singular Neuter",
+        "M": "Verb Present Middle or Passive Participle Genitive Singular Neuter",
         "U": "an ACTION that is done to (or for?) a neuter thing that something belongs to"
     },
     "V-PEP-NPF": {
-        "M": "Verb Present Either Middle or Passive Participle Nominative Plural Feminine",
+        "M": "Verb Present Middle or Passive Participle Nominative Plural Feminine",
         "U": "an ACTION that is done to (or for?) female people or things that are doing something"
     },
     "V-PEP-NPM": {
-        "M": "Verb Present Either Middle or Passive Participle Nominative Plural Masculine",
+        "M": "Verb Present Middle or Passive Participle Nominative Plural Masculine",
         "U": "an ACTION that is done to (or for?) male people or things that are doing something"
     },
     "V-PEP-NPN": {
-        "M": "Verb Present Either Middle or Passive Participle Nominative Plural Neuter",
+        "M": "Verb Present Middle or Passive Participle Nominative Plural Neuter",
         "U": "an ACTION that is done to (or for?) neuter things that are doing something"
     },
     "V-PEP-NSF": {
-        "M": "Verb Present Either Middle or Passive Participle Nominative Singular Feminine",
+        "M": "Verb Present Middle or Passive Participle Nominative Singular Feminine",
         "U": "an ACTION that is done to (or for?) a female person or thing that is doing something"
     },
     "V-PMI-1P": {
@@ -5104,7 +5168,7 @@
         "U": "an ACTION that happens - by a person being spoken or written to"
     },
     "V-PNI-2S-ATT": {
-        "M": "Verb Present Middle or Passive Deponent Indicative 2nd Singular Attic form",
+        "M": "Verb Present Middle or Passive Deponent Indicative 2nd Singular Attic Greek form",
         "U": "an ACTION that happens - by a person being spoken or written to"
     },
     "V-PNI-2S-C": {
@@ -5652,7 +5716,7 @@
         "U": "an ACTION that has happened - by people or things that are speaking or writing"
     },
     "V-RAI-1P-ATT": {
-        "M": "Verb Perfect Active Indicative 1st Plural Attic form",
+        "M": "Verb Perfect Active Indicative 1st Plural Attic Greek form",
         "U": "an ACTION that has happened - by people or things that are speaking or writing"
     },
     "V-RAI-1S": {
@@ -5660,7 +5724,7 @@
         "U": "an ACTION that has happened - by a person or thing that is speaking or writing"
     },
     "V-RAI-1S-ATT": {
-        "M": "Verb Perfect Active Indicative 1st Singular Attic form",
+        "M": "Verb Perfect Active Indicative 1st Singular Attic Greek form",
         "U": "an ACTION that has happened - by a person or thing that is speaking or writing"
     },
     "V-RAI-2P": {
@@ -5668,7 +5732,7 @@
         "U": "an ACTION that has happened - by persons being spoken or written to"
     },
     "V-RAI-2P-ATT": {
-        "M": "Verb Perfect Active Indicative 2nd Plural Attic form",
+        "M": "Verb Perfect Active Indicative 2nd Plural Attic Greek form",
         "U": "an ACTION that has happened - by persons being spoken or written to"
     },
     "V-RAI-2S": {
@@ -5676,7 +5740,7 @@
         "U": "an ACTION that has happened - by a person being spoken or written to"
     },
     "V-RAI-2S-ATT": {
-        "M": "Verb Perfect Active Indicative 2nd Singular Attic form",
+        "M": "Verb Perfect Active Indicative 2nd Singular Attic Greek form",
         "U": "an ACTION that has happened - by a person being spoken or written to"
     },
     "V-RAI-3P": {
@@ -5684,7 +5748,7 @@
         "U": "an ACTION that has happened - by people or things being discussed"
     },
     "V-RAI-3P-ATT": {
-        "M": "Verb Perfect Active Indicative 3rd Plural Attic form",
+        "M": "Verb Perfect Active Indicative 3rd Plural Attic Greek form",
         "U": "an ACTION that has happened - by people or things being discussed"
     },
     "V-RAI-3S": {
@@ -5692,7 +5756,7 @@
         "U": "an ACTION that has happened - by a person or thing being discussed"
     },
     "V-RAI-3S-ATT": {
-        "M": "Verb Perfect Active Indicative 3rd Singular Attic form",
+        "M": "Verb Perfect Active Indicative 3rd Singular Attic Greek form",
         "U": "an ACTION that has happened - by a person or thing being discussed"
     },
     "V-RAM-2P": {
@@ -5704,7 +5768,7 @@
         "U": "an ACTION that was to happen"
     },
     "V-RAN-ATT": {
-        "M": "Verb Perfect Active Infinitive Attic form",
+        "M": "Verb Perfect Active Infinitive Attic Greek form",
         "U": "an ACTION that was to happen"
     },
     "V-RAP-APF": {
@@ -5780,7 +5844,7 @@
         "U": "an ACTION that was happening - done by a male person or thing that something belongs to"
     },
     "V-RAP-GSN-ATT": {
-        "M": "Verb Perfect Active Participle Genitive Singular Neuter Attic form",
+        "M": "Verb Perfect Active Participle Genitive Singular Neuter Attic Greek form",
         "U": "an ACTION that was happening - done by a neuter person or thing that something belongs to"
     },
     "V-RAP-NPF": {
@@ -5792,7 +5856,7 @@
         "U": "an ACTION that was happening - done by male people or things that are doing something"
     },
     "V-RAP-NPM-ATT": {
-        "M": "Verb Perfect Active Participle Nominative Plural Masculine Attic form",
+        "M": "Verb Perfect Active Participle Nominative Plural Masculine Attic Greek form",
         "U": "an ACTION that was happening - done by male people or things that are doing something"
     },
     "V-RAP-NPM-C": {
@@ -5812,7 +5876,7 @@
         "U": "an ACTION that was happening - done by a male person or thing that is doing something"
     },
     "V-RAP-NSM-ATT": {
-        "M": "Verb Perfect Active Participle Nominative Singular Masculine Attic form",
+        "M": "Verb Perfect Active Participle Nominative Singular Masculine Attic Greek form",
         "U": "an ACTION that was happening - done by a male person or thing that is doing something"
     },
     "V-RAP-NSN": {
@@ -5875,21 +5939,9 @@
         "M": "Verb Perfect Middle Participle Accusative Plural Masculine",
         "U": "an ACTION that was done to or for male people or things that is having something done to them"
     },
-    "V-RMP-DPM": {
-        "M": "1 2 3 4 6 7 8 9",
-        "U": "an ACTION that was done to or for male people or things that is having something done for‚ or in relation to\" ,1243876"
-    },
-    "V-RMP-GPM": {
-        "M": "Verb Perfect Middle Participle Genitive Plural Masculine",
-        "U": "an ACTION that was done by a masculine person or thing that something belongs to"
-    },
     "V-RMP-ASF": {
         "M": "Verb Perfect Middle Participle Accusative Singular Feminine",
         "U": "an ACTION that was done to or for a female person or thing that is having something done to them"
-    },
-    "V-RMP-GSF": {
-        "M": "1 2 3 4 6 7 8 9",
-        "U": "an ACTION that was done to or for a female person or thing that is done for‚ or in relation to\" ,1243876"
     },
     "V-RMP-ASM": {
         "M": "Verb Perfect Middle Participle Accusative Singular Masculine",
@@ -5898,6 +5950,18 @@
     "V-RMP-ASN": {
         "M": "Verb Perfect Middle Participle Accusative Singular Neuter",
         "U": "an ACTION that was done to or for a neuter thing that is having something done to them"
+    },
+    "V-RMP-DPM": {
+        "M": "1 2 3 4 6 7 8 9",
+        "U": "an ACTION that was done to or for male people or things that is having something done for‚ or in relation to\" ,1243876"
+    },
+    "V-RMP-GPM": {
+        "M": "Verb Perfect Middle Participle Genitive Plural Masculine",
+        "U": "an ACTION that was done by a masculine person or thing that something belongs to"
+    },
+    "V-RMP-GSF": {
+        "M": "1 2 3 4 6 7 8 9",
+        "U": "an ACTION that was done to or for a female person or thing that is done for‚ or in relation to\" ,1243876"
     },
     "V-RMP-NPF": {
         "M": "Verb Perfect Middle Participle Nominative Plural Feminine",
@@ -6044,7 +6108,7 @@
         "U": "an ACTION that was done to a neuter person or thing that is having something done to them"
     },
     "V-RPP-ASN-ATT": {
-        "M": "Verb Perfect Passive Participle Accusative Singular Neuter Attic form",
+        "M": "Verb Perfect Passive Participle Accusative Singular Neuter Attic Greek form",
         "U": "an ACTION that was done to a neuter person or thing that is having something done to them"
     },
     "V-RPP-DPF": {
@@ -6120,7 +6184,7 @@
         "U": "an ACTION that was done to a neuter person or thing that is doing something"
     },
     "V-RPP-NSN-ATT": {
-        "M": "Verb Perfect Passive Participle Nominative Singular Neuter Attic form",
+        "M": "Verb Perfect Passive Participle Nominative Singular Neuter Attic Greek form",
         "U": "an ACTION that was done to a neuter person or thing that is doing something"
     },
     "V-RPP-VPM": {

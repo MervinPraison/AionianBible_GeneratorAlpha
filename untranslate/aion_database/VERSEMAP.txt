@@ -635,6 +635,7 @@ Holy-Bible---Latin---Vulgate-Jerome	ECC4-5
 Holy-Bible---Latin---Vulgate-Jerome	ECC6-7
 Holy-Bible---Latin---Vulgate-Jerome	SOL1
 Holy-Bible---Latin---Vulgate-Jerome	SOL5-6
+Holy-Bible---Latin---Vulgate-Jerome	DAN100
 Holy-Bible---Latin---Vulgate-Jerome	HOS13-14
 Holy-Bible---Latin---Vulgate-Jerome	JON1-2
 Holy-Bible---Latin---Vulgate-Jerome	HAG1-2

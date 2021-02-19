@@ -1,9 +1,9 @@
 # File Name: Hebrew_Lexicon_Tyndale.txt
-# File Size: 1254864     
-# File Date: 10/17/2020 12:33:06
+# File Size: 1254822     
+# File Date: 02/15/2021 14:23:07
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: http://resources.AionianBible.org
-# File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2020
+# File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2021
 # File Generator: ABCMS (alpha)
 # File Accuracy: Contact publisher with corrections to file format or content
 # Publisher Name: Nainoia Inc
@@ -75,9 +75,9 @@ H11	אֲבַדּוֹן	a.vad.don	Abaddon	N:N--L	place of destruction, destructio
 H12	אַבְדָ֑ן	av.dan	destruction	H:N-M	destruction
 H13	אׇבְדַן	ov.dan	destruction	H:N-M	destruction
 H14	אָבָה	a.vah	be willing	H:V	to be willing, consent 1a) (Qal) 1a1) to be willing 1a2) to consent, yield to, accept 1a3) to desire
-H15	בָּיַי	a.veh	oh that!	H:N-F	entreat, longing, desire
+H15	אָבִי	a.veh	oh that!	H:N-F	entreat, longing, desire
 H16	אֵ֫בֶה	e.veh	papyrus	H:N-M	reed, papyrus
-H17	אֲבוֹי	a.voy	woe!	H:Intj	Oh, Woe, (exclamation of pain - indicates desire or uneasiness)
+H17	אֲבוֹי	a.voy	pain!	H:Intj	Oh, Woe, (exclamation of pain - indicates desire or uneasiness)
 H18	אֵבוּס	e.vus	crib	H:N-M	crib, manger, feeding trough
 H19	אִבְחָה	iv.chah	slaughter	H:N-F	slaughter, flesh, meat, slaughtered meat
 H20	אֲבַטִּחִים	a.vat.ti.ach	melon	H:N-M	watermelon, Egyptian fruit
@@ -152,7 +152,7 @@ H88	אֹבֹת	o.vot	Oboth	N:N--L	Oboth = "waterskins" undetermined site of an I
 H89	אָגֵא	a.ge	Agee	N:N-M-P	Agee = "I shall increase" father of a warrior of David
 H90	אֲגָג	a.gag	Agag	N:N-M-P	Agag = "I will overtop" king of Amalek, spared by Saul but slain by Samuel
 H91	אֲגָגִי	a.ga.gi	Agagite	N:N--PG	Agagite = "I will overtop" said of Haman, Haman the Agagite
-H92	אֲגֻדָּה	a.gud.dah	troop	H:N-F	band, binding 1a) cords, bands, thongs (metaphorical of slavery) 1b) bunch of hyssop 1c) band of men, troops 1d) vault (of the heavens), firmament (binding earth to the heavens)
+H92	אֲגֻדָּה	a.gud.dah	band	H:N-F	band, binding 1a) cords, bands, thongs (metaphorical of slavery) 1b) bunch of hyssop 1c) band of men, troops 1d) vault (of the heavens), firmament (binding earth to the heavens)
 H93	אֱגוֹז	e.goz	nut	H:N-M	nuts
 H94	אָגוּר	a.gur	Agur	N:N-M-P	Agur = "gathered" son of Jakeh, an author or compiler of Pr 30:1-33
 H95	אֲגוֹרָה	a.go.rah	piece	H:N-F	payment, piece, coin
@@ -190,7 +190,7 @@ H125	אֲדַמְדָּם	a.dam.dam	reddish	H:A	reddish, be reddish
 H126	אַדְמָה	ad.mah	Admah	N:N--L	Admah = "red earth" city in the Siddim valley
 H127	אֲדָמָה	a.da.mah	land	H:N-F	ground, land 1a) ground (as general, tilled, yielding sustenance) 1b) piece of ground, a specific plot of land 1c) earth substance (for building or constructing) 1d) ground as earth's visible surface 1e) land, territory, country 1f) whole inhabited earth 1g) city in Naphtali
 H128	אֲדָמָה	a.da.mah	Adamah	N:N--L	Adamah = "the earth" city in Naphtali
-H129	אֲדָמִי הַנֶּ֫קֶב	a.da.mi	Adami Nekeb	N:N--L	Adami = "man of Adar" a pass or fortified place in Naphtali
+H129	אֲדָמִי	a.da.mi	Adami	N:N--L	Adami = "man of Adar" a pass or fortified place in Naphtali
 H130	אֲדֹמִי	e.do.mi	Edomite	N:N--PG	Edomite
 H131	אֲדֻמִּים	a.dum.mim	Adummim	N:N--L	Adummim = "ruddy one: quieted ones?" pass or ridge of hills, west of Gilgal
 H132	אַדְמוֹנִי	ad.mo.ni	red	H:A	red, ruddy (of Esau as infant)
@@ -581,7 +581,7 @@ H498	אֶלְעוּזַי	el.u.zay	Eluzai	N:N-M-P	Eluzai = "God is my strength" 
 H499	אֶלְעָזָר	el.a.zar	Eleazar	N:N-M-P	Eleazar = "God has helped" 1) the high priest son of Aaron 2) Abinadab's son who cared for the ark 3) the priest who rebuilt and dedicated the restored walls of Jerusalem in time of Ezra 4) one of David's mighty warriors 5) a Levite 6) one of the line of Parosh
 H500	אֶלְעָלֵא	el.a.le	Elealeh	N:N--L	Elealeh = "God is ascending" a Reubenite village near Heshbon (in ruins)
 H501	אֶלְעָשָׂה	el.a.sah	Elasah	N:N-M-P	Elasah or Eleasah = "God has made" 1) a descendant of Judah, son of Helez 2) a priest of Pashur's line with a foreign wife during Ezra's time 3) Shaphan's son, Zedekiah's servant 4) a descendant of Benjamin, son of Rapha, father of Azel
-H502	אָלַף	a.laph	to teach|learn	H:V	to learn 1a) (Qal) to learn 1b) (Piel) to teach
+H502	אָלַף	a.laph	to teach/learn	H:V	to learn 1a) (Qal) to learn 1b) (Piel) to teach
 H503	אָלַף	a.laph	to produce thousands	H:V	v 1) (CLBL) to make thousand-fold, bring forth thousands 2) (TWOT) (Hiphil) producing thousands n m 3)(BDB) chief, chiliarch
 H504	אֶ֫לֶף	e.leph	cattle	H:N-M	cattle, oxen 1a) in farming 1b) as a possession
 H505	אֶ֫לֶף	e.leph	thousand	H:N-M	1) a thousand 1a) as numeral 2) a thousand, company 2a) as a company of men under one leader, troops
@@ -891,7 +891,7 @@ H797	אַשְׁדּוֹדִית	ash.do.dit	language of Ashdod	H:Adv	Ashdodites =
 H798	אַשְׁדּוֹת הַפִּסְגָּה	ash.dot hap.pis.gah	Ashdoth-pisgah	N:N--L	Ashdoth-pisgah = "slopes of Pisgah" the mountains of Pisgah, which include Mt. Nebo
 H799	אֶשְׁדָּת	esh.dat	fiery	H:N-F	fiery law, fire of a law, fire was a law (meaning uncertain)
 H800	אֶשָּׁה	esh.shah	fire	H:N-F	fire
-H801	אִשֶּׁה	ish.shah	burnt offering	H:N-M	burnt-offering, offering made by fire, fire offering
+H801	אִשֶּׁה	ish.shah	food offering	H:N-M	food offering, offering given to God by fire or eaten by priests, sacrificial offering
 H802	אִשָּׁה	ish.shah	woman	H:N-F	woman, wife, female 1a) woman (opposite of man) 1b) wife (woman married to a man) 1c) female (of animals) 1d) each, every (pronoun)
 H803	אָשְׁיָה	a.shu.yah	foundation	H:N-F	buttress, support
 H804	אַשּׁוּר	ash.shur	Asshur	N:N--L/N:N--LG/N:N-M-P	Asshur or Assyria = "a step" n pr m 1) the second son of Shem, eponymous ancestor of the Assyrians 2) the people of Assyria n pr loc 3) the nation, Assyria 4) the land, Assyria or Asshur
@@ -1032,7 +1032,7 @@ H927	בְּהַל	be.hal	to dismay	A:V	1) (Pual) to frighten, alarm, dismay 2) (
 H928	בֶּֽהָלָה	be.ha.lah	dismay	H:N-F	dismay, sudden terror or ruin, alarm
 H929	בְּהֵמָה	be.he.mah	animal	H:N-F	beast, cattle, animal 1a) beasts (coll of all animals) 1b) cattle, livestock (of domestic animals) 1c) wild beasts
 H930	בְּהֵמוֹת	be.he.mot	Behemoth	H:N-M	perhaps an extinct dinosaur 1a) a Diplodocus or Brachiosaurus, exact meaning unknown
-H931	בֹּ֫הֶן	bo.hen	thumb|big toe	H:N-F	thumb, great (big) toe (always used of both together)
+H931	בֹּ֫הֶן	bo.hen	thumb/big toe	H:N-F	thumb, great (big) toe (always used of both together)
 H932	בֹּ֫הַן	bo.han	Bohan	N:N-M-P	Bohan = "thumb" 1) a Reubenite who set a boundary stone between Judah and Benjamin 2) (BDB) a mark of division between Judah and Benjamin
 H933	בֹּ֫הַק	bo.haq	spot	H:N-M	a harmless eruption of the skin, skin spot
 H934	בַּהֶ֫רֶת	bo.he.ret	bright spot	H:N-F	1) white patch of skin, brightness, bright spot (on skin) 2) (CLBL) bright spot, scar, blister, boil 2a) resulting from fire 2b) resulting from inflammation of the skin 2c) possible sign of leprosy
@@ -1173,7 +1173,7 @@ H1065	בְּכִי	be.khi	weeping	H:N-M	a weeping, weeping
 H1066	בֹּכִים	bo.khim	Bochim	N:N--L	Bochim = "weeping" a place near Gilgal (or Bethel), where sons of Israel wept
 H1067	בְּכִירָה	be.khi.rah	firstborn	H:N-F	firstborn daughter, firstborn (of women) 1a) always used of women
 H1068	בְּכִית	be.khit	weeping	H:N-F	weeping
-H1069	בָּכַר	ba.khar	to be|bear firstborn	H:V	to be born first 1a) (Piel) 1a1) to bear early, new fruit 1a2) to give the right of the firstborn 1a2a) to make as firstborn 1a2b) to constitute as firstborn 1b) (Pual) 1b1) to be born a firstling 1b2) to be made a firstling 1c) (Hiphil) one bearing her first child
+H1069	בָּכַר	ba.khar	to be/bear firstborn	H:V	to be born first 1a) (Piel) 1a1) to bear early, new fruit 1a2) to give the right of the firstborn 1a2a) to make as firstborn 1a2b) to constitute as firstborn 1b) (Pual) 1b1) to be born a firstling 1b2) to be made a firstling 1c) (Hiphil) one bearing her first child
 H1070	בֶּכֶר	be.kher	young camel	H:N-M	young camel, dromedary
 H1071	בֶּ֫כֶר	be.kher	Becher	N:N-M-P	Becher = "young camel" 1) a son of Ephraim 2) a son of Benjamin
 H1072	בִּכְרָה	bikh.rah	young camel	H:N-F	a young female camel, young camel, dromedary
@@ -1209,7 +1209,7 @@ H1100	בְּלִיַּ֫עַל	be.liy.ya.al	Belial	H:N-M	worthlessness 1a) worth
 H1101a	בָּלַל	ba.lal	to mix	H:V	to mix, mingle, confuse, confound 1a) (Qal) 1a1) to mingle, confuse 1a2) to mix 1b) (Hithpoel) to mix oneself (among others) 1c) (Hiphil) to fade away
 H1101b	בָּלַל	ba.lal	to feed	H:V	to give provender, feed (animals)
 H1102	בָּלַם	ba.lam	to hold in	H:V	(Qal) to curb, hold in, restrain
-H1103	בָּלַס	ba.las	to gather|tend figs	H:V	(Qal) to gather figs, tend sycamore trees
+H1103	בָּלַס	ba.las	to gather/tend figs	H:V	(Qal) to gather figs, tend sycamore trees
 H1104	בָּלַע	ba.la	to swallow up	H:V	to swallow down, swallow up, engulf, eat up 1a) (Qal) 1a1) to swallow down 1a2) to swallow up, engulf 1b) (Niphal) to be swallowed up 1c) (Piel) 1c1) to swallow 1c2) to swallow up, engulf 1c3) squandering (fig.) 1d) (Pual) to be swallowed up 1e) (Hithpael) to be ended
 H1105	בֶ֫לַע	be.la	swallowing	H:N-M	1) a swallowing, devouring (fig. for ruin) 2) a thing swallowed
 H1106a	בֶּ֫לַע	be.la	Bela	N:N-M-P	Bela = "destruction" n pr m 1) a king of Edom 2) first son of Benjamin 3) a son of Ahaz, a Reubenite
@@ -1227,7 +1227,7 @@ H1115	בִּלְתִּי	bil.ti	lest	H:Neg	subst 1) not, except adv 2) not 3) ex
 H1116	בָּמָה	ba.mah	high place	H:N-F	high place, ridge, height, bamah (technical name for cultic platform) 1a) high place, mountain 1b) high places, battlefields 1c) high places (as places of worship) 1d) funeral mound?
 H1117	בָּמָה	ba.mah	Bamah	N:N--L	Bamah = "high place" a place in Palestine (of places of idolatrous worship)
 H1118	בִּמְהָל	bim.hal	Bimhal	N:N-M-P	Bimhal = "in circumcision: in weakness (by mixture)" a descendant of Asher
-H1119	בְּמוֹ	be.mo	in|at|by	H:Prep	in, at, by
+H1119	בְּמוֹ	be.mo	in/at/by	H:Prep	in, at, by
 H1120	בָּמוֹת	ba.mot	Bamoth	N:N--L	Bamoth = "high places" or "great high place" a town on the river Arnon in Moab
 H1121a	בֵּן	ben	son	H:N-M	son, grandson, child, member of a group 1a) son, male child 1b) grandson 1c) children (pl. - male and female) 1d) youth, young men (pl.) 1e) young (of animals) 1f) sons (as characterisation, i.e. sons of injustice [for un- righteous men] or sons of God [for angels] 1g) people (of a nation) (pl.) 1h) of lifeless things, i.e. sparks, stars, arrows (fig.) 1i) a member of a guild, order, class
 H1121b	בְּנוֹ		Beno	N:N-M-P	Beno = "his son" n pr m the sons of Jaaziah and the sons of Merari by Jaahziah (his son)
@@ -1266,7 +1266,7 @@ H1153	בֵּסַי	be.say	Besai	N:N-M-P	Besai = "my treading" a temple slave (or
 H1154	בֶּסֶר	be.ser	unripe grape	H:N-M	unripe or sour grapes
 H1155	בֹּ֫סֶר	bo.ser	unripe grape	H:N-M	unripe grapes, sour grapes
 H1156	בְּעָא	be.a	to ask	A:V	to ask, seek, request, desire, pray, make petition 1a) (P'al) 1a1) to ask, request 1a2) to seek (for favour)
-H1157	בַּ֫עַד	be.ad	about|through|for	H:Prep	behind, through, round about, on behalf of, away from, about 1a) through (of action) 1b) behind (with verbs of shutting) 1c) about (with verbs of fencing) 1d) on behalf of (metaph. especially with Hithpael)
+H1157	בַּ֫עַד	be.ad	about/through/for	H:Prep	behind, through, round about, on behalf of, away from, about 1a) through (of action) 1b) behind (with verbs of shutting) 1c) about (with verbs of fencing) 1d) on behalf of (metaph. especially with Hithpael)
 H1158	בָּעָה	ba.ah	to enquire	H:V	to seek out, swell, cause to swell, boil up, enquire 1a) (Qal) 1a1) to seek, enquire 1a2) to cause to boil up 1b) (Niphal) 1b1) to be searched out 1b2) to be swelling, bulging, swelling out
 H1159	בָּעוּ	ba.u	petition	A:N-F	1) petition, request 2) prayer (always in Jewish liturgy)
 H1160	בְּעוֹר	be.or	Beor	N:N-M-P	Beor = "burning" 1) father of Balaam 2) father of Bela, king of Edom
@@ -1325,12 +1325,12 @@ H1210	בָּצִיר	ba.tsir	vintage	H:N-M	vintage
 H1211	בָּצָל	be.tsel	onion	H:N-M	onion
 H1212	בְּצַלְאֵל	be.tsal.el	Bezalel	N:N-M-P	Bezaleel = "in the shadow (i.e. protection) of God" 1) son of Uri and grandson of Hur; a skilled Judahite artisan in all works of metal, wood, and stone and one of the architects of the tabernacle 2) an Israelite, one of the sons of Pahath-moab, in the time of Ezra who had taken a strange wife
 H1213	בַּצְלוּת	bats.lut	Bazluth	N:N-M-P	Bazlith or Bazluth = "asking" a head of a family of exiles returning with Zerubbabel
-H1214	בָּצַע	ba.tsa	to cut off|covet	H:V	to cut off, break off, gain by unrighteous violence, get, finish, be covetous, be greedy 1a) (Qal) 1a1) to cut off 1a2) to stop 1a3) to gain wrongfully or by violence 1b) (Piel) 1b1) to cut off, sever 1b2) to finish, complete, accomplish 1b3) to violently make gain of
+H1214	בָּצַע	ba.tsa	to cut off/covet	H:V	to cut off, break off, gain by unrighteous violence, get, finish, be covetous, be greedy 1a) (Qal) 1a1) to cut off 1a2) to stop 1a3) to gain wrongfully or by violence 1b) (Piel) 1b1) to cut off, sever 1b2) to finish, complete, accomplish 1b3) to violently make gain of
 H1215	בֶּ֫צַע	be.tsa	unjust-gain	H:N-M	profit, unjust gain, gain (profit) acquired by violence
 H1216	בָּצֵק	ba.tseq	to swell	H:V	(Qal) to swell, become blistered
 H1217	בָּצֵק	ba.tseq	dough	H:N-M	dough (unleavened)
 H1218	בׇּצְקַת	bots.qat	Bozkath	N:N--L	Bozkath or Boscath = "rocky height" a city in Judah in the lowlands toward the Philistines, home of Josiah's mother
-H1219	בָּצַר	ba.tsar	to gather|restrain|fortify	H:V	to gather, restrain, fence, fortify, make inaccessible, enclose 1a) (Qal) 1a1) to cut off 1a2) fortified, cut off, made inaccessible (pass participle) 1a3) secrets, mysteries, inaccessible things (subst) 1b) (Niphal) to be withheld 1c) (Piel) to fortify
+H1219	בָּצַר	ba.tsar	to gather/restrain/fortify	H:V	to gather, restrain, fence, fortify, make inaccessible, enclose 1a) (Qal) 1a1) to cut off 1a2) fortified, cut off, made inaccessible (pass participle) 1a3) secrets, mysteries, inaccessible things (subst) 1b) (Niphal) to be withheld 1c) (Piel) to fortify
 H1220	בֶּ֫צֶר	be.tser	gold	H:N-M	gold, precious ore, ring-gold
 H1221	בֶּ֫צֶר	be.tser	Bezer	N:N-M-P/N:N--L	Bezer = "gold ore" or "remote fortress" n pr m 1) son of Zophah, one of the heads of the houses of Asher n pr loc 2) a city of refuge in Reuben in the downs on the east of the Jordan
 H1222	בְּצַר	be.tsar	gold	H:N-M	precious ore, gold, ring-gold
@@ -1341,11 +1341,11 @@ H1226	בַּצֹּרֶת	bats.tso.ret	drought	H:N-F	dearth, drought, destitution
 H1227	בַּקְבּוּק	baq.buq	Bakbuk	N:N-M-P	Bakbuk = "bottle" a head of a family of temple-slaves returning from exile with Zerubbabel
 H1228	בַּקְבֻּק	baq.buq	flask	H:N-M	flask, bottle
 H1229	בַּקְבֻּקְיָה	baq.buq.yah	Bakbukiah	N:N-M-P	Bakbukiah = "wasting of Jehovah" a Levite in the time of Nehemiah
-H1230	בַּקְבַּקַּר	baq.baq.qar	Bakbakkar	N:N-M-P	Bakbakkar = "searcher" a Levite, apparently a descendant of Asaph
+H1230	בַּקְבַּקַּר	baq.baq.qar	Bakbakkar	N:N-M-P	Bakbakkar = "se" a Levite, apparently a descendant of Asaph
 H1231	בֻּקִּי	buq.qi	Bukki	N:N-M-P	Bukki = "wasting" 1) son of Abishua and father of Uzzi, fifth from Aaron in the line of the high priests 2) son of Jogli, prince of the tribe of Dan, one of the ten men chosen to apportion the land of Canaan between the tribes
 H1232	בֻּקִּיָּ֫הוּ	buq.qiy.yah	Bukkiah	N:N-M-P	Bukkiah = "Jehovah has emptied" a Kohathite Levite, of the sons of Heman, one of the musicians in the temple
 H1233	בְּקִיעַ	be.qi.a	breach	H:N-M	fissure, breach, cleft
-H1234	בָּקַע	ba.qa	to break up|open	H:V	to split, cleave, break open, divide, break through, rip up, break up, tear 1a) (Qal) 1a1) to cleave, cleave open 1a2) to break through, break into 1b) (Niphal) 1b1) to be cleft, be rent open, be split open 1b2) to be broken into 1c) (Piel) 1c1) to cleave, cut to pieces, rend open 1c2) to break through, break down 1d) (Pual) 1d1) to be ripped open, be torn open 1d2) to be rent 1d3) to be broken into 1e) (Hiphil) 1e1) to break into 1e2) to break through 1f) (Hophal) to be broken into 1g) (Hithpael) to burst (themselves) open, cleave asunder
+H1234	בָּקַע	ba.qa	to break up/open	H:V	to split, cleave, break open, divide, break through, rip up, break up, tear 1a) (Qal) 1a1) to cleave, cleave open 1a2) to break through, break into 1b) (Niphal) 1b1) to be cleft, be rent open, be split open 1b2) to be broken into 1c) (Piel) 1c1) to cleave, cut to pieces, rend open 1c2) to break through, break down 1d) (Pual) 1d1) to be ripped open, be torn open 1d2) to be rent 1d3) to be broken into 1e) (Hiphil) 1e1) to break into 1e2) to break through 1f) (Hophal) to be broken into 1g) (Hithpael) to burst (themselves) open, cleave asunder
 H1235	בֶּ֫קַע	be.qa	bekah	H:N-M	1) half, part also called "shekel of the sanctuary" or "holy shekel" 2) half a shekel (meton) There appears to be at least three different shekels, one of silver, gold and copper. See a Bible Dictionary for a complete treatment of the subject.
 H1236	בִּקְעָא	biq.a	plain	A:N-F	plain
 H1237	בִּקְעָה	biq.ah	valley	H:N-F	1) valley 2) plain, level valley
@@ -1473,7 +1473,7 @@ H1350b	גְּאוּלַי		redemption	H:N	redemption
 H1351	גָּאַל	ga.al	to defile	H:V	to defile, pollute, desecrate 1a) (Niphal) to be defiled, be polluted 1b) (Piel) to pollute, desecrate 1c)(Pual) to be desecrated (of removal from priesthood) 1d) (Hiphil) to pollute, stain 1e) (Hithpael) to defile oneself
 H1352	גֹּ֫אֶל	go.el	defilement	H:N-M	defilement, defiling
 H1353	גְּאֻלָּה	ge.ul.lah	redemption	H:N-F	kindred, redemption, right of redemption, price of redemption 1a) kin, kindred 1b) redemption 1c) right of redemption 1d) price of redemption, redemption price
-H1354	גַּב	gav	back|rim|brow	H:N	convex surface, back 1a) back (of man) 1b) mound (for illicit worship) 1c) boss (convex projection of shield) 1d) bulwarks, breastworks (of arguments-fig.) 1e) brow, eyebrow 1f) rim (of wheel)
+H1354	גַּב	gav	back/rim/brow	H:N	convex surface, back 1a) back (of man) 1b) mound (for illicit worship) 1c) boss (convex projection of shield) 1d) bulwarks, breastworks (of arguments-fig.) 1e) brow, eyebrow 1f) rim (of wheel)
 H1355	גַּב	gav	back	A:N-M	back or side
 H1356a	גֵּב	gev	cistern	H:N-M	pit, trench, ditch,
 H1356b	גֵּב	gev	beam	H:N-M	beam, rafter
@@ -1561,12 +1561,12 @@ H1435	גִּדֵּל	gid.del	Giddel	N:N-M-P	Giddel = "very great" 1) the head of
 H1436a	גְּדַלְיָה	ge.dal.yah	Gedaliah	N:N-M-P	Gedaliah = "Jehovah is great" 1) son of Ahikam, the governor of Judea appointed by Nebuchadnezzar 2) son of Amariah and grandson of Hezekiah 3) a priest of the sons of Jeshua in the time of Ezra
 H1436b	גְּדַלְיָ֫הוּ		Gedaliah	N:N-M-P	Gedaliah = "Jehovah is great" 1) a son of Jeduthun in the time of David 2) governor of Judea 3) son of Pashur, one of the chiefs of Jerusalem in the time of Jeremiah
 H1437	גִּדַּלְתִּי	gid.dal.ti	Giddalti	N:N-M-P	Giddalti = "I make great" one of the sons of Heman, the king's seer
-H1438	גָּדַע	ga.da	to cut down|off	H:V	to cut, hew, chop, cut down, hew down, hew off, cut off, cut in two, shave off 1a) (Qal) to hew, chop in two 1b) (Niphal) to be chopped off, be hewn off 1c) (Piel) to cut off or down in two, hew off or down in two 1d) (Pual) to chop down, hew down
+H1438	גָּדַע	ga.da	to cut down/off	H:V	to cut, hew, chop, cut down, hew down, hew off, cut off, cut in two, shave off 1a) (Qal) to hew, chop in two 1b) (Niphal) to be chopped off, be hewn off 1c) (Piel) to cut off or down in two, hew off or down in two 1d) (Pual) to chop down, hew down
 H1439	גִּדְעוֹן	gid.on	Gideon	N:N-M-P	Gideon = "hewer" youngest son of Joash of the Abiezrites, fifth judge of Israel who led the Israelites against the Midianites
 H1440	גִּדְעֹם	gid.om	Gidom	N:N--L	Gidom = "a cutting down" the place where the Israelites ceased pursuing Benjamin, apparently situated between Gibeah and the cliffs of Rimmon
 H1441	גִּדְעֹנִי	gid.o.ni	Gideoni	N:N-M-P	Gideoni = "my hewer" a Benjamite, father of Abidan
 H1442	גָּדַף	ga.daph	to blaspheme	H:V	to revile men, blaspheme God 1a) (Piel) 1a1) to revile (between men) 1a2) to blaspheme (God)
-H1443	גָּדַר	ga.dar	to wall up|off	H:V	to wall up, wall off, close off, build a wall 1a) (Qal) 1a1) to wall up, shut off 1a2) masons (participle)
+H1443	גָּדַר	ga.dar	to wall up/off	H:V	to wall up, wall off, close off, build a wall 1a) (Qal) 1a1) to wall up, shut off 1a2) masons (participle)
 H1444	גֶּדֶר	ge.der	wall	H:N-M	wall, fence
 H1445	גֶּ֫דֶר	ge.der	Geder	N:N--L	Geder = "wall" one of the Canaanite towns captured in the Promised Land by Joshua and the Israelites
 H1446	גְּדוֹר	ge.dor	Gedor	N:N-M-P/N:N--L	Gedor = "wall" n pr m 1) a son of Penuel 2) a son of Jered 3) a Benjamite of Gibeon n pr loc 4) a town in the mountainous part of Judah a few miles north of Hebron
@@ -1636,7 +1636,7 @@ H1504	גָּזַר	ga.zar	to cut	H:V	to cut, divide, cut down, cut off, cut in t
 H1505	גְּזַר	ge.zar	to determine	A:V	to cut, determine 1a) (P'al) determiner (participle) 1b) (Ithp'al) to be cut out
 H1506	גֶּ֫זֶר	ge.zer	piece	H:N-M	part
 H1507	גֶּ֫זֶר	ge.zer	Gezer	N:N--L	Gazer or Gezer = "portion" a Levitical city on the border of Ephraim
-H1508	גִּזְרָה	giz.rah	cutting|separation	H:N-F	a cutting, polishing, separation 1a) cutting, polishing 1b) separation, separate place
+H1508	גִּזְרָה	giz.rah	cutting/separation	H:N-F	a cutting, polishing, separation 1a) cutting, polishing 1b) separation, separate place
 H1509	גְּזֵרָה	ge.ze.rah	isolation	H:N-F	a separation, a separate place
 H1510	גְּזֵרָה	ge.ze.rah	decree	A:N-F	decree
 H1511	גִּזְרִי	giz.ri	Gezrite	N:N--LG	Gezrites = "a piece: a portion (as cut off)" 1) inhabitants of Gezer Gerizites = "the cutters off" 2) inhabitants of Mt Gerizim?
@@ -1646,7 +1646,7 @@ H1514	גַּ֫חַם	ga.cham	Gaham	N:N-M-P	Gaham = "burning" a son of Abraham's 
 H1515	גַּ֫חַר	ga.char	Gahar	N:N-M-P	Gahar = "hiding place" the head of a family of temple slaves returning from exile with Zerubbabel
 H1516	גַּיְא	gay	valley	H:N	valley, a steep valley, narrow gorge
 H1517	גִּיד	gid	sinew	H:N-M	sinew
-H1518	גִּיחַ	gi.ach	to burst|come out	H:V	to burst forth 1a) (Qal) 1a1) to burst forth 1a2) to draw forth 1a3) to bring forth 1b) (Hiphil) to break forth
+H1518	גִּיחַ	gi.ach	to burst/come out	H:V	to burst forth 1a) (Qal) 1a1) to burst forth 1a2) to draw forth 1a3) to bring forth 1b) (Hiphil) to break forth
 H1519	גִּיחַ	gi.ach	to strive	A:V	(Aphel) to break forth
 H1520	גִּיחַ	gi.ach	Giah	N:N--L	Giah = "to break forth" a place near Gibeon in Benjamin
 H1521	גִּיחוֹן	gi.chon	Gihon	N:N--L	Gihon = "bursting forth" 1) one of the four rivers of the Garden of Eden 2) a spring near Jerusalem where the anointing and proclaiming of Solomon as king took place
@@ -1740,7 +1740,7 @@ H1606	גְּעָרָה	ge.a.rah	rebuke	H:N-F	a rebuke, reproof
 H1607	גָּעַשׁ	ga.ash	to shake	H:V	to shake, quake 1a) (Qal) to shake 1b) (Pual) to be shaken up, convulsed 1c) (Hithpael) to shake back and forth, toss or reel to and fro 1d) (Hithpoel) to reel to and fro
 H1608	גַּ֫עַשׁ	ga.ash	Gaash	N:N--L	Gaash = "quaking" a mountain of Ephraim where Joshua was buried
 H1609	גַּעְתָּם	ga.tam	Gatam	N:N-M-P	Gatam = "a burnt valley" fourth son of Eliphaz and grandson of Esau and one of the dukes of Eliphaz
-H1610	גַּף	gaph	single|height	H:N-M	1) body, self (only in phrase, eg by himself) 2) height, elevation
+H1610	גַּף	gaph	single/height	H:N-M	1) body, self (only in phrase, eg by himself) 2) height, elevation
 H1611	גַּף	gaph	wing	A:N-F	wing (of bird)
 H1612	גֶּ֫פֶן	ge.phen	vine	H:N-M	vine, vine tree 1a) of Israel (fig.) 1b) of stars fading at Jehovah's judgment (metaph.) 1c) of prosperity
 H1613	גֹּ֫פֶר	go.pher	gopher	H:N-M	cypress, gopher, gopher wood 1a) wood of which the ark was made 1b) meaning and exact type unknown
@@ -1772,7 +1772,7 @@ H1637	גֹּ֫רֶן	go.ren	threshing floor	H:N-M	1) threshing-floor 2) (TWOT) b
 H1638	גָּרַס	ga.ras	to break	H:V	to be crushed, be broken 1a) (Qal) to be crushed 1b) (Hiphil) to crush, break (the teeth)
 H1639	גָּרַע	ga.ra	to dimish	H:V	to diminish, restrain, withdraw, abate, keep back, do away, take from, clip 1a) (Qal) 1a1) to diminish 1a2) to restrain 1a3) to withdraw 1b) (Niphal) 1b1) to be withdrawn 1b2) to be restrained 1c) (Piel) to withdraw, draw up
 H1640	גָּרַף	ga.raph	to sweep away	H:V	(Qal) to sweep away, sweep
-H1641	גָּרַר	ga.rar	to drag|chew|saw	H:V	to drag, drag away 1a) (Qal) to drag away 1b) (Niphal) to chew the cud 1c) (Poal) sawn (participle) 1d) (Hithpoel) roaring (participle)
+H1641	גָּרַר	ga.rar	to drag/chew/saw	H:V	to drag, drag away 1a) (Qal) to drag away 1b) (Niphal) to chew the cud 1c) (Poal) sawn (participle) 1d) (Hithpoel) roaring (participle)
 H1642	גְּרָר	ge.rar	Gerar	N:N--L	Gerar = "a lodging place" a Philistine town south of Gaza, modern 'Umm'
 H1643	גֶּ֫רֶשׂ	ge.re.s	crushed grain	H:N-M	a crushing (that which is crushed), grain, grits, groats
 H1644	גָּרַשׁ	ga.rash	to drive out	H:V	to drive out, expel, cast out, drive away, divorce, put away, thrust away, trouble, cast up 1a) (Qal) to thrust out, cast out 1b) (Niphal) to be driven away, be tossed 1c) (Piel) to drive out, drive away 1d) (Pual) to be thrust out
@@ -1942,7 +1942,7 @@ H1799a	דִּכְרוֹן	dikh.ron	record	A:N	record, memorandum
 H1799b	דָּכְרָן		record	A:N	record, memorandum
 H1800	דַּל	dal	poor	H:A	low, poor, weak, thin, one who is low
 H1801	דָּלַג	da.lag	to leap	H:V	to leap 1a) (Qal) to leap 1b) (Piel) to leap, leap over
-H1802	דָּלָה	da.lah	to draw (up|out)	H:V	to draw, dangle 1a) (Qal) 1a1) to draw 1a2) drawing advice (fig.) 1b) (Piel) to draw up
+H1802	דָּלָה	da.lah	to draw (up/out)	H:V	to draw, dangle 1a) (Qal) 1a1) to draw 1a2) drawing advice (fig.) 1b) (Piel) to draw up
 H1803a	דַּלָּה	dal.lah	hair	H:N-F	hair, threads, thrum (threads of warp hanging in loom)
 H1803b	דַּלָּה	dal.lah	poor	H:N-F	poor (usually coll of helpless people) 2)(TWOT) poorest, lowest
 H1804	דָּלַח	da.lach	to trouble	H:V	to stir up, make turbid 1a) (Qal) to stir up, trouble, make turbid
@@ -1955,7 +1955,7 @@ H1810	דִּלְעָן	dil.an	Dilean	N:N--L	Dilean = "gourd" one of the cities i
 H1811	דָּלַף	da.laph	to drip	H:V	to drop, drip 1a) (Qal) 1a1) to leak 1a2) to weep (of tears)
 H1812	דֶּ֫לֶף	de.leph	dripping	H:N-M	a dropping, dripping 1a) of contentious wife (fig.)
 H1813	דַּלְפוֹן	dal.phon	Dalphon	N:N-M-P	Dalphon = "dripping" the second of the 10 sons of Haman
-H1814	דָּלַק	da.laq	to burn|pursue	H:V	to burn, hotly pursue 1a) (Qal) 1a1) to burn 1a2) to hotly pursue 1b) (Hiphil) 1b1) to kindle 1b2) to inflame
+H1814	דָּלַק	da.laq	to burn/pursue	H:V	to burn, hotly pursue 1a) (Qal) 1a1) to burn 1a2) to hotly pursue 1b) (Hiphil) 1b1) to kindle 1b2) to inflame
 H1815	דְּלַק	de.laq	to burn	A:V	(P'al) to burn
 H1816	דַּלֶּ֫קֶת	dal.le.qet	inflammation	H:N-F	inflammation
 H1817a	דָּל		door	H:N-M	door (fig.)
@@ -2014,7 +2014,7 @@ H1865	דְּרוֹר	de.ror	liberty	H:N-M	a flowing, free run, liberty 1a) flowi
 H1866	דְּרוֹר	de.ror	swallow	H:N-F	a swallow, bird
 H1867	דָּֽרְיָ֫וֶשׁ	dar.ya.vesh	Darius	N:N-M-P	Darius = "lord" 1) Darius the Mede, the son of Ahasuerus, king of the Chaldeans, who succeeded to the Babylonian kingdom on the death of Belshazzar; probably the same as "Astyages" the last king of the Medes (538 BC) 2) Darius, the son of Hystaspes, the founder of the Perso-Arian dynasty (521 BC) 3) Darius II or Darius III 3a) Darius II, Nothus (Ochus) was king of Persia during the time of Nehemiah (424/3-405/4 BC). Darius II is the most probable because he is mentioned by Nehemiah and ruled during the time of Nehemiah 3b) Darius III, Codomannus was king of Persia during its last years at the time of Alexander the Great and was his opponent (336-330 BC)
 H1868	דָּֽרְיָ֫וֶשׁ	dar.ya.vesh	Darius	N:N-M-P	Darius = "lord" 1) Darius the Mede, the son of Ahasuerus, king of the Chaldeans, who succeeded to the Babylonian kingdom on the death of Belshazzar; probably the same as "Astyages" the last king of the Medes (538 BC) (same as H1867 (1)) 2) Darius, the son of Hystaspes, the founder of the Perso-Arian dynasty (521 BC) (same as (2)) 3) Darius II or Darius III 3a) Darius II, Nothus (Ochus) was king of Persia during the time of Nehemiah (424/3-405/4 BC). Darius II is the most probable because he is mentioned by Nehemiah and ruled during the time of Nehemiah 3b) Darius III, Codomannus was king of Persia during its last years at the time of Alexander the Great and was his opponent (336-330 BC)
-H1869	דָּרַךְ	da.rakh	to tread	H:V	to tread, bend, lead, march 1a) (Qal) 1a1) to tread, march, march forth 1a2) to tread on, tread upon 1a3) to tread (a press) 1a4) to tread (bend) a bow 1a5) archer, bow-benders (participle) 1b) (Hiphil) 1b1) to tread, tread down 1b2) to tread (bend with the foot) a bow 1b3) to cause to go, lead, march, tread
+H1869	דָּרַךְ	da.rakh	to tread	H:V	to tread, bend, lead, march 1a) (Qal) 1a1) to tread, march, march forth 1a2) to tread on, tread upon 1a3) to tread (a press) 1a4) to tread (bend) a bow 1a5), bow-benders (participle) 1b) (Hiphil) 1b1) to tread, tread down 1b2) to tread (bend with the foot) a bow 1b3) to cause to go, lead, march, tread
 H1870	דֶּ֫רֶךְ	de.rekh	way	H:N-M	way, road, distance, journey, manner 1a) road, way, path 1b) journey 1c) direction 1d) manner, habit, way 1e) of course of life (fig.) 1f) of moral character (fig.)
 H1871	דַּרְכְּמוֹן	dar.ke.mon	drachma	H:N-M	daric, drachma, dram, unit of measure 1a) a gold coin current in Palestine in the period after the return from Babylon; 128 grains (8.32 grams) of gold and 128 grains of silver
 H1872	דְּרַע	de.ra	arm	A:N-F	arm
@@ -2078,8 +2078,8 @@ H1927	הֲדָרָה	ha.da.rah	adornment	H:N-F	adornment, glory 1a) holy adornme
 H1928	הֲדַרְעֶ֫זֶר	ha.dar.e.zer	Hadarezer	N:N-M-P	Hadarezer = "Hadad is help" the king of Syria defeated by David's army
 H1929	הָהּ	hah	alas!	H:Intj	alas!
 H1930	הוֹ	ho	Ah!	H:Intj	alas, ah!
-H1931	הוּא	hu	he|she|it	H:PerP-CS	pron 3p s 1) he, she, it 1a) himself (with emphasis) 1b) resuming subj with emphasis 1c) (with minimum emphasis following predicate) 1d) (anticipating subj) 1e) (emphasising predicate) 1f) that, it (neuter) demons pron 2) that (with article)
-H1932	הוּא	hu	he|she|it	A:PerP-CS	he, she, it 1a) (emphasising and resuming subject) 1b)(anticipating subj) 1c) as demons pron 1d) (relative) 1e) (affirming existence)
+H1931	הוּא	hu	he/she/it	H:PerP-CS	pron 3p s 1) he, she, it 1a) himself (with emphasis) 1b) resuming subj with emphasis 1c) (with minimum emphasis following predicate) 1d) (anticipating subj) 1e) (emphasising predicate) 1f) that, it (neuter) demons pron 2) that (with article)
+H1932	הוּא	hu	he/she/it	A:PerP-CS	he, she, it 1a) (emphasising and resuming subject) 1b)(anticipating subj) 1c) as demons pron 1d) (relative) 1e) (affirming existence)
 H1933a	הָוָא	ha.va	to fall	H:V	Qal) 1a) to fall
 H1933b	הָוָה		to be	H:V	Qal) 1a) to be, become, exist, happen
 H1934	הֲוָא	ha.va	to be	A:V	to come to pass, become, be 1a) (P'al) 1a1) to come to pass 1a2) to come into being, arise, become, come to be 1a2a) to let become known (with participle of knowing) 1a3) to be
@@ -2146,7 +2146,7 @@ H1992	הֵ֫מָּה	hem	they(masc.)	H:DemP	they, these, the same, who
 H1993	הָמָה	ha.mah	to roar	H:V	to murmur, growl, roar, cry aloud, mourn, rage, sound, make noise, tumult, be clamorous, be disquieted, be loud, be moved, be troubled, be in an uproar 1a) (Qal) 1a1) to growl 1a2) to murmur (fig. of a soul in prayer) 1a3) to roar 1a4) to be in a stir, be in a commotion 1a5) to be boisterous, be turbulent
 H1994	הִמּוֹ	him.mo	they	A:DemP	they, them 1a) they (subject) 1b) them (object)
 H1995a	הָמוֹן	ha.mon	crowd	H:N-M	murmur, roar, crowd, abundance, tumult, sound 1a) sound, murmur, rush, roar 1b) tumult, confusion 1c) crowd, multitude 1d) great number, abundance 1e) abundance, wealth
-H1995b	הָמַן		to rage	H:V	to rage, be turbulent
+H1995b	הָמַן		be turbulent	H:V	to rage, be turbulent
 H1996	הֲמוֹן גּוֹג	ha.mon gog	Hamon-gog	N:N--L	Hamon-gog = "multitude of Gog" the name to be given to a valley of graves; ravine or glen, now known as 'the ravine of the passengers', located on the east side of the Dead Sea
 H1997	הֲמוֹנָהֿ	ha.mo.nah	Hamonah	N:N--L	Hamonah = "multitudes" the name of a city to be founded to commemorate the defeat of Gog
 H1998	הֶמְיָה	hem.yah	sound	H:N-F	sound, music (of instruments)
@@ -2160,7 +2160,7 @@ H2005	הֵן	hen	look!	H:Intj	interj 1) behold, lo, though hypothetical part 2) 
 H2006a	הֵן	hen	look!	A:Cond	behold, if, whether
 H2006b	לָהֵן		therefore	A:Conj	therefore
 H2007	הֵנָּה	hen.nah	they(fem.)	H:RelP	they, these, the same, who
-H2008	הֵ֫נָּה	hen.nah	here|thus	H:Adv	here, there, now, hither
+H2008	הֵ֫נָּה	hen.nah	here/thus	H:Adv	here, there, now, hither
 H2009	הִנֵּה	hin.neh	behold	H:Intj	behold, lo, see, if
 H2010	הֲנָחָה	ha.na.chah	holiday	H:N-F	a day of rest, holiday, a giving of rest, holiday making
 H2011	הִנֹּם	hin.nom	Hinnom	N:N--L	Hinnom = "lamentation" a valley (deep and narrow ravine) with steep, rocky sides located southwest of Jerusalem, separating Mount Zion to the north from the 'hill of evil counsel' and the sloping rocky plateau of the 'plain of Rephaim' to the south
@@ -2262,7 +2262,7 @@ H2103	זוּד	zud	be proud	A:V	to act proudly, be presumptuous 1a) (Aphel) to a
 H2104	זוּזִים	zu.zim	Zuzim	N:N--LG	Zuzim = "roving creatures" an ancient people of uncertain origin, perhaps, inhabitants of ancient Ammon east of the Jordan
 H2105	זוֹחֵת	zo.chet	Zoheth	N:N-M-P	Zoheth = "releasing" a son of Ishi of the tribe of Judah
 H2106	זָוִית	za.vit	corner	H:N-F	corner
-H2107	זוּל	zul	to lavish|despise	H:V	1) (Qal) to pour out, lavish 2) (Hiphil) despise
+H2107	זוּל	zul	to lavish/despise	H:V	1) (Qal) to pour out, lavish 2) (Hiphil) despise
 H2108	זוּלָה	zu.lah	exception	H:N-F	1) a removal, a putting away prep 2) except, besides, with the exception of, with removal of conj 3) except that
 H2109a	זוּן	zun	to feed	H:V	to feed 1a) (Hophal) to be well fed
 H2109b	יָזַן		to feed	H:V	(Pual) meaning dubious
@@ -2453,7 +2453,7 @@ H2276	חֶבְרוֹנִי	chev.ro.ni	Hebronite	N:N--LG/N:N-M-P	Hebronites = see
 H2277	חֶבְרִי	chev.ri	Heberites	N:N--PG	Heberites = see Heber descendants of Heber
 H2278	חֲבֶ֫רֶת	cha.ve.ret	consort	H:N-F	companion, wife, consort
 H2279	חֹבֶ֫רֶת	cho.ve.ret	set	H:N-F	1) junction, a thing joined 2) curtain pieces of the tabernacle
-H2280	חָבַשׁ	cha.vash	to saddle|tie	H:V	to tie, bind, bind on, bind up, saddle, restrain, bandage, govern 1a) (Qal) 1a1) to bind, bind on 1a2) to bind up 1b) (Piel) to bind, restrain 1c) (Pual) to be bound up
+H2280	חָבַשׁ	cha.vash	to saddle/tie	H:V	to tie, bind, bind on, bind up, saddle, restrain, bandage, govern 1a) (Qal) 1a1) to bind, bind on 1a2) to bind up 1b) (Piel) to bind, restrain 1c) (Pual) to be bound up
 H2281	חֲבִתִּים	cha.vet	flatbread	H:N-M	flat cakes, bread wafers
 H2282	חַג	chag	feast	H:N-M	festival, feast, festival-gathering, pilgrim-feast 1a) feast 1b) festival sacrifice
 H2283	חָגָּא	cha.ga	terror	H:N-F	terror, a reeling (in terror)
@@ -2487,7 +2487,7 @@ H2306	חֲדִי	cha.di	breast	A:N-M	breast, chest
 H2307	חָדִיד	cha.did	Hadid	N:N--L	Hadid = "sharp" a town in Benjamin
 H2308	חָדַל	cha.dal	to cease	H:V	to stop, cease, desist, forego, cease to be, leave undone, forbear 1a) (Qal) 1a1) to cease, come to an end 1a2) to cease, leave off
 H2309	חֶ֫דֶל	che.del	world	H:N-M	rest, cessation
-H2310	חָדֵל	cha.del	rejected|fleeting	H:A	rejected, forbearing, transient, fleeting, lacking
+H2310	חָדֵל	cha.del	rejected/fleeting	H:A	rejected, forbearing, transient, fleeting, lacking
 H2311	חַדְלָ֑י	chad.lay	Hadlai	N:N-M-P	Hadlai = "rest of God" an Ephraimite
 H2312	חֵ֫דֶק	che.deq	briar	H:N-M	brier, thorn, prick
 H2313	חִדֶּ֫קֶל	chid.de.qel	Tigris	N:N--L	Hiddekel = "rapid" one of the rivers of Eden which coursed east toward Assyria; better known as the Tigris (the LXX equivalent)
@@ -2652,7 +2652,7 @@ H2461	חָלָב	cha.lav	milk	H:N-M	milk, sour milk, cheese 1a) milk 1b) abundan
 H2462	חֶלְבָּה	chel.bah	Helbah	N:N--L	Helbah = "fertile" a town of Asher, probably on the plain of Phoenicia not far from Sidon
 H2463	חֶלְבּוֹן	chel.bon	Helbon	N:N--L	Helbon = "fertile" a town a few miles northwest of Damascus, modern 'Helbon', still noted for its fine grapes
 H2464	חֶלְבְּנָה	chel.be.nah	galbanum	H:N-F	galbanum 1a) a kind of resin or gum, ingredient of the holy incense
-H2465	חֶ֫לֶד	che.led	lifetime|world	H:N-M	age, duration of life, the world
+H2465	חֶ֫לֶד	che.led	lifetime/world	H:N-M	age, duration of life, the world
 H2466	חֵ֫לֶד	che.led	Heled	N:N-M-P	Heled = "transient" son of Baanah, the Netophathite, and one of David's mighty warriors; also spelled 'Heleb' (H2460)
 H2467	חֹ֫לֶד	cho.led	weasel	H:N-M	weasel, mole 1a) perhaps an extinct animal, exact meaning unknown
 H2468	חֻלְדָּה	chul.dah	Huldah	N:N-F-P	Huldah = "weasel" a prophetess in the time of Josiah whom Josiah asked for an authoritative opinion on the book of the law which Hilkiah found
@@ -2680,7 +2680,7 @@ H2488	חֲלִיצָה	cha.li.tsah	spoil	H:N-F	what is stripped off (a person in
 H2489	חֵֽלְכָה	che.le.kah	helpless	H:A	hapless, poor, unfortunate person
 H2490a	חָלַל	cha.lal	to bore	H:V	to wound (fatally), bore through, pierce, bore 1a) (Qal) to pierce 1b) (Pual) to be slain 1c) (Poel) to wound, pierce 1d) (Poal) to be wounded
 H2490b	חָלַל	cha.lal	to play flute	H:V	(Piel) to play the flute or pipe
-H2490c	חָלַל	cha.lal	to profane|begin	H:V	to profane, defile, pollute, desecrate, begin 1a) (Niphal) 1a1) to profane oneself, defile oneself, pollute oneself 1a1a) ritually 1a1b) sexually 1a2) to be polluted, be defiled 1b) (Piel) 1b1) to profane, make common, defile, pollute 1b2) to violate the honour of, dishonour 1b3) to violate (a covenant) 1b4) to treat as common 1c) (Pual) to be profaned (of name of God) 1d) (Hiphil) 1d1) to let be profaned 1d2) to begin 1e) (Hophal) to be begun
+H2490c	חָלַל	cha.lal	to profane/begin	H:V	to profane, defile, pollute, desecrate, begin 1a) (Niphal) 1a1) to profane oneself, defile oneself, pollute oneself 1a1a) ritually 1a1b) sexually 1a2) to be polluted, be defiled 1b) (Piel) 1b1) to profane, make common, defile, pollute 1b2) to violate the honour of, dishonour 1b3) to violate (a covenant) 1b4) to treat as common 1c) (Pual) to be profaned (of name of God) 1d) (Hiphil) 1d1) to let be profaned 1d2) to begin 1e) (Hophal) to be begun
 H2491a	חָלָל	cha.lal	slain	H:N-M	slain, fatally wounded, pierced 1a) pierced, fatally wounded 1b) slain
 H2491b	חָלָל	cha.lal	profaned	H:A	adj (CLBL) profaned 1a) defiled, profaned (by divorce)
 H2492a	חָלַם	cha.lam	be healthy	H:V	to be healthy, be strong 1a) (Qal) to be healthy 1b) (Hiphil) to restore to health
@@ -2902,7 +2902,7 @@ H2683	חֵ֫צֶן	che.tsen	bosom	H:N-M	bosom, bosom of a garment
 H2684	חֹ֫צֶן	cho.tsen	bosom	H:N-M	bosom, lap
 H2685	חֲצַף	cha.tsaph	be hasty	A:V	(Aphel) to be urgent, harsh, show insolence
 H2686a	חָצַץ	cha.tsats	to divide	H:V	to divide 1a) (Qal) to divide 1b) (Piel) to divide 1c) (Pual) to be cut off, be finished
-H2686b	חָצַץ	cha.tsats	to shoot	H:V	2) to shoot arrows 2a) (Piel) archer (participle)
+H2686b	חָצַץ	cha.tsats	to shoot	H:V	2) to shoot arrows 2a) (Piel) (participle)
 H2687	חָצָץ	cha.tsats	gravel	H:N-M	gravel
 H2688	חַצֲצֹן תָּמָר	chats.tson ta.mar	Hazazon-tamar	N:N--L	Hazezon-tamar = "dividing the date-palm" 1) an Amorite city 2) a town situated in the desert Judah; probably Engedi 3) maybe the 'Tamar' of Solomon's day
 H2689	חֲצֹצְרָה	cha.tso.tse.rah	trumpet	H:N-F	trumpet, clarion
@@ -2988,7 +2988,7 @@ H2759	חֲרִישִׁי	cha.ri.shi	scorching	H:A	harsh, hot, sultry, silent (me
 H2760	חָרַךְ	cha.rakh	to roast	H:V	1) (Qal) to set in motion, start 2) (CLBL) to roast
 H2761	חֲרַךְ	cha.rakh	to singe	A:V	(Ithpael) to singe
 H2762	חֲרַכִּים	che.rekh	lattice	H:N-M	lattice, other opening through which one may look
-H2763a	חָרַם	cha.ram	to devote|destroy	H:V	to ban, devote, destroy utterly, completely destroy, dedicate for destruction, exterminate 1a) (Hiphil) 1a1) to prohibit (for common use), ban 1a2) to consecrate, devote, dedicate for destruction 1a3) to exterminate, completely destroy 1b) (Hophal) 1b1) to be put under the ban, be devoted to destruction 1b2) to be devoted, be forfeited 1b3) to be completely destroyed
+H2763a	חָרַם	cha.ram	to devote/destroy	H:V	to ban, devote, destroy utterly, completely destroy, dedicate for destruction, exterminate 1a) (Hiphil) 1a1) to prohibit (for common use), ban 1a2) to consecrate, devote, dedicate for destruction 1a3) to exterminate, completely destroy 1b) (Hophal) 1b1) to be put under the ban, be devoted to destruction 1b2) to be devoted, be forfeited 1b3) to be completely destroyed
 H2763b	חָרַם	cha.ram	to slit	H:V	to split, slit, mutilate (a part of the body) 1a) (Qal) to mutilate 1b) (Hiphil) to divide
 H2764a	חֵ֫רֶם	che.rem	devoted thing	H:N-M	1) a thing devoted, thing dedicated, ban, devotion 2) have been utterly destroyed, (appointed to) utter destruction
 H2764b	חֵ֫רֶם	che.rem	net	H:N-M	a net, thing perforated destruction
@@ -3021,7 +3021,7 @@ H2786	חָרַק	cha.raq	to grind	H:V	(Qal) to gnash, grind (the teeth)
 H2787	חָרַר	cha.rar	to scorch	H:V	to burn, be hot, be scorched, be charred 1a) (Qal) 1a1) to be hot, be scorched 1a2) to burn, be burned 1b) (Niphal) 1b1) to be scorched, be burned 1b2) to burn 1b3) to be dry, be angry 1c) (Pilpel) to cause to burn
 H2788	חָרֵר	cha.rer	parched	H:N-M	dry regions, parched place
 H2789	חֶ֫רֶשׂ	che.re.s	earthenware	H:N-M	earthenware, clay pottery, shard, potsherd, earthen vessel
-H2790a	חָרַשׁ	cha.rash	to plow|plot	H:V	to cut in, plough, engrave, devise 1a) (Qal) 1a1) to cut in, engrave 1a2) to plough 1a3) to devise 1b) (Niphal) to be ploughed 1c) (Hiphil) to plot evil
+H2790a	חָרַשׁ	cha.rash	to plow/plot	H:V	to cut in, plough, engrave, devise 1a) (Qal) 1a1) to cut in, engrave 1a2) to plough 1a3) to devise 1b) (Niphal) to be ploughed 1c) (Hiphil) to plot evil
 H2790b	חָרֵשׁ		be quiet	H:V	to be silent, be dumb, be speechless, be deaf 1a) (Qal) 1a1) to be silent 1a2) to be deaf 1b) (Hiphil) 1b1) to be silent, keep quiet 1b2) to make silent 1b3) to be deaf, show deafness 1c) (Hithpael) to remain silent
 H2791a	חֶ֫רֶשׁ	che.resh	silently	H:Adv	adv silently, secretly
 H2791b	חֶ֫רֶשׁ	che.resh	craftily	H:N-M	magic art, magician
@@ -3196,7 +3196,7 @@ H2949	טִפֻּחִים	tip.puch	tender care	H:N-M	tender care, dandling
 H2950	טָפַל	ta.phal	to smear	H:V	(Qal) to smear, plaster over, stick, glue
 H2951	טִפְסָר	tiph.sar	official	H:N-M	scribe, official, marshal
 H2952	טָפַף	ta.phaph	to mince	H:V	(Qal) to skip, trip, take quick little steps
-H2953	טְפַר	te.phar	nail|claw	A:N-M	fingernail, nail, claw
+H2953	טְפַר	te.phar	nail/claw	A:N-M	fingernail, nail, claw
 H2954	טָפַשׁ	ta.phash	be insensitive	H:V	(Qal) to be gross, be insensitive, be fat
 H2955	טָפַת	ta.phat	Taphath	N:N-F-P	Taphath = "ornament" the daughter of Solomon who was married to Ben-Abinadab
 H2956	טָרַד	ta.rad	to pursue	H:V	to pursue, chase, be continuous 1a) (Qal) dripping (participle)
@@ -3264,7 +3264,7 @@ H3017	יָגוּר	ya.gur	Jagur	N:N--L	Jagur = "he sojourns" a town of Judah, on
 H3018	יְגִיעַ	ye.gi.a	toil	H:N-M	1) toil, work 2) product, produce, acquired property (as a result of work)
 H3019	יָגִיעַ	ya.gi.a	weary	H:A	weary, tired
 H3020	יׇגְלִי	yog.li	Jogli	N:N-M-P	Jogli = "he is exiled" a Danite and father of Bukki who was one of the 12 rulers charged with the conquest of Canaan
-H3021	יָגֵעַ	ya.ga	be weary|toil	H:V	to toil, labour, grow weary, be weary 1a) (Qal) 1a1) to toil, labour 1a2) to grow weary, be weary 1b) (Piel) to weary, make weary, cause to go toilsomely 1c) (Hiphil) to make to toil, make weary, cause to be weary
+H3021	יָגֵעַ	ya.ga	be weary/toil	H:V	to toil, labour, grow weary, be weary 1a) (Qal) 1a1) to toil, labour 1a2) to grow weary, be weary 1b) (Piel) to weary, make weary, cause to go toilsomely 1c) (Hiphil) to make to toil, make weary, cause to be weary
 H3022	יָגָע	ya.ga	toil	H:N-M	earnings, gain (product of labour)
 H3023	יָגֵעַ	ya.ge.a	weary	H:A	weary, wearisome
 H3024	יְגִעָה	ye.gi.ah	weariness	H:N-F	a wearing, a tiring
@@ -3313,13 +3313,13 @@ H3064	יְהוּדִי	ye.hu.di	Jewish	N:N--PG	Jew
 H3065	יְהוּדִי	ye.hu.di	Jehudi	N:N-M-P	Jehudi = "Jew" son of Nethaniah and servant of king Jehoiakim
 H3066	יְהוּדִית	ye.hu.dit	Jewish language	H:A-F	in the Jewish language, in Hebrew
 H3067	יְהוּדִית	ye.hu.dit	Judith	N:N-F-P	Judith = "Jewess" or "praised" the daughter of Beeri the Hittite and wife of Esau
-H3068	יְהֹוָה	ye.ho.vah	YHWH|Lord	N:N--T	Jehovah = "the existing One" the proper name of the one true God 1a) unpronounced except with the vowel pointings of H136
-H3069	יְהֹוִה	ye.ho.vih	YHWH|God	N:N-M-T	Jehovah-used primarily in the combination 'Lord Jehovah' 1a) equal to H3068 but pointed with the vowels of H430
-H3070	יְהֹוָה יִרְאֶה	ye.ho.vah yir.eh	YHWH|Jehovah-jireh	N:N--L	Jehovah-jireh = "Jehovah sees" symbolic name given by Abraham to Mount Moriah in commemoration of the interposition of the angel of Jehovah who prevented the sacrifice of Isaac and provided a substitute
-H3071	יְהֹוָה נִסִּי	ye.ho.vah nis.si	YHWH|Jehovah-nissi	N:N--L	Jehovah-nissi = "Jehovah is my banner" the name given by Moses to the altar which he built in commemoration of the discomfiture of the Amalekites
-H3072	יְהֹוָה צִדְקֵנוּ	ye.ho.vah tsid.qe.nu	YHWH|Yahweh-tsidkenu	N:N-M-P	Jehovah is our righteousness a sacred name symbolically applied to Jerusalem and the Messiah
-H3073	יְהֹוָה שָׁלוֹם	ye.ho.vah sha.lom	YHWH|Yahweh-shalom	N:N--L	Jehovah-shalom = "Jehovah is peace" the name of a sacred altar built by Gideon in Ophrah
-H3074	יְהֹוָה שָׁמָּה	ye.ho.vah sham.mah	YHWH|Yahweh-shammah	N:N--L	Jehovah-shammah = "Jehovah is there" a symbolic name for Jerusalem
+H3068	יְהֹוָה	ye.ho.vah	YHWH/Lord	N:N--T	Jehovah = "the existing One" the proper name of the one true God 1a) unpronounced except with the vowel pointings of H136
+H3069	יְהֹוִה	ye.ho.vih	YHWH/God	N:N-M-T	Jehovah-used primarily in the combination 'Lord Jehovah' 1a) equal to H3068 but pointed with the vowels of H430
+H3070	יְהֹוָה יִרְאֶה	ye.ho.vah yir.eh	YHWH/Jehovah-jireh	N:N--L	Jehovah-jireh = "Jehovah sees" symbolic name given by Abraham to Mount Moriah in commemoration of the interposition of the angel of Jehovah who prevented the sacrifice of Isaac and provided a substitute
+H3071	יְהֹוָה נִסִּי	ye.ho.vah nis.si	YHWH/Jehovah-nissi	N:N--L	Jehovah-nissi = "Jehovah is my banner" the name given by Moses to the altar which he built in commemoration of the discomfiture of the Amalekites
+H3072	יְהֹוָה צִדְקֵנוּ	ye.ho.vah tsid.qe.nu	YHWH/Yahweh-tsidkenu	N:N-M-P	Jehovah is our righteousness a sacred name symbolically applied to Jerusalem and the Messiah
+H3073	יְהֹוָה שָׁלוֹם	ye.ho.vah sha.lom	YHWH/Yahweh-shalom	N:N--L	Jehovah-shalom = "Jehovah is peace" the name of a sacred altar built by Gideon in Ophrah
+H3074	יְהֹוָה שָׁמָּה	ye.ho.vah sham.mah	YHWH/Yahweh-shammah	N:N--L	Jehovah-shammah = "Jehovah is there" a symbolic name for Jerusalem
 H3075	יְהוֹזָבָד	ye.ho.za.vad	Jehozabad	N:N-M-P	Jehozabad = "Jehovah has endowed" 1) son of Shomer, a Moabitish woman, who murdered Joash, king of Judah 2) a Benjamite, captain of 180,000 armed men, in the days of Jehoshaphat 3) a Korhite Levite, 2nd son of Obededom, and one of the porters of the temple and of the storehouse there in the time of David
 H3076	יְהוֹחָנָן	ye.ho.cha.nan	Jehohanan	N:N-M-P	Jehohanan = "Jehovah has graced" 1) a priest during the high priesthood of Joiakim who returned with Zerubbabel 2) a high priest in the time of Ezra 3) a Levite priest who took part in the dedication of the wall in the time of Nehemiah 4) son of Tobiah 5) a Korhite Levite and one of the doorkeepers to the tabernacle in the time of David 6) a captain of Judah under king Jehoshaphat 7) an Ephraimite 8) an Israelite with a foreign wife in the time of Ezra 9) a Jewish captain after the fall of Jerusalem 10) the eldest son of king Josiah 11) a post-exilic prince of the line of David 12) father of Azariah, priest in Solomon's time 13) a Benjamite, one of David's mighty warriors 14) a Gadite, one of David's mighty warriors 15) a returning exile
 H3077	יְהוֹיָדָע	ye.ho.ya.da	Jehoiada	N:N-M-P	Jehoiada = "Jehovah knows" 1) father of Benaiah, David's mighty warrior 2) leader of the priests who joined David at Hebron 3) high priest at the time of Athaliah's usurpation of the throne of Judah; hid Joash, the king's son, for six years and eventually replaced him on the throne of Judah 4) second priest, or sagan, to Seraiah the high priest
@@ -3349,7 +3349,7 @@ H3100	יוֹאֵל	yo.el	Joel	N:N-M-P	Joel = "Jehovah is God" 1) son of Pethuel 
 H3101	יוֹאָשׁ	yo.ash	Joash	N:N-M-P	Joash = "given by the Lord" 1) son of king Ahaziah and the 8th king of Judah 2) son of king Jehoahaz and the 12th king of the northern kingdom of Israel 3) father of Gideon 4) a son of king Ahab 5) a descendant of Shelah the son of Judah; either the son of Shelah or the son of Jokim 6) son of Shemaah of Gibeah who resorted to David at Ziklag
 H3102	יוֹב	yov	Job	N:N-M-P	Job = "persecuted" the 3rd son of Issachar also called 'Jashub'
 H3103	יוֹבָב	yo.vav	Jobab	N:N-M-P	Jobab = "a desert" 1) the last in order of the sons of Joktan, a descendant of Shem 2) one of the kings of Edom 3) the king of Madon, located in northern Canaan, and one of the kings who opposed Joshua during the conquest and who were routed at Meron 4) head of a Benjamite house 5) another Benjamite
-H3104	יוֹבֵל	yo.vel	jubilee|horn	H:N-M	ram, ram's horn, trumpet, cornet 1a) ram (only in combination) 1a1) ram's horn, trumpet 1b) jubilee year (marked by the blowing of cornets) (meton)
+H3104	יוֹבֵל	yo.vel	jubilee/horn	H:N-M	ram, ram's horn, trumpet, cornet 1a) ram (only in combination) 1a1) ram's horn, trumpet 1b) jubilee year (marked by the blowing of cornets) (meton)
 H3105	יוּבַל	yu.val	stream	H:N-M	stream
 H3106	יוּבָ֑ל	yu.val	Jubal	N:N-M-P	Jubal = "stream" the son of Lamech by Adah and the inventor of musical instruments
 H3107	יוֹזָבָד	yo.za.vad	Jozabad	N:N-M-P	Jozabad or Josabad = "Jehovah has endowed" 1) a Korhite Levite, 2nd son of Obededom, and one of the porters of the temple and of the storehouse there in the time of David 2) one of David's mighty warriors 3) another of David's mighty warriors 4) four other priests or Levites
@@ -3615,7 +3615,7 @@ H3359	יְקַמְיָה	ye.qam.yah	Jekamiah	N:N-M-P	Jecamiah or Jekamiah = "Jeh
 H3360	יְקַמְעָם	ye.qam.am	Jekameam	N:N-M-P	Jekameam = "let the people rise" a Levite, the 4th son of Hebron and grandson of Kohath in the time of David
 H3361	יׇקְמְעָם	yoq.me.am	Jokmeam	N:N--L	Jokmeam = "gathered by the people" a city of refuge in Ephraim given to the Kohathite Levites
 H3362	יׇקְנְעָם	yoq.ne.am	Jokneam	N:N--L	Jokneam = "the people lament" a city of Canaan conquered by Joshua and in the territory of Zebulun but allotted to the Merarite Levites and located Mount Carmel
-H3363	יָקַע	ya.qa	to dislocate|hang	H:V	to be dislocated, be alienated 1a) (Qal) to be dislocated, be torn away, be alienated 1b) (Hiphil) 1b1) to execute slowly (by exposure or impalation) 1b2) to hang 1c) (Hophal) to be executed
+H3363	יָקַע	ya.qa	to dislocate/hang	H:V	to be dislocated, be alienated 1a) (Qal) to be dislocated, be torn away, be alienated 1b) (Hiphil) 1b1) to execute slowly (by exposure or impalation) 1b2) to hang 1c) (Hophal) to be executed
 H3364	יָקַץ	ya.qats	to awake	H:V	(Qal) to awake, awaken, become active
 H3365	יָקַר	ya.qar	be precious	H:V	to esteem, be prized, be valuable, be precious, be costly, be appraised 1a) (Qal) 1a1) to be precious, be highly valued, be esteemed, be costly 1a2) to be appraised 1b) (Hiphil) to make something precious
 H3366	יְקָר	ye.qar	preciousness	H:N-M	price, value, preciousness, honour, splendour, pomp 1a) preciousness 1b) price 1c) honour, esteem
@@ -3636,7 +3636,7 @@ H3380	יְרֻבֶּשֶׁת	ye.rub.be.shet	Jerubbesheth	N:N-M-P	Jerubbesheth = 
 H3381	יָרַד	ya.rad	to go down	H:V	to go down, descend, decline, march down, sink down 1a) (Qal) 1a1) to go or come down 1a2) to sink 1a3) to be prostrated 1a4) to come down (of revelation) 1b) (Hiphil) 1b1) to bring down 1b2) to send down 1b3) to take down 1b4) to lay prostrate 1b5) to let down 1c) (Hophal) 1c1) to be brought down 1c2) to be taken down
 H3382	יֶ֫רֶד	ye.red	Jared	N:N-M-P	Jered or Jared = "descent" 1) son of Mahalaleel and father of Enoch in the 4th generation from Seth 2) a descendant of Judah and father of Gedor
 H3383	יַרְדֵּן	yar.den	Jordan	N:N--L	Jordan = "descender" the river of Palestine running from the roots of Anti-Lebanon to the Dead Sea a distance of approx 200 miles (320 km)
-H3384a	יָרָא		to shoot	H:V	to shoot, pour 1a) (Qal) 1a1) to shoot arrows 1b) (Hiphil) 1b1) to shoot at 1b2) part. shooter, archer 1c) to throw water, rain
+H3384a	יָרָא		to shoot	H:V	to shoot, pour 1a) (Qal) 1a1) to shoot arrows 1b) (Hiphil) 1b1) to shoot at 1b2) part. shooter, 1c) to throw water, rain
 H3384b	יָרָה	ya.rah	to show	H:V	to point out, show 1b) to direct, teach, instruct
 H3385	יְרוּאֵל	ye.ru.el	Jeruel	N:N--L	Jeruel = "taught by God" a place in the wilderness of southern Judah
 H3386	יָרוֹחַ	ya.ro.ach	Jaroah	N:N-M-P	Jaroah = "new moon" a chief man of the tribe of Gad
@@ -3892,7 +3892,7 @@ H3623	כְּלוּלָה	ke.lu.lah	betrothal	H:N-F	betrothals, espousals
 H3624	כֶּ֫לַח	ke.lach	vigor	H:N-M	full strength, firm or rugged strength, vigour
 H3625	כֶּ֫לַח	ke.lach	Calah	N:N--L	Calah = "vigour" one of the most ancient cities of Assyria; maybe modern 'Nimrud' located at the confluence of the Tigris and Zab rivers
 H3626	כׇּל־חֹזֶה	kol-cho.zeh	Col-hozeh	N:N-M-P	Col-hozeh = "all-seeing" father of a repairer of Jerusalem's walls during the time of Nehemiah
-H3627	כְּלִי	ke.li	article|utensil	H:N-M	article, vessel, implement, utensil 1a) article, object (general) 1b) utensil, implement, apparatus, vessel 1b1) implement (of hunting or war) 1b2) implement (of music) 1b3) implement, tool (of labour) 1b4) equipment, yoke (of oxen) 1b5) utensils, furniture 1c) vessel, receptacle (general) 1d) vessels (boats) of paper-reed
+H3627	כְּלִי	ke.li	article/utensil	H:N-M	article, vessel, implement, utensil 1a) article, object (general) 1b) utensil, implement, apparatus, vessel 1b1) implement (of hunting or war) 1b2) implement (of music) 1b3) implement, tool (of labour) 1b4) equipment, yoke (of oxen) 1b5) utensils, furniture 1c) vessel, receptacle (general) 1d) vessels (boats) of paper-reed
 H3628	כְּלִיא	ke.li	prison	H:N-M	imprisonment
 H3629	כִּלְיָה	kil.yah	kidney	H:N-F	1) kidneys 1a) of physical organ (lit.) 1b) of seat of emotion and affection (fig.) 1c) of sacrificial animals 2) (TWOT) reins
 H3630	כִּלְיוֹן	kil.yon	Chilion	N:N-M-P	Chilion = "pining" an Ephraimite and son of Elimelech by Naomi and the deceased husband of Ruth (or maybe deceased husband of Orpah)
@@ -4482,7 +4482,7 @@ H4172a	מוֹרָא	mo.ra	fear	H:N-M	fear, reverence, terror 1a) fear, terror 1b
 H4172b	מוֹרָה		fear	H:N-M	appoint terror (i.e. some awe-inspiring exhibition of power)
 H4173	מוֹרַג	mo.rag	threshing sled	H:N-M	thresher, threshing-sledge
 H4174	מוֹרָד	mo.rad	descent	H:N-M	descent, slope, steep place, hanging work, bevelled work 1a) descent 1b) hanging work
-H4175	מוֹרֶה	mo.reh	rain|teacher	H:N-M	1) (early) rain 2) (TWOT) teacher
+H4175	מוֹרֶה	mo.reh	rain/teacher	H:N-M	1) (early) rain 2) (TWOT) teacher
 H4176	מוֹרֶה	mo.reh	Moreh	N:N--L	Moreh = "teacher" 1) the oak tree at Shechem where Abram stopped when he first entered Canaan; close to the mountains of Ebal and Gerizim 2) the hill in the valley of Jezreel at which the Midianites were camped when Gideon attacked them
 H4177	מוֹרָה	mo.rah	razor	H:N-M	razor
 H4178	מוֹרָט	mo.rat	to peel	H:V	(Pual) scoured, polished, smooth
@@ -4806,7 +4806,7 @@ H4480a	מִן־	min	from	H:Prep	prep 1) from, out of, on account of, off, on the
 H4480b	מֵן		portion	H:N-M	n.m. 1)portion
 H4481	מִן־	min	from	A:Prep	from, out of, by, by reason of, at, more than 1a) from, out of (of place) 1b) from, by, as a result of, by reason of, at, according to, (of source) 1c) from (of time) 1d) beyond, more than (in comparisons)
 H4482	מֵן	men	string	H:N-M	1) string (of harp) 2) (BDB) portion
-H4483	מְנָה	me.na	to reckon|appoint	A:V	to number, reckon 1a) (P'al) to number 1b) (Pael) to appoint
+H4483	מְנָה	me.na	to reckon/appoint	A:V	to number, reckon 1a) (P'al) to number 1b) (Pael) to appoint
 H4484	מְנֵא	me.ne	mina	A:N-M	(P'al) mina, maneh 1a) a weight or measurement; usually 50 shekels but maybe 60 shekels
 H4485	מַנְגִּינָה	man.gi.nah	mocking	H:N-F	mocking or derisive song
 H4486	מַנְדַּע	man.da	knowledge	A:N-M	knowledge, power of knowing
@@ -5180,7 +5180,7 @@ H4837	מַרְצֶ֫פֶת	mar.tse.phet	pavement	H:N-F	pavement
 H4838	מָרַק	ma.raq	to polish	H:V	to scour, polish 1a) (Qal) to scour, polish 1b) (Pual) to be scoured
 H4839	מָרָק	ma.raq	broth	H:N-M	broth, juice cooked from meat
 H4840	מֶרְקָח	mer.qach	spice	H:N-M	spice, perfume, aromatic spices
-H4841	מֶרְקָחָה	mer.qa.chah	ointment pot|seasoning	H:N-F	1) a seasoning, compounding, spice-seasoning 2) ointment pot
+H4841	מֶרְקָחָה	mer.qa.chah	ointment pot/seasoning	H:N-F	1) a seasoning, compounding, spice-seasoning 2) ointment pot
 H4842	מִרְקַ֫חַת	mir.qa.chat	ointment	H:N-F	1) ointment, mixture of ointment 2) ointment-pot
 H4843	מָרַר	ma.rar	to provoke	H:V	1) to be bitter 1a) (Qal) to be bitter 1b) (Piel) 1b1) to show bitterness 1b2) to make bitter 1c) (Hiphil) to make bitter, embitter 1d) (Hithpalpel) 1d1) to embitter oneself 1d2) to be enraged 2) (TWOT) to be strong, strengthen
 H4844	מָרֹר	me.ror	bitterness	H:N-M	bitter thing, bitter herb, bitterness
@@ -5247,7 +5247,7 @@ H4897	מֶ֫שִׁי	me.shi	silk	H:N-M	a costly material for garment 1a) perhaps
 H4898	מְשֵׁיזַבְאֵל	me.she.zav.el	Meshezabel	N:N-M-P	Meshezabeel = "God delivers" 1) ancestor of Meshullam who assisted Nehemiah in rebuilding the wall of Jerusalem 1a) perhaps the same as 2 and 3 2) a head of the people who sealed the covenant with Nehemiah 2a) perhaps the same as 1 and 3 3) father of Pethahiah and descendant of Zerah the son of Judah 3a) perhaps the same as 1 and 2
 H4899	מָשִׁיחַ	ma.shi.ach	anointed	H:N-M	anointed, anointed one 1a) of the Messiah, Messianic prince 1b) of the king of Israel 1c) of the high priest of Israel 1d) of Cyrus 1e) of the patriarchs as anointed kings
 H4900	מָשַׁךְ	ma.shakh	to draw	H:V	to draw, drag, seize 1a) (Qal) 1a1) to draw (and lift out), drag along, lead along, drag or lead off, draw down 1a2) to draw (the bow) 1a3) to proceed, march 1a4) to draw out or give (a sound) 1a5) to draw out, prolong, continue 1a6) to trail (seed in sowing) 1a7) to cheer, draw, attract, gratify 1b) (Niphal) to be drawn out 1c) (Pual) 1c1) to be drawn out, be postponed, be deferred 1c2) to be tall
-H4901	מֶ֫שֶׁךְ	me.shekh	bag|price	H:N-M	a drawing, drawing up, drawing up a trail 1a) the drawing up, fishing up, securing, acquiring 1b) a trail (of seed)
+H4901	מֶ֫שֶׁךְ	me.shekh	bag/price	H:N-M	a drawing, drawing up, drawing up a trail 1a) the drawing up, fishing up, securing, acquiring 1b) a trail (of seed)
 H4902	מֶ֫שֶׁךְ	me.shekh	Meshech	N:N-M-P	Mesech or Meshech = "drawing out" son of Japheth, grandson of Noah, and progenitor of peoples to the north of Israel 1a) descendants of Mesech often mentioned in connection with Tubal, Magog, and other northern nations including the Moschi, a people on the borders of Colchis and Armenia
 H4903	מִשְׁכַּב	mish.kav	bed	A:N-M	couch, bed
 H4904	מִשְׁכָּב	mish.kav	bed	H:N-M	a lying down, couch, bier, act of lying 1a) couch, bed 1b) act of lying, lying down or sleeping room, bedroom 1c) lying down (for sexual contact)
@@ -5570,7 +5570,7 @@ H5193	נָטַע	na.ta	to plant	H:V	to plant, fasten, fix, establish 1a) (Qal) 1
 H5194	נֶ֫טַע	ne.ta	plantation	H:N-M	plantation, plant, planting 1a) plantation 1b) planting (act of) 1c) plant
 H5195	נָטִיעַ	na.ti.a	plant	H:N-M	plant (fig. of vigorous sons)
 H5196	נְטָעִים	ne.ta.im	Netaim	N:N--L	Netaim = "among plants" a place in Palestine
-H5197	נָטַף	na.taph	to drip|prophesy	H:V	to drop, drip, distil, prophesy, preach, discourse 1a) (Qal) to drop, drip 1b) (Hiphil) 1b1) to drip 1b2) to drop (prophecy)
+H5197	נָטַף	na.taph	to drip/prophesy	H:V	to drop, drip, distil, prophesy, preach, discourse 1a) (Qal) to drop, drip 1b) (Hiphil) 1b1) to drip 1b2) to drop (prophecy)
 H5198a	נָטָף	na.taph	drop	H:N-M	drop
 H5198b	נָטָף	na.taph	gum	H:N-M	gum, drops of stacte 1a) an aromatic gum resin of a shrub used in incense
 H5199	נְטֹפָה	ne.to.phah	Netophah	N:N--L	Netophah = "dropping" a town in Judah resettled by the exiles returning from Babylon with Zerubbabel
@@ -6077,8 +6077,8 @@ H5645	עָב	av	cloud	H:N-M	darkness, cloud, thicket 1a) dark cloud 1b) cloud ma
 H5646	עָב	av	threshold	H:N-M	an architectural term 1a) meaning dubious; perhaps projecting roof, landing, thick beam, plank, threshold
 H5647	עָבַד	a.vad	to serve	H:V	to work, serve 1a) (Qal) 1a1) to labour, work, do work 1a2) to work for another, serve another by labour 1a3) to serve as subjects 1a4) to serve (God) 1a5) to serve (with Levitical service) 1b) (Niphal) 1b1) to be worked, be tilled (of land) 1b2) to make oneself a servant 1c) (Pual) to be worked 1d) (Hiphil) 1d1) to compel to labour or work, cause to labour, cause to serve 1d2) to cause to serve as subjects 1e) (Hophal) to be led or enticed to serve
 H5648	עֲבַד	a.vad	to make	A:V	to make, do 1a)(P'al) 1a1) to make, create 1a2) to do, perform 1b) (Ithp'al) 1b1) to be made into 1b2) to be done, be wrought, be performed, be executed, be carried out
-H5649	עֲבַד	a.vad	servant|slave	A:N-M	servant, slave
-H5650	עֶ֫בֶד	e.ved	servant|slave	H:N-M	slave, servant 1a) slave, servant, man-servant 1b) subjects 1c) servants, worshippers (of God) 1d) servant (in special sense as prophets, Levites etc) 1e) servant (of Israel) 1f) servant (as form of address between equals)
+H5649	עֲבַד	a.vad	servant/slave	A:N-M	servant, slave
+H5650	עֶ֫בֶד	e.ved	servant/slave	H:N-M	slave, servant 1a) slave, servant, man-servant 1b) subjects 1c) servants, worshippers (of God) 1d) servant (in special sense as prophets, Levites etc) 1e) servant (of Israel) 1f) servant (as form of address between equals)
 H5651	עֶ֫בֶד	e.ved	Ebed	N:N-M-P	Ebed = "servant" 1) father of Gaal in the time of the judges 2) son of Jonathan and one of the sons of Adin who returned from exile with Ezra
 H5652	עֲבָד	a.vad	work	H:N-M	work
 H5653	עַבְדָּא	av.da	Abda	N:N-M-P	Abda = "servant of Jehovah" 1) father of Adoniram 2) a Levite, son of Shammua; also called 'Obadiah'
@@ -6139,7 +6139,7 @@ H5705	עַד	ad	till	A:Part	prep 1) even to, until, up to, during conj 2) until,
 H5706	עַד	ad	prey	H:N-M	booty, prey
 H5707	עֵד	ed	witness	H:N-M	witness 1a) witness, testimony, evidence (of things) 1b) witness (of people)
 H5708	עִדָּה	ed	filth	H:N-F	menstruation 1a) filthy rag, stained garment (fig. of best deeds of guilty people)
-H5709	עֲדָה	a.da	to pass on|over|away	A:V	to pass on, pass away 1a)(P'al) 1a1) to pass on, pass over 1a2) to pass away 1b) (Aphel) to take away, remove, depose
+H5709	עֲדָה	a.da	to pass on/over/away	A:V	to pass on, pass away 1a)(P'al) 1a1) to pass on, pass over 1a2) to pass away 1b) (Aphel) to take away, remove, depose
 H5710a	עָדָה	a.dah	to advance	H:V	to pass on, advance, go on, pass by, remove 1a) (Qal) to pass on, put on 1b) (Hiphil) to remove
 H5710b	עָדָה	a.dah	to adorn	H:V	to ornament, deck oneself
 H5711	עָדָה	a.dah	Adah	N:N-F-P	Adah = "ornament" 1) the 1st of the 2 wives of Lamech and mother of Jabal and Jubal 2) a Hittitess, 1 of the 3 wives of Esau and mother of Eliphaz 2a) also called 'Bashemath'
@@ -6509,7 +6509,7 @@ H6035	עָנָו	a.nav	poor	H:N-M	poor, humble, afflicted, meek 1a) poor, needy 
 H6036	עָנוּב	a.nuv	Anub	N:N-M-P	Anub = "confederate" son of Coz, descendant of Judah and Caleb through Ashur, the father of Tekoa
 H6037	עַנְוָה	an.vah	gentleness	H:N-F	humility, meekness 1a) humility, meekness 1b) condescension
 H6038	עֲנָוָה	a.na.vah	humility	H:N-F	humility, meekness
-H6039	עֱנוּת	e.nut	afflicti on	H:N-F	affliction
+H6039	עֱנוּת	e.nut	affliction	H:N-F	affliction
 H6040	עֳנִי	o.ni	affliction	H:N-M	affliction, poverty, misery 1a) affliction 1b) poverty
 H6041	עָנִי	a.ni	afflicted	H:A	poor, afflicted, humble, wretched 1a) poor, needy 1b) poor and weak 1c) poor, weak, afflicted, wretched 1d) humble, lowly
 H6042	עֻנִּי	un.ni	Unni	N:N-M-P	Unni = "afflicted" 1) a Levite doorkeeper in the time of David 2) a Levite concerned in the sacred office after the return from exile in Babylon
@@ -6755,7 +6755,7 @@ H6263	עֲתִיד	a.tid	ready	A:A	ready, prepared
 H6264	עָתִיד	a.tid	ready	H:A	ready, prepared 1a) ready 1b) ready, skilled 1c) prepared, impending 1d) prepared, stored up, treasure
 H6265	עֲתָיָה	a.ta.yah	Athaiah	N:N-M-P	Athaiah = "Jehovah has helped" a descendant of Judah through Perez; dwelt at Jerusalem after the return from exile in Babylon
 H6266	עָתִיק	a.tiq	surpassing	H:A	1) eminent, surpassing, choice, splendid 2) (TWOT) durable
-H6267	עַתִּיק	at.tiq	ancient|taken	H:A	removed, weaned, old, ancient, taken away 1a) removed, weaned 1b) old, ancient
+H6267	עַתִּיק	at.tiq	ancient/taken	H:A	removed, weaned, old, ancient, taken away 1a) removed, weaned 1b) old, ancient
 H6268	עַתִּיק	at.tiq	ancient	A:A	ancient, advanced, aged, old, taken away
 H6269	עֲתָ֑ךְ	a.takh	Athach	N:N--L	Athach = "lodging place" a town in Judah
 H6270	עַתְלַי	at.lay	Athlai	N:N-M-P	Athlai = "whom Jehovah afflicts" one of the sons of Bebai and one who put away his foreign wife in the time of Ezra
@@ -7383,7 +7383,7 @@ H6839	צֹפִים	tso.phim	Zophim	N:N--L	Zophim = "watchers" a spot on or near 
 H6840	צָפִין	tsa.phin	treasure	H:N-M	treasure, a hidden thing
 H6841	צְפִיר	tse.phir	male goat	A:N-M	he-goat
 H6842	צָפִיר	tsa.phir	male goat	H:N-M	he-goat
-H6843	צְפִירָה	tse.phi.rah	diadem|doom	H:N-F	plait, chaplet, wreath, crown 1a) plait, coronet, diadem
+H6843	צְפִירָה	tse.phi.rah	diadem/doom	H:N-F	plait, chaplet, wreath, crown 1a) plait, coronet, diadem
 H6844	צָפִית	tsa.phit	rug	H:N-F	1) rug, carpet 2) (CLBL) watch
 H6845	צָפַן	tsa.phan	to treasure	H:V	to hide, treasure, treasure or store up 1a)(Qal) 1a1) to hide, treasure, treasure up 1a2) to lie hidden, lurk 1b) (Niphal) to be hidden, be stored up 1c) (Hiphil) to hide, hide from discovery
 H6846	צְפַנְיָהוּ	tse.phan.yah	Zephaniah	N:N-M-P	Zephaniah = "Jehovah has treasured" 1) the 9th in order of the 12 minor prophets; descendant of king Hezekiah of Judah and prophet in the time of king Josiah of Judah 2) son of Maaseiah and second priest in the reign of king Zedekiah of Judah; succeeded Jehoiada and an officer of the temple; slain at Riblah on the capture of Jerusalem 3) father of Josiah and Hen in the time of the prophet Zechariah 4) a Levite
@@ -7725,7 +7725,7 @@ H7145	קׇרְחִי	qor.chi	Korahite	N:N--PG	Korahite = "one of Korah" descenda
 H7146	קָרַ֫חַת	qa.ra.chat	baldness	H:N-F	baldness of head, back baldness, bald spot
 H7147	קְרִי	qe.ri	hostility	H:N-M	opposition, contrariness, encounter, contrary or hostile encounter
 H7148	קָרִיא	qa.ri	chosen	H:A	called, summoned, called one
-H7149	קִרְיָה	qir.ya	city	A:N-F	city
+H7149	קִרְיָה	qir.ya	town	A:N-F	city
 H7150	קְרִיאָה	qe.ri.ah	proclamation	H:N-F	proclamation, preaching
 H7151	קִרְיָה	qir.yah	town	H:N-F	city, town 1a) in general 1b) in specific 1c) collective 1d) indefinite
 H7152	קְרִיּוֹת	qe.riy.yot	Kerioth	N:N--L	Kerioth = "cities" 1) a town in the southern district of Judah 2) a city in Moab
@@ -7778,8 +7778,8 @@ H7195	קֶ֫שֶׁר	qe.sher	conspiracy	H:N-M	conspiracy, treason, (unlawful) al
 H7196	קִשֻּׁרִים	qish.shur	sash	H:N-M	bands, sashes, headbands 1a) ornaments that are bound on
 H7197a	קָשַׁשׁ	qa.shash	to gather	H:V	to gather, collect, gather stubble or sticks
 H7197b	קָשַׁשׁ	qa.shash	to assemble	H:V	to gather, assemble 1a) (Qal) to gather together 1b) (Hithpoel) to gather oneself together
-H7198	קֶ֫שֶׁת	qe.shet	bow	H:N-F	bow 1a) bow (for hunting, battle) 1b) bowmen, archers 1c) bow (fig. of might) 1d) rainbow
-H7199	קַשָּׁת	qash.shat	bowman	H:N-M	bowman, archer
+H7198	קֶ֫שֶׁת	qe.shet	bow	H:N-F	bow 1a) bow (for hunting, battle) 1b) bowmen, s 1c) bow (fig. of might) 1d) rainbow
+H7199	קַשָּׁת	qash.shat	bowman	H:N-M	bowman,
 H7200	רָאָה	ra.ah	to see	H:V	to see, look at, inspect, perceive, consider 1a) (Qal) 1a1) to see 1a2) to see, perceive 1a3) to see, have vision 1a4) to look at, see, regard, look after, see after, learn about, observe, watch, look upon, look out, find out 1a5) to see, observe, consider, look at, give attention to, discern, distinguish 1a6) to look at, gaze at 1b) (Niphal) 1b1) to appear, present oneself 1b2) to be seen 1b3) to be visible 1c) (Pual) to be seen 1d) (Hiphil) 1d1) to cause to see, show 1d2) to cause to look intently at, behold, cause to gaze at 1e) (Hophal) 1e1) to be caused to see, be shown 1e2) to be exhibited to 1f) (Hithpael) to look at each other, face
 H7201	רָאָה	ra.ah	glede	H:N-F	bird of prey 1a) perhaps kite or hawk
 H7202	רָאֶה	ra.eh	to see	H:V	(Qal) seeing
@@ -7811,7 +7811,7 @@ H7225	רֵאשִׁית	re.shit	first	H:N-F	first, beginning, best, chief 1a) beg
 H7226	רַאֲשֹׁת	ra.a.shot	head-place	H:N-F	head place, place at the head
 H7227a	רַב	rav	many	H:A	adj much, many, great 1a) much 1b) many 1c) abounding in 1d) more numerous than 1e) abundant, enough 1f) great 1g) strong 1h) greater than adv 1i) much, exceedingly
 H7227b	רַב	rav	chief	H:N-M	captain, chief
-H7228	רַב	rav	archer	H:N-M	archer
+H7228	רַב	rav		H:N-M	
 H7229	רַב	rav	great	A:A	adj 1) great 1a) great 1b) great (fig of power) n 2) captain, chief
 H7230	רֹב	rov	abundance	H:N-M	multitude, abundance, greatness 1a) multitude 1a1) abundance, abundantly 1a2) numerous 1b) greatness
 H7231	רָבַב	ra.vav	to multiply	H:V	1) to be or become many, be or become much, be or become great 1a)(Qal) 1a1) to be or become many 1a2) to be or become great 1a3) to be long (of journey) 2) (Pual) ten thousands
@@ -7882,7 +7882,7 @@ H7290	רָדַם	ra.dam	to sleep	H:V	(Niphal) to be asleep, be unconscious, be i
 H7291	רָדַף	ra.daph	to pursue	H:V	to be behind, follow after, pursue, persecute, run after 1a) (Qal) 1a1) to pursue, put to flight, chase, dog, attend closely upon 1a2) to persecute, harass (fig) 1a3) to follow after, aim to secure (fig) 1a4) to run after (a bribe) (fig) 1b) (Niphal) 1b1) to be pursued 1b2) one pursued (participle) 1c) (Piel) to pursue ardently, aim eagerly to secure, pursue 1d) (Pual) to be pursued, be chased away 1e) (Hiphil) to pursue, chase
 H7292	רָהַב	ra.hav	to be assertive	H:V	to behave proudly, act stormily or boisterously or arrogantly 1a) (Qal) to act insolently, storm against, beset, importune 1b) (Hiphil) to disturb, alarm, awe, confuse, make bold or proud
 H7293	רַ֫הַב	ra.hav	RahabEgypt	N:N--L	pride, blusterer 1a) storm, arrogance (but only as names); emblematic name of Egypt
-H7294	רַ֫הַב	ra.hav	pride|Rahab monster	N:N-M-T	Rahab = "breadth" mythical sea monster
+H7294	רַ֫הַב	ra.hav	pride/Rahab monster	N:N-M-T	Rahab = "breadth" mythical sea monster
 H7295	רָהָב	ra.hav	proud	H:A	proud, defiant
 H7296	רֹ֫הָב	ro.hav	pride	H:N-M	arrogance, pride, object of pride
 H7297	רָהָה	ra.hah	to fear	H:V	(Qal) to fear 1a) meaning dubious
@@ -7929,7 +7929,7 @@ H7335	רָזַם	ra.zam	to flash	H:V	(Qal) to wink, flash (of eyes)
 H7336	רָזַן	ra.zan	to rule	H:V	(Qal) to be weighty, be judicious, be commanding
 H7337	רָחַב	ra.chav	to enlarge	H:V	to be or grow wide, be or grow large 1a) (Qal) to be widened, be enlarged 1b) (Niphal) broad or roomy pasture (participle) 1c) (Hiphil) 1c1) to make large 1c2) to enlarge
 H7338	רַ֫חַב	ra.chav	breadth	H:N-M	breadth, broad or wide expanse
-H7339	רְחוֹב	re.chov	street|plaza	H:N-F	broad or open place or plaza
+H7339	רְחוֹב	re.chov	street/plaza	H:N-F	broad or open place or plaza
 H7340	רְחוֹב	re.chov	Rehob	N:N-M-P/N:N--L	Rehob = "broad place" n pr m 1) father of Hadadezer the king of Zobah who was killed by David 2) a Levite who sealed the covenant with Nehemiah n pr loc 3) the northern limit of the exploration of the spies in Canaan; on the road to Hamath 4) a town in Asher 5) a second town by the same name also in Asher
 H7341	רֹ֫חַב	ro.chav	width	H:N-M	breadth, width, expanse
 H7342	רָחָב	ra.chav	broad	H:A	broad, wide
@@ -8537,7 +8537,7 @@ H7898	שַׁ֫יִת	sha.yit	thornbush	H:N-M	thorn bushes
 H7899	שֵׂךְ	sekh	thorn	H:N-M	thorn
 H7900	שֹׂךְ	sokh	booth	H:N-M	booth, pavilion
 H7901	שָׁכַב	sha.khav	to lie down	H:V	to lie down 1a) (Qal) 1a1) to lie, lie down, lie on 1a2) to lodge 1a3) to lie (of sexual relations) 1a4) to lie down (in death) 1a5) to rest, relax (fig) 1b) (Niphal) to be lain with (sexually) 1c) (Pual) to be lain with (sexually) 1d) (Hiphil) to make to lie down 1e) (Hophal) to be laid
-H7902	שְׁכָבָה	she.kha.vah	act|product of lying	H:N-F	act of lying, layer, coating 1a) act of lying (of sexual relations) 1b) layer
+H7902	שְׁכָבָה	she.kha.vah	act/product of lying	H:N-F	act of lying, layer, coating 1a) act of lying (of sexual relations) 1b) layer
 H7903	שְׁכֹ֫בֶת	she.kho.vet	copulation	H:N-F	copulation
 H7904	שָׁכָה	sha.khah	to lust	H:V	(Hiphil) lustful (participle) 1a) meaning uncertain
 H7905	שֻׂכָּה	suk.kah	spear	H:N-F	barb, spear
@@ -9360,11 +9360,11 @@ H8674	תַּתְּנַי	ta.te.nay	Tattenai	N:N-M-P	Tatnai = "gift" a Persian go
 H9000	/ו	v	and	H:Conj	Verbal vav or conjunctive vav
 H9001	/וַ	v	and	H:Conj	Verbal vav: joined to verb with no intervening prefix (usually conversive) (future - past)
 H9002	/וְ	v	and	H:Conj	Conjunctive vav - i.e. followed by prefix, suffix or non-verb (conjunctive) (‘and/but’)
-H9003	/ב	b	in|on|with		Prefix beth
-H9004	/כ	k	like|as		Prefix kaph
-H9005	/ל	l	to|for		Prefix lamed
+H9003	/ב	b	in/on/with		Prefix beth
+H9004	/כ	k	like/as		Prefix kaph
+H9005	/ל	l	to/for		Prefix lamed
 H9006	/מ	m	from		Prefix mem
-H9007	/שׁ	s	which|that		Prefix shin
+H9007	/שׁ	s	which/that		Prefix shin
 H9008	/ה	i			Prefix hé interrogative
 H9009	/ה	hé	[the]		Prefix hé article
 H9010	א/	a	[the]		Suffix aleph article
