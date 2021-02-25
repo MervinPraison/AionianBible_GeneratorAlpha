@@ -166,7 +166,7 @@ Holy-Bible---English---Aionian-Bible	042	LUK	018	030	SWAP		AIONS,AIONIAN	who wil
 Holy-Bible---English---Aionian-Bible	042	LUK	020	034	SWAP		AIONS	Jesus said to them, “The people of this age (aiōn g165) marry, and are given in marriage.
 Holy-Bible---English---Aionian-Bible	042	LUK	020	035	SWAP		AIONS	But those who are considered worthy to attain to that age (aiōn g165) and the resurrection from the dead neither marry nor are given in marriage.
 Holy-Bible---English---Aionian-Bible	043	JOH	003	015	SWAP		AIONIAN	that whoever believes in him may have consummate (aiōnios g166) life.
-Holy-Bible---English---Aionian-Bible	043	JOH	003	016	SWAP		AIONIAN	For God so loved the world, that he gave his only begotten Son, that whoever believes in him should not perish, but have consummate life. (aiōnios g166)
+Holy-Bible---English---Aionian-Bible	043	JOH	003	016	SWAP		AIONIAN	For God so loved the world, that he gave his only begotten Son, that whoever believes in him should not perish, but have consummate (aiōnios g166) life.
 Holy-Bible---English---Aionian-Bible	043	JOH	003	036	SWAP		AIONIAN	One who believes in the Son has consummate (aiōnios g166) life, but one who disobeys the Son will not see life, but the wrath of God remains on him.”
 Holy-Bible---English---Aionian-Bible	043	JOH	004	014	SWAP		AIONS,AIONIAN	but whoever drinks of the water that I will give him by no means will thirst for the age (aiōn g165); but the water that I will give him will become in him a well of water springing up to consummate (aiōnios g166) life.”
 Holy-Bible---English---Aionian-Bible	043	JOH	004	036	SWAP		AIONIAN	He who reaps receives wages and gathers fruit to consummate (aiōnios g166) life; that both he who sows and he who reaps may rejoice together.

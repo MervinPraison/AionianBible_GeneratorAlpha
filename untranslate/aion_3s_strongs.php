@@ -471,18 +471,50 @@ $commentplus = <<<EOT
 #		Morphhology and part of speech (see morphhology code file)
 #	WORD
 #		Greek word
-#	VARIANT
-#		Variants from other manuscripts, format = /Manuscripts=word=strongs
-#		B => Byzantine from Robinson/Pierpoint
-#		N => Nestle/Aland 27th Edition
-#		M => Nestle/Aland 28th Edition, not ECM
-#		R => Textus Receptus
-#		S => SBLGNT
-#		T => Tregelles
-#		W => Westcott/Hort
-#		w => Westcott/Hort margin
-#		H => Tyndale House GNT
-#		I => Unknown
+#	ENGLISH
+#		English synonym
+#	ENTRY
+#		Word entry type
+#		Identical in NA & TR	ˍ   καὶ	133204 words translated in the traditional KJV and all modern Bibles.		NA27/28 + TR + others all having the same meaning				
+#		Different in NA & TR	˹   καὶ	3884 words sometimes different in traditional and modern Bibles.			NA27/28 + others having the same meaning but there are.also .. 	| Variants = different meanings in TR + others
+#		In NA but not in TR		⁽   καὶ	897 words translated in most modern Bibles but not in the KJV.				NA27/28 + others having the same meaning but not TR				
+#		In TR but not in NA		«   καὶ	3619 words translated in the KJV but not in most modern Bibles.				TR + others having the same meaning but not NA27/28				
+#		Non-NA word order		>2  καὶ	1827 words in a different position without affecting Bible translation.		>2 indicates the same occurs 2 words later in NA27/28				
+#		Non-NA in NIV /			‹   καὶ	178 words translated in the KJV but only in some modern Bibles.				TR + others having the same meaning but not NA27/28				
+#		Others not in NA or TR	{   καὶ	258 words in other early manuscripts but not in most Bibles.				Others having a word that is not found in TR or NA27/28	
+#	PUNC 
+#		Punctuation based on the oldest manuscripts
+#	EDITIONS
+#		"Byz"		=> "Byzantine from Robinson/Pierpoint",
+#		"NA27"		=> "Nestle/Aland 27th Edition",
+#		"NA28"		=> "Nestle/Aland 28th Edition, not ECM",
+#		"TR"		=> "Textus Receptus",
+#		"SBL"		=> "Society of Biblical Literature Greek NT",
+#		"Treg"		=> "Tregelles",
+#		"WH"		=> "Westcott/Hort",
+#		"Tyn"		=> "Tyndale House GNT",
+#		"NIV"		=> "New International Version",
+#		"KJV"		=> "King James Version",
+#		"Punc"		=> "Accent variant from punctuation",
+#		"Coptic"	=> "Coptic",
+#		"OldLatin"	=> "Old Latin",
+#		"OldSyriac"	=> "Old Syriac version",
+#		"Goodnews"	=> "Goodnews",
+#		"P66"		=> "Papyri #66",
+#		"P66*"		=> "Papyri #66 corrector",
+#		"U1"		=> "Uncial #1",
+#		"U2"		=> "Uncial #2",
+#		"U3"		=> "Uncial #3",
+#		"U4"		=> "Uncial #4",
+#		"U5"		=> "Uncial #5",
+#		"U6"		=> "Uncial #6",
+#		"U32"		=> "Uncial #32",
+#	SPELLINGS
+#		Variant spellings
+#	MEANINGS
+#		Variant meanings
+#	CONJOIN
+#		Links like articles and particles with their connecting word 
 
 EOT;
 $commentplus = AION_FILE_DATA_PUT_HEADER("$GREEK_TAGED_DATA", strlen($database['GRERE2']), $commentplus);
@@ -1230,6 +1262,14 @@ function AION_NEWSTRONGS_STRONGS_PARSE($newmess, $strongs, $variant, &$lex_array
 // “;¶” Question mark and paragraph end
 // ˹  Ἀμώς  ˺·  Punctuation out side the bracket, variant only concerns the word and not the punctuation
 // "and will not honor his father << or his mother >>, anbd ..." the phrase "or his mother" is only found in some MSS, but they all have a comma, so the comma is outside the brackets. 
+//
+// Identical in NA & TR		ˍ   καὶ	133204 words translated in the traditional KJV and all modern Bibles.		NA27/28 + TR + others all having the same meaning				
+// Different in NA & TR		˹   καὶ	3884 words sometimes different in traditional and modern Bibles.			NA27/28 + others having the same meaning but there are.also .. 	| Variants = different meanings in TR + others
+// In NA but not inTR		⁽   καὶ	897 words translated in most modern Bibles but not in the KJV.				NA27/28 + others having the same meaning but not TR				
+// In TR but not in NA		«   καὶ	3619 words translated in the KJV but not in most modern Bibles.				TR + others having the same meaning but not NA27/28				
+// Non-NA word order		>2  καὶ	1827 words in a different position without affecting Bible translation.		>2 indicates the same occurs 2 words later in NA27/28				
+// Non-NA in NIV /			‹   καὶ	178 words translated in the KJV but only in some modern Bibles.				TR + others having the same meaning but not NA27/28				
+// Others not in NA or TR	{   καὶ	258 words in other early manuscripts but not in most Bibles.				Others having a word that is not found in TR or NA27/28	
 // 
 function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, &$lex2_array, $morph_array) {
 	// INIT
@@ -1240,19 +1280,13 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 	}
 	$last_indx = $last_chap = $last_vers = NULL;
 	if (empty($database[$table])) {
-		//$database[table] = "INDEX\tBOOK\tCHAPTER\tVERSE\tSTRONGS\tFLAG\tMORPH\tWORD\tENGLISH\tEDITIONS\tSPELLINGS\tMEANINGS\tSUB\tSUPER\tCONJOIN\n";
-		$database[table] = "INDEX\tBOOK\tCHAPTER\tVERSE\tSTRONGS\tFLAG\tMORPH\tWORD\tENGLISH\tEDITIONS\tSPELLINGS\tMEANINGS\tCONJOIN\n";
+		$database[$table] = "INDEX\tBOOK\tCHAPTER\tVERSE\tSTRONGS\tFLAG\tMORPH\tWORD\tENGLISH\tENTRY\tPUNC\tEDITIONS\tSPELLINGS\tMEANINGS\tCONJOIN\n";
 	}
 	
 	// LOOP THRU ALL LINES
 	foreach( $input as $line ) {
 
 		// Custom reversification, change the reference of the original Greek edition to the KJV standard, only when outside KJV references
-		if ($line['REF'] == '46_Rom.014.024' ||
-			$line['REF'] == '46_Rom.014.025' ||
-			$line['REF'] == '46_Rom.014.026') {
-			continue;
-		}
 		if ($line['REF'] == '65_3Jn.001.015') {
 			$line['REF'] = '65_3Jn.001.014';
 			$line['SORT'] = sprintf('%03d', 20 + (int)$line['SORT']);
@@ -1275,8 +1309,22 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 		}
 		
 		// INIT
-		$WORDUP = $line['WORD'];
+		$WORDUP = trim($line['WORD']);
 		$newmess = "FIX_REF\tref='".$line['REF']." / ".$line['SORT']."'\tword='$WORDUP'\tmorph='".$line['MORPH']."'\tstrongs='".$line['STRONGS']."'";
+
+		// TAGNT entry type
+		if ($WORDUP=='ALTSTART') {						$entry = "ALT"; }
+		else if (preg_match('/^ˍ/u',$WORDUP)) {			$entry = "NA=TR"; }
+		else if (preg_match('/^[<>]{1}\d/u',$WORDUP)) {	$entry = "Order"; }
+		else {
+			$last = strlen($WORDUP)-1;
+			if (preg_match('/^˹/u',$WORDUP)) {			if (!preg_match('/˺/u',$WORDUP)) { AION_ECHO("ERROR! $newmess word type inconsistent\n".print_r($line,TRUE)); }		$entry = "NA!=TR"; }
+			else if (preg_match('/^⁽/u',$WORDUP)) {		if (!preg_match('/⁾/u',$WORDUP)) { AION_ECHO("ERROR! $newmess word type inconsistent\n".print_r($line,TRUE)); }		$entry = "NA"; }
+			else if (preg_match('/^«/u',$WORDUP)) {		if (!preg_match('/»/u',$WORDUP)) { AION_ECHO("ERROR! $newmess word type inconsistent\n".print_r($line,TRUE)); }		$entry = "TR"; }
+			else if (preg_match('/^‹/u',$WORDUP)) {		if (!preg_match('/›/u',$WORDUP)) { AION_ECHO("ERROR! $newmess word type inconsistent\n".print_r($line,TRUE)); }		$entry = "NIV"; }
+			else if (preg_match('/^{/u',$WORDUP)) {		if (!preg_match('/}/u',$WORDUP)) { AION_ECHO("ERROR! $newmess word type inconsistent\n".print_r($line,TRUE)); }		$entry = "Other"; }
+			else { 										AION_ECHO("ERROR! $newmess word type missing\n".print_r($line,TRUE)); }
+		}
 
 		// spellings
 		$spellings = trim(preg_replace('/\s+([,;]+)/','$1', preg_replace('/\s+/',' ', $line['SPELLINGS']))," ,;");
@@ -1395,7 +1443,7 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 					"U32"		=> "Uncial #32",
 				);
 			}
-			$editions = explode('+', trim(preg_replace('/\+0(\d+)/', '+U$1', preg_replace('/[[:punct:]]+/', '+', preg_replace('/[<>]+\d+[:]+/', '+', preg_replace('/<14\.(24|25|26):/', '+', preg_replace('/\s+/', '', $line['EDITIONS']))))),';+, '));
+			$editions = explode('+', trim(preg_replace('/^0(\d+)/', '+U$1', preg_replace('/\+0(\d+)/', '+U$1', preg_replace('/[[:punct:]]+/', '+', preg_replace('/[<>]+\d+[:]+/', '+', preg_replace('/<14\.(24|25|26):/', '+', preg_replace('/\s+/', '', trim($line['EDITIONS']))))))),';+, '));
 			if (($editions_diff=array_diff($editions, array_keys($vartrans)))) {
 				$database['MISS_MANU'] .= ($warn="$newmess\tmissing manuscript edition: ".implode(",",$editions_diff)." from editions=".$line['EDITIONS']."\n");
 				AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");	
@@ -1430,19 +1478,17 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 			}
 			
 			// construct the output
-			// HEBREW TAGS - Need to be similar because same functions process first columns of Greek and Hebrew
+			// The Greek and Hebrew columns need to be similar because same functions process first columns of Greek and Hebrew
 			// INDEX	BOOK	CHAPTER	VERSE	STRONGS	FLAG	MORPH	WORD
 			//
-			//array('REF','SORT','WORD','ENGLISH','STRONGS','MORPH','DICT','','EDITIONS','SPELLINGS','MEANINGS','','SUB','SUPER','CONJOIN')
-			//"INDEX\tBOOK\tCHAPTER\tVERSE\tSTRONGS\tFLAG\tMORPH\tWORD\tENGLISH\tEDITIONS\tSPELLINGS\tMEANINGS\tSUB\tSUPER\tCONJOIN\n";
 			$database[$table] .=
 				("$indx\t$book\t$chap\t$vers\t$strongs\t$jointype\t$morph\t$WORDYEP\t".
 				trim($line['ENGLISH'])."\t".
+				$entry."\t".
+				$WORDUP."\t".
 				"$editions\t".
 				"$spellings\t".
 				trim($line['MEANINGS'])."\t".
-				//trim($line['SUB'])."\t".
-				//trim($line['SUPER'])."\t".
 				trim($line['CONJOIN'])."\n");
 			// W=next word, J=joined words
 			$jointype = "J";

@@ -6,10 +6,8 @@ TAGNT =====================================================
 2. How to handle the alternate versifications???????????
 	
 
-
 TOTHT =====================================================
 1. Remove trailing comments at end of "TOTHT - Tyndale OT Hebrew Tagged text Isa-Mal - TyndaleHouse.com STEPBible.org CC BY-NC.txt"
-
 
 
 TBESH =====================================================
@@ -21,7 +19,6 @@ H3384a          יָרָא                   H:V     to shoot          1) to sho
 H7198            קֶ֫שֶׁת     qe.shet           H:N-F bow     1) bow<br>1a) bow (for hunting, battle)<br>1b) bowmen,             s<br>1c) bow (fig. of might)<br>1d) rainbow<br>          
 H7199            קַשָּׁת     qash.shat      H:N-M bowman         1) bowman,   <br>    
 H7228            רַב        rav       H:N-M                         1) <br>            
-
 
 
 TANTT - DEPRECATED ========================================	

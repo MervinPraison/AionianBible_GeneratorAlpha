@@ -640,7 +640,6 @@ Holy-Bible---Latin---Vulgate-Jerome	HOS13-14
 Holy-Bible---Latin---Vulgate-Jerome	JON1-2
 Holy-Bible---Latin---Vulgate-Jerome	HAG1-2
 Holy-Bible---Latin---Vulgate-Jerome	MAR8-9
-Holy-Bible---Latin---Vulgate-Jerome-SAVE	GEN49
 Holy-Bible---Latvian---Latvian-Gluck-Bible	NONE
 Holy-Bible---Malagasy---Malagasy-Bible	GEN31-32
 Holy-Bible---Malagasy---Malagasy-Bible	EXO7-8

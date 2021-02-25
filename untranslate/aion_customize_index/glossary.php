@@ -78,7 +78,7 @@ Language: Hebrew<br />
 Speech: proper noun, place<br />
 Usage: <a href='<? echo abcms_href($usageH,FALSE,TRUE,'/strongs-h7585'); ?>' title='Visit chapters with Strongs word usage' class='word-blue'>65 times in 17 books, 50 chapters, and 63 verses</a><br />
 Strongs: <a href='<? echo abcms_href("/Strongs$bible",FALSE,TRUE,'/strongs-h7585'); ?>' title='Search Strongs'>h7585</a><br />
-Meaning:<br /><div style='margin-left: 15px;'>The grave or afterlife world of both the righteous and unrighteous, believing and unbelieving.</div>
+Meaning:<br /><div style='margin-left: 15px;'>The grave or temporal afterlife world of both the righteous and unrighteous, believing and unbelieving, until the general resurrection.</div>
 <br />
 </p>
 <p>
@@ -87,6 +87,6 @@ Language: Koine Greek<br />
 Speech: proper noun, place<br />
 Usage: <a href='<? echo abcms_href($usageG,FALSE,TRUE,'/strongs-g5020'); ?>' title='Visit chapters with Strongs word usage' class='word-blue'>1 time in 2 Peter 2:4</a><br />
 Strongs: <a href='<? echo abcms_href("/Strongs$bible",FALSE,TRUE,'/strongs-g5020'); ?>' title='Search Strongs'>g5020</a><br />
-Meaning:<br /><div style='margin-left: 15px;'>Temporary prison for particular fallen angels awaiting judgment.</div>
+Meaning:<br /><div style='margin-left: 15px;'>Temporary prison for particular fallen angels awaiting final judgment.</div>
 <br />
 </p>

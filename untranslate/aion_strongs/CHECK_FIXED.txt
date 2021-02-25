@@ -5,14 +5,14 @@ Textual hygiene change counts
 
 
 FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#(<ref[^>]*>|</ref>)#usi	ref=106
-FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#(<br[ /]*>|<lb[ /]*>)#usi	breaks=25056
+FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#(<br[ /]*>|<lb[ /]*>)#usi	breaks=25055
 FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#(H|G)[0]+([1-9]+[0-9]*)#usi	numbno=1096
 FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#<->#usi	tags=1
 FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#[([]+[ [:punct:]]*[)\]]+#usi	bracket=19
-FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#[ ]*[ \-—,:;?!.]+[ ]*([,.:;!?]{1})#usi	punct=112
+FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#[ ]*[ \-—,:;?!.]+[ ]*([,.:;!?]{1})#usi	punct=113
 FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#([([]+)[ ]+#usi	space-bracket=41
 FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#[ ]+([)\]]+)#usi	space-bracket=23
-FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#[ ]+#usi	spaces=158763
+FIX	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#[ ]+#usi	spaces=158762
 FIX2	./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt removed Hebrew '1)' times=8240
 
 

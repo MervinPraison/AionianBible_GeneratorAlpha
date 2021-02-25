@@ -3397,7 +3397,7 @@
 *** AION: CONVERTED ../source-production/Holy-Bible---English---Webster-Bible.unbound.zip to ../www-stageresources/Holy-Bible---English---Webster-Bible---Standard-Edition.noia byte=5734068 rows=31102
 *** AION: WARNING! RAWFIX change for Holy-Bible---English---Weymouth-NT,  byte-orig = 1174752,  byte-fix = 1172292,  byte-delta = -2460,  verses-orig = 7943,  verses-fix = 7943,  verses-delta = 0,  average = -2460
 *** AION: CONVERTED ../source-production/Holy-Bible---English---Weymouth-NT.unbound.zip to ../www-stageresources/Holy-Bible---English---Weymouth-NT---Standard-Edition.noia byte=1431736 rows=7942
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---World-English-Bible-British-Edition,  byte-orig = 4281001,  byte-fix = 4281001,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---World-English-Bible-British-Edition,  byte-orig = 4280999,  byte-fix = 4280999,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---World-English-Bible-British-Edition	019	PSA	003	002:	Many there are who say of my soul, “There is no help for him in God.” (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---World-English-Bible-British-Edition	019	PSA	003	004:	I cry to the LORD with my voice, and he answers me out of his holy hill. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---World-English-Bible-British-Edition	019	PSA	003	008:	Salvation belongs to the LORD.  May your blessing be on your people. (Selah) 
@@ -3479,8 +3479,8 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---World-English-Bible-British-Edition: SINGLE Romans 14-16
 *** AION: WARNING! Bible Verse Out of Sorts! numb=045, numL=045, chap=015, chapL=016, vers=001, versL=027 | Holy-Bible---English---World-English-Bible-British-Edition	045	ROM	015	001 | Now we who are strong ought to bear the weaknesses of the weak, and not to please ourselves.
 *** AION: WARNING REMAPPED = Holy-Bible---English---World-English-Bible-British-Edition: Empty verse skipped: ROM 016 025 
-*** AION: CONVERTED ../source-production/Holy-Bible---English---World-English-Bible-British-Edition.vpl.zip to ../www-stageresources/Holy-Bible---English---World-English-Bible-British-Edition---Standard-Edition.noia byte=6359559 rows=31098
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---World-English-Bible,  byte-orig = 4264862,  byte-fix = 4264862,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: CONVERTED ../source-production/Holy-Bible---English---World-English-Bible-British-Edition.vpl.zip to ../www-stageresources/Holy-Bible---English---World-English-Bible-British-Edition---Standard-Edition.noia byte=6359557 rows=31098
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---World-English-Bible,  byte-orig = 4264872,  byte-fix = 4264872,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---World-English-Bible	019	PSA	003	002:	Many there are who say of my soul, “There is no help for him in God.” (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---World-English-Bible	019	PSA	003	004:	I cry to Yahweh with my voice, and he answers me out of his holy hill. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---World-English-Bible	019	PSA	003	008:	Salvation belongs to Yahweh.  May your blessing be on your people. (Selah) 
@@ -3562,8 +3562,8 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---World-English-Bible: SINGLE Romans 14-16
 *** AION: WARNING! Bible Verse Out of Sorts! numb=045, numL=045, chap=015, chapL=016, vers=001, versL=027 | Holy-Bible---English---World-English-Bible	045	ROM	015	001 | Now we who are strong ought to bear the weaknesses of the weak, and not to please ourselves.
 *** AION: WARNING REMAPPED = Holy-Bible---English---World-English-Bible: Empty verse skipped: ROM 016 025 
-*** AION: CONVERTED ../source-production/Holy-Bible---English---World-English-Bible.vpl.zip to ../www-stageresources/Holy-Bible---English---World-English-Bible---Standard-Edition.noia byte=5845852 rows=31098
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---World-Messianic-Bible-British-Edition,  byte-orig = 4284292,  byte-fix = 4284292,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: CONVERTED ../source-production/Holy-Bible---English---World-English-Bible.vpl.zip to ../www-stageresources/Holy-Bible---English---World-English-Bible---Standard-Edition.noia byte=5845862 rows=31098
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---World-Messianic-Bible-British-Edition,  byte-orig = 4284293,  byte-fix = 4284293,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---World-Messianic-Bible-British-Edition	019	PSA	003	002:	Many there are who say of my soul, “There is no help for him in God.” (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---World-Messianic-Bible-British-Edition	019	PSA	003	004:	I cry to the LORD with my voice, and he answers me out of his holy hill. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---World-Messianic-Bible-British-Edition	019	PSA	003	008:	Salvation belongs to the LORD.  May your blessing be on your people. (Selah) 
@@ -3645,8 +3645,8 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---World-Messianic-Bible-British-Edition: SINGLE Romans 14-16
 *** AION: WARNING! Bible Verse Out of Sorts! numb=045, numL=045, chap=015, chapL=016, vers=001, versL=027 | Holy-Bible---English---World-Messianic-Bible-British-Edition	045	ROM	015	001 | Now we who are strong ought to bear the weaknesses of the weak, and not to please ourselves.
 *** AION: WARNING REMAPPED = Holy-Bible---English---World-Messianic-Bible-British-Edition: Empty verse skipped: ROM 016 025 
-*** AION: CONVERTED ../source-production/Holy-Bible---English---World-Messianic-Bible-British-Edition.vpl.zip to ../www-stageresources/Holy-Bible---English---World-Messianic-Bible-British-Edition---Standard-Edition.noia byte=6425040 rows=31098
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---World-Messianic-Bible,  byte-orig = 4279226,  byte-fix = 4279226,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: CONVERTED ../source-production/Holy-Bible---English---World-Messianic-Bible-British-Edition.vpl.zip to ../www-stageresources/Holy-Bible---English---World-Messianic-Bible-British-Edition---Standard-Edition.noia byte=6425041 rows=31098
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---World-Messianic-Bible,  byte-orig = 4279227,  byte-fix = 4279227,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---World-Messianic-Bible	019	PSA	003	002:	Many there are who say of my soul, “There is no help for him in God.” (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---World-Messianic-Bible	019	PSA	003	004:	I cry to the LORD with my voice, and he answers me out of his holy hill. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---World-Messianic-Bible	019	PSA	003	008:	Salvation belongs to the LORD.  May your blessing be on your people. (Selah) 
@@ -3728,7 +3728,7 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---World-Messianic-Bible: SINGLE Romans 14-16
 *** AION: WARNING! Bible Verse Out of Sorts! numb=045, numL=045, chap=015, chapL=016, vers=001, versL=027 | Holy-Bible---English---World-Messianic-Bible	045	ROM	015	001 | Now we who are strong ought to bear the weaknesses of the weak, and not to please ourselves.
 *** AION: WARNING REMAPPED = Holy-Bible---English---World-Messianic-Bible: Empty verse skipped: ROM 016 025 
-*** AION: CONVERTED ../source-production/Holy-Bible---English---World-Messianic-Bible.vpl.zip to ../www-stageresources/Holy-Bible---English---World-Messianic-Bible---Standard-Edition.noia byte=5922406 rows=31098
+*** AION: CONVERTED ../source-production/Holy-Bible---English---World-Messianic-Bible.vpl.zip to ../www-stageresources/Holy-Bible---English---World-Messianic-Bible---Standard-Edition.noia byte=5922407 rows=31098
 *** AION: WARN! Fix Psalms Titles in tmp.convert.Holy-Bible---English---Wycliffe-Bible.sword/Holy-Bible---English---Wycliffe-Bible.sword.  Orig=5353193  Fixed=5347027  Delta=-6166
 *** AION: WARNING! RAWFIX change for Holy-Bible---English---Wycliffe-Bible,  byte-orig = 5353124,  byte-fix = 5346859,  byte-delta = -6265,  verses-orig = 31378,  verses-fix = 31456,  verses-delta = 78,  average = -80.320512820513
 *** AION: WARNING REMAPPED = Holy-Bible---English---Wycliffe-Bible: SINGLE Exodus 40
@@ -7977,7 +7977,7 @@
 *** AION: WARNING! SELAH! Holy-Bible---Somali---Somali-Bible	035	HAB	003	009:	Qaansadaadii daaha baad ka qaadday, Dhaartii aad qabiilooyinka ugu dhaaratayna waxay ahayd eray run ah. (Selaah) Dhulka waxaad ka dillaacisay webiyaal.
 *** AION: WARNING! SELAH! Holy-Bible---Somali---Somali-Bible	035	HAB	003	013:	Waad u soo baxday inaad dadkaaga badbaadiso daraaddeed, Iyo inaad badbaadiso kaaga subkan.  Reerka sharrowga madaxiisa waad dhaawacday.  Aasaaskiina waad soo bandhigtay. (Selaah) 
 *** AION: CONVERTED ../source-production/Holy-Bible---Somali---Somali-Bible.vpl.zip to ../www-stageresources/Holy-Bible---Somali---Somali-Bible---Standard-Edition.noia byte=6137579 rows=31103
-*** AION: WARNING! RAWFIX change for Holy-Bible---Spanish---Free-Bible,  byte-orig = 2618244,  byte-fix = 2618313,  byte-delta = 69,  verses-orig = 19585,  verses-fix = 19596,  verses-delta = 11,  average = 6.2727272727273
+*** AION: WARNING! RAWFIX change for Holy-Bible---Spanish---Free-Bible,  byte-orig = 2618314,  byte-fix = 2618314,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---Spanish---Free-Bible	019	PSA	003	002:	Muchos me dicen: “Dios no puede salvarte.” (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---Spanish---Free-Bible	019	PSA	003	004:	Clamo al Señor pidiendo ayuda, y él me responde desde su monte santo. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---Spanish---Free-Bible	019	PSA	003	008:	La salvación te pertenece, Señor.  Sé una bendición sobre tu pueblo. (Selah) 
@@ -8066,7 +8066,7 @@
 *** AION: WARNING REMAPPED = Holy-Bible---Spanish---Free-Bible: Empty verse skipped: ACT 024 007 
 *** AION: WARNING REMAPPED = Holy-Bible---Spanish---Free-Bible: Empty verse skipped: ACT 028 029 
 *** AION: WARNING REMAPPED = Holy-Bible---Spanish---Free-Bible: Empty verse skipped: ROM 016 024 
-*** AION: CONVERTED ../source-production/Holy-Bible---Spanish---Free-Bible.vpl.zip to ../www-stageresources/Holy-Bible---Spanish---Free-Bible---Standard-Edition.noia byte=3486135 rows=19580
+*** AION: CONVERTED ../source-production/Holy-Bible---Spanish---Free-Bible.vpl.zip to ../www-stageresources/Holy-Bible---Spanish---Free-Bible---Standard-Edition.noia byte=3486137 rows=19580
 *** AION: WARNING! RAWFIX change for Holy-Bible---Spanish---Reina-Valera-1865,  byte-orig = 4291656,  byte-fix = 4291624,  byte-delta = -32,  verses-orig = 31098,  verses-fix = 31102,  verses-delta = 4,  average = -8
 *** AION: WARNING! SELAH! Holy-Bible---Spanish---Reina-Valera-1865	019	PSA	003	002:	Muchos dicen de mi alma: No hay para él salud en Dios. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---Spanish---Reina-Valera-1865	019	PSA	003	004:	Con mi voz clamé a Jehová, y él me respondió desde el monte de su santidad. (Selah) 

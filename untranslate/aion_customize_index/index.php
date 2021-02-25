@@ -1363,8 +1363,8 @@ static $adef = array(
 	'g166'	=> "From start to finish, pertaining to the age, lifetime, entirety, complete, or even consummate. Never meaning simple <i>endless or infinite chronological time</i> in Koine Greek usage. Read <a href='/Aionios-and-Aidios'>Dr. Heleen Keizer and Ramelli and Konstan</a> for proofs.",
 	'g1067'	=> "Valley of Hinnom, Jerusalem's trash dump, a place of ruin, destruction, and judgment in this life or the next, though not eternal to Jesus' audience.",
 	'g86'	=> "Synonomous with <i>Sheol</i>, though in New Testament usage <i>Hades</i> is the temporal place of punishment for deceased unbelieving mankind, distinct from <i>Paradise</i> for deceased believers.",
-	'h7585'	=> "The grave or afterlife world of both the righteous and unrighteous, believing and unbelieving.",
-	'g5020'	=> "Temporary prison for particular fallen angels awaiting judgment.",
+	'h7585'	=> "The grave or temporal afterlife world of both the righteous and unrighteous, believing and unbelieving, until the general resurrection.",
+	'g5020'	=> "Temporary prison for particular fallen angels awaiting final judgment.",
 	'g3041'	=> "Lake of Fire, final punishment for those not named in the Book of Life, prepared for the Devil and his angels, Matthew 25:41.",
 	'g4442'	=> "Lake of Fire, final punishment for those not named in the Book of Life, prepared for the Devil and his angels, Matthew 25:41.",
 );

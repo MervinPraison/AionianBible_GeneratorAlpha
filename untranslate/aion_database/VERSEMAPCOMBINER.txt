@@ -1942,10 +1942,6 @@ Holy-Bible---Latin---Vulgate-Jerome	030	AMO	006	010	14	1	end
 Holy-Bible---Latin---Vulgate-Jerome	043	JOH	006	051	71	1	end
 Holy-Bible---Latin---Vulgate-Jerome	066	REV	012	018	1	-1	end
 Holy-Bible---Latin---Vulgate-Jerome							end
-Holy-Bible---Latin---Vulgate-Jerome-SAVE	019	PSA	013	001	5	1	end
-Holy-Bible---Latin---Vulgate-Jerome-SAVE	019	PSA	014	001	7	1	end
-Holy-Bible---Latin---Vulgate-Jerome-SAVE	019	PSA	044	001	26	1	end
-Holy-Bible---Latin---Vulgate-Jerome-SAVE							end
 Holy-Bible---Latvian---Latvian-Gluck-Bible							end
 Holy-Bible---Malagasy---Malagasy-Bible	009	1SA	020	042	42	1	end
 Holy-Bible---Malagasy---Malagasy-Bible	011	1KI	022	043	53	1	end

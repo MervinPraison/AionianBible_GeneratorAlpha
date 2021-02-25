@@ -1056,7 +1056,7 @@ Language: Hebrew<br />
 Speech: proper noun, place<br />
 Strongs: h7585<br />
 Meaning:<br />
-<div style='margin-left: 15px;'>The grave or afterlife world of both the righteous and unrighteous, believing and unbelieving.</div>
+<div style='margin-left: 15px;'>The grave or temporal afterlife world of both the righteous and unrighteous, believing and unbelieving, until the general resurrection.</div>
 Usage: 65 times in 17 books, 50 chapters, and 63 verses<br />
 $h7585<br />
 <h3><i><a class='tag' id="g5020">Tartaroō</a></i></h3>
@@ -1064,7 +1064,7 @@ Language: Koine Greek<br />
 Speech: proper noun, place<br />
 Strongs: g5020<br />
 Meaning:<br />
-<div style='margin-left: 15px;'>Temporary prison for particular fallen angels awaiting judgment.</div>
+<div style='margin-left: 15px;'>Temporary prison for particular fallen angels awaiting final judgment.</div>
 Usage: 1 time in 2 Peter 2:4<br />
 $g5020<br />
 <h3><i><a class='tag' id="questioned">Questioned</a></i></h3>

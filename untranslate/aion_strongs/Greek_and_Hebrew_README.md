@@ -1,6 +1,6 @@
 # File Name: Greek_and_Hebrew_README.md
 # File Size: 2911        
-# File Date: 02/15/2021 14:22:57
+# File Date: 02/20/2021 19:25:59
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: http://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2021
