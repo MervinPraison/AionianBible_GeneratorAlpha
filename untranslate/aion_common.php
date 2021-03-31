@@ -447,7 +447,7 @@ function AION_LOOP_DIFF_DOIT($args) {
 		}
 		AION_ECHO('MISSING: '.$filepath1.' VS '.$filepath2);
 	}
-	if (preg_match("/\.(zip)|(epub)$/i", $filename1)) {
+	else if (preg_match("/\.(zip)|(epub)$/i", $filename1)) {
 		system('rm -rf .tmp.diff');
 		if (!mkdir('.tmp.diff')) {														AION_ECHO("ERROR! mkdir()"); }
 		system('unzip -q ' . $filepath1 . ' -d .tmp.diff/A');
@@ -457,6 +457,16 @@ function AION_LOOP_DIFF_DOIT($args) {
 		system('rm -rf .tmp.diff');
 		AION_ECHO('DIFF ZIP: '.$filepath1.' VS '.$filepath2);
 	}	
+	else if (preg_match("/\.tar.gz$/i", $filename1)) {
+		system('rm -rf .tmp.diff');
+		if (!mkdir('.tmp.diff') || !mkdir('.tmp.diff/A') || !mkdir('.tmp.diff/B')) {	AION_ECHO("ERROR! mkdir()"); }
+		system('tar -xf ' . $filepath1 . ' -C .tmp.diff/A');
+		system('tar -xf ' . $filepath2 . ' -C .tmp.diff/B');
+		system('diff -r .tmp.diff/A .tmp.diff/B 2>&1 >> '.$fileout );
+		if (!is_dir('.tmp.diff/A') || !is_dir('.tmp.diff/A') || !is_file($fileout) ) {	AION_ECHO("ERROR! Bad unzip() or diff()"); }
+		system('rm -rf .tmp.diff');
+		AION_ECHO('DIFF ZIP: '.$filepath1.' VS '.$filepath2);
+	}
 	else {
 		if (empty($args['search'])) {
 			system("diff $filepath1 $filepath2 2>&1 >> $fileout");
@@ -478,7 +488,7 @@ function AION_LOOP_DIFF_DOIT($args) {
 
 
 /*** aion convert ***/
-function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $skipped, $tally, $uniusage, $textrepair, $rawcheck, $dataput) {
+function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $skipped, $tally, $uniusage, $textrepair, $rawcheck, $raw_tags, $dataput) {
 	/* test utf8 encoder */
 	if (Encoding::fixUTF8("FÃÂÂÂÂ©dÃÂÂÂÂ©ration Camerounaise de Football\n") != "Fédération Camerounaise de Football\n") {
 		AION_ECHO("ERROR! Encoding::fixUTF8() Failed to fix: Fédération Camerounaise de Football");
@@ -487,6 +497,7 @@ function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $ski
 	AION_FILE_DATA_GET( './aion_database/BOOKSCOUNT.txt', 'T_BOOKSCOUNT', $database, 'BOOK', FALSE );
 	AION_FILE_DATA_GET( './aion_database/BOOKS.txt', 'T_BOOKS', $database, 'BIBLE', FALSE );
 	AION_FILE_DATA_GET(	'./aion_database/VERSIONS.txt',	'T_VERSIONS', $database, 'BIBLE', FALSE );
+	AION_FILE_DATA_PUT($raw_tags,array(array("BIBLE"=>"Bibles listed below","TAGS"=>"Tags listed below")));
 	$database['T_UNTRANSLATEREVERSE'] = array();
 	$database['T_SKIPPED'] = array();
 	$database['T_TALLY'] = array();
@@ -497,18 +508,20 @@ function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $ski
 		'function'	=> 'AION_LOOP_CONV_DOIT',
 		'source'	=> $source,
 		'uniusage'	=> $uniusage,
-		'include'	=> "/(\.vpl\.zip|.+\.txt|.+\.unbound\.zip|.+\.sword)$/",
-		//'include'	=> "/Holy-Bible---.*(Jerome).*(\.vpl\.zip|\.txt|\.unbound\.zip|\.sword)$/",
-		//'include'	=> "/Holy-Bible---.*(Spanish---Free-Bible).*(\.vpl\.zip|\.txt|\.unbound\.zip|\.sword)$/",
-		//'include'	=> "/Holy-Bible---.*(Tamil|Telugu).*(\.vpl\.zip|\.txt|\.unbound\.zip|\.sword)$/",
-		//'include'	=> "/Holy-Bible---[U-Z]+.*(\.vpl\.zip|\.txt|\.unbound\.zip|\.sword)$/",
+		'include'	=> "/(\.vpl\.zip|\.txt\.tar\.gz|.+\.txt|.+\.unbound\.zip|.+\.sword)$/",
+		//'include'	=> "/Holy-Bible---.*(Conferenza-Episcopale-Italiana).*(\.vpl\.zip|\.txt\.tar\.gz|\.txt|\.unbound\.zip|\.sword)$/",
+		//'include'	=> "/Holy-Bible---.*(Dombe|Gourma-Bible|Uyghur).*(\.vpl\.zip|\.txt\.tar\.gz|\.txt|\.unbound\.zip|\.sword)$/",
+		//'include'	=> "/Holy-Bible---.*(Tamil|Telugu).*(\.vpl\.zip|\.txt\.tar\.gz|\.txt|\.unbound\.zip|\.sword)$/",
+		//'include'	=> "/Holy-Bible---[U-Z]+.*(\.vpl\.zip|\.txt\.tar\.gz|\.txt|\.unbound\.zip|\.sword)$/",
 		'destiny'	=> $destiny,
 		'raw_orig'	=> $raw_orig,
 		'raw_fixed'	=> $raw_fixed,
+		'raw_tags'	=> $raw_tags,
 		'database'	=> &$database,
 		'bibles'	=> AION_BIBLES_LIST(),
 		'sword'		=> AION_BIBLES_LIST_SWORD(),
 		'unbound'	=> AION_BIBLES_LIST_UNB(),
+		'b4u'		=> AION_BIBLES_LIST_B4U(),
 		) );
 	AION_FILE_DATA_PUT($reverse,$database['T_UNTRANSLATEREVERSE']);
 	AION_FILE_DATA_PUT($skipped,$database['T_SKIPPED']);
@@ -529,6 +542,11 @@ function AION_LOOP_CONV_DOIT($args) {
 		system('unzip -q '.$args['filepath'].' -d '.$temp);
 		$type = (preg_match("/\.unbound\.zip$/", $args['filename']) ? 'UNB' : 'VPL');
 	}
+	else if (preg_match("/\.txt\.tar\.gz$/", $args['filename'])) {
+		if (!mkdir($temp)) { AION_ECHO("ERROR! !mkdir: ".$temp); }
+		system('tar -xf '.$args['filepath'].' -C '.$temp);
+		$type = 'B4U';
+	}
 	else if (preg_match("/\.sword$/", $args['filename'])) {
 		if (!mkdir($temp)) { AION_ECHO("ERROR! !mkdir: ".$temp); }
 		if (!copy($args['filepath'],$temp.'/'.$args['filename'])) { AION_ECHO("ERROR! Problem writing: ".$temp.'/'.$args['filename']); }
@@ -540,7 +558,7 @@ function AION_LOOP_CONV_DOIT($args) {
 		$type = 'HRT';
 	}
 	if (!is_dir($temp)) { AION_ECHO("ERROR! failed isdir=".$temp); }
-	$output = $args['destiny'].'/'.preg_replace('/\.(zip|txt|sword)$/i', '---Standard-Edition.noia', preg_replace('/\.(vpl|unbound)/i', '', $args['filename']));
+	$output = $args['destiny'].'/'.preg_replace('/\.(zip|txt|sword)$/i', '---Standard-Edition.noia', preg_replace('/\.(vpl|unbound|tar\.gz)/i', '', $args['filename']));
 	$output_orig = str_replace('---Standard-Edition.noia','---Source-Edition.noia',$output);
 	if (!preg_match("/\/(Holy-Bible---.*)---Standard-Edition\.noia/", $output, $matches)) {	AION_ECHO("ERROR! Failed to preg_match(Holy-Bible): ".$args['filepath']);	}
 	$bible = $matches[1];
@@ -548,13 +566,14 @@ function AION_LOOP_CONV_DOIT($args) {
 	$files = array_diff(scandir($temp), array('.', '..'));
 	$file = $flop = NULL;
 	foreach( $files as $flop ) {
+		if ($type=='B4U' && preg_match("/\.txt$/i", $flop)==TRUE) {							$file = $flop; break; }
 		if ($type=='VPL' && preg_match("/_vpl\.txt$/i", $flop)==TRUE) {						$file = $flop; break; }
 		if ($type=='HRT' && preg_match("/\.txt$/i", $flop)==TRUE) {							$file = $flop; break; }
 		if ($type=='SWD' && preg_match("/\.sword$/i", $flop)==TRUE) {						$file = $flop; break; }
 		if ($type=='UNB' && preg_match("/_utf8\.txt$/i", $flop)==TRUE) {					$file = $flop; break; }
 	}
 	// open and raw fix the bible
-	AION_BIBLES_RAWFIX($args, $bible, $type, $temp.'/'.$file, $args['bibles'], $args['sword'], $args['unbound'], $fixedbible, $args['raw_orig'], $args['raw_fixed'], $args['database']['T_RAWCHECK']);
+	AION_BIBLES_RAWFIX($args, $bible, $type, $temp.'/'.$file, $args['bibles'], $args['sword'], $args['unbound'], $fixedbible, $args['raw_orig'], $args['raw_fixed'], $args['raw_tags'], $args['database']['T_RAWCHECK']);
 	$data_orig = $data = $reverse = array();
 	$rows  = $byte  = $numb  = $chap  = $vers = $orig_count = 0;
 	$numbL = $chapL = $versL = '000';
@@ -567,7 +586,9 @@ function AION_LOOP_CONV_DOIT($args) {
 
 		// DUPLICATE CODE!!!
 		// ignore comments
-		if (preg_match("/^[\s]*$/", $line) || preg_match("/^(#|\/\/)/", $line)) {
+		if (preg_match("/^[\s]*$/", $line) ||
+			preg_match("/^(#|\/\/)/", $line) ||
+			($type=='B4U' && !preg_match("/^[[:alnum:]]+\.\d+:\d+\s/",$line))) {  // Gen.1:1
 			if ($fields<0 && $type=='UNB' && preg_match("/^#columns\t/i",$line)) {
 				if (($parsed=preg_split("/\t/", $line)) == FALSE) {	AION_ECHO("ERROR! Unbound fields definition problem! ".$line); }
 				if (4>($fields = count($parsed) - 1)) {				AION_ECHO("ERROR! Unbound fields definition count problem! ".$line); }
@@ -605,6 +626,19 @@ function AION_LOOP_CONV_DOIT($args) {
 			$chap = sprintf('%03d', (int)substr($line,$space1+1,$colon1-$space1-1));
 			$vers = sprintf('%03d', (int)substr($line,$colon1+1,$space2-$colon1-1));
 			$text = ($notext ? '' : trim(substr($line,$space2+1)));
+			if (!(int)$chap || !(int)$vers) {						continue; }
+		}
+		else if ($type=='B4U') {
+			if (preg_match("/\t/", $line)) {						AION_ECHO("ERROR! TAB in Source! ".$line); }
+			$matches = array();
+			if (!preg_match("/^([[:alnum:]]+)\.(\d+):(\d+)\s(.*)$/u", $line, $matches)){AION_ECHO("ERROR! Bad B4U verse! $line"); }
+			if (empty($matches[1])) {								AION_ECHO("ERROR! Bad SWORD verse book! $line"); }
+			if(!($book = array_search($matches[1],$args['b4u']))){AION_ECHO("ERROR! Bad B4U verse book search! $line"); }
+			$numb = sprintf('%03d', (int)array_search($book,array_keys($args['bibles'])));
+			if (!(int)$numb) {										AION_ECHO("ERROR! Bad bible book name! $book $numb $line"); }
+			$chap = sprintf('%03d', (int)$matches[2]);
+			$vers = sprintf('%03d', (int)$matches[3]);
+			$text = trim($matches[4]);
 			if (!(int)$chap || !(int)$vers) {						continue; }
 		}
 		else if ($type=='UNB') {
@@ -859,10 +893,10 @@ function AION_TEXT_REPAIR($string,$errline,$bible,$trueifrawtext, &$textrepair,$
     return $string;
 }
 function AION_TEXT_SELAH($string,$errline,$bible){
-	$preg1 = '/^[ [:punct:]]*(Selá|Selaah|Sela|Sila|Selah|Pause|Selah|Jela|细拉|細拉|চেলা|셀라|ସେଲା|சேலா|Sélah|সেলা|સેલાહ|Szela|セラ|ಸೆಲಾ|Zela|സേലാ|సెలా|सिलाह)[ [:punct:]]*[ ]+/ui';
-	$preg2 = '/[ ]+[ [:punct:]]*(Selá|Selaah|Sela|Sila|Selah|Pause|Selah|Jela|细拉|細拉|চেলা|셀라|ସେଲା|சேலா|Sélah|সেলা|સેલાહ|Szela|セラ|ಸೆಲಾ|Zela|സേലാ|సెలా|सिलाह)[ [:punct:]]*$/ui';
-	$preg3 = '/ [ [:punct:]]*(Selá|Selaah|Sela|Sila|Selah|Pause|Selah|Jela|细拉|細拉|চেলা|셀라|ସେଲା|சேலா|Sélah|সেলা|સેલાહ|Szela|セラ|ಸೆಲಾ|Zela|സേലാ|సెలా|सिलाह)[ [:punct:]]* /ui';
-	$preg4 = '/(Selá|Selaah|Sela|Sila|Selah|Pause|Selah|Jela|细拉|細拉|চেলা|셀라|ସେଲା|சேலா|Sélah|সেলা|સેલાહ|Szela|セラ|ಸೆಲಾ|Zela|സേലാ|సెలా|सिलाह|Interlud|Jinaso|Higgaion|Higaion|Meditation|Jeu d\'instruments|Higgajon|Zwischenspiel|Hikaiona|Hikaione)/';
+	$preg1 = '/^[ [:punct:]]*(Selaⱨ|Селаһ|Hera|Selá|Selaah|Sela|Sila|Selah|Pause|Selah|Jela|细拉|細拉|চেলা|셀라|ସେଲା|சேலா|Sélah|সেলা|સેલાહ|Szela|セラ|ಸೆಲಾ|Zela|സേലാ|సెలా|सिलाह)[ [:punct:]]*[ ]+/ui';
+	$preg2 = '/[ ]+[ [:punct:]]*(Selaⱨ|Селаһ|Hera|Selá|Selaah|Sela|Sila|Selah|Pause|Selah|Jela|细拉|細拉|চেলা|셀라|ସେଲା|சேலா|Sélah|সেলা|સેલાહ|Szela|セラ|ಸೆಲಾ|Zela|സേലാ|సెలా|सिलाह)[ [:punct:]]*$/ui';
+	$preg3 = '/ [ [:punct:]]*(Selaⱨ|Селаһ|Hera|Selá|Selaah|Sela|Sila|Selah|Pause|Selah|Jela|细拉|細拉|চেলা|셀라|ସେଲା|சேலா|Sélah|সেলা|સેલાહ|Szela|セラ|ಸೆಲಾ|Zela|സേലാ|సెలా|सिलाह)[ [:punct:]]* /ui';
+	$preg4 = '/(Selaⱨ|Селаһ|Hera|Selá|Selaah|Sela|Sila|Selah|Pause|Selah|Jela|细拉|細拉|চেলা|셀라|ସେଲା|சேலா|Sélah|সেলা|સેલાહ|Szela|セラ|ಸೆಲಾ|Zela|സേലാ|సెలా|सिलाह|Interlud|Jinaso|Higgaion|Higaion|Meditation|Jeu d\'instruments|Higgajon|Zwischenspiel|Hikaiona|Hikaione)/';
 	if ('Holy-Bible---Tagalog---Tagalog-Bible'==$bible) {
 		$preg1 = preg_replace('/sila\|/ui', '', $preg1);
 		$preg2 = preg_replace('/sila\|/ui', '', $preg2);
@@ -907,7 +941,7 @@ function AION_BIBLES_REMAPPER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 		return FALSE;
 	}
 	/* skip blanks */
-	if (strlen(trim($text))<5) {
+	if (strlen(trim($text))<4) {
 		$current="WARNING REMAPPED = $bible: Empty verse skipped: $book $chapter $verse $text";
 		if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
 		return FALSE;
@@ -1803,6 +1837,16 @@ function AION_BIBLES_REMAPPER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 			goto YO;
 		}
 	}
+	/* PRO1 */
+	if (isset($database[T_VERSEMAP][$bible.'-PRO1'])!==FALSE) {
+		/* Proverbs */
+		if ($book=='PRO' && $chapter==1) {
+			$verse = sprintf('%03d', $verse + 1);
+			$current="WARNING REMAPPED = $bible: SINGLE Proverbs 1";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
 	/* PRO11-12 */
 	if (isset($database[T_VERSEMAP][$bible.'-PRO11-12'])!==FALSE) {
 		/* Proverbs */
@@ -1884,6 +1928,15 @@ function AION_BIBLES_REMAPPER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 		if ($book=='SOL' && $chapter==1) {
 			$verse = sprintf('%03d', $verse + 1);
 			$current="WARNING REMAPPED = $bible: SINGLE Song of Solomon 1";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
+	/* SOL1-8 */
+	if (isset($database[T_VERSEMAP][$bible.'-SOL1-8'])!==FALSE) {
+		if ($book=='SOL') {
+			$verse = sprintf('%03d', $verse + 1);
+			$current="WARNING REMAPPED = $bible: SINGLE Song of Solomon 1-8";
 			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
 			goto YO;
 		}
@@ -2334,6 +2387,16 @@ function AION_BIBLES_REMAPPER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 			goto YO;
 		}
 	}
+	/* COL3-4 */
+	if (isset($database[T_VERSEMAP][$bible.'-COL3-4'])!==FALSE) {
+		/* Colossians */
+		if ($book=='COL' && (($chapter==3 && $verse>=26) || ($chapter==4))) {
+			AION_BIBLES_SLIDE_FORE($bible, 3, 25, 1, $chapter, $verse);
+			$current="WARNING REMAPPED = $bible: SINGLE Colossians 3-4";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
 	/* 2TH2 */
 	if (isset($database[T_VERSEMAP][$bible.'-2TH2'])!==FALSE) {
 		/* 2 Thessalonians 2 */
@@ -2455,6 +2518,7 @@ function AION_BIBLES_COMBINER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 		if ($bible!=$combine['BIBLE'] || $index!=$combine['INDEX'] || ($combine['COMBINE']>0 && ($chapter!=$combine['CHAPTER'] || (int)$verse<=(int)$combine['VERSE']))) { AION_ECHO("ERROR! COMBINER PROB-2: $bible	$book	$chap	$vers	$text\n".print_r($combine,TRUE)); }
 		if ($combine['COMBINE']>0) { // combine backwards, original
 			$verse = $combine['VERSE'];
+			foreach(array_keys($combine_text, "XCOMBINE", TRUE) as $key) { unset($combine_text[$key]); }
 			$text = implode(' ',$combine_text)." ".trim($text);
 			$combine_text = NULL;
 			if ((int)$verse >  (int)$combine['TOTAL']) { AION_ECHO("ERROR! COMBINER PROB-3: $bible	$book	$chap	$vers	$text\n".print_r($combine,TRUE)); }
@@ -2462,6 +2526,7 @@ function AION_BIBLES_COMBINER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 		}
 		else {
 			if ((int)$verse != (int)$combine['TOTAL']) { AION_ECHO("ERROR! COMBINER MISSED FORWARD TARGET VERSE#: $bible	$book	$chap	$vers	$text\n".print_r($combine,TRUE)); }
+			foreach(array_keys($combine_text, "XCOMBINE", TRUE) as $key) { unset($combine_text[$key]); }
 			$text = implode(' ',$combine_text)." ".trim($text);
 			$combine_text = NULL;
 			$combine = NULL;
@@ -2911,34 +2976,34 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 		'foreign'	=> &$foreign,
 		)));
 	$grandmarker = array();
-	$grandmarker['BIBLE_COUNT']	= $grandtotal['BIBLE_COUNT']-174;
-	$grandmarker['LANG_COUNT']	= $grandtotal['LANG_COUNT']-74;
-	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-4830;
-	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-4101;
-	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-155599;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-4095985;
-	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-38594;
-	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-239;
-	$grandmarker['LONG']		= $grandtotal['LONG']-518;
+	$grandmarker['BIBLE_COUNT']	= $grandtotal['BIBLE_COUNT']-214;
+	$grandmarker['LANG_COUNT']	= $grandtotal['LANG_COUNT']-98;
+	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-5574;
+	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-5076;
+	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-182920;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-4826435;
+	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-47067;
+	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-259;
+	$grandmarker['LONG']		= $grandtotal['LONG']-824;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-0;
-	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-1441;
+	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-1847;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-733;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-8253;
-	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-5525;
-	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-7530;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-10389;
+	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-10504;
+	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-7864;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-518;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-539;
-	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-589;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-88940;
-	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-18376;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-2012.55;
-	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-94;
-	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-55;
-	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-163;
-	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-93;
-	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-112;
-	$grandmarker['PDF_PRTL']	= $grandtotal['PDF_PRTL']-88;
-	$grandmarker['TRANS']		= $grandtotal['TRANS']-30;
+	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-602;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-105152;
+	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-21988;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-2393.46;
+	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-97;
+	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-57;
+	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-203;
+	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-112;
+	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-132;
+	$grandmarker['PDF_PRTL']	= $grandtotal['PDF_PRTL']-125;
+	$grandmarker['TRANS']		= $grandtotal['TRANS']-66;
 	$grandtotal['LONG']		= ($grandtotal['LONG']		== 0 ? $grandtotal['LONG']		: "<span style='font-weight:bold; color:red;'>".$grandtotal['LONG']."</span>" );
 	$grandtotal['CHAP_NO']	= ($grandtotal['CHAP_NO']	== 0 ? $grandtotal['CHAP_NO']	: "<span style='font-weight:bold; color:red;'>".$grandtotal['CHAP_NO']."</span>" );
 	$grandtotal['VERS_NO']	= ($grandtotal['VERS_NO']	== 0 ? $grandtotal['VERS_NO']	: "<span style='font-weight:bold; color:red;'>".$grandtotal['VERS_NO']."</span>" );
@@ -3158,51 +3223,51 @@ function AION_LOOP_HTMS_DOIT($args) {
 	}
 	else {	
 		// KDP Full
-		$kdpedit = (empty($args['database']['T_VERSIONS'][$bible]['KDP']) || $args['database']['T_VERSIONS'][$bible]['KDP']=='NULL' ? "Edit" : "<a href='https://kdp.amazon.com/action/dualbookshelf.editpaperbackdetails/en_US/title-setup/paperback/".$args['database']['T_VERSIONS'][$bible]['KDP']."/details?ref_=kdp_BS_D_ta_de' target='_blank'>Edit</a>");
+		$kdpedit = (empty($args['database']['T_VERSIONS'][$bible]['KDP']) || $args['database']['T_VERSIONS'][$bible]['KDP']=='NULL' ? "<a href='https://kdp.amazon.com/en_US/bookshelf' target='_blank'>Add</a>" : "<a href='https://kdp.amazon.com/action/dualbookshelf.editpaperbackdetails/en_US/title-setup/paperback/".$args['database']['T_VERSIONS'][$bible]['KDP']."/details?ref_=kdp_BS_D_ta_de' target='_blank'>Edit</a>");
 		if ($args['database']['T_FORPRINT'][$bible]['YESKDP']=='TRUE' && !empty($args['database']['T_VERSIONS'][$bible]['AMAZON']) && $args['database']['T_VERSIONS'][$bible]['AMAZON']!='NULL') {
 			$kdpbuy = "<a href='https://www.amazon.com/dp/".$args['database']['T_VERSIONS'][$bible]['AMAZON']."' target='_blank'>Buy</a>";
-			$htm .= "<tr><td>KDP</td><td>POD_KDP_ALL_BODY.pdf &nbsp;/&nbsp; POD_KDP_ALL_COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
+			$htm .= "<tr><td>KDP_ALL</td><td>POD_KDP_ALL_BODY.pdf &nbsp;/&nbsp; POD_KDP_ALL_COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
 		}
 		else if (!empty($args['database']['T_VERSIONS'][$bible]['AMAZON']) && $args['database']['T_VERSIONS'][$bible]['AMAZON']!='NULL') {
 			$kdpbuy = "<a href='https://www.amazon.com/dp/".$args['database']['T_VERSIONS'][$bible]['AMAZON']."' target='_blank'>Buy*</a>";
-			$htm .= "<tr><td>KDP</td><td>POD_KDP_ALL_BODY.pdf &nbsp;/&nbsp; POD_KDP_ALL_COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
+			$htm .= "<tr><td>KDP_ALL</td><td>POD_KDP_ALL_BODY.pdf &nbsp;/&nbsp; POD_KDP_ALL_COVER.pdf &nbsp;/&nbsp; $kdpedit* $kdpbuy</td></tr>\n";
 		}
 		else if ($args['database']['T_FORPRINT'][$bible]['YESKDP']=='TRUE')  {
 			$kdpbuy = "<a href='https://www.amazon.com/s/keywords=Holy Bible Aionian Edition ".$args['database']['T_FORPRINT'][$bible]['VERSIONE']."' target='_blank'>Find</a>";
-			$htm .= "<tr><td>KDP</td><td>POD_KDP_ALL_BODY.pdf &nbsp;/&nbsp; POD_KDP_ALL_COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
+			$htm .= "<tr><td>KDP_ALL</td><td>POD_KDP_ALL_BODY.pdf &nbsp;/&nbsp; POD_KDP_ALL_COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
 		}
-		else { $htm .= "<tr><td>KDP</td><td>None</td></tr>\n"; }
+		else { $htm .= "<tr><td>KDP_ALL</td><td>None</td></tr>\n"; }
 		// KDP NT
-		$kdpedit = (empty($args['database']['T_VERSIONS'][$bible]['KDPNT']) || $args['database']['T_VERSIONS'][$bible]['KDPNT']=='NULL' ? "Edit" : "<a href='https://kdp.amazon.com/action/dualbookshelf.editpaperbackdetails/en_US/title-setup/paperback/".$args['database']['T_VERSIONS'][$bible]['KDPNT']."/details?ref_=kdp_BS_D_ta_de' target='_blank'>Edit</a>");
+		$kdpedit = (empty($args['database']['T_VERSIONS'][$bible]['KDPNT']) || $args['database']['T_VERSIONS'][$bible]['KDPNT']=='NULL' ? "<a href='https://kdp.amazon.com/en_US/bookshelf' target='_blank'>Add</a>" : "<a href='https://kdp.amazon.com/action/dualbookshelf.editpaperbackdetails/en_US/title-setup/paperback/".$args['database']['T_VERSIONS'][$bible]['KDPNT']."/details?ref_=kdp_BS_D_ta_de' target='_blank'>Edit</a>");
 		if ($args['database']['T_FORPRINT'][$bible]['YESNEW']=='TRUE' && $args['database']['T_FORPRINT'][$bible]['YESKDP']=='TRUE' && !empty($args['database']['T_VERSIONS'][$bible]['AMAZONNT']) && $args['database']['T_VERSIONS'][$bible]['AMAZONNT']!='NULL') {
 			$kdpbuy = "<a href='https://www.amazon.com/dp/".$args['database']['T_VERSIONS'][$bible]['AMAZONNT']."' target='_blank'>Buy</a>";
 			$htm .= "<tr><td>KDP_NEW</td><td>POD_KDP_NEW_BODY.pdf &nbsp;/&nbsp; POD_KDP_NEW_COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
 		}
 		else if (!empty($args['database']['T_VERSIONS'][$bible]['AMAZONNT']) && $args['database']['T_VERSIONS'][$bible]['AMAZONNT']!='NULL') {
 			$kdpbuy = "<a href='https://www.amazon.com/dp/".$args['database']['T_VERSIONS'][$bible]['AMAZONNT']."' target='_blank'>Buy*</a>";
-			$htm .= "<tr><td>KDP_NEW</td><td>POD_KDP_NEW_BODY.pdf &nbsp;/&nbsp; POD_KDP_NEW_COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
+			$htm .= "<tr><td>KDP_NEW</td><td>POD_KDP_NEW_BODY.pdf &nbsp;/&nbsp; POD_KDP_NEW_COVER.pdf &nbsp;/&nbsp; $kdpedit* $kdpbuy</td></tr>\n";
 		}
 		else if ($args['database']['T_FORPRINT'][$bible]['YESNEW']=='TRUE' && $args['database']['T_FORPRINT'][$bible]['YESKDP']=='TRUE')  {
 			$kdpbuy = "<a href='https://www.amazon.com/s/keywords=Holy Bible Aionian Edition ".$args['database']['T_FORPRINT'][$bible]['VERSIONE']."' target='_blank'>Find</a>";
 			$htm .= "<tr><td>KDP_NEW</td><td>POD_KDP_NEW_BODY.pdf &nbsp;/&nbsp; POD_KDP_NEW_COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
 		}
-		else { $htm .= "<tr><td>KDP_NT</td><td>None</td></tr>\n"; }
+		else { $htm .= "<tr><td>KDP_NEW</td><td>None</td></tr>\n"; }
 		// Lulu Full
 		// Jump to landing pages:  /start  /copyright  /design  /details  /pricing
-		if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLU']) && $args['database']['T_VERSIONS'][$bible]['LULU']!="NULL") { $htm .= "<tr><td>LULU-FULL</td><td>Problem</td></tr>\n"; }
-		else if (!empty($args['database']['T_FORPRINT'][$bible]['ISBNLU']) && $args['database']['T_VERSIONS'][$bible]['LULU']=="NULL") { $htm .= "<tr><td>LULU-FULL</td><td>Problem</td></tr>\n"; }
-		else if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLU'])) { $htm .= "<tr><td>LULU-FULL</td><td>None</td></tr>\n"; }
-		else { $htm .= "<tr><td>LULU_ALL</td><td>POD_LULU_ALL_BODY.pdf &nbsp;/&nbsp; POD_LULU_ALL_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLU']."</b> &nbsp;/&nbsp;      <a href='https://www.lulu.com/account/wizard/".$args['database']['T_VERSIONS'][$bible]['LULUX']."/start' target='_blank'>Edit</a> <a href='http://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULU']."' target='_blank'>Buy</a></td></tr>\n"; }
+		if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLU']) && $args['database']['T_VERSIONS'][$bible]['LULU']!="NULL") { $htm .= "<tr><td>LULU_ALL</td><td>Problem</td></tr>\n"; }
+		else if (!empty($args['database']['T_FORPRINT'][$bible]['ISBNLU']) && $args['database']['T_VERSIONS'][$bible]['LULU']=="NULL") { $htm .= "<tr><td>LULU_ALL</td><td>POD_LULU_ALL_BODY.pdf &nbsp;/&nbsp; POD_LULU_ALL_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLU']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/projects' target='_blank'>Add</a></td></tr>\n"; }
+		else if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLU'])) { $htm .= "<tr><td>LULU_ALL</td><td>None</td></tr>\n"; }
+		else { $htm .= "<tr><td>LULU_ALL</td><td>POD_LULU_ALL_BODY.pdf &nbsp;/&nbsp; POD_LULU_ALL_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLU']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/wizard/".$args['database']['T_VERSIONS'][$bible]['LULUX']."/start' target='_blank'>Edit</a> <a href='http://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULU']."' target='_blank'>Buy</a></td></tr>\n"; }
 		// Lulu NT	
-		if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLUNT']) && $args['database']['T_VERSIONS'][$bible]['LULUNT']!="NULL") { $htm .= "<tr><td>LULU-NT</td><td>Problem</td></tr>\n"; }
-		else if (!empty($args['database']['T_FORPRINT'][$bible]['ISBNLUNT']) && $args['database']['T_VERSIONS'][$bible]['LULUNT']=="NULL") { $htm .= "<tr><td>LULU-NT</td><td>Problem</td></tr>\n"; }
-		else if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLUNT'])) { $htm .= "<tr><td>LULU-NT</td><td>None</td></tr>\n"; }
+		if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLUNT']) && $args['database']['T_VERSIONS'][$bible]['LULUNT']!="NULL") { $htm .= "<tr><td>LULU_NEW</td><td>Problem</td></tr>\n"; }
+		else if (!empty($args['database']['T_FORPRINT'][$bible]['ISBNLUNT']) && $args['database']['T_VERSIONS'][$bible]['LULUNT']=="NULL") { $htm .= "<tr><td>LULU_NEW</td><td>POD_LULU_NEW_BODY.pdf &nbsp;/&nbsp; POD_LULU_NEW_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUNT']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/projects' target='_blank'>Add</a></td></tr>\n"; }
+		else if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLUNT'])) { $htm .= "<tr><td>LULU_NEW</td><td>None</td></tr>\n"; }
 		else { $htm .= "<tr><td>LULU_NEW</td><td>POD_LULU_NEW_BODY.pdf &nbsp;/&nbsp; POD_LULU_NEW_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUNT']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/wizard/".$args['database']['T_VERSIONS'][$bible]['LULUNTX']."/start' target='_blank'>Edit</a> <a href='http://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULUNT']."' target='_blank'>Buy</a></td></tr>\n"; }
 		// Lulu Hardcover
-		if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLUHARD']) && $args['database']['T_VERSIONS'][$bible]['LULUHARD']!="NULL") { $htm .= "<tr><td>LULU-HARD</td><td>Problem</td></tr>\n"; }
-		else if (!empty($args['database']['T_FORPRINT'][$bible]['ISBNLUHARD']) && $args['database']['T_VERSIONS'][$bible]['LULUHARD']=="NULL") { $htm .= "<tr><td>LULU-HARD</td><td>Problem</td></tr>\n"; }
-		else if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLUHARD'])) { $htm .= "<tr><td>LULU-HARD</td><td>None</td></tr>\n"; }
-		else  { $htm .= "<tr><td>LULU_HAR</td><td>POD_LULU_HAR_BODY.pdf &nbsp;/&nbsp; POD_LULU_HAR_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUHARD']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/wizard/".$args['database']['T_VERSIONS'][$bible]['LULUHARDX']."/start' target='_blank'>Edit</a> <a href='http://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULUHARD']."' target='_blank'>Buy</a></td></tr>\n"; }
+		if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLUHARD']) && $args['database']['T_VERSIONS'][$bible]['LULUHARD']!="NULL") { $htm .= "<tr><td>LULU_HARD</td><td>Problem</td></tr>\n"; }
+		else if (!empty($args['database']['T_FORPRINT'][$bible]['ISBNLUHARD']) && $args['database']['T_VERSIONS'][$bible]['LULUHARD']=="NULL") { $htm .= "<tr><td>LULU_HARD</td><td>POD_LULU_HAR_BODY.pdf &nbsp;/&nbsp; POD_LULU_HAR_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUHARD']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/projects' target='_blank'>Add</a></td></tr>\n"; }
+		else if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLUHARD'])) { $htm .= "<tr><td>LULU_HARD</td><td>None</td></tr>\n"; }
+		else  { $htm .= "<tr><td>LULU_HARD</td><td>POD_LULU_HAR_BODY.pdf &nbsp;/&nbsp; POD_LULU_HAR_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUHARD']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/wizard/".$args['database']['T_VERSIONS'][$bible]['LULUHARDX']."/start' target='_blank'>Edit</a> <a href='http://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULUHARD']."' target='_blank'>Buy</a></td></tr>\n"; }
 	}
 	$htm .= "<tr><td><br /></td><td></td></tr>\n";
 	$htm .= "<tr><td>LANGUAGE</td><td>".$args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH']."</td></tr>\n";
@@ -3621,8 +3686,8 @@ function AION_LOOP_HTMS_DOIT($args) {
 	$NOTFIXED = ($NOTFIXED == 0 ? $NOTFIXED : "<span style='font-weight:bold; color:red;'>$NOTFIXED</span>" );
 	$REVE_NO = ($REVE_NO == 0 ? $REVE_NO : "<span style='font-weight:bold; color:red;'>$REVE_NO</span>" );
 	$REVE_EX = ($REVE_EX == 0 ? $REVE_EX : "<span style='font-weight:bold; color:red;'>$REVE_EX</span>" );
-	$PDFPA = ($PDFPA <= 0 ? "" : ($PDFPA <= 740 ? $PDFPA : "<span style='font-weight:bold; color:red;'>$PDFPA</span>"));
-	$PDFPN = ($PDFPN <= 0 ? "" : ($PDFPN > 180 && $PDFPN < 190 ? "<span style='font-weight:bold; color:red;'>$PDFPN</span>" : $PDFPN));
+	$PDFPA = ($PDFPA <= 0 ? "" : ($PDFPA <= 700 ? $PDFPA : "<span style='font-weight:bold; color:red;'>$PDFPA</span>"));
+	$PDFPN = ($PDFPN <= 0 ? "" : ($PDFPN <= 192 ? $PDFPN : "<span style='font-weight:bold; color:red;'>$PDFPN</span>"));
 	$PDFPIF = sprintf("%.2f",$PDFPI);
 	$PDFPIF = ($PDFPI <= 0 ? "" : ($PDFPI < 15 ? $PDFPIF : "<span style='font-weight:bold; color:red;'>$PDFPIF</span>"));
 	$ISGOOD = ($ISGOOD == "GOOD" ? "ok" : "<span style='font-weight:bold; color:red;'>sos</span>" );
@@ -3809,6 +3874,12 @@ function AION_LOOP_IVERSE($source, $destiny) {
 	AION_FILE_DATA_GET( './aion_database/NUMBERS.txt', 'T_NUMBERS', $database, 'BIBLE', FALSE );
 	$database['T_IVERSE'] = array();
 	$database['T_IVERSE'][] = array(
+		'BIBLE'			=> 'BIBLE',
+		'REF'			=> 'REFERENCE',
+		'TEXT'			=> 'TEXT',
+		);
+	$database['T_IVERSE2'] = array();
+	$database['T_IVERSE2'][] = array(
 		'BIBLE'			=> 'DEFAULT',
 		'JOH3_16'		=> 'For God so loved the world that he gave his only begotten Son that whoever believes in him should not perish, but have...',
 		'JOH3_16_B'		=> 'John 3:16',
@@ -3838,6 +3909,7 @@ function AION_LOOP_IVERSE($source, $destiny) {
 		'book'		=> AION_BIBLES_LIST(),
 		) );
 	AION_FILE_DATA_PUT($destiny.'/IVERSE.txt',$database['T_IVERSE']);
+	AION_FILE_DATA_PUT($destiny.'/IVERSE2.txt',$database['T_IVERSE2']);
 	AION_unset($database); $database=NULL; unset($database);
 }
 function AION_LOOP_IVERSE_DOIT($args) {
@@ -3846,6 +3918,7 @@ function AION_LOOP_IVERSE_DOIT($args) {
 	$database = array();
 	AION_FILE_DATA_GET( $args['filepath'], 'T_BIBLE', $database, array('BOOK','CHAPTER','VERSE'), FALSE );
 	$missed = 0;
+	// IVERSE
 	$args['database']['T_IVERSE'][] = array('BIBLE'=>$bible,'IVERSE'=>'JOH-003-016',
 	'REF'	=> empty($database['T_BIBLE']['JOH-003-016']['TEXT']) ? NULL : $args['database']['T_BOOKS'][$bible]['John']			.' '.$args['database']['T_NUMBERS'][$bible]['3']	.':'.$args['database']['T_NUMBERS'][$bible]['16'],
 	'TEXT'	=> $database['T_BIBLE']['JOH-003-016']['TEXT'] ?? NULL,
@@ -3882,7 +3955,30 @@ function AION_LOOP_IVERSE_DOIT($args) {
 	'REF'	=> empty($database['T_BIBLE']['MAT-028-019']['TEXT']) ? NULL : $args['database']['T_BOOKS'][$bible]['Matthew']		.' '.$args['database']['T_NUMBERS'][$bible]['28']	.':'.$args['database']['T_NUMBERS'][$bible]['19'],
 	'TEXT'	=> $database['T_BIBLE']['MAT-028-019']['TEXT'] ?? NULL,
 	);
-
+	//IVERSE2
+	$args['database']['T_IVERSE2'][]  = array(
+	'BIBLE'			=> $bible,
+	'JOH3_16'		=> $database['T_BIBLE']['JOH-003-016']['TEXT'] ?? NULL,
+	'JOH3_16_B'		=> empty($database['T_BIBLE']['JOH-003-016']['TEXT']) ? NULL : $args['database']['T_BOOKS'][$bible]['John']			.' '.$args['database']['T_NUMBERS'][$bible]['3']	.':'.$args['database']['T_NUMBERS'][$bible]['16'],
+	'GEN3_24'		=> $database['T_BIBLE']['GEN-003-024']['TEXT'] ?? NULL,
+	'GEN3_24_B'		=> empty($database['T_BIBLE']['GEN-003-024']['TEXT']) ? NULL : $args['database']['T_BOOKS'][$bible]['Genesis']		.' '.$args['database']['T_NUMBERS'][$bible]['3']	.':'.$args['database']['T_NUMBERS'][$bible]['24'],
+	'LUK23_34'		=> $database['T_BIBLE']['LUK-023-034']['TEXT'] ?? NULL,			
+	'LUK23_34_B'	=> empty($database['T_BIBLE']['LUK-023-034']['TEXT']) ? NULL : $args['database']['T_BOOKS'][$bible]['Luke']			.' '.$args['database']['T_NUMBERS'][$bible]['23']	.':'.$args['database']['T_NUMBERS'][$bible]['34'],
+	'REV21_2_3'		=> ($database['T_BIBLE']['REV-021-002']['TEXT'] ?? NULL).' '.($database['T_BIBLE']['REV-021-003']['TEXT'] ?? NULL),			
+	'REV21_2_3_B'	=> empty($database['T_BIBLE']['REV-021-002']['TEXT']) ? NULL : $args['database']['T_BOOKS'][$bible]['Revelation']	.' '.$args['database']['T_NUMBERS'][$bible]['21']	.':'.$args['database']['T_NUMBERS'][$bible]['2'].'-'.$args['database']['T_NUMBERS'][$bible]['3'],
+	'HEB11_8'		=> $database['T_BIBLE']['HEB-011-008']['TEXT'] ?? NULL,	
+	'HEB11_8_B'		=> empty($database['T_BIBLE']['HEB-011-008']['TEXT']) ? NULL : $args['database']['T_BOOKS'][$bible]['Hebrews']		.' '.$args['database']['T_NUMBERS'][$bible]['11']	.':'.$args['database']['T_NUMBERS'][$bible]['8'],
+	'EXO13_17'		=> $database['T_BIBLE']['EXO-013-017']['TEXT'] ?? NULL,	
+	'EXO13_17_B'	=> empty($database['T_BIBLE']['EXO-013-017']['TEXT']) ? NULL : $args['database']['T_BOOKS'][$bible]['Exodus']		.' '.$args['database']['T_NUMBERS'][$bible]['13']	.':'.$args['database']['T_NUMBERS'][$bible]['17'],
+	'MAR10_45'		=> $database['T_BIBLE']['MAR-010-045']['TEXT'] ?? NULL,	
+	'MAR10_45_B'	=> empty($database['T_BIBLE']['MAR-010-045']['TEXT']) ? NULL : $args['database']['T_BOOKS'][$bible]['Mark']			.' '.$args['database']['T_NUMBERS'][$bible]['10']	.':'.$args['database']['T_NUMBERS'][$bible]['45'],
+	'ROM1_1'		=> $database['T_BIBLE']['ROM-001-001']['TEXT'] ?? NULL,	
+	'ROM1_1_B'		=> empty($database['T_BIBLE']['ROM-001-001']['TEXT']) ? NULL : $args['database']['T_BOOKS'][$bible]['Romans']		.' '.$args['database']['T_NUMBERS'][$bible]['1']	.':'.$args['database']['T_NUMBERS'][$bible]['1'],
+	'MAT28_19'		=> $database['T_BIBLE']['MAT-028-019']['TEXT'] ?? NULL,	
+	'MAT28_19_B'	=> empty($database['T_BIBLE']['MAT-028-019']['TEXT']) ? NULL : $args['database']['T_BOOKS'][$bible]['Matthew']		.' '.$args['database']['T_NUMBERS'][$bible]['28']	.':'.$args['database']['T_NUMBERS'][$bible]['19'],
+	);
+	
+	// Wrap-up
 	$missed += empty($database['T_BIBLE']['JOH-003-016']['TEXT']) ? 1 : 0;
 	$missed += empty($database['T_BIBLE']['GEN-003-024']['TEXT']) ? 1 : 0;
 	$missed += empty($database['T_BIBLE']['LUK-023-034']['TEXT']) ? 1 : 0;
@@ -5405,6 +5501,88 @@ return(array(
 ));
 }
 
+
+
+/*** bible4u book map ***/
+function AION_BIBLES_LIST_B4U() {
+return(array(
+'GEN' => 'Gen',
+'EXO' => 'Exod',
+'LEV' => 'Lev',
+'NUM' => 'Num',
+'DEU' => 'Deut',
+'JOS' => 'Josh',
+'JDG' => 'Judg',
+'RUT' => 'Ruth',
+'1SA' => '1Sam',
+'2SA' => '2Sam',
+'1KI' => '1Kgs',
+'2KI' => '2Kgs',
+'1CH' => '1Chr',
+'2CH' => '2Chr',
+'EZR' => 'Ezra',
+'NEH' => 'Neh',
+'EST' => 'Esth',
+'JOB' => 'Job',
+'PSA' => 'Ps',
+'PRO' => 'Prov',
+'ECC' => 'Eccl',
+'SOL' => 'Song',
+'ISA' => 'Isa',
+'JER' => 'Jer',
+'LAM' => 'Lam',
+'EZE' => 'Ezek',
+'DAN' => 'Dan',
+'HOS' => 'Hos',
+'JOE' => 'Joel',
+'AMO' => 'Amos',
+'OBA' => 'Obad',
+'JON' => 'Jonah',
+'MIC' => 'Mic',
+'NAH' => 'Nah',
+'HAB' => 'Hab',
+'ZEP' => 'Zeph',
+'HAG' => 'Hag',
+'ZEC' => 'Zech',
+'MAL' => 'Mal',
+'MAT' => 'Matt',
+'MAR' => 'Mark',
+'LUK' => 'Luke',
+'JOH' => 'John',
+'ACT' => 'Acts',
+'ROM' => 'Rom',
+'1CO' => '1Cor',
+'2CO' => '2Cor',
+'GAL' => 'Gal',
+'EPH' => 'Eph',
+'PHI' => 'Phil',
+'COL' => 'Col',
+'1TH' => '1Thess',
+'2TH' => '2Thess',
+'1TI' => '1Tim',
+'2TI' => '2Tim',
+'TIT' => 'Titus',
+'PHM' => 'Phlm',
+'HEB' => 'Heb',
+'JAM' => 'Jas',
+'1PE' => '1Pet',
+'2PE' => '2Pet',
+'1JO' => '1John',
+'2JO' => '2John',
+'3JO' => '3John',
+'JUD' => 'Jude',
+'REV' => 'Rev',
+
+/* apocrypha */
+'TOB' => 'Tob',
+'JDT' => 'Jdt',
+'1MA' => '1Macc',
+'2MA' => '2Macc',
+'BAR' => 'Bar',
+'WIS' => 'Wis',
+'SIR' => 'Sir',
+));
+}
 
 
 /*** unbound bible book to standard abbreviation ***/
