@@ -15,10 +15,10 @@ AION_LOOP_CONV		(	'../source-production',
 						'../checks/UNICODE_USAGE.txt',
 						'../checks/TEXTREPAIR.txt',
 						'../checks/RAWCHECK.txt',
+						'../checks/TAGS.txt',
 						FALSE);
 
 AION_LOOP_AION		(	'../www-stageresources',		'../www-stageresources',	'../www-stage/library');
-
 
 /*** done ***/
 AION_ECHO("REMINDER! COPY TO DATABASE: ../checks/UNTRANSLATEREVERSE.txt");

@@ -4,17 +4,29 @@
 *** AION: READ FILE SOURCE TABLE
 *** AION: LOOP BIBLES
 *** AION: COPIED https://github.com/futurepress/epubjs-reader/archive/master.zip to ../source-stage/FILE_FuturePress_ePub.js.zip
+*** AION: WARN! copy(https://eBible.org/sword/zip/hrv1942eb.zip): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ ~ https://eBible.org/sword/zip/hrv1942eb.zip to ../source-stage/Holy-Bible---Croatian---Croatian-Bible.crosswire.zip
 *** AION: WARN! copy(http://ebible.org/sword/zip/engBrent1851eb.zip): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
  ~ http://ebible.org/sword/zip/engBrent1851eb.zip to ../source-stage/Holy-Bible---English---Brenton-English-Septuagint.crosswire.zip
+*** AION: WARN! copy(https://eBible.org/sword/zip/uigpin2010eb.zip): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ ~ https://eBible.org/sword/zip/uigpin2010eb.zip to ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Pinyin.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/FILE_FuturePress_ePub.js.zip VS ../source-production/FILE_FuturePress_ePub.js.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Albanian-Tosk---Albanian-Bible.crosswire.zip VS ../source-production/Holy-Bible---Albanian-Tosk---Albanian-Bible.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Albanian-Tosk---Albanian-Bible.epub VS ../source-production/Holy-Bible---Albanian-Tosk---Albanian-Bible.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Albanian-Tosk---Albanian-Bible.pdf VS ../source-production/Holy-Bible---Albanian-Tosk---Albanian-Bible.pdf
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Albanian-Tosk---Albanian-Bible.vpl.zip VS ../source-production/Holy-Bible---Albanian-Tosk---Albanian-Bible.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Amo---Amo-Bible.crosswire.zip VS ../source-production/Holy-Bible---Amo---Amo-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Amo---Amo-Bible.epub VS ../source-production/Holy-Bible---Amo---Amo-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Amo---Amo-Bible.pdf VS ../source-production/Holy-Bible---Amo---Amo-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Amo---Amo-Bible.vpl.zip VS ../source-production/Holy-Bible---Amo---Amo-Bible.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.crosswire.zip VS ../source-production/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.epub VS ../source-production/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.pdf VS ../source-production/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.pdf
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.vpl.zip VS ../source-production/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Arabic---New-Arabic-Bible.crosswire.zip VS ../source-production/Holy-Bible---Arabic---New-Arabic-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Arabic---New-Arabic-Bible.epub VS ../source-production/Holy-Bible---Arabic---New-Arabic-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Arabic---New-Arabic-Bible.pdf VS ../source-production/Holy-Bible---Arabic---New-Arabic-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Arabic---New-Arabic-Bible.vpl.zip VS ../source-production/Holy-Bible---Arabic---New-Arabic-Bible.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Aramaic---Aramaic-NT-Peshitta.unbound.zip VS ../source-production/Holy-Bible---Aramaic---Aramaic-NT-Peshitta.unbound.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Arapaho---Arapaho-Luke.crosswire.zip VS ../source-production/Holy-Bible---Arapaho---Arapaho-Luke.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Arapaho---Arapaho-Luke.epub VS ../source-production/Holy-Bible---Arapaho---Arapaho-Luke.epub
@@ -46,14 +58,42 @@
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Breton---Breton-Gospels.epub VS ../source-production/Holy-Bible---Breton---Breton-Gospels.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Breton---Breton-Gospels.pdf VS ../source-production/Holy-Bible---Breton---Breton-Gospels.pdf
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Breton---Breton-Gospels.vpl.zip VS ../source-production/Holy-Bible---Breton---Breton-Gospels.vpl.zip
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Bulgarian---Bulgarian-Bible.pdf VS ../source-production/Holy-Bible---Bulgarian---Bulgarian-Bible.pdf
+tar: BULG.txt: implausibly old time stamp 1969-12-31 19:00:00
+tar: BULG.txt: implausibly old time stamp 1969-12-31 19:00:00
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Bulgarian---Bulgarian-Bible.txt.tar.gz VS ../source-production/Holy-Bible---Bulgarian---Bulgarian-Bible.txt.tar.gz
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Calo---Calo-Bible.crosswire.zip VS ../source-production/Holy-Bible---Calo---Calo-Bible.crosswire.zip
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Calo---Calo-Bible.sword VS ../source-production/Holy-Bible---Calo---Calo-Bible.sword
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Cebuano---Cebuano-Bible.crosswire.zip VS ../source-production/Holy-Bible---Cebuano---Cebuano-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Cebuano---Cebuano-Bible.epub VS ../source-production/Holy-Bible---Cebuano---Cebuano-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Cebuano---Cebuano-Bible.pdf VS ../source-production/Holy-Bible---Cebuano---Cebuano-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Cebuano---Cebuano-Bible.vpl.zip VS ../source-production/Holy-Bible---Cebuano---Cebuano-Bible.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms.crosswire.zip VS ../source-production/Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms.epub VS ../source-production/Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms.pdf VS ../source-production/Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms.pdf
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms.vpl.zip VS ../source-production/Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Cherokee---Cherokee-New-Testament.crosswire.zip VS ../source-production/Holy-Bible---Cherokee---Cherokee-New-Testament.crosswire.zip
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Cherokee---Cherokee-New-Testament.sword VS ../source-production/Holy-Bible---Cherokee---Cherokee-New-Testament.sword
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible.crosswire.zip VS ../source-production/Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible.epub VS ../source-production/Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible.pdf VS ../source-production/Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible.vpl.zip VS ../source-production/Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Chin-Matu---Matupi-Chin-Bible.crosswire.zip VS ../source-production/Holy-Bible---Chin-Matu---Matupi-Chin-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Chin-Matu---Matupi-Chin-Bible.epub VS ../source-production/Holy-Bible---Chin-Matu---Matupi-Chin-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Chin-Matu---Matupi-Chin-Bible.pdf VS ../source-production/Holy-Bible---Chin-Matu---Matupi-Chin-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Chin-Matu---Matupi-Chin-Bible.vpl.zip VS ../source-production/Holy-Bible---Chin-Matu---Matupi-Chin-Bible.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible.crosswire.zip VS ../source-production/Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible.epub VS ../source-production/Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible.pdf VS ../source-production/Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible.vpl.zip VS ../source-production/Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Chin-Siyin---Siyin-Chin-Bible.crosswire.zip VS ../source-production/Holy-Bible---Chin-Siyin---Siyin-Chin-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Chin-Siyin---Siyin-Chin-Bible.epub VS ../source-production/Holy-Bible---Chin-Siyin---Siyin-Chin-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Chin-Siyin---Siyin-Chin-Bible.pdf VS ../source-production/Holy-Bible---Chin-Siyin---Siyin-Chin-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Chin-Siyin---Siyin-Chin-Bible.vpl.zip VS ../source-production/Holy-Bible---Chin-Siyin---Siyin-Chin-Bible.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Chin-Thado---Chongthu-Bible.crosswire.zip VS ../source-production/Holy-Bible---Chin-Thado---Chongthu-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Chin-Thado---Chongthu-Bible.epub VS ../source-production/Holy-Bible---Chin-Thado---Chongthu-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Chin-Thado---Chongthu-Bible.pdf VS ../source-production/Holy-Bible---Chin-Thado---Chongthu-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Chin-Thado---Chongthu-Bible.vpl.zip VS ../source-production/Holy-Bible---Chin-Thado---Chongthu-Bible.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Chinese---Chinese-Union-Version-Simplified.crosswire.zip VS ../source-production/Holy-Bible---Chinese---Chinese-Union-Version-Simplified.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Chinese---Chinese-Union-Version-Simplified.epub VS ../source-production/Holy-Bible---Chinese---Chinese-Union-Version-Simplified.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Chinese---Chinese-Union-Version-Simplified.pdf VS ../source-production/Holy-Bible---Chinese---Chinese-Union-Version-Simplified.pdf
@@ -70,12 +110,21 @@
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Coptic---Coptic-NT.epub VS ../source-production/Holy-Bible---Coptic---Coptic-NT.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Coptic---Coptic-NT.pdf VS ../source-production/Holy-Bible---Coptic---Coptic-NT.pdf
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Coptic---Coptic-NT.vpl.zip VS ../source-production/Holy-Bible---Coptic---Coptic-NT.vpl.zip
-*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Croatian---Croatian-Bible.crosswire.zip VS ../source-production/Holy-Bible---Croatian---Croatian-Bible.crosswire.zip
-*** AION: DIFF REG: ../source-stage/Holy-Bible---Croatian---Croatian-Bible.sword VS ../source-production/Holy-Bible---Croatian---Croatian-Bible.sword
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Croatian---Croatian-Bible.epub VS ../source-production/Holy-Bible---Croatian---Croatian-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Croatian---Croatian-Bible.pdf VS ../source-production/Holy-Bible---Croatian---Croatian-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Croatian---Croatian-Bible.vpl.zip VS ../source-production/Holy-Bible---Croatian---Croatian-Bible.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Czech---Czech-Bible-Kralicka.crosswire.zip VS ../source-production/Holy-Bible---Czech---Czech-Bible-Kralicka.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Czech---Czech-Bible-Kralicka.epub VS ../source-production/Holy-Bible---Czech---Czech-Bible-Kralicka.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Czech---Czech-Bible-Kralicka.pdf VS ../source-production/Holy-Bible---Czech---Czech-Bible-Kralicka.pdf
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Czech---Czech-Bible-Kralicka.sword VS ../source-production/Holy-Bible---Czech---Czech-Bible-Kralicka.sword
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Danish---Danish-Bible.crosswire.zip VS ../source-production/Holy-Bible---Danish---Danish-Bible.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Danish---Danish-Bible.unbound.zip VS ../source-production/Holy-Bible---Danish---Danish-Bible.unbound.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Dombe---Dombe-Bible.crosswire.zip VS ../source-production/Holy-Bible---Dombe---Dombe-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Dombe---Dombe-Bible.epub VS ../source-production/Holy-Bible---Dombe---Dombe-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Dombe---Dombe-Bible.pdf VS ../source-production/Holy-Bible---Dombe---Dombe-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Dombe---Dombe-Bible.vpl.zip VS ../source-production/Holy-Bible---Dombe---Dombe-Bible.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Dutch---Canisiusvertaling-eb.epub VS ../source-production/Holy-Bible---Dutch---Canisiusvertaling-eb.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Dutch---Canisiusvertaling-eb.pdf VS ../source-production/Holy-Bible---Dutch---Canisiusvertaling-eb.pdf
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Dutch---Canisiusvertaling.crosswire.zip VS ../source-production/Holy-Bible---Dutch---Canisiusvertaling.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Dutch---Canisiusvertaling.epub VS ../source-production/Holy-Bible---Dutch---Canisiusvertaling.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Dutch---Canisiusvertaling.pdf VS ../source-production/Holy-Bible---Dutch---Canisiusvertaling.pdf
@@ -111,6 +160,10 @@
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Douay-Rheims-1899.epub VS ../source-production/Holy-Bible---English---Douay-Rheims-1899.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---English---Douay-Rheims-1899.pdf VS ../source-production/Holy-Bible---English---Douay-Rheims-1899.pdf
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Douay-Rheims-1899.vpl.zip VS ../source-production/Holy-Bible---English---Douay-Rheims-1899.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Family-35-NT.crosswire.zip VS ../source-production/Holy-Bible---English---Family-35-NT.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Family-35-NT.epub VS ../source-production/Holy-Bible---English---Family-35-NT.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---English---Family-35-NT.pdf VS ../source-production/Holy-Bible---English---Family-35-NT.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Family-35-NT.vpl.zip VS ../source-production/Holy-Bible---English---Family-35-NT.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Free-Bible-Version.crosswire.zip VS ../source-production/Holy-Bible---English---Free-Bible-Version.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Free-Bible-Version.epub VS ../source-production/Holy-Bible---English---Free-Bible-Version.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---English---Free-Bible-Version.pdf VS ../source-production/Holy-Bible---English---Free-Bible-Version.pdf
@@ -172,6 +225,8 @@
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Twentieth-Century-NT.crosswire.zip VS ../source-production/Holy-Bible---English---Twentieth-Century-NT.crosswire.zip
 *** AION: DIFF REG: ../source-stage/Holy-Bible---English---Twentieth-Century-NT.sword VS ../source-production/Holy-Bible---English---Twentieth-Century-NT.sword
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Tyndale-Bible.crosswire.zip VS ../source-production/Holy-Bible---English---Tyndale-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Tyndale-Bible.epub VS ../source-production/Holy-Bible---English---Tyndale-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---English---Tyndale-Bible.pdf VS ../source-production/Holy-Bible---English---Tyndale-Bible.pdf
 *** AION: DIFF REG: ../source-stage/Holy-Bible---English---Tyndale-Bible.sword VS ../source-production/Holy-Bible---English---Tyndale-Bible.sword
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Unlocked-Literal-Bible.crosswire.zip VS ../source-production/Holy-Bible---English---Unlocked-Literal-Bible.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Unlocked-Literal-Bible.epub VS ../source-production/Holy-Bible---English---Unlocked-Literal-Bible.epub
@@ -179,7 +234,10 @@
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Unlocked-Literal-Bible.vpl.zip VS ../source-production/Holy-Bible---English---Unlocked-Literal-Bible.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Webster-Bible-Revised.crosswire.zip VS ../source-production/Holy-Bible---English---Webster-Bible-Revised.crosswire.zip
 *** AION: DIFF REG: ../source-stage/Holy-Bible---English---Webster-Bible-Revised.sword VS ../source-production/Holy-Bible---English---Webster-Bible-Revised.sword
-*** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Webster-Bible.unbound.zip VS ../source-production/Holy-Bible---English---Webster-Bible.unbound.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Webster-Bible.crosswire.zip VS ../source-production/Holy-Bible---English---Webster-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Webster-Bible.epub VS ../source-production/Holy-Bible---English---Webster-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---English---Webster-Bible.pdf VS ../source-production/Holy-Bible---English---Webster-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Webster-Bible.vpl.zip VS ../source-production/Holy-Bible---English---Webster-Bible.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Weymouth-NT.unbound.zip VS ../source-production/Holy-Bible---English---Weymouth-NT.unbound.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---World-English-Bible-British-Edition.crosswire.zip VS ../source-production/Holy-Bible---English---World-English-Bible-British-Edition.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---World-English-Bible-British-Edition.epub VS ../source-production/Holy-Bible---English---World-English-Bible-British-Edition.epub
@@ -199,9 +257,14 @@
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---World-Messianic-Bible.vpl.zip VS ../source-production/Holy-Bible---English---World-Messianic-Bible.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Wycliffe-Bible.crosswire.zip VS ../source-production/Holy-Bible---English---Wycliffe-Bible.crosswire.zip
 *** AION: DIFF REG: ../source-stage/Holy-Bible---English---Wycliffe-Bible.sword VS ../source-production/Holy-Bible---English---Wycliffe-Bible.sword
-*** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Youngs-Literal-Translation.unbound.zip VS ../source-production/Holy-Bible---English---Youngs-Literal-Translation.unbound.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Youngs-Literal-Translation.crosswire.zip VS ../source-production/Holy-Bible---English---Youngs-Literal-Translation.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Youngs-Literal-Translation.epub VS ../source-production/Holy-Bible---English---Youngs-Literal-Translation.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---English---Youngs-Literal-Translation.pdf VS ../source-production/Holy-Bible---English---Youngs-Literal-Translation.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Youngs-Literal-Translation.vpl.zip VS ../source-production/Holy-Bible---English---Youngs-Literal-Translation.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Esperanto---Esperanto-Bible.crosswire.zip VS ../source-production/Holy-Bible---Esperanto---Esperanto-Bible.crosswire.zip
-*** AION: DIFF REG: ../source-stage/Holy-Bible---Esperanto---Esperanto-Bible.sword VS ../source-production/Holy-Bible---Esperanto---Esperanto-Bible.sword
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Esperanto---Esperanto-Bible.epub VS ../source-production/Holy-Bible---Esperanto---Esperanto-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Esperanto---Esperanto-Bible.pdf VS ../source-production/Holy-Bible---Esperanto---Esperanto-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Esperanto---Esperanto-Bible.vpl.zip VS ../source-production/Holy-Bible---Esperanto---Esperanto-Bible.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Finnish---Finnish-Bible.unbound.zip VS ../source-production/Holy-Bible---Finnish---Finnish-Bible.unbound.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Finnish---Finnish-Pyha-Raamattu.unbound.zip VS ../source-production/Holy-Bible---Finnish---Finnish-Pyha-Raamattu.unbound.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Flemish---Flemish-De-Jonge-Bible.crosswire.zip VS ../source-production/Holy-Bible---Flemish---Flemish-De-Jonge-Bible.crosswire.zip
@@ -233,7 +296,10 @@
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---French---French-Synodale-Bible.crosswire.zip VS ../source-production/Holy-Bible---French---French-Synodale-Bible.crosswire.zip
 *** AION: DIFF REG: ../source-stage/Holy-Bible---French---French-Synodale-Bible.sword VS ../source-production/Holy-Bible---French---French-Synodale-Bible.sword
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---German---German-Elberfelder-1871.unbound.zip VS ../source-production/Holy-Bible---German---German-Elberfelder-1871.unbound.zip
-*** AION: DIFF ZIP: ../source-stage/Holy-Bible---German---German-Elberfelder-1905.unbound.zip VS ../source-production/Holy-Bible---German---German-Elberfelder-1905.unbound.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---German---German-Elberfelder-1905.crosswire.zip VS ../source-production/Holy-Bible---German---German-Elberfelder-1905.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---German---German-Elberfelder-1905.epub VS ../source-production/Holy-Bible---German---German-Elberfelder-1905.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---German---German-Elberfelder-1905.pdf VS ../source-production/Holy-Bible---German---German-Elberfelder-1905.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---German---German-Elberfelder-1905.vpl.zip VS ../source-production/Holy-Bible---German---German-Elberfelder-1905.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---German---German-Katholiche-Riessler.crosswire.zip VS ../source-production/Holy-Bible---German---German-Katholiche-Riessler.crosswire.zip
 *** AION: DIFF REG: ../source-stage/Holy-Bible---German---German-Katholiche-Riessler.sword VS ../source-production/Holy-Bible---German---German-Katholiche-Riessler.sword
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---German---German-Kautzsch-Weizsacker.crosswire.zip VS ../source-production/Holy-Bible---German---German-Kautzsch-Weizsacker.crosswire.zip
@@ -249,6 +315,14 @@
 *** AION: DIFF REG: ../source-stage/Holy-Bible---German---German-Reinhardt-Bible.sword VS ../source-production/Holy-Bible---German---German-Reinhardt-Bible.sword
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---German---German-Tafel-Bible.crosswire.zip VS ../source-production/Holy-Bible---German---German-Tafel-Bible.crosswire.zip
 *** AION: DIFF REG: ../source-stage/Holy-Bible---German---German-Tafel-Bible.sword VS ../source-production/Holy-Bible---German---German-Tafel-Bible.sword
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Gourma---Gourma-Bible.crosswire.zip VS ../source-production/Holy-Bible---Gourma---Gourma-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Gourma---Gourma-Bible.epub VS ../source-production/Holy-Bible---Gourma---Gourma-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Gourma---Gourma-Bible.pdf VS ../source-production/Holy-Bible---Gourma---Gourma-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Gourma---Gourma-Bible.vpl.zip VS ../source-production/Holy-Bible---Gourma---Gourma-Bible.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Gourmantche---Gourmantche-Bible.crosswire.zip VS ../source-production/Holy-Bible---Gourmantche---Gourmantche-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Gourmantche---Gourmantche-Bible.epub VS ../source-production/Holy-Bible---Gourmantche---Gourmantche-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Gourmantche---Gourmantche-Bible.pdf VS ../source-production/Holy-Bible---Gourmantche---Gourmantche-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Gourmantche---Gourmantche-Bible.vpl.zip VS ../source-production/Holy-Bible---Gourmantche---Gourmantche-Bible.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Greek---Greek-Antoniades.crosswire.zip VS ../source-production/Holy-Bible---Greek---Greek-Antoniades.crosswire.zip
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Greek---Greek-Antoniades.sword VS ../source-production/Holy-Bible---Greek---Greek-Antoniades.sword
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Greek---Greek-Byzantine-Majority.crosswire.zip VS ../source-production/Holy-Bible---Greek---Greek-Byzantine-Majority.crosswire.zip
@@ -263,6 +337,10 @@
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Greek---Greek-Nestle.sword VS ../source-production/Holy-Bible---Greek---Greek-Nestle.sword
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Greek---Greek-Pickering-Family-35.crosswire.zip VS ../source-production/Holy-Bible---Greek---Greek-Pickering-Family-35.crosswire.zip
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Greek---Greek-Pickering-Family-35.sword VS ../source-production/Holy-Bible---Greek---Greek-Pickering-Family-35.sword
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd.crosswire.zip VS ../source-production/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd.epub VS ../source-production/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd.pdf VS ../source-production/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd.vpl.zip VS ../source-production/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Greek---Greek-Textus-Receptus-Elzevir.crosswire.zip VS ../source-production/Holy-Bible---Greek---Greek-Textus-Receptus-Elzevir.crosswire.zip
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Greek---Greek-Textus-Receptus-Elzevir.sword VS ../source-production/Holy-Bible---Greek---Greek-Textus-Receptus-Elzevir.sword
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Greek---Greek-Textus-Receptus.crosswire.zip VS ../source-production/Holy-Bible---Greek---Greek-Textus-Receptus.crosswire.zip
@@ -280,7 +358,9 @@
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Gujarati---Gujarati-Bible.pdf VS ../source-production/Holy-Bible---Gujarati---Gujarati-Bible.pdf
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Gujarati---Gujarati-Bible.vpl.zip VS ../source-production/Holy-Bible---Gujarati---Gujarati-Bible.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Haitian---Haitian-Creole-Bible.crosswire.zip VS ../source-production/Holy-Bible---Haitian---Haitian-Creole-Bible.crosswire.zip
-*** AION: DIFF REG: ../source-stage/Holy-Bible---Haitian---Haitian-Creole-Bible.sword VS ../source-production/Holy-Bible---Haitian---Haitian-Creole-Bible.sword
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Haitian---Haitian-Creole-Bible.epub VS ../source-production/Holy-Bible---Haitian---Haitian-Creole-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Haitian---Haitian-Creole-Bible.pdf VS ../source-production/Holy-Bible---Haitian---Haitian-Creole-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Haitian---Haitian-Creole-Bible.vpl.zip VS ../source-production/Holy-Bible---Haitian---Haitian-Creole-Bible.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hawaiian---Hawaiian-Bible-1868.crosswire.zip VS ../source-production/Holy-Bible---Hawaiian---Hawaiian-Bible-1868.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hawaiian---Hawaiian-Bible-1868.epub VS ../source-production/Holy-Bible---Hawaiian---Hawaiian-Bible-1868.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Hawaiian---Hawaiian-Bible-1868.pdf VS ../source-production/Holy-Bible---Hawaiian---Hawaiian-Bible-1868.pdf
@@ -292,16 +372,40 @@
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.crosswire.zip VS ../source-production/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.epub VS ../source-production/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.epub
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.vpl.zip VS ../source-production/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hebrew---Modern-Hebrew-Bible.crosswire.zip VS ../source-production/Holy-Bible---Hebrew---Modern-Hebrew-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hebrew---Modern-Hebrew-Bible.epub VS ../source-production/Holy-Bible---Hebrew---Modern-Hebrew-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Hebrew---Modern-Hebrew-Bible.pdf VS ../source-production/Holy-Bible---Hebrew---Modern-Hebrew-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hebrew---Modern-Hebrew-Bible.vpl.zip VS ../source-production/Holy-Bible---Hebrew---Modern-Hebrew-Bible.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hindi---Hindi-Bible.crosswire.zip VS ../source-production/Holy-Bible---Hindi---Hindi-Bible.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hindi---Hindi-Bible.epub VS ../source-production/Holy-Bible---Hindi---Hindi-Bible.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Hindi---Hindi-Bible.pdf VS ../source-production/Holy-Bible---Hindi---Hindi-Bible.pdf
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hindi---Hindi-Bible.vpl.zip VS ../source-production/Holy-Bible---Hindi---Hindi-Bible.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Hungarian---Hungarian-Karoli.crosswire.zip VS ../source-production/Holy-Bible---Hungarian---Hungarian-Karoli.crosswire.zip
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Hungarian---Hungarian-Karoli.sword VS ../source-production/Holy-Bible---Hungarian---Hungarian-Karoli.sword
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Ilocano---Ilocano-Bible.crosswire.zip VS ../source-production/Holy-Bible---Ilocano---Ilocano-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Ilocano---Ilocano-Bible.epub VS ../source-production/Holy-Bible---Ilocano---Ilocano-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Ilocano---Ilocano-Bible.pdf VS ../source-production/Holy-Bible---Ilocano---Ilocano-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Ilocano---Ilocano-Bible.vpl.zip VS ../source-production/Holy-Bible---Ilocano---Ilocano-Bible.vpl.zip
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari.pdf VS ../source-production/Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari.pdf
+tar: BIS.txt: implausibly old time stamp 1969-12-31 19:00:00
+tar: BIS.txt: implausibly old time stamp 1969-12-31 19:00:00
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari.txt.tar.gz VS ../source-production/Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari.txt.tar.gz
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Isanzu---Isanzu-Bible.crosswire.zip VS ../source-production/Holy-Bible---Isanzu---Isanzu-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Isanzu---Isanzu-Bible.epub VS ../source-production/Holy-Bible---Isanzu---Isanzu-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Isanzu---Isanzu-Bible.pdf VS ../source-production/Holy-Bible---Isanzu---Isanzu-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Isanzu---Isanzu-Bible.vpl.zip VS ../source-production/Holy-Bible---Isanzu---Isanzu-Bible.vpl.zip
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Italian---Conferenza-Episcopale-Italiana.pdf VS ../source-production/Holy-Bible---Italian---Conferenza-Episcopale-Italiana.pdf
+tar: CEI.txt: implausibly old time stamp 1969-12-31 19:00:00
+tar: CEI.txt: implausibly old time stamp 1969-12-31 19:00:00
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Italian---Conferenza-Episcopale-Italiana.txt.tar.gz VS ../source-production/Holy-Bible---Italian---Conferenza-Episcopale-Italiana.txt.tar.gz
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible.crosswire.zip VS ../source-production/Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible.crosswire.zip
-*** AION: DIFF REG: ../source-stage/Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible.sword VS ../source-production/Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible.sword
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible.epub VS ../source-production/Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible.pdf VS ../source-production/Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible.vpl.zip VS ../source-production/Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Italian---Italian-Riveduta-Bible.crosswire.zip VS ../source-production/Holy-Bible---Italian---Italian-Riveduta-Bible.crosswire.zip
-*** AION: DIFF REG: ../source-stage/Holy-Bible---Italian---Italian-Riveduta-Bible.sword VS ../source-production/Holy-Bible---Italian---Italian-Riveduta-Bible.sword
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Italian---Italian-Riveduta-Bible.epub VS ../source-production/Holy-Bible---Italian---Italian-Riveduta-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Italian---Italian-Riveduta-Bible.pdf VS ../source-production/Holy-Bible---Italian---Italian-Riveduta-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Italian---Italian-Riveduta-Bible.vpl.zip VS ../source-production/Holy-Bible---Italian---Italian-Riveduta-Bible.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Japanese---Japanese-Bungo-yaku.crosswire.zip VS ../source-production/Holy-Bible---Japanese---Japanese-Bungo-yaku.crosswire.zip
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Japanese---Japanese-Bungo-yaku.sword VS ../source-production/Holy-Bible---Japanese---Japanese-Bungo-yaku.sword
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Japanese---Japanese-Electronic-Network-Bible.crosswire.zip VS ../source-production/Holy-Bible---Japanese---Japanese-Electronic-Network-Bible.crosswire.zip
@@ -320,12 +424,28 @@
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Kannada---Kannada-Bible.epub VS ../source-production/Holy-Bible---Kannada---Kannada-Bible.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Kannada---Kannada-Bible.pdf VS ../source-production/Holy-Bible---Kannada---Kannada-Bible.pdf
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Kannada---Kannada-Bible.vpl.zip VS ../source-production/Holy-Bible---Kannada---Kannada-Bible.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Kara---Kara-Bible.crosswire.zip VS ../source-production/Holy-Bible---Kara---Kara-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Kara---Kara-Bible.epub VS ../source-production/Holy-Bible---Kara---Kara-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Kara---Kara-Bible.pdf VS ../source-production/Holy-Bible---Kara---Kara-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Kara---Kara-Bible.vpl.zip VS ../source-production/Holy-Bible---Kara---Kara-Bible.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Kinga---Mahanji-Bible.crosswire.zip VS ../source-production/Holy-Bible---Kinga---Mahanji-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Kinga---Mahanji-Bible.epub VS ../source-production/Holy-Bible---Kinga---Mahanji-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Kinga---Mahanji-Bible.pdf VS ../source-production/Holy-Bible---Kinga---Mahanji-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Kinga---Mahanji-Bible.vpl.zip VS ../source-production/Holy-Bible---Kinga---Mahanji-Bible.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Kisi---Kisi-Bible.crosswire.zip VS ../source-production/Holy-Bible---Kisi---Kisi-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Kisi---Kisi-Bible.epub VS ../source-production/Holy-Bible---Kisi---Kisi-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Kisi---Kisi-Bible.pdf VS ../source-production/Holy-Bible---Kisi---Kisi-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Kisi---Kisi-Bible.vpl.zip VS ../source-production/Holy-Bible---Kisi---Kisi-Bible.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Korean---Korean-RV.crosswire.zip VS ../source-production/Holy-Bible---Korean---Korean-RV.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Korean---Korean-RV.unbound.zip VS ../source-production/Holy-Bible---Korean---Korean-RV.unbound.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Kosraean---Kosraean-Bible.crosswire.zip VS ../source-production/Holy-Bible---Kosraean---Kosraean-Bible.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Kosraean---Kosraean-Bible.epub VS ../source-production/Holy-Bible---Kosraean---Kosraean-Bible.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Kosraean---Kosraean-Bible.pdf VS ../source-production/Holy-Bible---Kosraean---Kosraean-Bible.pdf
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Kosraean---Kosraean-Bible.vpl.zip VS ../source-production/Holy-Bible---Kosraean---Kosraean-Bible.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Kuhane---Kuhane-Bible.crosswire.zip VS ../source-production/Holy-Bible---Kuhane---Kuhane-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Kuhane---Kuhane-Bible.epub VS ../source-production/Holy-Bible---Kuhane---Kuhane-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Kuhane---Kuhane-Bible.pdf VS ../source-production/Holy-Bible---Kuhane---Kuhane-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Kuhane---Kuhane-Bible.vpl.zip VS ../source-production/Holy-Bible---Kuhane---Kuhane-Bible.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Latin---Clementine-Vulgate-1598.crosswire.zip VS ../source-production/Holy-Bible---Latin---Clementine-Vulgate-1598.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Latin---Clementine-Vulgate-1598.epub VS ../source-production/Holy-Bible---Latin---Clementine-Vulgate-1598.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Latin---Clementine-Vulgate-1598.pdf VS ../source-production/Holy-Bible---Latin---Clementine-Vulgate-1598.pdf
@@ -348,17 +468,36 @@
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Malayalam---Malayalam-Bible.epub VS ../source-production/Holy-Bible---Malayalam---Malayalam-Bible.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Malayalam---Malayalam-Bible.pdf VS ../source-production/Holy-Bible---Malayalam---Malayalam-Bible.pdf
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Malayalam---Malayalam-Bible.vpl.zip VS ../source-production/Holy-Bible---Malayalam---Malayalam-Bible.vpl.zip
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Maori---Maori-Bible.pdf VS ../source-production/Holy-Bible---Maori---Maori-Bible.pdf
+tar: MAORI.txt: implausibly old time stamp 1969-12-31 19:00:00
+tar: MAORI.txt: implausibly old time stamp 1969-12-31 19:00:00
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Maori---Maori-Bible.txt.tar.gz VS ../source-production/Holy-Bible---Maori---Maori-Bible.txt.tar.gz
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Marathi---Marathi-Bible.crosswire.zip VS ../source-production/Holy-Bible---Marathi---Marathi-Bible.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Marathi---Marathi-Bible.epub VS ../source-production/Holy-Bible---Marathi---Marathi-Bible.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Marathi---Marathi-Bible.pdf VS ../source-production/Holy-Bible---Marathi---Marathi-Bible.pdf
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Marathi---Marathi-Bible.vpl.zip VS ../source-production/Holy-Bible---Marathi---Marathi-Bible.vpl.zip
-*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Matu-Chin---Matupi-Chin-Bible.crosswire.zip VS ../source-production/Holy-Bible---Matu-Chin---Matupi-Chin-Bible.crosswire.zip
-*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Matu-Chin---Matupi-Chin-Bible.epub VS ../source-production/Holy-Bible---Matu-Chin---Matupi-Chin-Bible.epub
-*** AION: DIFF REG: ../source-stage/Holy-Bible---Matu-Chin---Matupi-Chin-Bible.pdf VS ../source-production/Holy-Bible---Matu-Chin---Matupi-Chin-Bible.pdf
-*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Matu-Chin---Matupi-Chin-Bible.vpl.zip VS ../source-production/Holy-Bible---Matu-Chin---Matupi-Chin-Bible.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Mwera---Mwera-Bible.crosswire.zip VS ../source-production/Holy-Bible---Mwera---Mwera-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Mwera---Mwera-Bible.epub VS ../source-production/Holy-Bible---Mwera---Mwera-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Mwera---Mwera-Bible.pdf VS ../source-production/Holy-Bible---Mwera---Mwera-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Mwera---Mwera-Bible.vpl.zip VS ../source-production/Holy-Bible---Mwera---Mwera-Bible.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Myanmar---Burmese-Common-Bible.crosswire.zip VS ../source-production/Holy-Bible---Myanmar---Burmese-Common-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Myanmar---Burmese-Common-Bible.epub VS ../source-production/Holy-Bible---Myanmar---Burmese-Common-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Myanmar---Burmese-Common-Bible.pdf VS ../source-production/Holy-Bible---Myanmar---Burmese-Common-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Myanmar---Burmese-Common-Bible.vpl.zip VS ../source-production/Holy-Bible---Myanmar---Burmese-Common-Bible.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Myanmar---Myanmar-Burmese-Judson.crosswire.zip VS ../source-production/Holy-Bible---Myanmar---Myanmar-Burmese-Judson.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Myanmar---Myanmar-Burmese-Judson.epub VS ../source-production/Holy-Bible---Myanmar---Myanmar-Burmese-Judson.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Myanmar---Myanmar-Burmese-Judson.pdf VS ../source-production/Holy-Bible---Myanmar---Myanmar-Burmese-Judson.pdf
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Myanmar---Myanmar-Burmese-Judson.unbound.zip VS ../source-production/Holy-Bible---Myanmar---Myanmar-Burmese-Judson.unbound.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Ndebele---Ndebele-Bible.crosswire.zip VS ../source-production/Holy-Bible---Ndebele---Ndebele-Bible.crosswire.zip
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Ndebele---Ndebele-Bible.sword VS ../source-production/Holy-Bible---Ndebele---Ndebele-Bible.sword
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Ndengereko---Ndengereko-Bible.crosswire.zip VS ../source-production/Holy-Bible---Ndengereko---Ndengereko-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Ndengereko---Ndengereko-Bible.epub VS ../source-production/Holy-Bible---Ndengereko---Ndengereko-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Ndengereko---Ndengereko-Bible.pdf VS ../source-production/Holy-Bible---Ndengereko---Ndengereko-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Ndengereko---Ndengereko-Bible.vpl.zip VS ../source-production/Holy-Bible---Ndengereko---Ndengereko-Bible.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Nepali---Nepali-Bible.crosswire.zip VS ../source-production/Holy-Bible---Nepali---Nepali-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Nepali---Nepali-Bible.epub VS ../source-production/Holy-Bible---Nepali---Nepali-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Nepali---Nepali-Bible.pdf VS ../source-production/Holy-Bible---Nepali---Nepali-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Nepali---Nepali-Bible.vpl.zip VS ../source-production/Holy-Bible---Nepali---Nepali-Bible.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Norwegian---Norwegian-Bible.crosswire.zip VS ../source-production/Holy-Bible---Norwegian---Norwegian-Bible.crosswire.zip
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Norwegian---Norwegian-Bible.sword VS ../source-production/Holy-Bible---Norwegian---Norwegian-Bible.sword
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Norwegian---Norwegian-Student-Bible.crosswire.zip VS ../source-production/Holy-Bible---Norwegian---Norwegian-Student-Bible.crosswire.zip
@@ -397,10 +536,26 @@
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Portuguese---Portuguese-Trans-Trans.epub VS ../source-production/Holy-Bible---Portuguese---Portuguese-Trans-Trans.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Portuguese---Portuguese-Trans-Trans.pdf VS ../source-production/Holy-Bible---Portuguese---Portuguese-Trans-Trans.pdf
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Portuguese---Portuguese-Trans-Trans.vpl.zip VS ../source-production/Holy-Bible---Portuguese---Portuguese-Trans-Trans.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Romani-Vlax---Arli-Luke.crosswire.zip VS ../source-production/Holy-Bible---Romani-Vlax---Arli-Luke.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Romani-Vlax---Arli-Luke.epub VS ../source-production/Holy-Bible---Romani-Vlax---Arli-Luke.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Romani-Vlax---Arli-Luke.pdf VS ../source-production/Holy-Bible---Romani-Vlax---Arli-Luke.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Romani-Vlax---Arli-Luke.vpl.zip VS ../source-production/Holy-Bible---Romani-Vlax---Arli-Luke.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Romani-Vlax---Chergash-Luke.crosswire.zip VS ../source-production/Holy-Bible---Romani-Vlax---Chergash-Luke.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Romani-Vlax---Chergash-Luke.epub VS ../source-production/Holy-Bible---Romani-Vlax---Chergash-Luke.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Romani-Vlax---Chergash-Luke.pdf VS ../source-production/Holy-Bible---Romani-Vlax---Chergash-Luke.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Romani-Vlax---Chergash-Luke.vpl.zip VS ../source-production/Holy-Bible---Romani-Vlax---Chergash-Luke.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Romani-Vlax---Gurbet-Luke.crosswire.zip VS ../source-production/Holy-Bible---Romani-Vlax---Gurbet-Luke.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Romani-Vlax---Gurbet-Luke.epub VS ../source-production/Holy-Bible---Romani-Vlax---Gurbet-Luke.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Romani-Vlax---Gurbet-Luke.pdf VS ../source-production/Holy-Bible---Romani-Vlax---Gurbet-Luke.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Romani-Vlax---Gurbet-Luke.vpl.zip VS ../source-production/Holy-Bible---Romani-Vlax---Gurbet-Luke.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Romanian---Bayash-Luke.crosswire.zip VS ../source-production/Holy-Bible---Romanian---Bayash-Luke.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Romanian---Bayash-Luke.epub VS ../source-production/Holy-Bible---Romanian---Bayash-Luke.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Romanian---Bayash-Luke.pdf VS ../source-production/Holy-Bible---Romanian---Bayash-Luke.pdf
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Romanian---Bayash-Luke.vpl.zip VS ../source-production/Holy-Bible---Romanian---Bayash-Luke.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Romanian---Ludari-Luke.crosswire.zip VS ../source-production/Holy-Bible---Romanian---Ludari-Luke.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Romanian---Ludari-Luke.epub VS ../source-production/Holy-Bible---Romanian---Ludari-Luke.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Romanian---Ludari-Luke.pdf VS ../source-production/Holy-Bible---Romanian---Ludari-Luke.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Romanian---Ludari-Luke.vpl.zip VS ../source-production/Holy-Bible---Romanian---Ludari-Luke.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Rote-Dela---Rote-Dela-Bible.crosswire.zip VS ../source-production/Holy-Bible---Rote-Dela---Rote-Dela-Bible.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Rote-Dela---Rote-Dela-Bible.epub VS ../source-production/Holy-Bible---Rote-Dela---Rote-Dela-Bible.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Rote-Dela---Rote-Dela-Bible.pdf VS ../source-production/Holy-Bible---Rote-Dela---Rote-Dela-Bible.pdf
@@ -409,6 +564,10 @@
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Russian---Russian-Synodal-Translation.epub VS ../source-production/Holy-Bible---Russian---Russian-Synodal-Translation.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Russian---Russian-Synodal-Translation.pdf VS ../source-production/Holy-Bible---Russian---Russian-Synodal-Translation.pdf
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Russian---Russian-Synodal-Translation.vpl.zip VS ../source-production/Holy-Bible---Russian---Russian-Synodal-Translation.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Safwa---Safwa-Bible.crosswire.zip VS ../source-production/Holy-Bible---Safwa---Safwa-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Safwa---Safwa-Bible.epub VS ../source-production/Holy-Bible---Safwa---Safwa-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Safwa---Safwa-Bible.pdf VS ../source-production/Holy-Bible---Safwa---Safwa-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Safwa---Safwa-Bible.vpl.zip VS ../source-production/Holy-Bible---Safwa---Safwa-Bible.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark.crosswire.zip VS ../source-production/Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark.crosswire.zip
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark.sword VS ../source-production/Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark.sword
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script.crosswire.zip VS ../source-production/Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script.crosswire.zip
@@ -445,6 +604,10 @@
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Spanish---Sencillo-Bible.epub VS ../source-production/Holy-Bible---Spanish---Sencillo-Bible.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Spanish---Sencillo-Bible.pdf VS ../source-production/Holy-Bible---Spanish---Sencillo-Bible.pdf
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Spanish---Sencillo-Bible.vpl.zip VS ../source-production/Holy-Bible---Spanish---Sencillo-Bible.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Swahili---New-Swahili-Bible.crosswire.zip VS ../source-production/Holy-Bible---Swahili---New-Swahili-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Swahili---New-Swahili-Bible.epub VS ../source-production/Holy-Bible---Swahili---New-Swahili-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Swahili---New-Swahili-Bible.pdf VS ../source-production/Holy-Bible---Swahili---New-Swahili-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Swahili---New-Swahili-Bible.vpl.zip VS ../source-production/Holy-Bible---Swahili---New-Swahili-Bible.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Swahili---Swahili-Bible.crosswire.zip VS ../source-production/Holy-Bible---Swahili---Swahili-Bible.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Swahili---Swahili-Bible.epub VS ../source-production/Holy-Bible---Swahili---Swahili-Bible.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Swahili---Swahili-Bible.pdf VS ../source-production/Holy-Bible---Swahili---Swahili-Bible.pdf
@@ -453,6 +616,10 @@
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Swedish---Swedish-Bible-1873.sword VS ../source-production/Holy-Bible---Swedish---Swedish-Bible-1873.sword
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Swedish---Swedish-Bible.crosswire.zip VS ../source-production/Holy-Bible---Swedish---Swedish-Bible.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Swedish---Swedish-Bible.unbound.zip VS ../source-production/Holy-Bible---Swedish---Swedish-Bible.unbound.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked.crosswire.zip VS ../source-production/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked.epub VS ../source-production/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked.pdf VS ../source-production/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked.vpl.zip VS ../source-production/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Tagalog---Tagalog-Bible.unbound.zip VS ../source-production/Holy-Bible---Tagalog---Tagalog-Bible.unbound.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Tamil---Tamil-Bible.crosswire.zip VS ../source-production/Holy-Bible---Tamil---Tamil-Bible.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Tamil---Tamil-Bible.epub VS ../source-production/Holy-Bible---Tamil---Tamil-Bible.epub
@@ -466,7 +633,13 @@
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Tongan---Revised-West-Version.epub VS ../source-production/Holy-Bible---Tongan---Revised-West-Version.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Tongan---Revised-West-Version.pdf VS ../source-production/Holy-Bible---Tongan---Revised-West-Version.pdf
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Tongan---Revised-West-Version.vpl.zip VS ../source-production/Holy-Bible---Tongan---Revised-West-Version.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Turkish---Turkish-Bible.crosswire.zip VS ../source-production/Holy-Bible---Turkish---Turkish-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Turkish---Turkish-Bible.epub VS ../source-production/Holy-Bible---Turkish---Turkish-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Turkish---Turkish-Bible.pdf VS ../source-production/Holy-Bible---Turkish---Turkish-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Turkish---Turkish-Bible.vpl.zip VS ../source-production/Holy-Bible---Turkish---Turkish-Bible.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Ukrainian---Ukrainian-NT.crosswire.zip VS ../source-production/Holy-Bible---Ukrainian---Ukrainian-NT.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Ukrainian---Ukrainian-NT.epub VS ../source-production/Holy-Bible---Ukrainian---Ukrainian-NT.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Ukrainian---Ukrainian-NT.pdf VS ../source-production/Holy-Bible---Ukrainian---Ukrainian-NT.pdf
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Ukrainian---Ukrainian-NT.sword VS ../source-production/Holy-Bible---Ukrainian---Ukrainian-NT.sword
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Ukrainian---Ukrainian-Ogienko.crosswire.zip VS ../source-production/Holy-Bible---Ukrainian---Ukrainian-Ogienko.crosswire.zip
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Ukrainian---Ukrainian-Ogienko.sword VS ../source-production/Holy-Bible---Ukrainian---Ukrainian-Ogienko.sword
@@ -474,26 +647,57 @@
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Urdu---Urdu-Bible.epub VS ../source-production/Holy-Bible---Urdu---Urdu-Bible.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Urdu---Urdu-Bible.pdf VS ../source-production/Holy-Bible---Urdu---Urdu-Bible.pdf
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Urdu---Urdu-Bible.vpl.zip VS ../source-production/Holy-Bible---Urdu---Urdu-Bible.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Arabic.crosswire.zip VS ../source-production/Holy-Bible---Uyghur---Uyghur-Bible-Arabic.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Arabic.epub VS ../source-production/Holy-Bible---Uyghur---Uyghur-Bible-Arabic.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Arabic.pdf VS ../source-production/Holy-Bible---Uyghur---Uyghur-Bible-Arabic.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Arabic.vpl.zip VS ../source-production/Holy-Bible---Uyghur---Uyghur-Bible-Arabic.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic.crosswire.zip VS ../source-production/Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic.epub VS ../source-production/Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic.pdf VS ../source-production/Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic.vpl.zip VS ../source-production/Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Latin.crosswire.zip VS ../source-production/Holy-Bible---Uyghur---Uyghur-Bible-Latin.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Latin.epub VS ../source-production/Holy-Bible---Uyghur---Uyghur-Bible-Latin.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Latin.pdf VS ../source-production/Holy-Bible---Uyghur---Uyghur-Bible-Latin.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Latin.vpl.zip VS ../source-production/Holy-Bible---Uyghur---Uyghur-Bible-Latin.vpl.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Pinyin.epub VS ../source-production/Holy-Bible---Uyghur---Uyghur-Bible-Pinyin.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Pinyin.pdf VS ../source-production/Holy-Bible---Uyghur---Uyghur-Bible-Pinyin.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Pinyin.vpl.zip VS ../source-production/Holy-Bible---Uyghur---Uyghur-Bible-Pinyin.vpl.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-Bible-1934.crosswire.zip VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-Bible-1934.crosswire.zip
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-Bible-1934.sword VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-Bible-1934.sword
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-Bible.crosswire.zip VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-Bible.crosswire.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-Bible.epub VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-Bible.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-Bible.pdf VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-Bible.pdf
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-Bible.vpl.zip VS ../source-production/Holy-Bible---Vietnamese---Vietnamese-Bible.vpl.zip
-*** AION: LOOP DONE! Function=AION_LOOP_DIFF_DOIT Files processed=474
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Vwanji---Vwanji-Bible.crosswire.zip VS ../source-production/Holy-Bible---Vwanji---Vwanji-Bible.crosswire.zip
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Vwanji---Vwanji-Bible.epub VS ../source-production/Holy-Bible---Vwanji---Vwanji-Bible.epub
+*** AION: DIFF REG: ../source-stage/Holy-Bible---Vwanji---Vwanji-Bible.pdf VS ../source-production/Holy-Bible---Vwanji---Vwanji-Bible.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Vwanji---Vwanji-Bible.vpl.zip VS ../source-production/Holy-Bible---Vwanji---Vwanji-Bible.vpl.zip
+*** AION: LOOP DONE! Function=AION_LOOP_DIFF_DOIT Files processed=654
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Albanian-Tosk---Albanian-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Amo---Amo-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Arabic---New-Arabic-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Arapaho---Arapaho-Luke.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Assamese---Assamese-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Azerbaijani---Azerbaijani-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Beaver---Beaver-Mark.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Bengali---Bengali-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Breton---Breton-Gospels.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Cebuano---Cebuano-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Chin-Matu---Matupi-Chin-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Chin-Siyin---Siyin-Chin-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Chin-Thado---Chongthu-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Chinese---Chinese-Union-Version-Simplified.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Chinese---Chinese-Union-Version-Traditional.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Coptic---Coptic-Boharic-NT.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Coptic---Coptic-NT.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Croatian---Croatian-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Czech---Czech-Bible-Kralicka.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Dombe---Dombe-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Dutch---Canisiusvertaling-eb.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Dutch---Canisiusvertaling.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---English---American-Standard-Version-1901.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---English---Bible-in-Basic-English.epub
@@ -501,6 +705,7 @@
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---English---British-English-Septuagint-2012.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---English---Darby-Translation.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---English---Douay-Rheims-1899.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---English---Family-35-NT.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---English---Free-Bible-Version.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---English---Geneva-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---English---Gods-Living-Word.epub
@@ -512,29 +717,51 @@
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---English---Open-English-Bible-US.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---English---Revised-Version.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---English---Trans-Trans.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---English---Tyndale-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---English---Unlocked-Literal-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---English---Webster-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---English---World-English-Bible-British-Edition.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---English---World-English-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---English---World-Messianic-Bible-British-Edition.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---English---World-Messianic-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---English---Youngs-Literal-Translation.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Esperanto---Esperanto-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---French---French-Louis-Segond-1910-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---French---French-Ostervald-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---German---German-Elberfelder-1905.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---German---German-Kautzsch-Weizsacker.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---German---German-Luther-Bible-1912.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Gourma---Gourma-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Gourmantche---Gourmantche-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Greek---Greek-Majority-Text.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Greek---Greek-Tischendorf.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Gujarati---Gujarati-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Haitian---Haitian-Creole-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Hawaiian---Hawaiian-Bible-1868.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Hebrew---Modern-Hebrew-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Hindi---Hindi-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Ilocano---Ilocano-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Isanzu---Isanzu-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Italian---Italian-Riveduta-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Japanese---New-Japanese-New-Testament.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Kannada---Kannada-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Kara---Kara-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Kinga---Mahanji-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Kisi---Kisi-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Kosraean---Kosraean-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Kuhane---Kuhane-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Latin---Clementine-Vulgate-1598.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Malayalam---Malayalam-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Marathi---Marathi-Bible.epub
-*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Matu-Chin---Matupi-Chin-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Mwera---Mwera-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Myanmar---Burmese-Common-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Myanmar---Myanmar-Burmese-Judson.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Ndengereko---Ndengereko-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Nepali---Nepali-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Oriya---Oriya-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Panjabi---Punjabi-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Persian---Old-Persion-Version-Bible.epub
@@ -542,34 +769,60 @@
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Polish---Polish-Updated-Gdansk.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Portuguese---Portuguese-Trans-Trans.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Romani-Vlax---Arli-Luke.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Romani-Vlax---Chergash-Luke.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Romani-Vlax---Gurbet-Luke.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Romanian---Bayash-Luke.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Romanian---Ludari-Luke.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Rote-Dela---Rote-Dela-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Russian---Russian-Synodal-Translation.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Safwa---Safwa-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Somali---Somali-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Spanish---Free-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Spanish---Reina-Valera-1909.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Spanish---Sencillo-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Swahili---New-Swahili-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Swahili---Swahili-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Tamil---Tamil-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Telugu---Telugu-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Tongan---Revised-West-Version.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Turkish---Turkish-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Ukrainian---Ukrainian-NT.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Urdu---Urdu-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Arabic.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Latin.epub
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Pinyin.epub
 *** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Vietnamese---Vietnamese-Bible.epub
-*** AION: LOOP DONE! Function=AION_LOOP_COPYRIGHT_DOIT Files processed=75
+*** AION: SUCCESS COPYRIGHT: ../source-stage/Holy-Bible---Vwanji---Vwanji-Bible.epub
+*** AION: LOOP DONE! Function=AION_LOOP_COPYRIGHT_DOIT Files processed=124
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Albanian-Tosk---Albanian-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Amo---Amo-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Arabic---New-Arabic-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Arapaho---Arapaho-Luke.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Assamese---Assamese-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Azerbaijani---Azerbaijani-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Beaver---Beaver-Mark.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Bengali---Bengali-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Breton---Breton-Gospels.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Cebuano---Cebuano-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Chin-Matu---Matupi-Chin-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Chin-Siyin---Siyin-Chin-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Chin-Thado---Chongthu-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Chinese---Chinese-Union-Version-Simplified.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Chinese---Chinese-Union-Version-Traditional.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Coptic---Coptic-Boharic-NT.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Coptic---Coptic-NT.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Croatian---Croatian-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Czech---Czech-Bible-Kralicka.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Dombe---Dombe-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Dutch---Canisiusvertaling-eb.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Dutch---Canisiusvertaling.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---English---American-Standard-Version-1901.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---English---Bible-in-Basic-English.epub
@@ -577,6 +830,7 @@
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---English---British-English-Septuagint-2012.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---English---Darby-Translation.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---English---Douay-Rheims-1899.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---English---Family-35-NT.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---English---Free-Bible-Version.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---English---Geneva-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---English---Gods-Living-Word.epub
@@ -588,29 +842,51 @@
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---English---Open-English-Bible-US.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---English---Revised-Version.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---English---Trans-Trans.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---English---Tyndale-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---English---Unlocked-Literal-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---English---Webster-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---English---World-English-Bible-British-Edition.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---English---World-English-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---English---World-Messianic-Bible-British-Edition.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---English---World-Messianic-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---English---Youngs-Literal-Translation.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Esperanto---Esperanto-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---French---French-Louis-Segond-1910-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---French---French-Ostervald-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---German---German-Elberfelder-1905.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---German---German-Kautzsch-Weizsacker.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---German---German-Luther-Bible-1912.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Gourma---Gourma-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Gourmantche---Gourmantche-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Greek---Greek-Majority-Text.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Greek---Greek-Tischendorf.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Gujarati---Gujarati-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Haitian---Haitian-Creole-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Hawaiian---Hawaiian-Bible-1868.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Hebrew---Modern-Hebrew-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Hindi---Hindi-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Ilocano---Ilocano-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Isanzu---Isanzu-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Italian---Italian-Riveduta-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Japanese---New-Japanese-New-Testament.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Kannada---Kannada-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Kara---Kara-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Kinga---Mahanji-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Kisi---Kisi-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Kosraean---Kosraean-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Kuhane---Kuhane-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Latin---Clementine-Vulgate-1598.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Malayalam---Malayalam-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Marathi---Marathi-Bible.epub
-*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Matu-Chin---Matupi-Chin-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Mwera---Mwera-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Myanmar---Burmese-Common-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Myanmar---Myanmar-Burmese-Judson.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Ndengereko---Ndengereko-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Nepali---Nepali-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Oriya---Oriya-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Panjabi---Punjabi-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Persian---Old-Persion-Version-Bible.epub
@@ -618,35 +894,61 @@
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Polish---Polish-Updated-Gdansk.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Portuguese---Portuguese-Trans-Trans.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Romani-Vlax---Arli-Luke.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Romani-Vlax---Chergash-Luke.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Romani-Vlax---Gurbet-Luke.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Romanian---Bayash-Luke.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Romanian---Ludari-Luke.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Rote-Dela---Rote-Dela-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Russian---Russian-Synodal-Translation.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Safwa---Safwa-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Somali---Somali-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Spanish---Free-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Spanish---Reina-Valera-1909.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Spanish---Sencillo-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Swahili---New-Swahili-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Swahili---Swahili-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Tamil---Tamil-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Telugu---Telugu-Bible.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Tongan---Revised-West-Version.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Turkish---Turkish-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Ukrainian---Ukrainian-NT.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Urdu---Urdu-Bible.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Uyghur---Uyghur-Bible-Arabic.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Uyghur---Uyghur-Bible-Latin.epub
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Uyghur---Uyghur-Bible-Pinyin.epub
 *** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Vietnamese---Vietnamese-Bible.epub
-*** AION: LOOP DONE! Function=AION_LOOP_COPYRIGHT_DOIT Files processed=75
+*** AION: SUCCESS COPYRIGHT: ../source-production/Holy-Bible---Vwanji---Vwanji-Bible.epub
+*** AION: LOOP DONE! Function=AION_LOOP_COPYRIGHT_DOIT Files processed=124
 *** AION: DIFF REG: ../copyright-source/AMASTER.COPYRIGHT VS ../copyright-production/AMASTER.COPYRIGHT
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Albanian-Tosk---Albanian-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Albanian-Tosk---Albanian-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Amo---Amo-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Amo---Amo-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Arabic---New-Arabic-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Arabic---New-Arabic-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Arapaho---Arapaho-Luke.epub.copyright VS ../copyright-production/Holy-Bible---Arapaho---Arapaho-Luke.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Assamese---Assamese-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Assamese---Assamese-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Azerbaijani---Azerbaijani-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Azerbaijani---Azerbaijani-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Beaver---Beaver-Mark.epub.copyright VS ../copyright-production/Holy-Bible---Beaver---Beaver-Mark.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Bengali---Bengali-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Bengali---Bengali-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Breton---Breton-Gospels.epub.copyright VS ../copyright-production/Holy-Bible---Breton---Breton-Gospels.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Cebuano---Cebuano-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Cebuano---Cebuano-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms.epub.copyright VS ../copyright-production/Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Chin-Matu---Matupi-Chin-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Chin-Matu---Matupi-Chin-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Chin-Siyin---Siyin-Chin-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Chin-Siyin---Siyin-Chin-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Chin-Thado---Chongthu-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Chin-Thado---Chongthu-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Chinese---Chinese-Union-Version-Simplified.epub.copyright VS ../copyright-production/Holy-Bible---Chinese---Chinese-Union-Version-Simplified.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Chinese---Chinese-Union-Version-Traditional.epub.copyright VS ../copyright-production/Holy-Bible---Chinese---Chinese-Union-Version-Traditional.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Coptic---Coptic-Boharic-NT.epub.copyright VS ../copyright-production/Holy-Bible---Coptic---Coptic-Boharic-NT.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Coptic---Coptic-NT.epub.copyright VS ../copyright-production/Holy-Bible---Coptic---Coptic-NT.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Croatian---Croatian-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Croatian---Croatian-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Czech---Czech-Bible-Kralicka.epub.copyright VS ../copyright-production/Holy-Bible---Czech---Czech-Bible-Kralicka.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Dombe---Dombe-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Dombe---Dombe-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Dutch---Canisiusvertaling-eb.epub.copyright VS ../copyright-production/Holy-Bible---Dutch---Canisiusvertaling-eb.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Dutch---Canisiusvertaling.epub.copyright VS ../copyright-production/Holy-Bible---Dutch---Canisiusvertaling.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---English---American-Standard-Version-1901.epub.copyright VS ../copyright-production/Holy-Bible---English---American-Standard-Version-1901.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---English---Bible-in-Basic-English.epub.copyright VS ../copyright-production/Holy-Bible---English---Bible-in-Basic-English.epub.copyright
@@ -654,6 +956,7 @@
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---English---British-English-Septuagint-2012.epub.copyright VS ../copyright-production/Holy-Bible---English---British-English-Septuagint-2012.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---English---Darby-Translation.epub.copyright VS ../copyright-production/Holy-Bible---English---Darby-Translation.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---English---Douay-Rheims-1899.epub.copyright VS ../copyright-production/Holy-Bible---English---Douay-Rheims-1899.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---English---Family-35-NT.epub.copyright VS ../copyright-production/Holy-Bible---English---Family-35-NT.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---English---Free-Bible-Version.epub.copyright VS ../copyright-production/Holy-Bible---English---Free-Bible-Version.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---English---Geneva-Bible.epub.copyright VS ../copyright-production/Holy-Bible---English---Geneva-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---English---Gods-Living-Word.epub.copyright VS ../copyright-production/Holy-Bible---English---Gods-Living-Word.epub.copyright
@@ -665,29 +968,51 @@
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---English---Open-English-Bible-US.epub.copyright VS ../copyright-production/Holy-Bible---English---Open-English-Bible-US.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---English---Revised-Version.epub.copyright VS ../copyright-production/Holy-Bible---English---Revised-Version.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---English---Trans-Trans.epub.copyright VS ../copyright-production/Holy-Bible---English---Trans-Trans.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---English---Tyndale-Bible.epub.copyright VS ../copyright-production/Holy-Bible---English---Tyndale-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---English---Unlocked-Literal-Bible.epub.copyright VS ../copyright-production/Holy-Bible---English---Unlocked-Literal-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---English---Webster-Bible.epub.copyright VS ../copyright-production/Holy-Bible---English---Webster-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---English---World-English-Bible-British-Edition.epub.copyright VS ../copyright-production/Holy-Bible---English---World-English-Bible-British-Edition.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---English---World-English-Bible.epub.copyright VS ../copyright-production/Holy-Bible---English---World-English-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---English---World-Messianic-Bible-British-Edition.epub.copyright VS ../copyright-production/Holy-Bible---English---World-Messianic-Bible-British-Edition.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---English---World-Messianic-Bible.epub.copyright VS ../copyright-production/Holy-Bible---English---World-Messianic-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---English---Youngs-Literal-Translation.epub.copyright VS ../copyright-production/Holy-Bible---English---Youngs-Literal-Translation.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Esperanto---Esperanto-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Esperanto---Esperanto-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---French---French-Louis-Segond-1910-Bible.epub.copyright VS ../copyright-production/Holy-Bible---French---French-Louis-Segond-1910-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---French---French-Ostervald-Bible.epub.copyright VS ../copyright-production/Holy-Bible---French---French-Ostervald-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---German---German-Elberfelder-1905.epub.copyright VS ../copyright-production/Holy-Bible---German---German-Elberfelder-1905.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---German---German-Kautzsch-Weizsacker.epub.copyright VS ../copyright-production/Holy-Bible---German---German-Kautzsch-Weizsacker.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---German---German-Luther-Bible-1912.epub.copyright VS ../copyright-production/Holy-Bible---German---German-Luther-Bible-1912.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Gourma---Gourma-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Gourma---Gourma-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Gourmantche---Gourmantche-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Gourmantche---Gourmantche-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Greek---Greek-Majority-Text.epub.copyright VS ../copyright-production/Holy-Bible---Greek---Greek-Majority-Text.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd.epub.copyright VS ../copyright-production/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Greek---Greek-Tischendorf.epub.copyright VS ../copyright-production/Holy-Bible---Greek---Greek-Tischendorf.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Gujarati---Gujarati-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Gujarati---Gujarati-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Haitian---Haitian-Creole-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Haitian---Haitian-Creole-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Hawaiian---Hawaiian-Bible-1868.epub.copyright VS ../copyright-production/Holy-Bible---Hawaiian---Hawaiian-Bible-1868.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.epub.copyright VS ../copyright-production/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.epub.copyright VS ../copyright-production/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Hebrew---Modern-Hebrew-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Hebrew---Modern-Hebrew-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Hindi---Hindi-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Hindi---Hindi-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Ilocano---Ilocano-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Ilocano---Ilocano-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Isanzu---Isanzu-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Isanzu---Isanzu-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Italian---Italian-Riveduta-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Italian---Italian-Riveduta-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Japanese---New-Japanese-New-Testament.epub.copyright VS ../copyright-production/Holy-Bible---Japanese---New-Japanese-New-Testament.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Kannada---Kannada-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Kannada---Kannada-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Kara---Kara-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Kara---Kara-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Kinga---Mahanji-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Kinga---Mahanji-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Kisi---Kisi-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Kisi---Kisi-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Kosraean---Kosraean-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Kosraean---Kosraean-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Kuhane---Kuhane-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Kuhane---Kuhane-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Latin---Clementine-Vulgate-1598.epub.copyright VS ../copyright-production/Holy-Bible---Latin---Clementine-Vulgate-1598.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Malayalam---Malayalam-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Malayalam---Malayalam-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Marathi---Marathi-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Marathi---Marathi-Bible.epub.copyright
-*** AION: DIFF REG: ../copyright-source/Holy-Bible---Matu-Chin---Matupi-Chin-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Matu-Chin---Matupi-Chin-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Mwera---Mwera-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Mwera---Mwera-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Myanmar---Burmese-Common-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Myanmar---Burmese-Common-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Myanmar---Myanmar-Burmese-Judson.epub.copyright VS ../copyright-production/Holy-Bible---Myanmar---Myanmar-Burmese-Judson.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Ndengereko---Ndengereko-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Ndengereko---Ndengereko-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Nepali---Nepali-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Nepali---Nepali-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Oriya---Oriya-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Oriya---Oriya-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Panjabi---Punjabi-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Panjabi---Punjabi-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Persian---Old-Persion-Version-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Persian---Old-Persion-Version-Bible.epub.copyright
@@ -695,20 +1020,34 @@
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet.epub.copyright VS ../copyright-production/Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Polish---Polish-Updated-Gdansk.epub.copyright VS ../copyright-production/Holy-Bible---Polish---Polish-Updated-Gdansk.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Portuguese---Portuguese-Trans-Trans.epub.copyright VS ../copyright-production/Holy-Bible---Portuguese---Portuguese-Trans-Trans.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Romani-Vlax---Arli-Luke.epub.copyright VS ../copyright-production/Holy-Bible---Romani-Vlax---Arli-Luke.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Romani-Vlax---Chergash-Luke.epub.copyright VS ../copyright-production/Holy-Bible---Romani-Vlax---Chergash-Luke.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Romani-Vlax---Gurbet-Luke.epub.copyright VS ../copyright-production/Holy-Bible---Romani-Vlax---Gurbet-Luke.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Romanian---Bayash-Luke.epub.copyright VS ../copyright-production/Holy-Bible---Romanian---Bayash-Luke.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Romanian---Ludari-Luke.epub.copyright VS ../copyright-production/Holy-Bible---Romanian---Ludari-Luke.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Rote-Dela---Rote-Dela-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Rote-Dela---Rote-Dela-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Russian---Russian-Synodal-Translation.epub.copyright VS ../copyright-production/Holy-Bible---Russian---Russian-Synodal-Translation.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Safwa---Safwa-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Safwa---Safwa-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script.epub.copyright VS ../copyright-production/Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Somali---Somali-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Somali---Somali-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Spanish---Free-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Spanish---Free-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Spanish---Reina-Valera-1909.epub.copyright VS ../copyright-production/Holy-Bible---Spanish---Reina-Valera-1909.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Spanish---Sencillo-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Spanish---Sencillo-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Swahili---New-Swahili-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Swahili---New-Swahili-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Swahili---Swahili-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Swahili---Swahili-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked.epub.copyright VS ../copyright-production/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Tamil---Tamil-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Tamil---Tamil-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Telugu---Telugu-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Telugu---Telugu-Bible.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Tongan---Revised-West-Version.epub.copyright VS ../copyright-production/Holy-Bible---Tongan---Revised-West-Version.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Turkish---Turkish-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Turkish---Turkish-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Ukrainian---Ukrainian-NT.epub.copyright VS ../copyright-production/Holy-Bible---Ukrainian---Ukrainian-NT.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Urdu---Urdu-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Urdu---Urdu-Bible.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Uyghur---Uyghur-Bible-Arabic.epub.copyright VS ../copyright-production/Holy-Bible---Uyghur---Uyghur-Bible-Arabic.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic.epub.copyright VS ../copyright-production/Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Uyghur---Uyghur-Bible-Latin.epub.copyright VS ../copyright-production/Holy-Bible---Uyghur---Uyghur-Bible-Latin.epub.copyright
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Uyghur---Uyghur-Bible-Pinyin.epub.copyright VS ../copyright-production/Holy-Bible---Uyghur---Uyghur-Bible-Pinyin.epub.copyright
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Vietnamese---Vietnamese-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Vietnamese---Vietnamese-Bible.epub.copyright
-*** AION: LOOP DONE! Function=AION_LOOP_DIFF_DOIT Files processed=76
+*** AION: DIFF REG: ../copyright-source/Holy-Bible---Vwanji---Vwanji-Bible.epub.copyright VS ../copyright-production/Holy-Bible---Vwanji---Vwanji-Bible.epub.copyright
+*** AION: LOOP DONE! Function=AION_LOOP_DIFF_DOIT Files processed=125
 *** AION: ALSO MANUALLY CHECK: unbound Korean RV  -AND-  Portuguese Biblia Livre
-*** AION: DONE! PostBible=0 PostFile=0 CopyBible=0 CopyFile=1 CopySkip=403
+*** AION: DONE! PostBible=0 PostFile=0 CopyBible=0 CopyFile=1 CopySkip=586

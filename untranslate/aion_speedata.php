@@ -31,9 +31,9 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_epubc'	=> FALSE,	// TRUE = do ePub covers
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---([W-Z]+.*)---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Malayalam).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Hebrew-Open-Scriptures).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Matupi|Updated-Gdansk|Slovene-Savli).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Arabic).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(English---Trans-Trans).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Dombe|Nestle|Boyd|Tisch|Treg).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aleppo|Scots|Aionian-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Arabic|Aramaic|Hebrew|Persian).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic|Peshitta|Aleppo|Persian|Hindi|Bengali|Assamese|Aionian-Bible|Spanish---Free-Bible).*---Aionian-Edition\.noia$/",
@@ -41,11 +41,12 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Arabic|Aionian-Bible|Spanish---Free-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Peshitta).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic|Persian).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Slovene-Savli|Pohnpeian-NT-Psalms-New-Alphabet|Japanese-Kougo-yaku|Swedish-Bible|Assamese-Bible|Sagradas-Escrituras-1569|Aramaic-NT-Peshitta|Karadzic-Danicic-Latin-Script).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Aleppo).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Bulgarian|Cebuano|Gourmantche|Nepali|Uyghur-Bible-Arabic|Uyghur-Bible-Cyrillic|Uyghur-Bible-Pinyin).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic|Uyghur-Bible-Cyrillic|Uyghur-Bible-Pinyin).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Vietnamese).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*1858.*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Kannada|Peshitta).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Bengali).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic|Uyghur-Bible-Latin).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/(Holy-Bible---Latvian---Latvian-Gluck-Bible|Holy-Bible---Japanese---Japanese-Yougo-yaku)---Aionian-Edition\.noia$/",
 		//'include'	=> "/.*Arapaho.*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Youngs).*---Aionian-Edition\.noia$/",
@@ -2620,6 +2621,13 @@ $loadfontfile = (
  <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"amiri-slanted.ttf\"/>
  <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"amiri-boldslanted.ttf\"/>"
 :
+// Arabic - Plus
+($font == "ArabicPlus" ?
+"<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"amiri-regular.ttf\">		<Fallback filename=\"gentiumplus-r.ttf\"/></LoadFontfile>
+ <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"amiri-bold.ttf\">			<Fallback filename=\"gentiumplus-r.ttf\"/></LoadFontfile>
+ <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"amiri-slanted.ttf\">		<Fallback filename=\"gentiumplus-i.ttf\"/></LoadFontfile>
+ <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"amiri-boldslanted.ttf\">	<Fallback filename=\"gentiumplus-i.ttf\"/></LoadFontfile>"
+:
 // Aramaic - RTL not working
 // Plus font instead of Fallback
 ($font == "Aramaic" ?
@@ -2800,7 +2808,7 @@ $loadfontfile = (
  <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"notoseriftelugu-bold.ttf\"/>"
 :
 // ERROR
-AION_ECHO("ERROR! Font not found $font")))))))))))))))))))))))));
+AION_ECHO("ERROR! Font not found $font"))))))))))))))))))))))))));
 
 if ($numarialfont) {	$initfont = '<Regular fontface="FT-BOLD"/><Bold fontface="FT-BOLD"/><Italic fontface="FT-BOIT"/><BoldItalic fontface="FT-BOIT"/>';
 						$numbfont = '<Regular fontface="FT-REGU"/><Bold fontface="FT-BOLD"/><Italic fontface="FT-ITAL"/><BoldItalic fontface="FT-BOIT"/>'; }

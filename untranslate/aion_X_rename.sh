@@ -6,9 +6,11 @@
 #	-path "../www-production-files" -prune -o \
 #	-name "*Holy-Bible---Spanish---Free-Bible-NT*" -o \
 #	-name "*Holy-Bible---BOOGEY-MAN*" \
+# Holy-Bible---Gourmantche---Gourma-Bible/Holy-Bible---Gourma---Gourma-Bible
+
 find ../ \
 	\( \
-	-name "*Holy-Bible---Vietnamese---Vietnamese-NT*" \
+	-name "*Holy-Bible---Gourmantche---Gourma-Bible*" \
 	\) \
 	-print \
 	| sort | tee aion_X_rename.nameorig
@@ -16,11 +18,11 @@ find ../ \
 # file newnames	
 cp aion_X_rename.nameorig aion_X_rename.namenew
 sed -i \
-	-e 's/Holy-Bible---Vietnamese---Vietnamese-NT/Holy-Bible---Vietnamese---Vietnamese-Bible/g' \
+	-e 's/Holy-Bible---Gourmantche---Gourma-Bible/Holy-Bible---Gourma---Gourma-Bible/g' \
 	aion_X_rename.namenew
 
 # file rename script	
-paste -d" " aion_X_rename.nameorig aion_X_rename.namenew | sed -e "s/^/mv /" >  aion_X_rename.namedoit	
+paste -d" " aion_X_rename.nameorig aion_X_rename.namenew | sed -e "s/^/mv /" >  aion_X_rename.namedoit.2nd	
 	
 	
 # files to edit
@@ -31,7 +33,7 @@ grep -R -l \
 	--exclude=aion_X_rename* \
 	--exclude=*.zip \
 	--exclude=*.xls \
-	-e Holy-Bible---Vietnamese---Vietnamese-NT \
+	-e Holy-Bible---Gourmantche---Gourma-Bible \
 	../ \
 	| sort | tee aion_X_rename.edit	
 
@@ -40,6 +42,6 @@ echo "
 cat aion_X_rename.edit |\
 xargs \
 sed -i \
-	-e 's/Holy-Bible---Vietnamese---Vietnamese-NT/Holy-Bible---Vietnamese---Vietnamese-Bible/g'
+	-e 's/Holy-Bible---Gourmantche---Gourma-Bible/Holy-Bible---Gourma---Gourma-Bible/g'
 " \
-| tee aion_X_rename.editdoit
+| tee aion_X_rename.editdoit.1st

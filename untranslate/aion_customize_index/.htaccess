@@ -18,6 +18,9 @@ RewriteBase /
    Header set Content-Disposition attachment
 </FilesMatch>
 
+# TEMP
+RewriteRule (.*)Matu-Chin---(.*) $1Chin-Matu---$2 [L,R=301]
+
 # REWRITE BASICS
 RewriteCond %{REQUEST_URI} ^/Facebook [NC]
 RewriteRule ^ https://www.facebook.com/aionianbible [L,R=301]

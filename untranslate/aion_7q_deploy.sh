@@ -19,6 +19,22 @@ system('rm -rf '.AION.WEBS);				if (is_dir(AION.WEBS)) {		AION_ECHO('ERROR! rm -
 system('cp -R '.LIVE.WEBS.' '.AION.WEBS);	if (!is_dir(AION.WEBS)) {		AION_ECHO('ERROR! cp -R '.AION.WEBS); }
 
 
+/*** Resources ***/
+system("rsync -amv \
+	--include='*Source-Edition.pdf' \
+	--include='*Source-Edition.epub' \
+	--include='*Source-Edition.crosswire.zip' \
+	--include='*Aionian-Edition.noia' \
+	--include='*Aionian-Edition.epub' \
+	--include='*Standard-Edition.noia' \
+ 	--include='*Aionian-Edition.pdf' \
+	--include='*Aionian-Edition---STUDY.pdf' \
+	--exclude='*/' \
+	--exclude='*' \
+	../www-stageresources/ \
+	../www-resources/ ");
+
+
 /*** database ***/
 $database = array();
 AION_FILE_DATA_GET(			'./aion_database/VERSIONS.txt',	'T_VERSIONS',	$database, 'BIBLE', TRUE );

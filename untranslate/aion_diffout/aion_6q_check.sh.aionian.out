@@ -2,7 +2,9 @@
 *** AION: START aion_6q_check.sh
 *** AION: CREATE UNTRANSLATE MODULE
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Albanian-Tosk---Albanian-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Amo---Amo-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Arabic---New-Arabic-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Aramaic---Aramaic-NT-Peshitta---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Arapaho---Arapaho-Luke---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Armenian---Armenian-Bible-Eastern---Standard-Edition.noia
@@ -13,9 +15,16 @@
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Beaver---Beaver-Mark---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Bengali---Bengali-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Breton---Breton-Gospels---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Bulgarian---Bulgarian-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Calo---Calo-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Cebuano---Cebuano-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Cherokee---Cherokee-New-Testament---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Chin-Matu---Matupi-Chin-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Chin-Siyin---Siyin-Chin-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Chin-Thado---Chongthu-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Chinese---Chinese-Union-Version-Simplified---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Chinese---Chinese-Union-Version-Traditional---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Coptic---Coptic-Boharic-NT---Standard-Edition.noia
@@ -23,6 +32,7 @@
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Croatian---Croatian-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Czech---Czech-Bible-Kralicka---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Danish---Danish-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Dombe---Dombe-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Dutch---Canisiusvertaling---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Dutch---Statenvertaling---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---English---A-Conservative-Version---Standard-Edition.noia
@@ -34,6 +44,7 @@
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---English---Catholic-Public-Domain---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---English---Darby-Translation---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---English---Douay-Rheims-1899---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---English---Family-35-NT---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---English---Free-Bible-Version---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---English---Geneva-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---English---Gods-Living-Word---Standard-Edition.noia
@@ -90,6 +101,8 @@
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---German---German-Luther-Bible-1912---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---German---German-Reinhardt-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---German---German-Tafel-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Gourma---Gourma-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Gourmantche---Gourmantche-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Greek---Greek-Antoniades---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Greek---Greek-Byzantine-Majority---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Greek---Greek-LXX-Septuagint---Standard-Edition.noia
@@ -97,6 +110,7 @@
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Greek---Greek-Nestle---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Greek---Greek-Pickering-Family-35---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Greek---Greek-Textus-Receptus---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Greek---Greek-Textus-Receptus-Elzevir---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Greek---Greek-Tischendorf---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Greek---Greek-Tregelles---Standard-Edition.noia
@@ -107,8 +121,13 @@
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Aleppo-Codex---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Masoretic-OT---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Hebrew---Modern-Hebrew-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Hindi---Hindi-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Hungarian---Hungarian-Karoli---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Ilocano---Ilocano-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Isanzu---Isanzu-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Italian---Conferenza-Episcopale-Italiana---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Italian---Italian-Riveduta-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Japanese---Japanese-Bungo-yaku---Standard-Edition.noia
@@ -118,8 +137,12 @@
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Japanese---Japanese-Raguet-yaku---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Japanese---New-Japanese-New-Testament---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Kannada---Kannada-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Kara---Kara-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Kinga---Mahanji-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Kisi---Kisi-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Korean---Korean-RV---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Kosraean---Kosraean-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Kuhane---Kuhane-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Latin---Clementine-Vulgate-1598---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Latin---Clementine-Vulgate-Conte---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Latin---Clementine-Vulgate-Hetzenauer---Standard-Edition.noia
@@ -129,10 +152,14 @@
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Latvian---Latvian-Gluck-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Malagasy---Malagasy-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Malayalam---Malayalam-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Maori---Maori-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Marathi---Marathi-Bible---Standard-Edition.noia
-*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Matu-Chin---Matupi-Chin-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Mwera---Mwera-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Myanmar---Burmese-Common-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Myanmar---Myanmar-Burmese-Judson---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Ndebele---Ndebele-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Ndengereko---Ndengereko-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Nepali---Nepali-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Norwegian---Norwegian-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Norwegian---Norwegian-Student-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Oriya---Oriya-Bible---Standard-Edition.noia
@@ -146,9 +173,14 @@
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Portuguese---Almeida-NewOrthography---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Portuguese---Biblia-Livre---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Portuguese---Portuguese-Trans-Trans---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Romani-Vlax---Arli-Luke---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Romani-Vlax---Chergash-Luke---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Romani-Vlax---Gurbet-Luke---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Romanian---Bayash-Luke---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Romanian---Ludari-Luke---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Rote-Dela---Rote-Dela-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Russian---Russian-Synodal-Translation---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Safwa---Safwa-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Serbian---Serbian-Ekavski-Bible---Standard-Edition.noia
@@ -163,19 +195,27 @@
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Spanish---Reina-Valera-NT-1858---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Spanish---Sagradas-Escrituras-1569---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Spanish---Sencillo-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Swahili---New-Swahili-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Swahili---Swahili-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Swedish---Swedish-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Swedish---Swedish-Bible-1873---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Tagalog---Tagalog-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Tamil---Tamil-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Telugu---Telugu-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Tongan---Revised-West-Version---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Turkish---Turkish-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Ukrainian---Ukrainian-NT---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Ukrainian---Ukrainian-Ogienko---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Urdu---Urdu-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Uyghur---Uyghur-Bible-Arabic---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Uyghur---Uyghur-Bible-Latin---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Uyghur---Uyghur-Bible-Pinyin---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-Bible-1934---Standard-Edition.noia
-*** AION: LOOP DONE! Function=AION_LOOP_CHECK_UNTRANSLATE_MODULE_DOIT Files processed=174
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Vwanji---Vwanji-Bible---Standard-Edition.noia
+*** AION: LOOP DONE! Function=AION_LOOP_CHECK_UNTRANSLATE_MODULE_DOIT Files processed=214
 *** AION: REMINDER! COPY TO DATABASE: ../checks/UNTRANSLATEMODULE.txt
 *** AION: REMINDER! COPY TO DATABASE: ../checks/UNTRANSLATEMODULE.txt.sort
 *** AION: DONE!

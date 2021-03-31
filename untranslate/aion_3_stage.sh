@@ -17,6 +17,7 @@ AION_LOOP_CONV		(	'../source-production',
 						'../checks/UNICODE_USAGE.txt',
 						'../checks/TEXTREPAIR.txt',
 						'../checks/RAWCHECK.txt',
+						'../checks/TAGS.txt',
 						TRUE);
 						
 AION_LOOP_AION		(	'../www-stageresources',	'../www-stageresources',	'../www-stage/library');

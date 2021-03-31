@@ -32,10 +32,12 @@ AION_CHECK_DIFF_TWO_FILES('./aion_database/TALLY_HO.txt',				'../checks/TALLY_HO
 AION_CHECK_DIFF_TWO_FILES('../checks/TALLY.txt',						'../checks/TALLY_HO.txt',				'../checks/ADIFF.TALLY_TALLY_HO.txt');
 AION_CHECK_DIFF_TWO_FILES('./aion_database/RAWCHECK.txt',				'../checks/RAWCHECK.txt',				'../checks/ADIFF.RAWCHECK.txt');
 AION_CHECK_DIFF_TWO_FILES('./aion_database/SKIPPED.txt',				'../checks/SKIPPED.txt',				'../checks/ADIFF.SKIPPED.txt');
+AION_CHECK_DIFF_TWO_FILES('./aion_database/TAGS.txt',					'../checks/TAGS.txt',					'../checks/ADIFF.TAGS.txt');
 AION_CHECK_DIFF_TWO_FILES('./aion_database/TESTWORDS.txt',				'../checks/TESTWORDS.txt',				'../checks/ADIFF.TESTWORDS.txt');
 AION_CHECK_DIFF_TWO_FILES('./aion_database/TEXTREPAIR.txt',				'../checks/TEXTREPAIR.txt',				'../checks/ADIFF.TEXTREPAIR.txt');
 AION_CHECK_DIFF_TWO_FILES('./aion_database/NUMBERSHOT.txt',				'../checks/NUMBERSHOT.txt',				'../checks/ADIFF.NUMBERSHOT.txt');
 AION_CHECK_DIFF_TWO_FILES('./aion_database/IVERSE.txt',					'../checks/IVERSE.txt',					'../checks/ADIFF.IVERSE.txt');
+AION_CHECK_DIFF_TWO_FILES('./aion_database/IVERSE2.txt',				'../checks/IVERSE2.txt',				'../checks/ADIFF.IVERSE2.txt');
 AION_CHECK_DIFF_TWO_FILES('./aion_database/ANAVIGATION.txt',			'../checks/ANAVIGATION.txt',			'../checks/ADIFF.ANAVIGATION.txt');
 AION_CHECK_DIFF_TWO_FILES('../copyright-diff/AMASTER.copyright-diff',	'../checks/AMASTER.copyright-diff',		'../checks/ADIFF.AMASTER.copyright-diff');
 
