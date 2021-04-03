@@ -7,7 +7,7 @@
 require_once('./aion_common.php');
 AION_ECHO("START " . basename(__FILE__, '.php'));
 
-AION_LOOP_CONV		(	'../source-production',
+AION_LOOP_CONV		(	'../www-stageresources',
 						'../www-stageresources',
 						'../raw-original',
 						'../raw-fixed',
@@ -22,10 +22,6 @@ AION_LOOP_CONV		(	'../source-production',
 						
 AION_LOOP_AION		(	'../www-stageresources',	'../www-stageresources',	'../www-stage/library');
 AION_LOOP_NOIA		(	'../www-stageresources',	'../www-stage/library');
-
-AION_LOOP_EPUB_ORIG	(	'../source-production',		'../www-stageresources');
-AION_LOOP_PDFS_ORIG	(	'../source-production',		'../www-stageresources');
-AION_LOOP_CROS_ORIG	(	'../source-production',		'../www-stageresources');
 
 require_once('./aion_3e_epub.php'); // Aionian Bible epub
 

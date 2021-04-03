@@ -11,6 +11,10 @@ function AION_BIBLES_RAWFIX($args, $bible, $type, $file, $vpl, $sword, $unbound,
 if (!($bfile = file_get_contents($file))) { AION_ECHO("ERROR! Problem reading: $file"); }
 $bfile = Encoding::toUTF8($bfile);
 
+// REMOVE COMMENTS
+if (!($bfile = preg_replace("/\n## [^\n]*/us","", $bfile,-1,$rnum))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/^## [^\n]*/us","", $bfile,-1,$rnum))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+
 
 // BEFORE REMOVE CHARACTERS
 if ('Holy-Bible---English---Trans-Trans'==$bible) {
@@ -2762,7 +2766,7 @@ Matthew 13:36
 EOF;
 if (!($bfile = preg_replace("/Matthew 13:34 (.+?)Matthew 13:36 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 // get substitute chapters and clean them up first!
-if (!($bfile2 = file_get_contents($file2="../source-production/Holy-Bible---English---New-Heart-Standard.txt"))) { AION_ECHO("ERROR! Rawfix problem reading: $file2"); }
+if (!($bfile2 = file_get_contents($file2="../www-stageresources/Holy-Bible---English---New-Heart-Standard---Source-Edition.NHEB.txt"))) { AION_ECHO("ERROR! Rawfix problem reading: $file2"); }
 $bfile2 = Encoding::toUTF8($bfile2);
 if (!($bfile2 = preg_replace('/</us', '[',$bfile2,-1,$rnum)) || $rnum!=116) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile2 = preg_replace('/>/us', ']',$bfile2,-1,$rnum)) || $rnum!=116) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -7539,7 +7543,7 @@ case "Holy-Bible---Japanese---Japanese-Kougo-yaku" :
 if (!($bfile = preg_replace("/[{}]+/us",'',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/&#x[A-Za-z0-9]{1,4};[ ]*/us",'',$bfile,-1,$rnum)) || $rnum!=226) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
-if (!($bfile2 = file_get_contents($file2="../source-production/Holy-Bible---Japanese---Japanese-Meiji-yaku.sword"))) { AION_ECHO("ERROR! Rawfix problem reading: $file2"); }
+if (!($bfile2 = file_get_contents($file2="../www-stageresources/Holy-Bible---Japanese---Japanese-Meiji-yaku---Source-Edition.SWORD.txt"))) { AION_ECHO("ERROR! Rawfix problem reading: $file2"); }
 $bfile2 = Encoding::toUTF8($bfile2);
 if (!($bfile2 = preg_replace('/<[^<>\n]*>/us','',$bfile2,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
 if (!($bfile2 = preg_replace('/<[^<>\n]*>/us','',$bfile2,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
@@ -7548,7 +7552,7 @@ if (!preg_match("/Proverbs 30:1 (.+?)Ecclesiastes 1:1 /us",$bfile2,$matches) || 
 if (!($bfile = preg_replace("/Ecclesiastes 1:1 /us",$matches[0],$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!preg_match("/Psalms 130:1 (.+?)Psalms 140:1 /us",$bfile2,$matches) || empty($matches[0])) { AION_ECHO("ERROR! Rawfix preg_match(PSA): $file2"); }		
 if (!($bfile = preg_replace("/Psalms 140:1 /us",$matches[0],$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-if (!($bfile2 = file_get_contents($file2="../source-production/Holy-Bible---Japanese---Japanese-Bungo-yaku.sword"))) { AION_ECHO("ERROR! Rawfix problem reading: $file2"); }
+if (!($bfile2 = file_get_contents($file2="../www-stageresources/Holy-Bible---Japanese---Japanese-Bungo-yaku---Source-Edition.SWORD.txt"))) { AION_ECHO("ERROR! Rawfix problem reading: $file2"); }
 $bfile2 = Encoding::toUTF8($bfile2);
 if (!($bfile2 = preg_replace('/<[^<>\n]*>/us','',$bfile2,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
 if (!($bfile2 = preg_replace('/<[^<>\n]*>/us','',$bfile2,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
@@ -7581,7 +7585,7 @@ goto RAWHIDE;
 case "Holy-Bible---Japanese---Japanese-Meiji-yaku" :
 if (!($bfile = preg_replace("/\\\\/us",'',$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
-if (!($bfile2 = file_get_contents($file2="../source-production/Holy-Bible---Japanese---Japanese-Kougo-yaku.sword"))) { AION_ECHO("ERROR! Rawfix problem reading: $file2"); }
+if (!($bfile2 = file_get_contents($file2="../www-stageresources/Holy-Bible---Japanese---Japanese-Kougo-yaku---Source-Edition.SWORD.txt"))) { AION_ECHO("ERROR! Rawfix problem reading: $file2"); }
 $bfile2 = Encoding::toUTF8($bfile2);
 if (!($bfile2 = preg_replace('/<[^<>\n]*>/us','',$bfile2,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
 if (!($bfile2 = preg_replace('/<[^<>\n]*>/us','',$bfile2,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }

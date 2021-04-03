@@ -49,12 +49,13 @@ AION_INSTALL_INDEX_AUTH_TO_NO(LIVE.'/index.php' );
 system("rsync -amv \
 	--include='*Source-Edition.pdf' \
 	--include='*Source-Edition.epub' \
-	--include='*Source-Edition.crosswire.zip' \
-	--include='*Aionian-Edition.noia' \
+	--include='*Source-Edition.SWORD.zip' \
+	--include='*Source-Edition.*.txt' \
 	--include='*Aionian-Edition.epub' \
-	--include='*Standard-Edition.noia' \
  	--include='*Aionian-Edition.pdf' \
 	--include='*Aionian-Edition---STUDY.pdf' \
+	--include='*Aionian-Edition.noia' \
+	--include='*Standard-Edition.noia' \
 	--exclude='*/' \
 	--exclude='*' \
 	../www-stageresources/ \

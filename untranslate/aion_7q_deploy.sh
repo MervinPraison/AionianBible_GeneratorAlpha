@@ -23,12 +23,13 @@ system('cp -R '.LIVE.WEBS.' '.AION.WEBS);	if (!is_dir(AION.WEBS)) {		AION_ECHO('
 system("rsync -amv \
 	--include='*Source-Edition.pdf' \
 	--include='*Source-Edition.epub' \
-	--include='*Source-Edition.crosswire.zip' \
-	--include='*Aionian-Edition.noia' \
+	--include='*Source-Edition.SWORD.zip' \
+	--include='*Source-Edition.*.txt' \
 	--include='*Aionian-Edition.epub' \
-	--include='*Standard-Edition.noia' \
  	--include='*Aionian-Edition.pdf' \
 	--include='*Aionian-Edition---STUDY.pdf' \
+	--include='*Aionian-Edition.noia' \
+	--include='*Standard-Edition.noia' \
 	--exclude='*/' \
 	--exclude='*' \
 	../www-stageresources/ \

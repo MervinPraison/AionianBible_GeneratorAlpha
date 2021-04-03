@@ -194,6 +194,15 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $domain, $allbibl
 		$okay = $destiny.'/'.$version[C_BIBLE];
 		$bpub = $destiny.'/epub/'.$version[C_BIBLE];
 		$boli = $destiny.'/online/'.$version[C_BIBLE];
+		// Source txt filename
+		$sour = (
+			(is_file($base.'---Source-Edition.NHEB.txt')	? '---Source-Edition.NHEB.txt' :
+			(is_file($base.'---Source-Edition.VPL.txt')		? '---Source-Edition.VPL.txt' :
+			(is_file($base.'---Source-Edition.UNBOUND.txt')	? '---Source-Edition.UNBOUND.txt' :
+			(is_file($base.'---Source-Edition.B4U.txt')		? '---Source-Edition.B4U.txt' :
+			(is_file($base.'---Source-Edition.SWORD.txt')	? '---Source-Edition.SWORD.txt' : NULL))))));
+		if (empty($sour) || !AION_filesize($base.$sour)) { AION_ECHO("ERROR! AION_FILE_DATABASE_PUT no source extension found! $bible"); }
+		
 		// skip bible?
 		if (!$allbibles && $database[$version[C_BIBLE]][T_VERSIONS]['NOPRO']=='TRUE') {
 			// remove bible index
@@ -202,16 +211,18 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $domain, $allbibl
 			unlink($base.'---Aionian-Edition.epub');
 			unlink($base.'---Aionian-Edition.pdf');
 			unlink($base.'---Aionian-Edition---STUDY.pdf');
-			unlink($base.'---Aionian-Edition.noia');
 			unlink($okay.'---Aionian-Edition.json');
 			unlink($okay.'---Aionian-Verses.json');
+
+			unlink($base.'---Aionian-Edition.noia');
+			unlink($base.'---Standard-Edition.noia');
+			unlink($base.'---Source-Edition.noia');
 			
 			unlink($base.'---Source-Edition.epub');
 			unlink($base.'---Source-Edition.pdf');
-			unlink($base.'---Source-Edition.crosswire.zip');
-			unlink($base.'---Source-Edition.noia');
-			unlink($base.'---Standard-Edition.noia');
-			
+			unlink($base.'---Source-Edition.SWORD.zip');
+			unlink($base.$sour);
+		
 			system("rm -rf $boli"."---Aionian-Edition");
 			system("rm -rf $bpub"."---Aionian-Edition");
 			system("rm -rf $bpub"."---Source-Edition");
@@ -283,14 +294,16 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $domain, $allbibl
 		 : "").
 		
 		((is_dir(  $bpub.'---Source-Edition') ||
+		  AION_filesize($base.$sour) ||
 		  AION_filesize($base.'---Source-Edition.epub') ||
 		  AION_filesize($base.'---Source-Edition.pdf') ||
-		  AION_filesize($base.'---Source-Edition.crosswire.zip')) ?
+		  AION_filesize($base.'---Source-Edition.SWORD.zip')) ?
         ("\n<div class='field-header'>Source Downloads:</div><div class='field-field'><div class='field-links decorated'>".
-		 (is_dir(  $bpub.'---Source-Edition')					?("<a href='/epub/"			.$version[C_BIBLE]."---Source-Edition' target='_blank' title='Source Bible ePub format online'>ePub online</a>, ")					:'').
-		 (AION_filesize($base.'---Source-Edition.epub')			?("<a href='http://$domain/".$version[C_BIBLE]."---Source-Edition.epub' download title='Source Bible ePub format download'>ePub</a>, ")							:'').
-		 (AION_filesize($base.'---Source-Edition.pdf')			?("<a href='http://$domain/".$version[C_BIBLE]."---Source-Edition.pdf' title='Source Bible PDF format'  target='_blank'>PDF</a>, ")								:'').
-		 (AION_filesize($base.'---Source-Edition.crosswire.zip')?("<a href='http://$domain/".$version[C_BIBLE]."---Source-Edition.crosswire.zip' download title='Source Bible crosswire format download'>Crosswire module</a>")	:'').
+		 (is_dir(  $bpub.'---Source-Edition')				?("<a href='/epub/"			.$version[C_BIBLE]."---Source-Edition' target='_blank' title='Source Bible ePub format online'>ePub online</a>, ")						:'').
+		 (AION_filesize($base.'---Source-Edition.epub')		?("<a href='http://$domain/".$version[C_BIBLE]."---Source-Edition.epub' download title='Source Bible ePub format download'>ePub</a>, ")								:'').
+		 (AION_filesize($base.'---Source-Edition.pdf')		?("<a href='http://$domain/".$version[C_BIBLE]."---Source-Edition.pdf' title='Source Bible PDF format'  target='_blank'>PDF</a>, ")									:'').
+		 (AION_filesize($base.'---Source-Edition.SWORD.zip')?("<a href='http://$domain/".$version[C_BIBLE]."---Source-Edition.SWORD.zip' download title='Source Bible Crosswire Sword format download'>Crosswire module</a>, ")	:'').
+		 (AION_filesize($base.$sour)						?("<a href='http://$domain/".$version[C_BIBLE]."$sour' download title='Source Bible data format download'>Source Datafile</a>")										:'').
 		 "</div></div>")
 		 : "");
 		 
@@ -344,7 +357,7 @@ function AION_INSTALL_EPUB_BETTER( $destiny, $make_index=FALSE ) {
 	if (!is_dir($destiny.'/js')) {																	AION_ECHO('ERROR! !is_dir '.$destiny.'/js'); }
 	$temp = 'tmp.futurepress_epub';
 	system('rm -rf '.$temp);
-	system( 'unzip -q ../source-production/FILE_FuturePress_ePub.js.zip -d ' . $temp );
+	system( 'unzip -q ../www-stageresources/FILE_FuturePress_ePub.js.zip -d ' . $temp );
 	if (!is_dir($temp)) {																			AION_ECHO('ERROR! !is_dir '.$temp); }
 	system('rm -rf '.$destiny.'/css');
 	system('rm -rf '.$destiny.'/font');
@@ -487,6 +500,110 @@ function AION_LOOP_DIFF_DOIT($args) {
 
 
 
+
+/*** aion diff loop ***/
+function AION_LOOP_UNPACK($folder) {
+	$database = array();
+	AION_FILE_DATA_GET( './aion_database/SOURCES.txt', 'T_SOURCES', $database, FALSE, FALSE );
+	$database['T_SOURCES'][] = array('SOURCE'=>''); // add empty one for simpler loop below
+	AION_LOOP( array(
+		'function'	=> 'AION_LOOP_UNPACK_DOIT',
+		'source'	=> $folder,
+		'destiny'	=> $folder,
+		'include'	=> '/---Source-Edition(\.NHEB\.txt|\.VPL\.zip|\.UNBOUND\.zip|\.B4U\.tar\.gz)/',
+		'exclude'	=> '',
+		'database'	=> $database,
+		) );
+}
+function AION_LOOP_UNPACK_DOIT($args) {
+	/* setup */
+	$zipname = $args['filename'];
+	$zipfile = $args['filepath'];
+	$txtfile = str_replace('.zip','.txt',$args['filepath']);
+	$txtfile = str_replace('.tar.gz','.txt',$txtfile);
+	$temp = "./tmp.unpack";
+	if (!preg_match("/\/(Holy-Bible---.*)---Source-Edition/", $args['filepath'], $matches)) {	AION_ECHO("ERROR! Failed to preg_match(Holy-Bible): ".$args['filepath']); }
+	$bible = $matches[1];
+
+	/* find the source and date */
+	foreach($args['database']['T_SOURCES'] as $source) { if ($source['DESTINATION']==$zipname) { break; } }
+	if (empty($source['SOURCE'])) { AION_ECHO("ERROR! ZIPFILE UNPACK FAILED, SOURCE NOT FOUND: $zipfile"); }
+	$source_date = filemtime($zipfile);
+
+	/* always try to repack NHEB */
+	if (preg_match("/\.NHEB\.txt$/", $txtfile)) {
+		AION_LOOP_UNPACK_STAMP($bible, $source['SOURCE'], $source_date, $txtfile);
+		return;
+	}
+
+	/* doit ornot */	
+	if (file_exists($txtfile) && $source_date == filemtime($txtfile)) { return; }
+
+	/* unpack */
+	if (preg_match("/\.B4U\.tar\.gz$/", $zipfile)) {
+		if (!mkdir($temp)) { AION_ECHO("ERROR! !mkdir: $temp"); }
+		system("tar -xf $zipfile -C $temp");
+		$type = 'B4U';
+	}
+	else {
+		system("unzip $zipfile -d $temp");
+		if (preg_match("/\.VPL\.zip$/", $zipfile)) { $type = 'VPL'; }
+		else if (preg_match("/\.UNBOUND\.zip$/", $zipfile)) { $type = 'UNB'; }
+		else { AION_ECHO("ERROR! Unknown unpack extension found $zipfile"); }
+	}
+	
+	/* find */
+	$files = array_diff(scandir($temp), array('.', '..'));
+	$files[] = 'bogus-file';
+	foreach($files as $unpack) {
+		if ($type=='B4U' && preg_match("/\.txt$/i", $unpack)==TRUE) {		break; }
+		if ($type=='VPL' && preg_match("/_vpl\.txt$/i", $unpack)==TRUE) {	break; }
+		if ($type=='UNB' && preg_match("/_utf8\.txt$/i", $unpack)==TRUE) {	break; }
+	}
+	if (is_file("$temp/$unpack") && rename("$temp/$unpack", $txtfile)) {
+		AION_LOOP_UNPACK_STAMP($bible, $source['SOURCE'], $source_date, $txtfile);
+	}
+	else {
+		if (file_exists($txtfile)) { unlink($txtfile); }
+		AION_ECHO("WARN! ZIPFILE UNPACK FAILED: $txtfile");
+		++$errors;
+	}
+	system("rm -rf $temp");
+}
+function AION_LOOP_UNPACK_STAMP($bible, $source, $source_date, $file) {
+if (!($contents=file_get_contents($file))) { AION_ECHO("ERROR! UNPACK_STAMP file_get_contents($file)"); }
+if (preg_match("/^## Aionian Bible/", $contents)) {
+	touch($file, $source_date);
+	return;
+}
+$filename = basename($file);
+$today = date('m/d/Y H:i:s');
+$source_date_formatted = date("m/d/Y H:i:s", $source_date);
+$contents = <<<EOT
+## Aionian Bible
+## File Name: $filename
+## File Usage: $bible
+## File Created: $today
+## File Purpose: Supporting resource for the Aionian Bible project
+## File Location: http://resources.AionianBible.org
+## Publisher Name: Nainoia Inc
+## Publisher Contact: http://www.AionianBible.org/Publisher
+## Publisher Mission: http://www.AionianBible.org/Preface
+## Publisher Website: http://NAINOIA-INC.signedon.net
+## Publisher Facebook: https://www.Facebook.com/AionianBible
+## Source URL: $source
+## Source Date: $source_date_formatted
+## Source Text: unaltered below
+##
+
+$contents
+EOT;
+if (!file_put_contents($file,$contents)) { AION_ECHO("ERROR! UNPACK_STAMP file_put_contents($file)"); }
+touch($file, $source_date);
+AION_ECHO("GOOD! UNPACK_STAMP:  source=$source  file=$file");
+}
+
+
 /*** aion convert ***/
 function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $skipped, $tally, $uniusage, $textrepair, $rawcheck, $raw_tags, $dataput) {
 	/* test utf8 encoder */
@@ -508,11 +625,8 @@ function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $ski
 		'function'	=> 'AION_LOOP_CONV_DOIT',
 		'source'	=> $source,
 		'uniusage'	=> $uniusage,
-		'include'	=> "/(\.vpl\.zip|\.txt\.tar\.gz|.+\.txt|.+\.unbound\.zip|.+\.sword)$/",
-		//'include'	=> "/Holy-Bible---.*(Conferenza-Episcopale-Italiana).*(\.vpl\.zip|\.txt\.tar\.gz|\.txt|\.unbound\.zip|\.sword)$/",
-		//'include'	=> "/Holy-Bible---.*(Dombe|Gourma-Bible|Uyghur).*(\.vpl\.zip|\.txt\.tar\.gz|\.txt|\.unbound\.zip|\.sword)$/",
-		//'include'	=> "/Holy-Bible---.*(Tamil|Telugu).*(\.vpl\.zip|\.txt\.tar\.gz|\.txt|\.unbound\.zip|\.sword)$/",
-		//'include'	=> "/Holy-Bible---[U-Z]+.*(\.vpl\.zip|\.txt\.tar\.gz|\.txt|\.unbound\.zip|\.sword)$/",
+		'include'	=> '/---Source-Edition\.(NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
+		//'include'	=> '/Holy-Bible---[G-Z](.*?)---Source-Edition\.(NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		'destiny'	=> $destiny,
 		'raw_orig'	=> $raw_orig,
 		'raw_fixed'	=> $raw_fixed,
@@ -535,54 +649,30 @@ function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $ski
 	AION_unset($database); $database=NULL; unset($database);
 }
 function AION_LOOP_CONV_DOIT($args) {
-	$temp = 'tmp.convert.'.$args['filename'];
-	system('rm -rf '.$temp);
-	$type = NULL;
-	if (preg_match("/\.zip$/", $args['filename'])) {
-		system('unzip -q '.$args['filepath'].' -d '.$temp);
-		$type = (preg_match("/\.unbound\.zip$/", $args['filename']) ? 'UNB' : 'VPL');
-	}
-	else if (preg_match("/\.txt\.tar\.gz$/", $args['filename'])) {
-		if (!mkdir($temp)) { AION_ECHO("ERROR! !mkdir: ".$temp); }
-		system('tar -xf '.$args['filepath'].' -C '.$temp);
-		$type = 'B4U';
-	}
-	else if (preg_match("/\.sword$/", $args['filename'])) {
-		if (!mkdir($temp)) { AION_ECHO("ERROR! !mkdir: ".$temp); }
-		if (!copy($args['filepath'],$temp.'/'.$args['filename'])) { AION_ECHO("ERROR! Problem writing: ".$temp.'/'.$args['filename']); }
-		$type = 'SWD';
-	}
-	else {
-		if (!mkdir($temp)) { AION_ECHO("ERROR! !mkdir: ".$temp); }
-		if (!copy($args['filepath'],$temp.'/'.$args['filename'])) { AION_ECHO("ERROR! Problem writing: ".$temp.'/'.$args['filename']); }
-		$type = 'HRT';
-	}
-	if (!is_dir($temp)) { AION_ECHO("ERROR! failed isdir=".$temp); }
-	$output = $args['destiny'].'/'.preg_replace('/\.(zip|txt|sword)$/i', '---Standard-Edition.noia', preg_replace('/\.(vpl|unbound|tar\.gz)/i', '', $args['filename']));
+	/* setup */
+	$filepath = $args['filepath'];
+	if (preg_match("/---Source-Edition\.NHEB\.txt$/", $args['filepath'])) {			$type = "HRT"; }
+	else if (preg_match("/---Source-Edition\.VPL\.txt$/", $args['filepath'])) {		$type = "VPL"; }
+	else if (preg_match("/---Source-Edition\.UNBOUND\.txt$/", $args['filepath'])) {	$type = "UNB"; }
+	else if (preg_match("/---Source-Edition\.B4U\.txt$/", $args['filepath'])) {		$type = "B4U"; }
+	else if (preg_match("/---Source-Edition\.SWORD\.txt$/", $args['filepath'])) {	$type = "SWD"; }
+	else { AION_ECHO("ERROR! Failed to preg_match(Bible) extension: $filepath"); }
+
+	$output = $args['destiny'].'/'.preg_replace('/---Source-Edition(.*?)$/i', '---Standard-Edition.noia', $args['filename']);
 	$output_orig = str_replace('---Standard-Edition.noia','---Source-Edition.noia',$output);
-	if (!preg_match("/\/(Holy-Bible---.*)---Standard-Edition\.noia/", $output, $matches)) {	AION_ECHO("ERROR! Failed to preg_match(Holy-Bible): ".$args['filepath']);	}
+	if (!preg_match("/\/(Holy-Bible---.*)---Standard-Edition\.noia$/", $output, $matches)) {	AION_ECHO("ERROR! Failed to preg_match(Holy-Bible): ".$args['filepath']);	}
 	$bible = $matches[1];
-	if (!preg_match("/Holy-Bible---/", $bible)) {											AION_ECHO("ERROR! Failed to preg_match(Bible): $bible");	}
-	$files = array_diff(scandir($temp), array('.', '..'));
-	$file = $flop = NULL;
-	foreach( $files as $flop ) {
-		if ($type=='B4U' && preg_match("/\.txt$/i", $flop)==TRUE) {							$file = $flop; break; }
-		if ($type=='VPL' && preg_match("/_vpl\.txt$/i", $flop)==TRUE) {						$file = $flop; break; }
-		if ($type=='HRT' && preg_match("/\.txt$/i", $flop)==TRUE) {							$file = $flop; break; }
-		if ($type=='SWD' && preg_match("/\.sword$/i", $flop)==TRUE) {						$file = $flop; break; }
-		if ($type=='UNB' && preg_match("/_utf8\.txt$/i", $flop)==TRUE) {					$file = $flop; break; }
-	}
+	if (!preg_match("/^Holy-Bible---/", $bible)) {												AION_ECHO("ERROR! Failed to preg_match(Bible): $bible");	}
+
 	// open and raw fix the bible
-	AION_BIBLES_RAWFIX($args, $bible, $type, $temp.'/'.$file, $args['bibles'], $args['sword'], $args['unbound'], $fixedbible, $args['raw_orig'], $args['raw_fixed'], $args['raw_tags'], $args['database']['T_RAWCHECK']);
+	AION_BIBLES_RAWFIX($args, $bible, $type, $filepath, $args['bibles'], $args['sword'], $args['unbound'], $fixedbible, $args['raw_orig'], $args['raw_fixed'], $args['raw_tags'], $args['database']['T_RAWCHECK']);
 	$data_orig = $data = $reverse = array();
-	$rows  = $byte  = $numb  = $chap  = $vers = $orig_count = 0;
+	$rows  = $byte  = $numb  = $chap  = $vers = 0;
 	$numbL = $chapL = $versL = '000';
 	$fields = -1;
 	$line = FALSE;
 	// loop the bible lines
 	while (($line===FALSE && ($line=strtok($fixedbible, "\r\n"))!==FALSE) || ($line = strtok( "\r\n" )) !== FALSE) {
-
-	
 
 		// DUPLICATE CODE!!!
 		// ignore comments
@@ -667,12 +757,9 @@ function AION_LOOP_CONV_DOIT($args) {
 		}
 		// duplicate verse reference!
 		if (!empty($data_orig[$numb.'-'.$chap.'-'.$vers])) { AION_ECHO("ERROR! DUPLICATE ORIGINAL!\n".print_r($data_orig[$numb.'-'.$chap.'-'.$vers],TRUE)); }
-		// DUPLICATE CODE!!!
-
-
+		$data_orig[$numb.'-'.$chap.'-'.$vers] = array('INDEX'=>$numb,'BOOK'=>$book,'CHAPTER'=>$chap,'VERSE'=>$vers,'TEXT'=>$text);
 
 		// conver to noia format		
-		$data_orig[$numb.'-'.$chap.'-'.$vers] = array('INDEX'=>$numb,'BOOK'=>$book,'CHAPTER'=>$chap,'VERSE'=>$vers,'TEXT'=>$text);
 		$book_orig = $book;
 		$numb_orig = $numb;
 		$chap_orig = $chap;
@@ -754,7 +841,6 @@ function AION_LOOP_CONV_DOIT($args) {
 	AION_FILE_DATA_PUT($output_orig,$data_orig,AION_BIBLES_COMMENT_MORE($args['database']['T_VERSIONS'][$bible],'Source'));
 	AION_unset($data_orig); $data_orig=NULL; unset($data_orig);
 	AION_unset($reverse); $reverse=NULL; unset($reverse);
-	system('rm -rf '.$temp);
 	AION_ECHO('CONVERTED '.$args['filepath'].' to '.$output.' byte='.$byte.' rows='.$rows);
 }
 function AION_BIBLES_REVISE($bible,$numb,$book,$chap,$vers,&$text) {
@@ -4005,60 +4091,6 @@ function AION_COPY($pathSource, $pathDest) {
 
 
 
-/*** aion epub orig loop ***/
-function AION_LOOP_EPUB_ORIG($source, $destiny) {
-	AION_LOOP( array(
-		'function'	=> 'AION_LOOP_EPUB_ORIG_DOIT',
-		'source'	=> $source,
-		'include'	=> "/\.epub$/",
-		'destiny'	=> $destiny,
-		) );
-}
-function AION_LOOP_EPUB_ORIG_DOIT($args) {
-	$newfile = $args['destiny'].'/'.str_replace('.epub','---Source-Edition.epub',$args['filename']);
-	unlink($newfile);
-	if (!AION_COPY($args['filepath'],$newfile)) { AION_ECHO("ERROR! Problem writing: ".$newfile); }
-	AION_ECHO("SUCCESS EPUB ORIG ".$newfile);
-}
-
-
-
-/*** aion pdfs orig loop ***/
-function AION_LOOP_PDFS_ORIG($source, $destiny) {
-	AION_LOOP( array(
-		'function'	=> 'AION_LOOP_PDFS_ORIG_DOIT',
-		'source'	=> $source,
-		'include'	=> "/\.pdf$/",
-		'destiny'	=> $destiny,
-		) );
-}
-function AION_LOOP_PDFS_ORIG_DOIT($args) {
-	$newfile = $args['destiny'].'/'.str_replace('.pdf','---Source-Edition.pdf',$args['filename']);
-	unlink($newfile);
-	if (!AION_COPY($args['filepath'],$newfile)) { AION_ECHO("ERROR! Problem writing: ".$newfile); }
-	AION_ECHO("SUCCESS PDFS ORIG ".$newfile);
-}
-
-
-/*** aion crosswire orig loop ***/
-function AION_LOOP_CROS_ORIG($source, $destiny) {
-	AION_LOOP( array(
-		'function'	=> 'AION_LOOP_CROS_ORIG_DOIT',
-		'source'	=> $source,
-		'include'	=> "/\.crosswire\.zip$/",
-		'destiny'	=> $destiny,
-		) );
-}
-function AION_LOOP_CROS_ORIG_DOIT($args) {
-	$newfile = $args['destiny'].'/'.str_replace('.crosswire.zip','---Source-Edition.crosswire.zip',$args['filename']);
-	unlink($newfile);
-	if (!AION_COPY($args['filepath'],$newfile)) { AION_ECHO("ERROR! Problem writing: ".$newfile); }
-	AION_ECHO("SUCCESS PDFS ORIG ".$newfile);
-}
-
-
-
-
 /*** aion epub uzip loop ***/
 function AION_LOOP_EPUB_UZIP($source, $destiny) {
 	AION_LOOP( array(
@@ -4087,7 +4119,7 @@ function AION_LOOP_COPYRIGHT($folder_original, $folder_copyright) {
 		'function'	=> 'AION_LOOP_COPYRIGHT_DOIT',
 		'source'	=> $folder_original,
 		'destiny'	=> $folder_copyright,
-		'include'	=> "/\.epub$/",
+		'include'	=> "/Source-Edition\.epub$/",
 		) );
 	system("cat ".$folder_copyright."/*.copyright > ".$folder_copyright."/AMASTER.COPYRIGHT");
 	system('(echo "Subject: AIONIAN ENGINE COPYRIGHT"; echo; echo AMASTER.COPYRIGHT; ls -ail ' . $folder_copyright . '; cat ' . $folder_copyright . '/AMASTER.COPYRIGHT;) | /usr/lib/sendmail escribes@aionianbible.org;');

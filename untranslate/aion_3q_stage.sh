@@ -5,7 +5,7 @@
 require_once('./aion_common.php');
 AION_ECHO("START " . basename(__FILE__, '.php'));
 
-AION_LOOP_CONV		(	'../source-production',
+AION_LOOP_CONV		(	'../www-stageresources',
 						'../www-stageresources',
 						'../raw-original',
 						'../raw-fixed',
