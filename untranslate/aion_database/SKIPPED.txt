@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
 # File Size: 1160274     
-# File Date: 03/30/2021 19:33:21
+# File Date: 04/03/2021 20:00:35
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: http://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2021
@@ -1786,26 +1786,26 @@ Holy-Bible---English---Unlocked-Literal-Bible	045	ROM	016	024
 Holy-Bible---English---Unlocked-Literal-Bible	064	3JO	001	014	But I expect to see you soon, and we will speak face to face.
 Holy-Bible---English---Unlocked-Literal-Bible	066	REV	012	018	Then the dragon stood on the sand of the seashore.
 Holy-Bible---English---Weymouth-NT	064	3JO	001	014	But I hope to see you very soon, and then we will speak face to face.
-Holy-Bible---English---World-English-Bible-British-Edition	042	LUK	017	036	
-Holy-Bible---English---World-English-Bible-British-Edition	044	ACT	008	037	
-Holy-Bible---English---World-English-Bible-British-Edition	044	ACT	015	034	
-Holy-Bible---English---World-English-Bible-British-Edition	044	ACT	024	007	
-Holy-Bible---English---World-English-Bible-British-Edition	045	ROM	016	025	
 Holy-Bible---English---World-English-Bible	042	LUK	017	036	
 Holy-Bible---English---World-English-Bible	044	ACT	008	037	
 Holy-Bible---English---World-English-Bible	044	ACT	015	034	
 Holy-Bible---English---World-English-Bible	044	ACT	024	007	
 Holy-Bible---English---World-English-Bible	045	ROM	016	025	
-Holy-Bible---English---World-Messianic-Bible-British-Edition	042	LUK	017	036	
-Holy-Bible---English---World-Messianic-Bible-British-Edition	044	ACT	008	037	
-Holy-Bible---English---World-Messianic-Bible-British-Edition	044	ACT	015	034	
-Holy-Bible---English---World-Messianic-Bible-British-Edition	044	ACT	024	007	
-Holy-Bible---English---World-Messianic-Bible-British-Edition	045	ROM	016	025	
+Holy-Bible---English---World-English-Bible-British-Edition	042	LUK	017	036	
+Holy-Bible---English---World-English-Bible-British-Edition	044	ACT	008	037	
+Holy-Bible---English---World-English-Bible-British-Edition	044	ACT	015	034	
+Holy-Bible---English---World-English-Bible-British-Edition	044	ACT	024	007	
+Holy-Bible---English---World-English-Bible-British-Edition	045	ROM	016	025	
 Holy-Bible---English---World-Messianic-Bible	042	LUK	017	036	
 Holy-Bible---English---World-Messianic-Bible	044	ACT	008	037	
 Holy-Bible---English---World-Messianic-Bible	044	ACT	015	034	
 Holy-Bible---English---World-Messianic-Bible	044	ACT	024	007	
 Holy-Bible---English---World-Messianic-Bible	045	ROM	016	025	
+Holy-Bible---English---World-Messianic-Bible-British-Edition	042	LUK	017	036	
+Holy-Bible---English---World-Messianic-Bible-British-Edition	044	ACT	008	037	
+Holy-Bible---English---World-Messianic-Bible-British-Edition	044	ACT	015	034	
+Holy-Bible---English---World-Messianic-Bible-British-Edition	044	ACT	024	007	
+Holy-Bible---English---World-Messianic-Bible-British-Edition	045	ROM	016	025	
 Holy-Bible---English---Wycliffe-Bible	004	NUM	020	028	And whanne he hadde maad nakid Aaron of hise clothis, he clothide with tho Eleazar, his sone.
 Holy-Bible---English---Wycliffe-Bible	006	JOS	004	023	for oure Lord God driede the watris therof in oure siyt, til we passiden,
 Holy-Bible---English---Wycliffe-Bible	006	JOS	005	014	To whom he answeride, Nay, but Y am prince of the `hoost of the Lord, and now Y come.
@@ -8150,74 +8150,6 @@ Holy-Bible---Spanish---Reina-Valera-1909	032	JON	001	017
 Holy-Bible---Spanish---Reina-Valera-NT-1858	064	3JO	001	014	Porque espero verte en breve, y hablarémos boca á boca.
 Holy-Bible---Swahili---New-Swahili-Bible	064	3JO	001	014	Bali ninatarajia kukuona hivi karibuni, na tutaongea nawe ana kwa ana.
 Holy-Bible---Swahili---New-Swahili-Bible	066	REV	012	018	Kisha joka alisimama juu ya mchanga ufukwe wa bahari.
-Holy-Bible---Swedish---Swedish-Bible-1873	011	1KI	022	043	Och vandrade uti allom sins faders Asa väg, och gick icke derifrå, och gjorde det  Herranom  behagade.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	003	001	En Psalm Davids, då han flydde för sin son Absalom.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	004	001	En Psalm Davids, till att föresjunga på strängaspel.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	005	001	En Psalm Davids, till att föresjunga för arfvet.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	006	001	En Psalm Davids, till att föresjunga på åtta stränger.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	007	001	Davids oskyldighet, der han om söng  Herranom , för Chus ords skull, den Jeminitens.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	008	001	En Psalm Davids, till att föresjunga på Gittith.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	009	001	En Psalm Davids, om den sköna, ungdomen, till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	012	001	En Psalm Davids, till att föresjunga på åtta stränger.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	013	001	En Psalm Davids, till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	018	001	En Psalm, till att föresjunga, Davids,  Herrans  tjenares; hvilken denna visos ord talade till  Herran , på den tid  Herren  honom hulpit hade ifrå hans fiendars hand, och ifrå Sauls hand;
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	019	001	En Psalm Davids, till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	020	001	En Psalm Davids, till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	021	001	En Psalm Davids, till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	022	001	En Psalm Davids, till att föresjunga, om hindena som bittida jagad varder.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	030	001	En Psalm, till att sjunga om Davids hus vigning.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	031	001	En Psalm Davids, till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	034	001	En Psalm Davids, då han förvandlade sitt ansigte för Abimelech, den honom ifrå sig dref, och han gick sin väg.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	036	001	En Psalm Davids,  Herrans  tjenares, till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	038	001	En Psalm Davids, till åminnelse.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	039	001	En Psalm Davids, till att föresjunga för Jeduthun.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	040	001	En Psalm Davids, till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	041	001	En Psalm Davids, till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	042	001	En undervisning, Korah barnas, till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	044	001	En undervisning Korah barnas, till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	045	001	En brudvisa och undervisning, Korah barnas, om rosena, till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	046	001	En visa, Korah barnas, om ungdomen, till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	047	001	En Psalm, till att föresjunga, Korah barnas.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	048	001	En Psalmvisa, Korah barnas.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	049	001	En Psalm, till att föresjunga, Korah barnas.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	051	001	En Psalm Davids, till att föresjunga;
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	051	002	Då den Propheten Nathan till honom kom, när han till BathSeba ingången var.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	052	001	En undervisning Davids, till att föresjunga;
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	052	002	Då Doeg den Edomeen kom, och bebådade Saul, och sade: David är uti Ahimelechs hus kommen.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	053	001	En undervisning Davids, i chorenom ymsom till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	054	001	En undervisning Davids, till att föresjunga på strängaspel;
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	054	002	Då de af Siph kommo, och sade till Saul: David hafver fördolt sig när oss.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	055	001	En undervisning Davids, till att föresjunga på strängaspel.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	056	001	Ett gyldene klenodium Davids, till att föresjunga, om den dumba dufvona ibland de främmanda, då de Philisteer grepo honom i Gath.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	057	001	Ett gyldene klenodium Davids, till att föresjunga, att han icke borto blef, då han för Saul flydde in i kulona.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	058	001	Ett gyldene klenodium Davids, till att föresjunga, att han icke förgicks.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	059	001	Ett gyldene klenodium Davids, till att föresjunga, att han icke borto blef, då Saul sände bort, och lät bevara hans hus, på det att han måtte dräpa honom.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	060	001	Ett gyldene klenodium Davids, till att föresjunga, om ett gyldene rosenspann, till att lära;
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	060	002	Då han stridt hade med de Syrer i Mesopotamien, och med de Syrer af Zoba; då Joab omvände, och slog de Edomeer i saltdalenom, tolftusend.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	061	001	En Psalm Davids, till att föresjunga på strängaspel.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	062	001	En Psalm Davids, för Jeduthun, till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	063	001	En Psalm Davids, då han var i Juda öken.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	064	001	En Psalm Davids, till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	065	001	En Psalm Davids, för en viso till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	067	001	En Psalmvisa, till att föresjunga på strängaspel.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	068	001	En Psalmvisa Davids, till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	069	001	En Psalm Davids, om roserna, till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	070	001	En Psalm Davids, till att föresjunga, till åminnelse.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	075	001	En Psalm och visa Assaphs, att han icke förgicks, till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	076	001	En Psalm och visa Assaphs, på strängaspel, till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	077	001	En Psalm Assaphs, för Jeduthun, till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	080	001	En Psalm Assaphs, om gyldene rosena, till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	081	001	På Gittith, till att föresjunga, Assaphs.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	083	001	En Psalmvisa Assaphs.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	084	001	En Psalm Korah barnas, på Gittith, till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	085	001	En Psalm Korah barnas, till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	088	001	En Psalmvisa Korah barnas, till att föresjunga, om de eländas svaghet; en undervisning Hemans, dens Esrahitens.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	089	001	En undervisning Ethans, dens Esrahitens.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	092	001	En Psalm till att sjunga på Sabbathsdagen.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	102	001	En Bön dens eländas, när han bedröfvad är, och sin klagan för  Herranom  utgjuter.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	108	001	En Psalmvisa Davids.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	140	001	En Psalm Davids, till att föresjunga.
-Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	142	001	En undervisning Davids, till att bedja, då han uti kulone var.
 Holy-Bible---Swedish---Swedish-Bible	009	1SA	003	021	Och HERREN fortfor att låta se sig i Silo; ty HERREN uppenbarade sig för Samuel i Silo genom HERRENS ord.
 Holy-Bible---Swedish---Swedish-Bible	009	1SA	020	042	Och Jonatan sade till David: "Gå i frid.  Blive det såsom vi båda svuro vid HERRENS namn, när vi sade: 'HERREN vare vittne mellan mig och dig, mellan mina efterkommande och dina, till evig tid.'"
 Holy-Bible---Swedish---Swedish-Bible	011	1KI	022	043	Och han vandrade i allt på sin fader Asas väg, utan att vika av ifrån den; han gjorde nämligen vad rätt var i HERRENS ögon.
@@ -8289,6 +8221,74 @@ Holy-Bible---Swedish---Swedish-Bible	019	PSA	140	001	För sångmästaren; en psa
 Holy-Bible---Swedish---Swedish-Bible	019	PSA	142	001	En sång av David; en bön, när han var i grottan.
 Holy-Bible---Swedish---Swedish-Bible	064	3JO	001	014	Ty jag hoppas att rätt snart få se dig, och då skola vi muntligen tala med varandra.
 Holy-Bible---Swedish---Swedish-Bible	066	REV	012	018	Och han ställde sig på sanden invid havet.
+Holy-Bible---Swedish---Swedish-Bible-1873	011	1KI	022	043	Och vandrade uti allom sins faders Asa väg, och gick icke derifrå, och gjorde det  Herranom  behagade.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	003	001	En Psalm Davids, då han flydde för sin son Absalom.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	004	001	En Psalm Davids, till att föresjunga på strängaspel.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	005	001	En Psalm Davids, till att föresjunga för arfvet.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	006	001	En Psalm Davids, till att föresjunga på åtta stränger.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	007	001	Davids oskyldighet, der han om söng  Herranom , för Chus ords skull, den Jeminitens.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	008	001	En Psalm Davids, till att föresjunga på Gittith.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	009	001	En Psalm Davids, om den sköna, ungdomen, till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	012	001	En Psalm Davids, till att föresjunga på åtta stränger.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	013	001	En Psalm Davids, till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	018	001	En Psalm, till att föresjunga, Davids,  Herrans  tjenares; hvilken denna visos ord talade till  Herran , på den tid  Herren  honom hulpit hade ifrå hans fiendars hand, och ifrå Sauls hand;
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	019	001	En Psalm Davids, till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	020	001	En Psalm Davids, till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	021	001	En Psalm Davids, till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	022	001	En Psalm Davids, till att föresjunga, om hindena som bittida jagad varder.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	030	001	En Psalm, till att sjunga om Davids hus vigning.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	031	001	En Psalm Davids, till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	034	001	En Psalm Davids, då han förvandlade sitt ansigte för Abimelech, den honom ifrå sig dref, och han gick sin väg.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	036	001	En Psalm Davids,  Herrans  tjenares, till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	038	001	En Psalm Davids, till åminnelse.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	039	001	En Psalm Davids, till att föresjunga för Jeduthun.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	040	001	En Psalm Davids, till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	041	001	En Psalm Davids, till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	042	001	En undervisning, Korah barnas, till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	044	001	En undervisning Korah barnas, till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	045	001	En brudvisa och undervisning, Korah barnas, om rosena, till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	046	001	En visa, Korah barnas, om ungdomen, till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	047	001	En Psalm, till att föresjunga, Korah barnas.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	048	001	En Psalmvisa, Korah barnas.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	049	001	En Psalm, till att föresjunga, Korah barnas.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	051	001	En Psalm Davids, till att föresjunga;
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	051	002	Då den Propheten Nathan till honom kom, när han till BathSeba ingången var.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	052	001	En undervisning Davids, till att föresjunga;
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	052	002	Då Doeg den Edomeen kom, och bebådade Saul, och sade: David är uti Ahimelechs hus kommen.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	053	001	En undervisning Davids, i chorenom ymsom till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	054	001	En undervisning Davids, till att föresjunga på strängaspel;
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	054	002	Då de af Siph kommo, och sade till Saul: David hafver fördolt sig när oss.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	055	001	En undervisning Davids, till att föresjunga på strängaspel.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	056	001	Ett gyldene klenodium Davids, till att föresjunga, om den dumba dufvona ibland de främmanda, då de Philisteer grepo honom i Gath.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	057	001	Ett gyldene klenodium Davids, till att föresjunga, att han icke borto blef, då han för Saul flydde in i kulona.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	058	001	Ett gyldene klenodium Davids, till att föresjunga, att han icke förgicks.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	059	001	Ett gyldene klenodium Davids, till att föresjunga, att han icke borto blef, då Saul sände bort, och lät bevara hans hus, på det att han måtte dräpa honom.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	060	001	Ett gyldene klenodium Davids, till att föresjunga, om ett gyldene rosenspann, till att lära;
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	060	002	Då han stridt hade med de Syrer i Mesopotamien, och med de Syrer af Zoba; då Joab omvände, och slog de Edomeer i saltdalenom, tolftusend.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	061	001	En Psalm Davids, till att föresjunga på strängaspel.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	062	001	En Psalm Davids, för Jeduthun, till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	063	001	En Psalm Davids, då han var i Juda öken.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	064	001	En Psalm Davids, till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	065	001	En Psalm Davids, för en viso till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	067	001	En Psalmvisa, till att föresjunga på strängaspel.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	068	001	En Psalmvisa Davids, till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	069	001	En Psalm Davids, om roserna, till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	070	001	En Psalm Davids, till att föresjunga, till åminnelse.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	075	001	En Psalm och visa Assaphs, att han icke förgicks, till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	076	001	En Psalm och visa Assaphs, på strängaspel, till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	077	001	En Psalm Assaphs, för Jeduthun, till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	080	001	En Psalm Assaphs, om gyldene rosena, till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	081	001	På Gittith, till att föresjunga, Assaphs.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	083	001	En Psalmvisa Assaphs.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	084	001	En Psalm Korah barnas, på Gittith, till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	085	001	En Psalm Korah barnas, till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	088	001	En Psalmvisa Korah barnas, till att föresjunga, om de eländas svaghet; en undervisning Hemans, dens Esrahitens.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	089	001	En undervisning Ethans, dens Esrahitens.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	092	001	En Psalm till att sjunga på Sabbathsdagen.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	102	001	En Bön dens eländas, när han bedröfvad är, och sin klagan för  Herranom  utgjuter.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	108	001	En Psalmvisa Davids.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	140	001	En Psalm Davids, till att föresjunga.
+Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	142	001	En undervisning Davids, till att bedja, då han uti kulone var.
 Holy-Bible---Tagalog---Tagalog-Bible-Unlocked	064	3JO	001	014	Pero ako ay umaasa na makita ka sa lalong madaling panahon, at tayo ay mag-uusap harap-harapan.
 Holy-Bible---Tagalog---Tagalog-Bible-Unlocked	066	REV	012	018	Pagkatapos tumayo ang dragon sa buhangin ng dalampasigan.
 Holy-Bible---Tamil---Tamil-Bible	064	3JO	001	014	சீக்கிரமாக உன்னைப் பார்க்கலாம் என்று நம்பியிருக்கிறேன், அப்பொழுது முகமுகமாகப் பேசிக்கொள்ளுவோம்.
