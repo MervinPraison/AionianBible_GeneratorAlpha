@@ -266,7 +266,8 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $domain, $allbibl
         		
 		"\n<div class='field-header'>Downloads:</div><div class='field-field'><div class='field-links decorated'>".
 		"<a href='https://play.google.com/store/apps/details?id=net.signedon.aionianbible.aionianbible' target='_blank' title='Aionian Bible free on Google Play Store'>Google Play Android App</a>".
-        (is_dir(  $bpub.'---Aionian-Edition')					?(", <a href='/epub/"			.$version[C_BIBLE]	."---Aionian-Edition' target='_blank' title='Aionian Bible ePub format online'>ePub online</a>") :'').
+        (is_dir(  $bpub.'---Aionian-Edition')					?(", <a href='/epub/"			.$version[C_BIBLE]	."---Aionian-Edition' target='_blank' title='Aionian Bible ePub Futurepress'>Futurepress</a>") :'').
+        (is_dir(  $bpub.'---Aionian-Edition')					?(", <a href='/Readium/"		.$version[C_BIBLE]	."---Aionian-Edition' target='_blank' title='Aionian Bible ePub Readium'>Readium</a>") :'').
 		(AION_filesize($base.'---Aionian-Edition.epub')			?(", <a href='http://$domain/"	.$version[C_BIBLE]	."---Aionian-Edition.epub' download title='Aionian Bible ePub format download'>ePub</a>") :'').
 		(AION_filesize($base.'---Aionian-Edition.pdf')			?(", <a href='http://$domain/"	.$version[C_BIBLE]	."---Aionian-Edition.pdf' target='_blank' title='Aionian Bible PDF format'>PDF</a>") :'').
 		(AION_filesize($base.'---Aionian-Edition---STUDY.pdf')	?(", <a href='http://$domain/"	.$version[C_BIBLE]	."---Aionian-Edition---STUDY.pdf' target='_blank' title='Aionian Bible PDF study format'>PDF Study Format</a>") :'').
@@ -299,11 +300,12 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $domain, $allbibl
 		  AION_filesize($base.'---Source-Edition.pdf') ||
 		  AION_filesize($base.'---Source-Edition.SWORD.zip')) ?
         ("\n<div class='field-header'>Source Downloads:</div><div class='field-field'><div class='field-links decorated'>".
-		 (is_dir(  $bpub.'---Source-Edition')				?("<a href='/epub/"			.$version[C_BIBLE]."---Source-Edition' target='_blank' title='Source Bible ePub format online'>ePub online</a>, ")						:'').
-		 (AION_filesize($base.'---Source-Edition.epub')		?("<a href='http://$domain/".$version[C_BIBLE]."---Source-Edition.epub' download title='Source Bible ePub format download'>ePub</a>, ")								:'').
-		 (AION_filesize($base.'---Source-Edition.pdf')		?("<a href='http://$domain/".$version[C_BIBLE]."---Source-Edition.pdf' title='Source Bible PDF format'  target='_blank'>PDF</a>, ")									:'').
-		 (AION_filesize($base.'---Source-Edition.SWORD.zip')?("<a href='http://$domain/".$version[C_BIBLE]."---Source-Edition.SWORD.zip' download title='Source Bible Crosswire Sword format download'>Crosswire module</a>, ")	:'').
-		 (AION_filesize($base.$sour)						?("<a href='http://$domain/".$version[C_BIBLE]."$sour' download title='Source Bible data format download'>Source Datafile</a>")										:'').
+		 (is_dir(  $bpub.'---Source-Edition')				?("<a href='/epub/"			.$version[C_BIBLE]."---Source-Edition' target='_blank' title='Source Bible ePub Futurepress'>Futurepress</a>, ")					:'').
+		 (is_dir(  $bpub.'---Source-Edition')				?("<a href='/Readium/"		.$version[C_BIBLE]."---Source-Edition' target='_blank' title='Source Bible ePub Readium'>Readium</a>, ")							:'').
+		 (AION_filesize($base.'---Source-Edition.epub')		?("<a href='http://$domain/".$version[C_BIBLE]."---Source-Edition.epub' download title='Source Bible ePub format download'>ePub</a>, ")							:'').
+		 (AION_filesize($base.'---Source-Edition.pdf')		?("<a href='http://$domain/".$version[C_BIBLE]."---Source-Edition.pdf' title='Source Bible PDF format'  target='_blank'>PDF</a>, ")								:'').
+		 (AION_filesize($base.'---Source-Edition.SWORD.zip')?("<a href='http://$domain/".$version[C_BIBLE]."---Source-Edition.SWORD.zip' download title='Source Bible Crosswire Sword download'>Crosswire module</a>, ")	:'').
+		 (AION_filesize($base.$sour)						?("<a href='http://$domain/".$version[C_BIBLE]."$sour' download title='Source Bible data format download'>Source Datafile</a>")									:'').
 		 "</div></div>")
 		 : "");
 		 
@@ -346,35 +348,6 @@ function AION_FILE_DATABASE_BOOKS( &$database ) {
 function AION_LIBS_RSYNC($source,$destiny) {
 	system(($command="rsync -av $source $destiny"));
 	AION_ECHO("DONE! ".$command);
-}
-
-
-/*** epub software ***/
-function AION_INSTALL_EPUB_BETTER( $destiny, $make_index=FALSE ) {
-	if (!is_dir($destiny.'/css')) {																	AION_ECHO('ERROR! !is_dir '.$destiny.'/css'); }
-	if (!is_dir($destiny.'/font')) {																AION_ECHO('ERROR! !is_dir '.$destiny.'/font'); }
-	if (!is_dir($destiny.'/img')) {																	AION_ECHO('ERROR! !is_dir '.$destiny.'/img'); }
-	if (!is_dir($destiny.'/js')) {																	AION_ECHO('ERROR! !is_dir '.$destiny.'/js'); }
-	$temp = 'tmp.futurepress_epub';
-	system('rm -rf '.$temp);
-	system( 'unzip -q ../www-stageresources/FILE_FuturePress_ePub.js.zip -d ' . $temp );
-	if (!is_dir($temp)) {																			AION_ECHO('ERROR! !is_dir '.$temp); }
-	system('rm -rf '.$destiny.'/css');
-	system('rm -rf '.$destiny.'/font');
-	system('rm -rf '.$destiny.'/img');
-	system('rm -rf '.$destiny.'/js');
-	if (!rename( $temp.'/epubjs-reader-master/reader/css',	$destiny.'/css' )) {					AION_ECHO('ERROR! !rename '.$destiny.'/css'); }
-	if (!rename( $temp.'/epubjs-reader-master/reader/font',	$destiny.'/font' )) {					AION_ECHO('ERROR! !rename '.$destiny.'/font'); }
-	if (!rename( $temp.'/epubjs-reader-master/reader/img',	$destiny.'/img' )) {					AION_ECHO('ERROR! !rename '.$destiny.'/img'); }
-	if (!rename( $temp.'/epubjs-reader-master/reader/js',	$destiny.'/js' )) {						AION_ECHO('ERROR! !rename '.$destiny.'/js'); }
-	if (system( 'cp -R aion_customize_epub_better/. '.$destiny ) === FALSE ) {						AION_ECHO('ERROR! cp -R software customizations better'); }
-	if ($make_index) {
-		system('rm -rf '.$destiny.'/index.php');
-		if (!rename( $destiny.'/epub.php',								$destiny.'/index.php' )) {	AION_ECHO('ERROR! !rename '.$destiny.'/index.php'); }
-		system('rm -rf '.$destiny.'/.htaccess');
-		if (!rename( $destiny.'/.htaccess-only-for-epub.signedon.net',	$destiny.'/.htaccess' )) {	AION_ECHO('ERROR! !rename '.$destiny.'/.htaccess'); }
-	}
-	system('rm -rf '.$temp);
 }
 
 

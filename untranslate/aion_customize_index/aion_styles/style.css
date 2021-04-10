@@ -72,7 +72,7 @@ a:hover { color: #A700F9; }
 
 /*** HEAD ***/
 #head { position: fixed; width: 100%; max-width: 1280px; min-width: 360px; background-color: #FFFFFF; }
-#head-hi { max-height: 55px; margin-top: 10px; padding: 2px 5px; border: 1px solid #A700F9; border-radius: 15px; background-color: #F1E5F6; box-shadow: 0 0 5px rgba(0, 0, 0, 0.4); overflow: auto; }
+#head-hi { max-height: 55px; margin-top: 10px; padding: 2px 5px; border: 1px solid #A700F9; border-radius: 15px; background-color: #F1E5F6; box-shadow: 0 0 5px rgba(0, 0, 0, 0.4); overflow: hidden; }
 #head-lo { max-height: 70px; max-width: 1024px; margin: 7px auto; padding: 5px 3%; background-color: #FFFFFF; border-bottom: 1px solid #A700F9; overflow: auto; }
 #logo { }
 #logo1 { display: inline-block !important; float: left; }

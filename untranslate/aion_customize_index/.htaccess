@@ -18,9 +18,6 @@ RewriteBase /
    Header set Content-Disposition attachment
 </FilesMatch>
 
-# TEMP
-RewriteRule (.*)Matu-Chin---(.*) $1Chin-Matu---$2 [L,R=301]
-
 # REWRITE BASICS
 RewriteCond %{REQUEST_URI} ^/Facebook [NC]
 RewriteRule ^ https://www.facebook.com/aionianbible [L,R=301]
@@ -70,7 +67,14 @@ RewriteRule ^ http://%{HTTP_HOST}/Read [L,R=301]
 # REWRITE EPUB
 RewriteCond %{REQUEST_URI} ^/epub/ [NC]
 RewriteCond %{DOCUMENT_ROOT}/library%{REQUEST_URI} -d
-RewriteRule ^ http://%{HTTP_HOST}?e=/xcdn%{REQUEST_URI} [L]
+RewriteRule ^ http://%{HTTP_HOST}?e=%{REQUEST_URI} [L]
+
+# REWRITE READIUM
+RewriteCond %{REQUEST_URI} ^/Readium/(Holy-Bible---.*)$
+RewriteCond %{DOCUMENT_ROOT}/library/epub/%1 -d
+RewriteRule ^ /Readium?epub=../library/epub/%1 [L]
+RewriteCond %{REQUEST_URI} ^/Readium$
+RewriteRule ^ /Readium [L]
 
 # REWRITE INDEX
 RewriteCond %{REQUEST_FILENAME} !-f

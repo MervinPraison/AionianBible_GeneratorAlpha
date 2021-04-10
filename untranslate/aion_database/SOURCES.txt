@@ -1,5 +1,4 @@
 FILE	FLAG	POST	VALUE	SOURCE	DESTINATION
-FILE_FuturePress_ePub.js				https://github.com/futurepress/epubjs-reader/archive/master.zip	FILE_FuturePress_ePub.js.zip
 Holy-Bible---Albanian-Tosk---Albanian-Bible				http://ebible.org/sword/zip/alsSHQ1994eb.zip	Holy-Bible---Albanian-Tosk---Albanian-Bible---Source-Edition.SWORD.zip
 Holy-Bible---Albanian-Tosk---Albanian-Bible				http://ebible.org/epub/alsSHQ.epub	Holy-Bible---Albanian-Tosk---Albanian-Bible---Source-Edition.epub
 Holy-Bible---Albanian-Tosk---Albanian-Bible				http://ebible.org/pdf/alsSHQ/alsSHQ_prt.pdf	Holy-Bible---Albanian-Tosk---Albanian-Bible---Source-Edition.pdf
