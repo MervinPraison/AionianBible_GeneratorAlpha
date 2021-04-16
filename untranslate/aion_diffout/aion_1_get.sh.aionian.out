@@ -3,8 +3,6 @@
 *** AION: DEFINE FUNCTIONS
 *** AION: READ FILE SOURCE TABLE AND BIBLE VERSIONS
 *** AION: LOOP THROUGH FILE RETRIEVALS
-*** AION: WARN! ZERO SIZE SOURCE: https://github.com/futurepress/epubjs-reader/archive/master.zip
-*** AION: COPIED https://github.com/futurepress/epubjs-reader/archive/master.zip to ../source-stage/FILE_FuturePress_ePub.js.zip
 *** AION: WARN! ZERO SIZE SOURCE: https://eBible.org/sword/zip/hrv1942eb.zip
 *** AION: WARN! copy(https://eBible.org/sword/zip/hrv1942eb.zip): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
  ~ https://eBible.org/sword/zip/hrv1942eb.zip to ../source-stage/Holy-Bible---Croatian---Croatian-Bible---Source-Edition.SWORD.zip
@@ -1052,4 +1050,4 @@ tar: MAORI.txt: implausibly old time stamp 1969-12-31 19:00:00
 *** AION: DIFF REG: ../copyright-source/Holy-Bible---Vwanji---Vwanji-Bible---Source-Edition.epub.copyright VS ../copyright-production/Holy-Bible---Vwanji---Vwanji-Bible---Source-Edition.epub.copyright
 *** AION: LOOP DONE! Function=AION_LOOP_DIFF_DOIT Files processed=124
 *** AION: ALSO CHECK MANUAL BIBLES FOR CHANGES
-*** AION: DONE! Skipped=586  Retrieved=1  Errors=3
+*** AION: DONE! Skipped=586  Retrieved=0  Errors=3

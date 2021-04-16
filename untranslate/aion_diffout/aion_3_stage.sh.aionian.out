@@ -9797,21 +9797,21 @@
 *** AION: WARNING! RAWFIX change for Holy-Bible---Portuguese---Portuguese-Trans-Trans,  byte-orig = 1802135,  byte-fix = 1802135,  byte-delta = 0,  verses-orig = 7899,  verses-fix = 7899,  verses-delta = 0,  average = 0
 *** AION: WARNING!!! PUNCTUATION PROBLEM! Holy-Bible---Portuguese---Portuguese-Trans-Trans	040	MAT	025	015:	Deu-lhes dinheiro para cuidar conforme a habilidade deles. [Por exemplo], deu cinco mil dólares $5000 a um deles, deu dois mil dólares $2000 a outro, e deu mil dólares $1000 a outro. Então ele saiu de viagem.
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Portuguese---Portuguese-Trans-Trans---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Portuguese---Portuguese-Trans-Trans---Standard-Edition.noia byte=2292968 rows=7897
-*** AION: WARNING! RAWFIX change for Holy-Bible---Romani-Vlax---Arli-Luke,  byte-orig = 149517,  byte-fix = 149536,  byte-delta = 19,  verses-orig = 1149,  verses-fix = 1151,  verses-delta = 2,  average = 9.5
+*** AION: WARNING! RAWFIX change for Holy-Bible---Romani-Vlax---Arli-Luke,  byte-orig = 149527,  byte-fix = 149546,  byte-delta = 19,  verses-orig = 1149,  verses-fix = 1151,  verses-delta = 2,  average = 9.5
 *** AION: WARNING REMAPPED = Holy-Bible---Romani-Vlax---Arli-Luke: Empty verse skipped: LUK 023 017 
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---Romani-Vlax---Arli-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romani-Vlax---Arli-Luke---Standard-Edition.noia byte=205401 rows=1150
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---Romani-Vlax---Arli-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romani-Vlax---Arli-Luke---Standard-Edition.noia byte=205410 rows=1150
 *** AION: WARNING! RAWFIX change for Holy-Bible---Romani-Vlax---Chergash-Luke,  byte-orig = 149656,  byte-fix = 149656,  byte-delta = 0,  verses-orig = 1151,  verses-fix = 1151,  verses-delta = 0,  average = 0
 *** AION: WARNING REMAPPED = Holy-Bible---Romani-Vlax---Chergash-Luke: Empty verse skipped: LUK 023 017 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Romani-Vlax---Chergash-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romani-Vlax---Chergash-Luke---Standard-Edition.noia byte=210444 rows=1150
-*** AION: WARNING! RAWFIX change for Holy-Bible---Romani-Vlax---Gurbet-Luke,  byte-orig = 141320,  byte-fix = 141320,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: WARNING! RAWFIX change for Holy-Bible---Romani-Vlax---Gurbet-Luke,  byte-orig = 141329,  byte-fix = 141329,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING REMAPPED = Holy-Bible---Romani-Vlax---Gurbet-Luke: Empty verse skipped: LUK 023 017 
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---Romani-Vlax---Gurbet-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romani-Vlax---Gurbet-Luke---Standard-Edition.noia byte=199179 rows=1150
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---Romani-Vlax---Gurbet-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romani-Vlax---Gurbet-Luke---Standard-Edition.noia byte=199188 rows=1150
 *** AION: WARNING! RAWFIX change for Holy-Bible---Romanian---Bayash-Luke,  byte-orig = 145276,  byte-fix = 145276,  byte-delta = 0,  verses-orig = 1151,  verses-fix = 1151,  verses-delta = 0,  average = 0
 *** AION: WARNING REMAPPED = Holy-Bible---Romanian---Bayash-Luke: Empty verse skipped: LUK 017 036 
 *** AION: WARNING REMAPPED = Holy-Bible---Romanian---Bayash-Luke: Empty verse skipped: LUK 023 017 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Romanian---Bayash-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romanian---Bayash-Luke---Standard-Edition.noia byte=211323 rows=1149
-*** AION: WARNING! RAWFIX change for Holy-Bible---Romanian---Ludari-Luke,  byte-orig = 142012,  byte-fix = 142031,  byte-delta = 19,  verses-orig = 1146,  verses-fix = 1148,  verses-delta = 2,  average = 9.5
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---Romanian---Ludari-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romanian---Ludari-Luke---Standard-Edition.noia byte=200808 rows=1148
+*** AION: WARNING! RAWFIX change for Holy-Bible---Romanian---Ludari-Luke,  byte-orig = 142709,  byte-fix = 142728,  byte-delta = 19,  verses-orig = 1146,  verses-fix = 1148,  verses-delta = 2,  average = 9.5
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---Romanian---Ludari-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romanian---Ludari-Luke---Standard-Edition.noia byte=201560 rows=1148
 *** AION: WARNING! RAWFIX change for Holy-Bible---Rote-Dela---Rote-Dela-Bible,  byte-orig = 1707106,  byte-fix = 1707003,  byte-delta = -103,  verses-orig = 9074,  verses-fix = 9074,  verses-delta = 0,  average = -103
 *** AION: WARNING!!! BRACKET PROBLEM! Holy-Bible---Rote-Dela---Rote-Dela-Bible	043	JOH	019	039:	Nikodemus neu namalolo' no Yusuf boe. Eni fo fai ma'ahulun neu nandaa no Yesus tetemba'. Ana hasa rambe naen seli, mbei ma kilo telu nulu telu (33 kilo), de ngganggari neu Yesus ao-sisi mamaten.
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Rote-Dela---Rote-Dela-Bible---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Rote-Dela---Rote-Dela-Bible---Standard-Edition.noia byte=2160569 rows=9072

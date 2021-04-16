@@ -3053,9 +3053,9 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-518;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-539;
 	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-602;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-105152;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-105154;
 	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-21988;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-2393.46;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-2393.50;
 	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-97;
 	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-57;
 	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-203;
@@ -4069,6 +4069,7 @@ function AION_LOOP_EPUB_UZIP($source, $destiny) {
 	AION_LOOP( array(
 		'function'	=> 'AION_LOOP_EPUB_UZIP_DOIT',
 		'source'	=> $source,
+		//'include'		=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.epub$/",
 		'include'	=> "/\.epub$/",
 		'destiny'	=> $destiny,
 		) );

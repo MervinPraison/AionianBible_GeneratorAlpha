@@ -23,6 +23,7 @@ else if ($_Path==='Maps') {								$_meta = " ~ Maps";											abcms_page('map
 else if ($_Path==='History') {							$_meta = " ~ History";										abcms_page('history.htm'); }
 else if ($_Path==='Readers-Guide') {					$_meta = " ~ Readers Guide";								abcms_page('readers-guide.htm'); }
 else if ($_Path==='Aionios-and-Aidios') {				$_meta = " ~ Aiōnios and Aïdios";							abcms_page('aionios-and-aidios.htm'); }
+else if ($_Path==='AppleApp') {							$_meta = " ~ Apple iPhone App";								abcms_page('appleapp.htm'); }
 else if ($_Path==='Third-Party-Publisher-Resources') {	$_meta = " ~ Third Party Publisher Resources";				abcms_page('third-party-publisher-resources.htm'); }
 else if (!preg_match('/^[a-zA-Z0-9\-\/]+$/',$_Path)) {																abcms_notf(); }
 if (($_para = (preg_match('#(/parallel-[^/]+)#',$_Path,$matches) ? $matches[1] : NULL))) {	$_paraC = str_replace('/parallel-','',$_para);	$_Path = preg_replace('#(/parallel-[^/]+)#','',$_Path); }
