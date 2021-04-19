@@ -927,7 +927,7 @@ $G_COMMENT
 <li class='olbeg' value='1'><a href='front-2-copyright.xhtml' title='View Copyright'>Copyright</a></li>
 <li class='olbeg'><a href='front-3-preface.xhtml' title='View Preface'>$W_PREF</a></li>
 <li class='olbeg'><a href='front-4-aionian.xhtml' title='View explanation of Aiōnios and Aïdios'>Aiōnios and Aïdios</a></li>
-<li class='oltoc'><a href='index.xhtml' title='Table of Contents'>TOC</a></li>
+<li class='oltoc'><a href='index.xhtml' title='Table of Contents'>$W_TOC</a></li>
 $intro_old$index_old$intro_new$index_new$outro_new<li class='olend' value='1'><a href='rear-1-readers-guide.xhtml' title='View Readers Guide'>$W_READ</a></li>
 <li class='olend'><a href='rear-2-glossary.xhtml' title='View Aionian Glossary'>$W_GLOS</a></li>
 <li class='olinA'><a href='rear-3-history-past.xhtml' title='View chart of history past'>History Past</a></li>

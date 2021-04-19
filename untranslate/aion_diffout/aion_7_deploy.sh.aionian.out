@@ -523,38 +523,18 @@ Holy-Bible---Portuguese---Portuguese-Trans-Trans---Aionian-Edition.noia
 Holy-Bible---Portuguese---Portuguese-Trans-Trans---Standard-Edition.noia
 Holy-Bible---Romani-Vlax---Arli-Luke---Aionian-Edition.epub
 Holy-Bible---Romani-Vlax---Arli-Luke---Aionian-Edition.noia
-Holy-Bible---Romani-Vlax---Arli-Luke---Source-Edition.SWORD.zip
-Holy-Bible---Romani-Vlax---Arli-Luke---Source-Edition.VPL.txt
-Holy-Bible---Romani-Vlax---Arli-Luke---Source-Edition.epub
-Holy-Bible---Romani-Vlax---Arli-Luke---Source-Edition.pdf
 Holy-Bible---Romani-Vlax---Arli-Luke---Standard-Edition.noia
 Holy-Bible---Romani-Vlax---Chergash-Luke---Aionian-Edition.epub
 Holy-Bible---Romani-Vlax---Chergash-Luke---Aionian-Edition.noia
-Holy-Bible---Romani-Vlax---Chergash-Luke---Source-Edition.SWORD.zip
-Holy-Bible---Romani-Vlax---Chergash-Luke---Source-Edition.VPL.txt
-Holy-Bible---Romani-Vlax---Chergash-Luke---Source-Edition.epub
-Holy-Bible---Romani-Vlax---Chergash-Luke---Source-Edition.pdf
 Holy-Bible---Romani-Vlax---Chergash-Luke---Standard-Edition.noia
 Holy-Bible---Romani-Vlax---Gurbet-Luke---Aionian-Edition.epub
 Holy-Bible---Romani-Vlax---Gurbet-Luke---Aionian-Edition.noia
-Holy-Bible---Romani-Vlax---Gurbet-Luke---Source-Edition.SWORD.zip
-Holy-Bible---Romani-Vlax---Gurbet-Luke---Source-Edition.VPL.txt
-Holy-Bible---Romani-Vlax---Gurbet-Luke---Source-Edition.epub
-Holy-Bible---Romani-Vlax---Gurbet-Luke---Source-Edition.pdf
 Holy-Bible---Romani-Vlax---Gurbet-Luke---Standard-Edition.noia
 Holy-Bible---Romanian---Bayash-Luke---Aionian-Edition.epub
 Holy-Bible---Romanian---Bayash-Luke---Aionian-Edition.noia
-Holy-Bible---Romanian---Bayash-Luke---Source-Edition.SWORD.zip
-Holy-Bible---Romanian---Bayash-Luke---Source-Edition.VPL.txt
-Holy-Bible---Romanian---Bayash-Luke---Source-Edition.epub
-Holy-Bible---Romanian---Bayash-Luke---Source-Edition.pdf
 Holy-Bible---Romanian---Bayash-Luke---Standard-Edition.noia
 Holy-Bible---Romanian---Ludari-Luke---Aionian-Edition.epub
 Holy-Bible---Romanian---Ludari-Luke---Aionian-Edition.noia
-Holy-Bible---Romanian---Ludari-Luke---Source-Edition.SWORD.zip
-Holy-Bible---Romanian---Ludari-Luke---Source-Edition.VPL.txt
-Holy-Bible---Romanian---Ludari-Luke---Source-Edition.epub
-Holy-Bible---Romanian---Ludari-Luke---Source-Edition.pdf
 Holy-Bible---Romanian---Ludari-Luke---Standard-Edition.noia
 Holy-Bible---Rote-Dela---Rote-Dela-Bible---Aionian-Edition.epub
 Holy-Bible---Rote-Dela---Rote-Dela-Bible---Aionian-Edition.noia
@@ -668,8 +648,8 @@ Holy-Bible---Vwanji---Vwanji-Bible---Aionian-Edition.epub
 Holy-Bible---Vwanji---Vwanji-Bible---Aionian-Edition.noia
 Holy-Bible---Vwanji---Vwanji-Bible---Standard-Edition.noia
 
-sent 3,778,292,052 bytes  received 12,629 bytes  39,153,416.38 bytes/sec
-total size is 9,840,394,821  speedup is 2.60
+sent 3,772,600,094 bytes  received 12,249 bytes  35,759,358.70 bytes/sec
+total size is 9,840,416,729  speedup is 2.61
 *** AION: DIFF REG: ../www-stage/library/Greek_Chapter_Usage.txt VS ../www-production/library/Greek_Chapter_Usage.txt
 *** AION: DIFF REG: ../www-stage/library/Greek_Chapter_Usage_Index.json VS ../www-production/library/Greek_Chapter_Usage_Index.json
 *** AION: DIFF REG: ../www-stage/library/Greek_Lexicon_LSJ.txt VS ../www-production/library/Greek_Lexicon_LSJ.txt
