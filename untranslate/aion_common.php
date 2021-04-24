@@ -600,6 +600,7 @@ function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $ski
 		'uniusage'	=> $uniusage,
 		'include'	=> '/---Source-Edition\.(NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---[G-Z](.*?)---Source-Edition\.(NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
+		//'include'	=> '/Holy-Bible---.*(Savli).*---Source-Edition\.(NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		'destiny'	=> $destiny,
 		'raw_orig'	=> $raw_orig,
 		'raw_fixed'	=> $raw_fixed,
@@ -3037,25 +3038,25 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker = array();
 	$grandmarker['BIBLE_COUNT']	= $grandtotal['BIBLE_COUNT']-214;
 	$grandmarker['LANG_COUNT']	= $grandtotal['LANG_COUNT']-98;
-	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-5574;
+	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-5576;
 	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-5076;
-	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-182920;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-4826435;
-	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-47067;
-	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-259;
+	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-182976;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-4828209;
+	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-47070;
+	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-260;
 	$grandmarker['LONG']		= $grandtotal['LONG']-824;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-0;
 	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-1847;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-733;
 	$grandmarker['FIXED']		= $grandtotal['FIXED']-10389;
-	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-10504;
+	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-10505;
 	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-7864;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-518;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-539;
 	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-602;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-105154;
-	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-21988;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-2393.50;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-109784;
+	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-22586;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-2486.10;
 	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-97;
 	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-57;
 	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-203;
@@ -3746,9 +3747,9 @@ function AION_LOOP_HTMS_DOIT($args) {
 	$REVE_NO = ($REVE_NO == 0 ? $REVE_NO : "<span style='font-weight:bold; color:red;'>$REVE_NO</span>" );
 	$REVE_EX = ($REVE_EX == 0 ? $REVE_EX : "<span style='font-weight:bold; color:red;'>$REVE_EX</span>" );
 	$PDFPA = ($PDFPA <= 0 ? "" : ($PDFPA <= 700 ? $PDFPA : "<span style='font-weight:bold; color:red;'>$PDFPA</span>"));
-	$PDFPN = ($PDFPN <= 0 ? "" : ($PDFPN <= 192 ? $PDFPN : "<span style='font-weight:bold; color:red;'>$PDFPN</span>"));
+	$PDFPN = ($PDFPN <= 0 ? "" : ($PDFPN <= 229 ? $PDFPN : "<span style='font-weight:bold; color:red;'>$PDFPN</span>"));
 	$PDFPIF = sprintf("%.2f",$PDFPI);
-	$PDFPIF = ($PDFPI <= 0 ? "" : ($PDFPI < 15 ? $PDFPIF : "<span style='font-weight:bold; color:red;'>$PDFPIF</span>"));
+	$PDFPIF = ($PDFPI <= 0 ? "" : ($PDFPI <= 18 ? $PDFPIF : "<span style='font-weight:bold; color:red;'>$PDFPIF</span>"));
 	$ISGOOD = ($ISGOOD == "GOOD" ? "ok" : "<span style='font-weight:bold; color:red;'>sos</span>" );
 	strtok($args['database']['T_VERSIONS'][$bible]['SOURCELINK'],'/.');
 	$SOURCE = "<a href='".$args['database']['T_VERSIONS'][$bible]['SOURCELINK']."' target='_blank'>".substr(strtok('/.'),0,3)."</a>";

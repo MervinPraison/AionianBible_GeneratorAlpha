@@ -477,10 +477,8 @@
 *** AION: WARNING! SELAH! Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	019	PSA	140	008:	Chamo numanae y taelaye ni y dineseaña, O Jeova; chamo umayuyuda y taelaye jinasoña; na noseaja unafannaquilo maesa sija. (Sila) 
 *** AION: WARNING! SELAH! Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	019	PSA	143	006:	Jujuto mona y canaejo guiya jago: y antijo majo nu jago, taegüije y anglo na tano. (Sila) 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms---Standard-Edition.noia byte=1317930 rows=7246
-*** AION: WARNING! RAWFIX change for Holy-Bible---Cherokee---Cherokee-New-Testament,  byte-orig = 743766,  byte-fix = 743766,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
-*** AION: WARNING!!! PUNCTUATION PROBLEM! Holy-Bible---Cherokee---Cherokee-New-Testament	042	LUK	014	034:	~ᎠᎹ ᎣᏏᏳ; ᎢᏳᏍᎩᏂ ~ᎠᎹ ᏳᏥᏍᎪᎸ, ᎦᏙ ᏘᎦᎵᏍᏙᏓ ~ᎠᎹ ᏯᏙᏢᎾ.
-*** AION: WARNING!!! PUNCTUATION PROBLEM! Holy-Bible---Cherokee---Cherokee-New-Testament	056	TIT	001	013:	ᎯᎠ ᎾᏍᎩ ᎢᎦᏪᏛ ᏥᎩ ᎤᎪᎯᏳᎭ. ᎾᏍᎩ ᎢᏳᏍᏗ ᎠᏍᏓᏯ ᏕᎯᎬᏍ\ᎸᏅᎭ, ᎾᏍᎩ ᎤᎪᎸ ᏂᎨᏒᎾ ᎢᏳᎵᏍᏙᏗᏱ ᎤᏃᎯᏳᏒᎢ;
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---Cherokee---Cherokee-New-Testament---Source-Edition.SWORD.txt to ../www-stageresources/Holy-Bible---Cherokee---Cherokee-New-Testament---Standard-Edition.noia byte=2119449 rows=7957
+*** AION: WARNING! RAWFIX change for Holy-Bible---Cherokee---Cherokee-New-Testament,  byte-orig = 983091,  byte-fix = 983091,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---Cherokee---Cherokee-New-Testament---Source-Edition.SWORD.txt to ../www-stageresources/Holy-Bible---Cherokee---Cherokee-New-Testament---Standard-Edition.noia byte=2127969 rows=7957
 *** AION: WARNING! RAWFIX change for Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible,  byte-orig = 4833974,  byte-fix = 4833966,  byte-delta = -8,  verses-orig = 31075,  verses-fix = 31075,  verses-delta = 0,  average = -8
 *** AION: WARNING! SELAH! Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	019	PSA	003	002:	Kaminawk mah, Sithaw mah anih to angsak haih mak ai, tiah ang naa o. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	019	PSA	003	004:	Angraeng khaeah tha hoi ka hang naah, anih mah angmah ih kaciim mae nui hoiah ka lok ang pathim. (Selah) 
@@ -3405,7 +3403,7 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---Rotherham-Bible: Empty verse skipped: ACT 028 029 
 *** AION: WARNING REMAPPED = Holy-Bible---English---Rotherham-Bible: Empty verse skipped: ROM 016 024 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---English---Rotherham-Bible---Source-Edition.SWORD.txt to ../www-stageresources/Holy-Bible---English---Rotherham-Bible---Standard-Edition.noia byte=6104714 rows=31086
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---Trans-Trans,  byte-orig = 5954063,  byte-fix = 5954089,  byte-delta = 26,  verses-orig = 30640,  verses-fix = 30643,  verses-delta = 3,  average = 8.6666666666667
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---Trans-Trans,  byte-orig = 5954062,  byte-fix = 5954088,  byte-delta = 26,  verses-orig = 30640,  verses-fix = 30643,  verses-delta = 3,  average = 8.6666666666667
 *** AION: WARNING!!! BRACKET PROBLEM! Holy-Bible---English---Trans-Trans	001	GEN	006	016:	Make a roof for the boat. Leave a space of about (18 in./.5 meter) between the sides and the roof to let air and light enter (OR, the middle of the roof should be 18 inches higher than the sides). Build the boat with three decks inside, and put a door in one side.
 *** AION: WARNING!!! BRACKET PROBLEM! Holy-Bible---English---Trans-Trans	001	GEN	007	020:	Even the highest mountains were covered by more than (20 feet/6 meters) of water.
 *** AION: WARNING!!! BRACKET PROBLEM! Holy-Bible---English---Trans-Trans	002	EXO	027	016:	They must make a curtain (30 feet/9 meters) long for the entrance. A skilled weaver must embroider it with blue, purple, and red yarn/thread. It must be (supported by/hung from) four posts, each one with a base under it.
@@ -3431,7 +3429,7 @@
 *** AION: WARNING!!! BRACKET PROBLEM! Holy-Bible---English---Trans-Trans	038	ZEC	005	002:	The angel asked me, “What do you see?” I replied, “I see a flying scroll that is [huge], (10 yards/9 meters) long and (5 yards/4.5 meters) wide.”
 *** AION: WARNING!!! BRACKET PROBLEM! Holy-Bible---English---Trans-Trans	044	ACT	027	028:	So they lowered [a weight on a rope] to measure how deep [the water was]. When they pulled the rope up again, they measured it and saw that the water was (120 ft./37 meters) deep. They went a little farther and lowered the rope again. [That time], they saw that the water was [only] about (90 ft./28 meters) deep.
 *** AION: WARNING!!! BRACKET PROBLEM! Holy-Bible---English---Trans-Trans	066	REV	021	017:	He measured its wall [and reported that it was] ([216 ft./70 meters]) [thick] (OR, [high]). The angel used the measure that people [normally use].
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---Trans-Trans---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---English---Trans-Trans---Standard-Edition.noia byte=7259312 rows=30641
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---Trans-Trans---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---English---Trans-Trans---Standard-Edition.noia byte=7259311 rows=30641
 *** AION: WARNING! RAWFIX change for Holy-Bible---English---Twentieth-Century-NT,  byte-orig = 1085568,  byte-fix = 1109821,  byte-delta = 24253,  verses-orig = 7754,  verses-fix = 7934,  verses-delta = 180,  average = 134.73888888889
 *** AION: WARNING REMAPPED = Holy-Bible---English---Twentieth-Century-NT: Empty verse skipped: MAT 017 021 
 *** AION: WARNING REMAPPED = Holy-Bible---English---Twentieth-Century-NT: Empty verse skipped: MAT 018 011 
@@ -9797,21 +9795,21 @@
 *** AION: WARNING! RAWFIX change for Holy-Bible---Portuguese---Portuguese-Trans-Trans,  byte-orig = 1802135,  byte-fix = 1802135,  byte-delta = 0,  verses-orig = 7899,  verses-fix = 7899,  verses-delta = 0,  average = 0
 *** AION: WARNING!!! PUNCTUATION PROBLEM! Holy-Bible---Portuguese---Portuguese-Trans-Trans	040	MAT	025	015:	Deu-lhes dinheiro para cuidar conforme a habilidade deles. [Por exemplo], deu cinco mil dólares $5000 a um deles, deu dois mil dólares $2000 a outro, e deu mil dólares $1000 a outro. Então ele saiu de viagem.
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Portuguese---Portuguese-Trans-Trans---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Portuguese---Portuguese-Trans-Trans---Standard-Edition.noia byte=2292968 rows=7897
-*** AION: WARNING! RAWFIX change for Holy-Bible---Romani-Vlax---Arli-Luke,  byte-orig = 149519,  byte-fix = 149538,  byte-delta = 19,  verses-orig = 1149,  verses-fix = 1151,  verses-delta = 2,  average = 9.5
+*** AION: WARNING! RAWFIX change for Holy-Bible---Romani-Vlax---Arli-Luke,  byte-orig = 149541,  byte-fix = 149560,  byte-delta = 19,  verses-orig = 1149,  verses-fix = 1151,  verses-delta = 2,  average = 9.5
 *** AION: WARNING REMAPPED = Holy-Bible---Romani-Vlax---Arli-Luke: Empty verse skipped: LUK 023 017 
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---Romani-Vlax---Arli-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romani-Vlax---Arli-Luke---Standard-Edition.noia byte=205402 rows=1150
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---Romani-Vlax---Arli-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romani-Vlax---Arli-Luke---Standard-Edition.noia byte=205536 rows=1150
 *** AION: WARNING! RAWFIX change for Holy-Bible---Romani-Vlax---Chergash-Luke,  byte-orig = 149656,  byte-fix = 149656,  byte-delta = 0,  verses-orig = 1151,  verses-fix = 1151,  verses-delta = 0,  average = 0
 *** AION: WARNING REMAPPED = Holy-Bible---Romani-Vlax---Chergash-Luke: Empty verse skipped: LUK 023 017 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Romani-Vlax---Chergash-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romani-Vlax---Chergash-Luke---Standard-Edition.noia byte=210444 rows=1150
-*** AION: WARNING! RAWFIX change for Holy-Bible---Romani-Vlax---Gurbet-Luke,  byte-orig = 141342,  byte-fix = 141342,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: WARNING! RAWFIX change for Holy-Bible---Romani-Vlax---Gurbet-Luke,  byte-orig = 141367,  byte-fix = 141367,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING REMAPPED = Holy-Bible---Romani-Vlax---Gurbet-Luke: Empty verse skipped: LUK 023 017 
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---Romani-Vlax---Gurbet-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romani-Vlax---Gurbet-Luke---Standard-Edition.noia byte=199201 rows=1150
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---Romani-Vlax---Gurbet-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romani-Vlax---Gurbet-Luke---Standard-Edition.noia byte=199227 rows=1150
 *** AION: WARNING! RAWFIX change for Holy-Bible---Romanian---Bayash-Luke,  byte-orig = 145277,  byte-fix = 145277,  byte-delta = 0,  verses-orig = 1151,  verses-fix = 1151,  verses-delta = 0,  average = 0
 *** AION: WARNING REMAPPED = Holy-Bible---Romanian---Bayash-Luke: Empty verse skipped: LUK 017 036 
 *** AION: WARNING REMAPPED = Holy-Bible---Romanian---Bayash-Luke: Empty verse skipped: LUK 023 017 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Romanian---Bayash-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romanian---Bayash-Luke---Standard-Edition.noia byte=211324 rows=1149
-*** AION: WARNING! RAWFIX change for Holy-Bible---Romanian---Ludari-Luke,  byte-orig = 142598,  byte-fix = 142617,  byte-delta = 19,  verses-orig = 1146,  verses-fix = 1148,  verses-delta = 2,  average = 9.5
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---Romanian---Ludari-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romanian---Ludari-Luke---Standard-Edition.noia byte=201449 rows=1148
+*** AION: WARNING! RAWFIX change for Holy-Bible---Romanian---Ludari-Luke,  byte-orig = 142756,  byte-fix = 142775,  byte-delta = 19,  verses-orig = 1145,  verses-fix = 1147,  verses-delta = 2,  average = 9.5
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---Romanian---Ludari-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romanian---Ludari-Luke---Standard-Edition.noia byte=201863 rows=1147
 *** AION: WARNING! RAWFIX change for Holy-Bible---Rote-Dela---Rote-Dela-Bible,  byte-orig = 1707106,  byte-fix = 1707003,  byte-delta = -103,  verses-orig = 9074,  verses-fix = 9074,  verses-delta = 0,  average = -103
 *** AION: WARNING!!! BRACKET PROBLEM! Holy-Bible---Rote-Dela---Rote-Dela-Bible	043	JOH	019	039:	Nikodemus neu namalolo' no Yusuf boe. Eni fo fai ma'ahulun neu nandaa no Yesus tetemba'. Ana hasa rambe naen seli, mbei ma kilo telu nulu telu (33 kilo), de ngganggari neu Yesus ao-sisi mamaten.
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Rote-Dela---Rote-Dela-Bible---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Rote-Dela---Rote-Dela-Bible---Standard-Edition.noia byte=2160569 rows=9072
@@ -9895,12 +9893,13 @@
 *** AION: WARNING REMAPPED = Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth: SINGLE Romans 14-16
 *** AION: WARNING! Bible Verse Out of Sorts! numb=045, numL=045, chap=015, chapL=016, vers=001, versL=027 | Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	045	ROM	015	001 | Должни есмы мы сильнии немощи немощных носити, и не себе угождати:
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth---Source-Edition.SWORD.txt to ../www-stageresources/Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth---Standard-Edition.noia byte=7951418 rows=31065
-*** AION: WARNING! RAWFIX change for Holy-Bible---Slovene---Slovene-Savli-Bible,  byte-orig = 3519232,  byte-fix = 3519188,  byte-delta = -44,  verses-orig = 25494,  verses-fix = 25494,  verses-delta = 0,  average = -44
+*** AION: WARNING! RAWFIX change for Holy-Bible---Slovene---Slovene-Savli-Bible,  byte-orig = 3802901,  byte-fix = 3802857,  byte-delta = -44,  verses-orig = 27269,  verses-fix = 27269,  verses-delta = 0,  average = -44
+*** AION: WARNING!!! PUNCTUATION PROBLEM! Holy-Bible---Slovene---Slovene-Savli-Bible	011	1KI	011	023:	Bog+ mu je razvnel drugega nasprotnika, Eljadájevega sina Rezóna, ki je pobegnil pred svojim gospodom Hadadézerjem, kraljem iz Cobe:
 *** AION: WARNING! SELAH! Holy-Bible---Slovene---Slovene-Savli-Bible	019	PSA	055	019:	Bog bo slišal in jih prizadel, celó on, ki ostaja od davnine. (Sela) Ker nimajo sprememb, zato se ne bojijo Boga.
 *** AION: WARNING! SELAH! Holy-Bible---Slovene---Slovene-Savli-Bible	019	PSA	057	003:	Poslal bo z neba in me rešil pred grajo tistega, ki me hoče požreti. (Sela) Bog bo poslal svoje usmiljenje in svojo resnico.
 *** AION: WARNING! SELAH! Holy-Bible---Slovene---Slovene-Savli-Bible	035	HAB	003	003:	Bog je prišel iz Temána in Sveti iz gore Parán. (Sela) Njegova slava je pokrila nebesni obok in zemlja je bila polna njegove hvale.
 *** AION: WARNING! SELAH! Holy-Bible---Slovene---Slovene-Savli-Bible	035	HAB	003	009:	Tvoj lok je bil razgaljen, glede na prisege rodov, celo tvojo besedo. (Sela) Zemljo si oklenil z rekami.
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---Slovene---Slovene-Savli-Bible---Source-Edition.SWORD.txt to ../www-stageresources/Holy-Bible---Slovene---Slovene-Savli-Bible---Standard-Edition.noia byte=4686034 rows=25494
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---Slovene---Slovene-Savli-Bible---Source-Edition.SWORD.txt to ../www-stageresources/Holy-Bible---Slovene---Slovene-Savli-Bible---Standard-Edition.noia byte=5047350 rows=27269
 *** AION: WARNING! RAWFIX change for Holy-Bible---Slovene---Slovene-Stritarja-NT,  byte-orig = 1142600,  byte-fix = 1142439,  byte-delta = -161,  verses-orig = 10474,  verses-fix = 10481,  verses-delta = 7,  average = -23
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Slovene---Slovene-Stritarja-NT---Source-Edition.SWORD.txt to ../www-stageresources/Holy-Bible---Slovene---Slovene-Stritarja-NT---Standard-Edition.noia byte=1638390 rows=10413
 *** AION: WARNING! RAWFIX change for Holy-Bible---Somali---Somali-Bible,  byte-orig = 4866425,  byte-fix = 4866425,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
@@ -11576,7 +11575,7 @@
 *** AION: UNTRANSLATED ../www-stageresources/Holy-Bible---Serbian---Serbian-Ekavski-Bible---Standard-Edition.noia to ../www-stageresources/Holy-Bible---Serbian---Serbian-Ekavski-Bible---Aionian-Edition.noia with changes=264
 *** AION: UNTRANSLATED ../www-stageresources/Holy-Bible---Shona---Shona-Bible---Standard-Edition.noia to ../www-stageresources/Holy-Bible---Shona---Shona-Bible---Aionian-Edition.noia with changes=201
 *** AION: UNTRANSLATED ../www-stageresources/Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth---Standard-Edition.noia to ../www-stageresources/Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth---Aionian-Edition.noia with changes=278
-*** AION: UNTRANSLATED ../www-stageresources/Holy-Bible---Slovene---Slovene-Savli-Bible---Standard-Edition.noia to ../www-stageresources/Holy-Bible---Slovene---Slovene-Savli-Bible---Aionian-Edition.noia with changes=255
+*** AION: UNTRANSLATED ../www-stageresources/Holy-Bible---Slovene---Slovene-Savli-Bible---Standard-Edition.noia to ../www-stageresources/Holy-Bible---Slovene---Slovene-Savli-Bible---Aionian-Edition.noia with changes=259
 *** AION: UNTRANSLATED ../www-stageresources/Holy-Bible---Slovene---Slovene-Stritarja-NT---Standard-Edition.noia to ../www-stageresources/Holy-Bible---Slovene---Slovene-Stritarja-NT---Aionian-Edition.noia with changes=216
 *** AION: UNTRANSLATED ../www-stageresources/Holy-Bible---Somali---Somali-Bible---Standard-Edition.noia to ../www-stageresources/Holy-Bible---Somali---Somali-Bible---Aionian-Edition.noia with changes=264
 *** AION: UNTRANSLATED ../www-stageresources/Holy-Bible---Spanish---Free-Bible---Standard-Edition.noia to ../www-stageresources/Holy-Bible---Spanish---Free-Bible---Aionian-Edition.noia with changes=236

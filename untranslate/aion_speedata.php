@@ -34,7 +34,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Arabic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(English---Trans-Trans).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Dombe|Nestle|Boyd|Tisch|Treg).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Aleppo|Scots|Aionian-Bible).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Aleppo|Scots).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Arabic|Aramaic|Hebrew|Persian).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic|Peshitta|Aleppo|Persian|Hindi|Bengali|Assamese|Aionian-Bible|Spanish---Free-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Beaver).*---Aionian-Edition\.noia$/",
@@ -46,10 +46,11 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Vietnamese).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*1858.*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Kannada|Peshitta).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic|Uyghur-Bible-Latin).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Uyghur|Gujarati|Korean).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Gujarati).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/(Holy-Bible---Latvian---Latvian-Gluck-Bible|Holy-Bible---Japanese---Japanese-Yougo-yaku)---Aionian-Edition\.noia$/",
 		//'include'	=> "/.*Arapaho.*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Youngs).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Greek).*---Aionian-Edition\.noia$/",
 		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
@@ -1391,7 +1392,7 @@ $fonts
 	
 	<!-- BIBLE TOC -->
 	<SetVariable variable="newpagetype" select="'toc'"/>
-	<NewPage openon="right" pagetype="$page1colright" />
+	<NewPage openon="left" pagetype="$page1colleft"  />
 	<InsertPages name="toc" pages="1" />
     <SetVariable variable="toc_variable"/>
 	<Message select="concat('ABPROOFER $outpdf TOC ',{ sd:current-page() - 1 })" />

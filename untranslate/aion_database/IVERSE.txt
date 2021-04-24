@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 484203      
-# File Date: 04/16/2021 09:25:38
+# File Size: 484221      
+# File Date: 04/23/2021 18:52:31
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: http://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2021
@@ -176,13 +176,13 @@ Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	EXO-013-017
 Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	MAR-010-045	San Marcos 10:45	Sa magajet ni y Lajin taotao ti mato para umasetbe, lao para ufañetbe, ya para ufannae y jaaniña ni un rescate para unafanlibre megae.
 Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	ROM-001-001		
 Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	MAT-028-019	San Mateo 28:19	Fanjanao, ya fannaquilisyano todo y nasion sija, tagpange sija pot y naan y Tata, yan y Lajiña, yan y Espiritu Santo:
-Holy-Bible---Cherokee---Cherokee-New-Testament	JOH-003-016	ᎣᏍᏛ ᎧᏃᎮᏛ ᏣᏂ ᎤᏬᏪᎳᏅᎯ 3:16	ᎾᏍᎩᏰᏃ ᏂᎦᎥᎩ ᎤᏁᎳᏅᎯ ᎤᎨᏳᏒᎩ ᎡᎶᎯ, ᏕᏅᏲᏒᎩ ᎤᏤᎵᎦ ᎤᏪᏥ ᎤᏩᏒᎯᏳ ᎤᏕᏁᎸᎯ, ᎩᎶ ᎾᏍᎩ ᏱᎪᎯᏳᎲᏍᎦ ᎤᏲᎱᎯᏍᏗᏱ ᏂᎨᏒᎾ, ᎬᏂᏛᏉᏍᎩᏂ ᎤᏩᏛᏗ.
+Holy-Bible---Cherokee---Cherokee-New-Testament	JOH-003-016	ᎣᏍᏛ ᎧᏃᎮᏛ ᏣᏂ ᎤᏬᏪᎳᏅᎯ 3:16	ᎾᏍᎩᏰᏃ ᏂᎦᎥᎩ ᎤᏁᎳᏅᎯ ᎤᎨᏳᏒᎩ ᎡᎶᎯ, ᏕᎤᏲᏒᎩ ᎤᏤᎵᎦ ᎤᏪᏥ ᎾᏍᎩ ᎤᏩᏒᎯᏳ ᎤᏕᏁᎸᎯ, ᎩᎶ ᎾᏍᎩ ᏱᎪᎯᏳᎲᏍᎦ ᎤᏲᎱᎯᏍᏗᏱ ᏂᎨᏒᎾ, ᎬᏂᏛᏉᏍᎩᏂ ᎤᏩᏛᏗ.
 Holy-Bible---Cherokee---Cherokee-New-Testament	GEN-003-024		
-Holy-Bible---Cherokee---Cherokee-New-Testament	LUK-023-034	ᎣᏍᏛ ᎧᏃᎮᏛ ᎷᎦ ᎤᏬᏪᎳᏅᎯ 23:34	ᎿᏉᏃ ᏥᏌ ᎯᎠ ᏄᏪᏎᎢ, ᎡᏙᏓ, ᏘᏙᎵᎩ; ᎥᏝᏰᏃ ᏯᏂᎦᏔᎭ ᎾᎾᏛᏁᎲᎢ.  ᎤᏂᏯᏙᎴᏃ ᎤᏄᏬ ᎠᎴ ᎠᎾᏎᏍᏗᏍᎨᎢ.
-Holy-Bible---Cherokee---Cherokee-New-Testament	REV-021-002	ᏣᏂ ᏄᏍᏛ ᎠᏥᎾᏄᎪᏫᏎᎸᎢ 21:2-3	ᎠᎴ ᎠᏴ ᏣᏂ ᎠᎩᎪᎲᎩ ᎦᎸᏉᏗᏳ ᎦᏚᎲ ᎾᏍᎩ ᎢᏤ ᏥᎷᏏᎵᎻ ᏓᏳᏠᎠᏒᎩ ᎤᏁᎳᏅᎯᏱ ᎦᎸᎶᎢ, ᎤᏛᏅᎢᏍᏛᎩ ᎾᏍᎩᏯ ᎠᏥᏰᎯ ᏣᏙᏚᎢᏍᏗᏍᎪ ᏣᏛᏅᎢᏍᏓᏁᎰ ᎤᏰᎯ. ᎠᏆᏛᎦᏅᎩᏃ ᎠᏍᏓᏯ ᎧᏁᎬ ᎩᎶ ᎦᎸᎳᏗ ᏛᏓᎴᎲᏍᎬᎩ ᎯᎠ ᏂᎦᏪᏍᎬᎩ, ᎬᏂᏳᏉ ᎤᏁᎳᏅᎯ ᎤᎵᏦᏛ ᏴᏫ ᎠᏁᎲ ᎤᏓᏑᏯ, ᎠᎴ ᎤᏁᎳᏅᎯ ᎾᏍᎩ ᎠᏁᎲ ᏛᏕᏂ, ᎠᎴ ᎾᏍᎩ ᏧᏤᎵ ᎨᏎᏍᏗ ᏴᏫ, ᎤᏁᎳᏅᎯᏃ ᎤᏩᏒ ᎾᏍᎩ ᎠᏁᎲ ᎡᎮᏍᏗ ᎤᎾᏤᎵ ᎤᏁᎳᏅᎯᎨᏎᏍᏗ.
-Holy-Bible---Cherokee---Cherokee-New-Testament	HEB-011-008	ᏉᎳ ᎠᏂᏈᎷ ᏧᏬᏪᎳᏁᎸᎯ 11:8	ᎪᎯᏳᏗ ᎨᏒ ᎬᏗᏍᎬ ᎡᏆᎭᎻ ᎾᎯᏳ ᎠᏥᏯᏅᎲ ᎢᎸᎯᏢ ᎤᏪᏅᏍᏗᏱ ᎾᏍᎩ ᎾᎿ ᎣᏂ ᎢᏴᏛ ᎤᏤᎵᎦ ᎢᏯᎬᏁᏗ ᎨᏒᎢ, ᏧᏬᎯᏳᏁᎢ; ᎠᎴ ᏧᏄᎪᏤᎢ ᎾᎦᏔᎲ ᎾᎿ ᎠᎢᏒᎢ.
+Holy-Bible---Cherokee---Cherokee-New-Testament	LUK-023-034	ᎣᏍᏛ ᎧᏃᎮᏛ ᎷᎦ ᎤᏬᏪᎳᏅᎯ 23:34	ᎿᎭᏉᏃ ᏥᏌ ᎯᎠ ᏄᏪᏎᎢ, ᎡᏙᏓ, ᏘᏙᎵᎩ; ᎥᏝᏰᏃ ᏯᏂᎦᏔᎭ ᎾᎾᏛᏁᎲᎢ.  ᎤᏂᏯᏙᎴᏃ ᎤᏄᏬ ᎠᎴ ᎠᎾᏎᏍᏗᏍᎨᎢ.
+Holy-Bible---Cherokee---Cherokee-New-Testament	REV-021-002	ᏣᏂ ᏄᏍᏛ ᎠᏥᎾᏄᎪᏫᏎᎸᎢ 21:2-3	ᎠᎴ ᎠᏴ ᏣᏂ ᎠᎩᎪᎲᎩ ᎦᎸᏉᏗᏳ ᎦᏚᎲ ᎾᏍᎩ ᎢᏤ ᏥᎷᏏᎵᎻ ᏓᏳᏠᎠᏒᎩ ᎤᏁᎳᏅᎯᏱ ᎦᎸᎶᎢ, ᎤᏛᏅᎢᏍᏛᎩ ᎾᏍᎩᏯ ᎠᏥᏰᎯ ᏣᏙᏚᎢᏍᏗᏍᎪ ᏣᏛᏅᎢᏍᏓᏁᎰ ᎤᏰᎯ. ᎠᏆᏛᎦᏅᎩᏃ ᎠᏍᏓᏯ ᎧᏁᎬ ᎩᎶ ᎦᎸᎳᏗ ᏛᏓᎴᎲᏍᎬᎩ ᎯᎠ ᏂᎦᏪᏍᎬᎩ, ᎬᏂᏳᏉ ᎤᏁᎳᏅᎯ ᎤᎵᏦᏛ ᏴᏫ ᎠᏁᎲ ᎤᏓᏑᏯ, ᎠᎴ ᎤᏁᎳᏅᎯ ᎾᏍᎩ ᎠᏁᎲ ᏛᏕᏂ, ᎠᎴ ᎾᏍᎩ ᏧᏤᎵ ᎨᏎᏍᏗ ᏴᏫ, ᎤᏁᎳᏅᎯᏃ ᎤᏩᏒ ᎾᏍᎩ ᎠᏁᎲ ᎡᎮᏍᏗ ᎤᎾᏤᎵ ᎤᏁᎳᏅᎯ ᎨᏎᏍᏗ.
+Holy-Bible---Cherokee---Cherokee-New-Testament	HEB-011-008	ᏉᎳ ᎠᏂᏈᎷ ᏧᏬᏪᎳᏁᎸᎯ 11:8	ᎪᎯᏳᏗ ᎨᏒ ᎬᏗᏍᎬ ᎡᏆᎭᎻ ᎾᎯᏳ ᎠᏥᏯᏅᎲ ᎢᎸᎯᏢ ᎤᏪᏅᏍᏗᏱ ᎾᏍᎩ ᎾᎿᎭᎣᏂ ᎢᏴᏛ ᎤᏤᎵᎦ ᎢᏯᎬᏁᏗ ᎨᏒᎢ, ᏧᏬᎯᏳᏁᎢ; ᎠᎴ ᏧᏄᎪᏤᎢ ᎾᎦᏔᎲ ᎾᎿᎭᎠᎢᏒᎢ.
 Holy-Bible---Cherokee---Cherokee-New-Testament	EXO-013-017		
-Holy-Bible---Cherokee---Cherokee-New-Testament	MAR-010-045	ᎣᏍᏛ ᎧᏃᎮᏛ ᎹᎦ ᎤᏬᏪᎳᏅᎯ 10:45	ᎾᏍᏉᏰᏃ ᏴᏫ ᎤᏪᏥ ᎥᏝ ᏳᎷᏨ ᎪᎱᏍᏗ ᎠᎦᏛᏁᏗᏱ, ᎪᎱᏍᏗᏍᎩᏂ ᎤᏓᏛᏁᏗᏱ, ᎠᎴ ᎬᏅ ᏧᏲᎯᏍᏗᏱ ᏧᏓᏴᏙᏗᏱ ᎤᏂᏣᏘ.
+Holy-Bible---Cherokee---Cherokee-New-Testament	MAR-010-045	ᎣᏍᏛ ᎧᏃᎮᏛ ᎹᎦ ᎤᏬᏪᎳᏅᎯ 10:45	ᎾᏍᏉᏰᏃ ᏴᏫ ᎤᏪᏥ ᎥᏝ ᏳᎷᏨ ᎪᎱᏍᏗ ᎠᎦᏛᏁᏗᏱ, ᎪᎱᏍᏗᏍᎩᏂ ᎤᏓᏛᏁᏗᏱ, ᎠᎴ ᎬᏅ ᏧᏲᎯᏍᏗᏱ ᏧᎫᏴᏙᏗᏱ ᎤᏂᏣᏘ.
 Holy-Bible---Cherokee---Cherokee-New-Testament	ROM-001-001	ᏉᎳ ᎶᎻ ᎠᏁᎯ ᏧᏬᏪᎳᏁᎸᎯ 1:1	ᏉᎳ, ᏥᏌ ᎦᎶᏁᏛ ᎠᎩᏅᏏᏓᏍᏗ, ᎥᎩᏅᏏᏛ ᎢᏴᏋᏁᎸᎯ, ᎥᏆᏓᏓᎴᏔᏅᎯ ᎣᏍᏛ ᎧᏃᎮᏛ ᎤᏁᎳᏅᎯ ᎤᏤᎵ ᎠᏆᎵᏥᏙᏗᏱ,
 Holy-Bible---Cherokee---Cherokee-New-Testament	MAT-028-019	ᎣᏍᏛ ᎧᏃᎮᏛ ᎹᏚ ᎤᏬᏪᎳᏅᎯ 28:19	ᎾᏍᎩ ᎢᏳᏍᏗ ᎢᏤᎾ ᏫᏗᏤᏲᎲᎦ ᎾᎦᏛ ᏄᎾᏓᎴᏒ ᏴᏫ, ᏕᏣᏬᏍᎨᏍᏗ ᎢᏨᏗᏍᎨᏍᏗ ᏚᏙᎥ ᎠᎦᏴᎵᎨᎢ ᎠᎴ ᎤᏪᏥ ᎠᎴ ᎦᎸᏉᏗᏳ ᎠᏓᏅᏙ,
 Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	JOH-003-016	Johan 3:16	Sithaw mah long palung phi pongah, maeto khue tawnh ih a Capa to a paek, mi kawbaktih doeh Anih tang kami loe anghmaa mak ai, dungzan hinghaih to hnu tih.
