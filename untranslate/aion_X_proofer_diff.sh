@@ -22,6 +22,7 @@ foreach($files as $file) {
 	AION_ECHO("PROOF:  result=$result  $file\n");
 }
 
+
 // loop Aionian Bible PDF
 $files = array_diff(scandir('../www-stageresources'), array('.', '..'));
 foreach($files as $file) {

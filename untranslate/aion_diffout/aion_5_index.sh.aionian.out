@@ -279,7 +279,7 @@ NumberOfPages: 270
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-Tregelles.php
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-Westcott-Hort.php
 NumberOfPages: 696
-NumberOfPages: 182
+NumberOfPages: 192
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Gujarati---Gujarati-Bible.php
 NumberOfPages: 694
 NumberOfPages: 200
@@ -457,7 +457,7 @@ NumberOfPages: 204
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Shona---Shona-Bible.php
 NumberOfPages: 674
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth.php
-NumberOfPages: 572
+NumberOfPages: 614
 NumberOfPages: 188
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Slovene---Slovene-Savli-Bible.php
 NumberOfPages: 214
@@ -520,10 +520,10 @@ NumberOfPages: 696
 NumberOfPages: 196
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Uyghur---Uyghur-Bible-Arabic.php
 NumberOfPages: 692
-NumberOfPages: 194
+NumberOfPages: 196
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic.php
 NumberOfPages: 694
-NumberOfPages: 194
+NumberOfPages: 198
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Uyghur---Uyghur-Bible-Latin.php
 NumberOfPages: 696
 NumberOfPages: 198
