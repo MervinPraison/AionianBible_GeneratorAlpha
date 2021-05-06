@@ -37,7 +37,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Aleppo|Scots).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Arabic|Aramaic|Hebrew|Persian).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic|Peshitta|Aleppo|Persian|Hindi|Bengali|Assamese|Aionian-Bible|Spanish---Free-Bible).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Beaver).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Beaver|Aramaic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic|Aionian-Bible|Spanish---Free-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Peshitta).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic|Persian).*---Aionian-Edition\.noia$/",
@@ -1391,8 +1391,8 @@ $fonts
 	</Switch>
 	
 	<!-- BIBLE TOC -->
-	<SetVariable variable="newpagetype" select="'toc'"/>
 	<NewPage openon="left" pagetype="$page1colleft"  />
+	<NewPage openon="right" pagetype="$page1colright" />
 	<InsertPages name="toc" pages="1" />
     <SetVariable variable="toc_variable"/>
 	<Message select="concat('ABPROOFER $outpdf TOC ',{ sd:current-page() - 1 })" />
@@ -2422,6 +2422,35 @@ $fonts
 <!-- CUSTOM VALUES -->
 <SetVariable variable="cover_count"  select="sd:number-of-pages('$bodyfile')"/>
 <SetVariable variable="cover_spine"  select="((\$cover_count * 0.002252252) + $spineadj)"/>
+<Switch><Case test='$hardmargin > 0'><Switch>
+<Case test='\$cover_count &lt;= 84'	><SetVariable variable="cover_spine"  select="0.25"	/></Case>
+<Case test='\$cover_count &lt;= 140'><SetVariable variable="cover_spine"  select="0.5"	/></Case>
+<Case test='\$cover_count &lt;= 168'><SetVariable variable="cover_spine"  select="0.625"/></Case>
+<Case test='\$cover_count &lt;= 194'><SetVariable variable="cover_spine"  select="0.688"/></Case>
+<Case test='\$cover_count &lt;= 222'><SetVariable variable="cover_spine"  select="0.75"	/></Case>
+<Case test='\$cover_count &lt;= 250'><SetVariable variable="cover_spine"  select="0.813"/></Case>
+<Case test='\$cover_count &lt;= 278'><SetVariable variable="cover_spine"  select="0.875"/></Case>
+<Case test='\$cover_count &lt;= 306'><SetVariable variable="cover_spine"  select="0.938"/></Case>
+<Case test='\$cover_count &lt;= 334'><SetVariable variable="cover_spine"  select="1"	/></Case>
+<Case test='\$cover_count &lt;= 360'><SetVariable variable="cover_spine"  select="1.063"/></Case>
+<Case test='\$cover_count &lt;= 388'><SetVariable variable="cover_spine"  select="1.125"/></Case>
+<Case test='\$cover_count &lt;= 416'><SetVariable variable="cover_spine"  select="1.188"/></Case>
+<Case test='\$cover_count &lt;= 444'><SetVariable variable="cover_spine"  select="1.25"	/></Case>
+<Case test='\$cover_count &lt;= 472'><SetVariable variable="cover_spine"  select="1.313"/></Case>
+<Case test='\$cover_count &lt;= 500'><SetVariable variable="cover_spine"  select="1.375"/></Case>
+<Case test='\$cover_count &lt;= 528'><SetVariable variable="cover_spine"  select="1.438"/></Case>
+<Case test='\$cover_count &lt;= 556'><SetVariable variable="cover_spine"  select="1.5"	/></Case>
+<Case test='\$cover_count &lt;= 582'><SetVariable variable="cover_spine"  select="1.563"/></Case>
+<Case test='\$cover_count &lt;= 610'><SetVariable variable="cover_spine"  select="1.625"/></Case>
+<Case test='\$cover_count &lt;= 638'><SetVariable variable="cover_spine"  select="1.688"/></Case>
+<Case test='\$cover_count &lt;= 666'><SetVariable variable="cover_spine"  select="1.75"	/></Case>
+<Case test='\$cover_count &lt;= 694'><SetVariable variable="cover_spine"  select="1.813"/></Case>
+<Case test='\$cover_count &lt;= 722'><SetVariable variable="cover_spine"  select="1.875"/></Case>
+<Case test='\$cover_count &lt;= 750'><SetVariable variable="cover_spine"  select="1.938"/></Case>
+<Case test='\$cover_count &lt;= 778'><SetVariable variable="cover_spine"  select="2"	/></Case>
+<Case test='\$cover_count &lt;= 799'><SetVariable variable="cover_spine"  select="2.063"/></Case>
+<Case test='\$cover_count >= 800'	><SetVariable variable="cover_spine"  select="2.125"/></Case>
+</Switch></Case></Switch>
 <SetVariable variable="cover_spineX" select="(\$cover_spine - 0.0625 - 0.0625 - $spineadj)"/>
 <SetVariable variable="cover_width"  select="(0.125 + 6 + \$cover_spine + 6 + 0.125 + $hardmargin + $hardmargin)"/>
 <SetVariable variable="cover_bindR"  select="(\$cover_width - 0.125 - 6 - 0.0625 - ($spineadj div 2) - $hardmargin)"/>

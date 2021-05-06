@@ -241,6 +241,12 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $domain, $allbibl
 		$langeng = "<span lang='en' class='eng'>";
 		$langfor = "<span lang='".$database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGECODEISO']."' class='".$database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGECSS']."'>";
 		
+		// Lulu links need special attention - two types
+		$lulu_regu	= (empty($version[C_LULU])		|| $version[C_LULU]=='NULL'		? "" : (preg_match('/^http/i',$version[C_LULU])		? $version[C_LULU]		: "http://www.lulu.com/content/".$version[C_LULU]));
+		$lulu_hard	= (empty($version[C_LULUHARD])	|| $version[C_LULUHARD]=='NULL'	? "" : (preg_match('/^http/i',$version[C_LULUHARD])	? $version[C_LULUHARD]	: "http://www.lulu.com/content/".$version[C_LULUHARD]));
+		$lulu_ntnt	= (empty($version[C_LULUNT])	|| $version[C_LULUNT]=='NULL'	? "" : (preg_match('/^http/i',$version[C_LULUNT])	? $version[C_LULUNT]	: "http://www.lulu.com/content/".$version[C_LULUNT]));
+
+		// okay built it
 		$database[$version[C_BIBLE]]['FORMATTED'] = ''.
 		
         "\n<div class='field-header1'>Description:</div>".
@@ -287,9 +293,9 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $domain, $allbibl
 		(!empty($version[C_AMAZON]) && $version[C_AMAZON]!='NULL'	?("<a href='https://www.amazon.com/dp/".$version[C_AMAZON]		."' target='_blank' title='Buy Holy Bible Aionian Edition print copy at Amazon.com'>Amazon</a>, ")					:'').
 		(!empty($version[C_AMAZONNT])&& $version[C_AMAZONNT]!='NULL'?("<a href='https://www.amazon.com/dp/".$version[C_AMAZONNT]	."' target='_blank' title='Buy Holy Bible Aionian Edition New Testament print copy at Amazon.com'>Amazon New Testament</a>, ")	:'').
 		($bible=='Holy-Bible---English---Aionian-Bible'				?("<a href='https://www.amazon.com/dp/B084DHWQXL' target='_blank' title='Buy Holy Bible Aionian Edition Aionian Bible 22 Book Special Edition print copy at Amazon.com'>Amazon 22 Special</a>, ")	:'').
-		(!empty($version[C_LULU])&& $version[C_LULU]!='NULL'		?("<a href='http://www.lulu.com/content/".$version[C_LULU]		."' target='_blank' title='Buy Holy Bible Aionian Edition print copy at Lulu.com'>Lulu</a>, ")							:'').
-		(!empty($version[C_LULUHARD])&& $version[C_LULUHARD]!='NULL'?("<a href='http://www.lulu.com/content/".$version[C_LULUHARD]	."' target='_blank' title='Buy Holy Bible Aionian Edition hardcover copy at Lulu.com'>Lulu Hardcover</a>, ")					:'').
-		(!empty($version[C_LULUNT])&& $version[C_LULUNT]!='NULL'	?("<a href='http://www.lulu.com/content/".$version[C_LULUNT]	."' target='_blank' title='Buy Holy Bible Aionian Edition New Testament print copy at Lulu.com'>Lulu New Testament</a>, ")		:'').
+		(!empty($lulu_regu)											?("<a href='$lulu_regu' target='_blank' title='Buy Holy Bible Aionian Edition print copy at Lulu.com'>Lulu</a>, ")								:'').
+		(!empty($lulu_hard)											?("<a href='$lulu_hard' target='_blank' title='Buy Holy Bible Aionian Edition hardcover copy at Lulu.com'>Lulu Hardcover</a>, ")				:'').
+		(!empty($lulu_ntnt)											?("<a href='$lulu_ntnt' target='_blank' title='Buy Holy Bible Aionian Edition New Testament print copy at Lulu.com'>Lulu New Testament</a>, ")	:'').
 		($bible=='Holy-Bible---English---Aionian-Bible'				?("<a href='http://www.lulu.com/content/26189474' target='_blank' title='Buy Holy Bible Aionian Edition Aionian Bible 22 Book Special Edition print copy at Lulu.com'>Lulu 22 Special</a>")	:'').
 		"</div></div>")
 		 : "").
@@ -3312,22 +3318,26 @@ function AION_LOOP_HTMS_DOIT($args) {
 			$htm .= "<tr><td>KDP_NEW</td><td>POD_KDP_NEW_BODY.pdf &nbsp;/&nbsp; POD_KDP_NEW_COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
 		}
 		else { $htm .= "<tr><td>KDP_NEW</td><td>None</td></tr>\n"; }
+		// Lulu links
+		$lulu_regu	= ($args['database']['T_VERSIONS'][$bible]['LULU']=='NULL'		|| preg_match('/^http/i',$args['database']['T_VERSIONS'][$bible]['LULU'])		? $args['database']['T_VERSIONS'][$bible]['LULU']		: "http://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULU']);
+		$lulu_hard	= ($args['database']['T_VERSIONS'][$bible]['LULUHARD']=='NULL'	|| preg_match('/^http/i',$args['database']['T_VERSIONS'][$bible]['LULUHARD'])	? $args['database']['T_VERSIONS'][$bible]['LULUHARD']	: "http://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULUHARD']);
+		$lulu_ntnt	= ($args['database']['T_VERSIONS'][$bible]['LULUNT']=='NULL'	|| preg_match('/^http/i',$args['database']['T_VERSIONS'][$bible]['LULUNT'])		? $args['database']['T_VERSIONS'][$bible]['LULUNT']		: "http://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULUNT']);
 		// Lulu Full
 		// Jump to landing pages:  /start  /copyright  /design  /details  /pricing
 		if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLU']) && $args['database']['T_VERSIONS'][$bible]['LULU']!="NULL") { $htm .= "<tr><td>LULU_ALL</td><td>Problem</td></tr>\n"; }
 		else if (!empty($args['database']['T_FORPRINT'][$bible]['ISBNLU']) && $args['database']['T_VERSIONS'][$bible]['LULU']=="NULL") { $htm .= "<tr><td>LULU_ALL</td><td>POD_LULU_ALL_BODY.pdf &nbsp;/&nbsp; POD_LULU_ALL_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLU']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/projects' target='_blank'>Add</a></td></tr>\n"; }
 		else if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLU'])) { $htm .= "<tr><td>LULU_ALL</td><td>None</td></tr>\n"; }
-		else { $htm .= "<tr><td>LULU_ALL</td><td>POD_LULU_ALL_BODY.pdf &nbsp;/&nbsp; POD_LULU_ALL_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLU']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/wizard/".$args['database']['T_VERSIONS'][$bible]['LULUX']."/start' target='_blank'>Edit</a> <a href='http://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULU']."' target='_blank'>Buy</a></td></tr>\n"; }
+		else { $htm .= "<tr><td>LULU_ALL</td><td>POD_LULU_ALL_BODY.pdf &nbsp;/&nbsp; POD_LULU_ALL_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLU']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/wizard/".$args['database']['T_VERSIONS'][$bible]['LULUX']."/start' target='_blank'>Edit</a> <a href='$lulu_regu' target='_blank'>Buy</a></td></tr>\n"; }
 		// Lulu NT	
 		if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLUNT']) && $args['database']['T_VERSIONS'][$bible]['LULUNT']!="NULL") { $htm .= "<tr><td>LULU_NEW</td><td>Problem</td></tr>\n"; }
 		else if (!empty($args['database']['T_FORPRINT'][$bible]['ISBNLUNT']) && $args['database']['T_VERSIONS'][$bible]['LULUNT']=="NULL") { $htm .= "<tr><td>LULU_NEW</td><td>POD_LULU_NEW_BODY.pdf &nbsp;/&nbsp; POD_LULU_NEW_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUNT']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/projects' target='_blank'>Add</a></td></tr>\n"; }
 		else if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLUNT'])) { $htm .= "<tr><td>LULU_NEW</td><td>None</td></tr>\n"; }
-		else { $htm .= "<tr><td>LULU_NEW</td><td>POD_LULU_NEW_BODY.pdf &nbsp;/&nbsp; POD_LULU_NEW_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUNT']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/wizard/".$args['database']['T_VERSIONS'][$bible]['LULUNTX']."/start' target='_blank'>Edit</a> <a href='http://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULUNT']."' target='_blank'>Buy</a></td></tr>\n"; }
+		else { $htm .= "<tr><td>LULU_NEW</td><td>POD_LULU_NEW_BODY.pdf &nbsp;/&nbsp; POD_LULU_NEW_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUNT']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/wizard/".$args['database']['T_VERSIONS'][$bible]['LULUNTX']."/start' target='_blank'>Edit</a> <a href='$lulu_ntnt' target='_blank'>Buy</a></td></tr>\n"; }
 		// Lulu Hardcover
 		if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLUHARD']) && $args['database']['T_VERSIONS'][$bible]['LULUHARD']!="NULL") { $htm .= "<tr><td>LULU_HARD</td><td>Problem</td></tr>\n"; }
 		else if (!empty($args['database']['T_FORPRINT'][$bible]['ISBNLUHARD']) && $args['database']['T_VERSIONS'][$bible]['LULUHARD']=="NULL") { $htm .= "<tr><td>LULU_HARD</td><td>POD_LULU_HAR_BODY.pdf &nbsp;/&nbsp; POD_LULU_HAR_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUHARD']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/projects' target='_blank'>Add</a></td></tr>\n"; }
 		else if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLUHARD'])) { $htm .= "<tr><td>LULU_HARD</td><td>None</td></tr>\n"; }
-		else  { $htm .= "<tr><td>LULU_HARD</td><td>POD_LULU_HAR_BODY.pdf &nbsp;/&nbsp; POD_LULU_HAR_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUHARD']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/wizard/".$args['database']['T_VERSIONS'][$bible]['LULUHARDX']."/start' target='_blank'>Edit</a> <a href='http://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULUHARD']."' target='_blank'>Buy</a></td></tr>\n"; }
+		else  { $htm .= "<tr><td>LULU_HARD</td><td>POD_LULU_HAR_BODY.pdf &nbsp;/&nbsp; POD_LULU_HAR_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUHARD']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/wizard/".$args['database']['T_VERSIONS'][$bible]['LULUHARDX']."/start' target='_blank'>Edit</a> <a href='$lulu_hard' target='_blank'>Buy</a></td></tr>\n"; }
 	}
 	$htm .= "<tr><td><br /></td><td></td></tr>\n";
 	$htm .= "<tr><td>LANGUAGE</td><td>".$args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH']."</td></tr>\n";
@@ -3805,11 +3815,6 @@ function AION_LOOP_HTMS_DOIT($args) {
 		else if ($args['database']['T_VERSIONS'][$bible]['AMAZONNT']!='NULL')  { $PDF_PKNT="<span style='font-weight:bold; color:red;'>$alink</span>"; ++$PROBPDF; }
 		else if (empty($pod_kdp_new)) { $PDF_PKNT="File"; }
 
-		// ISBN *************************************************
-		$pod_luu_reg = (filenotzero("../www-stageresources/AB-ISBN/$bible---POD_LULU_ALL_COVER_ISBN.pdf")	? $pod_luu_reg : "<span style='font-weight:bold; color:red;'>~?</span>");
-		$pod_luu_new = (filenotzero("../www-stageresources/AB-ISBN/$bible---POD_LULU_NEW_COVER_ISBN.pdf")	? $pod_luu_new : "<span style='font-weight:bold; color:red;'>~?</span>");
-		$pod_luu_har = (filenotzero("../www-stageresources/AB-ISBN/$bible---POD_LULU_HAR_COVER_ISBN.pdf")	? $pod_luu_har : "<span style='font-weight:bold; color:red;'>~?</span>");
-		
 		// Lulu Full *********************************************
 		// PROBLEM
 		if (0&(
@@ -3823,7 +3828,7 @@ function AION_LOOP_HTMS_DOIT($args) {
 		// YES LULU
 		else if ($args['database']['T_VERSIONS'][$bible]['LULU']!='NULL')  {
 			if (!empty($pod_luu_reg)) { ++$PROBPDF; }
-			$args['grandtotal']['PDF_PLUL'] += 1; $PDF_PLUL="<a href='http://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULU']."' target='_blank'>Buy</a>$pod_luu_reg"; }
+			$args['grandtotal']['PDF_PLUL'] += 1; $PDF_PLUL="<a href='$lulu_regu' target='_blank'>Buy</a>$pod_luu_reg"; }
 		// TODO LULU
 		else if (!empty($args['database']['T_FORPRINT'][$bible]['ISBNLU'])) {
 			++$PROBPDF; $args['grandtotal']['PDF_PLUL'] += 1; $PDF_PLUL="<span style='font-weight:bold; color:red;'>Buy</span>"; }
@@ -3842,7 +3847,7 @@ function AION_LOOP_HTMS_DOIT($args) {
 		// YES LULU
 		else if ($args['database']['T_VERSIONS'][$bible]['LULUNT']!='NULL')  {
 			if (!empty($pod_luu_new)) { ++$PROBPDF; }
-			$args['grandtotal']['PDF_PLNT'] += 1; $PDF_PLNT="<a href='http://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULUNT']."' target='_blank'>Buy</a>$pod_luu_new"; }
+			$args['grandtotal']['PDF_PLNT'] += 1; $PDF_PLNT="<a href='$lulu_ntnt' target='_blank'>Buy</a>$pod_luu_new"; }
 		// TODO LULU
 		else if (!empty($args['database']['T_FORPRINT'][$bible]['ISBNLUNT'])) {
 			++$PROBPDF; $args['grandtotal']['PDF_PLNT'] += 1; $PDF_PLNT="<span style='font-weight:bold; color:red;'>Buy</span>"; }
@@ -3861,7 +3866,7 @@ function AION_LOOP_HTMS_DOIT($args) {
 		// YES LULU
 		else if ($args['database']['T_VERSIONS'][$bible]['LULUHARD']!='NULL')  {
 			if (!empty($pod_luu_har)) { ++$PROBPDF; }
-			$args['grandtotal']['PDF_PLHC'] += 1; $PDF_PLHC="<a href='http://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULUHARD']."' target='_blank'>Buy</a>$pod_luu_har"; }
+			$args['grandtotal']['PDF_PLHC'] += 1; $PDF_PLHC="<a href='$lulu_hard' target='_blank'>Buy</a>$pod_luu_har"; }
 		// TODO LULU
 		else if (!empty($args['database']['T_FORPRINT'][$bible]['ISBNLUHARD'])) {
 			++$PROBPDF; $args['grandtotal']['PDF_PLHC'] += 1; $PDF_PLHC="<span style='font-weight:bold; color:red;'>Buy</span>"; }
