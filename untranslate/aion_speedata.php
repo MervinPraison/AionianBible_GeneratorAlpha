@@ -32,7 +32,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---([W-Z]+.*)---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(English---Trans-Trans).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Portuguese-Trans-Trans).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Dombe|Nestle|Boyd|Tisch|Treg).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aleppo|Scots).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Arabic|Aramaic|Hebrew|Persian).*---Aionian-Edition\.noia$/",
@@ -45,7 +45,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic|Uyghur-Bible-Cyrillic|Uyghur-Bible-Pinyin).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Vietnamese).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*1858.*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Kannada|Peshitta).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Oriya).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur|Gujarati|Korean).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Gujarati).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/(Holy-Bible---Latvian---Latvian-Gluck-Bible|Holy-Bible---Japanese---Japanese-Yougo-yaku)---Aionian-Edition\.noia$/",
@@ -1919,12 +1919,10 @@ $versionSS_CP .= (empty($isbn) || $isbn=="UNKNOWN" ? "" : "<Value>ISBN: ".$isbn.
 $rundate = date("n/j/Y");
 // extension
 $extension_text = '';
-$copyright_rowA = '38';
-$copyright_rowB = '78';
+$copyright_row = '50';
 if (!empty($forprint['EXTENSION'])) {
 	$extension_text = trim($forprint['EXTENSION']);
-	$copyright_rowA = '6';
-	$copyright_rowB = '18';
+	$copyright_row = '6';
 }
 // page
 $PAGE_WIDTH					= '6in';
@@ -1983,10 +1981,7 @@ $fonts
 <Record element="bible">
 
 	<!-- BIBLE COPYRIGHT -->
-	<PlaceObject row="$copyright_rowA" column="1"><Textblock><Paragraph textformat="center"><Fontface fontfamily='FF-Copy'>
-		<I><Value>Given to our family, friends, and fellowman for Christ’s victory of grace!</Value></I>
-	</Fontface></Paragraph></Textblock></PlaceObject>	
-	<PlaceObject row="$copyright_rowB" column="1"><Textblock>
+	<PlaceObject row="$copyright_row" column="1"><Textblock>
 		<Paragraph language="English (USA)" textformat="center" $bidi_center><Fontface fontfamily='FF-Copy'>
 			<I><Value>Holy Bible Aionian Edition ®</Value></I><Br />
 			$versionFO_CP
