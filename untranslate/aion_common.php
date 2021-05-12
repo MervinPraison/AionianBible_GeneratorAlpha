@@ -3061,13 +3061,13 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-539;
 	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-602;
 	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-110986;
-	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-23142;
+	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-23096;
 	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-2510.14;
 	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-97;
 	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-58;
 	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-205;
-	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-113;
-	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-133;
+	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-114;
+	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-138;
 	$grandmarker['PDF_PRTL']	= $grandtotal['PDF_PRTL']-125;
 	$grandmarker['TRANS']		= $grandtotal['TRANS']-66;
 	$grandtotal['LONG']		= ($grandtotal['LONG']		== 0 ? $grandtotal['LONG']		: "<span style='font-weight:bold; color:red;'>".$grandtotal['LONG']."</span>" );

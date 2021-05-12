@@ -50,8 +50,9 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Gujarati).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/(Holy-Bible---Latvian---Latvian-Gluck-Bible|Holy-Bible---Japanese---Japanese-Yougo-yaku)---Aionian-Edition\.noia$/",
 		//'include'	=> "/.*Arapaho.*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Greek).*---Aionian-Edition\.noia$/",
-		'include'	=> "/---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---.*(English---Trans-Trans)---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(English---Trans-Trans|Spanish---Free-Bible|Greek-Textus-Receptus-Boyd|Greek-Tischendorf|Greek-Nestle|Greek-Majority-Text|English---Webster-Bible)---Aionian-Edition\.noia$/",
+		//'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		) );
@@ -1100,6 +1101,19 @@ else if ($margin=='XXX COPTIC') {
 	$COLUMN_LEFT_COLUMN		= '1';			$COLUMN_LEFT_WIDTH		= '36';			$COLUMN_LEFT_HEIGHT		= '130';
 	$COLUMN_RIGHT_COLUMN	= '39';			$COLUMN_RIGHT_WIDTH		= '36';			$COLUMN_RIGHT_HEIGHT	= '130';
 	$BOTTOM_ROW				= '132';		$BOTTOM_RIGHT_RIGHT		= '40';			$BOTTOM_WIDTH			= '35';			$BOTTOM_CENTER			= '37';
+}
+else if ($margin=='G0875') {
+	$MARGIN_SINGLE_INSIDE	= '0.875in';
+	$REFER_SINGLE_INSIDE	= '0.875in';
+	$MARGIN_SINGLE_WIDTH	= '77';
+	$MARGIN_MAPS_WIDTH		= '69';
+	$MARGIN_MAPS_WIDTH_TIME	= '77';
+	$MARGIN_MAPS_COLUMN		= '71';
+	$MARGIN_RIGHT_LEFT		= '0.875in';	$MARGIN_RIGHT_RIGHT		= '0.3125in';	$MARGIN_RIGHT_TOP		= '0.3125in';	$MARGIN_RIGHT_BOTTOM	= '0.3125in';
+	$MARGIN_LEFT_LEFT		= '0.3125in';	$MARGIN_LEFT_RIGHT		= '0.875in';	$MARGIN_LEFT_TOP		= '0.3125in';	$MARGIN_LEFT_BOTTOM		= '0.3125in';
+	$COLUMN_LEFT_COLUMN		= '1';			$COLUMN_LEFT_WIDTH		= '38';			$COLUMN_LEFT_HEIGHT		= '130';
+	$COLUMN_RIGHT_COLUMN	= '40';			$COLUMN_RIGHT_WIDTH		= '38';			$COLUMN_RIGHT_HEIGHT	= '130';
+	$BOTTOM_ROW				= '132';		$BOTTOM_RIGHT_RIGHT		= '42';			$BOTTOM_WIDTH			= '36';			$BOTTOM_CENTER			= '38';
 }
 else if ($rtl=='TRUE') { // margins flipped
 	$REFER_SINGLE_INSIDE	= '0.3125in';	$REFER_SINGLE_OUTSIDE	= '0.8125in';
