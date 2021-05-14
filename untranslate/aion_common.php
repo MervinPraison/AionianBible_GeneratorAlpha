@@ -241,10 +241,12 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $domain, $allbibl
 		$langeng = "<span lang='en' class='eng'>";
 		$langfor = "<span lang='".$database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGECODEISO']."' class='".$database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGECSS']."'>";
 		
-		// Lulu links need special attention - two types
-		$lulu_regu	= (empty($version[C_LULU])		|| $version[C_LULU]=='NULL'		? "" : (preg_match('/^http/i',$version[C_LULU])		? $version[C_LULU]		: "http://www.lulu.com/content/".$version[C_LULU]));
-		$lulu_hard	= (empty($version[C_LULUHARD])	|| $version[C_LULUHARD]=='NULL'	? "" : (preg_match('/^http/i',$version[C_LULUHARD])	? $version[C_LULUHARD]	: "http://www.lulu.com/content/".$version[C_LULUHARD]));
-		$lulu_ntnt	= (empty($version[C_LULUNT])	|| $version[C_LULUNT]=='NULL'	? "" : (preg_match('/^http/i',$version[C_LULUNT])	? $version[C_LULUNT]	: "http://www.lulu.com/content/".$version[C_LULUNT]));
+		// Amazon and Lulu links
+		$L_AMAZON	= (empty($version[C_AMAZON])	|| $version[C_AMAZON]=='NULL'	? "" : "https://www.amazon.com/dp/".$version[C_AMAZON]);
+		$L_AMAZONNT	= (empty($version[C_AMAZONNT])	|| $version[C_AMAZONNT]=='NULL'	? "" : "https://www.amazon.com/dp/".$version[C_AMAZONNT]);
+		$L_LULU		= (empty($version[C_LULU])		|| $version[C_LULU]=='NULL'		? "" : (preg_match('/^http/i',$version[C_LULU])		? $version[C_LULU]		: "http://www.lulu.com/content/".$version[C_LULU]));
+		$L_LULUHARD	= (empty($version[C_LULUHARD])	|| $version[C_LULUHARD]=='NULL'	? "" : (preg_match('/^http/i',$version[C_LULUHARD])	? $version[C_LULUHARD]	: "http://www.lulu.com/content/".$version[C_LULUHARD]));
+		$L_LULUNT	= (empty($version[C_LULUNT])	|| $version[C_LULUNT]=='NULL'	? "" : (preg_match('/^http/i',$version[C_LULUNT])	? $version[C_LULUNT]	: "http://www.lulu.com/content/".$version[C_LULUNT]));
 
 		// okay built it
 		$database[$version[C_BIBLE]]['FORMATTED'] = ''.
@@ -282,21 +284,21 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $domain, $allbibl
 		", <a href='http://Resources.AionianBible.org' target='_blank' title='All Aionian Bible resources for download'>Everything</a>".
 		"</div></div>".
 
-		(((!empty($version[C_AMAZON]) && $version[C_AMAZON]!='NULL') ||
-		  (!empty($version[C_AMAZONNT])&& $version[C_AMAZONNT]!='NULL') ||
-		  (!empty($version[C_LULU])&& $version[C_LULU]!='NULL') ||
-		  (!empty($version[C_LULUHARD])&& $version[C_LULUHARD]!='NULL') ||
-		  (!empty($version[C_LULUNT])&& $version[C_LULUNT]!='NULL')) ?
+		((!empty($L_AMAZON) ||
+		  !empty($L_AMAZONNT) ||
+		  !empty($L_LULU) ||
+		  !empty($L_LULUHARD) ||
+		  !empty($L_LULUNT)) ?
         ("\n<div class='field-header'>Purchase / Buy:</div><div class='field-field'><div class='field-links decorated'>".
-		(TRUE														?("<a href='/Buy' title='Buy Aionian Bible'><img src='/aion_social/buy-AionianBible.png' title='Buy the Aionian Bible in print' /></a> ") :'').
-		(TRUE														?("<a href='/Buy' title='Buy the Aionian Bible in print'>All Bibles</a>, ") :'').
-		(!empty($version[C_AMAZON]) && $version[C_AMAZON]!='NULL'	?("<a href='https://www.amazon.com/dp/".$version[C_AMAZON]		."' target='_blank' title='Buy Holy Bible Aionian Edition print copy at Amazon.com'>Amazon</a>, ")					:'').
-		(!empty($version[C_AMAZONNT])&& $version[C_AMAZONNT]!='NULL'?("<a href='https://www.amazon.com/dp/".$version[C_AMAZONNT]	."' target='_blank' title='Buy Holy Bible Aionian Edition New Testament print copy at Amazon.com'>Amazon New Testament</a>, ")	:'').
-		($bible=='Holy-Bible---English---Aionian-Bible'				?("<a href='https://www.amazon.com/dp/B084DHWQXL' target='_blank' title='Buy Holy Bible Aionian Edition Aionian Bible 22 Book Special Edition print copy at Amazon.com'>Amazon 22 Special</a>, ")	:'').
-		(!empty($lulu_regu)											?("<a href='$lulu_regu' target='_blank' title='Buy Holy Bible Aionian Edition print copy at Lulu.com'>Lulu</a>, ")								:'').
-		(!empty($lulu_hard)											?("<a href='$lulu_hard' target='_blank' title='Buy Holy Bible Aionian Edition hardcover copy at Lulu.com'>Lulu Hardcover</a>, ")				:'').
-		(!empty($lulu_ntnt)											?("<a href='$lulu_ntnt' target='_blank' title='Buy Holy Bible Aionian Edition New Testament print copy at Lulu.com'>Lulu New Testament</a>, ")	:'').
-		($bible=='Holy-Bible---English---Aionian-Bible'				?("<a href='http://www.lulu.com/content/26189474' target='_blank' title='Buy Holy Bible Aionian Edition Aionian Bible 22 Book Special Edition print copy at Lulu.com'>Lulu 22 Special</a>")	:'').
+		(TRUE					?("<a href='/Buy' title='Buy Aionian Bible'><img src='/aion_social/buy-AionianBible.png' title='Buy the Aionian Bible in print' /></a> ") :'').
+		(TRUE					?("<a href='/Buy' title='Buy the Aionian Bible in print'>All Bibles</a>, ") :'').
+		(!empty($L_AMAZON)		?("<a href='$L_AMAZON' target='_blank' title='Buy Holy Bible Aionian Edition print copy at Amazon.com'>Amazon</a>, ")					:'').
+		(!empty($L_AMAZONNT)	?("<a href='$L_AMAZONNT' target='_blank' title='Buy Holy Bible Aionian Edition New Testament print copy at Amazon.com'>Amazon New Testament</a>, ")	:'').
+		($bible=='Holy-Bible---English---Aionian-Bible'	?("<a href='https://www.amazon.com/dp/B084DHWQXL' target='_blank' title='Buy Holy Bible Aionian Edition Aionian Bible 22 Book Special Edition print copy at Amazon.com'>Amazon 22 Special</a>, ")	:'').
+		(!empty($L_LULU)		?("<a href='$L_LULU' target='_blank' title='Buy Holy Bible Aionian Edition print copy at Lulu.com'>Lulu</a>, ")								:'').
+		(!empty($L_LULUHARD)	?("<a href='$L_LULUHARD' target='_blank' title='Buy Holy Bible Aionian Edition hardcover copy at Lulu.com'>Lulu Hardcover</a>, ")				:'').
+		(!empty($L_LULUNT)		?("<a href='$L_LULUNT' target='_blank' title='Buy Holy Bible Aionian Edition New Testament print copy at Lulu.com'>Lulu New Testament</a>, ")	:'').
+		($bible=='Holy-Bible---English---Aionian-Bible'	?("<a href='http://www.lulu.com/content/26189474' target='_blank' title='Buy Holy Bible Aionian Edition Aionian Bible 22 Book Special Edition print copy at Lulu.com'>Lulu 22 Special</a>")	:'').
 		"</div></div>")
 		 : "").
 		

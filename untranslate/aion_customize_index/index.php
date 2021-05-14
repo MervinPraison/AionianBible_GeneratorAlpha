@@ -357,11 +357,11 @@ foreach( $bible_ALL as $bible => $version ) {
 		echo "<div class='word-buy $stripe $highlight' $quick_id><a href='".abcms_href('/Bibles/'.$bible,FALSE,TRUE,TRUE)."' title='Bible Table of Contents'>".$language." ~ ".$name."</a>";
 		$buylinks  = ($version['AMAZON']=='NULL'		? '' : "<a href='https://www.amazon.com/dp/".$version['AMAZON']."'		target='_blank' title='$title'>Amazon</a>, ");
 		$buylinks .= ($version['AMAZONNT']=='NULL'		? '' : "<a href='https://www.amazon.com/dp/".$version['AMAZONNT']."'	target='_blank' title='$title'>Amazon NT</a>, ");
-		$buylinks .= ($bible!='English---Aionian-Bible'	? '' : "<a href='https://www.amazon.com/dp/B084DHWQXL'					target='_blank' title='$title'>Amazon 22 Special</a>, ");
-		$buylinks .= ($version['LULU']=='NULL'			? '' : "<a href='http://www.lulu.com/content/".$version['LULU']."'		target='_blank' title='$title'>Lulu</a>, ");
-		$buylinks .= ($version['LULUHARD']=='NULL'		? '' : "<a href='http://www.lulu.com/content/".$version['LULUHARD']."'	target='_blank' title='$title'>Lulu Hardcover</a>, ");
-		$buylinks .= ($version['LULUNT']=='NULL'		? '' : "<a href='http://www.lulu.com/content/".$version['LULUNT']."'	target='_blank' title='$title'>Lulu NT</a>, ");
-		$buylinks .= ($bible!='English---Aionian-Bible'	? '' : "<a href='http://www.lulu.com/content/26189474'					target='_blank' title='$title'>Lulu 22 Special</a>");
+		$buylinks .= ($bible!='English---Aionian-Bible'	? '' : "<a href='https://www.amazon.com/dp/B084DHWQXL'	target='_blank' title='$title'>Amazon 22 Special</a>, ");
+		$buylinks .= ($version['LULU']=='NULL'			? '' : "<a href='".(preg_match('/^http/i',$version['LULU'])		? "" : "http://www.lulu.com/content/").$version['LULU']."'		target='_blank' title='$title'>Lulu</a>, ");
+		$buylinks .= ($version['LULUHARD']=='NULL'		? '' : "<a href='".(preg_match('/^http/i',$version['LULUHARD']) ? "" : "http://www.lulu.com/content/").$version['LULUHARD']."'	target='_blank' title='$title'>Lulu Hardcover</a>, ");
+		$buylinks .= ($version['LULUNT']=='NULL'		? '' : "<a href='".(preg_match('/^http/i',$version['LULUNT'])	? "" : "http://www.lulu.com/content/").$version['LULUNT']."'	target='_blank' title='$title'>Lulu NT</a>, ");
+		$buylinks .= ($bible!='English---Aionian-Bible'	? '' : "<a href='http://www.lulu.com/content/26189474'	target='_blank' title='$title'>Lulu 22 Special</a>");
 		$buylinks = trim($buylinks,', ');
 		if (!empty($buylinks)) { echo "<br /><span class='buylinks'>Buy at $buylinks</span>"; }
 		else { echo "<br /><span class='buylinks'>Print not yet available</span>"; }
