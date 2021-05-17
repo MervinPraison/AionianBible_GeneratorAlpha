@@ -3069,7 +3069,7 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-58;
 	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-205;
 	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-114;
-	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-138;
+	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-144;
 	$grandmarker['PDF_PRTL']	= $grandtotal['PDF_PRTL']-125;
 	$grandmarker['TRANS']		= $grandtotal['TRANS']-66;
 	$grandtotal['LONG']		= ($grandtotal['LONG']		== 0 ? $grandtotal['LONG']		: "<span style='font-weight:bold; color:red;'>".$grandtotal['LONG']."</span>" );

@@ -12278,6 +12278,8 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Romanian---Bayash-Luke" :
+if (!($bfile = preg_replace("/ /us","",$bfile,-1,$rnum)) || $rnum!=15) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%E2%80%8A/1
+$bfile_saved = $bfile;	
 $bigfix = <<<EOF
 LUK 12:41 Petar atunšje lu ăntribat pă jăl: “Domnu spuj tu asta usporedbă păntru noj učenici, ili ăj păntru toc?”
 LUK 12:42 Isus u zăs: “Šinji ăj ala vjernă šă kufiri upravitelj kari ăl postavalešći dă gospodar pă kasa, šă ăm pravă vremi u da mănkari alu toc ăm kasa?
@@ -12291,6 +12293,8 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Romanian---Ludari-Luke" :
+if (!($bfile = preg_replace("/ /us","",$bfile,-1,$rnum)) || $rnum!=5) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%E2%80%8A/1
+$bfile_saved = $bfile;	
 $bigfix = <<<EOF
 LUK 17:37 Učenikurlje aluj l trjabă: “Domnulje, undje asta osă fije?” Isusu lji zăće: “Undje zaće lumja muartă, ăn klo s sakupjaštje lešinari.”
 LUK 18:1 
