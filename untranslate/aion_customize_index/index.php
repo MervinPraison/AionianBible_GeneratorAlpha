@@ -323,7 +323,7 @@ abcms_html();
 abcms_head();
 echo "<div id='word'>\n";
 if ($mode=='buy') {			readfile('buy.htm'); }
-else if ($mode=='read') {	echo "<h2 class=center>Bibles</h2>"; }
+else if ($mode=='read') {	echo "<h2 class=center>Bibles Free / <a href='/Buy' title='Buy Bibles at Amazon, Lulu, and Lightning Source'>Buy</a></h2>"; }
 else {						echo "<h2 class=center>Parallel Bibles</h2>"; }
 echo "<div class='center' id='word-quick'>";
 $last = NULL;
@@ -364,7 +364,7 @@ foreach( $bible_ALL as $bible => $version ) {
 		$buylinks .= ($bible!='English---Aionian-Bible'	? '' : "<a href='http://www.lulu.com/content/26189474'	target='_blank' title='$title'>Lulu 22 Special</a>");
 		$buylinks = trim($buylinks,', ');
 		if (!empty($buylinks)) { echo "<br /><span class='buylinks'>Buy at $buylinks</span>"; }
-		else { echo "<br /><span class='buylinks'>Print not yet available</span>"; }
+		else { echo "<br /><span class='buylinks'>Print not available</span>"; }
 		echo "</div>";
 	}
 	else if ($current==$bible) {echo "<div class='word-bible $stripe $highlight' $quick_id><a href='".abcms_href('/Bibles/'.$bible,FALSE,FALSE,TRUE)."' title='Bible Table of Contents'>".$language." ~ ".$name."</a></div>\n"; }
