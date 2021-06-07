@@ -1,6 +1,6 @@
 # File Name: Hebrew_Lexicon_Tyndale.txt
-# File Size: 1254820     
-# File Date: 02/20/2021 19:26:06
+# File Size: 1254868     
+# File Date: 05/31/2021 22:30:02
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: http://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2021
@@ -1341,7 +1341,7 @@ H1226	בַּצֹּרֶת	bats.tso.ret	drought	H:N-F	dearth, drought, destitution
 H1227	בַּקְבּוּק	baq.buq	Bakbuk	N:N-M-P	Bakbuk = "bottle" a head of a family of temple-slaves returning from exile with Zerubbabel
 H1228	בַּקְבֻּק	baq.buq	flask	H:N-M	flask, bottle
 H1229	בַּקְבֻּקְיָה	baq.buq.yah	Bakbukiah	N:N-M-P	Bakbukiah = "wasting of Jehovah" a Levite in the time of Nehemiah
-H1230	בַּקְבַּקַּר	baq.baq.qar	Bakbakkar	N:N-M-P	Bakbakkar = "se" a Levite, apparently a descendant of Asaph
+H1230	בַּקְבַּקַּר	baq.baq.qar	Bakbakkar	N:N-M-P	Bakbakkar = "searcher" a Levite, apparently a descendant of Asaph
 H1231	בֻּקִּי	buq.qi	Bukki	N:N-M-P	Bukki = "wasting" 1) son of Abishua and father of Uzzi, fifth from Aaron in the line of the high priests 2) son of Jogli, prince of the tribe of Dan, one of the ten men chosen to apportion the land of Canaan between the tribes
 H1232	בֻּקִּיָּ֫הוּ	buq.qiy.yah	Bukkiah	N:N-M-P	Bukkiah = "Jehovah has emptied" a Kohathite Levite, of the sons of Heman, one of the musicians in the temple
 H1233	בְּקִיעַ	be.qi.a	breach	H:N-M	fissure, breach, cleft
@@ -2014,7 +2014,7 @@ H1865	דְּרוֹר	de.ror	liberty	H:N-M	a flowing, free run, liberty 1a) flowi
 H1866	דְּרוֹר	de.ror	swallow	H:N-F	a swallow, bird
 H1867	דָּֽרְיָ֫וֶשׁ	dar.ya.vesh	Darius	N:N-M-P	Darius = "lord" 1) Darius the Mede, the son of Ahasuerus, king of the Chaldeans, who succeeded to the Babylonian kingdom on the death of Belshazzar; probably the same as "Astyages" the last king of the Medes (538 BC) 2) Darius, the son of Hystaspes, the founder of the Perso-Arian dynasty (521 BC) 3) Darius II or Darius III 3a) Darius II, Nothus (Ochus) was king of Persia during the time of Nehemiah (424/3-405/4 BC). Darius II is the most probable because he is mentioned by Nehemiah and ruled during the time of Nehemiah 3b) Darius III, Codomannus was king of Persia during its last years at the time of Alexander the Great and was his opponent (336-330 BC)
 H1868	דָּֽרְיָ֫וֶשׁ	dar.ya.vesh	Darius	N:N-M-P	Darius = "lord" 1) Darius the Mede, the son of Ahasuerus, king of the Chaldeans, who succeeded to the Babylonian kingdom on the death of Belshazzar; probably the same as "Astyages" the last king of the Medes (538 BC) (same as H1867 (1)) 2) Darius, the son of Hystaspes, the founder of the Perso-Arian dynasty (521 BC) (same as (2)) 3) Darius II or Darius III 3a) Darius II, Nothus (Ochus) was king of Persia during the time of Nehemiah (424/3-405/4 BC). Darius II is the most probable because he is mentioned by Nehemiah and ruled during the time of Nehemiah 3b) Darius III, Codomannus was king of Persia during its last years at the time of Alexander the Great and was his opponent (336-330 BC)
-H1869	דָּרַךְ	da.rakh	to tread	H:V	to tread, bend, lead, march 1a) (Qal) 1a1) to tread, march, march forth 1a2) to tread on, tread upon 1a3) to tread (a press) 1a4) to tread (bend) a bow 1a5), bow-benders (participle) 1b) (Hiphil) 1b1) to tread, tread down 1b2) to tread (bend with the foot) a bow 1b3) to cause to go, lead, march, tread
+H1869	דָּרַךְ	da.rakh	to tread	H:V	to tread, bend, lead, march 1a) (Qal) 1a1) to tread, march, march forth 1a2) to tread on, tread upon 1a3) to tread (a press) 1a4) to tread (bend) a bow 1a5) archer, bow-benders (participle) 1b) (Hiphil) 1b1) to tread, tread down 1b2) to tread (bend with the foot) a bow 1b3) to cause to go, lead, march, tread
 H1870	דֶּ֫רֶךְ	de.rekh	way	H:N-M	way, road, distance, journey, manner 1a) road, way, path 1b) journey 1c) direction 1d) manner, habit, way 1e) of course of life (fig.) 1f) of moral character (fig.)
 H1871	דַּרְכְּמוֹן	dar.ke.mon	drachma	H:N-M	daric, drachma, dram, unit of measure 1a) a gold coin current in Palestine in the period after the return from Babylon; 128 grains (8.32 grams) of gold and 128 grains of silver
 H1872	דְּרַע	de.ra	arm	A:N-F	arm
@@ -2902,7 +2902,7 @@ H2683	חֵ֫צֶן	che.tsen	bosom	H:N-M	bosom, bosom of a garment
 H2684	חֹ֫צֶן	cho.tsen	bosom	H:N-M	bosom, lap
 H2685	חֲצַף	cha.tsaph	be hasty	A:V	(Aphel) to be urgent, harsh, show insolence
 H2686a	חָצַץ	cha.tsats	to divide	H:V	to divide 1a) (Qal) to divide 1b) (Piel) to divide 1c) (Pual) to be cut off, be finished
-H2686b	חָצַץ	cha.tsats	to shoot	H:V	2) to shoot arrows 2a) (Piel) (participle)
+H2686b	חָצַץ	cha.tsats	to shoot	H:V	2) to shoot arrows 2a) (Piel) archer (participle)
 H2687	חָצָץ	cha.tsats	gravel	H:N-M	gravel
 H2688	חַצֲצֹן תָּמָר	chats.tson ta.mar	Hazazon-tamar	N:N--L	Hazezon-tamar = "dividing the date-palm" 1) an Amorite city 2) a town situated in the desert Judah; probably Engedi 3) maybe the 'Tamar' of Solomon's day
 H2689	חֲצֹצְרָה	cha.tso.tse.rah	trumpet	H:N-F	trumpet, clarion
@@ -3636,7 +3636,7 @@ H3380	יְרֻבֶּשֶׁת	ye.rub.be.shet	Jerubbesheth	N:N-M-P	Jerubbesheth = 
 H3381	יָרַד	ya.rad	to go down	H:V	to go down, descend, decline, march down, sink down 1a) (Qal) 1a1) to go or come down 1a2) to sink 1a3) to be prostrated 1a4) to come down (of revelation) 1b) (Hiphil) 1b1) to bring down 1b2) to send down 1b3) to take down 1b4) to lay prostrate 1b5) to let down 1c) (Hophal) 1c1) to be brought down 1c2) to be taken down
 H3382	יֶ֫רֶד	ye.red	Jared	N:N-M-P	Jered or Jared = "descent" 1) son of Mahalaleel and father of Enoch in the 4th generation from Seth 2) a descendant of Judah and father of Gedor
 H3383	יַרְדֵּן	yar.den	Jordan	N:N--L	Jordan = "descender" the river of Palestine running from the roots of Anti-Lebanon to the Dead Sea a distance of approx 200 miles (320 km)
-H3384a	יָרָא		to shoot	H:V	to shoot, pour 1a) (Qal) 1a1) to shoot arrows 1b) (Hiphil) 1b1) to shoot at 1b2) part. shooter, 1c) to throw water, rain
+H3384a	יָרָא		to shoot	H:V	to shoot, pour 1a) (Qal) 1a1) to shoot arrows 1b) (Hiphil) 1b1) to shoot at 1b2) part. shooter, archer 1c) to throw water, rain
 H3384b	יָרָה	ya.rah	to show	H:V	to point out, show 1b) to direct, teach, instruct
 H3385	יְרוּאֵל	ye.ru.el	Jeruel	N:N--L	Jeruel = "taught by God" a place in the wilderness of southern Judah
 H3386	יָרוֹחַ	ya.ro.ach	Jaroah	N:N-M-P	Jaroah = "new moon" a chief man of the tribe of Gad
@@ -7778,8 +7778,8 @@ H7195	קֶ֫שֶׁר	qe.sher	conspiracy	H:N-M	conspiracy, treason, (unlawful) al
 H7196	קִשֻּׁרִים	qish.shur	sash	H:N-M	bands, sashes, headbands 1a) ornaments that are bound on
 H7197a	קָשַׁשׁ	qa.shash	to gather	H:V	to gather, collect, gather stubble or sticks
 H7197b	קָשַׁשׁ	qa.shash	to assemble	H:V	to gather, assemble 1a) (Qal) to gather together 1b) (Hithpoel) to gather oneself together
-H7198	קֶ֫שֶׁת	qe.shet	bow	H:N-F	bow 1a) bow (for hunting, battle) 1b) bowmen, 1c) bow (fig. of might) 1d) rainbow
-H7199	קַשָּׁת	qash.shat	bowman	H:N-M	bowman,
+H7198	קֶ֫שֶׁת	qe.shet	bow	H:N-F	bow 1a) bow (for hunting, battle) 1b) bowmen, archers 1c) bow (fig. of might) 1d) rainbow
+H7199	קַשָּׁת	qash.shat	bowman	H:N-M	bowman, archer
 H7200	רָאָה	ra.ah	to see	H:V	to see, look at, inspect, perceive, consider 1a) (Qal) 1a1) to see 1a2) to see, perceive 1a3) to see, have vision 1a4) to look at, see, regard, look after, see after, learn about, observe, watch, look upon, look out, find out 1a5) to see, observe, consider, look at, give attention to, discern, distinguish 1a6) to look at, gaze at 1b) (Niphal) 1b1) to appear, present oneself 1b2) to be seen 1b3) to be visible 1c) (Pual) to be seen 1d) (Hiphil) 1d1) to cause to see, show 1d2) to cause to look intently at, behold, cause to gaze at 1e) (Hophal) 1e1) to be caused to see, be shown 1e2) to be exhibited to 1f) (Hithpael) to look at each other, face
 H7201	רָאָה	ra.ah	glede	H:N-F	bird of prey 1a) perhaps kite or hawk
 H7202	רָאֶה	ra.eh	to see	H:V	(Qal) seeing
@@ -7811,7 +7811,7 @@ H7225	רֵאשִׁית	re.shit	first	H:N-F	first, beginning, best, chief 1a) beg
 H7226	רַאֲשֹׁת	ra.a.shot	head-place	H:N-F	head place, place at the head
 H7227a	רַב	rav	many	H:A	adj much, many, great 1a) much 1b) many 1c) abounding in 1d) more numerous than 1e) abundant, enough 1f) great 1g) strong 1h) greater than adv 1i) much, exceedingly
 H7227b	רַב	rav	chief	H:N-M	captain, chief
-H7228	רַב	rav		H:N-M	
+H7228	רַב	rav		H:N-M	archer
 H7229	רַב	rav	great	A:A	adj 1) great 1a) great 1b) great (fig of power) n 2) captain, chief
 H7230	רֹב	rov	abundance	H:N-M	multitude, abundance, greatness 1a) multitude 1a1) abundance, abundantly 1a2) numerous 1b) greatness
 H7231	רָבַב	ra.vav	to multiply	H:V	1) to be or become many, be or become much, be or become great 1a)(Qal) 1a1) to be or become many 1a2) to be or become great 1a3) to be long (of journey) 2) (Pual) ten thousands

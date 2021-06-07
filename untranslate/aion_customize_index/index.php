@@ -23,6 +23,7 @@ else if ($_Path==='Maps') {								$_meta = " ~ Maps";											abcms_page('map
 else if ($_Path==='History') {							$_meta = " ~ History";										abcms_page('history.htm'); }
 else if ($_Path==='Readers-Guide') {					$_meta = " ~ Readers Guide";								abcms_page('readers-guide.htm'); }
 else if ($_Path==='Aionios-and-Aidios') {				$_meta = " ~ Aiōnios and Aïdios";							abcms_page('aionios-and-aidios.htm'); }
+else if ($_Path==='Promote') {							$_meta = " ~ Promote, Sponsor, Advertise, Market";			abcms_page('promote.htm'); }
 else if ($_Path==='AppleApp') {							$_meta = " ~ Apple iPhone App";								abcms_page('appleapp.htm'); }
 else if ($_Path==='Third-Party-Publisher-Resources') {	$_meta = " ~ Third Party Publisher Resources";				abcms_page('third-party-publisher-resources.htm'); }
 else if (!preg_match('/^[a-zA-Z0-9\-\/]+$/',$_Path)) {																abcms_notf(); }

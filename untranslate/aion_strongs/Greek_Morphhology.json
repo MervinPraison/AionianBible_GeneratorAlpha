@@ -2096,7 +2096,7 @@
         "U": "relating it to another person or thing"
     },
     "PRT": {
-        "M": "Particle or Disjunctive particle\" ,1 2 3 4 5 6 7 8 9",
+        "M": "Particle or Disjunctive Particle",
         "U": "introducing an alternative"
     },
     "PRT-I": {
@@ -2268,227 +2268,227 @@
         "U": "a REFERENCE BACK to a neuter person or thing that is doing something"
     },
     "S-1PAPF": {
-        "M": "Posessive pronoun 1st Plural Accusative Plural Feminine",
+        "M": "Possessive pronoun 1st Plural Accusative Plural Feminine",
         "U": "a reference to POSSESSORS of something that are female people or things that are speaking or writing that are having something done to them"
     },
     "S-1PAPM": {
-        "M": "Posessive pronoun 1st Plural Accusative Plural Masculine",
+        "M": "Possessive pronoun 1st Plural Accusative Plural Masculine",
         "U": "a reference to POSSESSORS of something that are male people or things that are speaking or writing that are having something done to them"
     },
     "S-1PAPN": {
-        "M": "Posessive pronoun 1st Plural Accusative Plural Neuter",
+        "M": "Possessive pronoun 1st Plural Accusative Plural Neuter",
         "U": "a reference to POSSESSORS of something that are neuter people or things that are speaking or writing that are having something done to them"
     },
     "S-1PASF": {
-        "M": "Posessive pronoun 1st Plural Accusative Singular Feminine",
+        "M": "Possessive pronoun 1st Plural Accusative Singular Feminine",
         "U": "a reference to POSSESSORS of something who is female people or things that is speaking or writing that is having something done to them"
     },
     "S-1PASN": {
-        "M": "Posessive pronoun 1st Plural Accusative Singular Neuter",
+        "M": "Possessive pronoun 1st Plural Accusative Singular Neuter",
         "U": "a reference to POSSESSORS of something who is neuter people or things that is speaking or writing that is having something done to them"
     },
     "S-1PDPF": {
-        "M": "Posessive pronoun 1st Plural Dative Plural Feminine",
+        "M": "Possessive pronoun 1st Plural Dative Plural Feminine",
         "U": "a reference to POSSESSORS of something that are female people or things that are speaking or writing that something is done for‚ or in relation to"
     },
     "S-1PDPM": {
-        "M": "Posessive pronoun 1st Plural Dative Plural Masculine",
+        "M": "Possessive pronoun 1st Plural Dative Plural Masculine",
         "U": "a reference to POSSESSORS of something that are male people or things that are speaking or writing that something is done for‚ or in relation to"
     },
     "S-1PDPN": {
-        "M": "Posessive pronoun 1st Plural Dative Plural Neuter",
+        "M": "Possessive pronoun 1st Plural Dative Plural Neuter",
         "U": "a reference to POSSESSORS of something that are neuter people or things that are speaking or writing that something is done for‚ or in relation to"
     },
     "S-1PGPF": {
-        "M": "Posessive pronoun 1st Plural Genitive Plural Feminine",
+        "M": "Possessive pronoun 1st Plural Genitive Plural Feminine",
         "U": "a reference to POSSESSORS of something that are female people or things that are speaking or writing that something belongs to"
     },
     "S-1PGPN": {
-        "M": "Posessive pronoun 1st Plural Genitive Plural Neuter",
+        "M": "Possessive pronoun 1st Plural Genitive Plural Neuter",
         "U": "a reference to POSSESSORS of something that are neuter people or things that are speaking or writing that something belongs to"
     },
     "S-1PGSF": {
-        "M": "Posessive pronoun 1st Singular Genitive Singular Feminine",
+        "M": "Possessive pronoun 1st Singular Genitive Singular Feminine",
         "U": "a reference to a POSSESSOR of something that are female people or things that are speaking or writing that something belongs to"
     },
     "S-1PNPF": {
-        "M": "Posessive pronoun 1st Plural Nominative Plural Feminine",
+        "M": "Possessive pronoun 1st Plural Nominative Plural Feminine",
         "U": "a reference to POSSESSORS of something that are female people or things that are doing something"
     },
     "S-1PNPM": {
-        "M": "Posessive pronoun 1st Plural Nominative Plural Masculine",
+        "M": "Possessive pronoun 1st Plural Nominative Plural Masculine",
         "U": "a reference to POSSESSORS of something that are male people or things that are speaking or writing that are doing something"
     },
     "S-1PNPN": {
-        "M": "Posessive pronoun 1st Plural Nominative Plural Neuter",
+        "M": "Possessive pronoun 1st Plural Nominative Plural Neuter",
         "U": "a reference to POSSESSORS of something that are neuter people or things that are speaking or writing that are doing something"
     },
     "S-1PNSF": {
-        "M": "Posessive pronoun 1st Plural Nominative Singular Feminine",
+        "M": "Possessive pronoun 1st Plural Nominative Singular Feminine",
         "U": "a reference to POSSESSORS of something who is female people or things that is speaking or writing that is doing something"
     },
     "S-1SAPF": {
-        "M": "Posessive pronoun 1st Singular Accusative Plural Feminine",
+        "M": "Possessive pronoun 1st Singular Accusative Plural Feminine",
         "U": "a reference to a POSSESSOR of something that are fea male person or thing that are speaking or writing that are having something done to them"
     },
     "S-1SAPM": {
-        "M": "Posessive pronoun 1st Singular Accusative Plural Masculine",
+        "M": "Possessive pronoun 1st Singular Accusative Plural Masculine",
         "U": "a reference to a POSSESSOR of something that are a male person or thing that are speaking or writing that are having something done to them"
     },
     "S-1SAPN": {
-        "M": "Posessive pronoun 1st Singular Accusative Plural Neuter",
+        "M": "Possessive pronoun 1st Singular Accusative Plural Neuter",
         "U": "a reference to a POSSESSOR of something that are a neuter person or thing that are speaking or writing that are having something done to them"
     },
     "S-1SASF": {
-        "M": "Posessive pronoun 1st Singular Accusative Singular Feminine",
+        "M": "Possessive pronoun 1st Singular Accusative Singular Feminine",
         "U": "a reference to a POSSESSOR of something who is a female person or thing that is speaking or writing that is having something done to them"
     },
     "S-1SASM": {
-        "M": "Posessive pronoun 1st Singular Accusative Singular Masculine",
+        "M": "Possessive pronoun 1st Singular Accusative Singular Masculine",
         "U": "a reference to a POSSESSOR of something who is a male person or thing that is speaking or writing that is having something done to them"
     },
     "S-1SASN": {
-        "M": "Posessive pronoun 1st Singular Accusative Singular Neuter",
+        "M": "Possessive pronoun 1st Singular Accusative Singular Neuter",
         "U": "a reference to a POSSESSOR of something who is neuter people or things that is speaking or writing that is having something done to them"
     },
     "S-1SDPN": {
-        "M": "Posessive pronoun 1st Singular Dative Plural Neuter",
+        "M": "Possessive pronoun 1st Singular Dative Plural Neuter",
         "U": "a reference to a POSSESSOR of something that are a neuter person or thing that are speaking or writing that something is done for‚ or in relation to"
     },
     "S-1SDSF": {
-        "M": "Posessive pronoun 1st Singular Dative Singular Feminine",
+        "M": "Possessive pronoun 1st Singular Dative Singular Feminine",
         "U": "a reference to a POSSESSOR of something who is a female person or thing that is speaking or writing that something is done for‚ or in relation to"
     },
     "S-1SDSM": {
-        "M": "Posessive pronoun 1st Singular Dative Singular Masculine",
+        "M": "Possessive pronoun 1st Singular Dative Singular Masculine",
         "U": "a reference to a POSSESSOR of something who is a male person or thing that is speaking or writing that something is done for‚ or in relation to"
     },
     "S-1SDSN": {
-        "M": "Posessive pronoun 1st Singular Dative Singular Neuter",
+        "M": "Possessive pronoun 1st Singular Dative Singular Neuter",
         "U": "a reference to a POSSESSOR of something who is a neuter person or thing that is speaking or writing that something is done for‚ or in relation to"
     },
     "S-1SGPN": {
-        "M": "Posessive pronoun 1st Singular Genitive Plural Neuter",
+        "M": "Possessive pronoun 1st Singular Genitive Plural Neuter",
         "U": "a reference to a POSSESSOR of something that are a neuter person or thing that are speaking or writing that something belongs to"
     },
     "S-1SGSF": {
-        "M": "Posessive pronoun 1st Singular Genitive Singular Feminine",
+        "M": "Possessive pronoun 1st Singular Genitive Singular Feminine",
         "U": "a reference to a POSSESSOR of something who is a female person or thing that is speaking or writing that something belongs to"
     },
     "S-1SGSN": {
-        "M": "Posessive pronoun 1st Singular Genitive Singular Neuter",
+        "M": "Possessive pronoun 1st Singular Genitive Singular Neuter",
         "U": "a reference to a POSSESSOR of something who is a neuter thing that is speaking or writing that something belongs to"
     },
     "S-1SNPM": {
-        "M": "Posessive pronoun 1st Singular Nominative Plural Masculine",
+        "M": "Possessive pronoun 1st Singular Nominative Plural Masculine",
         "U": "a reference to a POSSESSOR of something that are a male person or thing that are speaking or writing that are doing something"
     },
     "S-1SNPN": {
-        "M": "Posessive pronoun 1st Singular Nominative Plural Neuter",
+        "M": "Possessive pronoun 1st Singular Nominative Plural Neuter",
         "U": "a reference to a POSSESSOR of something that are a neuter person or thing that are speaking or writing that are doing something"
     },
     "S-1SNSF": {
-        "M": "Posessive pronoun 1st Singular Nominative Singular Feminine",
+        "M": "Possessive pronoun 1st Singular Nominative Singular Feminine",
         "U": "a reference to a POSSESSOR of something who is a female person or thing that is speaking or writing that is doing something"
     },
     "S-1SNSM": {
-        "M": "Posessive pronoun 1st Singular Nominative Singular Masculine",
+        "M": "Possessive pronoun 1st Singular Nominative Singular Masculine",
         "U": "a reference to a POSSESSOR of something who is a male person or thing that is speaking or writing that is doing something"
     },
     "S-1SNSN": {
-        "M": "Posessive pronoun 1st Singular Nominative Singular Neuter",
+        "M": "Possessive pronoun 1st Singular Nominative Singular Neuter",
         "U": "a reference to a POSSESSOR of something who is a neuter person or thing that is speaking or writing that is doing something"
     },
     "S-2PAPF": {
-        "M": "Posessive pronoun 2nd Plural Accusative Plural Feminine",
+        "M": "Possessive pronoun 2nd Plural Accusative Plural Feminine",
         "U": "a reference to POSSESSORS of something that are female persons being spoken or written to that are having something done to them"
     },
     "S-2PAPM": {
-        "M": "Posessive pronoun 2nd Plural Accusative Plural Masculine",
+        "M": "Possessive pronoun 2nd Plural Accusative Plural Masculine",
         "U": "a reference to POSSESSORS of something that are male persons being spoken or written to that are having something done to them"
     },
     "S-2PAPN": {
-        "M": "Posessive pronoun 2nd Plural Accusative Plural Neuter",
+        "M": "Possessive pronoun 2nd Plural Accusative Plural Neuter",
         "U": "a reference to POSSESSORS of something that are neuter persons being spoken or written to that are having something done to them"
     },
     "S-2PDPF": {
-        "M": "Posessive pronoun 2nd Plural Dative Plural Feminine",
+        "M": "Possessive pronoun 2nd Plural Dative Plural Feminine",
         "U": "a reference to POSSESSORS of something that are female persons being spoken or written to that something is done for‚ or in relation to"
     },
     "S-2PDPM": {
-        "M": "Posessive pronoun 2nd Plural Dative Plural Masculine",
+        "M": "Possessive pronoun 2nd Plural Dative Plural Masculine",
         "U": "a reference to POSSESSORS of something that are male persons being spoken or written to that something is done for‚ or in relation to"
     },
     "S-2PDPN": {
-        "M": "Posessive pronoun 2nd Plural Dative Plural Neuter",
+        "M": "Possessive pronoun 2nd Plural Dative Plural Neuter",
         "U": "a reference to POSSESSORS of something that are neuter persons being spoken or written to that something is done for‚ or in relation to"
     },
     "S-2PGPF": {
-        "M": "Posessive pronoun 2nd Plural Genitive Plural Feminine",
+        "M": "Possessive pronoun 2nd Plural Genitive Plural Feminine",
         "U": "a reference to POSSESSORS of something that are female persons being spoken or written to that something belongs to"
     },
     "S-2PNPF": {
-        "M": "Posessive pronoun 2nd Plural Nominative Plural Feminine",
+        "M": "Possessive pronoun 2nd Plural Nominative Plural Feminine",
         "U": "a reference to POSSESSORS of something that are female persons being spoken or written to that are doing something"
     },
     "S-2PNPM": {
-        "M": "Posessive pronoun 2nd Plural Nominative Plural Masculine",
+        "M": "Possessive pronoun 2nd Plural Nominative Plural Masculine",
         "U": "a reference to POSSESSORS of something that are male persons being spoken or written to that are doing something"
     },
     "S-2PNPN": {
-        "M": "Posessive pronoun 2nd Plural Nominative Plural Neuter",
+        "M": "Possessive pronoun 2nd Plural Nominative Plural Neuter",
         "U": "a reference to POSSESSORS of something that are neuter persons being spoken or written to that are doing something"
     },
     "S-2SAPM": {
-        "M": "Posessive pronoun 2nd Singular Accusative Plural Masculine",
+        "M": "Possessive pronoun 2nd Singular Accusative Plural Masculine",
         "U": "a reference to POSSESSORS of something that are male persons being spoken or written to that are having something done to them"
     },
     "S-2SAPN": {
-        "M": "Posessive pronoun 2nd Singular Accusative Plural Neuter",
+        "M": "Possessive pronoun 2nd Singular Accusative Plural Neuter",
         "U": "a reference to POSSESSORS of something that are neuter persons being spoken or written to that are having something done to them"
     },
     "S-2SASF": {
-        "M": "Posessive pronoun 2nd Singular Accusative Singular Feminine",
+        "M": "Possessive pronoun 2nd Singular Accusative Singular Feminine",
         "U": "a reference to a POSSESSOR of something who is a female a person being spoken or written to that is having something done to them"
     },
     "S-2SASN": {
-        "M": "Posessive pronoun 2nd Singular Accusative Singular Neuter",
+        "M": "Possessive pronoun 2nd Singular Accusative Singular Neuter",
         "U": "a reference to a POSSESSOR of something who is a neuter person being spoken or written to that is having something done to them"
     },
     "S-2SDSF": {
-        "M": "Posessive pronoun 2nd Singular Dative Singular Feminine",
+        "M": "Possessive pronoun 2nd Singular Dative Singular Feminine",
         "U": "a reference to a POSSESSOR of something who is a female a person being spoken or written to that something is done for‚ or in relation to"
     },
     "S-2SDSM": {
-        "M": "Posessive pronoun 2nd Singular Dative Singular Masculine",
+        "M": "Possessive pronoun 2nd Singular Dative Singular Masculine",
         "U": "a reference to a POSSESSOR of something who is a male a person being spoken or written to that something is done for‚ or in relation to"
     },
     "S-2SDSN": {
-        "M": "Posessive pronoun 2nd Singular Dative Singular Neuter",
+        "M": "Possessive pronoun 2nd Singular Dative Singular Neuter",
         "U": "a reference to a POSSESSOR of something who is a neuter a person being spoken or written to that something is done for‚ or in relation to"
     },
     "S-2SGSF": {
-        "M": "Posessive pronoun 2nd Singular Genitive Singular Feminine",
+        "M": "Possessive pronoun 2nd Singular Genitive Singular Feminine",
         "U": "a reference to a POSSESSOR of something who is a female a person being spoken or written to that something belongs to"
     },
     "S-2SNPM": {
-        "M": "Posessive pronoun 2nd Singular Nominative Plural Masculine",
+        "M": "Possessive pronoun 2nd Singular Nominative Plural Masculine",
         "U": "a reference to a POSSESSOR of something that are male persons being spoken or written to that are doing something"
     },
     "S-2SNPN": {
-        "M": "Posessive pronoun 2nd Singular Nominative Plural Neuter",
+        "M": "Possessive pronoun 2nd Singular Nominative Plural Neuter",
         "U": "a reference to POSSESSORS of something that are neuter persons being spoken or written to that are doing something"
     },
     "S-2SNSF": {
-        "M": "Posessive pronoun 2nd Singular Nominative Singular Feminine",
+        "M": "Possessive pronoun 2nd Singular Nominative Singular Feminine",
         "U": "a reference to a POSSESSOR of something who is a female a person being spoken or written to that is doing something"
     },
     "S-2SNSM": {
-        "M": "Posessive pronoun 2nd Singular Nominative Singular Masculine",
+        "M": "Possessive pronoun 2nd Singular Nominative Singular Masculine",
         "U": "a reference to a POSSESSOR of something who is a male a person being spoken or written to that is doing something"
     },
     "S-2SNSN": {
-        "M": "Posessive pronoun 2nd Singular Nominative Singular Neuter",
+        "M": "Possessive pronoun 2nd Singular Nominative Singular Neuter",
         "U": "a reference to a POSSESSOR of something who is a neuter person being spoken or written to that is doing something"
     },
     "T-APF": {
@@ -5952,16 +5952,16 @@
         "U": "an ACTION that was done to or for a neuter thing that is having something done to them"
     },
     "V-RMP-DPM": {
-        "M": "1 2 3 4 6 7 8 9",
-        "U": "an ACTION that was done to or for male people or things that is having something done for‚ or in relation to\" ,1243876"
+        "M": "Verb Perfect Middle Participle Dative Plural Masculine",
+        "U": "an ACTION that was done to or for male people or things that is having something done for‚ or in relation to"
     },
     "V-RMP-GPM": {
         "M": "Verb Perfect Middle Participle Genitive Plural Masculine",
         "U": "an ACTION that was done by a masculine person or thing that something belongs to"
     },
     "V-RMP-GSF": {
-        "M": "1 2 3 4 6 7 8 9",
-        "U": "an ACTION that was done to or for a female person or thing that is done for‚ or in relation to\" ,1243876"
+        "M": "Verb Perfect Middle Participle Genitive Singular Feminine",
+        "U": "an ACTION that was done to or for a female person or thing that is done for‚ or in relation to"
     },
     "V-RMP-NPF": {
         "M": "Verb Perfect Middle Participle Nominative Plural Feminine",

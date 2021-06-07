@@ -5,37 +5,20 @@ G33	ἄγε	to lead
 G39	ἅγιον	holy	
 G149	αἰσχρόν	shameful	
 G158	αἴτιον	reason for charge	
-G168	ἀκαθάρτης	uncleanness	
-G183	ἀκατάσχετος	uncontrollable	
-G300	Ἀμών	Amon	
 G334	ἀνάθημα	a vow offering	
-G348	ἀνακόπτω	to restrain	
 G445	ἀνθυπατεύω	to be proconsul	
 G471	ἀντεῖπον	to contradict	
-G481	ἀντικρύ	opposite	
 G534	ἀπαρτί	henceforth	
-G542	ἀπεῖδον	to fix one's eyes	
 G566	ἀπέχει	to receive/be far	
 G567	ἀπέχομαι	to receive/be far	
-G637	ἀποπλύνω	to wash off	
 G680	ἅπτω	to touch	
-G715	ἄρκτος	bear	
 G756	ἄρχομαι	to rule/begin	
-G821	ἀτιμόω	to disgrace	
 G848	αὑτοῦ	him/herself	
-G925	βαρύνω	to weigh down	
-G962	Βηθαβαρά	Bethabara	
-G1083	γέννησις	birth	
 G1094	γῆρας	old age	
-G1177	δεκαδύο	twelve	
 G1181	δεκάτη	tenth	
-G1196	δεσμέω	to shackle	
 G1222	δήπου	surely	
-G1232	διαγνωρίζω	to report	
-G1275	διαπαντός	always	
 G1302	διατί	why?	
 G1306	διαυγάζω	to shine through	
-G1307	διαφανής	transparent	
 G1399	δούλη	female slave	
 G1400	δοῦλον	slave	
 G1418	δυσ-	hard	
@@ -53,17 +36,10 @@ G1513	εἴπως	if somehow
 G1526	εἰσί	they are	
 G1527	εἷς καθ᾽ εἷς	one by one	
 G1536	εἴ τις	if any	
-G1547	ἐκγαμίζω	to marry	
-G1548	ἐκγαμίσκω	to give in marriage	
 G1647	ἐλαχιστότερος	least	
 G1691	ἐμέ	me	
 G1698	ἐμοί	I	
-G1749	ἔνεδρον	hinderance	
-G1827	ἐξελέγχω	to convict	
-G1897	ἐπείπερ	since	
-G1916	ἐπιβοάω	to cry out	
 G1970	ἐπιπνίγω	to choke	
-G1999	ἐπισύστασις, ἐπίστασις	insurrection	
 G2046	ἐρέω, ἐρῶ	to speak	
 G2067	ἔσθησις	clothing	
 G2070	ἐσμέν	we are	
@@ -81,7 +57,6 @@ G2254	ἡμῖν	to us
 G2257	ἡμῶν	of us	
 G2258	ἦν	was	
 G2277	ἤτω	let him/it be	
-G2442	ἱμείρω	to desire	
 G2444	ἱνατί	why?	
 G2467	ἴσημι	to know	
 G2468	ἴσθι	you should be	
@@ -95,17 +70,12 @@ G2547	κἀκεῖθεν	and from there
 G2548	κἀκεῖνος	and that one	
 G2568	Καλοὶ Λιμένες	Fair Havens	
 G2579	κἄν	and/even if	
-G2601	καταβιβάζω	to bring down	
-G2640	κατάλειμμα	remnant	
-G2651	καταμόνας	alone	
-G2735	κατόρθωμα	accomplishments	
 G2909	κρείττων	stronger	
 G3018	Λευΐς	Levi	
 G3112	μακράν	far	
 G3165	μέ	me	
 G3166	μεγαλαυχέω	to boast	
 G3176	μέγιστος	greatest	
-G3181	μεθόριος	boundary	
 G3185	μεῖζον	greater	
 G3186	μειζότερος	greatest	
 G3187	μείζων	greater	
@@ -122,22 +92,13 @@ G3397	μικρόν	little
 G3415	μνάομαι	to remember	
 G3427	μοί	to me	
 G3450	μοῦ	of me	
-G3459	μυλών	millhouse	
 G3496	Νεάπολις	Neapolis	
-G3535	Νινευΐ	Nineveh	
 G3569	τανῦν	now	
 G3603	ὅ ἐστι	which is	
 G3620	οἰκοδομία	edification	
-G3626	οἰκουρός	busy at home	
-G3698	ὁπότε	when(-ever)	
-G3721	ὄρθριος	morning	
-G3746	ὅσπερ	who	
 G3755	ὅτου	until	
 G3765	οὐκέτι	not any more	
 G3801	ο ων και ο ην και ο ερχομενος	was, is, will be	
-G3827	πάμπολυς	great	
-G3836	πανταχόθεν	from all sides	
-G3872	παρακαταθήκη	deposit	
 G4054	περισσότερον	more abundantly	
 G4113	πλατεῖα	wide street/road	
 G4162	ποίησις	doing	
@@ -147,8 +108,6 @@ G4235	πρᾶος	gentle
 G4236	πραότης	gentleness	
 G4275	προεῖδον	to foresee	
 G4315	προσάββατον	Friday	
-G4331	προσεγγίζω	to approach	
-G4384	προτάσσω	to predetermine	
 G4386	πρότερον	before	
 G4412	πρῶτον	first	
 G4452	πω	somehow	
@@ -161,8 +120,6 @@ G4671	σοί	you
 G4675	σοῦ	you	
 G4706	σπουδαιότερον	more diligently	
 G4707	σπουδαιότερος	more diligent	
-G4839	συμπαραμένω	to continue	
-G4877	συνάντησις	meeting	
 G4900	συνελαύνω	to urge	
 G5023	ταῦτα	this	
 G5024	ταὐτά	thus	
@@ -178,17 +135,12 @@ G5127	τούτου	of this
 G5128	τούτους	these	
 G5129	τούτῳ	to this	
 G5130	τούτων	of these	
-G5182	τυρβάζω	to upset	
 G5209	ὑμᾶς	you	
 G5210	ὑμεῖς	you	
 G5213	ὑμῖν	to you	
 G5216	ὑμῶν	of you	
 G5224	ὑπάρχοντα	possession	
 G5305	ὕστερον	later	
-G5332	φαρμακεύς	sorcerer	
-G5391	φιλόφρων	friendly	
-G5414	φόρτος	cargo	
-G5516	χξϛ	666	
 G5600	ὦ	may be	
 G5607	ὤν	being	
 G6004	ἀλλαχοῦ	elsewhere	
@@ -202,7 +154,6 @@ G6063	οἶδα	to know
 G6066	ὀλιγοπιστία	little faith	
 G6087	ὑπερεκπερισσοῦ	superabundantly	
 G6088	ὑπερλίαν	greatly	
-G6093	σιρός	pit	
 G6096	ἀποπληρόω	to satisfy	
 G6097	θρύπτω	to break	
 G6098	καταπίμπρημι	burnt	
@@ -735,7 +686,6 @@ G6628	ἀφορισμός	an offering
 G6629	ἀφρονέω	be unwise	
 G6630	ἀφρόνως	unwisely	
 G6631	ἀφυλάκτως	unguardedly	
-G6632	ἀφυστερέω	to withhold	
 G6633	αφφουσώθ	apart	
 G6634	ἀφφώ	now	
 G6635	ἀχάτης	agate	
@@ -3949,9 +3899,6 @@ G9985	Πύθιος	Pythius
 G9986	ὑσσός	javelin	
 G9987	περιραίνω	to sprinkle	
 G9989	ὅρος	boundary	
-G9990	ιβ	12	
-G9991	ρμδ	144	
-G9993	ἕλιγμα	wrapping	
 G20001	ἀβατόομαι	be made desert	
 G20002	ἀβοηθησία	helplessness	
 G20003	ἀβούλευτος	ill-advised.	
