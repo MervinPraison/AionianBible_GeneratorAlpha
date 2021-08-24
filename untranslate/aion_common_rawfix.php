@@ -19,6 +19,8 @@ if (!($bfile = preg_replace("/^## [^\n]*/us","", $bfile,-1,$rnum))) { AION_ECHO(
 // BEFORE REMOVE CHARACTERS
 if ('Holy-Bible---English---Trans-Trans'==$bible) {
 	if (!($bfile = preg_replace("/\[([[:punct:]]+)\]/us",'$1 ', $bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+	if (!($bfile = preg_replace("/\[[ ]+/us",'[', $bfile,-1,$rnum)) || $rnum!=37021) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+	if (!($bfile = preg_replace("/[ ]+\]/us",']', $bfile,-1,$rnum)) || $rnum!=316) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 }
 if ('Holy-Bible---French---French-Crampon-Bible'==$bible) {
 	if (!($bfile = preg_replace("/\*\*\* [^*]+\*\*\*/us",' ',$bfile,-1,$rnum)) || $rnum!=6) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -5834,8 +5836,8 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---German---German-Luther-Bible-1912" :
-if (!($bfile = preg_replace("/[[:punct:]]*‘[[:digit:]]+’[ ]*/us"," ",$bfile,-1,$rnum)) || $rnum!=120) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$bfile_saved = $bfile;
+//if (!($bfile = preg_replace("/[[:punct:]]*‘[[:digit:]]+’[ ]*/us"," ",$bfile,-1,$rnum)) || $rnum!=120) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+//$bfile_saved = $bfile;
 if (!($bfile = preg_replace("/518heeft/us","heeft",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 ISA 64:1 Ach daß du den Himmel zerrissest und führest herab, daß die Berge vor dir zerflössen,
@@ -12278,7 +12280,7 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Romanian---Bayash-Luke" :
-if (!($bfile = preg_replace("/ /us","",$bfile,-1,$rnum)) || $rnum!=15) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%E2%80%8A/1
+if (!($bfile = preg_replace("/ /us","",$bfile,-1,$rnum)) || $rnum!=10) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%E2%80%8A/1
 $bfile_saved = $bfile;	
 $bigfix = <<<EOF
 LUK 12:41 Petar atunšje lu ăntribat pă jăl: “Domnu spuj tu asta usporedbă păntru noj učenici, ili ăj păntru toc?”
@@ -12293,8 +12295,11 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Romanian---Ludari-Luke" :
-if (!($bfile = preg_replace("/ /us","",$bfile,-1,$rnum)) || $rnum!=6) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%E2%80%8A/1
-$bfile_saved = $bfile;	
+$bigfix = <<<EOF
+LUK 1:55 Jel ažutat alu argatu aluj, Izrael, baš kum adat obečală alu sămănca anuastră, alu Abraham š alu kupi aluj, k osă lji fije uvjek d milă.”
+LUK 1:56 
+EOF;
+if (!($bfile = preg_replace("/LUK 1:54 (.+?)LUK 1:56 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bigfix = <<<EOF
 LUK 17:37 Učenikurlje aluj l trjabă: “Domnulje, undje asta osă fije?” Isusu lji zăće: “Undje zaće lumja muartă, ăn klo s sakupjaštje lešinari.”
 LUK 18:1 
@@ -12331,14 +12336,6 @@ LUK 23:51 Ov inele šukar hem pravedno manuš kova adžićeri ine e Mesija te an
 LUK 23:52 
 EOF;
 if (!($bfile = preg_replace("/LUK 23:50 (.+?)LUK 23:52 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-goto RAWHIDE;
-
-
-
-
-// RAWFIX BIBLE ********************
-case "Holy-Bible---Romani-Vlax---Chergash-Luke" :
-if (!($bfile = preg_replace("/_/us"," ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 

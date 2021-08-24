@@ -136,8 +136,11 @@ function AION_FILE_DATA_GET( $file, $table, &$result, $key, $flip ) {
 }
 function AION_FILE_DATA_PUT( $file, $result, $comments_more=NULL ) {
 	if ( !is_array( $result ) ) {									AION_ECHO('ERROR! AION_FILE_DATA_PUT !is_array(result) '.$file); }
-	$first = reset( $result );
-	if ( !is_array( $first ) ) {									AION_ECHO('ERROR! AION_FILE_DATA_PUT !is_array(first) '.$file); }
+	foreach($result as $first) {
+		if ( !is_array( $first ) ) {								AION_ECHO('ERROR! AION_FILE_DATA_PUT !is_array(first) '.$file); }
+		$one = reset($first);
+		if ($one[0]!='#') { break; }
+	}
 	// build the header
 	$header = FALSE;
 	foreach( $first as $key => $value ) { if ($header===FALSE) { $header .= $key; } else { $header .= "\t".$key; } }
@@ -607,8 +610,8 @@ function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $ski
 		'source'	=> $source,
 		'uniusage'	=> $uniusage,
 		'include'	=> '/---Source-Edition\.(NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
-		//'include'	=> '/Holy-Bible---[G-Z](.*?)---Source-Edition\.(NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
-		//'include'	=> '/Holy-Bible---.*(Savli).*---Source-Edition\.(NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
+		//'include'	=> '/Holy-Bible---[R-Z](.*?)---Source-Edition\.(NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
+		//'include'	=> '/Holy-Bible---English---Trans-Trans---Source-Edition\.(NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		'destiny'	=> $destiny,
 		'raw_orig'	=> $raw_orig,
 		'raw_fixed'	=> $raw_fixed,
@@ -818,12 +821,27 @@ function AION_LOOP_CONV_DOIT($args) {
 		$lineL = $line2;
 	}
 	$args['database']['T_TALLY'][$bible] = array('BIBLE'=>$bible,'AIONIAN'=>count($data),'STANDARD'=>count($data),'SOURCE'=>count($data_orig));
+	$data = AION_BIBLES_INSERT_BOOKS($data,$args['database']['T_BOOKS']['ENGLISH'],$args['database']['T_BOOKS'][$bible],$args['database']['T_BOOKS']['CODE']);
 	AION_FILE_DATA_PUT($output,$data,AION_BIBLES_COMMENT_MORE($args['database']['T_VERSIONS'][$bible],'Standard'));
 	AION_unset($data); $data=NULL; unset($data);
+	$data_orig = AION_BIBLES_INSERT_BOOKS($data_orig,$args['database']['T_BOOKS']['ENGLISH'],$args['database']['T_BOOKS'][$bible],$args['database']['T_BOOKS']['CODE']);
 	AION_FILE_DATA_PUT($output_orig,$data_orig,AION_BIBLES_COMMENT_MORE($args['database']['T_VERSIONS'][$bible],'Source'));
 	AION_unset($data_orig); $data_orig=NULL; unset($data_orig);
 	AION_unset($reverse); $reverse=NULL; unset($reverse);
 	AION_ECHO('CONVERTED '.$args['filepath'].' to '.$output.' byte='.$byte.' rows='.$rows);
+}
+function AION_BIBLES_INSERT_BOOKS($data,$english,$foreign,$codes) {
+	$data2 = array();
+	$current = NULL;
+	foreach($data as $verse) {
+		if ($current != $verse['BOOK']) {
+			$data2[] = array("#");
+			$data2[] = array("# BOOK",$verse['INDEX'],$verse['BOOK'],$english[array_search($verse['BOOK'],$codes)],$foreign[array_search($verse['BOOK'],$codes)]);
+			$current = $verse['BOOK'];
+		}
+		$data2[] = $verse;
+	}
+	return $data2;
 }
 function AION_BIBLES_REVISE($bible,$numb,$book,$chap,$vers,&$text) {
 	if ($bible!='Holy-Bible---English---King-James-Version-Updated' && $numb==41 && $book=='MAR' && $chap==16 && $vers==9) {
@@ -2747,6 +2765,7 @@ function aion_utf8_chr ($ord)
 function AION_LOOP_AION($source, $destiny, $destiny_json) {
 	$database = array();
 	AION_FILE_DATA_GET( './aion_database/UNTRANSLATEMODULE.txt', 'T_UNTRANSLATEMODULE', $database, FALSE, FALSE );
+	AION_FILE_DATA_GET( './aion_database/BOOKS.txt', 'T_BOOKS', $database, 'BIBLE', FALSE );
 	AION_FILE_DATA_GET(	'./aion_database/VERSIONS.txt',	'T_VERSIONS', $database, 'BIBLE', FALSE );
 	AION_LOOP( array(
 		'function'	=> 'AION_LOOP_AION_DOIT',
@@ -2809,6 +2828,7 @@ function AION_LOOP_AION_DOIT($args) {
 		++$changes;
 		AION_unset($verse); $verse=NULL; unset($verse);
 	}
+	$database['T_BIBLE'] = AION_BIBLES_INSERT_BOOKS($database['T_BIBLE'],$args['database']['T_BOOKS']['ENGLISH'],$args['database']['T_BOOKS'][$bible],$args['database']['T_BOOKS']['CODE']);
 	AION_FILE_DATA_PUT($output,$database['T_BIBLE'],AION_BIBLES_COMMENT_MORE($args['database']['T_VERSIONS'][$bible],'Aionian'));
 	if ( file_put_contents($json,json_encode($aionian_verses, JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE)) === FALSE ) { AION_ECHO("ERROR! AIONIAN_VERSES file_put_contents ".$json ); }
 	AION_unset($database); $database=NULL; unset($database);
@@ -3046,25 +3066,25 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker = array();
 	$grandmarker['BIBLE_COUNT']	= $grandtotal['BIBLE_COUNT']-214;
 	$grandmarker['LANG_COUNT']	= $grandtotal['LANG_COUNT']-98;
-	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-5576;
+	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-5582;
 	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-5076;
-	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-182976;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-4828209;
-	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-47070;
+	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-183143;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-4832947;
+	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-47074;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-260;
-	$grandmarker['LONG']		= $grandtotal['LONG']-824;
+	$grandmarker['LONG']		= $grandtotal['LONG']-828;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-0;
-	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-1847;
+	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-1850;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-733;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-10389;
-	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-10505;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-10390;
+	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-10571;
 	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-7864;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-518;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-539;
 	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-602;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-110986;
-	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-23096;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-2510.14;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-120298;
+	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-24884;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-2696.38;
 	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-97;
 	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-58;
 	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-205;
@@ -3758,7 +3778,7 @@ function AION_LOOP_HTMS_DOIT($args) {
 	$NOTFIXED = ($NOTFIXED == 0 ? $NOTFIXED : "<span style='font-weight:bold; color:red;'>$NOTFIXED</span>" );
 	$REVE_NO = ($REVE_NO == 0 ? $REVE_NO : "<span style='font-weight:bold; color:red;'>$REVE_NO</span>" );
 	$REVE_EX = ($REVE_EX == 0 ? $REVE_EX : "<span style='font-weight:bold; color:red;'>$REVE_EX</span>" );
-	$PDFPA = ($PDFPA <= 0 ? "" : ($PDFPA <= 700 ? $PDFPA : "<span style='font-weight:bold; color:red;'>$PDFPA</span>"));
+	$PDFPA = ($PDFPA <= 0 ? "" : ($PDFPA <= 790 ? $PDFPA : "<span style='font-weight:bold; color:red;'>$PDFPA</span>"));
 	$PDFPN = ($PDFPN <= 0 ? "" : ($PDFPN <= 229 ? $PDFPN : "<span style='font-weight:bold; color:red;'>$PDFPN</span>"));
 	$PDFPIF = sprintf("%.2f",$PDFPI);
 	$PDFPIF = ($PDFPI <= 0 ? "" : ($PDFPI <= 18 ? $PDFPIF : "<span style='font-weight:bold; color:red;'>$PDFPIF</span>"));

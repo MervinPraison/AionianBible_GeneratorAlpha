@@ -2,8 +2,8 @@
 <?php
 
 // FLAGS
-$DOTHECOUNTCHECKER = TRUE;
-//$DOTHECOUNTCHECKER = FALSE;
+//$DOTHECOUNTCHECKER = TRUE;
+$DOTHECOUNTCHECKER = FALSE;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // INIT
@@ -18,18 +18,18 @@ $strongs_json_flag = (JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE);
 // FILENAMES and README
 // input
 $INPUT_VIZBI = "./aion_strongs/Viz-Strongs.csv";
-$INPUT_TBESG = "./aion_strongs/TBESG - Tyndale Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt";
-$INPUT_TFLS1 = "./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon 0-5624 - STEPBible.org CC BY.txt";
-$INPUT_TFLS2 = "./aion_strongs/TFLSJ - Tyndale Formatted full LSJ Bible lexicon extra - STEPBible.org CC BY.txt";
-$INPUT_TEGMC = "./aion_strongs/TEGMC - Tyndale Expansion of Greek Morphhology Codes - STEPBible.org CC BY.txt";
+$INPUT_TBESG = "./aion_strongs/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt";
+$INPUT_TFLS1 = "./aion_strongs/TFLSJ  0-5624 - Translators Formatted full LSJ Bible lexicon - STEPBible.org CC BY.txt";
+$INPUT_TFLS2 = "./aion_strongs/TFLSJ extra - Translators Formatted full LSJ Bible lexicon - STEPBible.org CC BY.txt";
+$INPUT_TEGMC = "./aion_strongs/TEGMC - Translators Expansion of Greek Morphhology Codes - STEPBible.org CC BY.txt";
 $INPUT_TAGN1 = "./aion_strongs/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt";
 $INPUT_TAGN2 = "./aion_strongs/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt";
-$INPUT_TBESH = "./aion_strongs/TBESH - Tyndale Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt";
-$INPUT_TEHMC = "./aion_strongs/TEHMC - Tyndale Expansion of Hebrew Morphhology Codes - STEPBible.org CC BY.txt";
-$INPUT_TOTH1 = "./aion_strongs/TOTHT - Tyndale OT Hebrew Tagged text Gen-Deu - TyndaleHouse.com STEPBible.org CC BY-NC.txt";
-$INPUT_TOTH2 = "./aion_strongs/TOTHT - Tyndale OT Hebrew Tagged text Jos-Est - TyndaleHouse.com STEPBible.org CC BY-NC.txt";
-$INPUT_TOTH3 = "./aion_strongs/TOTHT - Tyndale OT Hebrew Tagged text Job-Sng - TyndaleHouse.com STEPBible.org CC BY-NC.txt";
-$INPUT_TOTH4 = "./aion_strongs/TOTHT - Tyndale OT Hebrew Tagged text Isa-Mal - TyndaleHouse.com STEPBible.org CC BY-NC.txt";
+$INPUT_TBESH = "./aion_strongs/TBESH - Translators Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt";
+$INPUT_TEHMC = "./aion_strongs/TEHMC - Translators Expansion of Hebrew Morphology Codes - STEPBible.org CC BY.txt";
+$INPUT_TOTH1 = "./aion_strongs/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt";
+$INPUT_TOTH2 = "./aion_strongs/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt";
+$INPUT_TOTH3 = "./aion_strongs/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt";
+$INPUT_TOTH4 = "./aion_strongs/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt";
 // checks
 $CHECK_BOOK = "./aion_strongs/CHECK_BOOKS.txt";
 $CHECK_STRG = "./aion_strongs/CHECK_STRONGS.txt";
@@ -491,6 +491,7 @@ $commentplus = <<<EOT
 #		"ESV"		=> "English Standard Version",
 #		"Goodnews"	=> "Goodnews",
 #		"KJV"		=> "King James Version",
+#		"NA26"		=> "Nestle/Aland 26th Edition",
 #		"NA27"		=> "Nestle/Aland 27th Edition",
 #		"NA28"		=> "Nestle/Aland 28th Edition, not ECM",
 #		"NIV"		=> "New International Version",
@@ -1387,6 +1388,7 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 					"ESV"		=> "English Standard Version",
 					"Goodnews"	=> "Goodnews",
 					"KJV"		=> "King James Version",
+					"NA26"		=> "Nestle/Aland 26th Edition",
 					"NA27"		=> "Nestle/Aland 27th Edition",
 					"NA28"		=> "Nestle/Aland 28th Edition, not ECM",
 					"NIV"		=> "New International Version",

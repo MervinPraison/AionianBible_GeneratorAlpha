@@ -24,6 +24,7 @@ foreach($files as $file) {
 }
 
 
+
 // loop Aionian Bible PDF
 $files = array_diff(scandir('../www-stageresources'), array('.', '..'));
 foreach($files as $file) {

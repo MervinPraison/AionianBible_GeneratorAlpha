@@ -1,6 +1,6 @@
 # File Name: RAWCHECK.txt
-# File Size: 3169983     
-# File Date: 06/04/2021 13:27:42
+# File Size: 3169989     
+# File Date: 08/20/2021 16:28:00
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: http://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2021
@@ -1638,7 +1638,7 @@ Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	019	ADD	I will give to y
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	020	MODIFY	Then he commanded the disciples that they should tell no one that he is the Christ.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	021	ADD	From that time, Jesus began to show his disciples that he must go to Jerusalem and suffer many things from the elders, chief priests, and scribes, and be killed, and the third day be raised up.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	022	ADD	Peter took him aside, and began to rebuke him, saying, "Far be it from you, Lord. This will never be done to you."	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	023	MODIFY	But he turned, and said to Peter, "Get behind me, Satan. You are a stumbling block to me, for you are not setting your mind on the things of God, but on the things of man."	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	023	MODIFY	But he turned, and said to Peter, "Get behind me, Satan. You are a stumbling block to me, for you are not setting your mind on the things of God, but on the things of humans."	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	024	ADD	Then Jesus said to his disciples, "If anyone desires to come after me, let him deny himself, and take up his cross, and follow me.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	025	ADD	For whoever desires to save his life will lose it, and whoever will lose his life for my sake will find it.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	026	ADD	For what will it profit a person, if he gains the whole world, and forfeits his life? Or what will a person give in exchange for his life?	
@@ -9173,7 +9173,8 @@ Holy-Bible---Romani-Vlax---Arli-Luke	042	LUK	009	030	MODIFY	I dikh, nekotar ikli
 Holy-Bible---Romani-Vlax---Arli-Luke	042	LUK	009	031	ADD	On vaćerde e meribnastar savo adžićeri ano Jerusalim e Isuse.	
 Holy-Bible---Romani-Vlax---Arli-Luke	042	LUK	023	050	MODIFY	Inele jekh manuš palo anav Josif tari Arimateja, diz ani Judeja.	Inele jekh manuš palo anav Josif tari Arimateja, diz ani Judeja. Ov inele šukar hem pravedno manuš kova adžićeri ine e Mesija te anel o carstvo e Devlesoro. Iako inele člano oto e jevrejengoro odbor, na složinđa pe adaleja so inele odlučime te roden o Isus te ovel mudardo.
 Holy-Bible---Romani-Vlax---Arli-Luke	042	LUK	023	051	ADD	Ov inele šukar hem pravedno manuš kova adžićeri ine e Mesija te anel o carstvo e Devlesoro. Iako inele člano oto e jevrejengoro odbor, na složinđa pe adaleja so inele odlučime te roden o Isus te ovel mudardo.	
-Holy-Bible---Romani-Vlax---Chergash-Luke	042	LUK	010	022	MODIFY	Mungro Dad sa dijas manđ thaj khonik či džanel ko si o Čhavo, nego samo o Dad; niti ko si o Dad  osim o Čhavo osim okova kašće o Čhavo godova kamel te objavisarel.”	Mungro Dad sa dijas manđ thaj khonik či džanel ko si o Čhavo, nego samo o Dad; niti ko si o Dad_ osim o Čhavo osim okova kašće o Čhavo godova kamel te objavisarel.”
+Holy-Bible---Romanian---Ludari-Luke	042	LUK	001	054	DELETE	Jel ažutat alu argatu aluj, Izrael, baš kum adat obečală alu sămănca anuastră, alu Abraham š alu kupi aluj, k osă lji fije uvjek d milă.”	
+Holy-Bible---Romanian---Ludari-Luke	042	LUK	001	055	ADD	Jel ažutat alu argatu aluj, Izrael, baš kum adat obečală alu sămănca anuastră, alu Abraham š alu kupi aluj, k osă lji fije uvjek d milă.”	
 Holy-Bible---Romanian---Ludari-Luke	042	LUK	017	036	DELETE	Učenikurlje aluj l trjabă: “Domnulje, undje asta osă fije?” Isusu lji zăće: “Undje zaće lumja muartă, ăn klo s sakupjaštje lešinari.”	
 Holy-Bible---Romanian---Ludari-Luke	042	LUK	017	037	ADD	Učenikurlje aluj l trjabă: “Domnulje, undje asta osă fije?” Isusu lji zăće: “Undje zaće lumja muartă, ăn klo s sakupjaštje lešinari.”	
 Holy-Bible---Romanian---Ludari-Luke	042	LUK	023	017	DELETE	Ali toc ăn unu glas astrigat: “P jel umuară, a lasinje p Baraba!”	

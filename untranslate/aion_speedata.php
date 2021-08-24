@@ -36,7 +36,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Dombe|Nestle|Boyd|Tisch|Treg).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aleppo|Scots).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Arabic|Aramaic|Hebrew|Persian).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Arabic|Peshitta|Aleppo|Persian|Hindi|Bengali|Assamese|Aionian-Bible|Spanish---Free-Bible).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Gujarati|Aionian-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Heart|Romani|World|Boyd).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic|Aionian-Bible|Spanish---Free-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Peshitta).*---Aionian-Edition\.noia$/",
@@ -50,8 +50,8 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(LXX|Khan).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/(Holy-Bible---Latvian---Latvian-Gluck-Bible|Holy-Bible---Japanese---Japanese-Yougo-yaku)---Aionian-Edition\.noia$/",
 		//'include'	=> "/.*Arapaho.*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(English---Trans-Trans)---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(English---Trans-Trans|Spanish---Free-Bible|Greek-Textus-Receptus-Boyd|Greek-Tischendorf|Greek-Nestle|Greek-Majority-Text|English---Webster-Bible)---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Luther-Bible-1545)---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Statenvertaling|Kougo-yaku).*---Aionian-Edition\.noia$/",
 		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
@@ -659,7 +659,6 @@ $language	= trim(!empty($forprint['LANGUAGE'])	? $forprint['LANGUAGE']		: $defau
 $langspeed	= trim(!empty($forprint['LANGSPEED'])	? "language='".$forprint['LANGSPEED']."'"	: ""		);
 $langchap	= trim(!empty($forprint['LANGCHAP'])	? "language='".$forprint['LANGCHAP']."'"	: ""		);
 $yesnew		= trim(!empty($forprint['YESNEW'])		? $forprint['YESNEW']		: $default['YESNEW']		);
-$margin		= trim(!empty($forprint['MARGIN'])		? $forprint['MARGIN']		: $default['MARGIN']		);
 $rtl		= trim(!empty($forprint['RTL'])			? $forprint['RTL']			: $default['RTL']			);
 $hyphen		= trim(!empty($forprint['HYPHEN'])		? $forprint['HYPHEN']		: $default['HYPHEN']		);
 $font		= trim(!empty($forprint['FONT'])		? $forprint['FONT']			: $default['FONT']			);
@@ -1081,28 +1080,28 @@ else if ($format=="STUDY") {
 	$COLUMN_LEFT_COLUMN		= '1';			$COLUMN_LEFT_WIDTH		= '56';			$COLUMN_LEFT_HEIGHT		= '140';
 	$BOTTOM_ROW				= '142';		$BOTTOM_WIDTH			= '50';			$BOTTOM_CENTER			= '51';
 }
-else if ($margin=='XXX ARABIC') {
-	$MARGIN_RIGHT_LEFT		= '0.96875in';	$MARGIN_RIGHT_RIGHT		= '0.34375in';	$MARGIN_RIGHT_TOP		= '0.3125in';	$MARGIN_RIGHT_BOTTOM	= '0.3125in';
-	$MARGIN_LEFT_LEFT		= '0.34375in';	$MARGIN_LEFT_RIGHT		= '0.96875in';	$MARGIN_LEFT_TOP		= '0.3125in';	$MARGIN_LEFT_BOTTOM		= '0.3125in';
-	$COLUMN_LEFT_COLUMN		= '1';			$COLUMN_LEFT_WIDTH		= '36';			$COLUMN_LEFT_HEIGHT		= '130';
-	$COLUMN_RIGHT_COLUMN	= '40';			$COLUMN_RIGHT_WIDTH		= '36';			$COLUMN_RIGHT_HEIGHT	= '130';
-	$BOTTOM_ROW				= '132';		$BOTTOM_RIGHT_RIGHT		= '40';			$BOTTOM_WIDTH			= '36';			$BOTTOM_CENTER			= '37';
+else if ($rtl=='TRUE') { // margins flipped
+	$MARGIN_SINGLE_INSIDE	= '0.875in';
+	$MARGIN_SINGLE_WIDTH	= '77';
+	$MARGIN_MAPS_WIDTH		= '69';
+	$MARGIN_MAPS_WIDTH_TIME	= '77';
+	$MARGIN_MAPS_COLUMN		= '71';
+	$REFER_SINGLE_INSIDE	= '0.3125in';	$REFER_SINGLE_OUTSIDE	= '0.875in';
+	$MARGIN_RIGHT_LEFT		= '0.3125in';	$MARGIN_RIGHT_RIGHT		= '0.875in';	$MARGIN_RIGHT_TOP		= '0.3125in';	$MARGIN_RIGHT_BOTTOM	= '0.3125in';
+	$MARGIN_LEFT_LEFT		= '0.875in';	$MARGIN_LEFT_RIGHT		= '0.3125in';	$MARGIN_LEFT_TOP		= '0.3125in';	$MARGIN_LEFT_BOTTOM		= '0.3125in';
+	$COLUMN_LEFT_COLUMN		= '1';			$COLUMN_LEFT_WIDTH		= '38';			$COLUMN_LEFT_HEIGHT		= '130';
+	$COLUMN_RIGHT_COLUMN	= '40';			$COLUMN_RIGHT_WIDTH		= '38';			$COLUMN_RIGHT_HEIGHT	= '130';
+	$BOTTOM_ROW				= '132';		$BOTTOM_RIGHT_RIGHT		= '42';			$BOTTOM_WIDTH			= '36';			$BOTTOM_CENTER			= '38';
+	$TITLEJUSTIFICATION		= "left";
+	$page1colright			= "page1colleft";
+	$page1colleft			= "page1colright";
+	$page1colrightrotated	= "page1colleftrotated";
+	$page1colleftrotated	= "page1colrightrotated";
+	$pref1colright			= "pref1colleft";
+	$pref1colleft			= "pref1colright";
+	$TITLEJUSTIFICATION		= "left";
 }
-else if ($margin=='XXX HEBREW') {
-	$MARGIN_RIGHT_LEFT		= '0.96875in';	$MARGIN_RIGHT_RIGHT		= '0.34375in';	$MARGIN_RIGHT_TOP		= '0.375in';	$MARGIN_RIGHT_BOTTOM	= '0.375in';
-	$MARGIN_LEFT_LEFT		= '0.34375in';	$MARGIN_LEFT_RIGHT		= '0.96875in';	$MARGIN_LEFT_TOP		= '0.375in';	$MARGIN_LEFT_BOTTOM		= '0.375in';
-	$COLUMN_LEFT_COLUMN		= '1';			$COLUMN_LEFT_WIDTH		= '36';			$COLUMN_LEFT_HEIGHT		= '128';
-	$COLUMN_RIGHT_COLUMN	= '40';			$COLUMN_RIGHT_WIDTH		= '36';			$COLUMN_RIGHT_HEIGHT	= '128';
-	$BOTTOM_ROW				= '130';		$BOTTOM_RIGHT_RIGHT		= '40';			$BOTTOM_WIDTH			= '36';			$BOTTOM_CENTER			= '37';
-}
-else if ($margin=='XXX COPTIC') {
-	$MARGIN_RIGHT_LEFT		= '0.90625in';	$MARGIN_RIGHT_RIGHT		= '0.46875in';	$MARGIN_RIGHT_TOP		= '0.3125in';	$MARGIN_RIGHT_BOTTOM	= '0.3125in';
-	$MARGIN_LEFT_LEFT		= '0.46875in';	$MARGIN_LEFT_RIGHT		= '0.90625in';	$MARGIN_LEFT_TOP		= '0.3125in';	$MARGIN_LEFT_BOTTOM		= '0.3125in';
-	$COLUMN_LEFT_COLUMN		= '1';			$COLUMN_LEFT_WIDTH		= '36';			$COLUMN_LEFT_HEIGHT		= '130';
-	$COLUMN_RIGHT_COLUMN	= '39';			$COLUMN_RIGHT_WIDTH		= '36';			$COLUMN_RIGHT_HEIGHT	= '130';
-	$BOTTOM_ROW				= '132';		$BOTTOM_RIGHT_RIGHT		= '40';			$BOTTOM_WIDTH			= '35';			$BOTTOM_CENTER			= '37';
-}
-else if ($margin=='G0875') {
+else {
 	$MARGIN_SINGLE_INSIDE	= '0.875in';
 	$REFER_SINGLE_INSIDE	= '0.875in';
 	$MARGIN_SINGLE_WIDTH	= '77';
@@ -1114,29 +1113,6 @@ else if ($margin=='G0875') {
 	$COLUMN_LEFT_COLUMN		= '1';			$COLUMN_LEFT_WIDTH		= '38';			$COLUMN_LEFT_HEIGHT		= '130';
 	$COLUMN_RIGHT_COLUMN	= '40';			$COLUMN_RIGHT_WIDTH		= '38';			$COLUMN_RIGHT_HEIGHT	= '130';
 	$BOTTOM_ROW				= '132';		$BOTTOM_RIGHT_RIGHT		= '42';			$BOTTOM_WIDTH			= '36';			$BOTTOM_CENTER			= '38';
-}
-else if ($rtl=='TRUE') { // margins flipped
-	$REFER_SINGLE_INSIDE	= '0.3125in';	$REFER_SINGLE_OUTSIDE	= '0.8125in';
-	$MARGIN_RIGHT_LEFT		= '0.3125in';	$MARGIN_RIGHT_RIGHT		= '0.8125in';	$MARGIN_RIGHT_TOP		= '0.3125in';	$MARGIN_RIGHT_BOTTOM	= '0.3125in';
-	$MARGIN_LEFT_LEFT		= '0.8125in';	$MARGIN_LEFT_RIGHT		= '0.3125in';	$MARGIN_LEFT_TOP		= '0.3125in';	$MARGIN_LEFT_BOTTOM		= '0.3125in';
-	$COLUMN_LEFT_COLUMN		= '1';			$COLUMN_LEFT_WIDTH		= '38';			$COLUMN_LEFT_HEIGHT		= '130';
-	$COLUMN_RIGHT_COLUMN	= '41';			$COLUMN_RIGHT_WIDTH		= '38';			$COLUMN_RIGHT_HEIGHT	= '130';
-	$BOTTOM_ROW				= '132';		$BOTTOM_RIGHT_RIGHT		= '42';			$BOTTOM_WIDTH			= '37';			$BOTTOM_CENTER			= '39';
-	$TITLEJUSTIFICATION		= "left";
-	$page1colright			= "page1colleft";
-	$page1colleft			= "page1colright";
-	$page1colrightrotated	= "page1colleftrotated";
-	$page1colleftrotated	= "page1colrightrotated";
-	$pref1colright			= "pref1colleft";
-	$pref1colleft			= "pref1colright";
-	$TITLEJUSTIFICATION		= "left";
-}
-else {
-	$MARGIN_RIGHT_LEFT		= '0.8125in';	$MARGIN_RIGHT_RIGHT		= '0.3125in';	$MARGIN_RIGHT_TOP		= '0.3125in';	$MARGIN_RIGHT_BOTTOM	= '0.3125in';
-	$MARGIN_LEFT_LEFT		= '0.3125in';	$MARGIN_LEFT_RIGHT		= '0.8125in';	$MARGIN_LEFT_TOP		= '0.3125in';	$MARGIN_LEFT_BOTTOM		= '0.3125in';
-	$COLUMN_LEFT_COLUMN		= '1';			$COLUMN_LEFT_WIDTH		= '38';			$COLUMN_LEFT_HEIGHT		= '130';
-	$COLUMN_RIGHT_COLUMN	= '41';			$COLUMN_RIGHT_WIDTH		= '38';			$COLUMN_RIGHT_HEIGHT	= '130';
-	$BOTTOM_ROW				= '132';		$BOTTOM_RIGHT_RIGHT		= '42';			$BOTTOM_WIDTH			= '37';			$BOTTOM_CENTER			= '39';
 }
 // RTL tune up, footer book opposite side
 $BOTTOM_LEFT_LEFT = 1;

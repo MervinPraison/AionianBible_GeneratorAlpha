@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 484221      
-# File Date: 06/04/2021 15:18:21
+# File Size: 484216      
+# File Date: 08/20/2021 18:40:06
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: http://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2021
@@ -196,13 +196,13 @@ Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	ROM-001-001	Rom 1:1	Pawl, 
 Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	MAT-028-019	Mathai 28:19	To pongah caeh oh loe, acaengnawk boih to patuk oh, nihcae to Ampa, Capa, Kacai Muithla ih ahmin hoiah tuinuemhaih to paek oh:
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	JOH-003-016	Johan 3:16	Pathen loh Diklai a lungnah tangloeng tih khueh duen capa te a paek.  Amah aka tangnah boeih tah poci pawt vetih dungyan hingnah a dang ni.
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	GEN-003-024	Suencuek 3:24	Hlang te khaw a haek coeng tih hingnah thingkung longpuei aka hung ham cherubim neh hmaitak cunghang aka tinghil te Eden dum kah khothoeng ah a khueh.
-Holy-Bible---Chin-Matu---Matupi-Chin-Bible	LUK-023-034	Luka 23:34	Te vaengah Jesuh loh, “A pa, amih he tholh hlah mai, a saii uh he khaw a ming uh moenih,” a ti.  Te phoeiah a himbai te a phen uh tih hmulung a naan thil uh.
+Holy-Bible---Chin-Matu---Matupi-Chin-Bible	LUK-023-034	Luka 23:34	Te vaengah Jesuh loh, “A pa, amih he tholh hlah mai, a saii uh he khaw a ming uh moenih,” a ti.  Te phoeiah a himbai te a phen uh tih hmulung a naan thiluh.
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	REV-021-002	Olphong 21:2-3	A cim kho thai Jerusalem te khaw a va ham aka rhuengphong tih aka thoeihcam vasakung bangla vaan Pathen taeng lamkah ha suntla te ka hmuh. Te vaengah ngolkhoel lamkah ol ue ka yaak.  “Pathen kah dap tah hlang rhoek taengah om coeng ke.  Te dongah amih taengah rhaeh vetih amih khaw a pilnam la om uh ni.  Pathen amah khaw amih taengah om vetih amih kah Pathen la om ni.
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	HEB-011-008	Hebru 11:8	Tangnah neh a khue vaengah rho la pang aka cai hmuen te paan ham Abraham loh a ngai.  Te vaengah mela a caeh khaw a ming mueh lam ni a caeh.
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	EXO-013-017	Sunglatnah 13:17	Pharaoh loh pilnam te a hlah coeng dae Pathen loh, “Pilnam he caemtloeknah a hmuh vaengah hal vetih Egypt la mael ve,” a ti.  Te dongah amih te Pathen loh Philisti kho kah longpuei longah pat mawt pawh.
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	MAR-010-045	Marku 10:45	Hlang capa tah hlang thotat sak ham pawt tih sak ham pah ham neh a hinglu te ping kah tlansum la paek ham ni halo,” a ti nah.
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	ROM-001-001	Rom 1:1	Jesuh Khrih kah sal, caeltueih la a khue tih Pathen kah olthangthen ham a coelh kai Paul,
-Holy-Bible---Chin-Matu---Matupi-Chin-Bible	MAT-028-019	Matthai 28:19	Te dongah cet uh lamtah namtom boeih te ham bang sak uh.  Amih te Pa, Capa, Cim Mueihla kah ming neh nuem uh.
+Holy-Bible---Chin-Matu---Matupi-Chin-Bible	MAT-028-019	Matthai 28:19	Te dongah cet uh lamtah namtom boeih te ham bang sakuh.  Amih te Pa, Capa, Cim Mueihla kah ming neh nuem uh.
 Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible	JOH-003-016	Johan 3:16	U awm amah ak cangnaak boeih am qeeng kawmsaw kumqui hqingnaak a taaknaak thai aham, Khawsa ing khawmdek a lungnaak awh a Capa a taak dyyn ce pehy.
 Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible	GEN-003-024		
 Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible	LUK-023-034	Luke 23:34	Jesu ing, “Kapa, a mingmih ak khan awh qeenkhaw ngai lah, ikaw kami sai ti am sim unawh ni,” tina hy.  A hi ce taicung zyk unawh tei uhy.
@@ -526,7 +526,7 @@ Holy-Bible---English---New-Heart-Messianic	HEB-011-008	Hebrews 11:8	By faith, Ab
 Holy-Bible---English---New-Heart-Messianic	EXO-013-017	Exodus 13:17	It happened, when Pharaoh had let the people go, that God did not lead them by the way of the land of the Philistines, although that was near; for God said, "Lest perhaps the people change their minds when they see war, and they return to Egypt;"
 Holy-Bible---English---New-Heart-Messianic	MAR-010-045	Mark 10:45	For the Son of Man also did not come to be served, but to serve, and to give his life as a ransom for many."
 Holy-Bible---English---New-Heart-Messianic	ROM-001-001	Romans 1:1	Paul, a servant of Messiah Yeshua, called to be an emissary, set apart for the Good News of God,
-Holy-Bible---English---New-Heart-Messianic	MAT-028-019	Matthew 28:19	Therefore go, and make talmidim of all nations, immersing them in the name of the Father and of the Son and of the Holy Spirit,
+Holy-Bible---English---New-Heart-Messianic	MAT-028-019	Matthew 28:19	Therefore go, and make talmidim of all nations, immersing them in the name of the Father and of the Son and of the Ruach ha-Kodesh,
 Holy-Bible---English---New-Heart-Standard	JOH-003-016	John 3:16	For God so loved the world that he gave his only Son, so that whoever believes in him will not perish, but have everlasting life.
 Holy-Bible---English---New-Heart-Standard	GEN-003-024	Genesis 3:24	So he drove out the man; and he stationed the cherubim at the east of the garden of Eden, and a flaming sword which turned every direction, to guard the way to the tree of life.
 Holy-Bible---English---New-Heart-Standard	LUK-023-034	Luke 23:34	And Jesus said, "Father, forgive them, for they do not know what they are doing."  Dividing his garments among them, they cast lots.
@@ -1600,7 +1600,7 @@ Holy-Bible---Romanian---Bayash-Luke	ROM-001-001
 Holy-Bible---Romanian---Bayash-Luke	MAT-028-019		
 Holy-Bible---Romanian---Ludari-Luke	JOH-003-016		
 Holy-Bible---Romanian---Ludari-Luke	GEN-003-024		
-Holy-Bible---Romanian---Ludari-Luke	LUK-023-034	Luka 23:34	Isusu azăs: “Tato ăn čerj, oprostjaštălje k nuštije će fače!”  Vuastja atunča arunkat kockă te aša podjeljaštje cualjilje alu Isusuluj ăntră je.
+Holy-Bible---Romanian---Ludari-Luke	LUK-023-034	Luka 23:34	Isusu sa rugat: “Tato, oprostjaštălje k nuštije će fače!”  Vuastja atunča arunkat kockă te aša podjeljaštje cualjilje alu Isusuluj ăntră je.
 Holy-Bible---Romanian---Ludari-Luke	REV-021-002		 
 Holy-Bible---Romanian---Ludari-Luke	HEB-011-008		
 Holy-Bible---Romanian---Ludari-Luke	EXO-013-017		
