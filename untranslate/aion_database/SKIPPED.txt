@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1160274     
-# File Date: 08/20/2021 16:28:00
+# File Size: 1160334     
+# File Date: 09/13/2021 11:15:41
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: http://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2021
@@ -62,13 +62,14 @@ Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	064	3JO	001	014	nang hoi a
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	066	REV	012	018	Tedae tuitunli kah laivin dongah sut pai.
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	064	3JO	001	014	Ahihang hai ngawl in hong mu tu in ki um khi hi, maitang kisi in i ki paupui tu hi.
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	066	REV	012	018	Pathian thupiak te a zui nupi nu i suan a tanglai te do tu in kuankhia hi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	002	EXO	015	016	
+Holy-Bible---Chin-Thado---Chongthu-Bible	002	EXO	025	011	
+Holy-Bible---Chin-Thado---Chongthu-Bible	002	EXO	025	021	
 Holy-Bible---Chin-Thado---Chongthu-Bible	030	AMO	007	017	
-Holy-Bible---Chin-Thado---Chongthu-Bible	043	JOH	020	023	
-Holy-Bible---Chin-Thado---Chongthu-Bible	045	ROM	003	011	
-Holy-Bible---Chin-Thado---Chongthu-Bible	045	ROM	011	010	
-Holy-Bible---Chin-Thado---Chongthu-Bible	046	1CO	011	026	
-Holy-Bible---Chin-Thado---Chongthu-Bible	064	3JO	001	014	Ajeh chu nangma toh kimaitoakimutovahdingkakineminahi. Chuphat tengleh kimaitoaikihoulim ding ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	066	REV	012	018	Chujouvindragonchu twikhanglen pam’a chun adding in ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	041	MAR	013	037	
+Holy-Bible---Chin-Thado---Chongthu-Bible	041	MAR	015	047	
+Holy-Bible---Chin-Thado---Chongthu-Bible	064	3JO	001	014	Ajeh chu nangma toh kimaitoa kimuto vahding kakinemin ahi. Chuphat leh kimaitoa ikihoulim ding ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	066	REV	012	018	Chujouvin dragon chu twikhanglen pam’a chun ading in ahi.
 Holy-Bible---Chinese---Chinese-Union-Version-Simplified	064	3JO	001	014	但盼望快快地见你，我们就当面谈论。
 Holy-Bible---Chinese---Chinese-Union-Version-Simplified	066	REV	012	018	那时龙就站在海边的沙上。
 Holy-Bible---Chinese---Chinese-Union-Version-Traditional	064	3JO	001	014	但盼望快快地見你，我們就當面談論。

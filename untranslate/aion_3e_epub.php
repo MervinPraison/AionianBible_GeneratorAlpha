@@ -121,6 +121,17 @@ function AION_LOOP_EPUBY_DOIT($args) {
 <!-- Bible text copyright: $bible_copy -->
 EOF;
 
+	// SOURCE VERSION
+	$base = $args['source'].'/'.$bible;
+	$sour = (
+		(is_file($base.'---Source-Edition.NHEB.txt')	? '---Source-Edition.NHEB.txt' :
+		(is_file($base.'---Source-Edition.VPL.txt')		? '---Source-Edition.VPL.txt' :
+		(is_file($base.'---Source-Edition.UNBOUND.txt')	? '---Source-Edition.UNBOUND.txt' :
+		(is_file($base.'---Source-Edition.B4U.txt')		? '---Source-Edition.B4U.txt' :
+		(is_file($base.'---Source-Edition.SWORD.txt')	? '---Source-Edition.SWORD.txt' : NULL))))));
+	if (empty($sour) || !AION_filesize($base.$sour)) { AION_ECHO("ERROR! AION_FILE_DATABASE_PUT no source extension found! $bible"); }
+	$G_VERSIONS['SOURCEVERSION'] = (filemtime($base.$sour)===FALSE ? '' : ("Source version: ".date("n/j/Y", filemtime($base.$sour))."<br />"));
+
 	// CREATE CUSTOM EPUB FOLDER FILES
 	// BIBLE CSS
 	$csshed = "class='ff' $G_ISO $G_RTL";
@@ -784,7 +795,8 @@ $versionSS_CP =
  ((FALSE!==stripos($G_VERSIONS['ABCOPYRIGHT'],"Creative Commons Attribution-No Derivatives 4.0")) ? ("<a href='https://creativecommons.org/licenses/by-nd/4.0/' target='_blank'>".$G_VERSIONS['ABCOPYRIGHT']."</a>") :
  $G_VERSIONS['ABCOPYRIGHT']))
  ."<br />";
-$versionSS_CP .= "Text source: <a href='".$G_VERSIONS['SOURCELINK']."' target='_blank'>".$G_VERSIONS['SOURCELINK']."</a><br />";
+$versionSS_CP .= "Source text: <a href='".$G_VERSIONS['SOURCELINK']."' target='_blank'>".$G_VERSIONS['SOURCELINK']."</a><br />";
+$versionSS_CP .= $G_VERSIONS['SOURCEVERSION'];
 $versionSS_CP .= "Source copyright: ".$G_VERSIONS['COPYRIGHT']."<br />";
 $versionSS_CP .= $G_VERSIONS['SOURCE'].(empty($G_VERSIONS['YEAR']) ? "" : ", ".$G_VERSIONS['YEAR'])."<br />";
 $versionSS_CP .= (empty($G_VERSIONS['DESCRIPTION']) ? "" : $G_VERSIONS['DESCRIPTION']."<br />");

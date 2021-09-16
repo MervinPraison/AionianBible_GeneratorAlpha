@@ -19,8 +19,12 @@ if (!($bfile = preg_replace("/^## [^\n]*/us","", $bfile,-1,$rnum))) { AION_ECHO(
 // BEFORE REMOVE CHARACTERS
 if ('Holy-Bible---English---Trans-Trans'==$bible) {
 	if (!($bfile = preg_replace("/\[([[:punct:]]+)\]/us",'$1 ', $bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-	if (!($bfile = preg_replace("/\[[ ]+/us",'[', $bfile,-1,$rnum)) || $rnum!=37021) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-	if (!($bfile = preg_replace("/[ ]+\]/us",']', $bfile,-1,$rnum)) || $rnum!=316) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+	if (!($bfile = preg_replace("/\[[ ]+/us",'[', $bfile,-1,$rnum)) || $rnum!=0) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+	if (!($bfile = preg_replace("/[^ [:punct:]◄]+\[/us",' [', $bfile,-1,$rnum)) || $rnum!=377) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+	if (!($bfile = preg_replace("/[ ]+\]/us",']', $bfile,-1,$rnum)) || $rnum!=342) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+	if (!($bfile = preg_replace("/\][^ [:punct:]►\r\n]+/us",'] ', $bfile,-1,$rnum)) || $rnum!=81) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+	if (!($bfile = preg_replace("/</us",'(',$bfile,-1,$rnum)) || $rnum!=27) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+	if (!($bfile = preg_replace("/>/us",')',$bfile,-1,$rnum)) || $rnum!=27) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 }
 if ('Holy-Bible---French---French-Crampon-Bible'==$bible) {
 	if (!($bfile = preg_replace("/\*\*\* [^*]+\*\*\*/us",' ',$bfile,-1,$rnum)) || $rnum!=6) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -2725,7 +2729,7 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---English---Trans-Trans" :
-if (!($bfile = preg_replace("/◄/us","(",$bfile,-1,$rnum)) || $rnum!=4148) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%E2%97%84/1
+if (!($bfile = preg_replace("/◄/us","(",$bfile,-1,$rnum)) || $rnum!=4145) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%E2%97%84/1
 if (!($bfile = preg_replace("/►/us",")",$bfile,-1,$rnum)) || $rnum!=4145) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%E2%96%BA/1
 $bfile_saved = $bfile;
 $textfix = <<<EOF

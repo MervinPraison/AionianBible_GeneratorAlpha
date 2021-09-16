@@ -2,12 +2,12 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	MAP	FLAG
 # File Accuracy: Contact publisher with corrections to file format or content
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2021
-# File Date: 08/20/2021 18:22:42
+# File Date: 09/13/2021 12:56:34
 # File Generator: ABCMS (alpha)
 # File Location: http://resources.AionianBible.org
 # File Name: BOOKSCHAPTERS.txt
 # File Purpose: Supporting resource for the Aionian Bible project
-# File Size: 783971      
+# File Size: 783069      
 Holy-Bible---Amo---Amo-Bible	041	MAR	007	027	MISSING	MID
 Holy-Bible---Amo---Amo-Bible	041	MAR	009	046	MISSING	MID
 Holy-Bible---Amo---Amo-Bible	044	ACT	001	008	MISSING	MID
@@ -414,21 +414,8 @@ Holy-Bible---Chin-Thado---Chongthu-Bible	028	HOS	012	005	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	030	AMO	007	017	MISSING	END*
 Holy-Bible---Chin-Thado---Chongthu-Bible	031	OBA	001	007	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	038	ZEC	002	012	MISSING	MID
-Holy-Bible---Chin-Thado---Chongthu-Bible	040	MAT	025	005	MISSING	MID
-Holy-Bible---Chin-Thado---Chongthu-Bible	043	JOH	020	023	MISSING	MID
-Holy-Bible---Chin-Thado---Chongthu-Bible	044	ACT	015	034	MISSING	MID
-Holy-Bible---Chin-Thado---Chongthu-Bible	044	ACT	024	007	MISSING	MID
-Holy-Bible---Chin-Thado---Chongthu-Bible	045	ROM	003	011	MISSING	MID
-Holy-Bible---Chin-Thado---Chongthu-Bible	045	ROM	007	022	MISSING	MID
-Holy-Bible---Chin-Thado---Chongthu-Bible	045	ROM	008	010	MISSING	MID
-Holy-Bible---Chin-Thado---Chongthu-Bible	045	ROM	011	010	MISSING	MID
-Holy-Bible---Chin-Thado---Chongthu-Bible	046	1CO	011	026	MISSING	MID
-Holy-Bible---Chin-Thado---Chongthu-Bible	047	2CO	009	015	MISSING	END*
-Holy-Bible---Chin-Thado---Chongthu-Bible	048	GAL	006	010	MISSING	MID
-Holy-Bible---Chin-Thado---Chongthu-Bible	058	HEB	003	019	MISSING	END*
-Holy-Bible---Chin-Thado---Chongthu-Bible	058	HEB	004	016	MISSING	END*
-Holy-Bible---Chin-Thado---Chongthu-Bible	066	REV	020	005	MISSING	MID
-Holy-Bible---Chin-Thado---Chongthu-Bible	066	REV	020	006	MISSING	MID-SEQ
+Holy-Bible---Chin-Thado---Chongthu-Bible	041	MAR	013	037	MISSING	END*
+Holy-Bible---Chin-Thado---Chongthu-Bible	041	MAR	015	047	MISSING	END*
 Holy-Bible---Coptic---Coptic-Boharic-NT	041	MAR	009	044	MISSING	MID
 Holy-Bible---Coptic---Coptic-Boharic-NT	041	MAR	009	046	MISSING	MID
 Holy-Bible---Coptic---Coptic-Boharic-NT	042	LUK	017	036	MISSING	MID

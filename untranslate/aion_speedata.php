@@ -82,7 +82,17 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 	if (( $args['q_allall'] && $forprint['DOIT']=="FALSE") || (!$args['q_allall'] && $forprint['DOIT']!="TRUE")) { AION_ECHO("SPEEDATA SKIPPING! $bible"); return; }
 	if ($args['q_pdflu']) { $args['q_pdfpo'] = $args['q_pdfnt'] = TRUE;	}
 	AION_ECHO("SPEEDATA BUILDING: $bible");	
-	
+
+	// SOURCE VERSION
+	$base = $args['source'].'/'.$bible;
+	$sour = (
+		(is_file($base.'---Source-Edition.NHEB.txt')	? '---Source-Edition.NHEB.txt' :
+		(is_file($base.'---Source-Edition.VPL.txt')		? '---Source-Edition.VPL.txt' :
+		(is_file($base.'---Source-Edition.UNBOUND.txt')	? '---Source-Edition.UNBOUND.txt' :
+		(is_file($base.'---Source-Edition.B4U.txt')		? '---Source-Edition.B4U.txt' :
+		(is_file($base.'---Source-Edition.SWORD.txt')	? '---Source-Edition.SWORD.txt' : NULL))))));
+	if (empty($sour) || !AION_filesize($base.$sour)) { AION_ECHO("ERROR! AION_FILE_DATABASE_PUT no source extension found! $bible"); }
+	$forprint['SOURCEVERSION'] = (filemtime($base.$sour)===FALSE ? '' : ("<Value>Source version: ".date("n/j/Y", filemtime($base.$sour))."</Value><Br />"));
 
 	// VARIABLES
 	$speed = '../AB-Speedata/bin/sp';
@@ -96,7 +106,7 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 	$numarialfont = ($args['database']['T_NUMBERS'][$bible][1] === '1' ? TRUE : FALSE);
 	$FOLDERS= '../AB-Fonts:../AB-Images:../AB-ISBN';
 	$DATA	= 'bible_data.xml';
-	$CONFIGVALS  = "data=$DATA\nautoopen=false\nextra-dir=$FOLDERS\ngrid=false\nruns=1\n";
+	$CONFIGVALS  = "data=$DATA\nautoopen=false\nextra-dir=$FOLDERS\ngrid=false\nruns=1\nxmlparser=lua\n";
 	$CONFIGFILE  = 'bible_config.cfg';
 	// tags
 	$destiny_READ					= '---Aionian-Edition';
@@ -953,7 +963,8 @@ $versionFO_CP = "<Span $langspeed><Fontface fontfamily='$copyff'><Value>$version
 $versionEN_CP = ($version == $versionE ? "" : "<Br /><Fontface fontfamily='FF-Copy'><Value>$versionE</Value></Fontface>" );
 $versionNT_CP = (!$newtonly ? "" : "<Br /><Fontface fontfamily='FF-Copy'><Value>$newtonly</Value></Fontface>");
 $versionSS_CP = "<Value>".(empty($versions['ABCOPYRIGHT']) ? ("Creative Commons No Derivative Works, 2018-".date("Y")) : $versions['ABCOPYRIGHT'])."</Value><Br />";
-$versionSS_CP .= "<Value>Text source: ".$versions['SOURCEDOMAIN']."</Value><Br />";
+$versionSS_CP .= "<Value>Source text: ".$versions['SOURCEDOMAIN']."</Value><Br />";
+$versionSS_CP .= $forprint['SOURCEVERSION'];
 $versionSS_CP .= "<Value>Source copyright: ".$versions['COPYRIGHT']."</Value><Br />";
 $versionSS_CP .= "<Value>".$versions['SOURCE'].(empty($versions['YEAR']) ? "" : ", ".$versions['YEAR'])."</Value><Br />";
 $versionSS_CP .= (empty($versions['DESCRIPTION']) ? "" : "<Value>".$versions['DESCRIPTION']."</Value><Br />");
@@ -1901,7 +1912,8 @@ $versionFO_CP = "<Span $langspeed><Fontface fontfamily='$copyff'><Value>$version
 $versionEN_CP = ($version == $versionE ? "" : "<Br /><Fontface fontfamily='FF-Copy'><Value>$versionE</Value></Fontface>" );
 $versionNT_CP = (!$newtonly ? "" : "<Br /><Fontface fontfamily='FF-Copy'><Value>$newtonly</Value></Fontface>");
 $versionSS_CP = "<Value>".(empty($versions['ABCOPYRIGHT']) ? ("Creative Commons No Derivative Works, 2018-".date("Y")) : $versions['ABCOPYRIGHT'])."</Value><Br />";
-$versionSS_CP .= "<Value>Text source: ".$versions['SOURCEDOMAIN']."</Value><Br />";
+$versionSS_CP .= "<Value>Source text: ".$versions['SOURCEDOMAIN']."</Value><Br />";
+$versionSS_CP .= $forprint['SOURCEVERSION'];
 $versionSS_CP .= "<Value>Source copyright: ".$versions['COPYRIGHT']."</Value><Br />";
 $versionSS_CP .= "<Value>".$versions['SOURCE'].(empty($versions['YEAR']) ? "" : ", ".$versions['YEAR'])."</Value><Br />";
 $versionSS_CP .= (empty($versions['DESCRIPTION']) ? "" : "<Value>".$versions['DESCRIPTION']."</Value><Br />");

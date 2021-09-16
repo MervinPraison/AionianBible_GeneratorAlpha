@@ -205,6 +205,7 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $domain, $allbibl
 			(is_file($base.'---Source-Edition.B4U.txt')		? '---Source-Edition.B4U.txt' :
 			(is_file($base.'---Source-Edition.SWORD.txt')	? '---Source-Edition.SWORD.txt' : NULL))))));
 		if (empty($sour) || !AION_filesize($base.$sour)) { AION_ECHO("ERROR! AION_FILE_DATABASE_PUT no source extension found! $bible"); }
+		$source_version = (filemtime($base.$sour)===FALSE ? '' : ("\n<div class='field-field'><div class='field-label'>Source Version:</div><div class='field-value'>".date("n/j/Y", filemtime($base.$sour))."</div></div>"));
 		
 		// skip bible?
 		if (!$allbibles && $database[$version[C_BIBLE]][T_VERSIONS]['NOPRO']=='TRUE') {
@@ -269,6 +270,7 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $domain, $allbibl
         "\n<div class='field-field'><div class='field-label'>Language(Code):</div><div class='field-value'><a href='https://en.wikipedia.org/wiki/ISO_639:".$database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGECODE']."' target='_blank' title='Ethnologue language description'>".$database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGECODE']."</a></div></div>".
 		
         (empty($database[$version[C_BIBLE]][T_VERSIONS]['SOURCE'])?'':("\n<div class='field-field'><div class='field-label'>Source:</div><div class='field-value'>".$database[$version[C_BIBLE]][T_VERSIONS]['SOURCE']."</div></div>")).
+		$source_version.
         (empty($database[$version[C_BIBLE]][T_VERSIONS]['SOURCELINK'])?'':("\n<div class='field-field'><div class='field-label'>Source URL:</div><div class='field-value'><a href='".$database[$version[C_BIBLE]][T_VERSIONS]['SOURCELINK']."' target='_blank'>".$database[$version[C_BIBLE]][T_VERSIONS]['SOURCELINK']."</a>".(empty($database[$version[C_BIBLE]][T_VERSIONS]['SOURCELINKEXTRA'])?'':"<br /><a href='".$database[$version[C_BIBLE]][T_VERSIONS]['SOURCELINKEXTRA']."' target='_blank'>".$database[$version[C_BIBLE]][T_VERSIONS]['SOURCELINKEXTRA']."</a>")."</div></div>")).
         (empty($database[$version[C_BIBLE]][T_VERSIONS]['COPYRIGHT'])?'':("\n<div class='field-field'><div class='field-label'>Copyright:</div><div class='field-value'>".$database[$version[C_BIBLE]][T_VERSIONS]['COPYRIGHT']."</div></div>")).
         (empty($database[$version[C_BIBLE]][T_VERSIONS]['YEAR'])?'':("\n<div class='field-field'><div class='field-label'>Published:</div><div class='field-value'>".$database[$version[C_BIBLE]][T_VERSIONS]['YEAR']."</div></div>")).
@@ -377,6 +379,13 @@ function AION_INSTALL_INDEX_AUTH_TO_ON( $file ) {
 function AION_INSTALL_INDEX_AUTH_TO_NO( $file ) {
 	if (!($contents = file_get_contents($file))) {																							AION_ECHO("ERROR! file_get_contents($file)"); }
 	if (!($contents = preg_replace('/(aion_auth\(\); \/\/AUTHENTICATE STAGE YES, PRODUCTION NO)/s','//$1',$contents,2,$count))) {			AION_ECHO("ERROR! preg_replace($file)"); }
+	if ($count != 1) {																														AION_ECHO("ERROR! preg_replace($file) count=$count");}
+	if (!file_put_contents($file,$contents)) {																								AION_ECHO("ERROR! file_put_contents($file)"); }
+	AION_ECHO("DONE! index.php auth() turned OFF: $file");
+}
+function AION_INSTALL_INDEX_UPDATED( $file ) {
+	if (!($contents = file_get_contents($file))) {																							AION_ECHO("ERROR! file_get_contents($file)"); }
+	if (!($contents = preg_replace('M\/\D\/YYYY/s',date("n/j/Y"),$contents,2,$count))) {													AION_ECHO("ERROR! preg_replace($file)"); }
 	if ($count != 1) {																														AION_ECHO("ERROR! preg_replace($file) count=$count");}
 	if (!file_put_contents($file,$contents)) {																								AION_ECHO("ERROR! file_put_contents($file)"); }
 	AION_ECHO("DONE! index.php auth() turned OFF: $file");
@@ -612,6 +621,7 @@ function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $ski
 		'include'	=> '/---Source-Edition\.(NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---[R-Z](.*?)---Source-Edition\.(NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---English---Trans-Trans---Source-Edition\.(NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
+		//'include'	=> '/Holy-Bible---Chin-Thado---Chongthu-Bible---Source-Edition\.(NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		'destiny'	=> $destiny,
 		'raw_orig'	=> $raw_orig,
 		'raw_fixed'	=> $raw_fixed,
@@ -822,10 +832,10 @@ function AION_LOOP_CONV_DOIT($args) {
 	}
 	$args['database']['T_TALLY'][$bible] = array('BIBLE'=>$bible,'AIONIAN'=>count($data),'STANDARD'=>count($data),'SOURCE'=>count($data_orig));
 	$data = AION_BIBLES_INSERT_BOOKS($data,$args['database']['T_BOOKS']['ENGLISH'],$args['database']['T_BOOKS'][$bible],$args['database']['T_BOOKS']['CODE']);
-	AION_FILE_DATA_PUT($output,$data,AION_BIBLES_COMMENT_MORE($args['database']['T_VERSIONS'][$bible],'Standard'));
+	AION_FILE_DATA_PUT($output,$data,AION_BIBLES_COMMENT_MORE($args['database']['T_VERSIONS'][$bible],'Standard',$args['source']."/$bible"));
 	AION_unset($data); $data=NULL; unset($data);
 	$data_orig = AION_BIBLES_INSERT_BOOKS($data_orig,$args['database']['T_BOOKS']['ENGLISH'],$args['database']['T_BOOKS'][$bible],$args['database']['T_BOOKS']['CODE']);
-	AION_FILE_DATA_PUT($output_orig,$data_orig,AION_BIBLES_COMMENT_MORE($args['database']['T_VERSIONS'][$bible],'Source'));
+	AION_FILE_DATA_PUT($output_orig,$data_orig,AION_BIBLES_COMMENT_MORE($args['database']['T_VERSIONS'][$bible],'Source',$args['source']."/$bible"));
 	AION_unset($data_orig); $data_orig=NULL; unset($data_orig);
 	AION_unset($reverse); $reverse=NULL; unset($reverse);
 	AION_ECHO('CONVERTED '.$args['filepath'].' to '.$output.' byte='.$byte.' rows='.$rows);
@@ -848,7 +858,15 @@ function AION_BIBLES_REVISE($bible,$numb,$book,$chap,$vers,&$text) {
 		$text = "(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) ".$text;
 	}
 }
-function AION_BIBLES_COMMENT_MORE($bibleversion,$datatype) {
+function AION_BIBLES_COMMENT_MORE($bibleversion,$datatype,$base) {
+// source date
+$sour = (
+	(is_file($base.'---Source-Edition.NHEB.txt')	? '---Source-Edition.NHEB.txt' :
+	(is_file($base.'---Source-Edition.VPL.txt')		? '---Source-Edition.VPL.txt' :
+	(is_file($base.'---Source-Edition.UNBOUND.txt')	? '---Source-Edition.UNBOUND.txt' :
+	(is_file($base.'---Source-Edition.B4U.txt')		? '---Source-Edition.B4U.txt' :
+	(is_file($base.'---Source-Edition.SWORD.txt')	? '---Source-Edition.SWORD.txt' : NULL))))));
+$source_version = (filemtime($base.$sour)===FALSE ? '' : ("# Bible Source Version: ".date("n/j/Y", filemtime($base.$sour))."\n"));
 return (
 	"# Bible Name: ".$bibleversion['NAME']."\n".
 	"# Bible Name English: ".$bibleversion['NAMEENGLISH']."\n".
@@ -856,7 +874,8 @@ return (
 	"# Bible Language English: ".$bibleversion['LANGUAGEENGLISH']."\n".
 	"# Bible Copyright Format: ".$bibleversion['ABCOPYRIGHT']."\n".	
 	"# Bible Copyright Text: ".$bibleversion['COPYRIGHT']."\n".	
-	"# Bible Source: ".$bibleversion['SOURCE']."\n".	
+	"# Bible Source: ".$bibleversion['SOURCE']."\n".
+	$source_version.	
 	"# Bible Source Link: ".$bibleversion['SOURCELINK']."\n".
 	"# Bible Source Year: ".$bibleversion['YEAR']."\n".
 	(empty($bibleversion['DESCRIPTION']) ? "" : ("# Bible Description: ".$bibleversion['DESCRIPTION']."\n")).
@@ -2829,7 +2848,7 @@ function AION_LOOP_AION_DOIT($args) {
 		AION_unset($verse); $verse=NULL; unset($verse);
 	}
 	$database['T_BIBLE'] = AION_BIBLES_INSERT_BOOKS($database['T_BIBLE'],$args['database']['T_BOOKS']['ENGLISH'],$args['database']['T_BOOKS'][$bible],$args['database']['T_BOOKS']['CODE']);
-	AION_FILE_DATA_PUT($output,$database['T_BIBLE'],AION_BIBLES_COMMENT_MORE($args['database']['T_VERSIONS'][$bible],'Aionian'));
+	AION_FILE_DATA_PUT($output,$database['T_BIBLE'],AION_BIBLES_COMMENT_MORE($args['database']['T_VERSIONS'][$bible],'Aionian',$args['source']."/$bible"));
 	if ( file_put_contents($json,json_encode($aionian_verses, JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE)) === FALSE ) { AION_ECHO("ERROR! AIONIAN_VERSES file_put_contents ".$json ); }
 	AION_unset($database); $database=NULL; unset($database);
 	AION_unset($aionian_verses); $aionian_verses=NULL; unset($aionian_verses);
@@ -3069,22 +3088,22 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-5582;
 	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-5076;
 	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-183143;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-4832947;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-4832960;
 	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-47074;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-260;
 	$grandmarker['LONG']		= $grandtotal['LONG']-828;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-0;
-	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-1850;
+	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-1849;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-733;
 	$grandmarker['FIXED']		= $grandtotal['FIXED']-10390;
-	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-10571;
+	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-10558;
 	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-7864;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-518;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-539;
 	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-602;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-120298;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-120422;
 	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-24884;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-2696.38;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-2698.86;
 	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-97;
 	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-58;
 	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-205;

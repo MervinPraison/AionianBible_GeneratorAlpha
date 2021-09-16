@@ -46,6 +46,7 @@ system('cp -R '.STAGE.' '.LIVE);			if (!is_dir(LIVE)) {			AION_ECHO('ERROR! cp -
 /*** tuneup LIVE before going LIVE ***/
 system('rm -rf '.LIVE.'/library/*.php' );
 AION_INSTALL_INDEX_AUTH_TO_NO(LIVE.'/index.php' );
+AION_INSTALL_INDEX_UPDATED(LIVE.'/index.php');
 system("rsync -amv \
 	--include='*Source-Edition.pdf' \
 	--include='*Source-Edition.epub' \
