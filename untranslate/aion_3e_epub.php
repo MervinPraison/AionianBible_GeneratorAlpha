@@ -1098,6 +1098,8 @@ Meaning:<br />
 Usage: 1 time in 2 Peter 2:4<br />
 $g5020<br />
 <h3><i><a class='tag' id="questioned">Questioned</a></i></h3>
+Questioned verse translations do not contain Aionian Glossary words, but may wrongly imply eternal or Hell.<br />
+<br />
 $questioned
 </body>
 </html>
