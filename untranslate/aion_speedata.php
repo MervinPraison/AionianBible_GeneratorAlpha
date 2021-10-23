@@ -29,7 +29,6 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_pdfon'	=> FALSE,	// TRUE = do Online PDFs
 		'q_pdfoo'	=> FALSE,	// TRUE = do One Online PDFs
 		'q_epubc'	=> FALSE,	// TRUE = do ePub covers
-		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---([G-Z]+.*)---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Portuguese-Trans-Trans).*---Aionian-Edition\.noia$/",
@@ -45,13 +44,14 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic|Uyghur-Bible-Cyrillic|Uyghur-Bible-Pinyin).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Vietnamese).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*1858.*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Oriya).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Dyck).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur|Gujarati|Korean).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(LXX|Khan).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/(Holy-Bible---Latvian---Latvian-Gluck-Bible|Holy-Bible---Japanese---Japanese-Yougo-yaku)---Aionian-Edition\.noia$/",
 		//'include'	=> "/.*Arapaho.*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Luther-Bible-1545)---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Statenvertaling|Kougo-yaku).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
 		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
@@ -1328,7 +1328,8 @@ $fonts
 			</Paragraph></Textblock></PlaceObject>
 		</Case>
 		<Otherwise>
-			<NewPage openon="right" pagetype="$page1colright" />
+			<ClearPage openon="right" pagetype="$page1colright" force="yes" />
+			<ClearPage openon="right" pagetype="$page1colright" />
 			<Bookmark level="1" select="'Title Page'" open="no" />
 			<PlaceObject row="7" column="1"><Textblock><Paragraph textformat="$TITLEJUSTIFICATION">
 				<Fontface fontfamily="FF-Holy"><Value>Holy Bible</Value></Fontface><Br />
@@ -1346,7 +1347,7 @@ $fonts
 	<Message select="concat('ABPROOFER $outpdf TITLE ',sd:current-page())" />
 
 	<!-- BIBLE COPYRIGHT -->
-	<NewPage openon="left" pagetype="$page1colleft" />
+	<ClearPage openon="left" pagetype="$page1colleft" />
 	<Bookmark level="1" select="'Copyright'" open="no" />
 	<PlaceObject row="$copyright_row" column="1"><Textblock>
 		<Paragraph language="English (USA)" textformat="center" $bidi_center><Fontface fontfamily='FF-Copy'>
@@ -1374,7 +1375,7 @@ $fonts
 			</Case></Switch>
 	</Textblock></PlaceObject>
 	<Message select="concat('ABPROOFER $outpdf COPYRIGHT ',sd:current-page())" />
-	<NewPage openon="right" pagetype="$page1colright" />
+	<ClearPage openon="right" pagetype="$page1colright" />
 	<PlaceObject row="50" column="1"><Textblock><Paragraph textformat="center"><Fontface fontfamily='FF-Copy'>
 		<I><Value>Celebrate Jesus Christ’s victory of grace!</Value></I>
 	</Fontface></Paragraph></Textblock></PlaceObject>
@@ -1382,28 +1383,28 @@ $fonts
 	<!-- BIBLE PREFACE -->
 	<Switch>
 		<Case test="$keizer">
-			<NewPage openon="left" pagetype="$page1colleft" /><Bookmark level="1" select="'$bm_pref'" open="no" /><Output area="area1col"><Text>$pref</Text></Output>
-			<NewPage openon="right" pagetype="$page1colright"  /><Output area="area1col"><Text>$pref2</Text></Output>
+			<ClearPage openon="left" pagetype="$page1colleft" /><Bookmark level="1" select="'$bm_pref'" open="no" /><Output area="area1col"><Text>$pref</Text></Output>
+			<ClearPage openon="right" pagetype="$page1colright"  /><Output area="area1col"><Text>$pref2</Text></Output>
 		</Case>
 		<Otherwise>
-			<NewPage openon="left" pagetype="$page1colleft"  />
-			<NewPage openon="right" pagetype="$page1colright" /><Bookmark level="1" select="'$bm_pref'" open="no" /><Output area="area1col"><Text>$pref</Text></Output>
+			<ClearPage openon="left" pagetype="$page1colleft"  />
+			<ClearPage openon="right" pagetype="$page1colright" /><Bookmark level="1" select="'$bm_pref'" open="no" /><Output area="area1col"><Text>$pref</Text></Output>
 		</Otherwise>
 	</Switch>
 	
 	<!-- BIBLE TOC -->
-	<NewPage openon="left" pagetype="$page1colleft"  />
-	<NewPage openon="right" pagetype="$page1colright" />
+	<ClearPage openon="left" pagetype="$page1colleft"  />
+	<ClearPage openon="right" pagetype="$page1colright" />
 	<InsertPages name="toc" pages="1" />
     <SetVariable variable="toc_variable"/>
 	<Message select="concat('ABPROOFER $outpdf TOC ',{ sd:current-page() - 1 })" />
 	
 	<!-- BIBLE OLD INTRO -->
 	<Switch><Case test="\$gotold='true'">
-		<NewPage openon="right" pagetype="$page1colright" />
+		<ClearPage openon="right" pagetype="$page1colright" />
 		<PlaceObject row="1" column="1"><Textblock><Paragraph language="Other" textformat="$TITLEJUSTIFICATION">$w_old</Paragraph></Textblock></PlaceObject>
 		<Message select="concat('ABPROOFER $outpdf OT-INTRO ',sd:current-page())" />
-		<NewPage openon="left" pagetype="$page1colleft" />
+		<ClearPage openon="left" pagetype="$page1colleft" />
 		<PlaceObject row="1" column="1"><Image file='$PIX_OLD' width='$MARGIN_SINGLE_WIDTH' /></PlaceObject>
 		<PlaceObject row="105" column="5"><Textblock width="69">$gen3_24</Textblock></PlaceObject>
 		<Message select="concat('ABPROOFER $outpdf OT-PIX ',sd:current-page())" />
@@ -1424,10 +1425,10 @@ $fonts
 		
 	<!-- BIBLE NEW INTRO -->
 	<Switch><Case test="\$gotnew='true'">
-		<NewPage openon="right" pagetype="$page1colright" skippagetype="$page1colleft" />
+		<ClearPage openon="right" pagetype="$page1colright" skippagetype="$page1colleft" />
 		<PlaceObject row="1" column="1"><Textblock><Paragraph language="Other" textformat="$TITLEJUSTIFICATION">$w_new</Paragraph></Textblock></PlaceObject>
 		<Message select="concat('ABPROOFER $outpdf NT-INTRO ',sd:current-page())" />
-		<NewPage openon="left" pagetype="$page1colleft" />
+		<ClearPage openon="left" pagetype="$page1colleft" />
 		<PlaceObject row="1" column="1"><Image file='$PIX_NEW' width='$MARGIN_SINGLE_WIDTH' /></PlaceObject>
 		<PlaceObject row="105" column="5"><Textblock width="69">$luk23_34</Textblock></PlaceObject>
 		<Message select="concat('ABPROOFER $outpdf NT-PIX ',sd:current-page())" />
@@ -1445,30 +1446,30 @@ $fonts
 	<ProcessNode select="newtest" />
 	
 	<!-- BIBLE PICTURE -->
-	<NewPage openon="left" pagetype="$page1colleft" skippagetype="$page1colright"/>	
+	<ClearPage openon="left" pagetype="$page1colleft" skippagetype="$page1colright"/>	
 	<PlaceObject row="1" column="1"><Image file='$PIX_END' width='$MARGIN_SINGLE_WIDTH' /></PlaceObject>
 	<PlaceObject row="105" column="5"><Textblock width="69">$rev21_2_3</Textblock></PlaceObject>
 	<Message select="concat('ABPROOFER $outpdf END-PIX ',sd:current-page())" />
 	
 	<!-- READERS GUIDE -->
-	<NewPage openon="right" pagetype="$page1colright" />
+	<ClearPage openon="right" pagetype="$page1colright" />
 	<Bookmark level="1" select="'$bm_read'" open="no" />
 	<Output area="area1col"><Text>$read</Text></Output>
 	<Message select="concat('ABPROOFER $outpdf READERS ',sd:current-page())" />
 
 	<!-- BIBLE GLOSSARY -->
-	<NewPage openon="left" pagetype="$page1colleft" />
+	<ClearPage openon="left" pagetype="$page1colleft" />
 	<Bookmark level="1" select="'$bm_glos'" open="no" />
 	<Output area="area1col"><Text>$glos1</Text></Output>
 	<Message select="concat('ABPROOFER $outpdf GLOSSARY1 ',sd:current-page())" />
 	
-	<NewPage openon="right" pagetype="$page1colright" />
+	<ClearPage openon="right" pagetype="$page1colright" />
 	<Output area="area1col"><Text>$glos2</Text></Output>
 	<Message select="concat('ABPROOFER $outpdf GLOSSARY2 ',sd:current-page())" />
 
 	<!-- BIBLE GLOSSARY+ -->
 	<SetVariable variable="newpagetype" select="'page2colref'"/>
-	<NewPage openon="left" pagetype="page2colleftref" />
+	<ClearPage openon="left" pagetype="page2colleftref" />
 	<Output area="area1colref"><Text>$glos3</Text></Output>
 	<Bookmark level="1" select="'$bm_glos +'" open="no" />
 	<Message select="concat('ABPROOFER $outpdf GLOSSARYA ',sd:current-page())" />
@@ -1478,92 +1479,92 @@ $fonts
 	<!-- BIBLE MAPS -->
 	<Switch>
 		<Case test="$rotated">
-			<NewPage openon="left" pagetype="$page1colleftrotated"/>
+			<ClearPage openon="left" pagetype="$page1colleftrotated"/>
 			<Bookmark level="1" select="'$bm_map'" open="no" />
 			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt' allocate='no'><Image file='$PIX_MAP_ABRAHAM' height='$MARGIN_MAPS_WIDTH' width='$MARGIN_MAPS_HEIGHT' clip='no' rotate='90' /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_COLUMN" column="1" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$heb11_8</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP1 ',sd:current-page())" />
 
-			<NewPage openon="right" pagetype="$page1colrightrotated"/>
+			<ClearPage openon="right" pagetype="$page1colrightrotated"/>
 			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_EXODUS' height='$MARGIN_MAPS_WIDTH' width='$MARGIN_MAPS_HEIGHT' clip='no' rotate='90' /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_COLUMN" column="1" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$exo13_17</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP2 ',sd:current-page())" />
 
-			<NewPage openon="left" pagetype="$page1colleft"/>
+			<ClearPage openon="left" pagetype="$page1colleft"/>
 			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt' allocate='no'><Image file='$PIX_MAP_JESUS' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_HEIGHT" column="$MARGIN_MAPS_COLUMN" rotate="-90" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$mar10_45</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP3 ',sd:current-page())" />
 
-			<NewPage openon="right" pagetype="$page1colrightrotated"/>
+			<ClearPage openon="right" pagetype="$page1colrightrotated"/>
 			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt' allocate='no'><Image file='$PIX_MAP_PAUL' height='$MARGIN_MAPS_WIDTH' width='$MARGIN_MAPS_HEIGHT' clip='no' rotate='90' /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_COLUMN" column="1" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$rom1_1</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP4 ',sd:current-page())" />
 
-			<NewPage openon="left" pagetype="$page1colleftrotated"/>
+			<ClearPage openon="left" pagetype="$page1colleftrotated"/>
 			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_TIMEA' height='$MARGIN_MAPS_WIDTH_TIME' width='$MARGIN_MAPS_HEIGHT_TIME' clip='no' /></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf TIMEA ',sd:current-page())" />
 
-			<NewPage openon="right" pagetype="$page1colrightrotated"/>
+			<ClearPage openon="right" pagetype="$page1colrightrotated"/>
 			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' ><Image file='$PIX_TIMEB' height='$MARGIN_MAPS_WIDTH_TIME' width='$MARGIN_MAPS_HEIGHT_TIME' clip='no' /></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf TIMEB ',sd:current-page())" />
 
-			<NewPage openon="left" pagetype="$page1colleftrotated"/>
+			<ClearPage openon="left" pagetype="$page1colleftrotated"/>
 			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_WORLD' height='$MARGIN_MAPS_WIDTH' width='$MARGIN_MAPS_HEIGHT' clip='no' rotate='90' /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_COLUMN" column="1" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$mat28_19</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP5 ',sd:current-page())" />
 		</Case>
 		<Otherwise>
-			<NewPage openon="left" pagetype="$page1colleft"/>
+			<ClearPage openon="left" pagetype="$page1colleft"/>
 			<Bookmark level="1" select="'$bm_map'" open="no" />
 			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_ABRAHAM' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_HEIGHT" column="$MARGIN_MAPS_COLUMN" rotate="-90" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$heb11_8</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP1 ',sd:current-page())" />
 
-			<NewPage openon="right" pagetype="$page1colright"/>
+			<ClearPage openon="right" pagetype="$page1colright"/>
 			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_EXODUS' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_HEIGHT" column="$MARGIN_MAPS_COLUMN" rotate="-90" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$exo13_17</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP2 ',sd:current-page())" />
 
-			<NewPage openon="left" pagetype="$page1colleft"/>
+			<ClearPage openon="left" pagetype="$page1colleft"/>
 			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_JESUS' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_HEIGHT" column="$MARGIN_MAPS_COLUMN" rotate="-90" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$mar10_45</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP3 ',sd:current-page())" />
 
-			<NewPage openon="right" pagetype="$page1colright"/>
+			<ClearPage openon="right" pagetype="$page1colright"/>
 			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_PAUL' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_HEIGHT" column="$MARGIN_MAPS_COLUMN" rotate="-90" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$rom1_1</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP4 ',sd:current-page())" />
 
 			<Switch>
 				<Case test="$studyformat">
-					<NewPage openon="left" pagetype="$page1colleft"/>
+					<ClearPage openon="left" pagetype="$page1colleft"/>
 					<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_TIMEA' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' rotate='-90'  /></PlaceObject>
 					<Message select="concat('ABPROOFER $outpdf TIMEA ',sd:current-page())" />
 
-					<NewPage openon="right" pagetype="$page1colright"/>
+					<ClearPage openon="right" pagetype="$page1colright"/>
 					<PlaceObject row="1" column="1" background='full' backgroundcolor='white' ><Image file='$PIX_TIMEB' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' rotate='-90'  /></PlaceObject>
 					<Message select="concat('ABPROOFER $outpdf TIMEB ',sd:current-page())" />
 				</Case>			
 				<Otherwise>
-					<NewPage openon="left" pagetype="$page1colleft"/>
+					<ClearPage openon="left" pagetype="$page1colleft"/>
 					<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_TIME1' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' /></PlaceObject>
 					<Message select="concat('ABPROOFER $outpdf TIME1 ',sd:current-page())" />
 
-					<NewPage openon="right" pagetype="$page1colright"/>
+					<ClearPage openon="right" pagetype="$page1colright"/>
 					<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_TIME2' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' /></PlaceObject>
 					<Message select="concat('ABPROOFER $outpdf TIME2 ',sd:current-page())" />
 
-					<NewPage openon="left" pagetype="$page1colleft"/>
+					<ClearPage openon="left" pagetype="$page1colleft"/>
 					<PlaceObject row="1" column="1" background='full' backgroundcolor='white' ><Image file='$PIX_TIME3' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' /></PlaceObject>
 					<Message select="concat('ABPROOFER $outpdf TIME3 ',sd:current-page())" />
 
-					<NewPage openon="right" pagetype="$page1colright"/>
+					<ClearPage openon="right" pagetype="$page1colright"/>
 					<PlaceObject row="1" column="1" background='full' backgroundcolor='white' ><Image file='$PIX_TIME4' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' /></PlaceObject>
 					<Message select="concat('ABPROOFER $outpdf TIME4 ',sd:current-page())" />
 				</Otherwise>
 			</Switch>
 		
-			<NewPage openon="left" pagetype="$page1colleft"/>
+			<ClearPage openon="left" pagetype="$page1colleft"/>
 			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_WORLD' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_HEIGHT" column="$MARGIN_MAPS_COLUMN" rotate="-90" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$mat28_19</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP5 ',sd:current-page())" />
@@ -1572,8 +1573,8 @@ $fonts
 	
 	<!-- BIBLE BLANKS -->
 	<Switch><Case test="$onlineformat"></Case><Otherwise>
-		<NewPage openon="right" pagetype="$page1colright"/>
-		<NewPage openon="left" pagetype="$page1colleft"/>
+		<ClearPage openon="right" pagetype="$page1colright"/>
+		<ClearPage openon="left" pagetype="$page1colleft"/>
 	</Otherwise></Switch>
 	
 	<!-- SAVE DATASET -->
@@ -1628,7 +1629,7 @@ $fonts
 		<SetVariable variable="newpagetype" select="'biblepage'"/>
 		<SetVariable variable="book" select="@BOOK"/>
 		<SetVariable variable="lang" select="@LANG"/>
-		<NewPage />
+		<ClearPage />
 		<Switch><Case test="\$proof_gotfirst='false'"><Message select="concat('ABPROOFER $outpdf OT-PAGE1 ',sd:current-page())" /></Case></Switch>
 		<SetVariable variable="proof_gotfirst" select="'true'"/>
 		<Bookmark level="1" select="@BOOK" open="no" />
@@ -1646,7 +1647,7 @@ $fonts
 		<SetVariable variable="newpagetype" select="'biblepage'"/>
 		<SetVariable variable="book" select="@BOOK"/>
 		<SetVariable variable="lang" select="@LANG"/>
-		<NewPage />
+		<ClearPage />
 		<Switch><Case test="\$proof_gotfirst='false'"><Message select="concat('ABPROOFER $outpdf NT-PAGE1 ',sd:current-page())" /></Case></Switch>
 		<SetVariable variable="proof_gotfirst" select="'true'"/>
 		<Bookmark level="1" select="@BOOK" open="no" />
