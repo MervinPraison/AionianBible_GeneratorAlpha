@@ -21,8 +21,8 @@ if ('Holy-Bible---English---Trans-Trans'==$bible) {
 	if (!($bfile = preg_replace("/\[([[:punct:]]+)\]/us",'$1 ', $bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 	if (!($bfile = preg_replace("/\[[ ]+/us",'[', $bfile,-1,$rnum)) || $rnum!=0) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 	if (!($bfile = preg_replace("/[^ [:punct:]◄]+\[/us",' [', $bfile,-1,$rnum)) || $rnum!=377) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-	if (!($bfile = preg_replace("/[ ]+\]/us",']', $bfile,-1,$rnum)) || $rnum!=342) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-	if (!($bfile = preg_replace("/\][^ [:punct:]►\r\n]+/us",'] ', $bfile,-1,$rnum)) || $rnum!=81) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+	if (!($bfile = preg_replace("/[ ]+\]/us",']', $bfile,-1,$rnum)) || $rnum!=343) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+	if (!($bfile = preg_replace("/\][^ [:punct:]►\r\n]+/us",'] ', $bfile,-1,$rnum)) || $rnum!=83) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 	if (!($bfile = preg_replace("/</us",'(',$bfile,-1,$rnum)) || $rnum!=27) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 	if (!($bfile = preg_replace("/>/us",')',$bfile,-1,$rnum)) || $rnum!=27) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 }
