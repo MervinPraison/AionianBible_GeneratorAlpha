@@ -9807,8 +9807,8 @@
 *** AION: WARNING REMAPPED = Holy-Bible---Romanian---Bayash-Luke: Empty verse skipped: LUK 017 036 
 *** AION: WARNING REMAPPED = Holy-Bible---Romanian---Bayash-Luke: Empty verse skipped: LUK 023 017 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Romanian---Bayash-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romanian---Bayash-Luke---Standard-Edition.noia byte=211633 rows=1149
-*** AION: WARNING! RAWFIX change for Holy-Bible---Romanian---Ludari-Luke,  byte-orig = 150030,  byte-fix = 150049,  byte-delta = 19,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---Romanian---Ludari-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romanian---Ludari-Luke---Standard-Edition.noia byte=209767 rows=1143
+*** AION: WARNING! RAWFIX change for Holy-Bible---Romanian---Ludari-Luke,  byte-orig = 150127,  byte-fix = 150146,  byte-delta = 19,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---Romanian---Ludari-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romanian---Ludari-Luke---Standard-Edition.noia byte=209894 rows=1143
 *** AION: WARNING! RAWFIX change for Holy-Bible---Rote-Dela---Rote-Dela-Bible,  byte-orig = 1707106,  byte-fix = 1707003,  byte-delta = -103,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING!!! BRACKET PROBLEM! Holy-Bible---Rote-Dela---Rote-Dela-Bible	043	JOH	019	039:	Nikodemus neu namalolo' no Yusuf boe. Eni fo fai ma'ahulun neu nandaa no Yesus tetemba'. Ana hasa rambe naen seli, mbei ma kilo telu nulu telu (33 kilo), de ngganggari neu Yesus ao-sisi mamaten.
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Rote-Dela---Rote-Dela-Bible---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Rote-Dela---Rote-Dela-Bible---Standard-Edition.noia byte=2160569 rows=9072
