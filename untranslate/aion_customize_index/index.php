@@ -180,13 +180,16 @@ $nainoia = <<<EOF
 <h2>Publisher</h2>
 <span class='notranslate'>Nainoia, Inc.</span><BR />
 PO Box 462, Bellefonte, PA 16823<BR />
-814-470-8028<BR />
+<a href="tel:814-470-8028" rel="nofollow">(814) 470-8028</a><BR />
 <a href='http://NAINOIA-INC.signedon.net' target='_blank' title='Nainoia Inc Homepage'>NAINOIA-INC.signedon.net</a><BR />
 <a href='https://www.linkedin.com/company/nainoia-inc' target='_blank' title='Nainoia Inc @ LinkedIn'>LinkedIn/NAINOIA-INC</a><BR />
 <a href='https://www.Facebook.com/AionianBible' target='_blank' title='Aionian Bible on Facebook'>Facebook.com/AionianBible</a><BR />
 <a href='https://play.google.com/store/apps/details?id=net.signedon.aionianbible.aionianbible' target='_blank' title='Aionian Bible free on Google Play Store'>play.google.com/AionianBible</a><BR />
 <a href='/Third-Party-Publisher-Resources' title='Third Party Publisher Resources'>Third Party Publisher Resources</a><BR />
-<BR />
+<form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="hosted_button_id" value="PNHVLFLK5B77E" />
+<input type="image" src="/paypal-donate-button.jpg" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+</form>
 EOF;
 if ($_pnum===2 && $_SERVER['REQUEST_METHOD']!='POST') { abcms_bomb("/Publisher","Invalid URL Requested for Publisher form"); }
 if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject']) && !empty($_POST['message']) && !empty($_POST['submit'])) {
@@ -1616,7 +1619,7 @@ else if ($_Path==='Publisher') {
   "url" : "http://www.AionianBible.org/Publisher",
   "name" : "Nainoia, Inc.",
   "legalName" : "Nainoia, Inc.",
-  "description" : "Nainoia, Inc. exists for Christian mission promotion, technical support services, and Bible translation. The sky is not our limit… our limit is the God who knows no limits! We hope to pray and plan with you further! Ora et labora! Pray and work!",
+  "description" : "Nainoia, Inc. exists for Christian mission promotion, technical support services, and Bible publication. The sky is not our limit… our limit is the God who knows no limits! We hope to pray and plan with you further! Ora et labora! Pray and work!",
   "logo" : "http://nainoia-inc.signedon.net/logo.png",
   "areaServed" : "world-wide",
   "foundingDate" : "2016-12-07",
