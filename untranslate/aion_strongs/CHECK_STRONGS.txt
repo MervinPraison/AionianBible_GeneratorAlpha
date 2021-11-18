@@ -1,4 +1,0 @@
-Strongs numbers cannot parse
-===
-
-

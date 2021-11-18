@@ -272,13 +272,14 @@ return str_replace($old, $new, preg_replace("/<[^<>]+>/us",'',$raw));
 
 /*** MAIL ***/
 function abcms_mail_fix(&$status, &$subject, &$message) {
-global $_Part, $_pnum, $_BibleONE, $_BibleCHAP1, $_BibleCHAP1_Last;
+global $_Path, $_Part, $_pnum, $_BibleONE, $_BibleCHAP1, $_BibleCHAP1_Last;
 if ($_pnum < 3 || !empty($subject) || !empty($message)) { return; }
 if ($_pnum > 5 ) { abcms_bomb("/Read","Invalid URL Requested, too many path components"); }
 abcms_word_init();
 abcms_word_init_chap();
 $status = "Submit your proposed corrections";
 $subject = "Proposed corrections to the ".$_BibleONE['T_VERSIONS']['NAMEENGLISH'].", $_Part[2] ";
+$theurl =   "http://www.AionianBible.org/".preg_replace("#Publisher\/#","Bibles/",$_Path);
 $message = <<<EOT
 I understand that the Aionian Bible republishes public domain and Creative Commons Bible texts and that volunteers may be needed to present the original text accurately.  I also understand that apocryphal text is removed and most variant verse numbering is mapped to the English standard. I have entered my corrections under the verse(s) below.
 
@@ -289,11 +290,11 @@ if ($_pnum == 5) {
 		abcms_bomb("/Bibles/$_Part[1]","The Bible book chapter verse requested was not found");
 	}
 	$subject .= ($_Part[3].":".$_Part[4]);
-	$message .= ("$subject\n\n$_Part[4]) ".$_BibleCHAP1[$_Part[4]])."\n\n";
+	$message .= ("$subject\n$theurl\n\n$_Part[4]) ".$_BibleCHAP1[$_Part[4]])."\n\n";
 }
 else {
 	$subject .= ("Chapter ".$_Part[3]);
-	$message .= "$subject\n\n";
+	$message .= "$subject\n$theurl\n\n";
 	for ($x=1; $x<=$_BibleCHAP1_Last; ++$x) {
 		$number = (empty($_BibleONE['T_NUMBERS'][$x]) || $x==$_BibleONE['T_NUMBERS'][$x] ? '' : ' '.$_BibleONE['T_NUMBERS'][$x]);
 		$text = (empty($_BibleCHAP1[$x]) ? '' : $_BibleCHAP1[$x]);

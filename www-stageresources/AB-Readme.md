@@ -50,7 +50,7 @@ Further 'Holy Bible Aionian Edition®' is a registered trademark licensed solely
 may not be used in any other context.  The trademark must remain intact and unaltered in any free and
 commercial redistribution of unaltered Aionian Bible publications produced by Nainoia, Inc.  And finally
 the 'Holy Bible Aionian Edition®' registered trademark MAY NOT be used by any other entity except Nainoia Inc
-for commercial sales on the Amazon KDP and Lulu print on demand platforms.
+for commercial sales on the Amazon KDP, Lulu, and Ingram Lightning Source print on demand platforms.
 
 The content of this repository is made public for these reasons:
 1. To encourage unhindered study of the Bible.

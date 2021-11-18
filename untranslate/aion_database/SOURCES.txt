@@ -1,4 +1,5 @@
 FILE	FLAG	POST	VALUE	SOURCE	DESTINATION
+AB-STEPBibleData				https://github.com/STEPBible/STEPBible-Data/archive/refs/heads/master.zip	AB-STEPBibleData.zip
 Holy-Bible---Albanian-Tosk---Albanian-Bible				http://ebible.org/sword/zip/alsSHQ1994eb.zip	Holy-Bible---Albanian-Tosk---Albanian-Bible---Source-Edition.SWORD.zip
 Holy-Bible---Albanian-Tosk---Albanian-Bible				http://ebible.org/epub/alsSHQ.epub	Holy-Bible---Albanian-Tosk---Albanian-Bible---Source-Edition.epub
 Holy-Bible---Albanian-Tosk---Albanian-Bible				http://ebible.org/pdf/alsSHQ/alsSHQ_prt.pdf	Holy-Bible---Albanian-Tosk---Albanian-Bible---Source-Edition.pdf

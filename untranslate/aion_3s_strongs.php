@@ -5,6 +5,8 @@
 //$DOTHECOUNTCHECKER = TRUE;
 $DOTHECOUNTCHECKER = FALSE;
 
+
+
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // INIT
 //$strongs_json_flag = JSON_UNESCAPED_UNICODE;
@@ -12,38 +14,40 @@ $strongs_json_flag = (JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE);
 
 
 
-
-
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // FILENAMES and README
+// folders
+$FOLDER_SOURCE = "../STEPBible-Data-master/";
+$FOLDER_STAGE = "../www-stage/library/stepbible/";
 // input
-$INPUT_VIZBI = "./aion_strongs/Viz-Strongs.csv";
-$INPUT_TBESG = "./aion_strongs/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt";
-$INPUT_TFLS1 = "./aion_strongs/TFLSJ  0-5624 - Translators Formatted full LSJ Bible lexicon - STEPBible.org CC BY.txt";
-$INPUT_TFLS2 = "./aion_strongs/TFLSJ extra - Translators Formatted full LSJ Bible lexicon - STEPBible.org CC BY.txt";
-$INPUT_TEGMC = "./aion_strongs/TEGMC - Translators Expansion of Greek Morphhology Codes - STEPBible.org CC BY.txt";
-$INPUT_TAGN1 = "./aion_strongs/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt";
-$INPUT_TAGN2 = "./aion_strongs/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt";
-$INPUT_TBESH = "./aion_strongs/TBESH - Translators Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt";
-$INPUT_TEHMC = "./aion_strongs/TEHMC - Translators Expansion of Hebrew Morphology Codes - STEPBible.org CC BY.txt";
-$INPUT_TOTH1 = "./aion_strongs/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt";
-$INPUT_TOTH2 = "./aion_strongs/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt";
-$INPUT_TOTH3 = "./aion_strongs/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt";
-$INPUT_TOTH4 = "./aion_strongs/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt";
+$INPUT_VIZBI = "../www-stageresources/AB-Viz-Strongs.csv";
+$INPUT_TBESG = $FOLDER_SOURCE."TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt";
+$INPUT_TFLS1 = $FOLDER_SOURCE."TFLSJ  0-5624 - Translators Formatted full LSJ Bible lexicon - STEPBible.org CC BY.txt";
+$INPUT_TFLS2 = $FOLDER_SOURCE."TFLSJ extra - Translators Formatted full LSJ Bible lexicon - STEPBible.org CC BY.txt";
+$INPUT_TEGMC = $FOLDER_SOURCE."TEGMC - Translators Expansion of Greek Morphhology Codes - STEPBible.org CC BY.txt";
+$INPUT_TAGN1 = $FOLDER_SOURCE."TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt";
+$INPUT_TAGN2 = $FOLDER_SOURCE."TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt";
+$INPUT_TBESH = $FOLDER_SOURCE."TBESH - Translators Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt";
+$INPUT_TEHMC = $FOLDER_SOURCE."TEHMC - Translators Expansion of Hebrew Morphology Codes - STEPBible.org CC BY.txt";
+$INPUT_TOTH1 = $FOLDER_SOURCE."TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt";
+$INPUT_TOTH2 = $FOLDER_SOURCE."TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt";
+$INPUT_TOTH3 = $FOLDER_SOURCE."TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt";
+$INPUT_TOTH4 = $FOLDER_SOURCE."TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt";
 // checks
-$CHECK_BOOK = "./aion_strongs/CHECK_BOOKS.txt";
-$CHECK_STRG = "./aion_strongs/CHECK_STRONGS.txt";
-$CHECK_VARS = "./aion_strongs/CHECK_VARIANT.txt";
-$CHECK_MISS = "./aion_strongs/CHECK_MISSING.txt";
-$CHECK_FIXS = "./aion_strongs/CHECK_FIXED.txt";
-$CHECK_MORF = "./aion_strongs/CHECK_MORPHS.txt";
-$CHECK_REFS = "./aion_strongs/CHECK_REFERENCES.txt";
-$CHECK_UGRE = "./aion_strongs/CHECK_UNUSED_GREEK_TBESG.txt";
-$CHECK_ULSJ = "./aion_strongs/CHECK_UNUSED_GREEK_TFLSJ.txt";
-$CHECK_UHEB = "./aion_strongs/CHECK_UNUSED_HEBREW_TBESH.txt";
-$CHECK_WARN = "./aion_strongs/CHECK_WARNINGS.txt";
-// readme
+$CHECK_BOOK = $FOLDER_STAGE."CHECK_BOOKS.txt";
+$CHECK_STRG = $FOLDER_STAGE."CHECK_STRONGS.txt";
+$CHECK_VARS = $FOLDER_STAGE."CHECK_VARIANT.txt";
+$CHECK_MISS = $FOLDER_STAGE."CHECK_MISSING.txt";
+$CHECK_FIXS = $FOLDER_STAGE."CHECK_FIXED.txt";
+$CHECK_MORF = $FOLDER_STAGE."CHECK_MORPHS.txt";
+$CHECK_REFS = $FOLDER_STAGE."CHECK_REFERENCES.txt";
+$CHECK_UGRE = $FOLDER_STAGE."CHECK_UNUSED_GREEK_TBESG.txt";
+$CHECK_ULSJ = $FOLDER_STAGE."CHECK_UNUSED_GREEK_TFLSJ.txt";
+$CHECK_UHEB = $FOLDER_STAGE."CHECK_UNUSED_HEBREW_TBESH.txt";
+$CHECK_WARN = $FOLDER_STAGE."CHECK_WARNINGS.txt";
+// readme +
 $README_FILE = "Greek_and_Hebrew_README.md";
+$HTACCESS_FILE = ".htaccess";
 // hebrew
 $HEBREW_VIZBI_DATA = "Hebrew_Lexicon_Strongs.txt";
 $HEBREW_VIZBI_INDX = "Hebrew_Lexicon_Strongs_Index.json";
@@ -69,11 +73,48 @@ $GREEK_TAGED_NUMS = "Greek_Tagged_Text_Count.json";
 $GREEK_USAGE_DATA = "Greek_Chapter_Usage.txt";
 $GREEK_USAGE_INDX = "Greek_Chapter_Usage_Index.json";
 $GREEK_CHAPS_DATA = "Greek_Chapter_Usage";
-// folders
-$FOLDER_DEBUG = "./aion_strongs/";
-$FOLDER_STAGE = "../www-stage/library/";
 
 
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+// UNPACK THE GITHUB ZIP
+system("rm -rf $FOLDER_SOURCE");
+system("unzip -q ../www-stageresources/AB-STEPBibleData.zip -d ../");
+if (!is_dir($FOLDER_SOURCE)) { AION_ECHO("ERROR! Bad unzip($FOLDER_SOURCE)"); }
+// PREPARE THE STAGE
+system("rm -rf $FOLDER_STAGE");
+if (!mkdir($FOLDER_STAGE) || !is_dir($FOLDER_STAGE)) {	AION_ECHO("ERROR! mkdir($FOLDER_STAGE)"); }
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+// HTACCESS
+$HTACCESS = <<<EOT
+Options +Indexes
+IndexOptions -HTMLTable +FancyIndexing +FoldersFirst NameWidth=* +SuppressDescription +SuppressHTMLPreamble
+HeaderName .header.htm
+IndexIgnore .well-known .htaccess .header.htm .favicon.ico .logo.png desktop.ini
+
+# security
+#cfg,css,eot,gif,gitignore,htaccess,htm,html,ico,jar,jpg,js,lua,md,otf,pdf,php,png,rng,sh,so,svg,tex,ttf,TTF,txt,woff,woff2,xml,xsd
+<FilesMatch "\.(php|php5|php6|php7|sh|bash|jar|so|rng|tex|epub|zip|noia)$">
+   ForceType application/octet-stream
+   Header set Content-Disposition attachment
+</FilesMatch>
+<FilesMatch "^[^.]+$">
+   ForceType application/octet-stream
+   Header set Content-Disposition attachment
+</FilesMatch>
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php71” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php71 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
+
+EOT;
+if (file_put_contents("$FOLDER_STAGE$HTACCESS_FILE", $HTACCESS)===FALSE) { AION_ECHO("ERROR! file_put_contents($HTACCESS_FILE)"); }
 
 
 
@@ -120,7 +161,7 @@ $GREEK_CHAPS_DATA > json per chapter verse Greek lexicon data files, also indexe
 
 EOT;
 $README = AION_FILE_DATA_PUT_HEADER("$README_FILE", strlen($README), $commentplus) . $README;
-if (file_put_contents("$FOLDER_DEBUG$README_FILE", $README)===FALSE) { AION_ECHO("ERROR! file_put_contents($README_FILE)"); }
+if (file_put_contents("$FOLDER_STAGE$README_FILE", $README)===FALSE) { AION_ECHO("ERROR! file_put_contents($README_FILE)"); }
 
 
 
@@ -173,12 +214,12 @@ $commentplus = <<<EOT
 #		Definition
 
 EOT;
-AION_FILE_DATA_PUT("$FOLDER_DEBUG$HEBREW_VIZBI_DATA", $database['HEBVIZ'], $commentplus);
-AION_ECHO("VIZ $FOLDER_DEBUG$HEBREW_VIZBI_DATA ROWS=".count($database['HEBVIZ']));
+AION_FILE_DATA_PUT("$FOLDER_STAGE$HEBREW_VIZBI_DATA", $database['HEBVIZ'], $commentplus);
+AION_ECHO("VIZ $FOLDER_STAGE$HEBREW_VIZBI_DATA ROWS=".count($database['HEBVIZ']));
 AION_unset($database['HEBVIZ']);
-AION_NEWSTRONGS_GET_INDEX_LEX("$FOLDER_DEBUG$HEBREW_VIZBI_DATA", "$FOLDER_DEBUG$HEBREW_VIZBI_INDX");
-AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER("$FOLDER_DEBUG$HEBREW_VIZBI_INDX", "$FOLDER_DEBUG$HEBREW_VIZBI_DATA");
-AION_ECHO("VIZ $FOLDER_DEBUG$HEBREW_VIZBI_INDX");
+AION_NEWSTRONGS_GET_INDEX_LEX("$FOLDER_STAGE$HEBREW_VIZBI_DATA", "$FOLDER_STAGE$HEBREW_VIZBI_INDX");
+AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER("$FOLDER_STAGE$HEBREW_VIZBI_INDX", "$FOLDER_STAGE$HEBREW_VIZBI_DATA");
+AION_ECHO("VIZ $FOLDER_STAGE$HEBREW_VIZBI_INDX");
 AION_NEWSTRONGS_FIX_VIZ($database['VIZLEX'],'G','GREVIZ',$database);
 $commentplus = <<<EOT
 # Source: Robert Rouse
@@ -204,12 +245,12 @@ $commentplus = <<<EOT
 #		Definition
 
 EOT;
-AION_FILE_DATA_PUT("$FOLDER_DEBUG$GREEK_VIZBI_DATA", $database['GREVIZ'], $commentplus);
-AION_ECHO("VIZ $FOLDER_DEBUG$GREEK_VIZBI_DATA ROWS=".count($database['GREVIZ']));
+AION_FILE_DATA_PUT("$FOLDER_STAGE$GREEK_VIZBI_DATA", $database['GREVIZ'], $commentplus);
+AION_ECHO("VIZ $FOLDER_STAGE$GREEK_VIZBI_DATA ROWS=".count($database['GREVIZ']));
 AION_unset($database['GREVIZ']);
-AION_NEWSTRONGS_GET_INDEX_LEX("$FOLDER_DEBUG$GREEK_VIZBI_DATA", "$FOLDER_DEBUG$GREEK_VIZBI_INDX");
-AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER("$FOLDER_DEBUG$GREEK_VIZBI_INDX", "$FOLDER_DEBUG$GREEK_VIZBI_DATA");
-AION_ECHO("VIZ $FOLDER_DEBUG$GREEK_VIZBI_INDX");
+AION_NEWSTRONGS_GET_INDEX_LEX("$FOLDER_STAGE$GREEK_VIZBI_DATA", "$FOLDER_STAGE$GREEK_VIZBI_INDX");
+AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER("$FOLDER_STAGE$GREEK_VIZBI_INDX", "$FOLDER_STAGE$GREEK_VIZBI_DATA");
+AION_ECHO("VIZ $FOLDER_STAGE$GREEK_VIZBI_INDX");
 
 
 
@@ -219,14 +260,14 @@ AION_ECHO("VIZ $FOLDER_DEBUG$GREEK_VIZBI_INDX");
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // TYNDALE HEBREW READ
 AION_NEWSTRONGS_COD( "$INPUT_TEHMC",'HEBMOR', $database);
-AION_NEWSTRONGS_GET( "$INPUT_TBESH",'H0001	אָב', NULL, 'HEBLEX',array('STRONGS','WORD','TRANS','MORPH','GLOSS','DEF',''), $HEBLEX=array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF',''), 'STRONGS', $database, "TBESH");
-AION_NEWSTRONGS_GET( "$INPUT_TOTH1",'Gen.1.1-01	Gen.1.1-01	בְּרֵאשִׁית',	NULL, 'HEBRF1', array('','REF','','ACCENTS','MORPH','STRONGS'), NULL, NULL, $database);
-AION_NEWSTRONGS_GET( "$INPUT_TOTH2",'Jos.1.1-01	Jos.1.1-01	וַיְהִי',		NULL, 'HEBRF2', array('','REF','','ACCENTS','MORPH','STRONGS'), NULL, NULL, $database);
-AION_NEWSTRONGS_GET( "$INPUT_TOTH3",'Job.1.1-01	Job.1.1-01	אִישׁ',		NULL, 'HEBRF3', array('','REF','','ACCENTS','MORPH','STRONGS'), NULL, NULL, $database);
-AION_NEWSTRONGS_GET( "$INPUT_TOTH4",'Isa.1.1-01	Isa.1.1-01	חֲזוֹן',		NULL, 'HEBRF4', array('','REF','','ACCENTS','MORPH','STRONGS'), NULL, NULL, $database);
+AION_NEWSTRONGS_GET( "$INPUT_TBESH",'H0001	אָב', NULL, NULL, NULL, 'HEBLEX',array('STRONGS','WORD','TRANS','MORPH','GLOSS','DEF',''), $HEBLEX=array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF',''), 'STRONGS', $database, "TBESH");
+AION_NEWSTRONGS_GET( "$INPUT_TOTH1",'Gen.1.1-01	Gen.1.1-01	בְּרֵאשִׁית',	NULL, NULL, NULL, 'HEBRF1', array('','REF','','ACCENTS','MORPH','STRONGS'), NULL, NULL, $database);
+AION_NEWSTRONGS_GET( "$INPUT_TOTH2",'Jos.1.1-01	Jos.1.1-01	וַיְהִי',		NULL, NULL, NULL, 'HEBRF2', array('','REF','','ACCENTS','MORPH','STRONGS'), NULL, NULL, $database);
+AION_NEWSTRONGS_GET( "$INPUT_TOTH3",'Job.1.1-01	Job.1.1-01	אִישׁ',		NULL, NULL, NULL, 'HEBRF3', array('','REF','','ACCENTS','MORPH','STRONGS'), NULL, NULL, $database);
+AION_NEWSTRONGS_GET( "$INPUT_TOTH4",'Isa.1.1-01	Isa.1.1-01	חֲזוֹן',		'Extended Strongs numbers for Prefixes and suffixes:', NULL, NULL, 'HEBRF4', array('','REF','','ACCENTS','MORPH','STRONGS'), NULL, NULL, $database);
 // TYNDALE HEBREW WRITE
-if ( file_put_contents($json="$FOLDER_DEBUG$HEBREW_MORPH_DATA",json_encode($database['HEBMOR'], $strongs_json_flag)) === FALSE ) { AION_ECHO("ERROR! json_encode: ".$json ); }
-AION_ECHO("HEBREW $FOLDER_DEBUG$HEBREW_MORPH_DATA ROWS=".count($database['HEBMOR']));
+if ( file_put_contents($json="$FOLDER_STAGE$HEBREW_MORPH_DATA",json_encode($database['HEBMOR'], $strongs_json_flag)) === FALSE ) { AION_ECHO("ERROR! json_encode: ".$json ); }
+AION_ECHO("HEBREW $FOLDER_STAGE$HEBREW_MORPH_DATA ROWS=".count($database['HEBMOR']));
 AION_NEWSTRONGS_GET_FIX_LEX('TBESH', $database['HEBLEX'], $database, $database['HEBMOR']);
 AION_NEWSTRONGS_GET_FIX_INDEX($database['HEBLEX']);
 $commentplus = <<<EOT
@@ -280,8 +321,8 @@ $commentplus = <<<EOT
 #		These definitions were edited to align with the augmented Strongs by Tyndale House Cambridge. 
 
 EOT;
-AION_FILE_DATA_PUT("$FOLDER_DEBUG$HEBREW_TBESH_DATA", $database['HEBLEX'], $commentplus);
-AION_ECHO("HEBREW $FOLDER_DEBUG$HEBREW_TBESH_DATA ROWS=".count($database['HEBLEX']));
+AION_FILE_DATA_PUT("$FOLDER_STAGE$HEBREW_TBESH_DATA", $database['HEBLEX'], $commentplus);
+AION_ECHO("HEBREW $FOLDER_STAGE$HEBREW_TBESH_DATA ROWS=".count($database['HEBLEX']));
 AION_NEWSTRONGS_FIX_REF_HEBREW($database['HEBRF1'],'TOTHT',$database, $database['HEBLEX'], $database['HEBMOR']);	AION_unset($database['HEBRF1']);
 AION_NEWSTRONGS_FIX_REF_HEBREW($database['HEBRF2'],'TOTHT',$database, $database['HEBLEX'], $database['HEBMOR']);	AION_unset($database['HEBRF2']);
 AION_NEWSTRONGS_FIX_REF_HEBREW($database['HEBRF3'],'TOTHT',$database, $database['HEBLEX'], $database['HEBMOR']);	AION_unset($database['HEBRF3']);
@@ -315,21 +356,21 @@ $commentplus = <<<EOT
 
 EOT;
 $commentplus = AION_FILE_DATA_PUT_HEADER("$HEBREW_TAGED_DATA", strlen($database['TOTHT']), $commentplus);
-if ( file_put_contents($file="$FOLDER_DEBUG$HEBREW_TAGED_DATA", $commentplus.$database['TOTHT']) === FALSE ) { AION_ECHO("ERROR! file_put: ".$file ); }
-AION_ECHO("HEBREW $FOLDER_DEBUG$HEBREW_TAGED_DATA ROWS=".substr_count($database['TOTHT'], "\n"));
-AION_NEWSTRONGS_COUNT_REF($database['TOTHT'],"$FOLDER_DEBUG$HEBREW_TAGED_NUMS");
-if ($DOTHECOUNTCHECKER) { AION_NEWSTRONGS_COUNT_REF_CHECKER("$FOLDER_DEBUG$HEBREW_TAGED_NUMS", "$INPUT_TOTH1", "$INPUT_TOTH2", "$INPUT_TOTH3", "$INPUT_TOTH4", NULL); }
-AION_ECHO("HEBREW $FOLDER_DEBUG$HEBREW_TAGED_NUMS");
-AION_NEWSTRONGS_USAGE_REF('old', $database['TOTHT'], "$FOLDER_DEBUG$HEBREW_USAGE_DATA", "$FOLDER_DEBUG$HEBREW_USAGE_INDX");
-AION_NEWSTRONGS_USAGE_REF_CHECKER("$FOLDER_DEBUG$HEBREW_USAGE_INDX", "$FOLDER_DEBUG$HEBREW_USAGE_DATA");
-AION_ECHO("HEBREW $FOLDER_DEBUG$HEBREW_USAGE_DATA");
+if ( file_put_contents($file="$FOLDER_STAGE$HEBREW_TAGED_DATA", $commentplus.$database['TOTHT']) === FALSE ) { AION_ECHO("ERROR! file_put: ".$file ); }
+AION_ECHO("HEBREW $FOLDER_STAGE$HEBREW_TAGED_DATA ROWS=".substr_count($database['TOTHT'], "\n"));
+AION_NEWSTRONGS_COUNT_REF($database['TOTHT'],"$FOLDER_STAGE$HEBREW_TAGED_NUMS");
+if ($DOTHECOUNTCHECKER) { AION_NEWSTRONGS_COUNT_REF_CHECKER("$FOLDER_STAGE$HEBREW_TAGED_NUMS", "$INPUT_TOTH1", "$INPUT_TOTH2", "$INPUT_TOTH3", "$INPUT_TOTH4", NULL); }
+AION_ECHO("HEBREW $FOLDER_STAGE$HEBREW_TAGED_NUMS");
+AION_NEWSTRONGS_USAGE_REF('old', $database['TOTHT'], "$FOLDER_STAGE$HEBREW_USAGE_DATA", "$FOLDER_STAGE$HEBREW_USAGE_INDX");
+AION_NEWSTRONGS_USAGE_REF_CHECKER("$FOLDER_STAGE$HEBREW_USAGE_INDX", "$FOLDER_STAGE$HEBREW_USAGE_DATA");
+AION_ECHO("HEBREW $FOLDER_STAGE$HEBREW_USAGE_DATA");
 AION_unset($database['TOTHT']);
 AION_NEWSTRONGS_LEX_WIPE($database['HEBLEX']);
 if ( file_put_contents($file=$CHECK_UHEB,"Strongs numbers in lexicon, but not in tagged texts\n===\n\n".implode("\n", array_map($callback, $database['HEBLEX']))) === FALSE ) { AION_ECHO("ERROR! file_put: ".$file ); }
 AION_unset($database['HEBLEX']);
-AION_NEWSTRONGS_GET_INDEX_LEX("$FOLDER_DEBUG$HEBREW_TBESH_DATA","$FOLDER_DEBUG$HEBREW_TBESH_INDX");
-AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER("$FOLDER_DEBUG$HEBREW_TBESH_INDX","$FOLDER_DEBUG$HEBREW_TBESH_DATA");
-AION_ECHO("HEBREW $FOLDER_DEBUG$HEBREW_TBESH_INDX");
+AION_NEWSTRONGS_GET_INDEX_LEX("$FOLDER_STAGE$HEBREW_TBESH_DATA","$FOLDER_STAGE$HEBREW_TBESH_INDX");
+AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER("$FOLDER_STAGE$HEBREW_TBESH_INDX","$FOLDER_STAGE$HEBREW_TBESH_DATA");
+AION_ECHO("HEBREW $FOLDER_STAGE$HEBREW_TBESH_INDX");
 
 
 
@@ -339,14 +380,16 @@ AION_ECHO("HEBREW $FOLDER_DEBUG$HEBREW_TBESH_INDX");
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // TYNDALE GREEK READ
 AION_NEWSTRONGS_COD( "$INPUT_TEGMC",'GREMOR', $database, TRUE);
-AION_NEWSTRONGS_GET( "$INPUT_TBESG",'G0001	alpha',	NULL, 'GRELEX',array('STRONGS','GLOSS','WORD','TRANS','MORPH','DEF'), $GRELEX=array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF'), 'STRONGS', $database);
-AION_NEWSTRONGS_GET( "$INPUT_TFLS1",'G0001	Ἀλφα',	NULL, 'GRELSJ',array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF',''), $GRELSJ=array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF',''), 'STRONGS', $database);
-AION_NEWSTRONGS_GET( "$INPUT_TFLS2",'G6000	ἀγγέλλω',NULL,'GRELSJ',array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF',''), $GRELSJ=array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF',''), 'STRONGS', $database);
-AION_NEWSTRONGS_GET( "$INPUT_TAGN1",'41_Mat.001.001	=NA same TR ~~	Βίβλος	', NULL, 'GREREF1',array('REF','TYPE','WORD','ENGLISH','STRONGS','MORPH','','','EDITIONS','SPELLINGS','MEANINGS','','ADDITIONAL','','CONJOIN',''), NULL, NULL, $database);
-AION_NEWSTRONGS_GET( "$INPUT_TAGN2",'45_Act.001.001	=NA same TR ~~	Τὸν	', NULL, 'GREREF2',array('REF','TYPE','WORD','ENGLISH','STRONGS','MORPH','','','EDITIONS','SPELLINGS','MEANINGS','','ADDITIONAL','','CONJOIN',''), NULL, NULL, $database);
+AION_NEWSTRONGS_GET( "$INPUT_TBESG",'G0001	alpha',	NULL, NULL, NULL, 'GRELEX',array('STRONGS','GLOSS','WORD','TRANS','MORPH','DEF'), $GRELEX=array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF'), 'STRONGS', $database);
+AION_NEWSTRONGS_GET( "$INPUT_TFLS1",'G0001	Ἀλφα',	NULL, NULL, NULL, 'GRELSJ',array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF',''), $GRELSJ=array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF',''), 'STRONGS', $database);
+AION_NEWSTRONGS_GET( "$INPUT_TFLS2",'G6000	ἀγγέλλω',NULL, NULL, NULL,'GRELSJ',array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF',''), $GRELSJ=array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF',''), 'STRONGS', $database);
+$thisfind = array("/42_Mrk\.004\.006/us","/44_Jhn\.009\.003/us");
+$thisreplace = array("42_Mrk.004.005","44_Jhn.008.059");
+AION_NEWSTRONGS_GET( "$INPUT_TAGN1",'41_Mat.001.001	=NA same TR ~~	Βίβλος	', NULL, $thisfind, $thisreplace, 'GREREF1',array('REF','TYPE','WORD','ENGLISH','STRONGS','MORPH','','','EDITIONS','SPELLINGS','MEANINGS','','ADDITIONAL','','CONJOIN',''), NULL, NULL, $database);
+AION_NEWSTRONGS_GET( "$INPUT_TAGN2",'45_Act.001.001	=NA same TR ~~	Τὸν	', "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\t", NULL, NULL, 'GREREF2',array('REF','TYPE','WORD','ENGLISH','STRONGS','MORPH','','','EDITIONS','SPELLINGS','MEANINGS','','ADDITIONAL','','CONJOIN',''), NULL, NULL, $database);
 // TYNDALE GREEK WRITE
-if ( file_put_contents($json="$FOLDER_DEBUG$GREEK_MORPH_DATA",json_encode($database['GREMOR'], $strongs_json_flag)) === FALSE ) { AION_ECHO("ERROR! json_encode: ".$json ); }
-AION_ECHO("GREEK $FOLDER_DEBUG$GREEK_MORPH_DATA ROWS=".count($database['GREMOR']));
+if ( file_put_contents($json="$FOLDER_STAGE$GREEK_MORPH_DATA",json_encode($database['GREMOR'], $strongs_json_flag)) === FALSE ) { AION_ECHO("ERROR! json_encode: ".$json ); }
+AION_ECHO("GREEK $FOLDER_STAGE$GREEK_MORPH_DATA ROWS=".count($database['GREMOR']));
 AION_NEWSTRONGS_GET_FIX_LEX('TBESG', $database['GRELEX'], $database, $database['GREMOR']);
 AION_NEWSTRONGS_GET_FIX_INDEX($database['GRELEX']);
 $commentplus = <<<EOT
@@ -393,8 +436,8 @@ $commentplus = <<<EOT
 #		(MT) = Mounce's Teknia Greek dictionary - from www.billmounce.com/greek-dictionary (with permission) -  used for Meaning in the Brief lexicon when there is no entry by (AS) or (ML)
 
 EOT;
-AION_FILE_DATA_PUT("$FOLDER_DEBUG$GREEK_TBESG_DATA", $database['GRELEX'], $commentplus);
-AION_ECHO("GREEK $FOLDER_DEBUG$GREEK_TBESG_DATA ROWS=".count($database['GRELEX']));
+AION_FILE_DATA_PUT("$FOLDER_STAGE$GREEK_TBESG_DATA", $database['GRELEX'], $commentplus);
+AION_ECHO("GREEK $FOLDER_STAGE$GREEK_TBESG_DATA ROWS=".count($database['GRELEX']));
 AION_NEWSTRONGS_GET_FIX_LEX('TFLSJ', $database['GRELSJ'], $database, $database['GREMOR']);
 AION_unset($database['VIZLEX']);
 AION_NEWSTRONGS_GET_FIX_INDEX($database['GRELSJ']);
@@ -440,8 +483,8 @@ $commentplus = <<<EOT
 #		(Note, not all devices work well with tooltips, so consider implementing a clickable option such as http://jsfiddle.net/xaAN3/) 
 
 EOT;
-AION_FILE_DATA_PUT("$FOLDER_DEBUG$GREEK_TFLSJ_DATA", $database['GRELSJ'], $commentplus);
-AION_ECHO("GREEK $FOLDER_DEBUG$GREEK_TFLSJ_DATA ROWS=".count($database['GRELSJ']));
+AION_FILE_DATA_PUT("$FOLDER_STAGE$GREEK_TFLSJ_DATA", $database['GRELSJ'], $commentplus);
+AION_ECHO("GREEK $FOLDER_STAGE$GREEK_TFLSJ_DATA ROWS=".count($database['GRELSJ']));
 AION_NEWSTRONGS_FIX_REF_GREEK($database['GREREF1'],'GRERE2',$database, $database['GRELEX'], $database['GRELSJ'], $database['GREMOR']);
 AION_NEWSTRONGS_FIX_REF_GREEK($database['GREREF2'],'GRERE2',$database, $database['GRELEX'], $database['GRELSJ'], $database['GREMOR']);
 AION_NEWSTRONGS_VALIDATE_REF("new", $database, $database['GRERE2']);
@@ -523,14 +566,14 @@ $commentplus = <<<EOT
 
 EOT;
 $commentplus = AION_FILE_DATA_PUT_HEADER("$GREEK_TAGED_DATA", strlen($database['GRERE2']), $commentplus);
-if ( file_put_contents($file="$FOLDER_DEBUG$GREEK_TAGED_DATA", $commentplus.$database['GRERE2']) === FALSE ) { AION_ECHO("ERROR! file_put: ".$file ); }
-AION_ECHO("GREEK $FOLDER_DEBUG$GREEK_TAGED_DATA ROWS=".substr_count($database['GRERE2'], "\n"));
-AION_NEWSTRONGS_COUNT_REF($database['GRERE2'],"$FOLDER_DEBUG$GREEK_TAGED_NUMS");
-if ($DOTHECOUNTCHECKER) { AION_NEWSTRONGS_COUNT_REF_CHECKER("$FOLDER_DEBUG$GREEK_TAGED_NUMS","$INPUT_TAGN1","$INPUT_TAGN2",NULL,NULL,"$FOLDER_DEBUG$GREEK_TAGED_FILE"); }
-AION_ECHO("GREEK $FOLDER_DEBUG$GREEK_TAGED_NUMS");
-AION_NEWSTRONGS_USAGE_REF('new', $database['GRERE2'], "$FOLDER_DEBUG$GREEK_USAGE_DATA", "$FOLDER_DEBUG$GREEK_USAGE_INDX");
-AION_NEWSTRONGS_USAGE_REF_CHECKER("$FOLDER_DEBUG$GREEK_USAGE_INDX", "$FOLDER_DEBUG$GREEK_USAGE_DATA");
-AION_ECHO("GREEK $FOLDER_DEBUG$GREEK_USAGE_DATA");
+if ( file_put_contents($file="$FOLDER_STAGE$GREEK_TAGED_DATA", $commentplus.$database['GRERE2']) === FALSE ) { AION_ECHO("ERROR! file_put: ".$file ); }
+AION_ECHO("GREEK $FOLDER_STAGE$GREEK_TAGED_DATA ROWS=".substr_count($database['GRERE2'], "\n"));
+AION_NEWSTRONGS_COUNT_REF($database['GRERE2'],"$FOLDER_STAGE$GREEK_TAGED_NUMS");
+if ($DOTHECOUNTCHECKER) { AION_NEWSTRONGS_COUNT_REF_CHECKER("$FOLDER_STAGE$GREEK_TAGED_NUMS","$INPUT_TAGN1","$INPUT_TAGN2",NULL,NULL,"$FOLDER_STAGE$GREEK_TAGED_FILE"); }
+AION_ECHO("GREEK $FOLDER_STAGE$GREEK_TAGED_NUMS");
+AION_NEWSTRONGS_USAGE_REF('new', $database['GRERE2'], "$FOLDER_STAGE$GREEK_USAGE_DATA", "$FOLDER_STAGE$GREEK_USAGE_INDX");
+AION_NEWSTRONGS_USAGE_REF_CHECKER("$FOLDER_STAGE$GREEK_USAGE_INDX", "$FOLDER_STAGE$GREEK_USAGE_DATA");
+AION_ECHO("GREEK $FOLDER_STAGE$GREEK_USAGE_DATA");
 AION_unset($database['GRERE2']);
 AION_NEWSTRONGS_LEX_WIPE($database['GRELEX']);
 AION_NEWSTRONGS_LEX_WIPE($database['GRELSJ']);
@@ -540,12 +583,12 @@ AION_unset($database['GRELEX']);
 if ( file_put_contents($file=$CHECK_ULSJ,
 "Strongs numbers in lexicon, but not in tagged texts, SEEMS LIKE TOO MANY!\n===\n\n".implode("\n", array_map($callback, $database['GRELSJ']))) === FALSE ) { AION_ECHO("ERROR! file_put: ".$file ); }
 AION_unset($database['GRELSJ']);
-AION_NEWSTRONGS_GET_INDEX_LEX("$FOLDER_DEBUG$GREEK_TBESG_DATA", "$FOLDER_DEBUG$GREEK_TBESG_INDX");
-AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER("$FOLDER_DEBUG$GREEK_TBESG_INDX", "$FOLDER_DEBUG$GREEK_TBESG_DATA");
-AION_ECHO("GREEK $FOLDER_DEBUG$GREEK_TBESG_INDX");
-AION_NEWSTRONGS_GET_INDEX_LEX("$FOLDER_DEBUG$GREEK_TFLSJ_DATA","$FOLDER_DEBUG$GREEK_TFLSJ_INDX");
-AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER("$FOLDER_DEBUG$GREEK_TFLSJ_INDX","$FOLDER_DEBUG$GREEK_TFLSJ_DATA");
-AION_ECHO("GREEK $FOLDER_DEBUG$GREEK_TFLSJ_INDX");
+AION_NEWSTRONGS_GET_INDEX_LEX("$FOLDER_STAGE$GREEK_TBESG_DATA", "$FOLDER_STAGE$GREEK_TBESG_INDX");
+AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER("$FOLDER_STAGE$GREEK_TBESG_INDX", "$FOLDER_STAGE$GREEK_TBESG_DATA");
+AION_ECHO("GREEK $FOLDER_STAGE$GREEK_TBESG_INDX");
+AION_NEWSTRONGS_GET_INDEX_LEX("$FOLDER_STAGE$GREEK_TFLSJ_DATA","$FOLDER_STAGE$GREEK_TFLSJ_INDX");
+AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER("$FOLDER_STAGE$GREEK_TFLSJ_INDX","$FOLDER_STAGE$GREEK_TFLSJ_DATA");
+AION_ECHO("GREEK $FOLDER_STAGE$GREEK_TFLSJ_INDX");
 
 
 
@@ -590,42 +633,10 @@ gc_collect_cycles();
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // WRITE THE USAGE FOLDER FORMAT
-AION_NEWSTRONGS_USAGE_FOLDER("$FOLDER_DEBUG$HEBREW_TAGED_DATA",	"$FOLDER_DEBUG$HEBREW_VIZBI_DATA",	"$FOLDER_DEBUG$HEBREW_TBESH_DATA",	NULL,								"$FOLDER_DEBUG$HEBREW_CHAPS_DATA");
-AION_ECHO("HEBREW $FOLDER_DEBUG$HEBREW_CHAPS_DATA");
-//AION_NEWSTRONGS_USAGE_FOLDER("$FOLDER_DEBUG$GREEK_TAGED_DATA",	"$FOLDER_DEBUG$GREEK_VIZBI_DATA",	"$FOLDER_DEBUG$GREEK_TBESG_DATA",	"$FOLDER_DEBUG$GREEK_TFLSJ_DATA",	"$FOLDER_DEBUG$GREEK_CHAPS_DATA");
-//AION_ECHO("GREEK $FOLDER_DEBUG$GREEK_CHAPS_DATA");
-
-
-
-
-
-
-//////////////////////////////////////////////////////////////////////////////////////////////////
-// COPY TO STAGE
-if (!copy("$FOLDER_DEBUG$README_FILE",			$file="$FOLDER_STAGE$README_FILE")) {			AION_ECHO("ERROR! copying $file"); }
-// hebrew
-if (!copy("$FOLDER_DEBUG$HEBREW_VIZBI_DATA",	$file="$FOLDER_STAGE$HEBREW_VIZBI_DATA")) {		AION_ECHO("ERROR! copying $file"); }
-if (!copy("$FOLDER_DEBUG$HEBREW_VIZBI_INDX",	$file="$FOLDER_STAGE$HEBREW_VIZBI_INDX")) {		AION_ECHO("ERROR! copying $file"); }
-if (!copy("$FOLDER_DEBUG$HEBREW_TBESH_DATA",	$file="$FOLDER_STAGE$HEBREW_TBESH_DATA")) {		AION_ECHO("ERROR! copying $file"); }
-if (!copy("$FOLDER_DEBUG$HEBREW_TBESH_INDX",	$file="$FOLDER_STAGE$HEBREW_TBESH_INDX")) {		AION_ECHO("ERROR! copying $file"); }
-if (!copy("$FOLDER_DEBUG$HEBREW_MORPH_DATA",	$file="$FOLDER_STAGE$HEBREW_MORPH_DATA")) {		AION_ECHO("ERROR! copying $file"); }
-if (!copy("$FOLDER_DEBUG$HEBREW_TAGED_DATA",	$file="$FOLDER_STAGE$HEBREW_TAGED_DATA")) {		AION_ECHO("ERROR! copying $file"); }
-if (!copy("$FOLDER_DEBUG$HEBREW_TAGED_NUMS",	$file="$FOLDER_STAGE$HEBREW_TAGED_NUMS")) {		AION_ECHO("ERROR! copying $file"); }
-if (!copy("$FOLDER_DEBUG$HEBREW_USAGE_DATA",	$file="$FOLDER_STAGE$HEBREW_USAGE_DATA")) {		AION_ECHO("ERROR! copying $file"); }
-if (!copy("$FOLDER_DEBUG$HEBREW_USAGE_INDX",	$file="$FOLDER_STAGE$HEBREW_USAGE_INDX")) {		AION_ECHO("ERROR! copying $file"); }
-// greek
-if (!copy("$FOLDER_DEBUG$GREEK_VIZBI_DATA",		$file="$FOLDER_STAGE$GREEK_VIZBI_DATA")) {		AION_ECHO("ERROR! copying $file"); }
-if (!copy("$FOLDER_DEBUG$GREEK_VIZBI_INDX",		$file="$FOLDER_STAGE$GREEK_VIZBI_INDX")) {		AION_ECHO("ERROR! copying $file"); }
-if (!copy("$FOLDER_DEBUG$GREEK_TBESG_DATA",		$file="$FOLDER_STAGE$GREEK_TBESG_DATA")) {		AION_ECHO("ERROR! copying $file"); }
-if (!copy("$FOLDER_DEBUG$GREEK_TBESG_INDX",		$file="$FOLDER_STAGE$GREEK_TBESG_INDX")) {		AION_ECHO("ERROR! copying $file"); }
-if (!copy("$FOLDER_DEBUG$GREEK_TFLSJ_DATA",		$file="$FOLDER_STAGE$GREEK_TFLSJ_DATA")) {		AION_ECHO("ERROR! copying $file"); }
-if (!copy("$FOLDER_DEBUG$GREEK_TFLSJ_INDX",		$file="$FOLDER_STAGE$GREEK_TFLSJ_INDX")) {		AION_ECHO("ERROR! copying $file"); }
-if (!copy("$FOLDER_DEBUG$GREEK_MORPH_DATA",		$file="$FOLDER_STAGE$GREEK_MORPH_DATA")) {		AION_ECHO("ERROR! copying $file"); }
-if (!copy("$FOLDER_DEBUG$GREEK_TAGED_DATA",		$file="$FOLDER_STAGE$GREEK_TAGED_DATA")) {		AION_ECHO("ERROR! copying $file"); }
-if (!copy("$FOLDER_DEBUG$GREEK_TAGED_NUMS",		$file="$FOLDER_STAGE$GREEK_TAGED_NUMS")) {		AION_ECHO("ERROR! copying $file"); }
-if (!copy("$FOLDER_DEBUG$GREEK_USAGE_DATA",		$file="$FOLDER_STAGE$GREEK_USAGE_DATA")) {		AION_ECHO("ERROR! copying $file"); }
-if (!copy("$FOLDER_DEBUG$GREEK_USAGE_INDX",		$file="$FOLDER_STAGE$GREEK_USAGE_INDX")) {		AION_ECHO("ERROR! copying $file"); }
-AION_ECHO("COPIED TO STAGE");
+AION_NEWSTRONGS_USAGE_FOLDER("$FOLDER_STAGE$HEBREW_TAGED_DATA",	"$FOLDER_STAGE$HEBREW_VIZBI_DATA",	"$FOLDER_STAGE$HEBREW_TBESH_DATA",	NULL,								"$FOLDER_STAGE$HEBREW_CHAPS_DATA");
+AION_ECHO("HEBREW $FOLDER_STAGE$HEBREW_CHAPS_DATA");
+//AION_NEWSTRONGS_USAGE_FOLDER("$FOLDER_STAGE$GREEK_TAGED_DATA",	"$FOLDER_STAGE$GREEK_VIZBI_DATA",	"$FOLDER_STAGE$GREEK_TBESG_DATA",	"$FOLDER_STAGE$GREEK_TFLSJ_DATA",	"$FOLDER_STAGE$GREEK_CHAPS_DATA");
+//AION_ECHO("GREEK $FOLDER_STAGE$GREEK_CHAPS_DATA");
 
 
 
@@ -655,7 +666,7 @@ exit;
 
 
 // Read TAB delimited file
-function AION_NEWSTRONGS_GET($file, $begin, $end, $table, $keys, $keysord, $key, &$result, $flag=NULL) {
+function AION_NEWSTRONGS_GET($file, $begin, $end, $thisfind, $thisreplace, $table, $keys, $keysord, $key, &$result, $flag=NULL) {
 	$newmess = "GET\t$file";
 	if ( !is_array( $result ) ) {										AION_ECHO("ERROR! $newmess result !is_array() "); }
 	if ( !is_array( $keys ) ) {											AION_ECHO("ERROR! $newmess keys !is_array()"); }
@@ -669,6 +680,11 @@ function AION_NEWSTRONGS_GET($file, $begin, $end, $table, $keys, $keysord, $key,
 	mb_internal_encoding("UTF-8");
 	if (!($contents=preg_replace("/^.*?$begin/us",$begin,$contents,-1,$count)) || $count!=1) {		AION_ECHO("ERROR! $newmess no beginning='$begin' $count"); }
 	if ($end && (!($contents=preg_replace("/$end.*$/us","",$contents,-1,$count)) || $count!=1)) {	AION_ECHO("ERROR! $newmess no ending='$end' $count"); }
+	if (is_array($thisfind)) {
+		foreach($thisfind as $index => $value) {
+			if (!($contents=preg_replace($value,$thisreplace[$index],$contents,1,$count)) || $count!=1) { AION_ECHO("ERROR! $newmess bad replace($value) with $count"); }
+		}
+	}
 	$contents = AION_NEWSTRONGS_GET_FIX($file, $contents, $result);
 	define($table, $table);
 	$lines = mb_split("\n", $contents);
