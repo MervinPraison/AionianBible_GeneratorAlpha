@@ -188,7 +188,7 @@ PO Box 462, Bellefonte, PA 16823<BR />
 <a href='/Third-Party-Publisher-Resources' title='Third Party Publisher Resources'>Third Party Publisher Resources</a><BR />
 <form action="https://www.paypal.com/donate" method="post" target="_top">
 <input type="hidden" name="hosted_button_id" value="PNHVLFLK5B77E" />
-<input type="image" src="/paypal-donate-button.jpg" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<input type="image" src="/paypal-donate-button.jpg" name="submit" title="PayPal - The safer, easier way to donate online!" alt="Donate at PayPal" />
 </form>
 EOF;
 if ($_pnum===2 && $_SERVER['REQUEST_METHOD']!='POST') { abcms_bomb("/Publisher","Invalid URL Requested for Publisher form"); }
