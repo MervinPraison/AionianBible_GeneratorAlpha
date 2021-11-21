@@ -16,6 +16,7 @@ if (!empty($_GET['e'])) {
 }
 // DISPATCH
 $_para = $_stid = $_paraC = $_stidC = $_stidN = $_stidX = $_meta = $_SwipePREV = $_SwipeNEXT = NULL;
+$_Part = array(NULL);
 if ($_Path==='') {										$_meta = " ~ Homepage";										abcms_home(); }
 else if ($_Path==='Preface') {							$_meta = " ~ Preface";										abcms_page('preface.htm'); }
 else if ($_Path==='Buy') {								$_meta = " ~ Buy Bibles and T-Shirts";						abcms_word_list('buy',NULL); }
@@ -503,11 +504,11 @@ global $_BibleONE, $_BibleBOOKS, $_BibleTWO, $_BibleTWO_xLink, $_BibleTWO_Lang;
 end($_BibleONE['T_BOOKS']);		$last  = $_BibleBOOKS[key($_BibleONE['T_BOOKS'])]['NUMBER'];	if ('New Testament'==$testament && $last <= 39) {	exit(header("Location: /Bibles/$_Part[1]",true,301)); }
 reset($_BibleONE['T_BOOKS']);	$first = $_BibleBOOKS[key($_BibleONE['T_BOOKS'])]['NUMBER'];	if ('Old Testament'==$testament && $first >= 40) {	exit(header("Location: /Bibles/$_Part[1]",true,301)); }
 if ($first >=40) {				$old = ""; }
-else if ($_Part[2]=='Old') {	$old = "<span class='word-tocs'>OLD</span>"; }
+else if (isset($_Part[2]) && $_Part[2]=='Old') {	$old = "<span class='word-tocs'>OLD</span>"; }
 else {							$olk = abcms_href("/Bibles/$_Part[1]/Old",FALSE,TRUE,TRUE);
 								$old = "<a href='$olk' title='Old Testament' class='word-tocs'>OLD</a>"; }
 if ($last <= 39) {				$new = ""; }
-else if ($_Part[2]=='New') {	$new = "<span class='word-tocs'>NEW</span>"; }
+else if (isset($_Part[2]) && $_Part[2]=='New') {	$new = "<span class='word-tocs'>NEW</span>"; }
 else {							$nlk = abcms_href("/Bibles/$_Part[1]/New",FALSE,TRUE,TRUE);
 								$new = "<a href='$nlk' title='New Testament' class='word-tocs'>NEW</a>"; }
 if (!empty($_Part[2])) {
@@ -527,7 +528,7 @@ else {
 	$tocmenu = "<div class='field-header2'>Table of Contents:</div>$ol2$ne2$para";	
 	$name = "<span class='word-tocs'>".$_BibleONE['T_VERSIONS']['SHORT']."</span>";	
 }
-if ($_Part[2]=='Noted') {	$avs = "<span class='word-tocs'>AVS</span>"; }
+if (isset($_Part[2]) && $_Part[2]=='Noted') {	$avs = "<span class='word-tocs'>AVS</span>"; }
 else {						$avs = "<a href='".abcms_href("/Bibles/$_Part[1]/Noted",FALSE,TRUE,TRUE)."' title='Aionian Verses' class='word-tocs'>AVS</a>"; }
 
 $path_strongs = abcms_href("/Strongs/$_Part[1]",FALSE,TRUE,TRUE);
@@ -1068,7 +1069,7 @@ echo " / <a href='".abcms_href("/Strongs/$_Part[1]",FALSE,TRUE,TRUE)."' title='S
 echo " / $map / <a href='/Maps' title='Middle Eastern and Mediterranean Bible maps, Bible timeline and church history'>Maps and Timelines</a>$pub";
 echo "</div>\n";
 echo "</div>\n";
-if (is_array($bible_VERSE[$x]) && !empty($bible_VERSE[$x])) {
+if (!empty($bible_VERSE[$x]) && is_array($bible_VERSE[$x])) {
 	echo "<div id='strong-verse'>\n";
 	if (count($_BibleCHAP1) != count($bible_VERSE)) {
 		echo "This chapter uses non-standard numbering and may be mis-aligned with Strongs references.";
@@ -1305,8 +1306,6 @@ $strongs['CTO']		= intval($strongs['CTO']);
 $strongs['CBO']		= intval($strongs['CBO']);
 $strongs['CCH']		= intval($strongs['CCH']);
 $strongs['CVE']		= intval($strongs['CVE']);
-$strongs['CHAP']	= intval($strongs['CHAP']);
-$strongs['VERSE']	= intval($strongs['VERSE']);
 $HorG = ($strongs['SID'][0]==='g' ? 'New' : 'Old');
 $bpath = ($_Path=='Strongs' ? abcms_href('/Read',FALSE,TRUE,'/strongs-'.$strongs['SID']) : abcms_href("/Bibles/$_Part[1]/$HorG",FALSE,TRUE,'/strongs-'.$strongs['SID']));
 $usage =	"<a href='$bpath' title='Visit chapters with Strongs word usage' class='word-blue'>".
@@ -1318,13 +1317,13 @@ $usage =	"<a href='$bpath' title='Visit chapters with Strongs word usage' class=
 $aionian = abcms_aion($strongs['SID'],$SID,$book,$chap,$verse);
 echo	"<div class='strong-word".($book ? '' : ' notranslate')."'>".$strongs['WORD']."</div>" .
 		"<div class=field-field><div class=field-label>StrongsID:</div><div class='field-value word-footnote'>$SID</div></div>" .
-		"<div class=field-field><div class=field-label>Language:</div><div class=field-value>".$strongs['LAN']."</div></div>" .
-		"<div class=field-field><div class=field-label>Lemma:</div><div class='field-value notranslate'>".$strongs['LEM']."</div></div>" .
-		"<div class=field-field><div class=field-label>Transliteration:</div><div class='field-value notranslate'>".$strongs['TRA']."</div></div>" .
-		"<div class=field-field><div class=field-label>Pronounciation:</div><div class='field-value notranslate'>".$strongs['PRO']."</div></div>" .
-		"<div class=field-field><div class=field-label>Part of Speech:</div><div class=field-value>".$strongs['PAR']."</div></div>" .
-		"<div class=field-field><div class=field-label>Usage:</div><div class=field-value>$usage</div></div>\n" .
-		"<div class=field-field><div class=field-label>Strongs Glossary:</div><div class=field-value>".$strongs['DEF']."</div></div>";
+		(empty($strongs['LAN']) ? "" : "<div class=field-field><div class=field-label>Language:</div><div class=field-value>".$strongs['LAN']."</div></div>") .
+		(empty($strongs['LEM']) ? "" : "<div class=field-field><div class=field-label>Lemma:</div><div class='field-value notranslate'>".$strongs['LEM']."</div></div>") .
+		(empty($strongs['TRA']) ? "" : "<div class=field-field><div class=field-label>Transliteration:</div><div class='field-value notranslate'>".$strongs['TRA']."</div></div>") .
+		(empty($strongs['PRO']) ? "" : "<div class=field-field><div class=field-label>Pronounciation:</div><div class='field-value notranslate'>".$strongs['PRO']."</div></div>") .
+		(empty($strongs['PAR']) ? "" : "<div class=field-field><div class=field-label>Part of Speech:</div><div class=field-value>".$strongs['PAR']."</div></div>") .
+		"<div class=field-field><div class=field-label>Usage:</div><div class=field-value>$usage</div></div>" .
+		(empty($strongs['DEF']) ? "" : "<div class=field-field><div class=field-label>Strongs Glossary:</div><div class=field-value>".$strongs['DEF']."</div></div>");
 if ($aionian) {
 echo	"<div class=field-field><div class=field-label>Aionian Glossary:</div><div class='field-value word-aionian'>$aionian</div></div>";
 }
@@ -1731,13 +1730,17 @@ else if ($_Part[0]==='Bibles' && $_pnum>=3 && $_pnum<=5) {
 	$bible = $_BibleONE['T_VERSIONS']['NAMEENGLISH'].($_BibleONE['T_VERSIONS']['NAMEENGLISH']==$_BibleONE['T_VERSIONS']['NAME'] ? "" : ", ".$_BibleONE['T_VERSIONS']['NAME']);
 	$lang  = $_BibleONE['T_VERSIONS']['LANGUAGEENGLISH'].($_BibleONE['T_VERSIONS']['LANGUAGEENGLISH']==$_BibleONE['T_VERSIONS']['LANGUAGE'] ? "" : ", ".$_BibleONE['T_VERSIONS']['LANGUAGE']);
 	$text = '';
-	if		($_pnum===3 && $_Part[2]==='Old') {		$name = "Table of Contents Old Testament"; }
-	else if ($_pnum===3 && $_Part[2]==='New') {		$name = "Table of Contents New Testament"; }
-	else if ($_pnum===3 && $_Part[2]==='Noted') {	$name = "Aionian Verses"; }
-	else if ($_pnum===3) {							$name = "$_Part[2] Chapter 1";				$text = '"text" : "'.$_BibleCHAP1[1].'",'; }
-	else if ($_pnum===4) {							$name = "$_Part[2] Chapter $_Part[3]";		$text = '"text" : "'.$_BibleCHAP1[1].'",'; }
-	else if ($_pnum===5) {							$name = "$_Part[2] $_Part[3]:$_Part[4]";	$text = '"text" : "'.$_BibleCHAP1[$_Part[4]].'",'; }
-	else {											return; }
+	if		($_pnum===3 && $_Part[2]==='Old') {											$name = "Table of Contents Old Testament"; }
+	else if ($_pnum===3 && $_Part[2]==='New') {											$name = "Table of Contents New Testament"; }
+	else if ($_pnum===3 && $_Part[2]==='Noted') {										$name = "Aionian Verses"; }
+	else if (!empty($_BibleCHAP1[1])) {
+		if ($_pnum===3) {																$name = "$_Part[2] Chapter 1";				$text = '"text" : "'.$_BibleCHAP1[1].'",'; }
+		else if ($_pnum===4) {															$name = "$_Part[2] Chapter $_Part[3]";		$text = '"text" : "'.$_BibleCHAP1[1].'",'; }
+		else if ($_pnum===5 && (empty($_Part[4]) || empty($_BibleCHAP1[$_Part[4]]))) {	$name = "$_Part[2] Chapter $_Part[3]";		$text = '"text" : "'.$_BibleCHAP1[1].'",'; }
+		else if ($_pnum===5) {															$name = "$_Part[2] $_Part[3]:$_Part[4]";	$text = '"text" : "'.$_BibleCHAP1[$_Part[4]].'",'; }
+		else { return; }
+	}
+	else { return; }
 	$jsonld = '
 {
   "@context" : "http://schema.org",

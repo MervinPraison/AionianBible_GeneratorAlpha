@@ -970,7 +970,7 @@ function AION_TEXT_REPAIR($string,$errline,$bible,$trueifrawtext, &$textrepair,$
 	// fatal bracket errors
 	if ('Holy-Bible---Korean---Korean-RV'!=$bible &&
 		'Holy-Bible---English---One-Unity-Resource-Bible'!=$bible) {
-		if (preg_match('/[([]{1}[[:digit:]]+.{0,9}[[:upper:]]+[)\]]{1}/ui',$string)) {	AION_ECHO("WARNING!!! BRACKET PROBLEM! $errline:\t$string"); }
+		if (preg_match('/[(\[]{1}[ [:digit:]]+.{0,9}[)\]]{1}/ui',$string)) {	AION_ECHO("WARNING!!! BRACKET PROBLEM! $errline:\t$string"); }
 	}
 	// spaces
 	$string = preg_replace('/([.?!]{1}[\'"”’]*)[ ]+/ui', '$1  ', $string);				// two space after if any spaces
@@ -4409,8 +4409,8 @@ function AION_LOOP_CHECK_UNTRANSLATE_MODULE_DOIT($args) {
 	$bible = $matches[1];
 	if (!preg_match("/Holy-Bible---/", $bible)) {														AION_ECHO("ERROR! Failed to preg_match(Bible): $bible");	}
 	if (empty($args['database'][T_UNTRANSLATEWORDS][$bible])) {											AION_ECHO("ERROR! Failed to find BOOK[bible] = $bible");	}
-	$args['database'][T_UNTRANSLATECOUNT][$bible] = array();
-	$count = &$args['database'][T_UNTRANSLATECOUNT][$bible];
+	$args['database']['T_UNTRANSLATECOUNT'][$bible] = array();
+	$count = &$args['database']['T_UNTRANSLATECOUNT'][$bible];
 	$count['BIBLE']		= $bible;
 	$count['HELL_ALL']	= 0;
 	$count['HELL_OUT']	= 0;
