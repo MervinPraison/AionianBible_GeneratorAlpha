@@ -1249,6 +1249,7 @@ $file = ($_stidC[0]==='h' ? './library/Holy-Bible---AAA---Strongs-Definitions-H.
 $fixed = ($_stidC[0]==='h'? 1264 : 996); // FIXED!
 if (!$_stidN) {
 	$status = "'$_stidC' Strongs definition not found. Please try again.";
+	$sdef = NULL;
 }
 else if (!($fd=fopen($file, 'r')) ||
 	fseek($fd, $fixed * $_stidN) ||
