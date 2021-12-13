@@ -3,16 +3,16 @@
 	font-family:
 		'NotoSans';
 	src:
-		url('../aion_fonts/notosans-basic-regular.woff2')	format('woff2'),
-		url('../aion_fonts/notosans-basic-regular.woff')	format('woff'),
-		url('../aion_fonts/notosans-basic-regular.ttf')		format('truetype');
+		url('../fonts/notosans-basic-regular.woff2')	format('woff2'),
+		url('../fonts/notosans-basic-regular.woff')	format('woff'),
+		url('../fonts/notosans-basic-regular.ttf')		format('truetype');
 }
 @font-face {
 	font-family:
 		'Gujarati';
 	src:
-		url('../aion_fonts/notoserifgujarati-regular.woff2')	format('woff2'),
-		url('../aion_fonts/notoserifgujarati-regular.woff')		format('woff'),
-		url('../aion_fonts/notoserifgujarati-regular.ttf')		format('truetype');
+		url('../fonts/notoserifgujarati-regular.woff2')	format('woff2'),
+		url('../fonts/notoserifgujarati-regular.woff')		format('woff'),
+		url('../fonts/notoserifgujarati-regular.ttf')		format('truetype');
 }
 span.guj-gu { font-family: 'Gujarati', 'NotoSans', 'Arial', 'sans-serif'; }

@@ -83,7 +83,7 @@ system("unzip -q ../www-stageresources/AB-STEPBibleData.zip -d ../");
 if (!is_dir($FOLDER_SOURCE)) { AION_ECHO("ERROR! Bad unzip($FOLDER_SOURCE)"); }
 // PREPARE THE STAGE
 system("rm -rf $FOLDER_STAGE");
-if (!mkdir($FOLDER_STAGE) || !is_dir($FOLDER_STAGE)) {	AION_ECHO("ERROR! mkdir($FOLDER_STAGE)"); }
+if (!mkdir($FOLDER_STAGE) || !is_dir($FOLDER_STAGE) || !chmod($FOLDER_STAGE,0755)) {	AION_ECHO("ERROR! mkdir($FOLDER_STAGE)"); }
 
 
 

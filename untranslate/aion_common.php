@@ -295,7 +295,7 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $domain, $allbibl
 		  !empty($L_LULUHARD) ||
 		  !empty($L_LULUNT)) ?
         ("\n<div class='field-header'>Purchase / Buy:</div><div class='field-field'><div class='field-links decorated'>".
-		(TRUE					?("<a href='/Buy' title='Buy Aionian Bible'><img src='/aion_social/buy-AionianBible.png' title='Buy the Aionian Bible in print' /></a> ") :'').
+		(TRUE					?("<a href='/Buy' title='Buy Aionian Bible'><img src='/social/buy-AionianBible.png' title='Buy the Aionian Bible in print' /></a> ") :'').
 		(TRUE					?("<a href='/Buy' title='Buy the Aionian Bible in print'>All Bibles</a>, ") :'').
 		(!empty($L_AMAZON)		?("<a href='$L_AMAZON' target='_blank' title='Buy Holy Bible Aionian Edition print copy at Amazon.com'>Amazon</a>, ")					:'').
 		(!empty($L_AMAZONNT)	?("<a href='$L_AMAZONNT' target='_blank' title='Buy Holy Bible Aionian Edition New Testament print copy at Amazon.com'>Amazon New Testament</a>, ")	:'').

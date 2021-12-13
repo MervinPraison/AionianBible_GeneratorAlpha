@@ -3,16 +3,16 @@
 	font-family:
 		'NotoSans';
 	src:
-		url('../aion_fonts/notosans-basic-regular.woff2')	format('woff2'),
-		url('../aion_fonts/notosans-basic-regular.woff')	format('woff'),
-		url('../aion_fonts/notosans-basic-regular.ttf')		format('truetype');
+		url('../fonts/notosans-basic-regular.woff2')	format('woff2'),
+		url('../fonts/notosans-basic-regular.woff')	format('woff'),
+		url('../fonts/notosans-basic-regular.ttf')		format('truetype');
 }
 @font-face {
 	font-family:
 		'ArabicPersian';
 	src:
-		url('../aion_fonts/notonaskharabicui-regular.woff2')	format('woff2'),
-		url('../aion_fonts/notonaskharabicui-regular.woff')		format('woff'),
-		url('../aion_fonts/notonaskharabicui-regular.ttf')		format('truetype');
+		url('../fonts/notonaskharabicui-regular.woff2')	format('woff2'),
+		url('../fonts/notonaskharabicui-regular.woff')		format('woff'),
+		url('../fonts/notonaskharabicui-regular.ttf')		format('truetype');
 }
 span.pes { font-family: 'ArabicPersian', 'NotoSans', 'Arial', 'sans-serif'; }

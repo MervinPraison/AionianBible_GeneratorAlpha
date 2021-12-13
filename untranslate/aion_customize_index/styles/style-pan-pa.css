@@ -3,16 +3,16 @@
 	font-family:
 		'NotoSans';
 	src:
-		url('../aion_fonts/notosans-basic-regular.woff2')	format('woff2'),
-		url('../aion_fonts/notosans-basic-regular.woff')	format('woff'),
-		url('../aion_fonts/notosans-basic-regular.ttf')		format('truetype');
+		url('../fonts/notosans-basic-regular.woff2')	format('woff2'),
+		url('../fonts/notosans-basic-regular.woff')	format('woff'),
+		url('../fonts/notosans-basic-regular.ttf')		format('truetype');
 }
 @font-face {
 	font-family:
 		'Panjabi';
 	src:
-		url('../aion_fonts/notosansgurmukhiui-regular.woff2')	format('woff2'),
-		url('../aion_fonts/notosansgurmukhiui-regular.woff')	format('woff'),
-		url('../aion_fonts/notosansgurmukhiui-regular.ttf')		format('truetype');
+		url('../fonts/notosansgurmukhiui-regular.woff2')	format('woff2'),
+		url('../fonts/notosansgurmukhiui-regular.woff')	format('woff'),
+		url('../fonts/notosansgurmukhiui-regular.ttf')		format('truetype');
 }
 span.pan-pa { font-family: 'Panjabi', 'NotoSans', 'Arial', 'sans-serif'; }

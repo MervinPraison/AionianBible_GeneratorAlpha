@@ -14,7 +14,7 @@ define('TEMP',		'tmp.www-deploy');
 define('TEMPBACK',	'www-backup');
 define('TEMPLIVE',	'www-production-files');
 define('LINK',		'www-production');
-define('WEBS',		'/aion_datawebs');
+define('WEBS',		'/datawebs');
 define('DATA',		'./aion_database');
 
 
@@ -70,6 +70,7 @@ AION_FILE_DATABASE_PUT(		$database, '../www-resources', LIVE.'/library', 'resour
 
 
 if (!chmod(LIVE,0755)) {													AION_ECHO('ERROR! chmod failed: '.LIVE); }
+if (!chmod(LIVE.'/library',0755)) {											AION_ECHO('ERROR! chmod failed: '.LIVE.'/library'); }
 if (!chmod(BACK,0755)) {													AION_ECHO('ERROR! chmod failed: '.BACK); }
 if (!chmod(STAGE,0755)) {													AION_ECHO('ERROR! chmod failed: '.STAGE); }
 

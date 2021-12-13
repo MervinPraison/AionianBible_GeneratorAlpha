@@ -12,7 +12,7 @@ AION_ECHO("START " . basename(__FILE__, '.php'));
 define('LIVE',		'../www-production-files');
 define('STAGE',		'../www-stage');
 define('AION',		'./aion_customize_index');
-define('WEBS',		'/aion_datawebs');
+define('WEBS',		'/datawebs');
 system('rm -rf '.STAGE.WEBS);				if (is_dir(STAGE.WEBS)) {		AION_ECHO('ERROR! rm -rf failed: '.STAGE.WEBS); }
 system('cp -R '.LIVE.WEBS.' '.STAGE.WEBS);	if (!is_dir(STAGE.WEBS)) {		AION_ECHO('ERROR! cp -R '.STAGE.WEBS); }
 system('rm -rf '.AION.WEBS);				if (is_dir(AION.WEBS)) {		AION_ECHO('ERROR! rm -rf failed: '.AION.WEBS); }

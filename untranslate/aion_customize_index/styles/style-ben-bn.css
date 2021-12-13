@@ -3,16 +3,16 @@
 	font-family:
 		'NotoSans';
 	src:
-		url('../aion_fonts/notosans-basic-regular.woff2')	format('woff2'),
-		url('../aion_fonts/notosans-basic-regular.woff')	format('woff'),
-		url('../aion_fonts/notosans-basic-regular.ttf')		format('truetype');
+		url('../fonts/notosans-basic-regular.woff2')	format('woff2'),
+		url('../fonts/notosans-basic-regular.woff')	format('woff'),
+		url('../fonts/notosans-basic-regular.ttf')		format('truetype');
 }
 @font-face {
 	font-family:
 		'AssameseBengali';
 	src:
-		url('../aion_fonts/solaimanlipi.woff2')	format('woff2'),
-		url('../aion_fonts/solaimanlipi.woff')	format('woff'),
-		url('../aion_fonts/solaimanlipi.ttf')	format('truetype');
+		url('../fonts/solaimanlipi.woff2')	format('woff2'),
+		url('../fonts/solaimanlipi.woff')	format('woff'),
+		url('../fonts/solaimanlipi.ttf')	format('truetype');
 }
 span.ben-bn { font-family: 'AssameseBengali', 'NotoSans', 'Arial', 'sans-serif'; }

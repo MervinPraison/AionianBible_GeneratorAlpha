@@ -18,16 +18,16 @@ if (!empty($_GET['e'])) {
 $_para = $_stid = $_paraC = $_stidC = $_stidN = $_stidX = $_meta = $_SwipePREV = $_SwipeNEXT = NULL;
 $_Part = array(NULL);
 if ($_Path==='') {										$_meta = " ~ Homepage";										abcms_home(); }
-else if ($_Path==='Preface') {							$_meta = " ~ Preface";										abcms_page('preface.htm'); }
+else if ($_Path==='Preface') {							$_meta = " ~ Preface";										abcms_page('docs/preface.htm'); }
 else if ($_Path==='Buy') {								$_meta = " ~ Buy Bibles and T-Shirts";						abcms_word_list('buy',NULL); }
-else if ($_Path==='Maps') {								$_meta = " ~ Maps";											abcms_page('maps.htm'); }
-else if ($_Path==='History') {							$_meta = " ~ History";										abcms_page('history.htm'); }
-else if ($_Path==='Readers-Guide') {					$_meta = " ~ Readers Guide";								abcms_page('readers-guide.htm'); }
-else if ($_Path==='Aionios-and-Aidios') {				$_meta = " ~ Aiōnios and Aïdios";							abcms_page('aionios-and-aidios.htm'); }
-else if ($_Path==='Promote') {							$_meta = " ~ Promote, Sponsor, Advertise, Market";			abcms_page('promote.htm'); }
-else if ($_Path==='Bible-Cover') {						$_meta = " ~ Aionian Bible Branded Leather Bible Covers";	abcms_page('cover.htm'); }
-else if ($_Path==='AppleApp') {							$_meta = " ~ Apple iPhone App";								abcms_page('appleapp.htm'); }
-else if ($_Path==='Third-Party-Publisher-Resources') {	$_meta = " ~ Third Party Publisher Resources";				abcms_page('third-party-publisher-resources.htm'); }
+else if ($_Path==='Maps') {								$_meta = " ~ Maps";											abcms_page('docs/maps.htm'); }
+else if ($_Path==='History') {							$_meta = " ~ History";										abcms_page('docs/history.htm'); }
+else if ($_Path==='Readers-Guide') {					$_meta = " ~ Readers Guide";								abcms_page('docs/readers-guide.htm'); }
+else if ($_Path==='Aionios-and-Aidios') {				$_meta = " ~ Aiōnios and Aïdios";							abcms_page('docs/aionios-and-aidios.htm'); }
+else if ($_Path==='Promote') {							$_meta = " ~ Promote, Sponsor, Advertise, Market";			abcms_page('docs/promote.htm'); }
+else if ($_Path==='Bible-Cover') {						$_meta = " ~ Aionian Bible Branded Leather Bible Covers";	abcms_page('docs/cover.htm'); }
+else if ($_Path==='AppleApp') {							$_meta = " ~ Apple iPhone App";								abcms_page('docs/appleapp.htm'); }
+else if ($_Path==='Third-Party-Publisher-Resources') {	$_meta = " ~ Third Party Publisher Resources";				abcms_page('docs/third-party-publisher-resources.htm'); }
 else if (!preg_match('/^[a-zA-Z0-9\-\/]+$/',$_Path)) {																abcms_notf(); }
 if (($_para = (preg_match('#(/parallel-[^/]+)#',$_Path,$matches) ? $matches[1] : NULL))) {	$_paraC = str_replace('/parallel-','',$_para);	$_Path = preg_replace('#(/parallel-[^/]+)#','',$_Path); }
 if (($_stid = (preg_match('#(/strongs-.*)$#',$_Path,$matches) ? $matches[1] : NULL))) {		$_stidC = str_replace('/strongs-','',$_stid);	$_Path = preg_replace('#(/strongs-.*)$#','',$_Path); }
@@ -72,7 +72,7 @@ abcms_html();
 <a href='/Preface' onclick='return AionianBible_Bookmark("/Preface");'>
 <div id='butt'>
 <h2>Welcome to the <i>Holy Bible Aionian Edition<span class='RegisteredTM'>®</span></i></h2>
-<div id='logo'><img src='/Holy-Bible-Aionian-Edition-PURPLE-640px.png' alt='Aionian Bible' /></div>
+<div id='logo'><img src='/images/Holy-Bible-Aionian-Edition-PURPLE-HOME.png' alt='Aionian Bible' /></div>
 <div id='j316'>For God so loved the world,<BR />that he gave his only begotten Son,<BR />that whoever believes in him<BR />should not perish, but have...</div>
 <div id='aion'>aionian life!</div>
 <div id='moto'>The world's first Holy Bible <span style="text-decoration: underline;">untranslation</span><BR />Two hundred fourteen versions<BR />Ninety-nine world languages<BR />100% free to copy &amp; print<BR />Updated M/D/YYYY<BR /><BR />Also known as<BR />'The Purple Bible'
@@ -83,8 +83,8 @@ abcms_html();
 </div>
 </div>
 <div id='buys'>
-<a href='/Buy' title='Buy Aionian Bibles and T-Shirts'><img src='/AionianBible-Buy.png' id='buybible' alt='Buy Bibles' title='Buy the Aionian Bible in print' /></a>
-<a href='https://www.Facebook.com/AionianBible' target='_blank' title='Facebook/AionianBible'><img src='/AionianBible-Facebook.png' id='facebook' alt='Facebook' title='Aionian Bible on Facebook' /></a>
+<a href='/Buy' title='Buy Aionian Bibles and T-Shirts'><img src='/images/AionianBible-Buy.png' id='buybible' alt='Buy Bibles' title='Buy the Aionian Bible in print' /></a>
+<a href='https://www.Facebook.com/AionianBible' target='_blank' title='Facebook/AionianBible'><img src='/images/AionianBible-Facebook.png' id='facebook' alt='Facebook' title='Aionian Bible on Facebook' /></a>
 </div>
 <script>AionianBible_SwipeLinks('','');</script>
 <? abcms_jsonld(TRUE); ?>
@@ -94,7 +94,7 @@ abcms_html();
 if (0 && empty($_COOKIE['AionianBible_Bookmark']) && !preg_match('/bot|crawl|slurp|spider|curl|mediapartners/i', getenv('HTTP_USER_AGENT'))) {
 	$ip = getenv('HTTP_CLIENT_IP')?: getenv('HTTP_X_FORWARDED_FOR')?: getenv('HTTP_X_FORWARDED')?: getenv('HTTP_FORWARDED_FOR')?: getenv('HTTP_FORWARDED')?: getenv('REMOTE_ADDR')?: 'UNKNOWN';
 	$re = getenv('HTTP_REFERER')?: 'UNKNOWN';
-	file_put_contents('./aion_datawebs/HITS.dat',"\n".date('Y/m/d H:i:s',time())."\t".$ip."\t".$re,FILE_APPEND | LOCK_EX);
+	file_put_contents('./datawebs/HITS.dat',"\n".date('Y/m/d H:i:s',time())."\t".$ip."\t".$re,FILE_APPEND | LOCK_EX);
 }
 exit;
 }
@@ -189,7 +189,7 @@ PO Box 462, Bellefonte, PA 16823<BR />
 <a href='/Third-Party-Publisher-Resources' title='Third Party Publisher Resources'>Third Party Publisher Resources</a><BR />
 <form action="https://www.paypal.com/donate" method="post" target="_top">
 <input type="hidden" name="hosted_button_id" value="PNHVLFLK5B77E" />
-<input type="image" src="/paypal-donate-button.jpg" name="submit" title="PayPal - The safer, easier way to donate online!" alt="Donate at PayPal" />
+<input type="image" src="/images/paypal-donate-button.jpg" name="submit" title="PayPal - The safer, easier way to donate online!" alt="Donate at PayPal" />
 </form>
 EOF;
 if ($_pnum===2 && $_SERVER['REQUEST_METHOD']!='POST') { abcms_bomb("/Publisher","Invalid URL Requested for Publisher form"); }
@@ -222,7 +222,7 @@ if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject']
 		$input_message = trim($input_message);
 		$ip = getenv('HTTP_CLIENT_IP')?: getenv('HTTP_X_FORWARDED_FOR')?: getenv('HTTP_X_FORWARDED')?: getenv('HTTP_FORWARDED_FOR')?: getenv('HTTP_FORWARDED')?: getenv('REMOTE_ADDR')?: 'UNKNOWN';
 		$output = "\n".date("m/d/Y H:m:s")."\t".$ip."\t".$input_name."\t".$input_email."\t".$input_message;
-		$logged = (!file_put_contents('./aion_datawebs/EMAIL.dat', $output, FILE_APPEND | LOCK_EX) ? ' (*log failed*)' : '' );
+		$logged = (!file_put_contents('./datawebs/EMAIL.dat', $output, FILE_APPEND | LOCK_EX) ? ' (*log failed*)' : '' );
 		$subject = "[Aionian Bible] $input_subject";
 		$message = "Message from $input_name at $input_email: $logged\n\n$input_message\n\n\n\n\nDelivered by http://www.AionianBible.org";
 		$headers = "From: <$input_email>\r\nContent-Type: text/plain; charset=UTF-8\r\nContent-Transfer-Encoding: 8bit";
@@ -329,7 +329,7 @@ if (!is_array(($bible_ALL = json_decode(file_get_contents('./library/Holy-Bible-
 abcms_html();
 abcms_head();
 echo "<div id='word'>\n";
-if ($mode=='buy') {			readfile('buy.htm'); }
+if ($mode=='buy') {			readfile('docs/buy.htm'); }
 else if ($mode=='read') {	echo "<h2 class=center>Bibles Free / <a href='/Buy' title='Buy Bibles at Amazon, Lulu, and Lightning Source'>Buy</a></h2>"; }
 else {						echo "<h2 class=center>Parallel Bibles</h2>"; }
 echo "<div class='center' id='word-quick'>";
@@ -1403,20 +1403,24 @@ if ($_para ||
 	echo "<meta name='robots' content='noindex'>";
 }
 ?>
-<meta property="og:image" content="http://www.aionianbible.org/aion_memes/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-V10.jpg"/>
-<meta property="og:image" content="http://www.aionianbible.org/aion_memes/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-V11.jpg"/>
-<meta property="og:image" content="http://www.aionianbible.org/aion_memes/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-V12.jpg"/>
-<meta property="og:image" content="http://www.aionianbible.org/aion_memes/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-V13.jpg"/>
+<meta property="og:url" content="http://www.aionianbible.org" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Holy Bible Aionian Edition" />
+<meta property="og:description" content="Holy Bible Aionian Edition<?echo $_meta;?>" />
+<meta property="og:image" content="http://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-1.jpg"/>
+<meta property="og:image" content="http://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-2.jpg"/>
+<meta property="og:image" content="http://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-3.jpg"/>
+<meta property="og:image" content="http://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-4.jpg"/>
 <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon'>
-<link rel='icon' type='image/png' sizes='32x32' href='/favicon-aionian-bible-32x32.png'>
-<link rel='icon' type='image/png' sizes='192x192'  href='/favicon-aionian-bible-android-icon-192x192.png'>
-<link rel='apple-touch-icon' href='/favicon-aionian-bible-apple-icon-152x152.png'>
-<link rel='apple-touch-icon' sizes='152x152' href='/favicon-aionian-bible-apple-icon-152x152.png'>
-<link rel='stylesheet' href='/aion_styles/style.css'>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel='stylesheet' href='/styles/style.css'>
 <?
-if ($_Path=='Bibles' || $_Path=='Read' || $_Part[0]=='Parallel') {	echo "<noscript><link rel='stylesheet' type='text/css' href='/aion_styles/style-all.css' /></noscript>"; }
-else {	if (!empty($_BibleONE['T_VERSIONS']['LANGUAGESTYLE'])) {	echo "<noscript><link rel='stylesheet' type='text/css' href='/aion_styles/".$_BibleONE['T_VERSIONS']['LANGUAGESTYLE']."' /></noscript>"; }
-		if (!empty($_BibleTWO['T_VERSIONS']['LANGUAGESTYLE'])) {	echo "<noscript><link rel='stylesheet' type='text/css' href='/aion_styles/".$_BibleTWO['T_VERSIONS']['LANGUAGESTYLE']."' /></noscript>"; }
+if ($_Path=='Bibles' || $_Path=='Read' || $_Part[0]=='Parallel') {	echo "<noscript><link rel='stylesheet' type='text/css' href='/styles/style-all.css' /></noscript>"; }
+else {	if (!empty($_BibleONE['T_VERSIONS']['LANGUAGESTYLE'])) {	echo "<noscript><link rel='stylesheet' type='text/css' href='/styles/".$_BibleONE['T_VERSIONS']['LANGUAGESTYLE']."' /></noscript>"; }
+		if (!empty($_BibleTWO['T_VERSIONS']['LANGUAGESTYLE'])) {	echo "<noscript><link rel='stylesheet' type='text/css' href='/styles/".$_BibleTWO['T_VERSIONS']['LANGUAGESTYLE']."' /></noscript>"; }
 }
 ?> 
 <script src="/script.js"></script>
@@ -1435,8 +1439,8 @@ function abcms_head($headlo='',$good=TRUE) {
 <div id='sticky-body'>
 <div id='head'>
 <div id='head-hi'>
-<div id='logo1'><a href='/' title='Aionian Bible homepage'><img src='/Holy-Bible-Aionian-Edition-PURPLE-263px.png' alt='Aionian Bible' /></a></div>
-<div id='logo2'><a href='/' title='Aionian Bible homepage'><img src='/Holy-Bible-Aionian-Edition-AB-PURPLE-50px.png' alt='Aionian Bible' /></a></div>
+<div id='logo1'><a href='/' title='Aionian Bible homepage'><img src='/images/Holy-Bible-Aionian-Edition-PURPLE-LOGO.png' alt='Aionian Bible' /></a></div>
+<div id='logo2'><a href='/' title='Aionian Bible homepage'><img src='/images/Holy-Bible-Aionian-Edition-PURPLE-AB.png' alt='Aionian Bible' /></a></div>
 <div id='menu'>
 <?
 global $_Path, $_Part;
@@ -1466,18 +1470,18 @@ global $_Path, $_Part, $_meta, $_BibleONE, $_BibleTWO, $_SwipePREV, $_SwipeNEXT;
 // share urls from https://github.com/bradvin/social-share-urls
 $url = ($good ? urlencode(($url0=("http://www.AionianBible.org/".preg_replace('/\s+/', ' ',$_Path)))) : urlencode($url0="http://www.AionianBible.org"));
 $title = ($good ? urlencode(($title0=preg_replace('/\s+/', ' ',"Holy Bible Aionian Edition® $_meta"))) : urlencode($title0="Holy Bible Aionian Edition® ~ Homepage"));
-$by = "<a href='/Buy'><img src='/aion_social/buy-AionianBible.png' title='Buy the Aionian Bible in print' /></a>";
-$ab = "<a href='https://www.facebook.com/AionianBible' target='_blank'><img src='/aion_social/facebook-AionianBible.png' title='Aionian Bible on Facebook' /></a>";
-$fb = "<a href='https://www.facebook.com/sharer.php?u=$url' target='_blank'><img src='/aion_social/facebook.png' title='Facebook' /></a>";
-$tw = "<a href='https://twitter.com/intent/tweet?url=$url&text=$title&hashtags=AionianBible' target='_blank'><img src='/aion_social/twitter.png' title='Twitter' /></a>";
-$li = "<a href='https://www.linkedin.com/sharing/share-offsite/?url=$url' target='_blank'><img src='/aion_social/linkedin.png' title='LinkedIn' /></a>";
-$go = "<a href='https://www.google.com/bookmarks/mark?op=edit&bkmk=$url&title=$title&labels=AionianBible' target='_blank'><img src='/aion_social/google.png' title='Google' /></a>";
-$re = "<a href='https://reddit.com/submit?url=$url&title=$title' target='_blank'><img src='/aion_social/reddit.png' title='Reddit' /></a>";
-$tu = "<a href='https://www.tumblr.com/widgets/share/tool?canonicalUrl=$url&title=$title&tags=AionianBible' target='_blank'><img src='/aion_social/tumblr.png' title='Tumblr' /></a>";
-$qz = "<a href='http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=$url' target='_blank'><img src='/aion_social/qzone.png' title='Qzone' /></a>";
-$vk = "<a href='http://vk.com/share.php?url=$url&title=$title' target='_blank'><img src='/aion_social/vk.png' title='VK' /></a>";
-$we = "<a href='http://service.weibo.com/share/share.php?url=$url&appkey=&title=$title&pic=&ralateUid=' target='_blank'><img src='/aion_social/weibo.png' title='Weibo' /></a>";
-$mt = "<a href='mailto:?subject=".preg_replace("/ /","%20","$title0&body=$url0")."' target='_blank'><img src='/aion_social/email.png' title='Email' /></a>";
+$by = "<a href='/Buy'><img src='/social/buy-AionianBible.png' title='Buy the Aionian Bible in print' /></a>";
+$ab = "<a href='https://www.facebook.com/AionianBible' target='_blank'><img src='/social/facebook-AionianBible.png' title='Aionian Bible on Facebook' /></a>";
+$fb = "<a href='https://www.facebook.com/sharer.php?u=$url' target='_blank'><img src='/social/facebook.png' title='Facebook' /></a>";
+$tw = "<a href='https://twitter.com/intent/tweet?url=$url&text=$title&hashtags=AionianBible' target='_blank'><img src='/social/twitter.png' title='Twitter' /></a>";
+$li = "<a href='https://www.linkedin.com/sharing/share-offsite/?url=$url' target='_blank'><img src='/social/linkedin.png' title='LinkedIn' /></a>";
+$go = "<a href='https://www.google.com/bookmarks/mark?op=edit&bkmk=$url&title=$title&labels=AionianBible' target='_blank'><img src='/social/google.png' title='Google' /></a>";
+$re = "<a href='https://reddit.com/submit?url=$url&title=$title' target='_blank'><img src='/social/reddit.png' title='Reddit' /></a>";
+$tu = "<a href='https://www.tumblr.com/widgets/share/tool?canonicalUrl=$url&title=$title&tags=AionianBible' target='_blank'><img src='/social/tumblr.png' title='Tumblr' /></a>";
+$qz = "<a href='http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=$url' target='_blank'><img src='/social/qzone.png' title='Qzone' /></a>";
+$vk = "<a href='http://vk.com/share.php?url=$url&title=$title' target='_blank'><img src='/social/vk.png' title='VK' /></a>";
+$we = "<a href='http://service.weibo.com/share/share.php?url=$url&appkey=&title=$title&pic=&ralateUid=' target='_blank'><img src='/social/weibo.png' title='Weibo' /></a>";
+$mt = "<a href='mailto:?subject=".preg_replace("/ /","%20","$title0&body=$url0")."' target='_blank'><img src='/social/email.png' title='Email' /></a>";
 ?>
 <div id='social-footer'>
 <div id='google_translate_element'></div>
@@ -1502,7 +1506,7 @@ if ($_Path=='Bibles' || $_Path=='Read' || $_Part[0]=='Parallel') {?>
 /* www.giftofspeed.com/defer-loading-css */
 var deferload = document.createElement('link');
 deferload.rel = 'stylesheet';
-deferload.href = '/aion_styles/style-all.css';
+deferload.href = '/styles/style-all.css';
 deferload.type = 'text/css';
 var defergo = document.getElementsByTagName('link')[0];
 defergo.parentNode.insertBefore(deferload, defergo);
@@ -1512,14 +1516,14 @@ defergo.parentNode.insertBefore(deferload, defergo);
 <? if (!empty($_BibleONE['T_VERSIONS']['LANGUAGESTYLE'])) {?>
 var deferload1 = document.createElement('link');
 deferload1.rel = 'stylesheet';
-deferload1.href = '/aion_styles/<?echo $_BibleONE['T_VERSIONS']['LANGUAGESTYLE'];?>';
+deferload1.href = '/styles/<?echo $_BibleONE['T_VERSIONS']['LANGUAGESTYLE'];?>';
 deferload1.type = 'text/css';
 var defergo1 = document.getElementsByTagName('link')[0];
 defergo1.parentNode.insertBefore(deferload1, defergo1);
 <?} if (!empty($_BibleTWO['T_VERSIONS']['LANGUAGESTYLE'])) {?>
 var deferload2 = document.createElement('link');
 deferload2.rel = 'stylesheet';
-deferload2.href = '/aion_styles/<?echo $_BibleTWO['T_VERSIONS']['LANGUAGESTYLE'];?>';
+deferload2.href = '/styles/<?echo $_BibleTWO['T_VERSIONS']['LANGUAGESTYLE'];?>';
 deferload2.type = 'text/css';
 var defergo2 = document.getElementsByTagName('link')[0];
 defergo2.parentNode.insertBefore(deferload2, defergo2);

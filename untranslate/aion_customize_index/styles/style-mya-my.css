@@ -3,16 +3,16 @@
 	font-family:
 		'NotoSans';
 	src:
-		url('../aion_fonts/notosans-basic-regular.woff2')	format('woff2'),
-		url('../aion_fonts/notosans-basic-regular.woff')	format('woff'),
-		url('../aion_fonts/notosans-basic-regular.ttf')		format('truetype');
+		url('../fonts/notosans-basic-regular.woff2')	format('woff2'),
+		url('../fonts/notosans-basic-regular.woff')	format('woff'),
+		url('../fonts/notosans-basic-regular.ttf')		format('truetype');
 }
 @font-face {
 	font-family:
 		'Myanmar';
 	src:
-		url('../aion_fonts/notoserifmyanmar-semicondensed.woff2')	format('woff2'),
-		url('../aion_fonts/notoserifmyanmar-semicondensed.woff')	format('woff'),
-		url('../aion_fonts/notoserifmyanmar-semicondensed.ttf')		format('truetype');
+		url('../fonts/notoserifmyanmar-semicondensed.woff2')	format('woff2'),
+		url('../fonts/notoserifmyanmar-semicondensed.woff')	format('woff'),
+		url('../fonts/notoserifmyanmar-semicondensed.ttf')		format('truetype');
 }
 span.mya-my { font-family: 'Myanmar', 'NotoSans', 'Arial', 'sans-serif'; }

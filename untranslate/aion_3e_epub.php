@@ -503,10 +503,10 @@ $basic_font = <<< EOF
 }
 
 EOF;
-if (!copy("./aion_customize_index/aion_fonts/$l.license",	"$folder/fonts/$l.license")){	AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($l)"); }
-if (!copy("./aion_customize_index/aion_fonts/$f.woff2",		"$folder/fonts/$f.woff2")) {	AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
-if (!copy("./aion_customize_index/aion_fonts/$f.woff",		"$folder/fonts/$f.woff")) {		AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
-if (!copy("./aion_customize_index/aion_fonts/$f.ttf",		"$folder/fonts/$f.ttf")) {		AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
+if (!copy("./aion_customize_index/fonts/$l.license",	"$folder/fonts/$l.license")){	AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($l)"); }
+if (!copy("./aion_customize_index/fonts/$f.woff2",		"$folder/fonts/$f.woff2")) {	AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
+if (!copy("./aion_customize_index/fonts/$f.woff",		"$folder/fonts/$f.woff")) {		AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
+if (!copy("./aion_customize_index/fonts/$f.ttf",		"$folder/fonts/$f.ttf")) {		AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
 
 // FOREIGN FONT 
 $fray = array(
@@ -559,29 +559,31 @@ $foreign_font = <<< EOF
 .ff { font-family: 'NotoSans', '$n', 'Arial', 'sans-serif'; }
 
 EOF;
-if (!copy("./aion_customize_index/aion_fonts/$l.license",	"$folder/fonts/$l.license")) {	AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($l)"); }
-if (!copy("./aion_customize_index/aion_fonts/$f.woff2",		"$folder/fonts/$f.woff2")) {	AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
-if (!copy("./aion_customize_index/aion_fonts/$f.woff",		"$folder/fonts/$f.woff")) {		AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
-if (!copy("./aion_customize_index/aion_fonts/$f.ttf",		"$folder/fonts/$f.ttf")) {		AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
+if (!copy("./aion_customize_index/fonts/$l.license",	"$folder/fonts/$l.license")) {	AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($l)"); }
+if (!copy("./aion_customize_index/fonts/$f.woff2",		"$folder/fonts/$f.woff2")) {	AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
+if (!copy("./aion_customize_index/fonts/$f.woff",		"$folder/fonts/$f.woff")) {		AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
+if (!copy("./aion_customize_index/fonts/$f.ttf",		"$folder/fonts/$f.ttf")) {		AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
 }
 
 $contents = <<< EOF
 /***
 $G_COMMENT
 ***/
+
 /*** PALETTE
-Text		#191919
-Dark		#32004A
-Medium		#7300AB
-Light		#A700F9
-Lighter		#E0C5EB
-Lighterer	#E9D5F1
-Lightest	#F1E5F6
-Lightester	#F4ECF8
-GRAY		#CCCCCC
-Light Gray	#E0E0E0
-Blue		#0000FF
-Light Blue	#E1E1FA
+PURPLE
+#663399 purple text
+#9966CC purple highlight
+#F5F0FF purple background
+BLUE
+#006699 blue text
+#E0F0FA blue background
+OTHER
+#191919 black text
+#C5C5C5 gray dark
+#EDEDED gray light
+#FFFFFF white
+#000000 black
 ***/
 
 /*** FONT ***/
@@ -594,10 +596,10 @@ html { height: 100%; }
 body { height: 100%; margin: 0; min-width: 360px; font-size: 100%; color: #191919; }
 h1, h2, h3, h4 { margin: 0 0 10px 0; }
 p, form { margin: 0 0 10px 0; }
-img { max-width: 100%; height: auto; border: 1px solid #CCCCCC; }
+img { max-width: 100%; height: auto; border: 1px solid #C5C5C5; }
 img.simple { max-width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto; margin-bottom: 10px; border: 0; }
-a { text-decoration: none; color: #7300AB; }
-a:hover { color: #A700F9; }
+a { text-decoration: none; color: #663399; }
+a:hover { color: #9966CC; }
 .hidden { display: none; }
 .left { text-align: left; }
 .center { text-align: center; }
@@ -621,7 +623,7 @@ a:hover { color: #A700F9; }
 .chap { }
 .cov { text-align: center; margin: auto; } 
 .map { text-align: center; margin: auto; }
-.pix { max-width: 50%; height: auto; border: 1px solid #CCCCCC; float: right; margin: 0 0 10px 10px; }
+.pix { max-width: 50%; height: auto; border: 1px solid #C5C5C5; float: right; margin: 0 0 10px 10px; }
 .j316 { font-weight: 600; font-style: italic; }
 .cap { text-align: center; font-style: italics; }
 .tag { color: #191919; }
@@ -631,7 +633,7 @@ a:hover { color: #A700F9; }
 .tex { }
 .lan { }
 .num { font-weight: 700; }
-.not { font-weight: 700; color: #32004A; white-space: nowrap; } 
+.not { font-weight: 700; color: #663399; white-space: nowrap; } 
 .rtl-tab { width: 100%; text-align: right; }
 .rtl-ref { width: 50px; text-align: right; }
 
@@ -895,7 +897,7 @@ $G_COMMENT
 <body>
 <h2 class="title">Aiōnios and Aïdios</h2>
 <p class='center'>$languagehtml<a href='http://www.AionianBible.org/Aionios-and-Aidios' target='_blank'>www.AionianBible.org/Aionios-and-Aidios</a></p>
-<p><img src="images/BOOK-Life-Time-Entirety-A-Study-of-AION-Heleen-Keizer.jpg" alt="Life Time Entirety, A Study of AION by Heleen Keizer" class='pix' />Dr. Heleen Keizer wrote <b><i>Life Time Entirety</i></b> to explain the meaning of the Greek word aiōn. She begins, "<i>The Greek word aiōn has a wide ranging meaning as well as a wide ranging history: it is most commonly translated as ‘eternity’ but has as its first meaning ‘life’ or ‘lifetime’; it has its place in Greek literature and philosophy, but also in the Greek Bible, where it represents the Hebrew word ‘olâm.</i>" Her 315 page PhD dissertation shows that the Greek word aiōn originally denotes life time, duration, or complete life, but not eternal. You can read her <a href='http://www.aionianbible.org/Life-Time-Entirety-Keizer' target='_blank' title='Visit Dr. Keizers dissertation online'>dissertation online</a> or an <a href='http://www.aionianbible.org/BOOK-Life-Time-Entirety-Article-by-Heleen-Keizer.pdf' target='_blank' title='View an abstract of Dr. Keizers dissertation'>abstract of her conclusions here</a>.</p>
+<p><img src="images/BOOK-Life-Time-Entirety-A-Study-of-AION-Heleen-Keizer.jpg" alt="Life Time Entirety, A Study of AION by Heleen Keizer" class='pix' />Dr. Heleen Keizer wrote <b><i>Life Time Entirety</i></b> to explain the meaning of the Greek word aiōn. She begins, "<i>The Greek word aiōn has a wide ranging meaning as well as a wide ranging history: it is most commonly translated as ‘eternity’ but has as its first meaning ‘life’ or ‘lifetime’; it has its place in Greek literature and philosophy, but also in the Greek Bible, where it represents the Hebrew word ‘olâm.</i>" Her 315 page PhD dissertation shows that the Greek word aiōn originally denotes life time, duration, or complete life, but not eternal. You can read her <a href='http://www.aionianbible.org/Life-Time-Entirety-Keizer' target='_blank' title='Visit Dr. Keizers dissertation online'>dissertation online</a> or an <a href='http://www.aionianbible.org/Life-Time-Entirety-Keizer-Abstract' target='_blank' title='View an abstract of Dr. Keizers dissertation'>abstract of her conclusions here</a>.</p>
 
 <p><img src="images/BOOK-Terms-for-Eternity-Aionios-and-Aidios-in-Classical-and-Christian-Texts-Ramelli-Konstan.jpg" alt="Terms for Eternity Aionios and Aidios in Classical and Christian Texts by Ramelli and Konstan" class='pix' />Ilaria Ramelli and David Konstan wrote <b><i>Terms for Eternity: Aionios and Aidios in Classical and Christian Texts</i></b>, <a href='http://www.aionianbible.org/Terms-for-Eternity-Ramelli-Konstan' target='_blank' title='Purchase Ramelli and Konstan at Amazon.com'>available at Amazon</a>. This highly technical volume quotes hundreds of sources from classical literature, the Septuagint, early church fathers, and church fathers after Origen to determine the meaning and usage of <i>Aiōnios</i> and <i>Aïdios</i>.  They conclude that <i>Aïdios</i> nearly always means eternal in the absolute sense.  <i>Aïdios</i> is used twice in the Bible: Romans 1:20 concerning God and Jude 6 concerning the bonds on fallen angels.  <i>Aiōnios</i>, however, has a range of meanings including life, age, generation, and eon.  They argue that <i>Aiōnios</i> can also mean eternal, but only when God is the subject.  Ramelli and Konstan concur with Keizer and conclude saying, "<i>Needless to say, the ethical implications of this question are profound.</i>"</p>
 <p>Every quest for the truth must have the wisdom to eliminate what we prefer to be true and also the courage to eliminate what we fear to be true in order to discover what Christ says is actually true.</p>
@@ -1128,7 +1130,7 @@ $G_COMMENT
 <h2 class='title'>History Past</h2>
 <div class='cover'><img src="images/HISTORY-PAST.jpg" alt="History Past" /></div>
 <p><a href='http://www.aionianbible.org/Timeline' target='_blank' title='Download printable chart'>Printable version</a></p>
-<p>Derived from <a href='http://www.aionianbible.org/The-Annals-of-the-World-by-James-Uusher.pdf' target='_blank' title='Download PDF'>The Annals of the World by James Uusher</a> and <a href='http://www.aionianbible.org/Wikipedia-Timeline-of-Christian-Missions' target='_blank' title='Visit Wikipedia'>Timeline of Christian missions, Wikipedia</a>.</p>
+<p>Derived from <a href='http://www.aionianbible.org/Uusher' target='_blank' title='Download PDF'>The Annals of the World by James Uusher</a> and <a href='http://www.aionianbible.org/Wikipedia-Timeline-of-Christian-Missions' target='_blank' title='Visit Wikipedia'>Timeline of Christian missions, Wikipedia</a>.</p>
 </body>
 </html>
 EOF;

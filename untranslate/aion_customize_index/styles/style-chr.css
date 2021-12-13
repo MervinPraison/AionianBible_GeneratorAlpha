@@ -3,16 +3,16 @@
 	font-family:
 		'NotoSans';
 	src:
-		url('../aion_fonts/notosans-basic-regular.woff2')	format('woff2'),
-		url('../aion_fonts/notosans-basic-regular.woff')	format('woff'),
-		url('../aion_fonts/notosans-basic-regular.ttf')		format('truetype');
+		url('../fonts/notosans-basic-regular.woff2')	format('woff2'),
+		url('../fonts/notosans-basic-regular.woff')	format('woff'),
+		url('../fonts/notosans-basic-regular.ttf')		format('truetype');
 }
 @font-face {
 	font-family:
 		'Cherokee';
 	src:
-		url('../aion_fonts/donisiladv.woff2')	format('woff2'),
-		url('../aion_fonts/donisiladv.woff')	format('woff'),
-		url('../aion_fonts/donisiladv.ttf')		format('truetype');
+		url('../fonts/donisiladv.woff2')	format('woff2'),
+		url('../fonts/donisiladv.woff')	format('woff'),
+		url('../fonts/donisiladv.ttf')		format('truetype');
 }
 span.chr { font-family: 'Cherokee', 'NotoSans', 'Arial', 'sans-serif'; }
