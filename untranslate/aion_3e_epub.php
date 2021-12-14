@@ -574,10 +574,10 @@ $G_COMMENT
 PURPLE
 #663399 purple text
 #9966CC purple highlight
-#F5F0FF purple background
+#E0D6EB purple background
 BLUE
 #006699 blue text
-#E0F0FA blue background
+#CCE0EB blue background
 OTHER
 #191919 black text
 #C5C5C5 gray dark

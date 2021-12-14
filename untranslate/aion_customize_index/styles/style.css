@@ -2,10 +2,10 @@
 PURPLE
 #663399 purple text
 #9966CC purple highlight
-#F5F0FF purple background
+#E0D6EB purple background
 BLUE
 #006699 blue text
-#E0F0FA blue background
+#CCE0EB blue background
 OTHER
 #191919 black text
 #C5C5C5 gray dark
@@ -59,7 +59,7 @@ a:hover { color: #9966CC; }
 #vert { display: table-cell; vertical-align: middle; text-align: center; }
 #horz { margin: 0 auto; display: inline-block; padding: 5px 5px 100px 5px;  }
 #home a { text-decoration: none; color: #191919; }
-#home a:hover #butt { border: 1px solid #9966CC; border-radius: 7px;	background-color: #F5F0FF; }
+#home a:hover #butt { border: 1px solid #9966CC; border-radius: 7px;	background-color: #E0D6EB; }
 #home a:hover #aion { color: #663399; }
 #butt { margin: 0 auto; padding: 10px; text-align: center; }
 #butt h2	{ margin: 10px 0 20px 0; }
@@ -83,7 +83,7 @@ a:hover { color: #9966CC; }
 #body.larger { font-size: 200%; }
 #menu { display: inline-block; float: right; white-space: nowrap; }
 #menu a { color: #FFFFFF; margin: 0px 0px 0px 15px; display: inline-block; font-size: 175%; }
-#menu a:hover { color: #F5F0FF; }
+#menu a:hover { color: #E0D6EB; }
 #menu a#accessible { font-weight: bold; font-size: 200%;  }
 
 /*** BODY ***/
@@ -96,12 +96,12 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 #word { }
 #word .word-bible a { padding: 15px 5px; border: 1px solid #EDEDED; display: block; }
 #word .word-bible.odd a { background-color: #EDEDED; }
-#word .word-bible.aionian-bible a { background-color: #F5F0FF; }
+#word .word-bible.aionian-bible a { background-color: #E0D6EB; }
 #word .word-bible a:hover { color: #FFFFFF; background-color: #9966CC; border: 1px solid #9966CC; }
 #word .word-bible.aionian-bible a:hover { color: #FFFFFF; background-color: #9966CC; border: 1px solid #9966CC; }
 #word .word-buy { padding: 15px 5px; border: 1px solid #EDEDED; display: block; }
 #word .word-buy.odd { background-color: #EDEDED; }
-#word .word-buy.odd.aionian-bible { background-color: #F5F0FF; }
+#word .word-buy.odd.aionian-bible { background-color: #E0D6EB; }
 #word .word-buy a:hover { color: #FFFFFF; background-color: #9966CC; border: 1px solid #9966CC; }
 #word .word-buy .buylinks { color: #000000; font-size: 90%; }
 #word .word-buy .buylinks a { text-decoration: underline; color: #000000; }
@@ -116,9 +116,9 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 #word-search .word-chapter { }
 #word-search .word-chapter a { text-align: center; min-width: 30px;  padding: 4px; display: inline-block; border: 1px solid #EDEDED; }
 #word-search .word-chapter a:hover { color: #FFFFFF; background-color: #9966CC; border: 1px solid #9966CC; }
-#word-search .word-chapter a.selected { background-color: #F5F0FF; border: 1px solid #EDEDED; font-weight: bold; }
+#word-search .word-chapter a.selected { background-color: #E0D6EB; border: 1px solid #EDEDED; font-weight: bold; }
 #word-search .word-chapter a.selected:hover { background-color: #9966CC; border: 1px solid #9966CC; }
-#word-search .word-chapter a.strongs { background-color: #E0F0FA; border: 1px solid #EDEDED; color: #006699; text-decoration: underline; font-weight: bold; }
+#word-search .word-chapter a.strongs { background-color: #CCE0EB; border: 1px solid #EDEDED; color: #006699; text-decoration: underline; font-weight: bold; }
 #word-search .word-chapter a.strongs:hover { color: #FFFFFF; background-color: #9966CC; border: 1px solid #9966CC; }
 
 #word-menu { font-size: 130%; }
@@ -131,8 +131,8 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 #word-menu a:hover { background-color: #EDEDED; }
 #word-menu { overflow: auto; }
 #word-menu .word-menu-l { float: left; }
-#word-menu .word-menu-l .word-book { background-color: #F5F0FF; }
-#word-menu .word-menu-l .word-strongs { background-color: #E0F0FA; }
+#word-menu .word-menu-l .word-book { background-color: #E0D6EB; }
+#word-menu .word-menu-l .word-strongs { background-color: #CCE0EB; }
 #word-menu .word-strongs a { color: #006699; }
 #word-menu .word-menu-r { float: right; }
 
@@ -143,19 +143,19 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 #word .word-para-one.allverses { margin-bottom: 15px; }
 #word.aionian .word-para-two { margin-left: 0; }
 #word .word-para-two { margin-left: 12px; }
-#word .word-para-two .word-text { background-color: #F5F0FF; font-style: italic; }
-#word .word-para-two .word-text .word-aionian { background-color: #F5F0FF; }
-#word .word-para-two .word-text .word-questioned { background-color: #F5F0FF; }
+#word .word-para-two .word-text { background-color: #E0D6EB; font-style: italic; }
+#word .word-para-two .word-text .word-aionian { background-color: #E0D6EB; }
+#word .word-para-two .word-text .word-questioned { background-color: #E0D6EB; }
 #word .word-verse { font-weight: bold; }
 #word .word-verse-lang { font-weight: bold; }
 #word .word-text { }
-#word .word-questioned { background-color: #F5F0FF; }
+#word .word-questioned { background-color: #E0D6EB; }
 #word .word-questioned .word-footnote { font-weight: bold; font-style: italic; }
-#word .word-aionian { background-color: #F5F0FF; }
+#word .word-aionian { background-color: #E0D6EB; }
 #word .word-aionian .word-footnote { font-weight: bold; font-style: italic; }
 #word .word-aionian-questioned { background-color: #EDEDED; padding: 10px; }
 #word .word-text.strongs,
-#word .word-text.strongs .word-aionian { background-color: #E0F0FA; }
+#word .word-text.strongs .word-aionian { background-color: #CCE0EB; }
 
 #word .word-rtl { margin-bottom: 10px; width: 100%; }
 #word .word-rtl.allverses { margin-bottom: 15px; }
@@ -181,7 +181,7 @@ div.word-warning { color: red; }
 #strong-page .word-footnote,
 #strong-verse .word-footnote { font-weight: bold; font-style: italic; }
 #strong form { margin: 15px 0 15px 0; }
-#strong-verse .strong-entry.strongs { background-color: #E0F0FA; }
+#strong-verse .strong-entry.strongs { background-color: #CCE0EB; }
 .word-blue { color: #006699; }
 
 /*** MAPS ***/
@@ -216,7 +216,7 @@ div.word-warning { color: red; }
 	background-color: #663399;
 }
 #tail a { color: #FFFFFF; }
-#tail a:hover { color: #F5F0FF; }
+#tail a:hover { color: #E0D6EB; }
 
 /*** SOCIAL FOOTER ***/
 #social-footer { width: 100%; margin-top: 20px; overflow: auto;}
@@ -260,7 +260,7 @@ form input[type="submit"] {
 	border: 1px solid #9966CC;
 	width: 100%;
     padding: 1%;
-    background: #F5F0FF;
+    background: #E0D6EB;
     color: #663399;
 }
 form input[type="submit"]:hover,
@@ -278,7 +278,7 @@ form input[type="submit"]:focus {
 }
 @media screen and (max-width: 1024px) {
 	#tail { border: none; border-top: 1px solid #9966CC; border-radius: 0; }
-	#sticky-foot { background-color: #F5F0FF; }
+	#sticky-foot { background-color: #E0D6EB; }
 	#page {	padding: 0; }
 }
 @media screen and (max-width: 512px) {
