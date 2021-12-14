@@ -279,7 +279,7 @@ form input[type="submit"]:focus {
 }
 @media screen and (max-width: 1024px) {
 	#tail { border: none; border-top: 1px solid #9966CC; border-radius: 0; }
-	#sticky-foot { background-color: #E0D6EB; }
+	#sticky-foot { background-color: #663399; }
 	#page {	padding: 0; }
 }
 @media screen and (max-width: 512px) {
