@@ -1125,6 +1125,13 @@ abcms_html(TRUE,'class=word-read');
 abcms_head(abcms_word_menu('all'));
 echo "<div id='word' class='verseall'>\n";
 echo "<h2 class=center>".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']]." ".$_Part[3].":".$_Part[4]."</h2>\n";
+echo "<div class='center' id='word-quick'>";
+$last = NULL;
+foreach( $bible_ALL as $bible => $version ) {
+	if($last!=$version['LANGUAGEENGLISH'][0]) {	$last=$version['LANGUAGEENGLISH'][0]; echo "<a href='#Language_$last' title='Languages beginning with $last'>$last</a>"; }
+}
+echo "</div>\n";
+$last = NULL;
 $count = 0;
 foreach( $bible_ALL as $bible => $version ) {
 	$_Part[1] = str_replace('Holy-Bible---','',$bible);
@@ -1133,6 +1140,13 @@ foreach( $bible_ALL as $bible => $version ) {
 		continue;
 	}
 	if (!abcms_word_init_chap(TRUE)) { continue; }
+	if($last!=$version['LANGUAGEENGLISH'][0]) {
+		$last=$version['LANGUAGEENGLISH'][0];
+		$quick_id = "id='Language_$last'";
+	}
+	else {
+		$quick_id = "";
+	}	
 	$rtl = (empty($_BibleONE['T_VERSIONS']['RTL']) ? "" : "dir='rtl'" );
 	$rtlref = ($rtl ? 'rtlref' : '');
 	$bible_lang = "<span lang='".$version['LANGUAGECODEISO']."' class='".$version['LANGUAGECSS']."'>";
@@ -1144,7 +1158,7 @@ foreach( $bible_ALL as $bible => $version ) {
 	if (empty($_BibleCHAP1[$_Part[4]])) {	$verse_text = "Verse not available"; }
 	else {									$verse_text =  "$_BibleONE_Lang word-text'>".$_BibleCHAP1[$_Part[4]].'</span>'; ++$count; }
 	$verse_text = (empty($_BibleCHAP1[$_Part[4]]) ? 'Verse not available' : "$_BibleONE_Lang word-text'>".$_BibleCHAP1[$_Part[4]].'</span>');
-	echo "<div class='word-para-ref $rtlref'><a href='".abcms_href("/Bibles/$_Part[1]/$_Part[2]/$_Part[3]",FALSE,TRUE,TRUE)."' title='View verse chapter'>".$language." ~ ".$name."</a></div>\n";
+	echo "<div class='word-para-ref $rtlref' $quick_id><a href='".abcms_href("/Bibles/$_Part[1]/$_Part[2]/$_Part[3]",FALSE,TRUE,TRUE)."' title='View verse chapter'>".$language." ~ ".$name."</a></div>\n";
 	if ($rtl) {	echo "<table class='word-rtl allverses'><tr><td class='word-text'>$verse_text</td></tr></table>\n"; }
 	else {		echo "<div class='word-para-one allverses'><span class='word-text'>$verse_text</span></div>\n"; }
 }
