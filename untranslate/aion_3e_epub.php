@@ -575,6 +575,7 @@ PURPLE
 #663399 purple text
 #9966CC purple highlight
 #E0D6EB purple background
+#F0EBF5 cover background
 BLUE
 #006699 blue text
 #CCE0EB blue background
