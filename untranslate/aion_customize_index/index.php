@@ -1132,15 +1132,17 @@ foreach( $bible_ALL as $bible => $version ) {
 }
 echo "</div>\n";
 $last = NULL;
+$bible_ALL = array( 'Holy-Bible---English---Aionian-Bible2' => $bible_ALL['Holy-Bible---English---Aionian-Bible']) + $bible_ALL;
 $count = 0;
 foreach( $bible_ALL as $bible => $version ) {
 	$_Part[1] = str_replace('Holy-Bible---','',$bible);
+	$_Part[1] = ($_Part[1] == 'English---Aionian-Bible2' ? 'English---Aionian-Bible' : $_Part[1]);
 	if (!is_array(($_BibleONE = @json_decode(file_get_contents('./library/Holy-Bible---'.$_Part[1].'---Aionian-Edition.json'),true))) || empty($_BibleONE['T_BOOKS'])) {
 		abcms_errs("abcms_word_vers_all() bible not found!");
 		continue;
 	}
 	if (!abcms_word_init_chap(TRUE)) { continue; }
-	if($last!=$version['LANGUAGEENGLISH'][0]) {
+	if($last!=$version['LANGUAGEENGLISH'][0] && $_Part[1] != 'English---Aionian-Bible') {
 		$last=$version['LANGUAGEENGLISH'][0];
 		$quick_id = "id='Language_$last'";
 	}
