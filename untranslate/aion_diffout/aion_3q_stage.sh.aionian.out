@@ -1442,7 +1442,7 @@
 *** AION: WARNING! SELAH! Holy-Bible---English---A-Conservative-Version	035	HAB	003	009:	Thy bow was made quite bare.  The oaths to the tribes were a sure word. (Selah) Thou split the earth with rivers.
 *** AION: WARNING! SELAH! Holy-Bible---English---A-Conservative-Version	035	HAB	003	013:	Thou went forth for the salvation of thy people, for the salvation of thine anointed.  Thou wound the head out of the house of the wicked man, laying bare the foundation even to the neck. (Selah) 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---English---A-Conservative-Version---Source-Edition.SWORD.txt to ../www-stageresources/Holy-Bible---English---A-Conservative-Version---Standard-Edition.noia byte=6005762 rows=31102
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---Aionian-Bible,  byte-orig = 4373392,  byte-fix = 4372882,  byte-delta = -510,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---Aionian-Bible,  byte-orig = 4373394,  byte-fix = 4372884,  byte-delta = -510,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---Aionian-Bible	019	PSA	003	002:	Many there are who say of my soul, "There is no salvation for him in God." (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---Aionian-Bible	019	PSA	003	004:	I cried out to the LORD with my voice, and he answered me from his holy mountain. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---Aionian-Bible	019	PSA	003	008:	Salvation belongs to the LORD.  Your blessing is upon your people. (Selah) 
@@ -1524,7 +1524,7 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---Aionian-Bible: Empty verse skipped: LUK 017 036 
 *** AION: WARNING REMAPPED = Holy-Bible---English---Aionian-Bible: Empty verse skipped: JOH 005 004 
 *** AION: WARNING REMAPPED = Holy-Bible---English---Aionian-Bible: Empty verse skipped: ROM 016 024 
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---Aionian-Bible---Source-Edition.NHEB.txt to ../www-stageresources/Holy-Bible---English---Aionian-Bible---Standard-Edition.noia byte=5679605 rows=31094
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---Aionian-Bible---Source-Edition.NHEB.txt to ../www-stageresources/Holy-Bible---English---Aionian-Bible---Standard-Edition.noia byte=5679607 rows=31094
 *** AION: WARNING! RAWFIX change for Holy-Bible---English---American-Standard-Version-1901,  byte-orig = 4446246,  byte-fix = 4446246,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---American-Standard-Version-1901	019	PSA	003	002:	Many there are that say of my soul, There is no help for him in God. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---American-Standard-Version-1901	019	PSA	003	004:	I cry unto Jehovah with my voice, And he answereth me out of his holy hill. (Selah) 
@@ -2675,7 +2675,7 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---Montgomery-NT: Empty verse skipped: MAR 011 026 
 *** AION: WARNING REMAPPED = Holy-Bible---English---Montgomery-NT: Empty verse skipped: JOH 017 016 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---English---Montgomery-NT---Source-Edition.SWORD.txt to ../www-stageresources/Holy-Bible---English---Montgomery-NT---Standard-Edition.noia byte=1370179 rows=7940
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---New-Heart-Aramaic,  byte-orig = 4376845,  byte-fix = 4376404,  byte-delta = -441,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---New-Heart-Aramaic,  byte-orig = 4376847,  byte-fix = 4376406,  byte-delta = -441,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Aramaic	019	PSA	003	002:	Many there are who say of my soul, "There is no salvation for him in God." (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Aramaic	019	PSA	003	004:	I cried out to the LORD with my voice, and he answered me from his holy mountain. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Aramaic	019	PSA	003	008:	Salvation belongs to the LORD.  Your blessing is upon your people. (Selah) 
@@ -2757,8 +2757,8 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-Aramaic: Empty verse skipped: LUK 017 036 
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-Aramaic: Empty verse skipped: JOH 005 004 
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-Aramaic: Empty verse skipped: ROM 016 024 
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---New-Heart-Aramaic---Source-Edition.NHEB.txt to ../www-stageresources/Holy-Bible---English---New-Heart-Aramaic---Standard-Edition.noia byte=5807404 rows=31094
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---New-Heart-Jehovah,  byte-orig = 4369138,  byte-fix = 4368697,  byte-delta = -441,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---New-Heart-Aramaic---Source-Edition.NHEB.txt to ../www-stageresources/Holy-Bible---English---New-Heart-Aramaic---Standard-Edition.noia byte=5807406 rows=31094
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---New-Heart-Jehovah,  byte-orig = 4369140,  byte-fix = 4368699,  byte-delta = -441,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Jehovah	019	PSA	003	002:	Many there are who say of my soul, "There is no salvation for him in God." (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Jehovah	019	PSA	003	004:	I cried out to Jehovah with my voice, and he answered me from his holy mountain. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Jehovah	019	PSA	003	008:	Salvation belongs to Jehovah.  Your blessing is upon your people. (Selah) 
@@ -2840,8 +2840,8 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-Jehovah: Empty verse skipped: LUK 017 036 
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-Jehovah: Empty verse skipped: JOH 005 004 
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-Jehovah: Empty verse skipped: ROM 016 024 
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---New-Heart-Jehovah---Source-Edition.NHEB.txt to ../www-stageresources/Holy-Bible---English---New-Heart-Jehovah---Standard-Edition.noia byte=5799729 rows=31094
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---New-Heart-Jesus-Messiah,  byte-orig = 4374564,  byte-fix = 4374123,  byte-delta = -441,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---New-Heart-Jehovah---Source-Edition.NHEB.txt to ../www-stageresources/Holy-Bible---English---New-Heart-Jehovah---Standard-Edition.noia byte=5799731 rows=31094
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---New-Heart-Jesus-Messiah,  byte-orig = 4374566,  byte-fix = 4374125,  byte-delta = -441,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Jesus-Messiah	019	PSA	003	002:	Many there are who say of my soul, "There is no salvation for him in God." (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Jesus-Messiah	019	PSA	003	004:	I cried out to the LORD with my voice, and he answered me from his holy mountain. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Jesus-Messiah	019	PSA	003	008:	Salvation belongs to the LORD.  Your blessing is upon your people. (Selah) 
@@ -2923,7 +2923,7 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-Jesus-Messiah: Empty verse skipped: LUK 017 036 
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-Jesus-Messiah: Empty verse skipped: JOH 005 004 
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-Jesus-Messiah: Empty verse skipped: ROM 016 024 
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---New-Heart-Jesus-Messiah---Source-Edition.NHEB.txt to ../www-stageresources/Holy-Bible---English---New-Heart-Jesus-Messiah---Standard-Edition.noia byte=5991752 rows=31094
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---New-Heart-Jesus-Messiah---Source-Edition.NHEB.txt to ../www-stageresources/Holy-Bible---English---New-Heart-Jesus-Messiah---Standard-Edition.noia byte=5991754 rows=31094
 *** AION: WARNING! RAWFIX change for Holy-Bible---English---New-Heart-Messianic,  byte-orig = 4376187,  byte-fix = 4375746,  byte-delta = -441,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Messianic	019	PSA	003	002:	Many there are who say of my soul, "There is no salvation for him in God." (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Messianic	019	PSA	003	004:	I cried out to the LORD with my voice, and he answered me from his holy mountain. (Selah) 
@@ -3007,8 +3007,8 @@
 *** AION: WARNING! Space2 missing! Joh 5:4
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-Messianic: Empty verse skipped: JOH 005 000 
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-Messianic: Empty verse skipped: ROM 016 024 
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---New-Heart-Messianic---Source-Edition.NHEB.txt to ../www-stageresources/Holy-Bible---English---New-Heart-Messianic---Standard-Edition.noia byte=5868973 rows=31094
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---New-Heart-Standard,  byte-orig = 4373392,  byte-fix = 4372951,  byte-delta = -441,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---New-Heart-Messianic---Source-Edition.NHEB.txt to ../www-stageresources/Holy-Bible---English---New-Heart-Messianic---Standard-Edition.noia byte=5868975 rows=31094
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---New-Heart-Standard,  byte-orig = 4373394,  byte-fix = 4372953,  byte-delta = -441,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Standard	019	PSA	003	002:	Many there are who say of my soul, "There is no salvation for him in God." (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Standard	019	PSA	003	004:	I cried out to the LORD with my voice, and he answered me from his holy mountain. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Standard	019	PSA	003	008:	Salvation belongs to the LORD.  Your blessing is upon your people. (Selah) 
@@ -3090,8 +3090,8 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-Standard: Empty verse skipped: LUK 017 036 
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-Standard: Empty verse skipped: JOH 005 004 
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-Standard: Empty verse skipped: ROM 016 024 
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---New-Heart-Standard---Source-Edition.NHEB.txt to ../www-stageresources/Holy-Bible---English---New-Heart-Standard---Standard-Edition.noia byte=5835144 rows=31094
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---New-Heart-YHWH,  byte-orig = 4348761,  byte-fix = 4348320,  byte-delta = -441,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---New-Heart-Standard---Source-Edition.NHEB.txt to ../www-stageresources/Holy-Bible---English---New-Heart-Standard---Standard-Edition.noia byte=5835146 rows=31094
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---New-Heart-YHWH,  byte-orig = 4348763,  byte-fix = 4348322,  byte-delta = -441,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-YHWH	019	PSA	003	002:	Many there are who say of my soul, "There is no salvation for him in God." (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-YHWH	019	PSA	003	004:	I cried out to YHWH with my voice, and he answered me from his holy mountain. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-YHWH	019	PSA	003	008:	Salvation belongs to YHWH.  Your blessing is upon your people. (Selah) 
@@ -3173,7 +3173,7 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-YHWH: Empty verse skipped: LUK 017 036 
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-YHWH: Empty verse skipped: JOH 005 004 
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-YHWH: Empty verse skipped: ROM 016 024 
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---New-Heart-YHWH---Source-Edition.NHEB.txt to ../www-stageresources/Holy-Bible---English---New-Heart-YHWH---Standard-Edition.noia byte=5686072 rows=31094
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---New-Heart-YHWH---Source-Edition.NHEB.txt to ../www-stageresources/Holy-Bible---English---New-Heart-YHWH---Standard-Edition.noia byte=5686074 rows=31094
 *** AION: WARNING! RAWFIX change for Holy-Bible---English---One-Unity-Resource-Bible,  byte-orig = 2137499,  byte-fix = 2136340,  byte-delta = -1159,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---One-Unity-Resource-Bible	019	PSA	003	002:	Many there are who say of my soul, “There is no yishu'ah ·salvation· for him in God.” (Selah) ·contemplation with musical interlude·
 *** AION: WARNING! SELAH! Holy-Bible---English---One-Unity-Resource-Bible	019	PSA	003	004:	I cry to Adonai with my voice, and he answers me out of his holy hill. (Selah) ·contemplation with musical interlude·
@@ -6170,8 +6170,8 @@
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Greek---Greek-Pickering-Family-35---Source-Edition.SWORD.txt to ../www-stageresources/Holy-Bible---Greek---Greek-Pickering-Family-35---Standard-Edition.noia byte=2015346 rows=7953
 *** AION: WARNING! RAWFIX change for Holy-Bible---Greek---Greek-Textus-Receptus,  byte-orig = 975138,  byte-fix = 975153,  byte-delta = 15,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Greek---Greek-Textus-Receptus---Source-Edition.UNBOUND.txt to ../www-stageresources/Holy-Bible---Greek---Greek-Textus-Receptus---Standard-Edition.noia byte=1995356 rows=7957
-*** AION: WARNING! RAWFIX change for Holy-Bible---Greek---Greek-Textus-Receptus-Boyd,  byte-orig = 931231,  byte-fix = 931231,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd---Standard-Edition.noia byte=2188373 rows=7957
+*** AION: WARNING! RAWFIX change for Holy-Bible---Greek---Greek-Textus-Receptus-Boyd,  byte-orig = 931230,  byte-fix = 931230,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd---Standard-Edition.noia byte=2188372 rows=7957
 *** AION: WARNING! RAWFIX change for Holy-Bible---Greek---Greek-Textus-Receptus-Elzevir,  byte-orig = 1225613,  byte-fix = 1225613,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Greek---Greek-Textus-Receptus-Elzevir---Source-Edition.SWORD.txt to ../www-stageresources/Holy-Bible---Greek---Greek-Textus-Receptus-Elzevir---Standard-Edition.noia byte=2052752 rows=7957
 *** AION: WARNING! RAWFIX change for Holy-Bible---Greek---Greek-Tischendorf,  byte-orig = 911518,  byte-fix = 911528,  byte-delta = 10,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
@@ -10078,9 +10078,9 @@
 *** AION: WARNING REMAPPED = Holy-Bible---Ndengereko---Ndengereko-Bible: Empty verse skipped: ACT 024 006 
 *** AION: WARNING REMAPPED = Holy-Bible---Ndengereko---Ndengereko-Bible: Empty verse skipped: ACT 028 029 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Ndengereko---Ndengereko-Bible---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Ndengereko---Ndengereko-Bible---Standard-Edition.noia byte=1394405 rows=7949
-*** AION: WARNING! RAWFIX change for Holy-Bible---Nepali---Nepali-Bible,  byte-orig = 4280072,  byte-fix = 4280070,  byte-delta = -2,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: WARNING! RAWFIX change for Holy-Bible---Nepali---Nepali-Bible,  byte-orig = 4280071,  byte-fix = 4280069,  byte-delta = -2,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING!!! BRACKET PROBLEM! Holy-Bible---Nepali---Nepali-Bible	015	EZR	002	065:	यसमा तिनीहरूका नोकर-नोकर्नीहरू (७,३३७ जना) र तिनीहरूका मन्दिरका गायक-गायिकाहरू समावेश थिएन ।
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---Nepali---Nepali-Bible---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Nepali---Nepali-Bible---Standard-Edition.noia byte=12163173 rows=31100
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---Nepali---Nepali-Bible---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Nepali---Nepali-Bible---Standard-Edition.noia byte=12163168 rows=31100
 *** AION: WARNING! RAWFIX change for Holy-Bible---Norwegian---Norwegian-Bible,  byte-orig = 4128795,  byte-fix = 4124522,  byte-delta = -4273,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING REMAPPED = Holy-Bible---Norwegian---Norwegian-Bible: SINGLE Genesis 42-43
 *** AION: WARNING REMAPPED = Holy-Bible---Norwegian---Norwegian-Bible: SINGLE Leviticus 5-6
@@ -10733,7 +10733,7 @@
 *** AION: WARNING! SELAH! Holy-Bible---Portuguese---Almeida-Bible-1911	035	HAB	003	009:	Descoberto se despertou o teu arco, pelos juramentos feitos ás tribus, pela tua palavra (Selah) Tu fendeste a terra com rios.
 *** AION: WARNING! SELAH! Holy-Bible---Portuguese---Almeida-Bible-1911	035	HAB	003	013:	Tu saiste para salvamento do teu povo, para salvamento do teu ungido: tu feriste a cabeça da casa do impio, descobrindo o alicerce até ao pescoço (Selah) 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Portuguese---Almeida-Bible-1911---Source-Edition.SWORD.txt to ../www-stageresources/Holy-Bible---Portuguese---Almeida-Bible-1911---Standard-Edition.noia byte=5806681 rows=31102
-*** AION: WARNING! RAWFIX change for Holy-Bible---Portuguese---Almeida-NewOrthography,  byte-orig = 4203526,  byte-fix = 4203538,  byte-delta = 12,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: WARNING! RAWFIX change for Holy-Bible---Portuguese---Almeida-NewOrthography,  byte-orig = 4203188,  byte-fix = 4203200,  byte-delta = 12,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---Portuguese---Almeida-NewOrthography	019	PSA	003	002:	Muitos dizem da minha alma: Não há salvação para ele em Deus (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---Portuguese---Almeida-NewOrthography	019	PSA	003	004:	Com a minha voz clamei ao Senhor, e ouviu-me desde o seu santo monte (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---Portuguese---Almeida-NewOrthography	019	PSA	003	008:	A salvação vem do Senhor; sobre o teu povo seja a tua benção. (Selah) 
@@ -10808,7 +10808,7 @@
 *** AION: WARNING! SELAH! Holy-Bible---Portuguese---Almeida-NewOrthography	035	HAB	003	003:	Deus veio de Teman, e o santo do monte de Paran (Selah) A sua glória cobriu os céus, e a terra foi cheia do seu louvor.
 *** AION: WARNING! SELAH! Holy-Bible---Portuguese---Almeida-NewOrthography	035	HAB	003	009:	Descoberto se despertou o teu arco, pelos juramentos feitos às tribos, pela tua palavra (Selah) Tu fendeste a terra com rios.
 *** AION: WARNING! SELAH! Holy-Bible---Portuguese---Almeida-NewOrthography	035	HAB	003	013:	Tu saíste para salvamento do teu povo, para salvamento do teu ungido: tu feriste a cabeça da casa do ímpio, descobrindo o alicerce até ao pescoço (Selah) 
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---Portuguese---Almeida-NewOrthography---Source-Edition.UNBOUND.txt to ../www-stageresources/Holy-Bible---Portuguese---Almeida-NewOrthography---Standard-Edition.noia byte=5918054 rows=31102
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---Portuguese---Almeida-NewOrthography---Source-Edition.UNBOUND.txt to ../www-stageresources/Holy-Bible---Portuguese---Almeida-NewOrthography---Standard-Edition.noia byte=5917706 rows=31102
 *** AION: WARNING! RAWFIX change for Holy-Bible---Portuguese---Biblia-Livre,  byte-orig = 4119263,  byte-fix = 4119263,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING!!! BRACKET PROBLEM! Holy-Bible---Portuguese---Biblia-Livre	018	JOB	042	010:	E o SENHOR livrou Jó de seu infortúnio, enquanto ele orava pelos seus amigos; e o SENHOR acrescentou a Jó o dobro de tudo quanto ele[ antes] possuía.
 *** AION: WARNING! SELAH! Holy-Bible---Portuguese---Biblia-Livre	019	PSA	003	002:	Muitos dizem de minha alma: Não há salvação para ele em Deus.(Selá)
