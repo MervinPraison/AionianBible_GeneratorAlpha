@@ -82,9 +82,13 @@ abcms_html();
 </div>
 </div>
 </div>
-<div id='buys'>
-<a href='/Buy' title='Buy Aionian Bibles and T-Shirts'><img src='/images/AionianBible-Buy.png' id='buybible' alt='Buy Bibles' title='Buy the Aionian Bible in print' /></a>
-<a href='https://www.Facebook.com/AionianBible' target='_blank' title='Facebook/AionianBible'><img src='/images/AionianBible-Facebook.png' id='facebook' alt='Facebook' title='Aionian Bible on Facebook' /></a>
+<div id='icon'>
+<a href='https://www.Facebook.com/AionianBible' target='_blank' title='Facebook/AionianBible'><img src='/images/Aionian-Bible-Facebook.png' alt='Facebook' title='Aionian Bible on Facebook' /></a>
+<a href='https://www.Twitter.com/AionianBible' target='_blank' title='Twitter/AionianBible'><img src='/images/Aionian-Bible-Twitter.png' alt='Twitter' title='Aionian Bible on Twitter' /></a>
+<a href='https://www.linkedin.com/company/nainoia-inc/' target='_blank' title='LinkedIn/AionianBible'><img src='/images/Aionian-Bible-LinkedIn.png' alt='LinkedIn' title='Aionian Bible on LinkedIn' /></a>
+<a href='https://www.instagram.com/aionianbible/' target='_blank' title='Instagram/AionianBible'><img src='/images/Aionian-Bible-Instagram.png' alt='Instagram' title='Aionian Bible on Instagram' /></a>
+<a href='https://www.youtube.com/channel/UC2pMm_8kFzAuTVgCHGtt_yA' target='_blank' title='YouTube/AionianBible'><img src='/images/Aionian-Bible-Youtube.png' alt='YouTube' title='Aionian Bible on Youtube' /></a>
+<a href='/Buy' title='Buy Aionian Bibles and T-Shirts'><img src='/images/Aionian-Bible-Button-Buy-Square.png' alt='Buy Bibles' title='Buy Aionian Bible in print' /></a>
 </div>
 <script>AionianBible_SwipeLinks('','');</script>
 <? abcms_jsonld(TRUE); ?>
@@ -189,7 +193,7 @@ PO Box 462, Bellefonte, PA 16823<BR />
 <a href='/Third-Party-Publisher-Resources' title='Third Party Publisher Resources'>Third Party Publisher Resources</a><BR />
 <form action="https://www.paypal.com/donate" method="post" target="_top">
 <input type="hidden" name="hosted_button_id" value="PNHVLFLK5B77E" />
-<input type="image" src="/images/paypal-donate-button.jpg" name="submit" title="PayPal - The safer, easier way to donate online!" alt="Donate at PayPal" />
+<input type="image" src="/images/Aionian-Bible-Button-Donate.png" name="submit" title="PayPal - The safer, easier way to donate online!" alt="Donate at PayPal" />
 </form>
 EOF;
 if ($_pnum===2 && $_SERVER['REQUEST_METHOD']!='POST') { abcms_bomb("/Publisher","Invalid URL Requested for Publisher form"); }
@@ -1486,23 +1490,20 @@ global $_Path, $_Part, $_meta, $_BibleONE, $_BibleTWO, $_SwipePREV, $_SwipeNEXT;
 // share urls from https://github.com/bradvin/social-share-urls
 $url = ($good ? urlencode(($url0=("http://www.AionianBible.org/".preg_replace('/\s+/', ' ',$_Path)))) : urlencode($url0="http://www.AionianBible.org"));
 $title = ($good ? urlencode(($title0=preg_replace('/\s+/', ' ',"Holy Bible Aionian Edition® $_meta"))) : urlencode($title0="Holy Bible Aionian Edition® ~ Homepage"));
-$by = "<a href='/Buy'><img src='/social/buy-AionianBible.png' title='Buy the Aionian Bible in print' /></a>";
-$ab = "<a href='https://www.facebook.com/AionianBible' target='_blank'><img src='/social/facebook-AionianBible.png' title='Aionian Bible on Facebook' /></a>";
-$fb = "<a href='https://www.facebook.com/sharer.php?u=$url' target='_blank'><img src='/social/facebook.png' title='Facebook' /></a>";
-$tw = "<a href='https://twitter.com/intent/tweet?url=$url&text=$title&hashtags=AionianBible' target='_blank'><img src='/social/twitter.png' title='Twitter' /></a>";
-$li = "<a href='https://www.linkedin.com/sharing/share-offsite/?url=$url' target='_blank'><img src='/social/linkedin.png' title='LinkedIn' /></a>";
-$go = "<a href='https://www.google.com/bookmarks/mark?op=edit&bkmk=$url&title=$title&labels=AionianBible' target='_blank'><img src='/social/google.png' title='Google' /></a>";
-$re = "<a href='https://reddit.com/submit?url=$url&title=$title' target='_blank'><img src='/social/reddit.png' title='Reddit' /></a>";
-$tu = "<a href='https://www.tumblr.com/widgets/share/tool?canonicalUrl=$url&title=$title&tags=AionianBible' target='_blank'><img src='/social/tumblr.png' title='Tumblr' /></a>";
-$qz = "<a href='http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=$url' target='_blank'><img src='/social/qzone.png' title='Qzone' /></a>";
-$vk = "<a href='http://vk.com/share.php?url=$url&title=$title' target='_blank'><img src='/social/vk.png' title='VK' /></a>";
-$we = "<a href='http://service.weibo.com/share/share.php?url=$url&appkey=&title=$title&pic=&ralateUid=' target='_blank'><img src='/social/weibo.png' title='Weibo' /></a>";
-$mt = "<a href='mailto:?subject=".preg_replace("/ /","%20","$title0&body=$url0")."' target='_blank'><img src='/social/email.png' title='Email' /></a>";
+$fb = "<a href='https://www.facebook.com/sharer.php?u=$url' target='_blank'><img src='/social/facebook.png' title='Facebook post' /></a>";
+$tw = "<a href='https://twitter.com/intent/tweet?url=$url&text=$title&hashtags=AionianBible' target='_blank'><img src='/social/twitter.png' title='Twitter post' /></a>";
+$li = "<a href='https://www.linkedin.com/sharing/share-offsite/?url=$url' target='_blank'><img src='/social/linkedin.png' title='LinkedIn post' /></a>";
+$re = "<a href='https://reddit.com/submit?url=$url&title=$title' target='_blank'><img src='/social/reddit.png' title='Reddit post' /></a>";
+$tu = "<a href='https://www.tumblr.com/widgets/share/tool?canonicalUrl=$url&title=$title&tags=AionianBible' target='_blank'><img src='/social/tumblr.png' title='Tumblr post' /></a>";
+$qz = "<a href='http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=$url' target='_blank'><img src='/social/qzone.png' title='Qzone post' /></a>";
+$vk = "<a href='http://vk.com/share.php?url=$url&title=$title' target='_blank'><img src='/social/vk.png' title='VK post' /></a>";
+$we = "<a href='http://service.weibo.com/share/share.php?url=$url&appkey=&title=$title&pic=&ralateUid=' target='_blank'><img src='/social/weibo.png' title='Weibo post' /></a>";
+$mt = "<a href='mailto:?subject=".preg_replace("/ /","%20","$title0&body=$url0")."' target='_blank'><img src='/social/email.png' title='Email link' /></a>";
 ?>
 <div id='social-footer'>
 <div id='google_translate_element'></div>
 <div id='social-shares'>
-<?echo "$by$ab$fb$tw$li$go$re$tu$qz$vk$we$mt";?>
+<?echo "$fb$tw$li$re$tu$qz$vk$we";?><BR /><a href='https://www.Facebook.com/AionianBible' target='_blank' title='Facebook/AionianBible'><img src='/images/Aionian-Bible-Facebook.png' title='Aionian Bible on Facebook' class='img25' /></a><a href='https://www.Twitter.com/AionianBible' target='_blank' title='Twitter/AionianBible'><img src='/images/Aionian-Bible-Twitter.png' title='Aionian Bible on Twitter' class='img25' /></a><a href='https://www.linkedin.com/company/nainoia-inc/' target='_blank' title='LinkedIn/AionianBible'><img src='/images/Aionian-Bible-LinkedIn.png' title='Aionian Bible on LinkedIn' class='img25' /></a><a href='https://www.instagram.com/aionianbible/' target='_blank' title='Instagram/AionianBible'><img src='/images/Aionian-Bible-Instagram.png' title='Aionian Bible on Instagram' class='img25' /></a><a href='https://www.youtube.com/channel/UC2pMm_8kFzAuTVgCHGtt_yA' target='_blank' title='YouTube/AionianBible'><img src='/images/Aionian-Bible-Youtube.png' title='Aionian Bible on Youtube' class='img25' /></a><?echo $mt;?><a href='/Buy' title='Buy Aionian Bibles and T-Shirts'><img src='/images/Aionian-Bible-Button-Buy-Square.png' title='Buy Aionian Bible in print' class='img25' /></a>
 </div>
 <script>function googleTranslateElementInit() { new google.translate.TranslateElement({pageLanguage: 'xx' }, 'google_translate_element'); }</script>
 <script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
