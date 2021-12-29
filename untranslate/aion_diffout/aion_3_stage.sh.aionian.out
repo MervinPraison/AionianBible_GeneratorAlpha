@@ -326,12 +326,12 @@
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Bengali---Bengali-Bible---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Bengali---Bengali-Bible---Standard-Edition.noia byte=11492611 rows=31094
 *** AION: WARNING! RAWFIX change for Holy-Bible---Breton---Breton-Gospels,  byte-orig = 468173,  byte-fix = 468173,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Breton---Breton-Gospels---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Breton---Breton-Gospels---Standard-Edition.noia byte=635642 rows=3779
-*** AION: WARNING! RAWFIX change for Holy-Bible---Bulgarian---Bulgarian-Bible,  byte-orig = 3913031,  byte-fix = 3910956,  byte-delta = -2075,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = -2075
+*** AION: WARNING! RAWFIX change for Holy-Bible---Bulgarian---Bulgarian-Bible,  byte-orig = 3913242,  byte-fix = 3911123,  byte-delta = -2119,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = -2119
 *** AION: WARNING REMAPPED = Holy-Bible---Bulgarian---Bulgarian-Bible: Empty verse skipped: ACT 002 010 
 *** AION: WARNING REMAPPED = Holy-Bible---Bulgarian---Bulgarian-Bible: Empty verse skipped: ACT 002 020 
 *** AION: WARNING REMAPPED = Holy-Bible---Bulgarian---Bulgarian-Bible: Empty verse skipped: ACT 002 030 
 *** AION: WARNING!!! BRACKET PROBLEM! Holy-Bible---Bulgarian---Bulgarian-Bible	048	GAL	001	004:	Който даде себе си за нашите грехове, за да ни избави от настоящия нечист свят ( Или Век ) според волята на нашия Бог и Отец.
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---Bulgarian---Bulgarian-Bible---Source-Edition.B4U.txt to ../www-stageresources/Holy-Bible---Bulgarian---Bulgarian-Bible---Standard-Edition.noia byte=8176067 rows=31096
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---Bulgarian---Bulgarian-Bible---Source-Edition.B4U.txt to ../www-stageresources/Holy-Bible---Bulgarian---Bulgarian-Bible---Standard-Edition.noia byte=8176395 rows=31096
 *** AION: WARNING! RAWFIX change for Holy-Bible---Calo---Calo-Bible,  byte-orig = 147866,  byte-fix = 147867,  byte-delta = 1,  verses-orig = 1151,  verses-fix = 1151,  verses-delta = 0,  average = 1
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Calo---Calo-Bible---Source-Edition.SWORD.txt to ../www-stageresources/Holy-Bible---Calo---Calo-Bible---Standard-Edition.noia byte=193274 rows=1151
 *** AION: WARNING! RAWFIX change for Holy-Bible---Cebuano---Cebuano-Bible,  byte-orig = 5234502,  byte-fix = 5234556,  byte-delta = 54,  verses-orig = 31095,  verses-fix = 31102,  verses-delta = 7,  average = 7.7142857142857
@@ -8727,7 +8727,7 @@
 *** AION: WARNING REMAPPED = Holy-Bible---Isanzu---Isanzu-Bible: Empty verse skipped: MAT 023 014 
 *** AION: WARNING REMAPPED = Holy-Bible---Isanzu---Isanzu-Bible: Empty verse skipped: ROM 016 024 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Isanzu---Isanzu-Bible---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Isanzu---Isanzu-Bible---Standard-Edition.noia byte=1371022 rows=7950
-*** AION: WARNING! RAWFIX change for Holy-Bible---Italian---Conferenza-Episcopale-Italiana,  byte-orig = 4749698,  byte-fix = 4735211,  byte-delta = -14487,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = -14487
+*** AION: WARNING! RAWFIX change for Holy-Bible---Italian---Conferenza-Episcopale-Italiana,  byte-orig = 4749685,  byte-fix = 4735198,  byte-delta = -14487,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = -14487
 *** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: SINGLE Genesis 31-32
 *** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: SINGLE Exodus 7-8
 *** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: SINGLE Exodus 21-22
@@ -8768,18 +8768,18 @@
 *** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: SINGLE Nahum 1-2
 *** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: SINGLE Zechariah 1-2
 *** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: SINGLE Malachi 3-4
-*** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: MAT 023 014 ].
-*** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: MAR 007 016 .
-*** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: MAR 009 044 .
-*** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: MAR 009 046 .
-*** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: MAR 011 026 .
-*** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: MAR 015 028 .
-*** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: LUK 017 036 .
-*** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: LUK 023 017 .
-*** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: ACT 008 037 .
-*** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: ACT 015 034 .
-*** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: ACT 024 007 .
-*** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: ACT 028 029 .
+*** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: MAT 023 014 
+*** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: MAR 007 016 
+*** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: MAR 009 044 
+*** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: MAR 009 046 
+*** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: MAR 011 026 
+*** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: MAR 015 028 
+*** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: LUK 017 036 
+*** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: LUK 023 017 
+*** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: ACT 008 037 
+*** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: ACT 015 034 
+*** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: ACT 024 007 
+*** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: ACT 028 029 
 *** AION: WARNING REMAPPED = Holy-Bible---Italian---Conferenza-Episcopale-Italiana: Empty verse skipped: ROM 016 024 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Italian---Conferenza-Episcopale-Italiana---Source-Edition.B4U.txt to ../www-stageresources/Holy-Bible---Italian---Conferenza-Episcopale-Italiana---Standard-Edition.noia byte=6053428 rows=31072
 *** AION: WARNING! RAWFIX change for Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible,  byte-orig = 4562180,  byte-fix = 4562326,  byte-delta = 146,  verses-orig = 31095,  verses-fix = 31110,  verses-delta = 15,  average = 9.7333333333333
@@ -10920,9 +10920,9 @@
 *** AION: WARNING! RAWFIX change for Holy-Bible---Romani-Vlax---Arli-Luke,  byte-orig = 149531,  byte-fix = 149550,  byte-delta = 19,  verses-orig = 1149,  verses-fix = 1151,  verses-delta = 2,  average = 9.5
 *** AION: WARNING REMAPPED = Holy-Bible---Romani-Vlax---Arli-Luke: Empty verse skipped: LUK 023 017 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Romani-Vlax---Arli-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romani-Vlax---Arli-Luke---Standard-Edition.noia byte=205922 rows=1150
-*** AION: WARNING! RAWFIX change for Holy-Bible---Romani-Vlax---Chergash-Luke,  byte-orig = 149856,  byte-fix = 149856,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: WARNING! RAWFIX change for Holy-Bible---Romani-Vlax---Chergash-Luke,  byte-orig = 149857,  byte-fix = 149857,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING REMAPPED = Holy-Bible---Romani-Vlax---Chergash-Luke: Empty verse skipped: LUK 023 017 
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---Romani-Vlax---Chergash-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romani-Vlax---Chergash-Luke---Standard-Edition.noia byte=210918 rows=1150
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---Romani-Vlax---Chergash-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romani-Vlax---Chergash-Luke---Standard-Edition.noia byte=210919 rows=1150
 *** AION: WARNING! RAWFIX change for Holy-Bible---Romani-Vlax---Gurbet-Luke,  byte-orig = 141315,  byte-fix = 141315,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING REMAPPED = Holy-Bible---Romani-Vlax---Gurbet-Luke: Empty verse skipped: LUK 023 017 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Romani-Vlax---Gurbet-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romani-Vlax---Gurbet-Luke---Standard-Edition.noia byte=199578 rows=1150
@@ -10962,9 +10962,9 @@
 *** AION: WARNING!!! BRACKET PROBLEM! Holy-Bible---Romanian---Bayash-Luke	042	LUK	024	033:	Atunšje jej sor skulat šă ur mers ăm napoj ăm Jeruzalem. Akulo ur aflat pă jedanaest (11) apostolur una pă kupă, šă pă orikic alci ku jej.
 *** AION: WARNING!!! BRACKET PROBLEM! Holy-Bible---Romanian---Bayash-Luke	042	LUK	024	035:	Doj (2) učenikur ur spus šje ur păcăt pă kalji, šă kum lor kunuskut kănd u rupt pita.
 *** AION: WARNING!!! BRACKET PROBLEM! Holy-Bible---Romanian---Bayash-Luke	042	LUK	024	046:	Jej u zăs: “Asta ăj skris ăm svăntă kenvijă: kă Krist trăbă să patalaskă šă să uskrsnulaskă dăm morc pă treća (3) ză.
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---Romanian---Bayash-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romanian---Bayash-Luke---Standard-Edition.noia byte=211633 rows=1149
-*** AION: WARNING! RAWFIX change for Holy-Bible---Romanian---Ludari-Luke,  byte-orig = 150150,  byte-fix = 150169,  byte-delta = 19,  verses-orig = 1141,  verses-fix = 1143,  verses-delta = 2,  average = 9.5
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---Romanian---Ludari-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romanian---Ludari-Luke---Standard-Edition.noia byte=209942 rows=1143
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---Romanian---Bayash-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romanian---Bayash-Luke---Standard-Edition.noia byte=211634 rows=1149
+*** AION: WARNING! RAWFIX change for Holy-Bible---Romanian---Ludari-Luke,  byte-orig = 150170,  byte-fix = 150189,  byte-delta = 19,  verses-orig = 1141,  verses-fix = 1143,  verses-delta = 2,  average = 9.5
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---Romanian---Ludari-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romanian---Ludari-Luke---Standard-Edition.noia byte=209956 rows=1143
 *** AION: WARNING! RAWFIX change for Holy-Bible---Rote-Dela---Rote-Dela-Bible,  byte-orig = 1707106,  byte-fix = 1707003,  byte-delta = -103,  verses-orig = 9074,  verses-fix = 9074,  verses-delta = 0,  average = -103
 *** AION: WARNING!!! BRACKET PROBLEM! Holy-Bible---Rote-Dela---Rote-Dela-Bible	043	JOH	019	039:	Nikodemus neu namalolo' no Yusuf boe. Eni fo fai ma'ahulun neu nandaa no Yesus tetemba'. Ana hasa rambe naen seli, mbei ma kilo telu nulu telu (33 kilo), de ngganggari neu Yesus ao-sisi mamaten.
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Rote-Dela---Rote-Dela-Bible---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Rote-Dela---Rote-Dela-Bible---Standard-Edition.noia byte=2160569 rows=9072

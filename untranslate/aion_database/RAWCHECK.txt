@@ -1,6 +1,6 @@
 # File Name: RAWCHECK.txt
 # File Size: 3169991     
-# File Date: 12/12/2021 16:05:07
+# File Date: 12/27/2021 17:44:07
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: http://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2021
@@ -9179,8 +9179,8 @@ Holy-Bible---Romanian---Ludari-Luke	042	LUK	017	036	DELETE	Učenikurlje aluj l t
 Holy-Bible---Romanian---Ludari-Luke	042	LUK	017	037	ADD	Učenikurlje aluj l trjabă: “Domnulje, undje asta osă fije?” Isusu lji zăće: “Undje zaće lumja muartă, ăn klo s sakupjaštje lešinari.”	
 Holy-Bible---Romanian---Ludari-Luke	042	LUK	023	017	DELETE	Ali toc ăn unu glas astrigat: “P jel umuară, a lasinje p Baraba!”	
 Holy-Bible---Romanian---Ludari-Luke	042	LUK	023	018	ADD	Ali toc ăntru glas azbirat: “P jel umuară, a lasănje pă Baraba!”	
-Holy-Bible---Romanian---Ludari-Luke	042	LUK	023	050	MODIFY	Š jakă njeki om, karje s kima Josip d Arimateja, trgu ăn Judeja, apljikat la Pilat š akătat s ji dja tjela alu Isusuluj.	Š jakă njeki om, karje s kima Josip d Arimateja, trgu ăn Judeja, apljikat la Pilat š akătat s ji dja tjela alu Isusuluj. Jel afost članu d vječa amarje alu Židovilor, ali nu sa slažăt ku je daja če la pukat š osudit p Isusu p muartje. Jel afost bun š pravedan om karje štipta cara alu Dimizov.
-Holy-Bible---Romanian---Ludari-Luke	042	LUK	023	051	ADD	Jel afost članu d vječa amarje alu Židovilor, ali nu sa slažăt ku je daja če la pukat š osudit p Isusu p muartje.	
+Holy-Bible---Romanian---Ludari-Luke	042	LUK	023	050	MODIFY	Š jakă njeki om, karje s kima Josip d Arimateja, trgu ăn Judeja, apljikat la Pilat š akătat s ji dja tjela alu Isusuluj.	Š jakă njeki om, karje s kima Josip d Arimateja, trgu ăn Judeja, apljikat la Pilat š akătat s ji dja tjela alu Isusuluj. Jel afost članu d vječa Amarje alu Židovilor, ali nu sa slažăt ku je daja če la pukat š osudit p Isusu p muartje. Jel afost bun š pravedan om karje štipta cara alu Dimizov.
+Holy-Bible---Romanian---Ludari-Luke	042	LUK	023	051	ADD	Jel afost članu d vječa Amarje alu Židovilor, ali nu sa slažăt ku je daja če la pukat š osudit p Isusu p muartje.	
 Holy-Bible---Romanian---Ludari-Luke	042	LUK	023	052	ADD	Jel afost bun š pravedan om karje štipta cara alu Dimizov.	
 Holy-Bible---Rote-Dela---Rote-Dela-Bible	001	GEN	002	004	MODIFY	Lamatualain na'adadad'i' lalai no raefafo' dud'ui na, ta'o a naa.  Lele' LAMATUALAIN na'adadad'i' lalai no raefafo' a,	Lele' LAMATUALAIN na'adadad'i' lalai no raefafo' a,
 Holy-Bible---Rote-Dela---Rote-Dela-Bible	001	GEN	029	014	MODIFY	Ma Lab'an ola' nae, “Mema' teb'e! Hita ru'a nggita bob'onggi'!”  Yakob leo no se losa fula esa ena ma,	Yakob leo no se losa fula esa ena ma,

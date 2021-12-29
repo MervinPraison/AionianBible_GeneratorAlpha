@@ -188,8 +188,6 @@ PO Box 462, Bellefonte, PA 16823<BR />
 <a href="tel:814-470-8028" rel="nofollow">(814) 470-8028</a><BR />
 <a href='http://NAINOIA-INC.signedon.net' target='_blank' title='Nainoia Inc Homepage'>NAINOIA-INC.signedon.net</a><BR />
 <a href='https://www.linkedin.com/company/nainoia-inc' target='_blank' title='Nainoia Inc @ LinkedIn'>LinkedIn/NAINOIA-INC</a><BR />
-<a href='https://www.Facebook.com/AionianBible' target='_blank' title='Aionian Bible on Facebook'>Facebook.com/AionianBible</a><BR />
-<a href='https://play.google.com/store/apps/details?id=net.signedon.aionianbible.aionianbible' target='_blank' title='Aionian Bible free on Google Play Store'>play.google.com/AionianBible</a><BR />
 <a href='/Third-Party-Publisher-Resources' title='Third Party Publisher Resources'>Third Party Publisher Resources</a><BR />
 <form action="https://www.paypal.com/donate" method="post" target="_top">
 <input type="hidden" name="hosted_button_id" value="PNHVLFLK5B77E" />

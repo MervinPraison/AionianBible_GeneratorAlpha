@@ -34,19 +34,19 @@ $INPUT_TOTH2 = $FOLDER_SOURCE."TOTHT Jos-Est - Translators OT Hebrew Tagged text
 $INPUT_TOTH3 = $FOLDER_SOURCE."TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt";
 $INPUT_TOTH4 = $FOLDER_SOURCE."TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt";
 // checks
-$CHECK_BOOK = $FOLDER_STAGE."CHECK_BOOKS.txt";
-$CHECK_STRG = $FOLDER_STAGE."CHECK_STRONGS.txt";
-$CHECK_VARS = $FOLDER_STAGE."CHECK_VARIANT.txt";
-$CHECK_MISS = $FOLDER_STAGE."CHECK_MISSING.txt";
-$CHECK_FIXS = $FOLDER_STAGE."CHECK_FIXED.txt";
-$CHECK_MORF = $FOLDER_STAGE."CHECK_MORPHS.txt";
-$CHECK_REFS = $FOLDER_STAGE."CHECK_REFERENCES.txt";
-$CHECK_UGRE = $FOLDER_STAGE."CHECK_UNUSED_GREEK_TBESG.txt";
-$CHECK_ULSJ = $FOLDER_STAGE."CHECK_UNUSED_GREEK_TFLSJ.txt";
-$CHECK_UHEB = $FOLDER_STAGE."CHECK_UNUSED_HEBREW_TBESH.txt";
-$CHECK_WARN = $FOLDER_STAGE."CHECK_WARNINGS.txt";
+$CHECK_BOOK = "CHECK_BOOKS.txt";
+$CHECK_FIXS = "CHECK_FIXED.txt";
+$CHECK_MISS = "CHECK_MISSING.txt";
+$CHECK_MORF = "CHECK_MORPHS.txt";
+$CHECK_REFS = "CHECK_REFERENCES.txt";
+$CHECK_STRG = "CHECK_STRONGS.txt";
+$CHECK_UGRE = "CHECK_UNUSED_GREEK_TBESG.txt";
+$CHECK_ULSJ = "CHECK_UNUSED_GREEK_TFLSJ.txt";
+$CHECK_UHEB = "CHECK_UNUSED_HEBREW_TBESH.txt";
+$CHECK_VARS = "CHECK_VARIANT.txt";
+$CHECK_WARN = "CHECK_WARNINGS.txt";
 // readme +
-$README_FILE = "Greek_and_Hebrew_README.md";
+$README_FILE = "AREADME.md";
 $HTACCESS_FILE = ".htaccess";
 // hebrew
 $HEBREW_VIZBI_DATA = "Hebrew_Lexicon_Strongs.txt";
@@ -97,7 +97,7 @@ IndexIgnore .well-known .htaccess .header.htm .favicon.ico .logo.png desktop.ini
 
 # security
 #cfg,css,eot,gif,gitignore,htaccess,htm,html,ico,jar,jpg,js,lua,md,otf,pdf,php,png,rng,sh,so,svg,tex,ttf,TTF,txt,woff,woff2,xml,xsd
-<FilesMatch "\.(php|php5|php6|php7|sh|bash|jar|so|rng|tex|epub|zip|noia)$">
+<FilesMatch "\.(php|php5|php6|php7|php8|sh|bash|jar|so|rng|tex|epub|zip|noia)$">
    ForceType application/octet-stream
    Header set Content-Disposition attachment
 </FilesMatch>
@@ -107,9 +107,9 @@ IndexIgnore .well-known .htaccess .header.htm .favicon.ico .logo.png desktop.ini
 </FilesMatch>
 
 # php -- BEGIN cPanel-generated handler, do not edit
-# Set the “ea-php71” package as the default “PHP” programming language.
+# Set the “ea-php80” package as the default “PHP” programming language.
 <IfModule mime_module>
-  AddHandler application/x-httpd-ea-php71 .php .php7 .phtml
+  AddHandler application/x-httpd-ea-php80 .php .php8 .phtml
 </IfModule>
 # php -- END cPanel-generated handler, do not edit
 
@@ -132,6 +132,19 @@ $README = <<<EOT
 
 # Readme file
 $README_FILE > This file
+
+# Check files
+$CHECK_BOOK > Unique Bible book abbreviations in tagged texts 
+$CHECK_FIXS > Textual hygiene change counts
+$CHECK_MISS > Manuscript abbreviations in tagged texts, but undefined or missing
+$CHECK_MORF > Morphhologies in lexicons and tagged texts, but undefined or missing
+$CHECK_REFS > Reference non-standard or missing
+$CHECK_STRG > Strongs numbers cannot parse
+$CHECK_UGRE > Strongs numbers in lexicon, but not in tagged texts
+$CHECK_ULSJ > Strongs numbers in lexicon, but not in tagged texts
+$CHECK_UHEB > Strongs numbers in lexicon, but not in tagged texts
+$CHECK_VARS > Variants used in tagged texts, but cannot parse
+$CHECK_WARN > General warnings about formats
 
 # Hebrew files
 $HEBREW_TBESH_DATA > Extended Strong's Hebrew Lexicon
@@ -171,8 +184,8 @@ if (file_put_contents("$FOLDER_STAGE$README_FILE", $README)===FALSE) { AION_ECHO
 $callback = function($value) { return implode("\t", $value); };
 $database = array();
 $database['BOOKS']			= array("Unique Bible book abbreviations in tagged texts","===","");
-$database['MISS_MORPHS']	= "Morphhologies in lexicons and tagged texts, but undefined\n===\n\n\n";
-$database['MISS_MANU']		= "Missing manuscript abbreviations in tagged texts, but undefined\n===\n\n\n";
+$database['MISS_MORPHS']	= "Morphhologies in lexicons and tagged texts, but undefined or missing\n===\n\n\n";
+$database['MISS_MANU']		= "Manuscript abbreviations in tagged texts, but undefined or missing\n===\n\n\n";
 $database['CORRUPT_VARIANT']= "Variants used in tagged texts, but cannot parse\n===\n\n\n";
 $database['CORRUPT_STRONGS']= "Strongs numbers cannot parse\n===\n\n\n";
 $database['FIXCOUNTS']		= "Textual hygiene change counts\n===\n\n";
@@ -366,7 +379,7 @@ AION_NEWSTRONGS_USAGE_REF_CHECKER("$FOLDER_STAGE$HEBREW_USAGE_INDX", "$FOLDER_ST
 AION_ECHO("HEBREW $FOLDER_STAGE$HEBREW_USAGE_DATA");
 AION_unset($database['TOTHT']);
 AION_NEWSTRONGS_LEX_WIPE($database['HEBLEX']);
-if ( file_put_contents($file=$CHECK_UHEB,"Strongs numbers in lexicon, but not in tagged texts\n===\n\n".implode("\n", array_map($callback, $database['HEBLEX']))) === FALSE ) { AION_ECHO("ERROR! file_put: ".$file ); }
+if ( file_put_contents($file="$FOLDER_STAGE$CHECK_UHEB","Strongs numbers in lexicon, but not in tagged texts\n===\n\n".implode("\n", array_map($callback, $database['HEBLEX']))) === FALSE ) { AION_ECHO("ERROR! file_put: ".$file ); }
 AION_unset($database['HEBLEX']);
 AION_NEWSTRONGS_GET_INDEX_LEX("$FOLDER_STAGE$HEBREW_TBESH_DATA","$FOLDER_STAGE$HEBREW_TBESH_INDX");
 AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER("$FOLDER_STAGE$HEBREW_TBESH_INDX","$FOLDER_STAGE$HEBREW_TBESH_DATA");
@@ -577,11 +590,11 @@ AION_ECHO("GREEK $FOLDER_STAGE$GREEK_USAGE_DATA");
 AION_unset($database['GRERE2']);
 AION_NEWSTRONGS_LEX_WIPE($database['GRELEX']);
 AION_NEWSTRONGS_LEX_WIPE($database['GRELSJ']);
-if ( file_put_contents($file=$CHECK_UGRE,
-"Strongs numbers in lexicon, but not in tagged texts, SEEMS LIKE TOO MANY!\n===\n\n".implode("\n", array_map($callback, $database['GRELEX']))) === FALSE ) { AION_ECHO("ERROR! file_put: ".$file ); }
+if ( file_put_contents($file="$FOLDER_STAGE$CHECK_UGRE",
+"Strongs numbers in lexicon, but not in tagged texts\n===\n\n".implode("\n", array_map($callback, $database['GRELEX']))) === FALSE ) { AION_ECHO("ERROR! file_put: ".$file ); }
 AION_unset($database['GRELEX']);
-if ( file_put_contents($file=$CHECK_ULSJ,
-"Strongs numbers in lexicon, but not in tagged texts, SEEMS LIKE TOO MANY!\n===\n\n".implode("\n", array_map($callback, $database['GRELSJ']))) === FALSE ) { AION_ECHO("ERROR! file_put: ".$file ); }
+if ( file_put_contents($file="$FOLDER_STAGE$CHECK_ULSJ",
+"Strongs numbers in lexicon, but not in tagged texts\n===\n\n".implode("\n", array_map($callback, $database['GRELSJ']))) === FALSE ) { AION_ECHO("ERROR! file_put: ".$file ); }
 AION_unset($database['GRELSJ']);
 AION_NEWSTRONGS_GET_INDEX_LEX("$FOLDER_STAGE$GREEK_TBESG_DATA", "$FOLDER_STAGE$GREEK_TBESG_INDX");
 AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER("$FOLDER_STAGE$GREEK_TBESG_INDX", "$FOLDER_STAGE$GREEK_TBESG_DATA");
@@ -597,21 +610,21 @@ AION_ECHO("GREEK $FOLDER_STAGE$GREEK_TFLSJ_INDX");
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // WRITE CHECK RESULTS
-if ( file_put_contents($file=$CHECK_BOOK, implode("\n", $database['BOOKS'])) === FALSE ) {	AION_ECHO("ERROR! file_put: ".$file ); }
+if ( file_put_contents($file="$FOLDER_STAGE$CHECK_BOOK", implode("\n", $database['BOOKS'])) === FALSE ) {	AION_ECHO("ERROR! file_put: ".$file ); }
 AION_ECHO("CHECK $CHECK_BOOK ROWS=".count($database['BOOKS']));
-if ( file_put_contents($file=$CHECK_MORF, $database['MISS_MORPHS']) === FALSE) {			AION_ECHO("ERROR! file_put: ".$file ); }
+if ( file_put_contents($file="$FOLDER_STAGE$CHECK_MORF", $database['MISS_MORPHS']) === FALSE) {			AION_ECHO("ERROR! file_put: ".$file ); }
 AION_ECHO("CHECK $CHECK_MORF ROWS=".substr_count($database['MISS_MORPHS'], "\n"));
-if ( file_put_contents($file=$CHECK_MISS, $database['MISS_MANU']) === FALSE) {				AION_ECHO("ERROR! file_put: ".$file ); }
+if ( file_put_contents($file="$FOLDER_STAGE$CHECK_MISS", $database['MISS_MANU']) === FALSE) {				AION_ECHO("ERROR! file_put: ".$file ); }
 AION_ECHO("CHECK $CHECK_MISS ROWS=".substr_count($database['MISS_MANU'], "\n"));
-if ( file_put_contents($file=$CHECK_STRG, $database['CORRUPT_STRONGS']) === FALSE ) {		AION_ECHO("ERROR! file_put: ".$file ); }
+if ( file_put_contents($file="$FOLDER_STAGE$CHECK_STRG", $database['CORRUPT_STRONGS']) === FALSE ) {		AION_ECHO("ERROR! file_put: ".$file ); }
 AION_ECHO("CHECK $CHECK_STRG ROWS=".substr_count($database['CORRUPT_STRONGS'], "\n"));
-if ( file_put_contents($file=$CHECK_VARS, $database['CORRUPT_VARIANT']) === FALSE ) {		AION_ECHO("ERROR! file_put: ".$file ); }
+if ( file_put_contents($file="$FOLDER_STAGE$CHECK_VARS", $database['CORRUPT_VARIANT']) === FALSE ) {		AION_ECHO("ERROR! file_put: ".$file ); }
 AION_ECHO("CHECK $CHECK_VARS ROWS=".substr_count($database['CORRUPT_VARIANT'], "\n"));
-if ( file_put_contents($file=$CHECK_FIXS, $database['FIXCOUNTS']) === FALSE ) {				AION_ECHO("ERROR! file_put: ".$file ); }
+if ( file_put_contents($file="$FOLDER_STAGE$CHECK_FIXS", $database['FIXCOUNTS']) === FALSE ) {				AION_ECHO("ERROR! file_put: ".$file ); }
 AION_ECHO("CHECK $CHECK_FIXS ROWS=".substr_count($database['FIXCOUNTS'], "\n"));
-if ( file_put_contents($file=$CHECK_REFS, $database['REFERENCES']) === FALSE ) {			AION_ECHO("ERROR! file_put: ".$file ); }
+if ( file_put_contents($file="$FOLDER_STAGE$CHECK_REFS", $database['REFERENCES']) === FALSE ) {			AION_ECHO("ERROR! file_put: ".$file ); }
 AION_ECHO("CHECK $CHECK_REFS ROWS=".substr_count($database['REFERENCES'], "\n"));
-if ( file_put_contents($file=$CHECK_WARN, $database['WARNINGS']) === FALSE ) {				AION_ECHO("ERROR! file_put: ".$file ); }
+if ( file_put_contents($file="$FOLDER_STAGE$CHECK_WARN", $database['WARNINGS']) === FALSE ) {				AION_ECHO("ERROR! file_put: ".$file ); }
 AION_ECHO("CHECK $CHECK_WARN ROWS=".substr_count($database['WARNINGS'], "\n"));
 
 
@@ -652,7 +665,7 @@ echo "\n";
 echo "\n";
 echo "\n";
 echo "\n";
-readfile("$CHECK_FIXS");
+readfile("$FOLDER_STAGE$CHECK_FIXS");
 
 exit;
 
@@ -1121,7 +1134,7 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 		$jointype_orig = $jointype;
 		$spart = mb_split("/", $line['STRONGS']);
 		$mpart = mb_split("/", $line['MORPH']);
-		if (empty($mpart[0])) {
+		if (empty($mpart[0])) { // beware the few Qere with no strongs number
 			$database['MISS_MORPHS'] .= ($warn="$newmess\tempty 1st part morph=".$line['MORPH']."\n");
 			AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
 		}
@@ -1163,19 +1176,10 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 			
 			// MORPHS
 			$morph = ($key==0 ? $mpart[0] : (empty($mpart[$key]) ? '' : $letter.$mpart[$key]));
-			if (!preg_match("#([^()]+)(.*)#ui","$morph ",$match)) { AION_ECHO("ERROR! $newmess corrupted morph='$morph'\n".print_r($line,TRUE)); }
-			$morph = trim($match[1]);
-			$morph2 = (empty($match[2]) ? "" : trim($match[2]," ()"));
-			// morph usage or missing?
 			if (!empty($morph) && empty($morph_array[$morph])) {
 				$database['MISS_MORPHS'] .= ($warn="$newmess\tmissing morph='$morph'\n");
 				AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
 			}
-			if (!empty($morph2) && empty($morph_array[$morph2])) {
-				$database['MISS_MORPHS'] .= ($warn="$newmess\tmissing morph2='$morph2'\n");
-				AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
-			}
-			$morph = $morph.(empty($morph2) ? "" : ",$morph2");
 
 			// grab a list of the Strongs numbers from the VARIANT field here!
 			// ie format > HW=Δαυεὶδ=G1138=N-GSM-P; R=Δαβὶδ=G1138=N-GSM-P;
@@ -1318,6 +1322,13 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 		$WORDUP = trim($line['WORD']);
 		$newmess = "FIX_REF\tref='".$line['REF']."'\tword='$WORDUP'\tmorph='".$line['MORPH']."'\tstrongs='".$line['STRONGS']."'";
 
+		// SPACE MORPH
+		$line['MORPH'] = preg_replace("/ /u", '',$morph_before=$line['MORPH']);
+		if ($line['MORPH']!=$morph_before) {
+			$database['MISS_MORPHS'] .= ($warn="$newmess\tspace morph=".$line['MORPH']."\n");
+			AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
+		}
+
 		// TAGNT entry type
 		if (preg_match('#^=NA same TR#',$line['TYPE'])) {					$entry="NA=TR"; }
 		else if (preg_match('#^=NA diff TR.*#',$line['TYPE'])) {			$entry="NA!=TR"; }
@@ -1386,13 +1397,9 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 			$strongs = AION_NEWSTRONGS_STRONGS_PARSE($newmess, $strongs, FALSE, $lex_array, $lex2_array);
 
 			// MORPHS
-			$morph = trim($key==0 ? $mpart[0] : (empty($mpart[$key]) ? $mpart[0] : $mpart[$key]));
-			if (empty($mpart[$key])) {
-				$database['MISS_MORPHS'] .= ($warn="$newmess\tempty 1st part morph=".$line['MORPH']."\n");
-				AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
-			}
+			$morph = trim(($key==0 ? $mpart[0] : (empty($mpart[$key]) ? "Unknown" : $mpart[$key])));
 			if (empty($morph) || empty($morph_array[$morph])) {
-				$database['MISS_MORPHS'] .= ($warn="$newmess\tmissing morph='$morph'\n");
+				$database['MISS_MORPHS'] .= ($warn="$newmess\tmissing morph=$morph key=$key mpart[key]=".$mpart[$key]."\n");
 				AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
 			}
 			// Editions
@@ -1464,9 +1471,18 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 					// strongs?
 					AION_NEWSTRONGS_STRONGS_PARSE($newmess, trim($match[4]), TRUE, $lex_array, $lex2_array);
 					// morph?
-					if (empty($match[5]) || empty($morph_array[trim($match[5])])) {
-						$database['MISS_MORPHS'] .= ($warn="$newmess\tmissing morph='".$match[5]."'\n");
+					if (empty($match[5])) {
+						$database['MISS_MORPHS'] .= ($warn="$newmess\tmeaning missing morph='".$match[5]."'\n");
 						AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
+					}
+					else {
+						$mpartsX = mb_split("[/+]{1}", $match[5]);
+						foreach($mpartsX as $mpartX) {
+							if (empty($mpartX) || empty($morph_array[trim($mpartX)])) {
+								$database['MISS_MORPHS'] .= ($warn="$newmess\tmeaning missing morph='$mpartX'\n");
+								AION_ECHO("WARN! $warn".print_r($line,TRUE)."\n\n\n");
+							}
+						}
 					}
 				}
 				// reassign delimiters
@@ -1478,20 +1494,44 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 			
 			// Additional meaning parse
 			// Jacob§Jacob|Israel@Gen.25.26
-			$additional = trim($line['ADDITIONAL']);
-			if (!empty($additional) &&
-				preg_match("#^([^§]+)§#u",$additional,$match) &&
-				!empty($match[1]) &&
-				preg_match("#§".$match[1]."[|@]+#u",$additional) &&
-				!($additional=preg_replace("#^".$match[1]."§#u", "", $additional))) {
-				AION_ECHO("ERROR! $newmess problem parsing ADDITIONAL 1\n".print_r($line,TRUE));
+			$additional = trim(preg_replace('/\d+_/','', $line['ADDITIONAL']));
+			if (!empty($additional)) {
+				if (preg_match("#^([^§@]+)[§]+([^§@]+)[@]+([^§@]+)$#u",$additional,$addmatch)) {
+					if (preg_match("#(§§|@@)#u",$additional)) {
+						AION_ECHO("WARN! $newmess problem parsing ADDITIONAL doubles: $additional\n".print_r($line,TRUE));
+					}
+					$addmatch[1] = trim($addmatch[1]);
+					$addmatch[2] = trim($addmatch[2]);
+					$addmatch[2] = preg_replace("#^".$addmatch[1]."$#u", "", $addmatch[2]);
+					$addmatch[2] = preg_replace("#^".$addmatch[1]."[|/]+#u", "", $addmatch[2]);
+					$addmatch[2] = preg_replace("#[|/]+".$addmatch[1]."$#u", "", $addmatch[2]);
+					$addmatch[2] = trim($addmatch[2]);
+					if (!empty($addmatch[2])) { $addmatch[2]= " (".$addmatch[2].")"; }
+					$addmatch[3] = trim($addmatch[3]);
+					if (preg_match("#^([^.]+)\.(\d+)\.([\d+]+)$#u",$addmatch[3],$addref)) {
+						$addmatch[3] = trim($addref[1])." ".trim($addref[2]).":".trim($addref[3]);
+					}
+					else {
+						AION_ECHO("WARN! $newmess problem parsing ADDITIONAL reference: $additional\n".print_r($line,TRUE));
+					}
+					$addmatch[3] = " @ ".$addmatch[3];
+					$additional = $addmatch[1].$addmatch[2].$addmatch[3];
+				}
+				else if (preg_match("#^([^§@]+)[§]+([^§@]+)$#u",$additional,$addmatch)) {
+					$addmatch[1] = trim($addmatch[1]);
+					$addmatch[2] = trim($addmatch[2]);
+					$addmatch[2] = preg_replace("#^".$addmatch[1]."$#u", "", $addmatch[2]);
+					$addmatch[2] = preg_replace("#^".$addmatch[1]."\|#u", "", $addmatch[2]);
+					$addmatch[2] = preg_replace("#\|".$addmatch[1]."$#u", "", $addmatch[2]);
+					$addmatch[2] = trim($addmatch[2]);
+					if (!empty($addmatch[2])) { $addmatch[2]= " (".$addmatch[2].")"; }
+					$additional = $addmatch[1].$addmatch[2];
+				}
+				else if (preg_match("#[§@]+#u",$additional)) {
+					AION_ECHO("WARN! $newmess problem parsing ADDITIONAL whole: $additional\n".print_r($line,TRUE));
+				}
 			}
-			if ((!$additional=preg_replace("#@#u", " @ ", $additional)) ||
-				(!$additional=preg_replace("#[ ]+#u", " ", $additional))) {
-				AION_ECHO("ERROR! $newmess problem parsing ADDITIONAL 2\n".print_r($line,TRUE));
-			}
-			$additional = trim($additional);
-			
+		
 			// construct the output
 			// The Greek and Hebrew columns need to be similar because same functions process first columns of Greek and Hebrew
 			// INDEX	BOOK	CHAPTER	VERSE	STRONGS	FLAG	MORPH	WORD

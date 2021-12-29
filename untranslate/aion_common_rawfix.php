@@ -774,14 +774,6 @@ Ezek.20:1
 EOF;
 if (!($bfile = preg_replace("/Ezek\.19:6 (.+?)Ezek\.20:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $blockfix = <<<EOF
-Dan.5:25 И ето писанието, което се написа: MENE, MENE, TEKEL, UPHARSIN.
-Dan.5:26 Ето и значението на това нещо: MENE;
-Dan.5:27 TEKEL;
-Dan.5:28 UPHARSIN;
-Dan.5:29 
-EOF;
-if (!($bfile = preg_replace("/Dan\.5:25 (.+?)Dan\.5:29 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$blockfix = <<<EOF
 Mark.16:3 И думаха помежду си: Кой ще ни отвали камъка от гробната врата?
 Mark.16:4 - защото беше твърде голям. А като повдигнаха очи, видяха, че камъкът бе отвален.
 Mark.16:5 
@@ -12316,7 +12308,7 @@ EOF;
 if (!($bfile = preg_replace("/LUK 23:17 (.+?)LUK 23:19 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bigfix = <<<EOF
 LUK 23:50 Š jakă njeki om, karje s kima Josip d Arimateja, trgu ăn Judeja, apljikat la Pilat š akătat s ji dja tjela alu Isusuluj.
-LUK 23:51 Jel afost članu d vječa amarje alu Židovilor, ali nu sa slažăt ku je daja če la pukat š osudit p Isusu p muartje.
+LUK 23:51 Jel afost članu d vječa Amarje alu Židovilor, ali nu sa slažăt ku je daja če la pukat š osudit p Isusu p muartje.
 LUK 23:52 Jel afost bun š pravedan om karje štipta cara alu Dimizov.
 LUK 23:53 
 EOF;

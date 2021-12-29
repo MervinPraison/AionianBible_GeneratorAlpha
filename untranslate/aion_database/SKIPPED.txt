@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1160334     
-# File Date: 12/12/2021 16:05:07
+# File Size: 1160321     
+# File Date: 12/27/2021 17:44:07
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: http://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2021
@@ -5110,19 +5110,19 @@ Holy-Bible---Italian---Conferenza-Episcopale-Italiana	027	DAN	014	039	Alzatosi, 
 Holy-Bible---Italian---Conferenza-Episcopale-Italiana	027	DAN	014	040	Il settimo giorno il re andò per piangere Daniele e giunto alla fossa guardò e vide Daniele seduto.
 Holy-Bible---Italian---Conferenza-Episcopale-Italiana	027	DAN	014	041	Allora esclamò ad alta voce: «Grande tu sei, Signore Dio di Daniele, e non c'è altro dio all'infuori di te!».
 Holy-Bible---Italian---Conferenza-Episcopale-Italiana	027	DAN	014	042	Poi fece uscire Daniele dalla fossa e vi fece gettare coloro che volevano la sua rovina ed essi furono subito divorati sotto i suoi occhi.
-Holy-Bible---Italian---Conferenza-Episcopale-Italiana	040	MAT	023	014	].
-Holy-Bible---Italian---Conferenza-Episcopale-Italiana	041	MAR	007	016	.
-Holy-Bible---Italian---Conferenza-Episcopale-Italiana	041	MAR	009	044	.
-Holy-Bible---Italian---Conferenza-Episcopale-Italiana	041	MAR	009	046	.
-Holy-Bible---Italian---Conferenza-Episcopale-Italiana	041	MAR	011	026	.
-Holy-Bible---Italian---Conferenza-Episcopale-Italiana	041	MAR	015	028	.
-Holy-Bible---Italian---Conferenza-Episcopale-Italiana	042	LUK	017	036	.
-Holy-Bible---Italian---Conferenza-Episcopale-Italiana	042	LUK	023	017	.
+Holy-Bible---Italian---Conferenza-Episcopale-Italiana	040	MAT	023	014	
+Holy-Bible---Italian---Conferenza-Episcopale-Italiana	041	MAR	007	016	
+Holy-Bible---Italian---Conferenza-Episcopale-Italiana	041	MAR	009	044	
+Holy-Bible---Italian---Conferenza-Episcopale-Italiana	041	MAR	009	046	
+Holy-Bible---Italian---Conferenza-Episcopale-Italiana	041	MAR	011	026	
+Holy-Bible---Italian---Conferenza-Episcopale-Italiana	041	MAR	015	028	
+Holy-Bible---Italian---Conferenza-Episcopale-Italiana	042	LUK	017	036	
+Holy-Bible---Italian---Conferenza-Episcopale-Italiana	042	LUK	023	017	
 Holy-Bible---Italian---Conferenza-Episcopale-Italiana	044	ACT	002	047	lodando Dio e godendo la simpatia di tutto il popolo.
-Holy-Bible---Italian---Conferenza-Episcopale-Italiana	044	ACT	008	037	.
-Holy-Bible---Italian---Conferenza-Episcopale-Italiana	044	ACT	015	034	.
-Holy-Bible---Italian---Conferenza-Episcopale-Italiana	044	ACT	024	007	.
-Holy-Bible---Italian---Conferenza-Episcopale-Italiana	044	ACT	028	029	.
+Holy-Bible---Italian---Conferenza-Episcopale-Italiana	044	ACT	008	037	
+Holy-Bible---Italian---Conferenza-Episcopale-Italiana	044	ACT	015	034	
+Holy-Bible---Italian---Conferenza-Episcopale-Italiana	044	ACT	024	007	
+Holy-Bible---Italian---Conferenza-Episcopale-Italiana	044	ACT	028	029	
 Holy-Bible---Italian---Conferenza-Episcopale-Italiana	045	ROM	016	024	
 Holy-Bible---Italian---Conferenza-Episcopale-Italiana	064	3JO	001	014	Spero però di vederti presto e parleremo a viva voce.
 Holy-Bible---Italian---Conferenza-Episcopale-Italiana	066	REV	012	018	E si fermò sulla spiaggia del mare.
