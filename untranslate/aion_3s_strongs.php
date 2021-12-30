@@ -2,9 +2,10 @@
 <?php
 
 // FLAGS
-//$DOTHECOUNTCHECKER = TRUE;
-$DOTHECOUNTCHECKER = FALSE;
-
+$DOTHECOUNTCHECKER = TRUE;
+//$DOTHECOUNTCHECKER = FALSE;
+//$DOTHEUSAGEFOLDERS = TRUE;
+$DOTHEUSAGEFOLDERS = FALSE;
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -36,6 +37,8 @@ $INPUT_TOTH4 = $FOLDER_SOURCE."TOTHT Isa-Mal - Translators OT Hebrew Tagged text
 // checks
 $CHECK_BOOK = "CHECK_BOOKS.txt";
 $CHECK_FIXS = "CHECK_FIXED.txt";
+$CHECK_LEXG = "CHECK_LEXICON_GREEK.txt";
+$CHECK_LEXH = "CHECK_LEXICON_HEBREW.txt";
 $CHECK_MISS = "CHECK_MISSING.txt";
 $CHECK_MORF = "CHECK_MORPHS.txt";
 $CHECK_REFS = "CHECK_REFERENCES.txt";
@@ -54,7 +57,9 @@ $HEBREW_VIZBI_INDX = "Hebrew_Lexicon_Strongs_Index.json";
 $HEBREW_TBESH_DATA = "Hebrew_Lexicon_Tyndale.txt";
 $HEBREW_TBESH_INDX = "Hebrew_Lexicon_Tyndale_Index.json";
 $HEBREW_MORPH_DATA = "Hebrew_Morphhology.json";
+$HEBREW_TAGED_FILE = "Hebrew_Tagged_File.txt";
 $HEBREW_TAGED_DATA = "Hebrew_Tagged_Text.txt";
+$HEBREW_TAGED_INDX = "Hebrew_Tagged_Text_Index.json";
 $HEBREW_TAGED_NUMS = "Hebrew_Tagged_Text_Count.json";
 $HEBREW_USAGE_DATA = "Hebrew_Chapter_Usage.txt";
 $HEBREW_USAGE_INDX = "Hebrew_Chapter_Usage_Index.json";
@@ -69,6 +74,7 @@ $GREEK_TFLSJ_INDX = "Greek_Lexicon_LSJ_Index.json";
 $GREEK_MORPH_DATA = "Greek_Morphhology.json";
 $GREEK_TAGED_FILE = "Greek_Tagged_File.txt";
 $GREEK_TAGED_DATA = "Greek_Tagged_Text.txt";
+$GREEK_TAGED_INDX = "Greek_Tagged_Text_Index.json";
 $GREEK_TAGED_NUMS = "Greek_Tagged_Text_Count.json";
 $GREEK_USAGE_DATA = "Greek_Chapter_Usage.txt";
 $GREEK_USAGE_INDX = "Greek_Chapter_Usage_Index.json";
@@ -371,8 +377,18 @@ EOT;
 $commentplus = AION_FILE_DATA_PUT_HEADER("$HEBREW_TAGED_DATA", strlen($database['TOTHT']), $commentplus);
 if ( file_put_contents($file="$FOLDER_STAGE$HEBREW_TAGED_DATA", $commentplus.$database['TOTHT']) === FALSE ) { AION_ECHO("ERROR! file_put: ".$file ); }
 AION_ECHO("HEBREW $FOLDER_STAGE$HEBREW_TAGED_DATA ROWS=".substr_count($database['TOTHT'], "\n"));
+AION_NEWSTRONGS_GET_INDEX_TAG("$FOLDER_STAGE$HEBREW_TAGED_DATA", "$FOLDER_STAGE$HEBREW_TAGED_INDX");
+AION_NEWSTRONGS_TAG_INDEX_CHECKER("$FOLDER_STAGE$HEBREW_TAGED_INDX", "$FOLDER_STAGE$HEBREW_TAGED_DATA", array("GEN001001","MAL004006"));
+AION_ECHO("HEBREW $FOLDER_STAGE$HEBREW_TAGED_INDX");
 AION_NEWSTRONGS_COUNT_REF($database['TOTHT'],"$FOLDER_STAGE$HEBREW_TAGED_NUMS");
-if ($DOTHECOUNTCHECKER) { AION_NEWSTRONGS_COUNT_REF_CHECKER("$FOLDER_STAGE$HEBREW_TAGED_NUMS", "$INPUT_TOTH1", "$INPUT_TOTH2", "$INPUT_TOTH3", "$INPUT_TOTH4", NULL); }
+if ($DOTHECOUNTCHECKER) {
+	AION_NEWSTRONGS_COUNT_REF_CHECKER("$FOLDER_STAGE$HEBREW_TAGED_NUMS",
+		"$INPUT_TOTH1", 'Gen.1.1-01	Gen.1.1-01	בְּרֵאשִׁית',NULL,
+		"$INPUT_TOTH2", 'Jos.1.1-01	Jos.1.1-01	וַיְהִי',	NULL,
+		"$INPUT_TOTH3", 'Job.1.1-01	Job.1.1-01	אִישׁ',	NULL,
+		"$INPUT_TOTH4", 'Isa.1.1-01	Isa.1.1-01	חֲזוֹן',	'Extended Strongs numbers for Prefixes and suffixes:',
+		"$FOLDER_STAGE$HEBREW_TAGED_FILE");
+}
 AION_ECHO("HEBREW $FOLDER_STAGE$HEBREW_TAGED_NUMS");
 AION_NEWSTRONGS_USAGE_REF('old', $database['TOTHT'], "$FOLDER_STAGE$HEBREW_USAGE_DATA", "$FOLDER_STAGE$HEBREW_USAGE_INDX");
 AION_NEWSTRONGS_USAGE_REF_CHECKER("$FOLDER_STAGE$HEBREW_USAGE_INDX", "$FOLDER_STAGE$HEBREW_USAGE_DATA");
@@ -581,8 +597,18 @@ EOT;
 $commentplus = AION_FILE_DATA_PUT_HEADER("$GREEK_TAGED_DATA", strlen($database['GRERE2']), $commentplus);
 if ( file_put_contents($file="$FOLDER_STAGE$GREEK_TAGED_DATA", $commentplus.$database['GRERE2']) === FALSE ) { AION_ECHO("ERROR! file_put: ".$file ); }
 AION_ECHO("GREEK $FOLDER_STAGE$GREEK_TAGED_DATA ROWS=".substr_count($database['GRERE2'], "\n"));
+AION_NEWSTRONGS_GET_INDEX_TAG("$FOLDER_STAGE$GREEK_TAGED_DATA", "$FOLDER_STAGE$GREEK_TAGED_INDX");
+AION_NEWSTRONGS_TAG_INDEX_CHECKER("$FOLDER_STAGE$GREEK_TAGED_INDX", "$FOLDER_STAGE$GREEK_TAGED_DATA", array("JOH001001","JOH003016","REV022021"));
+AION_ECHO("GREEK $FOLDER_STAGE$GREEK_TAGED_INDX");
 AION_NEWSTRONGS_COUNT_REF($database['GRERE2'],"$FOLDER_STAGE$GREEK_TAGED_NUMS");
-if ($DOTHECOUNTCHECKER) { AION_NEWSTRONGS_COUNT_REF_CHECKER("$FOLDER_STAGE$GREEK_TAGED_NUMS","$INPUT_TAGN1","$INPUT_TAGN2",NULL,NULL,"$FOLDER_STAGE$GREEK_TAGED_FILE"); }
+if ($DOTHECOUNTCHECKER) {
+	AION_NEWSTRONGS_COUNT_REF_CHECKER("$FOLDER_STAGE$GREEK_TAGED_NUMS",
+		"$INPUT_TAGN1", '41_Mat.001.001	=NA same TR ~~	Βίβλος	',	NULL,
+		"$INPUT_TAGN2", '45_Act.001.001	=NA same TR ~~	Τὸν	',		"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\t",
+		NULL,NULL,NULL,
+		NULL,NULL,NULL,
+		"$FOLDER_STAGE$GREEK_TAGED_FILE");
+}
 AION_ECHO("GREEK $FOLDER_STAGE$GREEK_TAGED_NUMS");
 AION_NEWSTRONGS_USAGE_REF('new', $database['GRERE2'], "$FOLDER_STAGE$GREEK_USAGE_DATA", "$FOLDER_STAGE$GREEK_USAGE_INDX");
 AION_NEWSTRONGS_USAGE_REF_CHECKER("$FOLDER_STAGE$GREEK_USAGE_INDX", "$FOLDER_STAGE$GREEK_USAGE_DATA");
@@ -646,10 +672,12 @@ gc_collect_cycles();
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // WRITE THE USAGE FOLDER FORMAT
-AION_NEWSTRONGS_USAGE_FOLDER("$FOLDER_STAGE$HEBREW_TAGED_DATA",	"$FOLDER_STAGE$HEBREW_VIZBI_DATA",	"$FOLDER_STAGE$HEBREW_TBESH_DATA",	NULL,								"$FOLDER_STAGE$HEBREW_CHAPS_DATA");
-AION_ECHO("HEBREW $FOLDER_STAGE$HEBREW_CHAPS_DATA");
-//AION_NEWSTRONGS_USAGE_FOLDER("$FOLDER_STAGE$GREEK_TAGED_DATA",	"$FOLDER_STAGE$GREEK_VIZBI_DATA",	"$FOLDER_STAGE$GREEK_TBESG_DATA",	"$FOLDER_STAGE$GREEK_TFLSJ_DATA",	"$FOLDER_STAGE$GREEK_CHAPS_DATA");
-//AION_ECHO("GREEK $FOLDER_STAGE$GREEK_CHAPS_DATA");
+if ($DOTHEUSAGEFOLDERS) {
+	AION_NEWSTRONGS_USAGE_FOLDER("$FOLDER_STAGE$HEBREW_TAGED_DATA",	"$FOLDER_STAGE$HEBREW_VIZBI_DATA",	"$FOLDER_STAGE$HEBREW_TBESH_DATA",	NULL,								"$FOLDER_STAGE$HEBREW_CHAPS_DATA");
+	AION_ECHO("HEBREW $FOLDER_STAGE$HEBREW_CHAPS_DATA");
+	AION_NEWSTRONGS_USAGE_FOLDER("$FOLDER_STAGE$GREEK_TAGED_DATA",	"$FOLDER_STAGE$GREEK_VIZBI_DATA",	"$FOLDER_STAGE$GREEK_TBESG_DATA",	"$FOLDER_STAGE$GREEK_TFLSJ_DATA",	"$FOLDER_STAGE$GREEK_CHAPS_DATA");
+	AION_ECHO("GREEK $FOLDER_STAGE$GREEK_CHAPS_DATA");
+}
 
 
 
@@ -976,7 +1004,6 @@ function AION_NEWSTRONGS_GET_INDEX_LEX($input, $output) {
 			}
 			$index[$strongs] = $bytes;
 		}
-		$last = $bytes;
 		$bytes += (strlen($line) + 1);
 		$line = strtok( "\n" );
 	}
@@ -1463,8 +1490,8 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 						AION_ECHO("ERROR! $newmess problem parsing MEANINGS 2\nmeaning='$mean'\nmeanarray=\n".print_r($meanarray,TRUE)."\n".print_r($line,TRUE));
 					}
 					// editions?
-					$editions = explode('+', trim(preg_replace('/^0(\d+)/', '+U$1', preg_replace('/\+0(\d+)/', '+U$1', preg_replace('/[[:punct:]]+/', '+', preg_replace('/[<>]+\d+[:]+/', '+', preg_replace('/<14\.(24|25|26):/', '+', preg_replace('/\s+/', '', trim($match[1]))))))),';+, '));
-					if (($editions_diff=array_diff($editions, array_keys($vartrans)))) {
+					$editionsM = explode('+', trim(preg_replace('/^0(\d+)/', '+U$1', preg_replace('/\+0(\d+)/', '+U$1', preg_replace('/[[:punct:]]+/', '+', preg_replace('/[<>]+\d+[:]+/', '+', preg_replace('/<14\.(24|25|26):/', '+', preg_replace('/\s+/', '', trim($match[1]))))))),';+, '));
+					if (($editions_diff=array_diff($editionsM, array_keys($vartrans)))) {
 						$database['MISS_MANU'] .= ($warn="$newmess\tmissing manuscript edition: ".implode(",",$editions_diff)." from editions=".$match[1]."\n");
 						AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");	
 					}
@@ -1559,7 +1586,8 @@ function AION_NEWSTRONGS_COUNT_REF($references, $output) {
 	$newmess  = "COUNT_REF($output) ";
 	$yeah_array = $book_array = $chap_array = $vers_array = array();
 	$indx_last = $chap_last = $vers_last = NULL;
-	$line = strtok($references."0\t0\t0\t0\n", "\n"); // add empty line to flush the last line
+	$references .= "0\t0\t0\t0\t0\n";
+	$line = strtok($references, "\n"); // add empty line to flush the last line
 	$line = strtok( "\n" ); // skip first line
 	// distinct strongs numbers
 	while ($line !== false) {
@@ -1569,7 +1597,7 @@ function AION_NEWSTRONGS_COUNT_REF($references, $output) {
 		$chap = $match[3];
 		$vers = $match[4];
 		// strongs
-		if (FALSE===preg_match_all("#([GH]{1}[\d]{1,5})([a-z]{0,1})#u", $line, $parsed, PREG_SET_ORDER)) { AION_ECHO("ERROR! $newmess !preg_match_all()"); }
+		if (FALSE===preg_match_all("#(?<!:)([GH]{1}[\d]{1,5})([a-z]{0,1})#u", $line, $parsed, PREG_SET_ORDER)) { AION_ECHO("ERROR! $newmess !preg_match_all()"); } // to avoid Greek conjoined strongs #s, [^:]{1} or (?<!:)
 		foreach($parsed as $s) {
 			$book_array[$s[1]] = $chap_array[$s[1]] = TRUE;
 			$vers_array[$s[1]] += 1;
@@ -1579,7 +1607,7 @@ function AION_NEWSTRONGS_COUNT_REF($references, $output) {
 			}
 		}
 		// counts
-		if ($indx_last != NULL) {
+		if ($indx_last !== NULL) {
 			if ($indx != $indx_last) {
 				foreach($book_array as $s => $x) {
 					if (!isset($yeah_array[$s])) { $yeah_array[$s] = array(0,0,0,0); }
@@ -1684,7 +1712,7 @@ function AION_NEWSTRONGS_USAGE_REF($test, $references, $file, $file_index) {
 	// init
 	$newmess  = "USAGE_REF() ";
 	$chapters = AION_BIBLES_CHAPTER_INDEX();
-	$usage_length = ($test="old" ? 929 : 260);
+	$usage_length = ($test=="old" ? 929 : 260);
 	$usage = array();
 	// usage
 	$line = strtok($references, "\n");
@@ -1756,15 +1784,32 @@ function AION_NEWSTRONGS_USAGE_REF_CHECKER($index_file, $usage_file) {
 
 
 // Count all strongs references
-function AION_NEWSTRONGS_COUNT_REF_CHECKER($countsF, $source1, $source2, $source3, $source4, $file) {
+function AION_NEWSTRONGS_COUNT_REF_CHECKER($countsF, $source1, $begin1, $end1, $source2, $begin2, $end2, $source3, $begin3, $end3, $source4, $begin4, $end4, $file) {
 	$newmess = "COUNT_REF_CHECKER $counts";
 	// read data
 	$counts = json_decode(file_get_contents($countsF), true);
-	if (empty($counts)) {															AION_ECHO("ERROR! $newmess !json_decode($countsF)"); }
-	if (($source  = file_get_contents( $source1 )) === FALSE ) {					AION_ECHO("ERROR! $newmess !file_get_contents(1)"); }
-	if ($source2) { if (($sourceT = file_get_contents( $source2 )) === FALSE ) {	AION_ECHO("ERROR! $newmess !file_get_contents(1)"); }	$source .= $sourceT; }
-	if ($source3) { if (($sourceT = file_get_contents( $source3 )) === FALSE ) {	AION_ECHO("ERROR! $newmess !file_get_contents(1)"); }	$source .= $sourceT; }
-	if ($source4) { if (($sourceT = file_get_contents( $source4 )) === FALSE ) {	AION_ECHO("ERROR! $newmess !file_get_contents(1)"); }	$source .= $sourceT; }
+	if (empty($counts)) {																						AION_ECHO("ERROR! $newmess !json_decode($countsF)"); }
+	if (($source  = file_get_contents( $source1 )) === FALSE ) {												AION_ECHO("ERROR! $newmess !file_get_contents($source1)"); }
+	if ($begin1 && !($source=preg_replace("/^.*?$begin1/us",$begin1,$source,-1,$count)) || $count!=1) {			AION_ECHO("ERROR! $newmess $source1 no beginning='$begin1' $count"); }
+	if ($end1   && !($source=preg_replace("/$end1.*$/us","",$source,-1,$count)) || $count!=1) {					AION_ECHO("ERROR! $newmess $source1 no ending='$end1' $count"); }
+	if ($source2) {
+		if (($sourceT = file_get_contents( $source2 )) === FALSE ) {											AION_ECHO("ERROR! $newmess !file_get_contents($source2)"); }
+		if ($begin2 && !($sourceT=preg_replace("/^.*?$begin2/us",$begin2,$sourceT,-1,$count)) || $count!=1) {	AION_ECHO("ERROR! $newmess $source2 no beginning='$begin2' $count"); }
+		if ($end2   && !($sourceT=preg_replace("/$end2.*$/us","",$sourceT,-1,$count)) || $count!=1) {			AION_ECHO("ERROR! $newmess $source2 no ending='$end2' $count"); }
+		$source .= $sourceT;
+	}
+	if ($source3) {
+		if (($sourceT = file_get_contents( $source3 )) === FALSE ) {											AION_ECHO("ERROR! $newmess !file_get_contents($source3)"); }
+		if ($begin3 && !($sourceT=preg_replace("/^.*?$begin3/us",$begin3,$sourceT,-1,$count)) || $count!=1) {	AION_ECHO("ERROR! $newmess $source3 no beginning='$begin3' $count"); }
+		if ($end3   && !($sourceT=preg_replace("/$end3.*$/us","",$sourceT,-1,$count)) || $count!=1) {			AION_ECHO("ERROR! $newmess $source3 no ending='$end3' $count"); }
+		$source .= $sourceT;
+	}
+	if ($source4) {
+		if (($sourceT = file_get_contents( $source4 )) === FALSE ) {											AION_ECHO("ERROR! $newmess !file_get_contents($source4)"); }
+		if ($begin4 && !($sourceT=preg_replace("/^.*?$begin4/us",$begin4,$sourceT,-1,$count)) || $count!=1) {	AION_ECHO("ERROR! $newmess $source4 no beginning='$begin4' $count"); }
+		if ($end4   && !($sourceT=preg_replace("/$end4.*$/us","",$sourceT,-1,$count)) || $count!=1) {			AION_ECHO("ERROR! $newmess $source4 no ending='$end4' $count"); }
+		$source .= $sourceT;
+	}
 	unset($sourceT);
 	// remove comments first
 	if ((!$source=preg_replace("/^#.*$/um", "", $source))) {
@@ -1777,13 +1822,77 @@ function AION_NEWSTRONGS_COUNT_REF_CHECKER($countsF, $source1, $source2, $source
 		if ($strongs == "H0") { continue; }
 		if (FALSE===preg_match("#^([GH]{1})([0-9]{1,5})([a-z]{0,1})$#u", $strongs, $match)) { AION_ECHO("ERROR! $newmess !preg_match()"); }
 		$strongs = $match[1].sprintf('%04d',$match[2]).$match[3];
-		if (FALSE===preg_match_all("#($strongs)[^\d]{1}#u", $source, $parsed, PREG_PATTERN_ORDER)) { AION_ECHO("ERROR! $newmess !preg_match_all()"); }
+		if (FALSE===preg_match_all("#(?<!:)($strongs)[^\d]{1}#u", $source, $parsed, PREG_PATTERN_ORDER)) { AION_ECHO("ERROR! $newmess !preg_match_all()"); } // to avoid Greek conjoined strongs #s, [^:]{1} or (?<!:)
 		if ($numbers[3] != ($found=count($parsed[1]))) {
-			AION_ECHO("WARN! $newmess count mismatch for $strongs: $numbers[3] != $found");
+			AION_ECHO("WARN! $newmess count mismatch (Greek strong+strong with meaning strong refs doubled?) for $strongs: $numbers[3] != $found");
 		}
 	}
 	return;
 }
+
+
+
+// create tagged index file
+function AION_NEWSTRONGS_GET_INDEX_TAG($input, $output) {
+	// init
+	$newmess = "INDEX_TAG\t$input\t$output";
+	if ( ($contents = file_get_contents( $input )) === FALSE ) {		AION_ECHO("ERROR! $newmess !file_get_contents()"); }
+	if ( mb_detect_encoding($contents, "UTF-8", TRUE) === FALSE ) {		AION_ECHO("ERROR! $newmess !mb_detect_encoding()"); }
+	mb_regex_encoding("UTF-8");
+	mb_internal_encoding("UTF-8");	
+	// loop through lines
+	$bytes = 0;
+	$last_vers = 0;
+	$index = array();
+	$line = strtok($contents, "\n");
+	while ($line !== false) {
+		// parse the line
+		if (ctype_digit($line[0])) {	
+			if (!preg_match("#^(\d+)\t([A-Z0-9]+)\t(\d+)\t(\d+)\t#u", $line, $match)) {	AION_ECHO("ERROR! $newmess corrupt reference tag\n".print_r($line,TRUE)); }
+			$book = $match[2];
+			$chap = $match[3];
+			$vers = $match[4];
+			if ($vers != $last_vers) {
+				if (isset($index["$book$chap$vers"])) { AION_ECHO("ERROR! $newmess reference tag index already set???\n".print_r($line,TRUE)); }
+				$index["$book$chap$vers"] = $bytes;
+			}
+			$last_vers = $vers;
+		}
+		$bytes += (strlen($line) + 1);
+		$line = strtok( "\n" );
+	}
+	// write the json array
+	global $strongs_json_flag;
+	if (file_put_contents($output,json_encode($index, $strongs_json_flag)) === FALSE ) { AION_ECHO("ERROR! $newmess file_put_contents $output" ); }
+	return;
+}
+
+
+// tagged index checker
+function AION_NEWSTRONGS_TAG_INDEX_CHECKER($index_file, $tag_file, $verses) {
+	$newmess = "INDEX_TAG_CHECKER $index_file";
+	// read data
+	$index = json_decode(file_get_contents($index_file), true);
+	if (empty($index)) {						AION_ECHO("ERROR! $newmess !json_decode($index_file)"); }
+	if (!($fd=fopen($tag_file, 'r'))) {			AION_ECHO("ERROR! $newmess !fopen($usage_file)"); }
+	// loop through counts
+	foreach($verses as $verse) {
+		AION_ECHO("$newmess CHECKING: $verse");
+		if (empty($index[$verse])) {			AION_ECHO("WARN! $newmess index not found! $verse"); continue; }
+		if (fseek($fd, $index[$verse])) {		AION_ECHO("ERROR! $newmess fseek error to byte =".$index[$verse]); }
+		while(($line=fgets($fd))) {
+			if (!preg_match("#^(\d+)\t([A-Z0-9]+)\t(\d+)\t(\d+)\t#u", $line, $match)) {	AION_ECHO("ERROR! $newmess corrupt reference tag\n".print_r($line,TRUE)); }
+			$book = $match[2];
+			$chap = $match[3];
+			$vers = $match[4];
+			if ("$book$chap$vers" != $verse) { break; }
+			echo "$newmess $line";
+		}
+	}
+	fclose($fd);
+	return;
+}
+
 
 
 // Read a CSV file!
@@ -1931,10 +2040,11 @@ function AION_NEWSTRONGS_USAGE_FOLDER($tagf, $lex1, $lex2, $lex3, $fold) {
 	$last_index = $last_book = $last_chapter = NULL;
 	$json = array();
 	for($x=0; $x < $modulo; ++$x) { $json[$x] = array(); } // separate json for each modulo return
-	$line = strtok($tags, "\n");
+	$tags .= "\t\t\t\t\t\t\t\t\t\r\n";
+	$line = strtok($tags,"\n");
 	while ($line !== false) {
 		$tagA = explode("\t",$line);
-		if ($tagA[0][0]=="#" || $tagA[0]=="STRONGS" || count($tagA)<8) { $line = strtok( "\n" ); continue; }
+		if ($tagA[0][0]=="#" || $tagA[0]=="INDEX" || count($tagA)<8) { $line = strtok( "\n" ); continue; }
 		$tag = array(
 			"INDEX"		=> $tagA[0],
 			"BOOK"		=> $tagA[1],
@@ -1945,7 +2055,15 @@ function AION_NEWSTRONGS_USAGE_FOLDER($tagf, $lex1, $lex2, $lex3, $fold) {
 			"MORPH"		=> $tagA[6],
 			"WORD"		=> $tagA[7],
 			);
-		if (!empty($tagA[8])) { $tag["VARIANT"] = $tagA[8]; }
+		if (!empty($tagA[8] )) { $tag["ENGLISH"]	= $tagA[8];  }
+		if (!empty($tagA[9] )) { $tag["ENTRY"]		= $tagA[9];  }
+		if (!empty($tagA[10])) { $tag["PUNC"]		= $tagA[10]; }
+		if (!empty($tagA[11])) { $tag["EDITIONS"]	= $tagA[11]; }
+		if (!empty($tagA[12])) { $tag["SPELLINGS"]	= $tagA[12]; }
+		if (!empty($tagA[13])) { $tag["MEANINGS"]	= $tagA[13]; }
+		if (!empty($tagA[14])) { $tag["ADDITIONAL"]	= $tagA[14]; }
+		if (!empty($tagA[15])) { $tag["CONJOIN"]	= $tagA[15]; }
+		
 		// write the json file
 		if ($last_book && ($last_book != $tag['BOOK'] || $last_chapter != $tag['CHAPTER'])) {
 			global $strongs_json_flag;
@@ -1956,16 +2074,25 @@ function AION_NEWSTRONGS_USAGE_FOLDER($tagf, $lex1, $lex2, $lex3, $fold) {
 		}
 		// build the json file
 		$strongs = $tag["STRONGS"];
+		if (FALSE===preg_match("#^([GH]{1}[0-9]{1,5})([a-z]{0,1})$#u", $strongs, $match)) { AION_ECHO("ERROR! $newmess !preg_match()"); }
+		$strongsX = $match[1]; // assuming TBESH H#####[a-z] is related to STRONGS H#####
 		$temp = array(
 			"S"	=> $strongs,
 			"F"	=> $tag["FLAG"], 
 			"M"	=> $tag["MORPH"],
 			"W"	=> $tag["WORD"],
 			);
-		if (!empty($tag["VARIANT"])) {	$temp["V"] = $tag["VARIANT"]; }
-		if (!empty($database['T_LEX1'][$strongs])) {	$temp["1"] = AION_NEWSTRONGS_ASSOCIATIVE_RENAME($database['T_LEX1'][$strongs]); }
-		if (!empty($database['T_LEX2'][$strongs])) {	$temp["2"] = AION_NEWSTRONGS_ASSOCIATIVE_RENAME($database['T_LEX2'][$strongs]); }
-		if (!empty($database['T_LEX3'][$strongs])) {	$temp["3"] = AION_NEWSTRONGS_ASSOCIATIVE_RENAME($database['T_LEX3'][$strongs]); }
+		if (!empty($tag["ENGLISH"])) {					$temp["E"] = $tag["ENGLISH"]; }
+		if (!empty($tag["ENTRY"])) {					$temp["N"] = $tag["ENTRY"]; }
+		if (!empty($tag["PUNC"])) {						$temp["P"] = $tag["PUNC"]; }
+		if (!empty($tag["EDITIONS"])) {					$temp["D"] = $tag["EDITIONS"]; }
+		if (!empty($tag["SPELLINGS"])) {				$temp["L"] = $tag["SPELLINGS"]; }
+		if (!empty($tag["MEANINGS"])) {					$temp["G"] = $tag["MEANINGS"]; }
+		if (!empty($tag["ADDITIONAL"])) {				$temp["A"] = $tag["ADDITIONAL"]; }
+		if (!empty($tag["CONJOIN"])) {					$temp["C"] = $tag["CONJOIN"]; }
+		//if (!empty($database['T_LEX1'][$strongsX])) {	$temp["1"] = AION_NEWSTRONGS_ASSOCIATIVE_RENAME($database['T_LEX1'][$strongsX]); }
+		//if (!empty($database['T_LEX2'][$strongs])) {	$temp["2"] = AION_NEWSTRONGS_ASSOCIATIVE_RENAME($database['T_LEX2'][$strongs]); }
+		//if (!empty($database['T_LEX3'][$strongs])) {	$temp["3"] = AION_NEWSTRONGS_ASSOCIATIVE_RENAME($database['T_LEX3'][$strongs]); }
 		$json[((int)$tag['VERSE'] % $modulo)][(int)$tag['VERSE']][] = $temp;
 		AION_unset($temp); unset($temp); $temp = NULL;
 		// mark position

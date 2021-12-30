@@ -1261,197 +1261,1205 @@ Array
 
 
 *** AION: GREEK ../www-stage/library/stepbible/Greek_Lexicon_LSJ.txt ROWS=10714
-*** AION: WARN!	FIX_REF	ref='41_Mat.005.048'	word='οὐράνιος'	morph='A-NSM'	strongs='G3770'	missing morph=' PREP+T-DPM+N-DPM'
+*** AION: WARN!	FIX_REF	ref='41_Mat.002.008'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
 Array
 (
-    [REF] => 41_Mat.005.048
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => οὐράνιος
-    [ENGLISH] => Heavenly,
-    [STRONGS] => G3770
-    [MORPH] => A-NSM
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV
-    [SPELLINGS] => οὐράνιος
-    [MEANINGS] => ‖ TR+Byz = ἐν τοῖς οὐρανοῖς = "in the heavens" = G1722+G3588+G3772 = PREP+T-DPM+N-DPM
-    [ADDITIONAL] => heavenly
+    [REF] => 41_Mat.002.008
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => I also
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »040:G2064
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='41_Mat.004.006'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
+Array
+(
+    [REF] => 41_Mat.004.006
+    [TYPE] => =NA same TR ~~
+    [WORD] => μήποτε
+    [ENGLISH] => otherwise
+    [STRONGS] => G3361+G4218
+    [MORPH] => PRT-N+PRT
+    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV, WH
+    [SPELLINGS] => μήποτε, μή ποτε
+    [MEANINGS] => 
+    [ADDITIONAL] => not + lest
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='41_Mat.007.024'	word='ὁμοιωθήσεται'	morph='V-FPI-3S'	strongs='G3666'	missing morph=' V-FAI-1S+P-ASM'
+*** AION: WARN!	FIX_REF	ref='41_Mat.005.023'	word='κἀκεῖ'	morph='CONJ +ADV'	strongs='G2532+G1563'	space morph=CONJ+ADV
 Array
 (
-    [REF] => 41_Mat.007.024
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => ὁμοιωθήσεται
-    [ENGLISH] => he will be like
-    [STRONGS] => G3666
-    [MORPH] => V-FPI-3S
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV
-    [SPELLINGS] => ὁμοιωθήσεται
-    [MEANINGS] => ‖ TR+Byz = ὁμοιώσω αὐτὸν = "I will liken him" = G3666+G846 = V-FAI-1S+P-ASM
-    [ADDITIONAL] => to liken
+    [REF] => 41_Mat.005.023
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖ
+    [ENGLISH] => and there
+    [STRONGS] => G2532+G1563
+    [MORPH] => CONJ+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖ
+    [MEANINGS] => 
+    [ADDITIONAL] => and there
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='41_Mat.023.009'	word='οὐράνιος.'	morph='A-NSM'	strongs='G3770'	missing morph=' PREP+T-DPM+N-DPM'
+*** AION: WARN!	FIX_REF	ref='41_Mat.005.025'	word='μήποτέ'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
 Array
 (
-    [REF] => 41_Mat.023.009
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => οὐράνιος.
-    [ENGLISH] => in heaven.
-    [STRONGS] => G3770
-    [MORPH] => A-NSM
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV
-    [SPELLINGS] => οὐράνιος
-    [MEANINGS] => | TR+Byz = ἐν τοῖς οὐρανοῖς = "in the heavens" = G1722+G3588+G3772 = PREP+T-DPM+N-DPM
-    [ADDITIONAL] => heavenly
+    [REF] => 41_Mat.005.025
+    [TYPE] => =NA same TR ~~
+    [WORD] => μήποτέ
+    [ENGLISH] => otherwise
+    [STRONGS] => G3361+G4218
+    [MORPH] => PRT-N+PRT
+    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV, WH
+    [SPELLINGS] => μήποτέ, μή ποτέ
+    [MEANINGS] => 
+    [ADDITIONAL] => not + lest
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='42_Mrk.002.004'	word='ὅπου'	morph='ADV'	strongs='G3699'	missing morph=' PREP+R-DSM'
+*** AION: WARN!	FIX_REF	ref='41_Mat.007.006'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
 Array
 (
-    [REF] => 42_Mrk.002.004
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => ὅπου
-    [ENGLISH] => where
-    [STRONGS] => G3699
-    [MORPH] => ADV
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV
-    [SPELLINGS] => ὅπου
-    [MEANINGS] => | TR+Byz = ἐφ᾽ ᾧ = "upon which" = G1909+G3739 = PREP+R-DSM
-    [ADDITIONAL] => where(-ever)
+    [REF] => 41_Mat.007.006
+    [TYPE] => =NA same TR ~~
+    [WORD] => μήποτε
+    [ENGLISH] => otherwise
+    [STRONGS] => G3361+G4218
+    [MORPH] => PRT-N+PRT
+    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV, WH
+    [SPELLINGS] => μήποτε, μή ποτε
+    [MEANINGS] => 
+    [ADDITIONAL] => not + lest
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='42_Mrk.009.008'	word='ἀλλὰ'	morph='CONJ'	strongs='G235'	missing morph=' COND+PRT-N'
+*** AION: WARN!	FIX_REF	ref='41_Mat.009.004'	word='ἱνατί'	morph='CONJ +I-NSN'	strongs='G2443+G5101'	space morph=CONJ+I-NSN
+Array
+(
+    [REF] => 41_Mat.009.004
+    [TYPE] => =NA same TR ~~
+    [WORD] => ἱνατί
+    [ENGLISH] => so why
+    [STRONGS] => G2443+G5101
+    [MORPH] => CONJ+I-NSN
+    [EDITIONS] => NA27+NA28+SBL+Treg+Byz+NIV, Tyn+WH+TR
+    [SPELLINGS] => ἱνατί, ἵνα τί
+    [MEANINGS] => 
+    [ADDITIONAL] => so + why
+    [CONJOIN] => »020:G1760
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='41_Mat.010.011'	word='κἀκεῖ'	morph='CONJ +ADV'	strongs='G2532+G1563'	space morph=CONJ+ADV
+Array
+(
+    [REF] => 41_Mat.010.011
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖ
+    [ENGLISH] => and there
+    [STRONGS] => G2532+G1563
+    [MORPH] => CONJ+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖ
+    [MEANINGS] => 
+    [ADDITIONAL] => and there
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='41_Mat.010.032'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 41_Mat.010.032
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => also I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => «020:G3670
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='41_Mat.010.033'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 41_Mat.010.033
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => I also
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV>1:TR+Byz
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => «018:G720
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='41_Mat.011.028'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 41_Mat.011.028
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »020:G373
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='41_Mat.013.015'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
+Array
+(
+    [REF] => 41_Mat.013.015
+    [TYPE] => =NA same TR ~~
+    [WORD] => μήποτε
+    [ENGLISH] => otherwise
+    [STRONGS] => G3361+G4218
+    [MORPH] => PRT-N+PRT
+    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV, WH
+    [SPELLINGS] => μήποτε, μή ποτε
+    [MEANINGS] => 
+    [ADDITIONAL] => not + lest
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='41_Mat.013.029'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
+Array
+(
+    [REF] => 41_Mat.013.029
+    [TYPE] => =NA same TR ~~
+    [WORD] => μήποτε
+    [ENGLISH] => otherwise
+    [STRONGS] => G3361+G4218
+    [MORPH] => PRT-N+PRT
+    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV, WH
+    [SPELLINGS] => μήποτε, μή ποτε
+    [MEANINGS] => 
+    [ADDITIONAL] => not + lest
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='41_Mat.015.018'	word='κἀκεῖνα'	morph='CONJ +D-NPN'	strongs='G2532+G1565'	space morph=CONJ+D-NPN
+Array
+(
+    [REF] => 41_Mat.015.018
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖνα
+    [ENGLISH] => and these
+    [STRONGS] => G2532+G1565
+    [MORPH] => CONJ+D-NPN
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖνα
+    [MEANINGS] => 
+    [ADDITIONAL] => and that one
+    [CONJOIN] => »024:G2840
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='41_Mat.015.032'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
+Array
+(
+    [REF] => 41_Mat.015.032
+    [TYPE] => =NA same TR ~~
+    [WORD] => μήποτε
+    [ENGLISH] => otherwise
+    [STRONGS] => G3361+G4218
+    [MORPH] => PRT-N+PRT
+    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV, WH
+    [SPELLINGS] => μήποτε, μή ποτε
+    [MEANINGS] => 
+    [ADDITIONAL] => not + lest
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='41_Mat.016.018'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 41_Mat.016.018
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => I also
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »008:G3004
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='41_Mat.018.033'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 41_Mat.018.033
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => also I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV; TR+Byz
+    [SPELLINGS] => κἀγὼ; καὶ ἐγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »024:G1653
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='41_Mat.019.006'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 41_Mat.019.006
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN! FIX_REF	ref='41_Mat.021.001'	word='ἐλαιῶν,'	morph='N-GPF-L'	strongs='G1638' problem parsing ADDITIONAL doubles: Olivet§Olives_Mount@@2Sa.15.30
+Array
+(
+    [REF] => 41_Mat.021.001
+    [TYPE] => =NA same TR ~~
+    [WORD] => ἐλαιῶν,
+    [ENGLISH] => of Olives,
+    [STRONGS] => G1638
+    [MORPH] => N-GPF-L
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => ἐλαιῶν
+    [MEANINGS] => 
+    [ADDITIONAL] => Olivet§Olives_Mount@@2Sa.15.30
+    [CONJOIN] => 
+)
+
+*** AION: WARN!	FIX_REF	ref='41_Mat.021.021'	word='κἂν'	morph='CONJ +COND'	strongs='G2532+G1437'	space morph=CONJ+COND
+Array
+(
+    [REF] => 41_Mat.021.021
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἂν
+    [ENGLISH] => even if
+    [STRONGS] => G2532+G1437
+    [MORPH] => CONJ+COND
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἂν
+    [MEANINGS] => 
+    [ADDITIONAL] => even if
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='41_Mat.021.024'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 41_Mat.021.024
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => I also
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => «014:G2065
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='41_Mat.021.024'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 41_Mat.021.024
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => I also
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »036:G2036
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='41_Mat.022.046'	word='οὐκέτι.¶'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 41_Mat.022.046
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι.¶
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='41_Mat.023.023'	word='κἀκεῖνα'	morph='CONJ +D-APN'	strongs='G2532+G1565'	space morph=CONJ+D-APN
+Array
+(
+    [REF] => 41_Mat.023.023
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖνα
+    [ENGLISH] => those
+    [STRONGS] => G2532+G1565
+    [MORPH] => CONJ+D-APN
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖνα
+    [MEANINGS] => 
+    [ADDITIONAL] => and that one
+    [CONJOIN] => »074:G863
+)
+
+
+
+
+*** AION: WARN! FIX_REF	ref='41_Mat.024.003'	word='ἐλαιῶν'	morph='N-GPF-L'	strongs='G1638' problem parsing ADDITIONAL doubles: Olivet§Olives_Mount@@2Sa.15.30
+Array
+(
+    [REF] => 41_Mat.024.003
+    [TYPE] => =NA same TR ~~
+    [WORD] => ἐλαιῶν
+    [ENGLISH] => of Olives,
+    [STRONGS] => G1638
+    [MORPH] => N-GPF-L
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => ἐλαιῶν
+    [MEANINGS] => 
+    [ADDITIONAL] => Olivet§Olives_Mount@@2Sa.15.30
+    [CONJOIN] => 
+)
+
+*** AION: WARN!	FIX_REF	ref='41_Mat.025.009'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
+Array
+(
+    [REF] => 41_Mat.025.009
+    [TYPE] => =NA same TR ~~
+    [WORD] => μήποτε
+    [ENGLISH] => otherwise
+    [STRONGS] => G3361+G4218
+    [MORPH] => PRT-N+PRT
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => μήποτε
+    [MEANINGS] => 
+    [ADDITIONAL] => not + lest
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='41_Mat.026.015'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 41_Mat.026.015
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »016:G3860
+)
+
+
+
+
+*** AION: WARN! FIX_REF	ref='41_Mat.026.030'	word='ἐλαιῶν.¶'	morph='N-GPF-L'	strongs='G1638' problem parsing ADDITIONAL doubles: Olivet§Olives_Mount@@2Sa.15.30
+Array
+(
+    [REF] => 41_Mat.026.030
+    [TYPE] => =NA same TR ~~
+    [WORD] => ἐλαιῶν.¶
+    [ENGLISH] => of Olives.
+    [STRONGS] => G1638
+    [MORPH] => N-GPF-L
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => ἐλαιῶν
+    [MEANINGS] => 
+    [ADDITIONAL] => Olivet§Olives_Mount@@2Sa.15.30
+    [CONJOIN] => 
+)
+
+*** AION: WARN!	FIX_REF	ref='41_Mat.026.035'	word='κἂν'	morph='CONJ +COND'	strongs='G2532+G1437'	space morph=CONJ+COND
+Array
+(
+    [REF] => 41_Mat.026.035
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἂν
+    [ENGLISH] => Even if
+    [STRONGS] => G2532+G1437
+    [MORPH] => CONJ+COND
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἂν
+    [MEANINGS] => 
+    [ADDITIONAL] => even if
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='41_Mat.027.046'	word='ἱνατί'	morph='CONJ +I-NSN'	strongs='G2443+G5101'	space morph=CONJ+I-NSN
+Array
+(
+    [REF] => 41_Mat.027.046
+    [TYPE] => =NA same TR ~~
+    [WORD] => ἱνατί
+    [ENGLISH] => so why
+    [STRONGS] => G2443+G5101
+    [MORPH] => CONJ+I-NSN
+    [EDITIONS] => NA27+NA28+SBL+Treg+Byz+NIV, Tyn+WH+TR
+    [SPELLINGS] => ἱνατί, ἵνα τί
+    [MEANINGS] => 
+    [ADDITIONAL] => so + why
+    [CONJOIN] => »048:G1459
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='41_Mat.027.064'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
+Array
+(
+    [REF] => 41_Mat.027.064
+    [TYPE] => =NA same TR ~~
+    [WORD] => μήποτε
+    [ENGLISH] => otherwise
+    [STRONGS] => G3361+G4218
+    [MORPH] => PRT-N+PRT
+    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV, WH
+    [SPELLINGS] => μήποτε, μή ποτε
+    [MEANINGS] => 
+    [ADDITIONAL] => not + lest
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='41_Mat.028.010'	word='κἀκεῖ'	morph='CONJ +ADV'	strongs='G2532+G1563'	space morph=CONJ+ADV
+Array
+(
+    [REF] => 41_Mat.028.010
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖ
+    [ENGLISH] => and there
+    [STRONGS] => G2532+G1563
+    [MORPH] => CONJ+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖ
+    [MEANINGS] => 
+    [ADDITIONAL] => and there
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='42_Mrk.001.035'	word='κἀκεῖ'	morph='CONJ +ADV'	strongs='G2532+G1563'	space morph=CONJ+ADV
+Array
+(
+    [REF] => 42_Mrk.001.035
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖ
+    [ENGLISH] => and there
+    [STRONGS] => G2532+G1563
+    [MORPH] => CONJ+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖ
+    [MEANINGS] => 
+    [ADDITIONAL] => and there
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='42_Mrk.004.012'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
+Array
+(
+    [REF] => 42_Mrk.004.012
+    [TYPE] => =NA same TR ~~
+    [WORD] => μήποτε
+    [ENGLISH] => otherwise
+    [STRONGS] => G3361+G4218
+    [MORPH] => PRT-N+PRT
+    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV, WH
+    [SPELLINGS] => μήποτε, μή ποτε
+    [MEANINGS] => 
+    [ADDITIONAL] => not + lest
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='42_Mrk.005.003'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 42_Mrk.005.003
+    [TYPE] => =NA not TR ⁽⁾
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+ESV+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='42_Mrk.005.028'	word='κἂν'	morph='CONJ +COND'	strongs='G2532+G1437'	space morph=CONJ+COND
+Array
+(
+    [REF] => 42_Mrk.005.028
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἂν
+    [ENGLISH] => even
+    [STRONGS] => G2532+G1437
+    [MORPH] => CONJ+COND
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἂν
+    [MEANINGS] => 
+    [ADDITIONAL] => even if
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='42_Mrk.006.056'	word='κἂν'	morph='CONJ +COND'	strongs='G2532+G1437'	space morph=CONJ+COND
+Array
+(
+    [REF] => 42_Mrk.006.056
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἂν
+    [ENGLISH] => only
+    [STRONGS] => G2532+G1437
+    [MORPH] => CONJ+COND
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἂν
+    [MEANINGS] => 
+    [ADDITIONAL] => even if
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='42_Mrk.007.012'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 42_Mrk.007.012
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='42_Mrk.009.008'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
 Array
 (
     [REF] => 42_Mrk.009.008
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => ἀλλὰ
-    [ENGLISH] => except
-    [STRONGS] => G235
-    [MORPH] => CONJ
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='42_Mrk.009.030'	word='Κἀκεῖθεν'	morph='CONJ +ADV'	strongs='G2532+G1564'	space morph=CONJ+ADV
+Array
+(
+    [REF] => 42_Mrk.009.030
+    [TYPE] => =NA same TR ~~
+    [WORD] => Κἀκεῖθεν
+    [ENGLISH] => And from there
+    [STRONGS] => G2532+G1564
+    [MORPH] => CONJ+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+Byz+NIV; TR
+    [SPELLINGS] => κἀκεῖθεν; καὶ ἐκεῖθεν
+    [MEANINGS] => 
+    [ADDITIONAL] => and from there
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='42_Mrk.010.008'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 42_Mrk.010.008
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN! FIX_REF	ref='42_Mrk.011.001'	word='ἐλαιῶν,'	morph='N-GPF-L'	strongs='G1638' problem parsing ADDITIONAL doubles: Olivet§Olives_Mount@@2Sa.15.30
+Array
+(
+    [REF] => 42_Mrk.011.001
+    [TYPE] => =NA same TR ~~
+    [WORD] => ἐλαιῶν,
+    [ENGLISH] => of Olives,
+    [STRONGS] => G1638
+    [MORPH] => N-GPF-L
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => ἐλαιῶν
+    [MEANINGS] => 
+    [ADDITIONAL] => Olivet§Olives_Mount@@2Sa.15.30
+    [CONJOIN] => 
+)
+
+*** AION: WARN!	FIX_REF	ref='42_Mrk.011.029'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 42_Mrk.011.029
+    [TYPE] => =TR not NA or NIV/ESV «»
+    [WORD] => κἀγὼ
+    [ENGLISH] => I also
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => TR; Byz
+    [SPELLINGS] => κἀγὼ; καὶ ἐγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => «012:G1905
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='42_Mrk.012.004'	word='κἀκεῖνον'	morph='CONJ +D-ASM'	strongs='G2532+G1565'	space morph=CONJ+D-ASM
+Array
+(
+    [REF] => 42_Mrk.012.004
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖνον
+    [ENGLISH] => and him
+    [STRONGS] => G2532+G1565
+    [MORPH] => CONJ+D-ASM
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖνον
+    [MEANINGS] => 
+    [ADDITIONAL] => and that one
+    [CONJOIN] => »01702:G3036
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='42_Mrk.012.005'	word='κἀκεῖνον'	morph='CONJ +D-ASM'	strongs='G2532+G1565'	space morph=CONJ+D-ASM
+Array
+(
+    [REF] => 42_Mrk.012.005
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖνον
+    [ENGLISH] => and him
+    [STRONGS] => G2532+G1565
+    [MORPH] => CONJ+D-ASM
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖνον
+    [MEANINGS] => 
+    [ADDITIONAL] => and that one
+    [CONJOIN] => »010:G615
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='42_Mrk.012.034'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 42_Mrk.012.034
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN! FIX_REF	ref='42_Mrk.013.003'	word='ἐλαιῶν'	morph='N-GPF-L'	strongs='G1638' problem parsing ADDITIONAL doubles: Olivet§Olives_Mount@@2Sa.15.30
+Array
+(
+    [REF] => 42_Mrk.013.003
+    [TYPE] => =NA same TR ~~
+    [WORD] => ἐλαιῶν
+    [ENGLISH] => of Olives,
+    [STRONGS] => G1638
+    [MORPH] => N-GPF-L
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => ἐλαιῶν
+    [MEANINGS] => 
+    [ADDITIONAL] => Olivet§Olives_Mount@@2Sa.15.30
+    [CONJOIN] => 
+)
+
+*** AION: WARN!	FIX_REF	ref='42_Mrk.014.002'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
+Array
+(
+    [REF] => 42_Mrk.014.002
+    [TYPE] => =NA same TR ~~
+    [WORD] => μήποτε
+    [ENGLISH] => otherwise
+    [STRONGS] => G3361+G4218
+    [MORPH] => PRT-N+PRT
+    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV, WH
+    [SPELLINGS] => μήποτε, μή ποτε
+    [MEANINGS] => 
+    [ADDITIONAL] => not + lest
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='42_Mrk.014.025'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 42_Mrk.014.025
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN! FIX_REF	ref='42_Mrk.014.026'	word='ἐλαιῶν.¶'	morph='N-GPF-L'	strongs='G1638' problem parsing ADDITIONAL doubles: Olivet§Olives_Mount@@2Sa.15.30
+Array
+(
+    [REF] => 42_Mrk.014.026
+    [TYPE] => =NA same TR ~~
+    [WORD] => ἐλαιῶν.¶
+    [ENGLISH] => of Olives.
+    [STRONGS] => G1638
+    [MORPH] => N-GPF-L
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => ἐλαιῶν
+    [MEANINGS] => 
+    [ADDITIONAL] => Olivet§Olives_Mount@@2Sa.15.30
+    [CONJOIN] => 
+)
+
+*** AION: WARN!	FIX_REF	ref='42_Mrk.015.005'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 42_Mrk.015.005
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='42_Mrk.016.011'	word='κἀκεῖνοι'	morph='CONJ +D-NPM'	strongs='G2532+G1565'	space morph=CONJ+D-NPM
+Array
+(
+    [REF] => 42_Mrk.016.011
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖνοι
+    [ENGLISH] => And they,
+    [STRONGS] => G2532+G1565
+    [MORPH] => CONJ+D-NPM
+    [EDITIONS] => NA27+NA28+Tyn+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖνοι
+    [MEANINGS] => 
+    [ADDITIONAL] => and that one
+    [CONJOIN] => »004:G191
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='42_Mrk.016.013'	word='κἀκεῖνοι'	morph='CONJ +D-NPM'	strongs='G2532+G1565'	space morph=CONJ+D-NPM
+Array
+(
+    [REF] => 42_Mrk.016.013
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖνοι
+    [ENGLISH] => And they,
+    [STRONGS] => G2532+G1565
+    [MORPH] => CONJ+D-NPM
+    [EDITIONS] => NA27+NA28+Tyn+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖνοι
+    [MEANINGS] => 
+    [ADDITIONAL] => and that one
+    [CONJOIN] => »004:G565
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='42_Mrk.016.018'	word='κἂν'	morph='CONJ +COND'	strongs='G2532+G1437'	space morph=CONJ+COND
+Array
+(
+    [REF] => 42_Mrk.016.018
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἂν
+    [ENGLISH] => and if
+    [STRONGS] => G2532+G1437
+    [MORPH] => CONJ+COND
+    [EDITIONS] => NA27+NA28+Tyn+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἂν
+    [MEANINGS] => 
+    [ADDITIONAL] => and
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='43_Luk.001.003'	word='κἀμοὶ'	morph='CONJ +P-1DS'	strongs='G2532+G1473'	space morph=CONJ+P-1DS
+Array
+(
+    [REF] => 43_Luk.001.003
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀμοὶ
+    [ENGLISH] => also to me,
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1DS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀμοὶ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »006:G3877
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='43_Luk.002.048'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 43_Luk.002.048
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I,
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+TR+NIV; SBL+WH+Treg+Byz
+    [SPELLINGS] => κἀγὼ; καὶ ἐγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »046:G2212
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='43_Luk.003.015'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
+Array
+(
+    [REF] => 43_Luk.003.015
+    [TYPE] => =NA same TR ~~
+    [WORD] => μήποτε
+    [ENGLISH] => whether
+    [STRONGS] => G3361+G4218
+    [MORPH] => PRT-N+PRT
+    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV, WH
+    [SPELLINGS] => μήποτε, μή ποτε
+    [MEANINGS] => 
+    [ADDITIONAL] => not + lest
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='43_Luk.004.011'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
+Array
+(
+    [REF] => 43_Luk.004.011
+    [TYPE] => =NA same TR ~~
+    [WORD] => μήποτε
+    [ENGLISH] => otherwise
+    [STRONGS] => G3361+G4218
+    [MORPH] => PRT-N+PRT
     [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV
-    [SPELLINGS] => ἀλλὰ
-    [MEANINGS] => | WH = εἰ μὴ = "if not" = G1487+G3361 = COND+PRT-N
-    [ADDITIONAL] => but
+    [SPELLINGS] => μήποτε
+    [MEANINGS] => 
+    [ADDITIONAL] => not + lest
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='42_Mrk.014.046'	word='αὐτῷ'	morph='P-DSM'	strongs='G846'	missing morph=' PREP+P-ASM'
+*** AION: WARN!	FIX_REF	ref='43_Luk.011.007'	word='κἀκεῖνος'	morph='CONJ +D-NSM'	strongs='G2532+G1565'	space morph=CONJ+D-NSM
 Array
 (
-    [REF] => 42_Mrk.014.046
+    [REF] => 43_Luk.011.007
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖνος
+    [ENGLISH] => And he
+    [STRONGS] => G2532+G1565
+    [MORPH] => CONJ+D-NSM
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖνος
+    [MEANINGS] => 
+    [ADDITIONAL] => and that one
+    [CONJOIN] => »006:G611
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='43_Luk.011.009'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 43_Luk.011.009
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => And I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »006:G3004
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='43_Luk.011.042'	word='κἀκεῖνα'	morph='CONJ +D-APN'	strongs='G2532+G1565'	space morph=CONJ+D-APN
+Array
+(
+    [REF] => 43_Luk.011.042
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖνα
+    [ENGLISH] => and those
+    [STRONGS] => G2532+G1565
+    [MORPH] => CONJ+D-APN
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖνα
+    [MEANINGS] => 
+    [ADDITIONAL] => and that one
+    [CONJOIN] => »062:G3918
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='43_Luk.011.053'	word='Κἀκεῖθεν'	morph='CONJ +ADV'	strongs='G2532+G1564'	space morph=CONJ+ADV
+Array
+(
+    [REF] => 43_Luk.011.053
     [TYPE] => =NA diff TR ˹˺
-    [WORD] => αὐτῷ
-    [ENGLISH] => on Him
-    [STRONGS] => G846
-    [MORPH] => P-DSM
+    [WORD] => Κἀκεῖθεν
+    [ENGLISH] => [Going] from there
+    [STRONGS] => G2532+G1564
+    [MORPH] => CONJ+ADV
     [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV
-    [SPELLINGS] => αὐτῷ
-    [MEANINGS] => | TR+Byz = ἐπ᾽ αὐτὸν = "upon him" = G1909+G846 = PREP+P-ASM
-    [ADDITIONAL] => to him
-    [CONJOIN] => «006:G1911
+    [SPELLINGS] => κἀκεῖθεν
+    [MEANINGS] => ‖ >1:TR+Byz = δὲ = "now" = G1161 = CONJ
+    [ADDITIONAL] => and from there
+    [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='42_Mrk.015.020'	word='αὐτοῦ.'	morph='P-GSM'	strongs='G846'	missing morph=' T-APN+A-APN'
+*** AION: WARN!	FIX_REF	ref='43_Luk.012.038'	word='κἂν'	morph='CONJ +COND'	strongs='G2532+G1437'	space morph=CONJ+COND
 Array
 (
-    [REF] => 42_Mrk.015.020
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => αὐτοῦ.
-    [ENGLISH] => His
-    [STRONGS] => G846
-    [MORPH] => P-GSM
-    [EDITIONS] => NA27+NA28+WH
-    [SPELLINGS] => αὐτοῦ
-    [MEANINGS] => ‖ Tyn+SBL+Treg+TR+Byz+ESV+NIV = τὰ ἴδια = "<the> own" = G3588+G2398 = T-APN+A-APN
-    [ADDITIONAL] => of him
-    [CONJOIN] => «026:G2440
+    [REF] => 43_Luk.012.038
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἂν
+    [ENGLISH] => And if
+    [STRONGS] => G2532+G1437
+    [MORPH] => CONJ+COND
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV; TR+Byz
+    [SPELLINGS] => κἂν; καὶ ἐὰν
+    [MEANINGS] => 
+    [ADDITIONAL] => even if
+    [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='43_Luk.004.029'	word='ὥστε'	morph='CONJ'	strongs='G5620'	missing morph=' PREP+T-ASN'
+*** AION: WARN!	FIX_REF	ref='43_Luk.012.038'	word='κἂν'	morph='CONJ +COND'	strongs='G2532+G1437'	space morph=CONJ+COND
 Array
 (
-    [REF] => 43_Luk.004.029
+    [REF] => 43_Luk.012.038
     [TYPE] => =NA diff TR ˹˺
-    [WORD] => ὥστε
-    [ENGLISH] => in order
-    [STRONGS] => G5620
-    [MORPH] => CONJ
+    [WORD] => κἂν
+    [ENGLISH] => and if
+    [STRONGS] => G2532+G1437
+    [MORPH] => CONJ+COND
     [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV
-    [SPELLINGS] => ὥστε
-    [MEANINGS] => | TR+Byz = εἰς τὸ = "into <the>" = G1519+G3588 = PREP+T-ASN
-    [ADDITIONAL] => so
-    [CONJOIN] => »044:G2630
-)
-
-
-
-
-*** AION: WARN!	FIX_REF	ref='43_Luk.006.010'	word='αὐτῷ·'	morph='P-DSM'	strongs='G846'	missing morph=' T-DSM+N-DSM'
-Array
-(
-    [REF] => 43_Luk.006.010
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => αὐτῷ·
-    [ENGLISH] => to him,
-    [STRONGS] => G846
-    [MORPH] => P-DSM
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+Byz+ESV
-    [SPELLINGS] => αὐτῷ
-    [MEANINGS] => ‖ TR+NIV = τῷ ἀνθρώπῳ = "the man" = G3588+G444 = T-DSM+N-DSM
-    [ADDITIONAL] => to him
-    [CONJOIN] => «010:G2036
-)
-
-
-
-
-*** AION: WARN!	FIX_REF	ref='43_Luk.007.001'	word='Ἐπειδὴ'	morph='CONJ'	strongs='G1894'	missing morph=' CONJ+CONJ'
-Array
-(
-    [REF] => 43_Luk.007.001
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => Ἐπειδὴ
-    [ENGLISH] => And since
-    [STRONGS] => G1894
-    [MORPH] => CONJ
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV
-    [SPELLINGS] => ἐπειδὴ
-    [MEANINGS] => | TR+Byz = ἐπει δὲ = "since now" = G1893+G1161 = CONJ+CONJ
-    [ADDITIONAL] => since
+    [SPELLINGS] => κἂν
+    [MEANINGS] => | TR+Byz = καὶ = "and" = G2532 = CONJ
+    [ADDITIONAL] => and
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='43_Luk.013.004'	word='δεκαοκτὼ'	morph='A-NPM-NUI +A-NPM-NUI'	strongs='G1176+G3638'	missing morph=' A-NPM-NUI+CONJ+A-NPM-NUI '
+*** AION: WARN!	FIX_REF	ref='43_Luk.012.058'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
+Array
+(
+    [REF] => 43_Luk.012.058
+    [TYPE] => =NA same TR ~~
+    [WORD] => μήποτε
+    [ENGLISH] => otherwise
+    [STRONGS] => G3361+G4218
+    [MORPH] => PRT-N+PRT
+    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV, WH
+    [SPELLINGS] => μήποτε, μή ποτε
+    [MEANINGS] => 
+    [ADDITIONAL] => not + lest
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='43_Luk.013.004'	word='δεκαοκτὼ'	morph='A-NPM-NUI +A-NPM-NUI'	strongs='G1176+G3638'	space morph=A-NPM-NUI+A-NPM-NUI
 Array
 (
     [REF] => 43_Luk.013.004
@@ -1459,7 +2467,7 @@ Array
     [WORD] => δεκαοκτὼ
     [ENGLISH] => eighteen
     [STRONGS] => G1176+G3638
-    [MORPH] => A-NPM-NUI +A-NPM-NUI
+    [MORPH] => A-NPM-NUI+A-NPM-NUI
     [EDITIONS] => NA27+NA28+Tyn+SBL+NIV
     [SPELLINGS] => δεκαοκτὼ
     [MEANINGS] => ¦ Treg+TR+Byz = δέκα καὶ ὀκτὼ = "eighteen" = G1176+G2532+G3638 = A-NPM-NUI+CONJ+A-NPM-NUI ¦ WH = δέκα ὀκτὼ = "ten eight" = G1176+G3638 = A-NPM-NUI+A-NPM-NUI
@@ -1470,64 +2478,45 @@ Array
 
 
 
-*** AION: WARN!	FIX_REF	ref='43_Luk.013.004'	word='δεκαοκτὼ'	morph='A-NPM-NUI +A-NPM-NUI'	strongs='G1176+G3638'	missing morph=' A-NPM-NUI+A-NPM-NUI'
+*** AION: WARN!	FIX_REF	ref='43_Luk.013.007'	word='ἱνατί'	morph='CONJ +I-NSN'	strongs='G2443+G5101'	space morph=CONJ+I-NSN
 Array
 (
-    [REF] => 43_Luk.013.004
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => δεκαοκτὼ
-    [ENGLISH] => eighteen
-    [STRONGS] => G1176+G3638
-    [MORPH] => A-NPM-NUI +A-NPM-NUI
-    [EDITIONS] => NA27+NA28+Tyn+SBL+NIV
-    [SPELLINGS] => δεκαοκτὼ
-    [MEANINGS] => ¦ Treg+TR+Byz = δέκα καὶ ὀκτὼ = "eighteen" = G1176+G2532+G3638 = A-NPM-NUI+CONJ+A-NPM-NUI ¦ WH = δέκα ὀκτὼ = "ten eight" = G1176+G3638 = A-NPM-NUI+A-NPM-NUI
-    [ADDITIONAL] => ten + eight
+    [REF] => 43_Luk.013.007
+    [TYPE] => =NA same TR ~~
+    [WORD] => ἱνατί
+    [ENGLISH] => so why
+    [STRONGS] => G2443+G5101
+    [MORPH] => CONJ+I-NSN
+    [EDITIONS] => NA27+NA28+SBL+Treg+Byz+NIV, Tyn+WH+TR
+    [SPELLINGS] => ἱνατί, ἵνα τί
+    [MEANINGS] => 
+    [ADDITIONAL] => so + why
+    [CONJOIN] => »056:G2673
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='43_Luk.013.009'	word='κἂν'	morph='CONJ +COND'	strongs='G2532+G1437'	space morph=CONJ+COND
+Array
+(
+    [REF] => 43_Luk.013.009
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἂν
+    [ENGLISH] => and perhaps
+    [STRONGS] => G2532+G1437
+    [MORPH] => CONJ+COND
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἂν
+    [MEANINGS] => 
+    [ADDITIONAL] => even if
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='43_Luk.013.004'	word='δεκαοκτὼ'	morph='A-NPM-NUI +A-NPM-NUI'	strongs='G1176+G3638'	missing morph=' A-NPM-NUI+CONJ+A-NPM-NUI '
-Array
-(
-    [REF] => 43_Luk.013.004
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => δεκαοκτὼ
-    [ENGLISH] => eighteen
-    [STRONGS] => G1176+G3638
-    [MORPH] => A-NPM-NUI +A-NPM-NUI
-    [EDITIONS] => NA27+NA28+Tyn+SBL+NIV
-    [SPELLINGS] => δεκαοκτὼ
-    [MEANINGS] => ¦ Treg+TR+Byz = δέκα καὶ ὀκτὼ = "eighteen" = G1176+G2532+G3638 = A-NPM-NUI+CONJ+A-NPM-NUI ¦ WH = δέκα ὀκτὼ = "ten eight" = G1176+G3638 = A-NPM-NUI+A-NPM-NUI
-    [ADDITIONAL] => ten + eight
-    [CONJOIN] => 
-)
-
-
-
-
-*** AION: WARN!	FIX_REF	ref='43_Luk.013.004'	word='δεκαοκτὼ'	morph='A-NPM-NUI +A-NPM-NUI'	strongs='G1176+G3638'	missing morph=' A-NPM-NUI+A-NPM-NUI'
-Array
-(
-    [REF] => 43_Luk.013.004
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => δεκαοκτὼ
-    [ENGLISH] => eighteen
-    [STRONGS] => G1176+G3638
-    [MORPH] => A-NPM-NUI +A-NPM-NUI
-    [EDITIONS] => NA27+NA28+Tyn+SBL+NIV
-    [SPELLINGS] => δεκαοκτὼ
-    [MEANINGS] => ¦ Treg+TR+Byz = δέκα καὶ ὀκτὼ = "eighteen" = G1176+G2532+G3638 = A-NPM-NUI+CONJ+A-NPM-NUI ¦ WH = δέκα ὀκτὼ = "ten eight" = G1176+G3638 = A-NPM-NUI+A-NPM-NUI
-    [ADDITIONAL] => ten + eight
-    [CONJOIN] => 
-)
-
-
-
-
-*** AION: WARN!	FIX_REF	ref='43_Luk.013.011'	word='δεκαοκτὼ'	morph='A-APN-NUI +A-APN-NUI'	strongs='G1176+G3638'	missing morph=' A-APN-NUI+CONJ+A-APN-NUI'
+*** AION: WARN!	FIX_REF	ref='43_Luk.013.011'	word='δεκαοκτὼ'	morph='A-APN-NUI +A-APN-NUI'	strongs='G1176+G3638'	space morph=A-APN-NUI+A-APN-NUI
 Array
 (
     [REF] => 43_Luk.013.011
@@ -1535,7 +2524,7 @@ Array
     [WORD] => δεκαοκτὼ
     [ENGLISH] => eighteen,
     [STRONGS] => G1176+G3638
-    [MORPH] => A-APN-NUI +A-APN-NUI
+    [MORPH] => A-APN-NUI+A-APN-NUI
     [EDITIONS] => NA27+NA28+Tyn+NIV, SBL
     [SPELLINGS] => δεκαοκτὼ, δεκαοκτώ
     [MEANINGS] => ¦ Treg+TR+Byz, WH = δέκα καὶ ὀκτὼ, δέκα καὶ ὀκτώ = "eighteen," = G1176+G2532+G3638 = A-APN-NUI+CONJ+A-APN-NUI
@@ -1546,178 +2535,1604 @@ Array
 
 
 
-*** AION: WARN!	FIX_REF	ref='43_Luk.013.011'	word='δεκαοκτὼ'	morph='A-APN-NUI +A-APN-NUI'	strongs='G1176+G3638'	missing morph=' A-APN-NUI+CONJ+A-APN-NUI'
+*** AION: WARN!	FIX_REF	ref='43_Luk.014.008'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
 Array
 (
-    [REF] => 43_Luk.013.011
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => δεκαοκτὼ
-    [ENGLISH] => eighteen,
-    [STRONGS] => G1176+G3638
-    [MORPH] => A-APN-NUI +A-APN-NUI
-    [EDITIONS] => NA27+NA28+Tyn+NIV, SBL
-    [SPELLINGS] => δεκαοκτὼ, δεκαοκτώ
-    [MEANINGS] => ¦ Treg+TR+Byz, WH = δέκα καὶ ὀκτὼ, δέκα καὶ ὀκτώ = "eighteen," = G1176+G2532+G3638 = A-APN-NUI+CONJ+A-APN-NUI
-    [ADDITIONAL] => ten + eight
+    [REF] => 43_Luk.014.008
+    [TYPE] => =NA same TR ~~
+    [WORD] => μήποτε
+    [ENGLISH] => otherwise
+    [STRONGS] => G3361+G4218
+    [MORPH] => PRT-N+PRT
+    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV, WH
+    [SPELLINGS] => μήποτε, μή ποτε
+    [MEANINGS] => 
+    [ADDITIONAL] => not + lest
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='43_Luk.017.028'	word='καθὼς'	morph='CONJ'	strongs='G2531'	missing morph=' CONJ+CONJ'
+*** AION: WARN!	FIX_REF	ref='43_Luk.014.012'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
 Array
 (
-    [REF] => 43_Luk.017.028
+    [REF] => 43_Luk.014.012
+    [TYPE] => =NA same TR ~~
+    [WORD] => μήποτε
+    [ENGLISH] => otherwise
+    [STRONGS] => G3361+G4218
+    [MORPH] => PRT-N+PRT
+    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV, WH
+    [SPELLINGS] => μήποτε, μή ποτε
+    [MEANINGS] => 
+    [ADDITIONAL] => not + lest
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='43_Luk.014.029'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
+Array
+(
+    [REF] => 43_Luk.014.029
+    [TYPE] => =NA same TR ~~
+    [WORD] => μήποτε
+    [ENGLISH] => otherwise
+    [STRONGS] => G3361+G4218
+    [MORPH] => PRT-N+PRT
+    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV, WH
+    [SPELLINGS] => μήποτε, μή ποτε
+    [MEANINGS] => 
+    [ADDITIONAL] => not + lest
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='43_Luk.015.019'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 43_Luk.015.019
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='43_Luk.015.021'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 43_Luk.015.021
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='43_Luk.019.023'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 43_Luk.019.023
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV; TR+Byz
+    [SPELLINGS] => κἀγὼ; καὶ ἐγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »024:G2064
+)
+
+
+
+
+*** AION: WARN! FIX_REF	ref='43_Luk.019.029'	word='Ἐλαιῶν'	morph='N-GPF-L'	strongs='G1638' problem parsing ADDITIONAL doubles: Olivet§Olives_Mount@@2Sa.15.30
+Array
+(
+    [REF] => 43_Luk.019.029
+    [TYPE] => =NA same TR ~~
+    [WORD] => Ἐλαιῶν
+    [ENGLISH] => Olivet,
+    [STRONGS] => G1638
+    [MORPH] => N-GPF-L
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => ἐλαιῶν
+    [MEANINGS] => 
+    [ADDITIONAL] => Olivet§Olives_Mount@@2Sa.15.30
+    [CONJOIN] => 
+)
+
+*** AION: WARN! FIX_REF	ref='43_Luk.019.037'	word='ἐλαιῶν'	morph='N-GPF-L'	strongs='G1638' problem parsing ADDITIONAL doubles: Olivet§Olives_Mount@@2Sa.15.30
+Array
+(
+    [REF] => 43_Luk.019.037
+    [TYPE] => =NA same TR ~~
+    [WORD] => ἐλαιῶν
+    [ENGLISH] => of Olives,
+    [STRONGS] => G1638
+    [MORPH] => N-GPF-L
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => ἐλαιῶν
+    [MEANINGS] => 
+    [ADDITIONAL] => Olivet§Olives_Mount@@2Sa.15.30
+    [CONJOIN] => 
+)
+
+*** AION: WARN!	FIX_REF	ref='43_Luk.020.003'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 43_Luk.020.003
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => I also
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => «012:G2065
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='43_Luk.020.011'	word='κἀκεῖνον'	morph='CONJ +D-ASM'	strongs='G2532+G1565'	space morph=CONJ+D-ASM
+Array
+(
+    [REF] => 43_Luk.020.011
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖνον
+    [ENGLISH] => him
+    [STRONGS] => G2532+G1565
+    [MORPH] => CONJ+D-ASM
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖνον
+    [MEANINGS] => 
+    [ADDITIONAL] => and that one
+    [CONJOIN] => »018:G1194
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='43_Luk.020.040'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 43_Luk.020.040
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='43_Luk.021.034'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
+Array
+(
+    [REF] => 43_Luk.021.034
+    [TYPE] => =NA same TR ~~
+    [WORD] => μήποτε
+    [ENGLISH] => otherwise
+    [STRONGS] => G3361+G4218
+    [MORPH] => PRT-N+PRT
+    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV, WH
+    [SPELLINGS] => μήποτε, μή ποτε
+    [MEANINGS] => 
+    [ADDITIONAL] => not + lest
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN! FIX_REF	ref='43_Luk.021.037'	word='Ἐλαιῶν.'	morph='N-GPF-L'	strongs='G1638' problem parsing ADDITIONAL doubles: Olivet§Olives_Mount@@2Sa.15.30
+Array
+(
+    [REF] => 43_Luk.021.037
+    [TYPE] => =NA same TR ~~
+    [WORD] => Ἐλαιῶν.
+    [ENGLISH] => Olivet.
+    [STRONGS] => G1638
+    [MORPH] => N-GPF-L
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => ἐλαιῶν
+    [MEANINGS] => 
+    [ADDITIONAL] => Olivet§Olives_Mount@@2Sa.15.30
+    [CONJOIN] => 
+)
+
+*** AION: WARN!	FIX_REF	ref='43_Luk.022.012'	word='κἀκεῖνος'	morph='CONJ +D-NSM'	strongs='G2532+G1565'	space morph=CONJ+D-NSM
+Array
+(
+    [REF] => 43_Luk.022.012
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖνος
+    [ENGLISH] => And he
+    [STRONGS] => G2532+G1565
+    [MORPH] => CONJ+D-NSM
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖνος
+    [MEANINGS] => 
+    [ADDITIONAL] => and that one
+    [CONJOIN] => »006:G1166
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='43_Luk.022.016'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 43_Luk.022.016
+    [TYPE] => =TR not NA or NIV/ESV «»
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => Treg+TR+Byz
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='43_Luk.022.029'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 43_Luk.022.029
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => And I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »004:G1303
+)
+
+
+
+
+*** AION: WARN! FIX_REF	ref='43_Luk.022.039'	word='ἐλαιῶν.'	morph='N-GPF-L'	strongs='G1638' problem parsing ADDITIONAL doubles: Olivet§Olives_Mount@@2Sa.15.30
+Array
+(
+    [REF] => 43_Luk.022.039
+    [TYPE] => =NA same TR ~~
+    [WORD] => ἐλαιῶν.
+    [ENGLISH] => of Olives;
+    [STRONGS] => G1638
+    [MORPH] => N-GPF-L
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => ἐλαιῶν
+    [MEANINGS] => 
+    [ADDITIONAL] => Olivet§Olives_Mount@@2Sa.15.30
+    [CONJOIN] => 
+)
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.001.031'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.001.031
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => And I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »006:G1492
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.001.033'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.001.033
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => And I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »006:G1492
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.001.034'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.001.034
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => And I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »004:G3708
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.004.002'	word='καίτοιγε'	morph='CONJ +PRT +PRT'	strongs='G2532+G5104+G1065'	space morph=CONJ+PRT+PRT
+Array
+(
+    [REF] => 44_Jhn.004.002
+    [TYPE] => =NA same TR ~~
+    [WORD] => καίτοιγε
+    [ENGLISH] => and certainly indeed
+    [STRONGS] => G2532+G5104+G1065
+    [MORPH] => CONJ+PRT+PRT
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => καίτοιγε
+    [MEANINGS] => 
+    [ADDITIONAL] => and + certainly + indeed
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.004.042'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 44_Jhn.004.042
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.005.017'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.005.017
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »026:G2038
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.006.044'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.006.044
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV; TR+Byz
+    [SPELLINGS] => κἀγὼ; καὶ ἐγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »032:G450
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.006.054'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.006.054
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV; TR+Byz
+    [SPELLINGS] => κἀγὼ; καὶ ἐγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »030:G450
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.006.056'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.006.056
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.006.057'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.006.057
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »016:G2198
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.006.057'	word='κἀκεῖνος'	morph='CONJ +D-NSM'	strongs='G2532+G1565'	space morph=CONJ+D-NSM
+Array
+(
+    [REF] => 44_Jhn.006.057
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖνος
+    [ENGLISH] => he also
+    [STRONGS] => G2532+G1565
+    [MORPH] => CONJ+D-NSM
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖνος
+    [MEANINGS] => 
+    [ADDITIONAL] => and that one
+    [CONJOIN] => »034:G2198
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.006.066'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 44_Jhn.006.066
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.007.026'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
+Array
+(
+    [REF] => 44_Jhn.007.026
+    [TYPE] => =NA same TR ~~
+    [WORD] => μήποτε
+    [ENGLISH] => otherwise
+    [STRONGS] => G3361+G4218
+    [MORPH] => PRT-N+PRT
+    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV, WH
+    [SPELLINGS] => μήποτε, μή ποτε
+    [MEANINGS] => 
+    [ADDITIONAL] => not + lest
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.007.028'	word='κἀμὲ'	morph='CONJ +P-1AS'	strongs='G2532+G1473'	space morph=CONJ+P-1AS
+Array
+(
+    [REF] => 44_Jhn.007.028
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀμὲ
+    [ENGLISH] => Me
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1AS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀμὲ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.007.029'	word='κἀκεῖνός'	morph='CONJ +D-NSM'	strongs='G2532+G1565'	space morph=CONJ+D-NSM
+Array
+(
+    [REF] => 44_Jhn.007.029
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖνός
+    [ENGLISH] => and He
+    [STRONGS] => G2532+G1565
+    [MORPH] => CONJ+D-NSM
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖνός
+    [MEANINGS] => 
+    [ADDITIONAL] => and that one
+    [CONJOIN] => »020:G649
+)
+
+
+
+
+*** AION: WARN! FIX_REF	ref='44_Jhn.008.001'	word='ἐλαιῶν.'	morph='N-GPF-L'	strongs='G1638' problem parsing ADDITIONAL doubles: Olivet§Olives_Mount@@2Sa.15.30
+Array
+(
+    [REF] => 44_Jhn.008.001
+    [TYPE] => =NA same TR ~~
+    [WORD] => ἐλαιῶν.
+    [ENGLISH] => of Olives.
+    [STRONGS] => G1638
+    [MORPH] => N-GPF-L
+    [EDITIONS] => NA27+NA28+WH+TR+Byz+NIV
+    [SPELLINGS] => ἐλαιῶν
+    [MEANINGS] => 
+    [ADDITIONAL] => Olivet§Olives_Mount@@2Sa.15.30
+    [CONJOIN] => 
+)
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.008.008'	word='κατακύψας'	morph='ADV +V-AAP-NSM'	strongs='G2736+G2955'	space morph=ADV+V-AAP-NSM
+Array
+(
+    [REF] => 44_Jhn.008.008
+    [TYPE] => =NA same TR ~~
+    [WORD] => κατακύψας
+    [ENGLISH] => being stooped low,
+    [STRONGS] => G2736+G2955
+    [MORPH] => ADV+V-AAP-NSM
+    [EDITIONS] => NA27+NA28+WH+NIV; TR+Byz
+    [SPELLINGS] => κατακύψας; κάτω κύψας
+    [MEANINGS] => 
+    [ADDITIONAL] => low + bent
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.008.014'	word='κἂν'	morph='CONJ +COND'	strongs='G2532+G1437'	space morph=CONJ+COND
+Array
+(
+    [REF] => 44_Jhn.008.014
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἂν
+    [ENGLISH] => Even if
+    [STRONGS] => G2532+G1437
+    [MORPH] => CONJ+COND
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἂν
+    [MEANINGS] => 
+    [ADDITIONAL] => even if
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.008.026'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.008.026
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »032:G191
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.008.055'	word='κἂν'	morph='CONJ +COND'	strongs='G2532+G1437'	space morph=CONJ+COND
+Array
+(
+    [REF] => 44_Jhn.008.055
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἂν
+    [ENGLISH] => And if
+    [STRONGS] => G2532+G1437
+    [MORPH] => CONJ+COND
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+Byz+NIV; TR
+    [SPELLINGS] => κἂν; καὶ ἐὰν
+    [MEANINGS] => 
+    [ADDITIONAL] => even if
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.010.015'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.010.015
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => I also
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »014:G1097
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.010.016'	word='κἀκεῖνα'	morph='CONJ +D-APN'	strongs='G2532+G1565'	space morph=CONJ+D-APN
+Array
+(
+    [REF] => 44_Jhn.010.016
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖνα
+    [ENGLISH] => those also
+    [STRONGS] => G2532+G1565
+    [MORPH] => CONJ+D-APN
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖνα
+    [MEANINGS] => 
+    [ADDITIONAL] => and that one
+    [CONJOIN] => »026:G1210
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.010.027'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.010.027
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »020:G1097
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.010.028'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.010.028
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »004:G1325
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.010.038'	word='κἂν'	morph='CONJ +COND'	strongs='G2532+G1437'	space morph=CONJ+COND
+Array
+(
+    [REF] => 44_Jhn.010.038
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἂν
+    [ENGLISH] => even if
+    [STRONGS] => G2532+G1437
+    [MORPH] => CONJ+COND
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἂν
+    [MEANINGS] => 
+    [ADDITIONAL] => even if
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.010.038'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.010.038
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »042:G1722
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.011.025'	word='κἂν'	morph='CONJ +COND'	strongs='G2532+G1437'	space morph=CONJ+COND
+Array
+(
+    [REF] => 44_Jhn.011.025
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἂν
+    [ENGLISH] => even if
+    [STRONGS] => G2532+G1437
+    [MORPH] => CONJ+COND
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἂν
+    [MEANINGS] => 
+    [ADDITIONAL] => even if
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.011.054'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 44_Jhn.011.054
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+Byz+NIV, TR
+    [SPELLINGS] => οὐκέτι, οὐκ ἔτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.011.054'	word='κἀκεῖ'	morph='CONJ +ADV'	strongs='G2532+G1563'	space morph=CONJ+ADV
+Array
+(
+    [REF] => 44_Jhn.011.054
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖ
+    [ENGLISH] => And there
+    [STRONGS] => G2532+G1563
+    [MORPH] => CONJ+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖ
+    [MEANINGS] => 
+    [ADDITIONAL] => and there
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.012.032'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.012.032
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => And I,
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »006:G5312
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.014.012'	word='κἀκεῖνος'	morph='CONJ +D-NSM'	strongs='G2532+G1565'	space morph=CONJ+D-NSM
+Array
+(
+    [REF] => 44_Jhn.014.012
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖνος
+    [ENGLISH] => also he
+    [STRONGS] => G2532+G1565
+    [MORPH] => CONJ+D-NSM
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖνος
+    [MEANINGS] => 
+    [ADDITIONAL] => and that one
+    [CONJOIN] => »030:G4160
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.014.016'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.014.016
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => And I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV; TR+Byz
+    [SPELLINGS] => κἀγὼ; καὶ ἐγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »004:G2065
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.014.019'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 44_Jhn.014.019
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+Byz+NIV, TR
+    [SPELLINGS] => οὐκέτι, οὐκ ἔτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.014.020'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.014.020
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »036:G1722
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.014.021'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.014.021
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV; TR+Byz
+    [SPELLINGS] => κἀγὼ; καὶ ἐγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »048:G25
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.014.030'	word='Οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 44_Jhn.014.030
+    [TYPE] => =NA same TR ~~
+    [WORD] => Οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+Byz+NIV, TR
+    [SPELLINGS] => οὐκέτι, οὐκ ἔτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.015.004'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.015.004
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »010:G1722
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.015.005'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.015.005
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »026:G1722
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.015.009'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.015.009
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => I also
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »016:G25
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.015.015'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 44_Jhn.015.015
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.016.010'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 44_Jhn.016.010
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+Byz+NIV, TR
+    [SPELLINGS] => οὐκέτι, οὐκ ἔτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.016.016'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 44_Jhn.016.016
     [TYPE] => =NA diff TR ˹˺
-    [WORD] => καθὼς
-    [ENGLISH] => just as
-    [STRONGS] => G2531
-    [MORPH] => CONJ
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
     [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV
-    [SPELLINGS] => καθὼς
-    [MEANINGS] => | TR+Byz = καὶ ὡς = "and as" = G2532+G5613 = CONJ+CONJ
-    [ADDITIONAL] => just as
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => ‖ TR+Byz = οὐ = "not" = G3756 = PRT-N
+    [ADDITIONAL] => not + still
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='43_Luk.018.004'	word='οὐδὲ'	morph='CONJ-N'	strongs='G3761'	missing morph=' CONJ+PRT-N'
+*** AION: WARN!	FIX_REF	ref='44_Jhn.016.021'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
 Array
 (
-    [REF] => 43_Luk.018.004
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => οὐδὲ
-    [ENGLISH] => nor
-    [STRONGS] => G3761
-    [MORPH] => CONJ-N
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV
-    [SPELLINGS] => οὐδὲ
-    [MEANINGS] => | >1:TR+Byz = καὶ οὐκ = "and not" = G2532+G3756 = CONJ+PRT-N
-    [ADDITIONAL] => and not
+    [REF] => 44_Jhn.016.021
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+Byz+NIV, TR
+    [SPELLINGS] => οὐκέτι, οὐκ ἔτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='43_Luk.020.020'	word='ὥστε'	morph='CONJ'	strongs='G5620'	missing morph=' PREP+T-ASN'
+*** AION: WARN!	FIX_REF	ref='44_Jhn.016.025'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
 Array
 (
-    [REF] => 43_Luk.020.020
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => ὥστε
-    [ENGLISH] => in order
-    [STRONGS] => G5620
-    [MORPH] => CONJ
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV
-    [SPELLINGS] => ὥστε
-    [MEANINGS] => | TR+Byz = εἰς τὸ = "into <the>" = G1519+G3588 = PREP+T-ASN
-    [ADDITIONAL] => so
-    [CONJOIN] => »028:G3860
-)
-
-
-
-
-*** AION: WARN!	FIX_REF	ref='43_Luk.022.034'	word='ἕως'	morph='CONJ'	strongs='G2193'	missing morph=' CONJ+CONJ'
-Array
-(
-    [REF] => 43_Luk.022.034
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => ἕως
-    [ENGLISH] => until
-    [STRONGS] => G2193
-    [MORPH] => CONJ
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV
-    [SPELLINGS] => ἕως
-    [MEANINGS] => | TR+Byz = πρὶν ἢ = "before or" = G4250+G2228 = CONJ+CONJ
-    [ADDITIONAL] => until
+    [REF] => 44_Jhn.016.025
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+Byz+NIV, TR
+    [SPELLINGS] => οὐκέτι, οὐκ ἔτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='43_Luk.024.049'	word='ἐγὼ'	morph='P-1NS'	strongs='G1473'	missing morph=' CONJ+P-1NS'
+*** AION: WARN!	FIX_REF	ref='44_Jhn.016.032'	word='κἀμὲ'	morph='CONJ +P-1AS'	strongs='G2532+G1473'	space morph=CONJ+P-1AS
 Array
 (
-    [REF] => 43_Luk.024.049
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => ἐγὼ
-    [ENGLISH] => I
-    [STRONGS] => G1473
-    [MORPH] => P-1NS
-    [EDITIONS] => NA27+NA28+SBL+WH+Treg+TR+Byz+NIV
-    [SPELLINGS] => ἐγὼ
-    [MEANINGS] => | Tyn = κἀγὼ = "And I" = G2532+G1473 = CONJ+P-1NS
-    [ADDITIONAL] => I
-    [CONJOIN] => »008:G649
-)
-
-
-
-
-*** AION: WARN!	FIX_REF	ref='44_Jhn.014.031'	word='ἐνετείλατό'	morph='V-ADI-3S'	strongs='G1781'	missing morph=' N-ASF+V-AAI-3S'
-Array
-(
-    [REF] => 44_Jhn.014.031
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => ἐνετείλατό
-    [ENGLISH] => He has commanded
-    [STRONGS] => G1781
-    [MORPH] => V-ADI-3S
-    [EDITIONS] => NA27+NA28+Tyn+ESV+NIV, SBL+TR+Byz
-    [SPELLINGS] => ἐνετείλατό, ἐνετείλατο
-    [MEANINGS] => ‖ Treg+WH+KJV = ἐντολὴν ἔδωκέν = "He gave commandment" = G1785+G1325 = N-ASF+V-AAI-3S
-    [ADDITIONAL] => to order
+    [REF] => 44_Jhn.016.032
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀμὲ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1AS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+Byz+NIV; TR
+    [SPELLINGS] => κἀμὲ; καὶ ἐμὲ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='44_Jhn.016.007'	word='οὐκ'	morph='PRT-N'	strongs='G3756'	missing morph=' PRT-N+PRT-N'
+*** AION: WARN!	FIX_REF	ref='44_Jhn.017.006'	word='κἀμοὶ'	morph='CONJ +P-1DS'	strongs='G2532+G1473'	space morph=CONJ+P-1DS
 Array
 (
-    [REF] => 44_Jhn.016.007
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => οὐκ
-    [ENGLISH] => not
-    [STRONGS] => G3756
-    [MORPH] => PRT-N
-    [EDITIONS] => NA27+NA28+Tyn+TR+Byz+NIV
-    [SPELLINGS] => οὐκ
-    [MEANINGS] => | SBL+WH+Treg = οὐ μὴ = "then not" = G3756+G3361 = PRT-N+PRT-N
-    [ADDITIONAL] => no
+    [REF] => 44_Jhn.017.006
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀμοὶ
+    [ENGLISH] => and to Me
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1DS
+    [EDITIONS] => NA27+NA28+SBL+WH+Treg+Byz+NIV; Tyn+TR
+    [SPELLINGS] => κἀμοὶ; καὶ ἐμοὶ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »034:G1325
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.017.011'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 44_Jhn.017.011
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+Byz+NIV, TR
+    [SPELLINGS] => οὐκέτι, οὐκ ἔτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='44_Jhn.019.038'	word='αὐτοῦ.'	morph='P-GSM'	strongs='G846'	missing morph=' T-GSM+N-GSM-P'
+*** AION: WARN!	FIX_REF	ref='44_Jhn.017.011'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
 Array
 (
-    [REF] => 44_Jhn.019.038
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => αὐτοῦ.
-    [ENGLISH] => of Him,
-    [STRONGS] => G846
-    [MORPH] => P-GSM
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+ESV+NIV
-    [SPELLINGS] => αὐτοῦ
-    [MEANINGS] => ‖ TR+Byz = τοῦ ἰησοῦ = "of Jesus." = G3588+G2424 = T-GSM+N-GSM-P
-    [ADDITIONAL] => of him
-    [CONJOIN] => «074:G4983
+    [REF] => 44_Jhn.017.011
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV; TR+Byz
+    [SPELLINGS] => κἀγὼ; καὶ ἐγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »032:G2064
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='45_Act.014.017'	word='καίτοι'	morph='CONJ +PRT'	strongs='G2532+G5104'	missing morph=' CONJ+PRT+PRT'
+*** AION: WARN!	FIX_REF	ref='44_Jhn.017.018'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.017.018
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => I also
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »016:G649
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.017.021'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.017.021
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »022:G1722
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.017.022'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.017.022
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => And I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV; TR+Byz
+    [SPELLINGS] => κἀγὼ; καὶ ἐγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »014:G1325
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.017.024'	word='κἀκεῖνοι'	morph='CONJ +D-NPM'	strongs='G2532+G1565'	space morph=CONJ+D-NPM
+Array
+(
+    [REF] => 44_Jhn.017.024
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖνοι
+    [ENGLISH] => they also
+    [STRONGS] => G2532+G1565
+    [MORPH] => CONJ+D-NPM
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖνοι
+    [MEANINGS] => 
+    [ADDITIONAL] => and that one
+    [CONJOIN] => »022:G1510
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.017.026'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.017.026
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »038:G1722
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.020.015'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.020.015
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »058:G142
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.020.021'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 44_Jhn.020.021
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => I also
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »030:G3992
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='44_Jhn.021.006'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 44_Jhn.021.006
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+Byz+NIV, TR
+    [SPELLINGS] => οὐκέτι, οὐκ ἔτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN! FIX_REF	ref='45_Act.001.012'	word='Ἐλαιῶνος,'	morph='N-GSM-L'	strongs='G1638' problem parsing ADDITIONAL doubles: Olivet§Olives_Mount@@2Sa.15.30
+Array
+(
+    [REF] => 45_Act.001.012
+    [TYPE] => =NA same TR ~~
+    [WORD] => Ἐλαιῶνος,
+    [ENGLISH] => Olivet,
+    [STRONGS] => G1638
+    [MORPH] => N-GSM-L
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => ἐλαιῶνος
+    [MEANINGS] => 
+    [ADDITIONAL] => Olivet§Olives_Mount@@2Sa.15.30
+    [CONJOIN] => 
+)
+
+*** AION: WARN!	FIX_REF	ref='45_Act.004.025'	word='ἱνατί'	morph='CONJ +I-NSN'	strongs='G2443+G5101'	space morph=CONJ+I-NSN
+Array
+(
+    [REF] => 45_Act.004.025
+    [TYPE] => =NA same TR ~~
+    [WORD] => ἱνατί
+    [ENGLISH] => so why
+    [STRONGS] => G2443+G5101
+    [MORPH] => CONJ+I-NSN
+    [EDITIONS] => NA27+NA28+SBL+Treg+Byz+NIV, Tyn+WH+TR
+    [SPELLINGS] => ἱνατί, ἵνα τί
+    [MEANINGS] => 
+    [ADDITIONAL] => so + why
+    [CONJOIN] => »028:G5433
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='45_Act.005.015'	word='κἂν'	morph='CONJ +COND'	strongs='G2532+G1437'	space morph=CONJ+COND
+Array
+(
+    [REF] => 45_Act.005.015
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἂν
+    [ENGLISH] => at least
+    [STRONGS] => G2532+G1437
+    [MORPH] => CONJ+COND
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἂν
+    [MEANINGS] => 
+    [ADDITIONAL] => even if
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='45_Act.005.037'	word='κἀκεῖνος'	morph='CONJ +D-NSM'	strongs='G2532+G1565'	space morph=CONJ+D-NSM
+Array
+(
+    [REF] => 45_Act.005.037
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖνος
+    [ENGLISH] => And he
+    [STRONGS] => G2532+G1565
+    [MORPH] => CONJ+D-NSM
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖνος
+    [MEANINGS] => 
+    [ADDITIONAL] => and that one
+    [CONJOIN] => »036:G622
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='45_Act.005.039'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
+Array
+(
+    [REF] => 45_Act.005.039
+    [TYPE] => =NA same TR ~~
+    [WORD] => μήποτε
+    [ENGLISH] => otherwise
+    [STRONGS] => G3361+G4218
+    [MORPH] => PRT-N+PRT
+    [EDITIONS] => NA27+NA28+SBL+Treg+TR+Byz+NIV, Tyn+WH
+    [SPELLINGS] => μήποτε, μή ποτε
+    [MEANINGS] => 
+    [ADDITIONAL] => not + lest
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='45_Act.007.004'	word='κἀκεῖθεν'	morph='CONJ +ADV'	strongs='G2532+G1564'	space morph=CONJ+ADV
+Array
+(
+    [REF] => 45_Act.007.004
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖθεν
+    [ENGLISH] => And from there,
+    [STRONGS] => G2532+G1564
+    [MORPH] => CONJ+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖθεν
+    [MEANINGS] => 
+    [ADDITIONAL] => and from there
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='45_Act.007.026'	word='ἱνατί'	morph='CONJ +I-NSN'	strongs='G2443+G5101'	space morph=CONJ+I-NSN
+Array
+(
+    [REF] => 45_Act.007.026
+    [TYPE] => =NA same TR ~~
+    [WORD] => ἱνατί
+    [ENGLISH] => so why
+    [STRONGS] => G2443+G5101
+    [MORPH] => CONJ+I-NSN
+    [EDITIONS] => NA27+NA28+SBL+Treg+Byz+NIV, Tyn+WH+TR
+    [SPELLINGS] => ἱνατί, ἵνα τί
+    [MEANINGS] => 
+    [ADDITIONAL] => so + why
+    [CONJOIN] => »036:G91
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='45_Act.008.019'	word='κἀμοὶ'	morph='CONJ +P-1DS'	strongs='G2532+G1473'	space morph=CONJ+P-1DS
+Array
+(
+    [REF] => 45_Act.008.019
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀμοὶ
+    [ENGLISH] => also to me
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1DS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀμοὶ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => «004:G1325
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='45_Act.008.039'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 45_Act.008.039
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='45_Act.010.028'	word='κἀμοὶ'	morph='CONJ +P-1DS'	strongs='G2532+G1473'	space morph=CONJ+P-1DS
+Array
+(
+    [REF] => 45_Act.010.028
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀμοὶ
+    [ENGLISH] => And to me
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1DS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+Byz+NIV; TR
+    [SPELLINGS] => κἀμοὶ; καὶ ἐμοὶ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »038:G1166
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='45_Act.013.021'	word='κἀκεῖθεν'	morph='CONJ +ADV'	strongs='G2532+G1564'	space morph=CONJ+ADV
+Array
+(
+    [REF] => 45_Act.013.021
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖθεν
+    [ENGLISH] => Then
+    [STRONGS] => G2532+G1564
+    [MORPH] => CONJ+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖθεν
+    [MEANINGS] => 
+    [ADDITIONAL] => and from there
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='45_Act.014.007'	word='κἀκεῖ'	morph='CONJ +ADV'	strongs='G2532+G1563'	space morph=CONJ+ADV
+Array
+(
+    [REF] => 45_Act.014.007
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖ
+    [ENGLISH] => and there
+    [STRONGS] => G2532+G1563
+    [MORPH] => CONJ+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖ
+    [MEANINGS] => 
+    [ADDITIONAL] => and there
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='45_Act.014.017'	word='καίτοι'	morph='CONJ +PRT'	strongs='G2532+G5104'	space morph=CONJ+PRT
 Array
 (
     [REF] => 45_Act.014.017
@@ -1725,7 +4140,7 @@ Array
     [WORD] => καίτοι
     [ENGLISH] => and yet
     [STRONGS] => G2532+G5104
-    [MORPH] => CONJ +PRT
+    [MORPH] => CONJ+PRT
     [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV
     [SPELLINGS] => καίτοι
     [MEANINGS] => | TR; Byz = καὶ τοι γε; καίτοιγε = "and certainly indeed" = G2532+G5104+G1065 = CONJ+PRT+PRT
@@ -1736,26 +4151,45 @@ Array
 
 
 
-*** AION: WARN!	FIX_REF	ref='45_Act.014.017'	word='καίτοι'	morph='CONJ +PRT'	strongs='G2532+G5104'	missing morph=' CONJ+PRT+PRT'
+*** AION: WARN!	FIX_REF	ref='45_Act.014.026'	word='κἀκεῖθεν'	morph='CONJ +ADV'	strongs='G2532+G1564'	space morph=CONJ+ADV
 Array
 (
-    [REF] => 45_Act.014.017
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => καίτοι
-    [ENGLISH] => and yet
-    [STRONGS] => G2532+G5104
-    [MORPH] => CONJ +PRT
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV
-    [SPELLINGS] => καίτοι
-    [MEANINGS] => | TR; Byz = καὶ τοι γε; καίτοιγε = "and certainly indeed" = G2532+G5104+G1065 = CONJ+PRT+PRT
-    [ADDITIONAL] => and + yet
+    [REF] => 45_Act.014.026
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖθεν
+    [ENGLISH] => And from there
+    [STRONGS] => G2532+G1564
+    [MORPH] => CONJ+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖθεν
+    [MEANINGS] => 
+    [ADDITIONAL] => and from there
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='45_Act.016.012'	word='κἀκεῖθεν'	morph='CONJ +ADV'	strongs='G2532+G1564'	missing morph=' ADV+CONJ'
+*** AION: WARN!	FIX_REF	ref='45_Act.015.011'	word='κἀκεῖνοι.'	morph='CONJ +D-NPM'	strongs='G2532+G1565'	space morph=CONJ+D-NPM
+Array
+(
+    [REF] => 45_Act.015.011
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖνοι.
+    [ENGLISH] => they also.
+    [STRONGS] => G2532+G1565
+    [MORPH] => CONJ+D-NPM
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖνοι
+    [MEANINGS] => 
+    [ADDITIONAL] => and that one
+    [CONJOIN] => »
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='45_Act.016.012'	word='κἀκεῖθεν'	morph='CONJ +ADV'	strongs='G2532+G1564'	space morph=CONJ+ADV
 Array
 (
     [REF] => 45_Act.016.012
@@ -1763,7 +4197,7 @@ Array
     [WORD] => κἀκεῖθεν
     [ENGLISH] => and from there
     [STRONGS] => G2532+G1564
-    [MORPH] => CONJ +ADV
+    [MORPH] => CONJ+ADV
     [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV
     [SPELLINGS] => κἀκεῖθεν
     [MEANINGS] => | TR+Byz = ἐκεῖθέν τε = "from there then" = G1564+G5037 = ADV+CONJ
@@ -1774,18 +4208,72 @@ Array
 
 
 
-*** AION: WARN!	FIX_REF	ref='45_Act.016.012'	word='κἀκεῖθεν'	morph='CONJ +ADV'	strongs='G2532+G1564'	missing morph=' ADV+CONJ'
+*** AION: WARN!	FIX_REF	ref='45_Act.017.013'	word='κἀκεῖ'	morph='CONJ +ADV'	strongs='G2532+G1563'	space morph=CONJ+ADV
 Array
 (
-    [REF] => 45_Act.016.012
-    [TYPE] => =NA diff TR ˹˺
+    [REF] => 45_Act.017.013
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖ
+    [ENGLISH] => there also,
+    [STRONGS] => G2532+G1563
+    [MORPH] => CONJ+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖ
+    [MEANINGS] => 
+    [ADDITIONAL] => and there
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='45_Act.018.019'	word='κἀκείνους'	morph='CONJ +D-APM'	strongs='G2532+G1565'	space morph=CONJ+D-APM
+Array
+(
+    [REF] => 45_Act.018.019
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκείνους
+    [ENGLISH] => and them
+    [STRONGS] => G2532+G1565
+    [MORPH] => CONJ+D-APM
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκείνους
+    [MEANINGS] => 
+    [ADDITIONAL] => and that one
+    [CONJOIN] => »012:G2641
+)
+
+
+
+
+*** AION: WARN! FIX_REF	ref='45_Act.020.004'	word='Πύρρου'	morph='N-GSM-P'	strongs='G6077' problem parsing ADDITIONAL whole: PyrrhusPyrrhus@Act.20.4
+Array
+(
+    [REF] => 45_Act.020.004
+    [TYPE] => =NA not TR ⁽⁾
+    [WORD] => Πύρρου
+    [ENGLISH] => [son] of Pyrrhus,
+    [STRONGS] => G6077
+    [MORPH] => N-GSM-P
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+ESV+NIV
+    [SPELLINGS] => πύρρου
+    [MEANINGS] => 
+    [ADDITIONAL] => PyrrhusPyrrhus@Act.20.4
+    [CONJOIN] => 
+)
+
+*** AION: WARN!	FIX_REF	ref='45_Act.020.015'	word='κἀκεῖθεν'	morph='CONJ +ADV'	strongs='G2532+G1564'	space morph=CONJ+ADV
+Array
+(
+    [REF] => 45_Act.020.015
+    [TYPE] => =NA same TR ~~
     [WORD] => κἀκεῖθεν
-    [ENGLISH] => and from there
+    [ENGLISH] => And from there
     [STRONGS] => G2532+G1564
-    [MORPH] => CONJ +ADV
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV
+    [MORPH] => CONJ+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
     [SPELLINGS] => κἀκεῖθεν
-    [MEANINGS] => | TR+Byz = ἐκεῖθέν τε = "from there then" = G1564+G5037 = ADV+CONJ
+    [MEANINGS] => 
     [ADDITIONAL] => and from there
     [CONJOIN] => 
 )
@@ -1793,322 +4281,208 @@ Array
 
 
 
-*** AION: WARN!	FIX_REF	ref='45_Act.017.026'	word='παντὸς'	morph='A-GSN'	strongs='G3956'	missing morph=' A-ASN+T-ASN'
+*** AION: WARN!	FIX_REF	ref='45_Act.020.025'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
 Array
 (
-    [REF] => 45_Act.017.026
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => παντὸς
-    [ENGLISH] => all
-    [STRONGS] => G3956
-    [MORPH] => A-GSN
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV
-    [SPELLINGS] => παντὸς
-    [MEANINGS] => | TR+Byz = πᾶν τὸ = "every <the>" = G3956+G3588 = A-ASN+T-ASN
-    [ADDITIONAL] => all
+    [REF] => 45_Act.020.025
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='45_Act.017.027'	word='γε'	morph='PRT'	strongs='G1065'	missing morph=' CONJ+PRT+PRT'
+*** AION: WARN!	FIX_REF	ref='45_Act.020.038'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
 Array
 (
-    [REF] => 45_Act.017.027
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => γε
-    [ENGLISH] => indeed,
-    [STRONGS] => G1065
-    [MORPH] => PRT
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+Byz+NIV
-    [SPELLINGS] => γε
-    [MEANINGS] => | TR = καίτοιγε = "and certainly indeed" = G2532+G5104+G1065 = CONJ+PRT+PRT
-    [ADDITIONAL] => indeed
+    [REF] => 45_Act.020.038
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='45_Act.019.039'	word='περαιτέρω'	morph='ADV'	strongs='G6071'	missing morph=' PREP+A-GPM'
+*** AION: WARN!	FIX_REF	ref='45_Act.021.001'	word='κἀκεῖθεν'	morph='CONJ +ADV'	strongs='G2532+G1564'	space morph=CONJ+ADV
 Array
 (
-    [REF] => 45_Act.019.039
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => περαιτέρω
-    [ENGLISH] => beyond this
-    [STRONGS] => G6071
-    [MORPH] => ADV
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+ESV+NIV
-    [SPELLINGS] => περαιτέρω
-    [MEANINGS] => ‖ TR+Byz = περὶ ἑτέρων = "concerning other [things]" = G4012+G2087 = PREP+A-GPM
-    [ADDITIONAL] => further
+    [REF] => 45_Act.021.001
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖθεν
+    [ENGLISH] => and from there
+    [STRONGS] => G2532+G1564
+    [MORPH] => CONJ+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖθεν
+    [MEANINGS] => 
+    [ADDITIONAL] => and from there
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='45_Act.022.016'	word='αὐτοῦ.¶'	morph='P-GSM'	strongs='G846'	missing morph=' T-GSM+N-GSM'
+*** AION: WARN!	FIX_REF	ref='45_Act.022.010'	word='κἀκεῖ'	morph='CONJ +ADV'	strongs='G2532+G1563'	space morph=CONJ+ADV
 Array
 (
-    [REF] => 45_Act.022.016
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => αὐτοῦ.¶
-    [ENGLISH] => of Him
-    [STRONGS] => G846
-    [MORPH] => P-GSM
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+ESV+NIV
-    [SPELLINGS] => αὐτοῦ
-    [MEANINGS] => ‖ TR+Byz = τοῦ κυρίου = "of the Lord" = G3588+G2962 = T-GSM+N-GSM
-    [ADDITIONAL] => his
-    [CONJOIN] => «028:G3686
-)
-
-
-
-
-*** AION: WARN!	FIX_REF	ref='45_Act.023.012'	word='οἱ'	morph='T-NPM'	strongs='G3588'	missing morph=' X-NPM+T-GPM'
-Array
-(
-    [REF] => 45_Act.023.012
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => οἱ
-    [ENGLISH] => the
-    [STRONGS] => G3588
-    [MORPH] => T-NPM
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+ESV
-    [SPELLINGS] => οἱ
-    [MEANINGS] => | TR+Byz+NIV = τινες τῶν = "some of the" = G5100+G3588 = X-NPM+T-GPM
-    [ADDITIONAL] => the
-    [CONJOIN] => »014:G2453
-)
-
-
-
-
-*** AION: WARN!	FIX_REF	ref='45_Act.023.030'	word='ἐξαυτῆς'	morph='ADV'	strongs='G1824'	missing morph=' PREP + P-GPM'
-Array
-(
-    [REF] => 45_Act.023.030
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => ἐξαυτῆς
-    [ENGLISH] => at once
-    [STRONGS] => G1824
-    [MORPH] => ADV
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+TR+Byz+ESV+NIV
-    [SPELLINGS] => ἐξαυτῆς
-    [MEANINGS] => ‖ Treg = ἐξ αὐτῶν = "from them" = G1537 = PREP + P-GPM
-    [ADDITIONAL] => immediately
+    [REF] => 45_Act.022.010
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖ
+    [ENGLISH] => and there
+    [STRONGS] => G2532+G1563
+    [MORPH] => CONJ+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖ
+    [MEANINGS] => 
+    [ADDITIONAL] => and there
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='45_Act.027.012'	word='ἐκεῖθεν,'	morph='ADV'	strongs='G1564'	missing morph=' CONJ+ADV'
+*** AION: WARN!	FIX_REF	ref='45_Act.022.013'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
 Array
 (
-    [REF] => 45_Act.027.012
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => ἐκεῖθεν,
-    [ENGLISH] => from there,
-    [STRONGS] => G1564
-    [MORPH] => ADV
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV
-    [SPELLINGS] => ἐκεῖθεν
-    [MEANINGS] => | TR+Byz = κἀκεῖθεν = "and from there" = G2532+G1564 = CONJ+ADV
-    [ADDITIONAL] => from there
+    [REF] => 45_Act.022.013
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => And I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »030:G308
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='45_Act.022.019'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 45_Act.022.019
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => And I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »004:G2036
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='45_Act.025.020'	word='κἀκεῖ'	morph='CONJ +ADV'	strongs='G2532+G1563'	space morph=CONJ+ADV
+Array
+(
+    [REF] => 45_Act.025.020
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖ
+    [ENGLISH] => and there
+    [STRONGS] => G2532+G1563
+    [MORPH] => CONJ+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖ
+    [MEANINGS] => 
+    [ADDITIONAL] => and there
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='47_1Co.004.002'	word='Ὧδε'	morph='ADV'	strongs='G5602'	missing morph=' T-NSM+CONJ'
+*** AION: WARN!	FIX_REF	ref='45_Act.027.004'	word='κἀκεῖθεν'	morph='CONJ +ADV'	strongs='G2532+G1564'	space morph=CONJ+ADV
 Array
 (
-    [REF] => 47_1Co.004.002
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => Ὧδε
-    [ENGLISH] => In this case
-    [STRONGS] => G5602
-    [MORPH] => ADV
-    [EDITIONS] => NA27+NA28+SBL+WH+Treg+NIV, Tyn
-    [SPELLINGS] => ὧδε, ᾧδε
-    [MEANINGS] => | TR+Byz = ὃ δὲ = "<the> now" = G3588+G1161 = T-NSM+CONJ
-    [ADDITIONAL] => here
+    [REF] => 45_Act.027.004
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖθεν
+    [ENGLISH] => And from there
+    [STRONGS] => G2532+G1564
+    [MORPH] => CONJ+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖθεν
+    [MEANINGS] => 
+    [ADDITIONAL] => and from there
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='47_1Co.006.005'	word='οὐδεὶς'	morph='A-NSM-N'	strongs='G3762'	missing morph=' CONJ-N+A-NSM'
+*** AION: WARN!	FIX_REF	ref='45_Act.027.006'	word='κἀκεῖ'	morph='CONJ +ADV'	strongs='G2532+G1563'	space morph=CONJ+ADV
 Array
 (
-    [REF] => 47_1Co.006.005
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => οὐδεὶς
-    [ENGLISH] => no one,
-    [STRONGS] => G3762
-    [MORPH] => A-NSM-N
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV
-    [SPELLINGS] => οὐδεὶς
-    [MEANINGS] => | TR+Byz = οὐδὲ εἷς = "nor one" = G3761+G1520 = CONJ-N+A-NSM
-    [ADDITIONAL] => no one
+    [REF] => 45_Act.027.006
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖ
+    [ENGLISH] => And there,
+    [STRONGS] => G2532+G1563
+    [MORPH] => CONJ+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖ
+    [MEANINGS] => 
+    [ADDITIONAL] => and there
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='47_1Co.012.026'	word='εἴτε'	morph='COND'	strongs='G1535'	missing morph=' COND+X-NSN'
+*** AION: WARN!	FIX_REF	ref='45_Act.028.015'	word='κἀκεῖθεν'	morph='CONJ +ADV'	strongs='G2532+G1564'	space morph=CONJ+ADV
 Array
 (
-    [REF] => 47_1Co.012.026
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => εἴτε
-    [ENGLISH] => if
-    [STRONGS] => G1535
-    [MORPH] => COND
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+TR+Byz+NIV
-    [SPELLINGS] => εἴτε
-    [MEANINGS] => | Treg = εἴ τι = "if anything" = G1487+G5100 = COND+X-NSN
-    [ADDITIONAL] => if
+    [REF] => 45_Act.028.015
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖθεν
+    [ENGLISH] => And from there
+    [STRONGS] => G2532+G1564
+    [MORPH] => CONJ+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖθεν
+    [MEANINGS] => 
+    [ADDITIONAL] => and from there
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='48_2Co.003.014'	word='ὅτι'	morph='CONJ'	strongs='G3754'	missing morph=' R-ASN+X-NSN'
+*** AION: WARN!	FIX_REF	ref='45_Act.028.027'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
 Array
 (
-    [REF] => 48_2Co.003.014
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => ὅτι
-    [ENGLISH] => that
-    [STRONGS] => G3754
-    [MORPH] => CONJ
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV
-    [SPELLINGS] => ὅτι
-    [MEANINGS] => | TR+Byz = ὅ τι = "which" = G3739+G5100 = R-ASN+X-NSN
-    [ADDITIONAL] => that§2_since
-    [CONJOIN] => 
-)
-
-
-
-
-*** AION: WARN!	FIX_REF	ref='48_2Co.005.003'	word='γε'	morph='PRT'	strongs='G1065'	missing morph=' COND+CONJ'
-Array
-(
-    [REF] => 48_2Co.005.003
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => γε
-    [ENGLISH] => even
-    [STRONGS] => G1065
-    [MORPH] => PRT
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Byz+ESV+NIV; TR
-    [SPELLINGS] => εἴ γε; εἴγε
-    [MEANINGS] => | Treg = εἴ περ = "if indeed" = G1487+G4007 = COND+CONJ
-    [ADDITIONAL] => indeed
-    [CONJOIN] => 
-)
-
-
-
-
-*** AION: WARN!	FIX_REF	ref='51_Php.003.008'	word='μενοῦνγε'	morph='PRT'	strongs='G3304'	missing morph=' PRT+CONJ+PRT '
-Array
-(
-    [REF] => 51_Php.003.008
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => μενοῦνγε
-    [ENGLISH] => rather,
-    [STRONGS] => G3304
-    [MORPH] => PRT
-    [EDITIONS] => NA27+NA28+Tyn+SBL+TR+NIV
-    [SPELLINGS] => μενοῦνγε
-    [MEANINGS] => | WH = μέν οὖν γε = "indeed therefore but" = G3303+G3767+G1065 = PRT+CONJ+PRT | Treg+Byz = μέν οὖν = "indeed therefore" = G3303+G3767 = PRT+CONJ
-    [ADDITIONAL] => but rather
-    [CONJOIN] => 
-)
-
-
-
-
-*** AION: WARN!	FIX_REF	ref='51_Php.003.008'	word='μενοῦνγε'	morph='PRT'	strongs='G3304'	missing morph=' PRT+CONJ'
-Array
-(
-    [REF] => 51_Php.003.008
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => μενοῦνγε
-    [ENGLISH] => rather,
-    [STRONGS] => G3304
-    [MORPH] => PRT
-    [EDITIONS] => NA27+NA28+Tyn+SBL+TR+NIV
-    [SPELLINGS] => μενοῦνγε
-    [MEANINGS] => | WH = μέν οὖν γε = "indeed therefore but" = G3303+G3767+G1065 = PRT+CONJ+PRT | Treg+Byz = μέν οὖν = "indeed therefore" = G3303+G3767 = PRT+CONJ
-    [ADDITIONAL] => but rather
-    [CONJOIN] => 
-)
-
-
-
-
-*** AION: WARN!	FIX_REF	ref='52_Col.002.004'	word='μηδεὶς'	morph='A-NSM'	strongs='G3367'	missing morph=' PRT-N+X-NSM'
-Array
-(
-    [REF] => 52_Col.002.004
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => μηδεὶς
-    [ENGLISH] => no one
-    [STRONGS] => G3367
-    [MORPH] => A-NSM
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV
-    [SPELLINGS] => μηδεὶς
-    [MEANINGS] => | TR+Byz = μή τις = "not any" = G3361+G5100 = PRT-N+X-NSM
-    [ADDITIONAL] => nothing
-    [CONJOIN] => 
-)
-
-
-
-
-*** AION: WARN!	FIX_REF	ref='54_2Th.002.013'	word='ἀπαρχὴν'	morph='N-ASF'	strongs='G536'	missing morph=' PREP+N-GSF'
-Array
-(
-    [REF] => 54_2Th.002.013
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => ἀπαρχὴν
-    [ENGLISH] => from [the] beginning,
-    [STRONGS] => G536
-    [MORPH] => N-ASF
-    [EDITIONS] => NA27+NA28+SBL+ESV+NIV
-    [SPELLINGS] => ἀπαρχὴν
-    [MEANINGS] => | Tyn+WH+Treg+TR+Byz = ἀπ᾽ ἀρχῆς = "from beginning" = G575+G746 = PREP+N-GSF
-    [ADDITIONAL] => firstfruits
-    [CONJOIN] => 
-)
-
-
-
-
-*** AION: WARN!	FIX_REF	ref='59_Heb.009.017'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	missing morph=' PRT-N+ADV'
-Array
-(
-    [REF] => 59_Heb.009.017
-    [TYPE] => =NA diff TR ˹˺
+    [REF] => 45_Act.028.027
+    [TYPE] => =NA same TR ~~
     [WORD] => μήποτε
     [ENGLISH] => otherwise
     [STRONGS] => G3361+G4218
-    [MORPH] => PRT-N +PRT
-    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV
-    [SPELLINGS] => μήποτε
-    [MEANINGS] => | WH = μὴ τότε = "not then" = G3361+G5119 = PRT-N+ADV
+    [MORPH] => PRT-N+PRT
+    [EDITIONS] => NA27+NA28+SBL+Treg+TR+Byz+NIV, Tyn+WH
+    [SPELLINGS] => μήποτε, μή ποτε
+    [MEANINGS] => 
     [ADDITIONAL] => not + lest
     [CONJOIN] => 
 )
@@ -2116,178 +4490,1603 @@ Array
 
 
 
-*** AION: WARN!	FIX_REF	ref='59_Heb.009.017'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	missing morph=' PRT-N+ADV'
+*** AION: WARN!	FIX_REF	ref='46_Rom.003.007'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
 Array
 (
-    [REF] => 59_Heb.009.017
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => μήποτε
-    [ENGLISH] => otherwise
-    [STRONGS] => G3361+G4218
-    [MORPH] => PRT-N +PRT
-    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV
-    [SPELLINGS] => μήποτε
-    [MEANINGS] => | WH = μὴ τότε = "not then" = G3361+G5119 = PRT-N+ADV
-    [ADDITIONAL] => not + lest
-    [CONJOIN] => 
+    [REF] => 46_Rom.003.007
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => also I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »042:G2919
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='59_Heb.010.034'	word='δεσμίοις'	morph='N-DPM'	strongs='G1198'	missing morph=' N-DPM+P-1GS'
+*** AION: WARN!	FIX_REF	ref='46_Rom.003.030'	word='εἴπερ'	morph='COND +CONJ'	strongs='G1487+G4007'	space morph=COND+CONJ
 Array
 (
-    [REF] => 59_Heb.010.034
+    [REF] => 46_Rom.003.030
     [TYPE] => =NA diff TR ˹˺
-    [WORD] => δεσμίοις
-    [ENGLISH] => prisoners
-    [STRONGS] => G1198
-    [MORPH] => N-DPM
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+ESV+NIV
-    [SPELLINGS] => δεσμίοις
-    [MEANINGS] => ‖ TR+Byz = δεσμοῖς μου = "my imprisonments" = G1199+G1473 = N-DPM+P-1GS
-    [ADDITIONAL] => prisoner
-    [CONJOIN] => 
-)
-
-
-
-
-*** AION: WARN!	FIX_REF	ref='61_1Pe.001.007'	word='πολυτιμότερον'	morph='A-NSN-C'	strongs='G4186'	missing morph=' A-NSN+A-NSN-C'
-Array
-(
-    [REF] => 61_1Pe.001.007
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => πολυτιμότερον
-    [ENGLISH] => more precious
-    [STRONGS] => G4186
-    [MORPH] => A-NSN-C
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV
-    [SPELLINGS] => πολυτιμότερον
-    [MEANINGS] => | TR+Byz = πολὺ τιμιώτερον = "very precious" = G4183+G5093 = A-NSN+A-NSN-C
-    [ADDITIONAL] => valuable
-    [CONJOIN] => 
-)
-
-
-
-
-*** AION: WARN!	FIX_REF	ref='61_1Pe.002.003'	word='εἰ'	morph='COND'	strongs='G1487'	missing morph=' COND+CONJ'
-Array
-(
-    [REF] => 61_1Pe.002.003
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => εἰ
+    [WORD] => εἴπερ
     [ENGLISH] => if indeed
-    [STRONGS] => G1487
-    [MORPH] => COND
+    [STRONGS] => G1487+G4007
+    [MORPH] => COND+CONJ
     [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV
-    [SPELLINGS] => εἰ
-    [MEANINGS] => ¦ TR+Byz = εἴπερ = "if indeed" = G1487+G4007 = COND+CONJ
-    [ADDITIONAL] => if
+    [SPELLINGS] => εἴπερ
+    [MEANINGS] => | TR+Byz = ἐπείπερ = "since" = G1897 = CONJ
+    [ADDITIONAL] => if + indeed
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='61_1Pe.002.006'	word='διότι'	morph='CONJ'	strongs='G1360'	missing morph=' CONJ+CONJ'
+*** AION: WARN!	FIX_REF	ref='46_Rom.006.009'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
 Array
 (
-    [REF] => 61_1Pe.002.006
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => διότι
-    [ENGLISH] => Therefore
-    [STRONGS] => G1360
-    [MORPH] => CONJ
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+Byz+NIV
-    [SPELLINGS] => διότι
-    [MEANINGS] => | TR = διὸ καὶ = "therefore and" = G1352+G2532 = CONJ+CONJ
-    [ADDITIONAL] => because
+    [REF] => 46_Rom.006.009
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='61_1Pe.003.020'	word='ἀπεξεδέχετο'	morph='V-INI-3S'	strongs='G553'	missing morph=' ADV+V-INI-3S'
+*** AION: WARN!	FIX_REF	ref='46_Rom.006.009'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
 Array
 (
-    [REF] => 61_1Pe.003.020
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => ἀπεξεδέχετο
-    [ENGLISH] => he was expecting
-    [STRONGS] => G553
-    [MORPH] => V-INI-3S
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+Byz+NIV
-    [SPELLINGS] => ἀπεξεδέχετο
-    [MEANINGS] => | TR = ἅπαξ ἐξεδέχετο = "once he was awaiting" = G530+G1551 = ADV+V-INI-3S
-    [ADDITIONAL] => to expect
+    [REF] => 46_Rom.006.009
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='62_2Pe.001.012'	word='μελλήσω'	morph='V-FAI-1S'	strongs='G3195'	missing morph=' PRT-N+V-FAI-1S'
+*** AION: WARN!	FIX_REF	ref='46_Rom.007.017'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
 Array
 (
-    [REF] => 62_2Pe.001.012
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => μελλήσω
-    [ENGLISH] => I will be ready
-    [STRONGS] => G3195
-    [MORPH] => V-FAI-1S
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+ESV+NIV
-    [SPELLINGS] => μελλήσω
-    [MEANINGS] => ‖ TR+Byz = οὐκ ἀμελήσω = "not will neglect" = G3756+G272 = PRT-N+V-FAI-1S
-    [ADDITIONAL] => be about to
+    [REF] => 46_Rom.007.017
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='67_Rev.002.015'	word='ὁμοίως.'	morph='ADV'	strongs='G3668'	missing morph=' R-ASN+V-PAI-1S'
+*** AION: WARN!	FIX_REF	ref='46_Rom.007.020'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
 Array
 (
-    [REF] => 67_Rev.002.015
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => ὁμοίως.
-    [ENGLISH] => likewise.
-    [STRONGS] => G3668
-    [MORPH] => ADV
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+Byz+ESV+NIV
-    [SPELLINGS] => ὁμοίως
-    [MEANINGS] => ‖ TR = ὅ μισῶ = "who I hate" = G3739+G3404 = R-ASN+V-PAI-1S
-    [ADDITIONAL] => likewise
+    [REF] => 46_Rom.007.020
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='67_Rev.007.016'	word='οὐδὲ'	morph='CONJ-N'	strongs='G3761'	missing morph=' CONJ-N+PRT-N'
+*** AION: WARN!	FIX_REF	ref='46_Rom.008.009'	word='εἴπερ'	morph='COND +CONJ'	strongs='G1487+G4007'	space morph=COND+CONJ
 Array
 (
-    [REF] => 67_Rev.007.016
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => οὐδὲ
-    [ENGLISH] => nor
-    [STRONGS] => G3761
-    [MORPH] => CONJ-N
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+NIV
-    [SPELLINGS] => οὐδὲ
-    [MEANINGS] => | Byz = οὐδ οὐ = "nor not" = G3761+G3756 = CONJ-N+PRT-N
-    [ADDITIONAL] => and not
+    [REF] => 46_Rom.008.009
+    [TYPE] => =NA same TR ~~
+    [WORD] => εἴπερ
+    [ENGLISH] => if indeed
+    [STRONGS] => G1487+G4007
+    [MORPH] => COND+CONJ
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => εἴπερ
+    [MEANINGS] => 
+    [ADDITIONAL] => if + indeed
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='67_Rev.009.016'	word='δισμυριάδες'	morph='ADV +N-NPF'	strongs='G1364+G3461'	missing morph=' A-NPF-NUI+N-NPF'
+*** AION: WARN!	FIX_REF	ref='46_Rom.008.017'	word='εἴπερ'	morph='COND +CONJ'	strongs='G1487+G4007'	space morph=COND+CONJ
+Array
+(
+    [REF] => 46_Rom.008.017
+    [TYPE] => =NA same TR ~~
+    [WORD] => εἴπερ
+    [ENGLISH] => if indeed
+    [STRONGS] => G1487+G4007
+    [MORPH] => COND+CONJ
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => εἴπερ
+    [MEANINGS] => 
+    [ADDITIONAL] => if + indeed
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='46_Rom.011.003'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 46_Rom.011.003
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »022:G5275
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='46_Rom.011.006'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 46_Rom.011.006
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='46_Rom.011.006'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 46_Rom.011.006
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='46_Rom.011.006'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 46_Rom.011.006
+    [TYPE] => =TR not NA or NIV/ESV «»
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => TR+Byz
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='46_Rom.011.006'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 46_Rom.011.006
+    [TYPE] => =TR not NA or NIV/ESV «»
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => TR+Byz
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='46_Rom.011.023'	word='κἀκεῖνοι'	morph='CONJ +D-NPM'	strongs='G2532+G1565'	space morph=CONJ+D-NPM
+Array
+(
+    [REF] => 46_Rom.011.023
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖνοι
+    [ENGLISH] => And they
+    [STRONGS] => G2532+G1565
+    [MORPH] => CONJ+D-NPM
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+Byz+NIV; TR
+    [SPELLINGS] => κἀκεῖνοι; καὶ ἐκεῖνοι
+    [MEANINGS] => 
+    [ADDITIONAL] => and they
+    [CONJOIN] => »016:G1461
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='46_Rom.014.015'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 46_Rom.014.015
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='47_1Co.002.001'	word='Κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 47_1Co.002.001
+    [TYPE] => =NA same TR ~~
+    [WORD] => Κἀγὼ
+    [ENGLISH] => And I,
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »004:G2064
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='47_1Co.002.003'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 47_1Co.002.003
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => And I,
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV; TR+Byz
+    [SPELLINGS] => κἀγὼ; καὶ ἐγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »022:G1096
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='47_1Co.003.001'	word='Κἀγώ,'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 47_1Co.003.001
+    [TYPE] => =NA same TR ~~
+    [WORD] => Κἀγώ,
+    [ENGLISH] => And I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV; TR+Byz
+    [SPELLINGS] => κἀγώ; καὶ ἐγώ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »008:G1410
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='47_1Co.007.008'	word='κἀγώ.'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 47_1Co.007.008
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγώ.
+    [ENGLISH] => even I.
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγώ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => «024:G5613
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='47_1Co.007.040'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 47_1Co.007.040
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => myself also
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »032:G2192
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='47_1Co.008.005'	word='εἴπερ'	morph='COND +CONJ'	strongs='G1487+G4007'	space morph=COND+CONJ
+Array
+(
+    [REF] => 47_1Co.008.005
+    [TYPE] => =NA same TR ~~
+    [WORD] => εἴπερ
+    [ENGLISH] => if indeed
+    [STRONGS] => G1487+G4007
+    [MORPH] => COND+CONJ
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => εἴπερ
+    [MEANINGS] => 
+    [ADDITIONAL] => if + indeed
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='47_1Co.010.006'	word='κἀκεῖνοι'	morph='CONJ +D-NPM'	strongs='G2532+G1565'	space morph=CONJ+D-NPM
+Array
+(
+    [REF] => 47_1Co.010.006
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖνοι
+    [ENGLISH] => they also
+    [STRONGS] => G2532+G1565
+    [MORPH] => CONJ+D-NPM
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖνοι
+    [MEANINGS] => 
+    [ADDITIONAL] => and that one
+    [CONJOIN] => »030:G1937
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='47_1Co.010.029'	word='ἱνατί'	morph='CONJ +I-NSN'	strongs='G2443+G5101'	space morph=CONJ+I-NSN
+Array
+(
+    [REF] => 47_1Co.010.029
+    [TYPE] => =NA same TR ~~
+    [WORD] => ἱνατί
+    [ENGLISH] => so why
+    [STRONGS] => G2443+G5101
+    [MORPH] => CONJ+I-NSN
+    [EDITIONS] => NA27+NA28+SBL+Treg+Byz+NIV, Tyn+WH+TR
+    [SPELLINGS] => ἱνατί, ἵνα τί
+    [MEANINGS] => 
+    [ADDITIONAL] => so + why
+    [CONJOIN] => »032:G2919
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='47_1Co.010.033'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 47_1Co.010.033
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => I also
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »010:G700
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='47_1Co.011.001'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 47_1Co.011.001
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => I also [am]
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => «008:G2531
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='47_1Co.013.003'	word='κἂν'	morph='CONJ +COND'	strongs='G2532+G1437'	space morph=CONJ+COND
+Array
+(
+    [REF] => 47_1Co.013.003
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἂν
+    [ENGLISH] => Even if
+    [STRONGS] => G2532+G1437
+    [MORPH] => CONJ+COND
+    [EDITIONS] => NA27+NA28+Tyn+WH+Treg+NIV; SBL+TR+Byz
+    [SPELLINGS] => κἂν; καὶ ἐὰν
+    [MEANINGS] => 
+    [ADDITIONAL] => even if
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='47_1Co.015.008'	word='κἀμοί.'	morph='CONJ +P-1DS'	strongs='G2532+G1473'	space morph=CONJ+P-1DS
+Array
+(
+    [REF] => 47_1Co.015.008
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀμοί.
+    [ENGLISH] => also to me.
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1DS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀμοί
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => «014:G3708
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='47_1Co.015.015'	word='εἴπερ'	morph='COND +CONJ'	strongs='G1487+G4007'	space morph=COND+CONJ
+Array
+(
+    [REF] => 47_1Co.015.015
+    [TYPE] => =NA same TR ~~
+    [WORD] => εἴπερ
+    [ENGLISH] => if indeed
+    [STRONGS] => G1487+G4007
+    [MORPH] => COND+CONJ
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => εἴπερ
+    [MEANINGS] => 
+    [ADDITIONAL] => if + indeed
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='47_1Co.016.004'	word='κἀμὲ'	morph='CONJ +P-1AS'	strongs='G2532+G1473'	space morph=CONJ+P-1AS
+Array
+(
+    [REF] => 47_1Co.016.004
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀμὲ
+    [ENGLISH] => me also
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1AS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀμὲ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='47_1Co.016.010'	word='κἀγώ.'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 47_1Co.016.010
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγώ.
+    [ENGLISH] => also I.
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+NIV; TR+Byz
+    [SPELLINGS] => κἀγώ; καὶ ἐγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => «032:G5613
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='48_2Co.001.023'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 48_2Co.001.023
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='48_2Co.002.010'	word='κἀγώ·'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 48_2Co.002.010
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγώ·
+    [ENGLISH] => I also;
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV; TR+Byz
+    [SPELLINGS] => κἀγώ; καὶ ἐγώ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='48_2Co.005.016'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 48_2Co.005.016
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='48_2Co.006.017'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 48_2Co.006.017
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »030:G1523
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='48_2Co.011.005'	word='ὑπερλίαν'	morph='PREP +ADV'	strongs='G5228+G3029'	space morph=PREP+ADV
+Array
+(
+    [REF] => 48_2Co.011.005
+    [TYPE] => =NA same TR ~~
+    [WORD] => ὑπερλίαν
+    [ENGLISH] => most eminent
+    [STRONGS] => G5228+G3029
+    [MORPH] => PREP+ADV
+    [EDITIONS] => NA27+NA28+SBL+WH+Treg+Byz+NIV, Tyn+TR
+    [SPELLINGS] => ὑπερλίαν, ὑπὲρ λίαν
+    [MEANINGS] => 
+    [ADDITIONAL] => greatly + eminent
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='48_2Co.011.016'	word='κἂν'	morph='CONJ +COND'	strongs='G2532+G1437'	space morph=CONJ+COND
+Array
+(
+    [REF] => 48_2Co.011.016
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἂν
+    [ENGLISH] => even
+    [STRONGS] => G2532+G1437
+    [MORPH] => CONJ+COND
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἂν
+    [MEANINGS] => 
+    [ADDITIONAL] => and
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='48_2Co.011.016'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 48_2Co.011.016
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => I also
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+Byz+NIV>2:TR
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »044:G2744
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='48_2Co.011.018'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 48_2Co.011.018
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => I also
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »014:G2744
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='48_2Co.011.021'	word='κἀγώ.'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 48_2Co.011.021
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγώ.
+    [ENGLISH] => I also.
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγώ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => «034:G5111
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='48_2Co.011.022'	word='κἀγώ·'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 48_2Co.011.022
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγώ·
+    [ENGLISH] => I also.
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγώ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='48_2Co.011.022'	word='κἀγώ·'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 48_2Co.011.022
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγώ·
+    [ENGLISH] => I also.
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγώ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='48_2Co.011.022'	word='κἀγώ·'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 48_2Co.011.022
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγώ·
+    [ENGLISH] => I also.
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγώ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='48_2Co.012.011'	word='ὑπερλίαν'	morph='PREP +ADV'	strongs='G5228+G3029'	space morph=PREP+ADV
+Array
+(
+    [REF] => 48_2Co.012.011
+    [TYPE] => =NA same TR ~~
+    [WORD] => ὑπερλίαν
+    [ENGLISH] => most eminent
+    [STRONGS] => G5228+G3029
+    [MORPH] => PREP+ADV
+    [EDITIONS] => NA27+NA28+SBL+WH+Treg+Byz+NIV, Tyn+TR
+    [SPELLINGS] => ὑπερλίαν, ὑπὲρ λίαν
+    [MEANINGS] => 
+    [ADDITIONAL] => greatly + eminent
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='48_2Co.012.020'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 48_2Co.012.020
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »024:G2147
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='49_Gal.002.020'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 49_Gal.002.020
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='49_Gal.003.018'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 49_Gal.003.018
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='49_Gal.003.025'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 49_Gal.003.025
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='49_Gal.004.007'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 49_Gal.004.007
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='49_Gal.004.012'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 49_Gal.004.012
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => I also [have become]
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='49_Gal.006.014'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 49_Gal.006.014
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='50_Eph.001.015'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 50_Eph.001.015
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => I also,
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+NIV, SBL+WH+Treg+TR+Byz
+    [SPELLINGS] => κἀγὼ, κἀγώ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='50_Eph.002.019'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 50_Eph.002.019
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='50_Eph.003.020'	word='ὑπερεκπερισσοῦ'	morph='PREP +ADV'	strongs='G5228+G6029'	space morph=PREP+ADV
+Array
+(
+    [REF] => 50_Eph.003.020
+    [TYPE] => =NA same TR ~~
+    [WORD] => ὑπερεκπερισσοῦ
+    [ENGLISH] => exceedingly abundant
+    [STRONGS] => G5228+G6029
+    [MORPH] => PREP+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+Byz+NIV, TR
+    [SPELLINGS] => ὑπερεκπερισσοῦ, ὑπὲρ ἐκπερισσοῦ
+    [MEANINGS] => 
+    [ADDITIONAL] => greatly + abundant
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='51_Php.002.019'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 51_Php.002.019
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => I also
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »024:G2174
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='51_Php.002.028'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 51_Php.002.028
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »024:G1510
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='53_1Th.003.005'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 53_1Th.003.005
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => I also,
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »012:G3992
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='53_1Th.003.010'	word='ὑπερεκπερισσοῦ'	morph='PREP +ADV'	strongs='G5228+G6029'	space morph=PREP+ADV
+Array
+(
+    [REF] => 53_1Th.003.010
+    [TYPE] => =NA same TR ~~
+    [WORD] => ὑπερεκπερισσοῦ
+    [ENGLISH] => exceedingly abundant
+    [STRONGS] => G5228+G6029
+    [MORPH] => PREP+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+Byz+NIV, TR
+    [SPELLINGS] => ὑπερεκπερισσοῦ, ὑπὲρ ἐκπερισσοῦ
+    [MEANINGS] => 
+    [ADDITIONAL] => greatly + abundant
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='53_1Th.005.013'	word='ὑπερεκπερισσοῦ'	morph='PREP +ADV'	strongs='G5228+G6029'	space morph=PREP+ADV
+Array
+(
+    [REF] => 53_1Th.005.013
+    [TYPE] => =NA same TR ~~
+    [WORD] => ὑπερεκπερισσοῦ
+    [ENGLISH] => exceedingly abundant
+    [STRONGS] => G5228+G6029
+    [MORPH] => PREP+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Byz+NIV, TR; Treg
+    [SPELLINGS] => ὑπερεκπερισσοῦ, ὑπερ ἐκπερισσοῦ; ὑπερεκπερισσῶς
+    [MEANINGS] => 
+    [ADDITIONAL] => greatly + abundant
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='54_2Th.001.006'	word='εἴπερ'	morph='COND +CONJ'	strongs='G1487+G4007'	space morph=COND+CONJ
+Array
+(
+    [REF] => 54_2Th.001.006
+    [TYPE] => =NA same TR ~~
+    [WORD] => εἴπερ
+    [ENGLISH] => if indeed
+    [STRONGS] => G1487+G4007
+    [MORPH] => COND+CONJ
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => εἴπερ
+    [MEANINGS] => 
+    [ADDITIONAL] => if + indeed
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='56_2Ti.002.012'	word='κἀκεῖνος'	morph='CONJ +D-NSM'	strongs='G2532+G1565'	space morph=CONJ+D-NSM
+Array
+(
+    [REF] => 56_2Ti.002.012
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖνος
+    [ENGLISH] => He also
+    [STRONGS] => G2532+G1565
+    [MORPH] => CONJ+D-NSM
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖνος
+    [MEANINGS] => 
+    [ADDITIONAL] => and that one
+    [CONJOIN] => »018:G1473
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='56_2Ti.002.025'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
+Array
+(
+    [REF] => 56_2Ti.002.025
+    [TYPE] => =NA same TR ~~
+    [WORD] => μήποτε
+    [ENGLISH] => otherwise
+    [STRONGS] => G3361+G4218
+    [MORPH] => PRT-N+PRT
+    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV, WH
+    [SPELLINGS] => μήποτε, μή ποτε
+    [MEANINGS] => 
+    [ADDITIONAL] => not + lest
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='58_Phm.001.016'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 58_Phm.001.016
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='59_Heb.002.001'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
+Array
+(
+    [REF] => 59_Heb.002.001
+    [TYPE] => =NA same TR ~~
+    [WORD] => μήποτε
+    [ENGLISH] => otherwise
+    [STRONGS] => G3361+G4218
+    [MORPH] => PRT-N+PRT
+    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV, WH
+    [SPELLINGS] => μήποτε, μή ποτε
+    [MEANINGS] => 
+    [ADDITIONAL] => not + lest
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='59_Heb.002.016'	word='δήπου'	morph='PRT +ADV'	strongs='G1211+G4225'	space morph=PRT+ADV
+Array
+(
+    [REF] => 59_Heb.002.016
+    [TYPE] => =NA same TR ~~
+    [WORD] => δήπου
+    [ENGLISH] => surely in that place somewhere
+    [STRONGS] => G1211+G4225
+    [MORPH] => PRT+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV, WH
+    [SPELLINGS] => δήπου, δή που
+    [MEANINGS] => 
+    [ADDITIONAL] => surely + somewhere
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='59_Heb.003.006'	word='ἐάνπερ'	morph='COND +CONJ'	strongs='G1437+G4007'	space morph=COND+CONJ
+Array
+(
+    [REF] => 59_Heb.003.006
+    [TYPE] => =NA diff TR ˹˺
+    [WORD] => ἐάνπερ
+    [ENGLISH] => if indeed
+    [STRONGS] => G1437+G4007
+    [MORPH] => COND+CONJ
+    [EDITIONS] => NA27+NA28+TR+Byz+NIV
+    [SPELLINGS] => ἐάνπερ
+    [MEANINGS] => | Tyn+SBL+WH+Treg = ἐὰν = "if" = G1437 = COND
+    [ADDITIONAL] => if + indeed
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='59_Heb.003.012'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
+Array
+(
+    [REF] => 59_Heb.003.012
+    [TYPE] => =NA same TR ~~
+    [WORD] => μήποτε
+    [ENGLISH] => otherwise
+    [STRONGS] => G3361+G4218
+    [MORPH] => PRT-N+PRT
+    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV, WH
+    [SPELLINGS] => μήποτε, μή ποτε
+    [MEANINGS] => 
+    [ADDITIONAL] => not + lest
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='59_Heb.003.014'	word='ἐάνπερ'	morph='COND +CONJ'	strongs='G1437+G4007'	space morph=COND+CONJ
+Array
+(
+    [REF] => 59_Heb.003.014
+    [TYPE] => =NA same TR ~~
+    [WORD] => ἐάνπερ
+    [ENGLISH] => if indeed
+    [STRONGS] => G1437+G4007
+    [MORPH] => COND+CONJ
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => ἐάνπερ
+    [MEANINGS] => 
+    [ADDITIONAL] => if + indeed
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='59_Heb.004.001'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
+Array
+(
+    [REF] => 59_Heb.004.001
+    [TYPE] => =NA same TR ~~
+    [WORD] => μήποτε
+    [ENGLISH] => otherwise
+    [STRONGS] => G3361+G4218
+    [MORPH] => PRT-N+PRT
+    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV, WH
+    [SPELLINGS] => μήποτε, μή ποτε
+    [MEANINGS] => 
+    [ADDITIONAL] => not + lest
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='59_Heb.004.002'	word='κἀκεῖνοι·'	morph='CONJ +D-NPM'	strongs='G2532+G1565'	space morph=CONJ+D-NPM
+Array
+(
+    [REF] => 59_Heb.004.002
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀκεῖνοι·
+    [ENGLISH] => they [were];
+    [STRONGS] => G2532+G1565
+    [MORPH] => CONJ+D-NPM
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀκεῖνοι
+    [MEANINGS] => 
+    [ADDITIONAL] => and that one
+    [CONJOIN] => »
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='59_Heb.004.003'	word='καίτοι'	morph='CONJ +PRT'	strongs='G2532+G5104'	space morph=CONJ+PRT
+Array
+(
+    [REF] => 59_Heb.004.003
+    [TYPE] => =NA same TR ~~
+    [WORD] => καίτοι
+    [ENGLISH] => and yet
+    [STRONGS] => G2532+G5104
+    [MORPH] => CONJ+PRT
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => καίτοι
+    [MEANINGS] => 
+    [ADDITIONAL] => and + yet
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='59_Heb.006.003'	word='ἐάνπερ'	morph='COND +CONJ'	strongs='G1437+G4007'	space morph=COND+CONJ
+Array
+(
+    [REF] => 59_Heb.006.003
+    [TYPE] => =NA same TR ~~
+    [WORD] => ἐάνπερ
+    [ENGLISH] => if indeed
+    [STRONGS] => G1437+G4007
+    [MORPH] => COND+CONJ
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => ἐάνπερ
+    [MEANINGS] => 
+    [ADDITIONAL] => if + indeed
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='59_Heb.008.009'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 59_Heb.008.009
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »062:G272
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='59_Heb.009.017'	word='μήποτε'	morph='PRT-N +PRT'	strongs='G3361+G4218'	space morph=PRT-N+PRT
+Array
+(
+    [REF] => 59_Heb.009.017
+    [TYPE] => =NA diff TR ˹˺
+    [WORD] => μήποτε
+    [ENGLISH] => otherwise
+    [STRONGS] => G3361+G4218
+    [MORPH] => PRT-N+PRT
+    [EDITIONS] => NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV
+    [SPELLINGS] => μήποτε
+    [MEANINGS] => | WH = μὴ τότε = "not then" = G3361+G5119 = PRT-N+ADV
+    [ADDITIONAL] => not + lest
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='59_Heb.010.018'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 59_Heb.010.018
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='59_Heb.010.026'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
+Array
+(
+    [REF] => 59_Heb.010.026
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='59_Heb.012.020'	word='κἂν'	morph='CONJ +COND'	strongs='G2532+G1437'	space morph=CONJ+COND
+Array
+(
+    [REF] => 59_Heb.012.020
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἂν
+    [ENGLISH] => If even
+    [STRONGS] => G2532+G1437
+    [MORPH] => CONJ+COND
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἂν
+    [MEANINGS] => 
+    [ADDITIONAL] => even if
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='60_Jas.002.018'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 60_Jas.002.018
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »018:G2192
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='60_Jas.002.018'	word='κἀγώ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 60_Jas.002.018
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγώ
+    [ENGLISH] => and I
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγώ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »040:G1166
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='60_Jas.005.015'	word='κἂν'	morph='CONJ +COND'	strongs='G2532+G1437'	space morph=CONJ+COND
+Array
+(
+    [REF] => 60_Jas.005.015
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἂν
+    [ENGLISH] => and if
+    [STRONGS] => G2532+G1437
+    [MORPH] => CONJ+COND
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἂν
+    [MEANINGS] => 
+    [ADDITIONAL] => even if
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='67_Rev.002.006'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 67_Rev.002.006
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => I also
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »024:G3404
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='67_Rev.002.028'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 67_Rev.002.028
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => I also
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »006:G2983
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='67_Rev.003.010'	word='κἀγώ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 67_Rev.003.010
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγώ
+    [ENGLISH] => I also
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγώ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »020:G5083
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='67_Rev.003.021'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
+Array
+(
+    [REF] => 67_Rev.003.021
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => I also
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => κἀγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »028:G3528
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='67_Rev.005.014'	word='εἴκοσιτέσσαρες'	morph='A-NPM-NUI +A-NPM'	strongs='G1501+G5064'	space morph=A-NPM-NUI+A-NPM
+Array
+(
+    [REF] => 67_Rev.005.014
+    [TYPE] => =TR not NA or NIV/ESV «»
+    [WORD] => εἴκοσιτέσσαρες
+    [ENGLISH] => twenty four
+    [STRONGS] => G1501+G5064
+    [MORPH] => A-NPM-NUI+A-NPM
+    [EDITIONS] => TR
+    [SPELLINGS] => εἴκοσιτέσσαρες
+    [MEANINGS] => 
+    [ADDITIONAL] => twenty + four
+    [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN!	FIX_REF	ref='67_Rev.009.016'	word='δισμυριάδες'	morph='ADV +N-NPF'	strongs='G1364+G3461'	space morph=ADV+N-NPF
 Array
 (
     [REF] => 67_Rev.009.016
@@ -2295,7 +6094,7 @@ Array
     [WORD] => δισμυριάδες
     [ENGLISH] => twice ten thousand
     [STRONGS] => G1364+G3461
-    [MORPH] => ADV +N-NPF
+    [MORPH] => ADV+N-NPF
     [EDITIONS] => NA27+NA28+Tyn+SBL+NIV; WH
     [SPELLINGS] => δισμυριάδες; δὶς μυριάδες
     [MEANINGS] => ¦ Treg+TR = δύο μυριάδες = "twenty thousand" = G1417+G3461 = A-NPF-NUI+N-NPF
@@ -2306,77 +6105,77 @@ Array
 
 
 
-*** AION: WARN!	FIX_REF	ref='67_Rev.009.016'	word='δισμυριάδες'	morph='ADV +N-NPF'	strongs='G1364+G3461'	missing morph=' A-NPF-NUI+N-NPF'
+*** AION: WARN!	FIX_REF	ref='67_Rev.010.006'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
 Array
 (
-    [REF] => 67_Rev.009.016
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => δισμυριάδες
-    [ENGLISH] => twice ten thousand
-    [STRONGS] => G1364+G3461
-    [MORPH] => ADV +N-NPF
-    [EDITIONS] => NA27+NA28+Tyn+SBL+NIV; WH
-    [SPELLINGS] => δισμυριάδες; δὶς μυριάδες
-    [MEANINGS] => ¦ Treg+TR = δύο μυριάδες = "twenty thousand" = G1417+G3461 = A-NPF-NUI+N-NPF
-    [ADDITIONAL] => twice + myriads
+    [REF] => 67_Rev.010.006
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+Byz+NIV, TR
+    [SPELLINGS] => οὐκέτι, οὐκ έτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
     [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='67_Rev.011.019'	word='αὐτοῦ'	morph='P-GSM'	strongs='G846'	missing morph=' T-GSM+N-GSM'
+*** AION: WARN!	FIX_REF	ref='67_Rev.018.011'	word='οὐκέτι·'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
 Array
 (
-    [REF] => 67_Rev.011.019
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => αὐτοῦ
-    [ENGLISH] => of Him
-    [STRONGS] => G846
-    [MORPH] => P-GSM
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+NIV
-    [SPELLINGS] => αὐτοῦ
-    [MEANINGS] => ‖ Byz = τοῦ κυρίου = "of the Lord" = G3588+G2962 = T-GSM+N-GSM
-    [ADDITIONAL] => of his
-    [CONJOIN] => «032:G1242
+    [REF] => 67_Rev.018.011
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι·
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='67_Rev.017.008'	word='ὅτι'	morph='CONJ'	strongs='G3754'	missing morph=' R-NSN+X-NSN'
+*** AION: WARN!	FIX_REF	ref='67_Rev.018.014'	word='οὐκέτι'	morph='PRT-N +ADV'	strongs='G3756+G2089'	space morph=PRT-N+ADV
 Array
 (
-    [REF] => 67_Rev.017.008
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => ὅτι
-    [ENGLISH] => that
-    [STRONGS] => G3754
-    [MORPH] => CONJ
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV <3: Byz
-    [SPELLINGS] => ὅτι
-    [MEANINGS] => | TR = ὃ τι = "that one" = G3739+G5100 = R-NSN+X-NSN
-    [ADDITIONAL] => that§1_that
-    [CONJOIN] => «078:G991
+    [REF] => 67_Rev.018.014
+    [TYPE] => =NA same TR ~~
+    [WORD] => οὐκέτι
+    [ENGLISH] => no longer
+    [STRONGS] => G3756+G2089
+    [MORPH] => PRT-N+ADV
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+TR+Byz+NIV
+    [SPELLINGS] => οὐκέτι
+    [MEANINGS] => 
+    [ADDITIONAL] => not + still
+    [CONJOIN] => 
 )
 
 
 
 
-*** AION: WARN!	FIX_REF	ref='67_Rev.021.024'	word='αὐτῶν'	morph='P-GPM'	strongs='G846'	missing morph=' T-GPN+N-GPN'
+*** AION: WARN!	FIX_REF	ref='67_Rev.022.008'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
 Array
 (
-    [REF] => 67_Rev.021.024
-    [TYPE] => =NA diff TR ˹˺
-    [WORD] => αὐτῶν
-    [ENGLISH] => of them
-    [STRONGS] => G846
-    [MORPH] => P-GPM
-    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+ESV+NIV
-    [SPELLINGS] => αὐτῶν
-    [MEANINGS] => ‖ Byz = τῶν ἐθνῶν = "of the nations" = G3588+G1484 = T-GPN+N-GPN
-    [ADDITIONAL] => their
-    [CONJOIN] => «03306:G5092
+    [REF] => 67_Rev.022.008
+    [TYPE] => =NA same TR ~~
+    [WORD] => κἀγὼ
+    [ENGLISH] => And I,
+    [STRONGS] => G2532+G1473
+    [MORPH] => CONJ+P-1NS
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+NIV; TR+Byz
+    [SPELLINGS] => κἀγὼ; καὶ ἐγὼ
+    [MEANINGS] => 
+    [ADDITIONAL] => and I
+    [CONJOIN] => »008:G191
 )
 
 
@@ -2385,19 +6184,35 @@ Array
 *** AION: EXCELLENT! ALL REFERENCES ACCOUNTED
 
 *** AION: GREEK ../www-stage/library/stepbible/Greek_Tagged_Text.txt ROWS=142281
+*** AION: WARN! COUNT_REF_CHECKER  count mismatch (Greek strong+strong with meaning strong refs doubled?) for G1065: 34 != 33
+*** AION: WARN! COUNT_REF_CHECKER  count mismatch (Greek strong+strong with meaning strong refs doubled?) for G1161: 3023 != 3022
+*** AION: WARN! COUNT_REF_CHECKER  count mismatch (Greek strong+strong with meaning strong refs doubled?) for G1176: 33 != 30
+*** AION: WARN! COUNT_REF_CHECKER  count mismatch (Greek strong+strong with meaning strong refs doubled?) for G1417: 141 != 140
+*** AION: WARN! COUNT_REF_CHECKER  count mismatch (Greek strong+strong with meaning strong refs doubled?) for G1437: 386 != 385
+*** AION: WARN! COUNT_REF_CHECKER  count mismatch (Greek strong+strong with meaning strong refs doubled?) for G1564: 41 != 40
+*** AION: WARN! COUNT_REF_CHECKER  count mismatch (Greek strong+strong with meaning strong refs doubled?) for G1897: 2 != 1
+*** AION: WARN! COUNT_REF_CHECKER  count mismatch (Greek strong+strong with meaning strong refs doubled?) for G2532: 9635 != 9631
+*** AION: WARN! COUNT_REF_CHECKER  count mismatch (Greek strong+strong with meaning strong refs doubled?) for G3361: 1092 != 1091
+*** AION: WARN! COUNT_REF_CHECKER  count mismatch (Greek strong+strong with meaning strong refs doubled?) for G3461: 11 != 10
+*** AION: WARN! COUNT_REF_CHECKER  count mismatch (Greek strong+strong with meaning strong refs doubled?) for G3638: 16 != 13
+*** AION: WARN! COUNT_REF_CHECKER  count mismatch (Greek strong+strong with meaning strong refs doubled?) for G3756: 1712 != 1711
+*** AION: WARN! COUNT_REF_CHECKER  count mismatch (Greek strong+strong with meaning strong refs doubled?) for G5037: 247 != 246
+*** AION: WARN! COUNT_REF_CHECKER  count mismatch (Greek strong+strong with meaning strong refs doubled?) for G5104: 6 != 5
+*** AION: WARN! COUNT_REF_CHECKER  count mismatch (Greek strong+strong with meaning strong refs doubled?) for G5119: 164 != 163
 *** AION: GREEK ../www-stage/library/stepbible/Greek_Tagged_Text_Count.json
 *** AION: GREEK ../www-stage/library/stepbible/Greek_Chapter_Usage.txt
 *** AION: GREEK ../www-stage/library/stepbible/Greek_Lexicon_Tyndale_Index.json
 *** AION: GREEK ../www-stage/library/stepbible/Greek_Lexicon_LSJ_Index.json
-*** AION: CHECK ../www-stage/library/stepbible/CHECK_BOOKS.txt ROWS=69
-*** AION: CHECK ../www-stage/library/stepbible/CHECK_MORPHS.txt ROWS=78
-*** AION: CHECK ../www-stage/library/stepbible/CHECK_MISSING.txt ROWS=4
-*** AION: CHECK ../www-stage/library/stepbible/CHECK_STRONGS.txt ROWS=4
-*** AION: CHECK ../www-stage/library/stepbible/CHECK_VARIANT.txt ROWS=4
-*** AION: CHECK ../www-stage/library/stepbible/CHECK_FIXED.txt ROWS=115
-*** AION: CHECK ../www-stage/library/stepbible/CHECK_REFERENCES.txt ROWS=3
-*** AION: CHECK ../www-stage/library/stepbible/CHECK_WARNINGS.txt ROWS=1015
+*** AION: CHECK CHECK_BOOKS.txt ROWS=69
+*** AION: CHECK CHECK_MORPHS.txt ROWS=267
+*** AION: CHECK CHECK_MISSING.txt ROWS=4
+*** AION: CHECK CHECK_STRONGS.txt ROWS=4
+*** AION: CHECK CHECK_VARIANT.txt ROWS=4
+*** AION: CHECK CHECK_FIXED.txt ROWS=115
+*** AION: CHECK CHECK_REFERENCES.txt ROWS=3
+*** AION: CHECK CHECK_WARNINGS.txt ROWS=1015
 *** AION: HEBREW ../www-stage/library/stepbible/Hebrew_Chapter_Usage
+*** AION: GREEK ../www-stage/library/stepbible/Greek_Chapter_Usage
 *** AION: END!
 
 
