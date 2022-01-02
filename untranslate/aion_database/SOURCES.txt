@@ -111,7 +111,7 @@ Holy-Bible---Dutch---Canisiusvertaling				http://ebible.org/pdf/nld1939/nld1939_
 Holy-Bible---Dutch---Statenvertaling				http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/DutSVV.zip	Holy-Bible---Dutch---Statenvertaling---Source-Edition.SWORD.zip
 Holy-Bible---Dutch---Statenvertaling				./aion_source/Holy-Bible---Dutch---Statenvertaling.unbound.zip	Holy-Bible---Dutch---Statenvertaling---Source-Edition.UNBOUND.zip
 Holy-Bible---English---A-Conservative-Version	SWORD			http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/ACV.zip	Holy-Bible---English---A-Conservative-Version---Source-Edition.SWORD.zip
-Holy-Bible---English---Aionian-Bible				http://www.nheb.net/files/NHEB.txt	Holy-Bible---English---Aionian-Bible---Source-Edition.NHEB.txt
+Holy-Bible---English---Aionian-Bible				http://ebible.org/Scriptures/engwebp_vpl.zip	Holy-Bible---English---Aionian-Bible---Source-Edition.VPL.zip
 Holy-Bible---English---American-Standard-Version-1901				http://ebible.org/sword/zip/engASV1901eb.zip	Holy-Bible---English---American-Standard-Version-1901---Source-Edition.SWORD.zip
 Holy-Bible---English---American-Standard-Version-1901				http://ebible.org/epub/eng-asv.epub	Holy-Bible---English---American-Standard-Version-1901---Source-Edition.epub
 Holy-Bible---English---American-Standard-Version-1901				http://ebible.org/pdf/eng-asv/eng-asv_prt.pdf	Holy-Bible---English---American-Standard-Version-1901---Source-Edition.pdf
@@ -168,12 +168,12 @@ Holy-Bible---English---LXX2012-U-S-English				http://ebible.org/epub/eng-lxx2012
 Holy-Bible---English---LXX2012-U-S-English				http://ebible.org/pdf/eng-lxx2012/eng-lxx2012_prt.pdf	Holy-Bible---English---LXX2012-U-S-English---Source-Edition.pdf
 Holy-Bible---English---LXX2012-U-S-English				./aion_source/Holy-Bible---English---LXX2012-U-S-English.vpl.zip	Holy-Bible---English---LXX2012-U-S-English---Source-Edition.VPL.zip
 Holy-Bible---English---Montgomery-NT	SWORD			http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Montgomery.zip	Holy-Bible---English---Montgomery-NT---Source-Edition.SWORD.zip
-Holy-Bible---English---New-Heart-Aramaic				http://www.nheb.net/files/NHEB-NT-AN.txt	Holy-Bible---English---New-Heart-Aramaic---Source-Edition.NHEB.txt
-Holy-Bible---English---New-Heart-Jehovah				http://www.nheb.net/files/NHEB-JE.txt	Holy-Bible---English---New-Heart-Jehovah---Source-Edition.NHEB.txt
-Holy-Bible---English---New-Heart-Jesus-Messiah				http://www.nheb.net/files/NHEB-JM.txt	Holy-Bible---English---New-Heart-Jesus-Messiah---Source-Edition.NHEB.txt
-Holy-Bible---English---New-Heart-Messianic				http://www.nheb.net/files/NHEB-ME.txt	Holy-Bible---English---New-Heart-Messianic---Source-Edition.NHEB.txt
-Holy-Bible---English---New-Heart-Standard				http://www.nheb.net/files/NHEB.txt	Holy-Bible---English---New-Heart-Standard---Source-Edition.NHEB.txt
-Holy-Bible---English---New-Heart-YHWH				http://www.nheb.net/files/NHEB-YHWH.txt	Holy-Bible---English---New-Heart-YHWH---Source-Edition.NHEB.txt
+Holy-Bible---English---New-Heart-Aramaic				./aion_source/Holy-Bible---English---New-Heart-Aramaic---Source-Edition.NHEB.txt	Holy-Bible---English---New-Heart-Aramaic---Source-Edition.NHEB.txt
+Holy-Bible---English---New-Heart-Jehovah				./aion_source/Holy-Bible---English---New-Heart-Jehovah---Source-Edition.NHEB.txt	Holy-Bible---English---New-Heart-Jehovah---Source-Edition.NHEB.txt
+Holy-Bible---English---New-Heart-Jesus-Messiah				./aion_source/Holy-Bible---English---New-Heart-Jesus-Messiah---Source-Edition.NHEB.txt	Holy-Bible---English---New-Heart-Jesus-Messiah---Source-Edition.NHEB.txt
+Holy-Bible---English---New-Heart-Messianic				./aion_source/Holy-Bible---English---New-Heart-Messianic---Source-Edition.NHEB.txt	Holy-Bible---English---New-Heart-Messianic---Source-Edition.NHEB.txt
+Holy-Bible---English---New-Heart-Standard				./aion_source/Holy-Bible---English---New-Heart-Standard---Source-Edition.NHEB.txt	Holy-Bible---English---New-Heart-Standard---Source-Edition.NHEB.txt
+Holy-Bible---English---New-Heart-YHWH				./aion_source/Holy-Bible---English---New-Heart-YHWH---Source-Edition.NHEB.txt	Holy-Bible---English---New-Heart-YHWH---Source-Edition.NHEB.txt
 Holy-Bible---English---One-Unity-Resource-Bible				http://ebible.org/sword/zip/engourb2016eb.zip	Holy-Bible---English---One-Unity-Resource-Bible---Source-Edition.SWORD.zip
 Holy-Bible---English---One-Unity-Resource-Bible				http://ebible.org/epub/engourb.epub	Holy-Bible---English---One-Unity-Resource-Bible---Source-Edition.epub
 Holy-Bible---English---One-Unity-Resource-Bible				http://ebible.org/pdf/engourb/engourb_prt.pdf	Holy-Bible---English---One-Unity-Resource-Bible---Source-Edition.pdf
@@ -191,6 +191,8 @@ Holy-Bible---English---Revised-Version				http://ebible.org/epub/eng-rv.epub	Hol
 Holy-Bible---English---Revised-Version				http://ebible.org/pdf/eng-rv/eng-rv_prt.pdf	Holy-Bible---English---Revised-Version---Source-Edition.pdf
 Holy-Bible---English---Revised-Version				http://ebible.org/Scriptures/eng-rv_vpl.zip	Holy-Bible---English---Revised-Version---Source-Edition.VPL.zip
 Holy-Bible---English---Rotherham-Bible	SWORD			http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Rotherham.zip	Holy-Bible---English---Rotherham-Bible---Source-Edition.SWORD.zip
+Holy-Bible---English---STEPBible-Amalgamant				./aion_source/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt	Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt
+Holy-Bible---English---STEPBible-Concordant				./aion_source/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt	Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt
 Holy-Bible---English---Trans-Trans				http://ebible.org/sword/zip/engT4T2014eb.zip	Holy-Bible---English---Trans-Trans---Source-Edition.SWORD.zip
 Holy-Bible---English---Trans-Trans				http://ebible.org/epub/eng-t4t.epub	Holy-Bible---English---Trans-Trans---Source-Edition.epub
 Holy-Bible---English---Trans-Trans				http://ebible.org/pdf/eng-t4t/eng-t4t_prt.pdf	Holy-Bible---English---Trans-Trans---Source-Edition.pdf

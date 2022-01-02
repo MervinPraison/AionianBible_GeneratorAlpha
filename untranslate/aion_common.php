@@ -199,11 +199,12 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $domain, $allbibl
 		$boli = $destiny.'/online/'.$version[C_BIBLE];
 		// Source txt filename
 		$sour = (
+			(is_file($base.'---Source-Edition.STEP.txt')	? '---Source-Edition.STEP.txt' :
 			(is_file($base.'---Source-Edition.NHEB.txt')	? '---Source-Edition.NHEB.txt' :
 			(is_file($base.'---Source-Edition.VPL.txt')		? '---Source-Edition.VPL.txt' :
 			(is_file($base.'---Source-Edition.UNBOUND.txt')	? '---Source-Edition.UNBOUND.txt' :
 			(is_file($base.'---Source-Edition.B4U.txt')		? '---Source-Edition.B4U.txt' :
-			(is_file($base.'---Source-Edition.SWORD.txt')	? '---Source-Edition.SWORD.txt' : NULL))))));
+			(is_file($base.'---Source-Edition.SWORD.txt')	? '---Source-Edition.SWORD.txt' : NULL)))))));
 		if (empty($sour) || !AION_filesize($base.$sour)) { AION_ECHO("ERROR! AION_FILE_DATABASE_PUT no source extension found! $bible"); }
 		$source_version = (filemtime($base.$sour)===FALSE ? '' : ("\n<div class='field-field'><div class='field-label'>Source Version:</div><div class='field-value'>".date("n/j/Y", filemtime($base.$sour))."</div></div>"));
 		
@@ -503,7 +504,7 @@ function AION_LOOP_UNPACK($folder) {
 		'function'	=> 'AION_LOOP_UNPACK_DOIT',
 		'source'	=> $folder,
 		'destiny'	=> $folder,
-		'include'	=> '/---Source-Edition(\.NHEB\.txt|\.VPL\.zip|\.UNBOUND\.zip|\.B4U\.tar\.gz)/',
+		'include'	=> '/---Source-Edition(\.STEP\.txt|\.NHEB\.txt|\.VPL\.zip|\.UNBOUND\.zip|\.B4U\.tar\.gz)/',
 		'exclude'	=> '',
 		'database'	=> $database,
 		) );
@@ -523,8 +524,9 @@ function AION_LOOP_UNPACK_DOIT($args) {
 	if (empty($source['SOURCE'])) { AION_ECHO("ERROR! ZIPFILE UNPACK FAILED, SOURCE NOT FOUND: $zipfile"); }
 	$source_date = filemtime($zipfile);
 
-	/* always try to repack NHEB */
-	if (preg_match("/\.NHEB\.txt$/", $txtfile)) {
+	/* always try to repack NHEB and STEP */
+	if (preg_match("/\.NHEB\.txt$/", $txtfile) ||
+		preg_match("/\.STEP\.txt$/", $txtfile)) {
 		AION_LOOP_UNPACK_STAMP($bible, $source['SOURCE'], $source_date, $txtfile);
 		return;
 	}
@@ -618,10 +620,10 @@ function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $ski
 		'function'	=> 'AION_LOOP_CONV_DOIT',
 		'source'	=> $source,
 		'uniusage'	=> $uniusage,
-		'include'	=> '/---Source-Edition\.(NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
-		//'include'	=> '/Holy-Bible---[R-Z](.*?)---Source-Edition\.(NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
-		//'include'	=> '/Holy-Bible---English---Trans-Trans---Source-Edition\.(NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
-		//'include'	=> '/Holy-Bible---Chin-Thado---Chongthu-Bible---Source-Edition\.(NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
+		'include'	=> '/---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
+		//'include'	=> '/Holy-Bible---[R-Z](.*?)---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
+		//'include'	=> '/Holy-Bible---English---Trans-Trans---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
+		//'include'	=> '/Holy-Bible---Chin-Thado---Chongthu-Bible---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		'destiny'	=> $destiny,
 		'raw_orig'	=> $raw_orig,
 		'raw_fixed'	=> $raw_fixed,
@@ -647,6 +649,7 @@ function AION_LOOP_CONV_DOIT($args) {
 	/* setup */
 	$filepath = $args['filepath'];
 	if (preg_match("/---Source-Edition\.NHEB\.txt$/", $args['filepath'])) {			$type = "HRT"; }
+	else if (preg_match("/---Source-Edition\.STEP\.txt$/", $args['filepath'])) {	$type = "HRT"; }
 	else if (preg_match("/---Source-Edition\.VPL\.txt$/", $args['filepath'])) {		$type = "VPL"; }
 	else if (preg_match("/---Source-Edition\.UNBOUND\.txt$/", $args['filepath'])) {	$type = "UNB"; }
 	else if (preg_match("/---Source-Edition\.B4U\.txt$/", $args['filepath'])) {		$type = "B4U"; }
@@ -861,11 +864,12 @@ function AION_BIBLES_REVISE($bible,$numb,$book,$chap,$vers,&$text) {
 function AION_BIBLES_COMMENT_MORE($bibleversion,$datatype,$base) {
 // source date
 $sour = (
+	(is_file($base.'---Source-Edition.STEP.txt')	? '---Source-Edition.STEP.txt' :
 	(is_file($base.'---Source-Edition.NHEB.txt')	? '---Source-Edition.NHEB.txt' :
 	(is_file($base.'---Source-Edition.VPL.txt')		? '---Source-Edition.VPL.txt' :
 	(is_file($base.'---Source-Edition.UNBOUND.txt')	? '---Source-Edition.UNBOUND.txt' :
 	(is_file($base.'---Source-Edition.B4U.txt')		? '---Source-Edition.B4U.txt' :
-	(is_file($base.'---Source-Edition.SWORD.txt')	? '---Source-Edition.SWORD.txt' : NULL))))));
+	(is_file($base.'---Source-Edition.SWORD.txt')	? '---Source-Edition.SWORD.txt' : NULL)))))));
 $source_version = (filemtime($base.$sour)===FALSE ? '' : ("# Bible Source Version: ".date("n/j/Y", filemtime($base.$sour))."\n"));
 return (
 	"# Bible Name: ".$bibleversion['NAME']."\n".
@@ -3083,21 +3087,21 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 		'foreign'	=> &$foreign,
 		)));
 	$grandmarker = array();
-	$grandmarker['BIBLE_COUNT']	= $grandtotal['BIBLE_COUNT']-214;
+	$grandmarker['BIBLE_COUNT']	= $grandtotal['BIBLE_COUNT']-216;
 	$grandmarker['LANG_COUNT']	= $grandtotal['LANG_COUNT']-98;
-	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-5585;
-	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-5076;
-	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-183176;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-4833809;
-	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-47074;
+	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-5663;
+	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-5130;
+	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-185554;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-4896019;
+	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-47600;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-260;
-	$grandmarker['LONG']		= $grandtotal['LONG']-828;
+	$grandmarker['LONG']		= $grandtotal['LONG']-883;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-0;
 	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-1849;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-733;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-10390;
-	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-10562;
-	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-7864;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-10384;
+	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-10556;
+	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-7865;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-518;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-539;
 	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-602;
@@ -3109,7 +3113,7 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-205;
 	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-114;
 	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-144;
-	$grandmarker['PDF_PRTL']	= $grandtotal['PDF_PRTL']-125;
+	$grandmarker['PDF_PRTL']	= $grandtotal['PDF_PRTL']-127;
 	$grandmarker['TRANS']		= $grandtotal['TRANS']-66;
 	$grandtotal['LONG']		= ($grandtotal['LONG']		== 0 ? $grandtotal['LONG']		: "<span style='font-weight:bold; color:red;'>".$grandtotal['LONG']."</span>" );
 	$grandtotal['CHAP_NO']	= ($grandtotal['CHAP_NO']	== 0 ? $grandtotal['CHAP_NO']	: "<span style='font-weight:bold; color:red;'>".$grandtotal['CHAP_NO']."</span>" );

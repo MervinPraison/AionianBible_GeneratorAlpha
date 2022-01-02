@@ -58,7 +58,6 @@ switch($bible) {
 case 'Holy-Bible---Bulgarian---Bulgarian-Bible' :
 	if (!($bfile = preg_replace('/<([^<>\n]*)>/us','[$1]',$bfile,-1,$rnum)) || $rnum!=12) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 	break;
-case 'Holy-Bible---English---Aionian-Bible' :
 case 'Holy-Bible---English---New-Heart-Aramaic' :
 case 'Holy-Bible---English---New-Heart-Jehovah' :
 case 'Holy-Bible---English---New-Heart-Jesus-Messiah' :
@@ -1599,19 +1598,6 @@ goto RAWHIDE;
 
 
 
-// RAWFIX BIBLE ********************
-case "Holy-Bible---English---Aionian-Bible" :
-$space_punc	= array('’','”','‘','“');
-$space_punc2= array("'",'"',"'",'"');
-$bfile = str_replace($space_punc, $space_punc2, $bfile);
-if (!($bfile = preg_replace("/non-Jews/ius","Gentiles",$bfile,-1,$rnum)) || $rnum<1 || $rnum>100) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-if (!($bfile = preg_replace("/non-Jewish/ius","Gentile",$bfile,-1,$rnum)) || $rnum<1 || $rnum>100) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-if (!($bfile = preg_replace("/non-Jew/ius","Gentile",$bfile,-1,$rnum))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$bfile_saved = $bfile;
-if (!($bfile = preg_replace("/\[note:[^\]]+]/us"," ",$bfile,-1,$rnum)) || $rnum!=7) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }		
-goto RAWHIDE;
-
-
 
 
 // RAWFIX BIBLE ********************
@@ -2764,17 +2750,12 @@ Matthew 13:36
 EOF;
 if (!($bfile = preg_replace("/Matthew 13:34 (.+?)Matthew 13:36 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 // get substitute chapters and clean them up first!
-if (!($bfile2 = file_get_contents($file2="../www-stageresources/Holy-Bible---English---New-Heart-Standard---Source-Edition.NHEB.txt"))) { AION_ECHO("ERROR! Rawfix problem reading: $file2"); }
-$bfile2 = Encoding::toUTF8($bfile2);
-if (!($bfile2 = preg_replace('/</us', '[',$bfile2,-1,$rnum)) || $rnum!=116) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-if (!($bfile2 = preg_replace('/>/us', ']',$bfile2,-1,$rnum)) || $rnum!=116) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile2 = file_get_contents($file2="../www-stageresources/Holy-Bible---English---World-English-Bible---Source-Edition.VPL.txt"))) { AION_ECHO("ERROR! Rawfix problem reading: $file2"); }
+if (!preg_match("/MAT 15:29 (.+?)MAT 21:22 /us",$bfile2,$matches) || empty($matches[0])) { AION_ECHO("ERROR! Rawfix preg_match(MAT15-21): $file2"); }
 $space_punc	= array('’','”','‘','“');
 $space_punc2= array("'",'"',"'",'"');
-$bfile2 = str_replace($space_punc, $space_punc2, $bfile2);
-if (!($bfile2 = preg_replace("/\[note:[^\]]+]/ius"," ",$bfile2,-1,$rnum)) || $rnum!=7) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-
-if (!preg_match("/Mat 15:29 (.+?)Mat 21:22 /us",$bfile2,$matches) || empty($matches[0])) { AION_ECHO("ERROR! Rawfix preg_match(MAT15-21): $file2"); }
-if (!($matches[0] = preg_replace("/Mat /us", "Matthew ", $matches[0],-1,$rnum)) || $rnum!=187) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$matches[0] = str_replace($space_punc, $space_punc2, $matches[0]);
+if (!($matches[0] = preg_replace("/MAT /us", "Matthew ", $matches[0],-1,$rnum)) || $rnum!=187) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/Matthew 15:29 (.+?)Matthew 21:22 /us",$matches[0],$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 Matthew 22:45 Since, then, David calls him 'lord,' how is he David's son?"
@@ -12308,7 +12289,7 @@ EOF;
 if (!($bfile = preg_replace("/LUK 23:17 (.+?)LUK 23:19 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bigfix = <<<EOF
 LUK 23:50 Š jakă njeki om, karje s kima Josip d Arimateja, trgu ăn Judeja, apljikat la Pilat š akătat s ji dja tjela alu Isusuluj.
-LUK 23:51 Jel afost članu d vječa Amarje alu Židovilor, ali nu sa slažăt ku je daja če la pukat š osudit p Isusu p muartje.
+LUK 23:51 Jel afost članu d vječa Amarje alu Židovilor, ali nu sa slažăt ku je daja če apukat š osudit p Isusu p muartje.
 LUK 23:52 Jel afost bun š pravedan om karje štipta cara alu Dimizov.
 LUK 23:53 
 EOF;

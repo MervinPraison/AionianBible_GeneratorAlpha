@@ -163,6 +163,8 @@ NumberOfPages: 208
 NumberOfPages: 774
 NumberOfPages: 208
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Rotherham-Bible.php
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---STEPBible-Amalgamant.php
+*** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---STEPBible-Concordant.php
 NumberOfPages: 790
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Trans-Trans.php
 NumberOfPages: 218
@@ -537,7 +539,7 @@ NumberOfPages: 216
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Vietnamese---Vietnamese-Bible-1934.php
 NumberOfPages: 238
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Vwanji---Vwanji-Bible.php
-*** AION: LOOP DONE! Function=AION_LOOP_HTMS_DOIT Files processed=214
+*** AION: LOOP DONE! Function=AION_LOOP_HTMS_DOIT Files processed=216
 *** AION: DONE! index.php auth() turned ON: ../www-stage/index.php
 *** AION: SPELL CHECK: Holy-Bible---Albanian-Tosk---Albanian-Bible, WORDS
 *** AION: SPELL CHECK: Holy-Bible---Amo---Amo-Bible, WORDS
@@ -604,6 +606,8 @@ NumberOfPages: 238
 *** AION: SPELL CHECK: Holy-Bible---English---Trans-Trans, en
 *** AION: SPELL CHECK: Holy-Bible---English---Twentieth-Century-NT, en
 *** AION: SPELL CHECK: Holy-Bible---English---Tyndale-Bible, en
+*** AION: SPELL CHECK: Holy-Bible---English---STEPBible-Amalgamant, en
+*** AION: SPELL CHECK: Holy-Bible---English---STEPBible-Concordant, en
 *** AION: SPELL CHECK: Holy-Bible---English---Unlocked-Literal-Bible, en
 *** AION: SPELL CHECK: Holy-Bible---English---Webster-Bible, en
 *** AION: SPELL CHECK: Holy-Bible---English---Webster-Bible-Revised, en

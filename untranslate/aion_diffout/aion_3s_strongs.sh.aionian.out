@@ -13,6 +13,7 @@
 *** AION: SUCCESS! GET	../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt lines=39295 array=39294
 *** AION: SUCCESS! GET	../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt lines=79838 array=79834
 *** AION: HEBREW ../www-stage/library/stepbible/Hebrew_Morphhology.json ROWS=844
+*** AION: CHECK HTML debug file written: ../www-stage/library/stepbible/CHECK_HTML_HEBREW_TBESH.htm
 *** AION: HEBREW ../www-stage/library/stepbible/Hebrew_Lexicon_Tyndale.txt ROWS=9346
 *** AION: WARN! FIX_REF	Hebrew	ref='Gen.30.11-03q'	word='בָּ֣א/ /גָ֑ד'	morph='HVqp3ms//Ncbsa'	strongs='H935=בּוֹא=to come (in)_§1_come|go_in/_/H1409=גָּד=fortune' Divided word found in 'Q' entry will be challenge to display!
 Array
@@ -413,6 +414,47 @@ Array
 *** AION: EXCELLENT! ALL REFERENCES ACCOUNTED
 
 *** AION: HEBREW ../www-stage/library/stepbible/Hebrew_Tagged_Text.txt ROWS=542652
+*** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json CHECKING: GEN001001
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H9003	W	HR	בְּ/רֵאשִׁ֖ית
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H7225	P	HNcfsa	בְּ/רֵאשִׁ֖ית
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H1254a	W	HVqp3ms	בָּרָ֣א
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H430	W	HNcmpa	אֱלֹהִ֑ים
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H853	W	HTo	אֵ֥ת
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H9009	W	HTd	הַ/שָּׁמַ֖יִם
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H8064	P	HNcmpa	הַ/שָּׁמַ֖יִם
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H9002	W	HC	וְ/אֵ֥ת
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H853	P	HTo	וְ/אֵ֥ת
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H9009	W	HTd	הָ/אָֽרֶץ/׃
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H776	P	HNcbsa	הָ/אָֽרֶץ/׃
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H9016	P		הָ/אָֽרֶץ/׃
+*** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json CHECKING: MAL004006
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9001	W	Hc	וְ/הֵשִׁ֤יב
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H7725	P	HVhq3ms	וְ/הֵשִׁ֤יב
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H3820a	W	HNcbsc	לֵב/־
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9014	P		לֵב/־
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H1	W	HNcfpa	אָבוֹת֙
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H5921a	W	HR	עַל/־
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9014	P		עַל/־
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H1121a	W	HNcmpa	בָּנִ֔ים
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9002	W	HC	וְ/לֵ֥ב
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H3820a	P	HNcbsc	וְ/לֵ֥ב
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H1121a	W	HNcmpa	בָּנִ֖ים
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H5921a	W	HR	עַל/־
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9014	P		עַל/־
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H1	W	HNcfpc	אֲבוֹתָ֑/ם
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9028	P	HSp3mp	אֲבוֹתָ֑/ם
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H6435	W	HTc	פֶּן/־
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9014	P		פֶּן/־
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H935	W	HVqi1cs	אָב֕וֹא
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9001	W	Hc	וְ/הִכֵּיתִ֥י
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H5221	P	HVhq1cs	וְ/הִכֵּיתִ֥י
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H853	W	HTo	אֶת/־
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9014	P		אֶת/־
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9009	W	HTd	הָ/אָ֖רֶץ
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H776	P	HNcbsa	הָ/אָ֖רֶץ
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H2764a	W	HNcbsa	חֵֽרֶם/׃
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9016	P		חֵֽרֶם/׃
+*** AION: HEBREW ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json
 *** AION: HEBREW ../www-stage/library/stepbible/Hebrew_Tagged_Text_Count.json
 *** AION: HEBREW ../www-stage/library/stepbible/Hebrew_Chapter_Usage.txt
 *** AION: HEBREW ../www-stage/library/stepbible/Hebrew_Lexicon_Tyndale_Index.json
@@ -462,6 +504,7 @@ Array
 
 
 
+*** AION: CHECK HTML debug file written: ../www-stage/library/stepbible/CHECK_HTML_GREEK_TBESG.htm
 *** AION: GREEK ../www-stage/library/stepbible/Greek_Lexicon_Tyndale.txt ROWS=10714
 *** AION: WARN! FIX_LEX	TFLSJ strongs='G998' DOMHTML ErrorArray
 (
@@ -1260,6 +1303,7 @@ Array
 
 
 
+*** AION: CHECK HTML debug file written: ../www-stage/library/stepbible/CHECK_HTML_GREEK_TFLSJ.htm
 *** AION: GREEK ../www-stage/library/stepbible/Greek_Lexicon_LSJ.txt ROWS=10714
 *** AION: WARN!	FIX_REF	ref='41_Mat.002.008'	word='κἀγὼ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
 Array
@@ -1351,6 +1395,25 @@ Array
     [MEANINGS] => 
     [ADDITIONAL] => not + lest
     [CONJOIN] => 
+)
+
+
+
+
+*** AION: WARN! FIX_REF	ref='41_Mat.009.001'	word='τὴν'	morph='T-ASF'	strongs='G3588' suspect tag in English word
+Array
+(
+    [REF] => 41_Mat.009.001
+    [TYPE] => =NA same TR ~~
+    [WORD] => τὴν
+    [ENGLISH] => <the.
+    [STRONGS] => G3588
+    [MORPH] => T-ASF
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => τὴν
+    [MEANINGS] => 
+    [ADDITIONAL] => the
+    [CONJOIN] => »022:G4172
 )
 
 
@@ -1599,6 +1662,25 @@ Array
     [ADDITIONAL] => Olivet§Olives_Mount@@2Sa.15.30
     [CONJOIN] => 
 )
+
+*** AION: WARN! FIX_REF	ref='41_Mat.021.009'	word='εὐλογημένος'	morph='V-RPP-NSM'	strongs='G2127' suspect tag in English word
+Array
+(
+    [REF] => 41_Mat.021.009
+    [TYPE] => =NA same TR ~~
+    [WORD] => εὐλογημένος
+    [ENGLISH] => Blessed [is[
+    [STRONGS] => G2127
+    [MORPH] => V-RPP-NSM
+    [EDITIONS] => NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV
+    [SPELLINGS] => εὐλογημένος
+    [MEANINGS] => 
+    [ADDITIONAL] => to bless
+    [CONJOIN] => 
+)
+
+
+
 
 *** AION: WARN!	FIX_REF	ref='41_Mat.021.021'	word='κἂν'	morph='CONJ +COND'	strongs='G2532+G1437'	space morph=CONJ+COND
 Array
@@ -6029,6 +6111,25 @@ Array
 
 
 
+*** AION: WARN! FIX_REF	ref='67_Rev.003.007'	word='εἴ'	morph='COND'	strongs='G1487' suspect tag in English word
+Array
+(
+    [REF] => 67_Rev.003.007
+    [TYPE] => Not in NA or TR {}
+    [WORD] => εἴ
+    [ENGLISH] => (except
+    [STRONGS] => G1487
+    [MORPH] => COND
+    [EDITIONS] => Byz
+    [SPELLINGS] => εἴ
+    [MEANINGS] => 
+    [ADDITIONAL] => if§1_if/whether
+    [CONJOIN] => 
+)
+
+
+
+
 *** AION: WARN!	FIX_REF	ref='67_Rev.003.010'	word='κἀγώ'	morph='CONJ +P-1NS'	strongs='G2532+G1473'	space morph=CONJ+P-1NS
 Array
 (
@@ -6184,6 +6285,65 @@ Array
 *** AION: EXCELLENT! ALL REFERENCES ACCOUNTED
 
 *** AION: GREEK ../www-stage/library/stepbible/Greek_Tagged_Text.txt ROWS=142281
+*** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json CHECKING: JOH001001
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G1722	W	PREP	ἐν	In [the]	NA=TR	Ἐν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		in	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G746	W	N-DSF	ἀρχῇ	beginning	NA=TR	ἀρχῇ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀρχῇ		beginning	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G1510	W	V-IAI-3S	ἦν	was	NA=TR	ἦν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἦν		to be	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G3588	W	T-NSM	ὁ	the	NA=TR	ὁ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὁ		the	»010:G3056
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G3056	W	N-NSM	λόγος	Word,	NA=TR	λόγος,	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	λόγος		word	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G2532	W	CONJ	καὶ	and	NA=TR	καὶ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		and	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G3588	W	T-NSM	ὁ	the	NA=TR	ὁ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὁ		the	»016:G3056
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G3056	W	N-NSM	λόγος	Word	NA=TR	λόγος	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	λόγος		word	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G1510	W	V-IAI-3S	ἦν	was	NA=TR	ἦν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἦν		to be	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G4314	W	PREP	πρὸς	with	NA=TR	πρὸς	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πρὸς		with	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G3588	W	T-ASM	τὸν	(the)	NA=TR	τὸν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὸν		the	»024:G2316
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G2316	W	N-ASM	θεόν	God,	NA=TR	θεόν,	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεόν		God	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G2532	W	CONJ	καὶ	and	NA=TR	καὶ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		and	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G2316	W	N-NSM	θεὸς	God	NA=TR	θεὸς	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεὸς		God	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G1510	W	V-IAI-3S	ἦν	was	NA=TR	ἦν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἦν		to be	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G3588	W	T-NSM	ὁ	the	NA=TR	ὁ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὁ		the	»034:G3056
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G3056	W	N-NSM	λόγος	Word.	NA=TR	λόγος.	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	λόγος		word	
+*** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json CHECKING: JOH003016
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G3779	W	ADV	οὕτως	Thus	NA=TR	οὕτως	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὕτως		thus	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G1063	W	CONJ	γὰρ	for	NA=TR	γὰρ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	γὰρ		for	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G25	W	V-AAI-3S	ἠγάπησεν	loved	NA=TR	ἠγάπησεν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠγάπησεν		to love	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G3588	W	T-NSM	ὁ	(the)	NA=TR	ὁ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὁ		the	»010:G2316
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G2316	W	N-NSM	θεὸς	God	NA=TR	θεὸς	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεὸς		God	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G3588	W	T-ASM	τὸν	the	NA=TR	τὸν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὸν		the	»014:G2889
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G2889	W	N-ASM	κόσμον	world,	NA=TR	κόσμον,	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	κόσμον		world	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G5620	W	CONJ	ὥστε	that	NA=TR	ὥστε	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὥστε		so	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G3588	W	T-ASM	τὸν	the	NA=TR	τὸν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὸν		the	»020:G5207
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G5207	W	N-ASM	υἱὸν	Son,	NA=TR	υἱὸν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	υἱὸν		son	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G846	W	P-GSM	αὐτοῦ	of him	TR	αὐτοῦ	Treg+TR+Byz	αὐτοῦ		of him	«020:G5207
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G3588	W	T-ASM	τὸν	the	NA=TR	τὸν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὸν		the	»024:G3439
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G3439	W	A-ASM	μονογενῆ	only begotten,	NA=TR	μονογενῆ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μονογενῆ		unique	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G1325	W	V-AAI-3S	ἔδωκεν	He gave,	NA=TR	ἔδωκεν,	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἔδωκεν		to give	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G2443	W	CONJ	ἵνα	so that	NA=TR	ἵνα	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἵνα		in order that	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G3956	W	A-NSM	πᾶς	everyone	NA=TR	πᾶς	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πᾶς		all	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G3588	W	T-NSM	ὁ	who	NA=TR	ὁ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὁ		[that] which	»034:G4100
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G4100	W	V-PAP-NSM	πιστεύων	is believing	NA=TR	πιστεύων	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πιστεύων		to trust (in)	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G1519	W	PREP	εἰς	in	NA=TR	εἰς	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰς		toward	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G846	W	P-ASM	αὐτὸν	Him	NA=TR	αὐτὸν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	αὐτὸν		him	«036:G1519
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G3361	W	PRT-N	μὴ	not	NA=TR	μὴ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		not	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G622	W	V-2AMS-3S	ἀπόληται	may perish,	NA=TR	ἀπόληται	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπόληται		to destroy	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G235	W	CONJ	ἀλλ᾽	but	NA=TR	ἀλλ᾽	NA27+NA28+Tyn+NIV;SBL+WH+Treg+TR+Byz	ἀλλ᾽; ἀλλὰ		but	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G2192	W	V-PAS-3S	ἔχῃ	may have	NA=TR	ἔχῃ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἔχῃ		to have	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G2222	W	N-ASF	ζωὴν	life	NA=TR	ζωὴν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ζωὴν		life	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G166	W	A-ASF	αἰώνιον	eternal.	NA=TR	αἰώνιον.	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	αἰώνιον		eternal	
+*** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json CHECKING: REV022021
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G3588	W	T-NSF	ἡ	The	NA=TR	Ἡ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἡ		the	»004:G5485
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G5485	W	N-NSF	χάρις	grace	NA=TR	χάρις	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	χάρις		grace	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G3588	W	T-GSM	τοῦ	of the	NA=TR	τοῦ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		the	»008:G2962
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G2962	W	N-GSM	κυρίου	Lord	NA=TR	κυρίου	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	κυρίου		lord (God)	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G1473	W	P-1GP	ημῶν	of us	TR	ημῶν	TR	ημῶν		to us	«008:G2962
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G2424	W	N-GSM-P	ἰησοῦ	Jesus	NA=TR	Ἰησοῦ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἰησοῦ		Jesus @ Mat 1:1	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G5547	W	N-GSM-T	χριστοῦ	Christ	TR	Χριστοῦ	WH+TR+Byz	χριστοῦ		Christ (Jesus) @ Mat 1:1	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G3326	W	PREP	μετὰ	[be] with	NA=TR	μετὰ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μετὰ		with	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G3956	W	A-GPM	πάντων	all	NA=TR	πάντων	NA27+NA28+SBL+TR+Byz+ESV	πάντων		all	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G3588	W	T-GPM	τῶν	(the)	TR+	τῶν	Tyn+WH+Treg+Byz+NIV	τῶν		the	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G40	W	A-GPM	ἁγίων	saints	TR+	ἁγίων.	Tyn+WH+Treg+Byz+NIV	ἁγίων	|VM VS TR = ὑμῶν = "of you." = G4771 = P-2GP	holy (saint/believer)	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G281	W	INJ-HEB	ἀμήν	Amen.	TR+	ἀμήν.	Tyn+TR+Byz+ESV+NIV	ἀμήν		amen	
+*** AION: GREEK ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json
 *** AION: WARN! COUNT_REF_CHECKER  count mismatch (Greek strong+strong with meaning strong refs doubled?) for G1065: 34 != 33
 *** AION: WARN! COUNT_REF_CHECKER  count mismatch (Greek strong+strong with meaning strong refs doubled?) for G1161: 3023 != 3022
 *** AION: WARN! COUNT_REF_CHECKER  count mismatch (Greek strong+strong with meaning strong refs doubled?) for G1176: 33 != 30
@@ -6210,9 +6370,74 @@ Array
 *** AION: CHECK CHECK_VARIANT.txt ROWS=4
 *** AION: CHECK CHECK_FIXED.txt ROWS=115
 *** AION: CHECK CHECK_REFERENCES.txt ROWS=3
-*** AION: CHECK CHECK_WARNINGS.txt ROWS=1015
-*** AION: HEBREW ../www-stage/library/stepbible/Hebrew_Chapter_Usage
-*** AION: GREEK ../www-stage/library/stepbible/Greek_Chapter_Usage
+*** AION: CHECK CHECK_WARNINGS.txt ROWS=1069
+*** AION: BUILDING Concordant STEPBible! Gen
+*** AION: BUILDING Concordant STEPBible! Exo
+*** AION: BUILDING Concordant STEPBible! Lev
+*** AION: BUILDING Concordant STEPBible! Num
+*** AION: BUILDING Concordant STEPBible! Deu
+*** AION: BUILDING Concordant STEPBible! Jos
+*** AION: BUILDING Concordant STEPBible! Jdg
+*** AION: BUILDING Concordant STEPBible! Rut
+*** AION: BUILDING Concordant STEPBible! 1Sa
+*** AION: BUILDING Concordant STEPBible! 2Sa
+*** AION: BUILDING Concordant STEPBible! 1Ki
+*** AION: BUILDING Concordant STEPBible! 2Ki
+*** AION: BUILDING Concordant STEPBible! 1Ch
+*** AION: BUILDING Concordant STEPBible! 2Ch
+*** AION: BUILDING Concordant STEPBible! Ezr
+*** AION: BUILDING Concordant STEPBible! Neh
+*** AION: BUILDING Concordant STEPBible! Est
+*** AION: BUILDING Concordant STEPBible! Job
+*** AION: BUILDING Concordant STEPBible! Psa
+*** AION: BUILDING Concordant STEPBible! Pro
+*** AION: BUILDING Concordant STEPBible! Ecc
+*** AION: BUILDING Concordant STEPBible! Sol
+*** AION: BUILDING Concordant STEPBible! Isa
+*** AION: BUILDING Concordant STEPBible! Jer
+*** AION: BUILDING Concordant STEPBible! Lam
+*** AION: BUILDING Concordant STEPBible! Eze
+*** AION: BUILDING Concordant STEPBible! Dan
+*** AION: BUILDING Concordant STEPBible! Hos
+*** AION: BUILDING Concordant STEPBible! Joe
+*** AION: BUILDING Concordant STEPBible! Amo
+*** AION: BUILDING Concordant STEPBible! Oba
+*** AION: BUILDING Concordant STEPBible! Jon
+*** AION: BUILDING Concordant STEPBible! Mic
+*** AION: BUILDING Concordant STEPBible! Nah
+*** AION: BUILDING Concordant STEPBible! Hab
+*** AION: BUILDING Concordant STEPBible! Zep
+*** AION: BUILDING Concordant STEPBible! Hag
+*** AION: BUILDING Concordant STEPBible! Zec
+*** AION: BUILDING Concordant STEPBible! Mal
+*** AION: BUILDING Concordant STEPBible! Mat
+*** AION: BUILDING Concordant STEPBible! Mar
+*** AION: BUILDING Concordant STEPBible! Luk
+*** AION: BUILDING Concordant STEPBible! Joh
+*** AION: BUILDING Concordant STEPBible! Act
+*** AION: BUILDING Concordant STEPBible! Rom
+*** AION: BUILDING Concordant STEPBible! 1Co
+*** AION: BUILDING Concordant STEPBible! 2Co
+*** AION: BUILDING Concordant STEPBible! Gal
+*** AION: BUILDING Concordant STEPBible! Eph
+*** AION: BUILDING Concordant STEPBible! Phi
+*** AION: BUILDING Concordant STEPBible! Col
+*** AION: BUILDING Concordant STEPBible! 1Th
+*** AION: BUILDING Concordant STEPBible! 2Th
+*** AION: BUILDING Concordant STEPBible! 1Ti
+*** AION: BUILDING Concordant STEPBible! 2Ti
+*** AION: BUILDING Concordant STEPBible! Tit
+*** AION: BUILDING Concordant STEPBible! Phm
+*** AION: BUILDING Concordant STEPBible! Heb
+*** AION: BUILDING Concordant STEPBible! Jam
+*** AION: BUILDING Concordant STEPBible! 1Pe
+*** AION: BUILDING Concordant STEPBible! 2Pe
+*** AION: BUILDING Concordant STEPBible! 1Jo
+*** AION: BUILDING Concordant STEPBible! 2Jo
+*** AION: BUILDING Concordant STEPBible! 3Jo
+*** AION: BUILDING Concordant STEPBible! Jud
+*** AION: BUILDING Concordant STEPBible! Rev
+*** AION: DONE STEPBIBLE	./aion_source/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt
 *** AION: END!
 
 

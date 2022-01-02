@@ -124,11 +124,12 @@ EOF;
 	// SOURCE VERSION
 	$base = $args['source'].'/'.$bible;
 	$sour = (
+		(is_file($base.'---Source-Edition.STEP.txt')	? '---Source-Edition.STEP.txt' :
 		(is_file($base.'---Source-Edition.NHEB.txt')	? '---Source-Edition.NHEB.txt' :
 		(is_file($base.'---Source-Edition.VPL.txt')		? '---Source-Edition.VPL.txt' :
 		(is_file($base.'---Source-Edition.UNBOUND.txt')	? '---Source-Edition.UNBOUND.txt' :
 		(is_file($base.'---Source-Edition.B4U.txt')		? '---Source-Edition.B4U.txt' :
-		(is_file($base.'---Source-Edition.SWORD.txt')	? '---Source-Edition.SWORD.txt' : NULL))))));
+		(is_file($base.'---Source-Edition.SWORD.txt')	? '---Source-Edition.SWORD.txt' : NULL)))))));
 	if (empty($sour) || !AION_filesize($base.$sour)) { AION_ECHO("ERROR! AION_FILE_DATABASE_PUT no source extension found! $bible"); }
 	$G_VERSIONS['SOURCEVERSION'] = (filemtime($base.$sour)===FALSE ? '' : ("Source version: ".date("n/j/Y", filemtime($base.$sour))."<br />"));
 

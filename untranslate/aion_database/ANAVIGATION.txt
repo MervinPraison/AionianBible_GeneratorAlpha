@@ -1,9 +1,9 @@
 # File Name: ANAVIGATION.txt
-# File Size: 11429       
-# File Date: 12/27/2021 19:35:42
+# File Size: 11521       
+# File Date: 01/01/2022 00:01:15
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: http://resources.AionianBible.org
-# File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2021
+# File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022
 # File Generator: ABCMS (alpha)
 # File Accuracy: Contact publisher with corrections to file format or content
 # Publisher Name: Nainoia Inc
@@ -81,6 +81,8 @@ Holy-Bible---English---Open-English-Bible-Commonwealth
 Holy-Bible---English---Open-English-Bible-US		
 Holy-Bible---English---Revised-Version		
 Holy-Bible---English---Rotherham-Bible		
+Holy-Bible---English---STEPBible-Amalgamant		
+Holy-Bible---English---STEPBible-Concordant		
 Holy-Bible---English---Trans-Trans		
 Holy-Bible---English---Twentieth-Century-NT		
 Holy-Bible---English---Tyndale-Bible		

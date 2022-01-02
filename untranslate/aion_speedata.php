@@ -86,11 +86,12 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 	// SOURCE VERSION
 	$base = $args['source'].'/'.$bible;
 	$sour = (
+		(is_file($base.'---Source-Edition.STEP.txt')	? '---Source-Edition.STEP.txt' :
 		(is_file($base.'---Source-Edition.NHEB.txt')	? '---Source-Edition.NHEB.txt' :
 		(is_file($base.'---Source-Edition.VPL.txt')		? '---Source-Edition.VPL.txt' :
 		(is_file($base.'---Source-Edition.UNBOUND.txt')	? '---Source-Edition.UNBOUND.txt' :
 		(is_file($base.'---Source-Edition.B4U.txt')		? '---Source-Edition.B4U.txt' :
-		(is_file($base.'---Source-Edition.SWORD.txt')	? '---Source-Edition.SWORD.txt' : NULL))))));
+		(is_file($base.'---Source-Edition.SWORD.txt')	? '---Source-Edition.SWORD.txt' : NULL)))))));
 	if (empty($sour) || !AION_filesize($base.$sour)) { AION_ECHO("ERROR! AION_FILE_DATABASE_PUT no source extension found! $bible"); }
 	$forprint['SOURCEVERSION'] = (filemtime($base.$sour)===FALSE ? '' : ("<Value>Source version: ".date("n/j/Y", filemtime($base.$sour))."</Value><Br />"));
 
@@ -969,7 +970,8 @@ $versionSS_CP .= "<Value>Source copyright: ".$versions['COPYRIGHT']."</Value><Br
 $versionSS_CP .= "<Value>".$versions['SOURCE'].(empty($versions['YEAR']) ? "" : ", ".$versions['YEAR'])."</Value><Br />";
 $versionSS_CP .= (empty($versions['DESCRIPTION']) ? "" : "<Value>".$versions['DESCRIPTION']."</Value><Br />");
 $versionSS_CP .= (empty($isbn) || $isbn=="UNKNOWN" ? "" : "<Value>ISBN: ".$isbn."</Value><Br />");
-$rundate = date("n/j/Y");
+static $rundate = NULL;
+if ($rundate===NULL) { $rundate = date("n/j/Y"); }
 // extension
 $extension_text = '';
 $copyright_row = '50';
@@ -1919,7 +1921,8 @@ $versionSS_CP .= "<Value>Source copyright: ".$versions['COPYRIGHT']."</Value><Br
 $versionSS_CP .= "<Value>".$versions['SOURCE'].(empty($versions['YEAR']) ? "" : ", ".$versions['YEAR'])."</Value><Br />";
 $versionSS_CP .= (empty($versions['DESCRIPTION']) ? "" : "<Value>".$versions['DESCRIPTION']."</Value><Br />");
 $versionSS_CP .= (empty($isbn) || $isbn=="UNKNOWN" ? "" : "<Value>ISBN: ".$isbn."</Value><Br />");
-$rundate = date("n/j/Y");
+static $rundate = NULL;
+if ($rundate===NULL) { $rundate = date("n/j/Y"); }
 // extension
 $extension_text = '';
 $copyright_row = '50';

@@ -1,13 +1,9 @@
 *** AION: INCLUDE aion_common
 *** AION: START aion_2_update.sh
-*** AION: GOOD! UNPACK_STAMP:  source=http://www.nheb.net/files/NHEB.txt  file=../www-stageresources//Holy-Bible---English---Aionian-Bible---Source-Edition.NHEB.txt
-*** AION: GOOD! UNPACK_STAMP:  source=http://www.nheb.net/files/NHEB-NT-AN.txt  file=../www-stageresources//Holy-Bible---English---New-Heart-Aramaic---Source-Edition.NHEB.txt
-*** AION: GOOD! UNPACK_STAMP:  source=http://www.nheb.net/files/NHEB-JE.txt  file=../www-stageresources//Holy-Bible---English---New-Heart-Jehovah---Source-Edition.NHEB.txt
-*** AION: GOOD! UNPACK_STAMP:  source=http://www.nheb.net/files/NHEB-JM.txt  file=../www-stageresources//Holy-Bible---English---New-Heart-Jesus-Messiah---Source-Edition.NHEB.txt
-*** AION: GOOD! UNPACK_STAMP:  source=http://www.nheb.net/files/NHEB-ME.txt  file=../www-stageresources//Holy-Bible---English---New-Heart-Messianic---Source-Edition.NHEB.txt
-*** AION: GOOD! UNPACK_STAMP:  source=http://www.nheb.net/files/NHEB.txt  file=../www-stageresources//Holy-Bible---English---New-Heart-Standard---Source-Edition.NHEB.txt
-*** AION: GOOD! UNPACK_STAMP:  source=http://www.nheb.net/files/NHEB-YHWH.txt  file=../www-stageresources//Holy-Bible---English---New-Heart-YHWH---Source-Edition.NHEB.txt
-*** AION: LOOP DONE! Function=AION_LOOP_UNPACK_DOIT Files processed=150
+*** AION: GOOD! UNPACK_STAMP:  source=./aion_source/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt  file=../www-stageresources//Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt
+*** AION: GOOD! UNPACK_STAMP:  source=./aion_source/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt  file=../www-stageresources//Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt
+*** AION: LOOP DONE! Function=AION_LOOP_UNPACK_DOIT Files processed=152
+*** AION: DIFF ZIP: ../source-stage/AB-STEPBibleData.zip VS ../www-stageresources/AB-STEPBibleData.zip
 *** AION: DIFF ZIP: ../source-stage/FILE_FuturePress_ePub.js.zip VS ../www-stageresources/FILE_FuturePress_ePub.js.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Albanian-Tosk---Albanian-Bible---Source-Edition.SWORD.zip VS ../www-stageresources/Holy-Bible---Albanian-Tosk---Albanian-Bible---Source-Edition.SWORD.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Albanian-Tosk---Albanian-Bible---Source-Edition.VPL.zip VS ../www-stageresources/Holy-Bible---Albanian-Tosk---Albanian-Bible---Source-Edition.VPL.zip
@@ -131,7 +127,7 @@ tar: BULG.txt: implausibly old time stamp 1969-12-31 19:00:00
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Dutch---Statenvertaling---Source-Edition.UNBOUND.zip VS ../www-stageresources/Holy-Bible---Dutch---Statenvertaling---Source-Edition.UNBOUND.zip
 *** AION: DIFF REG: ../source-stage/Holy-Bible---English---A-Conservative-Version---Source-Edition.SWORD.txt VS ../www-stageresources/Holy-Bible---English---A-Conservative-Version---Source-Edition.SWORD.txt
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---A-Conservative-Version---Source-Edition.SWORD.zip VS ../www-stageresources/Holy-Bible---English---A-Conservative-Version---Source-Edition.SWORD.zip
-*** AION: DIFF REG: ../source-stage/Holy-Bible---English---Aionian-Bible---Source-Edition.NHEB.txt VS ../www-stageresources/Holy-Bible---English---Aionian-Bible---Source-Edition.NHEB.txt
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Aionian-Bible---Source-Edition.VPL.zip VS ../www-stageresources/Holy-Bible---English---Aionian-Bible---Source-Edition.VPL.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---American-Standard-Version-1901---Source-Edition.SWORD.zip VS ../www-stageresources/Holy-Bible---English---American-Standard-Version-1901---Source-Edition.SWORD.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---American-Standard-Version-1901---Source-Edition.VPL.zip VS ../www-stageresources/Holy-Bible---English---American-Standard-Version-1901---Source-Edition.VPL.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---American-Standard-Version-1901---Source-Edition.epub VS ../www-stageresources/Holy-Bible---English---American-Standard-Version-1901---Source-Edition.epub
@@ -216,6 +212,8 @@ tar: BULG.txt: implausibly old time stamp 1969-12-31 19:00:00
 *** AION: DIFF REG: ../source-stage/Holy-Bible---English---Revised-Version---Source-Edition.pdf VS ../www-stageresources/Holy-Bible---English---Revised-Version---Source-Edition.pdf
 *** AION: DIFF REG: ../source-stage/Holy-Bible---English---Rotherham-Bible---Source-Edition.SWORD.txt VS ../www-stageresources/Holy-Bible---English---Rotherham-Bible---Source-Edition.SWORD.txt
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Rotherham-Bible---Source-Edition.SWORD.zip VS ../www-stageresources/Holy-Bible---English---Rotherham-Bible---Source-Edition.SWORD.zip
+*** AION: DIFF REG: ../source-stage/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt VS ../www-stageresources/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt
+*** AION: DIFF REG: ../source-stage/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt VS ../www-stageresources/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Trans-Trans---Source-Edition.SWORD.zip VS ../www-stageresources/Holy-Bible---English---Trans-Trans---Source-Edition.SWORD.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Trans-Trans---Source-Edition.VPL.zip VS ../www-stageresources/Holy-Bible---English---Trans-Trans---Source-Edition.VPL.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---English---Trans-Trans---Source-Edition.epub VS ../www-stageresources/Holy-Bible---English---Trans-Trans---Source-Edition.epub
@@ -657,6 +655,7 @@ tar: MAORI.txt: implausibly old time stamp 1969-12-31 19:00:00
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Latin---Source-Edition.VPL.zip VS ../www-stageresources/Holy-Bible---Uyghur---Uyghur-Bible-Latin---Source-Edition.VPL.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Latin---Source-Edition.epub VS ../www-stageresources/Holy-Bible---Uyghur---Uyghur-Bible-Latin---Source-Edition.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Latin---Source-Edition.pdf VS ../www-stageresources/Holy-Bible---Uyghur---Uyghur-Bible-Latin---Source-Edition.pdf
+*** AION: DIFF ZIP: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Pinyin---Source-Edition.SWORD.zip VS ../www-stageresources/Holy-Bible---Uyghur---Uyghur-Bible-Pinyin---Source-Edition.SWORD.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Pinyin---Source-Edition.VPL.zip VS ../www-stageresources/Holy-Bible---Uyghur---Uyghur-Bible-Pinyin---Source-Edition.VPL.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Pinyin---Source-Edition.epub VS ../www-stageresources/Holy-Bible---Uyghur---Uyghur-Bible-Pinyin---Source-Edition.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Uyghur---Uyghur-Bible-Pinyin---Source-Edition.pdf VS ../www-stageresources/Holy-Bible---Uyghur---Uyghur-Bible-Pinyin---Source-Edition.pdf
@@ -670,5 +669,5 @@ tar: MAORI.txt: implausibly old time stamp 1969-12-31 19:00:00
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Vwanji---Vwanji-Bible---Source-Edition.VPL.zip VS ../www-stageresources/Holy-Bible---Vwanji---Vwanji-Bible---Source-Edition.VPL.zip
 *** AION: DIFF ZIP: ../source-stage/Holy-Bible---Vwanji---Vwanji-Bible---Source-Edition.epub VS ../www-stageresources/Holy-Bible---Vwanji---Vwanji-Bible---Source-Edition.epub
 *** AION: DIFF REG: ../source-stage/Holy-Bible---Vwanji---Vwanji-Bible---Source-Edition.pdf VS ../www-stageresources/Holy-Bible---Vwanji---Vwanji-Bible---Source-Edition.pdf
-*** AION: LOOP DONE! Function=AION_LOOP_DIFF_DOIT Files processed=654
+*** AION: LOOP DONE! Function=AION_LOOP_DIFF_DOIT Files processed=658
 *** AION: DONE! Command=cp -a ../source-stage/. ../www-stageresources/ Result=

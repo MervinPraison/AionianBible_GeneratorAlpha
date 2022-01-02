@@ -143,9 +143,9 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 #word .word-para-one.allverses { margin-bottom: 15px; }
 #word.aionian .word-para-two { margin-left: 0; }
 #word .word-para-two { margin-left: 12px; }
-#word .word-para-two .word-text { background-color: #E0D6EB; font-style: italic; }
-#word .word-para-two .word-text .word-aionian { background-color: #E0D6EB; }
-#word .word-para-two .word-text .word-questioned { background-color: #E0D6EB; }
+#word .word-para-two .word-text { background-color: #F0EBF5; font-style: italic; }
+#word .word-para-two .word-text .word-aionian { background-color: #F0EBF5; }
+#word .word-para-two .word-text .word-questioned { background-color: #F0EBF5; }
 #word .word-verse { font-weight: bold; }
 #word .word-verse-lang { font-weight: bold; }
 #word .word-text { }

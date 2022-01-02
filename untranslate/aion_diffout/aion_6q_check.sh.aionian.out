@@ -65,6 +65,8 @@
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---English---Open-English-Bible-US---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---English---Revised-Version---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---English---Rotherham-Bible---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---English---STEPBible-Amalgamant---Standard-Edition.noia
+*** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---English---STEPBible-Concordant---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---English---Trans-Trans---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---English---Twentieth-Century-NT---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---English---Tyndale-Bible---Standard-Edition.noia
@@ -215,7 +217,7 @@
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-Bible---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-Bible-1934---Standard-Edition.noia
 *** AION: UNTRANSLATE MODULE: ../www-stageresources/Holy-Bible---Vwanji---Vwanji-Bible---Standard-Edition.noia
-*** AION: LOOP DONE! Function=AION_LOOP_CHECK_UNTRANSLATE_MODULE_DOIT Files processed=214
+*** AION: LOOP DONE! Function=AION_LOOP_CHECK_UNTRANSLATE_MODULE_DOIT Files processed=216
 *** AION: REMINDER! COPY TO DATABASE: ../checks/UNTRANSLATEMODULE.txt
 *** AION: REMINDER! COPY TO DATABASE: ../checks/UNTRANSLATEMODULE.txt.sort
 *** AION: DONE!

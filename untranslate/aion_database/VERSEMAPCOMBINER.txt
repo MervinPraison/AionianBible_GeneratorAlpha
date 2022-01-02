@@ -254,7 +254,6 @@ Holy-Bible---Dutch---Statenvertaling	064	3JO	001	014	14	1	end
 Holy-Bible---Dutch---Statenvertaling	066	REV	012	018	1	-1	end
 Holy-Bible---Dutch---Statenvertaling							end
 Holy-Bible---English---A-Conservative-Version							end
-Holy-Bible---English---Aionian-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---English---Aionian-Bible							end
 Holy-Bible---English---American-Standard-Version-1901							end
 Holy-Bible---English---Bible-in-Basic-English							end
@@ -478,6 +477,8 @@ Holy-Bible---English---Trans-Trans	064	3JO	001	014	14	1	end
 Holy-Bible---English---Trans-Trans	066	REV	012	018	1	-1	end
 Holy-Bible---English---Twentieth-Century-NT							end
 Holy-Bible---English---Tyndale-Bible							end
+Holy-Bible---English---STEPBible-Amalgamant							end
+Holy-Bible---English---STEPBible-Concordant							end
 Holy-Bible---English---Unlocked-Literal-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---English---Unlocked-Literal-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---English---Webster-Bible							end

@@ -100,7 +100,7 @@ Holy-Bible---Dutch---Statenvertaling	HOS11-12
 Holy-Bible---Dutch---Statenvertaling	HOS13-14
 Holy-Bible---Dutch---Statenvertaling	MIC4-5
 Holy-Bible---English---A-Conservative-Version	NONE
-Holy-Bible---English---Aionian-Bible	NONE
+Holy-Bible---English---Aionian-Bible	ROM14-16
 Holy-Bible---English---American-Standard-Version-1901	NONE
 Holy-Bible---English---Bible-in-Basic-English	NONE
 Holy-Bible---English---Brenton-English-Septuagint	GEN37
@@ -189,6 +189,8 @@ Holy-Bible---English---Open-English-Bible-Commonwealth	NONE
 Holy-Bible---English---Open-English-Bible-US	NONE
 Holy-Bible---English---Revised-Version	NONE
 Holy-Bible---English---Rotherham-Bible	NONE
+Holy-Bible---English---STEPBible-Amalgamant	NONE
+Holy-Bible---English---STEPBible-Concordant	NONE
 Holy-Bible---English---Trans-Trans	NONE
 Holy-Bible---English---Twentieth-Century-NT	NONE
 Holy-Bible---English---Tyndale-Bible	NONE

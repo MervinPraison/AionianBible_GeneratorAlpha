@@ -4,6 +4,9 @@
 // FLAGS
 $DOTHECOUNTCHECKER = TRUE;
 //$DOTHECOUNTCHECKER = FALSE;
+//$SAVETHECOUNTCHECKER = TRUE;
+$SAVETHECOUNTCHECKER = FALSE;
+
 //$DOTHEUSAGEFOLDERS = TRUE;
 $DOTHEUSAGEFOLDERS = FALSE;
 
@@ -37,6 +40,9 @@ $INPUT_TOTH4 = $FOLDER_SOURCE."TOTHT Isa-Mal - Translators OT Hebrew Tagged text
 // checks
 $CHECK_BOOK = "CHECK_BOOKS.txt";
 $CHECK_FIXS = "CHECK_FIXED.txt";
+$CHECK_HTMG = "CHECK_HTML_GREEK_TBESG.htm";
+$CHECK_HTML = "CHECK_HTML_GREEK_TFLSJ.htm";
+$CHECK_HTMH = "CHECK_HTML_HEBREW_TBESH.htm";
 $CHECK_LEXG = "CHECK_LEXICON_GREEK.txt";
 $CHECK_LEXH = "CHECK_LEXICON_HEBREW.txt";
 $CHECK_MISS = "CHECK_MISSING.txt";
@@ -79,6 +85,9 @@ $GREEK_TAGED_NUMS = "Greek_Tagged_Text_Count.json";
 $GREEK_USAGE_DATA = "Greek_Chapter_Usage.txt";
 $GREEK_USAGE_INDX = "Greek_Chapter_Usage_Index.json";
 $GREEK_CHAPS_DATA = "Greek_Chapter_Usage";
+// bible
+$STEPBIBLE_AMA = "./aion_source/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt";
+$STEPBIBLE_CON = "./aion_source/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt";
 
 
 
@@ -287,7 +296,7 @@ AION_NEWSTRONGS_GET( "$INPUT_TOTH4",'Isa.1.1-01	Isa.1.1-01	חֲזוֹן',		'Exte
 // TYNDALE HEBREW WRITE
 if ( file_put_contents($json="$FOLDER_STAGE$HEBREW_MORPH_DATA",json_encode($database['HEBMOR'], $strongs_json_flag)) === FALSE ) { AION_ECHO("ERROR! json_encode: ".$json ); }
 AION_ECHO("HEBREW $FOLDER_STAGE$HEBREW_MORPH_DATA ROWS=".count($database['HEBMOR']));
-AION_NEWSTRONGS_GET_FIX_LEX('TBESH', $database['HEBLEX'], $database, $database['HEBMOR']);
+AION_NEWSTRONGS_GET_FIX_LEX('TBESH', $database['HEBLEX'], $database, $database['HEBMOR'], "$FOLDER_STAGE$CHECK_HTMH");
 AION_NEWSTRONGS_GET_FIX_INDEX($database['HEBLEX']);
 $commentplus = <<<EOT
 # Source: Tyndale House, Cambridge, www.TyndaleHouse.com
@@ -387,7 +396,8 @@ if ($DOTHECOUNTCHECKER) {
 		"$INPUT_TOTH2", 'Jos.1.1-01	Jos.1.1-01	וַיְהִי',	NULL,
 		"$INPUT_TOTH3", 'Job.1.1-01	Job.1.1-01	אִישׁ',	NULL,
 		"$INPUT_TOTH4", 'Isa.1.1-01	Isa.1.1-01	חֲזוֹן',	'Extended Strongs numbers for Prefixes and suffixes:',
-		"$FOLDER_STAGE$HEBREW_TAGED_FILE");
+		"$FOLDER_STAGE$HEBREW_TAGED_FILE",
+		$SAVETHECOUNTCHECKER);
 }
 AION_ECHO("HEBREW $FOLDER_STAGE$HEBREW_TAGED_NUMS");
 AION_NEWSTRONGS_USAGE_REF('old', $database['TOTHT'], "$FOLDER_STAGE$HEBREW_USAGE_DATA", "$FOLDER_STAGE$HEBREW_USAGE_INDX");
@@ -419,7 +429,7 @@ AION_NEWSTRONGS_GET( "$INPUT_TAGN2",'45_Act.001.001	=NA same TR ~~	Τὸν	', "\
 // TYNDALE GREEK WRITE
 if ( file_put_contents($json="$FOLDER_STAGE$GREEK_MORPH_DATA",json_encode($database['GREMOR'], $strongs_json_flag)) === FALSE ) { AION_ECHO("ERROR! json_encode: ".$json ); }
 AION_ECHO("GREEK $FOLDER_STAGE$GREEK_MORPH_DATA ROWS=".count($database['GREMOR']));
-AION_NEWSTRONGS_GET_FIX_LEX('TBESG', $database['GRELEX'], $database, $database['GREMOR']);
+AION_NEWSTRONGS_GET_FIX_LEX('TBESG', $database['GRELEX'], $database, $database['GREMOR'],"$FOLDER_STAGE$CHECK_HTMG");
 AION_NEWSTRONGS_GET_FIX_INDEX($database['GRELEX']);
 $commentplus = <<<EOT
 # Source: Tyndale House, Cambridge, www.TyndaleHouse.com
@@ -467,7 +477,7 @@ $commentplus = <<<EOT
 EOT;
 AION_FILE_DATA_PUT("$FOLDER_STAGE$GREEK_TBESG_DATA", $database['GRELEX'], $commentplus);
 AION_ECHO("GREEK $FOLDER_STAGE$GREEK_TBESG_DATA ROWS=".count($database['GRELEX']));
-AION_NEWSTRONGS_GET_FIX_LEX('TFLSJ', $database['GRELSJ'], $database, $database['GREMOR']);
+AION_NEWSTRONGS_GET_FIX_LEX('TFLSJ', $database['GRELSJ'], $database, $database['GREMOR'],"$FOLDER_STAGE$CHECK_HTML");
 AION_unset($database['VIZLEX']);
 AION_NEWSTRONGS_GET_FIX_INDEX($database['GRELSJ']);
 $commentplus = <<<EOT
@@ -607,7 +617,8 @@ if ($DOTHECOUNTCHECKER) {
 		"$INPUT_TAGN2", '45_Act.001.001	=NA same TR ~~	Τὸν	',		"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\t",
 		NULL,NULL,NULL,
 		NULL,NULL,NULL,
-		"$FOLDER_STAGE$GREEK_TAGED_FILE");
+		"$FOLDER_STAGE$GREEK_TAGED_FILE",
+		$SAVETHECOUNTCHECKER);
 }
 AION_ECHO("GREEK $FOLDER_STAGE$GREEK_TAGED_NUMS");
 AION_NEWSTRONGS_USAGE_REF('new', $database['GRERE2'], "$FOLDER_STAGE$GREEK_USAGE_DATA", "$FOLDER_STAGE$GREEK_USAGE_INDX");
@@ -666,6 +677,20 @@ unset($database);
 gc_collect_cycles();
 
 
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+// MAKE STEBBIBLE
+AION_NEWSTRONGS_STEPBIBLE(
+	"$FOLDER_STAGE$HEBREW_TAGED_DATA",
+	"$FOLDER_STAGE$HEBREW_TBESH_INDX",
+	"$FOLDER_STAGE$HEBREW_TBESH_DATA",
+	"$FOLDER_STAGE$GREEK_TAGED_DATA",
+	"$FOLDER_STAGE$GREEK_TBESG_INDX",
+	"$FOLDER_STAGE$GREEK_TBESG_DATA",
+	"$STEPBIBLE_AMA",
+	"$STEPBIBLE_CON"
+	);
 
 
 
@@ -834,11 +859,36 @@ function AION_NEWSTRONGS_GET_FIX2($file, &$lines, &$result) {
 
 
 // Clean up the Lexicon before writing
-function AION_NEWSTRONGS_GET_FIX_LEX($file, &$lines, &$database, $morph_array) {
+function AION_NEWSTRONGS_GET_FIX_LEX($file, &$lines, &$database, $morph_array, $html_file) {
 	$previous = libxml_use_internal_errors(true);
 	$dom = New DOMDocument();
 	libxml_clear_errors();
 	$newmess = "FIX_LEX\t$file";
+	// start the HTML error file
+	$html_html = <<<EOT
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>Aionian Bible Project: $file HTML Errors</title>
+<meta name='description' content="Aionian Bible Project: $file HTML Errors">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"/>
+<meta name='apple-mobile-web-app-capable' content='yes'>
+<meta name="generator" content="ABCMS™">
+<meta http-equiv='x-ua-compatible' content='ie=edge'>
+<style>
+	body { padding: 50px;}
+	div.head { margin: 20px; }
+	div.body { margin: 50px; }
+</style>
+</head>
+<body>
+<div class='head'>
+<h1>Aionian Bible Project: $file HTML Errors</h1>
+</div>
+
+EOT;
+	// process the lines
 	foreach( $lines as $x => $line ) {
 		$strongs = $line['STRONGS'];
 		if (!($strongsclean=preg_replace("#^([HG]{1}[0-9]{1,5})([a-z]{0,1})$#ui","$1",$strongs))) { AION_ECHO("ERROR! $newmess bad strongs format\n".print_r($line,TRUE)); }
@@ -882,14 +932,20 @@ function AION_NEWSTRONGS_GET_FIX_LEX($file, &$lines, &$database, $morph_array) {
 		else {
 			$dom->loadHTML("<html><body>".$lines[$x]['DEF']."</body></html>");
 			if (!empty(libxml_get_errors())) {
+				$html_html .= "<div class='body'>".preg_replace("#([[:punct:]]+) #u","$1\n",$lines[$x]['DEF'])."</div>\n";
 				AION_ECHO($warn="WARN! $newmess strongs='$strongs' DOMHTML Error".print_r($line,TRUE)."\n".print_r(libxml_get_errors(),TRUE)."\n\n\n");
 				$database['WARNINGS'] .= $warn;
 				libxml_clear_errors();
 			}
 		}
 	}
+	// end
 	libxml_clear_errors();
 	libxml_use_internal_errors($previous);
+	// write the html file
+	$html_html .= "</body>\n</html>\n";
+	if (file_put_contents($html_file, $html_html) === FALSE ) { AION_ECHO("ERROR! file_put: ".$html_file ); }
+	AION_ECHO("CHECK HTML debug file written: $html_file");
 }
 
 
@@ -1349,6 +1405,20 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 		$WORDUP = trim($line['WORD']);
 		$newmess = "FIX_REF\tref='".$line['REF']."'\tword='$WORDUP'\tmorph='".$line['MORPH']."'\tstrongs='".$line['STRONGS']."'";
 
+		// Check and fix!
+		$line['ENGLISH'] = trim($line['ENGLISH']);
+		if (preg_match("#^[^<]*<[^>]*$#u", $line['ENGLISH']) ||
+			preg_match("#^[^(]*\([^)]*$#u", $line['ENGLISH']) ||
+			preg_match("#^[^[]*\[[^\]]*$#u", $line['ENGLISH'])
+			) {
+			AION_ECHO($warn="WARN! $newmess suspect tag in English word\n".print_r($line,TRUE)."\n\n\n");
+			$database['WARNINGS'] .= $warn;
+			if ($line['ENGLISH']=='<the.') { $line['ENGLISH']='<the>'; }
+			else if ($line['ENGLISH']=='Blessed [is[') { $line['ENGLISH']='Blessed [is]'; }
+		}
+		if (!($line['ENGLISH'] = preg_replace("/</us",'(',$line['ENGLISH']))) { AION_ECHO("ERROR! REF_GREEK() preg_replace(".$line['ENGLISH']); }
+		if (!($line['ENGLISH'] = preg_replace("/>/us",')',$line['ENGLISH']))) { AION_ECHO("ERROR! REF_GREEK() preg_replace(".$line['ENGLISH']); }
+
 		// SPACE MORPH
 		$line['MORPH'] = preg_replace("/ /u", '',$morph_before=$line['MORPH']);
 		if ($line['MORPH']!=$morph_before) {
@@ -1565,7 +1635,7 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 			//
 			$database[$table] .=
 				("$indx\t$book\t$chap\t$vers\t$strongs\t$jointype\t$morph\t$WORDYEP\t".
-				trim($line['ENGLISH'])."\t".
+				$line['ENGLISH']."\t".
 				$entry."\t".
 				$WORDUP."\t".
 				"$editions\t".
@@ -1784,7 +1854,7 @@ function AION_NEWSTRONGS_USAGE_REF_CHECKER($index_file, $usage_file) {
 
 
 // Count all strongs references
-function AION_NEWSTRONGS_COUNT_REF_CHECKER($countsF, $source1, $begin1, $end1, $source2, $begin2, $end2, $source3, $begin3, $end3, $source4, $begin4, $end4, $file) {
+function AION_NEWSTRONGS_COUNT_REF_CHECKER($countsF, $source1, $begin1, $end1, $source2, $begin2, $end2, $source3, $begin3, $end3, $source4, $begin4, $end4, $file, $save) {
 	$newmess = "COUNT_REF_CHECKER $counts";
 	// read data
 	$counts = json_decode(file_get_contents($countsF), true);
@@ -1816,7 +1886,7 @@ function AION_NEWSTRONGS_COUNT_REF_CHECKER($countsF, $source1, $begin1, $end1, $
 		AION_ECHO("ERROR! $newmess problem removing comments");
 	}
 	// save the file
-	if ($file && !file_put_contents($file, $source)) {								AION_ECHO("ERROR! $newmess !file_put_contents($file)"); }
+	if ($save && $file && !file_put_contents($file, $source)) {													AION_ECHO("ERROR! $newmess !file_put_contents($file)"); }
 	// loop through counts
 	foreach($counts as $strongs => $numbers) {
 		if ($strongs == "H0") { continue; }
@@ -2144,3 +2214,108 @@ function AION_NEWSTRONGS_UGLYDEBUG() {
 	}
 	echo "FILESIZE = $len / LINES = $lines / TOTAL $strongs = $total";
 }
+
+
+// CREATE THE STEPBIBLE
+function AION_NEWSTRONGS_STEPBIBLE($hebtag,$hebdex,$heblex,$gretag,$gredex,$grelex,$bible_ama,$bible_con) {
+	// setup
+	$newmess = "STEPBIBLE\t$bible_ama";
+	mb_regex_encoding("UTF-8");
+	mb_internal_encoding("UTF-8");	
+	$bibledata_ama = "// STEPBible Amalgamant, compiled by ABCMS (alpha)\n\n";
+	$bibledata_con = "// STEPBible Concordant, compiled by ABCMS (alpha)\n\n";
+	
+	// HEBREW open tag, lex index, and lex
+	if (($contents = file_get_contents( $hebtag )) === FALSE) { 	AION_ECHO("ERROR! $newmess !file_get_contents($hebtag)"); }
+	$index = json_decode(file_get_contents($hebdex), true);
+	if (empty($index)) {											AION_ECHO("ERROR! $newmess !json_decode($hebdex)"); }
+	if (!($fd=fopen($heblex, 'r'))) {								AION_ECHO("ERROR! $newmess !fopen($heblex)"); }
+	// hebrew loop tags
+	$last_book = "XXX"; $last_vers = 0;
+	$line = strtok($contents, "\n");
+	while ($line !== false) {
+		if (!ctype_digit($line[0])) { $line = strtok( "\n" ); continue; }
+		if (!preg_match("#^(\d+)\t([A-Z0-9]+)\t(\d+)\t(\d+)\t([GH]{1}[0-9]{1,5}[a-z]{0,1})#u", $line, $match)) {	AION_ECHO("ERROR! $newmess corrupt ref tag\n".print_r($line,TRUE)); }
+		$book = $match[2]; $chap = (int)$match[3]; $vers = (int)$match[4]; $strg = $match[5];
+		$book = strtoupper($book); if (!ctype_digit($book[0])) { $book[1] = strtolower($book[1]); } $book[2] = strtolower($book[2]);
+		if ($book != $last_book) { AION_ECHO("BUILDING Concordant STEPBible! $book"); $last_book = $book; }
+		if ($vers != $last_vers) {
+			$bibledata_ama .= "\n$book $chap:$vers "; $last_vers = $vers;
+			$bibledata_con .= "\n$book $chap:$vers "; $last_vers = $vers;
+		}
+		// lexicon entry
+		if ($strg=="H0" || $strg=="G0") { $line = strtok( "\n" ); continue; }
+		if (empty($index[$strg])) { 								AION_ECHO("ERROR! $newmess lex dex not found: $line"); }
+		if (fseek($fd, $index[$strg]) || !($entry=fgets($fd)) ||
+			!preg_match("#^$strg\t#u",$entry)) {					AION_ECHO("ERROR! $newmess dex lex not found, index=".$index[$strg].": $line, $entry"); }
+		$defs = explode("\t",$entry);
+		$bibledata_ama .= (" ".$defs[3]);
+		$bibledata_con .= (" ".$defs[3]);
+		$line = strtok( "\n" );
+	}
+	fclose($fd);
+	unset($contents); $contents=NULL;
+	unset($index); $index=NULL;
+	
+	// GREEK open tag, lex index, and lex
+	if (($contents = file_get_contents( $gretag )) === FALSE) {		AION_ECHO("ERROR! $newmess !file_get_contents($gretag)"); }
+	$index = json_decode(file_get_contents($gredex), true);
+	if (empty($index)) {											AION_ECHO("ERROR! $newmess !json_decode($gredex)"); }
+	if (!($fd=fopen($grelex, 'r'))) {								AION_ECHO("ERROR! $newmess !fopen($grelex)"); }
+	// greek loop tags
+	$last_book = "XXX"; $last_vers = 0;
+	$line = strtok($contents, "\n");
+	while ($line !== false) {
+		if (!ctype_digit($line[0])) { $line = strtok( "\n" ); continue; }
+		if (!preg_match("#^(\d+)\t([A-Z0-9]+)\t(\d+)\t(\d+)\t([GH]{1}[0-9]{1,5}[a-z]{0,1})\t([^	]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t#u", $line, $match)) {	AION_ECHO("ERROR! $newmess corrupt ref tag\n".print_r($line,TRUE)); }
+		$book = $match[2]; $chap = (int)$match[3]; $vers = (int)$match[4]; $strg = $match[5]; $amal = $match[9]; $wtype = $match[10];
+		$book = strtoupper($book); if (!ctype_digit($book[0])) { $book[1] = strtolower($book[1]); } $book[2] = strtolower($book[2]);
+		if ($book != $last_book) { AION_ECHO("BUILDING Concordant STEPBible! $book"); $last_book = $book; }
+		if ($vers != $last_vers) {
+			$bibledata_ama .= "\n$book $chap:$vers "; $last_vers = $vers;
+			$bibledata_con .= "\n$book $chap:$vers "; $last_vers = $vers;
+		}
+		// skip lines
+		if ($strg=="H0" || $strg=="G0") { $line = strtok( "\n" ); continue; }
+		$wordtypes = array(
+			//"NA=TR", 	// =NA same TR		133304 words are translated in both traditional KJV and modern Bibles.	NA27/28 + TR + others all having the same meaning
+			//"NA!=TR",	// =NA diff TR		3922 words may translate differently in traditional and modern Bibles.	NA27/28 + others having the same meaning but there are.also .. 	| Variants = different meanings in TR + others
+			//"NA",		// =NA not TR		761 words are translated in most modern Bibles but not in the KJV.		NA27/28 + others having the same meaning but not TR
+			//"NIV",	// =TR+NIV/ESV not NA		227 words are translated in the KJV and in some modern Bibles.			TR + others having the same meaning but not NA27/28
+			//"TR+",	// =TR not NA. In NIV/ESV	
+			"TR",		// =TR not NA,NIV/ESV		3573 words are translated in the KJV but not in most modern Bibles.		TR + others having the same meaning but not NA27/28
+			"Other",	// Not in NA or TR			245 words occur in early manuscripts but not translated in most Bibles.	Others having a word that is not found in TR or NA27/28
+			);
+		if ($wtype=="TR" || $wtype=="Other") { $line = strtok( "\n" ); continue; }
+		// lexicon entry
+		if (empty($index[$strg])) { 								AION_ECHO("ERROR! $newmess lex dex not found: $line"); }
+		if (fseek($fd, $index[$strg]) || !($entry=fgets($fd)) ||
+			!preg_match("#^$strg\t#u",$entry)) {					AION_ECHO("ERROR! $newmess dex lex not found, index=".$index[$strg].": $line, $entry"); }
+		$defs = explode("\t",$entry);
+		$bibledata_ama .= (" ".$amal);
+		$bibledata_con .= (" ".$defs[3]);
+		$line = strtok( "\n" );
+	}
+	fclose($fd);
+	unset($contents); $contents=NULL;
+	unset($index); $index=NULL;
+
+	// fixes
+	if (!($bibledata_ama=preg_replace("#\[obj\.\]#ui", "[definite]", $bibledata_ama))) {	AION_ECHO("ERROR! $newmess: preg_replace([obj.])"); }
+	if (!($bibledata_con=preg_replace("#\[obj\.\]#ui", "[definite]", $bibledata_con))) {	AION_ECHO("ERROR! $newmess: preg_replace([obj.])"); }	
+
+	if (!($bibledata_ama=preg_replace("#[ ]+#u", " ", $bibledata_ama))) {				AION_ECHO("ERROR! $newmess: preg_replace(spaces)"); }	
+	if (!($bibledata_con=preg_replace("#[ ]+#u", " ", $bibledata_con))) {				AION_ECHO("ERROR! $newmess: preg_replace(spaces)"); }
+
+	if (!($bibledata_ama=preg_replace("#<the>#ui", "(the)", $bibledata_ama))) {			AION_ECHO("ERROR! $newmess: preg_replace(spaces)"); }	
+	if (!($bibledata_con=preg_replace("#<the>#ui", "(the)", $bibledata_con))) {			AION_ECHO("ERROR! $newmess: preg_replace(spaces)"); }
+	
+	// write the Bible
+	if (file_put_contents($bible_ama,$bibledata_ama."\n") === FALSE ) {					AION_ECHO("ERROR! $newmess file_put_contents($bible_ama)" ); }
+	if (file_put_contents($bible_con,$bibledata_con."\n") === FALSE ) {					AION_ECHO("ERROR! $newmess file_put_contents($bible_con)" ); }
+
+	// done
+	AION_ECHO("DONE $newmess");
+	return;
+}
+
