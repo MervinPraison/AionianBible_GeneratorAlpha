@@ -28,7 +28,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_pdflu'	=> FALSE,	// TRUE = do LULU PDFs
 		'q_pdfon'	=> FALSE,	// TRUE = do Online PDFs
 		'q_pdfoo'	=> FALSE,	// TRUE = do One Online PDFs
-		'q_epubc'	=> FALSE,	// TRUE = do ePub covers
+		'q_epubc'	=> TRUE,	// TRUE = do ePub covers
 		//'include'	=> "/Holy-Bible---([G-Z]+.*)---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Amo).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Portuguese-Trans-Trans).*---Aionian-Edition\.noia$/",
@@ -49,7 +49,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(LXX|Khan).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/(Holy-Bible---Latvian---Latvian-Gluck-Bible|Holy-Bible---Japanese---Japanese-Yougo-yaku)---Aionian-Edition\.noia$/",
 		//'include'	=> "/.*Arapaho.*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Luther-Bible-1545)---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(STEPBible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Statenvertaling|Kougo-yaku).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
 		'include'	=> "/---Aionian-Edition\.noia$/",

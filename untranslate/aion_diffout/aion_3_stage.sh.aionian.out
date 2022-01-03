@@ -3608,7 +3608,7 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---Rotherham-Bible: Empty verse skipped: ACT 028 029 
 *** AION: WARNING REMAPPED = Holy-Bible---English---Rotherham-Bible: Empty verse skipped: ROM 016 024 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---English---Rotherham-Bible---Source-Edition.SWORD.txt to ../www-stageresources/Holy-Bible---English---Rotherham-Bible---Standard-Edition.noia byte=6104714 rows=31086
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---STEPBible-Amalgamant,  byte-orig = 4506949,  byte-fix = 4506949,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---STEPBible-Amalgamant,  byte-orig = 4576189,  byte-fix = 4576189,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Amalgamant	019	PSA	003	002:	many to say to/for soul my nothing salvation to/for him in/on/with God (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Amalgamant	019	PSA	003	004:	voice my to(wards) YHWH/Lord to call and to answer me from mountain holiness his (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Amalgamant	019	PSA	003	008:	to/for YHWH/Lord [the] salvation upon people your blessing your (Selah) 
@@ -3630,7 +3630,7 @@
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Amalgamant	019	PSA	046	003:	to roar to trouble water his to shake mountain in/on/with pride his (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Amalgamant	019	PSA	046	007:	YHWH/Lord Hosts with us high refuge to/for us God Jacob (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Amalgamant	019	PSA	046	011:	YHWH/Lord Hosts with us high refuge to/for us God Jacob (Selah) 
-*** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Amalgamant	019	PSA	047	004:	to choose to/for us [Definite] inheritance our [Definite] pride Jacob which to love (Selah) 
+*** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Amalgamant	019	PSA	047	004:	to choose to/for us [definite] inheritance our [definite] pride Jacob which to love (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Amalgamant	019	PSA	048	008:	like/as as which to hear so to see in/on/with city YHWH/Lord Hosts in/on/with city God our God to establish her till forever (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Amalgamant	019	PSA	049	013:	this way their loin to/for them and after them in/on/with lip their to accept (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Amalgamant	019	PSA	049	015:	surely God to ransom soul my from hand Sheol for to take me (Selah) 
@@ -3682,9 +3682,9 @@
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Amalgamant	019	PSA	143	006:	to spread hand my to(wards) you soul my like/as land faint to/for you (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Amalgamant	035	HAB	003	003:	god from Teman to come (in) and holy from mountain Paran (Selah) to cover heaven splendor his and praise his to fill [the] land
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Amalgamant	035	HAB	003	009:	nakedness be exposed bow your oath tribe word (Selah) river to break up/open land
-*** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Amalgamant	035	HAB	003	013:	to come out to/for salvation people your to/for salvation [Definite] anointed your to wound head from house wicked to uncover foundation till neck (Selah) 
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt to ../www-stageresources/Holy-Bible---English---STEPBible-Amalgamant---Standard-Edition.noia byte=6035036 rows=31102
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---STEPBible-Concordant,  byte-orig = 4719846,  byte-fix = 4719846,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Amalgamant	035	HAB	003	013:	to come out to/for salvation people your to/for salvation [definite] anointed your to wound head from house wicked to uncover foundation till neck (Selah) 
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt to ../www-stageresources/Holy-Bible---English---STEPBible-Amalgamant---Standard-Edition.noia byte=6104587 rows=31102
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---STEPBible-Concordant,  byte-orig = 4789086,  byte-fix = 4789086,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Concordant	019	PSA	003	002:	many to say to/for soul my nothing salvation to/for him in/on/with God (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Concordant	019	PSA	003	004:	voice my to(wards) YHWH/Lord to call and to answer me from mountain holiness his (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Concordant	019	PSA	003	008:	to/for YHWH/Lord [the] salvation upon people your blessing your (Selah) 
@@ -3706,7 +3706,7 @@
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Concordant	019	PSA	046	003:	to roar to trouble water his to shake mountain in/on/with pride his (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Concordant	019	PSA	046	007:	YHWH/Lord Hosts with us high refuge to/for us God Jacob (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Concordant	019	PSA	046	011:	YHWH/Lord Hosts with us high refuge to/for us God Jacob (Selah) 
-*** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Concordant	019	PSA	047	004:	to choose to/for us [Definite] inheritance our [Definite] pride Jacob which to love (Selah) 
+*** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Concordant	019	PSA	047	004:	to choose to/for us [definite] inheritance our [definite] pride Jacob which to love (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Concordant	019	PSA	048	008:	like/as as which to hear so to see in/on/with city YHWH/Lord Hosts in/on/with city God our God to establish her till forever (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Concordant	019	PSA	049	013:	this way their loin to/for them and after them in/on/with lip their to accept (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Concordant	019	PSA	049	015:	surely God to ransom soul my from hand Sheol for to take me (Selah) 
@@ -3758,10 +3758,10 @@
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Concordant	019	PSA	143	006:	to spread hand my to(wards) you soul my like/as land faint to/for you (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Concordant	035	HAB	003	003:	god from Teman to come (in) and holy from mountain Paran (Selah) to cover heaven splendor his and praise his to fill [the] land
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Concordant	035	HAB	003	009:	nakedness be exposed bow your oath tribe word (Selah) river to break up/open land
-*** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Concordant	035	HAB	003	013:	to come out to/for salvation people your to/for salvation [Definite] anointed your to wound head from house wicked to uncover foundation till neck (Selah) 
-*** AION: WARNING!!! PUNCTUATION PROBLEM! Holy-Bible---English---STEPBible-Concordant	058	HEB	011	015:	and if on the other hand that to remember away from which to to_step_out to have/be if time/right time to return
-*** AION: WARNING!!! PUNCTUATION PROBLEM! Holy-Bible---English---STEPBible-Concordant	059	JAM	003	005:	thus(-ly) and the/this/who tongue small member to be and great to to_boast look! how great fire how great forest to set fire
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt to ../www-stageresources/Holy-Bible---English---STEPBible-Concordant---Standard-Edition.noia byte=6246064 rows=31102
+*** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Concordant	035	HAB	003	013:	to come out to/for salvation people your to/for salvation [definite] anointed your to wound head from house wicked to uncover foundation till neck (Selah) 
+*** AION: WARNING!!! PUNCTUATION PROBLEM! Holy-Bible---English---STEPBible-Concordant	058	HEB	011	015:	and if on the other hand that (* to remember *NA~TR) away from which (* to to_step_out *NA~TR) to have/be if time/right time to return
+*** AION: WARNING!!! PUNCTUATION PROBLEM! Holy-Bible---English---STEPBible-Concordant	059	JAM	003	005:	thus(-ly) and the/this/who tongue small member to be and great to to_boast look! (* how great *NA~TR) fire how great forest to set fire
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt to ../www-stageresources/Holy-Bible---English---STEPBible-Concordant---Standard-Edition.noia byte=6315310 rows=31102
 *** AION: WARNING! RAWFIX change for Holy-Bible---English---Trans-Trans,  byte-orig = 5952479,  byte-fix = 5952505,  byte-delta = 26,  verses-orig = 30640,  verses-fix = 30643,  verses-delta = 3,  average = 8.6666666666667
 *** AION: WARNING!!! BRACKET PROBLEM! Holy-Bible---English---Trans-Trans	002	EXO	037	012:	He made a rim all around it, (3 in./7 cm.) wide. He put a gold border around the rim.
 *** AION: WARNING!!! BRACKET PROBLEM! Holy-Bible---English---Trans-Trans	024	JER	052	021:	Each of the pillars was (27 feet/8 meters) tall and (18 feet/5.5 meters) around. They were hollow, and each had sides/walls that were (3 in./8 cm.) thick.
@@ -3773,7 +3773,7 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---Twentieth-Century-NT: Empty verse skipped: JOH 008 011 
 *** AION: WARNING REMAPPED = Holy-Bible---English---Twentieth-Century-NT: Empty verse skipped: ACT 028 029 
 *** AION: WARNING REMAPPED = Holy-Bible---English---Twentieth-Century-NT: Empty verse skipped: ROM 016 024 
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---Twentieth-Century-NT---Source-Edition.SWORD.txt to ../www-stageresources/Holy-Bible---English---Twentieth-Century-NT---Standard-Edition.noia byte=1475832 rows=7929
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---Twentieth-Century-NT---Source-Edition.SWORD.txt to ../www-stageresources/Holy-Bible---English---Twentieth-Century-NT---Standard-Edition.noia byte=1475338 rows=7929
 *** AION: WARNING! RAWFIX change for Holy-Bible---English---Tyndale-Bible,  byte-orig = 1049317,  byte-fix = 1049389,  byte-delta = 72,  verses-orig = 7888,  verses-fix = 7893,  verses-delta = 5,  average = 14.4
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---English---Tyndale-Bible---Source-Edition.SWORD.txt to ../www-stageresources/Holy-Bible---English---Tyndale-Bible---Standard-Edition.noia byte=1362087 rows=7893
 *** AION: WARNING! RAWFIX change for Holy-Bible---English---Unlocked-Literal-Bible,  byte-orig = 4356401,  byte-fix = 4356492,  byte-delta = 91,  verses-orig = 31094,  verses-fix = 31104,  verses-delta = 10,  average = 9.1
@@ -13609,14 +13609,12 @@ Messages: 0 fatals / 0 errors / 0 warnings / 0 infos
 
 EPUBCheck completed
 *** AION: EPUB SUCCESS: Holy-Bible---English---Rotherham-Bible
-*** AION: WARN! FAILED COVER copy(../www-stageresources/Holy-Bible---English---STEPBible-Amalgamant---EPUB_COVER.jpg)
 Validating using EPUB version 3.2 rules.
 No errors or warnings detected.
 Messages: 0 fatals / 0 errors / 0 warnings / 0 infos
 
 EPUBCheck completed
 *** AION: EPUB SUCCESS: Holy-Bible---English---STEPBible-Amalgamant
-*** AION: WARN! FAILED COVER copy(../www-stageresources/Holy-Bible---English---STEPBible-Concordant---EPUB_COVER.jpg)
 Validating using EPUB version 3.2 rules.
 No errors or warnings detected.
 Messages: 0 fatals / 0 errors / 0 warnings / 0 infos

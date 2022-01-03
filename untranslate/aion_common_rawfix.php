@@ -43,7 +43,13 @@ if ('Holy-Bible---Portuguese---Portuguese-Trans-Trans'==$bible) {
 
 
 // REMOVE CHARACTERS
-$bfile = preg_replace("/[¶*|]+/us", '', $bfile);
+if ('Holy-Bible---English---STEPBible-Amalgamant'==$bible ||
+	'Holy-Bible---English---STEPBible-Concordant'==$bible) {
+	$bfile = preg_replace("/[¶]+/us", '', $bfile);
+}
+else {
+	$bfile = preg_replace("/[¶*|]+/us", '', $bfile);
+}
 
 
 // REMOVE HTML TAGS

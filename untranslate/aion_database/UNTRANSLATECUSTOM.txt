@@ -149,7 +149,7 @@ Holy-Bible---English---Aionian-Bible	040	MAT	023	033	SWAP		GEHENNA	You serpents,
 Holy-Bible---English---Aionian-Bible	040	MAT	024	003	SWAP		AIONS	As he sat on the Mount of Olives, the disciples came to him privately, saying, “Tell us, when will these things be?  What is the sign of your coming, and of the consummation of the age (aiōn g165)?”
 Holy-Bible---English---Aionian-Bible	040	MAT	025	041	SWAP		AIONIAN	Then he will say also to those on the left hand, ‘Depart from me, you cursed, into the consummate (aiōnios g166) fire which is prepared for the devil and his angels;
 Holy-Bible---English---Aionian-Bible	040	MAT	025	046	SWAP		AIONIAN	These will go away into consummate (aiōnios g166) punishment, but the righteous into consummate (aiōnios g166) life.”
-Holy-Bible---English---Aionian-Bible	040	MAT	028	020	SWAP		AIONS	teaching them to observe all things that I commanded you.  Behold, I am with you always, even to the consummation of the age.”  Amen.
+Holy-Bible---English---Aionian-Bible	040	MAT	028	020	SWAP		AIONS	teaching them to observe all things that I commanded you.  Behold, I am with you always, even to the consummation of the age (aiōn g165).”  Amen.
 Holy-Bible---English---Aionian-Bible	041	MAR	003	029	SWAP		AIONS,AIONIAN	but whoever may blaspheme against the Holy Spirit has not forgiveness for the age (aiōn g165), but is guilty of consummate (aiōnios g166) sin.”
 Holy-Bible---English---Aionian-Bible	041	MAR	004	019	SWAP		AIONS	and the cares of this age (aiōn g165), and the deceitfulness of riches, and the lusts of other things entering in choke the word, and it becomes unfruitful.
 Holy-Bible---English---Aionian-Bible	041	MAR	009	043	SWAP		GEHENNA	If your hand causes you to stumble, cut it off.  It is better for you to enter into life maimed, rather than having your two hands to go into Gehenna (Geenna g1067), into the unquenchable fire,
@@ -243,7 +243,7 @@ Holy-Bible---English---Aionian-Bible	049	EPH	003	011	SWAP		AIONS	according to th
 Holy-Bible---English---Aionian-Bible	049	EPH	003	021	SWAP		AIONS	to him be the glory in the assembly and in Christ Jesus to all generations for the age (aiōn g165) of the ages (aiōn g165).  Amen.
 Holy-Bible---English---Aionian-Bible	049	EPH	006	012	SWAP		AIONS	For our wrestling is not against flesh and blood, but against the principalities, against the powers, against the world’s rulers of this darkness, and against the spiritual forces of wickedness in the heavenly places.
 Holy-Bible---English---Aionian-Bible	050	PHI	004	020	SWAP		AIONS	Now to our God and Father be the glory for the ages (aiōn g165) of the ages (aiōn g165)!  Amen.
-Holy-Bible---English---Aionian-Bible	051	COL	001	026	SWAP		AIONS	the mystery which has been hidden for ages and generations.  But now it has been revealed to his saints, (aiōn g165)
+Holy-Bible---English---Aionian-Bible	051	COL	001	026	SWAP		AIONS	the mystery which has been hidden for ages (aiōn g165) and generations.  But now it has been revealed to his saints,
 Holy-Bible---English---Aionian-Bible	053	2TH	001	009	SWAP		AIONIAN	who will pay the penalty: consummate (aiōnios g166) destruction at the face of the Lord and at the glory of his might,
 Holy-Bible---English---Aionian-Bible	053	2TH	002	016	SWAP		AIONIAN	Now our Lord Jesus Christ himself, and God our Father, who loved us and gave us consummate (aiōnios g166) comfort and good hope through grace,
 Holy-Bible---English---Aionian-Bible	054	1TI	001	016	SWAP		AIONIAN	However, for this cause I obtained mercy, that in me first, Jesus Christ might display all his patience for an example of those who were going to believe in him for consummate (aiōnios g166) life.
@@ -264,7 +264,7 @@ Holy-Bible---English---Aionian-Bible	058	HEB	001	002	SWAP		AIONS	has at the end 
 Holy-Bible---English---Aionian-Bible	058	HEB	001	008	SWAP		AIONS	But of the Son he says, “Your throne, O God, is for the age (aiōn g165) of the age (aiōn g165).  The scepter of uprightness is the scepter of your Kingdom.
 Holy-Bible---English---Aionian-Bible	058	HEB	005	006	SWAP		AIONS	As he says also in another place, “You are a priest for the age (aiōn g165), after the order of Melchizedek.”
 Holy-Bible---English---Aionian-Bible	058	HEB	005	009	SWAP		AIONIAN	Having been made perfect, he became to all of those who obey him the author of consummate (aiōnios g166) salvation,
-Holy-Bible---English---Aionian-Bible	058	HEB	006	002	SWAP		AIONIAN	of the teaching of baptisms, of laying on of hands, of resurrection of the dead, and of consummate judgment (aiōnios g166).
+Holy-Bible---English---Aionian-Bible	058	HEB	006	002	SWAP		AIONIAN	of the teaching of baptisms, of laying on of hands, of resurrection of the dead, and of consummate (aiōnios g166) judgment.
 Holy-Bible---English---Aionian-Bible	058	HEB	006	005	SWAP		AIONS	and tasted the good word of God and the powers of the age (aiōn g165) to come,
 Holy-Bible---English---Aionian-Bible	058	HEB	006	020	SWAP		AIONS	where as a forerunner Jesus entered for us, having become a high priest for the age (aiōn g165) after the order of Melchizedek.
 Holy-Bible---English---Aionian-Bible	058	HEB	007	017	SWAP		AIONS	for it is testified, “You are a priest for the age (aiōn g165), according to the order of Melchizedek.”

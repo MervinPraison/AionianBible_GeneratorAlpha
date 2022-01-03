@@ -6314,7 +6314,7 @@ INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 04
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G5620	W	CONJ	ὥστε	that	NA=TR	ὥστε	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὥστε		so	
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G3588	W	T-ASM	τὸν	the	NA=TR	τὸν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὸν		the	»020:G5207
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G5207	W	N-ASM	υἱὸν	Son,	NA=TR	υἱὸν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	υἱὸν		son	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G846	W	P-GSM	αὐτοῦ	of him	TR	αὐτοῦ	Treg+TR+Byz	αὐτοῦ		of him	«020:G5207
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G846	W	P-GSM	αὐτοῦ	of him	KJV	αὐτοῦ	Treg+TR+Byz	αὐτοῦ		of him	«020:G5207
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G3588	W	T-ASM	τὸν	the	NA=TR	τὸν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὸν		the	»024:G3439
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G3439	W	A-ASM	μονογενῆ	only begotten,	NA=TR	μονογενῆ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μονογενῆ		unique	
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G1325	W	V-AAI-3S	ἔδωκεν	He gave,	NA=TR	ἔδωκεν,	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἔδωκεν		to give	
@@ -6335,14 +6335,14 @@ INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 06
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G5485	W	N-NSF	χάρις	grace	NA=TR	χάρις	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	χάρις		grace	
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G3588	W	T-GSM	τοῦ	of the	NA=TR	τοῦ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		the	»008:G2962
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G2962	W	N-GSM	κυρίου	Lord	NA=TR	κυρίου	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	κυρίου		lord (God)	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G1473	W	P-1GP	ημῶν	of us	TR	ημῶν	TR	ημῶν		to us	«008:G2962
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G1473	W	P-1GP	ημῶν	of us	KJV	ημῶν	TR	ημῶν		to us	«008:G2962
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G2424	W	N-GSM-P	ἰησοῦ	Jesus	NA=TR	Ἰησοῦ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἰησοῦ		Jesus @ Mat 1:1	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G5547	W	N-GSM-T	χριστοῦ	Christ	TR	Χριστοῦ	WH+TR+Byz	χριστοῦ		Christ (Jesus) @ Mat 1:1	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G5547	W	N-GSM-T	χριστοῦ	Christ	KJV	Χριστοῦ	WH+TR+Byz	χριστοῦ		Christ (Jesus) @ Mat 1:1	
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G3326	W	PREP	μετὰ	[be] with	NA=TR	μετὰ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μετὰ		with	
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G3956	W	A-GPM	πάντων	all	NA=TR	πάντων	NA27+NA28+SBL+TR+Byz+ESV	πάντων		all	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G3588	W	T-GPM	τῶν	(the)	TR+	τῶν	Tyn+WH+Treg+Byz+NIV	τῶν		the	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G40	W	A-GPM	ἁγίων	saints	TR+	ἁγίων.	Tyn+WH+Treg+Byz+NIV	ἁγίων	|VM VS TR = ὑμῶν = "of you." = G4771 = P-2GP	holy (saint/believer)	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G281	W	INJ-HEB	ἀμήν	Amen.	TR+	ἀμήν.	Tyn+TR+Byz+ESV+NIV	ἀμήν		amen	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G3588	W	T-GPM	τῶν	(the)	KJV+	τῶν	Tyn+WH+Treg+Byz+NIV	τῶν		the	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G40	W	A-GPM	ἁγίων	saints	KJV+	ἁγίων.	Tyn+WH+Treg+Byz+NIV	ἁγίων	|VM VS TR = ὑμῶν = "of you." = G4771 = P-2GP	holy (saint/believer)	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G281	W	INJ-HEB	ἀμήν	Amen.	KJV+	ἀμήν.	Tyn+TR+Byz+ESV+NIV	ἀμήν		amen	
 *** AION: GREEK ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json
 *** AION: WARN! COUNT_REF_CHECKER  count mismatch (Greek strong+strong with meaning strong refs doubled?) for G1065: 34 != 33
 *** AION: WARN! COUNT_REF_CHECKER  count mismatch (Greek strong+strong with meaning strong refs doubled?) for G1161: 3023 != 3022

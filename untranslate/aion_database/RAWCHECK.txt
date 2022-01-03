@@ -1,9 +1,9 @@
 # File Name: RAWCHECK.txt
-# File Size: 3167420     
-# File Date: 12/31/2021 22:08:33
+# File Size: 3166926     
+# File Date: 01/03/2022 08:09:10
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: http://resources.AionianBible.org
-# File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2021
+# File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022
 # File Generator: ABCMS (alpha)
 # File Accuracy: Contact publisher with corrections to file format or content
 # Publisher Name: Nainoia Inc
@@ -1601,189 +1601,189 @@ Holy-Bible---English---Twentieth-Century-NT	040	MAT	013	035	ADD	in fulfilment of
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	015	029	MODIFY	Jesus departed from there and came near to the sea of Galilee; and he went up on the mountain and sat there.	On leaving that place, Jesus went to the shore of the Sea of Galilee; and then went up the hill, and sat down., you will do what not only what has been done to the fig tree, but, even if you should say to this hill 'Be lifted up and hurled into the sea!' it would be done.
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	015	030	ADD	Great multitudes came to him, having with them the lame, blind, mute, maimed, and many others, and they put them down at his feet. He healed them,	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	015	031	ADD	so that the multitude wondered when they saw the mute speaking, the injured healed, the lame walking, and the blind seeing—and they glorified the God of Israel.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	015	032	ADD	Jesus summoned his disciples and said, “I have compassion on the multitude, because they have continued with me now three days and have nothing to eat. I don’t want to send them away fasting, or they might faint on the way.”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	015	033	ADD	The disciples said to him, “Where could we get so many loaves in a deserted place as to satisfy so great a multitude?”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	015	034	ADD	Jesus said to them, “How many loaves do you have?” They said, “Seven, and a few small fish.”	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	015	032	ADD	Jesus summoned his disciples and said, "I have compassion on the multitude, because they have continued with me now three days and have nothing to eat. I don't want to send them away fasting, or they might faint on the way."	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	015	033	ADD	The disciples said to him, "Where could we get so many loaves in a deserted place as to satisfy so great a multitude?"	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	015	034	ADD	Jesus said to them, "How many loaves do you have?" They said, "Seven, and a few small fish."	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	015	035	ADD	He commanded the multitude to sit down on the ground;	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	015	036	ADD	and he took the seven loaves and the fish. He gave thanks and broke them, and gave to the disciples, and the disciples to the multitudes.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	015	037	ADD	They all ate and were filled. They took up seven baskets full of the broken pieces that were left over.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	015	038	ADD	Those who ate were four thousand men, in addition to women and children.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	015	039	MODIFY	Then he sent away the multitudes, got into the boat, and came into the borders of Magdala.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	001	ADD	The Pharisees and Sadducees came, and testing him, asked him to show them a sign from heaven.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	002	ADD	But he answered them, “When it is evening, you say, ‘It will be fair weather, for the sky is red.’	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	003	ADD	In the morning, ‘It will be foul weather today, for the sky is red and threatening.’ Hypocrites! You know how to discern the appearance of the sky, but you can’t discern the signs of the times!	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	004	MODIFY	An evil and adulterous generation seeks after a sign, and there will be no sign given to it, except the sign of the prophet Jonah.” He left them and departed.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	002	ADD	But he answered them, "When it is evening, you say, 'It will be fair weather, for the sky is red.'	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	003	ADD	In the morning, 'It will be foul weather today, for the sky is red and threatening.' Hypocrites! You know how to discern the appearance of the sky, but you can't discern the signs of the times!	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	004	MODIFY	An evil and adulterous generation seeks after a sign, and there will be no sign given to it, except the sign of the prophet Jonah." He left them and departed.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	005	ADD	The disciples came to the other side and had forgotten to take bread.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	006	ADD	Jesus said to them, “Take heed and beware of the yeast of the Pharisees and Sadducees.”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	007	ADD	They reasoned among themselves, saying, “We brought no bread.”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	008	ADD	Jesus, perceiving it, said, “Why do you reason among yourselves, you of little faith, because you have brought no bread?	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	009	ADD	Don’t you yet perceive or remember the five loaves for the five thousand, and how many baskets you took up,	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	006	ADD	Jesus said to them, "Take heed and beware of the yeast of the Pharisees and Sadducees."	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	007	ADD	They reasoned among themselves, saying, "We brought no bread."	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	008	ADD	Jesus, perceiving it, said, "Why do you reason among yourselves, you of little faith, because you have brought no bread?	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	009	ADD	Don't you yet perceive or remember the five loaves for the five thousand, and how many baskets you took up,	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	010	ADD	or the seven loaves for the four thousand, and how many baskets you took up?	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	011	ADD	How is it that you don’t perceive that I didn’t speak to you concerning bread? But beware of the yeast of the Pharisees and Sadducees.”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	012	MODIFY	Then they understood that he didn’t tell them to beware of the yeast of bread, but of the teaching of the Pharisees and Sadducees.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	013	ADD	Now when Jesus came into the parts of Caesarea Philippi, he asked his disciples, saying, “Who do men say that I, the Son of Man, am?”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	014	ADD	They said, “Some say John the Baptizer, some, Elijah, and others, Jeremiah or one of the prophets.”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	015	ADD	He said to them, “But who do you say that I am?”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	016	ADD	Simon Peter answered, “You are the Christ, the Son of the living God.”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	017	ADD	Jesus answered him, “Blessed are you, Simon Bar Jonah, for flesh and blood has not revealed this to you, but my Father who is in heaven.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	011	ADD	How is it that you don't perceive that I didn't speak to you concerning bread? But beware of the yeast of the Pharisees and Sadducees."	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	012	MODIFY	Then they understood that he didn't tell them to beware of the yeast of bread, but of the teaching of the Pharisees and Sadducees.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	013	ADD	Now when Jesus came into the parts of Caesarea Philippi, he asked his disciples, saying, "Who do men say that I, the Son of Man, am?"	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	014	ADD	They said, "Some say John the Baptizer, some, Elijah, and others, Jeremiah or one of the prophets."	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	015	ADD	He said to them, "But who do you say that I am?"	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	016	ADD	Simon Peter answered, "You are the Christ, the Son of the living God."	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	017	ADD	Jesus answered him, "Blessed are you, Simon Bar Jonah, for flesh and blood has not revealed this to you, but my Father who is in heaven.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	018	ADD	I also tell you that you are Peter, and on this rock I will build my assembly, and the gates of Hades will not prevail against it.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	019	ADD	I will give to you the keys of the Kingdom of Heaven, and whatever you bind on earth will have been bound in heaven; and whatever you release on earth will have been released in heaven.”	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	019	ADD	I will give to you the keys of the Kingdom of Heaven, and whatever you bind on earth will have been bound in heaven; and whatever you release on earth will have been released in heaven."	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	020	MODIFY	Then he commanded the disciples that they should tell no one that he was Jesus the Christ.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	021	ADD	From that time, Jesus began to show his disciples that he must go to Jerusalem and suffer many things from the elders, chief priests, and scribes, and be killed, and the third day be raised up.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	022	ADD	Peter took him aside and began to rebuke him, saying, “Far be it from you, Lord! This will never be done to you.”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	023	MODIFY	But he turned and said to Peter, “Get behind me, Satan! You are a stumbling block to me, for you are not setting your mind on the things of God, but on the things of men.”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	024	ADD	Then Jesus said to his disciples, “If anyone desires to come after me, let him deny himself, take up his cross, and follow me.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	022	ADD	Peter took him aside and began to rebuke him, saying, "Far be it from you, Lord! This will never be done to you."	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	023	MODIFY	But he turned and said to Peter, "Get behind me, Satan! You are a stumbling block to me, for you are not setting your mind on the things of God, but on the things of men."	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	024	ADD	Then Jesus said to his disciples, "If anyone desires to come after me, let him deny himself, take up his cross, and follow me.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	025	ADD	For whoever desires to save his life will lose it, and whoever will lose his life for my sake will find it.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	026	ADD	For what will it profit a man if he gains the whole world and forfeits his life? Or what will a man give in exchange for his life?	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	027	ADD	For the Son of Man will come in the glory of his Father with his angels, and then he will render to everyone according to his deeds.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	028	MODIFY	Most certainly I tell you, there are some standing here who will in no way taste of death until they see the Son of Man coming in his Kingdom.”	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	016	028	MODIFY	Most certainly I tell you, there are some standing here who will in no way taste of death until they see the Son of Man coming in his Kingdom."	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	001	ADD	After six days, Jesus took with him Peter, James, and John his brother, and brought them up into a high mountain by themselves.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	002	ADD	He was changed before them. His face shone like the sun, and his garments became as white as the light.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	003	ADD	Behold, Moses and Elijah appeared to them talking with him.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	004	ADD	Peter answered and said to Jesus, “Lord, it is good for us to be here. If you want, let’s make three tents here: one for you, one for Moses, and one for Elijah.”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	005	ADD	While he was still speaking, behold, a bright cloud overshadowed them. Behold, a voice came out of the cloud, saying, “This is my beloved Son, in whom I am well pleased. Listen to him.”	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	004	ADD	Peter answered and said to Jesus, "Lord, it is good for us to be here. If you want, let's make three tents here: one for you, one for Moses, and one for Elijah."	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	005	ADD	While he was still speaking, behold, a bright cloud overshadowed them. Behold, a voice came out of the cloud, saying, "This is my beloved Son, in whom I am well pleased. Listen to him."	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	006	ADD	When the disciples heard it, they fell on their faces, and were very afraid.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	007	ADD	Jesus came and touched them and said, “Get up, and don’t be afraid.”	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	007	ADD	Jesus came and touched them and said, "Get up, and don't be afraid."	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	008	ADD	Lifting up their eyes, they saw no one, except Jesus alone.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	009	ADD	As they were coming down from the mountain, Jesus commanded them, saying, “Don’t tell anyone what you saw, until the Son of Man has risen from the dead.”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	010	ADD	His disciples asked him, saying, “Then why do the scribes say that Elijah must come first?”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	011	ADD	Jesus answered them, “Elijah indeed comes first, and will restore all things;	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	012	ADD	but I tell you that Elijah has come already, and they didn’t recognize him, but did to him whatever they wanted to. Even so the Son of Man will also suffer by them.”	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	009	ADD	As they were coming down from the mountain, Jesus commanded them, saying, "Don't tell anyone what you saw, until the Son of Man has risen from the dead."	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	010	ADD	His disciples asked him, saying, "Then why do the scribes say that Elijah must come first?"	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	011	ADD	Jesus answered them, "Elijah indeed comes first, and will restore all things;	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	012	ADD	but I tell you that Elijah has come already, and they didn't recognize him, but did to him whatever they wanted to. Even so the Son of Man will also suffer by them."	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	013	MODIFY	Then the disciples understood that he spoke to them of John the Baptizer.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	014	ADD	When they came to the multitude, a man came to him, kneeling down to him and saying,	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	015	ADD	“Lord, have mercy on my son, for he is epileptic and suffers grievously; for he often falls into the fire, and often into the water.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	016	ADD	So I brought him to your disciples, and they could not cure him.”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	017	ADD	Jesus answered, “Faithless and perverse generation! How long will I be with you? How long will I bear with you? Bring him here to me.”	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	015	ADD	"Lord, have mercy on my son, for he is epileptic and suffers grievously; for he often falls into the fire, and often into the water.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	016	ADD	So I brought him to your disciples, and they could not cure him."	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	017	ADD	Jesus answered, "Faithless and perverse generation! How long will I be with you? How long will I bear with you? Bring him here to me."	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	018	ADD	Jesus rebuked the demon, and it went out of him, and the boy was cured from that hour.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	019	ADD	Then the disciples came to Jesus privately, and said, “Why weren’t we able to cast it out?”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	020	ADD	He said to them, “Because of your unbelief. For most certainly I tell you, if you have faith as a grain of mustard seed, you will tell this mountain, ‘Move from here to there,’ and it will move; and nothing will be impossible for you.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	021	MODIFY	But this kind doesn’t go out except by prayer and fasting.”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	022	ADD	While they were staying in Galilee, Jesus said to them, “The Son of Man is about to be delivered up into the hands of men,	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	023	MODIFY	and they will kill him, and the third day he will be raised up.” They were exceedingly sorry.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	024	ADD	When they had come to Capernaum, those who collected the didrachma coins came to Peter, and said, “Doesn’t your teacher pay the didrachma?”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	025	ADD	He said, “Yes.” When he came into the house, Jesus anticipated him, saying, “What do you think, Simon? From whom do the kings of the earth receive toll or tribute? From their children, or from strangers?”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	026	ADD	Peter said to him, “From strangers.” Jesus said to him, “Therefore the children are exempt.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	027	MODIFY	But, lest we cause them to stumble, go to the sea, cast a hook, and take up the first fish that comes up. When you have opened its mouth, you will find a stater coin. Take that, and give it to them for me and you.”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	001	ADD	In that hour the disciples came to Jesus, saying, “Who then is greatest in the Kingdom of Heaven?”	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	019	ADD	Then the disciples came to Jesus privately, and said, "Why weren't we able to cast it out?"	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	020	ADD	He said to them, "Because of your unbelief. For most certainly I tell you, if you have faith as a grain of mustard seed, you will tell this mountain, 'Move from here to there,' and it will move; and nothing will be impossible for you.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	021	MODIFY	But this kind doesn't go out except by prayer and fasting."	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	022	ADD	While they were staying in Galilee, Jesus said to them, "The Son of Man is about to be delivered up into the hands of men,	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	023	MODIFY	and they will kill him, and the third day he will be raised up." They were exceedingly sorry.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	024	ADD	When they had come to Capernaum, those who collected the didrachma coins came to Peter, and said, "Doesn't your teacher pay the didrachma?"	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	025	ADD	He said, "Yes." When he came into the house, Jesus anticipated him, saying, "What do you think, Simon? From whom do the kings of the earth receive toll or tribute? From their children, or from strangers?"	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	026	ADD	Peter said to him, "From strangers." Jesus said to him, "Therefore the children are exempt.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	017	027	MODIFY	But, lest we cause them to stumble, go to the sea, cast a hook, and take up the first fish that comes up. When you have opened its mouth, you will find a stater coin. Take that, and give it to them for me and you."	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	001	ADD	In that hour the disciples came to Jesus, saying, "Who then is greatest in the Kingdom of Heaven?"	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	002	ADD	Jesus called a little child to himself, and set him in the middle of them	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	003	ADD	and said, “Most certainly I tell you, unless you turn and become as little children, you will in no way enter into the Kingdom of Heaven.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	003	ADD	and said, "Most certainly I tell you, unless you turn and become as little children, you will in no way enter into the Kingdom of Heaven.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	004	ADD	Whoever therefore humbles himself as this little child is the greatest in the Kingdom of Heaven.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	005	ADD	Whoever receives one such little child in my name receives me,	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	006	MODIFY	but whoever causes one of these little ones who believe in me to stumble, it would be better for him if a huge millstone were hung around his neck and that he were sunk in the depths of the sea.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	007	ADD	“Woe to the world because of occasions of stumbling! For it must be that the occasions come, but woe to that person through whom the occasion comes!	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	007	ADD	"Woe to the world because of occasions of stumbling! For it must be that the occasions come, but woe to that person through whom the occasion comes!	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	008	ADD	If your hand or your foot causes you to stumble, cut it off and cast it from you. It is better for you to enter into life maimed or crippled, rather than having two hands or two feet to be cast into the eternal fire.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	009	ADD	If your eye causes you to stumble, pluck it out and cast it from you. It is better for you to enter into life with one eye, rather than having two eyes to be cast into the Gehenna of fire.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	010	ADD	See that you don’t despise one of these little ones, for I tell you that in heaven their angels always see the face of my Father who is in heaven.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	010	ADD	See that you don't despise one of these little ones, for I tell you that in heaven their angels always see the face of my Father who is in heaven.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	011	ADD	For the Son of Man came to save that which was lost.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	012	ADD	“What do you think? If a man has one hundred sheep, and one of them goes astray, doesn’t he leave the ninety-nine, go to the mountains, and seek that which has gone astray?	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	012	ADD	"What do you think? If a man has one hundred sheep, and one of them goes astray, doesn't he leave the ninety-nine, go to the mountains, and seek that which has gone astray?	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	013	ADD	If he finds it, most certainly I tell you, he rejoices over it more than over the ninety-nine which have not gone astray.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	014	MODIFY	Even so it is not the will of your Father who is in heaven that one of these little ones should perish.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	015	ADD	“If your brother sins against you, go, show him his fault between you and him alone. If he listens to you, you have gained back your brother.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	016	ADD	But if he doesn’t listen, take one or two more with you, that at the mouth of two or three witnesses every word may be established.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	015	ADD	"If your brother sins against you, go, show him his fault between you and him alone. If he listens to you, you have gained back your brother.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	016	ADD	But if he doesn't listen, take one or two more with you, that at the mouth of two or three witnesses every word may be established.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	017	ADD	If he refuses to listen to them, tell it to the assembly. If he refuses to hear the assembly also, let him be to you as a Gentile or a tax collector.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	018	ADD	Most certainly I tell you, whatever things you bind on earth will have been bound in heaven, and whatever things you release on earth will have been released in heaven.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	019	ADD	Again, assuredly I tell you, that if two of you will agree on earth concerning anything that they will ask, it will be done for them by my Father who is in heaven.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	020	MODIFY	For where two or three are gathered together in my name, there I am in the middle of them.”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	021	ADD	Then Peter came and said to him, “Lord, how often shall my brother sin against me, and I forgive him? Until seven times?”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	022	ADD	Jesus said to him, “I don’t tell you until seven times, but, until seventy times seven.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	020	MODIFY	For where two or three are gathered together in my name, there I am in the middle of them."	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	021	ADD	Then Peter came and said to him, "Lord, how often shall my brother sin against me, and I forgive him? Until seven times?"	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	022	ADD	Jesus said to him, "I don't tell you until seven times, but, until seventy times seven.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	023	ADD	Therefore the Kingdom of Heaven is like a certain king who wanted to settle accounts with his servants.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	024	ADD	When he had begun to settle, one was brought to him who owed him ten thousand talents.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	025	ADD	But because he couldn’t pay, his lord commanded him to be sold, with his wife, his children, and all that he had, and payment to be made.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	026	ADD	The servant therefore fell down and knelt before him, saying, ‘Lord, have patience with me, and I will repay you all!’	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	025	ADD	But because he couldn't pay, his lord commanded him to be sold, with his wife, his children, and all that he had, and payment to be made.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	026	ADD	The servant therefore fell down and knelt before him, saying, 'Lord, have patience with me, and I will repay you all!'	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	027	ADD	The lord of that servant, being moved with compassion, released him and forgave him the debt.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	028	ADD	“But that servant went out and found one of his fellow servants who owed him one hundred denarii, and he grabbed him and took him by the throat, saying, ‘Pay me what you owe!’	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	029	ADD	“So his fellow servant fell down at his feet and begged him, saying, ‘Have patience with me, and I will repay you!’	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	028	ADD	"But that servant went out and found one of his fellow servants who owed him one hundred denarii, and he grabbed him and took him by the throat, saying, 'Pay me what you owe!'	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	029	ADD	"So his fellow servant fell down at his feet and begged him, saying, 'Have patience with me, and I will repay you!'	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	030	ADD	He would not, but went and cast him into prison until he should pay back that which was due.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	031	ADD	So when his fellow servants saw what was done, they were exceedingly sorry, and came and told their lord all that was done.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	032	ADD	Then his lord called him in and said to him, ‘You wicked servant! I forgave you all that debt because you begged me.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	033	ADD	Shouldn’t you also have had mercy on your fellow servant, even as I had mercy on you?’	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	032	ADD	Then his lord called him in and said to him, 'You wicked servant! I forgave you all that debt because you begged me.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	033	ADD	Shouldn't you also have had mercy on your fellow servant, even as I had mercy on you?'	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	034	ADD	His lord was angry, and delivered him to the tormentors until he should pay all that was due to him.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	035	MODIFY	So my heavenly Father will also do to you, if you don’t each forgive your brother from your hearts for his misdeeds.”	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	018	035	MODIFY	So my heavenly Father will also do to you, if you don't each forgive your brother from your hearts for his misdeeds."	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	001	ADD	When Jesus had finished these words, he departed from Galilee and came into the borders of Judea beyond the Jordan.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	002	MODIFY	Great multitudes followed him, and he healed them there.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	003	ADD	Pharisees came to him, testing him and saying, “Is it lawful for a man to divorce his wife for any reason?”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	004	ADD	He answered, “Haven’t you read that he who made them from the beginning made them male and female,	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	005	ADD	and said, ‘For this cause a man shall leave his father and mother, and shall be joined to his wife; and the two shall become one flesh?’	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	006	ADD	So that they are no more two, but one flesh. What therefore God has joined together, don’t let man tear apart.”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	007	ADD	They asked him, “Why then did Moses command us to give her a certificate of divorce and divorce her?”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	008	ADD	He said to them, “Moses, because of the hardness of your hearts, allowed you to divorce your wives, but from the beginning it has not been so.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	009	ADD	I tell you that whoever divorces his wife, except for sexual immorality, and marries another, commits adultery; and he who marries her when she is divorced commits adultery.”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	010	ADD	His disciples said to him, “If this is the case of the man with his wife, it is not expedient to marry.”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	011	ADD	But he said to them, “Not all men can receive this saying, but those to whom it is given.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	012	MODIFY	For there are eunuchs who were born that way from their mother’s womb, and there are eunuchs who were made eunuchs by men; and there are eunuchs who made themselves eunuchs for the Kingdom of Heaven’s sake. He who is able to receive it, let him receive it.”	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	003	ADD	Pharisees came to him, testing him and saying, "Is it lawful for a man to divorce his wife for any reason?"	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	004	ADD	He answered, "Haven't you read that he who made them from the beginning made them male and female,	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	005	ADD	and said, 'For this cause a man shall leave his father and mother, and shall be joined to his wife; and the two shall become one flesh?'	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	006	ADD	So that they are no more two, but one flesh. What therefore God has joined together, don't let man tear apart."	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	007	ADD	They asked him, "Why then did Moses command us to give her a certificate of divorce and divorce her?"	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	008	ADD	He said to them, "Moses, because of the hardness of your hearts, allowed you to divorce your wives, but from the beginning it has not been so.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	009	ADD	I tell you that whoever divorces his wife, except for sexual immorality, and marries another, commits adultery; and he who marries her when she is divorced commits adultery."	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	010	ADD	His disciples said to him, "If this is the case of the man with his wife, it is not expedient to marry."	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	011	ADD	But he said to them, "Not all men can receive this saying, but those to whom it is given.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	012	MODIFY	For there are eunuchs who were born that way from their mother's womb, and there are eunuchs who were made eunuchs by men; and there are eunuchs who made themselves eunuchs for the Kingdom of Heaven's sake. He who is able to receive it, let him receive it."	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	013	ADD	Then little children were brought to him that he should lay his hands on them and pray; and the disciples rebuked them.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	014	ADD	But Jesus said, “Allow the little children, and don’t forbid them to come to me; for the Kingdom of Heaven belongs to ones like these.”	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	014	ADD	But Jesus said, "Allow the little children, and don't forbid them to come to me; for the Kingdom of Heaven belongs to ones like these."	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	015	MODIFY	He laid his hands on them, and departed from there.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	016	ADD	Behold, one came to him and said, “Good teacher, what good thing shall I do, that I may have eternal life?”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	017	ADD	He said to him, “Why do you call me good? No one is good but one, that is, God. But if you want to enter into life, keep the commandments.”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	018	ADD	He said to him, “Which ones?” Jesus said, “‘You shall not murder.’ ‘You shall not commit adultery.’ ‘You shall not steal.’ ‘You shall not offer false testimony.’	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	019	ADD	‘Honor your father and your mother.’ And, ‘You shall love your neighbor as yourself.’”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	020	ADD	The young man said to him, “All these things I have observed from my youth. What do I still lack?”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	021	ADD	Jesus said to him, “If you want to be perfect, go, sell what you have, and give to the poor, and you will have treasure in heaven; and come, follow me.”	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	016	ADD	Behold, one came to him and said, "Good teacher, what good thing shall I do, that I may have eternal life?"	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	017	ADD	He said to him, "Why do you call me good? No one is good but one, that is, God. But if you want to enter into life, keep the commandments."	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	018	ADD	He said to him, "Which ones?" Jesus said, "'You shall not murder.' 'You shall not commit adultery.' 'You shall not steal.' 'You shall not offer false testimony.'	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	019	ADD	'Honor your father and your mother.' And, 'You shall love your neighbor as yourself.'"	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	020	ADD	The young man said to him, "All these things I have observed from my youth. What do I still lack?"	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	021	ADD	Jesus said to him, "If you want to be perfect, go, sell what you have, and give to the poor, and you will have treasure in heaven; and come, follow me."	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	022	MODIFY	But when the young man heard this, he went away sad, for he was one who had great possessions.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	023	ADD	Jesus said to his disciples, “Most certainly I say to you, a rich man will enter into the Kingdom of Heaven with difficulty.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	024	ADD	Again I tell you, it is easier for a camel to go through a needle’s eye than for a rich man to enter into God’s Kingdom.”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	025	ADD	When the disciples heard it, they were exceedingly astonished, saying, “Who then can be saved?”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	026	ADD	Looking at them, Jesus said, “With men this is impossible, but with God all things are possible.”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	027	ADD	Then Peter answered, “Behold, we have left everything and followed you. What then will we have?”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	028	ADD	Jesus said to them, “Most certainly I tell you that you who have followed me, in the regeneration when the Son of Man will sit on the throne of his glory, you also will sit on twelve thrones, judging the twelve tribes of Israel.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	029	ADD	Everyone who has left houses, or brothers, or sisters, or father, or mother, or wife, or children, or lands, for my name’s sake, will receive one hundred times, and will inherit eternal life.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	023	ADD	Jesus said to his disciples, "Most certainly I say to you, a rich man will enter into the Kingdom of Heaven with difficulty.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	024	ADD	Again I tell you, it is easier for a camel to go through a needle's eye than for a rich man to enter into God's Kingdom."	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	025	ADD	When the disciples heard it, they were exceedingly astonished, saying, "Who then can be saved?"	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	026	ADD	Looking at them, Jesus said, "With men this is impossible, but with God all things are possible."	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	027	ADD	Then Peter answered, "Behold, we have left everything and followed you. What then will we have?"	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	028	ADD	Jesus said to them, "Most certainly I tell you that you who have followed me, in the regeneration when the Son of Man will sit on the throne of his glory, you also will sit on twelve thrones, judging the twelve tribes of Israel.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	029	ADD	Everyone who has left houses, or brothers, or sisters, or father, or mother, or wife, or children, or lands, for my name's sake, will receive one hundred times, and will inherit eternal life.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	019	030	MODIFY	But many will be last who are first, and first who are last.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	001	ADD	“For the Kingdom of Heaven is like a man who was the master of a household, who went out early in the morning to hire laborers for his vineyard.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	001	ADD	"For the Kingdom of Heaven is like a man who was the master of a household, who went out early in the morning to hire laborers for his vineyard.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	002	ADD	When he had agreed with the laborers for a denarius a day, he sent them into his vineyard.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	003	ADD	He went out about the third hour, and saw others standing idle in the marketplace.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	004	ADD	He said to them, ‘You also go into the vineyard, and whatever is right I will give you.’ So they went their way.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	004	ADD	He said to them, 'You also go into the vineyard, and whatever is right I will give you.' So they went their way.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	005	ADD	Again he went out about the sixth and the ninth hour, and did likewise.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	006	ADD	About the eleventh hour he went out and found others standing idle. He said to them, ‘Why do you stand here all day idle?’	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	007	ADD	“They said to him, ‘Because no one has hired us.’ “He said to them, ‘You also go into the vineyard, and you will receive whatever is right.’	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	008	ADD	“When evening had come, the lord of the vineyard said to his manager, ‘Call the laborers and pay them their wages, beginning from the last to the first.’	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	009	ADD	“When those who were hired at about the eleventh hour came, they each received a denarius.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	006	ADD	About the eleventh hour he went out and found others standing idle. He said to them, 'Why do you stand here all day idle?'	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	007	ADD	"They said to him, 'Because no one has hired us.' "He said to them, 'You also go into the vineyard, and you will receive whatever is right.'	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	008	ADD	"When evening had come, the lord of the vineyard said to his manager, 'Call the laborers and pay them their wages, beginning from the last to the first.'	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	009	ADD	"When those who were hired at about the eleventh hour came, they each received a denarius.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	010	ADD	When the first came, they supposed that they would receive more; and they likewise each received a denarius.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	011	ADD	When they received it, they murmured against the master of the household,	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	012	ADD	saying, ‘These last have spent one hour, and you have made them equal to us who have borne the burden of the day and the scorching heat!’	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	013	ADD	“But he answered one of them, ‘Friend, I am doing you no wrong. Didn’t you agree with me for a denarius?	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	012	ADD	saying, 'These last have spent one hour, and you have made them equal to us who have borne the burden of the day and the scorching heat!'	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	013	ADD	"But he answered one of them, 'Friend, I am doing you no wrong. Didn't you agree with me for a denarius?	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	014	ADD	Take that which is yours, and go your way. It is my desire to give to this last just as much as to you.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	015	ADD	Isn’t it lawful for me to do what I want to with what I own? Or is your eye evil, because I am good?’	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	016	MODIFY	So the last will be first, and the first last. For many are called, but few are chosen.”	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	015	ADD	Isn't it lawful for me to do what I want to with what I own? Or is your eye evil, because I am good?'	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	016	MODIFY	So the last will be first, and the first last. For many are called, but few are chosen."	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	017	ADD	As Jesus was going up to Jerusalem, he took the twelve disciples aside, and on the way he said to them,	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	018	ADD	“Behold, we are going up to Jerusalem, and the Son of Man will be delivered to the chief priests and scribes, and they will condemn him to death,	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	019	MODIFY	and will hand him over to the Gentiles to mock, to scourge, and to crucify; and the third day he will be raised up.”	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	018	ADD	"Behold, we are going up to Jerusalem, and the Son of Man will be delivered to the chief priests and scribes, and they will condemn him to death,	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	019	MODIFY	and will hand him over to the Gentiles to mock, to scourge, and to crucify; and the third day he will be raised up."	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	020	ADD	Then the mother of the sons of Zebedee came to him with her sons, kneeling and asking a certain thing of him.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	021	ADD	He said to her, “What do you want?” She said to him, “Command that these, my two sons, may sit, one on your right hand and one on your left hand, in your Kingdom.”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	022	ADD	But Jesus answered, “You don’t know what you are asking. Are you able to drink the cup that I am about to drink, and be baptized with the baptism that I am baptized with?” They said to him, “We are able.”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	023	ADD	He said to them, “You will indeed drink my cup, and be baptized with the baptism that I am baptized with; but to sit on my right hand and on my left hand is not mine to give, but it is for whom it has been prepared by my Father.”	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	021	ADD	He said to her, "What do you want?" She said to him, "Command that these, my two sons, may sit, one on your right hand and one on your left hand, in your Kingdom."	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	022	ADD	But Jesus answered, "You don't know what you are asking. Are you able to drink the cup that I am about to drink, and be baptized with the baptism that I am baptized with?" They said to him, "We are able."	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	023	ADD	He said to them, "You will indeed drink my cup, and be baptized with the baptism that I am baptized with; but to sit on my right hand and on my left hand is not mine to give, but it is for whom it has been prepared by my Father."	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	024	ADD	When the ten heard it, they were indignant with the two brothers.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	025	ADD	But Jesus summoned them, and said, “You know that the rulers of the nations lord it over them, and their great ones exercise authority over them.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	025	ADD	But Jesus summoned them, and said, "You know that the rulers of the nations lord it over them, and their great ones exercise authority over them.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	026	ADD	It shall not be so among you; but whoever desires to become great among you shall be your servant.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	027	ADD	Whoever desires to be first among you shall be your bondservant,	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	028	MODIFY	even as the Son of Man came not to be served, but to serve, and to give his life as a ransom for many.”	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	028	MODIFY	even as the Son of Man came not to be served, but to serve, and to give his life as a ransom for many."	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	029	ADD	As they went out from Jericho, a great multitude followed him.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	030	ADD	Behold, two blind men sitting by the road, when they heard that Jesus was passing by, cried out, “Lord, have mercy on us, you son of David!”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	031	ADD	The multitude rebuked them, telling them that they should be quiet, but they cried out even more, “Lord, have mercy on us, you son of David!”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	032	ADD	Jesus stood still and called them, and asked, “What do you want me to do for you?”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	033	ADD	They told him, “Lord, that our eyes may be opened.”	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	030	ADD	Behold, two blind men sitting by the road, when they heard that Jesus was passing by, cried out, "Lord, have mercy on us, you son of David!"	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	031	ADD	The multitude rebuked them, telling them that they should be quiet, but they cried out even more, "Lord, have mercy on us, you son of David!"	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	032	ADD	Jesus stood still and called them, and asked, "What do you want me to do for you?"	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	033	ADD	They told him, "Lord, that our eyes may be opened."	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	020	034	MODIFY	Jesus, being moved with compassion, touched their eyes; and immediately their eyes received their sight, and they followed him.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	001	ADD	When they came near to Jerusalem and came to Bethsphage, to the Mount of Olives, then Jesus sent two disciples,	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	002	ADD	saying to them, “Go into the village that is opposite you, and immediately you will find a donkey tied, and a colt with her. Untie them and bring them to me.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	003	ADD	If anyone says anything to you, you shall say, ‘The Lord needs them,’ and immediately he will send them.”	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	002	ADD	saying to them, "Go into the village that is opposite you, and immediately you will find a donkey tied, and a colt with her. Untie them and bring them to me.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	003	ADD	If anyone says anything to you, you shall say, 'The Lord needs them,' and immediately he will send them."	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	004	ADD	All this was done that it might be fulfilled which was spoken through the prophet, saying,	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	005	ADD	“Tell the daughter of Zion, behold, your King comes to you, humble, and riding on a donkey, on a colt, the foal of a donkey.”	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	005	ADD	"Tell the daughter of Zion, behold, your King comes to you, humble, and riding on a donkey, on a colt, the foal of a donkey."	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	006	ADD	The disciples went and did just as Jesus commanded them,	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	007	ADD	and brought the donkey and the colt and laid their clothes on them; and he sat on them.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	008	ADD	A very great multitude spread their clothes on the road. Others cut branches from the trees and spread them on the road.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	009	ADD	The multitudes who went in front of him, and those who followed, kept shouting, “Hosanna to the son of David! Blessed is he who comes in the name of the Lord! Hosanna in the highest!”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	010	ADD	When he had come into Jerusalem, all the city was stirred up, saying, “Who is this?”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	011	MODIFY	The multitudes said, “This is the prophet, Jesus, from Nazareth of Galilee.”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	012	ADD	Jesus entered into the temple of God and drove out all of those who sold and bought in the temple, and overthrew the money changers’ tables and the seats of those who sold the doves.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	013	ADD	He said to them, “It is written, ‘My house shall be called a house of prayer,’ but you have made it a den of robbers!”	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	009	ADD	The multitudes who went in front of him, and those who followed, kept shouting, "Hosanna to the son of David! Blessed is he who comes in the name of the Lord! Hosanna in the highest!"	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	010	ADD	When he had come into Jerusalem, all the city was stirred up, saying, "Who is this?"	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	011	MODIFY	The multitudes said, "This is the prophet, Jesus, from Nazareth of Galilee."	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	012	ADD	Jesus entered into the temple of God and drove out all of those who sold and bought in the temple, and overthrew the money changers' tables and the seats of those who sold the doves.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	013	ADD	He said to them, "It is written, 'My house shall be called a house of prayer,' but you have made it a den of robbers!"	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	014	ADD	The lame and the blind came to him in the temple, and he healed them.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	015	ADD	But when the chief priests and the scribes saw the wonderful things that he did, and the children who were crying in the temple and saying, “Hosanna to the son of David!” they were indignant,	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	016	ADD	and said to him, “Do you hear what these are saying?” Jesus said to them, “Yes. Did you never read, ‘Out of the mouth of children and nursing babies, you have perfected praise?’”	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	015	ADD	But when the chief priests and the scribes saw the wonderful things that he did, and the children who were crying in the temple and saying, "Hosanna to the son of David!" they were indignant,	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	016	ADD	and said to him, "Do you hear what these are saying?" Jesus said to them, "Yes. Did you never read, 'Out of the mouth of children and nursing babies, you have perfected praise?'"	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	017	MODIFY	He left them and went out of the city to Bethany, and camped there.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	018	ADD	Now in the morning, as he returned to the city, he was hungry.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	019	ADD	Seeing a fig tree by the road, he came to it and found nothing on it but leaves. He said to it, “Let there be no fruit from you forever!” Immediately the fig tree withered away.	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	020	ADD	When the disciples saw it, they marveled, saying, “How did the fig tree immediately wither away?”	
-Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	021	ADD	Jesus answered them, “Most certainly I tell you, if you have faith and don’t doubt, you will not only do what was done to the fig tree, but even if you told this mountain, ‘Be taken up and cast into the sea,’ it would be done.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	019	ADD	Seeing a fig tree by the road, he came to it and found nothing on it but leaves. He said to it, "Let there be no fruit from you forever!" Immediately the fig tree withered away.	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	020	ADD	When the disciples saw it, they marveled, saying, "How did the fig tree immediately wither away?"	
+Holy-Bible---English---Twentieth-Century-NT	040	MAT	021	021	ADD	Jesus answered them, "Most certainly I tell you, if you have faith and don't doubt, you will not only do what was done to the fig tree, but even if you told this mountain, 'Be taken up and cast into the sea,' it would be done.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	022	045	MODIFY	Since, then, David calls him 'lord,' how is he David's son?"	Since, then, David calls him 'lord,' how is he David's son?" No one could say a word in answer; nor did any one after that day venture to question him further.
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	022	046	MODIFY	No one could say a word in answer; nor did any one after that day venture to question him further.	
 Holy-Bible---English---Twentieth-Century-NT	040	MAT	026	006	MODIFY	After Jesus had reached Bethany, and while he was in the house of Simon the leper,	After Jesus had reached Bethany, and while he was in the house of Simon the leper, a woman came up to him with an alabaster jar of very costly perfume, and poured the perfume upon his head as he was at table.

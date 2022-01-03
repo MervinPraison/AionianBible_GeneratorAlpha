@@ -968,6 +968,9 @@ function AION_TEXT_REPAIR($string,$errline,$bible,$trueifrawtext, &$textrepair,$
 	else if ('Holy-Bible---Greek---Greek-Textus-Receptus'==$bible || 'Holy-Bible---Greek---Greek-Westcott-Hort'==$bible) {
 		if (preg_match('/[~@#$%\^\\\\&*_+|<>]{1}/ui',$string)) {						AION_ECHO("WARNING!!! PUNCTUATION PROBLEM! $errline:\t$string"); }
 	}
+	else if ('Holy-Bible---English---STEPBible-Amalgamant'==$bible || 'Holy-Bible---English---STEPBible-Concordant'==$bible) {
+		if (preg_match('/[@#$%\^\\\\&_{}|<>]{1}/ui',$string)) {							AION_ECHO("WARNING!!! PUNCTUATION PROBLEM! $errline:\t$string"); }
+	}
 	else {
 		if (preg_match('/[~@#$%\^\\\\&*_+{}|<>]{1}/ui',$string)) {						AION_ECHO("WARNING!!! PUNCTUATION PROBLEM! $errline:\t$string"); }
 	}

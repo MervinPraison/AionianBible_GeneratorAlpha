@@ -558,13 +558,13 @@ $commentplus = <<<EOT
 #		English synonym
 #	ENTRY
 #		Word entry type
-#		"NA=TR"		=NA same TR				133304 words are translated in both traditional KJV and modern Bibles.	NA27/28 + TR + others all having the same meaning
-#		"NA!=TR"	=NA diff TR				3922 words may translate differently in traditional and modern Bibles.	NA27/28 + others having the same meaning but there are.also .. 	| Variants = different meanings in TR + others
-#		"NA"		=NA not TR				761 words are translated in most modern Bibles but not in the KJV.		NA27/28 + others having the same meaning but not TR
-#		"NIV"		=TR+NIV/ESV not NA		227 words are translated in the KJV and in some modern Bibles.			TR + others having the same meaning but not NA27/28
-#		"TR"		=TR not NA,NIV/ESV		3573 words are translated in the KJV but not in most modern Bibles.		TR + others having the same meaning but not NA27/28
-#		"TR+"		=TR not NA. In NIV/ESV	?
-#		"Other"		Not in NA or TR			245 words occur in early manuscripts but not translated in most Bibles.	Others having a word that is not found in TR or NA27/28
+#		"NA=TR"	=NA same TR				133304 words are translated in both traditional KJV and modern Bibles.	NA27/28 + TR + others all having the same meaning
+#		"NA~TR"	=NA diff TR				3922 words may translate differently in traditional and modern Bibles.	NA27/28 + others having the same meaning but there are.also .. 	| Variants = different meanings in TR + others
+#		"NA-TR"	=NA not TR				761 words are translated in most modern Bibles but not in the KJV.		NA27/28 + others having the same meaning but not TR
+#		"KJV"	=TR not NA,NIV/ESV		3573 words are translated in the KJV but not in most modern Bibles.		TR + others having the same meaning but not NA27/28
+#		"KJV+"	=TR not NA. In NIV/ESV	??? 3573 words are translated in the KJV but not in most modern Bibles.	TR + others having the same meaning but not NA27/28
+#		"KJV++"	=TR+NIV/ESV not NA		227 words are translated in the KJV and in some modern Bibles.			TR + others having the same meaning but not NA27/28
+#		"NATR?"	Not in NA or TR			245 words occur in early manuscripts but not translated in most Bibles.	Others having a word that is not found in TR or NA27/28
 #	PUNC 
 #		Punctuation based on the oldest manuscripts
 #	EDITIONS
@@ -1427,13 +1427,20 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 		}
 
 		// TAGNT entry type
+		// "NA=TR"	=NA same TR				133304 words are translated in both traditional KJV and modern Bibles.	NA27/28 + TR + others all having the same meaning
+		// "NA~TR"	=NA diff TR				3922 words may translate differently in traditional and modern Bibles.	NA27/28 + others having the same meaning but there are.also .. 	| Variants = different meanings in TR + others
+		// "NA-TR"	=NA not TR				761 words are translated in most modern Bibles but not in the KJV.		NA27/28 + others having the same meaning but not TR
+		// "KJV"	=TR not NA,NIV/ESV		3573 words are translated in the KJV but not in most modern Bibles.		TR + others having the same meaning but not NA27/28
+		// "KJV+"	=TR not NA. In NIV/ESV	??? 3573 words are translated in the KJV but not in most modern Bibles.	TR + others having the same meaning but not NA27/28
+		// "KJV++"	=TR+NIV/ESV not NA		227 words are translated in the KJV and in some modern Bibles.			TR + others having the same meaning but not NA27/28
+		// "NATR?"	Not in NA or TR			245 words occur in early manuscripts but not translated in most Bibles.	Others having a word that is not found in TR or NA27/28
 		if (preg_match('#^=NA same TR#',$line['TYPE'])) {					$entry="NA=TR"; }
-		else if (preg_match('#^=NA diff TR.*#',$line['TYPE'])) {			$entry="NA!=TR"; }
-		else if (preg_match('#^=NA not TR.*#',$line['TYPE'])) {				$entry="NA"; }
-		else if (preg_match('#^=TR\+NIV\/ESV not NA.*#',$line['TYPE'])) {	$entry="NIV"; }
-		else if (preg_match('#^=TR not NA or NIV\/ESV.*#',$line['TYPE'])) {	$entry="TR"; }
-		else if (preg_match('#^=TR not NA. In NIV\/ESV.*#',$line['TYPE'])) {$entry="TR+"; }
-		else if (preg_match('#^Not in NA or TR.*#',$line['TYPE'])) {		$entry="Other"; }
+		else if (preg_match('#^=NA diff TR.*#',$line['TYPE'])) {			$entry="NA~TR"; }
+		else if (preg_match('#^=NA not TR.*#',$line['TYPE'])) {				$entry="NA-TR"; }
+		else if (preg_match('#^=TR not NA or NIV\/ESV.*#',$line['TYPE'])) {	$entry="KJV"; }
+		else if (preg_match('#^=TR not NA. In NIV\/ESV.*#',$line['TYPE'])) {$entry="KJV+"; }
+		else if (preg_match('#^=TR\+NIV\/ESV not NA.*#',$line['TYPE'])) {	$entry="KJV++"; }
+		else if (preg_match('#^Not in NA or TR.*#',$line['TYPE'])) {		$entry="NATR?"; }
 		else { AION_ECHO("ERROR! $newmess word type missing\n".print_r($line,TRUE)); }
 
 		// spellings
@@ -2264,6 +2271,7 @@ function AION_NEWSTRONGS_STEPBIBLE($hebtag,$hebdex,$heblex,$gretag,$gredex,$grel
 	if (!($fd=fopen($grelex, 'r'))) {								AION_ECHO("ERROR! $newmess !fopen($grelex)"); }
 	// greek loop tags
 	$last_book = "XXX"; $last_vers = 0;
+	$last_wtype = "NA=TR";
 	$line = strtok($contents, "\n");
 	while ($line !== false) {
 		if (!ctype_digit($line[0])) { $line = strtok( "\n" ); continue; }
@@ -2272,30 +2280,43 @@ function AION_NEWSTRONGS_STEPBIBLE($hebtag,$hebdex,$heblex,$gretag,$gredex,$grel
 		$book = strtoupper($book); if (!ctype_digit($book[0])) { $book[1] = strtolower($book[1]); } $book[2] = strtolower($book[2]);
 		if ($book != $last_book) { AION_ECHO("BUILDING Concordant STEPBible! $book"); $last_book = $book; }
 		if ($vers != $last_vers) {
-			$bibledata_ama .= "\n$book $chap:$vers "; $last_vers = $vers;
-			$bibledata_con .= "\n$book $chap:$vers "; $last_vers = $vers;
+			$wtype_close = ($last_wtype=="NA=TR" ? "" : " *$last_wtype)");
+			$bibledata_ama .= ("$wtype_close\n$book $chap:$vers ");
+			$bibledata_con .= ("$wtype_close\n$book $chap:$vers ");
+			$last_vers = $vers;
+			$last_wtype = "NA=TR";
 		}
 		// skip lines
 		if ($strg=="H0" || $strg=="G0") { $line = strtok( "\n" ); continue; }
-		$wordtypes = array(
-			//"NA=TR", 	// =NA same TR		133304 words are translated in both traditional KJV and modern Bibles.	NA27/28 + TR + others all having the same meaning
-			//"NA!=TR",	// =NA diff TR		3922 words may translate differently in traditional and modern Bibles.	NA27/28 + others having the same meaning but there are.also .. 	| Variants = different meanings in TR + others
-			//"NA",		// =NA not TR		761 words are translated in most modern Bibles but not in the KJV.		NA27/28 + others having the same meaning but not TR
-			//"NIV",	// =TR+NIV/ESV not NA		227 words are translated in the KJV and in some modern Bibles.			TR + others having the same meaning but not NA27/28
-			//"TR+",	// =TR not NA. In NIV/ESV	
-			"TR",		// =TR not NA,NIV/ESV		3573 words are translated in the KJV but not in most modern Bibles.		TR + others having the same meaning but not NA27/28
-			"Other",	// Not in NA or TR			245 words occur in early manuscripts but not translated in most Bibles.	Others having a word that is not found in TR or NA27/28
-			);
-		if ($wtype=="TR" || $wtype=="Other") { $line = strtok( "\n" ); continue; }
 		// lexicon entry
 		if (empty($index[$strg])) { 								AION_ECHO("ERROR! $newmess lex dex not found: $line"); }
 		if (fseek($fd, $index[$strg]) || !($entry=fgets($fd)) ||
 			!preg_match("#^$strg\t#u",$entry)) {					AION_ECHO("ERROR! $newmess dex lex not found, index=".$index[$strg].": $line, $entry"); }
 		$defs = explode("\t",$entry);
-		$bibledata_ama .= (" ".$amal);
-		$bibledata_con .= (" ".$defs[3]);
+		$word = $defs[3];
+		// TAGNT entry type
+		// "NA=TR"	=NA same TR				133304 words are translated in both traditional KJV and modern Bibles.	NA27/28 + TR + others all having the same meaning
+		// "NA~TR"	=NA diff TR				3922 words may translate differently in traditional and modern Bibles.	NA27/28 + others having the same meaning but there are.also .. 	| Variants = different meanings in TR + others
+		// "NA!TR"	=NA not TR				761 words are translated in most modern Bibles but not in the KJV.		NA27/28 + others having the same meaning but not TR
+		// "KJV"	=TR not NA,NIV/ESV		3573 words are translated in the KJV but not in most modern Bibles.		TR + others having the same meaning but not NA27/28
+		// "KJV+"	=TR not NA. In NIV/ESV	??? 3573 words are translated in the KJV but not in most modern Bibles.	TR + others having the same meaning but not NA27/28
+		// "KJV++"	=TR+NIV/ESV not NA		227 words are translated in the KJV and in some modern Bibles.			TR + others having the same meaning but not NA27/28
+		// "NATR?"	Not in NA or TR			245 words occur in early manuscripts but not translated in most Bibles.	Others having a word that is not found in TR or NA27/28
+		if ($wtype==$last_wtype) {			$wtype_close = "";					$wtype_open = " "; }
+		else if ($wtype=="NA=TR") {			$wtype_close = " *$last_wtype)";	$wtype_open = " "; }
+		else  if ($last_wtype!="NA=TR") { 	$wtype_close = " *$last_wtype)";	$wtype_open = " (* "; }
+		else {							 	$wtype_close = "";					$wtype_open = " (* "; }
+		$last_wtype = $wtype;
+		// build the bible word by word
+		$bibledata_ama .= "$wtype_close$wtype_open$amal";
+		$bibledata_con .= "$wtype_close$wtype_open$word";
 		$line = strtok( "\n" );
 	}
+	// last wtype
+	$wtype_close = ($last_wtype=="NA=TR" ? "" : " *$last_wtype)");
+	$bibledata_ama .= ("$wtype_close\n");
+	$bibledata_con .= ("$wtype_close\n");	
+	// close
 	fclose($fd);
 	unset($contents); $contents=NULL;
 	unset($index); $index=NULL;
@@ -2304,16 +2325,15 @@ function AION_NEWSTRONGS_STEPBIBLE($hebtag,$hebdex,$heblex,$gretag,$gredex,$grel
 	if (!($bibledata_ama=preg_replace("#\[obj\.\]#ui", "[definite]", $bibledata_ama))) {	AION_ECHO("ERROR! $newmess: preg_replace([obj.])"); }
 	if (!($bibledata_con=preg_replace("#\[obj\.\]#ui", "[definite]", $bibledata_con))) {	AION_ECHO("ERROR! $newmess: preg_replace([obj.])"); }	
 
-	if (!($bibledata_ama=preg_replace("#[ ]+#u", " ", $bibledata_ama))) {				AION_ECHO("ERROR! $newmess: preg_replace(spaces)"); }	
-	if (!($bibledata_con=preg_replace("#[ ]+#u", " ", $bibledata_con))) {				AION_ECHO("ERROR! $newmess: preg_replace(spaces)"); }
+	if (!($bibledata_ama=preg_replace("#[ ]+#u", " ", $bibledata_ama))) {					AION_ECHO("ERROR! $newmess: preg_replace(spaces)"); }	
+	if (!($bibledata_con=preg_replace("#[ ]+#u", " ", $bibledata_con))) {					AION_ECHO("ERROR! $newmess: preg_replace(spaces)"); }
 
-	if (!($bibledata_ama=preg_replace("#<the>#ui", "(the)", $bibledata_ama))) {			AION_ECHO("ERROR! $newmess: preg_replace(spaces)"); }	
-	if (!($bibledata_con=preg_replace("#<the>#ui", "(the)", $bibledata_con))) {			AION_ECHO("ERROR! $newmess: preg_replace(spaces)"); }
+	if (!($bibledata_ama=preg_replace("#<the>#ui", "(the)", $bibledata_ama))) {				AION_ECHO("ERROR! $newmess: preg_replace(spaces)"); }	
+	if (!($bibledata_con=preg_replace("#<the>#ui", "(the)", $bibledata_con))) {				AION_ECHO("ERROR! $newmess: preg_replace(spaces)"); }
 	
 	// write the Bible
-	if (file_put_contents($bible_ama,$bibledata_ama."\n") === FALSE ) {					AION_ECHO("ERROR! $newmess file_put_contents($bible_ama)" ); }
-	if (file_put_contents($bible_con,$bibledata_con."\n") === FALSE ) {					AION_ECHO("ERROR! $newmess file_put_contents($bible_con)" ); }
-
+	if (file_put_contents($bible_ama,$bibledata_ama) === FALSE ) {							AION_ECHO("ERROR! $newmess file_put_contents($bible_ama)" ); }
+	if (file_put_contents($bible_con,$bibledata_con) === FALSE ) {							AION_ECHO("ERROR! $newmess file_put_contents($bible_con)" ); }
 	// done
 	AION_ECHO("DONE $newmess");
 	return;
