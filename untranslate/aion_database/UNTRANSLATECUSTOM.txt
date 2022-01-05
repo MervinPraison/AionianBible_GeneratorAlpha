@@ -261,7 +261,7 @@ Holy-Bible---English---Aionian-Bible	056	TIT	002	012	SWAP		AIONS	instructing us 
 Holy-Bible---English---Aionian-Bible	056	TIT	003	007	SWAP		AIONIAN	that being justified by his grace, we might be made heirs according to the hope of the consummate (aiōnios g166) life.
 Holy-Bible---English---Aionian-Bible	057	PHM	001	015	SWAP		AIONIAN	For perhaps he was therefore separated from you briefly, that you would now have him wholly (aiōnios g166),
 Holy-Bible---English---Aionian-Bible	058	HEB	001	002	SWAP		AIONS	has at the end of these days spoken to us by his Son, whom he appointed heir of all things, through whom also he made the ages (aiōn g165).
-Holy-Bible---English---Aionian-Bible	058	HEB	001	008	SWAP		AIONS	But of the Son he says, “Your throne, O God, is for the age (aiōn g165) of the age (aiōn g165).  The scepter of uprightness is the scepter of your Kingdom.
+Holy-Bible---English---Aionian-Bible	058	HEB	001	008	SWAP		AIONS	But of the Son he says, “Your throne, O God, is for the age (aiōn g165) of the ages (aiōn g165).  The scepter of uprightness is the scepter of your Kingdom.
 Holy-Bible---English---Aionian-Bible	058	HEB	005	006	SWAP		AIONS	As he says also in another place, “You are a priest for the age (aiōn g165), after the order of Melchizedek.”
 Holy-Bible---English---Aionian-Bible	058	HEB	005	009	SWAP		AIONIAN	Having been made perfect, he became to all of those who obey him the author of consummate (aiōnios g166) salvation,
 Holy-Bible---English---Aionian-Bible	058	HEB	006	002	SWAP		AIONIAN	of the teaching of baptisms, of laying on of hands, of resurrection of the dead, and of consummate (aiōnios g166) judgment.
