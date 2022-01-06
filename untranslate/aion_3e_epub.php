@@ -809,6 +809,7 @@ $versionSS_CP .= $G_VERSIONS['SOURCEVERSION'];
 $versionSS_CP .= "Source copyright: ".$G_VERSIONS['COPYRIGHT']."<br />";
 $versionSS_CP .= $G_VERSIONS['SOURCE'].(empty($G_VERSIONS['YEAR']) ? "" : ", ".$G_VERSIONS['YEAR'])."<br />";
 $versionSS_CP .= (empty($G_VERSIONS['DESCRIPTION']) ? "" : $G_VERSIONS['DESCRIPTION']."<br />");
+$onlinelink = "http://www.AionianBible.org/Bibles/".str_replace("Holy-Bible---","",$G_VERSIONS['BIBLE']);
 $epublink = "http://resources.AionianBible.org/".$G_VERSIONS['BIBLE']."---Aionian-Edition.epub";
 $rundate = date("n/j/Y");
 if (NULL===($extension_text=preg_replace("#<[^<>]*>#ui"," ",trim($G_FORPRINT['EXTENSION'])))) { AION_ECHO("ERROR! preg_replace(<>)".$G_FORPRINT['BIBLE']." ".$G_FORPRINT['EXTENSION']); }
@@ -839,7 +840,7 @@ $versionSS_CP
 <br />
 Published by Nainoia Inc<br />
 Formatted by ABCMS on $rundate<br />
-<a href='$epublink' target='_blank' title='Download this ePub'>Download this ePub!</a><br />
+<a href='$onlinelink' target='_blank' title='Read online'>Read online</a> or <a href='$epublink' target='_blank' title='Download this ePub'>download this ePub!</a><br />
 <br />
 We pray for a modern public domain translation in every language. Report concerns to <a href='http://nainoia-inc.signedon.net/' target='_blank' title='Publisher of the Holy Bible Aionian Edition'>Nainoia Inc</a>. Volunteer help appreciated! Given to our family, friends, and fellowman for Christ’s victory of grace!<br />
 <br />$extension_text
