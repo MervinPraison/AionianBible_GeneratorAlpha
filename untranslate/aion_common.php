@@ -201,8 +201,7 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $domain, $allbibl
 		// study pack
 		$lang = strtok($version[C_LANGUAGEENGLISH],", ");
 		AION_ECHO("AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---$lang---A-StudyPack.zip"); 
-		$pack = (AION_filesize("../www-resources/Holy-Bible---$lang---A-StudyPack.zip") ? "http://resources.AionianBible.org/Holy-Bible---$lang---A-StudyPack.zip" :
-				(AION_filesize("../www-resources/Holy-Bible---English---A-StudyPack.zip") ? "http://resources.AionianBible.org/Holy-Bible---English---A-StudyPack.zip" : NULL));
+		$pack = (AION_filesize("../www-resources/Holy-Bible---$lang---A-StudyPack.zip") ? "http://resources.AionianBible.org/Holy-Bible---$lang---A-StudyPack.zip" : "http://resources.AionianBible.org/AB-StudyPack");
 
 		// Source txt filename
 		$sour = (

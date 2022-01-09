@@ -12,6 +12,8 @@
 # Publisher Facebook: https://www.Facebook.com/AionianBible
 #
 # File Types:
+#	AB-StudyPack/ ~ Resource for Bible translation and study of underlying languages.
+#	Gustave-Dore-La-Grande-Bible-de-Tours/ ~ Illustrations from Gustave Doré's, La Grande Bible de Tours
 #	AB-Readme.md ~ This file
 #	AB-Fonts.zip ~ Fonts need to generate PDFs with Speedata Publisher
 #	AB-Images.zip ~ Images need to generate PDFs with Speedata Publisher
