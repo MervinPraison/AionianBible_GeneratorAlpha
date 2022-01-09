@@ -1,865 +1,542 @@
 *** AION: INCLUDE aion_common
 *** AION: START aion_5_index.sh
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 748
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 202
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Albanian-Tosk---Albanian-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 226
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Amo---Amo-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 740
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 208
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 782
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 224
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Arabic---New-Arabic-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 194
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Aramaic---Aramaic-NT-Peshitta.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 62
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Arapaho---Arapaho-Luke.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 222
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Armenian---Armenian-Bible-Eastern.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 272
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Armenian---Armenian-Bible-Western.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 798
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 222
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Assamese---Assamese-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 776
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 218
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Azerbaijani---Azerbaijani-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 222
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Basque---Basque-NT.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 44
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Beaver---Beaver-Mark.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 772
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 214
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Bengali---Bengali-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 108
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Breton---Breton-Gospels.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 768
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 204
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Bulgarian---Bulgarian-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 54
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Calo---Calo-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 784
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 214
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Cebuano---Cebuano-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 178
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 278
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Cherokee---Cherokee-New-Testament.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 770
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 216
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 792
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 220
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Chin-Matu---Matupi-Chin-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 316
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 226
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Chin-Siyin---Siyin-Chin-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 754
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 210
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Chin-Thado---Chongthu-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 722
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 202
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Chinese---Chinese-Union-Version-Simplified.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 728
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 204
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Chinese---Chinese-Union-Version-Traditional.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 314
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Coptic---Coptic-Boharic-NT.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 270
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Coptic---Coptic-NT.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 638
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 172
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Croatian---Croatian-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 684
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 184
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Czech---Czech-Bible-Kralicka.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 706
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 202
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Danish---Danish-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 226
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Dombe---Dombe-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 786
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 218
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Dutch---Canisiusvertaling.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 748
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 202
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Dutch---Statenvertaling.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 778
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 208
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---A-Conservative-Version.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 758
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 204
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Aionian-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 788
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 208
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---American-Standard-Version-1901.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 792
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 218
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Bible-in-Basic-English.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 668
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Brenton-English-Septuagint.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 666
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---British-English-Septuagint-2012.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 758
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 204
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Catholic-Public-Domain.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 778
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 208
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Darby-Translation.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 772
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 208
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Douay-Rheims-1899.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 208
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Family-35-NT.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 760
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 212
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Free-Bible-Version.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 800
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Geneva-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 52
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Gods-Living-Word.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 608
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Jewish-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 788
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 208
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---King-James-Version.php
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---King-James-Version-American.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 784
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 208
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---King-James-Version-Updated.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 666
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---LXX2012-U-S-English.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 210
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Montgomery-NT.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 770
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 206
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---New-Heart-Aramaic.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 770
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 206
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---New-Heart-Jehovah.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 770
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 206
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---New-Heart-Jesus-Messiah.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 774
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 208
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---New-Heart-Messianic.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 770
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 206
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---New-Heart-Standard.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 768
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 206
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---New-Heart-YHWH.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 360
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---One-Unity-Resource-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 288
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Open-English-Bible-Commonwealth.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 288
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Open-English-Bible-US.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 788
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 208
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Revised-Version.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 774
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 208
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Rotherham-Bible.php
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---STEPBible-Amalgamant.php
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---STEPBible-Concordant.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 790
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Trans-Trans.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 218
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Twentieth-Century-NT.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 206
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Tyndale-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 778
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 210
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Unlocked-Literal-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 786
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 208
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Webster-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 782
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 208
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Webster-Bible-Revised.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 224
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Weymouth-NT.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 758
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 204
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---World-English-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 760
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 204
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---World-English-Bible-British-Edition.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 762
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 206
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---World-Messianic-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 762
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 206
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---World-Messianic-Bible-British-Edition.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 790
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Wycliffe-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 788
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 212
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---English---Youngs-Literal-Translation.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 776
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 206
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Esperanto---Esperanto-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 778
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 214
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Finnish---Finnish-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 770
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 214
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Finnish---Finnish-Pyha-Raamattu.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 222
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Flemish---Flemish-De-Jonge-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 780
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 216
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---French---French-Crampon-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 786
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 218
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---French---French-Darby-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 596
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---French---French-Khan-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 594
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---French---French-LXX.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 774
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 216
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---French---French-Louis-Segond-1910-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 768
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 208
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---French---French-Martin.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 218
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---French---French-Oltramare-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 780
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 218
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---French---French-Ostervald-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 782
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---French---French-Perret-Gentil-Rilliet.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 218
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---French---French-Stapfer-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 264
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---French---French-Synodale-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 788
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 216
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---German---German-Elberfelder-1871.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 780
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 210
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---German---German-Elberfelder-1905.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 786
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 224
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---German---German-Katholiche-Riessler.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 780
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 204
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---German---German-Kautzsch-Weizsacker.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 778
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 224
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---German---German-Luther-Bible-1545.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 796
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 222
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---German---German-Luther-Bible-1912.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 112
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---German---German-Reinhardt-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 706
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 222
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---German---German-Tafel-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 232
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Gourma---Gourma-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 220
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Gourmantche---Gourmantche-Bible.php
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-Antoniades.php
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-Byzantine-Majority.php
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-LXX-Septuagint.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 336
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-Majority-Text.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 338
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-Nestle.php
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-Pickering-Family-35.php
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-Textus-Receptus.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 344
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd.php
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-Textus-Receptus-Elzevir.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 336
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-Tischendorf.php
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-Tregelles.php
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Greek---Greek-Westcott-Hort.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 782
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 214
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Gujarati---Gujarati-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 754
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 214
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Haitian---Haitian-Creole-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 790
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 214
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Hawaiian---Hawaiian-Bible-1868.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 722
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Hebrew---Hebrew-Aleppo-Codex.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 750
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 748
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 794
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 234
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Hebrew---Modern-Hebrew-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 770
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 208
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Hindi---Hindi-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 754
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 210
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Hungarian---Hungarian-Karoli.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 794
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 220
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Ilocano---Ilocano-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 796
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 244
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 220
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Isanzu---Isanzu-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 724
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 200
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Italian---Conferenza-Episcopale-Italiana.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 786
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 210
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 756
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 202
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Italian---Italian-Riveduta-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 278
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Japanese---Japanese-Bungo-yaku.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 248
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Japanese---Japanese-Electronic-Network-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 796
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 228
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Japanese---Japanese-Kougo-yaku.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 370
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Japanese---Japanese-Meiji-yaku.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 282
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Japanese---Japanese-Raguet-yaku.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 356
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Japanese---New-Japanese-New-Testament.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 790
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 224
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Kannada---Kannada-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 238
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Kara---Kara-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 232
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Kinga---Mahanji-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 238
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Kisi---Kisi-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 764
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 210
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Korean---Korean-RV.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 786
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 228
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Kosraean---Kosraean-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 218
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Kuhane---Kuhane-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 772
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 208
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Latin---Clementine-Vulgate-1598.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 772
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Latin---Clementine-Vulgate-Conte.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 772
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Latin---Clementine-Vulgate-Hetzenauer.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 772
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Latin---Clementine-Vulgate-Tweedale.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 776
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Latin---Vulgata-Sistina.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 758
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Latin---Vulgate-Jerome.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 774
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 210
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Latvian---Latvian-Gluck-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 796
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 218
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Malagasy---Malagasy-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 790
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 220
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Malayalam---Malayalam-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 786
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 216
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Maori---Maori-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 774
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 218
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Marathi---Marathi-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 260
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Mwera---Mwera-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 796
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 232
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Myanmar---Burmese-Common-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 796
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 234
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Myanmar---Myanmar-Burmese-Judson.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 798
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 212
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Ndebele---Ndebele-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 220
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Ndengereko---Ndengereko-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 778
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 218
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Nepali---Nepali-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 710
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 196
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Norwegian---Norwegian-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 716
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 200
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Norwegian---Norwegian-Student-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 788
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 218
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Oriya---Oriya-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 780
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 214
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Panjabi---Punjabi-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 718
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 196
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Persian---Old-Persion-Version-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 238
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 228
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 742
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Polish---Polish-Gdansk.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 722
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 198
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Polish---Polish-Updated-Gdansk.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 764
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 204
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Portuguese---Almeida-Bible-1911.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 760
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 204
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Portuguese---Almeida-NewOrthography.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 758
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 206
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Portuguese---Biblia-Livre.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 388
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Portuguese---Portuguese-Trans-Trans.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 54
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Romani-Vlax---Arli-Luke.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 54
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Romani-Vlax---Chergash-Luke.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 52
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Romani-Vlax---Gurbet-Luke.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 52
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Romanian---Bayash-Luke.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 54
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Romanian---Ludari-Luke.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 328
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Rote-Dela---Rote-Dela-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 734
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 196
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Russian---Russian-Synodal-Translation.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 216
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Safwa---Safwa-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 44
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 638
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 176
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 678
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 184
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Serbian---Serbian-Ekavski-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 212
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Shona---Shona-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 706
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 636
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 194
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Slovene---Slovene-Savli-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 218
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Slovene---Slovene-Stritarja-NT.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 776
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 200
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Somali---Somali-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 642
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 226
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Spanish---Free-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 744
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Spanish---Reina-Valera-1865.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 740
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 202
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Spanish---Reina-Valera-1909.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 202
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Spanish---Reina-Valera-NT-1858.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 750
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 204
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Spanish---Sagradas-Escrituras-1569.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 786
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 216
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Spanish---Sencillo-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 780
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 216
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Swahili---New-Swahili-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 218
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Swahili---Swahili-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 782
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 218
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Swedish---Swedish-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 734
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Swedish---Swedish-Bible-1873.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 782
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 214
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Tagalog---Tagalog-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 792
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 218
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 798
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 224
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Tamil---Tamil-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 792
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 218
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Telugu---Telugu-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 786
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 208
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Tongan---Revised-West-Version.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 672
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 196
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Turkish---Turkish-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 184
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Ukrainian---Ukrainian-NT.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 714
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 192
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Ukrainian---Ukrainian-Ogienko.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 766
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 208
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Urdu---Urdu-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 788
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 224
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Uyghur---Uyghur-Bible-Arabic.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 796
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 224
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 794
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 224
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Uyghur---Uyghur-Bible-Latin.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 784
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 220
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Uyghur---Uyghur-Bible-Pinyin.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 792
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 218
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Vietnamese---Vietnamese-Bible.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 786
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 216
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Vietnamese---Vietnamese-Bible-1934.php
-Picked up _JAVA_OPTIONS: -Xms2048m -Xmx2048m
 NumberOfPages: 238
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Vwanji---Vwanji-Bible.php
 *** AION: LOOP DONE! Function=AION_LOOP_HTMS_DOIT Files processed=216

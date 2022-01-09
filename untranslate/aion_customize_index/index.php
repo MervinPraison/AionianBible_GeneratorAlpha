@@ -26,7 +26,7 @@ else if ($_Path==='Readers-Guide') {					$_meta = " ~ Readers Guide";								abc
 else if ($_Path==='Aionios-and-Aidios') {				$_meta = " ~ Aiōnios and Aïdios";							abcms_page('docs/aionios-and-aidios.htm'); }
 else if ($_Path==='Promote') {							$_meta = " ~ Promote, Sponsor, Advertise, Market";			abcms_page('docs/promote.htm'); }
 else if ($_Path==='Bible-Cover') {						$_meta = " ~ Aionian Bible Branded Leather Bible Covers";	abcms_page('docs/cover.htm'); }
-else if ($_Path==='AppleApp') {							$_meta = " ~ Apple iPhone App";								abcms_page('docs/appleapp.htm'); }
+else if ($_Path==='Apple-iOS-App') {					$_meta = " ~ Apple iOS App";								abcms_page('docs/appleiosapp.htm'); }
 else if ($_Path==='Third-Party-Publisher-Resources') {	$_meta = " ~ Third Party Publisher Resources";				abcms_page('docs/third-party-publisher-resources.htm'); }
 else if (!preg_match('/^[a-zA-Z0-9\-\/]+$/',$_Path)) {																abcms_notf(); }
 if (($_para = (preg_match('#(/parallel-[^/]+)#',$_Path,$matches) ? $matches[1] : NULL))) {	$_paraC = str_replace('/parallel-','',$_para);	$_Path = preg_replace('#(/parallel-[^/]+)#','',$_Path); }

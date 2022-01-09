@@ -197,6 +197,13 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $domain, $allbibl
 		$okay = $destiny.'/'.$version[C_BIBLE];
 		$bpub = $destiny.'/epub/'.$version[C_BIBLE];
 		$boli = $destiny.'/online/'.$version[C_BIBLE];
+
+		// study pack
+		$lang = strtok($version[C_LANGUAGEENGLISH],", ");
+		AION_ECHO("AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---$lang---A-StudyPack.zip"); 
+		$pack = (AION_filesize("../www-resources/Holy-Bible---$lang---A-StudyPack.zip") ? "http://resources.AionianBible.org/Holy-Bible---$lang---A-StudyPack.zip" :
+				(AION_filesize("../www-resources/Holy-Bible---English---A-StudyPack.zip") ? "http://resources.AionianBible.org/Holy-Bible---English---A-StudyPack.zip" : NULL));
+
 		// Source txt filename
 		$sour = (
 			(is_file($base.'---Source-Edition.STEP.txt')	? '---Source-Edition.STEP.txt' :
@@ -279,12 +286,13 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $domain, $allbibl
 		(empty($database[$version[C_BIBLE]][T_VERSIONS]['EXTENSION'])? '' : ("\n<div class='field-field'><div class='field-label'>Additional Information:<br /></div><div class='field-value'>".$database[$version[C_BIBLE]][T_VERSIONS]['EXTENSION']."</div></div>")).
         		
 		"\n<div class='field-header'>Downloads:</div><div class='field-field'><div class='field-links decorated'>".
-		"<a href='https://play.google.com/store/apps/details?id=net.signedon.aionianbible.aionianbible' target='_blank' title='Aionian Bible free on Google Play Store'>Google Play Android App</a>".
+		"<a href='https://play.google.com/store/apps/details?id=net.signedon.aionianbible.aionianbible' target='_blank' title='Aionian Bible free at Google Play Store'>Android App</a>".
         (is_dir(  $bpub.'---Aionian-Edition')					?(", <a href='/epub/"			.$version[C_BIBLE]	."---Aionian-Edition' target='_blank' title='Aionian Bible ePub Futurepress'>Futurepress</a>") :'').
         (is_dir(  $bpub.'---Aionian-Edition')					?(", <a href='/Readium/"		.$version[C_BIBLE]	."---Aionian-Edition' target='_blank' title='Aionian Bible ePub Readium'>Readium</a>") :'').
 		(AION_filesize($base.'---Aionian-Edition.epub')			?(", <a href='http://$domain/"	.$version[C_BIBLE]	."---Aionian-Edition.epub' download title='Aionian Bible ePub format download'>ePub</a>") :'').
 		(AION_filesize($base.'---Aionian-Edition.pdf')			?(", <a href='http://$domain/"	.$version[C_BIBLE]	."---Aionian-Edition.pdf' target='_blank' title='Aionian Bible PDF format'>PDF</a>") :'').
-		(AION_filesize($base.'---Aionian-Edition---STUDY.pdf')	?(", <a href='http://$domain/"	.$version[C_BIBLE]	."---Aionian-Edition---STUDY.pdf' target='_blank' title='Aionian Bible PDF study format'>PDF Study Format</a>") :'').
+		(AION_filesize($base.'---Aionian-Edition---STUDY.pdf')	?(", <a href='http://$domain/"	.$version[C_BIBLE]	."---Aionian-Edition---STUDY.pdf' target='_blank' title='Aionian Bible PDF study format'>Study PDF</a>") :'').
+		($pack													?(", <a href='$pack' target='_blank' title='Aionian Bible Study Pack'>Study Pack</a>") :'').
 		(AION_filesize($base.'---Aionian-Edition.noia')			?(", <a href='http://$domain/"	.$version[C_BIBLE]	."---Aionian-Edition.noia' download title='Aionian Bible with annotations data format download'>Annotated Datafile</a>") :'').
 		(AION_filesize($base.'---Standard-Edition.noia')		?(", <a href='http://$domain/"	.$version[C_BIBLE]	."---Standard-Edition.noia' download title='Standard Bible data format download'>Standard Datafile</a>") :'').
 		", <a href='http://Resources.AionianBible.org' target='_blank' title='All Aionian Bible resources for download'>Everything</a>".

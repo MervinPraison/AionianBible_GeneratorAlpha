@@ -3608,7 +3608,7 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---Rotherham-Bible: Empty verse skipped: ACT 028 029 
 *** AION: WARNING REMAPPED = Holy-Bible---English---Rotherham-Bible: Empty verse skipped: ROM 016 024 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---English---Rotherham-Bible---Source-Edition.SWORD.txt to ../www-stageresources/Holy-Bible---English---Rotherham-Bible---Standard-Edition.noia byte=6104714 rows=31086
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---STEPBible-Amalgamant,  byte-orig = 4576189,  byte-fix = 4576189,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---STEPBible-Amalgamant,  byte-orig = 4576194,  byte-fix = 4576194,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Amalgamant	019	PSA	003	002:	many to say to/for soul my nothing salvation to/for him in/on/with God (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Amalgamant	019	PSA	003	004:	voice my to(wards) YHWH/Lord to call and to answer me from mountain holiness his (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Amalgamant	019	PSA	003	008:	to/for YHWH/Lord [the] salvation upon people your blessing your (Selah) 
@@ -3684,7 +3684,7 @@
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Amalgamant	035	HAB	003	009:	nakedness be exposed bow your oath tribe word (Selah) river to break up/open land
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Amalgamant	035	HAB	003	013:	to come out to/for salvation people your to/for salvation [definite] anointed your to wound head from house wicked to uncover foundation till neck (Selah) 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt to ../www-stageresources/Holy-Bible---English---STEPBible-Amalgamant---Standard-Edition.noia byte=6104587 rows=31102
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---STEPBible-Concordant,  byte-orig = 4789086,  byte-fix = 4789086,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---STEPBible-Concordant,  byte-orig = 4789091,  byte-fix = 4789091,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Concordant	019	PSA	003	002:	many to say to/for soul my nothing salvation to/for him in/on/with God (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Concordant	019	PSA	003	004:	voice my to(wards) YHWH/Lord to call and to answer me from mountain holiness his (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---STEPBible-Concordant	019	PSA	003	008:	to/for YHWH/Lord [the] salvation upon people your blessing your (Selah) 
@@ -15224,10 +15224,10 @@ EPUBCheck completed
 *** AION: DIFF REG: ../www-stage/library/Holy-Bible---English---Revised-Version---Aionian-Verses.json VS ../www-production/library/Holy-Bible---English---Revised-Version---Aionian-Verses.json
 *** AION: DIFF REG: ../www-stage/library/Holy-Bible---English---Rotherham-Bible---Aionian-Edition.json VS ../www-production/library/Holy-Bible---English---Rotherham-Bible---Aionian-Edition.json
 *** AION: DIFF REG: ../www-stage/library/Holy-Bible---English---Rotherham-Bible---Aionian-Verses.json VS ../www-production/library/Holy-Bible---English---Rotherham-Bible---Aionian-Verses.json
-*** AION: MISSING: ../www-stage/library/Holy-Bible---English---STEPBible-Amalgamant---Aionian-Edition.json VS ../www-production/library/Holy-Bible---English---STEPBible-Amalgamant---Aionian-Edition.json
-*** AION: MISSING: ../www-stage/library/Holy-Bible---English---STEPBible-Amalgamant---Aionian-Verses.json VS ../www-production/library/Holy-Bible---English---STEPBible-Amalgamant---Aionian-Verses.json
-*** AION: MISSING: ../www-stage/library/Holy-Bible---English---STEPBible-Concordant---Aionian-Edition.json VS ../www-production/library/Holy-Bible---English---STEPBible-Concordant---Aionian-Edition.json
-*** AION: MISSING: ../www-stage/library/Holy-Bible---English---STEPBible-Concordant---Aionian-Verses.json VS ../www-production/library/Holy-Bible---English---STEPBible-Concordant---Aionian-Verses.json
+*** AION: DIFF REG: ../www-stage/library/Holy-Bible---English---STEPBible-Amalgamant---Aionian-Edition.json VS ../www-production/library/Holy-Bible---English---STEPBible-Amalgamant---Aionian-Edition.json
+*** AION: DIFF REG: ../www-stage/library/Holy-Bible---English---STEPBible-Amalgamant---Aionian-Verses.json VS ../www-production/library/Holy-Bible---English---STEPBible-Amalgamant---Aionian-Verses.json
+*** AION: DIFF REG: ../www-stage/library/Holy-Bible---English---STEPBible-Concordant---Aionian-Edition.json VS ../www-production/library/Holy-Bible---English---STEPBible-Concordant---Aionian-Edition.json
+*** AION: DIFF REG: ../www-stage/library/Holy-Bible---English---STEPBible-Concordant---Aionian-Verses.json VS ../www-production/library/Holy-Bible---English---STEPBible-Concordant---Aionian-Verses.json
 *** AION: DIFF REG: ../www-stage/library/Holy-Bible---English---Trans-Trans---Aionian-Edition.json VS ../www-production/library/Holy-Bible---English---Trans-Trans---Aionian-Edition.json
 *** AION: DIFF REG: ../www-stage/library/Holy-Bible---English---Trans-Trans---Aionian-Verses.json VS ../www-production/library/Holy-Bible---English---Trans-Trans---Aionian-Verses.json
 *** AION: DIFF REG: ../www-stage/library/Holy-Bible---English---Twentieth-Century-NT---Aionian-Edition.json VS ../www-production/library/Holy-Bible---English---Twentieth-Century-NT---Aionian-Edition.json
@@ -15701,10 +15701,10 @@ EPUBCheck completed
 *** AION: DIFF REG: ../www-stageresources/Holy-Bible---English---Revised-Version---Standard-Edition.noia VS ../www-resources/Holy-Bible---English---Revised-Version---Standard-Edition.noia
 *** AION: DIFF REG: ../www-stageresources/Holy-Bible---English---Rotherham-Bible---Aionian-Edition.noia VS ../www-resources/Holy-Bible---English---Rotherham-Bible---Aionian-Edition.noia
 *** AION: DIFF REG: ../www-stageresources/Holy-Bible---English---Rotherham-Bible---Standard-Edition.noia VS ../www-resources/Holy-Bible---English---Rotherham-Bible---Standard-Edition.noia
-*** AION: MISSING: ../www-stageresources/Holy-Bible---English---STEPBible-Amalgamant---Aionian-Edition.noia VS ../www-resources/Holy-Bible---English---STEPBible-Amalgamant---Aionian-Edition.noia
-*** AION: MISSING: ../www-stageresources/Holy-Bible---English---STEPBible-Amalgamant---Standard-Edition.noia VS ../www-resources/Holy-Bible---English---STEPBible-Amalgamant---Standard-Edition.noia
-*** AION: MISSING: ../www-stageresources/Holy-Bible---English---STEPBible-Concordant---Aionian-Edition.noia VS ../www-resources/Holy-Bible---English---STEPBible-Concordant---Aionian-Edition.noia
-*** AION: MISSING: ../www-stageresources/Holy-Bible---English---STEPBible-Concordant---Standard-Edition.noia VS ../www-resources/Holy-Bible---English---STEPBible-Concordant---Standard-Edition.noia
+*** AION: DIFF REG: ../www-stageresources/Holy-Bible---English---STEPBible-Amalgamant---Aionian-Edition.noia VS ../www-resources/Holy-Bible---English---STEPBible-Amalgamant---Aionian-Edition.noia
+*** AION: DIFF REG: ../www-stageresources/Holy-Bible---English---STEPBible-Amalgamant---Standard-Edition.noia VS ../www-resources/Holy-Bible---English---STEPBible-Amalgamant---Standard-Edition.noia
+*** AION: DIFF REG: ../www-stageresources/Holy-Bible---English---STEPBible-Concordant---Aionian-Edition.noia VS ../www-resources/Holy-Bible---English---STEPBible-Concordant---Aionian-Edition.noia
+*** AION: DIFF REG: ../www-stageresources/Holy-Bible---English---STEPBible-Concordant---Standard-Edition.noia VS ../www-resources/Holy-Bible---English---STEPBible-Concordant---Standard-Edition.noia
 *** AION: DIFF REG: ../www-stageresources/Holy-Bible---English---Trans-Trans---Aionian-Edition.noia VS ../www-resources/Holy-Bible---English---Trans-Trans---Aionian-Edition.noia
 *** AION: DIFF ZIP: ../www-stageresources/Holy-Bible---English---Trans-Trans---Source-Edition.epub VS ../www-resources/Holy-Bible---English---Trans-Trans---Source-Edition.epub
 *** AION: DIFF REG: ../www-stageresources/Holy-Bible---English---Trans-Trans---Standard-Edition.noia VS ../www-resources/Holy-Bible---English---Trans-Trans---Standard-Edition.noia

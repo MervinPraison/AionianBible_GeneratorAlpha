@@ -17,6 +17,7 @@ $commands = array(
 	'3e' => 'aion_3e_epub.sh',
 	'3q' => 'aion_3q_stage.sh',
 	'3s' => 'aion_3s_strongs.sh',
+	'3t' => 'aion_3t_translator.sh',
 	'5'  => 'aion_5_index.sh',
 	'6'  => 'aion_6_check.sh',
 	'6q' => 'aion_6q_check.sh',
@@ -35,7 +36,7 @@ echo "\n";
 echo "BEWARE-1: Ok, 3 reads UNTRANSLATEMODULE created by 6 to safeguard UNTRANSLATE,\n";
 echo "BEWARE-2: yet 6 needs 3 VERSEMAP. So UNTRANSLATE and VERSEMAP updates are complicated,\n";
 echo "BEWARE-3: so 3q updates VERSEMAP, 6q updates UNTRANSLATE, then 3 & 6 to finish!\n";
-echo "BUILD---: 0, 1, 0, 2, 3q, COPY, 6q, COPY, 3, COPY 5, 6 (MAGA=Make Aionian Great Again)\n";
+echo "BUILD---: 0, 1, 3s, 0, 2, 3q, COPY, 6q, COPY, 3, COPY 5, 6, 3t (MAGA=Make Aionian Great Again)\n";
 echo "REVIEW--: a*diff.out / checks / checksX-diff / raw-diff-diff / spellcheck-diff / BEFORE-DEPLOY(2)\n";
 echo "DEPLOY--: 9? 7 or 7q\n";
 echo "SPEEDATA: Run and then 'copy -a ../www-stageresources/*Aionian-Edition*.pdf ../www-resources\n";

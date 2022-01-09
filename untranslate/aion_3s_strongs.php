@@ -90,7 +90,6 @@ $STEPBIBLE_AMA = "./aion_source/Holy-Bible---English---STEPBible-Amalgamant---So
 $STEPBIBLE_CON = "./aion_source/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt";
 
 
-
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // UNPACK THE GITHUB ZIP
 system("rm -rf $FOLDER_SOURCE");
@@ -1383,23 +1382,11 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 		if (empty(implode("",$line))) { continue; }
 
 		// Custom reversification, change the reference of the original Greek edition to the KJV standard, only when outside KJV references
-		if ($line['REF'] == '65_3Jn.001.015') {
-			$line['REF'] = '65_3Jn.001.014';
-		}
-		else if ($line['REF'] == '67_Rev.012.018') {
-			$line['REF'] = '67_Rev.013.001';
-		}
-		else if ($line['REF'] == '45_Act.019.040') {
-			++$act1940;
-			if ($act1940>21) { $line['REF'] = '45_Act.019.041'; }
-		}
-		else if ($line['REF'] == '48_2Co.013.012') {
-			++$cor1312;
-			if ($cor1312>5) { $line['REF'] = '48_2Co.013.013'; }
-		}
-		else if ($line['REF'] == '48_2Co.013.013') {
-			$line['REF'] = '48_2Co.013.014';
-		}
+		if ($line['REF'] == '65_3Jn.001.015') {			$line['REF'] = '65_3Jn.001.014'; }
+		else if ($line['REF'] == '67_Rev.012.018') {	$line['REF'] = '67_Rev.013.001'; }
+		else if ($line['REF'] == '45_Act.019.040') {	++$act1940; if ($act1940>21) { $line['REF'] = '45_Act.019.041'; } }
+		else if ($line['REF'] == '48_2Co.013.012') {	++$cor1312;	if ($cor1312>5) { $line['REF'] = '48_2Co.013.013'; } }
+		else if ($line['REF'] == '48_2Co.013.013') {	$line['REF'] = '48_2Co.013.014'; }
 		
 		// INIT
 		$WORDUP = trim($line['WORD']);
