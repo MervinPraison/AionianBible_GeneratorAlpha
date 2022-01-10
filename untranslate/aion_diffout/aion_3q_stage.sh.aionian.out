@@ -2675,7 +2675,7 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---Montgomery-NT: Empty verse skipped: MAR 011 026 
 *** AION: WARNING REMAPPED = Holy-Bible---English---Montgomery-NT: Empty verse skipped: JOH 017 016 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---English---Montgomery-NT---Source-Edition.SWORD.txt to ../www-stageresources/Holy-Bible---English---Montgomery-NT---Standard-Edition.noia byte=1370179 rows=7940
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---New-Heart-Aramaic,  byte-orig = 4345740,  byte-fix = 4345299,  byte-delta = -441,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---New-Heart-Aramaic,  byte-orig = 4376847,  byte-fix = 4376406,  byte-delta = -441,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Aramaic	019	PSA	003	002:	Many there are who say of my soul, "There is no salvation for him in God." (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Aramaic	019	PSA	003	004:	I cried out to the LORD with my voice, and he answered me from his holy mountain. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Aramaic	019	PSA	003	008:	Salvation belongs to the LORD.  Your blessing is upon your people. (Selah) 
@@ -2758,7 +2758,7 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-Aramaic: Empty verse skipped: JOH 005 004 
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-Aramaic: Empty verse skipped: ROM 016 024 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---English---New-Heart-Aramaic---Source-Edition.NHEB.txt to ../www-stageresources/Holy-Bible---English---New-Heart-Aramaic---Standard-Edition.noia byte=5807406 rows=31094
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---New-Heart-Jehovah,  byte-orig = 4338032,  byte-fix = 4337591,  byte-delta = -441,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---New-Heart-Jehovah,  byte-orig = 4369140,  byte-fix = 4368699,  byte-delta = -441,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Jehovah	019	PSA	003	002:	Many there are who say of my soul, "There is no salvation for him in God." (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Jehovah	019	PSA	003	004:	I cried out to Jehovah with my voice, and he answered me from his holy mountain. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Jehovah	019	PSA	003	008:	Salvation belongs to Jehovah.  Your blessing is upon your people. (Selah) 
@@ -2841,7 +2841,7 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-Jehovah: Empty verse skipped: JOH 005 004 
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-Jehovah: Empty verse skipped: ROM 016 024 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---English---New-Heart-Jehovah---Source-Edition.NHEB.txt to ../www-stageresources/Holy-Bible---English---New-Heart-Jehovah---Standard-Edition.noia byte=5799731 rows=31094
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---New-Heart-Jesus-Messiah,  byte-orig = 4343459,  byte-fix = 4343018,  byte-delta = -441,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---New-Heart-Jesus-Messiah,  byte-orig = 4374566,  byte-fix = 4374125,  byte-delta = -441,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Jesus-Messiah	019	PSA	003	002:	Many there are who say of my soul, "There is no salvation for him in God." (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Jesus-Messiah	019	PSA	003	004:	I cried out to the LORD with my voice, and he answered me from his holy mountain. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Jesus-Messiah	019	PSA	003	008:	Salvation belongs to the LORD.  Your blessing is upon your people. (Selah) 
@@ -2924,7 +2924,7 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-Jesus-Messiah: Empty verse skipped: JOH 005 004 
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-Jesus-Messiah: Empty verse skipped: ROM 016 024 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---English---New-Heart-Jesus-Messiah---Source-Edition.NHEB.txt to ../www-stageresources/Holy-Bible---English---New-Heart-Jesus-Messiah---Standard-Edition.noia byte=5991754 rows=31094
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---New-Heart-Messianic,  byte-orig = 4345080,  byte-fix = 4344639,  byte-delta = -441,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---New-Heart-Messianic,  byte-orig = 4376187,  byte-fix = 4375746,  byte-delta = -441,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Messianic	019	PSA	003	002:	Many there are who say of my soul, "There is no salvation for him in God." (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Messianic	019	PSA	003	004:	I cried out to the LORD with my voice, and he answered me from his holy mountain. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Messianic	019	PSA	003	008:	Salvation belongs to the LORD.  Your blessing is upon your people. (Selah) 
@@ -3008,7 +3008,7 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-Messianic: Empty verse skipped: JOH 005 000 
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-Messianic: Empty verse skipped: ROM 016 024 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---English---New-Heart-Messianic---Source-Edition.NHEB.txt to ../www-stageresources/Holy-Bible---English---New-Heart-Messianic---Standard-Edition.noia byte=5868975 rows=31094
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---New-Heart-Standard,  byte-orig = 4342287,  byte-fix = 4341846,  byte-delta = -441,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---New-Heart-Standard,  byte-orig = 4373394,  byte-fix = 4372953,  byte-delta = -441,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Standard	019	PSA	003	002:	Many there are who say of my soul, "There is no salvation for him in God." (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Standard	019	PSA	003	004:	I cried out to the LORD with my voice, and he answered me from his holy mountain. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-Standard	019	PSA	003	008:	Salvation belongs to the LORD.  Your blessing is upon your people. (Selah) 
@@ -3091,7 +3091,7 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-Standard: Empty verse skipped: JOH 005 004 
 *** AION: WARNING REMAPPED = Holy-Bible---English---New-Heart-Standard: Empty verse skipped: ROM 016 024 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---English---New-Heart-Standard---Source-Edition.NHEB.txt to ../www-stageresources/Holy-Bible---English---New-Heart-Standard---Standard-Edition.noia byte=5835146 rows=31094
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---New-Heart-YHWH,  byte-orig = 4317655,  byte-fix = 4317214,  byte-delta = -441,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---New-Heart-YHWH,  byte-orig = 4348763,  byte-fix = 4348322,  byte-delta = -441,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-YHWH	019	PSA	003	002:	Many there are who say of my soul, "There is no salvation for him in God." (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-YHWH	019	PSA	003	004:	I cried out to YHWH with my voice, and he answered me from his holy mountain. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---New-Heart-YHWH	019	PSA	003	008:	Salvation belongs to YHWH.  Your blessing is upon your people. (Selah) 
