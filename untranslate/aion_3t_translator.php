@@ -45,7 +45,7 @@ $HEADER = <<<EOT
 # STEPBible Source Link: https://github.com/STEPBible/STEPBible-Data
 #
 # INTRODUCTION:
-# This file is a resource for Bible translation and study of underlying languages.
+# Resources for Bible translation and study of underlying languages.
 # Report concerns at http://www.AionianBible.org/Publisher.
 # Contact http://www.AionianBible.org/Publisher for a StudyPack in your language.
 # Report STEPBible concerns at https://github.com/STEPBible/STEPBible-Data
@@ -80,16 +80,16 @@ $HEADER = <<<EOT
 # 13. This statement of Christian faith does not exhaust the extent of our beliefs. The Bible itself, as the inspired and infallible Word of God that speaks with final authority concerning truth, morality, and the proper conduct of mankind, is the sole and final source of all that we believe. For purposes of The Corporation’s belief the Board of Directors is The Corporation’s final interpretive authority on the Bible’s meaning and application.
 #
 # TRANSLATING:
-# 1. Pray, recruit a committee of faithful Christians, and consider carefully your motives before departing from the above Statement of Faith.
-# 2. Acknowledge that translations are not inspired and contain errors, through hopefully they are faithfully made, because only the original autographs of Scripture are God-breathed and without error.
+# 1. Pray, recruit a committee of faithful Christians, and examine the above Statement of Faith.
+# 2. Acknowledge that translations are not inspired and thus contain errors, through hopefully they are faithfully made, because only the original autographs of Scripture are God-breathed and without error.
 # 3. Translate and do not paraphrase, prioritizing the contexts of phrase, sentence, paragraph, book, author, testament, Bible, and history.
-# 4. Allow for cumbersome and ambigous translation when the original meaning is also uncertain.
+# 4. Allow for cumbersome and ambigous translation until the original meaning is made certain.
 # 5. Maintain the Holy Spirit's gender choice of words because male and female is wonderful gift from God and a reflection of His image, and Bibical roles for men and women are a cause for celebration, not apology.
-# 6. Maintain word and phrase order when possible, allowing some reduced readability if needed to capture the emphasis of the original language.
-# 7. Preserve word repetition and continuation (same theme different word) for a concordant translation as much as possible to help the reader appreciate the major and minor themes, structure, poetry, and nuance of the original.
+# 6. Maintain word and phrase order when possible, allowing some reduced readability, if needed, to capture the emphasis of the original language.
+# 7. Preserve word repetition and continuation (same theme different word) with concordant translation as much as possible to help the reader appreciate the major and minor themes, structure, poetry, and nuance of the original.
 # 8. Translate Abyssos, Geenna, Hadēs, Limnē Pyr, Sheol, and Tartaroō as distinct locations.
 # 9. Translate aïdios as eternal and aiōn as age or eon.
-# 10. Translate aiōnios as an adjective of aiōn, that is pertaining to the age, life, lifetime, entire, whole, or consummate, but not as eternal or infinite time.
+# 10. Translate aiōnios as an adjective of aiōn, that is pertaining to the age, as life, lifetime, entire, whole, or consummate, but not as eternal or infinite time.
 #
 # STATEGY:
 # 1. Use http://AionianBible.org for study, parallel Bible text viewing, and extended strongs lexiconic entries.
