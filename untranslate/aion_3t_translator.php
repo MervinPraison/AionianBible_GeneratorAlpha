@@ -7,22 +7,6 @@ AION_ECHO("BEGIN");
 
 /////////////////////////////////////////////////////////////////
 // INIT
-$PACKS = array(
-	'Arabic'	=> array("Holy-Bible---Arabic---New-Arabic-Bible","Holy-Bible---Arabic---Arabic-Van-Dyck-Bible"),
-	'Bengali'	=> array("Holy-Bible---Bengali---Bengali-Bible"),
-	'Chinese'	=> array("Holy-Bible---Chinese---Chinese-Union-Version-Simplified","Holy-Bible---Chinese---Chinese-Union-Version-Traditional",),
-	'English'	=> array("Holy-Bible---English---Aionian-Bible","Holy-Bible---English---Catholic-Public-Domain"),
-	'French'	=> array("Holy-Bible---French---French-Louis-Segond-1910-Bible","Holy-Bible---French---French-Crampon-Bible"),
-	'German'	=> array("Holy-Bible---German---German-Elberfelder-1905","Holy-Bible---German---German-Katholiche-Riessler"),
-	'Hindi'		=> array("Holy-Bible---Hindi---Hindi-Bible"),
-	'Japanese'	=> array("Holy-Bible---Japanese---Japanese-Kougo-yaku","Holy-Bible---Japanese---Japanese-Meiji-yaku","Holy-Bible---Japanese---New-Japanese-New-Testament"),
-	'Korean'	=> array("Holy-Bible---Korean---Korean-RV"),
-	'Portuguese'=> array("Holy-Bible---Portuguese---Biblia-Livre","Holy-Bible---Portuguese---Almeida-Bible-1911"),
-	'Panjabi'	=> array("Holy-Bible---Panjabi---Punjabi-Bible"),
-	'Russian'	=> array("Holy-Bible---Russian---Russian-Synodal-Translation"),
-	'Spanish'	=> array("Holy-Bible---Spanish---Free-Bible","Holy-Bible---Spanish---Sencillo-Bible"),
-	);
-
 $thedate = date('m/d/Y H:i:s');
 $theyear = date('Y');
 $HEADER = <<<EOT
@@ -31,7 +15,7 @@ $HEADER = <<<EOT
 # File Date: $thedate
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: http://resources.AionianBible.org/AB-StudyPack
-# File Source: Aionian Bible resources from Nainoia Inc and STEPBible resources from STEPBible.org
+# File Source: Aionian Bible resources from Nainoia Inc combined with STEPBible resources from STEPBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-$theyear
 # File Copyright Format: Creative Commons Attribution No Derivative Works 4.0, 2018-$theyear
 # File Generator: ABCMS (alpha)
@@ -56,7 +40,7 @@ $HEADER = <<<EOT
 # Greek-Morphhology.txt							Greek word morphhology code definitions.
 # Hebrew-Lexicon.txt							Tyndale Hebrew extended Strongs lexicon.
 # Hebrew-Morphhology.txt						Hebrew word morphhology code definitions.
-# Holy-Bible---[language]---AB-StudyPack.txt	Resource text for Bible translation and study of underlying languages.
+# Holy-Bible---[language]---AB-StudyPack.txt	Resources for Bible translation and study of underlying languages.
 #
 # CONTENTS:
 # Select Bible translations in parallel verse by line format.
@@ -77,14 +61,14 @@ $HEADER = <<<EOT
 # 10. That believing mankind is rewarded in paradise after death, while unbelievers suffer punishment in Hades after death merited by their sinful nature and their rejection of the grace of Christ, Luke 16:19-31.
 # 11. In the future, visible, physical return of the Lord Jesus Christ in glory, Titus 2:13.
 # 12. In the final resurrection of redeemed mankind to the enjoyment of God forever, and the damnation of those excluded from the Book of Life to the Lake of Fire prepared for the Devil and his angels for the ages of the ages, Matthew 25:31-46 and Revelation 20:10.
-# 13. This statement of Christian faith does not exhaust the extent of our beliefs. The Bible itself, as the inspired and infallible Word of God that speaks with final authority concerning truth, morality, and the proper conduct of mankind, is the sole and final source of all that we believe. For purposes of The Corporation’s belief the Board of Directors is The Corporation’s final interpretive authority on the Bible’s meaning and application.
+# 13. This statement of Christian faith does not exhaust the extent of our beliefs. The Bible itself, as the inspired and infallible Word of God that speaks with final authority concerning truth, morality, and the proper conduct of mankind, is the sole and final source of all that we believe.
 #
 # TRANSLATING:
-# 1. Pray, recruit a committee of faithful Christians, and examine the above Statement of Faith.
-# 2. Acknowledge that translations are not inspired and thus contain errors, through hopefully they are faithfully made, because only the original autographs of Scripture are God-breathed and without error.
+# 1. Pray, recruit a committee of faithful Christians, and confirm the above basic Statement of Faith.
+# 2. Acknowledge that translations are not inspired or infallible, though hopefully faithfully made, because only the original autographs of Scripture are God-breathed and inerrant.
 # 3. Translate and do not paraphrase, prioritizing the contexts of phrase, sentence, paragraph, book, author, testament, Bible, and history.
-# 4. Allow for cumbersome and ambigous translation until the original meaning is made certain.
-# 5. Maintain the Holy Spirit's gender choice of words because male and female is wonderful gift from God and a reflection of His image, and Bibical roles for men and women are a cause for celebration, not apology.
+# 4. Allow for cumbersome and ambiguous translation, if needed, until understanding is made certain.
+# 5. Maintain the Holy Spirit's gender choice of words because male and female is wonderful gift from God and a reflection of His image, and Biblical roles for men and women are a cause for celebration, not apology.
 # 6. Maintain word and phrase order when possible, allowing some reduced readability, if needed, to capture the emphasis of the original language.
 # 7. Preserve word repetition and continuation (same theme different word) with concordant translation as much as possible to help the reader appreciate the major and minor themes, structure, poetry, and nuance of the original.
 # 8. Translate Abyssos, Geenna, Hadēs, Limnē Pyr, Sheol, and Tartaroō as distinct locations.
@@ -92,15 +76,18 @@ $HEADER = <<<EOT
 # 10. Translate aiōnios as an adjective of aiōn, that is pertaining to the age, as life, lifetime, entire, whole, or consummate, but not as eternal or infinite time.
 #
 # STATEGY:
-# 1. Use http://AionianBible.org for study, parallel Bible text viewing, and extended strongs lexiconic entries.
-# 2. Download https://github.com/STEPBible/STEPBible-Data for direct access to the STEPBBible data.
-# 3. Install https://notepad-plus-plus.org or a text editor with REGEX for advanced text search and edits.
-# 4. Use the Aionian Bible verse per line format of "3-digit-book-index	3-character-book-abbreviation	3-digit-chapter-number	3-digit-verse-number	verse-text".
-# 5. Create a new translation editing the verse line containing "NEW:".
-# 6. Add lines beginning with "#" for comments as needed.
-# 7. Release your work as CC0 (public domain) or CC-BY (attribution) or CC-BY-SA (shared with copyright) and avoid CC-NC (no commercial) so Bibles can be sold.
-# 8. Submit your new translation to AionianBible.org and other outlets for distribution.
-# 9. Pray for a modern public domain translation in every language.
+# 1. Pray for a modern public domain translation in every language.
+# 2. Use http://AionianBible.org for study, parallel Bible text viewing, and extended Strong's lexiconic entries.
+# 3. Download https://github.com/STEPBible/STEPBible-Data for direct access to the STEPBBible data.
+# 4. Use other resources as available and needed.
+# 5. Install https://notepad-plus-plus.org or a text editor with REGEX for advanced text search and edits.
+# 6. Use the Aionian Bible verse per line format of "3-digit-book-index	3-character-book-abbreviation	3-digit-chapter-number	3-digit-verse-number	verse-text".
+# 7. Create a new translation editing the verse line containing "NEW:".
+# 8. Use modern spelling and grammar checkers if possible.
+# 9. Use correct style and punctuation, as well as smart quotes.
+# 10. Add lines beginning with "#" for comments as needed.
+# 11. Release your work as CC0 (public domain) or CC-BY (attribution) or CC-BY-SA (shared with copyright) and avoid CC-NC (no commercial) so Bibles can be sold.
+# 12. Submit your new translation to AionianBible.org and other outlets for distribution.
 #
 # FORMAT HEBREW: (Holy-Bible---[language]---AB-StudyPack.txt)
 # Columns: Pointed, Accented, Morphology, Extended Strongs
@@ -178,6 +165,16 @@ $database = array();
 AION_FILE_DATA_GET('./aion_database/VERSIONS.txt',	'T_VERSIONS',	$database, 'BIBLE', TRUE );
 $abooks = AION_BIBLES_LIST();
 $tbooks = AION_BIBLES_LIST_TYN();
+
+/////////////////////////////////////////////////////////////////
+// Build the Language Packs!
+$PACKS = array();
+foreach($database[T_VERSIONS] as $bible => $version) {
+	if (empty($version['PACK'])) { continue; }
+	$lang = strtok($version['LANGUAGEENGLISH'],", ");
+	$PACKS[$lang][$version['PACK']] = $bible;
+	ksort($PACKS[$lang]);
+}
 
 /////////////////////////////////////////////////////////////////
 // LOOP THE LIST
@@ -302,24 +299,29 @@ foreach($PACKS as $lang => $pack) {
 		AION_ECHO("Processing: $bible");
 		if ($order>99) { break; }
 		if (empty($database['T_VERSIONS'][$bible]['SHORT'])) { AION_ECHO("ERROR! Bible short not found! $bible"); }
-		$short = $database['T_VERSIONS'][$bible]['SHORT'];
-		$name = $database['T_VERSIONS'][$bible]['NAMEENGLISH'];
-		$location = $database['T_VERSIONS'][$bible]['SOURCELINK'];		
-		$bibledetail .= "#	$short: '$name' from $location\n";
 		$sort = sprintf('ZZ%03d', $order);
-		AION_ECHO("Processing: $bible $short $sort");
+		AION_ECHO("Processing: $bible $sort");
 		if ($first) {
-		system("cat ../www-stageresources/$bible---Aionian-Edition.noia | sed -r \"s/[[:digit:]]+	[[:alnum:]]+	[[:digit:]]+	[[:digit:]]+	/&YY000	NEW:	/\" >> $studyfile"); }
-		system("cat ../www-stageresources/$bible---Aionian-Edition.noia | sed -r \"s/[[:digit:]]+	[[:alnum:]]+	[[:digit:]]+	[[:digit:]]+	/&$sort	$short:	/\" >> $studyfile");
+			system("cat ../www-stageresources/$bible---Aionian-Edition.noia | sed -r \"s/[[:digit:]]+	[[:alnum:]]+	[[:digit:]]+	[[:digit:]]+	/&YY000	NEW:	/\" >> $studyfile");
+			$first = FALSE;
+		}
+		if ($bible!='Holy-Bible---English---Aionian-Bible' && $bible!='Holy-Bible---English---STEPBible-Amalgamant') {
+			$short = $database['T_VERSIONS'][$bible]['SHORT'];
+			$name = $database['T_VERSIONS'][$bible]['NAMEENGLISH'];
+			$location = $database['T_VERSIONS'][$bible]['SOURCELINK'];		
+			$copyright = $database['T_VERSIONS'][$bible]['COPYRIGHT'];
+			$bibledetail .= "#	$short: '$name' from $location ($copyright)\n";
+			system("cat ../www-stageresources/$bible---Aionian-Edition.noia | sed -r \"s/[[:digit:]]+	[[:alnum:]]+	[[:digit:]]+	[[:digit:]]+	/&$sort	$short:	/\" >> $studyfile");
+		}
 		++$order;
-		$first = FALSE;
 	}
 	// Aionian Bible cat
 	$bible = "Holy-Bible---English---Aionian-Bible";
 	$short = $database['T_VERSIONS'][$bible]['SHORT'];
 	$name = $database['T_VERSIONS'][$bible]['NAMEENGLISH'];
 	$location = $database['T_VERSIONS'][$bible]['SOURCELINK'];		
-	$bibledetail .= "#	$short: '$name' from $location\n";
+	$copyright = $database['T_VERSIONS'][$bible]['COPYRIGHT'];
+	$bibledetail .= "#	$short: '$name' from $location ($copyright)\n";
 	$sort = sprintf('ZZ%03d', $order);
 	AION_ECHO("Processing: Aionian Bible EAB $sort");
 	system("cat ../www-stageresources/Holy-Bible---English---Aionian-Bible---Aionian-Edition.noia | sed -r \"s/[[:digit:]]+	[[:alnum:]]+	[[:digit:]]+	[[:digit:]]+	/&$sort	EAB:	/\" >> $studyfile");
@@ -329,7 +331,8 @@ foreach($PACKS as $lang => $pack) {
 	$short = $database['T_VERSIONS'][$bible]['SHORT'];
 	$name = $database['T_VERSIONS'][$bible]['NAMEENGLISH'];
 	$location = $database['T_VERSIONS'][$bible]['SOURCELINK'];		
-	$bibledetail .= "#	$short: '$name' from $location\n";
+	$copyright = $database['T_VERSIONS'][$bible]['COPYRIGHT'];
+	$bibledetail .= "#	$short: '$name' from $location ($copyright)\n";
 	$sort = sprintf('ZZ%03d', $order);
 	AION_ECHO("Processing: STEP Bible STP $sort");
 	system("cat ../www-stageresources/Holy-Bible---English---STEPBible-Amalgamant---Aionian-Edition.noia | sed -r -e '/^0[4-9]+/d' | sed -r \"s/[[:digit:]]+	[[:alnum:]]+	[[:digit:]]+	[[:digit:]]+	/&$sort	STP:	/\" >> $studyfile");
@@ -346,16 +349,18 @@ foreach($PACKS as $lang => $pack) {
 	if (!copy("../STEPBible-Data-master/TEGMC - Translators Expansion of Greek Morphhology Codes - STEPBible.org CC BY.txt", "$studypack/Greek-Morphhology.txt")) {			AION_ECHO("ERROR! copy(4)"); }
 	if (!copy("../STEPBible-Data-master/TEHMC - Translators Expansion of Hebrew Morphology Codes - STEPBible.org CC BY.txt", "$studypack/Hebrew-Morphhology.txt")) {		AION_ECHO("ERROR! copy(5)"); }	
 	// revise and write README
-	if (file_put_contents("$studypack/AREADME.txt", $HEADER)===FALSE) {																									AION_ECHO("ERROR! file_put_contents(6)"); }
+	if (file_put_contents("$studypack/AB-README.txt", $HEADER)===FALSE) {																									AION_ECHO("ERROR! file_put_contents(6)"); }
 	// zip the files
 	AION_ECHO("Zip: $studypack");
 	system("zip -9 -rv ../www-resources/AB-StudyPack/$studypack.zip $studypack");
-	system("rm -rf $studypack");
+	if (1 || ($lang!="English" && $lang!="Spanish")) {
+		system("rm -rf $studypack");
+	}
 }
 
 /////////////////////////////////////////////////////////////////
 // CLOSE UP
-	if (file_put_contents("../www-resources/AB-StudyPack/AREADME.txt", $HEADER)===FALSE) {																					AION_ECHO("ERROR! file_put_contents(7)"); }
+	if (file_put_contents("../www-resources/AB-StudyPack/AB-README.txt", $HEADER)===FALSE) {																				AION_ECHO("ERROR! file_put_contents(7)"); }
 
 /////////////////////////////////////////////////////////////////
 // DONE
