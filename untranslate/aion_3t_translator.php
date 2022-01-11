@@ -13,9 +13,9 @@ $HEADER = <<<EOT
 # PUBLISHER:
 # File Name: AB-StudyPack.txt
 # File Date: $thedate
-# File Purpose: Supporting resource for the Aionian Bible project
+# File Purpose: Resources for Bible translation and study of underlying languages
 # File Location: http://resources.AionianBible.org/AB-StudyPack
-# File Source: Aionian Bible resources from Nainoia Inc combined with STEPBible resources from STEPBible.org
+# File Source: Aionian Bible resources by Nainoia Inc combined with STEPBible resources by STEPBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-$theyear
 # File Copyright Format: Creative Commons Attribution No Derivative Works 4.0, 2018-$theyear
 # File Generator: ABCMS (alpha)
@@ -32,7 +32,7 @@ $HEADER = <<<EOT
 # Resources for Bible translation and study of underlying languages.
 # Report concerns at http://www.AionianBible.org/Publisher.
 # Contact http://www.AionianBible.org/Publisher for a StudyPack in your language.
-# Report STEPBible concerns at https://github.com/STEPBible/STEPBible-Data
+# Report STEPBible data concerns at https://github.com/STEPBible/STEPBible-Data
 #
 # FILES:
 # AREADME.txt									This explanation.
@@ -65,11 +65,11 @@ $HEADER = <<<EOT
 #
 # TRANSLATING:
 # 1. Pray, recruit a committee of faithful Christians, and confirm the above basic Statement of Faith.
-# 2. Acknowledge that translations are not inspired or infallible, though hopefully faithfully made, because only the original autographs of Scripture are God-breathed and inerrant.
+# 2. Agree that translations are not inspired or infallible, though hopefully faithfully made, because only the original autographs of Scripture are God-breathed and inerrant.
 # 3. Translate and do not paraphrase, prioritizing the contexts of phrase, sentence, paragraph, book, author, testament, Bible, and history.
-# 4. Allow for cumbersome and ambiguous translation, if needed, until understanding is made certain.
+# 4. Allow for cumbersome and ambiguous translation, if needed, until understanding is made more certain.
 # 5. Maintain the Holy Spirit's gender choice of words because male and female is wonderful gift from God and a reflection of His image, and Biblical roles for men and women are a cause for celebration, not apology.
-# 6. Maintain word and phrase order when possible, allowing some reduced readability, if needed, to capture the emphasis of the original language.
+# 6. Maintain word and phrase order when possible, allowing some reduced readability, if needed, to maintain the structure of the original.
 # 7. Preserve word repetition and continuation (same theme different word) with concordant translation as much as possible to help the reader appreciate the major and minor themes, structure, poetry, and nuance of the original.
 # 8. Translate Abyssos, Geenna, Hadēs, Limnē Pyr, Sheol, and Tartaroō as distinct locations.
 # 9. Translate aïdios as eternal and aiōn as age or eon.
@@ -77,7 +77,7 @@ $HEADER = <<<EOT
 #
 # STATEGY:
 # 1. Pray for a modern public domain translation in every language.
-# 2. Use http://AionianBible.org for study, parallel Bible text viewing, and extended Strong's lexiconic entries.
+# 2. Use http://AionianBible.org for study, parallel Bible text viewing, and extended Strong's lexicon entries.
 # 3. Download https://github.com/STEPBible/STEPBible-Data for direct access to the STEPBBible data.
 # 4. Use other resources as available and needed.
 # 5. Install https://notepad-plus-plus.org or a text editor with REGEX for advanced text search and edits.
@@ -86,7 +86,7 @@ $HEADER = <<<EOT
 # 8. Use modern spelling and grammar checkers if possible.
 # 9. Use correct style and punctuation, as well as smart quotes.
 # 10. Add lines beginning with "#" for comments as needed.
-# 11. Release your work as CC0 (public domain) or CC-BY (attribution) or CC-BY-SA (shared with copyright) and avoid CC-NC (no commercial) so Bibles can be sold.
+# 11. Release your work as CC0 (public domain), CC-BY (attribution), CC-BY-SA (shared with copyright), and avoid CC-ND (no derivative) and CC-NC (no commercial) so Bibles can be further developed and sold.
 # 12. Submit your new translation to AionianBible.org and other outlets for distribution.
 #
 # FORMAT HEBREW: (Holy-Bible---[language]---AB-StudyPack.txt)

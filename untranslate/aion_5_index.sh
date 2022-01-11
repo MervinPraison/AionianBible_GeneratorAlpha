@@ -7,10 +7,8 @@
 require_once('./aion_common.php');
 AION_ECHO("START " . basename(__FILE__, '.php'));
 
-
 /*** install custom files ***/
 AION_LOOP_HTMS('../www-stageresources', '../www-stage/library', '../www-production/library');
-
 
 /*** install index ***/
 AION_INSTALL_INDEX('../www-stage');
@@ -28,6 +26,8 @@ AION_FILE_DATABASE_PUT(		$database, '../www-stageresources', '../www-stage/libra
 /*** speller ***/
 AION_LOOP_SPELL('aion_X_spell.sh', '../spellcheck');
 
+/*** sitemap ***/
+//AION_SITEMAP(				'../www-stage');
 
 /*** done ***/
 AION_ECHO("DONE!");
