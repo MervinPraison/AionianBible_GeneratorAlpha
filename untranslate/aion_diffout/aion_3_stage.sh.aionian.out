@@ -1442,7 +1442,7 @@
 *** AION: WARNING! SELAH! Holy-Bible---English---A-Conservative-Version	035	HAB	003	009:	Thy bow was made quite bare.  The oaths to the tribes were a sure word. (Selah) Thou split the earth with rivers.
 *** AION: WARNING! SELAH! Holy-Bible---English---A-Conservative-Version	035	HAB	003	013:	Thou went forth for the salvation of thy people, for the salvation of thine anointed.  Thou wound the head out of the house of the wicked man, laying bare the foundation even to the neck. (Selah) 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---English---A-Conservative-Version---Source-Edition.SWORD.txt to ../www-stageresources/Holy-Bible---English---A-Conservative-Version---Standard-Edition.noia byte=6005762 rows=31102
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---Aionian-Bible,  byte-orig = 4264881,  byte-fix = 4264881,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---Aionian-Bible,  byte-orig = 4264884,  byte-fix = 4264884,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---Aionian-Bible	019	PSA	003	002:	Many there are who say of my soul, “There is no help for him in God.” (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---Aionian-Bible	019	PSA	003	004:	I cry to Yahweh with my voice, and he answers me out of his holy hill. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---Aionian-Bible	019	PSA	003	008:	Salvation belongs to Yahweh.  May your blessing be on your people. (Selah) 
@@ -1524,7 +1524,7 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---Aionian-Bible: SINGLE Romans 14-16
 *** AION: WARNING! Bible Verse Out of Sorts! numb=045, numL=045, chap=015, chapL=016, vers=001, versL=027 | Holy-Bible---English---Aionian-Bible	045	ROM	015	001 | Now we who are strong ought to bear the weaknesses of the weak, and not to please ourselves.
 *** AION: WARNING REMAPPED = Holy-Bible---English---Aionian-Bible: Empty verse skipped: ROM 016 025 
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---Aionian-Bible---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---English---Aionian-Bible---Standard-Edition.noia byte=5659287 rows=31098
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---Aionian-Bible---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---English---Aionian-Bible---Standard-Edition.noia byte=5659290 rows=31098
 *** AION: WARNING! RAWFIX change for Holy-Bible---English---American-Standard-Version-1901,  byte-orig = 4446246,  byte-fix = 4446246,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---American-Standard-Version-1901	019	PSA	003	002:	Many there are that say of my soul, There is no help for him in God. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---American-Standard-Version-1901	019	PSA	003	004:	I cry unto Jehovah with my voice, And he answereth me out of his holy hill. (Selah) 
@@ -4023,7 +4023,7 @@
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---English---Webster-Bible-Revised---Source-Edition.SWORD.txt to ../www-stageresources/Holy-Bible---English---Webster-Bible-Revised---Standard-Edition.noia byte=5984558 rows=31102
 *** AION: WARNING! RAWFIX change for Holy-Bible---English---Weymouth-NT,  byte-orig = 1174757,  byte-fix = 1172297,  byte-delta = -2460,  verses-orig = 7943,  verses-fix = 7943,  verses-delta = 0,  average = -2460
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---English---Weymouth-NT---Source-Edition.UNBOUND.txt to ../www-stageresources/Holy-Bible---English---Weymouth-NT---Standard-Edition.noia byte=1431736 rows=7942
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---World-English-Bible,  byte-orig = 4264881,  byte-fix = 4264881,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---World-English-Bible,  byte-orig = 4264884,  byte-fix = 4264884,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---World-English-Bible	019	PSA	003	002:	Many there are who say of my soul, “There is no help for him in God.” (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---World-English-Bible	019	PSA	003	004:	I cry to Yahweh with my voice, and he answers me out of his holy hill. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---World-English-Bible	019	PSA	003	008:	Salvation belongs to Yahweh.  May your blessing be on your people. (Selah) 
@@ -4105,8 +4105,8 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---World-English-Bible: SINGLE Romans 14-16
 *** AION: WARNING! Bible Verse Out of Sorts! numb=045, numL=045, chap=015, chapL=016, vers=001, versL=027 | Holy-Bible---English---World-English-Bible	045	ROM	015	001 | Now we who are strong ought to bear the weaknesses of the weak, and not to please ourselves.
 *** AION: WARNING REMAPPED = Holy-Bible---English---World-English-Bible: Empty verse skipped: ROM 016 025 
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---World-English-Bible---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---English---World-English-Bible---Standard-Edition.noia byte=5845875 rows=31098
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---World-English-Bible-British-Edition,  byte-orig = 4280999,  byte-fix = 4280999,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---World-English-Bible---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---English---World-English-Bible---Standard-Edition.noia byte=5845878 rows=31098
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---World-English-Bible-British-Edition,  byte-orig = 4281002,  byte-fix = 4281002,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---World-English-Bible-British-Edition	019	PSA	003	002:	Many there are who say of my soul, “There is no help for him in God.” (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---World-English-Bible-British-Edition	019	PSA	003	004:	I cry to the LORD with my voice, and he answers me out of his holy hill. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---World-English-Bible-British-Edition	019	PSA	003	008:	Salvation belongs to the LORD.  May your blessing be on your people. (Selah) 
@@ -4188,8 +4188,8 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---World-English-Bible-British-Edition: SINGLE Romans 14-16
 *** AION: WARNING! Bible Verse Out of Sorts! numb=045, numL=045, chap=015, chapL=016, vers=001, versL=027 | Holy-Bible---English---World-English-Bible-British-Edition	045	ROM	015	001 | Now we who are strong ought to bear the weaknesses of the weak, and not to please ourselves.
 *** AION: WARNING REMAPPED = Holy-Bible---English---World-English-Bible-British-Edition: Empty verse skipped: ROM 016 025 
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---World-English-Bible-British-Edition---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---English---World-English-Bible-British-Edition---Standard-Edition.noia byte=6359561 rows=31098
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---World-Messianic-Bible,  byte-orig = 4279227,  byte-fix = 4279227,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---World-English-Bible-British-Edition---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---English---World-English-Bible-British-Edition---Standard-Edition.noia byte=6359564 rows=31098
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---World-Messianic-Bible,  byte-orig = 4279230,  byte-fix = 4279230,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---World-Messianic-Bible	019	PSA	003	002:	Many there are who say of my soul, “There is no help for him in God.” (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---World-Messianic-Bible	019	PSA	003	004:	I cry to the LORD with my voice, and he answers me out of his holy hill. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---World-Messianic-Bible	019	PSA	003	008:	Salvation belongs to the LORD.  May your blessing be on your people. (Selah) 
@@ -4271,8 +4271,8 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---World-Messianic-Bible: SINGLE Romans 14-16
 *** AION: WARNING! Bible Verse Out of Sorts! numb=045, numL=045, chap=015, chapL=016, vers=001, versL=027 | Holy-Bible---English---World-Messianic-Bible	045	ROM	015	001 | Now we who are strong ought to bear the weaknesses of the weak, and not to please ourselves.
 *** AION: WARNING REMAPPED = Holy-Bible---English---World-Messianic-Bible: Empty verse skipped: ROM 016 025 
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---World-Messianic-Bible---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---English---World-Messianic-Bible---Standard-Edition.noia byte=5922411 rows=31098
-*** AION: WARNING! RAWFIX change for Holy-Bible---English---World-Messianic-Bible-British-Edition,  byte-orig = 4284293,  byte-fix = 4284293,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---World-Messianic-Bible---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---English---World-Messianic-Bible---Standard-Edition.noia byte=5922414 rows=31098
+*** AION: WARNING! RAWFIX change for Holy-Bible---English---World-Messianic-Bible-British-Edition,  byte-orig = 4284296,  byte-fix = 4284296,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING! SELAH! Holy-Bible---English---World-Messianic-Bible-British-Edition	019	PSA	003	002:	Many there are who say of my soul, “There is no help for him in God.” (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---World-Messianic-Bible-British-Edition	019	PSA	003	004:	I cry to the LORD with my voice, and he answers me out of his holy hill. (Selah) 
 *** AION: WARNING! SELAH! Holy-Bible---English---World-Messianic-Bible-British-Edition	019	PSA	003	008:	Salvation belongs to the LORD.  May your blessing be on your people. (Selah) 
@@ -4354,7 +4354,7 @@
 *** AION: WARNING REMAPPED = Holy-Bible---English---World-Messianic-Bible-British-Edition: SINGLE Romans 14-16
 *** AION: WARNING! Bible Verse Out of Sorts! numb=045, numL=045, chap=015, chapL=016, vers=001, versL=027 | Holy-Bible---English---World-Messianic-Bible-British-Edition	045	ROM	015	001 | Now we who are strong ought to bear the weaknesses of the weak, and not to please ourselves.
 *** AION: WARNING REMAPPED = Holy-Bible---English---World-Messianic-Bible-British-Edition: Empty verse skipped: ROM 016 025 
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---World-Messianic-Bible-British-Edition---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---English---World-Messianic-Bible-British-Edition---Standard-Edition.noia byte=6425045 rows=31098
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---English---World-Messianic-Bible-British-Edition---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---English---World-Messianic-Bible-British-Edition---Standard-Edition.noia byte=6425048 rows=31098
 *** AION: WARN! Fix Psalms Titles in ../www-stageresources/Holy-Bible---English---Wycliffe-Bible---Source-Edition.SWORD.txt.  Orig=5353198  Fixed=5347032  Delta=-6166
 *** AION: WARNING! RAWFIX change for Holy-Bible---English---Wycliffe-Bible,  byte-orig = 5353129,  byte-fix = 5346864,  byte-delta = -6265,  verses-orig = 31378,  verses-fix = 31456,  verses-delta = 78,  average = -80.320512820513
 *** AION: WARNING REMAPPED = Holy-Bible---English---Wycliffe-Bible: SINGLE Exodus 40
@@ -11072,9 +11072,9 @@
 *** AION: WARNING! RAWFIX change for Holy-Bible---Romani-Vlax---Arli-Luke,  byte-orig = 149531,  byte-fix = 149550,  byte-delta = 19,  verses-orig = 1149,  verses-fix = 1151,  verses-delta = 2,  average = 9.5
 *** AION: WARNING REMAPPED = Holy-Bible---Romani-Vlax---Arli-Luke: Empty verse skipped: LUK 023 017 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Romani-Vlax---Arli-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romani-Vlax---Arli-Luke---Standard-Edition.noia byte=205922 rows=1150
-*** AION: WARNING! RAWFIX change for Holy-Bible---Romani-Vlax---Chergash-Luke,  byte-orig = 149859,  byte-fix = 149859,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
+*** AION: WARNING! RAWFIX change for Holy-Bible---Romani-Vlax---Chergash-Luke,  byte-orig = 149860,  byte-fix = 149860,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING REMAPPED = Holy-Bible---Romani-Vlax---Chergash-Luke: Empty verse skipped: LUK 023 017 
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---Romani-Vlax---Chergash-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romani-Vlax---Chergash-Luke---Standard-Edition.noia byte=210921 rows=1150
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---Romani-Vlax---Chergash-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romani-Vlax---Chergash-Luke---Standard-Edition.noia byte=210922 rows=1150
 *** AION: WARNING! RAWFIX change for Holy-Bible---Romani-Vlax---Gurbet-Luke,  byte-orig = 141315,  byte-fix = 141315,  byte-delta = 0,  verses-orig = 0,  verses-fix = 0,  verses-delta = 0,  average = 0
 *** AION: WARNING REMAPPED = Holy-Bible---Romani-Vlax---Gurbet-Luke: Empty verse skipped: LUK 023 017 
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Romani-Vlax---Gurbet-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romani-Vlax---Gurbet-Luke---Standard-Edition.noia byte=199578 rows=1150
@@ -11115,8 +11115,8 @@
 *** AION: WARNING!!! BRACKET PROBLEM! Holy-Bible---Romanian---Bayash-Luke	042	LUK	024	035:	Doj (2) učenikur ur spus šje ur păcăt pă kalji, šă kum lor kunuskut kănd u rupt pita.
 *** AION: WARNING!!! BRACKET PROBLEM! Holy-Bible---Romanian---Bayash-Luke	042	LUK	024	046:	Jej u zăs: “Asta ăj skris ăm svăntă kenvijă: kă Krist trăbă să patalaskă šă să uskrsnulaskă dăm morc pă treća (3) ză.
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Romanian---Bayash-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romanian---Bayash-Luke---Standard-Edition.noia byte=211603 rows=1149
-*** AION: WARNING! RAWFIX change for Holy-Bible---Romanian---Ludari-Luke,  byte-orig = 150177,  byte-fix = 150196,  byte-delta = 19,  verses-orig = 1141,  verses-fix = 1143,  verses-delta = 2,  average = 9.5
-*** AION: CONVERTED ../www-stageresources/Holy-Bible---Romanian---Ludari-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romanian---Ludari-Luke---Standard-Edition.noia byte=209965 rows=1143
+*** AION: WARNING! RAWFIX change for Holy-Bible---Romanian---Ludari-Luke,  byte-orig = 150500,  byte-fix = 150519,  byte-delta = 19,  verses-orig = 1141,  verses-fix = 1143,  verses-delta = 2,  average = 9.5
+*** AION: CONVERTED ../www-stageresources/Holy-Bible---Romanian---Ludari-Luke---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Romanian---Ludari-Luke---Standard-Edition.noia byte=210384 rows=1143
 *** AION: WARNING! RAWFIX change for Holy-Bible---Rote-Dela---Rote-Dela-Bible,  byte-orig = 1707106,  byte-fix = 1707003,  byte-delta = -103,  verses-orig = 9074,  verses-fix = 9074,  verses-delta = 0,  average = -103
 *** AION: WARNING!!! BRACKET PROBLEM! Holy-Bible---Rote-Dela---Rote-Dela-Bible	043	JOH	019	039:	Nikodemus neu namalolo' no Yusuf boe. Eni fo fai ma'ahulun neu nandaa no Yesus tetemba'. Ana hasa rambe naen seli, mbei ma kilo telu nulu telu (33 kilo), de ngganggari neu Yesus ao-sisi mamaten.
 *** AION: CONVERTED ../www-stageresources/Holy-Bible---Rote-Dela---Rote-Dela-Bible---Source-Edition.VPL.txt to ../www-stageresources/Holy-Bible---Rote-Dela---Rote-Dela-Bible---Standard-Edition.noia byte=2160569 rows=9072
@@ -14866,222 +14866,222 @@ EPUBCheck completed
 *** AION: SUCCESS EPUB UNZIPPED ../www-stage/library/epub/Holy-Bible---Vwanji---Vwanji-Bible---Aionian-Edition
 *** AION: SUCCESS EPUB UNZIPPED ../www-stage/library/epub/Holy-Bible---Vwanji---Vwanji-Bible---Source-Edition
 *** AION: LOOP DONE! Function=AION_LOOP_EPUB_UZIP_DOIT Files processed=341
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Albanian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Amo---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Arabic---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Arabic---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Aramaic---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Arapaho---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Armenian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Armenian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Assamese---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Azerbaijani---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Basque---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Beaver---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Bengali---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Breton---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Bulgarian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Calo---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Cebuano---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Chamorro---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Cherokee---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Chin---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Chinese---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Chinese---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Chin---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Chin---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Chin---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Chin---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Coptic---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Coptic---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Croatian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Czech---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Danish---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Dombe---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Dutch---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Dutch---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---English---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Esperanto---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Finnish---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Finnish---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Flemish---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---French---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---French---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---French---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---French---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---French---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---French---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---French---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---French---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---French---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---French---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---French---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---German---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---German---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---German---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---German---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---German---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---German---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---German---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---German---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Gourma---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Gourmantche---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Greek---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Greek---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Greek---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Greek---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Greek---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Greek---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Greek---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Greek---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Greek---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Greek---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Greek---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Greek---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Gujarati---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Haitian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Hawaiian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Hebrew---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Hebrew---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Hebrew---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Hebrew---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Hindi---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Hungarian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Ilocano---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Indonesian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Isanzu---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Italian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Italian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Italian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Japanese---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Japanese---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Japanese---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Japanese---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Japanese---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Japanese---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Kannada---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Kara---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Kinga---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Kisi---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Korean---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Kosraean---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Kuhane---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Latin---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Latin---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Latin---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Latin---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Latin---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Latin---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Latvian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Malagasy---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Malayalam---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Māori---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Marathi---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Mwera---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Myanmar---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Myanmar---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Ndebele---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Ndengereko---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Nepali---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Norwegian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Norwegian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Oriya---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Panjabi---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Persian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Pohnpeian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Pohnpeian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Polish---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Polish---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Portuguese---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Portuguese---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Portuguese---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Portuguese---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Romanian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Romanian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Romani---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Romani---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Romani---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Rote---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Russian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Safwa---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Scots---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Serbian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Serbian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Shona---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Slavonic---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Slovene---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Slovene---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Somali---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Spanish---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Spanish---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Spanish---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Spanish---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Spanish---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Spanish---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Swahili---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Swahili---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Swedish---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Swedish---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Tagalog---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Tagalog---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Tamil---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Telugu---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Tongan---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Turkish---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Ukrainian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Ukrainian---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Urdu---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Uyghur---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Uyghur---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Uyghur---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Uyghur---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Vietnamese---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Vietnamese---A-StudyPack.zip
-*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/Holy-Bible---Vwanji---A-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Albanian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Amo---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Arabic---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Arabic---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Aramaic---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Arapaho---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Armenian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Armenian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Assamese---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Azerbaijani---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Basque---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Beaver---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Bengali---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Breton---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Bulgarian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Calo---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Cebuano---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Chamorro---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Cherokee---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Chin---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Chinese---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Chinese---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Chin---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Chin---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Chin---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Chin---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Coptic---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Coptic---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Croatian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Czech---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Danish---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Dombe---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Dutch---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Dutch---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---English---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Esperanto---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Finnish---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Finnish---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Flemish---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---French---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---French---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---French---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---French---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---French---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---French---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---French---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---French---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---French---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---French---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---French---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---German---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---German---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---German---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---German---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---German---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---German---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---German---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---German---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Gourma---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Gourmantche---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Greek---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Greek---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Greek---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Greek---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Greek---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Greek---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Greek---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Greek---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Greek---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Greek---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Greek---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Greek---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Gujarati---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Haitian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Hawaiian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Hebrew---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Hebrew---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Hebrew---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Hebrew---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Hindi---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Hungarian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Ilocano---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Indonesian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Isanzu---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Italian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Italian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Italian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Japanese---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Japanese---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Japanese---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Japanese---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Japanese---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Japanese---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Kannada---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Kara---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Kinga---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Kisi---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Korean---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Kosraean---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Kuhane---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Latin---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Latin---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Latin---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Latin---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Latin---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Latin---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Latvian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Malagasy---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Malayalam---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Māori---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Marathi---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Mwera---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Myanmar---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Myanmar---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Ndebele---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Ndengereko---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Nepali---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Norwegian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Norwegian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Oriya---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Panjabi---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Persian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Pohnpeian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Pohnpeian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Polish---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Polish---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Portuguese---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Portuguese---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Portuguese---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Portuguese---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Romanian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Romanian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Romani---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Romani---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Romani---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Rote---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Russian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Safwa---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Scots---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Serbian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Serbian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Shona---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Slavonic---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Slovene---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Slovene---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Somali---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Spanish---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Spanish---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Spanish---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Spanish---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Spanish---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Spanish---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Swahili---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Swahili---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Swedish---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Swedish---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Tagalog---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Tagalog---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Tamil---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Telugu---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Tongan---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Turkish---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Ukrainian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Ukrainian---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Urdu---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Uyghur---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Uyghur---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Uyghur---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Uyghur---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Vietnamese---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Vietnamese---AB-StudyPack.zip
+*** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Vwanji---AB-StudyPack.zip
 *** AION: SITEMAP: sitemaps/sitemap_AionianBible.xml.gz
 *** AION: SITEMAP: sitemaps/sitemap_Albanian-Tosk---Albanian-Bible.xml.gz
 *** AION: SITEMAP: sitemaps/sitemap_Amo---Amo-Bible.xml.gz

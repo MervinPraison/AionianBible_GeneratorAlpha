@@ -12279,12 +12279,12 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Romanian---Ludari-Luke" :
 $bigfix = <<<EOF
-LUK 1:55 Jel ažutat alu argatu aluj, Izrael, baš kum adat obečală alu sămănca anuastră, alu Abraham š alu kupi aluj, k osă lji fije uvjek d milă.”
+LUK 1:55 Jel ažutat alu argatu aluj, Izrael, baš kum adat obećală alu sămănca anuastră, alu Abraham š alu kupi aluj, k osă lji fije uvjek d milă.”
 LUK 1:56 
 EOF;
 if (!($bfile = preg_replace("/LUK 1:54 (.+?)LUK 1:56 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bigfix = <<<EOF
-LUK 17:37 Učenikurlje aluj l trjabă: “Domnulje, undje asta osă fije?” Isusu lji zăće: “Undje zaće lumja muartă, ăn klo s sakupjaštje lešinari.”
+LUK 17:37 Učenikurlje aluj l trjabă: “Domnulje, undje asta osă fije?” Isusu lji zăće: “Undje zaće lumja muartă, ăn ănklo s sakupjaštje lešinari.”
 LUK 18:1 
 EOF;
 if (!($bfile = preg_replace("/LUK 17:36 (.+?)LUK 18:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -12295,7 +12295,7 @@ EOF;
 if (!($bfile = preg_replace("/LUK 23:17 (.+?)LUK 23:19 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bigfix = <<<EOF
 LUK 23:50 Š jakă njeki om, karje s kima Josip d Arimateja, trgu ăn Judeja, apljikat la Pilat š akătat s ji dja tjela alu Isusuluj.
-LUK 23:51 Jel afost članu d vječa Amarje alu Židovilor, ali nu sa slažăt ku je daja če apukat š osudit p Isusu p muartje.
+LUK 23:51 Jel afost članu d Vječa amarje alu Židovilor, ali nu sa slažăt ku je daja če apukat š osudit p Isusu p muartje.
 LUK 23:52 Jel afost bun š pravedan om karje štipta cara alu Dimizov.
 LUK 23:53 
 EOF;
