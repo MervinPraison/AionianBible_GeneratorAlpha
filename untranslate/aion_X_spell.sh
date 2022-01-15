@@ -14,6 +14,18 @@ system('wc -l ../spellcheck/Holy-Bible---Albanian-Tosk---Albanian-Bible.WORDS');
 
 
 
+// SPELL CHECK: Holy-Bible---Amo---Amo-Bible (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Amo---Amo-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Amo---Amo-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Amo---Amo-Bible.WORDS');
+
+
+
+
 // SPELL CHECK: Holy-Bible---Arabic---Arabic-Van-Dyck-Bible (ar)
 system("cat ../www-stageresources/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible---Standard-Edition.noia | ".
 "sed -E -e 's/[[:space:]]+/\\n/g' | ".
@@ -31,6 +43,27 @@ system("cat ../www-stageresources/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible---
 "sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
 "> ../spellcheck/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.ar");
 system('wc -l ../spellcheck/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.ar');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Arabic---New-Arabic-Bible (ar)
+system("cat ../www-stageresources/Holy-Bible---Arabic---New-Arabic-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Arabic---New-Arabic-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Arabic---New-Arabic-Bible.WORDS');
+system("cat ../www-stageresources/Holy-Bible---Arabic---New-Arabic-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq | ".
+"aspell -a --dont-suggest --dont-time --dont-guess --lang=ar | ".
+"sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
+"> ../spellcheck/Holy-Bible---Arabic---New-Arabic-Bible.ar");
+system('wc -l ../spellcheck/Holy-Bible---Arabic---New-Arabic-Bible.ar');
 
 
 
@@ -200,6 +233,27 @@ system('wc -l ../spellcheck/Holy-Bible---Breton---Breton-Gospels.br');
 
 
 
+// SPELL CHECK: Holy-Bible---Bulgarian---Bulgarian-Bible (bg)
+system("cat ../www-stageresources/Holy-Bible---Bulgarian---Bulgarian-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Bulgarian---Bulgarian-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Bulgarian---Bulgarian-Bible.WORDS');
+system("cat ../www-stageresources/Holy-Bible---Bulgarian---Bulgarian-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq | ".
+"aspell -a --dont-suggest --dont-time --dont-guess --lang=bg | ".
+"sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
+"> ../spellcheck/Holy-Bible---Bulgarian---Bulgarian-Bible.bg");
+system('wc -l ../spellcheck/Holy-Bible---Bulgarian---Bulgarian-Bible.bg');
+
+
+
+
 // SPELL CHECK: Holy-Bible---Calo---Calo-Bible (WORDS)
 system("cat ../www-stageresources/Holy-Bible---Calo---Calo-Bible---Standard-Edition.noia | ".
 "sed -E -e 's/[[:space:]]+/\\n/g' | ".
@@ -208,6 +262,18 @@ system("cat ../www-stageresources/Holy-Bible---Calo---Calo-Bible---Standard-Edit
 "uniq ".
 "> ../spellcheck/Holy-Bible---Calo---Calo-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Calo---Calo-Bible.WORDS');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Cebuano---Cebuano-Bible (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Cebuano---Cebuano-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Cebuano---Cebuano-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Cebuano---Cebuano-Bible.WORDS');
 
 
 
@@ -236,12 +302,72 @@ system('wc -l ../spellcheck/Holy-Bible---Cherokee---Cherokee-New-Testament.WORDS
 
 
 
+// SPELL CHECK: Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible.WORDS');
+
+
+
+
 // SPELL CHECK: Holy-Bible---Chinese---Chinese-Union-Version-Simplified (SKIP)
 
 
 
 
 // SPELL CHECK: Holy-Bible---Chinese---Chinese-Union-Version-Traditional (SKIP)
+
+
+
+
+// SPELL CHECK: Holy-Bible---Chin-Matu---Matupi-Chin-Bible (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Chin-Matu---Matupi-Chin-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Chin-Matu---Matupi-Chin-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Chin-Matu---Matupi-Chin-Bible.WORDS');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible.WORDS');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Chin-Siyin---Siyin-Chin-Bible (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Chin-Siyin---Siyin-Chin-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Chin-Siyin---Siyin-Chin-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Chin-Siyin---Siyin-Chin-Bible.WORDS');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Chin-Thado---Chongthu-Bible (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Chin-Thado---Chongthu-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Chin-Thado---Chongthu-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Chin-Thado---Chongthu-Bible.WORDS');
 
 
 
@@ -329,6 +455,18 @@ system("cat ../www-stageresources/Holy-Bible---Danish---Danish-Bible---Standard-
 "sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
 "> ../spellcheck/Holy-Bible---Danish---Danish-Bible.da");
 system('wc -l ../spellcheck/Holy-Bible---Danish---Danish-Bible.da');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Dombe---Dombe-Bible (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Dombe---Dombe-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Dombe---Dombe-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Dombe---Dombe-Bible.WORDS');
 
 
 
@@ -560,6 +698,27 @@ system("cat ../www-stageresources/Holy-Bible---English---Douay-Rheims-1899---Sta
 "sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
 "> ../spellcheck/Holy-Bible---English---Douay-Rheims-1899.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Douay-Rheims-1899.en');
+
+
+
+
+// SPELL CHECK: Holy-Bible---English---Family-35-NT (en)
+system("cat ../www-stageresources/Holy-Bible---English---Family-35-NT---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---English---Family-35-NT.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---English---Family-35-NT.WORDS');
+system("cat ../www-stageresources/Holy-Bible---English---Family-35-NT---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq | ".
+"aspell -a --dont-suggest --dont-time --dont-guess --lang=en | ".
+"sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
+"> ../spellcheck/Holy-Bible---English---Family-35-NT.en");
+system('wc -l ../spellcheck/Holy-Bible---English---Family-35-NT.en');
 
 
 
@@ -1043,6 +1202,48 @@ system("cat ../www-stageresources/Holy-Bible---English---Tyndale-Bible---Standar
 "sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
 "> ../spellcheck/Holy-Bible---English---Tyndale-Bible.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Tyndale-Bible.en');
+
+
+
+
+// SPELL CHECK: Holy-Bible---English---STEPBible-Amalgamant (en)
+system("cat ../www-stageresources/Holy-Bible---English---STEPBible-Amalgamant---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---English---STEPBible-Amalgamant.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---English---STEPBible-Amalgamant.WORDS');
+system("cat ../www-stageresources/Holy-Bible---English---STEPBible-Amalgamant---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq | ".
+"aspell -a --dont-suggest --dont-time --dont-guess --lang=en | ".
+"sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
+"> ../spellcheck/Holy-Bible---English---STEPBible-Amalgamant.en");
+system('wc -l ../spellcheck/Holy-Bible---English---STEPBible-Amalgamant.en');
+
+
+
+
+// SPELL CHECK: Holy-Bible---English---STEPBible-Concordant (en)
+system("cat ../www-stageresources/Holy-Bible---English---STEPBible-Concordant---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---English---STEPBible-Concordant.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---English---STEPBible-Concordant.WORDS');
+system("cat ../www-stageresources/Holy-Bible---English---STEPBible-Concordant---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq | ".
+"aspell -a --dont-suggest --dont-time --dont-guess --lang=en | ".
+"sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
+"> ../spellcheck/Holy-Bible---English---STEPBible-Concordant.en");
+system('wc -l ../spellcheck/Holy-Bible---English---STEPBible-Concordant.en');
 
 
 
@@ -1740,6 +1941,30 @@ system('wc -l ../spellcheck/Holy-Bible---German---German-Tafel-Bible.de');
 
 
 
+// SPELL CHECK: Holy-Bible---Gourma---Gourma-Bible (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Gourma---Gourma-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Gourma---Gourma-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Gourma---Gourma-Bible.WORDS');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Gourmantche---Gourmantche-Bible (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Gourmantche---Gourmantche-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Gourmantche---Gourmantche-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Gourmantche---Gourmantche-Bible.WORDS');
+
+
+
+
 // SPELL CHECK: Holy-Bible---Greek---Greek-Antoniades (grc)
 system("cat ../www-stageresources/Holy-Bible---Greek---Greek-Antoniades---Standard-Edition.noia | ".
 "sed -E -e 's/[[:space:]]+/\\n/g' | ".
@@ -1883,6 +2108,27 @@ system("cat ../www-stageresources/Holy-Bible---Greek---Greek-Textus-Receptus---S
 "sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
 "> ../spellcheck/Holy-Bible---Greek---Greek-Textus-Receptus.grc");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Textus-Receptus.grc');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Greek---Greek-Textus-Receptus-Boyd (grc)
+system("cat ../www-stageresources/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd.WORDS');
+system("cat ../www-stageresources/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq | ".
+"aspell -a --dont-suggest --dont-time --dont-guess --lang=grc | ".
+"sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
+"> ../spellcheck/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd.grc");
+system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd.grc');
 
 
 
@@ -2058,27 +2304,6 @@ system('wc -l ../spellcheck/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.he');
 
 
 
-// SPELL CHECK: Holy-Bible---Hebrew---Hebrew-Open-Scriptures (he)
-system("cat ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Open-Scriptures---Standard-Edition.noia | ".
-"sed -E -e 's/[[:space:]]+/\\n/g' | ".
-"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
-"sort | ".
-"uniq ".
-"> ../spellcheck/Holy-Bible---Hebrew---Hebrew-Open-Scriptures.WORDS");
-system('wc -l ../spellcheck/Holy-Bible---Hebrew---Hebrew-Open-Scriptures.WORDS');
-system("cat ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Open-Scriptures---Standard-Edition.noia | ".
-"sed -E -e 's/[[:space:]]+/\\n/g' | ".
-"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
-"sort | ".
-"uniq | ".
-"aspell -a --dont-suggest --dont-time --dont-guess --lang=he | ".
-"sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
-"> ../spellcheck/Holy-Bible---Hebrew---Hebrew-Open-Scriptures.he");
-system('wc -l ../spellcheck/Holy-Bible---Hebrew---Hebrew-Open-Scriptures.he');
-
-
-
-
 // SPELL CHECK: Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad (he)
 system("cat ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad---Standard-Edition.noia | ".
 "sed -E -e 's/[[:space:]]+/\\n/g' | ".
@@ -2096,6 +2321,27 @@ system("cat ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Westminster-Lenin
 "sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
 "> ../spellcheck/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.he");
 system('wc -l ../spellcheck/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.he');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Hebrew---Modern-Hebrew-Bible (he)
+system("cat ../www-stageresources/Holy-Bible---Hebrew---Modern-Hebrew-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Hebrew---Modern-Hebrew-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Hebrew---Modern-Hebrew-Bible.WORDS');
+system("cat ../www-stageresources/Holy-Bible---Hebrew---Modern-Hebrew-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq | ".
+"aspell -a --dont-suggest --dont-time --dont-guess --lang=he | ".
+"sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
+"> ../spellcheck/Holy-Bible---Hebrew---Modern-Hebrew-Bible.he");
+system('wc -l ../spellcheck/Holy-Bible---Hebrew---Modern-Hebrew-Bible.he');
 
 
 
@@ -2138,6 +2384,63 @@ system("cat ../www-stageresources/Holy-Bible---Hungarian---Hungarian-Karoli---St
 "sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
 "> ../spellcheck/Holy-Bible---Hungarian---Hungarian-Karoli.hu");
 system('wc -l ../spellcheck/Holy-Bible---Hungarian---Hungarian-Karoli.hu');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Ilocano---Ilocano-Bible (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Ilocano---Ilocano-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Ilocano---Ilocano-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Ilocano---Ilocano-Bible.WORDS');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari.WORDS');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Isanzu---Isanzu-Bible (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Isanzu---Isanzu-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Isanzu---Isanzu-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Isanzu---Isanzu-Bible.WORDS');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Italian---Conferenza-Episcopale-Italiana (it)
+system("cat ../www-stageresources/Holy-Bible---Italian---Conferenza-Episcopale-Italiana---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Italian---Conferenza-Episcopale-Italiana.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Italian---Conferenza-Episcopale-Italiana.WORDS');
+system("cat ../www-stageresources/Holy-Bible---Italian---Conferenza-Episcopale-Italiana---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq | ".
+"aspell -a --dont-suggest --dont-time --dont-guess --lang=it | ".
+"sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
+"> ../spellcheck/Holy-Bible---Italian---Conferenza-Episcopale-Italiana.it");
+system('wc -l ../spellcheck/Holy-Bible---Italian---Conferenza-Episcopale-Italiana.it');
 
 
 
@@ -2235,6 +2538,42 @@ system('wc -l ../spellcheck/Holy-Bible---Kannada---Kannada-Bible.kn');
 
 
 
+// SPELL CHECK: Holy-Bible---Kara---Kara-Bible (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Kara---Kara-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Kara---Kara-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Kara---Kara-Bible.WORDS');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Kinga---Mahanji-Bible (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Kinga---Mahanji-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Kinga---Mahanji-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Kinga---Mahanji-Bible.WORDS');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Kisi---Kisi-Bible (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Kisi---Kisi-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Kisi---Kisi-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Kisi---Kisi-Bible.WORDS');
+
+
+
+
 // SPELL CHECK: Holy-Bible---Korean---Korean-RV (SKIP)
 
 
@@ -2248,6 +2587,18 @@ system("cat ../www-stageresources/Holy-Bible---Kosraean---Kosraean-Bible---Stand
 "uniq ".
 "> ../spellcheck/Holy-Bible---Kosraean---Kosraean-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Kosraean---Kosraean-Bible.WORDS');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Kuhane---Kuhane-Bible (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Kuhane---Kuhane-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Kuhane---Kuhane-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Kuhane---Kuhane-Bible.WORDS');
 
 
 
@@ -2441,6 +2792,18 @@ system('wc -l ../spellcheck/Holy-Bible---Malayalam---Malayalam-Bible.ml');
 
 
 
+// SPELL CHECK: Holy-Bible---Maori---Maori-Bible (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Maori---Maori-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Maori---Maori-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Maori---Maori-Bible.WORDS');
+
+
+
+
 // SPELL CHECK: Holy-Bible---Marathi---Marathi-Bible (mr)
 system("cat ../www-stageresources/Holy-Bible---Marathi---Marathi-Bible---Standard-Edition.noia | ".
 "sed -E -e 's/[[:space:]]+/\\n/g' | ".
@@ -2462,14 +2825,26 @@ system('wc -l ../spellcheck/Holy-Bible---Marathi---Marathi-Bible.mr');
 
 
 
-// SPELL CHECK: Holy-Bible---Matu-Chin---Matupi-Chin-Bible (WORDS)
-system("cat ../www-stageresources/Holy-Bible---Matu-Chin---Matupi-Chin-Bible---Standard-Edition.noia | ".
+// SPELL CHECK: Holy-Bible---Mwera---Mwera-Bible (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Mwera---Mwera-Bible---Standard-Edition.noia | ".
 "sed -E -e 's/[[:space:]]+/\\n/g' | ".
 "sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
 "sort | ".
 "uniq ".
-"> ../spellcheck/Holy-Bible---Matu-Chin---Matupi-Chin-Bible.WORDS");
-system('wc -l ../spellcheck/Holy-Bible---Matu-Chin---Matupi-Chin-Bible.WORDS');
+"> ../spellcheck/Holy-Bible---Mwera---Mwera-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Mwera---Mwera-Bible.WORDS');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Myanmar---Burmese-Common-Bible (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Myanmar---Burmese-Common-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Myanmar---Burmese-Common-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Myanmar---Burmese-Common-Bible.WORDS');
 
 
 
@@ -2494,6 +2869,30 @@ system("cat ../www-stageresources/Holy-Bible---Ndebele---Ndebele-Bible---Standar
 "uniq ".
 "> ../spellcheck/Holy-Bible---Ndebele---Ndebele-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Ndebele---Ndebele-Bible.WORDS');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Ndengereko---Ndengereko-Bible (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Ndengereko---Ndengereko-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Ndengereko---Ndengereko-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Ndengereko---Ndengereko-Bible.WORDS');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Nepali---Nepali-Bible (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Nepali---Nepali-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Nepali---Nepali-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Nepali---Nepali-Bible.WORDS');
 
 
 
@@ -2774,6 +3173,63 @@ system('wc -l ../spellcheck/Holy-Bible---Romanian---Bayash-Luke.ro');
 
 
 
+// SPELL CHECK: Holy-Bible---Romanian---Ludari-Luke (ro)
+system("cat ../www-stageresources/Holy-Bible---Romanian---Ludari-Luke---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Romanian---Ludari-Luke.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Romanian---Ludari-Luke.WORDS');
+system("cat ../www-stageresources/Holy-Bible---Romanian---Ludari-Luke---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq | ".
+"aspell -a --dont-suggest --dont-time --dont-guess --lang=ro | ".
+"sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
+"> ../spellcheck/Holy-Bible---Romanian---Ludari-Luke.ro");
+system('wc -l ../spellcheck/Holy-Bible---Romanian---Ludari-Luke.ro');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Romani-Vlax---Arli-Luke (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Romani-Vlax---Arli-Luke---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Romani-Vlax---Arli-Luke.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Romani-Vlax---Arli-Luke.WORDS');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Romani-Vlax---Chergash-Luke (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Romani-Vlax---Chergash-Luke---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Romani-Vlax---Chergash-Luke.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Romani-Vlax---Chergash-Luke.WORDS');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Romani-Vlax---Gurbet-Luke (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Romani-Vlax---Gurbet-Luke---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Romani-Vlax---Gurbet-Luke.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Romani-Vlax---Gurbet-Luke.WORDS');
+
+
+
+
 // SPELL CHECK: Holy-Bible---Rote-Dela---Rote-Dela-Bible (WORDS)
 system("cat ../www-stageresources/Holy-Bible---Rote-Dela---Rote-Dela-Bible---Standard-Edition.noia | ".
 "sed -E -e 's/[[:space:]]+/\\n/g' | ".
@@ -2803,6 +3259,18 @@ system("cat ../www-stageresources/Holy-Bible---Russian---Russian-Synodal-Transla
 "sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
 "> ../spellcheck/Holy-Bible---Russian---Russian-Synodal-Translation.ru");
 system('wc -l ../spellcheck/Holy-Bible---Russian---Russian-Synodal-Translation.ru');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Safwa---Safwa-Bible (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Safwa---Safwa-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Safwa---Safwa-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Safwa---Safwa-Bible.WORDS');
 
 
 
@@ -2948,23 +3416,23 @@ system('wc -l ../spellcheck/Holy-Bible---Somali---Somali-Bible.WORDS');
 
 
 
-// SPELL CHECK: Holy-Bible---Spanish---Free-Bible-NT (es)
-system("cat ../www-stageresources/Holy-Bible---Spanish---Free-Bible-NT---Standard-Edition.noia | ".
+// SPELL CHECK: Holy-Bible---Spanish---Free-Bible (es)
+system("cat ../www-stageresources/Holy-Bible---Spanish---Free-Bible---Standard-Edition.noia | ".
 "sed -E -e 's/[[:space:]]+/\\n/g' | ".
 "sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
 "sort | ".
 "uniq ".
-"> ../spellcheck/Holy-Bible---Spanish---Free-Bible-NT.WORDS");
-system('wc -l ../spellcheck/Holy-Bible---Spanish---Free-Bible-NT.WORDS');
-system("cat ../www-stageresources/Holy-Bible---Spanish---Free-Bible-NT---Standard-Edition.noia | ".
+"> ../spellcheck/Holy-Bible---Spanish---Free-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Spanish---Free-Bible.WORDS');
+system("cat ../www-stageresources/Holy-Bible---Spanish---Free-Bible---Standard-Edition.noia | ".
 "sed -E -e 's/[[:space:]]+/\\n/g' | ".
 "sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
 "sort | ".
 "uniq | ".
 "aspell -a --dont-suggest --dont-time --dont-guess --lang=es | ".
 "sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
-"> ../spellcheck/Holy-Bible---Spanish---Free-Bible-NT.es");
-system('wc -l ../spellcheck/Holy-Bible---Spanish---Free-Bible-NT.es');
+"> ../spellcheck/Holy-Bible---Spanish---Free-Bible.es");
+system('wc -l ../spellcheck/Holy-Bible---Spanish---Free-Bible.es');
 
 
 
@@ -3074,6 +3542,27 @@ system('wc -l ../spellcheck/Holy-Bible---Spanish---Sencillo-Bible.es');
 
 
 
+// SPELL CHECK: Holy-Bible---Swahili---New-Swahili-Bible (sw)
+system("cat ../www-stageresources/Holy-Bible---Swahili---New-Swahili-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Swahili---New-Swahili-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Swahili---New-Swahili-Bible.WORDS');
+system("cat ../www-stageresources/Holy-Bible---Swahili---New-Swahili-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq | ".
+"aspell -a --dont-suggest --dont-time --dont-guess --lang=sw | ".
+"sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
+"> ../spellcheck/Holy-Bible---Swahili---New-Swahili-Bible.sw");
+system('wc -l ../spellcheck/Holy-Bible---Swahili---New-Swahili-Bible.sw');
+
+
+
+
 // SPELL CHECK: Holy-Bible---Swahili---Swahili-Bible (sw)
 system("cat ../www-stageresources/Holy-Bible---Swahili---Swahili-Bible---Standard-Edition.noia | ".
 "sed -E -e 's/[[:space:]]+/\\n/g' | ".
@@ -3158,6 +3647,27 @@ system('wc -l ../spellcheck/Holy-Bible---Tagalog---Tagalog-Bible.tl');
 
 
 
+// SPELL CHECK: Holy-Bible---Tagalog---Tagalog-Bible-Unlocked (tl)
+system("cat ../www-stageresources/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked.WORDS');
+system("cat ../www-stageresources/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq | ".
+"aspell -a --dont-suggest --dont-time --dont-guess --lang=tl | ".
+"sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
+"> ../spellcheck/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked.tl");
+system('wc -l ../spellcheck/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked.tl');
+
+
+
+
 // SPELL CHECK: Holy-Bible---Tamil---Tamil-Bible (ta)
 system("cat ../www-stageresources/Holy-Bible---Tamil---Tamil-Bible---Standard-Edition.noia | ".
 "sed -E -e 's/[[:space:]]+/\\n/g' | ".
@@ -3208,6 +3718,27 @@ system("cat ../www-stageresources/Holy-Bible---Tongan---Revised-West-Version---S
 "uniq ".
 "> ../spellcheck/Holy-Bible---Tongan---Revised-West-Version.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Tongan---Revised-West-Version.WORDS');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Turkish---Turkish-Bible (tr)
+system("cat ../www-stageresources/Holy-Bible---Turkish---Turkish-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Turkish---Turkish-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Turkish---Turkish-Bible.WORDS');
+system("cat ../www-stageresources/Holy-Bible---Turkish---Turkish-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq | ".
+"aspell -a --dont-suggest --dont-time --dont-guess --lang=tr | ".
+"sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
+"> ../spellcheck/Holy-Bible---Turkish---Turkish-Bible.tr");
+system('wc -l ../spellcheck/Holy-Bible---Turkish---Turkish-Bible.tr');
 
 
 
@@ -3266,6 +3797,75 @@ system('wc -l ../spellcheck/Holy-Bible---Urdu---Urdu-Bible.WORDS');
 
 
 
+// SPELL CHECK: Holy-Bible---Uyghur---Uyghur-Bible-Arabic (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Uyghur---Uyghur-Bible-Arabic---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Uyghur---Uyghur-Bible-Arabic.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Uyghur---Uyghur-Bible-Arabic.WORDS');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic.WORDS');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Uyghur---Uyghur-Bible-Latin (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Uyghur---Uyghur-Bible-Latin---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Uyghur---Uyghur-Bible-Latin.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Uyghur---Uyghur-Bible-Latin.WORDS');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Uyghur---Uyghur-Bible-Pinyin (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Uyghur---Uyghur-Bible-Pinyin---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Uyghur---Uyghur-Bible-Pinyin.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Uyghur---Uyghur-Bible-Pinyin.WORDS');
+
+
+
+
+// SPELL CHECK: Holy-Bible---Vietnamese---Vietnamese-Bible (vi)
+system("cat ../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---Vietnamese---Vietnamese-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Vietnamese---Vietnamese-Bible.WORDS');
+system("cat ../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-Bible---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq | ".
+"aspell -a --dont-suggest --dont-time --dont-guess --lang=vi | ".
+"sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
+"> ../spellcheck/Holy-Bible---Vietnamese---Vietnamese-Bible.vi");
+system('wc -l ../spellcheck/Holy-Bible---Vietnamese---Vietnamese-Bible.vi');
+
+
+
+
 // SPELL CHECK: Holy-Bible---Vietnamese---Vietnamese-Bible-1934 (vi)
 system("cat ../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-Bible-1934---Standard-Edition.noia | ".
 "sed -E -e 's/[[:space:]]+/\\n/g' | ".
@@ -3287,23 +3887,14 @@ system('wc -l ../spellcheck/Holy-Bible---Vietnamese---Vietnamese-Bible-1934.vi')
 
 
 
-// SPELL CHECK: Holy-Bible---Vietnamese---Vietnamese-NT (vi)
-system("cat ../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-NT---Standard-Edition.noia | ".
+// SPELL CHECK: Holy-Bible---Vwanji---Vwanji-Bible (WORDS)
+system("cat ../www-stageresources/Holy-Bible---Vwanji---Vwanji-Bible---Standard-Edition.noia | ".
 "sed -E -e 's/[[:space:]]+/\\n/g' | ".
 "sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
 "sort | ".
 "uniq ".
-"> ../spellcheck/Holy-Bible---Vietnamese---Vietnamese-NT.WORDS");
-system('wc -l ../spellcheck/Holy-Bible---Vietnamese---Vietnamese-NT.WORDS');
-system("cat ../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-NT---Standard-Edition.noia | ".
-"sed -E -e 's/[[:space:]]+/\\n/g' | ".
-"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
-"sort | ".
-"uniq | ".
-"aspell -a --dont-suggest --dont-time --dont-guess --lang=vi | ".
-"sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
-"> ../spellcheck/Holy-Bible---Vietnamese---Vietnamese-NT.vi");
-system('wc -l ../spellcheck/Holy-Bible---Vietnamese---Vietnamese-NT.vi');
+"> ../spellcheck/Holy-Bible---Vwanji---Vwanji-Bible.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---Vwanji---Vwanji-Bible.WORDS');
 
 
 

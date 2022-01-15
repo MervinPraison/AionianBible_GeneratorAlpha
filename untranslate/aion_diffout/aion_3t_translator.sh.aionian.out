@@ -1,0 +1,1906 @@
+*** AION: INCLUDE aion_common
+*** AION: BEGIN aion_3t_translator.sh
+#!/usr/local/bin/php
+*** AION: BEGIN
+*** AION: INIT
+*** AION: Attempting: Arabic: Holy-Bible---Arabic---AB-StudyPack
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference forwarded: 42_Mrk.004.006	=NA diff TR ˹˺	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+NIV	καὶ	 | >4:TR+Byz = δὲ = "however" = G1161 = CONJ 	Y	and			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν	shall we pay	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		¿Demos	to give			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	ἢ	or	G2228	CONJ	ἤ	or/than	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἢ		o	or			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	μὴ	not	G3361	PRT-N	μή	not	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		no	not			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν;¶	shall we pay?	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		demos?	to give			
+
+*** AION: WARN! bad big reference skipped: 44_Jhn.009.003	=NA same TR ~~	φανερωθῇ	may be displayed	G5319	V-APS-3P	βάλλω	to throw	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φανερωθῇ		arrojen	to throw§1_throw			
+
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἀπὸ	from	G0575	PREP	ἀπό	away from	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπὸ		desde	from			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	πάντων	all things	G3956	A-GPN	πᾶς	all	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πάντων		de todas (cosas)	all			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ὧν	from which	G3739	R-GPN	ὅς, ἥ	which	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὧν		cuales	which		«032:G3956	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	οὐκ	not	G3756	PRT-N	οὐ	no	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὐκ		no	no			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἠδυνήθητε	you were able	G1410	V-AOI-2P-ATT	δύναμαι	be able	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠδυνήθητε		fueron capaces	be able			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=TR not NA or NIV/ESV «»	τῷ	the	G3588	T-DSM	ὁ	the/this/who	TR+Byz	τῷ		a el	the		»042:G3551	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	νόμῳ	law	G3551	N-DSM	νόμος	law	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	νόμῳ		ley	law			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	Μωϋσέως	of Moses	G3475	N-GSM-P	Μωϋσῆς, Μωσῆς	Moses	NA27+NA28+Tyn+SBL+Treg+Byz+NIV , WH ; TR	μωϋσέως , μωυσέως ; μωσέως		de Moisés	Moses§Moses@Exo.2.10			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	δικαιωθῆναι,	to be justified,	G1344	V-APN	δικαιόω	to justify	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δικαιωθῆναι		ser justificado	to justify			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ταῦτα	these things	G3778	D-APN	οὗτος	this/he/she/it	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ταῦτα		estas (cosas)	these		»048:G2036	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	εἰπὼν	having said,	G2036	V-2AAP-NSM	ἔπω, ἐρῶ, εἶπον	to say	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰπὼν		habiendo dicho	to say			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἀπέλυσεν	he dismissed	G0630	V-AAI-3S	ἀπολύω	to release	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπέλυσεν		despidió	to release§1_release			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	τὴν	the	G3588	T-ASF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὴν		a la	the		»054:G1577	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἐκκλησίαν.¶	assembly.	G1577	N-ASF	ἐκκλησία	assembly	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκκλησίαν		asamblea	assembly			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τῇ	the	G3588	T-DSF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῇ		el	the		»006:G0463	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἀνοχῇ	forbearance	G0463	N-DSF	ἀνοχή	tolerance	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀνοχῇ		autorefrenamiento	tolerance			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τοῦ	<the>	G3588	T-GSM	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		de el	the		»010:G2316	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	θεοῦ·	of God;	G2316	N-GSM	θεός	God	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεοῦ		Dios	God			
+
+*** AION: Processing: Holy-Bible---Arabic---New-Arabic-Bible
+*** AION: Processing: Holy-Bible---Arabic---New-Arabic-Bible ZZ010
+*** AION: Processing: Holy-Bible---Arabic---Arabic-Van-Dyck-Bible
+*** AION: Processing: Holy-Bible---Arabic---Arabic-Van-Dyck-Bible ZZ011
+*** AION: Processing: Aionian Bible EAB ZZ012
+*** AION: Processing: STEP Bible STP ZZ013
+*** AION: Sort: Holy-Bible---Arabic---AB-StudyPack/Holy-Bible---Arabic---AB-StudyPack.txt
+*** AION: Copy: more files
+*** AION: Zip: Holy-Bible---Arabic---AB-StudyPack
+updating: Holy-Bible---Arabic---AB-StudyPack/	(in=0) (out=0) (stored 0%)
+updating: Holy-Bible---Arabic---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
+updating: Holy-Bible---Arabic---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
+updating: Holy-Bible---Arabic---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
+updating: Holy-Bible---Arabic---AB-StudyPack/Holy-Bible---Arabic---AB-StudyPack.txt ........	(in=87583756) (out=18281055) (deflated 79%)
+updating: Holy-Bible---Arabic---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
+updating: Holy-Bible---Arabic---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
+total bytes=94349053, compressed=20127359 -> 79% savings
+*** AION: Attempting: Bengali: Holy-Bible---Bengali---AB-StudyPack
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference forwarded: 42_Mrk.004.006	=NA diff TR ˹˺	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+NIV	καὶ	 | >4:TR+Byz = δὲ = "however" = G1161 = CONJ 	Y	and			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν	shall we pay	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		¿Demos	to give			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	ἢ	or	G2228	CONJ	ἤ	or/than	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἢ		o	or			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	μὴ	not	G3361	PRT-N	μή	not	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		no	not			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν;¶	shall we pay?	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		demos?	to give			
+
+*** AION: WARN! bad big reference skipped: 44_Jhn.009.003	=NA same TR ~~	φανερωθῇ	may be displayed	G5319	V-APS-3P	βάλλω	to throw	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φανερωθῇ		arrojen	to throw§1_throw			
+
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἀπὸ	from	G0575	PREP	ἀπό	away from	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπὸ		desde	from			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	πάντων	all things	G3956	A-GPN	πᾶς	all	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πάντων		de todas (cosas)	all			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ὧν	from which	G3739	R-GPN	ὅς, ἥ	which	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὧν		cuales	which		«032:G3956	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	οὐκ	not	G3756	PRT-N	οὐ	no	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὐκ		no	no			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἠδυνήθητε	you were able	G1410	V-AOI-2P-ATT	δύναμαι	be able	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠδυνήθητε		fueron capaces	be able			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=TR not NA or NIV/ESV «»	τῷ	the	G3588	T-DSM	ὁ	the/this/who	TR+Byz	τῷ		a el	the		»042:G3551	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	νόμῳ	law	G3551	N-DSM	νόμος	law	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	νόμῳ		ley	law			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	Μωϋσέως	of Moses	G3475	N-GSM-P	Μωϋσῆς, Μωσῆς	Moses	NA27+NA28+Tyn+SBL+Treg+Byz+NIV , WH ; TR	μωϋσέως , μωυσέως ; μωσέως		de Moisés	Moses§Moses@Exo.2.10			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	δικαιωθῆναι,	to be justified,	G1344	V-APN	δικαιόω	to justify	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δικαιωθῆναι		ser justificado	to justify			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ταῦτα	these things	G3778	D-APN	οὗτος	this/he/she/it	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ταῦτα		estas (cosas)	these		»048:G2036	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	εἰπὼν	having said,	G2036	V-2AAP-NSM	ἔπω, ἐρῶ, εἶπον	to say	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰπὼν		habiendo dicho	to say			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἀπέλυσεν	he dismissed	G0630	V-AAI-3S	ἀπολύω	to release	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπέλυσεν		despidió	to release§1_release			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	τὴν	the	G3588	T-ASF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὴν		a la	the		»054:G1577	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἐκκλησίαν.¶	assembly.	G1577	N-ASF	ἐκκλησία	assembly	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκκλησίαν		asamblea	assembly			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τῇ	the	G3588	T-DSF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῇ		el	the		»006:G0463	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἀνοχῇ	forbearance	G0463	N-DSF	ἀνοχή	tolerance	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀνοχῇ		autorefrenamiento	tolerance			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τοῦ	<the>	G3588	T-GSM	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		de el	the		»010:G2316	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	θεοῦ·	of God;	G2316	N-GSM	θεός	God	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεοῦ		Dios	God			
+
+*** AION: Processing: Holy-Bible---Bengali---Bengali-Bible
+*** AION: Processing: Holy-Bible---Bengali---Bengali-Bible ZZ010
+*** AION: Processing: Aionian Bible EAB ZZ011
+*** AION: Processing: STEP Bible STP ZZ012
+*** AION: Sort: Holy-Bible---Bengali---AB-StudyPack/Holy-Bible---Bengali---AB-StudyPack.txt
+*** AION: Copy: more files
+*** AION: Zip: Holy-Bible---Bengali---AB-StudyPack
+updating: Holy-Bible---Bengali---AB-StudyPack/	(in=0) (out=0) (stored 0%)
+updating: Holy-Bible---Bengali---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
+updating: Holy-Bible---Bengali---AB-StudyPack/Holy-Bible---Bengali---AB-StudyPack.txt .......	(in=83632576) (out=16393651) (deflated 80%)
+updating: Holy-Bible---Bengali---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
+updating: Holy-Bible---Bengali---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
+updating: Holy-Bible---Bengali---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
+updating: Holy-Bible---Bengali---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
+total bytes=90397873, compressed=18239955 -> 80% savings
+*** AION: Attempting: Chinese: Holy-Bible---Chinese---AB-StudyPack
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference forwarded: 42_Mrk.004.006	=NA diff TR ˹˺	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+NIV	καὶ	 | >4:TR+Byz = δὲ = "however" = G1161 = CONJ 	Y	and			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν	shall we pay	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		¿Demos	to give			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	ἢ	or	G2228	CONJ	ἤ	or/than	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἢ		o	or			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	μὴ	not	G3361	PRT-N	μή	not	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		no	not			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν;¶	shall we pay?	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		demos?	to give			
+
+*** AION: WARN! bad big reference skipped: 44_Jhn.009.003	=NA same TR ~~	φανερωθῇ	may be displayed	G5319	V-APS-3P	βάλλω	to throw	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φανερωθῇ		arrojen	to throw§1_throw			
+
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἀπὸ	from	G0575	PREP	ἀπό	away from	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπὸ		desde	from			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	πάντων	all things	G3956	A-GPN	πᾶς	all	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πάντων		de todas (cosas)	all			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ὧν	from which	G3739	R-GPN	ὅς, ἥ	which	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὧν		cuales	which		«032:G3956	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	οὐκ	not	G3756	PRT-N	οὐ	no	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὐκ		no	no			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἠδυνήθητε	you were able	G1410	V-AOI-2P-ATT	δύναμαι	be able	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠδυνήθητε		fueron capaces	be able			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=TR not NA or NIV/ESV «»	τῷ	the	G3588	T-DSM	ὁ	the/this/who	TR+Byz	τῷ		a el	the		»042:G3551	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	νόμῳ	law	G3551	N-DSM	νόμος	law	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	νόμῳ		ley	law			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	Μωϋσέως	of Moses	G3475	N-GSM-P	Μωϋσῆς, Μωσῆς	Moses	NA27+NA28+Tyn+SBL+Treg+Byz+NIV , WH ; TR	μωϋσέως , μωυσέως ; μωσέως		de Moisés	Moses§Moses@Exo.2.10			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	δικαιωθῆναι,	to be justified,	G1344	V-APN	δικαιόω	to justify	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δικαιωθῆναι		ser justificado	to justify			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ταῦτα	these things	G3778	D-APN	οὗτος	this/he/she/it	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ταῦτα		estas (cosas)	these		»048:G2036	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	εἰπὼν	having said,	G2036	V-2AAP-NSM	ἔπω, ἐρῶ, εἶπον	to say	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰπὼν		habiendo dicho	to say			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἀπέλυσεν	he dismissed	G0630	V-AAI-3S	ἀπολύω	to release	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπέλυσεν		despidió	to release§1_release			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	τὴν	the	G3588	T-ASF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὴν		a la	the		»054:G1577	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἐκκλησίαν.¶	assembly.	G1577	N-ASF	ἐκκλησία	assembly	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκκλησίαν		asamblea	assembly			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τῇ	the	G3588	T-DSF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῇ		el	the		»006:G0463	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἀνοχῇ	forbearance	G0463	N-DSF	ἀνοχή	tolerance	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀνοχῇ		autorefrenamiento	tolerance			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τοῦ	<the>	G3588	T-GSM	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		de el	the		»010:G2316	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	θεοῦ·	of God;	G2316	N-GSM	θεός	God	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεοῦ		Dios	God			
+
+*** AION: Processing: Holy-Bible---Chinese---Chinese-Union-Version-Simplified
+*** AION: Processing: Holy-Bible---Chinese---Chinese-Union-Version-Simplified ZZ010
+*** AION: Processing: Holy-Bible---Chinese---Chinese-Union-Version-Traditional
+*** AION: Processing: Holy-Bible---Chinese---Chinese-Union-Version-Traditional ZZ011
+*** AION: Processing: Aionian Bible EAB ZZ012
+*** AION: Processing: STEP Bible STP ZZ013
+*** AION: Sort: Holy-Bible---Chinese---AB-StudyPack/Holy-Bible---Chinese---AB-StudyPack.txt
+*** AION: Copy: more files
+*** AION: Zip: Holy-Bible---Chinese---AB-StudyPack
+updating: Holy-Bible---Chinese---AB-StudyPack/	(in=0) (out=0) (stored 0%)
+updating: Holy-Bible---Chinese---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
+updating: Holy-Bible---Chinese---AB-StudyPack/Holy-Bible---Chinese---AB-StudyPack.txt .......	(in=73748566) (out=16568688) (deflated 78%)
+updating: Holy-Bible---Chinese---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
+updating: Holy-Bible---Chinese---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
+updating: Holy-Bible---Chinese---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
+updating: Holy-Bible---Chinese---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
+total bytes=80513863, compressed=18414992 -> 77% savings
+*** AION: Attempting: English: Holy-Bible---English---AB-StudyPack
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference forwarded: 42_Mrk.004.006	=NA diff TR ˹˺	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+NIV	καὶ	 | >4:TR+Byz = δὲ = "however" = G1161 = CONJ 	Y	and			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν	shall we pay	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		¿Demos	to give			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	ἢ	or	G2228	CONJ	ἤ	or/than	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἢ		o	or			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	μὴ	not	G3361	PRT-N	μή	not	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		no	not			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν;¶	shall we pay?	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		demos?	to give			
+
+*** AION: WARN! bad big reference skipped: 44_Jhn.009.003	=NA same TR ~~	φανερωθῇ	may be displayed	G5319	V-APS-3P	βάλλω	to throw	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φανερωθῇ		arrojen	to throw§1_throw			
+
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἀπὸ	from	G0575	PREP	ἀπό	away from	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπὸ		desde	from			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	πάντων	all things	G3956	A-GPN	πᾶς	all	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πάντων		de todas (cosas)	all			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ὧν	from which	G3739	R-GPN	ὅς, ἥ	which	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὧν		cuales	which		«032:G3956	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	οὐκ	not	G3756	PRT-N	οὐ	no	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὐκ		no	no			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἠδυνήθητε	you were able	G1410	V-AOI-2P-ATT	δύναμαι	be able	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠδυνήθητε		fueron capaces	be able			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=TR not NA or NIV/ESV «»	τῷ	the	G3588	T-DSM	ὁ	the/this/who	TR+Byz	τῷ		a el	the		»042:G3551	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	νόμῳ	law	G3551	N-DSM	νόμος	law	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	νόμῳ		ley	law			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	Μωϋσέως	of Moses	G3475	N-GSM-P	Μωϋσῆς, Μωσῆς	Moses	NA27+NA28+Tyn+SBL+Treg+Byz+NIV , WH ; TR	μωϋσέως , μωυσέως ; μωσέως		de Moisés	Moses§Moses@Exo.2.10			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	δικαιωθῆναι,	to be justified,	G1344	V-APN	δικαιόω	to justify	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δικαιωθῆναι		ser justificado	to justify			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ταῦτα	these things	G3778	D-APN	οὗτος	this/he/she/it	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ταῦτα		estas (cosas)	these		»048:G2036	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	εἰπὼν	having said,	G2036	V-2AAP-NSM	ἔπω, ἐρῶ, εἶπον	to say	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰπὼν		habiendo dicho	to say			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἀπέλυσεν	he dismissed	G0630	V-AAI-3S	ἀπολύω	to release	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπέλυσεν		despidió	to release§1_release			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	τὴν	the	G3588	T-ASF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὴν		a la	the		»054:G1577	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἐκκλησίαν.¶	assembly.	G1577	N-ASF	ἐκκλησία	assembly	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκκλησίαν		asamblea	assembly			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τῇ	the	G3588	T-DSF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῇ		el	the		»006:G0463	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἀνοχῇ	forbearance	G0463	N-DSF	ἀνοχή	tolerance	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀνοχῇ		autorefrenamiento	tolerance			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τοῦ	<the>	G3588	T-GSM	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		de el	the		»010:G2316	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	θεοῦ·	of God;	G2316	N-GSM	θεός	God	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεοῦ		Dios	God			
+
+*** AION: Processing: Holy-Bible---English---Aionian-Bible
+*** AION: Processing: Holy-Bible---English---Aionian-Bible ZZ010
+*** AION: Processing: Holy-Bible---English---Catholic-Public-Domain
+*** AION: Processing: Holy-Bible---English---Catholic-Public-Domain ZZ011
+*** AION: Processing: Aionian Bible EAB ZZ012
+*** AION: Processing: STEP Bible STP ZZ013
+*** AION: Sort: Holy-Bible---English---AB-StudyPack/Holy-Bible---English---AB-StudyPack.txt
+*** AION: Copy: more files
+*** AION: Zip: Holy-Bible---English---AB-StudyPack
+updating: Holy-Bible---English---AB-StudyPack/	(in=0) (out=0) (stored 0%)
+updating: Holy-Bible---English---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
+updating: Holy-Bible---English---AB-StudyPack/Holy-Bible---English---AB-StudyPack.txt ......	(in=72272621) (out=14774198) (deflated 80%)
+updating: Holy-Bible---English---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
+updating: Holy-Bible---English---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
+updating: Holy-Bible---English---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
+updating: Holy-Bible---English---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
+total bytes=79037918, compressed=16620502 -> 79% savings
+*** AION: Attempting: French: Holy-Bible---French---AB-StudyPack
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference forwarded: 42_Mrk.004.006	=NA diff TR ˹˺	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+NIV	καὶ	 | >4:TR+Byz = δὲ = "however" = G1161 = CONJ 	Y	and			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν	shall we pay	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		¿Demos	to give			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	ἢ	or	G2228	CONJ	ἤ	or/than	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἢ		o	or			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	μὴ	not	G3361	PRT-N	μή	not	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		no	not			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν;¶	shall we pay?	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		demos?	to give			
+
+*** AION: WARN! bad big reference skipped: 44_Jhn.009.003	=NA same TR ~~	φανερωθῇ	may be displayed	G5319	V-APS-3P	βάλλω	to throw	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φανερωθῇ		arrojen	to throw§1_throw			
+
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἀπὸ	from	G0575	PREP	ἀπό	away from	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπὸ		desde	from			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	πάντων	all things	G3956	A-GPN	πᾶς	all	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πάντων		de todas (cosas)	all			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ὧν	from which	G3739	R-GPN	ὅς, ἥ	which	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὧν		cuales	which		«032:G3956	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	οὐκ	not	G3756	PRT-N	οὐ	no	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὐκ		no	no			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἠδυνήθητε	you were able	G1410	V-AOI-2P-ATT	δύναμαι	be able	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠδυνήθητε		fueron capaces	be able			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=TR not NA or NIV/ESV «»	τῷ	the	G3588	T-DSM	ὁ	the/this/who	TR+Byz	τῷ		a el	the		»042:G3551	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	νόμῳ	law	G3551	N-DSM	νόμος	law	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	νόμῳ		ley	law			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	Μωϋσέως	of Moses	G3475	N-GSM-P	Μωϋσῆς, Μωσῆς	Moses	NA27+NA28+Tyn+SBL+Treg+Byz+NIV , WH ; TR	μωϋσέως , μωυσέως ; μωσέως		de Moisés	Moses§Moses@Exo.2.10			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	δικαιωθῆναι,	to be justified,	G1344	V-APN	δικαιόω	to justify	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δικαιωθῆναι		ser justificado	to justify			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ταῦτα	these things	G3778	D-APN	οὗτος	this/he/she/it	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ταῦτα		estas (cosas)	these		»048:G2036	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	εἰπὼν	having said,	G2036	V-2AAP-NSM	ἔπω, ἐρῶ, εἶπον	to say	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰπὼν		habiendo dicho	to say			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἀπέλυσεν	he dismissed	G0630	V-AAI-3S	ἀπολύω	to release	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπέλυσεν		despidió	to release§1_release			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	τὴν	the	G3588	T-ASF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὴν		a la	the		»054:G1577	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἐκκλησίαν.¶	assembly.	G1577	N-ASF	ἐκκλησία	assembly	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκκλησίαν		asamblea	assembly			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τῇ	the	G3588	T-DSF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῇ		el	the		»006:G0463	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἀνοχῇ	forbearance	G0463	N-DSF	ἀνοχή	tolerance	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀνοχῇ		autorefrenamiento	tolerance			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τοῦ	<the>	G3588	T-GSM	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		de el	the		»010:G2316	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	θεοῦ·	of God;	G2316	N-GSM	θεός	God	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεοῦ		Dios	God			
+
+*** AION: Processing: Holy-Bible---French---French-Louis-Segond-1910-Bible
+*** AION: Processing: Holy-Bible---French---French-Louis-Segond-1910-Bible ZZ010
+*** AION: Processing: Holy-Bible---French---French-Crampon-Bible
+*** AION: Processing: Holy-Bible---French---French-Crampon-Bible ZZ011
+*** AION: Processing: Aionian Bible EAB ZZ012
+*** AION: Processing: STEP Bible STP ZZ013
+*** AION: Sort: Holy-Bible---French---AB-StudyPack/Holy-Bible---French---AB-StudyPack.txt
+*** AION: Copy: more files
+*** AION: Zip: Holy-Bible---French---AB-StudyPack
+updating: Holy-Bible---French---AB-StudyPack/	(in=0) (out=0) (stored 0%)
+updating: Holy-Bible---French---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
+updating: Holy-Bible---French---AB-StudyPack/Holy-Bible---French---AB-StudyPack.txt .......	(in=77021425) (out=16629484) (deflated 78%)
+updating: Holy-Bible---French---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
+updating: Holy-Bible---French---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
+updating: Holy-Bible---French---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
+updating: Holy-Bible---French---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
+total bytes=83786722, compressed=18475788 -> 78% savings
+*** AION: Attempting: German: Holy-Bible---German---AB-StudyPack
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference forwarded: 42_Mrk.004.006	=NA diff TR ˹˺	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+NIV	καὶ	 | >4:TR+Byz = δὲ = "however" = G1161 = CONJ 	Y	and			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν	shall we pay	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		¿Demos	to give			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	ἢ	or	G2228	CONJ	ἤ	or/than	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἢ		o	or			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	μὴ	not	G3361	PRT-N	μή	not	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		no	not			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν;¶	shall we pay?	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		demos?	to give			
+
+*** AION: WARN! bad big reference skipped: 44_Jhn.009.003	=NA same TR ~~	φανερωθῇ	may be displayed	G5319	V-APS-3P	βάλλω	to throw	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φανερωθῇ		arrojen	to throw§1_throw			
+
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἀπὸ	from	G0575	PREP	ἀπό	away from	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπὸ		desde	from			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	πάντων	all things	G3956	A-GPN	πᾶς	all	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πάντων		de todas (cosas)	all			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ὧν	from which	G3739	R-GPN	ὅς, ἥ	which	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὧν		cuales	which		«032:G3956	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	οὐκ	not	G3756	PRT-N	οὐ	no	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὐκ		no	no			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἠδυνήθητε	you were able	G1410	V-AOI-2P-ATT	δύναμαι	be able	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠδυνήθητε		fueron capaces	be able			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=TR not NA or NIV/ESV «»	τῷ	the	G3588	T-DSM	ὁ	the/this/who	TR+Byz	τῷ		a el	the		»042:G3551	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	νόμῳ	law	G3551	N-DSM	νόμος	law	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	νόμῳ		ley	law			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	Μωϋσέως	of Moses	G3475	N-GSM-P	Μωϋσῆς, Μωσῆς	Moses	NA27+NA28+Tyn+SBL+Treg+Byz+NIV , WH ; TR	μωϋσέως , μωυσέως ; μωσέως		de Moisés	Moses§Moses@Exo.2.10			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	δικαιωθῆναι,	to be justified,	G1344	V-APN	δικαιόω	to justify	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δικαιωθῆναι		ser justificado	to justify			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ταῦτα	these things	G3778	D-APN	οὗτος	this/he/she/it	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ταῦτα		estas (cosas)	these		»048:G2036	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	εἰπὼν	having said,	G2036	V-2AAP-NSM	ἔπω, ἐρῶ, εἶπον	to say	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰπὼν		habiendo dicho	to say			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἀπέλυσεν	he dismissed	G0630	V-AAI-3S	ἀπολύω	to release	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπέλυσεν		despidió	to release§1_release			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	τὴν	the	G3588	T-ASF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὴν		a la	the		»054:G1577	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἐκκλησίαν.¶	assembly.	G1577	N-ASF	ἐκκλησία	assembly	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκκλησίαν		asamblea	assembly			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τῇ	the	G3588	T-DSF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῇ		el	the		»006:G0463	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἀνοχῇ	forbearance	G0463	N-DSF	ἀνοχή	tolerance	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀνοχῇ		autorefrenamiento	tolerance			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τοῦ	<the>	G3588	T-GSM	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		de el	the		»010:G2316	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	θεοῦ·	of God;	G2316	N-GSM	θεός	God	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεοῦ		Dios	God			
+
+*** AION: Processing: Holy-Bible---German---German-Elberfelder-1905
+*** AION: Processing: Holy-Bible---German---German-Elberfelder-1905 ZZ010
+*** AION: Processing: Holy-Bible---German---German-Katholiche-Riessler
+*** AION: Processing: Holy-Bible---German---German-Katholiche-Riessler ZZ011
+*** AION: Processing: Aionian Bible EAB ZZ012
+*** AION: Processing: STEP Bible STP ZZ013
+*** AION: Sort: Holy-Bible---German---AB-StudyPack/Holy-Bible---German---AB-StudyPack.txt
+*** AION: Copy: more files
+*** AION: Zip: Holy-Bible---German---AB-StudyPack
+updating: Holy-Bible---German---AB-StudyPack/	(in=0) (out=0) (stored 0%)
+updating: Holy-Bible---German---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
+updating: Holy-Bible---German---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
+updating: Holy-Bible---German---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
+updating: Holy-Bible---German---AB-StudyPack/Holy-Bible---German---AB-StudyPack.txt .......	(in=76840405) (out=17069320) (deflated 78%)
+updating: Holy-Bible---German---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
+updating: Holy-Bible---German---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
+total bytes=83605702, compressed=18915624 -> 77% savings
+*** AION: Attempting: Hebrew: Holy-Bible---Hebrew---AB-StudyPack
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference forwarded: 42_Mrk.004.006	=NA diff TR ˹˺	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+NIV	καὶ	 | >4:TR+Byz = δὲ = "however" = G1161 = CONJ 	Y	and			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν	shall we pay	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		¿Demos	to give			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	ἢ	or	G2228	CONJ	ἤ	or/than	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἢ		o	or			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	μὴ	not	G3361	PRT-N	μή	not	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		no	not			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν;¶	shall we pay?	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		demos?	to give			
+
+*** AION: WARN! bad big reference skipped: 44_Jhn.009.003	=NA same TR ~~	φανερωθῇ	may be displayed	G5319	V-APS-3P	βάλλω	to throw	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φανερωθῇ		arrojen	to throw§1_throw			
+
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἀπὸ	from	G0575	PREP	ἀπό	away from	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπὸ		desde	from			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	πάντων	all things	G3956	A-GPN	πᾶς	all	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πάντων		de todas (cosas)	all			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ὧν	from which	G3739	R-GPN	ὅς, ἥ	which	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὧν		cuales	which		«032:G3956	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	οὐκ	not	G3756	PRT-N	οὐ	no	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὐκ		no	no			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἠδυνήθητε	you were able	G1410	V-AOI-2P-ATT	δύναμαι	be able	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠδυνήθητε		fueron capaces	be able			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=TR not NA or NIV/ESV «»	τῷ	the	G3588	T-DSM	ὁ	the/this/who	TR+Byz	τῷ		a el	the		»042:G3551	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	νόμῳ	law	G3551	N-DSM	νόμος	law	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	νόμῳ		ley	law			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	Μωϋσέως	of Moses	G3475	N-GSM-P	Μωϋσῆς, Μωσῆς	Moses	NA27+NA28+Tyn+SBL+Treg+Byz+NIV , WH ; TR	μωϋσέως , μωυσέως ; μωσέως		de Moisés	Moses§Moses@Exo.2.10			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	δικαιωθῆναι,	to be justified,	G1344	V-APN	δικαιόω	to justify	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δικαιωθῆναι		ser justificado	to justify			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ταῦτα	these things	G3778	D-APN	οὗτος	this/he/she/it	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ταῦτα		estas (cosas)	these		»048:G2036	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	εἰπὼν	having said,	G2036	V-2AAP-NSM	ἔπω, ἐρῶ, εἶπον	to say	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰπὼν		habiendo dicho	to say			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἀπέλυσεν	he dismissed	G0630	V-AAI-3S	ἀπολύω	to release	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπέλυσεν		despidió	to release§1_release			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	τὴν	the	G3588	T-ASF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὴν		a la	the		»054:G1577	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἐκκλησίαν.¶	assembly.	G1577	N-ASF	ἐκκλησία	assembly	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκκλησίαν		asamblea	assembly			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τῇ	the	G3588	T-DSF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῇ		el	the		»006:G0463	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἀνοχῇ	forbearance	G0463	N-DSF	ἀνοχή	tolerance	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀνοχῇ		autorefrenamiento	tolerance			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τοῦ	<the>	G3588	T-GSM	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		de el	the		»010:G2316	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	θεοῦ·	of God;	G2316	N-GSM	θεός	God	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεοῦ		Dios	God			
+
+*** AION: Processing: Holy-Bible---Hebrew---Modern-Hebrew-Bible
+*** AION: Processing: Holy-Bible---Hebrew---Modern-Hebrew-Bible ZZ010
+*** AION: Processing: Aionian Bible EAB ZZ011
+*** AION: Processing: STEP Bible STP ZZ012
+*** AION: Sort: Holy-Bible---Hebrew---AB-StudyPack/Holy-Bible---Hebrew---AB-StudyPack.txt
+*** AION: Copy: more files
+*** AION: Zip: Holy-Bible---Hebrew---AB-StudyPack
+updating: Holy-Bible---Hebrew---AB-StudyPack/	(in=0) (out=0) (stored 0%)
+updating: Holy-Bible---Hebrew---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
+updating: Holy-Bible---Hebrew---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
+updating: Holy-Bible---Hebrew---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
+updating: Holy-Bible---Hebrew---AB-StudyPack/Holy-Bible---Hebrew---AB-StudyPack.txt ......	(in=71341887) (out=14962806) (deflated 79%)
+updating: Holy-Bible---Hebrew---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
+updating: Holy-Bible---Hebrew---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
+total bytes=78107184, compressed=16809110 -> 78% savings
+*** AION: Attempting: Hindi: Holy-Bible---Hindi---AB-StudyPack
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference forwarded: 42_Mrk.004.006	=NA diff TR ˹˺	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+NIV	καὶ	 | >4:TR+Byz = δὲ = "however" = G1161 = CONJ 	Y	and			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν	shall we pay	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		¿Demos	to give			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	ἢ	or	G2228	CONJ	ἤ	or/than	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἢ		o	or			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	μὴ	not	G3361	PRT-N	μή	not	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		no	not			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν;¶	shall we pay?	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		demos?	to give			
+
+*** AION: WARN! bad big reference skipped: 44_Jhn.009.003	=NA same TR ~~	φανερωθῇ	may be displayed	G5319	V-APS-3P	βάλλω	to throw	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φανερωθῇ		arrojen	to throw§1_throw			
+
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἀπὸ	from	G0575	PREP	ἀπό	away from	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπὸ		desde	from			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	πάντων	all things	G3956	A-GPN	πᾶς	all	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πάντων		de todas (cosas)	all			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ὧν	from which	G3739	R-GPN	ὅς, ἥ	which	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὧν		cuales	which		«032:G3956	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	οὐκ	not	G3756	PRT-N	οὐ	no	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὐκ		no	no			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἠδυνήθητε	you were able	G1410	V-AOI-2P-ATT	δύναμαι	be able	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠδυνήθητε		fueron capaces	be able			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=TR not NA or NIV/ESV «»	τῷ	the	G3588	T-DSM	ὁ	the/this/who	TR+Byz	τῷ		a el	the		»042:G3551	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	νόμῳ	law	G3551	N-DSM	νόμος	law	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	νόμῳ		ley	law			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	Μωϋσέως	of Moses	G3475	N-GSM-P	Μωϋσῆς, Μωσῆς	Moses	NA27+NA28+Tyn+SBL+Treg+Byz+NIV , WH ; TR	μωϋσέως , μωυσέως ; μωσέως		de Moisés	Moses§Moses@Exo.2.10			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	δικαιωθῆναι,	to be justified,	G1344	V-APN	δικαιόω	to justify	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δικαιωθῆναι		ser justificado	to justify			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ταῦτα	these things	G3778	D-APN	οὗτος	this/he/she/it	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ταῦτα		estas (cosas)	these		»048:G2036	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	εἰπὼν	having said,	G2036	V-2AAP-NSM	ἔπω, ἐρῶ, εἶπον	to say	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰπὼν		habiendo dicho	to say			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἀπέλυσεν	he dismissed	G0630	V-AAI-3S	ἀπολύω	to release	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπέλυσεν		despidió	to release§1_release			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	τὴν	the	G3588	T-ASF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὴν		a la	the		»054:G1577	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἐκκλησίαν.¶	assembly.	G1577	N-ASF	ἐκκλησία	assembly	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκκλησίαν		asamblea	assembly			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τῇ	the	G3588	T-DSF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῇ		el	the		»006:G0463	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἀνοχῇ	forbearance	G0463	N-DSF	ἀνοχή	tolerance	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀνοχῇ		autorefrenamiento	tolerance			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τοῦ	<the>	G3588	T-GSM	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		de el	the		»010:G2316	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	θεοῦ·	of God;	G2316	N-GSM	θεός	God	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεοῦ		Dios	God			
+
+*** AION: Processing: Holy-Bible---Hindi---Hindi-Bible
+*** AION: Processing: Holy-Bible---Hindi---Hindi-Bible ZZ010
+*** AION: Processing: Aionian Bible EAB ZZ011
+*** AION: Processing: STEP Bible STP ZZ012
+*** AION: Sort: Holy-Bible---Hindi---AB-StudyPack/Holy-Bible---Hindi---AB-StudyPack.txt
+*** AION: Copy: more files
+*** AION: Zip: Holy-Bible---Hindi---AB-StudyPack
+updating: Holy-Bible---Hindi---AB-StudyPack/	(in=0) (out=0) (stored 0%)
+updating: Holy-Bible---Hindi---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
+updating: Holy-Bible---Hindi---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
+updating: Holy-Bible---Hindi---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
+updating: Holy-Bible---Hindi---AB-StudyPack/Holy-Bible---Hindi---AB-StudyPack.txt .......	(in=82835287) (out=16423939) (deflated 80%)
+updating: Holy-Bible---Hindi---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
+updating: Holy-Bible---Hindi---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
+total bytes=89600584, compressed=18270243 -> 80% savings
+*** AION: Attempting: Hungarian: Holy-Bible---Hungarian---AB-StudyPack
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference forwarded: 42_Mrk.004.006	=NA diff TR ˹˺	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+NIV	καὶ	 | >4:TR+Byz = δὲ = "however" = G1161 = CONJ 	Y	and			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν	shall we pay	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		¿Demos	to give			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	ἢ	or	G2228	CONJ	ἤ	or/than	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἢ		o	or			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	μὴ	not	G3361	PRT-N	μή	not	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		no	not			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν;¶	shall we pay?	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		demos?	to give			
+
+*** AION: WARN! bad big reference skipped: 44_Jhn.009.003	=NA same TR ~~	φανερωθῇ	may be displayed	G5319	V-APS-3P	βάλλω	to throw	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φανερωθῇ		arrojen	to throw§1_throw			
+
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἀπὸ	from	G0575	PREP	ἀπό	away from	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπὸ		desde	from			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	πάντων	all things	G3956	A-GPN	πᾶς	all	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πάντων		de todas (cosas)	all			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ὧν	from which	G3739	R-GPN	ὅς, ἥ	which	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὧν		cuales	which		«032:G3956	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	οὐκ	not	G3756	PRT-N	οὐ	no	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὐκ		no	no			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἠδυνήθητε	you were able	G1410	V-AOI-2P-ATT	δύναμαι	be able	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠδυνήθητε		fueron capaces	be able			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=TR not NA or NIV/ESV «»	τῷ	the	G3588	T-DSM	ὁ	the/this/who	TR+Byz	τῷ		a el	the		»042:G3551	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	νόμῳ	law	G3551	N-DSM	νόμος	law	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	νόμῳ		ley	law			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	Μωϋσέως	of Moses	G3475	N-GSM-P	Μωϋσῆς, Μωσῆς	Moses	NA27+NA28+Tyn+SBL+Treg+Byz+NIV , WH ; TR	μωϋσέως , μωυσέως ; μωσέως		de Moisés	Moses§Moses@Exo.2.10			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	δικαιωθῆναι,	to be justified,	G1344	V-APN	δικαιόω	to justify	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δικαιωθῆναι		ser justificado	to justify			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ταῦτα	these things	G3778	D-APN	οὗτος	this/he/she/it	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ταῦτα		estas (cosas)	these		»048:G2036	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	εἰπὼν	having said,	G2036	V-2AAP-NSM	ἔπω, ἐρῶ, εἶπον	to say	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰπὼν		habiendo dicho	to say			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἀπέλυσεν	he dismissed	G0630	V-AAI-3S	ἀπολύω	to release	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπέλυσεν		despidió	to release§1_release			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	τὴν	the	G3588	T-ASF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὴν		a la	the		»054:G1577	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἐκκλησίαν.¶	assembly.	G1577	N-ASF	ἐκκλησία	assembly	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκκλησίαν		asamblea	assembly			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τῇ	the	G3588	T-DSF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῇ		el	the		»006:G0463	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἀνοχῇ	forbearance	G0463	N-DSF	ἀνοχή	tolerance	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀνοχῇ		autorefrenamiento	tolerance			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τοῦ	<the>	G3588	T-GSM	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		de el	the		»010:G2316	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	θεοῦ·	of God;	G2316	N-GSM	θεός	God	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεοῦ		Dios	God			
+
+*** AION: Processing: Holy-Bible---Hungarian---Hungarian-Karoli
+*** AION: Processing: Holy-Bible---Hungarian---Hungarian-Karoli ZZ010
+*** AION: Processing: Aionian Bible EAB ZZ011
+*** AION: Processing: STEP Bible STP ZZ012
+*** AION: Sort: Holy-Bible---Hungarian---AB-StudyPack/Holy-Bible---Hungarian---AB-StudyPack.txt
+*** AION: Copy: more files
+*** AION: Zip: Holy-Bible---Hungarian---AB-StudyPack
+updating: Holy-Bible---Hungarian---AB-StudyPack/	(in=0) (out=0) (stored 0%)
+updating: Holy-Bible---Hungarian---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
+updating: Holy-Bible---Hungarian---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
+updating: Holy-Bible---Hungarian---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
+updating: Holy-Bible---Hungarian---AB-StudyPack/Holy-Bible---Hungarian---AB-StudyPack.txt ......	(in=72259200) (out=15680629) (deflated 78%)
+updating: Holy-Bible---Hungarian---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
+updating: Holy-Bible---Hungarian---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
+total bytes=79024497, compressed=17526933 -> 78% savings
+*** AION: Attempting: Indonesian: Holy-Bible---Indonesian---AB-StudyPack
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference forwarded: 42_Mrk.004.006	=NA diff TR ˹˺	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+NIV	καὶ	 | >4:TR+Byz = δὲ = "however" = G1161 = CONJ 	Y	and			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν	shall we pay	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		¿Demos	to give			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	ἢ	or	G2228	CONJ	ἤ	or/than	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἢ		o	or			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	μὴ	not	G3361	PRT-N	μή	not	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		no	not			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν;¶	shall we pay?	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		demos?	to give			
+
+*** AION: WARN! bad big reference skipped: 44_Jhn.009.003	=NA same TR ~~	φανερωθῇ	may be displayed	G5319	V-APS-3P	βάλλω	to throw	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φανερωθῇ		arrojen	to throw§1_throw			
+
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἀπὸ	from	G0575	PREP	ἀπό	away from	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπὸ		desde	from			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	πάντων	all things	G3956	A-GPN	πᾶς	all	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πάντων		de todas (cosas)	all			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ὧν	from which	G3739	R-GPN	ὅς, ἥ	which	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὧν		cuales	which		«032:G3956	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	οὐκ	not	G3756	PRT-N	οὐ	no	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὐκ		no	no			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἠδυνήθητε	you were able	G1410	V-AOI-2P-ATT	δύναμαι	be able	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠδυνήθητε		fueron capaces	be able			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=TR not NA or NIV/ESV «»	τῷ	the	G3588	T-DSM	ὁ	the/this/who	TR+Byz	τῷ		a el	the		»042:G3551	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	νόμῳ	law	G3551	N-DSM	νόμος	law	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	νόμῳ		ley	law			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	Μωϋσέως	of Moses	G3475	N-GSM-P	Μωϋσῆς, Μωσῆς	Moses	NA27+NA28+Tyn+SBL+Treg+Byz+NIV , WH ; TR	μωϋσέως , μωυσέως ; μωσέως		de Moisés	Moses§Moses@Exo.2.10			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	δικαιωθῆναι,	to be justified,	G1344	V-APN	δικαιόω	to justify	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δικαιωθῆναι		ser justificado	to justify			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ταῦτα	these things	G3778	D-APN	οὗτος	this/he/she/it	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ταῦτα		estas (cosas)	these		»048:G2036	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	εἰπὼν	having said,	G2036	V-2AAP-NSM	ἔπω, ἐρῶ, εἶπον	to say	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰπὼν		habiendo dicho	to say			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἀπέλυσεν	he dismissed	G0630	V-AAI-3S	ἀπολύω	to release	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπέλυσεν		despidió	to release§1_release			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	τὴν	the	G3588	T-ASF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὴν		a la	the		»054:G1577	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἐκκλησίαν.¶	assembly.	G1577	N-ASF	ἐκκλησία	assembly	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκκλησίαν		asamblea	assembly			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τῇ	the	G3588	T-DSF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῇ		el	the		»006:G0463	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἀνοχῇ	forbearance	G0463	N-DSF	ἀνοχή	tolerance	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀνοχῇ		autorefrenamiento	tolerance			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τοῦ	<the>	G3588	T-GSM	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		de el	the		»010:G2316	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	θεοῦ·	of God;	G2316	N-GSM	θεός	God	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεοῦ		Dios	God			
+
+*** AION: Processing: Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari
+*** AION: Processing: Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari ZZ010
+*** AION: Processing: Aionian Bible EAB ZZ011
+*** AION: Processing: STEP Bible STP ZZ012
+*** AION: Sort: Holy-Bible---Indonesian---AB-StudyPack/Holy-Bible---Indonesian---AB-StudyPack.txt
+*** AION: Copy: more files
+*** AION: Zip: Holy-Bible---Indonesian---AB-StudyPack
+updating: Holy-Bible---Indonesian---AB-StudyPack/	(in=0) (out=0) (stored 0%)
+updating: Holy-Bible---Indonesian---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
+updating: Holy-Bible---Indonesian---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
+updating: Holy-Bible---Indonesian---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
+updating: Holy-Bible---Indonesian---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
+updating: Holy-Bible---Indonesian---AB-StudyPack/Holy-Bible---Indonesian---AB-StudyPack.txt ......	(in=72754886) (out=15548263) (deflated 79%)
+updating: Holy-Bible---Indonesian---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
+total bytes=79520183, compressed=17394567 -> 78% savings
+*** AION: Attempting: Japanese: Holy-Bible---Japanese---AB-StudyPack
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference forwarded: 42_Mrk.004.006	=NA diff TR ˹˺	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+NIV	καὶ	 | >4:TR+Byz = δὲ = "however" = G1161 = CONJ 	Y	and			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν	shall we pay	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		¿Demos	to give			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	ἢ	or	G2228	CONJ	ἤ	or/than	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἢ		o	or			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	μὴ	not	G3361	PRT-N	μή	not	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		no	not			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν;¶	shall we pay?	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		demos?	to give			
+
+*** AION: WARN! bad big reference skipped: 44_Jhn.009.003	=NA same TR ~~	φανερωθῇ	may be displayed	G5319	V-APS-3P	βάλλω	to throw	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φανερωθῇ		arrojen	to throw§1_throw			
+
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἀπὸ	from	G0575	PREP	ἀπό	away from	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπὸ		desde	from			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	πάντων	all things	G3956	A-GPN	πᾶς	all	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πάντων		de todas (cosas)	all			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ὧν	from which	G3739	R-GPN	ὅς, ἥ	which	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὧν		cuales	which		«032:G3956	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	οὐκ	not	G3756	PRT-N	οὐ	no	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὐκ		no	no			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἠδυνήθητε	you were able	G1410	V-AOI-2P-ATT	δύναμαι	be able	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠδυνήθητε		fueron capaces	be able			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=TR not NA or NIV/ESV «»	τῷ	the	G3588	T-DSM	ὁ	the/this/who	TR+Byz	τῷ		a el	the		»042:G3551	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	νόμῳ	law	G3551	N-DSM	νόμος	law	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	νόμῳ		ley	law			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	Μωϋσέως	of Moses	G3475	N-GSM-P	Μωϋσῆς, Μωσῆς	Moses	NA27+NA28+Tyn+SBL+Treg+Byz+NIV , WH ; TR	μωϋσέως , μωυσέως ; μωσέως		de Moisés	Moses§Moses@Exo.2.10			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	δικαιωθῆναι,	to be justified,	G1344	V-APN	δικαιόω	to justify	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δικαιωθῆναι		ser justificado	to justify			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ταῦτα	these things	G3778	D-APN	οὗτος	this/he/she/it	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ταῦτα		estas (cosas)	these		»048:G2036	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	εἰπὼν	having said,	G2036	V-2AAP-NSM	ἔπω, ἐρῶ, εἶπον	to say	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰπὼν		habiendo dicho	to say			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἀπέλυσεν	he dismissed	G0630	V-AAI-3S	ἀπολύω	to release	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπέλυσεν		despidió	to release§1_release			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	τὴν	the	G3588	T-ASF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὴν		a la	the		»054:G1577	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἐκκλησίαν.¶	assembly.	G1577	N-ASF	ἐκκλησία	assembly	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκκλησίαν		asamblea	assembly			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τῇ	the	G3588	T-DSF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῇ		el	the		»006:G0463	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἀνοχῇ	forbearance	G0463	N-DSF	ἀνοχή	tolerance	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀνοχῇ		autorefrenamiento	tolerance			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τοῦ	<the>	G3588	T-GSM	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		de el	the		»010:G2316	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	θεοῦ·	of God;	G2316	N-GSM	θεός	God	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεοῦ		Dios	God			
+
+*** AION: Processing: Holy-Bible---Japanese---Japanese-Kougo-yaku
+*** AION: Processing: Holy-Bible---Japanese---Japanese-Kougo-yaku ZZ010
+*** AION: Processing: Holy-Bible---Japanese---Japanese-Meiji-yaku
+*** AION: Processing: Holy-Bible---Japanese---Japanese-Meiji-yaku ZZ011
+*** AION: Processing: Holy-Bible---Japanese---New-Japanese-New-Testament
+*** AION: Processing: Holy-Bible---Japanese---New-Japanese-New-Testament ZZ012
+*** AION: Processing: Aionian Bible EAB ZZ013
+*** AION: Processing: STEP Bible STP ZZ014
+*** AION: Sort: Holy-Bible---Japanese---AB-StudyPack/Holy-Bible---Japanese---AB-StudyPack.txt
+*** AION: Copy: more files
+*** AION: Zip: Holy-Bible---Japanese---AB-StudyPack
+updating: Holy-Bible---Japanese---AB-StudyPack/	(in=0) (out=0) (stored 0%)
+updating: Holy-Bible---Japanese---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
+updating: Holy-Bible---Japanese---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
+updating: Holy-Bible---Japanese---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
+updating: Holy-Bible---Japanese---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
+updating: Holy-Bible---Japanese---AB-StudyPack/Holy-Bible---Japanese---AB-StudyPack.txt .......	(in=77428081) (out=16694647) (deflated 78%)
+updating: Holy-Bible---Japanese---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
+total bytes=84193378, compressed=18540951 -> 78% savings
+*** AION: Attempting: Korean: Holy-Bible---Korean---AB-StudyPack
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference forwarded: 42_Mrk.004.006	=NA diff TR ˹˺	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+NIV	καὶ	 | >4:TR+Byz = δὲ = "however" = G1161 = CONJ 	Y	and			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν	shall we pay	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		¿Demos	to give			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	ἢ	or	G2228	CONJ	ἤ	or/than	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἢ		o	or			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	μὴ	not	G3361	PRT-N	μή	not	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		no	not			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν;¶	shall we pay?	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		demos?	to give			
+
+*** AION: WARN! bad big reference skipped: 44_Jhn.009.003	=NA same TR ~~	φανερωθῇ	may be displayed	G5319	V-APS-3P	βάλλω	to throw	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φανερωθῇ		arrojen	to throw§1_throw			
+
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἀπὸ	from	G0575	PREP	ἀπό	away from	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπὸ		desde	from			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	πάντων	all things	G3956	A-GPN	πᾶς	all	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πάντων		de todas (cosas)	all			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ὧν	from which	G3739	R-GPN	ὅς, ἥ	which	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὧν		cuales	which		«032:G3956	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	οὐκ	not	G3756	PRT-N	οὐ	no	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὐκ		no	no			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἠδυνήθητε	you were able	G1410	V-AOI-2P-ATT	δύναμαι	be able	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠδυνήθητε		fueron capaces	be able			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=TR not NA or NIV/ESV «»	τῷ	the	G3588	T-DSM	ὁ	the/this/who	TR+Byz	τῷ		a el	the		»042:G3551	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	νόμῳ	law	G3551	N-DSM	νόμος	law	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	νόμῳ		ley	law			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	Μωϋσέως	of Moses	G3475	N-GSM-P	Μωϋσῆς, Μωσῆς	Moses	NA27+NA28+Tyn+SBL+Treg+Byz+NIV , WH ; TR	μωϋσέως , μωυσέως ; μωσέως		de Moisés	Moses§Moses@Exo.2.10			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	δικαιωθῆναι,	to be justified,	G1344	V-APN	δικαιόω	to justify	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δικαιωθῆναι		ser justificado	to justify			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ταῦτα	these things	G3778	D-APN	οὗτος	this/he/she/it	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ταῦτα		estas (cosas)	these		»048:G2036	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	εἰπὼν	having said,	G2036	V-2AAP-NSM	ἔπω, ἐρῶ, εἶπον	to say	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰπὼν		habiendo dicho	to say			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἀπέλυσεν	he dismissed	G0630	V-AAI-3S	ἀπολύω	to release	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπέλυσεν		despidió	to release§1_release			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	τὴν	the	G3588	T-ASF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὴν		a la	the		»054:G1577	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἐκκλησίαν.¶	assembly.	G1577	N-ASF	ἐκκλησία	assembly	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκκλησίαν		asamblea	assembly			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τῇ	the	G3588	T-DSF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῇ		el	the		»006:G0463	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἀνοχῇ	forbearance	G0463	N-DSF	ἀνοχή	tolerance	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀνοχῇ		autorefrenamiento	tolerance			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τοῦ	<the>	G3588	T-GSM	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		de el	the		»010:G2316	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	θεοῦ·	of God;	G2316	N-GSM	θεός	God	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεοῦ		Dios	God			
+
+*** AION: Processing: Holy-Bible---Korean---Korean-RV
+*** AION: Processing: Holy-Bible---Korean---Korean-RV ZZ010
+*** AION: Processing: Aionian Bible EAB ZZ011
+*** AION: Processing: STEP Bible STP ZZ012
+*** AION: Sort: Holy-Bible---Korean---AB-StudyPack/Holy-Bible---Korean---AB-StudyPack.txt
+*** AION: Copy: more files
+*** AION: Zip: Holy-Bible---Korean---AB-StudyPack
+updating: Holy-Bible---Korean---AB-StudyPack/	(in=0) (out=0) (stored 0%)
+updating: Holy-Bible---Korean---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
+updating: Holy-Bible---Korean---AB-StudyPack/Holy-Bible---Korean---AB-StudyPack.txt ......	(in=72836063) (out=15646953) (deflated 79%)
+updating: Holy-Bible---Korean---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
+updating: Holy-Bible---Korean---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
+updating: Holy-Bible---Korean---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
+updating: Holy-Bible---Korean---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
+total bytes=79601360, compressed=17493257 -> 78% savings
+*** AION: Attempting: Nepali: Holy-Bible---Nepali---AB-StudyPack
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference forwarded: 42_Mrk.004.006	=NA diff TR ˹˺	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+NIV	καὶ	 | >4:TR+Byz = δὲ = "however" = G1161 = CONJ 	Y	and			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν	shall we pay	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		¿Demos	to give			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	ἢ	or	G2228	CONJ	ἤ	or/than	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἢ		o	or			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	μὴ	not	G3361	PRT-N	μή	not	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		no	not			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν;¶	shall we pay?	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		demos?	to give			
+
+*** AION: WARN! bad big reference skipped: 44_Jhn.009.003	=NA same TR ~~	φανερωθῇ	may be displayed	G5319	V-APS-3P	βάλλω	to throw	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φανερωθῇ		arrojen	to throw§1_throw			
+
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἀπὸ	from	G0575	PREP	ἀπό	away from	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπὸ		desde	from			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	πάντων	all things	G3956	A-GPN	πᾶς	all	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πάντων		de todas (cosas)	all			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ὧν	from which	G3739	R-GPN	ὅς, ἥ	which	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὧν		cuales	which		«032:G3956	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	οὐκ	not	G3756	PRT-N	οὐ	no	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὐκ		no	no			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἠδυνήθητε	you were able	G1410	V-AOI-2P-ATT	δύναμαι	be able	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠδυνήθητε		fueron capaces	be able			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=TR not NA or NIV/ESV «»	τῷ	the	G3588	T-DSM	ὁ	the/this/who	TR+Byz	τῷ		a el	the		»042:G3551	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	νόμῳ	law	G3551	N-DSM	νόμος	law	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	νόμῳ		ley	law			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	Μωϋσέως	of Moses	G3475	N-GSM-P	Μωϋσῆς, Μωσῆς	Moses	NA27+NA28+Tyn+SBL+Treg+Byz+NIV , WH ; TR	μωϋσέως , μωυσέως ; μωσέως		de Moisés	Moses§Moses@Exo.2.10			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	δικαιωθῆναι,	to be justified,	G1344	V-APN	δικαιόω	to justify	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δικαιωθῆναι		ser justificado	to justify			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ταῦτα	these things	G3778	D-APN	οὗτος	this/he/she/it	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ταῦτα		estas (cosas)	these		»048:G2036	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	εἰπὼν	having said,	G2036	V-2AAP-NSM	ἔπω, ἐρῶ, εἶπον	to say	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰπὼν		habiendo dicho	to say			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἀπέλυσεν	he dismissed	G0630	V-AAI-3S	ἀπολύω	to release	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπέλυσεν		despidió	to release§1_release			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	τὴν	the	G3588	T-ASF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὴν		a la	the		»054:G1577	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἐκκλησίαν.¶	assembly.	G1577	N-ASF	ἐκκλησία	assembly	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκκλησίαν		asamblea	assembly			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τῇ	the	G3588	T-DSF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῇ		el	the		»006:G0463	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἀνοχῇ	forbearance	G0463	N-DSF	ἀνοχή	tolerance	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀνοχῇ		autorefrenamiento	tolerance			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τοῦ	<the>	G3588	T-GSM	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		de el	the		»010:G2316	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	θεοῦ·	of God;	G2316	N-GSM	θεός	God	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεοῦ		Dios	God			
+
+*** AION: Processing: Holy-Bible---Nepali---Nepali-Bible
+*** AION: Processing: Holy-Bible---Nepali---Nepali-Bible ZZ010
+*** AION: Processing: Aionian Bible EAB ZZ011
+*** AION: Processing: STEP Bible STP ZZ012
+*** AION: Sort: Holy-Bible---Nepali---AB-StudyPack/Holy-Bible---Nepali---AB-StudyPack.txt
+*** AION: Copy: more files
+*** AION: Zip: Holy-Bible---Nepali---AB-StudyPack
+updating: Holy-Bible---Nepali---AB-StudyPack/	(in=0) (out=0) (stored 0%)
+updating: Holy-Bible---Nepali---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
+updating: Holy-Bible---Nepali---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
+updating: Holy-Bible---Nepali---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
+updating: Holy-Bible---Nepali---AB-StudyPack/Holy-Bible---Nepali---AB-StudyPack.txt ........	(in=85097633) (out=16575914) (deflated 81%)
+updating: Holy-Bible---Nepali---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
+updating: Holy-Bible---Nepali---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
+total bytes=91862930, compressed=18422218 -> 80% savings
+*** AION: Attempting: Norwegian: Holy-Bible---Norwegian---AB-StudyPack
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference forwarded: 42_Mrk.004.006	=NA diff TR ˹˺	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+NIV	καὶ	 | >4:TR+Byz = δὲ = "however" = G1161 = CONJ 	Y	and			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν	shall we pay	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		¿Demos	to give			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	ἢ	or	G2228	CONJ	ἤ	or/than	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἢ		o	or			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	μὴ	not	G3361	PRT-N	μή	not	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		no	not			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν;¶	shall we pay?	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		demos?	to give			
+
+*** AION: WARN! bad big reference skipped: 44_Jhn.009.003	=NA same TR ~~	φανερωθῇ	may be displayed	G5319	V-APS-3P	βάλλω	to throw	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φανερωθῇ		arrojen	to throw§1_throw			
+
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἀπὸ	from	G0575	PREP	ἀπό	away from	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπὸ		desde	from			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	πάντων	all things	G3956	A-GPN	πᾶς	all	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πάντων		de todas (cosas)	all			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ὧν	from which	G3739	R-GPN	ὅς, ἥ	which	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὧν		cuales	which		«032:G3956	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	οὐκ	not	G3756	PRT-N	οὐ	no	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὐκ		no	no			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἠδυνήθητε	you were able	G1410	V-AOI-2P-ATT	δύναμαι	be able	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠδυνήθητε		fueron capaces	be able			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=TR not NA or NIV/ESV «»	τῷ	the	G3588	T-DSM	ὁ	the/this/who	TR+Byz	τῷ		a el	the		»042:G3551	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	νόμῳ	law	G3551	N-DSM	νόμος	law	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	νόμῳ		ley	law			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	Μωϋσέως	of Moses	G3475	N-GSM-P	Μωϋσῆς, Μωσῆς	Moses	NA27+NA28+Tyn+SBL+Treg+Byz+NIV , WH ; TR	μωϋσέως , μωυσέως ; μωσέως		de Moisés	Moses§Moses@Exo.2.10			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	δικαιωθῆναι,	to be justified,	G1344	V-APN	δικαιόω	to justify	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δικαιωθῆναι		ser justificado	to justify			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ταῦτα	these things	G3778	D-APN	οὗτος	this/he/she/it	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ταῦτα		estas (cosas)	these		»048:G2036	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	εἰπὼν	having said,	G2036	V-2AAP-NSM	ἔπω, ἐρῶ, εἶπον	to say	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰπὼν		habiendo dicho	to say			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἀπέλυσεν	he dismissed	G0630	V-AAI-3S	ἀπολύω	to release	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπέλυσεν		despidió	to release§1_release			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	τὴν	the	G3588	T-ASF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὴν		a la	the		»054:G1577	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἐκκλησίαν.¶	assembly.	G1577	N-ASF	ἐκκλησία	assembly	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκκλησίαν		asamblea	assembly			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τῇ	the	G3588	T-DSF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῇ		el	the		»006:G0463	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἀνοχῇ	forbearance	G0463	N-DSF	ἀνοχή	tolerance	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀνοχῇ		autorefrenamiento	tolerance			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τοῦ	<the>	G3588	T-GSM	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		de el	the		»010:G2316	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	θεοῦ·	of God;	G2316	N-GSM	θεός	God	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεοῦ		Dios	God			
+
+*** AION: Processing: Holy-Bible---Norwegian---Norwegian-Student-Bible
+*** AION: Processing: Holy-Bible---Norwegian---Norwegian-Student-Bible ZZ010
+*** AION: Processing: Holy-Bible---Norwegian---Norwegian-Bible
+*** AION: Processing: Holy-Bible---Norwegian---Norwegian-Bible ZZ011
+*** AION: Processing: Aionian Bible EAB ZZ012
+*** AION: Processing: STEP Bible STP ZZ013
+*** AION: Sort: Holy-Bible---Norwegian---AB-StudyPack/Holy-Bible---Norwegian---AB-StudyPack.txt
+*** AION: Copy: more files
+*** AION: Zip: Holy-Bible---Norwegian---AB-StudyPack
+updating: Holy-Bible---Norwegian---AB-StudyPack/	(in=0) (out=0) (stored 0%)
+updating: Holy-Bible---Norwegian---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
+updating: Holy-Bible---Norwegian---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
+updating: Holy-Bible---Norwegian---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
+updating: Holy-Bible---Norwegian---AB-StudyPack/Holy-Bible---Norwegian---AB-StudyPack.txt .......	(in=75482669) (out=16924002) (deflated 78%)
+updating: Holy-Bible---Norwegian---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
+updating: Holy-Bible---Norwegian---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
+total bytes=82247966, compressed=18770306 -> 77% savings
+*** AION: Attempting: Panjabi: Holy-Bible---Panjabi---AB-StudyPack
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference forwarded: 42_Mrk.004.006	=NA diff TR ˹˺	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+NIV	καὶ	 | >4:TR+Byz = δὲ = "however" = G1161 = CONJ 	Y	and			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν	shall we pay	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		¿Demos	to give			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	ἢ	or	G2228	CONJ	ἤ	or/than	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἢ		o	or			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	μὴ	not	G3361	PRT-N	μή	not	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		no	not			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν;¶	shall we pay?	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		demos?	to give			
+
+*** AION: WARN! bad big reference skipped: 44_Jhn.009.003	=NA same TR ~~	φανερωθῇ	may be displayed	G5319	V-APS-3P	βάλλω	to throw	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φανερωθῇ		arrojen	to throw§1_throw			
+
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἀπὸ	from	G0575	PREP	ἀπό	away from	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπὸ		desde	from			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	πάντων	all things	G3956	A-GPN	πᾶς	all	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πάντων		de todas (cosas)	all			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ὧν	from which	G3739	R-GPN	ὅς, ἥ	which	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὧν		cuales	which		«032:G3956	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	οὐκ	not	G3756	PRT-N	οὐ	no	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὐκ		no	no			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἠδυνήθητε	you were able	G1410	V-AOI-2P-ATT	δύναμαι	be able	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠδυνήθητε		fueron capaces	be able			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=TR not NA or NIV/ESV «»	τῷ	the	G3588	T-DSM	ὁ	the/this/who	TR+Byz	τῷ		a el	the		»042:G3551	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	νόμῳ	law	G3551	N-DSM	νόμος	law	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	νόμῳ		ley	law			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	Μωϋσέως	of Moses	G3475	N-GSM-P	Μωϋσῆς, Μωσῆς	Moses	NA27+NA28+Tyn+SBL+Treg+Byz+NIV , WH ; TR	μωϋσέως , μωυσέως ; μωσέως		de Moisés	Moses§Moses@Exo.2.10			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	δικαιωθῆναι,	to be justified,	G1344	V-APN	δικαιόω	to justify	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δικαιωθῆναι		ser justificado	to justify			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ταῦτα	these things	G3778	D-APN	οὗτος	this/he/she/it	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ταῦτα		estas (cosas)	these		»048:G2036	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	εἰπὼν	having said,	G2036	V-2AAP-NSM	ἔπω, ἐρῶ, εἶπον	to say	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰπὼν		habiendo dicho	to say			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἀπέλυσεν	he dismissed	G0630	V-AAI-3S	ἀπολύω	to release	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπέλυσεν		despidió	to release§1_release			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	τὴν	the	G3588	T-ASF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὴν		a la	the		»054:G1577	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἐκκλησίαν.¶	assembly.	G1577	N-ASF	ἐκκλησία	assembly	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκκλησίαν		asamblea	assembly			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τῇ	the	G3588	T-DSF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῇ		el	the		»006:G0463	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἀνοχῇ	forbearance	G0463	N-DSF	ἀνοχή	tolerance	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀνοχῇ		autorefrenamiento	tolerance			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τοῦ	<the>	G3588	T-GSM	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		de el	the		»010:G2316	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	θεοῦ·	of God;	G2316	N-GSM	θεός	God	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεοῦ		Dios	God			
+
+*** AION: Processing: Holy-Bible---Panjabi---Punjabi-Bible
+*** AION: Processing: Holy-Bible---Panjabi---Punjabi-Bible ZZ010
+*** AION: Processing: Aionian Bible EAB ZZ011
+*** AION: Processing: STEP Bible STP ZZ012
+*** AION: Sort: Holy-Bible---Panjabi---AB-StudyPack/Holy-Bible---Panjabi---AB-StudyPack.txt
+*** AION: Copy: more files
+*** AION: Zip: Holy-Bible---Panjabi---AB-StudyPack
+updating: Holy-Bible---Panjabi---AB-StudyPack/	(in=0) (out=0) (stored 0%)
+updating: Holy-Bible---Panjabi---AB-StudyPack/Holy-Bible---Panjabi---AB-StudyPack.txt .......	(in=83441503) (out=16405483) (deflated 80%)
+updating: Holy-Bible---Panjabi---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
+updating: Holy-Bible---Panjabi---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
+updating: Holy-Bible---Panjabi---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
+updating: Holy-Bible---Panjabi---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
+updating: Holy-Bible---Panjabi---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
+total bytes=90206800, compressed=18251787 -> 80% savings
+*** AION: Attempting: Polish: Holy-Bible---Polish---AB-StudyPack
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference forwarded: 42_Mrk.004.006	=NA diff TR ˹˺	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+NIV	καὶ	 | >4:TR+Byz = δὲ = "however" = G1161 = CONJ 	Y	and			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν	shall we pay	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		¿Demos	to give			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	ἢ	or	G2228	CONJ	ἤ	or/than	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἢ		o	or			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	μὴ	not	G3361	PRT-N	μή	not	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		no	not			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν;¶	shall we pay?	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		demos?	to give			
+
+*** AION: WARN! bad big reference skipped: 44_Jhn.009.003	=NA same TR ~~	φανερωθῇ	may be displayed	G5319	V-APS-3P	βάλλω	to throw	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φανερωθῇ		arrojen	to throw§1_throw			
+
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἀπὸ	from	G0575	PREP	ἀπό	away from	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπὸ		desde	from			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	πάντων	all things	G3956	A-GPN	πᾶς	all	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πάντων		de todas (cosas)	all			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ὧν	from which	G3739	R-GPN	ὅς, ἥ	which	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὧν		cuales	which		«032:G3956	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	οὐκ	not	G3756	PRT-N	οὐ	no	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὐκ		no	no			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἠδυνήθητε	you were able	G1410	V-AOI-2P-ATT	δύναμαι	be able	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠδυνήθητε		fueron capaces	be able			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=TR not NA or NIV/ESV «»	τῷ	the	G3588	T-DSM	ὁ	the/this/who	TR+Byz	τῷ		a el	the		»042:G3551	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	νόμῳ	law	G3551	N-DSM	νόμος	law	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	νόμῳ		ley	law			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	Μωϋσέως	of Moses	G3475	N-GSM-P	Μωϋσῆς, Μωσῆς	Moses	NA27+NA28+Tyn+SBL+Treg+Byz+NIV , WH ; TR	μωϋσέως , μωυσέως ; μωσέως		de Moisés	Moses§Moses@Exo.2.10			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	δικαιωθῆναι,	to be justified,	G1344	V-APN	δικαιόω	to justify	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δικαιωθῆναι		ser justificado	to justify			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ταῦτα	these things	G3778	D-APN	οὗτος	this/he/she/it	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ταῦτα		estas (cosas)	these		»048:G2036	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	εἰπὼν	having said,	G2036	V-2AAP-NSM	ἔπω, ἐρῶ, εἶπον	to say	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰπὼν		habiendo dicho	to say			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἀπέλυσεν	he dismissed	G0630	V-AAI-3S	ἀπολύω	to release	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπέλυσεν		despidió	to release§1_release			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	τὴν	the	G3588	T-ASF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὴν		a la	the		»054:G1577	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἐκκλησίαν.¶	assembly.	G1577	N-ASF	ἐκκλησία	assembly	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκκλησίαν		asamblea	assembly			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τῇ	the	G3588	T-DSF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῇ		el	the		»006:G0463	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἀνοχῇ	forbearance	G0463	N-DSF	ἀνοχή	tolerance	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀνοχῇ		autorefrenamiento	tolerance			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τοῦ	<the>	G3588	T-GSM	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		de el	the		»010:G2316	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	θεοῦ·	of God;	G2316	N-GSM	θεός	God	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεοῦ		Dios	God			
+
+*** AION: Processing: Holy-Bible---Polish---Polish-Gdansk
+*** AION: Processing: Holy-Bible---Polish---Polish-Gdansk ZZ010
+*** AION: Processing: Holy-Bible---Polish---Polish-Updated-Gdansk
+*** AION: Processing: Holy-Bible---Polish---Polish-Updated-Gdansk ZZ011
+*** AION: Processing: Aionian Bible EAB ZZ012
+*** AION: Processing: STEP Bible STP ZZ013
+*** AION: Sort: Holy-Bible---Polish---AB-StudyPack/Holy-Bible---Polish---AB-StudyPack.txt
+*** AION: Copy: more files
+*** AION: Zip: Holy-Bible---Polish---AB-StudyPack
+updating: Holy-Bible---Polish---AB-StudyPack/	(in=0) (out=0) (stored 0%)
+updating: Holy-Bible---Polish---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
+updating: Holy-Bible---Polish---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
+updating: Holy-Bible---Polish---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
+updating: Holy-Bible---Polish---AB-StudyPack/Holy-Bible---Polish---AB-StudyPack.txt .......	(in=76053490) (out=17028019) (deflated 78%)
+updating: Holy-Bible---Polish---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
+updating: Holy-Bible---Polish---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
+total bytes=82818787, compressed=18874323 -> 77% savings
+*** AION: Attempting: Portuguese: Holy-Bible---Portuguese---AB-StudyPack
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference forwarded: 42_Mrk.004.006	=NA diff TR ˹˺	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+NIV	καὶ	 | >4:TR+Byz = δὲ = "however" = G1161 = CONJ 	Y	and			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν	shall we pay	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		¿Demos	to give			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	ἢ	or	G2228	CONJ	ἤ	or/than	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἢ		o	or			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	μὴ	not	G3361	PRT-N	μή	not	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		no	not			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν;¶	shall we pay?	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		demos?	to give			
+
+*** AION: WARN! bad big reference skipped: 44_Jhn.009.003	=NA same TR ~~	φανερωθῇ	may be displayed	G5319	V-APS-3P	βάλλω	to throw	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φανερωθῇ		arrojen	to throw§1_throw			
+
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἀπὸ	from	G0575	PREP	ἀπό	away from	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπὸ		desde	from			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	πάντων	all things	G3956	A-GPN	πᾶς	all	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πάντων		de todas (cosas)	all			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ὧν	from which	G3739	R-GPN	ὅς, ἥ	which	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὧν		cuales	which		«032:G3956	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	οὐκ	not	G3756	PRT-N	οὐ	no	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὐκ		no	no			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἠδυνήθητε	you were able	G1410	V-AOI-2P-ATT	δύναμαι	be able	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠδυνήθητε		fueron capaces	be able			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=TR not NA or NIV/ESV «»	τῷ	the	G3588	T-DSM	ὁ	the/this/who	TR+Byz	τῷ		a el	the		»042:G3551	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	νόμῳ	law	G3551	N-DSM	νόμος	law	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	νόμῳ		ley	law			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	Μωϋσέως	of Moses	G3475	N-GSM-P	Μωϋσῆς, Μωσῆς	Moses	NA27+NA28+Tyn+SBL+Treg+Byz+NIV , WH ; TR	μωϋσέως , μωυσέως ; μωσέως		de Moisés	Moses§Moses@Exo.2.10			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	δικαιωθῆναι,	to be justified,	G1344	V-APN	δικαιόω	to justify	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δικαιωθῆναι		ser justificado	to justify			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ταῦτα	these things	G3778	D-APN	οὗτος	this/he/she/it	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ταῦτα		estas (cosas)	these		»048:G2036	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	εἰπὼν	having said,	G2036	V-2AAP-NSM	ἔπω, ἐρῶ, εἶπον	to say	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰπὼν		habiendo dicho	to say			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἀπέλυσεν	he dismissed	G0630	V-AAI-3S	ἀπολύω	to release	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπέλυσεν		despidió	to release§1_release			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	τὴν	the	G3588	T-ASF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὴν		a la	the		»054:G1577	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἐκκλησίαν.¶	assembly.	G1577	N-ASF	ἐκκλησία	assembly	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκκλησίαν		asamblea	assembly			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τῇ	the	G3588	T-DSF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῇ		el	the		»006:G0463	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἀνοχῇ	forbearance	G0463	N-DSF	ἀνοχή	tolerance	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀνοχῇ		autorefrenamiento	tolerance			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τοῦ	<the>	G3588	T-GSM	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		de el	the		»010:G2316	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	θεοῦ·	of God;	G2316	N-GSM	θεός	God	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεοῦ		Dios	God			
+
+*** AION: Processing: Holy-Bible---Portuguese---Biblia-Livre
+*** AION: Processing: Holy-Bible---Portuguese---Biblia-Livre ZZ010
+*** AION: Processing: Holy-Bible---Portuguese---Almeida-Bible-1911
+*** AION: Processing: Holy-Bible---Portuguese---Almeida-Bible-1911 ZZ011
+*** AION: Processing: Aionian Bible EAB ZZ012
+*** AION: Processing: STEP Bible STP ZZ013
+*** AION: Sort: Holy-Bible---Portuguese---AB-StudyPack/Holy-Bible---Portuguese---AB-StudyPack.txt
+*** AION: Copy: more files
+*** AION: Zip: Holy-Bible---Portuguese---AB-StudyPack
+updating: Holy-Bible---Portuguese---AB-StudyPack/	(in=0) (out=0) (stored 0%)
+updating: Holy-Bible---Portuguese---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
+updating: Holy-Bible---Portuguese---AB-StudyPack/Holy-Bible---Portuguese---AB-StudyPack.txt .......	(in=75843062) (out=16584636) (deflated 78%)
+updating: Holy-Bible---Portuguese---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
+updating: Holy-Bible---Portuguese---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
+updating: Holy-Bible---Portuguese---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
+updating: Holy-Bible---Portuguese---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
+total bytes=82608359, compressed=18430940 -> 78% savings
+*** AION: Attempting: Russian: Holy-Bible---Russian---AB-StudyPack
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference forwarded: 42_Mrk.004.006	=NA diff TR ˹˺	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+NIV	καὶ	 | >4:TR+Byz = δὲ = "however" = G1161 = CONJ 	Y	and			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν	shall we pay	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		¿Demos	to give			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	ἢ	or	G2228	CONJ	ἤ	or/than	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἢ		o	or			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	μὴ	not	G3361	PRT-N	μή	not	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		no	not			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν;¶	shall we pay?	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		demos?	to give			
+
+*** AION: WARN! bad big reference skipped: 44_Jhn.009.003	=NA same TR ~~	φανερωθῇ	may be displayed	G5319	V-APS-3P	βάλλω	to throw	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φανερωθῇ		arrojen	to throw§1_throw			
+
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἀπὸ	from	G0575	PREP	ἀπό	away from	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπὸ		desde	from			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	πάντων	all things	G3956	A-GPN	πᾶς	all	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πάντων		de todas (cosas)	all			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ὧν	from which	G3739	R-GPN	ὅς, ἥ	which	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὧν		cuales	which		«032:G3956	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	οὐκ	not	G3756	PRT-N	οὐ	no	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὐκ		no	no			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἠδυνήθητε	you were able	G1410	V-AOI-2P-ATT	δύναμαι	be able	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠδυνήθητε		fueron capaces	be able			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=TR not NA or NIV/ESV «»	τῷ	the	G3588	T-DSM	ὁ	the/this/who	TR+Byz	τῷ		a el	the		»042:G3551	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	νόμῳ	law	G3551	N-DSM	νόμος	law	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	νόμῳ		ley	law			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	Μωϋσέως	of Moses	G3475	N-GSM-P	Μωϋσῆς, Μωσῆς	Moses	NA27+NA28+Tyn+SBL+Treg+Byz+NIV , WH ; TR	μωϋσέως , μωυσέως ; μωσέως		de Moisés	Moses§Moses@Exo.2.10			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	δικαιωθῆναι,	to be justified,	G1344	V-APN	δικαιόω	to justify	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δικαιωθῆναι		ser justificado	to justify			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ταῦτα	these things	G3778	D-APN	οὗτος	this/he/she/it	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ταῦτα		estas (cosas)	these		»048:G2036	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	εἰπὼν	having said,	G2036	V-2AAP-NSM	ἔπω, ἐρῶ, εἶπον	to say	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰπὼν		habiendo dicho	to say			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἀπέλυσεν	he dismissed	G0630	V-AAI-3S	ἀπολύω	to release	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπέλυσεν		despidió	to release§1_release			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	τὴν	the	G3588	T-ASF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὴν		a la	the		»054:G1577	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἐκκλησίαν.¶	assembly.	G1577	N-ASF	ἐκκλησία	assembly	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκκλησίαν		asamblea	assembly			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τῇ	the	G3588	T-DSF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῇ		el	the		»006:G0463	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἀνοχῇ	forbearance	G0463	N-DSF	ἀνοχή	tolerance	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀνοχῇ		autorefrenamiento	tolerance			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τοῦ	<the>	G3588	T-GSM	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		de el	the		»010:G2316	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	θεοῦ·	of God;	G2316	N-GSM	θεός	God	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεοῦ		Dios	God			
+
+*** AION: Processing: Holy-Bible---Russian---Russian-Synodal-Translation
+*** AION: Processing: Holy-Bible---Russian---Russian-Synodal-Translation ZZ010
+*** AION: Processing: Aionian Bible EAB ZZ011
+*** AION: Processing: STEP Bible STP ZZ012
+*** AION: Sort: Holy-Bible---Russian---AB-StudyPack/Holy-Bible---Russian---AB-StudyPack.txt
+*** AION: Copy: more files
+*** AION: Zip: Holy-Bible---Russian---AB-StudyPack
+updating: Holy-Bible---Russian---AB-StudyPack/	(in=0) (out=0) (stored 0%)
+updating: Holy-Bible---Russian---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
+updating: Holy-Bible---Russian---AB-StudyPack/Holy-Bible---Russian---AB-StudyPack.txt .......	(in=76034944) (out=16010729) (deflated 79%)
+updating: Holy-Bible---Russian---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
+updating: Holy-Bible---Russian---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
+updating: Holy-Bible---Russian---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
+updating: Holy-Bible---Russian---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
+total bytes=82800241, compressed=17857033 -> 78% savings
+*** AION: Attempting: Serbian: Holy-Bible---Serbian---AB-StudyPack
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference forwarded: 42_Mrk.004.006	=NA diff TR ˹˺	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+NIV	καὶ	 | >4:TR+Byz = δὲ = "however" = G1161 = CONJ 	Y	and			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν	shall we pay	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		¿Demos	to give			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	ἢ	or	G2228	CONJ	ἤ	or/than	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἢ		o	or			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	μὴ	not	G3361	PRT-N	μή	not	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		no	not			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν;¶	shall we pay?	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		demos?	to give			
+
+*** AION: WARN! bad big reference skipped: 44_Jhn.009.003	=NA same TR ~~	φανερωθῇ	may be displayed	G5319	V-APS-3P	βάλλω	to throw	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φανερωθῇ		arrojen	to throw§1_throw			
+
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἀπὸ	from	G0575	PREP	ἀπό	away from	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπὸ		desde	from			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	πάντων	all things	G3956	A-GPN	πᾶς	all	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πάντων		de todas (cosas)	all			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ὧν	from which	G3739	R-GPN	ὅς, ἥ	which	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὧν		cuales	which		«032:G3956	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	οὐκ	not	G3756	PRT-N	οὐ	no	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὐκ		no	no			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἠδυνήθητε	you were able	G1410	V-AOI-2P-ATT	δύναμαι	be able	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠδυνήθητε		fueron capaces	be able			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=TR not NA or NIV/ESV «»	τῷ	the	G3588	T-DSM	ὁ	the/this/who	TR+Byz	τῷ		a el	the		»042:G3551	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	νόμῳ	law	G3551	N-DSM	νόμος	law	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	νόμῳ		ley	law			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	Μωϋσέως	of Moses	G3475	N-GSM-P	Μωϋσῆς, Μωσῆς	Moses	NA27+NA28+Tyn+SBL+Treg+Byz+NIV , WH ; TR	μωϋσέως , μωυσέως ; μωσέως		de Moisés	Moses§Moses@Exo.2.10			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	δικαιωθῆναι,	to be justified,	G1344	V-APN	δικαιόω	to justify	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δικαιωθῆναι		ser justificado	to justify			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ταῦτα	these things	G3778	D-APN	οὗτος	this/he/she/it	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ταῦτα		estas (cosas)	these		»048:G2036	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	εἰπὼν	having said,	G2036	V-2AAP-NSM	ἔπω, ἐρῶ, εἶπον	to say	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰπὼν		habiendo dicho	to say			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἀπέλυσεν	he dismissed	G0630	V-AAI-3S	ἀπολύω	to release	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπέλυσεν		despidió	to release§1_release			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	τὴν	the	G3588	T-ASF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὴν		a la	the		»054:G1577	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἐκκλησίαν.¶	assembly.	G1577	N-ASF	ἐκκλησία	assembly	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκκλησίαν		asamblea	assembly			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τῇ	the	G3588	T-DSF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῇ		el	the		»006:G0463	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἀνοχῇ	forbearance	G0463	N-DSF	ἀνοχή	tolerance	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀνοχῇ		autorefrenamiento	tolerance			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τοῦ	<the>	G3588	T-GSM	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		de el	the		»010:G2316	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	θεοῦ·	of God;	G2316	N-GSM	θεός	God	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεοῦ		Dios	God			
+
+*** AION: Processing: Holy-Bible---Serbian---Serbian-Ekavski-Bible
+*** AION: Processing: Holy-Bible---Serbian---Serbian-Ekavski-Bible ZZ010
+*** AION: Processing: Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script
+*** AION: Processing: Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script ZZ011
+*** AION: Processing: Aionian Bible EAB ZZ012
+*** AION: Processing: STEP Bible STP ZZ013
+*** AION: Sort: Holy-Bible---Serbian---AB-StudyPack/Holy-Bible---Serbian---AB-StudyPack.txt
+*** AION: Copy: more files
+*** AION: Zip: Holy-Bible---Serbian---AB-StudyPack
+updating: Holy-Bible---Serbian---AB-StudyPack/	(in=0) (out=0) (stored 0%)
+updating: Holy-Bible---Serbian---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
+updating: Holy-Bible---Serbian---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
+updating: Holy-Bible---Serbian---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
+updating: Holy-Bible---Serbian---AB-StudyPack/Holy-Bible---Serbian---AB-StudyPack.txt .......	(in=78719735) (out=17703701) (deflated 78%)
+updating: Holy-Bible---Serbian---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
+updating: Holy-Bible---Serbian---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
+total bytes=85485032, compressed=19550005 -> 77% savings
+*** AION: Attempting: Spanish: Holy-Bible---Spanish---AB-StudyPack
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference forwarded: 42_Mrk.004.006	=NA diff TR ˹˺	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+NIV	καὶ	 | >4:TR+Byz = δὲ = "however" = G1161 = CONJ 	Y	and			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν	shall we pay	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		¿Demos	to give			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	ἢ	or	G2228	CONJ	ἤ	or/than	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἢ		o	or			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	μὴ	not	G3361	PRT-N	μή	not	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		no	not			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν;¶	shall we pay?	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		demos?	to give			
+
+*** AION: WARN! bad big reference skipped: 44_Jhn.009.003	=NA same TR ~~	φανερωθῇ	may be displayed	G5319	V-APS-3P	βάλλω	to throw	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φανερωθῇ		arrojen	to throw§1_throw			
+
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἀπὸ	from	G0575	PREP	ἀπό	away from	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπὸ		desde	from			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	πάντων	all things	G3956	A-GPN	πᾶς	all	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πάντων		de todas (cosas)	all			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ὧν	from which	G3739	R-GPN	ὅς, ἥ	which	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὧν		cuales	which		«032:G3956	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	οὐκ	not	G3756	PRT-N	οὐ	no	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὐκ		no	no			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἠδυνήθητε	you were able	G1410	V-AOI-2P-ATT	δύναμαι	be able	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠδυνήθητε		fueron capaces	be able			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=TR not NA or NIV/ESV «»	τῷ	the	G3588	T-DSM	ὁ	the/this/who	TR+Byz	τῷ		a el	the		»042:G3551	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	νόμῳ	law	G3551	N-DSM	νόμος	law	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	νόμῳ		ley	law			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	Μωϋσέως	of Moses	G3475	N-GSM-P	Μωϋσῆς, Μωσῆς	Moses	NA27+NA28+Tyn+SBL+Treg+Byz+NIV , WH ; TR	μωϋσέως , μωυσέως ; μωσέως		de Moisés	Moses§Moses@Exo.2.10			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	δικαιωθῆναι,	to be justified,	G1344	V-APN	δικαιόω	to justify	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δικαιωθῆναι		ser justificado	to justify			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ταῦτα	these things	G3778	D-APN	οὗτος	this/he/she/it	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ταῦτα		estas (cosas)	these		»048:G2036	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	εἰπὼν	having said,	G2036	V-2AAP-NSM	ἔπω, ἐρῶ, εἶπον	to say	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰπὼν		habiendo dicho	to say			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἀπέλυσεν	he dismissed	G0630	V-AAI-3S	ἀπολύω	to release	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπέλυσεν		despidió	to release§1_release			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	τὴν	the	G3588	T-ASF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὴν		a la	the		»054:G1577	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἐκκλησίαν.¶	assembly.	G1577	N-ASF	ἐκκλησία	assembly	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκκλησίαν		asamblea	assembly			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τῇ	the	G3588	T-DSF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῇ		el	the		»006:G0463	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἀνοχῇ	forbearance	G0463	N-DSF	ἀνοχή	tolerance	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀνοχῇ		autorefrenamiento	tolerance			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τοῦ	<the>	G3588	T-GSM	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		de el	the		»010:G2316	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	θεοῦ·	of God;	G2316	N-GSM	θεός	God	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεοῦ		Dios	God			
+
+*** AION: Processing: Holy-Bible---Spanish---Sencillo-Bible
+*** AION: Processing: Holy-Bible---Spanish---Sencillo-Bible ZZ010
+*** AION: Processing: Holy-Bible---Spanish---Free-Bible
+*** AION: Processing: Holy-Bible---Spanish---Free-Bible ZZ011
+*** AION: Processing: Aionian Bible EAB ZZ012
+*** AION: Processing: STEP Bible STP ZZ013
+*** AION: Sort: Holy-Bible---Spanish---AB-StudyPack/Holy-Bible---Spanish---AB-StudyPack.txt
+*** AION: Copy: more files
+*** AION: Zip: Holy-Bible---Spanish---AB-StudyPack
+updating: Holy-Bible---Spanish---AB-StudyPack/	(in=0) (out=0) (stored 0%)
+updating: Holy-Bible---Spanish---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
+updating: Holy-Bible---Spanish---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
+updating: Holy-Bible---Spanish---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
+updating: Holy-Bible---Spanish---AB-StudyPack/Holy-Bible---Spanish---AB-StudyPack.txt .......	(in=75769548) (out=16704439) (deflated 78%)
+updating: Holy-Bible---Spanish---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
+updating: Holy-Bible---Spanish---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
+total bytes=82534845, compressed=18550743 -> 78% savings
+*** AION: Attempting: Turkish: Holy-Bible---Turkish---AB-StudyPack
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference forwarded: 42_Mrk.004.006	=NA diff TR ˹˺	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+NIV	καὶ	 | >4:TR+Byz = δὲ = "however" = G1161 = CONJ 	Y	and			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν	shall we pay	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		¿Demos	to give			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	ἢ	or	G2228	CONJ	ἤ	or/than	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἢ		o	or			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	μὴ	not	G3361	PRT-N	μή	not	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		no	not			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν;¶	shall we pay?	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		demos?	to give			
+
+*** AION: WARN! bad big reference skipped: 44_Jhn.009.003	=NA same TR ~~	φανερωθῇ	may be displayed	G5319	V-APS-3P	βάλλω	to throw	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φανερωθῇ		arrojen	to throw§1_throw			
+
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἀπὸ	from	G0575	PREP	ἀπό	away from	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπὸ		desde	from			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	πάντων	all things	G3956	A-GPN	πᾶς	all	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πάντων		de todas (cosas)	all			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ὧν	from which	G3739	R-GPN	ὅς, ἥ	which	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὧν		cuales	which		«032:G3956	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	οὐκ	not	G3756	PRT-N	οὐ	no	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὐκ		no	no			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἠδυνήθητε	you were able	G1410	V-AOI-2P-ATT	δύναμαι	be able	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠδυνήθητε		fueron capaces	be able			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=TR not NA or NIV/ESV «»	τῷ	the	G3588	T-DSM	ὁ	the/this/who	TR+Byz	τῷ		a el	the		»042:G3551	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	νόμῳ	law	G3551	N-DSM	νόμος	law	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	νόμῳ		ley	law			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	Μωϋσέως	of Moses	G3475	N-GSM-P	Μωϋσῆς, Μωσῆς	Moses	NA27+NA28+Tyn+SBL+Treg+Byz+NIV , WH ; TR	μωϋσέως , μωυσέως ; μωσέως		de Moisés	Moses§Moses@Exo.2.10			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	δικαιωθῆναι,	to be justified,	G1344	V-APN	δικαιόω	to justify	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δικαιωθῆναι		ser justificado	to justify			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ταῦτα	these things	G3778	D-APN	οὗτος	this/he/she/it	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ταῦτα		estas (cosas)	these		»048:G2036	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	εἰπὼν	having said,	G2036	V-2AAP-NSM	ἔπω, ἐρῶ, εἶπον	to say	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰπὼν		habiendo dicho	to say			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἀπέλυσεν	he dismissed	G0630	V-AAI-3S	ἀπολύω	to release	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπέλυσεν		despidió	to release§1_release			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	τὴν	the	G3588	T-ASF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὴν		a la	the		»054:G1577	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἐκκλησίαν.¶	assembly.	G1577	N-ASF	ἐκκλησία	assembly	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκκλησίαν		asamblea	assembly			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τῇ	the	G3588	T-DSF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῇ		el	the		»006:G0463	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἀνοχῇ	forbearance	G0463	N-DSF	ἀνοχή	tolerance	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀνοχῇ		autorefrenamiento	tolerance			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τοῦ	<the>	G3588	T-GSM	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		de el	the		»010:G2316	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	θεοῦ·	of God;	G2316	N-GSM	θεός	God	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεοῦ		Dios	God			
+
+*** AION: Processing: Holy-Bible---Turkish---Turkish-Bible
+*** AION: Processing: Holy-Bible---Turkish---Turkish-Bible ZZ010
+*** AION: Processing: Aionian Bible EAB ZZ011
+*** AION: Processing: STEP Bible STP ZZ012
+*** AION: Sort: Holy-Bible---Turkish---AB-StudyPack/Holy-Bible---Turkish---AB-StudyPack.txt
+*** AION: Copy: more files
+*** AION: Zip: Holy-Bible---Turkish---AB-StudyPack
+updating: Holy-Bible---Turkish---AB-StudyPack/	(in=0) (out=0) (stored 0%)
+updating: Holy-Bible---Turkish---AB-StudyPack/Holy-Bible---Turkish---AB-StudyPack.txt ......	(in=71521062) (out=15463230) (deflated 78%)
+updating: Holy-Bible---Turkish---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
+updating: Holy-Bible---Turkish---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
+updating: Holy-Bible---Turkish---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
+updating: Holy-Bible---Turkish---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
+updating: Holy-Bible---Turkish---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
+total bytes=78286359, compressed=17309534 -> 78% savings
+*** AION: Attempting: Ukrainian: Holy-Bible---Ukrainian---AB-StudyPack
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference forwarded: 42_Mrk.004.006	=NA diff TR ˹˺	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+NIV	καὶ	 | >4:TR+Byz = δὲ = "however" = G1161 = CONJ 	Y	and			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν	shall we pay	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		¿Demos	to give			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	ἢ	or	G2228	CONJ	ἤ	or/than	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἢ		o	or			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	μὴ	not	G3361	PRT-N	μή	not	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		no	not			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν;¶	shall we pay?	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		demos?	to give			
+
+*** AION: WARN! bad big reference skipped: 44_Jhn.009.003	=NA same TR ~~	φανερωθῇ	may be displayed	G5319	V-APS-3P	βάλλω	to throw	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φανερωθῇ		arrojen	to throw§1_throw			
+
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἀπὸ	from	G0575	PREP	ἀπό	away from	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπὸ		desde	from			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	πάντων	all things	G3956	A-GPN	πᾶς	all	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πάντων		de todas (cosas)	all			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ὧν	from which	G3739	R-GPN	ὅς, ἥ	which	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὧν		cuales	which		«032:G3956	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	οὐκ	not	G3756	PRT-N	οὐ	no	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὐκ		no	no			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἠδυνήθητε	you were able	G1410	V-AOI-2P-ATT	δύναμαι	be able	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠδυνήθητε		fueron capaces	be able			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=TR not NA or NIV/ESV «»	τῷ	the	G3588	T-DSM	ὁ	the/this/who	TR+Byz	τῷ		a el	the		»042:G3551	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	νόμῳ	law	G3551	N-DSM	νόμος	law	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	νόμῳ		ley	law			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	Μωϋσέως	of Moses	G3475	N-GSM-P	Μωϋσῆς, Μωσῆς	Moses	NA27+NA28+Tyn+SBL+Treg+Byz+NIV , WH ; TR	μωϋσέως , μωυσέως ; μωσέως		de Moisés	Moses§Moses@Exo.2.10			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	δικαιωθῆναι,	to be justified,	G1344	V-APN	δικαιόω	to justify	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δικαιωθῆναι		ser justificado	to justify			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ταῦτα	these things	G3778	D-APN	οὗτος	this/he/she/it	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ταῦτα		estas (cosas)	these		»048:G2036	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	εἰπὼν	having said,	G2036	V-2AAP-NSM	ἔπω, ἐρῶ, εἶπον	to say	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰπὼν		habiendo dicho	to say			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἀπέλυσεν	he dismissed	G0630	V-AAI-3S	ἀπολύω	to release	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπέλυσεν		despidió	to release§1_release			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	τὴν	the	G3588	T-ASF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὴν		a la	the		»054:G1577	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἐκκλησίαν.¶	assembly.	G1577	N-ASF	ἐκκλησία	assembly	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκκλησίαν		asamblea	assembly			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τῇ	the	G3588	T-DSF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῇ		el	the		»006:G0463	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἀνοχῇ	forbearance	G0463	N-DSF	ἀνοχή	tolerance	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀνοχῇ		autorefrenamiento	tolerance			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τοῦ	<the>	G3588	T-GSM	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		de el	the		»010:G2316	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	θεοῦ·	of God;	G2316	N-GSM	θεός	God	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεοῦ		Dios	God			
+
+*** AION: Processing: Holy-Bible---Ukrainian---Ukrainian-Ogienko
+*** AION: Processing: Holy-Bible---Ukrainian---Ukrainian-Ogienko ZZ010
+*** AION: Processing: Holy-Bible---Ukrainian---Ukrainian-NT
+*** AION: Processing: Holy-Bible---Ukrainian---Ukrainian-NT ZZ011
+*** AION: Processing: Aionian Bible EAB ZZ012
+*** AION: Processing: STEP Bible STP ZZ013
+*** AION: Sort: Holy-Bible---Ukrainian---AB-StudyPack/Holy-Bible---Ukrainian---AB-StudyPack.txt
+*** AION: Copy: more files
+*** AION: Zip: Holy-Bible---Ukrainian---AB-StudyPack
+updating: Holy-Bible---Ukrainian---AB-StudyPack/	(in=0) (out=0) (stored 0%)
+updating: Holy-Bible---Ukrainian---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
+updating: Holy-Bible---Ukrainian---AB-StudyPack/Holy-Bible---Ukrainian---AB-StudyPack.txt .......	(in=77506554) (out=16471131) (deflated 79%)
+updating: Holy-Bible---Ukrainian---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
+updating: Holy-Bible---Ukrainian---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
+updating: Holy-Bible---Ukrainian---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
+updating: Holy-Bible---Ukrainian---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
+total bytes=84271851, compressed=18317435 -> 78% savings
+*** AION: Attempting: Uyghur: Holy-Bible---Uyghur---AB-StudyPack
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference forwarded: 42_Mrk.004.006	=NA diff TR ˹˺	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+NIV	καὶ	 | >4:TR+Byz = δὲ = "however" = G1161 = CONJ 	Y	and			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν	shall we pay	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		¿Demos	to give			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	ἢ	or	G2228	CONJ	ἤ	or/than	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἢ		o	or			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	μὴ	not	G3361	PRT-N	μή	not	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		no	not			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν;¶	shall we pay?	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		demos?	to give			
+
+*** AION: WARN! bad big reference skipped: 44_Jhn.009.003	=NA same TR ~~	φανερωθῇ	may be displayed	G5319	V-APS-3P	βάλλω	to throw	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φανερωθῇ		arrojen	to throw§1_throw			
+
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἀπὸ	from	G0575	PREP	ἀπό	away from	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπὸ		desde	from			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	πάντων	all things	G3956	A-GPN	πᾶς	all	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πάντων		de todas (cosas)	all			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ὧν	from which	G3739	R-GPN	ὅς, ἥ	which	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὧν		cuales	which		«032:G3956	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	οὐκ	not	G3756	PRT-N	οὐ	no	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὐκ		no	no			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἠδυνήθητε	you were able	G1410	V-AOI-2P-ATT	δύναμαι	be able	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠδυνήθητε		fueron capaces	be able			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=TR not NA or NIV/ESV «»	τῷ	the	G3588	T-DSM	ὁ	the/this/who	TR+Byz	τῷ		a el	the		»042:G3551	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	νόμῳ	law	G3551	N-DSM	νόμος	law	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	νόμῳ		ley	law			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	Μωϋσέως	of Moses	G3475	N-GSM-P	Μωϋσῆς, Μωσῆς	Moses	NA27+NA28+Tyn+SBL+Treg+Byz+NIV , WH ; TR	μωϋσέως , μωυσέως ; μωσέως		de Moisés	Moses§Moses@Exo.2.10			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	δικαιωθῆναι,	to be justified,	G1344	V-APN	δικαιόω	to justify	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δικαιωθῆναι		ser justificado	to justify			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ταῦτα	these things	G3778	D-APN	οὗτος	this/he/she/it	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ταῦτα		estas (cosas)	these		»048:G2036	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	εἰπὼν	having said,	G2036	V-2AAP-NSM	ἔπω, ἐρῶ, εἶπον	to say	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰπὼν		habiendo dicho	to say			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἀπέλυσεν	he dismissed	G0630	V-AAI-3S	ἀπολύω	to release	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπέλυσεν		despidió	to release§1_release			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	τὴν	the	G3588	T-ASF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὴν		a la	the		»054:G1577	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἐκκλησίαν.¶	assembly.	G1577	N-ASF	ἐκκλησία	assembly	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκκλησίαν		asamblea	assembly			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τῇ	the	G3588	T-DSF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῇ		el	the		»006:G0463	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἀνοχῇ	forbearance	G0463	N-DSF	ἀνοχή	tolerance	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀνοχῇ		autorefrenamiento	tolerance			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τοῦ	<the>	G3588	T-GSM	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		de el	the		»010:G2316	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	θεοῦ·	of God;	G2316	N-GSM	θεός	God	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεοῦ		Dios	God			
+
+*** AION: Processing: Holy-Bible---Uyghur---Uyghur-Bible-Arabic
+*** AION: Processing: Holy-Bible---Uyghur---Uyghur-Bible-Arabic ZZ010
+*** AION: Processing: Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic
+*** AION: Processing: Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic ZZ011
+*** AION: Processing: Aionian Bible EAB ZZ012
+*** AION: Processing: STEP Bible STP ZZ013
+*** AION: Sort: Holy-Bible---Uyghur---AB-StudyPack/Holy-Bible---Uyghur---AB-StudyPack.txt
+*** AION: Copy: more files
+*** AION: Zip: Holy-Bible---Uyghur---AB-StudyPack
+updating: Holy-Bible---Uyghur---AB-StudyPack/	(in=0) (out=0) (stored 0%)
+updating: Holy-Bible---Uyghur---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
+updating: Holy-Bible---Uyghur---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
+updating: Holy-Bible---Uyghur---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
+updating: Holy-Bible---Uyghur---AB-StudyPack/Holy-Bible---Uyghur---AB-StudyPack.txt ........	(in=88518393) (out=19655131) (deflated 78%)
+updating: Holy-Bible---Uyghur---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
+updating: Holy-Bible---Uyghur---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
+total bytes=95283690, compressed=21501435 -> 77% savings
+*** AION: Attempting: Vietnamese: Holy-Bible---Vietnamese---AB-StudyPack
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference forwarded: 42_Mrk.004.006	=NA diff TR ˹˺	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+NIV	καὶ	 | >4:TR+Byz = δὲ = "however" = G1161 = CONJ 	Y	and			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν	shall we pay	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		¿Demos	to give			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	ἢ	or	G2228	CONJ	ἤ	or/than	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἢ		o	or			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	μὴ	not	G3361	PRT-N	μή	not	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		no	not			
+
+*** AION: WARN! bad reference backwarded: 42_Mrk.012.014	=NA same TR ~~	δῶμεν;¶	shall we pay?	G1325	V-2AAS-1P	δίδωμι	to give	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δῶμεν		demos?	to give			
+
+*** AION: WARN! bad big reference skipped: 44_Jhn.009.003	=NA same TR ~~	φανερωθῇ	may be displayed	G5319	V-APS-3P	βάλλω	to throw	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φανερωθῇ		arrojen	to throw§1_throw			
+
+*** AION: Processing: ../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἀπὸ	from	G0575	PREP	ἀπό	away from	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπὸ		desde	from			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	πάντων	all things	G3956	A-GPN	πᾶς	all	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πάντων		de todas (cosas)	all			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ὧν	from which	G3739	R-GPN	ὅς, ἥ	which	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὧν		cuales	which		«032:G3956	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	οὐκ	not	G3756	PRT-N	οὐ	no	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὐκ		no	no			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἠδυνήθητε	you were able	G1410	V-AOI-2P-ATT	δύναμαι	be able	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠδυνήθητε		fueron capaces	be able			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=TR not NA or NIV/ESV «»	τῷ	the	G3588	T-DSM	ὁ	the/this/who	TR+Byz	τῷ		a el	the		»042:G3551	
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	νόμῳ	law	G3551	N-DSM	νόμος	law	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	νόμῳ		ley	law			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	Μωϋσέως	of Moses	G3475	N-GSM-P	Μωϋσῆς, Μωσῆς	Moses	NA27+NA28+Tyn+SBL+Treg+Byz+NIV , WH ; TR	μωϋσέως , μωυσέως ; μωσέως		de Moisés	Moses§Moses@Exo.2.10			
+
+*** AION: WARN! bad reference backwarded: 45_Act.013.038	=NA same TR ~~	δικαιωθῆναι,	to be justified,	G1344	V-APN	δικαιόω	to justify	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δικαιωθῆναι		ser justificado	to justify			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	καὶ	And	G2532	CONJ	καί	and	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		Y	and			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ταῦτα	these things	G3778	D-APN	οὗτος	this/he/she/it	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ταῦτα		estas (cosas)	these		»048:G2036	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	εἰπὼν	having said,	G2036	V-2AAP-NSM	ἔπω, ἐρῶ, εἶπον	to say	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰπὼν		habiendo dicho	to say			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἀπέλυσεν	he dismissed	G0630	V-AAI-3S	ἀπολύω	to release	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπέλυσεν		despidió	to release§1_release			
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	τὴν	the	G3588	T-ASF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὴν		a la	the		»054:G1577	
+
+*** AION: WARN! bad reference backwarded: 45_Act.019.040	=NA same TR ~~	ἐκκλησίαν.¶	assembly.	G1577	N-ASF	ἐκκλησία	assembly	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκκλησίαν		asamblea	assembly			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἐν	in	G1722	PREP	ἐν	in/on/among	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		en	in			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τῇ	the	G3588	T-DSF	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῇ		el	the		»006:G0463	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	ἀνοχῇ	forbearance	G0463	N-DSF	ἀνοχή	tolerance	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀνοχῇ		autorefrenamiento	tolerance			
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	τοῦ	<the>	G3588	T-GSM	ὁ	the/this/who	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		de el	the		»010:G2316	
+
+*** AION: WARN! bad reference forwarded: 46_Rom.003.026	=NA same TR ~~	θεοῦ·	of God;	G2316	N-GSM	θεός	God	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεοῦ		Dios	God			
+
+*** AION: Processing: Holy-Bible---Vietnamese---Vietnamese-Bible
+*** AION: Processing: Holy-Bible---Vietnamese---Vietnamese-Bible ZZ010
+*** AION: Processing: Aionian Bible EAB ZZ011
+*** AION: Processing: STEP Bible STP ZZ012
+*** AION: Sort: Holy-Bible---Vietnamese---AB-StudyPack/Holy-Bible---Vietnamese---AB-StudyPack.txt
+*** AION: Copy: more files
+*** AION: Zip: Holy-Bible---Vietnamese---AB-StudyPack
+updating: Holy-Bible---Vietnamese---AB-StudyPack/	(in=0) (out=0) (stored 0%)
+updating: Holy-Bible---Vietnamese---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
+updating: Holy-Bible---Vietnamese---AB-StudyPack/Holy-Bible---Vietnamese---AB-StudyPack.txt .......	(in=74132050) (out=15767406) (deflated 79%)
+updating: Holy-Bible---Vietnamese---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
+updating: Holy-Bible---Vietnamese---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
+updating: Holy-Bible---Vietnamese---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
+updating: Holy-Bible---Vietnamese---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
+total bytes=80897347, compressed=17613710 -> 78% savings
+*** AION: DONE

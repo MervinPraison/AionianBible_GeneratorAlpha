@@ -1,0 +1,276 @@
+mkdir -p /usr/lib64/aspell-0.60/
+cp gd.rws gaidhlig.alias gd.multi /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 gd.rws gaidhlig.alias gd.multi
+mkdir -p /usr/lib64/aspell-0.60/
+cp gd.dat gd_phonet.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 gd.dat gd_phonet.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp mg.rws malagasy.alias mg.multi /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 mg.rws malagasy.alias mg.multi
+mkdir -p /usr/lib64/aspell-0.60/
+cp mg.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 mg.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp ro-classic-only.rws ro-common.rws ro-only.rws ro.multi ro-classic.multi romanian.alias romanian-classic.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 ro-classic-only.rws ro-common.rws ro-only.rws ro.multi ro-classic.multi romanian.alias romanian-classic.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp ro.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 ro.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp tl.rws tagalog.alias tl.multi /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 tl.rws tagalog.alias tl.multi
+mkdir -p /usr/lib64/aspell-0.60/
+cp tl.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 tl.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp ar.rws ar.multi arabic.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 ar.rws ar.multi arabic.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp ar.dat l-ar.cset l-ar.cmap ar_affix.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 ar.dat l-ar.cset l-ar.cmap ar_affix.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp az.rws az.multi azerbaijani.alias azeri.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 az.rws az.multi azerbaijani.alias azeri.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp az.dat l-az.cset l-az.cmap /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 az.dat l-az.cset l-az.cmap
+mkdir -p /usr/lib64/aspell-0.60/
+cp bn.rws bengali.alias bn.multi /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 bn.rws bengali.alias bn.multi
+mkdir -p /usr/lib64/aspell-0.60/
+cp bn.dat u-beng.cset u-beng.cmap /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 bn.dat u-beng.cset u-beng.cmap
+mkdir -p /usr/lib64/aspell-0.60/
+cp cs.rws cs.multi czech.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 cs.rws cs.multi czech.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp cs.dat cs_affix.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 cs.dat cs_affix.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp da.rws da.multi danish.alias dansk.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 da.rws da.multi danish.alias dansk.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp da.dat da_phonet.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 da.dat da_phonet.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp de-common.rws de_AT-only.rws de_CH-only.rws de_DE-only.rws de.multi de_AT.multi de_CH.multi de_DE.multi deutsch.alias german.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 de-common.rws de_AT-only.rws de_CH-only.rws de_DE-only.rws de.multi de_AT.multi de_CH.multi de_DE.multi deutsch.alias german.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp de.dat de_phonet.dat de_affix.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 de.dat de_phonet.dat de_affix.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp de-alt.rws de-alt.multi deutsch-alt.alias german-old.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 de-alt.rws de-alt.multi deutsch-alt.alias german-old.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp de-alt.dat de-alt_phonet.dat de-alt_affix.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 de-alt.dat de-alt_phonet.dat de-alt_affix.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp en-common.rws en-variant_0.rws en-variant_1.rws en-variant_2.rws en-w_accents-only.rws en-wo_accents-only.rws en_AU-variant_0.rws en_AU-variant_1.rws en_AU-w_accents-only.rws en_AU-wo_accents-only.rws en_CA-variant_0.rws en_CA-variant_1.rws en_CA-w_accents-only.rws en_CA-wo_accents-only.rws en_GB-ise-w_accents-only.rws en_GB-ise-wo_accents-only.rws en_GB-ize-w_accents-only.rws en_GB-ize-wo_accents-only.rws en_GB-variant_0.rws en_GB-variant_1.rws en_US-w_accents-only.rws en_US-wo_accents-only.rws american.alias american-variant_0.alias american-variant_1.alias american-w_accents.alias american-wo_accents.alias australian.alias australian-variant_0.alias australian-variant_1.alias australian-w_accents.alias australian-wo_accents.alias british.alias british-ise.alias british-ise-w_accents.alias british-ise-wo_accents.alias british-ize.alias british-ize-w_accents.alias british-ize-wo_accents.alias british-variant_0.alias british-variant_1.alias british-w_accents.alias british-wo_accents.alias canadian.alias canadian-variant_0.alias canadian-variant_1.alias canadian-w_accents.alias canadian-wo_accents.alias en.multi en-variant_0.multi en-variant_1.multi en-variant_2.multi en-w_accents.multi en-wo_accents.multi en_AU.multi en_AU-variant_0.multi en_AU-variant_1.multi en_AU-w_accents.multi en_AU-wo_accents.multi en_CA.multi en_CA-variant_0.multi en_CA-variant_1.multi en_CA-w_accents.multi en_CA-wo_accents.multi en_GB.multi en_GB-ise.multi en_GB-ise-w_accents.multi en_GB-ise-wo_accents.multi en_GB-ize.multi en_GB-ize-w_accents.multi en_GB-ize-wo_accents.multi en_GB-variant_0.multi en_GB-variant_1.multi en_GB-w_accents.multi en_GB-wo_accents.multi en_US.multi en_US-variant_0.multi en_US-variant_1.multi en_US-w_accents.multi en_US-wo_accents.multi english.alias english-variant_0.alias english-variant_1.alias english-variant_2.alias english-w_accents.alias english-wo_accents.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 en-common.rws en-variant_0.rws en-variant_1.rws en-variant_2.rws en-w_accents-only.rws en-wo_accents-only.rws en_AU-variant_0.rws en_AU-variant_1.rws en_AU-w_accents-only.rws en_AU-wo_accents-only.rws en_CA-variant_0.rws en_CA-variant_1.rws en_CA-w_accents-only.rws en_CA-wo_accents-only.rws en_GB-ise-w_accents-only.rws en_GB-ise-wo_accents-only.rws en_GB-ize-w_accents-only.rws en_GB-ize-wo_accents-only.rws en_GB-variant_0.rws en_GB-variant_1.rws en_US-w_accents-only.rws en_US-wo_accents-only.rws american.alias american-variant_0.alias american-variant_1.alias american-w_accents.alias american-wo_accents.alias australian.alias australian-variant_0.alias australian-variant_1.alias australian-w_accents.alias australian-wo_accents.alias british.alias british-ise.alias british-ise-w_accents.alias british-ise-wo_accents.alias british-ize.alias british-ize-w_accents.alias british-ize-wo_accents.alias british-variant_0.alias british-variant_1.alias british-w_accents.alias british-wo_accents.alias canadian.alias canadian-variant_0.alias canadian-variant_1.alias canadian-w_accents.alias canadian-wo_accents.alias en.multi en-variant_0.multi en-variant_1.multi en-variant_2.multi en-w_accents.multi en-wo_accents.multi en_AU.multi en_AU-variant_0.multi en_AU-variant_1.multi en_AU-w_accents.multi en_AU-wo_accents.multi en_CA.multi en_CA-variant_0.multi en_CA-variant_1.multi en_CA-w_accents.multi en_CA-wo_accents.multi en_GB.multi en_GB-ise.multi en_GB-ise-w_accents.multi en_GB-ise-wo_accents.multi en_GB-ize.multi en_GB-ize-w_accents.multi en_GB-ize-wo_accents.multi en_GB-variant_0.multi en_GB-variant_1.multi en_GB-w_accents.multi en_GB-wo_accents.multi en_US.multi en_US-variant_0.multi en_US-variant_1.multi en_US-w_accents.multi en_US-wo_accents.multi english.alias english-variant_0.alias english-variant_1.alias english-variant_2.alias english-w_accents.alias english-wo_accents.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp en.dat en_phonet.dat en_affix.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 en.dat en_phonet.dat en_affix.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp eo.rws eo.multi esperanto.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 eo.rws eo.multi esperanto.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp eo.dat eo_affix.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 eo.dat eo_affix.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp es.rws castellano.alias es.multi espanol.alias spanish.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 es.rws castellano.alias es.multi espanol.alias spanish.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp es.dat es_affix.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 es.dat es_affix.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp fa-common.rws fa-generic.rws fa-scientific.rws fa.multi fa-common.multi fa-generic.multi fa-scientific.multi farsi.alias farsi-common.alias farsi-generic.alias farsi-scientific.alias persian.alias persian-common.alias persian-generic.alias persian-scientific.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 fa-common.rws fa-generic.rws fa-scientific.rws fa.multi fa-common.multi fa-generic.multi fa-scientific.multi farsi.alias farsi-common.alias farsi-generic.alias farsi-scientific.alias persian.alias persian-common.alias persian-generic.alias persian-scientific.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp fa.dat l-fa.cset l-fa.cmap /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 fa.dat l-fa.cset l-fa.cmap
+mkdir -p /usr/lib64/aspell-0.60/
+cp fi.rws fi.multi finnish.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 fi.rws fi.multi finnish.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp fi.dat fi_affix.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 fi.dat fi_affix.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp grc.rws grc.multi /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 grc.rws grc.multi
+mkdir -p /usr/lib64/aspell-0.60/
+cp grc.dat l-grc.cset l-grc.cmap /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 grc.dat l-grc.cset l-grc.cmap
+mkdir -p /usr/lib64/aspell-0.60/
+cp gu.rws gu.multi gujarati.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 gu.rws gu.multi gujarati.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp gu.dat u-gujr.cset u-gujr.cmap /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 gu.dat u-gujr.cset u-gujr.cmap
+mkdir -p /usr/lib64/aspell-0.60/
+cp he.rws he.multi hebrew.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 he.rws he.multi hebrew.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp he.dat he_affix.dat iso-8859-8-nl.cset iso-8859-8-nl.cmap /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 he.dat he_affix.dat iso-8859-8-nl.cset iso-8859-8-nl.cmap
+mkdir -p /usr/lib64/aspell-0.60/
+cp hi.rws hi.multi hindi.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 hi.rws hi.multi hindi.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp hi.dat u-deva.cset u-deva.cmap hi_phonet.dat hi_affix.dat hi_repl.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 hi.dat u-deva.cset u-deva.cmap hi_phonet.dat hi_affix.dat hi_repl.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp hu.rws hu.multi hungarian.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 hu.rws hu.multi hungarian.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp hu.dat hu_affix.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 hu.dat hu_affix.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp hy-common.rws armenian.alias hy.multi /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 hy-common.rws armenian.alias hy.multi
+mkdir -p /usr/lib64/aspell-0.60/
+cp hy.dat u-armn.cset u-armn.cmap hy_affix.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 hy.dat u-armn.cset u-armn.cmap hy_affix.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp it.rws it.multi italian.alias italiano.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 it.rws it.multi italian.alias italiano.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp it.dat it_affix.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 it.dat it_affix.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp kn.rws kannada.alias kn.multi /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 kn.rws kannada.alias kn.multi
+mkdir -p /usr/lib64/aspell-0.60/
+cp kn.dat u-knda.cset u-knda.cmap /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 kn.dat u-knda.cset u-knda.cmap
+mkdir -p /usr/lib64/aspell-0.60/
+cp la.rws la.multi latin.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 la.rws la.multi latin.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp la.dat la_affix.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 la.dat la_affix.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp lv.rws latvian.alias lv.multi /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 lv.rws latvian.alias lv.multi
+mkdir -p /usr/lib64/aspell-0.60/
+cp lv.dat lv_affix.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 lv.dat lv_affix.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp ml.rws ml.multi /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 ml.rws ml.multi
+mkdir -p /usr/lib64/aspell-0.60/
+cp ml.dat u-mlym.cset u-mlym.cmap /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 ml.dat u-mlym.cset u-mlym.cmap
+mkdir -p /usr/lib64/aspell-0.60/
+cp mr.rws marathi.alias mr.multi /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 mr.rws marathi.alias mr.multi
+mkdir -p /usr/lib64/aspell-0.60/
+cp mr.dat u-deva.cset u-deva.cmap /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 mr.dat u-deva.cset u-deva.cmap
+mkdir -p /usr/lib64/aspell-0.60/
+cp or.rws or.multi oriya.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 or.rws or.multi oriya.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp or.dat u-orya.cset u-orya.cmap /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 or.dat u-orya.cset u-orya.cmap
+mkdir -p /usr/lib64/aspell-0.60/
+cp pa.rws pa.multi punjabi.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 pa.rws pa.multi punjabi.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp pa.dat u-guru.cset u-guru.cmap /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 pa.dat u-guru.cset u-guru.cmap
+mkdir -p /usr/lib64/aspell-0.60/
+cp pl.rws pl.multi polish.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 pl.rws pl.multi polish.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp pl.dat pl_affix.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 pl.dat pl_affix.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp pt_PT.rws portugues.alias portuguese.alias pt_PT.multi /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 pt_PT.rws portugues.alias portuguese.alias pt_PT.multi
+mkdir -p /usr/lib64/aspell-0.60/
+cp pt_PT.dat pt_PT_repl.dat pt_PT_affix.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 pt_PT.dat pt_PT_repl.dat pt_PT_affix.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp ru-ye.rws ru-yo.rws ru.multi ru-ye.multi ru-yeyo.multi ru-yo.multi /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 ru-ye.rws ru-yo.rws ru.multi ru-ye.multi ru-yeyo.multi ru-yo.multi
+mkdir -p /usr/lib64/aspell-0.60/
+cp ru.dat ru_affix.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 ru.dat ru_affix.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp sr-cyrl-only.rws sr-latn-only.rws sr.multi sr-cyrl.multi sr-latn.multi /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 sr-cyrl-only.rws sr-latn-only.rws sr.multi sr-cyrl.multi sr-latn.multi
+mkdir -p /usr/lib64/aspell-0.60/
+cp sr.dat l-sr.cset l-sr.cmap /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 sr.dat l-sr.cset l-sr.cmap
+mkdir -p /usr/lib64/aspell-0.60/
+cp ta.rws ta.multi tamil.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 ta.rws ta.multi tamil.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp ta.dat u-taml.cset u-taml.cmap /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 ta.dat u-taml.cset u-taml.cmap
+mkdir -p /usr/lib64/aspell-0.60/
+cp te.rws te.multi telugu.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 te.rws te.multi telugu.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp te.dat u-telu.cset u-telu.cmap /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 te.dat u-telu.cset u-telu.cmap
+mkdir -p /usr/lib64/aspell-0.60/
+cp uk.rws uk.multi ukrainian.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 uk.rws uk.multi ukrainian.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp uk.dat uk_affix.dat ukrainian.kbd koi8-u-nl.cmap koi8-u-nl.cset /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 uk.dat uk_affix.dat ukrainian.kbd koi8-u-nl.cmap koi8-u-nl.cset
+mkdir -p /usr/lib64/aspell-0.60/
+cp vi.rws vi.multi viet.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 vi.rws vi.multi viet.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp vi.dat tcvn3.cset tcvn3.cmap viscii.cset viscii.cmap /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 vi.dat tcvn3.cset tcvn3.cmap viscii.cset viscii.cmap
+mkdir -p /usr/lib64/aspell-0.60/
+cp br.rws br.multi breton.alias brezhoneg.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 br.rws br.multi breton.alias brezhoneg.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp br.dat br_phonet.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 br.dat br_phonet.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp fr-40-only.rws fr-60-only.rws fr-80-only.rws fr_CH-only.rws fr.multi fr-40.multi fr-60.multi fr-80.multi fr-lrg.alias fr-med.alias fr-sml.alias fr_CH.multi fr_CH-40.multi fr_CH-60.multi fr_CH-80.multi fr_CH-lrg.alias fr_CH-med.alias fr_CH-sml.alias fr_FR.multi fr_FR-40.multi fr_FR-60.multi fr_FR-80.multi fr_FR-lrg.alias fr_FR-med.alias fr_FR-sml.alias francais.alias francais-40.alias francais-60.alias francais-80.alias francais-lrg.alias francais-med.alias francais-sml.alias french.alias french-40.alias french-60.alias french-80.alias french-lrg.alias french-med.alias french-sml.alias suisse.alias suisse-40.alias suisse-60.alias suisse-80.alias suisse-lrg.alias suisse-med.alias suisse-sml.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 fr-40-only.rws fr-60-only.rws fr-80-only.rws fr_CH-only.rws fr.multi fr-40.multi fr-60.multi fr-80.multi fr-lrg.alias fr-med.alias fr-sml.alias fr_CH.multi fr_CH-40.multi fr_CH-60.multi fr_CH-80.multi fr_CH-lrg.alias fr_CH-med.alias fr_CH-sml.alias fr_FR.multi fr_FR-40.multi fr_FR-60.multi fr_FR-80.multi fr_FR-lrg.alias fr_FR-med.alias fr_FR-sml.alias francais.alias francais-40.alias francais-60.alias francais-80.alias francais-lrg.alias francais-med.alias francais-sml.alias french.alias french-40.alias french-60.alias french-80.alias french-lrg.alias french-med.alias french-sml.alias suisse.alias suisse-40.alias suisse-60.alias suisse-80.alias suisse-lrg.alias suisse-med.alias suisse-sml.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp fr.dat fr_phonet.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 fr.dat fr_phonet.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp hr.rws croatian.alias hr.multi /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 hr.rws croatian.alias hr.multi
+mkdir -p /usr/lib64/aspell-0.60/
+cp hr.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 hr.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp nl.rws dutch.alias nl.multi /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 nl.rws dutch.alias nl.multi
+mkdir -p /usr/lib64/aspell-0.60/
+cp nl.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 nl.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp nn.rws nn.multi nynorsk.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 nn.rws nn.multi nynorsk.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp nn.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 nn.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp sl.rws sl.multi slovenian.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 sl.rws sl.multi slovenian.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp sl.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 sl.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp sv.rws sv.multi svenska.alias swedish.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 sv.rws sv.multi svenska.alias swedish.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp sv.dat sv_phonet.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 sv.dat sv_phonet.dat
+mkdir -p /usr/lib64/aspell-0.60/
+cp sw.rws kiswahili.alias sw.multi swahili.alias /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 sw.rws kiswahili.alias sw.multi swahili.alias
+mkdir -p /usr/lib64/aspell-0.60/
+cp sw.dat /usr/lib64/aspell-0.60/
+cd /usr/lib64/aspell-0.60/ && chmod 644 sw.dat
