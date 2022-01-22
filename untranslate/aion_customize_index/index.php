@@ -26,6 +26,7 @@ else if ($_Path==='Readers-Guide') {					$_meta = " ~ Readers Guide";								abc
 else if ($_Path==='Aionios-and-Aidios') {				$_meta = " ~ Aiōnios and Aïdios";							abcms_page('docs/aionios-and-aidios.htm'); }
 else if ($_Path==='Promote') {							$_meta = " ~ Promote, Sponsor, Advertise, Market";			abcms_page('docs/promote.htm'); }
 else if ($_Path==='Bible-Cover') {						$_meta = " ~ Aionian Bible Branded Leather Bible Covers";	abcms_page('docs/cover.htm'); }
+else if ($_Path==='Privacy') {							$_meta = " ~ Privacy Policy";								abcms_page('docs/privacy.htm'); }
 else if ($_Path==='Apple-iOS-App') {					$_meta = " ~ Apple iOS App";								abcms_page('docs/appleiosapp.htm'); }
 else if ($_Path==='Third-Party-Publisher-Resources') {	$_meta = " ~ Third Party Publisher Resources";				abcms_page('docs/third-party-publisher-resources.htm'); }
 else if (!preg_match('/^[a-zA-Z0-9\-\/]+$/',$_Path)) {																abcms_notf(); }

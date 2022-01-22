@@ -799,16 +799,17 @@ global $G_BOOKS, $G_NUMBERS, $G_VERSIONS, $G_FORPRINT, $G_UUID, $G_TITLE, $G_MOD
 $j316 = $G_FORPRINT['JOH3_16'];
 $versionFO_CP = ($G_VERSIONS['NAME']==$G_VERSIONS['NAMEENGLISH'] ? '' : "<h3 class='center ff' $css>".$G_VERSIONS['NAME']."</h3>");
 $versionEN_CP = "<h3 class='center'>".$G_VERSIONS['NAMEENGLISH']."</h3>";
-$versionSS_CP =
+$versionCC_CP = "Copyright: ".
  (empty($G_VERSIONS['ABCOPYRIGHT']) ? ("<a href='https://creativecommons.org/licenses/by-nd/4.0/' target='_target'>Creative Commons No Derivative Works, 2018-".date("Y")."</a>") :
  ((FALSE!==stripos($G_VERSIONS['ABCOPYRIGHT'],"Creative Commons Attribution-No Derivatives 4.0")) ? ("<a href='https://creativecommons.org/licenses/by-nd/4.0/' target='_blank'>".$G_VERSIONS['ABCOPYRIGHT']."</a>") :
- $G_VERSIONS['ABCOPYRIGHT']))
- ."<br />";
-$versionSS_CP .= "Source text: <a href='".$G_VERSIONS['SOURCELINK']."' target='_blank'>".$G_VERSIONS['SOURCELINK']."</a><br />";
-$versionSS_CP .= $G_VERSIONS['SOURCEVERSION'];
+ $G_VERSIONS['ABCOPYRIGHT']))."<br />";
+$langlink = "<a href='https://en.wikipedia.org/wiki/ISO_639:".$G_VERSIONS['LANGUAGECODE']."' target='_blank' title='Ethnologue language description'>".$G_VERSIONS['LANGUAGECODE']."</a>";
+$versionLA_CP = "Language: ".$G_VERSIONS['LANGUAGEENGLISH'].($G_VERSIONS['LANGUAGEENGLISH']==$G_VERSIONS['LANGUAGE'] ? "<br />" : " [ <span $css>".$G_VERSIONS['LANGUAGE']."</span> ] $langlink<br />");
+$versionDE_CP = (empty($G_VERSIONS['DESCRIPTION']) ? "" : $G_VERSIONS['DESCRIPTION']."<br />");
+$versionSS_CP  = "Source: ".$G_VERSIONS['SOURCE'].(empty($G_VERSIONS['YEAR']) ? "" : ", ".$G_VERSIONS['YEAR'])."<br />";
 $versionSS_CP .= "Source copyright: ".$G_VERSIONS['COPYRIGHT']."<br />";
-$versionSS_CP .= $G_VERSIONS['SOURCE'].(empty($G_VERSIONS['YEAR']) ? "" : ", ".$G_VERSIONS['YEAR'])."<br />";
-$versionSS_CP .= (empty($G_VERSIONS['DESCRIPTION']) ? "" : $G_VERSIONS['DESCRIPTION']."<br />");
+$versionSS_CP .= $G_VERSIONS['SOURCEVERSION'];
+$versionSS_CP .= "Source text: <a href='".$G_VERSIONS['SOURCELINK']."' target='_blank'>".$G_VERSIONS['SOURCELINK']."</a><br />";
 $onlinelink = "http://www.AionianBible.org/Bibles/".str_replace("Holy-Bible---","",$G_VERSIONS['BIBLE']);
 $epublink = "http://resources.AionianBible.org/".$G_VERSIONS['BIBLE']."---Aionian-Edition.epub";
 $rundate = date("n/j/Y");
@@ -836,11 +837,14 @@ Also known as the Purple Bible<br />
 100% Free to Copy and Print at <a href='http://www.AionianBible.org' target='_blank' title='Holy Bible Aionian Edition online'>AionianBible.org</a><br />
 <a href='http://www.AionianBible.org/Buy' target='_blank' title='Holy Bible Aionian Edition hardcopy print at Amazon and Lulu'>Buy hardcopy print format</a><br />
 <br />
-$versionSS_CP
+Publisher: Nainoia Inc<br />
+$versionCC_CP
+$versionLA_CP
+Formatted: ABCMS on $rundate<br />
+Links: <a href='$onlinelink' target='_blank' title='Read online'>Read online</a> or <a href='$epublink' target='_blank' title='Download this ePub'>download this ePub!</a><br />
+$versionDE_CP
 <br />
-Published by Nainoia Inc<br />
-Formatted by ABCMS on $rundate<br />
-<a href='$onlinelink' target='_blank' title='Read online'>Read online</a> or <a href='$epublink' target='_blank' title='Download this ePub'>download this ePub!</a><br />
+$versionSS_CP
 <br />
 We pray for a modern public domain translation in every language. Report concerns to <a href='http://nainoia-inc.signedon.net/' target='_blank' title='Publisher of the Holy Bible Aionian Edition'>Nainoia Inc</a>. Volunteer help appreciated! Given to our family, friends, and fellowman for Christ’s victory of grace!<br />
 <br />$extension_text

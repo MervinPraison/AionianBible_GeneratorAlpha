@@ -266,15 +266,14 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $domain, $allbibl
 		
         "\n<div class='field-field'><div class='field-label'>Name:</div><div class='field-value'>".$langfor.$database[$version[C_BIBLE]][T_VERSIONS]['NAME']."</span></div></div>".
 		
-        ($database[$version[C_BIBLE]][T_VERSIONS]['NAME']==$database[$version[C_BIBLE]][T_VERSIONS]['NAMEENGLISH']? '' : ("\n<div class='field-field'><div class='field-label'>Name(English):</div><div class='field-value'>".$langeng.$database[$version[C_BIBLE]][T_VERSIONS]['NAMEENGLISH'])."</span></div></div>").
+        ($database[$version[C_BIBLE]][T_VERSIONS]['NAME']==$database[$version[C_BIBLE]][T_VERSIONS]['NAMEENGLISH']? '' : ("\n<div class='field-field'><div class='field-label'>English:</div><div class='field-value'>".$langeng.$database[$version[C_BIBLE]][T_VERSIONS]['NAMEENGLISH'])."</span></div></div>").
 
 		(empty($database[$version[C_BIBLE]][T_VERSIONS]['DESCRIPTION'])? '' : ("\n<div class='field-field'><div class='field-label'>Description:</div><div class='field-value'>".$database[$version[C_BIBLE]][T_VERSIONS]['DESCRIPTION'])."</div></div>").
 		
-        "\n<div class='field-field'><div class='field-label'>Language:</div><div class='field-value'>".$langfor.$database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGE']."</span></div></div>".
-		
-		($database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGE']==$database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGEENGLISH']? '' : ("\n<div class='field-field'><div class='field-label'>Language(English):</div><div class='field-value'>".$langeng.$database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGEENGLISH'])."</span></div></div>").
-
-        "\n<div class='field-field'><div class='field-label'>Language(Code):</div><div class='field-value'><a href='https://en.wikipedia.org/wiki/ISO_639:".$database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGECODE']."' target='_blank' title='Ethnologue language description'>".$database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGECODE']."</a></div></div>".
+        "\n<div class='field-field'><div class='field-label'>Language:</div><div class='field-value'>".$langeng.$database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGEENGLISH']."</span>".
+		($database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGE']==$database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGEENGLISH']? '' : (" [ ".$langfor.$database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGE']."</span> ]")).
+        " <a href='https://en.wikipedia.org/wiki/ISO_639:".$database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGECODE']."' target='_blank' title='Ethnologue language description'>".$database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGECODE']."</a>".
+		"\n</div></div>".
 		
         (empty($database[$version[C_BIBLE]][T_VERSIONS]['SOURCE'])?'':("\n<div class='field-field'><div class='field-label'>Source:</div><div class='field-value'>".$database[$version[C_BIBLE]][T_VERSIONS]['SOURCE']."</div></div>")).
 		$source_version.

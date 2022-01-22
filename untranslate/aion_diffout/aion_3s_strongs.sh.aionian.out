@@ -414,7 +414,7 @@ Array
 *** AION: EXCELLENT! ALL REFERENCES ACCOUNTED
 
 *** AION: HEBREW ../www-stage/library/stepbible/Hebrew_Tagged_Text.txt ROWS=542652
-*** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json CHECKING: GEN001001
+*** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json CHECKING: 1.1:1
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H9003	W	HR	בְּ/רֵאשִׁ֖ית
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H7225	P	HNcfsa	בְּ/רֵאשִׁ֖ית
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H1254a	W	HVqp3ms	בָּרָ֣א
@@ -427,7 +427,7 @@ INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 0
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H9009	W	HTd	הָ/אָֽרֶץ/׃
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H776	P	HNcbsa	הָ/אָֽרֶץ/׃
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H9016	P		הָ/אָֽרֶץ/׃
-*** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json CHECKING: MAL004006
+*** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json CHECKING: 39.4:6
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9001	W	Hc	וְ/הֵשִׁ֤יב
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H7725	P	HVhq3ms	וְ/הֵשִׁ֤יב
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H3820a	W	HNcbsc	לֵב/־
@@ -467,7 +467,7 @@ INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 0
 *** AION: GREEK ../www-stage/library/stepbible/Greek_Morphhology.json ROWS=1577
 *** AION: WARN! FIX_LEX	TBESG strongs='G8881' DOMHTML ErrorArray
 (
-    [STRONGS] => G8881
+    [STRONGS] => 8881
     [WORD] => πρέσβυς
     [TRANS] => presbus
     [GLOSS] => an ambassador
@@ -508,7 +508,7 @@ Array
 *** AION: GREEK ../www-stage/library/stepbible/Greek_Lexicon_Tyndale.txt ROWS=10714
 *** AION: WARN! FIX_LEX	TFLSJ strongs='G998' DOMHTML ErrorArray
 (
-    [STRONGS] => G998
+    [STRONGS] => 998
     [WORD] => βοηθός
     [TRANS] => boēthos
     [GLOSS] => a helper
@@ -547,7 +547,7 @@ Array
 
 *** AION: WARN! FIX_LEX	TFLSJ strongs='G1097' DOMHTML ErrorArray
 (
-    [STRONGS] => G1097
+    [STRONGS] => 1097
     [WORD] => γινώσκω
     [TRANS] => ginōskō
     [GLOSS] => to know
@@ -586,7 +586,7 @@ Array
 
 *** AION: WARN! FIX_LEX	TFLSJ strongs='G1507' DOMHTML ErrorArray
 (
-    [STRONGS] => G1507
+    [STRONGS] => 1507
     [WORD] => εἱλίσσω
     [TRANS] => ehilissō
     [GLOSS] => to roll up
@@ -625,7 +625,7 @@ Array
 
 *** AION: WARN! FIX_LEX	TFLSJ strongs='G3830' DOMHTML ErrorArray
 (
-    [STRONGS] => G3830
+    [STRONGS] => 3830
     [WORD] => πανδοχεύς
     [TRANS] => pandocheus
     [GLOSS] => innkeeper
@@ -664,7 +664,7 @@ Array
 
 *** AION: WARN! FIX_LEX	TFLSJ strongs='G4555' DOMHTML ErrorArray
 (
-    [STRONGS] => G4555
+    [STRONGS] => 4555
     [WORD] => σάρδινος
     [TRANS] => sardinos
     [GLOSS] => gem
@@ -703,7 +703,7 @@ Array
 
 *** AION: WARN! FIX_LEX	TFLSJ strongs='G5024' DOMHTML ErrorArray
 (
-    [STRONGS] => G5024
+    [STRONGS] => 5024
     [WORD] => ταὐτά
     [TRANS] => tauta
     [GLOSS] => thus
@@ -742,7 +742,7 @@ Array
 
 *** AION: WARN! FIX_LEX	TFLSJ strongs='G6137' DOMHTML ErrorArray
 (
-    [STRONGS] => G6137
+    [STRONGS] => 6137
     [WORD] => ἀδελφιδός
     [TRANS] => adelphidos
     [GLOSS] => a kinsman
@@ -781,7 +781,7 @@ Array
 
 *** AION: WARN! FIX_LEX	TFLSJ strongs='G6700' DOMHTML ErrorArray
 (
-    [STRONGS] => G6700
+    [STRONGS] => 6700
     [WORD] => βροῦχος
     [TRANS] => brouchos
     [GLOSS] => grasshopper
@@ -820,7 +820,7 @@ Array
 
 *** AION: WARN! FIX_LEX	TFLSJ strongs='G6775' DOMHTML ErrorArray
 (
-    [STRONGS] => G6775
+    [STRONGS] => 6775
     [WORD] => γύναιον
     [TRANS] => gunaion
     [GLOSS] => a helpless woman
@@ -859,7 +859,7 @@ Array
 
 *** AION: WARN! FIX_LEX	TFLSJ strongs='G6857' DOMHTML ErrorArray
 (
-    [STRONGS] => G6857
+    [STRONGS] => 6857
     [WORD] => διαπαρθενεύω
     [TRANS] => diapartheneuō
     [GLOSS] => to lose virginity
@@ -898,7 +898,7 @@ Array
 
 *** AION: WARN! FIX_LEX	TFLSJ strongs='G7417' DOMHTML ErrorArray
 (
-    [STRONGS] => G7417
+    [STRONGS] => 7417
     [WORD] => ἐπικλύζω
     [TRANS] => epikluzō
     [GLOSS] => to inundate
@@ -937,7 +937,7 @@ Array
 
 *** AION: WARN! FIX_LEX	TFLSJ strongs='G7785' DOMHTML ErrorArray
 (
-    [STRONGS] => G7785
+    [STRONGS] => 7785
     [WORD] => κάλος
     [TRANS] => kalos
     [GLOSS] => rope
@@ -976,7 +976,7 @@ Array
 
 *** AION: WARN! FIX_LEX	TFLSJ strongs='G7965' DOMHTML ErrorArray
 (
-    [STRONGS] => G7965
+    [STRONGS] => 7965
     [WORD] => κατεῖπω
     [TRANS] => kateipō
     [GLOSS] => to denounce
@@ -1015,7 +1015,7 @@ Array
 
 *** AION: WARN! FIX_LEX	TFLSJ strongs='G7987' DOMHTML ErrorArray
 (
-    [STRONGS] => G7987
+    [STRONGS] => 7987
     [WORD] => καψάκης
     [TRANS] => kapsakēs
     [GLOSS] => a jar
@@ -1054,7 +1054,7 @@ Array
 
 *** AION: WARN! FIX_LEX	TFLSJ strongs='G7993' DOMHTML ErrorArray
 (
-    [STRONGS] => G7993
+    [STRONGS] => 7993
     [WORD] => κεντέω
     [TRANS] => kenteō
     [GLOSS] => to sting
@@ -1082,7 +1082,7 @@ Array
 
 *** AION: WARN! FIX_LEX	TFLSJ strongs='G8981' DOMHTML ErrorArray
 (
-    [STRONGS] => G8981
+    [STRONGS] => 8981
     [WORD] => πτύελος
     [TRANS] => ptuelos
     [GLOSS] => spittle
@@ -1121,7 +1121,7 @@ Array
 
 *** AION: WARN! FIX_LEX	TFLSJ strongs='G9004' DOMHTML ErrorArray
 (
-    [STRONGS] => G9004
+    [STRONGS] => 9004
     [WORD] => ράδαμνος
     [TRANS] => radamnos
     [GLOSS] => a tender branch
@@ -1160,7 +1160,7 @@ Array
 
 *** AION: WARN! FIX_LEX	TFLSJ strongs='G9019' DOMHTML ErrorArray
 (
-    [STRONGS] => G9019
+    [STRONGS] => 9019
     [WORD] => ῥέγχω
     [TRANS] => rhegchō
     [GLOSS] => to snore
@@ -1199,7 +1199,7 @@ Array
 
 *** AION: WARN! FIX_LEX	TFLSJ strongs='G9128' DOMHTML ErrorArray
 (
-    [STRONGS] => G9128
+    [STRONGS] => 9128
     [WORD] => σμυρίτης
     [TRANS] => smuritēs
     [GLOSS] => an emery stone
@@ -1238,7 +1238,7 @@ Array
 
 *** AION: WARN! FIX_LEX	TFLSJ strongs='G9179' DOMHTML ErrorArray
 (
-    [STRONGS] => G9179
+    [STRONGS] => 9179
     [WORD] => στίβι
     [TRANS] => stibi
     [GLOSS] => antimony
@@ -1277,7 +1277,7 @@ Array
 
 *** AION: WARN! FIX_LEX	TFLSJ strongs='G9519' DOMHTML ErrorArray
 (
-    [STRONGS] => G9519
+    [STRONGS] => 9519
     [WORD] => τύχη
     [TRANS] => tuchē
     [GLOSS] => good luck
@@ -6285,7 +6285,7 @@ Array
 *** AION: EXCELLENT! ALL REFERENCES ACCOUNTED
 
 *** AION: GREEK ../www-stage/library/stepbible/Greek_Tagged_Text.txt ROWS=142281
-*** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json CHECKING: JOH001001
+*** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json CHECKING: 43.1:1
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G1722	W	PREP	ἐν	In [the]	NA=TR	Ἐν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		in	
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G746	W	N-DSF	ἀρχῇ	beginning	NA=TR	ἀρχῇ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀρχῇ		beginning	
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G1510	W	V-IAI-3S	ἦν	was	NA=TR	ἦν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἦν		to be	
@@ -6303,7 +6303,7 @@ INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 04
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G1510	W	V-IAI-3S	ἦν	was	NA=TR	ἦν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἦν		to be	
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G3588	W	T-NSM	ὁ	the	NA=TR	ὁ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὁ		the	»034:G3056
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G3056	W	N-NSM	λόγος	Word.	NA=TR	λόγος.	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	λόγος		word	
-*** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json CHECKING: JOH003016
+*** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json CHECKING: 43.3:16
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G3779	W	ADV	οὕτως	Thus	NA=TR	οὕτως	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὕτως		thus	
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G1063	W	CONJ	γὰρ	for	NA=TR	γὰρ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	γὰρ		for	
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G25	W	V-AAI-3S	ἠγάπησεν	loved	NA=TR	ἠγάπησεν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠγάπησεν		to love	
@@ -6330,7 +6330,7 @@ INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 04
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G2192	W	V-PAS-3S	ἔχῃ	may have	NA=TR	ἔχῃ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἔχῃ		to have	
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G2222	W	N-ASF	ζωὴν	life	NA=TR	ζωὴν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ζωὴν		life	
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G166	W	A-ASF	αἰώνιον	eternal.	NA=TR	αἰώνιον.	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	αἰώνιον		eternal	
-*** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json CHECKING: REV022021
+*** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json CHECKING: 66.22:21
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G3588	W	T-NSF	ἡ	The	NA=TR	Ἡ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἡ		the	»004:G5485
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G5485	W	N-NSF	χάρις	grace	NA=TR	χάρις	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	χάρις		grace	
 INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G3588	W	T-GSM	τοῦ	of the	NA=TR	τοῦ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		the	»008:G2962
