@@ -115,7 +115,30 @@ $HEADER = <<<EOT
 #	=NA not TR	761 words are translated in most modern Bibles but not in the KJV.			NA27/28 + others having the same meaning but not TR				
 #	=TR+NIV/ESV not NA	227 words are translated in the KJV and in some modern Bibles.		TR + others having the same meaning but not NA27/28				
 #	=TR not NA,NIV/ESV	3573 words are translated in the KJV but not in most modern Bibles.	TR + others having the same meaning but not NA27/28				
-#	Not in NA or TR	245 words occur in early manuscripts but not translated in most Bibles.	Others having a word that is not found in TR or NA27/28				
+#	Not in NA or TR	245 words occur in early manuscripts but not translated in most Bibles.	Others having a word that is not found in TR or NA27/28	
+#
+#	This text is a Bible translator resource from the STEPBible Tyndale Amalgamated Hebrew and Greek.
+#	The Greek text is tagged 'NA=TR' (default Nestle/Aland = Textus Receptus) 133,304 words from NA27/28+TR+others with same meaning,
+#	'NA~TR' 3,922 words from NA27/28 with different meanings in TR, 'NA-TR' 761 words in NA27/28 not in TR,
+#	'KJV' 3,573 words in TR not in NA27/28, 'KJV+' 3,573 words in TR+Older Bibles but not in NA27/28,
+#	'KJV++' 227 words in TR+Modern Bibles but not in NA27/28, 'NATR?' 245 words not found in NA27/28 or TR.
+#	New Testament study is revolutionized by the discovery of earlier manuscripts in the North African sands and other discoveries.
+#	Most modern Bibles rely on these new discoveries. The NA text is based mostly on these earlier manuscripts,
+#	but the TR text was put together from later ones, before the earlier ones were found.
+#	Apparently later scribes often removed ambiguities with changes like adding the name "Jesus" instead of "he",
+#	adding prepositions such as "with" and "to" instead of relying on Greek cases like dative and genitive,
+#	and occasionally adding phrases to clarify the text. There are no instances of changed theology confirmed by the huge failed effort to find even one.
+#	Less discussed are the words found in the earlier manuscripts, but not in the later.
+#	Of these there are 548 differences with no impact to meaning and 277 scribal clarification differences.
+#	And these are only mildly significant changes like "72" for "70" disciples sent out in Luke 10:1,17,
+#	"Spirit of Jesus" for "Jesus" in Acts 16:7, "as you now walk" in 1Th 4:1, "according to God" in 1Pet 5:2,
+#	"show mercy to others" in Jude 23, and "and a third of the earth was burned" in Rev 8:7.
+#	The best explanation is that the additions found only in earlier manuscripts and the additions found only
+#	in later ones are simply two sets of additions by scribes to clarify the text with no theological agenda.
+#	So, if you want the very earliest text, use only the words that are in both NA and TR.
+#	If you want to include clarifications by North African believers like modern Bibles, then include words found only in NA.
+#	If you want to include the clarifications by Byzantine scribes like the KJV, then include the words found only in TR, and use the TR variants.
+#			
 # Greek:
 #	spelling based on NA28 for NA, then TR if not in NA, then other Eds if in neither.
 #	Cases and final accents based on the punctuation which follows THGHT

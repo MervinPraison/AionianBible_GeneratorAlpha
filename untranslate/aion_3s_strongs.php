@@ -104,11 +104,6 @@ if (!mkdir($FOLDER_STAGE) || !is_dir($FOLDER_STAGE) || !chmod($FOLDER_STAGE,0755
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // HTACCESS
 $HTACCESS = <<<EOT
-Options +Indexes
-IndexOptions -HTMLTable +FancyIndexing +FoldersFirst NameWidth=* +SuppressDescription +SuppressHTMLPreamble
-HeaderName .header.htm
-IndexIgnore .well-known .htaccess .header.htm .favicon.ico .logo.png desktop.ini
-
 # security
 #cfg,css,eot,gif,gitignore,htaccess,htm,html,ico,jar,jpg,js,lua,md,otf,pdf,php,png,rng,sh,so,svg,tex,ttf,TTF,txt,woff,woff2,xml,xsd
 <FilesMatch "\.(php|php5|php6|php7|php8|sh|bash|jar|so|rng|tex|epub|zip|noia)$">
