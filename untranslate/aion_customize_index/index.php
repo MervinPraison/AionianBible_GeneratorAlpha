@@ -280,7 +280,7 @@ global $_Path, $_Part, $_pnum, $_BibleONE, $_BibleCHAP1, $_BibleCHAP1_Last;
 if ($_pnum < 3 || !empty($subject) || !empty($message)) { return; }
 if ($_pnum > 5 ) { abcms_bomb("/Read","Invalid URL Requested, too many path components"); }
 abcms_word_init();
-abcms_word_init_chap();
+abcms_word_init_chap(TRUE);
 $status = "Submit your proposed corrections";
 $subject = "Proposed corrections to the ".$_BibleONE['T_VERSIONS']['NAMEENGLISH'].", $_Part[2] ";
 $theurl =   "http://www.AionianBible.org/".preg_replace("#Publisher\/#","Bibles/",$_Path);
@@ -487,15 +487,46 @@ if (!$quickreturn && !empty($_paraC)) {
 	$_BibleTWO_xLink = "<span class='word-tocs word-book notranslate'><a href='$ppath' title='Read and Study Parallel Bible'>".$_BibleTWO['T_VERSIONS']['SHORT']."</a><a href='$bpath' title='Cancel Parallel Bible study' class='navx'><span class='navx'>X</span></a></span>";
 }
 // STRONGS
-$_BibleSTRONGS = NULL;
-if (!$quickreturn && $_stid) {
-	$_BibleSTRONGS = json_decode(file_get_contents('./library/strongs/'.$_BibleBOOKS[$_Part[2]]['NUMBER'].'-'.$_BibleBOOKS[$_Part[2]]['CODE'].'-'.sprintf('%03d', $_Part[3]).'.json'),true);
-	if (!is_array($_BibleSTRONGS) || empty($_BibleSTRONGS)) {
-		abcms_errs("abcms_word_init_chap() strongs bible chapter not found!");
-		$_BibleSTRONGS = NULL;
-	}
-}
+if (!$quickreturn && $_stid) {	abcms_word_init_chap_stro((int)$_BibleBOOKS[$_Part[2]]['NUMBER'], $_Part[3]); }
+else {							$_BibleSTRONGS = NULL; }
 return TRUE;
+}
+
+
+
+/*** WORD INIT CHAP ***/
+function abcms_word_init_chap_stro($bnum, $chap) {
+global $_BibleSTRONGS;
+$fd = NULL;
+$indx = ($bnum<40 ? './library/stepbible/Hebrew_Tagged_Text_Index.json'	: './library/stepbible/Greek_Tagged_Text_Index.json');
+$file = ($bnum<40 ? './library/stepbible/Hebrew_Tagged_Text.txt'		: './library/stepbible/Greek_Tagged_Text.txt');
+if (!($json = file_get_contents($indx)) ||
+	NULL===($json = json_decode($json,true)) ||
+	empty($json["$bnum.$chap:1"]) ||
+	!($fd=fopen($file, 'r')) ||
+	fseek($fd, $json["$bnum.$chap:1"])) {
+		if ($fd) { fclose($fd); }
+		abcms_errs("abcms_word_init_chap_stro() strongs bible chapter lines not opened!");
+		$_BibleSTRONGS = NULL;
+		return;
+}
+$_BibleSTRONGS = array();
+while(($line=fgets($fd))) {
+	if (!preg_match("#^([[:digit:]]+)\t([[:alnum:]]+)\t([[:digit:]]+)\t([[:digit:]]+)\t([GH]{1}[\d]{1,5}[a-z]{0,1})\t#u",$line,$match)) {
+		fclose($fd);
+		abcms_errs("abcms_word_init_chap_stro() strongs bible chapter lines corrupt! $line");
+		$_BibleSTRONGS = NULL;
+		return;		
+	}
+	if ((int)$match[1] != $bnum || (int)$match[3] != $chap) { break; }
+	$_BibleSTRONGS[(int)$match[4]][strtolower($match[5])] = TRUE;
+}
+fclose($fd);
+if (empty($_BibleSTRONGS)) {
+	abcms_errs("abcms_word_init_chap_stro() strongs bible chapter lines not found!");
+	$_BibleSTRONGS = NULL;
+}
+return;
 }
 
 
@@ -568,7 +599,7 @@ abcms_tail();
 }
 
 
-/*** WORD TOCS OLD ***/
+/*** WORD TESTAMENT TOCS ***/
 function abcms_word_tocs_test($testament) {
 global $_Path, $_Part, $_stidC;
 global $_BibleONE, $_BibleONE_Lang, $_BibleBOOKS;
@@ -619,7 +650,7 @@ if (!isset($cindex[$bookkey])) {
 	return FALSE;
 }
 $cindex_index = $cindex[$bookkey] + $chapter - 1;
-if (!empty($schap[$cindex_index]) && intval($schap[$cindex_index])) { return TRUE; }
+if (!empty($schap[$cindex_index]) && $schap[$cindex_index]!=' ') { return TRUE; }
 return FALSE;
 }
 
@@ -646,7 +677,7 @@ return;
 function abcms_word_tocs_stro_np_next($schap, $cindex, $bookkey, $chapter, &$nextbookkey, &$nextchapter) {
 global $_BibleONE;
 for($x = $cindex[$bookkey] + $chapter; isset($schap[$x]); ++$x) {
-	if (!(int)$schap[$x]) { continue; }
+	if ($schap[$x]==' ') { continue; }
 	$gotit = FALSE;
 	for($chaps=reset($cindex); $chaps!==FALSE; $chaps=next($cindex)) {
 		 $books = key($cindex);
@@ -677,7 +708,7 @@ for($x = $cindex[$bookkey] + $chapter; isset($schap[$x]); ++$x) {
 function abcms_word_tocs_stro_np_prev($schap, $cindex, $bookkey, $chapter, &$prevbookkey, &$prevchapter) {
 global $_BibleONE;
 for($x = $cindex[$bookkey] + $chapter - 2; $x >= 0 && isset($schap[$x]); --$x) {
-	if (!(int)$schap[$x]) { continue; }
+	if ($schap[$x]==' ') { continue; }
 	$gotit = FALSE;
 	$chaps = end($cindex);
 	do {
@@ -698,27 +729,25 @@ for($x = $cindex[$bookkey] + $chapter - 2; $x >= 0 && isset($schap[$x]); --$x) {
 
 /*** TOC STRONGS INDEX ***/
 function abcms_word_tocs_stro_index($sid) {
-if ($sid[0]==='h') {	$file = './library/Holy-Bible---AAA---Strongs-Chapters-H.noia'; }
-else {					$file = './library/Holy-Bible---AAA---Strongs-Chapters-G.noia'; }
-$numb = intval(substr($sid,1));
-$fixed = ($sid[0]==='h'? 3726 : 1051); // FIXED!
-$fd = NULL;
-if (!($fd=fopen($file, 'r')) ||
-	fseek($fd, $fixed * $numb) ||
-	!($lchap=fread($fd, $fixed)) ||
-	($leng=strlen($lchap)) < $fixed - 1 ||
-	($leng==$fixed && !preg_match("/\n$/",$lchap)) ||
-	!is_array(($tchap=explode("\t", $lchap))) ||
-	count($tchap)!=3 ||
-	$sid != trim($tchap[0]) ||
-	!is_array(($schap=explode(" ", $tchap[1]))) ||
-	($sid[0]==='h' && count($schap)!=930) ||
-	($sid[0]==='g' && count($schap)!=261)) {
-	abcms_errs("abcms_word_tocs_stro_index() requested Strongs data file not found or corrupted! sid=$sid");
-	$schap = array();
+$indx = ($sid[0]==='h' ? './library/stepbible/Hebrew_Chapter_Usage_Index.json'	: './library/stepbible/Greek_Chapter_Usage_Index.json');
+$file = ($sid[0]==='h' ? './library/stepbible/Hebrew_Chapter_Usage.txt'			: './library/stepbible/Greek_Chapter_Usage.txt');
+$numb = (string)intval(substr($sid,1));
+$fd = $schp[2] = NULL;
+if (!($json = file_get_contents($indx)) ||
+	NULL===($json = json_decode($json,true)) ||
+	empty($json[$numb]) ||
+	!($fd=fopen($file, 'r')) ||
+	fseek($fd, $json[$numb]) ||
+	!($line=fgets($fd)) ||
+	!preg_match("#^([^\t]+)\t([^\t]+)$#",$line,$schp) ||
+	$numb != $schp[1] ||
+	($sid[0]==='h' && strlen($schp[2])!=930) ||
+	($sid[0]==='g' && strlen($schp[2])!=261)) {
+	abcms_errs("abcms_word_tocs_stro_index() requested Strongs chapter data file not found or corrupted! sid=$sid");
+	$schp[2] = NULL;
 }
 if ($fd) { fclose($fd); }
-return($schap);
+return($schp[2]);
 }
 
 
@@ -993,12 +1022,12 @@ for ($x=1, $maxverses = ($_BibleCHAP2_Last>$_BibleCHAP1_Last?$_BibleCHAP2_Last:$
 	}
 }
 echo '</div>';
-if (!empty($_BibleONE['T_VERSIONS']['WARNING'])) { echo "<div class='word-warning'>".$_BibleONE['T_VERSIONS']['WARNING']."</div>"; }
-$pub =	(($tmp = preg_replace("/Bibles\//","Publisher/",$_Path)) ? " / <a href='/$tmp' title='Propose translation correction'>Report Issue</a>" : '');
-$map =	($_BibleBOOKS[$_Part[2]]['NUMBER']<40 ? "<a href='/Maps#Abrahams-Journey' title='Abrahams Journey'>Abraham's journey</a> / <a href='/Maps#Israels-Exodus' title='Israel Exodus'>Israel's exodus</a>" :
-		($_BibleBOOKS[$_Part[2]]['NUMBER']<44 ? "<a href='/Maps#Jesus-Journeys' title='Jesus Journeys'>Jesus' journeys</a> / <a href='/Maps#World-Nations' title='World Nations'>World Nations</a>" :
-		"<a href='/Maps#Pauls-Missionary-Journeys' title='Pauls Missionary Journeys'>Paul's missionary journeys</a> / <a href='/Maps#World-Nations' title='The Great Commission'>Great Commission</a>"));
-echo "<div class='word-links'>$map / <a href='/Maps' title='Middle Eastern and Mediterranean Bible maps, Bible timeline and church history'>Maps and Timelines</a>$pub</div>";
+if (!empty($_BibleONE['T_VERSIONS']['WARNING'])) { echo "<div class='word-warning'>".$_BibleONE['T_VERSIONS']['WARNING']."</div>\n"; }
+echo "<div class='word-links'>\n".
+	"<a href='".abcms_href("/Strongs/$_Part[1]",FALSE,TRUE,TRUE)."' title='Aionian Glossary and Strongs Concordance'>Concordance</a>\n".
+	" / <a href='/Maps' title='Middle Eastern and Mediterranean Bible maps, Bible timeline and church history'>Maps</a>\n".
+	(($tmp = preg_replace("/Bibles\//","Publisher/",$_Path)) ? " / <a href='/$tmp' title='Propose translation correction'>Report Issue</a>\n" : '').
+	"</div>\n";
 abcms_word_dore($_Part[2],$_Part[3]);
 abcms_tail();
 }
@@ -1008,15 +1037,8 @@ abcms_tail();
 /*** WORD CHAP STRONGS ***/
 function abcms_word_chap_stro($x) {
 global $_BibleSTRONGS, $_stidC;
-if (empty($_BibleSTRONGS[$x])) {
-	return NULL;
-}
-foreach($_BibleSTRONGS[$x] as $word) {
-	if (!empty($word['SID']) && $word['SID']==$_stidC) {
-		return 'strongs';
-	}
-}
-return NULL;
+if (empty($_BibleSTRONGS[$x][$_stidC])) { return NULL; }
+return 'strongs';
 }
 
 
@@ -1061,16 +1083,13 @@ else {
 	if ($rtl) { echo "<table class='word-para word-rtl'><tr><td class='word-text'>$verse_text</td><td class='word-refs'>$verse_number<span class='word-verse'>$x </span></td></tr></table>\n"; }
 	else {		echo "<div class='word-para'><span class='word-text'><span class='word-verse'>$x </span>$verse_number$verse_text</span></div>\n"; }
 }
-if (!empty($_BibleONE['T_VERSIONS']['WARNING'])) { echo "<div class='word-warning'>".$_BibleONE['T_VERSIONS']['WARNING']."</div>"; }
-$pub =	(($tmp = preg_replace("/Bibles\//","Publisher/",$_Path)) ? " / <a href='/$tmp' title='Propose translation correction'>Report Issue</a>" : '');
-$map =	($_BibleBOOKS[$_Part[2]]['NUMBER']<40 ? "<a href='/Maps#Abrahams-Journey' title='Abrahams Journey'>Abraham's journey</a> / <a href='/Maps#Israels-Exodus' title='Israel Exodus'>Israel's exodus</a>" :
-		($_BibleBOOKS[$_Part[2]]['NUMBER']<44 ? "<a href='/Maps#Jesus-Journeys' title='Jesus Journeys'>Jesus' journeys</a> / <a href='/Maps#World-Nations' title='World Nations'>World Nations</a>" :
-		"<a href='/Maps#Pauls-Missionary-Journeys' title='Pauls Missionary Journeys'>Paul's missionary journeys</a> / <a href='/Maps#World-Nations' title='The Great Commission'>Great Commission</a>"));
-echo "<div class=field-header>\n";
-echo "<a href='".abcms_href("/Verse/All/$_Part[2]/$_Part[3]/$_Part[4]",FALSE,TRUE,TRUE)."' title='Verse in all Bibles'>All Bibles</a>";
-echo " / <a href='".abcms_href("/Strongs/$_Part[1]",FALSE,TRUE,TRUE)."' title='Search Aionian Glossary and Strongs Concordance'>Strongs Concordance</a>";
-echo " / $map / <a href='/Maps' title='Middle Eastern and Mediterranean Bible maps, Bible timeline and church history'>Maps and Timelines</a>$pub";
-echo "</div>\n";
+if (!empty($_BibleONE['T_VERSIONS']['WARNING'])) { echo "<div class='word-warning'>".$_BibleONE['T_VERSIONS']['WARNING']."</div>\n"; }
+echo "<div class=field-header>\n".
+	"<a href='".abcms_href("/Verse/All/$_Part[2]/$_Part[3]/$_Part[4]",FALSE,TRUE,TRUE)."' title='Verse in all Bibles'>All Bibles</a>\n".
+	" / <a href='".abcms_href("/Strongs/$_Part[1]",FALSE,TRUE,TRUE)."' title='Aionian Glossary and Strongs Concordance'>Concordance</a>\n".
+	" / <a href='/Maps' title='Middle Eastern and Mediterranean Bible maps, Bible timeline and church history'>Maps</a>\n".
+	(($tmp = preg_replace("/Bibles\//","Publisher/",$_Path)) ? " / <a href='/$tmp' title='Propose translation correction'>Report Issue</a>\n" : '').
+	"</div>\n";
 echo "</div>\n";
 if (!empty($bible_VERSE[$x]) && is_array($bible_VERSE[$x])) {
 	echo "<div id='strong-verse'>\n";

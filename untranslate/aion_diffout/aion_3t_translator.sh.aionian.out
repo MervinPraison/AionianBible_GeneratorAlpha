@@ -79,10 +79,10 @@ updating: Holy-Bible---Arabic---AB-StudyPack/	(in=0) (out=0) (stored 0%)
 updating: Holy-Bible---Arabic---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
 updating: Holy-Bible---Arabic---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
 updating: Holy-Bible---Arabic---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
-updating: Holy-Bible---Arabic---AB-StudyPack/Holy-Bible---Arabic---AB-StudyPack.txt ........	(in=87583756) (out=18281055) (deflated 79%)
+updating: Holy-Bible---Arabic---AB-StudyPack/Holy-Bible---Arabic---AB-StudyPack.txt ........	(in=87586074) (out=18282403) (deflated 79%)
 updating: Holy-Bible---Arabic---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
-updating: Holy-Bible---Arabic---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
-total bytes=94349053, compressed=20127359 -> 79% savings
+updating: Holy-Bible---Arabic---AB-StudyPack/AB-README.txt	(in=14525) (out=5919) (deflated 59%)
+total bytes=94353686, compressed=20129596 -> 79% savings
 *** AION: Attempting: Bengali: Holy-Bible---Bengali---AB-StudyPack
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
@@ -155,12 +155,12 @@ total bytes=94349053, compressed=20127359 -> 79% savings
 *** AION: Zip: Holy-Bible---Bengali---AB-StudyPack
 updating: Holy-Bible---Bengali---AB-StudyPack/	(in=0) (out=0) (stored 0%)
 updating: Holy-Bible---Bengali---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
-updating: Holy-Bible---Bengali---AB-StudyPack/Holy-Bible---Bengali---AB-StudyPack.txt .......	(in=83632576) (out=16393651) (deflated 80%)
+updating: Holy-Bible---Bengali---AB-StudyPack/Holy-Bible---Bengali---AB-StudyPack.txt .......	(in=83634894) (out=16394497) (deflated 80%)
 updating: Holy-Bible---Bengali---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
 updating: Holy-Bible---Bengali---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
 updating: Holy-Bible---Bengali---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
-updating: Holy-Bible---Bengali---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
-total bytes=90397873, compressed=18239955 -> 80% savings
+updating: Holy-Bible---Bengali---AB-StudyPack/AB-README.txt	(in=14525) (out=5919) (deflated 59%)
+total bytes=90402506, compressed=18241690 -> 80% savings
 *** AION: Attempting: Chinese: Holy-Bible---Chinese---AB-StudyPack
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
@@ -235,12 +235,12 @@ total bytes=90397873, compressed=18239955 -> 80% savings
 *** AION: Zip: Holy-Bible---Chinese---AB-StudyPack
 updating: Holy-Bible---Chinese---AB-StudyPack/	(in=0) (out=0) (stored 0%)
 updating: Holy-Bible---Chinese---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
-updating: Holy-Bible---Chinese---AB-StudyPack/Holy-Bible---Chinese---AB-StudyPack.txt .......	(in=73748566) (out=16568688) (deflated 78%)
+updating: Holy-Bible---Chinese---AB-StudyPack/Holy-Bible---Chinese---AB-StudyPack.txt .......	(in=73750884) (out=16569125) (deflated 78%)
 updating: Holy-Bible---Chinese---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
 updating: Holy-Bible---Chinese---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
 updating: Holy-Bible---Chinese---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
-updating: Holy-Bible---Chinese---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
-total bytes=80513863, compressed=18414992 -> 77% savings
+updating: Holy-Bible---Chinese---AB-StudyPack/AB-README.txt	(in=14525) (out=5919) (deflated 59%)
+total bytes=80518496, compressed=18416318 -> 77% savings
 *** AION: Attempting: English: Holy-Bible---English---AB-StudyPack
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
@@ -315,12 +315,12 @@ total bytes=80513863, compressed=18414992 -> 77% savings
 *** AION: Zip: Holy-Bible---English---AB-StudyPack
 updating: Holy-Bible---English---AB-StudyPack/	(in=0) (out=0) (stored 0%)
 updating: Holy-Bible---English---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
-updating: Holy-Bible---English---AB-StudyPack/Holy-Bible---English---AB-StudyPack.txt ......	(in=72272621) (out=14774198) (deflated 80%)
+updating: Holy-Bible---English---AB-StudyPack/Holy-Bible---English---AB-StudyPack.txt ......	(in=72274942) (out=14775124) (deflated 80%)
 updating: Holy-Bible---English---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
 updating: Holy-Bible---English---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
 updating: Holy-Bible---English---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
-updating: Holy-Bible---English---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
-total bytes=79037918, compressed=16620502 -> 79% savings
+updating: Holy-Bible---English---AB-StudyPack/AB-README.txt	(in=14525) (out=5919) (deflated 59%)
+total bytes=79042554, compressed=16622317 -> 79% savings
 *** AION: Attempting: French: Holy-Bible---French---AB-StudyPack
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
@@ -395,12 +395,12 @@ total bytes=79037918, compressed=16620502 -> 79% savings
 *** AION: Zip: Holy-Bible---French---AB-StudyPack
 updating: Holy-Bible---French---AB-StudyPack/	(in=0) (out=0) (stored 0%)
 updating: Holy-Bible---French---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
-updating: Holy-Bible---French---AB-StudyPack/Holy-Bible---French---AB-StudyPack.txt .......	(in=77021425) (out=16629484) (deflated 78%)
+updating: Holy-Bible---French---AB-StudyPack/Holy-Bible---French---AB-StudyPack.txt .......	(in=77023743) (out=16630361) (deflated 78%)
 updating: Holy-Bible---French---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
 updating: Holy-Bible---French---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
 updating: Holy-Bible---French---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
-updating: Holy-Bible---French---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
-total bytes=83786722, compressed=18475788 -> 78% savings
+updating: Holy-Bible---French---AB-StudyPack/AB-README.txt	(in=14525) (out=5919) (deflated 59%)
+total bytes=83791355, compressed=18477554 -> 78% savings
 *** AION: Attempting: German: Holy-Bible---German---AB-StudyPack
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
@@ -477,10 +477,10 @@ updating: Holy-Bible---German---AB-StudyPack/	(in=0) (out=0) (stored 0%)
 updating: Holy-Bible---German---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
 updating: Holy-Bible---German---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
 updating: Holy-Bible---German---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
-updating: Holy-Bible---German---AB-StudyPack/Holy-Bible---German---AB-StudyPack.txt .......	(in=76840405) (out=17069320) (deflated 78%)
+updating: Holy-Bible---German---AB-StudyPack/Holy-Bible---German---AB-StudyPack.txt .......	(in=76842723) (out=17070239) (deflated 78%)
 updating: Holy-Bible---German---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
-updating: Holy-Bible---German---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
-total bytes=83605702, compressed=18915624 -> 77% savings
+updating: Holy-Bible---German---AB-StudyPack/AB-README.txt	(in=14525) (out=5919) (deflated 59%)
+total bytes=83610335, compressed=18917432 -> 77% savings
 *** AION: Attempting: Hebrew: Holy-Bible---Hebrew---AB-StudyPack
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
@@ -555,10 +555,10 @@ updating: Holy-Bible---Hebrew---AB-StudyPack/	(in=0) (out=0) (stored 0%)
 updating: Holy-Bible---Hebrew---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
 updating: Holy-Bible---Hebrew---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
 updating: Holy-Bible---Hebrew---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
-updating: Holy-Bible---Hebrew---AB-StudyPack/Holy-Bible---Hebrew---AB-StudyPack.txt ......	(in=71341887) (out=14962806) (deflated 79%)
+updating: Holy-Bible---Hebrew---AB-StudyPack/Holy-Bible---Hebrew---AB-StudyPack.txt ......	(in=71344205) (out=14963720) (deflated 79%)
 updating: Holy-Bible---Hebrew---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
-updating: Holy-Bible---Hebrew---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
-total bytes=78107184, compressed=16809110 -> 78% savings
+updating: Holy-Bible---Hebrew---AB-StudyPack/AB-README.txt	(in=14525) (out=5919) (deflated 59%)
+total bytes=78111817, compressed=16810913 -> 78% savings
 *** AION: Attempting: Hindi: Holy-Bible---Hindi---AB-StudyPack
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
@@ -633,10 +633,10 @@ updating: Holy-Bible---Hindi---AB-StudyPack/	(in=0) (out=0) (stored 0%)
 updating: Holy-Bible---Hindi---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
 updating: Holy-Bible---Hindi---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
 updating: Holy-Bible---Hindi---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
-updating: Holy-Bible---Hindi---AB-StudyPack/Holy-Bible---Hindi---AB-StudyPack.txt .......	(in=82835287) (out=16423939) (deflated 80%)
+updating: Holy-Bible---Hindi---AB-StudyPack/Holy-Bible---Hindi---AB-StudyPack.txt .......	(in=82837605) (out=16425140) (deflated 80%)
 updating: Holy-Bible---Hindi---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
-updating: Holy-Bible---Hindi---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
-total bytes=89600584, compressed=18270243 -> 80% savings
+updating: Holy-Bible---Hindi---AB-StudyPack/AB-README.txt	(in=14525) (out=5919) (deflated 59%)
+total bytes=89605217, compressed=18272333 -> 80% savings
 *** AION: Attempting: Hungarian: Holy-Bible---Hungarian---AB-StudyPack
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
@@ -711,10 +711,10 @@ updating: Holy-Bible---Hungarian---AB-StudyPack/	(in=0) (out=0) (stored 0%)
 updating: Holy-Bible---Hungarian---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
 updating: Holy-Bible---Hungarian---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
 updating: Holy-Bible---Hungarian---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
-updating: Holy-Bible---Hungarian---AB-StudyPack/Holy-Bible---Hungarian---AB-StudyPack.txt ......	(in=72259200) (out=15680629) (deflated 78%)
+updating: Holy-Bible---Hungarian---AB-StudyPack/Holy-Bible---Hungarian---AB-StudyPack.txt ......	(in=72261518) (out=15681492) (deflated 78%)
 updating: Holy-Bible---Hungarian---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
-updating: Holy-Bible---Hungarian---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
-total bytes=79024497, compressed=17526933 -> 78% savings
+updating: Holy-Bible---Hungarian---AB-StudyPack/AB-README.txt	(in=14525) (out=5919) (deflated 59%)
+total bytes=79029130, compressed=17528685 -> 78% savings
 *** AION: Attempting: Indonesian: Holy-Bible---Indonesian---AB-StudyPack
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
@@ -790,9 +790,9 @@ updating: Holy-Bible---Indonesian---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101)
 updating: Holy-Bible---Indonesian---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
 updating: Holy-Bible---Indonesian---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
 updating: Holy-Bible---Indonesian---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
-updating: Holy-Bible---Indonesian---AB-StudyPack/Holy-Bible---Indonesian---AB-StudyPack.txt ......	(in=72754886) (out=15548263) (deflated 79%)
-updating: Holy-Bible---Indonesian---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
-total bytes=79520183, compressed=17394567 -> 78% savings
+updating: Holy-Bible---Indonesian---AB-StudyPack/Holy-Bible---Indonesian---AB-StudyPack.txt ......	(in=72757204) (out=15549104) (deflated 79%)
+updating: Holy-Bible---Indonesian---AB-StudyPack/AB-README.txt	(in=14525) (out=5919) (deflated 59%)
+total bytes=79524816, compressed=17396297 -> 78% savings
 *** AION: Attempting: Japanese: Holy-Bible---Japanese---AB-StudyPack
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
@@ -872,9 +872,9 @@ updating: Holy-Bible---Japanese---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (
 updating: Holy-Bible---Japanese---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
 updating: Holy-Bible---Japanese---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
 updating: Holy-Bible---Japanese---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
-updating: Holy-Bible---Japanese---AB-StudyPack/Holy-Bible---Japanese---AB-StudyPack.txt .......	(in=77428081) (out=16694647) (deflated 78%)
-updating: Holy-Bible---Japanese---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
-total bytes=84193378, compressed=18540951 -> 78% savings
+updating: Holy-Bible---Japanese---AB-StudyPack/Holy-Bible---Japanese---AB-StudyPack.txt .......	(in=77430399) (out=16695436) (deflated 78%)
+updating: Holy-Bible---Japanese---AB-StudyPack/AB-README.txt	(in=14525) (out=5919) (deflated 59%)
+total bytes=84198011, compressed=18542629 -> 78% savings
 *** AION: Attempting: Korean: Holy-Bible---Korean---AB-StudyPack
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
@@ -947,12 +947,12 @@ total bytes=84193378, compressed=18540951 -> 78% savings
 *** AION: Zip: Holy-Bible---Korean---AB-StudyPack
 updating: Holy-Bible---Korean---AB-StudyPack/	(in=0) (out=0) (stored 0%)
 updating: Holy-Bible---Korean---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
-updating: Holy-Bible---Korean---AB-StudyPack/Holy-Bible---Korean---AB-StudyPack.txt ......	(in=72836063) (out=15646953) (deflated 79%)
+updating: Holy-Bible---Korean---AB-StudyPack/Holy-Bible---Korean---AB-StudyPack.txt ......	(in=72838381) (out=15647870) (deflated 79%)
 updating: Holy-Bible---Korean---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
 updating: Holy-Bible---Korean---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
 updating: Holy-Bible---Korean---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
-updating: Holy-Bible---Korean---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
-total bytes=79601360, compressed=17493257 -> 78% savings
+updating: Holy-Bible---Korean---AB-StudyPack/AB-README.txt	(in=14525) (out=5919) (deflated 59%)
+total bytes=79605993, compressed=17495063 -> 78% savings
 *** AION: Attempting: Nepali: Holy-Bible---Nepali---AB-StudyPack
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
@@ -1027,10 +1027,10 @@ updating: Holy-Bible---Nepali---AB-StudyPack/	(in=0) (out=0) (stored 0%)
 updating: Holy-Bible---Nepali---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
 updating: Holy-Bible---Nepali---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
 updating: Holy-Bible---Nepali---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
-updating: Holy-Bible---Nepali---AB-StudyPack/Holy-Bible---Nepali---AB-StudyPack.txt ........	(in=85097633) (out=16575914) (deflated 81%)
+updating: Holy-Bible---Nepali---AB-StudyPack/Holy-Bible---Nepali---AB-StudyPack.txt ........	(in=85099951) (out=16576834) (deflated 81%)
 updating: Holy-Bible---Nepali---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
-updating: Holy-Bible---Nepali---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
-total bytes=91862930, compressed=18422218 -> 80% savings
+updating: Holy-Bible---Nepali---AB-StudyPack/AB-README.txt	(in=14525) (out=5919) (deflated 59%)
+total bytes=91867563, compressed=18424027 -> 80% savings
 *** AION: Attempting: Norwegian: Holy-Bible---Norwegian---AB-StudyPack
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
@@ -1107,10 +1107,10 @@ updating: Holy-Bible---Norwegian---AB-StudyPack/	(in=0) (out=0) (stored 0%)
 updating: Holy-Bible---Norwegian---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
 updating: Holy-Bible---Norwegian---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
 updating: Holy-Bible---Norwegian---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
-updating: Holy-Bible---Norwegian---AB-StudyPack/Holy-Bible---Norwegian---AB-StudyPack.txt .......	(in=75482669) (out=16924002) (deflated 78%)
+updating: Holy-Bible---Norwegian---AB-StudyPack/Holy-Bible---Norwegian---AB-StudyPack.txt .......	(in=75484987) (out=16924380) (deflated 78%)
 updating: Holy-Bible---Norwegian---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
-updating: Holy-Bible---Norwegian---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
-total bytes=82247966, compressed=18770306 -> 77% savings
+updating: Holy-Bible---Norwegian---AB-StudyPack/AB-README.txt	(in=14525) (out=5919) (deflated 59%)
+total bytes=82252599, compressed=18771573 -> 77% savings
 *** AION: Attempting: Panjabi: Holy-Bible---Panjabi---AB-StudyPack
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
@@ -1182,13 +1182,13 @@ total bytes=82247966, compressed=18770306 -> 77% savings
 *** AION: Copy: more files
 *** AION: Zip: Holy-Bible---Panjabi---AB-StudyPack
 updating: Holy-Bible---Panjabi---AB-StudyPack/	(in=0) (out=0) (stored 0%)
-updating: Holy-Bible---Panjabi---AB-StudyPack/Holy-Bible---Panjabi---AB-StudyPack.txt .......	(in=83441503) (out=16405483) (deflated 80%)
+updating: Holy-Bible---Panjabi---AB-StudyPack/Holy-Bible---Panjabi---AB-StudyPack.txt .......	(in=83443821) (out=16406372) (deflated 80%)
 updating: Holy-Bible---Panjabi---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
 updating: Holy-Bible---Panjabi---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
 updating: Holy-Bible---Panjabi---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
 updating: Holy-Bible---Panjabi---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
-updating: Holy-Bible---Panjabi---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
-total bytes=90206800, compressed=18251787 -> 80% savings
+updating: Holy-Bible---Panjabi---AB-StudyPack/AB-README.txt	(in=14525) (out=5919) (deflated 59%)
+total bytes=90211433, compressed=18253565 -> 80% savings
 *** AION: Attempting: Polish: Holy-Bible---Polish---AB-StudyPack
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
@@ -1265,10 +1265,10 @@ updating: Holy-Bible---Polish---AB-StudyPack/	(in=0) (out=0) (stored 0%)
 updating: Holy-Bible---Polish---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
 updating: Holy-Bible---Polish---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
 updating: Holy-Bible---Polish---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
-updating: Holy-Bible---Polish---AB-StudyPack/Holy-Bible---Polish---AB-StudyPack.txt .......	(in=76053490) (out=17028019) (deflated 78%)
+updating: Holy-Bible---Polish---AB-StudyPack/Holy-Bible---Polish---AB-StudyPack.txt .......	(in=76055808) (out=17028380) (deflated 78%)
 updating: Holy-Bible---Polish---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
-updating: Holy-Bible---Polish---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
-total bytes=82818787, compressed=18874323 -> 77% savings
+updating: Holy-Bible---Polish---AB-StudyPack/AB-README.txt	(in=14525) (out=5919) (deflated 59%)
+total bytes=82823420, compressed=18875573 -> 77% savings
 *** AION: Attempting: Portuguese: Holy-Bible---Portuguese---AB-StudyPack
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
@@ -1343,12 +1343,12 @@ total bytes=82818787, compressed=18874323 -> 77% savings
 *** AION: Zip: Holy-Bible---Portuguese---AB-StudyPack
 updating: Holy-Bible---Portuguese---AB-StudyPack/	(in=0) (out=0) (stored 0%)
 updating: Holy-Bible---Portuguese---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
-updating: Holy-Bible---Portuguese---AB-StudyPack/Holy-Bible---Portuguese---AB-StudyPack.txt .......	(in=75843062) (out=16584636) (deflated 78%)
+updating: Holy-Bible---Portuguese---AB-StudyPack/Holy-Bible---Portuguese---AB-StudyPack.txt .......	(in=75845380) (out=16585468) (deflated 78%)
 updating: Holy-Bible---Portuguese---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
 updating: Holy-Bible---Portuguese---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
 updating: Holy-Bible---Portuguese---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
-updating: Holy-Bible---Portuguese---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
-total bytes=82608359, compressed=18430940 -> 78% savings
+updating: Holy-Bible---Portuguese---AB-StudyPack/AB-README.txt	(in=14525) (out=5919) (deflated 59%)
+total bytes=82612992, compressed=18432661 -> 78% savings
 *** AION: Attempting: Russian: Holy-Bible---Russian---AB-StudyPack
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
@@ -1421,12 +1421,12 @@ total bytes=82608359, compressed=18430940 -> 78% savings
 *** AION: Zip: Holy-Bible---Russian---AB-StudyPack
 updating: Holy-Bible---Russian---AB-StudyPack/	(in=0) (out=0) (stored 0%)
 updating: Holy-Bible---Russian---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
-updating: Holy-Bible---Russian---AB-StudyPack/Holy-Bible---Russian---AB-StudyPack.txt .......	(in=76034944) (out=16010729) (deflated 79%)
+updating: Holy-Bible---Russian---AB-StudyPack/Holy-Bible---Russian---AB-StudyPack.txt .......	(in=76037262) (out=16011677) (deflated 79%)
 updating: Holy-Bible---Russian---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
 updating: Holy-Bible---Russian---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
 updating: Holy-Bible---Russian---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
-updating: Holy-Bible---Russian---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
-total bytes=82800241, compressed=17857033 -> 78% savings
+updating: Holy-Bible---Russian---AB-StudyPack/AB-README.txt	(in=14525) (out=5919) (deflated 59%)
+total bytes=82804874, compressed=17858870 -> 78% savings
 *** AION: Attempting: Serbian: Holy-Bible---Serbian---AB-StudyPack
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
@@ -1503,10 +1503,10 @@ updating: Holy-Bible---Serbian---AB-StudyPack/	(in=0) (out=0) (stored 0%)
 updating: Holy-Bible---Serbian---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
 updating: Holy-Bible---Serbian---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
 updating: Holy-Bible---Serbian---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
-updating: Holy-Bible---Serbian---AB-StudyPack/Holy-Bible---Serbian---AB-StudyPack.txt .......	(in=78719735) (out=17703701) (deflated 78%)
+updating: Holy-Bible---Serbian---AB-StudyPack/Holy-Bible---Serbian---AB-StudyPack.txt .......	(in=78722053) (out=17704823) (deflated 78%)
 updating: Holy-Bible---Serbian---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
-updating: Holy-Bible---Serbian---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
-total bytes=85485032, compressed=19550005 -> 77% savings
+updating: Holy-Bible---Serbian---AB-StudyPack/AB-README.txt	(in=14525) (out=5919) (deflated 59%)
+total bytes=85489665, compressed=19552016 -> 77% savings
 *** AION: Attempting: Spanish: Holy-Bible---Spanish---AB-StudyPack
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
@@ -1583,10 +1583,10 @@ updating: Holy-Bible---Spanish---AB-StudyPack/	(in=0) (out=0) (stored 0%)
 updating: Holy-Bible---Spanish---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
 updating: Holy-Bible---Spanish---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
 updating: Holy-Bible---Spanish---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
-updating: Holy-Bible---Spanish---AB-StudyPack/Holy-Bible---Spanish---AB-StudyPack.txt .......	(in=75769548) (out=16704439) (deflated 78%)
+updating: Holy-Bible---Spanish---AB-StudyPack/Holy-Bible---Spanish---AB-StudyPack.txt .......	(in=75771866) (out=16705337) (deflated 78%)
 updating: Holy-Bible---Spanish---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
-updating: Holy-Bible---Spanish---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
-total bytes=82534845, compressed=18550743 -> 78% savings
+updating: Holy-Bible---Spanish---AB-StudyPack/AB-README.txt	(in=14525) (out=5919) (deflated 59%)
+total bytes=82539478, compressed=18552530 -> 78% savings
 *** AION: Attempting: Turkish: Holy-Bible---Turkish---AB-StudyPack
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
@@ -1658,13 +1658,13 @@ total bytes=82534845, compressed=18550743 -> 78% savings
 *** AION: Copy: more files
 *** AION: Zip: Holy-Bible---Turkish---AB-StudyPack
 updating: Holy-Bible---Turkish---AB-StudyPack/	(in=0) (out=0) (stored 0%)
-updating: Holy-Bible---Turkish---AB-StudyPack/Holy-Bible---Turkish---AB-StudyPack.txt ......	(in=71521062) (out=15463230) (deflated 78%)
+updating: Holy-Bible---Turkish---AB-StudyPack/Holy-Bible---Turkish---AB-StudyPack.txt ......	(in=71523380) (out=15464172) (deflated 78%)
 updating: Holy-Bible---Turkish---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
 updating: Holy-Bible---Turkish---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
 updating: Holy-Bible---Turkish---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
 updating: Holy-Bible---Turkish---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
-updating: Holy-Bible---Turkish---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
-total bytes=78286359, compressed=17309534 -> 78% savings
+updating: Holy-Bible---Turkish---AB-StudyPack/AB-README.txt	(in=14525) (out=5919) (deflated 59%)
+total bytes=78290992, compressed=17311365 -> 78% savings
 *** AION: Attempting: Ukrainian: Holy-Bible---Ukrainian---AB-StudyPack
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
@@ -1739,12 +1739,12 @@ total bytes=78286359, compressed=17309534 -> 78% savings
 *** AION: Zip: Holy-Bible---Ukrainian---AB-StudyPack
 updating: Holy-Bible---Ukrainian---AB-StudyPack/	(in=0) (out=0) (stored 0%)
 updating: Holy-Bible---Ukrainian---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
-updating: Holy-Bible---Ukrainian---AB-StudyPack/Holy-Bible---Ukrainian---AB-StudyPack.txt .......	(in=77506554) (out=16471131) (deflated 79%)
+updating: Holy-Bible---Ukrainian---AB-StudyPack/Holy-Bible---Ukrainian---AB-StudyPack.txt .......	(in=77508872) (out=16471475) (deflated 79%)
 updating: Holy-Bible---Ukrainian---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
 updating: Holy-Bible---Ukrainian---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
 updating: Holy-Bible---Ukrainian---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
-updating: Holy-Bible---Ukrainian---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
-total bytes=84271851, compressed=18317435 -> 78% savings
+updating: Holy-Bible---Ukrainian---AB-StudyPack/AB-README.txt	(in=14525) (out=5919) (deflated 59%)
+total bytes=84276484, compressed=18318668 -> 78% savings
 *** AION: Attempting: Uyghur: Holy-Bible---Uyghur---AB-StudyPack
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
@@ -1821,10 +1821,10 @@ updating: Holy-Bible---Uyghur---AB-StudyPack/	(in=0) (out=0) (stored 0%)
 updating: Holy-Bible---Uyghur---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
 updating: Holy-Bible---Uyghur---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
 updating: Holy-Bible---Uyghur---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
-updating: Holy-Bible---Uyghur---AB-StudyPack/Holy-Bible---Uyghur---AB-StudyPack.txt ........	(in=88518393) (out=19655131) (deflated 78%)
+updating: Holy-Bible---Uyghur---AB-StudyPack/Holy-Bible---Uyghur---AB-StudyPack.txt ........	(in=88520711) (out=19655507) (deflated 78%)
 updating: Holy-Bible---Uyghur---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
-updating: Holy-Bible---Uyghur---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
-total bytes=95283690, compressed=21501435 -> 77% savings
+updating: Holy-Bible---Uyghur---AB-StudyPack/AB-README.txt	(in=14525) (out=5919) (deflated 59%)
+total bytes=95288323, compressed=21502700 -> 77% savings
 *** AION: Attempting: Vietnamese: Holy-Bible---Vietnamese---AB-StudyPack
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
 *** AION: Processing: ../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt
@@ -1897,10 +1897,10 @@ total bytes=95283690, compressed=21501435 -> 77% savings
 *** AION: Zip: Holy-Bible---Vietnamese---AB-StudyPack
 updating: Holy-Bible---Vietnamese---AB-StudyPack/	(in=0) (out=0) (stored 0%)
 updating: Holy-Bible---Vietnamese---AB-StudyPack/Greek-Lexicon.txt 	(in=4536101) (out=1335851) (deflated 71%)
-updating: Holy-Bible---Vietnamese---AB-StudyPack/Holy-Bible---Vietnamese---AB-StudyPack.txt .......	(in=74132050) (out=15767406) (deflated 79%)
+updating: Holy-Bible---Vietnamese---AB-StudyPack/Holy-Bible---Vietnamese---AB-StudyPack.txt .......	(in=74134368) (out=15768276) (deflated 79%)
 updating: Holy-Bible---Vietnamese---AB-StudyPack/Hebrew-Lexicon.txt 	(in=1386473) (out=447514) (deflated 68%)
 updating: Holy-Bible---Vietnamese---AB-StudyPack/Greek-Morphhology.txt 	(in=452610) (out=32088) (deflated 93%)
 updating: Holy-Bible---Vietnamese---AB-StudyPack/Hebrew-Morphhology.txt 	(in=365585) (out=20727) (deflated 94%)
-updating: Holy-Bible---Vietnamese---AB-StudyPack/AB-README.txt	(in=12210) (out=5030) (deflated 59%)
-total bytes=80897347, compressed=17613710 -> 78% savings
+updating: Holy-Bible---Vietnamese---AB-StudyPack/AB-README.txt	(in=14525) (out=5919) (deflated 59%)
+total bytes=80901980, compressed=17615469 -> 78% savings
 *** AION: DONE

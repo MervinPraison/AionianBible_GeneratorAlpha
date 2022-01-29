@@ -13,14 +13,14 @@ function AION_ECHO($message, $ret=FALSE) {
 }
 /*** aion garbage collection ***/
 function AION_unset(&$unsetarray) {
-	if (isset($unsetarray) && is_array($unsetarray)) {
-		foreach($unsetarray as $key => &$unsetelement) {
-			if (is_array($unsetarray[$key])) {
+	if (isset($unsetarray)) {
+		if(is_array($unsetarray)) {
+			foreach($unsetarray as $key => &$unsetelement) {
 				AION_unset($unsetarray[$key]);
 			}
-			$unsetarray[$key] = NULL;
-			unset($unsetarray[$key]);
 		}
+		$unsetarray = NULL;
+		unset($unsetarray);
 	}
 	gc_collect_cycles();
 }

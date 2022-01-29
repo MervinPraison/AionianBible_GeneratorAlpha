@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 489198      
-# File Date: 01/14/2022 20:04:44
+# File Size: 489214      
+# File Date: 01/28/2022 19:20:23
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: http://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022
@@ -591,11 +591,11 @@ Holy-Bible---English---Rotherham-Bible	MAR-010-045	Mark 10:45	For, even the Son 
 Holy-Bible---English---Rotherham-Bible	ROM-001-001	Romans 1:1	Paul, a servant of Jesus Christ, a called apostle, separated unto the glad-message of God—
 Holy-Bible---English---Rotherham-Bible	MAT-028-019	Matthew 28:19	Go ye, therefore, and disciple all the nations, Immersing them into the name of the Father, and of the Son, and of the Holy Spirit, —
 Holy-Bible---English---STEPBible-Amalgamant	JOH-003-016	John 3:16	Thus for loved (the) God the world, that the Son, (* of him *KJV) the only begotten, He gave, so that everyone who is believing in Him not may perish, but may have life eternal.
-Holy-Bible---English---STEPBible-Amalgamant	GEN-003-024	Genesis 3:24	and to drive out [definite] [the] man and to dwell from front to/for garden Eden [definite] [the] cherub and [definite] flame [the] sword [the] to overturn to/for to keep [definite] way tree [the] life
+Holy-Bible---English---STEPBible-Amalgamant	GEN-003-024	Genesis 3:24	seq to drive out [definite] link the man seq to dwell from front to garden link Eden [definite] link the cherub and [definite] flame the sword the to overturn to to keep [definite] link way tree the life.  section
 Holy-Bible---English---STEPBible-Amalgamant	LUK-023-034	Luke 23:34	(the) And Jesus was saying, Father, do forgive them, not for they know what they do.”  Dividing then the garments of Him, they cast (* lots.  *NA~TR)
 Holy-Bible---English---STEPBible-Amalgamant	REV-021-002	Revelation 21:2-3	And (* I John *KJV) the city (the) holy, Jerusalem new, I saw coming down out of (the) heaven from (the) God, prepared as a bride adorned for the husband of her. And I heard a voice great from the (* throne, *NA~TR) saying: Behold, the tabernacle (the) of God [is] with (the) men, and He will tabernacle with them, and they (* peoples *NA~TR) of Him will be, and Himself (the) God with them will be [as] their God.
 Holy-Bible---English---STEPBible-Amalgamant	HEB-011-008	Hebrews 11:8	By faith (* the [one] *NATR?) being called, Abraham obeyed to go out into (* (the) *KJV) a place that he was going to receive for an inheritance, and went out, not knowing where he is going.
-Holy-Bible---English---STEPBible-Amalgamant	EXO-013-017	Exodus 13:17	and to be in/on/with to send Pharaoh [definite] [the] people and not to lead them God way land Palestina for near he/she/it for to say God lest to comfort [the] people in/on/with to see they battle and to return Egypt [to]
+Holy-Bible---English---STEPBible-Amalgamant	EXO-013-017	Exodus 13:17	seq to be in to send Pharaoh [definite] link the people and not link to lead them God way land Philistine for near he/she/it for separate to say God lest link to comfort the people in to see they battle seq to return Egypt to.
 Holy-Bible---English---STEPBible-Amalgamant	MAR-010-045	Mark 10:45	Even for the Son (the) of Man not came to be served, but to serve, and to give the life of Him [as] a ransom for many.
 Holy-Bible---English---STEPBible-Amalgamant	ROM-001-001	Romans 1:1	Paul, a servant of Christ Jesus, a called apostle set apart for [the] gospel of God,
 Holy-Bible---English---STEPBible-Amalgamant	MAT-028-019	Matthew 28:19	Having gone therefore, do disciple all the nations, (* baptizing *NA~TR) them in the name of the Father, and of the Son, and of the Holy Spirit,

@@ -7,6 +7,8 @@
 *** AION: VIZ ../www-stage/library/stepbible/Greek_Lexicon_Strongs.txt ROWS=5523
 *** AION: VIZ ../www-stage/library/stepbible/Greek_Lexicon_Strongs_Index.json
 *** AION: SUCCESS! COD(../STEPBible-Data-master/TEHMC - Translators Expansion of Hebrew Morphology Codes - STEPBible.org CC BY.txt) lines=4391 array=844
+*** AION: WARN! Weird, no '2)' removed '1)' but found '3)' FIX2	../STEPBible-Data-master/TBESH - Translators Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt 0
+H5774b	תְּעֻפָה		H:N-F	gloom	3) gloom 	
 *** AION: SUCCESS! GET	../STEPBible-Data-master/TBESH - Translators Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt lines=9346 array=9346
 *** AION: SUCCESS! GET	../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt lines=80061 array=80060
 *** AION: SUCCESS! GET	../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt lines=107634 array=107633
@@ -413,47 +415,47 @@ Array
 
 *** AION: EXCELLENT! ALL REFERENCES ACCOUNTED
 
-*** AION: HEBREW ../www-stage/library/stepbible/Hebrew_Tagged_Text.txt ROWS=542652
+*** AION: HEBREW ../www-stage/library/stepbible/Hebrew_Tagged_Text.txt ROWS=548726
 *** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json CHECKING: 1.1:1
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H9003	W	HR	בְּ/רֵאשִׁ֖ית
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H7225	P	HNcfsa	בְּ/רֵאשִׁ֖ית
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H1254a	W	HVqp3ms	בָּרָ֣א
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H430	W	HNcmpa	אֱלֹהִ֑ים
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H853	W	HTo	אֵ֥ת
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H9009	W	HTd	הַ/שָּׁמַ֖יִם
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H8064	P	HNcmpa	הַ/שָּׁמַ֖יִם
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H9002	W	HC	וְ/אֵ֥ת
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H853	P	HTo	וְ/אֵ֥ת
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H9009	W	HTd	הָ/אָֽרֶץ/׃
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H776	P	HNcbsa	הָ/אָֽרֶץ/׃
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H9016	P		הָ/אָֽרֶץ/׃
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H9003	W	HR	בְּ/רֵאשִׁ֖ית	in	ב	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H7225	P	HNcfsa	בְּ/רֵאשִׁ֖ית	first	רֵאשִׁית	beginning
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H1254a	W	HVqp3ms	בָּרָ֣א	to create	בָּרָא	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H430	W	HNcmpa	אֱלֹהִ֑ים	God	אֱלֹהִים	God @ Gen 1:1
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H853	W	HTo	אֵ֥ת	obj.	אֵת	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H9009	W	HTd	הַ/שָּׁמַ֖יִם	the	ה	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H8064	P	HNcmpa	הַ/שָּׁמַ֖יִם	heaven	שָׁמַיִם	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H9002	W	HC	וְ/אֵ֥ת	and	ו	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H853	P	HTo	וְ/אֵ֥ת	obj.	אֵת	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H9009	W	HTd	הָ/אָֽרֶץ/׃	the	ה	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H776	P	HNcbsa	הָ/אָֽרֶץ/׃	land	אֶ֫רֶץ	planet
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H9016	P		הָ/אָֽרֶץ/׃	:	׃	
 *** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json CHECKING: 39.4:6
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9001	W	Hc	וְ/הֵשִׁ֤יב
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H7725	P	HVhq3ms	וְ/הֵשִׁ֤יב
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H3820a	W	HNcbsc	לֵב/־
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9014	P		לֵב/־
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H1	W	HNcfpa	אָבוֹת֙
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H5921a	W	HR	עַל/־
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9014	P		עַל/־
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H1121a	W	HNcmpa	בָּנִ֔ים
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9002	W	HC	וְ/לֵ֥ב
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H3820a	P	HNcbsc	וְ/לֵ֥ב
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H1121a	W	HNcmpa	בָּנִ֖ים
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H5921a	W	HR	עַל/־
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9014	P		עַל/־
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H1	W	HNcfpc	אֲבוֹתָ֑/ם
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9028	P	HSp3mp	אֲבוֹתָ֑/ם
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H6435	W	HTc	פֶּן/־
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9014	P		פֶּן/־
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H935	W	HVqi1cs	אָב֕וֹא
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9001	W	Hc	וְ/הִכֵּיתִ֥י
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H5221	P	HVhq1cs	וְ/הִכֵּיתִ֥י
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H853	W	HTo	אֶת/־
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9014	P		אֶת/־
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9009	W	HTd	הָ/אָ֖רֶץ
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H776	P	HNcbsa	הָ/אָ֖רֶץ
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H2764a	W	HNcbsa	חֵֽרֶם/׃
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9016	P		חֵֽרֶם/׃
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9001	W	Hc	וְ/הֵשִׁ֤יב	seq	ו	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H7725	P	HVhq3ms	וְ/הֵשִׁ֤יב	to return	שׁוּב	turn against|backslide
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H3820a	W	HNcbsc	לֵב/־	heart	לֵב	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9014	P		לֵב/־	link	־	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H1	W	HNcfpa	אָבוֹת֙	father	אָב	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H5921a	W	HR	עַל/־	upon	עַל	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9014	P		עַל/־	link	־	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H1121a	W	HNcmpa	בָּנִ֔ים	son	בֵּן	child|son
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9002	W	HC	וְ/לֵ֥ב	and	ו	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H3820a	P	HNcbsc	וְ/לֵ֥ב	heart	לֵב	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H1121a	W	HNcmpa	בָּנִ֖ים	son	בֵּן	child|son
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H5921a	W	HR	עַל/־	upon	עַל	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9014	P		עַל/־	link	־	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H1	W	HNcfpc	אֲבוֹתָ֑/ם	father	אָב	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9028	P	HSp3mp	אֲבוֹתָ֑/ם	their	Pp3m	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H6435	W	HTc	פֶּן/־	lest	פֶּן־	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9014	P		פֶּן/־	link	־	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H935	W	HVqi1cs	אָב֕וֹא	to come (in)	בּוֹא	come|go in
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9001	W	Hc	וְ/הִכֵּיתִ֥י	seq	ו	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H5221	P	HVhq1cs	וְ/הִכֵּיתִ֥י	to smite	נָכָה	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H853	W	HTo	אֶת/־	obj.	אֵת	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9014	P		אֶת/־	link	־	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9009	W	HTd	הָ/אָ֖רֶץ	the	ה	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H776	P	HNcbsa	הָ/אָ֖רֶץ	land	אֶ֫רֶץ	country|field
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H2764a	W	HNcbsa	חֵֽרֶם/׃	devoted thing	חֵ֫רֶם	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9016	P		חֵֽרֶם/׃	:	׃	
 *** AION: HEBREW ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json
 *** AION: HEBREW ../www-stage/library/stepbible/Hebrew_Tagged_Text_Count.json
 *** AION: HEBREW ../www-stage/library/stepbible/Hebrew_Chapter_Usage.txt
@@ -6449,7 +6451,7 @@ Textual hygiene change counts
 
 
 
-FIX	../STEPBible-Data-master/TBESH - Translators Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#(<ref[^>]*>|</ref>)#usi	ref=106
+FIX	../STEPBible-Data-master/TBESH - Translators Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#(<ref[^<>]*>|</ref>)#usi	ref=106
 FIX	../STEPBible-Data-master/TBESH - Translators Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#(<br[ /]*>|<lb[ /]*>)#usi	breaks=25056
 FIX	../STEPBible-Data-master/TBESH - Translators Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#(H|G)[0]+([1-9]+[0-9]*)#usi	numbno=1096
 FIX	../STEPBible-Data-master/TBESH - Translators Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#<->#usi	tags=1
@@ -6459,7 +6461,7 @@ FIX	../STEPBible-Data-master/TBESH - Translators Brief lexicon of Extended Stron
 FIX	../STEPBible-Data-master/TBESH - Translators Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#[ ]+([)\]]+)#usi	space-bracket=23
 FIX	../STEPBible-Data-master/TBESH - Translators Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt	#[ ]+#usi	spaces=158768
 FIX	../STEPBible-Data-master/TBESH - Translators Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt		trim-newline=9346
-FIX2	../STEPBible-Data-master/TBESH - Translators Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt removed Hebrew '1)' times=8240
+FIX2	../STEPBible-Data-master/TBESH - Translators Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt removed Hebrew '1)' times=8250
 
 
 
@@ -6494,26 +6496,26 @@ FIX	../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Stron
 FIX	../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#(<date>|</date>)#usi	date=516
 FIX	../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#(<corr>|</corr>)#usi	corr=2
 FIX	../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#(<def>|</def>)#usi	def=4
-FIX	../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#<re>(.+?)</re>#usi	<re>=397
-FIX	../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#(<ref[^>]*>|</ref>)#usi	ref=76451
+FIX	../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#(<re>|</re>)#usi	<re>=794
+FIX	../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#(<ref[^<>]*>|</ref>)#usi	ref=76527
 FIX	../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#(<br[ /]*>|<lb[ /]*>)#usi	breaks=23408
 FIX	../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#(H|G)[0]+([1-9]+[0-9]*)#usi	numbno=1000
-FIX	../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#(†)#usi	cross=5138
+FIX	../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#(†)#usi	cross=5145
 FIX	../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	# __([0-9]+)\. #usi	underN=3742
 FIX	../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#_[_]+#usi	unders=1940
 FIX	../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#[([]+[ [:punct:]]*[)\]]+#usi	bracket=15
-FIX	../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#[ ]*[ \-—,:;?!.]+[ ]*([,.:;!?]{1})#usi	punct=41817
-FIX	../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#([([]+)[ ]+#usi	space-bracket=743
-FIX	../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#[ ]+([)\]]+)#usi	space-bracket=664
-FIX	../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#[ ]+#usi	spaces=359529
+FIX	../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#[ ]*[ \-—,:;?!.]+[ ]*([,.:;!?]{1})#usi	punct=42031
+FIX	../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#([([]+)[ ]+#usi	space-bracket=749
+FIX	../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#[ ]+([)\]]+)#usi	space-bracket=674
+FIX	../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt	#[ ]+#usi	spaces=364437
 FIX	../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt		trim-newline=10714
 
 
 
 FIX	../STEPBible-Data-master/TFLSJ  0-5624 - Translators Formatted full LSJ Bible lexicon - STEPBible.org CC BY.txt	#(<author>|</author>)#usi	author=6
 FIX	../STEPBible-Data-master/TFLSJ  0-5624 - Translators Formatted full LSJ Bible lexicon - STEPBible.org CC BY.txt	#(<date>|</date>)#usi	date=6
-FIX	../STEPBible-Data-master/TFLSJ  0-5624 - Translators Formatted full LSJ Bible lexicon - STEPBible.org CC BY.txt	#(<ref[^>]*>|</ref>)#usi	ref=2132
-FIX	../STEPBible-Data-master/TFLSJ  0-5624 - Translators Formatted full LSJ Bible lexicon - STEPBible.org CC BY.txt	#(<span [^>]*>|</span>)#usi	span=2
+FIX	../STEPBible-Data-master/TFLSJ  0-5624 - Translators Formatted full LSJ Bible lexicon - STEPBible.org CC BY.txt	#(<ref[^<>]*>|</ref>)#usi	ref=2132
+FIX	../STEPBible-Data-master/TFLSJ  0-5624 - Translators Formatted full LSJ Bible lexicon - STEPBible.org CC BY.txt	#(<span [^<>]*>|</span>)#usi	span=2
 FIX	../STEPBible-Data-master/TFLSJ  0-5624 - Translators Formatted full LSJ Bible lexicon - STEPBible.org CC BY.txt	#<Level[0-9]{1}>#usi	level#=23355
 FIX	../STEPBible-Data-master/TFLSJ  0-5624 - Translators Formatted full LSJ Bible lexicon - STEPBible.org CC BY.txt	#</Level[0-9]{1}>#usi	level/=23345
 FIX	../STEPBible-Data-master/TFLSJ  0-5624 - Translators Formatted full LSJ Bible lexicon - STEPBible.org CC BY.txt	#(<br[ /]*>|<lb[ /]*>)#usi	breaks=29566
@@ -6531,7 +6533,7 @@ FIX	../STEPBible-Data-master/TFLSJ  0-5624 - Translators Formatted full LSJ Bibl
 
 
 
-FIX	../STEPBible-Data-master/TFLSJ extra - Translators Formatted full LSJ Bible lexicon - STEPBible.org CC BY.txt	#(<ref[^>]*>|</ref>)#usi	ref=12
+FIX	../STEPBible-Data-master/TFLSJ extra - Translators Formatted full LSJ Bible lexicon - STEPBible.org CC BY.txt	#(<ref[^<>]*>|</ref>)#usi	ref=12
 FIX	../STEPBible-Data-master/TFLSJ extra - Translators Formatted full LSJ Bible lexicon - STEPBible.org CC BY.txt	#<Level[0-9]{1}>#usi	level#=8865
 FIX	../STEPBible-Data-master/TFLSJ extra - Translators Formatted full LSJ Bible lexicon - STEPBible.org CC BY.txt	#</Level[0-9]{1}>#usi	level/=8864
 FIX	../STEPBible-Data-master/TFLSJ extra - Translators Formatted full LSJ Bible lexicon - STEPBible.org CC BY.txt	#(<br[ /]*>|<lb[ /]*>)#usi	breaks=13961
