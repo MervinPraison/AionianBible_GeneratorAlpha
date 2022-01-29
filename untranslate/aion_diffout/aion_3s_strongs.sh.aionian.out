@@ -417,45 +417,126 @@ Array
 
 *** AION: HEBREW ../www-stage/library/stepbible/Hebrew_Tagged_Text.txt ROWS=548726
 *** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json CHECKING: 1.1:1
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H9003	W	HR	בְּ/רֵאשִׁ֖ית	in	ב	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H7225	P	HNcfsa	בְּ/רֵאשִׁ֖ית	first	רֵאשִׁית	beginning
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H1254a	W	HVqp3ms	בָּרָ֣א	to create	בָּרָא	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H430	W	HNcmpa	אֱלֹהִ֑ים	God	אֱלֹהִים	God @ Gen 1:1
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H853	W	HTo	אֵ֥ת	obj.	אֵת	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H9009	W	HTd	הַ/שָּׁמַ֖יִם	the	ה	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H8064	P	HNcmpa	הַ/שָּׁמַ֖יִם	heaven	שָׁמַיִם	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H9002	W	HC	וְ/אֵ֥ת	and	ו	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H853	P	HTo	וְ/אֵ֥ת	obj.	אֵת	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H9009	W	HTd	הָ/אָֽרֶץ/׃	the	ה	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H776	P	HNcbsa	הָ/אָֽרֶץ/׃	land	אֶ֫רֶץ	planet
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 001	GEN	001	001	H9016	P		הָ/אָֽרֶץ/׃	:	׃	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=1 001	GEN	001	001	H9003	W	HR	בְּ/רֵאשִׁ֖ית	in	ב	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=2 001	GEN	001	001	H7225	P	HNcfsa	בְּ/רֵאשִׁ֖ית	first	רֵאשִׁית	beginning
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=3 001	GEN	001	001	H1254a	W	HVqp3ms	בָּרָ֣א	to create	בָּרָא	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=4 001	GEN	001	001	H430	W	HNcmpa	אֱלֹהִ֑ים	God	אֱלֹהִים	God @ Gen 1:1
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=5 001	GEN	001	001	H853	W	HTo	אֵ֥ת	obj.	אֵת	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=6 001	GEN	001	001	H9009	W	HTd	הַ/שָּׁמַ֖יִם	the	ה	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=7 001	GEN	001	001	H8064	P	HNcmpa	הַ/שָּׁמַ֖יִם	heaven	שָׁמַיִם	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=8 001	GEN	001	001	H9002	W	HC	וְ/אֵ֥ת	and	ו	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=9 001	GEN	001	001	H853	P	HTo	וְ/אֵ֥ת	obj.	אֵת	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=10 001	GEN	001	001	H9009	W	HTd	הָ/אָֽרֶץ/׃	the	ה	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=11 001	GEN	001	001	H776	P	HNcbsa	הָ/אָֽרֶץ/׃	land	אֶ֫רֶץ	planet
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=12 001	GEN	001	001	H9016	P		הָ/אָֽרֶץ/׃	:	׃	
+*** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json CHECKING: 10.1:1
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=1 010	2SA	001	001	H9001	W	Hc	וַ/יְהִ֗י	seq	ו	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=2 010	2SA	001	001	H1961	P	HVqw3ms	וַ/יְהִ֗י	to be	הָיָה	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=3 010	2SA	001	001	H310a	W	HNcmpc	אַֽחֲרֵי֙	behind	אַחַר	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=4 010	2SA	001	001	H4194	W	HNcbsc	מ֣וֹת	death	מָ֫וֶת	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=5 010	2SA	001	001	H7586	W	HNpm	שָׁא֔וּל	Saul	שָׁאוּל	Saul @ 1Sa 9:2
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=6 010	2SA	001	001	H9002	W	HC	וְ/דָוִ֣ד	and	ו	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=7 010	2SA	001	001	H1732	P	HNpm	וְ/דָוִ֣ד	David	דָּוִד	David @ Rut 4:17
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=8 010	2SA	001	001	H7725	W	HVqp3ms	שָׁ֔ב	to return	שׁוּב	return
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=9 010	2SA	001	001	H9006	W	HR	מֵ/הַכּ֖וֹת	from	מ	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=10 010	2SA	001	001	H5221	P	HVhcc	מֵ/הַכּ֖וֹת	to smite	נָכָה	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=11 010	2SA	001	001	H853	W	HTo	אֶת/־	obj.	אֵת	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=12 010	2SA	001	001	H9014	P		אֶת/־	link	־	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=13 010	2SA	001	001	H9009	W	HTd	הָ/עֲמָלֵ֑ק	the	ה	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=14 010	2SA	001	001	H6002	P	HNpl	הָ/עֲמָלֵ֑ק	Amalek	עֲמָלֵק	Amalek @ Gen 14:7
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=15 010	2SA	001	001	H9001	W	Hc	וַ/יֵּ֧שֶׁב	seq	ו	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=16 010	2SA	001	001	H3427	P	HVqw3ms	וַ/יֵּ֧שֶׁב	to dwell	יָשַׁב	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=17 010	2SA	001	001	H1732	W	HNpm	דָּוִ֛ד	David	דָּוִד	David @ Rut 4:17
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=18 010	2SA	001	001	H9003	W	HR	בְּ/צִקְלָ֖ג	in	ב	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=19 010	2SA	001	001	H6860	P	HNpl	בְּ/צִקְלָ֖ג	Ziklag	צִקְלַג	Ziklag @ Jos 15:31
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=20 010	2SA	001	001	H3117	W	HNcmpa	יָמִ֥ים	day	יוֹם	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=21 010	2SA	001	001	H8147	W	HNcbda	שְׁנָֽיִם/׃	two	שְׁנַ֫יִם	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=22 010	2SA	001	001	H9016	P		שְׁנָֽיִם/׃	:	׃	
+*** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json CHECKING: 20.1:1
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=1 020	PRO	001	001	H4912	W	HNcmpc	מִ֭שְׁלֵי	proverb	מָשָׁל	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=2 020	PRO	001	001	H8010	W	HNpm	שְׁלֹמֹ֣ה	Solomon	שְׁלֹמֹה	Solomon @ 2Sa 5:14
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=3 020	PRO	001	001	H1121a	W	HNcbsc	בֶן/־	son	בֵּן	child|son
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=4 020	PRO	001	001	H9014	P		בֶן/־	link	־	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=5 020	PRO	001	001	H1732	W	HNpm	דָּוִ֑ד	David	דָּוִד	David @ Rut 4:17
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=6 020	PRO	001	001	H4428	W	HNcbsc	מֶ֝֗לֶךְ	king	מֶ֫לֶךְ	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=7 020	PRO	001	001	H3478	W	HNpl	יִשְׂרָאֵֽל/׃	Israel	יִשְׂרָאֵל	Israel @ Gen 25:26
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=8 020	PRO	001	001	H9016	P		יִשְׂרָאֵֽל/׃	:	׃	
+*** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json CHECKING: 30.1:1
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=1 030	AMO	001	001	H1697	W	HNcmpc	דִּבְרֵ֣י	word	דָּבָר	word|speech|command
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=2 030	AMO	001	001	H5986	W	HNpm	עָמ֔וֹס	Amos	עָמוֹס	Amos @ Amo 1:1
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=3 030	AMO	001	001	H834a	W	HC	אֲשֶׁר/־	which	אֲשֶׁר	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=4 030	AMO	001	001	H9014	P		אֲשֶׁר/־	link	־	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=5 030	AMO	001	001	H1961	W	HVqp3ms	הָיָ֥ה	to be	הָיָה	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=6 030	AMO	001	001	H9003	W	HRd	בַ/נֹּקְדִ֖ים	in	ב	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=7 030	AMO	001	001	H5349	P	HNcmpa	בַ/נֹּקְדִ֖ים	shepherd	נֹקֵד	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=8 030	AMO	001	001	H9006	W	HR	מִ/תְּק֑וֹעַ	from	מ	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=9 030	AMO	001	001	H8620	P	HNpl	מִ/תְּק֑וֹעַ	Tekoa	תְּקוֹעַ	Tekoa @ 2Sa 14:2
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=10 030	AMO	001	001	H834a	W	HC	אֲשֶׁר֩	which	אֲשֶׁר	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=11 030	AMO	001	001	H2372	W	HVqp3ms	חָזָ֨ה	to see	חָזָה	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=12 030	AMO	001	001	H5921a	W	HR	עַל/־	upon	עַל	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=13 030	AMO	001	001	H9014	P		עַל/־	link	־	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=14 030	AMO	001	001	H3478	W	HNpl	יִשְׂרָאֵ֜ל	Israel	יִשְׂרָאֵל	Israel @ Gen 25:26
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=15 030	AMO	001	001	H9003	W	HR	בִּ/ימֵ֣י/׀	in	ב	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=16 030	AMO	001	001	H3117	P	HNcmpc	בִּ/ימֵ֣י/׀	day	יוֹם	when|time|(period|life)[of days]
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=17 030	AMO	001	001	H9015	P		בִּ/ימֵ֣י/׀	separate	׀	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=18 030	AMO	001	001	H5818	W	HNpm	עֻזִיָּ֣ה	Uzziah	עֻזִּיָּהוּ	Uzziah @ 2Ki 14:21
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=19 030	AMO	001	001	H4428	W	HNcbsc	מֶֽלֶךְ/־	king	מֶ֫לֶךְ	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=20 030	AMO	001	001	H9014	P		מֶֽלֶךְ/־	link	־	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=21 030	AMO	001	001	H3063	W	HNpl	יְהוּדָ֗ה	Judah	יְהוּדָה	Judah @ Gen 29:35
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=22 030	AMO	001	001	H9002	W	HC	וּ/בִ/ימֵ֞י	and	ו	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=23 030	AMO	001	001	H9003	P	HR	וּ/בִ/ימֵ֞י	in	ב	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=24 030	AMO	001	001	H3117	P	HNcmpc	וּ/בִ/ימֵ֞י	day	יוֹם	when|time|(period|life)[of days]
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=25 030	AMO	001	001	H3379	W	HNpm	יָרָבְעָ֤ם	Jeroboam	יָֽרָבְעָם	Jeroboam @ 2Ki 13:13
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=26 030	AMO	001	001	H1121a	W	HNcbsc	בֶּן/־	son	בֵּן	child|son
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=27 030	AMO	001	001	H9014	P		בֶּן/־	link	־	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=28 030	AMO	001	001	H3101	W	HNpm	יוֹאָשׁ֙	Joash	יוֹאָשׁ	Joash @ 2Ki 13:9
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=29 030	AMO	001	001	H4428	W	HNcbsc	מֶ֣לֶךְ	king	מֶ֫לֶךְ	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=30 030	AMO	001	001	H3478	W	HNpl	יִשְׂרָאֵ֔ל	Israel	יִשְׂרָאֵל	Israel @ Gen 25:26
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=31 030	AMO	001	001	H8141	W	HNcfda	שְׁנָתַ֖יִם	year	שָׁנָה	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=32 030	AMO	001	001	H9005	W	HR	לִ/פְנֵ֥י	to	ל	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=33 030	AMO	001	001	H6440	P	HNcmpc	לִ/פְנֵ֥י	face	פָּנֶה	before|to|front
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=34 030	AMO	001	001	H9009	W	HTd	הָ/רָֽעַשׁ/׃	the	ה	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=35 030	AMO	001	001	H7494	P	HNcbsa	הָ/רָֽעַשׁ/׃	quaking	רַ֫עַשׁ	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=36 030	AMO	001	001	H9016	P		הָ/רָֽעַשׁ/׃	:	׃	
+*** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json CHECKING: 39.1:1
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=1 039	MAL	001	001	H4853b	W	HNcbsc	מַשָּׂ֥א	oracle	מַשָּׂא	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=2 039	MAL	001	001	H1697	W	HNcbsc	דְבַר/־	word	דָּבָר	word|speech|command
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=3 039	MAL	001	001	H9014	P		דְבַר/־	link	־	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=4 039	MAL	001	001	H3068	W	HNpt	יְהוָ֖ה	YHWH|Yahweh	יהוה	LORD|God @ Gen 1:1
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=5 039	MAL	001	001	H413	W	HR	אֶל/־	to(wards)	אֶל	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=6 039	MAL	001	001	H9014	P		אֶל/־	link	־	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=7 039	MAL	001	001	H3478	W	HNpl	יִשְׂרָאֵ֑ל	Israel	יִשְׂרָאֵל	Israel @ Gen 25:26
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=8 039	MAL	001	001	H9003	W	HR	בְּ/יַ֖ד	in	ב	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=9 039	MAL	001	001	H3027	P	HNcbsc	בְּ/יַ֖ד	hand	יָד	by|though[hand of](AGENT)
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=10 039	MAL	001	001	H4401	W	HNpm	מַלְאָכִֽי/׃	Malachi	מַלְאָכִי	Malachi @ Mal 1:1
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=11 039	MAL	001	001	H9016	P		מַלְאָכִֽי/׃	:	׃	
 *** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json CHECKING: 39.4:6
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9001	W	Hc	וְ/הֵשִׁ֤יב	seq	ו	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H7725	P	HVhq3ms	וְ/הֵשִׁ֤יב	to return	שׁוּב	turn against|backslide
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H3820a	W	HNcbsc	לֵב/־	heart	לֵב	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9014	P		לֵב/־	link	־	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H1	W	HNcfpa	אָבוֹת֙	father	אָב	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H5921a	W	HR	עַל/־	upon	עַל	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9014	P		עַל/־	link	־	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H1121a	W	HNcmpa	בָּנִ֔ים	son	בֵּן	child|son
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9002	W	HC	וְ/לֵ֥ב	and	ו	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H3820a	P	HNcbsc	וְ/לֵ֥ב	heart	לֵב	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H1121a	W	HNcmpa	בָּנִ֖ים	son	בֵּן	child|son
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H5921a	W	HR	עַל/־	upon	עַל	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9014	P		עַל/־	link	־	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H1	W	HNcfpc	אֲבוֹתָ֑/ם	father	אָב	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9028	P	HSp3mp	אֲבוֹתָ֑/ם	their	Pp3m	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H6435	W	HTc	פֶּן/־	lest	פֶּן־	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9014	P		פֶּן/־	link	־	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H935	W	HVqi1cs	אָב֕וֹא	to come (in)	בּוֹא	come|go in
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9001	W	Hc	וְ/הִכֵּיתִ֥י	seq	ו	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H5221	P	HVhq1cs	וְ/הִכֵּיתִ֥י	to smite	נָכָה	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H853	W	HTo	אֶת/־	obj.	אֵת	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9014	P		אֶת/־	link	־	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9009	W	HTd	הָ/אָ֖רֶץ	the	ה	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H776	P	HNcbsa	הָ/אָ֖רֶץ	land	אֶ֫רֶץ	country|field
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H2764a	W	HNcbsa	חֵֽרֶם/׃	devoted thing	חֵ֫רֶם	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json 039	MAL	004	006	H9016	P		חֵֽרֶם/׃	:	׃	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=1 039	MAL	004	006	H9001	W	Hc	וְ/הֵשִׁ֤יב	seq	ו	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=2 039	MAL	004	006	H7725	P	HVhq3ms	וְ/הֵשִׁ֤יב	to return	שׁוּב	turn against|backslide
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=3 039	MAL	004	006	H3820a	W	HNcbsc	לֵב/־	heart	לֵב	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=4 039	MAL	004	006	H9014	P		לֵב/־	link	־	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=5 039	MAL	004	006	H1	W	HNcfpa	אָבוֹת֙	father	אָב	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=6 039	MAL	004	006	H5921a	W	HR	עַל/־	upon	עַל	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=7 039	MAL	004	006	H9014	P		עַל/־	link	־	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=8 039	MAL	004	006	H1121a	W	HNcmpa	בָּנִ֔ים	son	בֵּן	child|son
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=9 039	MAL	004	006	H9002	W	HC	וְ/לֵ֥ב	and	ו	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=10 039	MAL	004	006	H3820a	P	HNcbsc	וְ/לֵ֥ב	heart	לֵב	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=11 039	MAL	004	006	H1121a	W	HNcmpa	בָּנִ֖ים	son	בֵּן	child|son
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=12 039	MAL	004	006	H5921a	W	HR	עַל/־	upon	עַל	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=13 039	MAL	004	006	H9014	P		עַל/־	link	־	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=14 039	MAL	004	006	H1	W	HNcfpc	אֲבוֹתָ֑/ם	father	אָב	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=15 039	MAL	004	006	H9028	P	HSp3mp	אֲבוֹתָ֑/ם	their	Pp3m	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=16 039	MAL	004	006	H6435	W	HTc	פֶּן/־	lest	פֶּן־	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=17 039	MAL	004	006	H9014	P		פֶּן/־	link	־	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=18 039	MAL	004	006	H935	W	HVqi1cs	אָב֕וֹא	to come (in)	בּוֹא	come|go in
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=19 039	MAL	004	006	H9001	W	Hc	וְ/הִכֵּיתִ֥י	seq	ו	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=20 039	MAL	004	006	H5221	P	HVhq1cs	וְ/הִכֵּיתִ֥י	to smite	נָכָה	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=21 039	MAL	004	006	H853	W	HTo	אֶת/־	obj.	אֵת	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=22 039	MAL	004	006	H9014	P		אֶת/־	link	־	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=23 039	MAL	004	006	H9009	W	HTd	הָ/אָ֖רֶץ	the	ה	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=24 039	MAL	004	006	H776	P	HNcbsa	הָ/אָ֖רֶץ	land	אֶ֫רֶץ	country|field
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=25 039	MAL	004	006	H2764a	W	HNcbsa	חֵֽרֶם/׃	devoted thing	חֵ֫רֶם	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json howmany=26 039	MAL	004	006	H9016	P		חֵֽרֶם/׃	:	׃	
 *** AION: HEBREW ../www-stage/library/stepbible/Hebrew_Tagged_Text_Index.json
 *** AION: HEBREW ../www-stage/library/stepbible/Hebrew_Tagged_Text_Count.json
 *** AION: HEBREW ../www-stage/library/stepbible/Hebrew_Chapter_Usage.txt
@@ -6288,63 +6369,127 @@ Array
 
 *** AION: GREEK ../www-stage/library/stepbible/Greek_Tagged_Text.txt ROWS=142281
 *** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json CHECKING: 43.1:1
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G1722	W	PREP	ἐν	In [the]	NA=TR	Ἐν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		in	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G746	W	N-DSF	ἀρχῇ	beginning	NA=TR	ἀρχῇ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀρχῇ		beginning	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G1510	W	V-IAI-3S	ἦν	was	NA=TR	ἦν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἦν		to be	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G3588	W	T-NSM	ὁ	the	NA=TR	ὁ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὁ		the	»010:G3056
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G3056	W	N-NSM	λόγος	Word,	NA=TR	λόγος,	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	λόγος		word	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G2532	W	CONJ	καὶ	and	NA=TR	καὶ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		and	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G3588	W	T-NSM	ὁ	the	NA=TR	ὁ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὁ		the	»016:G3056
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G3056	W	N-NSM	λόγος	Word	NA=TR	λόγος	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	λόγος		word	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G1510	W	V-IAI-3S	ἦν	was	NA=TR	ἦν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἦν		to be	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G4314	W	PREP	πρὸς	with	NA=TR	πρὸς	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πρὸς		with	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G3588	W	T-ASM	τὸν	(the)	NA=TR	τὸν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὸν		the	»024:G2316
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G2316	W	N-ASM	θεόν	God,	NA=TR	θεόν,	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεόν		God	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G2532	W	CONJ	καὶ	and	NA=TR	καὶ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		and	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G2316	W	N-NSM	θεὸς	God	NA=TR	θεὸς	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεὸς		God	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G1510	W	V-IAI-3S	ἦν	was	NA=TR	ἦν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἦν		to be	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G3588	W	T-NSM	ὁ	the	NA=TR	ὁ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὁ		the	»034:G3056
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	001	001	G3056	W	N-NSM	λόγος	Word.	NA=TR	λόγος.	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	λόγος		word	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=1 043	JOH	001	001	G1722	W	PREP	ἐν	In [the]	NA=TR	Ἐν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		in	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=2 043	JOH	001	001	G746	W	N-DSF	ἀρχῇ	beginning	NA=TR	ἀρχῇ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀρχῇ		beginning	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=3 043	JOH	001	001	G1510	W	V-IAI-3S	ἦν	was	NA=TR	ἦν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἦν		to be	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=4 043	JOH	001	001	G3588	W	T-NSM	ὁ	the	NA=TR	ὁ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὁ		the	»010:G3056
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=5 043	JOH	001	001	G3056	W	N-NSM	λόγος	Word,	NA=TR	λόγος,	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	λόγος		word	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=6 043	JOH	001	001	G2532	W	CONJ	καὶ	and	NA=TR	καὶ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		and	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=7 043	JOH	001	001	G3588	W	T-NSM	ὁ	the	NA=TR	ὁ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὁ		the	»016:G3056
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=8 043	JOH	001	001	G3056	W	N-NSM	λόγος	Word	NA=TR	λόγος	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	λόγος		word	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=9 043	JOH	001	001	G1510	W	V-IAI-3S	ἦν	was	NA=TR	ἦν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἦν		to be	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=10 043	JOH	001	001	G4314	W	PREP	πρὸς	with	NA=TR	πρὸς	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πρὸς		with	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=11 043	JOH	001	001	G3588	W	T-ASM	τὸν	(the)	NA=TR	τὸν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὸν		the	»024:G2316
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=12 043	JOH	001	001	G2316	W	N-ASM	θεόν	God,	NA=TR	θεόν,	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεόν		God	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=13 043	JOH	001	001	G2532	W	CONJ	καὶ	and	NA=TR	καὶ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		and	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=14 043	JOH	001	001	G2316	W	N-NSM	θεὸς	God	NA=TR	θεὸς	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεὸς		God	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=15 043	JOH	001	001	G1510	W	V-IAI-3S	ἦν	was	NA=TR	ἦν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἦν		to be	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=16 043	JOH	001	001	G3588	W	T-NSM	ὁ	the	NA=TR	ὁ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὁ		the	»034:G3056
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=17 043	JOH	001	001	G3056	W	N-NSM	λόγος	Word.	NA=TR	λόγος.	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	λόγος		word	
 *** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json CHECKING: 43.3:16
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G3779	W	ADV	οὕτως	Thus	NA=TR	οὕτως	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὕτως		thus	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G1063	W	CONJ	γὰρ	for	NA=TR	γὰρ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	γὰρ		for	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G25	W	V-AAI-3S	ἠγάπησεν	loved	NA=TR	ἠγάπησεν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠγάπησεν		to love	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G3588	W	T-NSM	ὁ	(the)	NA=TR	ὁ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὁ		the	»010:G2316
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G2316	W	N-NSM	θεὸς	God	NA=TR	θεὸς	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεὸς		God	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G3588	W	T-ASM	τὸν	the	NA=TR	τὸν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὸν		the	»014:G2889
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G2889	W	N-ASM	κόσμον	world,	NA=TR	κόσμον,	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	κόσμον		world	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G5620	W	CONJ	ὥστε	that	NA=TR	ὥστε	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὥστε		so	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G3588	W	T-ASM	τὸν	the	NA=TR	τὸν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὸν		the	»020:G5207
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G5207	W	N-ASM	υἱὸν	Son,	NA=TR	υἱὸν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	υἱὸν		son	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G846	W	P-GSM	αὐτοῦ	of him	KJV	αὐτοῦ	Treg+TR+Byz	αὐτοῦ		of him	«020:G5207
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G3588	W	T-ASM	τὸν	the	NA=TR	τὸν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὸν		the	»024:G3439
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G3439	W	A-ASM	μονογενῆ	only begotten,	NA=TR	μονογενῆ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μονογενῆ		unique	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G1325	W	V-AAI-3S	ἔδωκεν	He gave,	NA=TR	ἔδωκεν,	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἔδωκεν		to give	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G2443	W	CONJ	ἵνα	so that	NA=TR	ἵνα	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἵνα		in order that	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G3956	W	A-NSM	πᾶς	everyone	NA=TR	πᾶς	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πᾶς		all	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G3588	W	T-NSM	ὁ	who	NA=TR	ὁ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὁ		[that] which	»034:G4100
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G4100	W	V-PAP-NSM	πιστεύων	is believing	NA=TR	πιστεύων	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πιστεύων		to trust (in)	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G1519	W	PREP	εἰς	in	NA=TR	εἰς	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰς		toward	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G846	W	P-ASM	αὐτὸν	Him	NA=TR	αὐτὸν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	αὐτὸν		him	«036:G1519
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G3361	W	PRT-N	μὴ	not	NA=TR	μὴ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		not	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G622	W	V-2AMS-3S	ἀπόληται	may perish,	NA=TR	ἀπόληται	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπόληται		to destroy	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G235	W	CONJ	ἀλλ᾽	but	NA=TR	ἀλλ᾽	NA27+NA28+Tyn+NIV;SBL+WH+Treg+TR+Byz	ἀλλ᾽; ἀλλὰ		but	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G2192	W	V-PAS-3S	ἔχῃ	may have	NA=TR	ἔχῃ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἔχῃ		to have	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G2222	W	N-ASF	ζωὴν	life	NA=TR	ζωὴν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ζωὴν		life	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 043	JOH	003	016	G166	W	A-ASF	αἰώνιον	eternal.	NA=TR	αἰώνιον.	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	αἰώνιον		eternal	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=1 043	JOH	003	016	G3779	W	ADV	οὕτως	Thus	NA=TR	οὕτως	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὕτως		thus	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=2 043	JOH	003	016	G1063	W	CONJ	γὰρ	for	NA=TR	γὰρ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	γὰρ		for	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=3 043	JOH	003	016	G25	W	V-AAI-3S	ἠγάπησεν	loved	NA=TR	ἠγάπησεν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἠγάπησεν		to love	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=4 043	JOH	003	016	G3588	W	T-NSM	ὁ	(the)	NA=TR	ὁ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὁ		the	»010:G2316
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=5 043	JOH	003	016	G2316	W	N-NSM	θεὸς	God	NA=TR	θεὸς	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεὸς		God	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=6 043	JOH	003	016	G3588	W	T-ASM	τὸν	the	NA=TR	τὸν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὸν		the	»014:G2889
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=7 043	JOH	003	016	G2889	W	N-ASM	κόσμον	world,	NA=TR	κόσμον,	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	κόσμον		world	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=8 043	JOH	003	016	G5620	W	CONJ	ὥστε	that	NA=TR	ὥστε	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὥστε		so	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=9 043	JOH	003	016	G3588	W	T-ASM	τὸν	the	NA=TR	τὸν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὸν		the	»020:G5207
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=10 043	JOH	003	016	G5207	W	N-ASM	υἱὸν	Son,	NA=TR	υἱὸν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	υἱὸν		son	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=11 043	JOH	003	016	G846	W	P-GSM	αὐτοῦ	of him	KJV	αὐτοῦ	Treg+TR+Byz	αὐτοῦ		of him	«020:G5207
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=12 043	JOH	003	016	G3588	W	T-ASM	τὸν	the	NA=TR	τὸν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τὸν		the	»024:G3439
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=13 043	JOH	003	016	G3439	W	A-ASM	μονογενῆ	only begotten,	NA=TR	μονογενῆ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μονογενῆ		unique	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=14 043	JOH	003	016	G1325	W	V-AAI-3S	ἔδωκεν	He gave,	NA=TR	ἔδωκεν,	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἔδωκεν		to give	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=15 043	JOH	003	016	G2443	W	CONJ	ἵνα	so that	NA=TR	ἵνα	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἵνα		in order that	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=16 043	JOH	003	016	G3956	W	A-NSM	πᾶς	everyone	NA=TR	πᾶς	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πᾶς		all	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=17 043	JOH	003	016	G3588	W	T-NSM	ὁ	who	NA=TR	ὁ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὁ		[that] which	»034:G4100
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=18 043	JOH	003	016	G4100	W	V-PAP-NSM	πιστεύων	is believing	NA=TR	πιστεύων	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πιστεύων		to trust (in)	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=19 043	JOH	003	016	G1519	W	PREP	εἰς	in	NA=TR	εἰς	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	εἰς		toward	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=20 043	JOH	003	016	G846	W	P-ASM	αὐτὸν	Him	NA=TR	αὐτὸν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	αὐτὸν		him	«036:G1519
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=21 043	JOH	003	016	G3361	W	PRT-N	μὴ	not	NA=TR	μὴ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μὴ		not	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=22 043	JOH	003	016	G622	W	V-2AMS-3S	ἀπόληται	may perish,	NA=TR	ἀπόληται	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπόληται		to destroy	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=23 043	JOH	003	016	G235	W	CONJ	ἀλλ᾽	but	NA=TR	ἀλλ᾽	NA27+NA28+Tyn+NIV;SBL+WH+Treg+TR+Byz	ἀλλ᾽; ἀλλὰ		but	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=24 043	JOH	003	016	G2192	W	V-PAS-3S	ἔχῃ	may have	NA=TR	ἔχῃ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἔχῃ		to have	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=25 043	JOH	003	016	G2222	W	N-ASF	ζωὴν	life	NA=TR	ζωὴν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ζωὴν		life	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=26 043	JOH	003	016	G166	W	A-ASF	αἰώνιον	eternal.	NA=TR	αἰώνιον.	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	αἰώνιον		eternal	
+*** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json CHECKING: 50.1:1
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=1 050	PHI	001	001	G3972	W	N-NSM-P	παῦλος	Paul	NA=TR	Παῦλος	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	παῦλος		Paul @ Act 7:58	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=2 050	PHI	001	001	G2532	W	CONJ	καὶ	and	NA=TR	καὶ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		and	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=3 050	PHI	001	001	G5095	W	N-NSM-P	τιμόθεος	Timothy,	NA=TR	Τιμόθεος	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τιμόθεος		Timothy @ Act 16:1	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=4 050	PHI	001	001	G1401	W	N-NPM	δοῦλοι	servants	NA=TR	δοῦλοι	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δοῦλοι		slaves	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=5 050	PHI	001	001	G5547	W	N-GSM-T	χριστοῦ	of Christ	NA=TR	Χριστοῦ	NA27+NA28+SBL+WH+Treg+NIV>1:Tyn+TR+Byz	χριστοῦ		Christ (Jesus) @ Mat 1:1	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=6 050	PHI	001	001	G2424	W	N-GSM-P	ἰησοῦ	Jesus,	NA=TR	Ἰησοῦ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἰησοῦ		Jesus @ Mat 1:1	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=7 050	PHI	001	001	G3956	W	A-DPM	πᾶσιν	To all	NA=TR	πᾶσιν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πᾶσιν		all	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=8 050	PHI	001	001	G3588	W	T-DPM	τοῖς	the	NA=TR	τοῖς	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῖς		the	»018:G40
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=9 050	PHI	001	001	G40	W	A-DPM	ἁγίοις	saints	NA=TR	ἁγίοις	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἁγίοις		holy (saint/believer)	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=10 050	PHI	001	001	G1722	W	PREP	ἐν	in	NA=TR	ἐν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		in	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=11 050	PHI	001	001	G5547	W	N-DSM-T	χριστῷ	Christ	NA=TR	Χριστῷ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	χριστῷ		Christ (Jesus) @ Mat 1:1	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=12 050	PHI	001	001	G2424	W	N-DSM-P	ἰησοῦ	Jesus	NA=TR	Ἰησοῦ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἰησοῦ		Jesus @ Mat 1:1	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=13 050	PHI	001	001	G3588	W	T-DPM	τοῖς	who	NA=TR	τοῖς	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῖς		[those] which	»028:G1510
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=14 050	PHI	001	001	G1510	W	V-PAP-DPM	οὖσιν	are being	NA=TR	οὖσιν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	οὖσιν		to be	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=15 050	PHI	001	001	G1722	W	PREP	ἐν	in	NA=TR	ἐν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		in	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=16 050	PHI	001	001	G5375	W	N-DPM-L	φιλίπποις	Philippi,	NA=TR	Φιλίπποις	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	φιλίπποις		Philippi @ Act 16:12	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=17 050	PHI	001	001	G4862	W	PREP	σὺν	with	NA=TR	σὺν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	σὺν		with	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=18 050	PHI	001	001	G1985	W	N-DPM	ἐπισκόποις	[the] overseers	NA=TR	ἐπισκόποις	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐπισκόποις		overseer	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=19 050	PHI	001	001	G2532	W	CONJ	καὶ	and	NA=TR	καὶ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		and	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=20 050	PHI	001	001	G1249	W	N-DPM	διακόνοις	deacons:	NA=TR	διακόνοις·	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	διακόνοις		servant	
+*** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json CHECKING: 60.1:1
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=1 060	1PE	001	001	G4074	W	N-NSM-P	πέτρος	Peter,	NA=TR	Πέτρος	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πέτρος		Peter @ Mat 4:18	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=2 060	1PE	001	001	G652	W	N-NSM	ἀπόστολος	an apostle	NA=TR	ἀπόστολος	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀπόστολος		apostle	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=3 060	1PE	001	001	G2424	W	N-GSM-P	ἰησοῦ	of Jesus	NA=TR	Ἰησοῦ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἰησοῦ		Jesus @ Mat 1:1	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=4 060	1PE	001	001	G5547	W	N-GSM-T	χριστοῦ	Christ,	NA=TR	Χριστοῦ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	χριστοῦ		Christ (Jesus) @ Mat 1:1	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=5 060	1PE	001	001	G1588	W	A-DPM	ἐκλεκτοῖς	To [the] elect	NA=TR	ἐκλεκτοῖς	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐκλεκτοῖς		select	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=6 060	1PE	001	001	G3927	W	A-DPM	παρεπιδήμοις	sojourners	NA=TR	παρεπιδήμοις	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	παρεπιδήμοις		stranger	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=7 060	1PE	001	001	G1290	W	N-GSF	διασπορᾶς	of [the] Dispersion	NA=TR	διασπορᾶς	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	διασπορᾶς		dispersion	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=8 060	1PE	001	001	G4195	W	N-GSM-L	πόντου	of Pontus,	NA=TR	Πόντου,	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	πόντου		Pontus @ Act 2:9	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=9 060	1PE	001	001	G1053	W	N-GSF-L	γαλατίας	Galatia,	NA=TR	Γαλατίας,	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	γαλατίας		Galatia @ Act 16:6	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=10 060	1PE	001	001	G2587	W	N-GSF-L	καππαδοκίας	Cappadocia,	NA=TR	Καππαδοκίας,	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καππαδοκίας		Cappadocia @ Act 2:9	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=11 060	1PE	001	001	G773	W	N-GSF-L	ἀσίας	Asia,	NA=TR	Ἀσίας,	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀσίας		Asia @ Act 2:9	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=12 060	1PE	001	001	G2532	W	CONJ	καὶ	and	NA=TR	καὶ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		and	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=13 060	1PE	001	001	G978	W	N-GSF-L	βιθυνίας	Bithynia,	NA=TR	Βιθυνίας,	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	βιθυνίας		Bithynia @ Act 16:7	
+*** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json CHECKING: 66.1:1
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=1 066	REV	001	001	G602	W	N-NSF	ἀποκάλυψις	[The] revelation	NA=TR	Ἀποκάλυψις	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀποκάλυψις		revelation	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=2 066	REV	001	001	G2424	W	N-GSM-P	ἰησοῦ	of Jesus	NA=TR	Ἰησοῦ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἰησοῦ		Jesus @ Mat 1:1	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=3 066	REV	001	001	G5547	W	N-GSM-T	χριστοῦ	Christ,	NA=TR	Χριστοῦ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	χριστοῦ		Christ (Jesus) @ Mat 1:1	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=4 066	REV	001	001	G3739	W	R-ASF	ἣν	which	NA=TR	ἣν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἣν		which	»010:G1325
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=5 066	REV	001	001	G1325	W	V-AAI-3S	ἔδωκεν	gave	NA=TR	ἔδωκεν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἔδωκεν		to give	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=6 066	REV	001	001	G846	W	P-DSM	αὐτῷ	to him	NA=TR	αὐτῷ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	αὐτῷ		to him	»010:G1325
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=7 066	REV	001	001	G3588	W	T-NSM	ὁ	(the)	NA=TR	ὁ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ὁ		the	»016:G2316
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=8 066	REV	001	001	G2316	W	N-NSM	θεὸς	God,	NA=TR	θεὸς	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	θεὸς		God	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=9 066	REV	001	001	G1166	W	V-AAN	δεῖξαι	to show	NA=TR	δεῖξαι	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δεῖξαι		to show	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=10 066	REV	001	001	G3588	W	T-DPM	τοῖς	to the	NA=TR	τοῖς	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῖς		the	»022:G1401
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=11 066	REV	001	001	G1401	W	N-DPM	δούλοις	bond-servants	NA=TR	δούλοις	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δούλοις		slave	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=12 066	REV	001	001	G846	W	P-GSM	αὐτοῦ	of Him	NA=TR	αὐτοῦ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	αὐτοῦ		his	«022:G1401
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=13 066	REV	001	001	G3739	W	R-APN	ἃ	what things	NA=TR	ἃ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἃ		what	»028:G1210
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=14 066	REV	001	001	G1210	W	V-PAI-3S	δεῖ	it behooves	NA=TR	δεῖ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δεῖ		to bind	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=15 066	REV	001	001	G1096	W	V-2ADN	γενέσθαι	to take place	NA=TR	γενέσθαι	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	γενέσθαι		to be	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=16 066	REV	001	001	G1722	W	PREP	ἐν	in	NA=TR	ἐν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐν		in	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=17 066	REV	001	001	G5034	W	N-DSN	τάχει	quickness.	NA=TR	τάχει	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τάχει		quickness	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=18 066	REV	001	001	G2532	W	CONJ	καὶ	And	NA=TR	καὶ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	καὶ		and	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=19 066	REV	001	001	G4591	W	V-AAI-3S	ἐσήμανεν	He signified [it],	NA=TR	ἐσήμανεν	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἐσήμανεν		to signify	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=20 066	REV	001	001	G649	W	V-AAP-NSM	ἀποστείλας	having sent	NA=TR	ἀποστείλας	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀποστείλας		sending	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=21 066	REV	001	001	G1223	W	PREP	διὰ	through	NA=TR	διὰ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	διὰ		through	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=22 066	REV	001	001	G3588	W	T-GSM	τοῦ	the	NA=TR	τοῦ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		the	»046:G32
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=23 066	REV	001	001	G32	W	N-GSM	ἀγγέλου	angel	NA=TR	ἀγγέλου	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἀγγέλου		angel	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=24 066	REV	001	001	G846	W	P-GSM	αὐτοῦ	of Him,	NA=TR	αὐτοῦ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	αὐτοῦ		his	«046:G32
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=25 066	REV	001	001	G3588	W	T-DSM	τῷ	to the	NA=TR	τῷ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τῷ		the	»052:G1401
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=26 066	REV	001	001	G1401	W	N-DSM	δούλῳ	servant	NA=TR	δούλῳ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	δούλῳ		slave	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=27 066	REV	001	001	G846	W	P-GSM	αὐτοῦ	of Him,	NA=TR	αὐτοῦ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	αὐτοῦ		of him	«052:G1401
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=28 066	REV	001	001	G2491	W	N-DSM-P	ἰωάννῃ	John,	NA=TR	Ἰωάννῃ,	NA27+NA28+Tyn+SBL+Treg+TR+Byz+NIV;WH	ἰωάννῃ; ἰωάνει		John @ Mat 4:21	
 *** AION: INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json CHECKING: 66.22:21
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G3588	W	T-NSF	ἡ	The	NA=TR	Ἡ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἡ		the	»004:G5485
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G5485	W	N-NSF	χάρις	grace	NA=TR	χάρις	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	χάρις		grace	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G3588	W	T-GSM	τοῦ	of the	NA=TR	τοῦ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		the	»008:G2962
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G2962	W	N-GSM	κυρίου	Lord	NA=TR	κυρίου	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	κυρίου		lord (God)	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G1473	W	P-1GP	ημῶν	of us	KJV	ημῶν	TR	ημῶν		to us	«008:G2962
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G2424	W	N-GSM-P	ἰησοῦ	Jesus	NA=TR	Ἰησοῦ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἰησοῦ		Jesus @ Mat 1:1	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G5547	W	N-GSM-T	χριστοῦ	Christ	KJV	Χριστοῦ	WH+TR+Byz	χριστοῦ		Christ (Jesus) @ Mat 1:1	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G3326	W	PREP	μετὰ	[be] with	NA=TR	μετὰ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μετὰ		with	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G3956	W	A-GPM	πάντων	all	NA=TR	πάντων	NA27+NA28+SBL+TR+Byz+ESV	πάντων		all	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G3588	W	T-GPM	τῶν	(the)	KJV+	τῶν	Tyn+WH+Treg+Byz+NIV	τῶν		the	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G40	W	A-GPM	ἁγίων	saints	KJV+	ἁγίων.	Tyn+WH+Treg+Byz+NIV	ἁγίων	|VM VS TR = ὑμῶν = "of you." = G4771 = P-2GP	holy (saint/believer)	
-INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json 066	REV	022	021	G281	W	INJ-HEB	ἀμήν	Amen.	KJV+	ἀμήν.	Tyn+TR+Byz+ESV+NIV	ἀμήν		amen	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=1 066	REV	022	021	G3588	W	T-NSF	ἡ	The	NA=TR	Ἡ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἡ		the	»004:G5485
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=2 066	REV	022	021	G5485	W	N-NSF	χάρις	grace	NA=TR	χάρις	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	χάρις		grace	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=3 066	REV	022	021	G3588	W	T-GSM	τοῦ	of the	NA=TR	τοῦ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	τοῦ		the	»008:G2962
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=4 066	REV	022	021	G2962	W	N-GSM	κυρίου	Lord	NA=TR	κυρίου	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	κυρίου		lord (God)	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=5 066	REV	022	021	G1473	W	P-1GP	ημῶν	of us	KJV	ημῶν	TR	ημῶν		to us	«008:G2962
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=6 066	REV	022	021	G2424	W	N-GSM-P	ἰησοῦ	Jesus	NA=TR	Ἰησοῦ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	ἰησοῦ		Jesus @ Mat 1:1	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=7 066	REV	022	021	G5547	W	N-GSM-T	χριστοῦ	Christ	KJV	Χριστοῦ	WH+TR+Byz	χριστοῦ		Christ (Jesus) @ Mat 1:1	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=8 066	REV	022	021	G3326	W	PREP	μετὰ	[be] with	NA=TR	μετὰ	NA27+NA28+Tyn+SBL+WH+Treg+TR+Byz+NIV	μετὰ		with	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=9 066	REV	022	021	G3956	W	A-GPM	πάντων	all	NA=TR	πάντων	NA27+NA28+SBL+TR+Byz+ESV	πάντων		all	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=10 066	REV	022	021	G3588	W	T-GPM	τῶν	(the)	KJV+	τῶν	Tyn+WH+Treg+Byz+NIV	τῶν		the	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=11 066	REV	022	021	G40	W	A-GPM	ἁγίων	saints	KJV+	ἁγίων.	Tyn+WH+Treg+Byz+NIV	ἁγίων	|VM VS TR = ὑμῶν = "of you." = G4771 = P-2GP	holy (saint/believer)	
+INDEX_TAG_CHECKER ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json howmany=12 066	REV	022	021	G281	W	INJ-HEB	ἀμήν	Amen.	KJV+	ἀμήν.	Tyn+TR+Byz+ESV+NIV	ἀμήν		amen	
 *** AION: GREEK ../www-stage/library/stepbible/Greek_Tagged_Text_Index.json
 *** AION: WARN! COUNT_REF_CHECKER  count mismatch (Greek strong+strong with meaning strong refs doubled?) for G1065: 34 != 33
 *** AION: WARN! COUNT_REF_CHECKER  count mismatch (Greek strong+strong with meaning strong refs doubled?) for G1161: 3023 != 3022
