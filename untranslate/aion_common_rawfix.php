@@ -2462,6 +2462,7 @@ goto RAWHIDE;
 
 
 
+
 // RAWFIX BIBLE ********************
 case "Holy-Bible---English---Free-Bible-Version" :
 $textfix = <<<EOF
@@ -12808,6 +12809,60 @@ Revelation of John 21:27 In vanje ne vnide nič nizkega, ne kar dela gnjusobo in
 Revelation of John 22:1 
 EOF;
 if (!($bfile = preg_replace("/Revelation of John 21:25 (.+?)Revelation of John 22:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Spanish---Free-Bible" :
+$textfix = <<<EOF
+JER 4:31 Oigo los gritos de una mujer que está dando a luz, los gemidos agónicos de una mujer que da a luz a su primer hijo. Son los gritos de la Hija de Sión, que jadea y extiende las manos diciendo: “¡Por favor, ayúdenme, me están matando!”
+JER 5:1 Ve a todas partes por las calles de Jerusalén. Busca y presta atención. Busca por todas las plazas de su ciudad a ver si encuentras aunque sea una sola persona que haga lo correcto, alguien que sea fiel, y yo perdonaré a la ciudad.
+JER 5:2 Pueden hacer promesas en mi nombre, pero no son sinceras.
+JER 5:3 Señor, ¿no buscas siempre la fidelidad? Los derrotaste, pero no les importó. Estuviste a punto de destruirlos, pero se negaron a aceptar tu disciplina. Eran tercos, duros como una roca, y no se arrepentían.
+JER 5:4 Entonces me dije: “Esta gente no es más que los pobres; son sólo tontos que no conocen nada mejor. Ciertamente no saben lo que quiere el Señor, la manera correcta de vivir de Dios.
+JER 5:5 Déjame ir a hablar con los que mandan. Ellos seguramente sabrán lo que quiere el Señor, la forma correcta de vivir de Dios”. Pero todos habían roto también el yugo, y arrancado las cadenas.
+JER 5:6 Como resultado, un león del bosque los atacará; un lobo del desierto los desgarrará. Un leopardo los acechará cerca de sus ciudades, listo para despedazar a cualquiera que salga. Porque no dejan de rebelarse y se alejan de mí tantas veces.
+JER 5:7 ¿Por qué habría de perdonarlos? Tus hijos me han abandonado y creen en dioses que no son dioses. Les he dado todo lo que necesitan, y sin embargo han ido a cometer adulterio, reuniéndose en casas de prostitutas.
+JER 5:8 Son como sementales viriles con ganas de sexo, cada uno de ellos relinchando de lujuria tras la mujer de su vecino.
+JER 5:9 ¿No debería yo castigarlos por todo esto? declara el Señor. ¿No debo tomar represalias por lo que ha hecho esta nación?
+JER 5:10 Atraviesa sus viñedos y destrúyelos, pero no los destruyas por completo. Arranca sus ramas, porque no le pertenecen al Señor.
+JER 5:11 El pueblo de Israel y de Judá me ha traicionado completamente, declara el Señor.
+JER 5:12 Han mentido acerca del Señor, diciendo: “Él no hará nada. No nos ocurrirá nada malo. No tendremos guerra ni hambre.
+JER 5:13 Los profetas son como el viento. El Señor no habla a través de ellos. Lo que predicen puede ocurrirles a ellos”.
+JER 5:14 Esta es la respuesta del Señor Dios Todopoderoso: Por lo que has dicho, haré que mis palabras sean como un fuego en tu boca y que tú seas como la leña que quema.
+JER 5:15 ¡Mira! Traigo una nación de muy lejos para atacarte, pueblo de Israel, declara el Señor. Es una nación poderosa que existe desde hace mucho tiempo; es una nación cuya lengua no conoces, y cuando habla no puedes entenderla.
+JER 5:16 Sus flechas traen la muerte; todos ellos son fuertes guerreros.
+JER 5:17 Consumirán tu cosecha y tu comida; destruirán a tus hijos y a tus hijas; se comerán tus rebaños y tus manadas; se alimentarán de tus viñas y de tus higueras. Atacarán y destruirán las ciudades fortificadas en las que tanto confías.
+JER 5:18 Pero ni siquiera en ese momento te destruiré por completo, declara el Señor.
+JER 5:19 Cuando la gente te pregunte, Jeremías, “¿Por qué el Señor, nuestro Dios, nos ha hecho todas estas cosas?”, les dirás: “De la misma manera que ustedes me han abandonado y han servido a dioses extranjeros aquí en su país, así servirán a extranjeros en un país que no es el suyo.”
+JER 5:20 Anuncia esto al pueblo de Jacob y de Judá:
+JER 5:21 Escuchen esto, pueblo necio y estúpido, que tiene ojos y no ve, que tiene oídos y no oye.
+JER 5:22 ¿No tienen miedo de lo que puedo hacer? declara el Señor. ¿No creen que deberían temblar en mi presencia? Yo soy el que puso la orilla como límite del mar, un límite eterno que no puede cruzar. Las olas chocan contra ella, pero no pueden vencerla. Rugen, pero no pueden cruzar la barrera.
+JER 5:23 Pero ustedes tienen una actitud obstinada y rebelde. Me han dejado y se han ido por su propia cuenta.
+JER 5:24 No han pensado ni siquiera en decir: “Debemos apreciar al Señor, nuestro Dios, que envía las lluvias de otoño y primavera en el momento oportuno, que hace que podamos tener una cosecha cada año.”
+JER 5:25 Tus malas acciones te han quitado estos beneficios; tus pecados te han privado de mis bendiciones.
+JER 5:26 Porque hay hombres malvados en mi pueblo. Son como cazadores de pájaros, que vigilan en secreto y esperan atrapar a la gente en su trampa.
+JER 5:27 Sus casas están llenas de sus ganancias mal habidas, como jaulas llenas de pájaros. Por eso se han hecho poderosos y ricos.
+JER 5:28 Han engordado y se han hecho expertos en el mal. Niegan la justicia a los huérfanos, y no defienden los derechos de los necesitados.
+JER 5:29 ¿No debería yo castigarlos por todo esto? declara el Señor. ¿No debo tomar represalias por lo que ha hecho esta nación?
+JER 5:30 Algo horrible, algo terrible ha ocurrido en este país.
+JER 5:31 Los profetas dan falsas profecías; los sacerdotes gobiernan a su antojo. Mi pueblo lo quiere así, pero ¿qué hará cuando todo se derrumbe?
+JER 6:1 
+EOF;
+if (!($bfile = preg_replace("/JER 4:31 (.+?)JER 6:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JER 52:28 Este es un registro del número de personas que Nabucodonosor llevó al exilio. En el séptimo año de su reinado se llevó a judíos.
+JER 52:29 En su decimoctavo año, Nabucodonosor se llevó a otros 832 de Jerusalén.
+JER 52:30 En el año veintitrés del reinado de Nabucodonosor, Nabuzaradán, el comandante de la guardia, se llevó a otros 745 judíos, haciendo un total de 600.
+JER 52:31 En el año en que Evil-merodac se convirtió en rey de Babilonia, liberó a Joaquín, rey de Judá, de la prisión. Esto sucedió el día veinticinco del duodécimo mes del trigésimo séptimo año del destierro de Joaquín, rey de Judá.
+JER 52:32 El rey de Babilonia lo trató bien y le dio una posición de honor superior a la de los otros reyes que estaban con él en Babilonia.
+JER 52:33 Así, Joaquín pudo quitarse la ropa de la cárcel y comió con frecuencia en la mesa del rey durante el resto de su vida.
+JER 52:34 El rey le dio a Joaquín una pensión diaria por el resto de su vida hasta que murió.
+HOS 1:1 
+EOF;
+if (!($bfile = preg_replace("/JER 52:28 (.+?)HOS 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
