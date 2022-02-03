@@ -38,7 +38,6 @@ echo
 echo "*** MAGA Index Build ***"
 ./aion_5_index.sh 2>&1 > aion_5_index.sh.aionian.out
 diff ./aion_diffout/aion_5_index.sh.aionian.out aion_5_index.sh.aionian.out 2>&1 | tee aion_5_index.sh.diff.aionian.out
-yes | cp ./aion_customize_index/index.php		../www-stage
 
 echo
 echo "*** MAGA Spell Check ***"

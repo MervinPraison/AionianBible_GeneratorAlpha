@@ -540,7 +540,7 @@ NumberOfPages: 216
 NumberOfPages: 238
 *** AION: SUCCESS MAKE DEBUG HTM ../www-stage/library/Holy-Bible---Vwanji---Vwanji-Bible.php
 *** AION: LOOP DONE! Function=AION_LOOP_HTMS_DOIT Files processed=216
-*** AION: DONE! index.php auth() turned ON: ../www-stage/index.php
+*** AION: DONE! index.php auth() turned OFF: ../www-stage/index.php
 *** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Albanian---AB-StudyPack.zip
 *** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Amo---AB-StudyPack.zip
 *** AION: AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---Arabic---AB-StudyPack.zip

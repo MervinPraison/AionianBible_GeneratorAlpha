@@ -12,7 +12,7 @@ AION_LOOP_HTMS('../www-stageresources', '../www-stage/library', '../www-producti
 
 /*** install index ***/
 AION_INSTALL_INDEX('../www-stage');
-AION_INSTALL_INDEX_AUTH_TO_ON('../www-stage/index.php' );
+AION_INSTALL_INDEX_UPDATED(	'../www-stage/index.php');
 
 /*** database ***/
 $database = array();

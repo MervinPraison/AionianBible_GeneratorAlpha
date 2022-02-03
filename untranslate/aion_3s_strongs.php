@@ -1865,7 +1865,8 @@ function AION_NEWSTRONGS_USAGE_REF($test, $references, $file, $file_index) {
 		if (!isset($chapters[$book])) {															AION_ECHO("ERROR! $newmess book chapter index not found\n".print_r($line,TRUE)); }
 		$indx = $chapters[$book] + $chap - 1; // calculate the byte index to the chapter number to mark the string, 0 = gen 1
 		if (!isset($usage[$strg]['USAGE'][$indx])) {											AION_ECHO("ERROR! $newmess book chapter index usage not set\n".print_r($line,TRUE)); }
-		$usage[$strg]['USAGE'][$indx] = 'X';
+		// usage for a bald strongs number INCLUDES the usage of the strongs extended!!!
+		$usage[$strg]['USAGE'][$indx] = 'X'; 
 		if ($extn != $strg) {
 			if (!isset($usage[$extn]['USAGE'][$indx])) {										AION_ECHO("ERROR! $newmess book chapter index usage not set\n".print_r($line,TRUE)); }
 			$usage[$extn]['USAGE'][$indx] = 'X';

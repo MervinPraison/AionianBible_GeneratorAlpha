@@ -1,6 +1,6 @@
 # File Name: RAWCHECK.txt
-# File Size: 3166932     
-# File Date: 01/29/2022 18:00:26
+# File Size: 3166589     
+# File Date: 02/02/2022 22:48:29
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: http://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022
@@ -1434,7 +1434,6 @@ Holy-Bible---English---Family-35-NT	045	ROM	014	026	DELETE	—to the only wise G
 Holy-Bible---English---Family-35-NT	045	ROM	016	025	ADD	Now to Him who has power to establish you according to my Gospel and the proclamation of Jesus Christ, according to the revelation of the mystery kept secret through long ages,	
 Holy-Bible---English---Family-35-NT	045	ROM	016	026	ADD	but now revealed and made known through the prophetic Scriptures, according to the command of the eternal God, with a view to obedience of faith among all ethnic nations	
 Holy-Bible---English---Family-35-NT	045	ROM	016	027	ADD	—to the only wise God, through Jesus Christ—to Him be the glory forever! Amen.	
-Holy-Bible---English---Free-Bible-Version	024	JER	003	007	MODIFY	I hoped that after she'd done all this she'd come back to me. But she didn't come back, and her unfaithful sister Judah saw what happened.	1 hoped that after she'd done all this she'd come back to me. But she didn't come back, and her unfaithful sister Judah saw what happened.
 Holy-Bible---English---Geneva-Bible	010	2SA	001	026	MODIFY	Wo is me for thee, my brother Ionathan: very kinde hast thou bene vnto me: thy loue to me was wonderfull, passing the loue of women:	Wo is me for thee, my brother Ionathan: very kinde hast thou bene vnto me: thy loue to me was wonderfull, passing the loue of women: howe are the mightie ouerthrowen, and the weapons of warre destroyed!
 Holy-Bible---English---Geneva-Bible	010	2SA	001	027	ADD	howe are the mightie ouerthrowen, and the weapons of warre destroyed!	
 Holy-Bible---English---Geneva-Bible	017	EST	002	022	MODIFY	And the thing was knowen to Mordecai, and he tolde it vnto Queene Ester, and Ester certified the King thereof in Mordecais name:	And the thing was knowen to Mordecai, and he tolde it vnto Queene Ester, and Ester certified the King thereof in Mordecais name: and when inquisition was made, it was found so: therefore they were both hanged on a tree: and it was written in the booke of the Chronicles before the King.
