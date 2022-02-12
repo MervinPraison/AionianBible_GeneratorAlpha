@@ -1,10 +1,12 @@
 #!/usr/local/bin/php
 <?php
+require_once('./aion_common.php');
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // INIT
 //$strongs_json_flag = JSON_UNESCAPED_UNICODE;
-$strongs_json_flag = (JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE);
+//$strongs_json_flag = (JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE);
+$strongs_json_flag = (JSON_UNESCAPED_UNICODE);
 $SAVETHECOUNTCHECKER = FALSE;
 
 
@@ -31,6 +33,12 @@ $INPUT_TOTH3 = $FOLDER_SOURCE."TOTHT Job-Sng - Translators OT Hebrew Tagged text
 $INPUT_TOTH4 = $FOLDER_SOURCE."TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt";
 // checks
 $CHECK_BOOK = "CHECK_BOOKS.txt";
+$CHECK_ECSV = "CHECK_EMPTY_STRONGS_CSV.txt";
+$CHECK_EHLX = "CHECK_EMPTY_HEBREW_LEX.txt";
+$CHECK_EHTG = "CHECK_EMPTY_HEBREW_TAG.txt";
+$CHECK_EGLX = "CHECK_EMPTY_GREEK_LEX.txt";
+$CHECK_ELSJ = "CHECK_EMPTY_GREEK_LSJ.txt";
+$CHECK_EGTG = "CHECK_EMPTY_GREEK_TAG.txt";
 $CHECK_FIXS = "CHECK_FIXED.txt";
 $CHECK_HTMG = "CHECK_HTML_GREEK_TBESG.htm";
 $CHECK_HTML = "CHECK_HTML_GREEK_TFLSJ.htm";
@@ -78,8 +86,8 @@ $GREEK_USAGE_DATA = "Greek_Chapter_Usage.txt";
 $GREEK_USAGE_INDX = "Greek_Chapter_Usage_Index.json";
 $GREEK_CHAPS_DATA = "Greek_Chapter_Usage";
 // bible
-$STEPBIBLE_AMA = "./aion_source/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt";
-$STEPBIBLE_CON = "./aion_source/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt";
+$STEPBIBLE_AMA = "../source-stage/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt";
+$STEPBIBLE_CON = "../source-stage/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt";
 
 
 
@@ -206,8 +214,7 @@ $database['WARNINGS']		= "General warnings about formats\n===\n\n";
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // VIZ-STRONGS READ
-AION_NEWSTRONGS_CSV( "$INPUT_VIZBI", ",",'VIZLEX',
-array('STRONGS','WORD','TRANS','PRONOUNCE','DEF','MORPH','LANG'), 'STRONGS', $database);
+AION_NEWSTRONGS_CSV( "$INPUT_VIZBI", ",",'VIZLEX',array('STRONGS','WORD','TRANS','PRONOUNCE','DEF','MORPH','LANG'), 'STRONGS', $database, "$FOLDER_STAGE$CHECK_ECSV");
 // VIZ-STRONGS WRITE
 AION_NEWSTRONGS_FIX_VIZ($database['VIZLEX'],'H','HEBVIZ',$database);
 $commentplus = <<<EOT
@@ -280,11 +287,31 @@ AION_ECHO("VIZ $FOLDER_STAGE$GREEK_VIZBI_INDX");
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // TYNDALE HEBREW READ
 AION_NEWSTRONGS_COD( "$INPUT_TEHMC",'HEBMOR', $database);
-AION_NEWSTRONGS_GET( "$INPUT_TBESH",'H0001	אָב', NULL, NULL, NULL, 'HEBLEX',array('STRONGS','WORD','TRANS','MORPH','GLOSS','DEF',''), $HEBLEX=array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF',''), 'STRONGS', $database, "TBESH");
-AION_NEWSTRONGS_GET( "$INPUT_TOTH1",'Gen.1.1-01	Gen.1.1-01	בְּרֵאשִׁית',	NULL, NULL, NULL, 'HEBRF1', array('','REF','','ACCENTS','MORPH','STRONGS'), NULL, NULL, $database);
-AION_NEWSTRONGS_GET( "$INPUT_TOTH2",'Jos.1.1-01	Jos.1.1-01	וַיְהִי',		NULL, NULL, NULL, 'HEBRF2', array('','REF','','ACCENTS','MORPH','STRONGS'), NULL, NULL, $database);
-AION_NEWSTRONGS_GET( "$INPUT_TOTH3",'Job.1.1-01	Job.1.1-01	אִישׁ',		NULL, NULL, NULL, 'HEBRF3', array('','REF','','ACCENTS','MORPH','STRONGS'), NULL, NULL, $database);
-AION_NEWSTRONGS_GET( "$INPUT_TOTH4",'Isa.1.1-01	Isa.1.1-01	חֲזוֹן',		'Extended Strongs numbers for Prefixes and suffixes:', NULL, NULL, 'HEBRF4', array('','REF','','ACCENTS','MORPH','STRONGS'), NULL, NULL, $database);
+AION_NEWSTRONGS_GET( "$INPUT_TBESH",'H0001	אָב', NULL, NULL, NULL, 'HEBLEX',
+	array('STRONGS','WORD','TRANS','MORPH','GLOSS','DEF',''),
+	array('STRONGS','WORD','TRANS','MORPH','GLOSS','DEF',''), "$FOLDER_STAGE$CHECK_EHLX",
+	$HEBLEX=array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF',''),
+	'STRONGS', $database, "TBESH");
+AION_NEWSTRONGS_GET( "$INPUT_TOTH1",'Gen.1.1-01	Gen.1.1-01	בְּרֵאשִׁית',	NULL, NULL, NULL, 'HEBRF1',
+	array('','REF','','ACCENTS','MORPH','STRONGS'),
+	array('','REF','','ACCENTS','MORPH','STRONGS'), "$FOLDER_STAGE$CHECK_EHTG",
+	NULL,
+	NULL, $database);
+AION_NEWSTRONGS_GET( "$INPUT_TOTH2",'Jos.1.1-01	Jos.1.1-01	וַיְהִי',		NULL, NULL, NULL, 'HEBRF2',
+	array('','REF','','ACCENTS','MORPH','STRONGS'),
+	array('','REF','','ACCENTS','MORPH','STRONGS'), "$FOLDER_STAGE$CHECK_EHTG",
+	NULL,
+	NULL, $database);
+AION_NEWSTRONGS_GET( "$INPUT_TOTH3",'Job.1.1-01	Job.1.1-01	אִישׁ',		NULL, NULL, NULL, 'HEBRF3',
+	array('','REF','','ACCENTS','MORPH','STRONGS'),
+	array('','REF','','ACCENTS','MORPH','STRONGS'), "$FOLDER_STAGE$CHECK_EHTG",
+	NULL,
+	NULL, $database);
+AION_NEWSTRONGS_GET( "$INPUT_TOTH4",'Isa.1.1-01	Isa.1.1-01	חֲזוֹן',		'Extended Strongs numbers for Prefixes and suffixes:', NULL, NULL, 'HEBRF4',
+	array('','REF','','ACCENTS','MORPH','STRONGS'),
+	array('','REF','','ACCENTS','MORPH','STRONGS'), "$FOLDER_STAGE$CHECK_EHTG",
+	NULL,
+	NULL, $database);
 // TYNDALE HEBREW WRITE
 if ( file_put_contents($json="$FOLDER_STAGE$HEBREW_MORPH_DATA",($temp=json_encode($database['HEBMOR'], $strongs_json_flag))) === FALSE ) { AION_ECHO("ERROR! json_encode: ".$json ); }
 unset($temp); $temp=NULL;
@@ -413,13 +440,33 @@ AION_ECHO("HEBREW $FOLDER_STAGE$HEBREW_TBESH_INDX");
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // TYNDALE GREEK READ
 AION_NEWSTRONGS_COD( "$INPUT_TEGMC",'GREMOR', $database, TRUE);
-AION_NEWSTRONGS_GET( "$INPUT_TBESG",'G0001	alpha',	NULL, NULL, NULL, 'GRELEX',array('STRONGS','GLOSS','WORD','TRANS','MORPH','DEF'), $GRELEX=array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF'), 'STRONGS', $database);
-AION_NEWSTRONGS_GET( "$INPUT_TFLS1",'G0001	Ἀλφα',	NULL, NULL, NULL, 'GRELSJ',array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF',''), $GRELSJ=array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF',''), 'STRONGS', $database);
-AION_NEWSTRONGS_GET( "$INPUT_TFLS2",'G6000	ἀγγέλλω',NULL, NULL, NULL,'GRELSJ',array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF',''), $GRELSJ=array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF',''), 'STRONGS', $database);
+AION_NEWSTRONGS_GET( "$INPUT_TBESG",'G0001	alpha',	NULL, NULL, NULL, 'GRELEX',
+	array('STRONGS','GLOSS','WORD','TRANS','MORPH','DEF'),
+	array('STRONGS','GLOSS','WORD','TRANS','','DEF'), "$FOLDER_STAGE$CHECK_EGLX",
+	$GRELEX=array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF'),
+	'STRONGS', $database);
+AION_NEWSTRONGS_GET( "$INPUT_TFLS1",'G0001	Ἀλφα',	NULL, NULL, NULL, 'GRELSJ',
+	array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF',''),
+	array('STRONGS','WORD','TRANS','GLOSS','','DEF',''), "$FOLDER_STAGE$CHECK_ELSJ",
+	$GRELSJ=array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF',''),
+	'STRONGS', $database);
+AION_NEWSTRONGS_GET( "$INPUT_TFLS2",'G6000	ἀγγέλλω',NULL, NULL, NULL,'GRELSJ',
+	array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF',''),
+	array('STRONGS','WORD','TRANS','GLOSS','','DEF',''), "$FOLDER_STAGE$CHECK_ELSJ",
+	$GRELSJ=array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF',''),
+	'STRONGS', $database);
 $thisfind = array("/42_Mrk\.004\.006/us","/44_Jhn\.009\.003/us");
 $thisreplace = array("42_Mrk.004.005","44_Jhn.008.059");
-AION_NEWSTRONGS_GET( "$INPUT_TAGN1",'41_Mat.001.001	=NA same TR ~~	Βίβλος	', NULL, $thisfind, $thisreplace, 'GREREF1',array('REF','TYPE','WORD','ENGLISH','STRONGS','MORPH','','','EDITIONS','SPELLINGS','MEANINGS','','ADDITIONAL','','CONJOIN',''), NULL, NULL, $database);
-AION_NEWSTRONGS_GET( "$INPUT_TAGN2",'45_Act.001.001	=NA same TR ~~	Τὸν	', "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\t", NULL, NULL, 'GREREF2',array('REF','TYPE','WORD','ENGLISH','STRONGS','MORPH','','','EDITIONS','SPELLINGS','MEANINGS','','ADDITIONAL','','CONJOIN',''), NULL, NULL, $database);
+AION_NEWSTRONGS_GET( "$INPUT_TAGN1",'41_Mat.001.001	=NA same TR ~~	Βίβλος	', NULL, $thisfind, $thisreplace, 'GREREF1',
+	array('REF','TYPE','WORD','ENGLISH','STRONGS','MORPH','','','EDITIONS','SPELLINGS','MEANINGS','','ADDITIONAL','','CONJOIN',''),
+	array('REF','TYPE','WORD','ENGLISH','STRONGS','MORPH','','','EDITIONS','SPELLINGS','','','','','',''), "$FOLDER_STAGE$CHECK_EGTG",
+	NULL,
+	NULL, $database);
+AION_NEWSTRONGS_GET( "$INPUT_TAGN2",'45_Act.001.001	=NA same TR ~~	Τὸν	', "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\t", NULL, NULL, 'GREREF2',
+	array('REF','TYPE','WORD','ENGLISH','STRONGS','MORPH','','','EDITIONS','SPELLINGS','MEANINGS','','ADDITIONAL','','CONJOIN',''),
+	array('REF','TYPE','WORD','ENGLISH','STRONGS','MORPH','','','EDITIONS','SPELLINGS','','','','','',''), "$FOLDER_STAGE$CHECK_EGTG",
+	NULL,
+	NULL, $database);
 // TYNDALE GREEK WRITE
 if ( file_put_contents($json="$FOLDER_STAGE$GREEK_MORPH_DATA",($temp=json_encode($database['GREMOR'], $strongs_json_flag))) === FALSE ) { AION_ECHO("ERROR! json_encode: ".$json ); }
 unset($temp); $temp=NULL;
@@ -716,6 +763,25 @@ AION_NEWSTRONGS_STEPBIBLE(
 
 
 
+///////////////////////////////////////////////////////////////////////////////////////////////////
+// COMPARE
+AION_LOOP_DIFF(
+	'../www-stage/library/stepbible',
+ 	'../www-production/library/stepbible',
+	'../diff-strongs-stage-with-production-BEFORE-DEPLOY',
+	'',
+	'/\.(md|txt|json|htm)$/');
+AION_CHECK_DIFF_TWO_FILES(
+	'../source-stage/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt',
+	'../www-resources/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt',
+	'../diff-strongs-stage-with-production-BEFORE-DEPLOY/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt');
+AION_CHECK_DIFF_TWO_FILES(
+	'../source-stage/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt',
+	'../www-resources/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt',
+	'../diff-strongs-stage-with-production-BEFORE-DEPLOY/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt');
+
+
+
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 /*** done ***/
@@ -740,7 +806,7 @@ exit;
 
 
 // Read TAB delimited file
-function AION_NEWSTRONGS_GET($file, $begin, $end, $thisfind, $thisreplace, $table, $keys, $keysord, $key, &$result, $flag=NULL) {
+function AION_NEWSTRONGS_GET($file, $begin, $end, $thisfind, $thisreplace, $table, $keys, $required, $checkfile, $keysord, $key, &$result, $flag=NULL) {
 	$newmess = "GET\t$file";
 	if ( !is_array( $result ) ) {										AION_ECHO("ERROR! $newmess result !is_array() "); }
 	if ( !is_array( $keys ) ) {											AION_ECHO("ERROR! $newmess keys !is_array()"); }
@@ -770,7 +836,7 @@ function AION_NEWSTRONGS_GET($file, $begin, $end, $thisfind, $thisreplace, $tabl
 	$previous = NULL;
 	foreach( $lines as $data ) {
 		++$count;
-		if (empty($data) || $data[0]=='#' || $data[0]=='$') { continue; }
+		if ($data[0]=='#' || $data[0]=='$' || preg_match("#^\s*$#us",$data)) { continue; }
 		$line = $data;
 		$data = mb_split("\t", $data);
 		$count_data = count($data);
@@ -779,7 +845,19 @@ function AION_NEWSTRONGS_GET($file, $begin, $end, $thisfind, $thisreplace, $tabl
 			if ( $count_meta != $count_keys) {							AION_ECHO("ERROR! $newmess line=$count count(meta=$count_meta != count_keys=".count($keys).") line='$line'"); }
 		}
 		if ( !$count_data || $count_meta != $count_data ) {				AION_ECHO("ERROR! $newmess line=$count count(meta=$count_meta != data=$count_data line='$line'"); }
-		for ( $newd = array(), $x = 0; $x < $count_data; $x++ ) {	if (!empty($keys[$x])) { $newd[$keys[$x]] = trim($data[$x]); } }
+		$once = TRUE;
+		for ( $newd = array(), $x = 0; $x < $count_data; $x++ ) {
+			if (!empty($keys[$x])) {
+				$newd[$keys[$x]] = trim($data[$x]);
+				// also check if value is empty
+				if ($once && !empty($required[$x]) && empty($newd[$keys[$x]])) {
+					$temp = implode(",",$data);
+					AION_ECHO("WARN! Empty fields, $table, $temp");
+					if (file_put_contents($checkfile, "$temp\n", FILE_APPEND)===FALSE) {	AION_ECHO("ERROR! file_put_contents($checkfile)"); }
+					$once = FALSE;
+				}
+			}
+		}
 		if (is_array($keysord)) { $newS = array(); foreach( $keysord as $k) { if (!empty($k)) { $newS[$k] = $newd[$k]; } } unset($newd); $newd = $newS; }
 		if ( !$key ) { $result[$table][] = $newd; }
 		else {
@@ -837,6 +915,8 @@ function AION_NEWSTRONGS_GET_FIX($file, $contents, &$result) {
 	// LSJ
 	$contents = preg_replace($reg="#\(From Abbott-Smith\. LSJ has no entry\)=\t#usi","(Abbott-Smith)",$contents,-1,$count); if ($count) { $result['FIXCOUNTS'].="$newmess\t$reg\tabbsmi=$count\n"; }
 	$contents = preg_replace($reg="#\(from Middle LSJ\)=\t#usi","(Middle LSJ)",$contents,-1,$count);				if ($count) { $result['FIXCOUNTS'].="$newmess\t$reg\tmidlsj=$count\n"; }
+	// Javascript
+	$contents = preg_replace($reg="#javascript:void0#usi","javascript:void(0)",$contents,-1,$count);				if ($count) { $result['FIXCOUNTS'].="$newmess\t$reg\tjavavoid0=$count\n"; }
 	// Punctuation
 	$contents = preg_replace($reg="#[([]+[ [:punct:]]*[)\]]+#usi",				" ",	$contents,-1,$count);		if ($count) { $result['FIXCOUNTS'].="$newmess\t$reg\tbracket=$count\n"; }
 	$contents = preg_replace($reg="#[ ]*[ \-—,:;?!.]+[ ]*([,.:;!?]{1})#usi",	'$1',	$contents,-1,$count);		if ($count) { $result['FIXCOUNTS'].="$newmess\t$reg\tpunct=$count\n"; }
@@ -2039,7 +2119,7 @@ function AION_NEWSTRONGS_TAG_INDEX_CHECKER($index_file, $tag_file, $verses) {
 
 
 // Read a CSV file!
-function AION_NEWSTRONGS_CSV($file, $delim, $table, $keys, $key, &$result) {
+function AION_NEWSTRONGS_CSV($file, $delim, $table, $keys, $key, &$result, $checkfile) {
 	$newmess = "CSV($file)";
 	if ( !is_array( $result ) ) {												AION_ECHO("ERROR! $newmess result !is_array()"); }
 	if ( !is_array( $keys ) ) {													AION_ECHO("ERROR! $newmess keys !is_array()"); }
@@ -2058,6 +2138,15 @@ function AION_NEWSTRONGS_CSV($file, $delim, $table, $keys, $key, &$result) {
 	while (($row = fgetcsv($handle, 3000, $delim)) !== FALSE) {
 		++$count;
 		if (count($row) != $kcount) {											AION_ECHO("ERROR! $newmess row key count problem ".print_r($row,TRUE)); }
+		// check for empty fields
+		foreach($row as $element) {
+			if (empty($element)) {
+				$temp = implode(",",$row);
+				AION_ECHO("WARN! Empty fields, $file, $temp");
+				if (file_put_contents($checkfile, "$temp\n", FILE_APPEND)===FALSE) {	AION_ECHO("ERROR! file_put_contents($checkfile)"); }
+				break;
+			}
+		}
 		$newd = array_combine($keys, $row);
 		if ($key && !empty($result[$table][$newd[$key]])) {						AION_ECHO("ERROR! $newmess array key overlap! $key ".$newd[$key]); }
 		else if ($key) {	$result[$table][$newd[$key]] = $newd; }

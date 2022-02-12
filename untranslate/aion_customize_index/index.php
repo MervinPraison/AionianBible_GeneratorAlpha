@@ -5,8 +5,6 @@
 // This is accomplished by using the webpage path/URL to carry the Parallel Bible and StrongsID flags
 // This is also accomplished using javascript functions and onclick events
 // See the javascript functions, onclick events, and the abcms_href() function and usage.
-// AUTHENTICATION, DO NOT CHANGE LINE BELOW, PROGRAMMATICALLY CHANGED
-//aion_auth(); //AUTHENTICATE STAGE YES, PRODUCTION NO
 // EPUB
 $_Path = trim(strtok($_SERVER['REQUEST_URI'],'?'),'/');
 if (!empty($_GET['e'])) {
@@ -15,7 +13,7 @@ if (!empty($_GET['e'])) {
 	exit;
 }
 // DISPATCH
-$_para = $_stid = $_paraC = $_stidC = $_stidN = $_stidX = $_meta = $_SwipePREV = $_SwipeNEXT = NULL;
+$_para = $_stid = $_paraC = $_stidC = $_stidN = $_stidX = $_meta = $_SwipePREV = $_SwipeNEXT = $_BibleSTRONGS = NULL;
 $_Part = array(NULL);
 if ($_Path==='') {										$_meta = " ~ Homepage";										abcms_home(); }
 else if ($_Path==='Preface') {							$_meta = " ~ Preface";										abcms_page('docs/preface.htm'); }
@@ -142,42 +140,6 @@ abcms_tail();
 
 
 
-/*** AUTH ***/
-function aion_auth() {
-session_start();
-if(!empty($_POST['authentication']) && isset($_POST['submit'])) {
-	$authentication = aion_strip($_POST['authentication']);
-	if ($authentication != $_POST['authentication'] ||
-		$_SERVER['REQUEST_METHOD'] != 'POST' ||
-		$_POST['submit'] != 'Submit' ||
-		empty($_POST['csrf']) ||
-		empty($_SESSION['csrf']) ||
-		$_POST['csrf'] != $_SESSION['csrf']) {
-		echo "<BR /> No access permission. Contact Nainoia, Inc for help.";
-		exit;
-	}
-	$_SESSION['authentication'] = password_hash($authentication, PASSWORD_DEFAULT);
-	unset($_SESSION['csrf']);
-}
-if (!empty($_SESSION['authentication'])) {
-	//ABCMS > password_needs_rehash ( string $hash , int $algo [, array $options ] ) : bool
-	if (password_verify('Nainoia-Inc-462', $_SESSION['authentication'])) { return; } // simple password
-	echo "<BR /> No access permission. Contact Nainoia, Inc for help.";
-	unset($_SESSION['authentication']);
-	exit;
-}
-?>
-<BR />
-<form action='/' method='post'>
- <input type='hidden' name='csrf' value='<?php echo ($_SESSION['csrf'] = hash('sha256','AionianBible.org/Authentication'.time().rand())); ?>' />
- <input type='password' name='authentication' />
- <input type='submit' name='submit' value='Submit' />
-</form>
-<?
-exit;
-}
-
-
 
 /*** MAIL ***/
 function abcms_mail() {
@@ -280,7 +242,7 @@ global $_Path, $_Part, $_pnum, $_BibleONE, $_BibleCHAP1, $_BibleCHAP1_Last;
 if ($_pnum < 3 || !empty($subject) || !empty($message)) { return; }
 if ($_pnum > 5 ) { abcms_bomb("/Read","Invalid URL Requested, too many path components"); }
 abcms_word_init();
-abcms_word_init_chap(TRUE);
+abcms_word_init_chap();
 $status = "Submit your proposed corrections";
 $subject = "Proposed corrections to the ".$_BibleONE['T_VERSIONS']['NAMEENGLISH'].", $_Part[2] ";
 $theurl =   "http://www.AionianBible.org/".preg_replace("#Publisher\/#","Bibles/",$_Path);
@@ -442,7 +404,7 @@ if (!empty($_paraC)) {
 /*** WORD INIT CHAP ***/
 function abcms_word_init_chap($quickreturn=FALSE) {
 global $_Part, $_stid, $_paraC;
-global $_BibleONE, $_BibleBOOKS, $_BibleSTRONGS;
+global $_BibleONE, $_BibleBOOKS;
 global $_BibleCHAP1, $_BibleCHAP1_Last, $_BibleCHAP2_Last, $_BibleTWO, $_BibleCHAP2, $_BibleTWO_Lang, $_BibleTWO_xLink;
 if (empty($_BibleONE['T_BOOKS'][$_Part[2]]) || empty($_BibleBOOKS[$_Part[2]]['NUMBER']) || empty($_BibleBOOKS[$_Part[2]]['CODE'])) {
 	if ($quickreturn) { return FALSE; }
@@ -462,7 +424,7 @@ if (0==$_Part[3] || $_Part[3]>(int)$_BibleBOOKS[$_Part[2]]['CHAPTERS']) {
 	abcms_bomb("/Bibles/$_Part[1]","The Bible book chapter requested was not found");
 }
 $_BibleCHAP1 = json_decode(file_get_contents('./library/online/Holy-Bible---'.$_Part[1].'---Aionian-Edition/'.$_BibleBOOKS[$_Part[2]]['NUMBER'].'-'.$_BibleBOOKS[$_Part[2]]['CODE'].'-'.sprintf('%03d', $_Part[3]).'.json'),true);
-if (!is_array($_BibleCHAP1) || empty($_BibleCHAP1)) {
+if (empty($_BibleCHAP1) || !is_array($_BibleCHAP1)) {
 	if ($quickreturn) { return FALSE; }
 	abcms_bomb("/Bibles/$_Part[1]","The Bible chapter is unavailable",TRUE);
 }
@@ -487,24 +449,23 @@ if (!$quickreturn && !empty($_paraC)) {
 	$_BibleTWO_xLink = "<span class='word-tocs word-book notranslate'><a href='$ppath' title='Read and Study Parallel Bible'>".$_BibleTWO['T_VERSIONS']['SHORT']."</a><a href='$bpath' title='Cancel Parallel Bible study' class='navx'><span class='navx'>X</span></a></span>";
 }
 // STRONGS
-if (!$quickreturn && $_stid) {	abcms_word_init_chap_stro((int)$_BibleBOOKS[$_Part[2]]['NUMBER'], $_Part[3]); }
-else {							$_BibleSTRONGS = NULL; }
+if (!$quickreturn && $_stid) {	abcms_word_init_chap_stro((int)$_BibleBOOKS[$_Part[2]]['NUMBER'], $_Part[3], NULL); }
 return TRUE;
 }
 
 
 
 /*** WORD INIT CHAP ***/
-function abcms_word_init_chap_stro($bnum, $chap) {
+function abcms_word_init_chap_stro($bnum, $chap, $vers) {
 global $_BibleSTRONGS;
 $fd = NULL;
 $indx = ($bnum<40 ? './library/stepbible/Hebrew_Tagged_Text_Index.json'	: './library/stepbible/Greek_Tagged_Text_Index.json');
 $file = ($bnum<40 ? './library/stepbible/Hebrew_Tagged_Text.txt'		: './library/stepbible/Greek_Tagged_Text.txt');
-if (!($json = file_get_contents($indx)) ||
-	NULL===($json = json_decode($json,true)) ||
-	empty($json["$bnum.$chap:1"]) ||
+$keys = "$bnum.$chap:".($vers===NULL ? 1 : $vers);
+if (!($json = json_decode(file_get_contents($indx),true)) ||
+	!isset($json[$keys]) ||
 	!($fd=fopen($file, 'r')) ||
-	fseek($fd, $json["$bnum.$chap:1"])) {
+	fseek($fd, $json[$keys])) {
 		if ($fd) { fclose($fd); }
 		abcms_errs("abcms_word_init_chap_stro() strongs bible chapter lines not opened!");
 		$_BibleSTRONGS = NULL;
@@ -512,19 +473,34 @@ if (!($json = file_get_contents($indx)) ||
 }
 $_BibleSTRONGS = array();
 while(($line=fgets($fd))) {
-	if (!preg_match("#^([[:digit:]]+)\t([[:alnum:]]+)\t([[:digit:]]+)\t([[:digit:]]+)\t([GH]{1}[\d]{1,5}[a-z]{0,1})\t#u",$line,$match)) {
+	$line = rtrim($line,"\r\n");
+	if (!($parts = mb_split("\t", $line)) ||
+		($bnum<=39 && count($parts)!=11) ||
+		($bnum>=40 && count($parts)!=16) ||
+		empty($parts[0]) ||
+		empty($parts[2]) ||
+		empty($parts[3]) ||
+		!preg_match("#^([GH]{1}[\d]{1,5})([a-z]{0,1})$#ui",$parts[4],$match)) {
 		fclose($fd);
-		abcms_errs("abcms_word_init_chap_stro() strongs bible chapter lines corrupt! $line");
+		abcms_errs("abcms_word_init_chap_stro() strongs bible chapter tag lines corrupt! $line");
 		$_BibleSTRONGS = NULL;
 		return;		
 	}
-	if ((int)$match[1] != $bnum || (int)$match[3] != $chap) { break; }
-	$_BibleSTRONGS[(int)$match[4]][strtolower($match[5])] = TRUE;
+	// done with book, chapter, or verse
+	if ((int)$parts[0] != $bnum || (int)$parts[2] != $chap || ($vers!==NULL && (int)$parts[3] != $vers)) { break; }
+	// contains whole chapter of strongs usage!
+	$parts[4] = strtolower($parts[4]);
+	if ($vers===NULL) {
+		$_BibleSTRONGS[(int)$parts[3]][$parts[4]] = TRUE; // flag strong extended always
+		if (!empty($match[2])) { $_BibleSTRONGS[(int)$parts[3]][strtolower($match[1])] = TRUE; } // flag bald strongs if needed
+		continue;
+	}
+	// -OR- contains whole verse of strongs tags!
+	$_BibleSTRONGS[] = $parts;
 }
 fclose($fd);
 if (empty($_BibleSTRONGS)) {
-	abcms_errs("abcms_word_init_chap_stro() strongs bible chapter lines not found!");
-	$_BibleSTRONGS = NULL;
+	abcms_errs("abcms_word_init_chap_stro() strongs bible chapter lines not found! $indx, $file, $bnum, $chap, $vers");
 }
 return;
 }
@@ -727,27 +703,36 @@ for($x = $cindex[$bookkey] + $chapter - 2; $x >= 0 && isset($schap[$x]); --$x) {
 
 
 
+/*** READ INDEX AND LINE ***/
+function abcms_read_indx_line($data=NULL, $indx=NULL, $key=NULL) {
+static $fd = NULL; static $cache = NULL; // static!
+if ($cache===NULL) { $fd = $cache = array(); } // init?
+if (!$data) { foreach($fd as $x) { fclose($x); } $fd = $cache = NULL; return TRUE; } // fclose?
+if (isset($cache[$data.$indx][$key])) { return $cache[$data.$indx][$key]; } // cache?
+$cache[$data.$indx][$key] = FALSE; // init!
+if (!isset($cache[$indx]) && !($cache[$indx]=json_decode(file_get_contents($indx),true))) {		abcms_errs("abcms_read_indx_line() index not opened: $data $indx $key");		return NULL; } // index?
+if (!isset($cache[$indx][$key])) {																abcms_errs("abcms_read_indx_line() index key missing: $data $indx $key");		return NULL; } // key?
+if (!isset($fd[$data]) && !($fd[$data]=fopen($data, 'r'))) {									abcms_errs("abcms_read_indx_line() data not opened: $data $indx $key");			return NULL; } // data?
+if (fseek($fd[$data], $cache[$indx][$key])) {													abcms_errs("abcms_read_indx_line() index offset missing: $data $indx $key");	return NULL; } // seek?
+if (!($line=fgets($fd[$data]))) {																abcms_errs("abcms_read_indx_line() data not read: $data $indx $key");			return NULL; } // read?
+if (!($line = rtrim($line,"\r\n")) || !($cache[$data.$indx][$key] = mb_split("\t", $line))) {	abcms_errs("abcms_read_indx_line() data not parsed: $data $indx $key");			return NULL; } // parse?
+return ($cache[$data.$indx][$key]); // done!
+}
+
+
+
 /*** TOC STRONGS INDEX ***/
 function abcms_word_tocs_stro_index($sid) {
-$indx = ($sid[0]==='h' ? './library/stepbible/Hebrew_Chapter_Usage_Index.json'	: './library/stepbible/Greek_Chapter_Usage_Index.json');
-$file = ($sid[0]==='h' ? './library/stepbible/Hebrew_Chapter_Usage.txt'			: './library/stepbible/Greek_Chapter_Usage.txt');
-$numb = (string)intval(substr($sid,1));
-$fd = $schp[2] = NULL;
-if (!($json = file_get_contents($indx)) ||
-	NULL===($json = json_decode($json,true)) ||
-	empty($json[$numb]) ||
-	!($fd=fopen($file, 'r')) ||
-	fseek($fd, $json[$numb]) ||
-	!($line=fgets($fd)) ||
-	!preg_match("#^([^\t]+)\t([^\t]+)$#",$line,$schp) ||
-	$numb != $schp[1] ||
-	($sid[0]==='h' && strlen($schp[2])!=930) ||
-	($sid[0]==='g' && strlen($schp[2])!=261)) {
-	abcms_errs("abcms_word_tocs_stro_index() requested Strongs chapter data file not found or corrupted! sid=$sid");
-	$schp[2] = NULL;
+$fields = abcms_read_indx_line(
+	($sid[0]==='h' ? './library/stepbible/Hebrew_Chapter_Usage.txt'			: './library/stepbible/Greek_Chapter_Usage.txt'),
+	($sid[0]==='h' ? './library/stepbible/Hebrew_Chapter_Usage_Index.json'	: './library/stepbible/Greek_Chapter_Usage_Index.json'),
+	($numb = substr($sid,1)));
+if (!isset($fields[0]) || !isset($fields[1]) || $numb != $fields[0] || (strlen($fields[1]) != ($sid[0]==='h' ? 929 : 260))) {
+	abcms_errs("abcms_word_tocs_stro_index() requested Strongs chapter data not found or corrupted! sid=$sid");
+	$fields = array(NULL,NULL);
 }
-if ($fd) { fclose($fd); }
-return($schp[2]);
+abcms_read_indx_line();
+return($fields[1]);
 }
 
 
@@ -1037,7 +1022,7 @@ abcms_tail();
 /*** WORD CHAP STRONGS ***/
 function abcms_word_chap_stro($x) {
 global $_BibleSTRONGS, $_stidC;
-if (empty($_BibleSTRONGS[$x][$_stidC])) { return NULL; }
+if (!isset($_BibleSTRONGS[$x][$_stidC])) { return NULL; }
 return 'strongs';
 }
 
@@ -1046,7 +1031,7 @@ return 'strongs';
 /*** WORD VERS ***/
 function abcms_word_vers() {
 global $_Part, $_Path;
-global $_BibleONE, $_BibleONE_Lang, $_BibleBOOKS;
+global $_BibleONE, $_BibleONE_Lang, $_BibleBOOKS, $_BibleSTRONGS;
 global $_BibleCHAP1, $_BibleCHAP1_Last, $_BibleCHAP2_Last, $_BibleTWO, $_BibleCHAP2, $_BibleTWO_Lang;
 abcms_word_init();
 abcms_word_init_chap();
@@ -1054,11 +1039,7 @@ if (!ctype_digit($_Part[4]) || (int)$_Part[4]<1 || (int)$_Part[4]>$_BibleCHAP1_L
 	abcms_bomb("/Bibles/$_Part[1]","The Bible book chapter verse requested was not found");
 }
 $_Part[4] = intval($_Part[4]);
-$bible_VERSE = json_decode(file_get_contents('./library/strongs/'.$_BibleBOOKS[$_Part[2]]['NUMBER'].'-'.$_BibleBOOKS[$_Part[2]]['CODE'].'-'.sprintf('%03d', $_Part[3]).'.json'),true);
-if (!is_array($bible_VERSE) || empty($bible_VERSE)) {
-	abcms_bomb("/Bibles/$_Part[1]","The Bible book chapter verse is unavailable",TRUE);
-}
-abcms_html(TRUE,'class=word-read');
+abcms_html(TRUE,'class=word-read','true');
 abcms_head(abcms_word_menu('vers'));
 // VERSE
 $rtl = (empty($_BibleONE['T_VERSIONS']['RTL']) ? FALSE : TRUE);
@@ -1084,29 +1065,33 @@ else {
 	else {		echo "<div class='word-para'><span class='word-text'><span class='word-verse'>$x </span>$verse_number$verse_text</span></div>\n"; }
 }
 if (!empty($_BibleONE['T_VERSIONS']['WARNING'])) { echo "<div class='word-warning'>".$_BibleONE['T_VERSIONS']['WARNING']."</div>\n"; }
+$javascript = "AionianBible_CollapseExpand(\"ab-lexicon\", null); return false;";
 echo "<div class=field-header>\n".
-	"<a href='".abcms_href("/Verse/All/$_Part[2]/$_Part[3]/$_Part[4]",FALSE,TRUE,TRUE)."' title='Verse in all Bibles'>All Bibles</a>\n".
+	"<a href='' title='Open or close all lexicon entries below' onclick='$javascript'>Toggle Lexicons</a>\n".
+	" / <a href='".abcms_href("/Verse/All/$_Part[2]/$_Part[3]/$_Part[4]",FALSE,TRUE,TRUE)."' title='Verse in all Bibles'>All Bibles</a>\n".
 	" / <a href='".abcms_href("/Strongs/$_Part[1]",FALSE,TRUE,TRUE)."' title='Aionian Glossary and Strongs Concordance'>Concordance</a>\n".
 	" / <a href='/Maps' title='Middle Eastern and Mediterranean Bible maps, Bible timeline and church history'>Maps</a>\n".
 	(($tmp = preg_replace("/Bibles\//","Publisher/",$_Path)) ? " / <a href='/$tmp' title='Propose translation correction'>Report Issue</a>\n" : '').
 	"</div>\n";
 echo "</div>\n";
-if (!empty($bible_VERSE[$x]) && is_array($bible_VERSE[$x])) {
-	echo "<div id='strong-verse'>\n";
-	if (count($_BibleCHAP1) != count($bible_VERSE)) {
-		echo "This chapter uses non-standard numbering and may be mis-aligned with Strongs references.";
-	}
-	$chap = sprintf('%03d', $_Part[3]);
-	$verse = sprintf('%03d', $_Part[4]);
-	foreach($bible_VERSE[$x] as $strongs) { abcms_enty($strongs,$_BibleBOOKS[$_Part[2]]['CODE'],$chap,$verse); }
-	echo "</div>\n";
-}
+// display each strongs word
+abcms_word_init_chap_stro((int)$_BibleBOOKS[$_Part[2]]['NUMBER'], (int)$_Part[3], $_Part[4]);
+echo "<div id='strong-verse'>\n";
+if (empty($_BibleSTRONGS) || !is_array($_BibleSTRONGS)) { echo "This verse is mis-aligned or the Strongs references are unavailable."; }
 else {
-	echo "<div id='strong-verse'>\n";
-	echo "This chapter uses non-standard numbering and may be mis-aligned with Strongs references and so is unavailable.";
-	echo "</div>\n";
+	$chap = sprintf('%03d', (int)$_Part[3]);
+	$verse = sprintf('%03d', $_Part[4]);
+	$standard = json_decode(file_get_contents(
+		'./library/online/Holy-Bible---English---King-James-Version---Aionian-Edition/'.$_BibleBOOKS[$_Part[2]]['NUMBER'].'-'.$_BibleBOOKS[$_Part[2]]['CODE']."-$chap.json"),true);
+	if (empty($standard) || !is_array($standard) || count($_BibleCHAP1) != count($standard)) { echo "This verse may be mis-aligned with Strongs references.<br />"; }
+	foreach($_BibleSTRONGS as $tag) {
+		abcms_enty($tag[4],$tag,$_BibleBOOKS[$_Part[2]]['CODE'],$chap,$verse);
+		echo "<hr />";
+	}
 }
 echo "</div>\n";
+echo "</div>\n";
+abcms_read_indx_line();
 abcms_tail();		
 }
 
@@ -1181,7 +1166,6 @@ foreach( $bible_ALL as $bible => $version ) {
 	$_BibleONE_Lang = "<span lang='".$_BibleONE['T_VERSIONS']['LANGUAGECODEISO']."' $rtl class='".$_BibleONE['T_VERSIONS']['LANGUAGECSS'];
 	if (empty($_BibleCHAP1[$_Part[4]])) {	$verse_text = "Verse not available"; }
 	else {									$verse_text =  "$_BibleONE_Lang word-text'>".$_BibleCHAP1[$_Part[4]].'</span>'; ++$count; }
-	$verse_text = (empty($_BibleCHAP1[$_Part[4]]) ? 'Verse not available' : "$_BibleONE_Lang word-text'>".$_BibleCHAP1[$_Part[4]].'</span>');
 	echo "<div class='word-para-ref $rtlref' $quick_id><a href='".abcms_href("/Bibles/$_Part[1]/$_Part[2]/$_Part[3]",FALSE,TRUE,TRUE)."' title='View verse chapter'>".$language." ~ ".$name."</a></div>\n";
 	if ($rtl) {	echo "<table class='word-rtl allverses'><tr><td class='word-text'>$verse_text</td></tr></table>\n"; }
 	else {		echo "<div class='word-para-one allverses'><span class='word-text'>$verse_text</span></div>\n"; }
@@ -1239,7 +1223,7 @@ foreach( $bible_ALL as $bible => $version ) {
 		if ($rtl) {	echo "<table class='word-rtl $stripe'><tr><td class='word-refs rtlref'><span class='word-verse'>$vref_link</span></td></tr><tr><td class='word-text'>$verse_text</td></tr></table>\n"; }
 		else {		echo "<div class='word-para $stripe aionian'><div class='word-para-ref'>$vref_link</div>\n<div class='word-para-one'>$verse_number$verse_text</div>\n</div>\n"; }
 	}
-	if ($x) { echo "<hr />";}
+	if ($x) { echo "<hr />"; }
 }
 echo "</div>\n";
 abcms_tail();	
@@ -1254,16 +1238,18 @@ if (empty($_stid)) {
 	if ($_Part[0]==='Strongs') { $_stidC = 'g166'; $_stidN = 166; }
 	return;
 }
-if ($_Part[0]==='Glossary' || $_Part[0]==='Publisher') { abcms_bomb("/Read","Invalid URL Requested, Strongs-Id not permitted in path"); }
-if (!preg_match('#^([gh]{1})([\d]{1,4})([a-z]{0,1})$#',$_stidC,$matches)) {
+if ($_Part[0]==='Glossary' || $_Part[0]==='Publisher') {
+	abcms_bomb("/Read","Invalid URL Requested, Strongs-Id not permitted in path");
+}
+if (!preg_match('#^([gh]{1})([\d]{1,5})([a-z]{0,1})$#',$_stidC,$matches)) {
 	if ($_Part[0]!=='Strongs') { abcms_bomb("/Read","The Strongs number requested was not found"); }
 }
 else {
 	$_stidN = intval($matches[2]);
 	$_stidX = (empty($matches[3]) ? NULL : $matches[3]);
-	$_stidC = $matches[1].$_stidN.$_stidX;
-	if (!(($_stidC[0]==='h' && $_stidN > 0 && $_stidN <= 8674) ||
-		($_stidC[0]==='g' && $_stidN > 0 && $_stidN <= 5624 && $_stidN != 2717 && !($_stidN >= 3203 && $_stidN <= 3302)))) {
+	$_stidC = $matches[1].$_stidN.$_stidX; // rebuild and loose leading zeros
+	if (!(($_stidC[0]==='h' && $_stidN >= 1 && $_stidN <= 9049) ||
+		($_stidC[0]==='g' && $_stidN >= 1 && $_stidN <= 21369 && $_stidN != 2717 && !($_stidN >= 3203 && $_stidN <= 3302) && !($_stidN >= 9997 && $_stidN <= 20000)))) {
 		if ($_Part[0]!=='Strongs') { abcms_bomb("/Read","The Strongs number requested was not found"); }
 		$_stidN = $_stidX = NULL;
 	}
@@ -1276,42 +1262,18 @@ return;
 
 /*** STRONGS ***/
 function abcms_stro() {
-global $_pnum, $_stidC, $_stidN, $_stidX;
+global $_pnum, $_stidC, $_stidN;
 if (!empty($_POST['sid'])) { exit(header("Location: ".abcms_href(TRUE,'',TRUE,"/strongs-".strtolower(preg_replace('/[^a-zA-Z0-9]+/', '', $_POST['sid']))),true,302)); }
 if ($_pnum===2) { abcms_word_init(); }
 abcms_word_init_para();
 abcms_html();
 abcms_head();
-$fd = NULL;
-$file = ($_stidC[0]==='h' ? './library/Holy-Bible---AAA---Strongs-Definitions-H.noia' : './library/Holy-Bible---AAA---Strongs-Definitions-G.noia');
-$fixed = ($_stidC[0]==='h'? 1264 : 996); // FIXED!
-if (!$_stidN) {
-	$status = "'$_stidC' Strongs definition not found. Please try again.";
-	$sdef = NULL;
-}
-else if (!($fd=fopen($file, 'r')) ||
-	fseek($fd, $fixed * $_stidN) ||
-	!($defs=fread($fd, $fixed)) ||
-	($leng=strlen($defs)) < $fixed - 1 ||
-	($leng==$fixed && !preg_match("/\n$/m",$defs)) ||
-	!is_array(($dtmp=explode("\t", $defs))) || 
-	count($dtmp)!=12 ||
-	$_stidC != trim($dtmp[0])) {
-	abcms_errs("abcms_stro() Strongs data file not found or corrupted!");
-	$status = "'$_stidC' Strongs definition not found. Please try again.";
-	$sdef = NULL;
-}
-else {
-	$status = NULL;
-	$sdef = array('WORD'=>$dtmp[3],'SID'=>$dtmp[0],'LAN'=>$dtmp[1],'LEM'=>$dtmp[2],'TRA'=>$dtmp[3],'PRO'=>$dtmp[4],'PAR'=>$dtmp[5],'CTO'=>$dtmp[6],'CVE'=>$dtmp[7],'CCH'=>$dtmp[8],'CBO'=>$dtmp[9],'DEF'=>$dtmp[10]);
-}
-if ($fd) { fclose($fd); }
 // DISPLAY
 ?>
 <div id='word'>
 <div id='strong'>
-<h2>Strong's Concordance</h2>
-The  <span class='notranslate'>Aionian</span>  Bible un-translates and instead transliterates ten special words to help us better understand the extent of God’s love for individuals and all mankind, and the nature of afterlife destinies.  The original translation is unaltered and an inline note is appended to 63 Old Testament and 200 New Testament verses. Compare the definitions below to the <a href='/Glossary' title='Aionian Glossary' onclick='return AionianBible_Makemark("/Glossary");'><span class='notranslate'>Aionian</span> Glossary</a>. Follow the <span class='word-blue'>blue link</span> below to study the word's usage.  Search for any Strong's number: g1-5624 and h1-8674.<br />
+<h2>Strong's Enhanced Concordance</h2>
+The  <span class='notranslate'>Aionian</span>  Bible un-translates and instead transliterates ten special words to help us better understand the extent of God’s love for individuals and all mankind, and the nature of afterlife destinies.  The original translation is unaltered and an inline note is appended to 63 Old Testament and 200 New Testament verses. Compare the definitions below to the <a href='/Glossary' title='Aionian Glossary' onclick='return AionianBible_Makemark("/Glossary");'><span class='notranslate'>Aionian</span> Glossary</a>. Follow the <span class='word-blue'>blue link</span> below to study the word's usage.  Search for any Strong's number: g1-21369 and h1-9049.<br />
 <div class=center>
 <form action='<? echo abcms_href(TRUE,'',TRUE,FALSE); ?>' method='post'>
 <input type='text' name='sid' placeholder='Enter g1-5624 or h1-8674 for Greek and Hebrew Strongs numbers, for example g166' value=''/>
@@ -1320,59 +1282,287 @@ The  <span class='notranslate'>Aionian</span>  Bible un-translates and instead t
 </div>
 <div id='strong-page'>
 <?
-echo $status;
-abcms_enty($sdef);
+if (!$_stidN) { echo "The Strongs number requested was not found"; }
+else { abcms_enty($_stidC); }
 ?>
 </div>
 </div>
 </div>
 <?
+abcms_read_indx_line();
 abcms_tail();
 }
 
 
 
 /*** ENTRY ***/
-function abcms_enty($strongs,$book=NULL,$chap=NULL,$verse=NULL) {
+function abcms_enty($strongs,$tag=NULL,$book=NULL,$chap=NULL,$verse=NULL) {
+// init
 global $_stidC, $_Path, $_Part;
-if (empty($strongs['WORD'])) { return; }
-if (empty($strongs['SID'])) {
-	echo "<div class='strong-entry'><div class=strong-word>".$strongs['WORD']."</div></div>\n";
+static $elementid = 0;
+++$elementid;
+static $editions_search = NULL;
+static $editions_replace = NULL;
+if (!$editions_search) { $editions_search = array("Byz","Coptic","ESV","Goodnews","KJV","NA26","NA27","NA28","NIV","OldLatin","OldSyriac","P66","P66*","Punc","SBL","TR","Treg","Tyn","U1","U2","U3","U4","U5","U6","U32","WH",); }
+if (!$editions_replace) {
+	$editions_replace = array(
+	"<a href='javascript:void(0)' title='Byzantine from Robinson/Pierpoint'>Byz</a>",
+	"<a href='javascript:void(0)' title='Coptic Manuscript'>Coptic</a>",
+	"<a href='javascript:void(0)' title='English Standard Version'>ESV</a>",
+	"<a href='javascript:void(0)' title='Goodnews Bible'>Goodnews</a>",
+	"<a href='javascript:void(0)' title='King James Version'>KJV</a>",
+	"<a href='javascript:void(0)' title='Nestle/Aland 26th Edition'>NA26</a>",
+	"<a href='javascript:void(0)' title='Nestle/Aland 27th Edition'>NA27</a>",
+	"<a href='javascript:void(0)' title='Nestle/Aland 28th Edition, not ECM'>NA28</a>",
+	"<a href='javascript:void(0)' title='New International Version'>NIV</a>",
+	"<a href='javascript:void(0)' title='Old Latin version'>OldLatin</a>",
+	"<a href='javascript:void(0)' title='Old Syriac version'>OldSyriac</a>",
+	"<a href='javascript:void(0)' title='Papyri #66'>P66</a>",
+	"<a href='javascript:void(0)' title='Papyri #66 corrector'>P66*</a>",
+	"<a href='javascript:void(0)' title='Accent variant from punctuation'>Punc</a>",
+	"<a href='javascript:void(0)' title='Society of Biblical Literature Greek NT'>SBL</a>",
+	"<a href='javascript:void(0)' title='Textus Receptus'>TR</a>",
+	"<a href='javascript:void(0)' title='Tregelles'>Treg</a>",
+	"<a href='javascript:void(0)' title='Tyndale House GNT'>Tyn</a>",
+	"<a href='javascript:void(0)' title='Uncial #1'>U1</a>",
+	"<a href='javascript:void(0)' title='Uncial #2'>U2</a>",
+	"<a href='javascript:void(0)' title='Uncial #3'>U3</a>",
+	"<a href='javascript:void(0)' title='Uncial #4'>U4</a>",
+	"<a href='javascript:void(0)' title='Uncial #5'>U5</a>",
+	"<a href='javascript:void(0)' title='Uncial #6'>U6</a>",
+	"<a href='javascript:void(0)' title='Uncial #32'>U32</a>",
+	"<a href='javascript:void(0)' title='Westcott/Hort'>WH</a>",
+	);
+}
+static $entry = NULL;
+if (!$entry) {
+	$entry = array(
+	"NA=TR"	=> "Translated the same in modern Bibles (Nestle/Aland) and the KJV (Textus Receptus).",
+	"NA~TR"	=> "Translated differently in modern Bibles (Nestle/Aland) and the KJV (Textus Receptus).",
+	"NA-TR"	=> "Translated in most modern Bibles (Nestle/Aland), but not in the KJV (Textus Receptus).",
+	"KJV"	=> "Translated in the KJV (Textus Receptus), but not in most modern Bibles (Nestle/Aland).",
+	"KJV+"	=> "Translated in the KJV (Textus Receptus), but not in most modern Bibles (Nestle/Aland).",
+	"KJV++"	=> "Translated in the KJV (Textus Receptus) and in some modern Bibles (Nestle/Aland).",
+	"NATR?"	=> "Found in early manuscripts, but not translated in most Bibles.",
+	);
+}
+// get content with file i/o
+$bald = substr($strongs,1);
+if ($strongs[0]==='h') {
+	if (ctype_digit($bald) && $bald <= 8674) { $lex_strongs = abcms_read_indx_line('./library/stepbible/Hebrew_Lexicon_Strongs.txt', './library/stepbible/Hebrew_Lexicon_Strongs_Index.json', $bald); }
+	$lex_tyndale = abcms_read_indx_line('./library/stepbible/Hebrew_Lexicon_Tyndale.txt', './library/stepbible/Hebrew_Lexicon_Tyndale_Index.json', $bald);
+	$lex_LSJ	 = NULL;
+	$morphs = (empty($tag[6]) ? NULL : abcms_read_json('./library/stepbible/Hebrew_Morphhology.json', $tag[6]));
+	$morphs_tyndale = (empty($lex_tyndale[4]) ? NULL : aion_morphhology($lex_tyndale[4]));
+	$morphs_LSJ = NULL;
+	$counts = abcms_read_json('./library/stepbible/Hebrew_Tagged_Text_Count.json', $bald);
+}
+else {
+	if (ctype_digit($bald) && $bald <= 5624) { $lex_strongs = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_Strongs.txt', './library/stepbible/Greek_Lexicon_Strongs_Index.json', $bald); }
+	$lex_tyndale = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_Tyndale.txt', './library/stepbible/Greek_Lexicon_Tyndale_Index.json', $bald);
+	$lex_LSJ	 = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_LSJ.txt', './library/stepbible/Greek_Lexicon_LSJ_Index.json', $bald);
+	$morphs = (empty($tag[6]) ? NULL : abcms_read_json('./library/stepbible/Greek_Morphhology.json', $tag[6]));
+	$morphs_tyndale = (empty($lex_tyndale[4]) ? NULL : aion_morphhology($lex_tyndale[4]));
+	$morphs_LSJ = (empty($lex_LSJ[4]) ? NULL : aion_morphhology($lex_LSJ[4]));
+	$counts = abcms_read_json('./library/stepbible/Greek_Tagged_Text_Count.json', $bald);
+}
+// entry not found
+//if (!($word = trim(!empty($tag[8]) ? $tag[8] : (!empty($lex_tyndale[3]) ? $lex_tyndale[3] : NULL), "!,.?-_+=\/|'~\""))) {
+if (!($word = (!empty($tag[8]) ? $tag[8] : (!empty($lex_tyndale[3]) ? $lex_tyndale[3] : (!empty($lex_tyndale[1]) ? $lex_tyndale[1] : NULL))))) {
+	echo "<div class='strong-entry'><div class=strong-word>$strongs entry missing</div></div>\n";
+	abcms_errs("abcms_enty() the word entry is empty! $strongs");
 	return;
 }
-echo "<div class='strong-entry".($strongs['SID']==$_stidC ? ' strongs' : '')."'>";
-$strongs['CTO']		= intval($strongs['CTO']);
-$strongs['CBO']		= intval($strongs['CBO']);
-$strongs['CCH']		= intval($strongs['CCH']);
-$strongs['CVE']		= intval($strongs['CVE']);
-$HorG = ($strongs['SID'][0]==='g' ? 'New' : 'Old');
-$bpath = ($_Path=='Strongs' ? abcms_href('/Read',FALSE,TRUE,'/strongs-'.$strongs['SID']) : abcms_href("/Bibles/$_Part[1]/$HorG",FALSE,TRUE,'/strongs-'.$strongs['SID']));
-$usage =	"<a href='$bpath' title='Visit chapters with Strongs word usage' class='word-blue'>".
-			$strongs['CTO'].($strongs['CTO']===1 ? ' time in ':' times in ').
-			$strongs['CBO'].($strongs['CBO']===1 ? ' book, ':' books, ').
-			$strongs['CCH'].($strongs['CCH']===1 ? ' chapter, and ':' chapters, and ').
-			$strongs['CVE'].($strongs['CVE']===1 ? ' verse, ':' verses').
-			'</a>';
-$aionian = abcms_aion($strongs['SID'],$SID,$book,$chap,$verse);
-echo	"<div class='strong-word".($book ? '' : ' notranslate')."'>".$strongs['WORD']."</div>" .
-		"<div class=field-field><div class=field-label>StrongsID:</div><div class='field-value word-footnote'>$SID</div></div>" .
-		(empty($strongs['LAN']) ? "" : "<div class=field-field><div class=field-label>Language:</div><div class=field-value>".$strongs['LAN']."</div></div>") .
-		(empty($strongs['LEM']) ? "" : "<div class=field-field><div class=field-label>Lemma:</div><div class='field-value notranslate'>".$strongs['LEM']."</div></div>") .
-		(empty($strongs['TRA']) ? "" : "<div class=field-field><div class=field-label>Transliteration:</div><div class='field-value notranslate'>".$strongs['TRA']."</div></div>") .
-		(empty($strongs['PRO']) ? "" : "<div class=field-field><div class=field-label>Pronounciation:</div><div class='field-value notranslate'>".$strongs['PRO']."</div></div>") .
-		(empty($strongs['PAR']) ? "" : "<div class=field-field><div class=field-label>Part of Speech:</div><div class=field-value>".$strongs['PAR']."</div></div>") .
-		"<div class=field-field><div class=field-label>Usage:</div><div class=field-value>$usage</div></div>" .
-		(empty($strongs['DEF']) ? "" : "<div class=field-field><div class=field-label>Strongs Glossary:</div><div class=field-value>".$strongs['DEF']."</div></div>");
-if ($aionian) {
-echo	"<div class=field-field><div class=field-label>Aionian Glossary:</div><div class='field-value word-aionian'>$aionian</div></div>";
+// entry fouled
+if ((!empty($lex_strongs[0]) && $bald!=$lex_strongs[0]) ||
+	(!empty($lex_tyndale[0]) && $bald!=$lex_tyndale[0]) ||
+	(!empty($lex_LSJ[0])     && $bald!=$lex_LSJ[0])) {
+	echo "<div class='strong-entry'><div class=strong-word>$strongs entry corrupted</div></div>\n";
+	abcms_errs("abcms_enty() the strongs entry corrupted! $strongs");
+	return;
 }
-echo	"</div>\n";
+// underlying
+$underlying = (!empty($tag[7]) ? $tag[7] : (!empty($lex_tyndale[1]) ? $lex_tyndale[1] : NULL));
+// aionian entry
+$aionian = abcms_aion($strongs,$SID,$book,$chap,$verse);
+// css calculation
+$css_background = ($strongs==$_stidC ? 'strongs' : ($aionian ? 'word-aionian' : ''));
+// begin lexicon entry
+echo "<div class='strong-entry $css_background'>";
+$HorG = ($strongs[0]==='g' ? 'New' : 'Old');
+$bpath = ($_Path=='Strongs' ? abcms_href('/Read',FALSE,TRUE,'/strongs-'.$strongs) : abcms_href("/Bibles/$_Part[1]/$HorG",FALSE,TRUE,'/strongs-'.$strongs));
+$usage =
+	"<a href='$bpath' title='Visit chapters with Strongs word usage' class='word-blue'>".
+	// Counts array(0=>'books',1=>'chapters',2=>'verses',3=>'words')
+	(!isset($counts[3]) ? 'Strongs word usage' : ''.
+	$counts[3].($counts[3]===1 ? ' time in ':' times in ').
+	$counts[0].($counts[0]===1 ? ' book, ':' books, ').
+	$counts[1].($counts[1]===1 ? ' chapter, and ':' chapters, and ').
+	$counts[2].($counts[2]===1 ? ' verse, ':' verses')).
+	'</a>';
+// Join  W=next word, K=next Ketiv 'written' word, Q=following Qere 'read' word, P=word parts, R=root or related, J=joined words (though not variants), D=divided word (though not variants)
+$join = (empty($tag[5]) ? '' :
+	($tag[5]=='W' ? 'Next word in verse' :
+	($tag[5]=='K' ? 'Ketiv, written word' :
+	($tag[5]=='Q' ? 'Qere, read word' :
+	($tag[5]=='P' ?	'Part of previous word' :
+	($tag[5]=='R' ? 'Root of previous word' :
+	($tag[5]=='J' ?	'Joined to previous word' :
+	($tag[5]=='D' ? 'Divided from previous word' : ''))))))));
+// strongs lexicon language
+$stronglang = (empty($lex_strongs[4]) ? '' :
+	($lex_strongs[4]=='greek'	? 'Greek' :
+	($strongs[0]=='g'			? 'Greek' :
+	($lex_strongs[4]=='heb'		? 'Hebrew' :
+	($lex_strongs[4]=='arc'		? 'Aramaic' :
+	($lex_strongs[4]=='x-pn'	? 'Proper Name' : 'Hebrew'))))));
+// editions
+if (!empty($tag[11])) {
+	$tag[11] = str_replace("+", ", ", $tag[11]);
+	$tag[11] = str_replace($editions_search, $editions_replace, $tag[11]);	
+}
+// javascript
+$javascript = "AionianBible_CollapseExpand(\"ab-lexicon\", \"ab-lexicon-$elementid\"); return false;";
+echo
+	// glossary entry header from tag file
+	"<div class='strong-word".($book ? '' : ' notranslate')."'>$word</div>\n" .
+	"<div class='field-field'><div class='field-label'>Strongs:</div><div class='field-value word-footnote'>$SID</div></div>\n" .
+	(empty($underlying)		? "" : "<div class='field-field'><div class='field-label'>Word:</div><div class='field-value notranslate'>$underlying</div></div>\n") .
+	"<div class='field-field'><div class='field-label'>Usage:</div><div class=field-value>$usage</div></div>\n" .
+
+	// collapsible logic
+	(empty($tag)			? "" : "<div class='field-field'><div class='field-label'><a href='' title='Open or close the lexicon entry' onclick='$javascript'>Toggle Lexicon</a></div></div>\n") .
+	(empty($tag)			? "" : "<div id='ab-lexicon-$elementid' class='ab-lexicon'>\n") .
+	// Hebrew_Tagged_Text		= INDEX-0	BOOK-1	CHAPTER-2	VERSE-3	STRONGS-4	FLAG-5	MORPH-6	WORD-7	ENGLISH-8															PART-9	ADDITIONAL-10
+	// Greek_Tagged_Text		= INDEX-0	BOOK-1	CHAPTER-2	VERSE-3	STRONGS-4	FLAG-5	MORPH-6	WORD-7	ENGLISH-8	ENTRY-9	PUNC-10	EDITIONS-11	SPELLINGS-12	MEANINGS-13			ADDITIONAL-14	CONJOIN-15
+	// Morphhology array('M'=>'Morphhology','U'=>'Explanation')
+	(empty($join)			? "" : "<div class='field-field'><div class='field-label'>Context:</div><div class='field-value'>$join</div></div>\n") .
+	(empty($morphs['M'])	? "" : "<div class='field-field'><div class='field-label'>Morphhology:</div><div class='field-value'>".$morphs['M']."</div></div>\n") .
+	(empty($morphs['U'])	? "" : "<div class='field-field'><div class='field-label'>Grammar:</div><div class='field-value'>".$morphs['U']."</div></div>\n") .
+
+	// hebrew or greek tag file
+	($strongs[0]=='h'		? ("".
+	((empty($tag[9]) || (!empty($underlying) && $tag[9] == $underlying))	? "" : "<div class='field-field'><div class='field-label'>Segment:</div><div class='field-value notranslate'>$tag[9]</div></div>\n") .
+	((empty($tag[10]) || $tag[10] == $word)									? "" : "<div class='field-field'><div class='field-label'>Additional:</div><div class='field-value'>$tag[10]</div></div>\n"))
+	: ("" .
+	(empty($tag[9])	|| empty($entry[$tag[9]])	? "" : "<div class='field-field'><div class='field-label'>Translators:</div><div class='field-value'>".$entry[$tag[9]]."</div></div>\n") .
+	//(empty($tag[10])		? "" : "<div class='field-field'><div class='field-label'>Punctuation:</div><div class='field-value'>$tag[10]</div></div>\n") .		
+	(empty($tag[11])		? "" : "<div class='field-field'><div class='field-label'>Editions:</div><div class='field-value'>$tag[11]</div></div>\n") .
+	((empty($tag[12]) || (!empty($underlying) && $tag[12] == $underlying))	? "" : "<div class='field-field'><div class='field-label'>Spellings:</div><div class='field-value'>$tag[12]</div></div>\n") .
+	(empty($tag[13])		? "" : "<div class='field-field'><div class='field-label'>Meanings:</div><div class='field-value'>$tag[13]</div></div>\n") .
+	((empty($tag[14]) || $tag[14] == $word)									? "" : "<div class='field-field'><div class='field-label'>Additional:</div><div class='field-value'>$tag[14]</div></div>\n") .
+	(empty($tag[15])		? "" : "<div class='field-field'><div class='field-label'>Conjoined:</div><div class='field-value'>$tag[15]</div></div>\n"))) .
+
+	// lexicon entries: Aionians, Tyndale, LSJ, Strongs
+	(!$aionian	? "" :
+	("<div class='field-field word-aionian'><div class='field-header1'>Aionian Glossary</div></div>\n") .
+	("<div class='field-field word-aionian'><div class='field-label'></div><div class='field-value'>$aionian</div></div>\n")) .
+	// Hebrew_Lexicon_Tyndale	= STRONGS-0	WORD-1	TRANS-2		GLOSS-3						MORPH-4	DEF-5
+	// Greek_Lexicon_Tyndale	= STRONGS-0	WORD-1	TRANS-2		GLOSS-3						MORPH-4	DEF-5
+	// Greek_Lexicon_LSJ		= STRONGS-0	WORD-1	TRANS-2		GLOSS-3						MORPH-4	DEF-5
+	// Hebrew_Lexicon_Strongs	= STRONGS-0	WORD-1	TRANS-2				PRONOUNCE-3	LANG-4	MORPH-5	DEF-6
+	// Greek_Lexicon_Strongs	= STRONGS-0	WORD-1	TRANS-2				PRONOUNCE-3	LANG-4	MORPH-5	DEF-6
+	// Morphhology array('M'=>'Morphhology','U'=>'Explanation')
+	(empty($lex_tyndale[0])	? "" :
+	("<div class='field-field'><div class='field-header1'>Tyndale</div></div>\n") .
+	(empty($lex_tyndale[1]) ? "" : "<div class='field-field'><div class='field-label'>Word:</div><div class='field-value notranslate'>$lex_tyndale[1]</div></div>\n") .
+	(empty($lex_tyndale[2]) ? "" : "<div class='field-field'><div class='field-label'>Transliteration:</div><div class='field-value notranslate'>$lex_tyndale[2]</div></div>\n") .
+	(empty($lex_tyndale[3]) ? "" : "<div class='field-field'><div class='field-label'>Gloss:</div><div class='field-value'>$lex_tyndale[3]</div></div>\n") .
+	(empty($morphs_tyndale) ? "" : "<div class='field-field'><div class='field-label'>Morphhology:</div><div class='field-value'>$morphs_tyndale</div></div>\n") .
+	(empty($lex_tyndale[5]) ? "" : "<div class='field-field'><div class='field-label'>Definition:</div><div class='field-value'>$lex_tyndale[5]</div></div>\n")) .
+	(empty($lex_LSJ[0])	? "" :
+	("<div class='field-field'><div class='field-header1'>Liddell-Scott-Jones</div></div>\n") .
+	(empty($lex_LSJ[1]) ? "" : "<div class='field-field'><div class='field-label'>Word:</div><div class='field-value notranslate'>$lex_LSJ[1]</div></div>\n") .
+	(empty($lex_LSJ[2]) ? "" : "<div class='field-field'><div class='field-label'>Transliteration:</div><div class='field-value notranslate'>$lex_LSJ[2]</div></div>\n") .
+	(empty($lex_LSJ[3]) ? "" : "<div class='field-field'><div class='field-label'>Gloss:</div><div class='field-value'>$lex_LSJ[3]</div></div>\n") .
+	(empty($morphs_LSJ) ? "" : "<div class='field-field'><div class='field-label'>Morphhology:</div><div class='field-value'>$morphs_LSJ</div></div>\n") .
+	(empty($lex_LSJ[5]) ? "" : "<div class='field-field'><div class='field-label'>Definition:</div><div class='field-value'>$lex_LSJ[5]</div></div>\n")) .
+	(empty($lex_strongs[0])	? "" :
+	("<div class='field-field'><div class='field-header1'>Strongs</div></div>\n") .
+	(empty($lex_strongs[1]) ? "" : "<div class='field-field'><div class='field-label'>Word:</div><div class='field-value notranslate'>$lex_strongs[1]</div></div>\n") .
+	(empty($lex_strongs[2]) ? "" : "<div class='field-field'><div class='field-label'>Transliteration:</div><div class='field-value notranslate'>$lex_strongs[2]</div></div>\n") .
+	(empty($lex_strongs[3]) ? "" : "<div class='field-field'><div class='field-label'>Pronounciation:</div><div class='field-value notranslate'>$lex_strongs[3]</div></div>\n") .
+	(empty($stronglang)		? "" : "<div class='field-field'><div class='field-label'>Language:</div><div class='field-value'>$stronglang</div></div>\n") .
+	(empty($lex_strongs[5]) ? "" : "<div class='field-field'><div class='field-label'>Morphhology:</div><div class='field-value'>$lex_strongs[5]</div></div>\n") .
+	(empty($lex_strongs[6]) ? "" : "<div class='field-field'><div class='field-label'>Definition:</div><div class='field-value'>$lex_strongs[6]</div></div>\n")) .
+	(empty($tag)			? "" : "</div>\n");
+echo "</div>\n";
+}
+
+
+
+
+/*** MORPHHOLOGY LSJ ***/
+function aion_morphhology($morph) {
+// define Language:Type-Gender-Extra
+static $language = NULL;
+if (!$language) { $language = array(
+"A"=>"Aramaic","H"=>"Hebrew","G"=>"Greek","N"=>"Proper Name"); }
+static $type = NULL;
+if (!$type) { $type = array(
+"A"=>"Adjective","Adv"=>"Adverb","Art"=>"Article","Cond"=>"Conditional","Conj"=>"Conjunction","Cor"=>"Correlative","DemP"=>"Demonstrative Pronoun","ImpP"=>"Impersonal Pronoun",
+"Intg"=>"Interogative","Intj"=>"Interjection","N"=>"Noun","Neg"=>"Negative","Part"=>"Particle","Prep"=>"Preposition","PerP"=>"Personal Pronoun","PosP"=>"Possessive Pronoun",
+"RefP"=>"Reflexive Pronoun","RelP"=>"Relative Pronoun","V"=>"Verb",
+"Imperat"=>"Imperative",
+"IndP"=>"Hebrew Indefinite Pronoun",
+"Ps1c"=>"my, personal posessive - noun suffix: 1st person common singular",
+"Ps2m"=>"your, personal posessive - noun suffix: 2nd person masculine singular",
+"Ps2f"=>"your, personal posessive - noun suffix: 2nd person feminine singular",
+"Ps3m"=>"his, personal posessive - noun suffix: 3rd person masculine singular",
+"Ps3f"=>"her, personal posessive - noun suffix: 3rd person feminine singular",
+"Pp1c"=>"our, personal posessive - noun suffix: 1st person common plural",
+"Pp2m"=>"your, personal posessive - noun suffix: 2nd person masculine plural",
+"Pp2f"=>"your, personal posessive - noun suffix: 2nd person feminine plural",
+"Pp3m"=>"their, personal posessive - noun suffix: 3rd person masculine plural",
+"Pp3f"=>"their, personal posessive - noun suffix: 3rd person feminine plural",
+"Os1c"=>"me, personal pronoun - verb/prep. suffix: 1st person common singular",
+"Os2m"=>"you, personal pronoun - verb/prep. 2nd person masculine singular",
+"Os2f"=>"you, personal pronoun - verb/prep. 2nd person feminine singular",
+"Os3m"=>"him, personal pronoun - verb/prep. 3rd person masculine singular",
+"Os3f"=>"her, personal pronoun - verb/prep. 3rd person feminine singular",
+"Op1c"=>"us, personal pronoun - verb/prep. 1st person common plural",
+"Op2m"=>"you, personal pronoun - verb/prep. 2nd person masculine plural",
+"Op2f"=>"you, personal pronoun - verb/prep. 2nd person feminine plural",
+"Op3m"=>"them, personal pronoun - verb/prep. 3rd person masculine plural",
+"Op3f"=>"them, personal pronoun - verb/prep. 3rd person feminine plural",
+"Ss1c"=>"I, subject pronoun -  subject: 1st person common singular",
+"Ss2m"=>"you, subject pronoun - subject 2nd person masculine singular",
+"Ss2f"=>"you, subject pronoun - subject 2nd person feminine singular",
+"Ss3m"=>"he, subject pronoun - subject 3rd person masculine singular",
+"Ss3f"=>"she, subject pronoun - subject 3rd person feminine singular",
+"Sp1c"=>"we, subject pronoun - subject 1st person common plural",
+"Sp2m"=>"you, subject pronoun - subject 2nd person masculine plural",
+"Sp2f"=>"you, subject pronoun - subject 2nd person feminine plural",
+"Sp3m"=>"they, subject pronoun - subject 3rd person masculine plural",
+"Sp3f"=>"they, subject pronoun - subject 3rd person feminine plural",
+); } 
+static $gender = NULL;
+if (!$gender) { $gender = array(
+"F"=>"Female","M"=>"Male","N"=>"Neuter","C"=>"Common","B"=>"Male/Female","L"=>"Male/Neuter","E"=>"Female/Neuter",
+"FS"=>"Female Singular","MS"=>"Male Singular","NS"=>"Neuter Singular","CS"=>"Common Singular","BS"=>"Male/Female Singular","LS"=>"Male/Neuter Singular","ES"=>"Female/Neuter Singular",
+"FP"=>"Female Plural","MP"=>"Male Plural","NP"=>"Neuter Plural","CP"=>"Common Plural","BP"=>"Male/Female Plural","LP"=>"Male/Neuter Plural","EP"=>"Female/Neuter Plural"); }
+static $extra = NULL;
+if (!$extra) { $extra = array(
+"L"=>"Location","P"=>"Person","LG"=>"Gentilic Location","PG"=>"Gentilic Person","T"=>"Title","TG"=>"Gentilic Title"); }
+// check
+if (empty($morph)) { return ""; }
+$parts = mb_split("[:\-]{1}", $morph);
+$gotit =((empty($parts[0]) || empty($language[$parts[0]])	? "" : $language[$parts[0]]) .		// language
+		 (empty($parts[1]) || empty($type[$parts[1]])		? "" : ", ".$type[$parts[1]]) .		// type
+		 (empty($parts[2]) || empty($gender[$parts[2]])		? "" : ", ".$gender[$parts[2]]) .	// gender
+		 (empty($parts[3]) || empty($extra[$parts[3]])		? "" : ", ".$extra[$parts[3]]));	// extra
+if (empty($gotit)) { abcms_errs("aion_morphhology() morphhology not found! $morph"); }
+return $gotit;
 }
 
 
 
 /*** AIONIAN ***/
 function abcms_aion($strongs,&$SID,$book=NULL,$chap=NULL,$verse=NULL) {
+global $_Part;
+$SID = (NULL===$book ? $strongs :
+	"<a href='".abcms_href((empty($_Part[1]) ? '/Strongs' : "/Strongs/$_Part[1]"),FALSE,TRUE,FALSE).
+	"/strongs-$strongs' title='Strong Enhanced Concordance entry $strongs' class='word-blue'>$strongs</a>");
 if (($strongs=='g3041' || $strongs=='g4442') &&
 	($book!='REV' ||
 	!(($chap=='019' && $verse=='020') ||
@@ -1380,19 +1570,17 @@ if (($strongs=='g3041' || $strongs=='g4442') &&
 	  ($chap=='020' && $verse=='014') ||
 	  ($chap=='020' && $verse=='015') ||
 	  ($chap=='021' && $verse=='008')))) {
-	$SID = $strongs;
 	return NULL;
 }
 static $slink = NULL;
 if ($slink===NULL) {
-	global $_Part;
 	$gpath = abcms_href((empty($_Part[1]) ? '/Glossary' : "/Glossary/$_Part[1]"),FALSE,TRUE,FALSE);
 	$slink = array(
 		'g12'	=> "<a href='$gpath#g12'   title='Aionian Glossary'>g12</a>",
 		'g126'	=> "<a href='$gpath#g126'  title='Aionian Glossary'>g126</a>",
 		'g165'	=> "<a href='$gpath#g165'  title='Aionian Glossary'>g165</a>",
 		'g166'	=> "<a href='$gpath#g166'  title='Aionian Glossary'>g166</a>",
-		'g1067'	=> "<a href='$gpath#g106'  title='Aionian Glossary'>g1067</a>",
+		'g1067'	=> "<a href='$gpath#g1067'  title='Aionian Glossary'>g1067</a>",
 		'g86'	=> "<a href='$gpath#g86'   title='Aionian Glossary'>g86</a>",
 		'h7585'	=> "<a href='$gpath#h7585' title='Aionian Glossary'>h7585</a>",
 		'g5020'	=> "<a href='$gpath#g5020' title='Aionian Glossary'>g5020</a>",
@@ -1400,7 +1588,7 @@ if ($slink===NULL) {
 		'g4442'	=> "<a href='$gpath#g4442' title='Aionian Glossary'>g4442</a>",
 	);
 }
-$SID = (empty($slink[$strongs]) ? $strongs : $slink[$strongs]);
+if (isset($slink[$strongs])) { $SID = $slink[$strongs]; }
 static $adef = array(
 	'g12'	=> "Temporary prison for special fallen angels such as Apollyon, the Beast, and Satan.",
 	'g126'	=> "Lasting, enduring forever, eternal.",
@@ -1413,13 +1601,33 @@ static $adef = array(
 	'g3041'	=> "Lake of Fire, final punishment for those not named in the Book of Life, prepared for the Devil and his angels, Matthew 25:41.",
 	'g4442'	=> "Lake of Fire, final punishment for those not named in the Book of Life, prepared for the Devil and his angels, Matthew 25:41.",
 );
-return (empty($adef[$strongs]) ? '' : $adef[$strongs]);
+return (empty($adef[$strongs]) ? NULL : $adef[$strongs]);
 }
 
 
 
+
+/*** READ JSON ARRAY KEY ***/
+function abcms_read_json($file, $key) {
+static $cache = NULL;
+if ($cache===NULL) { $cache = array(); }
+if (!isset($cache[$file]) && !($cache[$file]=json_decode(file_get_contents($file),true))) {
+	abcms_errs("abcms_read_json() json file not found: $file $key");
+	$cache[$file] = array();
+	return NULL;
+}
+if (!isset($cache[$file][$key])) {
+	abcms_errs("abcms_read_json() json file key not found: $file $key");
+	return NULL;
+}
+return $cache[$file][$key];
+}
+
+
+
+
 /*** HTML ***/
-function abcms_html($goodpage=TRUE,$bodystuff='') {
+function abcms_html($goodpage=TRUE,$bodystuff='',$collapse='false') {
 global $_para, $_stid, $_meta, $_Path, $_Part, $_pnum, $_BibleONE, $_BibleTWO;
 if (!$goodpage) { header('HTTP/1.0 404 Not Found'); $_meta = 'Page not found'; }
 ?>
@@ -1461,6 +1669,7 @@ else {	if (!empty($_BibleONE['T_VERSIONS']['LANGUAGESTYLE'])) {	echo "<noscript>
 		if (!empty($_BibleTWO['T_VERSIONS']['LANGUAGESTYLE'])) {	echo "<noscript><link rel='stylesheet' type='text/css' href='/styles/".$_BibleTWO['T_VERSIONS']['LANGUAGESTYLE']."' /></noscript>"; }
 }
 ?> 
+<script><?echo "var AB_Collapse = $collapse;";?></script>
 <script src="/script.js"></script>
 </head>
 <body <?echo $bodystuff;?> >

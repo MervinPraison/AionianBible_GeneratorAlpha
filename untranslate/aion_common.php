@@ -5009,13 +5009,22 @@ function AION_SITEMAP($root) {
 	$sitemap_name  = "sitemaps/sitemap_AionianBible-StrongsConcordance.xml.gz";
 	$sitemap_mast .= "<sitemap><loc>http://www.AionianBible.org/$sitemap_name</loc><lastmod>$UPDATED</lastmod></sitemap>\n";
 	$sitemap_file  = "<?xml version='1.0' encoding='UTF-8'?>\n<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>\n";
-	for($stid=1; $stid<=8674; ++$stid) {
+	// loop hebrew
+	if (!($fd=fopen('../www-stage/library/stepbible/Hebrew_Lexicon_Tyndale.txt', 'r'))) { AION_ECHO("ERROR! !fopen(Hebrew Tyndale)"); }
+	while (($line=fgets($fd))) {
+		if (!preg_match("#^(\d+)([[:alnum:]]{0,1})\t#u", $line, $match)) {		continue; }
+		$stid = $match[1].(isset($match[2]) ? $match[2] : "");
 		$sitemap_file .= "<url><loc>http://www.AionianBible.org/Strongs/strongs-h$stid</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>\n";
 	}
-	for($stid=1; $stid<=5624; ++$stid) {
-		if ($stid == 2717 || ($stid >= 3203 && $stid <= 3302)) { continue; }
+	fclose($fd);
+	// loop greek
+	if (!($fd=fopen('../www-stage/library/stepbible/Greek_Lexicon_Tyndale.txt', 'r'))) { AION_ECHO("ERROR! !fopen(Greek Tyndale)"); }
+	while (($line=fgets($fd))) {
+		if (!preg_match("#^(\d+)([[:alnum:]]{0,1})\t#u", $line, $match)) {		continue; }
+		$stid = $match[1].(isset($match[2]) ? $match[2] : "");
 		$sitemap_file .= "<url><loc>http://www.AionianBible.org/Strongs/strongs-g$stid</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>\n";
-	}	
+	}
+	fclose($fd);	
 	$sitemap_file .= "</urlset>\n";
 	if (!($fp = gzopen("$root/$sitemap_name", 'w9'))) {							AION_ECHO("ERROR! AION_SITEMAP gzopen($root/$sitemap_name)"); }
 	if (gzwrite($fp,$sitemap_file)!=strlen($sitemap_file)) {					AION_ECHO("ERROR! AION_SITEMAP gzwrite($root/$sitemap_name)"); }

@@ -35,6 +35,9 @@ window.onload = function() {
 	if (null!==AB_Accessible) {
 		AB_Accessible.className = AionianBible_readCookie("AionianBible.Accessible");
 	}
+	if (true===AB_Collapse) {
+		AionianBible_CollapseExpand("ab-lexicon", null);
+	}
 }
 // toggle accessibility
 function AionianBible_Accessible() {
@@ -121,4 +124,25 @@ function AionianBible_SwipeLinks(prev, next) {
 			}
 		} );
 	}, false);
+}
+// Collapse Class and Expand ID, https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp
+function AionianBible_CollapseExpand(collapse, toggle) {
+	var elements = document.getElementsByClassName(collapse);
+	var firstdisplay = (elements.length > 0 ? elements[0].style.display : 'block');
+	for (var i = 0; i < elements.length; i++) {
+		if (elements[i].id === toggle) {
+			if ('none' === elements[i].style.display) {
+				elements[i].style.display = 'block';
+			}
+			else {
+				elements[i].style.display = 'none';
+			}
+		}
+		else if (null===toggle && firstdisplay=='none') {
+			elements[i].style.display = 'block';
+		}
+		else {
+			elements[i].style.display = 'none';
+		}
+	}
 }

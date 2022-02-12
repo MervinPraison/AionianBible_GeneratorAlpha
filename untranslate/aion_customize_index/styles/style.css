@@ -175,11 +175,12 @@ div.word-warning { color: red; }
 #strong-page,
 #strong-verse { margin: 20px 0px; }
 #strong-page .strong-entry,
-#strong-verse .strong-entry { margin-top: 15px; }
+#strong-verse .strong-entry { margin-top: 25px; }
 #strong-page .strong-word,
-#strong-verse .strong-word { font-weight: bold; font-size: 150%; }
+#strong-verse .strong-word { font-weight: bold; font-size: 200%; }
 #strong-page .word-footnote,
 #strong-verse .word-footnote { font-weight: bold; font-style: italic; }
+#strong-verse hr { border-top: 1px solid #9966CC; border-bottom: 0px; margin-top: 35px; }
 #strong form { margin: 15px 0 15px 0; }
 #strong-verse .strong-entry.strongs { background-color: #CCE0EB; }
 .word-blue { color: #006699; }
