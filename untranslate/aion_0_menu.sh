@@ -21,6 +21,7 @@ $commands = array(
 	'5'  => 'aion_5_index.sh',
 	'6'  => 'aion_6_check.sh',
 	'6q' => 'aion_6q_check.sh',
+	'6w' => 'aion_6w_check.sh',
 	'7'  => 'aion_7_deploy.sh',
 	'7q' => 'aion_7q_deploy.sh',
 	'7qe'=> 'aion_7qe_deploy-epub.sh',
@@ -59,6 +60,15 @@ if ((!$compare2 && $choice!='0')) {	AION_ECHO("ERROR! PLEASE APPROVE NEW VERSION
 if ($choice=='000') {
 	//$result = AION_VERSION_PUT(VERSION.'.ALL', '..', $live_version_all);
 	AION_VERSION_PUT(VERSION, '.', $live_version);
+}
+else if ($choice=='6w') {
+	/*** run the comment ***/
+	$output = $commands[$choice] . '.aionian.out';
+	$yepper = './' . $commands[$choice] . ' 2>/dev/null | tee '.$output;
+	AION_ECHO("COMMAND " . $yepper);
+	$result = system( $yepper );
+	/*** diff out ***/
+	system('diff ./aion_diffout/'.$output.' '.$output.' 2>&1 > '.$commands[$choice] . '.diff.aionian.out; echo "*** DIFF OUT ***"; cat '.$commands[$choice] . '.diff.aionian.out');
 }
 else {
 	/*** run the comment ***/

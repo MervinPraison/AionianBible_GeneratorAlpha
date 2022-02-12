@@ -229,9 +229,7 @@ abcms_tail();
 
 /*** SANITIZE ***/
 function aion_strip($raw) {
-static $old	= array('<','>');
-static $new	= array('(',')');
-return str_replace($old, $new, preg_replace("/<[^<>]+>/us",'',$raw));
+return str_replace(array('<','>'), array('(',')'), preg_replace("/<[^<>]+>/us",'',$raw));
 }
 
 
@@ -1301,11 +1299,8 @@ function abcms_enty($strongs,$tag=NULL,$book=NULL,$chap=NULL,$verse=NULL) {
 global $_stidC, $_Path, $_Part;
 static $elementid = 0;
 ++$elementid;
-static $editions_search = NULL;
-static $editions_replace = NULL;
-if (!$editions_search) { $editions_search = array("Byz","Coptic","ESV","Goodnews","KJV","NA26","NA27","NA28","NIV","OldLatin","OldSyriac","P66","P66*","Punc","SBL","TR","Treg","Tyn","U1","U2","U3","U4","U5","U6","U32","WH",); }
-if (!$editions_replace) {
-	$editions_replace = array(
+static $editions_search = array("Byz","Coptic","ESV","Goodnews","KJV","NA26","NA27","NA28","NIV","OldLatin","OldSyriac","P66","P66*","Punc","SBL","TR","Treg","Tyn","U1","U2","U3","U4","U5","U6","U32","WH",);
+static $editions_replace = array(
 	"<a href='javascript:void(0)' title='Byzantine from Robinson/Pierpoint'>Byz</a>",
 	"<a href='javascript:void(0)' title='Coptic Manuscript'>Coptic</a>",
 	"<a href='javascript:void(0)' title='English Standard Version'>ESV</a>",
@@ -1333,10 +1328,7 @@ if (!$editions_replace) {
 	"<a href='javascript:void(0)' title='Uncial #32'>U32</a>",
 	"<a href='javascript:void(0)' title='Westcott/Hort'>WH</a>",
 	);
-}
-static $entry = NULL;
-if (!$entry) {
-	$entry = array(
+static $entry = array(
 	"NA=TR"	=> "Translated the same in modern Bibles (Nestle/Aland) and the KJV (Textus Receptus).",
 	"NA~TR"	=> "Translated differently in modern Bibles (Nestle/Aland) and the KJV (Textus Receptus).",
 	"NA-TR"	=> "Translated in most modern Bibles (Nestle/Aland), but not in the KJV (Textus Receptus).",
@@ -1345,7 +1337,6 @@ if (!$entry) {
 	"KJV++"	=> "Translated in the KJV (Textus Receptus) and in some modern Bibles (Nestle/Aland).",
 	"NATR?"	=> "Found in early manuscripts, but not translated in most Bibles.",
 	);
-}
 // get content with file i/o
 $bald = substr($strongs,1);
 if ($strongs[0]==='h') {
@@ -1384,7 +1375,7 @@ if ((!empty($lex_strongs[0]) && $bald!=$lex_strongs[0]) ||
 // underlying
 $underlying = (!empty($tag[7]) ? $tag[7] : (!empty($lex_tyndale[1]) ? $lex_tyndale[1] : NULL));
 // aionian entry
-$aionian = abcms_aion($strongs,$SID,$book,$chap,$verse);
+$aionian = abcms_aion($strongs,$SID,$word,$book,$chap,$verse);
 // css calculation
 $css_background = ($strongs==$_stidC ? 'strongs' : ($aionian ? 'word-aionian' : ''));
 // begin lexicon entry
@@ -1495,11 +1486,8 @@ echo "</div>\n";
 /*** MORPHHOLOGY LSJ ***/
 function aion_morphhology($morph) {
 // define Language:Type-Gender-Extra
-static $language = NULL;
-if (!$language) { $language = array(
-"A"=>"Aramaic","H"=>"Hebrew","G"=>"Greek","N"=>"Proper Name"); }
-static $type = NULL;
-if (!$type) { $type = array(
+static $language = array("A"=>"Aramaic","H"=>"Hebrew","G"=>"Greek","N"=>"Proper Name");
+static $type = array(
 "A"=>"Adjective","Adv"=>"Adverb","Art"=>"Article","Cond"=>"Conditional","Conj"=>"Conjunction","Cor"=>"Correlative","DemP"=>"Demonstrative Pronoun","ImpP"=>"Impersonal Pronoun",
 "Intg"=>"Interogative","Intj"=>"Interjection","N"=>"Noun","Neg"=>"Negative","Part"=>"Particle","Prep"=>"Preposition","PerP"=>"Personal Pronoun","PosP"=>"Possessive Pronoun",
 "RefP"=>"Reflexive Pronoun","RelP"=>"Relative Pronoun","V"=>"Verb",
@@ -1535,15 +1523,12 @@ if (!$type) { $type = array(
 "Sp2f"=>"you, subject pronoun - subject 2nd person feminine plural",
 "Sp3m"=>"they, subject pronoun - subject 3rd person masculine plural",
 "Sp3f"=>"they, subject pronoun - subject 3rd person feminine plural",
-); } 
-static $gender = NULL;
-if (!$gender) { $gender = array(
+);
+static $gender = array(
 "F"=>"Female","M"=>"Male","N"=>"Neuter","C"=>"Common","B"=>"Male/Female","L"=>"Male/Neuter","E"=>"Female/Neuter",
 "FS"=>"Female Singular","MS"=>"Male Singular","NS"=>"Neuter Singular","CS"=>"Common Singular","BS"=>"Male/Female Singular","LS"=>"Male/Neuter Singular","ES"=>"Female/Neuter Singular",
-"FP"=>"Female Plural","MP"=>"Male Plural","NP"=>"Neuter Plural","CP"=>"Common Plural","BP"=>"Male/Female Plural","LP"=>"Male/Neuter Plural","EP"=>"Female/Neuter Plural"); }
-static $extra = NULL;
-if (!$extra) { $extra = array(
-"L"=>"Location","P"=>"Person","LG"=>"Gentilic Location","PG"=>"Gentilic Person","T"=>"Title","TG"=>"Gentilic Title"); }
+"FP"=>"Female Plural","MP"=>"Male Plural","NP"=>"Neuter Plural","CP"=>"Common Plural","BP"=>"Male/Female Plural","LP"=>"Male/Neuter Plural","EP"=>"Female/Neuter Plural");
+static $extra = array("L"=>"Location","P"=>"Person","LG"=>"Gentilic Location","PG"=>"Gentilic Person","T"=>"Title","TG"=>"Gentilic Title");
 // check
 if (empty($morph)) { return ""; }
 $parts = mb_split("[:\-]{1}", $morph);
@@ -1558,7 +1543,7 @@ return $gotit;
 
 
 /*** AIONIAN ***/
-function abcms_aion($strongs,&$SID,$book=NULL,$chap=NULL,$verse=NULL) {
+function abcms_aion($strongs,&$SID,&$word,$book=NULL,$chap=NULL,$verse=NULL) {
 global $_Part;
 $SID = (NULL===$book ? $strongs :
 	"<a href='".abcms_href((empty($_Part[1]) ? '/Strongs' : "/Strongs/$_Part[1]"),FALSE,TRUE,FALSE).
@@ -1601,6 +1586,19 @@ static $adef = array(
 	'g3041'	=> "Lake of Fire, final punishment for those not named in the Book of Life, prepared for the Devil and his angels, Matthew 25:41.",
 	'g4442'	=> "Lake of Fire, final punishment for those not named in the Book of Life, prepared for the Devil and his angels, Matthew 25:41.",
 );
+static $aword = array(
+	'g12'	=> "Abyssos",
+	'g126'	=> "aïdios",
+	'g165'	=> "aiōn",
+	'g166'	=> "aiōnios",
+	'g1067'	=> "Geenna",
+	'g86'	=> "Hadēs",
+	'h7585'	=> "Sheol",
+	'g5020'	=> "Tartaroō",
+	'g3041'	=> "Lake",
+	'g4442'	=> "of Fire",
+);
+if (isset($aword[$strongs])) { $word = $aword[$strongs]; }
 return (empty($adef[$strongs]) ? NULL : $adef[$strongs]);
 }
 
@@ -1609,8 +1607,7 @@ return (empty($adef[$strongs]) ? NULL : $adef[$strongs]);
 
 /*** READ JSON ARRAY KEY ***/
 function abcms_read_json($file, $key) {
-static $cache = NULL;
-if ($cache===NULL) { $cache = array(); }
+static $cache = array();
 if (!isset($cache[$file]) && !($cache[$file]=json_decode(file_get_contents($file),true))) {
 	abcms_errs("abcms_read_json() json file not found: $file $key");
 	$cache[$file] = array();
@@ -2084,11 +2081,10 @@ error_log("AIONIANBIBLE ERROR LOG\n mess= $mess\n_Path= .$_Path\n_para= $_para\n
 /*** AIONIAN NAVIGATION ***/
 function abcms_aionian_nav($book,$chap,$vers,&$prev,&$next) {
 global $_BibleBOOKS, $_BibleONE;
-static $avs = NULL;
 $prev = NULL;
 $next = NULL;
 if (empty($_BibleBOOKS[$book]['NUMBER'])) { return; }
-if ($avs===NULL) { $avs = array(
+static $avs = array(
 '01037' => '35',
 '01042' => '38',
 '01044' => '29,31',
@@ -2253,7 +2249,6 @@ if ($avs===NULL) { $avs = array(
 '66021' => '8',
 '66022' => '5',
 );
-}
 // Find next and prev Aionian verse
 $mybookchap = (int)sprintf("%02d%03d", (int)$_BibleBOOKS[$book]['NUMBER'], (int)$chap);
 $prevbook = NULL;
@@ -2309,9 +2304,7 @@ return;
 
 /*** GUSTAVE DORE ***/
 function abcms_word_dore($book,$chap) {
-static $doredata = NULL;
-if ($doredata == NULL) {
-$doredata = array(
+static $doredata = array(
 'GEN-1' => array('N'=>'', 'C'=>"The Creation of Light", 'F'=>'Hebrew-OT-001-The-Creation-of-Light'),
 'GEN-2' => array('N'=>'', 'C'=>"The Creation of Eve", 'F'=>'Hebrew-OT-002-The-Creation-of-Eve'),
 'GEN-3' => array('N'=>'', 'C'=>"Adam and Eve Are Driven out of Eden", 'F'=>'Hebrew-OT-003-Adam-and-Eve-Are-Driven-out-of-Eden'),
@@ -2829,7 +2822,7 @@ $doredata = array(
 'REV-18' => array('N'=>'', 'C'=>"Babylon Has Fallen", 'F'=>'NT-Gospel-239-Babylon-Has-Fallen'),
 'REV-20' => array('N'=>'', 'C'=>"The Last Judgment", 'F'=>'NT-Gospel-240-The-Last-Judgment'),
 'REV-21' => array('N'=>'', 'C'=>"The New Jerusalem", 'F'=>'NT-Gospel-241-The-New-Jerusalem'),
-); }
+);
 
 global $_BibleBOOKS;
 $book = (empty($_BibleBOOKS[$book]['CODE']) ? '' : $_BibleBOOKS[$book]['CODE']);
