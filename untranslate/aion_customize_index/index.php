@@ -22,6 +22,7 @@ else if ($_Path==='Maps') {								$_meta = " ~ Maps";											abcms_page('doc
 else if ($_Path==='History') {							$_meta = " ~ History";										abcms_page('docs/history.htm'); }
 else if ($_Path==='Readers-Guide') {					$_meta = " ~ Readers Guide";								abcms_page('docs/readers-guide.htm'); }
 else if ($_Path==='Aionios-and-Aidios') {				$_meta = " ~ Aiōnios and Aïdios";							abcms_page('docs/aionios-and-aidios.htm'); }
+else if ($_Path==='Lake-of-Fire') {						$_meta = " ~ Lake of Fire prepared for the Devil and his angels";	abcms_page('docs/lake-of-fire.htm'); }
 else if ($_Path==='Promote') {							$_meta = " ~ Promote, Sponsor, Advertise, Market";			abcms_page('docs/promote.htm'); }
 else if ($_Path==='Bible-Cover') {						$_meta = " ~ Aionian Bible Branded Leather Bible Covers";	abcms_page('docs/cover.htm'); }
 else if ($_Path==='Privacy') {							$_meta = " ~ Privacy Policy";								abcms_page('docs/privacy.htm'); }
