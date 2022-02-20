@@ -74,11 +74,9 @@ foreach( $database[T_SOURCES] as $data ) {
 	/* BIBLE */
 	$bible = $data[C_FILE];
 
-	/* SELECT, currently unused */
-	if (!empty($GETSELECT)) {
-		if (is_array($GETSELECT) && !in_array($bible, $GETSELECT)) { continue; }
-		else if ($GETSELECT!=$bible) { continue; }
-	}
+	/* SKIP */
+	if ($data[C_FLAG]=='SKIP') { continue; }
+	
 
 	/* RETRIEVE */
 	$retrieve = FALSE;

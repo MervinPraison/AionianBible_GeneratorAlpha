@@ -49,7 +49,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(LXX|Khan).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/(Holy-Bible---Latvian---Latvian-Gluck-Bible|Holy-Bible---Japanese---Japanese-Yougo-yaku)---Aionian-Edition\.noia$/",
 		//'include'	=> "/.*Arapaho.*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|STEPBible).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Peshitta|Korean).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*STEPBible.*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Statenvertaling|Kougo-yaku).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
@@ -656,6 +656,8 @@ function hyperlink(&$text, $notedlink="") {
 		$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Bibles/English---Aionian-Bible/Noted</Value></U>#",
 			"<A href='$notedlink'><U ><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Bibles/English---Aionian-Bible/Noted</Value></U></A>", $text);
 	}
+	$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Lake-of-Fire</Value></U>#",
+		"<A href='http://www.AionianBible.org/Lake-of-Fire'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Lake-of-Fire</Value></U></A>", $text);
 	// extra space added ABOVE to prevent overlap replace
 	$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value>#",
 		"<A href='http://www.AionianBible.org'><U><Value>AionianBible.or</Value></U><Value>g</Value></A>", $text);
@@ -710,6 +712,7 @@ $read		= trim(!empty($forprint['READ'])		? $forprint['READ']			: $default['READ'
 $glos1		= trim(!empty($forprint['GLOS1'])		? $forprint['GLOS1']		: $default['GLOS1']			);
 $glos2		= trim(!empty($forprint['GLOS2'])		? $forprint['GLOS2']		: $default['GLOS2']			);
 $glos3		= trim(!empty($forprint['GLOS3'])		? $forprint['GLOS3']		: $default['GLOS3']			);
+$loff		= trim(!empty($forprint['LOF'])			? $forprint['LOF']			: $default['LOF']			);
 // words
 $w_font		= trim(!empty($forprint['W_FONT'])		? $forprint['W_FONT']		: $default['W_FONT']		);
 $w_pref		= trim(!empty($forprint['W_PREF'])		? $forprint['W_PREF']		: $default['W_PREF']		);
@@ -728,6 +731,8 @@ $w_free		= trim(!empty($forprint['W_FREE'])		? $forprint['W_FREE']		: $default['
 $w_aka		= trim(!empty($forprint['W_AKA'])		? $forprint['W_AKA']		: $default['W_AKA']			);
 $w_purp		= trim(!empty($forprint['W_PURP'])		? $forprint['W_PURP']		: $default['W_PURP']		);
 $w_nudge	= trim(!empty($forprint['W_NUDGE'])		? $forprint['W_NUDGE']		: $default['W_NUDGE']		);
+$w_loff		= "Prepared for the Devil and his Angels";
+$w_dest		= "Destiny";
 // RTL EXTRAS
 $bidi_plain	= ($rtl=="TRUE" ? 'bidi="yes"' : '' );
 $bidi_center= ($rtl=="TRUE" ? 'bidi="yes" direction="rtl"' : '' );
@@ -744,6 +749,7 @@ $bm_toc		= str_replace("'","’",(empty($w_toc) ? "Table of Contents" : $w_toc))
 $bm_read	= str_replace("'","’",$w_read);
 $bm_glos	= str_replace("'","’",$w_glos);
 $bm_map		= str_replace("'","’",$w_map);
+$bm_loff	= str_replace("'","’",$w_dest);
 // verses
 $v_font		= trim(!empty($forprint['V_FONT'])		? $forprint['V_FONT']		: $default['V_FONT']		);
 $joh3_16	= trim(!empty($forprint['JOH3_16'])		? $forprint['JOH3_16']		: $default['JOH3_16']		);
@@ -819,6 +825,7 @@ $pref		= foreignlink($default['W_PREF'],	$w_pref,	"",		$w_font,	$langforeign,	$l
 $read		= foreignlink($default['W_READ'],	$w_read,	"",		$w_font,	$langforeign,	$langenglish,	$read,	$langspeed, $rtl);
 $glos1		= foreignlink($default['W_GLOS'],	$w_glos,	"",		$w_font,	$langforeign,	$langenglish,	$glos1,	$langspeed, $rtl);
 $glos3		= foreignlink($default['W_GLOS'],	$w_glos,	" +",	$w_font,	"",				$langenglish,	$glos3,	$langspeed, $rtl);
+$loff		= foreignlink($w_loff,				$w_loff,	"",		$w_font,	$langforeign,	$langenglish,	$loff,	$langspeed, $rtl);
 // add the PDF hyperlinks
 $bibleurl = preg_replace("/Holy-Bible---/","",$versions['BIBLE']);
 $link_ab = "<U><Value>http://AionianBible.or</Value></U><Value>g</Value>";
@@ -829,6 +836,7 @@ if (($format=="READ" || $format=="STUDY")) {
 	hyperlink($read);
 	hyperlink($glos1);
 	hyperlink($glos3,"http://www.AionianBible.org/Bibles/$bibleurl/Noted");
+	hyperlink($loff);
 	$link_ab = "<A href='http://www.AionianBible.org'><U><Value>http://AionianBible.or</Value></U><Value>g</Value></A>";
 	$link_na = "<A href='http://nainoia-inc.signedon.net'><U><Value>http://Nainoia-Inc.si</Value></U><Value>g</Value><U><Value>nedon.net</Value></U></A>";
 }
@@ -867,16 +875,16 @@ $w_toc =
 	: "<Span language='English (USA)'><Fontface fontfamily='FF-Head'><Value>Table of Contents</Value></Fontface></Span>"));
 // toc appendix
 if ($w_apdx == $default['W_APDX']) {
-	$w_app = "<Span language='English (USA)'><B><Value>$w_apdx</Value></B><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_ilus, Doré</Value></Span>";
+	$w_app = "<Span language='English (USA)'><B><Value>$w_apdx</Value></B><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_dest</Value><Br /><Value>$w_ilus, Doré</Value></Span>";
 }
 else if ($rtl=="TRUE") {
-	$w_app = "<Span $langspeed><Fontface fontfamily='FF-TocF'><B><Value>$w_apdx</Value></B><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_ilus</Value></Fontface></Span><Span language='English (USA)'><Value> Doré </Value></Span>";
+	$w_app = "<Span $langspeed><Fontface fontfamily='FF-TocF'><B><Value>$w_apdx</Value></B><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /></Fontface></Span><Span language='English (USA)'><Value>$w_dest</Value><Br /></Span><Span $langspeed><Fontface fontfamily='FF-TocF'><Value>$w_ilus</Value></Fontface></Span><Span language='English (USA)'><Value> Doré </Value></Span>";
 }
 else if ($w_font=='FOREIGN') {
-	$w_app = "<Span $langspeed><Fontface fontfamily='FF-TocF'><B><Value>$w_apdx</Value></B><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_ilus</Value></Fontface></Span><Span language='English (USA)'><Value>, Doré</Value></Span>";
+	$w_app = "<Span $langspeed><Fontface fontfamily='FF-TocF'><B><Value>$w_apdx</Value></B><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /></Fontface></Span><Span language='English (USA)'><Value>$w_dest</Value></Span><Span $langspeed><Fontface fontfamily='FF-TocF'><Br /><Value>$w_ilus</Value></Fontface></Span><Span language='English (USA)'><Value>, Doré</Value></Span>";
 }
 else {
-	$w_app = "<Span $langspeed><B><Value>$w_apdx</Value></B><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_ilus</Value></Span><Span language='English (USA)'><Value>, Doré</Value></Span>";
+	$w_app = "<Span $langspeed><B><Value>$w_apdx</Value></B><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /></Span><Span language='English (USA)'><Value>$w_dest</Value></Span><Span $langspeed><Br /><Value>$w_ilus</Value></Span><Span language='English (USA)'><Value>, Doré</Value></Span>";
 }
 // fix pix verses
 $gen3_24 =
@@ -1053,7 +1061,7 @@ $MARGIN_MAPS_COLUMN			= '72';
 $MARGIN_TOCS_LEFT			= '1';
 $MARGIN_TOCS_MID			= '21';
 $MARGIN_TOCS_RIGHT			= '41';
-$MARGIN_TOCS_BOTTOM			= '118';
+$MARGIN_TOCS_BOTTOM			= '116';
 if ($rtl=='TRUE') {
 	$MARGIN_TOCS_LEFT = $MARGIN_TOCS_RIGHT;
 	$MARGIN_TOCS_RIGHT = 1;;
@@ -1394,6 +1402,7 @@ $fonts
 			<ClearPage openon="right" pagetype="$page1colright" /><Bookmark level="1" select="'$bm_pref'" open="no" /><Output area="area1col"><Text>$pref</Text></Output>
 		</Otherwise>
 	</Switch>
+	<Message select="concat('ABPROOFER $outpdf PREFACE ',sd:current-page())" />
 	
 	<!-- BIBLE TOC -->
 	<ClearPage openon="left" pagetype="$page1colleft"  />
@@ -1511,7 +1520,13 @@ $fonts
 			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' ><Image file='$PIX_TIMEB' height='$MARGIN_MAPS_WIDTH_TIME' width='$MARGIN_MAPS_HEIGHT_TIME' clip='no' /></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf TIMEB ',sd:current-page())" />
 
-			<ClearPage openon="left" pagetype="$page1colleftrotated"/>
+			<!-- LAKE OF FIRE -->
+			<ClearPage openon="left" pagetype="$page1colleft" />
+			<Bookmark level="1" select="'$bm_loff'" open="no" />
+			<Output area="area1col"><Text>$loff</Text></Output>
+			<Message select="concat('ABPROOFER $outpdf LAKEOFFIRE ',sd:current-page())" />
+
+			<ClearPage openon="right" pagetype="$page1colrightrotated"/>
 			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_WORLD' height='$MARGIN_MAPS_WIDTH' width='$MARGIN_MAPS_HEIGHT' clip='no' rotate='90' /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_COLUMN" column="1" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$mat28_19</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP5 ',sd:current-page())" />
@@ -1566,8 +1581,14 @@ $fonts
 					<Message select="concat('ABPROOFER $outpdf TIME4 ',sd:current-page())" />
 				</Otherwise>
 			</Switch>
+
+			<!-- LAKE OF FIRE -->
+			<ClearPage openon="left" pagetype="$page1colleft" />
+			<Bookmark level="1" select="'$bm_loff'" open="no" />
+			<Output area="area1col"><Text>$loff</Text></Output>
+			<Message select="concat('ABPROOFER $outpdf LAKEOFFIRE ',sd:current-page())" />
 		
-			<ClearPage openon="left" pagetype="$page1colleft"/>
+			<ClearPage openon="right" pagetype="$page1colright"/>
 			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_WORLD' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_HEIGHT" column="$MARGIN_MAPS_COLUMN" rotate="-90" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$mat28_19</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP5 ',sd:current-page())" />
@@ -1576,7 +1597,6 @@ $fonts
 	
 	<!-- BIBLE BLANKS -->
 	<Switch><Case test="$onlineformat"></Case><Otherwise>
-		<ClearPage openon="right" pagetype="$page1colright"/>
 		<ClearPage openon="left" pagetype="$page1colleft"/>
 	</Otherwise></Switch>
 	

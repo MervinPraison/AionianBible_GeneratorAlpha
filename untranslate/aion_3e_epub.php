@@ -75,7 +75,7 @@ function AION_LOOP_EPUBY($source, $destiny_unzip, $destiny_zip) {
 		'function'		=> 'AION_LOOP_EPUBY_DOIT',
 		'source'		=> $source,
 		//'include'		=> "/Holy-Bible---.*(Roman).*---Aionian-Edition\.noia$/",
-		//'include'		=> "/Holy-Bible---.*(Arabic|Aionian|Simplified).*---Aionian-Edition\.noia$/",
+		//'include'		=> "/Holy-Bible---.*(Aionian-Bible|Peshitta|Korean).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.+(Basic).+---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.*(Azerb|Gaelic|Somali).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.*(STEPBible).*---Aionian-Edition\.noia$/",
@@ -421,6 +421,7 @@ EOF;
 	AION_EPUBY_REAR_2_GLOSSARY_XHTML($FOLDEPUB, $h7585, $g12, $g86, $g126, $g165, $g166, $g1067, $g3041, $g5020, $questioned); // CREATE rear-2-glossary.xhtml
 	AION_EPUBY_REAR_3_HISTORY_PAST_XHTML($FOLDEPUB);								// CREATE rear-3-history-past.xhtml
 	AION_EPUBY_REAR_4_HISTORY_FUTURE_XHTML($FOLDEPUB);								// CREATE rear-4-history-future.xhtml
+	AION_EPUBY_REAR_5_HISTORY_DESTINY_XHTML($FOLDEPUB);								// CREATE rear-5-history-destiny.xhtml
 	AION_EPUBY_IMAGE_VERSE_XHTML("$FOLDEPUB/rear-5-map-abraham.xhtml",	"Abraham's Journeys",			"images/MAP-ABRAHAM.jpg",	$G_FORPRINT["HEB11_8"],		TRUE);
 	AION_EPUBY_IMAGE_VERSE_XHTML("$FOLDEPUB/rear-6-map-exodus.xhtml",	"Israel's Exodus",				"images/MAP-EXODUS.jpg",	$G_FORPRINT["EXO13_17"],	TRUE);
 	AION_EPUBY_IMAGE_VERSE_XHTML("$FOLDEPUB/rear-7-map-jesus.xhtml",	"Jesus' Journeys",				"images/MAP-JESUS.jpg",		$G_FORPRINT["MAR10_45"],	TRUE);
@@ -479,6 +480,20 @@ if (empty($object) || $folder) {
 	$object->X_1JO_2	= ($folder && file_exists("$folder/chapters/062-1JO-002.xhtml") ? "<a href='chapters/062-1JO-002.xhtml' title='View reference'>1 John 2:27</a>"				: "1 John 2:27");
 	$object->X_JUD_1	= ($folder && file_exists("$folder/chapters/065-JUD-001.xhtml") ? "<a href='chapters/065-JUD-001.xhtml' title='View reference'>Jude 6</a>"					: "Jude 6");
 	$object->X_REV_20	= ($folder && file_exists("$folder/chapters/066-REV-020.xhtml") ? "<a href='chapters/066-REV-020.xhtml' title='View reference'>Revelation 20:13-14</a>"		: "Revelation 20:13-14");
+	// Additional links on Lake of Fire page
+	$object->X_PARADISE	= ($folder && file_exists("$folder/chapters/042-LUK-023.xhtml") ? "<a href='chapters/042-LUK-023.xhtml' title='View Luke 23:43'>Paradise</a>"				: "Paradise");
+	$object->X_NEWHEAVEN= ($folder && file_exists("$folder/chapters/066-REV-021.xhtml") ? "<a href='chapters/066-REV-021.xhtml' title='View Revelation 21'>The New Heaven</a>"		: "The New Heaven");
+	$object->X_NEWEARTH	= ($folder && file_exists("$folder/chapters/066-REV-021.xhtml") ? "<a href='chapters/066-REV-021.xhtml' title='View Revelation 21'>The New Earth</a>"		: "The New Earth");
+	$object->X_SHEEP	= ($folder && file_exists("$folder/chapters/040-MAT-025.xhtml") ? "<a href='chapters/040-MAT-025.xhtml' title='View reference'>Matthew 25:31-46</a>"		: "Matthew 25:31-46");
+	$object->X_GREAT	= ($folder && file_exists("$folder/chapters/066-REV-020.xhtml") ? "<a href='chapters/066-REV-020.xhtml' title='View reference'>Revelation 20:11-15</a>"		: "Revelation 20:11-15");
+	$object->X_HEB_2	= ($folder && file_exists("$folder/chapters/058-HEB-002.xhtml") ? "<a href='chapters/058-HEB-002.xhtml' title='View reference'>Hebrews 2</a>"				: "Hebrews 2");
+	$object->X_ALLALL	= ($folder && file_exists("$folder/chapters/062-1JO-002.xhtml") ? "<a href='chapters/062-1JO-002.xhtml' title='View reference'>1 John 2:1-2</a>"			: "1 John 2:1-2");
+	$object->X_LUK_16	= ($folder && file_exists("$folder/chapters/042-LUK-016.xhtml") ? "<a href='chapters/042-LUK-016.xhtml' title='View reference'>Luke 16:19-31</a>"			: "Luke 16:19-31");
+	$object->X_MAT_16	= ($folder && file_exists("$folder/chapters/040-MAT-016.xhtml") ? "<a href='chapters/040-MAT-016.xhtml' title='View reference'>Matthew 16:18</a>"			: "Matthew 16:18");
+	$object->X_1CO_15	= ($folder && file_exists("$folder/chapters/046-1CO-015.xhtml") ? "<a href='chapters/046-1CO-015.xhtml' title='View reference'>1 Corinthians 15:55</a>"		: "1 Corinthians 15:55");
+	$object->X_REV_1	= ($folder && file_exists("$folder/chapters/066-REV-001.xhtml") ? "<a href='chapters/066-REV-001.xhtml' title='View reference'>Revelation 1:18</a>"			: "Revelation 1:18");
+	$object->X_REV_21	= ($folder && file_exists("$folder/chapters/066-REV-021.xhtml") ? "<a href='chapters/066-REV-021.xhtml' title='View reference'>Revelation 21:1-8</a>"		: "Revelation 21:1-8");
+	$object->X_JOH_15	= ($folder && file_exists("$folder/chapters/043-JOH-015.xhtml") ? "<a href='chapters/043-JOH-015.xhtml' title='View reference'>John 15:16</a>"				: "John 15:16");
 }
 return $object;
 }
@@ -692,6 +707,7 @@ $intro_old$intro_new$outro_new<item href='rear-1-readers-guide.xhtml' id='xreade
 <item href='rear-2-glossary.xhtml' id='xglossary' media-type='application/xhtml+xml' />
 <item href='rear-3-history-past.xhtml' id='xpast' media-type='application/xhtml+xml' />
 <item href='rear-4-history-future.xhtml' id='xfuture' media-type='application/xhtml+xml' />
+<item href='rear-5-history-destiny.xhtml' id='xdestiny' media-type='application/xhtml+xml' />
 <item href='rear-5-map-abraham.xhtml' id='xabraham' media-type='application/xhtml+xml' />
 <item href='rear-6-map-exodus.xhtml' id='xexodus' media-type='application/xhtml+xml' />
 <item href='rear-7-map-jesus.xhtml' id='xjesus' media-type='application/xhtml+xml' />
@@ -723,6 +739,7 @@ $opf_spine_old$opf_spine_new<itemref idref='xreaders' linear='yes' />
 <itemref idref='xglossary' linear='yes' />
 <itemref idref='xpast' linear='yes' />
 <itemref idref='xfuture' linear='yes' />
+<itemref idref='xdestiny' linear='yes' />
 <itemref idref='xabraham' linear='yes' />
 <itemref idref='xexodus' linear='yes' />
 <itemref idref='xjesus' linear='yes' />
@@ -779,11 +796,12 @@ $ncx_old$ncx_new<navPoint id='nav{$ff($cnE+0)}' playOrder='{$ff($cnE+0)}'><navLa
 <navPoint id='nav{$ff($cnE+1)}' playOrder='{$ff($cnE+1)}'><navLabel><text>Glossary</text></navLabel><content src='rear-2-glossary.xhtml' /></navPoint>
 <navPoint id='nav{$ff($cnE+2)}' playOrder='{$ff($cnE+2)}'><navLabel><text>History Past</text></navLabel><content src='rear-3-history-past.xhtml' /></navPoint>
 <navPoint id='nav{$ff($cnE+3)}' playOrder='{$ff($cnE+3)}'><navLabel><text>History Future</text></navLabel><content src='rear-4-history-future.xhtml' /></navPoint>
-<navPoint id='nav{$ff($cnE+4)}' playOrder='{$ff($cnE+4)}'><navLabel><text>Abraham</text></navLabel><content src='rear-5-map-abraham.xhtml' /></navPoint>
-<navPoint id='nav{$ff($cnE+5)}' playOrder='{$ff($cnE+5)}'><navLabel><text>Exodus</text></navLabel><content src='rear-6-map-exodus.xhtml' /></navPoint>
-<navPoint id='nav{$ff($cnE+6)}' playOrder='{$ff($cnE+6)}'><navLabel><text>Jesus</text></navLabel><content src='rear-7-map-jesus.xhtml' /></navPoint>
-<navPoint id='nav{$ff($cnE+7)}' playOrder='{$ff($cnE+7)}'><navLabel><text>Paul</text></navLabel><content src='rear-8-map-paul.xhtml' /></navPoint>
-<navPoint id='nav{$ff($cnE+8)}' playOrder='{$ff($cnE+8)}'><navLabel><text>World</text></navLabel><content src='rear-9-map-world.xhtml' /></navPoint>
+<navPoint id='nav{$ff($cnE+4)}' playOrder='{$ff($cnE+4)}'><navLabel><text>Destiny</text></navLabel><content src='rear-5-history-destiny.xhtml' /></navPoint>
+<navPoint id='nav{$ff($cnE+5)}' playOrder='{$ff($cnE+5)}'><navLabel><text>Abraham</text></navLabel><content src='rear-5-map-abraham.xhtml' /></navPoint>
+<navPoint id='nav{$ff($cnE+6)}' playOrder='{$ff($cnE+6)}'><navLabel><text>Exodus</text></navLabel><content src='rear-6-map-exodus.xhtml' /></navPoint>
+<navPoint id='nav{$ff($cnE+7)}' playOrder='{$ff($cnE+7)}'><navLabel><text>Jesus</text></navLabel><content src='rear-7-map-jesus.xhtml' /></navPoint>
+<navPoint id='nav{$ff($cnE+8)}' playOrder='{$ff($cnE+8)}'><navLabel><text>Paul</text></navLabel><content src='rear-8-map-paul.xhtml' /></navPoint>
+<navPoint id='nav{$ff($cnE+9)}' playOrder='{$ff($cnE+9)}'><navLabel><text>World</text></navLabel><content src='rear-9-map-world.xhtml' /></navPoint>
 </navMap>
 </ncx>
 EOF;
@@ -959,6 +977,7 @@ $intro_old$index_old$intro_new$index_new$outro_new<li class='olend' value='1'><a
 <li class='olend'><a href='rear-2-glossary.xhtml' title='View Aionian Glossary'>$W_GLOS</a></li>
 <li class='olinA'><a href='rear-3-history-past.xhtml' title='View chart of history past'>History Past</a></li>
 <li class='oline'><a href='rear-4-history-future.xhtml' title='View chart of history future'>History Future</a></li>
+<li class='oline'><a href='rear-5-history-destiny.xhtml' title='View explanation of mankinds destiny'>Destiny</a></li>
 <li class='olinA' value='4'><a href='rear-5-map-abraham.xhtml' title='View map of Abrahams Journeys'>Abraham's Journeys</a></li>
 <li class='oline'><a href='rear-6-map-exodus.xhtml' title='View map of Israels Exodus'>Israel's Exodus</a></li>
 <li class='oline'><a href='rear-7-map-jesus.xhtml' title='View map of Jesus Journeys'>Jesus' Journeys</a></li>
@@ -1171,6 +1190,46 @@ $G_COMMENT
 <div class='cover'><img src="images/HISTORY-FUTURE.jpg" alt="History Future" /></div>
 <p><a href='http://www.aionianbible.org/Future' target='_blank' title='Download printable chart'>Printable version</a></p>
 <p>The chart indicates the whereabouts of God, mankind, and angels throughout the ages of history.  Note that the punishment of deceased unbelieving mankind in Hades is temporal as promised when Jesus said <i>“the gates of Hades will not prevail”</i>, Paul wrote <i>“Hades where is your victory?”</i>, and John wrote <i>“Hades gives up.”</i>  Also note that certain fallen angels are already held in a separate prison, Tartarus, awaiting final judgment and sentencing to the Lake of Fire which is <i>“prepared for the Devil and his angels,”</i> according to Matthew 25:41.  Satan’s rebellion will be crushed and Christ will be victorious in the salvation of all his people.  You too can know your name is already written in Heaven through faith in Jesus Christ!</p>
+</body>
+</html>
+EOF;
+if (file_put_contents($file, $contents) === FALSE) { AION_ECHO("ERROR! AION_FILE_DATA_PUT file_put_contents($file)"); }
+return;	
+}
+
+
+
+
+// CREATE rear-5-history-destiny.xhtml
+function AION_EPUBY_REAR_5_HISTORY_DESTINY_XHTML($folder) {
+global $G_BOOKS, $G_NUMBERS, $G_VERSIONS, $G_FORPRINT, $G_UUID, $G_TITLE, $G_MODIFIED, $G_RTL, $G_COMMENT;
+$links = AION_EPUBY_LINKS();
+$languagehtml = $G_VERSIONS['LANGUAGEHTML'];
+$file = "$folder/rear-5-history-destiny.xhtml";
+$contents = <<< EOF
+<?xml version="1.0" encoding="utf-8"?>
+$G_COMMENT
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<head>
+<meta charset="utf-8" />
+<meta name='viewport' content='width=device-width,initial-scale=1'/>
+<title>$G_TITLE</title>
+<link href='epub.css' rel='stylesheet' />
+</head>
+<body>
+<h2 class='title'>Prepared for the Devil and his Angels</h2>
+<p class='center'>$languagehtml<a href='http://www.AionianBible.org/Lake-of-Fire' target='_blank'>www.AionianBible.org/Lake-of-Fire</a></p>
+
+<p>The Aionian Bible notes show the location of ten special Greek and Hebrew <a href='rear-2-glossary.xhtml' title='Aionian Glossary'>Aionian Glossary</a> words to help us better understand God’s love for individuals and for all mankind, and the nature of after-life destinies. The underlying Hebrew and Greek words typically translated as <i>Hell</i> show us that there are not just two after-life destinies, Heaven or Hell.  Instead, there are a number of different locations, each with different purposes, different durations, and different inhabitants. Locations include 1) Old Testament <a href='rear-2-glossary.xhtml#h7585' title='Aionian Glossary h7585'><i>Sheol</i></a> and New Testament <a href='rear-2-glossary.xhtml#g86' title='Aionian Glossary g86'><i>Hadēs</i></a>, 2) <a href='rear-2-glossary.xhtml#g1067' title='Aionian Glossary g1067'><i>Geenna</i></a>,
+3) <a href='rear-2-glossary.xhtml#g5020' title='Aionian Glossary g5020'><i>Tartaroō</i></a>, 4) <a href='rear-2-glossary.xhtml#g12' title='Aionian Glossary g12'><i>Abyssos</i></a>, 5) <a href='rear-2-glossary.xhtml#g3041' title='Aionian Glossary g3041 g4442'><i>Limnē Pyr</i></a>, 6) {$links->X_PARADISE}, 7) {$links->X_NEWHEAVEN}, and 8) {$links->X_NEWEARTH}. So there is reason to review our conclusions about the destinies of redeemed mankind and fallen angels.</p>
+
+<p>The most significant observation is that fallen angels will be present at the final judgment, {$links->X_2PE_2} and  {$links->X_JUD_1}. Traditionally, we understand the separation of the Sheep and the Goats at the final judgment to mean separating believing from unbelieving mankind, {$links->X_SHEEP} and {$links->X_GREAT}. However, the presence of fallen angels at the final judgment alternatively suggests that Jesus is separating redeemed mankind from the fallen angels.  We do know that Jesus is the helper of mankind and not the helper of the Devil, {$links->X_HEB_2}. We also know that Jesus has atoned for the sins of all mankind, both believer and unbeliever alike, {$links->X_ALLALL}. Certainly, unbelievers are punished for their selfishness as the story of Lazarus makes plain, {$links->X_LUK_16}. Yet less commonly known, the punishment of this selfish man and all unbelievers is before the final judgment, is temporal, and is punctuated when Hades is evacuated, {$links->X_REV_20}. So is there hope beyond Hades for unbelieving mankind? Jesus promised that, <i>“the gates of Hades will not prevail,”</i> {$links->X_MAT_16}. Paul asks, <i>“Hades where is your victory?”</i> {$links->X_1CO_15}. And John wrote that, <i>“Hades gives up,”</i> {$links->X_REV_20}.</p>
+
+<p>We should find hope that Jesus tells us, <i>“Do not be afraid,”</i>, because he holds the keys to <i>unlock</i> death and Hades, {$links->X_REV_1}. Yet too often our <i>Good News</i> sounds like a warning to <i>“be afraid”</i> because Jesus holds the keys to <i>lock</i> Hades!  Wow, we have it backwards!  Hades will be evacuated!  And there is even greater hope because after the prison of Hades is evacuated, it is thrown into the Lake of Fire, never needed again, {$links->X_REV_20}.</p>
+
+<p>Finally, we read that anyone whose name is not written in the Book of Life is thrown into the Lake of Fire, the second death, with no exit ever mentioned or promised, {$links->X_REV_21}. So are those evacuated from Hades then, <i>“out of the frying pan, into the fire?”</i>  Certainly, the Lake of Fire is the destiny of the Goats.  But, do not be afraid. Instead, read the Bible's explicit mention of the purpose of the Lake of Fire and the identity of the Goats. <i>“Then he will say also to those on the left hand, ‘Depart from me, you cursed, into the consummate fire which is prepared for the devil and his angels,’”</i> {$links->X_MAT_25}. Good news for all mankind!</p>
+
+<p>Faith is not a pen to write your own name in the Book of Life. Instead, faith is the glasses to see that the love of Christ for all mankind has already written our names in Heaven. Jesus said, <i>“You did not choose me, but I chose you,”</i> {$links->X_JOH_15}.  Though unbelievers will suffer regrettable punishment in Hades, redeemed mankind will never enter the Lake of Fire, prepared for the devil and his angels.</p>
 </body>
 </html>
 EOF;

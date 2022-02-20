@@ -43,8 +43,6 @@ $CHECK_FIXS = "CHECK_FIXED.txt";
 $CHECK_HTMG = "CHECK_HTML_GREEK_TBESG.htm";
 $CHECK_HTML = "CHECK_HTML_GREEK_TFLSJ.htm";
 $CHECK_HTMH = "CHECK_HTML_HEBREW_TBESH.htm";
-$CHECK_LEXG = "CHECK_LEXICON_GREEK.txt";
-$CHECK_LEXH = "CHECK_LEXICON_HEBREW.txt";
 $CHECK_MISS = "CHECK_MISSING.txt";
 $CHECK_MORF = "CHECK_MORPHS.txt";
 $CHECK_REFS = "CHECK_REFERENCES.txt";
@@ -149,7 +147,16 @@ $README_FILE > This file
 
 # Check files
 $CHECK_BOOK > Unique Bible book abbreviations in tagged texts 
+$CHECK_ECSV > Empty fields in $HEBREW_VIZBI_DATA
+$CHECK_EHLX > Empty fields in $HEBREW_TBESH_DATA
+$CHECK_EHTG > Empty fields in $HEBREW_TAGED_DATA
+$CHECK_EGLX > Empty fields in $GREEK_TBESG_DATA
+$CHECK_ELSJ > Empty fields in $GREEK_TFLSJ_DATA
+$CHECK_EGTG > Empty fields in $GREEK_TAGED_DATA
 $CHECK_FIXS > Textual hygiene change counts
+$CHECK_HTMG > HTML errors in the Tyndale Greek Lexicon
+$CHECK_HTML > HTML errors in the LSJ Greek Lexicon
+$CHECK_HTMH > HTML errors in the Tyndale Hebrew Lexicon
 $CHECK_MISS > Manuscript abbreviations in tagged texts, but undefined or missing
 $CHECK_MORF > Morphhologies in lexicons and tagged texts, but undefined or missing
 $CHECK_REFS > Reference non-standard or missing
@@ -167,10 +174,11 @@ $HEBREW_VIZBI_DATA > Strong's Hebrew Lexicon
 $HEBREW_VIZBI_INDX > json byte index file to Strong's Hebrew Lexicon
 $HEBREW_MORPH_DATA > json index file to Hebrew Lexicon morphhology codes
 $HEBREW_TAGED_DATA > Old Testament Strong's Tagged Text
+$HEBREW_TAGED_INDX > json index file to Old Testament Strong's Tagged Text
 $HEBREW_TAGED_NUMS > json book, chapter, verse, and total Strong's usage count from OT Strong's Tagged Text
 $HEBREW_USAGE_DATA > Hebrew Strong's usage indicated by chapter index
 $HEBREW_USAGE_INDX > json byte index file to Hebrew Strong's usage indicated by chapter index
-$HEBREW_CHAPS_DATA > json per chapter verse Hebrew lexicon data files, also indexed by modulo verse number 
+$HEBREW_CHAPS_DATA > json per chapter verse Hebrew lexicon data files, also indexed by modulo verse number
 
 # Greek files
 $GREEK_TBESG_DATA > Extended Strong's Greek Lexicon
@@ -181,6 +189,7 @@ $GREEK_VIZBI_DATA > Strong's Greek Lexicon
 $GREEK_VIZBI_INDX > json byte index file to Strong's Greek Lexicon
 $GREEK_MORPH_DATA > json index file to Greek Lexicon morphhology codes
 $GREEK_TAGED_DATA > Translators Amalgamated Greek New Testament
+$GREEK_TAGED_INDX > json index file to Translators Amalgamated Greek New Testament
 $GREEK_TAGED_NUMS > json book, chapter, verse, and total Strong's usage count from Translators Amalgamated Greek New Testament
 $GREEK_USAGE_DATA > Greek Strong's usage indicated by chapter index
 $GREEK_USAGE_INDX > json byte index file to Greek Strong's usage indicated by chapter index
@@ -287,6 +296,8 @@ AION_ECHO("VIZ $FOLDER_STAGE$GREEK_VIZBI_INDX");
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // TYNDALE HEBREW READ
 AION_NEWSTRONGS_COD( "$INPUT_TEHMC",'HEBMOR', $database);
+$database['HEBLEX'] = array();
+$database['HEBLEX']['H0'] = array('STRONGS' => 'H0','WORD' => '-','TRANS' => '-','GLOSS' => 'Omitted by scribes','MORPH' => '','DEF' => 'Qere read word omitted by scribes'); // Add definition for H0, scribe omitted qere
 AION_NEWSTRONGS_GET( "$INPUT_TBESH",'H0001	אָב', NULL, NULL, NULL, 'HEBLEX',
 	array('STRONGS','WORD','TRANS','MORPH','GLOSS','DEF',''),
 	array('STRONGS','WORD','TRANS','MORPH','GLOSS','DEF',''), "$FOLDER_STAGE$CHECK_EHLX",
@@ -1262,7 +1273,7 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 		$indx = sprintf('%03d', (int)array_search($book,array_keys($abooks)));
 		$chap = sprintf('%03d', (int)$match[2]);
 		$vers = sprintf('%03d', (int)$match[3]);
-		
+
 		// Sorted properly? Look for problems
 		if ($last_indx && (
 			($last_indx >  (int)$indx) ||
@@ -1353,10 +1364,11 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 			}
 			else if ($strongs=="-") {
 				if ($key || $KetivQere!='Q') { AION_ECHO("ERROR! $newmess strongs='-' only for a few Qere!\n".print_r($line,TRUE)); }
+				AION_NEWSTRONGS_STRONGS_PARSE($newmess, "H0", FALSE, $lex_array, $lex2_array); // just check it
 				$jointype = "Q";
 				// Qere omission output!
 				//"INDEX\tBOOK\tCHAPTER\tVERSE\tSTRONGS\tFLAG\tMORPH\tWORD\tENGLISH\tPART\tADDITIONAL\n";
-				$database[$table] .= "$indx\t$book\t$chap\t$vers\tH0\t$jointype\t\t\t\t\t\n";
+				$database[$table] .= "$indx\t$book\t$chap\t$vers\tH0\t$jointype\t\t-\tOmitted by scribes\t\t\n";
 				continue;
 			}
 			// hebrew and additional

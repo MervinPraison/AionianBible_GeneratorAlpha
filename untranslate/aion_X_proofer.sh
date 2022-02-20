@@ -107,6 +107,7 @@ AION_ECHO("PDF PROOFER GENERATION: COVERS");
 // INTERIOR PDFS
 system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "TITLE"));
 system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "COPYRIGHT"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "PREFACE"));
 system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "TOC"));
 system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "OT-INTRO"));
 system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "OT-PIX"));
@@ -129,11 +130,13 @@ system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "TIME1"));
 system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "TIME2"));
 system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "TIME3"));
 system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "TIME4"));
+system(build_pdftk($proofer, "---POD_KDP_ALL_BODY.pdf", "LAKEOFFIRE"));
 AION_ECHO("PDF PROOFER GENERATION: INTERIOR");
 
 
 system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "TITLE"));
 system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "COPYRIGHT"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "PREFACE"));
 system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "TOC"));
 system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "OT-INTRO"));
 system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "OT-PIX"));
@@ -156,11 +159,13 @@ system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "TIME1"));
 system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "TIME2"));
 system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "TIME3"));
 system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "TIME4"));
+system(build_pdftk($proofer, "---POD_KDP_NEW_BODY.pdf", "LAKEOFFIRE"));
 AION_ECHO("PDF PROOFER GENERATION: INTERIOR_NT");
 
 
 system(build_pdftk2($proofer, "---STUDY.pdf", "TITLE"));
 system(build_pdftk2($proofer, "---STUDY.pdf", "COPYRIGHT"));
+system(build_pdftk2($proofer, "---STUDY.pdf", "PREFACE"));
 system(build_pdftk2($proofer, "---STUDY.pdf", "TOC"));
 system(build_pdftk2($proofer, "---STUDY.pdf", "OT-INTRO"));
 system(build_pdftk2($proofer, "---STUDY.pdf", "OT-PIX"));
@@ -181,11 +186,13 @@ system(build_pdftk2($proofer, "---STUDY.pdf", "MAP4"));
 system(build_pdftk2($proofer, "---STUDY.pdf", "MAP5"));
 system(build_pdftk2($proofer, "---STUDY.pdf", "TIMEA"));
 system(build_pdftk2($proofer, "---STUDY.pdf", "TIMEB"));
+system(build_pdftk2($proofer, "---STUDY.pdf", "LAKEOFFIRE"));
 AION_ECHO("PDF PROOFER GENERATION: STUDY");
 
 
 system(build_pdftk($proofer, "---Aionian-Edition.pdf", "TITLE"));
 system(build_pdftk($proofer, "---Aionian-Edition.pdf", "COPYRIGHT"));
+system(build_pdftk($proofer, "---Aionian-Edition.pdf", "PREFACE"));
 system(build_pdftk($proofer, "---Aionian-Edition.pdf", "TOC"));
 system(build_pdftk($proofer, "---Aionian-Edition.pdf", "OT-INTRO"));
 system(build_pdftk($proofer, "---Aionian-Edition.pdf", "OT-PIX"));
@@ -206,6 +213,7 @@ system(build_pdftk($proofer, "---Aionian-Edition.pdf", "MAP4"));
 system(build_pdftk($proofer, "---Aionian-Edition.pdf", "MAP5"));
 system(build_pdftk($proofer, "---Aionian-Edition.pdf", "TIMEA"));
 system(build_pdftk($proofer, "---Aionian-Edition.pdf", "TIMEB"));
+system(build_pdftk($proofer, "---Aionian-Edition.pdf", "LAKEOFFIRE"));
 AION_ECHO("PDF PROOFER GENERATION: ONLINE");
 
 if (is_file(($temp = "./AB-PROOFS/temp.pdf"))) { unlink($temp); }

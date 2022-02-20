@@ -191,6 +191,8 @@ Holy-Bible---English---Revised-Version				http://ebible.org/epub/eng-rv.epub	Hol
 Holy-Bible---English---Revised-Version				http://ebible.org/pdf/eng-rv/eng-rv_prt.pdf	Holy-Bible---English---Revised-Version---Source-Edition.pdf
 Holy-Bible---English---Revised-Version				http://ebible.org/Scriptures/eng-rv_vpl.zip	Holy-Bible---English---Revised-Version---Source-Edition.VPL.zip
 Holy-Bible---English---Rotherham-Bible	SWORD			http://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Rotherham.zip	Holy-Bible---English---Rotherham-Bible---Source-Edition.SWORD.zip
+Holy-Bible---English---STEPBible-Amalgamant	SKIP			../source-stage/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt	Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt
+Holy-Bible---English---STEPBible-Concordant	SKIP			../source-stage/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt	Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt
 Holy-Bible---English---Trans-Trans				http://ebible.org/sword/zip/engT4T2014eb.zip	Holy-Bible---English---Trans-Trans---Source-Edition.SWORD.zip
 Holy-Bible---English---Trans-Trans				http://ebible.org/epub/eng-t4t.epub	Holy-Bible---English---Trans-Trans---Source-Edition.epub
 Holy-Bible---English---Trans-Trans				http://ebible.org/pdf/eng-t4t/eng-t4t_prt.pdf	Holy-Bible---English---Trans-Trans---Source-Edition.pdf

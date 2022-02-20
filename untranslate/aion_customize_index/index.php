@@ -711,6 +711,12 @@ if (isset($cache[$data.$indx][$key])) { return $cache[$data.$indx][$key]; } // c
 $cache[$data.$indx][$key] = FALSE; // init!
 if (!isset($cache[$indx]) && !($cache[$indx]=json_decode(file_get_contents($indx),true))) {		abcms_errs("abcms_read_indx_line() index not opened: $data $indx $key");		return NULL; } // index?
 if (!isset($cache[$indx][$key])) {																abcms_errs("abcms_read_indx_line() index key missing: $data $indx $key");		return NULL; } // key?
+// exception for H2428 which has both H2428 and H2428b.  All other letter suffixed Hebrew strongs numbers DO NOT exist without a letter suffix
+$offset = strtok((string)$cache[$indx][$key],',');
+if ($offset != (string)$cache[$indx][$key]) {
+		if ($key != "2428") {																	/*abcms_errs("abcms_read_indx_line() multiple offsets: $data $indx $key");*/	return NULL; } // multiple?
+		$cache[$indx][$key] = (int)$offset;
+}
 if (!isset($fd[$data]) && !($fd[$data]=fopen($data, 'r'))) {									abcms_errs("abcms_read_indx_line() data not opened: $data $indx $key");			return NULL; } // data?
 if (fseek($fd[$data], $cache[$indx][$key])) {													abcms_errs("abcms_read_indx_line() index offset missing: $data $indx $key");	return NULL; } // seek?
 if (!($line=fgets($fd[$data]))) {																abcms_errs("abcms_read_indx_line() data not read: $data $indx $key");			return NULL; } // read?
@@ -1247,7 +1253,7 @@ else {
 	$_stidN = intval($matches[2]);
 	$_stidX = (empty($matches[3]) ? NULL : $matches[3]);
 	$_stidC = $matches[1].$_stidN.$_stidX; // rebuild and loose leading zeros
-	if (!(($_stidC[0]==='h' && $_stidN >= 1 && $_stidN <= 9049) ||
+	if (!(($_stidC[0]==='h' && $_stidN >= 0 && $_stidN <= 9049) ||
 		($_stidC[0]==='g' && $_stidN >= 1 && $_stidN <= 21369 && $_stidN != 2717 && !($_stidN >= 3203 && $_stidN <= 3302) && !($_stidN >= 9997 && $_stidN <= 20000)))) {
 		if ($_Part[0]!=='Strongs') { abcms_bomb("/Read","The Strongs number requested was not found"); }
 		$_stidN = $_stidX = NULL;
@@ -1281,7 +1287,7 @@ The  <span class='notranslate'>Aionian</span>  Bible un-translates and instead t
 </div>
 <div id='strong-page'>
 <?
-if (!$_stidN) { echo "The Strongs number requested was not found"; }
+if ($_stidN===NULL) { echo "The Strongs number requested was not found"; }
 else { abcms_enty($_stidC); }
 ?>
 </div>
@@ -1297,7 +1303,7 @@ abcms_tail();
 /*** ENTRY ***/
 function abcms_enty($strongs,$tag=NULL,$book=NULL,$chap=NULL,$verse=NULL) {
 // init
-global $_stidC, $_Path, $_Part;
+global $_stidC, $_stidN, $_Path, $_Part;
 static $elementid = 0;
 ++$elementid;
 static $editions_search = array("Byz","Coptic","ESV","Goodnews","KJV","NA26","NA27","NA28","NIV","OldLatin","OldSyriac","P66","P66*","Punc","SBL","TR","Treg","Tyn","U1","U2","U3","U4","U5","U6","U32","WH",);
@@ -1338,16 +1344,24 @@ static $entry = array(
 	"KJV++"	=> "Translated in the KJV (Textus Receptus) and in some modern Bibles (Nestle/Aland).",
 	"NATR?"	=> "Found in early manuscripts, but not translated in most Bibles.",
 	);
-// get content with file i/o
+// bald strongs
 $bald = substr($strongs,1);
+$lex_strongs = $lex_original = NULL;
+// get content with file i/o
 if ($strongs[0]==='h') {
-	if (ctype_digit($bald) && $bald <= 8674) { $lex_strongs = abcms_read_indx_line('./library/stepbible/Hebrew_Lexicon_Strongs.txt', './library/stepbible/Hebrew_Lexicon_Strongs_Index.json', $bald); }
+	if (ctype_digit($bald) && $bald>0 && $bald <= 8674) { $lex_strongs = abcms_read_indx_line('./library/stepbible/Hebrew_Lexicon_Strongs.txt', './library/stepbible/Hebrew_Lexicon_Strongs_Index.json', $bald); }
+	if (($lex_original = (!preg_match('#^h([\d]{1,5})([a-z]{1})$#',$strongs,$matches) || empty($matches[1]) ? NULL : (string)((int)$matches[1]))) &&
+		abcms_read_json('./library/stepbible/Hebrew_Lexicon_Strongs_Index.json', $lex_original)) {
+		$lex_original =
+			"<a href='".abcms_href((empty($_Part[1]) ? '/Strongs' : "/Strongs/$_Part[1]"),FALSE,TRUE,FALSE).
+			"/strongs-h$lex_original' title='Strongs Enhanced Concordance entry h$lex_original' class='word-blue'>h$lex_original</a>";
+	}
 	$lex_tyndale = abcms_read_indx_line('./library/stepbible/Hebrew_Lexicon_Tyndale.txt', './library/stepbible/Hebrew_Lexicon_Tyndale_Index.json', $bald);
 	$lex_LSJ	 = NULL;
 	$morphs = (empty($tag[6]) ? NULL : abcms_read_json('./library/stepbible/Hebrew_Morphhology.json', $tag[6]));
 	$morphs_tyndale = (empty($lex_tyndale[4]) ? NULL : aion_morphhology($lex_tyndale[4]));
 	$morphs_LSJ = NULL;
-	$counts = abcms_read_json('./library/stepbible/Hebrew_Tagged_Text_Count.json', $bald);
+	$counts = abcms_read_json('./library/stepbible/Hebrew_Tagged_Text_Count.json', $bald, (empty($tag) ? TRUE : FALSE));
 }
 else {
 	if (ctype_digit($bald) && $bald <= 5624) { $lex_strongs = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_Strongs.txt', './library/stepbible/Greek_Lexicon_Strongs_Index.json', $bald); }
@@ -1356,11 +1370,14 @@ else {
 	$morphs = (empty($tag[6]) ? NULL : abcms_read_json('./library/stepbible/Greek_Morphhology.json', $tag[6]));
 	$morphs_tyndale = (empty($lex_tyndale[4]) ? NULL : aion_morphhology($lex_tyndale[4]));
 	$morphs_LSJ = (empty($lex_LSJ[4]) ? NULL : aion_morphhology($lex_LSJ[4]));
-	$counts = abcms_read_json('./library/stepbible/Greek_Tagged_Text_Count.json', $bald);
+	$counts = abcms_read_json('./library/stepbible/Greek_Tagged_Text_Count.json', $bald, (empty($tag) ? TRUE : FALSE));
 }
 // entry not found
-//if (!($word = trim(!empty($tag[8]) ? $tag[8] : (!empty($lex_tyndale[3]) ? $lex_tyndale[3] : NULL), "!,.?-_+=\/|'~\""))) {
-if (!($word = (!empty($tag[8]) ? $tag[8] : (!empty($lex_tyndale[3]) ? $lex_tyndale[3] : (!empty($lex_tyndale[1]) ? $lex_tyndale[1] : NULL))))) {
+if (!($word =
+	(!empty($tag[8]) ? $tag[8] : 
+	(!empty($lex_tyndale[3]) ? $lex_tyndale[3] : 
+	(!empty($lex_tyndale[1]) ? $lex_tyndale[1] :
+	(!empty($lex_strongs[1]) ? $lex_strongs[1] : NULL)))))) {
 	echo "<div class='strong-entry'><div class=strong-word>$strongs entry missing</div></div>\n";
 	abcms_errs("abcms_enty() the word entry is empty! $strongs");
 	return;
@@ -1378,27 +1395,27 @@ $underlying = (!empty($tag[7]) ? $tag[7] : (!empty($lex_tyndale[1]) ? $lex_tynda
 // aionian entry
 $aionian = abcms_aion($strongs,$SID,$word,$book,$chap,$verse);
 // css calculation
-$css_background = ($strongs==$_stidC ? 'strongs' : ($aionian ? 'word-aionian' : ''));
+$css_background = ($strongs==$_stidC || (int)$bald==$_stidN ? 'strongs' : ($aionian ? 'word-aionian' : ''));
 // begin lexicon entry
 echo "<div class='strong-entry $css_background'>";
 $HorG = ($strongs[0]==='g' ? 'New' : 'Old');
 $bpath = ($_Path=='Strongs' ? abcms_href('/Read',FALSE,TRUE,'/strongs-'.$strongs) : abcms_href("/Bibles/$_Part[1]/$HorG",FALSE,TRUE,'/strongs-'.$strongs));
 $usage =
-	"<a href='$bpath' title='Visit chapters with Strongs word usage' class='word-blue'>".
+	(!isset($counts[3]) ? "Not used in Bible text" :
+	("<a href='$bpath' title='Visit chapters with Strongs word usage' class='word-blue'>".
 	// Counts array(0=>'books',1=>'chapters',2=>'verses',3=>'words')
-	(!isset($counts[3]) ? 'Strongs word usage' : ''.
 	$counts[3].($counts[3]===1 ? ' time in ':' times in ').
 	$counts[0].($counts[0]===1 ? ' book, ':' books, ').
 	$counts[1].($counts[1]===1 ? ' chapter, and ':' chapters, and ').
-	$counts[2].($counts[2]===1 ? ' verse, ':' verses')).
-	'</a>';
+	$counts[2].($counts[2]===1 ? ' verse, ':' verses').
+	'</a>'));
 // Join  W=next word, K=next Ketiv 'written' word, Q=following Qere 'read' word, P=word parts, R=root or related, J=joined words (though not variants), D=divided word (though not variants)
 $join = (empty($tag[5]) ? '' :
 	($tag[5]=='W' ? 'Next word in verse' :
 	($tag[5]=='K' ? 'Ketiv, written word' :
 	($tag[5]=='Q' ? 'Qere, read word' :
 	($tag[5]=='P' ?	'Part of previous word' :
-	($tag[5]=='R' ? 'Root of previous word' :
+	($tag[5]=='R' ? 'Root of previous word or related' :
 	($tag[5]=='J' ?	'Joined to previous word' :
 	($tag[5]=='D' ? 'Divided from previous word' : ''))))))));
 // strongs lexicon language
@@ -1419,8 +1436,10 @@ echo
 	// glossary entry header from tag file
 	"<div class='strong-word".($book ? '' : ' notranslate')."'>$word</div>\n" .
 	"<div class='field-field'><div class='field-label'>Strongs:</div><div class='field-value word-footnote'>$SID</div></div>\n" .
+	(empty($lex_original)	? "" : "<div class='field-field'><div class='field-label'>Original:</div><div class='field-value word-footnote'>$lex_original</div></div>\n") .
 	(empty($underlying)		? "" : "<div class='field-field'><div class='field-label'>Word:</div><div class='field-value notranslate'>$underlying</div></div>\n") .
 	"<div class='field-field'><div class='field-label'>Usage:</div><div class=field-value>$usage</div></div>\n" .
+	(empty($join)			? "" : "<div class='field-field'><div class='field-label'>Context:</div><div class='field-value'>$join</div></div>\n") .
 
 	// collapsible logic
 	(empty($tag)			? "" : "<div class='field-field'><div class='field-label'><a href='' title='Open or close the lexicon entry' onclick='$javascript'>Toggle Lexicon</a></div></div>\n") .
@@ -1428,7 +1447,6 @@ echo
 	// Hebrew_Tagged_Text		= INDEX-0	BOOK-1	CHAPTER-2	VERSE-3	STRONGS-4	FLAG-5	MORPH-6	WORD-7	ENGLISH-8															PART-9	ADDITIONAL-10
 	// Greek_Tagged_Text		= INDEX-0	BOOK-1	CHAPTER-2	VERSE-3	STRONGS-4	FLAG-5	MORPH-6	WORD-7	ENGLISH-8	ENTRY-9	PUNC-10	EDITIONS-11	SPELLINGS-12	MEANINGS-13			ADDITIONAL-14	CONJOIN-15
 	// Morphhology array('M'=>'Morphhology','U'=>'Explanation')
-	(empty($join)			? "" : "<div class='field-field'><div class='field-label'>Context:</div><div class='field-value'>$join</div></div>\n") .
 	(empty($morphs['M'])	? "" : "<div class='field-field'><div class='field-label'>Morphhology:</div><div class='field-value'>".$morphs['M']."</div></div>\n") .
 	(empty($morphs['U'])	? "" : "<div class='field-field'><div class='field-label'>Grammar:</div><div class='field-value'>".$morphs['U']."</div></div>\n") .
 
@@ -1455,7 +1473,7 @@ echo
 	// Hebrew_Lexicon_Strongs	= STRONGS-0	WORD-1	TRANS-2				PRONOUNCE-3	LANG-4	MORPH-5	DEF-6
 	// Greek_Lexicon_Strongs	= STRONGS-0	WORD-1	TRANS-2				PRONOUNCE-3	LANG-4	MORPH-5	DEF-6
 	// Morphhology array('M'=>'Morphhology','U'=>'Explanation')
-	(empty($lex_tyndale[0])	? "" :
+	(!isset($lex_tyndale[0])	? "" :
 	("<div class='field-field'><div class='field-header1'>Tyndale</div></div>\n") .
 	(empty($lex_tyndale[1]) ? "" : "<div class='field-field'><div class='field-label'>Word:</div><div class='field-value notranslate'>$lex_tyndale[1]</div></div>\n") .
 	(empty($lex_tyndale[2]) ? "" : "<div class='field-field'><div class='field-label'>Transliteration:</div><div class='field-value notranslate'>$lex_tyndale[2]</div></div>\n") .
@@ -1548,7 +1566,7 @@ function abcms_aion($strongs,&$SID,&$word,$book=NULL,$chap=NULL,$verse=NULL) {
 global $_Part;
 $SID = (NULL===$book ? $strongs :
 	"<a href='".abcms_href((empty($_Part[1]) ? '/Strongs' : "/Strongs/$_Part[1]"),FALSE,TRUE,FALSE).
-	"/strongs-$strongs' title='Strong Enhanced Concordance entry $strongs' class='word-blue'>$strongs</a>");
+	"/strongs-$strongs' title='Strongs Enhanced Concordance entry $strongs' class='word-blue'>$strongs</a>");
 if (($strongs=='g3041' || $strongs=='g4442') &&
 	($book!='REV' ||
 	!(($chap=='019' && $verse=='020') ||
@@ -1607,7 +1625,7 @@ return (empty($adef[$strongs]) ? NULL : $adef[$strongs]);
 
 
 /*** READ JSON ARRAY KEY ***/
-function abcms_read_json($file, $key) {
+function abcms_read_json($file, $key, $allowmissing=FALSE) {
 static $cache = array();
 if (!isset($cache[$file]) && !($cache[$file]=json_decode(file_get_contents($file),true))) {
 	abcms_errs("abcms_read_json() json file not found: $file $key");
@@ -1615,7 +1633,9 @@ if (!isset($cache[$file]) && !($cache[$file]=json_decode(file_get_contents($file
 	return NULL;
 }
 if (!isset($cache[$file][$key])) {
-	abcms_errs("abcms_read_json() json file key not found: $file $key");
+	if (!$allowmissing) {
+		abcms_errs("abcms_read_json() json file key not found: $file $key");
+	}
 	return NULL;
 }
 return $cache[$file][$key];
