@@ -424,7 +424,7 @@ EOF;
 	AION_EPUBY_REAR_5_HISTORY_DESTINY_XHTML($FOLDEPUB);								// CREATE rear-5-history-destiny.xhtml
 	AION_EPUBY_IMAGE_VERSE_XHTML("$FOLDEPUB/rear-5-map-abraham.xhtml",	"Abraham's Journeys",			"images/MAP-ABRAHAM.jpg",	$G_FORPRINT["HEB11_8"],		TRUE);
 	AION_EPUBY_IMAGE_VERSE_XHTML("$FOLDEPUB/rear-6-map-exodus.xhtml",	"Israel's Exodus",				"images/MAP-EXODUS.jpg",	$G_FORPRINT["EXO13_17"],	TRUE);
-	AION_EPUBY_IMAGE_VERSE_XHTML("$FOLDEPUB/rear-7-map-jesus.xhtml",	"Jesus' Journeys",				"images/MAP-JESUS.jpg",		$G_FORPRINT["MAR10_45"],	TRUE);
+	AION_EPUBY_IMAGE_VERSE_XHTML("$FOLDEPUB/rear-7-map-jesus.xhtml",	"Jesus' Journeys",				"images/MAP-JESUS.jpg",		$G_FORPRINT["MAR10_45"],	TRUE, "better");
 	AION_EPUBY_IMAGE_VERSE_XHTML("$FOLDEPUB/rear-8-map-paul.xhtml",		"Paul's Missionary Journeys",	"images/MAP-PAUL.jpg",		$G_FORPRINT["ROM1_1"],		TRUE);
 	AION_EPUBY_IMAGE_VERSE_XHTML("$FOLDEPUB/rear-9-map-world.xhtml",	"Great Commission",				"images/MAP-WORLD.jpg",		$G_FORPRINT["MAT28_19"],	TRUE);
 	
@@ -619,6 +619,7 @@ h1, h2, h3, h4 { margin: 0 0 10px 0; }
 p, form { margin: 0 0 10px 0; }
 img { max-width: 100%; height: auto; border: 1px solid #C5C5C5; }
 img.simple { max-width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto; margin-bottom: 10px; border: 0; }
+div.better { width: 50%; }
 a { text-decoration: none; color: #663399; }
 a:hover { color: #9966CC; }
 .hidden { display: none; }
@@ -866,6 +867,7 @@ $versionSS_CP
 <br />
 We pray for a modern public domain translation in every language. Report concerns to <a href='http://nainoia-inc.signedon.net/' target='_blank' title='Publisher of the Holy Bible Aionian Edition'>Nainoia Inc</a>. Volunteer help appreciated! Given to our family, friends, and fellowman for Christ’s victory of grace!<br />
 <br />$extension_text
+<p><a href='index.xhtml' title='Table of Contents'>TOC</a></p>
 </body>
 </html>
 EOF;
@@ -897,10 +899,14 @@ $G_COMMENT
 <h2 class='title'>$W_PREF</h2>
 <p class='center'>$languagehtml<a href='http://www.AionianBible.org/Preface' target='_blank'>www.AionianBible.org/Preface</a></p>
 <p>The <i>Holy Bible Aionian Edition®</i> is the world’s first Bible <i>un-translation</i>! What is an <i>un-translation</i>? Bibles are translated into each of our languages from the original Hebrew, Aramaic, and Koine Greek. Occasionally, the best word translation cannot be found and these words are transliterated letter by letter. Four well known transliterations are <i>Christ</i>, <i>baptism</i>, <i>angel</i>, and <i>apostle</i>. The meaning is then preserved more accurately through context and a dictionary. The Aionian Bible un-translates and instead transliterates ten additional <a href='rear-2-glossary.xhtml' title='Aionian Glossary'>Aionian Glossary</a> words to help us better understand God’s love for individuals and all mankind, and the nature of afterlife destinies.</p>
+
 <p>The first three words are <a href='rear-2-glossary.xhtml#g165' title='Aionian Glossary g165'><i>aiōn</i></a>, <a href='rear-2-glossary.xhtml#g166' title='Aionian Glossary g166'><i>aiōnios</i></a>, and <a href='rear-2-glossary.xhtml#g126' title='Aionian Glossary g126'><i>aïdios</i></a>, typically translated as <i>eternal</i> and also <i>world</i> or <i>eon</i>. The Aionian Bible is named after an alternative spelling of <i>aiōnios</i>. Consider that researchers question if <i>aiōn</i> and <i>aiōnios</i> actually mean <i>eternal</i>. Translating <i>aiōn</i> as <i>eternal</i> in {$links->X_MAT_28} makes no sense, as all agree. The Greek word for eternal is <i>aïdios</i>, used in {$links->X_ROM_1} about God and in {$links->X_JUD_1} about demon imprisonment. Yet what about <i>aiōnios</i> in {$links->X_JOH_3}? Certainly we do not question whether salvation is eternal! However, <i>aiōnios</i> means something much more wonderful than infinite time! Ancient Greeks used <i>aiōn</i> to mean eon or age. They also used the adjective <i>aiōnios</i> to mean entirety, such as <i>complete</i> or even <i>consummate</i>, but never infinite time. Read <a href='front-4-aionian.xhtml' title='Book abstracts of Dr. Heleen Keizer and Ramelli and Konstan'>Dr. Heleen Keizer and Ramelli and Konstan</a> for proofs. So <i>aiōnios</i> is the perfect description of God's Word which has <i>everything</i> we need for life and godliness! And the <i>aiōnios</i> life promised in {$links->X_JOH_3} is not simply a ticket to eternal life in the future, but the invitation through faith to the <i>consummate</i> life beginning now! <i>Aiōnios</i> life with Christ is <a href='http://www.aionianbible.org/Buy' target='_blank' title='Purchase Better Than Forever T-Shirts'><i>Better than Forever</i></a>.</p>
-<p>The next seven words are <a href='rear-2-glossary.xhtml#h7585' title='Aionian Glossary h7585'><i>Sheol</i></a>, <a href='rear-2-glossary.xhtml#g86' title='Aionian Glossary g86'><i>Hadēs</i></a>, <a href='rear-2-glossary.xhtml#g1067' title='Aionian Glossary g1067'><i>Geenna</i></a>, <a href='rear-2-glossary.xhtml#g5020' title='Aionian Glossary g5020'><i>Tartaroō</i></a>, <a href='rear-2-glossary.xhtml#g12' title='Aionian Glossary g12'><i>Abyssos</i></a>, and <a href='rear-2-glossary.xhtml#g3041' title='Aionian Glossary g3041 g4442'><i>Limnē Pyr</i></a>. These words are often translated as <i>Hell</i>, the place of eternal punishment. However, <i>Hell</i> is ill-defined when compared with the Hebrew and Greek. For example, <i>Sheol</i> is the abode of deceased believers and unbelievers and should never be translated as <i>Hell</i>. <i>Hadēs</i> is a temporary place of punishment, {$links->X_REV_20}. <i>Geenna</i> is the Valley of Hinnom, Jerusalem's refuse dump, a temporal judgment for sin. <i>Tartaroō</i> is a prison for demons, mentioned once in {$links->X_2PE_2}. <i>Abyssos</i> is a temporary prison for the Beast and Satan. Translators are also inconsistent because <i>Hell</i> is used by the <a href='https://www.kingjamesbibleonline.org/' title='View the King James Version Bible' target='_blank'>King James Version</a> fifty-four times, the <a href='https://www.thenivbible.com/' target='_blank' title='View the New International Version Bible'>New International Version</a> fourteen times, and the <a href='https://ebible.org/web/' title='View the World English Bible' target='_blank'>World English Bible</a> zero times. Finally, <i>Limnē Pyr</i> is the Lake of Fire, yet {$links->X_MAT_25} explains that these fires are prepared for the Devil and his angels. So there is reason to review our conclusions about the destinies of redeemed mankind and fallen angels.</p>
+
+<p>The next seven words are <a href='rear-2-glossary.xhtml#h7585' title='Aionian Glossary h7585'><i>Sheol</i></a>, <a href='rear-2-glossary.xhtml#g86' title='Aionian Glossary g86'><i>Hadēs</i></a>, <a href='rear-2-glossary.xhtml#g1067' title='Aionian Glossary g1067'><i>Geenna</i></a>, <a href='rear-2-glossary.xhtml#g5020' title='Aionian Glossary g5020'><i>Tartaroō</i></a>, <a href='rear-2-glossary.xhtml#g12' title='Aionian Glossary g12'><i>Abyssos</i></a>, and <a href='rear-2-glossary.xhtml#g3041' title='Aionian Glossary g3041 g4442'><i>Limnē Pyr</i></a>. These words are often translated as <i>Hell</i>, the place of eternal punishment. However, <i>Hell</i> is ill-defined when compared with the Hebrew and Greek. For example, <i>Sheol</i> is the abode of deceased believers and unbelievers and should never be translated as <i>Hell</i>. <i>Hadēs</i> is a temporary place of punishment, {$links->X_REV_20}. <i>Geenna</i> is the Valley of Hinnom, Jerusalem's refuse dump, a temporal judgment for sin. <i>Tartaroō</i> is a prison for demons, mentioned once in {$links->X_2PE_2}. <i>Abyssos</i> is a temporary prison for the Beast and Satan. Translators are also inconsistent because <i>Hell</i> is used by the <a href='https://www.kingjamesbibleonline.org/' title='View the King James Version Bible' target='_blank'>King James Version</a> fifty-four times, the <a href='https://www.thenivbible.com/' target='_blank' title='View the New International Version Bible'>New International Version</a> fourteen times, and the <a href='https://ebible.org/web/' title='View the World English Bible' target='_blank'>World English Bible</a> zero times. Finally, <i>Limnē Pyr</i> is the Lake of Fire, yet {$links->X_MAT_25} explains that these fires are <a href='rear-5-history-destiny.xhtml' title='Matthew 25:41 and the Lake of Fire'>prepared for the Devil and his angels</a>. So there is reason to review our conclusions about the destinies of redeemed mankind and fallen angels.</p>
+
 <p>This <i>un-translation</i> helps us to see these ten underlying words in context. The original translation is unaltered and a note is added to 63 Old Testament and 200 New Testament verses. Also to help parallel study and Strong's Concordance use, apocryphal text is removed and most variant verse numbering is mapped to the English standard. The Aionian Bible republishes public domain and Creative Common Bible texts. We thank our sources at <a href='http://ebible.org' target='_blank' title='Visit eBible.org, a DBA of Wycliffe, Inc, founded by Michael Paul Johnson'>eBible.org</a>, <a href='http://crosswire.org' target='_blank' title='Visit the Crosswire Bible Society'>Crosswire.org</a>, <a href='http://unbound.biola.edu' target='_blank' title='Visit the Biola University Unbound Bible Project'>unbound.Biola.edu</a>, <a href='https://bible4u.net/' target='_blank' title='Bible4U Uncensored Bible'>Bible4U.net</a>, and <a href='http://NHEB.net' target='_blank' title='Visit the New Heart English Bible'>NHEB.net</a>. The Aionian Bible is copyrighted with the <a href='https://creativecommons.org/licenses/by-nd/4.0' target='_blank' title='Visit Copyright definition'>Creative Commons Attribution No Derivative Works 4.0</a> license, allowing 100% freedom to copy and print, if respecting source text copyrights. Review the <a href='rear-1-readers-guide.xhtml' title='Readers guide for the Aionian Bible'>Reader's Guide</a>, <a href='rear-5-map-abraham.xhtml' title='Maps and Illustations'>Maps</a>, and <a href='rear-3-history-past.xhtml' title='Timelines and Illustations'>Timelines</a>. Read <a href='http://www.aionianbible.org' title='Read and Study Bible'>online</a> with the <a href='https://play.google.com/store/apps/details?id=net.signedon.aionianbible.aionianbible' target='_blank' title='Aionian Bible free online at Google Play'>Android</a> and <a href='http://www.aionianbible.org/AppleApp' title='iPhone Apple App' target='_blank'>Apple App</a> and buy Bibles at <a href='http://www.aionianbible.org/Buy' title='Holy Bible Aionian Edition at Amazon.com and Lulu.com' target='_blank'>Amazon.com and Lulu.com</a>. Follow at <a href='https://www.facebook.com/aionianbible/' target='_blank' title='Visit the Aionian Bible on Facebook'>Facebook/AionianBible</a>, help <a href='http://www.aionianbible.org/Promote' target='_blank' title='Promote, Sponsor, Advertise, Market'>Promote</a>, and contact the <a href='http://www.aionianbible.org/Publisher' target='_blank' title='Contact Nainoia, Inc'>Publisher</a>. Why purple? King Jesus’ Word is royal… and purple is the color of royalty!</p>
-<p><a href='$epublink' target='_blank' title='Download this ePub'>Download this ePub!</a></p>
+
+<p><a href='index.xhtml' title='Table of Contents'>TOC</a> / <a href='$epublink' target='_blank' title='Download this ePub'>Download this ePub!</a></p>
 </body>
 </html>
 EOF;
@@ -930,7 +936,10 @@ $G_COMMENT
 <p><img src="images/BOOK-Life-Time-Entirety-A-Study-of-AION-Heleen-Keizer.jpg" alt="Life Time Entirety, A Study of AION by Heleen Keizer" class='pix' />Dr. Heleen Keizer wrote <b><i>Life Time Entirety</i></b> to explain the meaning of the Greek word aiōn. She begins, "<i>The Greek word aiōn has a wide ranging meaning as well as a wide ranging history: it is most commonly translated as ‘eternity’ but has as its first meaning ‘life’ or ‘lifetime’; it has its place in Greek literature and philosophy, but also in the Greek Bible, where it represents the Hebrew word ‘olâm.</i>" Her 315 page PhD dissertation shows that the Greek word aiōn originally denotes life time, duration, or complete life, but not eternal. You can read her <a href='http://www.aionianbible.org/Life-Time-Entirety-Keizer' target='_blank' title='Visit Dr. Keizers dissertation online'>dissertation online</a> or an <a href='http://www.aionianbible.org/Life-Time-Entirety-Keizer-Abstract' target='_blank' title='View an abstract of Dr. Keizers dissertation'>abstract of her conclusions here</a>.</p>
 
 <p><img src="images/BOOK-Terms-for-Eternity-Aionios-and-Aidios-in-Classical-and-Christian-Texts-Ramelli-Konstan.jpg" alt="Terms for Eternity Aionios and Aidios in Classical and Christian Texts by Ramelli and Konstan" class='pix' />Ilaria Ramelli and David Konstan wrote <b><i>Terms for Eternity: Aionios and Aidios in Classical and Christian Texts</i></b>, <a href='http://www.aionianbible.org/Terms-for-Eternity-Ramelli-Konstan' target='_blank' title='Purchase Ramelli and Konstan at Amazon.com'>available at Amazon</a>. This highly technical volume quotes hundreds of sources from classical literature, the Septuagint, early church fathers, and church fathers after Origen to determine the meaning and usage of <i>Aiōnios</i> and <i>Aïdios</i>.  They conclude that <i>Aïdios</i> nearly always means eternal in the absolute sense.  <i>Aïdios</i> is used twice in the Bible: Romans 1:20 concerning God and Jude 6 concerning the bonds on fallen angels.  <i>Aiōnios</i>, however, has a range of meanings including life, age, generation, and eon.  They argue that <i>Aiōnios</i> can also mean eternal, but only when God is the subject.  Ramelli and Konstan concur with Keizer and conclude saying, "<i>Needless to say, the ethical implications of this question are profound.</i>"</p>
+
 <p>Every quest for the truth must have the wisdom to eliminate what we prefer to be true and also the courage to eliminate what we fear to be true in order to discover what Christ says is actually true.</p>
+
+<p><a href='index.xhtml' title='Table of Contents'>TOC</a></p>
 </body>
 </html>
 EOF;
@@ -1026,12 +1035,19 @@ $G_COMMENT
 <body>
 <h2 class='title'>$W_READ</h2>
 <p class='center'>$languagehtml<a href='http://www.AionianBible.org/Readers-Guide' target='_blank'>www.AionianBible.org/Readers-Guide</a></p>
+
 <p>The Aionian Bible republishes public domain and Creative Common Bible texts that are 100% free to copy and print. The original translation is unaltered and notes are added to help your study. The notes show the location of ten special Greek and Hebrew <a href='rear-2-glossary.xhtml' title='Aionian Glossary'>Aionian Glossary</a> words to help us better understand God’s love for individuals and for all mankind, and the nature of afterlife destinies.</p>
+
 <p>Who has the authority to interpret the Bible and examine the underlying Hebrew and Greek words? That is a good question! We read in {$links->X_1JO_2}, <i>"As for you, the anointing which you received from him remains in you, and you do not need for anyone to teach you. But as his anointing teaches you concerning all things, and is true, and is no lie, and even as it taught you, you remain in him."</i> Every Christian is qualified to interpret the Bible! Now that does not mean we will all agree. Each of us is still growing in our understanding of the truth. However, it does mean that there is no infallible human or tradition to answer all our questions. Instead the Holy Spirit helps each of us to know the truth and grow closer to God and each other.</p>
+
 <p>The Bible is a library with 66 books in the Protestant Canon. The best way to learn God’s word is to read entire books. Read the book of {$links->X_GEN_1}. Read the book of {$links->X_JOH_1}. Read the entire Bible library. Topical studies and cross-referencing can be good. However, the safest way to understand context and meaning is to read whole Bible books. Chapter and verse numbers were added for convenience in the 16th century, but unfortunately they can cause the Bible to seem like an encyclopedia. The Aionian Bible is formatted with simple verse numbering, minimal notes, and no cross-referencing in order to encourage the reading of Bible books.</p>
 <p>Bible reading must also begin with prayer. Any Christian is qualified to interpret the Bible with God’s help. However, this freedom is also a responsibility because without the Holy Spirit we cannot interpret accurately. We read in {$links->X_1CO_2}, <i>"And we speak of these things, not with words taught by human wisdom, but with those taught by the Spirit, comparing spiritual things with spiritual things. Now the natural person does not receive the things of the Spirit of God, for they are foolishness to him, and he cannot understand them, because they are spiritually discerned."</i> So we cannot understand in our natural self, but we can with God’s help through prayer.</p>
+
 <p>The Holy Spirit is the best writer and he uses literary devices such as introductions, conclusions, paragraphs, and metaphors. He also writes various genres including historical narrative, prose, and poetry. So Bible study must spiritually discern and understand literature. Pray, read, observe, interpret, and apply. Finally, <i>"Do your best to present yourself approved by God, a worker who does not need to be ashamed, properly handling the word of truth."</i> {$links->X_2TI_2}. <i>"God has granted to us his precious and exceedingly great promises; that through these you may become partakers of the divine nature, having escaped from the corruption that is in the world by lust. Yes, and for this very cause adding on your part all diligence, in your faith supply moral excellence; and in moral excellence, knowledge; and in knowledge, self-control; and in self-control patience; and in patience godliness; and in godliness brotherly affection; and in brotherly affection, love. For if these things are yours and abound, they make you to be not idle nor unfruitful to the knowledge of our Lord Jesus Christ.</i> {$links->X_2PE_1}.</p>
+
 <p><a href='rear-5-map-abraham.xhtml' title='Middle Eastern and Mediterranean Bible maps'>Middle Eastern and Mediterranean maps</a> and <a href='rear-3-history-past.xhtml' title='Bible timelines and Church history charts'>Bible timelines and Church history charts</a> are also available to help your study.</p>
+
+<p><a href='index.xhtml' title='Table of Contents'>TOC</a></p>
 </body>
 </html>
 EOF;
@@ -1134,6 +1150,7 @@ $g5020<br />
 Questioned verse translations do not contain Aionian Glossary words, but may wrongly imply eternal or Hell.<br />
 <br />
 $questioned
+<p><a href='index.xhtml' title='Table of Contents'>TOC</a></p>
 </body>
 </html>
 EOF;
@@ -1160,8 +1177,10 @@ $G_COMMENT
 <body>
 <h2 class='title'>History Past</h2>
 <div class='cover'><img src="images/HISTORY-PAST.jpg" alt="History Past" /></div>
-<p><a href='http://www.aionianbible.org/Timeline' target='_blank' title='Download printable chart'>Printable version</a></p>
+
 <p>Derived from <a href='http://www.aionianbible.org/Uusher' target='_blank' title='Download PDF'>The Annals of the World by James Uusher</a> and <a href='http://www.aionianbible.org/Wikipedia-Timeline-of-Christian-Missions' target='_blank' title='Visit Wikipedia'>Timeline of Christian missions, Wikipedia</a>.</p>
+
+<p><a href='index.xhtml' title='Table of Contents'>TOC</a> / <a href='http://www.aionianbible.org/Timeline' target='_blank' title='Download printable chart'>Printable version</a></p>
 </body>
 </html>
 EOF;
@@ -1187,9 +1206,12 @@ $G_COMMENT
 </head>
 <body>
 <h2 class='title'>History Future</h2>
+
 <div class='cover'><img src="images/HISTORY-FUTURE.jpg" alt="History Future" /></div>
-<p><a href='http://www.aionianbible.org/Future' target='_blank' title='Download printable chart'>Printable version</a></p>
+
 <p>The chart indicates the whereabouts of God, mankind, and angels throughout the ages of history.  Note that the punishment of deceased unbelieving mankind in Hades is temporal as promised when Jesus said <i>“the gates of Hades will not prevail”</i>, Paul wrote <i>“Hades where is your victory?”</i>, and John wrote <i>“Hades gives up.”</i>  Also note that certain fallen angels are already held in a separate prison, Tartarus, awaiting final judgment and sentencing to the Lake of Fire which is <i>“prepared for the Devil and his angels,”</i> according to Matthew 25:41.  Satan’s rebellion will be crushed and Christ will be victorious in the salvation of all his people.  You too can know your name is already written in Heaven through faith in Jesus Christ!</p>
+
+<p><a href='index.xhtml' title='Table of Contents'>TOC</a> / <a href='http://www.aionianbible.org/Future' target='_blank' title='Download printable chart'>Printable version</a></p>
 </body>
 </html>
 EOF;
@@ -1230,6 +1252,8 @@ $G_COMMENT
 <p>Finally, we read that anyone whose name is not written in the Book of Life is thrown into the Lake of Fire, the second death, with no exit ever mentioned or promised, {$links->X_REV_21}. So are those evacuated from Hades then, <i>“out of the frying pan, into the fire?”</i>  Certainly, the Lake of Fire is the destiny of the Goats.  But, do not be afraid. Instead, read the Bible's explicit mention of the purpose of the Lake of Fire and the identity of the Goats. <i>“Then he will say also to those on the left hand, ‘Depart from me, you cursed, into the consummate fire which is prepared for the devil and his angels,’”</i> {$links->X_MAT_25}. Good news for all mankind!</p>
 
 <p>Faith is not a pen to write your own name in the Book of Life. Instead, faith is the glasses to see that the love of Christ for all mankind has already written our names in Heaven. Jesus said, <i>“You did not choose me, but I chose you,”</i> {$links->X_JOH_15}.  Though unbelievers will suffer regrettable punishment in Hades, redeemed mankind will never enter the Lake of Fire, prepared for the devil and his angels.</p>
+
+<p><a href='index.xhtml' title='Table of Contents'>TOC</a></p>
 </body>
 </html>
 EOF;
@@ -1266,10 +1290,10 @@ return;
 
 
 // CREATE image verse page
-function AION_EPUBY_IMAGE_VERSE_XHTML($file, $title, $image, $verse, $map=FALSE) {
+function AION_EPUBY_IMAGE_VERSE_XHTML($file, $title, $image, $verse, $map=FALSE, $css=NULL) {
 global $G_BOOKS, $G_NUMBERS, $G_VERSIONS, $G_FORPRINT, $G_UUID, $G_TITLE, $G_MODIFIED, $G_RTL, $G_COMMENT;
 $title = (empty($title) ? "" : "<h2 class='title'>$title</h2>");
-$map = ($map ? "\n<p><a href='http://www.aionianbible.org/Maps' target='_blank' title='Download printable image'>Printable version</a></p>" : NULL);
+$map = ($map ? " / <a href='http://www.aionianbible.org/Maps' target='_blank' title='Download printable image'>Printable version</a>" : NULL);
 $contents = <<< EOF
 <?xml version="1.0" encoding="utf-8"?>
 $G_COMMENT
@@ -1281,8 +1305,10 @@ $G_COMMENT
 <link href='epub.css' rel='stylesheet' />
 </head>
 <body>$title
-<div class='map'><img src="$image" /></div>
-$verse$map
+<div class='map $css'><img src="$image" /></div>
+$verse
+
+<p><a href='index.xhtml' title='Table of Contents'>TOC</a>$map</p>
 </body>
 </html>
 EOF;

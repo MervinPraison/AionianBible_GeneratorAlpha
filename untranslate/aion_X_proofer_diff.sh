@@ -30,9 +30,16 @@ $files = array_diff(scandir('../www-stageresources'), array('.', '..'));
 foreach($files as $file) {
 	if (!preg_match("#---Aionian-Edition\.pdf$#",$file)) { continue; }
 	//if (!preg_match("#(Aionian-Bible|Heart|Romani|World|Boyd)#",$file)) { continue; }
+
 	$revised = AION_PDF_PAGECOUNT("../www-stageresources/$file");
 	$current = AION_PDF_PAGECOUNT("../www-resources/$file");
 	if ($revised==$current) {	$result = system("diff-pdf -v -m -s --output-diff=../www-stageresources/AB-PROOFS-DIFFS/$file ../www-stageresources/$file ../www-resources/$file"); }
+
+	//system("pdftk A=../www-resources/$file B=../www-stageresources/BIBLE-PROOF-ABLANK.pdf cat A B output ../www-stageresources/AB-PROOFS-DIFFS/ZZZ-$file;");
+	//$revised = AION_PDF_PAGECOUNT("../www-stageresources/$file");
+	//$current = AION_PDF_PAGECOUNT("../www-stageresources/AB-PROOFS-DIFFS/ZZZ-$file");
+	//if ($revised==$current) {	$result = system("diff-pdf -v -m -s --output-diff=../www-stageresources/AB-PROOFS-DIFFS/$file ../www-stageresources/$file ../www-stageresources/AB-PROOFS-DIFFS/ZZZ-$file"); }	
+
 	else {						$result = "page count difference revised($revised) != current($current)"; }
 	AION_ECHO("AIONIAN:  result=$result  $file\n");
 	//break; // just do one!!!
