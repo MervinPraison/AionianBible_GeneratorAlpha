@@ -21,7 +21,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'source'	=> $source,
 		'q_onebook'	=> FALSE,	// TRUE = only do first bible book, otherwise all
 		'q_rtlhuh'	=> 'ALL',	// 'RTL' = RTL only,  'RTLNO' = Skip RTL, 'ALL' = all
-		'q_allall'	=> FALSE,	// TRUE = do all bibles not marked FALSE -OR- FALSE = do all bibles marked TRUE
+		'q_allall'	=> TRUE,	// TRUE = do all bibles not marked FALSE -OR- FALSE = do all bibles marked TRUE
 		'q_pdfall'	=> TRUE,	// TRUE = do ALL PDFs
 		'q_pdfpo'	=> FALSE,	// TRUE = do KDP PDFs
 		'q_pdfnt'	=> FALSE,	// TRUE = do KDP NT PDFs
@@ -52,8 +52,8 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Peshitta|Arabic|Aleppo).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*STEPBible.*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Statenvertaling|Kougo-yaku).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
-		'include'	=> "/---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
+		//'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		) );
