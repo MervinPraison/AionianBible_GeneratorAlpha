@@ -12268,12 +12268,12 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Romanian---Ludari-Luke" :
 $bigfix = <<<EOF
-LUK 1:55 Jel ažutat alu argatu aluj, Izrael, baš kum adat obećală alu sămănca anuastră, alu Abraham š alu kupi aluj, k osă lji fije uvjek d milă.”
+LUK 1:55 Jel ažutat alu Izrael, alu argatu aluj baš kum adat obečală alu sămănca anuastră, alu Abraham š alu kupi aluj, k osă lji fije uvjek d milă.”
 LUK 1:56 
 EOF;
 if (!($bfile = preg_replace("/LUK 1:54 (.+?)LUK 1:56 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bigfix = <<<EOF
-LUK 17:37 Učenikurlje aluj l trjabă: “Domnulje, undje asta osă fije?” Isusu lji zăće: “Undje zaće lumja muartă, ăn ănklo s sakupjaštje lešinari.”
+LUK 17:37 Učenikurlje aluj l ăntrjabă: “Domnulje, undje asta osă fije?” Isusu lji zăče: “Undje zače lumja muartă, ănklo s sakupjaštje lešinari.”
 LUK 18:1 
 EOF;
 if (!($bfile = preg_replace("/LUK 17:36 (.+?)LUK 18:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -12284,7 +12284,7 @@ EOF;
 if (!($bfile = preg_replace("/LUK 23:17 (.+?)LUK 23:19 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bigfix = <<<EOF
 LUK 23:50 Š jakă njeki om, karje s kima Josip d Arimateja, trgu ăn Judeja, apljikat la Pilat š akătat s ji dja tjela alu Isusuluj.
-LUK 23:51 Jel afost članu d Vječa amarje alu Židovilor, ali nu sa slažăt ku je daja če apukat š osudit p Isusu p muartje.
+LUK 23:51 Jel afost članu d Vječa amarje alu Židovilor, ali nu sa slažăt ku jej daja ča pukat š osudit p Isusu p muartje.
 LUK 23:52 Jel afost bun š pravedan om karje štipta cara alu Dimizov.
 LUK 23:53 
 EOF;
@@ -12845,92 +12845,6 @@ Jeremiah 39:18 porque escapando te escaparé, y no caerás a espada, y tu vida t
 Jeremiah 40:1 
 EOF;
 if (!($bfile = preg_replace("/Jeremiah 39:17 (.+?)Jeremiah 40:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-goto RAWHIDE;
-
-
-
-
-
-// RAWFIX BIBLE ********************
-case "Holy-Bible---Spanish---Free-Bible" :
-$textfix = <<<EOF
-ECC 2:1 Así que me dije: “Muy bien, déjame probar el placer y ver lo bueno que es”. Pero esto también resultó ser algo temporal y pasajero.
-ECC 2:2 Llegué a la conclusión de que reírse en la vida es una estupidez, y el placer, ¿de qué sirve?
-ECC 2:3 
-EOF;
-if (!($bfile = preg_replace("/ECC 2:1 (.+?)ECC 2:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-ECC 4:1 Entonces me puse a pensar en todas las formas en que la gente oprime a los demás aquí en la tierra. Miren las lágrimas de los oprimidos: ¡no hay nadie que los consuele! Los poderosos los oprimen, ¡y no hay nadie que los consuele!
-ECC 4:2 Felicité a los que ya estaban muertos, porque los muertos están mejor que los que aún viven y son oprimidos.
-ECC 4:3 
-EOF;
-if (!($bfile = preg_replace("/ECC 4:1 (.+?)ECC 4:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-ECC 5:1 Ten cuidado cuando entres en la casa de Dios. Es mejor escuchar y responder en lugar de ofrecer sacrificios sin sentido. La gente que hace tal cosa ni siquiera sabe que está actuando mal.
-ECC 5:2 No te precipites, y piensa antes de hablar con Dios. Porque Dios está en el cielo y tú en la tierra, así que sé breve.
-ECC 5:3 
-EOF;
-if (!($bfile = preg_replace("/ECC 5:1 (.+?)ECC 5:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-ECC 6:1 He observado otro mal aquí en la tierra, y tiene un gran impacto en la humanidad.
-ECC 6:2 Dios le da riqueza, posesiones y honor a alguien. Ellos tienen todo lo que quieren. Pero Dios no les permite disfrutar de lo que tienen. En su lugar, ¡otro lo hace! Esto es difícil de entender, y es verdaderamente cruel.
-ECC 6:3 
-EOF;
-if (!($bfile = preg_replace("/ECC 6:1 (.+?)ECC 6:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-ECC 7:1 Una buena reputación es mejor que un perfume costoso, y el día de tu muerte es mejor que el día de tu nacimiento.
-ECC 7:2 Es mejor ir a un funeral que a una fiesta. Al final, todo el mundo muere, y los que aún están vivos deberían pensar en ello.
-ECC 7:3 
-EOF;
-if (!($bfile = preg_replace("/ECC 7:1 (.+?)ECC 7:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-ECC 8:1 ¿Quién puede compararse con los verdaderos sabios? ¿Quién sabe interpretar las cosas? Si tienes sabiduría tu rostro se ilumina y tu mirada severa se suaviza.
-ECC 8:2 Mi consejo es hacer lo que dice el rey, ya que eso es lo que le prometiste a Dios.
-ECC 8:3 
-EOF;
-if (!($bfile = preg_replace("/ECC 8:1 (.+?)ECC 8:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-ECC 10:1 Las moscas muertas pueden hacer que el aceite perfumado huela mal. Del mismo modo, un poco de insensatez supera a la gran sabiduría y al honor.
-ECC 10:2 La mente del sabio elige el lado correcto, pero la mente del insensato va hacia la izquierda.
-ECC 10:3 
-EOF;
-if (!($bfile = preg_replace("/ECC 10:1 (.+?)ECC 10:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-ECC 11:3 Cuando las nubes están llenas, vierten la lluvia sobre la tierra. Si un árbol cae al norte o al sur, se queda donde cayó.
-ECC 11:4 El agricultor que se fija en la dirección del viento sabe cuándo no debe sembrar, y observando las nubes sabe cuándo no debe cosechar.
-ECC 11:5 
-EOF;
-if (!($bfile = preg_replace("/ECC 11:3 (.+?)ECC 11:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-ECC 12:1 Acuérdate de tu Creador mientras eres joven, antes de que lleguen los días de angustia y envejezcas diciendo: “Ya no disfruto de la vida”.
-ECC 12:2 Antes de la luz se apague -sol, luna y estrellas- y las nubes de lluvia vuelvan a oscurecer el cielo.
-ECC 12:3 
-EOF;
-if (!($bfile = preg_replace("/ECC 12:1 (.+?)ECC 12:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-SOL 3:1 Una noche, cuando estaba acostada en la cama, anhelaba a mi amado. Lo anhelaba, pero no estaba en ninguna parte.
-SOL 3:2 Entonces me dije:“Me levantaré ahora y recorreré la ciudad, buscando en sus calles y plazas a aquel que amo”. Lo busqué, pero no lo encontré.
-SOL 3:3 
-EOF;
-if (!($bfile = preg_replace("/SOL 3:1 (.+?)SOL 3:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-SOL 4:1 ¡Qué hermosa estás, querida, qué hermosa! Tus ojos son como palomas detrás de tu velo. Tu cabello fluye como un rebaño de cabras bajando del monte Galaad.
-SOL 4:2 Tus dientes son tan blancos como un rebaño de ovejas recién esquiladas y lavadas. No falta ninguno; todos están perfectamente emparejados.
-SOL 4:3 
-EOF;
-if (!($bfile = preg_replace("/SOL 4:1 (.+?)SOL 4:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-SOL 7:1 Qué bonitos son tus pies con sandalias, princesa! Tus muslos curvados son como adornos hechos por un maestro artesano.
-SOL 7:2 Tu ombligo es como un cuenco redondo; que nunca le falta vino aromático! Tu abdomen es como un montón de trigo rodeado de lirios.
-SOL 7:3 
-EOF;
-if (!($bfile = preg_replace("/SOL 7:1 (.+?)SOL 7:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-SOL 8:1 Cómo me gustaría que fueras como un hermano para mí, uno que amamantara a los pechos de mi madre. Entonces, si te encontrara en la calle, podría besarte y nadie me regañaría.
-SOL 8:2 Entonces podría llevarte a casa de mi madre, donde ella me enseñaba. Te daría a beber vino aromático del jugo de mi granada.
-SOL 8:3 
-EOF;
-if (!($bfile = preg_replace("/SOL 8:1 (.+?)SOL 8:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 

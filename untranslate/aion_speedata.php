@@ -44,7 +44,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic|Uyghur-Bible-Cyrillic|Uyghur-Bible-Pinyin).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Vietnamese).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*Heart.*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Dyck).*---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---.*(Hebrew).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur|Gujarati|Korean).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(LXX|Khan).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/(Holy-Bible---Latvian---Latvian-Gluck-Bible|Holy-Bible---Japanese---Japanese-Yougo-yaku)---Aionian-Edition\.noia$/",
@@ -53,7 +53,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*STEPBible.*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Statenvertaling|Kougo-yaku).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
-		'include'	=> "/---Aionian-Edition\.noia$/",
+		//'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		) );
@@ -1380,7 +1380,7 @@ $fonts
 		</Fontface></Paragraph>
 		<Switch><Case test="$extension">
 			<Paragraph textformat="leftpad"><Fontface fontfamily='FF-Copy'>
-				<I><Value>Additional Information:</Value></I>
+				<Value>Additional Information:</Value>
 			</Fontface></Paragraph>
 			$extension_text
 			</Case></Switch>
