@@ -43,10 +43,6 @@ echo
 echo "*** MAGA Spell Check ***"
 ./aion_X_spell.sh 2>&1 | tee aion_X_spell.out
 
-#echo
-#echo "*** MAGA Speedata ***"
-#./aion_8_speedata.sh 2>&1 > aion_8_speedata.sh.aionian.out
-
 echo
 date
 echo "*** MAGA Review and TODO ***"

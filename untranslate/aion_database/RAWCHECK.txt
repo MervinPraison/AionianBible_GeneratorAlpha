@@ -1,6 +1,6 @@
 # File Name: RAWCHECK.txt
-# File Size: 3166591     
-# File Date: 03/04/2022 10:18:57
+# File Size: 3166593     
+# File Date: 03/04/2022 20:07:33
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: http://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022
@@ -9167,13 +9167,13 @@ Holy-Bible---Romani-Vlax---Arli-Luke	042	LUK	009	031	ADD	On vaćerde e meribnast
 Holy-Bible---Romani-Vlax---Arli-Luke	042	LUK	023	050	MODIFY	Inele jekh manuš palo anav Josif tari Arimateja, diz ani Judeja.	Inele jekh manuš palo anav Josif tari Arimateja, diz ani Judeja. Ov inele šukar hem pravedno manuš kova adžićeri ine e Mesija te anel o carstvo e Devlesoro. Iako inele člano oto e jevrejengoro odbor, na složinđa pe adaleja so inele odlučime te roden o Isus te ovel mudardo.
 Holy-Bible---Romani-Vlax---Arli-Luke	042	LUK	023	051	ADD	Ov inele šukar hem pravedno manuš kova adžićeri ine e Mesija te anel o carstvo e Devlesoro. Iako inele člano oto e jevrejengoro odbor, na složinđa pe adaleja so inele odlučime te roden o Isus te ovel mudardo.	
 Holy-Bible---Romanian---Ludari-Luke	042	LUK	001	054	DELETE	Jel ažutat alu Izrael, alu argatu aluj baš kum adat obečală alu sămănca anuastră, alu Abraham š alu kupi aluj, k osă lji fije uvjek d milă.”	
-Holy-Bible---Romanian---Ludari-Luke	042	LUK	001	055	ADD	Jel ažutat alu argatu aluj, Izrael, baš kum adat obećală alu sămănca anuastră, alu Abraham š alu kupi aluj, k osă lji fije uvjek d milă.”	
+Holy-Bible---Romanian---Ludari-Luke	042	LUK	001	055	ADD	Jel ažutat alu Izrael, alu argatu aluj baš kum adat obečală alu sămănca anuastră, alu Abraham š alu kupi aluj, k osă lji fije uvjek d milă.”	
 Holy-Bible---Romanian---Ludari-Luke	042	LUK	017	036	DELETE	Učenikurlje aluj l ăntrjabă: “Domnulje, undje asta osă fije?” Isusu lji zăče: “Undje zače lumja muartă, ănklo s sakupjaštje lešinari.”	
-Holy-Bible---Romanian---Ludari-Luke	042	LUK	017	037	ADD	Učenikurlje aluj l trjabă: “Domnulje, undje asta osă fije?” Isusu lji zăće: “Undje zaće lumja muartă, ăn ănklo s sakupjaštje lešinari.”	
+Holy-Bible---Romanian---Ludari-Luke	042	LUK	017	037	ADD	Učenikurlje aluj l ăntrjabă: “Domnulje, undje asta osă fije?” Isusu lji zăče: “Undje zače lumja muartă, ănklo s sakupjaštje lešinari.”	
 Holy-Bible---Romanian---Ludari-Luke	042	LUK	023	017	DELETE	Ali toc ăn unu glas astrigat: “P jel umuară, a lasinje p Baraba!”	
 Holy-Bible---Romanian---Ludari-Luke	042	LUK	023	018	ADD	Ali toc ăntru glas azbirat: “P jel umuară, a lasănje pă Baraba!”	
 Holy-Bible---Romanian---Ludari-Luke	042	LUK	023	050	MODIFY	Š jakă njeki om, karje s kima Josip d Arimateja, trgu ăn Judeja, apljikat la Pilat š akătat s ji dja tjela alu Isusuluj.	Š jakă njeki om, karje s kima Josip d Arimateja, trgu ăn Judeja, apljikat la Pilat š akătat s ji dja tjela alu Isusuluj. Jel afost članu d Vječa amarje alu Židovilor, ali nu sa slažăt ku jej daja ča pukat š osudit p Isusu p muartje. Jel afost bun š pravedan om karje štipta cara alu Dimizov.
-Holy-Bible---Romanian---Ludari-Luke	042	LUK	023	051	ADD	Jel afost članu d Vječa amarje alu Židovilor, ali nu sa slažăt ku je daja če apukat š osudit p Isusu p muartje.	
+Holy-Bible---Romanian---Ludari-Luke	042	LUK	023	051	ADD	Jel afost članu d Vječa amarje alu Židovilor, ali nu sa slažăt ku jej daja ča pukat š osudit p Isusu p muartje.	
 Holy-Bible---Romanian---Ludari-Luke	042	LUK	023	052	ADD	Jel afost bun š pravedan om karje štipta cara alu Dimizov.	
 Holy-Bible---Rote-Dela---Rote-Dela-Bible	001	GEN	002	004	MODIFY	Lamatualain na'adadad'i' lalai no raefafo' dud'ui na, ta'o a naa.  Lele' LAMATUALAIN na'adadad'i' lalai no raefafo' a,	Lele' LAMATUALAIN na'adadad'i' lalai no raefafo' a,
 Holy-Bible---Rote-Dela---Rote-Dela-Bible	001	GEN	029	014	MODIFY	Ma Lab'an ola' nae, “Mema' teb'e! Hita ru'a nggita bob'onggi'!”  Yakob leo no se losa fula esa ena ma,	Yakob leo no se losa fula esa ena ma,
