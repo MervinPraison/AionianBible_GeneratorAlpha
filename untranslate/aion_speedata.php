@@ -42,7 +42,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Arabic|Persian).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Bulgarian|Cebuano|Gourmantche|Nepali|Uyghur-Bible-Arabic|Uyghur-Bible-Cyrillic|Uyghur-Bible-Pinyin).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic|Uyghur-Bible-Cyrillic|Uyghur-Bible-Pinyin).*---Aionian-Edition\.noia$/",
-		'include'	=> "/Holy-Bible---.*(Clementine|Vulgat).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Clementine|Vulgat).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Heart|Ludari|Gurbet|Spanish---Free).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Hebrew).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur|Gujarati|Korean).*---Aionian-Edition\.noia$/",
@@ -53,7 +53,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*STEPBible.*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Statenvertaling|Kougo-yaku).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
-		//'include'	=> "/---Aionian-Edition\.noia$/",
+		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		) );

@@ -1282,7 +1282,7 @@ abcms_head();
 The  <span class='notranslate'>Aionian</span>  Bible un-translates and instead transliterates ten special words to help us better understand the extent of God’s love for individuals and all mankind, and the nature of afterlife destinies.  The original translation is unaltered and an inline note is appended to 63 Old Testament and 200 New Testament verses. Compare the definitions below to the <a href='/Glossary' title='Aionian Glossary' onclick='return AionianBible_Makemark("/Glossary");'><span class='notranslate'>Aionian</span> Glossary</a>. Follow the <span class='word-blue'>blue link</span> below to study the word's usage.  Search for any Strong's number: g1-21369 and h1-9049.<br />
 <div class=center>
 <form action='<? echo abcms_href(TRUE,'',TRUE,FALSE); ?>' method='post'>
-<input type='text' name='sid' placeholder='Enter g1-5624 or h1-8674 for Greek and Hebrew Strongs numbers, for example g166' value=''/>
+<input type='text' name='sid' placeholder='Enter g1-21369 or h1-9049 for Greek and Hebrew Strongs numbers, for example g166' value=''/>
 <input type='submit' name='search' value='Search' />
 </form>
 </div>

@@ -4911,6 +4911,7 @@ function AION_SITEMAP($root) {
 	$sitemap_file  = "<?xml version='1.0' encoding='UTF-8'?>\n<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>\n";
 	$sitemap_file .= "<url><loc>http://www.AionianBible.org</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>\n";
 	$sitemap_file .= "<url><loc>http://www.AionianBible.org/Preface</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
+	$sitemap_file .= "<url><loc>http://www.AionianBible.org/Lake-of-Fire</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
 	$sitemap_file .= "<url><loc>http://www.AionianBible.org/Buy</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
 	$sitemap_file .= "<url><loc>http://www.AionianBible.org/Aionios-and-Aidios</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
 	$sitemap_file .= "<url><loc>http://www.AionianBible.org/Glossary</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
