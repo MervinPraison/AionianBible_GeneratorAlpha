@@ -335,7 +335,7 @@ $commentplus = <<<EOT
 # Source Link: https://tyndale.github.io/STEPBible-Data
 # Source Application: https://www.STEPBible.org
 # Source Copyright: Creative Commons Attribution Non-Commercial 4.0
-# Source Definitions: Abridged BDB by http://onlinebible.net, edited by Tyndale House Cambridge
+# Source Definitions: Abridged BDB by https://onlinebible.net, edited by Tyndale House Cambridge
 # Source Definitions Copyright: Larry Pierce, larrypierce@alumni.uwaterloo.ca
 # Source Definitions Copyright: Explicit usage permission required to use definition in your application
 # Source Definitions Copyright: Larry Pierce granted permission for Nainoia Inc applications on 3/11/2019
@@ -501,7 +501,7 @@ $commentplus = <<<EOT
 #		G0001  - G5624,  Strongs numbers from original set made by Strong for Greek behind the KJV  
 #		G3203  - G3302,  Not used for some reason
 #		G5627  - G5799,  Greek morphology codes  (these numbers aren't used in this lexicon) 
-#		G5800  - G5893,  Greek Synonyms - see http://studybible.info/strongs/G5800  (these numbers aren't used in this lexicon) 
+#		G5800  - G5893,  Greek Synonyms - see https://studybible.info/strongs/G5800  (these numbers aren't used in this lexicon) 
 #		G6000  - G6090,  Extra Strongs Numbers in NASB mainly for variants not known to Strong. (they remain the same so it is backward-compatible with NASB) 
 #		G6100  - G9979,  Extra Greek from Apostolic Bible Project mainly for LXX words not found in NT (including Greek names that don't occur in the Hebrew) 
 #		G6091  - G6099,  G9980 - G9999, Extra Greek for variants which are not included in NASB or Apostolic Bible  
@@ -547,7 +547,7 @@ $commentplus = <<<EOT
 #		G0001  - G5624,  Strongs numbers from original set made by Strong for Greek behind the KJV  
 #		G3203  - G3302,  Not used for some reason
 #		G5627  - G5799,  Greek morphology codes  (these numbers aren't used in this lexicon) 
-#		G5800  - G5893,  Greek Synonyms - see http://studybible.info/strongs/G5800  (these numbers aren't used in this lexicon) 
+#		G5800  - G5893,  Greek Synonyms - see https://studybible.info/strongs/G5800  (these numbers aren't used in this lexicon) 
 #		G6000  - G6090,  Extra Strongs Numbers in NASB mainly for variants not known to Strong. (they remain the same so it is backward-compatible with NASB) 
 #		G6100  - G9979,  Extra Greek from Apostolic Bible Project mainly for LXX words not found in NT (including Greek names that don't occur in the Hebrew) 
 #		G6091  - G6099,  G9980 - G9999, Extra Greek for variants which are not included in NASB or Apostolic Bible  
@@ -572,7 +572,7 @@ $commentplus = <<<EOT
 #		Most abbreviations have been expanded, usually in accordance with the introductions to the lexicons but occasionally made clearer. 
 #		Dates have been added to authors by Tyndale House, using standard reference works. 
 #		Coding is added to hide bibliographic data under a link stating the earliest date included in that data.
-#		(Note, not all devices work well with tooltips, so consider implementing a clickable option such as http://jsfiddle.net/xaAN3/) 
+#		(Note, not all devices work well with tooltips, so consider implementing a clickable option such as https://jsfiddle.net/xaAN3/) 
 
 EOT;
 AION_FILE_DATA_PUT("$FOLDER_STAGE$GREEK_TFLSJ_DATA", $database['GRELSJ'], $commentplus);

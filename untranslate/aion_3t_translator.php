@@ -14,24 +14,24 @@ $HEADER = <<<EOT
 # File Name: AB-StudyPack.txt
 # File Date: $thedate
 # File Purpose: Resources for Bible translation and study of underlying languages
-# File Location: http://resources.AionianBible.org/AB-StudyPack
+# File Location: https://resources.AionianBible.org/AB-StudyPack
 # File Source: Aionian Bible resources by Nainoia Inc combined with STEPBible resources by STEPBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-$theyear
 # File Copyright Format: Creative Commons Attribution No Derivative Works 4.0, 2018-$theyear
 # File Generator: ABCMS (alpha)
 # File Accuracy: Contact publisher with corrections to file format or content
 # Publisher Name: Nainoia Inc
-# Publisher Contact: http://www.AionianBible.org/Publisher
-# Publisher Mission: http://www.AionianBible.org/Preface
-# Publisher Website: http://NAINOIA-INC.signedon.net
+# Publisher Contact: https://www.AionianBible.org/Publisher
+# Publisher Mission: https://www.AionianBible.org/Preface
+# Publisher Website: https://NAINOIA-INC.signedon.net
 # Publisher Facebook: https://www.Facebook.com/AionianBible
 # STEPBible Copyright: Creative Commons Attribution 4.0
 # STEPBible Source Link: https://github.com/STEPBible/STEPBible-Data
 #
 # INTRODUCTION:
 # Resources for Bible translation and study of underlying languages.
-# Report concerns at http://www.AionianBible.org/Publisher.
-# Contact http://www.AionianBible.org/Publisher for a StudyPack in your language.
+# Report concerns at https://www.AionianBible.org/Publisher.
+# Contact https://www.AionianBible.org/Publisher for a StudyPack in your language.
 # Report STEPBible data concerns at https://github.com/STEPBible/STEPBible-Data
 #
 # FILES:
@@ -77,7 +77,7 @@ $HEADER = <<<EOT
 #
 # STATEGY:
 # 1. Pray for a modern public domain translation in every language.
-# 2. Use http://AionianBible.org for study, parallel Bible text viewing, and extended Strong's lexicon entries.
+# 2. Use https://AionianBible.org for study, parallel Bible text viewing, and extended Strong's lexicon entries.
 # 3. Download https://github.com/STEPBible/STEPBible-Data for direct access to the STEPBBible data.
 # 4. Use other resources as available and needed.
 # 5. Install https://notepad-plus-plus.org or a text editor with REGEX for advanced text search and edits.
@@ -98,7 +98,7 @@ $HEADER = <<<EOT
 # Word
 #	Pointed form.
 #	Accented forms from Westminster Leningrad text WLC 4.20 via OpenScriptures occassionally corrected towards the Leningrad Codex by Tyndale scholars.
-# Morphology is from ETCBC in the form defined by OpenScriptures at http://openscriptures.github.io/morphhb/parsing/HebrewMorphologyCodes.html#vt
+# Morphology is from ETCBC in the form defined by OpenScriptures at https://openscriptures.github.io/morphhb/parsing/HebrewMorphologyCodes.html#vt
 #	for the source of ETCBC and conversion method by Tyndale House, see https://goo.gl/yKaXQq#HebMorph2
 #	ETCBC only parses the Qere. The Ketiv versions have been parsed by Tyndale scholars - see e.g. Deu.33.2-15
 # Extended Strongs numbers are augmented (with additions of "a", "b" etc) in line with BDB based on OpenScriptures

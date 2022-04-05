@@ -1,15 +1,15 @@
 # File Name: BOOKSCOUNT.txt
-# File Size: 1737        
-# File Date: 03/11/2022 01:23:41
+# File Size: 1741        
+# File Date: 04/02/2022 20:29:28
 # File Purpose: Supporting resource for the Aionian Bible project
-# File Location: http://resources.AionianBible.org
+# File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022
 # File Generator: ABCMS (alpha)
 # File Accuracy: Contact publisher with corrections to file format or content
 # Publisher Name: Nainoia Inc
-# Publisher Contact: http://www.AionianBible.org/Publisher
-# Publisher Mission: http://www.AionianBible.org/Preface
-# Publisher Website: http://NAINOIA-INC.signedon.net
+# Publisher Contact: https://www.AionianBible.org/Publisher
+# Publisher Mission: https://www.AionianBible.org/Preface
+# Publisher Website: https://NAINOIA-INC.signedon.net
 # Publisher Facebook: https://www.Facebook.com/AionianBible
 #
 INDEX	BOOK	CHAPTER	VERSE

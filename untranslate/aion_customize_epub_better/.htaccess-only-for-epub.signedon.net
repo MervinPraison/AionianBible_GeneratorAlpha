@@ -12,17 +12,21 @@ RewriteBase /
   </FilesMatch>
 </IfModule>
 
+# HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
 # REWRITE EPUB LIBRARY
 RewriteCond %{REQUEST_URI} ^/(.+)$ [NC]
 RewriteCond %{DOCUMENT_ROOT}/library/%{REQUEST_URI} -d
 RewriteCond %{DOCUMENT_ROOT}/library/%{REQUEST_URI}/META-INF -d
 RewriteCond %{DOCUMENT_ROOT}/library/%{REQUEST_URI}/mimetype -f
-RewriteRule ^ http://%{HTTP_HOST}?e=/xcdn%{REQUEST_URI} [L]
+RewriteRule ^ https://%{HTTP_HOST}?e=/xcdn%{REQUEST_URI} [L]
 
 # REWRITE EPUB
 RewriteCond %{REQUEST_URI} ^/.+\.epub$ [NC]
 RewriteCond %{DOCUMENT_ROOT}/library/%{REQUEST_URI} -f
-RewriteRule ^ http://%{HTTP_HOST}/library/%{REQUEST_URI} [L]
+RewriteRule ^ https://%{HTTP_HOST}/library/%{REQUEST_URI} [L]
 
 # REWRITE INDEX
 RewriteCond %{REQUEST_FILENAME} !-f

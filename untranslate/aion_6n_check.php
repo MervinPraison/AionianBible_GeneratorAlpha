@@ -37,16 +37,16 @@ function AION_LOOP_ANALYSIS_DOIT($args) {
 	$file_aionian  = $args['destiny']."/$bible---Aionian-Edition.noia";
 
 	// SUPPORT?
-	if (empty($args['database'][T_BOOKS][$bible])) {														AION_ECHO("ERROR! Analysiss Failed to find BOOK[bible] = $bible"); }
-	if (($x=count($args['database'][T_BOOKS][$bible]))!=67) {												AION_ECHO("ERROR! Analysiss Count(args[T_BOOKS][BIBLE])!=67: $x"); }
-	if (empty($args['database'][T_NUMBERS][$bible])) {														AION_ECHO("ERROR! Analysiss Failed to find NUMBERS[bible] = $bible"); }
-	if (empty($args['database'][T_VERSIONS][$bible])) {														AION_ECHO("ERROR! Analysiss Failed to find VERSIONS[bible] = $bible"); }
-	if (empty($args['database'][T_FORPRINT][$bible])) {														AION_ECHO("ERROR! Analysiss Failed to find FORPRINT[bible] = $bible"); }
+	if (empty($args['database'][T_BOOKS][$bible])) {														AION_ECHO("ERROR! Analysis Failed to find BOOK[bible] = $bible"); }
+	if (($x=count($args['database'][T_BOOKS][$bible]))!=67) {												AION_ECHO("ERROR! Analysis Count(args[T_BOOKS][BIBLE])!=67: $x"); }
+	if (empty($args['database'][T_NUMBERS][$bible])) {														AION_ECHO("ERROR! Analysis Failed to find NUMBERS[bible] = $bible"); }
+	if (empty($args['database'][T_VERSIONS][$bible])) {														AION_ECHO("ERROR! Analysis Failed to find VERSIONS[bible] = $bible"); }
+	if (empty($args['database'][T_FORPRINT][$bible])) {														AION_ECHO("ERROR! Analysis Failed to find FORPRINT[bible] = $bible"); }
 
 	// INPUT
 	$database = array();
-	if (!($data_original=file_get_contents($file_original))) {												AION_ECHO("ERROR! Analysiss file_get_contents($file_original)"); }
-	if (!($data_aionian =file_get_contents($file_aionian))) {												AION_ECHO("ERROR! Analysiss file_get_contents($file_aionian)"); }
+	if (!($data_original=file_get_contents($file_original))) {												AION_ECHO("ERROR! Analysis file_get_contents($file_original)"); }
+	if (!($data_aionian =file_get_contents($file_aionian))) {												AION_ECHO("ERROR! Analysis file_get_contents($file_aionian)"); }
 	$encode_original = mb_detect_encoding($data_original);
 	$encode_aionian = mb_detect_encoding($data_aionian);
 	$encode_original = (empty($encode_original) ? "Unknown" : $encode_original);
@@ -60,10 +60,10 @@ function AION_LOOP_ANALYSIS_DOIT($args) {
 	$char_aionian  = mb_strlen($data_aionian);
 
 	// REMOVE COMMENTS AND EMPTY LINES
-	if(!($data_original=preg_replace("#[\r\n]+#uis","\n",$data_original))) {								AION_ECHO("ERROR! Analysiss preg_replace(original empty line) $file_original $byte_original ".preg_last_error()); }
-	if(!($data_aionian=preg_replace("#[\r\n]+#uis","\n",$data_aionian))) {									AION_ECHO("ERROR! Analysiss preg_replace(aionian empty line) $file_aionian $byte_aionian"); }
-	if(!($data_original=preg_replace("@(^|\n#|\n/)[^\n]*?@uis","",$data_original))) {						AION_ECHO("ERROR! Analysiss preg_replace(original comment) $file_original $byte_original"); }
-	if(!($data_aionian=preg_replace("@(^|\n#|\n/)[^\n]*?@uis","",$data_aionian))) {							AION_ECHO("ERROR! Analysiss preg_replace(aionian comment) $file_aionian $byte_aionian"); }
+	if(!($data_original=preg_replace("#[\r\n]+#uis","\n",$data_original))) {								AION_ECHO("ERROR! Analysis preg_replace(original empty line) $file_original $byte_original ".preg_last_error()); }
+	if(!($data_aionian=preg_replace("#[\r\n]+#uis","\n",$data_aionian))) {									AION_ECHO("ERROR! Analysis preg_replace(aionian empty line) $file_aionian $byte_aionian"); }
+	if(!($data_original=preg_replace("@(^|\n#|\n/)[^\n]*?@uis","",$data_original))) {						AION_ECHO("ERROR! Analysis preg_replace(original comment) $file_original $byte_original"); }
+	if(!($data_aionian=preg_replace("@(^|\n#|\n/)[^\n]*?@uis","",$data_aionian))) {							AION_ECHO("ERROR! Analysis preg_replace(aionian comment) $file_aionian $byte_aionian"); }
 
 	// ANALYIZE
 	$analysis = "";
@@ -172,14 +172,14 @@ function AION_LOOP_ANALYSIS_DOIT($args) {
 		"# File Size: 000000000000\n" .
 		"# File Date: ".date('m/d/Y H:i:s')."\n" .
 		"# File Purpose: Supporting resource for the Aionian Bible project\n" .
-		"# File Location: http://resources.AionianBible.org\n" .
+		"# File Location: https://resources.AionianBible.org\n" .
 		"# File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-".date('Y')."\n" .
 		"# File Generator: ABCMS (alpha)\n" .
 		"# File Accuracy: Contact publisher with corrections to file format or content\n" .
 		"# Publisher Name: Nainoia Inc\n" .
-		"# Publisher Contact: http://www.AionianBible.org/Publisher\n" .
-		"# Publisher Mission: http://www.AionianBible.org/Preface\n" .
-		"# Publisher Website: http://NAINOIA-INC.signedon.net\n" .
+		"# Publisher Contact: https://www.AionianBible.org/Publisher\n" .
+		"# Publisher Mission: https://www.AionianBible.org/Preface\n" .
+		"# Publisher Website: https://NAINOIA-INC.signedon.net\n" .
 		"# Publisher Facebook: https://www.Facebook.com/AionianBible\n" .
 		"# Bible Name: ".$args['database'][T_VERSIONS][$bible]['NAME']."\n" .
 		"# Bible Name English: ".$args['database'][T_VERSIONS][$bible]['NAMEENGLISH']."\n" .

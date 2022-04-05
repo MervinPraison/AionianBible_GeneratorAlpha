@@ -1,15 +1,15 @@
 # File Name: IVERSE.txt
-# File Size: 489218      
-# File Date: 03/11/2022 01:40:53
+# File Size: 489252      
+# File Date: 04/02/2022 20:46:56
 # File Purpose: Supporting resource for the Aionian Bible project
-# File Location: http://resources.AionianBible.org
+# File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022
 # File Generator: ABCMS (alpha)
 # File Accuracy: Contact publisher with corrections to file format or content
 # Publisher Name: Nainoia Inc
-# Publisher Contact: http://www.AionianBible.org/Publisher
-# Publisher Mission: http://www.AionianBible.org/Preface
-# Publisher Website: http://NAINOIA-INC.signedon.net
+# Publisher Contact: https://www.AionianBible.org/Publisher
+# Publisher Mission: https://www.AionianBible.org/Preface
+# Publisher Website: https://NAINOIA-INC.signedon.net
 # Publisher Facebook: https://www.Facebook.com/AionianBible
 #
 BIBLE	REF	TEXT
@@ -491,7 +491,7 @@ Holy-Bible---English---Montgomery-NT	EXO-013-017
 Holy-Bible---English---Montgomery-NT	MAR-010-045	Mark 10:45	and justly, for even the Son of man came not to be served, but to serve, and to give his life, a ransom for many."
 Holy-Bible---English---Montgomery-NT	ROM-001-001	Romans 1:1	From Paul, a slave of Jesus Christ, called to be an apostle, set apart for a gospel of God,
 Holy-Bible---English---Montgomery-NT	MAT-028-019	Matthew 28:19	Go, therefore, and make disciples of all nations, baptizing them into the name of the Father, and of the Son, and of the Holy Spirit;
-Holy-Bible---English---New-Heart-Aramaic	JOH-003-016	John 3:16	For God so loved the world that he gave his only Son, so that everyone who believes in him will not perish, but have everlasting life.
+Holy-Bible---English---New-Heart-Aramaic	JOH-003-016	John 3:16	For God loved the world in this way: He gave his only Son, so that everyone who believes in him would not perish, but have everlasting life.
 Holy-Bible---English---New-Heart-Aramaic	GEN-003-024	Genesis 3:24	So he drove out the man; and he stationed the cherubim at the east of the garden of Eden, and a flaming sword which turned every direction, to guard the way to the tree of life.
 Holy-Bible---English---New-Heart-Aramaic	LUK-023-034	Luke 23:34	And Yeshua said, "Father, forgive them, for they do not know what they are doing."  Dividing his garments among them, they cast lots.
 Holy-Bible---English---New-Heart-Aramaic	REV-021-002	Revelation 21:2-3	I saw the holy city, New Urishlim, coming down out of heaven from God, made ready like a bride adorned for her husband. I heard a loud voice from the throne saying, "Look, the tabernacle of God is with humans, and he will dwell with them, and they will be his people, and God himself will be with them and be their God.
@@ -500,7 +500,7 @@ Holy-Bible---English---New-Heart-Aramaic	EXO-013-017	Exodus 13:17	It happened, w
 Holy-Bible---English---New-Heart-Aramaic	MAR-010-045	Mark 10:45	For the Son of Man also did not come to be served, but to serve, and to give his life as a ransom for many."
 Holy-Bible---English---New-Heart-Aramaic	ROM-001-001	Romans 1:1	Paul, a servant of Meshikha Yeshua, called to be an apostle, set apart for the Good News of God,
 Holy-Bible---English---New-Heart-Aramaic	MAT-028-019	Matthew 28:19	Therefore go, and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Rukha d'Qudsha,
-Holy-Bible---English---New-Heart-Jehovah	JOH-003-016	John 3:16	For God so loved the world that he gave his only Son, so that everyone who believes in him will not perish, but have everlasting life.
+Holy-Bible---English---New-Heart-Jehovah	JOH-003-016	John 3:16	For God loved the world in this way: He gave his only Son, so that everyone who believes in him would not perish, but have everlasting life.
 Holy-Bible---English---New-Heart-Jehovah	GEN-003-024	Genesis 3:24	So he drove out the man; and he stationed the cherubim at the east of the garden of Eden, and a flaming sword which turned every direction, to guard the way to the tree of life.
 Holy-Bible---English---New-Heart-Jehovah	LUK-023-034	Luke 23:34	And Jesus said, "Father, forgive them, for they do not know what they are doing."  Dividing his garments among them, they cast lots.
 Holy-Bible---English---New-Heart-Jehovah	REV-021-002	Revelation 21:2-3	I saw the holy city, New Jerusalem, coming down out of heaven from God, made ready like a bride adorned for her husband. I heard a loud voice from the throne saying, "Look, the tabernacle of God is with humans, and he will dwell with them, and they will be his people, and God himself will be with them and be their God.
@@ -509,7 +509,7 @@ Holy-Bible---English---New-Heart-Jehovah	EXO-013-017	Exodus 13:17	It happened, w
 Holy-Bible---English---New-Heart-Jehovah	MAR-010-045	Mark 10:45	For the Son of Man also did not come to be served, but to serve, and to give his life as a ransom for many."
 Holy-Bible---English---New-Heart-Jehovah	ROM-001-001	Romans 1:1	Paul, a servant of Christ Jesus, called to be an apostle, set apart for the Good News of God,
 Holy-Bible---English---New-Heart-Jehovah	MAT-028-019	Matthew 28:19	Therefore go, and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit,
-Holy-Bible---English---New-Heart-Jesus-Messiah	JOH-003-016	Yochanan 3:16	For God so loved the world that he gave his only Son, so that everyone who believes in him will not perish, but have everlasting life.
+Holy-Bible---English---New-Heart-Jesus-Messiah	JOH-003-016	Yochanan 3:16	For God loved the world in this way: He gave his only Son, so that everyone who believes in him would not perish, but have everlasting life.
 Holy-Bible---English---New-Heart-Jesus-Messiah	GEN-003-024	Genesis 3:24	So he drove out the man; and he stationed the cherubim at the east of the garden of Eden, and a flaming sword which turned every direction, to guard the way to the tree of life.
 Holy-Bible---English---New-Heart-Jesus-Messiah	LUK-023-034	Luke 23:34	And Jesus said, "Father, forgive them, for they do not know what they are doing."  Dividing his garments among them, they cast lots.
 Holy-Bible---English---New-Heart-Jesus-Messiah	REV-021-002	Revelation 21:2-3	I saw the holy city, New Jerusalem, coming down out of heaven from God, made ready like a bride adorned for her husband. I heard a loud voice from the throne saying, "Look, the tabernacle of God is with humans, and he will dwell with them, and they will be his people, and God himself will be with them and be their God.
@@ -518,7 +518,7 @@ Holy-Bible---English---New-Heart-Jesus-Messiah	EXO-013-017	Exodus 13:17	It happe
 Holy-Bible---English---New-Heart-Jesus-Messiah	MAR-010-045	Mark 10:45	For the Son of Man also did not come to be served, but to serve, and to give his life as a ransom for many."
 Holy-Bible---English---New-Heart-Jesus-Messiah	ROM-001-001	Romans 1:1	Paul, a servant of Messiah Jesus, called to be an apostle, set apart for the gospel of God,
 Holy-Bible---English---New-Heart-Jesus-Messiah	MAT-028-019	Matthew 28:19	Therefore go, and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit,
-Holy-Bible---English---New-Heart-Messianic	JOH-003-016	Yochanan 3:16	For God so loved the world that he gave his only Son, so that everyone who believes in him will not perish, but have everlasting life.
+Holy-Bible---English---New-Heart-Messianic	JOH-003-016	Yochanan 3:16	For God loved the world in this way: He gave his only Son, so that everyone who believes in him would not perish, but have everlasting life.
 Holy-Bible---English---New-Heart-Messianic	GEN-003-024	Genesis 3:24	So he drove out the man; and he stationed the cherubim at the east of the garden of Eden, and a flaming sword which turned every direction, to guard the way to the tree of life.
 Holy-Bible---English---New-Heart-Messianic	LUK-023-034	Luke 23:34	And Yeshua said, "Father, forgive them, for they do not know what they are doing."  Dividing his garments among them, they cast lots.
 Holy-Bible---English---New-Heart-Messianic	REV-021-002	Revelation 21:2-3	I saw the holy city, New Jerusalem, coming down out of heaven from God, made ready like a bride adorned for her husband. I heard a loud voice from the throne saying, "Look, the tabernacle of God is with humans, and he will dwell with them, and they will be his people, and God himself will be with them and be their God.
@@ -527,7 +527,7 @@ Holy-Bible---English---New-Heart-Messianic	EXO-013-017	Exodus 13:17	It happened,
 Holy-Bible---English---New-Heart-Messianic	MAR-010-045	Mark 10:45	For the Son of Man also did not come to be served, but to serve, and to give his life as a ransom for many."
 Holy-Bible---English---New-Heart-Messianic	ROM-001-001	Romans 1:1	Paul, a servant of Messiah Yeshua, called to be an emissary, set apart for the Good News of God,
 Holy-Bible---English---New-Heart-Messianic	MAT-028-019	Matthew 28:19	Therefore go, and make talmidim of all nations, immersing them in the name of the Father and of the Son and of the Ruach ha-Kodesh,
-Holy-Bible---English---New-Heart-Standard	JOH-003-016	John 3:16	For God so loved the world that he gave his only Son, so that everyone who believes in him will not perish, but have everlasting life.
+Holy-Bible---English---New-Heart-Standard	JOH-003-016	John 3:16	For God loved the world in this way: He gave his only Son, so that everyone who believes in him would not perish, but have everlasting life.
 Holy-Bible---English---New-Heart-Standard	GEN-003-024	Genesis 3:24	So he drove out the man; and he stationed the cherubim at the east of the garden of Eden, and a flaming sword which turned every direction, to guard the way to the tree of life.
 Holy-Bible---English---New-Heart-Standard	LUK-023-034	Luke 23:34	And Jesus said, "Father, forgive them, for they do not know what they are doing."  Dividing his garments among them, they cast lots.
 Holy-Bible---English---New-Heart-Standard	REV-021-002	Revelation 21:2-3	I saw the holy city, New Jerusalem, coming down out of heaven from God, made ready like a bride adorned for her husband. I heard a loud voice from the throne saying, "Look, the tabernacle of God is with humans, and he will dwell with them, and they will be his people, and God himself will be with them and be their God.
@@ -536,7 +536,7 @@ Holy-Bible---English---New-Heart-Standard	EXO-013-017	Exodus 13:17	It happened, 
 Holy-Bible---English---New-Heart-Standard	MAR-010-045	Mark 10:45	For the Son of Man also did not come to be served, but to serve, and to give his life as a ransom for many."
 Holy-Bible---English---New-Heart-Standard	ROM-001-001	Romans 1:1	Paul, a servant of Christ Jesus, called to be an apostle, set apart for the Good News of God,
 Holy-Bible---English---New-Heart-Standard	MAT-028-019	Matthew 28:19	Therefore go, and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit,
-Holy-Bible---English---New-Heart-YHWH	JOH-003-016	John 3:16	For God so loved the world that he gave his only Son, so that everyone who believes in him will not perish, but have everlasting life.
+Holy-Bible---English---New-Heart-YHWH	JOH-003-016	John 3:16	For God loved the world in this way: He gave his only Son, so that everyone who believes in him would not perish, but have everlasting life.
 Holy-Bible---English---New-Heart-YHWH	GEN-003-024	Genesis 3:24	So he drove out the man; and he stationed the cherubim at the east of the garden of Eden, and a flaming sword which turned every direction, to guard the way to the tree of life.
 Holy-Bible---English---New-Heart-YHWH	LUK-023-034	Luke 23:34	And Jesus said, "Father, forgive them, for they do not know what they are doing."  Dividing his garments among them, they cast lots.
 Holy-Bible---English---New-Heart-YHWH	REV-021-002	Revelation 21:2-3	I saw the holy city, New Jerusalem, coming down out of heaven from God, made ready like a bride adorned for her husband. I heard a loud voice from the throne saying, "Look, the tabernacle of God is with humans, and he will dwell with them, and they will be his people, and God himself will be with them and be their God.
@@ -1698,14 +1698,14 @@ Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	MAR-010-045	От Мар�
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	ROM-001-001	Послание к Римлянам 1:1	Павел, раб Иисус Христов, зван Апостол, избран в благовестие Божие,
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	MAT-028-019	От Матфея святое благовествование 28:19	шедше убо научите вся языки, крестяще их во имя Отца и Сына и Святаго Духа,
 Holy-Bible---Slovene---Slovene-Savli-Bible	JOH-003-016	Janez 3:16	Kajti Bog je tako ljubil svet, da je dal svojega edinorojenega Sina, da kdorkoli veruje vanj, ne bi umrl, temveč ima večno življenje.
-Holy-Bible---Slovene---Slovene-Savli-Bible	GEN-003-024	1 Mojzes 3:24	Tako je izgnal človeka; in na vzhodu edenskega vrta namestil kerube in ognjen meč, ki obrača vsako pot, da varuje pot do drevesa življenja.
-Holy-Bible---Slovene---Slovene-Savli-Bible	LUK-023-034	Luka 23:34	Potem je Jezus rekel: „Oče, odpusti jim; kajti ne vedo kaj delajo.“Oni pa so si razdelili njegova oblačila ter metali žrebe.
+Holy-Bible---Slovene---Slovene-Savli-Bible	GEN-003-024	1 Mojzes 3:24	Tako je izgnal človeka in na vzhodu edenskega vrta namestil kerube in ognjen meč, ki obrača vsako pot, da varuje pot do drevesa življenja.
+Holy-Bible---Slovene---Slovene-Savli-Bible	LUK-023-034	Luka 23:34	Potem je Jezus rekel: „Oče, odpusti jim, kajti ne vedo kaj delajo.“Oni pa so si razdelili njegova oblačila ter metali žrebe.
 Holy-Bible---Slovene---Slovene-Savli-Bible	REV-021-002	Razodetje 21:2-3	In jaz, Janez, sem videl sveto mesto, novi Jeruzalem, prihajati dol od Boga, iz nebes, pripravljeno kakor je nevesta okrašena za svojega soproga. In zaslišal sem močan glas z neba, rekoč: „Glej, šotorsko svetišče Boga je z ljudmi in prebival bo z njimi in oni bodo njegovi ljudje in sam Bog bo z njimi in bo njihov Bog.
-Holy-Bible---Slovene---Slovene-Savli-Bible	HEB-011-008	Hebrejcem 11:8	Po veri je Abraham ubogal, ko je bil poklican, da gre ven, na kraj, katerega naj bi kasneje prejel v dediščino; in odšel je ven, ne vedoč kam je šel.
-Holy-Bible---Slovene---Slovene-Savli-Bible	EXO-013-017	2 Mojzes 13:17	In pripetilo se je, ko je faraon ljudstvu pustil oditi, da jih Bog ni vodil po poti dežele Filistejcev, čeprav je bila ta blizu: kajti Bog je rekel: „Da se ne bi morda ljudstvo pokesalo, ko zagleda vojno in se vrnejo v Egipt: “
+Holy-Bible---Slovene---Slovene-Savli-Bible	HEB-011-008	Hebrejcem 11:8	Po veri je Abraham ubogal, ko je bil poklican, da gre ven, na kraj, katerega naj bi kasneje prejel v dediščino in odšel je ven, ne vedoč kam je šel.
+Holy-Bible---Slovene---Slovene-Savli-Bible	EXO-013-017	2 Mojzes 13:17	In pripetilo se je, ko je faraon ljudstvu pustil oditi, da jih Bog ni vodil po poti dežele Filistejcev, čeprav je bila ta blizu, kajti Bog je rekel: „Da se ne bi morda ljudstvo pokesalo, ko zagleda vojno in se vrnejo v Egipt: “
 Holy-Bible---Slovene---Slovene-Savli-Bible	MAR-010-045	Marko 10:45	Kajti celo Sin človekov ni prišel, da bi mu služili, temveč, da služi in da svoje življenje daruje v odkupnino za mnoge.“
 Holy-Bible---Slovene---Slovene-Savli-Bible	ROM-001-001	Rimljanom 1:1	Pavel, služabnik Jezusa Kristusa, poklican, da bi bil apostol, odbran za evangelij Boga,
-Holy-Bible---Slovene---Slovene-Savli-Bible	MAT-028-019	Matej 28:19	Pojdite torej in učite vse narode, krščujoč jih v ime Očeta in Sina in Svetega Duha:
+Holy-Bible---Slovene---Slovene-Savli-Bible	MAT-028-019	Matej 28:19	Pojdite torej in učite vse narode, krščujoč jih v ime Očeta in Sina in Svetega Duha,
 Holy-Bible---Slovene---Slovene-Stritarja-NT	JOH-003-016	Janez 3:16	Kajti tako je Bog ljubil svet, da je sina svojega edinorojenega dal, da kdorkoli veruje va-nj, ne pogine, nego da ima večno življenje.
 Holy-Bible---Slovene---Slovene-Stritarja-NT	GEN-003-024		
 Holy-Bible---Slovene---Slovene-Stritarja-NT	LUK-023-034	Luka 23:34	A Jezus je govoril: Oče!  odpusti jim; saj ne vedó, kaj delajo.  Deleč pa obleko njegovo, vržejo kocko.
@@ -1726,13 +1726,13 @@ Holy-Bible---Somali---Somali-Bible	ROM-001-001	Rooma 1:1	Waxaa warqaddan qoraya 
 Holy-Bible---Somali---Somali-Bible	MAT-028-019	Matayos 28:19	Haddaba taga, oo quruumaha oo dhan xer ka dhiga, oo ku baabtiisa magaca Aabbaha iyo Wiilka iyo Ruuxa Quduuskaa,
 Holy-Bible---Spanish---Free-Bible	JOH-003-016	Juan 3:16	“Porque Dios amó al mundo, y lo hizo de esta manera: entregó a su único Hijo, a fin de que todos los que crean en él no mueran, sino que tengan vida eterna.
 Holy-Bible---Spanish---Free-Bible	GEN-003-024	Génesis 3:24	Después de sacarlos del jardín, el Señor puso al oriente del jardín ángeles y una espada que daba su resplandor en todas las direcciones.  Esto con el fin de que no pudieran acceder al árbol de la vida.
-Holy-Bible---Spanish---Free-Bible	LUK-023-034	San Lucas 23:34	Luego Jesús dijo: “Padre, por favor, perdónalos porque no saben lo que hacen.”  Y ellos dividieron su ropa, lanzando el dado sobre ella.
+Holy-Bible---Spanish---Free-Bible	LUK-023-034	San Lucas 23:34	Luego Jesús dijo: “Padre, por favor, perdónalos porque no saben lo que hacen”.  Y ellos dividieron su ropa, lanzando el dado sobre ella.
 Holy-Bible---Spanish---Free-Bible	REV-021-002	Apocalipsis 21:2-3	Y vi la santa ciudad, Nueva Jerusalén, descendiendo desde el cielo de Dios, preparada como una novia, embellecida para su esposo. Escuché una voz fuerte que salía del trono y decía: “Ahora la casa de Dios está con los seres humanos y él vivirá con ellos.  Ellos serán su pueblo.  Dios mismo estará con ellos como su Dios.
 Holy-Bible---Spanish---Free-Bible	HEB-011-008	Hebreos 11:8	Por la fe en Dios Abrahán obedeció cuando Dios lo llamó para ir a la tierra que él le daría.  Y partió sin saber hacia dónde iba.
 Holy-Bible---Spanish---Free-Bible	EXO-013-017	Éxodo 13:17	Cuando el Faraón dejó salir a los israelitas, Dios no los llevó por la tierra de los filisteos, aunque era un camino más corto.  Porque Dios dijo, “Si se ven obligados a luchar, podrían cambiar de opinión y volver a Egipto”.
-Holy-Bible---Spanish---Free-Bible	MAR-010-045	Marcos 10:45	Porque incluso el Hijo del hombre no vino para que lo sirvieran sino para servir, y para dar su vida en rescate para muchos.”
+Holy-Bible---Spanish---Free-Bible	MAR-010-045	Marcos 10:45	Porque incluso el Hijo del hombre no vino para que lo sirvieran sino para servir, y para dar su vida en rescate para muchos”.
 Holy-Bible---Spanish---Free-Bible	ROM-001-001	Romanos 1:1	Esta carta viene de Pablo, siervo de Jesucristo.  Fui llamado por Dios para ser apóstol.  Él me designó para anunciar la buena noticia
-Holy-Bible---Spanish---Free-Bible	MAT-028-019	San Mateo 28:19	Así que vayan y hagan discípulos entre las personas de todas las naciones, bautizándolos en el nombre del Padre, del Hijo y del Espíritu Santo.
+Holy-Bible---Spanish---Free-Bible	MAT-028-019	San Mateo 28:19	Así que vayan y hagan discípulos entre la gente de todas las naciones, bautizándolos en el nombre del Padre, del Hijo y del Espíritu Santo.
 Holy-Bible---Spanish---Reina-Valera-1865	JOH-003-016	Juan 3:16	Porque de tal manera amó Dios al mundo, que haya dado a su Hijo unigénito; para que todo aquel que en él creyere, no se pierda, mas tenga vida eterna.
 Holy-Bible---Spanish---Reina-Valera-1865	GEN-003-024	Génesis 3:24	Y echó al hombre, y puso al oriente del huerto de Edén querubines, y una espada flamante que andaba alrededor, para guardar el camino del árbol de la vida.
 Holy-Bible---Spanish---Reina-Valera-1865	LUK-023-034	San Lucas 23:34	Mas Jesús decía: Padre, perdónalos; porque no saben lo que hacen.  Y partiendo sus vestidos, echaron suertes.

@@ -160,14 +160,14 @@ function AION_FILE_DATA_PUT_HEADER($file, $filesize, $comments_more) {
 	$comments .= "# File Size: ".sprintf("%-12s", 0)."\n";
 	$comments .= "# File Date: $thedate\n";
 	$comments .= "# File Purpose: Supporting resource for the Aionian Bible project\n";
-	$comments .= "# File Location: http://resources.AionianBible.org\n";
+	$comments .= "# File Location: https://resources.AionianBible.org\n";
 	$comments .= "# File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-".date('Y')."\n";
 	$comments .= "# File Generator: ABCMS (alpha)\n";
 	$comments .= "# File Accuracy: Contact publisher with corrections to file format or content\n";
 	$comments .= "# Publisher Name: Nainoia Inc\n";
-	$comments .= "# Publisher Contact: http://www.AionianBible.org/Publisher\n";
-	$comments .= "# Publisher Mission: http://www.AionianBible.org/Preface\n";
-	$comments .= "# Publisher Website: http://NAINOIA-INC.signedon.net\n";
+	$comments .= "# Publisher Contact: https://www.AionianBible.org/Publisher\n";
+	$comments .= "# Publisher Mission: https://www.AionianBible.org/Preface\n";
+	$comments .= "# Publisher Website: https://NAINOIA-INC.signedon.net\n";
 	$comments .= "# Publisher Facebook: https://www.Facebook.com/AionianBible\n";
 	$comments .= $comments_more;
 	$comments .= "#\n";
@@ -176,14 +176,14 @@ function AION_FILE_DATA_PUT_HEADER($file, $filesize, $comments_more) {
 	$comments .= "# File Size: ".sprintf("%-12s", $filesize)."\n";
 	$comments .= "# File Date: $thedate\n";
 	$comments .= "# File Purpose: Supporting resource for the Aionian Bible project\n";
-	$comments .= "# File Location: http://resources.AionianBible.org\n";
+	$comments .= "# File Location: https://resources.AionianBible.org\n";
 	$comments .= "# File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-".date('Y')."\n";
 	$comments .= "# File Generator: ABCMS (alpha)\n";
 	$comments .= "# File Accuracy: Contact publisher with corrections to file format or content\n";
 	$comments .= "# Publisher Name: Nainoia Inc\n";
-	$comments .= "# Publisher Contact: http://www.AionianBible.org/Publisher\n";
-	$comments .= "# Publisher Mission: http://www.AionianBible.org/Preface\n";
-	$comments .= "# Publisher Website: http://NAINOIA-INC.signedon.net\n";
+	$comments .= "# Publisher Contact: https://www.AionianBible.org/Publisher\n";
+	$comments .= "# Publisher Mission: https://www.AionianBible.org/Preface\n";
+	$comments .= "# Publisher Website: https://NAINOIA-INC.signedon.net\n";
 	$comments .= "# Publisher Facebook: https://www.Facebook.com/AionianBible\n";
 	$comments .= $comments_more;
 	$comments .= "#\n";	
@@ -201,7 +201,7 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $domain, $allbibl
 		// study pack
 		$lang = strtok($version[C_LANGUAGEENGLISH],", ");
 		AION_ECHO("AION_FILE_DATABASE_PUT look for ../www-resources/AB-StudyPack/Holy-Bible---$lang---AB-StudyPack.zip"); 
-		$pack = (AION_filesize("../www-resources/AB-StudyPack/Holy-Bible---$lang---AB-StudyPack.zip") ? "http://resources.AionianBible.org/AB-StudyPack/Holy-Bible---$lang---AB-StudyPack.zip" : "http://resources.AionianBible.org/AB-StudyPack");
+		$pack = (AION_filesize("../www-resources/AB-StudyPack/Holy-Bible---$lang---AB-StudyPack.zip") ? "https://resources.AionianBible.org/AB-StudyPack/Holy-Bible---$lang---AB-StudyPack.zip" : "https://resources.AionianBible.org/AB-StudyPack");
 
 		// Source txt filename
 		$sour = (
@@ -255,9 +255,9 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $domain, $allbibl
 		// Amazon and Lulu links
 		$L_AMAZON	= (empty($version[C_AMAZON])	|| $version[C_AMAZON]=='NULL'	? "" : "https://www.amazon.com/dp/".$version[C_AMAZON]);
 		$L_AMAZONNT	= (empty($version[C_AMAZONNT])	|| $version[C_AMAZONNT]=='NULL'	? "" : "https://www.amazon.com/dp/".$version[C_AMAZONNT]);
-		$L_LULU		= (empty($version[C_LULU])		|| $version[C_LULU]=='NULL'		? "" : (preg_match('/^http/i',$version[C_LULU])		? $version[C_LULU]		: "http://www.lulu.com/content/".$version[C_LULU]));
-		$L_LULUHARD	= (empty($version[C_LULUHARD])	|| $version[C_LULUHARD]=='NULL'	? "" : (preg_match('/^http/i',$version[C_LULUHARD])	? $version[C_LULUHARD]	: "http://www.lulu.com/content/".$version[C_LULUHARD]));
-		$L_LULUNT	= (empty($version[C_LULUNT])	|| $version[C_LULUNT]=='NULL'	? "" : (preg_match('/^http/i',$version[C_LULUNT])	? $version[C_LULUNT]	: "http://www.lulu.com/content/".$version[C_LULUNT]));
+		$L_LULU		= (empty($version[C_LULU])		|| $version[C_LULU]=='NULL'		? "" : (preg_match('/^http/i',$version[C_LULU])		? $version[C_LULU]		: "https://www.lulu.com/content/".$version[C_LULU]));
+		$L_LULUHARD	= (empty($version[C_LULUHARD])	|| $version[C_LULUHARD]=='NULL'	? "" : (preg_match('/^http/i',$version[C_LULUHARD])	? $version[C_LULUHARD]	: "https://www.lulu.com/content/".$version[C_LULUHARD]));
+		$L_LULUNT	= (empty($version[C_LULUNT])	|| $version[C_LULUNT]=='NULL'	? "" : (preg_match('/^http/i',$version[C_LULUNT])	? $version[C_LULUNT]	: "https://www.lulu.com/content/".$version[C_LULUNT]));
 
 		// okay built it
 		$database[$version[C_BIBLE]]['FORMATTED'] = ''.
@@ -287,13 +287,13 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $domain, $allbibl
 		"<a href='https://play.google.com/store/apps/details?id=net.signedon.aionianbible.aionianbible' target='_blank' title='Aionian Bible free at Google Play Store'>Android App</a>".
         (is_dir(  $bpub.'---Aionian-Edition')					?(", <a href='/epub/"			.$version[C_BIBLE]	."---Aionian-Edition' target='_blank' title='Aionian Bible ePub Futurepress'>Futurepress</a>") :'').
         (is_dir(  $bpub.'---Aionian-Edition')					?(", <a href='/Readium/"		.$version[C_BIBLE]	."---Aionian-Edition' target='_blank' title='Aionian Bible ePub Readium'>Readium</a>") :'').
-		(AION_filesize($base.'---Aionian-Edition.epub')			?(", <a href='http://$domain/"	.$version[C_BIBLE]	."---Aionian-Edition.epub' download title='Aionian Bible ePub format download'>ePub</a>") :'').
-		(AION_filesize($base.'---Aionian-Edition.pdf')			?(", <a href='http://$domain/"	.$version[C_BIBLE]	."---Aionian-Edition.pdf' target='_blank' title='Aionian Bible PDF format'>PDF</a>") :'').
-		(AION_filesize($base.'---Aionian-Edition---STUDY.pdf')	?(", <a href='http://$domain/"	.$version[C_BIBLE]	."---Aionian-Edition---STUDY.pdf' target='_blank' title='Aionian Bible wide margin PDF study format'>Study PDF</a>") :'').
+		(AION_filesize($base.'---Aionian-Edition.epub')			?(", <a href='https://$domain/"	.$version[C_BIBLE]	."---Aionian-Edition.epub' download title='Aionian Bible ePub format download'>ePub</a>") :'').
+		(AION_filesize($base.'---Aionian-Edition.pdf')			?(", <a href='https://$domain/"	.$version[C_BIBLE]	."---Aionian-Edition.pdf' target='_blank' title='Aionian Bible PDF format'>PDF</a>") :'').
+		(AION_filesize($base.'---Aionian-Edition---STUDY.pdf')	?(", <a href='https://$domain/"	.$version[C_BIBLE]	."---Aionian-Edition---STUDY.pdf' target='_blank' title='Aionian Bible wide margin PDF study format'>Study PDF</a>") :'').
 		($pack													?(", <a href='$pack' target='_blank' title='Aionian Bible Study Pack resources for Bible translation and study of underlying languages'>Study Pack</a>") :'').
-		(AION_filesize($base.'---Aionian-Edition.noia')			?(", <a href='http://$domain/"	.$version[C_BIBLE]	."---Aionian-Edition.noia' download title='Aionian Bible with annotations data format download'>Annotated Datafile</a>") :'').
-		(AION_filesize($base.'---Standard-Edition.noia')		?(", <a href='http://$domain/"	.$version[C_BIBLE]	."---Standard-Edition.noia' download title='Standard Bible data format download'>Standard Datafile</a>") :'').
-		", <a href='http://Resources.AionianBible.org' target='_blank' title='All Aionian Bible resources for download'>Everything</a>".
+		(AION_filesize($base.'---Aionian-Edition.noia')			?(", <a href='https://$domain/"	.$version[C_BIBLE]	."---Aionian-Edition.noia' download title='Aionian Bible with annotations data format download'>Annotated Datafile</a>") :'').
+		(AION_filesize($base.'---Standard-Edition.noia')		?(", <a href='https://$domain/"	.$version[C_BIBLE]	."---Standard-Edition.noia' download title='Standard Bible data format download'>Standard Datafile</a>") :'').
+		", <a href='https://Resources.AionianBible.org' target='_blank' title='All Aionian Bible resources for download'>Everything</a>".
 		"</div></div>".
 
 		((!empty($L_AMAZON) ||
@@ -310,7 +310,7 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $domain, $allbibl
 		(!empty($L_LULU)		?("<a href='$L_LULU' target='_blank' title='Buy Holy Bible Aionian Edition print copy at Lulu.com'>Lulu</a>, ")								:'').
 		(!empty($L_LULUHARD)	?("<a href='$L_LULUHARD' target='_blank' title='Buy Holy Bible Aionian Edition hardcover copy at Lulu.com'>Lulu Hardcover</a>, ")				:'').
 		(!empty($L_LULUNT)		?("<a href='$L_LULUNT' target='_blank' title='Buy Holy Bible Aionian Edition New Testament print copy at Lulu.com'>Lulu New Testament</a>, ")	:'').
-		($bible=='Holy-Bible---English---Aionian-Bible'	?("<a href='http://www.lulu.com/content/26189474' target='_blank' title='Buy Holy Bible Aionian Edition Aionian Bible 22 Book Special Edition print copy at Lulu.com'>Lulu 22 Special</a>")	:'').
+		($bible=='Holy-Bible---English---Aionian-Bible'	?("<a href='https://www.lulu.com/content/26189474' target='_blank' title='Buy Holy Bible Aionian Edition Aionian Bible 22 Book Special Edition print copy at Lulu.com'>Lulu 22 Special</a>")	:'').
 		"</div></div>")
 		 : "").
 		
@@ -322,10 +322,10 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $domain, $allbibl
         ("\n<div class='field-header'>Source Downloads:</div><div class='field-field'><div class='field-links decorated'>".
 		 (is_dir(  $bpub.'---Source-Edition')				?("<a href='/epub/"			.$version[C_BIBLE]."---Source-Edition' target='_blank' title='Source Bible ePub Futurepress'>Futurepress</a>, ")					:'').
 		 (is_dir(  $bpub.'---Source-Edition')				?("<a href='/Readium/"		.$version[C_BIBLE]."---Source-Edition' target='_blank' title='Source Bible ePub Readium'>Readium</a>, ")							:'').
-		 (AION_filesize($base.'---Source-Edition.epub')		?("<a href='http://$domain/".$version[C_BIBLE]."---Source-Edition.epub' download title='Source Bible ePub format download'>ePub</a>, ")							:'').
-		 (AION_filesize($base.'---Source-Edition.pdf')		?("<a href='http://$domain/".$version[C_BIBLE]."---Source-Edition.pdf' title='Source Bible PDF format'  target='_blank'>PDF</a>, ")								:'').
-		 (AION_filesize($base.'---Source-Edition.SWORD.zip')?("<a href='http://$domain/".$version[C_BIBLE]."---Source-Edition.SWORD.zip' download title='Source Bible Crosswire Sword download'>Crosswire module</a>, ")	:'').
-		 (AION_filesize($base.$sour)						?("<a href='http://$domain/".$version[C_BIBLE]."$sour' download title='Source Bible data format download'>Source Datafile</a>")									:'').
+		 (AION_filesize($base.'---Source-Edition.epub')		?("<a href='https://$domain/".$version[C_BIBLE]."---Source-Edition.epub' download title='Source Bible ePub format download'>ePub</a>, ")							:'').
+		 (AION_filesize($base.'---Source-Edition.pdf')		?("<a href='https://$domain/".$version[C_BIBLE]."---Source-Edition.pdf' title='Source Bible PDF format'  target='_blank'>PDF</a>, ")								:'').
+		 (AION_filesize($base.'---Source-Edition.SWORD.zip')?("<a href='https://$domain/".$version[C_BIBLE]."---Source-Edition.SWORD.zip' download title='Source Bible Crosswire Sword download'>Crosswire module</a>, ")	:'').
+		 (AION_filesize($base.$sour)						?("<a href='https://$domain/".$version[C_BIBLE]."$sour' download title='Source Bible data format download'>Source Datafile</a>")									:'').
 		 "</div></div>")
 		 : "");
 		 
@@ -571,11 +571,11 @@ $contents = <<<EOT
 ## File Usage: $bible
 ## File Created: $today
 ## File Purpose: Supporting resource for the Aionian Bible project
-## File Location: http://resources.AionianBible.org
+## File Location: https://resources.AionianBible.org
 ## Publisher Name: Nainoia Inc
-## Publisher Contact: http://www.AionianBible.org/Publisher
-## Publisher Mission: http://www.AionianBible.org/Preface
-## Publisher Website: http://NAINOIA-INC.signedon.net
+## Publisher Contact: https://www.AionianBible.org/Publisher
+## Publisher Mission: https://www.AionianBible.org/Preface
+## Publisher Website: https://NAINOIA-INC.signedon.net
 ## Publisher Facebook: https://www.Facebook.com/AionianBible
 ## Source URL: $source
 ## Source Date: $source_date_formatted
@@ -3051,7 +3051,7 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$foreign .= "Please help make public domain Bibles available in 74 world languages.<br />\n";
 	$foreign .= "Do you or a friend know any of the foreign languages listed below?  We need your help!<br />\n";
 	$foreign .= "Please help translate or confirm 14 words and phrases used as page headings.<br />\n";
-	$foreign .= "<a href='/'>AionianBible.org</a> is sponsored by <a href='http://nainoia-inc.signedon.net' target='_blank'>Nainoia Inc</a>.<br />\n";
+	$foreign .= "<a href='/'>AionianBible.org</a> is sponsored by <a href='https://nainoia-inc.signedon.net' target='_blank'>Nainoia Inc</a>.<br />\n";
 	$foreign .= "<b>** Click on the language link below to see 14 words for translation.</b><br />\n";
 	$foreign .= "<br />\n";
 	$last="";
@@ -3083,10 +3083,10 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker = array();
 	$grandmarker['BIBLE_COUNT']	= $grandtotal['BIBLE_COUNT']-216;
 	$grandmarker['LANG_COUNT']	= $grandtotal['LANG_COUNT']-98;
-	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-5671;
+	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-5674;
 	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-5130;
-	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-185799;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-4901934;
+	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-185863;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-4903875;
 	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-47624;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-260;
 	$grandmarker['LONG']		= $grandtotal['LONG']-884;
@@ -3358,9 +3358,9 @@ function AION_LOOP_HTMS_DOIT($args) {
 		}
 		else { $htm .= "<tr><td>KDP_NEW</td><td>None</td></tr>\n"; }
 		// Lulu links
-		$lulu_regu	= ($args['database']['T_VERSIONS'][$bible]['LULU']=='NULL'		|| preg_match('/^http/i',$args['database']['T_VERSIONS'][$bible]['LULU'])		? $args['database']['T_VERSIONS'][$bible]['LULU']		: "http://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULU']);
-		$lulu_hard	= ($args['database']['T_VERSIONS'][$bible]['LULUHARD']=='NULL'	|| preg_match('/^http/i',$args['database']['T_VERSIONS'][$bible]['LULUHARD'])	? $args['database']['T_VERSIONS'][$bible]['LULUHARD']	: "http://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULUHARD']);
-		$lulu_ntnt	= ($args['database']['T_VERSIONS'][$bible]['LULUNT']=='NULL'	|| preg_match('/^http/i',$args['database']['T_VERSIONS'][$bible]['LULUNT'])		? $args['database']['T_VERSIONS'][$bible]['LULUNT']		: "http://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULUNT']);
+		$lulu_regu	= ($args['database']['T_VERSIONS'][$bible]['LULU']=='NULL'		|| preg_match('/^http/i',$args['database']['T_VERSIONS'][$bible]['LULU'])		? $args['database']['T_VERSIONS'][$bible]['LULU']		: "https://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULU']);
+		$lulu_hard	= ($args['database']['T_VERSIONS'][$bible]['LULUHARD']=='NULL'	|| preg_match('/^http/i',$args['database']['T_VERSIONS'][$bible]['LULUHARD'])	? $args['database']['T_VERSIONS'][$bible]['LULUHARD']	: "https://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULUHARD']);
+		$lulu_ntnt	= ($args['database']['T_VERSIONS'][$bible]['LULUNT']=='NULL'	|| preg_match('/^http/i',$args['database']['T_VERSIONS'][$bible]['LULUNT'])		? $args['database']['T_VERSIONS'][$bible]['LULUNT']		: "https://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULUNT']);
 		// Lulu Full
 		// Jump to landing pages:  /start  /copyright  /design  /details  /pricing
 		if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLU']) && $args['database']['T_VERSIONS'][$bible]['LULU']!="NULL") { $htm .= "<tr><td>LULU_ALL</td><td>Problem</td></tr>\n"; }
@@ -4902,29 +4902,29 @@ function AION_CHECK_DIFF_TWO_FILES($one, $two, $diff) {
 function AION_SITEMAP($root) {
 	// init master
 	$UPDATED = date("Y-m-d");
-	$sitemap_mast = "<?xml version='1.0' encoding='UTF-8'?>\n<sitemapindex xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>\n";
+	$sitemap_mast = "<?xml version='1.0' encoding='UTF-8'?>\n<sitemapindex xmlns='https://www.sitemaps.org/schemas/sitemap/0.9'>\n";
 	if (!file_exists("$root/sitemaps") && !mkdir("$root/sitemaps")) {				AION_ECHO("ERROR! AION_SITEMAP mkdir($root/sitemaps)"); }
 	
 	// sitemap_aionianbible.xml
 	$sitemap_name  = "sitemaps/sitemap_AionianBible.xml.gz";
-	$sitemap_mast .= "<sitemap><loc>http://www.AionianBible.org/$sitemap_name</loc><lastmod>$UPDATED</lastmod></sitemap>\n";
-	$sitemap_file  = "<?xml version='1.0' encoding='UTF-8'?>\n<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>\n";
-	$sitemap_file .= "<url><loc>http://www.AionianBible.org</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>\n";
-	$sitemap_file .= "<url><loc>http://www.AionianBible.org/Preface</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
-	$sitemap_file .= "<url><loc>http://www.AionianBible.org/Lake-of-Fire</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
-	$sitemap_file .= "<url><loc>http://www.AionianBible.org/Buy</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
-	$sitemap_file .= "<url><loc>http://www.AionianBible.org/Aionios-and-Aidios</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
-	$sitemap_file .= "<url><loc>http://www.AionianBible.org/Glossary</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
-	$sitemap_file .= "<url><loc>http://www.AionianBible.org/Read</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
-	$sitemap_file .= "<url><loc>http://www.AionianBible.org/Readers-Guide</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
-	$sitemap_file .= "<url><loc>http://www.AionianBible.org/History</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
-	$sitemap_file .= "<url><loc>http://www.AionianBible.org/Maps</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
-	$sitemap_file .= "<url><loc>http://www.AionianBible.org/Publisher</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
-	$sitemap_file .= "<url><loc>http://www.AionianBible.org/Promote</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
-	$sitemap_file .= "<url><loc>http://www.AionianBible.org/Bible-Cover</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
-	$sitemap_file .= "<url><loc>http://www.AionianBible.org/Apple-iOS-App</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
-	$sitemap_file .= "<url><loc>http://www.AionianBible.org/Third-Party-Publisher-Resources</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
-	$sitemap_file .= "<url><loc>http://www.AionianBible.org/Strongs</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
+	$sitemap_mast .= "<sitemap><loc>https://www.AionianBible.org/$sitemap_name</loc><lastmod>$UPDATED</lastmod></sitemap>\n";
+	$sitemap_file  = "<?xml version='1.0' encoding='UTF-8'?>\n<urlset xmlns='https://www.sitemaps.org/schemas/sitemap/0.9'>\n";
+	$sitemap_file .= "<url><loc>https://www.AionianBible.org</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>\n";
+	$sitemap_file .= "<url><loc>https://www.AionianBible.org/Preface</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
+	$sitemap_file .= "<url><loc>https://www.AionianBible.org/Lake-of-Fire</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
+	$sitemap_file .= "<url><loc>https://www.AionianBible.org/Buy</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
+	$sitemap_file .= "<url><loc>https://www.AionianBible.org/Aionios-and-Aidios</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
+	$sitemap_file .= "<url><loc>https://www.AionianBible.org/Glossary</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
+	$sitemap_file .= "<url><loc>https://www.AionianBible.org/Read</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
+	$sitemap_file .= "<url><loc>https://www.AionianBible.org/Readers-Guide</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
+	$sitemap_file .= "<url><loc>https://www.AionianBible.org/History</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
+	$sitemap_file .= "<url><loc>https://www.AionianBible.org/Maps</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
+	$sitemap_file .= "<url><loc>https://www.AionianBible.org/Publisher</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
+	$sitemap_file .= "<url><loc>https://www.AionianBible.org/Promote</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
+	$sitemap_file .= "<url><loc>https://www.AionianBible.org/Bible-Cover</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
+	$sitemap_file .= "<url><loc>https://www.AionianBible.org/Apple-iOS-App</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
+	$sitemap_file .= "<url><loc>https://www.AionianBible.org/Third-Party-Publisher-Resources</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
+	$sitemap_file .= "<url><loc>https://www.AionianBible.org/Strongs</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n";
 	$sitemap_file .= "</urlset>\n";
 	if (!($fp = gzopen("$root/$sitemap_name", 'w9'))) {								AION_ECHO("ERROR! AION_SITEMAP gzopen($root/$sitemap_name)"); }
 	if (gzwrite($fp,$sitemap_file)!=strlen($sitemap_file)) {						AION_ECHO("ERROR! AION_SITEMAP gzwrite($root/$sitemap_name)"); }
@@ -4936,7 +4936,7 @@ function AION_SITEMAP($root) {
 	if (!is_array(($_BibleBOOKS = json_decode(file_get_contents("$root/library/Holy-Bible---AAA---Books.json"),true)))) {	AION_ECHO("ERROR! AION_SITEMAP books file missing: ".$root); }
 	
 	// verse all
-	$sitemap_vall = "<?xml version='1.0' encoding='UTF-8'?>\n<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>\n";
+	$sitemap_vall = "<?xml version='1.0' encoding='UTF-8'?>\n<urlset xmlns='https://www.sitemaps.org/schemas/sitemap/0.9'>\n";
 	
 	// bible loop
 	foreach($bible_ALL as $bible => $version ) {
@@ -4949,42 +4949,42 @@ function AION_SITEMAP($root) {
 		reset($_BibleONE['T_BOOKS']);	$first = $_BibleBOOKS[key($_BibleONE['T_BOOKS'])]['NUMBER'];
 
 		$sitemap_name  = "sitemaps/sitemap_$bible.xml.gz";
-		$sitemap_mast .= "<sitemap><loc>http://www.AionianBible.org/$sitemap_name</loc><lastmod>$UPDATED</lastmod></sitemap>\n";
-		$sitemap_file  = "<?xml version='1.0' encoding='UTF-8'?>\n<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>\n";
+		$sitemap_mast .= "<sitemap><loc>https://www.AionianBible.org/$sitemap_name</loc><lastmod>$UPDATED</lastmod></sitemap>\n";
+		$sitemap_file  = "<?xml version='1.0' encoding='UTF-8'?>\n<urlset xmlns='https://www.sitemaps.org/schemas/sitemap/0.9'>\n";
 		// main
-		$sitemap_file .= "<url><loc>http://www.AionianBible.org/Bibles/$bible</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>\n";
-		$sitemap_file .= "<url><loc>http://www.AionianBible.org/Bibles/$bible/Noted</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>\n";
-		if ($first<=39) { $sitemap_file .= "<url><loc>http://www.AionianBible.org/Bibles/$bible/Old</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>\n"; }
-		if ($last >=40) { $sitemap_file .= "<url><loc>http://www.AionianBible.org/Bibles/$bible/New</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>\n"; }
+		$sitemap_file .= "<url><loc>https://www.AionianBible.org/Bibles/$bible</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>\n";
+		$sitemap_file .= "<url><loc>https://www.AionianBible.org/Bibles/$bible/Noted</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>\n";
+		if ($first<=39) { $sitemap_file .= "<url><loc>https://www.AionianBible.org/Bibles/$bible/Old</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>\n"; }
+		if ($last >=40) { $sitemap_file .= "<url><loc>https://www.AionianBible.org/Bibles/$bible/New</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>\n"; }
         if (is_dir("$root/library/epub/$holybible---Aionian-Edition")) {
-			$sitemap_file .= "<url><loc>http://www.AionianBible.org/epub/"		.$holybible ."---Aionian-Edition</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n";
-			$sitemap_file .= "<url><loc>http://www.AionianBible.org/Readium/"	.$holybible ."---Aionian-Edition</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n";
+			$sitemap_file .= "<url><loc>https://www.AionianBible.org/epub/"		.$holybible ."---Aionian-Edition</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n";
+			$sitemap_file .= "<url><loc>https://www.AionianBible.org/Readium/"	.$holybible ."---Aionian-Edition</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n";
 		}
 		if (is_dir("$root/library/epub/$holybible---Source-Edition")) {
-			$sitemap_file .= "<url><loc>http://www.AionianBible.org/epub/"		.$holybible ."---Source-Edition</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n";
-			$sitemap_file .= "<url><loc>http://www.AionianBible.org/Readium/"	.$holybible ."---Source-Edition</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n";
+			$sitemap_file .= "<url><loc>https://www.AionianBible.org/epub/"		.$holybible ."---Source-Edition</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n";
+			$sitemap_file .= "<url><loc>https://www.AionianBible.org/Readium/"	.$holybible ."---Source-Edition</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n";
 		}
 		// books
 		foreach($_BibleONE['T_BOOKS'] as $bookkey => $bookname) {
 			if (empty($bookkey) || empty($bookname)) { continue; }
 			if (!file_exists("$root/library/online/$holybible---Aionian-Edition/".$_BibleBOOKS[$bookkey]['NUMBER'].'-'.$_BibleBOOKS[$bookkey]['CODE'].'-001.json')) { continue; }
-			$sitemap_file .= "<url><loc>http://www.AionianBible.org/Bibles/$bible/$bookkey</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n";
+			$sitemap_file .= "<url><loc>https://www.AionianBible.org/Bibles/$bible/$bookkey</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n";
 			if ($bible=='English---King-James-Version') {
-				$sitemap_vall .= "<url><loc>http://www.AionianBible.org/Verse/All/$bookkey</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n";				
+				$sitemap_vall .= "<url><loc>https://www.AionianBible.org/Verse/All/$bookkey</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n";				
 			}
 			// chapters
 			for( $chapter=1; $chapter<=$_BibleBOOKS[$bookkey]['CHAPTERS']; ++$chapter ) {
-				$sitemap_file .= "<url><loc>http://www.AionianBible.org/Bibles/$bible/$bookkey/$chapter</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>\n";
+				$sitemap_file .= "<url><loc>https://www.AionianBible.org/Bibles/$bible/$bookkey/$chapter</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>\n";
 				if ($bible=='English---King-James-Version') {
-					$sitemap_vall .= "<url><loc>http://www.AionianBible.org/Verse/All/$bookkey/$chapter</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>\n";				
+					$sitemap_vall .= "<url><loc>https://www.AionianBible.org/Verse/All/$bookkey/$chapter</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>\n";				
 				}
 				// verses
 				$bible_VERSE = json_decode(file_get_contents(($chapterfile="$root/library/online/$holybible---Aionian-Edition/".$_BibleBOOKS[$bookkey]['NUMBER'].'-'.$_BibleBOOKS[$bookkey]['CODE'].'-'.sprintf('%03d', $chapter).'.json')),true);
 				if (!is_array($bible_VERSE) || empty($bible_VERSE)) {				AION_ECHO("ERROR! AION_SITEMAP chapter file missing: ".$chapterfile); }
 				foreach($bible_VERSE as $versekey => $verse) {
-					$sitemap_file .= "<url><loc>http://www.AionianBible.org/Bibles/$bible/$bookkey/$chapter/$versekey</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>\n";
+					$sitemap_file .= "<url><loc>https://www.AionianBible.org/Bibles/$bible/$bookkey/$chapter/$versekey</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>\n";
 					if ($bible=='English---King-James-Version') {
-						$sitemap_vall .= "<url><loc>http://www.AionianBible.org/Verse/All/$bookkey/$chapter/$versekey</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>\n";				
+						$sitemap_vall .= "<url><loc>https://www.AionianBible.org/Verse/All/$bookkey/$chapter/$versekey</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>\n";				
 					}
 				}
 			}
@@ -5000,7 +5000,7 @@ function AION_SITEMAP($root) {
 	
 	// Verse/All
 	$sitemap_name  = "sitemaps/sitemap_AionianBible-VerseAll.xml.gz";
-	$sitemap_mast .= "<sitemap><loc>http://www.AionianBible.org/$sitemap_name</loc><lastmod>$UPDATED</lastmod></sitemap>\n";	
+	$sitemap_mast .= "<sitemap><loc>https://www.AionianBible.org/$sitemap_name</loc><lastmod>$UPDATED</lastmod></sitemap>\n";	
 	$sitemap_vall .= "</urlset>\n";
 	if (!($fp = gzopen("$root/$sitemap_name", 'w9'))) {							AION_ECHO("ERROR! AION_SITEMAP gzopen($root/$sitemap_name)"); }
 	if (gzwrite($fp,$sitemap_vall)!=strlen($sitemap_vall)) {					AION_ECHO("ERROR! AION_SITEMAP gzwrite($root/$sitemap_name)"); }	
@@ -5008,14 +5008,14 @@ function AION_SITEMAP($root) {
 	
 	// strongs sitemap
 	$sitemap_name  = "sitemaps/sitemap_AionianBible-StrongsConcordance.xml.gz";
-	$sitemap_mast .= "<sitemap><loc>http://www.AionianBible.org/$sitemap_name</loc><lastmod>$UPDATED</lastmod></sitemap>\n";
-	$sitemap_file  = "<?xml version='1.0' encoding='UTF-8'?>\n<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>\n";
+	$sitemap_mast .= "<sitemap><loc>https://www.AionianBible.org/$sitemap_name</loc><lastmod>$UPDATED</lastmod></sitemap>\n";
+	$sitemap_file  = "<?xml version='1.0' encoding='UTF-8'?>\n<urlset xmlns='https://www.sitemaps.org/schemas/sitemap/0.9'>\n";
 	// loop hebrew
 	if (!($fd=fopen('../www-stage/library/stepbible/Hebrew_Lexicon_Tyndale.txt', 'r'))) { AION_ECHO("ERROR! !fopen(Hebrew Tyndale)"); }
 	while (($line=fgets($fd))) {
 		if (!preg_match("#^(\d+)([[:alnum:]]{0,1})\t#u", $line, $match)) {		continue; }
 		$stid = $match[1].(isset($match[2]) ? $match[2] : "");
-		$sitemap_file .= "<url><loc>http://www.AionianBible.org/Strongs/strongs-h$stid</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>\n";
+		$sitemap_file .= "<url><loc>https://www.AionianBible.org/Strongs/strongs-h$stid</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>\n";
 	}
 	fclose($fd);
 	// loop greek
@@ -5023,7 +5023,7 @@ function AION_SITEMAP($root) {
 	while (($line=fgets($fd))) {
 		if (!preg_match("#^(\d+)([[:alnum:]]{0,1})\t#u", $line, $match)) {		continue; }
 		$stid = $match[1].(isset($match[2]) ? $match[2] : "");
-		$sitemap_file .= "<url><loc>http://www.AionianBible.org/Strongs/strongs-g$stid</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>\n";
+		$sitemap_file .= "<url><loc>https://www.AionianBible.org/Strongs/strongs-g$stid</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>\n";
 	}
 	fclose($fd);	
 	$sitemap_file .= "</urlset>\n";

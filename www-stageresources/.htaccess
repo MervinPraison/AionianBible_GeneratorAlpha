@@ -14,6 +14,10 @@ IndexIgnore .well-known .htaccess .header.htm .favicon.ico .logo.png desktop.ini
    Header set Content-Disposition attachment
 </FilesMatch>
 
+# HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
 # php -- BEGIN cPanel-generated handler, do not edit
 # Set the “ea-php80” package as the default “PHP” programming language.
 <IfModule mime_module>

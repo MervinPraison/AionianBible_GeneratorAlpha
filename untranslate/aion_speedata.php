@@ -37,7 +37,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---(Arabic|Aramaic|Hebrew|Persian).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Gujarati|Aionian-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|New-Arabic|Version-Simplified).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Arabic|Aionian-Bible|Spanish---Free-Bible).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Spanish---Free-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Peshitta).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic|Persian).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Bulgarian|Cebuano|Gourmantche|Nepali|Uyghur-Bible-Arabic|Uyghur-Bible-Cyrillic|Uyghur-Bible-Pinyin).*---Aionian-Edition\.noia$/",
@@ -389,7 +389,7 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 #
 # DESCRIPTION:
 # 	This script and associated data files produce high quality PDFS of the $bible
-#	Developed and Coprighted by Nainoia Inc, PO Box 462, Bellefonte, PA 16823, (814) 470-8028, http://NAINOIA-INC.signedon.net
+#	Developed and Coprighted by Nainoia Inc, PO Box 462, Bellefonte, PA 16823, (814) 470-8028, https://NAINOIA-INC.signedon.net
 #	Copyright 2020, Creative Commons Attribution No Derivative Works 4.0, https://creativecommons.org/licenses/by-nd/4.0/
 #
 # OPERATION:
@@ -636,31 +636,33 @@ function hyperlink(&$text, $notedlink="") {
 	$text = preg_replace("#<U><Value>eBible.or</Value></U><Value>g</Value>#",
 		"<A href='https://ebible.org'><U><Value>eBible.or</Value></U><Value>g</Value></A>", $text);
 	$text = preg_replace("#<U><Value>unbound.Biola.edu</Value></U>#",
-		"<A href='http://unbound.biola.edu'><U><Value>unbound.Biola.edu</Value></U></A>", $text);
+		"<A href='https://unbound.biola.edu'><U><Value>unbound.Biola.edu</Value></U></A>", $text);
 	$text = preg_replace("#<U><Value>Crosswire.or</Value></U><Value>g</Value>#",
-		"<A href='http://crosswire.org'><U><Value>Crosswire.or</Value></U><Value>g</Value></A>", $text);
+		"<A href='https://crosswire.org'><U><Value>Crosswire.or</Value></U><Value>g</Value></A>", $text);
 	$text = preg_replace("#<U><Value>NHEB.net</Value></U>#",
 		"<A href='https://nheb.net/'><U><Value>NHEB.net</Value></U></A>", $text);
+	$text = preg_replace("#<U><Value>Bible4u.net</Value></U>#",
+		"<A href='https://bible4u.net/'><U><Value>Bible4u.net</Value></U></A>", $text);
 	$text = preg_replace("#<U><Value>creativecommons.or</Value></U><Value>g</Value><U><Value>/licenses/b</Value></U><Value>y</Value><U><Value>-nd/4.0</Value></U>#",
 		"<A href='https://creativecommons.org/licenses/by-nd/4.0/'><U><Value>creativecommons.or</Value></U><Value>g</Value><U><Value>/licenses/b</Value></U><Value>y</Value><U><Value>-nd/4.0</Value></U></A>", $text);
 	// extra space added BELOW to prevent overlap replace
 	$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Preface</Value></U>#",
-		"<A href='http://www.AionianBible.org/Preface'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Preface</Value></U></A>", $text);
+		"<A href='https://www.AionianBible.org/Preface'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Preface</Value></U></A>", $text);
 	$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Aionios-and-Aidios</Value></U>#",
-		"<A href='http://www.AionianBible.org/Aionios-and-Aidios'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Aionios-and-Aidios</Value></U></A>", $text);
+		"<A href='https://www.AionianBible.org/Aionios-and-Aidios'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Aionios-and-Aidios</Value></U></A>", $text);
 	$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Readers-Guide</Value></U>#",
-		"<A href='http://www.aionianbible.org/Readers-Guide'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Readers-Guide</Value></U></A>", $text);
+		"<A href='https://www.aionianbible.org/Readers-Guide'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Readers-Guide</Value></U></A>", $text);
 	$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Glossar</Value></U><Value>y</Value>#",
-		"<A href='http://www.aionianbible.org/Glossary'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Glossar</Value></U><Value>y</Value></A>", $text);
+		"<A href='https://www.aionianbible.org/Glossary'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Glossar</Value></U><Value>y</Value></A>", $text);
 	if (!empty($notedlink)) {
 		$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Bibles/English---Aionian-Bible/Noted</Value></U>#",
 			"<A href='$notedlink'><U ><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Bibles/English---Aionian-Bible/Noted</Value></U></A>", $text);
 	}
 	$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Lake-of-Fire</Value></U>#",
-		"<A href='http://www.AionianBible.org/Lake-of-Fire'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Lake-of-Fire</Value></U></A>", $text);
+		"<A href='https://www.AionianBible.org/Lake-of-Fire'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Lake-of-Fire</Value></U></A>", $text);
 	// extra space added ABOVE to prevent overlap replace
 	$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value>#",
-		"<A href='http://www.AionianBible.org'><U><Value>AionianBible.or</Value></U><Value>g</Value></A>", $text);
+		"<A href='https://www.AionianBible.org'><U><Value>AionianBible.or</Value></U><Value>g</Value></A>", $text);
 }
 
 
@@ -828,17 +830,17 @@ $glos3		= foreignlink($default['W_GLOS'],	$w_glos,	" +",	$w_font,	"",				$langen
 $loff		= foreignlink($w_loff,				$w_loff,	"",		$w_font,	$langforeign,	$langenglish,	$loff,	$langspeed, $rtl);
 // add the PDF hyperlinks
 $bibleurl = preg_replace("/Holy-Bible---/","",$versions['BIBLE']);
-$link_ab = "<U><Value>http://AionianBible.or</Value></U><Value>g</Value>";
-$link_na = "<U><Value>http://Nainoia-Inc.si</Value></U><Value>g</Value><U><Value>nedon.net</Value></U>";
+$link_ab = "<U><Value>https://AionianBible.or</Value></U><Value>g</Value>";
+$link_na = "<U><Value>https://Nainoia-Inc.si</Value></U><Value>g</Value><U><Value>nedon.net</Value></U>";
 if (($format=="READ" || $format=="STUDY")) {
 	hyperlink($pref);
 	hyperlink($pref2);
 	hyperlink($read);
 	hyperlink($glos1);
-	hyperlink($glos3,"http://www.AionianBible.org/Bibles/$bibleurl/Noted");
+	hyperlink($glos3,"https://www.AionianBible.org/Bibles/$bibleurl/Noted");
 	hyperlink($loff);
-	$link_ab = "<A href='http://www.AionianBible.org'><U><Value>http://AionianBible.or</Value></U><Value>g</Value></A>";
-	$link_na = "<A href='http://nainoia-inc.signedon.net'><U><Value>http://Nainoia-Inc.si</Value></U><Value>g</Value><U><Value>nedon.net</Value></U></A>";
+	$link_ab = "<A href='https://www.AionianBible.org'><U><Value>https://AionianBible.or</Value></U><Value>g</Value></A>";
+	$link_na = "<A href='https://nainoia-inc.signedon.net'><U><Value>https://Nainoia-Inc.si</Value></U><Value>g</Value><U><Value>nedon.net</Value></U></A>";
 }
 // adjust the Glossary Noted url
 if (!($glos3=preg_replace("#<Value>/Bibles/English---Aionian-Bible/Noted#","<Value>/Bibles/$bibleurl/Noted",$glos3,-1,$count)) || $count!=1) { AION_ECHO("ERROR! $bible: Glossary + preg_replace()"); }
@@ -1153,7 +1155,7 @@ $helpneeded = "<Value>We pray for a modern public domain translation in every la
 return <<<EOT
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="urn:speedata.de:2009/publisher/en" xmlns:sd="urn:speedata:2009/publisher/functions/en">
-<PDFOptions author="http://NAINOIA-INC.signedon.net" title="$versionsMETA (CC BY-ND 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" showbookmarks="yes" />
+<PDFOptions author="https://NAINOIA-INC.signedon.net" title="$versionsMETA (CC BY-ND 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" showbookmarks="yes" />
 <Options reportmissingglyphs="warning" mainlanguage="English (USA)" />
 $fonts
 
@@ -1974,7 +1976,7 @@ $helpneeded = "<Value>We pray for a modern public domain translation in every la
 return <<<EOT
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="urn:speedata.de:2009/publisher/en" xmlns:sd="urn:speedata:2009/publisher/functions/en">
-<PDFOptions author="http://NAINOIA-INC.signedon.net" title="$versionsMETA (CC BY-ND 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" showbookmarks="yes" />
+<PDFOptions author="https://NAINOIA-INC.signedon.net" title="$versionsMETA (CC BY-ND 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" showbookmarks="yes" />
 <Options reportmissingglyphs="warning" mainlanguage="English (USA)" />
 $fonts
 
@@ -2022,7 +2024,7 @@ $fonts
 			<U><Value>AionianBible.or</Value></U><Value>g</Value>
 		</Fontface></Paragraph><Paragraph textformat="centerpad"><Fontface fontfamily='FF-Copy'>
 			<Value>Published by Nainoia Inc</Value><Br />
-			<U><Value>http://Nainoia-Inc.si</Value></U><Value>g</Value><U><Value>nedon.net</Value></U>
+			<U><Value>https://Nainoia-Inc.si</Value></U><Value>g</Value><U><Value>nedon.net</Value></U>
 		</Fontface></Paragraph><Paragraph textformat="centerpad"><Fontface fontfamily='FF-Copy'>
 			$helpneeded
 		</Fontface></Paragraph>
@@ -2194,7 +2196,7 @@ if ($rtl!="TRUE") {
 return <<<EOT
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="urn:speedata.de:2009/publisher/en" xmlns:sd="urn:speedata:2009/publisher/functions/en">
-<PDFOptions author="http://NAINOIA-INC.signedon.net" title="$versionsMETA (CC BY-ND 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" showbookmarks="yes" />
+<PDFOptions author="https://NAINOIA-INC.signedon.net" title="$versionsMETA (CC BY-ND 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" showbookmarks="yes" />
 <Options reportmissingglyphs="warning" mainlanguage="English (USA)" />
 $fonts
 
@@ -2427,7 +2429,7 @@ else {
 return <<<EOT
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="urn:speedata.de:2009/publisher/en" xmlns:sd="urn:speedata:2009/publisher/functions/en">
-<PDFOptions author="http://NAINOIA-INC.signedon.net" title="$versionsMETA (CC BY-ND 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" showbookmarks="yes" />
+<PDFOptions author="https://NAINOIA-INC.signedon.net" title="$versionsMETA (CC BY-ND 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" showbookmarks="yes" />
 <Options reportmissingglyphs="warning" mainlanguage="English (USA)" />
 $fonts
 

@@ -151,7 +151,7 @@ $nainoia = <<<EOF
 <span class='notranslate'>Nainoia, Inc.</span><BR />
 PO Box 462, Bellefonte, PA 16823<BR />
 <a href="tel:814-470-8028" rel="nofollow">(814) 470-8028</a><BR />
-<a href='http://NAINOIA-INC.signedon.net' target='_blank' title='Nainoia Inc Homepage'>NAINOIA-INC.signedon.net</a><BR />
+<a href='https://NAINOIA-INC.signedon.net' target='_blank' title='Nainoia Inc Homepage'>NAINOIA-INC.signedon.net</a><BR />
 <a href='https://www.linkedin.com/company/nainoia-inc' target='_blank' title='Nainoia Inc @ LinkedIn'>LinkedIn/NAINOIA-INC</a><BR />
 <a href='/Third-Party-Publisher-Resources' title='Third Party Publisher Resources'>Third Party Publisher Resources</a><BR />
 <form action="https://www.paypal.com/donate" method="post" target="_top">
@@ -191,7 +191,7 @@ if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject']
 		$output = "\n".date("m/d/Y H:m:s")."\t".$ip."\t".$input_name."\t".$input_email."\t".$input_message;
 		$logged = (!file_put_contents('./datawebs/EMAIL.dat', $output, FILE_APPEND | LOCK_EX) ? ' (*log failed*)' : '' );
 		$subject = "[Aionian Bible] $input_subject";
-		$message = "Message from $input_name at $input_email: $logged\n\n$input_message\n\n\n\n\nDelivered by http://www.AionianBible.org";
+		$message = "Message from $input_name at $input_email: $logged\n\n$input_message\n\n\n\n\nDelivered by https://www.AionianBible.org";
 		$headers = "From: <$input_email>\r\nContent-Type: text/plain; charset=UTF-8\r\nContent-Transfer-Encoding: 8bit";
 		mail("escribes@aionianbible.org",$subject,$message,$headers);
 		echo "$nainoia Thank you $input_name!<BR />Your message has been received.<BR />We will contact you shortly.";
@@ -245,7 +245,7 @@ abcms_word_init();
 abcms_word_init_chap();
 $status = "Submit your proposed corrections";
 $subject = "Proposed corrections to the ".$_BibleONE['T_VERSIONS']['NAMEENGLISH'].", $_Part[2] ";
-$theurl =   "http://www.AionianBible.org/".preg_replace("#Publisher\/#","Bibles/",$_Path);
+$theurl =   "https://www.AionianBible.org/".preg_replace("#Publisher\/#","Bibles/",$_Path);
 $message = <<<EOT
 I understand that the Aionian Bible republishes public domain and Creative Commons Bible texts and that volunteers may be needed to present the original text accurately.  I also understand that apocryphal text is removed and most variant verse numbering is mapped to the English standard. I have entered my corrections under the verse(s) below.
 
@@ -330,10 +330,10 @@ foreach( $bible_ALL as $bible => $version ) {
 		$buylinks  = ($version['AMAZON']=='NULL'		? '' : "<a href='https://www.amazon.com/dp/".$version['AMAZON']."'		target='_blank' title='$title'>Amazon</a>, ");
 		$buylinks .= ($version['AMAZONNT']=='NULL'		? '' : "<a href='https://www.amazon.com/dp/".$version['AMAZONNT']."'	target='_blank' title='$title'>Amazon NT</a>, ");
 		$buylinks .= ($bible!='English---Aionian-Bible'	? '' : "<a href='https://www.amazon.com/dp/B084DHWQXL'	target='_blank' title='$title'>Amazon 22 Special</a>, ");
-		$buylinks .= ($version['LULU']=='NULL'			? '' : "<a href='".(preg_match('/^http/i',$version['LULU'])		? "" : "http://www.lulu.com/content/").$version['LULU']."'		target='_blank' title='$title'>Lulu</a>, ");
-		$buylinks .= ($version['LULUHARD']=='NULL'		? '' : "<a href='".(preg_match('/^http/i',$version['LULUHARD']) ? "" : "http://www.lulu.com/content/").$version['LULUHARD']."'	target='_blank' title='$title'>Lulu Hardcover</a>, ");
-		$buylinks .= ($version['LULUNT']=='NULL'		? '' : "<a href='".(preg_match('/^http/i',$version['LULUNT'])	? "" : "http://www.lulu.com/content/").$version['LULUNT']."'	target='_blank' title='$title'>Lulu NT</a>, ");
-		$buylinks .= ($bible!='English---Aionian-Bible'	? '' : "<a href='http://www.lulu.com/content/26189474'	target='_blank' title='$title'>Lulu 22 Special</a>");
+		$buylinks .= ($version['LULU']=='NULL'			? '' : "<a href='".(preg_match('/^http/i',$version['LULU'])		? "" : "https://www.lulu.com/content/").$version['LULU']."'		target='_blank' title='$title'>Lulu</a>, ");
+		$buylinks .= ($version['LULUHARD']=='NULL'		? '' : "<a href='".(preg_match('/^http/i',$version['LULUHARD']) ? "" : "https://www.lulu.com/content/").$version['LULUHARD']."'	target='_blank' title='$title'>Lulu Hardcover</a>, ");
+		$buylinks .= ($version['LULUNT']=='NULL'		? '' : "<a href='".(preg_match('/^http/i',$version['LULUNT'])	? "" : "https://www.lulu.com/content/").$version['LULUNT']."'	target='_blank' title='$title'>Lulu NT</a>, ");
+		$buylinks .= ($bible!='English---Aionian-Bible'	? '' : "<a href='https://www.lulu.com/content/26189474'	target='_blank' title='$title'>Lulu 22 Special</a>");
 		$buylinks = trim($buylinks,', ');
 		if (!empty($buylinks)) { echo "<br /><span class='buylinks'>Buy at $buylinks</span>"; }
 		else { echo "<br /><span class='buylinks'>Print not available</span>"; }
@@ -751,24 +751,24 @@ if ($what=='all') {
 	$navup = "<a href='/Read' title='Bookmarked Bible' onclick='return AionianBible_Bookmark(".'"/Read"'.");' class='nav'><span class='nav nup'>^</span></a>";
 	abcms_aionian_nav($_Part[2],$_Part[3],$_Part[4],$aionprev,$aionnext);
 	$versprev = ($_Part[4]>1
-				? "<a href='".($_SwipePREV=abcms_href("/Verse/$_Part[1]/$_Part[2]/$_Part[3]/".($_Part[4]-1),FALSE,TRUE,TRUE))."' title='Previous verse' class='nav'><span class='nav vlt'>&lt;</span></a>"
+				? "<a href='".($_SwipePREV=abcms_href("/Verse/$_Part[1]/$_Part[2]/$_Part[3]/".($_Part[4]-1),FALSE,TRUE,TRUE))."' title='Previous verse' class='nav left'><span class='nav vlt'>&lt;</span></a>"
 				: ($_Part[3]>1
-				? "<a href='".($_SwipePREV=abcms_href("/Verse/$_Part[1]/$_Part[2]/".($_Part[3]-1)."/".abcms_word_menu_verses($_Part[1],$_BibleBOOKS[$_Part[2]]['NUMBER'],$_BibleBOOKS[$_Part[2]]['CODE'],($_Part[3]-1)),FALSE,TRUE,TRUE))."' title='Previous verse' class='nav'><span class='nav vlt'>&lt;</span></a>"
+				? "<a href='".($_SwipePREV=abcms_href("/Verse/$_Part[1]/$_Part[2]/".($_Part[3]-1)."/".abcms_word_menu_verses($_Part[1],$_BibleBOOKS[$_Part[2]]['NUMBER'],$_BibleBOOKS[$_Part[2]]['CODE'],($_Part[3]-1)),FALSE,TRUE,TRUE))."' title='Previous verse' class='nav left'><span class='nav vlt'>&lt;</span></a>"
 				: (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]])
-				? "<a href='".($_SwipePREV=abcms_href("/Verse/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]."/".$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CHAPTERS']."/".abcms_word_menu_verses($_Part[1],$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['NUMBER'],$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CODE'],$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CHAPTERS']),FALSE,TRUE,TRUE))."' title='Previous verse' class='nav'><span class='nav vlt'>&lt;</span></a>"
-				: "<a href='".($_SwipePREV=abcms_href("/Read",FALSE,TRUE,TRUE))."' title='Read and Study Bible' class='nav'><span class='nav vlt'>+</span></a>")));
+				? "<a href='".($_SwipePREV=abcms_href("/Verse/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]."/".$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CHAPTERS']."/".abcms_word_menu_verses($_Part[1],$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['NUMBER'],$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CODE'],$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CHAPTERS']),FALSE,TRUE,TRUE))."' title='Previous verse' class='nav left'><span class='nav vlt'>&lt;</span></a>"
+				: "<a href='".($_SwipePREV=abcms_href("/Read",FALSE,TRUE,TRUE))."' title='Read and Study Bible' class='nav left'><span class='nav vlt'>+</span></a>")));
 	$versnext = ($_Part[4]<count($_BibleCHAP1)
-				? "<a href='".($_SwipeNEXT=abcms_href("/Verse/$_Part[1]/$_Part[2]/$_Part[3]/".($_Part[4]+1),FALSE,TRUE,TRUE))."' title='Next verse' class='nav'><span class='nav vgt'>&gt;</span></a>"
+				? "<a href='".($_SwipeNEXT=abcms_href("/Verse/$_Part[1]/$_Part[2]/$_Part[3]/".($_Part[4]+1),FALSE,TRUE,TRUE))."' title='Next verse' class='nav right'><span class='nav vgt'>&gt;</span></a>"
 				: ($_Part[3]<(int)$_BibleBOOKS[$_Part[2]]['CHAPTERS']
-				? "<a href='".($_SwipeNEXT=abcms_href("/Verse/$_Part[1]/$_Part[2]/".($_Part[3]+1)."/1",FALSE,TRUE,TRUE))."' title='Next verse' class='nav'><span class='nav vgt'>&gt;</span></a>"
+				? "<a href='".($_SwipeNEXT=abcms_href("/Verse/$_Part[1]/$_Part[2]/".($_Part[3]+1)."/1",FALSE,TRUE,TRUE))."' title='Next verse' class='nav right'><span class='nav vgt'>&gt;</span></a>"
 				: (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]])
-				? "<a href='".($_SwipeNEXT=abcms_href("/Verse/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]."/1/1",FALSE,TRUE,TRUE))."' title='Next verse'><span class='nav vgt'>&gt;</span></a>"
-				: "<a href='".($_SwipeNEXT=abcms_href("/Read",FALSE,TRUE,TRUE))."' title='Read and Study Bible' class='nav'><span class='nav vgt'>+</span></a>")));
+				? "<a href='".($_SwipeNEXT=abcms_href("/Verse/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]."/1/1",FALSE,TRUE,TRUE))."' title='Next verse' class='nav right'><span class='nav vgt'>&gt;</span></a>"
+				: "<a href='".($_SwipeNEXT=abcms_href("/Read",FALSE,TRUE,TRUE))."' title='Read and Study Bible' class='nav right'><span class='nav vgt'>+</span></a>")));
 	$aionianprev = ($aionprev ? "<a href='".abcms_href("/Verse/$_Part[1]/$aionprev",FALSE,TRUE,TRUE)."' title='Previous Aionian Glossary word' class='nav'><span class='nav slt'>&lt;</span></a>" : '');
 	$aioniannext = ($aionnext ? "<a href='".abcms_href("/Verse/$_Part[1]/$aionnext",FALSE,TRUE,TRUE)."' title='Next Aionian Glossary word' class='nav'><span class='nav sgt'>&gt;</span></a>" : '');
 	$path_strongs = abcms_href("/Strongs",FALSE,TRUE,TRUE);
 	$strongs = "<span class='word-tocs word-book'>$aionianprev<a href='$path_strongs' title='Search Aionian Glossary and Strongs Concordance' class='word-tocs'>GLOS</a>$aioniannext</span>";
-	return ("<div id='word-menu'><div class='word-menu-l'><span class='word-tocs'>All Bibles</span>$strongs</div><div class='word-menu-r notranslate'>$versprev$navup$versnext</div></div>");
+	return ("<div id='word-menu'><div class='word-menu-l'><span class='word-tocs'>All Bibles</span>$strongs</div><div class='word-menu-r notranslate'>$versprev$navup$versnext</div><div class='word-menu-float notranslate'>$versprev$versnext</div></div>");
 }
 $path_strongs = abcms_href("/Strongs/$_Part[1]",FALSE,TRUE,TRUE);
 $test = ((int)$_BibleBOOKS[$_Part[2]]['NUMBER'] < 40 ? "Old" : "New");
@@ -776,33 +776,33 @@ if ($what=='chap') {
 	$navup = "<a href='".abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE)."' title='$test Testament' class='nav'><span class='nav nup'>^</span></a>";
 	abcms_aionian_nav($_Part[2],$_Part[3],NULL,$aionprev,$aionnext);
 	$prev = ($_Part[3]>1
-		? "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/$_Part[2]/".($_Part[3]-1),FALSE,TRUE,TRUE))."' title='Previous chapter' class='nav'><span class='nav clt'>&lt;</span></a>"
+		? "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/$_Part[2]/".($_Part[3]-1),FALSE,TRUE,TRUE))."' title='Previous chapter' class='nav left'><span class='nav clt'>&lt;</span></a>"
 		: (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]])
-		? "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]."/".$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CHAPTERS'],FALSE,TRUE,TRUE))."' title='Previous chapter' class='nav'><span class='nav clt'>&lt;</span></a>"
-		: "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE))."' title='$test Testament' class='nav'><span class='nav clt'>+</span></a>"));
+		? "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]."/".$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CHAPTERS'],FALSE,TRUE,TRUE))."' title='Previous chapter' class='nav left'><span class='nav clt'>&lt;</span></a>"
+		: "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE))."' title='$test Testament' class='nav left'><span class='nav clt'>+</span></a>"));
 	$next = ($_Part[3]<(int)$_BibleBOOKS[$_Part[2]]['CHAPTERS']
-		? "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/$_Part[2]/".($_Part[3]+1),FALSE,TRUE,TRUE))."' title='Next chapter' class='nav'><span class='nav cgt'>&gt;</span></a>"
+		? "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/$_Part[2]/".($_Part[3]+1),FALSE,TRUE,TRUE))."' title='Next chapter' class='nav right'><span class='nav cgt'>&gt;</span></a>"
 		: (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]])
-		? "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]."/1",FALSE,TRUE,TRUE))."' title='Next chapter' class='nav'><span class='nav cgt'>&gt;</span></a>"
-		: "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE))."' title='$test Testament' class='nav'><span class='nav cgt'>+</span></a>"));
+		? "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]."/1",FALSE,TRUE,TRUE))."' title='Next chapter' class='nav right'><span class='nav cgt'>&gt;</span></a>"
+		: "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE))."' title='$test Testament' class='nav right'><span class='nav cgt'>+</span></a>"));
 }
 else if ($what=='vers') {
 	$navup = "<a href='".abcms_href("/Bibles/$_Part[1]/$_Part[2]/$_Part[3]",FALSE,TRUE,TRUE)."' title='Chapter' class='nav'><span class='nav nup'>^</span></a>";
 	abcms_aionian_nav($_Part[2],$_Part[3],$_Part[4],$aionprev,$aionnext);
 	$prev = ($_Part[4]>1
-		? "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/$_Part[2]/$_Part[3]/".($_Part[4]-1),FALSE,TRUE,TRUE))."' title='Previous verse' class='nav'><span class='nav vlt'>&lt;</span></a>"
+		? "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/$_Part[2]/$_Part[3]/".($_Part[4]-1),FALSE,TRUE,TRUE))."' title='Previous verse' class='nav left'><span class='nav vlt'>&lt;</span></a>"
 		: ($_Part[3]>1
-		? "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/$_Part[2]/".($_Part[3]-1)."/".abcms_word_menu_verses($_Part[1],$_BibleBOOKS[$_Part[2]]['NUMBER'],$_BibleBOOKS[$_Part[2]]['CODE'],($_Part[3]-1)),FALSE,TRUE,TRUE))."' title='Previous verse' class='nav'><span class='nav vlt'>&lt;</span></a>"
+		? "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/$_Part[2]/".($_Part[3]-1)."/".abcms_word_menu_verses($_Part[1],$_BibleBOOKS[$_Part[2]]['NUMBER'],$_BibleBOOKS[$_Part[2]]['CODE'],($_Part[3]-1)),FALSE,TRUE,TRUE))."' title='Previous verse' class='nav left'><span class='nav vlt'>&lt;</span></a>"
 		: (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]])
-		? "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]."/".$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CHAPTERS']."/".abcms_word_menu_verses($_Part[1],$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['NUMBER'],$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CODE'],$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CHAPTERS']),FALSE,TRUE,TRUE))."' title='Previous verse' class='nav'><span class='nav vlt'>&lt;</span></a>"
-		: "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE))."' title='$test Testament' class='nav'><span class='nav vlt'>+</span></a>")));
+		? "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]."/".$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CHAPTERS']."/".abcms_word_menu_verses($_Part[1],$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['NUMBER'],$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CODE'],$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CHAPTERS']),FALSE,TRUE,TRUE))."' title='Previous verse' class='nav left'><span class='nav vlt'>&lt;</span></a>"
+		: "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE))."' title='$test Testament' class='nav left'><span class='nav vlt'>+</span></a>")));
 	$next = ($_Part[4]<count($_BibleCHAP1)
-		? "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/$_Part[2]/$_Part[3]/".($_Part[4]+1),FALSE,TRUE,TRUE))."' title='Next verse' class='nav'><span class='nav vgt'>&gt;</span></a>"
+		? "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/$_Part[2]/$_Part[3]/".($_Part[4]+1),FALSE,TRUE,TRUE))."' title='Next verse' class='nav right'><span class='nav vgt'>&gt;</span></a>"
 		: ($_Part[3]<(int)$_BibleBOOKS[$_Part[2]]['CHAPTERS']
-		? "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/$_Part[2]/".($_Part[3]+1)."/1",FALSE,TRUE,TRUE))."' title='Next verse' class='nav'><span class='nav vgt'>&gt;</span></a>"
+		? "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/$_Part[2]/".($_Part[3]+1)."/1",FALSE,TRUE,TRUE))."' title='Next verse' class='nav right'><span class='nav vgt'>&gt;</span></a>"
 		: (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]])
-		? "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]."/1/1",FALSE,TRUE,TRUE))."' title='Next verse'><span class='nav vgt'>&gt;</span></a>"
-		: "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE))."' title='$test Testament' class='nav'><span class='nav vgt'>+</span></a>")));
+		? "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]."/1/1",FALSE,TRUE,TRUE))."' title='Next verse' class='nav right'><span class='nav vgt'>&gt;</span></a>"
+		: "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE))."' title='$test Testament' class='nav right'><span class='nav vgt'>+</span></a>")));
 }
 else { $prev = $navup = $next = $aionprev = $aionnext = NULL; }
 if ($_stidC) {
@@ -821,6 +821,7 @@ return (
 	"<div id='word-menu'>".
 	"<div class='word-menu-l notranslate'>".$name.$_BibleTWO_xLink.$strongs."</div>".
 	"<div class='word-menu-r notranslate'>$prev$navup$next</div>".
+	"<div class='word-menu-float notranslate'>$prev$next</div>".
 	"</div>");
 }
 
@@ -1668,14 +1669,14 @@ if ($_para ||
 	echo "<meta name='robots' content='noindex'>";
 }
 ?>
-<meta property="og:url" content="http://www.aionianbible.org" />
+<meta property="og:url" content="https://www.aionianbible.org" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Holy Bible Aionian Edition" />
 <meta property="og:description" content="Holy Bible Aionian Edition<?echo $_meta;?>" />
-<meta property="og:image" content="http://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-1.jpg"/>
-<meta property="og:image" content="http://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-2.jpg"/>
-<meta property="og:image" content="http://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-3.jpg"/>
-<meta property="og:image" content="http://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-4.jpg"/>
+<meta property="og:image" content="https://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-1.jpg"/>
+<meta property="og:image" content="https://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-2.jpg"/>
+<meta property="og:image" content="https://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-3.jpg"/>
+<meta property="og:image" content="https://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-4.jpg"/>
 <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon'>
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -1734,16 +1735,16 @@ echo "</div><div id='body' class=''>\n";
 function abcms_tail($good=TRUE) {
 global $_Path, $_Part, $_meta, $_BibleONE, $_BibleTWO, $_SwipePREV, $_SwipeNEXT;
 // share urls from https://github.com/bradvin/social-share-urls
-$url = ($good ? urlencode(($url0=("http://www.AionianBible.org/".preg_replace('/\s+/', ' ',$_Path)))) : urlencode($url0="http://www.AionianBible.org"));
+$url = ($good ? urlencode(($url0=("https://www.AionianBible.org/".preg_replace('/\s+/', ' ',$_Path)))) : urlencode($url0="https://www.AionianBible.org"));
 $title = ($good ? urlencode(($title0=preg_replace('/\s+/', ' ',"Holy Bible Aionian Edition® $_meta"))) : urlencode($title0="Holy Bible Aionian Edition® ~ Homepage"));
 $fb = "<a href='https://www.facebook.com/sharer.php?u=$url' target='_blank'><img src='/social/facebook.png' title='Facebook post' /></a>";
 $tw = "<a href='https://twitter.com/intent/tweet?url=$url&text=$title&hashtags=AionianBible' target='_blank'><img src='/social/twitter.png' title='Twitter post' /></a>";
 $li = "<a href='https://www.linkedin.com/sharing/share-offsite/?url=$url' target='_blank'><img src='/social/linkedin.png' title='LinkedIn post' /></a>";
 $re = "<a href='https://reddit.com/submit?url=$url&title=$title' target='_blank'><img src='/social/reddit.png' title='Reddit post' /></a>";
 $tu = "<a href='https://www.tumblr.com/widgets/share/tool?canonicalUrl=$url&title=$title&tags=AionianBible' target='_blank'><img src='/social/tumblr.png' title='Tumblr post' /></a>";
-$qz = "<a href='http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=$url' target='_blank'><img src='/social/qzone.png' title='Qzone post' /></a>";
-$vk = "<a href='http://vk.com/share.php?url=$url&title=$title' target='_blank'><img src='/social/vk.png' title='VK post' /></a>";
-$we = "<a href='http://service.weibo.com/share/share.php?url=$url&appkey=&title=$title&pic=&ralateUid=' target='_blank'><img src='/social/weibo.png' title='Weibo post' /></a>";
+$qz = "<a href='https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=$url' target='_blank'><img src='/social/qzone.png' title='Qzone post' /></a>";
+$vk = "<a href='https://vk.com/share.php?url=$url&title=$title' target='_blank'><img src='/social/vk.png' title='VK post' /></a>";
+$we = "<a href='https://service.weibo.com/share/share.php?url=$url&appkey=&title=$title&pic=&ralateUid=' target='_blank'><img src='/social/weibo.png' title='Weibo post' /></a>";
 $mt = "<a href='mailto:?subject=".preg_replace("/ /","%20","$title0&body=$url0")."' target='_blank'><img src='/social/email.png' title='Email link' /></a>";
 ?>
 <div id='social-footer'>
@@ -1811,9 +1812,9 @@ if ($_Path==='') {
 	$jsonld = '
 [
 {
-  "@context" : "http://schema.org",
+  "@context" : "https://schema.org",
   "@type" : "WebSite",
-  "url" : "http://www.AionianBible.org",
+  "url" : "https://www.AionianBible.org",
   "name" : "AionianBible.org ~ The Holy Bible Aionian Edition®",
   "headline" : "One hundred seventy-four Bible versions. Seventy-three world languages. 100% free to copy and print. Also known as \'The Purple Bible\'",
   "description" : "The Holy Bible Aionian Edition® ~ The World\'s First Holy Bible Untranslation",
@@ -1826,24 +1827,24 @@ if ($_Path==='') {
   "isAccessibleForFree" : "True",
   "isFamilyFriendly" : "True",
   "typicalAgeRange" : "4-100",
-  "isBasedOn" : { "@id": "http://www.AionianBible.org/#Bible" },
-  "translationOfWork" : { "@id": "http://www.AionianBible.org/#Bible" },
-  "mainEntity" : { "@id": "http://www.AionianBible.org/#Bible" },
+  "isBasedOn" : { "@id": "https://www.AionianBible.org/#Bible" },
+  "translationOfWork" : { "@id": "https://www.AionianBible.org/#Bible" },
+  "mainEntity" : { "@id": "https://www.AionianBible.org/#Bible" },
   "discussionUrl" : "https://www.facebook.com/aionianbible",
   "sameAs" : "https://www.facebook.com/aionianbible",
-  "author" : { "@id": "http://www.AionianBible.org/Publisher/#NainoiaInc" },
-  "translator" : { "@id": "http://www.AionianBible.org/Publisher/#NainoiaInc" },
-  "editor" : { "@id": "http://www.AionianBible.org/Publisher/#eScribes" },
-  "copyrightHolder" : { "@id": "http://www.AionianBible.org/Publisher/#NainoiaInc" },
-  "provider" : { "@id": "http://www.AionianBible.org/Publisher/#NainoiaInc" },
-  "funder" : { "@id": "http://www.AionianBible.org/Publisher/#NainoiaInc" },
-  "publisher" : { "@id": "http://www.AionianBible.org/Publisher/#NainoiaInc" }
+  "author" : { "@id": "https://www.AionianBible.org/Publisher/#NainoiaInc" },
+  "translator" : { "@id": "https://www.AionianBible.org/Publisher/#NainoiaInc" },
+  "editor" : { "@id": "https://www.AionianBible.org/Publisher/#eScribes" },
+  "copyrightHolder" : { "@id": "https://www.AionianBible.org/Publisher/#NainoiaInc" },
+  "provider" : { "@id": "https://www.AionianBible.org/Publisher/#NainoiaInc" },
+  "funder" : { "@id": "https://www.AionianBible.org/Publisher/#NainoiaInc" },
+  "publisher" : { "@id": "https://www.AionianBible.org/Publisher/#NainoiaInc" }
 },
 {
-  "@context" : "http://schema.org",
+  "@context" : "https://schema.org",
   "@type" : "Book",
-  "@id" : "http://www.AionianBible.org/#Bible",
-  "url" : "http://www.AionianBible.org",
+  "@id" : "https://www.AionianBible.org/#Bible",
+  "url" : "https://www.AionianBible.org",
   "name" : "Bible",
   "abridged" : "False",
   "bookEdition" : "Original autograph",
@@ -1853,18 +1854,18 @@ if ($_Path==='') {
   "description" : "Christian Scripture inspired by God the Holy Spirit for teaching, rebuking, correcting, and training in righteousness",
   "genre" : "http://vocab.getty.edu/aat/300264513",
   "inLanguage" : "en-US",
-  "author" : { "@id": "http://www.AionianBible.org/#God" },
-  "editor" : { "@id": "http://www.AionianBible.org/#God" },
-  "copyrightHolder" : { "@id": "http://www.AionianBible.org/#God" },
-  "provider" : { "@id": "http://www.AionianBible.org/#God" },
-  "funder" : { "@id": "http://www.AionianBible.org/#God" },
-  "publisher" : { "@id": "http://www.AionianBible.org/#God" }
+  "author" : { "@id": "https://www.AionianBible.org/#God" },
+  "editor" : { "@id": "https://www.AionianBible.org/#God" },
+  "copyrightHolder" : { "@id": "https://www.AionianBible.org/#God" },
+  "provider" : { "@id": "https://www.AionianBible.org/#God" },
+  "funder" : { "@id": "https://www.AionianBible.org/#God" },
+  "publisher" : { "@id": "https://www.AionianBible.org/#God" }
 },
 {
-  "@context" : "http://schema.org",
+  "@context" : "https://schema.org",
   "@type" : "Person",
-  "@id" : "http://www.AionianBible.org/#God",
-  "url" : "http://www.AionianBible.org",
+  "@id" : "https://www.AionianBible.org/#God",
+  "url" : "https://www.AionianBible.org",
   "name" : "God",
   "givenName" : "Jesus Christ, Messiah",
   "additionalName" : "YHWH",
@@ -1881,14 +1882,14 @@ else if ($_Path==='Publisher') {
 	$jsonld = '
 [
 {
-  "@context" : "http://schema.org",
+  "@context" : "https://schema.org",
   "@type" : "Organization",
-  "@id": "http://www.AionianBible.org/Publisher/#NainoiaInc",
-  "url" : "http://www.AionianBible.org/Publisher",
+  "@id": "https://www.AionianBible.org/Publisher/#NainoiaInc",
+  "url" : "https://www.AionianBible.org/Publisher",
   "name" : "Nainoia, Inc.",
   "legalName" : "Nainoia, Inc.",
   "description" : "Nainoia, Inc. exists for Christian mission promotion, technical support services, and Bible publication. The sky is not our limit… our limit is the God who knows no limits! We hope to pray and plan with you further! Ora et labora! Pray and work!",
-  "logo" : "http://nainoia-inc.signedon.net/logo.png",
+  "logo" : "https://nainoia-inc.signedon.net/logo.png",
   "areaServed" : "world-wide",
   "foundingDate" : "2016-12-07",
   "foundingLocation" : "Bellefonte, PA  U.S.A.",
@@ -1905,18 +1906,18 @@ else if ($_Path==='Publisher') {
     "@type" : "ContactPoint",
     "contactType" : "Customer Service",
     "telephone" : "+1-814-470-8028",
-    "url" : "http://www.AionianBible.org/Publisher"
+    "url" : "https://www.AionianBible.org/Publisher"
   },
-  "sameAs" : "http://nainoia-inc.signedon.net"
+  "sameAs" : "https://nainoia-inc.signedon.net"
 },
 {
-  "@context" : "http://schema.org",
+  "@context" : "https://schema.org",
   "@type" : "Person",
-  "@id": "http://www.AionianBible.org/Publisher/#eScribes",
-  "url" : "http://www.AionianBible.org/Publisher",
+  "@id": "https://www.AionianBible.org/Publisher/#eScribes",
+  "url" : "https://www.AionianBible.org/Publisher",
   "name" : "Nainoia, Inc. eScribes",
   "jobTitle" : "Electronic Age Holy Bible Scribes",
-  "worksFor" : { "@id": "http://www.AionianBible.org/Publisher/#NainoiaInc" },
+  "worksFor" : { "@id": "https://www.AionianBible.org/Publisher/#NainoiaInc" },
   "telephone" : "+1-814-470-8028"
 }
 ]
@@ -1926,9 +1927,9 @@ else if ($_Path==='Publisher') {
 else if ($_Path==='Read') {
 	$jsonld = '
 {
-  "@context" : "http://schema.org",
+  "@context" : "https://schema.org",
   "@type" : "WebPage",
-  "url" : "http://www.AionianBible.org/Read",
+  "url" : "https://www.AionianBible.org/Read",
   "name" : "Holy Bible Aionian Edition® Table of Contents",
   "headline" : "Holy Bible Aionian Edition® Table of Contents",
   "keywords" : "Table of Contents,Index,Sitemap",
@@ -1936,18 +1937,18 @@ else if ($_Path==='Read') {
   "genre" : "http://vocab.getty.edu/aat/300055271",
   "inLanguage" : "en-US",
   "relatedLink" : [
-	"http://www.AionianBible.org/Preface",
-	"http://www.AionianBible.org/Readers-Guide",
-	"http://www.AionianBible.org/Glossary",
-	"http://www.AionianBible.org/History",
-	"http://www.AionianBible.org/Aionios-and-Aidios"
+	"https://www.AionianBible.org/Preface",
+	"https://www.AionianBible.org/Readers-Guide",
+	"https://www.AionianBible.org/Glossary",
+	"https://www.AionianBible.org/History",
+	"https://www.AionianBible.org/Aionios-and-Aidios"
   ],
-  "author" : { "@id": "http://www.AionianBible.org/Publisher/#NainoiaInc" },
-  "copyrightHolder" : { "@id": "http://www.AionianBible.org/Publisher/#NainoiaInc" },
-  "provider" : { "@id": "http://www.AionianBible.org/Publisher/#NainoiaInc" },
-  "editor" : { "@id": "http://www.AionianBible.org/Publisher/#eScribes" },
-  "funder" : { "@id": "http://www.AionianBible.org/Publisher/#NainoiaInc" },
-  "publisher" : { "@id": "http://www.AionianBible.org/Publisher/#NainoiaInc" }
+  "author" : { "@id": "https://www.AionianBible.org/Publisher/#NainoiaInc" },
+  "copyrightHolder" : { "@id": "https://www.AionianBible.org/Publisher/#NainoiaInc" },
+  "provider" : { "@id": "https://www.AionianBible.org/Publisher/#NainoiaInc" },
+  "editor" : { "@id": "https://www.AionianBible.org/Publisher/#eScribes" },
+  "funder" : { "@id": "https://www.AionianBible.org/Publisher/#NainoiaInc" },
+  "publisher" : { "@id": "https://www.AionianBible.org/Publisher/#NainoiaInc" }
 }
 ';
 }
@@ -1959,11 +1960,11 @@ else if ($_Part[0]==='Bibles' && $_pnum==2) {
 	$jsonld = '
 [
 {
-  "@context" : "http://schema.org",
+  "@context" : "https://schema.org",
   "@type" : "Book",
-  "@id" : "http://www.AionianBible.org/Bibles/'.$bkey.'/#Bible",
-  "url" : "http://www.AionianBible.org/Bibles/#'.$bkey.'",
-  "translationOfWork" : { "@id": "http://www.AionianBible.org/#Bible" },
+  "@id" : "https://www.AionianBible.org/Bibles/'.$bkey.'/#Bible",
+  "url" : "https://www.AionianBible.org/Bibles/#'.$bkey.'",
+  "translationOfWork" : { "@id": "https://www.AionianBible.org/#Bible" },
   "name" : "'.$bible.'",
   "alternateName" : "Holy Bible '.$lang.'",
   "abridged" : "False",
@@ -1974,18 +1975,18 @@ else if ($_Part[0]==='Bibles' && $_pnum==2) {
   "description" : "Christian Scripture inspired by God the Holy Spirit for teaching, rebuking, correcting, and training in righteousness with the '.$bible.', '.$lang.'.",
   "genre" : "http://vocab.getty.edu/aat/300264513",
   "inLanguage" : "'.$_BibleONE['T_VERSIONS']['LANGUAGECODEISO'].'",
-  "author" : { "@id": "http://www.AionianBible.org/#God" },
-  "translator" : { "@id": "http://www.AionianBible.org/Bibles/'.$bkey.'/#Provider" },
-  "copyrightHolder" : { "@id": "http://www.AionianBible.org/Bibles/'.$bkey.'/#Provider" },
-  "provider" : { "@id": "http://www.AionianBible.org/Bibles/'.$bkey.'/#Provider" },
-  "editor" : { "@id": "http://www.AionianBible.org/Publisher/#eScribes" },
-  "publisher" : { "@id": "http://www.AionianBible.org/Publisher/#NainoiaInc" }
+  "author" : { "@id": "https://www.AionianBible.org/#God" },
+  "translator" : { "@id": "https://www.AionianBible.org/Bibles/'.$bkey.'/#Provider" },
+  "copyrightHolder" : { "@id": "https://www.AionianBible.org/Bibles/'.$bkey.'/#Provider" },
+  "provider" : { "@id": "https://www.AionianBible.org/Bibles/'.$bkey.'/#Provider" },
+  "editor" : { "@id": "https://www.AionianBible.org/Publisher/#eScribes" },
+  "publisher" : { "@id": "https://www.AionianBible.org/Publisher/#NainoiaInc" }
 },
 {
-  "@context" : "http://schema.org",
+  "@context" : "https://schema.org",
   "@type" : "Organization",
-  "@id" : "http://www.AionianBible.org/Bibles/'.$bkey.'/#Provider",
-  "url" : "http://www.AionianBible.org/Bibles/#'.$bkey.'",
+  "@id" : "https://www.AionianBible.org/Bibles/'.$bkey.'/#Provider",
+  "url" : "https://www.AionianBible.org/Bibles/#'.$bkey.'",
   "legalName" : "'.$_BibleONE['T_VERSIONS']['SOURCE'].'",
   "description" : "Source, translator, and provider of '.$bible.'"
 }
@@ -2011,11 +2012,11 @@ else if ($_Part[0]==='Bibles' && $_pnum>=3 && $_pnum<=5) {
 	else { return; }
 	$jsonld = '
 {
-  "@context" : "http://schema.org",
+  "@context" : "https://schema.org",
   "@type" : "Chapter",
-  "url" : "http://www.AionianBible.org/'.$_Path.'",
-  "translationOfWork" : { "@id": "http://www.AionianBible.org/#Bible" },
-  "isPartOf" : { "@id": "http://www.AionianBible.org/Bibles/'.$bkey.'/#Bible" },
+  "url" : "https://www.AionianBible.org/'.$_Path.'",
+  "translationOfWork" : { "@id": "https://www.AionianBible.org/#Bible" },
+  "isPartOf" : { "@id": "https://www.AionianBible.org/Bibles/'.$bkey.'/#Bible" },
   "name" : "'.$bible.' '.$name.'",
   "pageStart" : "'.$name.'",
   "headline" : "Holy Bible Aionian Edition® '.$bible.' in '.$lang.' language, verse reference '.$name.'",
@@ -2024,11 +2025,11 @@ else if ($_Part[0]==='Bibles' && $_pnum>=3 && $_pnum<=5) {
   "description" : "Holy Bible Aionian Edition® '.$bible.' in '.$lang.' language, verse reference '.$name.'",'.$text.'
   "genre" : "http://vocab.getty.edu/aat/300264513",
   "inLanguage" : "'.$_BibleONE['T_VERSIONS']['LANGUAGECODEISO'].'",
-  "author" : { "@id": "http://www.AionianBible.org/Bibles/'.$bkey.'/#Provider" },
-  "copyrightHolder" : { "@id": "http://www.AionianBible.org/Bibles/'.$bkey.'/#Provider" },
-  "provider" : { "@id": "http://www.AionianBible.org/Bibles/'.$bkey.'/#Provider" },
-  "editor" : { "@id": "http://www.AionianBible.org/Publisher/#eScribes" },
-  "publisher" : { "@id": "http://www.AionianBible.org/Publisher/#NainoiaInc" }
+  "author" : { "@id": "https://www.AionianBible.org/Bibles/'.$bkey.'/#Provider" },
+  "copyrightHolder" : { "@id": "https://www.AionianBible.org/Bibles/'.$bkey.'/#Provider" },
+  "provider" : { "@id": "https://www.AionianBible.org/Bibles/'.$bkey.'/#Provider" },
+  "editor" : { "@id": "https://www.AionianBible.org/Publisher/#eScribes" },
+  "publisher" : { "@id": "https://www.AionianBible.org/Publisher/#NainoiaInc" }
 }
 ';
 }
@@ -2037,10 +2038,10 @@ else if ($_Part[0]==='Verse' && $_pnum>=3 && $_pnum<=5) {
 	$name = "$_Part[2] $_Part[3]:$_Part[4]";
 	$jsonld = '
 {
-  "@context" : "http://schema.org",
+  "@context" : "https://schema.org",
   "@type" : "WebPage",
-  "url" : "http://www.AionianBible.org/'.$_Path.'",
-  "translationOfWork" : { "@id": "http://www.AionianBible.org/#Bible" },
+  "url" : "https://www.AionianBible.org/'.$_Path.'",
+  "translationOfWork" : { "@id": "https://www.AionianBible.org/#Bible" },
   "name" : "'.$name.'",
   "headline" : "Holy Bible Aionian Edition® multi-lingual Bible verse reference '.$name.'",
   "educationalUse" : "to restore relationship to God and all mankind with the truth, personal transformation, and growth",
@@ -2048,19 +2049,19 @@ else if ($_Part[0]==='Verse' && $_pnum>=3 && $_pnum<=5) {
   "description" : "Holy Bible Aionian Edition® multi-lingual Bible verse reference '.$name.'",
   "genre" : "http://vocab.getty.edu/aat/300055271",
   "relatedLink" : [
-	"http://www.AionianBible.org/Preface",
-	"http://www.AionianBible.org/Readers-Guide",
-	"http://www.AionianBible.org/Glossary",
-	"http://www.AionianBible.org/Read",
-	"http://www.AionianBible.org/History",
-	"http://www.AionianBible.org/Aionios-and-Aidios"
+	"https://www.AionianBible.org/Preface",
+	"https://www.AionianBible.org/Readers-Guide",
+	"https://www.AionianBible.org/Glossary",
+	"https://www.AionianBible.org/Read",
+	"https://www.AionianBible.org/History",
+	"https://www.AionianBible.org/Aionios-and-Aidios"
   ],
-  "author" : { "@id": "http://www.AionianBible.org/Publisher/#NainoiaInc" },
-  "copyrightHolder" : { "@id": "http://www.AionianBible.org/Publisher/#NainoiaInc" },
-  "provider" : { "@id": "http://www.AionianBible.org/Publisher/#NainoiaInc" },
-  "editor" : { "@id": "http://www.AionianBible.org/Publisher/#eScribes" },
-  "funder" : { "@id": "http://www.AionianBible.org/Publisher/#NainoiaInc" },
-  "publisher" : { "@id": "http://www.AionianBible.org/Publisher/#NainoiaInc" }
+  "author" : { "@id": "https://www.AionianBible.org/Publisher/#NainoiaInc" },
+  "copyrightHolder" : { "@id": "https://www.AionianBible.org/Publisher/#NainoiaInc" },
+  "provider" : { "@id": "https://www.AionianBible.org/Publisher/#NainoiaInc" },
+  "editor" : { "@id": "https://www.AionianBible.org/Publisher/#eScribes" },
+  "funder" : { "@id": "https://www.AionianBible.org/Publisher/#NainoiaInc" },
+  "publisher" : { "@id": "https://www.AionianBible.org/Publisher/#NainoiaInc" }
 }
 ';
 }
@@ -2068,21 +2069,21 @@ else if ($_Part[0]==='Verse' && $_pnum>=3 && $_pnum<=5) {
 else {
 	$jsonld = '
 {
-  "@context" : "http://schema.org",
+  "@context" : "https://schema.org",
   "@type" : "WebPage",
   "name" : "Holy Bible Aionian Edition® '.$_meta.'",
   "headline" : "Holy Bible Aionian Edition® '.$_meta.'",
   "description" : "Holy Bible Aionian Edition® '.$_meta.' '.$_Path.'",
-  "url" : "http://www.AionianBible.org/'.$_Path.'",
+  "url" : "https://www.AionianBible.org/'.$_Path.'",
   "genre" : "http://vocab.getty.edu/aat/300055271",
-  "publisher" : { "@id": "http://www.AionianBible.org/Publisher/#NainoiaInc" },
+  "publisher" : { "@id": "https://www.AionianBible.org/Publisher/#NainoiaInc" },
   "relatedLink" : [
-	"http://www.AionianBible.org/Preface",
-	"http://www.AionianBible.org/Readers-Guide",
-	"http://www.AionianBible.org/Glossary",
-	"http://www.AionianBible.org/Read",
-	"http://www.AionianBible.org/History",
-	"http://www.AionianBible.org/Aionios-and-Aidios"
+	"https://www.AionianBible.org/Preface",
+	"https://www.AionianBible.org/Readers-Guide",
+	"https://www.AionianBible.org/Glossary",
+	"https://www.AionianBible.org/Read",
+	"https://www.AionianBible.org/History",
+	"https://www.AionianBible.org/Aionios-and-Aidios"
   ]
 }
 ';
@@ -2857,8 +2858,8 @@ $caption =(($title=='The World is Destroyed by Water' ||
 			$title=='The Great Flood' ||
 			$title=='A Dove is Sent Forth from the Ark')
 			? $title :
-			"<a href='http://resources.aionianbible.org/Gustave-Dore-La-Grande-Bible-de-Tours/Gustave-Dore-Bible-Tour-$file.jpg' target='_blank' title=\"$title\">$title</a>");
-echo "<div id='dore'><img src='http://resources.aionianbible.org/Gustave-Dore-La-Grande-Bible-de-Tours/web/Gustave-Dore-Bible-Tour-$file.jpg' alt=\"$title\" /><BR />$caption</div>";
+			"<a href='https://resources.aionianbible.org/Gustave-Dore-La-Grande-Bible-de-Tours/Gustave-Dore-Bible-Tour-$file.jpg' target='_blank' title=\"$title\">$title</a>");
+echo "<div id='dore'><img src='https://resources.aionianbible.org/Gustave-Dore-La-Grande-Bible-de-Tours/web/Gustave-Dore-Bible-Tour-$file.jpg' alt=\"$title\" /><BR />$caption</div>";
 return;
 }
 
