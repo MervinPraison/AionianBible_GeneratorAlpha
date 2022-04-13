@@ -1,6 +1,6 @@
 # File Name: TALLY.txt
 # File Size: 13539       
-# File Date: 04/02/2022 20:01:31
+# File Date: 04/07/2022 07:27:38
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022
@@ -200,7 +200,7 @@ Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	31102	31102	31105
 Holy-Bible---Serbian---Serbian-Ekavski-Bible	31102	31102	31103
 Holy-Bible---Shona---Shona-Bible	7957	7957	7957
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	31065	31065	31319
-Holy-Bible---Slovene---Slovene-Savli-Bible	29210	29210	29210
+Holy-Bible---Slovene---Slovene-Savli-Bible	30280	30280	30280
 Holy-Bible---Slovene---Slovene-Stritarja-NT	10413	10413	10481
 Holy-Bible---Somali---Somali-Bible	31103	31103	31103
 Holy-Bible---Spanish---Free-Bible	31086	31086	31102

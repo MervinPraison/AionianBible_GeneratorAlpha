@@ -1,6 +1,6 @@
 # File Name: TESTWORDS.txt
 # File Size: 173468      
-# File Date: 04/02/2022 20:44:54
+# File Date: 04/07/2022 09:18:46
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022
@@ -200,7 +200,7 @@ Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	0	GROUP=0/0/0	GROUP=0/0/0	�
 Holy-Bible---Serbian---Serbian-Ekavski-Bible	0	GROUP=0/0/0	GROUP=0/0/0	пакао=20/20/0, паклу=7/7/0, пакленим=1/1/0, пакла=11/11/0, паклена=1/1/0, пакле=1/1/0, GROUP=41/41/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Shona---Shona-Bible	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	0	GROUP=0/0/0	GROUP=0/0/0	аде=16/14/2, ада=14/9/5, адского=0/0/0, преисподнюю=0/0/0, геенне=2/2/0, геенны=2/2/0, геенну=6/6/0, адского=0/0/0, преисподней=0/0/0, преисподняя=1/0/1, преисподнею=0/0/0, GROUP=41/33/8	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
-Holy-Bible---Slovene---Slovene-Savli-Bible	0	GROUP=0/0/0	GROUP=0/0/0	pekel=24/21/3, pekla=17/17/0, peklu=7/7/0, peklenski=2/2/0, GROUP=50/47/3	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
+Holy-Bible---Slovene---Slovene-Savli-Bible	0	GROUP=0/0/0	GROUP=0/0/0	pekel=26/23/3, pekla=17/17/0, peklu=7/7/0, peklenski=2/2/0, GROUP=52/49/3	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Slovene---Slovene-Stritarja-NT	0	GROUP=0/0/0	GROUP=0/0/0	pekel=13/13/0, pekla=3/3/0, peklu=4/4/0, peklenski=1/1/0, GROUP=21/21/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Somali---Somali-Bible	0	GROUP=0/0/0	GROUP=0/0/0	jahannamada=11/11/0, GROUP=11/11/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Spanish---Free-Bible	0	GROUP=0/0/0	eterna=76/55/21, eternas=4/0/4, eternos=8/1/7, eterno=53/15/38, el venidero=0/0/0, siglo=0/0/0, mundo=345/31/314, siempre=594/49/545, eternamente=8/1/7, jamás=23/3/20, siglos=8/0/8, sempiterno=0/0/0, eternalmente=0/0/0, perpetuamente=0/0/0, eternidad=13/3/10, GROUP=1132/158/974	infierno=0/0/0, lago de fuego=4/4/0, los infiernos=0/0/0, GROUP=4/4/0	infierno=0/0/0, gehenna=0/0/0, lago de fuego=4/4/0, abismo=11/8/3, los infiernos=0/0/0, GROUP=15/12/3	infierno=0/0/0, sepultura=8/0/8, sepulcro=9/6/3, abismo=11/8/3, el profundo=0/0/0, descenderán=1/0/1, los infiernos=0/0/0, GROUP=29/14/15	infierno=0/0/0, gehenna=0/0/0, GROUP=0/0/0	infierno=0/0/0, los infiernos=0/0/0, sepulcro=9/6/3, GROUP=9/6/3	infierno=0/0/0, GROUP=0/0/0	abismo=11/8/3, GROUP=11/8/3	lago de fuego=4/4/0, lago ardiendo con fuego=0/0/0, GROUP=4/4/0	NULL=0/0/0, GROUP=0/0/0

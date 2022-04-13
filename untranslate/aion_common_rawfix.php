@@ -12723,7 +12723,7 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Slovene---Slovene-Savli-Bible" :
-if (!($bfile = preg_replace('/§/us',' ',$bfile,-1,$rnum)) || $rnum!=879) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%C2%A7/1
+if (!($bfile = preg_replace('/§/us',' ',$bfile,-1,$rnum)) || $rnum!=897) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%C2%A7/1
 if (!($bfile = preg_replace("/(\[א\]|\[ב\]|\[ג\]|\[ד\]|\[ה\]|\[ו\]|\[ז\]|\[ח\]|\[ט\]|\[י\]|\[כ\]|\[ל\]|\[מ\]|\[נ\]|\[ס\]|\[ע\]|\[פ\]|\[צ\]|\[ק\]|\[ר\]|\[ש\]|\[ת\])/us"," ",$bfile,-1,$rnum)) || $rnum!=22) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 goto RAWHIDE;
