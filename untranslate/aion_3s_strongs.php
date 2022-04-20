@@ -19,6 +19,8 @@ $FOLDER_SOURCE = "../STEPBible-Data-master/";
 $FOLDER_STAGE = "../www-stage/library/stepbible/";
 // input
 $INPUT_VIZBI = "../www-stageresources/AB-Viz-Strongs.csv";
+$INPUT_OSGRE = "../www-stageresources/AB-OpenScriptures-Strongs-Greek.json";
+$INPUT_OSHEB = "../www-stageresources/AB-OpenScriptures-Strongs-Hebrew.json";
 $INPUT_TBESG = $FOLDER_SOURCE."TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt";
 $INPUT_TFLS1 = $FOLDER_SOURCE."TFLSJ  0-5624 - Translators Formatted full LSJ Bible lexicon - STEPBible.org CC BY.txt";
 $INPUT_TFLS2 = $FOLDER_SOURCE."TFLSJ extra - Translators Formatted full LSJ Bible lexicon - STEPBible.org CC BY.txt";
@@ -92,8 +94,8 @@ $STEPBIBLE_CON = "../source-stage/Holy-Bible---English---STEPBible-Concordant---
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // UNPACK THE GITHUB ZIP
-system("rm -rf $FOLDER_SOURCE");
-system("unzip -q ../www-stageresources/AB-STEPBibleData.zip -d ../");
+//system("rm -rf $FOLDER_SOURCE");
+//system("unzip -q ../www-stageresources/AB-STEPBibleData.zip -d ../");
 if (!is_dir($FOLDER_SOURCE)) { AION_ECHO("ERROR! Bad unzip($FOLDER_SOURCE)"); }
 // PREPARE THE STAGE
 system("rm -rf $FOLDER_STAGE");
@@ -225,7 +227,9 @@ $database['WARNINGS']		= "General warnings about formats\n===\n\n";
 // VIZ-STRONGS READ
 AION_NEWSTRONGS_CSV( "$INPUT_VIZBI", ",",'VIZLEX',array('STRONGS','WORD','TRANS','PRONOUNCE','DEF','MORPH','LANG'), 'STRONGS', $database, "$FOLDER_STAGE$CHECK_ECSV");
 // VIZ-STRONGS WRITE
-AION_NEWSTRONGS_FIX_VIZ($database['VIZLEX'],'H','HEBVIZ',$database);
+if (empty($OSHEB = json_decode(file_get_contents($INPUT_OSHEB), true))) { AION_ECHO("ERROR! json_decode($INPUT_OSHEB)"); }
+AION_NEWSTRONGS_FIX_VIZ($database['VIZLEX'],'H','HEBVIZ',$database,$OSHEB);
+AION_unset($OSHEB);
 $commentplus = <<<EOT
 # Source: Robert Rouse
 # Source Content: James Strong's Lexicon, Hebrew
@@ -256,7 +260,9 @@ AION_unset($database['HEBVIZ']);
 AION_NEWSTRONGS_GET_INDEX_LEX("$FOLDER_STAGE$HEBREW_VIZBI_DATA", "$FOLDER_STAGE$HEBREW_VIZBI_INDX");
 AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER("$FOLDER_STAGE$HEBREW_VIZBI_INDX", "$FOLDER_STAGE$HEBREW_VIZBI_DATA");
 AION_ECHO("VIZ $FOLDER_STAGE$HEBREW_VIZBI_INDX");
-AION_NEWSTRONGS_FIX_VIZ($database['VIZLEX'],'G','GREVIZ',$database);
+if (empty($OSGRE = json_decode(file_get_contents($INPUT_OSGRE), true))) { AION_ECHO("ERROR! json_decode($INPUT_OSGRE)"); }
+AION_NEWSTRONGS_FIX_VIZ($database['VIZLEX'],'G','GREVIZ',$database,$OSGRE);
+AION_unset($OSGRE);
 $commentplus = <<<EOT
 # Source: Robert Rouse
 # Source Content: James Strong's Lexicon, Greek
@@ -287,9 +293,6 @@ AION_unset($database['GREVIZ']);
 AION_NEWSTRONGS_GET_INDEX_LEX("$FOLDER_STAGE$GREEK_VIZBI_DATA", "$FOLDER_STAGE$GREEK_VIZBI_INDX");
 AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER("$FOLDER_STAGE$GREEK_VIZBI_INDX", "$FOLDER_STAGE$GREEK_VIZBI_DATA");
 AION_ECHO("VIZ $FOLDER_STAGE$GREEK_VIZBI_INDX");
-
-
-
 
 
 
@@ -445,26 +448,23 @@ AION_ECHO("HEBREW $FOLDER_STAGE$HEBREW_TBESH_INDX");
 
 
 
-
-
-
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // TYNDALE GREEK READ
 AION_NEWSTRONGS_COD( "$INPUT_TEGMC",'GREMOR', $database, TRUE);
-AION_NEWSTRONGS_GET( "$INPUT_TBESG",'G0001	alpha',	NULL, NULL, NULL, 'GRELEX',
-	array('STRONGS','GLOSS','WORD','TRANS','MORPH','DEF'),
-	array('STRONGS','GLOSS','WORD','TRANS','','DEF'), "$FOLDER_STAGE$CHECK_EGLX",
+AION_NEWSTRONGS_GET( "$INPUT_TBESG",'G0001	G0001 =	G0001	Ἀλφα',	NULL, NULL, NULL, 'GRELEX',
+	array('STRONGS','','','WORD','TRANS','MORPH','GLOSS','DEF'),
+	array('STRONGS','','','WORD','TRANS','','GLOSS','DEF'), "$FOLDER_STAGE$CHECK_EGLX",
 	$GRELEX=array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF'),
 	'STRONGS', $database);
-AION_NEWSTRONGS_GET( "$INPUT_TFLS1",'G0001	Ἀλφα',	NULL, NULL, NULL, 'GRELSJ',
-	array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF',''),
-	array('STRONGS','WORD','TRANS','GLOSS','','DEF',''), "$FOLDER_STAGE$CHECK_ELSJ",
-	$GRELSJ=array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF',''),
+AION_NEWSTRONGS_GET( "$INPUT_TFLS1",'G0001	G0001 =	G0001	Ἀλφα',	NULL, NULL, NULL, 'GRELSJ',
+	array('STRONGS','','','WORD','TRANS','MORPH','GLOSS','DEF'),
+	array('STRONGS','','','WORD','TRANS','','GLOSS','DEF'), "$FOLDER_STAGE$CHECK_ELSJ",
+	$GRELSJ=array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF'),
 	'STRONGS', $database);
-AION_NEWSTRONGS_GET( "$INPUT_TFLS2",'G6000	ἀγγέλλω',NULL, NULL, NULL,'GRELSJ',
-	array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF',''),
-	array('STRONGS','WORD','TRANS','GLOSS','','DEF',''), "$FOLDER_STAGE$CHECK_ELSJ",
-	$GRELSJ=array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF',''),
+AION_NEWSTRONGS_GET( "$INPUT_TFLS2",'G6000	G6000 =	G6000	ἀγγέλλω',NULL, NULL, NULL,'GRELSJ',
+	array('STRONGS','','','WORD','TRANS','MORPH','GLOSS','DEF'),
+	array('STRONGS','','','WORD','TRANS','','GLOSS','DEF'), "$FOLDER_STAGE$CHECK_ELSJ",
+	$GRELSJ=array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF'),
 	'STRONGS', $database);
 $thisfind = array("/42_Mrk\.004\.006/us","/44_Jhn\.009\.003/us");
 $thisreplace = array("42_Mrk.004.005","44_Jhn.008.059");
@@ -824,6 +824,7 @@ function AION_NEWSTRONGS_GET($file, $begin, $end, $thisfind, $thisreplace, $tabl
 	if ( $key && !in_array( $key, $keys ) ) {							AION_ECHO("ERROR! $newmess key=$key not in keys !in_array()"); }
 	if ( is_array($keysord) &&
 		 strlen($test=trim(implode("",array_diff($keys,$keysord))))) {	AION_ECHO("ERROR! $newmess key=$test not in keysord"); }
+	if (file_put_contents($checkfile, "EMPTY?\n", FILE_APPEND)===FALSE){AION_ECHO("ERROR! file_put_contents($checkfile)"); }
 	if ( !is_file( $file ) ) {											AION_ECHO("ERROR! $newmess !is_file()"); }
 	if ( ($contents = file_get_contents( $file )) === FALSE ) {			AION_ECHO("ERROR! $newmess !file_get_contents()"); }
 	if ( mb_detect_encoding($contents, "UTF-8", TRUE) === FALSE ) {		AION_ECHO("ERROR! $newmess !mb_detect_encoding()"); }
@@ -872,8 +873,8 @@ function AION_NEWSTRONGS_GET($file, $begin, $end, $thisfind, $thisreplace, $tabl
 		if (is_array($keysord)) { $newS = array(); foreach( $keysord as $k) { if (!empty($k)) { $newS[$k] = $newd[$k]; } } unset($newd); $newd = $newS; }
 		if ( !$key ) { $result[$table][] = $newd; }
 		else {
-			if (!empty($result[$table][$newd[$key]])) {					AION_ECHO("ERROR! $newmess line=$count array key overlap! $key=".$newd[$key]); }
-			$result[$table][$newd[$key]] = $newd;
+			if (!empty($result[$table][$newd[$key]])) {					AION_ECHO("WARN! $newmess line=$count array key overlap! $key=".$newd[$key]); }
+			else { $result[$table][$newd[$key]] = $newd; }
 		}
 		AION_unset($newS); $newS=NULL; unset($newS);
 		AION_unset($newd); $newd=NULL; unset($newd);
@@ -1204,7 +1205,7 @@ function AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER($index_file, $lexicon_file, $exce
 
 
 // Viz need its own fixing
-function AION_NEWSTRONGS_FIX_VIZ($input,$what,$table,&$database) {
+function AION_NEWSTRONGS_FIX_VIZ($input,$what,$table,&$database,$osstrongs) {
 	$database[$table] = array();
 	// copy and correct
 	foreach( $input as $x => $line ) {
