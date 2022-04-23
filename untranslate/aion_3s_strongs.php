@@ -228,8 +228,8 @@ $database['WARNINGS']		= "General warnings about formats\n===\n\n";
 AION_NEWSTRONGS_CSV( "$INPUT_VIZBI", ",",'VIZLEX',array('STRONGS','WORD','TRANS','PRONOUNCE','DEF','MORPH','LANG'), 'STRONGS', $database, "$FOLDER_STAGE$CHECK_ECSV");
 // VIZ-STRONGS WRITE
 if (empty($OSHEB = json_decode(file_get_contents($INPUT_OSHEB), true))) { AION_ECHO("ERROR! json_decode($INPUT_OSHEB)"); }
-AION_NEWSTRONGS_FIX_VIZ($database['VIZLEX'],'H','HEBVIZ',$database,$OSHEB);
-AION_unset($OSHEB);
+if (empty($OSGRE = json_decode(file_get_contents($INPUT_OSGRE), true))) { AION_ECHO("ERROR! json_decode($INPUT_OSGRE)"); }
+AION_NEWSTRONGS_FIX_VIZ($database['VIZLEX'],'H','HEBVIZ',$database,$OSHEB,$OSGRE);
 $commentplus = <<<EOT
 # Source: Robert Rouse
 # Source Content: James Strong's Lexicon, Hebrew
@@ -260,9 +260,9 @@ AION_unset($database['HEBVIZ']);
 AION_NEWSTRONGS_GET_INDEX_LEX("$FOLDER_STAGE$HEBREW_VIZBI_DATA", "$FOLDER_STAGE$HEBREW_VIZBI_INDX");
 AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER("$FOLDER_STAGE$HEBREW_VIZBI_INDX", "$FOLDER_STAGE$HEBREW_VIZBI_DATA");
 AION_ECHO("VIZ $FOLDER_STAGE$HEBREW_VIZBI_INDX");
-if (empty($OSGRE = json_decode(file_get_contents($INPUT_OSGRE), true))) { AION_ECHO("ERROR! json_decode($INPUT_OSGRE)"); }
-AION_NEWSTRONGS_FIX_VIZ($database['VIZLEX'],'G','GREVIZ',$database,$OSGRE);
+AION_NEWSTRONGS_FIX_VIZ($database['VIZLEX'],'G','GREVIZ',$database,$OSGRE,$OSHEB);
 AION_unset($OSGRE);
+AION_unset($OSHEB);
 $commentplus = <<<EOT
 # Source: Robert Rouse
 # Source Content: James Strong's Lexicon, Greek
@@ -1205,14 +1205,27 @@ function AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER($index_file, $lexicon_file, $exce
 
 
 // Viz need its own fixing
-function AION_NEWSTRONGS_FIX_VIZ($input,$what,$table,&$database,$osstrongs) {
+function AION_NEWSTRONGS_FIX_VIZ($input,$what,$table,&$database,$osstrongs,$osstrongs2) {
 	$database[$table] = array();
 	// copy and correct
+	// OpenScriptures array format
+	//"H2":{"lemma":"אַב","xlit":"ʼab","pron":"ab","derivation":"(Aramaic) corresponding to H1 (אָב)","strongs_def":"{father}","kjv_def":"father."},
+	// Hebrew = lemma, xlit, pron, derivation, strongs_def, kjv_def
+	//"G1615":{"strongs_def":" to complete fully","derivation":"from G1537 (ἐκ) and G5055 (τελέω);","translit":"ekteléō","lemma":"ἐκτελέω","kjv_def":"finish"},
+	// Greek = lemma, translit, derivation, strongs_def, kjv_def
+	// error check Open Scripture to Viz strongs
+	foreach( $osstrongs as $key => $entry ) {
+		if(empty($input[$key])) { AION_ECHO("ERROR! OpenScripture Strong not found in Viz Strong! strongs=$key"); }
+		if ($what=='G') { $osstrongs[$key]['xlit'] = $osstrongs[$key]['translit']; }
+	}
+	// construct the table
 	foreach( $input as $x => $line ) {
 		if (!preg_match("#^$what#ui",$line['STRONGS'])) { continue; } // build greek and hebrew separately
+		if(empty($osstrongs[$x])) { AION_ECHO("ERROR! Viz Strong not found in OpenScripture Strong! strongs=$x"); }
 		$line['STRONGS'] = substr($line['STRONGS'], 1); // wack off the first character
 		if (empty($line['WORD']) && empty($line['TRANS']) && empty($line['DEF'])) { continue; } // skip empty lines
 		if (!empty($database[$table][$line['STRONGS']])) { AION_ECHO("ERROR! Duplicate strongs entry! strongs=".$line['STRONGS']); } // whoa, why not empty?
+		/*
 		$database[$table][$line['STRONGS']] = array(
 			'STRONGS'	=> $line['STRONGS'],
 			'WORD'		=> $line['WORD'],
@@ -1222,6 +1235,52 @@ function AION_NEWSTRONGS_FIX_VIZ($input,$what,$table,&$database,$osstrongs) {
 			'MORPH'		=> $line['MORPH'],
 			'DEF'		=> $line['DEF'],
 		);
+		*/
+		// build definition and error check
+		$definition = $osstrongs[$x]['strongs_def']."; ".$osstrongs[$x]['kjv_def']."; ".$osstrongs[$x]['derivation'];
+		if (!($definition = preg_replace("#([GH]{1})[0]*([\d]+)#ui", '$1$2', $definition))) { AION_ECHO("ERROR! Strongs = $x Problem stripping zeros"); }
+		if (FALSE===preg_match_all("#([GH]{1}[\d]+)#ui", $definition, $match, PREG_PATTERN_ORDER)) { AION_ECHO("ERROR! Strongs = $x Problem finding strong numbers in definition"); }
+		if (!empty($match[0]) && is_array($match[0])) {
+			foreach($match[0] as $strongone) {
+				if(empty($osstrongs[$strongone]) && empty($osstrongs2[$strongone])) {
+					// warn
+					AION_ECHO("WARN! Strongs OpenScripture definition = $x referencing strongs not found = $strongone");
+					// fix
+					// Entry G137  derivation references G5869 which does not exist / should be H5869 
+					// Entry G25   derivation references G5689 which does not exist / should be G5368
+					// Entry G3304 derivation references G3203 which does not exist / should be G3303
+					// Entry G3305 derivation references G3203 which does not exist / should be G3303  
+					// Entry G3642 derivation references G6590 which is an extended number / should be G5590
+					// Entry G4460 derivation references G7343 which is an extended number / should be H7543
+					if      ($strongone=="G5869") { if (!($definition = preg_replace("#$strongone#ui", "H5869", $definition))) { AION_ECHO("ERROR! Strongs = $x Problem replacing $strongone"); } }
+					else if ($strongone=="G5689") { if (!($definition = preg_replace("#$strongone#ui", "G5368", $definition))) { AION_ECHO("ERROR! Strongs = $x Problem replacing $strongone"); } }
+					else if ($strongone=="G3203") { if (!($definition = preg_replace("#$strongone#ui", "G3303", $definition))) { AION_ECHO("ERROR! Strongs = $x Problem replacing $strongone"); } }
+					else if ($strongone=="G6590") { if (!($definition = preg_replace("#$strongone#ui", "G5590", $definition))) { AION_ECHO("ERROR! Strongs = $x Problem replacing $strongone"); } }
+					else if ($strongone=="G7343") { if (!($definition = preg_replace("#$strongone#ui", "H7543", $definition))) { AION_ECHO("ERROR! Strongs = $x Problem replacing $strongone"); } }
+					else                                                                                                       { AION_ECHO("ERROR! Strongs = $x Problem replacing unidentified problem"); }
+				}
+			}
+		}
+		if (!($definition = preg_replace("#G([\d]+)#ui", 'g$1', $definition))) { AION_ECHO("ERROR! Strongs = $x Problem converting G to lowercase"); }
+		if (!($definition = preg_replace("#H([\d]+)#ui", 'h$1', $definition))) { AION_ECHO("ERROR! Strongs = $x Problem converting H to lowercase"); }
+		if (!($definition = preg_replace(
+			"#([gh]{1}[\d]+)#ui",
+			"<a href='/Strongs/strongs-\$1' title='Strongs Enhanced Concordance entry \$1' onclick='return AionianBible_Makemark(\"/Strongs\",\"/strongs-\$1\");'>\$1</a>",
+			$definition))) {
+			AION_ECHO("ERROR! Strongs = $x Problem converting strongs number to href links");
+		}
+		$database[$table][$line['STRONGS']] = array(
+			'STRONGS'	=> $line['STRONGS'],
+			'WORD'		=> $osstrongs[$x]['lemma'],
+			'TRANS'		=> $osstrongs[$x]['xlit'],
+			'PRONOUNCE'	=> (!empty($osstrongs[$x]['pron']) ? $osstrongs[$x]['pron'] : $line['PRONOUNCE']),
+			'LANG'		=> $line['LANG'],
+			'MORPH'		=> $line['MORPH'],
+			'DEF'		=> $definition,
+		);
+		if (($what=='H' && $line['WORD'] != $osstrongs[$x]['lemma']) || $line['TRANS'] != $osstrongs[$x]['xlit']) {
+			AION_ECHO("WARN! Strongs OpenScripture != Viz: strongs=$x word: ".$line['WORD']." != ".$osstrongs[$x]['lemma']." xlit: ".$line['TRANS']." != ".$osstrongs[$x]['xlit']);
+		}
 	}
 	ksort($database[$table],SORT_NATURAL);
 }
