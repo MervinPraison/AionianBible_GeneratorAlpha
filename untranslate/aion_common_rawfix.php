@@ -833,7 +833,7 @@ $blockfix = <<<EOF
 1CH 8:27 si Jaareshia, si Elija, ug si Zicri.
 1CH 8:28 
 EOF;
-if (!($bfile = preg_replace("/1CH 8:18 (.+?)1CH 8:28 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/1CH 8:17 (.+?)1CH 8:28 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $blockfix = <<<EOF
 PSA 68:12 Ang mga hari sa kasundalohan mikalagiw, nanagan sila, ug ang mga babaye nga nagpaabot sa panimalay nagbahinbahin sa mga kinuha:
 PSA 68:13 mga salampati nga plata ug ang mga pako sa naggilakgilak nga bulawan. Sa dihang ang pipila kaninyo nagpabilin sa kulongan sa karnero, nganong gibuhat ninyo kini?
@@ -13566,9 +13566,9 @@ $textfix = <<<EOF
 1CH 8:19 Ito ang mga anak na lalaki ni Simei: sina Jaquim, Zicri, Zabdi,
 1CH 8:20 Elienai, Zilletai, Eliel,
 1CH 8:21 Adaya, Beraya at Simrat.
-1CH 8:22 Ito ang mga anak na lalaki ni Sasac: sina Ispan, Eber, Eliel, 
+1CH 8:22 Ito ang mga anak na lalaki ni Sasac: sina Ispan, Eber, Eliel,
 1CH 8:23 Abdon, Zicri, Hanan,
-1CH 8:24 Hananias, Elam, Anatotias, 
+1CH 8:24 Hananias, Elam, Anatotias,
 1CH 8:25 Ifdaya at Penuel.
 1CH 8:26 Ito ang mga anak na lalaki ni Jeroham: sina Samserai, Seharia, Atalia,
 1CH 8:27 Jaaresias, Elias at Zicri.
