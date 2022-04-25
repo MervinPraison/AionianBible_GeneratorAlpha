@@ -848,13 +848,13 @@ EOF;
 if (!($bfile = preg_replace("/DAN 4:28 (.+?)DAN 4:30 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $blockfix = <<<EOF
 MAT 18:10 Matngoni nga dili kamo motamay ni bisan kinsa niining gagmay nga mga bata. Kay magsulti ako kaninyo nga sa langit ang ilang mga anghel kanunay magsud-ong sa dagway sa akong Amahan nga atua sa langit.
-MAT 18:11 -
+MAT 18:11 
 MAT 18:12 
 EOF;
 if (!($bfile = preg_replace("/MAT 18:10 (.+?)MAT 18:12 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $blockfix = <<<EOF
 ROM 16:23 Si Gaius, ang nag-atiman alang kanako ug sa tibuok simbahan, nangumusta kaninyo. Si Erastus, ang nagatipig ug salapi sa siyudad, nangumusta kaninyo, uban kang Quartus ang igsoong lalaki.
-ROM 16:24 -
+ROM 16:24 
 ROM 16:25 
 EOF;
 if (!($bfile = preg_replace("/ROM 16:23 (.+?)ROM 16:25 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -13559,6 +13559,7 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Tagalog---Tagalog-Bible-Unlocked" :
 if (!($bfile = preg_replace("/ 18 Narinig/us"," Narinig",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("//us","",$bfile,-1,$rnum)) || $rnum!=24) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 $textfix = <<<EOF
 1CH 8:17 Ito ang mga anak na lalaki ni Elpaal: sina Zebadias, Mesulam, Hizki, Heber,
