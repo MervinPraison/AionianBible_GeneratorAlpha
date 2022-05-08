@@ -1,6 +1,6 @@
 # File Name: RAWCHECK.txt
-# File Size: 3166597     
-# File Date: 04/22/2022 09:42:37
+# File Size: 3166625     
+# File Date: 05/07/2022 18:07:22
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022
@@ -441,25 +441,25 @@ Holy-Bible---Cebuano---Cebuano-Bible	013	1CH	004	017	MODIFY	Ang mga anak nga lal
 Holy-Bible---Cebuano---Cebuano-Bible	013	1CH	004	018	MODIFY	Ang asawa ni Mered nga Judio nanganak kang Jered, ang amahan ni Gedor; si Heber, ang amahan ni Soco; ug si Jekutiel, ang amahan ni Zanoa.	Ang mga anak nga lalaki ni Ezra mao sila Jeter, Mered, Efer, ug si Jalon. Gipakatawo sa Ehiptohanon nga asawa ni Mered sila Miriam, Shamai, ug si Ishba, nga amahan ni Eshtemoa. Mao kini ang mga anak nga lalaki ni Bitya, ang anak nga babaye sa Paraon, nga giminyoan ni Mered. Ang asawa ni Mered nga Judio nanganak kang Jered, ang amahan ni Gedor; si Heber, ang amahan ni Soco; ug si Jekutiel, ang amahan ni Zanoa.
 Holy-Bible---Cebuano---Cebuano-Bible	013	1CH	006	078	MODIFY	Gihatag usab alang kanila, ang laing bahin sa Jordan ug sa Jerico, sa sidlakang bahin sa suba: ang Bezer sa kamingawan lakip ang mga sabsabanang dapit niini, ang Jaza lakip ang mga sabsabanang dapit niini,	-
 Holy-Bible---Cebuano---Cebuano-Bible	013	1CH	006	079	MODIFY	ang Kedemot lakip ang mga sabsabanang dapit niini, ug ang Mefaat lakip ang mga sabsabanang dapit niini. Gihatag kini gikan sa tribo ni Ruben.	Gihatag usab alang kanila, ang laing bahin sa Jordan ug sa Jerico, sa sidlakang bahin sa suba: ang Bezer sa kamingawan lakip ang mga sabsabanang dapit niini, ang Jaza lakip ang mga sabsabanang dapit niini, ang Kedemot lakip ang mga sabsabanang dapit niini, ug ang Mefaat lakip ang mga sabsabanang dapit niini. Gihatag kini gikan sa tribo ni Ruben.
-Holy-Bible---Cebuano---Cebuano-Bible	013	1CH	008	017	ADD	Mao kini ang mga anak nga lalaki ni Elpaal: si Zebadia, si Meshulam, si Hizki, si Heber,	
+Holy-Bible---Cebuano---Cebuano-Bible	013	1CH	008	017	MODIFY	Mao kini ang mga anak nga lalaki ni Elpaal: si Zebadia, si Meshulam, si Hizki, si Heber,	_
 Holy-Bible---Cebuano---Cebuano-Bible	013	1CH	008	018	MODIFY	si Ishmerai, si Izlia, ug si Jobab.	Mao kini ang mga anak nga lalaki ni Elpaal: si Zebadia, si Meshulam, si Hizki, si Heber, si Ishmerai, si Izlia, ug si Jobab.
-Holy-Bible---Cebuano---Cebuano-Bible	013	1CH	008	019	ADD	Mao kini ang mga anak nga lalaki ni Shimei: si Jakim, si Zicri, si Zabdi,	
-Holy-Bible---Cebuano---Cebuano-Bible	013	1CH	008	020	ADD	si Elienai, si Ziletai, si Eliel,	
+Holy-Bible---Cebuano---Cebuano-Bible	013	1CH	008	019	MODIFY	Mao kini ang mga anak nga lalaki ni Shimei: si Jakim, si Zicri, si Zabdi,	_
+Holy-Bible---Cebuano---Cebuano-Bible	013	1CH	008	020	MODIFY	si Elienai, si Ziletai, si Eliel,	_
 Holy-Bible---Cebuano---Cebuano-Bible	013	1CH	008	021	MODIFY	si Adaya, si Beraia, ug si Shimrat.	Mao kini ang mga anak nga lalaki ni Shimei: si Jakim, si Zicri, si Zabdi, si Elienai, si Ziletai, si Eliel, si Adaya, si Beraia, ug si Shimrat.
-Holy-Bible---Cebuano---Cebuano-Bible	013	1CH	008	022	ADD	Mao kini ang mga anak nga lalaki ni Sashak: si Ishpan, si Eber, si Eliel,	
-Holy-Bible---Cebuano---Cebuano-Bible	013	1CH	008	023	ADD	si Abdon, si Zicri, si Hanan,	
-Holy-Bible---Cebuano---Cebuano-Bible	013	1CH	008	024	ADD	si Hanania, si Elam, si Antotia,	
+Holy-Bible---Cebuano---Cebuano-Bible	013	1CH	008	022	MODIFY	Mao kini ang mga anak nga lalaki ni Sashak: si Ishpan, si Eber, si Eliel,	_
+Holy-Bible---Cebuano---Cebuano-Bible	013	1CH	008	023	MODIFY	si Abdon, si Zicri, si Hanan,	_
+Holy-Bible---Cebuano---Cebuano-Bible	013	1CH	008	024	MODIFY	si Hanania, si Elam, si Antotia,	_
 Holy-Bible---Cebuano---Cebuano-Bible	013	1CH	008	025	MODIFY	si Ifdeia, ug si Penuel.	Mao kini ang mga anak nga lalaki ni Sashak: si Ishpan, si Eber, si Eliel, si Abdon, si Zicri, si Hanan, si Hanania, si Elam, si Antotia, si Ifdeia, ug si Penuel.
-Holy-Bible---Cebuano---Cebuano-Bible	013	1CH	008	026	ADD	Mao kini ang mga anak nga lalaki ni Jeroham: si Shamsherai, si Sheharia, si Atalia,	
-Holy-Bible---Cebuano---Cebuano-Bible	013	1CH	008	027	MODIFY	si Jaareshia, si Elija, ug si Zicri.	Mao kini ang mga anak nga lalaki ni Jeroham: si Shamsherai, si Sheharia, si Atalia, si Jaareshia, si Elija, ug si Zicri.
+Holy-Bible---Cebuano---Cebuano-Bible	013	1CH	008	026	MODIFY	Mao kini ang mga anak nga lalaki ni Jeroham: si Shamsherai, si Sheharia, si Atalia,	_
+Holy-Bible---Cebuano---Cebuano-Bible	013	1CH	008	027	MODIFY	si Jaareshia, si Elija, ug si Zicri.	_ Mao kini ang mga anak nga lalaki ni Jeroham: si Shamsherai, si Sheharia, si Atalia, si Jaareshia, si Elija, ug si Zicri.
 Holy-Bible---Cebuano---Cebuano-Bible	019	PSA	068	012	MODIFY	Ang mga hari sa kasundalohan mikalagiw, nanagan sila, ug ang mga babaye nga nagpaabot sa panimalay nagbahinbahin sa mga kinuha:	-
 Holy-Bible---Cebuano---Cebuano-Bible	019	PSA	068	013	MODIFY	mga salampati nga plata ug ang mga pako sa naggilakgilak nga bulawan. Sa dihang ang pipila kaninyo nagpabilin sa kulongan sa karnero, nganong gibuhat ninyo kini?	Ang mga hari sa kasundalohan mikalagiw, nanagan sila, ug ang mga babaye nga nagpaabot sa panimalay nagbahinbahin sa mga kinuha: mga salampati nga plata ug ang mga pako sa naggilakgilak nga bulawan. Sa dihang ang pipila kaninyo nagpabilin sa kulongan sa karnero, nganong gibuhat ninyo kini?
 Holy-Bible---Cebuano---Cebuano-Bible	027	DAN	004	028	MODIFY	Kining tanan nahitabo gayod kang Haring Nebucadnezar.	-
 Holy-Bible---Cebuano---Cebuano-Bible	027	DAN	004	029	MODIFY	Paglabay sa dose ka bulan naglakawlakaw siya didto sa atop sa iyang harianong gingharian sa Babilonia,	Kining tanan nahitabo gayod kang Haring Nebucadnezar. Paglabay sa dose ka bulan naglakawlakaw siya didto sa atop sa iyang harianong gingharian sa Babilonia,
 Holy-Bible---Cebuano---Cebuano-Bible	040	MAT	018	010	MODIFY	Matngoni nga dili kamo motamay ni bisan kinsa niining gagmay nga mga bata. Kay magsulti ako kaninyo nga sa langit ang ilang mga anghel kanunay magsud-ong sa dagway sa akong Amahan nga atua sa langit.	-
-Holy-Bible---Cebuano---Cebuano-Bible	040	MAT	018	011	MODIFY	-	Matngoni nga dili kamo motamay ni bisan kinsa niining gagmay nga mga bata. Kay magsulti ako kaninyo nga sa langit ang ilang mga anghel kanunay magsud-ong sa dagway sa akong Amahan nga atua sa langit.
+Holy-Bible---Cebuano---Cebuano-Bible	040	MAT	018	011	MODIFY		Matngoni nga dili kamo motamay ni bisan kinsa niining gagmay nga mga bata. Kay magsulti ako kaninyo nga sa langit ang ilang mga anghel kanunay magsud-ong sa dagway sa akong Amahan nga atua sa langit.
 Holy-Bible---Cebuano---Cebuano-Bible	045	ROM	016	023	MODIFY	Si Gaius, ang nag-atiman alang kanako ug sa tibuok simbahan, nangumusta kaninyo. Si Erastus, ang nagatipig ug salapi sa siyudad, nangumusta kaninyo, uban kang Quartus ang igsoong lalaki.	-
-Holy-Bible---Cebuano---Cebuano-Bible	045	ROM	016	024	MODIFY	-	Si Gaius, ang nag-atiman alang kanako ug sa tibuok simbahan, nangumusta kaninyo. Si Erastus, ang nagatipig ug salapi sa siyudad, nangumusta kaninyo, uban kang Quartus ang igsoong lalaki.
+Holy-Bible---Cebuano---Cebuano-Bible	045	ROM	016	024	MODIFY		Si Gaius, ang nag-atiman alang kanako ug sa tibuok simbahan, nangumusta kaninyo. Si Erastus, ang nagatipig ug salapi sa siyudad, nangumusta kaninyo, uban kang Quartus ang igsoong lalaki.
 Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	043	JOH	001	043	MODIFY	Y siguiente na jaane, malago si Jesus malag Galilea, ya jasoda si Felipe,	Y siguiente na jaane, malago si Jesus malag Galilea, ya jasoda si Felipe, taotao Betsaida, gui siudan Andres yan Pedro.
 Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	043	JOH	001	044	ADD	taotao Betsaida, gui siudan Andres yan Pedro.	
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	064	3JO	001	014	MODIFY	Tedae nangmih te tlek hmuh ham ka ngaiuep. Te vaengah ka neh ka rhoi te n'thui bitni. Nang taengah ngaimongnah om seh. Paya rhoek loh nang toidal uh. Paya rhoek te a ming neh toidal lah.	Tedae nangmih te tlek hmuh ham ka ngaiuep. Te vaengah ka neh ka rhoi te n'thui bitni.

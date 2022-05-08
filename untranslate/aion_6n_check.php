@@ -21,7 +21,8 @@ function AION_LOOP_ANALYSIS($source, $destiny) {
 	AION_LOOP( array(
 		'function'		=> 'AION_LOOP_ANALYSIS_DOIT',
 		'source'		=> $source,
-		'include'		=> "/---Source-Edition\.[^.]+\.txt$/",
+		//'include'		=> "/---Source-Edition\.[^.]+\.txt$/",
+		'include'		=> "/Albanian-Bible---Source-Edition\.[^.]+\.txt$/",		
 		'database'		=> $database,
 		'destiny'		=> $destiny,
 		) );
@@ -32,6 +33,7 @@ function AION_LOOP_ANALYSIS_DOIT($args) {
 	// BIBLE?
 	if (!preg_match("/^Holy-Bible---(.*)---Source-Edition\.[^.]+\.txt$/", $args['filename'], $matches)) {	AION_ECHO("ERROR! Failed to preg_match(Holy-Bible): ".$args['filepath']); }
 	$bible = "Holy-Bible---$matches[1]";
+	$short = "$matches[1]";
 	$file_original = $args['filepath'];
 	$file_analysis = $args['destiny']."/$bible---Analysis.txt";
 	$file_aionian  = $args['destiny']."/$bible---Aionian-Edition.noia";
@@ -65,23 +67,57 @@ function AION_LOOP_ANALYSIS_DOIT($args) {
 	if(!($data_original=preg_replace("@(^|\n#|\n/)[^\n]*?@uis","",$data_original))) {						AION_ECHO("ERROR! Analysis preg_replace(original comment) $file_original $byte_original"); }
 	if(!($data_aionian=preg_replace("@(^|\n#|\n/)[^\n]*?@uis","",$data_aionian))) {							AION_ECHO("ERROR! Analysis preg_replace(aionian comment) $file_aionian $byte_aionian"); }
 
-	// ANALYIZE
-	$analysis = "";
-	//
-	$analysis .= "\n\n=== EXPLANATION =========================================================================\n" .
-		"Below are various analysis of the source Bible text and the resulting Aionian Edition text.\n" .
-		"Analysis reports possible problems, and comparing current analysis with new reveals changes.\n" .
-		"Some of analysis is relevant only to the Aionian Bible project and others are relevant to all.\n" .
-		"The Aionian Bible project attempts to reversify to the KJV standard and reports any variances.\n" .
-		"Search for these words below: NOTICE, WARNING, and PROBLEM\n";
-	// 
-	$analysis .= "\n\n=== FILE ENCODING =======================================================================\n" .
-		$args['filename'] . " = $encode_original " . ($encode_original=="UTF-8" ? "" : ($encode_original=="Unknown" ? "(PROBLEM! Undefined)" : "(WARNING! Not UTF-8)")) . "\n" .
-		"$bible---Aionian-Edition.noia = $encode_aionian " . ($encode_aionian=="UTF-8" ? "" : ($encode_aionian=="Unknown" ? "(PROBLEM! Undefined)" : "(WARNING! Not UTF-8)")) . "\n";
-	// 
-	$analysis .= "\n\n=== BYTE COUNTS =========================================================================\n" .
-		"Original bytes/characters = $byte_original / $char_original " . ($byte_original==$char_original ? "(single-byte)" : "(multi-byte)") . "\n" .
-		"Aionian bytes/characters = $byte_aionian / $char_aionian " . ($byte_aionian==$char_aionian ? "(single-byte)" : "(multi-byte)") . "\n";
+	// HEADER
+	$analysis  =
+		"# File Name: Holy-Bible---$bible---Analysis.txt\n" .
+		"# File Size: 000000000000\n" .
+		"# File Date: ".date('m/d/Y H:i:s')."\n" .
+		"# File Purpose: Supporting resource for the Aionian Bible project\n" .
+		"# File Location: https://resources.AionianBible.org\n" .
+		"# File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-".date('Y')."\n" .
+		"# File Generator: ABCMS (alpha)\n" .
+		"# File Accuracy: Contact publisher with corrections to file format or content\n" .
+		"# Publisher Name: Nainoia Inc\n" .
+		"# Publisher Contact: https://www.AionianBible.org/Publisher\n" .
+		"# Publisher Mission: https://www.AionianBible.org/Preface\n" .
+		"# Publisher Website: https://NAINOIA-INC.signedon.net\n" .
+		"# Publisher Facebook: https://www.Facebook.com/AionianBible\n" .
+		"# Bible Name: ".$args['database'][T_VERSIONS][$bible]['NAME']."\n" .
+		"# Bible Name English: ".$args['database'][T_VERSIONS][$bible]['NAMEENGLISH']."\n" .
+		"# Bible Language: ".$args['database'][T_VERSIONS][$bible]['LANGUAGE']."\n" .
+		"# Bible Language English: ".$args['database'][T_VERSIONS][$bible]['LANGUAGEENGLISH']."\n" .
+		"# Bible Copyright Format: ".$args['database'][T_VERSIONS][$bible]['ABCOPYRIGHT']."\n" .
+		"# Bible Copyright Text: ".$args['database'][T_VERSIONS][$bible]['COPYRIGHT']."\n" .
+		"# Bible Source: ".$args['database'][T_VERSIONS][$bible]['SOURCE']."\n" .
+		(filemtime($file_original)===FALSE ? '' : ("# Bible Source Version: ".date("n/j/Y", filemtime($file_original))."\n")) .
+		"# Bible Source Link: ".$args['database'][T_VERSIONS][$bible]['SOURCELINK']."\n" .
+		"# Bible Source Year: ".$args['database'][T_VERSIONS][$bible]['YEAR']."\n" .
+		(empty($args['database'][T_VERSIONS][$bible]['DESCRIPTION']) ? "" : ("# Bible Description: ".$args['database'][T_VERSIONS][$bible]['DESCRIPTION']."\n")) .
+		"#\n" .
+		"# Following are analyses of the source Bible text and the resulting Aionian Edition text.\n" .
+		"# Problems are noted and comparing past and updated analyses shows regressions and improvements.\n" .
+		"# Some analyses are relevant only to the Aionian Bible project and others are relevant to everyone.\n" .
+		"# Also note the Aionian Bible project reversifies to the KJV standard and reports variances.\n" .
+		"# Search for these words below: NOTICE, WARNING, and ERROR\n" .
+		"#\n" .
+		"BIBLE	ANALYSIS	CATEGORY	INPUT	RESULT	STATUS\n";
+
+	// ENCODING
+	$analysis .= "# ENCODING\n";
+	$input = $args['filename'];
+	$status = 	($encode_original=="UTF-8" ? "NOTICE" : ($encode_original=="Unknown" ? "ERROR" : "WARNING"));
+	$analysis .= "$short	ENCODING	Source	$input	$encode_original	$status\n";
+	$input = "$bible---Aionian-Edition.noia";
+	$status = 	($encode_aionian=="UTF-8" ? "NOTICE" : ($encode_aionian=="Unknown" ? "ERROR" : "WARNING"));
+	$analysis .= "$short	ENCODING	Aionian	$input	$encode_aionian	$status\n";
+
+	// BYTES
+	$analysis .= "# BYTES\n";
+	$result = "$byte_original / $char_original " . ($byte_original==$char_original ? "(single-byte)" : "(multi-byte)");
+	$analysis .= "$short	BYTES	Source	bytes/chars	$result	NOTICE\n";
+	$result = "$byte_aionian / $char_aionian " . ($byte_aionian==$char_aionian ? "(single-byte)" : "(multi-byte)");
+	$analysis .= "$short	BYTES	Aionian	bytes/chars	$result	NOTICE\n";
+	
 	// 
 	$analysis .= "\n\n=== 263 AIONIAN GLOSSARY VERSES =========================================================\n";
 	$missingbook1 = $missingbook2 = $butbookfound = $missingchapter = $missingverse = $gotverse = 0;
@@ -165,48 +201,20 @@ function AION_LOOP_ANALYSIS_DOIT($args) {
 		"";
 	// 
 	$analysis .= "\n\n=== DONE THANK YOU AND YOU ARE WELCOME ==================================================\n";
+
 		
-	// HEADER
-	$header  =
-		"# File Name: Holy-Bible---$bible---Analysis.txt\n" .
-		"# File Size: 000000000000\n" .
-		"# File Date: ".date('m/d/Y H:i:s')."\n" .
-		"# File Purpose: Supporting resource for the Aionian Bible project\n" .
-		"# File Location: https://resources.AionianBible.org\n" .
-		"# File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-".date('Y')."\n" .
-		"# File Generator: ABCMS (alpha)\n" .
-		"# File Accuracy: Contact publisher with corrections to file format or content\n" .
-		"# Publisher Name: Nainoia Inc\n" .
-		"# Publisher Contact: https://www.AionianBible.org/Publisher\n" .
-		"# Publisher Mission: https://www.AionianBible.org/Preface\n" .
-		"# Publisher Website: https://NAINOIA-INC.signedon.net\n" .
-		"# Publisher Facebook: https://www.Facebook.com/AionianBible\n" .
-		"# Bible Name: ".$args['database'][T_VERSIONS][$bible]['NAME']."\n" .
-		"# Bible Name English: ".$args['database'][T_VERSIONS][$bible]['NAMEENGLISH']."\n" .
-		"# Bible Language: ".$args['database'][T_VERSIONS][$bible]['LANGUAGE']."\n" .
-		"# Bible Language English: ".$args['database'][T_VERSIONS][$bible]['LANGUAGEENGLISH']."\n" .
-		"# Bible Copyright Format: ".$args['database'][T_VERSIONS][$bible]['ABCOPYRIGHT']."\n" .
-		"# Bible Copyright Text: ".$args['database'][T_VERSIONS][$bible]['COPYRIGHT']."\n" .
-		"# Bible Source: ".$args['database'][T_VERSIONS][$bible]['SOURCE']."\n" .
-		(filemtime($file_original)===FALSE ? '' : ("# Bible Source Version: ".date("n/j/Y", filemtime($file_original))."\n")) .
-		"# Bible Source Link: ".$args['database'][T_VERSIONS][$bible]['SOURCELINK']."\n" .
-		"# Bible Source Year: ".$args['database'][T_VERSIONS][$bible]['YEAR']."\n" .
-		(empty($args['database'][T_VERSIONS][$bible]['DESCRIPTION']) ? "" : ("# Bible Description: ".$args['database'][T_VERSIONS][$bible]['DESCRIPTION']."\n"));
-	$header = preg_replace("#\r\n#uis","\n",$header);
 	$analysis = preg_replace("#\r\n#uis","\n",$analysis);
-	$header = preg_replace("#\n#uis","\r\n",$header);
 	$analysis = preg_replace("#\n#uis","\r\n",$analysis);		
-	if (!($header=preg_replace("#000000000000#uis",sprintf("%-12s", strlen($header.$analysis)),$header))) {	AION_ECHO("ERROR! AION_FILE_DATA_PUT preg_replace($file_analysis)"); }
+	if (!($analysis=preg_replace("#000000000000#uis",sprintf("%-12s", strlen($analysis)),$analysis))) {	AION_ECHO("ERROR! AION_FILE_DATA_PUT preg_replace($file_analysis)"); }
 	
 	// ANALYSIS
-	if (!file_put_contents($file_analysis, $header.$analysis)) {											AION_ECHO("ERROR! AION_FILE_DATA_PUT file_put_contents($file_analysis)"); }
+	if (!file_put_contents($file_analysis, $analysis)) {												AION_ECHO("ERROR! AION_FILE_DATA_PUT file_put_contents($file_analysis)"); }
 
 	// DONE
 	AION_unset($database);
 	unset($database);
 	unset($data_original);
 	unset($data_aionian);
-	unset($header);
 	unset($analysis);
 	gc_collect_cycles();
 	AION_ECHO("ANALYSIS SUCCESS: $bible");

@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1159951     
-# File Date: 04/22/2022 09:42:37
+# File Size: 1159950     
+# File Date: 05/07/2022 18:07:22
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022
@@ -54,8 +54,9 @@ Holy-Bible---Bulgarian---Bulgarian-Bible	038	ZEC	010	011	Като премине
 Holy-Bible---Bulgarian---Bulgarian-Bible	044	ACT	002	010	
 Holy-Bible---Bulgarian---Bulgarian-Bible	044	ACT	002	020	
 Holy-Bible---Bulgarian---Bulgarian-Bible	044	ACT	002	030	
-Holy-Bible---Cebuano---Cebuano-Bible	040	MAT	018	011	-
-Holy-Bible---Cebuano---Cebuano-Bible	045	ROM	016	024	-
+Holy-Bible---Cebuano---Cebuano-Bible	040	MAT	017	021	.
+Holy-Bible---Cebuano---Cebuano-Bible	040	MAT	018	011	
+Holy-Bible---Cebuano---Cebuano-Bible	045	ROM	016	024	
 Holy-Bible---Cebuano---Cebuano-Bible	064	3JO	001	014	Apan nagdahom ako sa pagpakigkita kanimo sa dili madugay, ug mag-atubangay kita sa pag-istoryahanay sa usag-usa.
 Holy-Bible---Cebuano---Cebuano-Bible	066	REV	012	018	Unya ang dragon mitindog didto sa balas sa baybayon.
 Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	064	3JO	001	014	nang hoi angqum palang tih hmang, tiah oephaih ka tawnh, to naah mikhmai kang tongah lok aram tih hmang.
@@ -3427,7 +3428,6 @@ Holy-Bible---Ilocano---Ilocano-Bible	027	DAN	004	028	-
 Holy-Bible---Ilocano---Ilocano-Bible	040	MAT	017	021	
 Holy-Bible---Ilocano---Ilocano-Bible	040	MAT	018	011	
 Holy-Bible---Ilocano---Ilocano-Bible	040	MAT	023	014	
-Holy-Bible---Ilocano---Ilocano-Bible	041	MAR	007	016	
 Holy-Bible---Ilocano---Ilocano-Bible	041	MAR	009	044	
 Holy-Bible---Ilocano---Ilocano-Bible	041	MAR	009	046	
 Holy-Bible---Ilocano---Ilocano-Bible	041	MAR	011	026	

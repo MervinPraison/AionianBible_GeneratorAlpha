@@ -1,6 +1,6 @@
 # File Name: TALLY.txt
 # File Size: 13539       
-# File Date: 04/22/2022 09:42:37
+# File Date: 05/07/2022 18:07:22
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022
@@ -29,7 +29,7 @@ Holy-Bible---Bengali---Bengali-Bible	31094	31094	31097
 Holy-Bible---Breton---Breton-Gospels	3779	3779	3779
 Holy-Bible---Bulgarian---Bulgarian-Bible	31096	31096	31102
 Holy-Bible---Calo---Calo-Bible	1151	1151	1151
-Holy-Bible---Cebuano---Cebuano-Bible	31098	31098	31102
+Holy-Bible---Cebuano---Cebuano-Bible	31098	31098	31103
 Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	7246	7246	7246
 Holy-Bible---Cherokee---Cherokee-New-Testament	7957	7957	7957
 Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	31074	31074	31075
@@ -138,7 +138,7 @@ Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	23144	23144	23213
 Holy-Bible---Hebrew---Modern-Hebrew-Bible	31092	31092	31102
 Holy-Bible---Hindi---Hindi-Bible	31102	31102	31105
 Holy-Bible---Hungarian---Hungarian-Karoli	31102	31102	31173
-Holy-Bible---Ilocano---Ilocano-Bible	31076	31076	31103
+Holy-Bible---Ilocano---Ilocano-Bible	31076	31076	31102
 Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari	29687	29687	31102
 Holy-Bible---Isanzu---Isanzu-Bible	7950	7950	7955
 Holy-Bible---Italian---Conferenza-Episcopale-Italiana	31072	31072	31333
