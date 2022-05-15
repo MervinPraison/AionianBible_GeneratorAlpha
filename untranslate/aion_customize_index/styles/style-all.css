@@ -134,9 +134,9 @@ span.mar-mr { font-family: 'Marathi', 'NotoSans', 'Arial', 'sans-serif'; }
 	font-family:
 		'Myanmar';
 	src:
-		url('../fonts/notoserifmyanmar-semicondensed.woff2')	format('woff2'),
-		url('../fonts/notoserifmyanmar-semicondensed.woff')	format('woff'),
-		url('../fonts/notoserifmyanmar-semicondensed.ttf')		format('truetype');
+		url('../fonts/padauk-regular.woff2')	format('woff2'),
+		url('../fonts/padauk-regular.woff')	format('woff'),
+		url('../fonts/padauk-regular.ttf')		format('truetype');
 }
 span.mya-my { font-family: 'Myanmar', 'NotoSans', 'Arial', 'sans-serif'; }
 

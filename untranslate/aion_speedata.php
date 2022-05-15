@@ -39,12 +39,12 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|New-Arabic|Version-Simplified).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Spanish---Free-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Peshitta).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Arabic|Persian).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Arabic|Nepali).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Bulgarian|Cebuano|Gourmantche|Nepali|Uyghur-Bible-Arabic|Uyghur-Bible-Cyrillic|Uyghur-Bible-Pinyin).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic|Uyghur-Bible-Cyrillic|Uyghur-Bible-Pinyin).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Clementine|Vulgat).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Heart|Aionian-Bible|Spanish---Free|Slovene|Roman|English---World).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Hebrew).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Burmese-Common).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur|Gujarati|Korean).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(LXX|Khan).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/(Holy-Bible---Latvian---Latvian-Gluck-Bible|Holy-Bible---Japanese---Japanese-Yougo-yaku)---Aionian-Edition\.noia$/",
@@ -2816,10 +2816,14 @@ $loadfontfile = (
 // <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"notoserifmyanmar-semicondensedbold.ttf\" ><Fallback filename=\"liberationsansnarrow-bold.ttf\" /></LoadFontfile>
 // <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"notoserifmyanmar-semicondensed.ttf\" ><Fallback filename=\"liberationsansnarrow-italic.ttf\" /></LoadFontfile>
 // <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"notoserifmyanmar-semicondensedbold.ttf\" ><Fallback filename=\"liberationsansnarrow-bolditalic.ttf\" /></LoadFontfile>"
-"<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"notoserifmyanmar-semicondensed-plus.ttf\" />
- <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"notoserifmyanmar-semicondensedbold-plus.ttf\" />
- <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"notoserifmyanmar-semicondensed-plus.ttf\" />
- <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"notoserifmyanmar-semicondensedbold-plus.ttf\" />"
+//"<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"notoserifmyanmar-semicondensed-plus.ttf\" />
+// <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"notoserifmyanmar-semicondensedbold-plus.ttf\" />
+// <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"notoserifmyanmar-semicondensed-plus.ttf\" />
+// <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"notoserifmyanmar-semicondensedbold-plus.ttf\" />"
+"<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"padauk-regular.ttf\" />
+ <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"padauk-bold.ttf\" />
+ <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"padauk-regular.ttf\" />
+ <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"padauk-bold.ttf\" />"
 :
 // Oriya
 // Plus font instead of Fallback
