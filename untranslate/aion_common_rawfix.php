@@ -897,17 +897,6 @@ goto RAWHIDE;
 
 
 
-// RAWFIX BIBLE ********************
-case "Holy-Bible---Chin-Thado---Chongthu-Bible" :
-$blockfix = <<<EOF
-EZE 47:3 Mipa chun thiltena akichoijinvadung langa chun eipuijin feet 1750 jen atedoh in, chuti chunvadunga chun eipui galkaije. Atwichu ka ahkhomit chan athuh e.
-EZE 47:4 
-EOF;
-if (!($bfile = preg_replace("/EZE 47:3 (.+?)EZE 47:4 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-goto RAWHIDE;
-
-
-
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible" :
@@ -12723,7 +12712,7 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Slovene---Slovene-Savli-Bible" :
-if (!($bfile = preg_replace('/§/us',' ',$bfile,-1,$rnum)) || $rnum!=897) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%C2%A7/1
+if (!($bfile = preg_replace('/§/us',' ',$bfile,-1,$rnum)) || $rnum!=899) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%C2%A7/1
 if (!($bfile = preg_replace("/(\[א\]|\[ב\]|\[ג\]|\[ד\]|\[ה\]|\[ו\]|\[ז\]|\[ח\]|\[ט\]|\[י\]|\[כ\]|\[ל\]|\[מ\]|\[נ\]|\[ס\]|\[ע\]|\[פ\]|\[צ\]|\[ק\]|\[ר\]|\[ש\]|\[ת\])/us"," ",$bfile,-1,$rnum)) || $rnum!=22) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 goto RAWHIDE;
@@ -15330,11 +15319,6 @@ case "Holy-Bible---Vietnamese---Vietnamese-Bible" :
 if (!($bfile = preg_replace('/9-51 /ui'," ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace('/1: 15 /ui'," ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace('/20\-43 /ui'," ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$bigfix = <<<EOF
-DEU 34:12 hoặc hết thảy công việc lớn lao và đáng sợ mà Môi-se cậy tay quyền năng mình làm tại trước mặt cả Y-sơ-ra-ên.
-JOS 1:1 
-EOF;
-if (!($bfile = preg_replace("/DEU 34:12 (.+?)JOS 1:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bigfix = <<<EOF
 LUK 1:54 Ngài đã vùa giúp Y-sơ-ra-ên, tôi tớ Ngài, Và nhớ lại sự thương xót mình.
 LUK 1:55 Đối với Aùp-ra-ham cùng con cháu người luôn luôn, Như Ngài đã phán cùng tổ phụ chúng ta vậy.
