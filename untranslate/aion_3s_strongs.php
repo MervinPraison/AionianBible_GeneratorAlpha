@@ -2,6 +2,11 @@
 <?php
 require_once('./aion_common.php');
 
+// TODO NOTES
+// Uncomment the lines to allow copying the latest git hub report
+// Change "Field_of" to "place" in Greek Lexicons
+// Add Greek Strongs G5306 from copy of G5305
+
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // INIT
 //$strongs_json_flag = JSON_UNESCAPED_UNICODE;

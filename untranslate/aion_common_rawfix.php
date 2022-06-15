@@ -6945,7 +6945,6 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Hebrew---Modern-Hebrew-Bible" :
 if (!($bfile = preg_replace("/\][\d[:punct:]]+\[/us"," ",$bfile,-1,$rnum)) || $rnum!=20) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-if (!($bfile = preg_replace("/#THE UNBOUND(.*?)\n/us","\n",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 goto RAWHIDE;
 
@@ -14044,7 +14043,7 @@ $bigfix = <<<EOF
 EOF;
 if (!($bfile = preg_replace("/2JO 1:1(.+?)2JO 1:3 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bigfix = <<<EOF
-JUD 1:24 ‏ ئەمما سىلەرنى يولدا تېيىلىپ كېتىشتىن ساقلاپ، ئېچىلىپ-يېيىلىپ ئۆزىنىڭ شەرەپلىك ھۇزۇرىدا ئەيىبسىز تۇرغۇزۇشقا قادىر بولغۇچىغا، يەنى قۇتقۇزغۇچىمىز بىردىنبىر
+JUD 1:24 ئەمما سىلەرنى يولدا تېيىلىپ كېتىشتىن ساقلاپ، ئېچىلىپ-يېيىلىپ ئۆزىنىڭ شەرەپلىك ھۇزۇرىدا ئەيىبسىز تۇرغۇزۇشقا قادىر بولغۇچىغا، يەنى قۇتقۇزغۇچىمىز بىردىنبىر
 JUD 1:25 خۇداغا رەببىمىز ئەيسا مەسىھ ئارقىلىق شان-شەرەپ، ھەيۋەت-ئۇلۇغلۇق، قۇدرەت ۋە ھوقۇق ئەزەلدىن بۇرۇن، ھازىرمۇ تا بارلىق زامانلارغىچە بولغاي! ئامىن!
 REV 1:1 
 EOF;
