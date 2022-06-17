@@ -21,7 +21,7 @@ if ('Holy-Bible---English---Trans-Trans'==$bible) {
 	if (!($bfile = preg_replace("/\[([[:punct:]]+)\]/us",'$1 ', $bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 	if (!($bfile = preg_replace("/\[[ ]+/us",'[', $bfile,-1,$rnum)) || $rnum!=0) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 	if (!($bfile = preg_replace("/[^ [:punct:]◄]+\[/us",' [', $bfile,-1,$rnum)) || $rnum!=377) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-	if (!($bfile = preg_replace("/[ ]+\]/us",']', $bfile,-1,$rnum)) || $rnum!=343) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+	if (!($bfile = preg_replace("/[ ]+\]/us",']', $bfile,-1,$rnum)) || $rnum!=342) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 	if (!($bfile = preg_replace("/\][^ [:punct:]►\r\n]+/us",'] ', $bfile,-1,$rnum)) || $rnum!=83) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 	if (!($bfile = preg_replace("/</us",'(',$bfile,-1,$rnum)) || $rnum!=27) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 	if (!($bfile = preg_replace("/>/us",')',$bfile,-1,$rnum)) || $rnum!=27) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -6678,7 +6678,7 @@ EOF;
 if (!($bfile = preg_replace("/1CO 4:3 (.+?)1CO 4:5 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $blockfix = <<<EOF
 1JO 4:17 wan tie maama, ti moko tie yene ŋanduna nni, yene ke mi buama ŋani cain ti niinni, ke tin ya ti pia lipapaali li bujiali daali.
-1JO 4:18 jawaandi naa ye buama nni, ama ya buama n ŋani cain deli ki ñandi ti jawaandi kelima ti jawaandi n pia yua jie u cuonu yo. ti jawaandi n pia yua daa pia mi buama ke mi dagidi o niinni .
+1JO 4:18 jawaandi naa ye buama nni, ama ya buama n ŋani cain deli ki ñandi ti jawaandi kelima ti jawaandi n pia yua jie u cuonu yo. ti jawaandi n pia yua daa pia mi buama ke mi dagidi o niinni.
 1JO 4:19 
 EOF;
 if (!($bfile = preg_replace("/1JO 4:17 (.+?)1JO 4:19 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
