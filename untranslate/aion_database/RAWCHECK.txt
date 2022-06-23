@@ -1,6 +1,6 @@
 # File Name: RAWCHECK.txt
-# File Size: 3165826     
-# File Date: 06/17/2022 00:10:37
+# File Size: 3165825     
+# File Date: 06/21/2022 19:39:57
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022
@@ -3722,7 +3722,7 @@ Holy-Bible---Gourma---Gourma-Bible	043	JOH	009	027	ADD	O den guani ki yedi ba: N
 Holy-Bible---Gourma---Gourma-Bible	046	1CO	004	003	MODIFY	Mini yaapo, yi ya jia npo ti buudi, laa tie npo liba. Li bali danba mo ya ya jia nni ti buudi laa tie npo liba.	Mini yaapo, yi ya jia npo ti buudi, laa tie npo liba. Li bali danba mo ya ya jia nni ti buudi laa tie npo liba. Mini nba mo ki jia n yuli buudi. Npali siedi mo ki bu leni nni liba kuli po. Ama lani ka doagidi ki sa n po imoamoani. Yua n jia n buudi tie o Diedo.
 Holy-Bible---Gourma---Gourma-Bible	046	1CO	004	004	ADD	Mini nba mo ki jia n yuli buudi. Npali siedi mo ki bu leni nni liba kuli po. Ama lani ka doagidi ki sa n po imoamoani. Yua n jia n buudi tie o Diedo.	
 Holy-Bible---Gourma---Gourma-Bible	062	1JO	004	017	MODIFY	wan tie maama, ti moko tie yene ŋanduna nni, yene ke mi buama ŋani cain ti niinni, ke tin ya ti pia lipapaali li bujiali daali.	wan tie maama, ti moko tie yene ŋanduna nni, yene ke mi buama ŋani cain ti niinni, ke tin ya ti pia lipapaali li bujiali daali. jawaandi naa ye buama nni, ama ya buama n ŋani cain deli ki ñandi ti jawaandi kelima ti jawaandi n pia yua jie u cuonu yo. ti jawaandi n pia yua daa pia mi buama ke mi dagidi o niinni .
-Holy-Bible---Gourma---Gourma-Bible	062	1JO	004	018	ADD	jawaandi naa ye buama nni, ama ya buama n ŋani cain deli ki ñandi ti jawaandi kelima ti jawaandi n pia yua jie u cuonu yo. ti jawaandi n pia yua daa pia mi buama ke mi dagidi o niinni .	
+Holy-Bible---Gourma---Gourma-Bible	062	1JO	004	018	ADD	jawaandi naa ye buama nni, ama ya buama n ŋani cain deli ki ñandi ti jawaandi kelima ti jawaandi n pia yua jie u cuonu yo. ti jawaandi n pia yua daa pia mi buama ke mi dagidi o niinni.	
 Holy-Bible---Greek---Greek-Antoniades	045	ROM	014	023	MODIFY	ο δε διακρινομενος εαν φαγη κατακεκριται οτι ουκ εκ πιστεως παν δε ο ουκ εκ πιστεως αμαρτια εστιν	ο   δε   διακρινομενος   εαν   φαγη   κατακεκριται   οτι   ουκ   εκ   πιστεως   παν   δε   ο   ουκ   εκ   πιστεως   αμαρτια   εστιν     τω   δε   δυναμενω   υμας   στηριξαι   κατα   το   ευαγγελιον   μου   και   το   κηρυγμα   ιησου   χριστου   κατα   αποκαλυψιν   μυστηριου   χρονοις   αιωνιοις   σεσιγημενου     φανερωθεντος   δε   νυν   δια   τε   γραφων   προφητικων   κατ   επιταγην   του   αιωνιου   θεου   εις   υπακοην   πιστεως   εις   παντα   τα   εθνη   γνωρισθεντος     μονω   σοφω   θεω   δια   ιησου   χριστου   ω   η   δοξα   εις   τους   αιωνας   αμην
 Holy-Bible---Greek---Greek-Antoniades	045	ROM	014	024	ADD	τω δε δυναμενω υμας στηριξαι κατα το ευαγγελιον μου και το κηρυγμα ιησου χριστου κατα αποκαλυψιν μυστηριου χρονοις αιωνιοις σεσιγημενου	
 Holy-Bible---Greek---Greek-Antoniades	045	ROM	014	025	ADD	φανερωθεντος δε νυν δια τε γραφων προφητικων κατ επιταγην του αιωνιου θεου εις υπακοην πιστεως εις παντα τα εθνη γνωρισθεντος	

@@ -330,10 +330,10 @@ foreach( $bible_ALL as $bible => $version ) {
 		$buylinks  = ($version['AMAZON']=='NULL'		? '' : "<a href='https://www.amazon.com/dp/".$version['AMAZON']."'		target='_blank' title='$title'>Amazon</a>, ");
 		$buylinks .= ($version['AMAZONNT']=='NULL'		? '' : "<a href='https://www.amazon.com/dp/".$version['AMAZONNT']."'	target='_blank' title='$title'>Amazon NT</a>, ");
 		$buylinks .= ($bible!='English---Aionian-Bible'	? '' : "<a href='https://www.amazon.com/dp/B084DHWQXL'	target='_blank' title='$title'>Amazon 22 Special</a>, ");
-		$buylinks .= ($version['LULU']=='NULL'			? '' : "<a href='".(preg_match('/^http/i',$version['LULU'])		? "" : "https://www.lulu.com/content/").$version['LULU']."'		target='_blank' title='$title'>Lulu</a>, ");
-		$buylinks .= ($version['LULUHARD']=='NULL'		? '' : "<a href='".(preg_match('/^http/i',$version['LULUHARD']) ? "" : "https://www.lulu.com/content/").$version['LULUHARD']."'	target='_blank' title='$title'>Lulu Hardcover</a>, ");
-		$buylinks .= ($version['LULUNT']=='NULL'		? '' : "<a href='".(preg_match('/^http/i',$version['LULUNT'])	? "" : "https://www.lulu.com/content/").$version['LULUNT']."'	target='_blank' title='$title'>Lulu NT</a>, ");
-		$buylinks .= ($bible!='English---Aionian-Bible'	? '' : "<a href='https://www.lulu.com/content/26189474'	target='_blank' title='$title'>Lulu 22 Special</a>");
+		$buylinks .= ($version['LULU']=='NULL'			? '' : "<a href='".$version['LULU']		."' target='_blank' title='$title'>Lulu</a>, ");
+		$buylinks .= ($version['LULUHARD']=='NULL'		? '' : "<a href='".$version['LULUHARD']	."' target='_blank' title='$title'>Lulu Hardcover</a>, ");
+		$buylinks .= ($version['LULUNT']=='NULL'		? '' : "<a href='".$version['LULUNT']	."' target='_blank' title='$title'>Lulu NT</a>, ");
+		$buylinks .= ($bible!='English---Aionian-Bible'	? '' : "<a href='https://www.lulu.com/shop/-nainoia-inc/holy-bible-aionian-edition-aionian-bible-22-book-digest-special-edition/paperback/product-1qkg7e89.html'	target='_blank' title='$title'>Lulu 22 Special</a>");
 		$buylinks = trim($buylinks,', ');
 		if (!empty($buylinks)) { echo "<br /><span class='buylinks'>Buy at $buylinks</span>"; }
 		else { echo "<br /><span class='buylinks'>Print not available</span>"; }

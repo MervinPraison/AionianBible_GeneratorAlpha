@@ -74,7 +74,7 @@ function AION_LOOP_EPUBY($source, $destiny_unzip, $destiny_zip) {
 	AION_LOOP( array(
 		'function'		=> 'AION_LOOP_EPUBY_DOIT',
 		'source'		=> $source,
-		//'include'		=> "/Holy-Bible---.*(Albanian).*---Aionian-Edition\.noia$/",
+		//'include'		=> "/Holy-Bible---.*(Myanmar).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.*(Aionian-Bible|Peshitta|Korean).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.+(Basic).+---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.*(Azerb|Gaelic|Somali).*---Aionian-Edition\.noia$/",
