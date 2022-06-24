@@ -413,7 +413,7 @@ Holy-Bible---Marathi---Marathi-Bible				https://ebible.org/Scriptures/mar_vpl.zi
 Holy-Bible---Mwera---Mwera-Bible				https://eBible.org/sword/zip/mwe2019eb.zip	Holy-Bible---Mwera---Mwera-Bible---Source-Edition.SWORD.zip
 Holy-Bible---Mwera---Mwera-Bible				https://ebible.org/epub/mwe.epub	Holy-Bible---Mwera---Mwera-Bible---Source-Edition.epub
 Holy-Bible---Mwera---Mwera-Bible				https://ebible.org/pdf/mwe/mwe_prt.pdf	Holy-Bible---Mwera---Mwera-Bible---Source-Edition.pdf
-Holy-Bible---Mwera---Mwera-Bible				https://ebible.org/Scriptures/mwe_vpl.zip	Holy-Bible---Mwera---Mwera-Bible---Source-Edition.VPL.zip
+Holy-Bible---Mwera---Mwera-Bible				./aion_source/Holy-Bible---Mwera---Mwera-Bible---Source-Edition.VPL.zip	Holy-Bible---Mwera---Mwera-Bible---Source-Edition.VPL.zip
 Holy-Bible---Myanmar---Burmese-Common-Bible				https://eBible.org/sword/zip/mya2005eb.zip	Holy-Bible---Myanmar---Burmese-Common-Bible---Source-Edition.SWORD.zip
 Holy-Bible---Myanmar---Burmese-Common-Bible				https://ebible.org/epub/mya.epub	Holy-Bible---Myanmar---Burmese-Common-Bible---Source-Edition.epub
 Holy-Bible---Myanmar---Burmese-Common-Bible				https://ebible.org/pdf/mya/mya_prt.pdf	Holy-Bible---Myanmar---Burmese-Common-Bible---Source-Edition.pdf
