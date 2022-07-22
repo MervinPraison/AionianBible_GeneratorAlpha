@@ -1,6 +1,6 @@
 # File Name: RAWCHECK.txt
-# File Size: 3165825     
-# File Date: 07/06/2022 14:37:43
+# File Size: 3167674     
+# File Date: 07/22/2022 08:50:20
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022
@@ -464,6 +464,10 @@ Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	043	JOH	001	043	MODIFY	
 Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	043	JOH	001	044	ADD	taotao Betsaida, gui siudan Andres yan Pedro.	
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	064	3JO	001	014	MODIFY	Tedae nangmih te tlek hmuh ham ka ngaiuep. Te vaengah ka neh ka rhoi te n'thui bitni. Nang taengah ngaimongnah om seh. Paya rhoek loh nang toidal uh. Paya rhoek te a ming neh toidal lah.	Tedae nangmih te tlek hmuh ham ka ngaiuep. Te vaengah ka neh ka rhoi te n'thui bitni.
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	064	3JO	001	015	DELETE	Nang taengah ngaimongnah om seh. Paya rhoek loh nang toidal uh. Paya rhoek te a ming neh toidal lah.	
+Holy-Bible---Chin-Thado---Chongthu-Bible	001	GEN	026	018	MODIFY	Chuin Isaac in Apa Abraham thi jouva Palestine mipiten ana huhbing peh’u Twikhuh ho sese chu alai hong kit’in Apa Abraham in ana minsah Twikhuh min ho chu avel sah kit in asem hoisah kit tai. Isaac sohten Gerar phaicham chu Twikhuh alai uva ahile Twisam phung khat alai doh tauve.	Isaac sohten Gerar phaicham chu Twikhuh alai uva ahile Twisam phung khat alai doh tauve.
+Holy-Bible---Chin-Thado---Chongthu-Bible	002	EXO	023	025	MODIFY	Na boncha uva na Pakai Na Pathen nahou uva ama kin jeng na bol diu ahi.” Na boncha uva na Pakai na Pathen kin jeng a na kisah lel diu, amatah in na changlhah neh diu le na twi don ding jing ujong phat thei aboh ding, chu teng keiman na jalah uva konna phatthei nasa tah ka hin boh ding ahi, ati.”	Na boncha uva na Pakai na Pathen kin jeng a na kisah lel diu, amatah in na changlhah neh diu le na twi don ding jing ujong phat thei aboh ding, chu teng keiman na jalah uva konna phatthei nasa tah ka hin boh ding ahi, ati.”
+Holy-Bible---Chin-Thado---Chongthu-Bible	002	EXO	026	016	MODIFY	Kol khat’a naman chah ding chu tongsom hiding, akol khat ding chu avai tongkhat’a sao le tong keh hiding ahi. Akol khatna tongsom hiding, chule akol khat ding chu avai tong khat le tong keh hiding ahi.	Akol khatna tongsom hiding, chule akol khat ding chu avai tong khat le tong keh hiding ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	002	EXO	028	032	MODIFY	Hiche sangkhol chol a chu luchang hetlut nading ahomkhat na sem ding ahi. Hiche sangkhol chol achu luchang hetlut na ding ahom khat anei ding; Sangkhol dang bang’a angaija a ngong kol kimvelse chu pha tah’a ki pheh chah ding ahi.	Hiche sangkhol chol achu luchang hetlut na ding ahom khat anei ding; Sangkhol dang bang’a angaija a ngong kol kimvelse chu pha tah’a ki pheh chah ding ahi.
 Holy-Bible---Chinese---Chinese-Union-Version-Simplified	023	ISA	006	013	MODIFY	境内剩下的人若还有十分之一， 也必被吞灭， 像栗树、橡树虽被砍伐， 树墩子却仍存留。 这圣洁的种类在国中也是如此。	境内剩下的人若还有十分之一， 也必被吞灭， 像栗树、橡树虽被砍伐， 树ⶍ子却仍存留。 这圣洁的种类在国中也是如此。
 Holy-Bible---Chinese---Chinese-Union-Version-Simplified	023	ISA	044	019	MODIFY	谁心里也不醒悟，也没有知识，没有聪明，能说：“我曾拿一分在火中烧了，在炭火上烤过饼；我也烤过肉吃。这剩下的，我岂要作可憎的物吗？我岂可向木墩子叩拜呢？”	谁心里也不醒悟，也没有知识，没有聪明，能说：“我曾拿一分在火中烧了，在炭火上烤过饼；我也烤过肉吃。这剩下的，我岂要作可憎的物吗？我岂可向木ⶍ子叩拜呢？”
 Holy-Bible---Chinese---Chinese-Union-Version-Simplified	041	MAR	009	043	MODIFY	倘若你一只手叫你跌倒，就把它砍下来； 你缺了肢体进入永生，强如有两只手落到地狱，入那不灭的火里去。	倘若你一只手叫你跌倒，就把它砍下来；

@@ -1,6 +1,6 @@
 # File Name: TALLY.txt
 # File Size: 13539       
-# File Date: 07/06/2022 14:37:42
+# File Date: 07/22/2022 08:50:20
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022
@@ -36,7 +36,7 @@ Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	31074	31074	31075
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	31102	31102	31103
 Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible	11333	11333	11333
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	7957	7957	7959
-Holy-Bible---Chin-Thado---Chongthu-Bible	31048	31048	31056
+Holy-Bible---Chin-Thado---Chongthu-Bible	31047	31047	31052
 Holy-Bible---Chinese---Chinese-Union-Version-Simplified	31017	31017	31019
 Holy-Bible---Chinese---Chinese-Union-Version-Traditional	31017	31017	31019
 Holy-Bible---Coptic---Coptic-Boharic-NT	7950	7950	7957
