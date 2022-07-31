@@ -1,6 +1,6 @@
 # File Name: TALLY.txt
 # File Size: 13539       
-# File Date: 07/22/2022 08:50:20
+# File Date: 07/30/2022 22:23:37
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022
@@ -36,7 +36,7 @@ Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	31074	31074	31075
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	31102	31102	31103
 Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible	11333	11333	11333
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	7957	7957	7959
-Holy-Bible---Chin-Thado---Chongthu-Bible	31047	31047	31052
+Holy-Bible---Chin-Thado---Chongthu-Bible	31050	31050	31054
 Holy-Bible---Chinese---Chinese-Union-Version-Simplified	31017	31017	31019
 Holy-Bible---Chinese---Chinese-Union-Version-Traditional	31017	31017	31019
 Holy-Bible---Coptic---Coptic-Boharic-NT	7950	7950	7957
@@ -73,8 +73,8 @@ Holy-Bible---English---New-Heart-Messianic	31094	31094	31103
 Holy-Bible---English---New-Heart-Standard	31094	31094	31103
 Holy-Bible---English---New-Heart-YHWH	31094	31094	31103
 Holy-Bible---English---One-Unity-Resource-Bible	14299	14299	14299
-Holy-Bible---English---Open-English-Bible-Commonwealth	11358	11358	11379
-Holy-Bible---English---Open-English-Bible-US	11358	11358	11379
+Holy-Bible---English---Open-English-Bible-Commonwealth	11701	11701	11722
+Holy-Bible---English---Open-English-Bible-US	11701	11701	11722
 Holy-Bible---English---Revised-Version	31086	31086	31102
 Holy-Bible---English---Rotherham-Bible	31086	31086	31090
 Holy-Bible---English---STEPBible-Amalgamant	31102	31102	31102

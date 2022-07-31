@@ -909,29 +909,20 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Chin-Thado---Chongthu-Bible" :
 $blockfix = <<<EOF
-GEN 26:17 Hichun Isaac chu amaho komma kon in achen Gerar phaicham ah amaho ponbuh akison uvin hiche mun a chun aching tauve.
-GEN 26:18 Chuin Isaac in Apa Abraham thi jouva Palestine mipiten ana huhbing peh’u Twikhuh ho sese chu alai hong kit’in Apa Abraham in ana minsah Twikhuh min ho chu avel sah kit in asem hoisah kit tai. Isaac sohten Gerar phaicham chu Twikhuh alai uva ahile Twisam phung khat alai doh tauve.
-GEN 26:19 
+NUM 3:22 Pasal jouse kum khat a lhah chunglam aboncha uvin mi Sangsagi le janga alhing set uve.
+NUM 3:23 
 EOF;
-if (!($bfile = preg_replace("/GEN 26:17 (.+?)GEN 26:19 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/NUM 3:22 (.+?)NUM 3:23 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $blockfix = <<<EOF
-EXO 23:24 Chule mihem in asem thu milim doi pathen ho masang kitia naboh khup lou ding, hicheho ding’a jong chu na kisahlal louhel ding, anatoh bang bang uva jong ima natoh thei lou ding aboncha na phuhlhuh ding, a songkhom tincheng jong na lekhup jeng ding ahiye.
-EXO 23:25 Na boncha uva na Pakai Na Pathen nahou uva ama kin jeng na bol diu ahi.” Na boncha uva na Pakai na Pathen kin jeng a na kisah lel diu, amatah in na changlhah neh diu le na twi don ding jing ujong phat thei aboh ding, chu teng keiman na jalah uva konna phatthei nasa tah ka hin boh ding ahi, ati.”
-EXO 23:26 
+NUM 4:44 Chule amaho jouse chu atamdan aboncha uva mijat sang thum le jani ahiuve.
+NUM 4:45 
 EOF;
-if (!($bfile = preg_replace("/EXO 23:24 (.+?)EXO 23:26 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/NUM 4:44 (.+?)NUM 4:45 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $blockfix = <<<EOF
-EXO 26:15 Houbuh’a manchah thil ho chu nanagman thinggi thing jol namsella nasem cheh cheh ding ahi.
-EXO 26:16 Kol khat’a naman chah ding chu tongsom hiding, akol khat ding chu avai tongkhat’a sao le tong keh hiding ahi. Akol khatna tongsom hiding, chule akol khat ding chu avai tong khat le tong keh hiding ahi.
-EXO 26:17 
+NUM 4:48 Mijat chu sang get toh janga le som get ahi.
+NUM 4:49 
 EOF;
-if (!($bfile = preg_replace("/EXO 26:15 (.+?)EXO 26:17 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$blockfix = <<<EOF
-EXO 28:31 Thempu hon konggah a manchah cheng chu pondum jeng a nakhon peh ding ahi.
-EXO 28:32 Hiche sangkhol chol a chu luchang hetlut nading ahomkhat na sem ding ahi. Hiche sangkhol chol achu luchang hetlut na ding ahom khat anei ding; Sangkhol dang bang’a angaija a ngong kol kimvelse chu pha tah’a ki pheh chah ding ahi.
-EXO 28:33 
-EOF;
-if (!($bfile = preg_replace("/EXO 28:31 (.+?)EXO 28:33 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/NUM 4:48 (.+?)NUM 4:49 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -2683,7 +2674,7 @@ case "Holy-Bible---English---Open-English-Bible-Commonwealth" :
 case "Holy-Bible---English---Open-English-Bible-US" :
 $textfix = <<<EOF
 GAL 1:3 May God, our Father, and the Lord Jesus Christ, bless you and give you peace.
-GAL 1:4 For Christ, to rescue us from this present wicked age, gave himself for our sins, in accordance with the will of God and Father,
+GAL 1:4 For Christ, to rescue us from this present wicked age, gave himself for our sins, in accordance with the will of our God and Father,
 GAL 1:5 
 EOF;
 if (!($bfile = preg_replace("/GAL 1:3 (.+?)GAL 1:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
