@@ -1,6 +1,6 @@
 # File Name: RAWCHECK.txt
-# File Size: 3166583     
-# File Date: 07/31/2022 09:09:00
+# File Size: 3165841     
+# File Date: 08/07/2022 21:41:55
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022
@@ -464,12 +464,6 @@ Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	043	JOH	001	043	MODIFY	
 Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	043	JOH	001	044	ADD	taotao Betsaida, gui siudan Andres yan Pedro.	
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	064	3JO	001	014	MODIFY	Tedae nangmih te tlek hmuh ham ka ngaiuep. Te vaengah ka neh ka rhoi te n'thui bitni. Nang taengah ngaimongnah om seh. Paya rhoek loh nang toidal uh. Paya rhoek te a ming neh toidal lah.	Tedae nangmih te tlek hmuh ham ka ngaiuep. Te vaengah ka neh ka rhoi te n'thui bitni.
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	064	3JO	001	015	DELETE	Nang taengah ngaimongnah om seh. Paya rhoek loh nang toidal uh. Paya rhoek te a ming neh toidal lah.	
-Holy-Bible---Chin-Thado---Chongthu-Bible	004	NUM	003	022	MODIFY	Pasal jouse kum khat a lhah chunglam aboncha uvin mi Sangsagi le janga alhing set uve.	Pasal jouse kum khat a lhah chunglam aboncha uvin mi 7,
-Holy-Bible---Chin-Thado---Chongthu-Bible	004	NUM	003	500	DELETE	alhing set uve.	
-Holy-Bible---Chin-Thado---Chongthu-Bible	004	NUM	004	044	MODIFY	Chule amaho jouse chu atamdan aboncha uva mijat sang thum le jani ahiuve.	Chule amaho jouse chu atamdan aboncha uva mijat 3,
-Holy-Bible---Chin-Thado---Chongthu-Bible	004	NUM	004	048	MODIFY	Mijat chu sang get toh janga le som get ahi.	Mijat chu 8,
-Holy-Bible---Chin-Thado---Chongthu-Bible	004	NUM	004	200	DELETE	ahiuve.	
-Holy-Bible---Chin-Thado---Chongthu-Bible	004	NUM	004	580	DELETE	ahi.	
 Holy-Bible---Chinese---Chinese-Union-Version-Simplified	023	ISA	006	013	MODIFY	境内剩下的人若还有十分之一， 也必被吞灭， 像栗树、橡树虽被砍伐， 树墩子却仍存留。 这圣洁的种类在国中也是如此。	境内剩下的人若还有十分之一， 也必被吞灭， 像栗树、橡树虽被砍伐， 树ⶍ子却仍存留。 这圣洁的种类在国中也是如此。
 Holy-Bible---Chinese---Chinese-Union-Version-Simplified	023	ISA	044	019	MODIFY	谁心里也不醒悟，也没有知识，没有聪明，能说：“我曾拿一分在火中烧了，在炭火上烤过饼；我也烤过肉吃。这剩下的，我岂要作可憎的物吗？我岂可向木墩子叩拜呢？”	谁心里也不醒悟，也没有知识，没有聪明，能说：“我曾拿一分在火中烧了，在炭火上烤过饼；我也烤过肉吃。这剩下的，我岂要作可憎的物吗？我岂可向木ⶍ子叩拜呢？”
 Holy-Bible---Chinese---Chinese-Union-Version-Simplified	041	MAR	009	043	MODIFY	倘若你一只手叫你跌倒，就把它砍下来； 你缺了肢体进入永生，强如有两只手落到地狱，入那不灭的火里去。	倘若你一只手叫你跌倒，就把它砍下来；

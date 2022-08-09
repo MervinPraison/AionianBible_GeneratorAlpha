@@ -908,21 +908,6 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Chin-Thado---Chongthu-Bible" :
-$blockfix = <<<EOF
-NUM 3:22 Pasal jouse kum khat a lhah chunglam aboncha uvin mi Sangsagi le janga alhing set uve.
-NUM 3:23 
-EOF;
-if (!($bfile = preg_replace("/NUM 3:22 (.+?)NUM 3:23 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$blockfix = <<<EOF
-NUM 4:44 Chule amaho jouse chu atamdan aboncha uva mijat sang thum le jani ahiuve.
-NUM 4:45 
-EOF;
-if (!($bfile = preg_replace("/NUM 4:44 (.+?)NUM 4:45 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$blockfix = <<<EOF
-NUM 4:48 Mijat chu sang get toh janga le som get ahi.
-NUM 4:49 
-EOF;
-if (!($bfile = preg_replace("/NUM 4:48 (.+?)NUM 4:49 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
