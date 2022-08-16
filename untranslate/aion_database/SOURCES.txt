@@ -45,7 +45,7 @@ Holy-Bible---Breton---Breton-Gospels				https://ebible.org/epub/breBRG.epub	Holy
 Holy-Bible---Breton---Breton-Gospels				https://ebible.org/pdf/breBRG/breBRG_prt.pdf	Holy-Bible---Breton---Breton-Gospels---Source-Edition.pdf
 Holy-Bible---Breton---Breton-Gospels				https://ebible.org/Scriptures/breBRG_vpl.zip	Holy-Bible---Breton---Breton-Gospels---Source-Edition.VPL.zip
 Holy-Bible---Bulgarian---Bulgarian-Bible				https://bible4u.net/static/bible_files/pdf/BULG.pdf	Holy-Bible---Bulgarian---Bulgarian-Bible---Source-Edition.pdf
-Holy-Bible---Bulgarian---Bulgarian-Bible				https://bible4u.net/static/bible_files/txt/BULG_txt.tar.gz	Holy-Bible---Bulgarian---Bulgarian-Bible---Source-Edition.B4U.tar.gz
+Holy-Bible---Bulgarian---Bulgarian-Bible				https://bible4u.net/static/bible_files/txt/BULG_txt.zip	Holy-Bible---Bulgarian---Bulgarian-Bible---Source-Edition.B4U.zip
 Holy-Bible---Calo---Calo-Bible	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Calo.zip	Holy-Bible---Calo---Calo-Bible---Source-Edition.SWORD.zip
 Holy-Bible---Cebuano---Cebuano-Bible				https://eBible.org/sword/zip/cebulb2019eb.zip	Holy-Bible---Cebuano---Cebuano-Bible---Source-Edition.SWORD.zip
 Holy-Bible---Cebuano---Cebuano-Bible				https://ebible.org/epub/cebulb.epub	Holy-Bible---Cebuano---Cebuano-Bible---Source-Edition.epub
@@ -339,13 +339,13 @@ Holy-Bible---Ilocano---Ilocano-Bible				https://ebible.org/epub/iloulb.epub	Holy
 Holy-Bible---Ilocano---Ilocano-Bible				https://ebible.org/pdf/iloulb/iloulb_prt.pdf	Holy-Bible---Ilocano---Ilocano-Bible---Source-Edition.pdf
 Holy-Bible---Ilocano---Ilocano-Bible				https://ebible.org/Scriptures/iloulb_vpl.zip	Holy-Bible---Ilocano---Ilocano-Bible---Source-Edition.VPL.zip
 Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari				https://bible4u.net/static/bible_files/pdf/BIS.pdf	Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari---Source-Edition.pdf
-Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari				https://bible4u.net/static/bible_files/txt/BIS_txt.tar.gz	Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari---Source-Edition.B4U.tar.gz
+Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari				https://bible4u.net/static/bible_files/txt/BIS_txt.zip	Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari---Source-Edition.B4U.zip
 Holy-Bible---Isanzu---Isanzu-Bible				https://eBible.org/sword/zip/isn2020eb.zip	Holy-Bible---Isanzu---Isanzu-Bible---Source-Edition.SWORD.zip
 Holy-Bible---Isanzu---Isanzu-Bible				https://ebible.org/epub/isn.epub	Holy-Bible---Isanzu---Isanzu-Bible---Source-Edition.epub
 Holy-Bible---Isanzu---Isanzu-Bible				https://ebible.org/pdf/isn/isn_prt.pdf	Holy-Bible---Isanzu---Isanzu-Bible---Source-Edition.pdf
 Holy-Bible---Isanzu---Isanzu-Bible				https://ebible.org/Scriptures/isn_vpl.zip	Holy-Bible---Isanzu---Isanzu-Bible---Source-Edition.VPL.zip
 Holy-Bible---Italian---Conferenza-Episcopale-Italiana				https://bible4u.net/static/bible_files/pdf/CEI.pdf	Holy-Bible---Italian---Conferenza-Episcopale-Italiana---Source-Edition.pdf
-Holy-Bible---Italian---Conferenza-Episcopale-Italiana				https://bible4u.net/static/bible_files/txt/CEI_txt.tar.gz	Holy-Bible---Italian---Conferenza-Episcopale-Italiana---Source-Edition.B4U.tar.gz
+Holy-Bible---Italian---Conferenza-Episcopale-Italiana				https://bible4u.net/static/bible_files/txt/CEI_txt.zip	Holy-Bible---Italian---Conferenza-Episcopale-Italiana---Source-Edition.B4U.zip
 Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible				https://eBible.org/sword/zip/ita1885eb.zip	Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible---Source-Edition.SWORD.zip
 Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible				https://ebible.org/epub/ita1885.epub	Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible---Source-Edition.epub
 Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible				https://ebible.org/pdf/ita1885/ita1885_prt.pdf	Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible---Source-Edition.pdf
@@ -405,7 +405,7 @@ Holy-Bible---Malayalam---Malayalam-Bible				https://ebible.org/epub/mal.epub	Hol
 Holy-Bible---Malayalam---Malayalam-Bible				https://ebible.org/pdf/mal/mal_prt.pdf	Holy-Bible---Malayalam---Malayalam-Bible---Source-Edition.pdf
 Holy-Bible---Malayalam---Malayalam-Bible				https://ebible.org/Scriptures/mal_vpl.zip	Holy-Bible---Malayalam---Malayalam-Bible---Source-Edition.VPL.zip
 Holy-Bible---Maori---Maori-Bible				https://bible4u.net/static/bible_files/pdf/MAORI.pdf	Holy-Bible---Maori---Maori-Bible---Source-Edition.pdf
-Holy-Bible---Maori---Maori-Bible				https://bible4u.net/static/bible_files/txt/MAORI_txt.tar.gz	Holy-Bible---Maori---Maori-Bible---Source-Edition.B4U.tar.gz
+Holy-Bible---Maori---Maori-Bible				https://bible4u.net/static/bible_files/txt/MAORI_txt.zip	Holy-Bible---Maori---Maori-Bible---Source-Edition.B4U.zip
 Holy-Bible---Marathi---Marathi-Bible				https://ebible.org/sword/zip/mar2017eb.zip	Holy-Bible---Marathi---Marathi-Bible---Source-Edition.SWORD.zip
 Holy-Bible---Marathi---Marathi-Bible				https://ebible.org/epub/mar.epub	Holy-Bible---Marathi---Marathi-Bible---Source-Edition.epub
 Holy-Bible---Marathi---Marathi-Bible				https://ebible.org/pdf/mar/mar_prt.pdf	Holy-Bible---Marathi---Marathi-Bible---Source-Edition.pdf

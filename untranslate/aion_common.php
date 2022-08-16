@@ -495,7 +495,7 @@ function AION_LOOP_UNPACK($folder) {
 		'function'	=> 'AION_LOOP_UNPACK_DOIT',
 		'source'	=> $folder,
 		'destiny'	=> $folder,
-		'include'	=> '/---Source-Edition(\.STEP\.txt|\.NHEB\.txt|\.VPL\.zip|\.UNBOUND\.zip|\.B4U\.tar\.gz)/',
+		'include'	=> '/---Source-Edition(\.STEP\.txt|\.NHEB\.txt|\.VPL\.zip|\.UNBOUND\.zip|\.B4U\.zip)/',
 		'exclude'	=> '',
 		'database'	=> $database,
 		) );
@@ -505,7 +505,6 @@ function AION_LOOP_UNPACK_DOIT($args) {
 	$zipname = $args['filename'];
 	$zipfile = $args['filepath'];
 	$txtfile = str_replace('.zip','.txt',$args['filepath']);
-	$txtfile = str_replace('.tar.gz','.txt',$txtfile);
 	$temp = "./tmp.unpack";
 	if (!preg_match("/\/(Holy-Bible---.*)---Source-Edition/", $args['filepath'], $matches)) {	AION_ECHO("ERROR! Failed to preg_match(Holy-Bible): ".$args['filepath']); }
 	$bible = $matches[1];
@@ -526,9 +525,9 @@ function AION_LOOP_UNPACK_DOIT($args) {
 	if (file_exists($txtfile) && $source_date == filemtime($txtfile)) { return; }
 
 	/* unpack */
-	if (preg_match("/\.B4U\.tar\.gz$/", $zipfile)) {
+	if (preg_match("/\.B4U\.zip$/", $zipfile)) {
 		if (!mkdir($temp)) { AION_ECHO("ERROR! !mkdir: $temp"); }
-		system("tar -xf $zipfile -C $temp");
+		system("unzip $zipfile -d $temp");
 		$type = 'B4U';
 	}
 	else {
