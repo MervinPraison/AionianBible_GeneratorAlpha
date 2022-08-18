@@ -908,6 +908,16 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Chin-Thado---Chongthu-Bible" :
+$blockfix = <<<EOF
+PSA 100:1 Leiset pumpin Pakai a kipana samphong’un,
+PSA 100:2 
+EOF;
+if (!($bfile = preg_replace("/PSA 100:1 (.+?)PSA 100:2 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+PSA 123:1 Van a alaltouna a tou o Pathen nangma munomna in kadah’in kahinvei.
+PSA 123:2 
+EOF;
+if (!($bfile = preg_replace("/PSA 123:1 (.+?)PSA 123:2 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
