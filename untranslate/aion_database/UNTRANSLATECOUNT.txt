@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
 # File Size: 22098       
-# File Date: 08/17/2022 20:36:55
+# File Date: 08/25/2022 19:50:03
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022
@@ -144,7 +144,7 @@ Holy-Bible---Isanzu---Isanzu-Bible	0	0	0	12	11	9	1	5	94	64	10	2	0	1	0	208	201	20
 Holy-Bible---Italian---Conferenza-Episcopale-Italiana	3	0	63	12	11	9	1	5	94	64	10	2	0	0	0	271	263	263	0	0	0	0
 Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible	29	0	63	12	11	9	1	5	94	64	10	2	0	0	0	271	263	263	0	0	0	0
 Holy-Bible---Italian---Italian-Riveduta-Bible	0	0	63	12	11	9	1	5	94	64	10	2	0	0	0	271	263	263	0	0	0	0
-Holy-Bible---Japanese---Japanese-Bungo-yaku	0	0	0	12	11	9	1	5	94	64	10	2	0	0	0	208	200	200	0	63	0	0
+Holy-Bible---Japanese---Japanese-Bungo-yaku	0	0	63	12	11	9	1	5	94	64	10	2	0	0	0	271	263	263	0	0	0	0
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	0	0	0	12	6	1	1	0	50	42	10	1	0	1	0	123	119	118	0	145	0	1
 Holy-Bible---Japanese---Japanese-Kougo-yaku	0	3	63	12	11	9	1	5	94	64	10	2	0	0	3	271	263	263	0	0	0	0
 Holy-Bible---Japanese---Japanese-Meiji-yaku	0	0	51	0	0	0	0	0	0	0	0	0	0	0	0	51	51	51	0	212	0	0

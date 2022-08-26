@@ -889,10 +889,20 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Chin-Matu---Matupi-Chin-Bible" :
-if (!($bfile = preg_replace("/\x{200d}/us"," ",$bfile,-1,$rnum)) || $rnum!=4) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#0x200d/1
-if (!($bfile = preg_replace("#(א|ב|ג|ד|ה|ו|ז|ח|ט|י|כ|ל|מ|נ|ס|ע|פ|צ|ק|ר|ש|ת|/ שׁ|ׂ)#us"," ",$bfile,-1,$rnum)) || $rnum!=24) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/\x{200d}/us"," ",$bfile,-1,$rnum)) || $rnum!=10) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#0x200d/1
+//if (!($bfile = preg_replace("#(א|ב|ג|ד|ה|ו|ז|ח|ט|י|כ|ל|מ|נ|ס|ע|פ|צ|ק|ר|ש|ת|/ שׁ|ׂ)#us"," ",$bfile,-1,$rnum)) || $rnum!=24) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 if (!($bfile = preg_replace("/[\r\n]+3JO 1:15 /us"," ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+1SA 2:19 A kum kum kah a tue a pha vaengah tah Hannah khaw hmueih nawn ham a va neh w cet rhoi. Te vaengah a manu loh Samuel ham hnikul ca a saii tih a khuen pah.
+1SA 2:20 
+EOF;
+if (!($bfile = preg_replace("/1SA 2:19 (.+?)1SA 2:20 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+ACT 22:13 Ka taengla halo vaengah ka taengah pai tih, ‘Ka manuca Saul , kho hmu laeh,’ n'ti nah. Amah te tue vaengah anih taengla ka oeloe”.
+ACT 22:14 
+EOF;
+if (!($bfile = preg_replace("/ACT 22:13 (.+?)ACT 22:14 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -3011,10 +3021,10 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
-case "Holy-Bible---English---Webster-Bible-Revised" :
-if (!($bfile = preg_replace("/\{[^{}\n]*\}/us"," ",$bfile,-1,$rnum)) || $rnum!=7864) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$bfile_saved = $bfile;
-goto RAWHIDE;
+//case "Holy-Bible---English---Webster-Bible-Revised" :
+//if (!($bfile = preg_replace("/\{[^{}\n]*\}/us"," ",$bfile,-1,$rnum)) || $rnum!=7864) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+//$bfile_saved = $bfile;
+//goto RAWHIDE;
 
 
 
@@ -7502,15 +7512,15 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
-case "Holy-Bible---Japanese---Japanese-Bungo-yaku" :
-if (!($bfile = preg_replace("/&#x[A-Za-z0-9]{1,4};[ ]*/us",'',$bfile,-1,$rnum)) || $rnum!=98) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$bfile_saved = $bfile;
-$textfix = <<<EOF
-Luke 2:4 ヨセフもダビデの家系また血統なれば、既に孕める許嫁の妻マリヤとともに、戸籍に著かんとて、ガリラヤの町ナザレを出でてユダヤに上り、ダビデの町ベツレヘムといふ處に到りぬ。
-Luke 2:6 
-EOF;
-if (!($bfile = preg_replace("/Luke 2:5 (.+?)Luke 2:6 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-goto RAWHIDE;
+//case "Holy-Bible---Japanese---Japanese-Bungo-yaku" :
+//if (!($bfile = preg_replace("/&#x[A-Za-z0-9]{1,4};[ ]*/us",'',$bfile,-1,$rnum)) || $rnum!=98) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+//$bfile_saved = $bfile;
+//$textfix = <<<EOF
+//Luke 2:4 ヨセフもダビデの家系また血統なれば、既に孕める許嫁の妻マリヤとともに、戸籍に著かんとて、ガリラヤの町ナザレを出でてユダヤに上り、ダビデの町ベツレヘムといふ處に到りぬ。
+//Luke 2:6 
+//EOF;
+//if (!($bfile = preg_replace("/Luke 2:5 (.+?)Luke 2:6 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+//goto RAWHIDE;
 
 
 

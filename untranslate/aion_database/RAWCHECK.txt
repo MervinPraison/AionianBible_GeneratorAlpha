@@ -1,6 +1,6 @@
 # File Name: RAWCHECK.txt
-# File Size: 3166201     
-# File Date: 08/17/2022 19:25:40
+# File Size: 3166396     
+# File Date: 08/25/2022 18:40:03
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022
@@ -462,6 +462,8 @@ Holy-Bible---Cebuano---Cebuano-Bible	045	ROM	016	023	MODIFY	Si Gaius, ang nag-at
 Holy-Bible---Cebuano---Cebuano-Bible	045	ROM	016	024	MODIFY		Si Gaius, ang nag-atiman alang kanako ug sa tibuok simbahan, nangumusta kaninyo. Si Erastus, ang nagatipig ug salapi sa siyudad, nangumusta kaninyo, uban kang Quartus ang igsoong lalaki.
 Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	043	JOH	001	043	MODIFY	Y siguiente na jaane, malago si Jesus malag Galilea, ya jasoda si Felipe,	Y siguiente na jaane, malago si Jesus malag Galilea, ya jasoda si Felipe, taotao Betsaida, gui siudan Andres yan Pedro.
 Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	043	JOH	001	044	ADD	taotao Betsaida, gui siudan Andres yan Pedro.	
+Holy-Bible---Chin-Matu---Matupi-Chin-Bible	009	1SA	002	019	MODIFY	A kum kum kah a tue a pha vaengah tah Hannah khaw hmueih nawn ham a va neh w cet rhoi. Te vaengah a manu loh Samuel ham hnikul ca a saii tih a khuen pah.	A kum kum kah a tue a pha vaengah tah Hannah khaw hmueih nawn ham a va neh w cetstrong="H5927" rhoi. Te vaengah a manu loh Samuel ham hnikul ca a saii tih a khuen pah.
+Holy-Bible---Chin-Matu---Matupi-Chin-Bible	044	ACT	022	013	MODIFY	Ka taengla halo vaengah ka taengah pai tih, ‘Ka manuca Saul , kho hmu laeh,’ n'ti nah. Amah te tue vaengah anih taengla ka oeloe”.	Ka taengla halo vaengah ka taengah pai tih, ‘Ka manuca Saul , kho hmu laeh,’ n'ti nah. Amah te tue vaengah anih taengla ka oeloe(308” .
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	064	3JO	001	014	MODIFY	Tedae nangmih te tlek hmuh ham ka ngaiuep. Te vaengah ka neh ka rhoi te n'thui bitni. Nang taengah ngaimongnah om seh. Paya rhoek loh nang toidal uh. Paya rhoek te a ming neh toidal lah.	Tedae nangmih te tlek hmuh ham ka ngaiuep. Te vaengah ka neh ka rhoi te n'thui bitni.
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	064	3JO	001	015	DELETE	Nang taengah ngaimongnah om seh. Paya rhoek loh nang toidal uh. Paya rhoek te a ming neh toidal lah.	
 Holy-Bible---Chin-Thado---Chongthu-Bible	019	PSA	100	001	MODIFY	Leiset pumpin Pakai a kipana samphong’un,	0 Leiset pumpin Pakai a kipana samphong’un,
@@ -5811,8 +5813,6 @@ Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible	066	REV	007	017	ADD	percio
 Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible	066	REV	020	007	MODIFY	E QUANDO que' mille anni saranno compiuti, Satana sarà sciolto dalla sua prigione,	E QUANDO que' mille anni saranno compiuti, Satana sarà sciolto dalla sua prigione, ed uscirà per sedurre le genti, che [sono] a' quattro canti della terra, Gog e Magog, per radunarle in battaglia; il numero delle quali [è] come la rena del mare.
 Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible	066	REV	020	008	MODIFY	ed uscirà per sedurre le genti, che [sono] a' quattro canti della terra, Gog e Magog, per radunarle in battaglia; il numero delle quali [è] come la rena del mare.	E saliranno in su la distesa della terra, e intornieranno il campo de' santi, e la diletta città.
 Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible	066	REV	020	009	MODIFY	E saliranno in su la distesa della terra, e intornieranno il campo de' santi, e la diletta città.  Ma dal cielo scenderà del fuoco, [mandato] da Dio, e le divorerà.	Ma dal cielo scenderà del fuoco, [mandato] da Dio, e le divorerà.
-Holy-Bible---Japanese---Japanese-Bungo-yaku	042	LUK	002	004	ADD	ヨセフもダビデの家系また血統なれば、既に孕める許嫁の妻マリヤとともに、戸籍に著かんとて、ガリラヤの町ナザレを出でてユダヤに上り、ダビデの町ベツレヘムといふ處に到りぬ。	
-Holy-Bible---Japanese---Japanese-Bungo-yaku	042	LUK	002	005	DELETE	ヨセフもダビデの家系また血統なれば、既に孕める許嫁の妻マリヤとともに、戸籍に著かんとて、ガリラヤの町ナザレを出でてユダヤに上り、ダビデの町ベツレヘムといふ處に到りぬ。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	019	PSA	130	001	ADD	京まうでの歌 ああヱホバよわれふかき淵より汝をよべり	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	019	PSA	130	002	ADD	主よねがはくはわが聲をきい汝のみみをわが懇求のこゑにかたぶけたまヘ	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	019	PSA	130	003	ADD	ヤハよ主よなんぢ若もろもろの不義ふぎに目をとめたまはば誰たれかよく立たつことをえんや	
@@ -5998,11 +5998,11 @@ Holy-Bible---Japanese---Japanese-Kougo-yaku	020	PRO	031	028	ADD	その衆子は�
 Holy-Bible---Japanese---Japanese-Kougo-yaku	020	PRO	031	029	ADD	賢く事をなす女子は多けれども 汝はすべての女子に愈れり	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	020	PRO	031	030	ADD	艶麗はいつはりなり 美色は呼吸のごとし 惟ヱホバを畏るる女は誉られん	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	020	PRO	031	031	ADD	その手の操作の果をこれにあたへ その行爲によりてこれを邑の門にほめよ	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	001	ADD	このとき天國は、燈火を執りて新郎を迎へに出づる、十人の處女に比ふべし。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	002	ADD	その中の五人は愚にして五人は慧し。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	001	ADD	このとき天國は、燈火を執りて新郎を迎へに出づる、十 人の處女に比ふべし。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	002	ADD	その中の五 人は愚にして五 人は慧し。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	003	ADD	愚なる者は燈火をとりて油を携へず、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	004	ADD	慧きものは油を器に入れて燈火とともに携へたり。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	005	ADD	新郎遲かりしかば、皆まどろみて寢ぬ。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	005	ADD	新郎 遲かりしかば、皆まどろみて寢ぬ。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	006	ADD	夜半に「やよ、新郎なるぞ、出で迎へよ」と呼はる聲す。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	007	ADD	ここに處女みな起きてその燈火を整へたるに、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	008	ADD	愚なる者は慧きものに言ふ「なんぢらの油を分けあたへよ、我らの燈火きゆるなり」	
@@ -6011,8 +6011,8 @@ Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	010	ADD	彼ら買はん�
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	011	ADD	その後かの他の處女ども來りて「主よ、主よ、われらの爲にひらき給へ」と言ひしに、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	012	ADD	答へて「まことに汝らに告ぐ、我は汝らを知らず」と言へり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	013	ADD	されば目を覺しをれ、汝らは其の日その時を知らざるなり。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	014	ADD	また或人とほく旅立せんとして、其の僕どもを呼び、之に己が所有を預くるが如し。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	015	ADD	各人の能力に應じて、或者には五タラント、或者には二タラント、或者には一タラントを與へ置きて旅立せり。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	014	ADD	また或 人とほく旅立せんとして、其の僕どもを呼び、之に己が所有を預くるが如し。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	015	ADD	各人の能力に應じて、或 者には五タラント、或 者には二タラント、或 者には一タラントを與へ置きて旅立せり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	016	ADD	五タラントを受けし者は、直ちに往き、之をはたらかせて他に五タラントを贏け、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	017	ADD	二タラントを受けし者も同じく他に二タラントを贏く。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	018	ADD	然るに一タラントを受けし者は、往きて地を掘り、その主人の銀をかくし置けり。	
@@ -6021,49 +6021,49 @@ Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	020	ADD	五タラント�
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	021	ADD	主人いふ「宜いかな、善かつ忠なる僕、なんぢは僅なる物に忠なりき。我なんぢに多くの物を掌どらせん、汝の主人の勸喜に入れ」	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	022	ADD	二タラントを受けし者も來りて言ふ「主よ、なんぢ我に二タラントを預けたりしが、視よ、他に二タラントを贏けたり」	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	023	ADD	主人いふ「宜いかな、善かつ忠なる僕、なんぢは僅なる物に忠なりき。我なんぢに多くの物を掌どらせん、汝の主人の勸喜にいれ」	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	024	ADD	また一タラントを受けし者もきたりて言ふ「主よ、我はなんぢの嚴しき人にて、播かぬ處より刈り、散らさぬ處よりむることを知るゆゑに、	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	024	ADD	また一タラントを受けし者もきたりて言ふ「主よ、我はなんぢの嚴しき人にて、播かぬ處より刈り、散らさぬ處より斂むることを知るゆゑに、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	025	ADD	懼れてゆき、汝のタラントを地に藏しおけり。視よ、汝はなんぢの物を得たり」	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	026	ADD	主人こたへて言ふ「惡しくかつ惰れる僕、わが播かぬ處より刈り、散さぬ處よりむることを知るか。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	026	ADD	主人こたへて言ふ「惡しくかつ惰れる僕、わが播かぬ處より刈り、散さぬ處より斂むることを知るか。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	027	ADD	さらば我が銀を銀行にあづけ置くべかりしなり、我きたりて利子とともに我が物をうけ取りしものを。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	028	ADD	されば彼のタラントを取りて十タラントを有てる人に與へよ。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	029	ADD	すべて有てる人は、與へられて愈々豐ならん。されど有たぬ者は、その有てる物をも取らるべし。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	030	ADD	而して此の無益なる僕を外の暗黒に逐ひいだせ、其處にて哀哭・切齒することあらん」	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	029	ADD	すべて有てる人は、與へられて愈々 豐ならん。されど有たぬ者は、その有てる物をも取らるべし。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	030	ADD	而して此の無 益なる僕を外の暗黒に逐ひいだせ、其處にて哀哭・切齒することあらん」	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	031	ADD	人の子その榮光をもて、もろもろの御使を率ゐきたる時、その榮光の座位に坐せん。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	032	ADD	かくてその前にもろもろの國人あつめられん、之を別つこと牧羊者が羊と山羊とを別つ如くして、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	033	ADD	羊をその右に、山羊をその左におかん。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	034	ADD	ここに王その右にをる者どもに言はん「わが父に祝せられたる者よ、來りて世の創より汝等のために備へられたる國を嗣げ。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	034	ADD	ここに王その右にをる者どもに言はん「わが父に祝せられたる者よ、來りて世の創より汝 等のために備へられたる國を嗣げ。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	035	ADD	なんぢら我が飢ゑしときに食はせ、渇きしときに飮ませ、旅人なりし時に宿らせ、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	036	ADD	裸なりしときに衣せ、病みしときに訪ひ、獄に在りしときに來りたればなり」	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	037	ADD	ここに、正しき者ら答へて言はん「主よ、何時なんぢの飢ゑしを見て食はせ、渇きしを見て飮ませし。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	038	ADD	何時なんぢの旅人なりしを見て宿らせ、裸なりしを見て衣せし。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	039	ADD	何時なんぢの病みまた獄に在りしを見て、汝にいたりし」	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	040	ADD	王こたへて言はん「まことに汝らに告ぐ、わが兄弟なる此等のいと小き者の一人になしたるは、即ち我に爲したるなり」	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	040	ADD	王こたへて言はん「まことに汝らに告ぐ、わが兄弟なる此 等のいと小き者の一人になしたるは、即ち我に爲したるなり」	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	041	ADD	かくてまた左にをる者どもに言はん「詛はれたる者よ、我を離れて惡魔とその使らとのために備へられたる永遠の火に入れ。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	042	ADD	なんぢら我が飢ゑしときに食はせず、渇きしときに飮ませず、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	043	ADD	旅人なりしときに宿らせず、裸なりしときに衣せず、病みまた獄にありしときに訪はざればなり」	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	044	ADD	ここに彼らも答へて言はん「主よ、いつ汝の飢ゑ、或は渇き、或は旅人、あるひは裸、あるひは病み、或は獄に在りしを見て事へざりし」	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	045	ADD	ここに王こたへて言はん「誠になんぢらに告ぐ、此等のいと小きものの一人に爲さざりしは、即ち我になさざりしなり」と。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	045	ADD	ここに王こたへて言はん「誠になんぢらに告ぐ、此 等のいと小きものの一人に爲さざりしは、即ち我になさざりしなり」と。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	025	046	ADD	かくて、これらの者は去りて永遠の刑罰にいり、正しき者は永遠の生命に入らん』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	001	ADD	イエスこれらの言をみな語りをへて、弟子たちに言ひ給ふ	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	002	ADD	『なんぢらの知るごとく、二日の後は過越の祭なり、人の子は十字架につけられん爲に賣らるベし』	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	003	ADD	そのとき祭司長・民の長老ら、カヤパといふ大祭司の中庭に集り、	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	004	ADD	詭計をもてイエスを捕へ、かつ殺さんと相議りたれど、	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	005	ADD	又いふ『まつりの間は爲すべからず、恐らくは民の中に亂起らん』	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	002	ADD	『なんぢらの知るごとく、二日の後は過越の祭なり、人の子は十字架につけられん爲に賣らるべし』	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	003	ADD	そのとき祭司長・民の長老ら、カヤパといふ大 祭司の中庭に集り、	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	004	ADD	詭計をもてイエスを捕へ、かつ殺さんと相 議りたれど、	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	005	ADD	又いふ『まつりの間は爲すべからず、恐らくは民の中に亂 起らん』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	006	ADD	イエス、ベタニヤにて癩病人シモンの家に居給ふ時、	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	007	ADD	ある女、石膏の壺に入りたる貴き香油を持ちて、近づき來り、食事の席に就き居給ふイエスの首に注げり。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	008	ADD	弟子たち之を見て憤ほり言ふ『何故かく濫なる費をなすか。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	007	ADD	ある女、石膏の壺に入りたる貴き香 油を持ちて、近づき來り、食事の席に就き居給ふイエスの首に注げり。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	008	ADD	弟子たち之を見て憤ほり言ふ『何 故かく濫なる費をなすか。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	009	ADD	之を多くの金に賣りて、貧しき者に施すことを得たりしものを』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	010	ADD	イエス之を知りて言ひたまふ『何ぞこの女を惱すか、我に善き事をなせるなり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	011	ADD	貧しき者は常に汝らと偕にをれど、我は常に偕に居らず。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	012	ADD	この女の我が體に香油を注ぎしは、わが葬りの備をなせるなり。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	013	ADD	まことに汝らに告ぐ、全世界いずこにても、この福音の宣傅へらるる處には、この女のなしし事も記念として語らるベし』	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	014	ADD	ここに十二弟子の一人イスカリオテのユダといふ者、祭司長らの許にゆきて言ふ	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	015	ADD	『なんぢらに彼を付さば、何ほど我に與へんとするか』彼ら銀三十を量り出せり。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	012	ADD	この女の我が體に香 油を注ぎしは、わが葬りの備をなせるなり。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	013	ADD	まことに汝らに告ぐ、全世界いずこにても、この福音の宣傅へらるる處には、この女のなしし事も記念として語らるべし』	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	014	ADD	ここに十二 弟子の一人イスカリオテのユダといふ者、祭司長らの許にゆきて言ふ	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	015	ADD	『なんぢらに彼を付さば、何ほど我に與へんとするか』彼ら銀 三十を量り出せり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	016	ADD	ユダこの時よりイエスを付さんと好き機を窺ふ。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	017	ADD	除酵祭の初の日、弟子たちイエスに來りて言ふ『過越の食をなし給ふために、何處に我らが備ふる事を望み給ふか』	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	018	ADD	イエス言ひたまふ『都にゆき、某のもとに到りて「師いふ、わが時近づけり。われ弟子たちと共に過越を汝の家にて守らん」と言へ』	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	018	ADD	イエス言ひたまふ『都にゆき、某のもとに到りて「師いふ、わが時 近づけり。われ弟子たちと共に過越を汝の家にて守らん」と言へ』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	019	ADD	弟子たちイエスの命じ給ひし如くして、過越の備をなせり。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	020	ADD	日暮れて十二弟子とともに席に就きて、	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	020	ADD	日 暮れて十二 弟子とともに席に就きて、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	021	ADD	食するとき言ひ給ふ『まことに汝らに告ぐ、汝らの中の一人われを賣らん』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	022	ADD	弟子たち甚く憂ひて、おのおの『主よ、我なるか』と言ひいでしに、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	023	ADD	答へて言ひたまふ『我とともに手を鉢に入るる者われを賣らん。	
@@ -6074,66 +6074,66 @@ Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	027	ADD	また酒杯を�
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	028	ADD	これは契約のわが血なり、多くの人のために、罪の赦を得させんとて流す所のものなり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	029	ADD	われ汝らに告ぐ、わが父の國にて新しきものを汝らと共に飮む日までは、われ今より後この葡萄の果より成るものを飮まじ』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	030	ADD	彼ら讃美を歌ひて後オリブ山に出でゆく。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	031	ADD	ここにイエス弟子たちに言ひ給ふ『今宵なんぢら皆われに就きて躓かん「われ牧羊者を打たん、さらば群の羊散るべし」と録されたるなり。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	032	ADD	されど我よみがへりて後、なんぢらに先立ちてガリラヤに往かん』	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	031	ADD	ここにイエス弟子たちに言ひ給ふ『今宵なんぢら皆われに就きて躓かん「われ牧羊者を打たん、さらば群の羊 散るべし」と録されたるなり。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	032	ADD	されど我よみがへりて後、なんぢらに先だちてガリラヤに往かん』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	033	ADD	ペテロ答へて言ふ『假令みな汝に就きて躓くとも我はいつまでも躓かじ』	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	034	ADD	イエス言ひ給ふ『まことに汝に告ぐ、こよひ鷄鳴く前に、なんぢ三たび我を否むベし』	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	034	ADD	イエス言ひ給ふ『まことに汝に告ぐ、こよひ鷄 鳴く前に、なんぢ三たび我を否むべし』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	035	ADD	ペテロ言ふ『我なんぢと共に死ぬべき事ありとも汝を否まず』弟子たち皆かく言へり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	036	ADD	ここにイエス彼らと共にゲツセマネといふ處にいたりて、弟子たちに言ひ給ふ『わが彼處にゆきて祈る間、なんぢら此處に坐せよ』	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	037	ADD	かくてペテロとゼベダイの子二人とを伴ひゆき、憂ひ悲しみ出でて言ひ給ふ、	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	037	ADD	かくてペテロとゼベダイの子 二人とを伴ひゆき、憂ひ悲しみ出でて言ひ給ふ、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	038	ADD	『わが心いたく憂ひて死ぬばかりなり。汝ら此處に止りて我と共に目を覺しをれ』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	039	ADD	少し進みゆきて、平伏し祈りて言ひ給ふ『わが父よ、もし得べくば此の酒杯を我より過ぎ去らせ給へ。されど我が意の儘にとにはあらず、御意のままに爲し給へ』	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	040	ADD	弟子たちの許にきたり、その眠れるを見てペテロに言ひ給ふ『なんぢら斯く一時も我と共に目を覺し居ること能はぬか。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	040	ADD	弟子たちの許にきたり、その眠れるを見てペテロに言ひ給ふ『なんぢら斯く一 時も我と共に目を覺し居ること能はぬか。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	041	ADD	誘惑に陷らぬやう、目を覺しかつ祈れ。實に心は熱すれども肉體よわきなり』	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	042	ADD	また二度ゆき祈りて言ひ給ふ『わが父よ、この酒杯もし我飮までは過ぎ去りがたくば、御意のままに成し給へ』	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	043	ADD	復きたりて彼らの眠れるを見たまふ、是その目疲れたるなり。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	042	ADD	また二度ゆき祈りて言ひ給ふ『わが父よ、この酒杯もし我 飮までは過ぎ去りがたくば、御意のままに成し給へ』	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	043	ADD	復きたりて彼らの眠れるを見たまふ、是その目 疲れたるなり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	044	ADD	また離れゆきて、三たび同じ言にて祈り給ふ。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	045	ADD	而して弟子たちの許に來りて言ひ給ふ『今は眠りて休め。視よ、時近づけり、人の子は罪人らの手に付さるるなり。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	045	ADD	而して弟子たちの許に來りて言ひ給ふ『今は眠りて休め。視よ、時 近づけり、人の子は罪人らの手に付さるるなり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	046	ADD	起きよ、我ら往くべし。視よ、我を賣るもの近づけり』	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	047	ADD	なほ語り給ふほどに、視よ、十二弟子の一人なるユダ來る、祭司長・民の長老らより遣されたる大なる群衆、劍と棒とをもちて之に伴ふ。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	047	ADD	なほ語り給ふほどに、視よ、十二 弟子の一人なるユダ來る、祭司長・民の長老らより遣されたる大なる群衆、劍と棒とをもちて之に伴ふ。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	048	ADD	イエスを賣る者あらかじめ合圖を示して言ふ『わが接吻する者はそれなり、之を捕へよ』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	049	ADD	かくて直ちにイエスに近づき『ラビ、安かれ』といひて接吻したれば、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	050	ADD	イエス言ひたまふ『友よ、何とて來る』このとき人々すすみてイエスに手をかけて捕ふ。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	051	ADD	視よ、イエスと偕にありし者のひとり、手をのべ劍を拔きて、大祭司の僕をうちて、その耳を切り落せり。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	051	ADD	視よ、イエスと偕にありし者のひとり、手をのべ劍を拔きて、大 祭司の僕をうちて、その耳を切り落せり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	052	ADD	ここにイエス彼に言ひ給ふ『なんぢの劍をもとに收めよ、すべて劍をとる者は劍にて亡ぶるなり。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	053	ADD	我わが父に請ひて、十二軍に餘る御使を今あたへらるること能はずと思ふか。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	053	ADD	我わが父に請ひて、十二 軍に餘る御使を今あたへらるること能はずと思ふか。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	054	ADD	もし然せば、斯くあるべく録したる聖書はいかで成就すべき』	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	055	ADD	この時イエス群衆に言ひ給ふ『なんぢら強盜に向ふごとく劍と棒とをもち、我を捕へんとて出で來るか。我は日々宮に坐して教へたりしに、汝ら我を捕へざりき。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	055	ADD	この時イエス群衆に言ひ給ふ『なんぢら強盜に向ふごとく劍と棒とをもち、我を捕へんとて出で來るか。我は日々 宮に坐して教へたりしに、汝ら我を捕へざりき。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	056	ADD	されどかくの如くなるは、みな預言者たちの書の成就せん爲なり』ここに弟子たち皆イエスを棄てて逃げさりぬ。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	057	ADD	イエスを捕へたる者ども、學者・長老らの集り居る大祭司カヤパの許に曳きゆく。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	058	ADD	ペテロ遠く離れ、イエスに從ひて大祭司の中庭まで到り、その成行を見んとて、そこに入り下役どもと共に坐せり。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	059	ADD	祭司長らと全議會と、イエスを死に定めんとて、いつはりの證據を求めたるに、	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	057	ADD	イエスを捕へたる者ども、學者・長老らの集り居る大 祭司カヤパの許に曳きゆく。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	058	ADD	ペテロ遠く離れ、イエスに從ひて大 祭司の中庭まで到り、その成行を見んとて、そこに入り下役どもと共に坐せり。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	059	ADD	祭司長らと全 議會と、イエスを死に定めんとて、いつはりの證據を求めたるに、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	060	ADD	多くの僞證者いでたれども得ず。後に二人の者いでて言ふ	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	061	ADD	『この人は「われ神の宮を毀ち三日にて建て得ベし」と云へり』	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	062	ADD	大祭司たちてイエスに言ふ『この人々が汝に對して立つる證據に何をも答へぬか』	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	063	ADD	されどイエス默し居給ひたれば、大祭司いふ『われ汝に命ず、活ける神に誓ひて我らに告げよ、汝はキリスト、神の子なるか』	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	061	ADD	『この人は「われ神の宮を毀ち三日にて建て得べし」と云へり』	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	062	ADD	大 祭司たちてイエスに言ふ『この人々が汝に對して立つる證據に何をも答へぬか』	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	063	ADD	されどイエス默し居給ひたれば、大 祭司いふ『われ汝に命ず、活ける神に誓ひて我らに告げよ、汝はキリスト、神の子なるか』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	064	ADD	イエス言ひ給ふ『なんぢの言へる如し。かつ我なんぢらに告ぐ、今より後、なんぢら人の子の全能者の右に坐し、天の雲に乘りて來るを見ん』	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	065	ADD	ここに大祭司おのが衣を裂きて言ふ『かれ涜言をいへり、何ぞ他に證人を求めん。視よ、なんぢら今この涜言をきけり。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	065	ADD	ここに大 祭司おのが衣を裂きて言ふ『かれ瀆言をいへり、何ぞ他に證人を求めん。視よ、なんぢら今この瀆言をきけり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	066	ADD	いかに思ふか』答へて言ふ『かれは死に當れり』	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	067	ADD	ここに彼等その御顏に唾し、拳にて搏ち、或者どもは手掌にて批きて言ふ	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	067	ADD	ここに彼 等その御顏に唾し、拳にて搏ち、或 者どもは手掌にて批きて言ふ	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	068	ADD	『キリストよ、我らに預言せよ、汝をうちし者は誰なるか』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	069	ADD	ペテロ外にて中庭に坐しゐたるに、一人の婢女きたりて言ふ『なんぢもガリラヤ人イエスと偕にゐたり』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	070	ADD	かれ凡ての人の前に肯はずして言ふ『われは汝の言ふことを知らず』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	071	ADD	かくて門まで出で往きたるとき、他の婢女かれを見て、其處にをる者どもに向ひて『この人はナザレ人イエスと偕にゐたり』と言へるに、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	072	ADD	重ねて肯はず、契ひて『我はその人を知らず』といふ。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	073	ADD	暫くして其處に立つ者ども近づきてペテロに言ふ『なんぢも慥にかの黨與なり、汝の國訛なんぢを表せり』	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	074	ADD	ここにペテロ盟ひかつ契ひて『我その人を知らず』と言ひ出づるをりしも、鷄鳴きぬ。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	074	ADD	ここにペテロ盟ひかつ契ひて『我その人を知らず』と言ひ出づるをりしも、鷄 鳴きぬ。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	026	075	ADD	ペテロ『にはとり鳴く前に、なんぢ三度われを否まん』と、イエスの言ひ給ひし御言を思ひだし、外に出でて甚く泣けり。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	001	ADD	夜明けになりて、凡ての祭司長・民の長老ら、イエスを殺さんと相議り、	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	001	ADD	夜明けになりて、凡ての祭司長・民の長老ら、イエスを殺さんと相 議り、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	002	ADD	遂に之を縛り、曳きゆきて總督ピラトに付せり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	003	ADD	ここにイエスを賣りしユダ、その死に定められ給ひしを見て悔い、祭司長・長老らに、かの三十の銀をかへして言ふ、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	004	ADD	『われ罪なきの血を賣りて罪を犯したり』彼らいふ『われら何ぞ干らん、汝みづから當るべし』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	005	ADD	彼その銀を聖所に投げすてて去り、ゆきて自ら縊れたり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	006	ADD	祭司長らその銀をとりて言ふ『これは血の價なれば、宮の庫に納むるは可からず』	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	007	ADD	かくて相議り、その銀をもて陶工の畑を買ひ、旅人らの墓地とせり。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	007	ADD	かくて相 議り、その銀をもて陶工の畑を買ひ、旅人らの墓地とせり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	008	ADD	之によりて其の畑は、今に至るまで血の畑と稱へらる。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	009	ADD	ここに預言者エレミヤによりて云はれたる言は成就したり。曰く『かくて彼ら値積られしもの、即ちイスラエルの子らが値積りし者の價の銀三十をとりて、	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	009	ADD	ここに預言者エレミヤによりて云はれたる言は成就したり。曰く『かくて彼ら値積られしもの、即ちイスラエルの子らが値積りし者の價の銀 三十をとりて、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	010	ADD	陶工の畑の代に之を與へたり。主の我に命じ給ひし如し』	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	011	ADD	さてイエス、總督の前に立ち給ひしに、總督問ひて言ふ『なんぢはユダヤ人の王なるか』イエス言ひ給ふ『なんぢの言ふが如し』	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	011	ADD	さてイエス、總督の前に立ち給ひしに、總督 問ひて言ふ『なんぢはユダヤ人の王なるか』イエス言ひ給ふ『なんぢの言ふが如し』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	012	ADD	祭司長・長老ら訴ふれども、何をも答へ給はず。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	013	ADD	ここにピラト彼に言ふ『聞かぬか、彼らが汝に對して如何におほくの證據を立つるを』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	014	ADD	されど總督の甚く怪しむまで、一言をも答へ給はず。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	015	ADD	祭の時には、總督群衆の望にまかせて、囚人一人を之に赦す例あり。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	015	ADD	祭の時には、總督 群衆の望にまかせて、囚人 一人を之に赦す例あり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	016	ADD	ここにバラバといふ隱れなき囚人あり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	017	ADD	されば人々の集れる時、ピラト言ふ『なんぢら我が誰を赦さんことを願ふか。バラバなるか、キリストと稱ふるイエスなるか』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	018	ADD	これピラト彼らのイエスを付ししは嫉に因ると知る故なり。	
@@ -6142,10 +6142,10 @@ Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	020	ADD	祭司長・長�
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	021	ADD	總督こたへて彼らに言ふ『二人の中いづれを我が赦さん事を願ふか』彼らいふ『バラバなり』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	022	ADD	ピラト言ふ『さらばキリストと稱ふるイエスを我いかにすべきか』皆いふ『十字架につくべし』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	023	ADD	ピラト言ふ『かれ何の惡事をなしたるか』彼ら烈しく叫びていふ『十字架につくべし』	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	024	ADD	ピラトは何の效なく反つて亂にならんとするを見て、水をとり群衆のまへに手を洗ひて言ふ『この人の血につきて我は罪なし、汝等みづから當れ』	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	024	ADD	ピラトは何の效なく反つて亂にならんとするを見て、水をとり群衆のまへに手を洗ひて言ふ『この人の血につきて我は罪なし、汝 等みづから當れ』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	025	ADD	民みな答へて言ふ『其の血は、我らと我らの子孫とに歸すべし』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	026	ADD	ここにピラト、バラバを彼らに赦し、イエスを鞭うちて、十字架につくる爲に付せり。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	027	ADD	ここに總督の兵卒ども、イエスを官邸につれゆき、全隊を御許に集め、	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	027	ADD	ここに總督の兵卒ども、イエスを官邸につれゆき、全 隊を御許に集め、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	028	ADD	その衣をはぎて、緋色の上衣をきせ、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	029	ADD	茨の冠冕を編みて、その首に冠らせ、葦を右の手にもたせ、且その前に跪づき、嘲弄して言ふ『ユダヤ人の王、安かれ』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	030	ADD	また之に唾し、かの葦をとりて其の首を叩く。	
@@ -6161,31 +6161,31 @@ Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	039	ADD	往來の者ど�
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	040	ADD	『宮を毀ちて三日のうちに建つる者よ、もし神の子ならば己を救へ、十字架より下りよ』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	041	ADD	祭司長らもまた同じく、學者・長老らとともに嘲弄して言ふ、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	042	ADD	『人を救ひて己を救ふこと能はず。彼はイスラエルの王なり、いま十字架より下りよかし、さらば我ら彼を信ぜん。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	043	ADD	彼は神に依り頼めり、神かれを愛しまば今すくひ給ふベし「我は神の子なり」と云へり』	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	043	ADD	彼は神に依り頼めり、神かれを愛しまば今すくひ給ふべし「我は神の子なり」と云へり』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	044	ADD	ともに十字架につけられたる強盜どもも、同じ事をもてイエスを罵れり。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	045	ADD	晝の十二時より地の上あまねく暗くなりて、三時に及ぶ。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	046	ADD	三時ごろイエス大聲に叫びて『エリ、エリ、レマ、サバクタニ』と言ひ給ふ。わが神、わが神、なんぞ我を見棄て給ひしとの意なり。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	047	ADD	そこに立つ者のうち或人々これを聞きて『彼はエリヤを呼ぶなり』と言ふ。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	045	ADD	晝の十二 時より地の上あまねく暗くなりて、三時に及ぶ。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	046	ADD	三時ごろイエス大聲に叫びて『エリ、エリ、レマ、サバクタニ』と言ひ給ふ。わが神、わが神、なんぞ我を見 棄て給ひしとの意なり。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	047	ADD	そこに立つ者のうち或 人々これを聞きて『彼はエリヤを呼ぶなり』と言ふ。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	048	ADD	直ちにその中の一人はしりゆきて海綿をとり、酸き葡萄酒を含ませ、葦につけてイエスに飮ましむ。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	049	ADD	その他の者ども言ふ『まて、エリヤ來りて彼を救ふや否や、我ら之を見ん』	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	050	ADD	イエス再び大聲に呼はりて息絶えたまふ。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	050	ADD	イエス再び大聲に呼はりて息 絶えたまふ。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	051	ADD	視よ、聖所の幕、上より下まで裂けて二つとなり、また地震ひ、磐さけ、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	052	ADD	墓ひらけて、眠りたる聖徒の屍體おほく活きかへり、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	053	ADD	イエスの復活ののち墓をいで、聖なる都に入りて、多くの人に現れたり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	054	ADD	百卒長および之と共にイエスを守りゐたる者ども、地震とその有りし事とを見て甚く懼れ『實に彼は神の子なりき』と言へり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	055	ADD	その處にて遙に望みゐたる多くの女あり、イエスに事へてガリラヤより從ひ來りし者どもなり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	056	ADD	その中には、マグダラのマリヤ、ヤコブとヨセフとの母マリヤ、及びゼベダイの子らの母などもゐたり。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	057	ADD	日暮れて、ヨセフと云ふアリマタヤの富める人きたる。彼もイエスの弟子なるが、	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	057	ADD	日 暮れて、ヨセフと云ふアリマタヤの富める人きたる。彼もイエスの弟子なるが、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	058	ADD	ピラトに往きてイエスの屍體を請ふ。ここにピラト之を付すことを命ず。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	059	ADD	ヨセフ屍體をとりて淨き亞麻布につつみ、	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	059	ADD	ヨセフ屍體をとりて淨き亞麻 布につつみ、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	060	ADD	岩にほりたる己が新しき墓に納め、墓の入口に大なる石を轉しおきて去りぬ。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	061	ADD	其處にはマグダラのマリヤと他のマリヤと墓に向ひて坐しゐたり。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	062	ADD	あくる日、即ち準備日の翌日、祭司長らとパリサイ人らとピラトの許に集りて言ふ、	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	062	ADD	あくる日、即ち準備 日の翌日、祭司長らとパリサイ人らとピラトの許に集りて言ふ、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	063	ADD	『主よ、かの惑すもの生き居りし時「われ三日の後に甦へらん」と言ひしを、我ら思ひいだせり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	064	ADD	されば命じて三日に至るまで墓を固めしめ給へ、恐らくはその弟子ら來りて之を盜み、「彼は死人の中より甦へれり」と民に言はん。然らば後の惑は前のよりも甚だしからん』	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	065	ADD	ピラト言ふ『なんぢらに番兵あり、往きて力限り固めよ』	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	065	ADD	ピラト言ふ『なんぢらに番兵あり、往きて力 限り固めよ』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	027	066	ADD	乃ち彼らゆきて石に封印し、番兵を置きて墓を固めたり。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	028	001	ADD	さて安息日をはりて、一週の初の日のほの明き頃、マグダラのマリヤと他のマリヤと墓を見んとて來りしに、	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	028	001	ADD	さて安息 日をはりて、一週の初の日のほの明き頃、マグダラのマリヤと他のマリヤと墓を見んとて來りしに、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	028	002	ADD	視よ、大なる地震あり、これ主の使、天より降り來りて、かの石を轉し退け、その上に坐したるなり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	028	003	ADD	その状は電光のごとく輝き、その衣は雪のごとく白し。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	028	004	ADD	守の者ども彼を懼れたれば、戰きて死人の如くなりぬ。	
@@ -6196,19 +6196,19 @@ Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	028	008	ADD	女たち懼と�
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	028	009	ADD	視よ、イエス彼らに遇ひて『安かれ』と言ひ給ひたれば、進みゆき、御足を抱きて拜す。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	028	010	ADD	ここにイエス言ひたまふ『懼るな、往きて我が兄弟たちに、ガリラヤにゆき、彼處にて我を見るべきことを知らせよ』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	028	011	ADD	女たちの往きたるとき、視よ、番兵のうちの數人、都にいたり、凡て有りし事どもを祭司長らに告ぐ。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	028	012	ADD	祭司長ら、長老らと共に集りて相議り、兵卒どもに多くの銀を與へて言ふ、	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	028	012	ADD	祭司長ら、長老らと共に集りて相 議り、兵卒どもに多くの銀を與へて言ふ、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	028	013	ADD	『なんぢら言へ「その弟子ら夜きたりて、我らの眠れる間に彼を盜めり」と。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	028	014	ADD	この事もし總督に聞えなば、我ら彼を宥めて汝らに憂なからしめん』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	028	015	ADD	彼ら銀をとりて言ひ含められたる如くしたれば、此の話ユダヤ人の中にひろまりて、今日に至れり。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	028	016	ADD	十一弟子たちガリラヤに往きて、イエスの命じ給ひし山にのぼり、	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	028	016	ADD	十 一 弟子たちガリラヤに往きて、イエスの命じ給ひし山にのぼり、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	028	017	ADD	遂に謁えて拜せり。されど疑ふ者もありき。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	028	018	ADD	イエス進みきたり、彼らに語りて言ひたまふ『我は天にても地にても一切の權を與へられたり。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	028	019	ADD	されば汝ら往きて、もろもろの國人を弟子となし、父と子と聖靈との名によりてバプテスマを施し、	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	028	019	ADD	されば汝ら往きて、もろもろの國人を弟子となし、父と子と聖 靈との名によりてバプテスマを施し、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	040	MAT	028	020	ADD	わが汝らに命ぜし凡ての事を守るべきを教へよ。視よ、我は世の終まで常に汝らと偕に在るなり』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	001	ADD	ここにピラト、イエスをとりて鞭うつ。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	002	ADD	兵卒ども茨にて冠冕をあみ、その首にかむらせ、紫色の上衣をきせ、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	003	ADD	御許に進みて言ふ『ユダヤ人の王やすかれ』而して手掌にて打てり。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	004	ADD	ピラト再び出でて人々にいふ『視よ、この人を汝らに引出す、これは何の罪あるをも我が見ぬことを汝らの知らん爲なり』	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	004	ADD	ピラト再び出でて人々にいふ『視よ、この人を汝らに引 出す、これは何の罪あるをも我が見ぬことを汝らの知らん爲なり』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	005	ADD	ここにイエス茨の冠冕をかむり、紫色の上衣をきて出で給へば、ピラト言ふ『視よ、この人なり』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	006	ADD	祭司長・下役どもイエスを見て叫びいふ『十字架につけよ、十字架につけよ』ピラト言ふ『なんぢら自らとりて十字架につけよ、我は彼に罪あるを見ず』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	007	ADD	ユダヤ人こたふ『我らに律法あり、その律法によれば死に當るべき者なり、彼はおのれを神の子となせり』	
@@ -6218,10 +6218,10 @@ Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	010	ADD	ピラト言ふ�
 Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	011	ADD	イエス答へ給ふ『なんぢ上より賜はらずば、我に對して何の權威もなし。この故に我をなんぢに付しし者の罪は更に大なり』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	012	ADD	ここにおいてピラト、イエスを赦さんことを力む。されどユダヤ人さけびて言ふ『なんぢ若しこの人を赦さば、カイザルの忠臣にあらず、凡そおのれを王となす者はカイザルに叛くなり』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	013	ADD	ピラトこれらの言をききて、イエスを外にひきゆき、敷石（ヘブル語にてガバタ）といふ處にて審判の座につく。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	014	ADD	この日は過越の準備日にて、時は第十時ごろなりき。ピラト、ユダヤ人にいふ『視よ、なんぢらの王なり』	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	014	ADD	この日は過越の準備 日にて、時は第六時ごろなりき。ピラト、ユダヤ人にいふ『視よ、なんぢらの王なり』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	015	ADD	かれら叫びていふ『除け、除け、十字架につけよ』ピラト言ふ『われ汝らの王を十字架につくべけんや』祭司長ら答ふ『カイザルの他われらに王なし』	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	016	ADD	ここにピラト、イエスを十字架に釘くるために彼らに付せり。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	017	ADD	彼らイエスを受取りたれば、イエス己に十字架を負ひて、髑髏（ヘブル語にてゴルゴダ）といふ處に出でゆき給ふ。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	016	ADD	ここにピラト、イエスを十字架に釘くるために彼らに付せり。彼らイエスを受取りたれば、	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	017	ADD	イエス己に十字架を負ひて、髑髏（ヘブル語にてゴルゴダ）といふ處に出でゆき給ふ。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	018	ADD	其處にて彼らイエスを十字架につく。又ほかに二人の者をともに十字架につけ、一人を右に、一人を左に、イエスを眞中に置けり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	019	ADD	ピラト罪標を書きて十字架の上に掲ぐ『ユダヤ人の王、ナザレのイエス』と記したり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	020	ADD	イエスを十字架につけし處は都に近ければ、多くのユダヤ人この標を讀む、標はヘブル、ロマ、ギリシヤの語にて記したり。	
@@ -6232,21 +6232,21 @@ Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	024	ADD	兵卒ども互�
 Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	025	ADD	さてイエスの十字架の傍らには、その母と母の姉妹と、クロパの妻マリヤとマグダラのマリヤと立てり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	026	ADD	イエスその母とその愛する弟子との近く立てるを見て、母に言ひ給ふ『をんなよ、視よ、なんぢの子なり』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	027	ADD	また弟子に言ひたまふ『視よ、なんぢの母なり』この時より、その弟子かれを己が家に接けたり。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	028	ADD	この後イエス萬の事の終りたるを知りて、聖書の全うせられん爲に『われ渇く』と言ひ給ふ。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	028	ADD	この後イエス萬の事の終りたるを知りて、――聖書の全うせられん爲に――『われ渇く』と言ひ給ふ。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	029	ADD	ここに酸き葡萄酒の滿ちたる器あり、その葡萄酒のふくみたる海綿をヒソプに著けてイエスの口に差附く。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	030	ADD	イエスその葡萄酒をうけて後いひ給ふ『事畢りぬ』遂に首をたれて靈をわたし給ふ。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	031	ADD	この日は準備日なれば、ユダヤ人、安息日に屍體を十字架のうへに留めおかじとて（殊にこの度の安息日は大なる日なるにより）ピラトに、彼らの脛ををりて屍體を取除かんことを請ふ。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	030	ADD	イエスその葡萄酒をうけて後いひ給ふ『事 畢りぬ』遂に首をたれて靈をわたし給ふ。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	031	ADD	この日は準備 日なれば、ユダヤ人、安息 日に屍體を十字架のうへに留めおかじとて（殊にこの度の安息 日は大なる日なるにより）ピラトに、彼らの脛ををりて屍體を取除かんことを請ふ。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	032	ADD	ここに兵卒ども來りて、イエスとともに十字架に釘けられたる第一の者と他のものとの脛を折り、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	033	ADD	而してイエスに來りしに、はや死に給ふを見て、その脛を折らず。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	034	ADD	然るに一人の兵卒、鎗にてその脅をつきたれば、直ちに血と水と流れいづ。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	035	ADD	之を見しもの證をなす、其の證は眞なり、彼はその言ふことの眞なるを知る、これ汝等にも信ぜしめん爲なり。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	036	ADD	此等のことの成りたるは『その骨くだかれず』とある聖句の成就せん爲なり。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	037	ADD	また他に『かれら己が刺したる者を見るべし』と云へる聖句あり。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	038	ADD	この後、アリマタヤのヨセフとて、ユダヤ人を懼れ密にイエスの弟子たりし者、イエスの屍體を引取らんことをピラトに請ひたれば、ピラト許せり、乃ち往きてその屍體を引取る。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	039	ADD	また曾て夜御許に來りしニコデモも、沒藥・沈香の混和物を百斤ばかり携へて來る。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	035	ADD	之を見しもの證をなす、其の證は眞なり、彼はその言ふことの眞なるを知る、これ汝 等にも信ぜしめん爲なり。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	036	ADD	此 等のことの成りたるは『その骨くだかれず』とある聖 句の成就せん爲なり。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	037	ADD	また他に『かれら己が刺したる者を見るべし』と云へる聖 句あり。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	038	ADD	この後、アリマタヤのヨセフとて、ユダヤ人を懼れ密にイエスの弟子たりし者、イエスの屍體を引 取らんことをピラトに請ひたれば、ピラト許せり、乃ち往きてその屍體を引取る。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	039	ADD	また曾て夜 御許に來りしニコデモも、沒藥・沈香の混和物を百 斤ばかり携へて來る。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	040	ADD	ここに彼らイエスの屍體をとり、ユダヤ人の葬りの習慣にしたがひて、香料とともに布にて卷けり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	041	ADD	イエスの十字架につけられ給ひし處に園あり、園の中にいまだ人を葬りしことなき新しき墓あり。	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	042	ADD	ユダヤ人の準備日なれば、この墓の近きままに其處にイエスを納めたり。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	043	JOH	019	042	ADD	ユダヤ人の準備 日なれば、この墓の近きままに其處にイエスを納めたり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	045	ROM	010	001	ADD	兄弟よ、わが心のねがひ、神に對する祈は、彼らの救はれんことなり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	045	ROM	010	002	ADD	われ彼らが神のために熱心なることを證す、されど其の熱心は知識によらざるなり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	045	ROM	010	003	ADD	それは神の義を知らず、己の義を立てんとして、神の義に服はざればなり。	
@@ -6266,8 +6266,8 @@ Holy-Bible---Japanese---Japanese-Kougo-yaku	045	ROM	010	016	ADD	されど、み�
 Holy-Bible---Japanese---Japanese-Kougo-yaku	045	ROM	010	017	ADD	斯く信仰は聞くにより、聞くはキリストの言による。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	045	ROM	010	018	ADD	されど我いふ、彼ら聞えざりしか、然らず『その聲は全地にゆきわたり、其の言は世界の極にまで及べり』	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	045	ROM	010	019	ADD	我また言ふ、イスラエルは知らざりしか、先づモーセ言ふ『われ民ならぬ者をもて汝らに嫉を起させ、愚なる民をもて汝らを怒らせん』	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	045	ROM	010	020	ADD	またイザヤ憚らずして言ふ『我を求めざる者に、われ見出され、我を尋ねざる者に我あらはれたり』、	
-Holy-Bible---Japanese---Japanese-Kougo-yaku	045	ROM	010	021	ADD	更にイスラエルに就きては『われ服はずして言ひさからふ民に、終日手を伸べたり』と云へり。	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	045	ROM	010	020	ADD	またイザヤ憚らずして言ふ『我を求めざる者に、われ見出され、我を尋ねざる者に我あらはれたり』	
+Holy-Bible---Japanese---Japanese-Kougo-yaku	045	ROM	010	021	ADD	更にイスラエルに就きては『われ服はずして言ひさからふ民に、終日 手を伸べたり』と云へり。	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	045	ROM	016	025	ADD	願わくは、わたしの福音とイエス・キリストの宣教とにより、かつ、長き世々にわたって、	
 Holy-Bible---Japanese---Japanese-Kougo-yaku	045	ROM	016	026	MODIFY	隠されていたが、今やあらわされ、預言の書をとおして、永遠の神の命令に従い、信仰の従順に至らせるために、もろもろの国人に告げ知らされた奥義の啓示によって、あなたがたを力づけることのできるかた、	願わくは、わたしの福音とイエス・キリストの宣教とにより、かつ、長き世々にわたって、隠されていたが、今やあらわされ、預言の書をとおして、永遠の神の命令に従い、信仰の従順に至らせるために、もろもろの国人に告げ知らされた奥義の啓示によって、あなたがたを力づけることのできるかた、
 Holy-Bible---Japanese---Japanese-Kougo-yaku	047	2CO	013	012	MODIFY	きよい接吻をもって互にあいさつをかわしなさい。聖徒たち	きよい接吻をもって互にあいさつをかわしなさい。聖徒たち一同が、あなたがたによろしく。
