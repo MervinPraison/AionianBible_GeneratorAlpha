@@ -51,9 +51,9 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/.*Arapaho.*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Peshitta|Arabic|Aleppo).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*STEPBible.*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Statenvertaling|Kougo-yaku).*---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---.*(Japanese-Bungo-yaku).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
-		'include'	=> "/---Aionian-Edition\.noia$/",
+		//'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		) );

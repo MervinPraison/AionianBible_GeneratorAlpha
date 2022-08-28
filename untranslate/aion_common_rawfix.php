@@ -7512,15 +7512,10 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
-//case "Holy-Bible---Japanese---Japanese-Bungo-yaku" :
-//if (!($bfile = preg_replace("/&#x[A-Za-z0-9]{1,4};[ ]*/us",'',$bfile,-1,$rnum)) || $rnum!=98) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-//$bfile_saved = $bfile;
-//$textfix = <<<EOF
-//Luke 2:4 ヨセフもダビデの家系また血統なれば、既に孕める許嫁の妻マリヤとともに、戸籍に著かんとて、ガリラヤの町ナザレを出でてユダヤに上り、ダビデの町ベツレヘムといふ處に到りぬ。
-//Luke 2:6 
-//EOF;
-//if (!($bfile = preg_replace("/Luke 2:5 (.+?)Luke 2:6 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-//goto RAWHIDE;
+case "Holy-Bible---Japanese---Japanese-Bungo-yaku" :
+if (!($bfile = preg_replace("/\x{2212}/us",'-',$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
 
 
 
