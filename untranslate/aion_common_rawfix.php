@@ -893,16 +893,6 @@ if (!($bfile = preg_replace("/\x{200d}/us"," ",$bfile,-1,$rnum)) || $rnum!=10) {
 //if (!($bfile = preg_replace("#(א|ב|ג|ד|ה|ו|ז|ח|ט|י|כ|ל|מ|נ|ס|ע|פ|צ|ק|ר|ש|ת|/ שׁ|ׂ)#us"," ",$bfile,-1,$rnum)) || $rnum!=24) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 if (!($bfile = preg_replace("/[\r\n]+3JO 1:15 /us"," ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$blockfix = <<<EOF
-1SA 2:19 A kum kum kah a tue a pha vaengah tah Hannah khaw hmueih nawn ham a va neh w cet rhoi. Te vaengah a manu loh Samuel ham hnikul ca a saii tih a khuen pah.
-1SA 2:20 
-EOF;
-if (!($bfile = preg_replace("/1SA 2:19 (.+?)1SA 2:20 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$blockfix = <<<EOF
-ACT 22:13 Ka taengla halo vaengah ka taengah pai tih, ‘Ka manuca Saul , kho hmu laeh,’ n'ti nah. Amah te tue vaengah anih taengla ka oeloe”.
-ACT 22:14 
-EOF;
-if (!($bfile = preg_replace("/ACT 22:13 (.+?)ACT 22:14 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -6739,15 +6729,11 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Greek---Greek-LXX-Septuagint" :
 $textfix = <<<EOF
-Proverbs 9:12 υιε εαν σοφος γενη σεαυτω σοφος εση και τοις πλησιον εαν δε κακος αποβης μονος αναντλησεις κακα.
-Proverbs 9:13 
+Isaiah 63:19 ἐγενόμεθα ὡς τὸ ἀπ’ ἀρχῆς ὅτε οὐκ ἦρξας ἡμῶν οὐδὲ ἐπεκλήθη τὸ ὄνομά σου ἐφ’ ἡμᾶς
+Isaiah 63:20 ἐὰν ἀνοίξῃς τὸν οὐρανόν τρόμος λήμψεται ἀπὸ σοῦ ὄρη καὶ τακήσονται 
+Isaiah 64:0 
 EOF;
-if (!($bfile = preg_replace("/Proverbs 9:12 (.+?)Proverbs 9:13 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Proverbs 9:18 ο δε ουκ οιδεν οτι γηγενεις παρ αυτη ολλυνται και επι πετευρον αδου συναντα
-Proverbs 10:1 
-EOF;
-if (!($bfile = preg_replace("/Proverbs 9:18 (.+?)Proverbs 10:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/Isaiah 63:19 (.+?)Isaiah 64:0 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 

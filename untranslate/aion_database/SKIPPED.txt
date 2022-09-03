@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1159716     
-# File Date: 08/27/2022 14:10:17
+# File Size: 1195434     
+# File Date: 09/02/2022 12:24:41
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022
@@ -3097,6 +3097,149 @@ Holy-Bible---Gourma---Gourma-Bible	064	3JO	001	014	N sugini ki la ŋa ke li kan 
 Holy-Bible---Gourma---Gourma-Bible	066	REV	012	018	O den sedi mi ñincianma jaali tanbiima po.
 Holy-Bible---Gourmantche---Gourmantche-Bible	064	3JO	001	014	N maali ki kan waagi leni min lá ŋa, ke tin ŋanbi ki boe.
 Holy-Bible---Gourmantche---Gourmantche-Bible	066	REV	012	018	Ku bonfuodcincilingu den sedi ku tanbiingu nni, mi ñincianma jaali po.
+Holy-Bible---Greek---Greek-LXX-Septuagint	009	1SA	020	042	καὶ   εἶπεν   Ιωναθαν   πορεύου   εἰς   εἰρήνην   καὶ   ὡς   ὀμωμόκαμεν   ἡμεῖς   ἀμφότεροι   ἐν   ὀνόματι   κυρίου   λέγοντες   κύριος   ἔσται   μάρτυς   ἀνὰ   μέσον   ἐμοῦ   καὶ   σοῦ   καὶ   ἀνὰ   μέσον   τοῦ   σπέρματός   μου   καὶ   ἀνὰ   μέσον   τοῦ   σπέρματός   σου   ἕως   αἰῶνος
+Holy-Bible---Greek---Greek-LXX-Septuagint	011	1KI	022	043	καὶ   ἐπορεύθη   ἐν   πάσῃ   ὁδῷ   Ασα   τοῦ   πατρὸς   αὐτοῦ   οὐκ   ἐξέκλινεν   ἀπ’   αὐτῆς   τοῦ   ποιῆσαι   τὸ   εὐθὲς   ἐν   ὀφθαλμοῖς   κυρίου
+Holy-Bible---Greek---Greek-LXX-Septuagint	013	1CH	012	004	καὶ   Σαμαιας   ὁ   Γαβαωνίτης   δυνατὸς   ἐν   τοῖς   τριάκοντα   καὶ   ἐπὶ   τῶν   τριάκοντα
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	003	001	ψαλμὸς   τῷ   Δαυιδ   ὁπότε   ἀπεδίδρασκεν   ἀπὸ   προσώπου   Αβεσσαλωμ   τοῦ   υἱοῦ   αὐτοῦ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	004	001	εἰς   τὸ   τέλος   ἐν   ψαλμοῖς   ᾠδὴ   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	005	001	εἰς   τὸ   τέλος   ὑπὲρ   τῆς   κληρονομούσης   ψαλμὸς   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	006	001	εἰς   τὸ   τέλος   ἐν   ὕμνοις   ὑπὲρ   τῆς   ὀγδόης   ψαλμὸς   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	007	001	ψαλμὸς   τῷ   Δαυιδ   ὃν   ᾖσεν   τῷ   κυρίῳ   ὑπὲρ   τῶν   λόγων   Χουσι   υἱοῦ   Ιεμενι
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	008	001	εἰς   τὸ   τέλος   ὑπὲρ   τῶν   ληνῶν   ψαλμὸς   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	009	001	εἰς   τὸ   τέλος   ὑπὲρ   τῶν   κρυφίων   τοῦ   υἱοῦ   ψαλμὸς   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	012	001	εἰς   τὸ   τέλος   ὑπὲρ   τῆς   ὀγδόης   ψαλμὸς   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	018	001	εἰς   τὸ   τέλος   τῷ   παιδὶ   κυρίου   τῷ   Δαυιδ   ἃ   ἐλάλησεν   τῷ   κυρίῳ   τοὺς   λόγους   τῆς   ᾠδῆς   ταύτης   ἐν   ἡμέρᾳ   ᾗ   ἐρρύσατο   αὐτὸν   κύριος   ἐκ   χειρὸς   πάντων   τῶν   ἐχθρῶν   αὐτοῦ   καὶ   ἐκ   χειρὸς   Σαουλ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	019	001	εἰς   τὸ   τέλος   ψαλμὸς   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	020	001	εἰς   τὸ   τέλος   ψαλμὸς   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	021	001	εἰς   τὸ   τέλος   ψαλμὸς   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	022	001	εἰς   τὸ   τέλος   ὑπὲρ   τῆς   ἀντιλήμψεως   τῆς   ἑωθινῆς   ψαλμὸς   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	030	001	εἰς   τὸ   τέλος   ψαλμὸς   ᾠδῆς   τοῦ   ἐγκαινισμοῦ   τοῦ   οἴκου   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	031	001	εἰς   τὸ   τέλος   ψαλμὸς   τῷ   Δαυιδ   ἐκστάσεως
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	034	001	τῷ   Δαυιδ   ὁπότε   ἠλλοίωσεν   τὸ   πρόσωπον   αὐτοῦ   ἐναντίον   Αβιμελεχ   καὶ   ἀπέλυσεν   αὐτόν   καὶ   ἀπῆλθεν
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	036	001	εἰς   τὸ   τέλος   τῷ   δούλῳ   κυρίου   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	038	001	ψαλμὸς   τῷ   Δαυιδ   εἰς   ἀνάμνησιν   περὶ   σαββάτου
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	039	001	εἰς   τὸ   τέλος   τῷ   Ιδιθουν   ᾠδὴ   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	040	001	εἰς   τὸ   τέλος   τῷ   Δαυιδ   ψαλμός
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	041	001	εἰς   τὸ   τέλος   ψαλμὸς   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	042	001	εἰς   τὸ   τέλος   εἰς   σύνεσιν   τοῖς   υἱοῖς   Κορε
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	044	001	εἰς   τὸ   τέλος   τοῖς   υἱοῖς   Κορε   εἰς   σύνεσιν   ψαλμός
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	045	001	εἰς   τὸ   τέλος   ὑπὲρ   τῶν   ἀλλοιωθησομένων   τοῖς   υἱοῖς   Κορε   εἰς   σύνεσιν   ᾠδὴ   ὑπὲρ   τοῦ   ἀγαπητοῦ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	046	001	εἰς   τὸ   τέλος   ὑπὲρ   τῶν   υἱῶν   Κορε   ὑπὲρ   τῶν   κρυφίων   ψαλμός
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	047	001	εἰς   τὸ   τέλος   ὑπὲρ   τῶν   υἱῶν   Κορε   ψαλμός
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	048	001	ψαλμὸς   ᾠδῆς   τοῖς   υἱοῖς   Κορε   δευτέρᾳ   σαββάτου
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	049	001	εἰς   τὸ   τέλος   τοῖς   υἱοῖς   Κορε   ψαλμός
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	051	001	εἰς   τὸ   τέλος   ψαλμὸς   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	051	002	ἐν   τῷ   ἐλθεῖν   πρὸς   αὐτὸν   Ναθαν   τὸν   προφήτην   ἡνίκα   εἰσῆλθεν   πρὸς   Βηρσαβεε
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	052	001	εἰς   τὸ   τέλος   συνέσεως   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	052	002	ἐν   τῷ   ἐλθεῖν   Δωηκ   τὸν   Ιδουμαῖον   καὶ   ἀναγγεῖλαι   τῷ   Σαουλ   καὶ   εἰπεῖν   αὐτῷ   ἦλθεν   Δαυιδ   εἰς   τὸν   οἶκον   Αβιμελεχ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	053	001	εἰς   τὸ   τέλος   ὑπὲρ   μαελεθ   συνέσεως   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	054	001	εἰς   τὸ   τέλος   ἐν   ὕμνοις   συνέσεως   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	054	002	ἐν   τῷ   ἐλθεῖν   τοὺς   Ζιφαίους   καὶ   εἰπεῖν   τῷ   σαουλ   οὐκ   ἰδοὺ   Δαυιδ   κέκρυπται   παρ’   ἡμῖν
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	055	001	εἰς   τὸ   τέλος   ἐν   ὕμνοις   συνέσεως   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	056	001	εἰς   τὸ   τέλος   ὑπὲρ   τοῦ   λαοῦ   τοῦ   ἀπὸ   τῶν   ἁγίων   μεμακρυμμένου   τῷ   Δαυιδ   εἰς   στηλογραφίαν   ὁπότε   ἐκράτησαν   αὐτὸν   οἱ   ἀλλόφυλοι   ἐν   Γεθ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	057	001	εἰς   τὸ   τέλος   μὴ   διαφθείρῃς   τῷ   Δαυιδ   εἰς   στηλογραφίαν   ἐν   τῷ   αὐτὸν   ἀποδιδράσκειν   ἀπὸ   προσώπου   Σαουλ   εἰς   τὸ   σπήλαιον
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	058	001	εἰς   τὸ   τέλος   μὴ   διαφθείρῃς   τῷ   Δαυιδ   εἰς   στηλογραφίαν
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	059	001	εἰς   τὸ   τέλος   μὴ   διαφθείρῃς   τῷ   Δαυιδ   εἰς   στηλογραφίαν   ὁπότε   ἀπέστειλεν   Σαουλ   καὶ   ἐφύλαξεν   τὸν   οἶκον   αὐτοῦ   τοῦ   θανατῶσαι   αὐτόν
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	060	001	εἰς   τὸ   τέλος   τοῖς   ἀλλοιωθησομένοις   ἔτι   εἰς   στηλογραφίαν   τῷ   Δαυιδ   εἰς   διδαχήν
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	060	002	ὁπότε   ἐνεπύρισεν   τὴν   Μεσοποταμίαν   Συρίας   καὶ   τὴν   Συρίαν   Σωβα   καὶ   ἐπέστρεψεν   Ιωαβ   καὶ   ἐπάταξεν   τὴν   φάραγγα   τῶν   ἁλῶν   δώδεκα   χιλιάδας
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	061	001	εἰς   τὸ   τέλος   ἐν   ὕμνοις   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	062	001	εἰς   τὸ   τέλος   ὑπὲρ   Ιδιθουν   ψαλμὸς   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	063	001	ψαλμὸς   τῷ   Δαυιδ   ἐν   τῷ   εἶναι   αὐτὸν   ἐν   τῇ   ἐρήμῳ   τῆς   Ιουδαίας
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	064	001	εἰς   τὸ   τέλος   ψαλμὸς   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	065	001	εἰς   τὸ   τέλος   ψαλμὸς   τῷ   Δαυιδ   ᾠδή   Ιερεμιου   καὶ   Ιεζεκιηλ   ἐκ   τοῦ   λόγου   τῆς   παροικίας   ὅτε   ἔμελλον   ἐκπορεύεσθαι
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	067	001	εἰς   τὸ   τέλος   ἐν   ὕμνοις   ψαλμὸς   ᾠδῆς
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	068	001	εἰς   τὸ   τέλος   τῷ   Δαυιδ   ψαλμὸς   ᾠδῆς
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	069	001	εἰς   τὸ   τέλος   ὑπὲρ   τῶν   ἀλλοιωθησομένων   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	070	001	εἰς   τὸ   τέλος   τῷ   Δαυιδ   εἰς   ἀνάμνησιν
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	075	001	εἰς   τὸ   τέλος   μὴ   διαφθείρῃς   ψαλμὸς   τῷ   Ασαφ   ᾠδῆς
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	076	001	εἰς   τὸ   τέλος   ἐν   ὕμνοις   ψαλμὸς   τῷ   Ασαφ   ᾠδὴ   πρὸς   τὸν   Ἀσσύριον
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	077	001	εἰς   τὸ   τέλος   ὑπὲρ   Ιδιθουν   τῷ   Ασαφ   ψαλμός
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	080	001	εἰς   τὸ   τέλος   ὑπὲρ   τῶν   ἀλλοιωθησομένων   μαρτύριον   τῷ   Ασαφ   ψαλμὸς   ὑπὲρ   τοῦ   Ἀσσυρίου
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	081	001	εἰς   τὸ   τέλος   ὑπὲρ   τῶν   ληνῶν   τῷ   Ασαφ   ψαλμός
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	083	001	ᾠδὴ   ψαλμοῦ   τῷ   Ασαφ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	084	001	εἰς   τὸ   τέλος   ὑπὲρ   τῶν   ληνῶν   τοῖς   υἱοῖς   Κορε   ψαλμός
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	085	001	εἰς   τὸ   τέλος   τοῖς   υἱοῖς   Κορε   ψαλμός
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	088	001	ᾠδὴ   ψαλμοῦ   τοῖς   υἱοῖς   Κορε   εἰς   τὸ   τέλος   ὑπὲρ   μαελεθ   τοῦ   ἀποκριθῆναι   συνέσεως   Αιμαν   τῷ   Ισραηλίτῃ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	089	001	συνέσεως   Αιθαν   τῷ   Ισραηλίτῃ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	092	001	ψαλμὸς   ᾠδῆς   εἰς   τὴν   ἡμέραν   τοῦ   σαββάτου
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	102	001	προσευχὴ   τῷ   πτωχῷ   ὅταν   ἀκηδιάσῃ   καὶ   ἐναντίον   κυρίου   ἐκχέῃ   τὴν   δέησιν   αὐτοῦ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	108	001	ᾠδὴ   ψαλμοῦ   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	140	001	εἰς   τὸ   τέλος   ψαλμὸς   τῷ   Δαυιδ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	142	001	συνέσεως   τῷ   Δαυιδ   ἐν   τῷ   εἶναι   αὐτὸν   ἐν   τῷ   σπηλαίῳ   προσευχή
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	151	001	οὗτος   ὁ   ψαλμὸς   ἰδιόγραφος   εἰς   Δαυιδ   καὶ   ἔξωθεν   τοῦ   ἀριθμοῦ   ὅτε   ἐμονομάχησεν   τῷ   Γολιαδ   μικρὸς   ἤμην   ἐν   τοῖς   ἀδελφοῖς   μου   καὶ   νεώτερος   ἐν   τῷ   οἴκῳ   τοῦ   πατρός   μου   ἐποίμαινον   τὰ   πρόβατα   τοῦ   πατρός   μου
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	151	002	αἱ   χεῖρές   μου   ἐποίησαν   ὄργανον   οἱ   δάκτυλοί   μου   ἥρμοσαν   ψαλτήριον
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	151	003	καὶ   τίς   ἀναγγελεῖ   τῷ   κυρίῳ   μου   αὐτὸς   κύριος   αὐτὸς   εἰσακούει
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	151	004	αὐτὸς   ἐξαπέστειλεν   τὸν   ἄγγελον   αὐτοῦ   καὶ   ἦρέν   με   ἐκ   τῶν   προβάτων   τοῦ   πατρός   μου   καὶ   ἔχρισέν   με   ἐν   τῷ   ἐλαίῳ   τῆς   χρίσεως   αὐτοῦ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	151	005	οἱ   ἀδελφοί   μου   καλοὶ   καὶ   μεγάλοι   καὶ   οὐκ   εὐδόκησεν   ἐν   αὐτοῖς   κύριος
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	151	006	ἐξῆλθον   εἰς   συνάντησιν   τῷ   ἀλλοφύλῳ   καὶ   ἐπικατηράσατό   με   ἐν   τοῖς   εἰδώλοις   αὐτοῦ
+Holy-Bible---Greek---Greek-LXX-Septuagint	019	PSA	151	007	ἐγὼ   δὲ   σπασάμενος   τὴν   παρ’   αὐτοῦ   μάχαιραν   ἀπεκεφάλισα   αὐτὸν   καὶ   ἦρα   ὄνειδος   ἐξ   υἱῶν   Ισραηλ
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	024	οὕτως   οὖν   προσηύξατο   Ανανιας   καὶ   Αζαριας   καὶ   Μισαηλ   καὶ   ὕμνησαν   τῷ   κυρίῳ   ὅτε   αὐτοὺς   ὁ   βασιλεὺς   προσέταξεν   ἐμβληθῆναι   εἰς   τὴν   κάμινον
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	025	στὰς   δὲ   Αζαριας   προσηύξατο   οὕτως   καὶ   ἀνοίξας   τὸ   στόμα   αὐτοῦ   ἐξωμολογεῖτο   τῷ   κυρίῳ   ἅμα   τοῖς   συνεταίροις   αὐτοῦ   ἐν   μέσῳ   τῷ   πυρὶ   ὑποκαιομένης   τῆς   καμίνου   ὑπὸ   τῶν   Χαλδαίων   σφόδρα   καὶ   εἶπαν
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	026	εὐλογητὸς   εἶ   κύριε   ὁ   θεὸς   τῶν   πατέρων   ἡμῶν   καὶ   αἰνετὸν   καὶ   δεδοξασμένον   τὸ   ὄνομά   σου   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	027	ὅτι   δίκαιος   εἶ   ἐπὶ   πᾶσιν   οἷς   ἐποίησας   ἡμῖν   καὶ   πάντα   τὰ   ἔργα   σου   ἀληθινά   καὶ   αἱ   ὁδοί   σου   εὐθεῖαι   καὶ   πᾶσαι   αἱ   κρίσεις   σου   ἀληθιναί
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	028	καὶ   κρίματα   ἀληθείας   ἐποίησας   κατὰ   πάντα   ἃ   ἐπήγαγες   ἡμῖν   καὶ   ἐπὶ   τὴν   πόλιν   σου   τὴν   ἁγίαν   τὴν   τῶν   πατέρων   ἡμῶν   Ιερουσαλημ   διότι   ἐν   ἀληθείᾳ   καὶ   κρίσει   ἐποίησας   πάντα   ταῦτα   διὰ   τὰς   ἁμαρτίας   ἡμῶν
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	029	ὅτι   ἡμάρτομεν   ἐν   πᾶσι   καὶ   ἠνομήσαμεν   ἀποστῆναι   ἀπὸ   σοῦ   καὶ   ἐξημάρτομεν   ἐν   πᾶσι   καὶ   τῶν   ἐντολῶν   τοῦ   νόμου   σου   οὐχ   ὑπηκούσαμεν
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	030	οὐδὲ   συνετηρήσαμεν   οὐδὲ   ἐποιήσαμεν   καθὼς   ἐνετείλω   ἡμῖν   ἵνα   εὖ   ἡμῖν   γένηται
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	031	καὶ   νῦν   πάντα   ὅσα   ἡμῖν   ἐπήγαγες   καὶ   πάντα   ὅσα   ἐποίησας   ἡμῖν   ἐν   ἀληθινῇ   κρίσει   ἐποίησας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	032	καὶ   παρέδωκας   ἡμᾶς   εἰς   χεῖρας   ἐχθρῶν   ἡμῶν   ἀνόμων   καὶ   ἐχθίστων   ἀποστατῶν   καὶ   βασιλεῖ   ἀδίκῳ   καὶ   πονηροτάτῳ   παρὰ   πᾶσαν   τὴν   γῆν
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	033	καὶ   νῦν   οὐκ   ἔστιν   ἡμῖν   ἀνοῖξαι   τὸ   στόμα   αἰσχύνη   καὶ   ὄνειδος   ἐγενήθη   τοῖς   δούλοις   σου   καὶ   τοῖς   σεβομένοις   σε
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	034	μὴ   παραδῷς   ἡμᾶς   εἰς   τέλος   διὰ   τὸ   ὄνομά   σου   καὶ   μὴ   διασκεδάσῃς   σου   τὴν   διαθήκην
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	035	καὶ   μὴ   ἀποστήσῃς   τὸ   ἔλεός   σου   ἀφ’   ἡμῶν   διὰ   Αβρααμ   τὸν   ἠγαπημένον   ὑπὸ   σοῦ   καὶ   διὰ   Ισαακ   τὸν   δοῦλόν   σου   καὶ   Ισραηλ   τὸν   ἅγιόν   σου
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	036	ὡς   ἐλάλησας   πρὸς   αὐτοὺς   λέγων   πληθῦναι   τὸ   σπέρμα   αὐτῶν   ὡς   τὰ   ἄστρα   τοῦ   οὐρανοῦ   καὶ   ὡς   τὴν   ἄμμον   τὴν   παρὰ   τὸ   χεῖλος   τῆς   θαλάσσης
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	037	ὅτι   δέσποτα   ἐσμικρύνθημεν   παρὰ   πάντα   τὰ   ἔθνη   καί   ἐσμεν   ταπεινοὶ   ἐν   πάσῃ   τῇ   γῇ   σήμερον   διὰ   τὰς   ἁμαρτίας   ἡμῶν
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	038	καὶ   οὐκ   ἔστιν   ἐν   τῷ   καιρῷ   τούτῳ   ἄρχων   καὶ   προφήτης   οὐδὲ   ἡγούμενος   οὐδὲ   ὁλοκαύτωσις   οὐδὲ   θυσία   οὐδὲ   προσφορὰ   οὐδὲ   θυμίαμα   οὐδὲ   τόπος   τοῦ   καρπῶσαι   ἐνώπιόν   σου   καὶ   εὑρεῖν   ἔλεος
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	039	ἀλλ’   ἐν   ψυχῇ   συντετριμμένῃ   καὶ   πνεύματι   τεταπεινωμένῳ   προσδεχθείημεν   ὡς   ἐν   ὁλοκαυτώμασι   κριῶν   καὶ   ταύρων   καὶ   ὡς   ἐν   μυριάσιν   ἀρνῶν   πιόνων
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	040	οὕτω   γενέσθω   ἡμῶν   ἡ   θυσία   ἐνώπιόν   σου   σήμερον   καὶ   ἐξιλάσαι   ὄπισθέν   σου   ὅτι   οὐκ   ἔστιν   αἰσχύνη   τοῖς   πεποιθόσιν   ἐπὶ   σοί   καὶ   τελειώσαι   ὄπισθέν   σου
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	041	καὶ   νῦν   ἐξακολουθοῦμεν   ἐν   ὅλῃ   καρδίᾳ   καὶ   φοβούμεθά   σε   καὶ   ζητοῦμεν   τὸ   πρόσωπόν   σου   μὴ   καταισχύνῃς   ἡμᾶς
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	042	ἀλλὰ   ποίησον   μεθ’   ἡμῶν   κατὰ   τὴν   ἐπιείκειάν   σου   καὶ   κατὰ   τὸ   πλῆθος   τοῦ   ἐλέους   σου
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	043	καὶ   ἐξελοῦ   ἡμᾶς   κατὰ   τὰ   θαυμάσιά   σου   καὶ   δὸς   δόξαν   τῷ   ὀνόματί   σου   κύριε
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	044	καὶ   ἐντραπείησαν   πάντες   οἱ   ἐνδεικνύμενοι   τοῖς   δούλοις   σου   κακὰ   καὶ   καταισχυνθείησαν   ἀπὸ   πάσης   δυναστείας   καὶ   ἡ   ἰσχὺς   αὐτῶν   συντριβείη
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	045	γνώτωσαν   ὅτι   σὺ   εἶ   μόνος   κύριος   ὁ   θεὸς   καὶ   ἔνδοξος   ἐφ’   ὅλην   τὴν   οἰκουμένην
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	046	καὶ   οὐ   διέλιπον   οἱ   ἐμβάλλοντες   αὐτοὺς   ὑπηρέται   τοῦ   βασιλέως   καίοντες   τὴν   κάμινον   καὶ   ἡνίκα   ἐνεβάλοσαν   τοὺς   τρεῖς   εἰς   ἅπαξ   εἰς   τὴν   κάμινον   καὶ   ἡ   κάμινος   ἦν   διάπυρος   κατὰ   τὴν   θερμασίαν   αὐτῆς   ἑπταπλασίως   καὶ   ὅτε   αὐτοὺς   ἐνεβάλοσαν   οἱ   μὲν   ἐμβάλλοντες   αὐτοὺς   ἦσαν   ὑπεράνω   αὐτῶν   οἱ   δὲ   ὑπέκαιον   ὑποκάτωθεν   αὐτῶν   νάφθαν   καὶ   στιππύον   καὶ   πίσσαν   καὶ   κληματίδα
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	047	καὶ   διεχεῖτο   ἡ   φλὸξ   ἐπάνω   τῆς   καμίνου   ἐπὶ   πήχεις   τεσσαράκοντα   ἐννέα
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	048	καὶ   διεξώδευσε   καὶ   ἐνεπύρισεν   οὓς   εὗρε   περὶ   τὴν   κάμινον   τῶν   Χαλδαίων
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	049	ἄγγελος   δὲ   κυρίου   συγκατέβη   ἅμα   τοῖς   περὶ   τὸν   Αζαριαν   εἰς   τὴν   κάμινον   καὶ   ἐξετίναξε   τὴν   φλόγα   τοῦ   πυρὸς   ἐκ   τῆς   καμίνου
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	050	καὶ   ἐποίησε   τὸ   μέσον   τῆς   καμίνου   ὡσεὶ   πνεῦμα   δρόσου   διασυρίζον   καὶ   οὐχ   ἥψατο   αὐτῶν   καθόλου   τὸ   πῦρ   καὶ   οὐκ   ἐλύπησε   καὶ   οὐ   παρηνώχλησεν   αὐτούς
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	051	ἀναλαβόντες   δὲ   οἱ   τρεῖς   ὡς   ἐξ   ἑνὸς   στόματος   ὕμνουν   καὶ   ἐδόξαζον   καὶ   εὐλόγουν   καὶ   ἐξύψουν   τὸν   θεὸν   ἐν   τῇ   καμίνῳ   λέγοντες
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	052	εὐλογητὸς   εἶ   κύριε   ὁ   θεὸς   τῶν   πατέρων   ἡμῶν   καὶ   αἰνετὸς   καὶ   ὑπερυψούμενος   εἰς   τοὺς   αἰῶνας   καὶ   εὐλογημένον   τὸ   ὄνομα   τῆς   δόξης   σου   τὸ   ἅγιον   καὶ   ὑπεραινετὸν   καὶ   ὑπερυψωμένον   εἰς   πάντας   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	053	εὐλογημένος   εἶ   ἐν   τῷ   ναῷ   τῆς   ἁγίας   δόξης   σου   καὶ   ὑπερυμνητὸς   καὶ   ὑπερένδοξος   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	054	εὐλογητὸς   εἶ   ἐπὶ   θρόνου   τῆς   βασιλείας   σου   καὶ   ὑμνητὸς   καὶ   ὑπερυψωμένος   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	055	εὐλογητὸς   εἶ   ὁ   βλέπων   ἀβύσσους   καθήμενος   ἐπὶ   χερουβιμ   καὶ   αἰνετὸς   καὶ   δεδοξασμένος   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	056	εὐλογητὸς   εἶ   ἐν   τῷ   στερεώματι   καὶ   ὑμνητὸς   καὶ   δεδοξασμένος   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	057	εὐλογεῖτε   πάντα   τὰ   ἔργα   τοῦ   κυρίου   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	058	εὐλογεῖτε   ἄγγελοι   κυρίου   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	059	εὐλογεῖτε   οὐρανοί   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	060	εὐλογεῖτε   ὕδατα   πάντα   τὰ   ἐπάνω   τοῦ   οὐρανοῦ   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	061	εὐλογεῖτε   πᾶσαι   αἱ   δυνάμεις   κυρίου   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	062	εὐλογεῖτε   ἥλιος   καὶ   σελήνη   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	063	εὐλογεῖτε   ἄστρα   τοῦ   οὐρανοῦ   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	064	εὐλογεῖτε   πᾶς   ὄμβρος   καὶ   δρόσος   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	065	εὐλογεῖτε   πάντα   τὰ   πνεύματα   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	066	εὐλογεῖτε   πῦρ   καὶ   καῦμα   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	067	εὐλογεῖτε   ῥῖγος   καὶ   ψῦχος   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	068	εὐλογεῖτε   δρόσοι   καὶ   νιφετοί   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	069	εὐλογεῖτε   πάγοι   καὶ   ψῦχος   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	070	εὐλογεῖτε   πάχναι   καὶ   χιόνες   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	071	εὐλογεῖτε   νύκτες   καὶ   ἡμέραι   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	072	εὐλογεῖτε   φῶς   καὶ   σκότος   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	073	εὐλογεῖτε   ἀστραπαὶ   καὶ   νεφέλαι   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	074	εὐλογείτω   ἡ   γῆ   τὸν   κύριον   ὑμνείτω   καὶ   ὑπερυψούτω   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	075	εὐλογεῖτε   ὄρη   καὶ   βουνοί   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	076	εὐλογεῖτε   πάντα   τὰ   φυόμενα   ἐπὶ   τῆς   γῆς   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	077	εὐλογεῖτε   αἱ   πηγαί   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	078	εὐλογεῖτε   θάλασσαι   καὶ   ποταμοί   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	079	εὐλογεῖτε   κήτη   καὶ   πάντα   τὰ   κινούμενα   ἐν   τοῖς   ὕδασι   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	080	εὐλογεῖτε   πάντα   τὰ   πετεινὰ   τοῦ   οὐρανοῦ   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	081	εὐλογεῖτε   τετράποδα   καὶ   θηρία   τῆς   γῆς   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	082	εὐλογεῖτε   οἱ   υἱοὶ   τῶν   ἀνθρώπων   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	083	εὐλογεῖτε   Ισραηλ   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	084	εὐλογεῖτε   ἱερεῖς   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	085	εὐλογεῖτε   δοῦλοι   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	086	εὐλογεῖτε   πνεύματα   καὶ   ψυχαὶ   δικαίων   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	087	εὐλογεῖτε   ὅσιοι   καὶ   ταπεινοὶ   καρδίᾳ   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	088	εὐλογεῖτε   Ανανια   Αζαρια   Μισαηλ   τὸν   κύριον   ὑμνεῖτε   καὶ   ὑπερυψοῦτε   αὐτὸν   εἰς   τοὺς   αἰῶνας   ὅτι   ἐξείλετο   ἡμᾶς   ἐξ   ᾅδου   καὶ   ἔσωσεν   ἡμᾶς   ἐκ   χειρὸς   θανάτου   καὶ   ἐρρύσατο   ἡμᾶς   ἐκ   μέσου   καιομένης   φλογὸς   καὶ   ἐκ   τοῦ   πυρὸς   ἐλυτρώσατο   ἡμᾶς
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	089	ἐξομολογεῖσθε   τῷ   κυρίῳ   ὅτι   χρηστός   ὅτι   εἰς   τὸν   αἰῶνα   τὸ   ἔλεος   αὐτοῦ
+Holy-Bible---Greek---Greek-LXX-Septuagint	027	DAN	003	090	εὐλογεῖτε   πάντες   οἱ   σεβόμενοι   τὸν   θεὸν   τῶν   θεῶν   ὑμνεῖτε   καὶ   ἐξομολογεῖσθε   ὅτι   εἰς   τὸν   αἰῶνα   τὸ   ἔλεος   αὐτοῦ   καὶ   εἰς   τὸν   αἰῶνα   τῶν   αἰώνων
 Holy-Bible---Greek---Greek-Majority-Text	042	LUK	017	036	
 Holy-Bible---Greek---Greek-Majority-Text	044	ACT	008	037	
 Holy-Bible---Greek---Greek-Majority-Text	044	ACT	015	034	

@@ -357,7 +357,7 @@ Holy-Bible---Italian---Italian-Riveduta-Bible				https://ebible.org/Scriptures/i
 Holy-Bible---Japanese---Japanese-Bungo-yaku	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/JapBungo.zip	Holy-Bible---Japanese---Japanese-Bungo-yaku---Source-Edition.SWORD.zip
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/JapDenmo.zip	Holy-Bible---Japanese---Japanese-Electronic-Network-Bible---Source-Edition.SWORD.zip
 Holy-Bible---Japanese---Japanese-Kougo-yaku	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/JapKougo.zip	Holy-Bible---Japanese---Japanese-Kougo-yaku---Source-Edition.SWORD.zip
-Holy-Bible---Japanese---Japanese-Meiji-yaku	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/JapMeiji.zip	Holy-Bible---Japanese---Japanese-Meiji-yaku---Source-Edition.SWORD.zip
+Holy-Bible---Japanese---Japanese-Meiji-yaku	SWORD			./aion_source/JapMeiji.zip	Holy-Bible---Japanese---Japanese-Meiji-yaku---Source-Edition.SWORD.zip
 Holy-Bible---Japanese---Japanese-Raguet-yaku	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/JapRaguet.zip	Holy-Bible---Japanese---Japanese-Raguet-yaku---Source-Edition.SWORD.zip
 Holy-Bible---Japanese---New-Japanese-New-Testament				https://ebible.org/sword/zip/jpn1965eb.zip	Holy-Bible---Japanese---New-Japanese-New-Testament---Source-Edition.SWORD.zip
 Holy-Bible---Japanese---New-Japanese-New-Testament				https://ebible.org/epub/jpn1965.epub	Holy-Bible---Japanese---New-Japanese-New-Testament---Source-Edition.epub

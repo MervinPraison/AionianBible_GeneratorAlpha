@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 489623      
-# File Date: 08/27/2022 15:47:29
+# File Size: 489676      
+# File Date: 09/02/2022 14:07:56
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022
@@ -226,7 +226,7 @@ Holy-Bible---Chin-Thado---Chongthu-Bible	GEN-003-024	Semtilbu 3:24	Hiti chun Pat
 Holy-Bible---Chin-Thado---Chongthu-Bible	LUK-023-034	Luke 23:34	Jesun aseitai, “Hepa, ngaidam in, ajeh chu ipi abol'u ahepouve,” ati.  Chule sepai hon aponsil chu vang asang'un achangding akivelhauve.
 Holy-Bible---Chin-Thado---Chongthu-Bible	REV-021-002	Revelation 21:2-3	Chule keiman khopi theng Jerusalem thah chu van Pathena kon'a mou aji dingpa hoitah'a akivon'a ahung kumlhah kamun ahi. Keiman laltounaa kon'a aw hung kisam gin kajan, aseiyin, “Ven, Pathen chenna in chu mihemlah ahung hitai!  Ama amahotoh chengkhom intin, chule amaho chu Ama mite hiding ahiuve.  Pathen Amatah chun amaho aumpi diu ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	HEB-011-008	Hebrew 11:8	Tahsan jal'in Abraham chu Pathen in a'in dalha dinga akouva chule gouva alodinga ateppehna gama che dinga akou chun thun ananung'e.  Aman hoilama ache ding jong kihetlouvin anapotdoh jenge.
-Holy-Bible---Chin-Thado---Chongthu-Bible	EXO-013-017	Potdohbu 13:17	Ajonan Pharoah vin Israel mite ahin soldoh tan ahile, gamtepna lamlhun’na naicha ahi vang chun, Pathen’in Philistine galbol hojih chun lampia ahinpui pouvin ahi.  Pathen’in aseiye, “Kamite hon galtoh khata le alung heikhao vintin Egypt lam’a kile ding ahiuve,” ati.
+Holy-Bible---Chin-Thado---Chongthu-Bible	EXO-013-017	Potdohbu 13:17	Ajonan Pharaoh vin Israel mite ahin soldoh tan ahile, gamtepna lamlhun’na naicha ahi vang chun, Pathen’in Philistine galbol hojih chun lampia ahinpui pouvin ahi.  Pathen’in aseiye, “Kamite hon galtoh khata le alung heikhao vintin Egypt lam’a kile ding ahiuve,” ati.
 Holy-Bible---Chin-Thado---Chongthu-Bible	MAR-010-045	Mark 10:45	Ijeh inem iti leh Mihem Chapa tah jong chu jen dinga hung hilouvin mijenle ding le mitampi lhatdohna dinga ahinna tohdoh ding joh-a hung ahibouve,” ati.
 Holy-Bible---Chin-Thado---Chongthu-Bible	ROM-001-001	Rome 1:1	Hiche lekhathot hi Christa Jesu soh, solchah hidinga Pathen lhendoh, Ama Kipana Thupha seiphong dinga kisoldoh, Paul'a kon ahi:
 Holy-Bible---Chin-Thado---Chongthu-Bible	MAT-028-019	Matthew 28:19	Hijeh chun, nangho cheuvin chule namtin jouse seijuiyin gasemun, amaho chu Pa le Chapa chule Lhagao Theng min-in Twilutsah uvin.
@@ -969,11 +969,11 @@ Holy-Bible---Greek---Greek-Byzantine-Majority	MAR-010-045	Κατα Μαρκον 
 Holy-Bible---Greek---Greek-Byzantine-Majority	ROM-001-001	Προς Ρωμαιους 1:1	παυλος δουλος ιησου χριστου κλητος αποστολος αφωρισμενος εις ευαγγελιον θεου
 Holy-Bible---Greek---Greek-Byzantine-Majority	MAT-028-019	Κατα Ματθαιον 28:19	πορευθεντες μαθητευσατε παντα τα εθνη βαπτιζοντες αυτους εις το ονομα του πατρος και του υιου και του αγιου πνευματος
 Holy-Bible---Greek---Greek-LXX-Septuagint	JOH-003-016		
-Holy-Bible---Greek---Greek-LXX-Septuagint	GEN-003-024	Γένεσις 3:24	και εξεβαλεν τον αδαμ και κατωκισεν αυτον απεναντι του παραδεισου της τρυφης και εταξεν τα χερουβιμ και την φλογινην ρομφαιαν την στρεφομενην φυλασσειν την οδον του ξυλου της ζωης
+Holy-Bible---Greek---Greek-LXX-Septuagint	GEN-003-024	Γένεσις 3:24	καὶ ἐξέβαλεν τὸν Αδαμ καὶ κατῴκισεν αὐτὸν ἀπέναντι τοῦ παραδείσου τῆς τρυφῆς καὶ ἔταξεν τὰ χερουβιμ καὶ τὴν φλογίνην ῥομφαίαν τὴν στρεφομένην φυλάσσειν τὴν ὁδὸν τοῦ ξύλου τῆς ζωῆς
 Holy-Bible---Greek---Greek-LXX-Septuagint	LUK-023-034		
 Holy-Bible---Greek---Greek-LXX-Septuagint	REV-021-002		 
 Holy-Bible---Greek---Greek-LXX-Septuagint	HEB-011-008		
-Holy-Bible---Greek---Greek-LXX-Septuagint	EXO-013-017	Ἔξοδος 13:17	ως δε εξαπεστειλεν φαραω τον λαον ουχ ωδηγησεν αυτους ο θεος οδον γης φυλιστιιμ οτι εγγυς ην ειπεν γαρ ο θεος μηποτε μεταμεληση τω λαω ιδοντι πολεμον και αποστρεψη εις αιγυπτον
+Holy-Bible---Greek---Greek-LXX-Septuagint	EXO-013-017	Ἔξοδος 13:17	ὡς δὲ ἐξαπέστειλεν Φαραω τὸν λαόν οὐχ ὡδήγησεν αὐτοὺς ὁ θεὸς ὁδὸν γῆς Φυλιστιιμ ὅτι ἐγγὺς ἦν εἶπεν γὰρ ὁ θεός μήποτε μεταμελήσῃ τῷ λαῷ ἰδόντι πόλεμον καὶ ἀποστρέψῃ εἰς Αἴγυπτον
 Holy-Bible---Greek---Greek-LXX-Septuagint	MAR-010-045		
 Holy-Bible---Greek---Greek-LXX-Septuagint	ROM-001-001		
 Holy-Bible---Greek---Greek-LXX-Septuagint	MAT-028-019		
