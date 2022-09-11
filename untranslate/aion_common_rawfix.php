@@ -2487,6 +2487,9 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---English---King-James-Version-Updated" :
+if (!($bfile = preg_replace('/\(p\.[ ]+/us','(',$bfile,-1,$rnum)) || $rnum!=13) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/\(o\.[ ]+/us','(',$bfile,-1,$rnum)) || $rnum!=902) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
 if (!($bfile = preg_replace("/leth\./us","",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
