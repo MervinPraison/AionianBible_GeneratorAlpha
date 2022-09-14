@@ -1,6 +1,6 @@
 # File Name: BOOKS_CHECK.txt
 # File Size: 165723      
-# File Date: 09/11/2022 09:32:37
+# File Date: 09/13/2022 23:55:22
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022

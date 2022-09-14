@@ -2003,10 +2003,10 @@ else if ($_Part[0]==='Bibles' && $_pnum>=3 && $_pnum<=5) {
 	else if ($_pnum===3 && $_Part[2]==='New') {											$name = "Table of Contents New Testament"; }
 	else if ($_pnum===3 && $_Part[2]==='Noted') {										$name = "Aionian Verses"; }
 	else if (!empty($_BibleCHAP1[1])) {
-		if ($_pnum===3) {																$name = "$_Part[2] Chapter 1";				$text = '"text" : "'.$_BibleCHAP1[1].'",'; }
-		else if ($_pnum===4) {															$name = "$_Part[2] Chapter $_Part[3]";		$text = '"text" : "'.$_BibleCHAP1[1].'",'; }
-		else if ($_pnum===5 && (empty($_Part[4]) || empty($_BibleCHAP1[$_Part[4]]))) {	$name = "$_Part[2] Chapter $_Part[3]";		$text = '"text" : "'.$_BibleCHAP1[1].'",'; }
-		else if ($_pnum===5) {															$name = "$_Part[2] $_Part[3]:$_Part[4]";	$text = '"text" : "'.$_BibleCHAP1[$_Part[4]].'",'; }
+		if ($_pnum===3) {																$name = "$_Part[2] Chapter 1";				$text = '"text" : "'.str_replace('"','',$_BibleCHAP1[1]).'",'; }
+		else if ($_pnum===4) {															$name = "$_Part[2] Chapter $_Part[3]";		$text = '"text" : "'.str_replace('"','',$_BibleCHAP1[1]).'",'; }
+		else if ($_pnum===5 && (empty($_Part[4]) || empty($_BibleCHAP1[$_Part[4]]))) {	$name = "$_Part[2] Chapter $_Part[3]";		$text = '"text" : "'.str_replace('"','',$_BibleCHAP1[1]).'",'; }
+		else if ($_pnum===5) {															$name = "$_Part[2] $_Part[3]:$_Part[4]";	$text = '"text" : "'.str_replace('"','',$_BibleCHAP1[$_Part[4]]).'",'; }
 		else { return; }
 	}
 	else { return; }
@@ -2022,7 +2022,8 @@ else if ($_Part[0]==='Bibles' && $_pnum>=3 && $_pnum<=5) {
   "headline" : "Holy Bible Aionian Edition® '.$bible.' in '.$lang.' language, verse reference '.$name.'",
   "educationalUse" : "to restore relationship to God and all mankind with the truth, personal transformation, and growth",
   "keywords" : "Holy,Bible,Aionian,Edition,'.$bible.','.$lang.',Verse,Reference,'.$name.'",
-  "description" : "Holy Bible Aionian Edition® '.$bible.' in '.$lang.' language, verse reference '.$name.'",'.$text.'
+  "description" : "Holy Bible Aionian Edition® '.$bible.' in '.$lang.' language, verse reference '.$name.'",
+  '.$text.'
   "genre" : "http://vocab.getty.edu/aat/300264513",
   "inLanguage" : "'.$_BibleONE['T_VERSIONS']['LANGUAGECODEISO'].'",
   "author" : { "@id": "https://www.AionianBible.org/Bibles/'.$bkey.'/#Provider" },
