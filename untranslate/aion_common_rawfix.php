@@ -914,7 +914,7 @@ PSA 100:2
 EOF;
 if (!($bfile = preg_replace("/PSA 100:1 (.+?)PSA 100:2 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $blockfix = <<<EOF
-PSA 123:1 Van a alaltouna a tou o Pathen nangma munomna in kadah’in kahinvei.
+PSA 123:1 Van'a alaltouna a tou o Pathen nangma munomna in kadah’in kahinvei.
 PSA 123:2 
 EOF;
 if (!($bfile = preg_replace("/PSA 123:1 (.+?)PSA 123:2 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -12295,7 +12295,7 @@ goto RAWHIDE;
 case "Holy-Bible---Romani-Vlax---Arli-Luke" :
 $bigfix = <<<EOF
 LUK 9:30 I dikh, nekotar iklile duj manuša ano baro sjaj, o Mojsije hem o Ilija, hem lelje te vaćeren e Isuseja.
-LUK 9:31 On vaćerde e meribnastar savo adžićeri ano Jerusalim e Isuse.
+LUK 9:31 On vaćerde e meribnastar savo e Isuse adžićeri ano Jerusalim.
 LUK 9:32 
 EOF;
 if (!($bfile = preg_replace("/LUK 9:30 (.+?)LUK 9:32 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
