@@ -307,10 +307,10 @@ form input[type="submit"]:focus {
 
 /*** PRINT ***/
 @media print {
-	#sticky-body { margin: 0 auto; }
-	#body { padding: 10px 5% 2%; }
+	#sticky-body { margin: 0 auto !important; }
+	#body { padding: 10px 5% 2% !important; }
 	#head,
 	#google_translate_element,
 	#sticky-push,
-	#sticky-foot { display: none; }
+	#sticky-foot { display: none !important; }
 }
