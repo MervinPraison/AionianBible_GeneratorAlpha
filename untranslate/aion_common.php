@@ -310,7 +310,7 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $domain, $allbibl
 		(!empty($L_LULU)		?("<a href='$L_LULU' target='_blank' title='Buy Holy Bible Aionian Edition print copy at Lulu.com'>Lulu</a>, ")								:'').
 		(!empty($L_LULUHARD)	?("<a href='$L_LULUHARD' target='_blank' title='Buy Holy Bible Aionian Edition hardcover copy at Lulu.com'>Lulu Hardcover</a>, ")				:'').
 		(!empty($L_LULUNT)		?("<a href='$L_LULUNT' target='_blank' title='Buy Holy Bible Aionian Edition New Testament print copy at Lulu.com'>Lulu New Testament</a>, ")	:'').
-		($bible=='Holy-Bible---English---Aionian-Bible'	?("<a href='https://www.lulu.com/content/26189474' target='_blank' title='Buy Holy Bible Aionian Edition Aionian Bible 22 Book Special Edition print copy at Lulu.com'>Lulu 22 Special</a>")	:'').
+		($bible=='Holy-Bible---English---Aionian-Bible'	?("<a href='https://www.lulu.com/shop/-nainoia-inc/holy-bible-aionian-edition-aionian-bible-22-book-digest-special-edition/paperback/product-1qkg7e89.html' target='_blank' title='Buy Holy Bible Aionian Edition Aionian Bible 22 Book Special Edition print copy at Lulu.com'>Lulu 22 Special</a>")	:'').
 		"</div></div>")
 		 : "").
 		
