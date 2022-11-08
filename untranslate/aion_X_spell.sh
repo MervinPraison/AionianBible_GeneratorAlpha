@@ -1143,6 +1143,48 @@ system('wc -l ../spellcheck/Holy-Bible---English---Rotherham-Bible.en');
 
 
 
+// SPELL CHECK: Holy-Bible---English---STEPBible-Amalgamant (en)
+system("cat ../www-stageresources/Holy-Bible---English---STEPBible-Amalgamant---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---English---STEPBible-Amalgamant.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---English---STEPBible-Amalgamant.WORDS');
+system("cat ../www-stageresources/Holy-Bible---English---STEPBible-Amalgamant---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq | ".
+"aspell -a --dont-suggest --dont-time --dont-guess --lang=en | ".
+"sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
+"> ../spellcheck/Holy-Bible---English---STEPBible-Amalgamant.en");
+system('wc -l ../spellcheck/Holy-Bible---English---STEPBible-Amalgamant.en');
+
+
+
+
+// SPELL CHECK: Holy-Bible---English---STEPBible-Concordant (en)
+system("cat ../www-stageresources/Holy-Bible---English---STEPBible-Concordant---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq ".
+"> ../spellcheck/Holy-Bible---English---STEPBible-Concordant.WORDS");
+system('wc -l ../spellcheck/Holy-Bible---English---STEPBible-Concordant.WORDS');
+system("cat ../www-stageresources/Holy-Bible---English---STEPBible-Concordant---Standard-Edition.noia | ".
+"sed -E -e 's/[[:space:]]+/\\n/g' | ".
+"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
+"sort | ".
+"uniq | ".
+"aspell -a --dont-suggest --dont-time --dont-guess --lang=en | ".
+"sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
+"> ../spellcheck/Holy-Bible---English---STEPBible-Concordant.en");
+system('wc -l ../spellcheck/Holy-Bible---English---STEPBible-Concordant.en');
+
+
+
+
 // SPELL CHECK: Holy-Bible---English---Trans-Trans (en)
 system("cat ../www-stageresources/Holy-Bible---English---Trans-Trans---Standard-Edition.noia | ".
 "sed -E -e 's/[[:space:]]+/\\n/g' | ".
@@ -1202,48 +1244,6 @@ system("cat ../www-stageresources/Holy-Bible---English---Tyndale-Bible---Standar
 "sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
 "> ../spellcheck/Holy-Bible---English---Tyndale-Bible.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Tyndale-Bible.en');
-
-
-
-
-// SPELL CHECK: Holy-Bible---English---STEPBible-Amalgamant (en)
-system("cat ../www-stageresources/Holy-Bible---English---STEPBible-Amalgamant---Standard-Edition.noia | ".
-"sed -E -e 's/[[:space:]]+/\\n/g' | ".
-"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
-"sort | ".
-"uniq ".
-"> ../spellcheck/Holy-Bible---English---STEPBible-Amalgamant.WORDS");
-system('wc -l ../spellcheck/Holy-Bible---English---STEPBible-Amalgamant.WORDS');
-system("cat ../www-stageresources/Holy-Bible---English---STEPBible-Amalgamant---Standard-Edition.noia | ".
-"sed -E -e 's/[[:space:]]+/\\n/g' | ".
-"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
-"sort | ".
-"uniq | ".
-"aspell -a --dont-suggest --dont-time --dont-guess --lang=en | ".
-"sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
-"> ../spellcheck/Holy-Bible---English---STEPBible-Amalgamant.en");
-system('wc -l ../spellcheck/Holy-Bible---English---STEPBible-Amalgamant.en');
-
-
-
-
-// SPELL CHECK: Holy-Bible---English---STEPBible-Concordant (en)
-system("cat ../www-stageresources/Holy-Bible---English---STEPBible-Concordant---Standard-Edition.noia | ".
-"sed -E -e 's/[[:space:]]+/\\n/g' | ".
-"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
-"sort | ".
-"uniq ".
-"> ../spellcheck/Holy-Bible---English---STEPBible-Concordant.WORDS");
-system('wc -l ../spellcheck/Holy-Bible---English---STEPBible-Concordant.WORDS');
-system("cat ../www-stageresources/Holy-Bible---English---STEPBible-Concordant---Standard-Edition.noia | ".
-"sed -E -e 's/[[:space:]]+/\\n/g' | ".
-"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\w+)[[:space:][:punct:][:digit:]]*\$/\\1/g' | ".
-"sort | ".
-"uniq | ".
-"aspell -a --dont-suggest --dont-time --dont-guess --lang=en | ".
-"sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\$//g' -e '/^[[:space:][:punct:][:digit:]]*\$/d' ".
-"> ../spellcheck/Holy-Bible---English---STEPBible-Concordant.en");
-system('wc -l ../spellcheck/Holy-Bible---English---STEPBible-Concordant.en');
 
 
 
