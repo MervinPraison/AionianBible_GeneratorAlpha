@@ -37,7 +37,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---(Arabic|Aramaic|Hebrew|Persian).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Gujarati|Aionian-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|New-Arabic|Version-Simplified).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Spanish---Free-Bible).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(King-James-Version-Updated).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Myanmar-Burmese-Judson).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic|Nepali).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Bulgarian|Cebuano|Gourmantche|Nepali|Uyghur-Bible-Arabic|Uyghur-Bible-Cyrillic|Uyghur-Bible-Pinyin).*---Aionian-Edition\.noia$/",
@@ -99,8 +99,12 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 	// VARIABLES
 	$speed = '../AB-Speedata/bin/sp';
 	$speed2 = '../www-stageresources/AB-Speedata/bin/sp';
+	static $rundate = NULL; if ($rundate===NULL) { $rundate = date("n/j/Y"); }
 	global $speedata_version;
-	$speedata_version = ($speedata_version!==NULL ? $speedata_version : (!preg_match("/^(.*) ([^ ]+)$/", system("$speed2 --version 2>&1"), $match) || empty($match[2]) ? "" : " version $match[2] on"));
+	$speedata_version =
+		($speedata_version !== NULL ? $speedata_version :
+		(!preg_match("/^(.*)\s+([^ ]+)\s+([^ ]+)$/", system("$speed2 --version 2>&1"), $match) || empty($match[2]) || empty($match[3]) ? "Speedata Publisher on $rundate" :
+		"Speedata Publisher $match[2] $match[3] on $rundate"));
 	$lua = "runtime = require('runtime')\nschema = '../AB-Speedata/share/schema/layoutschema-en.rng'\nok, msg = runtime.validate_relaxng('XMLTOVALIDATE',schema)\nif not ok then\nprint(msg)\nos.exit(-1)\nend";
 	$versions = $args['database']['T_VERSIONS'][$bible];
 	$default = $args['database']['T_FORPRINT']['DEFAULT'];
@@ -981,8 +985,6 @@ $versionSS_CP .= "<Value>Source copyright: ".$versions['COPYRIGHT']."</Value><Br
 $versionSS_CP .= "<Value>".$versions['SOURCE'].(empty($versions['YEAR']) ? "" : ", ".$versions['YEAR'])."</Value><Br />";
 $versionSS_CP .= (empty($versions['DESCRIPTION']) ? "" : "<Value>".$versions['DESCRIPTION']."</Value><Br />");
 $versionSS_CP .= (empty($isbn) || $isbn=="UNKNOWN" ? "" : "<Value>ISBN: ".$isbn."</Value><Br />");
-static $rundate = NULL;
-if ($rundate===NULL) { $rundate = date("n/j/Y"); }
 // extension
 $extension_text = '';
 $copyright_row = '50';
@@ -1155,7 +1157,7 @@ $helpneeded = "<Value>We pray for a modern public domain translation in every la
 return <<<EOT
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="urn:speedata.de:2009/publisher/en" xmlns:sd="urn:speedata:2009/publisher/functions/en">
-<PDFOptions author="https://NAINOIA-INC.signedon.net" title="$versionsMETA (CC BY-ND 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" showbookmarks="yes" />
+<PDFOptions author="https://NAINOIA-INC.signedon.net" title="$versionsMETA (CC BY-ND 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" displaymode="bookmarks" />
 <Options reportmissingglyphs="warning" mainlanguage="English (USA)" />
 $fonts
 
@@ -1371,7 +1373,7 @@ $fonts
 		</Fontface></Paragraph><Paragraph textformat="centerpad"><Fontface fontfamily='FF-Copy'>
 			$versionSS_CP
 		</Fontface></Paragraph><Paragraph textformat="centerpad"><Fontface fontfamily='FF-Copy'>
-			<Value>Formatted by Speedata Publisher$speedata_version $rundate</Value><Br />
+			<Value>Formatted by $speedata_version</Value><Br />
 			<Value>100% Free to Copy and Print</Value><Br />
 			$link_ab
 		</Fontface></Paragraph><Paragraph textformat="centerpad"><Fontface fontfamily='FF-Copy'>
@@ -1944,8 +1946,6 @@ $versionSS_CP .= "<Value>Source copyright: ".$versions['COPYRIGHT']."</Value><Br
 $versionSS_CP .= "<Value>".$versions['SOURCE'].(empty($versions['YEAR']) ? "" : ", ".$versions['YEAR'])."</Value><Br />";
 $versionSS_CP .= (empty($versions['DESCRIPTION']) ? "" : "<Value>".$versions['DESCRIPTION']."</Value><Br />");
 $versionSS_CP .= (empty($isbn) || $isbn=="UNKNOWN" ? "" : "<Value>ISBN: ".$isbn."</Value><Br />");
-static $rundate = NULL;
-if ($rundate===NULL) { $rundate = date("n/j/Y"); }
 // extension
 $extension_text = '';
 $copyright_row = '50';
@@ -1976,7 +1976,7 @@ $helpneeded = "<Value>We pray for a modern public domain translation in every la
 return <<<EOT
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="urn:speedata.de:2009/publisher/en" xmlns:sd="urn:speedata:2009/publisher/functions/en">
-<PDFOptions author="https://NAINOIA-INC.signedon.net" title="$versionsMETA (CC BY-ND 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" showbookmarks="yes" />
+<PDFOptions author="https://NAINOIA-INC.signedon.net" title="$versionsMETA (CC BY-ND 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" displaymode="bookmarks" />
 <Options reportmissingglyphs="warning" mainlanguage="English (USA)" />
 $fonts
 
@@ -2019,7 +2019,7 @@ $fonts
 		</Fontface></Paragraph><Paragraph textformat="centerpad"><Fontface fontfamily='FF-Copy'>
 			$versionSS_CP
 		</Fontface></Paragraph><Paragraph textformat="centerpad"><Fontface fontfamily='FF-Copy'>
-			<Value>Formatted by Speedata Publisher$speedata_version $rundate</Value><Br />
+			<Value>Formatted by $speedata_version</Value><Br />
 			<Value>100% Free to Copy and Print</Value><Br />
 			<U><Value>AionianBible.or</Value></U><Value>g</Value>
 		</Fontface></Paragraph><Paragraph textformat="centerpad"><Fontface fontfamily='FF-Copy'>
@@ -2196,7 +2196,7 @@ if ($rtl!="TRUE") {
 return <<<EOT
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="urn:speedata.de:2009/publisher/en" xmlns:sd="urn:speedata:2009/publisher/functions/en">
-<PDFOptions author="https://NAINOIA-INC.signedon.net" title="$versionsMETA (CC BY-ND 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" showbookmarks="yes" />
+<PDFOptions author="https://NAINOIA-INC.signedon.net" title="$versionsMETA (CC BY-ND 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" displaymode="bookmarks" />
 <Options reportmissingglyphs="warning" mainlanguage="English (USA)" />
 $fonts
 
@@ -2429,7 +2429,7 @@ else {
 return <<<EOT
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="urn:speedata.de:2009/publisher/en" xmlns:sd="urn:speedata:2009/publisher/functions/en">
-<PDFOptions author="https://NAINOIA-INC.signedon.net" title="$versionsMETA (CC BY-ND 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" showbookmarks="yes" />
+<PDFOptions author="https://NAINOIA-INC.signedon.net" title="$versionsMETA (CC BY-ND 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" displaymode="bookmarks" />
 <Options reportmissingglyphs="warning" mainlanguage="English (USA)" />
 $fonts
 
