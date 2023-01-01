@@ -1,9 +1,9 @@
 # File Name: IVERSE.txt
-# File Size: 489622      
-# File Date: 12/13/2022 20:09:07
+# File Size: 489663      
+# File Date: 01/01/2023 02:13:45
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
-# File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022
+# File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2023
 # File Generator: ABCMS (alpha)
 # File Accuracy: Contact publisher with corrections to file format or content
 # Publisher Name: Nainoia Inc
@@ -770,14 +770,14 @@ Holy-Bible---French---French-Crampon-Bible	EXO-013-017	Exode 13:17	Lorsque Phara
 Holy-Bible---French---French-Crampon-Bible	MAR-010-045	Marc 10:45	Car le Fils de l'homme est venu, non pour être servi, mais pour servir et donner sa vie pour la rançon de la multitude.  "
 Holy-Bible---French---French-Crampon-Bible	ROM-001-001	Romains 1:1	Paul, serviteur du Christ-Jésus, apôtre par son appel, mis à part pour annoncer l'Evangile de Dieu,
 Holy-Bible---French---French-Crampon-Bible	MAT-028-019	Matthieu 28:19	Allez donc, enseignez toutes les nations, les baptisant au nom du Père, et du Fils et du Saint-Esprit,
-Holy-Bible---French---French-Darby-Bible	JOH-003-016	Jean 3:16	Car Dieu a tant aimé le monde, qu'il a donné son Fils unique, afin que quiconque croit en lui ne périsse pas, mais qu'il ait la vie éternelle.
-Holy-Bible---French---French-Darby-Bible	GEN-003-024	Genèse 3:24	il chassa l'homme, et plaça à l'orient du jardin d'Éden les chérubins et la lame de l'épée qui tournait çà et là, pour garder le chemin de l'arbre de vie.
-Holy-Bible---French---French-Darby-Bible	LUK-023-034	Luc 23:34	Et Jésus dit: Père, pardonne-leur, car ils ne savent ce qu'ils font.  Et ayant fait le partage de ses vêtements, ils tirèrent au sort.
-Holy-Bible---French---French-Darby-Bible	REV-021-002	Apocalypse 21:2-3	Et je vis la sainte cité, nouvelle Jérusalem, descendant du ciel d'auprès de Dieu, préparée comme une épouse ornée pour son mari. Et j'ouïs une grande voix venant du ciel, disant: Voici, l'habitation de Dieu est avec les hommes, et il habitera avec eux; et ils seront son peuple, et Dieu lui-même sera avec eux, leur Dieu.
-Holy-Bible---French---French-Darby-Bible	HEB-011-008	Hébreux 11:8	Par la foi, Abraham, étant appelé, obéit pour s'en aller au lieu qu'il devait recevoir pour héritage; et il s'en alla, ne sachant où il allait.
-Holy-Bible---French---French-Darby-Bible	EXO-013-017	Exode 13:17	Et il arriva, quand le Pharaon laissa aller le peuple, que Dieu ne les conduisit pas par le chemin du pays des Philistins, qui est pourtant proche; car Dieu dit: De peur que le peuple ne se repente lorsqu'ils verront la guerre, et qu'ils ne retournent en Égypte.
-Holy-Bible---French---French-Darby-Bible	MAR-010-045	Marc 10:45	Car aussi le fils de l'homme n'est pas venu pour être servi, mais pour servir et pour donner sa vie en rançon pour plusieurs.
-Holy-Bible---French---French-Darby-Bible	ROM-001-001	Romains 1:1	Paul, esclave de Jésus Christ, apôtre appelé, mis à part pour l'évangile de Dieu
+Holy-Bible---French---French-Darby-Bible	JOH-003-016	Jean 3:16	Car Dieu a tant aimé le monde, qu’il a donné son Fils unique, afin que quiconque croit en lui ne périsse pas, mais qu’il ait la vie éternelle.
+Holy-Bible---French---French-Darby-Bible	GEN-003-024	Genèse 3:24	il chassa l’homme, et plaça à l’orient du jardin d’Éden les chérubins et la lame de l’épée qui tournait çà et là, pour garder le chemin de l’arbre de vie.
+Holy-Bible---French---French-Darby-Bible	LUK-023-034	Luc 23:34	Et Jésus dit: Père, pardonne-leur, car ils ne savent ce qu’ils font.  Et ayant fait le partage de ses vêtements, ils tirèrent au sort.
+Holy-Bible---French---French-Darby-Bible	REV-021-002	Apocalypse 21:2-3	Et je vis la sainte cité, nouvelle Jérusalem, descendant du ciel d’auprès de Dieu, préparée comme une épouse ornée pour son mari. Et j’entendis une grande voix venant du ciel, disant: Voici, l’habitation de Dieu est avec les hommes, et il habitera avec eux; et ils seront son peuple, et Dieu lui-même sera avec eux, leur Dieu.
+Holy-Bible---French---French-Darby-Bible	HEB-011-008	Hébreux 11:8	Par la foi, Abraham, étant appelé, obéit pour s’en aller au lieu qu’il devait recevoir pour héritage; et il s’en alla, ne sachant où il allait.
+Holy-Bible---French---French-Darby-Bible	EXO-013-017	Exode 13:17	Et il arriva, quand le Pharaon laissa aller le peuple, que Dieu ne les conduisit pas par le chemin du pays des Philistins, qui est pourtant proche; car Dieu dit: De peur que le peuple ne se repente lorsqu’ils verront la guerre, et qu’ils ne retournent en Égypte.
+Holy-Bible---French---French-Darby-Bible	MAR-010-045	Marc 10:45	Car aussi le fils de l’homme n’est pas venu pour être servi, mais pour servir et pour donner sa vie en rançon pour plusieurs.
+Holy-Bible---French---French-Darby-Bible	ROM-001-001	Romains 1:1	Paul, esclave de Jésus Christ, apôtre appelé, mis à part pour l’évangile de Dieu
 Holy-Bible---French---French-Darby-Bible	MAT-028-019	Matthieu 28:19	Allez donc, et faites disciples toutes les nations, les baptisant pour le nom du Père et du Fils et du Saint Esprit,
 Holy-Bible---French---French-Khan-Bible	JOH-003-016		
 Holy-Bible---French---French-Khan-Bible	GEN-003-024	Genèse 3:24	Ayant chassé l’homme, il posta en avant du jardin d’Éden les chérubins, avec la lame de l’épée flamboyante, pour garder les abords de l’arbre de vie.

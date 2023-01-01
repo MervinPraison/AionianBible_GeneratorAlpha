@@ -3091,9 +3091,9 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-0;
 	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-2055;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-912;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-10380;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-10385;
 	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-10849;
-	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-8137;
+	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-8253;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-710;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-717;
 	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-616;

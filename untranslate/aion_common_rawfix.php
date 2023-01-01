@@ -4247,36 +4247,45 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---French---French-Darby-Bible" :
-if (!($bfile = preg_replace("/∗/us"," ",$bfile,-1,$rnum)) || $rnum!=350) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%E2%88%97/1
-if (!($bfile = preg_replace("/☆/us"," ",$bfile,-1,$rnum)) || $rnum!=481) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%E2%98%86/1
-if (!($bfile = preg_replace("/✱/us"," ",$bfile,-1,$rnum)) || $rnum!=490) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%E2%9C%B1/1
-if (!($bfile = preg_replace("/★/us"," ",$bfile,-1,$rnum)) || $rnum!=15) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#0x2605/1
+if (!($bfile = preg_replace("/✽/us"," ",$bfile,-1,$rnum)) || $rnum!=559) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/★/us"," ",$bfile,-1,$rnum)) || $rnum!=488) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#0x2605/1
+if (!($bfile = preg_replace("/✶/us"," ",$bfile,-1,$rnum)) || $rnum!=374) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/✝/us"," ",$bfile,-1,$rnum)) || $rnum!=56) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 $textfix = <<<EOF
-Deuteronomy 29:1 Ce sont là les paroles de l'alliance que l'Éternel commanda à Moïse de faire avec les fils d'Israël dans le pays de Moab, outre l'alliance qu'il avait faite avec eux à Horeb.
-Deuteronomy 29:2 Et Moïse appela tout Israël, et leur dit: Vous avez vu tout ce que l'Éternel a fait devant vos yeux dans le pays d'Égypte, au Pharaon, et à tous ses serviteurs, et à tout son pays:
-Deuteronomy 29:3 
+Numbers 26:1 Et il arriva, après la plaie, que l’Éternel parla à Moïse et à Éléazar, fils d’Aaron, le sacrificateur, disant:
+Numbers 26:2 
 EOF;
-if (!($bfile = preg_replace("/Deuteronomy 28:69 (.+?)Deuteronomy 29:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/Numbers 25:19 (.+?)Numbers 26:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Job 40:27 Mets ta main sur lui : souviens-toi de la bataille, — n'y reviens pas!
-Job 40:28 Voici, on est déçu dans son attente ; même à sa vue, n'est-on pas terrassé?
-Job 41:1 Nul n'est assez hardi pour le réveiller ; et qui est celui qui se présentera devant moi?
-Job 41:2  
+Nehemiah 7:68 Ils avaient 736 chevaux, 245 mulets,
+Nehemiah 7:69 435 chameaux, [et] 6720 ânes.
+Nehemiah 7:70 Et une partie des chefs des pères firent des dons pour l’œuvre. Le Thirshatha donna au trésor 1000 dariques d’or, 50 bassins, 530 tuniques de sacrificateurs.
+Nehemiah 7:71 Et des chefs des pères donnèrent au trésor de l’œuvre 20000 dariques d’or et 2200 mines d’argent.
+Nehemiah 7:72 Et ce que donna le reste du peuple fut 20000 dariques d’or, et 2000 mines d’argent, et 67 tuniques de sacrificateurs.
+Nehemiah 7:73 Et les sacrificateurs, et les lévites, et les portiers, et les chantres, et ceux du peuple, et les Nethiniens, et tout Israël, habitèrent dans leurs villes. Et quand arriva le septième mois, les fils d’Israël étaient dans leurs villes.
+Nehemiah 8:1 
 EOF;
-if (!($bfile = preg_replace("/Job 40:27 (.+?)Job 41:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/Nehemiah 7:68 (.+?)Nehemiah 8:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Psalms 13:5 Mais pour moi, je me suis confié en ta bonté, mon cœur s'est réjoui dans ton salut.
-Psalms 13:6 Je chanterai à l'Éternel, parce qu'il m'a fait du bien.
-Psalms 14:1 
+Isaiah 63:19 Nous sommes [comme ceux] sur lesquels tu n’as jamais dominé, qui ne sont pas appelés de ton nom.
+Isaiah 63:20 Oh ! si tu fendais les cieux ! Si tu voulais descendre, [et] que devant toi les montagnes se fondent, –
+Isaiah 64:1 
 EOF;
-if (!($bfile = preg_replace("/Psalms 13:5 (.+?)Psalms 14:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/Isaiah 63:19 (.+?)Isaiah 64:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
+Acts 19:40 car nous sommes en danger d’être accusés de sédition pour ce qui s’est passé aujourd’hui, puisqu’il n’y a pas de motif que nous puissions alléguer pour rendre raison de cet attroupement.
+Acts 19:41 Et quand il eut dit ces choses, il congédia l’assemblée.
+Acts 20:1 
+EOF;
+if (!($bfile = preg_replace("/Acts 19:40 (.+?)Acts 20:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+II Corinthians 13:12 Saluez-vous les uns les autres par un saint baiser.
 II Corinthians 13:13 Tous les saints vous saluent.
-II Corinthians 13:14 Que la grâce du seigneur Jésus Christ, et l'amour de Dieu, et la communion du Saint Esprit, soient avec vous tous!
+II Corinthians 13:14 Que la grâce du seigneur Jésus Christ, et l’amour de Dieu, et la communion du Saint Esprit, soient avec vous tous!
 Galatians 1:1 
 EOF;
-if (!($bfile = preg_replace("/II Corinthians 13:13 (.+?)Galatians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 

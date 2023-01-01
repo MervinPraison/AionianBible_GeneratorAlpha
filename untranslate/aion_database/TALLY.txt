@@ -1,9 +1,9 @@
 # File Name: TALLY.txt
 # File Size: 13542       
-# File Date: 12/13/2022 18:37:02
+# File Date: 01/01/2023 00:39:04
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
-# File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022
+# File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2023
 # File Generator: ABCMS (alpha)
 # File Accuracy: Contact publisher with corrections to file format or content
 # Publisher Name: Nainoia Inc
@@ -97,7 +97,7 @@ Holy-Bible---Finnish---Finnish-Bible	31102	31102	31102
 Holy-Bible---Finnish---Finnish-Pyha-Raamattu	31087	31087	31087
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible	7957	7957	7960
 Holy-Bible---French---French-Crampon-Bible	31100	31100	31451
-Holy-Bible---French---French-Darby-Bible	31099	31099	31106
+Holy-Bible---French---French-Darby-Bible	31099	31099	31170
 Holy-Bible---French---French-Khan-Bible	23142	23142	23210
 Holy-Bible---French---French-LXX	23005	23005	23149
 Holy-Bible---French---French-Louis-Segond-1910-Bible	31100	31100	31173

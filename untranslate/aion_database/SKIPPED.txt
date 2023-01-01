@@ -1,9 +1,9 @@
 # File Name: SKIPPED.txt
-# File Size: 1195434     
-# File Date: 12/13/2022 18:37:02
+# File Size: 1203163     
+# File Date: 01/01/2023 00:39:04
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
-# File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2022
+# File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2023
 # File Generator: ABCMS (alpha)
 # File Accuracy: Contact publisher with corrections to file format or content
 # Publisher Name: Nainoia Inc
@@ -2513,12 +2513,76 @@ Holy-Bible---French---French-Crampon-Bible	027	DAN	014	040	Il cria à haute voix
 Holy-Bible---French---French-Crampon-Bible	027	DAN	014	041	Puis il fit jeter dans la fosse ceux qui avaient voulu le perdre, et ils furent dévorés sous ses yeux, en un instant.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	014	042	Alors le roi dit : " Que tous les habitants de la terre entière craignent le Dieu de Daniel, car c'est lui qui est le Sauveur, qui fait des signes et des prodiges sur la terre, lui qui a délivré Daniel de la fosse aux lions ! "
 Holy-Bible---French---French-Crampon-Bible	066	REV	012	018	Et il s'arrêta sur le sable de la mer.
-Holy-Bible---French---French-Darby-Bible	004	NUM	030	001	Et Moïse parla aux chefs des tribus des fils d'Israël, disant :
-Holy-Bible---French---French-Darby-Bible	009	1SA	020	042	Et Jonathan dit à David : Va en paix, selon que nous avons juré, nous deux, au nom de l' Éternel , disant : L' Éternel  sera entre moi et toi, et entre ma semence et ta semence, à toujours !
-Holy-Bible---French---French-Darby-Bible	011	1KI	022	043	Et il marcha dans toute la voie d'Asa, son père ; il ne s'en détourna pas, faisant ce qui est droit aux yeux de l' Éternel .
-Holy-Bible---French---French-Darby-Bible	041	MAR	009	050	Le sel est bon ; mais si le sel devient insipide, avec quoi lui donnerez-vous de la saveur ?
-Holy-Bible---French---French-Darby-Bible	043	JOH	001	038	Et Jésus se retournant, et voyant qu'ils le suivaient, leur dit :
-Holy-Bible---French---French-Darby-Bible	064	3JO	001	014	mais j'espère te voir bientôt et nous parlerons bouche à bouche.
+Holy-Bible---French---French-Darby-Bible	009	1SA	020	042	Et Jonathan dit à David : Va en paix, selon que nous avons juré, nous deux, au nom de l’ Éternel , disant : L’ Éternel  sera entre moi et toi, et entre ma semence et ta semence, à toujours !
+Holy-Bible---French---French-Darby-Bible	011	1KI	022	043	Et il marcha dans toute la voie d’Asa, son père ; il ne s’en détourna pas, faisant ce qui est droit aux yeux de l’ Éternel .
+Holy-Bible---French---French-Darby-Bible	013	1CH	012	004	et Jishmahia, le Gabaonite, homme fort parmi les 30, et au-dessus des 30 ;
+Holy-Bible---French---French-Darby-Bible	019	PSA	003	001	Psaume de David, lorsqu’il s’enfuyait de devant Absalom, son fils.
+Holy-Bible---French---French-Darby-Bible	019	PSA	004	001	Au chef de musique. Sur Neguinoth. Psaume de David.
+Holy-Bible---French---French-Darby-Bible	019	PSA	005	001	Au chef de musique. Pour Nehiloth. Psaume de David.
+Holy-Bible---French---French-Darby-Bible	019	PSA	006	001	Au chef de musique. Sur Neguinoth, sur Sheminith. Psaume de David.
+Holy-Bible---French---French-Darby-Bible	019	PSA	007	001	Shiggaïon de David, qu’il chanta à l’ Éternel  à l’occasion des paroles de Cush, le Benjaminite.
+Holy-Bible---French---French-Darby-Bible	019	PSA	008	001	Au chef de musique. Sur Guitthith. Psaume de David.
+Holy-Bible---French---French-Darby-Bible	019	PSA	009	001	Au chef de musique. Sur Muth-Labben. Psaume de David.
+Holy-Bible---French---French-Darby-Bible	019	PSA	012	001	Au chef de musique. Sur Sheminith. Psaume de David.
+Holy-Bible---French---French-Darby-Bible	019	PSA	018	001	Au chef de musique. Du serviteur de l’ Éternel , de David, qui adressa à l’ Éternel  les paroles de ce cantique, le jour où l’ Éternel  l’eut délivré de la main de tous ses ennemis, et de la main de Saül.
+Holy-Bible---French---French-Darby-Bible	019	PSA	019	001	Au chef de musique. Psaume de David.
+Holy-Bible---French---French-Darby-Bible	019	PSA	020	001	Au chef de musique. Psaume de David.
+Holy-Bible---French---French-Darby-Bible	019	PSA	021	001	Au chef de musique. Psaume de David.
+Holy-Bible---French---French-Darby-Bible	019	PSA	022	001	Au chef de musique. Sur Ajéleth-Hashakhar. Psaume de David.
+Holy-Bible---French---French-Darby-Bible	019	PSA	030	001	Psaume. Cantique de dédicace de la maison. De David.
+Holy-Bible---French---French-Darby-Bible	019	PSA	031	001	Au chef de musique. Psaume de David.
+Holy-Bible---French---French-Darby-Bible	019	PSA	034	001	De David, quand il dissimula sa raison devant Abimélec, qui le chassa, et il s’en alla.
+Holy-Bible---French---French-Darby-Bible	019	PSA	036	001	Au chef de musique. Du serviteur de l’ Éternel . De David.
+Holy-Bible---French---French-Darby-Bible	019	PSA	038	001	Psaume de David, pour faire souvenir.
+Holy-Bible---French---French-Darby-Bible	019	PSA	039	001	Au chef de musique, à Jeduthun. Psaume de David.
+Holy-Bible---French---French-Darby-Bible	019	PSA	040	001	Au chef de musique. De David. Psaume.
+Holy-Bible---French---French-Darby-Bible	019	PSA	041	001	Au chef de musique. Psaume de David.
+Holy-Bible---French---French-Darby-Bible	019	PSA	042	001	Au chef de musique. Instruction. Des fils de Coré.
+Holy-Bible---French---French-Darby-Bible	019	PSA	044	001	Au chef de musique. Des fils de Coré. Instruction.
+Holy-Bible---French---French-Darby-Bible	019	PSA	045	001	Au chef de musique. Sur Shoshannim. Des fils de Coré. Instruction. Un cantique du bien-aimé.
+Holy-Bible---French---French-Darby-Bible	019	PSA	046	001	Au chef de musique. Des fils de Coré. Sur Alamoth. Chant.
+Holy-Bible---French---French-Darby-Bible	019	PSA	047	001	Au chef de musique. Des fils de Coré. Psaume.
+Holy-Bible---French---French-Darby-Bible	019	PSA	048	001	Cantique. Psaume des fils de Coré.
+Holy-Bible---French---French-Darby-Bible	019	PSA	049	001	Au chef de musique. Des fils de Coré. Psaume.
+Holy-Bible---French---French-Darby-Bible	019	PSA	051	001	Au chef de musique. Psaume de David ;
+Holy-Bible---French---French-Darby-Bible	019	PSA	051	002	lorsque Nathan le prophète vint à lui, après qu’il fut entré vers Bath-Shéba.
+Holy-Bible---French---French-Darby-Bible	019	PSA	052	001	Au chef de musique ; pour instruire. De David ;
+Holy-Bible---French---French-Darby-Bible	019	PSA	052	002	lorsque Doëg, l’Édomite, rapporta à Saül et lui dit : David est venu dans la maison d’Akhimélec.
+Holy-Bible---French---French-Darby-Bible	019	PSA	053	001	Au chef de musique. Sur Mahalath ; pour instruire. De David.
+Holy-Bible---French---French-Darby-Bible	019	PSA	054	001	Au chef de musique. Sur Neguinoth ; pour instruire. De David ;
+Holy-Bible---French---French-Darby-Bible	019	PSA	054	002	lorsque les Ziphiens vinrent, et dirent à Saül : David ne se tient-il pas caché auprès de nous ?
+Holy-Bible---French---French-Darby-Bible	019	PSA	055	001	Au chef de musique. Sur Neguinoth ; pour instruire. De David.
+Holy-Bible---French---French-Darby-Bible	019	PSA	056	001	Au chef de musique. Sur Jonath-Élem-Rekhokim. De David. Mictam ; quand les Philistins le prirent dans Gath.
+Holy-Bible---French---French-Darby-Bible	019	PSA	057	001	Au chef de musique. Al-Tashkheth. De David. Mictam ; quand il fuyait devant Saül, dans la caverne.
+Holy-Bible---French---French-Darby-Bible	019	PSA	058	001	Au chef de musique. Al-Tashkheth. De David. Mictam.
+Holy-Bible---French---French-Darby-Bible	019	PSA	059	001	Au chef de musique. Al-Tashkheth. De David. Mictam ; quand Saül envoya, et qu’on surveilla sa maison, afin de le faire mourir.
+Holy-Bible---French---French-Darby-Bible	019	PSA	060	001	Au chef de musique. Sur Shushan. Témoignage. Mictam. De David ; pour enseigner ;
+Holy-Bible---French---French-Darby-Bible	019	PSA	060	002	quand il fit la guerre contre les Syriens de Naharaïm, et contre les Syriens de Tsoba, et que Joab revint et frappa les Édomites dans la vallée du Sel, au nombre de 12000.
+Holy-Bible---French---French-Darby-Bible	019	PSA	061	001	Au chef de musique. Sur Neguinoth. De David.
+Holy-Bible---French---French-Darby-Bible	019	PSA	062	001	Au chef de musique. Sur Jeduthun. Psaume de David.
+Holy-Bible---French---French-Darby-Bible	019	PSA	063	001	Psaume de David ; quand il était dans le désert de Juda.
+Holy-Bible---French---French-Darby-Bible	019	PSA	064	001	Au chef de musique. Psaume de David.
+Holy-Bible---French---French-Darby-Bible	019	PSA	065	001	Au chef de musique. Psaume de David. Cantique.
+Holy-Bible---French---French-Darby-Bible	019	PSA	067	001	Au chef de musique. Sur Neguinoth. Psaume. Cantique.
+Holy-Bible---French---French-Darby-Bible	019	PSA	068	001	Au chef de musique. De David. Psaume. Cantique.
+Holy-Bible---French---French-Darby-Bible	019	PSA	069	001	Au chef de musique. Sur Shoshannim. De David.
+Holy-Bible---French---French-Darby-Bible	019	PSA	070	001	Au chef de musique. De David ; pour faire souvenir.
+Holy-Bible---French---French-Darby-Bible	019	PSA	075	001	Au chef de musique. Al-Tashkheth. Psaume d’Asaph. Cantique.
+Holy-Bible---French---French-Darby-Bible	019	PSA	076	001	Au chef de musique. Sur Neguinoth. Psaume d’Asaph. Cantique.
+Holy-Bible---French---French-Darby-Bible	019	PSA	077	001	Au chef de musique. Sur Jeduthun. D’Asaph. Psaume.
+Holy-Bible---French---French-Darby-Bible	019	PSA	080	001	Au chef de musique. Sur Shoshannim. Témoignage d’Asaph. Psaume.
+Holy-Bible---French---French-Darby-Bible	019	PSA	081	001	Au chef de musique. Sur Guitthith. D’Asaph.
+Holy-Bible---French---French-Darby-Bible	019	PSA	083	001	Cantique. Psaume d’Asaph.
+Holy-Bible---French---French-Darby-Bible	019	PSA	084	001	Au chef de musique. Sur Guitthith. Des fils de Coré. Psaume.
+Holy-Bible---French---French-Darby-Bible	019	PSA	085	001	Au chef de musique. Des fils de Coré. Psaume.
+Holy-Bible---French---French-Darby-Bible	019	PSA	088	001	Cantique. Psaume. Pour les fils de Coré. Au chef de musique, sur Mahalath-Leannoth. Pour instruire. D’Héman, l’Ezrakhite.
+Holy-Bible---French---French-Darby-Bible	019	PSA	089	001	Instruction d’Éthan, l’Ezrakhite.
+Holy-Bible---French---French-Darby-Bible	019	PSA	092	001	Psaume. Cantique pour le jour du sabbat.
+Holy-Bible---French---French-Darby-Bible	019	PSA	102	001	Prière de l’affligé, quand il est accablé et répand sa plainte devant l’ Éternel .
+Holy-Bible---French---French-Darby-Bible	019	PSA	108	001	Cantique. Psaume de David.
+Holy-Bible---French---French-Darby-Bible	019	PSA	140	001	Au chef de musique. Psaume de David.
+Holy-Bible---French---French-Darby-Bible	019	PSA	142	001	Instruction de David ; lorsqu’il était dans la caverne. Prière.
+Holy-Bible---French---French-Darby-Bible	064	3JO	001	014	mais j’espère te voir bientôt et nous parlerons bouche à bouche.
 Holy-Bible---French---French-Darby-Bible	066	REV	012	018	Et je me tins sur le sable de la mer ;
 Holy-Bible---French---French-Khan-Bible	011	1KI	022	043	Il suivit en tout la voie d’Asa, son père, sans s’en détourner; il fit le bien aux yeux de l’Eternel.
 Holy-Bible---French---French-Khan-Bible	019	PSA	003	001	Psaume de David, quand il prit la fuite devant son fils Absalon.
