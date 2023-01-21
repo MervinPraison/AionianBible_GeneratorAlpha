@@ -47,6 +47,7 @@ AION_FILE_DATABASE_PUT(		$database, '../www-resources', LIVE.'/library', 'resour
 
 /*** install index ***/
 AION_INSTALL_INDEX(			'../www-production');
+AION_INSTALL_INDEX_UPDATED(	'../www-production/index.php');
 AION_SITEMAP(				'../www-production');
 
 

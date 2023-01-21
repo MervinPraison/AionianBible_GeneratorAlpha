@@ -70,6 +70,8 @@ a:hover { color: #9966CC; }
 .RegisteredTM { font-size: 75%; }
 #icon { padding: 0 0 15px 0; position: fixed; bottom: 0; right: 0; }
 #icon a { margin: 3px 15px 0 0; display: block; }
+#icon-home { padding: 0 0 15px 0; position: fixed; bottom: 0; left: 0; }
+#icon-home a { margin: 0 0 0 15px; display: block; }
 
 
 /*** HEAD ***/
@@ -235,7 +237,7 @@ div.word-warning { color: red; }
 #google_translate_element { float: left; margin-bottom: 5px; }
 #social-shares { float: right; text-align: right; }
 #social-shares a { margin-left: 3px; }
-#social-shares .img25 { width: 25px; height: 25px; }
+#social-shares .img25 { width: 24px; height: 24px; }
 
 /*** FORM ***/
 form input[type="text"],
@@ -303,7 +305,12 @@ form input[type="submit"]:focus {
 	#word-menu .crunch { display: none; }
 	#word-menu .word-book-name { font-size: 60% !important; }
 }
-
+@media screen and (max-width: 600px) {
+	#icon-home { display: none !important; }
+}
+@media screen and (max-height: 400px) {
+	#icon-home { display: none !important; }
+}
 
 /*** PRINT ***/
 @media print {
