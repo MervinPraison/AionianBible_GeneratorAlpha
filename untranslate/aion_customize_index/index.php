@@ -51,6 +51,7 @@ else if ($_Part[0]==='Parallel' && $_pnum > 1 && $_pnum < 6) {
 else if ($_Part[0]==='Glossary' && $_pnum < 3) {		$_meta = " ~ Glossary";										abcms_glos(); }
 else if ($_Part[0]==='Strongs'  && $_pnum < 3) {		$_meta = " ~ Strongs Concordance Glossary $_stidC";			abcms_stro(); }
 else if ($_Part[0]==='Publisher'&& !$_para && $_pnum<6){$_meta = " ~ Publisher";									abcms_mail(); }
+else if ($_Part[0]==='CAPTCHA' && $_pnum == 2) {		$_meta = "";												abcms_mail_captcha(); }
 else if ($_Part[0]==='Verse') {
 	if ($_pnum===2 && $_Part[1]==='Questioned'){		$_meta = " ~ Questioned Verses";							abcms_word_vers_questioned(); }
 	else if ($_pnum===3 && $_Part[1]==='All'){			$_meta = " ~ $_Part[2] 1:1";								abcms_word_vers_all(); }
@@ -165,9 +166,11 @@ PO Box 462, Bellefonte, PA 16823<BR />
 </form>
 EOF;
 if ($_pnum===2 && $_SERVER['REQUEST_METHOD']!='POST') { abcms_bomb("/Publisher","Invalid URL Requested for Publisher form"); }
-if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject']) && !empty($_POST['message']) && !empty($_POST['submit'])) {
+session_start();
+$gotall = (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject']) && !empty($_POST['message']) && !empty($_POST['submit']) ? TRUE : FALSE);
+$captcha_pass = (!empty($_POST['captcha']) && !empty($_SESSION['captcha']) && $_POST['captcha']==$_SESSION['captcha'] ? TRUE : FALSE);
+if($gotall && $captcha_pass) {
 	// START
-	session_start();
 	abcms_html();
 	abcms_head();
 	echo "<div id='mail'>";
@@ -206,7 +209,6 @@ if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject']
 else {
 	// START
 	abcms_mail_fix($status, $_POST['subject'], $_POST['message']);
-	session_start();
 	abcms_html();
 	abcms_head();
 	echo "<div id='mail'>";
@@ -215,21 +217,90 @@ else {
 	$val_email = (empty($_POST['email']) ? '' : aion_strip($_POST['email']));
 	$val_subject = (empty($_POST['subject']) ? '' : aion_strip($_POST['subject']));
 	$val_message = (empty($_POST['message']) ? '' : aion_strip($_POST['message']));
-	$status = (empty($status) && $_SERVER['REQUEST_METHOD']=='POST' ? '( please submit with all fields completed )<BR /><BR />' : $status);
-	echo "$nainoia Please contact us below<BR />$status";
+	if (empty($status) && $_SERVER['REQUEST_METHOD']=='POST') {
+		if (!$gotall) {				$status = '( please submit with all fields completed )<BR /><BR />'; }
+		else if (!$captcha_pass) {	$status = '( please enter Captcha correctly )<BR /><BR />'; }
+	}
+	$unique = hash('sha256','AionianBible.org/Publisher/Submit'.time().random_bytes(7));
+	echo "$nainoia Please contact us below<BR /><span class='form-status'>$status</span>";
 ?>
-<form action='/Publisher/<?php echo hash('sha256','AionianBible.org/Publisher/Submit'.time().random_bytes(7)); ?>' method='post' accept-charset='UTF-8'>
+<form action='/Publisher/<?php echo $unique; ?>' method='post' accept-charset='UTF-8'>
 <input type='hidden' name='csrf' value='<?php echo ($_SESSION['csrf'] = hash('sha256','AionianBible.org/Publisher'.time().random_bytes(10))); ?>' />
 <input type='text' name='name' placeholder='Name' value="<? echo $val_name;?>" />
 <input type='email' name='email' placeholder='Email' value="<? echo $val_email;?>" />
 <input type='text' name='subject' placeholder='Subject' value="<? echo $val_subject;?>" />
 <textarea name='message' placeholder='Comment or question, 1000 character maximum' rows='15'><? echo $val_message;?></textarea>
+<input type='text' name='captcha' placeholder='Please enter Captcha' />
+<img src='/CAPTCHA/<?php echo $unique; ?>' alt='Captcha' title='Captcha' id='captcha_image' style="padding: 10px; vertical-align:middle;"  /> <a href='javascript: AionianBible_RefreshCaptcha();'>Refresh Captcha</a><br />
 <input type='submit' name='submit' value='Submit' />
 </form>
 <?
 }
 echo '</div>';
 abcms_tail();
+}
+/*** CAPTCHA ***/
+function abcms_mail_captcha() {
+// https://www.allphptricks.com/create-a-simple-captcha-script-using-php/
+// setup
+session_start();
+$captcha_code = '';
+$captcha_image_height = 80;
+$captcha_image_width = 400;
+$total_characters_on_image = 6;
+$random_captcha_dots = 50;
+$random_captcha_lines = 25;
+$captcha_text_color = "0x142864";
+$captcha_noise_color = "0x142864";
+// avoid all confusing characters and numbers (For example: l, 1 and i)
+$possible_captcha_letters = 'bcdfghjkmnpqrstvwxyz23456789';
+function random_font($dir) {
+    $files = glob($dir . '/*.ttf');
+    $file = array_rand($files);
+    return $files[$file];
+}
+$captcha_font = random_font('../captchafonts');
+error_log($captcha_font);
+
+// captcha string
+$count = 0;
+while ($count < $total_characters_on_image) { 
+	$captcha_code .= substr($possible_captcha_letters, mt_rand(0, strlen($possible_captcha_letters)-1), 1);
+	$count++;
+}
+// captcha image
+$captcha_font_size = $captcha_image_height * 0.65;
+$captcha_image = @imagecreate($captcha_image_width,	$captcha_image_height);
+// setting the background, text and noise colours here
+$background_color = imagecolorallocate($captcha_image, 255, 255, 255 );
+function hextorgb($hexstring){
+	$integar = hexdec($hexstring);
+	return array("red" => 0xFF & ($integar >> 0x10),"green" => 0xFF & ($integar >> 0x8),"blue" => 0xFF & $integar);
+}
+$array_text_color = hextorgb($captcha_text_color);
+$captcha_text_color = imagecolorallocate($captcha_image, $array_text_color['red'], $array_text_color['green'], $array_text_color['blue']);
+$array_noise_color = hextorgb($captcha_noise_color);
+$image_noise_color = imagecolorallocate($captcha_image, $array_noise_color['red'], $array_noise_color['green'], $array_noise_color['blue']);
+// Generate random dots in background of the captcha image
+for( $count=0; $count<$random_captcha_dots; $count++ ) {
+	imagefilledellipse($captcha_image, mt_rand(0,$captcha_image_width), mt_rand(0,$captcha_image_height), 2, 3, $image_noise_color);
+}
+// Generate random lines in background of the captcha image
+for( $count=0; $count<$random_captcha_lines; $count++ ) {
+	imageline($captcha_image, mt_rand(0,$captcha_image_width), mt_rand(0,$captcha_image_height), mt_rand(0,$captcha_image_width), mt_rand(0,$captcha_image_height), $image_noise_color);
+}
+// Create a text box and add 6 captcha letters code in it
+$text_box = imagettfbbox($captcha_font_size, 0, $captcha_font, $captcha_code); 
+$x = ($captcha_image_width - $text_box[4])/2;
+$y = ($captcha_image_height - $text_box[5])/2;
+imagettftext($captcha_image, $captcha_font_size, 0, $x, $y, $captcha_text_color, $captcha_font, $captcha_code );
+// define the image type to be shown in browser widow
+header('Content-Type: image/jpeg'); 
+imagejpeg($captcha_image);
+imagedestroy($captcha_image);
+// return captcha
+$_SESSION['captcha'] = $captcha_code;
+exit;
 }
 
 

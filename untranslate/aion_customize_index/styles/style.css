@@ -284,31 +284,35 @@ form input[type="submit"]:focus {
 	color: #663399;
 	font-weight: bold;
 }
+.form-status {
+	color: red;
+	font-weight: bold;	
+}
 
 /*** RESPONSIVE ***/
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
 	#head-hi { margin-top: 0; }
 	#head-hi { border: none; border-bottom: 1px solid #9966CC; border-radius: 0; }
 	#accessible { top: 10px; }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
 	#icon { padding: 0 0 5px 0; }
 	#icon a { margin: 1px 10px 0 0; }
-	#icon img { width: 25px; height: 25px; }
+	#icon img { width: 24px; height: 24px; }
 	#tail { border: none; border-top: 1px solid #9966CC; border-radius: 0; }
 	#sticky-foot { background-color: #663399; }
 	#page {	padding: 0; }
 }
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 511px) {
 	#logo1 { display: none !important; }
 	#logo2 { display: inline-block !important; float: left; }
 	#word-menu .crunch { display: none; }
 	#word-menu .word-book-name { font-size: 60% !important; }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 599px) {
 	#icon-home { display: none !important; }
 }
-@media screen and (max-height: 400px) {
+@media screen and (max-height: 399px) {
 	#icon-home { display: none !important; }
 }
 

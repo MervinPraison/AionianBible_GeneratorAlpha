@@ -50,7 +50,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/(Holy-Bible---Latvian---Latvian-Gluck-Bible|Holy-Bible---Japanese---Japanese-Yougo-yaku)---Aionian-Edition\.noia$/",
 		//'include'	=> "/.*Arapaho.*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aionian-Bible).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Japanese|Polish|Ukrainian).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Polish-Updated-Gdansk).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Japanese-Bungo-yaku).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
 		'include'	=> "/---Aionian-Edition\.noia$/",
@@ -2282,7 +2282,8 @@ $fonts
 	<Paragraph language="English (USA)" textformat="centerpad" color='white' fontfamily="FF-Btex">
 	$w_worl<Br />
 	$w_free<Br />
-	<Value>AionianBible.org</Value>
+	<Value>AionianBible.org</Value><Br />
+	<Value>Nainoia Inc</Value>
 	</Paragraph>
 	<Paragraph language="English (USA)" textformat="centerpad" color='white' fontfamily="FF-Btex">
 	$w_aka
@@ -2640,7 +2641,8 @@ $fonts
 	<Paragraph language="English (USA)" textformat="centerpad" color='white' fontfamily="FF-Btex" $bidi_center>
 	$w_worl<Br />
 	$w_free<Br />
-	<Value>AionianBible.org</Value>
+	<Value>AionianBible.org</Value><Br />
+	<Value>Nainoia Inc</Value>
 	</Paragraph>
 	<Paragraph language="English (USA)" textformat="centerpad" color='white' fontfamily="FF-Btex" $bidi_center>
 	$w_aka
