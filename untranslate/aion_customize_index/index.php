@@ -168,7 +168,7 @@ EOF;
 if ($_pnum===2 && $_SERVER['REQUEST_METHOD']!='POST') { abcms_bomb("/Publisher","Invalid URL Requested for Publisher form"); }
 session_start();
 $gotall = (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject']) && !empty($_POST['message']) && !empty($_POST['submit']) ? TRUE : FALSE);
-$captcha_pass = (!empty($_POST['captcha']) && !empty($_SESSION['captcha']) && $_POST['captcha']==$_SESSION['captcha'] ? TRUE : FALSE);
+$captcha_pass = (empty($_POST['captcha']) && !empty($_POST['company']) && !empty($_SESSION['captcha2']) && !empty($_SESSION['captcha3']) && strtolower($_POST['company'])=='replace asteriks with captcha ['.$_SESSION['captcha2'].$_SESSION['captcha3'].']' ? TRUE : FALSE);
 if($gotall && $captcha_pass) {
 	// START
 	abcms_html();
@@ -197,9 +197,9 @@ if($gotall && $captcha_pass) {
 		$input_message = trim($input_message);
 		$ip = getenv('HTTP_CLIENT_IP')?: getenv('HTTP_X_FORWARDED_FOR')?: getenv('HTTP_X_FORWARDED')?: getenv('HTTP_FORWARDED_FOR')?: getenv('HTTP_FORWARDED')?: getenv('REMOTE_ADDR')?: 'UNKNOWN';
 		$output = "\n".date("m/d/Y H:m:s")."\t".$ip."\t".$input_name."\t".$input_email."\t".$input_message;
-		$logged = (!file_put_contents('./datawebs/EMAIL.dat', $output, FILE_APPEND | LOCK_EX) ? ' (*log failed*)' : '' );
+		$logged = (!file_put_contents('./datawebs/EMAIL.dat', $output, FILE_APPEND | LOCK_EX) ? ' (*log failed*)' : ' (logged)' );
 		$subject = "[Aionian Bible] $input_subject";
-		$message = "Message from $input_name at $input_email: $logged\n\n$input_message\n\n\n\n\nDelivered by https://www.AionianBible.org";
+		$message = "Message from $input_name at $ip with $input_email: $logged\n\n$input_message\n\n\n\n\nDelivered by https://www.AionianBible.org";
 		$headers = "From: <$input_email>\r\nContent-Type: text/plain; charset=UTF-8\r\nContent-Transfer-Encoding: 8bit";
 		mail("escribes@aionianbible.org",$subject,$message,$headers);
 		echo "$nainoia Thank you $input_name!<BR />Your message has been received.<BR />We will contact you shortly.";
@@ -219,19 +219,19 @@ else {
 	$val_message = (empty($_POST['message']) ? '' : aion_strip($_POST['message']));
 	if (empty($status) && $_SERVER['REQUEST_METHOD']=='POST') {
 		if (!$gotall) {				$status = '( please submit with all fields completed )<BR /><BR />'; }
-		else if (!$captcha_pass) {	$status = '( please enter Captcha correctly )<BR /><BR />'; }
+		else if (!$captcha_pass) {	$status = '( please replace asteriks with Captcha [******] )<BR /><BR />'; }
 	}
-	$unique = hash('sha256','AionianBible.org/Publisher/Submit'.time().random_bytes(7));
-	echo "$nainoia Please contact us below<BR /><span class='form-status'>$status</span>";
+	echo "$nainoia Please contact us below<BR /><span class='form-status'>$status</span>";	
 ?>
-<form action='/Publisher/<?php echo $unique; ?>' method='post' accept-charset='UTF-8'>
+<form action='/Publisher/<?php echo hash('sha256','AionianBible.org/Publisher/Submit'.time().random_bytes(7)); ?>' method='post' accept-charset='UTF-8'>
 <input type='hidden' name='csrf' value='<?php echo ($_SESSION['csrf'] = hash('sha256','AionianBible.org/Publisher'.time().random_bytes(10))); ?>' />
 <input type='text' name='name' placeholder='Name' value="<? echo $val_name;?>" />
 <input type='email' name='email' placeholder='Email' value="<? echo $val_email;?>" />
 <input type='text' name='subject' placeholder='Subject' value="<? echo $val_subject;?>" />
 <textarea name='message' placeholder='Comment or question, 1000 character maximum' rows='15'><? echo $val_message;?></textarea>
-<input type='text' name='captcha' placeholder='Please enter Captcha' />
-<img src='/CAPTCHA/<?php echo $unique; ?>' alt='Captcha' title='Captcha' id='captcha_image' style="padding: 10px; vertical-align:middle;"  /> <a href='javascript: AionianBible_RefreshCaptcha();'>Refresh Captcha</a><br />
+<input type='text' name='company' value="<? echo 'Replace asteriks with Captcha [******]';?>" />
+<input type='text' name='captcha' id='captcha' placeholder='Enter Captcha' />
+<div class='captcha'><img src='/CAPTCHA/<?php echo mb_rand('l'); ?>' alt='Captcha' title='Captcha' id='lcaptcha_image' /><img src='/CAPTCHA/<?php echo mb_rand('2'); ?>' alt='Captcha' title='Captcha' id='2captcha_image' /><img src='/CAPTCHA/<?php echo mb_rand('3'); ?>' alt='Captcha' title='Captcha' id='3captcha_image' /> <a href='javascript: AionianBible_RefreshCaptcha();'>Refresh Captcha</a></div>
 <input type='submit' name='submit' value='Submit' />
 </form>
 <?
@@ -243,25 +243,24 @@ abcms_tail();
 function abcms_mail_captcha() {
 // https://www.allphptricks.com/create-a-simple-captcha-script-using-php/
 // setup
+global $_Part;
 session_start();
 $captcha_code = '';
-$captcha_image_height = 80;
-$captcha_image_width = 400;
-$total_characters_on_image = 6;
+$captcha_image_height = 75;
+$captcha_image_width = 180;
+$total_characters_on_image = 3;
 $random_captcha_dots = 50;
 $random_captcha_lines = 25;
 $captcha_text_color = "0x142864";
 $captcha_noise_color = "0x142864";
 // avoid all confusing characters and numbers (For example: l, 1 and i)
-$possible_captcha_letters = 'bcdfghjkmnpqrstvwxyz23456789';
+$possible_captcha_letters = strtolower('bcdfhjkmnpqrstwxy345678');
 function random_font($dir) {
     $files = glob($dir . '/*.ttf');
     $file = array_rand($files);
     return $files[$file];
 }
 $captcha_font = random_font('../captchafonts');
-error_log($captcha_font);
-
 // captcha string
 $count = 0;
 while ($count < $total_characters_on_image) { 
@@ -299,9 +298,10 @@ header('Content-Type: image/jpeg');
 imagejpeg($captcha_image);
 imagedestroy($captcha_image);
 // return captcha
-$_SESSION['captcha'] = $captcha_code;
+$_SESSION['captcha'.$_Part[1][0]] = $captcha_code;
 exit;
 }
+function mb_rand($x) { return $x.'l23'.mt_rand(); }
 
 
 

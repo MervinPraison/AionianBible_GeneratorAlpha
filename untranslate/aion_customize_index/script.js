@@ -148,6 +148,6 @@ function AionianBible_CollapseExpand(collapse, toggle) {
 }
 // recycle captcha, https://www.allphptricks.com/create-a-simple-captcha-script-using-php/
 function AionianBible_RefreshCaptcha() {
-    var img = document.images['captcha_image'];
-    img.src = img.src.substring(0,img.src.lastIndexOf("/"))+"/"+Math.floor(Math.random() * 10000000000);
+    var img = document.images['2captcha_image'];	img.src = img.src.substring(0,img.src.lastIndexOf("/"))+"/2"+"l23"+Math.floor(Math.random() * 10000000000);
+    var img = document.images['3captcha_image'];	img.src = img.src.substring(0,img.src.lastIndexOf("/"))+"/3"+"l23"+Math.floor(Math.random() * 10000000000);
 }

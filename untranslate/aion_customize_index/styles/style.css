@@ -288,6 +288,17 @@ form input[type="submit"]:focus {
 	color: red;
 	font-weight: bold;	
 }
+/* https://torquemag.io/2021/08/hide-elements-css/ */
+.captcha img {
+	border: none !important;
+	margin: 20px 0px !important;
+	vertical-align:	middle !important;
+}
+#captcha, #lcaptcha_image {
+	position: absolute !important;
+	margin-left: 10000% !important;
+}
+
 
 /*** RESPONSIVE ***/
 @media screen and (max-width: 1279px) {
