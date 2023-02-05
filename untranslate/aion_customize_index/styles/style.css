@@ -289,14 +289,16 @@ form input[type="submit"]:focus {
 	font-weight: bold;	
 }
 /* https://torquemag.io/2021/08/hide-elements-css/ */
+div.captcha {
+	margin: 0 0 20px 0px !important;
+}
 .captcha img {
 	border: none !important;
 	margin: 20px 0px !important;
 	vertical-align:	middle !important;
 }
 #captcha, #lcaptcha_image {
-	position: absolute !important;
-	margin-left: 10000% !important;
+	display: none !important;
 }
 
 

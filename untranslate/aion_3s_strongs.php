@@ -2010,7 +2010,7 @@ function AION_NEWSTRONGS_USAGE_REF($test, $references, $file, $file_index) {
 	$line = strtok( "\n" ); // get second line
 	while ($line !== false) {
 		// parse the line
-		if (!preg_match("#^(\d+)\t([A-Z0-9]+)\t(\d+)\t(\d+)\t([GH]{1})([0-9]{1,5})([a-z]{0,1})#u", $line, $match)) {	AION_ECHO("ERROR! $newmess corrupt hebrew ref\n".print_r($line,TRUE)); }
+		if (!preg_match("#^(\d+)\t([A-Z0-9]+)\t(\d+)\t(\d+)\t([GH]{1})([0-9]{1,5})([a-z]{0,1})#u", $line, $match)) {	AION_ECHO("ERROR! $newmess corrupt ref\n".print_r($line,TRUE)); }
 		$book = $match[2];
 		$chap = (int)$match[3];
 		$strg = $match[6];
