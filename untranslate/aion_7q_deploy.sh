@@ -42,7 +42,7 @@ AION_FILE_DATA_GET(			'./aion_database/VERSIONS.txt',	'T_VERSIONS',	$database, '
 AION_FILE_DATA_GET(			'./aion_database/BOOKS.txt',	'T_BOOKS',		$database, 'BIBLE', TRUE );
 AION_FILE_DATA_GET(			'./aion_database/NUMBERS.txt',	'T_NUMBERS',	$database, 'BIBLE', TRUE );
 AION_FILE_DATABASE_BOOKS(	$database );
-AION_FILE_DATABASE_PUT(		$database, '../www-resources', LIVE.'/library', 'resources.AionianBible.org', FALSE);
+AION_FILE_DATABASE_PUT(		$database, '../www-resources', LIVE.'/library', 'www.AionianBible.org/resources', FALSE);
 
 
 /*** install index ***/

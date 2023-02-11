@@ -40,9 +40,5 @@
 </div>
 </div>
 </div>
-<div id='buys'>
-<a href='/Amazon' target='_blank' title='Buy Aionian Bibles and T-Shirts'><img src='/images/AionianBible-Buy.png' id='buybible' alt='Buy Bibles' title='Buy the Aionian Bible in print' /></a>
-<a href='https://www.Facebook.com/AionianBible' target='_blank' title='Facebook/AionianBible'><img src='/images/AionianBible-Facebook.png' id='facebook' alt='Facebook' title='Aionian Bible on Facebook' /></a>
-</div>
 </body>
 </html>

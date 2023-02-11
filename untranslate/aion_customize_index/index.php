@@ -24,6 +24,7 @@ else if ($_Path==='Readers-Guide') {					$_meta = " ~ Readers Guide";								abc
 else if ($_Path==='Aionios-and-Aidios') {				$_meta = " ~ Aiōnios and Aïdios";							abcms_page('docs/aionios-and-aidios.htm'); }
 else if ($_Path==='Lake-of-Fire') {						$_meta = " ~ Lake of Fire prepared for the Devil and his angels";	abcms_page('docs/lake-of-fire.htm'); }
 else if ($_Path==='Promote') {							$_meta = " ~ Promote, Sponsor, Advertise, Market";			abcms_page('docs/promote.htm'); }
+else if ($_Path==='Nainoia-Inc') {						$_meta = " ~ Nainoia Inc, publisher of the Aionian Bible";	abcms_page('docs/nainoia-inc.htm'); }
 else if ($_Path==='Bible-Cover') {						$_meta = " ~ Aionian Bible Branded Leather Bible Covers";	abcms_page('docs/cover.htm'); }
 else if ($_Path==='Privacy') {							$_meta = " ~ Privacy Policy";								abcms_page('docs/privacy.htm'); }
 else if ($_Path==='Apple-iOS-App') {					$_meta = " ~ Apple iOS App";								abcms_page('docs/appleiosapp.htm'); }
@@ -76,7 +77,7 @@ abcms_html();
 <div id='logo'><img src='/images/Holy-Bible-Aionian-Edition-PURPLE-HOME.png' alt='Aionian Bible' /></div>
 <div id='j316'>For God so loved the world,<BR />that he gave his only begotten Son,<BR />that whoever believes in him<BR />should not perish, but have...</div>
 <div id='aion'>aionian life!</div>
-<div id='moto'>The world's first Holy Bible <span style="text-decoration: underline;">untranslation</span><BR />Two hundred sixteen versions<BR />Ninety-nine world languages<BR />100% free to copy &amp; print<BR />Updated M/D/YYYY<BR /><BR />Also known as<BR />'The Purple Bible'
+<div id='moto'>The world's first Holy Bible <span style="text-decoration: underline;">untranslation</span><BR />Two hundred sixteen versions<BR />Ninety-nine world languages<BR />Anonymous on TOR network<BR />100% free to copy &amp; print<BR />Updated M/D/YYYY<BR /><BR />Also known as<BR />'The Purple Bible'
 </div>
 </div>
 </a>
@@ -157,7 +158,7 @@ $nainoia = <<<EOF
 <span class='notranslate'>Nainoia, Inc.</span><BR />
 PO Box 462, Bellefonte, PA 16823<BR />
 <a href="tel:814-470-8028" rel="nofollow">(814) 470-8028</a><BR />
-<a href='https://NAINOIA-INC.signedon.net' target='_blank' title='Nainoia Inc Homepage'>NAINOIA-INC.signedon.net</a><BR />
+<a href='/Nainoia-Inc' title='Nainoia Inc, Publisher'>Nainoia Inc, Publisher</a><BR />
 <a href='https://www.linkedin.com/company/nainoia-inc' target='_blank' title='Nainoia Inc @ LinkedIn'>LinkedIn/NAINOIA-INC</a><BR />
 <a href='/Third-Party-Publisher-Resources' title='Third Party Publisher Resources'>Third Party Publisher Resources</a><BR />
 <form action="https://www.paypal.com/donate" method="post" target="_top">

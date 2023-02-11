@@ -293,7 +293,7 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $domain, $allbibl
 		($pack													?(", <a href='$pack' target='_blank' title='Aionian Bible Study Pack resources for Bible translation and study of underlying languages'>Study Pack</a>") :'').
 		(AION_filesize($base.'---Aionian-Edition.noia')			?(", <a href='https://$domain/"	.$version[C_BIBLE]	."---Aionian-Edition.noia' download title='Aionian Bible with annotations data format download'>Annotated Datafile</a>") :'').
 		(AION_filesize($base.'---Standard-Edition.noia')		?(", <a href='https://$domain/"	.$version[C_BIBLE]	."---Standard-Edition.noia' download title='Standard Bible data format download'>Standard Datafile</a>") :'').
-		", <a href='https://Resources.AionianBible.org' target='_blank' title='All Aionian Bible resources for download'>Everything</a>".
+		", <a href='https://$domain/' target='_blank' title='All Aionian Bible resources for download'>Everything</a>".
 		"</div></div>".
 
 		((!empty($L_AMAZON) ||

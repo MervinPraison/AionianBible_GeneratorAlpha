@@ -21,7 +21,7 @@ AION_FILE_DATA_GET(			'./aion_database/VERSIONS.txt',	'T_VERSIONS',	$database, '
 AION_FILE_DATA_GET(			'./aion_database/BOOKS.txt',	'T_BOOKS',		$database, 'BIBLE', TRUE );
 AION_FILE_DATA_GET(			'./aion_database/NUMBERS.txt',	'T_NUMBERS',	$database, 'BIBLE', TRUE );
 AION_FILE_DATABASE_BOOKS(	$database );
-AION_FILE_DATABASE_PUT(		$database, '../www-stageresources', '../www-stage/library', 'stageresources.AionianBible.org', TRUE);
+AION_FILE_DATABASE_PUT(		$database, '../www-stageresources', '../www-stage/library', 'stage.AionianBible.org/resources', TRUE);
 
 /*** speller ***/
 AION_LOOP_SPELL('aion_X_spell.sh', '../spellcheck');
