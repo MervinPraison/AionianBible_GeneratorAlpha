@@ -18,7 +18,11 @@ RewriteBase /
    Header set Content-Disposition attachment
 </FilesMatch>
 
-# HTTPS
+# HTTPS & DOMAIN
+RewriteCond %{HTTP_HOST} !^\d+
+RewriteCond %{HTTP_HOST} !^(archive|stage|www|xcdn)\.aionianbible\.org$ [NC]
+RewriteRule ^ https://www.aionianbible.org%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP_HOST} !^\d+
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
@@ -38,7 +42,7 @@ RewriteRule ^ https://www.youtube.com/channel/UC2pMm_8kFzAuTVgCHGtt_yA [L,R=301]
 RewriteCond %{REQUEST_URI} ^\/Google-Play [NC]
 RewriteRule ^ https://play.google.com/store/apps/details?id=net.signedon.aionianbible.aionianbible [L,R=301]
 RewriteCond %{REQUEST_URI} ^\/TOR(.*)$ [NC]
-RewriteRule ^ http://3rki6w3dm5wibxtgqjmimqbmj3k46gcueo5ps5vz3a4qt7yp2e6ortyd.onion%1 [L,R=301]
+RewriteRule ^ http://sy3tqe5tvukyk35kbqx4v3xjj5jxkrvrcdno4c4neg5kymz3zb5avzqd.onion%1 [L,R=301]
 RewriteCond %{REQUEST_URI} ^\/GiveAway$ [NC,OR]
 RewriteCond %{REQUEST_URI} ^\/EmailNews$ [NC]
 RewriteRule ^ http://eepurl.com/ijulW5 [L,R=301]
@@ -58,42 +62,40 @@ RewriteRule ^ https://www.amazon.com/Terms-Eternity-Ai%C3%B4nios-Classical-Chris
 RewriteCond %{REQUEST_URI} ^\/Wikipedia\-Timeline\-of\-Christian\-Missions$ [NC]
 RewriteRule ^ https://en.wikipedia.org/wiki/Timeline_of_Christian_missions [L,R=301]
 
-RewriteCond %{HTTP_HOST} !^(archive|stage|www|xcdn)\.aionianbible\.org$ [NC]
-RewriteRule ^ https://www.aionianbible.org%{REQUEST_URI} [L,R=301]
 RewriteCond %{REQUEST_URI} ^\/App$ [NC]
-RewriteRule ^ https://%{HTTP_HOST} [L,R=301]
+RewriteRule ^ / [L,R=301]
 RewriteCond %{REQUEST_URI} ^\/Contact$ [NC,OR]
 RewriteCond %{REQUEST_URI} ^\/Support$ [NC,OR]
 RewriteCond %{REQUEST_URI} ^\/Help$ [NC]
-RewriteRule ^ https://%{HTTP_HOST}/Publisher [L,R=301]
+RewriteRule ^ /Publisher [L,R=301]
 RewriteCond %{REQUEST_URI} ^\/Apple$ [NC,OR]
 RewriteCond %{REQUEST_URI} ^\/AppleApp$ [NC]
-RewriteRule ^ https://%{HTTP_HOST}/Apple-iOS-App [L,R=301]
+RewriteRule ^ /Apple-iOS-App [L,R=301]
 RewriteCond %{REQUEST_URI} ^\/Proofer$ [NC]
-RewriteRule ^ https://%{HTTP_HOST}/library/Holy-Bible---AAA---Versions.htm [L,R=301]
+RewriteRule ^ /library/Holy-Bible---AAA---Versions.htm [L,R=301]
 RewriteCond %{REQUEST_URI} ^\/Please [NC]
-RewriteRule ^ https://%{HTTP_HOST}/library/Holy-Bible---AAA---Versions---Foreign-Phrases.htm [L,R=301]
+RewriteRule ^ /library/Holy-Bible---AAA---Versions---Foreign-Phrases.htm [L,R=301]
 RewriteCond %{REQUEST_URI} ^\/RTL$ [NC]
-RewriteRule ^ https://%{HTTP_HOST}/docs/rtl.htm [L,R=301]
+RewriteRule ^ /docs/rtl.htm [L,R=301]
 RewriteCond %{REQUEST_URI} ^\/Uusher$ [NC]
-RewriteRule ^ https://%{HTTP_HOST}/docs/The-Annals-of-the-World-by-James-Uusher.pdf?reload=1 [L,R=301]
+RewriteRule ^ /docs/The-Annals-of-the-World-by-James-Uusher.pdf?reload=1 [L,R=301]
 RewriteCond %{REQUEST_URI} ^\/Timeline$ [NC]
-RewriteRule ^ https://%{HTTP_HOST}/docs/Timeline-History-Aionian-Bible.pdf?reload=1 [L,R=301]
+RewriteRule ^ /docs/Timeline-History-Aionian-Bible.pdf?reload=1 [L,R=301]
 RewriteCond %{REQUEST_URI} ^\/Future$ [NC]
-RewriteRule ^ https://%{HTTP_HOST}/docs/Timeline-Eschatology-Aionian-Bible.pdf?reload=1 [L,R=301]
+RewriteRule ^ /docs/Timeline-Eschatology-Aionian-Bible.pdf?reload=1 [L,R=301]
 RewriteCond %{REQUEST_URI} ^\/Life\-Time\-Entirety\-Keizer\-Abstract$ [NC]
-RewriteRule ^ https://%{HTTP_HOST}/docs/BOOK-Life-Time-Entirety-Article-by-Heleen-Keizer.pdf?reload=1 [L,R=301]
+RewriteRule ^ /docs/BOOK-Life-Time-Entirety-Article-by-Heleen-Keizer.pdf?reload=1 [L,R=301]
 
 
 # LOGIC PROBLEM SOLVED - FIX THIS
 # Only a problem when cookie has no bible in history
 RewriteCond %{REQUEST_URI} ^\/Bibles$
-RewriteRule ^ https://%{HTTP_HOST}/Read [L,R=301]
+RewriteRule ^ /Read [L,R=301]
 
 # REWRITE EPUB
 RewriteCond %{REQUEST_URI} ^\/epub\/ [NC]
 RewriteCond %{DOCUMENT_ROOT}\/library%{REQUEST_URI} -d
-RewriteRule ^ https://%{HTTP_HOST}?e=%{REQUEST_URI} [L]
+RewriteRule ^ http://%{HTTP_HOST}/?e=%{REQUEST_URI} [L]
 
 # REWRITE READIUM
 RewriteCond %{REQUEST_URI} ^\/Readium\/(Holy\-Bible\-\-\-.*)$
