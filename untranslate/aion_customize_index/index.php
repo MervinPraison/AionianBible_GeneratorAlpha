@@ -162,11 +162,20 @@ PO Box 462, Bellefonte, PA 16823<BR />
 <a href='/Nainoia-Inc' title='Nainoia Inc, Publisher'>Nainoia Inc, Publisher</a><BR />
 <a href='https://www.linkedin.com/company/nainoia-inc' target='_blank' title='Nainoia Inc @ LinkedIn'>LinkedIn/NAINOIA-INC</a><BR />
 <a href='/Third-Party-Publisher-Resources' title='Third Party Publisher Resources'>Third Party Publisher Resources</a><BR />
+<BR />
 <form action="https://www.paypal.com/donate" method="post" target="_top">
 <input type="hidden" name="hosted_button_id" value="PNHVLFLK5B77E" />
 <input type="image" src="/images/Aionian-Bible-Button-Donate.png" name="submit" title="PayPal - The safer, easier way to donate online!" alt="Donate at PayPal" />
 </form>
 EOF;
+// skipit
+if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] == 'off' || $_SERVER['SERVER_PORT'] !== 443) {
+	abcms_html();
+	abcms_head();
+	echo "<div id='mail'>$nainoia</div>";
+	abcms_tail();
+}
+// doit
 if ($_pnum===2 && $_SERVER['REQUEST_METHOD']!='POST') { abcms_bomb("/Publisher","Invalid URL Requested for Publisher form"); }
 session_start();
 $gotall = (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject']) && !empty($_POST['message']) && !empty($_POST['submit']) ? TRUE : FALSE);

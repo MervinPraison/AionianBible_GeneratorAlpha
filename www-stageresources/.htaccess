@@ -16,6 +16,7 @@ IndexIgnore .well-known .htaccess .header.htm .favicon.ico .logo.png desktop.ini
 
 # HTTPS
 RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^(archive|stage|www|xcdn)\.aionianbible\.org$ [NC]
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # php -- BEGIN cPanel-generated handler, do not edit

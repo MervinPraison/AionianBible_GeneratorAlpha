@@ -1594,7 +1594,7 @@ G2430,Ἰκόνιον,Ikónion,ee-kon'-ee-on,"perhaps from εἰκών; image-
 G2431,ἱλαρός,hilarós,hil-ar-os',"from the same as ἵλεως; propitious or merry (""hilarious""), i.e. prompt or willing:--cheerful.",Adjective,greek
 G2432,ἱλαρότης,hilarótēs,hil-ar-ot'-ace,from ἱλαρός; alacrity:--cheerfulness.,Noun Feminine,greek
 G2433,ἱλάσκομαι,hiláskomai,hil-as'-kom-ahee,"middle voice from the same as ἵλεως; to conciliate, i.e. (transitively) to atone for (sin), or (intransitively) be propitious:--be merciful, make reconciliation for.",Verb,greek
-G2434,ἱλασμός,hilasmós,hil-as-mos',,Noun Masculine,greek
+G2434,ἱλασμός,hilasmós,hil-as-mos',propitiation; a propitiation (of an angry god); atoning sacrifice,Noun Masculine,greek
 G2435,ἱλαστήριον,hilastḗrion,hil-as-tay'-ree-on,"neuter of a derivative of ἱλάσκομαι; an expiatory (place or thing), i.e. (concretely) an atoning victim, or (specially) the lid of the Ark (in the Temple):--mercyseat, propitiation.",Noun Neuter,greek
 G2436,ἵλεως,híleōs,hil'-eh-oce,"perhaps from the alternate form of αἱρέομαι; cheerful (as attractive), i.e. propitious; adverbially (by Hebraism) God be gracious!, i.e. (in averting some calamity) far be it:--be it far, merciful.",Adjective,greek
 G2437,Ἰλλυρικόν,Illyrikón,il-loo-ree-kon',"neuter of an adjective from a name of uncertain derivation; (the) Illyrican (shore), i.e. (as a name itself) Illyricum, a region of Europe:--Illyricum.",Noun Location,greek
@@ -1908,7 +1908,6 @@ G2713,κατέναντι,katénanti,kat-en'-an-tee,"from κατά and ἔνα�
 G2714,κατενώπιον,katenṓpion,kat-en-o'-pee-on,"from κατά and ἐνώπιον; directly in front of:--before (the presence of), in the sight of.",Adverb,greek
 G2715,κατεξουσιάζω,katexousiázō,kat-ex-oo-see-ad'-zo,from κατά and ἐξουσιάζω; to have (wield) full privilege over:--exercise authority.,Verb,greek
 G2716,κατεργάζομαι,katergázomai,kat-er-gad'-zom-ahee,"from κατά and ἐργάζομαι; to work fully, i.e. accomplish; by implication, to finish, fashion:--cause, to (deed), perform, work (out).",Verb,greek
-G2717,,,,,,
 G2718,κατέρχομαι,katérchomai,kat-er'-khom-ahee,"from κατά and ἔρχομαι (including its alternate); to come (or go) down (literally or figuratively):--come (down), depart, descend, go down, land.",Verb,greek
 G2719,κατεσθίω,katesthíō,kat-es-thee'-o,"from κατά and ἐσθίω (including its alternate); to eat down, i.e. devour (literally or figuratively):--devour.",Verb,greek
 G272,ἀμελέω,ameléō,am-el-eh'-o,"from Α (as a negative particle) and μέλω; to be careless of:--make light of, neglect, be negligent, no regard.",Verb,greek
@@ -2449,117 +2448,17 @@ G320,ἀνάγνωσις,anágnōsis,an-ag'-no-sis,from ἀναγινώσκω;
 G3200,μεμβράνα,membrána,mem-bran'-ah,"of Latin origin (""membrane""); a (written) sheep-skin:--parchment.",Noun Feminine,greek
 G3201,μέμφομαι,mémphomai,mem'-fom-ahee,middle voice of an apparently primary verb; to blame:--find fault.,Verb,greek
 G3202,μεμψίμοιρος,mempsímoiros,mem-psim'-oy-ros,"from a presumed derivative of μέμφομαι and  (fate; akin to the base of μέρος); blaming fate, i.e. querulous (discontented):--complainer.",Adjective,greek
-G3203,,,,,,
-G3204,,,,,,
-G3205,,,,,,
-G3206,,,,,,
-G3207,,,,,,
-G3208,,,,,,
-G3209,,,,,,
 G321,ἀνάγω,anágō,an-ag'-o,"from ἀνά and ἄγω; to lead up; by extension to bring out; specially, to sail away:--bring (again, forth, up again), depart, launch (forth), lead (up), loose, offer, sail, set forth, take up.",Verb,greek
-G3210,,,,,,
-G3211,,,,,,
-G3212,,,,,,
-G3213,,,,,,
-G3214,,,,,,
-G3215,,,,,,
-G3216,,,,,,
-G3217,,,,,,
-G3218,,,,,,
-G3219,,,,,,
 G322,ἀναδείκνυμι,anadeíknymi,an-ad-ike'-noo-mee,"from ἀνά and δεικνύω; to exhibit, i.e. (by implication) to indicate, appoint:--appoint, shew.",Verb,greek
-G3220,,,,,,
-G3221,,,,,,
-G3222,,,,,,
-G3223,,,,,,
-G3224,,,,,,
-G3225,,,,,,
-G3226,,,,,,
-G3227,,,,,,
-G3228,,,,,,
-G3229,,,,,,
 G323,ἀνάδειξις,anádeixis,an-ad'-ike-sis,from ἀναδείκνυμι; (the act of) exhibition:--shewing.,Noun Feminine,greek
-G3230,,,,,,
-G3231,,,,,,
-G3232,,,,,,
-G3233,,,,,,
-G3234,,,,,,
-G3235,,,,,,
-G3236,,,,,,
-G3237,,,,,,
-G3238,,,,,,
-G3239,,,,,,
 G324,ἀναδέχομαι,anadéchomai,an-ad-ekh'-om-ahee,from ἀνά and δέχομαι; to entertain (as a guest):--receive.,Verb,greek
-G3240,,,,,,
-G3241,,,,,,
-G3242,,,,,,
-G3243,,,,,,
-G3244,,,,,,
-G3245,,,,,,
-G3246,,,,,,
-G3247,,,,,,
-G3248,,,,,,
-G3249,,,,,,
 G325,ἀναδίδωμι,anadídōmi,an-ad-eed'-om-ee,from ἀνά and δίδωμι; to hand over:--deliver.,Verb,greek
-G3250,,,,,,
-G3251,,,,,,
-G3252,,,,,,
-G3253,,,,,,
-G3254,,,,,,
-G3255,,,,,,
-G3256,,,,,,
-G3257,,,,,,
-G3258,,,,,,
-G3259,,,,,,
 G326,ἀναζάω,anazáō,an-ad-zah'-o,"from ἀνά and ζάω; to recover life (literally or figuratively):--(be a-)live again, revive.",Verb,greek
-G3260,,,,,,
-G3261,,,,,,
-G3262,,,,,,
-G3263,,,,,,
-G3264,,,,,,
-G3265,,,,,,
-G3266,,,,,,
-G3267,,,,,,
-G3268,,,,,,
-G3269,,,,,,
 G327,ἀναζητέω,anazētéō,an-ad-zay-teh'-o,from ἀνά and ζητέω; to search out:--seek.,Verb,greek
-G3270,,,,,,
-G3271,,,,,,
-G3272,,,,,,
-G3273,,,,,,
-G3274,,,,,,
-G3275,,,,,,
-G3276,,,,,,
-G3277,,,,,,
-G3278,,,,,,
-G3279,,,,,,
 G328,ἀναζώννυμι,anazṓnnymi,an-ad-zone'-noo-mee,from ἀνά and ζώννυμι; to gird afresh:--gird up.,Verb,greek
-G3280,,,,,,
-G3281,,,,,,
-G3282,,,,,,
-G3283,,,,,,
-G3284,,,,,,
-G3285,,,,,,
-G3286,,,,,,
-G3287,,,,,,
-G3288,,,,,,
-G3289,,,,,,
 G329,ἀναζωπυρέω,anazōpyréō,an-ad-zo-poor-eh'-o,from ἀνά and a compound of the base of ζῶον and πῦρ; to re-enkindle:--stir up.,Verb,greek
-G3290,,,,,,
-G3291,,,,,,
-G3292,,,,,,
-G3293,,,,,,
-G3294,,,,,,
-G3295,,,,,,
-G3296,,,,,,
-G3297,,,,,,
-G3298,,,,,,
-G3299,,,,,,
 G33,ἄγε,áge,ag'-eh,"imperative of ἄγω; properly, lead, i.e. come on:--go to.",,greek
 G330,ἀναθάλλω,anathállō,an-ath-al'-lo,from ἀνά and  (to flourish); to revive:--flourish again.,Verb,greek
-G3300,,,,,,
-G3301,,,,,,
-G3302,,,,,,
 G3303,μέν,mén,men,"a primary particle; properly, indicative of affirmation or concession (in fact); usually followed by a contrasted clause with δέ (this one, the former, etc.):--even, indeed, so, some, truly, verily. Often compounded with other particles in an intensive or asseverative sense.",,greek
 G3304,μενοῦνγε,menoûnge,men-oon'-geh,"from μέν and οὖν and γέ; so then at least:--nay but, yea doubtless (rather, verily).",,greek
 G3305,μέντοι,méntoi,men'-toy,"from μέν and τοί; indeed though, i.e. however:--also, but, howbeit, nevertheless, yet.",,greek
