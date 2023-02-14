@@ -49,7 +49,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(LXX|Khan).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/(Holy-Bible---Latvian---Latvian-Gluck-Bible|Holy-Bible---Japanese---Japanese-Yougo-yaku)---Aionian-Edition\.noia$/",
 		//'include'	=> "/.*Arapaho.*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Aionian-Bible).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Amo-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Polish-Updated-Gdansk).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Japanese-Bungo-yaku).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
@@ -834,6 +834,7 @@ $glos3		= foreignlink($default['W_GLOS'],	$w_glos,	" +",	$w_font,	"",				$langen
 $loff		= foreignlink($w_loff,				$w_loff,	"",		$w_font,	$langforeign,	$langenglish,	$loff,	$langspeed, $rtl);
 // add the PDF hyperlinks
 $bibleurl = preg_replace("/Holy-Bible---/","",$versions['BIBLE']);
+$link_tor = "<Value>TOR Anonymously</Value><Br />";
 $link_ab = "<U><Value>https://AionianBible.or</Value></U><Value>g</Value>";
 $link_na = "<U><Value>https://Nainoia-Inc.si</Value></U><Value>g</Value><U><Value>nedon.net</Value></U>";
 if (($format=="READ" || $format=="STUDY")) {
@@ -843,6 +844,7 @@ if (($format=="READ" || $format=="STUDY")) {
 	hyperlink($glos1);
 	hyperlink($glos3,"https://www.AionianBible.org/Bibles/$bibleurl/Noted");
 	hyperlink($loff);
+	$link_tor = "<A href='https://www.AionianBible.org/TOR'><U><Value>TOR Anonymousl</Value></U><Value>y</Value></A><Br />";
 	$link_ab = "<A href='https://www.AionianBible.org'><U><Value>https://AionianBible.or</Value></U><Value>g</Value></A>";
 	$link_na = "<A href='https://nainoia-inc.signedon.net'><U><Value>https://Nainoia-Inc.si</Value></U><Value>g</Value><U><Value>nedon.net</Value></U></A>";
 }
@@ -1375,6 +1377,7 @@ $fonts
 		</Fontface></Paragraph><Paragraph textformat="centerpad"><Fontface fontfamily='FF-Copy'>
 			<Value>Formatted by $speedata_version</Value><Br />
 			<Value>100% Free to Copy and Print</Value><Br />
+			$link_tor
 			$link_ab
 		</Fontface></Paragraph><Paragraph textformat="centerpad"><Fontface fontfamily='FF-Copy'>
 			<Value>Published by Nainoia Inc</Value><Br />
@@ -2021,6 +2024,7 @@ $fonts
 		</Fontface></Paragraph><Paragraph textformat="centerpad"><Fontface fontfamily='FF-Copy'>
 			<Value>Formatted by $speedata_version</Value><Br />
 			<Value>100% Free to Copy and Print</Value><Br />
+			<Value>TOR Anonymously</Value><Br />
 			<U><Value>AionianBible.or</Value></U><Value>g</Value>
 		</Fontface></Paragraph><Paragraph textformat="centerpad"><Fontface fontfamily='FF-Copy'>
 			<Value>Published by Nainoia Inc</Value><Br />
