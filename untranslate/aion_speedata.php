@@ -51,7 +51,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/.*Arapaho.*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Amo-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Polish-Updated-Gdansk).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Japanese-Bungo-yaku).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Slovene-Savli).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
 		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,

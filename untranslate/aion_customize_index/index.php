@@ -67,6 +67,7 @@ exit;
 /*** HOME ***/
 function abcms_home() {
 abcms_html();
+$modified = date("n/j/Y", filemtime("./index.php"));
 ?>
 <div id='home'>
 <div id='vert'>
@@ -77,7 +78,7 @@ abcms_html();
 <div id='logo'><img src='/images/Holy-Bible-Aionian-Edition-PURPLE-HOME.png' alt='Aionian Bible' /></div>
 <div id='j316'>For God so loved the world,<BR />that he gave his only begotten Son,<BR />that whoever believes in him<BR />should not perish, but have...</div>
 <div id='aion'>aionian life!</div>
-<div id='moto'>The world's first Holy Bible <span style="text-decoration: underline;">untranslation</span><BR />Two hundred sixteen versions<BR />Ninety-nine world languages<BR />Anonymous on TOR network<BR />100% free to copy &amp; print<BR />Updated M/D/YYYY<BR /><BR />Also known as<BR />'The Purple Bible'
+<div id='moto'>The world's first Holy Bible <span style="text-decoration: underline;">untranslation</span><BR />Two hundred sixteen versions<BR />Ninety-nine world languages<BR />Anonymous on TOR network<BR />100% free to copy &amp; print<BR />Updated <? echo $modified; ?><BR /><BR />Also known as<BR />'The Purple Bible'
 </div>
 </div>
 </a>
@@ -169,7 +170,7 @@ PO Box 462, Bellefonte, PA 16823<BR />
 </form>
 EOF;
 // skipit
-if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] == 'off' || $_SERVER['SERVER_PORT'] !== 443) {
+if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] != 'on' || (int)$_SERVER['SERVER_PORT'] !== 443) {
 	abcms_html();
 	abcms_head();
 	echo "<div id='mail'>$nainoia</div>";

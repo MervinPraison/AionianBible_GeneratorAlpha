@@ -375,13 +375,6 @@ function AION_LIBS_RSYNC($source,$destiny) {
 function AION_INSTALL_INDEX( $destiny ) {
 	if (system( 'cp -R aion_customize_index/. '.$destiny ) === FALSE ) { AION_ECHO('ERROR! cp -R index customizations'); }
 }
-function AION_INSTALL_INDEX_UPDATED( $file ) {
-	if (!($contents = file_get_contents($file))) {																							AION_ECHO("ERROR! file_get_contents($file)"); }
-	if (!($contents = preg_replace('/M\/\D\/YYYY/s',date("n/j/Y"),$contents,2,$count))) {													AION_ECHO("ERROR! preg_replace($file)"); }
-	if ($count != 1) {																														AION_ECHO("ERROR! preg_replace($file) count=$count");}
-	if (!file_put_contents($file,$contents)) {																								AION_ECHO("ERROR! file_put_contents($file)"); }
-	AION_ECHO("DONE! index.php auth() turned OFF: $file");
-}
 
 
 /*** aion loop ***/
