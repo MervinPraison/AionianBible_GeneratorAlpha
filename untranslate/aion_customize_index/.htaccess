@@ -2,6 +2,7 @@
 RewriteEngine On
 Options +FollowSymlinks
 RewriteBase /
+Header set Onion-Location "http://sy3tqe5tvukyk35kbqx4v3xjj5jxkrvrcdno4c4neg5kymz3zb5avzqd.onion%{REQUEST_URI}s"
 
 # EXPIRATION, 30 DAYS
 <IfModule mod_expires.c>

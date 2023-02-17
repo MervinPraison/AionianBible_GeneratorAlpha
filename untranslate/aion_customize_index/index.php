@@ -15,20 +15,20 @@ if (!empty($_GET['e'])) {
 // DISPATCH
 $_para = $_stid = $_paraC = $_stidC = $_stidN = $_stidX = $_meta = $_SwipePREV = $_SwipeNEXT = $_BibleSTRONGS = NULL;
 $_Part = array(NULL);
-if ($_Path==='') {										$_meta = " ~ Homepage";										abcms_home(); }
-else if ($_Path==='Preface') {							$_meta = " ~ Preface";										abcms_page('docs/preface.htm'); }
-else if ($_Path==='Buy') {								$_meta = " ~ Buy Bibles and T-Shirts";						abcms_word_list('buy',NULL); }
-else if ($_Path==='Maps') {								$_meta = " ~ Maps";											abcms_page('docs/maps.htm'); }
-else if ($_Path==='History') {							$_meta = " ~ History";										abcms_page('docs/history.htm'); }
-else if ($_Path==='Readers-Guide') {					$_meta = " ~ Readers Guide";								abcms_page('docs/readers-guide.htm'); }
-else if ($_Path==='Aionios-and-Aidios') {				$_meta = " ~ Aiōnios and Aïdios";							abcms_page('docs/aionios-and-aidios.htm'); }
-else if ($_Path==='Lake-of-Fire') {						$_meta = " ~ Lake of Fire prepared for the Devil and his angels";	abcms_page('docs/lake-of-fire.htm'); }
-else if ($_Path==='Promote') {							$_meta = " ~ Promote, Sponsor, Advertise, Market";			abcms_page('docs/promote.htm'); }
-else if ($_Path==='Nainoia-Inc') {						$_meta = " ~ Nainoia Inc, publisher of the Aionian Bible";	abcms_page('docs/nainoia-inc.htm'); }
-else if ($_Path==='Bible-Cover') {						$_meta = " ~ Aionian Bible Branded Leather Bible Covers";	abcms_page('docs/cover.htm'); }
-else if ($_Path==='Privacy') {							$_meta = " ~ Privacy Policy";								abcms_page('docs/privacy.htm'); }
-else if ($_Path==='Apple-iOS-App') {					$_meta = " ~ Apple iOS App";								abcms_page('docs/appleiosapp.htm'); }
-else if ($_Path==='Third-Party-Publisher-Resources') {	$_meta = " ~ Third Party Publisher Resources";				abcms_page('docs/third-party-publisher-resources.htm'); }
+if ($_Path=='' || $_Path=='index.php') {				$_meta = " ~ Homepage";										abcms_home(); }
+else if ($_Path=='Preface') {							$_meta = " ~ Preface";										abcms_page('docs/preface.htm'); }
+else if ($_Path=='Buy') {								$_meta = " ~ Buy Bibles and T-Shirts";						abcms_word_list('buy',NULL); }
+else if ($_Path=='Maps') {								$_meta = " ~ Maps";											abcms_page('docs/maps.htm'); }
+else if ($_Path=='History') {							$_meta = " ~ History";										abcms_page('docs/history.htm'); }
+else if ($_Path=='Readers-Guide') {						$_meta = " ~ Readers Guide";								abcms_page('docs/readers-guide.htm'); }
+else if ($_Path=='Aionios-and-Aidios') {				$_meta = " ~ Aiōnios and Aïdios";							abcms_page('docs/aionios-and-aidios.htm'); }
+else if ($_Path=='Lake-of-Fire') {						$_meta = " ~ Lake of Fire prepared for the Devil and his angels";	abcms_page('docs/lake-of-fire.htm'); }
+else if ($_Path=='Promote') {							$_meta = " ~ Promote, Sponsor, Advertise, Market";			abcms_page('docs/promote.htm'); }
+else if ($_Path=='Nainoia-Inc') {						$_meta = " ~ Nainoia Inc, publisher of the Aionian Bible";	abcms_page('docs/nainoia-inc.htm'); }
+else if ($_Path=='Bible-Cover') {						$_meta = " ~ Aionian Bible Branded Leather Bible Covers";	abcms_page('docs/cover.htm'); }
+else if ($_Path=='Privacy') {							$_meta = " ~ Privacy Policy";								abcms_page('docs/privacy.htm'); }
+else if ($_Path=='Apple-iOS-App') {						$_meta = " ~ Apple iOS App";								abcms_page('docs/appleiosapp.htm'); }
+else if ($_Path=='Third-Party-Publisher-Resources') {	$_meta = " ~ Third Party Publisher Resources";				abcms_page('docs/third-party-publisher-resources.htm'); }
 else if (!preg_match('/^[a-zA-Z0-9\-\/]+$/',$_Path)) {																abcms_notf(); }
 if (($_para = (preg_match('#(/parallel-[^/]+)#',$_Path,$matches) ? $matches[1] : NULL))) {	$_paraC = str_replace('/parallel-','',$_para);	$_Path = preg_replace('#(/parallel-[^/]+)#','',$_Path); }
 if (($_stid = (preg_match('#(/strongs-.*)$#',$_Path,$matches) ? $matches[1] : NULL))) {		$_stidC = str_replace('/strongs-','',$_stid);	$_Path = preg_replace('#(/strongs-.*)$#','',$_Path); }
@@ -37,27 +37,27 @@ $_path = strtolower($_Path);
 $_part = explode('/',$_path);
 $_pnum = count($_part);
 abcms_stro_chek();
-if ($_Path==='Read') {									$_meta = " ~ Read and Study Bible";							abcms_word_list('read',$_paraC); }
-else if ($_Part[0]==='Bibles') {
-	if ($_pnum===2) {									$_meta = " ~ $_Part[1] ~ Table of Contents Description";	abcms_word_tocs_detail(); }
-	else if ($_pnum===3 && $_Part[2]==='Old') {			$_meta = " ~ $_Part[1] ~ Table of Contents Old Testament";	abcms_word_tocs_test('Old Testament'); }
-	else if ($_pnum===3 && $_Part[2]==='New') {			$_meta = " ~ $_Part[1] ~ Table of Contents New Testament";	abcms_word_tocs_test('New Testament'); }
-	else if ($_pnum===3 && $_Part[2]==='Noted') {		$_meta = " ~ $_Part[1] ~ Aionian Verses";					abcms_word_note(); }
-	else if ($_pnum===3) {								$_meta = " ~ $_Part[1] ~ $_Part[2] Chapter 1";				abcms_word_chap(); }
-	else if ($_pnum===4) {								$_meta = " ~ $_Part[1] ~ $_Part[2] Chapter $_Part[3]";		abcms_word_chap(); }
-	else if ($_pnum===5) {								$_meta = " ~ $_Part[1] ~ $_Part[2] $_Part[3]:$_Part[4]";	abcms_word_vers(); }	
+if ($_Path=='Read') {									$_meta = " ~ Read and Study Bible";							abcms_word_list('read',$_paraC); }
+else if ($_Part[0]=='Bibles') {
+	if ($_pnum==2) {									$_meta = " ~ $_Part[1] ~ Table of Contents Description";	abcms_word_tocs_detail(); }
+	else if ($_pnum==3 && $_Part[2]=='Old') {			$_meta = " ~ $_Part[1] ~ Table of Contents Old Testament";	abcms_word_tocs_test('Old Testament'); }
+	else if ($_pnum==3 && $_Part[2]=='New') {			$_meta = " ~ $_Part[1] ~ Table of Contents New Testament";	abcms_word_tocs_test('New Testament'); }
+	else if ($_pnum==3 && $_Part[2]=='Noted') {			$_meta = " ~ $_Part[1] ~ Aionian Verses";					abcms_word_note(); }
+	else if ($_pnum==3) {								$_meta = " ~ $_Part[1] ~ $_Part[2] Chapter 1";				abcms_word_chap(); }
+	else if ($_pnum==4) {								$_meta = " ~ $_Part[1] ~ $_Part[2] Chapter $_Part[3]";		abcms_word_chap(); }
+	else if ($_pnum==5) {								$_meta = " ~ $_Part[1] ~ $_Part[2] $_Part[3]:$_Part[4]";	abcms_word_vers(); }	
 }
-else if ($_Part[0]==='Parallel' && $_pnum > 1 && $_pnum < 6) {
+else if ($_Part[0]=='Parallel' && $_pnum > 1 && $_pnum < 6) {
 														$_meta = " ~ Read and Study Parallel Bible";				abcms_word_list('parallel',$_Part[1]); }
-else if ($_Part[0]==='Glossary' && $_pnum < 3) {		$_meta = " ~ Glossary";										abcms_glos(); }
-else if ($_Part[0]==='Strongs'  && $_pnum < 3) {		$_meta = " ~ Strongs Concordance Glossary $_stidC";			abcms_stro(); }
-else if ($_Part[0]==='Publisher'&& !$_para && $_pnum<6){$_meta = " ~ Publisher";									abcms_mail(); }
-else if ($_Part[0]==='CAPTCHA' && $_pnum == 2) {		$_meta = "";												abcms_mail_captcha(); }
-else if ($_Part[0]==='Verse') {
-	if ($_pnum===2 && $_Part[1]==='Questioned'){		$_meta = " ~ Questioned Verses";							abcms_word_vers_questioned(); }
-	else if ($_pnum===3 && $_Part[1]==='All'){			$_meta = " ~ $_Part[2] 1:1";								abcms_word_vers_all(); }
-	else if ($_pnum===4 && $_Part[1]==='All'){			$_meta = " ~ $_Part[2] $_Part[3]:1";						abcms_word_vers_all(); }
-	else if ($_pnum===5 && $_Part[1]==='All'){			$_meta = " ~ $_Part[2] $_Part[3]:$_Part[4]";				abcms_word_vers_all(); }
+else if ($_Part[0]=='Glossary' && $_pnum < 3) {			$_meta = " ~ Glossary";										abcms_glos(); }
+else if ($_Part[0]=='Strongs'  && $_pnum < 3) {			$_meta = " ~ Strongs Concordance Glossary $_stidC";			abcms_stro(); }
+else if ($_Part[0]=='Publisher'&& !$_para && $_pnum<6){	$_meta = " ~ Publisher";									abcms_mail(); }
+else if ($_Part[0]=='CAPTCHA' && $_pnum == 2) {			$_meta = "";												abcms_mail_captcha(); }
+else if ($_Part[0]=='Verse') {
+	if ($_pnum==2 && $_Part[1]=='Questioned'){			$_meta = " ~ Questioned Verses";							abcms_word_vers_questioned(); }
+	else if ($_pnum==3 && $_Part[1]=='All'){			$_meta = " ~ $_Part[2] 1:1";								abcms_word_vers_all(); }
+	else if ($_pnum==4 && $_Part[1]=='All'){			$_meta = " ~ $_Part[2] $_Part[3]:1";						abcms_word_vers_all(); }
+	else if ($_pnum==5 && $_Part[1]=='All'){			$_meta = " ~ $_Part[2] $_Part[3]:$_Part[4]";				abcms_word_vers_all(); }
 }
 abcms_notf();
 exit;
