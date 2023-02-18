@@ -75,7 +75,7 @@ function AION_LOOP_EPUBY($source, $destiny_unzip, $destiny_zip) {
 		'function'		=> 'AION_LOOP_EPUBY_DOIT',
 		'source'		=> $source,
 		//'include'		=> "/Holy-Bible---.*(Albanian).*---Aionian-Edition\.noia$/",
-		//'include'		=> "/Holy-Bible---.*(Aionian-Bible|Peshitta|Korean).*---Aionian-Edition\.noia$/",
+		//'include'		=> "/Holy-Bible---.*(Aionian-Bible|Gods-Living-Word|Family-35-NT|LXX2012-U-S-English).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.+(Basic).+---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.*(Azerb|Gaelic|Somali).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.*(STEPBible).*---Aionian-Edition\.noia$/",
@@ -347,9 +347,9 @@ EOF;
 			else {						$ncx_count		+= $ncx_yot;
 										$ncx_new		.= "<navPoint id='nav$ncx_count' playOrder='$ncx_count'><navLabel><text>$book_english</text></navLabel><content src='$file' /></navPoint>\n"; ++$ncx_count; $ncx_yot = 0; }
 			if ((int)$last_chap == 1) {
-				if((int)$last_indx < 40) {	$index_old	.= "<li class='olnon'><a href='$file' class='ff' $G_ISO $G_RTL title='View Bible book'>$book_foreign </a></li>\n"; }
-				else {						$index_new	.= "<li class='olnon'><a href='$file' class='ff' $G_ISO $G_RTL title='View Bible book'>$book_foreign </a></li>\n"; }
-			}
+			if((int)$last_indx < 40) {	$index_old		.= "<li class='olnon'><a href='$file' class='ff' $G_ISO $G_RTL title='View Bible book'>$book_foreign</a></li>\n"; }
+			else {						$index_new		.= "<li class='olnon'><a href='$file' class='ff' $G_ISO $G_RTL title='View Bible book'>$book_foreign</a></li>\n"; }
+			}	
 		}
 		// VERSE
 		$verF = $args['database']['T_NUMBERS'][$bible][$verN];
@@ -387,11 +387,13 @@ EOF;
 	$opf_manifest .= "<item href='$file' id='$id' media-type='application/xhtml+xml' />\n";
 	if((int)$last_indx < 40) {	$opf_spine_old	.= "<itemref idref='$id' linear='yes' />\n"; }
 	else {						$opf_spine_new	.= "<itemref idref='$id' linear='yes' />\n"; }
-	if((int)$last_indx < 40) {	$ncx_old		.= "<navPoint id='nav$ncx_count' playOrder='$ncx_count' ><navLabel><text>$book_english</text></navLabel><content src='$file' /></navPoint>\n"; ++$ncx_count; $ncx_yot = 1; }
+	if((int)$last_indx < 40) {	$ncx_old		.= "<navPoint id='nav$ncx_count' playOrder='$ncx_count'><navLabel><text>$book_english</text></navLabel><content src='$file' /></navPoint>\n"; ++$ncx_count; $ncx_yot = 1; }
 	else {						$ncx_count		+= $ncx_yot;
-								$ncx_new		.= "<navPoint id='nav$ncx_count' playOrder='$ncx_count' ><navLabel><text>$book_english</text></navLabel><content src='$file' /></navPoint>\n"; ++$ncx_count; $ncx_yot = 0; }
-
-
+								$ncx_new		.= "<navPoint id='nav$ncx_count' playOrder='$ncx_count'><navLabel><text>$book_english</text></navLabel><content src='$file' /></navPoint>\n"; ++$ncx_count; $ncx_yot = 0; }
+	if ((int)$last_chap == 1) {
+	if((int)$last_indx < 40) {	$index_old		.= "<li class='olnon'><a href='$file' class='ff' $G_ISO $G_RTL title='View Bible book'>$book_foreign</a></li>\n"; }
+	else {						$index_new		.= "<li class='olnon'><a href='$file' class='ff' $G_ISO $G_RTL title='View Bible book'>$book_foreign</a></li>\n"; }
+	}
 	
 	// UNSET
 	AION_unset($database); unset($database); $database=NULL;
@@ -788,7 +790,7 @@ $cnB = (empty($ncx_old) ? 6 : $co + 7);
 $ncx_new = (empty($ncx_new) ? NULL : "<navPoint id='nav$cnB' playOrder='$cnB' ><navLabel><text>Matthew</text></navLabel><content src='middle-mat.xhtml' /></navPoint>\n".$ncx_new);
 // 6 if no OT/NT -OR- if OT and no NT then OT count + 7 -OR- if NT and no OT then NT count + 7 -OR- if OT/NT then all counts + 8
 $cnE = (empty($ncx_old) && empty($ncx_new) ? 6 : (empty($ncx_new) ? $co + 7 : (empty($ncx_old) ? $cn + 7 : $co + $cn + 8)));
-$ncx_new = (empty($ncx_new) ? NULL : $ncx_new."<navPoint id='nav$cnE' playOrder='$cnE' ><navLabel><text>Matthew</text></navLabel><content src='middle-rev.xhtml' /></navPoint>\n");
+$ncx_new = (empty($ncx_new) ? NULL : $ncx_new."<navPoint id='nav$cnE' playOrder='$cnE' ><navLabel><text>Revelation</text></navLabel><content src='middle-rev.xhtml' /></navPoint>\n");
 $cnE += (empty($ncx_new) ? 0 : 1);
 $ff = "trim";
 $file = "$folder/toc.ncx";

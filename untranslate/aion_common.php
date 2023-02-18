@@ -4107,6 +4107,7 @@ function AION_LOOP_EPUB_UZIP($source, $destiny) {
 	AION_LOOP( array(
 		'function'	=> 'AION_LOOP_EPUB_UZIP_DOIT',
 		'source'	=> $source,
+		//'include'		=> "/Holy-Bible---.*(Aionian-Bible|Gods-Living-Word|Family-35-NT|LXX2012-U-S-English).*---Aionian-Edition\.epub$/",
 		//'include'		=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.epub$/",
 		'include'	=> "/\.epub$/",
 		'destiny'	=> $destiny,
