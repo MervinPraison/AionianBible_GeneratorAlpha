@@ -3029,6 +3029,7 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$debug .= "<a href='/Please' target='_blank'>Foreign Phrases at AionianBible.org/Please</a><br />\n";
 	$debug .= "<a href='/RTL' target='_blank'>Right-to-Left and Hindic proofing at AionianBible.org/RTL</a><br />\n";
 	$debug .= "<a href='/Promote' target='_blank'>Promote at AionianBible.org/Promote</a><br />\n";
+	$debug .= "<a href='/index-rates.php' target='_blank'>Caculate KDP currency exchange rates</a><br />\n";
 	$debug .= "<br />\n";
 	$debug .= "<table>";
 	$debug .="<tr><td>BIBLE</td><td>P</td><td>S</td><td>NOT</td><td>B#</td><td>LAN</td><td>OLD</td><td>NEW</td><td>CHP</td><td>VER</td><td>AIO</td><td>QUE</td><td>LON</td><td>CMI</td><td>VMI</td><td>VXT</td><td>VFI</td><td>NOF</td><td>CMA</td><td>VMI</td><td>VME</td><td>CUS</td><td>PAG</td><td>PAN</td><td>PRI</td><td>KDP</td><td>KNT</td><td>LUL</td><td>LNT</td><td>LHC</td><td>WAT</td><td>STA</td></tr>\n";
