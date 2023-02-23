@@ -34,7 +34,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Portuguese-Trans-Trans).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Dombe|Nestle|Boyd|Tisch|Treg).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aleppo|Scots).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---(Arabic|Aramaic|Hebrew|Persian).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Arabic|Kannada|Myanmar|Oriya|Persian).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Gujarati|Aionian-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|New-Arabic|Version-Simplified).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(King-James-Version-Updated).*---Aionian-Edition\.noia$/",
@@ -42,6 +42,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Arabic|Nepali).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Bulgarian|Cebuano|Gourmantche|Nepali|Uyghur-Bible-Arabic|Uyghur-Bible-Cyrillic|Uyghur-Bible-Pinyin).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic|Uyghur-Bible-Cyrillic|Uyghur-Bible-Pinyin).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Basque|Breton).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Clementine|Vulgat).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Heart|Aionian-Bible|Spanish---Free|Slovene|Roman|English---World).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Burmese-Common).*---Aionian-Edition\.noia$/",
@@ -49,7 +50,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(LXX|Khan).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/(Holy-Bible---Latvian---Latvian-Gluck-Bible|Holy-Bible---Japanese---Japanese-Yougo-yaku)---Aionian-Edition\.noia$/",
 		//'include'	=> "/.*Arapaho.*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Amo-Bible).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Basque|Breton).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Polish-Updated-Gdansk).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Slovene-Savli).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
@@ -2419,11 +2420,12 @@ $fonts
 	</Paragraph></Textblock></PlaceObject>
 
 	<!-- TITLE continued -->
-	<SetVariable variable="ylocation" select="(7.5 + $hardmargin)"/>
+	<SetVariable variable="ylocation" select="(7.125 + $hardmargin)"/>
 	<PlaceObject row="{\$ylocation} in" column="0 in" allocate="no"><Textblock width='{\$xlocation} in'><Paragraph language="English (USA)" textformat="right" color='white'>
 		$versionFO_TI
 		$versionEN_TI
 		$versionNT_TI
+		<Br /><Span language='English (USA)'><Fontface fontfamily='FF-VerE'><Value>Nainoia Inc</Value></Fontface></Span>
 	</Paragraph></Textblock></PlaceObject>
 	
 </Record>
@@ -2517,11 +2519,12 @@ $fonts
 	</Paragraph></Textblock></PlaceObject>
 
 	<!-- TITLE continued -->
-	<SetVariable variable="ylocation" select="(7.5 + $hardmargin)"/>
+	<SetVariable variable="ylocation" select="(7.125 + $hardmargin)"/>
 	<PlaceObject row="{\$ylocation} in" column="{\$xlocation} in" allocate="no"><Textblock width='5.5in'><Paragraph language="English (USA)" textformat="left" color='white' $bidi_left>
 		$versionFO_TI
 		$versionEN_TI
 		$versionNT_TI
+		<Br /><Span language='English (USA)'><Fontface fontfamily='FF-VerE'><Value>Nainoia Inc</Value></Fontface></Span>
 	</Paragraph></Textblock></PlaceObject>
 	
 	<!-- BINDING -->
