@@ -30,7 +30,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_pdfoo'	=> FALSE,	// TRUE = do One Online PDFs
 		'q_epubc'	=> TRUE,	// TRUE = do ePub covers
 		//'include'	=> "/Holy-Bible---([G-Z]+.*)---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Albanian).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Aramaic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Portuguese-Trans-Trans).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Dombe|Nestle|Boyd|Tisch|Treg).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aleppo|Scots).*---Aionian-Edition\.noia$/",
@@ -52,7 +52,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/.*Arapaho.*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Basque|Breton).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Polish-Updated-Gdansk).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Slovene-Savli).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Tamil|Urdu|Vietnamese).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
 		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
