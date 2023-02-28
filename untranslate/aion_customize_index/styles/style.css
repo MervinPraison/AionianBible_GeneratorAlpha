@@ -90,7 +90,7 @@ a:hover { color: #9966CC; }
 
 /*** BODY ***/
 #body {	max-width: 1024px; margin: 0 auto; padding: 80px 3% 10px 3%; }
-#body h2 { text-align: center; }
+#body h1, #body h2, #body h3 { text-align: center; }
 body.word-toc  #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3%; }
 body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3%; }
 
@@ -109,6 +109,7 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 #word .word-buy .buylinks a { text-decoration: underline; color: #000000; }
 #word .word-buy .buylinks a:hover { color: #FFFFFF; background-color: #9966CC; border: 1px solid #9966CC; }
 #word-quick a { display: inline-block; margin: 0 4px 10px 4px }
+#word .word-custom { margin-bottom: 20px; }
 
 #word-search { }
 #word-search .word-test { font-weight: bold; font-size: 110%; text-align: center; padding: 5px; height: 100%; width: 100%; display: block; background-color: #EDEDED; }

@@ -1,0 +1,79 @@
+# 
+# REQUEST CUSTOM FORMATTED VERSES
+# Compile an arrangement of verses for personal study or public presentation.
+# The result is 100% free to copy and print, compliments of AionianBible.org.
+#
+# Request custom formatted verses:
+#	Visit AionianBible.org/Publisher
+#	Enter your name
+#	Enter your email
+#	Enter the subject 'AB-CUSTOM-VERSES'
+#	Enter your request in the comment in the following format
+#
+# Request format:
+#	This file is an example request format and can be copied and pasted entirely into the comment
+#	When designing formats, save a copy in a text editor because if you fail the CAPTCHA it is lost
+#	Empty lines and lines beginning with '#' are comments and ignored
+#	Format lines must be one format per line
+#	Browse AionianBible.org and simply copy the URI for verse formats
+#
+# Request format headings:
+#	<h1>Largest Header Title - Centered</h1>
+#	<h2>Larger Header Title - Centered</h2>
+#	<h3>Large Header Title - Centered</h3>
+#	<h4>Header Title - Left Justified</h4>
+#	<p>A paragraph of words without a carriage return or newline.</p>
+#
+# Request format verses:
+#	/Bibles/English---Aionian-Bible/John/3																(whole chapter)
+#	/Bibles/English---Aionian-Bible/John/3/16/17														(verse selection)
+#	/Bibles/English---Aionian-Bible/John/3/1/16/parallel-English---King-James-Version					(verse selection with parallel)
+#	/Bibles/English---Aionian-Bible/John/3/16/16/strongs-g166											(verse selection with strongs highlight)
+#	/Bibles/English---Aionian-Bible/John/3/16/16/parallel-English---King-James-Version/strongs-g166		(verse selection with parallel and strongs highlight)
+#	/Bibles/Spanish---Free-Bible/John/3/16																(99 languages available)
+#	/Bibles/English---Aionian-Bible/John/3/16/16/parallel-Spanish---Free-Bible							(learn languages!)
+#
+
+<h1>Welcome to Bible Study</h1>
+<h3>We are glad you are here!</h3>
+
+<p>A paragraph of words without a carriage return or newline.</p>
+
+<h4>John chapter 3</h4>
+/Bibles/English---Aionian-Bible/John/3
+
+<h4>Focus: John 3:16-17</h4>
+/Bibles/English---Aionian-Bible/John/3/16/17
+
+<h4>Further Focus: John 3:16 and Strongs g166</h4>
+/Bibles/English---Aionian-Bible/John/3/16/16/strongs-g166
+
+<h2>Extra Study: Compare to the King James</h2>
+
+<h4>John 3:1-16</h4>
+/Bibles/English---Aionian-Bible/John/3/1/16/parallel-English---King-James-Version
+
+<h4>John 3:16</h4>
+/Bibles/English---Aionian-Bible/John/3/16/16/parallel-English---King-James-Version/strongs-g166
+
+<h4>John 3:16 in Spanish</h4>
+/Bibles/Spanish---Free-Bible/John/3/16/16
+
+<h4>Learn John 3:16 in Spanish</h4>
+/Bibles/English---Aionian-Bible/John/3/16/16/parallel-Spanish---Free-Bible
+
+<h4>Question</h4>
+<p>A question for further study. Was Nicodemus cowardly for approaching Jesus at night and in secret? Or was he courageous for approaching Jesus at all?</p>
+
+<h2>Example Errors</h2>
+<p>This line is an example error. HTML tags <br /> not allowed, except as explained above.<p>
+/Bible/English---Aionian-Bible/John/3
+/Bibles/English---Bad-Bible/John/3
+/Bibles/English---Aionian-Bible/Johnny/3
+/Bibles/English---Aionian-Bible/John/3?
+/Bibles/English---Aionian-Bible/John/three
+/Bibles/English---Aionian-Bible/John/30
+/Bibles/English---Aionian-Bible/John/3/1/100
+/Bibles/English---Aionian-Bible/John/3/1/16/100
+/Bibles/English---Aionian-Bible/John/3/16/16/strongs-g100000
+/Bibles/English---Aionian-Bible/John/3/16/16/parallel-English---Bad-Bible
