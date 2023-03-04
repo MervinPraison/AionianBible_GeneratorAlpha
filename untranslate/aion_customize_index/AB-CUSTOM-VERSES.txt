@@ -39,6 +39,10 @@
 #	Manually edit the URL to express a start and stop verse number selection if desired.
 #	Learn to navigate AionianBible.org here https://youtu.be/JxGkDTuWO3c
 #
+#	Bible path components:
+#	/Bibles/1ST-BIBLE-NAME/BIBLE-BOOK/CHAPTER#/parallel-OPTIONAL-PARALLEL-BIBLE-NAME/strongs-OPTIONAL-STRONGS#							(whole chapter)
+#	/Bibles/1ST-BIBLE-NAME/BIBLE-BOOK/CHAPTER#/START-VERSE#/END-VERSE#/parallel-OPTIONAL-PARALLEL-BIBLE-NAME/strongs-OPTIONAL-STRONGS#	(verse selection)
+#
 
 <h1>Welcome to Bible Study</h1>
 <h3>We are glad you are here!</h3>
