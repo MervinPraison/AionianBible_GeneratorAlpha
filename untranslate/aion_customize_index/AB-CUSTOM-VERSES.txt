@@ -27,11 +27,17 @@
 # Request format verses:
 #	/Bibles/English---Aionian-Bible/John/3																(whole chapter)
 #	/Bibles/English---Aionian-Bible/John/3/16/17														(verse selection)
-#	/Bibles/English---Aionian-Bible/John/3/1/16/parallel-English---King-James-Version					(verse selection with parallel)
-#	/Bibles/English---Aionian-Bible/John/3/16/16/strongs-g166											(verse selection with strongs highlight)
-#	/Bibles/English---Aionian-Bible/John/3/16/16/parallel-English---King-James-Version/strongs-g166		(verse selection with parallel and strongs highlight)
-#	/Bibles/Spanish---Free-Bible/John/3/16																(99 languages available)
-#	/Bibles/English---Aionian-Bible/John/3/16/16/parallel-Spanish---Free-Bible							(learn languages!)
+#	/Bibles/English---Aionian-Bible/John/3/16/17/parallel-English---King-James-Version					(verse selection with parallel)
+#	/Bibles/English---Aionian-Bible/John/3/16/17/strongs-g166											(verse selection with strongs highlight)
+#	/Bibles/English---Aionian-Bible/John/3/16/17/parallel-English---King-James-Version/strongs-g166		(verse selection with parallel and strongs highlight)
+#	/Bibles/English---Aionian-Bible/John/3/16/17/parallel-Spanish---Free-Bible							(learn languages!)
+#	/Bibles/Spanish---Free-Bible/John/3/16/16															(216 translations and 99 languages available)
+#
+#	To create the verse requests above, click to the desired Bible translation and chapter at AionianBible.org
+#	If a Bible chapter displays properly in the browser it will also work as a custom verse request.
+#	You can also add a parallel Bible and Strongs number highlight to the chapter display as well.
+#	Manually edit the URL to express a start and stop verse number selection if desired.
+#	Learn to navigate AionianBible.org here https://youtu.be/JxGkDTuWO3c
 #
 
 <h1>Welcome to Bible Study</h1>

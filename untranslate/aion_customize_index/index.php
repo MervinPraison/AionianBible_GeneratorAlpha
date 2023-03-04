@@ -30,8 +30,18 @@ else if ($_Path=='Privacy') {							$_meta = " ~ Privacy Policy";								abcms_p
 else if ($_Path=='Apple-iOS-App') {						$_meta = " ~ Apple iOS App";								abcms_page('docs/appleiosapp.htm'); }
 else if ($_Path=='Third-Party-Publisher-Resources') {	$_meta = " ~ Third Party Publisher Resources";				abcms_page('docs/third-party-publisher-resources.htm'); }
 else if (!preg_match('/^[a-zA-Z0-9\-\/]+$/',$_Path)) {																abcms_notf(); }
-if (($_para = (preg_match('#(/parallel-[^/]+)#',$_Path,$matches) ? $matches[1] : NULL))) {	$_paraC = str_replace('/parallel-','',$_para);	$_Path = preg_replace('#(/parallel-[^/]+)#','',$_Path); }
-if (($_stid = (preg_match('#(/strongs-.*)$#',$_Path,$matches) ? $matches[1] : NULL))) {		$_stidC = str_replace('/strongs-','',$_stid);	$_Path = preg_replace('#(/strongs-.*)$#','',$_Path); }
+if (($number=preg_match_all("#/parallel-[^/]+#", $_Path, $matches, PREG_PATTERN_ORDER))) {
+	if ($number>1) { abcms_bomb("/Read","Invalid URL Requested, multiple 'parallels' not allowed"); }
+	$_para = $matches[0][0];
+	$_paraC = str_replace('/parallel-','',$_para);
+	$_Path = preg_replace('#/parallel-[^/]+#','',$_Path);
+}
+if (($number=preg_match_all("#/strongs-[^/]+#", $_Path, $matches, PREG_PATTERN_ORDER))) {
+	if ($number>1) { abcms_bomb("/Read","Invalid URL Requested, multiple 'strongs' not allowed"); }
+	$_stid = $matches[0][0];
+	$_stidC = str_replace('/strongs-','',$_stid);
+	$_Path = preg_replace('#/strongs-[^/]+#','',$_Path);
+}
 $_Part = explode('/',$_Path);
 $_path = strtolower($_Path);
 $_part = explode('/',$_path);
@@ -3104,21 +3114,31 @@ global $_Path, $_Part, $_para, $_paraC, $_pnum, $_stid, $_stidC, $_stidN, $_stid
 $_para = $_stid = $_paraC = $_stidC = $_stidN = $_stidX = $_SwipePREV = $_SwipeNEXT = $_BibleSTRONGS = NULL;
 // errors?
 $cleaned = aion_strip($reference);
-if (preg_match('/[<>]+/',$reference)) {					echo "<br />ERROR: Disallowed HTML tags, REQUEST: $cleaned<br /><br />"; return; }
-if (!preg_match('/^[a-zA-Z0-9\-\/]+$/',$reference)) {	echo "<br />ERROR: Bible paths allow only alphanumeric, dash, and slash, REQUEST: $cleaned<br /><br />"; return; }
+if (preg_match('/[<>]+/',$reference)) {					echo "<br />ERROR: Disallowed HTML tags, REQUEST: $cleaned<br /><br />";							return; }
+if (!preg_match('/^[a-zA-Z0-9\-\/]+$/',$reference)) {	echo "<br />ERROR: Paths allow only alphanumeric, dash, and slash, REQUEST: $cleaned<br /><br />";	return; }
 // setup
-echo "<div class='word-custom'>";
 $_Path = trim($reference,'/');
-if (($_para = (preg_match('#(/parallel-[^/]+)#',$_Path,$matches) ? $matches[1] : NULL))) {	$_paraC = str_replace('/parallel-','',$_para);	$_Path = preg_replace('#(/parallel-[^/]+)#','',$_Path); }
-if (($_stid = (preg_match('#(/strongs-.*)$#',$_Path,$matches) ? $matches[1] : NULL))) {		$_stidC = str_replace('/strongs-','',$_stid);	$_Path = preg_replace('#(/strongs-.*)$#','',$_Path); }
+if (($number=preg_match_all("#/parallel-[^/]+#", $_Path, $matches, PREG_PATTERN_ORDER))) {
+	if ($number>1) {									echo "<br />ERROR: Multiple 'parallels' not allowed, REQUEST: $cleaned<br /><br />";				return; }
+	$_para = $matches[0][0];
+	$_paraC = str_replace('/parallel-','',$_para);
+	$_Path = preg_replace('#/parallel-[^/]+#','',$_Path);
+}
+if (($number=preg_match_all("#/strongs-[^/]+#", $_Path, $matches, PREG_PATTERN_ORDER))) {
+	if ($number>1) {									echo "<br />ERROR: Multiple 'strongs' not allowed, REQUEST: $cleaned<br /><br />";					return; }
+	$_stid = $matches[0][0];
+	$_stidC = str_replace('/strongs-','',$_stid);
+	$_Path = preg_replace('#/strongs-[^/]+#','',$_Path);
+}
 $_Part = explode('/',$_Path);
 $_path = strtolower($_Path);
 $_part = explode('/',$_path);
 $_pnum = count($_part);
 // output
-if ($_Part[0]!='Bibles' || ($_pnum!=4 && $_pnum!=6)) {	echo "<br />ERROR: Invalid Bible path, REQUEST: $reference<br /><br />"; }
-else if (($error=abcms_stro_chek(TRUE)) !== TRUE) {		echo "<br />ERROR: $error, REQUEST: $reference<br /><br />"; }
-else if (($error=abcms_word_chap(TRUE)) !== TRUE) {		echo "<br />ERROR: $error, REQUEST: $reference<br /><br />"; }
+echo "<div class='word-custom'>";
+if ($_Part[0]!='Bibles' || ($_pnum!=4 && $_pnum!=6)) {	echo "<br />ERROR: Invalid Bible path, REQUEST: $cleaned<br /><br />"; }
+else if (($error=abcms_stro_chek(TRUE)) !== TRUE) {		echo "<br />ERROR: $error, REQUEST: $cleaned<br /><br />"; }
+else if (($error=abcms_word_chap(TRUE)) !== TRUE) {		echo "<br />ERROR: $error, REQUEST: $cleaned<br /><br />"; }
 echo "</div>";
 return;
 }
