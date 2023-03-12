@@ -2,6 +2,11 @@
 <?php
 require_once('./aion_common.php');
 
+// test new format conversion
+AION_NEWSTRONGS_GET_PREP("../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt");
+AION_NEWSTRONGS_GET_PREP("../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt");
+exit;
+
 // TODO NOTES
 // Uncomment the lines to allow copying the latest git hub report
 // Change "Field_of" to "place" in Greek Lexicons
@@ -20,7 +25,7 @@ $SAVETHECOUNTCHECKER = FALSE;
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // FILENAMES and README
 // folders
-$FOLDER_SOURCE = "../STEPBible-Data-master/";
+$FOLDER_SOURCE = "../STEPBible-Data-master-production/";
 $FOLDER_STAGE = "../www-stage/library/stepbible/";
 // input
 $INPUT_VIZBI = "../www-stageresources/AB-Viz-Strongs.csv";
@@ -93,16 +98,8 @@ $GREEK_CHAPS_DATA = "Greek_Chapter_Usage";
 // bible
 $STEPBIBLE_AMA = "../source-stage/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt";
 $STEPBIBLE_CON = "../source-stage/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt";
-
-
-
-
-//////////////////////////////////////////////////////////////////////////////////////////////////
-// UNPACK THE GITHUB ZIP
-//system("rm -rf $FOLDER_SOURCE");
-//system("unzip -q ../www-stageresources/AB-STEPBibleData.zip -d ../");
-if (!is_dir($FOLDER_SOURCE)) { AION_ECHO("ERROR! Bad unzip($FOLDER_SOURCE)"); }
 // PREPARE THE STAGE
+if (!is_dir($FOLDER_SOURCE)) { AION_ECHO("ERROR! Bad unzip($FOLDER_SOURCE)"); }
 system("rm -rf $FOLDER_STAGE");
 if (!mkdir($FOLDER_STAGE) || !is_dir($FOLDER_STAGE) || !chmod($FOLDER_STAGE,0755)) {	AION_ECHO("ERROR! mkdir($FOLDER_STAGE)"); }
 
@@ -473,6 +470,8 @@ AION_NEWSTRONGS_GET( "$INPUT_TFLS2",'G6000	G6000 =	G6000	ἀγγέλλω',NULL,
 	'STRONGS', $database);
 $thisfind = array("/42_Mrk\.004\.006/us","/44_Jhn\.009\.003/us");
 $thisreplace = array("42_Mrk.004.005","44_Jhn.008.059");
+AION_NEWSTRONGS_GET_PREP("$INPUT_TAGN1");
+AION_NEWSTRONGS_GET_PREP("$INPUT_TAGN2");
 AION_NEWSTRONGS_GET( "$INPUT_TAGN1",'41_Mat.001.001	=NA same TR ~~	Βίβλος	', NULL, $thisfind, $thisreplace, 'GREREF1',
 	array('REF','TYPE','WORD','ENGLISH','STRONGS','MORPH','','','EDITIONS','SPELLINGS','MEANINGS','','ADDITIONAL','','CONJOIN',''),
 	array('REF','TYPE','WORD','ENGLISH','STRONGS','MORPH','','','EDITIONS','SPELLINGS','','','','','',''), "$FOLDER_STAGE$CHECK_EGTG",
@@ -784,17 +783,17 @@ AION_NEWSTRONGS_STEPBIBLE(
 AION_LOOP_DIFF(
 	'../www-stage/library/stepbible',
  	'../www-production/library/stepbible',
-	'../diff-strongs-stage-with-production-BEFORE-DEPLOY',
-	'',
-	'/\.(md|txt|json|htm)$/');
+	'../STEPBible-Data-master-diff-cooked');
+//	'',
+//	'/\.(md|txt|json|htm)$/');
 AION_CHECK_DIFF_TWO_FILES(
 	'../source-stage/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt',
 	'../www-resources/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt',
-	'../diff-strongs-stage-with-production-BEFORE-DEPLOY/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt');
+	'../STEPBible-Data-master-diff-cooked/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt');
 AION_CHECK_DIFF_TWO_FILES(
 	'../source-stage/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt',
 	'../www-resources/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt',
-	'../diff-strongs-stage-with-production-BEFORE-DEPLOY/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt');
+	'../STEPBible-Data-master-diff-cooked/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt');
 
 
 
@@ -819,6 +818,48 @@ exit;
 //////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // FUNCTIONS
+// Read TAB delimited file
+function AION_NEWSTRONGS_GET_PREP($file) {
+	// init
+	$newmess = "PREP\t$file";
+	if ( !is_file( $file ) ) {											AION_ECHO("ERROR! $newmess !is_file()"); }
+	if ( ($contents = file_get_contents( $file )) === FALSE ) {			AION_ECHO("ERROR! $newmess !file_get_contents()"); }
+	if ( mb_detect_encoding($contents, "UTF-8", TRUE) === FALSE ) {		AION_ECHO("ERROR! $newmess !mb_detect_encoding()"); }
+	mb_regex_encoding("UTF-8");
+	mb_internal_encoding("UTF-8");
+	$lines = mb_split("\n", $contents);
+	$ref = NULL;
+	$ref_count = 0;
+	$output = '';
+	$count = 0;
+	// parse
+	foreach( $lines as $data ) {
+		++$count;
+		// what
+		if (preg_match('/^# ([[:alnum:]]+)\.(\d+)\.(\d+)\s+/', $data, $match)) {
+			$ref = $match;
+			++$ref_count;
+			if ($ref_count>1) {											AION_ECHO("ERROR! $newmess ref_count>1 $data"); }
+			continue;
+		}
+		if (!preg_match('/^#(\d+)\s+(.*)$/', $data, $match)) { continue; }
+		if (empty($ref)) {												AION_ECHO("ERROR! $newmess empty(ref) $data"); }
+		$ref_count = 0;
+		$book = $ref[1];
+		$chap = sprintf('%03d', $ref[2]);
+		$vers = sprintf('%03d', $ref[3]);
+		$word = sprintf('%03d', $match[1]);
+		$info = $match[2];
+		$output .= "$book.$chap.$vers\t$word\t$info\n";
+	}
+	// result
+	if (!($bytes=file_put_contents("$file.oldformat", $output))) {		AION_ECHO("ERROR! $newmess !file_put_contents()"); }
+	AION_unset($output); $output=NULL; unset($output);
+	AION_unset($contents); $contents=NULL; unset($contents);
+	AION_unset($lines); $lines=NULL; unset($lines);
+	gc_collect_cycles();
+	AION_ECHO("SUCCESS! $newmess lines=$count bytes=$bytes");
+}
 
 
 // Read TAB delimited file

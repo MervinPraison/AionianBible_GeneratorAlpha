@@ -933,6 +933,21 @@ return (
 
 
 
+/*** BOOK MENU ***/
+function abcms_book_menu() {
+global $_Part, $_BibleONE, $_BibleBOOKS, $_BibleONE_Lang;
+$test = ((int)$_BibleBOOKS[$_Part[2]]['NUMBER'] < 40 ? "Old" : "New");
+$prev = (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]])
+		? "<a href='".abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1],FALSE,TRUE,TRUE)."' title='Previous book' class='nav book'><span>&lt;</span></a>"
+		: "<a href='".abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE)."' title='$test Testament' class='nav book'><span>+</span></a>");
+$next =	(!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]])
+		? "<a href='".abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1],FALSE,TRUE,TRUE)."' title='Next book' class='nav book'><span>&gt;</span></a>"
+		: "<a href='".abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE)."' title='$test Testament' class='nav book'><span>+</span></a>");
+return ("<h2>$prev $_BibleONE_Lang'>".$_BibleONE['T_BOOKS'][$_Part[2]]."</span> ".$_Part[3]." $next</h2>");
+}
+
+
+
 /*** WORD MENU VERSES ***/
 function abcms_word_menu_verses($bible,$index,$code,$chap) {
 $verse = 1;
@@ -1106,7 +1121,7 @@ $rtl = (empty($_BibleONE['T_VERSIONS']['RTL']) ? FALSE : TRUE);
 $rtl2 = (empty($_BibleTWO['T_VERSIONS']['RTL']) ? FALSE : TRUE);
 if (!$nopage) {	
 	echo "<div id='word'>";
-	echo "<h2>$_BibleONE_Lang'>".$_BibleONE['T_BOOKS'][$_Part[2]]."</span> ".$_Part[3]."</h2>";
+	echo abcms_book_menu();
 }
 for ($x=(empty($_Part[4])?1:$_Part[4]); $x<=$maxverses; ++$x) {
 	$stripe = (( $x % 2 == 0 ) ? 'even' : 'odd');
@@ -3061,7 +3076,7 @@ return array(
 function abcms_abcommand_multiple($command) {
 // init
 global $_BibleBOOKS, $_BibleCHAP1, $_BibleCHAP1_Last, $_BibleCHAP2, $_BibleCHAP2_Last, $_BibleONE, $_BibleONE_Lang, $_BibleTWO, $_BibleTWO_Lang, $_BibleTWO_xLink;
-global $_Path, $_Part, $_para, $_paraC, $_pnum, $_stid, $_stidC, $_stidN, $_stidX, $_SwipePREV, $_SwipeNEXT, $_BibleSTRONGS;
+global $_Path, $_Part, $_para, $_paraC, $_pnum, $_stid, $_stidC, $_stidN, $_stidX, $_BibleSTRONGS;
 $T_Path = $_Path;
 $T_Part = $_Part;
 $T_para = $_para;
@@ -3071,8 +3086,6 @@ $T_stid = $_stid;
 $T_stidC = $_stidC;
 $T_stidN = $_stidN;
 $T_stidX = $_stidX;
-$T_SwipePREV = $_SwipePREV;
-$T_SwipeNEXT = $_SwipeNEXT;
 $T_BibleSTRONGS = $_BibleSTRONGS;
 // loop
 echo "<div id='word'>";
@@ -3100,8 +3113,6 @@ $_stid = $T_stid;
 $_stidC = $T_stidC;
 $_stidN = $T_stidN;
 $_stidX = $T_stidX;
-$_SwipePREV = $T_SwipePREV;
-$_SwipeNEXT = $T_SwipeNEXT;
 $_BibleSTRONGS = $T_BibleSTRONGS;
 }
 

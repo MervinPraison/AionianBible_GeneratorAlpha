@@ -44,7 +44,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic|Uyghur-Bible-Cyrillic|Uyghur-Bible-Pinyin).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Basque|Breton).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Clementine|Vulgat).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Heart|Aionian-Bible|Spanish---Free|Slovene|Roman|English---World).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Spanish---Free).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Burmese-Common).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur|Gujarati|Korean).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(LXX|Khan).*---Aionian-Edition\.noia$/",
@@ -52,7 +52,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/.*Arapaho.*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Basque|Breton).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Polish-Updated-Gdansk).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Tamil|Urdu|Vietnamese).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---(Tongan|Turkish|[UV]+).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
 		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
@@ -751,6 +751,8 @@ $rtlcols	= ($rtl=="TRUE" ? 'columnordering="rtl"' : '' );
 $rtlinit	= ($rtl=="TRUE" ? 'true()' : 'false()' );
 $rtlbook	= ($rtl=="TRUE" ? 'right' : 'left' );
 // bookmarks
+$bm_old		= str_replace("'","’",(empty($w_old) ? "OLD TESTAMENT" : $w_old));
+$bm_new		= str_replace("'","’",(empty($w_new) ? "NEW TESTAMENT" : $w_new));
 $bm_pref	= str_replace("'","’",$w_pref);
 $bm_toc		= str_replace("'","’",(empty($w_toc) ? "Table of Contents" : $w_toc));
 $bm_read	= str_replace("'","’",$w_read);
@@ -1422,6 +1424,7 @@ $fonts
 	<!-- BIBLE OLD INTRO -->
 	<Switch><Case test="\$gotold='true'">
 		<ClearPage openon="right" pagetype="$page1colright" />
+		<Bookmark level="1" select="'$bm_old'" open="no" />
 		<PlaceObject row="1" column="1"><Textblock><Paragraph language="Other" textformat="$TITLEJUSTIFICATION">$w_old</Paragraph></Textblock></PlaceObject>
 		<Message select="concat('ABPROOFER $outpdf OT-INTRO ',sd:current-page())" />
 		<ClearPage openon="left" pagetype="$page1colleft" />
@@ -1446,6 +1449,7 @@ $fonts
 	<!-- BIBLE NEW INTRO -->
 	<Switch><Case test="\$gotnew='true'">
 		<ClearPage openon="right" pagetype="$page1colright" skippagetype="$page1colleft" />
+		<Bookmark level="1" select="'$bm_new'" open="no" />
 		<PlaceObject row="1" column="1"><Textblock><Paragraph language="Other" textformat="$TITLEJUSTIFICATION">$w_new</Paragraph></Textblock></PlaceObject>
 		<Message select="concat('ABPROOFER $outpdf NT-INTRO ',sd:current-page())" />
 		<ClearPage openon="left" pagetype="$page1colleft" />

@@ -406,7 +406,7 @@ function AION_LOOP($args) {
 
 
 /*** aion diff loop ***/
-function AION_LOOP_DIFF($folder_original, $folder_modified, $folder_difference, $exclude='', $include='',$search='',$replace='') {
+function AION_LOOP_DIFF($folder_original, $folder_modified, $folder_difference, $exclude='', $include='', $search='', $replace='', $flags='') {
 	system('rm -rf '.$folder_difference);
 	if (!mkdir($folder_difference)) { AION_ECHO("ERROR! !mkdir: ".$folder_difference); }
 	AION_LOOP( array(
@@ -418,6 +418,7 @@ function AION_LOOP_DIFF($folder_original, $folder_modified, $folder_difference, 
 		'include'	=> $include,
 		'search'	=> $search,
 		'replace'	=> $replace,
+		'flags'		=> $flags,
 		) );
 	system("cat ".$folder_difference."/*.diff > ".$folder_difference."/AMASTER.".preg_replace('/[\/.]+/','',$folder_difference));
 	system('(echo "Subject: AIONIAN ENGINE SOURCE DIFF: '. $commands[$choice] . '"; echo; echo AMASTER.DIFF; ls -ail ' . $folder_difference . ';) | /usr/lib/sendmail escribes@aionianbible.org;');
@@ -429,6 +430,7 @@ function AION_LOOP_DIFF_DOIT($args) {
 	$filename2 = $args['filename'];
 	$filepath2 = $args['compare'].'/'.$args['filename'];
 	$fileout   = $args['destiny'].'/'.$filename1.'.diff';
+	$flags     = $args['flags'];
 	if (file_put_contents($fileout, 'BEGIN DIFF! '.$filepath1.' VS '.$filepath2."\n")===FALSE) {
 		AION_ECHO("ERROR! Failed header diff write!");
 	}
@@ -439,35 +441,35 @@ function AION_LOOP_DIFF_DOIT($args) {
 		AION_ECHO('MISSING: '.$filepath1.' VS '.$filepath2);
 	}
 	else if (preg_match("/\.(zip)|(epub)$/i", $filename1)) {
-		system('rm -rf .tmp.diff');
+		system("rm -rf .tmp.diff");
 		if (!mkdir('.tmp.diff')) {														AION_ECHO("ERROR! mkdir()"); }
-		system('unzip -q ' . $filepath1 . ' -d .tmp.diff/A');
-		system('unzip -q ' . $filepath2 . ' -d .tmp.diff/B');
-		system('diff -r .tmp.diff/A .tmp.diff/B 2>&1 >> '.$fileout );
+		system("unzip -q $filepath1 -d .tmp.diff/A");
+		system("unzip -q $filepath2 -d .tmp.diff/B");
+		system("diff -r $flags .tmp.diff/A .tmp.diff/B 2>&1 >> $fileout" );
 		if (!is_dir('.tmp.diff/A') || !is_dir('.tmp.diff/A') || !is_file($fileout) ) {	AION_ECHO("ERROR! Bad unzip() or diff()"); }
-		system('rm -rf .tmp.diff');
+		system("rm -rf .tmp.diff");
 		AION_ECHO('DIFF ZIP: '.$filepath1.' VS '.$filepath2);
 	}	
 	else if (preg_match("/\.tar.gz$/i", $filename1)) {
-		system('rm -rf .tmp.diff');
+		system("rm -rf .tmp.diff");
 		if (!mkdir('.tmp.diff') || !mkdir('.tmp.diff/A') || !mkdir('.tmp.diff/B')) {	AION_ECHO("ERROR! mkdir()"); }
-		system('tar -xf ' . $filepath1 . ' -C .tmp.diff/A');
-		system('tar -xf ' . $filepath2 . ' -C .tmp.diff/B');
-		system('diff -r .tmp.diff/A .tmp.diff/B 2>&1 >> '.$fileout );
+		system("tar -xf $filepath1 -C .tmp.diff/A");
+		system("tar -xf $filepath2 -C .tmp.diff/B");
+		system("diff -r $flags .tmp.diff/A .tmp.diff/B 2>&1 >> $fileout" );
 		if (!is_dir('.tmp.diff/A') || !is_dir('.tmp.diff/A') || !is_file($fileout) ) {	AION_ECHO("ERROR! Bad unzip() or diff()"); }
-		system('rm -rf .tmp.diff');
+		system("rm -rf .tmp.diff");
 		AION_ECHO('DIFF ZIP: '.$filepath1.' VS '.$filepath2);
 	}
 	else {
 		if (empty($args['search'])) {
-			system("diff $filepath1 $filepath2 2>&1 >> $fileout");
+			system("diff $flags '$filepath1' '$filepath2' 2>&1 >> '$fileout'");
 		}
 		else {
 			$search = $args['search'];
 			$replace = $args['replace'];
-			system("sed 's/$search/$replace/g' $filepath1 > $fileout.one");
-			system("sed 's/$search/$replace/g' $filepath2 > $fileout.two");
-			system("diff $fileout.one $fileout.two 2>&1 >> $fileout");
+			system("sed 's/$search/$replace/g' '$filepath1' > '$fileout.one'");
+			system("sed 's/$search/$replace/g' '$filepath2' > '$fileout.two'");
+			system("diff $flags '$fileout.one' '$fileout.two' 2>&1 >> '$fileout'");
 			unlink("$fileout.one");
 			unlink("$fileout.two");
 		}
