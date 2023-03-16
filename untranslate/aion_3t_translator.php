@@ -211,10 +211,10 @@ foreach($PACKS as $lang => $pack) {
 	if (!($studyhandle = fopen($studyfile, "w"))) { AION_ECHO("ERROR! fopen($studyfile)"); }
 	// hebrew tags
 	$files = array(
-		"../STEPBible-Data-master/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt",
-		"../STEPBible-Data-master/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt",
-		"../STEPBible-Data-master/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt",
-		"../STEPBible-Data-master/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt",
+		"../STEPBible-Data-master-production/TOTHT Gen-Deu - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt",
+		"../STEPBible-Data-master-production/TOTHT Jos-Est - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt",
+		"../STEPBible-Data-master-production/TOTHT Job-Sng - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt",
+		"../STEPBible-Data-master-production/TOTHT Isa-Mal - Translators OT Hebrew Tagged text - STEPBible.org CC BY.txt",
 		);
 	foreach($files as $file) {
 		AION_ECHO("Processing: $file");
@@ -249,8 +249,8 @@ foreach($PACKS as $lang => $pack) {
 	}
 	// greek tags
 	$files = array(
-		"../STEPBible-Data-master/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt",
-		"../STEPBible-Data-master/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt",
+		"../STEPBible-Data-master-production/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt",
+		"../STEPBible-Data-master-production/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt",
 		);
 	foreach($files as $file) {
 		AION_ECHO("Processing: $file");
@@ -367,10 +367,10 @@ foreach($PACKS as $lang => $pack) {
 	if (!rename("$studyfile.sort", $studyfile)) { AION_ECHO("ERROR! Rename() failed: $studyfile"); }
 	// write the files
 	AION_ECHO("Copy: more files");
-	if (!copy("../STEPBible-Data-master/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt", "$studypack/Greek-Lexicon.txt")) {		AION_ECHO("ERROR! copy(2)"); }
-	if (!copy("../STEPBible-Data-master/TBESH - Translators Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt", "$studypack/Hebrew-Lexicon.txt")) {	AION_ECHO("ERROR! copy(3)"); }
-	if (!copy("../STEPBible-Data-master/TEGMC - Translators Expansion of Greek Morphhology Codes - STEPBible.org CC BY.txt", "$studypack/Greek-Morphhology.txt")) {			AION_ECHO("ERROR! copy(4)"); }
-	if (!copy("../STEPBible-Data-master/TEHMC - Translators Expansion of Hebrew Morphology Codes - STEPBible.org CC BY.txt", "$studypack/Hebrew-Morphhology.txt")) {		AION_ECHO("ERROR! copy(5)"); }	
+	if (!copy("../STEPBible-Data-master-production/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt", "$studypack/Greek-Lexicon.txt")) {		AION_ECHO("ERROR! copy(2)"); }
+	if (!copy("../STEPBible-Data-master-production/TBESH - Translators Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt", "$studypack/Hebrew-Lexicon.txt")) {	AION_ECHO("ERROR! copy(3)"); }
+	if (!copy("../STEPBible-Data-master-production/TEGMC - Translators Expansion of Greek Morphhology Codes - STEPBible.org CC BY.txt", "$studypack/Greek-Morphhology.txt")) {			AION_ECHO("ERROR! copy(4)"); }
+	if (!copy("../STEPBible-Data-master-production/TEHMC - Translators Expansion of Hebrew Morphology Codes - STEPBible.org CC BY.txt", "$studypack/Hebrew-Morphhology.txt")) {		AION_ECHO("ERROR! copy(5)"); }	
 	// revise and write README
 	if (file_put_contents("$studypack/AB-README.txt", $HEADER)===FALSE) {																									AION_ECHO("ERROR! file_put_contents(6)"); }
 	// zip the files

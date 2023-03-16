@@ -25,13 +25,13 @@
 #	<p>A paragraph of words without a carriage return or newline.</p>
 #
 # Request format verses:
-#	/Bibles/English---Aionian-Bible/John/3																(whole chapter)
-#	/Bibles/English---Aionian-Bible/John/3/16/17														(verse selection)
-#	/Bibles/English---Aionian-Bible/John/3/16/17/parallel-English---King-James-Version					(verse selection with parallel)
-#	/Bibles/English---Aionian-Bible/John/3/16/17/strongs-g166											(verse selection with strongs highlight)
-#	/Bibles/English---Aionian-Bible/John/3/16/17/parallel-English---King-James-Version/strongs-g166		(verse selection with parallel and strongs highlight)
-#	/Bibles/English---Aionian-Bible/John/3/16/17/parallel-Spanish---Free-Bible							(learn languages!)
-#	/Bibles/Spanish---Free-Bible/John/3/16/16															(216 translations and 99 languages available)
+#	/Bibles/English---Aionian-Bible/John/3     (whole chapter)
+#	/Bibles/English---Aionian-Bible/John/3/16/17     (verse selection)
+#	/Bibles/English---Aionian-Bible/John/3/16/17/parallel-English---King-James-Version     (verse selection with parallel)
+#	/Bibles/English---Aionian-Bible/John/3/16/17/strongs-g166     (verse selection with strongs highlight)
+#	/Bibles/English---Aionian-Bible/John/3/16/17/parallel-English---King-James-Version/strongs-g166     (verse selection with parallel and strongs highlight)
+#	/Bibles/English---Aionian-Bible/John/3/16/17/parallel-Spanish---Free-Bible     (learn languages!)
+#	/Bibles/Spanish---Free-Bible/John/3/16/16     (216 translations and 99 languages available)
 #
 #	To create the verse requests above, click to the desired Bible translation and chapter at AionianBible.org
 #	If a Bible chapter displays properly in the browser it will also work as a custom verse request.
@@ -40,8 +40,8 @@
 #	Learn to navigate AionianBible.org here https://youtu.be/JxGkDTuWO3c
 #
 #	Bible path components:
-#	/Bibles/1ST-BIBLE-NAME/BIBLE-BOOK/CHAPTER#/parallel-OPTIONAL-PARALLEL-BIBLE-NAME/strongs-OPTIONAL-STRONGS#							(whole chapter)
-#	/Bibles/1ST-BIBLE-NAME/BIBLE-BOOK/CHAPTER#/START-VERSE#/END-VERSE#/parallel-OPTIONAL-PARALLEL-BIBLE-NAME/strongs-OPTIONAL-STRONGS#	(verse selection)
+#	/Bibles/1ST-BIBLE-NAME/BIBLE-BOOK/CHAPTER#/parallel-OPTIONAL-PARALLEL-BIBLE-NAME/strongs-OPTIONAL-STRONGS#     (whole chapter)
+#	/Bibles/1ST-BIBLE-NAME/BIBLE-BOOK/CHAPTER#/START-VERSE#/END-VERSE#/parallel-OPTIONAL-PARALLEL-BIBLE-NAME/strongs-OPTIONAL-STRONGS#     (verse selection)
 #
 
 <h1>Welcome to Bible Study</h1>
