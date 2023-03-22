@@ -755,6 +755,7 @@ $bm_old		= str_replace("'","’",(empty($w_old) ? "OLD TESTAMENT" : $w_old));
 $bm_new		= str_replace("'","’",(empty($w_new) ? "NEW TESTAMENT" : $w_new));
 $bm_pref	= str_replace("'","’",$w_pref);
 $bm_toc		= str_replace("'","’",(empty($w_toc) ? "Table of Contents" : $w_toc));
+$bm_apdx	= str_replace("'","’",$w_apdx);
 $bm_read	= str_replace("'","’",$w_read);
 $bm_glos	= str_replace("'","’",$w_glos);
 $bm_map		= str_replace("'","’",$w_map);
@@ -1471,6 +1472,7 @@ $fonts
 	
 	<!-- BIBLE PICTURE -->
 	<ClearPage openon="left" pagetype="$page1colleft" skippagetype="$page1colright"/>	
+	<Bookmark level="1" select="'$bm_apdx'" open="no" />
 	<PlaceObject row="1" column="1"><Image file='$PIX_END' width='$MARGIN_SINGLE_WIDTH' /></PlaceObject>
 	<PlaceObject row="105" column="5"><Textblock width="69">$rev21_2_3</Textblock></PlaceObject>
 	<Message select="concat('ABPROOFER $outpdf END-PIX ',sd:current-page())" />
