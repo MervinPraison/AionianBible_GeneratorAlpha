@@ -1596,6 +1596,57 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+// to find contractions
+// preg_match_all("#[^\s[:punct:]”“’‘]+[\'\`\’\‘]{1}[^\ss[:punct:]”“’‘]+#us",$input,$matches,PREG_PATTERN_ORDER);
+case "Holy-Bible---English---Aionian-Bible" :
+$replacements = array(
+	"#Aren’t#us"	=>"Are not",
+	"#aren’t#us"	=>"are not",
+	"#can’t#us"		=>"cannot",
+	"#Can’t#us"		=>"Cannot",
+	"#couldn’t#us"	=>"could not",
+	"#Couldn’t#us"	=>"Could not",
+	"#didn’t#us"	=>"did not",
+	"#Didn’t#us"	=>"Did not",
+	"#doesn’t#us"	=>"does not",
+	"#Doesn’t#us"	=>"Does not",
+	"#don’t#us"		=>"do not",
+	"#Don’t#us"		=>"Do not",
+	"#hadn’t#us"	=>"had not",
+	"#hasn’t#us"	=>"has not",
+	"#Hasn’t#us"	=>"Has not",
+	"#Haven’t#us"	=>"Have not",
+	"#haven’t#us"	=>"have not",
+	"#I’ll#us"		=>"I will",
+	"#I’m#us"		=>"I am",
+	"#Isn’t#us"		=>"Is not",
+	"#isn’t#us"		=>"is not",
+	"#Shouldn’t#us"	=>"Should not",
+	"#shouldn’t#us"	=>"should not",
+	"#wasn’t#us"	=>"was not",
+	"#Wasn’t#us"	=>"Was not",
+	"#we’ll#us"		=>"we will",
+	"#We’ll#us"		=>"We will",
+	"#we’re#us"		=>"we are",
+	"#weren’t#us"	=>"were not",
+	"#Weren’t#us"	=>"Were not",
+	"#won’t#us"		=>"will not",
+	"#Won’t#us"		=>"Will not",
+	"#wouldn’t#us"	=>"would not",
+	"#Wouldn’t#us"	=>"Would not",
+	"#you’ll#us"	=>"you will",
+	"#You’ll#us"	=>"You will",
+	"#you’ve#us"	=>"you have",
+	"#You’ve#us"	=>"You have",
+	);
+if (!($bfile=preg_replace(array_keys($replacements), $replacements, $bfile, -1, $rnum)) || $rnum!=3734) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---English---A-Conservative-Version" :
 $textfix = <<<EOF
 Hebrews 1:1 God, who formerly spoke in many portions and in many ways to the fathers by the prophets,

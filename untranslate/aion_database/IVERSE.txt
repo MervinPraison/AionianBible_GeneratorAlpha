@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 489662      
-# File Date: 03/18/2023 11:27:56
+# File Size: 489660      
+# File Date: 03/25/2023 03:42:12
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2023
@@ -331,10 +331,10 @@ Holy-Bible---English---A-Conservative-Version	ROM-001-001	Romans 1:1	Paul, a bon
 Holy-Bible---English---A-Conservative-Version	MAT-028-019	Matthew 28:19	After going, make ye disciples of all the nations, immersing them into the name of the Father and of the Son and of the Holy Spirit,
 Holy-Bible---English---Aionian-Bible	JOH-003-016	John 3:16	For God so loved the world, that he gave his only born Son, that whoever believes in him should not perish, but have eternal life.
 Holy-Bible---English---Aionian-Bible	GEN-003-024	Genesis 3:24	So he drove out the man; and he placed cherubim at the east of the garden of Eden, and a flaming sword which turned every way, to guard the way to the tree of life.
-Holy-Bible---English---Aionian-Bible	LUK-023-034	Luke 23:34	Jesus said, “Father, forgive them, for they don’t know what they are doing.”  Dividing his garments among them, they cast lots.
+Holy-Bible---English---Aionian-Bible	LUK-023-034	Luke 23:34	Jesus said, “Father, forgive them, for they do not know what they are doing.”  Dividing his garments among them, they cast lots.
 Holy-Bible---English---Aionian-Bible	REV-021-002	Revelation 21:2-3	I saw the holy city, New Jerusalem, coming down out of heaven from God, prepared like a bride adorned for her husband. I heard a loud voice out of heaven saying, “Behold, God’s dwelling is with people; and he will dwell with them, and they will be his people, and God himself will be with them as their God.
 Holy-Bible---English---Aionian-Bible	HEB-011-008	Hebrews 11:8	By faith Abraham, when he was called, obeyed to go out to the place which he was to receive for an inheritance.  He went out, not knowing where he went.
-Holy-Bible---English---Aionian-Bible	EXO-013-017	Exodus 13:17	When Pharaoh had let the people go, God didn’t lead them by the way of the land of the Philistines, although that was near; for God said, “Lest perhaps the people change their minds when they see war, and they return to Egypt”;
+Holy-Bible---English---Aionian-Bible	EXO-013-017	Exodus 13:17	When Pharaoh had let the people go, God did not lead them by the way of the land of the Philistines, although that was near; for God said, “Lest perhaps the people change their minds when they see war, and they return to Egypt”;
 Holy-Bible---English---Aionian-Bible	MAR-010-045	Mark 10:45	For the Son of Man also came not to be served but to serve, and to give his life as a ransom for many.”
 Holy-Bible---English---Aionian-Bible	ROM-001-001	Romans 1:1	Paul, a servant of Jesus Christ, called to be an apostle, set apart for the Good News of God,
 Holy-Bible---English---Aionian-Bible	MAT-028-019	Matthew 28:19	Go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit,

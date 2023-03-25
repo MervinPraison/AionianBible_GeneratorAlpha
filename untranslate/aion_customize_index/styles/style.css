@@ -139,14 +139,17 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 #word-menu .word-strongs a { color: #006699; }
 #word-menu .word-menu-r { float: right; }
 
-#word-menu .word-menu-float { position: fixed; width: 0px; height: 0px; bottom: 0px; left: 0px; font-size: 200%; }
-#word-menu .word-menu-float a  { position: fixed; width: 32px; height: 40%; top: 30%; background-color: #EDEDED; color: #FFFFFF; border-radius: 10px; text-align: center; display: table; }
-#word-menu .word-menu-float a span  { display: table-cell; vertical-align: middle; }
-#word-menu .word-menu-float a.left  { left:  7px; }
-#word-menu .word-menu-float a.right { right: 7px; }
-#word-menu .word-menu-float a:hover { background-color: #C5C5C5; }
+#word-menu-float { position: fixed; width: 0px; height: 0px; bottom: 0px; left: 0px; font-size: 200%; }
+#word-menu-float a  { position: fixed; width: 32px; height: 40%; top: 30%; background-color: #EDEDED; color: #FFFFFF; border-radius: 10px; text-align: center; display: table; }
+#word-menu-float a span  { display: table-cell; vertical-align: middle; }
+#word-menu-float a.left  { left:  7px; }
+#word-menu-float a.right { right: 7px; }
+#word-menu-float a:hover { background-color: #C5C5C5; }
 @media screen and (max-width: 1279px) {
-	#word-menu .word-menu-float { display: none; }
+	#word-menu-float { display: none; }
+}
+@media screen and (min-width: 1280px) {
+	#word-menu-bottom { display: none; }
 }
 
 

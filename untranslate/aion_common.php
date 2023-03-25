@@ -607,7 +607,7 @@ function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $ski
 		'uniusage'	=> $uniusage,
 		'include'	=> '/---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---Greek---Greek-LXX-Septuagint---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
-		//'include'	=> '/Holy-Bible---English---King-James-Version-Updated---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',		
+		//'include'	=> '/Holy-Bible---English---Aionian-Bible---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',		
 		'destiny'	=> $destiny,
 		'raw_orig'	=> $raw_orig,
 		'raw_fixed'	=> $raw_fixed,
@@ -3087,7 +3087,7 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-0;
 	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-2055;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-912;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-10385;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-13575;
 	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-10849;
 	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-8253;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-710;

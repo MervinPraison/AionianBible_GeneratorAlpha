@@ -852,63 +852,52 @@ return($fields[1]);
 /*** WORD MENU ***/
 function abcms_word_menu($what) {
 global $_Part, $_stidC;
-global $_BibleONE, $_BibleCHAP1, $_BibleBOOKS, $_BibleTWO_xLink, $_SwipePREV, $_SwipeNEXT;
+global $_BibleONE, $_BibleCHAP1, $_BibleBOOKS, $_BibleTWO_xLink;
 if ($what=='all') {
 	$navup = "<a href='/Read' title='Bookmarked Bible' onclick='return AionianBible_Bookmark(".'"/Read"'.");' class='nav'><span class='nav nup'>^</span></a>";
 	abcms_aionian_nav($_Part[2],$_Part[3],$_Part[4],$aionprev,$aionnext);
-	$versprev = ($_Part[4]>1
-				? "<a href='".($_SwipePREV=abcms_href("/Verse/$_Part[1]/$_Part[2]/$_Part[3]/".($_Part[4]-1),FALSE,TRUE,TRUE))."' title='Previous verse' class='nav left'><span class='nav vlt'>&lt;</span></a>"
-				: ($_Part[3]>1
-				? "<a href='".($_SwipePREV=abcms_href("/Verse/$_Part[1]/$_Part[2]/".($_Part[3]-1)."/".abcms_word_menu_verses($_Part[1],$_BibleBOOKS[$_Part[2]]['NUMBER'],$_BibleBOOKS[$_Part[2]]['CODE'],($_Part[3]-1)),FALSE,TRUE,TRUE))."' title='Previous verse' class='nav left'><span class='nav vlt'>&lt;</span></a>"
-				: (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]])
-				? "<a href='".($_SwipePREV=abcms_href("/Verse/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]."/".$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CHAPTERS']."/".abcms_word_menu_verses($_Part[1],$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['NUMBER'],$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CODE'],$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CHAPTERS']),FALSE,TRUE,TRUE))."' title='Previous verse' class='nav left'><span class='nav vlt'>&lt;</span></a>"
-				: "<a href='".($_SwipePREV=abcms_href("/Read",FALSE,TRUE,TRUE))."' title='Read and Study Bible' class='nav left'><span class='nav vlt'>+</span></a>")));
-	$versnext = ($_Part[4]<count($_BibleCHAP1)
-				? "<a href='".($_SwipeNEXT=abcms_href("/Verse/$_Part[1]/$_Part[2]/$_Part[3]/".($_Part[4]+1),FALSE,TRUE,TRUE))."' title='Next verse' class='nav right'><span class='nav vgt'>&gt;</span></a>"
-				: ($_Part[3]<(int)$_BibleBOOKS[$_Part[2]]['CHAPTERS']
-				? "<a href='".($_SwipeNEXT=abcms_href("/Verse/$_Part[1]/$_Part[2]/".($_Part[3]+1)."/1",FALSE,TRUE,TRUE))."' title='Next verse' class='nav right'><span class='nav vgt'>&gt;</span></a>"
-				: (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]])
-				? "<a href='".($_SwipeNEXT=abcms_href("/Verse/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]."/1/1",FALSE,TRUE,TRUE))."' title='Next verse' class='nav right'><span class='nav vgt'>&gt;</span></a>"
-				: "<a href='".($_SwipeNEXT=abcms_href("/Read",FALSE,TRUE,TRUE))."' title='Read and Study Bible' class='nav right'><span class='nav vgt'>+</span></a>")));
+	$prev = ($_Part[3]>1
+		? "<a href='".abcms_href("/Verse/All/$_Part[2]/".($_Part[3]-1),FALSE,TRUE,TRUE)."' title='Previous chapter' class='nav left'><span class='nav clt'>&lt;</span></a>"
+		: (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]])
+		? "<a href='".abcms_href("/Verse/All/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]."/".$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CHAPTERS'],FALSE,TRUE,TRUE)."' title='Previous chapter' class='nav left'><span class='nav clt'>&lt;</span></a>"
+		: "<a href='/Read' title='Bookmarked Bible' onclick='return AionianBible_Bookmark(".'"/Read"'.");' class='nav left'><span class='nav vlt'>+</span></a>"));
+	$next = ($_Part[3]<(int)$_BibleBOOKS[$_Part[2]]['CHAPTERS']
+		? "<a href='".abcms_href("/Verse/All/$_Part[2]/".($_Part[3]+1),FALSE,TRUE,TRUE)."' title='Next chapter' class='nav right'><span class='nav cgt'>&gt;</span></a>"
+		: (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]])
+		? "<a href='".abcms_href("/Verse/All/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]."/1",FALSE,TRUE,TRUE)."' title='Next chapter' class='nav right'><span class='nav cgt'>&gt;</span></a>"
+		: "<a href='/Read' title='Bookmarked Bible' onclick='return AionianBible_Bookmark(".'"/Read"'.");' class='nav left'><span class='nav vgt'>+</span></a>"));
+
 	$aionianprev = ($aionprev ? "<a href='".abcms_href("/Verse/$_Part[1]/$aionprev",FALSE,TRUE,TRUE)."' title='Previous Aionian Glossary word' class='nav'><span class='nav slt'>&lt;</span></a>" : '');
 	$aioniannext = ($aionnext ? "<a href='".abcms_href("/Verse/$_Part[1]/$aionnext",FALSE,TRUE,TRUE)."' title='Next Aionian Glossary word' class='nav'><span class='nav sgt'>&gt;</span></a>" : '');
 	$path_strongs = abcms_href("/Strongs",FALSE,TRUE,TRUE);
 	$strongs = "<span class='word-tocs word-book'>$aionianprev<a href='$path_strongs' title='Search Aionian Glossary and Strongs Concordance' class='word-tocs'>GLOS</a>$aioniannext</span>";
-	return ("<div id='word-menu'><div class='word-menu-l'><span class='word-tocs'>All Bibles</span>$strongs</div><div class='word-menu-r notranslate'>$versprev$navup$versnext</div><div class='word-menu-float notranslate'>$versprev$versnext</div></div>");
+	return ("<div id='word-menu'><div class='word-menu-l'><span class='word-tocs'>All Bibles</span>$strongs</div><div class='word-menu-r notranslate'>$prev$navup$next</div></div>");
 }
 $path_strongs = abcms_href("/Strongs/$_Part[1]",FALSE,TRUE,TRUE);
 $test = ((int)$_BibleBOOKS[$_Part[2]]['NUMBER'] < 40 ? "Old" : "New");
 if ($what=='chap') {
 	$navup = "<a href='".abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE)."' title='$test Testament' class='nav'><span class='nav nup'>^</span></a>";
 	abcms_aionian_nav($_Part[2],$_Part[3],NULL,$aionprev,$aionnext);
-	$prev = ($_Part[3]>1
-		? "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/$_Part[2]/".($_Part[3]-1),FALSE,TRUE,TRUE))."' title='Previous chapter' class='nav left'><span class='nav clt'>&lt;</span></a>"
-		: (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]])
-		? "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]."/".$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CHAPTERS'],FALSE,TRUE,TRUE))."' title='Previous chapter' class='nav left'><span class='nav clt'>&lt;</span></a>"
-		: "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE))."' title='$test Testament' class='nav left'><span class='nav clt'>+</span></a>"));
-	$next = ($_Part[3]<(int)$_BibleBOOKS[$_Part[2]]['CHAPTERS']
-		? "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/$_Part[2]/".($_Part[3]+1),FALSE,TRUE,TRUE))."' title='Next chapter' class='nav right'><span class='nav cgt'>&gt;</span></a>"
-		: (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]])
-		? "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]."/1",FALSE,TRUE,TRUE))."' title='Next chapter' class='nav right'><span class='nav cgt'>&gt;</span></a>"
-		: "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE))."' title='$test Testament' class='nav right'><span class='nav cgt'>+</span></a>"));
+	$prev = (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]])
+		? "<a href='".abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1],FALSE,TRUE,TRUE)."' title='Previous book' class='nav book'><span>&lt;</span></a>"
+		: "<a href='".abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE)."' title='$test Testament' class='nav book'><span>+</span></a>");
+	$next =	(!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]])
+		? "<a href='".abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1],FALSE,TRUE,TRUE)."' title='Next book' class='nav book'><span>&gt;</span></a>"
+		: "<a href='".abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE)."' title='$test Testament' class='nav book'><span>+</span></a>");
 }
 else if ($what=='vers') {
 	$navup = "<a href='".abcms_href("/Bibles/$_Part[1]/$_Part[2]/$_Part[3]",FALSE,TRUE,TRUE)."' title='Chapter' class='nav'><span class='nav nup'>^</span></a>";
 	abcms_aionian_nav($_Part[2],$_Part[3],$_Part[4],$aionprev,$aionnext);
-	$prev = ($_Part[4]>1
-		? "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/$_Part[2]/$_Part[3]/".($_Part[4]-1),FALSE,TRUE,TRUE))."' title='Previous verse' class='nav left'><span class='nav vlt'>&lt;</span></a>"
-		: ($_Part[3]>1
-		? "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/$_Part[2]/".($_Part[3]-1)."/".abcms_word_menu_verses($_Part[1],$_BibleBOOKS[$_Part[2]]['NUMBER'],$_BibleBOOKS[$_Part[2]]['CODE'],($_Part[3]-1)),FALSE,TRUE,TRUE))."' title='Previous verse' class='nav left'><span class='nav vlt'>&lt;</span></a>"
+	$prev = ($_Part[3]>1
+		? "<a href='".abcms_href("/Bibles/$_Part[1]/$_Part[2]/".($_Part[3]-1)."/1",FALSE,TRUE,TRUE)."' title='Previous chapter' class='nav left'><span class='nav clt'>&lt;</span></a>"
 		: (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]])
-		? "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]."/".$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CHAPTERS']."/".abcms_word_menu_verses($_Part[1],$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['NUMBER'],$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CODE'],$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CHAPTERS']),FALSE,TRUE,TRUE))."' title='Previous verse' class='nav left'><span class='nav vlt'>&lt;</span></a>"
-		: "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE))."' title='$test Testament' class='nav left'><span class='nav vlt'>+</span></a>")));
-	$next = ($_Part[4]<count($_BibleCHAP1)
-		? "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/$_Part[2]/$_Part[3]/".($_Part[4]+1),FALSE,TRUE,TRUE))."' title='Next verse' class='nav right'><span class='nav vgt'>&gt;</span></a>"
-		: ($_Part[3]<(int)$_BibleBOOKS[$_Part[2]]['CHAPTERS']
-		? "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/$_Part[2]/".($_Part[3]+1)."/1",FALSE,TRUE,TRUE))."' title='Next verse' class='nav right'><span class='nav vgt'>&gt;</span></a>"
+		? "<a href='".abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]."/".$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CHAPTERS']."/1",FALSE,TRUE,TRUE)."' title='Previous chapter' class='nav left'><span class='nav clt'>&lt;</span></a>"
+		: "<a href='".abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE)."' title='$test Testament' class='nav left'><span class='nav clt'>+</span></a>"));
+	$next = ($_Part[3]<(int)$_BibleBOOKS[$_Part[2]]['CHAPTERS']
+		? "<a href='".abcms_href("/Bibles/$_Part[1]/$_Part[2]/".($_Part[3]+1)."/1",FALSE,TRUE,TRUE)."' title='Next chapter' class='nav right'><span class='nav cgt'>&gt;</span></a>"
 		: (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]])
-		? "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]."/1/1",FALSE,TRUE,TRUE))."' title='Next verse' class='nav right'><span class='nav vgt'>&gt;</span></a>"
-		: "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE))."' title='$test Testament' class='nav right'><span class='nav vgt'>+</span></a>")));
+		? "<a href='".abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]."/1/1",FALSE,TRUE,TRUE)."' title='Next chapter' class='nav right'><span class='nav cgt'>&gt;</span></a>"
+		: "<a href='".abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE)."' title='$test Testament' class='nav right'><span class='nav cgt'>+</span></a>"));
 }
 else { $prev = $navup = $next = $aionprev = $aionnext = NULL; }
 if ($_stidC) {
@@ -927,23 +916,75 @@ return (
 	"<div id='word-menu'>".
 	"<div class='word-menu-l notranslate'>".$name.$_BibleTWO_xLink.$strongs."</div>".
 	"<div class='word-menu-r notranslate'>$prev$navup$next</div>".
-	"<div class='word-menu-float notranslate'>$prev$next</div>".
 	"</div>");
 }
 
 
 
-/*** BOOK MENU ***/
-function abcms_book_menu() {
-global $_Part, $_BibleONE, $_BibleBOOKS, $_BibleONE_Lang;
+/*** CHAP MENU ***/
+function abcms_chap_menu() {
+global $_Part, $_BibleONE, $_BibleBOOKS, $_BibleONE_Lang, $_SwipePREV, $_SwipeNEXT;
 $test = ((int)$_BibleBOOKS[$_Part[2]]['NUMBER'] < 40 ? "Old" : "New");
-$prev = (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]])
-		? "<a href='".abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1],FALSE,TRUE,TRUE)."' title='Previous book' class='nav book'><span>&lt;</span></a>"
-		: "<a href='".abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE)."' title='$test Testament' class='nav book'><span>+</span></a>");
-$next =	(!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]])
-		? "<a href='".abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1],FALSE,TRUE,TRUE)."' title='Next book' class='nav book'><span>&gt;</span></a>"
-		: "<a href='".abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE)."' title='$test Testament' class='nav book'><span>+</span></a>");
+$prev = ($_Part[3]>1
+		? "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/$_Part[2]/".($_Part[3]-1),FALSE,TRUE,TRUE))."' title='Previous chapter' class='nav left'><span class='nav clt'>&lt;</span></a>"
+		: (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]])
+		? "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]."/".$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CHAPTERS'],FALSE,TRUE,TRUE))."' title='Previous chapter' class='nav left'><span class='nav clt'>&lt;</span></a>"
+		: "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE))."' title='$test Testament' class='nav left'><span class='nav clt'>+</span></a>"));
+$next = ($_Part[3]<(int)$_BibleBOOKS[$_Part[2]]['CHAPTERS']
+		? "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/$_Part[2]/".($_Part[3]+1),FALSE,TRUE,TRUE))."' title='Next chapter' class='nav right'><span class='nav cgt'>&gt;</span></a>"
+		: (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]])
+		? "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]."/1",FALSE,TRUE,TRUE))."' title='Next chapter' class='nav right'><span class='nav cgt'>&gt;</span></a>"
+		: "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE))."' title='$test Testament' class='nav right'><span class='nav cgt'>+</span></a>"));
+echo "<div id='word-menu-float' class='notranslate'>$prev$next</div>";
 return ("<h2>$prev $_BibleONE_Lang'>".$_BibleONE['T_BOOKS'][$_Part[2]]."</span> ".$_Part[3]." $next</h2>");
+}
+
+
+
+/*** VERSE MENU ***/
+function abcms_vers_menu() {
+global $_Part, $_BibleONE, $_BibleCHAP1, $_BibleBOOKS, $_BibleONE_Lang, $_SwipePREV, $_SwipeNEXT;
+$test = ((int)$_BibleBOOKS[$_Part[2]]['NUMBER'] < 40 ? "Old" : "New");
+$prev = ($_Part[4]>1
+		? "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/$_Part[2]/$_Part[3]/".($_Part[4]-1),FALSE,TRUE,TRUE))."' title='Previous verse' class='nav left'><span class='nav vlt'>&lt;</span></a>"
+		: ($_Part[3]>1
+		? "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/$_Part[2]/".($_Part[3]-1)."/".abcms_word_menu_verses($_Part[1],$_BibleBOOKS[$_Part[2]]['NUMBER'],$_BibleBOOKS[$_Part[2]]['CODE'],($_Part[3]-1)),FALSE,TRUE,TRUE))."' title='Previous verse' class='nav left'><span class='nav vlt'>&lt;</span></a>"
+		: (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]])
+		? "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]."/".$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CHAPTERS']."/".abcms_word_menu_verses($_Part[1],$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['NUMBER'],$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CODE'],$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CHAPTERS']),FALSE,TRUE,TRUE))."' title='Previous verse' class='nav left'><span class='nav vlt'>&lt;</span></a>"
+		: "<a href='".($_SwipePREV=abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE))."' title='$test Testament' class='nav left'><span class='nav vlt'>+</span></a>")));
+$next = ($_Part[4]<count($_BibleCHAP1)
+		? "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/$_Part[2]/$_Part[3]/".($_Part[4]+1),FALSE,TRUE,TRUE))."' title='Next verse' class='nav right'><span class='nav vgt'>&gt;</span></a>"
+		: ($_Part[3]<(int)$_BibleBOOKS[$_Part[2]]['CHAPTERS']
+		? "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/$_Part[2]/".($_Part[3]+1)."/1",FALSE,TRUE,TRUE))."' title='Next verse' class='nav right'><span class='nav vgt'>&gt;</span></a>"
+		: (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]])
+		? "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]."/1/1",FALSE,TRUE,TRUE))."' title='Next verse' class='nav right'><span class='nav vgt'>&gt;</span></a>"
+		: "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE))."' title='$test Testament' class='nav right'><span class='nav vgt'>+</span></a>")));
+echo "<div id='word-menu-float' class='notranslate'>$prev$next</div>";
+return ("<h2>$prev $_BibleONE_Lang'>".$_BibleONE['T_BOOKS'][$_Part[2]]."</span> ".$_Part[3].":".$_Part[4]." $next</h2>");
+}
+
+
+
+/*** VERSE ALL MENU ***/
+function abcms_vall_menu() {
+global $_Part, $_BibleONE, $_BibleCHAP1, $_BibleBOOKS, $_BibleONE_Lang, $_SwipePREV, $_SwipeNEXT;
+$test = ((int)$_BibleBOOKS[$_Part[2]]['NUMBER'] < 40 ? "Old" : "New");
+$prev = ($_Part[4]>1
+		? "<a href='".($_SwipePREV=abcms_href("/Verse/$_Part[1]/$_Part[2]/$_Part[3]/".($_Part[4]-1),FALSE,TRUE,TRUE))."' title='Previous verse' class='nav left'><span class='nav vlt'>&lt;</span></a>"
+		: ($_Part[3]>1
+		? "<a href='".($_SwipePREV=abcms_href("/Verse/$_Part[1]/$_Part[2]/".($_Part[3]-1)."/".abcms_word_menu_verses($_Part[1],$_BibleBOOKS[$_Part[2]]['NUMBER'],$_BibleBOOKS[$_Part[2]]['CODE'],($_Part[3]-1)),FALSE,TRUE,TRUE))."' title='Previous verse' class='nav left'><span class='nav vlt'>&lt;</span></a>"
+		: (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]])
+		? "<a href='".($_SwipePREV=abcms_href("/Verse/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]."/".$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CHAPTERS']."/".abcms_word_menu_verses($_Part[1],$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['NUMBER'],$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CODE'],$_BibleBOOKS[$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']-1]]['CHAPTERS']),FALSE,TRUE,TRUE))."' title='Previous verse' class='nav left'><span class='nav vlt'>&lt;</span></a>"
+		: "<a href='".($_SwipePREV="/Read")."' title='Bookmarked Bible' onclick='return AionianBible_Bookmark(".'"/Read"'.");' class='nav left'><span class='nav vlt'>+</span></a>")));
+$next = ($_Part[4]<count($_BibleCHAP1)
+		? "<a href='".($_SwipeNEXT=abcms_href("/Verse/$_Part[1]/$_Part[2]/$_Part[3]/".($_Part[4]+1),FALSE,TRUE,TRUE))."' title='Next verse' class='nav right'><span class='nav vgt'>&gt;</span></a>"
+		: ($_Part[3]<(int)$_BibleBOOKS[$_Part[2]]['CHAPTERS']
+		? "<a href='".($_SwipeNEXT=abcms_href("/Verse/$_Part[1]/$_Part[2]/".($_Part[3]+1)."/1",FALSE,TRUE,TRUE))."' title='Next verse' class='nav right'><span class='nav vgt'>&gt;</span></a>"
+		: (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]])
+		? "<a href='".($_SwipeNEXT=abcms_href("/Verse/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]."/1/1",FALSE,TRUE,TRUE))."' title='Next verse' class='nav right'><span class='nav vgt'>&gt;</span></a>"
+		: "<a href='".($_SwipeNEXT="/Read")."' title='Bookmarked Bible' onclick='return AionianBible_Bookmark(".'"/Read"'.");' class='nav right'><span class='nav vgt'>+</span></a>")));
+echo "<div id='word-menu-float' class='notranslate'>$prev$next</div>";
+return ("<h2 class=center>$prev ".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']]." ".$_Part[3].":".$_Part[4]." $next</h2>\n");
 }
 
 
@@ -1121,7 +1162,7 @@ $rtl = (empty($_BibleONE['T_VERSIONS']['RTL']) ? FALSE : TRUE);
 $rtl2 = (empty($_BibleTWO['T_VERSIONS']['RTL']) ? FALSE : TRUE);
 if (!$nopage) {	
 	echo "<div id='word'>";
-	echo abcms_book_menu();
+	echo ($menu=abcms_chap_menu());
 }
 for ($x=(empty($_Part[4])?1:$_Part[4]); $x<=$maxverses; ++$x) {
 	$stripe = (( $x % 2 == 0 ) ? 'even' : 'odd');
@@ -1145,7 +1186,8 @@ for ($x=(empty($_Part[4])?1:$_Part[4]); $x<=$maxverses; ++$x) {
 	else {	echo	"<span class='word-text $stripe'><span class='word-verse'>$verse_link</span>$verse_number$verse_text</span>\n";
 	}
 }
-if ($nopage) { return TRUE; }	
+if ($nopage) { return TRUE; }
+echo "<div id='word-menu-bottom'>$menu</div>";
 echo '</div>';
 if (!empty($_BibleONE['T_VERSIONS']['WARNING'])) { echo "<div class='word-warning'>".$_BibleONE['T_VERSIONS']['WARNING']."</div>\n"; }
 echo "<div class='word-links'>\n".
@@ -1186,7 +1228,7 @@ $rtl = (empty($_BibleONE['T_VERSIONS']['RTL']) ? FALSE : TRUE);
 $rtl2 = (empty($_BibleTWO['T_VERSIONS']['RTL']) ? FALSE : TRUE);
 $x = $_Part[4];
 echo "<div id='word'><div id='strong-head'>\n";
-echo "<h2>$_BibleONE_Lang'>".$_BibleONE['T_BOOKS'][$_Part[2]]."</span> ".$_Part[3].":".$_Part[4]."</h2>";
+echo ($menu=abcms_vers_menu());
 $verse_number = (empty($_BibleONE['T_NUMBERS'][$x]) || $x==$_BibleONE['T_NUMBERS'][$x] ? '' : $_BibleONE_Lang." word-verse-lang'>".$_BibleONE['T_NUMBERS'][$x].'</span> ');
 $strongs = abcms_word_chap_stro($x);
 $verse_text = "$_BibleONE_Lang word-text $strongs'>".(empty($_BibleCHAP1[$x]) ? 'Verse not available in this translation' : $_BibleCHAP1[$x]).'</span> ';
@@ -1230,6 +1272,7 @@ else {
 	}
 }
 echo "</div>\n";
+echo "<div id='word-menu-bottom'>$menu</div>";
 echo "</div>\n";
 abcms_read_indx_line();
 abcms_tail();		
@@ -1271,7 +1314,7 @@ $_Part[4] = intval($_Part[4]);
 abcms_html(TRUE,'class=word-read');
 abcms_head(abcms_word_menu('all'));
 echo "<div id='word' class='verseall'>\n";
-echo "<h2 class=center>".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']]." ".$_Part[3].":".$_Part[4]."</h2>\n";
+echo ($menu=abcms_vall_menu());
 echo "<div class='center' id='word-quick'>";
 $last = NULL;
 foreach( $bible_ALL as $bible => $version ) {
@@ -1311,6 +1354,7 @@ foreach( $bible_ALL as $bible => $version ) {
 	else {		echo "<div class='word-para-one allverses'><span class='word-text'>$verse_text</span></div>\n"; }
 }
 echo "<div>Verse Count = $count</div>\n";
+echo "<div id='word-menu-bottom'>$menu</div>";
 echo "</div>\n";
 abcms_tail();	
 }
