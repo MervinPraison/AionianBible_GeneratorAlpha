@@ -13,8 +13,8 @@ $files = array( // DO SOME
 	'BIBLE-PROOF-GLOSSARY1---POD_INTERIOR.pdf',
 	'BIBLE-PROOF-MAP1---POD_INTERIOR.pdf',
 	);
-$files = array(); // DO NONE
 $files = array_diff(scandir('../www-stageresources/AB-PROOFS'), array('.', '..')); // DO ALL
+//$files = array(); // DO NONE
 foreach($files as $file) {
 	//if (preg_match("#_HARD\.pdf$#",$file)) { continue; }
 	//if (preg_match("#_NT\.pdf$#",$file)) { continue; }
@@ -29,7 +29,7 @@ foreach($files as $file) {
 $files = array_diff(scandir('../www-stageresources'), array('.', '..'));
 foreach($files as $file) {
 	if (!preg_match("#---Aionian-Edition\.pdf$#",$file)) { continue; }
-	if (!preg_match("#(Oriya|Malayalam)#",$file)) { continue; } // skip some if needed
+	//if (preg_match("#(Oriya|Malayalam)#",$file)) { continue; } // skip some if needed
 
 	$revised = AION_PDF_PAGECOUNT("../www-stageresources/$file");
 	$current = AION_PDF_PAGECOUNT("../www-resources/$file");
