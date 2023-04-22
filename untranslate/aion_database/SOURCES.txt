@@ -36,10 +36,10 @@ Holy-Bible---Beaver---Beaver-Mark				https://ebible.org/sword/zip/bea1886eb.zip	
 Holy-Bible---Beaver---Beaver-Mark				https://ebible.org/epub/bea.epub	Holy-Bible---Beaver---Beaver-Mark---Source-Edition.epub
 Holy-Bible---Beaver---Beaver-Mark				https://ebible.org/pdf/bea/bea_prt.pdf	Holy-Bible---Beaver---Beaver-Mark---Source-Edition.pdf
 Holy-Bible---Beaver---Beaver-Mark				https://ebible.org/Scriptures/bea_vpl.zip	Holy-Bible---Beaver---Beaver-Mark---Source-Edition.VPL.zip
-Holy-Bible---Bengali---Bengali-Bible				https://ebible.org/sword/zip/ben2017eb.zip	Holy-Bible---Bengali---Bengali-Bible---Source-Edition.SWORD.zip
-Holy-Bible---Bengali---Bengali-Bible				https://ebible.org/epub/ben2017.epub	Holy-Bible---Bengali---Bengali-Bible---Source-Edition.epub
-Holy-Bible---Bengali---Bengali-Bible				https://ebible.org/pdf/ben2017/ben2017_prt.pdf	Holy-Bible---Bengali---Bengali-Bible---Source-Edition.pdf
-Holy-Bible---Bengali---Bengali-Bible				https://ebible.org/Scriptures/ben2017_vpl.zip	Holy-Bible---Bengali---Bengali-Bible---Source-Edition.VPL.zip
+Holy-Bible---Bengali---Bengali-Bible				https://ebible.org/sword/zip/benirv2019eb.zip	Holy-Bible---Bengali---Bengali-Bible---Source-Edition.SWORD.zip
+Holy-Bible---Bengali---Bengali-Bible				https://ebible.org/epub/benirv.epub	Holy-Bible---Bengali---Bengali-Bible---Source-Edition.epub
+Holy-Bible---Bengali---Bengali-Bible				https://ebible.org/pdf/benirv/benirv_prt.pdf	Holy-Bible---Bengali---Bengali-Bible---Source-Edition.pdf
+Holy-Bible---Bengali---Bengali-Bible				https://ebible.org/Scriptures/benirv_vpl.zip	Holy-Bible---Bengali---Bengali-Bible---Source-Edition.VPL.zip
 Holy-Bible---Breton---Breton-Gospels				https://ebible.org/sword/zip/breBRG1827eb.zip	Holy-Bible---Breton---Breton-Gospels---Source-Edition.SWORD.zip
 Holy-Bible---Breton---Breton-Gospels				https://ebible.org/epub/breBRG.epub	Holy-Bible---Breton---Breton-Gospels---Source-Edition.epub
 Holy-Bible---Breton---Breton-Gospels				https://ebible.org/pdf/breBRG/breBRG_prt.pdf	Holy-Bible---Breton---Breton-Gospels---Source-Edition.pdf

@@ -1476,7 +1476,6 @@ Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	019	PSA	140	001	13	1	end
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	019	PSA	142	001	7	1	end
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad							end
 Holy-Bible---Hebrew---Modern-Hebrew-Bible							end
-Holy-Bible---Hindi---Hindi-Bible	024	JER	029	032	32	1	end
 Holy-Bible---Hindi---Hindi-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Hindi---Hindi-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Hungarian---Hungarian-Karoli	009	1SA	020	042	42	1	end
@@ -2194,8 +2193,8 @@ Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	140	001	13	1	end
 Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	142	001	7	1	end
 Holy-Bible---Malagasy---Malagasy-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Malagasy---Malagasy-Bible							end
-Holy-Bible---Malayalam---Malayalam-Bible	054	1TI	006	021	21	1	end
 Holy-Bible---Malayalam---Malayalam-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Malayalam---Malayalam-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Maori---Maori-Bible							end
 Holy-Bible---Marathi---Marathi-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Marathi---Marathi-Bible	066	REV	012	018	1	-1	end

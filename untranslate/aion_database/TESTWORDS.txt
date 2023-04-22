@@ -1,6 +1,6 @@
 # File Name: TESTWORDS.txt
 # File Size: 173473      
-# File Date: 03/25/2023 16:09:11
+# File Date: 04/21/2023 20:39:54
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2023
@@ -136,7 +136,7 @@ Holy-Bible---Hebrew---Hebrew-Aleppo-Codex	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Hebrew---Modern-Hebrew-Bible	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
-Holy-Bible---Hindi---Hindi-Bible	0	GROUP=0/0/0	सनातन=24/12/12, सदैव=50/2/48, GROUP=74/14/60	नरक=12/12/0, GROUP=12/12/0	नरक=12/12/0, GROUP=12/12/0	अधोलोक=75/71/4, नरक=12/12/0, GROUP=87/83/4	अधोलोक=75/71/4, नरक=12/12/0, GROUP=87/83/4	अधोलोक=75/71/4, नरक=12/12/0, GROUP=87/83/4	अधोलोक=75/71/4, नरक=12/12/0, GROUP=87/83/4	अथाह कुण्ड=7/7/0, GROUP=7/7/0	आग की झील=3/3/0, मिलेगा=83/5/78, जो आग=9/1/8, GROUP=95/9/86	NULL=0/0/0, GROUP=0/0/0
+Holy-Bible---Hindi---Hindi-Bible	0	GROUP=0/0/0	सनातन=24/12/12, सदैव=50/2/48, GROUP=74/14/60	नरक=12/12/0, GROUP=12/12/0	नरक=12/12/0, GROUP=12/12/0	अधोलोक=74/70/4, नरक=12/12/0, GROUP=86/82/4	अधोलोक=74/70/4, नरक=12/12/0, GROUP=86/82/4	अधोलोक=74/70/4, नरक=12/12/0, GROUP=86/82/4	अधोलोक=74/70/4, नरक=12/12/0, GROUP=86/82/4	अथाह कुण्ड=7/7/0, GROUP=7/7/0	आग की झील=3/3/0, मिलेगा=84/5/79, जो आग=9/1/8, GROUP=96/9/87	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Hungarian---Hungarian-Karoli	0	GROUP=0/0/0	örökkévaló=104/3/101, örökké=163/49/114, örökkön=35/23/12, világ=89/14/75, világi=4/2/2, világnak=25/8/17, világon=30/8/22, világot=31/3/28, világhoz=2/2/0, világból=13/1/12, világbírói=1/1/0, világhoz=2/2/0, GROUP=499/116/383	pokol=12/11/1, pokolba=1/1/0, pokolra=1/1/0, pokolig=3/2/1, pokolból=2/2/0, pokoltól=1/1/0, pokolban=1/1/0, pokolnak=1/1/0, GROUP=22/20/2	pokol=12/11/1, pokolba=1/1/0, pokolra=1/1/0, GROUP=14/13/1	pokol=12/11/1, pokolba=1/1/0, pokolra=1/1/0, alvilágnál=1/1/0, alvilág=1/1/0, sírba=29/12/17, koporsóba=7/5/2, Seol=8/8/0, Seolban=3/3/0, Seolba=5/5/0, Seolra=1/1/0, holtak=11/3/8, GROUP=80/52/28	gyehenna=3/3/0, gyehennára=6/6/0, gyehennában=1/1/0, gyehennának=1/1/0, gyehennától=1/1/0, GROUP=12/12/0	pokol=12/11/1, pokolban=1/1/0, pokolra=1/1/0, GROUP=14/13/1	taszítván=1/1/0, GROUP=1/1/0	mélységbe=8/5/3, mélység=15/4/11, mélységnek=4/2/2, mélység=15/4/11, mélységbõl=0/0/0, GROUP=42/15/27	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Ilocano---Ilocano-Bible	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0

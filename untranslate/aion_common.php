@@ -606,8 +606,9 @@ function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $ski
 		'source'	=> $source,
 		'uniusage'	=> $uniusage,
 		'include'	=> '/---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
-		//'include'	=> '/Holy-Bible---Greek---Greek-LXX-Septuagint---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
-		//'include'	=> '/Holy-Bible---English---Aionian-Bible---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',		
+		//'include'	=> '/.*Bengali.*---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
+		//'include'	=> '/Holy-Bible---Slovene---Slovene-Savli-Bible---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
+		//'include'	=> '/Holy-Bible---(Panjabi|Malayalam|Oriya).+---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',		
 		'destiny'	=> $destiny,
 		'raw_orig'	=> $raw_orig,
 		'raw_fixed'	=> $raw_fixed,
@@ -910,7 +911,7 @@ function AION_TEXT_REPAIR($string,$errline,$bible,$trueifrawtext, &$textrepair,$
 		$string = preg_replace('/^1 /ui', 'І ', $saved=$string); if(is_array($textrepair) && $string!=$saved) { $textrepair[] = array($errline."\t".$string); } // note the repair
 	}
 
-	// weird number warning
+	// weird number warning and fixes
 	if (preg_match('/[[:space:]]*‘[[:digit:]]+’[[:space:]]*/ui', $string)) {			AION_ECHO("WARNING!!! WEIRD NUMBERS! $errline:\t$string"); }
 	// fix punctuation
 	$string = preg_replace('/[[:space:]]*,[[:space:]]*(\?|!|;|:|,)/ui', '$1', $string);								// no comma before punctuation
@@ -3087,15 +3088,15 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-0;
 	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-2055;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-912;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-13575;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-13607;
 	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-10849;
-	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-8253;
+	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-8250;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-710;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-717;
-	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-616;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-122220;
+	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-620;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-122218;
 	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-25810;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-2737.65;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-2737.61;
 	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-109;
 	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-65;
 	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-207;

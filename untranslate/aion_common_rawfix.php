@@ -6907,11 +6907,10 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Gujarati---Gujarati-Bible" :
-if (!($bfile = preg_replace("/[a_]+/us"," ",$bfile,-1,$rnum)) || $rnum!=4) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 $textfix = <<<EOF
 LUK 1:69 તેમણે પોતાના સેવક દાઉદના કુળમાં, આપણે સારુ એક પરાક્રમી ઉદ્ધારનાર આપ્યા છે,
-LUK 1:70 (જગતના આરંભથી ઈશ્વરે પવિત્ર પ્રબોધકોના મુખથી કહ્યું હતું તે પ્રમાણે),
+LUK 1:70 ( જગતના પહેલાથી ઈશ્વરે પવિત્ર પ્રબોધકોના મુખથી કહ્યું હતું તે પ્રમાણે, ),
 LUK 1:71 
 EOF;
 if (!($bfile = preg_replace("/LUK 1:69 (.+?)LUK 1:71 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -7027,7 +7026,7 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Hindi---Hindi-Bible" :
-if (!($bfile = preg_replace("/\([^()]+[[:digit:]]+[[:punct:]]*\)/us"," ",$bfile,-1,$rnum)) || $rnum!=2536) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/\([^()]+[[:digit:]]+[[:punct:]]*\)/us"," ",$bfile,-1,$rnum)) || $rnum!=2534) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;		
 goto RAWHIDE;
 
@@ -9919,27 +9918,45 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Malayalam---Malayalam-Bible" :
-if (!($bfile = preg_replace("/[+]+/us",' ',$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$bfile_saved = $bfile;
 $textfix = <<<EOF
 EXO 7:24 നദിയിലെ വെള്ളം കുടിക്കുവാൻ യോഗ്യമല്ലാത്തതുകൊണ്ട് ഈജിപ്റ്റുകാർ എല്ലാവരും കുടിക്കുവാൻ വെള്ളത്തിനായി നദിക്കരയിൽ പലയിടത്തും കുഴികൾ കുഴിച്ചു.
 EXO 7:25 യഹോവ നദിയെ അടിച്ചിട്ട് ഏഴ് ദിവസം കഴിഞ്ഞപ്പോൾ
-EXO 8:1 മോശെയോട് കല്പിച്ചത്: “നീ ഫറവോന്റെ അടുക്കൽ ചെന്ന് പറയേണ്ടത്' എന്തെന്നാൽ: യഹോവ ഇപ്രകാരം അരുളിച്ചെയ്യുന്നു: എന്നെ ആരാധിക്കുവാൻ എന്റെ ജനത്തെ വിട്ടയയ്ക്കുക.
+EXO 8:1 മോശെയോട് കല്പിച്ചത്: “നീ ഫറവോന്റെ അടുക്കൽ ചെന്ന് പറയേണ്ടത് എന്തെന്നാൽ: യഹോവ ഇപ്രകാരം അരുളിച്ചെയ്യുന്നു: എന്നെ ആരാധിക്കുവാൻ എന്റെ ജനത്തെ വിട്ടയയ്ക്കുക.
 EXO 8:2 
 EOF;
 if (!($bfile = preg_replace("/EXO 7:24 (.+?)EXO 8:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-1SA 30:30 ഹൊർമ്മയിലുള്ളവർക്കും കോർ-ആശാനിൽ ഉള്ളവർക്കും അഥാക്കിലുള്ളവർക്കും 
+DEU 13:17 അതിലെ കൊള്ളമുതൽ വീഥിയുടെ നടുവിൽ കൂട്ടിയിട്ട് ആ പട്ടണവും അതിലെ കൊള്ളയും അശേഷം നിന്റെ ദൈവമായ യഹോവയ്ക്കായി തീയിട്ട് ചുട്ടുകളയേണം; ആ പട്ടണം എന്നും പാഴ്ക്കുന്നായിരിക്കേണം; അതിനെ പിന്നെ പണിയുകയുമരുത്.
+DEU 13:18 യഹോവ തന്റെ ഉഗ്രകോപം വിട്ടുതിരിഞ്ഞ് നിന്നോട് കരുണയും കനിവും കാണിക്കേണ്ടതിനും നിന്റെ പിതാക്കന്മാരോട് സത്യം ചെയ്തതുപോലെ നിന്നെ വർദ്ധിപ്പിക്കേണ്ടതിനും ശപഥാർപ്പിതമായ യാതൊന്നും നിന്റെ കയ്യിൽ പറ്റിയിരിക്കരുത്”.
+DEU 13:19 നിന്റെ ദൈവമായ യഹോവയുടെ വാക്കുകേട്ട് ഞാൻ ഇന്ന് നിന്നോട് ആജ്ഞാപിക്കുന്ന അവന്റെ സകല കല്പനകളും പ്രമാണിച്ച് നിന്റെ ദൈവമായ യഹോവക്ക് ഹിതകരമായത് ചെയ്യുക.
+DEU 14:1 
+EOF;
+if (!($bfile = preg_replace("/DEU 13:17 (.+?)DEU 14:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+DEU 28:68 നീ ഇനി കാണുകയില്ല എന്നു ഞാൻ നിന്നോട് പറഞ്ഞ വഴിയായി യഹോവ നിന്നെ കപ്പൽ കയറ്റി ഈജിപ്റ്റിലേക്ക് മടക്കിക്കൊണ്ടുപോകും; അവിടെ നിങ്ങളെ അടിമകളായി ശത്രുക്കൾക്കു വില്‍ക്കാൻ നിർത്തും; എന്നാൽ നിങ്ങളെ വാങ്ങുവാൻ ആരും ഉണ്ടാകുകയില്ല.
+DEU 28:69 ഹോരേബിൽവച്ച് യിസ്രായേൽ മക്കളോട് ചെയ്ത നിയമത്തിന് പുറമെ മോവാബ് ദേശത്തുവച്ച് അവരോടു ചെയ്യുവാൻ യഹോവ മോശെയോടു കല്പിച്ച നിയമത്തിന്റെ വചനങ്ങൾ ഇവ തന്നേ.
+DEU 29:1 
+EOF;
+if (!($bfile = preg_replace("/DEU 28:68 (.+?)DEU 29:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+1SA 30:30 ഹോർമ്മയിലുള്ളവർക്കും കോർ-ആശാനിൽ ഉള്ളവർക്കും അഥാക്കിലുള്ളവർക്കും
 1SA 30:31 ഹെബ്രോനിലുള്ളവർക്കും ദാവീദും അവന്റെ ആളുകളും സഞ്ചരിച്ചുവന്ന സകലസ്ഥലങ്ങളിലേക്കും കൊടുത്തയച്ചു.
 1SA 31:1 
 EOF;
 if (!($bfile = preg_replace("/1SA 30:30 (.+?)1SA 31:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 2SA 17:28 കിടക്കകളും കിണ്ണങ്ങളും മൺപാത്രങ്ങളും ദാവീദിനും കൂടെയുള്ള ജനത്തിനും ഭക്ഷിക്കുവാൻ ഗോതമ്പ്, യവം, മാവ്, മലർ, അമരക്ക, പയർ, പരിപ്പ്,
-2SA 17:29 തേൻ, വെണ്ണ, ആട്, പശുവിൻ പാല്ക്കട്ട എന്നിവയും കൊണ്ടുവന്നു; “ജനം മരുഭൂമിയിൽ വിശന്നും ദാഹിച്ചും ക്ഷീണിച്ചും ഇരിക്കുമല്ലോ” എന്ന് അവർ പറഞ്ഞു.
+2SA 17:29 തേൻ, വെണ്ണ, ആട്, പശുവിൻ പാല്‍ക്കട്ട എന്നിവയും കൊണ്ടുവന്നു; “ജനം മരുഭൂമിയിൽ വിശന്നും ദാഹിച്ചും ക്ഷീണിച്ചും ഇരിക്കുമല്ലോ” എന്ന് അവർ പറഞ്ഞു.
 2SA 18:1 
 EOF;
 if (!($bfile = preg_replace("/2SA 17:28 (.+?)2SA 18:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+SOL 7:12 പ്രിയാ, വരുക; നാം വെളിമ്പ്രദേശത്ത് പോകുക; നമുക്ക് ഗ്രാമങ്ങളിൽ ചെന്ന് രാപാർക്കാം.
+SOL 7:13 അതികാലത്ത് എഴുന്നേറ്റ് മുന്തിരിത്തോട്ടങ്ങളിൽ പോയി മുന്തിരിവള്ളി തളിർത്ത് പൂ വിടരുകയും മാതളനാരകം പൂക്കുകയും ചെയ്തുവോ എന്ന് നോക്കാം; അവിടെവച്ച് ഞാൻ നിനക്ക് എന്റെ പ്രേമം തരും.
+SOL 7:14 ദൂദായിപഴം സുഗന്ധം വീശുന്നു; നമ്മുടെ വാതില്ക്കൽ സകലവിധ വിശിഷ്ടഫലവും ഉണ്ട്; എന്റെ പ്രിയാ, ഞാൻ നിനക്കായി പഴയതും പുതിയതും സംഗ്രഹിച്ചിരിക്കുന്നു.
+SOL 8:1 
+EOF;
+if (!($bfile = preg_replace("/SOL 7:12 (.+?)SOL 8:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 MAT 13:38 വയൽ ലോകം; നല്ലവിത്ത് രാജ്യത്തിന്റെ പുത്രന്മാർ; കള ദുഷ്ടന്റെ പുത്രന്മാർ;
 MAT 13:39 അത് വിതച്ച ശത്രു പിശാച്; കൊയ്ത്ത് ലോകാവസാനം; കൊയ്യുന്നവർ ദൂതന്മാർ.
@@ -9948,7 +9965,7 @@ EOF;
 if (!($bfile = preg_replace("/MAT 13:38 (.+?)MAT 13:40 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 MAT 23:13 കപടഭക്തിക്കാരായ ശാസ്ത്രിമാരും പരീശരുമായുള്ളവരേ, നിങ്ങൾ മനുഷ്യർക്ക് സ്വർഗ്ഗരാജ്യം അടച്ചുകളയുന്നു; നിങ്ങൾതന്നെ കടക്കുന്നതുമില്ല, കടക്കുന്നവരെ കടക്കുവാൻ സമ്മതിക്കുന്നതുമില്ല.
-MAT 23:14 കപടഭക്തിക്കാരായ ശാസ്ത്രിമാരും പരീശന്മാരുമായുള്ളോരേ, നിങ്ങൾക്ക് ഹാ കഷ്ടം; നിങ്ങൾ വിധവമാരുടെ വീടുകളെ വിഴുങ്ങുകയും ഉപായരൂപേണ ദീർഘമായി പ്രാർത്ഥിക്കുകയും ചെയ്യുന്നു; ഇതു ഹേതുവായി നിങ്ങൾക്ക് ഏറ്റവും വലിയ ശിക്ഷാവിധി വരും.
+MAT 23:14 കപടഭക്തിക്കാരായ ശാസ്ത്രിമാരും പരീശന്മാരുമായുള്ളോരേ, നിങ്ങൾക്ക് ഹാ കഷ്ടം; നിങ്ങൾ വിധവമാരുടെ വീടുകളെ വിഴുങ്ങുകയുംഉപായരൂപേണ ദീർഘമായി പ്രാർത്ഥിക്കുകയും ചെയ്യുന്നു; ഇതു ഹേതുവായി നിങ്ങൾക്ക് ഏറ്റവും വലിയ ശിക്ഷാവിധി വരും.
 MAT 23:15 കപടഭക്തിക്കാരായ ശാസ്ത്രിമാരും പരീശരുമായുള്ളവരേ, നിങ്ങൾക്ക് ഹാ കഷ്ടം; നിങ്ങൾ ഒരുവനെ നിങ്ങളുടെ മതത്തിൽ ചേർക്കുവാൻ കടലും കരയും ചുറ്റി നടക്കുന്നു; നിങ്ങളുടെ മതത്തിൽ ചേർന്നശേഷം അവനെ നിങ്ങളേക്കാൾ ഇരട്ടി നരകയോഗ്യൻ ആക്കിത്തീർക്കുന്നു.
 MAT 23:16 
 EOF;
@@ -9956,13 +9973,13 @@ if (!($bfile = preg_replace("/MAT 23:13 (.+?)MAT 23:16 /us",$textfix,$bfile,-1,$
 $textfix = <<<EOF
 MAR 9:43 നിന്റെ കൈ നിനക്ക് ഇടർച്ച വരുത്തിയാൽ അതിനെ വെട്ടിക്കളക: അംഗവൈകല്യമുള്ളവനായി ജീവനിൽ കടക്കുന്നത് രണ്ടു കയ്യുമുള്ളവൻ ആയി കെടാത്ത തീയായ നരകത്തിൽ പോകുന്നതിനേക്കാൾ നിനക്ക് നല്ലത്.
 MAR 9:45 നിന്റെ കാൽ നിനക്ക് ഇടർച്ച വരുത്തിയാൽ അതിനെ വെട്ടിക്കളക: മുടന്തനായി ജീവനിൽ കടക്കുന്നത് രണ്ടു കാലുമുള്ളവൻ ആയി നരകത്തിൽ എറിയപ്പെടുന്നതിനേക്കാൾ നിനക്ക് നല്ലത്.
-MAR 9:47 നിന്റെ കണ്ണ് നിനക്ക് ഇടർച്ച വരുത്തിയാൽ അതിനെ ചൂഴ്ന്നുകളയുക; രണ്ടുകണ്ണുള്ളവനായി ചാകാത്ത പുഴുവും കെടാത്ത തീയുമുള്ള അഗ്നിനരകത്തിൽ എറിയപ്പെടുന്നതിനേക്കാൾ ഒറ്റക്കണ്ണനായി ദൈവരാജ്യത്തിൽ കടക്കുന്നത് നിനക്ക് നല്ലത്.
+MAR 9:47 നിന്റെ കണ്ണ് നിനക്ക് ഇടർച്ച വരുത്തിയാൽ അതിനെ ചൂഴ്ന്നുകളയുക; രണ്ടു കണ്ണുള്ളവനായി ചാകാത്ത പുഴുവും കെടാത്ത തീയുമുള്ള അഗ്നിനരകത്തിൽ എറിയപ്പെടുന്നതിനേക്കാൾ ഒറ്റക്കണ്ണനായി ദൈവരാജ്യത്തിൽ കടക്കുന്നത് നിനക്ക് നല്ലത്.
 MAR 9:49 
 EOF;
 if (!($bfile = preg_replace("/MAR 9:43 (.+?)MAR 9:49 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-LUK 1:54 തന്റെ ദാസനായ യിസ്രായേലിനെ സഹായിച്ചിരിക്കുന്നു
-LUK 1:55 നമ്മുടെ പിതാക്കന്മാരോട് അരുളിച്ചെയ്തതുപോലെ അബ്രഹാമിനും അവന്റെ സന്തതിയ്ക്കും എന്നേക്കും കരുണ ലഭിക്കേണ്ടതിനു,”.
+LUK 1:54 തന്റെ ദാസനായ യിസ്രായേലിനെ സഹായിച്ചിരിക്കുന്നു,
+LUK 1:55 നമ്മുടെ പിതാക്കന്മാരോട് അരുളിച്ചെയ്തതുപോലെ അബ്രാഹാമിനും അവന്റെ സന്തതിയ്ക്കും എന്നേക്കും കരുണ ലഭിക്കേണ്ടതിനു”.
 LUK 1:56 
 EOF;
 if (!($bfile = preg_replace("/LUK 1:54 (.+?)LUK 1:56 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -9973,11 +9990,16 @@ LUK 1:71
 EOF;
 if (!($bfile = preg_replace("/LUK 1:69 (.+?)LUK 1:71 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-LUK 16:22 ആ ദരിദ്രൻ മരിച്ചപ്പോൾ ദൂതന്മാർ അവനെ അബ്രഹാമിന്റെ മടിയിലേക്കു കൊണ്ടുപോയി. ധനവാനും മരിച്ചു അടക്കപ്പെട്ടു; 
-LUK 16:23 പാതാളത്തിൽ കഷ്ടത അനുഭവിക്കുമ്പോൾ മേലോട്ടു നോക്കി ദൂരത്ത് നിന്നു അബ്രഹാമിനെയും അവന്റെ മടിയിൽ ലാസറിനെയും കണ്ട്:
+LUK 16:22 ആ ദരിദ്രൻ മരിച്ചപ്പോൾ ദൂതന്മാർ അവനെ അബ്രാഹാമിന്റെ മടിയിലേക്കു കൊണ്ടുപോയി. ധനവാനും മരിച്ചു അടക്കപ്പെട്ടു;
+LUK 16:23 പാതാളത്തിൽ കഷ്ടത അനുഭവിക്കുമ്പോൾ മേലോട്ടു നോക്കി ദൂരത്ത് നിന്നു അബ്രാഹാമിനെയും അവന്റെ മടിയിൽ ലാസറിനെയും കണ്ട്:
 LUK 16:24 
 EOF;
 if (!($bfile = preg_replace("/LUK 16:22 (.+?)LUK 16:24 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ACT 15:35 എന്നാൽ പൗലൊസും ബർന്നബാസും അന്ത്യൊക്യയിൽ പാർത്ത് മറ്റു പലരോടുംകൂടി കർത്താവിന്റെ വചനം ഉപദേശിച്ചും സുവിശേഷിച്ചും കൊണ്ടിരുന്നു.
+ACT 15:36 
+EOF;
+if (!($bfile = preg_replace("/ACT 15:34 (.+?)ACT 15:36 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 ROM 16:25 വെളിപ്പെടുത്തിയിരിക്കുന്നതുമായ മർമ്മത്തിന്റെ വെളിപാടിന് അനുസരിച്ചുള്ള എന്റെ സുവിശേഷത്തിനും യേശുക്രിസ്തുവിനെക്കുറിച്ചുള്ള പ്രസംഗത്തിനും ഒത്തവണ്ണം നിങ്ങളെ സ്ഥിരപ്പെടുത്തുവാൻ കഴിയുന്ന, വളരെ കാലങ്ങളായി രഹസ്യമായി സൂക്ഷിച്ചതും,
 ROM 16:26 നിത്യദൈവത്തിന്റെ കല്പനപ്രകാരം സകലജാതികൾക്കും വിശ്വാസത്തിന്റെ അനുസരണത്തിനായി പ്രവാചകന്മാരുടെ എഴുത്തുകളാൽ
@@ -10005,8 +10027,8 @@ $textfix = <<<EOF
 EOF;
 if (!($bfile = preg_replace("/1TI 1:8 (.+?)1TI 1:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-TIT 2:12 ഭക്തികേടും ലൗകികമോഹങ്ങളും വർജ്ജിക്കുവാനും, ഈ ലോകത്തിൽ സുബോധത്തോടും നീതിയോടും ദൈവഭക്തിയോടുംകൂടെ ജീവിക്കുവാനും അത് നമ്മെ ശിക്ഷിച്ചുവളർത്തുന്നു,
-TIT 2:13 ഭാഗ്യകരമായ പ്രത്യാശയ്ക്കായിട്ടും നമ്മുടെ മഹാദൈവവും രക്ഷിതാവുമായ യേശുക്രിസ്തുവിന്റെ തേജസ്സിന്റെ പ്രത്യക്ഷതയ്ക്കായിട്ടും നാം കാത്തുകൊണ്ട്.
+TIT 2:12 ഭക്തികേടും ലൗകികമോഹങ്ങളും വർജ്ജിക്കുവാനും, ഈ ലോകത്തിൽ സുബോധത്തോടും നീതിയോടും ദൈവഭക്തിയോടുംകൂടെ ജീവിക്കുവാനും അത് നമ്മെ ശിക്ഷിച്ചുവളർത്തുന്നു.
+TIT 2:13 ഭാഗ്യകരമായ പ്രത്യാശക്കായിട്ടും നമ്മുടെ മഹാദൈവവും രക്ഷിതാവുമായ യേശുക്രിസ്തുവിന്റെ തേജസ്സിന്റെ പ്രത്യക്ഷതയ്ക്കായിട്ടും നാം കാത്തുകൊണ്ട്,
 TIT 2:14 
 EOF;
 if (!($bfile = preg_replace("/TIT 2:12 (.+?)TIT 2:14 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -10030,13 +10052,13 @@ EOF;
 if (!($bfile = preg_replace("/1JO 1:1 (.+?)1JO 1:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 2JO 1:1 സത്യത്തെ അറിഞ്ഞിരിക്കുന്നവർ എല്ലാവരും, ഞാൻ സത്യത്തിൽ സ്നേഹിക്കുന്ന തിരഞ്ഞെടുക്കപ്പെട്ട വനിതയ്ക്കും അവളുടെ മക്കൾക്കും മൂപ്പനായ ഞാൻ എഴുതുന്നത്:
-2JO 1:2 നമ്മിൽ വസിക്കുന്നതും നമ്മോടുകൂടെ എന്നേക്കും ഇരിക്കുന്നതുമായ സത്യം നിമിത്തം ഞാൻ മാത്രമല്ല,
+2JO 1:2 നമ്മിൽ വസിക്കുന്നതും നമ്മോടുകൂടെ എന്നേക്കും ഇരിക്കുന്നതുമായ സത്യംനിമിത്തം ഞാൻ മാത്രമല്ല,
 2JO 1:3 
 EOF;
 if (!($bfile = preg_replace("/2JO 1:1 (.+?)2JO 1:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-REV 7:11 സകലദൂതന്മാരും സിംഹാസനത്തിന്റെയും മൂപ്പന്മാരുടെയും നാല് ജീവികളുടെയും ചുറ്റും നിന്നു, അവർ സിംഹാസനത്തിന്റെ മുമ്പിൽ കവിണ്ണു വീണു ദൈവത്തെ ആരാധിച്ചും കൊണ്ട് പറഞ്ഞത്: 
-REV 7:12 “ആമേൻ; നമ്മുടെ ദൈവത്തിന് എന്നെന്നേക്കും സ്തുതിയും മഹത്വവും ജ്ഞാനവും സ്തോത്രവും ബഹുമാനവും ശക്തിയും ബലവും; ആമേൻ.”
+REV 7:11 സകലദൂതന്മാരും സിംഹാസനത്തിന്റെയും മൂപ്പന്മാരുടെയും നാല് ജീവികളുടെയും ചുറ്റും നിന്നു, അവർ സിംഹാസനത്തിന്റെ മുമ്പിൽ കവിണ്ണുവീണു ദൈവത്തെ ആരാധിച്ചും കൊണ്ട് പറഞ്ഞത്:
+REV 7:12 “ആമേൻ;” നമ്മുടെ ദൈവത്തിന് എന്നെന്നേക്കും സ്തുതിയും മഹത്വവും ജ്ഞാനവും സ്തോത്രവും ബഹുമാനവും ശക്തിയും ബലവും; ആമേൻ.
 REV 7:13 
 EOF;
 if (!($bfile = preg_replace("/REV 7:11 (.+?)REV 7:13 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -12311,12 +12333,6 @@ goto RAWHIDE;
 case "Holy-Bible---Romanian---Bayash-Luke" :
 if (!($bfile = preg_replace("/ /us","",$bfile,-1,$rnum)) || $rnum!=10) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%E2%80%8A/1
 $bfile_saved = $bfile;	
-$bigfix = <<<EOF
-LUK 12:41 Petar atunšje lu ăntribat pă jăl: “Domnu spuj tu asta usporedbă păntru noj učenici, ili ăj păntru toc?”
-LUK 12:42 Isus u zăs: “Šinji ăj ala vjernă šă kufiri upravitelj kari ăl postavalešći dă gospodar pă kasa, šă ăm pravă vremi u da mănkari alu toc ăm kasa?
-LUK 12:43 
-EOF;
-if (!($bfile = preg_replace("/LUK 12:41 (.+?)LUK 12:43 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -12335,7 +12351,7 @@ LUK 18:1
 EOF;
 if (!($bfile = preg_replace("/LUK 17:36 (.+?)LUK 18:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bigfix = <<<EOF
-LUK 23:18 Ali toc ăntru glas azbirat: “P jel umuară, a lasănje pă Baraba!”
+LUK 23:18 Ali toc ăn unu glas astrigat: “P jel umuară, a lasinje p Baraba!”
 LUK 23:19 
 EOF;
 if (!($bfile = preg_replace("/LUK 23:17 (.+?)LUK 23:19 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -12367,6 +12383,13 @@ EOF;
 if (!($bfile = preg_replace("/LUK 23:50 (.+?)LUK 23:52 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Romani-Vlax---Chergash-Luke" :
+if (!($bfile = preg_replace("/LUK 23:130/us","LUK 23:13",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
 
 
 
@@ -12780,9 +12803,10 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Slovene---Slovene-Savli-Bible" :
-if (!($bfile = preg_replace('/§/us',' ',$bfile,-1,$rnum)) || $rnum!=1077) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%C2%A7/1
-if (!($bfile = preg_replace("/(\[א\]|\[ב\]|\[ג\]|\[ד\]|\[ה\]|\[ו\]|\[ז\]|\[ח\]|\[ט\]|\[י\]|\[כ\]|\[ל\]|\[מ\]|\[נ\]|\[ס\]|\[ע\]|\[פ\]|\[צ\]|\[ק\]|\[ר\]|\[ש\]|\[ת\])/us"," ",$bfile,-1,$rnum)) || $rnum!=22) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/§/us',' ',$bfile,-1,$rnum)) || $rnum!=1079) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%C2%A7/1
 $bfile_saved = $bfile;
+if (!($bfile = preg_replace("/(\[א\]|\[ב\]|\[ג\]|\[ד\]|\[ה\]|\[ו\]|\[ז\]|\[ח\]|\[ט\]|\[י\]|\[כ\]|\[ל\]|\[מ\]|\[נ\]|\[ס\]|\[ע\]|\[פ\]|\[צ\]|\[ק\]|\[ר\]|\[ש\]|\[ת\])/us"," ",$bfile,-1,$rnum)) || $rnum!=22) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/ ENG Behold[^\n]+\n/us","\n",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -13056,6 +13080,7 @@ if (!($bfile = preg_replace("/\+/us"," ",$bfile,-1,$rnum)) || $rnum!=7) { AION_E
 if (!($bfile = preg_replace("/_/us"," ",$bfile,-1,$rnum)) || $rnum!=15) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/\{/us","(",$bfile,-1,$rnum)) || $rnum!=3) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/\}/us",")",$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/([A-Za-z]+)([\d]+,\s+\d+)/ui', '$1 $2',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 $textfix = <<<EOF
 1CH 6:78 Kwa wao pia walipewa, upande wa pili wa Yordani huko Yeriko, kwa upande wa mashariki mwa mto: Bezeri katika jangwa pamoja na nchi ya malisho, Yahzahi pamoja na nchi ya malisho,
@@ -13617,6 +13642,7 @@ goto RAWHIDE;
 case "Holy-Bible---Tagalog---Tagalog-Bible-Unlocked" :
 if (!($bfile = preg_replace("/ 18 Narinig/us"," Narinig",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("//us","",$bfile,-1,$rnum)) || $rnum!=24) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/([A-Za-z]+)([\d]+,\s+\d+)/ui', '$1 $2',$bfile,-1,$rnum)) || $rnum!=3) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 $textfix = <<<EOF
 1CH 8:17 Ito ang mga anak na lalaki ni Elpaal: sina Zebadias, Mesulam, Hizki, Heber,

@@ -6,7 +6,7 @@
 // This is also accomplished using javascript functions and onclick events
 // See the javascript functions, onclick events, and the abcms_href() function and usage.
 // EPUB
-$_Path = trim(strtok($_SERVER['REQUEST_URI'],'?'),'/');
+$_Path = $_Orig = trim(strtok($_SERVER['REQUEST_URI'],'?'),'/');
 if (!empty($_GET['e'])) {
 	if(!empty($_Path)) { abcms_notf(); }
 	require 'epub.php';
@@ -107,9 +107,6 @@ $modified = date("n/j/Y", filemtime("./index.php"));
 <a href='/TOR'			target='_blank' title='TOR/AionianBible'>		<img src='/images/Aionian-Bible-TOR.png' alt='TOR' title='Aionian Bible on The Onion Router network' /></a>
 <a href='/EmailNews'	target='_blank' title='EmailNews/AionianBible'>	<img src='/images/Aionian-Bible-Button-Your-Gift-Email-Newsletter.png' alt='EmailNews' title='Aionian Bible Gift and Newsletter' /></a>
 <a href='/Buy' title='Buy Aionian Bibles and T-Shirts'>					<img src='/images/Aionian-Bible-Button-Buy-Square.png' alt='Buy Bibles' title='Buy Aionian Bible in print' /></a>
-</div>
-<div id='icon-home'>
-<a href='/EmailNews'	target='_blank'	title='EmailNews/AionianBible'>	<img src='/images/Aionian-Bible-Button-Your-Gift-Email-Newsletter-Home.png' alt='EmailNews' title='Aionian Bible Gift and Newsletter' /></a>
 </div>
 <script>AionianBible_SwipeLinks('','');</script>
 <? abcms_jsonld(TRUE); ?>
@@ -1272,7 +1269,7 @@ else {
 	}
 }
 echo "</div>\n";
-echo "<div id='word-menu-bottom'>$menu</div>";
+echo "<div id='word-menu-bottom' class='always'>$menu</div>";
 echo "</div>\n";
 abcms_read_indx_line();
 abcms_tail();		
@@ -1354,7 +1351,7 @@ foreach( $bible_ALL as $bible => $version ) {
 	else {		echo "<div class='word-para-one allverses'><span class='word-text'>$verse_text</span></div>\n"; }
 }
 echo "<div>Verse Count = $count</div>\n";
-echo "<div id='word-menu-bottom'>$menu</div>";
+echo "<div id='word-menu-bottom' class='always'>$menu</div>";
 echo "</div>\n";
 abcms_tail();	
 }
@@ -1514,6 +1511,8 @@ static $editions_replace = array(
 	"<a href='javascript:void(0)' title='Uncial #32'>U32</a>",
 	"<a href='javascript:void(0)' title='Westcott/Hort'>WH</a>",
 	);
+//* M=modern - NA27 with NA28 spelling; T=traditional - TR corrected to KJV; O=other excepting Byz when it supports TR and including readings in ECM that differ from NA27
+//** All variants are included that have any difference in grammar. Spelling variations are not included unless they create a name that would be pronounced significantly differently.
 static $entry = array(
 	"NA=TR"	=> "Translated the same in modern Bibles (Nestle/Aland) and the KJV (Textus Receptus).",
 	"NA~TR"	=> "Translated differently in modern Bibles (Nestle/Aland) and the KJV (Textus Receptus).",
@@ -1522,6 +1521,18 @@ static $entry = array(
 	"KJV+"	=> "Translated in the KJV (Textus Receptus), but not in most modern Bibles (Nestle/Aland).",
 	"KJV++"	=> "Translated in the KJV (Textus Receptus) and in some modern Bibles (Nestle/Aland).",
 	"NATR?"	=> "Found in early manuscripts, but not translated in most Bibles.",
+	"M"			=> "Modern Bibles only, not KJV and other Bibles",
+	"MO"		=> "Modern and other Bibles, not KJV Bible",
+	"MT"		=> "Modern and KJV Bibles, not other Bibles",
+	"MTO"		=> "Modern, KJV, and other Bibles",
+	"MT(O)"		=> "Modern and KJV Bibles, variants in other Bibles",
+	"M(O)"		=> "Modern Bibles, variants in other Bibles, not KJV Bible",
+	"M(T)O"		=> "Modern and other Bibles, variants in KJV Bible",
+	"M(T)(O)"	=> "Modern Bibles, variants in KJV and other Bibles",
+	"O"			=> "Other Bibles only, not modern and KJV Bibles",
+	"T"			=> "KJV Bible only, not modern and other Bibles",
+	"TO"		=> "KJV and other Bibles only, not modern Bibles",
+	"T(O)"		=> "KJV Bible, variants in other Bibles, not modern bibles",
 	);
 // bald strongs
 $bald = substr($strongs,1);
@@ -1616,7 +1627,8 @@ echo
 	"<div class='strong-word".($book ? '' : ' notranslate')."'>$word</div>\n" .
 	"<div class='field-field'><div class='field-label'>Strongs:</div><div class='field-value word-footnote'>$SID</div></div>\n" .
 	(empty($lex_original)	? "" : "<div class='field-field'><div class='field-label'>Original:</div><div class='field-value word-footnote'>$lex_original</div></div>\n") .
-	(empty($underlying)		? "" : "<div class='field-field'><div class='field-label'>Word:</div><div class='field-value notranslate'>$underlying</div></div>\n") .
+	(empty($tag[10])		? "" : "<div class='field-field'><div class='field-label'>Word:</div><div class='field-value'>$tag[10]</div></div>\n") .	
+	(empty($underlying)		? "" : "<div class='field-field'><div class='field-label'>Lexicon:</div><div class='field-value notranslate'>$underlying</div></div>\n") .
 	"<div class='field-field'><div class='field-label'>Usage:</div><div class=field-value>$usage</div></div>\n" .
 	(empty($join)			? "" : "<div class='field-field'><div class='field-label'>Context:</div><div class='field-value'>$join</div></div>\n") .
 
@@ -1625,6 +1637,7 @@ echo
 	(empty($tag)			? "" : "<div id='ab-lexicon-$elementid' class='ab-lexicon'>\n") .
 	// Hebrew_Tagged_Text		= INDEX-0	BOOK-1	CHAPTER-2	VERSE-3	STRONGS-4	FLAG-5	MORPH-6	WORD-7	ENGLISH-8															PART-9	ADDITIONAL-10
 	// Greek_Tagged_Text		= INDEX-0	BOOK-1	CHAPTER-2	VERSE-3	STRONGS-4	FLAG-5	MORPH-6	WORD-7	ENGLISH-8	ENTRY-9	PUNC-10	EDITIONS-11	SPELLINGS-12	MEANINGS-13			ADDITIONAL-14	CONJOIN-15
+	// Greek_Tagged_Text		= INDEX-0	BOOK-1	CHAPTER-3	VERSE-3	STRONGS-4	FLAG-5	MORPH-7	WORD-7	ENGLISH-8	ENTRY-9	PUNC-10	EDITIONS-11	VARIATION1-12	VARIATION2-13		ADDITIONAL-14	CONJOIN-15
 	// Morphhology array('M'=>'Morphhology','U'=>'Explanation')
 	(empty($morphs['M'])	? "" : "<div class='field-field'><div class='field-label'>Morphhology:</div><div class='field-value'>".$morphs['M']."</div></div>\n") .
 	(empty($morphs['U'])	? "" : "<div class='field-field'><div class='field-label'>Grammar:</div><div class='field-value'>".$morphs['U']."</div></div>\n") .
@@ -1635,10 +1648,9 @@ echo
 	((empty($tag[10]) || $tag[10] == $word)									? "" : "<div class='field-field'><div class='field-label'>Additional:</div><div class='field-value'>$tag[10]</div></div>\n"))
 	: ("" .
 	(empty($tag[9])	|| empty($entry[$tag[9]])	? "" : "<div class='field-field'><div class='field-label'>Translators:</div><div class='field-value'>".$entry[$tag[9]]."</div></div>\n") .
-	//(empty($tag[10])		? "" : "<div class='field-field'><div class='field-label'>Punctuation:</div><div class='field-value'>$tag[10]</div></div>\n") .		
 	(empty($tag[11])		? "" : "<div class='field-field'><div class='field-label'>Editions:</div><div class='field-value'>$tag[11]</div></div>\n") .
-	((empty($tag[12]) || (!empty($underlying) && $tag[12] == $underlying))	? "" : "<div class='field-field'><div class='field-label'>Spellings:</div><div class='field-value'>$tag[12]</div></div>\n") .
-	(empty($tag[13])		? "" : "<div class='field-field'><div class='field-label'>Meanings:</div><div class='field-value'>$tag[13]</div></div>\n") .
+	(empty($tag[12])		? "" : "<div class='field-field'><div class='field-label'>Variation-1:</div><div class='field-value'>$tag[12]</div></div>\n") .
+	(empty($tag[13])		? "" : "<div class='field-field'><div class='field-label'>Variation-2:</div><div class='field-value'>$tag[13]</div></div>\n") .
 	((empty($tag[14]) || $tag[14] == $word)									? "" : "<div class='field-field'><div class='field-label'>Additional:</div><div class='field-value'>$tag[14]</div></div>\n") .
 	(empty($tag[15])		? "" : "<div class='field-field'><div class='field-label'>Conjoined:</div><div class='field-value'>$tag[15]</div></div>\n"))) .
 
@@ -1910,7 +1922,7 @@ echo "</div><div id='body' class=''>\n";
 
 /*** TAIL ***/
 function abcms_tail($good=TRUE) {
-global $_Path, $_Part, $_meta, $_BibleONE, $_BibleTWO, $_SwipePREV, $_SwipeNEXT;
+global $_Orig, $_Path, $_Part, $_meta, $_BibleONE, $_BibleTWO, $_SwipePREV, $_SwipeNEXT;
 // share urls from https://github.com/bradvin/social-share-urls
 $url = ($good ? urlencode(($url0=("https://www.AionianBible.org/".preg_replace('/\s+/', ' ',$_Path)))) : urlencode($url0="https://www.AionianBible.org"));
 $title = ($good ? urlencode(($title0=preg_replace('/\s+/', ' ',"Holy Bible Aionian Edition® $_meta"))) : urlencode($title0="Holy Bible Aionian Edition® ~ Homepage"));
@@ -1928,7 +1940,7 @@ $social .= "<a href='mailto:?subject=".preg_replace("/ /","%20","$title0&body=$u
 <div id='google_translate_element'></div>
 <div id='social-shares'>
 <?echo $social;?><BR />
-<a href='/EmailNews' target='_blank' title='EmailNews/AionianBible'><img src='/images/Aionian-Bible-Button-Your-Gift-Email-Newsletter.png' alt='EmailNews' title='Aionian Bible Gift and Newsletter' class='img25' /></a><a href='/Facebook' target='_blank' title='Facebook/AionianBible'><img src='/images/Aionian-Bible-Facebook.png' title='Aionian Bible on Facebook' class='img25' /></a><a href='/Twitter' target='_blank' title='Twitter/AionianBible'><img src='/images/Aionian-Bible-Twitter.png' title='Aionian Bible on Twitter' class='img25' /></a><a href='/LinkedIn' target='_blank' title='LinkedIn/AionianBible'><img src='/images/Aionian-Bible-LinkedIn.png' title='Aionian Bible on LinkedIn' class='img25' /></a><a href='/Instagram' target='_blank' title='Instagram/AionianBible'><img src='/images/Aionian-Bible-Instagram.png' title='Aionian Bible on Instagram' class='img25' /></a><a href='/Pinterest' target='_blank' title='Pinterest/AionianBible'><img src='/images/Aionian-Bible-Pinterest.png' alt='Pinterest' title='Aionian Bible on Pinterest' class='img25' /></a><a href='/YouTube' target='_blank' title='YouTube/AionianBible'>	<img src='/images/Aionian-Bible-Youtube.png' title='Aionian Bible on Youtube' class='img25' /></a><a href='/Google-Play' target='_blank' title='GooglePlay/AionianBible'><img src='/images/Aionian-Bible-GooglePlay.png' alt='GooglePlay' title='Aionian Bible on GooglePlay' class='img25' /></a><a href='/TOR' target='_blank' title='TOR/AionianBible'><img src='/images/Aionian-Bible-TOR.png' alt='TOR' title='Aionian Bible on The Onion Router network' class='img25' /></a><a href='/Buy' title='Buy Aionian Bibles and T-Shirts'><img src='/images/Aionian-Bible-Button-Buy-Square.png' title='Buy Aionian Bible in print' class='img25' /></a>
+<a href='/EmailNews' target='_blank' title='EmailNews/AionianBible'><img src='/images/Aionian-Bible-Button-Your-Gift-Email-Newsletter.png' alt='EmailNews' title='Aionian Bible Gift and Newsletter' class='img25' /></a><a href='/Facebook' target='_blank' title='Facebook/AionianBible'><img src='/images/Aionian-Bible-Facebook.png' title='Aionian Bible on Facebook' class='img25' /></a><a href='/Twitter' target='_blank' title='Twitter/AionianBible'><img src='/images/Aionian-Bible-Twitter.png' title='Aionian Bible on Twitter' class='img25' /></a><a href='/LinkedIn' target='_blank' title='LinkedIn/AionianBible'><img src='/images/Aionian-Bible-LinkedIn.png' title='Aionian Bible on LinkedIn' class='img25' /></a><a href='/Instagram' target='_blank' title='Instagram/AionianBible'><img src='/images/Aionian-Bible-Instagram.png' title='Aionian Bible on Instagram' class='img25' /></a><a href='/Pinterest' target='_blank' title='Pinterest/AionianBible'><img src='/images/Aionian-Bible-Pinterest.png' alt='Pinterest' title='Aionian Bible on Pinterest' class='img25' /></a><a href='/YouTube' target='_blank' title='YouTube/AionianBible'>	<img src='/images/Aionian-Bible-Youtube.png' title='Aionian Bible on Youtube' class='img25' /></a><a href='/Google-Play' target='_blank' title='GooglePlay/AionianBible'><img src='/images/Aionian-Bible-GooglePlay.png' alt='GooglePlay' title='Aionian Bible on GooglePlay' class='img25' /></a><a href='/TOR/<?echo $_Orig;?>' target='_blank' title='TOR/AionianBible'><img src='/images/Aionian-Bible-TOR.png' alt='TOR' title='Aionian Bible on The Onion Router network' class='img25' /></a><a href='/Buy' title='Buy Aionian Bibles and T-Shirts'><img src='/images/Aionian-Bible-Button-Buy-Square.png' title='Buy Aionian Bible in print' class='img25' /></a>
 </div>
 <script>function googleTranslateElementInit() { new google.translate.TranslateElement({pageLanguage: 'xx' }, 'google_translate_element'); }</script>
 <script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>

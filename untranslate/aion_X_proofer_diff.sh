@@ -29,7 +29,7 @@ foreach($files as $file) {
 $files = array_diff(scandir('../www-stageresources'), array('.', '..'));
 foreach($files as $file) {
 	if (!preg_match("#---Aionian-Edition\.pdf$#",$file)) { continue; }
-	//if (!preg_match("#(Aionian-Bible|Heart|Romani|World|Boyd)#",$file)) { continue; }
+	if (!preg_match("#(Oriya|Malayalam)#",$file)) { continue; } // skip some if needed
 
 	$revised = AION_PDF_PAGECOUNT("../www-stageresources/$file");
 	$current = AION_PDF_PAGECOUNT("../www-resources/$file");

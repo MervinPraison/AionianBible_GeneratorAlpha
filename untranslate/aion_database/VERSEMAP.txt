@@ -817,8 +817,6 @@ Holy-Bible---Malagasy---Malagasy-Bible	ZEC1-2
 Holy-Bible---Malayalam---Malayalam-Bible	DEU12-13
 Holy-Bible---Malayalam---Malayalam-Bible	DEU28-29
 Holy-Bible---Malayalam---Malayalam-Bible	SOL6-7
-Holy-Bible---Malayalam---Malayalam-Bible	ACT15
-Holy-Bible---Malayalam---Malayalam-Bible	ACT28
 Holy-Bible---Maori---Maori-Bible	NONE
 Holy-Bible---Marathi---Marathi-Bible	NONE
 Holy-Bible---Mwera---Mwera-Bible	NONE

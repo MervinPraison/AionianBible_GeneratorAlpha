@@ -1,6 +1,6 @@
 # File Name: TEXTREPAIR.txt
-# File Size: 13280       
-# File Date: 03/25/2023 14:20:14
+# File Size: 14261       
+# File Date: 04/21/2023 19:02:47
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2023
@@ -46,6 +46,10 @@ Holy-Bible---Kannada---Kannada-Bible	019	PSA	045	001	ಪ್ರಧಾನಗಾಯ
 Holy-Bible---Kannada---Kannada-Bible	019	PSA	046	001	ಪ್ರಧಾನಗಾಯಕನ ಕೀರ್ತನಸಂಗ್ರಹದಿಂದ ಆರಿಸಿಕೊಂಡದ್ದು; ಕೋರಹೀಯರ ಗೀತೆ; ತಾರಕಸ್ಥಾಯಿಯಲ್ಲಿ ಹಾಡತಕ್ಕದ್ದು. ದೇವರು ನಮಗೆ ಆಶ್ರಯದುರ್ಗವಾಗಿದ್ದಾನೆ; ಆತನು ಇಕ್ಕಟ್ಟಿನಲ್ಲಿ ನಮಗೆ ವಿಶೇಷ ಸಹಾಯಕನು.
 Holy-Bible---Latvian---Latvian-Gluck-Bible	002	EXO	023	030	Es pamazām tos izdzīšu tavā priekšā, tiekams tu pieaugsi un to zemi varēsi turēt.
 Holy-Bible---Latvian---Latvian-Gluck-Bible	038	ZEC	013	004	Un notiks tai dienā, ka pravieši kaunēsies ikviens par savu parādīšanu, to pasludināt, un vairs neapvilks spalvas mēteli uz meliem.
+Holy-Bible---Swahili---New-Swahili-Bible	004	NUM	016	049	Idadi ya wale waliokuwa wamekufa kwa tauni walikuwa 14, 000, nje na wale waliokufa kutokana na swala la Kora.
+Holy-Bible---Swahili---New-Swahili-Bible	011	1KI	012	021	Rehoboamu alipofika Yerusalemu, akawakusanya wote wa nyumba ya Yuda na kabila la Benjamini; walichaguliwa wanaume wanajeshi 180, 000 ili wapigane na nyumba ya Israeli, kwa lengo la kurudisha ufalme kwa Rehoboamu mwana wa Sulemani.
+Holy-Bible---Swahili---New-Swahili-Bible	012	2KI	019	035	Ikawa kuhusu usiku huo ambao malaika wa Yahwe alitoka na kuvamia kambi ya Waashuru, akawaua maaskari 185, 000. Kisha watu wakaamka asubuhi na mapema, miili ya watu waliokuwa wamekufa ilikuwa imelala kila mahali.
+Holy-Bible---Tagalog---Tagalog-Bible-Unlocked	007	JDG	020	025	Sa panagalawang araw, lumabas ang Benjamin laban sa kanila mula Gibea at pinatay nila ang 18, 000 kalalakihan mula sa bayan ng Israel. Lahat ay kalalakihan na tinuruang lumaban gamit ang espada.
 Holy-Bible---Ukrainian---Ukrainian-NT	040	MAT	001	023	Ось дїва матиме в утробі, і вродить сина, і дадуть йому імя Емануіл, що перекладом є: З нами Бог.
 Holy-Bible---Ukrainian---Ukrainian-NT	040	MAT	004	017	З того часу почав Ісус проповідувати й глаголати:  Покайтесь, наближилось бо царство небесне.
 Holy-Bible---Ukrainian---Ukrainian-NT	040	MAT	021	025	Хрещеннє Иоанове звідкіля було: з неба, чи від людей?  Вони ж міркували собі, говорячи: Коли скажемо: З неба, то скаже нам: Чом же ви не вірували йому?

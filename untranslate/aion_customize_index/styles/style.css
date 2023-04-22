@@ -70,8 +70,6 @@ a:hover { color: #9966CC; }
 .RegisteredTM { font-size: 75%; }
 #icon { padding: 0 0 15px 0; position: fixed; bottom: 0; right: 0; }
 #icon a { margin: 3px 15px 0 0; display: block; }
-#icon-home { padding: 0 0 15px 0; position: fixed; bottom: 0; left: 0; }
-#icon-home a { margin: 0 0 0 15px; display: block; }
 
 
 /*** HEAD ***/
@@ -150,6 +148,7 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 }
 @media screen and (min-width: 1280px) {
 	#word-menu-bottom { display: none; }
+	#word-menu-bottom.always { display: block; }
 }
 
 
@@ -325,12 +324,6 @@ div.captcha {
 	#logo2 { display: inline-block !important; float: left; }
 	#word-menu .crunch { display: none; }
 	#word-menu .word-book-name { font-size: 60% !important; }
-}
-@media screen and (max-width: 599px) {
-	#icon-home { display: none !important; }
-}
-@media screen and (max-height: 399px) {
-	#icon-home { display: none !important; }
 }
 
 /*** PRINT ***/

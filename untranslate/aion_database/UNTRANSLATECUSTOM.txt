@@ -693,6 +693,10 @@ Holy-Bible---Nepali---Nepali-Bible								NULL
 Holy-Bible---Norwegian---Norwegian-Bible								NULL
 Holy-Bible---Norwegian---Norwegian-Student-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Norwegian---Norwegian-Student-Bible								NULL
+Holy-Bible---Oriya---Oriya-Bible	053	2TH	001	009	SKIP			NULL
+Holy-Bible---Oriya---Oriya-Bible	053	2TH	001	010	AIONIAN	g166		NULL
+Holy-Bible---Oriya---Oriya-Bible	056	TIT	001	002	SKIP			NULL
+Holy-Bible---Oriya---Oriya-Bible	056	TIT	001	003	AIONIAN	g166		NULL
 Holy-Bible---Oriya---Oriya-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Oriya---Oriya-Bible								NULL
 Holy-Bible---Panjabi---Punjabi-Bible								NULL

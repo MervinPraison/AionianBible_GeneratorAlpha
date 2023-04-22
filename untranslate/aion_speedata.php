@@ -32,11 +32,12 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---([G-Z]+.*)---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aramaic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Portuguese-Trans-Trans).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Dombe|Nestle|Boyd|Tisch|Treg).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Oriya).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Oriya|Vietnamese).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aleppo|Scots).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic|Kannada|Myanmar|Oriya|Persian).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Gujarati|Aionian-Bible).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|New-Arabic|Version-Simplified).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|New-Arabic|Burmese-Common|Bulgarian|Basque|Japanese-Yougo|Uyghur-Bible-Pinyin|Sencillo-Bible|Chinese-Union-Version-Traditional).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(King-James-Version-Updated).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Myanmar-Burmese-Judson).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic|Nepali).*---Aionian-Edition\.noia$/",
@@ -731,6 +732,7 @@ $w_read		= trim(!empty($forprint['W_READ'])		? $forprint['W_READ']		: $default['
 $w_glos		= trim(!empty($forprint['W_GLOS'])		? $forprint['W_GLOS']		: $default['W_GLOS']		);
 $w_map		= trim(!empty($forprint['W_MAP'])		? $forprint['W_MAP']		: $default['W_MAP']			);
 $w_ilus		= trim(!empty($forprint['W_ILUS'])		? $forprint['W_ILUS']		: $default['W_ILUS']		);
+$w_dest		= trim(!empty($forprint['W_DESTINY'])	? $forprint['W_DESTINY']	: $default['W_DESTINY']		);
 $w_life		= trim(!empty($forprint['W_LIFE'])		? $forprint['W_LIFE']		: $default['W_LIFE']		);
 $w_lifex	= trim(!empty($forprint['W_LIFEX'])		? $forprint['W_LIFEX']		: $default['W_LIFEX']		);
 $w_worl		= trim(!empty($forprint['W_WORL'])		? $forprint['W_WORL']		: $default['W_WORL']		);
@@ -739,7 +741,6 @@ $w_aka		= trim(!empty($forprint['W_AKA'])		? $forprint['W_AKA']		: $default['W_A
 $w_purp		= trim(!empty($forprint['W_PURP'])		? $forprint['W_PURP']		: $default['W_PURP']		);
 $w_nudge	= trim(!empty($forprint['W_NUDGE'])		? $forprint['W_NUDGE']		: $default['W_NUDGE']		);
 $w_loff		= "Prepared for the Devil and his Angels";
-$w_dest		= "Destiny";
 // RTL EXTRAS
 $bidi_plain	= ($rtl=="TRUE" ? 'bidi="yes"' : '' );
 $bidi_center= ($rtl=="TRUE" ? 'bidi="yes" direction="rtl"' : '' );
@@ -890,13 +891,13 @@ if ($w_apdx == $default['W_APDX']) {
 	$w_app = "<Span language='English (USA)'><B><Value>$w_apdx</Value></B><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_dest</Value><Br /><Value>$w_ilus, Doré</Value></Span>";
 }
 else if ($rtl=="TRUE") {
-	$w_app = "<Span $langspeed><Fontface fontfamily='FF-TocF'><B><Value>$w_apdx</Value></B><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /></Fontface></Span><Span language='English (USA)'><Value>$w_dest</Value><Br /></Span><Span $langspeed><Fontface fontfamily='FF-TocF'><Value>$w_ilus</Value></Fontface></Span><Span language='English (USA)'><Value> Doré </Value></Span>";
+	$w_app = "<Span $langspeed><Fontface fontfamily='FF-TocF'><B><Value>$w_apdx</Value></B><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_dest</Value><Br /><Value>$w_ilus</Value></Fontface></Span><Span language='English (USA)'><Value> Doré </Value></Span>";
 }
 else if ($w_font=='FOREIGN') {
-	$w_app = "<Span $langspeed><Fontface fontfamily='FF-TocF'><B><Value>$w_apdx</Value></B><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /></Fontface></Span><Span language='English (USA)'><Value>$w_dest</Value></Span><Span $langspeed><Fontface fontfamily='FF-TocF'><Br /><Value>$w_ilus</Value></Fontface></Span><Span language='English (USA)'><Value>, Doré</Value></Span>";
+	$w_app = "<Span $langspeed><Fontface fontfamily='FF-TocF'><B><Value>$w_apdx</Value></B><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_dest</Value><Br /><Value>$w_ilus</Value></Fontface></Span><Span language='English (USA)'><Value>, Doré</Value></Span>";
 }
 else {
-	$w_app = "<Span $langspeed><B><Value>$w_apdx</Value></B><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /></Span><Span language='English (USA)'><Value>$w_dest</Value></Span><Span $langspeed><Br /><Value>$w_ilus</Value></Span><Span language='English (USA)'><Value>, Doré</Value></Span>";
+	$w_app = "<Span $langspeed><B><Value>$w_apdx</Value></B><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_dest</Value><Br /><Value>$w_ilus</Value></Span><Span language='English (USA)'><Value>, Doré</Value></Span>";
 }
 // fix pix verses
 $gen3_24 =
@@ -2847,10 +2848,14 @@ $loadfontfile = (
 // <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"notosansoriyaui-bold.ttf\" ><Fallback filename=\"liberationsansnarrow-bold.ttf\" /></LoadFontfile>
 // <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"notosansoriyaui-regular.ttf\" ><Fallback filename=\"liberationsansnarrow-italic.ttf\" /></LoadFontfile>
 // <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"notosansoriyaui-bold.ttf\" ><Fallback filename=\"liberationsansnarrow-bolditalic.ttf\" /></LoadFontfile>"
-"<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"notosansoriyaui-regular-plus.ttf\" />
- <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"notosansoriyaui-bold-plus.ttf\" />
- <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"notosansoriyaui-regular-plus.ttf\" />
- <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"notosansoriyaui-bold-plus.ttf\" />"
+//"<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"notosansoriyaui-regular-plus.ttf\" />
+// <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"notosansoriyaui-bold-plus.ttf\" />
+// <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"notosansoriyaui-regular-plus.ttf\" />
+// <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"notosansoriyaui-bold-plus.ttf\" />"
+"<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"notosansoriyaui-regular-plus.ttf\" ><Fallback filename=\"gentiumplus-r.ttf\" /></LoadFontfile>
+ <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"notosansoriyaui-bold-plus.ttf\" ><Fallback filename=\"gentiumplus-r.ttf\" /></LoadFontfile>
+ <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"notosansoriyaui-regular-plus.ttf\" ><Fallback filename=\"gentiumplus-i.ttf\" /></LoadFontfile>
+ <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"notosansoriyaui-bold-plus.ttf\" ><Fallback filename=\"gentiumplus-i.ttf\" /></LoadFontfile>"
 :
 // Panjabi
 ($font == "Panjabi" ?

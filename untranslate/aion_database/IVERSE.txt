@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 489660      
-# File Date: 03/25/2023 16:10:54
+# File Size: 489620      
+# File Date: 04/21/2023 20:41:33
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2023
@@ -1059,14 +1059,14 @@ Holy-Bible---Greek---Greek-Westcott-Hort	MAR-010-045	Κατα Μαρκον 10:45
 Holy-Bible---Greek---Greek-Westcott-Hort	ROM-001-001	Προς Ρωμαιους 1:1	παυλος δουλος {VAR1: ιησου χριστου } {VAR2: χριστου ιησου } κλητος αποστολος αφωρισμενος εις ευαγγελιον θεου
 Holy-Bible---Greek---Greek-Westcott-Hort	MAT-028-019	Κατα Ματθαιον 28:19	πορευθεντες ουν μαθητευσατε παντα τα εθνη βαπτιζοντες αυτους εις το ονομα του πατρος και του υιου και του αγιου πνευματος
 Holy-Bible---Gujarati---Gujarati-Bible	JOH-003-016	યોહાન ૩:૧૬	કેમ કે ઈશ્વરે માનવજગત પર એટલો બધો પ્રેમ કર્યો કે તેમણે પોતાનો એકનો એક દીકરો આપ્યો, એ સારુ કે જે કોઈ તેમના પર વિશ્વાસ કરે તેનો નાશ ન થાય પણ તે અનંતજીવન પામે.
-Holy-Bible---Gujarati---Gujarati-Bible	GEN-003-024	ઊત્પત્તિ ૩:૨૪	ઈશ્વરે તે માણસને વાડીમાંથી દૂર કર્યો અને જીવનના વૃક્ષની સીમાને સાચવવા તેમણે એદન વાડીની પૂર્વગમ અગ્નિરૂપી તરવાર સાથે કરુબોને ચોકીદાર તરીકે ગોઠવ્યા.
-Holy-Bible---Gujarati---Gujarati-Bible	LUK-023-034	લૂક ૨૩:૩૪	ઈસુએ કહ્યું, 'હે પિતા, તેઓને માફ કરો, કેમ કે તેઓ જે કરે છે તે તેઓ જાણતા નથી.'  ચિઠ્ઠીઓ નાખીને તેઓએ તેમના વસ્ત્ર અંદરોઅંદર વહેંચી લીધા.
-Holy-Bible---Gujarati---Gujarati-Bible	REV-021-002	પ્રકટીકરણ ૨૧:૨-૩	મેં પવિત્ર નગર, નવું યરુશાલેમ, ઈશ્વરની પાસેથી સ્વર્ગમાંથી ઊતરતું જોયું, અને જેમ કન્યા પોતાના વરને સારુ શણગારેલી હોય તેમ તે તૈયાર કરેલું હતું. રાજ્યાસનમાંથી મોટી વાણી એમ કહેતી મેં સાંભળી કે, 'જુઓ, ઈશ્વરનું રહેઠાણ માણસોની સાથે છે, અને ઈશ્વર તેઓની સાથે વસશે, અને તેઓ તેમના લોકો થશે, અને ઈશ્વર પોતે તેઓની સાથે રહીને તેઓના ઈશ્વર થશે.
+Holy-Bible---Gujarati---Gujarati-Bible	GEN-003-024	ઊત્પત્તિ ૩:૨૪	ઈશ્વરે તે માણસને વાડીમાંથી દૂર કર્યો અને જીવનના વૃક્ષની સીમાને સાચવવા તેમણે એદન વાડીની પૂર્વગમ અગ્નિરૂપી તલવાર સાથે કરુબોને ચોકીદાર તરીકે ગોઠવ્યા.
+Holy-Bible---Gujarati---Gujarati-Bible	LUK-023-034	લૂક ૨૩:૩૪	ઈસુએ કહ્યું, ‘હે પિતા, તેઓને માફ કરો, કેમ કે તેઓ જે કરે છે તે તેઓ જાણતા નથી.’  ચિઠ્ઠીઓ નાખીને તેઓએ તેમના વસ્ત્ર અંદરોઅંદર વહેંચી લીધા.
+Holy-Bible---Gujarati---Gujarati-Bible	REV-021-002	પ્રકટીકરણ ૨૧:૨-૩	મેં પવિત્ર નગર, નવું યરુશાલેમ, ઈશ્વરની પાસેથી સ્વર્ગમાંથી ઊતરતું જોયું, અને જેમ કન્યા પોતાના વરને સારુ શણગારેલી હોય તેમ તે તૈયાર કરેલું હતું. રાજ્યાસનમાંથી મોટી વાણી એમ કહેતી મેં સાંભળી કે, ‘જુઓ, ઈશ્વરનું રહેઠાણ માણસોની સાથે છે, અને ઈશ્વર તેઓની સાથે વસશે, અને તેઓ તેમના લોકો થશે, અને ઈશ્વર પોતે તેઓની સાથે રહીને તેઓના ઈશ્વર થશે.
 Holy-Bible---Gujarati---Gujarati-Bible	HEB-011-008	હિબ્રૂઓને પત્ર ૧૧:૮	ઇબ્રાહિમ જે જગ્યા વારસામાં પામવાનો હતો, તેમાં જવાને તેડું પામીને આજ્ઞાધીન થયો, એટલે પોતે ક્યાં જાય છે, એ ન જાણ્યાં છતાં વિશ્વાસથી તે રવાના થયો.
 Holy-Bible---Gujarati---Gujarati-Bible	EXO-013-017	નિર્ગમન ૧૩:૧૭	જ્યારે ફારુને લોકોને જવા દીઘા ત્યારે એમ બન્યું કે પલિસ્તીઓના દેશમાં થઈને જવાનો રસ્તો ટૂંકો હોવા છતાં પણ તે રસ્તે તેઓને લઈ ગયા નહિ.  કેમ કે યહોવાહે વિચાર્યું કે, “રખેને યુદ્ધ થાય અને લોકો પોતાનો વિચાર બદલી પાછા મિસર ચાલ્યા જાય.”
-Holy-Bible---Gujarati---Gujarati-Bible	MAR-010-045	માર્ક ૧૦:૪૫	કેમ કે માણસનો દીકરો સેવા કરાવવાને નહિ, પણ સેવા કરવાને, તથા ઘણાંનાં મુક્તિમૂલ્યને સારુ પોતાનો જીવ આપવાને આવ્યો છે.'
+Holy-Bible---Gujarati---Gujarati-Bible	MAR-010-045	માર્ક ૧૦:૪૫	કેમ કે માણસનો દીકરો સેવા કરાવવાને નહિ, પણ સેવા કરવાને, તથા ઘણાંનાં મુક્તિમૂલ્યને સારુ પોતાનો જીવ આપવાને આવ્યો છે.’”
 Holy-Bible---Gujarati---Gujarati-Bible	ROM-001-001	રોમનોને પત્ર ૧:૧	પ્રેરિત થવા સારુ તેડાયેલો અને ઈશ્વરની સુવાર્તા માટે અલગ કરાયેલો ઈસુ ખ્રિસ્તનો સેવક પાઉલ, રોમમાં રહેતા, ઈશ્વરના વહાલા અને પવિત્ર થવા સારુ પસંદ કરાયેલા સર્વ લોકોને લખે છે
-Holy-Bible---Gujarati---Gujarati-Bible	MAT-028-019	માથ્થી ૨૮:૧૯	એ માટે તમે જઈને સર્વ દેશનાઓને શિષ્ય કરો; પિતા તથા પુત્ર તથા પવિત્ર આત્માને નામે તેઓને બાપ્તિસ્મા આપતા જાઓ.
+Holy-Bible---Gujarati---Gujarati-Bible	MAT-028-019	માથ્થી ૨૮:૧૯	એ માટે તમે જઈને સર્વ દેશનાઓને શિષ્ય બનાવો; પિતા તથા પુત્ર તથા પવિત્ર આત્માને નામે તેઓને બાપ્તિસ્મા આપતા જાઓ.
 Holy-Bible---Haitian---Haitian-Creole-Bible	JOH-003-016	Jan 3:16	Paske, Bondye sitèlman renmen lèzòm li bay sèl Pitit li a pou yo.  Tout moun ki va mete konfyans yo nan li p'ap pedi lavi yo.  Okontrè y'a gen lavi ki p'ap janm fini an.
 Holy-Bible---Haitian---Haitian-Creole-Bible	GEN-003-024	Jenèz 3:24	Se konsa, li te mete Adan deyò.  Sou bò kote solèy leve nan jaden an, li mete kèk zanj cheriben ak yon manchèt klere kou dife nan men yo.  Yo t'ap dragonnen nan tout direksyon pou anpeche moun pwoche bò pyebwa ki bay lavi a.
 Holy-Bible---Haitian---Haitian-Creole-Bible	LUK-023-034	Lik 23:34	Jezi di: Papa, padonnen yo.  Yo pa konnen sa y'ap fè.  Sòlda yo tire osò pou separe rad li yo.
@@ -1121,14 +1121,14 @@ Holy-Bible---Hebrew---Modern-Hebrew-Bible	EXO-013-017	שמות 13:17	ויהי ב
 Holy-Bible---Hebrew---Modern-Hebrew-Bible	MAR-010-045	מארק 10:45	כי בן האדם אף הוא לא בא למען ישרתוהו כי אם לשרת ולתת את נפשו כפר תחת רבים׃
 Holy-Bible---Hebrew---Modern-Hebrew-Bible	ROM-001-001	אֶל־הָרוֹמִיִּים 1:1	פולוס עבד ישוע המשיח מקרא להיות שליח ונבדל לבשורת אלהים׃
 Holy-Bible---Hebrew---Modern-Hebrew-Bible	MAT-028-019	מתיו 28:19	לכו ועשו לתלמידים את כל הגוים וטבלתם אתם לשם האב והבן ורוח הקדש׃
-Holy-Bible---Hindi---Hindi-Bible	JOH-003-016	यूहन्ना ३:१६	“क्योंकि परमेश्‍वर ने जगत से ऐसा प्रेम रखा कि उसने अपना एकलौता पुत्र दे दिया, ताकि जो कोई उस पर विश्वास करे, वह नाश न हो, परन्तु अनन्त जीवन पाए।
+Holy-Bible---Hindi---Hindi-Bible	JOH-003-016	यूहन्ना ३:१६	“क्योंकि परमेश्वर ने जगत से ऐसा प्रेम रखा कि उसने अपना एकलौता पुत्र दे दिया, ताकि जो कोई उस पर विश्वास करे, वह नाश न हो, परन्तु अनन्त जीवन पाए।
 Holy-Bible---Hindi---Hindi-Bible	GEN-003-024	उत्पत्ति ३:२४	इसलिए आदम को उसने निकाल दिया और जीवन के वृक्ष के मार्ग का पहरा देने के लिये अदन की वाटिका के पूर्व की ओर करूबों को, और चारों ओर घूमनेवाली अग्निमय तलवार को भी नियुक्त कर दिया।
 Holy-Bible---Hindi---Hindi-Bible	LUK-023-034	लूका २३:३४	तब यीशु ने कहा, “हे पिता, इन्हें क्षमा कर, क्योंकि ये जानते नहीं कि क्या कर रहें हैं?”  और उन्होंने चिट्ठियाँ डालकर उसके कपड़े बाँट लिए।
-Holy-Bible---Hindi---Hindi-Bible	REV-021-002	प्रकाशित वाक्य २१:२-३	फिर मैंने पवित्र नगर नये यरूशलेम को स्वर्ग से परमेश्‍वर के पास से उतरते देखा, और वह उस दुल्हन के समान थी, जो अपने दुल्हे के लिये श्रृंगार किए हो। फिर मैंने सिंहासन में से किसी को ऊँचे शब्द से यह कहते हुए सुना, “देख, परमेश्‍वर का डेरा मनुष्यों के बीच में है; वह उनके साथ डेरा करेगा, और वे उसके लोग होंगे, और परमेश्‍वर आप उनके साथ रहेगा; और उनका परमेश्‍वर होगा।
+Holy-Bible---Hindi---Hindi-Bible	REV-021-002	प्रकाशित वाक्य २१:२-३	फिर मैंने पवित्र नगर नये यरूशलेम को स्वर्ग से परमेश्वर के पास से उतरते देखा, और वह उस दुल्हन के समान थी, जो अपने दुल्हे के लिये श्रृंगार किए हो। फिर मैंने सिंहासन में से किसी को ऊँचे शब्द से यह कहते हुए सुना, “देख, परमेश्वर का डेरा मनुष्यों के बीच में है; वह उनके साथ डेरा करेगा, और वे उसके लोग होंगे, और परमेश्वर आप उनके साथ रहेगा; और उनका परमेश्वर होगा।
 Holy-Bible---Hindi---Hindi-Bible	HEB-011-008	इब्रानियों ११:८	विश्वास ही से अब्राहम जब बुलाया गया तो आज्ञा मानकर ऐसी जगह निकल गया जिसे विरासत में लेनेवाला था, और यह न जानता था, कि मैं किधर जाता हूँ; तो भी निकल गया।
-Holy-Bible---Hindi---Hindi-Bible	EXO-013-017	निर्गमन १३:१७	जब फ़िरौन ने लोगों को जाने की आज्ञा दे दी, तब यद्यपि पलिश्तियों के देश में होकर जो मार्ग जाता है वह छोटा था; तो भी परमेश्‍वर यह सोचकर उनको उस मार्ग से नहीं ले गया कि कहीं ऐसा न हो कि जब ये लोग लड़ाई देखें तब पछताकर मिस्र को लौट आएँ।
+Holy-Bible---Hindi---Hindi-Bible	EXO-013-017	निर्गमन १३:१७	जब फ़िरौन ने लोगों को जाने की आज्ञा दे दी, तब यद्यपि पलिश्तियों के देश में होकर जो मार्ग जाता है वह छोटा था; तो भी परमेश्वर यह सोचकर उनको उस मार्ग से नहीं ले गया कि कहीं ऐसा न हो कि जब ये लोग लड़ाई देखें तब पछताकर मिस्र को लौट आएँ।
 Holy-Bible---Hindi---Hindi-Bible	MAR-010-045	मरकुस १०:४५	क्योंकि मनुष्य का पुत्र इसलिए नहीं आया, कि उसकी सेवा टहल की जाए, पर इसलिए आया, कि आप सेवा टहल करे, और बहुतों के छुटकारे के लिये अपना प्राण दे।”
-Holy-Bible---Hindi---Hindi-Bible	ROM-001-001	रोमियों १:१	पौलुस की ओर से जो यीशु मसीह का दास है, और प्रेरित होने के लिये बुलाया गया, और परमेश्‍वर के उस सुसमाचार के लिये अलग किया गया है
+Holy-Bible---Hindi---Hindi-Bible	ROM-001-001	रोमियों १:१	पौलुस की ओर से जो यीशु मसीह का दास है, और प्रेरित होने के लिये बुलाया गया, और परमेश्वर के उस सुसमाचार के लिये अलग किया गया है
 Holy-Bible---Hindi---Hindi-Bible	MAT-028-019	मत्ती २८:१९	इसलिए तुम जाकर सब जातियों के लोगों को चेला बनाओ; और उन्हें पिता, और पुत्र, और पवित्र आत्मा के नाम से बपतिस्मा दो,
 Holy-Bible---Hungarian---Hungarian-Karoli	JOH-003-016	János 3:16	Mert úgy szerette Isten e világot, hogy az ő egyszülött Fiát adta, hogy valaki hiszen ő benne, el ne vesszen, hanem örök élete legyen.
 Holy-Bible---Hungarian---Hungarian-Karoli	GEN-003-024	1 Mózes 3:24	És kiűzé az embert, és oda helyezteté az Éden kertjének keleti oldala felől a Kerúbokat és a villogó pallos lángját, hogy őrizzék az élet fájának útját.
@@ -1385,12 +1385,12 @@ Holy-Bible---Malagasy---Malagasy-Bible	MAT-028-019	Matio 28:19	koa mandehana ian
 Holy-Bible---Malayalam---Malayalam-Bible	JOH-003-016	യോഹന്നാൻ ൩:൧൬	തന്റെ ഏകജാതനായ പുത്രനിൽ വിശ്വസിക്കുന്ന ഏവനും നശിച്ചുപോകാതെ നിത്യജീവൻ പ്രാപിക്കേണ്ടതിന് ദൈവം അവനെ നല്കുവാൻ തക്കവണ്ണം ലോകത്തെ സ്നേഹിച്ചു.
 Holy-Bible---Malayalam---Malayalam-Bible	GEN-003-024	ഉല്പത്തി ൩:൨൪	ഇങ്ങനെ ദൈവം മനുഷ്യനെ ഇറക്കിവിട്ടു; ജീവന്റെ വൃക്ഷത്തിങ്കലേക്കുള്ള വഴി കാവൽചെയ്യുവാൻ അവിടുന്ന് ഏദെൻ തോട്ടത്തിന് കിഴക്ക് കെരൂബുകളെ എല്ലാ വശത്തേക്കും തിരിഞ്ഞുകൊണ്ടിരിക്കുന്ന ജ്വാലയുള്ള വാളുമായി നിർത്തി.
 Holy-Bible---Malayalam---Malayalam-Bible	LUK-023-034	ലൂക്കോസ് ൨൩:൩൪	അപ്പോൾ യേശു: പിതാവേ, ഇവർ ചെയ്യുന്നതു എന്താണെന്ന് അറിയാത്തതുകൊണ്ട് ഇവരോട് ക്ഷമിക്കേണമേ എന്നു പറഞ്ഞു.  പിന്നീട് അവർ അവന്റെ വസ്ത്രം പങ്കിടാനായി ചീട്ടിട്ടു.
-Holy-Bible---Malayalam---Malayalam-Bible	REV-021-002	വെളിപാട് ൨൧:൨-൩	ഭർത്താവിനായി അണിയിച്ചൊരുക്കിയ മണവാട്ടിയെപ്പോലെ പുതിയ യെരൂശലേം എന്ന വിശുദ്ധനഗരം സ്വർഗ്ഗത്തിൽ, ദൈവസന്നിധിയിൽനിന്ന് തന്നേ, ഇറങ്ങി വരുന്നത് ഞാൻ കണ്ട്. സിംഹാസനത്തിൽനിന്ന് ഒരു മഹാശബ്ദം പറയുന്നതായി ഞാൻ കേട്ടത്: ഇതാ, മനുഷ്യരോടു കൂടെ ദൈവത്തിന്റെ കൂടാരം; അവൻ അവരോടുകൂടെ വസിക്കും; അവർ അവന്റെ ജനമായിരിക്കും; ദൈവം താൻ തന്നെ അവരുടെ ദൈവമായി അവരോടുകൂടെ ഇരിക്കും.
-Holy-Bible---Malayalam---Malayalam-Bible	HEB-011-008	എബ്രായർ ൧൧:൮	വിശ്വാസത്താൽ അബ്രഹാം തനിക്കു അവകാശമായി കിട്ടുവാനിരുന്ന ദേശത്തേക്ക് പോകുവാനുള്ള വിളികേട്ടപ്പോൾ, അനുസരണത്തോടെ എവിടേക്ക് പോകുന്നു എന്നറിയാതെ പുറപ്പെട്ടു.
-Holy-Bible---Malayalam---Malayalam-Bible	EXO-013-017	പുറപ്പാട് ൧൩:൧൭	ഫറവോൻ ജനത്തെ വിട്ടയച്ച ശേഷം ഫെലിസ്ത്യരുടെ ദേശത്ത് കൂടിയുള്ള വഴി എളുപ്പമായിരുന്നു. എങ്കിലും ജനം യുദ്ധം കാണുമ്പോൾ അനുതപിച്ച് ഈജിപ്റ്റിലേയ്ക്ക് മടങ്ങിപ്പോകുമെന്ന് വിചാരിച്ച് ദൈവം അവരെ അതിലെ കൊണ്ടുപോയില്ല;
+Holy-Bible---Malayalam---Malayalam-Bible	REV-021-002	വെളിപാട് ൨൧:൨-൩	ഭർത്താവിനായി അണിയിച്ചൊരുക്കിയ മണവാട്ടിയെപ്പോലെ പുതിയ യെരൂശലേം എന്ന വിശുദ്ധനഗരം സ്വർഗ്ഗത്തിൽ, ദൈവസന്നിധിയിൽനിന്ന് തന്നേ, ഇറങ്ങി വരുന്നത് ഞാൻ കണ്ട്. സിംഹാസനത്തിൽനിന്ന് ഒരു മഹാശബ്ദം പറയുന്നതായി ഞാൻ കേട്ടത്: ഇതാ, മനുഷ്യരോടുകൂടെ ദൈവത്തിന്റെ കൂടാരം; അവൻ അവരോടുകൂടെ വസിക്കും; അവർ അവന്റെ ജനമായിരിക്കും; ദൈവം താൻതന്നെ അവരുടെ ദൈവമായി അവരോടുകൂടെ ഇരിക്കും.
+Holy-Bible---Malayalam---Malayalam-Bible	HEB-011-008	എബ്രായർ ൧൧:൮	വിശ്വാസത്താൽ അബ്രാഹാം തനിക്കു അവകാശമായി കിട്ടുവാനിരുന്ന ദേശത്തേക്ക് പോകുവാനുള്ള വിളികേട്ടപ്പോൾ, അനുസരണത്തോടെ എവിടേക്ക് പോകുന്നു എന്നറിയാതെ പുറപ്പെട്ടു.
+Holy-Bible---Malayalam---Malayalam-Bible	EXO-013-017	പുറപ്പാട് ൧൩:൧൭	ഫറവോൻ ജനത്തെ വിട്ടയച്ച ശേഷം ഫെലിസ്ത്യരുടെ ദേശത്ത് കൂടിയുള്ള വഴി എളുപ്പമായിരുന്നു.  എങ്കിലും ജനം യുദ്ധം കാണുമ്പോൾ അനുതപിച്ച് ഈജിപ്റ്റിലേയ്ക്ക് മടങ്ങിപ്പോകുമെന്ന് വിചാരിച്ച് ദൈവം അവരെ അതിലെ കൊണ്ടുപോയില്ല;
 Holy-Bible---Malayalam---Malayalam-Bible	MAR-010-045	മർക്കൊസ് ൧൦:൪൫	മനുഷ്യപുത്രൻ ശുശ്രൂഷ ചെയ്യിപ്പാനല്ല, ശുശ്രൂഷിപ്പാനും അനേകർക്കുവേണ്ടി തന്റെ ജീവനെ മറുവിലയായി കൊടുക്കുവാനും അത്രേ വന്നത്” എന്നു പറഞ്ഞു.
 Holy-Bible---Malayalam---Malayalam-Bible	ROM-001-001	റോമർ ൧:൧	ദൈവത്തിന്റെ പുത്രനും നമ്മുടെ കർത്താവായ യേശുക്രിസ്തുവിനെക്കുറിച്ചുള്ള ദൈവത്തിന്റെ സുവിശേഷം,
-Holy-Bible---Malayalam---Malayalam-Bible	MAT-028-019	മത്തായി ൨൮:൧൯	അതുകൊണ്ട് നിങ്ങൾ പോയി, സകലജാതികളെയും ശിഷ്യരാക്കുകയും, അവരെ പിതാവിന്റെയും പുത്രന്റെയും പരിശുദ്ധാത്മാവിന്റെയും നാമത്തിൽ സ്നാനംകഴിപ്പിക്കുകയും ചെയ്യുവിൻ.
+Holy-Bible---Malayalam---Malayalam-Bible	MAT-028-019	മത്തായി ൨൮:൧൯	അതുകൊണ്ട് നിങ്ങൾ പോയി, സകലജാതികളെയും ശിഷ്യരാക്കുകയും, അവരെ പിതാവിന്റെയും പുത്രന്റെയും പരിശുദ്ധാത്മാവിന്റെയും നാമത്തിൽ സ്നാനം കഴിപ്പിക്കുകയും ചെയ്യുവിൻ.
 Holy-Bible---Maori---Maori-Bible	JOH-003-016	Hoani 3:16	Koia ano te aroha o te Atua ki te ao, homai ana e ia tana Tama kotahi, kia kahore ai e ngaro te tangata e whakapono ana ki a ia, engari kia whiwhi ai ki te ora tonu.
 Holy-Bible---Maori---Maori-Bible	GEN-003-024	Kenehi 3:24	Heoi peia ana e ia te tangata; a whakanohoia ana ki te taha ki te rawhiti o te kari o Erene tetahi Kerupima, me tetahi hoari mura, he mea piupiu tonu ki tetahi taha, ki tetahi taha, hei tiaki i te huarahi ki te rakau o te ora.
 Holy-Bible---Maori---Maori-Bible	LUK-023-034	Ruka 23:34	Na ka mea a Ihu, E Pa, houhia te rongo ki a ratou: kahore hoki ratou e mohio ki ta ratou e mea nei.  A wehewehea ana ona kakahu e ratou he mea maka ki te rota.
@@ -1481,15 +1481,15 @@ Holy-Bible---Norwegian---Norwegian-Student-Bible	EXO-013-017	2 Mosebok 13:17	Då
 Holy-Bible---Norwegian---Norwegian-Student-Bible	MAR-010-045	Markus 10:45	For Menneskjesonen er’kje heller komen for å tenast, men for å tena og gjeva sitt liv til løysepening for mange.»
 Holy-Bible---Norwegian---Norwegian-Student-Bible	ROM-001-001	Romerne 1:1	Paulus, Jesu Kristi tenar, kalla til apostel, utkåra til å forkynna Guds evangelium,
 Holy-Bible---Norwegian---Norwegian-Student-Bible	MAT-028-019	Matteus 28:19	Gakk då ut, og gjer alle folki til læresveinar, med di de døyper deim til namnet åt Faderen og Sonen og den Heilage Ande,
-Holy-Bible---Oriya---Oriya-Bible	JOH-003-016	ଯୋହନ ୩:୧୬	କାରଣ ଈଶ୍ୱର ଜଗତକୁ ଏଡ଼େ ପ୍ରେମ କଲେ ଯେ, ସେ ଆପଣା ଅଦ୍ୱିତୀୟ ପୁତ୍ରଙ୍କୁ ଦାନ କଲେ, ଯେପରି ଯେ କେହି ତାହାଙ୍କଠାରେ ବିଶ୍ୱାସ କରେ, ସେ ବିନଷ୍ଟ ନ ହୋଇ ଅନନ୍ତ ଜୀବନ ପ୍ରାପ୍ତ ହୁଏ ।
-Holy-Bible---Oriya---Oriya-Bible	GEN-003-024	ମୋଶାଙ୍କ ଲିଖିତ ପ୍ରଥମ ପୁସ୍ତକ ୩:୨୪	ଏହିରୂପେ ସେ ଆଦମଙ୍କୁ ତଡ଼ି ଦେଲେ; ପୁଣି, ଅମୃତ ବୃକ୍ଷର ପଥ ରକ୍ଷା କରିବା ନିମିତ୍ତ ଏଦନ ଉଦ୍ୟାନର ପୂର୍ବଦିଗରେ କିରୂବଗଣ ଓ ଚତୁର୍ଦ୍ଦିଗରେ ଘୂର୍ଣ୍ଣାୟମାନ ତେଜୋମୟ ଖଡ୍ଗ ସ୍ଥାପନ କଲେ।
-Holy-Bible---Oriya---Oriya-Bible	LUK-023-034	ଲୂକ ୨୩:୩୪	ସେତେବେଳେ ଯୀଶୁ କହିଲେ, ପିତଃ, ଏମାନଙ୍କୁ କ୍ଷମା କର, କାରଣ ଏମାନେ କ'ଣ କରୁଅଛନ୍ତି, ତାହା ଜାଣନ୍ତି ନାହିଁ । ଆଉ ସେମାନେ ତାହାଙ୍କ ବସ୍ତ୍ରସବୁ ଭାଗ କରିବା ନିମନ୍ତେ ଗୁଲିବାଣ୍ଟ କଲେ ।
-Holy-Bible---Oriya---Oriya-Bible	REV-021-002	ପ୍ରକାଶିତ ୨୧:୨-୩	ପୁଣି, ମୁଁ ପବିତ୍ର ନଗରୀ, ଅର୍ଥାତ୍ ନୂତନ ଯିରୁଶାଲମକୁ ବର ନିମନ୍ତେ ସଜ୍ଜିତା କନ୍ୟାର ସଦୃଶ ପ୍ରସ୍ତୁତା ହୋଇ ସ୍ୱର୍ଗରୁ ଈଶ୍ୱରଙ୍କ ନିକଟରୁ ଅବତରଣ କରିବାର ଦେଖିଲି । ଆଉ ମୁଁ ସିଂହାସନ ମଧ୍ୟରୁ ଗୋଟିଏ ମହା ଶଦ୍ଦ ଏହା କହିବାର ଶୁଣିଲି, ଦେଖ, ମନୁଷ୍ୟମାନଙ୍କ ମଧ୍ୟରେ ଈଶ୍ୱରଙ୍କ ବାସସ୍ଥାନ ଅଛି, ସେ ସେମାନଙ୍କ ସହିତ ବାସ କରିବେ, ଆଉ ସେମାନେ ତାହାଙ୍କ ଲୋକ ହେବେ,
-Holy-Bible---Oriya---Oriya-Bible	HEB-011-008	ଏବ୍ରୀ ୧୧:୮	ବିଶ୍ୱାସ ଦ୍ୱାରା ଅବ୍ରହାମ ଆହ୍ୱାନ ପ୍ରାପ୍ତ ହୁଅନ୍ତେ, ଯେଉଁ ଦେଶ ସେ ଅଧିକାରସ୍ୱରୂପେ ପାଇବାକୁ ଯାଉଥିଲେ, ଆଜ୍ଞାବହ ହୋଇ ସେଠାକୁ ବାହାରିଗଲେ, ପୁଣି, ସେ କେଉଁଠାକୁ ଯାଉଅଛନ୍ତି, ତାହା ନ ଜାଣି ସୁଦ୍ଧା ବାହାରିଗଲେ ।
-Holy-Bible---Oriya---Oriya-Bible	EXO-013-017	ମୋଶାଙ୍କ ଲିଖିତ ଦ୍ୱିତୀୟ ପୁସ୍ତକ ୧୩:୧୭	ଏଥିଉତ୍ତାରେ ଫାରୋ ଲୋକମାନଙ୍କୁ ଯିବାକୁ ଦିଅନ୍ତେ, ପଲେଷ୍ଟୀୟ ଲୋକମାନଙ୍କର ଦେଶକୁ ଯିବାର ପଥ ନିକଟ ହେଲେ ହେଁ ପରମେଶ୍ୱର ସେହି ପଥରେ ସେମାନଙ୍କୁ ଗମନ କରାଇଲେ ନାହିଁ; ଯେହେତୁ ପରମେଶ୍ୱର କହିଲେ, “ଯେବେ ଲୋକମାନେ ଯୁଦ୍ଧ ଦେଖନ୍ତି ସେମାନେ ଆପଣା ଆପଣାର ମନକୁ ବଦଳାଇ ମିସରକୁ ଫେରିଯାଇ ପାରନ୍ତି।”
-Holy-Bible---Oriya---Oriya-Bible	MAR-010-045	ମାର୍କ ୧୦:୪୫	କାରଣ ମନୁଷ୍ୟପୁତ୍ର ମଧ୍ୟ ସେବା ପାଇବାକୁ ଆସି ନାହାଁନ୍ତି, ମାତ୍ର ସେବା କରିବାକୁ ଓ ଅନେକଙ୍କ ନିମନ୍ତେ ମୁକ୍ତିର ମୂଲ୍ୟ ସ୍ୱରୂପେ ଆପଣା ପ୍ରାଣ ଦେବାକୁ ଆସିଅଛନ୍ତି ।
-Holy-Bible---Oriya---Oriya-Bible	ROM-001-001	ରୋମୀୟ ୧:୧	ପାଉଲ, ଖ୍ରୀଷ୍ଟ ଯୀଶୁଙ୍କ ଦାସ ଓ ଆହୂତ ଜଣେ ପ୍ରେରିତ, ପୁଣି, ଈଶ୍ୱର ଆପଣା ପୁତ୍ର ଆମ୍ଭମାନଙ୍କ ପ୍ରଭୁ ଯୀଶୁଖ୍ରୀଷ୍ଟଙ୍କ ସମ୍ବନ୍ଧରେ ନିଜର ଯେଉଁ ସୁସମାଚାର ଧର୍ମଶାସ୍ତ୍ରରେ ଆପଣା ଭାବବାଦୀମାନଙ୍କ ଦ୍ୱାରା ପୂର୍ବରେ ପ୍ରତିଜ୍ଞା କରିଥିଲେ, ସେହି ସୁସମାଚାର ନିମନ୍ତେ ପୃଥକୀକୃତ,
-Holy-Bible---Oriya---Oriya-Bible	MAT-028-019	ମାଥିଉ ୨୮:୧୯	ଅତଏବ, ତୁମ୍ଭେମାନେ ଯାଇ ସମସ୍ତ ଜାତିର ଲୋକଙ୍କୁ ପିତା, ପୁତ୍ର ଓ ପବିତ୍ର ଆତ୍ମାଙ୍କ ନାମରେ ବାପ୍ତିସ୍ମ ଦେଇ,
+Holy-Bible---Oriya---Oriya-Bible	JOH-003-016	ଯୋହନ 3:16	କାରଣ ଈଶ୍ବର ଜଗତକୁ ଏଡ଼େ ପ୍ରେମ କଲେ ଯେ, ସେ ଆପଣା ଅଦ୍ୱିତୀୟ ପୁତ୍ରଙ୍କୁ ଦାନ କଲେ, ଯେପରି ଯେ କେହି ତାହାଙ୍କଠାରେ ବିଶ୍ୱାସ କରେ, ସେ ବିନଷ୍ଟ ନ ହୋଇ ଅନନ୍ତ ଜୀବନ ପ୍ରାପ୍ତ ହୁଏ।
+Holy-Bible---Oriya---Oriya-Bible	GEN-003-024	ମୋଶାଙ୍କ ଲିଖିତ ପ୍ରଥମ ପୁସ୍ତକ 3:24	ଏହିରୂପେ ସେ ଆଦମଙ୍କୁ ତଡ଼ିଦେଲେ; ପୁଣି, ଅମୃତ ବୃକ୍ଷର ପଥ ରକ୍ଷା କରିବା ନିମିତ୍ତ ଏଦନ ଉଦ୍ୟାନର ପୂର୍ବ ଦିଗରେ କିରୂବଗଣ ଓ ଚତୁର୍ଦ୍ଦିଗରେ ଘୂର୍ଣ୍ଣାୟମାନ ତେଜୋମୟ ଖଡ୍ଗ ସ୍ଥାପନ କଲେ।
+Holy-Bible---Oriya---Oriya-Bible	LUK-023-034	ଲୂକ 23:34	ସେତେବେଳେ ଯୀଶୁ କହିଲେ, “ପିତଃ, ଏମାନଙ୍କୁ କ୍ଷମା କର, କାରଣ ଏମାନେ କଅଣ କରୁଅଛନ୍ତି, ତାହା ଜାଣନ୍ତି ନାହିଁ।” ଆଉ ସେମାନେ ତାହାଙ୍କ ବସ୍ତ୍ରସବୁ ଭାଗ କରିବା ନିମନ୍ତେ ଗୁଲିବାଣ୍ଟ କଲେ।
+Holy-Bible---Oriya---Oriya-Bible	REV-021-002	ପ୍ରକାଶିତ 21:2-3	ପୁଣି, ମୁଁ ପବିତ୍ର ନଗରୀ, ଅର୍ଥାତ୍‍ ନୂତନ ଯିରୂଶାଲମ ସହରକୁ ବର ନିମନ୍ତେ ସଜ୍ଜିତା କନ୍ୟାର ସଦୃଶ ପ୍ରସ୍ତୁତ ହୋଇ ସ୍ୱର୍ଗରୁ ଈଶ୍ବରଙ୍କ ନିକଟରୁ ଅବତରଣ କରିବାର ଦେଖିଲି। ଆଉ ମୁଁ ସିଂହାସନ ମଧ୍ୟରୁ ଗୋଟିଏ ମହା ଶଦ୍ଦ ଏହା କହିବାର ଶୁଣିଲି, ଦେଖ, ମନୁଷ୍ୟମାନଙ୍କ ମଧ୍ୟରେ ଈଶ୍ବରଙ୍କ ବାସସ୍ଥାନ ଅଛି, ସେ ସେମାନଙ୍କ ସହିତ ବାସ କରିବେ, ଆଉ ସେମାନେ ତାହାଙ୍କ ଲୋକ ହେବେ,
+Holy-Bible---Oriya---Oriya-Bible	HEB-011-008	ଏବ୍ରୀ 11:8	ବିଶ୍ୱାସ ଦ୍ୱାରା ଅବ୍ରହାମ ଆହ୍ୱାନ ପ୍ରାପ୍ତ ହୁଅନ୍ତେ, ଯେଉଁ ଦେଶ ସେ ଅଧିକାରସ୍ୱରୂପେ ପାଇବାକୁ ଯାଉଥିଲେ, ଆଜ୍ଞାବହ ହୋଇ ସେଠାକୁ ବାହାରିଗଲେ, ପୁଣି, ସେ କେଉଁଠାକୁ ଯାଉଅଛନ୍ତି, ତାହା ନ ଜାଣି ସୁଦ୍ଧା ବାହାରିଗଲେ।
+Holy-Bible---Oriya---Oriya-Bible	EXO-013-017	ମୋଶାଙ୍କ ଲିଖିତ ଦ୍ୱିତୀୟ ପୁସ୍ତକ 13:17	ଏଥିଉତ୍ତାରେ ଫାରୋ ଲୋକମାନଙ୍କୁ ଯିବାକୁ ଦିଅନ୍ତେ, ପଲେଷ୍ଟୀୟ ଲୋକମାନଙ୍କର ଦେଶକୁ ଯିବାର ପଥ ନିକଟ ହେଲେ ହେଁ ପରମେଶ୍ୱର ସେହି ପଥରେ ସେମାନଙ୍କୁ ଗମନ କରାଇଲେ ନାହିଁ; ଯେହେତୁ ପରମେଶ୍ୱର କହିଲେ, “ଯେବେ ଲୋକମାନେ ଯୁଦ୍ଧ ଦେଖନ୍ତି ସେମାନେ ଆପଣା ଆପଣାର ମନକୁ ବଦଳାଇ ମିସରକୁ ଫେରିଯାଇ ପାରନ୍ତି।”
+Holy-Bible---Oriya---Oriya-Bible	MAR-010-045	ମାର୍କ 10:45	କାରଣ ମନୁଷ୍ୟପୁତ୍ର ମଧ୍ୟ ସେବା ପାଇବାକୁ ଆସି ନାହାନ୍ତି, ମାତ୍ର ସେବା କରିବାକୁ ଓ ଅନେକଙ୍କ ନିମନ୍ତେ ମୁକ୍ତିର ମୂଲ୍ୟ ସ୍ୱରୂପେ ଆପଣା ପ୍ରାଣ ଦେବାକୁ ଆସିଅଛନ୍ତି।”
+Holy-Bible---Oriya---Oriya-Bible	ROM-001-001	ରୋମୀୟ 1:1	ପାଉଲ, ଖ୍ରୀଷ୍ଟ ଯୀଶୁଙ୍କ ଦାସ ଓ ଆହୂତ ଜଣେ ପ୍ରେରିତ, ପୁଣି, ଈଶ୍ବର ଆପଣା ପୁତ୍ର ଆମ୍ଭମାନଙ୍କ ପ୍ରଭୁ ଯୀଶୁ ଖ୍ରୀଷ୍ଟଙ୍କ ସମ୍ବନ୍ଧରେ ନିଜର ଯେଉଁ ସୁସମାଚାର ଧର୍ମଶାସ୍ତ୍ରରେ ଆପଣା ଭାବବାଦୀମାନଙ୍କ ଦ୍ୱାରା ପୂର୍ବରେ ପ୍ରତିଜ୍ଞା କରିଥିଲେ, ସେହି ସୁସମାଚାର ନିମନ୍ତେ ପୃଥକୀକୃତ,
+Holy-Bible---Oriya---Oriya-Bible	MAT-028-019	ମାଥିଉ 28:19	ଅତଏବ, ତୁମ୍ଭେମାନେ ଯାଇ ସମସ୍ତ ଜାତିର ଲୋକଙ୍କୁ ପିତା, ପୁତ୍ର ଓ ପବିତ୍ର ଆତ୍ମାଙ୍କ ନାମରେ ବାପ୍ତିସ୍ମ ଦେଇ,
 Holy-Bible---Panjabi---Punjabi-Bible	JOH-003-016	ਯੂਹੰਨਾ ੩:੧੬	ਪਰਮੇਸ਼ੁਰ ਨੇ ਸੰਸਾਰ ਨੂੰ ਇੰਨ੍ਹਾਂ ਪਿਆਰ ਕੀਤਾ ਅਤੇ ਉਸ ਨੇ ਉਨ੍ਹਾਂ ਨੂੰ ਆਪਣਾ ਇੱਕਲੌਤਾ ਪੁੱਤਰ ਦੇ ਦਿੱਤਾ ਤਾਂ ਜੋ ਕੋਈ ਵੀ ਉਸ ਵਿੱਚ ਵਿਸ਼ਵਾਸ ਰੱਖੇ ਉਹ ਨਾਸ ਨਾ ਹੋਵੇ ਸਗੋਂ ਸਦੀਪਕ ਜੀਵਨ ਪ੍ਰਾਪਤ ਕਰੇ।
 Holy-Bible---Panjabi---Punjabi-Bible	GEN-003-024	ਉਤਪਤ ੩:੨੪	ਇਸ ਲਈ ਉਸ ਨੇ ਆਦਮ ਨੂੰ ਕੱਢ ਦਿੱਤਾ ਅਤੇ ਉਸ ਨੇ ਅਦਨ ਦੇ ਬਾਗ਼ ਦੇ ਪੂਰਬ ਵੱਲ ਦੂਤਾਂ ਨੂੰ ਅਤੇ ਚਾਰ ਚੁਫ਼ੇਰੇ ਘੁੰਮਣ ਵਾਲੀ ਅੱਗ ਦੀ ਤਲਵਾਰ ਨੂੰ ਰੱਖਿਆ ਤਾਂ ਜੋ ਓਹ ਜੀਵਨ ਦੇ ਰੁੱਖ ਦੇ ਰਾਹ ਦੀ ਰਾਖੀ ਕਰਨ।
 Holy-Bible---Panjabi---Punjabi-Bible	LUK-023-034	ਲੂਕਾ ੨੩:੩੪	ਤਦ ਯਿਸੂ ਨੇ ਆਖਿਆ, ਹੇ ਪਿਤਾ ਉਨ੍ਹਾਂ ਨੂੰ ਮਾਫ਼ ਕਰ ਕਿਉਂ ਜੋ ਉਹ ਨਹੀਂ ਜਾਣਦੇ ਜੋ ਇਹ ਕੀ ਕਰਦੇ ਹਨ ਅਤੇ ਉਨ੍ਹਾਂ ਉਸ ਦੇ ਕੱਪੜੇ ਗੁਣੇ ਪਾ ਕੇ ਵੰਡ ਲਏ।
@@ -1600,7 +1600,7 @@ Holy-Bible---Romani-Vlax---Chergash-Luke	ROM-001-001
 Holy-Bible---Romani-Vlax---Chergash-Luke	MAT-028-019		
 Holy-Bible---Romani-Vlax---Gurbet-Luke	JOH-003-016		
 Holy-Bible---Romani-Vlax---Gurbet-Luke	GEN-003-024		
-Holy-Bible---Romani-Vlax---Gurbet-Luke	LUK-023-034	Luka 23:34	A o Isus vaćarda: “Dade!  Oprosti lenđe, golese kaj ni džanen so ćeren.”  Thaj e vojnikura čhudije o kocka thaj ulade maškar peste leso fostano.
+Holy-Bible---Romani-Vlax---Gurbet-Luke	LUK-023-034	Luka 23:34	A o Isus vaćarda: “Dade!  Oprosti lenđe, golese kaj ni džanen so ćeren.”  Thaj e vojnikura čhudije i kocka thaj ulade maškar peste leso fostano.
 Holy-Bible---Romani-Vlax---Gurbet-Luke	REV-021-002		 
 Holy-Bible---Romani-Vlax---Gurbet-Luke	HEB-011-008		
 Holy-Bible---Romani-Vlax---Gurbet-Luke	EXO-013-017		
@@ -1697,7 +1697,7 @@ Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	EXO-013-017	Исход 1
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	MAR-010-045	От Марка святое благовествование 10:45	ибо Сын Человечь не прииде, да послужат Ему, но да послужит и даст душу Свою избавление за многи.
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	ROM-001-001	Послание к Римлянам 1:1	Павел, раб Иисус Христов, зван Апостол, избран в благовестие Божие,
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	MAT-028-019	От Матфея святое благовествование 28:19	шедше убо научите вся языки, крестяще их во имя Отца и Сына и Святаго Духа,
-Holy-Bible---Slovene---Slovene-Savli-Bible	JOH-003-016	Janez 3:16	Kajti Bog je tako ljubil svet, da je dal svojega edinorojenega Sina, da kdorkoli veruje vanj, ne bi umrl, temveč ima večno življenje.
+Holy-Bible---Slovene---Slovene-Savli-Bible	JOH-003-016	Janez 3:16	Kajti Bog je tako ljubil svet, da je dal svojega edinorojenega Sina, da se kdorkoli veruje vanj, ne bo pogubil, temveč bo imel večno življenje.
 Holy-Bible---Slovene---Slovene-Savli-Bible	GEN-003-024	1 Mojzes 3:24	Tako je izgnal človeka in na vzhodu edenskega vrta namestil kerube in ognjen meč, ki obrača vsako pot, da varuje pot do drevesa življenja.
 Holy-Bible---Slovene---Slovene-Savli-Bible	LUK-023-034	Luka 23:34	Potem je Jezus rekel: „Oče, odpusti jim, kajti ne vedo kaj delajo.“Oni pa so si razdelili njegova oblačila ter metali žrebe.
 Holy-Bible---Slovene---Slovene-Savli-Bible	REV-021-002	Razodetje 21:2-3	In jaz, Janez, sem videl sveto mesto, novi Jeruzalem, prihajati dol od Boga, iz nebes, pripravljeno kakor je nevesta okrašena za svojega soproga. In zaslišal sem močan glas z neba, rekoč: „Glej, šotorsko svetišče Boga je z ljudmi in prebival bo z njimi in oni bodo njegovi ljudje in sam Bog bo z njimi in bo njihov Bog.
