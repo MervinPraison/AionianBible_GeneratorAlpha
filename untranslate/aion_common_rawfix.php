@@ -13080,7 +13080,7 @@ if (!($bfile = preg_replace("/\+/us"," ",$bfile,-1,$rnum)) || $rnum!=7) { AION_E
 if (!($bfile = preg_replace("/_/us"," ",$bfile,-1,$rnum)) || $rnum!=15) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/\{/us","(",$bfile,-1,$rnum)) || $rnum!=3) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/\}/us",")",$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-if (!($bfile = preg_replace('/([A-Za-z]+)([\d]+,\s+\d+)/ui', '$1 $2',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/([A-Za-z]+)([\d]+,\s+\d+)/ui', '$1 $2',$bfile,-1,$rnum)) || $rnum!=3) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 $textfix = <<<EOF
 1CH 6:78 Kwa wao pia walipewa, upande wa pili wa Yordani huko Yeriko, kwa upande wa mashariki mwa mto: Bezeri katika jangwa pamoja na nchi ya malisho, Yahzahi pamoja na nchi ya malisho,
@@ -13642,7 +13642,7 @@ goto RAWHIDE;
 case "Holy-Bible---Tagalog---Tagalog-Bible-Unlocked" :
 if (!($bfile = preg_replace("/ 18 Narinig/us"," Narinig",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("//us","",$bfile,-1,$rnum)) || $rnum!=24) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-if (!($bfile = preg_replace('/([A-Za-z]+)([\d]+,\s+\d+)/ui', '$1 $2',$bfile,-1,$rnum)) || $rnum!=3) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/([A-Za-z]+)([\d]+,\s+\d+)/ui', '$1 $2',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 $textfix = <<<EOF
 1CH 8:17 Ito ang mga anak na lalaki ni Elpaal: sina Zebadias, Mesulam, Hizki, Heber,
