@@ -12385,13 +12385,6 @@ goto RAWHIDE;
 
 
 
-// RAWFIX BIBLE ********************
-case "Holy-Bible---Romani-Vlax---Chergash-Luke" :
-if (!($bfile = preg_replace("/LUK 23:130/us","LUK 23:13",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$bfile_saved = $bfile;
-goto RAWHIDE;
-
-
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Rote-Dela---Rote-Dela-Bible" :

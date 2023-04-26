@@ -33,7 +33,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Aramaic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Portuguese-Trans-Trans).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Savli).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Oriya|Vietnamese).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Traditional|Aionian-Bible|Oriya|Vietnamese).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aleppo|Scots).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic|Kannada|Myanmar|Oriya|Persian).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Gujarati|Aionian-Bible).*---Aionian-Edition\.noia$/",
@@ -667,7 +667,7 @@ function hyperlink(&$text, $notedlink="") {
 	}
 	$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Lake-of-Fire</Value></U>#",
 		"<A href='https://www.AionianBible.org/Lake-of-Fire'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Lake-of-Fire</Value></U></A>", $text);
-	// extra space added ABOVE to prevent overlap replace
+	// extra space added in all the ABOVE to prevent overlap replace following
 	$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value>#",
 		"<A href='https://www.AionianBible.org'><U><Value>AionianBible.or</Value></U><Value>g</Value></A>", $text);
 }
@@ -741,7 +741,6 @@ $w_free		= trim(!empty($forprint['W_FREE'])		? $forprint['W_FREE']		: $default['
 $w_aka		= trim(!empty($forprint['W_AKA'])		? $forprint['W_AKA']		: $default['W_AKA']			);
 $w_purp		= trim(!empty($forprint['W_PURP'])		? $forprint['W_PURP']		: $default['W_PURP']		);
 $w_nudge	= trim(!empty($forprint['W_NUDGE'])		? $forprint['W_NUDGE']		: $default['W_NUDGE']		);
-$w_loff		= "Prepared for the Devil and his Angels";
 // RTL EXTRAS
 $bidi_plain	= ($rtl=="TRUE" ? 'bidi="yes"' : '' );
 $bidi_center= ($rtl=="TRUE" ? 'bidi="yes" direction="rtl"' : '' );
@@ -837,7 +836,7 @@ $pref		= foreignlink($default['W_PREF'],	$w_pref,	"",		$w_font,	$langforeign,	$l
 $read		= foreignlink($default['W_READ'],	$w_read,	"",		$w_font,	$langforeign,	$langenglish,	$read,	$langspeed, $rtl);
 $glos1		= foreignlink($default['W_GLOS'],	$w_glos,	"",		$w_font,	$langforeign,	$langenglish,	$glos1,	$langspeed, $rtl);
 $glos3		= foreignlink($default['W_GLOS'],	$w_glos,	" +",	$w_font,	"",				$langenglish,	$glos3,	$langspeed, $rtl);
-$loff		= foreignlink($w_loff,				$w_loff,	"",		$w_font,	$langforeign,	$langenglish,	$loff,	$langspeed, $rtl);
+$loff		= foreignlink($default['W_DESTINY'],$w_dest,	"",		$w_font,	$langforeign,	$langenglish,	$loff,	$langspeed, $rtl);
 // add the PDF hyperlinks
 $bibleurl = preg_replace("/Holy-Bible---/","",$versions['BIBLE']);
 $link_tor = "<Value>TOR Anonymously</Value><Br />";
