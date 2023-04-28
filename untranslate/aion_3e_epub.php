@@ -148,15 +148,16 @@ EOF;
 	$G_VERSIONS['LANGUAGEHTML'] = (empty($G_VERSIONS['LANGUAGE']) || $G_VERSIONS['LANGUAGE']=="English" ? "" : "<span $csslan>".$G_VERSIONS['LANGUAGE']."</span> at ");
 	
 	// PREPARE Language Headings
-	$G_FORPRINT['W_PREF']	= (empty($G_FORPRINT['W_PREF'])	? "Preface"				: "Preface / <span $csshed>".$G_FORPRINT['W_PREF']."</span>");
-	$G_FORPRINT['W_OLD']	= (empty($G_FORPRINT['W_OLD'])	? "Old Testament"		: "Old Testament / <span $csshed>".$G_FORPRINT['W_OLD']."</span>");
-	$G_FORPRINT['W_NEW']	= (empty($G_FORPRINT['W_NEW'])	? "New Testament"		: "New Testament / <span $csshed>".$G_FORPRINT['W_NEW']."</span>");
-	$G_FORPRINT['W_TOC']	= (empty($G_FORPRINT['W_TOC'])	? "Table of Contents"	: "Table of Contents / <span $csshed>".$G_FORPRINT['W_TOC']."</span>");
-	$G_FORPRINT['W_APDX']	= (empty($G_FORPRINT['W_APDX'])	? "Appendix"			: "Appendix / <span $csshed>".$G_FORPRINT['W_APDX']."</span>");
-	$G_FORPRINT['W_READ']	= (empty($G_FORPRINT['W_READ'])	? "Reader's Guide"		: "Reader's Guide / <span $csshed>".$G_FORPRINT['W_READ']."</span>");
-	$G_FORPRINT['W_GLOS']	= (empty($G_FORPRINT['W_GLOS'])	? "Aionian Glossary"	: "Aionian Glossary / <span $csshed>".$G_FORPRINT['W_GLOS']."</span>");
-	$G_FORPRINT['W_MAP']	= (empty($G_FORPRINT['W_MAP'])	? "Maps"				: "Maps / <span $csshed>".$G_FORPRINT['W_MAP']."</span>");
-	$G_FORPRINT['W_ILUS']	= (empty($G_FORPRINT['W_ILUS'])	? "Illustrations"		: "Illustrations / <span $csshed>".$G_FORPRINT['W_ILUS']."</span>");
+	$G_FORPRINT['W_PREF']	= (empty($G_FORPRINT['W_PREF'])		? "Preface"				: "Preface / <span $csshed>".$G_FORPRINT['W_PREF']."</span>");
+	$G_FORPRINT['W_OLD']	= (empty($G_FORPRINT['W_OLD'])		? "Old Testament"		: "Old Testament / <span $csshed>".$G_FORPRINT['W_OLD']."</span>");
+	$G_FORPRINT['W_NEW']	= (empty($G_FORPRINT['W_NEW'])		? "New Testament"		: "New Testament / <span $csshed>".$G_FORPRINT['W_NEW']."</span>");
+	$G_FORPRINT['W_TOC']	= (empty($G_FORPRINT['W_TOC'])		? "Table of Contents"	: "Table of Contents / <span $csshed>".$G_FORPRINT['W_TOC']."</span>");
+	$G_FORPRINT['W_APDX']	= (empty($G_FORPRINT['W_APDX'])		? "Appendix"			: "Appendix / <span $csshed>".$G_FORPRINT['W_APDX']."</span>");
+	$G_FORPRINT['W_READ']	= (empty($G_FORPRINT['W_READ'])		? "Reader's Guide"		: "Reader's Guide / <span $csshed>".$G_FORPRINT['W_READ']."</span>");
+	$G_FORPRINT['W_GLOS']	= (empty($G_FORPRINT['W_GLOS'])		? "Aionian Glossary"	: "Aionian Glossary / <span $csshed>".$G_FORPRINT['W_GLOS']."</span>");
+	$G_FORPRINT['W_MAP']	= (empty($G_FORPRINT['W_MAP'])		? "Maps"				: "Maps / <span $csshed>".$G_FORPRINT['W_MAP']."</span>");
+	$G_FORPRINT['W_ILUS']	= (empty($G_FORPRINT['W_ILUS'])		? "Illustrations"		: "Illustrations / <span $csshed>".$G_FORPRINT['W_ILUS']."</span>");
+	$G_FORPRINT['W_DESTINY']= (empty($G_FORPRINT['W_DESTINY'])	? "Destiny"				: "Destiny / <span $csshed>".$G_FORPRINT['W_DESTINY']."</span>");
 	
 	// REMOVE any XML
 	$G_FORPRINT['JOH3_16']	= trim($G_FORPRINT['JOH3_16']);
@@ -936,8 +937,8 @@ $G_COMMENT
 <a href='https://www.aionianbible.org/YouTube'		target='_blank' title='YouTube/AionianBible'>	<img src='images/Aionian-Bible-Youtube.png'		alt='YouTube'	title='Aionian Bible on Youtube' /></a>
 <a href='https://www.aionianbible.org/Google-Play'	target='_blank' title='GooglePlay/AionianBible'><img src='images/Aionian-Bible-GooglePlay.png'	alt='GooglePlay' title='Aionian Bible on GooglePlay' /></a>
 <a href='https://www.aionianbible.org/TOR'			target='_blank' title='TOR/AionianBible'>		<img src='images/Aionian-Bible-TOR.png'			alt='TOR'		title='Aionian Bible on The Onion Router network' /></a>
-<a href='https://www.aionianbible.org/Buy'			target='_blank' title='Buy Aionian Bibles and T-Shirts'><img src='images/Aionian-Bible-Button-Buy-Square.png' alt='Buy Bibles' title='Buy Aionian Bible in print' /></a><br />
 <a href='https://www.aionianbible.org/EmailNews'	target='_blank'	title='EmailNews/AionianBible'><img src='images/Aionian-Bible-Button-Your-Gift-Email-Newsletter-Home.png' alt='EmailNews' title='Aionian Bible Gift and Newsletter' /></a>
+<a href='https://www.aionianbible.org/Buy'			target='_blank' title='Buy Aionian Bibles and T-Shirts'><img src='images/Aionian-Bible-Button-Buy-Square.png' alt='Buy Bibles' title='Buy Aionian Bible in print' /></a><br />
 </p>
 
 <p><a href='index.xhtml' title='Table of Contents'>TOC</a> / <a href='$epublink' target='_blank' title='Download this ePub'>Download this ePub!</a></p>
@@ -992,6 +993,7 @@ $W_NEW	= $G_FORPRINT['W_NEW'];
 $W_APDX	= $G_FORPRINT['W_APDX'];
 $W_READ	= $G_FORPRINT['W_READ'];
 $W_GLOS	= $G_FORPRINT['W_GLOS'];
+$W_DESTINY = $G_FORPRINT['W_DESTINY'];
 $intro_old = (empty($index_old) ? "" : "<li class='olhed'><a href='middle-gen.xhtml' title='View Old Testament'>$W_OLD</a></li>\n");
 $intro_new = (empty($index_new) ? "" : "<li class='olhed'><a href='middle-mat.xhtml' title='View New Testament'>$W_NEW</a></li>\n");
 $outro_new = (empty($index_new) ? "" : "<li class='olhed'><a href='middle-rev.xhtml' title='View New Testament conclusion'>New Jerusalem</a></li>\n");
@@ -1021,7 +1023,7 @@ $intro_old$index_old$intro_new$index_new$outro_new<li class='olend' value='1'><a
 <li class='olend'><a href='rear-2-glossary.xhtml' title='View Aionian Glossary'>$W_GLOS</a></li>
 <li class='olinA'><a href='rear-3-history-past.xhtml' title='View chart of history past'>History Past</a></li>
 <li class='oline'><a href='rear-4-history-future.xhtml' title='View chart of history future'>History Future</a></li>
-<li class='oline'><a href='rear-5-history-destiny.xhtml' title='View explanation of mankinds destiny'>Destiny</a></li>
+<li class='oline'><a href='rear-5-history-destiny.xhtml' title='View explanation of mankinds destiny'>$W_DESTINY</a></li>
 <li class='olinA' value='4'><a href='rear-5-map-abraham.xhtml' title='View map of Abrahams Journeys'>Abraham's Journeys</a></li>
 <li class='oline'><a href='rear-6-map-exodus.xhtml' title='View map of Israels Exodus'>Israel's Exodus</a></li>
 <li class='oline'><a href='rear-7-map-jesus.xhtml' title='View map of Jesus Journeys'>Jesus' Journeys</a></li>
@@ -1356,6 +1358,7 @@ return;
 // CREATE rear-5-history-destiny.xhtml
 function AION_EPUBY_REAR_5_HISTORY_DESTINY_XHTML($folder) {
 global $G_BOOKS, $G_NUMBERS, $G_VERSIONS, $G_FORPRINT, $G_UUID, $G_TITLE, $G_MODIFIED, $G_RTL, $G_COMMENT;
+$W_DESTINY = $G_FORPRINT['W_DESTINY'];
 $links = AION_EPUBY_LINKS();
 $languagehtml = $G_VERSIONS['LANGUAGEHTML'];
 $file = "$folder/rear-5-history-destiny.xhtml";
@@ -1366,12 +1369,12 @@ $G_COMMENT
 <head>
 <meta charset="utf-8" />
 <meta name='viewport' content='width=device-width,initial-scale=1'/>
-<title>$G_TITLE</title>
+<h2 class='title'>$W_DESTINY</h2>
 <link href='epub.css' rel='stylesheet' />
 </head>
 <body>
-<h2 class='title'>Prepared for the Devil and his Angels</h2>
-<p class='center'>$languagehtml<a href='https://www.AionianBible.org/Lake-of-Fire' target='_blank'>www.AionianBible.org/Lake-of-Fire</a></p>
+<h2 class='title'>$W_DESTINY</h2>
+<p class='center'>$languagehtml<a href='https://www.AionianBible.org/Destiny' target='_blank'>www.AionianBible.org/Destiny</a></p>
 
 <p>The Aionian Bible shows the location of ten special Greek and Hebrew <a href='rear-2-glossary.xhtml' title='Aionian Glossary'>Aionian Glossary</a> words to help us better understand God’s love for individuals and for all mankind, and the nature of after-life destinies. The underlying Hebrew and Greek words typically translated as <i>Hell</i> show us that there are not just two after-life destinies, Heaven or Hell.  Instead, there are a number of different locations, each with different purposes, different durations, and different inhabitants. Locations include 1) Old Testament <a href='rear-2-glossary.xhtml#h7585' title='Aionian Glossary h7585'><i>Sheol</i></a> and New Testament <a href='rear-2-glossary.xhtml#g86' title='Aionian Glossary g86'><i>Hadēs</i></a>, 2) <a href='rear-2-glossary.xhtml#g1067' title='Aionian Glossary g1067'><i>Geenna</i></a>,
 3) <a href='rear-2-glossary.xhtml#g5020' title='Aionian Glossary g5020'><i>Tartaroō</i></a>, 4) <a href='rear-2-glossary.xhtml#g12' title='Aionian Glossary g12'><i>Abyssos</i></a>, 5) <a href='rear-2-glossary.xhtml#g3041' title='Aionian Glossary g3041 g4442'><i>Limnē Pyr</i></a>, 6) {$links->X_PARADISE}, 7) {$links->X_NEWHEAVEN}, and 8) {$links->X_NEWEARTH}. So there is reason to review our conclusions about the destinies of redeemed mankind and fallen angels.</p>

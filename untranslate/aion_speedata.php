@@ -30,7 +30,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_pdfoo'	=> FALSE,	// TRUE = do One Online PDFs
 		'q_epubc'	=> TRUE,	// TRUE = do ePub covers
 		//'include'	=> "/Holy-Bible---([G-Z]+.*)---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Aramaic).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Modern-Hebrew-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Portuguese-Trans-Trans).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Savli).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Traditional|Aionian-Bible|Oriya|Vietnamese).*---Aionian-Edition\.noia$/",
@@ -665,8 +665,8 @@ function hyperlink(&$text, $notedlink="") {
 		$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Bibles/English---Aionian-Bible/Noted</Value></U>#",
 			"<A href='$notedlink'><U ><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Bibles/English---Aionian-Bible/Noted</Value></U></A>", $text);
 	}
-	$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Lake-of-Fire</Value></U>#",
-		"<A href='https://www.AionianBible.org/Lake-of-Fire'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Lake-of-Fire</Value></U></A>", $text);
+	$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Destiny</Value></U>#",
+		"<A href='https://www.AionianBible.org/Destiny'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Destiny</Value></U></A>", $text);
 	// extra space added in all the ABOVE to prevent overlap replace following
 	$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value>#",
 		"<A href='https://www.AionianBible.org'><U><Value>AionianBible.or</Value></U><Value>g</Value></A>", $text);

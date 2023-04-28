@@ -68,6 +68,8 @@ RewriteRule ^ https://www.amazon.com/Terms-Eternity-Ai%C3%B4nios-Classical-Chris
 RewriteCond %{REQUEST_URI} ^\/Wikipedia\-Timeline\-of\-Christian\-Missions$ [NC]
 RewriteRule ^ https://en.wikipedia.org/wiki/Timeline_of_Christian_missions [L,R=301]
 
+RewriteCond %{REQUEST_URI} ^\/Lake-of-Fire$ [NC]
+RewriteRule ^ /Destiny [L,R=301]
 RewriteCond %{REQUEST_URI} ^\/App$ [NC]
 RewriteRule ^ / [L,R=301]
 RewriteCond %{REQUEST_URI} ^\/Contact$ [NC,OR]
