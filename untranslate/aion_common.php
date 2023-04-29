@@ -5337,24 +5337,20 @@ EOT;
 			continue;
 		}
 		$output .= <<<EOT
-system("cat ../www-stageresources/$bible---Standard-Edition.noia | ".
-"sed -E -e 's/[[:space:]]+/\\\\n/g' | ".
-"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\\\w+)[[:space:][:punct:][:digit:]]*\\$/\\\\1/g' | ".
-"sort | ".
-"uniq ".
+system("cat ../www-stageresources/$bible---Source-Edition.noia | ".
+"perl -CS -pe 's/^#.*$/\\\\n/g' | ".
+"perl -CS -pe 's/[[:space:][:punct:]]+/\\\\n/g' | ".
+"perl -CS -pe 's/^[[:space:][:digit:]]*$/\\\\n/g' | ".
+"sort | uniq ".
 "> $folder/$bible.WORDS");
 
 EOT;
+		$extra = ($spell=="en" ? "--personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws" : "");
 		$output .= "system('wc -l $folder/$bible.WORDS');\n";
 		if ($spell!='WORDS') {
 			$output .= <<<EOT
-system("cat ../www-stageresources/$bible---Standard-Edition.noia | ".
-"sed -E -e 's/[[:space:]]+/\\\\n/g' | ".
-"sed -E -e 's/^[[:space:][:punct:][:digit:]]*(\\\\w+)[[:space:][:punct:][:digit:]]*\\$/\\\\1/g' | ".
-"sort | ".
-"uniq | ".
-"aspell -a --dont-suggest --dont-time --dont-guess --lang=$spell | ".
-"sed -E -e 's/# //g' -e 's/[[:space:][:punct:][:digit:]]*\\$//g' -e '/^[[:space:][:punct:][:digit:]]*\\$/d' ".
+system("cat $folder/$bible.WORDS | ".
+"aspell list --lang=$spell $extra ".
 "> $folder/$bible.$spell");
 
 EOT;
