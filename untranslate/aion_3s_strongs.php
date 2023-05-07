@@ -878,12 +878,15 @@ function AION_NEWSTRONGS_GET_PREP($file) {
 		$chap = sprintf('%03d', $ref[2]);
 		$vers = sprintf('%03d', $ref[3]);
 		// remove spaces from type field
-		$match[2] = preg_replace("#[\s\+]+#","",$match[2]);
+		$match[2] = preg_replace("#[\s\+]+#u","",$match[2]);
 		if ($match[2]=="M(T)(O)(O)") { $match[2]="M(T)(O)"; }
+		$match[2] = preg_replace("#\(M\)#u","m",$match[2]);
+		$match[2] = preg_replace("#\(T\)#u","t",$match[2]);
+		$match[2] = preg_replace("#\(O\)#u","o",$match[2]);
 		// reconstruct strongs and morph
 		$strongs = $morph = NULL;
-		$match[5] = preg_replace("#[\s¦]+#","",$match[5]);
-		$match[5] = preg_replace("#[\+]+#","+",$match[5]);
+		$match[5] = preg_replace("#[\s¦]+#u","",$match[5]);
+		$match[5] = preg_replace("#[\+]+#u","+",$match[5]);
 		$match[5] = mb_split("\+", $match[5]);
 		foreach($match[5] as $key => $part) {
 			$pieces = mb_split("=", $part);
@@ -897,8 +900,8 @@ function AION_NEWSTRONGS_GET_PREP($file) {
 		$morph = trim($morph,"+");
 		// construct dictionary and gloss
 		$dictionary = $gloss = NULL;
-		$match[6] = preg_replace("#[\s]+#","",$match[6]);
-		$match[6] = preg_replace("#[\+]+#","+",$match[6]);
+		$match[6] = preg_replace("#[\s]+#u","",$match[6]);
+		$match[6] = preg_replace("#[\+]+#u","+",$match[6]);
 		$match[6] = mb_split("\+", $match[6]);
 		foreach($match[6] as $key => $part) {
 			$pieces = mb_split("=", $part);
@@ -908,6 +911,10 @@ function AION_NEWSTRONGS_GET_PREP($file) {
 		}
 		$dictionary = trim($dictionary,"/");
 		$gloss = trim($gloss,"/");
+		// variant-1
+		$match[7] = preg_replace("#[ ]*[«»]{1}[\d]+:#u","",$match[7]);
+		// cojoined
+		$match[12] = preg_replace("#^[«»]{1}[\d]+:#u","",$match[12]);
 		// lay it out
 		$output .= "$book.$chap.$vers\t$match[1]\t$match[2]\t$match[3]\t$match[4]\t$strongs\t$morph\t$dictionary\t$gloss\t$match[7]\t$match[8]\t$match[9]\t$match[10]\t$match[11]\t$match[12]\n";
 	}
@@ -1779,7 +1786,7 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 
 		// TAGNT entry type
 		$entry = $line['TYPE'];
-		if (!preg_match('#^(M|MO|MT|MTO|MT\(O\)|M\(O\)|M\(T\)O|M\(T\)\(O\)|O|T|TO|T\(O\))$#', $entry)) {							AION_ECHO("ERROR! $newmess word type missing\n".print_r($line,TRUE)); }
+		if (!preg_match('#^(M|MO|MT|MTO|MTo|Mo|MtO|Mto|O|T|TO|To|tO)$#', $entry)) {							AION_ECHO("ERROR! $newmess word type missing\n".print_r($line,TRUE)); }
 
 		// PARSE REFERENCE
 		// 41_Mat.001.001	002
@@ -2509,14 +2516,14 @@ function AION_NEWSTRONGS_STEPBIBLE($hebtag,$hebdex,$heblex,$gretag,$gredex,$grel
 		// "MO" => "Modern and other Bibles, not KJV Bible",
 		// "MT" => "Modern and KJV Bibles, not other Bibles",
 		// "MTO" => "Modern, KJV, and other Bibles",
-		// "MT(O)" => "Modern and KJV Bibles, variants in other Bibles",
-		// "M(O)" => "Modern Bibles, variants in other Bibles, not KJV Bible",
-		// "M(T)O" => "Modern and other Bibles, variants in KJV Bible",
-		// "M(T)(O)" => "Modern Bibles, variants in KJV and other Bibles",
+		// "MTo" => "Modern and KJV Bibles, variants in other Bibles",
+		// "Mo" => "Modern Bibles, variants in other Bibles, not KJV Bible",
+		// "MtO" => "Modern and other Bibles, variants in KJV Bible",
+		// "Mto" => "Modern Bibles, variants in KJV and other Bibles",
 		// "O" => "Other Bibles only, not modern and KJV Bibles",
 		// "T" => "KJV Bible only, not modern and other Bibles",
 		// "TO" => "KJV and other Bibles only, not modern Bibles",
-		// "T(O)" => "KJV Bible, variants in other Bibles, not modern bibles",
+		// "To" => "KJV Bible, variants in other Bibles, not modern bibles",
 		if ($wtype==$last_wtype) {			$wtype_close = "";					$wtype_open = " "; }
 		else if ($wtype=="MTO") {			$wtype_close = " *$last_wtype)";	$wtype_open = " "; }
 		else  if ($last_wtype!="MTO") { 	$wtype_close = " *$last_wtype)";	$wtype_open = " (* "; }

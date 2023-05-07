@@ -965,9 +965,9 @@ function AION_TEXT_REPAIR($string,$errline,$bible,$trueifrawtext, &$textrepair,$
 		if (preg_match('/[(\[]{1}[ [:digit:]]+.{0,9}[)\]]{1}/ui',$string)) {	AION_ECHO("WARNING!!! BRACKET PROBLEM! $errline:\t$string"); }
 	}
 	// spaces
-	$string = preg_replace('/([.?!]{1}[\'"”’]*)[ ]+/ui', '$1  ', $string);				// two space after if any spaces
+	//$string = preg_replace('/([.?!]{1}[\'"”’]*)[ ]+/ui', '$1  ', $string);				// two space after if any spaces
 	if ("Holy-Bible---Coptic---Coptic-NT"!=$bible) {
-		$string = preg_replace('/([^.]{1})([.?!]{1})([[:upper:]]{1})/u', '$1$2  $3', $string); // two spaces if no spaces before uppercase!
+		$string = preg_replace('/([^.]{1})([.?!]{1})([[:upper:]]{1})/u', '$1$2 $3', $string); // space if no space before uppercase!
 	}
 	if ("Holy-Bible---Arabic---Arabic-Van-Dyck-Bible"!=$bible &&
 		"Holy-Bible---Armenian---Armenian-Bible-Eastern"!=$bible &&
@@ -3084,11 +3084,11 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-4929597;
 	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-47698;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-258;
-	$grandmarker['LONG']		= $grandtotal['LONG']-885;
+	$grandmarker['LONG']		= $grandtotal['LONG']-858;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-0;
 	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-2055;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-912;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-13607;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-13608;
 	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-10849;
 	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-8250;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-710;

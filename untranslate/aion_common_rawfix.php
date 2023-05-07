@@ -11576,11 +11576,7 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Panjabi---Punjabi-Bible" :
-$bigfix = <<<EOF
-JOB 41:1 “ਕੀ ਤੂੰ ਲਿਵਯਾਥਾਨ ਨੂੰ ਕੁੰਡੀ ਨਾਲ ਬਾਹਰ ਖਿੱਚ ਸਕਦਾ ਹੈਂ, ਜਾਂ ਡੋਰੀ ਨਾਲ ਉਹ ਦੀ ਜੀਭ ਨੂੰ ਦਬਾ ਸਕਦਾ ਹੈਂ?
-JOB 41:2 
-EOF;
-if (!($bfile = preg_replace("/JOB 41:1 (.+?)JOB 41:2 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/b/us",'',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bigfix = <<<EOF
 HEB 7:20 ਅਤੇ ਮਸੀਹ ਦੀ ਨਿਯੁਕਤੀ ਬਿਨ੍ਹਾਂ ਸਹੁੰ ਖਾਧੇ ਨਹੀਂ ਹੋਈ, ਕਿਉਂ ਜੋ ਉਹ ਬਿਨ੍ਹਾਂ ਸਹੁੰ ਖਾਧੇ ਜਾਜਕ ਬਣੇ ਹਨ
 HEB 7:21 ਪਰ ਇਹ ਸਹੁੰ ਖਾਣ ਨਾਲ ਉਸ ਤੋਂ ਬਣਿਆ ਜਿਸ ਨੇ ਉਸ ਨੂੰ ਆਖਿਆ, ਪ੍ਰਭੂ ਨੇ ਸਹੁੰ ਖਾਧੀ, ਅਤੇ ਉਹ ਨਹੀਂ ਬਦਲੇਗਾ, ਤੂੰ ਸਦਾ ਤੱਕ ਦਾ ਜਾਜਕ ਹੈਂ।
