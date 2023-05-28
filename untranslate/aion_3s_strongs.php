@@ -20,8 +20,8 @@ $SAVETHECOUNTCHECKER = FALSE;
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // FILENAMES and README
 // folders
-$FOLDER_SOURCE = "../STEPBible-Data-master/";
-//$FOLDER_SOURCE = "../STEPBible-Data-master-production/";
+//$FOLDER_SOURCE = "../STEPBible-Data-master/";
+$FOLDER_SOURCE = "../STEPBible-Data-master-production/";
 $FOLDER_STAGE = "../www-stage/library/stepbible/";
 
 // input
@@ -56,6 +56,7 @@ $CHECK_HTML = "CHECK_HTML_GREEK_TFLSJ.htm";
 $CHECK_HTMH = "CHECK_HTML_HEBREW_TBESH.htm";
 $CHECK_MISS = "CHECK_MISSING.txt";
 $CHECK_MORF = "CHECK_MORPHS.txt";
+$CHECK_MORA = "CHECK_MORPHS_ALL.txt";
 $CHECK_REFS = "CHECK_REFERENCES.txt";
 $CHECK_STRG = "CHECK_STRONGS.txt";
 $CHECK_UGRE = "CHECK_UNUSED_GREEK_TBESG.txt";
@@ -95,9 +96,9 @@ $GREEK_USAGE_DATA = "Greek_Chapter_Usage.txt";
 $GREEK_USAGE_INDX = "Greek_Chapter_Usage_Index.json";
 $GREEK_CHAPS_DATA = "Greek_Chapter_Usage";
 // bible
-$STEPBIBLE_AMA = "../source-stage/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt";
-$STEPBIBLE_CON = "../source-stage/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt";
-$STEPBIBLE_NUM = "../source-stage/Holy-Bible---English---STEPBible-StrongsNum---Source-Edition.STEP.txt";
+$STEPBIBLE_AMA = "../STEPBible-Data-master/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt";
+$STEPBIBLE_CON = "../STEPBible-Data-master/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt";
+$STEPBIBLE_NUM = "../STEPBible-Data-master/Holy-Bible---English---STEPBible-StrongsNum---Source-Edition.STEP.txt";
 
 
 // PREPARE THE STAGE
@@ -385,6 +386,7 @@ $commentplus = <<<EOT
 
 EOT;
 AION_FILE_DATA_PUT("$FOLDER_STAGE$HEBREW_TBESH_DATA", $database['HEBLEX'], $commentplus);
+AION_NEWSTRONGS_LEX_MORPH_LEX($database['HEBLEX']);
 AION_ECHO("HEBREW $FOLDER_STAGE$HEBREW_TBESH_DATA ROWS=".count($database['HEBLEX']));
 AION_NEWSTRONGS_FIX_REF_HEBREW($database['HEBRF1'],'TOTHT',$database, $database['HEBLEX'], $database['HEBMOR']);	AION_unset($database['HEBRF1']);
 AION_NEWSTRONGS_FIX_REF_HEBREW($database['HEBRF2'],'TOTHT',$database, $database['HEBLEX'], $database['HEBMOR']);	AION_unset($database['HEBRF2']);
@@ -452,21 +454,23 @@ AION_ECHO("HEBREW $FOLDER_STAGE$HEBREW_TBESH_INDX");
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // TYNDALE GREEK READ
 AION_NEWSTRONGS_COD( "$INPUT_TEGMC",'GREMOR', $database, TRUE);
-AION_NEWSTRONGS_GET( "$INPUT_TBESG",'G0001	G0001 =	G0001	Ἀλφα',	NULL, 'GRELEX',
-	array('STRONGS','','','WORD','TRANS','MORPH','GLOSS','DEF'),
-	array('STRONGS','','','WORD','TRANS','','GLOSS','DEF'), "$FOLDER_STAGE$CHECK_EGLX",
-	$GRELEX=array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF'),
+AION_NEWSTRONGS_GET( "$INPUT_TBESG",'G0001	G0001G =	G0001G	α, Ἀλφα',	NULL, 'GRELEX',
+	array('STRONGS','STRONGU','STRONGD','WORD','TRANS','MORPH','GLOSS','DEF'),
+	array('STRONGS','STRONGU','STRONGD','WORD','TRANS','','GLOSS','DEF'), "$FOLDER_STAGE$CHECK_EGLX",
+	array('STRONGS','WORD','TRANS','GLOSS','MORPH','STRONGU','STRONGD','DEF'),
 	'STRONGS', $database);
-AION_NEWSTRONGS_GET( "$INPUT_TFLS1",'G0001	G0001 =	G0001	Ἀλφα',	NULL, 'GRELSJ',
-	array('STRONGS','','','WORD','TRANS','MORPH','GLOSS','DEF'),
-	array('STRONGS','','','WORD','TRANS','','GLOSS','DEF'), "$FOLDER_STAGE$CHECK_ELSJ",
-	$GRELSJ=array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF'),
+AION_NEWSTRONGS_GET_UD('GRELEX', $database);
+AION_NEWSTRONGS_GET( "$INPUT_TFLS1",'G0001	G0001G =	G0001G	α, Ἀλφα',	NULL, 'GRELSJ',
+	array('STRONGS','STRONGU','STRONGD','WORD','TRANS','MORPH','GLOSS','DEF'),
+	array('STRONGS','STRONGU','STRONGD','WORD','TRANS','','GLOSS','DEF'), "$FOLDER_STAGE$CHECK_ELSJ",
+	array('STRONGS','WORD','TRANS','GLOSS','MORPH','STRONGU','STRONGD','DEF'),
 	'STRONGS', $database);
 AION_NEWSTRONGS_GET( "$INPUT_TFLS2",'G6000	G6000 =	G6000	ἀγγέλλω',NULL, 'GRELSJ',
-	array('STRONGS','','','WORD','TRANS','MORPH','GLOSS','DEF'),
-	array('STRONGS','','','WORD','TRANS','','GLOSS','DEF'), "$FOLDER_STAGE$CHECK_ELSJ",
-	$GRELSJ=array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF'),
+	array('STRONGS','STRONGU','STRONGD','WORD','TRANS','MORPH','GLOSS','DEF'),
+	array('STRONGS','STRONGU','STRONGD','WORD','TRANS','','GLOSS','DEF'), "$FOLDER_STAGE$CHECK_ELSJ",
+	array('STRONGS','WORD','TRANS','GLOSS','MORPH','STRONGU','STRONGD','DEF'),
 	'STRONGS', $database);
+AION_NEWSTRONGS_GET_UD('GRELSJ', $database);
 AION_NEWSTRONGS_GET_PREP("$INPUT_TAGN1");
 AION_NEWSTRONGS_GET_PREP("$INPUT_TAGN2");
 AION_NEWSTRONGS_GET( "$INPUT_TAGX1", NULL, NULL, 'GREREF1',
@@ -488,14 +492,14 @@ AION_NEWSTRONGS_GET( "$INPUT_TAGX1", NULL, NULL, 'GREREF1',
 //Mat.001.001	02	M + T + O	γενέσεως (geneseōs)	of [the] genealogy	G1078=N-GSF	γένεσις=origin	NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz			de origen	origin	
 //Mat.001.001	03	M + T + O	Ἰησοῦ (Iēsou)	of Jesus	G2424G=N-GSM-P	Ἰησοῦς=Jesus/Joshua	NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz			de Jesús	Jesus»Jesus|Jesus@Mat.1.1	
 //Mat.001.001	04	M + T + O	Χριστοῦ (Christou)	Christ	G5547=N-GSM-T	Χριστός=Christ	NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz			Ungido	Christ»Christ|Jesus@Mat.1.1	
-	array('REF','','TYPE','WORD','ENGLISH','STRONGS','MORPH','DICTIONARY','GLOSS','EDITIONS','VARIATION1','VARIATION2','','ADDITIONAL','CONJOIN'),
+	array('REF','','TYPE','WORD','ENGLISH','STRONGS','MORPH','DICTIONARY','GLOSS','EDITIONS','VARIATION1','VARIATION2','','ADDITIONAL','CONJOIN','OCCUR','ALT'),
 	array('REF','','TYPE','WORD','ENGLISH','STRONGS','MORPH','DICTIONARY','GLOSS','EDITIONS','','','','','','',''), "$FOLDER_STAGE$CHECK_EGTG",
 	NULL,
 	NULL, $database);
 AION_NEWSTRONGS_GET( "$INPUT_TAGX2", NULL, NULL, 'GREREF2',
 //	array('REF','TYPE','WORD','ENGLISH','STRONGS','MORPH','','','EDITIONS','SPELLINGS','MEANINGS','','ADDITIONAL','','CONJOIN',''),
 //	array('REF','TYPE','WORD','ENGLISH','STRONGS','MORPH','','','EDITIONS','SPELLINGS','','','','','',''), "$FOLDER_STAGE$CHECK_EGTG",
-	array('REF','','TYPE','WORD','ENGLISH','STRONGS','MORPH','DICTIONARY','GLOSS','EDITIONS','VARIATION1','VARIATION2','','ADDITIONAL','CONJOIN'),
+	array('REF','','TYPE','WORD','ENGLISH','STRONGS','MORPH','DICTIONARY','GLOSS','EDITIONS','VARIATION1','VARIATION2','','ADDITIONAL','CONJOIN','OCCUR','ALT'),
 	array('REF','','TYPE','WORD','ENGLISH','STRONGS','MORPH','DICTIONARY','GLOSS','EDITIONS','','','','','','',''), "$FOLDER_STAGE$CHECK_EGTG",
 	NULL,
 	NULL, $database);
@@ -550,6 +554,7 @@ $commentplus = <<<EOT
 
 EOT;
 AION_FILE_DATA_PUT("$FOLDER_STAGE$GREEK_TBESG_DATA", $database['GRELEX'], $commentplus);
+AION_NEWSTRONGS_LEX_MORPH_LEX($database['GRELEX']);
 AION_ECHO("GREEK $FOLDER_STAGE$GREEK_TBESG_DATA ROWS=".count($database['GRELEX']));
 AION_NEWSTRONGS_GET_FIX_LEX('TFLSJ', $database['GRELSJ'], $database, $database['GREMOR'],"$FOLDER_STAGE$CHECK_HTML");
 AION_unset($database['VIZLEX']);
@@ -597,6 +602,7 @@ $commentplus = <<<EOT
 
 EOT;
 AION_FILE_DATA_PUT("$FOLDER_STAGE$GREEK_TFLSJ_DATA", $database['GRELSJ'], $commentplus);
+AION_NEWSTRONGS_LEX_MORPH_LEX($database['GRELSJ']);
 AION_ECHO("GREEK $FOLDER_STAGE$GREEK_TFLSJ_DATA ROWS=".count($database['GRELSJ']));
 AION_NEWSTRONGS_FIX_REF_GREEK($database['GREREF1'],'GRERE2',$database, $database['GRELEX'], $database['GRELSJ'], $database['GREMOR']);
 AION_NEWSTRONGS_FIX_REF_GREEK($database['GREREF2'],'GRERE2',$database, $database['GRELEX'], $database['GRELSJ'], $database['GREMOR']);
@@ -710,8 +716,8 @@ AION_NEWSTRONGS_TAG_INDEX_CHECKER("$FOLDER_STAGE$GREEK_TAGED_INDX", "$FOLDER_STA
 AION_ECHO("GREEK $FOLDER_STAGE$GREEK_TAGED_INDX");
 AION_NEWSTRONGS_COUNT_REF($database['GRERE2'],"$FOLDER_STAGE$GREEK_TAGED_NUMS");
 AION_NEWSTRONGS_COUNT_REF_CHECKER("$FOLDER_STAGE$GREEK_TAGED_NUMS",
-	"$INPUT_TAGN1",NULL, NULL,
-	"$INPUT_TAGN2",NULL, NULL,
+	"$INPUT_TAGX1",NULL, NULL,
+	"$INPUT_TAGX2",NULL, NULL,
 	NULL,NULL,NULL,
 	NULL,NULL,NULL,
 	"$FOLDER_STAGE$GREEK_TAGED_FILE",
@@ -746,6 +752,7 @@ AION_ECHO("GREEK $FOLDER_STAGE$GREEK_TFLSJ_INDX");
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // WRITE CHECK RESULTS
+AION_NEWSTRONGS_LEX_MORPH(NULL,"$FOLDER_STAGE$CHECK_MORA");
 if ( file_put_contents($file="$FOLDER_STAGE$CHECK_BOOK", ($temp=implode("\n", $database['BOOKS']))) === FALSE ) {	AION_ECHO("ERROR! file_put: ".$file ); }
 unset($temp); $temp=NULL;
 AION_ECHO("CHECK $CHECK_BOOK ROWS=".count($database['BOOKS']));
@@ -868,7 +875,7 @@ function AION_NEWSTRONGS_GET_PREP($file) {
 		// #12=M +(T)+ O	δειγματίσαι, (deigmatisai)	to disgrace,	G1165=V-AAN	δειγματίζω=to disgrace	NA28+NA27+Tyn+SBL+WH+Treg	παραδειγματίσαι(.- paradeigmatisai) to shame - G3856=V-AAN in TR+Byz		exponer públicamente	to disgrace		
 		// #19=M + T + O	κἀγὼ (kagō)	I also	G2532=CONJ + ¦¦G1473=P-1NS	κἀγώ=and I	NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz			yo también	and I	»20:G2064					
 		// #26=M + T + O	μήποτε (mēpote)	otherwise	G3361=PRT-N + G4218=PRT	μήποτε=lest + πότε=when	NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz			no alguna vez	not + lest						
-		if (!preg_match('/^#(\d+)=([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t/', $data, $match)) {
+		if (!preg_match('/^#(\d+)=([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)/', $data, $match)) {
 			if (preg_match('/^#\d+=/', $data)) {						AION_ECHO("ERROR! line=$count $newmess bad line '#00=' $data"); }
 			continue;
 		}
@@ -885,7 +892,8 @@ function AION_NEWSTRONGS_GET_PREP($file) {
 		$match[2] = preg_replace("#\(O\)#u","o",$match[2]);
 		// reconstruct strongs and morph
 		$strongs = $morph = NULL;
-		$match[5] = preg_replace("#[\s¦]+#u","",$match[5]);
+		//$match[5] = preg_replace("#[\s¦]+#u","",$match[5]);
+		if (preg_match("#[¦]+#u",$match[5])) { AION_ECHO("ERROR! line=$count $newmess WHATWHAT? $data"); }
 		$match[5] = preg_replace("#[\+]+#u","+",$match[5]);
 		$match[5] = mb_split("\+", $match[5]);
 		foreach($match[5] as $key => $part) {
@@ -893,30 +901,30 @@ function AION_NEWSTRONGS_GET_PREP($file) {
 			if (2!==count($pieces) ||
 				!preg_match('/G[0-9]{1,5}/', $pieces[0]) || 
 				!preg_match('/[A-Z\-]+/', $pieces[1])) {				AION_ECHO("ERROR! line=$count $newmess BAD STRONGS/MORPH $data"); }
-			$strongs .= "$pieces[0]+";
-			$morph .= "$pieces[1]+";
+			$strongs .= trim($pieces[0])."+";
+			$morph .= trim($pieces[1])."+";
 		}
 		$strongs = trim($strongs,"+");
 		$morph = trim($morph,"+");
 		// construct dictionary and gloss
 		$dictionary = $gloss = NULL;
-		$match[6] = preg_replace("#[\s]+#u","",$match[6]);
+		$match[6] = preg_replace("#[\s]+#u"," ",$match[6]);
 		$match[6] = preg_replace("#[\+]+#u","+",$match[6]);
 		$match[6] = mb_split("\+", $match[6]);
 		foreach($match[6] as $key => $part) {
 			$pieces = mb_split("=", $part);
 			if (2!==count($pieces)) {									AION_ECHO("ERROR! line=$count $newmess BAD DICTIONARY/GLOSS $data"); }
-			$dictionary .= "$pieces[0]/";
-			$gloss .= "$pieces[1]/";
+			$dictionary .= trim($pieces[0])."+";
+			$gloss .= trim($pieces[1])."+";
 		}
-		$dictionary = trim($dictionary,"/");
-		$gloss = trim($gloss,"/");
+		$dictionary = trim($dictionary,"+");
+		$gloss = trim($gloss,"+");
 		// variant-1
 		$match[7] = preg_replace("#[ ]*[«»]{1}[\d]+:#u","",$match[7]);
 		// cojoined
 		$match[12] = preg_replace("#^[«»]{1}[\d]+:#u","",$match[12]);
 		// lay it out
-		$output .= "$book.$chap.$vers\t$match[1]\t$match[2]\t$match[3]\t$match[4]\t$strongs\t$morph\t$dictionary\t$gloss\t$match[7]\t$match[8]\t$match[9]\t$match[10]\t$match[11]\t$match[12]\n";
+		$output .= "$book.$chap.$vers\t$match[1]\t$match[2]\t$match[3]\t$match[4]\t$strongs\t$morph\t$dictionary\t$gloss\t$match[7]\t$match[8]\t$match[9]\t$match[10]\t$match[11]\t$match[12]\t$match[13]\t$match[14]\n";
 	}
 	// result
 	if (!($bytes=file_put_contents("$file.oldformat", $output))) {		AION_ECHO("ERROR! $newmess !file_put_contents()"); }
@@ -1130,12 +1138,12 @@ EOT;
 		}
 		// look for broken tags and bad html
 		$report='';
-		if (preg_match_all("#.{0,30}<[^abiu>]{1}[^>]*[^abiu]{1}>.{0,30}#ui",$lines[$x]['DEF'],$match,PREG_PATTERN_ORDER)) {
+		if (preg_match_all("#.{0,30}<[^abiuw>]{1}[^>]*[^abiuw]{1}>.{0,30}#ui",$lines[$x]['DEF'],$match,PREG_PATTERN_ORDER)) {
 			foreach($match[0] as $x => $suspect) { $n=$x+1; $report .= "$n) '$suspect'\n"; }
 			AION_ECHO($warn="WARN! $newmess strongs='$strongs' suspect '<tag>' found\n$report".print_r($line,TRUE)."\n\n\n");
 			$database['WARNINGS'] .= $warn;
 		}
-		else if (preg_match_all("#.{0,30}<[^abiu]{1}[^abiu]{1}.{0,30}#ui",$lines[$x]['DEF'],$match,PREG_PATTERN_ORDER)) {
+		else if (preg_match_all("#.{0,30}<[^abiuw]{1}[^abiuw]{1}.{0,30}#ui",$lines[$x]['DEF'],$match,PREG_PATTERN_ORDER)) {
 			foreach($match[0] as $x => $suspect) { $n=$x+1; $report .= "$n) '$suspect'\n"; }
 			AION_ECHO($warn="WARN! $newmess strongs='$strongs' suspect '<' unclosed found\n$report".print_r($line,TRUE)."\n\n\n");
 			$database['WARNINGS'] .= $warn;
@@ -1165,67 +1173,207 @@ EOT;
 }
 
 
+// build list of leixcon morphhologies
+function AION_NEWSTRONGS_LEX_MORPH_LEX($lex) {
+	foreach($lex as $entry ) { AION_NEWSTRONGS_LEX_MORPH($entry['MORPH']); }
+}
+
 // Clean up the Lexicon before writing
-function AION_NEWSTRONGS_LEX_MORPH($morph) {
-// define Language:Type-Gender-Extra
-static $language = NULL;
-if (!$language) { $language = array(
-"A"=>"Aramaic","H"=>"Hebrew","G"=>"Greek","N"=>"Proper Name"); }
-static $type = NULL;
-if (!$type) { $type = array(
-"A"=>"Adjective","Adv"=>"Adverb","Art"=>"Article","Cond"=>"Conditional","Conj"=>"Conjunction","Cor"=>"Correlative","DemP"=>"Demonstrative Pronoun","ImpP"=>"Impersonal Pronoun",
-"Intg"=>"Interogative","Intj"=>"Interjection","N"=>"Noun","Neg"=>"Negative","Part"=>"Particle","Prep"=>"Preposition","PerP"=>"Personal Pronoun","PosP"=>"Possessive Pronoun",
-"RefP"=>"Reflexive Pronoun","RelP"=>"Relative Pronoun","V"=>"Verb",
-"Imperat"=>"Imperative",
-"IndP"=>"Hebrew Indefinite Pronoun",
-"Ps1c"=>"my, personal posessive - noun suffix: 1st person common singular",
-"Ps2m"=>"your, personal posessive - noun suffix: 2nd person masculine singular",
-"Ps2f"=>"your, personal posessive - noun suffix: 2nd person feminine singular",
-"Ps3m"=>"his, personal posessive - noun suffix: 3rd person masculine singular",
-"Ps3f"=>"her, personal posessive - noun suffix: 3rd person feminine singular",
-"Pp1c"=>"our, personal posessive - noun suffix: 1st person common plural",
-"Pp2m"=>"your, personal posessive - noun suffix: 2nd person masculine plural",
-"Pp2f"=>"your, personal posessive - noun suffix: 2nd person feminine plural",
-"Pp3m"=>"their, personal posessive - noun suffix: 3rd person masculine plural",
-"Pp3f"=>"their, personal posessive - noun suffix: 3rd person feminine plural",
-"Os1c"=>"me, personal pronoun - verb/prep. suffix: 1st person common singular",
-"Os2m"=>"you, personal pronoun - verb/prep. 2nd person masculine singular",
-"Os2f"=>"you, personal pronoun - verb/prep. 2nd person feminine singular",
-"Os3m"=>"him, personal pronoun - verb/prep. 3rd person masculine singular",
-"Os3f"=>"her, personal pronoun - verb/prep. 3rd person feminine singular",
-"Op1c"=>"us, personal pronoun - verb/prep. 1st person common plural",
-"Op2m"=>"you, personal pronoun - verb/prep. 2nd person masculine plural",
-"Op2f"=>"you, personal pronoun - verb/prep. 2nd person feminine plural",
-"Op3m"=>"them, personal pronoun - verb/prep. 3rd person masculine plural",
-"Op3f"=>"them, personal pronoun - verb/prep. 3rd person feminine plural",
-"Ss1c"=>"I, subject pronoun -  subject: 1st person common singular",
-"Ss2m"=>"you, subject pronoun - subject 2nd person masculine singular",
-"Ss2f"=>"you, subject pronoun - subject 2nd person feminine singular",
-"Ss3m"=>"he, subject pronoun - subject 3rd person masculine singular",
-"Ss3f"=>"she, subject pronoun - subject 3rd person feminine singular",
-"Sp1c"=>"we, subject pronoun - subject 1st person common plural",
-"Sp2m"=>"you, subject pronoun - subject 2nd person masculine plural",
-"Sp2f"=>"you, subject pronoun - subject 2nd person feminine plural",
-"Sp3m"=>"they, subject pronoun - subject 3rd person masculine plural",
-"Sp3f"=>"they, subject pronoun - subject 3rd person feminine plural",
-); } 
-static $gender = NULL;
-if (!$gender) { $gender = array(
-"F"=>"Female","M"=>"Male","N"=>"Neuter","C"=>"Common","B"=>"Male/Female","L"=>"Male/Neuter","E"=>"Female/Neuter",
-"FS"=>"Female Singular","MS"=>"Male Singular","NS"=>"Neuter Singular","CS"=>"Common Singular","BS"=>"Male/Female Singular","LS"=>"Male/Neuter Singular","ES"=>"Female/Neuter Singular",
-"FP"=>"Female Plural","MP"=>"Male Plural","NP"=>"Neuter Plural","CP"=>"Common Plural","BP"=>"Male/Female Plural","LP"=>"Male/Neuter Plural","EP"=>"Female/Neuter Plural"); }
-static $extra = NULL;
-if (!$extra) { $extra = array(
-"L"=>"Location","P"=>"Person","LG"=>"Gentilic Location","PG"=>"Gentilic Person","T"=>"Title","TG"=>"Gentilic Title"); }
-// check
+function AION_NEWSTRONGS_LEX_MORPH($morph, $output=NULL) {
+// save the morphs!
+static $morphs = array();
+if ($morph===NULL && $output!==NULL) {
+	ksort($morphs, SORT_NATURAL);
+	if (file_put_contents($output,implode("\n", array_keys($morphs))) === FALSE ) { AION_ECHO("ERROR! AION_NEWSTRONGS_LEX_WIPE file_put_contents $output" ); }	
+}
+static $lookup = array(
+'A:A'=>'Aramaic Adjective',
+'A:Adv'=>'Aramaic Adverb',
+'A:Cond'=>'Aramaic Conditional',
+'A:Conj'=>'Aramaic Conjunction',
+'A:DemP'=>'Aramaic Demonstrative Pronoun',
+'A:ImpP/A:Intg'=>'Aramaic Impersonal Pronoun / Interogative',
+'A:ImpP'=>'Aramaic Impersonal Pronoun',
+'A:Intg'=>'Aramaic Interogative',
+'A:Intj'=>'Aramaic Interjection',
+'A:PRT-I'=>'Aramaic Interogative',
+'A:N--T'=>'Aramaic Noun Title',
+'A:N-F'=>'Aramaic Noun Female',
+'A:N-M'=>'Aramaic Noun Male',
+'A:N'=>'Aramaic Noun',
+'A:Part'=>'Aramaic Particle',
+'A:PerP-CP'=>'Aramaic Personal Pronoun Common Plural',
+'A:PerP-CS'=>'Aramaic Personal Pronoun Common Singular',
+'A:PerP-MP'=>'Aramaic Personal Pronoun Male Plural',
+'A:PerP-MS'=>'Aramaic Personal Pronoun Male Singular',
+'A:Prep'=>'Aramaic Preposition',
+'A:V+A:N'=>'Aramaic Verb Noun',
+'A:V'=>'Aramaic Verb',
+'G:A--C'=>'Greek Adjective Comparative',
+'G:A--S'=>'Greek Adjective Superlative',
+'G:A-F'=>'Greek Adjective Female',
+'G:A-M'=>'Greek Adjective Male',
+'G:A-NUI'=>'Greek Number (Indeclinable)',
+'G:A/G:ADV'=>'Greek Adjective OR Adverb',
+'G:ADV-C'=>'Greek Adverb Common',
+'G:ADV-I'=>'Greek Adverb Interrogative',
+'G:ADV-N'=>'Greek Adverb Neuter',
+'G:ADV-S'=>'Greek Adverb Superlative',
+'G:ADV-T'=>'Greek Adverb Title',
+'G:ADV/G:A'=>'Greek Adverb OR Greek Adjective',
+'G:ADV'=>'Greek Adverb',
+'G:A'=>'Greek Adjective',
+'G:C-'=>'Greek Pronoun',
+'G:COND+G:PRT-N+G:CONJ'=>'Greek Conditional WITH Greek Negative WITH Greek Conjunction',
+'G:COND+G:PRT-N'=>'Greek Conditional WITH Greek Negative',
+'G:COND'=>'Greek Conditional',
+'G:CONJ+G:P-1'=>'Greek Conjunction WITH Personal Pronoun (1st person)',
+'G:CONJ-N'=>'Greek Conjunction Neuter',
+'G:CONJ'=>'Greek Conjunction',
+'G:D'=>'Greek Demonstrative Pronoun',
+'G:F-1'=>'Greek Reflexive Pronoun (1st person)',
+'G:F-2'=>'Greek Reflexive Pronoun (2nd person)',
+'G:F-3'=>'Greek Reflexive Pronoun (3rd person)',
+'G:'=>'Greek',
+'G:I'=>'Greek Interogative',
+'G:INJ'=>'Greek Interjection',
+'G:K'=>'Greek Correlative',
+'G:N-B'=>'Greek Noun Male/Female',
+'G:N-F/G:A-F'=>'Greek Noun Female OR Adjective Female',
+'G:N-F/G:V'=>'Greek Noun Female OR Verb',
+'G:N-F'=>'Greek Noun Female',
+'G:N-L'=>'Greek Noun Male/Neuter',
+'G:N-LI'=>'Greek Letter (Indeclinable)',
+'G:N-M'=>'Greek Noun Male',
+'G:N-N'=>'Greek Noun Neuter',
+'G:N-PRI'=>'Greek Noun Proper (Indeclinable)',
+'G:N'=>'Greek Noun',
+'G:P-1'=>'Greek Personal Pronoun (1st person)',
+'G:P-2'=>'Greek Personal Pronoun (2nd person)',
+'G:P'=>'Greek Personal Pronoun (3rd person)',
+'G:PREP/G:A'=>'Greek Preposition OR Adjective',
+'G:PREP'=>'Greek Preposition',
+'G:PRT-I'=>'Greek Particle - Interogative',
+'G:PRT-N+G:CONJ+G:PRT-N'=>'Greek Negative JOINED TO Greek Conjunction WITH Greek Negative',
+'G:PRT-N+G:CONJ'=>'Greek Negative JOINED TO Greek Conjunction',
+'G:PRT-N+G:PRT-N'=>'Greek Negative WITH Greek Negative',
+'G:PRT-N'=>'Greek Particle Neuter',
+'G:PRT'=>'Greek Particle',
+'G:Q'=>'Greek Correlative or Interrogative',
+'G:R'=>'Greek Relative Pronoun',
+'G:S-1'=>'Greek Possessive Pronoun (1st person)',
+'G:S-2'=>'Greek Possessive Pronoun (2nd person)',
+'G:T+G:V+G:CONJ+G:T+G:V+G:CONJ+G:T+G:V'=>'Greek Article WITH Greek Verb WITH Greek Conjunction WITH Greek Article WITH Greek Verb WITH Greek Conjunction WITH Greek Article WITH Greek Verb',
+'G:T'=>'Greek Article',
+'G:V'=>'Greek Verb',
+'G:W'=>'Greek',
+'G:X'=>'Greek Indefinite Pronoun',
+'G:Α'=>'Greek Adjective',
+'H:A-F'=>'Hebrew Adjective Female',
+'H:A-M'=>'Hebrew Adjective Male',
+'H:A/H:N-M'=>'Hebrew Adjective OR Noun (Masculine)',
+'H:A'=>'Hebrew Adjective',
+'H:Adv'=>'Hebrew Adverb',
+'H:Cond'=>'Hebrew Conditional',
+'H:Conj'=>'Hebrew Conjunction',
+'H:DemP'=>'Hebrew Demonstrative Pronoun',
+'H:INJ'=>'Hebrew Interjection',
+'H:IndP'=>'Hebrew Hebrew Indefinite Pronoun',
+'H:Intg'=>'Hebrew Interogative',
+'H:Intj'=>'Hebrew Interjection',
+'H:N-B'=>'Hebrew Noun Male/Female',
+'H:N-F'=>'Hebrew Noun Female',
+'H:N-M/H:A'=>'Hebrew Noun (Masculine) OR Adjective',
+'H:N-M/H:Adv'=>'Hebrew Noun (Masculine) OR Adverb',
+'H:N-M/N:N--L'=>'Hebrew Noun (Masculine) OR Proper Name of a Location',
+'H:N-M/N:N--T'=>'Hebrew Noun (Masculine) OR Proper Name of some kind',
+'H:N-M/N:N-M-T'=>'Hebrew Noun (Masculine) OR Proper Name (Masculine) of some kind',
+'H:N-M'=>'Hebrew Noun Male',
+'H:N'=>'Hebrew Noun',
+'H:Neg'=>'Hebrew Negative',
+'H:Op1c'=>'Hebrew us, personal pronoun - verb/prep. 1st person common plural',
+'H:Op2f'=>'Hebrew you, personal pronoun - verb/prep. 2nd person feminine plural',
+'H:Op2m'=>'Hebrew you, personal pronoun - verb/prep. 2nd person masculine plural',
+'H:Op3f'=>'Hebrew them, personal pronoun - verb/prep. 3rd person feminine plural',
+'H:Op3m'=>'Hebrew them, personal pronoun - verb/prep. 3rd person masculine plural',
+'H:Os1c'=>'Hebrew me, personal pronoun - verb/prep. suffix: 1st person common singular',
+'H:Os2f'=>'Hebrew you, personal pronoun - verb/prep. 2nd person feminine singular',
+'H:Os2m'=>'Hebrew you, personal pronoun - verb/prep. 2nd person masculine singular',
+'H:Os3f'=>'Hebrew her, personal pronoun - verb/prep. 3rd person feminine singular',
+'H:Os3m'=>'Hebrew him, personal pronoun - verb/prep. 3rd person masculine singular',
+'H:PRT-I'=>'Hebrew Particle',
+'H:Part'=>'Hebrew Particle',
+'H:PerP-CP'=>'Hebrew Personal Pronoun Common Plural',
+'H:PerP-CS'=>'Hebrew Personal Pronoun Common Singular',
+'H:PerP-FP'=>'Hebrew Personal Pronoun Female Plural',
+'H:PerP-FS'=>'Hebrew Personal Pronoun Female Singular',
+'H:PerP-MP'=>'Hebrew Personal Pronoun Male Plural',
+'H:PerP-MS'=>'Hebrew Personal Pronoun Male Singular',
+'H:Pp1c'=>'Hebrew our, personal posessive - noun suffix: 1st person common plural',
+'H:Pp2f'=>'Hebrew your, personal posessive - noun suffix: 2nd person feminine plural',
+'H:Pp2m'=>'Hebrew your, personal posessive - noun suffix: 2nd person masculine plural',
+'H:Pp3f'=>'Hebrew their, personal posessive - noun suffix: 3rd person feminine plural',
+'H:Pp3m'=>'Hebrew their, personal posessive - noun suffix: 3rd person masculine plural',
+'H:Prep+H:RelP'=>'Hebrew Preposition JOINED TO Relative Pronoun',
+'H:Prep/H:Conj'=>'Hebrew Preposition OR Conjunction',
+'H:Prep'=>'Hebrew Preposition',
+'H:Ps1c'=>'Hebrew my, personal posessive - noun suffix: 1st person common singular',
+'H:Ps2f'=>'Hebrew your, personal posessive - noun suffix: 2nd person feminine singular',
+'H:Ps2m'=>'Hebrew your, personal posessive - noun suffix: 2nd person masculine singular',
+'H:Ps3f'=>'Hebrew her, personal posessive - noun suffix: 3rd person feminine singular',
+'H:Ps3m'=>'Hebrew his, personal posessive - noun suffix: 3rd person masculine singular',
+'H:RelP'=>'Hebrew Relative Pronoun',
+'H:Sp1c'=>'Hebrew we, subject pronoun - subject 1st person common plural',
+'H:Sp2f'=>'Hebrew you, subject pronoun - subject 2nd person feminine plural',
+'H:Sp2m'=>'Hebrew you, subject pronoun - subject 2nd person masculine plural',
+'H:Sp3f'=>'Hebrew they, subject pronoun - subject 3rd person feminine plural',
+'H:Sp3m'=>'Hebrew they, subject pronoun - subject 3rd person masculine plural',
+'H:Ss1c'=>'Hebrew I, subject pronoun -  subject: 1st person common singular',
+'H:Ss2f'=>'Hebrew you, subject pronoun - subject 2nd person feminine singular',
+'H:Ss2m'=>'Hebrew you, subject pronoun - subject 2nd person masculine singular',
+'H:Ss3f'=>'Hebrew she, subject pronoun - subject 3rd person feminine singular',
+'H:Ss3m'=>'Hebrew he, subject pronoun - subject 3rd person masculine singular',
+'H:V'=>'Hebrew Verb',
+'N:A--LG'=>'Proper Name Adjective Gentilic Location',
+'N:A--PG'=>'Proper Name Adjective Gentilic Person',
+'N:ADV-T'=>'Proper Name Adverb',
+'N:A'=>'Proper Name Adjective',
+'N:N--L/N:N--LG/N:N-M-P'=>'Proper Name of a Location OR of a Location in Gentilic sense OR of a Male Person',
+'N:N--L/N:N--LG'=>'Proper Name of a Location OR of a Location in Gentilic sense',
+'N:N--L/N:N-M-P'=>'Proper Name of a Location OR of a Male Person',
+'N:N--L/N:N-M-T'=>'Proper Name of a Location OR Male of some kind',
+'N:N--LG/N:N-M-P'=>'Proper Name of a Location in Gentilic sense OR of a Male Person',
+'N:N--LG'=>'Proper Name Noun Gentilic Location',
+'N:N--L'=>'Proper Name Noun Location',
+'N:N--PG'=>'Proper Name Noun Gentilic Person',
+'N:N--TG'=>'Proper Name Noun Gentilic Title',
+'N:N--T'=>'Proper Name Noun Title',
+'N:N-F-LG'=>'Proper Name Noun Female Gentilic Location',
+'N:N-F-L'=>'Proper Name Noun Female Location',
+'N:N-F-P/N:N--L'=>'Proper Name of a Female Person OR of a Location',
+'N:N-F-PG'=>'Proper Name Noun Female Gentilic Person',
+'N:N-F-P'=>'Proper Name Noun Female Person',
+'N:N-F-T/N:N--L'=>'Proper Name of a Female of some kind OR of a Location',
+'N:N-F-T'=>'Proper Name Noun Female Title',
+'N:N-M-LG'=>'Proper Name Noun Male Gentilic Location',
+'N:N-M-L'=>'Proper Name Noun Male Location',
+'N:N-M-P/N:A'=>'Proper Name of a Male Person OR Adjectival',
+'N:N-M-P/N:N--L'=>'Proper Name of a Male Person OR of a Location',
+'N:N-M-P/N:N-F-P/N:N--L'=>'Proper Name of a Male Person OR of a Female Person OR of a Location',
+'N:N-M-P/N:N-F-P'=>'Proper Name of a Male Person OR of a Female Person',
+'N:N-M-P/N:N-M-PG'=>'Proper Name of a Male Person OR of a Male Person in Gentilic sense',
+'N:N-M-P/N:N-M-T'=>'Proper Name of a Male Person OR Male of some kind',
+'N:N-M-PG'=>'Proper Name Noun Male Gentilic Person',
+'N:N-M-P'=>'Proper Name Noun Male Person',
+'N:N-M-T'=>'Proper Name Noun Male Title',
+);
 if (empty($morph)) { return TRUE; }
-$parts = mb_split("[:\-]{1}", $morph);
-if ( empty($parts[0]) || empty($language[$parts[0]]))	{ return FALSE; } // bad language
-if (!empty($parts[1]) && empty($type[$parts[1]]))		{ return FALSE; } // bad type
-if (!empty($parts[2]) && empty($gender[$parts[2]]))		{ return FALSE; } // bad gender
-if (!empty($parts[3]) && empty($extra[$parts[3]]))		{ return FALSE; } // bad extra
-if (!empty($parts[4]))									{ return FALSE; } // bad whoa!
+$missing = (empty($lookup[$morph]) ? 'missing' : '');
+$text = (empty($lookup[$morph]) ? '' : $lookup[$morph]);
+$morphs["{$morph}\t{$text}\t{$missing}"] = TRUE;
+if (!empty($missing)) { return FALSE; }
 return TRUE;
+
 }
 
 
@@ -1246,6 +1394,7 @@ function AION_NEWSTRONGS_LEX_WIPE(&$lexicon) {
 		}
 	}
 }
+
 
 
 // lexicon fill strongs number holes and also pad to same line length
@@ -1310,6 +1459,18 @@ function AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER($index_file, $lexicon_file, $exce
 	return;
 }
 
+
+// Greek leixon uStrongs and dStrongs merge
+function AION_NEWSTRONGS_GET_UD($table,&$database) {
+	foreach($database[$table] as $key => $entry) {
+		if (empty($entry['STRONGU']) || empty($entry['STRONGD'])) { AION_ECHO("ERROR! STRONGU OR STRONGD Missing from $table strongs=".$entry['STRONGS']); }
+		if (preg_match("#^[^=]+=(.+)$#u", $entry['STRONGU'], $match)) {
+			$database[$table][$key]['STRONGU'] = trim($match[1])." ".preg_replace("#([GH]{1})[0]+(\d+)#u",'$1$2',trim($entry['STRONGD']));
+		}
+		else { $database[$table][$key]['STRONGU'] = NULL; }
+		unset($database[$table][$key]['STRONGD']);
+	}
+}
 
 // Viz need its own fixing
 function AION_NEWSTRONGS_FIX_VIZ($input,$what,$table,&$database,$osstrongs,$osstrongs2) {
@@ -1728,8 +1889,10 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 	}
 	$last_indx = $last_chap = $last_vers = NULL;
 	if (empty($database[$table])) {
-		$database[$table] = "INDEX\tBOOK\tCHAPTER\tVERSE\tSTRONGS\tFLAG\tMORPH\tWORD\tENGLISH\tENTRY\tPUNC\tEDITIONS\tVARIATION1\tVARIATION2\tADDITIONAL\tCONJOIN\n";
+		$database[$table] = "INDEX\tBOOK\tCHAPTER\tVERSE\tSTRONGS\tFLAG\tMORPH\tWORD\tENGLISH\tENTRY\tPUNC\tEDITIONS\tVARIATION1\tVARIATION2\tADDITIONAL\tCONJOIN\tOCCUR\tALT\n";
 	}
+	$strongs_counts = array();
+	$last = NULL;
 	
 	// LOOP THRU ALL LINES
 	//array('REF','','TYPE','WORD','ENGLISH','STRONGS','','EDITIONS','MEANING2','MEANING3','','ADDITIONAL','CONJOIN'),
@@ -1773,9 +1936,6 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 		else if ($line['ENGLISH']=='you [pl.] will be') { $line['ENGLISH']='you will be'; }
 		if (!($line['ENGLISH'] = preg_replace("/</us",'(',$line['ENGLISH']))) { AION_ECHO("ERROR! REF_GREEK() preg_replace(".$line['ENGLISH']); }
 		if (!($line['ENGLISH'] = preg_replace("/>/us",')',$line['ENGLISH']))) { AION_ECHO("ERROR! REF_GREEK() preg_replace(".$line['ENGLISH']); }
-		// GLOSS and OTHER fixes
-		if ($line['GLOSS']=='to_boast') { $line['GLOSS']='boast'; }
-		if ($line['ADDITIONAL']=='to_boast') { $line['ADDITIONAL']='boast'; }
 
 		// SPACE MORPH
 		$line['MORPH'] = preg_replace("/ /u", '',($morph_before=$line['MORPH'])); // remove unexpected spaces
@@ -1798,6 +1958,14 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 		$indx = sprintf('%03d', (int)array_search($book,array_keys($abooks)));
 		$chap = sprintf('%03d', (int)$match[2]);
 		$vers = sprintf('%03d', (int)$match[3]);
+
+		// OCCURRENCE # of STRONGS? ERROR CHECK
+		if ((int)$vers != (int)$last_vers) {
+			foreach($strongs_counts as $key => $check) {
+				if (1==$check) { AION_ECHO($warn="WARN! FIX_REF\tref='{$last['REF']}' Strong order sequence error, one but no two of strongs={$key}!\n".print_r($last,TRUE)."\n".print_r($strongs_counts,TRUE)."\n\n\n"); }
+			}
+			$strongs_counts = array();
+		}
 
 		// Sorted properly?
 		if ($last_indx && (
@@ -1844,6 +2012,37 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 			$strongs = AION_NEWSTRONGS_STRONGS_PARSE($newmess, $strongs, FALSE, $lex_array, $lex2_array);
 			if (count($strongs)>1) { AION_ECHO("ERROR! $newmess More than one Greek Strongs!\n".print_r($line,TRUE)); }
 			$strongs = $strongs[0]; // return an array for Hebrew, but only one here!
+
+			// OCCURRENCE # of STRONGS?
+			static $occurmap= array('A'=>'1st','B'=>'2nd','C'=>'3rd','D'=>'4th','E'=>'5th','F'=>'6th','G'=>'7th','H'=>'8th','I'=>'9th','J'=>'10th','K'=>'11th','L'=>'12th','M'=>'13th',
+			'N'=>'14th','O'=>'15th','P'=>'16th','Q'=>'17th','R'=>'18th','S'=>'19th','T'=>'20th','U'=>'21st','V'=>'22nd','W'=>'23rd','X'=>'24th','Y'=>'25th','Z'=>'26th');
+			$occur = 'once';
+			$match = NULL;
+			if (preg_match("#{$strongs}_([a-zA-Z]{1})#u", $line['OCCUR'], $match)) {
+				$occur = (empty($occurmap[strtoupper($match[1])]) ? 'multiple' : $occurmap[strtoupper($match[1])]);
+				if (ctype_lower($match[1])) { $occur .= ' (varied)'; }
+			}
+			if ($line['REF']=='2Co.013.012' || $line['REF']=='2Co.013.013' || $line['REF']=='Rev.013.001') {
+				$occur = NULL;
+			}
+			if (!empty($match[1]) && !empty($occurmap[strtoupper($match[1])])) {
+				$occurdig = (int)$occurmap[strtoupper($match[1])];
+				if (empty($strongs_counts[$strongs])) { if (1 != $occurdig) { AION_ECHO($warn="WARN! $newmess Strong order sequence error, two but no one! $strongs > $occurdig\n".print_r($line,TRUE)."\n\n\n"); } }
+				else if ($strongs_counts[$strongs] + 1 != $occurdig) { AION_ECHO($warn="WARN! $newmess Strong order sequence error, missed sequence! $strongs > $occurdig\n".print_r($line,TRUE)."\n\n\n"); }
+				$strongs_counts[$strongs] = $occurdig;
+			}
+			if (preg_match("#(G\d+)[A-Z]{0,1}_([a-zA-Z]{1})#u", $line['VARIATION1'], $match) && $strongs!=$match[1]) {
+				$occurdig = (int)$occurmap[strtoupper($match[2])];
+				if (empty($strongs_counts[$match[1]])) { if (1 != $occurdig) { AION_ECHO($warn="WARN! $newmess Strong order sequence error, two but no one! $match[1] > $occurdig\n".print_r($line,TRUE)."\n\n\n"); } }
+				else if ($strongs_counts[$match[1]] + 1 != $occurdig) { AION_ECHO($warn="WARN! $newmess Strong order sequence error, missed sequence! $match[1] > $occurdig\n".print_r($line,TRUE)."\n\n\n"); }
+				$strongs_counts[$match[1]] = $occurdig;
+			}
+			if (preg_match("#(G\d+)[A-Z]{0,1}_([a-zA-Z]{1})#u", $line['VARIATION2'], $match) && $strongs!=$match[1]) {
+				$occurdig = (int)$occurmap[strtoupper($match[2])];
+				if (empty($strongs_counts[$match[1]])) { if (1 != $occurdig) { AION_ECHO($warn="WARN! $newmess Strong order sequence error, two but no one! $match[1] > $occurdig\n".print_r($line,TRUE)."\n\n\n"); } }
+				else if ($strongs_counts[$match[1]] + 1 != $occurdig) { AION_ECHO($warn="WARN! $newmess Strong order sequence error, missed sequence! $match[1] > $occurdig\n".print_r($line,TRUE)."\n\n\n"); }
+				$strongs_counts[$match[1]] = $occurdig;
+			}
 
 			// MORPHS
 			$morph = trim(($key==0 ? $mpart[0] : (empty($mpart[$key]) ? "Unknown" : $mpart[$key])));
@@ -1904,46 +2103,6 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 				$meanings = trim(preg_replace('/¦\s*/','|VC ', preg_replace('/\|\s*/','|VM ', preg_replace('/‖\s*/','|VS ', $line['MEANINGS']))));
 			}
 			
-			// Additional meaning parse
-			// Jacob§Jacob|Israel@Gen.25.26
-			$additional = trim(preg_replace('/\d+_/','', $line['ADDITIONAL']));
-			if (!empty($additional)) {
-				if (preg_match("#^([^§@]+)[§]+([^§@]+)[@]+([^§@]+)$#u",$additional,$addmatch)) {
-					if (preg_match("#(§§|@@)#u",$additional)) {
-						AION_ECHO("WARN! $newmess problem parsing ADDITIONAL doubles: $additional\n".print_r($line,TRUE));
-					}
-					$addmatch[1] = trim($addmatch[1]);
-					$addmatch[2] = trim($addmatch[2]);
-					$addmatch[2] = preg_replace("#^".$addmatch[1]."$#u", "", $addmatch[2]);
-					$addmatch[2] = preg_replace("#^".$addmatch[1]."[|/]+#u", "", $addmatch[2]);
-					$addmatch[2] = preg_replace("#[|/]+".$addmatch[1]."$#u", "", $addmatch[2]);
-					$addmatch[2] = trim($addmatch[2]);
-					if (!empty($addmatch[2])) { $addmatch[2]= " (".$addmatch[2].")"; }
-					$addmatch[3] = trim($addmatch[3]);
-					if (preg_match("#^([^.]+)\.(\d+)\.([\d+]+)$#u",$addmatch[3],$addref)) {
-						$addmatch[3] = trim($addref[1])." ".trim($addref[2]).":".trim($addref[3]);
-					}
-					else {
-						AION_ECHO("WARN! $newmess problem parsing ADDITIONAL reference: $additional\n".print_r($line,TRUE));
-					}
-					$addmatch[3] = " @ ".$addmatch[3];
-					$additional = $addmatch[1].$addmatch[2].$addmatch[3];
-				}
-				else if (preg_match("#^([^§@]+)[§]+([^§@]+)$#u",$additional,$addmatch)) {
-					$addmatch[1] = trim($addmatch[1]);
-					$addmatch[2] = trim($addmatch[2]);
-					$addmatch[2] = preg_replace("#^".$addmatch[1]."$#u", "", $addmatch[2]);
-					$addmatch[2] = preg_replace("#^".$addmatch[1]."\|#u", "", $addmatch[2]);
-					$addmatch[2] = preg_replace("#\|".$addmatch[1]."$#u", "", $addmatch[2]);
-					$addmatch[2] = trim($addmatch[2]);
-					if (!empty($addmatch[2])) { $addmatch[2]= " (".$addmatch[2].")"; }
-					$additional = $addmatch[1].$addmatch[2];
-				}
-				else if (preg_match("#[§@]+#u",$additional)) {
-					AION_ECHO("WARN! $newmess problem parsing ADDITIONAL whole: $additional\n".print_r($line,TRUE));
-				}
-			}
-		
 			// construct the output
 			// The Greek and Hebrew columns need to be similar because same functions process first columns of Greek and Hebrew
 			// INDEX	BOOK	CHAPTER	VERSE	STRONGS	FLAG	MORPH	WORD
@@ -1957,11 +2116,14 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 				"$editions\t".
 				$line['VARIATION1']."\t".
 				$line['VARIATION2']."\t".
-				"$additional\t".
-				trim($line['CONJOIN'])."\n");
+				trim($line['ADDITIONAL'])."\t".
+				trim($line['CONJOIN'])."\t".
+				"$occur\t".
+				trim($line['ALT'])."\n");
 			// W=next word, J=joined words
 			$jointype = "J";
 		}
+		$last = $line;
 	}
 }
 
@@ -1972,27 +2134,27 @@ function AION_NEWSTRONGS_COUNT_REF($references, $output) {
 	$newmess  = "COUNT_REF($output) ";
 	$yeah_array = $book_array = $chap_array = $vers_array = array();
 	$indx_last = $chap_last = $vers_last = NULL;
-	$references .= "0\t0\t0\t0\t0\n"; // add empty line to flush the last line
+	$references .= "0\t0\t0\t0\tH99999\t"; // add empty line to flush the last line
 	$line = strtok($references, "\n");  // skip first line
 	$line = strtok( "\n" ); // get second line
 	// distinct strongs numbers
 	while ($line !== false) {
-		// reference  "$indx\t$book\t$chap\t$vers\t$strongs\t$jointype\t$morph\t$WORDUP$variants\n";
-		if (!preg_match("#^(\d+)\t([A-Z0-9]+)\t(\d+)\t(\d+)#u", $line, $match)) {	AION_ECHO("ERROR! $newmess corrupt hebrew ref\n".print_r($line,TRUE)); }
+		// TAG for Hebrew and Greek reference  "$indx\t$book\t$chap\t$vers\t$strongs ...
+		if (!preg_match("#^(\d+)\t([A-Z0-9]+)\t(\d+)\t(\d+)\t([GH]{1})([\d]{1,5})([a-z]{0,1})\t#u", $line, $match)) {	AION_ECHO("ERROR! $newmess corrupt hebrew/greek ref\n".print_r($line,TRUE)); }
 		$indx = $match[1];
 		$chap = $match[3];
 		$vers = $match[4];
-		// strongs
-		// to avoid Greek conjoined strongs #s with a : colon, [^:]{1} or (?<!:)
-		if (FALSE===preg_match_all("#(?<!:)([GH]{1})([\d]{1,5})([a-z]{0,1})#u", $line, $parsed, PREG_SET_ORDER)) { AION_ECHO("ERROR! $newmess !preg_match_all()"); }
-		foreach($parsed as $s) {
+		// not the last line
+		if ("0"!=$indx) {
+			$snum = $match[6];
+			$sext = $match[7];
 			// mark the strong number, even without the extension
-			$book_array[$s[2]] = $chap_array[$s[2]] = TRUE;
-			$vers_array[$s[2]] += 1;
+			$book_array[$snum] = $chap_array[$snum] = TRUE;
+			$vers_array[$snum] += 1;
 			// also mark the extension
-			if (!empty($s[3])) {
-				$book_array[$s[2].$s[3]] = $chap_array[$s[2].$s[3]] = TRUE;
-				$vers_array[$s[2].$s[3]] += 1;
+			if (!empty($sext)) {
+				$book_array[$snum.$sext] = $chap_array[$snum.$sext] = TRUE;
+				$vers_array[$snum.$sext] += 1;
 			}
 		}
 		// counts
@@ -2187,7 +2349,7 @@ function AION_NEWSTRONGS_COUNT_REF_CHECKER($countsF, $source1, $begin1, $end1, $
 	if (($sourceT = file_get_contents( $source2 )) === FALSE ) {												AION_ECHO("ERROR! $newmess !file_get_contents($source2)"); }
 	if ($begin2 && (!($sourceT=preg_replace("/^.*?$begin2/us",$begin2,$sourceT,-1,$count)) || $count!=1)) {		AION_ECHO("ERROR! $newmess $source2 no beginning='$begin2' $count"); }
 	if ($end2   && (!($sourceT=preg_replace("/$end2.*$/us","",$sourceT,-1,$count)) || $count!=1)) {				AION_ECHO("ERROR! $newmess $source2 no ending='$end2' $count"); }
-	$source .= $sourceT;
+	$source = "\n" . $source . $sourceT;
 	if ($source3) {
 		if (($sourceT = file_get_contents( $source3 )) === FALSE ) {											AION_ECHO("ERROR! $newmess !file_get_contents($source3)"); }
 		if ($begin3 && (!($sourceT=preg_replace("/^.*?$begin3/us",$begin3,$sourceT,-1,$count)) || $count!=1)) {	AION_ECHO("ERROR! $newmess $source3 no beginning='$begin3' $count"); }
@@ -2212,7 +2374,12 @@ function AION_NEWSTRONGS_COUNT_REF_CHECKER($countsF, $source1, $begin1, $end1, $
 		if ($strongs == "0") { continue; }
 		if (FALSE===preg_match("#^([0-9]{1,5})([a-z]{0,1})$#u", $strongs, $match)) { AION_ECHO("ERROR! $newmess !preg_match()"); }
 		$strongs = $letter.sprintf('%04d',$match[1]).$match[2];
-		if (FALSE===preg_match_all("#(?<!:)($strongs)[^\d]{1}#u", $source, $parsed, PREG_PATTERN_ORDER)) { AION_ECHO("ERROR! $newmess !preg_match_all()"); } // to avoid Greek conjoined strongs #s, [^:]{1} or (?<!:)
+		if ($letter=='H') {
+			if (FALSE===preg_match_all("#($strongs)[^\d]{1}#u", $source, $parsed, PREG_PATTERN_ORDER)) { AION_ECHO("ERROR! $newmess !preg_match_all()"); } // to avoid Greek conjoined strongs #s, [^:]{1} or (?<!:)
+		}
+		else {
+			if (FALSE===preg_match_all("#\n[^\t]+\t[^\t]+\t[^\t]+\t[^\t]+\t[^\t]+\t[^\t]*($strongs)[^\d]{1}#u", $source, $parsed, PREG_PATTERN_ORDER)) { AION_ECHO("ERROR! $newmess !preg_match_all()"); } // to avoid Greek conjoined strongs #s, [^:]{1} or (?<!:)
+		}
 		if ($numbers[3] != ($found=count($parsed[1]))) {
 			AION_ECHO("WARN! $newmess count mismatch (Greek strong+strong with meaning strong refs doubled?) for $strongs: $numbers[3] != $found");
 		}

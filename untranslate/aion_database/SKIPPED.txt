@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1202712     
-# File Date: 05/11/2023 21:28:04
+# File Size: 1202656     
+# File Date: 05/28/2023 02:08:15
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2023
@@ -7903,7 +7903,6 @@ Holy-Bible---Portuguese---Portuguese-Trans-Trans	064	3JO	001	014	Em vez disso es
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	066	REV	012	018	O dragão ficou em pé na praia do mar.
 Holy-Bible---Romani-Vlax---Arli-Luke	042	LUK	023	017	
 Holy-Bible---Romani-Vlax---Chergash-Luke	042	LUK	023	017	
-Holy-Bible---Romani-Vlax---Gurbet-Luke	042	LUK	023	017	
 Holy-Bible---Romanian---Bayash-Luke	042	LUK	017	036	
 Holy-Bible---Romanian---Bayash-Luke	042	LUK	023	017	
 Holy-Bible---Rote-Dela---Rote-Dela-Bible	064	3JO	001	014	Huu au hule-hule' fo nda doo' sa na ata tandaa, fo ru'a nggita ola-ola' neu' ena.

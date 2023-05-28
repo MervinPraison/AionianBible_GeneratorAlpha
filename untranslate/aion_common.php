@@ -3029,6 +3029,9 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---Questioned.htm' target='_blank'>Questioned Verses</a><br />\n";
 	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---LongLine.htm' target='_blank'>Long Verses, Source Edition</a><br />\n";
 	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---LongLine-STD.htm' target='_blank'>Long Verses, Aionian Edition</a><br />\n";
+	$debug .= "<a href='/library/stepbible/CHECK_HTML_HEBREW_TBESH.htm' target='_blank'>STEPBible Hebrew TBESH Lexicon Errors</a><br />\n";
+	$debug .= "<a href='/library/stepbible/CHECK_HTML_GREEK_TBESG.htm' target='_blank'>STEPBible Greek TBESG Lexicon Errors</a><br />\n";
+	$debug .= "<a href='/library/stepbible/CHECK_HTML_GREEK_TFLSJ.htm' target='_blank'>STEPBible Greek TFLSJ Lexicon Errors</a><br />\n";
 	$debug .= "<a href='/Please' target='_blank'>Foreign Phrases at AionianBible.org/Please</a><br />\n";
 	$debug .= "<a href='/RTL' target='_blank'>Right-to-Left and Hindic proofing at AionianBible.org/RTL</a><br />\n";
 	$debug .= "<a href='/Promote' target='_blank'>Promote at AionianBible.org/Promote</a><br />\n";
@@ -3081,15 +3084,15 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-5719;
 	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-5130;
 	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-186916;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-4929597;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-4929598;
 	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-47698;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-258;
-	$grandmarker['LONG']		= $grandtotal['LONG']-858;
+	$grandmarker['LONG']		= $grandtotal['LONG']-859;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-0;
 	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-2055;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-912;
 	$grandmarker['FIXED']		= $grandtotal['FIXED']-13608;
-	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-10849;
+	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-10848;
 	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-8250;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-710;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-717;

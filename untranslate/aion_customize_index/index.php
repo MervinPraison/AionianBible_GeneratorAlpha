@@ -579,7 +579,7 @@ while(($line=fgets($fd))) {
 	$line = rtrim($line,"\r\n");
 	if (!($parts = mb_split("\t", $line)) ||
 		($bnum<=39 && count($parts)!=11) ||
-		($bnum>=40 && count($parts)!=16) ||
+		($bnum>=40 && count($parts)!=18) ||
 		empty($parts[0]) ||
 		empty($parts[2]) ||
 		empty($parts[3]) ||
@@ -1552,6 +1552,8 @@ if ($strongs[0]==='h') {
 	$morphs_tyndale = (empty($lex_tyndale[4]) ? NULL : aion_morphhology($lex_tyndale[4]));
 	$morphs_LSJ = NULL;
 	$counts = abcms_read_json('./library/stepbible/Hebrew_Tagged_Text_Count.json', $bald, (empty($tag) ? TRUE : FALSE));
+	$tyndale_additional = NULL;
+	$tyndale_definition = (empty($lex_tyndale[5]) ? NULL : $lex_tyndale[5]);
 }
 else {
 	if (ctype_digit($bald) && $bald <= 5624) { $lex_strongs = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_Strongs.txt', './library/stepbible/Greek_Lexicon_Strongs_Index.json', $bald); }
@@ -1561,6 +1563,8 @@ else {
 	$morphs_tyndale = (empty($lex_tyndale[4]) ? NULL : aion_morphhology($lex_tyndale[4]));
 	$morphs_LSJ = (empty($lex_LSJ[4]) ? NULL : aion_morphhology($lex_LSJ[4]));
 	$counts = abcms_read_json('./library/stepbible/Greek_Tagged_Text_Count.json', $bald, (empty($tag) ? TRUE : FALSE));
+	$tyndale_additional = (empty($lex_tyndale[5]) ? NULL : $lex_tyndale[5]);
+	$tyndale_definition = (empty($lex_tyndale[6]) ? NULL : $lex_tyndale[6]);
 }
 // entry not found
 if (!($word =
@@ -1616,10 +1620,12 @@ $stronglang = (empty($lex_strongs[4]) ? '' :
 	($lex_strongs[4]=='arc'		? 'Aramaic' :
 	($lex_strongs[4]=='x-pn'	? 'Proper Name' : 'Hebrew'))))));
 // editions
-if (!empty($tag[11])) {
-	$tag[11] = str_replace("+", ", ", $tag[11]);
-	$tag[11] = str_replace($editions_search, $editions_replace, $tag[11]);	
-}
+$tag[11] = (empty($tag[11]) ? NULL : str_replace($editions_search, $editions_replace, str_replace("+", ", ", $tag[11])));
+// additional, Christ»Christ|Jesus@Mat.1.1
+$tag[14] = (empty($tag[14]) ? NULL : preg_replace('/[»]+/u',' » ', preg_replace('/[@]+/u', ' @ ', preg_replace('/[|]+/u', ' | ', $tag[14]))));
+// Order/Join
+$tag[15] = (empty($tag[15]) ? NULL : preg_replace('/[»]+/u', ' with #', preg_replace('/:/u', ' : ', $tag[15])));
+
 // javascript
 $javascript = "AionianBible_CollapseExpand(\"ab-lexicon\", \"ab-lexicon-$elementid\"); return false;";
 echo
@@ -1627,8 +1633,8 @@ echo
 	"<div class='strong-word".($book ? '' : ' notranslate')."'>$word</div>\n" .
 	"<div class='field-field'><div class='field-label'>Strongs:</div><div class='field-value word-footnote'>$SID</div></div>\n" .
 	(empty($lex_original)	? "" : "<div class='field-field'><div class='field-label'>Original:</div><div class='field-value word-footnote'>$lex_original</div></div>\n") .
-	(empty($tag[10])		? "" : "<div class='field-field'><div class='field-label'>Word:</div><div class='field-value'>$tag[10]</div></div>\n") .	
 	(empty($underlying)		? "" : "<div class='field-field'><div class='field-label'>Lexicon:</div><div class='field-value notranslate'>$underlying</div></div>\n") .
+	($strongs[0]=='h' || empty($tag[10]) ? "" : "<div class='field-field'><div class='field-label'>Transliteration:</div><div class='field-value'>$tag[10]</div></div>\n") .
 	"<div class='field-field'><div class='field-label'>Usage:</div><div class=field-value>$usage</div></div>\n" .
 	(empty($join)			? "" : "<div class='field-field'><div class='field-label'>Context:</div><div class='field-value'>$join</div></div>\n") .
 
@@ -1652,7 +1658,9 @@ echo
 	(empty($tag[12])		? "" : "<div class='field-field'><div class='field-label'>Variation-1:</div><div class='field-value'>$tag[12]</div></div>\n") .
 	(empty($tag[13])		? "" : "<div class='field-field'><div class='field-label'>Variation-2:</div><div class='field-value'>$tag[13]</div></div>\n") .
 	((empty($tag[14]) || $tag[14] == $word)									? "" : "<div class='field-field'><div class='field-label'>Additional:</div><div class='field-value'>$tag[14]</div></div>\n") .
-	(empty($tag[15])		? "" : "<div class='field-field'><div class='field-label'>Conjoined:</div><div class='field-value'>$tag[15]</div></div>\n"))) .
+	(empty($tag[15])		? "" : "<div class='field-field'><div class='field-label'>Order/Join:</div><div class='field-value'>$tag[15]</div></div>\n") .
+	(empty($tag[16])		? "" : "<div class='field-field'><div class='field-label'>Occurrence:</div><div class='field-value'>$tag[16]</div></div>\n") .
+	(empty($tag[17])		? "" : "<div class='field-field'><div class='field-label'>Alternates:</div><div class='field-value'>$tag[17]</div></div>\n"))) .
 
 	// lexicon entries: Aionians, Tyndale, LSJ, Strongs
 	(!$aionian	? "" :
@@ -1670,14 +1678,16 @@ echo
 	(empty($lex_tyndale[2]) ? "" : "<div class='field-field'><div class='field-label'>Transliteration:</div><div class='field-value notranslate'>$lex_tyndale[2]</div></div>\n") .
 	(empty($lex_tyndale[3]) ? "" : "<div class='field-field'><div class='field-label'>Gloss:</div><div class='field-value'>$lex_tyndale[3]</div></div>\n") .
 	(empty($morphs_tyndale) ? "" : "<div class='field-field'><div class='field-label'>Morphhology:</div><div class='field-value'>$morphs_tyndale</div></div>\n") .
-	(empty($lex_tyndale[5]) ? "" : "<div class='field-field'><div class='field-label'>Definition:</div><div class='field-value'>$lex_tyndale[5]</div></div>\n")) .
+	(empty($tyndale_additional) ? "" : "<div class='field-field'><div class='field-label'>Additional:</div><div class='field-value'>$tyndale_additional</div></div>\n") .
+	(empty($tyndale_definition) ? "" : "<div class='field-field'><div class='field-label'>Definition:</div><div class='field-value'>$tyndale_definition</div></div>\n")) .
 	(empty($lex_LSJ[0])	? "" :
 	("<div class='field-field'><div class='field-header1'>Liddell-Scott-Jones</div></div>\n") .
 	(empty($lex_LSJ[1]) ? "" : "<div class='field-field'><div class='field-label'>Word:</div><div class='field-value notranslate'>$lex_LSJ[1]</div></div>\n") .
 	(empty($lex_LSJ[2]) ? "" : "<div class='field-field'><div class='field-label'>Transliteration:</div><div class='field-value notranslate'>$lex_LSJ[2]</div></div>\n") .
 	(empty($lex_LSJ[3]) ? "" : "<div class='field-field'><div class='field-label'>Gloss:</div><div class='field-value'>$lex_LSJ[3]</div></div>\n") .
 	(empty($morphs_LSJ) ? "" : "<div class='field-field'><div class='field-label'>Morphhology:</div><div class='field-value'>$morphs_LSJ</div></div>\n") .
-	(empty($lex_LSJ[5]) ? "" : "<div class='field-field'><div class='field-label'>Definition:</div><div class='field-value'>$lex_LSJ[5]</div></div>\n")) .
+	(empty($lex_LSJ[5]) ? "" : "<div class='field-field'><div class='field-label'>Additional:</div><div class='field-value'>$lex_LSJ[5]</div></div>\n") .
+	(empty($lex_LSJ[6]) ? "" : "<div class='field-field'><div class='field-label'>Definition:</div><div class='field-value'>$lex_LSJ[6]</div></div>\n")) .
 	(empty($lex_strongs[0])	? "" :
 	("<div class='field-field'><div class='field-header1'>Strongs</div></div>\n") .
 	(empty($lex_strongs[1]) ? "" : "<div class='field-field'><div class='field-label'>Word:</div><div class='field-value notranslate'>$lex_strongs[1]</div></div>\n") .
@@ -1691,63 +1701,194 @@ echo "</div>\n";
 }
 
 
-
-
-/*** MORPHHOLOGY LSJ ***/
+/*** MORPHHOLOGY ***/
 function aion_morphhology($morph) {
-// define Language:Type-Gender-Extra
-static $language = array("A"=>"Aramaic","H"=>"Hebrew","G"=>"Greek","N"=>"Proper Name");
-static $type = array(
-"A"=>"Adjective","Adv"=>"Adverb","Art"=>"Article","Cond"=>"Conditional","Conj"=>"Conjunction","Cor"=>"Correlative","DemP"=>"Demonstrative Pronoun","ImpP"=>"Impersonal Pronoun",
-"Intg"=>"Interogative","Intj"=>"Interjection","N"=>"Noun","Neg"=>"Negative","Part"=>"Particle","Prep"=>"Preposition","PerP"=>"Personal Pronoun","PosP"=>"Possessive Pronoun",
-"RefP"=>"Reflexive Pronoun","RelP"=>"Relative Pronoun","V"=>"Verb",
-"Imperat"=>"Imperative",
-"IndP"=>"Hebrew Indefinite Pronoun",
-"Ps1c"=>"my, personal posessive - noun suffix: 1st person common singular",
-"Ps2m"=>"your, personal posessive - noun suffix: 2nd person masculine singular",
-"Ps2f"=>"your, personal posessive - noun suffix: 2nd person feminine singular",
-"Ps3m"=>"his, personal posessive - noun suffix: 3rd person masculine singular",
-"Ps3f"=>"her, personal posessive - noun suffix: 3rd person feminine singular",
-"Pp1c"=>"our, personal posessive - noun suffix: 1st person common plural",
-"Pp2m"=>"your, personal posessive - noun suffix: 2nd person masculine plural",
-"Pp2f"=>"your, personal posessive - noun suffix: 2nd person feminine plural",
-"Pp3m"=>"their, personal posessive - noun suffix: 3rd person masculine plural",
-"Pp3f"=>"their, personal posessive - noun suffix: 3rd person feminine plural",
-"Os1c"=>"me, personal pronoun - verb/prep. suffix: 1st person common singular",
-"Os2m"=>"you, personal pronoun - verb/prep. 2nd person masculine singular",
-"Os2f"=>"you, personal pronoun - verb/prep. 2nd person feminine singular",
-"Os3m"=>"him, personal pronoun - verb/prep. 3rd person masculine singular",
-"Os3f"=>"her, personal pronoun - verb/prep. 3rd person feminine singular",
-"Op1c"=>"us, personal pronoun - verb/prep. 1st person common plural",
-"Op2m"=>"you, personal pronoun - verb/prep. 2nd person masculine plural",
-"Op2f"=>"you, personal pronoun - verb/prep. 2nd person feminine plural",
-"Op3m"=>"them, personal pronoun - verb/prep. 3rd person masculine plural",
-"Op3f"=>"them, personal pronoun - verb/prep. 3rd person feminine plural",
-"Ss1c"=>"I, subject pronoun -  subject: 1st person common singular",
-"Ss2m"=>"you, subject pronoun - subject 2nd person masculine singular",
-"Ss2f"=>"you, subject pronoun - subject 2nd person feminine singular",
-"Ss3m"=>"he, subject pronoun - subject 3rd person masculine singular",
-"Ss3f"=>"she, subject pronoun - subject 3rd person feminine singular",
-"Sp1c"=>"we, subject pronoun - subject 1st person common plural",
-"Sp2m"=>"you, subject pronoun - subject 2nd person masculine plural",
-"Sp2f"=>"you, subject pronoun - subject 2nd person feminine plural",
-"Sp3m"=>"they, subject pronoun - subject 3rd person masculine plural",
-"Sp3f"=>"they, subject pronoun - subject 3rd person feminine plural",
+// save the morphs!
+static $lookup = array(
+'A:A'=>'Aramaic Adjective',
+'A:Adv'=>'Aramaic Adverb',
+'A:Cond'=>'Aramaic Conditional',
+'A:Conj'=>'Aramaic Conjunction',
+'A:DemP'=>'Aramaic Demonstrative Pronoun',
+'A:ImpP/A:Intg'=>'Aramaic Impersonal Pronoun / Interogative',
+'A:ImpP'=>'Aramaic Impersonal Pronoun',
+'A:Intg'=>'Aramaic Interogative',
+'A:Intj'=>'Aramaic Interjection',
+'A:PRT-I'=>'Aramaic Interogative',
+'A:N--T'=>'Aramaic Noun Title',
+'A:N-F'=>'Aramaic Noun Female',
+'A:N-M'=>'Aramaic Noun Male',
+'A:N'=>'Aramaic Noun',
+'A:Part'=>'Aramaic Particle',
+'A:PerP-CP'=>'Aramaic Personal Pronoun Common Plural',
+'A:PerP-CS'=>'Aramaic Personal Pronoun Common Singular',
+'A:PerP-MP'=>'Aramaic Personal Pronoun Male Plural',
+'A:PerP-MS'=>'Aramaic Personal Pronoun Male Singular',
+'A:Prep'=>'Aramaic Preposition',
+'A:V+A:N'=>'Aramaic Verb Noun',
+'A:V'=>'Aramaic Verb',
+'G:A--C'=>'Greek Adjective Comparative',
+'G:A--S'=>'Greek Adjective Superlative',
+'G:A-F'=>'Greek Adjective Female',
+'G:A-M'=>'Greek Adjective Male',
+'G:A-NUI'=>'Greek Number (Indeclinable)',
+'G:A/G:ADV'=>'Greek Adjective OR Adverb',
+'G:ADV-C'=>'Greek Adverb Common',
+'G:ADV-I'=>'Greek Adverb Interrogative',
+'G:ADV-N'=>'Greek Adverb Neuter',
+'G:ADV-S'=>'Greek Adverb Superlative',
+'G:ADV-T'=>'Greek Adverb Title',
+'G:ADV/G:A'=>'Greek Adverb OR Greek Adjective',
+'G:ADV'=>'Greek Adverb',
+'G:A'=>'Greek Adjective',
+'G:C-'=>'Greek Pronoun',
+'G:COND+G:PRT-N+G:CONJ'=>'Greek Conditional WITH Greek Negative WITH Greek Conjunction',
+'G:COND+G:PRT-N'=>'Greek Conditional WITH Greek Negative',
+'G:COND'=>'Greek Conditional',
+'G:CONJ+G:P-1'=>'Greek Conjunction WITH Personal Pronoun (1st person)',
+'G:CONJ-N'=>'Greek Conjunction Neuter',
+'G:CONJ'=>'Greek Conjunction',
+'G:D'=>'Greek Demonstrative Pronoun',
+'G:F-1'=>'Greek Reflexive Pronoun (1st person)',
+'G:F-2'=>'Greek Reflexive Pronoun (2nd person)',
+'G:F-3'=>'Greek Reflexive Pronoun (3rd person)',
+'G:'=>'Greek',
+'G:I'=>'Greek Interogative',
+'G:INJ'=>'Greek Interjection',
+'G:K'=>'Greek Correlative',
+'G:N-B'=>'Greek Noun Male/Female',
+'G:N-F/G:A-F'=>'Greek Noun Female OR Adjective Female',
+'G:N-F/G:V'=>'Greek Noun Female OR Verb',
+'G:N-F'=>'Greek Noun Female',
+'G:N-L'=>'Greek Noun Male/Neuter',
+'G:N-LI'=>'Greek Letter (Indeclinable)',
+'G:N-M'=>'Greek Noun Male',
+'G:N-N'=>'Greek Noun Neuter',
+'G:N-PRI'=>'Greek Noun Proper (Indeclinable)',
+'G:N'=>'Greek Noun',
+'G:P-1'=>'Greek Personal Pronoun (1st person)',
+'G:P-2'=>'Greek Personal Pronoun (2nd person)',
+'G:P'=>'Greek Personal Pronoun (3rd person)',
+'G:PREP/G:A'=>'Greek Preposition OR Adjective',
+'G:PREP'=>'Greek Preposition',
+'G:PRT-I'=>'Greek Particle - Interogative',
+'G:PRT-N+G:CONJ+G:PRT-N'=>'Greek Negative JOINED TO Greek Conjunction WITH Greek Negative',
+'G:PRT-N+G:CONJ'=>'Greek Negative JOINED TO Greek Conjunction',
+'G:PRT-N+G:PRT-N'=>'Greek Negative WITH Greek Negative',
+'G:PRT-N'=>'Greek Particle Neuter',
+'G:PRT'=>'Greek Particle',
+'G:Q'=>'Greek Correlative or Interrogative',
+'G:R'=>'Greek Relative Pronoun',
+'G:S-1'=>'Greek Possessive Pronoun (1st person)',
+'G:S-2'=>'Greek Possessive Pronoun (2nd person)',
+'G:T+G:V+G:CONJ+G:T+G:V+G:CONJ+G:T+G:V'=>'Greek Article WITH Greek Verb WITH Greek Conjunction WITH Greek Article WITH Greek Verb WITH Greek Conjunction WITH Greek Article WITH Greek Verb',
+'G:T'=>'Greek Article',
+'G:V'=>'Greek Verb',
+'G:W'=>'Greek',
+'G:X'=>'Greek Indefinite Pronoun',
+'G:Α'=>'Greek Adjective',
+'H:A-F'=>'Hebrew Adjective Female',
+'H:A-M'=>'Hebrew Adjective Male',
+'H:A/H:N-M'=>'Hebrew Adjective OR Noun (Masculine)',
+'H:A'=>'Hebrew Adjective',
+'H:Adv'=>'Hebrew Adverb',
+'H:Cond'=>'Hebrew Conditional',
+'H:Conj'=>'Hebrew Conjunction',
+'H:DemP'=>'Hebrew Demonstrative Pronoun',
+'H:INJ'=>'Hebrew Interjection',
+'H:IndP'=>'Hebrew Hebrew Indefinite Pronoun',
+'H:Intg'=>'Hebrew Interogative',
+'H:Intj'=>'Hebrew Interjection',
+'H:N-B'=>'Hebrew Noun Male/Female',
+'H:N-F'=>'Hebrew Noun Female',
+'H:N-M/H:A'=>'Hebrew Noun (Masculine) OR Adjective',
+'H:N-M/H:Adv'=>'Hebrew Noun (Masculine) OR Adverb',
+'H:N-M/N:N--L'=>'Hebrew Noun (Masculine) OR Proper Name of a Location',
+'H:N-M/N:N--T'=>'Hebrew Noun (Masculine) OR Proper Name of some kind',
+'H:N-M/N:N-M-T'=>'Hebrew Noun (Masculine) OR Proper Name (Masculine) of some kind',
+'H:N-M'=>'Hebrew Noun Male',
+'H:N'=>'Hebrew Noun',
+'H:Neg'=>'Hebrew Negative',
+'H:Op1c'=>'Hebrew us, personal pronoun - verb/prep. 1st person common plural',
+'H:Op2f'=>'Hebrew you, personal pronoun - verb/prep. 2nd person feminine plural',
+'H:Op2m'=>'Hebrew you, personal pronoun - verb/prep. 2nd person masculine plural',
+'H:Op3f'=>'Hebrew them, personal pronoun - verb/prep. 3rd person feminine plural',
+'H:Op3m'=>'Hebrew them, personal pronoun - verb/prep. 3rd person masculine plural',
+'H:Os1c'=>'Hebrew me, personal pronoun - verb/prep. suffix: 1st person common singular',
+'H:Os2f'=>'Hebrew you, personal pronoun - verb/prep. 2nd person feminine singular',
+'H:Os2m'=>'Hebrew you, personal pronoun - verb/prep. 2nd person masculine singular',
+'H:Os3f'=>'Hebrew her, personal pronoun - verb/prep. 3rd person feminine singular',
+'H:Os3m'=>'Hebrew him, personal pronoun - verb/prep. 3rd person masculine singular',
+'H:PRT-I'=>'Hebrew Particle',
+'H:Part'=>'Hebrew Particle',
+'H:PerP-CP'=>'Hebrew Personal Pronoun Common Plural',
+'H:PerP-CS'=>'Hebrew Personal Pronoun Common Singular',
+'H:PerP-FP'=>'Hebrew Personal Pronoun Female Plural',
+'H:PerP-FS'=>'Hebrew Personal Pronoun Female Singular',
+'H:PerP-MP'=>'Hebrew Personal Pronoun Male Plural',
+'H:PerP-MS'=>'Hebrew Personal Pronoun Male Singular',
+'H:Pp1c'=>'Hebrew our, personal posessive - noun suffix: 1st person common plural',
+'H:Pp2f'=>'Hebrew your, personal posessive - noun suffix: 2nd person feminine plural',
+'H:Pp2m'=>'Hebrew your, personal posessive - noun suffix: 2nd person masculine plural',
+'H:Pp3f'=>'Hebrew their, personal posessive - noun suffix: 3rd person feminine plural',
+'H:Pp3m'=>'Hebrew their, personal posessive - noun suffix: 3rd person masculine plural',
+'H:Prep+H:RelP'=>'Hebrew Preposition JOINED TO Relative Pronoun',
+'H:Prep/H:Conj'=>'Hebrew Preposition OR Conjunction',
+'H:Prep'=>'Hebrew Preposition',
+'H:Ps1c'=>'Hebrew my, personal posessive - noun suffix: 1st person common singular',
+'H:Ps2f'=>'Hebrew your, personal posessive - noun suffix: 2nd person feminine singular',
+'H:Ps2m'=>'Hebrew your, personal posessive - noun suffix: 2nd person masculine singular',
+'H:Ps3f'=>'Hebrew her, personal posessive - noun suffix: 3rd person feminine singular',
+'H:Ps3m'=>'Hebrew his, personal posessive - noun suffix: 3rd person masculine singular',
+'H:RelP'=>'Hebrew Relative Pronoun',
+'H:Sp1c'=>'Hebrew we, subject pronoun - subject 1st person common plural',
+'H:Sp2f'=>'Hebrew you, subject pronoun - subject 2nd person feminine plural',
+'H:Sp2m'=>'Hebrew you, subject pronoun - subject 2nd person masculine plural',
+'H:Sp3f'=>'Hebrew they, subject pronoun - subject 3rd person feminine plural',
+'H:Sp3m'=>'Hebrew they, subject pronoun - subject 3rd person masculine plural',
+'H:Ss1c'=>'Hebrew I, subject pronoun -  subject: 1st person common singular',
+'H:Ss2f'=>'Hebrew you, subject pronoun - subject 2nd person feminine singular',
+'H:Ss2m'=>'Hebrew you, subject pronoun - subject 2nd person masculine singular',
+'H:Ss3f'=>'Hebrew she, subject pronoun - subject 3rd person feminine singular',
+'H:Ss3m'=>'Hebrew he, subject pronoun - subject 3rd person masculine singular',
+'H:V'=>'Hebrew Verb',
+'N:A--LG'=>'Proper Name Adjective Gentilic Location',
+'N:A--PG'=>'Proper Name Adjective Gentilic Person',
+'N:ADV-T'=>'Proper Name Adverb',
+'N:A'=>'Proper Name Adjective',
+'N:N--L/N:N--LG/N:N-M-P'=>'Proper Name of a Location OR of a Location in Gentilic sense OR of a Male Person',
+'N:N--L/N:N--LG'=>'Proper Name of a Location OR of a Location in Gentilic sense',
+'N:N--L/N:N-M-P'=>'Proper Name of a Location OR of a Male Person',
+'N:N--L/N:N-M-T'=>'Proper Name of a Location OR Male of some kind',
+'N:N--LG/N:N-M-P'=>'Proper Name of a Location in Gentilic sense OR of a Male Person',
+'N:N--LG'=>'Proper Name Noun Gentilic Location',
+'N:N--L'=>'Proper Name Noun Location',
+'N:N--PG'=>'Proper Name Noun Gentilic Person',
+'N:N--TG'=>'Proper Name Noun Gentilic Title',
+'N:N--T'=>'Proper Name Noun Title',
+'N:N-F-LG'=>'Proper Name Noun Female Gentilic Location',
+'N:N-F-L'=>'Proper Name Noun Female Location',
+'N:N-F-P/N:N--L'=>'Proper Name of a Female Person OR of a Location',
+'N:N-F-PG'=>'Proper Name Noun Female Gentilic Person',
+'N:N-F-P'=>'Proper Name Noun Female Person',
+'N:N-F-T/N:N--L'=>'Proper Name of a Female of some kind OR of a Location',
+'N:N-F-T'=>'Proper Name Noun Female Title',
+'N:N-M-LG'=>'Proper Name Noun Male Gentilic Location',
+'N:N-M-L'=>'Proper Name Noun Male Location',
+'N:N-M-P/N:A'=>'Proper Name of a Male Person OR Adjectival',
+'N:N-M-P/N:N--L'=>'Proper Name of a Male Person OR of a Location',
+'N:N-M-P/N:N-F-P/N:N--L'=>'Proper Name of a Male Person OR of a Female Person OR of a Location',
+'N:N-M-P/N:N-F-P'=>'Proper Name of a Male Person OR of a Female Person',
+'N:N-M-P/N:N-M-PG'=>'Proper Name of a Male Person OR of a Male Person in Gentilic sense',
+'N:N-M-P/N:N-M-T'=>'Proper Name of a Male Person OR Male of some kind',
+'N:N-M-PG'=>'Proper Name Noun Male Gentilic Person',
+'N:N-M-P'=>'Proper Name Noun Male Person',
+'N:N-M-T'=>'Proper Name Noun Male Title',
 );
-static $gender = array(
-"F"=>"Female","M"=>"Male","N"=>"Neuter","C"=>"Common","B"=>"Male/Female","L"=>"Male/Neuter","E"=>"Female/Neuter",
-"FS"=>"Female Singular","MS"=>"Male Singular","NS"=>"Neuter Singular","CS"=>"Common Singular","BS"=>"Male/Female Singular","LS"=>"Male/Neuter Singular","ES"=>"Female/Neuter Singular",
-"FP"=>"Female Plural","MP"=>"Male Plural","NP"=>"Neuter Plural","CP"=>"Common Plural","BP"=>"Male/Female Plural","LP"=>"Male/Neuter Plural","EP"=>"Female/Neuter Plural");
-static $extra = array("L"=>"Location","P"=>"Person","LG"=>"Gentilic Location","PG"=>"Gentilic Person","T"=>"Title","TG"=>"Gentilic Title");
 // check
 if (empty($morph)) { return ""; }
-$parts = mb_split("[:\-]{1}", $morph);
-$gotit =((empty($parts[0]) || empty($language[$parts[0]])	? "" : $language[$parts[0]]) .		// language
-		 (empty($parts[1]) || empty($type[$parts[1]])		? "" : ", ".$type[$parts[1]]) .		// type
-		 (empty($parts[2]) || empty($gender[$parts[2]])		? "" : ", ".$gender[$parts[2]]) .	// gender
-		 (empty($parts[3]) || empty($extra[$parts[3]])		? "" : ", ".$extra[$parts[3]]));	// extra
-if (empty($gotit)) { abcms_errs("aion_morphhology() morphhology not found! $morph"); }
-return $gotit;
+if (empty($lookup[$morph])) { abcms_errs("aion_morphhology() morphhology not found! $morph"); return ""; }
+return $lookup[$morph];
 }
 
 

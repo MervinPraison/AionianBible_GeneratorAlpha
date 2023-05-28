@@ -254,6 +254,7 @@ foreach($PACKS as $lang => $pack) {
 			if ($last!="$indx$book$chap$vers") {
 				if (fwrite($studyhandle,"$indx	$book	$chap	$vers	XX000	\n")===false) { AION_ECHO("ERROR! fwrite($file: $line)"); }
 				if (fwrite($studyhandle,"$indx	$book	$chap	$vers	XX000	\n")===false) { AION_ECHO("ERROR! fwrite($file: $line)"); }
+				if (fwrite($studyhandle,"$indx	$book	$chap	$vers	ZZ099	WRD:\n")===false) { AION_ECHO("ERROR! fwrite($file: $line)"); }
 				$last="$indx$book$chap$vers";
 			}
 			// write the verse word
@@ -271,10 +272,11 @@ foreach($PACKS as $lang => $pack) {
 		AION_ECHO("Processing: $file");
 		if (!($handle = fopen($file, "r"))) { AION_ECHO("ERROR! fopen($file)"); }
 		$notyet = TRUE;
+		$beginwords = FALSE;
 		$indx = NULL;
 		while (($line = fgets($handle)) !== false) {
-			if (empty($line) || ctype_space($line)) { $indx = NULL; continue; }
-			if ($notyet) { if (!preg_match("/^# Mat.1.1	/u",$line) && !preg_match("/^# Act.1.1	/u",$line)) { $indx = NULL; continue; } $notyet = FALSE; }
+			if (empty($line) || ctype_space($line) || $line[0]!='#') { continue; }
+			if ($notyet) { if (!preg_match("/^# Mat.1.1	/u",$line) && !preg_match("/^# Act.1.1	/u",$line)) { continue; } $notyet = FALSE; }
 			// first line
 			if (preg_match("/^# ([[:alnum:]]{3})\.([[:digit:]]{1,3})\.([[:digit:]]{1,3})\t(.+)$/u",$line,$match)) {
 				$book = strtoupper($match[1]);
@@ -283,38 +285,29 @@ foreach($PACKS as $lang => $pack) {
 				$indx = sprintf('%03d', (int)array_search($book,array_keys($abooks)));
 				$chap = sprintf('%03d', (int)$match[2]);
 				$vers = sprintf('%03d', (int)$match[3]);
-				$order = 0;
-				$sort = 'ZZ001';
+				$order = 100;
 				$yeah = "GRK:	".$match[4];
+				$beginwords = TRUE;
 				// block intro
 				if (fwrite($studyhandle,"$indx	$book	$chap	$vers	XX000	\n")===false) { AION_ECHO("ERROR! fwrite($file: $line)"); }
 				if (fwrite($studyhandle,"$indx	$book	$chap	$vers	XX000	\n")===false) { AION_ECHO("ERROR! fwrite($file: $line)"); }
 			}
 			else if ($indx === NULL) {
-				AION_ECHO("ERROR! INDX==NULL $file: $line)");
+				AION_ECHO("ERROR! INDX==NULL?? $file: $line)");
 			}
 			// more lines
 			else if (preg_match("/^#_(.+)$/u",$line,$match)) {
-				$order = ($order < 100 ? 100 : $order);
-				$sort = sprintf('ZZ%03d', $order);
-				if (preg_match("/^#_Translation\s+(.+)$/u",$line,$match2)) {	$yeah = "STP:	".$match2[1]; }
-				else {															$yeah = $match[1]; }
+				$yeah = $match[1];
 			}
 			// bible word lines
-			else if (preg_match("/^([[:digit:]]{2})_([[:alnum:]]{3})\.([[:digit:]]{3})\.([[:digit:]]{3})\t(.+)$/u",$line,$match)) {
-				$bookT = strtoupper($match[2]);
-				if (empty($tbooks[$bookT])) { AION_ECHO("ERROR! missing book='$bookT': $line"); }
-				$bookT = $tbooks[$bookT];
-				$indxT = sprintf('%03d', (int)array_search($bookT,array_keys($abooks)));
-				$chapT = sprintf('%03d', (int)$match[3]);
-				$versT = sprintf('%03d', (int)$match[4]);
-				if ($indx!=$indxT || $book!=$bookT || $chap!=$chapT) {												AION_ECHO("WARN! bad big reference skipped: $line"); continue; }
-				if ((int)$versT == (int)$vers + 1) {		$order = ($order < 200 || $order > 299 ? 200 : $order);	AION_ECHO("WARN! bad reference forwarded: $line"); }
-				else if ((int)$versT == (int)$vers - 1) {	$order = ($order < 800 ? 800 : $order);					AION_ECHO("WARN! bad reference backwarded: $line"); }
-				else if ((int)$versT != (int)$vers) {																AION_ECHO("WARN! bad verse reference skipped: $line"); continue; }
-				else {										$order = ($order < 300 ? 300 : $order); }
-				$sort = sprintf('ZZ%03d', $order);
-				$yeah = $match[5];
+			else if (preg_match("/^#([[:digit:]]{2})=[^\t]+\t(.+)$/u",$line,$match)) {
+				if ($beginwords) {
+					$sort = sprintf('ZZ%03d', $order);
+					if (fwrite($studyhandle,"$indx	$book	$chap	$vers	$sort	WRD:\n")===false) { AION_ECHO("ERROR! fwrite($file: $line)"); }
+					++$order;
+					$beginwords = FALSE;
+				}
+				$yeah = $match[2];
 			}
 			else {
 				AION_ECHO("ERROR! bad line no matchee: $line");
@@ -322,6 +315,7 @@ foreach($PACKS as $lang => $pack) {
 			if ($order > 999) {
 				AION_ECHO("ERROR! bad order number=$order: $line");
 			}
+			$sort = sprintf('ZZ%03d', $order);
 			if (fwrite($studyhandle,"$indx	$book	$chap	$vers	$sort	$yeah\n")===false) { AION_ECHO("ERROR! fwrite($file: $line)"); }
 			++$order;
 		}
@@ -373,7 +367,7 @@ foreach($PACKS as $lang => $pack) {
 	$bibledetail .= "#	$short: '$name' from $location ($copyright)\n";
 	$sort = sprintf('ZZ%03d', $order);
 	AION_ECHO("Processing: STEP Bible STP $sort");
-	system("cat ../www-stageresources/Holy-Bible---English---STEPBible-Amalgamant---Aionian-Edition.noia | sed -r -e '/^0[4-9]+/d' | sed -r \"s/[[:digit:]]+	[[:alnum:]]+	[[:digit:]]+	[[:digit:]]+	/&$sort	STP:	/\" >> $studyfile");
+	system("cat ../www-stageresources/Holy-Bible---English---STEPBible-Amalgamant---Aionian-Edition.noia | sed -r \"s/[[:digit:]]+	[[:alnum:]]+	[[:digit:]]+	[[:digit:]]+	/&$sort	STP:	/\" >> $studyfile");
 	// sort and add header
 	AION_ECHO("Sort: $studyfile");
 	if (!($HEADER2=preg_replace("/(\# Select Bible translations[^\n]+\n)/sui", '$1'."$bibledetail", $HEADER, 1, $count)) || $count!=1) {		AION_ECHO("ERROR! preg_replace(HEADER)"); }
