@@ -35,7 +35,7 @@ system("cat ../www-stageresources/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible---
 "> ../spellcheck/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.WORDS | ".
-"aspell list --lang=ar ".
+"aspell list --lang=ar  ".
 "> ../spellcheck/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.ar");
 system('wc -l ../spellcheck/Holy-Bible---Arabic---Arabic-Van-Dyck-Bible.ar');
 
@@ -51,7 +51,7 @@ system("cat ../www-stageresources/Holy-Bible---Arabic---New-Arabic-Bible---Sourc
 "> ../spellcheck/Holy-Bible---Arabic---New-Arabic-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Arabic---New-Arabic-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Arabic---New-Arabic-Bible.WORDS | ".
-"aspell list --lang=ar ".
+"aspell list --lang=ar  ".
 "> ../spellcheck/Holy-Bible---Arabic---New-Arabic-Bible.ar");
 system('wc -l ../spellcheck/Holy-Bible---Arabic---New-Arabic-Bible.ar');
 
@@ -91,7 +91,7 @@ system("cat ../www-stageresources/Holy-Bible---Armenian---Armenian-Bible-Eastern
 "> ../spellcheck/Holy-Bible---Armenian---Armenian-Bible-Eastern.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Armenian---Armenian-Bible-Eastern.WORDS');
 system("cat ../spellcheck/Holy-Bible---Armenian---Armenian-Bible-Eastern.WORDS | ".
-"aspell list --lang=hy ".
+"aspell list --lang=hy  ".
 "> ../spellcheck/Holy-Bible---Armenian---Armenian-Bible-Eastern.hy");
 system('wc -l ../spellcheck/Holy-Bible---Armenian---Armenian-Bible-Eastern.hy');
 
@@ -107,7 +107,7 @@ system("cat ../www-stageresources/Holy-Bible---Armenian---Armenian-Bible-Western
 "> ../spellcheck/Holy-Bible---Armenian---Armenian-Bible-Western.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Armenian---Armenian-Bible-Western.WORDS');
 system("cat ../spellcheck/Holy-Bible---Armenian---Armenian-Bible-Western.WORDS | ".
-"aspell list --lang=hy ".
+"aspell list --lang=hy  ".
 "> ../spellcheck/Holy-Bible---Armenian---Armenian-Bible-Western.hy");
 system('wc -l ../spellcheck/Holy-Bible---Armenian---Armenian-Bible-Western.hy');
 
@@ -135,7 +135,7 @@ system("cat ../www-stageresources/Holy-Bible---Azerbaijani---Azerbaijani-Bible--
 "> ../spellcheck/Holy-Bible---Azerbaijani---Azerbaijani-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Azerbaijani---Azerbaijani-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Azerbaijani---Azerbaijani-Bible.WORDS | ".
-"aspell list --lang=az ".
+"aspell list --lang=az  ".
 "> ../spellcheck/Holy-Bible---Azerbaijani---Azerbaijani-Bible.az");
 system('wc -l ../spellcheck/Holy-Bible---Azerbaijani---Azerbaijani-Bible.az');
 
@@ -175,7 +175,7 @@ system("cat ../www-stageresources/Holy-Bible---Bengali---Bengali-Bible---Source-
 "> ../spellcheck/Holy-Bible---Bengali---Bengali-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Bengali---Bengali-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Bengali---Bengali-Bible.WORDS | ".
-"aspell list --lang=bn ".
+"aspell list --lang=bn  ".
 "> ../spellcheck/Holy-Bible---Bengali---Bengali-Bible.bn");
 system('wc -l ../spellcheck/Holy-Bible---Bengali---Bengali-Bible.bn');
 
@@ -191,7 +191,7 @@ system("cat ../www-stageresources/Holy-Bible---Breton---Breton-Gospels---Source-
 "> ../spellcheck/Holy-Bible---Breton---Breton-Gospels.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Breton---Breton-Gospels.WORDS');
 system("cat ../spellcheck/Holy-Bible---Breton---Breton-Gospels.WORDS | ".
-"aspell list --lang=br ".
+"aspell list --lang=br  ".
 "> ../spellcheck/Holy-Bible---Breton---Breton-Gospels.br");
 system('wc -l ../spellcheck/Holy-Bible---Breton---Breton-Gospels.br');
 
@@ -207,7 +207,7 @@ system("cat ../www-stageresources/Holy-Bible---Bulgarian---Bulgarian-Bible---Sou
 "> ../spellcheck/Holy-Bible---Bulgarian---Bulgarian-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Bulgarian---Bulgarian-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Bulgarian---Bulgarian-Bible.WORDS | ".
-"aspell list --lang=bg ".
+"aspell list --lang=bg  ".
 "> ../spellcheck/Holy-Bible---Bulgarian---Bulgarian-Bible.bg");
 system('wc -l ../spellcheck/Holy-Bible---Bulgarian---Bulgarian-Bible.bg');
 
@@ -365,7 +365,7 @@ system("cat ../www-stageresources/Holy-Bible---Croatian---Croatian-Bible---Sourc
 "> ../spellcheck/Holy-Bible---Croatian---Croatian-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Croatian---Croatian-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Croatian---Croatian-Bible.WORDS | ".
-"aspell list --lang=hr ".
+"aspell list --lang=hr  ".
 "> ../spellcheck/Holy-Bible---Croatian---Croatian-Bible.hr");
 system('wc -l ../spellcheck/Holy-Bible---Croatian---Croatian-Bible.hr');
 
@@ -381,7 +381,7 @@ system("cat ../www-stageresources/Holy-Bible---Czech---Czech-Bible-Kralicka---So
 "> ../spellcheck/Holy-Bible---Czech---Czech-Bible-Kralicka.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Czech---Czech-Bible-Kralicka.WORDS');
 system("cat ../spellcheck/Holy-Bible---Czech---Czech-Bible-Kralicka.WORDS | ".
-"aspell list --lang=cs ".
+"aspell list --lang=cs  ".
 "> ../spellcheck/Holy-Bible---Czech---Czech-Bible-Kralicka.cs");
 system('wc -l ../spellcheck/Holy-Bible---Czech---Czech-Bible-Kralicka.cs');
 
@@ -397,7 +397,7 @@ system("cat ../www-stageresources/Holy-Bible---Danish---Danish-Bible---Source-Ed
 "> ../spellcheck/Holy-Bible---Danish---Danish-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Danish---Danish-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Danish---Danish-Bible.WORDS | ".
-"aspell list --lang=da ".
+"aspell list --lang=da  ".
 "> ../spellcheck/Holy-Bible---Danish---Danish-Bible.da");
 system('wc -l ../spellcheck/Holy-Bible---Danish---Danish-Bible.da');
 
@@ -425,7 +425,7 @@ system("cat ../www-stageresources/Holy-Bible---Dutch---Canisiusvertaling---Sourc
 "> ../spellcheck/Holy-Bible---Dutch---Canisiusvertaling.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Dutch---Canisiusvertaling.WORDS');
 system("cat ../spellcheck/Holy-Bible---Dutch---Canisiusvertaling.WORDS | ".
-"aspell list --lang=nl ".
+"aspell list --lang=nl  ".
 "> ../spellcheck/Holy-Bible---Dutch---Canisiusvertaling.nl");
 system('wc -l ../spellcheck/Holy-Bible---Dutch---Canisiusvertaling.nl');
 
@@ -441,7 +441,7 @@ system("cat ../www-stageresources/Holy-Bible---Dutch---Statenvertaling---Source-
 "> ../spellcheck/Holy-Bible---Dutch---Statenvertaling.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Dutch---Statenvertaling.WORDS');
 system("cat ../spellcheck/Holy-Bible---Dutch---Statenvertaling.WORDS | ".
-"aspell list --lang=nl ".
+"aspell list --lang=nl  ".
 "> ../spellcheck/Holy-Bible---Dutch---Statenvertaling.nl");
 system('wc -l ../spellcheck/Holy-Bible---Dutch---Statenvertaling.nl');
 
@@ -457,7 +457,7 @@ system("cat ../www-stageresources/Holy-Bible---English---A-Conservative-Version-
 "> ../spellcheck/Holy-Bible---English---A-Conservative-Version.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---A-Conservative-Version.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---A-Conservative-Version.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---A-Conservative-Version.en");
 system('wc -l ../spellcheck/Holy-Bible---English---A-Conservative-Version.en');
 
@@ -473,7 +473,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Aionian-Bible---Source-
 "> ../spellcheck/Holy-Bible---English---Aionian-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Aionian-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Aionian-Bible.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Aionian-Bible.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Aionian-Bible.en');
 
@@ -489,7 +489,7 @@ system("cat ../www-stageresources/Holy-Bible---English---American-Standard-Versi
 "> ../spellcheck/Holy-Bible---English---American-Standard-Version-1901.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---American-Standard-Version-1901.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---American-Standard-Version-1901.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---American-Standard-Version-1901.en");
 system('wc -l ../spellcheck/Holy-Bible---English---American-Standard-Version-1901.en');
 
@@ -505,7 +505,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Bible-in-Basic-English-
 "> ../spellcheck/Holy-Bible---English---Bible-in-Basic-English.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Bible-in-Basic-English.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Bible-in-Basic-English.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Bible-in-Basic-English.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Bible-in-Basic-English.en');
 
@@ -521,7 +521,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Brenton-English-Septuag
 "> ../spellcheck/Holy-Bible---English---Brenton-English-Septuagint.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Brenton-English-Septuagint.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Brenton-English-Septuagint.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Brenton-English-Septuagint.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Brenton-English-Septuagint.en');
 
@@ -537,7 +537,7 @@ system("cat ../www-stageresources/Holy-Bible---English---British-English-Septuag
 "> ../spellcheck/Holy-Bible---English---British-English-Septuagint-2012.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---British-English-Septuagint-2012.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---British-English-Septuagint-2012.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---British-English-Septuagint-2012.en");
 system('wc -l ../spellcheck/Holy-Bible---English---British-English-Septuagint-2012.en');
 
@@ -553,7 +553,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Catholic-Public-Domain-
 "> ../spellcheck/Holy-Bible---English---Catholic-Public-Domain.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Catholic-Public-Domain.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Catholic-Public-Domain.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Catholic-Public-Domain.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Catholic-Public-Domain.en');
 
@@ -569,7 +569,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Darby-Translation---Sou
 "> ../spellcheck/Holy-Bible---English---Darby-Translation.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Darby-Translation.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Darby-Translation.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Darby-Translation.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Darby-Translation.en');
 
@@ -585,7 +585,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Douay-Rheims-1899---Sou
 "> ../spellcheck/Holy-Bible---English---Douay-Rheims-1899.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Douay-Rheims-1899.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Douay-Rheims-1899.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Douay-Rheims-1899.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Douay-Rheims-1899.en');
 
@@ -601,7 +601,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Family-35-NT---Source-E
 "> ../spellcheck/Holy-Bible---English---Family-35-NT.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Family-35-NT.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Family-35-NT.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Family-35-NT.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Family-35-NT.en');
 
@@ -617,7 +617,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Free-Bible-Version---So
 "> ../spellcheck/Holy-Bible---English---Free-Bible-Version.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Free-Bible-Version.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Free-Bible-Version.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Free-Bible-Version.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Free-Bible-Version.en');
 
@@ -633,7 +633,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Geneva-Bible---Source-E
 "> ../spellcheck/Holy-Bible---English---Geneva-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Geneva-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Geneva-Bible.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Geneva-Bible.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Geneva-Bible.en');
 
@@ -649,7 +649,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Gods-Living-Word---Sour
 "> ../spellcheck/Holy-Bible---English---Gods-Living-Word.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Gods-Living-Word.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Gods-Living-Word.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Gods-Living-Word.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Gods-Living-Word.en');
 
@@ -665,7 +665,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Jewish-Bible---Source-E
 "> ../spellcheck/Holy-Bible---English---Jewish-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Jewish-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Jewish-Bible.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Jewish-Bible.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Jewish-Bible.en');
 
@@ -681,7 +681,7 @@ system("cat ../www-stageresources/Holy-Bible---English---King-James-Version---So
 "> ../spellcheck/Holy-Bible---English---King-James-Version.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---King-James-Version.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---King-James-Version.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---King-James-Version.en");
 system('wc -l ../spellcheck/Holy-Bible---English---King-James-Version.en');
 
@@ -697,7 +697,7 @@ system("cat ../www-stageresources/Holy-Bible---English---King-James-Version-Amer
 "> ../spellcheck/Holy-Bible---English---King-James-Version-American.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---King-James-Version-American.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---King-James-Version-American.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---King-James-Version-American.en");
 system('wc -l ../spellcheck/Holy-Bible---English---King-James-Version-American.en');
 
@@ -713,7 +713,7 @@ system("cat ../www-stageresources/Holy-Bible---English---King-James-Version-Upda
 "> ../spellcheck/Holy-Bible---English---King-James-Version-Updated.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---King-James-Version-Updated.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---King-James-Version-Updated.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---King-James-Version-Updated.en");
 system('wc -l ../spellcheck/Holy-Bible---English---King-James-Version-Updated.en');
 
@@ -729,7 +729,7 @@ system("cat ../www-stageresources/Holy-Bible---English---LXX2012-U-S-English---S
 "> ../spellcheck/Holy-Bible---English---LXX2012-U-S-English.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---LXX2012-U-S-English.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---LXX2012-U-S-English.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---LXX2012-U-S-English.en");
 system('wc -l ../spellcheck/Holy-Bible---English---LXX2012-U-S-English.en');
 
@@ -745,7 +745,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Montgomery-NT---Source-
 "> ../spellcheck/Holy-Bible---English---Montgomery-NT.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Montgomery-NT.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Montgomery-NT.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Montgomery-NT.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Montgomery-NT.en');
 
@@ -761,7 +761,7 @@ system("cat ../www-stageresources/Holy-Bible---English---New-Heart-Aramaic---Sou
 "> ../spellcheck/Holy-Bible---English---New-Heart-Aramaic.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---New-Heart-Aramaic.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---New-Heart-Aramaic.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---New-Heart-Aramaic.en");
 system('wc -l ../spellcheck/Holy-Bible---English---New-Heart-Aramaic.en');
 
@@ -777,7 +777,7 @@ system("cat ../www-stageresources/Holy-Bible---English---New-Heart-Jehovah---Sou
 "> ../spellcheck/Holy-Bible---English---New-Heart-Jehovah.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---New-Heart-Jehovah.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---New-Heart-Jehovah.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---New-Heart-Jehovah.en");
 system('wc -l ../spellcheck/Holy-Bible---English---New-Heart-Jehovah.en');
 
@@ -793,7 +793,7 @@ system("cat ../www-stageresources/Holy-Bible---English---New-Heart-Jesus-Messiah
 "> ../spellcheck/Holy-Bible---English---New-Heart-Jesus-Messiah.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---New-Heart-Jesus-Messiah.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---New-Heart-Jesus-Messiah.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---New-Heart-Jesus-Messiah.en");
 system('wc -l ../spellcheck/Holy-Bible---English---New-Heart-Jesus-Messiah.en');
 
@@ -809,7 +809,7 @@ system("cat ../www-stageresources/Holy-Bible---English---New-Heart-Messianic---S
 "> ../spellcheck/Holy-Bible---English---New-Heart-Messianic.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---New-Heart-Messianic.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---New-Heart-Messianic.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---New-Heart-Messianic.en");
 system('wc -l ../spellcheck/Holy-Bible---English---New-Heart-Messianic.en');
 
@@ -825,7 +825,7 @@ system("cat ../www-stageresources/Holy-Bible---English---New-Heart-Standard---So
 "> ../spellcheck/Holy-Bible---English---New-Heart-Standard.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---New-Heart-Standard.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---New-Heart-Standard.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---New-Heart-Standard.en");
 system('wc -l ../spellcheck/Holy-Bible---English---New-Heart-Standard.en');
 
@@ -841,7 +841,7 @@ system("cat ../www-stageresources/Holy-Bible---English---New-Heart-YHWH---Source
 "> ../spellcheck/Holy-Bible---English---New-Heart-YHWH.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---New-Heart-YHWH.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---New-Heart-YHWH.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---New-Heart-YHWH.en");
 system('wc -l ../spellcheck/Holy-Bible---English---New-Heart-YHWH.en');
 
@@ -857,7 +857,7 @@ system("cat ../www-stageresources/Holy-Bible---English---One-Unity-Resource-Bibl
 "> ../spellcheck/Holy-Bible---English---One-Unity-Resource-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---One-Unity-Resource-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---One-Unity-Resource-Bible.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---One-Unity-Resource-Bible.en");
 system('wc -l ../spellcheck/Holy-Bible---English---One-Unity-Resource-Bible.en');
 
@@ -873,7 +873,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Open-English-Bible-Comm
 "> ../spellcheck/Holy-Bible---English---Open-English-Bible-Commonwealth.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Open-English-Bible-Commonwealth.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Open-English-Bible-Commonwealth.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Open-English-Bible-Commonwealth.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Open-English-Bible-Commonwealth.en');
 
@@ -889,7 +889,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Open-English-Bible-US--
 "> ../spellcheck/Holy-Bible---English---Open-English-Bible-US.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Open-English-Bible-US.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Open-English-Bible-US.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Open-English-Bible-US.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Open-English-Bible-US.en');
 
@@ -905,7 +905,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Revised-Version---Sourc
 "> ../spellcheck/Holy-Bible---English---Revised-Version.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Revised-Version.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Revised-Version.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Revised-Version.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Revised-Version.en');
 
@@ -921,7 +921,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Rotherham-Bible---Sourc
 "> ../spellcheck/Holy-Bible---English---Rotherham-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Rotherham-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Rotherham-Bible.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Rotherham-Bible.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Rotherham-Bible.en');
 
@@ -937,7 +937,7 @@ system("cat ../www-stageresources/Holy-Bible---English---STEPBible-Amalgamant---
 "> ../spellcheck/Holy-Bible---English---STEPBible-Amalgamant.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---STEPBible-Amalgamant.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---STEPBible-Amalgamant.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---STEPBible-Amalgamant.en");
 system('wc -l ../spellcheck/Holy-Bible---English---STEPBible-Amalgamant.en');
 
@@ -953,7 +953,7 @@ system("cat ../www-stageresources/Holy-Bible---English---STEPBible-Concordant---
 "> ../spellcheck/Holy-Bible---English---STEPBible-Concordant.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---STEPBible-Concordant.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---STEPBible-Concordant.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---STEPBible-Concordant.en");
 system('wc -l ../spellcheck/Holy-Bible---English---STEPBible-Concordant.en');
 
@@ -969,7 +969,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Trans-Trans---Source-Ed
 "> ../spellcheck/Holy-Bible---English---Trans-Trans.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Trans-Trans.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Trans-Trans.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Trans-Trans.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Trans-Trans.en');
 
@@ -985,7 +985,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Twentieth-Century-NT---
 "> ../spellcheck/Holy-Bible---English---Twentieth-Century-NT.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Twentieth-Century-NT.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Twentieth-Century-NT.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Twentieth-Century-NT.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Twentieth-Century-NT.en');
 
@@ -1001,7 +1001,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Tyndale-Bible---Source-
 "> ../spellcheck/Holy-Bible---English---Tyndale-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Tyndale-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Tyndale-Bible.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Tyndale-Bible.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Tyndale-Bible.en');
 
@@ -1017,7 +1017,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Unlocked-Literal-Bible-
 "> ../spellcheck/Holy-Bible---English---Unlocked-Literal-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Unlocked-Literal-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Unlocked-Literal-Bible.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Unlocked-Literal-Bible.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Unlocked-Literal-Bible.en');
 
@@ -1033,7 +1033,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Webster-Bible---Source-
 "> ../spellcheck/Holy-Bible---English---Webster-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Webster-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Webster-Bible.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Webster-Bible.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Webster-Bible.en');
 
@@ -1049,7 +1049,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Webster-Bible-Revised--
 "> ../spellcheck/Holy-Bible---English---Webster-Bible-Revised.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Webster-Bible-Revised.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Webster-Bible-Revised.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Webster-Bible-Revised.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Webster-Bible-Revised.en');
 
@@ -1065,7 +1065,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Weymouth-NT---Source-Ed
 "> ../spellcheck/Holy-Bible---English---Weymouth-NT.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Weymouth-NT.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Weymouth-NT.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Weymouth-NT.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Weymouth-NT.en');
 
@@ -1081,7 +1081,7 @@ system("cat ../www-stageresources/Holy-Bible---English---World-English-Bible---S
 "> ../spellcheck/Holy-Bible---English---World-English-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---World-English-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---World-English-Bible.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---World-English-Bible.en");
 system('wc -l ../spellcheck/Holy-Bible---English---World-English-Bible.en');
 
@@ -1097,7 +1097,7 @@ system("cat ../www-stageresources/Holy-Bible---English---World-English-Bible-Bri
 "> ../spellcheck/Holy-Bible---English---World-English-Bible-British-Edition.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---World-English-Bible-British-Edition.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---World-English-Bible-British-Edition.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---World-English-Bible-British-Edition.en");
 system('wc -l ../spellcheck/Holy-Bible---English---World-English-Bible-British-Edition.en');
 
@@ -1113,7 +1113,7 @@ system("cat ../www-stageresources/Holy-Bible---English---World-Messianic-Bible--
 "> ../spellcheck/Holy-Bible---English---World-Messianic-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---World-Messianic-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---World-Messianic-Bible.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---World-Messianic-Bible.en");
 system('wc -l ../spellcheck/Holy-Bible---English---World-Messianic-Bible.en');
 
@@ -1129,7 +1129,7 @@ system("cat ../www-stageresources/Holy-Bible---English---World-Messianic-Bible-B
 "> ../spellcheck/Holy-Bible---English---World-Messianic-Bible-British-Edition.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---World-Messianic-Bible-British-Edition.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---World-Messianic-Bible-British-Edition.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---World-Messianic-Bible-British-Edition.en");
 system('wc -l ../spellcheck/Holy-Bible---English---World-Messianic-Bible-British-Edition.en');
 
@@ -1145,7 +1145,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Wycliffe-Bible---Source
 "> ../spellcheck/Holy-Bible---English---Wycliffe-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Wycliffe-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Wycliffe-Bible.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Wycliffe-Bible.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Wycliffe-Bible.en');
 
@@ -1161,7 +1161,7 @@ system("cat ../www-stageresources/Holy-Bible---English---Youngs-Literal-Translat
 "> ../spellcheck/Holy-Bible---English---Youngs-Literal-Translation.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---English---Youngs-Literal-Translation.WORDS');
 system("cat ../spellcheck/Holy-Bible---English---Youngs-Literal-Translation.WORDS | ".
-"aspell list --lang=en ".
+"aspell list --lang=en --personal=/home/inmoti55/public_html/domain.aionianbible.org/spellcheck/.aspell.en.pws ".
 "> ../spellcheck/Holy-Bible---English---Youngs-Literal-Translation.en");
 system('wc -l ../spellcheck/Holy-Bible---English---Youngs-Literal-Translation.en');
 
@@ -1177,7 +1177,7 @@ system("cat ../www-stageresources/Holy-Bible---Esperanto---Esperanto-Bible---Sou
 "> ../spellcheck/Holy-Bible---Esperanto---Esperanto-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Esperanto---Esperanto-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Esperanto---Esperanto-Bible.WORDS | ".
-"aspell list --lang=eo ".
+"aspell list --lang=eo  ".
 "> ../spellcheck/Holy-Bible---Esperanto---Esperanto-Bible.eo");
 system('wc -l ../spellcheck/Holy-Bible---Esperanto---Esperanto-Bible.eo');
 
@@ -1193,7 +1193,7 @@ system("cat ../www-stageresources/Holy-Bible---Finnish---Finnish-Bible---Source-
 "> ../spellcheck/Holy-Bible---Finnish---Finnish-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Finnish---Finnish-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Finnish---Finnish-Bible.WORDS | ".
-"aspell list --lang=fi ".
+"aspell list --lang=fi  ".
 "> ../spellcheck/Holy-Bible---Finnish---Finnish-Bible.fi");
 system('wc -l ../spellcheck/Holy-Bible---Finnish---Finnish-Bible.fi');
 
@@ -1209,7 +1209,7 @@ system("cat ../www-stageresources/Holy-Bible---Finnish---Finnish-Pyha-Raamattu--
 "> ../spellcheck/Holy-Bible---Finnish---Finnish-Pyha-Raamattu.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Finnish---Finnish-Pyha-Raamattu.WORDS');
 system("cat ../spellcheck/Holy-Bible---Finnish---Finnish-Pyha-Raamattu.WORDS | ".
-"aspell list --lang=fi ".
+"aspell list --lang=fi  ".
 "> ../spellcheck/Holy-Bible---Finnish---Finnish-Pyha-Raamattu.fi");
 system('wc -l ../spellcheck/Holy-Bible---Finnish---Finnish-Pyha-Raamattu.fi');
 
@@ -1225,7 +1225,7 @@ system("cat ../www-stageresources/Holy-Bible---Flemish---Flemish-De-Jonge-Bible-
 "> ../spellcheck/Holy-Bible---Flemish---Flemish-De-Jonge-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Flemish---Flemish-De-Jonge-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Flemish---Flemish-De-Jonge-Bible.WORDS | ".
-"aspell list --lang=nl ".
+"aspell list --lang=nl  ".
 "> ../spellcheck/Holy-Bible---Flemish---Flemish-De-Jonge-Bible.nl");
 system('wc -l ../spellcheck/Holy-Bible---Flemish---Flemish-De-Jonge-Bible.nl');
 
@@ -1241,7 +1241,7 @@ system("cat ../www-stageresources/Holy-Bible---French---French-Crampon-Bible---S
 "> ../spellcheck/Holy-Bible---French---French-Crampon-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---French---French-Crampon-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---French---French-Crampon-Bible.WORDS | ".
-"aspell list --lang=fr ".
+"aspell list --lang=fr  ".
 "> ../spellcheck/Holy-Bible---French---French-Crampon-Bible.fr");
 system('wc -l ../spellcheck/Holy-Bible---French---French-Crampon-Bible.fr');
 
@@ -1257,7 +1257,7 @@ system("cat ../www-stageresources/Holy-Bible---French---French-Darby-Bible---Sou
 "> ../spellcheck/Holy-Bible---French---French-Darby-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---French---French-Darby-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---French---French-Darby-Bible.WORDS | ".
-"aspell list --lang=fr ".
+"aspell list --lang=fr  ".
 "> ../spellcheck/Holy-Bible---French---French-Darby-Bible.fr");
 system('wc -l ../spellcheck/Holy-Bible---French---French-Darby-Bible.fr');
 
@@ -1273,7 +1273,7 @@ system("cat ../www-stageresources/Holy-Bible---French---French-Khan-Bible---Sour
 "> ../spellcheck/Holy-Bible---French---French-Khan-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---French---French-Khan-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---French---French-Khan-Bible.WORDS | ".
-"aspell list --lang=fr ".
+"aspell list --lang=fr  ".
 "> ../spellcheck/Holy-Bible---French---French-Khan-Bible.fr");
 system('wc -l ../spellcheck/Holy-Bible---French---French-Khan-Bible.fr');
 
@@ -1289,7 +1289,7 @@ system("cat ../www-stageresources/Holy-Bible---French---French-Louis-Segond-1910
 "> ../spellcheck/Holy-Bible---French---French-Louis-Segond-1910-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---French---French-Louis-Segond-1910-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---French---French-Louis-Segond-1910-Bible.WORDS | ".
-"aspell list --lang=fr ".
+"aspell list --lang=fr  ".
 "> ../spellcheck/Holy-Bible---French---French-Louis-Segond-1910-Bible.fr");
 system('wc -l ../spellcheck/Holy-Bible---French---French-Louis-Segond-1910-Bible.fr');
 
@@ -1305,7 +1305,7 @@ system("cat ../www-stageresources/Holy-Bible---French---French-LXX---Source-Edit
 "> ../spellcheck/Holy-Bible---French---French-LXX.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---French---French-LXX.WORDS');
 system("cat ../spellcheck/Holy-Bible---French---French-LXX.WORDS | ".
-"aspell list --lang=fr ".
+"aspell list --lang=fr  ".
 "> ../spellcheck/Holy-Bible---French---French-LXX.fr");
 system('wc -l ../spellcheck/Holy-Bible---French---French-LXX.fr');
 
@@ -1321,7 +1321,7 @@ system("cat ../www-stageresources/Holy-Bible---French---French-Martin---Source-E
 "> ../spellcheck/Holy-Bible---French---French-Martin.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---French---French-Martin.WORDS');
 system("cat ../spellcheck/Holy-Bible---French---French-Martin.WORDS | ".
-"aspell list --lang=fr ".
+"aspell list --lang=fr  ".
 "> ../spellcheck/Holy-Bible---French---French-Martin.fr");
 system('wc -l ../spellcheck/Holy-Bible---French---French-Martin.fr');
 
@@ -1337,7 +1337,7 @@ system("cat ../www-stageresources/Holy-Bible---French---French-Oltramare-Bible--
 "> ../spellcheck/Holy-Bible---French---French-Oltramare-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---French---French-Oltramare-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---French---French-Oltramare-Bible.WORDS | ".
-"aspell list --lang=fr ".
+"aspell list --lang=fr  ".
 "> ../spellcheck/Holy-Bible---French---French-Oltramare-Bible.fr");
 system('wc -l ../spellcheck/Holy-Bible---French---French-Oltramare-Bible.fr');
 
@@ -1353,7 +1353,7 @@ system("cat ../www-stageresources/Holy-Bible---French---French-Ostervald-Bible--
 "> ../spellcheck/Holy-Bible---French---French-Ostervald-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---French---French-Ostervald-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---French---French-Ostervald-Bible.WORDS | ".
-"aspell list --lang=fr ".
+"aspell list --lang=fr  ".
 "> ../spellcheck/Holy-Bible---French---French-Ostervald-Bible.fr");
 system('wc -l ../spellcheck/Holy-Bible---French---French-Ostervald-Bible.fr');
 
@@ -1369,7 +1369,7 @@ system("cat ../www-stageresources/Holy-Bible---French---French-Perret-Gentil-Ril
 "> ../spellcheck/Holy-Bible---French---French-Perret-Gentil-Rilliet.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---French---French-Perret-Gentil-Rilliet.WORDS');
 system("cat ../spellcheck/Holy-Bible---French---French-Perret-Gentil-Rilliet.WORDS | ".
-"aspell list --lang=fr ".
+"aspell list --lang=fr  ".
 "> ../spellcheck/Holy-Bible---French---French-Perret-Gentil-Rilliet.fr");
 system('wc -l ../spellcheck/Holy-Bible---French---French-Perret-Gentil-Rilliet.fr');
 
@@ -1385,7 +1385,7 @@ system("cat ../www-stageresources/Holy-Bible---French---French-Stapfer-Bible---S
 "> ../spellcheck/Holy-Bible---French---French-Stapfer-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---French---French-Stapfer-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---French---French-Stapfer-Bible.WORDS | ".
-"aspell list --lang=fr ".
+"aspell list --lang=fr  ".
 "> ../spellcheck/Holy-Bible---French---French-Stapfer-Bible.fr");
 system('wc -l ../spellcheck/Holy-Bible---French---French-Stapfer-Bible.fr');
 
@@ -1401,7 +1401,7 @@ system("cat ../www-stageresources/Holy-Bible---French---French-Synodale-Bible---
 "> ../spellcheck/Holy-Bible---French---French-Synodale-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---French---French-Synodale-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---French---French-Synodale-Bible.WORDS | ".
-"aspell list --lang=fr ".
+"aspell list --lang=fr  ".
 "> ../spellcheck/Holy-Bible---French---French-Synodale-Bible.fr");
 system('wc -l ../spellcheck/Holy-Bible---French---French-Synodale-Bible.fr');
 
@@ -1417,7 +1417,7 @@ system("cat ../www-stageresources/Holy-Bible---German---German-Elberfelder-1871-
 "> ../spellcheck/Holy-Bible---German---German-Elberfelder-1871.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---German---German-Elberfelder-1871.WORDS');
 system("cat ../spellcheck/Holy-Bible---German---German-Elberfelder-1871.WORDS | ".
-"aspell list --lang=de ".
+"aspell list --lang=de  ".
 "> ../spellcheck/Holy-Bible---German---German-Elberfelder-1871.de");
 system('wc -l ../spellcheck/Holy-Bible---German---German-Elberfelder-1871.de');
 
@@ -1433,7 +1433,7 @@ system("cat ../www-stageresources/Holy-Bible---German---German-Elberfelder-1905-
 "> ../spellcheck/Holy-Bible---German---German-Elberfelder-1905.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---German---German-Elberfelder-1905.WORDS');
 system("cat ../spellcheck/Holy-Bible---German---German-Elberfelder-1905.WORDS | ".
-"aspell list --lang=de ".
+"aspell list --lang=de  ".
 "> ../spellcheck/Holy-Bible---German---German-Elberfelder-1905.de");
 system('wc -l ../spellcheck/Holy-Bible---German---German-Elberfelder-1905.de');
 
@@ -1449,7 +1449,7 @@ system("cat ../www-stageresources/Holy-Bible---German---German-Katholiche-Riessl
 "> ../spellcheck/Holy-Bible---German---German-Katholiche-Riessler.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---German---German-Katholiche-Riessler.WORDS');
 system("cat ../spellcheck/Holy-Bible---German---German-Katholiche-Riessler.WORDS | ".
-"aspell list --lang=de ".
+"aspell list --lang=de  ".
 "> ../spellcheck/Holy-Bible---German---German-Katholiche-Riessler.de");
 system('wc -l ../spellcheck/Holy-Bible---German---German-Katholiche-Riessler.de');
 
@@ -1465,7 +1465,7 @@ system("cat ../www-stageresources/Holy-Bible---German---German-Kautzsch-Weizsack
 "> ../spellcheck/Holy-Bible---German---German-Kautzsch-Weizsacker.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---German---German-Kautzsch-Weizsacker.WORDS');
 system("cat ../spellcheck/Holy-Bible---German---German-Kautzsch-Weizsacker.WORDS | ".
-"aspell list --lang=de ".
+"aspell list --lang=de  ".
 "> ../spellcheck/Holy-Bible---German---German-Kautzsch-Weizsacker.de");
 system('wc -l ../spellcheck/Holy-Bible---German---German-Kautzsch-Weizsacker.de');
 
@@ -1481,7 +1481,7 @@ system("cat ../www-stageresources/Holy-Bible---German---German-Luther-Bible-1545
 "> ../spellcheck/Holy-Bible---German---German-Luther-Bible-1545.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---German---German-Luther-Bible-1545.WORDS');
 system("cat ../spellcheck/Holy-Bible---German---German-Luther-Bible-1545.WORDS | ".
-"aspell list --lang=de ".
+"aspell list --lang=de  ".
 "> ../spellcheck/Holy-Bible---German---German-Luther-Bible-1545.de");
 system('wc -l ../spellcheck/Holy-Bible---German---German-Luther-Bible-1545.de');
 
@@ -1497,7 +1497,7 @@ system("cat ../www-stageresources/Holy-Bible---German---German-Luther-Bible-1912
 "> ../spellcheck/Holy-Bible---German---German-Luther-Bible-1912.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---German---German-Luther-Bible-1912.WORDS');
 system("cat ../spellcheck/Holy-Bible---German---German-Luther-Bible-1912.WORDS | ".
-"aspell list --lang=de ".
+"aspell list --lang=de  ".
 "> ../spellcheck/Holy-Bible---German---German-Luther-Bible-1912.de");
 system('wc -l ../spellcheck/Holy-Bible---German---German-Luther-Bible-1912.de');
 
@@ -1513,7 +1513,7 @@ system("cat ../www-stageresources/Holy-Bible---German---German-Reinhardt-Bible--
 "> ../spellcheck/Holy-Bible---German---German-Reinhardt-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---German---German-Reinhardt-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---German---German-Reinhardt-Bible.WORDS | ".
-"aspell list --lang=de ".
+"aspell list --lang=de  ".
 "> ../spellcheck/Holy-Bible---German---German-Reinhardt-Bible.de");
 system('wc -l ../spellcheck/Holy-Bible---German---German-Reinhardt-Bible.de');
 
@@ -1529,7 +1529,7 @@ system("cat ../www-stageresources/Holy-Bible---German---German-Tafel-Bible---Sou
 "> ../spellcheck/Holy-Bible---German---German-Tafel-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---German---German-Tafel-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---German---German-Tafel-Bible.WORDS | ".
-"aspell list --lang=de ".
+"aspell list --lang=de  ".
 "> ../spellcheck/Holy-Bible---German---German-Tafel-Bible.de");
 system('wc -l ../spellcheck/Holy-Bible---German---German-Tafel-Bible.de');
 
@@ -1569,7 +1569,7 @@ system("cat ../www-stageresources/Holy-Bible---Greek---Greek-Antoniades---Source
 "> ../spellcheck/Holy-Bible---Greek---Greek-Antoniades.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Antoniades.WORDS');
 system("cat ../spellcheck/Holy-Bible---Greek---Greek-Antoniades.WORDS | ".
-"aspell list --lang=grc ".
+"aspell list --lang=grc  ".
 "> ../spellcheck/Holy-Bible---Greek---Greek-Antoniades.grc");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Antoniades.grc');
 
@@ -1585,7 +1585,7 @@ system("cat ../www-stageresources/Holy-Bible---Greek---Greek-Byzantine-Majority-
 "> ../spellcheck/Holy-Bible---Greek---Greek-Byzantine-Majority.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Byzantine-Majority.WORDS');
 system("cat ../spellcheck/Holy-Bible---Greek---Greek-Byzantine-Majority.WORDS | ".
-"aspell list --lang=grc ".
+"aspell list --lang=grc  ".
 "> ../spellcheck/Holy-Bible---Greek---Greek-Byzantine-Majority.grc");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Byzantine-Majority.grc');
 
@@ -1601,7 +1601,7 @@ system("cat ../www-stageresources/Holy-Bible---Greek---Greek-LXX-Septuagint---So
 "> ../spellcheck/Holy-Bible---Greek---Greek-LXX-Septuagint.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-LXX-Septuagint.WORDS');
 system("cat ../spellcheck/Holy-Bible---Greek---Greek-LXX-Septuagint.WORDS | ".
-"aspell list --lang=grc ".
+"aspell list --lang=grc  ".
 "> ../spellcheck/Holy-Bible---Greek---Greek-LXX-Septuagint.grc");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-LXX-Septuagint.grc');
 
@@ -1617,7 +1617,7 @@ system("cat ../www-stageresources/Holy-Bible---Greek---Greek-Majority-Text---Sou
 "> ../spellcheck/Holy-Bible---Greek---Greek-Majority-Text.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Majority-Text.WORDS');
 system("cat ../spellcheck/Holy-Bible---Greek---Greek-Majority-Text.WORDS | ".
-"aspell list --lang=grc ".
+"aspell list --lang=grc  ".
 "> ../spellcheck/Holy-Bible---Greek---Greek-Majority-Text.grc");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Majority-Text.grc');
 
@@ -1633,7 +1633,7 @@ system("cat ../www-stageresources/Holy-Bible---Greek---Greek-Nestle---Source-Edi
 "> ../spellcheck/Holy-Bible---Greek---Greek-Nestle.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Nestle.WORDS');
 system("cat ../spellcheck/Holy-Bible---Greek---Greek-Nestle.WORDS | ".
-"aspell list --lang=grc ".
+"aspell list --lang=grc  ".
 "> ../spellcheck/Holy-Bible---Greek---Greek-Nestle.grc");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Nestle.grc');
 
@@ -1649,7 +1649,7 @@ system("cat ../www-stageresources/Holy-Bible---Greek---Greek-Pickering-Family-35
 "> ../spellcheck/Holy-Bible---Greek---Greek-Pickering-Family-35.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Pickering-Family-35.WORDS');
 system("cat ../spellcheck/Holy-Bible---Greek---Greek-Pickering-Family-35.WORDS | ".
-"aspell list --lang=grc ".
+"aspell list --lang=grc  ".
 "> ../spellcheck/Holy-Bible---Greek---Greek-Pickering-Family-35.grc");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Pickering-Family-35.grc');
 
@@ -1665,7 +1665,7 @@ system("cat ../www-stageresources/Holy-Bible---Greek---Greek-Textus-Receptus---S
 "> ../spellcheck/Holy-Bible---Greek---Greek-Textus-Receptus.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Textus-Receptus.WORDS');
 system("cat ../spellcheck/Holy-Bible---Greek---Greek-Textus-Receptus.WORDS | ".
-"aspell list --lang=grc ".
+"aspell list --lang=grc  ".
 "> ../spellcheck/Holy-Bible---Greek---Greek-Textus-Receptus.grc");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Textus-Receptus.grc');
 
@@ -1681,7 +1681,7 @@ system("cat ../www-stageresources/Holy-Bible---Greek---Greek-Textus-Receptus-Boy
 "> ../spellcheck/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd.WORDS');
 system("cat ../spellcheck/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd.WORDS | ".
-"aspell list --lang=grc ".
+"aspell list --lang=grc  ".
 "> ../spellcheck/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd.grc");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Textus-Receptus-Boyd.grc');
 
@@ -1697,7 +1697,7 @@ system("cat ../www-stageresources/Holy-Bible---Greek---Greek-Textus-Receptus-Elz
 "> ../spellcheck/Holy-Bible---Greek---Greek-Textus-Receptus-Elzevir.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Textus-Receptus-Elzevir.WORDS');
 system("cat ../spellcheck/Holy-Bible---Greek---Greek-Textus-Receptus-Elzevir.WORDS | ".
-"aspell list --lang=grc ".
+"aspell list --lang=grc  ".
 "> ../spellcheck/Holy-Bible---Greek---Greek-Textus-Receptus-Elzevir.grc");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Textus-Receptus-Elzevir.grc');
 
@@ -1713,7 +1713,7 @@ system("cat ../www-stageresources/Holy-Bible---Greek---Greek-Tischendorf---Sourc
 "> ../spellcheck/Holy-Bible---Greek---Greek-Tischendorf.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Tischendorf.WORDS');
 system("cat ../spellcheck/Holy-Bible---Greek---Greek-Tischendorf.WORDS | ".
-"aspell list --lang=grc ".
+"aspell list --lang=grc  ".
 "> ../spellcheck/Holy-Bible---Greek---Greek-Tischendorf.grc");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Tischendorf.grc');
 
@@ -1729,7 +1729,7 @@ system("cat ../www-stageresources/Holy-Bible---Greek---Greek-Tregelles---Source-
 "> ../spellcheck/Holy-Bible---Greek---Greek-Tregelles.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Tregelles.WORDS');
 system("cat ../spellcheck/Holy-Bible---Greek---Greek-Tregelles.WORDS | ".
-"aspell list --lang=grc ".
+"aspell list --lang=grc  ".
 "> ../spellcheck/Holy-Bible---Greek---Greek-Tregelles.grc");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Tregelles.grc');
 
@@ -1745,7 +1745,7 @@ system("cat ../www-stageresources/Holy-Bible---Greek---Greek-Westcott-Hort---Sou
 "> ../spellcheck/Holy-Bible---Greek---Greek-Westcott-Hort.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Westcott-Hort.WORDS');
 system("cat ../spellcheck/Holy-Bible---Greek---Greek-Westcott-Hort.WORDS | ".
-"aspell list --lang=grc ".
+"aspell list --lang=grc  ".
 "> ../spellcheck/Holy-Bible---Greek---Greek-Westcott-Hort.grc");
 system('wc -l ../spellcheck/Holy-Bible---Greek---Greek-Westcott-Hort.grc');
 
@@ -1761,7 +1761,7 @@ system("cat ../www-stageresources/Holy-Bible---Gujarati---Gujarati-Bible---Sourc
 "> ../spellcheck/Holy-Bible---Gujarati---Gujarati-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Gujarati---Gujarati-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Gujarati---Gujarati-Bible.WORDS | ".
-"aspell list --lang=gu ".
+"aspell list --lang=gu  ".
 "> ../spellcheck/Holy-Bible---Gujarati---Gujarati-Bible.gu");
 system('wc -l ../spellcheck/Holy-Bible---Gujarati---Gujarati-Bible.gu');
 
@@ -1801,7 +1801,7 @@ system("cat ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Aleppo-Codex---So
 "> ../spellcheck/Holy-Bible---Hebrew---Hebrew-Aleppo-Codex.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Hebrew---Hebrew-Aleppo-Codex.WORDS');
 system("cat ../spellcheck/Holy-Bible---Hebrew---Hebrew-Aleppo-Codex.WORDS | ".
-"aspell list --lang=he ".
+"aspell list --lang=he  ".
 "> ../spellcheck/Holy-Bible---Hebrew---Hebrew-Aleppo-Codex.he");
 system('wc -l ../spellcheck/Holy-Bible---Hebrew---Hebrew-Aleppo-Codex.he');
 
@@ -1817,7 +1817,7 @@ system("cat ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Masoretic-OT---So
 "> ../spellcheck/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.WORDS');
 system("cat ../spellcheck/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.WORDS | ".
-"aspell list --lang=he ".
+"aspell list --lang=he  ".
 "> ../spellcheck/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.he");
 system('wc -l ../spellcheck/Holy-Bible---Hebrew---Hebrew-Masoretic-OT.he');
 
@@ -1833,7 +1833,7 @@ system("cat ../www-stageresources/Holy-Bible---Hebrew---Hebrew-Westminster-Lenin
 "> ../spellcheck/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.WORDS');
 system("cat ../spellcheck/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.WORDS | ".
-"aspell list --lang=he ".
+"aspell list --lang=he  ".
 "> ../spellcheck/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.he");
 system('wc -l ../spellcheck/Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad.he');
 
@@ -1849,7 +1849,7 @@ system("cat ../www-stageresources/Holy-Bible---Hebrew---Modern-Hebrew-Bible---So
 "> ../spellcheck/Holy-Bible---Hebrew---Modern-Hebrew-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Hebrew---Modern-Hebrew-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Hebrew---Modern-Hebrew-Bible.WORDS | ".
-"aspell list --lang=he ".
+"aspell list --lang=he  ".
 "> ../spellcheck/Holy-Bible---Hebrew---Modern-Hebrew-Bible.he");
 system('wc -l ../spellcheck/Holy-Bible---Hebrew---Modern-Hebrew-Bible.he');
 
@@ -1865,7 +1865,7 @@ system("cat ../www-stageresources/Holy-Bible---Hindi---Hindi-Bible---Source-Edit
 "> ../spellcheck/Holy-Bible---Hindi---Hindi-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Hindi---Hindi-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Hindi---Hindi-Bible.WORDS | ".
-"aspell list --lang=hi ".
+"aspell list --lang=hi  ".
 "> ../spellcheck/Holy-Bible---Hindi---Hindi-Bible.hi");
 system('wc -l ../spellcheck/Holy-Bible---Hindi---Hindi-Bible.hi');
 
@@ -1881,7 +1881,7 @@ system("cat ../www-stageresources/Holy-Bible---Hungarian---Hungarian-Karoli---So
 "> ../spellcheck/Holy-Bible---Hungarian---Hungarian-Karoli.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Hungarian---Hungarian-Karoli.WORDS');
 system("cat ../spellcheck/Holy-Bible---Hungarian---Hungarian-Karoli.WORDS | ".
-"aspell list --lang=hu ".
+"aspell list --lang=hu  ".
 "> ../spellcheck/Holy-Bible---Hungarian---Hungarian-Karoli.hu");
 system('wc -l ../spellcheck/Holy-Bible---Hungarian---Hungarian-Karoli.hu');
 
@@ -1933,7 +1933,7 @@ system("cat ../www-stageresources/Holy-Bible---Italian---Conferenza-Episcopale-I
 "> ../spellcheck/Holy-Bible---Italian---Conferenza-Episcopale-Italiana.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Italian---Conferenza-Episcopale-Italiana.WORDS');
 system("cat ../spellcheck/Holy-Bible---Italian---Conferenza-Episcopale-Italiana.WORDS | ".
-"aspell list --lang=it ".
+"aspell list --lang=it  ".
 "> ../spellcheck/Holy-Bible---Italian---Conferenza-Episcopale-Italiana.it");
 system('wc -l ../spellcheck/Holy-Bible---Italian---Conferenza-Episcopale-Italiana.it');
 
@@ -1949,7 +1949,7 @@ system("cat ../www-stageresources/Holy-Bible---Italian---Italian-Giovanni-Diodat
 "> ../spellcheck/Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible.WORDS | ".
-"aspell list --lang=it ".
+"aspell list --lang=it  ".
 "> ../spellcheck/Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible.it");
 system('wc -l ../spellcheck/Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible.it');
 
@@ -1965,7 +1965,7 @@ system("cat ../www-stageresources/Holy-Bible---Italian---Italian-Riveduta-Bible-
 "> ../spellcheck/Holy-Bible---Italian---Italian-Riveduta-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Italian---Italian-Riveduta-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Italian---Italian-Riveduta-Bible.WORDS | ".
-"aspell list --lang=it ".
+"aspell list --lang=it  ".
 "> ../spellcheck/Holy-Bible---Italian---Italian-Riveduta-Bible.it");
 system('wc -l ../spellcheck/Holy-Bible---Italian---Italian-Riveduta-Bible.it');
 
@@ -2011,7 +2011,7 @@ system("cat ../www-stageresources/Holy-Bible---Kannada---Kannada-Bible---Source-
 "> ../spellcheck/Holy-Bible---Kannada---Kannada-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Kannada---Kannada-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Kannada---Kannada-Bible.WORDS | ".
-"aspell list --lang=kn ".
+"aspell list --lang=kn  ".
 "> ../spellcheck/Holy-Bible---Kannada---Kannada-Bible.kn");
 system('wc -l ../spellcheck/Holy-Bible---Kannada---Kannada-Bible.kn');
 
@@ -2092,7 +2092,7 @@ system("cat ../www-stageresources/Holy-Bible---Latin---Clementine-Vulgate-1598--
 "> ../spellcheck/Holy-Bible---Latin---Clementine-Vulgate-1598.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Latin---Clementine-Vulgate-1598.WORDS');
 system("cat ../spellcheck/Holy-Bible---Latin---Clementine-Vulgate-1598.WORDS | ".
-"aspell list --lang=la ".
+"aspell list --lang=la  ".
 "> ../spellcheck/Holy-Bible---Latin---Clementine-Vulgate-1598.la");
 system('wc -l ../spellcheck/Holy-Bible---Latin---Clementine-Vulgate-1598.la');
 
@@ -2108,7 +2108,7 @@ system("cat ../www-stageresources/Holy-Bible---Latin---Clementine-Vulgate-Conte-
 "> ../spellcheck/Holy-Bible---Latin---Clementine-Vulgate-Conte.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Latin---Clementine-Vulgate-Conte.WORDS');
 system("cat ../spellcheck/Holy-Bible---Latin---Clementine-Vulgate-Conte.WORDS | ".
-"aspell list --lang=la ".
+"aspell list --lang=la  ".
 "> ../spellcheck/Holy-Bible---Latin---Clementine-Vulgate-Conte.la");
 system('wc -l ../spellcheck/Holy-Bible---Latin---Clementine-Vulgate-Conte.la');
 
@@ -2124,7 +2124,7 @@ system("cat ../www-stageresources/Holy-Bible---Latin---Clementine-Vulgate-Hetzen
 "> ../spellcheck/Holy-Bible---Latin---Clementine-Vulgate-Hetzenauer.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Latin---Clementine-Vulgate-Hetzenauer.WORDS');
 system("cat ../spellcheck/Holy-Bible---Latin---Clementine-Vulgate-Hetzenauer.WORDS | ".
-"aspell list --lang=la ".
+"aspell list --lang=la  ".
 "> ../spellcheck/Holy-Bible---Latin---Clementine-Vulgate-Hetzenauer.la");
 system('wc -l ../spellcheck/Holy-Bible---Latin---Clementine-Vulgate-Hetzenauer.la');
 
@@ -2140,7 +2140,7 @@ system("cat ../www-stageresources/Holy-Bible---Latin---Clementine-Vulgate-Tweeda
 "> ../spellcheck/Holy-Bible---Latin---Clementine-Vulgate-Tweedale.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Latin---Clementine-Vulgate-Tweedale.WORDS');
 system("cat ../spellcheck/Holy-Bible---Latin---Clementine-Vulgate-Tweedale.WORDS | ".
-"aspell list --lang=la ".
+"aspell list --lang=la  ".
 "> ../spellcheck/Holy-Bible---Latin---Clementine-Vulgate-Tweedale.la");
 system('wc -l ../spellcheck/Holy-Bible---Latin---Clementine-Vulgate-Tweedale.la');
 
@@ -2156,7 +2156,7 @@ system("cat ../www-stageresources/Holy-Bible---Latin---Vulgata-Sistina---Source-
 "> ../spellcheck/Holy-Bible---Latin---Vulgata-Sistina.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Latin---Vulgata-Sistina.WORDS');
 system("cat ../spellcheck/Holy-Bible---Latin---Vulgata-Sistina.WORDS | ".
-"aspell list --lang=la ".
+"aspell list --lang=la  ".
 "> ../spellcheck/Holy-Bible---Latin---Vulgata-Sistina.la");
 system('wc -l ../spellcheck/Holy-Bible---Latin---Vulgata-Sistina.la');
 
@@ -2172,7 +2172,7 @@ system("cat ../www-stageresources/Holy-Bible---Latin---Vulgate-Jerome---Source-E
 "> ../spellcheck/Holy-Bible---Latin---Vulgate-Jerome.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Latin---Vulgate-Jerome.WORDS');
 system("cat ../spellcheck/Holy-Bible---Latin---Vulgate-Jerome.WORDS | ".
-"aspell list --lang=la ".
+"aspell list --lang=la  ".
 "> ../spellcheck/Holy-Bible---Latin---Vulgate-Jerome.la");
 system('wc -l ../spellcheck/Holy-Bible---Latin---Vulgate-Jerome.la');
 
@@ -2188,7 +2188,7 @@ system("cat ../www-stageresources/Holy-Bible---Latvian---Latvian-Gluck-Bible---S
 "> ../spellcheck/Holy-Bible---Latvian---Latvian-Gluck-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Latvian---Latvian-Gluck-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Latvian---Latvian-Gluck-Bible.WORDS | ".
-"aspell list --lang=lv ".
+"aspell list --lang=lv  ".
 "> ../spellcheck/Holy-Bible---Latvian---Latvian-Gluck-Bible.lv");
 system('wc -l ../spellcheck/Holy-Bible---Latvian---Latvian-Gluck-Bible.lv');
 
@@ -2204,7 +2204,7 @@ system("cat ../www-stageresources/Holy-Bible---Malagasy---Malagasy-Bible---Sourc
 "> ../spellcheck/Holy-Bible---Malagasy---Malagasy-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Malagasy---Malagasy-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Malagasy---Malagasy-Bible.WORDS | ".
-"aspell list --lang=mg ".
+"aspell list --lang=mg  ".
 "> ../spellcheck/Holy-Bible---Malagasy---Malagasy-Bible.mg");
 system('wc -l ../spellcheck/Holy-Bible---Malagasy---Malagasy-Bible.mg');
 
@@ -2220,7 +2220,7 @@ system("cat ../www-stageresources/Holy-Bible---Malayalam---Malayalam-Bible---Sou
 "> ../spellcheck/Holy-Bible---Malayalam---Malayalam-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Malayalam---Malayalam-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Malayalam---Malayalam-Bible.WORDS | ".
-"aspell list --lang=ml ".
+"aspell list --lang=ml  ".
 "> ../spellcheck/Holy-Bible---Malayalam---Malayalam-Bible.ml");
 system('wc -l ../spellcheck/Holy-Bible---Malayalam---Malayalam-Bible.ml');
 
@@ -2248,7 +2248,7 @@ system("cat ../www-stageresources/Holy-Bible---Marathi---Marathi-Bible---Source-
 "> ../spellcheck/Holy-Bible---Marathi---Marathi-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Marathi---Marathi-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Marathi---Marathi-Bible.WORDS | ".
-"aspell list --lang=mr ".
+"aspell list --lang=mr  ".
 "> ../spellcheck/Holy-Bible---Marathi---Marathi-Bible.mr");
 system('wc -l ../spellcheck/Holy-Bible---Marathi---Marathi-Bible.mr');
 
@@ -2336,7 +2336,7 @@ system("cat ../www-stageresources/Holy-Bible---Norwegian---Norwegian-Bible---Sou
 "> ../spellcheck/Holy-Bible---Norwegian---Norwegian-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Norwegian---Norwegian-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Norwegian---Norwegian-Bible.WORDS | ".
-"aspell list --lang=nb ".
+"aspell list --lang=nb  ".
 "> ../spellcheck/Holy-Bible---Norwegian---Norwegian-Bible.nb");
 system('wc -l ../spellcheck/Holy-Bible---Norwegian---Norwegian-Bible.nb');
 
@@ -2352,7 +2352,7 @@ system("cat ../www-stageresources/Holy-Bible---Norwegian---Norwegian-Student-Bib
 "> ../spellcheck/Holy-Bible---Norwegian---Norwegian-Student-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Norwegian---Norwegian-Student-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Norwegian---Norwegian-Student-Bible.WORDS | ".
-"aspell list --lang=nn ".
+"aspell list --lang=nn  ".
 "> ../spellcheck/Holy-Bible---Norwegian---Norwegian-Student-Bible.nn");
 system('wc -l ../spellcheck/Holy-Bible---Norwegian---Norwegian-Student-Bible.nn');
 
@@ -2368,7 +2368,7 @@ system("cat ../www-stageresources/Holy-Bible---Oriya---Oriya-Bible---Source-Edit
 "> ../spellcheck/Holy-Bible---Oriya---Oriya-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Oriya---Oriya-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Oriya---Oriya-Bible.WORDS | ".
-"aspell list --lang=or ".
+"aspell list --lang=or  ".
 "> ../spellcheck/Holy-Bible---Oriya---Oriya-Bible.or");
 system('wc -l ../spellcheck/Holy-Bible---Oriya---Oriya-Bible.or');
 
@@ -2384,7 +2384,7 @@ system("cat ../www-stageresources/Holy-Bible---Panjabi---Punjabi-Bible---Source-
 "> ../spellcheck/Holy-Bible---Panjabi---Punjabi-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Panjabi---Punjabi-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Panjabi---Punjabi-Bible.WORDS | ".
-"aspell list --lang=pa ".
+"aspell list --lang=pa  ".
 "> ../spellcheck/Holy-Bible---Panjabi---Punjabi-Bible.pa");
 system('wc -l ../spellcheck/Holy-Bible---Panjabi---Punjabi-Bible.pa');
 
@@ -2400,7 +2400,7 @@ system("cat ../www-stageresources/Holy-Bible---Persian---Old-Persion-Version-Bib
 "> ../spellcheck/Holy-Bible---Persian---Old-Persion-Version-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Persian---Old-Persion-Version-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Persian---Old-Persion-Version-Bible.WORDS | ".
-"aspell list --lang=fa ".
+"aspell list --lang=fa  ".
 "> ../spellcheck/Holy-Bible---Persian---Old-Persion-Version-Bible.fa");
 system('wc -l ../spellcheck/Holy-Bible---Persian---Old-Persion-Version-Bible.fa');
 
@@ -2440,7 +2440,7 @@ system("cat ../www-stageresources/Holy-Bible---Polish---Polish-Gdansk---Source-E
 "> ../spellcheck/Holy-Bible---Polish---Polish-Gdansk.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Polish---Polish-Gdansk.WORDS');
 system("cat ../spellcheck/Holy-Bible---Polish---Polish-Gdansk.WORDS | ".
-"aspell list --lang=pl ".
+"aspell list --lang=pl  ".
 "> ../spellcheck/Holy-Bible---Polish---Polish-Gdansk.pl");
 system('wc -l ../spellcheck/Holy-Bible---Polish---Polish-Gdansk.pl');
 
@@ -2456,7 +2456,7 @@ system("cat ../www-stageresources/Holy-Bible---Polish---Polish-Updated-Gdansk---
 "> ../spellcheck/Holy-Bible---Polish---Polish-Updated-Gdansk.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Polish---Polish-Updated-Gdansk.WORDS');
 system("cat ../spellcheck/Holy-Bible---Polish---Polish-Updated-Gdansk.WORDS | ".
-"aspell list --lang=pl ".
+"aspell list --lang=pl  ".
 "> ../spellcheck/Holy-Bible---Polish---Polish-Updated-Gdansk.pl");
 system('wc -l ../spellcheck/Holy-Bible---Polish---Polish-Updated-Gdansk.pl');
 
@@ -2472,7 +2472,7 @@ system("cat ../www-stageresources/Holy-Bible---Portuguese---Almeida-Bible-1911--
 "> ../spellcheck/Holy-Bible---Portuguese---Almeida-Bible-1911.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Portuguese---Almeida-Bible-1911.WORDS');
 system("cat ../spellcheck/Holy-Bible---Portuguese---Almeida-Bible-1911.WORDS | ".
-"aspell list --lang=pt_PT ".
+"aspell list --lang=pt_PT  ".
 "> ../spellcheck/Holy-Bible---Portuguese---Almeida-Bible-1911.pt_PT");
 system('wc -l ../spellcheck/Holy-Bible---Portuguese---Almeida-Bible-1911.pt_PT');
 
@@ -2488,7 +2488,7 @@ system("cat ../www-stageresources/Holy-Bible---Portuguese---Almeida-NewOrthograp
 "> ../spellcheck/Holy-Bible---Portuguese---Almeida-NewOrthography.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Portuguese---Almeida-NewOrthography.WORDS');
 system("cat ../spellcheck/Holy-Bible---Portuguese---Almeida-NewOrthography.WORDS | ".
-"aspell list --lang=pt_PT ".
+"aspell list --lang=pt_PT  ".
 "> ../spellcheck/Holy-Bible---Portuguese---Almeida-NewOrthography.pt_PT");
 system('wc -l ../spellcheck/Holy-Bible---Portuguese---Almeida-NewOrthography.pt_PT');
 
@@ -2504,7 +2504,7 @@ system("cat ../www-stageresources/Holy-Bible---Portuguese---Biblia-Livre---Sourc
 "> ../spellcheck/Holy-Bible---Portuguese---Biblia-Livre.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Portuguese---Biblia-Livre.WORDS');
 system("cat ../spellcheck/Holy-Bible---Portuguese---Biblia-Livre.WORDS | ".
-"aspell list --lang=pt_PT ".
+"aspell list --lang=pt_PT  ".
 "> ../spellcheck/Holy-Bible---Portuguese---Biblia-Livre.pt_PT");
 system('wc -l ../spellcheck/Holy-Bible---Portuguese---Biblia-Livre.pt_PT');
 
@@ -2520,7 +2520,7 @@ system("cat ../www-stageresources/Holy-Bible---Portuguese---Portuguese-Trans-Tra
 "> ../spellcheck/Holy-Bible---Portuguese---Portuguese-Trans-Trans.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Portuguese---Portuguese-Trans-Trans.WORDS');
 system("cat ../spellcheck/Holy-Bible---Portuguese---Portuguese-Trans-Trans.WORDS | ".
-"aspell list --lang=pt_PT ".
+"aspell list --lang=pt_PT  ".
 "> ../spellcheck/Holy-Bible---Portuguese---Portuguese-Trans-Trans.pt_PT");
 system('wc -l ../spellcheck/Holy-Bible---Portuguese---Portuguese-Trans-Trans.pt_PT');
 
@@ -2536,7 +2536,7 @@ system("cat ../www-stageresources/Holy-Bible---Romanian---Bayash-Luke---Source-E
 "> ../spellcheck/Holy-Bible---Romanian---Bayash-Luke.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Romanian---Bayash-Luke.WORDS');
 system("cat ../spellcheck/Holy-Bible---Romanian---Bayash-Luke.WORDS | ".
-"aspell list --lang=ro ".
+"aspell list --lang=ro  ".
 "> ../spellcheck/Holy-Bible---Romanian---Bayash-Luke.ro");
 system('wc -l ../spellcheck/Holy-Bible---Romanian---Bayash-Luke.ro');
 
@@ -2552,7 +2552,7 @@ system("cat ../www-stageresources/Holy-Bible---Romanian---Ludari-Luke---Source-E
 "> ../spellcheck/Holy-Bible---Romanian---Ludari-Luke.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Romanian---Ludari-Luke.WORDS');
 system("cat ../spellcheck/Holy-Bible---Romanian---Ludari-Luke.WORDS | ".
-"aspell list --lang=ro ".
+"aspell list --lang=ro  ".
 "> ../spellcheck/Holy-Bible---Romanian---Ludari-Luke.ro");
 system('wc -l ../spellcheck/Holy-Bible---Romanian---Ludari-Luke.ro');
 
@@ -2616,7 +2616,7 @@ system("cat ../www-stageresources/Holy-Bible---Russian---Russian-Synodal-Transla
 "> ../spellcheck/Holy-Bible---Russian---Russian-Synodal-Translation.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Russian---Russian-Synodal-Translation.WORDS');
 system("cat ../spellcheck/Holy-Bible---Russian---Russian-Synodal-Translation.WORDS | ".
-"aspell list --lang=ru ".
+"aspell list --lang=ru  ".
 "> ../spellcheck/Holy-Bible---Russian---Russian-Synodal-Translation.ru");
 system('wc -l ../spellcheck/Holy-Bible---Russian---Russian-Synodal-Translation.ru');
 
@@ -2644,7 +2644,7 @@ system("cat ../www-stageresources/Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospe
 "> ../spellcheck/Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark.WORDS');
 system("cat ../spellcheck/Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark.WORDS | ".
-"aspell list --lang=gd ".
+"aspell list --lang=gd  ".
 "> ../spellcheck/Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark.gd");
 system('wc -l ../spellcheck/Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark.gd');
 
@@ -2660,7 +2660,7 @@ system("cat ../www-stageresources/Holy-Bible---Serbian---Karadzic-Danicic-Latin-
 "> ../spellcheck/Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script.WORDS');
 system("cat ../spellcheck/Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script.WORDS | ".
-"aspell list --lang=sr ".
+"aspell list --lang=sr  ".
 "> ../spellcheck/Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script.sr");
 system('wc -l ../spellcheck/Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script.sr');
 
@@ -2676,7 +2676,7 @@ system("cat ../www-stageresources/Holy-Bible---Serbian---Serbian-Ekavski-Bible--
 "> ../spellcheck/Holy-Bible---Serbian---Serbian-Ekavski-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Serbian---Serbian-Ekavski-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Serbian---Serbian-Ekavski-Bible.WORDS | ".
-"aspell list --lang=sr ".
+"aspell list --lang=sr  ".
 "> ../spellcheck/Holy-Bible---Serbian---Serbian-Ekavski-Bible.sr");
 system('wc -l ../spellcheck/Holy-Bible---Serbian---Serbian-Ekavski-Bible.sr');
 
@@ -2716,7 +2716,7 @@ system("cat ../www-stageresources/Holy-Bible---Slovene---Slovene-Savli-Bible---S
 "> ../spellcheck/Holy-Bible---Slovene---Slovene-Savli-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Slovene---Slovene-Savli-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Slovene---Slovene-Savli-Bible.WORDS | ".
-"aspell list --lang=sl ".
+"aspell list --lang=sl  ".
 "> ../spellcheck/Holy-Bible---Slovene---Slovene-Savli-Bible.sl");
 system('wc -l ../spellcheck/Holy-Bible---Slovene---Slovene-Savli-Bible.sl');
 
@@ -2732,7 +2732,7 @@ system("cat ../www-stageresources/Holy-Bible---Slovene---Slovene-Stritarja-NT---
 "> ../spellcheck/Holy-Bible---Slovene---Slovene-Stritarja-NT.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Slovene---Slovene-Stritarja-NT.WORDS');
 system("cat ../spellcheck/Holy-Bible---Slovene---Slovene-Stritarja-NT.WORDS | ".
-"aspell list --lang=sl ".
+"aspell list --lang=sl  ".
 "> ../spellcheck/Holy-Bible---Slovene---Slovene-Stritarja-NT.sl");
 system('wc -l ../spellcheck/Holy-Bible---Slovene---Slovene-Stritarja-NT.sl');
 
@@ -2760,7 +2760,7 @@ system("cat ../www-stageresources/Holy-Bible---Spanish---Free-Bible---Source-Edi
 "> ../spellcheck/Holy-Bible---Spanish---Free-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Spanish---Free-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Spanish---Free-Bible.WORDS | ".
-"aspell list --lang=es ".
+"aspell list --lang=es  ".
 "> ../spellcheck/Holy-Bible---Spanish---Free-Bible.es");
 system('wc -l ../spellcheck/Holy-Bible---Spanish---Free-Bible.es');
 
@@ -2776,7 +2776,7 @@ system("cat ../www-stageresources/Holy-Bible---Spanish---Reina-Valera-1865---Sou
 "> ../spellcheck/Holy-Bible---Spanish---Reina-Valera-1865.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Spanish---Reina-Valera-1865.WORDS');
 system("cat ../spellcheck/Holy-Bible---Spanish---Reina-Valera-1865.WORDS | ".
-"aspell list --lang=es ".
+"aspell list --lang=es  ".
 "> ../spellcheck/Holy-Bible---Spanish---Reina-Valera-1865.es");
 system('wc -l ../spellcheck/Holy-Bible---Spanish---Reina-Valera-1865.es');
 
@@ -2792,7 +2792,7 @@ system("cat ../www-stageresources/Holy-Bible---Spanish---Reina-Valera-1909---Sou
 "> ../spellcheck/Holy-Bible---Spanish---Reina-Valera-1909.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Spanish---Reina-Valera-1909.WORDS');
 system("cat ../spellcheck/Holy-Bible---Spanish---Reina-Valera-1909.WORDS | ".
-"aspell list --lang=es ".
+"aspell list --lang=es  ".
 "> ../spellcheck/Holy-Bible---Spanish---Reina-Valera-1909.es");
 system('wc -l ../spellcheck/Holy-Bible---Spanish---Reina-Valera-1909.es');
 
@@ -2808,7 +2808,7 @@ system("cat ../www-stageresources/Holy-Bible---Spanish---Reina-Valera-NT-1858---
 "> ../spellcheck/Holy-Bible---Spanish---Reina-Valera-NT-1858.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Spanish---Reina-Valera-NT-1858.WORDS');
 system("cat ../spellcheck/Holy-Bible---Spanish---Reina-Valera-NT-1858.WORDS | ".
-"aspell list --lang=es ".
+"aspell list --lang=es  ".
 "> ../spellcheck/Holy-Bible---Spanish---Reina-Valera-NT-1858.es");
 system('wc -l ../spellcheck/Holy-Bible---Spanish---Reina-Valera-NT-1858.es');
 
@@ -2824,7 +2824,7 @@ system("cat ../www-stageresources/Holy-Bible---Spanish---Sagradas-Escrituras-156
 "> ../spellcheck/Holy-Bible---Spanish---Sagradas-Escrituras-1569.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Spanish---Sagradas-Escrituras-1569.WORDS');
 system("cat ../spellcheck/Holy-Bible---Spanish---Sagradas-Escrituras-1569.WORDS | ".
-"aspell list --lang=es ".
+"aspell list --lang=es  ".
 "> ../spellcheck/Holy-Bible---Spanish---Sagradas-Escrituras-1569.es");
 system('wc -l ../spellcheck/Holy-Bible---Spanish---Sagradas-Escrituras-1569.es');
 
@@ -2840,7 +2840,7 @@ system("cat ../www-stageresources/Holy-Bible---Spanish---Sencillo-Bible---Source
 "> ../spellcheck/Holy-Bible---Spanish---Sencillo-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Spanish---Sencillo-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Spanish---Sencillo-Bible.WORDS | ".
-"aspell list --lang=es ".
+"aspell list --lang=es  ".
 "> ../spellcheck/Holy-Bible---Spanish---Sencillo-Bible.es");
 system('wc -l ../spellcheck/Holy-Bible---Spanish---Sencillo-Bible.es');
 
@@ -2856,7 +2856,7 @@ system("cat ../www-stageresources/Holy-Bible---Swahili---New-Swahili-Bible---Sou
 "> ../spellcheck/Holy-Bible---Swahili---New-Swahili-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Swahili---New-Swahili-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Swahili---New-Swahili-Bible.WORDS | ".
-"aspell list --lang=sw ".
+"aspell list --lang=sw  ".
 "> ../spellcheck/Holy-Bible---Swahili---New-Swahili-Bible.sw");
 system('wc -l ../spellcheck/Holy-Bible---Swahili---New-Swahili-Bible.sw');
 
@@ -2872,7 +2872,7 @@ system("cat ../www-stageresources/Holy-Bible---Swahili---Swahili-Bible---Source-
 "> ../spellcheck/Holy-Bible---Swahili---Swahili-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Swahili---Swahili-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Swahili---Swahili-Bible.WORDS | ".
-"aspell list --lang=sw ".
+"aspell list --lang=sw  ".
 "> ../spellcheck/Holy-Bible---Swahili---Swahili-Bible.sw");
 system('wc -l ../spellcheck/Holy-Bible---Swahili---Swahili-Bible.sw');
 
@@ -2888,7 +2888,7 @@ system("cat ../www-stageresources/Holy-Bible---Swedish---Swedish-Bible---Source-
 "> ../spellcheck/Holy-Bible---Swedish---Swedish-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Swedish---Swedish-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Swedish---Swedish-Bible.WORDS | ".
-"aspell list --lang=sv ".
+"aspell list --lang=sv  ".
 "> ../spellcheck/Holy-Bible---Swedish---Swedish-Bible.sv");
 system('wc -l ../spellcheck/Holy-Bible---Swedish---Swedish-Bible.sv');
 
@@ -2904,7 +2904,7 @@ system("cat ../www-stageresources/Holy-Bible---Swedish---Swedish-Bible-1873---So
 "> ../spellcheck/Holy-Bible---Swedish---Swedish-Bible-1873.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Swedish---Swedish-Bible-1873.WORDS');
 system("cat ../spellcheck/Holy-Bible---Swedish---Swedish-Bible-1873.WORDS | ".
-"aspell list --lang=sv ".
+"aspell list --lang=sv  ".
 "> ../spellcheck/Holy-Bible---Swedish---Swedish-Bible-1873.sv");
 system('wc -l ../spellcheck/Holy-Bible---Swedish---Swedish-Bible-1873.sv');
 
@@ -2920,7 +2920,7 @@ system("cat ../www-stageresources/Holy-Bible---Tagalog---Tagalog-Bible---Source-
 "> ../spellcheck/Holy-Bible---Tagalog---Tagalog-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Tagalog---Tagalog-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Tagalog---Tagalog-Bible.WORDS | ".
-"aspell list --lang=tl ".
+"aspell list --lang=tl  ".
 "> ../spellcheck/Holy-Bible---Tagalog---Tagalog-Bible.tl");
 system('wc -l ../spellcheck/Holy-Bible---Tagalog---Tagalog-Bible.tl');
 
@@ -2936,7 +2936,7 @@ system("cat ../www-stageresources/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked-
 "> ../spellcheck/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked.WORDS');
 system("cat ../spellcheck/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked.WORDS | ".
-"aspell list --lang=tl ".
+"aspell list --lang=tl  ".
 "> ../spellcheck/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked.tl");
 system('wc -l ../spellcheck/Holy-Bible---Tagalog---Tagalog-Bible-Unlocked.tl');
 
@@ -2952,7 +2952,7 @@ system("cat ../www-stageresources/Holy-Bible---Tamil---Tamil-Bible---Source-Edit
 "> ../spellcheck/Holy-Bible---Tamil---Tamil-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Tamil---Tamil-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Tamil---Tamil-Bible.WORDS | ".
-"aspell list --lang=ta ".
+"aspell list --lang=ta  ".
 "> ../spellcheck/Holy-Bible---Tamil---Tamil-Bible.ta");
 system('wc -l ../spellcheck/Holy-Bible---Tamil---Tamil-Bible.ta');
 
@@ -2968,7 +2968,7 @@ system("cat ../www-stageresources/Holy-Bible---Telugu---Telugu-Bible---Source-Ed
 "> ../spellcheck/Holy-Bible---Telugu---Telugu-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Telugu---Telugu-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Telugu---Telugu-Bible.WORDS | ".
-"aspell list --lang=te ".
+"aspell list --lang=te  ".
 "> ../spellcheck/Holy-Bible---Telugu---Telugu-Bible.te");
 system('wc -l ../spellcheck/Holy-Bible---Telugu---Telugu-Bible.te');
 
@@ -2996,7 +2996,7 @@ system("cat ../www-stageresources/Holy-Bible---Turkish---Turkish-Bible---Source-
 "> ../spellcheck/Holy-Bible---Turkish---Turkish-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Turkish---Turkish-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Turkish---Turkish-Bible.WORDS | ".
-"aspell list --lang=tr ".
+"aspell list --lang=tr  ".
 "> ../spellcheck/Holy-Bible---Turkish---Turkish-Bible.tr");
 system('wc -l ../spellcheck/Holy-Bible---Turkish---Turkish-Bible.tr');
 
@@ -3012,7 +3012,7 @@ system("cat ../www-stageresources/Holy-Bible---Ukrainian---Ukrainian-NT---Source
 "> ../spellcheck/Holy-Bible---Ukrainian---Ukrainian-NT.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Ukrainian---Ukrainian-NT.WORDS');
 system("cat ../spellcheck/Holy-Bible---Ukrainian---Ukrainian-NT.WORDS | ".
-"aspell list --lang=uk ".
+"aspell list --lang=uk  ".
 "> ../spellcheck/Holy-Bible---Ukrainian---Ukrainian-NT.uk");
 system('wc -l ../spellcheck/Holy-Bible---Ukrainian---Ukrainian-NT.uk');
 
@@ -3028,7 +3028,7 @@ system("cat ../www-stageresources/Holy-Bible---Ukrainian---Ukrainian-Ogienko---S
 "> ../spellcheck/Holy-Bible---Ukrainian---Ukrainian-Ogienko.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Ukrainian---Ukrainian-Ogienko.WORDS');
 system("cat ../spellcheck/Holy-Bible---Ukrainian---Ukrainian-Ogienko.WORDS | ".
-"aspell list --lang=uk ".
+"aspell list --lang=uk  ".
 "> ../spellcheck/Holy-Bible---Ukrainian---Ukrainian-Ogienko.uk");
 system('wc -l ../spellcheck/Holy-Bible---Ukrainian---Ukrainian-Ogienko.uk');
 
@@ -3104,7 +3104,7 @@ system("cat ../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-Bible---S
 "> ../spellcheck/Holy-Bible---Vietnamese---Vietnamese-Bible.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Vietnamese---Vietnamese-Bible.WORDS');
 system("cat ../spellcheck/Holy-Bible---Vietnamese---Vietnamese-Bible.WORDS | ".
-"aspell list --lang=vi ".
+"aspell list --lang=vi  ".
 "> ../spellcheck/Holy-Bible---Vietnamese---Vietnamese-Bible.vi");
 system('wc -l ../spellcheck/Holy-Bible---Vietnamese---Vietnamese-Bible.vi');
 
@@ -3120,7 +3120,7 @@ system("cat ../www-stageresources/Holy-Bible---Vietnamese---Vietnamese-Bible-193
 "> ../spellcheck/Holy-Bible---Vietnamese---Vietnamese-Bible-1934.WORDS");
 system('wc -l ../spellcheck/Holy-Bible---Vietnamese---Vietnamese-Bible-1934.WORDS');
 system("cat ../spellcheck/Holy-Bible---Vietnamese---Vietnamese-Bible-1934.WORDS | ".
-"aspell list --lang=vi ".
+"aspell list --lang=vi  ".
 "> ../spellcheck/Holy-Bible---Vietnamese---Vietnamese-Bible-1934.vi");
 system('wc -l ../spellcheck/Holy-Bible---Vietnamese---Vietnamese-Bible-1934.vi');
 
