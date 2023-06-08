@@ -561,7 +561,7 @@ Holy-Bible---Turkish---Turkish-Bible				https://ebible.org/Scriptures/turev_vpl.
 Holy-Bible---Ukrainian---Ukrainian-NT	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/UkrKulish.zip	Holy-Bible---Ukrainian---Ukrainian-NT---Source-Edition.SWORD.zip
 Holy-Bible---Ukrainian---Ukrainian-NT				https://ebible.org/epub/ukr1871.epub	Holy-Bible---Ukrainian---Ukrainian-NT---Source-Edition.epub
 Holy-Bible---Ukrainian---Ukrainian-NT				https://ebible.org/pdf/ukr1871/ukr1871_prt.pdf	Holy-Bible---Ukrainian---Ukrainian-NT---Source-Edition.pdf
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Ukrainian.zip	Holy-Bible---Ukrainian---Ukrainian-Ogienko---Source-Edition.SWORD.zip
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/UkrOgienko.zip	Holy-Bible---Ukrainian---Ukrainian-Ogienko---Source-Edition.SWORD.zip
 Holy-Bible---Urdu---Urdu-Bible				https://ebible.org/sword/zip/urd2017eb.zip	Holy-Bible---Urdu---Urdu-Bible---Source-Edition.SWORD.zip
 Holy-Bible---Urdu---Urdu-Bible				https://ebible.org/epub/urd.epub	Holy-Bible---Urdu---Urdu-Bible---Source-Edition.epub
 Holy-Bible---Urdu---Urdu-Bible				https://ebible.org/pdf/urd/urd_prt.pdf	Holy-Bible---Urdu---Urdu-Bible---Source-Edition.pdf

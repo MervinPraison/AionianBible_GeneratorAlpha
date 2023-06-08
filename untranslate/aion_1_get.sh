@@ -112,6 +112,7 @@ foreach( $database[T_SOURCES] as $data ) {
 		checksource($source, $source_status, $source_redirect, $source_size, $source_date, $source_time);
 		if ($source_size<=0) {
 			AION_ECHO("WARN! ZERO SIZE SOURCE: $source");
+			if (!preg_match("#STEPBible#u",$source)) { AION_ECHO("WARN! SKIPPING ZERO SIZE SOURCE: $source"); continue; }
 		}
 		$destination_size = $destination_date = "unknown";
 		if (file_exists($destination) && ($stat=stat($destination))) {
@@ -173,7 +174,8 @@ foreach( $database[T_SOURCES] as $data ) {
 		}
 		$unpack = str_replace('.zip','.txt',$destination);
 		if ($retrieve || !file_exists($unpack)) {
-			if ($source_size<30000) { AION_ECHO("WARN! SMALL SWORD SOURCE FILE SIZE: $source_size, $source"); }
+			if ($source_size<10000) { AION_ECHO("WARN! TOO SMALL SWORD SOURCE FILE SIZE: $source_size, $source"); continue; }
+			else if ($source_size<30000) { AION_ECHO("WARN! SMALL SWORD SOURCE FILE SIZE: $source_size, $source"); }
 			system("unzip $destination -d /usr/share/sword");
 			$module = basename(str_replace('.zip','',$source));
 			system("mod2vpl $module 1 > $unpack");
