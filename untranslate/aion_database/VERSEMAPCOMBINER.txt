@@ -2800,6 +2800,7 @@ Holy-Bible---Tongan---Revised-West-Version							end
 Holy-Bible---Turkish---Turkish-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Turkish---Turkish-Bible							end
 Holy-Bible---Ukrainian---Ukrainian-NT							end
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	011	1KI	022	044	53	1	end
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	003	001	8	1	end
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	004	001	8	1	end
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	005	001	12	1	end
@@ -2863,6 +2864,8 @@ Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	102	001	28	1	end
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	108	001	13	1	end
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	140	001	13	1	end
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	142	001	7	1	end
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	064	3JO	001	014	14	1	end
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	066	REV	012	018	1	-1	end
 Holy-Bible---Ukrainian---Ukrainian-Ogienko							end
 Holy-Bible---Urdu---Urdu-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Urdu---Urdu-Bible	066	REV	012	018	1	-1	end

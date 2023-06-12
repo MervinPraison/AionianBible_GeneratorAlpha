@@ -980,6 +980,7 @@ Holy-Bible---Ukrainian---Ukrainian-Ogienko	2CH13-14
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	NEH3-4
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	NEH9-10
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	JOB40-41
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	PSA150
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	ECC4-5
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	SOL6-7
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	ISA8-9
@@ -990,10 +991,11 @@ Holy-Bible---Ukrainian---Ukrainian-Ogienko	DAN5-6
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	HOS1-2
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	HOS11-12
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	HOS13-14
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	JOE3-4
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	JON1-2
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	MIC4-5
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	NAH1-2
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	ZEC1-2
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	JON1-2
 Holy-Bible---Urdu---Urdu-Bible	NONE
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic	NONE
 Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic	NUM12-13

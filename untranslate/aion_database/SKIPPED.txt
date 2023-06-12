@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1202656     
-# File Date: 06/06/2023 22:24:21
+# File Size: 1203236     
+# File Date: 06/11/2023 21:25:44
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2023
@@ -1641,7 +1641,6 @@ Holy-Bible---English---New-Heart-Aramaic	040	MAT	018	011
 Holy-Bible---English---New-Heart-Aramaic	041	MAR	007	016	
 Holy-Bible---English---New-Heart-Aramaic	041	MAR	009	044	
 Holy-Bible---English---New-Heart-Aramaic	041	MAR	009	046	
-Holy-Bible---English---New-Heart-Aramaic	042	LUK	017	036	
 Holy-Bible---English---New-Heart-Aramaic	043	JOH	005	004	
 Holy-Bible---English---New-Heart-Aramaic	045	ROM	016	024	
 Holy-Bible---English---New-Heart-Aramaic	066	REV	012	018	And he stood on the sand of the sea.
@@ -1650,7 +1649,6 @@ Holy-Bible---English---New-Heart-Jehovah	040	MAT	018	011
 Holy-Bible---English---New-Heart-Jehovah	041	MAR	007	016	
 Holy-Bible---English---New-Heart-Jehovah	041	MAR	009	044	
 Holy-Bible---English---New-Heart-Jehovah	041	MAR	009	046	
-Holy-Bible---English---New-Heart-Jehovah	042	LUK	017	036	
 Holy-Bible---English---New-Heart-Jehovah	043	JOH	005	004	
 Holy-Bible---English---New-Heart-Jehovah	045	ROM	016	024	
 Holy-Bible---English---New-Heart-Jehovah	066	REV	012	018	And he stood on the sand of the sea.
@@ -1659,7 +1657,6 @@ Holy-Bible---English---New-Heart-Jesus-Messiah	040	MAT	018	011
 Holy-Bible---English---New-Heart-Jesus-Messiah	041	MAR	007	016	
 Holy-Bible---English---New-Heart-Jesus-Messiah	041	MAR	009	044	
 Holy-Bible---English---New-Heart-Jesus-Messiah	041	MAR	009	046	
-Holy-Bible---English---New-Heart-Jesus-Messiah	042	LUK	017	036	
 Holy-Bible---English---New-Heart-Jesus-Messiah	043	JOH	005	004	
 Holy-Bible---English---New-Heart-Jesus-Messiah	045	ROM	016	024	
 Holy-Bible---English---New-Heart-Jesus-Messiah	066	REV	012	018	And he stood on the sand of the sea.
@@ -1668,7 +1665,6 @@ Holy-Bible---English---New-Heart-Messianic	040	MAT	018	011
 Holy-Bible---English---New-Heart-Messianic	041	MAR	007	016	
 Holy-Bible---English---New-Heart-Messianic	041	MAR	009	044	
 Holy-Bible---English---New-Heart-Messianic	041	MAR	009	046	
-Holy-Bible---English---New-Heart-Messianic	042	LUK	017	036	
 Holy-Bible---English---New-Heart-Messianic	043	JOH	005	000	
 Holy-Bible---English---New-Heart-Messianic	045	ROM	016	024	
 Holy-Bible---English---New-Heart-Messianic	066	REV	012	018	And he stood on the sand of the sea.
@@ -1677,7 +1673,6 @@ Holy-Bible---English---New-Heart-Standard	040	MAT	018	011
 Holy-Bible---English---New-Heart-Standard	041	MAR	007	016	
 Holy-Bible---English---New-Heart-Standard	041	MAR	009	044	
 Holy-Bible---English---New-Heart-Standard	041	MAR	009	046	
-Holy-Bible---English---New-Heart-Standard	042	LUK	017	036	
 Holy-Bible---English---New-Heart-Standard	043	JOH	005	004	
 Holy-Bible---English---New-Heart-Standard	045	ROM	016	024	
 Holy-Bible---English---New-Heart-Standard	066	REV	012	018	And he stood on the sand of the sea.
@@ -1686,7 +1681,6 @@ Holy-Bible---English---New-Heart-YHWH	040	MAT	018	011
 Holy-Bible---English---New-Heart-YHWH	041	MAR	007	016	
 Holy-Bible---English---New-Heart-YHWH	041	MAR	009	044	
 Holy-Bible---English---New-Heart-YHWH	041	MAR	009	046	
-Holy-Bible---English---New-Heart-YHWH	042	LUK	017	036	
 Holy-Bible---English---New-Heart-YHWH	043	JOH	005	004	
 Holy-Bible---English---New-Heart-YHWH	045	ROM	016	024	
 Holy-Bible---English---New-Heart-YHWH	066	REV	012	018	And he stood on the sand of the sea.
@@ -8492,73 +8486,76 @@ Holy-Bible---Telugu---Telugu-Bible	040	MAT	004	014
 Holy-Bible---Telugu---Telugu-Bible	064	3JO	001	014	కానీ నేను నిన్ను త్వరలోనే చూడగలనని ఆశిస్తున్నాను. అప్పుడు మనం ముఖాముఖీ మాట్లాడుకుందాం.
 Holy-Bible---Telugu---Telugu-Bible	066	REV	012	018	దానికోసం ఆ మహా సర్పం సముద్ర తీరంలో ఇసుక తిన్నెలపై నిలబడింది.
 Holy-Bible---Turkish---Turkish-Bible	066	REV	012	018	Denizin kıyısında dikilip durdu.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	003	001	Псалом Давидів, як він утікав був від перед Авесаломом, своїм сином.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	004	001	Для дириґетна хору. На струнніх знаряддях. Псалом Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	005	001	Для дириґетна хору. До флейти. Псалом Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	006	001	Для дириґетна хору. На струнніх знаряддях. На октаву. Псалом Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	007	001	Жалібна пісня Давидова,
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	008	001	Для дириґетна хору. На інструменті ґатійськім. Псалом Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	009	001	Для дириґетна хору. На спів: „На смерть сина". Псалом Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	012	001	Для дириґетна хору. На октаву. Псалом Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	013	001	Для дириґетна хору. Псалом Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	018	001	Для дириґента хору. Раба Господнього Давида, коли він промовив до Господа слова цієї пісні того дня, як Господь урятував його з руки всіх його ворогів та від руки Саула,
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	019	001	Для дириґетна хору. Псалом Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	020	001	Для дириґетна хору. Псалом Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	021	001	Для дириґетна хору. Псалом Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	022	001	Для дириґетна хору. На спів: „Ланя зорі досвітньої". Псалом Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	030	001	Псалом Давидів. Пісня освячення дому.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	031	001	Для дириґетна хору. Псалом Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	034	001	Давидів, коли він удавав був причинного перед Авімелехом, що вигнав його, і той пішов.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	036	001	Для диригенту хору. Раба Господнього Давида.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	038	001	Псалом Давидів. На пам'ятку.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	039	001	Для дириґетна хору. Єдутуна. Псалом Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	040	001	Для дириґетна хору. Псалом Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	041	001	Для дириґетна хору. Псалом Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	042	001	Для дириґетна хору. Псалом навчальний, синів Кореєвих.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	044	001	Для дириґетна хору. Синів Кореєвих. Псалом навчальний.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	045	001	Для дириґетна хору. На „Лілеї". Синів Кореєвих. Псалом навчальний. Пісня любови.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	046	001	Для дириґетна хору. Синів Кореєвих. На спів „Аламот". Пісня.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	047	001	Для дириґетна хору. Синів Кореєвих. Псалом.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	048	001	Пісня. Псалом синів Кореєвих.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	049	001	Для дириґетна хору. Синів Кореєвих. Псалом.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	051	001	Для дириґетна хору. Псалом Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	051	002	Помилуй мене, Боже, з великої милости Твоєї,
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	052	001	Для дириґетна хору. Псалом навчальний Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	052	002	Чого хвалишся злом, о могутній?
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	053	001	Для дириґетна хору. На „Махалат". Навчальний псалом. Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	054	001	Для дириґетна хору. На неґінах. Псалом навчальний Давидів,
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	054	002	як зіфіяни прийшли були та сказали Саулові: „Ось Давид поміж нами ховається!"
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	055	001	Для дириґетна хору. На неґінах. Псалом навчальний Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	056	001	Для дириґетна хору. На „Німа голубка в далечині". Золотий Давидів псалом, коли филистимляни захопили були його в Ґаті.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	057	001	Для дириґетна хору. На спів: „Не вигуби". Золотий псалом Давидів, коли він утікав від Саула в печеру.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	058	001	Для дириґетна хору. На спів: „Не вигуби". Золотий псалом Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	059	001	Для дириґетна хору. На спів: „Не вигуби". Золотий псалом Давидів, коли послав був Саул, і стерегли його дім. щоб убити його.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	060	001	Для дириґетна хору. На спів: „Лілея свідчення". Золотий псалом Давидів для навчання,
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	060	002	коли він підпалив був Арам двух річок і Арам Цови, і вернувся Йоав і побив Едома в Соляній долині, дванадцять тисяч.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	061	001	Для дириґетна хору. На струннім інструменті. Псалом Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	062	001	Для дириґетна хору. Для Єдутуна. Псалом Давидів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	011	1KI	022	044	Тільки па́гірки не були пони́щені, — народ іще прино́сив жертви й кадив на па́гірках.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	003	001	Псалом Давидів, як він утікав був перед Авесало́мом, своїм сином.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	004	001	Для дириґе́нта хору. На струнних знаря́ддях. Псало́м Давидів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	005	001	Для дириґента хору. До флейти. Псалом Давидів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	006	001	Для дириґента хору. На струнних знаря́ддях. На октаву. Псалом Давидів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	007	001	Жало́бна пісня Давидова, яку він співав Господе́ві в справі веніями́нівця Ку́ша.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	008	001	Для дириґента хору. На інструме́нті ґатійськім. Псалом Давидів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	009	001	Для дириґента хору. На спів: „На смерть сина“. Псалом Давидів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	012	001	Для дириґента хору. На окта́ву. Псалом Давидів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	013	001	Для дириґента хору. Псалом Давидів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	018	001	Для дириґента хору. Раба Господнього Давида, коли він промовив до Господа слова́ цієї пісні того дня, як Господь урятував його з руки всіх його ворогів та від руки Саула,
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	019	001	Для дириґента хору. Псало́м Давидів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	020	001	Для дириґента хору. Псало́м Дави́дів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	021	001	Для дириґента хору. Псалом Давидів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	022	001	Для дириґента хору. На спів: „Ланя зорі́ досві́тньої“. Псалом Давидів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	030	001	Псалом Давидів. Пісня освя́чення дому.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	031	001	Для дириґента хору. Псалом Давидів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	034	001	Давидів, коли він удавав був причи́нного перед Авімелехом, що вигнав його, і той пішов.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	036	001	Для дириґента хору. Раба Господнього Давида.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	038	001	Псалом Давидів. На па́м'ятку.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	039	001	Для дириґента хору. Єдуту́на. Псалом Давидів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	040	001	Для дириґента хору. Псалом Давидів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	041	001	Для дириґента хору. Псалом Давидів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	042	001	Для дириґента хору. Псало́м навча́льний, синів Коре́євих.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	044	001	Для дириґента хору. Синів Коре́євих. Псало́м навча́льний.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	045	001	Для дириґента хору. На „Лілеї“. Синів Коре́євих. Псалом навча́льний. Пісня любови.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	046	001	Для дириґента хору. Синів Коре́євих. На спів „Аламот“. Пісня.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	047	001	Для дириґента хору. Синів Коре́євих, Псалом.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	048	001	Пісня. Псалом синів Коре́євих.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	049	001	Для дириґента хору. Синів Коре́євих. Псалом.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	051	001	Для дириґента хору. Псалом Давидів,
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	051	002	коли до нього прийшов пророк Ната́н, як Давид увійшов був до Вірсаві́ї
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	052	001	Для дириґента хору. Псалом навча́льний Давидів,
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	052	002	як прийшов був ідуме́янин Доеґ та й Саулові був оповів, і до нього сказав: „Давид увійшов до дому Ахіме́леха“.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	053	001	Для дириґента хору. На „Махалат“. Навча́льний псало́м. Давидів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	054	001	Для дириґента хору. На неґінах. Псало́м навча́льний Давидів,
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	054	002	як зіфе́яни прийшли були та сказали Саулові: „Ось Давид поміж нами ховається!“
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	055	001	Для дириґента хору. На неґінах. Навчальний Давидів псалом.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	056	001	Для дириґента хору. На „Німа голубка вдалечині“. Золотий Давидів псалом, коли филисти́мляни захопи́ли були його в Ґа́ті.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	057	001	Для дириґента хору. На спів: „Не вигуби“. Золотий псалом Давидів, коли він утікав від Саула в пече́ру.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	058	001	Для дириґента хору. На спів: „Не вигуби“. Золотий псалом Давидів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	059	001	Для дириґента хору. На спів: „Не вигуби“. Золотий псалом Давидів, коли послав був Саул, і стерегли́ його дім, щоб убити його.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	060	001	Для дириґента хору. На спів: „Лілея свідчення“. Золотий псалом Давидів для навча́ння,
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	060	002	коли він підпалив був Ара́м двох річо́к і Ара́м Цови́, і коли вернувся Йоав і побив Едо́ма  в Соляній долині, дванадцять тисяч.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	061	001	Для дириґента хору. На струннім інструменті. Псалом Давидів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	062	001	Для дириґента хору. Для Єдуту́на. Псалом Давидів.
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	063	001	Псалом Давидів, коли був він у пустині юдейській.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	064	001	Для дириґетна хору. Псалом Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	065	001	Для дириґетна хору. Псалом Давидів. Пісня. Уся земле, покликуйте Богові:
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	067	001	Для дириґетна хору. На струнних знаряддях. Псалом. Пісня.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	068	001	Для дириґетна хору. Псалом Давидів. Пісня.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	069	001	Для дириґетна хору. На спів: „Лелії". Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	070	001	Для дириґетна хору. Давидів. На пам'ятку.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	075	001	Для дириґетна хору. „Не вигуби!" Псалом Асафів. Пісня.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	076	001	Для дириґетна хору. На неґінах. Псалом Асафів. Пісня.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	077	001	Для дириґетна хору. Псалом Асафів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	080	001	Для дириґетна хору. На „Лілеї". Свідоцтво. Псалом Асафів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	081	001	Для дириґетна хору. На ґітійськім знарядді. Асафів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	083	001	Пісня. Псалом Асафів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	084	001	Для дириґетна хору. На ґітійськомім знарядді. Синів Кореєвих. Псалом.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	085	001	Для дириґетна хору. Синів Кореєвих. Псалом.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	088	001	Пісня. Псалом. Синів Кореєвих. Для дириґетна хору. На „Махалат лефннот". Пісня навчальна Гемана езрахеяннина.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	089	001	Навчальна пісня Етана езрахеяннина.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	064	001	Для дириґента хору. Псалом Давидів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	065	001	Для дириґента хору. Псалом Давидів. Пісня.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	067	001	Для дириґента хору. На струнних знаряддях. Псалом. Пісня.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	068	001	Для дириґента хору. Псалом Давидів. Пісня.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	069	001	Для дириґента хору. На спів „Лелії“. Давидів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	070	001	Для дириґента хору. Давидів. На пам'ятку.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	075	001	Для дириґента хору. „Не вигуби!“ Псалом Аса́фів. Пісня.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	076	001	Для дириґента хору. На неґінах. Псалом Аса́фів. Пісня.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	077	001	Для дириґента хору. Для Єдуту́на. Псалом Асафів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	080	001	Для дириґента хору. На „Лілеї“. Свідо́цтво. Псалом Асафів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	081	001	Для дириґента хору. На ґітійськім знарядді. Аса́фів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	083	001	Пісня. Псалом Аса́фів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	084	001	Для дириґента хору. На ґі́тійськім знарядді. Синів Коре́євих. Псало́м.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	085	001	Для дириґента хору. Синів Коре́євих. Псалом.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	088	001	Пісня. Псалом. Синів Кореєвих. Для дириґента хору. На „Махалат леаннот“. Пісня навча́льна Ге́мана езрахе́янина.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	089	001	Навчальна пісня Ета́на езрахе́янина.
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	092	001	Псалом. Пісня на день суботній.
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	102	001	Молитва вбогого, коли він слабне та перед Господнім лицем виливає мову свою.
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	108	001	Пісня. Псалом Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	140	001	Для дириґетна хору. Псалом Давидів.
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	142	001	Псалом навчальний, Давида, коли був у печері. Молитва.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	140	001	Для дириґента хору. Псалом Давидів.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	142	001	Псалом навча́льний, Давида, коли він був у печері. Молитва.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	064	3JO	001	014	але маю надію побачити тебе незаба́ром, і говорити уста́ми до уст.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	066	REV	012	018	І я став на морсько́му піску́.
 Holy-Bible---Urdu---Urdu-Bible	064	3JO	001	014	बल्कि तुझ से जल्द मिलने की उम्मीद रखता हूँ, उस वक़्त हम रू — ब — रू बातचीत करेंगे।
 Holy-Bible---Urdu---Urdu-Bible	066	REV	012	018	
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic	009	1SA	021	001	داۋۇت ئەمدى نوبقا كېلىپ ئاخىمەلەك كاھىننىڭ قېشىغا باردى.

@@ -1,6 +1,6 @@
 # File Name: TALLY.txt
 # File Size: 13542       
-# File Date: 06/06/2023 22:24:21
+# File Date: 06/11/2023 21:25:44
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2023
@@ -66,12 +66,12 @@ Holy-Bible---English---King-James-Version-American	31102	31102	31102
 Holy-Bible---English---King-James-Version-Updated	31102	31102	31102
 Holy-Bible---English---LXX2012-U-S-English	22869	22869	22888
 Holy-Bible---English---Montgomery-NT	7940	7940	7942
-Holy-Bible---English---New-Heart-Aramaic	31094	31094	31103
-Holy-Bible---English---New-Heart-Jehovah	31094	31094	31103
-Holy-Bible---English---New-Heart-Jesus-Messiah	31094	31094	31103
-Holy-Bible---English---New-Heart-Messianic	31094	31094	31103
-Holy-Bible---English---New-Heart-Standard	31094	31094	31103
-Holy-Bible---English---New-Heart-YHWH	31094	31094	31103
+Holy-Bible---English---New-Heart-Aramaic	31095	31095	31103
+Holy-Bible---English---New-Heart-Jehovah	31095	31095	31103
+Holy-Bible---English---New-Heart-Jesus-Messiah	31095	31095	31103
+Holy-Bible---English---New-Heart-Messianic	31095	31095	31103
+Holy-Bible---English---New-Heart-Standard	31095	31095	31103
+Holy-Bible---English---New-Heart-YHWH	31095	31095	31103
 Holy-Bible---English---One-Unity-Resource-Bible	14299	14299	14299
 Holy-Bible---English---Open-English-Bible-Commonwealth	11701	11701	11722
 Holy-Bible---English---Open-English-Bible-US	11701	11701	11722
@@ -220,7 +220,7 @@ Holy-Bible---Telugu---Telugu-Bible	31038	31038	31041
 Holy-Bible---Tongan---Revised-West-Version	31102	31102	31102
 Holy-Bible---Turkish---Turkish-Bible	30238	30238	30239
 Holy-Bible---Ukrainian---Ukrainian-NT	7957	7957	7957
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	31102	31102	31169
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	31094	31094	31164
 Holy-Bible---Urdu---Urdu-Bible	31102	31102	31104
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic	30822	30822	30825
 Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic	30829	30829	30896

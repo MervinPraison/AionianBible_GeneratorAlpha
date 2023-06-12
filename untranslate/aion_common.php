@@ -606,7 +606,7 @@ function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $ski
 		'source'	=> $source,
 		'uniusage'	=> $uniusage,
 		'include'	=> '/---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
-		//'include'	=> '/.*Bengali.*---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
+		//'include'	=> '/.*Ukrainian-Ogienko.*---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---Slovene---Slovene-Savli-Bible---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
 		//'include'	=> '/Holy-Bible---(Panjabi|Malayalam|Oriya).+---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',		
 		'destiny'	=> $destiny,
@@ -990,10 +990,10 @@ function AION_TEXT_REPAIR($string,$errline,$bible,$trueifrawtext, &$textrepair,$
     return $string;
 }
 function AION_TEXT_SELAH($string,$errline,$bible){
-	$preg1 = '/^[ [:punct:]]*(Selaⱨ|Селаһ|Hera|Selá|Selaah|Sela|Sila|Selah|Pause|Selah|Jela|细拉|細拉|চেলা|셀라|ସେଲା|சேலா|Sélah|সেলা|સેલાહ|Szela|セラ|ಸೆಲಾ|Zela|സേലാ|సెలా|सिलाह)[ [:punct:]]*[ ]+/ui';
-	$preg2 = '/[ ]+[ [:punct:]]*(Selaⱨ|Селаһ|Hera|Selá|Selaah|Sela|Sila|Selah|Pause|Selah|Jela|细拉|細拉|চেলা|셀라|ସେଲା|சேலா|Sélah|সেলা|સેલાહ|Szela|セラ|ಸೆಲಾ|Zela|സേലാ|సెలా|सिलाह)[ [:punct:]]*$/ui';
-	$preg3 = '/ [ [:punct:]]*(Selaⱨ|Селаһ|Hera|Selá|Selaah|Sela|Sila|Selah|Pause|Selah|Jela|细拉|細拉|চেলা|셀라|ସେଲା|சேலா|Sélah|সেলা|સેલાહ|Szela|セラ|ಸೆಲಾ|Zela|സേലാ|సెలా|सिलाह)[ [:punct:]]* /ui';
-	$preg4 = '/(Selaⱨ|Селаһ|Hera|Selá|Selaah|Sela|Sila|Selah|Pause|Selah|Jela|细拉|細拉|চেলা|셀라|ସେଲା|சேலா|Sélah|সেলা|સેલાહ|Szela|セラ|ಸೆಲಾ|Zela|സേലാ|సెలా|सिलाह|Interlud|Jinaso|Higgaion|Higaion|Meditation|Jeu d\'instruments|Higgajon|Zwischenspiel|Hikaiona|Hikaione)/';
+	$preg1 = '/^[ [:punct:]]*(Selaⱨ|Селаһ|Се́ла|Села|Hera|Selá|Selaah|Sela|Sila|Selah|Pause|Selah|Jela|细拉|細拉|চেলা|셀라|ସେଲା|சேலா|Sélah|সেলা|સેલાહ|Szela|セラ|ಸೆಲಾ|Zela|സേലാ|సెలా|सिलाह)[ [:punct:]]*[ ]+/ui';
+	$preg2 = '/[ ]+[ [:punct:]]*(Selaⱨ|Селаһ|Се́ла|Села|Hera|Selá|Selaah|Sela|Sila|Selah|Pause|Selah|Jela|细拉|細拉|চেলা|셀라|ସେଲା|சேலா|Sélah|সেলা|સેલાહ|Szela|セラ|ಸೆಲಾ|Zela|സേലാ|సెలా|सिलाह)[ [:punct:]]*$/ui';
+	$preg3 = '/ [ [:punct:]]*(Selaⱨ|Селаһ|Се́ла|Села|Hera|Selá|Selaah|Sela|Sila|Selah|Pause|Selah|Jela|细拉|細拉|চেলা|셀라|ସେଲା|சேலா|Sélah|সেলা|સેલાહ|Szela|セラ|ಸೆಲಾ|Zela|സേലാ|సెలా|सिलाह)[ [:punct:]]* /ui';
+	$preg4 = '/(Selaⱨ|Селаһ|Се́ла|Села|Hera|Selá|Selaah|Sela|Sila|Selah|Pause|Selah|Jela|细拉|細拉|চেলা|셀라|ସେଲା|சேலா|Sélah|সেলা|સેલાહ|Szela|セラ|ಸೆಲಾ|Zela|സേലാ|సెలా|सिलाह|Interlud|Jinaso|Higgaion|Higaion|Meditation|Jeu d\'instruments|Higgajon|Zwischenspiel|Hikaiona|Hikaione)/';
 	if ('Holy-Bible---Tagalog---Tagalog-Bible'==$bible) {
 		$preg1 = preg_replace('/sila\|/ui', '', $preg1);
 		$preg2 = preg_replace('/sila\|/ui', '', $preg2);
@@ -3084,22 +3084,22 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-5719;
 	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-5130;
 	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-186916;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-4929598;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-4929596;
 	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-47698;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-258;
 	$grandmarker['LONG']		= $grandtotal['LONG']-859;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-0;
-	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-2055;
+	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-2058;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-912;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-13608;
-	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-10848;
-	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-8250;
-	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-710;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-13379;
+	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-10850;
+	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-8336;
+	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-717;
 	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-620;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-122218;
-	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-25810;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-2737.61;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-122288;
+	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-25830;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-2739.01;
 	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-109;
 	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-65;
 	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-207;
