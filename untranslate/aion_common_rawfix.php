@@ -14573,7 +14573,7 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Ukrainian---Ukrainian-Ogienko" :
-if (!($bfile = preg_replace("/([^\d:]{1})3([^\d:]{1})/us",'$1З$2',$bfile,-1,$rnum)) || $rnum!=6) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/([^\d:]{1})3([^\d:]{1})/us",'$1З$2',$bfile,-1,$rnum)) || $rnum!=4) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/[\\\{}]+/us",' ',$bfile,-1,$rnum)) || $rnum!=3) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 $bigfix = <<<EOF

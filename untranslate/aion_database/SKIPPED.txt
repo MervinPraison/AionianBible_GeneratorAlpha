@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1203236     
-# File Date: 06/11/2023 21:25:44
+# File Size: 1203235     
+# File Date: 06/27/2023 18:47:35
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2023
@@ -8529,7 +8529,7 @@ Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	057	001	Для дириґен
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	058	001	Для дириґента хору. На спів: „Не вигуби“. Золотий псалом Давидів.
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	059	001	Для дириґента хору. На спів: „Не вигуби“. Золотий псалом Давидів, коли послав був Саул, і стерегли́ його дім, щоб убити його.
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	060	001	Для дириґента хору. На спів: „Лілея свідчення“. Золотий псалом Давидів для навча́ння,
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	060	002	коли він підпалив був Ара́м двох річо́к і Ара́м Цови́, і коли вернувся Йоав і побив Едо́ма  в Соляній долині, дванадцять тисяч.
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	060	002	коли він підпалив був Ара́м двох річо́к і Ара́м Цови́, і коли вернувся Йоав і побив Едо́ма в Соляній долині, дванадцять тисяч.
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	061	001	Для дириґента хору. На струннім інструменті. Псалом Давидів.
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	062	001	Для дириґента хору. Для Єдуту́на. Псалом Давидів.
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	063	001	Псалом Давидів, коли був він у пустині юдейській.

@@ -24,6 +24,7 @@ else if ($_Path=='Readers-Guide') {						$_meta = " ~ Readers Guide";								abc
 else if ($_Path=='Aionios-and-Aidios') {				$_meta = " ~ Aiōnios and Aïdios";							abcms_page('docs/aionios-and-aidios.htm'); }
 else if ($_Path=='Destiny') {							$_meta = " ~ Heaven, Hell, men, angels, demons, and Satan";	abcms_page('docs/lake-of-fire.htm'); }
 else if ($_Path=='Promote') {							$_meta = " ~ Promote, Sponsor, Advertise, Market";			abcms_page('docs/promote.htm'); }
+else if ($_Path=='Love') {								$_meta = " ~ GroundZero.Love!";								abcms_page('docs/love.htm'); }
 else if ($_Path=='Nainoia-Inc') {						$_meta = " ~ Nainoia Inc, publisher of the Aionian Bible";	abcms_page('docs/nainoia-inc.htm'); }
 else if ($_Path=='Bible-Cover') {						$_meta = " ~ Aionian Bible Branded Leather Bible Covers";	abcms_page('docs/cover.htm'); }
 else if ($_Path=='Privacy') {							$_meta = " ~ Privacy Policy";								abcms_page('docs/privacy.htm'); }
