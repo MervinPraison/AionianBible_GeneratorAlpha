@@ -1,6 +1,6 @@
 # File Name: BOOKSCOUNT.txt
 # File Size: 1741        
-# File Date: 06/27/2023 20:10:19
+# File Date: 07/05/2023 08:47:31
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2023
