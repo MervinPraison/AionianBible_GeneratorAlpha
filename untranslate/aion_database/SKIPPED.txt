@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1203235     
-# File Date: 07/05/2023 07:18:02
+# File Size: 1203177     
+# File Date: 07/14/2023 16:47:27
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2023
@@ -64,7 +64,6 @@ Holy-Bible---Chin-Matu---Matupi-Chin-Bible	066	REV	012	018	Tedae tuitunli kah la
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	064	3JO	001	014	Ahihang hai ngawl in hong mu tu in ki um khi hi, maitang kisi in i ki paupui tu hi.
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	066	REV	012	018	Pathian thupiak te a zui nupi nu i suan a tanglai te do tu in kuankhia hi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	041	MAR	013	037	
-Holy-Bible---Chin-Thado---Chongthu-Bible	041	MAR	015	047	
 Holy-Bible---Chin-Thado---Chongthu-Bible	064	3JO	001	014	Ajeh chu nangma toh kimaitoa kimuto vahding kakinemin ahi. Chuphat leh kimaitoa ikihoulim ding ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	066	REV	012	018	Chujouvin dragon chu twikhanglen pam'a chun ading in ahi.
 Holy-Bible---Chinese---Chinese-Union-Version-Simplified	064	3JO	001	014	但盼望快快地见你，我们就当面谈论。
