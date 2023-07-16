@@ -20,12 +20,6 @@ Header set Onion-Location "http://sy3tqe5tvukyk35kbqx4v3xjj5jxkrvrcdno4c4neg5kym
 </FilesMatch>
 
 # DOMAIN, HTTPS, TOR
-RewriteCond %{HTTP_HOST} ^groundzero\.love$ [NC,OR]
-RewriteCond %{HTTP_HOST} ^.*\.groundzero\.love$ [NC,OR]
-RewriteCond %{REQUEST_URI} ^\/zero$ [NC,OR]
-RewriteCond %{REQUEST_URI} ^\/groundzero$ [NC,OR]
-RewriteCond %{REQUEST_URI} ^\/groundzero\.love$ [NC]
-RewriteRule ^ https://www.aionianbible.org/Love [L,R=301]
 RewriteCond %{HTTP_HOST} ^do\.aionianbible\.org$ [NC]
 RewriteRule ^ http://68.183.200.96%{REQUEST_URI} [L,R=301]
 RewriteCond %{HTTP_HOST} ^tor\.aionianbible\.org$ [NC]
