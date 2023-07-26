@@ -86,7 +86,7 @@ Holy-Bible---English---Aionian-Bible	018	JOB	026	006	SWAP		SHEOL	Sheol (Sheol h7
 Holy-Bible---English---Aionian-Bible	019	PSA	006	005	SWAP		SHEOL	For in death there is no memory of you.  In Sheol (Sheol h7585), who shall give you thanks?
 Holy-Bible---English---Aionian-Bible	019	PSA	009	017	SWAP		SHEOL	The wicked shall be turned back to Sheol (Sheol h7585), even all the nations that forget God.
 Holy-Bible---English---Aionian-Bible	019	PSA	016	010	SWAP		SHEOL	For you will not leave my soul in Sheol (Sheol h7585), neither will you allow your holy one to see corruption.
-Holy-Bible---English---Aionian-Bible	019	PSA	018	005	SWAP		SHEOL	The cords of Sheol were around me (Sheol h7585).  The snares of death came on me.
+Holy-Bible---English---Aionian-Bible	019	PSA	018	005	SWAP		SHEOL	The cords of Sheol (Sheol h7585) were around me.  The snares of death came on me.
 Holy-Bible---English---Aionian-Bible	019	PSA	030	003	SWAP		SHEOL	Yahweh, you have brought up my soul from Sheol (Sheol h7585).  You have kept me alive, that I should not go down to the pit.
 Holy-Bible---English---Aionian-Bible	019	PSA	031	017	SWAP		SHEOL	Let me not be disappointed, Yahweh, for I have called on you.  Let the wicked be disappointed.  Let them be silent in Sheol (Sheol h7585).
 Holy-Bible---English---Aionian-Bible	019	PSA	049	014	SWAP		SHEOL	They are appointed as a flock for Sheol (Sheol h7585).  Death shall be their shepherd.  The upright shall have dominion over them in the morning.  Their beauty shall decay in Sheol (Sheol h7585), far from their mansion.
