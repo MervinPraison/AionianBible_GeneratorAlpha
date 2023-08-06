@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
 # File Size: 489239      
-# File Date: 07/24/2023 10:35:06
+# File Date: 08/04/2023 23:37:07
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2023
