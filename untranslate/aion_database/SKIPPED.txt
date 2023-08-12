@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1203177     
-# File Date: 08/04/2023 22:08:44
+# File Size: 1202814     
+# File Date: 08/12/2023 10:52:09
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2023
@@ -63,7 +63,6 @@ Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	064	3JO	001	014	nang hoi a
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	066	REV	012	018	Tedae tuitunli kah laivin dongah sut pai.
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	064	3JO	001	014	Ahihang hai ngawl in hong mu tu in ki um khi hi, maitang kisi in i ki paupui tu hi.
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	066	REV	012	018	Pathian thupiak te a zui nupi nu i suan a tanglai te do tu in kuankhia hi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	041	MAR	013	037	
 Holy-Bible---Chin-Thado---Chongthu-Bible	064	3JO	001	014	Ajeh chu nangma toh kimaitoa kimuto vahding kakinemin ahi. Chuphat leh kimaitoa ikihoulim ding ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	066	REV	012	018	Chujouvin dragon chu twikhanglen pam'a chun ading in ahi.
 Holy-Bible---Chinese---Chinese-Union-Version-Simplified	064	3JO	001	014	但盼望快快地见你，我们就当面谈论。
@@ -1747,11 +1746,6 @@ Holy-Bible---English---Rotherham-Bible	044	ACT	028	029
 Holy-Bible---English---Rotherham-Bible	045	ROM	016	024	
 Holy-Bible---English---Trans-Trans	064	3JO	001	014	Instead, I expect to [come and] see you soon. Then we will talk directly with one another.
 Holy-Bible---English---Trans-Trans	066	REV	012	018	The dragon stood on the ocean shore.
-Holy-Bible---English---Twentieth-Century-NT	041	MAR	011	026	
-Holy-Bible---English---Twentieth-Century-NT	043	JOH	007	053	
-Holy-Bible---English---Twentieth-Century-NT	043	JOH	008	011	
-Holy-Bible---English---Twentieth-Century-NT	044	ACT	028	029	
-Holy-Bible---English---Twentieth-Century-NT	045	ROM	016	024	
 Holy-Bible---English---Unlocked-Literal-Bible	040	MAT	017	021	
 Holy-Bible---English---Unlocked-Literal-Bible	040	MAT	018	011	
 Holy-Bible---English---Unlocked-Literal-Bible	040	MAT	023	014	

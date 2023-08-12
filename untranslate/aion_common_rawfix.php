@@ -2785,184 +2785,24 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---English---Twentieth-Century-NT" :
 $textfix = <<<EOF
-Matthew 12:16 but he warned them not to make him known,
-Matthew 12:17 in fulfilment of these words in the Prophet Isaiah--
-Matthew 12:18 
-EOF;
-if (!($bfile = preg_replace("/Matthew 12:16 (.+?)Matthew 12:18 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Matthew 13:1 That same day, when Jesus had left the house and was sitting by the Sea,
-Matthew 13:2 such great crowds gathered round him, that he got into a boat, and sat in it, while all the people stood upon the beach.
-Matthew 13:3 
-EOF;
-if (!($bfile = preg_replace("/Matthew 13:1 (.+?)Matthew 13:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Matthew 13:34 Of all this Jesus spoke to the crowd in parables; indeed to them he used never to speak at all except in parables,
-Matthew 13:35 in fulfilment of these words in the Prophet--'I will speak to them in parables; I will utter things kept secret since the foundation of the world.'
-Matthew 13:36 
-EOF;
-if (!($bfile = preg_replace("/Matthew 13:34 (.+?)Matthew 13:36 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-// get substitute chapters and clean them up first!
-if (!($bfile2 = file_get_contents($file2="../www-stageresources/Holy-Bible---English---World-English-Bible---Source-Edition.VPL.txt"))) { AION_ECHO("ERROR! Rawfix problem reading: $file2"); }
-if (!preg_match("/MAT 15:29 (.+?)MAT 21:22 /us",$bfile2,$matches) || empty($matches[0])) { AION_ECHO("ERROR! Rawfix preg_match(MAT15-21): $file2"); }
-$space_punc	= array('’','”','‘','“');
-$space_punc2= array("'",'"',"'",'"');
-$matches[0] = str_replace($space_punc, $space_punc2, $matches[0]);
-if (!($matches[0] = preg_replace("/MAT /us", "Matthew ", $matches[0],-1,$rnum)) || $rnum!=187) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-if (!($bfile = preg_replace("/Matthew 15:29 (.+?)Matthew 21:22 /us",$matches[0],$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Matthew 22:45 Since, then, David calls him 'lord,' how is he David's son?"
-Matthew 22:46 No one could say a word in answer; nor did any one after that day venture to question him further.
-Matthew 23:1 
-EOF;
-if (!($bfile = preg_replace("/Matthew 22:45 (.+?)Matthew 23:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Matthew 26:6 After Jesus had reached Bethany, and while he was in the house of Simon the leper,
-Matthew 26:7 a woman came up to him with an alabaster jar of very costly perfume, and poured the perfume upon his head as he was at table.
-Matthew 26:8 
-EOF;
-if (!($bfile = preg_replace("/Matthew 26:6 (.+?)Matthew 26:8 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Matthew 27:1 At daybreak all the Chief Priests and the Councillors of the Nation consulted together against Jesus, to bring about his death."
-Matthew 27:2 
-EOF;
-if (!($bfile = preg_replace("/Matthew 27:1 (.+?)Matthew 27:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Matthew 27:23 "Why, what harm has he done?" he asked. But they kept shouting furiously. "Let him be crucified!"
-Matthew 27:24 
-EOF;
-if (!($bfile = preg_replace("/Matthew 27:24 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Matthew 27:50 But Jesus, uttering another loud cry, gave up his spirit.
-Matthew 27:51 
-EOF;
-if (!($bfile = preg_replace("/Matthew 27:51 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Mark 4:14 The sower sows the Message.
-Mark 4:15 The People meant by the seed that falls along the path are these--where the Message is sown, but, as soon as they have heard it, Satan immediately comes and carries away the Message that has been sown in them.
-Mark 4:16 
-EOF;
-if (!($bfile = preg_replace("/Mark 4:14 (.+?)Mark 4:16 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Mark 5:9 And he asked him. "What is your name?" "My name," he said, "is Legion, for there are many of us;"
-Mark 5:10 and he begged Jesus again and again not to send them away out of that country.
-Mark 5:11 
-EOF;
-if (!($bfile = preg_replace("/Mark 5:9 (.+?)Mark 5:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Mark 6:1 On leaving that place, Jesus, followed by his disciples, went to his own part of the country.
-Mark 6:2 
-EOF;
-if (!($bfile = preg_replace("/Mark 6:1 (.+?)Mark 6:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Mark 6:26 The King was much distressed; yet, on account of his oath and of the guests at his table, he did not like to refuse her.
-Mark 6:27 
-EOF;
-if (!($bfile = preg_replace("/Mark 6:27 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Mark 7:6 His answer was. "It was well said by Isaiah when he prophesied about you hypocrites in the words--'This is a people that honor me with their lips, While their hearts are far removed from me;
-Mark 7:7 But vainly do they worship me, For they teach but the precepts of men.'
-Mark 7:8 
-EOF;
-if (!($bfile = preg_replace("/Mark 7:6 (.+?)Mark 7:8 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Mark 9:30 Leaving that place, Jesus and his disciples went on their way through Galilee; but he did not wish any one to know it,
-Mark 9:31 for he was instructing his disciples, and telling them--"The Son of Man is being betrayed into the hands of his fellow men, and they will put him to death, but, when he has been put to death, he will rise again after three days."
-Mark 9:32 
-EOF;
-if (!($bfile = preg_replace("/Mark 9:30 (.+?)Mark 9:32 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Mark 10:24 The disciples were amazed at his words. But Jesus said again. "My children, how hard a thing it is to enter the Kingdom of God!
-Mark 10:25 It is easier for a camel to get through a needle's eye, than for a rich man to enter the Kingdom of God."
-Mark 10:26 
-EOF;
-if (!($bfile = preg_replace("/Mark 10:24 (.+?)Mark 10:26 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Mark 12:8 So they seized him, and killed him, and threw his body outside the vineyard.
-Mark 12:9 What will the owner of the vineyard do? He will come and put the tenants to death, and he will let the vineyard to others.
-Mark 12:10 
-EOF;
-if (!($bfile = preg_replace("/Mark 12:8 (.+?)Mark 12:10 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Mark 15:29 The passers-by railed at him, shaking their heads, as they said. "Ah! you who 'destroy the Temple and build one in three days,'
-Mark 15:30 come down from the cross and save yourself!"
-Mark 15:31 In the same way the Chief Priests, with the Teachers of the Law, said to one another in mockery. "He saved others, but he cannot save himself! 
-Mark 15:32 Let the Christ, the 'King of Israel,' come down from the cross now, that we may see it and believe." Even the men who had been crucified with Jesus reviled him.
-Mark 15:33 
-EOF;
-if (!($bfile = preg_replace("/Mark 15:29 (.+?)Mark 15:33 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Luke 3:19 But Prince Herod, being rebuked by John respecting Herodias, the wife of Herod's brother, and for all the evil things that he had done,
-Luke 3:20 crowned them all by shutting John up in prison.
-Luke 3:21 
-EOF;
-if (!($bfile = preg_replace("/Luke 3:19 (.+?)Luke 3:21 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-
-John 11:1 Now a man named Lazarus, of Bethany, was lying ill; he belonged to the same village as Mary and her sister Martha.
-John 11:2 
-EOF;
-if (!($bfile = preg_replace("/\nJohn 11:1 (.+?)John 11:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-
-John 11:29 As soon as Mary heard that, she got up quickly, and went to meet him.
-John 11:30 
-EOF;
-if (!($bfile = preg_replace("/\nJohn 11:30 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Acts 5:18 Arrested the Apostles, and had them placed in custody.
-Acts 5:19 An angel of the Lord, however, opened the prison doors at night and led them out.
-Acts 5:20 
-EOF;
-if (!($bfile = preg_replace("/Acts 5:18 (.+?)Acts 5:20 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Romans 9:11 For in order that the purpose of God, working through selection, might not fail--a selection depending, not on obedience, but on his Call--Rebecca was told, before her children were born and before they had done anything either right or wrong, that
-Romans 9:12 'the elder would be a servant to the younger.'
-Romans 9:13 
-EOF;
-if (!($bfile = preg_replace("/Romans 9:11 (.+?)Romans 9:13 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-
-I Corinthians 1:1 From Paul, who has been called to be an Apostle of Jesus Christ by the will of God, And from Sosthenes, our Brother.
-I Corinthians 1:2 to the Church of God in Corinth, to those who have been consecrated by union with Christ Jesus and called to become his People, and also to all, wherever they may be, who invoke the Name of our Lord Jesus Christ--their Master and ours,
-I Corinthians 1:3 
-EOF;
-if (!($bfile = preg_replace("/\nI Corinthians 1:1 (.+?)\nI Corinthians 1:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-
-I Corinthians 10:3 And that they all ate the same supernatural food,
-I Corinthians 10:4 and all drank the same supernatural water, for they used to drink from a supernatural rock which followed them, and that rock was the Christ.
-I Corinthians 10:5 
-EOF;
-if (!($bfile = preg_replace("/\nI Corinthians 10:3 (.+?)\nI Corinthians 10:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
 Galatians 1:3 May God, our Father, and the Lord Jesus Christ, bless you and give you peace.
 Galatians 1:4 For Christ, to rescue us from this present wicked age, gave himself for our sins, in accordance with the will of God and Father,
 Galatians 1:5 
 EOF;
 if (!($bfile = preg_replace("/Galatians 1:3 (.+?)Galatians 1:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Hebrews 12:28 Therefore, let us, who have received a kingdom that cannot be shaken, be thankful, and so offer acceptable worship to God, with awe and reverence.
-Hebrews 12:29 For our God is 'a consuming fire.'
-Hebrews 13:1 
+
+John 8:4 and said to Jesus: “Teacher, this woman was found in the very act of adultery.
+John 8:5 Now Moses,in the Law, commanded us to stone such women to death; what do you say?”
+John 8:6 
 EOF;
-if (!($bfile = preg_replace("/Hebrews 12:28 (.+?)Hebrews 13:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/\nJohn 8:4 (.+?)John 8:6 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Hebrews 13:1 Let your love for the Brethren continue.
-Hebrews 13:2 
+II Timothy 1:1 To Timothy, my dear Child, from Paul who, by the will of God, is an Apostle of Christ Jesus, charged to proclaim the Life that comes from union with Christ Jesus.
+II Timothy 1:2 May God, the Father, and Christ Jesus, our Lord, bless you, and be merciful to you, and give you peace.
+II Timothy 1:3 
 EOF;
-if (!($bfile = preg_replace("/Hebrews 13:1 (.+?)Hebrews 13:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Hebrews 13:24 Give our greeting to all your Leaders, and to all Christ's People. Our friends from Italy send their greetings to you.
-Hebrews 13:25 
-EOF;
-if (!($bfile = preg_replace("/Hebrews 13:25 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Jude 1:24 To him who is able to guard you from falling, and to bring you into his glorious presence, blameless and rejoicing
-Jude 1:25 to the one God, our Savior, be ascribed, through Jesus Christ, our Lord, glory, majesty, power, and dominion, as it was before time began, is now, and shall be for all time to come. Amen.
-Revelation of John 1:1 
-EOF;
-if (!($bfile = preg_replace("/Jude 1:24 (.+?)Revelation of John 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/II Timothy 1:1 (.+?)II Timothy 1:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
