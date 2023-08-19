@@ -282,7 +282,9 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $allbibles ) {
         (empty($database[$version[C_BIBLE]][T_VERSIONS]['YEAR'])?'':("\n<div class='field-field'><div class='field-label'>Published:</div><div class='field-value'>".$database[$version[C_BIBLE]][T_VERSIONS]['YEAR']."</div></div>")).
 		
 		(empty($database[$version[C_BIBLE]][T_VERSIONS]['EXTENSION'])? '' : ("\n<div class='field-field'><div class='field-label'>Additional Information:<br /></div><div class='field-value'>".$database[$version[C_BIBLE]][T_VERSIONS]['EXTENSION']."</div></div>")).
-        		
+
+		($database[$version[C_BIBLE]][T_VERSIONS]['DOWNLOAD']=='N' ? '' : ( 
+ 
 		"\n<div class='field-header'>Downloads:</div><div class='field-field'><div class='field-links decorated'>".
 		"<a href='https://play.google.com/store/apps/details?id=net.signedon.aionianbible.aionianbible' target='_blank' title='Aionian Bible free at Google Play Store'>Android App</a>".
         (is_dir(  $bpub.'---Aionian-Edition')					?(", <a href='/epub/"		.$version[C_BIBLE]	."---Aionian-Edition' target='_blank' title='Aionian Bible ePub Futurepress'>Futurepress</a>") :'').
@@ -327,7 +329,9 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $allbibles ) {
 		 (AION_filesize($base.'---Source-Edition.SWORD.zip')?("<a href='/resources/".$version[C_BIBLE]."---Source-Edition.SWORD.zip' download title='Source Bible Crosswire Sword download'>Crosswire module</a>, ")	:'').
 		 (AION_filesize($base.$sour)						?("<a href='/resources/".$version[C_BIBLE]."$sour' download title='Source Bible data format download'>Source Datafile</a>")									:'').
 		 "</div></div>")
-		 : "");
+		 : "")
+		 
+		 ));
 		 
 		$json = $okay.'---Aionian-Edition.json';
 		if ( file_put_contents($json,json_encode($database[$version[C_BIBLE]], JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE)) === FALSE ) {	AION_ECHO("ERROR! AION_FILE_DATABASE_PUT file_put_contents $json" ); }
@@ -3088,7 +3092,7 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-4929611;
 	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-47698;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-258;
-	$grandmarker['LONG']		= $grandtotal['LONG']-859;
+	$grandmarker['LONG']		= $grandtotal['LONG']-861;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-0;
 	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-2054;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-912;

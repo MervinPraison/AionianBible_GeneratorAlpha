@@ -434,7 +434,8 @@ foreach( $bible_ALL as $bible => $version ) {
 		$buylinks .= ($version['LULU']=='NULL'			? '' : "<a href='".$version['LULU']		."' target='_blank' title='$title'>Lulu</a>, ");
 		$buylinks .= ($version['LULUHARD']=='NULL'		? '' : "<a href='".$version['LULUHARD']	."' target='_blank' title='$title'>Lulu Hardcover</a>, ");
 		$buylinks .= ($version['LULUNT']=='NULL'		? '' : "<a href='".$version['LULUNT']	."' target='_blank' title='$title'>Lulu NT</a>, ");
-		$buylinks .= ($bible!='English---Aionian-Bible'	? '' : "<a href='https://www.lulu.com/shop/-nainoia-inc/holy-bible-aionian-edition-aionian-bible-22-book-digest-special-edition/paperback/product-1qkg7e89.html'	target='_blank' title='$title'>Lulu 22 Special</a>");
+		$buylinks .= ($bible!='English---Aionian-Bible'	? '' : "<a href='https://www.lulu.com/shop/-nainoia-inc/holy-bible-aionian-edition-aionian-bible-22-book-digest-special-edition/paperback/product-1qkg7e89.html'	target='_blank' title='$title'>Lulu 22 Special</a>, ");
+		$buylinks .= ($version['BUYOTHER']=='NULL'		? '' : "<a href='".$version['BUYOTHER']	."' target='_blank' title='$title'>{$version['BUYOTHER']}</a>");
 		$buylinks = trim($buylinks,', ');
 		if (!empty($buylinks)) { echo "<br /><span class='buylinks'>Buy at $buylinks</span>"; }
 		else { echo "<br /><span class='buylinks'>Print not available</span>"; }
