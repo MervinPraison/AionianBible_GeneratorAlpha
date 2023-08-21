@@ -44,12 +44,13 @@ AION_FILE_DATA_GET(			'./aion_database/NUMBERS.txt',	'T_NUMBERS',	$database, 'BI
 AION_FILE_DATABASE_BOOKS(	$database );
 AION_FILE_DATABASE_PUT(		$database, '../www-resources', LIVE.'/library', FALSE);
 
-
 /*** install index ***/
 AION_INSTALL_INDEX(			'../www-production');
 AION_INSTALL_INDEX_UPDATED(	'../www-production/index.php');
 AION_SITEMAP(				'../www-production');
 
+/*** remove Turkish ***/
+system('rm -rf ../www-resources/Holy-Bible---Turkish---Turkish-Bible---*' );
 
 /*** done ***/
 AION_ECHO("DONE!");

@@ -66,7 +66,6 @@ AION_FILE_DATA_GET(			'./aion_database/NUMBERS.txt',	'T_NUMBERS',	$database, 'BI
 AION_FILE_DATABASE_BOOKS(	$database );
 AION_FILE_DATABASE_PUT(		$database, '../www-resources', LIVE.'/library', FALSE);
 
-
 if (!chmod(LIVE,0755)) {													AION_ECHO('ERROR! chmod failed: '.LIVE); }
 if (!chmod(LIVE.'/library',0755)) {											AION_ECHO('ERROR! chmod failed: '.LIVE.'/library'); }
 if (!chmod(BACK,0755)) {													AION_ECHO('ERROR! chmod failed: '.BACK); }
@@ -86,6 +85,8 @@ system('rm -rf '.TEMP );
 AION_LOOP_DIFF		(	'../www-stage/library', 	'../www-production/library',	'../diff-www-stage-with-www-production-AFTER-DEPLOY', '/\.php$/', '', 'stageresources','resources');
 AION_LOOP_DIFF		(	'../www-stageresources', 	'../www-resources',				'../diff-www-stageresources-with-www-resources-AFTER-DEPLOY', '', '/(Aionian-Edition\.noia|Standard-Edition\.noia|Source-Edition\.epub)$/');
 
+/*** remove Turkish ***/
+system('rm -rf ../www-resources/Holy-Bible---Turkish---Turkish-Bible---*' );
 
 /*** done ***/
 AION_ECHO("DONE! DEPLOYMENT SUCCESS!!");
