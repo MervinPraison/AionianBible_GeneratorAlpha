@@ -1515,6 +1515,20 @@ static $editions_replace = array(
 //* M=modern - NA27 with NA28 spelling; T=traditional - TR corrected to KJV; O=other excepting Byz when it supports TR and including readings in ECM that differ from NA27
 //** All variants are included that have any difference in grammar. Spelling variations are not included unless they create a name that would be pronounced significantly differently.
 static $entry = array(
+/*
+	"M"			=> "Modern Bibles only, not KJV and other Bibles",
+	"MO"		=> "Modern and other Bibles, not KJV Bible",
+	"MT"		=> "Modern and KJV Bibles, not other Bibles",
+	"MTO"		=> "Modern, KJV, and other Bibles",
+	"MT(O)"		=> "Modern and KJV Bibles, variants in other Bibles",
+	"M(O)"		=> "Modern Bibles, variants in other Bibles, not KJV Bible",
+	"M(T)O"		=> "Modern and other Bibles, variants in KJV Bible",
+	"M(T)(O)"	=> "Modern Bibles, variants in KJV and other Bibles",
+	"O"			=> "Other Bibles only, not modern and KJV Bibles",
+	"T"			=> "KJV Bible only, not modern and other Bibles",
+	"TO"		=> "KJV and other Bibles only, not modern Bibles",
+	"T(O)"		=> "KJV Bible, variants in other Bibles, not modern bibles",
+*/
 	"NA=TR"	=> "Translated the same in modern Bibles (Nestle/Aland) and the KJV (Textus Receptus).",
 	"NA~TR"	=> "Translated differently in modern Bibles (Nestle/Aland) and the KJV (Textus Receptus).",
 	"NA-TR"	=> "Translated in most modern Bibles (Nestle/Aland), but not in the KJV (Textus Receptus).",

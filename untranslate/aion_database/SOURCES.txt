@@ -465,7 +465,7 @@ Holy-Bible---Portuguese---Portuguese-Trans-Trans				https://ebible.org/sword/zip
 Holy-Bible---Portuguese---Portuguese-Trans-Trans				https://ebible.org/epub/portft.epub	Holy-Bible---Portuguese---Portuguese-Trans-Trans---Source-Edition.epub
 Holy-Bible---Portuguese---Portuguese-Trans-Trans				https://ebible.org/pdf/portft/portft_prt.pdf	Holy-Bible---Portuguese---Portuguese-Trans-Trans---Source-Edition.pdf
 Holy-Bible---Portuguese---Portuguese-Trans-Trans				https://ebible.org/Scriptures/portft_vpl.zip	Holy-Bible---Portuguese---Portuguese-Trans-Trans---Source-Edition.VPL.zip
-Holy-Bible---Romanian---Bayash-Luke				https://ebible.org/sword/zip/ronBayash2018eb.zip	Holy-Bible---Romanian---Bayash-Luke---Source-Edition.SWORD.zip
+Holy-Bible---Romanian---Bayash-Luke				https://ebible.org/sword/zip/ronBayash2023eb.zip	Holy-Bible---Romanian---Bayash-Luke---Source-Edition.SWORD.zip
 Holy-Bible---Romanian---Bayash-Luke				https://ebible.org/epub/ronBayash.epub	Holy-Bible---Romanian---Bayash-Luke---Source-Edition.epub
 Holy-Bible---Romanian---Bayash-Luke				https://ebible.org/pdf/ronBayash/ronBayash_prt.pdf	Holy-Bible---Romanian---Bayash-Luke---Source-Edition.pdf
 Holy-Bible---Romanian---Bayash-Luke				https://ebible.org/Scriptures/ronBayash_vpl.zip	Holy-Bible---Romanian---Bayash-Luke---Source-Edition.VPL.zip
@@ -489,7 +489,7 @@ Holy-Bible---Rote-Dela---Rote-Dela-Bible				https://ebible.org/sword/zip/row2016
 Holy-Bible---Rote-Dela---Rote-Dela-Bible				https://ebible.org/epub/row.epub	Holy-Bible---Rote-Dela---Rote-Dela-Bible---Source-Edition.epub
 Holy-Bible---Rote-Dela---Rote-Dela-Bible				https://ebible.org/pdf/row/row_prt.pdf	Holy-Bible---Rote-Dela---Rote-Dela-Bible---Source-Edition.pdf
 Holy-Bible---Rote-Dela---Rote-Dela-Bible				https://ebible.org/Scriptures/row_vpl.zip	Holy-Bible---Rote-Dela---Rote-Dela-Bible---Source-Edition.VPL.zip
-Holy-Bible---Russian---Russian-Synodal-Translation				https://ebible.org/sword/zip/rusSYN1876eb.zip	Holy-Bible---Russian---Russian-Synodal-Translation---Source-Edition.SWORD.zip
+Holy-Bible---Russian---Russian-Synodal-Translation				https://ebible.org/sword/zip/russyn1876eb.zip	Holy-Bible---Russian---Russian-Synodal-Translation---Source-Edition.SWORD.zip
 Holy-Bible---Russian---Russian-Synodal-Translation				https://ebible.org/epub/russyn.epub	Holy-Bible---Russian---Russian-Synodal-Translation---Source-Edition.epub
 Holy-Bible---Russian---Russian-Synodal-Translation				https://ebible.org/pdf/russyn/russyn_prt.pdf	Holy-Bible---Russian---Russian-Synodal-Translation---Source-Edition.pdf
 Holy-Bible---Russian---Russian-Synodal-Translation				https://ebible.org/Scriptures/russyn_vpl.zip	Holy-Bible---Russian---Russian-Synodal-Translation---Source-Edition.VPL.zip
@@ -554,7 +554,7 @@ Holy-Bible---Tongan---Revised-West-Version				https://ebible.org/sword/zip/ton20
 Holy-Bible---Tongan---Revised-West-Version				https://ebible.org/epub/ton.epub	Holy-Bible---Tongan---Revised-West-Version---Source-Edition.epub
 Holy-Bible---Tongan---Revised-West-Version				https://ebible.org/pdf/ton/ton_prt.pdf	Holy-Bible---Tongan---Revised-West-Version---Source-Edition.pdf
 Holy-Bible---Tongan---Revised-West-Version				https://ebible.org/Scriptures/ton_vpl.zip	Holy-Bible---Tongan---Revised-West-Version---Source-Edition.VPL.zip
-Holy-Bible---Turkish---Turkish-Bible				https://eBible.org/sword/zip/turev2008eb.zip	Holy-Bible---Turkish---Turkish-Bible---Source-Edition.SWORD.zip
+Holy-Bible---Turkish---Turkish-Bible				https://ebible.org/sword/zip/turTCL02eb.zip	Holy-Bible---Turkish---Turkish-Bible---Source-Edition.SWORD.zip
 Holy-Bible---Turkish---Turkish-Bible				https://ebible.org/epub/turev.epub	Holy-Bible---Turkish---Turkish-Bible---Source-Edition.epub
 Holy-Bible---Turkish---Turkish-Bible				https://ebible.org/pdf/turev/turev_prt.pdf	Holy-Bible---Turkish---Turkish-Bible---Source-Edition.pdf
 Holy-Bible---Turkish---Turkish-Bible				https://ebible.org/Scriptures/turev_vpl.zip	Holy-Bible---Turkish---Turkish-Bible---Source-Edition.VPL.zip
@@ -562,7 +562,7 @@ Holy-Bible---Ukrainian---Ukrainian-NT	SWORD			https://crosswire.org/ftpmirror/pu
 Holy-Bible---Ukrainian---Ukrainian-NT				https://ebible.org/epub/ukr1871.epub	Holy-Bible---Ukrainian---Ukrainian-NT---Source-Edition.epub
 Holy-Bible---Ukrainian---Ukrainian-NT				https://ebible.org/pdf/ukr1871/ukr1871_prt.pdf	Holy-Bible---Ukrainian---Ukrainian-NT---Source-Edition.pdf
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/UkrOgienko.zip	Holy-Bible---Ukrainian---Ukrainian-Ogienko---Source-Edition.SWORD.zip
-Holy-Bible---Urdu---Urdu-Bible				https://ebible.org/sword/zip/urd2017eb.zip	Holy-Bible---Urdu---Urdu-Bible---Source-Edition.SWORD.zip
+Holy-Bible---Urdu---Urdu-Bible				https://ebible.org/sword/zip/urdirv2019eb.zip	Holy-Bible---Urdu---Urdu-Bible---Source-Edition.SWORD.zip
 Holy-Bible---Urdu---Urdu-Bible				https://ebible.org/epub/urd.epub	Holy-Bible---Urdu---Urdu-Bible---Source-Edition.epub
 Holy-Bible---Urdu---Urdu-Bible				https://ebible.org/pdf/urd/urd_prt.pdf	Holy-Bible---Urdu---Urdu-Bible---Source-Edition.pdf
 Holy-Bible---Urdu---Urdu-Bible				https://ebible.org/Scriptures/urd_vpl.zip	Holy-Bible---Urdu---Urdu-Bible---Source-Edition.VPL.zip
