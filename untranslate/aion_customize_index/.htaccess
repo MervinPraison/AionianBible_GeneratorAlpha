@@ -94,7 +94,6 @@ RewriteRule ^ /docs/Timeline-Eschatology-Aionian-Bible.pdf?reload=1 [L,R=301]
 RewriteCond %{REQUEST_URI} ^\/Life\-Time\-Entirety\-Keizer\-Abstract$ [NC]
 RewriteRule ^ /docs/BOOK-Life-Time-Entirety-Article-by-Heleen-Keizer.pdf?reload=1 [L,R=301]
 
-
 # LOGIC PROBLEM SOLVED - FIX THIS
 # Only a problem when cookie has no bible in history
 RewriteCond %{REQUEST_URI} ^\/Bibles$
@@ -103,14 +102,12 @@ RewriteRule ^ /Read [L,R=301]
 # REWRITE EPUB
 RewriteCond %{REQUEST_URI} ^\/epub\/ [NC]
 RewriteCond %{DOCUMENT_ROOT}\/library%{REQUEST_URI} -d
-RewriteRule ^ http://%{HTTP_HOST}/?e=%{REQUEST_URI} [L]
+RewriteRule ^ http://%{HTTP_HOST}/?e=%{REQUEST_URI} [L,R=301]
 
 # REWRITE READIUM
 RewriteCond %{REQUEST_URI} ^\/Readium\/(Holy\-Bible\-\-\-.*)$
 RewriteCond %{DOCUMENT_ROOT}\/library\/epub\/%1 -d
-RewriteRule ^ /Readium?epub=../library/epub/%1 [L]
-RewriteCond %{REQUEST_URI} ^\/Readium$
-RewriteRule ^ /Readium [L]
+RewriteRule ^ /Readium?epub=../library/epub/%1 [L,R=301]
 
 # REWRITE INDEX
 RewriteCond %{REQUEST_FILENAME} !-f
