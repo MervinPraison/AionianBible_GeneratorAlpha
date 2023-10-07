@@ -1,6 +1,6 @@
 # File Name: TALLY.txt
 # File Size: 13542       
-# File Date: 09/21/2023 21:07:06
+# File Date: 10/07/2023 13:50:25
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2023

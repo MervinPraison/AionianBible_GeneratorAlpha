@@ -1369,7 +1369,7 @@ $G_COMMENT
 <head>
 <meta charset="utf-8" />
 <meta name='viewport' content='width=device-width,initial-scale=1'/>
-<h2 class='title'>$W_DESTINY</h2>
+<title>$G_TITLE</title>
 <link href='epub.css' rel='stylesheet' />
 </head>
 <body>

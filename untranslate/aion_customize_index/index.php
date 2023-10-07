@@ -1483,16 +1483,19 @@ function abcms_enty($strongs,$tag=NULL,$book=NULL,$chap=NULL,$verse=NULL) {
 global $_stidC, $_stidN, $_Path, $_Part;
 static $elementid = 0;
 ++$elementid;
-static $editions_search = array("Byz","Coptic","ESV","Goodnews","KJV","NA26","NA27","NA28","NIV","OldLatin","OldSyriac","P66","P66*","Punc","SBL","TR","Treg","Tyn","U1","U2","U3","U4","U5","U6","U32","WH",);
+static $editions_search = array("Byz","Coptic","Cp","ESV","Goodnews","KJV","KJV?","NA26","NA27","NA28","Lt","NIV","OldLatin","OldSyriac","P66","P66*","Punc","SBL","Sy","TR","Treg","Tyn","U1","U2","U3","U4","U5","U6","U32","WH",);
 static $editions_replace = array(
 	"<a href='javascript:void(0)' title='Byzantine from Robinson/Pierpoint'>Byz</a>",
+	"<a href='javascript:void(0)' title='Coptic Manuscript'>Coptic</a>",
 	"<a href='javascript:void(0)' title='Coptic Manuscript'>Coptic</a>",
 	"<a href='javascript:void(0)' title='English Standard Version'>ESV</a>",
 	"<a href='javascript:void(0)' title='Goodnews Bible'>Goodnews</a>",
 	"<a href='javascript:void(0)' title='King James Version'>KJV</a>",
+	"<a href='javascript:void(0)' title='King James Version (possibly)'>KJV?</a>",
 	"<a href='javascript:void(0)' title='Nestle/Aland 26th Edition'>NA26</a>",
 	"<a href='javascript:void(0)' title='Nestle/Aland 27th Edition'>NA27</a>",
 	"<a href='javascript:void(0)' title='Nestle/Aland 28th Edition, not ECM'>NA28</a>",
+	"<a href='javascript:void(0)' title='Latin'>Lt</a>",
 	"<a href='javascript:void(0)' title='New International Version'>NIV</a>",
 	"<a href='javascript:void(0)' title='Old Latin version'>OldLatin</a>",
 	"<a href='javascript:void(0)' title='Old Syriac version'>OldSyriac</a>",
@@ -1500,6 +1503,7 @@ static $editions_replace = array(
 	"<a href='javascript:void(0)' title='Papyri #66 corrector'>P66*</a>",
 	"<a href='javascript:void(0)' title='Accent variant from punctuation'>Punc</a>",
 	"<a href='javascript:void(0)' title='Society of Biblical Literature Greek NT'>SBL</a>",
+	"<a href='javascript:void(0)' title='Syriac'>Sy</a>",
 	"<a href='javascript:void(0)' title='Textus Receptus'>TR</a>",
 	"<a href='javascript:void(0)' title='Tregelles'>Treg</a>",
 	"<a href='javascript:void(0)' title='Tyndale House GNT'>Tyn</a>",
@@ -1515,20 +1519,6 @@ static $editions_replace = array(
 //* M=modern - NA27 with NA28 spelling; T=traditional - TR corrected to KJV; O=other excepting Byz when it supports TR and including readings in ECM that differ from NA27
 //** All variants are included that have any difference in grammar. Spelling variations are not included unless they create a name that would be pronounced significantly differently.
 static $entry = array(
-/*
-	"M"			=> "Modern Bibles only, not KJV and other Bibles",
-	"MO"		=> "Modern and other Bibles, not KJV Bible",
-	"MT"		=> "Modern and KJV Bibles, not other Bibles",
-	"MTO"		=> "Modern, KJV, and other Bibles",
-	"MT(O)"		=> "Modern and KJV Bibles, variants in other Bibles",
-	"M(O)"		=> "Modern Bibles, variants in other Bibles, not KJV Bible",
-	"M(T)O"		=> "Modern and other Bibles, variants in KJV Bible",
-	"M(T)(O)"	=> "Modern Bibles, variants in KJV and other Bibles",
-	"O"			=> "Other Bibles only, not modern and KJV Bibles",
-	"T"			=> "KJV Bible only, not modern and other Bibles",
-	"TO"		=> "KJV and other Bibles only, not modern Bibles",
-	"T(O)"		=> "KJV Bible, variants in other Bibles, not modern bibles",
-*/
 	"NA=TR"	=> "Translated the same in modern Bibles (Nestle/Aland) and the KJV (Textus Receptus).",
 	"NA~TR"	=> "Translated differently in modern Bibles (Nestle/Aland) and the KJV (Textus Receptus).",
 	"NA-TR"	=> "Translated in most modern Bibles (Nestle/Aland), but not in the KJV (Textus Receptus).",
@@ -1536,18 +1526,28 @@ static $entry = array(
 	"KJV+"	=> "Translated in the KJV (Textus Receptus), but not in most modern Bibles (Nestle/Aland).",
 	"KJV++"	=> "Translated in the KJV (Textus Receptus) and in some modern Bibles (Nestle/Aland).",
 	"NATR?"	=> "Found in early manuscripts, but not translated in most Bibles.",
-	"M"			=> "Modern Bibles only, not KJV and other Bibles",
-	"MO"		=> "Modern and other Bibles, not KJV Bible",
-	"MT"		=> "Modern and KJV Bibles, not other Bibles",
-	"MTO"		=> "Modern, KJV, and other Bibles",
-	"MT(O)"		=> "Modern and KJV Bibles, variants in other Bibles",
-	"M(O)"		=> "Modern Bibles, variants in other Bibles, not KJV Bible",
-	"M(T)O"		=> "Modern and other Bibles, variants in KJV Bible",
-	"M(T)(O)"	=> "Modern Bibles, variants in KJV and other Bibles",
-	"O"			=> "Other Bibles only, not modern and KJV Bibles",
-	"T"			=> "KJV Bible only, not modern and other Bibles",
-	"TO"		=> "KJV and other Bibles only, not modern Bibles",
-	"T(O)"		=> "KJV Bible, variants in other Bibles, not modern bibles",
+	"LXX"	=> "Septuagint",
+	"M"		=> "Modern Bibles only, not KJV and other Bibles",
+	"MO"	=> "Modern and other Bibles, not KJV Bible",
+	"MT"	=> "Modern and KJV Bibles, not other Bibles",
+	"Mt"	=> "Modern Bibles, variants in KJV Bible, not other Bibles",
+	"MTO"	=> "Modern, KJV, and other Bibles",
+	"MTo"	=> "Modern and KJV Bibles, variants in other Bibles",
+	"Mo"	=> "Modern Bibles, variants in other Bibles, not KJV Bible",
+	"MtO"	=> "Modern and other Bibles, variants in KJV Bible",
+	"Mto"	=> "Modern Bibles, variants in KJV and other Bibles",
+	"O"		=> "Other Bibles only, not modern and KJV Bibles",
+	"T"		=> "KJV Bible only, not modern and other Bibles",
+	"TO"	=> "KJV and other Bibles only, not modern Bibles",
+	"To"	=> "KJV Bible, variants in other Bibles, not modern bibles",
+	);
+// join type
+static $jointype = array(
+	"W"	=> "Next word",
+	"J"	=> "Joined to previous word",
+	"D"	=> "Divided from previous word",
+	"K"	=> "Ketiv word",
+	"P"	=> "Part of previous word",
 	);
 // bald strongs
 $bald = substr($strongs,1);
@@ -1734,6 +1734,7 @@ static $lookup = array(
 'A:N-F'=>'Aramaic Noun Female',
 'A:N-M'=>'Aramaic Noun Male',
 'A:N'=>'Aramaic Noun',
+'A:Neg'=>'Aramaic Negative',
 'A:Part'=>'Aramaic Particle',
 'A:PerP-CP'=>'Aramaic Personal Pronoun Common Plural',
 'A:PerP-CS'=>'Aramaic Personal Pronoun Common Singular',
@@ -1899,6 +1900,9 @@ static $lookup = array(
 'N:N-M-PG'=>'Proper Name Noun Male Gentilic Person',
 'N:N-M-P'=>'Proper Name Noun Male Person',
 'N:N-M-T'=>'Proper Name Noun Male Title',
+'Prefix'=>'Prefix',
+'Punct.'=>'Punctuation',
+'Suffix'=>'Suffix',
 );
 // check
 if (empty($morph)) { return ""; }
