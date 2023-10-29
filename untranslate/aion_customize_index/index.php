@@ -1483,50 +1483,48 @@ function abcms_enty($strongs,$tag=NULL,$book=NULL,$chap=NULL,$verse=NULL) {
 global $_stidC, $_stidN, $_Path, $_Part;
 static $elementid = 0;
 ++$elementid;
-static $editions_search = array("Byz","Coptic","Cp","ESV","Goodnews","KJV","KJV?","NA26","NA27","NA28","Lt","NIV","OldLatin","OldSyriac","P66","P66*","Punc","SBL","Sy","TR","Treg","Tyn","U1","U2","U3","U4","U5","U6","U32","WH",);
 static $editions_replace = array(
-	"<a href='javascript:void(0)' title='Byzantine from Robinson/Pierpoint'>Byz</a>",
-	"<a href='javascript:void(0)' title='Coptic Manuscript'>Coptic</a>",
-	"<a href='javascript:void(0)' title='Coptic Manuscript'>Coptic</a>",
-	"<a href='javascript:void(0)' title='English Standard Version'>ESV</a>",
-	"<a href='javascript:void(0)' title='Goodnews Bible'>Goodnews</a>",
-	"<a href='javascript:void(0)' title='King James Version'>KJV</a>",
-	"<a href='javascript:void(0)' title='King James Version (possibly)'>KJV?</a>",
-	"<a href='javascript:void(0)' title='Nestle/Aland 26th Edition'>NA26</a>",
-	"<a href='javascript:void(0)' title='Nestle/Aland 27th Edition'>NA27</a>",
-	"<a href='javascript:void(0)' title='Nestle/Aland 28th Edition, not ECM'>NA28</a>",
-	"<a href='javascript:void(0)' title='Latin'>Lt</a>",
-	"<a href='javascript:void(0)' title='New International Version'>NIV</a>",
-	"<a href='javascript:void(0)' title='Old Latin version'>OldLatin</a>",
-	"<a href='javascript:void(0)' title='Old Syriac version'>OldSyriac</a>",
-	"<a href='javascript:void(0)' title='Papyri #66'>P66</a>",
-	"<a href='javascript:void(0)' title='Papyri #66 corrector'>P66*</a>",
-	"<a href='javascript:void(0)' title='Accent variant from punctuation'>Punc</a>",
-	"<a href='javascript:void(0)' title='Society of Biblical Literature Greek NT'>SBL</a>",
-	"<a href='javascript:void(0)' title='Syriac'>Sy</a>",
-	"<a href='javascript:void(0)' title='Textus Receptus'>TR</a>",
-	"<a href='javascript:void(0)' title='Tregelles'>Treg</a>",
-	"<a href='javascript:void(0)' title='Tyndale House GNT'>Tyn</a>",
-	"<a href='javascript:void(0)' title='Uncial #1'>U1</a>",
-	"<a href='javascript:void(0)' title='Uncial #2'>U2</a>",
-	"<a href='javascript:void(0)' title='Uncial #3'>U3</a>",
-	"<a href='javascript:void(0)' title='Uncial #4'>U4</a>",
-	"<a href='javascript:void(0)' title='Uncial #5'>U5</a>",
-	"<a href='javascript:void(0)' title='Uncial #6'>U6</a>",
-	"<a href='javascript:void(0)' title='Uncial #32'>U32</a>",
-	"<a href='javascript:void(0)' title='Westcott/Hort'>WH</a>",
+	"Byz"		=> "<a href='javascript:void(0)' title='Byzantine from Robinson/Pierpoint'>Byz</a>",
+	"Coptic"	=> "<a href='javascript:void(0)' title='Coptic Manuscript'>Coptic</a>",
+	"ESV"		=> "<a href='javascript:void(0)' title='English Standard Version'>ESV</a>",
+	"Goodnews"	=> "<a href='javascript:void(0)' title='Goodnews Bible'>Goodnews</a>",
+	"KJV"		=> "<a href='javascript:void(0)' title='King James Version'>KJV</a>",
+	"KJV?"		=> "<a href='javascript:void(0)' title='King James Version (possibly)'>KJV?</a>",
+	"NA26"		=> "<a href='javascript:void(0)' title='Nestle/Aland 26th Edition'>NA26</a>",
+	"NA27"		=> "<a href='javascript:void(0)' title='Nestle/Aland 27th Edition'>NA27</a>",
+	"NA28"		=> "<a href='javascript:void(0)' title='Nestle/Aland 28th Edition, not ECM'>NA28</a>",
+	"Latin"		=> "<a href='javascript:void(0)' title='Latin'>Latin</a>",
+	"NIV"		=> "<a href='javascript:void(0)' title='New International Version'>NIV</a>",
+	"OldLatin"	=> "<a href='javascript:void(0)' title='Old Latin version'>OldLatin</a>",
+	"OldSyriac"	=> "<a href='javascript:void(0)' title='Old Syriac version'>OldSyriac</a>",
+	"P66"		=> "<a href='javascript:void(0)' title='Papyri #66'>P66</a>",
+	"P66*"		=> "<a href='javascript:void(0)' title='Papyri #66 corrector'>P66*</a>",
+	"Punc"		=> "<a href='javascript:void(0)' title='Accent variant from punctuation'>Punc</a>",
+	"SBL"		=> "<a href='javascript:void(0)' title='Society of Biblical Literature Greek NT'>SBL</a>",
+	"Syriac"	=> "<a href='javascript:void(0)' title='Syriac'>Syriac</a>",
+	"TR"		=> "<a href='javascript:void(0)' title='Textus Receptus'>TR</a>",
+	"Treg"		=> "<a href='javascript:void(0)' title='Tregelles'>Treg</a>",
+	"Tyn"		=> "<a href='javascript:void(0)' title='Tyndale House GNT'>Tyn</a>",
+	"U1"		=> "<a href='javascript:void(0)' title='Uncial #1'>U1</a>",
+	"U2"		=> "<a href='javascript:void(0)' title='Uncial #2'>U2</a>",
+	"U3"		=> "<a href='javascript:void(0)' title='Uncial #3'>U3</a>",
+	"U4"		=> "<a href='javascript:void(0)' title='Uncial #4'>U4</a>",
+	"U5"		=> "<a href='javascript:void(0)' title='Uncial #5'>U5</a>",
+	"U6"		=> "<a href='javascript:void(0)' title='Uncial #6'>U6</a>",
+	"U32"		=> "<a href='javascript:void(0)' title='Uncial #32'>U32</a>",
+	"WH"		=> "<a href='javascript:void(0)' title='Westcott/Hort'>WH</a>",
 	);
+static $editions_search = NULL; if (NULL===$editions_search) { $editions_search = array_keys($editions_replace); }
 //* M=modern - NA27 with NA28 spelling; T=traditional - TR corrected to KJV; O=other excepting Byz when it supports TR and including readings in ECM that differ from NA27
 //** All variants are included that have any difference in grammar. Spelling variations are not included unless they create a name that would be pronounced significantly differently.
 static $entry = array(
-	"NA=TR"	=> "Translated the same in modern Bibles (Nestle/Aland) and the KJV (Textus Receptus).",
-	"NA~TR"	=> "Translated differently in modern Bibles (Nestle/Aland) and the KJV (Textus Receptus).",
-	"NA-TR"	=> "Translated in most modern Bibles (Nestle/Aland), but not in the KJV (Textus Receptus).",
-	"KJV"	=> "Translated in the KJV (Textus Receptus), but not in most modern Bibles (Nestle/Aland).",
-	"KJV+"	=> "Translated in the KJV (Textus Receptus), but not in most modern Bibles (Nestle/Aland).",
-	"KJV++"	=> "Translated in the KJV (Textus Receptus) and in some modern Bibles (Nestle/Aland).",
-	"NATR?"	=> "Found in early manuscripts, but not translated in most Bibles.",
-	"LXX"	=> "Septuagint",
+	"NA=TR"	=> "Translated the same in modern Bibles (Nestle/Aland) and the KJV (Textus Receptus)",
+	"NA~TR"	=> "Translated differently in modern Bibles (Nestle/Aland) and the KJV (Textus Receptus)",
+	"NA-TR"	=> "Translated in most modern Bibles (Nestle/Aland), but not in the KJV (Textus Receptus)",
+	"KJV"	=> "Translated in the KJV (Textus Receptus), but not in most modern Bibles (Nestle/Aland)",
+	"KJV+"	=> "Translated in the KJV (Textus Receptus), but not in most modern Bibles (Nestle/Aland)",
+	"KJV++"	=> "Translated in the KJV (Textus Receptus) and in some modern Bibles (Nestle/Aland)",
+	"NATR?"	=> "Found in early manuscripts, but not translated in most Bibles",
 	"M"		=> "Modern Bibles only, not KJV and other Bibles",
 	"MO"	=> "Modern and other Bibles, not KJV Bible",
 	"MT"	=> "Modern and KJV Bibles, not other Bibles",
@@ -1541,13 +1539,78 @@ static $entry = array(
 	"TO"	=> "KJV and other Bibles only, not modern Bibles",
 	"To"	=> "KJV Bible, variants in other Bibles, not modern bibles",
 	);
+static $entry2 = array(
+	"A"		=> "Aleppo",
+	"A/H"	=> "Aleppo and Ben Chaim",
+	"A/V"	=> "Aleppo and V",
+	"B"		=> "Biblia Hebraica Stuttgartensia",
+	"C"		=> "Cairensis",
+	"D"		=> "Dead Sea and other Judean Desert manuscripts",
+	"E"		=> "Emendation of letters based on ancient sources selected by Barthelemy",
+	"F"		=> "Formatting spaces and pointing differently without changing letters",
+	"H"		=> "Ben Chaim (2nd Rabbinic Bible)",
+	"K"		=> "Ketiv: letters 'written' in the text with pointing by Tyndale scholars",
+	"L"		=> "Leningrad: Ketiv letters with Qere pointing from the manuscript",
+	"L(A/H)"=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Aleppo/BHS)",
+	"L(a/v)"=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (minor variant: Aleppo/v)",
+	"L(B)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: BHS)",
+	"L(b)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (minor variant: BHS)",
+	"L(b;p)"=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (minor variants: BHS and punctuation)",
+	"L(C)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Cairensis)",
+	"L(D)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Dead Sea manuscript)",
+	"L(E)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Barthelemy source)",
+	"L(F)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: spaces and pointing)",
+	"L(H)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Ben Chaim)",
+	"L(M)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Masoretic)",
+	"L(P)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: punctuation)",
+	"L(p)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (minor variant: punctuation)",
+	"L(S)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Scribal traditions in Itture Sopherim, etc)",
+	"M"		=> "Masoretic and related manuscripts",
+	"P"		=> "Alternate punctuation", 
+	"Q"		=> "Qere: letters 'spoken' and noted in the margin with pointing from the text",
+	"Q(k)"	=> "Qere: letters 'spoken' and noted in the margin with pointing from the text (minor variant: Ketiv)",
+	"Q(K)"	=> "Qere: letters 'spoken' and noted in the margin with pointing from the text (influencing variant: Ketiv)",
+	"Q(K;B)"=> "Qere: letters 'spoken' and noted in the margin with pointing from the text (influencing variant: Ketiv and BHS)",
+	"R"		=> "Restored text based on Leningrad parallels",
+	"S"		=> "Scribal traditions in Itture Sopherim, Tiqqune Sopherim, Masora, etc",
+	"V"		=> "V",
+	"X"		=> "Extra words based on the Septuagint (LXX), in Hebrew based on apparatus in BHS and BHK",
+	);
+static $entry3 = array(
+	"A="	=> "Aleppo=",
+	"A/H="	=> "Aleppo/BenChaim=",
+	"A/V="	=> "Aleppo/V=",
+	"B="	=> "BHS=",
+	"C="	=> "Cairensis=",
+	"D="	=> "DeadSeaManuscripts=",
+	"E="	=> "BarthelemySources=",
+	"F="	=> "Formatting=",
+	"H="	=> "BenChaim=",
+	"K="	=> "Ketiv=",
+	"L="	=> "Leningrad=",
+	"M="	=> "Masoretic=",
+	"P="	=> "AltPunctuation=",
+	"Q="	=> "Qere=",
+	"R="	=> "Restored=",
+	"S="	=> "Sopherim=",
+	"V="	=> "V=",
+	"X="	=> "LXX=",
+	);
+static $entry3_search = NULL; if (NULL===$entry3_search) { $entry3_search = array_keys($entry3); }
+$tagtype =
+	(empty($tag[9]) ? NULL :
+	((0 && $strongs[0]==='h' && !empty($entry2[$tag[9]]))	? $entry2[$tag[9]] :
+	((0 && $strongs[0]==='h' && !empty($entry2[$tag[9][0]]))	? $entry2[$tag[9][0]] :
+	(($strongs[0]==='g' && !empty($entry[$tag[9]]))		? $entry[$tag[9]] :
+	NULL ))));
 // join type
 static $jointype = array(
 	"W"	=> "Next word",
-	"J"	=> "Joined to previous word",
-	"D"	=> "Divided from previous word",
-	"K"	=> "Ketiv word",
-	"P"	=> "Part of previous word",
+	"C"	=> "Continue the previous word",
+	"J"	=> "Join with previous word",
+	"D"	=> "Divide from previous word",
+	"L"	=> "Link previous-next word",
+	"P"	=> "Punctuation",
 	);
 // bald strongs
 $bald = substr($strongs,1);
@@ -1668,7 +1731,7 @@ echo
 	((empty($tag[9]) || (!empty($underlying) && $tag[9] == $underlying))	? "" : "<div class='field-field'><div class='field-label'>Segment:</div><div class='field-value notranslate'>$tag[9]</div></div>\n") .
 	((empty($tag[10]) || $tag[10] == $word)									? "" : "<div class='field-field'><div class='field-label'>Additional:</div><div class='field-value'>$tag[10]</div></div>\n"))
 	: ("" .
-	(empty($tag[9])	|| empty($entry[$tag[9]])	? "" : "<div class='field-field'><div class='field-label'>Translators:</div><div class='field-value'>".$entry[$tag[9]]."</div></div>\n") .
+	(empty($tagtype)		? "" : "<div class='field-field'><div class='field-label'>Type:</div><div class='field-value'>".$tagtype."</div></div>\n") .
 	(empty($tag[11])		? "" : "<div class='field-field'><div class='field-label'>Editions:</div><div class='field-value'>$tag[11]</div></div>\n") .
 	(empty($tag[12])		? "" : "<div class='field-field'><div class='field-label'>Variation-1:</div><div class='field-value'>$tag[12]</div></div>\n") .
 	(empty($tag[13])		? "" : "<div class='field-field'><div class='field-label'>Variation-2:</div><div class='field-value'>$tag[13]</div></div>\n") .
