@@ -712,12 +712,8 @@ AION_NEWSTRONGS_STEPBIBLE(
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // COMPARE
-AION_LOOP_DIFF(
-	'../www-stage/library/stepbible',
- 	'../www-production/library/stepbible',
-	'../STEPBible-Data-master-diff-cooked');
-//	'',
-//	'/\.(md|txt|json|htm)$/');
+//AION_LOOP_DIFF('../www-stage/library/stepbible', '../www-production/library/stepbible', '../STEPBible-Data-master-diff-cooked');
+AION_LOOP_DIFF('../www-stage/library/stepbible', '../stepbible-stage-DEVELOPMENT', '../STEPBible-Data-master-diff-cooked');
 AION_CHECK_DIFF_TWO_FILES(
 	'../source-stage/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt',
 	'../www-resources/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt',
@@ -750,9 +746,9 @@ exit;
 //////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // FUNCTIONS
-// Convert new format TOTHT back to old format
+// Convert new Hebrew TAHOT back to old format
 function AION_NEWSTRONGS_GET_PREPH($file, $fout) {
-	// init
+	// get the data
 	$newmess = "PREPH\t$file";
 	if ( !is_file( $file ) ) {											AION_ECHO("ERROR! $newmess !is_file()"); }
 	if ( ($contents = file_get_contents( $file )) === FALSE ) {			AION_ECHO("ERROR! $newmess !file_get_contents()"); }
@@ -764,98 +760,99 @@ function AION_NEWSTRONGS_GET_PREPH($file, $fout) {
 	$abooks = AION_BIBLES_LIST();
 	$tbooks = AION_BIBLES_LIST_TYN();
 	$count = 0;
-	// parse
+	// loop through every line
 	foreach( $lines as $data ) {
 		++$count;
-// sample word line
-//Eng (Heb) Ref & Type	Hebrew	Transliteration	Translation	dStrongs	Grammar	Meaning Variants	Spelling Variants	Root dStrong+Instance	Alternative Strongs+Instance	Conjoin word	Expanded Strong tags					
-//Gen.1.1#01=L	בְּ/רֵאשִׁ֖ית	be./re.Shit	in/ beginning	H9003/{H7225G}	HR/Ncfsa			H7225G			H9003=ב=in/{H7225G=רֵאשִׁית=: beginning»first:1_beginning}					
-//Gen.1.1#02=L	בָּרָ֣א	ba.Ra'	he created	{H1254A}	HVqp3ms			H1254A			{H1254A=בָּרָא=to create}					
-//Gen.1.1#03=L	אֱלֹהִ֑ים	'E.lo.Him	God	{H0430G}	HNcmpa			H0430G			{H0430G=אֱלֹהִים=God»LORD@Gen.1.1-Heb}					
-//Gen.1.1#04=L	אֵ֥ת	'et	<obj.>	{H0853}	HTo			H0853_A			{H0853 =אֵת=[Obj.]}					
-//Gen.1.1#05=L	הַ/שָּׁמַ֖יִם	ha./sha.Ma.yim	the/ heavens	H9009/{H8064}	HTd/Ncmpa			H8064			H9009=ה=the/{H8064=שָׁמַיִם=heaven}					
-//Gen.1.1#06=L	וְ/אֵ֥ת	ve./'Et	and/ <obj.>	H9002/{H0853}	HC/To			H0853_B			H9002=ו=and/{H0853 =אֵת=[Obj.]}					
-//Gen.1.1#07=L	הָ/אָֽרֶץ\׃	ha./'A.retz	the/ earth	H9009/{H0776G}\H9016	HTd/Ncfsa			H0776G			H9009=ה=the/{H0776G=אֶ֫רֶץ=: country;_planet»land:2_country;_planet}\H9016=׃=verseEnd					
-//Eng (Heb) Ref & Type	Hebrew	Transliteration	Translation	dStrongs	Grammar	Meaning Variants	Spelling Variants	Root dStrong+Instance	Alternative Strongs+Instance	Conjoin word	Expanded Strong tags	
-//Deu.23.1(23.2)#01=L	לֹֽא\־	lo'-	not	{H3808}\H9014	HTn			H3808			{H3808=לֹא=not}\H9014=־=link					
-//Deu.23.1(23.2)#02=L	יָבֹ֧א	ya.Vo'	he will go	{H0935G}	HVqi3ms			H0935G			{H0935G=בּוֹא=: come»to come (in):1_come;_go_in}					
-//Deu.23.1(23.2)#03=L	פְצֽוּעַ\־	fe.tzu.a'-	[one who] is wounded of	{H6481}\H9014	HVqsmsc			H6481			{H6481=פָּצַע=to wound}\H9014=־=link					
-//Deu.23.1(23.2)#04=L	דַּכָּ֛א	da.Ka'	crushing	{H1795}	HNcfsa			H1795			{H1795=דַּכָּה=crushing}					
-//Deu.23.1(23.2)#05=L	וּ/כְר֥וּת	u./khe.Rut	and/ [one who] is cut off of	H9002/{H3772G}	HC/Vqsmsc			H3772G			H9002=ו=and/{H3772G=כָּרַת=: cut»to cut:1_cut;_fell}					
-//Deu.23.1(23.2)#06=L	שָׁפְכָ֖ה	sha.fe.Khah	penis	{H8212}	HNcfsa			H8212			{H8212=שׇׁפְכָה=penis}					
-//Deu.23.1(23.2)#07=L	בִּ/קְהַ֥ל	bi/k.Hal	in/ [the] assembly of	H9003/{H6951}	HR/Ncmsc			H6951			H9003=ב=in/{H6951=קָהָל=assembly}					
-//Deu.23.1(23.2)#08=L	יְהוָֽה\׃\ \ס	Yah.weh	Yahweh	{H3068G}\H9016\ \H9018	HNpt			H3068G			{H3068G=יהוה=LORD»LORD@Gen.1.1-Heb}\H9016=׃=verseEnd\ \H9018=ס=section					
-//Eng (Heb) Ref & Type	Hebrew	Transliteration	Translation	dStrongs	Grammar	Meaning Variants	Spelling Variants	Root dStrong+Instance	Alternative Strongs+Instance	Conjoin word	Expanded Strong tags					
-
+/* sample word line
+Eng (Heb) Ref & Type	Hebrew	Transliteration	Translation	dStrongs	Grammar	Meaning Variants	Spelling Variants	Root dStrong+Instance	Alternative Strongs+Instance	Conjoin word	Expanded Strong tags					
+Gen.1.1#01=L	בְּ/רֵאשִׁ֖ית	be./re.Shit	in/ beginning	H9003/{H7225G}	HR/Ncfsa			H7225G			H9003=ב=in/{H7225G=רֵאשִׁית=: beginning»first:1_beginning}					
+Gen.1.1#02=L	בָּרָ֣א	ba.Ra'	he created	{H1254A}	HVqp3ms			H1254A			{H1254A=בָּרָא=to create}					
+Gen.1.1#03=L	אֱלֹהִ֑ים	'E.lo.Him	God	{H0430G}	HNcmpa			H0430G			{H0430G=אֱלֹהִים=God»LORD@Gen.1.1-Heb}					
+Gen.1.1#04=L	אֵ֥ת	'et	<obj.>	{H0853}	HTo			H0853_A			{H0853=אֵת=[Obj.]}					
+Gen.1.1#05=L	הַ/שָּׁמַ֖יִם	ha./sha.Ma.yim	the/ heavens	H9009/{H8064}	HTd/Ncmpa			H8064			H9009=ה=the/{H8064=שָׁמַיִם=heaven}					
+Gen.1.1#06=L	וְ/אֵ֥ת	ve./'Et	and/ <obj.>	H9002/{H0853}	HC/To			H0853_B			H9002=ו=and/{H0853=אֵת=[Obj.]}					
+Gen.1.1#07=L	הָ/אָֽרֶץ\׃	ha./'A.retz	the/ earth	H9009/{H0776G}\H9016	HTd/Ncfsa			H0776G			H9009=ה=the/{H0776G=אֶ֫רֶץ=: country;_planet»land:2_country;_planet}\H9016=׃=verseEnd									
+Eng (Heb) Ref & Type	Hebrew	Transliteration	Translation	dStrongs	Grammar	Meaning Variants	Spelling Variants	Root dStrong+Instance	Alternative Strongs+Instance	Conjoin word	Expanded Strong tags					
+Deu.23.1(23.2)#01=L	לֹֽא\־	lo'-	not	{H3808}\H9014	HTn			H3808			{H3808=לֹא=not}\H9014=־=link					
+Deu.23.1(23.2)#02=L	יָבֹ֧א	ya.Vo'	he will go	{H0935G}	HVqi3ms			H0935G			{H0935G=בּוֹא=: come»to come (in):1_come;_go_in}					
+Deu.23.1(23.2)#03=L	פְצֽוּעַ\־	fe.tzu.a'-	[one who] is wounded of	{H6481}\H9014	HVqsmsc			H6481			{H6481=פָּצַע=to wound}\H9014=־=link					
+Deu.23.1(23.2)#04=L	דַּכָּ֛א	da.Ka'	crushing	{H1795}	HNcfsa			H1795			{H1795=דַּכָּה=crushing}					
+Deu.23.1(23.2)#05=L	וּ/כְר֥וּת	u./khe.Rut	and/ [one who] is cut off of	H9002/{H3772G}	HC/Vqsmsc			H3772G			H9002=ו=and/{H3772G=כָּרַת=: cut»to cut:1_cut;_fell}					
+Deu.23.1(23.2)#06=L	שָׁפְכָ֖ה	sha.fe.Khah	penis	{H8212}	HNcfsa			H8212			{H8212=שׇׁפְכָה=penis}					
+Deu.23.1(23.2)#07=L	בִּ/קְהַ֥ל	bi/k.Hal	in/ [the] assembly of	H9003/{H6951}	HR/Ncmsc			H6951			H9003=ב=in/{H6951=קָהָל=assembly}					
+Deu.23.1(23.2)#08=L	יְהוָֽה\׃\ \ס	Yah.weh	Yahweh	{H3068G}\H9016\ \H9018	HNpt			H3068G			{H3068G=יהוה=LORD»LORD@Gen.1.1-Heb}\H9016=׃=verseEnd\ \H9018=ס=section				
+Eng (Heb) Ref & Type	Hebrew	Transliteration	Translation	dStrongs	Grammar	Meaning Variants	Spelling Variants	Root dStrong+Instance	Alternative Strongs+Instance	Conjoin word	Expanded Strong tags	
+*/
 		// not a verse word line
 		if (!preg_match('/^[[:alnum:]]{3}\.\d+\.\d+/', $data)) {
 			continue;
 		}
 		
-		// verse word line with KJV alternate reference
+		// verse word line with alternate references, though don't use alternate reference
 		//                     1                  2     3      X      X       4     5          6        7         8         9*        10*       11        12         13       14        15        16      17  
 		else if (preg_match('/^([[:alnum:]]{3})\.(\d+)\.(\d+)\((\d+)\.(\d+)\)#(\d+)=([^\t]+)\t([^\t]*)\t([^\t]+)\t([^\t]+)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)(.*)$/', $data, $match)) {
-			// Qere check      1                  2     3      X      X       4     5          6        7         8         9+        10+       11        12         13       14        15        16      17  
+			// Check for Qere and just echo a warning to keep track of these lines
+			//                 1                  2     3      X      X       4     5          6        7         8         9+        10+       11        12         13       14        15        16      17  
 			if (!preg_match('/^([[:alnum:]]{3})\.(\d+)\.(\d+)\((\d+)\.(\d+)\)#(\d+)=([^\t]+)\t([^\t]*)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)(.*)$/', $data)) {
 				AION_ECHO("WARN! line=$count $newmess Qere empty fields 9 & 10: $data");
 			}
-			// adjust the word number for LXX 4 digit word Numbers
+			// pad the word number for LXX 4 digit word numbers
 			if (strlen($match[6])!=2 && strlen($match[6])!=4) { AION_ECHO("ERROR! line=$count $newmess bad word sort number: $data"); }
 			$psatmp = $match[6];
 			$match[6] .= (strlen($match[6])==4 ? '' : '00');
-			// Psalms special case
+			// Psalms special case, verse #0 words prefixed onto verse #1
 			if ('Psa'==$match[1] && (int)$match[3]==0) {
 				$match[3] = '1';
 				$match[6] = '00'.$match[5].$psatmp;
 			}
-			// altnerate moves back - so bump word number to beginning
-			else if ((int)$match[2]==(int)$match[4]+1 || // chapter -1
-				($match[2]==$match[4] && (int)$match[3]>(int)$match[5])) { // verse minus one
+			// alternate reference numbering independent if partial verse, so if moving backwards, bump word number to beginning of verse
+			else if ((int)$match[2]==(int)$match[4]+1 || // chapter-1
+				($match[2]==$match[4] && (int)$match[3]>(int)$match[5])) { // verse-1
 				$match[6] = '3'.$match[6];
 			}
-			// alternate moves forward one verse same book and chapter or chapter+1 - so bump word number to the end
-			else if ((int)$match[2]+1==(int)$match[4] || // chapter +1
-				($match[2]==$match[4] && (int)$match[3]<(int)$match[5])) { // same chapter and verse plus one
+			// alternate reference numbering independent if partial verse, so if moving forwards, bump word number to end of verse
+			else if ((int)$match[2]+1==(int)$match[4] || // chapter+1
+				($match[2]==$match[4] && (int)$match[3]<(int)$match[5])) { // same chapter and verse+1
 				$match[6] = '7'.$match[6];
 			}
-			// why are we here??? BOMB
+			// hey why are we here??? BOMB
 			else {
 				AION_ECHO("ERROR! line=$count $newmess bad reversification: $data");
 			}
 
 			// renumber the match array to be like regular verse word lines
-			//unset($match[2]); unset($match[3]); // use the parened chapter and verse number
-			unset($match[4]); unset($match[5]); // use the standard chapter and verse number
+			// unset($match[2]); unset($match[3]); // use the parened alternate reference, NOT ANY MORE!
+			unset($match[4]); unset($match[5]); // use the standard reference and unset the alternate
 			$match = array_values($match);			
 		}
 		
-		// regular verse word line
+		// regular verse word line with no alternate reference
 		//                     1                 2      3     4     5         6         7         8         9*        10*       11        12        13        14        15        16      17
 		else if (preg_match('/^([[:alnum:]]{3})\.(\d+)\.(\d+)#(\d+)=([^\t]+)\t([^\t]*)\t([^\t]+)\t([^\t]+)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)(.*)$/', $data, $match)) {
-			// Qere check      1                 2      3     4     5         6         7         8         9+        10+       11        12        13        14        15        16      17
+			//  Check for Qere and just echo a warning to keep track of these lines
+			//                 1                 2      3     4     5         6         7         8         9+        10+       11        12        13        14        15        16      17
 			if (!preg_match('/^([[:alnum:]]{3})\.(\d+)\.(\d+)#(\d+)=([^\t]+)\t([^\t]*)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)(.*)$/', $data)) {
 				AION_ECHO("WARN! line=$count $newmess Qere empty fields 9 & 10: $data");
 			}
-			// adjust the word number for LXX 4 digit word Numbers
+			// adjust the word number for LXX 4 digit word numbers
 			if (strlen($match[4])!=2 && strlen($match[4])!=4) { AION_ECHO("ERROR! line=$count $newmess bad word sort number: $data"); }
 			if (strlen($match[4])==2) { $match[4] .= '00'; }
-			// Psalms special case
+			// Psalms special case, verse #0 words prefixed onto verse #1
 			if ('Psa'==$match[1] && (int)$match[3]==0) {
 				$match[3] = '1';
 				$match[4] = '0'.$match[4];
 			}
 			else {
-				$match[4] = '5'.$match[4]; // these words tagged with 5 in the middle of 3 and 7
+				$match[4] = '5'.$match[4]; // these words tagged with 5 in the middle of 3 and 7 above
 			}
 		}
 
-		// we should not be here
+		// hey we should not be here
 		else {
 			AION_ECHO("ERROR! line=$count $newmess bad line: $data");
-			continue;
 		}
 		
-		// value in field 15 or 16? BOMB!
+		// is there a value beyond valid fields, or word number not 5 digits? BOMB!
 		if (!empty(trim($match[17])) || !empty(trim($match[18])) || !empty(trim($match[19])) || !empty(trim($match[20])) || strlen($match[4])!=5) {
 			AION_ECHO("ERROR! line=$count $newmess bad fields: $data");
 		}
@@ -906,7 +903,7 @@ function AION_NEWSTRONGS_GET_PREPH($file, $fout) {
 
 // Convert new format TAGNT back to old format
 function AION_NEWSTRONGS_GET_PREP($file,$fout) {
-	// init
+	// load the data
 	$newmess = "PREP\t$file";
 	if ( !is_file( $file ) ) {											AION_ECHO("ERROR! $newmess !is_file()"); }
 	if ( ($contents = file_get_contents( $file )) === FALSE ) {			AION_ECHO("ERROR! $newmess !file_get_contents()"); }
@@ -919,8 +916,7 @@ function AION_NEWSTRONGS_GET_PREP($file,$fout) {
 	$tbooks = AION_BIBLES_LIST_TYN();
 	$prevmatch = NULL;
 	$count = 0;
-
-	// parse
+	// loop through all the lines
 	foreach( $lines as $data ) {
 		++$count;
 		//Word & Type	Greek	English translation	dStrongs = Grammar	Dictionary form =  Gloss	editions	1st variant	2nd variant	Spellings		Spanish translation	Sub-meaning	Conjoin word	sStrong+Instance	Alt Strongs
@@ -938,53 +934,59 @@ function AION_NEWSTRONGS_GET_PREP($file,$fout) {
 		}
 		
 		// verse word line with alternate KJV reference
+		//                     1                 2      3     4       5      6       7         8         9         10        11        12        13*       14*       15*       16*       17*       18*       19*       20*       21*     22*
 		else if (preg_match('/^([[:alnum:]]{3})\.(\d+)\.(\d+)#(\d+) \((\d+)\.(\d+)\)=([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)(.*)$/', $data, $match)) {
-			// skip the flip of Philipians 1:16-17
-			if ($match[1]=='Php' && $match[2]=='1' && ($match[3]=='16' || $match[3]=='17')) { ; }
+			// skip the alternate flipped of Philipians 1:16-17
+			if ($match[1]=='Php' && $match[2]=='1' && ($match[3]=='16' || $match[3]=='17')) {
+				if (strlen($match[4])!=2 && strlen($match[4])!=4) { AION_ECHO("ERROR! line=$count $newmess bad word sort number: $data"); }
+				$match[4] = (strlen($match[4])==4 ? '2'.$match[4] : '2'.$match[4].'00'); // same as Hebrew logic for 4 digit LXX word number, BUT no cases of this
+			}
 			// moving back one verse same book and chapter - pre-pend word number with '6' so moved back to end of previous verse
 			else if ($match[2]==$match[5] && // same chapter
-				(int)$match[3]==(int)$match[6]+1) { // verse minus one
+				(int)$match[3]==(int)$match[6]+1) { // verse-1
 				$match[2] = $match[5];
 				$match[3] = $match[6];
 				if (strlen($match[4])!=2 && strlen($match[4])!=4) { AION_ECHO("ERROR! line=$count $newmess bad word sort number: $data"); }
 				$match[4] = (strlen($match[4])==4 ? '6'.$match[4] : '6'.$match[4].'00'); // same as Hebrew logic for 4 digit LXX word number, BUT no cases of this
 			}
 			// moving forward one verse same book and chapter or chapter+1 - pre-pend word number with '0' so moved to front of next verse
-			else if ((int)$match[2]+1==(int)$match[5] || // chapter +1
-				($match[2]==$match[5] && (int)$match[3]+1==(int)$match[6])) { // same chapter and verse plus one
+			else if ((int)$match[2]+1==(int)$match[5] || // chapter+1
+				($match[2]==$match[5] && (int)$match[3]+1==(int)$match[6])) { // same chapter and verse+1
 				$match[2] = $match[5];
 				$match[3] = $match[6];
 				if (strlen($match[4])!=2 && strlen($match[4])!=4) { AION_ECHO("ERROR! line=$count $newmess bad word sort number: $data"); }
 				$match[4] = (strlen($match[4])==4 ? '0'.$match[4] : '0'.$match[4].'00'); // same as Hebrew logic for 4 digit LXX word number, BUT no cases of this
 			}
-			// why are we here??? BOMB
+			// hey why are we here??? BOMB
 			else {
 				AION_ECHO("ERROR! line=$count $newmess bad reversification: $data");
 			}
-			// remove extras and reindex array
+			// alternate verse and word number copied to standard so remove alternate reindex array to match array without alternate
+			// note that we do this in the TAGNT but we do not do this in the TAHOT
 			unset($match[5]);
 			unset($match[6]);
 			$match = array_values($match);
 		}
 		
 		// regular verse word line - pre-pend word number with '2' so moved to middle of any pre-pends and appends
+		//                     1                 2      3     4     5         6         7         8         9         10        11*       12*       13*       14*       15*       16*       17*       18*       19*     20*
 		else if (preg_match('/^([[:alnum:]]{3})\.(\d+)\.(\d+)#(\d+)=([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)(.*)$/', $data, $match)) {
 			// Custom - Add Acts 19:41
 			if ($match[1]=='Act' && $match[2]=='19' && $match[3]=='40' && (int)$match[4]>21) { $match[3] = 41; }
 			// Custom - Add 2Cor 13:13
 			if ($match[1]=='2Co' && $match[2]=='13' && $match[3]=='12' && (int)$match[4]>5) { $match[3] = 13; }
-			// bump all word numbers to allow reversification insertions beforehand if needed
+			// bump all word numbers to '2' to allow reversification insertions beforehand if needed
 			if (strlen($match[4])!=2 && strlen($match[4])!=4) { AION_ECHO("ERROR! line=$count $newmess bad word sort number: $data"); }
 			$match[4] = (strlen($match[4])==4 ? '2'.$match[4] : '2'.$match[4].'00'); // same as Hebrew logic for 4 digit LXX word number, BUT no cases of this
 		}
 		
-		// bombing here!
+		// hey, bombing here!
 		else {
 			AION_ECHO("ERROR! line=$count $newmess bad line: $data");
 		}
 		
-		// value in field 20?
-		if (!empty(trim($match[19])) || !empty(trim($match[20]))) {
+		// is there a value beyond valid fields, or word number not 5 digits? BOMB!
+		if (!empty(trim($match[19])) || !empty(trim($match[20])) || strlen($match[4])!=5) {
 			AION_ECHO("ERROR! line=$count $newmess bad fields: $data");
 		}
 		
@@ -1004,12 +1006,12 @@ function AION_NEWSTRONGS_GET_PREP($file,$fout) {
 		$match[5] = preg_replace("#\(T\)#u","t",$match[5]);
 		$match[5] = preg_replace("#\(O\)#u","o",$match[5]);
 		$match[5] = preg_replace("#[()[\]]+#u","",$match[5]);
-		// Break part Greek and Transliteration
+		// break apart Greek and Transliteration
 		$twopieces = mb_split("[()]{1}", $match[6]);
 		if(count($twopieces) != 3 || !empty($twopieces[2])) { AION_ECHO("ERROR! line=$count $newmess Greek/Translit format problem, $data"); }
 		$greek = trim($twopieces[0]);
 		$translit = trim(preg_replace("#[()]+#u","",$twopieces[1]));
-		// Reconstruct strongs and morph as originally
+		// reconstruct strongs and morph as originally
 		$strongs = $morph = NULL;
 		if (preg_match("#[¦]+#u",$match[8])) { AION_ECHO("ERROR! line=$count $newmess WHATWHAT? $data"); }
 		$match[8] = preg_replace("#[\+]+#u","+",$match[8]);
@@ -1024,7 +1026,7 @@ function AION_NEWSTRONGS_GET_PREP($file,$fout) {
 		}
 		$strongs = trim($strongs," +");
 		$morph = trim($morph," +");
-		// Reconstruct dictionary and gloss
+		// reconstruct dictionary and gloss
 		$dictionary = $gloss = NULL;
 		$match[9] = preg_replace("#[\s]+#u"," ",$match[9]);
 		$match[9] = preg_replace("#[\+]+#u","+",$match[9]);
@@ -1037,8 +1039,8 @@ function AION_NEWSTRONGS_GET_PREP($file,$fout) {
 		}
 		$dictionary = trim($dictionary," +");
 		$gloss = trim($gloss," +");
-		// Remove repeated words in the extra column 
-		if (preg_match("#$match[15]#u",$gloss)) { $match[15] = NULL; }
+		// remove repeated words in the extra column 
+		if (preg_match("#{$match[15]}#u",$gloss)) { $match[15] = NULL; }
 		// trim
 		$match[7] = trim(preg_replace("#\s+#u"," ",$match[7]));
 		$match[10] = preg_replace("#[\s]+#u"," ",$match[10]); // editions
@@ -2101,7 +2103,7 @@ and this variant is sufficiently different to change the meaning - else the it w
 			if (!($snum = preg_replace('#^(H\d+)[A-Za-z]*$#','$1', $strongs))) { AION_ECHO("ERROR! sequence strong preg_replace()!\n".print_r($line,TRUE)); }
 			$occur = 1;
 			$instance = $line['INSTANCE'];
-			if (preg_match("#{$snum}_([A-Za-z]{1})#u", $instance, $match)) { // ok we are counting something
+			if (preg_match("#{$snum}[A-Za-z]{0,1}_([A-Za-z]{1})#ui", $instance, $match)) { // ok we are counting something
 				$occurdig = ord(strtoupper($match[1])) - 64;
 				if (empty($strongs_counts[$snum])) { if (1 != $occurdig) { AION_ECHO($warn="WARN! FIX_REF\tref='{$line['REF']}' Strongs sequence error, second but no first! $snum\n".print_r($line,TRUE)."\n\n\n"); } }
 				else if ($strongs_counts[$snum] == -1) { AION_ECHO($warn="WARN! FIX_REF\tref='{$line['REF']}' Strongs sequence error, sequenced and unsequenced! $snum\n".print_r($line,TRUE)."\n\n\n"); }
@@ -2122,16 +2124,13 @@ and this variant is sufficiently different to change the meaning - else the it w
 				$instance = $snum;
 			}
 			// alt instance counter
-			if ($key==0 && !empty($line['ALT'])) {
-				if (!($anum = preg_replace('#^(H\d+)[A-Za-z]*$#','$1', $line['ALT']))) { AION_ECHO("ERROR! sequence strong preg_replace()!\n".print_r($line,TRUE)); }
-				if ($anum != $snum && preg_match("#{$anum}_([A-Za-z]{1})#u", $line['INSTANCE'], $match)) { // ok we are counting something
-					$occurdig = ord(strtoupper($match[1])) - 64;
-					if (empty($strongs_counts[$anum])) { if (1 != $occurdig) { AION_ECHO($warn="WARN! FIX_REF\tref='{$line['REF']}' Alt Strongs sequence error, second but no first! $anum\n".print_r($line,TRUE)."\n\n\n"); } }
-					else if ($strongs_counts[$anum] == -1) { AION_ECHO($warn="WARN! FIX_REF\tref='{$line['REF']}' Alt Strongs sequence error, sequenced and unsequenced! $anum\n".print_r($line,TRUE)."\n\n\n"); }
-					else if ($strongs_counts[$anum] + 1 != $occurdig) { AION_ECHO($warn="WARN! FIX_REF\tref='{$line['REF']}' Alt Strongs sequence error, missed sequence! $anum\n".print_r($line,TRUE)."\n\n\n"); }
-					$strongs_counts[$anum] = $occurdig;
-					if ($occurdig < 1 || $occurdig > 26) { AION_ECHO("ERROR! $newmess occurmap not found!\n".print_r($line,TRUE)); } // what, where is the map?
-				}
+			if ($key==0 && preg_match('#^(H\d+)[A-Za-z]{0,1}_([A-Za-z]{1}).*$#ui', $line['ALT'], $match) && ($anum=$match[1]) && !preg_match("#{$anum}#ui", $line['INSTANCE'])) {
+				$occurdig = ord(strtoupper($match[2])) - 64;
+				if (empty($strongs_counts[$anum])) { if (1 != $occurdig) { AION_ECHO($warn="WARN! FIX_REF\tref='{$line['REF']}' Alt Strongs sequence error, second but no first! $anum\n".print_r($line,TRUE)."\n\n\n"); } }
+				else if ($strongs_counts[$anum] == -1) { AION_ECHO($warn="WARN! FIX_REF\tref='{$line['REF']}' Alt Strongs sequence error, sequenced and unsequenced! $anum\n".print_r($line,TRUE)."\n\n\n"); }
+				else if ($strongs_counts[$anum] + 1 != $occurdig) { AION_ECHO($warn="WARN! FIX_REF\tref='{$line['REF']}' Alt Strongs sequence error, missed sequence! $anum\n".print_r($line,TRUE)."\n\n\n"); }
+				$strongs_counts[$anum] = $occurdig;
+				if ($occurdig < 1 || $occurdig > 26) { AION_ECHO("ERROR! $newmess occurmap not found!\n".print_r($line,TRUE)); } // what, where is the map?
 			}
 
 			// check variant strongs numbers!
@@ -3158,35 +3157,9 @@ EOF;
 	unset($contents); $contents=NULL;
 	unset($index); $index=NULL;
 
-	// OKAY
-	//	verseEnd :
-	//	emph?
-	// FIX
-	//	obj.
-	//	section
-	//	link
-	//	seq
-	//	para	
-	if (!($bibledata_ama=preg_replace("#obj\.#ui", "obj", $bibledata_ama))) {				AION_ECHO("ERROR! $newmess: preg_replace([obj])"); }
-	if (!($bibledata_con=preg_replace("#obj\.#ui", "obj", $bibledata_con))) {				AION_ECHO("ERROR! $newmess: preg_replace([obj])"); }	
-
-	if (!($bibledata_ama=preg_replace("#\bsection\b#ui", "[section]", $bibledata_ama))) {		AION_ECHO("ERROR! $newmess: preg_replace([section])"); }
-	if (!($bibledata_con=preg_replace("#\bsection\b#ui", "[section]", $bibledata_con))) {		AION_ECHO("ERROR! $newmess: preg_replace([section])"); }
-
-	if (!($bibledata_ama=preg_replace("#\blink\b#ui", "[link]", $bibledata_ama))) {				AION_ECHO("ERROR! $newmess: preg_replace([link])"); }
-	if (!($bibledata_con=preg_replace("#\blink\b#ui", "[link]", $bibledata_con))) {				AION_ECHO("ERROR! $newmess: preg_replace([link])"); }
-
-	if (!($bibledata_ama=preg_replace("#\bseq\b#ui", "[seq]", $bibledata_ama))) {				AION_ECHO("ERROR! $newmess: preg_replace([seq])"); }
-	if (!($bibledata_con=preg_replace("#\bseq\b#ui", "[seq]", $bibledata_con))) {				AION_ECHO("ERROR! $newmess: preg_replace([seq])"); }
-
-	if (!($bibledata_ama=preg_replace("#\bpara\b#ui", "[para]", $bibledata_ama))) {				AION_ECHO("ERROR! $newmess: preg_replace([para])"); }
-	if (!($bibledata_con=preg_replace("#\bpara\b#ui", "[para]", $bibledata_con))) {				AION_ECHO("ERROR! $newmess: preg_replace([para])"); }
-
-	if (!($bibledata_ama=preg_replace("#\|#u", "/", $bibledata_ama))) {							AION_ECHO("ERROR! $newmess: preg_replace(slash)"); }	
-	if (!($bibledata_con=preg_replace("#\|#u", "/", $bibledata_con))) {							AION_ECHO("ERROR! $newmess: preg_replace(slash)"); }
-
-	if (!($bibledata_ama=preg_replace("#[\t ]+#u", " ", $bibledata_ama))) {						AION_ECHO("ERROR! $newmess: preg_replace(spaces)"); }	
-	if (!($bibledata_con=preg_replace("#[\t ]+#u", " ", $bibledata_con))) {						AION_ECHO("ERROR! $newmess: preg_replace(spaces)"); }
+	// final cleanup
+	//if (!($bibledata_ama=preg_replace("#obj\.#ui", "obj", $bibledata_ama))) {				AION_ECHO("ERROR! $newmess: preg_replace([obj])"); }
+	//if (!($bibledata_con=preg_replace("#obj\.#ui", "obj", $bibledata_con))) {				AION_ECHO("ERROR! $newmess: preg_replace([obj])"); }	
 	
 	// write the Bible
 	if (file_put_contents($bible_ama,$bibledata_ama) === FALSE ) {								AION_ECHO("ERROR! $newmess file_put_contents($bible_ama)" ); }
