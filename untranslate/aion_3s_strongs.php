@@ -1709,66 +1709,72 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 		$database[$table] = "INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH	GLOSS	MORPH	EDITIONS	VAR1	VAR2	SPELL	EXTRA	ALT\n";
 	}
 	$strongs_counts = array();
-	// TAG types
-	/*
-Text type:
-	L=Leningrad text;
-	Q=Qere scribal corrections;
-	K=original text;
-	R=Restored text (ie Jos.21.36-37; Neh.7.67b);
-	X=extra text from LXX as reconstructed in BHS or BHK.
-	Other letters are used for variants - see the list below. 
-	
-Brackets indicate a significant variant is recorded, which is in lower case if the variant might not affect the translation.
- 
-Translators normally follow L, and when this presents a choice between Q and K they follow Q, so K is presented as a variant.
+/*
+Abbreviations for sources of each word: 
+==============================
+L= Leningrad manuscript 
+R= restored text based on Leningrad parallels - ie Jos.21.36-37 from 1Ch.6.63-64 and Neh.7.67b from Ezr.2.66 
+X= extra words based on LXX, in Hebrew based on apparatus in BHS &  BHK - eg 1Sa.13.1 Saul was שְׁלֹשִׁים שָׁנָ֖ה ('a thirty year-old') not שָׁנָ֖ה ('a year-old')  
+Q= Qere ('spoken') corrections by scribes. This is made up of the letters in the margin and the pointing in the text. 
+    K= it's Ketiv  ('written') is noted as a variant. This is made up of the letters in the text, pointed by Tyndale scholars. 
+    L - the letters of K with pointing of Q, as found in Leningrad is recorded as a spelling variant. 
+ - eg Gen.27.3 L= צָיִדה, K= צֵידָה ('food'), Q= צָיִד ('wild game') 
 
-If there is more than one variant they are separated by ";",
-eg:Neh.2.13#17=Q(K; B) indicates that this Hebrew word follows the Qere and has two variants:
-the Ketiv (which in this case is upper case "K" to indicate it is different enough to affect the translation),
-and the BHS which records the Leningrad text differently than Tyndale scholars, and this affects the translation.
+Abbreviations for other variants 
+====================
+- in brackets after the source. If the variant doesn't change the meaning, it is noted in lower case, 
+eg L(a) means this is the form found in Leningrad, where Aleppo is different but still has the same meaning. 
+A= Aleppo manuscript - eg Isa.27.2 חֶ֖מֶר ('wine') for חֶ֖מֶד ('delight') 
+B= BHS or Biblia Hebraica Stuttgartensia edition - eg Num.7.59 פְּדָה־צֽוּר (Pedah-zur') for פְּדָהצֽוּר ('Pedahzur') 
+C= Cairensis manuscript - eg 2Sa.11.1 הַמְּלָכִ֗ים ('kings') for הַמַּלְאֿכִ֗ים ('messengers') 
+D= Dead Sea and other Judean Desert manuscripts - eg Psa.22.16(17) כָּ֝אֲרוּ ('they dug') for כָּ֝אֲרִ֗י ('like a lion') 
+E= emendation based on ancient sources  - eg Gen.37.36 וְהַמִדְיָנִים (and the Midianites) for וְהַמְּדָנִים ('and the Medanites) 
+F= formatting pointing or word divisions differently, without changing any letters - eg 1Ch.24.26,27 בְנוֹ ('his son') for בְנוֹ ('Beno') 
+H= Ben Chaim edtion (2nd Rabbinic Bible) - eg Gen.25.15 חֲדַ֣ר ('Hadar') for חֲדַ֣ד ('Hadad') 
+P= alternate punctuation - eg in Gen.35.22  "Israel heard of it; and Jacob had 12 son" for "the concubine of his father; and Israel heard of it. And Jacob had 12 sons. 
+S= scribal traditions in Itture Sopherim, Tiqqune Sopherim, Masora etc 
+V = variants from other Hebrew manuscripts - eg Zep.3.15 תִרְאִי ('you will see') for תִירְאִי ('you will fear') 
+(Most of these variants are yet to be added. )   
 
-If two sources record the same variant, they are joined by "/".
-eg Isa.27.2#04=L(A/H) which indicates the text follows L but there is a variant found in both A (Aleppo) and H (Ben Ḥai'im or Ben Chayyim)
-and this variant is sufficiently different to change the meaning - else the it would be L(a/h)  
+No to these???
+"L(M)"  => "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Masoretic)",
+"M"        => "Masoretic and related manuscripts",
+"P"         => "Alternate punctuation",
+"Q"         => "Qere: the word as 'spoken' as noted in the margin with pointing from the text", [This never occurs without K]
+"S"          => "Scribal traditions in Itture Sopherim, Tiqqune Sopherim, Masora, etc",
 */
 	static $tagtypes = NULL;
 	if ($tagtypes==NULL) {
 		$tagtypes = array(
-			"A"		=> "Aleppo",
+			"A"		=> "Aleppo manuscript",
 			"A/H"	=> "Aleppo and Ben Chaim",
-			"A/V"	=> "Aleppo and V",
+			"A/V"	=> "Aleppo and other Hebrew manuscripts",
 			"B"		=> "Biblia Hebraica Stuttgartensia",
-			"C"		=> "Cairensis",
+			"C"		=> "Cairensis manuscript",
 			"D"		=> "Dead Sea and other Judean Desert manuscripts",
-			"E"		=> "Emendation of letters based on ancient sources selected by Barthelemy",
-			"F"		=> "Formatting spaces and pointing differently without changing letters",
+			"E"		=> "Emendation based on ancient sources",
+			"F"		=> "Format pointing or word divisions differently without changing letters",
 			"H"		=> "Ben Chaim (2nd Rabbinic Bible)",
-			"K"		=> "Ketiv: letters 'written' in the text with pointing by Tyndale scholars",
-			"L"		=> "Leningrad: Ketiv letters with Qere pointing from the manuscript",
-			"L(A/H)"=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Aleppo/BHS)",
-			"L(a/v)"=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (minor variant: Aleppo/v)",
-			"L(B)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: BHS)",
-			"L(b)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (minor variant: BHS)",
-			"L(b;p)"=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (minor variants: BHS and punctuation)",
-			"L(C)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Cairensis)",
-			"L(D)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Dead Sea manuscript)",
-			"L(E)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Barthelemy source)",
-			"L(F)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: spaces and pointing)",
-			"L(H)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Ben Chaim)",
-			"L(M)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Masoretic)",
-			"L(P)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: punctuation)",
-			"L(p)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (minor variant: punctuation)",
-			"L(S)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Scribal traditions in Itture Sopherim, etc)",
-			"M"		=> "Masoretic and related manuscripts",
-			"P"		=> "Alternate punctuation", 
-			"Q"		=> "Qere: letters 'spoken' and noted in the margin with pointing from the text",
-			"Q(k)"	=> "Qere: letters 'spoken' and noted in the margin with pointing from the text (minor variant: Ketiv)",
-			"Q(K)"	=> "Qere: letters 'spoken' and noted in the margin with pointing from the text (influencing variant: Ketiv)",
-			"Q(K;B)"=> "Qere: letters 'spoken' and noted in the margin with pointing from the text (influencing variant: Ketiv and BHS)",
+			"K"		=> "Ketiv 'written' in the text with pointing by Tyndale scholars",
+			"L"		=> "Leningrad manuscript",
+			"L(A/H)"=> "Leningrad manuscript (influencing variant: Aleppo / Ben Chaim)",
+			"L(a/v)"=> "Leningrad manuscript (minor variant: Aleppo / Other Hebrew manuscripts)",
+			"L(B)"	=> "Leningrad manuscript (influencing variant: BHS)",
+			"L(b)"	=> "Leningrad manuscript (minor variant: BHS)",
+			"L(b;p)"=> "Leningrad manuscript (minor variants: BHS and alternate punctuation)",
+			"L(C)"	=> "Leningrad manuscript (influencing variant: Cairensis)",
+			"L(D)"	=> "Leningrad manuscript (influencing variant: Dead Sea manuscript)",
+			"L(E)"	=> "Leningrad manuscript (influencing variant: ancient sources)",
+			"L(F)"	=> "Leningrad manuscript (influencing variant: pointing and divisions)",
+			"L(H)"	=> "Leningrad manuscript (influencing variant: Ben Chaim)",
+			"L(P)"	=> "Leningrad manuscript (influencing variant: alternate punctuation)",
+			"L(p)"	=> "Leningrad manuscript (minor variant: alternate punctuation)",
+			"L(S)"	=> "Leningrad manuscript (influencing variant: Scribal traditions in Itture Sopherim, etc)",
+			"Q(k)"	=> "Qere 'spoken' corrections from letters in margin and pointing in text (minor variant: Ketiv 'written', Tyndale scholar pointing)",
+			"Q(K)"	=> "Qere 'spoken' corrections from letters in margin and pointing in text (influencing variant: Ketiv 'written', Tyndale scholar pointing)",
+			"Q(K;B)"=> "Qere 'spoken' corrections from letters in margin and pointing in text (influencing variant: BHS and Ketiv 'written', Tyndale scholar pointing)",
 			"R"		=> "Restored text based on Leningrad parallels",
-			"S"		=> "Scribal traditions in Itture Sopherim, Tiqqune Sopherim, Masora, etc",
-			"V"		=> "V",
+			"V"		=> "Other Hebrew manuscripts",
 			"X"		=> "Extra words based on the Septuagint (LXX), in Hebrew based on apparatus in BHS and BHK",
 		);
 	}
@@ -1969,7 +1975,7 @@ and this variant is sufficiently different to change the meaning - else the it w
 				}
 				$english = trim($english,' :;');
 				$under = $match[2];
-				$morph = ($match[6]=='HR/Ncbsc' ? 'Ncbsc' : $match[6]); // only one of this case
+				$morph = ($match[6]=='HR/Ncbsc' ? 'HNcbsc' : $match[6]); // only one of this case
 				if (empty($morph) || (!empty($morph) && empty($morph_array[$morph]))) {
 					$database['MISS_MORPHS'] .= ($warn="$newmess\tmissing morph='$morph'\n");
 					AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
@@ -1981,7 +1987,7 @@ and this variant is sufficiently different to change the meaning - else the it w
 
 				// INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH	GLOSS	MORPH	EDITIONS	VAR1	VAR2	SPELL	EXTRA	CONJOIN	INSTANCE	OCCUR	ALT
 				//$database[$table] .= "{$dataref}	{$strongs}	{$jointype[$key]}	{$line['TYPE']}	{$under}	{$translit}	{$under}	{$english}	{$english}	{$morph}	{$line['EDITIONS']}	{$var1}	{$line['VAR2']}	{$line['SPELL']}	Qere letters only spoken, recorded in margin		{$strongs}	once	\n";
-				$database[$table] .= "{$dataref}	{$strongs}	{$jointype[$key]}	{$line['TYPE']}	{$under}	{$translit}	{$under}	{$english}	{$english}	{$morph}	{$line['EDITIONS']}	{$var1}	{$line['VAR2']}	{$line['SPELL']}	Scribes omitted Qere, Ketiv referenced	\n";
+				$database[$table] .= "{$dataref}	{$strongs}	{$jointype[$key]}	{$line['TYPE']}	{$under}	{$translit}	{$under}	{$english}	{$english}	{$morph}	{$line['EDITIONS']}	{$var1}	{$line['VAR2']}	{$line['SPELL']}	Scribes omitted word recorded as a variant	\n";
 				continue;
 			}
 			else if ($strongs=="") {
