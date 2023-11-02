@@ -11465,8 +11465,6 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet" :
-if (!($bfile = preg_replace("/\(BEGIN[^()]+\)/us",' ',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$bfile_saved = $bfile;
 $bigfix = <<<EOF
 2CO 13:12 Komail ranamauki pena metik jaraui.
 2CO 13:13 En jaraui kan karoj ar ranamau won komail.

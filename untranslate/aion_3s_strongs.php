@@ -1873,13 +1873,21 @@ and this variant is sufficiently different to change the meaning - else the it w
 		$tpart = array_map('trim', mb_split("[/\\\\]{1}", $line['TRANS']));
 		$epart = array_map('trim', mb_split("[/\\\\]{1}", $line['ENGLISH']));
 		$mpart = array_map('trim', mb_split("[/\\\\]{1}", $line['MORPH']));
+		// component part count compare
 		if (count($tpart) != count($epart) || count($epart) != count($mpart)) {
 			$database['CORRUPT_STRONGS'] .= ($warn="$newmess\tHebrew '/' Transliteration, English, and Morpphology dividers not equal!\n");
 			AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
 		}
-		if (0 && count($spart) != count($tpart)) { // disabled
-			$database['CORRUPT_STRONGS'] .= ($warn="$newmess\tHebrew '/' 2 columns != 3 columns dividers not equal!\n");
-			AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
+		if (($sparty=count($spart)) < ($tparty=count($tpart))) {
+			AION_ECHO("ERROR!\tsparty < tparty\n".print_r($line,TRUE)."\n\n\n");
+		}
+		else if ($sparty > $tparty) {
+			for ($xparty=$tparty; $xparty<$sparty; ++$xparty) {
+				if ($jointype[$xparty] != 'P') {
+					$database['CORRUPT_STRONGS'] .= ($warn="$newmess\tHebrew '/' delimiters not equal and not punctuation, $tparty != $sparty, $xparty\n");
+					AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n".print_r($jointype,TRUE)."\n\n\n");
+				}
+			}
 		}
 		if (empty($mpart[0])) { // beware the few Qere with no morphhology
 			$database['MISS_MORPHS'] .= ($warn="$newmess\tempty 1st part morph=".$line['MORPH']."\n");
