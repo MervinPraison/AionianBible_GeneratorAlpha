@@ -98,8 +98,8 @@ $GREEK_TAGED_NUMS = "Greek_Tagged_Text_Count.json";
 $GREEK_USAGE_DATA = "Greek_Chapter_Usage.txt";
 $GREEK_USAGE_INDX = "Greek_Chapter_Usage_Index.json";
 // bible
-$STEPBIBLE_AMA = "../STEPBible-Data-master/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt";
-$STEPBIBLE_CON = "../STEPBible-Data-master/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt";
+$STEPBIBLE_AMA = "../www-stage/library/stepbible/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt";
+$STEPBIBLE_CON = "../www-stage/library/stepbible/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt";
 
 
 // PREPARE THE STAGE
@@ -392,37 +392,36 @@ $commentplus = <<<EOT
 #				"P"	=> "Punctuation",
 #	TYPE		Source description
 #				"A"		=> "Aleppo",
+#				"AH"	=> "Aleppo and Ben Chaim",
+#				"AV"	=> "Aleppo and other Hebrew manuscripts",
 #				"B"		=> "Biblia Hebraica Stuttgartensia",
 #				"C"		=> "Cairensis",
 #				"D"		=> "Dead Sea and other Judean Desert manuscripts",
-#				"E"		=> "Emendation of letters based on ancient sources selected by Barthelemy",
-#				"F"		=> "Formatting spaces and pointing differently without changing letters",
+#				"E"		=> "Emendation from ancient sources",
+#				"F"		=> "Format pointing or word divisions differently without changing letters",
 #				"H"		=> "Ben Chaim (2nd Rabbinic Bible)",
-#				"K"		=> "Ketiv: letters 'written' in the text with pointing by Tyndale scholars",
-#				"L"		=> "Leningrad: Ketiv letters with Qere pointing from the manuscript",
-#				"L(A/H)"=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Aleppo/BHS)",
-#				"L(a/v)"=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (minor variant: Aleppo/+)",
-#				"L(B)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: BHS)",
-#				"L(b)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (minor variant: BHS)",
-#				"L(b;p)"=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (minor variants: BHS and punctuation)",
-#				"L(C)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Cairensis)",
-#				"L(D)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Dead Sea manuscript)",
-#				"L(E)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Barthelemy source)",
-#				"L(F)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: spaces and pointing)",
-#				"L(H)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Ben Chaim)",
-#				"L(M)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Masoretic)",
-#				"L(P)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: punctuation)",
-#				"L(p)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (minor variant: punctuation)",
-#				"L(S)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Scribal traditions in Itture Sopherim, etc)",
-#				"M"		=> "Masoretic and related manuscripts",
-#				"P"		=> "Alternate punctuation", 
-#				"Q"		=> "Qere: letters 'spoken' and noted in the margin with pointing from the text",
-#				"Q(k)"	=> "Qere: letters 'spoken' and noted in the margin with pointing from the text (minor variant: Ketiv)",
-#				"Q(K)"	=> "Qere: letters 'spoken' and noted in the margin with pointing from the text (influencing variant: Ketiv)",
-#				"Q(K;B)"=> "Qere: letters 'spoken' and noted in the margin with pointing from the text (influencing variant: Ketiv and BHS)",
+#				"K"		=> "Ketiv 'written' in the text with Tyndale pointing",
+#				"L"		=> "Leningrad manuscript",
+#				"LAH"	=> "Leningrad manuscript, influencing variant: Aleppo and Ben Chaim",
+#				"Lav"	=> "Leningrad manuscript, minor variant: Aleppo and other Hebrew manuscripts",
+#				"LB"	=> "Leningrad manuscript, influencing variant: BHS",
+#				"Lb"	=> "Leningrad manuscript, minor variant: BHS",
+#				"Lbp"	=> "Leningrad manuscript, minor variants: BHS and alternate punctuation",
+#				"LC"	=> "Leningrad manuscript, influencing variant: Cairensis",
+#				"LD"	=> "Leningrad manuscript, influencing variant: Dead Sea manuscript",
+#				"LE"	=> "Leningrad manuscript, influencing variant: ancient sources",
+#				"LF"	=> "Leningrad manuscript, influencing variant: pointing and divisions",
+#				"LH"	=> "Leningrad manuscript, influencing variant: Ben Chaim",
+#				"LP"	=> "Leningrad manuscript, influencing variant: alternate punctuation",
+#				"Lp"	=> "Leningrad manuscript, minor variant: alternate punctuation",
+#				"LS"	=> "Leningrad manuscript, influencing variant: Scribal traditions in Itture Sopherim, etc",
+#				"LV"	=> "Leningrad manuscript, influencing variant: and other Hebrew manuscripts",
+#				"Qk"	=> "Qere 'spoken' corrections from margin and text pointing, minor variant: Ketiv 'written', Tyndale pointing",
+#				"QK"	=> "Qere 'spoken' corrections from margin and text pointing, influencing variant: Ketiv 'written', Tyndale pointing",
+#				"QKB"	=> "Qere 'spoken' corrections from margin and text pointing, influencing variant: BHS and Ketiv 'written', Tyndale pointing",
 #				"R"		=> "Restored text based on Leningrad parallels",
-#				"S"		=> "Scribal traditions in Itture Sopherim, Tiqqune Sopherim, Masora, etc",
-#				"X"		=> "Extra words based on the Septuagint (LXX), in Hebrew based on apparatus in BHS and BHK",
+#				"V"		=> "Other Hebrew manuscripts",
+#				"X"		=> "Extra words from Septuagint (LXX), in Hebrew based on apparatus in BHS and BHK",
 #	UNDER		Hebrew underlying word
 #	TRANS		Hebrew transliteration
 #	LEXICON		Hebrew lexicon word
@@ -712,18 +711,7 @@ AION_NEWSTRONGS_STEPBIBLE(
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // COMPARE
-//AION_LOOP_DIFF('../www-stage/library/stepbible', '../www-production/library/stepbible', '../STEPBible-Data-master-diff-cooked');
 AION_LOOP_DIFF('../www-stage/library/stepbible', '../stepbible-stage-DEVELOPMENT', '../STEPBible-Data-master-diff-cooked');
-AION_CHECK_DIFF_TWO_FILES(
-	'../source-stage/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt',
-	'../www-resources/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt',
-	'../STEPBible-Data-master-diff-cooked/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt');
-AION_CHECK_DIFF_TWO_FILES(
-	'../source-stage/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt',
-	'../www-resources/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt',
-	'../STEPBible-Data-master-diff-cooked/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt');
-
-
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -866,8 +854,8 @@ Eng (Heb) Ref & Type	Hebrew	Transliteration	Translation	dStrongs	Grammar	Meaning
 		$chap = sprintf('%03d', (int)$match[2]);
 		$vers = sprintf('%03d', (int)$match[3]);		
 		$numb = sprintf('%05d', (int)$match[4]);
-		// remove spaces from type field
-		$match[5] = preg_replace("#[\s\+]+#u","",$match[5]);
+		// remove spaces and punctuation from type field
+		$match[5] = preg_replace("#[\s\+()/;]+#u","",$match[5]);
 		// more clean up
 		$match[6] = trim(preg_replace("#\s+#u"," ",$match[6]));
 		$match[7] = trim(preg_replace("#\s+#u"," ",$match[7]));
@@ -1746,36 +1734,37 @@ No to these???
 	static $tagtypes = NULL;
 	if ($tagtypes==NULL) {
 		$tagtypes = array(
-			"A"		=> "Aleppo manuscript",
-			"A/H"	=> "Aleppo and Ben Chaim",
-			"A/V"	=> "Aleppo and other Hebrew manuscripts",
+			"A"		=> "Aleppo",
+			"AH"	=> "Aleppo and Ben Chaim",
+			"AV"	=> "Aleppo and other Hebrew manuscripts",
 			"B"		=> "Biblia Hebraica Stuttgartensia",
-			"C"		=> "Cairensis manuscript",
+			"C"		=> "Cairensis",
 			"D"		=> "Dead Sea and other Judean Desert manuscripts",
-			"E"		=> "Emendation based on ancient sources",
+			"E"		=> "Emendation from ancient sources",
 			"F"		=> "Format pointing or word divisions differently without changing letters",
 			"H"		=> "Ben Chaim (2nd Rabbinic Bible)",
-			"K"		=> "Ketiv 'written' in the text with pointing by Tyndale scholars",
+			"K"		=> "Ketiv 'written' in the text with Tyndale pointing",
 			"L"		=> "Leningrad manuscript",
-			"L(A/H)"=> "Leningrad manuscript (influencing variant: Aleppo / Ben Chaim)",
-			"L(a/v)"=> "Leningrad manuscript (minor variant: Aleppo / Other Hebrew manuscripts)",
-			"L(B)"	=> "Leningrad manuscript (influencing variant: BHS)",
-			"L(b)"	=> "Leningrad manuscript (minor variant: BHS)",
-			"L(b;p)"=> "Leningrad manuscript (minor variants: BHS and alternate punctuation)",
-			"L(C)"	=> "Leningrad manuscript (influencing variant: Cairensis)",
-			"L(D)"	=> "Leningrad manuscript (influencing variant: Dead Sea manuscript)",
-			"L(E)"	=> "Leningrad manuscript (influencing variant: ancient sources)",
-			"L(F)"	=> "Leningrad manuscript (influencing variant: pointing and divisions)",
-			"L(H)"	=> "Leningrad manuscript (influencing variant: Ben Chaim)",
-			"L(P)"	=> "Leningrad manuscript (influencing variant: alternate punctuation)",
-			"L(p)"	=> "Leningrad manuscript (minor variant: alternate punctuation)",
-			"L(S)"	=> "Leningrad manuscript (influencing variant: Scribal traditions in Itture Sopherim, etc)",
-			"Q(k)"	=> "Qere 'spoken' corrections from letters in margin and pointing in text (minor variant: Ketiv 'written', Tyndale scholar pointing)",
-			"Q(K)"	=> "Qere 'spoken' corrections from letters in margin and pointing in text (influencing variant: Ketiv 'written', Tyndale scholar pointing)",
-			"Q(K;B)"=> "Qere 'spoken' corrections from letters in margin and pointing in text (influencing variant: BHS and Ketiv 'written', Tyndale scholar pointing)",
+			"LAH"	=> "Leningrad manuscript, influencing variant: Aleppo and Ben Chaim",
+			"Lav"	=> "Leningrad manuscript, minor variant: Aleppo and other Hebrew manuscripts",
+			"LB"	=> "Leningrad manuscript, influencing variant: BHS",
+			"Lb"	=> "Leningrad manuscript, minor variant: BHS",
+			"Lbp"	=> "Leningrad manuscript, minor variants: BHS and alternate punctuation",
+			"LC"	=> "Leningrad manuscript, influencing variant: Cairensis",
+			"LD"	=> "Leningrad manuscript, influencing variant: Dead Sea manuscript",
+			"LE"	=> "Leningrad manuscript, influencing variant: ancient sources",
+			"LF"	=> "Leningrad manuscript, influencing variant: pointing and divisions",
+			"LH"	=> "Leningrad manuscript, influencing variant: Ben Chaim",
+			"LP"	=> "Leningrad manuscript, influencing variant: alternate punctuation",
+			"Lp"	=> "Leningrad manuscript, minor variant: alternate punctuation",
+			"LS"	=> "Leningrad manuscript, influencing variant: Scribal traditions in Itture Sopherim, etc",
+			"LV"	=> "Leningrad manuscript, influencing variant: and other Hebrew manuscripts",
+			"Qk"	=> "Qere 'spoken' corrections from margin and text pointing, minor variant: Ketiv 'written', Tyndale pointing",
+			"QK"	=> "Qere 'spoken' corrections from margin and text pointing, influencing variant: Ketiv 'written', Tyndale pointing",
+			"QKB"	=> "Qere 'spoken' corrections from margin and text pointing, influencing variant: BHS and Ketiv 'written', Tyndale pointing",
 			"R"		=> "Restored text based on Leningrad parallels",
 			"V"		=> "Other Hebrew manuscripts",
-			"X"		=> "Extra words based on the Septuagint (LXX), in Hebrew based on apparatus in BHS and BHK",
+			"X"		=> "Extra words from Septuagint (LXX), in Hebrew based on apparatus in BHS and BHK",
 		);
 	}
 	
@@ -1793,6 +1782,7 @@ No to these???
 		if (empty($tagtypes[$line['TYPE']])) {
 			$database['MISS_MANU'] .= ($warn="$newmess\tmissing tag type: {$line['TYPE']}\n");
 			AION_ECHO("WARN!\t$newmess\t$warn\n".print_r($line,TRUE)."\n\n\n");
+			if ("LM"==$line['TYPE']) { $line['TYPE']="LV"; }
 		}
 
 		// PARSE REFERENCE
@@ -1900,7 +1890,7 @@ No to these???
 			AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
 		}
 		// Hebrew shares 1st letter of 1st morphhology with subsequent morphhologies
-		foreach($mpart as $key => $morph) { if ($key && !empty($morph)) { $mpart[$key] = $mpart[0][0].$mpart[$key]; } }
+		foreach($mpart as $key => $morph) { if ($key && !empty($morph) && $morph!='HNpl') { $mpart[$key] = $mpart[0][0].$mpart[$key]; } }
 
 		// LOOP THRU HEBREW PARTS BY STRONG NUMBER
 		foreach($spart as $key => $part) {
@@ -1944,7 +1934,7 @@ No to these???
 			//Lam.4.3#10=Q(K)		[ ]	[ ]			K= ki (כִּי) "for" (H3588A=HTc)	L= כַּיְ ¦ ;									
 			//Ezk.48.16#12=Q(K)		[ ]	[ ]			K= cha.mesh (חֲמֵשׁ) "five" (H2568=HAcbsc)	L= חמש ¦ ;			
 
-			if ($strongs=="" && 'Q(K)'==$line['TYPE'] && empty($WORDUP)) {
+			if ($strongs=="" && 'QK'==$line['TYPE'] && empty($WORDUP)) {
 				if (!empty($line['TRANS']) ||
 					!empty($line['MORPH']) ||
 					//                  1            2             3              4                          5       6        
@@ -1952,18 +1942,9 @@ No to these???
 					AION_ECHO("ERROR! $newmess strongs='' only for a few qere!\n".print_r($line,TRUE));
 				}
 				AION_ECHO("WARN! $newmess QERE Special!\n".print_r($line,TRUE));
-				if ('H2022G'==$match[5]) { // special case
-					$tmp = $match[4];
-					$match[4] = $match[5];					
-					$match[5] = $tmp;
-				}
 				$strongs = AION_NEWSTRONGS_STRONGS_PARSE($newmess, $match[4], FALSE, $lex_array, $lex2_array); // just check it
 				if (count($strongs)>1) { AION_ECHO("ERROR! $newmess strongs='' for Qere too many strongs!\n".print_r($line,TRUE)); }
 				$strongs2 = NULL;
-				if (!empty($match[5])) {
-					$strongs2 = AION_NEWSTRONGS_STRONGS_PARSE($newmess, $match[5], FALSE, $lex_array, $lex2_array); // just check it
-					if (count($strongs2)>1) { AION_ECHO("ERROR! $newmess strongs='' for Qere too many strongs2!\n".print_r($line,TRUE)); }
-				}
 				$strongs = $strongs[0];
 				$translit = $match[1];
 				$english = $match[3];
@@ -1980,14 +1961,36 @@ No to these???
 					$database['MISS_MORPHS'] .= ($warn="$newmess\tmissing morph='$morph'\n");
 					AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
 				}
-				$var1 = (empty($strongs2[0]) ? NULL : 'Includes '.$strongs2[0]);
-				if (empty(($line['SPELL']=preg_replace("#^L=#ui","Leningrad=",$line['SPELL'])))) {
-					AION_ECHO("ERROR! $newmess error replacing L= with Leningrad=\n".print_r($line,TRUE));
+				// INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH	GLOSS	MORPH	EDITIONS	VAR1	VAR2	SPELL	EXTRA	CONJOIN	INSTANCE	OCCUR	ALT
+				// DOUBLE QERE
+				if (!empty($match[5])) {
+					$strongs2 = AION_NEWSTRONGS_STRONGS_PARSE($newmess, $match[5], FALSE, $lex_array, $lex2_array); // just check it
+					if (count($strongs2)>1) { AION_ECHO("ERROR! $newmess strongs='' for Qere too many strongs2!\n".print_r($line,TRUE)); }
+					$strongs2 = $strongs2[0];
+					//1Sa.24.8(24.9)#06=Q(K)		[ ]	[ ]			K= min- (מִן\־) "from" (H4480A\H9014=HR)	L= מֵֽן\־ ¦ ;									
+					//Lam.1.6#02=Q(K)		[ ]	[ ]			K= min- (מִן\־) "from" (H4480A\H9014=HR)	L= מִן\־ ¦ ;	
+					if ($strongs=="H4480A" && $strongs2=="H9014") {
+					$database[$table] .= "{$dataref}	{$strongs}	{$jointype[$key]}	{$line['TYPE']}	מִן\־	min-	מֵֽן	from	from	HR		L= מֵֽן\־			Scribes omitted word recorded as a variant	\n";
+					$database[$table] .= "{$dataref}	{$strongs2}	{$jointype[$key]}	{$line['TYPE']}	מִן\־		[־]	[־]	[link]						Scribes omitted word recorded as a variant	\n";
+					}
+					//2Sa.13.33#15=Q(K)		[ ]	[ ]			K= 'im- (אִם\־) "except" (H0518B\H9014=HTc)	L= אִם\־ ¦ ;									
+					else if ($strongs=="H518B" && $strongs2=="H9014") {
+					$database[$table] .= "{$dataref}	{$strongs}	{$jointype[$key]}	{$line['TYPE']}	אִם\־	im-	אִם	except	except	HTc		L= אִם\־			Scribes omitted word recorded as a variant	\n";
+					$database[$table] .= "{$dataref}	{$strongs2}	{$jointype[$key]}	{$line['TYPE']}	אִם\־		[־]	[־]	[link]						Scribes omitted word recorded as a variant	\n";
+					}
+					//2Ch.34.6#07=Q(K)		[ ]	[ ]			K= be./har (בְּ/הַר) "in/ [the] hill country of" (H9003/H2022G=HR/Ncbsc)	L= בְּ/הַרְ ¦ ;	
+					else if ($strongs=="H9003" && $strongs2=="H2022G") {
+					$database[$table] .= "{$dataref}	{$strongs}	{$jointype[$key]}	{$line['TYPE']}	בְּ/הַר	be.	ב	in	in	HR					Scribes omitted word recorded as a variant	\n";
+					$database[$table] .= "{$dataref}	{$strongs2}	{$jointype[$key]}	{$line['TYPE']}	בְּ/הַר	har	הַר	[the] hill country of	[the] hill country of	Ncbsc					Scribes omitted word recorded as a variant	\n";
+					}
+					// BOMB
+					else { AION_ECHO("ERROR! $newmess QereKetiv should not be here!\n".print_r($line,TRUE)); }
+				}
+				// SINGLE QERE
+				else {
+					$database[$table] .= "{$dataref}	{$strongs}	{$jointype[$key]}	{$line['TYPE']}	{$under}	{$translit}	{$under}	{$english}	{$english}	{$morph}	{$line['EDITIONS']}		{$line['VAR2']}	{$line['SPELL']}	Scribes omitted word recorded as a variant	\n";
 				}
 
-				// INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH	GLOSS	MORPH	EDITIONS	VAR1	VAR2	SPELL	EXTRA	CONJOIN	INSTANCE	OCCUR	ALT
-				//$database[$table] .= "{$dataref}	{$strongs}	{$jointype[$key]}	{$line['TYPE']}	{$under}	{$translit}	{$under}	{$english}	{$english}	{$morph}	{$line['EDITIONS']}	{$var1}	{$line['VAR2']}	{$line['SPELL']}	Qere letters only spoken, recorded in margin		{$strongs}	once	\n";
-				$database[$table] .= "{$dataref}	{$strongs}	{$jointype[$key]}	{$line['TYPE']}	{$under}	{$translit}	{$under}	{$english}	{$english}	{$morph}	{$line['EDITIONS']}	{$var1}	{$line['VAR2']}	{$line['SPELL']}	Scribes omitted word recorded as a variant	\n";
 				continue;
 			}
 			else if ($strongs=="") {
@@ -2151,6 +2154,11 @@ No to these???
 			if (!empty($line['VAR1'])) { AION_NEWSTRONGS_STRONGS_PARSE($newmess, $line['VAR1'], TRUE, $lex_array, $lex2_array); }
 			if (!empty($line['VAR2'])) { AION_NEWSTRONGS_STRONGS_PARSE($newmess, $line['VAR2'], TRUE, $lex_array, $lex2_array); }
 			if (!empty($line['ALT'])) { AION_NEWSTRONGS_STRONGS_PARSE($newmess, $line['ALT'], TRUE, $lex_array, $lex2_array); }
+			// check variant format
+			$search = "#^(A/H=|A/V=|B=|C=|D=|E=|F=|H=|K=|L=|M=|P=|S=)#u";
+			if (!empty($line['VAR1'])  && !preg_match($search, $line['VAR1']))  { AION_ECHO("ERROR! VAR1 format wrong: {$line['VAR1']}!\n".print_r($line,TRUE)); }
+			if (!empty($line['VAR2'])  && !preg_match($search, $line['VAR2']))  { AION_ECHO("ERROR! VAR1 format wrong: {$line['VAR2']}!\n".print_r($line,TRUE)); }
+			if (!empty($line['SPELL']) && !preg_match($search, $line['SPELL'])) { AION_ECHO("ERROR! VAR1 format wrong: {$line['SPELL']}!\n".print_r($line,TRUE)); }
 
 			// Alternate, strip the _[A-Za-z]{1}
 			if (NULL===($alternate = preg_replace("#_[A-Za-z]{1}#ui", "", $line['ALT']))) {
@@ -2925,7 +2933,6 @@ function AION_NEWSTRONGS_COD($file, $table, &$result, $defaultmorph=FALSE) {
 	$blockcount = 0;
 	$morph = '';
 	$count=0;
-	$function = '';
 	while(($line = fgets($handle))) {
 		++$count;
 		$line = trim($line," \t\n\r\0\x0B\"");
@@ -3010,43 +3017,63 @@ function AION_NEWSTRONGS_STEPBIBLE($hebtag,$hebdex,$heblex,$gretag,$gredex,$grel
 	$newmess = "STEPBIBLE\t$bible_ama";
 	mb_regex_encoding("UTF-8");
 	mb_internal_encoding("UTF-8");	
-	$bibledata_ama = "// STEPBible Amalgamant, compiled by ABCMS (alpha)\n\n";
-	$bibledata_con = "// STEPBible Concordant, compiled by ABCMS (alpha)\n\n";
+	$bibledata_ama = "// STEPBible Amalgamant, compiled by ABCMS (alpha)\n";
+	$bibledata_con = "// STEPBible Concordant, compiled by ABCMS (alpha)\n";
 	$bibledata_key = <<<EOF
-//  Variation Source Legend
+//
+// Source: Scripture Tools for Every Person
+// https://www.STEPBible.org
+// https://github.com/STEPBible/STEPBible-Data
+//
+//  Old Testament Variation Legend
 //	"A"		=> "Aleppo",
+//	"AH"	=> "Aleppo and Ben Chaim",
+//	"AV"	=> "Aleppo and other Hebrew manuscripts",
 //	"B"		=> "Biblia Hebraica Stuttgartensia",
 //	"C"		=> "Cairensis",
 //	"D"		=> "Dead Sea and other Judean Desert manuscripts",
-//	"E"		=> "Emendation of letters based on ancient sources selected by Barthelemy",
-//	"F"		=> "Formatting spaces and pointing differently without changing letters",
+//	"E"		=> "Emendation from ancient sources",
+//	"F"		=> "Format pointing or word divisions differently without changing letters",
 //	"H"		=> "Ben Chaim (2nd Rabbinic Bible)",
-//	"K"		=> "Ketiv: letters 'written' in the text with pointing by Tyndale scholars",
-//	"L"		=> "Leningrad: Ketiv letters with Qere pointing from the manuscript",
-//	"L(A/H)"=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Aleppo/BHS)",
-//	"L(a/v)"=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (minor variant: Aleppo/+)",
-//	"L(B)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: BHS)",
-//	"L(b)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (minor variant: BHS)",
-//	"L(b;p)"=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (minor variants: BHS and punctuation)",
-//	"L(C)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Cairensis)",
-//	"L(D)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Dead Sea manuscript)",
-//	"L(E)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Barthelemy source)",
-//	"L(F)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: spaces and pointing)",
-//	"L(H)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Ben Chaim)",
-//	"L(M)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Masoretic)",
-//	"L(P)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: punctuation)",
-//	"L(p)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (minor variant: punctuation)",
-//	"L(S)"	=> "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Scribal traditions in Itture Sopherim, etc)",
-//	"M"		=> "Masoretic and related manuscripts",
-//	"P"		=> "Alternate punctuation", 
-//	"Q"		=> "Qere: letters 'spoken' and noted in the margin with pointing from the text",
-//	"Q(k)"	=> "Qere: letters 'spoken' and noted in the margin with pointing from the text (minor variant: Ketiv)",
-//	"Q(K)"	=> "Qere: letters 'spoken' and noted in the margin with pointing from the text (influencing variant: Ketiv)",
-//	"Q(K;B)"=> "Qere: letters 'spoken' and noted in the margin with pointing from the text (influencing variant: Ketiv and BHS)",
+//	"K"		=> "Ketiv 'written' in the text with Tyndale pointing",
+//	"L"		=> "Leningrad manuscript",
+//	"LAH"	=> "Leningrad manuscript, influencing variant: Aleppo and Ben Chaim",
+//	"Lav"	=> "Leningrad manuscript, minor variant: Aleppo and other Hebrew manuscripts",
+//	"LB"	=> "Leningrad manuscript, influencing variant: BHS",
+//	"Lb"	=> "Leningrad manuscript, minor variant: BHS",
+//	"Lbp"	=> "Leningrad manuscript, minor variants: BHS and alternate punctuation",
+//	"LC"	=> "Leningrad manuscript, influencing variant: Cairensis",
+//	"LD"	=> "Leningrad manuscript, influencing variant: Dead Sea manuscript",
+//	"LE"	=> "Leningrad manuscript, influencing variant: ancient sources",
+//	"LF"	=> "Leningrad manuscript, influencing variant: pointing and divisions",
+//	"LH"	=> "Leningrad manuscript, influencing variant: Ben Chaim",
+//	"LP"	=> "Leningrad manuscript, influencing variant: alternate punctuation",
+//	"Lp"	=> "Leningrad manuscript, minor variant: alternate punctuation",
+//	"LS"	=> "Leningrad manuscript, influencing variant: Scribal traditions in Itture Sopherim, etc",
+//	"LV"	=> "Leningrad manuscript, influencing variant: and other Hebrew manuscripts",
+//	"Qk"	=> "Qere 'spoken' corrections from margin and text pointing, minor variant: Ketiv 'written', Tyndale pointing",
+//	"QK"	=> "Qere 'spoken' corrections from margin and text pointing, influencing variant: Ketiv 'written', Tyndale pointing",
+//	"QKB"	=> "Qere 'spoken' corrections from margin and text pointing, influencing variant: BHS and Ketiv 'written', Tyndale pointing",
 //	"R"		=> "Restored text based on Leningrad parallels",
-//	"S"		=> "Scribal traditions in Itture Sopherim, Tiqqune Sopherim, Masora, etc",
-//	"X"		=> "Extra words based on the Septuagint (LXX), in Hebrew based on apparatus in BHS and BHK",
-
+//	"V"		=> "Other Hebrew manuscripts",
+//	"X"		=> "Extra words from Septuagint (LXX), in Hebrew based on apparatus in BHS and BHK",
+//
+//  New Testament Variation Legend
+//	"M"		=> "Modern Bibles only, not KJV and other Bibles",
+//	"MO"	=> "Modern and other Bibles, not KJV Bible",
+//	"MT"	=> "Modern and KJV Bibles, not other Bibles",
+//	"Mt"	=> "Modern Bibles, variants in KJV Bible, not other Bibles",
+//	"MTO"	=> "Modern, KJV, and other Bibles",
+//	"MTo"	=> "Modern and KJV Bibles, variants in other Bibles",
+//	"Mo"	=> "Modern Bibles, variants in other Bibles, not KJV Bible",
+//	"MtO"	=> "Modern and other Bibles, variants in KJV Bible",
+//	"Mto"	=> "Modern Bibles, variants in KJV and other Bibles",
+//	"O"		=> "Other Bibles only, not modern and KJV Bibles",
+//	"T"		=> "KJV Bible only, not modern and other Bibles",
+//	"TO"	=> "KJV and other Bibles only, not modern Bibles",
+//	"To"	=> "KJV Bible, variants in other Bibles, not modern bibles",
+//
+//
 
 EOF;
 	$bibledata_ama .= $bibledata_key;
@@ -3060,6 +3087,7 @@ EOF;
 	// hebrew loop tags
 	$last_book = "XXX"; $last_vers = 0;
 	$last_wtype = "L";
+	$fullstop = TRUE;
 	$line = strtok($contents, "\n");
 	while ($line !== false) {
 		if (!ctype_digit($line[0])) { $line = strtok( "\n" ); continue; }
@@ -3069,7 +3097,7 @@ EOF;
 		$book = strtoupper($book); if (!ctype_digit($book[0])) { $book[1] = strtolower($book[1]); } $book[2] = strtolower($book[2]);
 		if ($book != $last_book) { AION_ECHO("BUILDING Concordant STEPBible! $book"); $last_book = $book; }
 		if ($vers != $last_vers) {
-			$wtype_close = ($last_wtype=="L" ? "" : " *$last_wtype)");
+			$wtype_close = ($last_wtype=="L" ? "" : " :$last_wtype)");
 			$bibledata_ama .= ("$wtype_close\n$book $chap:$vers ");
 			$bibledata_con .= ("$wtype_close\n$book $chap:$vers ");
 			$last_vers = $vers;
@@ -3077,6 +3105,9 @@ EOF;
 		}
 		// remove <words>
 		if (NULL===($amal = preg_replace("#<[^<>]+>#usi","",$amal))) { AION_ECHO("ERROR! $newmess !preg_replace($amal)"); }
+		// capitalize
+		if ($amal=="[׃]" || $amal=="[פ]") {									$fullstop = TRUE; }
+		else if ($fullstop && preg_match("#^[[:alpha:]]{1}#",$amal[0])) {	$fullstop = FALSE; $amal[0] = mb_strtoupper($amal[0]); }
 		// skip lines
 		if ($strg=="0") { $line = strtok( "\n" ); continue; }
 		$orig = $strg;
@@ -3086,11 +3117,11 @@ EOF;
 			AION_ECHO("ERROR! $newmess dex lex not found, index=".$index[$strg].": $line, $entry");
 		}
 		$defs = explode("\t",$entry);
-		$word = $defs[3];
+		$word = trim($defs[3]);
 		if ($wtype==$last_wtype) {			$wtype_close = "";					$wtype_open = " "; }
-		else if ($wtype=="L") {				$wtype_close = " *$last_wtype)";	$wtype_open = " "; }
-		else  if ($last_wtype!="L") { 		$wtype_close = " *$last_wtype)";	$wtype_open = " (* "; }
-		else {							 	$wtype_close = "";					$wtype_open = " (* "; }
+		else if ($wtype=="L") {				$wtype_close = " :$last_wtype)";	$wtype_open = " "; }
+		else  if ($last_wtype!="L") { 		$wtype_close = " :$last_wtype)";	$wtype_open = " ("; }
+		else {							 	$wtype_close = "";					$wtype_open = " ("; }
 		$last_wtype = $wtype;
 		// build the bible word by word
 		$bibledata_ama .= "$wtype_close$wtype_open$amal";
@@ -3118,7 +3149,7 @@ EOF;
 		$book = strtoupper($book); if (!ctype_digit($book[0])) { $book[1] = strtolower($book[1]); } $book[2] = strtolower($book[2]);
 		if ($book != $last_book) { AION_ECHO("BUILDING Concordant STEPBible! $book"); $last_book = $book; }
 		if ($vers != $last_vers) {
-			$wtype_close = ($last_wtype=="MTO" ? "" : " *$last_wtype)");
+			$wtype_close = ($last_wtype=="MTO" ? "" : " :$last_wtype)");
 			$bibledata_ama .= ("$wtype_close\n$book $chap:$vers ");
 			$bibledata_con .= ("$wtype_close\n$book $chap:$vers ");
 			$last_vers = $vers;
@@ -3133,29 +3164,11 @@ EOF;
 		if (fseek($fd, $index[$strg]) || !($entry=fgets($fd)) ||
 			!preg_match("#^$strg\t#u",$entry)) {					AION_ECHO("ERROR! $newmess dex lex not found, index=".$index[$strg].": $line, $entry"); }
 		$defs = explode("\t",$entry);
-		$word = $defs[3];
-		// NEW TESTAMENT Meaning
-		// M = Modern editions based on  NA27/28
-		// T = Traditional editions based on Scrivener’s 1894 corrected towards KJV;
-		// O = Other. Brackets indicates the word is present in a variant form. 
-		// A letter in brackets - eg (T) or  (O) refers to a variant.	
-		//
-		// "M" => "Modern Bibles only, not KJV and other Bibles",
-		// "MO" => "Modern and other Bibles, not KJV Bible",
-		// "MT" => "Modern and KJV Bibles, not other Bibles",
-		// "MTO" => "Modern, KJV, and other Bibles", // HEBREW DEFAULT
-		// "MTo" => "Modern and KJV Bibles, variants in other Bibles",
-		// "Mo" => "Modern Bibles, variants in other Bibles, not KJV Bible",
-		// "MtO" => "Modern and other Bibles, variants in KJV Bible",
-		// "Mto" => "Modern Bibles, variants in KJV and other Bibles",
-		// "O" => "Other Bibles only, not modern and KJV Bibles",
-		// "T" => "KJV Bible only, not modern and other Bibles",
-		// "TO" => "KJV and other Bibles only, not modern Bibles",
-		// "To" => "KJV Bible, variants in other Bibles, not modern bibles",
+		$word = trim($defs[3]);
 		if ($wtype==$last_wtype) {			$wtype_close = "";					$wtype_open = " "; }
-		else if ($wtype=="MTO") {			$wtype_close = " *$last_wtype)";	$wtype_open = " "; }
-		else  if ($last_wtype!="MTO") { 	$wtype_close = " *$last_wtype)";	$wtype_open = " (* "; }
-		else {							 	$wtype_close = "";					$wtype_open = " (* "; }
+		else if ($wtype=="MTO") {			$wtype_close = " :$last_wtype)";	$wtype_open = " "; }
+		else  if ($last_wtype!="MTO") { 	$wtype_close = " :$last_wtype)";	$wtype_open = " ("; }
+		else {							 	$wtype_close = "";					$wtype_open = " ("; }
 		$last_wtype = $wtype;
 		// build the bible word by word
 		$bibledata_ama .= "$wtype_close$wtype_open$amal";
@@ -3163,7 +3176,7 @@ EOF;
 		$line = strtok( "\n" );
 	}
 	// last wtype
-	$wtype_close = ($last_wtype=="MTO" ? "" : " *$last_wtype)");
+	$wtype_close = ($last_wtype=="MTO" ? "" : " :$last_wtype)");
 	$bibledata_ama .= ("$wtype_close\n");
 	$bibledata_con .= ("$wtype_close\n");	
 	// close
@@ -3172,8 +3185,8 @@ EOF;
 	unset($index); $index=NULL;
 
 	// final cleanup
-	//if (!($bibledata_ama=preg_replace("#obj\.#ui", "obj", $bibledata_ama))) {				AION_ECHO("ERROR! $newmess: preg_replace([obj])"); }
-	//if (!($bibledata_con=preg_replace("#obj\.#ui", "obj", $bibledata_con))) {				AION_ECHO("ERROR! $newmess: preg_replace([obj])"); }	
+	if (!($bibledata_ama=preg_replace("#[ ]+#ui", " ", $bibledata_ama))) {				AION_ECHO("ERROR! $newmess: preg_replace([ ]+)"); }
+	if (!($bibledata_con=preg_replace("#[ ]+#ui", " ", $bibledata_con))) {				AION_ECHO("ERROR! $newmess: preg_replace([ ]+)"); }	
 	
 	// write the Bible
 	if (file_put_contents($bible_ama,$bibledata_ama) === FALSE ) {								AION_ECHO("ERROR! $newmess file_put_contents($bible_ama)" ); }
