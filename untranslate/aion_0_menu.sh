@@ -2,7 +2,6 @@
 <?php
 
 
-
 /*** init ***/
 system('clear');
 require_once('./aion_common.php');

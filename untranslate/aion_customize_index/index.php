@@ -1584,7 +1584,6 @@ static $entry3 = array(
 	"H="	=> "BenChaim=",
 	"K="	=> "Ketiv=",
 	"L="	=> "Leningrad=",
-	"M="	=> "Other Hebrew=",
 	"P="	=> "AltPunctuation=",
 	"S="	=> "Sopherim=",
 	"V="	=> "Other Hebrew=",
