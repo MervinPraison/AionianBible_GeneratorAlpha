@@ -2159,7 +2159,7 @@ No to these???
 				}
 				if ($strongs_gloss=='&') { $strongs_gloss = 'and'; }
 				if (!($strongs_gloss = preg_replace('/([,:;])+/ui', '$1 ', $strongs_gloss)) ||
-					!($strongs_gloss = preg_replace('/obj[.]*/ui', 'obj', $strongs_gloss)) ||
+					!($strongs_gloss = preg_replace('/obj\./ui', 'obj', $strongs_gloss)) ||
 					!($strongs_gloss = preg_replace('/\s+/ui', ' ', $strongs_gloss))) {
 					AION_ECHO("ERROR! gloss preg_replace()!\n".print_r($line,TRUE));
 				}
@@ -2208,7 +2208,7 @@ No to these???
 					AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
 				}
 			}
-			if (!empty($english) && !($english = preg_replace('/obj[.]*/iu', 'obj', $english))) {
+			if (!empty($english) && !($english = preg_replace('/obj\./iu', 'obj', $english))) {
 				AION_ECHO("ERROR! english obj preg_replace()!\n".print_r($line,TRUE));
 			}
 			if ($english=='-') { $english = "־"; } // fix link
@@ -3392,14 +3392,14 @@ EOF;
 	if (!($bibledata_ama=preg_replace("#\[׀\]#ui", " - ", $bibledata_ama))) {			AION_ECHO("ERROR! $newmess: preg_replace([׀])"); }	
 	if (!($bibledata_ama=preg_replace("#<[^>\n\r]+>#ui", " ", $bibledata_ama))) {		AION_ECHO("ERROR! $newmess: preg_replace(<[^>]+>)"); }
 	// concordant
-	if (!($bibledata_con=preg_replace("#obj[.]*#ui", "obj", $bibledata_con))) {			AION_ECHO("ERROR! $newmess: preg_replace(obj[.]*)"); }
+	if (!($bibledata_con=preg_replace("#obj\.#ui", "obj", $bibledata_con))) {			AION_ECHO("ERROR! $newmess: preg_replace(obj[.]*)"); }
 	// both
 	if (!($bibledata_ama=preg_replace("#[ ]+#ui", " ", $bibledata_ama))) {				AION_ECHO("ERROR! $newmess: preg_replace([ ]+)"); }
 	if (!($bibledata_con=preg_replace("#[ ]+#ui", " ", $bibledata_con))) {				AION_ECHO("ERROR! $newmess: preg_replace([ ]+)"); }	
 	
 	// write the Bible
-	if (file_put_contents($bible_ama,$bibledata_ama) === FALSE ) {								AION_ECHO("ERROR! $newmess file_put_contents($bible_ama)" ); }
-	if (file_put_contents($bible_con,$bibledata_con) === FALSE ) {								AION_ECHO("ERROR! $newmess file_put_contents($bible_con)" ); }
+	if (file_put_contents($bible_ama,$bibledata_ama) === FALSE ) {						AION_ECHO("ERROR! $newmess file_put_contents($bible_ama)" ); }
+	if (file_put_contents($bible_con,$bibledata_con) === FALSE ) {						AION_ECHO("ERROR! $newmess file_put_contents($bible_con)" ); }
 	// done
 	AION_ECHO("DONE $newmess");
 	return;
