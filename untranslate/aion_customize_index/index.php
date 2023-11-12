@@ -1597,12 +1597,18 @@ $tagtype =
 	NULL ))));
 // join type
 static $jointype = array(
-	"W"	=> "Next word",
-	"C"	=> "Continue the previous word",
-	"J"	=> "Join with previous word",
-	"D"	=> "Divide from previous word",
-	"L"	=> "Link previous-next word",
-	"P"	=> "Punctuation",
+	"W"		=> "Next word",
+	"W$"	=> "Next word (Hebrew root)",
+	"W+"	=> "Next word (+following shares Strongs)",
+	"C"		=> "Continue previous word",
+	"C$"	=> "Continue previous word (Hebrew root)",
+	"C+"	=> "Continue previous word (+following shares Strongs)",
+	"J"		=> "Joined with previous word",
+	"J$"	=> "Joined with previous word (Hebrew root)",
+	"D"		=> "Divided from previous word",
+	"D$"	=> "Divided from previous word (Hebrew root)",
+	"L"		=> "Link previous-next word",
+	"P"		=> "Punctuation",
 	);
 // bald strongs
 $bald = substr($strongs,1);

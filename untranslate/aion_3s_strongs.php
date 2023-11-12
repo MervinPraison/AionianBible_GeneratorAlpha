@@ -389,12 +389,18 @@ $commentplus = <<<EOT
 #	VERS		Verse number
 #	STRONGS		Strongs entry number
 #	JOIN		Relation to previous word: 
-#				"W"	=> "Next word",
-#				"C"	=> "Continue the previous word",
-#				"J"	=> "Join with previous word",
-#				"D"	=> "Divide from previous word",
-#				"L"	=> "Link previous-next word",
-#				"P"	=> "Punctuation",
+#				"W"		=> "Next word",
+#				"W$"	=> "Next word (Hebrew root)",
+#				"W+"	=> "Next word (+following shares Strongs)",
+#				"C"		=> "Continue previous word",
+#				"C$"	=> "Continue previous word (Hebrew root)",
+#				"C+"	=> "Continue previous word (+following shares Strongs)",
+#				"J"		=> "Joined with previous word",
+#				"J$"	=> "Joined with previous word (Hebrew root)",
+#				"D"		=> "Divided from previous word",
+#				"D$"	=> "Divided from previous word (Hebrew root)",
+#				"L"		=> "Link previous-next word",
+#				"P"		=> "Punctuation",
 #	TYPE		Source description
 #				"A"		=> "Aleppo",
 #				"AH"	=> "Aleppo and Ben Chaim",
@@ -867,7 +873,8 @@ Eng (Heb) Ref & Type	Hebrew	Transliteration	Translation	dStrongs	Grammar	Meaning
 		$match[6] = trim(preg_replace("#\s+#u"," ",$match[6]));
 		$match[7] = trim(preg_replace("#\s+#u"," ",$match[7]));
 		$match[8] = trim(preg_replace("#\s+#u"," ",$match[8]));
-		$match[16] = preg_replace("#[{}]+#u","",$match[16]);
+		$match[16] = preg_replace("#[{]+#u","",$match[16]);
+		$match[16] = preg_replace("#[}]+#u","$",$match[16]);
 		$match[16] = preg_replace("#([^\d]{1})[\d]{0,3}_#u",'$1 ',$match[16]); // scratch out the underlines
 		$match[16] = trim(preg_replace("#\s+#u"," ",$match[16]));
 		$match[10] = preg_replace("#\s+#u","",$match[10]);
@@ -1843,7 +1850,7 @@ No to these???
 			"X"		=> "Extra words from Septuagint (LXX), in Hebrew based on apparatus in BHS and BHK",
 		);
 	}
-	
+	static $punctuation = NULL; if ($punctuation === NULL) { $punctuation = array('׀'=>'separate', '־'=>'link', '׆'=>'section', '׃'=>'verseEnd', 'ס'=>'section', 'פ'=>'para'); }	
 	
 	// LOOP LINES
 	foreach( $input as $line ) {
@@ -1921,11 +1928,18 @@ No to these???
 
 		// PARSE STRONGS AND MORPHS
 		//"W"	=> "Next word",
-		//"C"	=> "Continue the previous word",
-		//"J"	=> "Join with previous word",
-		//"D"	=> "Divide from previous word",
+		//"W$"	=> "Next word (Hebrew root)",
+		//"W+"	=> "Next word (+following shares Strongs)",
+		//"C"	=> "Continue previous word",
+		//"C$"	=> "Continue previous word (Hebrew root)",
+		//"C+"	=> "Continue previous word (+following shares Strongs)",
+		//"J"	=> "Joined with previous word",
+		//"J$"	=> "Joined with previous word (Hebrew root)",
+		//"D"	=> "Divided from previous word",
+		//"D$"	=> "Divided from previous word (Hebrew root)",
 		//"L"	=> "Link previous-next word",
 		//"P"	=> "Punctuation",
+
 		$wpart = mb_split("[/\\\\]{1}", $WORDUP);
 		$spart = mb_split("[/\\\\]{1}", $line['STRONGS']);
 		$jointype = preg_split("#([/\\\\]{1})#uis", $line['STRONGS'], -1, PREG_SPLIT_DELIM_CAPTURE);
@@ -2025,12 +2039,12 @@ No to these???
 				$translit = $match[1];
 				$english = $match[3];
 				if ($english=='&') { $english = 'and'; }
-				if (!($english = preg_replace('/([:;])+/ui', '$1 ', $english)) ||
-					!($english = preg_replace('/obj\./ui', 'obj', $english)) ||
+				if (!($english = preg_replace('/([,:;])+/ui', '$1 ', $english)) ||
+					!($english = preg_replace('/<obj\.>/ui', 'obj', $english)) ||
 					!($english = preg_replace('/\s+/ui', ' ', $english))) {
 					AION_ECHO("ERROR! qere gloss preg_replace()!\n".print_r($line,TRUE));
 				}
-				$english = trim($english,' :;');
+				$english = '<'.trim($english,' :;').'>';
 				$under = $match[2];
 				$morph = ($match[6]=='HR/Ncbsc' ? 'HNcbsc' : $match[6]); // only one of this case
 				if (empty($morph) || (!empty($morph) && empty($morph_array[$morph]))) {
@@ -2094,10 +2108,15 @@ No to these???
 					AION_ECHO("ERROR! Strongs empty Hebrew part $newmess\n".print_r($line,TRUE));
 				}
 				$strongs_array[2] = trim($strongs_array[2],":; ");
+				// remove trailing '$+' and add to join type
+				if (preg_match('#^(.+)([$+]+)$#ui', $strongs_array[2], $engmatch)) {
+					$strongs_array[2] = $engmatch[1];
+					$jointype[$key] .= $engmatch[2];
+				}
 				if (empty($strongs_array[2])) {
 					AION_ECHO("ERROR! Strongs empty English part $newmess\n".print_r($line,TRUE));
 				}
-				else if (preg_match("#^([^»]+)»(.+)$#ui", $strongs_array[2], $match) && ($strongs_gloss=trim($match[1],":; "))) {
+				else if (preg_match("#^([^»]+)»(.+)$#ui", $strongs_array[2], $match) && ($strongs_gloss=trim($match[1],",:; "))) {
 					if (($strongs_additional = trim($match[2],":; "))) {
 						//»between:1_between
 						//»to call:2_call_by;name
@@ -2120,10 +2139,9 @@ No to these???
 					}
 				}
 				else {
-					$strongs_gloss = trim($strongs_array[2],":; ");
+					$strongs_gloss = trim($strongs_array[2],",:; ");
 				}
 				// punctuation
-				static $punctuation = NULL; if ($punctuation === NULL) { $punctuation = array('׀'=>'separate', '־'=>'link', '׆'=>'section', '׃'=>'verseEnd', 'ס'=>'section', 'פ'=>'para'); }
 				if (!empty($punctuation[$strongs_hebrew])) {
 					static $maxymax = 0;
 					if ($maxymax < 100 && 'P'!=$jointype[$key]) {
@@ -2140,12 +2158,12 @@ No to these???
 					if ('P'==$jointype[$key]) { AION_ECHO("WARN! Hey punctuation is marked! $newmess\n".print_r($line,TRUE)); }
 				}
 				if ($strongs_gloss=='&') { $strongs_gloss = 'and'; }
-				if (!($strongs_gloss = preg_replace('/([:;])+/ui', '$1 ', $strongs_gloss)) ||
-					!($strongs_gloss = preg_replace('/obj\./ui', 'obj', $strongs_gloss)) ||
+				if (!($strongs_gloss = preg_replace('/([,:;])+/ui', '$1 ', $strongs_gloss)) ||
+					!($strongs_gloss = preg_replace('/obj[.]*/ui', 'obj', $strongs_gloss)) ||
 					!($strongs_gloss = preg_replace('/\s+/ui', ' ', $strongs_gloss))) {
 					AION_ECHO("ERROR! gloss preg_replace()!\n".print_r($line,TRUE));
 				}
-				$strongs_gloss = trim($strongs_gloss,' :;');
+				$strongs_gloss = trim($strongs_gloss,' ,:;');
 			}
 
 			// error check strongs format and return array!
@@ -2174,6 +2192,8 @@ No to these???
 				}
 				AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
 			}
+			if ($trans=='-') { $trans = "־"; } // fix link
+			if (!empty($punctuation[$trans])) { $trans = "[$trans]"; } // bracket punctuation
 
 			// ENGLISH
 			if (!($english = (empty($epart[$key]) ? NULL : $epart[$key]))) {
@@ -2191,6 +2211,8 @@ No to these???
 			if (!empty($english) && !($english = preg_replace('/obj[.]*/iu', 'obj', $english))) {
 				AION_ECHO("ERROR! english obj preg_replace()!\n".print_r($line,TRUE));
 			}
+			if ($english=='-') { $english = "־"; } // fix link
+			if (!empty($punctuation[$english])) { $english = "[$english]"; } // bracket punctuation
 
 			// instance counter
 			if (!($snum = preg_replace('#^(H\d+)[A-Za-z]*$#','$1', $strongs))) { AION_ECHO("ERROR! sequence strong preg_replace()!\n".print_r($line,TRUE)); }
@@ -2239,6 +2261,11 @@ No to these???
 			// Alternate, strip the _[A-Za-z]{1}
 			if (NULL===($alternate = preg_replace("#_[A-Za-z]{1}#ui", "", $line['ALT']))) {
 				AION_ECHO("ERROR! alternate preg_replace()!\n".print_r($line,TRUE));
+			}
+			
+			// check jointype!
+			if (!in_array($jointype[$key], array("W","W$","W+","C","C$","C+","J","J$","D","D$","L","P"))) {
+				AION_ECHO("ERROR! bad join type! {$jointype[$key]}\n".print_r($line,TRUE));
 			}
 			
 			// construct the output
@@ -3350,6 +3377,23 @@ EOF;
 	unset($index); $index=NULL;
 
 	// final cleanup
+	// almalgamant
+	// '׀'=>'separate', '־'=>'link', '׆'=>'section', '׃'=>'verseEnd', 'ס'=>'section', 'פ'=>'para'
+	if (!($bibledata_ama=preg_replace("#\[־\]#ui", " ", $bibledata_ama))) {				AION_ECHO("ERROR! $newmess: preg_replace([־])"); }	
+	if (!($bibledata_ama=preg_replace("#\[\-\]#ui", " ", $bibledata_ama))) {			AION_ECHO("ERROR! $newmess: preg_replace([-])"); }	
+	if (!($bibledata_ama=preg_replace("#\[׆\]#ui", " ", $bibledata_ama))) {				AION_ECHO("ERROR! $newmess: preg_replace([׆])"); }	
+	if (!($bibledata_ama=preg_replace("#\[ס\]#ui", " ", $bibledata_ama))) {				AION_ECHO("ERROR! $newmess: preg_replace([ס])"); }	
+	if (!($bibledata_ama=preg_replace("#\[פ\]#ui", " ", $bibledata_ama))) {				AION_ECHO("ERROR! $newmess: preg_replace([פ])"); }	
+	if (!($bibledata_ama=preg_replace("#[ ]*\[׃\][ ]*#ui", ". ", $bibledata_ama))) {	AION_ECHO("ERROR! $newmess: preg_replace([׃])"); }	
+	if (!($bibledata_ama=preg_replace("#[\-־]+[ ]*[\-־]+#ui", "-", $bibledata_ama))) {	AION_ECHO("ERROR! $newmess: preg_replace([\s-־])"); }	
+	if (!($bibledata_ama=preg_replace("#[ ]*[\-־]+[ ]*#ui", "-", $bibledata_ama))) {	AION_ECHO("ERROR! $newmess: preg_replace([\s-־])"); }	
+	if (!($bibledata_ama=preg_replace("#[\-־]+[ ]*[\-־]+#ui", "-", $bibledata_ama))) {	AION_ECHO("ERROR! $newmess: preg_replace([\s-־])"); }	
+	if (!($bibledata_ama=preg_replace("#[ ]*[\-־]+[ ]*#ui", "-", $bibledata_ama))) {	AION_ECHO("ERROR! $newmess: preg_replace([\s-־])"); }
+	if (!($bibledata_ama=preg_replace("#\[׀\]#ui", " - ", $bibledata_ama))) {			AION_ECHO("ERROR! $newmess: preg_replace([׀])"); }	
+	if (!($bibledata_ama=preg_replace("#<[^>\n\r]+>#ui", " ", $bibledata_ama))) {		AION_ECHO("ERROR! $newmess: preg_replace(<[^>]+>)"); }
+	// concordant
+	if (!($bibledata_con=preg_replace("#obj[.]*#ui", "obj", $bibledata_con))) {			AION_ECHO("ERROR! $newmess: preg_replace(obj[.]*)"); }
+	// both
 	if (!($bibledata_ama=preg_replace("#[ ]+#ui", " ", $bibledata_ama))) {				AION_ECHO("ERROR! $newmess: preg_replace([ ]+)"); }
 	if (!($bibledata_con=preg_replace("#[ ]+#ui", " ", $bibledata_con))) {				AION_ECHO("ERROR! $newmess: preg_replace([ ]+)"); }	
 	
