@@ -2061,17 +2061,17 @@ No to these???
 					//Lam.1.6#02=Q(K)		[ ]	[ ]			K= min- (מִן\־) "from" (H4480A\H9014=HR)	L= מִן\־ ¦ ;	
 					if ($strongs=="H4480A" && $strongs2=="H9014") {
 					$database[$table] .= "{$dataref}	{$strongs}	{$jointype[$key]}	{$line['TYPE']}	מִן\־	min-	מֵֽן	from	from	HR		L= מֵֽן\־			Scribes omitted word recorded as a variant	\n";
-					$database[$table] .= "{$dataref}	{$strongs2}	{$jointype[$key]}	{$line['TYPE']}	מִן\־		[־]	[־]	[link]						Scribes omitted word recorded as a variant	\n";
+					$database[$table] .= "{$dataref}	{$strongs2}	L	{$line['TYPE']}	מִן\־		[־]	[־]	[link]						Scribes omitted word recorded as a variant	\n";
 					}
 					//2Sa.13.33#15=Q(K)		[ ]	[ ]			K= 'im- (אִם\־) "except" (H0518B\H9014=HTc)	L= אִם\־ ¦ ;									
 					else if ($strongs=="H518B" && $strongs2=="H9014") {
 					$database[$table] .= "{$dataref}	{$strongs}	{$jointype[$key]}	{$line['TYPE']}	אִם\־	im-	אִם	except	except	HTc		L= אִם\־			Scribes omitted word recorded as a variant	\n";
-					$database[$table] .= "{$dataref}	{$strongs2}	{$jointype[$key]}	{$line['TYPE']}	אִם\־		[־]	[־]	[link]						Scribes omitted word recorded as a variant	\n";
+					$database[$table] .= "{$dataref}	{$strongs2}	L	{$line['TYPE']}	אִם\־		[־]	[־]	[link]						Scribes omitted word recorded as a variant	\n";
 					}
 					//2Ch.34.6#07=Q(K)		[ ]	[ ]			K= be./har (בְּ/הַר) "in/ [the] hill country of" (H9003/H2022G=HR/Ncbsc)	L= בְּ/הַרְ ¦ ;	
 					else if ($strongs=="H9003" && $strongs2=="H2022G") {
 					$database[$table] .= "{$dataref}	{$strongs}	{$jointype[$key]}	{$line['TYPE']}	בְּ/הַר	be.	ב	in	in	HR					Scribes omitted word recorded as a variant	\n";
-					$database[$table] .= "{$dataref}	{$strongs2}	{$jointype[$key]}	{$line['TYPE']}	בְּ/הַר	har	הַר	[the] hill country of	[the] hill country of	Ncbsc					Scribes omitted word recorded as a variant	\n";
+					$database[$table] .= "{$dataref}	{$strongs2}	C	{$line['TYPE']}	בְּ/הַר	har	הַר	[the] hill country of	[the] hill country of	Ncbsc					Scribes omitted word recorded as a variant	\n";
 					}
 					// BOMB
 					else { AION_ECHO("ERROR! $newmess QereKetiv should not be here!\n".print_r($line,TRUE)); }
@@ -2117,7 +2117,12 @@ No to these???
 					AION_ECHO("ERROR! Strongs empty English part $newmess\n".print_r($line,TRUE));
 				}
 				else if (preg_match("#^([^»]+)»(.+)$#ui", $strongs_array[2], $match) && ($strongs_gloss=trim($match[1],",:; "))) {
-					if (($strongs_additional = trim($match[2],":; "))) {
+					$strongs_additional = $match[2];
+					$strongs_additional = preg_replace("#\d+_#u", "", $strongs_additional);
+					$strongs_additional = preg_replace("#@#u", " @ ", $strongs_additional);
+					$strongs_additional = preg_replace("#[_ ]+#u", " ", $strongs_additional);
+					$strongs_additional = trim($strongs_additional," @:;,-+$");
+					if ($strongs_additional) {
 						//»between:1_between
 						//»to call:2_call_by;name
 						//»LORD@Gen.1.1-Heb
@@ -2125,11 +2130,10 @@ No to these???
 						//: true»truth:2_true
 						// parse pieces, clean, and remove duplication
 						if (($pieces = mb_split("[:;]+", $strongs_additional))) {
-							foreach($pieces as $k => $piece) { $pieces[$k] = trim($piece,":; "); }
+							foreach($pieces as $k => $piece) { $pieces[$k] = trim($piece," @:;,-+$"); }
 							$pieces = array_flip(array_flip($pieces)); // values to keys, keys to values to remove duplicates.
-							foreach($pieces as $k => $piece) { // wipe additional if the same!
-								if ((!empty($epart[$key]) && mb_strtolower($piece) == mb_strtolower($epart[$key])) ||
-									mb_strtolower($piece) == mb_strtolower($strongs_gloss)) {
+							foreach($pieces as $k => $piece) { // wipe additional if the same as english or gloss!
+								if ((!empty($epart[$key]) && mb_strtolower($piece) == mb_strtolower($epart[$key])) || mb_strtolower($piece) == mb_strtolower($strongs_gloss)) {
 									unset($pieces[$k]);
 								}
 							}
@@ -2417,7 +2421,8 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 		$englishbefore = $line['ENGLISH'];
 		if (!empty($line['ENGLISH']) &&
 			(!($line['ENGLISH']=preg_replace("#\s*\[pl\.\]\s*#uis", " ", $line['ENGLISH'])) ||
-			!($line['ENGLISH']=preg_replace("#\s*[({[]+[\d.:]+[)}\]]+\s*#uis", " ", $line['ENGLISH'])))) { AION_ECHO("ERROR! Failed to clean junk out of ENGLISH\n".print_r($line,TRUE)); }
+			!($line['ENGLISH']=preg_replace("#\s*[({[]+[\d.:]+[)}\]]+\s*#uis", " ", $line['ENGLISH'])) ||
+			!($line['ENGLISH']=preg_replace("#\s*[({[]+\d+[\d.:a-zA-Z]*[)}\]]+\s*#uis", " ", $line['ENGLISH'])))) { AION_ECHO("ERROR! Failed to clean junk out of ENGLISH\n".print_r($line,TRUE)); }
 		if ($englishbefore != $line['ENGLISH']) {
 			if (!($line['ENGLISH']=trim(preg_replace("#\s+#uis", " ", $line['ENGLISH'])))) { AION_ECHO("ERROR! Failed to reduce spaces in ENGLISH\n".print_r($line,TRUE)); }
 			AION_ECHO($warn="WARN! $newmess remove junk in ENGLISH={$englishbefore}\n".print_r($line,TRUE)."\n\n\n");
@@ -2574,7 +2579,7 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 				$database['MISS_MORPHS'] .= ($warn="$newmess\tmissing morph=$morph key=$key mpart[key]=".$mpart[$key]."\n");
 				AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
 			}
-			// Editions
+			// Editions test
 			$editions  = $line['EDITIONS'];
 			$editions .= (empty($line['VAR1'])  ? "" : ("+".preg_replace("#^.+ in (.+)$#us", '$1', $line['VAR1'])));
 			$editions .= (empty($line['VAR2'])  ? "" : ("+".preg_replace("#^.+ in (.+)$#us", '$1', $line['VAR2'])));
@@ -2589,6 +2594,36 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 				$database['MISS_MANU'] .= ($warn="$newmess\tmissing manuscript edition: ".implode(",",$editions_diff)." from editions=$editions\n");
 				AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");	
 			}
+			// Editions Fix
+			$line['EDITIONS'] = preg_replace("#\s+#u", "+", $line['EDITIONS']);
+			$line['EDITIONS'] = preg_replace("#[«»]+[\d.]+:#u", "+", $line['EDITIONS']);
+			$line['EDITIONS'] = preg_replace("#0([\d]+)#u", 'U$1', $line['EDITIONS']); // replace 0 with U for unicals
+			$line['EDITIONS'] = trim(preg_replace("#[+]+#u", "+", $line['EDITIONS']),"+");			
+
+			// Extra fix
+			// Abraham»Abraham|Abraham@Gen.11.26
+			$line['EXTRA'] = preg_replace("#\d+_#u", "", $line['EXTRA']);
+			$line['EXTRA'] = preg_replace("#[_ ]+#u", " ", $line['EXTRA']);
+			$line['EXTRA'] = trim($line['EXTRA']," @:;,-+$");
+			if (preg_match("#^([^»|@]+)[»|]+([^»|@]+)[»|]+([^»|@]+)(@.+)$#us", $line['EXTRA'], $extramatch)) {
+				if      ($extramatch[1] == $extramatch[2] && $extramatch[1] == $extramatch[3]) {	$line['EXTRA'] = $extramatch[3].$extramatch[4]; }
+				else if ($extramatch[1] == $extramatch[2]) {										$line['EXTRA'] = $extramatch[1].", ".$extramatch[3].$extramatch[4]; }
+				else if ($extramatch[1] == $extramatch[3]) {										$line['EXTRA'] = $extramatch[2].", ".$extramatch[3].$extramatch[4]; }
+			}
+			else if (preg_match("#^([^»|@]+)[»|]+([^»|@]+)(@.+)$#us", $line['EXTRA'], $extramatch)) {
+				if      ($extramatch[1] == $extramatch[2]) {										$line['EXTRA'] = $extramatch[2].$extramatch[3]; }
+			}
+			else if (preg_match("#^([^»|@]+)[»|]+([^»|@]+)[»|]+([^»|@]+)$#us", $line['EXTRA'], $extramatch)) {
+				if      ($extramatch[1] == $extramatch[2] && $extramatch[1] == $extramatch[3]) {	$line['EXTRA'] = $extramatch[3]; }
+				else if ($extramatch[1] == $extramatch[2]) {										$line['EXTRA'] = $extramatch[1].", ".$extramatch[3]; }
+				else if ($extramatch[1] == $extramatch[3]) {										$line['EXTRA'] = $extramatch[2].", ".$extramatch[3]; }
+			}
+			else if (preg_match("#^([^»|@]+)[»|]+([^»|@]+)$#us", $line['EXTRA'], $extramatch)) {
+				if      ($extramatch[1] == $extramatch[2]) {										$line['EXTRA'] = $extramatch[2]; }
+			}
+			$line['EXTRA'] = preg_replace("#[»|]+#u", ", ", $line['EXTRA']);
+			$line['EXTRA'] = preg_replace("#@#u", " @ ", $line['EXTRA']);
+			$line['EXTRA'] = trim($line['EXTRA']," @:;,-+$");
 
 			// check variant strongs numbers!
 			if (!empty($line['VAR1'])) { AION_NEWSTRONGS_STRONGS_PARSE($newmess, $line['VAR1'], TRUE, $lex_array, $lex2_array); }
@@ -2613,7 +2648,7 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 				$line['VAR1']."\t".
 				$line['VAR2']."\t".
 				$line['SPELL']."\t".
-				trim($line['EXTRA'])."\t".
+				$line['EXTRA']."\t".
 				//trim($line['CONJOIN'])."\t".
 				//trim($line['INSTANCE'])."\t".
 				//"$occur\t".
