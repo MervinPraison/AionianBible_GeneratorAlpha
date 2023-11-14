@@ -1780,40 +1780,6 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 		$database[$table] = "INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH	GLOSS	MORPH	EDITIONS	VAR1	VAR2	SPELL	EXTRA	ALT\n";
 	}
 	$strongs_counts = array();
-/*
-Abbreviations for sources of each word: 
-==============================
-L= Leningrad manuscript 
-R= restored text based on Leningrad parallels - ie Jos.21.36-37 from 1Ch.6.63-64 and Neh.7.67b from Ezr.2.66 
-X= extra words based on LXX, in Hebrew based on apparatus in BHS &  BHK - eg 1Sa.13.1 Saul was שְׁלֹשִׁים שָׁנָ֖ה ('a thirty year-old') not שָׁנָ֖ה ('a year-old')  
-Q= Qere ('spoken') corrections by scribes. This is made up of the letters in the margin and the pointing in the text. 
-    K= it's Ketiv  ('written') is noted as a variant. This is made up of the letters in the text, pointed by Tyndale scholars. 
-    L - the letters of K with pointing of Q, as found in Leningrad is recorded as a spelling variant. 
- - eg Gen.27.3 L= צָיִדה, K= צֵידָה ('food'), Q= צָיִד ('wild game') 
-
-Abbreviations for other variants 
-====================
-- in brackets after the source. If the variant doesn't change the meaning, it is noted in lower case, 
-eg L(a) means this is the form found in Leningrad, where Aleppo is different but still has the same meaning. 
-A= Aleppo manuscript - eg Isa.27.2 חֶ֖מֶר ('wine') for חֶ֖מֶד ('delight') 
-B= BHS or Biblia Hebraica Stuttgartensia edition - eg Num.7.59 פְּדָה־צֽוּר (Pedah-zur') for פְּדָהצֽוּר ('Pedahzur') 
-C= Cairensis manuscript - eg 2Sa.11.1 הַמְּלָכִ֗ים ('kings') for הַמַּלְאֿכִ֗ים ('messengers') 
-D= Dead Sea and other Judean Desert manuscripts - eg Psa.22.16(17) כָּ֝אֲרוּ ('they dug') for כָּ֝אֲרִ֗י ('like a lion') 
-E= emendation based on ancient sources  - eg Gen.37.36 וְהַמִדְיָנִים (and the Midianites) for וְהַמְּדָנִים ('and the Medanites) 
-F= formatting pointing or word divisions differently, without changing any letters - eg 1Ch.24.26,27 בְנוֹ ('his son') for בְנוֹ ('Beno') 
-H= Ben Chaim edtion (2nd Rabbinic Bible) - eg Gen.25.15 חֲדַ֣ר ('Hadar') for חֲדַ֣ד ('Hadad') 
-P= alternate punctuation - eg in Gen.35.22  "Israel heard of it; and Jacob had 12 son" for "the concubine of his father; and Israel heard of it. And Jacob had 12 sons. 
-S= scribal traditions in Itture Sopherim, Tiqqune Sopherim, Masora etc 
-V = variants from other Hebrew manuscripts - eg Zep.3.15 תִרְאִי ('you will see') for תִירְאִי ('you will fear') 
-(Most of these variants are yet to be added. )   
-
-No to these???
-"L(M)"  => "Leningrad: Ketiv letters with Qere pointing from the manuscript (influencing variant: Masoretic)",
-"M"        => "Masoretic and related manuscripts",
-"P"         => "Alternate punctuation",
-"Q"         => "Qere: the word as 'spoken' as noted in the margin with pointing from the text", [This never occurs without K]
-"S"          => "Scribal traditions in Itture Sopherim, Tiqqune Sopherim, Masora, etc",
-*/
 	static $tagtypes = NULL;
 	if ($tagtypes==NULL) {
 		$tagtypes = array(
@@ -1861,7 +1827,7 @@ No to these???
 		$line['REF'] = $line['BOOK'].'.'.$line['CHAP'].'.'.$line['VERS'];
 		$newmess = "FIX_REF\tHebrew\tref='{$reference}'\tword='$WORDUP'\tmorph='{$line['MORPH']}'\tstrongs='{$line['STRONGS']}'";
 
-		// Entry tag type
+		// CHECK TYPE
 		if (empty($tagtypes[$line['TYPE']])) {
 			$database['MISS_MANU'] .= ($warn="$newmess\tmissing tag type: {$line['TYPE']}\n");
 			AION_ECHO("WARN!\t$newmess\t$warn\n".print_r($line,TRUE)."\n\n\n");
@@ -1877,7 +1843,7 @@ No to these???
 		$numb = (int)$line['NUMB'];
 		$dataref = "{$indx}\t{$book}\t{$chap}\t{$vers}";
 		
-		// OCCURRENCE # of STRONGS? ERROR CHECK
+		// OCCURRENCE # of STRONGS? ERROR CHECKER - HERE AND BELOW
 		if ($vers != $last_vers) {
 			foreach($strongs_counts as $key => $check) {
 				if (1==$check) { AION_ECHO($warn="WARN! FIX_REF\tref='{$last['REF']}' Strongs sequence error, one found, multi indicated! $key\n".print_r($last,TRUE)."\n".print_r($strongs_counts,TRUE)."\n\n\n"); }
@@ -1902,7 +1868,7 @@ No to these???
 		$last_vers = $vers;
 		$last_numb = $numb;
 
-		// Check for Junk!
+		// REMOVE JUNK!
 		$englishbefore = $line['ENGLISH'];
 		if (!empty($line['ENGLISH']) &&
 			!($line['ENGLISH']=preg_replace("#\s*[([{]+[\d.:]+[)}\]]+\s*#uis", " ", $line['ENGLISH']))) { AION_ECHO("ERROR! Failed to clean junk out of ENGLISH\n".print_r($line,TRUE)); }
@@ -1912,7 +1878,7 @@ No to these???
 			$database['WARNINGS'] .= $warn;	
 		}
 		
-		// Remove more Junk
+		// REMOVE MORE JUNK!
 		//: PERSON»face:6_(PERSON_eg_'his_face' ie 'him')[face]
 		//: to[ears_of](PERSON)»ear:3_to[ears_of](PERSON)
 		$strongsbefore = $line['STRONGS'];
@@ -1926,7 +1892,7 @@ No to these???
 			$database['WARNINGS'] .= $warn;	
 		}
 
-		// PARSE STRONGS AND MORPHS
+		// PARSE HEBREW and STRONGS
 		//"W"	=> "Next word",
 		//"W$"	=> "Next word (Hebrew root)",
 		//"W+"	=> "Next word (+following shares Strongs)",
@@ -1939,7 +1905,8 @@ No to these???
 		//"D$"	=> "Divided from previous word (Hebrew root)",
 		//"L"	=> "Link previous-next word",
 		//"P"	=> "Punctuation",
-
+		//
+		// Delimiter is "/" unless punctuation then "\"
 		$wpart = mb_split("[/\\\\]{1}", $WORDUP);
 		$spart = mb_split("[/\\\\]{1}", $line['STRONGS']);
 		$jointype = preg_split("#([/\\\\]{1})#uis", $line['STRONGS'], -1, PREG_SPLIT_DELIM_CAPTURE);
@@ -1948,26 +1915,26 @@ No to these???
 			else if ('\\'==$thisone) {	$jointype[$jkey] = 'P'; }
 			else {						unset($jointype[$jkey]); }
 		}
-		array_unshift($jointype, 'W');
+		array_unshift($jointype, 'W'); // Specify jointype for first component which has no delimiter
 		if (count($spart) != count($jointype)) {
 			AION_ECHO("ERROR!\tStrongs count != Delimiter count\n".print_r($line,TRUE)."\n\n\n".print_r($spart,TRUE)."\n\n\n".print_r($jointype,TRUE)."\n\n\n");
 		}
-		if (count($wpart) != count($spart)) {
+		if (count($wpart) != count($spart)) { // must be equal
 			$database['CORRUPT_STRONGS'] .= ($warn="$newmess\tHebrew '/' Strongs and Word dividers not equal!\n");
 			AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
 		}
+		// PARSE TRANS, ENGLISH, and MORPHHOLOGY
 		$tpart = array_map('trim', mb_split("[/\\\\]{1}", $line['TRANS']));
 		$epart = array_map('trim', mb_split("[/\\\\]{1}", $line['ENGLISH']));
 		$mpart = array_map('trim', mb_split("[/\\\\]{1}", $line['MORPH']));
-		// component part count compare
-		if (count($tpart) != count($epart) || count($epart) != count($mpart)) {
+		if (count($tpart) != count($epart) || count($epart) != count($mpart)) { // must be equal
 			$database['CORRUPT_STRONGS'] .= ($warn="$newmess\tHebrew '/' Transliteration, English, and Morpphology dividers not equal!\n");
 			AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
 		}
-		if (($sparty=count($spart)) < ($tparty=count($tpart))) {
+		if (($sparty=count($spart)) < ($tparty=count($tpart))) { // strongs parts must be >= transliterations
 			AION_ECHO("ERROR!\tsparty < tparty\n".print_r($line,TRUE)."\n\n\n");
 		}
-		else if ($sparty > $tparty) {
+		else if ($sparty > $tparty) { // if strongs > transliterations, then must be punctuations!
 			for ($xparty=$tparty; $xparty<$sparty; ++$xparty) {
 				if ($jointype[$xparty] != 'P') {
 					$database['CORRUPT_STRONGS'] .= ($warn="$newmess\tHebrew '/' delimiters not equal and not punctuation, $tparty != $sparty, $xparty\n");
@@ -1982,18 +1949,20 @@ No to these???
 		// Hebrew shares 1st letter of 1st morphhology with subsequent morphhologies
 		foreach($mpart as $key => $morph) { if ($key && !empty($morph)) { $mpart[$key] = $mpart[0][0].$mpart[$key]; } }
 
-		// LOOP THRU HEBREW PARTS BY STRONG NUMBER
+		// LOOP THRU HEBREW STRONG COMPONENTS
+		// STEPBIBLE TAG format compresses multiple components into one line, but we unpack that into multiple lines
 		foreach($spart as $key => $part) {
-			// INIT
+			// INITIALIZE
 			$newmess = "FIX_REF\tHebrew\tref='{$reference}'\tword='$WORDUP'\tenglish='{$line['ENGLISH']}'\tmorph='{$line['MORPH']}'\tstrongs='{$line['STRONGS']}'";
-			// AND FURTHER STRONGS PARSE INTO THREE: X=X=X»X
+			// PARSE EACH COMPONENT INTO THREE PIECES: X=X=X»X
 			$strongs_array = mb_split("=", $part);
-			// reglue the 3rd component if 4 or more equals
+			// reglue the 3rd component if 4 or more components and warn if so
 			for($x=3; isset($strongs_array[$x]); $x++) {
 				$strongs_array[2] .= ("=".$strongs_array[$x]);
 				$database['CORRUPT_STRONGS'] .= ($warn="$newmess\tStrongs malformed with >3=\n");
 				AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
 			}
+			// INITIALIZE MORE
 			if (!isset($strongs_array[0])) { AION_ECHO("ERROR! $newmess Strongs !isset()\n".print_r($line,TRUE)); }
 			$strongs = $strongs_array[0];
 			$strongs_gloss = NULL;
@@ -2008,6 +1977,7 @@ No to these???
 			// 5. Within one line multiple Strongs numbers joined with a '/ /' or  '/_/' are a word now divided into separate words, D 
 			// W=next word, Ketiv=written word, Qere=read word, P=word parts, R=Root or related, J=joined words, D=divided word
 
+			// PARSE SPECIAL CASES - QK FIRST!
 			//Jdg.16.25#02=Q(K)		[ ]	[ ]			K= ki (כִּי) "for" (H3588A=HR)	L= כְּי ¦ ;									
 			//Jdg.16.25#02=Q(K)		[ ]	[ ]			K= ki (כִּי) "for" (H3588A=HR)	L= כְּי ¦ ;									
 			//Rut.3.12#05=Q(K)		[ ]	[ ]			K= 'im (אִם) "if" (H0518B=HTc)	L= אם ¦ ;									
@@ -2023,7 +1993,6 @@ No to these???
 			//Lam.1.6#02=Q(K)		[ ]	[ ]			K= min- (מִן\־) "from" (H4480A\H9014=HR)	L= מִן\־ ¦ ;									
 			//Lam.4.3#10=Q(K)		[ ]	[ ]			K= ki (כִּי) "for" (H3588A=HTc)	L= כַּיְ ¦ ;									
 			//Ezk.48.16#12=Q(K)		[ ]	[ ]			K= cha.mesh (חֲמֵשׁ) "five" (H2568=HAcbsc)	L= חמש ¦ ;			
-
 			if ($strongs=="" && 'QK'==$line['TYPE'] && empty($WORDUP)) {
 				if (!empty($line['TRANS']) ||
 					!empty($line['MORPH']) ||
@@ -2031,6 +2000,7 @@ No to these???
 					!preg_match("#^K=\s+([^\s]+)\s+\(([^)]+)\)\s+\"([^\"]+)\"\s+\((H\d+[[:alpha:]]*)[\/\\\\]*([^=]*)=([^)]+)\)$#ui",$line['VAR1'], $match)) {
 					AION_ECHO("ERROR! $newmess strongs='' only for a few qere!\n".print_r($line,TRUE));
 				}
+				// Parse and rebuild into a line in my own format
 				AION_ECHO("WARN! $newmess QERE Special!\n".print_r($line,TRUE));
 				$strongs = AION_NEWSTRONGS_STRONGS_PARSE($newmess, $match[4], FALSE, $lex_array, $lex2_array); // just check it
 				if (count($strongs)>1) { AION_ECHO("ERROR! $newmess strongs='' for Qere too many strongs!\n".print_r($line,TRUE)); }
@@ -2052,7 +2022,7 @@ No to these???
 					AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
 				}
 				// INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH	GLOSS	MORPH	EDITIONS	VAR1	VAR2	SPELL	EXTRA	CONJOIN	INSTANCE	OCCUR	ALT
-				// DOUBLE QERE
+				// THESE CASES RESULT IN A DOUBLE LINE
 				if (!empty($match[5])) {
 					$strongs2 = AION_NEWSTRONGS_STRONGS_PARSE($newmess, $match[5], FALSE, $lex_array, $lex2_array); // just check it
 					if (count($strongs2)>1) { AION_ECHO("ERROR! $newmess strongs='' for Qere too many strongs2!\n".print_r($line,TRUE)); }
@@ -2076,18 +2046,20 @@ No to these???
 					// BOMB
 					else { AION_ECHO("ERROR! $newmess QereKetiv should not be here!\n".print_r($line,TRUE)); }
 				}
-				// SINGLE QERE
+				// SINGLE QK LINE
 				else {
 					$database[$table] .= "{$dataref}	{$strongs}	{$jointype[$key]}	{$line['TYPE']}	{$under}	{$translit}	{$under}	{$english}	{$english}	{$morph}	{$line['EDITIONS']}		{$line['VAR2']}	{$line['SPELL']}	Scribes omitted word recorded as a variant	\n";
 				}
-
+				// Done with this case, so continue
 				continue;
 			}
+			// PARSE SPECIAL CASE - Nothing in this case! So next component is Punctuation or a Join
 			else if ($strongs=="") {
 				if (!preg_match("#//#ui",$WORDUP)) { AION_ECHO("ERROR! $newmess Found // in strongs BUT !word\n".print_r($line,TRUE)); }
 				if ($jointype[$key+1] != 'P') { $jointype[$key+1] = "J"; }
 				continue;
 			}
+			// PARSE SPECIAL CASE - Nothing in this case! So next component is Punctuation or a Divide
 			else if ($strongs==" " || $strongs=="_") {
 				if (!preg_match("#/\s*/#ui",$WORDUP) && !preg_match("#\\\\\s*\\\\#ui",$WORDUP) &&
 					!preg_match("#/_/#ui",$WORDUP) && !preg_match("#\\\\_\\\\#ui",$WORDUP)) {
@@ -2096,19 +2068,23 @@ No to these???
 				if ($jointype[$key+1] != 'P') { $jointype[$key+1] = "D"; }
 				continue;
 			}
+			// ILLEGAL
 			else if ($strongs=="-" || $strongs=="־") {
 				AION_ECHO("ERROR! $newmess strongs='-'\n".print_r($line,TRUE));
 			}
-			// hebrew and additional
+			// PARSE COMMON CASE - Most entries here
 			else {
+				// initialize and error checks
 				$strongs = trim($strongs);
 				$part = trim($part);
 				if ($strongs==$part) { AION_ECHO("ERROR! strongs==part impossible!\n".print_r($line,TRUE)); }
 				if (!($strongs_hebrew = (empty($strongs_array[1]) ? NULL : trim($strongs_array[1])))) {
 					AION_ECHO("ERROR! Strongs empty Hebrew part $newmess\n".print_r($line,TRUE));
 				}
+				// parse the 3rd component, gloss and extra
 				$strongs_array[2] = trim($strongs_array[2],":; ");
 				// remove trailing '$+' and add to join type
+				// note that the '$' was added when '{}' where stripped in AION_NEWSTRONGS_GET_PREPH()
 				if (preg_match('#^(.+)([$+]+)$#ui', $strongs_array[2], $engmatch)) {
 					$strongs_array[2] = $engmatch[1];
 					$jointype[$key] .= $engmatch[2];
@@ -2116,6 +2092,7 @@ No to these???
 				if (empty($strongs_array[2])) {
 					AION_ECHO("ERROR! Strongs empty English part $newmess\n".print_r($line,TRUE));
 				}
+				// build the EXTRA field from the 3rd component
 				else if (preg_match("#^([^»]+)»(.+)$#ui", $strongs_array[2], $match) && ($strongs_gloss=trim($match[1],",:; "))) {
 					$strongs_additional = $match[2];
 					$strongs_additional = preg_replace("#\d+_#u", "", $strongs_additional);
@@ -2142,10 +2119,11 @@ No to these???
 						}
 					}
 				}
+				// Simple case
 				else {
 					$strongs_gloss = trim($strongs_array[2],",:; ");
 				}
-				// punctuation
+				// HANDLE PUNCTUATION
 				if (!empty($punctuation[$strongs_hebrew])) {
 					static $maxymax = 0;
 					if ($maxymax < 100 && 'P'!=$jointype[$key]) {
@@ -2170,12 +2148,12 @@ No to these???
 				$strongs_gloss = trim($strongs_gloss,' ,:;');
 			}
 
-			// error check strongs format and return array!
+			// VALIDATE STRONGS
 			$strongs = AION_NEWSTRONGS_STRONGS_PARSE($newmess, $strongs, FALSE, $lex_array, $lex2_array);
 			if (count($strongs)>1) { AION_ECHO("ERROR! $newmess More than one Hebrew Strongs!\n".print_r($line,TRUE)); }
 			$strongs = $strongs[0]; // TOTHT used to have possible multiple strongs in this slot, but no more
 			
-			// MORPHS
+			// VALIDATE MORPHS
 			$morph = (empty($mpart[$key]) ? NULL : $mpart[$key]);
 			if (!$strongs_punctuation && empty($morph) && !empty($mpart[$key-1]) && ("$book $chap $vers $numb"=='1CH 27 12 50600' || "$book $chap $vers $numb"=='NEH 2 13 51700')) {
 				$morph = $mpart[$key-1];
@@ -2187,19 +2165,20 @@ No to these???
 				AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
 			}
 
-			// TRANSLITERATION
+			// VALIDATE TRANSLITERATION
 			if (!($trans = (empty($tpart[$key]) ? NULL : $tpart[$key])) && !$strongs_punctuation) {
 				$warn="$newmess\tmissing transliteration TRAN='$trans'\n";
+				// special case for misplaced transliterations
 				if (!empty($tpart[$key-1]) && ("$book $chap $vers $numb"=='1CH 27 12 50600' || "$book $chap $vers $numb"=='NEH 2 13 51700')) {
 					$trans = $tpart[$key-1];					
 					$warn="$newmess\tfixing transliteration TRAN='$trans'\n";
 				}
 				AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
 			}
-			if ($trans=='-') { $trans = "־"; } // fix link
+			if ($trans=='-') { $trans = "־"; } // special case to fix dashes to links, handful of cases
 			if (!empty($punctuation[$trans])) { $trans = "[$trans]"; } // bracket punctuation
 
-			// ENGLISH
+			// VALIDATE ENGLISH
 			if (!($english = (empty($epart[$key]) ? NULL : $epart[$key]))) {
 				if ($strongs_punctuation) { 	$english = $strongs_hebrew; }
 				else if (isset($epart[$key])) {	$english = NULL; }
@@ -2218,7 +2197,7 @@ No to these???
 			if ($english=='-') { $english = "־"; } // fix link
 			if (!empty($punctuation[$english])) { $english = "[$english]"; } // bracket punctuation
 
-			// instance counter
+			//  OCCURRENCE # of STRONGS? ERROR CHECKER - HERE AND ABOVE
 			if (!($snum = preg_replace('#^(H\d+)[A-Za-z]*$#','$1', $strongs))) { AION_ECHO("ERROR! sequence strong preg_replace()!\n".print_r($line,TRUE)); }
 			$occur = 1;
 			$instance = $line['INSTANCE'];
@@ -2252,27 +2231,28 @@ No to these???
 				if ($occurdig < 1 || $occurdig > 26) { AION_ECHO("ERROR! $newmess occurmap not found!\n".print_r($line,TRUE)); } // what, where is the map?
 			}
 
-			// check variant strongs numbers!
+			// VALIDATE STRONGS IN VAR1, VAR2, and ALT!
 			if (!empty($line['VAR1'])) { AION_NEWSTRONGS_STRONGS_PARSE($newmess, $line['VAR1'], TRUE, $lex_array, $lex2_array); }
 			if (!empty($line['VAR2'])) { AION_NEWSTRONGS_STRONGS_PARSE($newmess, $line['VAR2'], TRUE, $lex_array, $lex2_array); }
 			if (!empty($line['ALT'])) { AION_NEWSTRONGS_STRONGS_PARSE($newmess, $line['ALT'], TRUE, $lex_array, $lex2_array); }
-			// check variant format
+
+			// VALIDATE VARIANT AND SPELL FORMAT
 			$search = "#^(A/H=|A/V=|B=|C=|D=|E=|F=|H=|K=|L=|P=|S=|V=)#u";
 			if (!empty($line['VAR1'])  && !preg_match($search, $line['VAR1']))  { AION_ECHO("ERROR! VAR1 format wrong: {$line['VAR1']}!\n".print_r($line,TRUE)); }
 			if (!empty($line['VAR2'])  && !preg_match($search, $line['VAR2']))  { AION_ECHO("ERROR! VAR1 format wrong: {$line['VAR2']}!\n".print_r($line,TRUE)); }
 			if (!empty($line['SPELL']) && !preg_match($search, $line['SPELL'])) { AION_ECHO("ERROR! VAR1 format wrong: {$line['SPELL']}!\n".print_r($line,TRUE)); }
 
-			// Alternate, strip the _[A-Za-z]{1}
+			// CLEAN UP ALTERNATE - Strip the _[A-Za-z]{1}
 			if (NULL===($alternate = preg_replace("#_[A-Za-z]{1}#ui", "", $line['ALT']))) {
 				AION_ECHO("ERROR! alternate preg_replace()!\n".print_r($line,TRUE));
 			}
 			
-			// check jointype!
+			// VALIDATE JOINTYPE
 			if (!in_array($jointype[$key], array("W","W$","W+","C","C$","C+","J","J$","D","D$","L","P"))) {
 				AION_ECHO("ERROR! bad join type! {$jointype[$key]}\n".print_r($line,TRUE));
 			}
 			
-			// construct the output
+			// OUTPUT LINE
 			$database[$table] .=
 				$dataref . "\t".
 				$strongs . "\t".
@@ -2299,7 +2279,7 @@ No to these???
 }
 
 
-// parse the strongsid
+// PARSE STRONGS #
 function AION_NEWSTRONGS_STRONGS_PARSE($newmess, $strongs, $variant, &$lex_array, &$lex2_array) {
 	// parse?
 	// add logic to optionally include strongs extension [A-Z] and convert to lowercase or don't include
@@ -2407,17 +2387,17 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 	static $act1940 = 0;
 	static $cor1312 = 0;
 	foreach( $input as $line ) {
-		// skip empty
+		// SKIP EMPTY
 		if (empty(implode("",$line))) { continue; }
-		// setup Reference
+		// SETUP REFERENCE
 		$line['REF']=$line['BOOK'].'.'.$line['CHAP'].'.'.$line['VERS'];
 
-		// INIT
+		// INITIALIZE
 		$WORDUP = trim($line['UNDER']);
 		$WORDYEP = trim($line['LEXICON']);
 		$newmess = "FIX_REF\tref='".$line['REF']."'\tword='$WORDUP'\tmorph='".$line['MORPH']."'\tstrongs='".$line['STRONGS']."'";
 
-		// Check for Junk!
+		// REMOVE JUNK
 		$englishbefore = $line['ENGLISH'];
 		if (!empty($line['ENGLISH']) &&
 			(!($line['ENGLISH']=preg_replace("#\s*\[pl\.\]\s*#uis", " ", $line['ENGLISH'])) ||
@@ -2429,14 +2409,14 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 			$database['WARNINGS'] .= $warn;	
 		}
 
-		// SPACE MORPH
+		// FIX MORPHS
 		$line['MORPH'] = preg_replace("/ /u", '',($morph_before=$line['MORPH'])); // remove unexpected spaces
 		if ($line['MORPH']!=$morph_before) {
 			$database['MISS_MORPHS'] .= ($warn="$newmess\tspace morph=".$line['MORPH']."\n");
 			AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
 		}
 
-		// TAGNT entry type
+		// VALIDATE TAGNT TYPE
 		if (!preg_match('#^(M|MO|MT|MTO|MTo|Mo|MtO|Mto|O|T|TO|To|tO)$#', $line['TYPE'])) {
 			AION_ECHO("ERROR! $newmess word type missing {$line['TYPE']}\n".print_r($line,TRUE));
 		}
@@ -2450,7 +2430,7 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 		$numb = (int)$line['NUMB'];
 		$reference = "{$indx}\t{$book}\t{$chap}\t{$vers}";
 
-		// OCCURRENCE # of STRONGS? ERROR CHECK
+		// OCCURRENCE # of STRONGS? ERROR CHECK AND BELOW
 		// first calculate the original verse number before KJV adjustment because sequence based on that!
 		$orig_vers =
 			($line['NUMB'][0]=='0'	? $vers - 1 :
@@ -2464,7 +2444,7 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 			$strongs_counts = array();
 		}
 
-		// Sorted properly?
+		// VALIDATE REFERENCE SORT
 		if ($last_indx && (
 			($last_indx >  $indx) ||
 			($last_indx <  $indx && ($last_indx+1 != $indx || 1 != $chap || 1 != $vers)) ||
@@ -2482,7 +2462,7 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 		$last_numb = $numb;
 		$last_orig_vers = $orig_vers;
 		
-		// SKIP EMPTY AND PUNCTUATION
+		// SKIP EMPTY STRONGS AND WARN
 		// waiting to skip in order to verify all the above checks
 		if (empty($line['STRONGS'])) {
 			$database['CORRUPT_STRONGS'] .= ($warn="$newmess\tword with empty strongs\n");
@@ -2495,30 +2475,27 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 		$jointype_orig = $jointype;
 		$spart = mb_split("\+", $line['STRONGS']);
 		$mpart = mb_split("\+", $line['MORPH']);
-		if (count($spart) != count($mpart)) {
+		if (count($spart) != count($mpart)) { // MUST BE SAME
 			$database['CORRUPT_STRONGS'] .= ($warn="$newmess\tGreek '+' dividers not equal, strongs != morphs\n");
 			AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
 		}
-		if (empty($mpart[0])) {
+		if (empty($mpart[0])) { // CANNOT BE EMPTY
 			$database['MISS_MORPHS'] .= ($warn="$newmess\tempty 1st part morph=".$line['MORPH']."\n");
 			AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
 		}
 
-		// LOOP THRU PARTS
+		// LOOP THRU COMPONENTS IF MULTIPLE STRONGS
 		foreach($spart as $key => $part) {
-			// INIT
+			// INITIALIZE
 			$newmess = "FIX_REF\tref='".$line['REF']."'\tword='$WORDUP'\tmorph='".$line['MORPH']."'\tstrongs='".$line['STRONGS']."'";
-
-			// STRONGS
 			$strongs = $part;
 			
-			// error check strongs format
+			// VALIDATE STRONGS
 			$strongs = AION_NEWSTRONGS_STRONGS_PARSE($newmess, $strongs, FALSE, $lex_array, $lex2_array);
 			if (count($strongs)>1) { AION_ECHO("ERROR! $newmess More than one Greek Strongs!\n".print_r($line,TRUE)); }
 			$strongs = $strongs[0]; // return an array for Hebrew, but only one here!
 
-
-			// OCCURRENCE # of STRONGS?
+			// OCCURRENCE # of STRONGS? ERROR CHECK AND ABOVE
 			// build 3 arrays
 			// get strongs bald
 			if (!preg_match_all("#(G\d+)([a-zA-Z]{0,1})#u", $strongs, $match_use0, PREG_PATTERN_ORDER)) { AION_ECHO("ERROR! $newmess preg_match_all(strong occurance) $strongs\n".print_r($line,TRUE)); }
@@ -2572,14 +2549,14 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 				if (ctype_lower($match_num[2][$foundit])) { $occur *= -1; }
 			}
 
-
-			// MORPHS
+			// VALIDATE MORPHS
 			$morph = trim(($key==0 ? $mpart[0] : (empty($mpart[$key]) ? "Unknown" : $mpart[$key])));
 			if (empty($morph) || empty($morph_array[$morph])) {
 				$database['MISS_MORPHS'] .= ($warn="$newmess\tmissing morph=$morph key=$key mpart[key]=".$mpart[$key]."\n");
 				AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
 			}
-			// Editions test
+			
+			// VALIDATE EDITIONS
 			$editions  = $line['EDITIONS'];
 			$editions .= (empty($line['VAR1'])  ? "" : ("+".preg_replace("#^.+ in (.+)$#us", '$1', $line['VAR1'])));
 			$editions .= (empty($line['VAR2'])  ? "" : ("+".preg_replace("#^.+ in (.+)$#us", '$1', $line['VAR2'])));
@@ -2594,13 +2571,13 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 				$database['MISS_MANU'] .= ($warn="$newmess\tmissing manuscript edition: ".implode(",",$editions_diff)." from editions=$editions\n");
 				AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");	
 			}
-			// Editions Fix
+			// FIX EDITIONS
 			$line['EDITIONS'] = preg_replace("#\s+#u", "+", $line['EDITIONS']);
 			$line['EDITIONS'] = preg_replace("#[«»]+[\d.]+:#u", "+", $line['EDITIONS']);
 			$line['EDITIONS'] = preg_replace("#0([\d]+)#u", 'U$1', $line['EDITIONS']); // replace 0 with U for unicals
 			$line['EDITIONS'] = trim(preg_replace("#[+]+#u", "+", $line['EDITIONS']),"+");			
 
-			// Extra fix
+			// FIX EXTRA
 			// Abraham»Abraham|Abraham@Gen.11.26
 			$line['EXTRA'] = preg_replace("#\d+_#u", "", $line['EXTRA']);
 			$line['EXTRA'] = preg_replace("#[_ ]+#u", " ", $line['EXTRA']);
@@ -2625,12 +2602,12 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 			$line['EXTRA'] = preg_replace("#@#u", " @ ", $line['EXTRA']);
 			$line['EXTRA'] = trim($line['EXTRA']," @:;,-+$");
 
-			// check variant strongs numbers!
+			// VALIDATE STRONGS # IN VAR1, VAR2, AND ALT
 			if (!empty($line['VAR1'])) { AION_NEWSTRONGS_STRONGS_PARSE($newmess, $line['VAR1'], TRUE, $lex_array, $lex2_array); }
 			if (!empty($line['VAR2'])) { AION_NEWSTRONGS_STRONGS_PARSE($newmess, $line['VAR2'], TRUE, $lex_array, $lex2_array); }
 			if (!empty($line['ALT'])) { AION_NEWSTRONGS_STRONGS_PARSE($newmess, $line['ALT'], TRUE, $lex_array, $lex2_array); }
 			
-			// construct the output
+			// OUTPUT LINE!
 			// The Greek and Hebrew columns need to be same/similar because aionbible.org/index.php processes the Greek and Hebrew columns
 			// INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH	GLOSS	MORPH	EDITIONS	VAR1	VAR2	SPELL	EXTRA	CONJOIN	INSTANCE	OCCUR	ALT
 			$database[$table] .=
@@ -2658,7 +2635,7 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 		}
 		$last = $line;
 	}
-	// OCCURRENCE # of STRONGS? ERROR CHECK
+	// OCCURRENCE # of STRONGS? ERROR CHECK - LAST CHECK!
 	foreach($strongs_counts as $key => $check) {
 		if (1==$check) { AION_ECHO($warn="WARN! FIX_REF\tref='{$last['REF']}' Strongs sequence error, one found, multi indicated strongs={$key}!\n".print_r($last,TRUE)."\n".print_r($strongs_counts,TRUE)."\n\n\n"); }
 	}
