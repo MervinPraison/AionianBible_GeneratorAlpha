@@ -1047,7 +1047,7 @@ function AION_NEWSTRONGS_GET_PREP($file,$fout) {
 		// break apart Greek and Transliteration
 		$twopieces = mb_split("[()]{1}", $match[6]);
 		if(count($twopieces) != 3 || !empty($twopieces[2])) { AION_ECHO("ERROR! line=$count $newmess Greek/Translit format problem, $data"); }
-		$greek = trim($twopieces[0]);
+		$greek = trim(preg_replace("#[¶()]+#u","",$twopieces[0])," []"); // rip these out - ¶ [[
 		$translit = trim(preg_replace("#[()]+#u","",$twopieces[1]));
 		// reconstruct strongs and morph as originally
 		$strongs = $morph = NULL;
@@ -1827,6 +1827,9 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 		$line['REF'] = $line['BOOK'].'.'.$line['CHAP'].'.'.$line['VERS'];
 		$newmess = "FIX_REF\tHebrew\tref='{$reference}'\tword='$WORDUP'\tmorph='{$line['MORPH']}'\tstrongs='{$line['STRONGS']}'";
 
+		// CHECK UNDER FOR DASH 
+		if (preg_match("#\-#u", $line['UNDER'])) { AION_ECHO("WARN! hebrew=='-' impossible dash!\n".print_r($line,TRUE)); }
+
 		// CHECK TYPE
 		if (empty($tagtypes[$line['TYPE']])) {
 			$database['MISS_MANU'] .= ($warn="$newmess\tmissing tag type: {$line['TYPE']}\n");
@@ -2031,12 +2034,12 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 					//Lam.1.6#02=Q(K)		[ ]	[ ]			K= min- (מִן\־) "from" (H4480A\H9014=HR)	L= מִן\־ ¦ ;	
 					if ($strongs=="H4480A" && $strongs2=="H9014") {
 					$database[$table] .= "{$dataref}	{$strongs}	{$jointype[$key]}	{$line['TYPE']}	מִן\־	min-	מֵֽן	from	from	HR		L= מֵֽן\־			Scribes omitted word recorded as a variant	\n";
-					$database[$table] .= "{$dataref}	{$strongs2}	L	{$line['TYPE']}	מִן\־		[־]	[־]	[link]						Scribes omitted word recorded as a variant	\n";
+					$database[$table] .= "{$dataref}	{$strongs2}	P	{$line['TYPE']}	מִן\־		[־ִ]	[-]	[link]						Scribes omitted word recorded as a variant	\n";
 					}
 					//2Sa.13.33#15=Q(K)		[ ]	[ ]			K= 'im- (אִם\־) "except" (H0518B\H9014=HTc)	L= אִם\־ ¦ ;									
 					else if ($strongs=="H518B" && $strongs2=="H9014") {
 					$database[$table] .= "{$dataref}	{$strongs}	{$jointype[$key]}	{$line['TYPE']}	אִם\־	im-	אִם	except	except	HTc		L= אִם\־			Scribes omitted word recorded as a variant	\n";
-					$database[$table] .= "{$dataref}	{$strongs2}	L	{$line['TYPE']}	אִם\־		[־]	[־]	[link]						Scribes omitted word recorded as a variant	\n";
+					$database[$table] .= "{$dataref}	{$strongs2}	P	{$line['TYPE']}	אִם\־		[־]	[-]	[link]						Scribes omitted word recorded as a variant	\n";
 					}
 					//2Ch.34.6#07=Q(K)		[ ]	[ ]			K= be./har (בְּ/הַר) "in/ [the] hill country of" (H9003/H2022G=HR/Ncbsc)	L= בְּ/הַרְ ¦ ;	
 					else if ($strongs=="H9003" && $strongs2=="H2022G") {
@@ -2081,6 +2084,7 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 				if (!($strongs_hebrew = (empty($strongs_array[1]) ? NULL : trim($strongs_array[1])))) {
 					AION_ECHO("ERROR! Strongs empty Hebrew part $newmess\n".print_r($line,TRUE));
 				}
+				if (preg_match("#\-#u", $strongs_hebrew)) { AION_ECHO("WARN! lexicon=='-' impossible dash!\n".print_r($line,TRUE)); }
 				// parse the 3rd component, gloss and extra
 				$strongs_array[2] = trim($strongs_array[2],":; ");
 				// remove trailing '$+' and add to join type
@@ -2146,6 +2150,7 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 					AION_ECHO("ERROR! gloss preg_replace()!\n".print_r($line,TRUE));
 				}
 				$strongs_gloss = trim($strongs_gloss,' ,:;');
+				if (preg_match("#־#u", $strongs_gloss)) { AION_ECHO("WARN! gloss=='־' impossible dash!\n".print_r($line,TRUE)); }
 			}
 
 			// VALIDATE STRONGS
@@ -2175,12 +2180,13 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 				}
 				AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
 			}
-			if ($trans=='-') { $trans = "־"; } // special case to fix dashes to links, handful of cases
-			if (!empty($punctuation[$trans])) { $trans = "[$trans]"; } // bracket punctuation
+			if (preg_match("#־#u", $trans)) { AION_ECHO("WARN! trans=='־' impossible dash!\n".print_r($line,TRUE)); }
+			//if ($trans=='־') { $trans = "-"; } // special case to fix dashes to links, handful of cases
+			if (!empty($punctuation[$trans]) || $trans=='-') { $trans = "[$trans]"; } // bracket punctuation
 
 			// VALIDATE ENGLISH
 			if (!($english = (empty($epart[$key]) ? NULL : $epart[$key]))) {
-				if ($strongs_punctuation) { 	$english = $strongs_hebrew; }
+				if ($strongs_punctuation) { 	$english = ($strongs_hebrew=='[־]' ? '-' : $strongs_hebrew); }
 				else if (isset($epart[$key])) {	$english = NULL; }
 				else {
 					$warn="$newmess\tmissing english piece\tHEBREW='$strongs_hebrew' GLOSS='$strongs_gloss' ENG='$english'\n";
@@ -2194,8 +2200,9 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 			if (!empty($english) && !($english = preg_replace('/obj\./iu', 'obj', $english))) {
 				AION_ECHO("ERROR! english obj preg_replace()!\n".print_r($line,TRUE));
 			}
-			if ($english=='-') { $english = "־"; } // fix link
-			if (!empty($punctuation[$english])) { $english = "[$english]"; } // bracket punctuation
+			if (preg_match("#־#u", $english)) { AION_ECHO("WARN! english=='־' impossible dash!\n".print_r($line,TRUE)); }
+			//if ($english=='־') { $english = "-"; } // special case to fix dashes to links, handful of cases
+			if (!empty($punctuation[$english]) || $english == "-") { $english = "[$english]"; } // bracket punctuation
 
 			//  OCCURRENCE # of STRONGS? ERROR CHECKER - HERE AND ABOVE
 			if (!($snum = preg_replace('#^(H\d+)[A-Za-z]*$#','$1', $strongs))) { AION_ECHO("ERROR! sequence strong preg_replace()!\n".print_r($line,TRUE)); }
