@@ -636,8 +636,10 @@ AION_NEWSTRONGS_TAG_INDEX_CHECKER("$FOLDER_STAGE$GREEK_TAGED_INDX", "$FOLDER_STA
 AION_ECHO("GREEK $FOLDER_STAGE$GREEK_TAGED_INDX");
 AION_NEWSTRONGS_COUNT_REF($database['GRERE2'],"$FOLDER_STAGE$GREEK_TAGED_NUMS");
 AION_NEWSTRONGS_COUNT_REF_CHECKER("$FOLDER_STAGE$GREEK_TAGED_NUMS",
-	"$INPUT_TAGX1",NULL, NULL,
-	"$INPUT_TAGX2",NULL, NULL,
+//	"$INPUT_TAGX1",NULL, NULL,
+//	"$INPUT_TAGX2",NULL, NULL,
+	"$INPUT_TAGN1",NULL, NULL,
+	"$INPUT_TAGN2",NULL, NULL,
 	NULL,NULL,NULL,
 	NULL,NULL,NULL,
 	"$FOLDER_STAGE$GREEK_TAGED_FILE",
@@ -2973,8 +2975,10 @@ function AION_NEWSTRONGS_COUNT_REF_CHECKER($countsF, $source1, $begin1, $end1, $
 		$source .= $sourceT;
 	}
 	unset($sourceT);
-	// remove comments first
-	if ((!$source=preg_replace("/^#.*$/um", "", $source))) {
+	// remove comments first preg_replace('/^[ \t]*[\r\n]+/m', '', $str);
+	if ((!$source=preg_replace("/^#.*$/um", "", $source)) ||
+		(!$source=preg_replace("/^[^.]{4}.*[\r\n]+/um", "", $source)) ||
+		(!$source=preg_replace("/^[ \t]*[\r\n]+/um", "", $source))) {
 		AION_ECHO("ERROR! $newmess problem removing comments");
 	}
 	// save the file if requested / only needed for debugging the count checker
@@ -3000,9 +3004,12 @@ function AION_NEWSTRONGS_COUNT_REF_CHECKER($countsF, $source1, $begin1, $end1, $
 			$found  += (empty($parsed2[1])  || !is_array($parsed2[1]) ? 0 : count($parsed2[1]));
 			$found3  = (empty($parsed3[1])  || !is_array($parsed3[1]) ? 0 : count($parsed3[1]));
 		}
+		// redo Greek to use orig file! with this regex "/\n[^#\t]{1}[^\t]+\t[^\t]+\t[^\t]+\tG0976=/ui"
 		else {
-			if (FALSE===preg_match_all("#\n[^\t]+\t[^\t]+\t[^\t]+\t[^\t]+\t[^\t]+\t[^\t]+\t[^\t]+\t[^\t]*\t[^\t]*\t[^\t]*\t[^\t]*\t[^\t]*($strongs)[^\d]{1}#u", $source, $parsed, PREG_PATTERN_ORDER)) { AION_ECHO("ERROR! $newmess !preg_match_all()"); }
+			if (FALSE===preg_match_all("/\n[^#\t]{1}[^\n\t]+\t[^\n\t]+\t[^\n\t]+\t[^\n\t]*($strongs)[A-Z]{0,1}=/u", $source, $parsed, PREG_PATTERN_ORDER)) { AION_ECHO("ERROR! $newmess !preg_match_all()"); }
+			if (FALSE===preg_match_all("/^[^#\t]{1}[^\n\t]+\t[^\n\t]+\t[^\n\t]+\t[^\n\t]*($strongs)[A-Z]{0,1}=/u", $source, $parsed2, PREG_PATTERN_ORDER)) { AION_ECHO("ERROR! $newmess !preg_match_all()"); }
 			$found  = (empty($parsed[1])  || !is_array($parsed[1] ) ? 0 : count($parsed[1] ));
+			$found += (empty($parsed2[1]) || !is_array($parsed2[1]) ? 0 : count($parsed2[1]));
 		}
 		if ($numbers[3] != $found) {
 			AION_ECHO("WARN! $newmess count mismatch for $strongs: $numbers[3] != $found, but found3 = $found3 (variant.[AG] -OR- Q(K) issue?)");

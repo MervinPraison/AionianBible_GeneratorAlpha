@@ -853,6 +853,10 @@ $versionSS_CP .= "Source text: <a href='".$G_VERSIONS['SOURCELINK']."' target='_
 $onlinelink = "https://www.AionianBible.org/Bibles/".str_replace("Holy-Bible---","",$G_VERSIONS['BIBLE']);
 $onionlink = "https://www.AionianBible.org/TOR/Bibles/".str_replace("Holy-Bible---","",$G_VERSIONS['BIBLE']);
 $epublink = "https://resources.AionianBible.org/".$G_VERSIONS['BIBLE']."---Aionian-Edition.epub";
+$pdflink = "https://resources.AionianBible.org/".$G_VERSIONS['BIBLE']."---Aionian-Edition.pdf";
+$studylink = "https://resources.AionianBible.org/".$G_VERSIONS['BIBLE']."---Aionian-Edition---STUDY.pdf";
+$datalink = "https://resources.AionianBible.org/".$G_VERSIONS['BIBLE']."---Aionian-Edition.noia";
+$everythinglink = "https://resources.AionianBible.org";
 $rundate = date("n/j/Y");
 if (NULL===($extension_text=preg_replace("#<[^<>]*>#ui"," ",trim($G_FORPRINT['EXTENSION'])))) { AION_ECHO("ERROR! preg_replace(<>)".$G_FORPRINT['BIBLE']." ".$G_FORPRINT['EXTENSION']); }
 $extension_text = (empty($extension_text) ? "" : "\nAdditional Information:<br /><br />$extension_text");
@@ -882,7 +886,14 @@ Publisher: Nainoia Inc<br />
 $versionCC_CP
 $versionLA_CP
 Formatted: ABCMS on $rundate<br />
-Links: <a href='$onlinelink' target='_blank' title='Read online'>Read online</a>, <a href='$onionlink' target='_blank' title='Read TOR anonymously'>TOR Anonymously</a>, and <a href='$epublink' target='_blank' title='Download this ePub'>download this ePub!</a><br />
+Online: <a href='$onlinelink' target='_blank' title='Read online'>Read</a> and <a href='$onionlink' target='_blank' title='Read TOR anonymously'>TOR Anonymously</a><br />
+Download: 
+<a href='$epublink' target='_blank' title='Download this ePub'>This ePub</a>, 
+<a href='$pdflink' target='_blank' title='Download PDF'>PDF</a>, 
+<a href='$studylink' target='_blank' title='Download Study PDF'>Study PDF</a>, 
+<a href='$datalink' target='_blank' title='Download Data File'>Data File</a>, and 
+<a href='$everythinglink' target='_blank' title='Download Everything'>Everything</a><br />
+<br />
 $versionDE_CP
 <br />
 $versionSS_CP
