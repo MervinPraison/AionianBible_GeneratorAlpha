@@ -2085,12 +2085,12 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 					//Lam.1.6#02=Q(K)		[ ]	[ ]			K= min- (מִן\־) "from" (H4480A\H9014=HR)	L= מִן\־ ¦ ;	
 					if ($strongs=="H4480A" && $strongs2=="H9014") {
 					$database[$table] .= "{$dataref}	{$strongs}	{$jointype[$key]}	{$line['TYPE']}	מִן\־	min-	מֵֽן	from	from	HR		L= מֵֽן\־			Scribes omitted word recorded as a variant	\n";
-					$database[$table] .= "{$dataref}	{$strongs2}	P	{$line['TYPE']}	מִן\־		[־ִ]	[-]	[link]						Scribes omitted word recorded as a variant	\n";
+					$database[$table] .= "{$dataref}	{$strongs2}	L	{$line['TYPE']}	מִן\־		[־ִ]	[-]	[link]						Scribes omitted word recorded as a variant	\n";
 					}
 					//2Sa.13.33#15=Q(K)		[ ]	[ ]			K= 'im- (אִם\־) "except" (H0518B\H9014=HTc)	L= אִם\־ ¦ ;									
 					else if ($strongs=="H518B" && $strongs2=="H9014") {
 					$database[$table] .= "{$dataref}	{$strongs}	{$jointype[$key]}	{$line['TYPE']}	אִם\־	im-	אִם	except	except	HTc		L= אִם\־			Scribes omitted word recorded as a variant	\n";
-					$database[$table] .= "{$dataref}	{$strongs2}	P	{$line['TYPE']}	אִם\־		[־]	[-]	[link]						Scribes omitted word recorded as a variant	\n";
+					$database[$table] .= "{$dataref}	{$strongs2}	L	{$line['TYPE']}	אִם\־		[־]	[-]	[link]						Scribes omitted word recorded as a variant	\n";
 					}
 					//2Ch.34.6#07=Q(K)		[ ]	[ ]			K= be./har (בְּ/הַר) "in/ [the] hill country of" (H9003/H2022G=HR/Ncbsc)	L= בְּ/הַרְ ¦ ;	
 					else if ($strongs=="H9003" && $strongs2=="H2022G") {
@@ -2203,6 +2203,7 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 				if ($strongs_gloss=='&') { $strongs_gloss = 'and'; }
 				if (!($strongs_gloss = preg_replace('/[ ]*([,:;])+/ui', '$1 ', $strongs_gloss)) ||
 					!($strongs_gloss = preg_replace('/obj\./ui', 'obj', $strongs_gloss)) ||
+					!($strongs_gloss = preg_replace('/^[ ]*emph\.[ ]*$/ui', '[emphasis]', $strongs_gloss)) ||
 					!($strongs_gloss = preg_replace('/\s+/ui', ' ', $strongs_gloss))) {
 					AION_ECHO("ERROR! gloss preg_replace()!\n".print_r($line,TRUE));
 				}
@@ -2755,8 +2756,13 @@ Mat.17.15#01 (17.14)=M + T + O	καὶ (kai)	and	G2532=CONJ	καί=and	NA28+NA2
 		// if greek and alternate references
 		if (!empty($match[5]) && !empty($match[6])) {
 			if ('G'!=$hebrew) { AION_ECHO("ERROR! $newmess strongs wrong wrong!\n".print_r($line,TRUE)); }
-			$match[2] = $match[4];
-			$match[3] = $match[5];
+			// exception here
+			// Php.1.16#11 (1.17)=M + T + O	κεῖμαι· (keimai)	I am appointed;	G2749=V-PNI-1S	κεῖμαι=to lay/be appointed	NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz				estoy yaciendo	to lay	#11	G2749				
+			// Php.1.17#01 (1.16)=M + T + O	οἱ (hoi)	[16] the [ones]	G3588=T-NPM	ὁ=the/this/who	NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz				Los	[those] which	#01»10:G3633	G3588_A				
+			if ("Php.1.16" != "{$match[1]}.{$match[2]}.{$match[3]}" && "Php.1.17" != "{$match[1]}.{$match[2]}.{$match[3]}") {
+				$match[2] = $match[4];
+				$match[3] = $match[5];
+			}
 			unset($match[4]); unset($match[5]);
 			$match = array_values($match);
 		}
@@ -2773,15 +2779,18 @@ Mat.17.15#01 (17.14)=M + T + O	καὶ (kai)	and	G2532=CONJ	καί=and	NA28+NA2
 		if (FALSE===preg_match_all("#[GH]{1}[\d]+#u", $match[4], $parsed, PREG_PATTERN_ORDER) || empty($parsed[0])) { AION_ECHO("ERROR! $newmess preg_match_all() !preg_match_all() \n\n$line\n\n".print_r($match,TRUE)); }
 		foreach($parsed[0] as $strongs) {
 			if (!($strongs=preg_replace("#([GH]{1})[0]*#u", '$1', $strongs))) { AION_ECHO("ERROR! $newmess preg_replace(GH000)"); }
+			// word number not needed in Hebrew because we assume the TAHOT sort order within the verse and we DO NOT resort below
+			// however for the Greek we do use the alternate verse references, but again our word number preserves the TAGNT word order within that change
+			// in a nutshell in TAGNT if words are moving back a verse they are still already positioned properly, and same if moving forward a verse
 			if ('H'==$hebrew) {	$numbX = ''; }
 			else if ($indx != $indx_last || $chap != $chap_last || $vers != $vers_last) { $numbX = "\t001"; $numb = 1; }
 			else { $numbX = "\t".sprintf('%03d', (int)$numb); }
 			++$numb;
 			$tagsort .= "{$indx}\t{$book}\t{$chap}\t{$vers}{$numbX}\t{$strongs}\n";
+			$indx_last = $indx;
+			$chap_last = $chap;
+			$vers_last = $vers;
 		}
-		$indx_last = $indx;
-		$chap_last = $chap;
-		$vers_last = $vers;
 	} while (($line = strtok( "\n" ))); }
 	$length = strlen($tagsort);
 	if (FALSE===file_put_contents($stepsort, $tagsort)) { AION_ECHO("ERROR! $newmess !file_put_contents($stepsort) length=$length\n".print_r(error_get_last(),TRUE)); }
@@ -2806,6 +2815,7 @@ INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH	GLOSS	MORPH	ED
 		$chap = sprintf('%03d', (int)$match[3]);
 		$vers = sprintf('%03d', (int)$match[4]);
 		$strongs = $match[5];
+		// read above comments about word order number
 		if ('H'==$hebrew) {	$numbX = ''; }
 		else if ($indx != $indx_last || $chap != $chap_last || $vers != $vers_last) { $numbX = "\t001"; $numb = 1; }
 		else { $numbX = "\t".sprintf('%03d', (int)$numb); }
@@ -2820,9 +2830,12 @@ INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH	GLOSS	MORPH	ED
 	unset($tagsort);	
 
 	// Sort and diff the two files!
+	// Hebrew assumed the TAHOT is already in the right order and does NOT use the alternate references
+	// Greek we use the alternate references, but again the word should already be in the right order.
+	// So the resort below is NOT needed, test that by only sorting one of the files!
 	if ("H"!=$hebrew) {
 		system("sort -o {$stepsort} {$stepsort}" );
-		system("sort -o {$jeffsort} {$jeffsort}" );
+		//system("sort -o {$jeffsort} {$jeffsort}" );
 	}
 	system("diff {$stepsort} {$jeffsort} > {$diff}" );
 }
