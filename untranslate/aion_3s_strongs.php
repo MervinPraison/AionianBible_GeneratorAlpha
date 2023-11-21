@@ -295,7 +295,7 @@ AION_ECHO("VIZ $FOLDER_STAGE$GREEK_VIZBI_INDX");
 // TYNDALE HEBREW READ
 AION_NEWSTRONGS_COD( "$INPUT_TEHMC",'HEBMOR', $database);
 $database['HEBLEX'] = array();
-$database['HEBLEX']['H0'] = array('STRONGS' => 'H0','WORD' => '-','TRANS' => '-','GLOSS' => 'Omitted by scribes','MORPH' => '','DEF' => 'Qere read word omitted by scribes'); // Add definition for H0, scribe omitted qere
+//$database['HEBLEX']['H0'] = array('STRONGS' => 'H0','WORD' => '-','TRANS' => '-','GLOSS' => 'Omitted by scribes','MORPH' => '','DEF' => 'Qere read word omitted by scribes'); // Add definition for H0, scribe omitted qere
 AION_NEWSTRONGS_GET( "$INPUT_TBESH",'H0001	H0001G =	H0001G	אָב', NULL, 'HEBLEX',
 	array('','STRONGS','','WORD','TRANS','MORPH','GLOSS','DEF'),
 	array('','STRONGS','','WORD','TRANS','MORPH','GLOSS','DEF'), "$FOLDER_STAGE$CHECK_EHLX",
