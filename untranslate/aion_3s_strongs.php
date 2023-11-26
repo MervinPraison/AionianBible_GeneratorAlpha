@@ -297,11 +297,11 @@ AION_NEWSTRONGS_COD( "$INPUT_TEHMC",'HEBMOR', $database);
 $database['HEBLEX'] = array();
 //$database['HEBLEX']['H0'] = array('STRONGS' => 'H0','WORD' => '-','TRANS' => '-','GLOSS' => 'Omitted by scribes','MORPH' => '','DEF' => 'Qere read word omitted by scribes'); // Add definition for H0, scribe omitted qere
 AION_NEWSTRONGS_GET( "$INPUT_TBESH",'H0001	H0001G =	H0001G	אָב', NULL, 'HEBLEX',
-	array('','STRONGS','','WORD','TRANS','MORPH','GLOSS','DEF'),
-	array('','STRONGS','','WORD','TRANS','MORPH','GLOSS','DEF'), "$FOLDER_STAGE$CHECK_EHLX",
-	array('STRONGS','WORD','TRANS','GLOSS','MORPH','DEF'),
-	'STRONGS', $database, "TBESH");
-$database['HEBLEX']['H9001']['GLOSS'] = 'and'; // Fix H9001
+	array('','STRONGS','STRONGU','WORD','TRANS','MORPH','GLOSS','DEF'),
+	array('','STRONGS','STRONGU','WORD','TRANS','MORPH','GLOSS','DEF'), "$FOLDER_STAGE$CHECK_EHLX",
+	array('STRONGS','STRONGU','WORD','TRANS','GLOSS','MORPH','DEF'),
+	'STRONGS', $database, TRUE);
+AION_NEWSTRONGS_GET_LEXY('HEBLEX', $database);
 AION_NEWSTRONGS_GET_PREPH("$INPUT_TOTH1", "$INPUT_TOTX1");
 AION_NEWSTRONGS_GET_PREPH("$INPUT_TOTH2", "$INPUT_TOTX2");
 AION_NEWSTRONGS_GET_PREPH("$INPUT_TOTH3", "$INPUT_TOTX3");
@@ -481,7 +481,7 @@ if ( file_put_contents($file="$FOLDER_STAGE$CHECK_UHEB",($temp="Strongs numbers 
 unset($temp); $temp=NULL;
 AION_unset($database['HEBLEX']);
 AION_NEWSTRONGS_GET_INDEX_LEX("$FOLDER_STAGE$HEBREW_TBESH_DATA","$FOLDER_STAGE$HEBREW_TBESH_INDX");
-AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER("$FOLDER_STAGE$HEBREW_TBESH_INDX","$FOLDER_STAGE$HEBREW_TBESH_DATA",TRUE);
+AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER("$FOLDER_STAGE$HEBREW_TBESH_INDX","$FOLDER_STAGE$HEBREW_TBESH_DATA","2428");
 AION_ECHO("HEBREW $FOLDER_STAGE$HEBREW_TBESH_INDX");
 AION_NEWSTRONGS_SORT_REF_CHECKER(
 	"$FOLDER_STAGE$HEBREW_TAGED_FILE",
@@ -498,32 +498,32 @@ AION_NEWSTRONGS_SORT_REF_CHECKER(
 // TYNDALE GREEK READ
 AION_NEWSTRONGS_COD( "$INPUT_TEGMC",'GREMOR', $database, TRUE);
 AION_NEWSTRONGS_GET( "$INPUT_TBESG",'G0001	G0001G =	G0001G	α, Ἀλφα',	NULL, 'GRELEX',
-	array('STRONGS','STRONGU','STRONGD','WORD','TRANS','MORPH','GLOSS','DEF'),
-	array('STRONGS','STRONGU','STRONGD','WORD','TRANS','','GLOSS','DEF'), "$FOLDER_STAGE$CHECK_EGLX",
-	array('STRONGS','WORD','TRANS','GLOSS','MORPH','STRONGU','STRONGD','DEF'),
-	'STRONGS', $database);
-AION_NEWSTRONGS_GET_UD('GRELEX', $database);
+	array('','STRONGS','STRONGU','WORD','TRANS','MORPH','GLOSS','DEF'),
+	array('','STRONGS','STRONGU','WORD','TRANS','','GLOSS','DEF'), "$FOLDER_STAGE$CHECK_EGLX",
+	array('STRONGS','STRONGU','WORD','TRANS','GLOSS','MORPH','DEF'),
+	'STRONGS', $database, TRUE);
+AION_NEWSTRONGS_GET_LEXY('GRELEX', $database);
 AION_NEWSTRONGS_GET( "$INPUT_TFLS1",'G0001	G0001G =	G0001G	α, Ἀλφα',	NULL, 'GRELSJ',
-	array('STRONGS','STRONGU','STRONGD','WORD','TRANS','MORPH','GLOSS','DEF'),
-	array('STRONGS','STRONGU','STRONGD','WORD','TRANS','','GLOSS','DEF'), "$FOLDER_STAGE$CHECK_ELSJ",
-	array('STRONGS','WORD','TRANS','GLOSS','MORPH','STRONGU','STRONGD','DEF'),
-	'STRONGS', $database);
+	array('','STRONGS','STRONGU','WORD','TRANS','MORPH','GLOSS','DEF'),
+	array('','STRONGS','STRONGU','WORD','TRANS','','GLOSS','DEF'), "$FOLDER_STAGE$CHECK_ELSJ",
+	array('STRONGS','STRONGU','WORD','TRANS','GLOSS','MORPH','DEF'),
+	'STRONGS', $database, TRUE);
 AION_NEWSTRONGS_GET( "$INPUT_TFLS2",'G6000	G6000 =	G6000	ἀγγέλλω',NULL, 'GRELSJ',
-	array('STRONGS','STRONGU','STRONGD','WORD','TRANS','MORPH','GLOSS','DEF'),
-	array('STRONGS','STRONGU','STRONGD','WORD','TRANS','','GLOSS','DEF'), "$FOLDER_STAGE$CHECK_ELSJ",
-	array('STRONGS','WORD','TRANS','GLOSS','MORPH','STRONGU','STRONGD','DEF'),
-	'STRONGS', $database);
-AION_NEWSTRONGS_GET_UD('GRELSJ', $database);
+	array('','STRONGS','STRONGU','WORD','TRANS','MORPH','GLOSS','DEF'),
+	array('','STRONGS','STRONGU','WORD','TRANS','','GLOSS','DEF'), "$FOLDER_STAGE$CHECK_ELSJ",
+	array('STRONGS','STRONGU','WORD','TRANS','GLOSS','MORPH','DEF'),
+	'STRONGS', $database, TRUE);
+AION_NEWSTRONGS_GET_LEXY('GRELSJ', $database);
 // do the greek earlier so they are done
 //AION_NEWSTRONGS_GET_PREP("$INPUT_TAGN1", "$INPUT_TAGX1");
 //AION_NEWSTRONGS_GET_PREP("$INPUT_TAGN2", "$INPUT_TAGX2");
-AION_NEWSTRONGS_GET( "$INPUT_TAGX1", "040	MAT	001	001	20100", NULL, 'GREREF1',
+AION_NEWSTRONGS_GET( "$INPUT_TAGX1", "040	MAT	001	001	00001", NULL, 'GREREF1',
 	array('INDX','BOOK','CHAP','VERS','NUMB','TYPE','UNDER','TRANS','LEXICON','ENGLISH','GLOSS','STRONGS','MORPH','EDITIONS','VAR1','VAR2','SPELL','EXTRA','CONJOIN','INSTANCE','ALT'),
 	array('INDX','BOOK','CHAP','VERS','NUMB','TYPE','UNDER','TRANS','LEXICON','ENGLISH','GLOSS','STRONGS','MORPH','EDITIONS','','','','','CONJOIN','',''),
 	"$FOLDER_STAGE$CHECK_EGTG",
 	NULL,
 	NULL, $database);
-AION_NEWSTRONGS_GET( "$INPUT_TAGX2", "044	ACT	001	001	20100", NULL, 'GREREF2',
+AION_NEWSTRONGS_GET( "$INPUT_TAGX2", "044	ACT	001	001	00001", NULL, 'GREREF2',
 	array('INDX','BOOK','CHAP','VERS','NUMB','TYPE','UNDER','TRANS','LEXICON','ENGLISH','GLOSS','STRONGS','MORPH','EDITIONS','VAR1','VAR2','SPELL','EXTRA','CONJOIN','INSTANCE','ALT'),
 	array('INDX','BOOK','CHAP','VERS','NUMB','TYPE','UNDER','TRANS','LEXICON','ENGLISH','GLOSS','STRONGS','MORPH','EDITIONS','','','','','CONJOIN','',''),
 	"$FOLDER_STAGE$CHECK_EGTG",
@@ -614,19 +614,25 @@ $commentplus = <<<EOT
 #				"L"		=> "Link previous-next word",
 #				"P"		=> "Punctuation",
 #	TYPE		Source description
-#				"M"		=> "Modern Bibles only, not KJV and other Bibles",
-#				"MO"	=> "Modern and other Bibles, not KJV Bible",
-#				"MT"	=> "Modern and KJV Bibles, not other Bibles",
-#				"Mt"	=> "Modern Bibles, variants in KJV Bible, not other Bibles",
-#				"MTO"	=> "Modern, KJV, and other Bibles",
-#				"MTo"	=> "Modern and KJV Bibles, variants in other Bibles",
-#				"Mo"	=> "Modern Bibles, variants in other Bibles, not KJV Bible",
-#				"MtO"	=> "Modern and other Bibles, variants in KJV Bible",
-#				"Mto"	=> "Modern Bibles, variants in KJV and other Bibles",
-#				"O"		=> "Other Bibles only, not modern and KJV Bibles",
-#				"T"		=> "KJV Bible only, not modern and other Bibles",
-#				"TO"	=> "KJV and other Bibles only, not modern Bibles",
-#				"To"	=> "KJV Bible, variants in other Bibles, not modern bibles",
+#				"ATO"	=> "Identical in all sources",
+#				"ATo"	=> "Identical in ancient and traditional sources, minor differences in other sources",
+#				"AtO"	=> "Identical in ancient and other sources, minor differences in traditional sources",
+#				"Ato"	=> "Present ancient sources, minor differences in traditional and other sources",
+#				"atO"	=> "Present in other sources, minor differences in ancient and traditional sources",
+#				"ato"	=> "Present with minor differences in ancient, traditional, and other sources",
+#				"AT"	=> "Identical in ancient and traditional sources, absent in other sources",
+#				"A"		=> "Present in ancient sources, absent in traditional and other sources",
+#				"AO"	=> "Identical in ancient and other sources, absent in traditional sources",
+#				"Ao"	=> "Present in ancient sources, minor differences in other sources, absent in traditional sources",
+#				"a"		=> "Present with minor differences in ancient sources, absent in traditional and other sources",
+#				"ao"	=> "Present with minor differences in ancient and other sources, absent in traditional sources",
+#				"TO"	=> "Identical in traditional and other sources, absent in ancient sources",
+#				"To"	=> "Present in traditional sources, minor differences in other sources, absent in ancient sources",
+#				"T"		=> "Present in traditional sources, absent in ancient and other sources",
+#				"t"		=> "Present with minor differences in traditional sources, absent in ancient and other sources",
+#				"to"	=> "Present with minor differences in traditional and other sources, absent in ancient sources",
+#				"O"		=> "Present in other sources, absent in ancient and traditional sources",
+#				"Ot"	=> "Present in other sources, minor differences in traditional sources, absent in ancient sources",
 #	UNDER		Hebrew underlying word
 #	TRANS		Hebrew transliteration
 #	LEXICON		Hebrew lexicon word
@@ -676,10 +682,10 @@ if ( file_put_contents($file="$FOLDER_STAGE$CHECK_ULSJ",
 unset($temp); $temp=NULL;
 AION_unset($database['GRELSJ']);
 AION_NEWSTRONGS_GET_INDEX_LEX("$FOLDER_STAGE$GREEK_TBESG_DATA", "$FOLDER_STAGE$GREEK_TBESG_INDX");
-AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER("$FOLDER_STAGE$GREEK_TBESG_INDX", "$FOLDER_STAGE$GREEK_TBESG_DATA");
+AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER("$FOLDER_STAGE$GREEK_TBESG_INDX", "$FOLDER_STAGE$GREEK_TBESG_DATA","ALL");
 AION_ECHO("GREEK $FOLDER_STAGE$GREEK_TBESG_INDX");
 AION_NEWSTRONGS_GET_INDEX_LEX("$FOLDER_STAGE$GREEK_TFLSJ_DATA","$FOLDER_STAGE$GREEK_TFLSJ_INDX");
-AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER("$FOLDER_STAGE$GREEK_TFLSJ_INDX","$FOLDER_STAGE$GREEK_TFLSJ_DATA");
+AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER("$FOLDER_STAGE$GREEK_TFLSJ_INDX","$FOLDER_STAGE$GREEK_TFLSJ_DATA","ALL");
 AION_ECHO("GREEK $FOLDER_STAGE$GREEK_TFLSJ_INDX");
 AION_NEWSTRONGS_SORT_REF_CHECKER(
 	"$FOLDER_STAGE$GREEK_TAGED_FILE",
@@ -1004,46 +1010,50 @@ function AION_NEWSTRONGS_GET_PREP($file,$fout) {
 	$tbooks = AION_BIBLES_LIST_TYN();
 	$prevmatch = NULL;
 	$count = 0;
+	$indx_last = $chap_last = $vers_last = $numbnumb = NULL;
 	// loop through all the lines
 	foreach( $lines as $data ) {
 		++$count;
-		//Word & Type	Greek	English translation	dStrongs = Grammar	Dictionary form =  Gloss	editions	1st variant	2nd variant	Spellings		Spanish translation	Sub-meaning	Conjoin word	sStrong+Instance	Alt Strongs
-		//Mat.1.1#01=M + T + O	Βίβλος (Biblos)	[The] book	G0976=N-NSF	βίβλος=book	NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz				Libro	book	#01	G0976				
-		//Mat.1.1#02=M + T + O	γενέσεως (geneseōs)	of [the] genealogy	G1078=N-GSF	γένεσις=origin	NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz				de origen	origin	#02	G1078				
-		//Mat.1.1#03=M + T + O	Ἰησοῦ (Iēsou)	of Jesus	G2424G=N-GSM-P	Ἰησοῦς=Jesus/Joshua	NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz				de Jesús	Jesus»Jesus|Jesus@Mat.1.1	#03	G2424				
-		//Act.2.11#01 (2.10)=M + T + O	Ἰουδαῖοί (Ioudaioi)	Jews	G2453G=N-NPM-PG	Ἰουδαῖος=Jewish 	NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz				judíos	Jewish»Jews@2Ki.25.25	#01	G2453				
-		//Act.2.11#02 (2.10)=M + T + O	τε (te)	both	G5037=CONJ	τε=and/both	NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz				y	both	#02	G5037				
-		//Act.2.11#03 (2.10)=M + T + O	καὶ (kai)	and	G2532=CONJ	καί=and	NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz				también	and	#03	G2532_A				
-		//Act.2.11#04 (2.10)=M + T + O	προσήλυτοι, (prosēlutoi)	converts,	G4339=N-NPM	προσήλυτος=proselyte	NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz				prosélitos	proselyte	#04	G4339	
-
+/*
+LATEST
+Word & Type	Greek	English translation	dStrongs = Grammar	Dictionary form =  Gloss	editions	1st variant	2nd variant	Spellings	Spanish translation	Sub-meaning	Conjoin word	sStrong+Instance	Alt Strongs
+Mat.1.1#01=ATO	Βίβλος (Biblos)	[The] book	G0976=N-NSF	βίβλος=book	NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz				Libro	book	#01	G0976			
+Mat.1.1#02=ATO	γενέσεως (geneseōs)	of [the] genealogy	G1078=N-GSF	γένεσις=origin	NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz				de origen	origin	#02	G1078			
+Word & Type	Greek	English translation	dStrongs = Grammar	Dictionary form =  Gloss	editions	1st variant	2nd variant	Spellings	Spanish translation	Sub-meaning	Conjoin word	sStrong+Instance	Alt Strongs
+Act.2.11[2.10]#01=ATO	Ἰουδαῖοί (Ioudaioi)	Jews	G2453=N-NPM-PG	Ἰουδαῖος=Jewish 	BRTWSHNMI				judíos	Jewish»Jews@2Ki.25.25	Act.2.11[2.10]#01	G2453			
+Act.2.11[2.10]#02=ATO	τε (te)	both	G5037=CONJ	τε=and/both	BRTWSHNMI				y	both	Act.2.11[2.10]#02	G5037			
+Act.2.11[2.10]#03=ATO	καὶ (kai)	and	G2532=CONJ	καί=and	BRTWSHNMI				también	and	Act.2.11[2.10]#03	G2532_A			
+Act.2.11[2.10]#04=ATO	προσήλυτοι, (prosēlutoi)	converts,	G4339=N-NPM	προσήλυτος=proselyte	BRTWSHNMI				prosélitos	proselyte	Act.2.11[2.10]#04	G4339			
+Act.2.11#05=ATO	Κρῆτες (Krētes)	[11] Cretans	G2912=N-NPM-LG	Κρής=Cretan	NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz				cretenses	Caphtor»Caphtor|Crete@Deu.2.23	#05	G2912	
+*/
 		// not a verse word line, continue
-		if (!preg_match('/^[[:alnum:]]{3}\.\d+\.\d+#\d+/', $data)) {
+		if (!preg_match('/^[[:alnum:]]{3}\.\d+\.\d+/', $data)) {
 			continue;
 		}
 		
 		// verse word line with alternate KJV reference
-		//                     1                 2      3     4       5      6       7         8         9         10        11        12        13*       14*       15*       16*       17*       18*       19*       20*       21*     22*
-		else if (preg_match('/^([[:alnum:]]{3})\.(\d+)\.(\d+)#(\d+) \((\d+)\.(\d+)\)=([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)(.*)$/', $data, $match)) {
+		// 1                 2      3      4      5       6     7         8         9         10        11        12        13*       14*       15*       16*       17*       18*       19*       20*       21*     22*
+		else if (preg_match('/^([[:alnum:]]{3})\.(\d+)\.(\d+)\[(\d+)\.(\d+)\]#(\d+)=([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)(.*)$/', $data, $match)) {
 			// skip the alternate flipped of Philipians 1:16-17
 			if ($match[1]=='Php' && $match[2]=='1' && ($match[3]=='16' || $match[3]=='17')) {
-				if (strlen($match[4])!=2 && strlen($match[4])!=4) { AION_ECHO("ERROR! line=$count $newmess bad word sort number: $data"); }
-				$match[4] = (strlen($match[4])==4 ? '2'.$match[4] : '2'.$match[4].'00'); // same as Hebrew logic for 4 digit LXX word number, BUT no cases of this
+				if (strlen($match[6])!=2 && strlen($match[6])!=4) { AION_ECHO("ERROR! line=$count $newmess bad word sort number: $data"); }
+				$match[6] = (strlen($match[6])==4 ? '2'.$match[6] : '2'.$match[6].'00'); // same as Hebrew logic for 4 digit LXX word number, BUT no cases of this
 			}
 			// moving back one verse same book and chapter - pre-pend word number with '6' so moved back to end of previous verse
-			else if ($match[2]==$match[5] && // same chapter
-				(int)$match[3]==(int)$match[6]+1) { // verse-1
-				$match[2] = $match[5];
-				$match[3] = $match[6];
-				if (strlen($match[4])!=2 && strlen($match[4])!=4) { AION_ECHO("ERROR! line=$count $newmess bad word sort number: $data"); }
-				$match[4] = (strlen($match[4])==4 ? '6'.$match[4] : '6'.$match[4].'00'); // same as Hebrew logic for 4 digit LXX word number, BUT no cases of this
+			else if ($match[2]==$match[4] && // same chapter
+				(int)$match[3]==(int)$match[5]+1) { // verse-1
+				$match[2] = $match[4];
+				$match[3] = $match[5];
+				if (strlen($match[6])!=2 && strlen($match[6])!=4) { AION_ECHO("ERROR! line=$count $newmess bad word sort number: $data"); }
+				$match[6] = (strlen($match[6])==4 ? '6'.$match[6] : '6'.$match[6].'00'); // same as Hebrew logic for 4 digit LXX word number, BUT no cases of this
 			}
 			// moving forward one verse same book and chapter or chapter+1 - pre-pend word number with '0' so moved to front of next verse
-			else if ((int)$match[2]+1==(int)$match[5] || // chapter+1
-				($match[2]==$match[5] && (int)$match[3]+1==(int)$match[6])) { // same chapter and verse+1
-				$match[2] = $match[5];
-				$match[3] = $match[6];
-				if (strlen($match[4])!=2 && strlen($match[4])!=4) { AION_ECHO("ERROR! line=$count $newmess bad word sort number: $data"); }
-				$match[4] = (strlen($match[4])==4 ? '0'.$match[4] : '0'.$match[4].'00'); // same as Hebrew logic for 4 digit LXX word number, BUT no cases of this
+			else if ((int)$match[2]+1==(int)$match[4] || // chapter+1
+				($match[2]==$match[4] && (int)$match[3]+1==(int)$match[5])) { // same chapter and verse+1
+				$match[2] = $match[4];
+				$match[3] = $match[5];
+				if (strlen($match[6])!=2 && strlen($match[6])!=4) { AION_ECHO("ERROR! line=$count $newmess bad word sort number: $data"); }
+				$match[6] = (strlen($match[6])==4 ? '0'.$match[6] : '0'.$match[6].'00'); // same as Hebrew logic for 4 digit LXX word number, BUT no cases of this
 			}
 			// hey why are we here??? BOMB
 			else {
@@ -1051,14 +1061,19 @@ function AION_NEWSTRONGS_GET_PREP($file,$fout) {
 			}
 			// alternate verse and word number copied to standard so remove alternate reindex array to match array without alternate
 			// note that we do this in the TAGNT but we do not do this in the TAHOT
+			unset($match[4]);
 			unset($match[5]);
-			unset($match[6]);
 			$match = array_values($match);
 		}
 		
+		else if (
 		// regular verse word line - pre-pend word number with '2' so moved to middle of any pre-pends and appends
-		//                     1                 2      3     4     5         6         7         8         9         10        11*       12*       13*       14*       15*       16*       17*       18*       19*     20*
-		else if (preg_match('/^([[:alnum:]]{3})\.(\d+)\.(\d+)#(\d+)=([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)(.*)$/', $data, $match)) {
+		//            1                 2      3     4     5         6         7         8         9         10        11*       12*       13*       14*       15*       16*       17*       18*       19*     20*
+		preg_match('/^([[:alnum:]]{3})\.(\d+)\.(\d+)#(\d+)=([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)(.*)$/', $data, $match) ||
+		// regular verse word line, but skipped non-KJV alternate references - pre-pend word number with '2' so moved to middle of any pre-pends and appends
+		// 1                 2      3                           4     5         6         7         8         9         10        11*       12*       13*       14*       15*       16*       17*       18*       19*     20*
+		preg_match('/^([[:alnum:]]{3})\.(\d+)\.(\d+)[{(]{1}\d+\.\d+[)}]{1}#(\d+)=([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)(.*)$/', $data, $match)
+		) {
 			// Custom - Add Acts 19:41
 			if ($match[1]=='Act' && $match[2]=='19' && $match[3]=='40' && (int)$match[4]>21) { $match[3] = 41; }
 			// Custom - Add 2Cor 13:13
@@ -1087,10 +1102,18 @@ function AION_NEWSTRONGS_GET_PREP($file,$fout) {
 		$indx = sprintf('%03d', (int)array_search($book,array_keys($abooks)));
 		$chap = sprintf('%03d', (int)$match[2]);
 		$vers = sprintf('%03d', (int)$match[3]);		
-		$numb = sprintf('%05d', (int)$match[4]);
+		// special attention to $numb, could use complicated logic or simply use the original order!
+		//$numb = sprintf('%05d', (int)$match[4]); // this is complicated logic
+		if ($indx.$chap.$vers != $indx_last.$chap_last.$vers_last) { $numb = '00001'; $numbnumb = 1; }
+		else { $numb = sprintf('%05d', $numbnumb); }
+		$indx_last = $indx;
+		$chap_last = $chap;
+		$vers_last = $vers;
+		++$numbnumb;
+		
 		// remove spaces from type field
 		$match[5] = preg_replace("#[\s\+]+#u","",$match[5]);
-		$match[5] = preg_replace("#\(M\)#u","m",$match[5]);
+		$match[5] = preg_replace("#\(A\)#u","a",$match[5]);
 		$match[5] = preg_replace("#\(T\)#u","t",$match[5]);
 		$match[5] = preg_replace("#\(O\)#u","o",$match[5]);
 		$match[5] = preg_replace("#[()[\]]+#u","",$match[5]);
@@ -1133,9 +1156,9 @@ function AION_NEWSTRONGS_GET_PREP($file,$fout) {
 		$match[7] = trim(preg_replace("#\s+#u"," ",$match[7]));
 		$match[10] = preg_replace("#[\s]+#u"," ",$match[10]); // editions
 		$match[10] = trim(preg_replace("#[+]+#u","+",$match[10]),"+ "); // editions
-		$match[11] = trim(preg_replace("#\s+#u"," ",$match[11]));
-		$match[12] = trim(preg_replace("#\s+#u"," ",$match[12]));
-		$match[13] = trim(preg_replace("#\s+#u"," ",$match[13]));
+		$match[11] = trim(preg_replace("#\s+#u"," ",$match[11])," +");
+		$match[12] = trim(preg_replace("#\s+#u"," ",$match[12])," +");
+		$match[13] = trim(preg_replace("#\s+#u"," ",$match[13])," +");
 		$match[15] = trim(preg_replace("#\s+#u"," ",$match[15]));
 		$match[16] = trim(preg_replace("#\s+#u"," ",$match[16]));
 		$match[17] = trim(preg_replace("#\s+#u"," ",$match[17]));
@@ -1209,7 +1232,7 @@ function AION_NEWSTRONGS_GET($file, $begin, $end, $table, $keys, $required, $che
 	$contents = AION_NEWSTRONGS_GET_FIX($file, $contents, $result);
 	define($table, $table);
 	$lines = mb_split("\n", $contents);
-	if ($flag=="TBESH") { AION_NEWSTRONGS_GET_FIX2($file, $lines, $result); }
+	//if ($flag=="TBESH") { AION_NEWSTRONGS_GET_FIX2($file, $lines, $result); }
 	if (!is_array($result[$table])) { $result[$table] = array(); }
 	$count_keys = count($keys);
 	$count_meta = 0;
@@ -1230,10 +1253,6 @@ function AION_NEWSTRONGS_GET($file, $begin, $end, $table, $keys, $required, $che
 		for ( $newd = array(), $x = 0; $x < $count_data; $x++ ) {
 			if (!empty($keys[$x])) {
 				$data[$x] = trim($data[$x]);
-				// fix strongs number in Hebrew lexicon
-				if ($flag=="TBESH" && $keys[$x]=='STRONGS' && !($data[$x]=preg_replace("#^(H[0-9]{1,5}[A-Za-z]{0,1}).*$#ui",'$1',$data[$x]))) {
-					AION_ECHO("ERROR! $newmess bad hebrews strongs format, line='$line'");
-				}
 				$newd[$keys[$x]] = $data[$x];
 				// also check if value is empty
 				if ($once && !empty($required[$x]) && empty($newd[$keys[$x]])) {
@@ -1247,8 +1266,13 @@ function AION_NEWSTRONGS_GET($file, $begin, $end, $table, $keys, $required, $che
 		if (is_array($keysord)) { $newS = array(); foreach( $keysord as $k) { if (!empty($k)) { $newS[$k] = $newd[$k]; } } unset($newd); $newd = $newS; }
 		if ( !$key ) { $result[$table][] = $newd; }
 		else {
-			if (!empty($result[$table][$newd[$key]])) {					AION_ECHO("WARN! $newmess line=$count array key overlap! $key=".$newd[$key]); }
-			else { $result[$table][$newd[$key]] = $newd; }
+			// fix strongs number key assignment in lexicons
+			$assignkey = $newd[$key];
+			if ($flag && $key=='STRONGS' && !($assignkey=preg_replace("#^([HG]{1}[0-9]{1,5}[A-Za-z]{0,1}).*$#ui",'$1',$assignkey))) {
+				AION_ECHO("ERROR! $newmess bad lexicon strongs format key reassignment, line='$line'");
+			}
+			if (!empty($result[$table][$assignkey])) {					AION_ECHO("ERROR! $newmess line=$count array key overlap! $key=".$newd[$key]); }
+			else { $result[$table][$assignkey] = $newd; }
 		}
 		AION_unset($newS); $newS=NULL; unset($newS);
 		AION_unset($newd); $newd=NULL; unset($newd);
@@ -1594,10 +1618,12 @@ static $lookup = array(
 'H:Ss3f'=>'Hebrew she, subject pronoun - subject 3rd person feminine singular',
 'H:Ss3m'=>'Hebrew he, subject pronoun - subject 3rd person masculine singular',
 'H:V'=>'Hebrew Verb',
+'N:A'=>'Proper Name Adjective',
 'N:A--LG'=>'Proper Name Adjective Gentilic Location',
 'N:A--PG'=>'Proper Name Adjective Gentilic Person',
+'N:A-F'=>'Proper Name Adjective Feminine person',
+'N:A--L'=>'Proper Name Adjective Location',
 'N:ADV-T'=>'Proper Name Adverb',
-'N:A'=>'Proper Name Adjective',
 'N:N--L/N:N--LG/N:N-M-P'=>'Proper Name of a Location OR of a Location in Gentilic sense OR of a Male Person',
 'N:N--L/N:N--LG'=>'Proper Name of a Location OR of a Location in Gentilic sense',
 'N:N--L/N:N-M-P'=>'Proper Name of a Location OR of a Male Person',
@@ -1699,7 +1725,7 @@ function AION_NEWSTRONGS_GET_INDEX_LEX($input, $output) {
 
 
 // Count all strongs references
-function AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER($index_file, $lexicon_file, $exception=FALSE) {
+function AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER($index_file, $lexicon_file, $exception=NULL) {
 	$newmess = "INDEX_LEX_CHECKER $index_file";
 	// read data
 	$index = json_decode(file_get_contents($index_file), true);
@@ -1709,7 +1735,10 @@ function AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER($index_file, $lexicon_file, $exce
 	foreach($index as $strongs => $positions) {
 		$positionsA = explode(",", $positions);
 		// Exception for H2428 which has H2428 and H2428b, but no H2428a
-		$extension = ($exception && $strongs=="2428" ? "[A-Za-z]{0,1}" : (count($positionsA)>1 ? "[A-Za-z]{1}" : ""));
+		$extension =
+			($exception=="ALL"		? "[A-Za-z]{0,1}" :
+			($strongs==$exception	? "[A-Za-z]{0,1}" :
+			(count($positionsA)>1	? "[A-Za-z]{1}" : "")));
 		foreach($positionsA as $position) {
 			if (fseek($fd, $position) ||
 				!($line=fgets($fd)) ||
@@ -1723,16 +1752,47 @@ function AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER($index_file, $lexicon_file, $exce
 }
 
 
-// Greek leixon uStrongs and dStrongs merge
-function AION_NEWSTRONGS_GET_UD($table,&$database) {
+// Greek lexicon uStrongs and dStrongs merge
+function AION_NEWSTRONGS_GET_LEXY($table,&$database) {
+	$newmess = "AION_NEWSTRONGS_GET_LEXY()";
+	$fixed = 0;
+	$howmany = count($database[$table]);
 	foreach($database[$table] as $key => $entry) {
-		if (empty($entry['STRONGU']) || empty($entry['STRONGD'])) { AION_ECHO("ERROR! STRONGU OR STRONGD Missing from $table strongs=".$entry['STRONGS']); }
-		if (preg_match("#^[^=]+=(.+)$#u", $entry['STRONGU'], $match)) {
-			$database[$table][$key]['STRONGU'] = trim($match[1])." ".preg_replace("#([GH]{1})[0]+(\d+)#u",'$1$2',trim($entry['STRONGD']));
+		// fix the STRONGS, DSTRONGS, and USTRONGS
+/*
+eStrong	dStrong	uStrong
+G0001	G0001H =	G0001H
+G0002	G0002 = the Greek of	H0175
+G0005	G0005 = a Name of	H3068G
+H0001	H0001G =	H0001G
+H0001	H0001H = a Part of	H2438H, 
+H0001	H0001I = a Part of	H0022G
+H0002	H0002 = in Aramaic of	H0001G
+*/
+		if (!preg_match("#^([GH]{1}[\d]+[A-Z]{0,1})[ ]*=[ ]*(.*)[ ]*$#ui", $entry['STRONGS'], $match) ||
+			!preg_match("#^([GH]{1}[\d]+[A-Z]{0,1}).*$#ui", $entry['STRONGU'], $matchu)) {
+			AION_ECHO("ERROR! $newmess STRONGS OR STRONGU fouled in $table howmany = $howmany, strongs key=$key\n".print_r($entry,TRUE));
 		}
-		else { $database[$table][$key]['STRONGU'] = NULL; }
-		unset($database[$table][$key]['STRONGD']);
+		$entry['STRONGS'] = $database[$table][$key]['STRONGS'] = $match[1];
+		$database[$table][$key]['STRONGU'] = ($match[1] == $matchu[1] && empty($match[2]) ? '' : $match[2].' '.$matchu[1]);
+
+		// fix the Definition
+		$count = 0;
+		if ($entry['STRONGS'][0] == "H" && $entry['STRONGS'] != "H1166H" && !preg_match("#[ ]+2\)#ui",$entry['DEF'])) {
+			if (!($database[$table][$key]['DEF'] = preg_replace("#(^|[ ]+)1\)#ui", '$1', $database[$table][$key]['DEF'], -1, $count)) || $count>1 ||
+				!($database[$table][$key]['DEF'] = preg_replace($reg="#[ ]+#usi"," ", $database[$table][$key]['DEF']))) {
+				AION_ECHO("ERROR! $newmess outline removal error $count\n".print_r($entry,TRUE));
+			}
+			$fixed += $count;
+			if ($count && preg_match("#[ ]+[3-9]+[\d]*\)#ui", $entry['DEF'])) {
+				AION_ECHO("WARN! $newmess Weird, no '2)' removed '1)' but found '3)' $newmess $count\n".print_r($entry,TRUE));
+			}
+		}
+		
+		// other fixes
+		if ($entry['STRONGS'] == 'H9001') { $database[$table][$key]['GLOSS'] = 'and'; } // Fix H9001
 	}
+	$database['FIXCOUNTS'].="$newmess removed Hebrew '1)' times=$fixed\n";	
 }
 
 // Viz need its own fixing
@@ -2314,6 +2374,13 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 			if (!empty($line['VAR2'])  && !preg_match($search, $line['VAR2']))  { AION_ECHO("ERROR! VAR1 format wrong: {$line['VAR2']}!\n".print_r($line,TRUE)); }
 			if (!empty($line['SPELL']) && !preg_match($search, $line['SPELL'])) { AION_ECHO("ERROR! VAR1 format wrong: {$line['SPELL']}!\n".print_r($line,TRUE)); }
 
+			// Cleanup SPELL
+			if (NULL===($spell = preg_replace("#[|¦;]+#ui", " ; ", $line['SPELL'])) ||
+				NULL===($spell = preg_replace("#\s+#ui", " ", $spell))) {
+				AION_ECHO("ERROR! spell preg_replace()!\n".print_r($line,TRUE));
+			}
+			$spell = trim($spell, "; ");
+
 			// CLEAN UP ALTERNATE - Strip the _[A-Za-z]{1}
 			if (NULL===($alternate = preg_replace("#_[A-Za-z]{1}#ui", "", $line['ALT']))) {
 				AION_ECHO("ERROR! alternate preg_replace()!\n".print_r($line,TRUE));
@@ -2339,7 +2406,7 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 				$line['EDITIONS'] . "\t".
 				$line['VAR1'] . "\t".
 				$line['VAR2'] . "\t".
-				$line['SPELL'] . "\t".
+				$spell . "\t".
 				$strongs_additional . "\t".
 				//$line['CONJOIN'] . "\t".
 				//$instance . "\t".
@@ -2360,7 +2427,7 @@ function AION_NEWSTRONGS_STRONGS_PARSE($newmess, $strongs, $variant, &$lex_array
 	if (empty($parsed)) { AION_ECHO("ERROR! $newmess PARSE(strongs='$strongs') hey empty strongs!"); }
 	$found = count($parsed);
 	if (!$variant && $found != 1) { AION_ECHO("ERROR! $newmess PARSE(strongs='$strongs') hey more than 1 strongs!"); }
-	if ($variant && $found > 4) { AION_ECHO("WARN! $newmess PARSE(strongs='$strongs') hey more than variants=$found strongs!");
+	if ($variant && $found > 4) { AION_ECHO("WARN! $newmess PARSE(strongs='$strongs' variant=$variant) hey more than variants=$found strongs!");
 	}
 	// validate
 	$strong_return = array();
@@ -2379,17 +2446,16 @@ function AION_NEWSTRONGS_STRONGS_PARSE($newmess, $strongs, $variant, &$lex_array
 		else if (!empty($lex_array[$strong])) {				$strong_return[] = $strong;
 			$lex_array[$strong]['WORD'] = $lex_array[$strong]['TRANS'] = $lex_array[$strong]['MORPH'] = $lex_array[$strong]['DEF'] = NULL; // found
 		}
-		else if (!empty($lex_array[$strong.'G'])) {			$strong_return[] = $strong.'G'; AION_ECHO("WARN! $newmess PARSE(strongs=$strongs, strong=$strong/$strongX, substitute=$strong.G ) variant.G in lexicon");
+		else if (!empty($lex_array[$strong.'G'])) {			$strong_return[] = $strong.'G'; AION_ECHO("WARN! $newmess PARSE(strongs=$strongs, strong=$strong/$strongX, variant=$variant, substitute=$strong.G ) variant.G in lexicon");
 		}
-		else if (!empty($lex_array[$strong.'A'])) {			$strong_return[] = $strong.'A'; AION_ECHO("WARN! $newmess PARSE(strongs=$strongs, strong=$strong/$strongX, substitute=$strong.A ) variant.A in lexicon");
+		else if (!empty($lex_array[$strong.'A'])) {			$strong_return[] = $strong.'A'; AION_ECHO("WARN! $newmess PARSE(strongs=$strongs, strong=$strong/$strongX, variant=$variant, substitute=$strong.A ) variant.A in lexicon");
 		}
 		else if (!$variant) {								AION_ECHO("ERROR! $newmess PARSE(strongs=$strongs, strong=$strong/$strongX) not in lexicon"); } // not found
 		else {												AION_ECHO("ERROR! $newmess PARSE(strongs=$strongs, strong=$strong/$strongX) variant not in lexicon"); } // not found
 		// lexicon 2 entry?
 		if (!empty($lex2_array)) {
-			if (!empty($lex2_array[$strong])) {
-				$lex2_array[$strong]['WORD'] = $lex2_array[$strong]['TRANS'] = $lex2_array[$strong]['MORPH'] = $lex2_array[$strong]['DEF'] = NULL; // found
-			}
+			if (!empty($lex2_array[$strong])) {				$lex2_array[$strong]['WORD'] = $lex2_array[$strong]['TRANS'] = $lex2_array[$strong]['MORPH'] = $lex2_array[$strong]['DEF'] = NULL; } // found
+			else if (!empty($lex2_array[$strong.'G'])) {	AION_ECHO("WARN! $newmess PARSE(strongs=$strongs, strong=$strong/$strongX, variant=$variant, substitute=$strong.G ) variant.G in lexicon2"); }
 			else if (!$variant) {							AION_ECHO("ERROR! $newmess PARSE(strongs=$strongs, strong=$strong/$strongX) not in lexicon2"); } // not found
 			else {											AION_ECHO("ERROR! $newmess PARSE(strongs=$strongs, strong=$strong/$strongX) variant not in lexicon2"); } // not found
 		}
@@ -2488,9 +2554,30 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 			AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");
 		}
 
-		// VALIDATE TAGNT TYPE
-		if (!preg_match('#^(M|MO|MT|MTO|MTo|Mo|MtO|Mto|O|T|TO|To|tO)$#', $line['TYPE'])) {
-			AION_ECHO("ERROR! $newmess word type missing {$line['TYPE']}\n".print_r($line,TRUE));
+		// VALIDATE TAGNT TYPE 
+		static $tagnttype = array(
+			"ATO"	=> "Identical in all sources",
+			"ATo"	=> "Identical in ancient and traditional sources, minor differences in other sources",
+			"AtO"	=> "Identical in ancient and other sources, minor differences in traditional sources",
+			"Ato"	=> "Present ancient sources, minor differences in traditional and other sources",
+			"atO"	=> "Present in other sources, minor differences in ancient and traditional sources",
+			"ato"	=> "Present with minor differences in ancient, traditional, and other sources",
+			"AT"	=> "Identical in ancient and traditional sources, absent in other sources",
+			"A"		=> "Present in ancient sources, absent in traditional and other sources",
+			"AO"	=> "Identical in ancient and other sources, absent in traditional sources",
+			"Ao"	=> "Present in ancient sources, minor differences in other sources, absent in traditional sources",
+			"a"		=> "Present with minor differences in ancient sources, absent in traditional and other sources",
+			"ao"	=> "Present with minor differences in ancient and other sources, absent in traditional sources",
+			"TO"	=> "Identical in traditional and other sources, absent in ancient sources",
+			"To"	=> "Present in traditional sources, minor differences in other sources, absent in ancient sources",
+			"T"		=> "Present in traditional sources, absent in ancient and other sources",
+			"t"		=> "Present with minor differences in traditional sources, absent in ancient and other sources",
+			"to"	=> "Present with minor differences in traditional and other sources, absent in ancient sources",
+			"O"		=> "Present in other sources, absent in ancient and traditional sources",
+			"Ot"	=> "Present in other sources, minor differences in traditional sources, absent in ancient sources",
+		);
+		if (!in_array($line['TYPE'], array_keys($tagnttype))) {
+			AION_ECHO("WARN! $newmess word type missing {$line['TYPE']}\n".print_r($line,TRUE));
 		}
 
 		// PARSE REFERENCE
@@ -2630,13 +2717,14 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 			
 			// VALIDATE EDITIONS
 			$editions  = $line['EDITIONS'];
-			$editions .= (empty($line['VAR1'])  ? "" : ("+".preg_replace("#^.+ in (.+)$#us", '$1', $line['VAR1'])));
-			$editions .= (empty($line['VAR2'])  ? "" : ("+".preg_replace("#^.+ in (.+)$#us", '$1', $line['VAR2'])));
-			$editions .= (!preg_match("#^([^;]+):.+$#us", $line['SPELL']) ? "" : ("+".preg_replace("#^([^;]+):.+$#us",  '$1', $line['SPELL'])));
-			$editions .= (!preg_match("#^[^;]+;([^;]+):.+$#us", $line['SPELL']) ? "" : ("+".preg_replace("#^[^;]+;([^;]+):.+$#us",  '$1', $line['SPELL'])));
-			$editions .= (!preg_match("#^[^;]+;[^;]+;([^;]+):.+$#us", $line['SPELL']) ? "" : ("+".preg_replace("#^[^;]+;[^;]+;([^;]+):.+$#us",  '$1', $line['SPELL'])));
+			$editions .= (empty($line['VAR1'])  ? "" : ("+".preg_replace("#^.+ in: (.+)$#us", '$1', $line['VAR1'])));
+			$editions .= (empty($line['VAR2'])  ? "" : ("+".preg_replace("#^.+ in: (.+)$#us", '$1', $line['VAR2'])));
+			$editions .= (!preg_match("#^([^;:]+):.+$#us", $line['SPELL']) ? "" : ("+".preg_replace("#^([^;:]+):.+$#us",  '$1', $line['SPELL'])));
+			$editions .= (!preg_match("#^[^;]+;([^;:]+):.+$#us", $line['SPELL']) ? "" : ("+".preg_replace("#^[^;]+;([^;:]+):.+$#us",  '$1', $line['SPELL'])));
+			$editions .= (!preg_match("#^[^;]+;[^;]+;([^;:]+):.+$#us", $line['SPELL']) ? "" : ("+".preg_replace("#^[^;]+;[^;]+;([^;:]+):.+$#us",  '$1', $line['SPELL'])));
+			$editions  = preg_replace("#; moved [«»]+[\d.]+:#u", "+", $editions);
+			$editions  = preg_replace("#[«»]+[\d.]+[:]*#u", "+", $editions);
 			$editions  = preg_replace("#\s+#u", "+", $editions);
-			$editions  = preg_replace("#[«»]+[\d.]+:#u", "+", $editions);
 			$editions  = preg_replace("#0([\d]+)#u", 'U$1', $editions); // replace 0 with U for unicals
 			$editions  = trim(preg_replace("#[+]+#u", "+", $editions),"+");
 			if (($editions_diff=array_diff(explode("+", $editions), array_keys($vartrans)))) {
@@ -2644,8 +2732,9 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 				AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");	
 			}
 			// FIX EDITIONS
+			$line['EDITIONS'] = preg_replace("#; moved [«»]+[\d.]+:#u", "+", $line['EDITIONS']);
+			$line['EDITIONS'] = preg_replace("#[«»]+[\d.]+[:]*#u", "+", $line['EDITIONS']);
 			$line['EDITIONS'] = preg_replace("#\s+#u", "+", $line['EDITIONS']);
-			$line['EDITIONS'] = preg_replace("#[«»]+[\d.]+:#u", "+", $line['EDITIONS']);
 			$line['EDITIONS'] = preg_replace("#0([\d]+)#u", 'U$1', $line['EDITIONS']); // replace 0 with U for unicals
 			$line['EDITIONS'] = trim(preg_replace("#[+]+#u", "+", $line['EDITIONS']),"+");			
 
@@ -2674,6 +2763,11 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 			$line['EXTRA'] = preg_replace("#@#u", " @ ", $line['EXTRA']);
 			$line['EXTRA'] = trim($line['EXTRA']," @:;,-+$");
 
+			// CLEAN UP ALTERNATE - Strip the _[A-Za-z]{1}
+			if (NULL===($alternate = preg_replace("#_[A-Za-z]{1}#ui", "", $line['ALT']))) {
+				AION_ECHO("ERROR! alternate preg_replace()!\n".print_r($line,TRUE));
+			}
+
 			// VALIDATE STRONGS # IN VAR1, VAR2, AND ALT
 			if (!empty($line['VAR1'])) { AION_NEWSTRONGS_STRONGS_PARSE($newmess, $line['VAR1'], TRUE, $lex_array, $lex2_array); }
 			if (!empty($line['VAR2'])) { AION_NEWSTRONGS_STRONGS_PARSE($newmess, $line['VAR2'], TRUE, $lex_array, $lex2_array); }
@@ -2701,7 +2795,7 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 				//trim($line['CONJOIN'])."\t".
 				//trim($line['INSTANCE'])."\t".
 				//"$occur\t".
-				trim($line['ALT'])."\n";
+				trim($alternate)."\n";
 			// W=next word, J=joined words
 			$jointype = "J";
 		}
@@ -2738,8 +2832,12 @@ Lam.1.6#02=Q(K)		[ ]	[ ]			K= min- (מִן\־) "from" (H4480A\H9014=HR)	L= מִ�
 Lam.4.3#10=Q(K)		[ ]	[ ]			K= ki (כִּי) "for" (H3588A=HTc)	L= כַּיְ ¦ ;									
 Ezk.48.16#12=Q(K)		[ ]	[ ]			K= cha.mesh (חֲמֵשׁ) "five" (H2568=HAcbsc)	L= חמש ¦ ;			
 
-Mat.17.14#11=M +(T)+ O	αὐτὸν (auton)	[to] Him	G0846=P-ASM	αὐτός=he/she/it/self	NA28+NA27+Tyn+SBL+WH+Treg+Byz	αὐτῷ(- autō) to Him - G0846=P-DSM in TR			(ante) él	him	#11«10:G1120	G0846_C				
-Mat.17.15#01 (17.14)=M + T + O	καὶ (kai)	and	G2532=CONJ	καί=and	NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz				Y	and	#01	G2532_A				
+Mat.15.6{15.5}#09=TO	τὴν (tēn)	the	G3588=T-ASF	ὁ=the/this/who	BRT				la	the	Mat.15.6{15.5}#09»10:G3384	G3588_b			
+Mat.15.6{15.5}#10=TO	μητέρα (mētera)	mother	G3384=N-ASF	μήτηρ=mother	BRT				madre	mother	Mat.15.6{15.5}#10	G3384			
+Mat.15.6{15.5}#11=TO	αὐτοῦ, (autou)	of him	G0846=P-GSM	αὐτός=he/she/it/self	BRT				de él	of him	Mat.15.6{15.5}#11«10:G3384	G0846_b			
+Mat.15.6#12=ATO	καὶ (kai)	{6} And	G2532=CONJ	καί=and	NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz				E	and	#12	G2532_B			
+Mat.15.6#13=ATO	ἠκυρώσατε (ēkurōsate)	you made void	G0208=V-AAI-2P	ἀκυρόω=to nullify	NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz				invalidaron	to nullify	#13	G0208			
+Mat.15.6#14=A(t)O	τὸν (ton)	the	G3588=T-ASM	ὁ=the/this/who	NA28+NA27+Tyn+SBL+WH+Treg	τὴν (ˍtēn) the - G3588=T-ASF in: Byz+TR			la	the	#14»15:G3056	G3588_C	
 */
 		// get the line pieces
 		$match = NULL;
@@ -2750,7 +2848,8 @@ Mat.17.15#01 (17.14)=M + T + O	καὶ (kai)	and	G2532=CONJ	καί=and	NA28+NA2
 
 			('G'==$hebrew &&
 			(preg_match("#^([^.]{3})\.([\d]+)\.([\d]+)\#[\d]+=[^\t]*\t[^\t]*\t[^\t]*\t([^\t]+)#ui", $line, $match) ||
-			 preg_match("#^([^.]{3})\.([\d]+)\.([\d]+)\#[^(]+\(([\d]+)\.([\d]+)\)=[^\t]*\t[^\t]*\t[^\t]*\t([^\t]+)#ui", $line, $match)))
+			 preg_match("#^([^.]{3})\.([\d]+)\.([\d]+)[({]{1}[\d]+\.[\d]+[)}]{1}\#[\d]+=[^\t]*\t[^\t]*\t[^\t]*\t([^\t]+)#ui", $line, $match)) ||
+			 preg_match("#^([^.]{3})\.([\d]+)\.([\d]+)\[([\d]+)\.([\d]+)\]\#[\d]+=[^\t]*\t[^\t]*\t[^\t]*\t([^\t]+)#ui", $line, $match))
 			
 		)) { continue; }
 		// if greek and alternate references
@@ -3177,7 +3276,6 @@ function AION_NEWSTRONGS_COUNT_REF_CHECKER($countsF, $source1, $begin1, $end1, $
 	if ($save && $file && !file_put_contents($file, $source)) {													AION_ECHO("ERROR! $newmess !file_put_contents($file)"); }
 	// loop through counts
 	foreach($counts as $strongs => $numbers) {
-		if ($strongs == "0") { continue; }
 		if (FALSE===preg_match("#^([0-9]{1,5})([A-Za-z]{0,1})$#u", $strongs, $match)) { AION_ECHO("ERROR! $newmess !preg_match()"); }
 		$strongs = $letter.sprintf('%04d',$match[1]).$match[2];
 		$special = $letter.sprintf('%04d',$match[1]);
@@ -3198,13 +3296,21 @@ function AION_NEWSTRONGS_COUNT_REF_CHECKER($countsF, $source1, $begin1, $end1, $
 		}
 		// redo Greek to use orig file! with this regex "/\n[^#\t]{1}[^\t]+\t[^\t]+\t[^\t]+\tG0976=/ui"
 		else {
-			if (FALSE===preg_match_all("/\n[^#\t]{1}[^\n\t]+\t[^\n\t]+\t[^\n\t]+\t[^\n\t]*($strongs)[A-Z]{0,1}=/u", $source, $parsed, PREG_PATTERN_ORDER)) { AION_ECHO("ERROR! $newmess !preg_match_all()"); }
-			if (FALSE===preg_match_all("/^[^#\t]{1}[^\n\t]+\t[^\n\t]+\t[^\n\t]+\t[^\n\t]*($strongs)[A-Z]{0,1}=/u", $source, $parsed2, PREG_PATTERN_ORDER)) { AION_ECHO("ERROR! $newmess !preg_match_all()"); }
+			if (empty($match[2])) {
+				if (FALSE===preg_match_all("/\n[^#\t]{1}[^\n\t]+\t[^\n\t]+\t[^\n\t]+\t[^\n\t]*($strongs)[A-Z]{0,1}=/u", $source, $parsed, PREG_PATTERN_ORDER)) { AION_ECHO("ERROR! $newmess !preg_match_all()"); }
+				if (FALSE===preg_match_all("/^[^#\t]{1}[^\n\t]+\t[^\n\t]+\t[^\n\t]+\t[^\n\t]*($strongs)[A-Z]{0,1}=/u", $source, $parsed2, PREG_PATTERN_ORDER)) { AION_ECHO("ERROR! $newmess !preg_match_all()"); }
+			}
+			else {
+				if (FALSE===preg_match_all("/\n[^#\t]{1}[^\n\t]+\t[^\n\t]+\t[^\n\t]+\t[^\n\t]*($strongs)=/u", $source, $parsed, PREG_PATTERN_ORDER)) { AION_ECHO("ERROR! $newmess !preg_match_all()"); }
+				if (FALSE===preg_match_all("/^[^#\t]{1}[^\n\t]+\t[^\n\t]+\t[^\n\t]+\t[^\n\t]*($strongs)=/u", $source, $parsed2, PREG_PATTERN_ORDER)) { AION_ECHO("ERROR! $newmess !preg_match_all()"); }
+				if (FALSE===preg_match_all("/\n[^#\t]{1}[^\n\t]+\t[^\n\t]+\t[^\n\t]+\t[^\n\t]*($special)=/u", $source, $parsed3, PREG_PATTERN_ORDER)) { AION_ECHO("ERROR! $newmess !preg_match_all()"); }
+			}
 			$found  = (empty($parsed[1])  || !is_array($parsed[1] ) ? 0 : count($parsed[1] ));
 			$found += (empty($parsed2[1]) || !is_array($parsed2[1]) ? 0 : count($parsed2[1]));
+			$found3 = (empty($parsed3[1])  || !is_array($parsed3[1]) ? 0 : count($parsed3[1]));
 		}
 		if ($numbers[3] != $found) {
-			AION_ECHO("WARN! $newmess count mismatch for $strongs: $numbers[3] != $found, but found3 = $found3 (variant.[AG] -OR- Q(K) issue?)");
+			AION_ECHO("WARN! $newmess count mismatch for $strongs: $numbers[3] != $found, but $special found3 = $found3 (variant.[AG] -OR- Q(K) issue?)");
 		}
 	}
 	return;
@@ -3435,7 +3541,7 @@ function AION_NEWSTRONGS_STEPBIBLE($hebtag,$hebdex,$heblex,$gretag,$gredex,$grel
 // https://www.STEPBible.org
 // https://github.com/STEPBible/STEPBible-Data
 //
-//  Old Testament Variation Legend
+//  Old Testament Source Legend
 //	"A"		=> "Aleppo",
 //	"AH"	=> "Aleppo and Ben Chaim",
 //	"AV"	=> "Aleppo and other Hebrew manuscripts",
@@ -3468,20 +3574,26 @@ function AION_NEWSTRONGS_STEPBIBLE($hebtag,$hebdex,$heblex,$gretag,$gredex,$grel
 //	"V"		=> "Other Hebrew manuscripts",
 //	"X"		=> "Extra words from Septuagint (LXX), in Hebrew based on apparatus in BHS and BHK",
 //
-//  New Testament Variation Legend
-//	"M"		=> "Modern Bibles only, not KJV and other Bibles",
-//	"MO"	=> "Modern and other Bibles, not KJV Bible",
-//	"MT"	=> "Modern and KJV Bibles, not other Bibles",
-//	"Mt"	=> "Modern Bibles, variants in KJV Bible, not other Bibles",
-//	"MTO"	=> "Modern, KJV, and other Bibles",
-//	"MTo"	=> "Modern and KJV Bibles, variants in other Bibles",
-//	"Mo"	=> "Modern Bibles, variants in other Bibles, not KJV Bible",
-//	"MtO"	=> "Modern and other Bibles, variants in KJV Bible",
-//	"Mto"	=> "Modern Bibles, variants in KJV and other Bibles",
-//	"O"		=> "Other Bibles only, not modern and KJV Bibles",
-//	"T"		=> "KJV Bible only, not modern and other Bibles",
-//	"TO"	=> "KJV and other Bibles only, not modern Bibles",
-//	"To"	=> "KJV Bible, variants in other Bibles, not modern bibles",
+//  New Testament Source Legend
+//	"ATO"	=> "Identical in all sources",
+//	"ATo"	=> "Identical in ancient and traditional sources, minor differences in other sources",
+//	"AtO"	=> "Identical in ancient and other sources, minor differences in traditional sources",
+//	"Ato"	=> "Present ancient sources, minor differences in traditional and other sources",
+//	"atO"	=> "Present in other sources, minor differences in ancient and traditional sources",
+//	"ato"	=> "Present with minor differences in ancient, traditional, and other sources",
+//	"AT"	=> "Identical in ancient and traditional sources, absent in other sources",
+//	"A"		=> "Present in ancient sources, absent in traditional and other sources",
+//	"AO"	=> "Identical in ancient and other sources, absent in traditional sources",
+//	"Ao"	=> "Present in ancient sources, minor differences in other sources, absent in traditional sources",
+//	"a"		=> "Present with minor differences in ancient sources, absent in traditional and other sources",
+//	"ao"	=> "Present with minor differences in ancient and other sources, absent in traditional sources",
+//	"TO"	=> "Identical in traditional and other sources, absent in ancient sources",
+//	"To"	=> "Present in traditional sources, minor differences in other sources, absent in ancient sources",
+//	"T"		=> "Present in traditional sources, absent in ancient and other sources",
+//	"t"		=> "Present with minor differences in traditional sources, absent in ancient and other sources",
+//	"to"	=> "Present with minor differences in traditional and other sources, absent in ancient sources",
+//	"O"		=> "Present in other sources, absent in ancient and traditional sources",
+//	"Ot"	=> "Present in other sources, minor differences in traditional sources, absent in ancient sources",
 //
 //
 
@@ -3526,8 +3638,7 @@ EOF;
 		*/
 		if ($amal=="[׆]" || $amal=="[׃]" || $amal=="[ס]" || $amal=="[פ]") {	$fullstop = TRUE; }
 		else if ($fullstop && preg_match("#^[[:alpha:]]{1}#",$amal[0])) {	$fullstop = FALSE; $amal[0] = mb_strtoupper($amal[0]); }
-		// skip lines
-		if ($strg=="0") { $line = strtok( "\n" ); continue; }
+		// lexicon entry
 		$orig = $strg;
 		if ((empty($index[$strg]) || fseek($fd, $index[$strg]) || !($entry=fgets($fd)) || !preg_match("#^$strg\t#u",$entry)) &&
 			(empty($index[($strg = $orig.'A')]) || fseek($fd, $index[$strg]) || !($entry=fgets($fd)) || !preg_match("#^$strg\t#u",$entry)) &&
@@ -3535,7 +3646,7 @@ EOF;
 			AION_ECHO("ERROR! $newmess dex lex not found, index=".$index[$strg].": $line, $entry");
 		}
 		$defs = explode("\t",$entry);
-		$word = trim($defs[3]);
+		$word = trim($defs[4]);
 		if ($wtype==$last_wtype) {			$wtype_close = "";					$wtype_open = " "; }
 		else if ($wtype=="L") {				$wtype_close = " *$last_wtype)";	$wtype_open = " "; }
 		else  if ($last_wtype!="L") { 		$wtype_close = " *$last_wtype)";	$wtype_open = " ("; }
@@ -3557,7 +3668,7 @@ EOF;
 	if (!($fd=fopen($grelex, 'r'))) {								AION_ECHO("ERROR! $newmess !fopen($grelex)"); }
 	// greek loop tags
 	$last_book = "XXX"; $last_vers = 0;
-	$last_wtype = "MTO";
+	$last_wtype = "ATO";
 	$line = strtok($contents, "\n");
 	while ($line !== false) {
 		if (!ctype_digit($line[0])) { $line = strtok( "\n" ); continue; }
@@ -3567,25 +3678,26 @@ EOF;
 		$book = strtoupper($book); if (!ctype_digit($book[0])) { $book[1] = strtolower($book[1]); } $book[2] = strtolower($book[2]);
 		if ($book != $last_book) { AION_ECHO("BUILDING Concordant STEPBible! $book"); $last_book = $book; }
 		if ($vers != $last_vers) {
-			$wtype_close = ($last_wtype=="MTO" ? "" : " *$last_wtype)");
+			$wtype_close = ($last_wtype=="ATO" ? "" : " *$last_wtype)");
 			$bibledata_ama .= ("$wtype_close\n$book $chap:$vers ");
 			$bibledata_con .= ("$wtype_close\n$book $chap:$vers ");
 			$last_vers = $vers;
-			$last_wtype = "MTO";
+			$last_wtype = "ATO";
 		}
 		// remove <words>
 		if (NULL===($amal = preg_replace("#<[^<>]+>#usi","",$amal))) { AION_ECHO("ERROR! $newmess !preg_replace($amal)"); }
-		// skip lines
-		if ($strg=="0") { $line = strtok( "\n" ); continue; }
 		// lexicon entry
-		if (empty($index[$strg])) { 								AION_ECHO("ERROR! $newmess lex dex not found: $line"); }
-		if (fseek($fd, $index[$strg]) || !($entry=fgets($fd)) ||
-			!preg_match("#^$strg\t#u",$entry)) {					AION_ECHO("ERROR! $newmess dex lex not found, index=".$index[$strg].": $line, $entry"); }
+		$orig = $strg;
+		if ((empty($index[$strg]) || fseek($fd, $index[$strg]) || !($entry=fgets($fd)) || !preg_match("#^$strg\t#u",$entry)) &&
+			(empty($index[($strg = $orig.'A')]) || fseek($fd, $index[$strg]) || !($entry=fgets($fd)) || !preg_match("#^$strg\t#u",$entry)) &&
+			(empty($index[($strg = $orig.'G')]) || fseek($fd, $index[$strg]) || !($entry=fgets($fd)) || !preg_match("#^$strg\t#u",$entry))) {
+			AION_ECHO("ERROR! $newmess dex lex not found, index=".$index[$strg].": $line, $entry");
+		}
 		$defs = explode("\t",$entry);
-		$word = trim($defs[3]);
+		$word = trim($defs[4]);
 		if ($wtype==$last_wtype) {			$wtype_close = "";					$wtype_open = " "; }
-		else if ($wtype=="MTO") {			$wtype_close = " *$last_wtype)";	$wtype_open = " "; }
-		else  if ($last_wtype!="MTO") { 	$wtype_close = " *$last_wtype)";	$wtype_open = " ("; }
+		else if ($wtype=="ATO") {			$wtype_close = " *$last_wtype)";	$wtype_open = " "; }
+		else  if ($last_wtype!="ATO") { 	$wtype_close = " *$last_wtype)";	$wtype_open = " ("; }
 		else {							 	$wtype_close = "";					$wtype_open = " ("; }
 		$last_wtype = $wtype;
 		// build the bible word by word
@@ -3594,7 +3706,7 @@ EOF;
 		$line = strtok( "\n" );
 	}
 	// last wtype
-	$wtype_close = ($last_wtype=="MTO" ? "" : " *$last_wtype)");
+	$wtype_close = ($last_wtype=="ATO" ? "" : " *$last_wtype)");
 	$bibledata_ama .= ("$wtype_close\n");
 	$bibledata_con .= ("$wtype_close\n");
 	// close

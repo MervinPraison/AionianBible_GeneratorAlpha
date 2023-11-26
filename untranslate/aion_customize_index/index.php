@@ -579,12 +579,11 @@ $_BibleSTRONGS = array();
 while(($line=fgets($fd))) {
 	$line = rtrim($line,"\r\n");
 	if (!($parts = mb_split("\t", $line)) ||
-		($bnum<=39 && count($parts)!=11) ||
-		($bnum>=40 && count($parts)!=18) ||
+		count($parts)!=19 ||
 		empty($parts[0]) ||
 		empty($parts[2]) ||
 		empty($parts[3]) ||
-		!preg_match("#^([GH]{1}[\d]{1,5})([a-z]{0,1})$#ui",$parts[4],$match)) {
+		!preg_match("#^([GH]{1}[\d]{1,5})([A-Za-z]{0,1})$#ui",$parts[4],$match)) {
 		fclose($fd);
 		abcms_errs("abcms_word_init_chap_stro() strongs bible chapter tag lines corrupt! $line");
 		$_BibleSTRONGS = NULL;
@@ -593,10 +592,11 @@ while(($line=fgets($fd))) {
 	// done with book, chapter, or verse
 	if ((int)$parts[0] != $bnum || (int)$parts[2] != $chap || ($vers!==NULL && (int)$parts[3] != $vers)) { break; }
 	// contains whole chapter of strongs usage!
-	$parts[4] = strtolower($parts[4]);
+	$bald = lcfirst($match[1]);
+	$parts[4] = $bald . $match[2]; // [gh]\d+(case-sensitive)
 	if ($vers===NULL) {
 		$_BibleSTRONGS[(int)$parts[3]][$parts[4]] = TRUE; // flag strong extended always
-		if (!empty($match[2])) { $_BibleSTRONGS[(int)$parts[3]][strtolower($match[1])] = TRUE; } // flag bald strongs if needed
+		if (!empty($match[2])) { $_BibleSTRONGS[(int)$parts[3]][$bald] = TRUE; } // flag bald strongs if needed
 		continue;
 	}
 	// -OR- contains whole verse of strongs tags!
@@ -1423,15 +1423,15 @@ if (empty($_stid)) {
 if ($_Part[0]==='Glossary' || $_Part[0]==='Publisher') {
 	return abcms_bomb("/Read","Invalid URL Requested, Strongs-Id not permitted in path",FALSE,$nopage);
 }
-if (!preg_match('#^([gh]{1})([\d]{1,5})([a-z]{0,1})$#',$_stidC,$matches)) {
+if (!preg_match('#^([gh]{1})([\d]{1,5})([A-Za-z]{0,1})$#u',$_stidC,$matches)) {
 	if ($_Part[0]!=='Strongs') { return abcms_bomb("/Read","The Strongs number requested was not found",FALSE,$nopage); }
 }
 else {
 	$_stidN = intval($matches[2]);
 	$_stidX = (empty($matches[3]) ? NULL : $matches[3]);
 	$_stidC = $matches[1].$_stidN.$_stidX; // rebuild and loose leading zeros
-	if (!(($_stidC[0]==='h' && $_stidN >= 0 && $_stidN <= 9049) ||
-		($_stidC[0]==='g' && $_stidN >= 1 && $_stidN <= 21369 && $_stidN != 2717 && !($_stidN >= 3203 && $_stidN <= 3302) && !($_stidN >= 9997 && $_stidN <= 20000)))) {
+	if (!(($_stidC[0]==='h' && $_stidN >= 1 && $_stidN <= 9049) ||
+		($_stidC[0]==='g' && $_stidN >= 1 && $_stidN <= 21502 && $_stidN != 2717 && !($_stidN >= 3203 && $_stidN <= 3302) && !($_stidN >= 9997 && $_stidN <= 20000)))) {
 		if ($_Part[0]!=='Strongs') { return abcms_bomb("/Read","The Strongs number requested was not found",FALSE,$nopage); }
 		$_stidN = $_stidX = NULL;
 	}
@@ -1445,7 +1445,7 @@ return TRUE;
 /*** STRONGS ***/
 function abcms_stro() {
 global $_pnum, $_stidC, $_stidN;
-if (!empty($_POST['sid'])) { exit(header("Location: ".abcms_href(TRUE,'',TRUE,"/strongs-".strtolower(preg_replace('/[^a-zA-Z0-9]+/', '', $_POST['sid']))),true,302)); }
+if (!empty($_POST['sid'])) { exit(header("Location: ".abcms_href(TRUE,'',TRUE,"/strongs-".lcfirst(preg_replace('/[^a-zA-Z0-9]+/', '', $_POST['sid']))),true,302)); }
 if ($_pnum===2) { abcms_word_init(); }
 abcms_word_init_para();
 abcms_html();
@@ -1481,65 +1481,49 @@ abcms_tail();
 function abcms_enty($strongs,$tag=NULL,$book=NULL,$chap=NULL,$verse=NULL) {
 // init
 global $_stidC, $_stidN, $_Path, $_Part;
-static $elementid = 0;
-++$elementid;
-static $editions_replace = array(
-	"Byz"		=> "<a href='javascript:void(0)' title='Byzantine from Robinson/Pierpoint'>Byz</a>",
-	"Coptic"	=> "<a href='javascript:void(0)' title='Coptic Manuscript'>Coptic</a>",
-	"ESV"		=> "<a href='javascript:void(0)' title='English Standard Version'>ESV</a>",
-	"Goodnews"	=> "<a href='javascript:void(0)' title='Goodnews Bible'>Goodnews</a>",
-	"KJV"		=> "<a href='javascript:void(0)' title='King James Version'>KJV</a>",
-	"KJV?"		=> "<a href='javascript:void(0)' title='King James Version (possibly)'>KJV?</a>",
-	"NA26"		=> "<a href='javascript:void(0)' title='Nestle/Aland 26th Edition'>NA26</a>",
-	"NA27"		=> "<a href='javascript:void(0)' title='Nestle/Aland 27th Edition'>NA27</a>",
-	"NA28"		=> "<a href='javascript:void(0)' title='Nestle/Aland 28th Edition, not ECM'>NA28</a>",
-	"Latin"		=> "<a href='javascript:void(0)' title='Latin'>Latin</a>",
-	"NIV"		=> "<a href='javascript:void(0)' title='New International Version'>NIV</a>",
-	"OldLatin"	=> "<a href='javascript:void(0)' title='Old Latin version'>OldLatin</a>",
-	"OldSyriac"	=> "<a href='javascript:void(0)' title='Old Syriac version'>OldSyriac</a>",
-	"P66"		=> "<a href='javascript:void(0)' title='Papyri #66'>P66</a>",
-	"P66*"		=> "<a href='javascript:void(0)' title='Papyri #66 corrector'>P66*</a>",
-	"Punc"		=> "<a href='javascript:void(0)' title='Accent variant from punctuation'>Punc</a>",
-	"SBL"		=> "<a href='javascript:void(0)' title='Society of Biblical Literature Greek NT'>SBL</a>",
-	"Syriac"	=> "<a href='javascript:void(0)' title='Syriac'>Syriac</a>",
-	"TR"		=> "<a href='javascript:void(0)' title='Textus Receptus'>TR</a>",
-	"Treg"		=> "<a href='javascript:void(0)' title='Tregelles'>Treg</a>",
-	"Tyn"		=> "<a href='javascript:void(0)' title='Tyndale House GNT'>Tyn</a>",
-	"U1"		=> "<a href='javascript:void(0)' title='Uncial #1'>U1</a>",
-	"U2"		=> "<a href='javascript:void(0)' title='Uncial #2'>U2</a>",
-	"U3"		=> "<a href='javascript:void(0)' title='Uncial #3'>U3</a>",
-	"U4"		=> "<a href='javascript:void(0)' title='Uncial #4'>U4</a>",
-	"U5"		=> "<a href='javascript:void(0)' title='Uncial #5'>U5</a>",
-	"U6"		=> "<a href='javascript:void(0)' title='Uncial #6'>U6</a>",
-	"U32"		=> "<a href='javascript:void(0)' title='Uncial #32'>U32</a>",
-	"WH"		=> "<a href='javascript:void(0)' title='Westcott/Hort'>WH</a>",
+
+// LOOKUP ARRAYS
+// jointype
+static $jointype = array(
+	"W"		=> "Next word",
+	"W$"	=> "Next word (Hebrew root)",
+	"W+"	=> "Next word (shares Strongs# with following word)",
+	"C"		=> "Continue previous word",
+	"C$"	=> "Continue previous word (Hebrew root)",
+	"C+"	=> "Continue previous word (shares Strongs# with following word)",
+	"J"		=> "Joined with previous word",
+	"J$"	=> "Joined with previous word (Hebrew root)",
+	"D"		=> "Divided from previous word",
+	"D$"	=> "Divided from previous word (Hebrew root)",
+	"L"		=> "Link previous-next word",
+	"P"		=> "Punctuation",
 	);
-static $editions_search = NULL; if (NULL===$editions_search) { $editions_search = array_keys($editions_replace); }
-//* M=modern - NA27 with NA28 spelling; T=traditional - TR corrected to KJV; O=other excepting Byz when it supports TR and including readings in ECM that differ from NA27
-//** All variants are included that have any difference in grammar. Spelling variations are not included unless they create a name that would be pronounced significantly differently.
-static $entry = array(
-	"NA=TR"	=> "Translated the same in modern Bibles (Nestle/Aland) and the KJV (Textus Receptus)",
-	"NA~TR"	=> "Translated differently in modern Bibles (Nestle/Aland) and the KJV (Textus Receptus)",
-	"NA-TR"	=> "Translated in most modern Bibles (Nestle/Aland), but not in the KJV (Textus Receptus)",
-	"KJV"	=> "Translated in the KJV (Textus Receptus), but not in most modern Bibles (Nestle/Aland)",
-	"KJV+"	=> "Translated in the KJV (Textus Receptus), but not in most modern Bibles (Nestle/Aland)",
-	"KJV++"	=> "Translated in the KJV (Textus Receptus) and in some modern Bibles (Nestle/Aland)",
-	"NATR?"	=> "Found in early manuscripts, but not translated in most Bibles",
-	"M"		=> "Modern Bibles only, not KJV and other Bibles",
-	"MO"	=> "Modern and other Bibles, not KJV Bible",
-	"MT"	=> "Modern and KJV Bibles, not other Bibles",
-	"Mt"	=> "Modern Bibles, variants in KJV Bible, not other Bibles",
-	"MTO"	=> "Modern, KJV, and other Bibles",
-	"MTo"	=> "Modern and KJV Bibles, variants in other Bibles",
-	"Mo"	=> "Modern Bibles, variants in other Bibles, not KJV Bible",
-	"MtO"	=> "Modern and other Bibles, variants in KJV Bible",
-	"Mto"	=> "Modern Bibles, variants in KJV and other Bibles",
-	"O"		=> "Other Bibles only, not modern and KJV Bibles",
-	"T"		=> "KJV Bible only, not modern and other Bibles",
-	"TO"	=> "KJV and other Bibles only, not modern Bibles",
-	"To"	=> "KJV Bible, variants in other Bibles, not modern bibles",
+
+// TAGNT types
+static $entry_type_greek = array(
+	"ATO"	=> "Identical in all sources",
+	"ATo"	=> "Identical in ancient and traditional sources, minor differences in other sources",
+	"AtO"	=> "Identical in ancient and other sources, minor differences in traditional sources",
+	"Ato"	=> "Present ancient sources, minor differences in traditional and other sources",
+	"atO"	=> "Present in other sources, minor differences in ancient and traditional sources",
+	"ato"	=> "Present with minor differences in ancient, traditional, and other sources",
+	"AT"	=> "Identical in ancient and traditional sources, absent in other sources",
+	"A"		=> "Present in ancient sources, absent in traditional and other sources",
+	"AO"	=> "Identical in ancient and other sources, absent in traditional sources",
+	"Ao"	=> "Present in ancient sources, minor differences in other sources, absent in traditional sources",
+	"a"		=> "Present with minor differences in ancient sources, absent in traditional and other sources",
+	"ao"	=> "Present with minor differences in ancient and other sources, absent in traditional sources",
+	"TO"	=> "Identical in traditional and other sources, absent in ancient sources",
+	"To"	=> "Present in traditional sources, minor differences in other sources, absent in ancient sources",
+	"T"		=> "Present in traditional sources, absent in ancient and other sources",
+	"t"		=> "Present with minor differences in traditional sources, absent in ancient and other sources",
+	"to"	=> "Present with minor differences in traditional and other sources, absent in ancient sources",
+	"O"		=> "Present in other sources, absent in ancient and traditional sources",
+	"Ot"	=> "Present in other sources, minor differences in traditional sources, absent in ancient sources",
 	);
-static $entry2 = array(
+
+// TAHOT types
+static $entry_type_hebrew = array(
 	"A"		=> "Aleppo",
 	"AH"	=> "Aleppo and Ben Chaim",
 	"AV"	=> "Aleppo and other Hebrew manuscripts",
@@ -1572,104 +1556,177 @@ static $entry2 = array(
 	"V"		=> "Other Hebrew manuscripts",
 	"X"		=> "Extra words from Septuagint (LXX), in Hebrew based on apparatus in BHS and BHK",
 	);
-//$search = "#^(A/H=|A/V=|B=|C=|D=|E=|F=|H=|K=|L=|M=|P=|S=)#u";
-static $entry3 = array(
-	"A/H="	=> "Aleppo/BenChaim=",
-	"A/V="	=> "Aleppo/OtherHebrew=",
-	"B="	=> "BHS=",
-	"C="	=> "Cairensis=",
-	"D="	=> "DeadSeaManuscripts=",
-	"E="	=> "BarthelemySources=",
-	"F="	=> "Formatting=",
-	"H="	=> "BenChaim=",
-	"K="	=> "Ketiv=",
-	"L="	=> "Leningrad=",
-	"P="	=> "AltPunctuation=",
-	"S="	=> "Sopherim=",
-	"V="	=> "Other Hebrew=",
+
+// TAGNT editions
+static $editions_replace = array(
+	"#\+#u"			=> ", ",
+	"#Byz#u"		=> "<a href='javascript:void(0)' title='Byzantine from Robinson/Pierpoint'>Byz</a>",
+	"#Coptic#u"		=> "<a href='javascript:void(0)' title='Coptic Manuscript'>Coptic</a>",
+	"#ESV#u"		=> "<a href='javascript:void(0)' title='English Standard Version'>ESV</a>",
+	"#Goodnews#u"	=> "<a href='javascript:void(0)' title='Goodnews Bible'>Goodnews</a>",
+	"#KJV#u"		=> "<a href='javascript:void(0)' title='King James Version'>KJV</a>",
+	"#KJV\?#u"		=> "<a href='javascript:void(0)' title='King James Version (possibly)'>KJV?</a>",
+	"#NA26#u"		=> "<a href='javascript:void(0)' title='Nestle/Aland 26th Edition'>NA26</a>",
+	"#NA27#u"		=> "<a href='javascript:void(0)' title='Nestle/Aland 27th Edition'>NA27</a>",
+	"#NA28#u"		=> "<a href='javascript:void(0)' title='Nestle/Aland 28th Edition, not ECM'>NA28</a>",
+	"#Latin#u"		=> "<a href='javascript:void(0)' title='Latin'>Latin</a>",
+	"#NIV#u"		=> "<a href='javascript:void(0)' title='New International Version'>NIV</a>",
+	"#OldLatin#u"	=> "<a href='javascript:void(0)' title='Old Latin version'>OldLatin</a>",
+	"#OldSyriac#u"	=> "<a href='javascript:void(0)' title='Old Syriac version'>OldSyriac</a>",
+	"#P66#u"		=> "<a href='javascript:void(0)' title='Papyri #66'>P66</a>",
+	"#P66\*#u"		=> "<a href='javascript:void(0)' title='Papyri #66 corrector'>P66*</a>",
+	"#Punc#u"		=> "<a href='javascript:void(0)' title='Accent variant from punctuation'>Punc</a>",
+	"#SBL#u"		=> "<a href='javascript:void(0)' title='Society of Biblical Literature Greek NT'>SBL</a>",
+	"#Syriac#u"		=> "<a href='javascript:void(0)' title='Syriac'>Syriac</a>",
+	"#TR#u"			=> "<a href='javascript:void(0)' title='Textus Receptus'>TR</a>",
+	"#Treg#u"		=> "<a href='javascript:void(0)' title='Tregelles'>Treg</a>",
+	"#Tyn#u"		=> "<a href='javascript:void(0)' title='Tyndale House GNT'>Tyn</a>",
+	"#U1#u"			=> "<a href='javascript:void(0)' title='Uncial #1'>U1</a>",
+	"#U2#u"			=> "<a href='javascript:void(0)' title='Uncial #2'>U2</a>",
+	"#U3#u"			=> "<a href='javascript:void(0)' title='Uncial #3'>U3</a>",
+	"#U4#u"			=> "<a href='javascript:void(0)' title='Uncial #4'>U4</a>",
+	"#U5#u"			=> "<a href='javascript:void(0)' title='Uncial #5'>U5</a>",
+	"#U6#u"			=> "<a href='javascript:void(0)' title='Uncial #6'>U6</a>",
+	"#U32#u"		=> "<a href='javascript:void(0)' title='Uncial #32'>U32</a>",
+	"#WH#u"			=> "<a href='javascript:void(0)' title='Westcott/Hort'>WH</a>",
 	);
-static $entry3_search = NULL; if (NULL===$entry3_search) { $entry3_search = array_keys($entry3); }
-$tagtype =
-	(empty($tag[9]) ? NULL :
-	((0 && $strongs[0]==='h' && !empty($entry2[$tag[9]]))	? $entry2[$tag[9]] :
-	((0 && $strongs[0]==='h' && !empty($entry2[$tag[9][0]]))	? $entry2[$tag[9][0]] :
-	(($strongs[0]==='g' && !empty($entry[$tag[9]]))		? $entry[$tag[9]] :
-	NULL ))));
-// join type
-static $jointype = array(
-	"W"		=> "Next word",
-	"W$"	=> "Next word (Hebrew root)",
-	"W+"	=> "Next word (+following shares Strongs)",
-	"C"		=> "Continue previous word",
-	"C$"	=> "Continue previous word (Hebrew root)",
-	"C+"	=> "Continue previous word (+following shares Strongs)",
-	"J"		=> "Joined with previous word",
-	"J$"	=> "Joined with previous word (Hebrew root)",
-	"D"		=> "Divided from previous word",
-	"D$"	=> "Divided from previous word (Hebrew root)",
-	"L"		=> "Link previous-next word",
-	"P"		=> "Punctuation",
+static $editions_search = NULL; if (NULL===$editions_search) { $editions_search = array_keys($editions_replace); } // edition search and replace
+
+// TAHOT Leaders in VAR1, VAR2, and SPELL
+static $tahot_leaders = array(
+	"#A\/H=#u"	=> "Aleppo/BenChaim = ",
+	"#A\/V=#u"	=> "Aleppo/OtherHebrew = ",
+	"#B=#u"		=> "BHS = ",
+	"#C=#u" 	=> "Cairensis = ",
+	"#D=#u" 	=> "DeadSeaManuscripts = ",
+	"#E=#u" 	=> "BarthelemySources = ",
+	"#F=#u"		=> "Formatting = ",
+	"#H=#u"		=> "BenChaim = ",
+	"#K=#u"		=> "Ketiv = ",
+	"#L=#u"		=> "Leningrad = ",
+	"#P=#u"		=> "AltPunctuation = ",
+	"#S=#u"		=> "Sopherim = ",
+	"#V=#u"		=> "Other Hebrew = ",
 	);
-// bald strongs
-$bald = substr($strongs,1);
-$lex_strongs = $lex_original = NULL;
-// get content with file i/o
+static $tahot_leaders_search = NULL; if (NULL===$tahot_leaders_search) { $tahot_leaders_search = array_keys($tahot_leaders); } // edition search and replace
+
+// LEXICONS			0		1		2		3			4		5		6
+// HEBREW-STRONGS	STRONGS	WORD	TRANS	PRONOUNCE	LANG	MORPH	DEF
+// GREEK-STRONGS	STRONGS	WORD	TRANS	PRONOUNCE	LANG	MORPH	DEF
+// HEBREW-TYNDALE	STRONGS	STRONGU	WORD	TRANS		GLOSS	MORPH	DEF
+// GREEK-TYNDALE	STRONGS	STRONGU	WORD	TRANS		GLOSS	MORPH	DEF
+// GREEK-LSJ		STRONGS	STRONGU	WORD	TRANS		GLOSS	MORPH	DEF
+//
+// TAGS				0		1		2		3		4		5		6		7		8		9		10		11		12		13			14		15		16		17		18
+// TAHOT/TAGNT		INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH	GLOSS	MORPH	EDITIONS	VAR1	VAR2	SPELL	EXTRA	ALT
+//
+$bald = $baldyes = substr($strongs,1); // bald strongs
+$baldbald = preg_replace("#[^\d]+#", "", $bald);
+$baldnumb = $baldbald+0;
+$lex_strongs = NULL;
 if ($strongs[0]==='h') {
-	if (ctype_digit($bald) && $bald>0 && $bald <= 8674) { $lex_strongs = abcms_read_indx_line('./library/stepbible/Hebrew_Lexicon_Strongs.txt', './library/stepbible/Hebrew_Lexicon_Strongs_Index.json', $bald); }
-	if (($lex_original = (!preg_match('#^h([\d]{1,5})([a-z]{1})$#',$strongs,$matches) || empty($matches[1]) ? NULL : (string)((int)$matches[1]))) &&
-		abcms_read_json('./library/stepbible/Hebrew_Lexicon_Strongs_Index.json', $lex_original)) {
-		$lex_original =
-			"<a href='".abcms_href((empty($_Part[1]) ? '/Strongs' : "/Strongs/$_Part[1]"),FALSE,TRUE,FALSE).
-			"/strongs-h$lex_original' title='Strongs Enhanced Concordance entry h$lex_original' class='word-blue'>h$lex_original</a>";
-	}
-	$lex_tyndale = abcms_read_indx_line('./library/stepbible/Hebrew_Lexicon_Tyndale.txt', './library/stepbible/Hebrew_Lexicon_Tyndale_Index.json', $bald);
-	$lex_LSJ	 = NULL;
-	$morphs = (empty($tag[6]) ? NULL : abcms_read_json('./library/stepbible/Hebrew_Morphhology.json', $tag[6]));
-	$morphs_tyndale = (empty($lex_tyndale[4]) ? NULL : aion_morphhology($lex_tyndale[4]));
+	// Strongs
+	if ($baldnumb>0 && $baldnumb<=8674) { $lex_strongs = abcms_read_indx_line('./library/stepbible/Hebrew_Lexicon_Strongs.txt', './library/stepbible/Hebrew_Lexicon_Strongs_Index.json', $baldbald); }
+	// Tyndale
+	if (($lex_tyndale = abcms_read_indx_line('./library/stepbible/Hebrew_Lexicon_Tyndale.txt', './library/stepbible/Hebrew_Lexicon_Tyndale_Index.json', ($baldyes=$bald))) ||
+		($baldbald != $bald && ($lex_tyndale = abcms_read_indx_line('./library/stepbible/Hebrew_Lexicon_Tyndale.txt', './library/stepbible/Hebrew_Lexicon_Tyndale_Index.json', ($baldyes=$baldbald)))) ||
+		($lex_tyndale = abcms_read_indx_line('./library/stepbible/Hebrew_Lexicon_Tyndale.txt', './library/stepbible/Hebrew_Lexicon_Tyndale_Index.json', ($baldyes="{$baldbald}G"))) ||
+		($lex_tyndale = abcms_read_indx_line('./library/stepbible/Hebrew_Lexicon_Tyndale.txt', './library/stepbible/Hebrew_Lexicon_Tyndale_Index.json', ($baldyes="{$baldbald}A")))) { ; }
+	$lex_LSJ = NULL;
+	// i/o data
+	$morphs = (empty($tag[12]) ? NULL : abcms_read_json('./library/stepbible/Hebrew_Morphhology.json', $tag[12]));
+	if ($tag && !$morphs && $tag[5]!='P' && $tag[5]!='L') { abcms_errs("abcms_enty() tag morphhology not found! Strongs={$strongs} Morph={$tag[12]}"); }
+	$morphs_tyndale = (empty($lex_tyndale[5]) ? NULL : aion_morphhology($lex_tyndale[5]));
+	if ($lex_tyndale && !$morphs_tyndale) { abcms_errs("abcms_enty() tyndale morphhology not found! Strongs={$strongs} Morph={$lex_tyndale[5]}"); }
 	$morphs_LSJ = NULL;
-	$counts = abcms_read_json('./library/stepbible/Hebrew_Tagged_Text_Count.json', $bald, (empty($tag) ? TRUE : FALSE));
-	$tyndale_additional = NULL;
-	$tyndale_definition = (empty($lex_tyndale[5]) ? NULL : $lex_tyndale[5]);
+	$counts = abcms_read_json('./library/stepbible/Hebrew_Tagged_Text_Count.json', $bald, (!$tag ? TRUE : FALSE));
+	if ($tag && !$counts) { abcms_errs("abcms_enty() tag counts not found! Strongs={$strongs}"); }
 }
 else {
-	if (ctype_digit($bald) && $bald <= 5624) { $lex_strongs = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_Strongs.txt', './library/stepbible/Greek_Lexicon_Strongs_Index.json', $bald); }
-	$lex_tyndale = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_Tyndale.txt', './library/stepbible/Greek_Lexicon_Tyndale_Index.json', $bald);
-	$lex_LSJ	 = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_LSJ.txt', './library/stepbible/Greek_Lexicon_LSJ_Index.json', $bald);
-	$morphs = (empty($tag[6]) ? NULL : abcms_read_json('./library/stepbible/Greek_Morphhology.json', $tag[6]));
-	$morphs_tyndale = (empty($lex_tyndale[4]) ? NULL : aion_morphhology($lex_tyndale[4]));
-	$morphs_LSJ = (empty($lex_LSJ[4]) ? NULL : aion_morphhology($lex_LSJ[4]));
-	$counts = abcms_read_json('./library/stepbible/Greek_Tagged_Text_Count.json', $bald, (empty($tag) ? TRUE : FALSE));
-	$tyndale_additional = (empty($lex_tyndale[5]) ? NULL : $lex_tyndale[5]);
-	$tyndale_definition = (empty($lex_tyndale[6]) ? NULL : $lex_tyndale[6]);
+	// Strongs
+	if ($baldnumb>0 && $baldnumb<=5624) { $lex_strongs = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_Strongs.txt', './library/stepbible/Greek_Lexicon_Strongs_Index.json', $baldbald); }
+	// Tyndale & LSJ
+	if (($lex_tyndale = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_Tyndale.txt', './library/stepbible/Greek_Lexicon_Tyndale_Index.json', ($baldyes=$bald))) ||
+		($baldbald != $bald && ($lex_tyndale = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_Tyndale.txt', './library/stepbible/Greek_Lexicon_Tyndale_Index.json', ($baldyes=$baldbald)))) ||
+		($lex_tyndale = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_Tyndale.txt', './library/stepbible/Greek_Lexicon_Tyndale_Index.json', ($baldyes="{$baldbald}G")))) { ; }
+	if (($lex_LSJ = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_LSJ.txt', './library/stepbible/Greek_Lexicon_LSJ_Index.json', ($baldyes2=$bald))) ||
+		($baldbald != $bald && ($lex_LSJ = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_LSJ.txt', './library/stepbible/Greek_Lexicon_LSJ_Index.json', ($baldyes2=$baldbald)))) ||
+		($lex_LSJ = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_LSJ.txt', './library/stepbible/Greek_Lexicon_LSJ_Index.json', ($baldyes2="{$baldbald}G")))) { ; }
+	// i/o data
+	$morphs = (empty($tag[12]) ? NULL : abcms_read_json('./library/stepbible/Greek_Morphhology.json', $tag[12]));
+	if ($tag && !$morphs && $tag[5]!='P' && $tag[5]!='L') { abcms_errs("abcms_enty() tag morphhology not found! Strongs={$strongs} Morph={$tag[12]}"); }
+	$morphs_tyndale = (empty($lex_tyndale[5]) ? NULL : aion_morphhology($lex_tyndale[5]));
+	if ($lex_tyndale && !$morphs_tyndale) { abcms_errs("abcms_enty() tyndale morphhology not found! Strongs={$strongs} Morph={$lex_tyndale[5]}"); }
+	$morphs_LSJ = (empty($lex_LSJ[5]) ? NULL : aion_morphhology($lex_LSJ[5]));
+	$counts = abcms_read_json('./library/stepbible/Greek_Tagged_Text_Count.json', $bald, (!$tag ? TRUE : FALSE));
+	if ($tag && !$counts) { abcms_errs("abcms_enty() tag counts not found! Strongs={$strongs}"); }
 }
+
+// EARLY EXIT ASAP
 // entry not found
-if (!($word =
-	(!empty($tag[8]) ? $tag[8] : 
-	(!empty($lex_tyndale[3]) ? $lex_tyndale[3] : 
-	(!empty($lex_tyndale[1]) ? $lex_tyndale[1] :
-	(!empty($lex_strongs[1]) ? $lex_strongs[1] : NULL)))))) {
+if (!($word = htmlspecialchars(
+	(!empty($tag[10]) ? $tag[10] : 
+	(!empty($lex_tyndale[4]) ? $lex_tyndale[4] : 
+	(!empty($lex_tyndale[2]) ? $lex_tyndale[2] :
+	(!empty($lex_strongs[1]) ? $lex_strongs[1] : NULL))))))) {
 	echo "<div class='strong-entry'><div class=strong-word>$strongs entry missing</div></div>\n";
-	abcms_errs("abcms_enty() the word entry is empty! $strongs");
+	abcms_errs("abcms_enty() the word entry is empty! Strongs={$strongs}");
 	return;
 }
+
 // entry fouled
-if ((!empty($lex_strongs[0]) && $bald!=$lex_strongs[0]) ||
-	(!empty($lex_tyndale[0]) && $bald!=$lex_tyndale[0]) ||
-	(!empty($lex_LSJ[0])     && $bald!=$lex_LSJ[0])) {
+if ((!empty($lex_strongs[0]) && $baldbald!=$lex_strongs[0]) ||
+	(!empty($lex_tyndale[0]) && $baldyes!=$lex_tyndale[0]) ||
+	(!empty($lex_LSJ[0])     && $baldyes2!=$lex_LSJ[0])) {
 	echo "<div class='strong-entry'><div class=strong-word>$strongs entry corrupted</div></div>\n";
-	abcms_errs("abcms_enty() the strongs entry corrupted! $strongs");
+	abcms_errs("abcms_enty() the strongs entry corrupted! Strongs={$strongs}");
 	return;
 }
+
+// OKAY DOIT
+// 			0		1		2		3		4		5		6		7		8		9		10			11			12			13			14			15		16		17		18
+// OLHEB	INDEX	BOOK	CHAPTER	VERSE	STRONGS	FLAG	MORPH	WORD	ENGLISH	PART	ADDITIONAL
+// OLDGRE	INDEX	BOOK	CHAPTER	VERSE	STRONGS	FLAG	MORPH	WORD	ENGLISH	ENTRY	PUNC		EDITIONS	VARIATION1	VARIATION2	ADDITIONAL	CONJOIN	OCCUR	ALT
+// NEW		INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH		GLOSS		MORPH		EDITIONS	VAR1		VAR2	SPELL	EXTRA	ALT
+// Strongs original
+$lex_original = NULL;
+if ($lex_strongs && $baldbald != $bald) {
+	$lex_original =
+		"<a href='".abcms_href((empty($_Part[1]) ? '/Strongs' : "/Strongs/$_Part[1]"),FALSE,TRUE,FALSE).
+		"/strongs-{$strongs[0]}$baldbald' title='Strongs Enhanced Concordance entry {$strongs[0]}$baldbald' class='word-blue'>{$strongs[0]}$baldbald</a>";
+}
+// Strongs substitute
+$lex_substitute = NULL;
+if ($lex_tyndale && $baldyes != $bald) {
+	abcms_errs("abcms_enty() strongs substitute needed! Strongs={$strongs} Substitute={$bald}/{$baldyes}");
+	$lex_substitute =
+		"<a href='".abcms_href((empty($_Part[1]) ? '/Strongs' : "/Strongs/$_Part[1]"),FALSE,TRUE,FALSE).
+		"/strongs-{$strongs[0]}$baldyes' title='Strongs Subsitute Concordance entry {$strongs[0]}$baldyes' class='word-blue'>{$strongs[0]}$baldyes</a>";
+}
+
+// join
+$join = (empty($tag[5]) || empty($jointype[$tag[5]]) ? NULL : $jointype[$tag[5]]);
+if ($tag && !$join) { abcms_errs("abcms_enty() tag join not found! Strongs={$strongs} Join={$tag[5]}"); }
+
+// type
+$tagtype =
+	((empty($tag[6]) ? NULL :
+	(($strongs[0]==='h' && !empty($entry_type_hebrew[$tag[6]]))	? $entry_type_hebrew[$tag[6]] :
+	(($strongs[0]==='g' && !empty($entry_type_greek[$tag[6]]))	? $entry_type_greek[$tag[6]] : NULL ))));
+if ($tag && !$tagtype) { abcms_errs("abcms_enty() tag type not found! Strongs={$strongs} Type={$tag[6]}"); }
+
 // underlying
-$underlying = (!empty($tag[7]) ? $tag[7] : (!empty($lex_tyndale[1]) ? $lex_tyndale[1] : NULL));
-// aionian entry
+$underlying = (!empty($tag[7]) ? $tag[7] : (!empty($lex_tyndale[2]) ? $lex_tyndale[2] : NULL));
+if (!$underlying) { abcms_errs("abcms_enty() underlying not found! Strongs={$strongs}"); }
+
+// aionian
 $aionian = abcms_aion($strongs,$SID,$word,$book,$chap,$verse);
-// css calculation
-$css_background = ($strongs==$_stidC || (int)$bald==$_stidN ? 'strongs' : ($aionian ? 'word-aionian' : ''));
-// begin lexicon entry
-echo "<div class='strong-entry $css_background'>";
-$HorG = ($strongs[0]==='g' ? 'New' : 'Old');
-$bpath = ($_Path=='Strongs' ? abcms_href('/Read',FALSE,TRUE,'/strongs-'.$strongs) : abcms_href("/Bibles/$_Part[1]/$HorG",FALSE,TRUE,'/strongs-'.$strongs));
+
+// css
+$css_background = ($strongs==$_stidC || $baldnumb==$_stidN ? 'strongs' : ($aionian ? 'word-aionian' : ''));
+
+// links
+$bpath = ($_Path=='Strongs' ? abcms_href('/Read',FALSE,TRUE,'/strongs-'.$strongs) : abcms_href("/Bibles/$_Part[1]/".($strongs[0]==='g' ? 'New' : 'Old'),FALSE,TRUE,'/strongs-'.$strongs));
 $usage =
 	(!isset($counts[3]) ? "Not used in Bible text" :
 	("<a href='$bpath' title='Visit chapters with Strongs word usage' class='word-blue'>".
@@ -1679,100 +1736,110 @@ $usage =
 	$counts[1].($counts[1]===1 ? ' chapter, and ':' chapters, and ').
 	$counts[2].($counts[2]===1 ? ' verse, ':' verses').
 	'</a>'));
-// Join  W=next word, K=next Ketiv 'written' word, Q=following Qere 'read' word, P=word parts, R=root or related, J=joined words (though not variants), D=divided word (though not variants)
-$join = (empty($tag[5]) ? '' :
-	($tag[5]=='W' ? 'Next word in verse' :
-	($tag[5]=='K' ? 'Ketiv, written word' :
-	($tag[5]=='Q' ? 'Qere, read word' :
-	($tag[5]=='P' ?	'Part of previous word' :
-	($tag[5]=='R' ? 'Root of previous word or related' :
-	($tag[5]=='J' ?	'Joined to previous word' :
-	($tag[5]=='D' ? 'Divided from previous word' : ''))))))));
-// strongs lexicon language
+if ($tag && !isset($counts)) { abcms_errs("abcms_enty() tagged but no count! Strongs={$strongs}"); }
+
+// language
 $stronglang = (empty($lex_strongs[4]) ? '' :
 	($lex_strongs[4]=='greek'	? 'Greek' :
 	($strongs[0]=='g'			? 'Greek' :
 	($lex_strongs[4]=='heb'		? 'Hebrew' :
 	($lex_strongs[4]=='arc'		? 'Aramaic' :
 	($lex_strongs[4]=='x-pn'	? 'Proper Name' : 'Hebrew'))))));
-// editions
-$tag[11] = (empty($tag[11]) ? NULL : str_replace($editions_search, $editions_replace, str_replace("+", ", ", $tag[11])));
-// additional, Christ»Christ|Jesus@Mat.1.1
-$tag[14] = (empty($tag[14]) ? NULL : preg_replace('/[»]+/u',' » ', preg_replace('/[@]+/u', ' @ ', preg_replace('/[|]+/u', ' | ', $tag[14]))));
-// Order/Join
-$tag[15] = (empty($tag[15]) ? NULL : preg_replace('/[»]+/u', ' with #', preg_replace('/:/u', ' : ', $tag[15])));
+
+// SUBSTITUTIONS
+// preg_replace(string|array $pattern, string|array $replacement, string|array $subject, int $limit = -1, int &$count = null ): string|array|null
+// https://www.php.net/manual/en/function.preg-replace.php if multi-byte!!!
+// Editions, Greek only
+if ($strongs[0]=='g') {
+	$tag[13] = (empty($tag[13]) ? NULL : preg_replace($editions_search, $editions_replace, $tag[13])); // editions
+	$tag[14] = (empty($tag[14]) ? NULL : preg_replace($editions_search, $editions_replace, $tag[14])); // var1
+	$tag[15] = (empty($tag[15]) ? NULL : preg_replace($editions_search, $editions_replace, $tag[15])); // var2
+	$tag[16] = (empty($tag[16]) ? NULL : preg_replace($editions_search, $editions_replace, $tag[16])); // spell
+}
+// Leaders, Hebrew only
+if ($strongs[0]=='h') {
+	$tag[14] = (empty($tag[14]) ? NULL : preg_replace($tahot_leaders_search, $tahot_leaders, $tag[14])); // var1
+	$tag[15] = (empty($tag[15]) ? NULL : preg_replace($tahot_leaders_search, $tahot_leaders, $tag[15])); // var2
+	$tag[16] = (empty($tag[16]) ? NULL : preg_replace($tahot_leaders_search, $tahot_leaders, $tag[16])); // spell
+}
 
 // javascript
+static $elementid = 0;
+++$elementid;
 $javascript = "AionianBible_CollapseExpand(\"ab-lexicon\", \"ab-lexicon-$elementid\"); return false;";
-echo
-	// glossary entry header from tag file
-	"<div class='strong-word".($book ? '' : ' notranslate')."'>$word</div>\n" .
-	"<div class='field-field'><div class='field-label'>Strongs:</div><div class='field-value word-footnote'>$SID</div></div>\n" .
-	(empty($lex_original)	? "" : "<div class='field-field'><div class='field-label'>Original:</div><div class='field-value word-footnote'>$lex_original</div></div>\n") .
-	(empty($underlying)		? "" : "<div class='field-field'><div class='field-label'>Lexicon:</div><div class='field-value notranslate'>$underlying</div></div>\n") .
-	($strongs[0]=='h' || empty($tag[10]) ? "" : "<div class='field-field'><div class='field-label'>Transliteration:</div><div class='field-value'>$tag[10]</div></div>\n") .
-	"<div class='field-field'><div class='field-label'>Usage:</div><div class=field-value>$usage</div></div>\n" .
-	(empty($join)			? "" : "<div class='field-field'><div class='field-label'>Context:</div><div class='field-value'>$join</div></div>\n") .
 
-	// collapsible logic
+// OUTPUT
+// 			0		1		2		3		4		5		6		7		8		9		10			11			12			13			14			15		16		17		18
+// OLHEB	INDEX	BOOK	CHAPTER	VERSE	STRONGS	FLAG	MORPH	WORD	ENGLISH	PART	ADDITIONAL
+// OLDGRE	INDEX	BOOK	CHAPTER	VERSE	STRONGS	FLAG	MORPH	WORD	ENGLISH	ENTRY	PUNC		EDITIONS	VARIATION1	VARIATION2	ADDITIONAL	CONJOIN	OCCUR	ALT
+// NEW		INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH		GLOSS		MORPH		EDITIONS	VAR1		VAR2	SPELL	EXTRA	ALT
+echo
+	// tag header
+	"<div class='strong-entry {$css_background}'>" .
+	"<div class='strong-word".($book ? '' : ' notranslate')."'>{$word}</div>\n" .
+	(!empty($lex_original)	? "" : "<div class='field-field'><div class='field-label'>Strongs:</div><div class='field-value word-footnote'>{$SID}</div></div>\n") .
+	(empty($lex_original)	? "" : "<div class='field-field'><div class='field-label'>Strongs Extended:</div><div class='field-value word-footnote'>{$SID}</div></div>\n") .
+	(empty($lex_substitute)	? "" : "<div class='field-field'><div class='field-label'>Strongs Substitute:</div><div class='field-value word-footnote'>{$lex_substitute}</div></div>\n") .
+	(empty($lex_original)	? "" : "<div class='field-field'><div class='field-label'>Strongs Original:</div><div class='field-value word-footnote'>{$lex_original}</div></div>\n") .
+	(empty($underlying)		? "" : "<div class='field-field'><div class='field-label'>Lexicon:</div><div class='field-value notranslate'>{$underlying}</div></div>\n") .
+	(empty($tag[8])			? "" : "<div class='field-field'><div class='field-label'>Transliteration:</div><div class='field-value'>{$tag[8]}</div></div>\n") .
+	(empty($tag[11]) || $tag[11]==$word ? "" : "<div class='field-field'><div class='field-label'>Gloss:</div><div class='field-value'>{$tag[11]}</div></div>\n") .
+	"<div class='field-field'><div class='field-label'>Usage:</div><div class=field-value>{$usage}</div></div>\n" .
+	(empty($join)			? "" : "<div class='field-field'><div class='field-label'>Context:</div><div class='field-value'>{$join}</div></div>\n") .
+
+	// collapsible
 	(empty($tag)			? "" : "<div class='field-field'><div class='field-label'><a href='' title='Open or close the lexicon entry' onclick='$javascript'>Toggle Lexicon</a></div></div>\n") .
 	(empty($tag)			? "" : "<div id='ab-lexicon-$elementid' class='ab-lexicon'>\n") .
-	// Hebrew_Tagged_Text		= INDEX-0	BOOK-1	CHAPTER-2	VERSE-3	STRONGS-4	FLAG-5	MORPH-6	WORD-7	ENGLISH-8															PART-9	ADDITIONAL-10
-	// Greek_Tagged_Text		= INDEX-0	BOOK-1	CHAPTER-2	VERSE-3	STRONGS-4	FLAG-5	MORPH-6	WORD-7	ENGLISH-8	ENTRY-9	PUNC-10	EDITIONS-11	SPELLINGS-12	MEANINGS-13			ADDITIONAL-14	CONJOIN-15
-	// Greek_Tagged_Text		= INDEX-0	BOOK-1	CHAPTER-3	VERSE-3	STRONGS-4	FLAG-5	MORPH-7	WORD-7	ENGLISH-8	ENTRY-9	PUNC-10	EDITIONS-11	VARIATION1-12	VARIATION2-13		ADDITIONAL-14	CONJOIN-15
-	// Morphhology array('M'=>'Morphhology','U'=>'Explanation')
-	(empty($morphs['M'])	? "" : "<div class='field-field'><div class='field-label'>Morphhology:</div><div class='field-value'>".$morphs['M']."</div></div>\n") .
-	(empty($morphs['U'])	? "" : "<div class='field-field'><div class='field-label'>Grammar:</div><div class='field-value'>".$morphs['U']."</div></div>\n") .
 
-	// hebrew or greek tag file
-	($strongs[0]=='h'		? ("".
-	((empty($tag[9]) || (!empty($underlying) && $tag[9] == $underlying))	? "" : "<div class='field-field'><div class='field-label'>Segment:</div><div class='field-value notranslate'>$tag[9]</div></div>\n") .
-	((empty($tag[10]) || $tag[10] == $word)									? "" : "<div class='field-field'><div class='field-label'>Additional:</div><div class='field-value'>$tag[10]</div></div>\n"))
-	: ("" .
-	(empty($tagtype)		? "" : "<div class='field-field'><div class='field-label'>Type:</div><div class='field-value'>".$tagtype."</div></div>\n") .
-	(empty($tag[11])		? "" : "<div class='field-field'><div class='field-label'>Editions:</div><div class='field-value'>$tag[11]</div></div>\n") .
-	(empty($tag[12])		? "" : "<div class='field-field'><div class='field-label'>Variation-1:</div><div class='field-value'>$tag[12]</div></div>\n") .
-	(empty($tag[13])		? "" : "<div class='field-field'><div class='field-label'>Variation-2:</div><div class='field-value'>$tag[13]</div></div>\n") .
-	((empty($tag[14]) || $tag[14] == $word)									? "" : "<div class='field-field'><div class='field-label'>Additional:</div><div class='field-value'>$tag[14]</div></div>\n") .
-	(empty($tag[15])		? "" : "<div class='field-field'><div class='field-label'>Order/Join:</div><div class='field-value'>$tag[15]</div></div>\n") .
-	(empty($tag[16])		? "" : "<div class='field-field'><div class='field-label'>Occurrence:</div><div class='field-value'>$tag[16]</div></div>\n") .
-	(empty($tag[17])		? "" : "<div class='field-field'><div class='field-label'>Alternates:</div><div class='field-value'>$tag[17]</div></div>\n"))) .
+	// morphhology array('M'=>'Morphhology','U'=>'Explanation')
+	(empty($morphs['M'])	? "" : "<div class='field-field'><div class='field-label'>Morphhology:</div><div class='field-value'>{$morphs['M']}</div></div>\n") .
+	(empty($morphs['U'])	? "" : "<div class='field-field'><div class='field-label'>Grammar:</div><div class='field-value'>{$morphs['U']}</div></div>\n") .
 
-	// lexicon entries: Aionians, Tyndale, LSJ, Strongs
+	// tag detail
+	(empty($tagtype)		? "" : "<div class='field-field'><div class='field-label'>Translation:</div><div class='field-value'>{$tagtype}</div></div>\n") .
+	(empty($tag[13])		? "" : "<div class='field-field'><div class='field-label'>Editions:</div><div class='field-value'>{$tag[13]}</div></div>\n") .
+	(empty($tag[14])		? "" : "<div class='field-field'><div class='field-label'>Variation-1:</div><div class='field-value'>{$tag[14]}</div></div>\n") .
+	(empty($tag[15])		? "" : "<div class='field-field'><div class='field-label'>Variation-2:</div><div class='field-value'>{$tag[15]}</div></div>\n") .
+	(empty($tag[16])		? "" : "<div class='field-field'><div class='field-label'>Other Spelling:</div><div class='field-value'>{$tag[16]}</div></div>\n") .
+	(empty($tag[17])		? "" : "<div class='field-field'><div class='field-label'>Additional:</div><div class='field-value'>{$tag[17]}</div></div>\n") .
+	(empty($tag[18])		? "" : "<div class='field-field'><div class='field-label'>Alternates:</div><div class='field-value'>{$tag[18]}</div></div>\n") .
+
+	// lexicon: Aionian, Tyndale, LSJ, Strongs
 	(!$aionian	? "" :
 	("<div class='field-field word-aionian'><div class='field-header1'>Aionian Glossary</div></div>\n") .
-	("<div class='field-field word-aionian'><div class='field-label'></div><div class='field-value'>$aionian</div></div>\n")) .
-	// Hebrew_Lexicon_Tyndale	= STRONGS-0	WORD-1	TRANS-2		GLOSS-3						MORPH-4	DEF-5
-	// Greek_Lexicon_Tyndale	= STRONGS-0	WORD-1	TRANS-2		GLOSS-3						MORPH-4	DEF-5
-	// Greek_Lexicon_LSJ		= STRONGS-0	WORD-1	TRANS-2		GLOSS-3						MORPH-4	DEF-5
-	// Hebrew_Lexicon_Strongs	= STRONGS-0	WORD-1	TRANS-2				PRONOUNCE-3	LANG-4	MORPH-5	DEF-6
-	// Greek_Lexicon_Strongs	= STRONGS-0	WORD-1	TRANS-2				PRONOUNCE-3	LANG-4	MORPH-5	DEF-6
-	// Morphhology array('M'=>'Morphhology','U'=>'Explanation')
+	("<div class='field-field word-aionian'><div class='field-label'></div><div class='field-value'>{$aionian}</div></div>\n")) .
+// LEXICONS			0		1		2		3			4		5		6
+// HEBREW-STRONGS	STRONGS	WORD	TRANS	PRONOUNCE	LANG	MORPH	DEF
+// GREEK-STRONGS	STRONGS	WORD	TRANS	PRONOUNCE	LANG	MORPH	DEF
+// HEBREW-TYNDALE	STRONGS	STRONGU	WORD	TRANS		GLOSS	MORPH	DEF
+// GREEK-TYNDALE	STRONGS	STRONGU	WORD	TRANS		GLOSS	MORPH	DEF
+// GREEK-LSJ		STRONGS	STRONGU	WORD	TRANS		GLOSS	MORPH	DEF
 	(!isset($lex_tyndale[0])	? "" :
 	("<div class='field-field'><div class='field-header1'>Tyndale</div></div>\n") .
-	(empty($lex_tyndale[1]) ? "" : "<div class='field-field'><div class='field-label'>Word:</div><div class='field-value notranslate'>$lex_tyndale[1]</div></div>\n") .
-	(empty($lex_tyndale[2]) ? "" : "<div class='field-field'><div class='field-label'>Transliteration:</div><div class='field-value notranslate'>$lex_tyndale[2]</div></div>\n") .
-	(empty($lex_tyndale[3]) ? "" : "<div class='field-field'><div class='field-label'>Gloss:</div><div class='field-value'>$lex_tyndale[3]</div></div>\n") .
-	(empty($morphs_tyndale) ? "" : "<div class='field-field'><div class='field-label'>Morphhology:</div><div class='field-value'>$morphs_tyndale</div></div>\n") .
-	(empty($tyndale_additional) ? "" : "<div class='field-field'><div class='field-label'>Additional:</div><div class='field-value'>$tyndale_additional</div></div>\n") .
-	(empty($tyndale_definition) ? "" : "<div class='field-field'><div class='field-label'>Definition:</div><div class='field-value'>$tyndale_definition</div></div>\n")) .
+	(empty($lex_tyndale[2]) ? "" : "<div class='field-field'><div class='field-label'>Word:</div><div class='field-value notranslate'>{$lex_tyndale[2]}</div></div>\n") .
+	(empty($lex_tyndale[1]) ? "" : "<div class='field-field'><div class='field-label'>Origin:</div><div class='field-value notranslate'>{$lex_tyndale[1]}</div></div>\n") .
+	(empty($lex_tyndale[3]) ? "" : "<div class='field-field'><div class='field-label'>Transliteration:</div><div class='field-value notranslate'>{$lex_tyndale[3]}</div></div>\n") .
+	(empty($lex_tyndale[4]) ? "" : "<div class='field-field'><div class='field-label'>Gloss:</div><div class='field-value'>{$lex_tyndale[4]}</div></div>\n") .
+	(empty($morphs_tyndale) ? "" : "<div class='field-field'><div class='field-label'>Morphhology:</div><div class='field-value'>{$morphs_tyndale}</div></div>\n") .
+	(empty($lex_tyndale[6]) ? "" : "<div class='field-field'><div class='field-label'>Definition:</div><div class='field-value'>{$lex_tyndale[6]}</div></div>\n")) .
 	(empty($lex_LSJ[0])	? "" :
 	("<div class='field-field'><div class='field-header1'>Liddell-Scott-Jones</div></div>\n") .
-	(empty($lex_LSJ[1]) ? "" : "<div class='field-field'><div class='field-label'>Word:</div><div class='field-value notranslate'>$lex_LSJ[1]</div></div>\n") .
-	(empty($lex_LSJ[2]) ? "" : "<div class='field-field'><div class='field-label'>Transliteration:</div><div class='field-value notranslate'>$lex_LSJ[2]</div></div>\n") .
-	(empty($lex_LSJ[3]) ? "" : "<div class='field-field'><div class='field-label'>Gloss:</div><div class='field-value'>$lex_LSJ[3]</div></div>\n") .
-	(empty($morphs_LSJ) ? "" : "<div class='field-field'><div class='field-label'>Morphhology:</div><div class='field-value'>$morphs_LSJ</div></div>\n") .
-	(empty($lex_LSJ[5]) ? "" : "<div class='field-field'><div class='field-label'>Additional:</div><div class='field-value'>$lex_LSJ[5]</div></div>\n") .
-	(empty($lex_LSJ[6]) ? "" : "<div class='field-field'><div class='field-label'>Definition:</div><div class='field-value'>$lex_LSJ[6]</div></div>\n")) .
+	(empty($lex_LSJ[2]) ? "" : "<div class='field-field'><div class='field-label'>Word:</div><div class='field-value notranslate'>{$lex_LSJ[2]}</div></div>\n") .
+	(empty($lex_LSJ[1]) ? "" : "<div class='field-field'><div class='field-label'>Origin:</div><div class='field-value notranslate'>{$lex_LSJ[1]}</div></div>\n") .
+	(empty($lex_LSJ[3]) ? "" : "<div class='field-field'><div class='field-label'>Transliteration:</div><div class='field-value notranslate'>{$lex_LSJ[3]}</div></div>\n") .
+	(empty($lex_LSJ[4]) ? "" : "<div class='field-field'><div class='field-label'>Gloss:</div><div class='field-value'>{$lex_LSJ[4]}</div></div>\n") .
+	(empty($morphs_LSJ) ? "" : "<div class='field-field'><div class='field-label'>Morphhology:</div><div class='field-value'>{$morphs_LSJ}</div></div>\n") .
+	(empty($lex_LSJ[6]) ? "" : "<div class='field-field'><div class='field-label'>Definition:</div><div class='field-value'>{$lex_LSJ[6]}</div></div>\n")) .
 	(empty($lex_strongs[0])	? "" :
 	("<div class='field-field'><div class='field-header1'>Strongs</div></div>\n") .
-	(empty($lex_strongs[1]) ? "" : "<div class='field-field'><div class='field-label'>Word:</div><div class='field-value notranslate'>$lex_strongs[1]</div></div>\n") .
-	(empty($lex_strongs[2]) ? "" : "<div class='field-field'><div class='field-label'>Transliteration:</div><div class='field-value notranslate'>$lex_strongs[2]</div></div>\n") .
-	(empty($lex_strongs[3]) ? "" : "<div class='field-field'><div class='field-label'>Pronounciation:</div><div class='field-value notranslate'>$lex_strongs[3]</div></div>\n") .
-	(empty($stronglang)		? "" : "<div class='field-field'><div class='field-label'>Language:</div><div class='field-value'>$stronglang</div></div>\n") .
-	(empty($lex_strongs[5]) ? "" : "<div class='field-field'><div class='field-label'>Morphhology:</div><div class='field-value'>$lex_strongs[5]</div></div>\n") .
-	(empty($lex_strongs[6]) ? "" : "<div class='field-field'><div class='field-label'>Definition:</div><div class='field-value'>$lex_strongs[6]</div></div>\n")) .
+	(empty($lex_strongs[1]) ? "" : "<div class='field-field'><div class='field-label'>Word:</div><div class='field-value notranslate'>{$lex_strongs[1]}</div></div>\n") .
+	(empty($lex_strongs[2]) ? "" : "<div class='field-field'><div class='field-label'>Transliteration:</div><div class='field-value notranslate'>{$lex_strongs[2]}</div></div>\n") .
+	(empty($lex_strongs[3]) ? "" : "<div class='field-field'><div class='field-label'>Pronounciation:</div><div class='field-value notranslate'>{$lex_strongs[3]}</div></div>\n") .
+	(empty($stronglang)		? "" : "<div class='field-field'><div class='field-label'>Language:</div><div class='field-value'>{$stronglang}</div></div>\n") .
+	(empty($lex_strongs[5]) ? "" : "<div class='field-field'><div class='field-label'>Morphhology:</div><div class='field-value'>{$lex_strongs[5]}</div></div>\n") .
+	(empty($lex_strongs[6]) ? "" : "<div class='field-field'><div class='field-label'>Definition:</div><div class='field-value'>{$lex_strongs[6]}</div></div>\n")) .
 	(empty($tag)			? "" : "</div>\n");
+	
 echo "</div>\n";
 }
 
@@ -1929,10 +1996,12 @@ static $lookup = array(
 'H:Ss3f'=>'Hebrew she, subject pronoun - subject 3rd person feminine singular',
 'H:Ss3m'=>'Hebrew he, subject pronoun - subject 3rd person masculine singular',
 'H:V'=>'Hebrew Verb',
+'N:A'=>'Proper Name Adjective',
 'N:A--LG'=>'Proper Name Adjective Gentilic Location',
 'N:A--PG'=>'Proper Name Adjective Gentilic Person',
+'N:A-F'=>'Proper Name Adjective Feminine person',
+'N:A--L'=>'Proper Name Adjective Location',
 'N:ADV-T'=>'Proper Name Adverb',
-'N:A'=>'Proper Name Adjective',
 'N:N--L/N:N--LG/N:N-M-P'=>'Proper Name of a Location OR of a Location in Gentilic sense OR of a Male Person',
 'N:N--L/N:N--LG'=>'Proper Name of a Location OR of a Location in Gentilic sense',
 'N:N--L/N:N-M-P'=>'Proper Name of a Location OR of a Male Person',
@@ -1976,6 +2045,11 @@ return $lookup[$morph];
 /*** AIONIAN ***/
 function abcms_aion($strongs,&$SID,&$word,$book=NULL,$chap=NULL,$verse=NULL) {
 global $_Part;
+// exceptional definitions
+if ($strongs=='g1653' && $book=='ROM' && $chap=='011' && $verse =='032') {
+	return "To have pity or mercy on, to show mercy. Typically, the subjunctive mood indicates action that is possible or potential, but not certain. However, if the subjunctive mood is used in a 'purpose' or in a 'result' clause, then the action should not be thought of as a possible result, but should be viewed as the stated outcome that will happen or has happened as a result of another stated action.  The use of the subjunctive is not to indicate that something 'may' or 'might' result from a given action, but it is stating the 'purpose of' or 'reason for' an action.  The subjunctive mood in a purpose clause actually functions more like a verb in the indicative mood rather than in the optative mood.  It is not stating the possibility or probability of an action, but instead telling the intention of the primary action, (see <a href='https://www.ntgreek.org' target='_blank'>www.ntgreek.org</a>). Because Romans 11:32 is the grand conclusion of Paul's grace theology and because the English 'might' can mean either 'possibility' or 'for the purpose of', this is perhaps the single most important translation clarification in the Christian Scriptures. God's mercy on all is not a possibility, but a certainty.";
+}
+// aionian glossary definitions
 $SID = (NULL===$book ? $strongs :
 	"<a href='".abcms_href((empty($_Part[1]) ? '/Strongs' : "/Strongs/$_Part[1]"),FALSE,TRUE,FALSE).
 	"/strongs-$strongs' title='Strongs Enhanced Concordance entry $strongs' class='word-blue'>$strongs</a>");
@@ -2617,7 +2691,7 @@ static $avs = array(
 '45006' => '22,23',
 '45009' => '5',
 '45010' => '7',
-'45011' => '36',
+'45011' => '32,36',
 '45012' => '2',
 '45016' => '25,26,27',
 '46001' => '20',
