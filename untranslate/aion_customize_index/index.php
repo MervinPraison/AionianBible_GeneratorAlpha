@@ -814,17 +814,17 @@ if ($cache===NULL) { $fd = $cache = array(); } // init?
 if (!$indx) { foreach($fd as $x) { fclose($x); } $fd = $cache = NULL; return TRUE; } // fclose
 // key family
 if (!$data) {
-$Kkey = 'K'.$key;
-if (isset($cache[$indx][$Kkey])) { return $cache[$indx][$Kkey]; } // cached key family
-$cache[$indx][$Kkey] = FALSE; // init!
+$Ckey = 'C'.$key;
+if (isset($cache[$indx][$Ckey])) { return $cache[$indx][$Ckey]; } // cached key family
 if (!isset($cache[$indx]) && !($cache[$indx]=json_decode(file_get_contents($indx),true))) {			abcms_errs("abcms_read_indx_line() index not opened: $data $indx $key");				return NULL; } // index?
-if (!isset($cache[$indx]['K'])) { $cache[$indx]['K'] = ' '.implode(', ', array_keys($cache[$indx])).','; }
-if (preg_match("# {$key},(.* {$key}[A-Za-z]+,)#u", $cache[$indx]['K'], $match)) { return ($cache[$indx][$Kkey] = trim($match[0],", ")); }
+$cache[$indx][$Ckey] = FALSE; // set!
+if (!isset($cache[$indx]['C'])) { $cache[$indx]['C'] = ' '.implode(', ', array_keys($cache[$indx])).','; }
+if (preg_match("# {$key},(.* {$key}[A-Za-z]+,)#u", $cache[$indx]['C'], $match)) { return ($cache[$indx][$Ckey] = trim($match[0],", ")); } // done!
 return NULL;
 }
 // data from key
 if (isset($cache[$data.$indx][$key])) { return $cache[$data.$indx][$key]; } // cached reference line
-$cache[$data.$indx][$key] = FALSE; // init!
+$cache[$data.$indx][$key] = FALSE; // set!
 if (!isset($cache[$indx]) && !($cache[$indx]=json_decode(file_get_contents($indx),true))) {			abcms_errs("abcms_read_indx_line() index not opened: $data $indx $key");				return NULL; } // index?
 if (!isset($cache[$indx][$key])) {																	if ($yes) { abcms_errs("abcms_read_indx_line() index key missing: $data $indx $key"); }	return NULL; } // key?
 $offset = strtok((string)$cache[$indx][$key],',');
@@ -1701,12 +1701,20 @@ if ((!empty($lex_strongs[0]) && $baldbald!=$lex_strongs[0]) ||
 // OLDGRE	INDEX	BOOK	CHAPTER	VERSE	STRONGS	FLAG	MORPH	WORD	ENGLISH	ENTRY	PUNC		EDITIONS	VARIATION1	VARIATION2	ADDITIONAL	CONJOIN	OCCUR	ALT
 // NEW		INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH		GLOSS		MORPH		EDITIONS	VAR1		VAR2	SPELL	EXTRA	ALT
 // Strongs substitute
+$lex_strongsub = NULL;
+if ($lex_strongs && $bald != $baldbald) {
+	$lex_strongsub = " &gt; <a href='".abcms_href((empty($_Part[1]) ? '/Strongs' : "/Strongs/{$_Part[1]}"),FALSE,TRUE,FALSE).
+		"/strongs-{$strongs[0]}{$baldbald}' title='{$strongs[0]}{$baldbald} Strongs definition given, {$strongs[0]}{$baldyes} not provided.'>{$strongs[0]}{$baldbald}</a>";
+}
 $lex_substitute = NULL;
 if ($lex_tyndale && $baldyes != $bald) {
-	//abcms_errs("abcms_enty() strongs substitute needed! Strongs={$strongs} Substitute={$bald}/{$baldyes}");
-	$lex_substitute =
-		" &gt; <a href='".abcms_href((empty($_Part[1]) ? '/Strongs' : "/Strongs/$_Part[1]"),FALSE,TRUE,FALSE).
-		"/strongs-{$strongs[0]}$baldyes'>{$strongs[0]}$baldyes</a>";
+	$lex_substitute = " &gt; <a href='".abcms_href((empty($_Part[1]) ? '/Strongs' : "/Strongs/{$_Part[1]}"),FALSE,TRUE,FALSE).
+		"/strongs-{$strongs[0]}{$baldyes}' title='{$strongs[0]}{$baldyes} Tyndale definition given, {$strongs[0]}{$bald} not provided.'>{$strongs[0]}{$baldyes}</a>";
+}
+$lsj_substitute = NULL;
+if ($lex_LSJ && $baldyes2 != $bald) {
+	$lsj_substitute = " &gt; <a href='".abcms_href((empty($_Part[1]) ? '/Strongs' : "/Strongs/{$_Part[1]}"),FALSE,TRUE,FALSE).
+		"/strongs-{$strongs[0]}{$baldyes2}' title='{$strongs[0]}{$baldyes2} LSJ definition given, {$strongs[0]}{$bald} not provided.'>{$strongs[0]}{$baldyes2}</a>";
 }
 
 // join
@@ -1782,7 +1790,7 @@ echo
 	// tag header
 	"<div class='strong-entry {$css_background}'>" .
 	"<div class='strong-word".($book ? '' : ' notranslate')."'>{$word}</div>\n" .
-	"<div class='field-field'><div class='field-label'>Strongs:</div><div class='field-value'><span class='word-footnote'>{$SID}</span>{$lex_substitute}</div></div>\n" .
+	"<div class='field-field'><div class='field-label'>Strongs:</div><div class='field-value word-footnote'>{$SID}</div></div>\n" .
 	(empty($family)			? "" : "<div class='field-field'><div class='field-label'>Strongs extended:</div><div class='field-value'>{$family}</div></div>\n") .
 	(empty($underlying)		? "" : "<div class='field-field'><div class='field-label'>Lexicon:</div><div class='field-value notranslate'>{$underlying}</div></div>\n") .
 	(empty($tag[8])			? "" : "<div class='field-field'><div class='field-label'>Transliteration:</div><div class='field-value'>{$tag[8]}</div></div>\n") .
@@ -1818,7 +1826,7 @@ echo
 // GREEK-TYNDALE	STRONGS	STRONGU	WORD	TRANS		GLOSS	MORPH	DEF
 // GREEK-LSJ		STRONGS	STRONGU	WORD	TRANS		GLOSS	MORPH	DEF
 	(!isset($lex_tyndale[0])	? "" :
-	("<div class='field-field'><div class='field-header1'>Tyndale</div></div>\n") .
+	("<div class='field-field'><div class='field-header-no-bold'><span class='field-header1'>Tyndale</span>{$lex_substitute}</div></div>\n") .
 	(empty($lex_tyndale[2]) ? "" : "<div class='field-field'><div class='field-label'>Word:</div><div class='field-value notranslate'>{$lex_tyndale[2]}</div></div>\n") .
 	(empty($lex_tyndale[1]) ? "" : "<div class='field-field'><div class='field-label'>Origin:</div><div class='field-value notranslate'>{$lex_tyndale[1]}</div></div>\n") .
 	(empty($lex_tyndale[3]) ? "" : "<div class='field-field'><div class='field-label'>Transliteration:</div><div class='field-value notranslate'>{$lex_tyndale[3]}</div></div>\n") .
@@ -1826,7 +1834,7 @@ echo
 	(empty($morphs_tyndale) ? "" : "<div class='field-field'><div class='field-label'>Morphhology:</div><div class='field-value'>{$morphs_tyndale}</div></div>\n") .
 	(empty($lex_tyndale[6]) ? "" : "<div class='field-field'><div class='field-label'>Definition:</div><div class='field-value'>{$lex_tyndale[6]}</div></div>\n")) .
 	(empty($lex_LSJ[0])	? "" :
-	("<div class='field-field'><div class='field-header1'>Liddell-Scott-Jones</div></div>\n") .
+	("<div class='field-field'><div class='field-header-no-bold'><span class='field-header1'>Liddell-Scott-Jones</span>{$lsj_substitute}</div></div>\n") .
 	(empty($lex_LSJ[2]) ? "" : "<div class='field-field'><div class='field-label'>Word:</div><div class='field-value notranslate'>{$lex_LSJ[2]}</div></div>\n") .
 	(empty($lex_LSJ[1]) ? "" : "<div class='field-field'><div class='field-label'>Origin:</div><div class='field-value notranslate'>{$lex_LSJ[1]}</div></div>\n") .
 	(empty($lex_LSJ[3]) ? "" : "<div class='field-field'><div class='field-label'>Transliteration:</div><div class='field-value notranslate'>{$lex_LSJ[3]}</div></div>\n") .
@@ -1834,7 +1842,7 @@ echo
 	(empty($morphs_LSJ) ? "" : "<div class='field-field'><div class='field-label'>Morphhology:</div><div class='field-value'>{$morphs_LSJ}</div></div>\n") .
 	(empty($lex_LSJ[6]) ? "" : "<div class='field-field'><div class='field-label'>Definition:</div><div class='field-value'>{$lex_LSJ[6]}</div></div>\n")) .
 	(empty($lex_strongs[0])	? "" :
-	("<div class='field-field'><div class='field-header1'>Strongs</div></div>\n") .
+	("<div class='field-field'><div class='field-header-no-bold'><span class='field-header1'>Strongs</span>{$lex_strongsub}</div></div>\n") .
 	(empty($lex_strongs[1]) ? "" : "<div class='field-field'><div class='field-label'>Word:</div><div class='field-value notranslate'>{$lex_strongs[1]}</div></div>\n") .
 	(empty($lex_strongs[2]) ? "" : "<div class='field-field'><div class='field-label'>Transliteration:</div><div class='field-value notranslate'>{$lex_strongs[2]}</div></div>\n") .
 	(empty($lex_strongs[3]) ? "" : "<div class='field-field'><div class='field-label'>Pronounciation:</div><div class='field-value notranslate'>{$lex_strongs[3]}</div></div>\n") .

@@ -41,7 +41,7 @@ a:hover { color: #9966CC; }
 /*** FIELDS ***/
 .field-header2, .field-header1, .field-header { font-weight: bold; }
 .field-field {}
-.field-header1, .field-header { margin-top: 15px; }
+.field-header1, .field-header-no-bold, .field-header { margin-top: 15px; }
 .field-label { display: inline-block; font-style: italic;  vertical-align: top; }
 .field-value { display: inline-block; margin-left: 15px; }
 .field-links.decorated a { text-decoration: underline; }
