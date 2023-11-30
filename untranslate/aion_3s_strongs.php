@@ -1432,7 +1432,7 @@ EOT;
 }
 
 
-// build list of leixcon morphhologies
+// build list of lexicon morphhologies
 function AION_NEWSTRONGS_LEX_MORPH_LEX($lex) {
 	foreach($lex as $entry ) { AION_NEWSTRONGS_LEX_MORPH($entry['MORPH']); }
 }
@@ -1731,7 +1731,7 @@ function AION_NEWSTRONGS_GET_INDEX_LEX_CHECKER($index_file, $lexicon_file, $exce
 // Greek lexicon uStrongs and dStrongs merge
 function AION_NEWSTRONGS_GET_LEXY($table,&$database) {
 	$newmess = "AION_NEWSTRONGS_GET_LEXY()";
-	$fixed = 0;
+	$fixed = $fixedmore1 = $fixedmore2 = $fixedmore3 = 0;
 	$howmany = count($database[$table]);
 	foreach($database[$table] as $key => $entry) {
 		// fix the STRONGS, DSTRONGS, and USTRONGS
@@ -1768,7 +1768,24 @@ H0002	H0002 = in Aramaic of	H0001G
 			}
 		}
 
-		// hyperlink definition
+		// hyperlink (AS) (MT) (ML)
+		// Source Definitions: (AS) = Abbott Smith - from https://github.com/translatable-exegetical-tools/Abbott-Smith, with corrections and adapted by Tyndale Scholars. 
+		// Source Definitions: (ML) = Middle Liddell - from Perseus - used for Meaning in the Brief lexicon when there is no entry by (AS)
+		// Source Definitions: (MT) = Mounce's Teknia Greek dictionary - from www.billmounce.com/greek-dictionary (with permission) - used for Meaning in the Brief lexicon when there is no entry by (AS) or (ML)
+		// <a href="javascript:void(0)" title="Nestle/Aland 28th Edition, not ECM">NA28</a>
+		$count1 = $count2 = $count3 = 0;
+		if ($entry['STRONGS'][0] == "G" && !empty($database[$table][$key]['DEF'])) {
+			if (!($database[$table][$key]['DEF'] = preg_replace("#\(AS\)#u", '(<a href="javascript:void(0)" title="Abbott Smith">AS</a>)',						$database[$table][$key]['DEF'], -1, $count1)) ||
+				!($database[$table][$key]['DEF'] = preg_replace("#\(ML\)#u", '(<a href="javascript:void(0)" title="Middle Liddell, Perseus">ML</a>)',			$database[$table][$key]['DEF'], -1, $count2)) ||
+				!($database[$table][$key]['DEF'] = preg_replace("#\(MT\)#u", '(<a href="javascript:void(0)" title="Mounce\'s Teknia Greek dictionary">MT</a>)',	$database[$table][$key]['DEF'], -1, $count3))) {
+				AION_ECHO("ERROR! $newmess problem with (AS) (ML) (MT)\n".print_r($entry,TRUE));
+			}
+			$fixedmore1 += $count1;
+			$fixedmore2 += $count2;
+			$fixedmore3 += $count3;
+		}
+
+		// hyperlink strong numbers
 		$database[$table][$key]['DEF'] = AION_NEWSTRONGS_HYPERLINK($newmess, $database[$table][$key]['DEF']);
 		$database[$table][$key]['STRONGU'] = AION_NEWSTRONGS_HYPERLINK($newmess, $database[$table][$key]['STRONGU']);
 		
@@ -1776,6 +1793,9 @@ H0002	H0002 = in Aramaic of	H0001G
 		if ($entry['STRONGS'] == 'H9001') { $database[$table][$key]['GLOSS'] = 'and'; } // Fix H9001
 	}
 	$database['FIXCOUNTS'].="$newmess removed Hebrew '1)' times=$fixed\n";	
+	$database['FIXCOUNTS'].="$newmess replaced (AS) times=$fixedmore1\n";
+	$database['FIXCOUNTS'].="$newmess replaced (MT) times=$fixedmore2\n";
+	$database['FIXCOUNTS'].="$newmess replaced (ML) times=$fixedmore3\n";
 }
 
 
