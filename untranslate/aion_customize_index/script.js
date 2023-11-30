@@ -92,6 +92,7 @@ function AionianBible_Makemark(default_goto, plus_goto) {
 	window.location.assign(default_goto+"/"+bible+parallel+plus_goto);
 	return false;
 }
+function ABMM(default_goto, plus_goto) { return AionianBible_Makemark(default_goto, plus_goto); }
 // swipe detect from http://www.javascriptkit.com/javatutors/touchevents2.shtml
 function AionianBible_SwipeListener(handleswipe) {
 	var swipedir, startX, startY, distX, distY, elapsedTime, startTime;

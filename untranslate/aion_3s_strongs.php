@@ -295,7 +295,6 @@ AION_ECHO("VIZ $FOLDER_STAGE$GREEK_VIZBI_INDX");
 // TYNDALE HEBREW READ
 AION_NEWSTRONGS_COD( "$INPUT_TEHMC",'HEBMOR', $database);
 $database['HEBLEX'] = array();
-//$database['HEBLEX']['H0'] = array('STRONGS' => 'H0','WORD' => '-','TRANS' => '-','GLOSS' => 'Omitted by scribes','MORPH' => '','DEF' => 'Qere read word omitted by scribes'); // Add definition for H0, scribe omitted qere
 AION_NEWSTRONGS_GET( "$INPUT_TBESH",'H0001	H0001G =	H0001G	אָב', NULL, 'HEBLEX',
 	array('','STRONGS','STRONGU','WORD','TRANS','MORPH','GLOSS','DEF'),
 	array('','STRONGS','STRONGU','WORD','TRANS','MORPH','GLOSS','DEF'), "$FOLDER_STAGE$CHECK_EHLX",
@@ -1232,7 +1231,6 @@ function AION_NEWSTRONGS_GET($file, $begin, $end, $table, $keys, $required, $che
 	$contents = AION_NEWSTRONGS_GET_FIX($file, $contents, $result);
 	define($table, $table);
 	$lines = mb_split("\n", $contents);
-	//if ($flag=="TBESH") { AION_NEWSTRONGS_GET_FIX2($file, $lines, $result); }
 	if (!is_array($result[$table])) { $result[$table] = array(); }
 	$count_keys = count($keys);
 	$count_meta = 0;
@@ -1340,28 +1338,6 @@ function AION_NEWSTRONGS_GET_FIX($file, $contents, &$result) {
 }
 
 
-
-
-// Hebrew file if not more than one list item then delete the "1)"
-function AION_NEWSTRONGS_GET_FIX2($file, &$lines, &$result) {
-	$newmess = "FIX2\t$file";
-	$fixed = 0;
-	foreach( $lines as $x => $line ) {
-		if (empty($line)) { unset($lines[$x]); continue; }
-		$count = 0;
-		if (!preg_match("#[\t ]+2\)#ui",$line) && !preg_match("#(H1166H)#ui",$line)) {
-			if (!($lines[$x] = preg_replace("#([\t ]+)1\)#ui",'$1',$line,-1,$count)) || $count>1 ||
-				!($lines[$x] = preg_replace($reg="#[ ]+#usi"," ", $lines[$x]))) {
-				AION_ECHO("ERROR! $newmess $count\n".print_r($line,TRUE));
-			}
-			$fixed += $count;
-			if (preg_match("#[\t ]+[3-9]+[\d]*\)#ui",$line)) {
-				AION_ECHO("WARN! Weird, no '2)' removed '1)' but found '3)' $newmess $count\n".print_r($line,TRUE));
-			}
-		}
-	}
-	$result['FIXCOUNTS'].="$newmess removed Hebrew '1)' times=$fixed\n";
-}
 
 
 // Clean up the Lexicon before writing
@@ -1776,7 +1752,10 @@ H0002	H0002 = in Aramaic of	H0001G
 		$entry['STRONGS'] = $database[$table][$key]['STRONGS'] = $match[1];
 		$database[$table][$key]['STRONGU'] = ($match[1] == $matchu[1] && empty($match[2]) ? '' : $match[2].' '.$matchu[1]);
 
-		// fix the Definition
+		// trim definition
+		$database[$table][$key]['DEF'] = trim($database[$table][$key]['DEF'], " ,/:|\~`@#$%^&*+");
+
+		// fix Definition, remove 1) with no 2)
 		$count = 0;
 		if ($entry['STRONGS'][0] == "H" && $entry['STRONGS'] != "H1166H" && !preg_match("#[ ]+2\)#ui",$entry['DEF'])) {
 			if (!($database[$table][$key]['DEF'] = preg_replace("#(^|[ ]+)1\)#ui", '$1', $database[$table][$key]['DEF'], -1, $count)) || $count>1 ||
@@ -1788,12 +1767,33 @@ H0002	H0002 = in Aramaic of	H0001G
 				AION_ECHO("WARN! $newmess Weird, no '2)' removed '1)' but found '3)' $newmess $count\n".print_r($entry,TRUE));
 			}
 		}
+
+		// hyperlink definition
+		$database[$table][$key]['DEF'] = AION_NEWSTRONGS_HYPERLINK($newmess, $database[$table][$key]['DEF']);
+		$database[$table][$key]['STRONGU'] = AION_NEWSTRONGS_HYPERLINK($newmess, $database[$table][$key]['STRONGU']);
 		
 		// other fixes
 		if ($entry['STRONGS'] == 'H9001') { $database[$table][$key]['GLOSS'] = 'and'; } // Fix H9001
 	}
 	$database['FIXCOUNTS'].="$newmess removed Hebrew '1)' times=$fixed\n";	
 }
+
+
+
+// Search and replace text Strongs with glossary hyperlink!
+function AION_NEWSTRONGS_HYPERLINK($newmess, $text) {
+	if (empty($text)) { return $text; }
+	if (NULL===($text = preg_replace("#(^|[^[:alnum:]]{1})G([\d]+)#u", '$1g$2', $text))) { AION_ECHO("ERROR! $newmess Problem converting G to lowercase"); }
+	if (NULL===($text = preg_replace("#(^|[^[:alnum:]]{1})H([\d]+)#u", '$1h$2', $text))) { AION_ECHO("ERROR! $newmess Problem converting H to lowercase"); }
+	if (NULL===($text = preg_replace(
+		"#(^|[^[:alnum:]]{1})([gh]{1}[\d]+[A-Za-z]{0,1})#ui",
+		"\$1<a href='/Strongs/strongs-\$2' onclick='return ABMM(\"/Strongs\",\"/strongs-\$2\");'>\$2</a>",
+		$text))) {
+		AION_ECHO("ERROR! $newmess Problem converting strongs number to href links");
+	}
+	return $text;
+}
+
 
 // Viz need its own fixing
 function AION_NEWSTRONGS_FIX_VIZ($input,$what,$table,&$database,$osstrongs,$osstrongs2) {
@@ -1852,14 +1852,8 @@ function AION_NEWSTRONGS_FIX_VIZ($input,$what,$table,&$database,$osstrongs,$osst
 				}
 			}
 		}
-		if (!($definition = preg_replace("#G([\d]+)#ui", 'g$1', $definition))) { AION_ECHO("ERROR! Strongs = $x Problem converting G to lowercase"); }
-		if (!($definition = preg_replace("#H([\d]+)#ui", 'h$1', $definition))) { AION_ECHO("ERROR! Strongs = $x Problem converting H to lowercase"); }
-		if (!($definition = preg_replace(
-			"#([gh]{1}[\d]+)#ui",
-			"<a href='/Strongs/strongs-\$1' title='Strongs Enhanced Concordance entry \$1' onclick='return AionianBible_Makemark(\"/Strongs\",\"/strongs-\$1\");'>\$1</a>",
-			$definition))) {
-			AION_ECHO("ERROR! Strongs = $x Problem converting strongs number to href links");
-		}
+		$definition = trim($definition, " ,/:|\~`@#$%^&*+");
+		$definition = AION_NEWSTRONGS_HYPERLINK("AION_NEWSTRONGS_FIX_VIZ() hyperlink problem", $definition);
 		$database[$table][$line['STRONGS']] = array(
 			'STRONGS'	=> $line['STRONGS'],
 			'WORD'		=> $osstrongs[$x]['lemma'],
@@ -2391,6 +2385,11 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 				AION_ECHO("ERROR! bad join type! {$jointype[$key]}\n".print_r($line,TRUE));
 			}
 			
+			// Hyperlink Expand!
+			$VAR1 = AION_NEWSTRONGS_HYPERLINK($newmess, $line['VAR1']);
+			$VAR2 = AION_NEWSTRONGS_HYPERLINK($newmess, $line['VAR2']);
+			$alternate = AION_NEWSTRONGS_HYPERLINK($newmess, $alternate);
+			
 			// OUTPUT LINE
 			$database[$table] .=
 				$dataref . "\t".
@@ -2404,8 +2403,8 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 				$strongs_gloss . "\t".
 				$morph . "\t".
 				$line['EDITIONS'] . "\t".
-				$line['VAR1'] . "\t".
-				$line['VAR2'] . "\t".
+				$VAR1 . "\t".
+				$VAR2 . "\t".
 				$spell . "\t".
 				$strongs_additional . "\t".
 				//$line['CONJOIN'] . "\t".
@@ -2763,16 +2762,21 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 			$line['EXTRA'] = preg_replace("#@#u", " @ ", $line['EXTRA']);
 			$line['EXTRA'] = trim($line['EXTRA']," @:;,-+$");
 
-			// CLEAN UP ALTERNATE - Strip the _[A-Za-z]{1}
-			if (NULL===($alternate = preg_replace("#_[A-Za-z]{1}#ui", "", $line['ALT']))) {
-				AION_ECHO("ERROR! alternate preg_replace()!\n".print_r($line,TRUE));
-			}
-
 			// VALIDATE STRONGS # IN VAR1, VAR2, AND ALT
 			if (!empty($line['VAR1'])) { AION_NEWSTRONGS_STRONGS_PARSE($newmess, $line['VAR1'], TRUE, $lex_array, $lex2_array); }
 			if (!empty($line['VAR2'])) { AION_NEWSTRONGS_STRONGS_PARSE($newmess, $line['VAR2'], TRUE, $lex_array, $lex2_array); }
 			if (!empty($line['ALT'])) { AION_NEWSTRONGS_STRONGS_PARSE($newmess, $line['ALT'], TRUE, $lex_array, $lex2_array); }
+
+			// CLEAN UP ALTERNATE - Strip the _[A-Za-z]{1}
+			if (NULL===($alternate = preg_replace("#_[A-Za-z]{1}#ui", "", $line['ALT']))) {
+				AION_ECHO("ERROR! alternate preg_replace()!\n".print_r($line,TRUE));
+			}
 			
+			// Hyperlink Expand!
+			$VAR1 = AION_NEWSTRONGS_HYPERLINK($newmess, $line['VAR1']);
+			$VAR2 = AION_NEWSTRONGS_HYPERLINK($newmess, $line['VAR2']);
+			$alternate = AION_NEWSTRONGS_HYPERLINK($newmess, $alternate);
+
 			// OUTPUT LINE!
 			// The Greek and Hebrew columns need to be same/similar because aionbible.org/index.php processes the Greek and Hebrew columns
 			// INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH	GLOSS	MORPH	EDITIONS	VAR1	VAR2	SPELL	EXTRA	CONJOIN	INSTANCE	OCCUR	ALT
@@ -2788,8 +2792,8 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 				$line['GLOSS']."\t".
 				$morph."\t".
 				$line['EDITIONS']."\t".
-				$line['VAR1']."\t".
-				$line['VAR2']."\t".
+				$VAR1."\t".
+				$VAR2."\t".
 				$line['SPELL']."\t".
 				$line['EXTRA']."\t".
 				//trim($line['CONJOIN'])."\t".

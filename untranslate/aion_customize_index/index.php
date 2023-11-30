@@ -808,24 +808,31 @@ for($x = $cindex[$bookkey] + $chapter - 2; $x >= 0 && isset($schap[$x]); --$x) {
 
 
 /*** READ INDEX AND LINE ***/
-function abcms_read_indx_line($data=NULL, $indx=NULL, $key=NULL) {
+function abcms_read_indx_line($data=NULL, $indx=NULL, $key=NULL, $yes=TRUE) {
 static $fd = NULL; static $cache = NULL; // static!
 if ($cache===NULL) { $fd = $cache = array(); } // init?
-if (!$data) { foreach($fd as $x) { fclose($x); } $fd = $cache = NULL; return TRUE; } // fclose?
-if (isset($cache[$data.$indx][$key])) { return $cache[$data.$indx][$key]; } // cache?
-$cache[$data.$indx][$key] = FALSE; // init!
-if (!isset($cache[$indx]) && !($cache[$indx]=json_decode(file_get_contents($indx),true))) {		abcms_errs("abcms_read_indx_line() index not opened: $data $indx $key");		return NULL; } // index?
-if (!isset($cache[$indx][$key])) {																abcms_errs("abcms_read_indx_line() index key missing: $data $indx $key");		return NULL; } // key?
-// exception for H2428 which has both H2428 and H2428b.  All other letter suffixed Hebrew strongs numbers DO NOT exist without a letter suffix
-$offset = strtok((string)$cache[$indx][$key],',');
-if ($offset != (string)$cache[$indx][$key]) {
-		if ($key != "2428") {																	/*abcms_errs("abcms_read_indx_line() multiple offsets: $data $indx $key");*/	return NULL; } // multiple?
-		$cache[$indx][$key] = (int)$offset;
+if (!$indx) { foreach($fd as $x) { fclose($x); } $fd = $cache = NULL; return TRUE; } // fclose
+// key family
+if (!$data) {
+$Kkey = 'K'.$key;
+if (isset($cache[$indx][$Kkey])) { return $cache[$indx][$Kkey]; } // cached key family
+$cache[$indx][$Kkey] = FALSE; // init!
+if (!isset($cache[$indx]) && !($cache[$indx]=json_decode(file_get_contents($indx),true))) {			abcms_errs("abcms_read_indx_line() index not opened: $data $indx $key");				return NULL; } // index?
+if (!isset($cache[$indx]['K'])) { $cache[$indx]['K'] = ' '.implode(', ', array_keys($cache[$indx])).','; }
+if (preg_match("# {$key},(.* {$key}[A-Za-z]+,)#u", $cache[$indx]['K'], $match)) { return ($cache[$indx][$Kkey] = trim($match[0],", ")); }
+return NULL;
 }
-if (!isset($fd[$data]) && !($fd[$data]=fopen($data, 'r'))) {									abcms_errs("abcms_read_indx_line() data not opened: $data $indx $key");			return NULL; } // data?
-if (fseek($fd[$data], $cache[$indx][$key])) {													abcms_errs("abcms_read_indx_line() index offset missing: $data $indx $key");	return NULL; } // seek?
-if (!($line=fgets($fd[$data]))) {																abcms_errs("abcms_read_indx_line() data not read: $data $indx $key");			return NULL; } // read?
-if (!($line = rtrim($line,"\r\n")) || !($cache[$data.$indx][$key] = mb_split("\t", $line))) {	abcms_errs("abcms_read_indx_line() data not parsed: $data $indx $key");			return NULL; } // parse?
+// data from key
+if (isset($cache[$data.$indx][$key])) { return $cache[$data.$indx][$key]; } // cached reference line
+$cache[$data.$indx][$key] = FALSE; // init!
+if (!isset($cache[$indx]) && !($cache[$indx]=json_decode(file_get_contents($indx),true))) {			abcms_errs("abcms_read_indx_line() index not opened: $data $indx $key");				return NULL; } // index?
+if (!isset($cache[$indx][$key])) {																	if ($yes) { abcms_errs("abcms_read_indx_line() index key missing: $data $indx $key"); }	return NULL; } // key?
+$offset = strtok((string)$cache[$indx][$key],',');
+if ($offset != (string)$cache[$indx][$key]) {														if ($yes) { abcms_errs("abcms_read_indx_line() multiple offsets: $data $indx $key"); }	return NULL; } // multiple?
+if (!isset($fd[$data]) && !($fd[$data]=fopen($data, 'r'))) {										abcms_errs("abcms_read_indx_line() data not opened: $data $indx $key");					return NULL; } // data?
+if (fseek($fd[$data], $cache[$indx][$key])) {														abcms_errs("abcms_read_indx_line() index offset missing: $data $indx $key");			return NULL; } // seek?
+if (!($line=fgets($fd[$data]))) {																	abcms_errs("abcms_read_indx_line() data not read: $data $indx $key");					return NULL; } // read?
+if (!($line = rtrim($line,"\r\n")) || !($cache[$data.$indx][$key] = mb_split("\t", $line))) {		abcms_errs("abcms_read_indx_line() data not parsed: $data $indx $key");					return NULL; } // parse?
 return ($cache[$data.$indx][$key]); // done!
 }
 
@@ -1623,17 +1630,20 @@ static $tahot_leaders_search = NULL; if (NULL===$tahot_leaders_search) { $tahot_
 $bald = $baldyes = substr($strongs,1); // bald strongs
 $baldbald = preg_replace("#[^\d]+#", "", $bald);
 $baldnumb = $baldbald+0;
+$logerror = ($tag ? TRUE : FALSE);
 $lex_strongs = NULL;
 if ($strongs[0]==='h') {
 	// Strongs
 	if ($baldnumb>0 && $baldnumb<=8674) { $lex_strongs = abcms_read_indx_line('./library/stepbible/Hebrew_Lexicon_Strongs.txt', './library/stepbible/Hebrew_Lexicon_Strongs_Index.json', $baldbald); }
 	// Tyndale
-	if (($lex_tyndale = abcms_read_indx_line('./library/stepbible/Hebrew_Lexicon_Tyndale.txt', './library/stepbible/Hebrew_Lexicon_Tyndale_Index.json', ($baldyes=$bald))) ||
-		($baldbald != $bald && ($lex_tyndale = abcms_read_indx_line('./library/stepbible/Hebrew_Lexicon_Tyndale.txt', './library/stepbible/Hebrew_Lexicon_Tyndale_Index.json', ($baldyes=$baldbald)))) ||
-		($lex_tyndale = abcms_read_indx_line('./library/stepbible/Hebrew_Lexicon_Tyndale.txt', './library/stepbible/Hebrew_Lexicon_Tyndale_Index.json', ($baldyes="{$baldbald}G"))) ||
+	if (($lex_tyndale = abcms_read_indx_line('./library/stepbible/Hebrew_Lexicon_Tyndale.txt', './library/stepbible/Hebrew_Lexicon_Tyndale_Index.json', ($baldyes=$bald), $logerror)) ||
+		($baldbald != $bald && ($lex_tyndale = abcms_read_indx_line('./library/stepbible/Hebrew_Lexicon_Tyndale.txt', './library/stepbible/Hebrew_Lexicon_Tyndale_Index.json', ($baldyes=$baldbald), $logerror))) ||
+		($lex_tyndale = abcms_read_indx_line('./library/stepbible/Hebrew_Lexicon_Tyndale.txt', './library/stepbible/Hebrew_Lexicon_Tyndale_Index.json', ($baldyes="{$baldbald}G"), $logerror)) ||
 		($lex_tyndale = abcms_read_indx_line('./library/stepbible/Hebrew_Lexicon_Tyndale.txt', './library/stepbible/Hebrew_Lexicon_Tyndale_Index.json', ($baldyes="{$baldbald}A")))) { ; }
 	$lex_LSJ = NULL;
 	// i/o data
+	$family = abcms_read_indx_line(NULL, './library/stepbible/Hebrew_Lexicon_Tyndale_Index.json', $baldbald);
+	$family = aion_hyperlink($family, 'h');
 	$morphs = (empty($tag[12]) ? NULL : abcms_read_json('./library/stepbible/Hebrew_Morphhology.json', $tag[12]));
 	if ($tag && !$morphs && $tag[5]!='P' && $tag[5]!='L') { abcms_errs("abcms_enty() tag morphhology not found! Strongs={$strongs} Morph={$tag[12]}"); }
 	$morphs_tyndale = (empty($lex_tyndale[5]) ? NULL : aion_morphhology($lex_tyndale[5]));
@@ -1646,13 +1656,15 @@ else {
 	// Strongs
 	if ($baldnumb>0 && $baldnumb<=5624) { $lex_strongs = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_Strongs.txt', './library/stepbible/Greek_Lexicon_Strongs_Index.json', $baldbald); }
 	// Tyndale & LSJ
-	if (($lex_tyndale = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_Tyndale.txt', './library/stepbible/Greek_Lexicon_Tyndale_Index.json', ($baldyes=$bald))) ||
-		($baldbald != $bald && ($lex_tyndale = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_Tyndale.txt', './library/stepbible/Greek_Lexicon_Tyndale_Index.json', ($baldyes=$baldbald)))) ||
+	if (($lex_tyndale = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_Tyndale.txt', './library/stepbible/Greek_Lexicon_Tyndale_Index.json', ($baldyes=$bald), $logerror)) ||
+		($baldbald != $bald && ($lex_tyndale = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_Tyndale.txt', './library/stepbible/Greek_Lexicon_Tyndale_Index.json', ($baldyes=$baldbald), $logerror))) ||
 		($lex_tyndale = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_Tyndale.txt', './library/stepbible/Greek_Lexicon_Tyndale_Index.json', ($baldyes="{$baldbald}G")))) { ; }
-	if (($lex_LSJ = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_LSJ.txt', './library/stepbible/Greek_Lexicon_LSJ_Index.json', ($baldyes2=$bald))) ||
-		($baldbald != $bald && ($lex_LSJ = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_LSJ.txt', './library/stepbible/Greek_Lexicon_LSJ_Index.json', ($baldyes2=$baldbald)))) ||
+	if (($lex_LSJ = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_LSJ.txt', './library/stepbible/Greek_Lexicon_LSJ_Index.json', ($baldyes2=$bald), $logerror)) ||
+		($baldbald != $bald && ($lex_LSJ = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_LSJ.txt', './library/stepbible/Greek_Lexicon_LSJ_Index.json', ($baldyes2=$baldbald), $logerror))) ||
 		($lex_LSJ = abcms_read_indx_line('./library/stepbible/Greek_Lexicon_LSJ.txt', './library/stepbible/Greek_Lexicon_LSJ_Index.json', ($baldyes2="{$baldbald}G")))) { ; }
 	// i/o data
+	$family = abcms_read_indx_line(NULL, './library/stepbible/Greek_Lexicon_Tyndale_Index.json', $baldbald);
+	$family = aion_hyperlink($family, 'g');
 	$morphs = (empty($tag[12]) ? NULL : abcms_read_json('./library/stepbible/Greek_Morphhology.json', $tag[12]));
 	if ($tag && !$morphs && $tag[5]!='P' && $tag[5]!='L') { abcms_errs("abcms_enty() tag morphhology not found! Strongs={$strongs} Morph={$tag[12]}"); }
 	$morphs_tyndale = (empty($lex_tyndale[5]) ? NULL : aion_morphhology($lex_tyndale[5]));
@@ -1688,20 +1700,13 @@ if ((!empty($lex_strongs[0]) && $baldbald!=$lex_strongs[0]) ||
 // OLHEB	INDEX	BOOK	CHAPTER	VERSE	STRONGS	FLAG	MORPH	WORD	ENGLISH	PART	ADDITIONAL
 // OLDGRE	INDEX	BOOK	CHAPTER	VERSE	STRONGS	FLAG	MORPH	WORD	ENGLISH	ENTRY	PUNC		EDITIONS	VARIATION1	VARIATION2	ADDITIONAL	CONJOIN	OCCUR	ALT
 // NEW		INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH		GLOSS		MORPH		EDITIONS	VAR1		VAR2	SPELL	EXTRA	ALT
-// Strongs original
-$lex_original = NULL;
-if ($lex_strongs && $baldbald != $bald) {
-	$lex_original =
-		"<a href='".abcms_href((empty($_Part[1]) ? '/Strongs' : "/Strongs/$_Part[1]"),FALSE,TRUE,FALSE).
-		"/strongs-{$strongs[0]}$baldbald' title='Strongs Enhanced Concordance entry {$strongs[0]}$baldbald' class='word-blue'>{$strongs[0]}$baldbald</a>";
-}
 // Strongs substitute
 $lex_substitute = NULL;
 if ($lex_tyndale && $baldyes != $bald) {
-	abcms_errs("abcms_enty() strongs substitute needed! Strongs={$strongs} Substitute={$bald}/{$baldyes}");
+	//abcms_errs("abcms_enty() strongs substitute needed! Strongs={$strongs} Substitute={$bald}/{$baldyes}");
 	$lex_substitute =
-		"<a href='".abcms_href((empty($_Part[1]) ? '/Strongs' : "/Strongs/$_Part[1]"),FALSE,TRUE,FALSE).
-		"/strongs-{$strongs[0]}$baldyes' title='Strongs Subsitute Concordance entry {$strongs[0]}$baldyes' class='word-blue'>{$strongs[0]}$baldyes</a>";
+		" &gt; <a href='".abcms_href((empty($_Part[1]) ? '/Strongs' : "/Strongs/$_Part[1]"),FALSE,TRUE,FALSE).
+		"/strongs-{$strongs[0]}$baldyes'>{$strongs[0]}$baldyes</a>";
 }
 
 // join
@@ -1728,7 +1733,7 @@ $css_background = ($strongs==$_stidC || $baldnumb==$_stidN ? 'strongs' : ($aioni
 // links
 $bpath = ($_Path=='Strongs' ? abcms_href('/Read',FALSE,TRUE,'/strongs-'.$strongs) : abcms_href("/Bibles/$_Part[1]/".($strongs[0]==='g' ? 'New' : 'Old'),FALSE,TRUE,'/strongs-'.$strongs));
 $usage =
-	(!isset($counts[3]) ? "Not used in Bible text" :
+	(!isset($counts[3]) ? "Strongs number not referenced" :
 	("<a href='$bpath' title='Visit chapters with Strongs word usage' class='word-blue'>".
 	// Counts array(0=>'books',1=>'chapters',2=>'verses',3=>'words')
 	$counts[3].($counts[3]===1 ? ' time in ':' times in ').
@@ -1777,10 +1782,8 @@ echo
 	// tag header
 	"<div class='strong-entry {$css_background}'>" .
 	"<div class='strong-word".($book ? '' : ' notranslate')."'>{$word}</div>\n" .
-	(!empty($lex_original)	? "" : "<div class='field-field'><div class='field-label'>Strongs:</div><div class='field-value word-footnote'>{$SID}</div></div>\n") .
-	(empty($lex_original)	? "" : "<div class='field-field'><div class='field-label'>Strongs Extended:</div><div class='field-value word-footnote'>{$SID}</div></div>\n") .
-	(empty($lex_substitute)	? "" : "<div class='field-field'><div class='field-label'>Strongs Substitute:</div><div class='field-value word-footnote'>{$lex_substitute}</div></div>\n") .
-	(empty($lex_original)	? "" : "<div class='field-field'><div class='field-label'>Strongs Original:</div><div class='field-value word-footnote'>{$lex_original}</div></div>\n") .
+	"<div class='field-field'><div class='field-label'>Strongs:</div><div class='field-value'><span class='word-footnote'>{$SID}</span>{$lex_substitute}</div></div>\n" .
+	(empty($family)			? "" : "<div class='field-field'><div class='field-label'>Strongs extended:</div><div class='field-value'>{$family}</div></div>\n") .
 	(empty($underlying)		? "" : "<div class='field-field'><div class='field-label'>Lexicon:</div><div class='field-value notranslate'>{$underlying}</div></div>\n") .
 	(empty($tag[8])			? "" : "<div class='field-field'><div class='field-label'>Transliteration:</div><div class='field-value'>{$tag[8]}</div></div>\n") .
 	(empty($tag[11]) || $tag[11]==$word ? "" : "<div class='field-field'><div class='field-label'>Gloss:</div><div class='field-value'>{$tag[11]}</div></div>\n") .
@@ -1841,6 +1844,18 @@ echo
 	(empty($tag)			? "" : "</div>\n");
 	
 echo "</div>\n";
+}
+
+
+/*** HYPERLINK ***/
+function aion_hyperlink($text, $prefix=NULL) {
+if (!empty($text) && !($text = preg_replace(
+	"#(^| )([^ ]+)(,|$)#ui",
+	"\$1<a href='/Strongs/strongs-{$prefix}\$2' onclick='return ABMM(\"/Strongs\",\"/strongs-{$prefix}\$2\");'>{$prefix}\$2</a>\$3",
+	$text))) {
+	abcms_errs("aion_hyperlink() preg_replace failed text={$text}");
+}
+return $text;
 }
 
 
