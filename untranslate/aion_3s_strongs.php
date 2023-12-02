@@ -59,7 +59,9 @@ $CHECK_EGTG = "CHECK_EMPTY_GREEK_TAG.txt";
 $CHECK_FIXS = "CHECK_FIXED.txt";
 $CHECK_HTMG = "CHECK_HTML_GREEK_TBESG.htm";
 $CHECK_HTML = "CHECK_HTML_GREEK_TFLSJ.htm";
+$CHECK_HTAG = "CHECK_HTML_GREEK_TAGNT.htm";
 $CHECK_HTMH = "CHECK_HTML_HEBREW_TBESH.htm";
+$CHECK_HHOT = "CHECK_HTML_HEBREW_TAHOT.htm";
 $CHECK_MISS = "CHECK_MISSING.txt";
 $CHECK_MORF = "CHECK_MORPHS.txt";
 $CHECK_MORA = "CHECK_MORPHS_ALL.txt";
@@ -340,6 +342,61 @@ if ( file_put_contents(($file="$INPUT_TOTX4.tmp"), json_encode($database['HEBRF4
 if ( file_put_contents($json="$FOLDER_STAGE$HEBREW_MORPH_DATA",($temp=json_encode($database['HEBMOR'], $strongs_json_flag))) === FALSE ) { AION_ECHO("ERROR! json_encode: ".$json ); }
 unset($temp); $temp=NULL;
 AION_ECHO("HEBREW $FOLDER_STAGE$HEBREW_MORPH_DATA ROWS=".count($database['HEBMOR']));
+
+// TOTALLY UGLY - PUT THE MORPH SEARCH AND REPLACE INTO GLOBALS!
+// before init load the morph search and replace
+//$GLOBALS['MORPH']['LEX_REPLACE'] = AION_NEWSTRONGS_LEX_MORPH(NULL, NULL);
+//$GLOBALS['MORPH']['LEX_SEARCH' ] = array_keys($GLOBALS['MORPH']['LEX_REPLACE']);
+//if (count($GLOBALS['MORPH']['LEX_REPLACE']) != count($GLOBALS['MORPH']['LEX_SEARCH'])) { AION_ECHO("ERROR! GLOBALS['MORPH']['LEX_REPLACE'] lex morph counts do not match!"); }
+//AION_ECHO("WARN! HEBREW TOTALLY UGLY lexicon morph count = ".count($GLOBALS['MORPH']['LEX_REPLACE']));
+$GLOBALS['MORPH']['TAG_REPLACE'] = $GLOBALS['MORPH']['TAG_SEARCH'] = array();
+foreach($database['HEBMOR'] as $key => $morph) {
+	$GLOBALS['MORPH']['TAG_SEARCH'][] = "#={$key}\)#u";
+	$GLOBALS['MORPH']['TAG_REPLACE'][] = '=<a href="javascript:void(0)" title="'.trim($morph['M'].', '.$morph['U'],", ").'">'.$key.'</a>)';
+	$GLOBALS['MORPH']['TAG_SEARCH'][] = "#={$key}\/#u";
+	$GLOBALS['MORPH']['TAG_REPLACE'][] = '=<a href="javascript:void(0)" title="'.trim($morph['M'].', '.$morph['U'],", ").'">'.$key.'</a>/';
+	$key0 = $key[0];
+	if (!($key1 = substr($key,1))) { continue; }
+	$GLOBALS['MORPH']['TAG_SEARCH'][] = "#(=({$key0}|<).+)\/{$key1}\)#u";
+	$GLOBALS['MORPH']['TAG_REPLACE'][] = '$1/<a href="javascript:void(0)" title="'.trim($morph['M'].', '.$morph['U'],", ").'">'.$key.'</a>)';
+	$GLOBALS['MORPH']['TAG_SEARCH'][] = "#(=({$key0}|<).+)\/{$key1}\/#u";
+	$GLOBALS['MORPH']['TAG_REPLACE'][] = '$1/<a href="javascript:void(0)" title="'.trim($morph['M'].', '.$morph['U'],", ").'">'.$key.'</a>/';
+	// might not be needed
+	$GLOBALS['MORPH']['TAG_SEARCH'][] = "#(=({$key0}|<).+?)\/{$key1}\)#u";
+	$GLOBALS['MORPH']['TAG_REPLACE'][] = '$1/<a href="javascript:void(0)" title="'.trim($morph['M'].', '.$morph['U'],", ").'">'.$key.'</a>)';
+	$GLOBALS['MORPH']['TAG_SEARCH'][] = "#(=({$key0}|<).+?)\/{$key1}\/#u";
+	$GLOBALS['MORPH']['TAG_REPLACE'][] = '$1/<a href="javascript:void(0)" title="'.trim($morph['M'].', '.$morph['U'],", ").'">'.$key.'</a>/';
+}
+AION_ECHO("WARN! HEBREW TOTALLY UGLY tag morph count = ".count($GLOBALS['MORPH']['TAG_REPLACE']));
+$htmlheader = <<<EOT
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>Aionian Bible Project: $file HTML Errors</title>
+<meta name='description' content="Aionian Bible Project: $file HTML Errors">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+<meta name='apple-mobile-web-app-capable' content='yes'>
+<meta name="generator" content="ABCMS™">
+<meta http-equiv='x-ua-compatible' content='ie=edge'>
+<style>
+	body { padding: 50px;}
+	div.head { margin: 20px; }
+	div.body { margin: 50px; }
+</style>
+</head>
+<body>
+<div class='head'>
+<h1>Aionian Bible Project: TAHOT HTML Errors</h1>
+</div>
+
+EOT;
+if (file_put_contents("$FOLDER_STAGE$CHECK_HHOT",$htmlheader) === FALSE ) { AION_ECHO("ERROR! $FOLDER_STAGE$CHECK_HHOT"); } // FILE_APPEND
+
+
+
+
+// Okay back to business
 AION_NEWSTRONGS_GET_FIX_LEX('TBESH', $database['HEBLEX'], $database, $database['HEBMOR'], "$FOLDER_STAGE$CHECK_HTMH");
 AION_NEWSTRONGS_GET_FIX_INDEX($database['HEBLEX']);
 $commentplus = <<<EOT
@@ -374,6 +431,7 @@ if (!is_array(($database['HEBRF3'] = json_decode(file_get_contents(($file="$INPU
 AION_NEWSTRONGS_FIX_REF_HEBREW($database['HEBRF3'],'TOTHT',$database, $database['HEBLEX'], $database['HEBMOR']);	AION_unset($database['HEBRF3']);
 if (!is_array(($database['HEBRF4'] = json_decode(file_get_contents(($file="$INPUT_TOTX4.tmp")),true)))) {	AION_ECHO("ERROR! json_decode(file_get_contents($file))"); }
 AION_NEWSTRONGS_FIX_REF_HEBREW($database['HEBRF4'],'TOTHT',$database, $database['HEBLEX'], $database['HEBMOR']);	AION_unset($database['HEBRF4']);
+if (file_put_contents("$FOLDER_STAGE$CHECK_HHOT","</body></html>",FILE_APPEND) === FALSE ) { AION_ECHO("ERROR! $FOLDER_STAGE$CHECK_HHOT"); } // FILE_APPEND
 AION_unset($database['HEBMOR']);
 AION_NEWSTRONGS_VALIDATE_REF("old", $database, $database['TOTHT']);
 AION_NEWSTRONGS_VALIDATE_HEBREW($database['TOTHT'], $FOLDER_STAGE."CHECK_VALIDATE_HEBREW_TRANSLITERATION.txt",				1, "TAHOT Validation: Same ExtendedStrongs H=[Hebrew] with multiple T=[Transliterations]");
@@ -532,6 +590,44 @@ AION_NEWSTRONGS_GET( "$INPUT_TAGX2", "044	ACT	001	001	00001", NULL, 'GREREF2',
 if ( file_put_contents($json="$FOLDER_STAGE$GREEK_MORPH_DATA",($temp=json_encode($database['GREMOR'], $strongs_json_flag))) === FALSE ) { AION_ECHO("ERROR! json_encode: ".$json ); }
 unset($temp); $temp=NULL;
 AION_ECHO("GREEK $FOLDER_STAGE$GREEK_MORPH_DATA ROWS=".count($database['GREMOR']));
+
+// TOTALLY UGLY - PUT THE MORPH SEARCH AND REPLACE INTO GLOBALS!
+// before init load the morph search and replace
+$GLOBALS['MORPH']['TAG_REPLACE'] = $GLOBALS['MORPH']['TAG_SEARCH'] = array();
+foreach($database['GREMOR'] as $key => $morph) {
+	$GLOBALS['MORPH']['TAG_SEARCH'][] = "#={$key} #u";
+	$GLOBALS['MORPH']['TAG_REPLACE'][] = '=<a href="javascript:void(0)" title="'.trim($morph['M'].', '.$morph['U'],", ").'">'.$key.'</a> ';
+}
+AION_ECHO("WARN! GREEK TOTALLY UGLY tag morph count = ".count($GLOBALS['MORPH']['TAG_REPLACE']));
+$htmlheader = <<<EOT
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>Aionian Bible Project: $file HTML Errors</title>
+<meta name='description' content="Aionian Bible Project: $file HTML Errors">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+<meta name='apple-mobile-web-app-capable' content='yes'>
+<meta name="generator" content="ABCMS™">
+<meta http-equiv='x-ua-compatible' content='ie=edge'>
+<style>
+	body { padding: 50px;}
+	div.head { margin: 20px; }
+	div.body { margin: 50px; }
+</style>
+</head>
+<body>
+<div class='head'>
+<h1>Aionian Bible Project: TAGNT HTML Errors</h1>
+</div>
+
+EOT;
+if (file_put_contents("$FOLDER_STAGE$CHECK_HTAG",$htmlheader) === FALSE ) { AION_ECHO("ERROR! $FOLDER_STAGE$CHECK_HHOT"); } // FILE_APPEND
+
+
+
+
+// Okay back to business
 AION_NEWSTRONGS_GET_FIX_LEX('TBESG', $database['GRELEX'], $database, $database['GREMOR'],"$FOLDER_STAGE$CHECK_HTMG");
 AION_NEWSTRONGS_GET_FIX_INDEX($database['GRELEX']);
 $commentplus = <<<EOT
@@ -586,6 +682,7 @@ AION_NEWSTRONGS_LEX_MORPH_LEX($database['GRELSJ']);
 AION_ECHO("GREEK $FOLDER_STAGE$GREEK_TFLSJ_DATA ROWS=".count($database['GRELSJ']));
 AION_NEWSTRONGS_FIX_REF_GREEK($database['GREREF1'],'GRERE2',$database, $database['GRELEX'], $database['GRELSJ'], $database['GREMOR']);
 AION_NEWSTRONGS_FIX_REF_GREEK($database['GREREF2'],'GRERE2',$database, $database['GRELEX'], $database['GRELSJ'], $database['GREMOR']);
+if (file_put_contents("$FOLDER_STAGE$CHECK_HTAG","</body></html>",FILE_APPEND) === FALSE ) { AION_ECHO("ERROR! $FOLDER_STAGE$CHECK_HTAG"); } // FILE_APPEND
 AION_NEWSTRONGS_VALIDATE_REF("new", $database, $database['GRERE2']);
 AION_unset($database['GREREF1']);
 AION_unset($database['GREREF2']);
@@ -1342,6 +1439,8 @@ function AION_NEWSTRONGS_GET_FIX($file, $contents, &$result) {
 
 // Clean up the Lexicon before writing
 function AION_NEWSTRONGS_GET_FIX_LEX($file, &$lines, &$database, $morph_array, $html_file) {
+	// init
+	$counter_lex = $counter_tag = 0;
 	$previous = libxml_use_internal_errors(true);
 	$dom = New DOMDocument();
 	libxml_clear_errors();
@@ -1395,6 +1494,18 @@ EOT;
 				AION_ECHO("WARN! $warn".print_r($line,TRUE)."\n\n\n");
 			}
 		}
+		// count and hyperlink MORPH in DEF
+		// A handful of search and replace errors noted on 11/30/23. If data has not changed this search and replace is not needed!
+		/*
+		if (!empty($line['DEF'])) {
+			foreach($GLOBALS['MORPH']['LEX_SEARCH'] as $find) { if (preg_match_all("#{$find}#u", $line['DEF'], $matches, PREG_PATTERN_ORDER)) {
+				AION_ECHO("WARN! LEX MORPH SWAP = '{$find}' in: ".$line['DEF']);
+				$counter_lex += count($matches[0]); } } // lex morphs?
+			foreach($GLOBALS['MORPH']['TAG_SEARCH'] as $find) { if (preg_match_all("#{$find}#u", $line['DEF'], $matches, PREG_PATTERN_ORDER)) {
+				AION_ECHO("WARN! TAG MORPH SWAP = '{$find}' in: ".$line['DEF']);
+				$counter_tag += count($matches[0]); } } // lex morphs?
+		}
+		*/
 		// look for broken tags and bad html
 		$report='';
 		if (preg_match_all("#.{0,30}<[^abiuw>]{1}[^>]*[^abiuw]{1}>.{0,30}#ui",$lines[$x]['DEF'],$match,PREG_PATTERN_ORDER)) {
@@ -1422,6 +1533,12 @@ EOT;
 			}
 		}
 	}
+	// morph count result
+	// likewise from above - nothing to report, this is turned off!
+	/*
+	AION_ECHO("WARN! AION_NEWSTRONGS_GET_FIX_LEX({$file}) lex morph usage = {$counter_lex}");
+	AION_ECHO("WARN! AION_NEWSTRONGS_GET_FIX_LEX({$file}) tag morph usage = {$counter_tag}");
+	*/
 	// end
 	libxml_clear_errors();
 	libxml_use_internal_errors($previous);
@@ -1632,6 +1749,7 @@ static $lookup = array(
 'Punct.'=>'Punctuation',
 'Suffix'=>'Suffix',
 );
+if ($morph===NULL && $output===NULL) { return $lookup; }
 if (empty($morph)) { return TRUE; }
 $missing = (empty($lookup[$morph]) ? 'missing' : '');
 $text = (empty($lookup[$morph]) ? '' : $lookup[$morph]);
@@ -1815,6 +1933,58 @@ function AION_NEWSTRONGS_HYPERLINK($newmess, $text) {
 }
 
 
+
+// Search and replace text Strongs with glossary hyperlink!
+// Philistine @ Gen.21.32-Zec
+// /Bibles/English---Aionian-Bible/Genesis/21/32
+function AION_NEWSTRONGS_EXTRAREF($newmess, $text, &$count) {
+	// do nothing
+	if (empty($text)) { return $text; }
+	if (!preg_match("#\s*@\s*([[:alnum:]]{3})\.(\d+)\.(\d+)(-[[:alnum:]]{3})?(.*)$#u", $text, $match)) { return $text; }
+	// get book maps
+	static $abooks = NULL; if ($abooks===NULL) { $abooks = AION_BIBLES_LIST(); }
+	if ($abooks['1SA']=='1 Samuel') { foreach($abooks as $key => $book) { $abooks[$key] = str_replace(" ", "-", $book); } }
+	static $tbooks = NULL; if ($tbooks===NULL) { $tbooks = AION_BIBLES_LIST_TYN(); $tbooks['MKR'] = 'MAR'; } // + addition because of bug
+	// get book and chapter
+	$book = strtoupper($match[1]);
+	if (empty($tbooks[$book])) { AION_ECHO("ERROR! $newmess EXTRAREF missing Tyndale book='$book' text='$text'"); }
+	$book = $tbooks[$book];
+	if (empty($abooks[$book])) { AION_ECHO("ERROR! $newmess EXTRAREF missing Aionian book='$book' text='$text'"); }
+	$book = $abooks[$book];
+	$chap = (int)$match[2];
+	$vers = (int)$match[3];
+	// range
+	if (empty($match[4])) { $range = $next = NULL; }
+	else if ($match[4][0]=='-' && ctype_digit(substr($match[4],1))) { $range = $match[4]; $next = NULL; }
+	else {
+		$range = NULL;
+		$next = $match[4];
+		// commented out for now - not much gained with hyperlinking the reference end point
+		/*
+		$keep = substr($match[4],1);
+		$book2 = strtoupper($keep);
+		if (empty($tbooks[$book2])) { AION_ECHO("ERROR! $newmess EXTRAREF2 missing Tyndale book2='$book2' text='$text'"); }
+		$book2 = $tbooks[$book2];
+		if (empty($abooks[$book2])) { AION_ECHO("ERROR! $newmess EXTRAREF2 missing Aionian book='$book2' text='$text'"); }
+		$book2 = $abooks[$book2];
+		$next = "-<a href='/Bibles/English---Aionian-Bible/{$book2}' onclick='return ABMM(\"/Bibles\",\"/{$book2}\");'>{$keep}</a>";
+		*/
+	}
+	// extra 
+	$extra = $match[5];
+	// insert the link
+	if (NULL===($text = preg_replace(
+		"#{$match[0]}#u",
+		" @ <a href='/Bibles/English---Aionian-Bible/{$book}/{$chap}' onclick='return ABMM(\"/Bibles\",\"/{$book}/{$chap}\");'>{$match[1]}.{$chap}.{$vers}{$range}</a>{$next}{$extra}",
+		$text))) {
+		AION_ECHO("ERROR! $newmess Problem converting tag reference to href link text='$text'");
+	}
+	++$count;
+	return $text;
+}
+
+
+
 // Viz need its own fixing
 function AION_NEWSTRONGS_FIX_VIZ($input,$what,$table,&$database,$osstrongs,$osstrongs2) {
 	$database[$table] = array();
@@ -1891,12 +2061,16 @@ function AION_NEWSTRONGS_FIX_VIZ($input,$what,$table,&$database,$osstrongs,$osst
 }
 
 
+
 //
 // big daddy reference parser HEBREW!
 //
 function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $morph_array) {
-
 	// INITIALIZE
+	$domprevious = libxml_use_internal_errors(true);
+	$dom = New DOMDocument();
+	libxml_clear_errors();
+
 	$lex2_array = array();
 	$KetivQere_last = $last_indx = $last_chap = $last_vers = NULL;
 	if (empty($database[$table])) {
@@ -1904,42 +2078,39 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 		$database[$table] = "INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH	GLOSS	MORPH	EDITIONS	VAR1	VAR2	SPELL	EXTRA	ALT\n";
 	}
 	$strongs_counts = array();
-	static $tagtypes = NULL;
-	if ($tagtypes==NULL) {
-		$tagtypes = array(
-			"A"		=> "Aleppo",
-			"AH"	=> "Aleppo and Ben Chaim",
-			"AV"	=> "Aleppo and other Hebrew manuscripts",
-			"B"		=> "Biblia Hebraica Stuttgartensia",
-			"C"		=> "Cairensis",
-			"D"		=> "Dead Sea and other Judean Desert manuscripts",
-			"E"		=> "Emendation from ancient sources",
-			"F"		=> "Format pointing or word divisions differently without changing letters",
-			"H"		=> "Ben Chaim (2nd Rabbinic Bible)",
-			"K"		=> "Ketiv 'written' in the text with Tyndale pointing",
-			"L"		=> "Leningrad manuscript",
-			"LAH"	=> "Leningrad manuscript, influencing variant: Aleppo and Ben Chaim",
-			"Lav"	=> "Leningrad manuscript, minor variant: Aleppo and other Hebrew manuscripts",
-			"LB"	=> "Leningrad manuscript, influencing variant: BHS",
-			"Lb"	=> "Leningrad manuscript, minor variant: BHS",
-			"Lbp"	=> "Leningrad manuscript, minor variants: BHS and alternate punctuation",
-			"LC"	=> "Leningrad manuscript, influencing variant: Cairensis",
-			"LD"	=> "Leningrad manuscript, influencing variant: Dead Sea manuscript",
-			"LE"	=> "Leningrad manuscript, influencing variant: ancient sources",
-			"LF"	=> "Leningrad manuscript, influencing variant: pointing and divisions",
-			"LH"	=> "Leningrad manuscript, influencing variant: Ben Chaim",
-			"LP"	=> "Leningrad manuscript, influencing variant: alternate punctuation",
-			"Lp"	=> "Leningrad manuscript, minor variant: alternate punctuation",
-			"LS"	=> "Leningrad manuscript, influencing variant: Scribal traditions in Itture Sopherim, etc",
-			"LV"	=> "Leningrad manuscript, influencing variant: and other Hebrew manuscripts",
-			"Qk"	=> "Qere 'spoken' corrections from margin and text pointing, minor variant: Ketiv 'written', Tyndale pointing",
-			"QK"	=> "Qere 'spoken' corrections from margin and text pointing, influencing variant: Ketiv 'written', Tyndale pointing",
-			"QKB"	=> "Qere 'spoken' corrections from margin and text pointing, influencing variant: BHS and Ketiv 'written', Tyndale pointing",
-			"R"		=> "Restored text based on Leningrad parallels",
-			"V"		=> "Other Hebrew manuscripts",
-			"X"		=> "Extra words from Septuagint (LXX), in Hebrew based on apparatus in BHS and BHK",
-		);
-	}
+	static $tagtypes = array(
+		"A"		=> "Aleppo",
+		"AH"	=> "Aleppo and Ben Chaim",
+		"AV"	=> "Aleppo and other Hebrew manuscripts",
+		"B"		=> "Biblia Hebraica Stuttgartensia",
+		"C"		=> "Cairensis",
+		"D"		=> "Dead Sea and other Judean Desert manuscripts",
+		"E"		=> "Emendation from ancient sources",
+		"F"		=> "Format pointing or word divisions differently without changing letters",
+		"H"		=> "Ben Chaim (2nd Rabbinic Bible)",
+		"K"		=> "Ketiv 'written' in the text with Tyndale pointing",
+		"L"		=> "Leningrad manuscript",
+		"LAH"	=> "Leningrad manuscript, influencing variant: Aleppo and Ben Chaim",
+		"Lav"	=> "Leningrad manuscript, minor variant: Aleppo and other Hebrew manuscripts",
+		"LB"	=> "Leningrad manuscript, influencing variant: BHS",
+		"Lb"	=> "Leningrad manuscript, minor variant: BHS",
+		"Lbp"	=> "Leningrad manuscript, minor variants: BHS and alternate punctuation",
+		"LC"	=> "Leningrad manuscript, influencing variant: Cairensis",
+		"LD"	=> "Leningrad manuscript, influencing variant: Dead Sea manuscript",
+		"LE"	=> "Leningrad manuscript, influencing variant: ancient sources",
+		"LF"	=> "Leningrad manuscript, influencing variant: pointing and divisions",
+		"LH"	=> "Leningrad manuscript, influencing variant: Ben Chaim",
+		"LP"	=> "Leningrad manuscript, influencing variant: alternate punctuation",
+		"Lp"	=> "Leningrad manuscript, minor variant: alternate punctuation",
+		"LS"	=> "Leningrad manuscript, influencing variant: Scribal traditions in Itture Sopherim, etc",
+		"LV"	=> "Leningrad manuscript, influencing variant: and other Hebrew manuscripts",
+		"Qk"	=> "Qere 'spoken' corrections from margin and text pointing, minor variant: Ketiv 'written', Tyndale pointing",
+		"QK"	=> "Qere 'spoken' corrections from margin and text pointing, influencing variant: Ketiv 'written', Tyndale pointing",
+		"QKB"	=> "Qere 'spoken' corrections from margin and text pointing, influencing variant: BHS and Ketiv 'written', Tyndale pointing",
+		"R"		=> "Restored text based on Leningrad parallels",
+		"V"		=> "Other Hebrew manuscripts",
+		"X"		=> "Extra words from Septuagint (LXX), in Hebrew based on apparatus in BHS and BHK",
+	);
 	
 	// LOOP LINES
 	foreach( $input as $line ) {
@@ -2095,7 +2266,7 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 			$strongs = $strongs_array[0];
 			$strongs_gloss = NULL;
 			$strongs_punctuation = FALSE;
-			$strongs_additional = NULL;
+			$extra = NULL;
 			// typically joined words parts, but sometimes divided parts into separate words
 			// strongs //=joined, but variants divided, / / and /_/=divided, but variants joined, and /-/ Qere ignores Ketiv
 			// Hebrew tagged text
@@ -2223,19 +2394,19 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 				}
 				// build the EXTRA field from the 3rd component
 				else if (preg_match("#^([^»]+)»(.+)$#ui", $strongs_array[2], $match) && ($strongs_gloss=trim($match[1],",:; "))) {
-					$strongs_additional = $match[2];
-					$strongs_additional = preg_replace("#\d+_#u", "", $strongs_additional);
-					$strongs_additional = preg_replace("#@#u", " @ ", $strongs_additional);
-					$strongs_additional = preg_replace("#[_ ]+#u", " ", $strongs_additional);
-					$strongs_additional = trim($strongs_additional," @:;,-+$");
-					if ($strongs_additional) {
+					$extra = $match[2];
+					$extra = preg_replace("#\d+_#u", "", $extra);
+					$extra = preg_replace("#@#u", " @ ", $extra);
+					$extra = preg_replace("#[_ ]+#u", " ", $extra);
+					$extra = trim($extra," @:;,-$+");
+					if ($extra) {
 						//»between:1_between
 						//»to call:2_call_by;name
 						//»LORD@Gen.1.1-Heb
 						//»to see:1_see;show
 						//: true»truth:2_true
 						// parse pieces, clean, and remove duplication
-						if (($pieces = mb_split("[:;]+", $strongs_additional))) {
+						if (($pieces = mb_split("[:;]+", $extra))) {
 							foreach($pieces as $k => $piece) { $pieces[$k] = trim($piece," @:;,-+$"); }
 							$pieces = array_flip(array_flip($pieces)); // values to keys, keys to values to remove duplicates.
 							foreach($pieces as $k => $piece) { // wipe additional if the same as english or gloss!
@@ -2243,8 +2414,8 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 									unset($pieces[$k]);
 								}
 							}
-							if (!empty($pieces)) { $strongs_additional = implode(", ", $pieces); }
-							else { $strongs_additional = ''; }
+							if (!empty($pieces)) { $extra = implode(", ", $pieces); }
+							else { $extra = ''; }
 						}
 					}
 				}
@@ -2253,14 +2424,14 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 					$strongs_gloss = trim($strongs_array[2],",:; ");
 				}
 				// HANDLE PUNCTUATION
-				static $punctuation = NULL; if ($punctuation === NULL) { $punctuation = array(
+				static $punctuation = array(
 					'־' => 'link',			// H9014
 					'׀' => 'separate',		// H9015
 					'׃' => 'fullstop',		// H9016
 					'פ' => 'chapter',		// H9017
 					'ס' => 'paragraph',		// H9018
 					'׆' => 'section',		// H9019
-				); }
+				);
 				if (!empty($punctuation[$strongs_hebrew])) {
 					if ('P'!=$jointype[$key]) {
 						AION_ECHO("WARN! Hey punctuation not marked! key={$key} hebrew='{$strongs_hebrew}' punct='{$punctuation[$strongs_hebrew]}' $newmess\n".print_r($line,TRUE)."\n".print_r($jointype,TRUE));
@@ -2382,12 +2553,6 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 			if (!empty($line['VAR2'])) { AION_NEWSTRONGS_STRONGS_PARSE($newmess, $line['VAR2'], TRUE, $lex_array, $lex2_array); }
 			if (!empty($line['ALT'])) { AION_NEWSTRONGS_STRONGS_PARSE($newmess, $line['ALT'], TRUE, $lex_array, $lex2_array); }
 
-			// VALIDATE VARIANT AND SPELL FORMAT
-			$search = "#^(A/H=|A/V=|B=|C=|D=|E=|F=|H=|K=|L=|P=|S=|V=)#u";
-			if (!empty($line['VAR1'])  && !preg_match($search, $line['VAR1']))  { AION_ECHO("ERROR! VAR1 format wrong: {$line['VAR1']}!\n".print_r($line,TRUE)); }
-			if (!empty($line['VAR2'])  && !preg_match($search, $line['VAR2']))  { AION_ECHO("ERROR! VAR1 format wrong: {$line['VAR2']}!\n".print_r($line,TRUE)); }
-			if (!empty($line['SPELL']) && !preg_match($search, $line['SPELL'])) { AION_ECHO("ERROR! VAR1 format wrong: {$line['SPELL']}!\n".print_r($line,TRUE)); }
-
 			// Cleanup SPELL
 			if (NULL===($spell = preg_replace("#[|¦;]+#ui", " ; ", $line['SPELL'])) ||
 				NULL===($spell = preg_replace("#\s+#ui", " ", $spell))) {
@@ -2404,12 +2569,65 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 			if (!in_array($jointype[$key], array("W","W$","W+","C","C$","C+","J","J$","D","D$","L","P"))) {
 				AION_ECHO("ERROR! bad join type! {$jointype[$key]}\n".print_r($line,TRUE));
 			}
+
+			// TAHOT Leaders in VAR1, VAR2, and SPELL
+			// VALIDATE VARIANT AND SPELL FORMAT
+			$VAR1 = $line['VAR1'];
+			$VAR2 = $line['VAR2'];
+
+			static $leader_count = 0;
+			static $tahot_leaders = array(
+				"#^A\/H=\s*#u"	=> "Aleppo/BenChaim = ",
+				"#^A\/V=\s*#u"	=> "Aleppo/OtherHebrew = ",
+				"#^B=\s*#u"		=> "BHS = ",
+				"#^C=\s*#u"		=> "Cairensis = ",
+				"#^D=\s*#u"		=> "DeadSeaManuscripts = ",
+				"#^E=\s*#u" 	=> "BarthelemySources = ",
+				"#^F=\s*#u"		=> "Formatting = ",
+				"#^H=\s*#u"		=> "BenChaim = ",
+				"#^K=\s*#u"		=> "Ketiv = ",
+				"#^L=\s*#u"		=> "Leningrad = ",
+				"#^P=\s*#u"		=> "AltPunctuation = ",
+				"#^S=\s*#u"		=> "Sopherim = ",
+				"#^V=\s*#u"		=> "Other Hebrew = ",
+			);
+			static $tahot_leaders_search = NULL; if (NULL===$tahot_leaders_search) { $tahot_leaders_search = array_keys($tahot_leaders); } // edition search and replace
+			if (!empty($VAR1))  { if (!($VAR1 =preg_replace($tahot_leaders_search,$tahot_leaders,$VAR1 ,-1,$counter)) || $counter!=1) { AION_ECHO("ERROR! LEADER! ".print_r($line,TRUE)); } $leader_count += $counter; }
+			if (!empty($VAR2))  { if (!($VAR2 =preg_replace($tahot_leaders_search,$tahot_leaders,$VAR2 ,-1,$counter)) || $counter!=1) { AION_ECHO("ERROR! LEADER! ".print_r($line,TRUE)); } $leader_count += $counter; }
+			if (!empty($spell)) { if (!($spell=preg_replace($tahot_leaders_search,$tahot_leaders,$spell,-1,$counter)) || $counter!=1) { AION_ECHO("ERROR! LEADER! ".print_r($line,TRUE)); } $leader_count += $counter; }
+
+			// HTMLSPECIALCHARS
+			$VAR1 = htmlspecialchars($VAR1);
+			$VAR2 = htmlspecialchars($VAR2);
+			$spell = htmlspecialchars($spell);
+			$extra = htmlspecialchars($extra);
 			
 			// Hyperlink Expand!
-			$VAR1 = AION_NEWSTRONGS_HYPERLINK($newmess, $line['VAR1']);
-			$VAR2 = AION_NEWSTRONGS_HYPERLINK($newmess, $line['VAR2']);
+			$VAR1 = AION_NEWSTRONGS_HYPERLINK($newmess, $VAR1);
+			$VAR2 = AION_NEWSTRONGS_HYPERLINK($newmess, $VAR2);
 			$alternate = AION_NEWSTRONGS_HYPERLINK($newmess, $alternate);
-			
+			static $extra_count = 0;
+			$extra = AION_NEWSTRONGS_EXTRAREF($newmess, $extra, $extra_count);
+
+			// Morph expand!
+			static $tag_morph_var1 = 0;
+			static $tag_morph_var2 = 0;
+			static $tag_morph_xtra = 0;
+			global $FOLDER_STAGE, $CHECK_HHOT;
+			if (!empty($VAR1)) { if (!($VAR1=preg_replace($GLOBALS['MORPH']['TAG_SEARCH'],$GLOBALS['MORPH']['TAG_REPLACE'],$VAR1,-1,$counter))) { AION_ECHO("ERROR! MORPHY! ".print_r($line,TRUE)); } $tag_morph_var1 += $counter; }
+			if (!empty($VAR2)) { if (!($VAR2=preg_replace($GLOBALS['MORPH']['TAG_SEARCH'],$GLOBALS['MORPH']['TAG_REPLACE'],$VAR2,-1,$counter))) { AION_ECHO("ERROR! MORPHY! ".print_r($line,TRUE)); } $tag_morph_var2 += $counter; }
+			if ($VAR1.$VAR2.$spell.$extra.$alternate) {
+				$testhtml = "$VAR1<br>$VAR2<br>$spell<br>$extra<br>$alternate<br><br>";
+				$dom->loadHTML("<html><body>$testhtml</body></html>");
+				if (!empty(libxml_get_errors())) {
+					$testhtml = "<div class='body'>".preg_replace("#([[:punct:]]+) #u","\$1\n",$testhtml)."</div>\n";
+					AION_ECHO($warn="WARN! $newmess strongs='$strongs' DOMHTML Error".print_r($line,TRUE)."\n".print_r(libxml_get_errors(),TRUE)."\n\n\n");
+					$database['WARNINGS'] .= $warn;
+					libxml_clear_errors();
+					if (file_put_contents("$FOLDER_STAGE$CHECK_HHOT",$testhtml,FILE_APPEND) === FALSE ) { AION_ECHO("ERROR! $FOLDER_STAGE$CHECK_HHOT"); } // FILE_APPEND
+				}
+			}
+
 			// OUTPUT LINE
 			$database[$table] .=
 				$dataref . "\t".
@@ -2426,7 +2644,7 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 				$VAR1 . "\t".
 				$VAR2 . "\t".
 				$spell . "\t".
-				$strongs_additional . "\t".
+				$extra . "\t".
 				//$line['CONJOIN'] . "\t".
 				//$instance . "\t".
 				//$occur . "\t".
@@ -2434,6 +2652,14 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 		}
 		$last = $line;
 	}
+	// report the morph search and replace results
+	AION_ECHO("WARN! AION_NEWSTRONGS_FIX_REF_HEBREW tag morph var1 usage = {$tag_morph_var1}");
+	AION_ECHO("WARN! AION_NEWSTRONGS_FIX_REF_HEBREW tag morph var2 usage = {$tag_morph_var2}");
+	AION_ECHO("WARN! AION_NEWSTRONGS_FIX_REF_HEBREW tag morph xtra usage = {$tag_morph_xtra}");
+	AION_ECHO("WARN! AION_NEWSTRONGS_FIX_REF_HEBREW leader swap count = {$leader_count}");
+	AION_ECHO("WARN! AION_NEWSTRONGS_FIX_REF_HEBREW extra link count = {$extra_count}");
+	libxml_clear_errors();
+	libxml_use_internal_errors($domprevious);
 }
 
 
@@ -2494,40 +2720,79 @@ function AION_NEWSTRONGS_STRONGS_PARSE($newmess, $strongs, $variant, &$lex_array
 //
 function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, &$lex2_array, $morph_array) {
 	// INITIALIZE
-	static $vartrans = NULL;
-	if (!$vartrans) {
-		$vartrans = array(
-			"Byz"		=> "Byzantine from Robinson/Pierpoint",
-			"Coptic"	=> "Coptic",
-			"ESV"		=> "English Standard Version",
-			"Goodnews"	=> "Goodnews",
-			"KJV"		=> "King James Version",
-			"KJV?"		=> "King James Version possibly",
-			"NA26"		=> "Nestle/Aland 26th Edition",
-			"NA27"		=> "Nestle/Aland 27th Edition",
-			"NA28"		=> "Nestle/Aland 28th Edition, not ECM",
-			"Latin"		=> "Latin",
-			"NIV"		=> "New International Version",
-			"OldLatin"	=> "Old Latin",
-			"OldSyriac"	=> "Old Syriac version",
-			"P66"		=> "Papyri #66",
-			"P66*"		=> "Papyri #66 corrector",
-			"Punc"		=> "Accent variant from punctuation",
-			"SBL"		=> "Society of Biblical Literature Greek NT",
-			"Syriac"	=> "Syriac",
-			"TR"		=> "Textus Receptus",
-			"Treg"		=> "Tregelles",
-			"Tyn"		=> "Tyndale House GNT",
-			"U1"		=> "Uncial Codex #1, Sinaiticus",
-			"U2"		=> "Uncial Codex #2",
-			"U3"		=> "Uncial Codex #3, Alexandrinus",
-			"U4"		=> "Uncial Codex #4",
-			"U5"		=> "Uncial Codex #5, Bezae",
-			"U6"		=> "Uncial Codex #6",
-			"U32"		=> "Uncial Codex #32",
-			"WH"		=> "Westcott/Hort",
-		);
-	}
+	$domprevious = libxml_use_internal_errors(true);
+	$dom = New DOMDocument();
+	libxml_clear_errors();
+
+	static $vartrans = array(
+		"Byz"		=> "Byzantine from Robinson/Pierpoint",
+		"Coptic"	=> "Coptic",
+		"ESV"		=> "English Standard Version",
+		"Goodnews"	=> "Goodnews",
+		"KJV"		=> "King James Version",
+		"KJV?"		=> "King James Version possibly",
+		"NA26"		=> "Nestle/Aland 26th Edition",
+		"NA27"		=> "Nestle/Aland 27th Edition",
+		"NA28"		=> "Nestle/Aland 28th Edition, not ECM",
+		"Latin"		=> "Latin",
+		"NIV"		=> "New International Version",
+		"OldLatin"	=> "Old Latin",
+		"OldSyriac"	=> "Old Syriac version",
+		"P66"		=> "Papyri #66",
+		"P66*"		=> "Papyri #66 corrector",
+		"Punc"		=> "Accent variant from punctuation",
+		"SBL"		=> "Society of Biblical Literature Greek NT",
+		"Syriac"	=> "Syriac",
+		"TR"		=> "Textus Receptus",
+		"Treg"		=> "Tregelles",
+		"Tyn"		=> "Tyndale House GNT",
+		"U1"		=> "Uncial Codex #1, Sinaiticus",
+		"U2"		=> "Uncial Codex #2",
+		"U3"		=> "Uncial Codex #3, Alexandrinus",
+		"U4"		=> "Uncial Codex #4",
+		"U5"		=> "Uncial Codex #5, Bezae",
+		"U6"		=> "Uncial Codex #6",
+		"U32"		=> "Uncial Codex #32",
+		"WH"		=> "Westcott/Hort",
+	);
+	// TAGNT editions
+	//in: «3:+Byz+TR
+	//in: +Byz+TR
+	static $editions_replace = array(
+		"#\+#u"			=> ", ",
+		"#Byz#u"		=> "<a href='javascript:void(0)' title='Byzantine from Robinson/Pierpoint'>Byz</a>",
+		"#Coptic#u"		=> "<a href='javascript:void(0)' title='Coptic Manuscript'>Coptic</a>",
+		"#ESV#u"		=> "<a href='javascript:void(0)' title='English Standard Version'>ESV</a>",
+		"#Goodnews#u"	=> "<a href='javascript:void(0)' title='Goodnews Bible'>Goodnews</a>",
+		"#KJV#u"		=> "<a href='javascript:void(0)' title='King James Version'>KJV</a>",
+		"#KJV\?#u"		=> "<a href='javascript:void(0)' title='King James Version (possibly)'>KJV?</a>",
+		"#NA26#u"		=> "<a href='javascript:void(0)' title='Nestle/Aland 26th Edition'>NA26</a>",
+		"#NA27#u"		=> "<a href='javascript:void(0)' title='Nestle/Aland 27th Edition'>NA27</a>",
+		"#NA28#u"		=> "<a href='javascript:void(0)' title='Nestle/Aland 28th Edition, not ECM'>NA28</a>",
+		"#Latin#u"		=> "<a href='javascript:void(0)' title='Latin'>Latin</a>",
+		"#NIV#u"		=> "<a href='javascript:void(0)' title='New International Version'>NIV</a>",
+		"#OldLatin#u"	=> "<a href='javascript:void(0)' title='Old Latin version'>OldLatin</a>",
+		"#OldSyriac#u"	=> "<a href='javascript:void(0)' title='Old Syriac version'>OldSyriac</a>",
+		"#P66#u"		=> "<a href='javascript:void(0)' title='Papyri #66'>P66</a>",
+		"#P66\*#u"		=> "<a href='javascript:void(0)' title='Papyri #66 corrector'>P66*</a>",
+		"#Punc#u"		=> "<a href='javascript:void(0)' title='Accent variant from punctuation'>Punc</a>",
+		"#SBL#u"		=> "<a href='javascript:void(0)' title='Society of Biblical Literature Greek NT'>SBL</a>",
+		"#Syriac#u"		=> "<a href='javascript:void(0)' title='Syriac'>Syriac</a>",
+		"#TR#u"			=> "<a href='javascript:void(0)' title='Textus Receptus'>TR</a>",
+		"#Treg#u"		=> "<a href='javascript:void(0)' title='Tregelles'>Treg</a>",
+		"#Tyn#u"		=> "<a href='javascript:void(0)' title='Tyndale House GNT'>Tyn</a>",
+		"#U1#u"			=> "<a href='javascript:void(0)' title='Uncial #1'>U1</a>",
+		"#U2#u"			=> "<a href='javascript:void(0)' title='Uncial #2'>U2</a>",
+		"#U3#u"			=> "<a href='javascript:void(0)' title='Uncial #3'>U3</a>",
+		"#U4#u"			=> "<a href='javascript:void(0)' title='Uncial #4'>U4</a>",
+		"#U5#u"			=> "<a href='javascript:void(0)' title='Uncial #5'>U5</a>",
+		"#U6#u"			=> "<a href='javascript:void(0)' title='Uncial #6'>U6</a>",
+		"#U32#u"		=> "<a href='javascript:void(0)' title='Uncial #32'>U32</a>",
+		"#WH#u"			=> "<a href='javascript:void(0)' title='Westcott/Hort'>WH</a>",
+	);
+	static $editions_search = NULL; if (NULL===$editions_search) { $editions_search = array_keys($editions_replace); } // edition search and replace
+
+
 	$last = $last_indx = $last_chap = $last_vers = $orig_vers = $last_orig_vers = NULL;
 	if (empty($database[$table])) {
 		//$database[$table] = "INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH	GLOSS	MORPH	EDITIONS	VAR1	VAR2	SPELL	EXTRA	CONJOIN	INSTANCE	OCCUR	ALT\n";
@@ -2759,28 +3024,29 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 
 			// FIX EXTRA
 			// Abraham»Abraham|Abraham@Gen.11.26
-			$line['EXTRA'] = preg_replace("#\d+_#u", "", $line['EXTRA']);
-			$line['EXTRA'] = preg_replace("#[_ ]+#u", " ", $line['EXTRA']);
-			$line['EXTRA'] = trim($line['EXTRA']," @:;,-+$");
-			if (preg_match("#^([^»|@]+)[»|]+([^»|@]+)[»|]+([^»|@]+)(@.+)$#us", $line['EXTRA'], $extramatch)) {
-				if      ($extramatch[1] == $extramatch[2] && $extramatch[1] == $extramatch[3]) {	$line['EXTRA'] = $extramatch[3].$extramatch[4]; }
-				else if ($extramatch[1] == $extramatch[2]) {										$line['EXTRA'] = $extramatch[1].", ".$extramatch[3].$extramatch[4]; }
-				else if ($extramatch[1] == $extramatch[3]) {										$line['EXTRA'] = $extramatch[2].", ".$extramatch[3].$extramatch[4]; }
+			$extra = $line['EXTRA'];
+			$extra = preg_replace("#\d+_#u", "", $extra);
+			$extra = preg_replace("#[_ ]+#u", " ", $extra);
+			$extra = trim($extra," @:;,-$+");
+			if (preg_match("#^([^»|@]+)[»|]+([^»|@]+)[»|]+([^»|@]+)(@.+)$#us", $extra, $extramatch)) {
+				if      ($extramatch[1] == $extramatch[2] && $extramatch[1] == $extramatch[3]) {	$extra = $extramatch[3].$extramatch[4]; }
+				else if ($extramatch[1] == $extramatch[2]) {										$extra = $extramatch[1].", ".$extramatch[3].$extramatch[4]; }
+				else if ($extramatch[1] == $extramatch[3]) {										$extra = $extramatch[2].", ".$extramatch[3].$extramatch[4]; }
 			}
-			else if (preg_match("#^([^»|@]+)[»|]+([^»|@]+)(@.+)$#us", $line['EXTRA'], $extramatch)) {
-				if      ($extramatch[1] == $extramatch[2]) {										$line['EXTRA'] = $extramatch[2].$extramatch[3]; }
+			else if (preg_match("#^([^»|@]+)[»|]+([^»|@]+)(@.+)$#us", $extra, $extramatch)) {
+				if      ($extramatch[1] == $extramatch[2]) {										$extra = $extramatch[2].$extramatch[3]; }
 			}
-			else if (preg_match("#^([^»|@]+)[»|]+([^»|@]+)[»|]+([^»|@]+)$#us", $line['EXTRA'], $extramatch)) {
-				if      ($extramatch[1] == $extramatch[2] && $extramatch[1] == $extramatch[3]) {	$line['EXTRA'] = $extramatch[3]; }
-				else if ($extramatch[1] == $extramatch[2]) {										$line['EXTRA'] = $extramatch[1].", ".$extramatch[3]; }
-				else if ($extramatch[1] == $extramatch[3]) {										$line['EXTRA'] = $extramatch[2].", ".$extramatch[3]; }
+			else if (preg_match("#^([^»|@]+)[»|]+([^»|@]+)[»|]+([^»|@]+)$#us", $extra, $extramatch)) {
+				if      ($extramatch[1] == $extramatch[2] && $extramatch[1] == $extramatch[3]) {	$extra = $extramatch[3]; }
+				else if ($extramatch[1] == $extramatch[2]) {										$extra = $extramatch[1].", ".$extramatch[3]; }
+				else if ($extramatch[1] == $extramatch[3]) {										$extra = $extramatch[2].", ".$extramatch[3]; }
 			}
-			else if (preg_match("#^([^»|@]+)[»|]+([^»|@]+)$#us", $line['EXTRA'], $extramatch)) {
-				if      ($extramatch[1] == $extramatch[2]) {										$line['EXTRA'] = $extramatch[2]; }
+			else if (preg_match("#^([^»|@]+)[»|]+([^»|@]+)$#us", $extra, $extramatch)) {
+				if      ($extramatch[1] == $extramatch[2]) {										$extra = $extramatch[2]; }
 			}
-			$line['EXTRA'] = preg_replace("#[»|]+#u", ", ", $line['EXTRA']);
-			$line['EXTRA'] = preg_replace("#@#u", " @ ", $line['EXTRA']);
-			$line['EXTRA'] = trim($line['EXTRA']," @:;,-+$");
+			$extra = preg_replace("#[»|]+#u", ", ", $extra);
+			$extra = preg_replace("#@#u", " @ ", $extra);
+			$extra = trim($extra," @:;,-$+");
 
 			// VALIDATE STRONGS # IN VAR1, VAR2, AND ALT
 			if (!empty($line['VAR1'])) { AION_NEWSTRONGS_STRONGS_PARSE($newmess, $line['VAR1'], TRUE, $lex_array, $lex2_array); }
@@ -2791,11 +3057,37 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 			if (NULL===($alternate = preg_replace("#_[A-Za-z]{1}#ui", "", $line['ALT']))) {
 				AION_ECHO("ERROR! alternate preg_replace()!\n".print_r($line,TRUE));
 			}
+
+			// HTMLSPECIALCHARS
+			$VAR1 = htmlspecialchars($line['VAR1']);
+			$VAR2 = htmlspecialchars($line['VAR2']);
+			$spell = htmlspecialchars($line['SPELL']);
+			$extra = htmlspecialchars($extra);
 			
 			// Hyperlink Expand!
-			$VAR1 = AION_NEWSTRONGS_HYPERLINK($newmess, $line['VAR1']);
-			$VAR2 = AION_NEWSTRONGS_HYPERLINK($newmess, $line['VAR2']);
+			$VAR1 = AION_NEWSTRONGS_HYPERLINK($newmess, $VAR1);
+			$VAR2 = AION_NEWSTRONGS_HYPERLINK($newmess, $VAR2);
 			$alternate = AION_NEWSTRONGS_HYPERLINK($newmess, $alternate);
+			static $extra_count = 0;
+			$extra = AION_NEWSTRONGS_EXTRAREF($newmess, $extra, $extra_count);
+
+			// Morph expand!
+			static $tag_morph_var1 = 0;
+			static $tag_morph_var2 = 0;
+			global $FOLDER_STAGE, $CHECK_HTAG;
+			if (!empty($VAR1)) { if (!($VAR1=preg_replace($GLOBALS['MORPH']['TAG_SEARCH'],$GLOBALS['MORPH']['TAG_REPLACE'],$VAR1,-1,$counter))) { AION_ECHO("ERROR! MORPHY! ".print_r($line,TRUE)); } $tag_morph_var1 += $counter; }
+			if (!empty($VAR2)) { if (!($VAR2=preg_replace($GLOBALS['MORPH']['TAG_SEARCH'],$GLOBALS['MORPH']['TAG_REPLACE'],$VAR2,-1,$counter))) { AION_ECHO("ERROR! MORPHY! ".print_r($line,TRUE)); } $tag_morph_var2 += $counter; }
+			if ($VAR1.$VAR2.$spell.$extra.$alternate) {
+				$testhtml = "$VAR1<br>$VAR2<br>$spell<br>$extra<br>$alternate<br><br>";
+				$dom->loadHTML("<html><body>$testhtml</body></html>");
+				if (!empty(libxml_get_errors())) {
+					$testhtml = "<div class='body'>".preg_replace("#([[:punct:]]+) #u","\$1\n",$testhtml)."</div>\n";
+					AION_ECHO($warn="WARN! $newmess strongs='$strongs' DOMHTML Error".print_r($line,TRUE)."\n".print_r(libxml_get_errors(),TRUE)."\n\n\n");
+					$database['WARNINGS'] .= $warn;
+					libxml_clear_errors();
+					if (file_put_contents("$FOLDER_STAGE$CHECK_HTAG",$testhtml,FILE_APPEND) === FALSE ) { AION_ECHO("ERROR! $FOLDER_STAGE$CHECK_HTAG"); } // FILE_APPEND
+				}
+			}
 
 			// OUTPUT LINE!
 			// The Greek and Hebrew columns need to be same/similar because aionbible.org/index.php processes the Greek and Hebrew columns
@@ -2814,12 +3106,12 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 				$line['EDITIONS']."\t".
 				$VAR1."\t".
 				$VAR2."\t".
-				$line['SPELL']."\t".
-				$line['EXTRA']."\t".
+				$spell."\t".
+				$extra."\t".
 				//trim($line['CONJOIN'])."\t".
 				//trim($line['INSTANCE'])."\t".
 				//"$occur\t".
-				trim($alternate)."\n";
+				$alternate."\n";
 			// W=next word, J=joined words
 			$jointype = "J";
 		}
@@ -2829,6 +3121,12 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 	foreach($strongs_counts as $key => $check) {
 		if (1==$check) { AION_ECHO($warn="WARN! FIX_REF\tref='{$last['REF']}' Strongs sequence error, one found, multi indicated strongs={$key}!\n".print_r($last,TRUE)."\n".print_r($strongs_counts,TRUE)."\n\n\n"); }
 	}
+	// report the morph search and replace results
+	AION_ECHO("WARN! AION_NEWSTRONGS_FIX_REF_GREEK tag morph var1 usage = {$tag_morph_var1}");
+	AION_ECHO("WARN! AION_NEWSTRONGS_FIX_REF_GREEK tag morph var2 usage = {$tag_morph_var2}");
+	AION_ECHO("WARN! AION_NEWSTRONGS_FIX_REF_GREEK extra link count = {$extra_count}");
+	libxml_clear_errors();
+	libxml_use_internal_errors($domprevious);
 }
 
 
@@ -3113,7 +3411,7 @@ function AION_NEWSTRONGS_VALIDATE_HEBREW($tahot, $output, $flag, $header) {
 	$line = strtok( "\n" ); // read second line
 	while ($line !== false) {
 		$pieces = explode("\t", $line);
-		if (count($pieces)!=19) { AION_ECHO("ERROR! $newmess piece count != 19\n".print_r($line,TRUE)); }
+		if (($tmp=count($pieces))!=19) { AION_ECHO("ERROR! $newmess piece count 19 != $tmp\n".print_r($line,TRUE)); }
 		//"INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH	GLOSS	MORPH	EDITIONS	VAR1	VAR2	SPELL	EXTRA	ALT\n";
 		$mainkey = ($flag==4 ? $pieces[4]." | ".$pieces[11] : $pieces[9]);
 						$studythis[$mainkey]['C']				= (!isset($studythis[$mainkey]['C'])				? 1 : $studythis[$mainkey]['C'] + 1);

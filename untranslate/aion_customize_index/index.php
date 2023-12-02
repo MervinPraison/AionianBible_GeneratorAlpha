@@ -1599,24 +1599,6 @@ static $editions_replace = array(
 	);
 static $editions_search = NULL; if (NULL===$editions_search) { $editions_search = array_keys($editions_replace); } // edition search and replace
 
-// TAHOT Leaders in VAR1, VAR2, and SPELL
-static $tahot_leaders = array(
-	"#A\/H=#u"	=> "Aleppo/BenChaim = ",
-	"#A\/V=#u"	=> "Aleppo/OtherHebrew = ",
-	"#B=#u"		=> "BHS = ",
-	"#C=#u" 	=> "Cairensis = ",
-	"#D=#u" 	=> "DeadSeaManuscripts = ",
-	"#E=#u" 	=> "BarthelemySources = ",
-	"#F=#u"		=> "Formatting = ",
-	"#H=#u"		=> "BenChaim = ",
-	"#K=#u"		=> "Ketiv = ",
-	"#L=#u"		=> "Leningrad = ",
-	"#P=#u"		=> "AltPunctuation = ",
-	"#S=#u"		=> "Sopherim = ",
-	"#V=#u"		=> "Other Hebrew = ",
-	);
-static $tahot_leaders_search = NULL; if (NULL===$tahot_leaders_search) { $tahot_leaders_search = array_keys($tahot_leaders); } // edition search and replace
-
 // LEXICONS			0		1		2		3			4		5		6
 // HEBREW-STRONGS	STRONGS	WORD	TRANS	PRONOUNCE	LANG	MORPH	DEF
 // GREEK-STRONGS	STRONGS	WORD	TRANS	PRONOUNCE	LANG	MORPH	DEF
@@ -1760,20 +1742,12 @@ $stronglang = (empty($lex_strongs[4]) ? '' :
 	($lex_strongs[4]=='x-pn'	? 'Proper Name' : 'Hebrew'))))));
 
 // SUBSTITUTIONS
-// preg_replace(string|array $pattern, string|array $replacement, string|array $subject, int $limit = -1, int &$count = null ): string|array|null
-// https://www.php.net/manual/en/function.preg-replace.php if multi-byte!!!
 // Editions, Greek only
 if ($strongs[0]=='g') {
 	$tag[13] = (empty($tag[13]) ? NULL : preg_replace($editions_search, $editions_replace, $tag[13])); // editions
 	$tag[14] = (empty($tag[14]) ? NULL : preg_replace($editions_search, $editions_replace, $tag[14])); // var1
 	$tag[15] = (empty($tag[15]) ? NULL : preg_replace($editions_search, $editions_replace, $tag[15])); // var2
 	$tag[16] = (empty($tag[16]) ? NULL : preg_replace($editions_search, $editions_replace, $tag[16])); // spell
-}
-// Leaders, Hebrew only
-if ($strongs[0]=='h') {
-	$tag[14] = (empty($tag[14]) ? NULL : preg_replace($tahot_leaders_search, $tahot_leaders, $tag[14])); // var1
-	$tag[15] = (empty($tag[15]) ? NULL : preg_replace($tahot_leaders_search, $tahot_leaders, $tag[15])); // var2
-	$tag[16] = (empty($tag[16]) ? NULL : preg_replace($tahot_leaders_search, $tahot_leaders, $tag[16])); // spell
 }
 
 // javascript

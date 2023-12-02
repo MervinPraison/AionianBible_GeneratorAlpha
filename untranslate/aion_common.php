@@ -3035,8 +3035,10 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---LongLine.htm' target='_blank'>Long Verses, Source Edition</a><br />\n";
 	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---LongLine-STD.htm' target='_blank'>Long Verses, Aionian Edition</a><br />\n";
 	$debug .= "<a href='/library/stepbible/CHECK_HTML_HEBREW_TBESH.htm' target='_blank'>STEPBible Hebrew TBESH Lexicon Errors</a><br />\n";
+	$debug .= "<a href='/library/stepbible/CHECK_HTML_HEBREW_TAHOT.htm' target='_blank'>STEPBible Hebrew TAHOT Line Errors</a><br />\n";
 	$debug .= "<a href='/library/stepbible/CHECK_HTML_GREEK_TBESG.htm' target='_blank'>STEPBible Greek TBESG Lexicon Errors</a><br />\n";
 	$debug .= "<a href='/library/stepbible/CHECK_HTML_GREEK_TFLSJ.htm' target='_blank'>STEPBible Greek TFLSJ Lexicon Errors</a><br />\n";
+	$debug .= "<a href='/library/stepbible/CHECK_HTML_GREEK_TAGNT.htm' target='_blank'>STEPBible Greek TAGNT Line Errors</a><br />\n";
 	$debug .= "<a href='/Please' target='_blank'>Foreign Phrases at AionianBible.org/Please</a><br />\n";
 	$debug .= "<a href='/RTL' target='_blank'>Right-to-Left and Hindic proofing at AionianBible.org/RTL</a><br />\n";
 	$debug .= "<a href='/Promote' target='_blank'>Promote at AionianBible.org/Promote</a><br />\n";
