@@ -355,17 +355,11 @@ foreach($database['HEBMOR'] as $key => $morph) {
 	$GLOBALS['MORPH']['TAG_REPLACE'][] = '=<a href="javascript:void(0)" title="'.trim($morph['M'].', '.$morph['U'],", ").'">'.$key.'</a>)';
 	$GLOBALS['MORPH']['TAG_SEARCH'][] = "#={$key}\/#u";
 	$GLOBALS['MORPH']['TAG_REPLACE'][] = '=<a href="javascript:void(0)" title="'.trim($morph['M'].', '.$morph['U'],", ").'">'.$key.'</a>/';
-	$key0 = $key[0];
-	if (!($key1 = substr($key,1))) { continue; }
-	$GLOBALS['MORPH']['TAG_SEARCH'][] = "#(=({$key0}|<).+)\/{$key1}\)#u";
-	$GLOBALS['MORPH']['TAG_REPLACE'][] = '$1/<a href="javascript:void(0)" title="'.trim($morph['M'].', '.$morph['U'],", ").'">'.$key.'</a>)';
-	$GLOBALS['MORPH']['TAG_SEARCH'][] = "#(=({$key0}|<).+)\/{$key1}\/#u";
-	$GLOBALS['MORPH']['TAG_REPLACE'][] = '$1/<a href="javascript:void(0)" title="'.trim($morph['M'].', '.$morph['U'],", ").'">'.$key.'</a>/';
-	// might not be needed
-	$GLOBALS['MORPH']['TAG_SEARCH'][] = "#(=({$key0}|<).+?)\/{$key1}\)#u";
-	$GLOBALS['MORPH']['TAG_REPLACE'][] = '$1/<a href="javascript:void(0)" title="'.trim($morph['M'].', '.$morph['U'],", ").'">'.$key.'</a>)';
-	$GLOBALS['MORPH']['TAG_SEARCH'][] = "#(=({$key0}|<).+?)\/{$key1}\/#u";
-	$GLOBALS['MORPH']['TAG_REPLACE'][] = '$1/<a href="javascript:void(0)" title="'.trim($morph['M'].', '.$morph['U'],", ").'">'.$key.'</a>/';
+	$key1 = substr($key,1);
+	$GLOBALS['MORPH']['TAG_SEARCH'][] = "#\/{$key1}\/#u";
+	$GLOBALS['MORPH']['TAG_REPLACE'][] = '/<a href="javascript:void(0)" title="'.trim($morph['M'].', '.$morph['U'],", ").'">'.$key1.'</a>/';
+	$GLOBALS['MORPH']['TAG_SEARCH'][] = "#\/{$key1}\)#u";
+	$GLOBALS['MORPH']['TAG_REPLACE'][] = '/<a href="javascript:void(0)" title="'.trim($morph['M'].', '.$morph['U'],", ").'">'.$key1.'</a>)';
 }
 AION_ECHO("WARN! HEBREW TOTALLY UGLY tag morph count = ".count($GLOBALS['MORPH']['TAG_REPLACE']));
 $htmlheader = <<<EOT

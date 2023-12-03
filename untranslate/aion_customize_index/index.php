@@ -673,7 +673,7 @@ echo "<div id='word-description'>".$tocmenu.$_BibleONE['FORMATTED']."</div>";
 echo "<div id='word-search'><div class='field-header'>Aionian Verses:</div>";
 $path_glossary = abcms_href('/Glossary',TRUE,TRUE,FALSE);
 $path_noted = abcms_href(TRUE,'/Noted',TRUE,TRUE);
-echo "<p>Chapters with <a href='$path_glossary' title='Aionian Glossary'>Aionian Glossary</a> words are highlighted in the table of contents with each verse also <a href='$path_noted' title='Aionian Glossary usage'>listed here</a>.  Notes are added to 63 Old Testament and 200 New Testament verses without altering the source text.  Contact the <a href='/Publisher' title='Contact Nainoia, Inc'>Publisher</a> with any questions. We pray for a modern public domain translation in every language.</p>";
+echo "<p>Chapters with <a href='$path_glossary' title='Aionian Glossary'>Aionian Glossary</a> words are highlighted in the table of contents with each verse also <a href='$path_noted' title='Aionian Glossary usage'>listed here</a>.  Notes are added to 64 Old Testament and 200 New Testament verses without altering the source text.  Contact the <a href='/Publisher' title='Contact Nainoia, Inc'>Publisher</a> with any questions. We pray for a modern public domain translation in every language.</p>";
 echo '</div></div>';
 abcms_tail();
 }
@@ -1462,7 +1462,7 @@ abcms_head();
 <div id='word'>
 <div id='strong'>
 <h2>Strong's Enhanced Concordance</h2>
-The  <span class='notranslate'>Aionian</span>  Bible un-translates and instead transliterates ten special words to help us better understand the extent of God’s love for individuals and all mankind, and the nature of afterlife destinies.  The original translation is unaltered and an inline note is appended to 63 Old Testament and 200 New Testament verses. Compare the definitions below to the <a href='/Glossary' title='Aionian Glossary' onclick='return AionianBible_Makemark("/Glossary");'><span class='notranslate'>Aionian</span> Glossary</a>. Follow the <span class='word-blue'>blue link</span> below to study the word's usage.  Search for any Strong's number: g1-21369 and h1-9049.<br />
+The  <span class='notranslate'>Aionian</span>  Bible un-translates and instead transliterates ten special words to help us better understand the extent of God’s love for individuals and all mankind, and the nature of afterlife destinies.  The original translation is unaltered and an inline note is appended to 64 Old Testament and 200 New Testament verses. Compare the definitions below to the <a href='/Glossary' title='Aionian Glossary' onclick='return AionianBible_Makemark("/Glossary");'><span class='notranslate'>Aionian</span> Glossary</a>. Follow the <span class='word-blue'>blue link</span> below to study the word's usage.  Search for any Strong's number: g1-21369 and h1-9049.<br />
 <div class=center>
 <form action='<? echo abcms_href(TRUE,'',TRUE,FALSE); ?>' method='post'>
 <input type='text' name='sid' placeholder='Enter g1-21369 or h1-9049 for Greek and Hebrew Strongs numbers, for example g166' value=''/>
@@ -1711,8 +1711,9 @@ $tagtype =
 if ($tag && !$tagtype) { abcms_errs("abcms_enty() tag type not found! Strongs={$strongs} Type={$tag[6]}"); }
 
 // underlying
+$lexicon = (!empty($tag[9]) ? $tag[9] : (!empty($lex_tyndale[2]) ? $lex_tyndale[2] : NULL));
 $underlying = (!empty($tag[7]) ? $tag[7] : (!empty($lex_tyndale[2]) ? $lex_tyndale[2] : NULL));
-if (!$underlying) { abcms_errs("abcms_enty() underlying not found! Strongs={$strongs}"); }
+if (!($lexicon.$underlying)) { abcms_errs("abcms_enty() underlying not found! Strongs={$strongs}"); }
 
 // aionian
 $aionian = abcms_aion($strongs,$SID,$word,$book,$chap,$verse);
@@ -1766,22 +1767,25 @@ echo
 	"<div class='strong-word".($book ? '' : ' notranslate')."'>{$word}</div>\n" .
 	"<div class='field-field'><div class='field-label'>Strongs:</div><div class='field-value word-footnote'>{$SID}</div></div>\n" .
 	(empty($family)			? "" : "<div class='field-field'><div class='field-label'>Strongs extended:</div><div class='field-value'>{$family}</div></div>\n") .
-	(empty($underlying)		? "" : "<div class='field-field'><div class='field-label'>Lexicon:</div><div class='field-value notranslate'>{$underlying}</div></div>\n") .
+	(empty($lexicon) || $lexicon==$underlying ? "" : "<div class='field-field'><div class='field-label'>Lexicon:</div><div class='field-value notranslate'>{$lexicon}</div></div>\n") .
+	(empty($underlying)		? "" : "<div class='field-field'><div class='field-label'>".($strongs[0]==='h' ? 'Hebrew' : 'Greek').":</div><div class='field-value notranslate'>{$underlying}</div></div>\n") .
 	(empty($tag[8])			? "" : "<div class='field-field'><div class='field-label'>Transliteration:</div><div class='field-value'>{$tag[8]}</div></div>\n") .
-	(empty($tag[11]) || $tag[11]==$word ? "" : "<div class='field-field'><div class='field-label'>Gloss:</div><div class='field-value'>{$tag[11]}</div></div>\n") .
-	"<div class='field-field'><div class='field-label'>Usage:</div><div class=field-value>{$usage}</div></div>\n" .
+								   "<div class='field-field'><div class='field-label'>Usage:</div><div class=field-value>{$usage}</div></div>\n" .
 	(empty($join)			? "" : "<div class='field-field'><div class='field-label'>Context:</div><div class='field-value'>{$join}</div></div>\n") .
 
 	// collapsible
 	(empty($tag)			? "" : "<div class='field-field'><div class='field-label'><a href='' title='Open or close the lexicon entry' onclick='$javascript'>Toggle Lexicon</a></div></div>\n") .
 	(empty($tag)			? "" : "<div id='ab-lexicon-$elementid' class='ab-lexicon'>\n") .
 
+	// gloss
+	(empty($tag[11]) || $tag[11]==$word ? "" : "<div class='field-field'><div class='field-label'>Gloss:</div><div class='field-value'>{$tag[11]}</div></div>\n") .
+
 	// morphhology array('M'=>'Morphhology','U'=>'Explanation')
 	(empty($morphs['M'])	? "" : "<div class='field-field'><div class='field-label'>Morphhology:</div><div class='field-value'>{$morphs['M']}</div></div>\n") .
 	(empty($morphs['U'])	? "" : "<div class='field-field'><div class='field-label'>Grammar:</div><div class='field-value'>{$morphs['U']}</div></div>\n") .
 
 	// tag detail
-	(empty($tagtype)		? "" : "<div class='field-field'><div class='field-label'>Translation:</div><div class='field-value'>{$tagtype}</div></div>\n") .
+	(empty($tagtype)		? "" : "<div class='field-field'><div class='field-label'>Source:</div><div class='field-value'>{$tagtype}</div></div>\n") .
 	(empty($tag[13])		? "" : "<div class='field-field'><div class='field-label'>Editions:</div><div class='field-value'>{$tag[13]}</div></div>\n") .
 	(empty($tag[14])		? "" : "<div class='field-field'><div class='field-label'>Variation-1:</div><div class='field-value'>{$tag[14]}</div></div>\n") .
 	(empty($tag[15])		? "" : "<div class='field-field'><div class='field-label'>Variation-2:</div><div class='field-value'>{$tag[15]}</div></div>\n") .
@@ -2631,6 +2635,7 @@ static $avs = array(
 '21009' => '10',
 '22008' => '6',
 '23005' => '14',
+'23007' => '11',
 '23014' => '9,11,15',
 '23028' => '15,18',
 '23038' => '10,18',

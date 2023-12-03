@@ -872,7 +872,7 @@ return (
 	"# Bible Source Link: ".$bibleversion['SOURCELINK']."\n".
 	"# Bible Source Year: ".$bibleversion['YEAR']."\n".
 	(empty($bibleversion['DESCRIPTION']) ? "" : ("# Bible Description: ".$bibleversion['DESCRIPTION']."\n")).
-	($datatype=='Aionian' ?		"# Bible Format: Aionian Glossary annotations to 263 verses\n" :
+	($datatype=='Aionian' ?		"# Bible Format: Aionian Glossary annotations to 264 verses\n" :
 	($datatype=='Standard' ?	"# Bible Format: Standard formatting without annotation\n" :
 	($datatype=='Source' ?		"# Bible Format: Source text without correction, Aionian Bible internal use only\n" :
 	"")))
@@ -3092,8 +3092,8 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-5130;
 	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-186916;
 	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-4929611;
-	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-47698;
-	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-258;
+	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-47845;
+	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-248;
 	$grandmarker['LONG']		= $grandtotal['LONG']-864;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-0;
 	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-2054;
@@ -3103,7 +3103,7 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-8336;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-717;
-	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-620;
+	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-621;
 	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-122288;
 	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-25830;
 	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-2739.01;
