@@ -214,6 +214,7 @@ Holy-Bible---English---Aionian-Bible	045	ROM	006	022	SWAP		AIONIAN	But now, bein
 Holy-Bible---English---Aionian-Bible	045	ROM	006	023	SWAP		AIONIAN	For the wages of sin is death, but the free gift of God is consummate (aiōnios g166) life in Christ Jesus our Lord.
 Holy-Bible---English---Aionian-Bible	045	ROM	009	005	SWAP		AIONS	of whom are the fathers, and from whom is Christ as concerning the flesh, who is over all, God, blessed for the ages (aiōn g165).  Amen.
 Holy-Bible---English---Aionian-Bible	045	ROM	010	007	SWAP		ABYSS	or, ‘Who will descend into the Abyss (Abyssos g12)?’  (that is, to bring Christ up from the dead.)”
+Holy-Bible---English---Aionian-Bible	045	ROM	011	032	SWAP		ELEESE	For God has bound all to disobedience, in order to have mercy (eleēsē g1653) on all.
 Holy-Bible---English---Aionian-Bible	045	ROM	011	036	SWAP		AIONS	For of him, and through him, and to him are all things.  To him be the glory for the ages (aiōn g165)!  Amen.
 Holy-Bible---English---Aionian-Bible	045	ROM	012	002	SWAP		AIONS	Do not be conformed to this age (aiōn g165), but be transformed by the renewing of your mind, so that you may prove what is the good, well-pleasing, and perfect will of God.
 Holy-Bible---English---Aionian-Bible	045	ROM	016	025	SWAP		AIONIAN	Now to him who is able to establish you according to my Good News and the preaching of Jesus Christ, according to the revelation of the mystery which has been kept secret through long ages (aiōnios g166),
