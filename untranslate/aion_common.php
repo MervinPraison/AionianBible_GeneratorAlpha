@@ -872,7 +872,7 @@ return (
 	"# Bible Source Link: ".$bibleversion['SOURCELINK']."\n".
 	"# Bible Source Year: ".$bibleversion['YEAR']."\n".
 	(empty($bibleversion['DESCRIPTION']) ? "" : ("# Bible Description: ".$bibleversion['DESCRIPTION']."\n")).
-	($datatype=='Aionian' ?		"# Bible Format: Aionian Glossary annotations to 264 verses\n" :
+	($datatype=='Aionian' ?		"# Bible Format: Aionian Glossary annotations to 265 verses\n" :
 	($datatype=='Standard' ?	"# Bible Format: Standard formatting without annotation\n" :
 	($datatype=='Source' ?		"# Bible Format: Source text without correction, Aionian Bible internal use only\n" :
 	"")))
@@ -3092,7 +3092,7 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-5130;
 	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-186916;
 	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-4929611;
-	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-47845;
+	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-48034;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-248;
 	$grandmarker['LONG']		= $grandtotal['LONG']-864;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-0;
@@ -3103,7 +3103,7 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-8336;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-717;
-	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-621;
+	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-622;
 	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-122288;
 	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-25830;
 	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-2739.01;
@@ -4422,6 +4422,7 @@ function AION_LOOP_CHECK_UNTRANSLATE_MODULE_DOIT($args) {
 	$count['HELL_OUT']	= 0;
 	$count['SHEOL']		= 0;
 	$count['GEHENNA']	= 0;
+	$count['ELEESE']	= 0;
 	$count['HADES']		= 0;
 	$count['ABYSS']		= 0;
 	$count['TARTARUS']	= 0;
@@ -4502,6 +4503,7 @@ function AION_LOOP_CHECK_UNTRANSLATE_MODULE_DOIT($args) {
 		if (stripos($untrans,'AIONS,AIONIAN')!==FALSE){	$count['AION-2']	+= AION_HEART($verse['TEXT'],$nospace,'(aiōn g165, aiōnios g166)',	2    ,$output['MATCH'],$gotone,$replace,$output['WARN']); break; }
 		if (stripos($untrans,'AIONS-JAP')!==FALSE){		$count['AIONIAN']	+= AION_HEART($verse['TEXT'],$nospace,'(aiōn g165)',				2    ,$output['MATCH'],$gotone,$replace,$output['WARN']); break; }
 		if (stripos($untrans,'AIONS')!==FALSE) {		$count['AION']		+= AION_HEART($verse['TEXT'],$nospace,'(aiōn g165)',				$ever,$output['MATCH'],$gotone,$replace,$output['WARN']); }
+		if (stripos($untrans,'ELEESE')!==FALSE) {		$count['ELEESE']	+= AION_HEART($verse['TEXT'],$nospace,'(eleēsē g1653)',				1    ,$output['MATCH'],$gotone,$replace,$output['WARN']); }
 		if (stripos($untrans,'AIONIAN')!==FALSE) {		$count['AIONIAN']	+= AION_HEART($verse['TEXT'],$nospace,'(aiōnios g166)',				$ever,$output['MATCH'],$gotone,$replace,$output['WARN']); }
 		if (stripos($untrans,'AIDIOS')!==FALSE) {		$count['AIDIOS']	+= AION_HEART($verse['TEXT'],$nospace,'(aïdios g126)',				$ever,$output['MATCH'],$gotone,$replace,$output['WARN']); }
 		if (stripos($untrans,'SHEOL')!==FALSE) {		$count['SHEOL']		+= AION_HEART($verse['TEXT'],$nospace,'(Sheol h7585)',				$sheo,$output['MATCH'],$gotone,$replace,$output['WARN']); }
@@ -4561,7 +4563,7 @@ function AION_LOOP_CHECK_UNTRANSLATE_MODULE_DOIT($args) {
 	}
 	/* tab totals */
 	$count['OUT']		= $count['HELL_OUT'] +	$count['AION_OUT'];
-	$count['IN']		= $count['SHEOL'] + $count['GEHENNA'] + $count['HADES'] + $count['ABYSS'] + $count['TARTARUS'] + $count['LOF'] + $count['AION'] + $count['AIONIAN']	+ $count['AION-2'] + $count['AIDIOS'];
+	$count['IN']		= $count['SHEOL'] + $count['GEHENNA'] + $count['HADES'] + $count['ABYSS'] + $count['TARTARUS'] + $count['LOF'] + $count['AION'] + $count['AIONIAN']	+ $count['AION-2'] + $count['AIDIOS'] + $count['ELEESE'];
 	$count['VERSE_CK']	= $count['VERSE_DO'] - $count['VERSE_OK'];
 	unset($nver);
 	unset($ever);

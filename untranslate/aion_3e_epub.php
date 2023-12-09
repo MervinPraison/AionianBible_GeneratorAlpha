@@ -237,6 +237,7 @@ EOF;
 	$g86	= glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g86");
 	$g126	= glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g126");
 	$g165	= glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g165");
+	$g1653	= glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g163");
 	$g166	= glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g166");
 	$g1067	= glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g1067");
 	$g3041	= glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g3041");
@@ -310,6 +311,7 @@ EOF;
 		if (!($text = preg_replace('# g86([^0-9]{1})#ui',	' <a href=\'../rear-2-glossary.xhtml#g86\'   title=\'View definition\'>g86</a>$1',	$text))) { AION_ECHO("ERROR! preg_replace(g86)"); }
 		if (!($text = preg_replace('# g126([^0-9]{1})#ui',	' <a href=\'../rear-2-glossary.xhtml#g126\'  title=\'View definition\'>g126</a>$1',	$text))) { AION_ECHO("ERROR! preg_replace(g126)"); }
 		if (!($text = preg_replace('# g165([^0-9]{1})#ui',	' <a href=\'../rear-2-glossary.xhtml#g165\'  title=\'View definition\'>g165</a>$1',	$text))) { AION_ECHO("ERROR! preg_replace(g165)"); }
+		if (!($text = preg_replace('# g1653([^0-9]{1})#ui',	' <a href=\'../rear-2-glossary.xhtml#g1653\' title=\'View definition\'>g1653</a>$1',$text))) { AION_ECHO("ERROR! preg_replace(g1653)"); }
 		if (!($text = preg_replace('# g166([^0-9]{1})#ui',	' <a href=\'../rear-2-glossary.xhtml#g166\'  title=\'View definition\'>g166</a>$1',	$text))) { AION_ECHO("ERROR! preg_replace(g166)"); }
 		if (!($text = preg_replace('# g1067([^0-9]{1})#ui',	' <a href=\'../rear-2-glossary.xhtml#g1067\' title=\'View definition\'>g1067</a>$1',$text))) { AION_ECHO("ERROR! preg_replace(g1067)"); }
 		if (!($text = preg_replace('# g3041([^0-9]{1})#ui',	' <a href=\'../rear-2-glossary.xhtml#g3041\' title=\'View definition\'>g3041</a>$1',$text))) { AION_ECHO("ERROR! preg_replace(g3041)"); }
@@ -422,7 +424,7 @@ EOF;
 	if (!empty($index_new)) { AION_EPUBY_IMAGE_VERSE_XHTML("$FOLDEPUB/middle-rev.xhtml",			"New Jerusalem",		"images/DORE-REV.jpg",		$G_FORPRINT["REV21_2_3"] ); }
 	AION_EPUBY_REAR_1_READERS_GUIDE_XHTML($FOLDEPUB);								// CREATE rear-1-readers-guide.xhtml
 	AION_EPUBY_REAR_1b_PROJECT_HISTORY_XHTML($FOLDEPUB);							// CREATE rear-1b-project-history.xhtml
-	AION_EPUBY_REAR_2_GLOSSARY_XHTML($FOLDEPUB, $h7585, $g12, $g86, $g126, $g165, $g166, $g1067, $g3041, $g5020, $questioned); // CREATE rear-2-glossary.xhtml
+	AION_EPUBY_REAR_2_GLOSSARY_XHTML($FOLDEPUB, $h7585, $g12, $g86, $g126, $g165, $g1653, $g166, $g1067, $g3041, $g5020, $questioned); // CREATE rear-2-glossary.xhtml
 	AION_EPUBY_REAR_3_HISTORY_PAST_XHTML($FOLDEPUB);								// CREATE rear-3-history-past.xhtml
 	AION_EPUBY_REAR_4_HISTORY_FUTURE_XHTML($FOLDEPUB);								// CREATE rear-4-history-future.xhtml
 	AION_EPUBY_REAR_5_HISTORY_DESTINY_XHTML($FOLDEPUB);								// CREATE rear-5-history-destiny.xhtml
@@ -477,6 +479,7 @@ if (empty($object) || $folder) {
 	$object->X_JOH_1	= ($folder && file_exists("$folder/chapters/043-JOH-001.xhtml") ? "<a href='chapters/043-JOH-001.xhtml' title='View reference'>John</a>"					: "John");
 	$object->X_JOH_3	= ($folder && file_exists("$folder/chapters/043-JOH-003.xhtml") ? "<a href='chapters/043-JOH-003.xhtml' title='View reference'>John 3:16</a>"				: "John 3:16");
 	$object->X_ROM_1	= ($folder && file_exists("$folder/chapters/045-ROM-001.xhtml") ? "<a href='chapters/045-ROM-001.xhtml' title='View reference'>Romans 1:20</a>"				: "Romans 1:20");
+	$object->X_ROM_11	= ($folder && file_exists("$folder/chapters/045-ROM-011.xhtml") ? "<a href='chapters/045-ROM-011.xhtml' title='View reference'>Romans 11:32</a>"			: "Romans 11:32");
 	$object->X_1CO_2	= ($folder && file_exists("$folder/chapters/046-1CO-002.xhtml") ? "<a href='chapters/046-1CO-002.xhtml' title='View reference'>1 Corinthians 2:13-14</a>"	: "1 Corinthians 2:13-14");
 	$object->X_2TI_2	= ($folder && file_exists("$folder/chapters/055-2TI-002.xhtml") ? "<a href='chapters/055-2TI-002.xhtml' title='View reference'>2 Timothy 2:15</a>"			: "2 Timothy 2:15");
 	$object->X_2PE_1	= ($folder && file_exists("$folder/chapters/061-2PE-001.xhtml") ? "<a href='chapters/061-2PE-001.xhtml' title='View reference'>2 Peter 1:4-8</a>"			: "2 Peter 1:4-8");
@@ -937,7 +940,7 @@ $G_COMMENT
 
 <p>The next seven words are <a href='rear-2-glossary.xhtml#h7585' title='Aionian Glossary h7585'><i>Sheol</i></a>, <a href='rear-2-glossary.xhtml#g86' title='Aionian Glossary g86'><i>Hadēs</i></a>, <a href='rear-2-glossary.xhtml#g1067' title='Aionian Glossary g1067'><i>Geenna</i></a>, <a href='rear-2-glossary.xhtml#g5020' title='Aionian Glossary g5020'><i>Tartaroō</i></a>, <a href='rear-2-glossary.xhtml#g12' title='Aionian Glossary g12'><i>Abyssos</i></a>, and <a href='rear-2-glossary.xhtml#g3041' title='Aionian Glossary g3041 g4442'><i>Limnē Pyr</i></a>. These words are often translated as <i>Hell</i>, the place of eternal punishment. However, <i>Hell</i> is ill-defined when compared with the Hebrew and Greek. For example, <i>Sheol</i> is the abode of deceased believers and unbelievers and should never be translated as <i>Hell</i>. <i>Hadēs</i> is a temporary place of punishment, {$links->X_REV_20}. <i>Geenna</i> is the Valley of Hinnom, Jerusalem's refuse dump, a temporal judgment for sin. <i>Tartaroō</i> is a prison for demons, mentioned once in {$links->X_2PE_2}. <i>Abyssos</i> is a temporary prison for the Beast and Satan. Translators are also inconsistent because <i>Hell</i> is used by the <a href='https://www.kingjamesbibleonline.org/' title='View the King James Version Bible' target='_blank'>King James Version</a> fifty-four times, the <a href='https://www.thenivbible.com/' target='_blank' title='View the New International Version Bible'>New International Version</a> fourteen times, and the <a href='https://ebible.org/web/' title='View the World English Bible' target='_blank'>World English Bible</a> zero times. Finally, <i>Limnē Pyr</i> is the Lake of Fire, yet {$links->X_MAT_25} explains that these fires are <a href='rear-5-history-destiny.xhtml' title='Matthew 25:41 and the Lake of Fire'>prepared for the Devil and his angels</a>. So there is reason to review our conclusions about the destinies of redeemed mankind and fallen angels.</p>
 
-<p>This <i>un-translation</i> helps us to see these ten underlying words in context. The original translation is unaltered and a note is added to 64 Old Testament and 200 New Testament verses. Also to help parallel study and Strong's Concordance use, apocryphal text is removed and most variant verse numbering is mapped to the English standard. The Aionian Bible republishes public domain and Creative Common Bible texts. We thank our sources at <a href='https://ebible.org' target='_blank' title='Visit eBible.org, a DBA of Wycliffe, Inc, founded by Michael Paul Johnson'>eBible.org</a>, <a href='https://crosswire.org' target='_blank' title='Visit the Crosswire Bible Society'>Crosswire.org</a>, <a href='https://unbound.biola.edu' target='_blank' title='Visit the Biola University Unbound Bible Project'>unbound.Biola.edu</a>, <a href='https://bible4u.net/' target='_blank' title='Bible4U Uncensored Bible'>Bible4U.net</a>, and <a href='https://NHEB.net' target='_blank' title='Visit the New Heart English Bible'>NHEB.net</a>. The Aionian Bible is copyrighted with the <a href='https://creativecommons.org/licenses/by-nd/4.0' target='_blank' title='Visit Copyright definition'>Creative Commons Attribution No Derivative Works 4.0</a> license, allowing 100% freedom to copy and print, if respecting source text copyrights. Review the <a href='rear-1-readers-guide.xhtml' title='Readers guide for the Aionian Bible'>Reader's Guide</a>, <a href='rear-1b-project-history.xhtml' title='Project history for the Aionian Bible'>Project History</a>, <a href='rear-5-map-abraham.xhtml' title='Maps and Illustations'>Maps</a>, and <a href='rear-3-history-past.xhtml' title='Timelines and Illustations'>Timelines</a>. Read <a href='https://www.aionianbible.org' title='Read and Study Bible'>online</a> with the <a href='https://www.aionianbible.org/Google-Play' target='_blank' title='Aionian Bible free online at Google Play'>Android</a> and <a href='https://www.aionianbible.org/AppleApp' title='iPhone Apple App' target='_blank'>Apple App</a>, also the <a href='https://www.aionianbible.org/TOR' target='_blank' title='TOR Network'>TOR Network</a>, and buy Bibles at <a href='https://www.aionianbible.org/Buy' title='Holy Bible Aionian Edition at Amazon.com and Lulu.com' target='_blank'>Amazon.com and Lulu.com</a>. Follow at <a href='https://www.aionianbible.org/Facebook' target='_blank' title='Visit the Aionian Bible on Facebook'>Facebook/AionianBible</a>, help <a href='https://www.aionianbible.org/Promote' target='_blank' title='Promote, Sponsor, Advertise, Market'>Promote</a>, and contact the <a href='https://www.aionianbible.org/Publisher' target='_blank' title='Contact Nainoia, Inc'>Publisher</a>. Why purple? King Jesus’ Word is royal… and purple is the color of royalty!</p>
+<p>The eleventh word, <a href='rear-2-glossary.xhtml#g1653' title='Aionian Glossary g1653'><i>eleēsē</i></a>, reveals the grand conclusion of grace in {$links->X_ROM_11}. Take the time to understand these eleven words. The original translation is unaltered and a note is added to 64 Old Testament and 201 New Testament verses. Also to help parallel study and Strong's Concordance use, apocryphal text is removed and most variant verse numbering is mapped to the English standard. The Aionian Bible republishes public domain and Creative Common Bible texts. We thank our sources at <a href='https://ebible.org' target='_blank' title='Visit eBible.org, a DBA of Wycliffe, Inc, founded by Michael Paul Johnson'>eBible.org</a>, <a href='https://crosswire.org' target='_blank' title='Visit the Crosswire Bible Society'>Crosswire.org</a>, <a href='https://unbound.biola.edu' target='_blank' title='Visit the Biola University Unbound Bible Project'>unbound.Biola.edu</a>, <a href='https://bible4u.net/' target='_blank' title='Bible4U Uncensored Bible'>Bible4U.net</a>, and <a href='https://NHEB.net' target='_blank' title='Visit the New Heart English Bible'>NHEB.net</a>. The Aionian Bible is copyrighted with the <a href='https://creativecommons.org/licenses/by-nd/4.0' target='_blank' title='Visit Copyright definition'>Creative Commons Attribution No Derivative Works 4.0</a> license, allowing 100% freedom to copy and print, if respecting source text copyrights. Review the <a href='rear-1-readers-guide.xhtml' title='Readers guide for the Aionian Bible'>Reader's Guide</a>, <a href='rear-1b-project-history.xhtml' title='Project history for the Aionian Bible'>Project History</a>, <a href='rear-5-map-abraham.xhtml' title='Maps and Illustations'>Maps</a>, and <a href='rear-3-history-past.xhtml' title='Timelines and Illustations'>Timelines</a>. Read <a href='https://www.aionianbible.org' title='Read and Study Bible'>online</a> with the <a href='https://www.aionianbible.org/Google-Play' target='_blank' title='Aionian Bible free online at Google Play'>Android</a> and <a href='https://www.aionianbible.org/AppleApp' title='iPhone Apple App' target='_blank'>Apple App</a>, also the <a href='https://www.aionianbible.org/TOR' target='_blank' title='TOR Network'>TOR Network</a>, and buy Bibles at <a href='https://www.aionianbible.org/Buy' title='Holy Bible Aionian Edition at Amazon.com and Lulu.com' target='_blank'>Amazon.com and Lulu.com</a>. Follow at <a href='https://www.aionianbible.org/Facebook' target='_blank' title='Visit the Aionian Bible on Facebook'>Facebook/AionianBible</a>, help <a href='https://www.aionianbible.org/Promote' target='_blank' title='Promote, Sponsor, Advertise, Market'>Promote</a>, and contact the <a href='https://www.aionianbible.org/Publisher' target='_blank' title='Contact Nainoia, Inc'>Publisher</a>. Why purple? King Jesus’ Word is royal… and purple is the color of royalty!</p>
 
 <p class='social'>
 <a href='https://www.aionianbible.org/Facebook'		target='_blank' title='Facebook/AionianBible'>	<img src='images/Aionian-Bible-Facebook.png'	alt='Facebook'	title='Aionian Bible on Facebook' /></a>
@@ -1128,6 +1131,10 @@ $G_COMMENT
 <p>The Aionian Bible republishes public domain and Creative Common Bible texts that are 100% free to copy and print. All versions are available online at <a href='https://www.Aionianbible.org/Read' target='_blank' title='The worlds first Holy Bible untranslation'>AionianBible.org</a> in web page, ePub, text, and PDF format.  Also read online with the  <a href='https://www.Aionianbible.org/Google-Play' target='_blank' title='Aionian Bible free online at Google Play'>Android</a>  and  <a href='https://www.Aionianbible.org/Apple-iOS-App' target='_blank' title='Apple iOS App'>Apple iOS App</a>.  Buy print Bibles at <a href='https://www.Aionianbible.org/Buy' target='_blank' title='Holy Bible Aionian Edition at Amazon.com and Lulu.com'>Amazon.com and Lulu.com</a>.<br /><br /></p>
 
 <p>
+<b>12/4/23</b> <a href='rear-2-glossary.xhtml#g1653' title='Aionian Glossary g165'>Eleēsē (g1653)</a> added to the <a href='rear-2-glossary.xhtml' title='View Aionian Glossary'>Aionian Glossary</a>.<br />
+</p>
+
+<p>
 <b>02/14/23</b> Aionian Bible published for anonymous access on the <a href='https://www.aionianbible.org/TOR' target='_blank' title='TOR Network'>TOR Network</a>.<br />
 </p>
 
@@ -1201,9 +1208,10 @@ return;
 
 
 // CREATE rear-2-glossary.xhtml
-function AION_EPUBY_REAR_2_GLOSSARY_XHTML($folder, $h7585, $g12, $g86, $g126, $g165, $g166, $g1067, $g3041, $g5020, $questioned) {
+function AION_EPUBY_REAR_2_GLOSSARY_XHTML($folder, $h7585, $g12, $g86, $g126, $g165, $g1653, $g166, $g1067, $g3041, $g5020, $questioned) {
 global $G_BOOKS, $G_NUMBERS, $G_VERSIONS, $G_FORPRINT, $G_UUID, $G_TITLE, $G_MODIFIED, $G_RTL, $G_COMMENT;
 $W_GLOS = $G_FORPRINT['W_GLOS'];
+$links = AION_EPUBY_LINKS(); //{$links->X_ROM_11}
 $languagehtml = $G_VERSIONS['LANGUAGEHTML'];
 $questioned = (empty($questioned) ? "<div>None yet noted</div><br />" : $questioned);
 $file = "$folder/rear-2-glossary.xhtml";
@@ -1220,7 +1228,8 @@ $G_COMMENT
 <body>
 <h2 class='title'>$W_GLOS</h2>
 <p class='center'>$languagehtml<a href='https://www.AionianBible.org/Glossary' target='_blank'>www.AionianBible.org/Glossary</a></p>
-<p>The <i>Aionian Bible</i> un-translates and instead transliterates ten special words to help us better understand the extent of God’s love for individuals and all mankind, and the nature of afterlife destinies.  The original translation is unaltered and a note is added to 64 Old Testament and 200 New Testament verses. Compare the definitions below to the <a href='https://www.aionianbible.org/Strongs' target='_blank' title='Visit the Strongs Concordance'>Strong's Concordance</a>.  Follow the links below to study the word's usage.</p>
+<p>The <i>Aionian Bible</i> un-translates and instead transliterates ten special words to help us better understand the extent of God’s love for individuals and all mankind, and the nature of afterlife destinies.  The original translation is unaltered and a note is added to 64 Old Testament and 201 New Testament verses. Compare the definitions below to the <a href='https://www.aionianbible.org/Strongs' target='_blank' title='Visit the Strongs Concordance'>Strong's Concordance</a>.  Follow the links below to study the word's usage.</p>
+
 <h3><i><a class='tag' id="g12">Abyssos</a></i></h3>
 Language: Koine Greek<br />
 Speech: proper noun, place<br />
@@ -1229,6 +1238,7 @@ Meaning:<br />
 <div style='margin-left: 15px;'>Temporary prison for special fallen angels such as Apollyon, the Beast, and Satan.</div>
 Usage: 9 times in 3 books, 6 chapters, and 9 verses<br />
 $g12<br />
+
 <h3><i><a class='tag' id="g126">aïdios</a></i></h3>
 Language: Koine Greek<br />
 Speech: adjective<br />
@@ -1236,6 +1246,7 @@ Strongs: g126<br />
 Meaning:<br /><div style='margin-left: 15px;'>Lasting, enduring forever, eternal.</div>
 Usage: 2 times in Romans 1:20 and Jude 6<br />
 $g126<br />
+
 <h3><i><a class='tag' id="g165">aiōn</a></i></h3>
 Language: Koine Greek<br />
 Speech: noun<br />
@@ -1243,6 +1254,7 @@ Strongs: g165<br />
 Meaning:<br /><div style='margin-left: 15px;'>A lifetime or time period with a beginning and end, an era, an age, the completion of which is beyond human perception, but known only to God the creator of the aiōns, Hebrews 1:2. Never meaning simple <i>endless or infinite chronological time</i> in Koine Greek usage. Read <a href='front-4-aionian.xhtml' title='Book abstracts of Dr. Heleen Keizer and Ramelli and Konstan'>Dr. Heleen Keizer and Ramelli and Konstan</a> for proofs.</div>
 Usage: 127 times in 22 books, 75 chapters, and 102 verses<br />
 $g165<br />
+
 <h3><i><a class='tag' id="g166">aiōnios</a></i></h3>
 Language: Koine Greek<br />
 Speech: adjective<br />
@@ -1250,6 +1262,15 @@ Strongs: g166<br />
 Meaning:<br /><div style='margin-left: 15px;'>From start to finish, pertaining to the age, lifetime, entirety, complete, or even consummate. Never meaning simple <i>endless or infinite chronological time</i> in Koine Greek usage. Read <a href='front-4-aionian.xhtml' title='Book abstracts of Dr. Heleen Keizer and Ramelli and Konstan'>Dr. Heleen Keizer and Ramelli and Konstan</a> for proofs.</div>
 Usage: 71 times in 19 books, 44 chapters, and 69 verses<br />
 $g166<br />
+
+<h3><i><a class='tag' id="g1653">eleēsē</a></i></h3>
+Language: Koine Greek<br />
+Speech: verb<br />
+Strongs: g1653<br />
+Meaning:<br /><div style='margin-left: 15px;'>To have pity on, to show mercy. Typically, the subjunctive mood indicates possiblity, not certainty. However, a subjunctive in a purpose clause is a resulting action as certain as the causal action. The subjunctive in a purpose clause functions as an indicative, not an optative. Thus, the grand conclusion of grace theology in {$links->X_ROM_11} must be clarified. God's mercy on all is not a possibility, but a certainty. See <a href='https://www.ntgreek.org' target='_blank'>www.ntgreek.org</a>.</div>
+Usage: 32 times in 10 books, 20 chapters, and 29 verses (once in this conjugation, Romans 11:32)<br />
+$g1653<br />
+
 <h3><i><a class='tag' id="g1067">Geenna</a></i></h3>
 Language: Koine Greek<br />
 Speech: proper noun, place<br />
@@ -1258,6 +1279,7 @@ Meaning:<br />
 <div style='margin-left: 15px;'>Valley of Hinnom, Jerusalem's trash dump, a place of ruin, destruction, and judgment in this life, or the next, though not eternal to Jesus' audience.</div>
 Usage: 12 times in 4 books, 7 chapters, and 12 verses<br />
 $g1067<br />
+
 <h3><i><a class='tag' id="g86">Hadēs</a></i></h3>
 Language: Koine Greek<br />
 Speech: proper noun, place<br />
@@ -1266,6 +1288,7 @@ Meaning:<br />
 <div style='margin-left: 15px;'>Synonomous with <i>Sheol</i>, though in New Testament usage <i>Hades</i> is the temporal place of punishment for deceased unbelieving mankind, distinct from <i>Paradise</i> for deceased believers.</div>
 Usage: 11 times in 5 books, 9 chapters, and 11 verses<br />
 $g86<br />
+
 <h3><i><a class='tag' id="g3041"></a><a class='tag' id="g4442">Limnē Pyr</a></i></h3>
 Language: Koine Greek<br />
 Speech: proper noun, place<br />
@@ -1274,6 +1297,7 @@ Meaning:<br />
 <div style='margin-left: 15px;'>Lake of Fire, final punishment for those not named in the Book of Life, prepared for the Devil and his angels, Matthew 25:41.</div>
 Usage: Phrase 5 times in the New Testament<br />
 $g3041<br />
+
 <h3><i><a class='tag' id="h7585">Sheol</a></i></h3>
 Language: Hebrew<br />
 Speech: proper noun, place<br />
@@ -1282,6 +1306,7 @@ Meaning:<br />
 <div style='margin-left: 15px;'>The grave or temporal afterlife world of both the righteous and unrighteous, believing and unbelieving, until the general resurrection.</div>
 Usage: 66 times in 17 books, 50 chapters, and 64 verses<br />
 $h7585<br />
+
 <h3><i><a class='tag' id="g5020">Tartaroō</a></i></h3>
 Language: Koine Greek<br />
 Speech: proper noun, place<br />
@@ -1290,6 +1315,7 @@ Meaning:<br />
 <div style='margin-left: 15px;'>Temporary prison for particular fallen angels awaiting final judgment.</div>
 Usage: 1 time in 2 Peter 2:4<br />
 $g5020<br />
+
 <h3><i><a class='tag' id="questioned">Questioned</a></i></h3>
 Questioned verse translations do not contain Aionian Glossary words, but may wrongly imply eternal or Hell.<br />
 <br />

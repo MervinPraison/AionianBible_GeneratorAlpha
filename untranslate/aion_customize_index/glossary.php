@@ -1,12 +1,17 @@
 <?php
 /*** GLOSSARY - static content, except for dynamic internal href links ***/
+/*
+My counts differ from STEPBible TAGS
+Aion	STEP=129 by including MAT6:13 and 2PE2:17, but I maintain 127
+Hades	STEP=10 because 1CO15:55 is a variant, but I manually add it to match 11
+*/
 global $_Part;
 if (empty($_Part[1])) {	$bible = "";			$usageG = "/Read";					$usageH = "/Read"; }
 else {					$bible = "/$_Part[1]";	$usageG = "/Bibles/$_Part[1]/New";	$usageH = "/Bibles/$_Part[1]/Old"; }
 ?>
 <h2 class='center'><span class='notranslate'>Aionian</span> Glossary</h2>
 <p>
-The  <span class='notranslate'>Aionian</span>  Bible un-translates and instead transliterates ten special words to help us better understand the extent of God’s love for individuals and all mankind, and the nature of afterlife destinies.  The original translation is unaltered and a note is added to 63 Old Testament and 200 New Testament verses. Compare the definitions below to the <a href='<? echo abcms_href("/Strongs$bible",FALSE,TRUE,TRUE); ?>' title='Strongs Enhanced Concordance and Glossary'>Strong's Enhanced Concordance</a>.  Follow the <span class='word-blue'>blue links</span> below to study the word's usage.
+The  <span class='notranslate'>Aionian</span>  Bible un-translates and instead transliterates ten special words to help us better understand the extent of God’s love for individuals and all mankind, and the nature of afterlife destinies.  The original translation is unaltered and a note is added to 64 Old Testament and 201 New Testament verses. Compare the definitions below to the <a href='<? echo abcms_href("/Strongs$bible",FALSE,TRUE,TRUE); ?>' title='Strongs Enhanced Concordance and Glossary'>Strong's Enhanced Concordance</a>.  Follow the <span class='word-blue'>blue links</span> below to study the word's usage.
 <br />
 </p>
 <p>
@@ -43,6 +48,15 @@ Speech: adjective<br />
 Usage: <a href='<? echo abcms_href($usageG,FALSE,TRUE,'/strongs-g166'); ?>' title='Visit chapters with Strongs word usage' class='word-blue'>71 times in 19 books, 44 chapters, and 69 verses</a><br />
 Strongs: <a href='<? echo abcms_href("/Strongs$bible",FALSE,TRUE,'/strongs-g166'); ?>' title='Search Strongs' class='word-blue'>g166</a><br />
 Meaning:<br /><div style='margin-left: 15px;'>From start to finish, pertaining to the age, lifetime, entirety, complete, or even consummate. Never meaning simple <i>endless or infinite chronological time</i> in Koine Greek usage. Read <a href='/Aionios-and-Aidios'>Dr. Heleen Keizer and Ramelli and Konstan</a> for proofs.</div>
+<br />
+</p>
+<p>
+<h3 class='notranslate'><i><a id="g1653">eleēsē</a></i></h3>
+Language: Koine Greek<br />
+Speech: verb<br />
+Usage: <a href='<? echo abcms_href("/Bibles$bible",FALSE,TRUE,'/Romans/11'); ?>'  class='word-blue'>1 time in this conjugation, Romans 11:32</a><br />
+Strongs: <a href='<? echo abcms_href("/Strongs$bible",FALSE,TRUE,'/strongs-g1653'); ?>' title='Search Strongs' class='word-blue'>g1653</a><br />
+Meaning:<br /><div style='margin-left: 15px;'>To have pity on, to show mercy. Typically, the subjunctive mood indicates possiblity, not certainty. However, a subjunctive in a purpose clause is a resulting action as certain as the causal action. The subjunctive in a purpose clause functions as an indicative, not an optative. Thus, the grand conclusion of grace theology in <a href='<? echo abcms_href("/Bibles$bible",FALSE,TRUE,'/Romans/11'); ?>'>Romans 11:32</a> must be clarified. God's mercy on all is not a possibility, but a certainty. See <a href='https://www.ntgreek.org' target='_blank'>www.ntgreek.org</a>.</div>
 <br />
 </p>
 <p>

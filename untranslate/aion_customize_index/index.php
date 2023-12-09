@@ -579,7 +579,7 @@ $_BibleSTRONGS = array();
 while(($line=fgets($fd))) {
 	$line = rtrim($line,"\r\n");
 	if (!($parts = mb_split("\t", $line)) ||
-		count($parts)!=19 ||
+		count($parts)!=18 ||
 		empty($parts[0]) ||
 		empty($parts[2]) ||
 		empty($parts[3]) ||
@@ -673,7 +673,7 @@ echo "<div id='word-description'>".$tocmenu.$_BibleONE['FORMATTED']."</div>";
 echo "<div id='word-search'><div class='field-header'>Aionian Verses:</div>";
 $path_glossary = abcms_href('/Glossary',TRUE,TRUE,FALSE);
 $path_noted = abcms_href(TRUE,'/Noted',TRUE,TRUE);
-echo "<p>Chapters with <a href='$path_glossary' title='Aionian Glossary'>Aionian Glossary</a> words are highlighted in the table of contents with each verse also <a href='$path_noted' title='Aionian Glossary usage'>listed here</a>.  Notes are added to 64 Old Testament and 200 New Testament verses without altering the source text.  Contact the <a href='/Publisher' title='Contact Nainoia, Inc'>Publisher</a> with any questions. We pray for a modern public domain translation in every language.</p>";
+echo "<p>Chapters with <a href='$path_glossary' title='Aionian Glossary'>Aionian Glossary</a> words are highlighted in the table of contents with each verse also <a href='$path_noted' title='Aionian Glossary usage'>listed here</a>.  Notes are added to 64 Old Testament and 201 New Testament verses without altering the source text.  Contact the <a href='/Publisher' title='Contact Nainoia, Inc'>Publisher</a> with any questions. We pray for a modern public domain translation in every language.</p>";
 echo '</div></div>';
 abcms_tail();
 }
@@ -1462,7 +1462,7 @@ abcms_head();
 <div id='word'>
 <div id='strong'>
 <h2>Strong's Enhanced Concordance</h2>
-The  <span class='notranslate'>Aionian</span>  Bible un-translates and instead transliterates ten special words to help us better understand the extent of God’s love for individuals and all mankind, and the nature of afterlife destinies.  The original translation is unaltered and an inline note is appended to 64 Old Testament and 200 New Testament verses. Compare the definitions below to the <a href='/Glossary' title='Aionian Glossary' onclick='return AionianBible_Makemark("/Glossary");'><span class='notranslate'>Aionian</span> Glossary</a>. Follow the <span class='word-blue'>blue link</span> below to study the word's usage.  Search for any Strong's number: g1-21369 and h1-9049.<br />
+The  <span class='notranslate'>Aionian</span>  Bible un-translates and instead transliterates ten special words to help us better understand the extent of God’s love for individuals and all mankind, and the nature of afterlife destinies.  The original translation is unaltered and an inline note is appended to 64 Old Testament and 201 New Testament verses. Compare the definitions below to the <a href='/Glossary' title='Aionian Glossary' onclick='return AionianBible_Makemark("/Glossary");'><span class='notranslate'>Aionian</span> Glossary</a>. Follow the <span class='word-blue'>blue link</span> below to study the word's usage.  Search for any Strong's number: g1-21369 and h1-9049.<br />
 <div class=center>
 <form action='<? echo abcms_href(TRUE,'',TRUE,FALSE); ?>' method='post'>
 <input type='text' name='sid' placeholder='Enter g1-21369 or h1-9049 for Greek and Hebrew Strongs numbers, for example g166' value=''/>
@@ -1508,25 +1508,33 @@ static $jointype = array(
 
 // TAGNT types
 static $entry_type_greek = array(
-	"ATO"	=> "Identical in all sources",
-	"ATo"	=> "Identical in ancient and traditional sources, minor differences in other sources",
-	"AtO"	=> "Identical in ancient and other sources, minor differences in traditional sources",
-	"Ato"	=> "Present ancient sources, minor differences in traditional and other sources",
-	"atO"	=> "Present in other sources, minor differences in ancient and traditional sources",
-	"ato"	=> "Present with minor differences in ancient, traditional, and other sources",
-	"AT"	=> "Identical in ancient and traditional sources, absent in other sources",
-	"A"		=> "Present in ancient sources, absent in traditional and other sources",
-	"AO"	=> "Identical in ancient and other sources, absent in traditional sources",
-	"Ao"	=> "Present in ancient sources, minor differences in other sources, absent in traditional sources",
-	"a"		=> "Present with minor differences in ancient sources, absent in traditional and other sources",
-	"ao"	=> "Present with minor differences in ancient and other sources, absent in traditional sources",
-	"TO"	=> "Identical in traditional and other sources, absent in ancient sources",
-	"To"	=> "Present in traditional sources, minor differences in other sources, absent in ancient sources",
-	"T"		=> "Present in traditional sources, absent in ancient and other sources",
-	"t"		=> "Present with minor differences in traditional sources, absent in ancient and other sources",
-	"to"	=> "Present with minor differences in traditional and other sources, absent in ancient sources",
-	"O"		=> "Present in other sources, absent in ancient and traditional sources",
-	"Ot"	=> "Present in other sources, minor differences in traditional sources, absent in ancient sources",
+	"NKO"	=> "Identical in all sources",
+	"NK+O"	=> "Identical in Nestle/Aland and King James sources, affecting differences in other sources",
+	"NK+o"	=> "Identical in Nestle/Aland and King James sources, minor differences in other sources",
+	"N+KO"	=> "Identical in Nestle/Aland and other sources, affecting differences in King James sources",
+	"N+K+O"	=> "Identical in Nestle/Aland sources, affecting differences in King James and other sources",
+	"N+K+o"	=> "Identical in Nestle/Aland sources, affecting differences in King James sources, minor difference in other sources",
+	"N+kO"	=> "Identical in Nestle/Aland and other source, minor differences in King James sources",
+	"N+k+O"	=> "Identical in Nestle/Aland sources, affecting differences in other sources, minor differences in King James sources",
+	"N+k+o"	=> "Identical in Nestle/Aland sources, minor differences in King James and other sources",
+	"NK"	=> "Identical in Nestle/Aland and King James sources, absent in other sources",
+	"N+k"	=> "Identical in Nestle/Aland sources, minor differences in King James sources, absent in other sources",
+	"NO"	=> "Identical in Nestle/Aland and other sources, absent in King James sources",
+	"no"	=> "Minor differences in Nestle/Aland and other sources, absent in King James sources",
+	"N+O"	=> "Identical in Nestle/Aland sources, affecting differences in other sources, absent in King James sources",
+	"N+o"	=> "Identical in Nestle/Aland sources, minor differences in other sources, absent in King James sources",
+	"n+o"	=> "Minor differences in Nestle/Aland and other sources, absent in King James sources",
+	"N"		=> "Identical in Nestle/Aland sources, absent in King James and other sources",
+	"n"		=> "Minor differences in Nestle/Aland sources, absent in King James and other sources",
+	"KO"	=> "Identical in King James and other sources, absent in Nestle/Aland sources",
+	"K+O"	=> "Identical in King James sources, affecting differences in other sources, absent in Nestle/Aland sources",
+	"K+o"	=> "Identical in King James sources, minor differences in other sources, absent in Nestle/Aland sources",
+	"k+o"	=> "Minor differences in King James and other sources, absent in Nestle/Aland sources",
+	"ko"	=> "Minor differences in King James and other sources, absent in Nestle/Aland sources",
+	"K"		=> "Identical in King James sources, absent in Nestle/Aland and other sources",
+	"k"		=> "Minor differences in King James sources, absent in Nestle/Aland and other sources",
+	"O"		=> "Identical in other sources, absent in Nestle/Aland and King James sources",
+	"o"		=> "Minor differences in other sources, absent in Nestle/Aland and King James sources",
 	);
 
 // TAHOT types
@@ -1606,8 +1614,8 @@ static $editions_search = NULL; if (NULL===$editions_search) { $editions_search 
 // GREEK-TYNDALE	STRONGS	STRONGU	WORD	TRANS		GLOSS	MORPH	DEF
 // GREEK-LSJ		STRONGS	STRONGU	WORD	TRANS		GLOSS	MORPH	DEF
 //
-// TAGS				0		1		2		3		4		5		6		7		8		9		10		11		12		13			14		15		16		17		18
-// TAHOT/TAGNT		INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH	GLOSS	MORPH	EDITIONS	VAR1	VAR2	SPELL	EXTRA	ALT
+// TAGS				0		1		2		3		4		5		6		7		8		9		10		11		12		13			14		15		16		17
+// TAHOT/TAGNT		INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH	GLOSS	MORPH	EDITIONS	VAR		SPELL	EXTRA	ALT
 //
 $bald = $baldyes = substr($strongs,1); // bald strongs
 $baldbald = preg_replace("#[^\d]+#", "", $bald);
@@ -1678,10 +1686,8 @@ if ((!empty($lex_strongs[0]) && $baldbald!=$lex_strongs[0]) ||
 }
 
 // OKAY DOIT
-// 			0		1		2		3		4		5		6		7		8		9		10			11			12			13			14			15		16		17		18
-// OLHEB	INDEX	BOOK	CHAPTER	VERSE	STRONGS	FLAG	MORPH	WORD	ENGLISH	PART	ADDITIONAL
-// OLDGRE	INDEX	BOOK	CHAPTER	VERSE	STRONGS	FLAG	MORPH	WORD	ENGLISH	ENTRY	PUNC		EDITIONS	VARIATION1	VARIATION2	ADDITIONAL	CONJOIN	OCCUR	ALT
-// NEW		INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH		GLOSS		MORPH		EDITIONS	VAR1		VAR2	SPELL	EXTRA	ALT
+// 			0		1		2		3		4		5		6		7		8		9		10			11			12			13			14		16		17		18
+// NEW		INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH		GLOSS		MORPH		EDITIONS	VAR		SPELL	EXTRA	ALT
 // Strongs substitute
 $lex_strongsub = NULL;
 if ($lex_strongs && $bald != $baldbald) {
@@ -1746,10 +1752,11 @@ $stronglang = (empty($lex_strongs[4]) ? '' :
 // Editions, Greek only
 if ($strongs[0]=='g') {
 	$tag[13] = (empty($tag[13]) ? NULL : preg_replace($editions_search, $editions_replace, $tag[13])); // editions
-	$tag[14] = (empty($tag[14]) ? NULL : preg_replace($editions_search, $editions_replace, $tag[14])); // var1
-	$tag[15] = (empty($tag[15]) ? NULL : preg_replace($editions_search, $editions_replace, $tag[15])); // var2
-	$tag[16] = (empty($tag[16]) ? NULL : preg_replace($editions_search, $editions_replace, $tag[16])); // spell
+	$tag[14] = (empty($tag[14]) ? NULL : preg_replace($editions_search, $editions_replace, $tag[14])); // var
+	$tag[15] = (empty($tag[15]) ? NULL : preg_replace($editions_search, $editions_replace, $tag[15])); // spell
 }
+// Variations
+if (!empty($tag[14]) && !($tag[14]=preg_replace("#\s*¦\s*#u", "<br>", $tag[14]))) { abcms_errs("abcms_enty() variation expansion failed! Strongs={$strongs}"); }
 
 // javascript
 static $elementid = 0;
@@ -1757,10 +1764,8 @@ static $elementid = 0;
 $javascript = "AionianBible_CollapseExpand(\"ab-lexicon\", \"ab-lexicon-$elementid\"); return false;";
 
 // OUTPUT
-// 			0		1		2		3		4		5		6		7		8		9		10			11			12			13			14			15		16		17		18
-// OLHEB	INDEX	BOOK	CHAPTER	VERSE	STRONGS	FLAG	MORPH	WORD	ENGLISH	PART	ADDITIONAL
-// OLDGRE	INDEX	BOOK	CHAPTER	VERSE	STRONGS	FLAG	MORPH	WORD	ENGLISH	ENTRY	PUNC		EDITIONS	VARIATION1	VARIATION2	ADDITIONAL	CONJOIN	OCCUR	ALT
-// NEW		INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH		GLOSS		MORPH		EDITIONS	VAR1		VAR2	SPELL	EXTRA	ALT
+// 			0		1		2		3		4		5		6		7		8		9		10			11			12			13			14		15		16		17
+// NEW		INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH		GLOSS		MORPH		EDITIONS	VAR		SPELL	EXTRA	ALT
 echo
 	// tag header
 	"<div class='strong-entry {$css_background}'>" .
@@ -1787,11 +1792,10 @@ echo
 	// tag detail
 	(empty($tagtype)		? "" : "<div class='field-field'><div class='field-label'>Source:</div><div class='field-value'>{$tagtype}</div></div>\n") .
 	(empty($tag[13])		? "" : "<div class='field-field'><div class='field-label'>Editions:</div><div class='field-value'>{$tag[13]}</div></div>\n") .
-	(empty($tag[14])		? "" : "<div class='field-field'><div class='field-label'>Variation-1:</div><div class='field-value'>{$tag[14]}</div></div>\n") .
-	(empty($tag[15])		? "" : "<div class='field-field'><div class='field-label'>Variation-2:</div><div class='field-value'>{$tag[15]}</div></div>\n") .
-	(empty($tag[16])		? "" : "<div class='field-field'><div class='field-label'>Other Spelling:</div><div class='field-value'>{$tag[16]}</div></div>\n") .
-	(empty($tag[17])		? "" : "<div class='field-field'><div class='field-label'>Additional:</div><div class='field-value'>{$tag[17]}</div></div>\n") .
-	(empty($tag[18])		? "" : "<div class='field-field'><div class='field-label'>Alternates:</div><div class='field-value'>{$tag[18]}</div></div>\n") .
+	(empty($tag[14])		? "" : "<div class='field-field'><div class='field-label'>Variations:</div><div class='field-value'>{$tag[14]}</div></div>\n") .
+	(empty($tag[15])		? "" : "<div class='field-field'><div class='field-label'>Other Spelling:</div><div class='field-value'>{$tag[15]}</div></div>\n") .
+	(empty($tag[16])		? "" : "<div class='field-field'><div class='field-label'>Additional:</div><div class='field-value'>{$tag[16]}</div></div>\n") .
+	(empty($tag[17])		? "" : "<div class='field-field'><div class='field-label'>Alternates:</div><div class='field-value'>{$tag[17]}</div></div>\n") .
 
 	// lexicon: Aionian, Tyndale, LSJ, Strongs
 	(!$aionian	? "" :
@@ -2046,21 +2050,19 @@ return $lookup[$morph];
 /*** AIONIAN ***/
 function abcms_aion($strongs,&$SID,&$word,$book=NULL,$chap=NULL,$verse=NULL) {
 global $_Part;
-// exceptional definitions
-if ($strongs=='g1653' && $book=='ROM' && $chap=='011' && $verse =='032') {
-	return "To have pity or mercy on, to show mercy. Typically, the subjunctive mood indicates action that is possible or potential, but not certain. However, if the subjunctive mood is used in a 'purpose' or in a 'result' clause, then the action should not be thought of as a possible result, but should be viewed as the stated outcome that will happen or has happened as a result of another stated action.  The use of the subjunctive is not to indicate that something 'may' or 'might' result from a given action, but it is stating the 'purpose of' or 'reason for' an action.  The subjunctive mood in a purpose clause actually functions more like a verb in the indicative mood rather than in the optative mood.  It is not stating the possibility or probability of an action, but instead telling the intention of the primary action, (see <a href='https://www.ntgreek.org' target='_blank'>www.ntgreek.org</a>). Because Romans 11:32 is the grand conclusion of Paul's grace theology and because the English 'might' can mean either 'possibility' or 'for the purpose of', this is perhaps the single most important translation clarification in the Christian Scriptures. God's mercy on all is not a possibility, but a certainty.";
-}
 // aionian glossary definitions
 $SID = (NULL===$book ? $strongs :
 	"<a href='".abcms_href((empty($_Part[1]) ? '/Strongs' : "/Strongs/$_Part[1]"),FALSE,TRUE,FALSE).
 	"/strongs-$strongs' title='Strongs Enhanced Concordance entry $strongs' class='word-blue'>$strongs</a>");
-if (($strongs=='g3041' || $strongs=='g4442') &&
+$strongs = (($tmp=preg_replace("#[A-Za-z]{1}$#", "", $strongs)) ? $tmp : $strongs);
+if (($strongs=='g1653' && ($book!='ROM' || !($chap=='011' && $verse=='032'))) ||
+	(($strongs=='g3041' || $strongs=='g4442') &&
 	($book!='REV' ||
 	!(($chap=='019' && $verse=='020') ||
 	  ($chap=='020' && $verse=='010') ||
 	  ($chap=='020' && $verse=='014') ||
 	  ($chap=='020' && $verse=='015') ||
-	  ($chap=='021' && $verse=='008')))) {
+	  ($chap=='021' && $verse=='008'))))) {
 	return NULL;
 }
 static $slink = NULL;
@@ -2070,8 +2072,9 @@ if ($slink===NULL) {
 		'g12'	=> "<a href='$gpath#g12'   title='Aionian Glossary'>g12</a>",
 		'g126'	=> "<a href='$gpath#g126'  title='Aionian Glossary'>g126</a>",
 		'g165'	=> "<a href='$gpath#g165'  title='Aionian Glossary'>g165</a>",
+		'g1653'	=> "<a href='$gpath#g1653' title='Aionian Glossary'>g1653</a>",
 		'g166'	=> "<a href='$gpath#g166'  title='Aionian Glossary'>g166</a>",
-		'g1067'	=> "<a href='$gpath#g1067'  title='Aionian Glossary'>g1067</a>",
+		'g1067'	=> "<a href='$gpath#g1067' title='Aionian Glossary'>g1067</a>",
 		'g86'	=> "<a href='$gpath#g86'   title='Aionian Glossary'>g86</a>",
 		'h7585'	=> "<a href='$gpath#h7585' title='Aionian Glossary'>h7585</a>",
 		'g5020'	=> "<a href='$gpath#g5020' title='Aionian Glossary'>g5020</a>",
@@ -2084,6 +2087,7 @@ static $adef = array(
 	'g12'	=> "Temporary prison for special fallen angels such as Apollyon, the Beast, and Satan.",
 	'g126'	=> "Lasting, enduring forever, eternal.",
 	'g165'	=> "A lifetime or time period with a beginning and end, an era, an age, the completion of which is beyond human perception, but known only to God the creator of the aiōns, Hebrews 1:2. Never meaning simple <i>endless or infinite chronological time</i> in Koine Greek usage. Read <a href='/Aionios-and-Aidios'>Dr. Heleen Keizer and Ramelli and Konstan</a> for proofs.",
+	'g1653'	=> "To have pity on, to show mercy. Typically, the subjunctive mood indicates possiblity, not certainty. However, a subjunctive in a purpose clause is a resulting action as certain as the causal action. The subjunctive in a purpose clause functions as an indicative, not an optative. Thus, the grand conclusion of grace theology in <a href='/Bibles/English---Aionian-Bible/Romans/11' onclick='return ABMM(\"/Bibles\",\"/Romans/11\");'>Romans 11:32</a> must be clarified. God's mercy on all is not a possibility, but a certainty. See <a href='https://www.ntgreek.org' target='_blank'>www.ntgreek.org</a>.",
 	'g166'	=> "From start to finish, pertaining to the age, lifetime, entirety, complete, or even consummate. Never meaning simple <i>endless or infinite chronological time</i> in Koine Greek usage. Read <a href='/Aionios-and-Aidios'>Dr. Heleen Keizer and Ramelli and Konstan</a> for proofs.",
 	'g1067'	=> "Valley of Hinnom, Jerusalem's trash dump, a place of ruin, destruction, and judgment in this life or the next, though not eternal to Jesus' audience.",
 	'g86'	=> "Synonomous with <i>Sheol</i>, though in New Testament usage <i>Hades</i> is the temporal place of punishment for deceased unbelieving mankind, distinct from <i>Paradise</i> for deceased believers.",
@@ -2096,6 +2100,7 @@ static $aword = array(
 	'g12'	=> "Abyssos",
 	'g126'	=> "aïdios",
 	'g165'	=> "aiōn",
+	'g1653'	=> "eleēsē",
 	'g166'	=> "aiōnios",
 	'g1067'	=> "Geenna",
 	'g86'	=> "Hadēs",
