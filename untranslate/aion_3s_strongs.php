@@ -2741,6 +2741,7 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 		"NIV"		=> "New International Version",
 		"OldLatin"	=> "Old Latin",
 		"OldSyriac"	=> "Old Syriac version",
+		"P46"		=> "Papyri #46",
 		"P66"		=> "Papyri #66",
 		"P66*"		=> "Papyri #66 corrector",
 		"Punc"		=> "Accent variant from punctuation",
@@ -2776,6 +2777,7 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 		"#NIV#u"		=> "<a href='javascript:void(0)' title='New International Version'>NIV</a>",
 		"#OldLatin#u"	=> "<a href='javascript:void(0)' title='Old Latin version'>OldLatin</a>",
 		"#OldSyriac#u"	=> "<a href='javascript:void(0)' title='Old Syriac version'>OldSyriac</a>",
+		"#P46#u"		=> "<a href='javascript:void(0)' title='Papyri #46'>P46</a>",
 		"#P66#u"		=> "<a href='javascript:void(0)' title='Papyri #66'>P66</a>",
 		"#P66\*#u"		=> "<a href='javascript:void(0)' title='Papyri #66 corrector'>P66*</a>",
 		"#Punc#u"		=> "<a href='javascript:void(0)' title='Accent variant from punctuation'>Punc</a>",
@@ -3033,12 +3035,21 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 			}
 			
 			// VALIDATE EDITIONS
+//Word & Type	Greek	English translation	dStrongs = Grammar	Dictionary form =  Gloss	editions	Meaning variants	Spelling variants	Spanish translation	Sub-meaning	Conjoin word	sStrong+Instance	Alt Strongs				
+//Mat.5.30#32=N(K)O	ἀπέλθῃ.¶ (apelthē)	may depart.	G0565=V-2AAS-3S	ἀπέρχομαι=to go away	NA28+NA27+Tyn+SBL+WH+Treg	βληθῇ (ˍˍblēthēa) may be cast - G0906=V-APS-3S in: moved «3:TR+Byz		vaya	to go away	#32	G0565	G0906_b		
+//Mat.8.31#11=N(K)O	ἀπόστειλον (aposteilon)	do send away	G0649=V-AAM-2S	ἀποστέλλω=to send	NA28+NA27+Tyn+SBL+WH+Treg	ἀπελθεῖν (ˍˍapelthein) to go away - G0565=V-2AAN in: moved »1:TR+Byz		envía como emisarios	to send	#11	G0649	G0565
+//Mat.14.3#13=N(k)O	ἀπέθετο (apetheto)	put [him] aside	G0659=V-2AMI-3S	ἀποτίθημι=to put aside	NA28+NA27+Tyn+SBL+WH+Treg	ἔθετο (ˍetheto) put [him] - G5087=V-2AMI-3S in: moved «3:TR+Byz		puso	to put aside	#13	G0659	G5087	
+//Act.9.12#06=NKO	Ἁνανίαν (Hananian)	Ananias	G0367H=N-ASM-P	Ἀνανίας=Ananias	Tyn; moved »1:NA28+NA27+SBL+WH+Treg+TR+Byz		Tyn; moved »1:Byz+TR: Ἀνανίαν ; 	Ananías	Ananias»Ananias|Ananias@Act.9.10-	#06	G0367		
+//Act.19.38#10=NKO	ἔχουσι (echousi)	have	G2192=V-PAI-3P	ἔχω=to have/be	NA28+SBL+WH+Treg+Byz; moved »3:NA27+Tyn+TR		Byz+Treg+WH+SBL+NA28; moved »3:TR: ἔχουσιν ; 	están teniendo	to have	#10	G2192		
+//Php.3.12#07=NK(O)	τετελείωμαι, (teteleiōmai)	have been perfected,	G5048=V-RPI-1S	τελειόω=to perfect	NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz	δεδικαίωμαι (ₓₓdedikaiōmai) have been perfected, - G1344=V-RPI-1S in: P46		he sido completado	to perfect	#07	G5048	G1344				
 			$editions  = $line['EDITIONS'];
-			$editions .= (empty($line['VAR'])  ? "" : ("+".preg_replace("#^.+ in: (.+)$#us", '$1', $line['VAR'])));
-			$editions .= (!preg_match("#^([^;:]+):.+$#us", $line['SPELL']) ? "" : ("+".preg_replace("#^([^;:]+):.+$#us",  '$1', $line['SPELL'])));
-			$editions .= (!preg_match("#^[^;]+;([^;:]+):.+$#us", $line['SPELL']) ? "" : ("+".preg_replace("#^[^;]+;([^;:]+):.+$#us",  '$1', $line['SPELL'])));
-			$editions .= (!preg_match("#^[^;]+;[^;]+;([^;:]+):.+$#us", $line['SPELL']) ? "" : ("+".preg_replace("#^[^;]+;[^;]+;([^;:]+):.+$#us",  '$1', $line['SPELL'])));
-			$editions  = preg_replace("#; moved [«»]+[\d.]+:#u", "+", $editions);
+			$editions .= (preg_match("#^.+\s+in:\s+moved\s+[«»]+\d+:(.+)$#us", $line['VAR']) ? ("+".preg_replace("#^.+\s+in:\s+moved\s+[«»]+\d+:(.+)$#us", '$1', $line['VAR'])) : "");
+			$editions .= (preg_match("#^.+\s+in:\s+([^«»]+)$#us", $line['VAR']) ? ("+".preg_replace("#^.+\s+in:\s+([^«»]+)$#us", '$1', $line['VAR'])) : "");
+			$tempspell = preg_replace("#; moved [«»]+\d+:#us", "+", $line['SPELL']);
+			$editions .= (!preg_match("#^([^;:]+):.+$#us", $tempspell) ? "" : ("+".preg_replace("#^([^;:]+):.+$#us",  '$1', $tempspell)));
+			$editions .= (!preg_match("#^[^;]+;([^;:]+):.+$#us", $tempspell) ? "" : ("+".preg_replace("#^[^;]+;([^;:]+):.+$#us",  '$1', $tempspell)));
+			$editions .= (!preg_match("#^[^;]+;[^;]+;([^;:]+):.+$#us", $tempspell) ? "" : ("+".preg_replace("#^[^;]+;[^;]+;([^;:]+):.+$#us",  '$1', $tempspell)));
+			$editions  = preg_replace("#[:;]+\s+moved\s+[«»]+[\d.]+:#u", "+", $editions);
 			$editions  = preg_replace("#[«»]+[\d.]+[:]*#u", "+", $editions);
 			$editions  = preg_replace("#\s+#u", "+", $editions);
 			$editions  = preg_replace("#0([\d]+)#u", 'U$1', $editions); // replace 0 with U for unicals
@@ -3048,7 +3059,7 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 				AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");	
 			}
 			// FIX EDITIONS
-			$line['EDITIONS'] = preg_replace("#; moved [«»]+[\d.]+:#u", "+", $line['EDITIONS']);
+			$line['EDITIONS'] = preg_replace("#[:;]+\s+moved\s+[«»]+[\d.]+:#u", "+", $line['EDITIONS']);
 			$line['EDITIONS'] = preg_replace("#[«»]+[\d.]+[:]*#u", "+", $line['EDITIONS']);
 			$line['EDITIONS'] = preg_replace("#\s+#u", "+", $line['EDITIONS']);
 			$line['EDITIONS'] = preg_replace("#0([\d]+)#u", 'U$1', $line['EDITIONS']); // replace 0 with U for unicals

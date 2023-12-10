@@ -1588,6 +1588,7 @@ static $editions_replace = array(
 	"#NIV#u"		=> "<a href='javascript:void(0)' title='New International Version'>NIV</a>",
 	"#OldLatin#u"	=> "<a href='javascript:void(0)' title='Old Latin version'>OldLatin</a>",
 	"#OldSyriac#u"	=> "<a href='javascript:void(0)' title='Old Syriac version'>OldSyriac</a>",
+	"#P46#u"		=> "<a href='javascript:void(0)' title='Papyri #46'>P46</a>",
 	"#P66#u"		=> "<a href='javascript:void(0)' title='Papyri #66'>P66</a>",
 	"#P66\*#u"		=> "<a href='javascript:void(0)' title='Papyri #66 corrector'>P66*</a>",
 	"#Punc#u"		=> "<a href='javascript:void(0)' title='Accent variant from punctuation'>Punc</a>",

@@ -46,7 +46,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Basque|Breton).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Panjabi).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Spanish---Free).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Myanmar|Spanish---Free).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Burmese-Common).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur|Gujarati|Korean).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(LXX|Khan).*---Aionian-Edition\.noia$/",
@@ -976,7 +976,7 @@ $fonts = AION_LOOP_PDF_POD_FONTS($font,$bsize,$bleading,$tsize,$tleading,$rsize,
 $versenumberlanguage = ($numarialfont ? "language='English (USA)'" : "" );
 // options
 $versionsMETA = "Holy Bible Aionian Edition, $versionE";
-$keywordsMETA = (empty($language) ? "English" : $language) . ", Holy Bible, Scriptures, Aionian, Aion, Aionios, Hades, Gehenna, Tartarus, Abyss, Lake of Fire, Aiōn, Aiōnios, Aïdios, Sheol, Hadēs, Geenna, Tartaroō, Abyssos, Limnē Pyr, Purple Bible, Untranslation";
+$keywordsMETA = (empty($language) ? "English" : $language) . ", Holy Bible, Scriptures, Aionian, Aion, Aionios, eleese, Hades, Gehenna, Tartarus, Abyss, Lake of Fire, Aiōn, Aiōnios, Aïdios, Sheol, Hadēs, Geenna, Tartaroō, Abyssos, Limnē Pyr, Purple Bible, Untranslation";
 // title page
 $versionFO_TI = "<Span $langspeed><Fontface fontfamily='$versionff'><Value>$version</Value></Fontface></Span>";
 $versionEN_TI = ($version == $versionE ? "" : "<Br /><Fontface fontfamily='FF-VerE'><Value>$versionE</Value></Fontface>" );
@@ -1742,6 +1742,10 @@ $fonts
 <ForAll select="AIONIAN">	<Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="5pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
 <Fontface fontfamily='FF-Tiny'><Br /></Fontface>
 
+<B><I><Fontface fontfamily='FF-Glos'><Value>eleēsē</Value></Fontface></I></B><Br />
+<ForAll select="ELEESE">	<Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="5pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
+<Fontface fontfamily='FF-Tiny'><Br /></Fontface>
+
 <B><I><Fontface fontfamily='FF-Glos'><Value>Geenna</Value></Fontface></I></B><Br />
 <ForAll select="GEHENNA">	<Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="5pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
 <Fontface fontfamily='FF-Tiny'><Br /></Fontface>
@@ -1945,7 +1949,7 @@ $bidi_center= ($rtl=="TRUE" ? 'bidi="yes" direction="rtl"' : '' );
 $fonts = AION_LOOP_PDF_POD_FONTS($font,$bsize,$bleading,$tsize,$tleading,$rsize,$rleading,$size,$leading,$numarialfont,$footsize,$backvl,$backtl,$backal,$backll,$headfont,$pixtext,$pixlead);
 // options
 $versionsMETA = "Holy Bible Aionian Edition, $versionE";
-$keywordsMETA = (empty($language) ? "English" : $language) . ", Holy Bible, Scriptures, Aionian, Aion, Aionios, Hades, Gehenna, Tartarus, Abyss, Lake of Fire, Aiōn, Aiōnios, Aïdios, Sheol, Hadēs, Geenna, Tartaroō, Abyssos, Limnē Pyr, Purple Bible, Untranslation";
+$keywordsMETA = (empty($language) ? "English" : $language) . ", Holy Bible, Scriptures, Aionian, Aion, Aionios, eleese, Hades, Gehenna, Tartarus, Abyss, Lake of Fire, Aiōn, Aiōnios, Aïdios, Sheol, Hadēs, Geenna, Tartaroō, Abyssos, Limnē Pyr, Purple Bible, Untranslation";
 // copyright
 $versionFO_CP = "<Span $langspeed><Fontface fontfamily='$copyff'><Value>$version</Value></Fontface></Span>";
 $versionEN_CP = ($version == $versionE ? "" : "<Br /><Fontface fontfamily='FF-Copy'><Value>$versionE</Value></Fontface>" );
@@ -2188,7 +2192,7 @@ if ($w_font=='FOREIGN' && (!($w_free=preg_replace("/([\-0-9:% ]{3,})/","</Value>
 $fonts = AION_LOOP_PDF_POD_FONTS($font,$bsize,$bleading,$tsize,$tleading,$rsize,$rleading,$size,$leading,$numarialfont,$footsize,$backvl,$backtl,$backal,$backll,$headfont,$pixtext,$pixlead);
 // options
 $versionsMETA = "Holy Bible Aionian Edition, $versionE";
-$keywordsMETA = (empty($language) ? "English" : $language) . ", Holy Bible, Scriptures, Aionian, Aion, Aionios, Hades, Gehenna, Tartarus, Abyss, Lake of Fire, Aiōn, Aiōnios, Aïdios, Sheol, Hadēs, Geenna, Tartaroō, Abyssos, Limnē Pyr, Purple Bible, Untranslation";
+$keywordsMETA = (empty($language) ? "English" : $language) . ", Holy Bible, Scriptures, Aionian, Aion, Aionios, eleese, Hades, Gehenna, Tartarus, Abyss, Lake of Fire, Aiōn, Aiōnios, Aïdios, Sheol, Hadēs, Geenna, Tartaroō, Abyssos, Limnē Pyr, Purple Bible, Untranslation";
 // title page
 $versionFO_TI = "<Span $langspeed><Fontface fontfamily='$versionff'><Value>$version</Value></Fontface></Span>";
 $versionEN_TI = ($version == $versionE ? "" : "<Br /><Span language='English (USA)'><Fontface fontfamily='FF-VerE'><Value>$versionE</Value></Fontface></Span>" );
@@ -2935,7 +2939,7 @@ $loadfontfile
 <DefineFontfamily name="FF-Pixx" fontsize="14"		leading="16"		><Regular fontface="FT-REGU"/><Bold fontface="FT-BOLD"/><Italic fontface="FT-ITAL"/><BoldItalic fontface="FT-BOIT"/></DefineFontfamily>
 <DefineFontfamily name="FF-Pixt" fontsize="9"		leading="13"		><Regular fontface="FT-REGU"/><Bold fontface="FT-BOLD"/><Italic fontface="FT-ITAL"/><BoldItalic fontface="FT-BOIT"/></DefineFontfamily>
 <DefineFontfamily name="FF-Pmap" fontsize="9"		leading="12"		><Regular fontface="FT-REGU"/><Bold fontface="FT-BOLD"/><Italic fontface="FT-ITAL"/><BoldItalic fontface="FT-BOIT"/></DefineFontfamily>
-<DefineFontfamily name="FF-Glos" fontsize="13"		leading="15"		><Regular fontface="FT-REGU"/><Bold fontface="FT-BOLD"/><Italic fontface="FT-ITAL"/><BoldItalic fontface="FT-BOIT"/></DefineFontfamily>
+<DefineFontfamily name="FF-Glos" fontsize="13"		leading="14.5"		><Regular fontface="FT-REGU"/><Bold fontface="FT-BOLD"/><Italic fontface="FT-ITAL"/><BoldItalic fontface="FT-BOIT"/></DefineFontfamily>
 <DefineFontfamily name="FF-BakV" fontsize="14"		leading="17"		><Regular fontface="FT-BOIT"/></DefineFontfamily>
 <DefineFontfamily name="FF-Btex" fontsize="13"		leading="17"		><Regular fontface="FT-BOLD"/></DefineFontfamily>
 <DefineFontfamily name="FF-AioL" fontsize="50"		leading="$backll"	><Regular fontface="FT-IMPA"/></DefineFontfamily>
@@ -2999,6 +3003,7 @@ function AION_GLOSSARY_REFERENCES_PUT( $bible, $database, $args, $tt22=FALSE, $l
 		$GLOS = 'AIDIOS';		if (stripos($verse['WORD'],$GLOS)!==FALSE) {	$references .= "<$GLOS BOOK=\"$BOOK\" CHAPTER=\"$CHAP\" VERSE=\"$VERS\" MARK=\"$MARK\" LANG=\"$LANG\"></$GLOS>\n"; }
 		$GLOS = 'AIONS';		if (stripos($verse['WORD'],$GLOS)!==FALSE) {	$references .= "<$GLOS BOOK=\"$BOOK\" CHAPTER=\"$CHAP\" VERSE=\"$VERS\" MARK=\"$MARK\" LANG=\"$LANG\"></$GLOS>\n"; }
 		$GLOS = 'AIONIAN';		if (stripos($verse['WORD'],$GLOS)!==FALSE) {	$references .= "<$GLOS BOOK=\"$BOOK\" CHAPTER=\"$CHAP\" VERSE=\"$VERS\" MARK=\"$MARK\" LANG=\"$LANG\"></$GLOS>\n"; }
+		$GLOS = 'ELEESE';		if (stripos($verse['WORD'],$GLOS)!==FALSE) {	$references .= "<$GLOS BOOK=\"$BOOK\" CHAPTER=\"$CHAP\" VERSE=\"$VERS\" MARK=\"$MARK\" LANG=\"$LANG\"></$GLOS>\n"; }
 		$GLOS = 'GEHENNA';		if (stripos($verse['WORD'],$GLOS)!==FALSE) {	$references .= "<$GLOS BOOK=\"$BOOK\" CHAPTER=\"$CHAP\" VERSE=\"$VERS\" MARK=\"$MARK\" LANG=\"$LANG\"></$GLOS>\n"; }
 		$GLOS = 'HADES';		if (stripos($verse['WORD'],$GLOS)!==FALSE) {	$references .= "<$GLOS BOOK=\"$BOOK\" CHAPTER=\"$CHAP\" VERSE=\"$VERS\" MARK=\"$MARK\" LANG=\"$LANG\"></$GLOS>\n"; }
 		$GLOS = 'LOF';			if (stripos($verse['WORD'],$GLOS)!==FALSE) {	$references .= "<$GLOS BOOK=\"$BOOK\" CHAPTER=\"$CHAP\" VERSE=\"$VERS\" MARK=\"$MARK\" LANG=\"$LANG\"></$GLOS>\n"; }
