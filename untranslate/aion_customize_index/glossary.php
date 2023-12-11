@@ -48,7 +48,7 @@ Meaning:<br /><div style='margin-left: 15px;'>From start to finish, pertaining t
 </p>
 <p>
 <h3 class='notranslate'><i><a id="g1653">eleēsē</a></i></h3>
-Greek: verb<br />
+Greek: verb, aorist tense, active voice, subjunctive mood, 3rd person singular<br />
 Usage: <a href='<? echo abcms_href("/Bibles$bible",FALSE,TRUE,'/Romans/11'); ?>'  class='word-blue'>1 time in this conjugation, Romans 11:32</a><br />
 Strongs: <a href='<? echo abcms_href("/Strongs$bible",FALSE,TRUE,'/strongs-g1653'); ?>' title='Search Strongs' class='word-blue'>g1653</a><br />
 Meaning:<br /><div style='margin-left: 15px;'>To have pity on, to show mercy. Typically, the subjunctive mood indicates possiblity, not certainty. However, a subjunctive in a purpose clause is a resulting action as certain as the causal action. The subjunctive in a purpose clause functions as an indicative, not an optative. Thus, the grand conclusion of grace theology in <a href='<? echo abcms_href("/Bibles$bible",FALSE,TRUE,'/Romans/11'); ?>'>Romans 11:32</a> must be clarified. God's mercy on all is not a possibility, but a certainty. See <a href='https://www.ntgreek.org' target='_blank'>www.ntgreek.org</a>.</div>
