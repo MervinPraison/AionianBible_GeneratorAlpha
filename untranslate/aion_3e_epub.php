@@ -1194,7 +1194,9 @@ $G_COMMENT
 
 <p><b>01/11/16</b> <a href='https://www.Aionianbible.org' target='_blank' title='The worlds first Holy Bible untranslation'>AionianBible.org</a> domain registered.<br /></p>
 
-<p><b>06/21/15</b> Aionian Bible project remembered in God's timing as G. and J. pray.<br /></p>
+<p><b>06/21/15</b> Aionian Bible project birthed as G. and J. pray.<br /></p>
+
+<p><b>12/18/13</b> Aionian Bible project announced as J. and J. pray.<br /></p>
 
 <p><b>04/15/85</b> Aionian Bible project conceived as B. and J. pray.<br /></p>
 
