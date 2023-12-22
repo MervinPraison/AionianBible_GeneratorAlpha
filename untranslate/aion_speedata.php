@@ -19,15 +19,15 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 	AION_LOOP( array(
 		'function'	=> 'AION_LOOP_PDF_POD_DOIT',
 		'source'	=> $source,
-		'q_onebook'	=> FALSE,	// TRUE = only do first bible book, otherwise all
+		'q_onebook'	=> TRUE,	// TRUE = only do first bible book, otherwise all
 		'q_rtlhuh'	=> 'ALL',	// 'RTL' = RTL only,  'RTLNO' = Skip RTL, 'ALL' = all
 		'q_allall'	=> TRUE,	// TRUE = do all bibles not marked FALSE -OR- FALSE = do all bibles marked TRUE
-		'q_pdfall'	=> TRUE,	// TRUE = do ALL PDFs
+		'q_pdfall'	=> FALSE,	// TRUE = do ALL PDFs
 		'q_pdfpo'	=> FALSE,	// TRUE = do KDP PDFs
 		'q_pdfnt'	=> FALSE,	// TRUE = do KDP NT PDFs
 		'q_pdflu'	=> FALSE,	// TRUE = do LULU PDFs
 		'q_pdfon'	=> FALSE,	// TRUE = do Online PDFs
-		'q_pdfoo'	=> FALSE,	// TRUE = do One Online PDFs
+		'q_pdfoo'	=> TRUE,	// TRUE = do One Online PDFs
 		'q_epubc'	=> TRUE,	// TRUE = do ePub covers
 		//'include'	=> "/Holy-Bible---([G-Z]+.*)---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Modern-Hebrew-Bible).*---Aionian-Edition\.noia$/",
@@ -2977,7 +2977,7 @@ EOT;
 function AION_GLOSSARY_REFERENCES_GET( $bible, &$database, $args) {
 	$database['T_GLOSSARY_REFERENCES'] = $args['database'][T_UNTRANSLATE];
 }
-function AION_GLOSSARY_REFERENCES_PUT( $bible, $database, $args, $tt22=FALSE, $langspeed) {
+function AION_GLOSSARY_REFERENCES_PUT( $bible, $database, $args, $tt22, $langspeed) {
 	foreach($database['T_GLOSSARY_REFERENCES'] as $key => $verse) {
 		$BOOKX = array_search($verse['BOOK'], $args['database']['T_BOOKS']['CODE']);
 		$BOOKENGLISH = $args['database']['T_BOOKS']['ENGLISH'][$BOOKX];

@@ -14820,7 +14820,7 @@ function AION_BIBLES_RAWFIX_VERSIFY($bible, $args, $type, $bfile, &$noia) {
 			}
 			continue;
 		}
-		// switch on file types
+		// switch on file types HRT, VPL, UNB, B4U, SWD
 		if ($type=='VPL' || $type=='HRT') {
 			$notext = FALSE;
 			if (preg_match("/\t/", $line)) { AION_ECHO("ERROR! TAB in Source! ".$line); }
@@ -14864,6 +14864,22 @@ function AION_BIBLES_RAWFIX_VERSIFY($bible, $args, $type, $bfile, &$noia) {
 			$text = trim($parsed[$fields-1]);
 			AION_unset($parsed); $parsed=NULL; unset($parsed);
 			if (empty($text)) { continue; }
+		}
+		else if ($type=='B4U') {
+			if (preg_match("/\t/", $line)) {						AION_ECHO("ERROR! TAB in Source! ".$line); }
+			$matches = array();
+			if (!preg_match("/^([[:alnum:]]+)\.(\d+):(\d+)\s(.*)$/u", $line, $matches)) { continue; }
+			if (empty($matches[1])) {								AION_ECHO("ERROR! Bad SWORD verse book! $line"); }
+			if(!($book = array_search($matches[1],$args['b4u']))){AION_ECHO("ERROR! Bad B4U verse book search! $line"); }
+			$numb = sprintf('%03d', (int)array_search($book,array_keys($args['bibles'])));
+			if (!(int)$numb) {										AION_ECHO("ERROR! Bad bible book name! $book $numb $line"); }
+			$chap = sprintf('%03d', (int)$matches[2]);
+			$vers = sprintf('%03d', (int)$matches[3]);
+			$text = trim($matches[4]);
+			if (!(int)$chap || !(int)$vers) {						continue; }
+		}
+		else {
+			AION_ECHO("ERROR! RAW FIX BIBLE TYPE MISSING! $type: ".$line);
 		}
 		// don't need apocryphal at all or skipped books
 		if ((int)$numb>66) { continue; }

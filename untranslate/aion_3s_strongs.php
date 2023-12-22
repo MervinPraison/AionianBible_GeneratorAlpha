@@ -1,4 +1,3 @@
-#!/usr/local/bin/php
 <?php
 require_once('./aion_common.php');
 use \ForceUTF8\Encoding;
@@ -993,7 +992,7 @@ Eng (Heb) Ref & Type	Hebrew	Transliteration	Translation	dStrongs	Grammar	Meaning
 		}
 		
 		// is there a value beyond valid fields, or word number not 5 digits? BOMB!
-		if (!empty(trim($match[17])) || !empty(trim($match[18])) || !empty(trim($match[19])) || !empty(trim($match[20])) || strlen($match[4])!=5) {
+		if (!empty(trim($match[17])) || !empty($match[18]) || !empty($match[19]) || !empty($match[20]) || strlen($match[4])!=5) {
 			AION_ECHO("ERROR! line=$count $newmess bad fields: $data");
 		}
 
@@ -1320,16 +1319,16 @@ function AION_NEWSTRONGS_GET($file, $begin, $end, $table, $keys, $required, $che
 	if ($begin && (!($contents=preg_replace("/^.*?$begin/us",$begin,$contents,-1,$count)) || $count!=1)) {		AION_ECHO("ERROR! $newmess no beginning='$begin' $count"); }
 	if ($end && (!($contents=preg_replace("/$end.*$/us","",$contents,-1,$count)) || $count!=1)) {	AION_ECHO("ERROR! $newmess no ending='$end' $count"); }
 	$contents = AION_NEWSTRONGS_GET_FIX($file, $contents, $result);
-	define($table, $table);
+	if (!defined($table)) { define($table, $table); }
 	$lines = mb_split("\n", $contents);
-	if (!is_array($result[$table])) { $result[$table] = array(); }
+	if (!isset($result[$table]) || !is_array($result[$table])) { $result[$table] = array(); }
 	$count_keys = count($keys);
 	$count_meta = 0;
 	$count = 0;
 	$previous = NULL;
 	foreach( $lines as $data ) {
 		++$count;
-		if ($data[0]=='#' || $data[0]=='$' || preg_match("#^\s*$#us",$data)) { continue; }
+		if (empty($data) || $data[0]=='#' || $data[0]=='$' || preg_match("#^\s*$#us",$data)) { continue; }
 		$line = $data;
 		$data = mb_split("\t", $data);
 		$count_data = count($data);
@@ -1468,7 +1467,10 @@ EOT;
 		$strongs = $line['STRONGS'];
 		if (!preg_match("#^[HG]{1}[0-9]{1,5}[A-Za-z]{0,1}$#u",$strongs)) { AION_ECHO("ERROR! $newmess bad strongs format\n".print_r($line,TRUE)); }
 		if (preg_match("#^H90[2-4]{1}[0-9]{1}$#ui",$x) && !preg_match("#H:#ui",$lines[$x]['MORPH'])) { $lines[$x]['MORPH'] = "H:".$lines[$x]['MORPH']; } // fix line morphhology
-		if (preg_match("#^".$line['WORD']."[,]*[ ]+(.+)$#ui",$line['DEF'],$match)) { $lines[$x]['DEF'] = $match[1]; } // fix if word same as def 1st word, then delete def first word
+		if (FALSE===($cleanword = preg_replace("#[()]+#ui"," ", $line['WORD']))) { AION_ECHO("ERROR! Problem cleaning word (WORD)\n".print_r($line,TRUE)); }
+		if (preg_match("#^".$cleanword."[,:;. ]*[ ]+(.+)$#ui",$line['DEF'],$match) && isset($match[1])) {  // fix if word same as def 1st word, then delete def first word
+			$lines[$x]['DEF'] = $match[1];
+		}
 		$lines[$x]['STRONGS'] = $line['STRONGS'] = substr($strongs,1); // wack off the first letter
 		
 		// fix morph
@@ -1798,7 +1800,7 @@ function AION_NEWSTRONGS_GET_INDEX_LEX($input, $output) {
 		if ($line[0]!="#" && $strongs!="STRONGS") {		
 			if (!preg_match("#^([\d]{1,5})([A-Za-z]{0,1})$#u", $strongs, $match)) {	AION_ECHO("ERROR! $newmess !preg_match(strongs=$strongs)"); }
 			if ($strongs != $match[1]) { // mark the bald strongs number with all the extensions!
-				$index[$match[1]] .= (empty($index[$match[1]]) ? $bytes : ','.$bytes );
+				$index[$match[1]] = (empty($index[$match[1]]) ? $bytes : $index[$match[1]].','.$bytes );
 			}
 			$index[$strongs] = $bytes;
 		}
@@ -2012,7 +2014,10 @@ function AION_NEWSTRONGS_FIX_VIZ($input,$what,$table,&$database,$osstrongs,$osst
 		);
 		*/
 		// build definition and error check
-		$definition = $osstrongs[$x]['strongs_def']."; ".$osstrongs[$x]['kjv_def']."; ".$osstrongs[$x]['derivation'];
+		$definition = trim(
+			(empty($osstrongs[$x]['strongs_def'])	? '' : $osstrongs[$x]['strongs_def']."; ").
+			(empty($osstrongs[$x]['kjv_def'])		? '' : $osstrongs[$x]['kjv_def']."; ").
+			(empty($osstrongs[$x]['derivation'])	? '' : $osstrongs[$x]['derivation']), " ;:,");
 		if (!($definition = preg_replace("#([GH]{1})[0]*([\d]+)#ui", '$1$2', $definition))) { AION_ECHO("ERROR! Strongs = $x Problem stripping zeros"); }
 		if (FALSE===preg_match_all("#([GH]{1}[\d]+)#ui", $definition, $match, PREG_PATTERN_ORDER)) { AION_ECHO("ERROR! Strongs = $x Problem finding strong numbers in definition"); }
 		if (!empty($match[0]) && is_array($match[0])) {
@@ -2510,7 +2515,7 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 				$strongs_counts[$snum] = $occurdig;
 				if ($occurdig < 1 || $occurdig > 26) { AION_ECHO("ERROR! $newmess occurmap not found!\n".print_r($line,TRUE)); } // what, where is the map?
 				$occur = $occurdig;
-				if (ctype_lower($match_num[2][$foundit])) { $occur *= -1; }
+				if (ctype_lower($match[1])) { $occur *= -1; }
 				$instance = "{$snum}_{$match[1]}";
 			}
 			// strongs not found in instance so reset instance
@@ -3321,11 +3326,11 @@ function AION_NEWSTRONGS_COUNT_REF($references, $output) {
 			$sext = $match[7];
 			// mark the strong number, even without the extension
 			$book_array[$snum] = $chap_array[$snum] = TRUE;
-			$vers_array[$snum] += 1;
+			$vers_array[$snum] = (empty($vers_array[$snum]) ? 1 : $vers_array[$snum]+1);
 			// also mark the extension
 			if (!empty($sext)) {
 				$book_array[$snum.$sext] = $chap_array[$snum.$sext] = TRUE;
-				$vers_array[$snum.$sext] += 1;
+				$vers_array[$snum.$sext] = (empty($vers_array[$snum.$sext]) ? 1 : $vers_array[$snum.$sext]+1);
 			}
 		}
 		// counts
@@ -3599,7 +3604,7 @@ function AION_NEWSTRONGS_USAGE_REF_CHECKER($index_file, $usage_file) {
 
 // Count all strongs references in raw file and also the count file and compare!
 function AION_NEWSTRONGS_COUNT_REF_CHECKER($countsF, $source1, $begin1, $end1, $source2, $begin2, $end2, $source3, $begin3, $end3, $source4, $begin4, $end4, $file, $save, $letter) {
-	$newmess = "COUNT_REF_CHECKER $counts";
+	$newmess = "COUNT_REF_CHECKER $countsF";
 	// read data
 	$counts = json_decode(file_get_contents($countsF), true);
 	if (empty($counts)) {																						AION_ECHO("ERROR! $newmess !json_decode($countsF)"); }
@@ -3763,7 +3768,7 @@ function AION_NEWSTRONGS_CSV($file, $delim, $table, $keys, $key, &$result, $chec
 	if (($kcount=count($sample)) != count($keys)) {								AION_ECHO("ERROR! $newmess key count problem ".count($sample)." ".count($keys)); }
 	mb_regex_encoding("UTF-8");
 	mb_internal_encoding("UTF-8");
-	define($table, $table);
+	if (!defined($table)) { define($table, $table); }
 	$result[$table] = array();
 	$count=0;
 	while (($row = fgetcsv($handle, 3000, $delim)) !== FALSE) {
@@ -3802,7 +3807,7 @@ function AION_NEWSTRONGS_COD($file, $table, &$result, $defaultmorph=FALSE) {
 	if ( mb_detect_encoding($line, "UTF-8", true) === FALSE ) {		AION_ECHO("ERROR! $newmess !mb_detect_encoding()"); }
 	mb_regex_encoding("UTF-8");
 	mb_internal_encoding("UTF-8");
-	define($table, $table);
+	if (!defined($table)) { define($table, $table); }
 	$result[$table] = array();
 	$blockcount = 0;
 	$morph = '';
@@ -4004,7 +4009,7 @@ EOF;
 			'׆' => 'section',		// H9019
 		*/
 		if ($amal=="[׆]" || $amal=="[׃]" || $amal=="[ס]" || $amal=="[פ]") {	$fullstop = TRUE; }
-		else if ($fullstop && preg_match("#^[[:alpha:]]{1}#",$amal[0])) {	$fullstop = FALSE; $amal[0] = mb_strtoupper($amal[0]); }
+		else if ($fullstop && isset($amal[0]) && preg_match("#^[[:alpha:]]{1}#",$amal[0])) {	$fullstop = FALSE; $amal[0] = mb_strtoupper($amal[0]); }
 		// lexicon entry
 		$orig = $strg;
 		if ((empty($index[$strg]) || fseek($fd, $index[$strg]) || !($entry=fgets($fd)) || !preg_match("#^$strg\t#u",$entry)) &&
@@ -4056,7 +4061,7 @@ EOF;
 		if (NULL===($amal = preg_replace("#<[^<>]+>#usi","",$amal))) { AION_ECHO("ERROR! $newmess !preg_replace($amal)"); }
 		// lexicon entry
 		$orig = $strg;
-		if ((empty($index[$strg]) || fseek($fd, $index[$strg]) || !($entry=fgets($fd)) || !preg_match("#^$strg\t#u",$entry)) &&
+		if ((empty($index[$strg]) || fseek($fd, (int)$index[$strg]) || !($entry=fgets($fd)) || !preg_match("#^$strg\t#u",$entry)) &&
 			(empty($index[($strg = $orig.'A')]) || fseek($fd, $index[$strg]) || !($entry=fgets($fd)) || !preg_match("#^$strg\t#u",$entry)) &&
 			(empty($index[($strg = $orig.'G')]) || fseek($fd, $index[$strg]) || !($entry=fgets($fd)) || !preg_match("#^$strg\t#u",$entry))) {
 			AION_ECHO("ERROR! $newmess dex lex not found, index=".$index[$strg].": $line, $entry");

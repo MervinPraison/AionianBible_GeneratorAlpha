@@ -1,0 +1,48 @@
+KeepAlive On
+MaxKeepAliveRequests 150
+KeepAliveTimeout 2
+<IfModule prefork.c>
+    StartServers 10
+    ServerLimit 100
+    MinSpareServers 10
+    MaxSpareServers 20
+    MaxClients 100
+    MaxRequestsPerChild 800
+</IfModule>
+<IfModule worker.c>
+    ServerLimit 4
+    StartServers 2
+    MinSpareThreads 25
+    MaxSpareThreads 75
+    ThreadsPerChild 25
+    MaxClients 100
+    MaxRequestsPerChild 800
+</IfModule>
+<IfModule event.c>
+    ServerLimit 4
+    StartServers 2
+    MinSpareThreads 25
+    MaxSpareThreads 100
+    ThreadsPerChild 25
+    MaxRequestWorkers 100
+    MaxRequestsPerChild 10000
+</IfModule>
+<IfModule mod_fcgid.c>
+    FcgidMaxRequestLen 1073741824
+    FcgidOutputBufferSize 1073741824
+    FcgidMinProcessesPerClass 0
+    FcgidMaxRequestsPerProcess 0
+    FcgidInitialEnv PHP_FCGI_MAX_REQUESTS 0
+    FcgidInitialEnv PHP_FCGI_CHILDREN 0
+    FcgidMaxProcesses 320
+    FcgidMaxProcessesPerClass 310
+    FcgidFixPathinfo 1
+    FcgidIdleTimeout 3
+    FcgidBusyTimeout 300
+    FcgidProcessLifeTime 300
+    FcgidIOTimeout 300
+    FcgidIdleScanInterval 1
+    FcgidErrorScanInterval 1
+    FcgidZombieScanInterval 1
+</IfModule>
+Timeout 50

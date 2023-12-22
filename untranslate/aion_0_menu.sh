@@ -60,7 +60,7 @@ if ((!$compare2 && $choice!='0')) {	AION_ECHO("ERROR! PLEASE APPROVE NEW VERSION
 /*** re-version or execute ***/
 if ($choice=='000') {
 	//$result = AION_VERSION_PUT(VERSION.'.ALL', '..', $live_version_all);
-	AION_VERSION_PUT(VERSION, '.', $live_version);
+	$result = AION_VERSION_PUT(VERSION, '.', $live_version);
 }
 else if ($choice=='6w') {
 	/*** run the comment ***/

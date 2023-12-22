@@ -94,12 +94,12 @@ function AION_FILE_DATA_GET( $file, $table, &$result, $key, $flip ) {
 	if ( !is_file( $file ) ) {										AION_ECHO('ERROR! AION_FILE_DATA_GET is_file() '.$file); }
 	if ( ($contents = file_get_contents( $file )) === FALSE ) {		AION_ECHO('ERROR! AION_FILE_DATA_GET file_get_contents() '.$file); }
 	if ( mb_detect_encoding($contents, "UTF-8", true) === FALSE ) {	AION_ECHO('ERROR! AION_FILE_DATA_GET mb_detect_encoding() '.$file); }
-	define($table, $table);
+	if (!defined($table)) { define($table, $table); }
 	mb_regex_encoding("UTF-8");
 	mb_internal_encoding("UTF-8");
 	$lines = mb_split( '[\r\n]', $contents );
 	while( ($meta = mb_split( '\t', ($thisline=array_shift($lines)))) && (empty($thisline) || $meta[0][0]=='#') ) ;
-	foreach( $meta as $meti ) { define('C_'.$meti, $meti); }
+	foreach( $meta as $meti ) { if (!defined('C_'.$meti)) { define('C_'.$meti, $meti); } }
 	$count_meta = count($meta);
 	if ( $key!==FALSE ) {
 		if (is_array($key)) {	$tmp=array(); foreach($key as $kid) { for($x=0; $x<$count_meta; $x++) { if ((is_numeric($kid) && $kid==$x) || $kid==$meta[$x]) { $tmp[]=$x; break; } } } $key=(count($tmp) ? $tmp : FALSE ); }
@@ -357,7 +357,7 @@ function AION_FILE_DATABASE_BOOKS( &$database ) {
 	if ( !isset($database[T_BOOKS]['CODE']) ) {						AION_ECHO('ERROR! AION_FILE_DATABASE_BOOKS !is_array($database) NO BOOK CODE!'); }
 	if ( !isset($database[T_BOOKS]['CHAPTERS']) ) {					AION_ECHO('ERROR! AION_FILE_DATABASE_BOOKS !is_array($database) NO BOOK CHAPTERS!'); }
 	if ( !isset($database[T_BOOKS]['ENGLISH']) ) {					AION_ECHO('ERROR! AION_FILE_DATABASE_BOOKS !is_array($database) NO BOOK ENGLISH!'); }
-	define('T_BOOKSY','T_BOOKSY');
+	if (!defined('T_BOOKSY')) { define('T_BOOKSY','T_BOOKSY'); }
 	$database[T_BOOKSY] = array();
 	foreach( $database[T_BOOKS]['NUMBER'] as $url => $book) {
 		$database[T_BOOKSY][$database[T_BOOKS]['NUMBER'][$url]] =  $url;
@@ -425,7 +425,7 @@ function AION_LOOP_DIFF($folder_original, $folder_modified, $folder_difference, 
 		'flags'		=> $flags,
 		) );
 	system("cat ".$folder_difference."/*.diff > ".$folder_difference."/AMASTER.".preg_replace('/[\/.]+/','',$folder_difference));
-	system('(echo "Subject: AIONIAN ENGINE SOURCE DIFF: '. $commands[$choice] . '"; echo; echo AMASTER.DIFF; ls -ail ' . $folder_difference . ';) | /usr/lib/sendmail escribes@aionianbible.org;');
+	system('(echo "Subject: AIONIAN ENGINE SOURCE DIFF:"; echo; echo AMASTER.DIFF; ls -ail ' . $folder_difference . ';) | /usr/lib/sendmail escribes@aionianbible.org;');
 }
 function AION_LOOP_DIFF_DOIT($args) {
 	if (empty($args['compare']) || !is_dir($args['compare'])) {		AION_ECHO("ERROR! No compare directory!"); }
@@ -3466,13 +3466,13 @@ function AION_LOOP_HTMS_DOIT($args) {
 	$FIXED = 0;
 	foreach($args['database']['T_RAWCHECK'] as $verse) {
 		if($verse['BIBLE'] != $bible) { continue; }
-		$disp_indx = ($verse['INDEX']	== $prev['INDEX']	? '' : $verse['INDEX']);
+		$disp_indx = ($prev && $verse['INDEX']	== $prev['INDEX']	? '' : $verse['INDEX']);
 		$keys_book = $verse['BOOK'];
-		$disp_book = ($verse['BOOK']	== $prev['BOOK']	? '' : $verse['BOOK']);
+		$disp_book = ($prev && $verse['BOOK']	== $prev['BOOK']	? '' : $verse['BOOK']);
 		$disp_link = "<a href='/Bibles/$biblename/".array_search($verse['BOOK'],$args['database']['T_BOOKS']['CODE'])."/".(int)$verse['CHAPTER']."/parallel-English---King-James-Version' target='_blank'>".$verse['CHAPTER']."</a>";
 		$disp_link .= " <a href='https://translate.google.com/translate?".$lang2."&tl=en&u=http%3A%2F%2Fstage.aionianbible.org/Bibles/$biblename/".array_search($verse['BOOK'],$args['database']['T_BOOKS']['CODE'])."/".(int)$verse['CHAPTER']."/parallel-English---King-James-Version' target='_blank'>G</a>";
 		$keys_chap = $verse['CHAPTER'];
-		$disp_chap = ($verse['CHAPTER']	== $prev['CHAPTER']	? '' : $disp_link);
+		$disp_chap = ($prev && $verse['CHAPTER']	== $prev['CHAPTER']	? '' : $disp_link);
 		$disp_vers = $verse['VERSE'];
 		$disp_vbef = ($disp_vers > 1 ? sprintf('%03d', (int)$disp_vers-1) : 'XXX');
 		$disp_vaft = sprintf('%03d', (int)$disp_vers+1);
@@ -3525,13 +3525,13 @@ function AION_LOOP_HTMS_DOIT($args) {
 	$NOTFIXED = 0;
 	foreach($args['database']['T_BOOKSCHAPTERS'] as $verse) {
 		if($verse['BIBLE'] != $bible) { continue; }
-		$disp_indx = ($verse['INDEX']	== $prev['INDEX']	? '' : $verse['INDEX']);
+		$disp_indx = ($prev && $verse['INDEX']	== $prev['INDEX']	? '' : $verse['INDEX']);
 		$keys_book = $verse['BOOK'];
-		$disp_book = ($verse['BOOK']	== $prev['BOOK']	? '' : $verse['BOOK']);
+		$disp_book = ($prev && $verse['BOOK']	== $prev['BOOK']	? '' : $verse['BOOK']);
 		$disp_link = "<a href='/Bibles/$biblename/".array_search($verse['BOOK'],$args['database']['T_BOOKS']['CODE'])."/".(int)$verse['CHAPTER']."/parallel-English---King-James-Version' target='_blank'>".$verse['CHAPTER']."</a>";
 		$disp_link .= " <a href='https://translate.google.com/translate?".$lang2."&tl=en&u=http%3A%2F%2Fstage.aionianbible.org/Bibles/$biblename/".array_search($verse['BOOK'],$args['database']['T_BOOKS']['CODE'])."/".(int)$verse['CHAPTER']."/parallel-English---King-James-Version' target='_blank'>G</a>";
 		$keys_chap = $verse['CHAPTER'];
-		$disp_chap = ($verse['CHAPTER']	== $prev['CHAPTER']	? '' : $disp_link);
+		$disp_chap = ($prev && $verse['CHAPTER']	== $prev['CHAPTER']	? '' : $disp_link);
 		$disp_vers = $verse['VERSE'];
 		$disp_vbef = ($disp_vers > 1 ? sprintf('%03d', (int)$disp_vers-1) : 'XXX');
 		$disp_vaft = sprintf('%03d', (int)$disp_vers+1);
@@ -3551,7 +3551,7 @@ function AION_LOOP_HTMS_DOIT($args) {
 		}
 		// current
 		$key = $keys_book.'-'.$keys_chap.'-'.$disp_vers;
-		$disp_text = $database['T_BIBLE'][$key]['TEXT'];
+		$disp_text = (isset($database['T_BIBLE'][$key]['TEXT']) ? $database['T_BIBLE'][$key]['TEXT']: "VERSE TEXT NOT FOUND FOR $key");
 		$htm .= "<tr $lang><td>$disp_indx</td><td>$disp_book</td><td>$disp_chap</td><td>$disp_vers</td><td>$disp_flag</td><td>$disp_text</td></tr>\n";
 		$disp_text = (empty($args['database']['T_BOOKSSTANDARD'][$key]) ? '' : $args['database']['T_BOOKSSTANDARD'][$key]['TEXT']);
 		$htm .= "<tr class='notranslate'><td></td><td></td><td></td><td></td><td></td><td class='notranslate'>$disp_text</td></tr>\n";
@@ -3578,13 +3578,13 @@ function AION_LOOP_HTMS_DOIT($args) {
 	$CUSTO = 0;
 	foreach($args['database']['T_UNTRANSLATECUSTOM'] as $verse) {
 		if($verse['BIBLE'] != $bible || empty($verse['INDEX'])) { continue; }
-		$disp_indx = ($verse['INDEX']	== $prev['INDEX']	? '' : $verse['INDEX']);
+		$disp_indx = ($prev && $verse['INDEX']	== $prev['INDEX']	? '' : $verse['INDEX']);
 		$keys_book = $verse['BOOK'];
-		$disp_book = ($verse['BOOK']	== $prev['BOOK']	? '' : $verse['BOOK']);
+		$disp_book = ($prev && $verse['BOOK']	== $prev['BOOK']	? '' : $verse['BOOK']);
 		$disp_link = "<a href='/Bibles/$biblename/".array_search($verse['BOOK'],$args['database']['T_BOOKS']['CODE'])."/".(int)$verse['CHAPTER']."/parallel-English---King-James-Version' target='_blank'>".$verse['CHAPTER']."</a>";
 		$disp_link .= " <a href='https://translate.google.com/translate?".$lang2."&tl=en&u=http%3A%2F%2Fstage.aionianbible.org/Bibles/$biblename/".array_search($verse['BOOK'],$args['database']['T_BOOKS']['CODE'])."/".(int)$verse['CHAPTER']."/parallel-English---King-James-Version' target='_blank'>G</a>";
 		$keys_chap = $verse['CHAPTER'];
-		$disp_chap = ($verse['CHAPTER']	== $prev['CHAPTER']	? '' : $disp_link);
+		$disp_chap = ($prev && $verse['CHAPTER']	== $prev['CHAPTER']	? '' : $disp_link);
 		$disp_vers = $verse['VERSE'];
 		$disp_vbef = ($disp_vers > 1 ? sprintf('%03d', (int)$disp_vers-1) : 'XXX');
 		$disp_vaft = sprintf('%03d', (int)$disp_vers+1);
@@ -3604,7 +3604,7 @@ function AION_LOOP_HTMS_DOIT($args) {
 		}
 		// current
 		$key = $keys_book.'-'.$keys_chap.'-'.$disp_vers;
-		$disp_text = $database['T_BIBLE'][$key]['TEXT'];
+		$disp_text = (isset($database['T_BIBLE'][$key]['TEXT']) ? $database['T_BIBLE'][$key]['TEXT']: "VERSE TEXT NOT FOUND FOR $key");
 		$htm .= "<tr $lang><td>$disp_indx</td><td>$disp_book</td><td>$disp_chap</td><td>$disp_vers</td><td>$disp_flag</td><td>$disp_text</td></tr>\n";
 		$disp_text = (empty($args['database']['T_BOOKSSTANDARD'][$key]) ? '' : $args['database']['T_BOOKSSTANDARD'][$key]['TEXT']);
 		$htm .= "<tr class='notranslate'><td></td><td></td><td></td><td></td><td></td><td class='notranslate'>$disp_text</td></tr>\n";
@@ -3646,7 +3646,8 @@ function AION_LOOP_HTMS_DOIT($args) {
 		if (empty($args['database']['T_BOOKSSTANDARD'][$verse['BOOK']."-".$verse['CHAPTER']."-".$verse['VERSE']])) { $extra = 1; ++$VERS_EX; }
 		if ("Holy-Bible---English---Aionian-Bible"==$bible && !$islong) {
 			$long_len = mb_strlen($verse['TEXT']);
-			$long_len2 = mb_strlen($args['database']['T_ABCOMPAREBIBLE'][$verse['BOOK']."-".$verse['CHAPTER']."-".$verse['VERSE']]['TEXT']);
+			$tempref = $verse['BOOK']."-".$verse['CHAPTER']."-".$verse['VERSE'];
+			$long_len2 = mb_strlen((isset($args['database']['T_ABCOMPAREBIBLE'][$tempref]['TEXT']) ? $args['database']['T_ABCOMPAREBIBLE'][$tempref]['TEXT'] : "VERSE TEXT NOT FOUND FOR $tempref"));
 			//if ($long_len > ($long_len2 * 1.3)) { $islong = TRUE; ++$LONG; $aalong = "LONG-".(int)(($long_len/$long_len2)*100); }
 			if ($long_len - $long_len2 > 40) { $islong = TRUE; ++$LONG; $aalong = "LONG-".(int)($long_len - $long_len2); }
 		}
@@ -3716,7 +3717,7 @@ function AION_LOOP_HTMS_DOIT($args) {
 				$disp_book = "<a href='/Bibles/$biblename/".array_search($verse['BOOK'],$args['database']['T_BOOKS']['CODE'])."/".(int)$disp_chap."/parallel-English---King-James-Version' target='_blank'>".$verse['BOOK']."</a>";
 				$disp_book .= " <a href='https://translate.google.com/translate?".$lang2."&tl=en&u=http%3A%2F%2Fstage.aionianbible.org/Bibles/$biblename/".array_search($verse['BOOK'],$args['database']['T_BOOKS']['CODE'])."/".(int)$disp_chap."/parallel-English---King-James-Version' target='_blank'>G</a>";
 				if ($yohebrew) {
-					$current_last = 0;
+					$current_last = $strike = 0;
 					for($x=1; $x<=177; ++$x) { if (empty($database['T_BIBLE'][$verse['BOOK']."-".$verse['CHAPTER']."-".sprintf('%03d', (int)$x)])) { if (++$strike>17) { break; } } else { $current_last = $x; } }
 				}
 			}
@@ -3742,7 +3743,8 @@ function AION_LOOP_HTMS_DOIT($args) {
 			$disp_text = $verse['TEXT'];
 			$htm .= "<tr><td>$aalong</td><td></td><td></td><td></td><td></td></tr>\n";
 			$htm .= "<tr $lang><td>$disp_indx</td><td>$disp_book</td><td>$disp_chap</td><td>$disp_vers</td><td>$disp_text</td></tr>\n";
-			$htm .= "<tr class='notranslate'><td></td><td></td><td></td><td>KJV</td><td class='notranslate'>".$args['database']['T_ABCOMPAREBIBLE'][$verse['BOOK']."-".$verse['CHAPTER']."-".$verse['VERSE']]['TEXT']."</td></tr>\n";
+			$tempref = $verse['BOOK']."-".$verse['CHAPTER']."-".$verse['VERSE'];
+			$htm .= "<tr class='notranslate'><td></td><td></td><td></td><td>KJV</td><td class='notranslate'>".(isset($args['database']['T_ABCOMPAREBIBLE'][$tempref]['TEXT']) ? $args['database']['T_ABCOMPAREBIBLE'][$tempref]['TEXT'] : "VERSE TEXT NOT FOUND FOR $tempref")."</td></tr>\n";
 		}
 		// mark this last verse accessed
 		$verse_last = $verse;
@@ -4467,7 +4469,7 @@ function AION_LOOP_CHECK_UNTRANSLATE_MODULE_DOIT($args) {
 		$output['UNTRANSLATE']	= (isset($args['database'][T_UNTRANSLATE][$vref]['WORD']) ? $gotone=trim($args['database'][T_UNTRANSLATE][$vref]['WORD']) : '');
 		$output['MATCH']		= NULL;
 		$output['TEXT']			= NULL;
-		$output['STANDARD']		= $args['database'][T_BOOKSSTANDARD][$vref]['TEXT'];
+		$output['STANDARD']		= (isset($args['database'][T_BOOKSSTANDARD][$vref]['TEXT']) ? $args['database'][T_BOOKSSTANDARD][$vref]['TEXT'] : "VERSE TEXT NOT FOUND FOR $vref");
 		/* custom */
 		if (isset($args['database'][T_UNTRANSLATECUSTOM][$bible.'-'.$vref]['WORD'])) {
 			$gotone					= TRUE;
@@ -4593,8 +4595,8 @@ function AION_HEART(&$text,$nospace,$greek,$words,&$match,&$gotone,&$replacement
 	force the test below to be false to append the note to the end of the verse, otherwise
 	the logic will attempt to place the note next to the word.
 	*/
+	$matches_total = 0;
 	if (FALSE && is_array($words)) {
-		$matches_total = 0;
 		$word_found = NULL;
 		foreach($words as $word) {
 			if (empty($word)) { continue; }
@@ -5247,8 +5249,8 @@ function AION_LOOP_NUMBERSHOT_DOIT($args) {
 	}
 	// search for numbers
 	for($x=1; $x<=$cnum; ++$x) {
-		if (!preg_match(($search="/id=\"".$chap .$x."\">(.+)&#/ui"),$content,$matches,PREG_OFFSET_CAPTURE,$offset) &&
-			!preg_match(($search="/id=\"".$chap2.$x."\">(.+)&#/ui"),$content,$matches,PREG_OFFSET_CAPTURE,$offset)) {
+		if (!preg_match(($search="/id=\"".$chap .$x."\">(.+)&#/ui"),$content,$matches,PREG_OFFSET_CAPTURE) &&
+			!preg_match(($search="/id=\"".$chap2.$x."\">(.+)&#/ui"),$content,$matches,PREG_OFFSET_CAPTURE)) {
 			AION_ECHO("WARN! NUMBER NOT FOUND search=$search ".$filepath);
 			continue;
 		}

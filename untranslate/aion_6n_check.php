@@ -1,4 +1,3 @@
-#!/usr/local/bin/php
 <?php
 
 /*** init ***/
@@ -162,7 +161,6 @@ function AION_LOOP_ANALYSIS_DOIT($args) {
 			++$missingbook2;
 			continue;
 		}
-		++$count;
 		$key1 = preg_replace('/-\d\d\d$/us','-001',$key);
 		if (empty($database['T_BIBLE'][$key1])) {
 			$analysis .= "$short	AIONIAN	Aionian	missing-chapter	$key1	ERROR\n";
