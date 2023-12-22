@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 489266      
-# File Date: 12/22/2023 12:14:14
+# File Size: 489260      
+# File Date: 12/22/2023 16:50:31
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2023
@@ -594,7 +594,7 @@ Holy-Bible---English---STEPBible-Amalgamant	JOH-003-016	John 3:16	Thus for loved
 Holy-Bible---English---STEPBible-Amalgamant	GEN-003-024	Genesis 3:24	And he drove out the man and he caused to dwell from east of [the] garden of Eden the cherubim and [the] flame of the sword whirling to guard [the] way of [the] tree of life.
 Holy-Bible---English---STEPBible-Amalgamant	LUK-023-034	Luke 23:34	And Jesus was saying; Father, do forgive them; not for they know what they do. Dividing then the garments of Him they cast (lots. *NK+o)
 Holy-Bible---English---STEPBible-Amalgamant	REV-021-002	Revelation 21:2-3	And (I myself John *K) the city holy Jerusalem new I saw coming down out of heaven from God prepared as a bride adorned for the husband of her. And I heard a voice great from the (throne *N+KO) saying: Behold the tabernacle of God [is] with men, and He will tabernacle with them. and they themselves (peoples *NK+o) of Him will be, and Himself God with them will be [as] their God.
-Holy-Bible---English---STEPBible-Amalgamant	HEB-011-008	Hebrews 11:8	By faith (the [one] *o) being called Abraham obeyed to go out into ( *k) a place that he was going to receive for an inheritance and went out not knowing where he is going.
+Holy-Bible---English---STEPBible-Amalgamant	HEB-011-008	Hebrews 11:8	By faith (the [one] *o) being called Abraham obeyed to go out into a place that he was going to receive for an inheritance and went out not knowing where he is going.
 Holy-Bible---English---STEPBible-Amalgamant	EXO-013-017	Exodus 13:17	And it was when let go Pharaoh the people and not he led them God [the] way of [the] land of [the] Philistines for [was] near it for - he said God lest it should regret the people when see they battle and they will return Egypt towards.
 Holy-Bible---English---STEPBible-Amalgamant	MAR-010-045	Mark 10:45	Even for the Son of Man not came to be served but to serve and to give the life of Him [as] a ransom for many.
 Holy-Bible---English---STEPBible-Amalgamant	ROM-001-001	Romans 1:1	Paul a servant of Christ Jesus a called apostle set apart for [the] gospel of God,

@@ -19,21 +19,21 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 	AION_LOOP( array(
 		'function'	=> 'AION_LOOP_PDF_POD_DOIT',
 		'source'	=> $source,
-		'q_onebook'	=> TRUE,	// TRUE = only do first bible book, otherwise all
+		'q_onebook'	=> FALSE,	// TRUE = only do first bible book, otherwise all
 		'q_rtlhuh'	=> 'ALL',	// 'RTL' = RTL only,  'RTLNO' = Skip RTL, 'ALL' = all
 		'q_allall'	=> TRUE,	// TRUE = do all bibles not marked FALSE -OR- FALSE = do all bibles marked TRUE
-		'q_pdfall'	=> FALSE,	// TRUE = do ALL PDFs
+		'q_pdfall'	=> TRUE,	// TRUE = do ALL PDFs
 		'q_pdfpo'	=> FALSE,	// TRUE = do KDP PDFs
 		'q_pdfnt'	=> FALSE,	// TRUE = do KDP NT PDFs
 		'q_pdflu'	=> FALSE,	// TRUE = do LULU PDFs
 		'q_pdfon'	=> FALSE,	// TRUE = do Online PDFs
-		'q_pdfoo'	=> TRUE,	// TRUE = do One Online PDFs
+		'q_pdfoo'	=> FALSE,	// TRUE = do One Online PDFs
 		'q_epubc'	=> TRUE,	// TRUE = do ePub covers
 		//'include'	=> "/Holy-Bible---([G-Z]+.*)---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Modern-Hebrew-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Portuguese-Trans-Trans).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(English---Trans-Trans).*---Aionian-Edition\.noia$/",
-		'include'	=> "/Holy-Bible---.*(STEP).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(STEP).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Traditional|Aionian-Bible|Oriya|Vietnamese).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aleppo|Scots).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic|Kannada|Myanmar|Oriya|Persian).*---Aionian-Edition\.noia$/",
@@ -57,7 +57,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Polish-Updated-Gdansk).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Tongan|Turkish|[UV]+).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
-		//'include'	=> "/---Aionian-Edition\.noia$/",
+		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		) );
