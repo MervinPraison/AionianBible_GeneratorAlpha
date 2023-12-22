@@ -4115,6 +4115,7 @@ EOF;
 	// concordant
 	if (!($bibledata_con=preg_replace("#obj\.#ui", "obj", $bibledata_con))) {				AION_ECHO("ERROR! $newmess: preg_replace(obj[.]*)"); }
 	// both
+	if (!($bibledata_ama=preg_replace("#\(\s+\*[+NKO]+\)#ui", " ", $bibledata_ama))) {		AION_ECHO("ERROR! $newmess: preg_replace(\(\s+\*[+NKO]+\))"); }
 	if (!($bibledata_ama=preg_replace("#[ ]+#ui", " ", $bibledata_ama))) {					AION_ECHO("ERROR! $newmess: preg_replace([ ]+)"); }
 	if (!($bibledata_con=preg_replace("#[ ]+#ui", " ", $bibledata_con))) {					AION_ECHO("ERROR! $newmess: preg_replace([ ]+)"); }	
 	
