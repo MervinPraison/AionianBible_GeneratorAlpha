@@ -56,6 +56,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Ogienko).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Polish-Updated-Gdansk).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Tongan|Turkish|[UV]+).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---English---Catholic-Public-Domain---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
 		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
@@ -1026,6 +1027,10 @@ if (($format=="READ" || $format=="STUDY")) {
 	$PIX_OLD			= 'PIX-OLD-web.jpg';
 	$PIX_TIMEA			= 'MAP-TIME-WEB-A.pdf';	
 	$PIX_TIMEB			= 'MAP-TIME-WEB-B.pdf';
+	$PIX_TIME1			= 'MAP-TIME-1.jpg'; // unused, but assigned to something	
+	$PIX_TIME2			= 'MAP-TIME-2.jpg'; // unused, but assigned to something
+	$PIX_TIME3			= 'MAP-TIME-3.jpg';	// unused, but assigned to something
+	$PIX_TIME4			= 'MAP-TIME-4.jpg'; // unused, but assigned to something
 }
 else {
 	$PIX_COVER			= 'COVER.jpg';
@@ -1047,6 +1052,8 @@ else {
 		$PIX_TIME3		= 'MAP-TIME-4.jpg';	
 		$PIX_TIME4		= 'MAP-TIME-3.jpg';
 	}
+	$PIX_TIMEA			= 'MAP-TIME-WEB-A.pdf';	// unused, but assigned to something
+	$PIX_TIMEB			= 'MAP-TIME-WEB-B.pdf'; // unused, but assigned to something
 }
 // page
 $PAGE_WIDTH					= '6in';
@@ -1113,6 +1120,8 @@ else if ($format=="STUDY") {
 	$MARGIN_LEFT_LEFT		= '1in';		$MARGIN_LEFT_RIGHT		= '1in';		$MARGIN_LEFT_TOP		= '1in';		$MARGIN_LEFT_BOTTOM		= '1in';
 	$COLUMN_LEFT_COLUMN		= '1';			$COLUMN_LEFT_WIDTH		= '56';			$COLUMN_LEFT_HEIGHT		= '140';
 	$BOTTOM_ROW				= '142';		$BOTTOM_WIDTH			= '50';			$BOTTOM_CENTER			= '51';
+	$COLUMN_RIGHT_COLUMN	= '46';			$COLUMN_RIGHT_WIDTH		= '43';			$COLUMN_RIGHT_HEIGHT	= '132'; // unused but defined
+	$BOTTOM_RIGHT_RIGHT		= '47'; // unused but defined
 }
 else if ($rtl=='TRUE') { // margins flipped
 	$MARGIN_SINGLE_INSIDE	= '0.875in';
@@ -1790,7 +1799,6 @@ function AION_LOOP_PDF_POD_LAYOUT_EPUB($versions,$forprint,$default,$newtonly,$f
 $language	= trim(!empty($forprint['LANGUAGE'])	? $forprint['LANGUAGE']		: $default['LANGUAGE']		);
 $langspeed	= trim(!empty($forprint['LANGSPEED'])	? "language='".$forprint['LANGSPEED']."'"	: ""		);
 $yesnew		= trim(!empty($forprint['YESNEW'])		? $forprint['YESNEW']		: $default['YESNEW']		);
-$margin		= trim(!empty($forprint['MARGIN'])		? $forprint['MARGIN']		: $default['MARGIN']		);
 $rtl		= trim(!empty($forprint['RTL'])			? $forprint['RTL']			: $default['RTL']			);
 $hyphen		= trim(!empty($forprint['HYPHEN'])		? $forprint['HYPHEN']		: $default['HYPHEN']		);
 $font		= trim(!empty($forprint['FONT'])		? $forprint['FONT']			: $default['FONT']			);
@@ -1917,7 +1925,6 @@ global $speedata_version;
 $language	= trim(!empty($forprint['LANGUAGE'])	? $forprint['LANGUAGE']		: $default['LANGUAGE']		);
 $langspeed	= trim(!empty($forprint['LANGSPEED'])	? "language='".$forprint['LANGSPEED']."'"	: ""		);
 $yesnew		= trim(!empty($forprint['YESNEW'])		? $forprint['YESNEW']		: $default['YESNEW']		);
-$margin		= trim(!empty($forprint['MARGIN'])		? $forprint['MARGIN']		: $default['MARGIN']		);
 $rtl		= trim(!empty($forprint['RTL'])			? $forprint['RTL']			: $default['RTL']			);
 $hyphen		= trim(!empty($forprint['HYPHEN'])		? $forprint['HYPHEN']		: $default['HYPHEN']		);
 $font		= trim(!empty($forprint['FONT'])		? $forprint['FONT']			: $default['FONT']			);
@@ -2067,7 +2074,6 @@ $bible		= $forprint['BIBLE'];
 $language	= trim(!empty($forprint['LANGUAGE'])	? $forprint['LANGUAGE']		: $default['LANGUAGE']		);
 $langspeed	= trim(!empty($forprint['LANGSPEED'])	? "language='".$forprint['LANGSPEED']."'"	: ""		);
 $yesnew		= trim(!empty($forprint['YESNEW'])		? $forprint['YESNEW']		: $default['YESNEW']		);
-$margin		= trim(!empty($forprint['MARGIN'])		? $forprint['MARGIN']		: $default['MARGIN']		);
 $rtl		= trim(!empty($forprint['RTL'])			? $forprint['RTL']			: $default['RTL']			);
 $hyphen		= trim(!empty($forprint['HYPHEN'])		? $forprint['HYPHEN']		: $default['HYPHEN']		);
 $font		= trim(!empty($forprint['FONT'])		? $forprint['FONT']			: $default['FONT']			);
