@@ -1724,6 +1724,7 @@ if (!($lexicon.$underlying)) { abcms_errs("abcms_enty() underlying not found! St
 
 // aionian
 $aionian = abcms_aion($strongs,$SID,$word,$book,$chap,$verse);
+if ($aionian && $strongs=='g1653') { $morphs['U'] = "an ACTION - by a person or thing being discussed"; } // correct the TAG morphhology for Romans 11:32
 
 // css
 $css_background = ($strongs==$_stidC || $baldnumb==$_stidN ? 'strongs' : ($aionian ? 'word-aionian' : ''));
