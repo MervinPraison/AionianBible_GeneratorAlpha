@@ -1668,7 +1668,11 @@ else {
 	$morphs = (empty($tag[12]) ? NULL : abcms_read_json('./library/stepbible/Greek_Morphhology.json', $tag[12]));
 	if ($tag && !$morphs && $tag[5]!='P' && $tag[5]!='L') { abcms_errs("abcms_enty() tag morphhology not found! Strongs={$strongs} Morph={$tag[12]}"); }
 	$morphs_tyndale = (empty($lex_tyndale[5]) ? NULL : aion_morphhology($lex_tyndale[5]));
-	if ($lex_tyndale && !$morphs_tyndale) { abcms_errs("abcms_enty() tyndale morphhology not found! Strongs={$strongs} Morph={$lex_tyndale[5]}"); }
+	// too many morphs missing - so no error for now
+	// if ($lex_tyndale && !$morphs_tyndale) {
+	//	abcms_errs("abcms_enty() tyndale morphhology not found! Strongs={$strongs} Morph={$lex_tyndale[5]}");
+	//}
+	// same with LSJ, no error reporting for missing morphs
 	$morphs_LSJ = (empty($lex_LSJ[5]) ? NULL : aion_morphhology($lex_LSJ[5]));
 	$counts = abcms_read_json('./library/stepbible/Greek_Tagged_Text_Count.json', $bald, (!$tag ? TRUE : FALSE));
 	if ($tag && !$counts) { abcms_errs("abcms_enty() tag counts not found! Strongs={$strongs}"); }
