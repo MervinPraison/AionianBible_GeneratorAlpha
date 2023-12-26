@@ -1,3 +1,0 @@
-<IfModule userdir_module>
-  UserDir disabled
-</IfModule>
