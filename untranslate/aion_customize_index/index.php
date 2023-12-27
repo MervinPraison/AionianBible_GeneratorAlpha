@@ -833,10 +833,12 @@ if (!isset($cache[$indx][$key])) {
 	//if ($yes) { abcms_errs("abcms_read_indx_line() index key missing: $data $indx $key"); }
 	return NULL;
 } // key?
-$offset = strtok((string)$cache[$indx][$key],',');
-if ($offset != (string)$cache[$indx][$key]) {														if ($yes) { abcms_errs("abcms_read_indx_line() multiple offsets: $data $indx $key"); }	return NULL; } // multiple?
+$offset = (int)strtok((string)$cache[$indx][$key],',');
+// json index has multiple elements in cases such as g184, g184G, g184H
+// In this case assume that the first element points to the original strongs, g184
+//if ($offset != (string)$cache[$indx][$key]) {														if ($yes) { abcms_errs("abcms_read_indx_line() multiple offsets: $data $indx $key"); }	return NULL; } // multiple?
 if (!isset($fd[$data]) && !($fd[$data]=fopen($data, 'r'))) {										abcms_errs("abcms_read_indx_line() data not opened: $data $indx $key");					return NULL; } // data?
-if (fseek($fd[$data], $cache[$indx][$key])) {														abcms_errs("abcms_read_indx_line() index offset missing: $data $indx $key");			return NULL; } // seek?
+if (fseek($fd[$data], $offset)) {																	abcms_errs("abcms_read_indx_line() index offset missing: $data $indx $key");			return NULL; } // seek?
 if (!($line=fgets($fd[$data]))) {																	abcms_errs("abcms_read_indx_line() data not read: $data $indx $key");					return NULL; } // read?
 if (!($line = rtrim($line,"\r\n")) || !($cache[$data.$indx][$key] = mb_split("\t", $line))) {		abcms_errs("abcms_read_indx_line() data not parsed: $data $indx $key");					return NULL; } // parse?
 return ($cache[$data.$indx][$key]); // done!
