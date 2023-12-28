@@ -569,7 +569,8 @@ if (!($json = json_decode(file_get_contents($indx),true)) ||
 	!($fd=fopen($file, 'r')) ||
 	fseek($fd, $json[$keys])) {
 		if ($fd) { fclose($fd); }
-		abcms_errs("abcms_word_init_chap_stro() strongs bible chapter lines not opened!");
+		// only report error if error, allow for non-standard versification
+		if (!$json || isset($json[$keys])) { abcms_errs("abcms_word_init_chap_stro() strongs bible chapter tag lines not found!"); }
 		$_BibleSTRONGS = NULL;
 		return;
 }

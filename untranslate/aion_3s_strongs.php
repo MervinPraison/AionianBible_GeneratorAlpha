@@ -2338,7 +2338,7 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 					//2Ch.34.6#07=Q(K)		[ ]	[ ]			K= be./har (בְּ/הַר) "in/ [the] hill country of" (H9003/H2022G=HR/Ncbsc)	L= בְּ/הַרְ ¦ ;	
 					else if ($strongs=="H9003" && $strongs2=="H2022G") {
 					$database[$table] .= "{$dataref}	{$strongs}	{$jointype[$key]}	{$line['TYPE']}	בְּ/הַר	be.	ב	in	in	HR				Scribes omitted word recorded as a variant	\n";
-					$database[$table] .= "{$dataref}	{$strongs2}	C	{$line['TYPE']}	בְּ/הַר	har	הַר	[the] hill country of	[the] hill country of	Ncbsc				Scribes omitted word recorded as a variant	\n";
+					$database[$table] .= "{$dataref}	{$strongs2}	C	{$line['TYPE']}	בְּ/הַר	har	הַר	[the] hill country of	[the] hill country of	HNcbsc				Scribes omitted word recorded as a variant	\n";
 					}
 					// BOMB
 					else { AION_ECHO("ERROR! $newmess QereKetiv should not be here!\n".print_r($line,TRUE)); }
