@@ -1741,7 +1741,8 @@ if ($tag && !$tagtype) { abcms_errs("abcms_enty() tag type not found! Strongs={$
 // underlying
 $lexicon = (!empty($tag[9]) ? $tag[9] : (!empty($lex_tyndale[2]) ? $lex_tyndale[2] : NULL));
 $underlying = (!empty($tag[7]) ? $tag[7] : (!empty($lex_tyndale[2]) ? $lex_tyndale[2] : NULL));
-if (!($lexicon.$underlying)) { abcms_errs("abcms_enty() underlying not found! Strongs={$strongs}"); }
+$underlying_strongs = (!empty($lex_strongs[1]) ? $lex_strongs[1] : NULL);
+if (!($lexicon.$underlying.$underlying_strongs)) { abcms_errs("abcms_enty() underlying not found! Strongs={$strongs}"); }
 
 // aionian
 $aionian = abcms_aion($strongs,$SID,$word,$book,$chap,$verse);
