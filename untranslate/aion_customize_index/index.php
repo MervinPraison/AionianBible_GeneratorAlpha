@@ -1696,9 +1696,9 @@ if (!($word = htmlspecialchars(
 	return;
 }
 
-// prefix the baldyes & entry fouled?
-if (!empty($lex_tyndale[0]) && preg_match("#^{$baldyes}[[:alpha:]]+#", $lex_tyndale[0])) { $baldyes = $lex_tyndale[0]; }
-if (!empty($lex_LSJ[0]) && preg_match("#^{$baldyes2}[[:alpha:]]+#", $lex_LSJ[0])) { $baldyes2 = $lex_LSJ[0]; }
+// fix the baldyes if bald strong index points to extended strongs, then test for fouled entry
+if (!empty($lex_tyndale[0]) && preg_match("#^{$baldyes}[[:alpha:]]{1}$#", $lex_tyndale[0])) { $baldyes = $lex_tyndale[0]; }
+if (!empty($lex_LSJ[0]) && preg_match("#^{$baldyes2}[[:alpha:]]{1}$#", $lex_LSJ[0])) { $baldyes2 = $lex_LSJ[0]; }
 if ((!empty($lex_strongs[0]) && $baldbald!=$lex_strongs[0]) ||
 	(!empty($lex_tyndale[0]) && $baldyes!=$lex_tyndale[0]) ||
 	(!empty($lex_LSJ[0])     && $baldyes2!=$lex_LSJ[0])) {
