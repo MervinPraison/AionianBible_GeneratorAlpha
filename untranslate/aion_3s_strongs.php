@@ -2764,44 +2764,6 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 		"U32"		=> "Uncial Codex #32",
 		"WH"		=> "Westcott/Hort",
 	);
-	// TAGNT editions
-	//in: «3:+Byz+TR
-	//in: +Byz+TR
-	static $editions_replace = array(
-		"#\+#u"			=> ", ",
-		"#Byz#u"		=> "<a href='javascript:void(0)' title='Byzantine from Robinson/Pierpoint'>Byz</a>",
-		"#Coptic#u"		=> "<a href='javascript:void(0)' title='Coptic Manuscript'>Coptic</a>",
-		"#ESV#u"		=> "<a href='javascript:void(0)' title='English Standard Version'>ESV</a>",
-		"#Goodnews#u"	=> "<a href='javascript:void(0)' title='Goodnews Bible'>Goodnews</a>",
-		"#KJV#u"		=> "<a href='javascript:void(0)' title='King James Version'>KJV</a>",
-		"#KJV\?#u"		=> "<a href='javascript:void(0)' title='King James Version (possibly)'>KJV?</a>",
-		"#NA26#u"		=> "<a href='javascript:void(0)' title='Nestle/Aland 26th Edition'>NA26</a>",
-		"#NA27#u"		=> "<a href='javascript:void(0)' title='Nestle/Aland 27th Edition'>NA27</a>",
-		"#NA28#u"		=> "<a href='javascript:void(0)' title='Nestle/Aland 28th Edition, not ECM'>NA28</a>",
-		"#Latin#u"		=> "<a href='javascript:void(0)' title='Latin'>Latin</a>",
-		"#NIV#u"		=> "<a href='javascript:void(0)' title='New International Version'>NIV</a>",
-		"#OldLatin#u"	=> "<a href='javascript:void(0)' title='Old Latin version'>OldLatin</a>",
-		"#OldSyriac#u"	=> "<a href='javascript:void(0)' title='Old Syriac version'>OldSyriac</a>",
-		"#P46#u"		=> "<a href='javascript:void(0)' title='Papyri #46'>P46</a>",
-		"#P66#u"		=> "<a href='javascript:void(0)' title='Papyri #66'>P66</a>",
-		"#P66\*#u"		=> "<a href='javascript:void(0)' title='Papyri #66 corrector'>P66*</a>",
-		"#Punc#u"		=> "<a href='javascript:void(0)' title='Accent variant from punctuation'>Punc</a>",
-		"#SBL#u"		=> "<a href='javascript:void(0)' title='Society of Biblical Literature Greek NT'>SBL</a>",
-		"#Syriac#u"		=> "<a href='javascript:void(0)' title='Syriac'>Syriac</a>",
-		"#TR#u"			=> "<a href='javascript:void(0)' title='Textus Receptus'>TR</a>",
-		"#Treg#u"		=> "<a href='javascript:void(0)' title='Tregelles'>Treg</a>",
-		"#Tyn#u"		=> "<a href='javascript:void(0)' title='Tyndale House GNT'>Tyn</a>",
-		"#U1#u"			=> "<a href='javascript:void(0)' title='Uncial #1'>U1</a>",
-		"#U2#u"			=> "<a href='javascript:void(0)' title='Uncial #2'>U2</a>",
-		"#U3#u"			=> "<a href='javascript:void(0)' title='Uncial #3'>U3</a>",
-		"#U4#u"			=> "<a href='javascript:void(0)' title='Uncial #4'>U4</a>",
-		"#U5#u"			=> "<a href='javascript:void(0)' title='Uncial #5'>U5</a>",
-		"#U6#u"			=> "<a href='javascript:void(0)' title='Uncial #6'>U6</a>",
-		"#U32#u"		=> "<a href='javascript:void(0)' title='Uncial #32'>U32</a>",
-		"#WH#u"			=> "<a href='javascript:void(0)' title='Westcott/Hort'>WH</a>",
-	);
-	static $editions_search = NULL; if (NULL===$editions_search) { $editions_search = array_keys($editions_replace); } // edition search and replace
-
 
 	$last = $last_indx = $last_chap = $last_vers = $orig_vers = $last_orig_vers = NULL;
 	if (empty($database[$table])) {
@@ -2989,18 +2951,21 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 			if (FALSE===preg_match_all("#(G\d+)([a-zA-Z]{0,1})=#u", $line['VAR'], $match_use2, PREG_PATTERN_ORDER)) { AION_ECHO("ERROR! $newmess preg_match_all(strong occurance2)\n".print_r($line,TRUE)); }
 			$match_use = array();
 			$match_use[1] = array_merge($match_use1[1], $match_use2[1]);
-			// 2nd array of all strongs numbers used in INSTANCE
+			// 2nd array of all strongs numbers used in INSTANCE and ALT
 			$match_ins = array(array(),array(),array());
 			if (!preg_match_all("#(G\d+)[_]{0,1}([a-zA-Z]{0,1})#u", $line['INSTANCE'], $match_ins, PREG_PATTERN_ORDER)) { AION_ECHO("ERROR! $newmess preg_match_all(strong instance)\n".print_r($line,TRUE)); }
+			$match_alt = array(array(),array(),array());
+			if (FALSE===preg_match_all("#(G\d+)[_]{0,1}([a-zA-Z]{0,1})#u", $line['ALT'], $match_alt, PREG_PATTERN_ORDER)) { AION_ECHO("ERROR! $newmess preg_match_all(strong alts)\n".print_r($line,TRUE)); }
 			// compare 1st and 2nd array, should be equal
-			$match_use_test = array_keys(array_flip($match_use[1]));	sort($match_use_test);
-			$match_ins_test = array_keys(array_flip($match_ins[1]));	sort($match_ins_test);
-			if ($match_use_test !== $match_ins_test) { AION_ECHO($warn="WARN! FIX_REF\tref='{$line['REF']}' Strongs sequence error, Instances != InstanceColumn! ".implode(',',$match_use_test)." != ".implode(',',$match_ins_test)."\n".print_r($line,TRUE)); } // should be equal!
+			$match_use_test = array_keys(array_flip(array_merge($match_use1[1], $match_use2[1])));	sort($match_use_test);
+			$match_ins_test = array_keys(array_flip(array_merge($match_ins[1], $match_alt[1])));	sort($match_ins_test);
+			if (array_diff($match_use_test, $match_ins_test)) { AION_ECHO($warn="WARN! FIX_REF\tref='{$line['REF']}' Strongs sequence error, Instances NOT IN InstanceColumn! ".implode(',',$match_use_test)." != ".implode(',',$match_ins_test)."\n".print_r($line,TRUE)); } // used to be equal, but now ALT without mention in Variant, so just confirm that used strongs listed in sequence+alt!
 			// 3rd array, strongs numbers with _[A-Z] counters
 			$match_num = array(array(),array(),array());
 			if (FALSE===preg_match_all("#(G\d+)_([a-zA-Z]{1})#u", $line['INSTANCE'], $match_num, PREG_PATTERN_ORDER)) { AION_ECHO("ERROR! $newmess preg_match_all(strong counts)\n".print_r($line,TRUE)); }
 			// set the non-counted strongs to -1
-			$stronglist = array_merge($match_use0[1], $match_use2[1]); // use $match_use0 instead of $match_use1 to avoid cases of double strongs #s
+			//$stronglist = array_merge($match_use0[1], $match_use2[1]); // use $match_use0 instead of $match_use1 to avoid cases of double strongs #s
+			$stronglist = array_merge($match_use0[1]); // do not include variant column in this check for now
 			$stronglist = array_keys(array_flip($stronglist));
 			foreach($stronglist as $use) {
 				if (!in_array($use, $match_num[1])) {
@@ -3048,14 +3013,16 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 //Act.19.38#10=NKO	ἔχουσι (echousi)	have	G2192=V-PAI-3P	ἔχω=to have/be	NA28+SBL+WH+Treg+Byz; moved »3:NA27+Tyn+TR		Byz+Treg+WH+SBL+NA28; moved »3:TR: ἔχουσιν ; 	están teniendo	to have	#10	G2192		
 //Php.3.12#07=NK(O)	τετελείωμαι, (teteleiōmai)	have been perfected,	G5048=V-RPI-1S	τελειόω=to perfect	NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz	δεδικαίωμαι (ₓₓdedikaiōmai) have been perfected, - G1344=V-RPI-1S in: P46		he sido completado	to perfect	#07	G5048	G1344				
 			$editions  = $line['EDITIONS'];
-			$editions .= (preg_match("#^.+\s+in:\s+moved\s+[«»]+\d+:(.+)$#us", $line['VAR']) ? ("+".preg_replace("#^.+\s+in:\s+moved\s+[«»]+\d+:(.+)$#us", '$1', $line['VAR'])) : "");
 			$editions .= (preg_match("#^.+\s+in:\s+([^«»]+)$#us", $line['VAR']) ? ("+".preg_replace("#^.+\s+in:\s+([^«»]+)$#us", '$1', $line['VAR'])) : "");
-			$tempspell = preg_replace("#; moved [«»]+\d+:#us", "+", $line['SPELL']);
+			// Tyn+WH: Δαυεὶδ ; +TR: Δαβὶδ ; 
+			// TR«9+Byz«9: τὴν ; 
+			$tempspell = preg_replace("#[«»]+[\d.]+#us", "+", $line['SPELL']);
 			$editions .= (!preg_match("#^([^;:]+):.+$#us", $tempspell) ? "" : ("+".preg_replace("#^([^;:]+):.+$#us",  '$1', $tempspell)));
 			$editions .= (!preg_match("#^[^;]+;([^;:]+):.+$#us", $tempspell) ? "" : ("+".preg_replace("#^[^;]+;([^;:]+):.+$#us",  '$1', $tempspell)));
 			$editions .= (!preg_match("#^[^;]+;[^;]+;([^;:]+):.+$#us", $tempspell) ? "" : ("+".preg_replace("#^[^;]+;[^;]+;([^;:]+):.+$#us",  '$1', $tempspell)));
-			$editions  = preg_replace("#[:;]+\s+moved\s+[«»]+[\d.]+:#u", "+", $editions);
-			$editions  = preg_replace("#[«»]+[\d.]+[:]*#u", "+", $editions);
+			// Byz0«41«4
+			$editions  = preg_replace("#0«41«4#u", "+", $editions); // tmp fix
+			$editions  = preg_replace("#[«».]+[\d.:;]+#u", "+", $editions);
 			$editions  = preg_replace("#\s+#u", "+", $editions);
 			$editions  = preg_replace("#0([\d]+)#u", 'U$1', $editions); // replace 0 with U for unicals
 			$editions  = trim(preg_replace("#[+]+#u", "+", $editions),"+");
@@ -3064,8 +3031,8 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 				AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");	
 			}
 			// FIX EDITIONS
-			$line['EDITIONS'] = preg_replace("#[:;]+\s+moved\s+[«»]+[\d.]+:#u", "+", $line['EDITIONS']);
-			$line['EDITIONS'] = preg_replace("#[«»]+[\d.]+[:]*#u", "+", $line['EDITIONS']);
+			$line['EDITIONS'] = preg_replace("#0«41«4#u", "+", $line['EDITIONS']);
+			$line['EDITIONS'] = preg_replace("#[«».]+[\d.;:]+#u", "+", $line['EDITIONS']);
 			$line['EDITIONS'] = preg_replace("#\s+#u", "+", $line['EDITIONS']);
 			$line['EDITIONS'] = preg_replace("#0([\d]+)#u", 'U$1', $line['EDITIONS']); // replace 0 with U for unicals
 			$line['EDITIONS'] = trim(preg_replace("#[+]+#u", "+", $line['EDITIONS']),"+");			
