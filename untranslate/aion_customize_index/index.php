@@ -1754,7 +1754,7 @@ $css_background = ($strongs==$_stidC || $baldnumb==$_stidN ? 'strongs' : ($aioni
 // links
 $bpath = ($_Path=='Strongs' ? abcms_href('/Read',FALSE,TRUE,'/strongs-'.$strongs) : abcms_href("/Bibles/$_Part[1]/".($strongs[0]==='g' ? 'New' : 'Old'),FALSE,TRUE,'/strongs-'.$strongs));
 $usage =
-	(!isset($counts[3]) ? "Strongs number not referenced" :
+	(!isset($counts[3]) ? "Not a primary reference, possibly a variation" :
 	("<a href='$bpath' title='Visit chapters with Strongs word usage' class='word-blue'>".
 	// Counts array(0=>'books',1=>'chapters',2=>'verses',3=>'words')
 	$counts[3].($counts[3]===1 ? ' time in ':' times in ').

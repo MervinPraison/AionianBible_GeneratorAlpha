@@ -6,8 +6,13 @@ Aion	STEP=129 by including MAT6:13 and 2PE2:17, but I maintain 127
 Hades	STEP=10 because 1CO15:55 is a variant, but I manually add it to match 11
 */
 global $_Part;
+$romans1132 = "Romans 11:32";
 if (empty($_Part[1])) {	$bible = "";			$usageG = "/Read";					$usageH = "/Read"; }
-else {					$bible = "/$_Part[1]";	$usageG = "/Bibles/$_Part[1]/New";	$usageH = "/Bibles/$_Part[1]/Old"; }
+else {					$bible = "/$_Part[1]";	$usageG = "/Bibles/$_Part[1]/New";	$usageH = "/Bibles/$_Part[1]/Old";
+	if (file_exists("./library/online/Holy-Bible---{$_Part[1]}---Aionian-Edition/045-ROM-011.json")) {
+		$romans1132 = "<a href='" . abcms_href("/Bibles{$bible}",FALSE,TRUE,"/Romans/11") . "'>Romans 11:32</a>";
+	}
+}
 ?>
 <h2 class='center'><span class='notranslate'>Aionian</span> Glossary</h2>
 <p>
@@ -51,7 +56,7 @@ Meaning:<br /><div style='margin-left: 15px;'>From start to finish, pertaining t
 Greek: verb, aorist tense, active voice, subjunctive mood, 3rd person singular<br />
 Usage: <a href='<? echo abcms_href("/Bibles$bible",FALSE,TRUE,'/Romans/11'); ?>'  class='word-blue'>1 time in this conjugation, Romans 11:32</a><br />
 Strongs: <a href='<? echo abcms_href("/Strongs$bible",FALSE,TRUE,'/strongs-g1653'); ?>' title='Search Strongs' class='word-blue'>g1653</a><br />
-Meaning:<br /><div style='margin-left: 15px;'>To have pity on, to show mercy. Typically, the subjunctive mood indicates possiblity, not certainty. However, a subjunctive in a purpose clause is a resulting action as certain as the causal action. The subjunctive in a purpose clause functions as an indicative, not an optative. Thus, the grand conclusion of grace theology in <a href='<? echo abcms_href("/Bibles$bible",FALSE,TRUE,'/Romans/11'); ?>'>Romans 11:32</a> must be clarified. God's mercy on all is not a possibility, but a certainty. See <a href='https://www.ntgreek.org' target='_blank'>www.ntgreek.org</a>.</div>
+Meaning:<br /><div style='margin-left: 15px;'>To have pity on, to show mercy. Typically, the subjunctive mood indicates possiblity, not certainty. However, a subjunctive in a purpose clause is a resulting action as certain as the causal action. The subjunctive in a purpose clause functions as an indicative, not an optative. Thus, the grand conclusion of grace theology in <? echo $romans1132; ?> must be clarified. God's mercy on all is not a possibility, but a certainty. See <a href='https://www.ntgreek.org' target='_blank'>www.ntgreek.org</a>.</div>
 <br />
 </p>
 <p>

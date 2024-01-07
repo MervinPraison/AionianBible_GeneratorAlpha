@@ -456,7 +456,7 @@ function glossarylinks($bible, $biblearray, $untranslate, $books, $cssbok, $stro
 		if (($strongs=="g12" && $verse['STRONGS']!="g12") || !preg_match("#$strongs#ui", $verse['STRONGS'])) { continue; }
 		$ref_chap = $verse['INDEX'].'-'.$verse['BOOK'].'-'.$verse['CHAPTER'];
 		$book_index = array_search($verse['BOOK'], $books['CODE']);
-		$book_foreign = $books[$bible][$book_index];
+		$book_foreign = (empty($books[$bible][$book_index]) || $books[$bible][$book_index]=='NULL'  ? $books['ENGLISH'][$book_index] : $books[$bible][$book_index]);
 		$reference = (int)$verse['CHAPTER'].":".(int)$verse['VERSE'];
 		$title = $books['ENGLISH'][$book_index]." ".$reference;
 		$links .=	($lastbook==NULL ? "<span $cssbok>$book_foreign</span> " :

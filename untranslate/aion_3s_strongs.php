@@ -3020,9 +3020,7 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 			$editions .= (!preg_match("#^([^;:]+):.+$#us", $tempspell) ? "" : ("+".preg_replace("#^([^;:]+):.+$#us",  '$1', $tempspell)));
 			$editions .= (!preg_match("#^[^;]+;([^;:]+):.+$#us", $tempspell) ? "" : ("+".preg_replace("#^[^;]+;([^;:]+):.+$#us",  '$1', $tempspell)));
 			$editions .= (!preg_match("#^[^;]+;[^;]+;([^;:]+):.+$#us", $tempspell) ? "" : ("+".preg_replace("#^[^;]+;[^;]+;([^;:]+):.+$#us",  '$1', $tempspell)));
-			// Byz0«41«4
-			$editions  = preg_replace("#0«41«4#u", "+", $editions); // tmp fix
-			$editions  = preg_replace("#[«».]+[\d.:;]+#u", "+", $editions);
+			$editions  = preg_replace("#[«»]+[\d.:;]+#u", "+", $editions);
 			$editions  = preg_replace("#\s+#u", "+", $editions);
 			$editions  = preg_replace("#0([\d]+)#u", 'U$1', $editions); // replace 0 with U for unicals
 			$editions  = trim(preg_replace("#[+]+#u", "+", $editions),"+");
@@ -3031,8 +3029,7 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 				AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");	
 			}
 			// FIX EDITIONS
-			$line['EDITIONS'] = preg_replace("#0«41«4#u", "+", $line['EDITIONS']);
-			$line['EDITIONS'] = preg_replace("#[«».]+[\d.;:]+#u", "+", $line['EDITIONS']);
+			$line['EDITIONS'] = preg_replace("#[«»]+[\d.;:]+#u", "+", $line['EDITIONS']);
 			$line['EDITIONS'] = preg_replace("#\s+#u", "+", $line['EDITIONS']);
 			$line['EDITIONS'] = preg_replace("#0([\d]+)#u", 'U$1', $line['EDITIONS']); // replace 0 with U for unicals
 			$line['EDITIONS'] = trim(preg_replace("#[+]+#u", "+", $line['EDITIONS']),"+");			
@@ -4085,6 +4082,8 @@ EOF;
 	if (!($bibledata_ama=preg_replace("#\(\s+\*[+[:alnum:]]+\)#ui", " ", $bibledata_ama))){	AION_ECHO("ERROR! $newmess: preg_replace(\(\s+\*[+[:alnum:]]+\))"); }
 	if (!($bibledata_ama=preg_replace("#[ ]+#ui", " ", $bibledata_ama))) {					AION_ECHO("ERROR! $newmess: preg_replace([ ]+)"); }
 	if (!($bibledata_con=preg_replace("#[ ]+#ui", " ", $bibledata_con))) {					AION_ECHO("ERROR! $newmess: preg_replace([ ]+)"); }	
+	if (!($bibledata_ama=preg_replace("#([[{(]{1})\s+#ui", '$1', $bibledata_ama))) {		AION_ECHO("ERROR! $newmess: preg_replace(([[{(]{1})\s+)"); }
+	if (!($bibledata_con=preg_replace("#\s+([\]})]{1})#ui", '$1', $bibledata_con))) {		AION_ECHO("ERROR! $newmess: preg_replace(\s+([\]})]{1}))"); }
 	
 	// write the Bible
 	if (file_put_contents($bible_ama,$bibledata_ama) === FALSE ) {							AION_ECHO("ERROR! $newmess file_put_contents($bible_ama)" ); }

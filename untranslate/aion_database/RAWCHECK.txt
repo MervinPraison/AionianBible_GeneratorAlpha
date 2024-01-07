@@ -1,9 +1,9 @@
 # File Name: RAWCHECK.txt
-# File Size: 4188401     
-# File Date: 12/27/2023 18:17:24
+# File Size: 4188309     
+# File Date: 01/06/2024 18:21:40
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
-# File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2023
+# File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
 # File Generator: ABCMS (alpha)
 # File Accuracy: Contact publisher with corrections to file format or content
 # Publisher Name: Nainoia Inc
@@ -4164,7 +4164,7 @@ Holy-Bible---English---Aionian-Bible	062	1JO	002	015	MODIFY	Do not love the worl
 Holy-Bible---English---Aionian-Bible	062	1JO	002	016	MODIFY	For all that is in the world—the lust of the flesh, the lust of the eyes, and the pride of life—is not the Father’s, but is the world’s.	For all that is in the world—the lust of the flesh, the lust of the eyes, and the pride of life—isn’t the Father’s, but is the world’s.
 Holy-Bible---English---Aionian-Bible	062	1JO	002	019	MODIFY	They went out from us, but they did not belong to us; for if they had belonged to us, they would have continued with us. But they left, that they might be revealed that none of them belong to us.	They went out from us, but they didn’t belong to us; for if they had belonged to us, they would have continued with us. But they left, that they might be revealed that none of them belong to us.
 Holy-Bible---English---Aionian-Bible	062	1JO	002	021	MODIFY	I have not written to you because you do not know the truth, but because you know it, and because no lie is of the truth.	I have not written to you because you don’t know the truth, but because you know it, and because no lie is of the truth.
-Holy-Bible---English---Aionian-Bible	062	1JO	002	023	MODIFY	Whoever denies the Son does not have the Father. He who confesses the Son has the Father also.	Whoever denies the Son doesn’t have the Father. He who confesses the Son has the Father also.
+Holy-Bible---English---Aionian-Bible	062	1JO	002	023	MODIFY	Whoever denies the Son does not have the Father.	Whoever denies the Son doesn’t have the Father.
 Holy-Bible---English---Aionian-Bible	062	1JO	002	027	MODIFY	As for you, the anointing which you received from him remains in you, and you do not need for anyone to teach you. But as his anointing teaches you concerning all things, and is true, and is no lie, and even as it taught you, you will remain in him.	As for you, the anointing which you received from him remains in you, and you don’t need for anyone to teach you. But as his anointing teaches you concerning all things, and is true, and is no lie, and even as it taught you, you will remain in him.
 Holy-Bible---English---Aionian-Bible	062	1JO	003	001	MODIFY	See how great a love the Father has given to us, that we should be called children of God! For this cause the world does not know us, because it did not know him.	See how great a love the Father has given to us, that we should be called children of God! For this cause the world doesn’t know us, because it didn’t know him.
 Holy-Bible---English---Aionian-Bible	062	1JO	003	006	MODIFY	Whoever remains in him does not sin. Whoever sins has not seen him and does not know him.	Whoever remains in him doesn’t sin. Whoever sins hasn’t seen him and doesn’t know him.
