@@ -6644,7 +6644,7 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Greek---Greek-Majority-Text" :
-if (!($bfile = preg_replace("/(N-DSN|N-GPF|V-PNP-ASM|I-DSM|P-NSF|N-NSN|T-NSF|T-NSN)/us"," ",$bfile,-1,$rnum)) || $rnum!=9) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/ [ \-\dA-Z]{5,}(\s+)/us",' $1',$bfile,-1,$rnum)) || $rnum!=28) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 goto RAWHIDE;
 

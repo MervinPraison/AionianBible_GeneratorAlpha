@@ -1170,6 +1170,8 @@ $G_COMMENT
 
 <p><b>10/31/19</b> 174 translations now available in 74 languages.<br /></p>
 
+<p><b>10/28/19</b> Aionian Bible project nursed as J. and J. pray.<br /></p>
+
 <p><b>03/24/19</b> 135 translations now available in 67 languages.<br /></p>
 
 <p><b>11/17/18</b> 104 translations now available in 57 languages.<br /></p>

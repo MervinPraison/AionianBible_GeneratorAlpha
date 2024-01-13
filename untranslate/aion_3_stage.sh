@@ -36,7 +36,8 @@ AION_FILE_DATABASE_PUT(		$database, '../www-stageresources', '../www-stage/libra
 AION_SITEMAP(				'../www-stage');
 
 AION_LOOP_DIFF		(	'../www-stage/library', 	'../www-production/library',	'../diff-www-stage-with-www-production-BEFORE-DEPLOY', '/\.php$/', '', 'stageresources','resources');
-AION_LOOP_DIFF		(	'../www-stageresources', 	'../www-resources',				'../diff-www-stageresources-with-www-resources-BEFORE-DEPLOY', '', '/(Aionian-Edition\.noia|Standard-Edition\.noia|Source-Edition\.epub)$/');
+AION_LOOP_DIFF		(	'../www-stageresources', 	'../www-resources',				'../diff-www-stageresources-with-www-resources-BEFORE-DEPLOY', '',
+						'/(Aionian-Edition\.noia|Standard-Edition\.noia|Aionian-Edition\.epub|Source-Edition\.epub)$/');
 AION_LOOP_DIFF		(	'../raw-fixed', 			'../raw-original',				'../raw-diff');
 AION_LOOP_DIFF		(	'../raw-diff', 				'../raw-diff-MARKER',			'../raw-diff-diff');
 

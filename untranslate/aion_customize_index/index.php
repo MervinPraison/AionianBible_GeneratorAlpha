@@ -2079,7 +2079,7 @@ $SID = (NULL===$book ? $strongs :
 	"<a href='".abcms_href((empty($_Part[1]) ? '/Strongs' : "/Strongs/$_Part[1]"),FALSE,TRUE,FALSE).
 	"/strongs-$strongs' title='Strongs Enhanced Concordance entry $strongs' class='word-blue'>$strongs</a>");
 $strongs = (($tmp=preg_replace("#[A-Za-z]{1}$#", "", $strongs)) ? $tmp : $strongs);
-if (($strongs=='g1653' && ($book!='ROM' || !($chap=='011' && $verse=='032'))) ||
+if (($strongs=='g1653' && $book && ($book!='ROM' || !($chap=='011' && $verse=='032'))) ||
 	(($strongs=='g3041' || $strongs=='g4442') &&
 	($book!='REV' ||
 	!(($chap=='019' && $verse=='020') ||

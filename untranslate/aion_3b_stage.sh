@@ -33,6 +33,8 @@ $keepers = array(
 'engoke',
 'engtcent',
 'engtnt',
+'engwebu',
+'engwebuk',
 'engWycliffe',
 'ewe',
 'francl',
@@ -51,9 +53,11 @@ $keepers = array(
 'hincv',
 'hun',
 'ibo',
+'ind',
 'indags',
 'isl',
 'kanokcv',
+'kbq',
 'kik',
 'lin',
 'lit',
@@ -72,6 +76,7 @@ $keepers = array(
 'porblt',
 'porbr2018',
 'porbrbsl',
+'poy',
 'quctt',
 'rmylovari',
 'rmyservi',
@@ -140,7 +145,7 @@ $output = <<<EOF
 <body>
 <h1>eBible Parsed from <a href='https://ebible.org/Scriptures/copyright.php' target='_blank'>https://ebible.org/Scriptures/copyright.php</a></h1>
 <table>
-<tr><td>#</td><td>Priority</td><td>License</td><td>Code</td><td>Population</td><td>Language</td><td>Title</td><td>eBible</td><td>Year</td><td>Note</td></tr>
+<tr><td>#</td><td>Priority</td><td>License</td><td>Code</td><td>Population</td><td>Language</td><td>Title</td><td>eBible</td><td>Year</td><td>Note</td><td>Link-Page</td><td>Link-VPL</td><td>Link-SWORD</td><td>Link-PDF</td><td>Link-EPUB</td></tr>
 
 EOF;
 $group = 'PD';
@@ -175,8 +180,47 @@ foreach( $matches as $ebible ) {
 		if ("https://ebible.org/details.php?id=".$ebible[3] == $version['SOURCELINK']) {	$priority = 5; $note = "+".$bible; break; }
 	}
 
+	// links
+	// https://ebible.org/sword/zip/engourb2016eb.zip
+	// https://ebible.org/epub/engourb.epub
+	// https://ebible.org/pdf/engourb/engourb_prt.pdf
+	// https://ebible.org/Scriptures/engourb_vpl.zip
+	// Link-Page / Link-VPL / Link-SWORD / Link-PDF / Link-EPUB
+	$link_page = "https://ebible.org/details.php?id={$ebible[3]}";
+	$link_vpls = "https://ebible.org/Scriptures/{$ebible[3]}_vpl.zip";
+	$link_swrd = "https://ebible.org/sword/zip/{$ebible[3]}eb.zip";
+	$link_pdfs = "https://ebible.org/pdf/engourb/{$ebible[3]}_prt.pdf";
+	$link_epub = "https://ebible.org/epub/{$ebible[3]}.epub";
+	$font_page = ((($headers = get_headers($link_page)) && !empty($headers[0]) && strpos($headers[0],"200")) ? "" : " color='red' ");
+	$font_vpls = ((($headers = get_headers($link_vpls)) && !empty($headers[0]) && strpos($headers[0],"200")) ? "" : " color='red' ");
+	$font_swrd = ((($headers = get_headers($link_swrd)) && !empty($headers[0]) && strpos($headers[0],"200")) ? "" : " color='red' ");
+	$font_pdfs = ((($headers = get_headers($link_pdfs)) && !empty($headers[0]) && strpos($headers[0],"200")) ? "" : " color='red' ");
+	$font_epub = ((($headers = get_headers($link_epub)) && !empty($headers[0]) && strpos($headers[0],"200")) ? "" : " color='red' ");
+	$mark_page = (empty($font_page) ? "" : "*BAD* " );
+	$mark_vpls = (empty($font_vpls) ? "" : "*BAD* " );
+	$mark_swrd = (empty($font_swrd) ? "" : "*BAD* " );
+	$mark_pdfs = (empty($font_pdfs) ? "" : "*BAD* " );
+	$mark_epub = (empty($font_epub) ? "" : "*BAD* " );
+
 	// result
-	$rows[$priority.$ebible[2].$ebible[4]] = "<td>{$priority}</td><td>{$group}</td><td><a href='https://en.wikipedia.org/wiki/ISO_639:{$ebible[1]}' target='_blank'>{$ebible[1]}</a></td><td>{$ebible[2]}</td><td>{$pop}</td><td>{$ebible[4]}</td><td><a href='https://ebible.org/details.php?id={$ebible[3]}' target='_blank'>{$ebible[3]}</a></td><td>{$ebible[5]}</td><td>{$note}</td>";
+	$rows[$priority.$ebible[2].$ebible[4]] = "
+	<td>{$priority}</td>
+	<td>{$group}</td>
+	<td><a href='https://en.wikipedia.org/wiki/ISO_639:{$ebible[1]}' target='_blank'>{$ebible[1]}</a></td>
+	<td>{$ebible[2]}</td>
+	<td>{$pop}</td>
+	<td>{$ebible[4]}</td>
+	<td><a href='{$link_page}' target='_blank'>{$ebible[3]}</a></td>
+	<td>{$ebible[5]}</td>
+	<td>{$note}</td>
+	<td {$font_page}><a href='{$link_page}' target='_blank'>{$mark_page} {$link_page}</a></td>
+	<td {$font_vpls}><a href='{$link_vpls}' target='_blank'>{$mark_vpls} {$link_vpls}</a></td>
+	<td {$font_swrd}><a href='{$link_swrd}' target='_blank'>{$mark_swrd} {$link_swrd}</a></td>
+	<td {$font_pdfs}><a href='{$link_pdfs}' target='_blank'>{$mark_pdfs} {$link_pdfs}</a></td>
+	<td {$font_epub}><a href='{$link_epub}' target='_blank'>{$mark_epub} {$link_epub}</a></td>
+	";
+	
+	
 	echo "{$priority}\t{$group}\t{$ebible[1]}\t{$ebible[2]}\t{$pop}\t{$ebible[4]}\t{$ebible[3]}\t{$ebible[5]}\t{$note}\n";
 	if ('wro' == $ebible[3]) { $group = 'CC'; }
 }
