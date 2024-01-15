@@ -286,7 +286,7 @@ Holy-Bible---Greek---Greek-Antoniades	SWORD			https://crosswire.org/ftpmirror/pu
 Holy-Bible---Greek---Greek-Byzantine-Majority				https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/Byz.zip	Holy-Bible---Greek---Greek-Byzantine-Majority---Source-Edition.SWORD.zip
 Holy-Bible---Greek---Greek-Byzantine-Majority				./aion_source/Holy-Bible---Greek---Greek-Byzantine-Majority.unbound.zip	Holy-Bible---Greek---Greek-Byzantine-Majority---Source-Edition.UNBOUND.zip
 Holy-Bible---Greek---Greek-LXX-Septuagint	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/LXX.zip	Holy-Bible---Greek---Greek-LXX-Septuagint---Source-Edition.SWORD.zip
-Holy-Bible---Greek---Greek-Majority-Text				https://ebible.org/sword/zip/grcMT2000eb.zip	Holy-Bible---Greek---Greek-Majority-Text---Source-Edition.SWORD.zip
+Holy-Bible---Greek---Greek-Majority-Text				https://ebible.org/sword/zip/grcrp2018eb.zip	Holy-Bible---Greek---Greek-Majority-Text---Source-Edition.SWORD.zip
 Holy-Bible---Greek---Greek-Majority-Text				https://ebible.org/epub/grcmt.epub	Holy-Bible---Greek---Greek-Majority-Text---Source-Edition.epub
 Holy-Bible---Greek---Greek-Majority-Text				https://ebible.org/pdf/grcmt/grcmt_prt.pdf	Holy-Bible---Greek---Greek-Majority-Text---Source-Edition.pdf
 Holy-Bible---Greek---Greek-Majority-Text				https://ebible.org/Scriptures/grcmt_vpl.zip	Holy-Bible---Greek---Greek-Majority-Text---Source-Edition.VPL.zip
@@ -461,6 +461,9 @@ Holy-Bible---Polish---Polish-Updated-Gdansk				https://ebible.org/Scriptures/pol
 Holy-Bible---Portuguese---Almeida-Bible-1911	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/PorAlmeida1911.zip	Holy-Bible---Portuguese---Almeida-Bible-1911---Source-Edition.SWORD.zip
 Holy-Bible---Portuguese---Almeida-NewOrthography				./aion_source/Holy-Bible---Portuguese---Almeida-NewOrthography.unbound.zip	Holy-Bible---Portuguese---Almeida-NewOrthography---Source-Edition.UNBOUND.zip
 Holy-Bible---Portuguese---Biblia-Livre				./aion_source/Holy-Bible---Portuguese---Biblia-Livre.vpl.zip	Holy-Bible---Portuguese---Biblia-Livre---Source-Edition.VPL.zip
+Holy-Bible---Portuguese---Biblia-Livre				https://ebible.org/pdf/porbr2018/porbr2018_prt.pdf	Holy-Bible---Portuguese---Biblia-Livre---Source-Edition.pdf
+Holy-Bible---Portuguese---Biblia-Livre				https://ebible.org/epub/porbr2018.epub	Holy-Bible---Portuguese---Biblia-Livre---Source-Edition.epub
+Holy-Bible---Portuguese---Biblia-Livre				https://ebible.org/sword/zip/porbr2018eb.zip	Holy-Bible---Portuguese---Biblia-Livre---Source-Edition.SWORD.zip
 Holy-Bible---Portuguese---Portuguese-Trans-Trans				https://ebible.org/sword/zip/portft2018eb.zip	Holy-Bible---Portuguese---Portuguese-Trans-Trans---Source-Edition.SWORD.zip
 Holy-Bible---Portuguese---Portuguese-Trans-Trans				https://ebible.org/epub/portft.epub	Holy-Bible---Portuguese---Portuguese-Trans-Trans---Source-Edition.epub
 Holy-Bible---Portuguese---Portuguese-Trans-Trans				https://ebible.org/pdf/portft/portft_prt.pdf	Holy-Bible---Portuguese---Portuguese-Trans-Trans---Source-Edition.pdf

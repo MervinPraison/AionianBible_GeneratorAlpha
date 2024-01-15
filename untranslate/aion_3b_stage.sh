@@ -30,12 +30,9 @@ $keepers = array(
 'englsv',
 'englxxup',
 'engnoy',
-'engoke',
 'engtcent',
-'engtnt',
 'engwebu',
 'engwebuk',
-'engWycliffe',
 'ewe',
 'francl',
 'frasbl',
@@ -74,11 +71,8 @@ $keepers = array(
 'pesopcb',
 'polsz',
 'porblt',
-'porbr2018',
-'porbrbsl',
 'poy',
 'quctt',
-'rmylovari',
 'rmyservi',
 'rmyvlakh',
 'ron1924',
@@ -145,9 +139,12 @@ $output = <<<EOF
 <body>
 <h1>eBible Parsed from <a href='https://ebible.org/Scriptures/copyright.php' target='_blank'>https://ebible.org/Scriptures/copyright.php</a></h1>
 <table>
-<tr><td>#</td><td>Priority</td><td>License</td><td>Code</td><td>Population</td><td>Language</td><td>Title</td><td>eBible</td><td>Year</td><td>Note</td><td>Link-Page</td><td>Link-VPL</td><td>Link-SWORD</td><td>Link-PDF</td><td>Link-EPUB</td></tr>
+<tr><td>#</td><td>Priority</td><td>License</td><td>Code</td><td>Language</td><td>Population</td><td>Title</td><td>eBible</td><td>Year</td><td>Note</td><td>Link-Page</td><td>Link-VPL</td><td>Link-SWORD</td><td>Link-PDF</td><td>Link-EPUB</td></tr>
 
 EOF;
+$output2 = "FILE	FLAG	POST	VALUE	SOURCE	DESTINATION\n";
+
+
 $group = 'PD';
 $rows = array();
 foreach( $matches as $ebible ) {
@@ -189,13 +186,18 @@ foreach( $matches as $ebible ) {
 	$link_page = "https://ebible.org/details.php?id={$ebible[3]}";
 	$link_vpls = "https://ebible.org/Scriptures/{$ebible[3]}_vpl.zip";
 	$link_swrd = "https://ebible.org/sword/zip/{$ebible[3]}eb.zip";
-	$link_pdfs = "https://ebible.org/pdf/engourb/{$ebible[3]}_prt.pdf";
+	$link_swd2 = "https://ebible.org/sword/zip/{$ebible[3]}{$ebible[5]}eb.zip";
+	$link_pdfs = "https://ebible.org/pdf/{$ebible[3]}/{$ebible[3]}_prt.pdf";
 	$link_epub = "https://ebible.org/epub/{$ebible[3]}.epub";
-	$font_page = ((($headers = get_headers($link_page)) && !empty($headers[0]) && strpos($headers[0],"200")) ? "" : " color='red' ");
-	$font_vpls = ((($headers = get_headers($link_vpls)) && !empty($headers[0]) && strpos($headers[0],"200")) ? "" : " color='red' ");
-	$font_swrd = ((($headers = get_headers($link_swrd)) && !empty($headers[0]) && strpos($headers[0],"200")) ? "" : " color='red' ");
-	$font_pdfs = ((($headers = get_headers($link_pdfs)) && !empty($headers[0]) && strpos($headers[0],"200")) ? "" : " color='red' ");
-	$font_epub = ((($headers = get_headers($link_epub)) && !empty($headers[0]) && strpos($headers[0],"200")) ? "" : " color='red' ");
+	$font_page = ((($headers = get_headers($link_page)) && !empty($headers[0]) && strpos($headers[0],"200")) ? "" : " style='color: red;' ");
+	$font_vpls = ((($headers = get_headers($link_vpls)) && !empty($headers[0]) && strpos($headers[0],"200")) ? "" : " style='color: red;' ");
+	$font_swrd = ((($headers = get_headers($link_swrd)) && !empty($headers[0]) && strpos($headers[0],"200")) ? "" : " style='color: red;' ");
+	if (!empty($font_swrd) && preg_match("#^\d+$#",$ebible[5])) {
+	$link_swrd = $link_swd2;
+	$font_swrd = ((($headers = get_headers($link_swrd)) && !empty($headers[0]) && strpos($headers[0],"200")) ? "" : " style='color: red;' ");
+	}
+	$font_pdfs = ((($headers = get_headers($link_pdfs)) && !empty($headers[0]) && strpos($headers[0],"200")) ? "" : " style='color: red;' ");
+	$font_epub = ((($headers = get_headers($link_epub)) && !empty($headers[0]) && strpos($headers[0],"200")) ? "" : " style='color: red;' ");
 	$mark_page = (empty($font_page) ? "" : "*BAD* " );
 	$mark_vpls = (empty($font_vpls) ? "" : "*BAD* " );
 	$mark_swrd = (empty($font_swrd) ? "" : "*BAD* " );
@@ -213,14 +215,24 @@ foreach( $matches as $ebible ) {
 	<td><a href='{$link_page}' target='_blank'>{$ebible[3]}</a></td>
 	<td>{$ebible[5]}</td>
 	<td>{$note}</td>
-	<td {$font_page}><a href='{$link_page}' target='_blank'>{$mark_page} {$link_page}</a></td>
-	<td {$font_vpls}><a href='{$link_vpls}' target='_blank'>{$mark_vpls} {$link_vpls}</a></td>
-	<td {$font_swrd}><a href='{$link_swrd}' target='_blank'>{$mark_swrd} {$link_swrd}</a></td>
-	<td {$font_pdfs}><a href='{$link_pdfs}' target='_blank'>{$mark_pdfs} {$link_pdfs}</a></td>
-	<td {$font_epub}><a href='{$link_epub}' target='_blank'>{$mark_epub} {$link_epub}</a></td>
+	<td><a href='{$link_page}' target='_blank' {$font_page}>{$mark_page} {$link_page}</a></td>
+	<td><a href='{$link_vpls}' target='_blank' {$font_vpls}>{$mark_vpls} {$link_vpls}</a></td>
+	<td><a href='{$link_swrd}' target='_blank' {$font_swrd}>{$mark_swrd} {$link_swrd}</a></td>
+	<td><a href='{$link_pdfs}' target='_blank' {$font_pdfs}>{$mark_pdfs} {$link_pdfs}</a></td>
+	<td><a href='{$link_epub}' target='_blank' {$font_epub}>{$mark_epub} {$link_epub}</a></td>
 	";
-	
-	
+
+	// source format file 
+	if ($priority ==0) {
+		$biblekey = preg_replace("#[\s[:punct:]]+#", "-", $ebible[4]);
+		$biblelan = preg_replace("#[\s[:punct:]]+#", "-", $ebible[2]);
+		$output2 .= "Holy-Bible---{$biblelan}---{$biblekey}				{$link_vpls}	Holy-Bible---{$biblelan}---{$biblekey}---Source-Edition.VPL.zip\n";
+		$output2 .= "Holy-Bible---{$biblelan}---{$biblekey}				{$link_swrd}	Holy-Bible---{$biblelan}---{$biblekey}---Source-Edition.SWORD.zip\n";
+		$output2 .= "Holy-Bible---{$biblelan}---{$biblekey}				{$link_pdfs}	Holy-Bible---{$biblelan}---{$biblekey}---Source-Edition.pdf\n";
+		$output2 .= "Holy-Bible---{$biblelan}---{$biblekey}				{$link_epub}	Holy-Bible---{$biblelan}---{$biblekey}---Source-Edition.epub\n";
+	}
+
+	// echo progress
 	echo "{$priority}\t{$group}\t{$ebible[1]}\t{$ebible[2]}\t{$pop}\t{$ebible[4]}\t{$ebible[3]}\t{$ebible[5]}\t{$note}\n";
 	if ('wro' == $ebible[3]) { $group = 'CC'; }
 }
@@ -232,6 +244,9 @@ foreach( $rows as $row ) { $output .= "<tr><td>{$number}</td>{$row}</tr>"; ++$nu
 $output .= "</table></body></html>";
 $file = "../www-stage/library/Holy-Bible---AAA---Versions---eBible.htm";
 if (!($bytes=file_put_contents($file, $output))) { AION_ECHO("ERROR! file_put_contents() failed: $file"); }
+AION_ECHO("DONE $file: bytes = $bytes");
+$file = "../www-stage/library/Holy-Bible---AAA---Versions---eBible-source.txt";
+if (!($bytes=file_put_contents($file, $output2))) { AION_ECHO("ERROR! file_put_contents() failed: $file"); }
 AION_ECHO("DONE $file: bytes = $bytes");
 /*** bye ***/
 exit;

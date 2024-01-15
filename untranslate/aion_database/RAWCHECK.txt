@@ -1,6 +1,6 @@
 # File Name: RAWCHECK.txt
 # File Size: 4188309     
-# File Date: 01/13/2024 10:47:44
+# File Date: 01/13/2024 14:47:31
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024

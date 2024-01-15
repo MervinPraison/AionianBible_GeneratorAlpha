@@ -3031,6 +3031,7 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$debug .= "</style>\n";
 	$debug .= "</head>\n<body style='margin:20px;padding:0'>\n<h2>AionianBible.org Proofer Reader</h2>\n";
 	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---eBible.htm' target='_blank'>eBible public domain and CC Bibles</a><br />\n";
+	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---eBible-source.txt' target='_blank'>eBible public domain and CC Bibles source template</a><br />\n";
 	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---Questioned.htm' target='_blank'>Questioned Verses</a><br />\n";
 	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---LongLine.htm' target='_blank'>Long Verses, Source Edition</a><br />\n";
 	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---LongLine-STD.htm' target='_blank'>Long Verses, Aionian Edition</a><br />\n";
