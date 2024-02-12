@@ -87,7 +87,7 @@ $modified = date("n/j/Y", filemtime("./index.php"));
 <div id='logo'><img src='/images/Holy-Bible-Aionian-Edition-PURPLE-HOME.png' alt='Aionian Bible' /></div>
 <div id='j316'>For God so loved the world,<BR />that he gave his only begotten Son,<BR />that whoever believes in him<BR />should not perish, but have...</div>
 <div id='aion'>aionian life!</div>
-<div id='moto'>The world's first Holy Bible <span style="text-decoration: underline;">untranslation</span><BR />Two hundred sixteen versions<BR />Ninety-nine world languages<BR />Anonymous on TOR network<BR />100% free to copy &amp; print<BR />Updated <? echo $modified; ?><BR /><BR />Also known as<BR />'The Purple Bible'
+<div id='moto'>The world's first Holy Bible <span style="text-decoration: underline;">untranslation</span><BR />One hundred thirty-five languages<BR />Three hundred fifty-two versions<BR />Anonymous on TOR network<BR />100% free to copy &amp; print<BR />Updated <? echo $modified; ?><BR /><BR />Also known as<BR />'The Purple Bible'
 </div>
 </div>
 </a>
@@ -2031,6 +2031,7 @@ static $lookup = array(
 'N:A-F'=>'Proper Name Adjective Feminine person',
 'N:A--L'=>'Proper Name Adjective Location',
 'N:ADV-T'=>'Proper Name Adverb',
+'N:N' => 'Proper Name of a Location or Person with no stated gender',
 'N:N--L/N:N--LG/N:N-M-P'=>'Proper Name of a Location OR of a Location in Gentilic sense OR of a Male Person',
 'N:N--L/N:N--LG'=>'Proper Name of a Location OR of a Location in Gentilic sense',
 'N:N--L/N:N-M-P'=>'Proper Name of a Location OR of a Male Person',

@@ -6,6 +6,8 @@
 /*** init ***/
 require_once('./aion_common.php');
 AION_ECHO("START " . basename(__FILE__, '.php'));
+
+
 define('DESTINATION',	'../source-stage');
 define('PRODUCTION',	'../www-stageresources');
 define('DIFFERENCE',	'../diff-source-stage-with-source-production-BEFORE-UPDATE');

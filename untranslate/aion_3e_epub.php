@@ -80,6 +80,7 @@ function AION_LOOP_EPUBY($source, $destiny_unzip, $destiny_zip) {
 		//'include'		=> "/Holy-Bible---.*(Azerb|Gaelic|Somali).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.*(STEPBible).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
+		//'include'		=> "/Holy-Bible---Gamotso---Gamo---Aionian-Edition\.noia$/",
 		'include'		=> "/---Aionian-Edition\.noia$/",
 		'database'		=> $database,
 		'destiny'		=> $destiny_unzip,
@@ -517,7 +518,6 @@ $file = "$folder/epub.css";
 $l = "notosans-basic";
 $f = "notosans-basic-regular";
 $opf_manifest .= "<item href='fonts/$l.license'	id='basic_lic'	media-type='application/text/plain' />";
-$opf_manifest .= "<item href='fonts/$f.woff2'	id='basic_wo2'	media-type='application/font-woff2' />";	// or /font/woff2
 $opf_manifest .= "<item href='fonts/$f.woff'	id='basic_wof'	media-type='application/font-woff' />";		// or /font/woff
 $opf_manifest .= "<item href='fonts/$f.ttf'		id='basic_ttf'	media-type='application/font-sfnt' />";		// or /font/ttf
 $basic_font = <<< EOF
@@ -526,44 +526,64 @@ $basic_font = <<< EOF
 	font-family:
 		'NotoSans';
 	src:
-		/* url('fonts/$f.woff2')	format('woff2'), */
 		url('fonts/$f.woff')	format('woff'),
 		url('fonts/$f.ttf')		format('truetype');
 }
 
 EOF;
 if (!copy("./aion_customize_index/fonts/$l.license",	"$folder/fonts/$l.license")){	AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($l)"); }
-if (!copy("./aion_customize_index/fonts/$f.woff2",		"$folder/fonts/$f.woff2")) {	AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
+if (!copy("./aion_customize_index/fonts/$f.woff",		"$folder/fonts/$f.woff")) {		AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
+if (!copy("./aion_customize_index/fonts/$f.ttf",		"$folder/fonts/$f.ttf")) {		AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
+
+// GENTIUM FONT
+$l = "gentiumplus";
+$f = "gentiumplus-r";
+$opf_manifest .= "<item href='fonts/$l.license'	id='gentiumplus_lic'	media-type='application/text/plain' />";
+$opf_manifest .= "<item href='fonts/$f.woff'	id='gentiumplus_wof'	media-type='application/font-woff' />";		// or /font/woff
+$opf_manifest .= "<item href='fonts/$f.ttf'		id='gentiumplus_ttf'	media-type='application/font-sfnt' />";		// or /font/ttf
+$gentium_font = <<< EOF
+/* GentiumPlus Font */ 
+@font-face {
+	font-family:
+		'GentiumPlus';
+	src:
+		url('fonts/$f.woff')	format('woff'),
+		url('fonts/$f.ttf')		format('truetype');
+}
+
+EOF;
+if (!copy("./aion_customize_index/fonts/$l.license",	"$folder/fonts/$l.license")){	AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($l)"); }
 if (!copy("./aion_customize_index/fonts/$f.woff",		"$folder/fonts/$f.woff")) {		AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
 if (!copy("./aion_customize_index/fonts/$f.ttf",		"$folder/fonts/$f.ttf")) {		AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
 
 // FOREIGN FONT 
 $fray = array(
-/* LANGUAGE			FILE								LICENSE					FONT								NAME				CSS */
-/* Aramaic */		'style-syr.css'				=> array('estrangelo_edessa',	'estrangelo_edessa',				'Aramaic',			'syr'),
-/* Armenian */		'style-hye-hy.css'			=> array('arnamu_serif',		'arnamu_serif',						'Armenian',			'hye-hy'),
-/* BabelStoneHan */	'style-babelstonehan.css'	=> array('babelstonehan',		'babelstonehan',					'BabelStoneHan',	'babelstonehan'),
-/* Cherokee */		'style-chr.css'				=> array('donisiladv',			'donisiladv',						'Cherokee',			'chr'),
-/* Coptic */		'style-cop.css'				=> array('newathu5_5',			'newathu5_5',						'Coptic',			'cop'),
-/* Hebrew */		'style-hbo-he.css'			=> array('ezra_sil',			'ezra_sil',							'Hebrew',			'hbo-he'),
-/* Korean */		'style-kor-ko.css'			=> array('unbatang',			'unbatang',							'Korean',			'kor-ko'),
-/* Gujarati */		'style-guj-gu.css'			=> array('notoserifgujarati',	'notoserifgujarati-regular',		'Gujarati',			'guj-gu'),
-/* Kannada */		'style-kan-kn.css'			=> array('notoserifkannada',	'notoserifkannada-regular',			'Kannada',			'kan-kn'),
-/* Malayalam */		'style-mal-ml.css'			=> array('notoserifmalayalam',	'notoserifmalayalam-regular',		'Malayalam',		'mal-ml'),
-/* Marathi */		'style-mar-mr.css'			=> array('notoserifdevanagari',	'notoserifdevanagari-regular',		'Marathi',			'mar-mr'),
-/* Myanmar 			'style-mya-my.css'			=> array('notoserifmyanmar',	'notoserifmyanmar-semicondensed',	'Myanmar',			'mya-my'), */
-/* Myanmar */		'style-mya-my.css'			=> array('padauk-regular',		'padauk-regular',					'Myanmar',			'mya-my'),
-/* Oriya */			'style-ory-or.css'			=> array('notosansoriyaui',		'notosansoriyaui-regular',			'Oriya',			'ory-or'),
-/* Panjabi */		'style-pan-pa.css'			=> array('notosansgurmukhiui',	'notosansgurmukhiui-regular',		'Panjabi',			'pan-pa'),
-/* Tamil */			'style-tam-ta.css'			=> array('notoseriftamil',		'notoseriftamil-semicondensed',		'Tamil',			'tam-ta'),
-/* Telugu */		'style-tel-te.css'			=> array('notoseriftelugu',		'notoseriftelugu-regular',			'Telugu',			'tel-te'),
-/* DOUBLES */
-/* Assamese */		'style-ben-bn.css'			=> array('solaimanlipi',		'solaimanlipi',						'Assamese',			'asm-as'),
-/* Bengali */		'style-asm-as.css'			=> array('solaimanlipi',		'solaimanlipi',						'Bengali',			'ben-bn'),
-/* Arabic */		'style-arb-ar.css'			=> array('notonaskharabicui',	'notonaskharabicui-regular',		'Arabic',			'arb-ar'),
-/* Persian */		'style-pes.css'				=> array('notonaskharabicui',	'notonaskharabicui-regular',		'Persian',			'pes'),
-/* Hindi */			'style-hin-hi.css'			=> array('akshar_unicode',		'akshar_unicode',					'Hindi',			'hin-hi'),
-/* Urdu */			'style-urd-ur.css'			=> array('akshar_unicode',		'akshar_unicode',					'Urdu',				'urd-ur'),
+
+/* FILE									LICENSE								FONT						NAME					CSS */
+'font-arabic.css'			=> array('notonaskharabicui',			'notonaskharabicui-regular',	'font-arabic',			'font-arabic'		),
+'font-aramaic.css'			=> array('estrangelo_edessa',			'estrangelo_edessa',			'font-aramaic',			'font-aramaic'		),
+'font-armenian.css'			=> array('arnamu_serif',				'arnamu_serif',					'font-armenian',		'font-armenian'		),
+'font-babelstonehan.css'	=> array('babelstonehan',				'babelstonehan',				'font-babelstonehan',	'font-babelstonehan'),
+'font-bengali.css'			=> array('solaimanlipi',				'solaimanlipi',					'font-bengali',			'font-bengali'		),
+'font-cherokee.css'			=> array('donisiladv',					'donisiladv',					'font-cherokee',		'font-cherokee'		),
+'font-coptic.css'			=> array('newathu5_5',					'newathu5_5',					'font-coptic',			'font-coptic'		),
+'font-devanagari.css'		=> array('notoserifdevanagari',			'notoserifdevanagari-regular',	'font-devanagari',		'font-devanagari'	),
+'font-ezra.css'				=> array('ezra_sil',					'ezra_sil',						'font-ezra',			'font-ezra'			),
+'font-gujarati.css'			=> array('notoserifgujarati',			'notoserifgujarati-regular',	'font-gujarati',		'font-gujarati'		),
+'font-hindi.css'			=> array('akshar_unicode',				'akshar_unicode',				'font-hindi',			'font-hindi'		),
+'font-kannada.css'			=> array('notoserifkannada',			'notoserifkannada-regular',		'font-kannada',			'font-kannada'		),
+'font-khmer.css'			=> array('busra',						'busra',						'font-khmer',			'font-khmer'		),
+'font-korean.css'			=> array('unbatang',					'unbatang',						'font-korean',			'font-korean'		),
+'font-malayalam.css'		=> array('notoserifmalayalam',			'notoserifmalayalam-regular',	'font-malayalam',		'font-malayalam'	),
+'font-myanmar.css'			=> array('padauk-regular',				'padauk-regular',				'font-myanmar',			'font-myanmar'		),
+'font-oriya.css'			=> array('notosansoriyaui',				'notosansoriyaui-regular',		'font-oriya',			'font-oriya'		),
+'font-panjabi.css'			=> array('notosansgurmukhiui',			'notosansgurmukhiui-regular',	'font-panjabi',			'font-panjabi'		),
+'font-persian.css'			=> array('notonaskharabicui',			'notonaskharabicui-regular',	'font-persian',			'font-persian'		),
+'font-sinhala.css'			=> array('abhayalibre',					'abhayalibre',					'font-sinhala',			'font-sinhala'		),
+'font-tamil.css'			=> array('notoseriftamil',				'notoseriftamil-semicondensed',	'font-tamil',			'font-tamil'		),
+'font-telugu.css'			=> array('notoseriftelugu',				'notoseriftelugu-regular',		'font-telugu',			'font-telugu'		),
+'font-thai.css'				=> array('notoserifthai_semicondensed',	'notoserifthai_semicondensed',	'font-thai',			'font-thai'			),
+'font-tibetan.css'			=> array('notoseriftibetan',			'notoseriftibetan',				'font-tibetan',			'font-tibetan'		),
 );
 $font = $G_VERSIONS['LANGUAGESTYLE'];
 if (empty($font)) {				$foreign_font = NULL; }
@@ -574,7 +594,6 @@ $f = $fray[$font][1];
 $n = $fray[$font][2];
 $c = $fray[$font][3]; // unused, all use same tag!
 $opf_manifest .= "<item href='fonts/$l.license'	id='foreign_lic'	media-type='application/text/plain' />";
-$opf_manifest .= "<item href='fonts/$f.woff2'	id='foreign_wo2'	media-type='application/font-woff2' />";	// or /font/woff2
 $opf_manifest .= "<item href='fonts/$f.woff'	id='foreign_wof'	media-type='application/font-woff' />";		// or /font/woff
 $opf_manifest .= "<item href='fonts/$f.ttf'		id='foreign_ttf'	media-type='application/font-sfnt' />";		// or /font/ttf
 $foreign_font = <<< EOF
@@ -582,15 +601,13 @@ $foreign_font = <<< EOF
 	font-family:
 		'$n';
 	src:
-		/* url('fonts/$f.woff2')	format('woff2'), */
 		url('fonts/$f.woff')	format('woff'),
 		url('fonts/$f.ttf')		format('truetype');
 }
-.ff { font-family: 'NotoSans', '$n', 'Arial', 'sans-serif'; }
+.ff { font-family: 'NotoSans', '$n', 'Arial', 'sans-serif', 'GentiumPlus'; }
 
 EOF;
 if (!copy("./aion_customize_index/fonts/$l.license",	"$folder/fonts/$l.license")) {	AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($l)"); }
-if (!copy("./aion_customize_index/fonts/$f.woff2",		"$folder/fonts/$f.woff2")) {	AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
 if (!copy("./aion_customize_index/fonts/$f.woff",		"$folder/fonts/$f.woff")) {		AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
 if (!copy("./aion_customize_index/fonts/$f.ttf",		"$folder/fonts/$f.ttf")) {		AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
 }
@@ -619,8 +636,9 @@ OTHER
 
 /*** FONT ***/
 $basic_font
+$gentium_font
 $foreign_font
-html,body { font-family: 'NotoSans', 'Arial', 'sans-serif'; }
+html,body { font-family: 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
 
 /*** BASE ***/
 html { height: 100%; }
@@ -1129,6 +1147,8 @@ $G_COMMENT
 <p class='center'>$languagehtml<a href='https://www.AionianBible.org/History' target='_blank'>www.AionianBible.org/History</a></p>
 
 <p>The Aionian Bible republishes public domain and Creative Common Bible texts that are 100% free to copy and print. All versions are available online at <a href='https://www.Aionianbible.org/Read' target='_blank' title='The worlds first Holy Bible untranslation'>AionianBible.org</a> in web page, ePub, text, and PDF format.  Also read online with the  <a href='https://www.Aionianbible.org/Google-Play' target='_blank' title='Aionian Bible free online at Google Play'>Android</a>  and  <a href='https://www.Aionianbible.org/Apple-iOS-App' target='_blank' title='Apple iOS App'>Apple iOS App</a>.  Buy print Bibles at <a href='https://www.Aionianbible.org/Buy' target='_blank' title='Holy Bible Aionian Edition at Amazon.com and Lulu.com'>Amazon.com and Lulu.com</a>.<br /><br /></p>
+
+<p><b>02/04/24</b> 352 translations now available in 135 languages.<br /></p>
 
 <p>
 <b>12/04/23</b> <a href='rear-2-glossary.xhtml#g1653' title='Aionian Glossary g165'>Eleēsē (g1653)</a> added to the <a href='rear-2-glossary.xhtml' title='View Aionian Glossary'>Aionian Glossary</a>.<br />

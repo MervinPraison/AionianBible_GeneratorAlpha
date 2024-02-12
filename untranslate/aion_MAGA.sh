@@ -1,5 +1,7 @@
 # Make Aionian Great Again
 
+SECONDS=0
+
 echo
 echo "*** MAGA - MAKE AIONIAN GREAT AGAIN! ***"
 date
@@ -48,6 +50,8 @@ echo
 echo "*** MAGA Spell Check ***"
 ./aion_X_spell.sh 2>&1 | tee aion_X_spell.out
 
+
+
 echo
 date
 echo "*** MAGA Review and TODO ***"
@@ -57,3 +61,5 @@ echo "diff-www-stage-with-www-production-BEFORE-DEPLOY"
 echo "raw-diff-diff"
 echo "spellcheck-diff"
 echo "Copy MARKERS if needed"
+ELAPSED="Elapsed: $(($SECONDS / 3600))hrs $((($SECONDS / 60) % 60))min $(($SECONDS % 60))sec"
+echo $ELAPSED

@@ -4,6 +4,8 @@ require_once('./aion_common_encoding.php');
 use \ForceUTF8\Encoding;
 require_once('./aion_common_rawfix.php');
 function filenotzero($file) { return (file_exists($file) && filesize($file)); }
+ini_set("memory_limit", "2048M");
+ini_set('max_execution_time', 0);
 
 /*** aion echo ***/
 function AION_ECHO($message, $ret=FALSE) {
@@ -136,6 +138,7 @@ function AION_FILE_DATA_GET( $file, $table, &$result, $key, $flip ) {
 }
 function AION_FILE_DATA_PUT( $file, $result, $comments_more=NULL ) {
 	if ( !is_array( $result ) ) {									AION_ECHO('ERROR! AION_FILE_DATA_PUT !is_array(result) '.$file); }
+	$first = array();
 	foreach($result as $first) {
 		if ( !is_array( $first ) ) {								AION_ECHO('ERROR! AION_FILE_DATA_PUT !is_array(first) '.$file); }
 		$one = reset($first);
@@ -509,7 +512,7 @@ function AION_LOOP_UNPACK_DOIT($args) {
 	$bible = $matches[1];
 
 	/* find the source and date */
-	foreach($args['database']['T_SOURCES'] as $source) { if ($source['DESTINATION']==$zipname) { break; } }
+	foreach($args['database']['T_SOURCES'] as $source) { if (isset($source['DESTINATION']) && $source['DESTINATION']==$zipname) { break; } }
 	if (empty($source['SOURCE'])) { AION_ECHO("ERROR! ZIPFILE UNPACK FAILED, SOURCE NOT FOUND: $zipfile"); }
 	$source_date = filemtime($zipfile);
 
@@ -612,7 +615,9 @@ function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $ski
 		'include'	=> '/---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/.*Ukrainian-Ogienko.*---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---Slovene---Slovene-Savli-Bible---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
-		//'include'	=> '/Holy-Bible---(Panjabi|Malayalam|Oriya).+---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',		
+		//'include'	=> '/Holy-Bible---(S[p-z]{1}|[T-Z]{1}).+---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
+		//'include'	=> '/Holy-Bible---Kiche---Totonicapan---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
+		//'include'	=> '/Holy-Bible---Meitei---Meitei-Bible---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
 		'destiny'	=> $destiny,
 		'raw_orig'	=> $raw_orig,
 		'raw_fixed'	=> $raw_fixed,
@@ -2786,6 +2791,7 @@ function AION_LOOP_AION($source, $destiny, $destiny_json) {
 		'function'	=> 'AION_LOOP_AION_DOIT',
 		'source'	=> $source,
 		'include'	=> "/---Standard-Edition\.noia$/",
+		//'include'	=> "/^Holy-Bible---Chinese---Easy-to-Read---Standard-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		'destiny_json'	=> $destiny_json,
@@ -3087,34 +3093,34 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 		'foreign'	=> &$foreign,
 		)));
 	$grandmarker = array();
-	$grandmarker['BIBLE_COUNT']	= $grandtotal['BIBLE_COUNT']-216;
-	$grandmarker['LANG_COUNT']	= $grandtotal['LANG_COUNT']-98;
-	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-5719;
-	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-5130;
-	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-186916;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-4929611;
-	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-48034;
-	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-260;
-	$grandmarker['LONG']		= $grandtotal['LONG']-855;
+	$grandmarker['BIBLE_COUNT']	= $grandtotal['BIBLE_COUNT']-352;
+	$grandmarker['LANG_COUNT']	= $grandtotal['LANG_COUNT']-135;
+	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-8103;
+	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-8596;
+	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-277601;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-7370639;
+	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-77715;
+	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-379;
+	$grandmarker['LONG']		= $grandtotal['LONG']-1120;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-0;
-	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-2054;
-	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-912;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-13206;
-	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-10835;
-	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-8336;
+	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-5844;
+	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-5063;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-13463;
+	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-24487;
+	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-8363;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-717;
 	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-622;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-122374;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-187300;
 	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-25826;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-2740.73;
-	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-109;
-	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-65;
-	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-207;
-	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-118;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-4231.92;
+	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-147;
+	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-80;
+	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-341;
+	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-171;
 	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-147;
-	$grandmarker['PDF_PRTL']	= $grandtotal['PDF_PRTL']-115;
-	$grandmarker['TRANS']		= $grandtotal['TRANS']-66;
+	$grandmarker['PDF_PRTL']	= $grandtotal['PDF_PRTL']-213;
+	$grandmarker['TRANS']		= $grandtotal['TRANS']-291;
 	$grandtotal['LONG']		= ($grandtotal['LONG']		== 0 ? $grandtotal['LONG']		: "<span style='font-weight:bold; color:red;'>".$grandtotal['LONG']."</span>" );
 	$grandtotal['CHAP_NO']	= ($grandtotal['CHAP_NO']	== 0 ? $grandtotal['CHAP_NO']	: "<span style='font-weight:bold; color:red;'>".$grandtotal['CHAP_NO']."</span>" );
 	$grandtotal['VERS_NO']	= ($grandtotal['VERS_NO']	== 0 ? $grandtotal['VERS_NO']	: "<span style='font-weight:bold; color:red;'>".$grandtotal['VERS_NO']."</span>" );
@@ -5471,6 +5477,7 @@ return(array(
 
 /* aionian apocrypha */
 '151' => 'Psalm 151',
+'1EN' => 'I Enoch',
 '1ES' => '1 Esdras',
 '2ES' => '2 Esdras',
 '4ES' => '2 Esdras',
@@ -5481,8 +5488,10 @@ return(array(
 'BAR' => 'Baruch',
 'BEL' => 'Bel and the Dragon',
 'DNG' => 'Daniel, Greek Additions',
+'DNA' => 'Additions to Daniel',
 'EPJ' => 'Epistle of Jeremiah',
 'ESG' => 'Esther, Greek Additions',
+'ESA' => 'Additions to Esther',
 'ETG' => 'Esther, Greek',
 'JDT' => 'Judith',
 'LAD' => 'Laodiceans',
@@ -5573,6 +5582,7 @@ return(array(
 
 /* unbound apocrypha */
 '151' => 'Psalm I5I',
+'1EN' => 'I Enoch',
 '1ES' => 'I Esdras',
 '2ES' => 'II Esdras',
 '4ES' => 'II Esdras',
@@ -5583,8 +5593,10 @@ return(array(
 'BAR' => 'Baruch',
 'BEL' => 'Bel and the Dragon',
 'DNG' => 'Daniel, Greek Additions',
+'DNA' => 'Additions to Daniel',
 'EPJ' => 'Epistle of Jeremiah',
 'ESG' => 'Esther, Greek Additions',
+'ESA' => 'Additions to Esther',
 'ETG' => 'Esther (Greek)',
 'JDT' => 'Judith',
 'LAD' => 'Laodiceans',

@@ -73,6 +73,10 @@ case 'Holy-Bible---English---New-Heart-YHWH' :
 	if (!($bfile = preg_replace('/</us', '[',$bfile,-1,$rnum)) || $rnum!=116) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 	if (!($bfile = preg_replace('/>/us', ']',$bfile,-1,$rnum)) || $rnum!=116) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 	break;
+case 'Holy-Bible---Gamotso---Gamo' :
+	if (!($bfile = preg_replace("/</us","(",$bfile,-1,$rnum)) || $rnum!=102) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+	if (!($bfile = preg_replace("/>/us",")",$bfile,-1,$rnum)) || $rnum!=99) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+	break;
 case 'Holy-Bible---Chinese---Chinese-Union-Version-Simplified' :
 case 'Holy-Bible---Chinese---Chinese-Union-Version-Traditional' :
 case 'Holy-Bible---Japanese---Japanese-Bungo-yaku' :
@@ -684,6 +688,19 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Bengali---Contemporary" :
+if (!($bfile = preg_replace("/\x{2026}/us","",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+JOB 10:20 আমার জীবনের অল্প কয়েকটি দিন কি প্রায় শেষ হতে যাচ্ছে না? আমার কাছ থেকে সরে যাও যেন সেই স্থানে যাওয়ার আগে, আমি এক মুহূর্তের আনন্দ উপভোগ করতে পারি
+JOB 10:21 যেখান থেকে কেউ ফিরে আসে না, বিষাদ ও নিরেট অন্ধকারের সেই দেশ,
+JOB 10:22 
+EOF;
+if (!($bfile = preg_replace("/JOB 10:20 (.+?)JOB 10:22 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Bengali---Bengali-Bible" :
@@ -919,6 +936,18 @@ PSA 123:2
 EOF;
 if (!($bfile = preg_replace("/PSA 123:1 (.+?)PSA 123:2 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Chinese---Chinese-Sigao-Bible" :
+if (!($bfile = preg_replace("/\+\?\x{80}\+\?\x{80}/us","? ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/\+\?\x{80}\+/us","? ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
+
 
 
 
@@ -1592,6 +1621,13 @@ if (!($bfile = preg_replace("/(En Job stierf oud en hoogbejaard\.)/us","\r\nJob 
 if (!($bfile = preg_replace("/ Antiochië3 /us"," Antiochië ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Dutch---Schrift" :
+if (!($bfile = preg_replace("/\x{feff}/us","",$bfile,-1,$rnum)) || $rnum!=26) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
 
 
 
@@ -2537,6 +2573,16 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---English---King-James-Version-Restored-Name" :
+if (!($bfile = preg_replace('/יהוה/us','YHWH',$bfile,-1,$rnum)) || $rnum!=8227) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+if (!($bfile = preg_replace('/Hebrew אדני/us',' ',$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---English---King-James-Version-Updated" :
 if (!($bfile = preg_replace('/\(p\.[ ]+/us','(',$bfile,-1,$rnum)) || $rnum!=13) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace('/\(o\.[ ]+/us','(',$bfile,-1,$rnum)) || $rnum!=902) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -2753,6 +2799,15 @@ Matthew 23:13 But alas for you, Scribes and Pharisees, hypocrites; because ye ar
 Matthew 23:15 
 EOF;
 if (!($bfile = preg_replace("/Matthew 23:14 (.+?)Matthew 23:15 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---English---Syriac-Peshitta-Murdock" :
+if (!($bfile = preg_replace('/[\x{0F}]+/ui'," ",$bfile,-1,$rnum)) || $rnum!=4) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com
+$bfile_saved = $bfile;
 goto RAWHIDE;
 
 
@@ -4754,6 +4809,11 @@ if (!($bfile = preg_replace("/Revelation of John 1:5 (.+?)Revelation of John 1:7
 goto RAWHIDE;
 
 
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Gamotso---Gamo" :
+$bfile .= "REV 22:1 (note: chapter missing)";
+goto RAWHIDE;
 
 
 
@@ -7724,6 +7784,14 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Kurdish---Sorani-Bible" :
+if (!($bfile = preg_replace("/[\x{231e}\x{231f}]+/us"," ",$bfile,-1,$rnum)) || $rnum!=42) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
+
+
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Latin---Clementine-Vulgate-1598" :
@@ -9755,6 +9823,13 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible" :
+if (!($bfile = preg_replace("/[\x{05d0}-\x{05ea}\x{fb31}\x{fb44}]+/us"," ",$bfile,-1,$rnum)) || $rnum!=174) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Malayalam---Malayalam-Bible" :
@@ -9902,6 +9977,16 @@ REV 7:12 “ആമേൻ;” നമ്മുടെ ദൈവത്തിന് �
 REV 7:13 
 EOF;
 if (!($bfile = preg_replace("/REV 7:11 (.+?)REV 7:13 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Manipuri---Meitei-Bible" :
+if (!($bfile = preg_replace("/[\x{92}\x{93}\x{94}]+/us",'',$bfile,-1,$rnum)) || $rnum!=2671) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/\x{01c3}/us","!",$bfile,-1,$rnum)) || $rnum!=3) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
 goto RAWHIDE;
 
 
@@ -11446,6 +11531,15 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Persian---Open-Contemporary" :
+if (!($bfile = preg_replace("/\x{200e}/us",' ',$bfile,-1,$rnum)) || $rnum!=14) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
+
+
+
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet" :
@@ -12176,6 +12270,72 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Romanian---Cyrillic" :
+$bigfix = <<<EOF
+JOH 11:1 (Chapter 11 from Romanian Free Bible) Un om bolnav, Lazăr, din Betania, din satul Mariei și al Martei, sora ei, era bolnav.
+JOH 11:2 Maria, care unsese pe Domnul cu mir și Îi ștergea picioarele cu părul ei, era aceea al cărei frate, Lazăr, era bolnav.
+JOH 11:3 De aceea surorile au trimis la el, spunând: “Doamne, iată că cel pentru care ai mare afecțiune este bolnav.”
+JOH 11:4 Dar Isus, auzind, a zis: “Boala aceasta nu este pentru moarte, ci pentru slava lui Dumnezeu, ca Fiul lui Dumnezeu să fie proslăvit prin ea.”
+JOH 11:5 Isus iubea pe Marta, pe sora ei și pe Lazăr.
+JOH 11:6 De aceea, când a auzit că acesta era bolnav, a stat două zile în locul unde se afla.
+JOH 11:7 După aceea, a zis ucenicilor: “Să mergem din nou în Iudeea.”
+JOH 11:8 Ucenicii L-au întrebat: “Rabi, iudeii tocmai voiau să Te ucidă cu pietre. Te duci din nou acolo?”
+JOH 11:9 Isus a răspuns: “Nu sunt oare douăsprezece ore de lumină? Dacă un om umblă ziua, nu se poticnește, pentru că vede lumina acestei lumi.
+JOH 11:10 Dar dacă un om umblă noaptea, se împiedică, pentru că lumina nu este în el.”
+JOH 11:11 El a spus aceste lucruri și, după aceea, le-a zis: “Prietenul nostru Lazăr a adormit, dar eu mă duc ca să-l trezesc din somn.”
+JOH 11:12 Și ucenicii au zis: “Doamne, dacă a adormit, își va reveni.”
+JOH 11:13 Isus vorbise despre moartea Sa, dar ei credeau că vorbea despre odihna în somn.
+JOH 11:14 Atunci Isus le-a spus clar și răspicat: “Lazăr a murit.
+JOH 11:15 Mă bucur, pentru voi, că nu am fost acolo, ca să credeți. Totuși, să mergem la el”.
+JOH 11:16 Toma, zis Didim, a zis tovarășilor săi ucenici: “Să mergem și noi, ca să murim împreună cu El”.
+JOH 11:17 Când a venit Isus, a aflat că era deja de patru zile în mormânt.
+JOH 11:18 Betania era aproape de Ierusalim, la o distanță de vreo cincisprezece stadii.
+JOH 11:19 Mulți dintre iudei se alăturaseră femeilor din jurul Martei și al Mariei, ca să le consoleze cu privire la fratele lor.
+JOH 11:20 Când a auzit Marta că vine Isus, s-a dus să-l întâmpine, dar Maria a rămas în casă.
+JOH 11:21 Atunci Marta i-a zis lui Isus: “Doamne, dacă ai fi fost aici, fratele meu nu ar fi murit.
+JOH 11:22 Chiar și acum știu că tot ce ceri de la Dumnezeu, Dumnezeu îți va da”.
+JOH 11:23 Isus i-a zis: “Fratele tău va învia.”
+JOH 11:24 Marta i-a zis: “Știu că va învia la înviere, în ziua de apoi.”
+JOH 11:25 Isus i-a zis: “Eu sunt învierea și viața. Cel ce crede în Mine va trăi, chiar dacă va muri.
+JOH 11:26 Oricine trăiește și crede în Mine nu va muri niciodată. Crezi tu asta?”
+JOH 11:27 Ea i-a zis: “Da, Doamne. Am ajuns să cred că Tu ești Hristosul, Fiul lui Dumnezeu, Cel care vine în lume.”
+JOH 11:28 După ce a zis acestea, s-a dus și a chemat pe ascuns pe Maria, sora ei, zicând: “Învățătorul este aici și te cheamă.”
+JOH 11:29 Când a auzit aceasta, s-a sculat repede și s-a dus la el.
+JOH 11:30 Isus nu intrase încă în sat, ci era în locul unde L-a întâlnit Marta.
+JOH 11:31 Iudeii care erau cu ea în casă și o consolau, când au văzut-o pe Maria că s-a sculat repede și a ieșit, au urmărit-o și au zis: “Se duce la mormânt ca să plângă acolo.”
+JOH 11:32 Maria, când a ajuns unde era Isus și L-a văzut, a căzut la picioarele Lui și I-a zis: “Doamne, dacă ai fi fost aici, fratele meu n-ar fi murit.”
+JOH 11:33 Isus, văzând-o pe ea plângând și pe iudeii care plângeau împreună cu ea, a gemut în duh și s-a tulburat
+JOH 11:34 și a zis: “Unde L-ați pus?” I-au spus: “Doamne, vino și vezi”.
+JOH 11:35 Isus a plâns.
+JOH 11:36 Iudeii ziceau deci: “Vedeți câtă dragoste avea pentru el!”
+JOH 11:37 Unii dintre ei spuneau: “Nu putea oare acest om, care a deschis ochii orbului, să împiedice și pe acesta să moară?”
+JOH 11:38 Isus a venit la mormânt, gemând iarăși în sine. Era o peșteră, și o piatră era așezată împotriva ei.
+JOH 11:39 Isus a zis: “Scoateți piatra”. Marta, sora celui mort, I-a zis: “Doamne, la ora aceasta este o putoare, căci este mort de patru zile.”
+JOH 11:40 Isus i-a zis: “Nu ți-am spus Eu că, dacă vei crede, vei vedea slava lui Dumnezeu?”
+JOH 11:41 Și au îndepărtat piatra din locul unde zăcea mortul. Isus și-a ridicat ochii și a zis: “Tată, îți mulțumesc că m-ai ascultat.
+JOH 11:42 Știu că întotdeauna mă asculți, dar, din cauza mulțimii care stătea în jur, am spus aceasta, ca să creadă că tu m-ai trimis.”
+JOH 11:43 După ce a spus aceasta, a strigat cu glas tare: “Lazăr, ieși afară!”
+JOH 11:44 Cel mort a ieșit, legat de mâini și de picioare, și avea fața înfășurată cu o pânză. Isus le-a zis: “Eliberați-l și lăsați-l să plece”.
+JOH 11:45 De aceea mulți dintre iudeii care au venit la Maria și au văzut ce făcea Isus au crezut în El.
+JOH 11:46 Dar unii dintre ei s-au dus la farisei și le-au spus ce făcuse Isus.
+JOH 11:47 Preoții cei mai de seamă și fariseii au adunat deci un consiliu și au zis: “Ce facem? Căci omul acesta face multe semne.
+JOH 11:48 Dacă îl lăsăm așa, toată lumea va crede în el, iar romanii vor veni și ne vor lua atât locul nostru, cât și națiunea noastră.”
+JOH 11:49 Dar unul dintre ei, Caiafa, care era mare preot în anul acela, le-a zis: “Voi nu știți nimic,
+JOH 11:50 și nici nu vă gândiți că ne este de folos ca un singur om să moară pentru popor și să nu piară tot neamul.”
+JOH 11:51 Or, el nu a spus acest lucru de la sine, ci, fiind mare preot în acel an, a profețit că Isus va muri pentru națiune,
+JOH 11:52 și nu numai pentru națiune, ci și pentru a-i aduna la un loc pe copiii lui Dumnezeu care sunt împrăștiați.
+JOH 11:53 Astfel, din ziua aceea s-au sfătuit ca să îl omoare.
+JOH 11:54 De aceea, Isus nu a mai umblat în mod deschis printre iudei, ci a plecat de acolo în ținutul de lângă pustiu, într-o cetate numită Efraim. Acolo a rămas cu discipolii Săi.
+JOH 11:55 Și se apropia Paștele iudeilor. Mulți se urcau din țară la Ierusalim înainte de Paște, ca să se purifice.
+JOH 11:56 Apoi căutau pe Isus și vorbeau între ei, în timp ce stăteau în templu: “Ce credeți voi — că nu vine deloc la sărbătoare?”
+JOH 11:57 Preoții cei mai de seamă și fariseii porunciseră ca, dacă cineva știa unde se află, să anunțe, ca să îl prindă.
+JOH 12:1 
+EOF;
+if (!($bfile = preg_replace("/JOH 12:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Romanian---Ludari-Luke" :
@@ -12351,6 +12511,65 @@ MAT 11:10 Ono yuyo wasimbiwilwe, 'Enya, ihutuma ujumbe wane whilongolela yimaso 
 MAT 11:11 
 EOF;
 if (!($bfile = preg_replace("/MAT 11:9 (.+?)MAT 11:11 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Sanskrit---Assamese-Script" :
+case "Holy-Bible---Sanskrit---Bengali-Script" :
+case "Holy-Bible---Sanskrit---Burmese-Script" :
+case "Holy-Bible---Sanskrit---Cologne-Script" :
+case "Holy-Bible---Sanskrit---Devanagari-Script" :
+case "Holy-Bible---Sanskrit---Gujarati-Script" :
+case "Holy-Bible---Sanskrit---Harvard-Kyoto-Script" :
+case "Holy-Bible---Sanskrit---IAST-Script" :
+case "Holy-Bible---Sanskrit---ISO-Script" :
+case "Holy-Bible---Sanskrit---ITRANS-Script" :
+case "Holy-Bible---Sanskrit---Kannada-Script" :
+case "Holy-Bible---Sanskrit---Khmer-Script" :
+case "Holy-Bible---Sanskrit---Malayalam-Script" :
+case "Holy-Bible---Sanskrit---Oriya-Script" :
+case "Holy-Bible---Sanskrit---Punjabi-Script" :
+case "Holy-Bible---Sanskrit---Sinhala-Script" :
+case "Holy-Bible---Sanskrit---Tamil-Script" :
+case "Holy-Bible---Sanskrit---Telugu-Script" :
+case "Holy-Bible---Sanskrit---Thai-Script" :
+case "Holy-Bible---Sanskrit---Tibetan-Script" :
+case "Holy-Bible---Sanskrit---Urdu-Script" :
+case "Holy-Bible---Sanskrit---Velthuis-Script" :
+if ($bible == "Holy-Bible---Sanskrit---Devanagari-Script") {
+	if (!($bfile = preg_replace("/\x{0178}/us","",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+}
+else {
+	if (!($bfile = preg_replace("/[\x{093e}\x{093f}\x{0940}\x{0941}\x{0942}\x{0943}\x{0947}\x{0948}\x{094c}\x{094d}\x{0178}]+/us","",$bfile,-1,$rnum)) || $rnum!=125) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+}
+if ($bible == "Holy-Bible---Sanskrit---Urdu-Script") {
+	if (!($bfile = preg_replace("/\x{0970}/us","",$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+}
+else if ($bible != "Holy-Bible---Sanskrit---Cologne-Script" &&
+		$bible != "Holy-Bible---Sanskrit---Harvard-Kyoto-Script" &&
+		$bible != "Holy-Bible---Sanskrit---IAST-Script" &&
+		$bible != "Holy-Bible---Sanskrit---ISO-Script" &&
+		$bible != "Holy-Bible---Sanskrit---ITRANS-Script" &&
+		$bible != "Holy-Bible---Sanskrit---Khmer-Script" &&
+		$bible != "Holy-Bible---Sanskrit---Velthuis-Script") {
+	if (!($bfile = preg_replace("/\x{0970}/us","",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+}
+if ($bible == "Holy-Bible---Sanskrit---Velthuis-Script") {
+	if (!($bfile = preg_replace("/\x{200c}/us","",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+}
+if ($bible == "Holy-Bible---Sanskrit---Malayalam-Script" ||
+	$bible == "Holy-Bible---Sanskrit---Tamil-Script" ||
+	$bible == "Holy-Bible---Sanskrit---Telugu-Script") {
+	if (!($bfile = preg_replace("/\x{00b7}/us","",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+}
+if ($bible == "Holy-Bible---Sanskrit---Tamil-Script") {
+	if (!($bfile = preg_replace("/\x{02bc}/us","’",$bfile,-1,$rnum)) || $rnum!=26341) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+}
+$bfile_saved = $bfile;
+if (!($bfile = preg_replace("/^(MAT 6:6 .+)l$/mu",'$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/^(MAT 7:25 .+)l$/mu",'$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -14667,7 +14886,7 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Vietnamese---Vietnamese-Bible-1934" :
-if (!($bfile = preg_replace('/[\x80\x81\x87\x89\x8d\x91\x93\x95\x9b\x9d\x9f]+/ui',"-",$bfile,-1,$rnum)) || $rnum!=17) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com
+if (!($bfile = preg_replace('/[\x{80}\x{81}\x{87}\x{89}\x{8d}\x{91}\x{93}\x{95}\x{9b}\x{9d}\x{9f}]+/ui',"-",$bfile,-1,$rnum)) || $rnum!=17) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com
 if (!($bfile = preg_replace("/ch@ ng/us","chàng", $bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/Y-sơ-ra-@ªn/us","Y-sơ-ra-ên", $bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/n@³i/us","nói", $bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -14757,6 +14976,15 @@ REV 19:2 Uluhighilo lwa mwene lwa lweli ulwa kyang'aani, ulwakuuva amighile umal
 REV 19:3 
 EOF;
 if (!($bfile = preg_replace("/REV 19:1 (.+?)REV 19:3 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Yombe---Yombe-Bible" :
+if (!($bfile = preg_replace('/\x{a78c}/ui',"'",$bfile,-1,$rnum)) || $rnum!=1057) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
 goto RAWHIDE;
 
 

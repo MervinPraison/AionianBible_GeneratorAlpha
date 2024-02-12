@@ -1,7 +1,6 @@
 <?php
 require_once('./aion_common.php');
 use \ForceUTF8\Encoding;
-ini_set("memory_limit", "1024M");
 
 // TODO NOTES
 // Uncomment the lines to allow copying the latest git hub report
@@ -1713,6 +1712,7 @@ static $lookup = array(
 'N:A-F'=>'Proper Name Adjective Feminine person',
 'N:A--L'=>'Proper Name Adjective Location',
 'N:ADV-T'=>'Proper Name Adverb',
+'N:N' => 'Proper Name of a Location or Person with no stated gender',
 'N:N--L/N:N--LG/N:N-M-P'=>'Proper Name of a Location OR of a Location in Gentilic sense OR of a Male Person',
 'N:N--L/N:N--LG'=>'Proper Name of a Location OR of a Location in Gentilic sense',
 'N:N--L/N:N-M-P'=>'Proper Name of a Location OR of a Male Person',

@@ -24,7 +24,15 @@ OTHER
 		url('../fonts/notosans-basic-regular.woff')	format('woff'),
 		url('../fonts/notosans-basic-regular.ttf')		format('truetype');
 }
-html,body	{ font-family: 'NotoSans', 'Arial', 'sans-serif'; }
+@font-face {
+	font-family:
+		'GentiumPlus';
+	src:
+		url('../fonts/gentiumplus-r.woff2')	format('woff2'),
+		url('../fonts/gentiumplus-r.woff')	format('woff'),
+		url('../fonts/gentiumplus-r.ttf')	format('truetype');
+}
+html,body	{ font-family: 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
 
 /*** BASE ***/
 html { height: 100%; }
