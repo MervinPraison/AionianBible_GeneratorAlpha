@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 837438      
-# File Date: 02/12/2024 16:28:41
+# File Size: 837552      
+# File Date: 02/19/2024 23:29:26
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -2525,24 +2525,24 @@ Holy-Bible---Safwa---Safwa-Bible	EXO-013-017
 Holy-Bible---Safwa---Safwa-Bible	MAR-010-045	Maluko 10:45	Wahuje Umwana wa Adamu hagaahiza atumishilwe bali atumishe nafume maisha gakwe abhvhe lisombo wa vhinji.”
 Holy-Bible---Safwa---Safwa-Bible	ROM-001-001	Walumi 1:1	O Paulo, otumwi owa Yesu Kilisiti, yakwiziwe abhe tumi, nabagulwe hu ndommbelelo ezya Ngolobhe.
 Holy-Bible---Safwa---Safwa-Bible	MAT-028-019	Mathayo 28:19	Eshi bhalaji mubhabheshe abha munsi wonti abhe bhanafunzi, wuoziaji hwitawa lya Daada nalya mwana nilya upepo ufijile.
-Holy-Bible---Sanskrit---Assamese-Script	JOH-003-016	যোহনঃ ৩:১৬	ঈশ্ৱৰ ইত্থং জগদদযত যৎ স্ৱমদ্ৱিতীযং তনযং প্ৰাদদাৎ ততো যঃ কশ্চিৎ তস্মিন্ ৱিশ্ৱসিষ্যতি সোঽৱিনাশ্যঃ সন্ অনন্তাযুঃ প্ৰাপ্স্যতি
+Holy-Bible---Sanskrit---Assamese-Script	JOH-003-016	যোহনঃ ৩:১৬	ঈশ্ৱৰ ইত্থং জগদদযত যৎ স্ৱমদ্ৱিতীযং তনযং প্ৰাদদাৎ ততো যঃ কশ্চিৎ তস্মিন্ ৱিশ্ৱসিষ্যতি সোঽৱিনাশ্যঃ সন্ অনন্তাযুঃ প্ৰাপ্স্যতি|
 Holy-Bible---Sanskrit---Assamese-Script	GEN-003-024		
-Holy-Bible---Sanskrit---Assamese-Script	LUK-023-034	লূকঃ ২৩:৩৪	তদা যীশুৰকথযৎ, হে পিতৰেতান্ ক্ষমস্ৱ যত এতে যৎ কৰ্ম্ম কুৰ্ৱ্ৱন্তি তন্ ন ৱিদুঃ; পশ্চাত্তে গুটিকাপাতং কৃৎৱা তস্য ৱস্ত্ৰাণি ৱিভজ্য জগৃহুঃ
-Holy-Bible---Sanskrit---Assamese-Script	REV-021-002	প্ৰকাশিতং ২১:২-৩	অপৰং স্ৱৰ্গাদ্ অৱৰোহন্তী পৱিত্ৰা নগৰী, অৰ্থতো নৱীনা যিৰূশালমপুৰী মযা দৃষ্টা, সা ৱৰায ৱিভূষিতা কন্যেৱ সুসজ্জিতাসীৎ অনন্তৰং স্ৱৰ্গাদ্ এষ মহাৰৱো মযা শ্ৰুতঃ পশ্যাযং মানৱৈঃ সাৰ্দ্ধম্ ঈশ্ৱৰস্যাৱাসঃ, স তৈঃ সাৰ্দ্ধং ৱৎস্যতি তে চ তস্য প্ৰজা ভৱিষ্যন্তি, ঈশ্ৱৰশ্চ স্ৱযং তেষাম্ ঈশ্ৱৰো ভূৎৱা তৈঃ সাৰ্দ্ধং স্থাস্যতি
-Holy-Bible---Sanskrit---Assamese-Script	HEB-011-008	ইব্ৰিণঃ ১১:৮	ৱিশ্ৱাসেনেব্ৰাহীম্ আহূতঃ সন্ আজ্ঞাং গৃহীৎৱা যস্য স্থানস্যাধিকাৰস্তেন প্ৰাপ্তৱ্যস্তৎ স্থানং প্ৰস্থিতৱান্ কিন্তু প্ৰস্থানসমযে ক্ক যামীতি নাজানাৎ
+Holy-Bible---Sanskrit---Assamese-Script	LUK-023-034	লূকঃ ২৩:৩৪	তদা যীশুৰকথযৎ, হে পিতৰেতান্ ক্ষমস্ৱ যত এতে যৎ কৰ্ম্ম কুৰ্ৱ্ৱন্তি তন্ ন ৱিদুঃ; পশ্চাত্তে গুটিকাপাতং কৃৎৱা তস্য ৱস্ত্ৰাণি ৱিভজ্য জগৃহুঃ|
+Holy-Bible---Sanskrit---Assamese-Script	REV-021-002	প্ৰকাশিতং ২১:২-৩	অপৰং স্ৱৰ্গাদ্ অৱৰোহন্তী পৱিত্ৰা নগৰী, অৰ্থতো নৱীনা যিৰূশালমপুৰী মযা দৃষ্টা, সা ৱৰায ৱিভূষিতা কন্যেৱ সুসজ্জিতাসীৎ| অনন্তৰং স্ৱৰ্গাদ্ এষ মহাৰৱো মযা শ্ৰুতঃ পশ্যাযং মানৱৈঃ সাৰ্দ্ধম্ ঈশ্ৱৰস্যাৱাসঃ, স তৈঃ সাৰ্দ্ধং ৱৎস্যতি তে চ তস্য প্ৰজা ভৱিষ্যন্তি, ঈশ্ৱৰশ্চ স্ৱযং তেষাম্ ঈশ্ৱৰো ভূৎৱা তৈঃ সাৰ্দ্ধং স্থাস্যতি|
+Holy-Bible---Sanskrit---Assamese-Script	HEB-011-008	ইব্ৰিণঃ ১১:৮	ৱিশ্ৱাসেনেব্ৰাহীম্ আহূতঃ সন্ আজ্ঞাং গৃহীৎৱা যস্য স্থানস্যাধিকাৰস্তেন প্ৰাপ্তৱ্যস্তৎ স্থানং প্ৰস্থিতৱান্ কিন্তু প্ৰস্থানসমযে ক্ক যামীতি নাজানাৎ|
 Holy-Bible---Sanskrit---Assamese-Script	EXO-013-017		
-Holy-Bible---Sanskrit---Assamese-Script	MAR-010-045	মাৰ্কঃ ১০:৪৫	যতো মনুষ্যপুত্ৰঃ সেৱ্যো ভৱিতুং নাগতঃ সেৱাং কৰ্ত্তাং তথানেকেষাং পৰিত্ৰাণস্য মূল্যৰূপস্ৱপ্ৰাণং দাতুঞ্চাগতঃ
+Holy-Bible---Sanskrit---Assamese-Script	MAR-010-045	মাৰ্কঃ ১০:৪৫	যতো মনুষ্যপুত্ৰঃ সেৱ্যো ভৱিতুং নাগতঃ সেৱাং কৰ্ত্তাং তথানেকেষাং পৰিত্ৰাণস্য মূল্যৰূপস্ৱপ্ৰাণং দাতুঞ্চাগতঃ|
 Holy-Bible---Sanskrit---Assamese-Script	ROM-001-001	ৰোমিণঃ ১:১	ঈশ্ৱৰো নিজপুত্ৰমধি যং সুসংৱাদং ভৱিষ্যদ্ৱাদিভি ৰ্ধৰ্ম্মগ্ৰন্থে প্ৰতিশ্ৰুতৱান্ তং সুসংৱাদং প্ৰচাৰযিতুং পৃথক্কৃত আহূতঃ প্ৰেৰিতশ্চ প্ৰভো ৰ্যীশুখ্ৰীষ্টস্য সেৱকো যঃ পৌলঃ
-Holy-Bible---Sanskrit---Assamese-Script	MAT-028-019	মথিঃ ২৮:১৯	অতো যূযং প্ৰযায সৰ্ৱ্ৱদেশীযান্ শিষ্যান্ কৃৎৱা পিতুঃ পুত্ৰস্য পৱিত্ৰস্যাত্মনশ্চ নাম্না তানৱগাহযত; অহং যুষ্মান্ যদ্যদাদিশং তদপি পালযিতুং তানুপাদিশত
-Holy-Bible---Sanskrit---Bengali-Script	JOH-003-016	যোহনঃ ৩:১৬	ঈশ্ৱর ইত্থং জগদদযত যৎ স্ৱমদ্ৱিতীযং তনযং প্রাদদাৎ ততো যঃ কশ্চিৎ তস্মিন্ ৱিশ্ৱসিষ্যতি সোঽৱিনাশ্যঃ সন্ অনন্তাযুঃ প্রাপ্স্যতি
+Holy-Bible---Sanskrit---Assamese-Script	MAT-028-019	মথিঃ ২৮:১৯	অতো যূযং প্ৰযায সৰ্ৱ্ৱদেশীযান্ শিষ্যান্ কৃৎৱা পিতুঃ পুত্ৰস্য পৱিত্ৰস্যাত্মনশ্চ নাম্না তানৱগাহযত; অহং যুষ্মান্ যদ্যদাদিশং তদপি পালযিতুং তানুপাদিশত|
+Holy-Bible---Sanskrit---Bengali-Script	JOH-003-016	যোহনঃ ৩:১৬	ঈশ্ৱর ইত্থং জগদদযত যৎ স্ৱমদ্ৱিতীযং তনযং প্রাদদাৎ ততো যঃ কশ্চিৎ তস্মিন্ ৱিশ্ৱসিষ্যতি সোঽৱিনাশ্যঃ সন্ অনন্তাযুঃ প্রাপ্স্যতি|
 Holy-Bible---Sanskrit---Bengali-Script	GEN-003-024		
-Holy-Bible---Sanskrit---Bengali-Script	LUK-023-034	লূকঃ ২৩:৩৪	তদা যীশুরকথযৎ, হে পিতরেতান্ ক্ষমস্ৱ যত এতে যৎ কর্ম্ম কুর্ৱ্ৱন্তি তন্ ন ৱিদুঃ; পশ্চাত্তে গুটিকাপাতং কৃৎৱা তস্য ৱস্ত্রাণি ৱিভজ্য জগৃহুঃ
-Holy-Bible---Sanskrit---Bengali-Script	REV-021-002	প্রকাশিতং ২১:২-৩	অপরং স্ৱর্গাদ্ অৱরোহন্তী পৱিত্রা নগরী, অর্থতো নৱীনা যিরূশালমপুরী মযা দৃষ্টা, সা ৱরায ৱিভূষিতা কন্যেৱ সুসজ্জিতাসীৎ অনন্তরং স্ৱর্গাদ্ এষ মহারৱো মযা শ্রুতঃ পশ্যাযং মানৱৈঃ সার্দ্ধম্ ঈশ্ৱরস্যাৱাসঃ, স তৈঃ সার্দ্ধং ৱৎস্যতি তে চ তস্য প্রজা ভৱিষ্যন্তি, ঈশ্ৱরশ্চ স্ৱযং তেষাম্ ঈশ্ৱরো ভূৎৱা তৈঃ সার্দ্ধং স্থাস্যতি
-Holy-Bible---Sanskrit---Bengali-Script	HEB-011-008	ইব্রিণঃ ১১:৮	ৱিশ্ৱাসেনেব্রাহীম্ আহূতঃ সন্ আজ্ঞাং গৃহীৎৱা যস্য স্থানস্যাধিকারস্তেন প্রাপ্তৱ্যস্তৎ স্থানং প্রস্থিতৱান্ কিন্তু প্রস্থানসমযে ক্ক যামীতি নাজানাৎ
+Holy-Bible---Sanskrit---Bengali-Script	LUK-023-034	লূকঃ ২৩:৩৪	তদা যীশুরকথযৎ, হে পিতরেতান্ ক্ষমস্ৱ যত এতে যৎ কর্ম্ম কুর্ৱ্ৱন্তি তন্ ন ৱিদুঃ; পশ্চাত্তে গুটিকাপাতং কৃৎৱা তস্য ৱস্ত্রাণি ৱিভজ্য জগৃহুঃ|
+Holy-Bible---Sanskrit---Bengali-Script	REV-021-002	প্রকাশিতং ২১:২-৩	অপরং স্ৱর্গাদ্ অৱরোহন্তী পৱিত্রা নগরী, অর্থতো নৱীনা যিরূশালমপুরী মযা দৃষ্টা, সা ৱরায ৱিভূষিতা কন্যেৱ সুসজ্জিতাসীৎ| অনন্তরং স্ৱর্গাদ্ এষ মহারৱো মযা শ্রুতঃ পশ্যাযং মানৱৈঃ সার্দ্ধম্ ঈশ্ৱরস্যাৱাসঃ, স তৈঃ সার্দ্ধং ৱৎস্যতি তে চ তস্য প্রজা ভৱিষ্যন্তি, ঈশ্ৱরশ্চ স্ৱযং তেষাম্ ঈশ্ৱরো ভূৎৱা তৈঃ সার্দ্ধং স্থাস্যতি|
+Holy-Bible---Sanskrit---Bengali-Script	HEB-011-008	ইব্রিণঃ ১১:৮	ৱিশ্ৱাসেনেব্রাহীম্ আহূতঃ সন্ আজ্ঞাং গৃহীৎৱা যস্য স্থানস্যাধিকারস্তেন প্রাপ্তৱ্যস্তৎ স্থানং প্রস্থিতৱান্ কিন্তু প্রস্থানসমযে ক্ক যামীতি নাজানাৎ|
 Holy-Bible---Sanskrit---Bengali-Script	EXO-013-017		
-Holy-Bible---Sanskrit---Bengali-Script	MAR-010-045	মার্কঃ ১০:৪৫	যতো মনুষ্যপুত্রঃ সেৱ্যো ভৱিতুং নাগতঃ সেৱাং কর্ত্তাং তথানেকেষাং পরিত্রাণস্য মূল্যরূপস্ৱপ্রাণং দাতুঞ্চাগতঃ
+Holy-Bible---Sanskrit---Bengali-Script	MAR-010-045	মার্কঃ ১০:৪৫	যতো মনুষ্যপুত্রঃ সেৱ্যো ভৱিতুং নাগতঃ সেৱাং কর্ত্তাং তথানেকেষাং পরিত্রাণস্য মূল্যরূপস্ৱপ্রাণং দাতুঞ্চাগতঃ|
 Holy-Bible---Sanskrit---Bengali-Script	ROM-001-001	রোমিণঃ ১:১	ঈশ্ৱরো নিজপুত্রমধি যং সুসংৱাদং ভৱিষ্যদ্ৱাদিভি র্ধর্ম্মগ্রন্থে প্রতিশ্রুতৱান্ তং সুসংৱাদং প্রচারযিতুং পৃথক্কৃত আহূতঃ প্রেরিতশ্চ প্রভো র্যীশুখ্রীষ্টস্য সেৱকো যঃ পৌলঃ
-Holy-Bible---Sanskrit---Bengali-Script	MAT-028-019	মথিঃ ২৮:১৯	অতো যূযং প্রযায সর্ৱ্ৱদেশীযান্ শিষ্যান্ কৃৎৱা পিতুঃ পুত্রস্য পৱিত্রস্যাত্মনশ্চ নাম্না তানৱগাহযত; অহং যুষ্মান্ যদ্যদাদিশং তদপি পালযিতুং তানুপাদিশত
+Holy-Bible---Sanskrit---Bengali-Script	MAT-028-019	মথিঃ ২৮:১৯	অতো যূযং প্রযায সর্ৱ্ৱদেশীযান্ শিষ্যান্ কৃৎৱা পিতুঃ পুত্রস্য পৱিত্রস্যাত্মনশ্চ নাম্না তানৱগাহযত; অহং যুষ্মান্ যদ্যদাদিশং তদপি পালযিতুং তানুপাদিশত|
 Holy-Bible---Sanskrit---Burmese-Script	JOH-003-016	ယောဟနး 3:16	ဤၑွရ ဣတ္ထံ ဇဂဒဒယတ ယတ် သွမဒွိတီယံ တနယံ ပြာဒဒါတ် တတော ယး ကၑ္စိတ် တသ္မိန် ဝိၑွသိၐျတိ သော'ဝိနာၑျး သန် အနန္တာယုး ပြာပ္သျတိ၊
 Holy-Bible---Sanskrit---Burmese-Script	GEN-003-024		
 Holy-Bible---Sanskrit---Burmese-Script	LUK-023-034	လူကး 23:34	တဒါ ယီၑုရကထယတ်, ဟေ ပိတရေတာန် က္ၐမသွ ယတ ဧတေ ယတ် ကရ္မ္မ ကုရွွန္တိ တန် န ဝိဒုး; ပၑ္စာတ္တေ ဂုဋိကာပါတံ ကၖတွာ တသျ ဝသ္တြာဏိ ဝိဘဇျ ဇဂၖဟုး၊
@@ -2552,15 +2552,15 @@ Holy-Bible---Sanskrit---Burmese-Script	EXO-013-017
 Holy-Bible---Sanskrit---Burmese-Script	MAR-010-045	မာရ္ကး 10:45	ယတော မနုၐျပုတြး သေဝျော ဘဝိတုံ နာဂတး သေဝါံ ကရ္တ္တာံ တထာနေကေၐာံ ပရိတြာဏသျ မူလျရူပသွပြာဏံ ဒါတုဉ္စာဂတး၊
 Holy-Bible---Sanskrit---Burmese-Script	ROM-001-001	ရောမိဏး 1:1	ဤၑွရော နိဇပုတြမဓိ ယံ သုသံဝါဒံ ဘဝိၐျဒွါဒိဘိ ရ္ဓရ္မ္မဂြန္ထေ ပြတိၑြုတဝါန် တံ သုသံဝါဒံ ပြစာရယိတုံ ပၖထက္ကၖတ အာဟူတး ပြေရိတၑ္စ ပြဘော ရျီၑုခြီၐ္ဋသျ သေဝကော ယး ပေါ်လး
 Holy-Bible---Sanskrit---Burmese-Script	MAT-028-019	မထိး 28:19	အတော ယူယံ ပြယာယ သရွွဒေၑီယာန် ၑိၐျာန် ကၖတွာ ပိတုး ပုတြသျ ပဝိတြသျာတ္မနၑ္စ နာမ္နာ တာနဝဂါဟယတ; အဟံ ယုၐ္မာန် ယဒျဒါဒိၑံ တဒပိ ပါလယိတုံ တာနုပါဒိၑတ၊
-Holy-Bible---Sanskrit---Cologne-Script	JOH-003-016	yOhanaH 3:16	Izvara itthaM jagadadayata yat svamadvitIyaM tanayaM prAdadAt tatO yaH kazcit tasmin vizvasiSyati sO'vinAzyaH san anantAyuH prApsyati
+Holy-Bible---Sanskrit---Cologne-Script	JOH-003-016	yOhanaH 3:16	Izvara itthaM jagadadayata yat svamadvitIyaM tanayaM prAdadAt tatO yaH kazcit tasmin vizvasiSyati sO'vinAzyaH san anantAyuH prApsyati|
 Holy-Bible---Sanskrit---Cologne-Script	GEN-003-024		
-Holy-Bible---Sanskrit---Cologne-Script	LUK-023-034	lUkaH 23:34	tadA yIzurakathayat, hE pitarEtAn kSamasva yata EtE yat karmma kurvvanti tan na viduH; pazcAttE guTikApAtaM kRtvA tasya vastrANi vibhajya jagRhuH
-Holy-Bible---Sanskrit---Cologne-Script	REV-021-002	prakAzitaM 21:2-3	aparaM svargAd avarOhantI pavitrA nagarI, arthatO navInA yirUzAlamapurI mayA dRSTA, sA varAya vibhUSitA kanyEva susajjitAsIt anantaraM svargAd ESa mahAravO mayA zrutaH pazyAyaM mAnavaiH sArddham IzvarasyAvAsaH, sa taiH sArddhaM vatsyati tE ca tasya prajA bhaviSyanti, Izvarazca svayaM tESAm IzvarO bhUtvA taiH sArddhaM sthAsyati
-Holy-Bible---Sanskrit---Cologne-Script	HEB-011-008	ibriNaH 11:8	vizvAsEnEbrAhIm AhUtaH san AjnjAM gRhItvA yasya sthAnasyAdhikArastEna prAptavyastat sthAnaM prasthitavAn kintu prasthAnasamayE kka yAmIti nAjAnAt
+Holy-Bible---Sanskrit---Cologne-Script	LUK-023-034	lUkaH 23:34	tadA yIzurakathayat, hE pitarEtAn kSamasva yata EtE yat karmma kurvvanti tan na viduH; pazcAttE guTikApAtaM kRtvA tasya vastrANi vibhajya jagRhuH|
+Holy-Bible---Sanskrit---Cologne-Script	REV-021-002	prakAzitaM 21:2-3	aparaM svargAd avarOhantI pavitrA nagarI, arthatO navInA yirUzAlamapurI mayA dRSTA, sA varAya vibhUSitA kanyEva susajjitAsIt| anantaraM svargAd ESa mahAravO mayA zrutaH pazyAyaM mAnavaiH sArddham IzvarasyAvAsaH, sa taiH sArddhaM vatsyati tE ca tasya prajA bhaviSyanti, Izvarazca svayaM tESAm IzvarO bhUtvA taiH sArddhaM sthAsyati|
+Holy-Bible---Sanskrit---Cologne-Script	HEB-011-008	ibriNaH 11:8	vizvAsEnEbrAhIm AhUtaH san AjnjAM gRhItvA yasya sthAnasyAdhikArastEna prAptavyastat sthAnaM prasthitavAn kintu prasthAnasamayE kka yAmIti nAjAnAt|
 Holy-Bible---Sanskrit---Cologne-Script	EXO-013-017		
-Holy-Bible---Sanskrit---Cologne-Script	MAR-010-045	mArkaH 10:45	yatO manuSyaputraH sEvyO bhavituM nAgataH sEvAM karttAM tathAnEkESAM paritrANasya mUlyarUpasvaprANaM dAtunjcAgataH
+Holy-Bible---Sanskrit---Cologne-Script	MAR-010-045	mArkaH 10:45	yatO manuSyaputraH sEvyO bhavituM nAgataH sEvAM karttAM tathAnEkESAM paritrANasya mUlyarUpasvaprANaM dAtunjcAgataH|
 Holy-Bible---Sanskrit---Cologne-Script	ROM-001-001	rOmiNaH 1:1	IzvarO nijaputramadhi yaM susaMvAdaM bhaviSyadvAdibhi rdharmmagranthE pratizrutavAn taM susaMvAdaM pracArayituM pRthakkRta AhUtaH prEritazca prabhO ryIzukhrISTasya sEvakO yaH paulaH
-Holy-Bible---Sanskrit---Cologne-Script	MAT-028-019	mathiH 28:19	atO yUyaM prayAya sarvvadEzIyAn ziSyAn kRtvA pituH putrasya pavitrasyAtmanazca nAmnA tAnavagAhayata; ahaM yuSmAn yadyadAdizaM tadapi pAlayituM tAnupAdizata
+Holy-Bible---Sanskrit---Cologne-Script	MAT-028-019	mathiH 28:19	atO yUyaM prayAya sarvvadEzIyAn ziSyAn kRtvA pituH putrasya pavitrasyAtmanazca nAmnA tAnavagAhayata; ahaM yuSmAn yadyadAdizaM tadapi pAlayituM tAnupAdizata|
 Holy-Bible---Sanskrit---Devanagari-Script	JOH-003-016	योहनः 3:16	ईश्वर इत्थं जगददयत यत् स्वमद्वितीयं तनयं प्राददात् ततो यः कश्चित् तस्मिन् विश्वसिष्यति सोऽविनाश्यः सन् अनन्तायुः प्राप्स्यति।
 Holy-Bible---Sanskrit---Devanagari-Script	GEN-003-024		
 Holy-Bible---Sanskrit---Devanagari-Script	LUK-023-034	लूकः 23:34	तदा यीशुरकथयत्, हे पितरेतान् क्षमस्व यत एते यत् कर्म्म कुर्व्वन्ति तन् न विदुः; पश्चात्ते गुटिकापातं कृत्वा तस्य वस्त्राणि विभज्य जगृहुः।
@@ -2570,60 +2570,60 @@ Holy-Bible---Sanskrit---Devanagari-Script	EXO-013-017
 Holy-Bible---Sanskrit---Devanagari-Script	MAR-010-045	मार्कः 10:45	यतो मनुष्यपुत्रः सेव्यो भवितुं नागतः सेवां कर्त्तां तथानेकेषां परित्राणस्य मूल्यरूपस्वप्राणं दातुञ्चागतः।
 Holy-Bible---Sanskrit---Devanagari-Script	ROM-001-001	रोमिणः 1:1	ईश्वरो निजपुत्रमधि यं सुसंवादं भविष्यद्वादिभि र्धर्म्मग्रन्थे प्रतिश्रुतवान् तं सुसंवादं प्रचारयितुं पृथक्कृत आहूतः प्रेरितश्च प्रभो र्यीशुख्रीष्टस्य सेवको यः पौलः
 Holy-Bible---Sanskrit---Devanagari-Script	MAT-028-019	मथिः 28:19	अतो यूयं प्रयाय सर्व्वदेशीयान् शिष्यान् कृत्वा पितुः पुत्रस्य पवित्रस्यात्मनश्च नाम्ना तानवगाहयत; अहं युष्मान् यद्यदादिशं तदपि पालयितुं तानुपादिशत।
-Holy-Bible---Sanskrit---Gujarati-Script	JOH-003-016	યોહનઃ 3:16	ઈશ્વર ઇત્થં જગદદયત યત્ સ્વમદ્વિતીયં તનયં પ્રાદદાત્ તતો યઃ કશ્ચિત્ તસ્મિન્ વિશ્વસિષ્યતિ સોઽવિનાશ્યઃ સન્ અનન્તાયુઃ પ્રાપ્સ્યતિ
+Holy-Bible---Sanskrit---Gujarati-Script	JOH-003-016	યોહનઃ 3:16	ઈશ્વર ઇત્થં જગદદયત યત્ સ્વમદ્વિતીયં તનયં પ્રાદદાત્ તતો યઃ કશ્ચિત્ તસ્મિન્ વિશ્વસિષ્યતિ સોઽવિનાશ્યઃ સન્ અનન્તાયુઃ પ્રાપ્સ્યતિ|
 Holy-Bible---Sanskrit---Gujarati-Script	GEN-003-024		
-Holy-Bible---Sanskrit---Gujarati-Script	LUK-023-034	લૂકઃ 23:34	તદા યીશુરકથયત્, હે પિતરેતાન્ ક્ષમસ્વ યત એતે યત્ કર્મ્મ કુર્વ્વન્તિ તન્ ન વિદુઃ; પશ્ચાત્તે ગુટિકાપાતં કૃત્વા તસ્ય વસ્ત્રાણિ વિભજ્ય જગૃહુઃ
-Holy-Bible---Sanskrit---Gujarati-Script	REV-021-002	પ્રકાશિતં 21:2-3	અપરં સ્વર્ગાદ્ અવરોહન્તી પવિત્રા નગરી, અર્થતો નવીના યિરૂશાલમપુરી મયા દૃષ્ટા, સા વરાય વિભૂષિતા કન્યેવ સુસજ્જિતાસીત્ અનન્તરં સ્વર્ગાદ્ એષ મહારવો મયા શ્રુતઃ પશ્યાયં માનવૈઃ સાર્દ્ધમ્ ઈશ્વરસ્યાવાસઃ, સ તૈઃ સાર્દ્ધં વત્સ્યતિ તે ચ તસ્ય પ્રજા ભવિષ્યન્તિ, ઈશ્વરશ્ચ સ્વયં તેષામ્ ઈશ્વરો ભૂત્વા તૈઃ સાર્દ્ધં સ્થાસ્યતિ
-Holy-Bible---Sanskrit---Gujarati-Script	HEB-011-008	ઇબ્રિણઃ 11:8	વિશ્વાસેનેબ્રાહીમ્ આહૂતઃ સન્ આજ્ઞાં ગૃહીત્વા યસ્ય સ્થાનસ્યાધિકારસ્તેન પ્રાપ્તવ્યસ્તત્ સ્થાનં પ્રસ્થિતવાન્ કિન્તુ પ્રસ્થાનસમયે ક્ક યામીતિ નાજાનાત્
+Holy-Bible---Sanskrit---Gujarati-Script	LUK-023-034	લૂકઃ 23:34	તદા યીશુરકથયત્, હે પિતરેતાન્ ક્ષમસ્વ યત એતે યત્ કર્મ્મ કુર્વ્વન્તિ તન્ ન વિદુઃ; પશ્ચાત્તે ગુટિકાપાતં કૃત્વા તસ્ય વસ્ત્રાણિ વિભજ્ય જગૃહુઃ|
+Holy-Bible---Sanskrit---Gujarati-Script	REV-021-002	પ્રકાશિતં 21:2-3	અપરં સ્વર્ગાદ્ અવરોહન્તી પવિત્રા નગરી, અર્થતો નવીના યિરૂશાલમપુરી મયા દૃષ્ટા, સા વરાય વિભૂષિતા કન્યેવ સુસજ્જિતાસીત્| અનન્તરં સ્વર્ગાદ્ એષ મહારવો મયા શ્રુતઃ પશ્યાયં માનવૈઃ સાર્દ્ધમ્ ઈશ્વરસ્યાવાસઃ, સ તૈઃ સાર્દ્ધં વત્સ્યતિ તે ચ તસ્ય પ્રજા ભવિષ્યન્તિ, ઈશ્વરશ્ચ સ્વયં તેષામ્ ઈશ્વરો ભૂત્વા તૈઃ સાર્દ્ધં સ્થાસ્યતિ|
+Holy-Bible---Sanskrit---Gujarati-Script	HEB-011-008	ઇબ્રિણઃ 11:8	વિશ્વાસેનેબ્રાહીમ્ આહૂતઃ સન્ આજ્ઞાં ગૃહીત્વા યસ્ય સ્થાનસ્યાધિકારસ્તેન પ્રાપ્તવ્યસ્તત્ સ્થાનં પ્રસ્થિતવાન્ કિન્તુ પ્રસ્થાનસમયે ક્ક યામીતિ નાજાનાત્|
 Holy-Bible---Sanskrit---Gujarati-Script	EXO-013-017		
-Holy-Bible---Sanskrit---Gujarati-Script	MAR-010-045	માર્કઃ 10:45	યતો મનુષ્યપુત્રઃ સેવ્યો ભવિતું નાગતઃ સેવાં કર્ત્તાં તથાનેકેષાં પરિત્રાણસ્ય મૂલ્યરૂપસ્વપ્રાણં દાતુઞ્ચાગતઃ
+Holy-Bible---Sanskrit---Gujarati-Script	MAR-010-045	માર્કઃ 10:45	યતો મનુષ્યપુત્રઃ સેવ્યો ભવિતું નાગતઃ સેવાં કર્ત્તાં તથાનેકેષાં પરિત્રાણસ્ય મૂલ્યરૂપસ્વપ્રાણં દાતુઞ્ચાગતઃ|
 Holy-Bible---Sanskrit---Gujarati-Script	ROM-001-001	રોમિણઃ 1:1	ઈશ્વરો નિજપુત્રમધિ યં સુસંવાદં ભવિષ્યદ્વાદિભિ ર્ધર્મ્મગ્રન્થે પ્રતિશ્રુતવાન્ તં સુસંવાદં પ્રચારયિતું પૃથક્કૃત આહૂતઃ પ્રેરિતશ્ચ પ્રભો ર્યીશુખ્રીષ્ટસ્ય સેવકો યઃ પૌલઃ
-Holy-Bible---Sanskrit---Gujarati-Script	MAT-028-019	મથિઃ 28:19	અતો યૂયં પ્રયાય સર્વ્વદેશીયાન્ શિષ્યાન્ કૃત્વા પિતુઃ પુત્રસ્ય પવિત્રસ્યાત્મનશ્ચ નામ્ના તાનવગાહયત; અહં યુષ્માન્ યદ્યદાદિશં તદપિ પાલયિતું તાનુપાદિશત
-Holy-Bible---Sanskrit---Harvard-Kyoto-Script	JOH-003-016	yohanaH 3:16	Izvara itthaM jagadadayata yat svamadvitIyaM tanayaM prAdadAt tato yaH kazcit tasmin vizvasiSyati so'vinAzyaH san anantAyuH prApsyati
+Holy-Bible---Sanskrit---Gujarati-Script	MAT-028-019	મથિઃ 28:19	અતો યૂયં પ્રયાય સર્વ્વદેશીયાન્ શિષ્યાન્ કૃત્વા પિતુઃ પુત્રસ્ય પવિત્રસ્યાત્મનશ્ચ નામ્ના તાનવગાહયત; અહં યુષ્માન્ યદ્યદાદિશં તદપિ પાલયિતું તાનુપાદિશત|
+Holy-Bible---Sanskrit---Harvard-Kyoto-Script	JOH-003-016	yohanaH 3:16	Izvara itthaM jagadadayata yat svamadvitIyaM tanayaM prAdadAt tato yaH kazcit tasmin vizvasiSyati so'vinAzyaH san anantAyuH prApsyati|
 Holy-Bible---Sanskrit---Harvard-Kyoto-Script	GEN-003-024		
-Holy-Bible---Sanskrit---Harvard-Kyoto-Script	LUK-023-034	lUkaH 23:34	tadA yIzurakathayat, he pitaretAn kSamasva yata ete yat karmma kurvvanti tan na viduH; pazcAtte guTikApAtaM kRtvA tasya vastrANi vibhajya jagRhuH
-Holy-Bible---Sanskrit---Harvard-Kyoto-Script	REV-021-002	prakAzitaM 21:2-3	aparaM svargAd avarohantI pavitrA nagarI, arthato navInA yirUzAlamapurI mayA dRSTA, sA varAya vibhUSitA kanyeva susajjitAsIt anantaraM svargAd eSa mahAravo mayA zrutaH pazyAyaM mAnavaiH sArddham IzvarasyAvAsaH, sa taiH sArddhaM vatsyati te ca tasya prajA bhaviSyanti, Izvarazca svayaM teSAm Izvaro bhUtvA taiH sArddhaM sthAsyati
-Holy-Bible---Sanskrit---Harvard-Kyoto-Script	HEB-011-008	ibriNaH 11:8	vizvAsenebrAhIm AhUtaH san AjJAM gRhItvA yasya sthAnasyAdhikArastena prAptavyastat sthAnaM prasthitavAn kintu prasthAnasamaye kka yAmIti nAjAnAt
+Holy-Bible---Sanskrit---Harvard-Kyoto-Script	LUK-023-034	lUkaH 23:34	tadA yIzurakathayat, he pitaretAn kSamasva yata ete yat karmma kurvvanti tan na viduH; pazcAtte guTikApAtaM kRtvA tasya vastrANi vibhajya jagRhuH|
+Holy-Bible---Sanskrit---Harvard-Kyoto-Script	REV-021-002	prakAzitaM 21:2-3	aparaM svargAd avarohantI pavitrA nagarI, arthato navInA yirUzAlamapurI mayA dRSTA, sA varAya vibhUSitA kanyeva susajjitAsIt| anantaraM svargAd eSa mahAravo mayA zrutaH pazyAyaM mAnavaiH sArddham IzvarasyAvAsaH, sa taiH sArddhaM vatsyati te ca tasya prajA bhaviSyanti, Izvarazca svayaM teSAm Izvaro bhUtvA taiH sArddhaM sthAsyati|
+Holy-Bible---Sanskrit---Harvard-Kyoto-Script	HEB-011-008	ibriNaH 11:8	vizvAsenebrAhIm AhUtaH san AjJAM gRhItvA yasya sthAnasyAdhikArastena prAptavyastat sthAnaM prasthitavAn kintu prasthAnasamaye kka yAmIti nAjAnAt|
 Holy-Bible---Sanskrit---Harvard-Kyoto-Script	EXO-013-017		
-Holy-Bible---Sanskrit---Harvard-Kyoto-Script	MAR-010-045	mArkaH 10:45	yato manuSyaputraH sevyo bhavituM nAgataH sevAM karttAM tathAnekeSAM paritrANasya mUlyarUpasvaprANaM dAtuJcAgataH
+Holy-Bible---Sanskrit---Harvard-Kyoto-Script	MAR-010-045	mArkaH 10:45	yato manuSyaputraH sevyo bhavituM nAgataH sevAM karttAM tathAnekeSAM paritrANasya mUlyarUpasvaprANaM dAtuJcAgataH|
 Holy-Bible---Sanskrit---Harvard-Kyoto-Script	ROM-001-001	romiNaH 1:1	Izvaro nijaputramadhi yaM susaMvAdaM bhaviSyadvAdibhi rdharmmagranthe pratizrutavAn taM susaMvAdaM pracArayituM pRthakkRta AhUtaH preritazca prabho ryIzukhrISTasya sevako yaH paulaH
-Holy-Bible---Sanskrit---Harvard-Kyoto-Script	MAT-028-019	mathiH 28:19	ato yUyaM prayAya sarvvadezIyAn ziSyAn kRtvA pituH putrasya pavitrasyAtmanazca nAmnA tAnavagAhayata; ahaM yuSmAn yadyadAdizaM tadapi pAlayituM tAnupAdizata
-Holy-Bible---Sanskrit---IAST-Script	JOH-003-016	yohanaḥ 3:16	īśvara itthaṁ jagadadayata yat svamadvitīyaṁ tanayaṁ prādadāt tato yaḥ kaścit tasmin viśvasiṣyati so'vināśyaḥ san anantāyuḥ prāpsyati
+Holy-Bible---Sanskrit---Harvard-Kyoto-Script	MAT-028-019	mathiH 28:19	ato yUyaM prayAya sarvvadezIyAn ziSyAn kRtvA pituH putrasya pavitrasyAtmanazca nAmnA tAnavagAhayata; ahaM yuSmAn yadyadAdizaM tadapi pAlayituM tAnupAdizata|
+Holy-Bible---Sanskrit---IAST-Script	JOH-003-016	yohanaḥ 3:16	īśvara itthaṁ jagadadayata yat svamadvitīyaṁ tanayaṁ prādadāt tato yaḥ kaścit tasmin viśvasiṣyati so'vināśyaḥ san anantāyuḥ prāpsyati|
 Holy-Bible---Sanskrit---IAST-Script	GEN-003-024		
-Holy-Bible---Sanskrit---IAST-Script	LUK-023-034	lūkaḥ 23:34	tadā yīśurakathayat, he pitaretān kṣamasva yata ete yat karmma kurvvanti tan na viduḥ; paścātte guṭikāpātaṁ kṛtvā tasya vastrāṇi vibhajya jagṛhuḥ
-Holy-Bible---Sanskrit---IAST-Script	REV-021-002	prakāśitaṁ 21:2-3	aparaṁ svargād avarohantī pavitrā nagarī, arthato navīnā yirūśālamapurī mayā dṛṣṭā, sā varāya vibhūṣitā kanyeva susajjitāsīt anantaraṁ svargād eṣa mahāravo mayā śrutaḥ paśyāyaṁ mānavaiḥ sārddham īśvarasyāvāsaḥ, sa taiḥ sārddhaṁ vatsyati te ca tasya prajā bhaviṣyanti, īśvaraśca svayaṁ teṣām īśvaro bhūtvā taiḥ sārddhaṁ sthāsyati
-Holy-Bible---Sanskrit---IAST-Script	HEB-011-008	ibriṇaḥ 11:8	viśvāsenebrāhīm āhūtaḥ san ājñāṁ gṛhītvā yasya sthānasyādhikārastena prāptavyastat sthānaṁ prasthitavān kintu prasthānasamaye kka yāmīti nājānāt
+Holy-Bible---Sanskrit---IAST-Script	LUK-023-034	lūkaḥ 23:34	tadā yīśurakathayat, he pitaretān kṣamasva yata ete yat karmma kurvvanti tan na viduḥ; paścātte guṭikāpātaṁ kṛtvā tasya vastrāṇi vibhajya jagṛhuḥ|
+Holy-Bible---Sanskrit---IAST-Script	REV-021-002	prakāśitaṁ 21:2-3	aparaṁ svargād avarohantī pavitrā nagarī, arthato navīnā yirūśālamapurī mayā dṛṣṭā, sā varāya vibhūṣitā kanyeva susajjitāsīt| anantaraṁ svargād eṣa mahāravo mayā śrutaḥ paśyāyaṁ mānavaiḥ sārddham īśvarasyāvāsaḥ, sa taiḥ sārddhaṁ vatsyati te ca tasya prajā bhaviṣyanti, īśvaraśca svayaṁ teṣām īśvaro bhūtvā taiḥ sārddhaṁ sthāsyati|
+Holy-Bible---Sanskrit---IAST-Script	HEB-011-008	ibriṇaḥ 11:8	viśvāsenebrāhīm āhūtaḥ san ājñāṁ gṛhītvā yasya sthānasyādhikārastena prāptavyastat sthānaṁ prasthitavān kintu prasthānasamaye kka yāmīti nājānāt|
 Holy-Bible---Sanskrit---IAST-Script	EXO-013-017		
-Holy-Bible---Sanskrit---IAST-Script	MAR-010-045	mārkaḥ 10:45	yato manuṣyaputraḥ sevyo bhavituṁ nāgataḥ sevāṁ karttāṁ tathānekeṣāṁ paritrāṇasya mūlyarūpasvaprāṇaṁ dātuñcāgataḥ
+Holy-Bible---Sanskrit---IAST-Script	MAR-010-045	mārkaḥ 10:45	yato manuṣyaputraḥ sevyo bhavituṁ nāgataḥ sevāṁ karttāṁ tathānekeṣāṁ paritrāṇasya mūlyarūpasvaprāṇaṁ dātuñcāgataḥ|
 Holy-Bible---Sanskrit---IAST-Script	ROM-001-001	romiṇaḥ 1:1	īśvaro nijaputramadhi yaṁ susaṁvādaṁ bhaviṣyadvādibhi rdharmmagranthe pratiśrutavān taṁ susaṁvādaṁ pracārayituṁ pṛthakkṛta āhūtaḥ preritaśca prabho ryīśukhrīṣṭasya sevako yaḥ paulaḥ
-Holy-Bible---Sanskrit---IAST-Script	MAT-028-019	mathiḥ 28:19	ato yūyaṁ prayāya sarvvadeśīyān śiṣyān kṛtvā pituḥ putrasya pavitrasyātmanaśca nāmnā tānavagāhayata; ahaṁ yuṣmān yadyadādiśaṁ tadapi pālayituṁ tānupādiśata
-Holy-Bible---Sanskrit---ISO-Script	JOH-003-016	yōhanaḥ 3:16	īśvara itthaṁ jagadadayata yat svamadvitīyaṁ tanayaṁ prādadāt tatō yaḥ kaścit tasmin viśvasiṣyati sō'vināśyaḥ san anantāyuḥ prāpsyati
+Holy-Bible---Sanskrit---IAST-Script	MAT-028-019	mathiḥ 28:19	ato yūyaṁ prayāya sarvvadeśīyān śiṣyān kṛtvā pituḥ putrasya pavitrasyātmanaśca nāmnā tānavagāhayata; ahaṁ yuṣmān yadyadādiśaṁ tadapi pālayituṁ tānupādiśata|
+Holy-Bible---Sanskrit---ISO-Script	JOH-003-016	yōhanaḥ 3:16	īśvara itthaṁ jagadadayata yat svamadvitīyaṁ tanayaṁ prādadāt tatō yaḥ kaścit tasmin viśvasiṣyati sō'vināśyaḥ san anantāyuḥ prāpsyati|
 Holy-Bible---Sanskrit---ISO-Script	GEN-003-024		
-Holy-Bible---Sanskrit---ISO-Script	LUK-023-034	lūkaḥ 23:34	tadā yīśurakathayat, hē pitarētān kṣamasva yata ētē yat karmma kurvvanti tan na viduḥ; paścāttē guṭikāpātaṁ kr̥tvā tasya vastrāṇi vibhajya jagr̥huḥ
-Holy-Bible---Sanskrit---ISO-Script	REV-021-002	prakāśitaṁ 21:2-3	aparaṁ svargād avarōhantī pavitrā nagarī, arthatō navīnā yirūśālamapurī mayā dr̥ṣṭā, sā varāya vibhūṣitā kanyēva susajjitāsīt anantaraṁ svargād ēṣa mahāravō mayā śrutaḥ paśyāyaṁ mānavaiḥ sārddham īśvarasyāvāsaḥ, sa taiḥ sārddhaṁ vatsyati tē ca tasya prajā bhaviṣyanti, īśvaraśca svayaṁ tēṣām īśvarō bhūtvā taiḥ sārddhaṁ sthāsyati
-Holy-Bible---Sanskrit---ISO-Script	HEB-011-008	ibriṇaḥ 11:8	viśvāsēnēbrāhīm āhūtaḥ san ājñāṁ gr̥hītvā yasya sthānasyādhikārastēna prāptavyastat sthānaṁ prasthitavān kintu prasthānasamayē kka yāmīti nājānāt
+Holy-Bible---Sanskrit---ISO-Script	LUK-023-034	lūkaḥ 23:34	tadā yīśurakathayat, hē pitarētān kṣamasva yata ētē yat karmma kurvvanti tan na viduḥ; paścāttē guṭikāpātaṁ kr̥tvā tasya vastrāṇi vibhajya jagr̥huḥ|
+Holy-Bible---Sanskrit---ISO-Script	REV-021-002	prakāśitaṁ 21:2-3	aparaṁ svargād avarōhantī pavitrā nagarī, arthatō navīnā yirūśālamapurī mayā dr̥ṣṭā, sā varāya vibhūṣitā kanyēva susajjitāsīt| anantaraṁ svargād ēṣa mahāravō mayā śrutaḥ paśyāyaṁ mānavaiḥ sārddham īśvarasyāvāsaḥ, sa taiḥ sārddhaṁ vatsyati tē ca tasya prajā bhaviṣyanti, īśvaraśca svayaṁ tēṣām īśvarō bhūtvā taiḥ sārddhaṁ sthāsyati|
+Holy-Bible---Sanskrit---ISO-Script	HEB-011-008	ibriṇaḥ 11:8	viśvāsēnēbrāhīm āhūtaḥ san ājñāṁ gr̥hītvā yasya sthānasyādhikārastēna prāptavyastat sthānaṁ prasthitavān kintu prasthānasamayē kka yāmīti nājānāt|
 Holy-Bible---Sanskrit---ISO-Script	EXO-013-017		
-Holy-Bible---Sanskrit---ISO-Script	MAR-010-045	mārkaḥ 10:45	yatō manuṣyaputraḥ sēvyō bhavituṁ nāgataḥ sēvāṁ karttāṁ tathānēkēṣāṁ paritrāṇasya mūlyarūpasvaprāṇaṁ dātuñcāgataḥ
+Holy-Bible---Sanskrit---ISO-Script	MAR-010-045	mārkaḥ 10:45	yatō manuṣyaputraḥ sēvyō bhavituṁ nāgataḥ sēvāṁ karttāṁ tathānēkēṣāṁ paritrāṇasya mūlyarūpasvaprāṇaṁ dātuñcāgataḥ|
 Holy-Bible---Sanskrit---ISO-Script	ROM-001-001	rōmiṇaḥ 1:1	īśvarō nijaputramadhi yaṁ susaṁvādaṁ bhaviṣyadvādibhi rdharmmagranthē pratiśrutavān taṁ susaṁvādaṁ pracārayituṁ pr̥thakkr̥ta āhūtaḥ prēritaśca prabhō ryīśukhrīṣṭasya sēvakō yaḥ paulaḥ
-Holy-Bible---Sanskrit---ISO-Script	MAT-028-019	mathiḥ 28:19	atō yūyaṁ prayāya sarvvadēśīyān śiṣyān kr̥tvā pituḥ putrasya pavitrasyātmanaśca nāmnā tānavagāhayata; ahaṁ yuṣmān yadyadādiśaṁ tadapi pālayituṁ tānupādiśata
-Holy-Bible---Sanskrit---ITRANS-Script	JOH-003-016	yohanaH 3:16	Ishvara itthaM jagadadayata yat svamadvitIyaM tanayaM prAdadAt tato yaH kashchit tasmin vishvasiShyati so. avinAshyaH san anantAyuH prApsyati
+Holy-Bible---Sanskrit---ISO-Script	MAT-028-019	mathiḥ 28:19	atō yūyaṁ prayāya sarvvadēśīyān śiṣyān kr̥tvā pituḥ putrasya pavitrasyātmanaśca nāmnā tānavagāhayata; ahaṁ yuṣmān yadyadādiśaṁ tadapi pālayituṁ tānupādiśata|
+Holy-Bible---Sanskrit---ITRANS-Script	JOH-003-016	yohanaH 3:16	Ishvara itthaM jagadadayata yat svamadvitIyaM tanayaM prAdadAt tato yaH kashchit tasmin vishvasiShyati so. avinAshyaH san anantAyuH prApsyati|
 Holy-Bible---Sanskrit---ITRANS-Script	GEN-003-024		
-Holy-Bible---Sanskrit---ITRANS-Script	LUK-023-034	lUkaH 23:34	tadA yIshurakathayat, he pitaretAn kShamasva yata ete yat karmma kurvvanti tan na viduH; pashchAtte guTikApAtaM kR^itvA tasya vastrANi vibhajya jagR^ihuH
-Holy-Bible---Sanskrit---ITRANS-Script	REV-021-002	prakAshitaM 21:2-3	aparaM svargAd avarohantI pavitrA nagarI, arthato navInA yirUshAlamapurI mayA dR^iShTA, sA varAya vibhUShitA kanyeva susajjitAsIt anantaraM svargAd eSha mahAravo mayA shrutaH pashyAyaM mAnavaiH sArddham IshvarasyAvAsaH, sa taiH sArddhaM vatsyati te cha tasya prajA bhaviShyanti, Ishvarashcha svayaM teShAm Ishvaro bhUtvA taiH sArddhaM sthAsyati
-Holy-Bible---Sanskrit---ITRANS-Script	HEB-011-008	ibriNaH 11:8	vishvAsenebrAhIm AhUtaH san Aj nAM gR^ihItvA yasya sthAnasyAdhikArastena prAptavyastat sthAnaM prasthitavAn kintu prasthAnasamaye kka yAmIti nAjAnAt
+Holy-Bible---Sanskrit---ITRANS-Script	LUK-023-034	lUkaH 23:34	tadA yIshurakathayat, he pitaretAn kShamasva yata ete yat karmma kurvvanti tan na viduH; pashchAtte guTikApAtaM kR^itvA tasya vastrANi vibhajya jagR^ihuH|
+Holy-Bible---Sanskrit---ITRANS-Script	REV-021-002	prakAshitaM 21:2-3	aparaM svargAd avarohantI pavitrA nagarI, arthato navInA yirUshAlamapurI mayA dR^iShTA, sA varAya vibhUShitA kanyeva susajjitAsIt| anantaraM svargAd eSha mahAravo mayA shrutaH pashyAyaM mAnavaiH sArddham IshvarasyAvAsaH, sa taiH sArddhaM vatsyati te cha tasya prajA bhaviShyanti, Ishvarashcha svayaM teShAm Ishvaro bhUtvA taiH sArddhaM sthAsyati|
+Holy-Bible---Sanskrit---ITRANS-Script	HEB-011-008	ibriNaH 11:8	vishvAsenebrAhIm AhUtaH san Aj nAM gR^ihItvA yasya sthAnasyAdhikArastena prAptavyastat sthAnaM prasthitavAn kintu prasthAnasamaye kka yAmIti nAjAnAt|
 Holy-Bible---Sanskrit---ITRANS-Script	EXO-013-017		
-Holy-Bible---Sanskrit---ITRANS-Script	MAR-010-045	mArkaH 10:45	yato manuShyaputraH sevyo bhavituM nAgataH sevAM karttAM tathAnekeShAM paritrANasya mUlyarUpasvaprANaM dAtu nchAgataH
+Holy-Bible---Sanskrit---ITRANS-Script	MAR-010-045	mArkaH 10:45	yato manuShyaputraH sevyo bhavituM nAgataH sevAM karttAM tathAnekeShAM paritrANasya mUlyarUpasvaprANaM dAtu nchAgataH|
 Holy-Bible---Sanskrit---ITRANS-Script	ROM-001-001	romiNaH 1:1	Ishvaro nijaputramadhi yaM susaMvAdaM bhaviShyadvAdibhi rdharmmagranthe pratishrutavAn taM susaMvAdaM prachArayituM pR^ithakkR^ita AhUtaH preritashcha prabho ryIshukhrIShTasya sevako yaH paulaH
-Holy-Bible---Sanskrit---ITRANS-Script	MAT-028-019	mathiH 28:19	ato yUyaM prayAya sarvvadeshIyAn shiShyAn kR^itvA pituH putrasya pavitrasyAtmanashcha nAmnA tAnavagAhayata; ahaM yuShmAn yadyadAdishaM tadapi pAlayituM tAnupAdishata
-Holy-Bible---Sanskrit---Kannada-Script	JOH-003-016	ಯೋಹನಃ 3:16	ಈಶ್ವರ ಇತ್ಥಂ ಜಗದದಯತ ಯತ್ ಸ್ವಮದ್ವಿತೀಯಂ ತನಯಂ ಪ್ರಾದದಾತ್ ತತೋ ಯಃ ಕಶ್ಚಿತ್ ತಸ್ಮಿನ್ ವಿಶ್ವಸಿಷ್ಯತಿ ಸೋಽವಿನಾಶ್ಯಃ ಸನ್ ಅನನ್ತಾಯುಃ ಪ್ರಾಪ್ಸ್ಯತಿ
+Holy-Bible---Sanskrit---ITRANS-Script	MAT-028-019	mathiH 28:19	ato yUyaM prayAya sarvvadeshIyAn shiShyAn kR^itvA pituH putrasya pavitrasyAtmanashcha nAmnA tAnavagAhayata; ahaM yuShmAn yadyadAdishaM tadapi pAlayituM tAnupAdishata|
+Holy-Bible---Sanskrit---Kannada-Script	JOH-003-016	ಯೋಹನಃ 3:16	ಈಶ್ವರ ಇತ್ಥಂ ಜಗದದಯತ ಯತ್ ಸ್ವಮದ್ವಿತೀಯಂ ತನಯಂ ಪ್ರಾದದಾತ್ ತತೋ ಯಃ ಕಶ್ಚಿತ್ ತಸ್ಮಿನ್ ವಿಶ್ವಸಿಷ್ಯತಿ ಸೋಽವಿನಾಶ್ಯಃ ಸನ್ ಅನನ್ತಾಯುಃ ಪ್ರಾಪ್ಸ್ಯತಿ|
 Holy-Bible---Sanskrit---Kannada-Script	GEN-003-024		
-Holy-Bible---Sanskrit---Kannada-Script	LUK-023-034	ಲೂಕಃ 23:34	ತದಾ ಯೀಶುರಕಥಯತ್, ಹೇ ಪಿತರೇತಾನ್ ಕ್ಷಮಸ್ವ ಯತ ಏತೇ ಯತ್ ಕರ್ಮ್ಮ ಕುರ್ವ್ವನ್ತಿ ತನ್ ನ ವಿದುಃ; ಪಶ್ಚಾತ್ತೇ ಗುಟಿಕಾಪಾತಂ ಕೃತ್ವಾ ತಸ್ಯ ವಸ್ತ್ರಾಣಿ ವಿಭಜ್ಯ ಜಗೃಹುಃ
-Holy-Bible---Sanskrit---Kannada-Script	REV-021-002	ಪ್ರಕಾಶಿತಂ 21:2-3	ಅಪರಂ ಸ್ವರ್ಗಾದ್ ಅವರೋಹನ್ತೀ ಪವಿತ್ರಾ ನಗರೀ, ಅರ್ಥತೋ ನವೀನಾ ಯಿರೂಶಾಲಮಪುರೀ ಮಯಾ ದೃಷ್ಟಾ, ಸಾ ವರಾಯ ವಿಭೂಷಿತಾ ಕನ್ಯೇವ ಸುಸಜ್ಜಿತಾಸೀತ್ ಅನನ್ತರಂ ಸ್ವರ್ಗಾದ್ ಏಷ ಮಹಾರವೋ ಮಯಾ ಶ್ರುತಃ ಪಶ್ಯಾಯಂ ಮಾನವೈಃ ಸಾರ್ದ್ಧಮ್ ಈಶ್ವರಸ್ಯಾವಾಸಃ, ಸ ತೈಃ ಸಾರ್ದ್ಧಂ ವತ್ಸ್ಯತಿ ತೇ ಚ ತಸ್ಯ ಪ್ರಜಾ ಭವಿಷ್ಯನ್ತಿ, ಈಶ್ವರಶ್ಚ ಸ್ವಯಂ ತೇಷಾಮ್ ಈಶ್ವರೋ ಭೂತ್ವಾ ತೈಃ ಸಾರ್ದ್ಧಂ ಸ್ಥಾಸ್ಯತಿ
-Holy-Bible---Sanskrit---Kannada-Script	HEB-011-008	ಇಬ್ರಿಣಃ 11:8	ವಿಶ್ವಾಸೇನೇಬ್ರಾಹೀಮ್ ಆಹೂತಃ ಸನ್ ಆಜ್ಞಾಂ ಗೃಹೀತ್ವಾ ಯಸ್ಯ ಸ್ಥಾನಸ್ಯಾಧಿಕಾರಸ್ತೇನ ಪ್ರಾಪ್ತವ್ಯಸ್ತತ್ ಸ್ಥಾನಂ ಪ್ರಸ್ಥಿತವಾನ್ ಕಿನ್ತು ಪ್ರಸ್ಥಾನಸಮಯೇ ಕ್ಕ ಯಾಮೀತಿ ನಾಜಾನಾತ್
+Holy-Bible---Sanskrit---Kannada-Script	LUK-023-034	ಲೂಕಃ 23:34	ತದಾ ಯೀಶುರಕಥಯತ್, ಹೇ ಪಿತರೇತಾನ್ ಕ್ಷಮಸ್ವ ಯತ ಏತೇ ಯತ್ ಕರ್ಮ್ಮ ಕುರ್ವ್ವನ್ತಿ ತನ್ ನ ವಿದುಃ; ಪಶ್ಚಾತ್ತೇ ಗುಟಿಕಾಪಾತಂ ಕೃತ್ವಾ ತಸ್ಯ ವಸ್ತ್ರಾಣಿ ವಿಭಜ್ಯ ಜಗೃಹುಃ|
+Holy-Bible---Sanskrit---Kannada-Script	REV-021-002	ಪ್ರಕಾಶಿತಂ 21:2-3	ಅಪರಂ ಸ್ವರ್ಗಾದ್ ಅವರೋಹನ್ತೀ ಪವಿತ್ರಾ ನಗರೀ, ಅರ್ಥತೋ ನವೀನಾ ಯಿರೂಶಾಲಮಪುರೀ ಮಯಾ ದೃಷ್ಟಾ, ಸಾ ವರಾಯ ವಿಭೂಷಿತಾ ಕನ್ಯೇವ ಸುಸಜ್ಜಿತಾಸೀತ್| ಅನನ್ತರಂ ಸ್ವರ್ಗಾದ್ ಏಷ ಮಹಾರವೋ ಮಯಾ ಶ್ರುತಃ ಪಶ್ಯಾಯಂ ಮಾನವೈಃ ಸಾರ್ದ್ಧಮ್ ಈಶ್ವರಸ್ಯಾವಾಸಃ, ಸ ತೈಃ ಸಾರ್ದ್ಧಂ ವತ್ಸ್ಯತಿ ತೇ ಚ ತಸ್ಯ ಪ್ರಜಾ ಭವಿಷ್ಯನ್ತಿ, ಈಶ್ವರಶ್ಚ ಸ್ವಯಂ ತೇಷಾಮ್ ಈಶ್ವರೋ ಭೂತ್ವಾ ತೈಃ ಸಾರ್ದ್ಧಂ ಸ್ಥಾಸ್ಯತಿ|
+Holy-Bible---Sanskrit---Kannada-Script	HEB-011-008	ಇಬ್ರಿಣಃ 11:8	ವಿಶ್ವಾಸೇನೇಬ್ರಾಹೀಮ್ ಆಹೂತಃ ಸನ್ ಆಜ್ಞಾಂ ಗೃಹೀತ್ವಾ ಯಸ್ಯ ಸ್ಥಾನಸ್ಯಾಧಿಕಾರಸ್ತೇನ ಪ್ರಾಪ್ತವ್ಯಸ್ತತ್ ಸ್ಥಾನಂ ಪ್ರಸ್ಥಿತವಾನ್ ಕಿನ್ತು ಪ್ರಸ್ಥಾನಸಮಯೇ ಕ್ಕ ಯಾಮೀತಿ ನಾಜಾನಾತ್|
 Holy-Bible---Sanskrit---Kannada-Script	EXO-013-017		
-Holy-Bible---Sanskrit---Kannada-Script	MAR-010-045	ಮಾರ್ಕಃ 10:45	ಯತೋ ಮನುಷ್ಯಪುತ್ರಃ ಸೇವ್ಯೋ ಭವಿತುಂ ನಾಗತಃ ಸೇವಾಂ ಕರ್ತ್ತಾಂ ತಥಾನೇಕೇಷಾಂ ಪರಿತ್ರಾಣಸ್ಯ ಮೂಲ್ಯರೂಪಸ್ವಪ್ರಾಣಂ ದಾತುಞ್ಚಾಗತಃ
+Holy-Bible---Sanskrit---Kannada-Script	MAR-010-045	ಮಾರ್ಕಃ 10:45	ಯತೋ ಮನುಷ್ಯಪುತ್ರಃ ಸೇವ್ಯೋ ಭವಿತುಂ ನಾಗತಃ ಸೇವಾಂ ಕರ್ತ್ತಾಂ ತಥಾನೇಕೇಷಾಂ ಪರಿತ್ರಾಣಸ್ಯ ಮೂಲ್ಯರೂಪಸ್ವಪ್ರಾಣಂ ದಾತುಞ್ಚಾಗತಃ|
 Holy-Bible---Sanskrit---Kannada-Script	ROM-001-001	ರೋಮಿಣಃ 1:1	ಈಶ್ವರೋ ನಿಜಪುತ್ರಮಧಿ ಯಂ ಸುಸಂವಾದಂ ಭವಿಷ್ಯದ್ವಾದಿಭಿ ರ್ಧರ್ಮ್ಮಗ್ರನ್ಥೇ ಪ್ರತಿಶ್ರುತವಾನ್ ತಂ ಸುಸಂವಾದಂ ಪ್ರಚಾರಯಿತುಂ ಪೃಥಕ್ಕೃತ ಆಹೂತಃ ಪ್ರೇರಿತಶ್ಚ ಪ್ರಭೋ ರ್ಯೀಶುಖ್ರೀಷ್ಟಸ್ಯ ಸೇವಕೋ ಯಃ ಪೌಲಃ
-Holy-Bible---Sanskrit---Kannada-Script	MAT-028-019	ಮಥಿಃ 28:19	ಅತೋ ಯೂಯಂ ಪ್ರಯಾಯ ಸರ್ವ್ವದೇಶೀಯಾನ್ ಶಿಷ್ಯಾನ್ ಕೃತ್ವಾ ಪಿತುಃ ಪುತ್ರಸ್ಯ ಪವಿತ್ರಸ್ಯಾತ್ಮನಶ್ಚ ನಾಮ್ನಾ ತಾನವಗಾಹಯತ; ಅಹಂ ಯುಷ್ಮಾನ್ ಯದ್ಯದಾದಿಶಂ ತದಪಿ ಪಾಲಯಿತುಂ ತಾನುಪಾದಿಶತ
+Holy-Bible---Sanskrit---Kannada-Script	MAT-028-019	ಮಥಿಃ 28:19	ಅತೋ ಯೂಯಂ ಪ್ರಯಾಯ ಸರ್ವ್ವದೇಶೀಯಾನ್ ಶಿಷ್ಯಾನ್ ಕೃತ್ವಾ ಪಿತುಃ ಪುತ್ರಸ್ಯ ಪವಿತ್ರಸ್ಯಾತ್ಮನಶ್ಚ ನಾಮ್ನಾ ತಾನವಗಾಹಯತ; ಅಹಂ ಯುಷ್ಮಾನ್ ಯದ್ಯದಾದಿಶಂ ತದಪಿ ಪಾಲಯಿತುಂ ತಾನುಪಾದಿಶತ|
 Holy-Bible---Sanskrit---Khmer-Script	JOH-003-016	យោហនះ 3:16	ឦឝ្វរ ឥត្ថំ ជគទទយត យត៑ ស្វមទ្វិតីយំ តនយំ ប្រាទទាត៑ តតោ យះ កឝ្ចិត៑ តស្មិន៑ វិឝ្វសិឞ្យតិ សោៜវិនាឝ្យះ សន៑ អនន្តាយុះ ប្រាប្ស្យតិ។
 Holy-Bible---Sanskrit---Khmer-Script	GEN-003-024		
 Holy-Bible---Sanskrit---Khmer-Script	LUK-023-034	លូកះ 23:34	តទា យីឝុរកថយត៑, ហេ បិតរេតាន៑ ក្ឞមស្វ យត ឯតេ យត៑ កម៌្ម កុវ៌្វន្តិ តន៑ ន វិទុះ; បឝ្ចាត្តេ គុដិកាបាតំ ក្ឫត្វា តស្យ វស្ត្រាណិ វិភជ្យ ជគ្ឫហុះ។
@@ -2633,60 +2633,60 @@ Holy-Bible---Sanskrit---Khmer-Script	EXO-013-017
 Holy-Bible---Sanskrit---Khmer-Script	MAR-010-045	មាក៌ះ 10:45	យតោ មនុឞ្យបុត្រះ សេវ្យោ ភវិតុំ នាគតះ សេវាំ កត៌្តាំ តថានេកេឞាំ បរិត្រាណស្យ មូល្យរូបស្វប្រាណំ ទាតុញ្ចាគតះ។
 Holy-Bible---Sanskrit---Khmer-Script	ROM-001-001	រោមិណះ 1:1	ឦឝ្វរោ និជបុត្រមធិ យំ សុសំវាទំ ភវិឞ្យទ្វាទិភិ រ្ធម៌្មគ្រន្ថេ ប្រតិឝ្រុតវាន៑ តំ សុសំវាទំ ប្រចារយិតុំ ប្ឫថក្ក្ឫត អាហូតះ ប្រេរិតឝ្ច ប្រភោ រ្យីឝុខ្រីឞ្ដស្យ សេវកោ យះ បៅលះ
 Holy-Bible---Sanskrit---Khmer-Script	MAT-028-019	មថិះ 28:19	អតោ យូយំ ប្រយាយ សវ៌្វទេឝីយាន៑ ឝិឞ្យាន៑ ក្ឫត្វា បិតុះ បុត្រស្យ បវិត្រស្យាត្មនឝ្ច នាម្នា តានវគាហយត; អហំ យុឞ្មាន៑ យទ្យទាទិឝំ តទបិ បាលយិតុំ តានុបាទិឝត។
-Holy-Bible---Sanskrit---Malayalam-Script	JOH-003-016	യോഹനഃ 3:16	ഈശ്വര ഇത്ഥം ജഗദദയത യത് സ്വമദ്വിതീയം തനയം പ്രാദദാത് തതോ യഃ കശ്ചിത് തസ്മിൻ വിശ്വസിഷ്യതി സോഽവിനാശ്യഃ സൻ അനന്തായുഃ പ്രാപ്സ്യതി
+Holy-Bible---Sanskrit---Malayalam-Script	JOH-003-016	യോഹനഃ 3:16	ഈശ്വര ഇത്ഥം ജഗദദയത യത് സ്വമദ്വിതീയം തനയം പ്രാദദാത് തതോ യഃ കശ്ചിത് തസ്മിൻ വിശ്വസിഷ്യതി സോഽവിനാശ്യഃ സൻ അനന്തായുഃ പ്രാപ്സ്യതി|
 Holy-Bible---Sanskrit---Malayalam-Script	GEN-003-024		
-Holy-Bible---Sanskrit---Malayalam-Script	LUK-023-034	ലൂകഃ 23:34	തദാ യീശുരകഥയത്, ഹേ പിതരേതാൻ ക്ഷമസ്വ യത ഏതേ യത് കർമ്മ കുർവ്വന്തി തൻ ന വിദുഃ; പശ്ചാത്തേ ഗുടികാപാതം കൃത്വാ തസ്യ വസ്ത്രാണി വിഭജ്യ ജഗൃഹുഃ
-Holy-Bible---Sanskrit---Malayalam-Script	REV-021-002	പ്രകാശിതം 21:2-3	അപരം സ്വർഗാദ് അവരോഹന്തീ പവിത്രാ നഗരീ, അർഥതോ നവീനാ യിരൂശാലമപുരീ മയാ ദൃഷ്ടാ, സാ വരായ വിഭൂഷിതാ കന്യേവ സുസജ്ജിതാസീത് അനന്തരം സ്വർഗാദ് ഏഷ മഹാരവോ മയാ ശ്രുതഃ പശ്യായം മാനവൈഃ സാർദ്ധമ് ഈശ്വരസ്യാവാസഃ, സ തൈഃ സാർദ്ധം വത്സ്യതി തേ ച തസ്യ പ്രജാ ഭവിഷ്യന്തി, ഈശ്വരശ്ച സ്വയം തേഷാമ് ഈശ്വരോ ഭൂത്വാ തൈഃ സാർദ്ധം സ്ഥാസ്യതി
-Holy-Bible---Sanskrit---Malayalam-Script	HEB-011-008	ഇബ്രിണഃ 11:8	വിശ്വാസേനേബ്രാഹീമ് ആഹൂതഃ സൻ ആജ്ഞാം ഗൃഹീത്വാ യസ്യ സ്ഥാനസ്യാധികാരസ്തേന പ്രാപ്തവ്യസ്തത് സ്ഥാനം പ്രസ്ഥിതവാൻ കിന്തു പ്രസ്ഥാനസമയേ ക്ക യാമീതി നാജാനാത്
+Holy-Bible---Sanskrit---Malayalam-Script	LUK-023-034	ലൂകഃ 23:34	തദാ യീശുരകഥയത്, ഹേ പിതരേതാൻ ക്ഷമസ്വ യത ഏതേ യത് കർമ്മ കുർവ്വന്തി തൻ ന വിദുഃ; പശ്ചാത്തേ ഗുടികാപാതം കൃത്വാ തസ്യ വസ്ത്രാണി വിഭജ്യ ജഗൃഹുഃ|
+Holy-Bible---Sanskrit---Malayalam-Script	REV-021-002	പ്രകാശിതം 21:2-3	അപരം സ്വർഗാദ് അവരോഹന്തീ പവിത്രാ നഗരീ, അർഥതോ നവീനാ യിരൂശാലമപുരീ മയാ ദൃഷ്ടാ, സാ വരായ വിഭൂഷിതാ കന്യേവ സുസജ്ജിതാസീത്| അനന്തരം സ്വർഗാദ് ഏഷ മഹാരവോ മയാ ശ്രുതഃ പശ്യായം മാനവൈഃ സാർദ്ധമ് ഈശ്വരസ്യാവാസഃ, സ തൈഃ സാർദ്ധം വത്സ്യതി തേ ച തസ്യ പ്രജാ ഭവിഷ്യന്തി, ഈശ്വരശ്ച സ്വയം തേഷാമ് ഈശ്വരോ ഭൂത്വാ തൈഃ സാർദ്ധം സ്ഥാസ്യതി|
+Holy-Bible---Sanskrit---Malayalam-Script	HEB-011-008	ഇബ്രിണഃ 11:8	വിശ്വാസേനേബ്രാഹീമ് ആഹൂതഃ സൻ ആജ്ഞാം ഗൃഹീത്വാ യസ്യ സ്ഥാനസ്യാധികാരസ്തേന പ്രാപ്തവ്യസ്തത് സ്ഥാനം പ്രസ്ഥിതവാൻ കിന്തു പ്രസ്ഥാനസമയേ ക്ക യാമീതി നാജാനാത്|
 Holy-Bible---Sanskrit---Malayalam-Script	EXO-013-017		
-Holy-Bible---Sanskrit---Malayalam-Script	MAR-010-045	മാർകഃ 10:45	യതോ മനുഷ്യപുത്രഃ സേവ്യോ ഭവിതും നാഗതഃ സേവാം കർത്താം തഥാനേകേഷാം പരിത്രാണസ്യ മൂല്യരൂപസ്വപ്രാണം ദാതുഞ്ചാഗതഃ
+Holy-Bible---Sanskrit---Malayalam-Script	MAR-010-045	മാർകഃ 10:45	യതോ മനുഷ്യപുത്രഃ സേവ്യോ ഭവിതും നാഗതഃ സേവാം കർത്താം തഥാനേകേഷാം പരിത്രാണസ്യ മൂല്യരൂപസ്വപ്രാണം ദാതുഞ്ചാഗതഃ|
 Holy-Bible---Sanskrit---Malayalam-Script	ROM-001-001	രോമിണഃ 1:1	ഈശ്വരോ നിജപുത്രമധി യം സുസംവാദം ഭവിഷ്യദ്വാദിഭി ർധർമ്മഗ്രന്ഥേ പ്രതിശ്രുതവാൻ തം സുസംവാദം പ്രചാരയിതും പൃഥക്കൃത ആഹൂതഃ പ്രേരിതശ്ച പ്രഭോ ര്യീശുഖ്രീഷ്ടസ്യ സേവകോ യഃ പൗലഃ
-Holy-Bible---Sanskrit---Malayalam-Script	MAT-028-019	മഥിഃ 28:19	അതോ യൂയം പ്രയായ സർവ്വദേശീയാൻ ശിഷ്യാൻ കൃത്വാ പിതുഃ പുത്രസ്യ പവിത്രസ്യാത്മനശ്ച നാമ്നാ താനവഗാഹയത; അഹം യുഷ്മാൻ യദ്യദാദിശം തദപി പാലയിതും താനുപാദിശത
-Holy-Bible---Sanskrit---Oriya-Script	JOH-003-016	ଯୋହନଃ 3:16	ଈଶ୍ୱର ଇତ୍ଥଂ ଜଗଦଦଯତ ଯତ୍ ସ୍ୱମଦ୍ୱିତୀଯଂ ତନଯଂ ପ୍ରାଦଦାତ୍ ତତୋ ଯଃ କଶ୍ଚିତ୍ ତସ୍ମିନ୍ ୱିଶ୍ୱସିଷ୍ୟତି ସୋଽୱିନାଶ୍ୟଃ ସନ୍ ଅନନ୍ତାଯୁଃ ପ୍ରାପ୍ସ୍ୟତି
+Holy-Bible---Sanskrit---Malayalam-Script	MAT-028-019	മഥിഃ 28:19	അതോ യൂയം പ്രയായ സർവ്വദേശീയാൻ ശിഷ്യാൻ കൃത്വാ പിതുഃ പുത്രസ്യ പവിത്രസ്യാത്മനശ്ച നാമ്നാ താനവഗാഹയത; അഹം യുഷ്മാൻ യദ്യദാദിശം തദപി പാലയിതും താനുപാദിശത|
+Holy-Bible---Sanskrit---Oriya-Script	JOH-003-016	ଯୋହନଃ 3:16	ଈଶ୍ୱର ଇତ୍ଥଂ ଜଗଦଦଯତ ଯତ୍ ସ୍ୱମଦ୍ୱିତୀଯଂ ତନଯଂ ପ୍ରାଦଦାତ୍ ତତୋ ଯଃ କଶ୍ଚିତ୍ ତସ୍ମିନ୍ ୱିଶ୍ୱସିଷ୍ୟତି ସୋଽୱିନାଶ୍ୟଃ ସନ୍ ଅନନ୍ତାଯୁଃ ପ୍ରାପ୍ସ୍ୟତି|
 Holy-Bible---Sanskrit---Oriya-Script	GEN-003-024		
-Holy-Bible---Sanskrit---Oriya-Script	LUK-023-034	ଲୂକଃ 23:34	ତଦା ଯୀଶୁରକଥଯତ୍, ହେ ପିତରେତାନ୍ କ୍ଷମସ୍ୱ ଯତ ଏତେ ଯତ୍ କର୍ମ୍ମ କୁର୍ୱ୍ୱନ୍ତି ତନ୍ ନ ୱିଦୁଃ; ପଶ୍ଚାତ୍ତେ ଗୁଟିକାପାତଂ କୃତ୍ୱା ତସ୍ୟ ୱସ୍ତ୍ରାଣି ୱିଭଜ୍ୟ ଜଗୃହୁଃ
-Holy-Bible---Sanskrit---Oriya-Script	REV-021-002	ପ୍ରକାଶିତଂ 21:2-3	ଅପରଂ ସ୍ୱର୍ଗାଦ୍ ଅୱରୋହନ୍ତୀ ପୱିତ୍ରା ନଗରୀ, ଅର୍ଥତୋ ନୱୀନା ଯିରୂଶାଲମପୁରୀ ମଯା ଦୃଷ୍ଟା, ସା ୱରାଯ ୱିଭୂଷିତା କନ୍ୟେୱ ସୁସଜ୍ଜିତାସୀତ୍ ଅନନ୍ତରଂ ସ୍ୱର୍ଗାଦ୍ ଏଷ ମହାରୱୋ ମଯା ଶ୍ରୁତଃ ପଶ୍ୟାଯଂ ମାନୱୈଃ ସାର୍ଦ୍ଧମ୍ ଈଶ୍ୱରସ୍ୟାୱାସଃ, ସ ତୈଃ ସାର୍ଦ୍ଧଂ ୱତ୍ସ୍ୟତି ତେ ଚ ତସ୍ୟ ପ୍ରଜା ଭୱିଷ୍ୟନ୍ତି, ଈଶ୍ୱରଶ୍ଚ ସ୍ୱଯଂ ତେଷାମ୍ ଈଶ୍ୱରୋ ଭୂତ୍ୱା ତୈଃ ସାର୍ଦ୍ଧଂ ସ୍ଥାସ୍ୟତି
-Holy-Bible---Sanskrit---Oriya-Script	HEB-011-008	ଇବ୍ରିଣଃ 11:8	ୱିଶ୍ୱାସେନେବ୍ରାହୀମ୍ ଆହୂତଃ ସନ୍ ଆଜ୍ଞାଂ ଗୃହୀତ୍ୱା ଯସ୍ୟ ସ୍ଥାନସ୍ୟାଧିକାରସ୍ତେନ ପ୍ରାପ୍ତୱ୍ୟସ୍ତତ୍ ସ୍ଥାନଂ ପ୍ରସ୍ଥିତୱାନ୍ କିନ୍ତୁ ପ୍ରସ୍ଥାନସମଯେ କ୍କ ଯାମୀତି ନାଜାନାତ୍
+Holy-Bible---Sanskrit---Oriya-Script	LUK-023-034	ଲୂକଃ 23:34	ତଦା ଯୀଶୁରକଥଯତ୍, ହେ ପିତରେତାନ୍ କ୍ଷମସ୍ୱ ଯତ ଏତେ ଯତ୍ କର୍ମ୍ମ କୁର୍ୱ୍ୱନ୍ତି ତନ୍ ନ ୱିଦୁଃ; ପଶ୍ଚାତ୍ତେ ଗୁଟିକାପାତଂ କୃତ୍ୱା ତସ୍ୟ ୱସ୍ତ୍ରାଣି ୱିଭଜ୍ୟ ଜଗୃହୁଃ|
+Holy-Bible---Sanskrit---Oriya-Script	REV-021-002	ପ୍ରକାଶିତଂ 21:2-3	ଅପରଂ ସ୍ୱର୍ଗାଦ୍ ଅୱରୋହନ୍ତୀ ପୱିତ୍ରା ନଗରୀ, ଅର୍ଥତୋ ନୱୀନା ଯିରୂଶାଲମପୁରୀ ମଯା ଦୃଷ୍ଟା, ସା ୱରାଯ ୱିଭୂଷିତା କନ୍ୟେୱ ସୁସଜ୍ଜିତାସୀତ୍| ଅନନ୍ତରଂ ସ୍ୱର୍ଗାଦ୍ ଏଷ ମହାରୱୋ ମଯା ଶ୍ରୁତଃ ପଶ୍ୟାଯଂ ମାନୱୈଃ ସାର୍ଦ୍ଧମ୍ ଈଶ୍ୱରସ୍ୟାୱାସଃ, ସ ତୈଃ ସାର୍ଦ୍ଧଂ ୱତ୍ସ୍ୟତି ତେ ଚ ତସ୍ୟ ପ୍ରଜା ଭୱିଷ୍ୟନ୍ତି, ଈଶ୍ୱରଶ୍ଚ ସ୍ୱଯଂ ତେଷାମ୍ ଈଶ୍ୱରୋ ଭୂତ୍ୱା ତୈଃ ସାର୍ଦ୍ଧଂ ସ୍ଥାସ୍ୟତି|
+Holy-Bible---Sanskrit---Oriya-Script	HEB-011-008	ଇବ୍ରିଣଃ 11:8	ୱିଶ୍ୱାସେନେବ୍ରାହୀମ୍ ଆହୂତଃ ସନ୍ ଆଜ୍ଞାଂ ଗୃହୀତ୍ୱା ଯସ୍ୟ ସ୍ଥାନସ୍ୟାଧିକାରସ୍ତେନ ପ୍ରାପ୍ତୱ୍ୟସ୍ତତ୍ ସ୍ଥାନଂ ପ୍ରସ୍ଥିତୱାନ୍ କିନ୍ତୁ ପ୍ରସ୍ଥାନସମଯେ କ୍କ ଯାମୀତି ନାଜାନାତ୍|
 Holy-Bible---Sanskrit---Oriya-Script	EXO-013-017		
-Holy-Bible---Sanskrit---Oriya-Script	MAR-010-045	ମାର୍କଃ 10:45	ଯତୋ ମନୁଷ୍ୟପୁତ୍ରଃ ସେୱ୍ୟୋ ଭୱିତୁଂ ନାଗତଃ ସେୱାଂ କର୍ତ୍ତାଂ ତଥାନେକେଷାଂ ପରିତ୍ରାଣସ୍ୟ ମୂଲ୍ୟରୂପସ୍ୱପ୍ରାଣଂ ଦାତୁଞ୍ଚାଗତଃ
+Holy-Bible---Sanskrit---Oriya-Script	MAR-010-045	ମାର୍କଃ 10:45	ଯତୋ ମନୁଷ୍ୟପୁତ୍ରଃ ସେୱ୍ୟୋ ଭୱିତୁଂ ନାଗତଃ ସେୱାଂ କର୍ତ୍ତାଂ ତଥାନେକେଷାଂ ପରିତ୍ରାଣସ୍ୟ ମୂଲ୍ୟରୂପସ୍ୱପ୍ରାଣଂ ଦାତୁଞ୍ଚାଗତଃ|
 Holy-Bible---Sanskrit---Oriya-Script	ROM-001-001	ରୋମିଣଃ 1:1	ଈଶ୍ୱରୋ ନିଜପୁତ୍ରମଧି ଯଂ ସୁସଂୱାଦଂ ଭୱିଷ୍ୟଦ୍ୱାଦିଭି ର୍ଧର୍ମ୍ମଗ୍ରନ୍ଥେ ପ୍ରତିଶ୍ରୁତୱାନ୍ ତଂ ସୁସଂୱାଦଂ ପ୍ରଚାରଯିତୁଂ ପୃଥକ୍କୃତ ଆହୂତଃ ପ୍ରେରିତଶ୍ଚ ପ୍ରଭୋ ର୍ୟୀଶୁଖ୍ରୀଷ୍ଟସ୍ୟ ସେୱକୋ ଯଃ ପୌଲଃ
-Holy-Bible---Sanskrit---Oriya-Script	MAT-028-019	ମଥିଃ 28:19	ଅତୋ ଯୂଯଂ ପ୍ରଯାଯ ସର୍ୱ୍ୱଦେଶୀଯାନ୍ ଶିଷ୍ୟାନ୍ କୃତ୍ୱା ପିତୁଃ ପୁତ୍ରସ୍ୟ ପୱିତ୍ରସ୍ୟାତ୍ମନଶ୍ଚ ନାମ୍ନା ତାନୱଗାହଯତ; ଅହଂ ଯୁଷ୍ମାନ୍ ଯଦ୍ୟଦାଦିଶଂ ତଦପି ପାଲଯିତୁଂ ତାନୁପାଦିଶତ
-Holy-Bible---Sanskrit---Punjabi-Script	JOH-003-016	ਯੋਹਨਃ 3:16	ਈਸ਼੍ਵਰ ਇੱਥੰ ਜਗਦਦਯਤ ਯਤ੍ ਸ੍ਵਮਦ੍ਵਿਤੀਯੰ ਤਨਯੰ ਪ੍ਰਾਦਦਾਤ੍ ਤਤੋ ਯਃ ਕਸ਼੍ਚਿਤ੍ ਤਸ੍ਮਿਨ੍ ਵਿਸ਼੍ਵਸਿਸ਼਼੍ਯਤਿ ਸੋ(ਅ)ਵਿਨਾਸ਼੍ਯਃ ਸਨ੍ ਅਨਨ੍ਤਾਯੁਃ ਪ੍ਰਾਪ੍ਸ੍ਯਤਿ
+Holy-Bible---Sanskrit---Oriya-Script	MAT-028-019	ମଥିଃ 28:19	ଅତୋ ଯୂଯଂ ପ୍ରଯାଯ ସର୍ୱ୍ୱଦେଶୀଯାନ୍ ଶିଷ୍ୟାନ୍ କୃତ୍ୱା ପିତୁଃ ପୁତ୍ରସ୍ୟ ପୱିତ୍ରସ୍ୟାତ୍ମନଶ୍ଚ ନାମ୍ନା ତାନୱଗାହଯତ; ଅହଂ ଯୁଷ୍ମାନ୍ ଯଦ୍ୟଦାଦିଶଂ ତଦପି ପାଲଯିତୁଂ ତାନୁପାଦିଶତ|
+Holy-Bible---Sanskrit---Punjabi-Script	JOH-003-016	ਯੋਹਨਃ 3:16	ਈਸ਼੍ਵਰ ਇੱਥੰ ਜਗਦਦਯਤ ਯਤ੍ ਸ੍ਵਮਦ੍ਵਿਤੀਯੰ ਤਨਯੰ ਪ੍ਰਾਦਦਾਤ੍ ਤਤੋ ਯਃ ਕਸ਼੍ਚਿਤ੍ ਤਸ੍ਮਿਨ੍ ਵਿਸ਼੍ਵਸਿਸ਼਼੍ਯਤਿ ਸੋ(ਅ)ਵਿਨਾਸ਼੍ਯਃ ਸਨ੍ ਅਨਨ੍ਤਾਯੁਃ ਪ੍ਰਾਪ੍ਸ੍ਯਤਿ|
 Holy-Bible---Sanskrit---Punjabi-Script	GEN-003-024		
-Holy-Bible---Sanskrit---Punjabi-Script	LUK-023-034	ਲੂਕਃ 23:34	ਤਦਾ ਯੀਸ਼ੁਰਕਥਯਤ੍, ਹੇ ਪਿਤਰੇਤਾਨ੍ ਕ੍ਸ਼਼ਮਸ੍ਵ ਯਤ ਏਤੇ ਯਤ੍ ਕਰ੍ੰਮ ਕੁਰ੍ੱਵਨ੍ਤਿ ਤਨ੍ ਨ ਵਿਦੁਃ; ਪਸ਼੍ਚਾੱਤੇ ਗੁਟਿਕਾਪਾਤੰ ਕ੍ਰੁʼਤ੍ਵਾ ਤਸ੍ਯ ਵਸ੍ਤ੍ਰਾਣਿ ਵਿਭਜ੍ਯ ਜਗ੍ਰੁʼਹੁਃ
-Holy-Bible---Sanskrit---Punjabi-Script	REV-021-002	ਪ੍ਰਕਾਸ਼ਿਤੰ 21:2-3	ਅਪਰੰ ਸ੍ਵਰ੍ਗਾਦ੍ ਅਵਰੋਹਨ੍ਤੀ ਪਵਿਤ੍ਰਾ ਨਗਰੀ, ਅਰ੍ਥਤੋ ਨਵੀਨਾ ਯਿਰੂਸ਼ਾਲਮਪੁਰੀ ਮਯਾ ਦ੍ਰੁʼਸ਼਼੍ਟਾ, ਸਾ ਵਰਾਯ ਵਿਭੂਸ਼਼ਿਤਾ ਕਨ੍ਯੇਵ ਸੁਸੱਜਿਤਾਸੀਤ੍ ਅਨਨ੍ਤਰੰ ਸ੍ਵਰ੍ਗਾਦ੍ ਏਸ਼਼ ਮਹਾਰਵੋ ਮਯਾ ਸ਼੍ਰੁਤਃ ਪਸ਼੍ਯਾਯੰ ਮਾਨਵੈਃ ਸਾਰ੍ੱਧਮ੍ ਈਸ਼੍ਵਰਸ੍ਯਾਵਾਸਃ, ਸ ਤੈਃ ਸਾਰ੍ੱਧੰ ਵਤ੍ਸ੍ਯਤਿ ਤੇ ਚ ਤਸ੍ਯ ਪ੍ਰਜਾ ਭਵਿਸ਼਼੍ਯਨ੍ਤਿ, ਈਸ਼੍ਵਰਸ਼੍ਚ ਸ੍ਵਯੰ ਤੇਸ਼਼ਾਮ੍ ਈਸ਼੍ਵਰੋ ਭੂਤ੍ਵਾ ਤੈਃ ਸਾਰ੍ੱਧੰ ਸ੍ਥਾਸ੍ਯਤਿ
-Holy-Bible---Sanskrit---Punjabi-Script	HEB-011-008	ਇਬ੍ਰਿਣਃ 11:8	ਵਿਸ਼੍ਵਾਸੇਨੇਬ੍ਰਾਹੀਮ੍ ਆਹੂਤਃ ਸਨ੍ ਆਜ੍ਞਾਂ ਗ੍ਰੁʼਹੀਤ੍ਵਾ ਯਸ੍ਯ ਸ੍ਥਾਨਸ੍ਯਾਧਿਕਾਰਸ੍ਤੇਨ ਪ੍ਰਾਪ੍ਤਵ੍ਯਸ੍ਤਤ੍ ਸ੍ਥਾਨੰ ਪ੍ਰਸ੍ਥਿਤਵਾਨ੍ ਕਿਨ੍ਤੁ ਪ੍ਰਸ੍ਥਾਨਸਮਯੇ ੱਕ ਯਾਮੀਤਿ ਨਾਜਾਨਾਤ੍
+Holy-Bible---Sanskrit---Punjabi-Script	LUK-023-034	ਲੂਕਃ 23:34	ਤਦਾ ਯੀਸ਼ੁਰਕਥਯਤ੍, ਹੇ ਪਿਤਰੇਤਾਨ੍ ਕ੍ਸ਼਼ਮਸ੍ਵ ਯਤ ਏਤੇ ਯਤ੍ ਕਰ੍ੰਮ ਕੁਰ੍ੱਵਨ੍ਤਿ ਤਨ੍ ਨ ਵਿਦੁਃ; ਪਸ਼੍ਚਾੱਤੇ ਗੁਟਿਕਾਪਾਤੰ ਕ੍ਰੁʼਤ੍ਵਾ ਤਸ੍ਯ ਵਸ੍ਤ੍ਰਾਣਿ ਵਿਭਜ੍ਯ ਜਗ੍ਰੁʼਹੁਃ|
+Holy-Bible---Sanskrit---Punjabi-Script	REV-021-002	ਪ੍ਰਕਾਸ਼ਿਤੰ 21:2-3	ਅਪਰੰ ਸ੍ਵਰ੍ਗਾਦ੍ ਅਵਰੋਹਨ੍ਤੀ ਪਵਿਤ੍ਰਾ ਨਗਰੀ, ਅਰ੍ਥਤੋ ਨਵੀਨਾ ਯਿਰੂਸ਼ਾਲਮਪੁਰੀ ਮਯਾ ਦ੍ਰੁʼਸ਼਼੍ਟਾ, ਸਾ ਵਰਾਯ ਵਿਭੂਸ਼਼ਿਤਾ ਕਨ੍ਯੇਵ ਸੁਸੱਜਿਤਾਸੀਤ੍| ਅਨਨ੍ਤਰੰ ਸ੍ਵਰ੍ਗਾਦ੍ ਏਸ਼਼ ਮਹਾਰਵੋ ਮਯਾ ਸ਼੍ਰੁਤਃ ਪਸ਼੍ਯਾਯੰ ਮਾਨਵੈਃ ਸਾਰ੍ੱਧਮ੍ ਈਸ਼੍ਵਰਸ੍ਯਾਵਾਸਃ, ਸ ਤੈਃ ਸਾਰ੍ੱਧੰ ਵਤ੍ਸ੍ਯਤਿ ਤੇ ਚ ਤਸ੍ਯ ਪ੍ਰਜਾ ਭਵਿਸ਼਼੍ਯਨ੍ਤਿ, ਈਸ਼੍ਵਰਸ਼੍ਚ ਸ੍ਵਯੰ ਤੇਸ਼਼ਾਮ੍ ਈਸ਼੍ਵਰੋ ਭੂਤ੍ਵਾ ਤੈਃ ਸਾਰ੍ੱਧੰ ਸ੍ਥਾਸ੍ਯਤਿ|
+Holy-Bible---Sanskrit---Punjabi-Script	HEB-011-008	ਇਬ੍ਰਿਣਃ 11:8	ਵਿਸ਼੍ਵਾਸੇਨੇਬ੍ਰਾਹੀਮ੍ ਆਹੂਤਃ ਸਨ੍ ਆਜ੍ਞਾਂ ਗ੍ਰੁʼਹੀਤ੍ਵਾ ਯਸ੍ਯ ਸ੍ਥਾਨਸ੍ਯਾਧਿਕਾਰਸ੍ਤੇਨ ਪ੍ਰਾਪ੍ਤਵ੍ਯਸ੍ਤਤ੍ ਸ੍ਥਾਨੰ ਪ੍ਰਸ੍ਥਿਤਵਾਨ੍ ਕਿਨ੍ਤੁ ਪ੍ਰਸ੍ਥਾਨਸਮਯੇ ੱਕ ਯਾਮੀਤਿ ਨਾਜਾਨਾਤ੍|
 Holy-Bible---Sanskrit---Punjabi-Script	EXO-013-017		
-Holy-Bible---Sanskrit---Punjabi-Script	MAR-010-045	ਮਾਰ੍ਕਃ 10:45	ਯਤੋ ਮਨੁਸ਼਼੍ਯਪੁਤ੍ਰਃ ਸੇਵ੍ਯੋ ਭਵਿਤੁੰ ਨਾਗਤਃ ਸੇਵਾਂ ਕਰ੍ੱਤਾਂ ਤਥਾਨੇਕੇਸ਼਼ਾਂ ਪਰਿਤ੍ਰਾਣਸ੍ਯ ਮੂਲ੍ਯਰੂਪਸ੍ਵਪ੍ਰਾਣੰ ਦਾਤੁਞ੍ਚਾਗਤਃ
+Holy-Bible---Sanskrit---Punjabi-Script	MAR-010-045	ਮਾਰ੍ਕਃ 10:45	ਯਤੋ ਮਨੁਸ਼਼੍ਯਪੁਤ੍ਰਃ ਸੇਵ੍ਯੋ ਭਵਿਤੁੰ ਨਾਗਤਃ ਸੇਵਾਂ ਕਰ੍ੱਤਾਂ ਤਥਾਨੇਕੇਸ਼਼ਾਂ ਪਰਿਤ੍ਰਾਣਸ੍ਯ ਮੂਲ੍ਯਰੂਪਸ੍ਵਪ੍ਰਾਣੰ ਦਾਤੁਞ੍ਚਾਗਤਃ|
 Holy-Bible---Sanskrit---Punjabi-Script	ROM-001-001	ਰੋਮਿਣਃ 1:1	ਈਸ਼੍ਵਰੋ ਨਿਜਪੁਤ੍ਰਮਧਿ ਯੰ ਸੁਸੰਵਾਦੰ ਭਵਿਸ਼਼੍ਯਦ੍ਵਾਦਿਭਿ ਰ੍ਧਰ੍ੰਮਗ੍ਰਨ੍ਥੇ ਪ੍ਰਤਿਸ਼੍ਰੁਤਵਾਨ੍ ਤੰ ਸੁਸੰਵਾਦੰ ਪ੍ਰਚਾਰਯਿਤੁੰ ਪ੍ਰੁʼਥੱਕ੍ਰੁʼਤ ਆਹੂਤਃ ਪ੍ਰੇਰਿਤਸ਼੍ਚ ਪ੍ਰਭੋ ਰ੍ਯੀਸ਼ੁਖ੍ਰੀਸ਼਼੍ਟਸ੍ਯ ਸੇਵਕੋ ਯਃ ਪੌਲਃ
-Holy-Bible---Sanskrit---Punjabi-Script	MAT-028-019	ਮਥਿਃ 28:19	ਅਤੋ ਯੂਯੰ ਪ੍ਰਯਾਯ ਸਰ੍ੱਵਦੇਸ਼ੀਯਾਨ੍ ਸ਼ਿਸ਼਼੍ਯਾਨ੍ ਕ੍ਰੁʼਤ੍ਵਾ ਪਿਤੁਃ ਪੁਤ੍ਰਸ੍ਯ ਪਵਿਤ੍ਰਸ੍ਯਾਤ੍ਮਨਸ਼੍ਚ ਨਾਮ੍ਨਾ ਤਾਨਵਗਾਹਯਤ; ਅਹੰ ਯੁਸ਼਼੍ਮਾਨ੍ ਯਦ੍ਯਦਾਦਿਸ਼ੰ ਤਦਪਿ ਪਾਲਯਿਤੁੰ ਤਾਨੁਪਾਦਿਸ਼ਤ
-Holy-Bible---Sanskrit---Sinhala-Script	JOH-003-016	යෝහනඃ 3:16	ඊශ්වර ඉත්ථං ජගදදයත යත් ස්වමද්විතීයං තනයං ප්‍රාදදාත් තතෝ යඃ කශ්චිත් තස්මින් විශ්වසිෂ්‍යති සෝ(අ)විනාශ්‍යඃ සන් අනන්තායුඃ ප්‍රාප්ස්‍යති
+Holy-Bible---Sanskrit---Punjabi-Script	MAT-028-019	ਮਥਿਃ 28:19	ਅਤੋ ਯੂਯੰ ਪ੍ਰਯਾਯ ਸਰ੍ੱਵਦੇਸ਼ੀਯਾਨ੍ ਸ਼ਿਸ਼਼੍ਯਾਨ੍ ਕ੍ਰੁʼਤ੍ਵਾ ਪਿਤੁਃ ਪੁਤ੍ਰਸ੍ਯ ਪਵਿਤ੍ਰਸ੍ਯਾਤ੍ਮਨਸ਼੍ਚ ਨਾਮ੍ਨਾ ਤਾਨਵਗਾਹਯਤ; ਅਹੰ ਯੁਸ਼਼੍ਮਾਨ੍ ਯਦ੍ਯਦਾਦਿਸ਼ੰ ਤਦਪਿ ਪਾਲਯਿਤੁੰ ਤਾਨੁਪਾਦਿਸ਼ਤ|
+Holy-Bible---Sanskrit---Sinhala-Script	JOH-003-016	යෝහනඃ 3:16	ඊශ්වර ඉත්ථං ජගදදයත යත් ස්වමද්විතීයං තනයං ප්‍රාදදාත් තතෝ යඃ කශ්චිත් තස්මින් විශ්වසිෂ්‍යති සෝ(අ)විනාශ්‍යඃ සන් අනන්තායුඃ ප්‍රාප්ස්‍යති|
 Holy-Bible---Sanskrit---Sinhala-Script	GEN-003-024		
-Holy-Bible---Sanskrit---Sinhala-Script	LUK-023-034	ලූකඃ 23:34	තදා යීශුරකථයත්, හේ පිතරේතාන් ක්‍ෂමස්ව යත ඒතේ යත් කර්ම්ම කුර්ව්වන්ති තන් න විදුඃ; පශ්චාත්තේ ගුටිකාපාතං කෘත්වා තස්‍ය වස්ත්‍රාණි විභජ්‍ය ජගෘහුඃ
-Holy-Bible---Sanskrit---Sinhala-Script	REV-021-002	ප්‍රකාශිතං 21:2-3	අපරං ස්වර්ගාද් අවරෝහන්තී පවිත්‍රා නගරී, අර්ථතෝ නවීනා යිරූශාලමපුරී මයා දෘෂ්ටා, සා වරාය විභූෂිතා කන්‍යේව සුසජ්ජිතාසීත් අනන්තරං ස්වර්ගාද් ඒෂ මහාරවෝ මයා ශ්‍රුතඃ පශ්‍යායං මානවෛඃ සාර්ද්ධම් ඊශ්වරස්‍යාවාසඃ, ස තෛඃ සාර්ද්ධං වත්ස්‍යති තේ ච තස්‍ය ප්‍රජා භවිෂ්‍යන්ති, ඊශ්වරශ්ච ස්වයං තේෂාම් ඊශ්වරෝ භූත්වා තෛඃ සාර්ද්ධං ස්ථාස්‍යති
-Holy-Bible---Sanskrit---Sinhala-Script	HEB-011-008	ඉබ්‍රිණඃ 11:8	විශ්වාසේනේබ්‍රාහීම් ආහූතඃ සන් ආඥාං ගෘහීත්වා යස්‍ය ස්ථානස්‍යාධිකාරස්තේන ප්‍රාප්තව්‍යස්තත් ස්ථානං ප්‍රස්ථිතවාන් කින්තු ප්‍රස්ථානසමයේ ක්ක යාමීති නාජානාත්
+Holy-Bible---Sanskrit---Sinhala-Script	LUK-023-034	ලූකඃ 23:34	තදා යීශුරකථයත්, හේ පිතරේතාන් ක්‍ෂමස්ව යත ඒතේ යත් කර්ම්ම කුර්ව්වන්ති තන් න විදුඃ; පශ්චාත්තේ ගුටිකාපාතං කෘත්වා තස්‍ය වස්ත්‍රාණි විභජ්‍ය ජගෘහුඃ|
+Holy-Bible---Sanskrit---Sinhala-Script	REV-021-002	ප්‍රකාශිතං 21:2-3	අපරං ස්වර්ගාද් අවරෝහන්තී පවිත්‍රා නගරී, අර්ථතෝ නවීනා යිරූශාලමපුරී මයා දෘෂ්ටා, සා වරාය විභූෂිතා කන්‍යේව සුසජ්ජිතාසීත්| අනන්තරං ස්වර්ගාද් ඒෂ මහාරවෝ මයා ශ්‍රුතඃ පශ්‍යායං මානවෛඃ සාර්ද්ධම් ඊශ්වරස්‍යාවාසඃ, ස තෛඃ සාර්ද්ධං වත්ස්‍යති තේ ච තස්‍ය ප්‍රජා භවිෂ්‍යන්ති, ඊශ්වරශ්ච ස්වයං තේෂාම් ඊශ්වරෝ භූත්වා තෛඃ සාර්ද්ධං ස්ථාස්‍යති|
+Holy-Bible---Sanskrit---Sinhala-Script	HEB-011-008	ඉබ්‍රිණඃ 11:8	විශ්වාසේනේබ්‍රාහීම් ආහූතඃ සන් ආඥාං ගෘහීත්වා යස්‍ය ස්ථානස්‍යාධිකාරස්තේන ප්‍රාප්තව්‍යස්තත් ස්ථානං ප්‍රස්ථිතවාන් කින්තු ප්‍රස්ථානසමයේ ක්ක යාමීති නාජානාත්|
 Holy-Bible---Sanskrit---Sinhala-Script	EXO-013-017		
-Holy-Bible---Sanskrit---Sinhala-Script	MAR-010-045	මාර්කඃ 10:45	යතෝ මනුෂ්‍යපුත්‍රඃ සේව්‍යෝ භවිතුං නාගතඃ සේවාං කර්ත්තාං තථානේකේෂාං පරිත්‍රාණස්‍ය මූල්‍යරූපස්වප්‍රාණං දාතුඤ්චාගතඃ
+Holy-Bible---Sanskrit---Sinhala-Script	MAR-010-045	මාර්කඃ 10:45	යතෝ මනුෂ්‍යපුත්‍රඃ සේව්‍යෝ භවිතුං නාගතඃ සේවාං කර්ත්තාං තථානේකේෂාං පරිත්‍රාණස්‍ය මූල්‍යරූපස්වප්‍රාණං දාතුඤ්චාගතඃ|
 Holy-Bible---Sanskrit---Sinhala-Script	ROM-001-001	රෝමිණඃ 1:1	ඊශ්වරෝ නිජපුත්‍රමධි යං සුසංවාදං භවිෂ්‍යද්වාදිභි ර්ධර්ම්මග්‍රන්ථේ ප්‍රතිශ්‍රුතවාන් තං සුසංවාදං ප්‍රචාරයිතුං පෘථක්කෘත ආහූතඃ ප්‍රේරිතශ්ච ප්‍රභෝ ර‍්‍යීශුඛ්‍රීෂ්ටස්‍ය සේවකෝ යඃ පෞලඃ
-Holy-Bible---Sanskrit---Sinhala-Script	MAT-028-019	මථිඃ 28:19	අතෝ යූයං ප්‍රයාය සර්ව්වදේශීයාන් ශිෂ්‍යාන් කෘත්වා පිතුඃ පුත්‍රස්‍ය පවිත්‍රස්‍යාත්මනශ්ච නාම්නා තානවගාහයත; අහං යුෂ්මාන් යද්‍යදාදිශං තදපි පාලයිතුං තානුපාදිශත
-Holy-Bible---Sanskrit---Tamil-Script	JOH-003-016	யோஹந​: 3:16	ஈஸ்²வர இத்த²ம்’ ஜக³த³த³யத யத் ஸ்வமத்³விதீயம்’ தநயம்’ ப்ராத³தா³த் ததோ ய​: கஸ்²சித் தஸ்மிந் விஸ்²வஸிஷ்யதி ஸோ(அ)விநாஸ்²ய​: ஸந் அநந்தாயு​: ப்ராப்ஸ்யதி
+Holy-Bible---Sanskrit---Sinhala-Script	MAT-028-019	මථිඃ 28:19	අතෝ යූයං ප්‍රයාය සර්ව්වදේශීයාන් ශිෂ්‍යාන් කෘත්වා පිතුඃ පුත්‍රස්‍ය පවිත්‍රස්‍යාත්මනශ්ච නාම්නා තානවගාහයත; අහං යුෂ්මාන් යද්‍යදාදිශං තදපි පාලයිතුං තානුපාදිශත|
+Holy-Bible---Sanskrit---Tamil-Script	JOH-003-016	யோஹந​: 3:16	ஈஸ்²வர இத்த²ம்’ ஜக³த³த³யத யத் ஸ்வமத்³விதீயம்’ தநயம்’ ப்ராத³தா³த் ததோ ய​: கஸ்²சித் தஸ்மிந் விஸ்²வஸிஷ்யதி ஸோ(அ)விநாஸ்²ய​: ஸந் அநந்தாயு​: ப்ராப்ஸ்யதி|
 Holy-Bible---Sanskrit---Tamil-Script	GEN-003-024		
-Holy-Bible---Sanskrit---Tamil-Script	LUK-023-034	லூக​: 23:34	ததா³ யீஸு²ரகத²யத், ஹே பிதரேதாந் க்ஷமஸ்வ யத ஏதே யத் கர்ம்ம குர்வ்வந்தி தந் ந விது³​: ; பஸ்²சாத்தே கு³டிகாபாதம்’ க்ரு’த்வா தஸ்ய வஸ்த்ராணி விப⁴ஜ்ய ஜக்³ரு’ஹு​:
-Holy-Bible---Sanskrit---Tamil-Script	REV-021-002	ப்ரகாஸி²தம்’ 21:2-3	அபரம்’ ஸ்வர்கா³த்³ அவரோஹந்தீ பவித்ரா நக³ரீ, அர்த²தோ நவீநா யிரூஸா²லமபுரீ மயா த்³ரு’ஷ்டா, ஸா வராய விபூ⁴ஷிதா கந்யேவ ஸுஸஜ்ஜிதாஸீத் அநந்தரம்’ ஸ்வர்கா³த்³ ஏஷ மஹாரவோ மயா ஸ்²ருத​: பஸ்²யாயம்’ மாநவை​: ஸார்த்³த⁴ம் ஈஸ்²வரஸ்யாவாஸ​: , ஸ தை​: ஸார்த்³த⁴ம்’ வத்ஸ்யதி தே ச தஸ்ய ப்ரஜா ப⁴விஷ்யந்தி, ஈஸ்²வரஸ்²ச ஸ்வயம்’ தேஷாம் ஈஸ்²வரோ பூ⁴த்வா தை​: ஸார்த்³த⁴ம்’ ஸ்தா²ஸ்யதி
-Holy-Bible---Sanskrit---Tamil-Script	HEB-011-008	இப்³ரிண​: 11:8	விஸ்²வாஸேநேப்³ராஹீம் ஆஹூத​: ஸந் ஆஜ்ஞாம்’ க்³ரு’ஹீத்வா யஸ்ய ஸ்தா²நஸ்யாதி⁴காரஸ்தேந ப்ராப்தவ்யஸ்தத் ஸ்தா²நம்’ ப்ரஸ்தி²தவாந் கிந்து ப்ரஸ்தா²நஸமயே க்க யாமீதி நாஜாநாத்
+Holy-Bible---Sanskrit---Tamil-Script	LUK-023-034	லூக​: 23:34	ததா³ யீஸு²ரகத²யத், ஹே பிதரேதாந் க்ஷமஸ்வ யத ஏதே யத் கர்ம்ம குர்வ்வந்தி தந் ந விது³​: ; பஸ்²சாத்தே கு³டிகாபாதம்’ க்ரு’த்வா தஸ்ய வஸ்த்ராணி விப⁴ஜ்ய ஜக்³ரு’ஹு​: |
+Holy-Bible---Sanskrit---Tamil-Script	REV-021-002	ப்ரகாஸி²தம்’ 21:2-3	அபரம்’ ஸ்வர்கா³த்³ அவரோஹந்தீ பவித்ரா நக³ரீ, அர்த²தோ நவீநா யிரூஸா²லமபுரீ மயா த்³ரு’ஷ்டா, ஸா வராய விபூ⁴ஷிதா கந்யேவ ஸுஸஜ்ஜிதாஸீத்| அநந்தரம்’ ஸ்வர்கா³த்³ ஏஷ மஹாரவோ மயா ஸ்²ருத​: பஸ்²யாயம்’ மாநவை​: ஸார்த்³த⁴ம் ஈஸ்²வரஸ்யாவாஸ​: , ஸ தை​: ஸார்த்³த⁴ம்’ வத்ஸ்யதி தே ச தஸ்ய ப்ரஜா ப⁴விஷ்யந்தி, ஈஸ்²வரஸ்²ச ஸ்வயம்’ தேஷாம் ஈஸ்²வரோ பூ⁴த்வா தை​: ஸார்த்³த⁴ம்’ ஸ்தா²ஸ்யதி|
+Holy-Bible---Sanskrit---Tamil-Script	HEB-011-008	இப்³ரிண​: 11:8	விஸ்²வாஸேநேப்³ராஹீம் ஆஹூத​: ஸந் ஆஜ்ஞாம்’ க்³ரு’ஹீத்வா யஸ்ய ஸ்தா²நஸ்யாதி⁴காரஸ்தேந ப்ராப்தவ்யஸ்தத் ஸ்தா²நம்’ ப்ரஸ்தி²தவாந் கிந்து ப்ரஸ்தா²நஸமயே க்க யாமீதி நாஜாநாத்|
 Holy-Bible---Sanskrit---Tamil-Script	EXO-013-017		
-Holy-Bible---Sanskrit---Tamil-Script	MAR-010-045	மார்க​: 10:45	யதோ மநுஷ்யபுத்ர​: ஸேவ்யோ ப⁴விதும்’ நாக³த​: ஸேவாம்’ கர்த்தாம்’ ததா²நேகேஷாம்’ பரித்ராணஸ்ய மூல்யரூபஸ்வப்ராணம்’ தா³துஞ்சாக³த​:
+Holy-Bible---Sanskrit---Tamil-Script	MAR-010-045	மார்க​: 10:45	யதோ மநுஷ்யபுத்ர​: ஸேவ்யோ ப⁴விதும்’ நாக³த​: ஸேவாம்’ கர்த்தாம்’ ததா²நேகேஷாம்’ பரித்ராணஸ்ய மூல்யரூபஸ்வப்ராணம்’ தா³துஞ்சாக³த​: |
 Holy-Bible---Sanskrit---Tamil-Script	ROM-001-001	ரோமிண​: 1:1	ஈஸ்²வரோ நிஜபுத்ரமதி⁴ யம்’ ஸுஸம்’வாத³ம்’ ப⁴விஷ்யத்³வாதி³பி⁴ ர்த⁴ர்ம்மக்³ரந்தே² ப்ரதிஸ்²ருதவாந் தம்’ ஸுஸம்’வாத³ம்’ ப்ரசாரயிதும்’ ப்ரு’த²க்க்ரு’த ஆஹூத​: ப்ரேரிதஸ்²ச ப்ரபோ⁴ ர்யீஸு²க்²ரீஷ்டஸ்ய ஸேவகோ ய​: பௌல​:
-Holy-Bible---Sanskrit---Tamil-Script	MAT-028-019	மதி²​: 28:19	அதோ யூயம்’ ப்ரயாய ஸர்வ்வதே³ஸீ²யாந் ஸி²ஷ்யாந் க்ரு’த்வா பிது​: புத்ரஸ்ய பவித்ரஸ்யாத்மநஸ்²ச நாம்நா தாநவகா³ஹயத; அஹம்’ யுஷ்மாந் யத்³யதா³தி³ஸ²ம்’ தத³பி பாலயிதும்’ தாநுபாதி³ஸ²த
-Holy-Bible---Sanskrit---Telugu-Script	JOH-003-016	యోహనః 3:16	ఈశ్వర ఇత్థం జగదదయత యత్ స్వమద్వితీయం తనయం ప్రాదదాత్ తతో యః కశ్చిత్ తస్మిన్ విశ్వసిష్యతి సోఽవినాశ్యః సన్ అనన్తాయుః ప్రాప్స్యతి
+Holy-Bible---Sanskrit---Tamil-Script	MAT-028-019	மதி²​: 28:19	அதோ யூயம்’ ப்ரயாய ஸர்வ்வதே³ஸீ²யாந் ஸி²ஷ்யாந் க்ரு’த்வா பிது​: புத்ரஸ்ய பவித்ரஸ்யாத்மநஸ்²ச நாம்நா தாநவகா³ஹயத; அஹம்’ யுஷ்மாந் யத்³யதா³தி³ஸ²ம்’ தத³பி பாலயிதும்’ தாநுபாதி³ஸ²த|
+Holy-Bible---Sanskrit---Telugu-Script	JOH-003-016	యోహనః 3:16	ఈశ్వర ఇత్థం జగదదయత యత్ స్వమద్వితీయం తనయం ప్రాదదాత్ తతో యః కశ్చిత్ తస్మిన్ విశ్వసిష్యతి సోఽవినాశ్యః సన్ అనన్తాయుః ప్రాప్స్యతి|
 Holy-Bible---Sanskrit---Telugu-Script	GEN-003-024		
-Holy-Bible---Sanskrit---Telugu-Script	LUK-023-034	లూకః 23:34	తదా యీశురకథయత్, హే పితరేతాన్ క్షమస్వ యత ఏతే యత్ కర్మ్మ కుర్వ్వన్తి తన్ న విదుః; పశ్చాత్తే గుటికాపాతం కృత్వా తస్య వస్త్రాణి విభజ్య జగృహుః
-Holy-Bible---Sanskrit---Telugu-Script	REV-021-002	ప్రకాశితం 21:2-3	అపరం స్వర్గాద్ అవరోహన్తీ పవిత్రా నగరీ, అర్థతో నవీనా యిరూశాలమపురీ మయా దృష్టా, సా వరాయ విభూషితా కన్యేవ సుసజ్జితాసీత్ అనన్తరం స్వర్గాద్ ఏష మహారవో మయా శ్రుతః పశ్యాయం మానవైః సార్ద్ధమ్ ఈశ్వరస్యావాసః, స తైః సార్ద్ధం వత్స్యతి తే చ తస్య ప్రజా భవిష్యన్తి, ఈశ్వరశ్చ స్వయం తేషామ్ ఈశ్వరో భూత్వా తైః సార్ద్ధం స్థాస్యతి
-Holy-Bible---Sanskrit---Telugu-Script	HEB-011-008	ఇబ్రిణః 11:8	విశ్వాసేనేబ్రాహీమ్ ఆహూతః సన్ ఆజ్ఞాం గృహీత్వా యస్య స్థానస్యాధికారస్తేన ప్రాప్తవ్యస్తత్ స్థానం ప్రస్థితవాన్ కిన్తు ప్రస్థానసమయే క్క యామీతి నాజానాత్
+Holy-Bible---Sanskrit---Telugu-Script	LUK-023-034	లూకః 23:34	తదా యీశురకథయత్, హే పితరేతాన్ క్షమస్వ యత ఏతే యత్ కర్మ్మ కుర్వ్వన్తి తన్ న విదుః; పశ్చాత్తే గుటికాపాతం కృత్వా తస్య వస్త్రాణి విభజ్య జగృహుః|
+Holy-Bible---Sanskrit---Telugu-Script	REV-021-002	ప్రకాశితం 21:2-3	అపరం స్వర్గాద్ అవరోహన్తీ పవిత్రా నగరీ, అర్థతో నవీనా యిరూశాలమపురీ మయా దృష్టా, సా వరాయ విభూషితా కన్యేవ సుసజ్జితాసీత్| అనన్తరం స్వర్గాద్ ఏష మహారవో మయా శ్రుతః పశ్యాయం మానవైః సార్ద్ధమ్ ఈశ్వరస్యావాసః, స తైః సార్ద్ధం వత్స్యతి తే చ తస్య ప్రజా భవిష్యన్తి, ఈశ్వరశ్చ స్వయం తేషామ్ ఈశ్వరో భూత్వా తైః సార్ద్ధం స్థాస్యతి|
+Holy-Bible---Sanskrit---Telugu-Script	HEB-011-008	ఇబ్రిణః 11:8	విశ్వాసేనేబ్రాహీమ్ ఆహూతః సన్ ఆజ్ఞాం గృహీత్వా యస్య స్థానస్యాధికారస్తేన ప్రాప్తవ్యస్తత్ స్థానం ప్రస్థితవాన్ కిన్తు ప్రస్థానసమయే క్క యామీతి నాజానాత్|
 Holy-Bible---Sanskrit---Telugu-Script	EXO-013-017		
-Holy-Bible---Sanskrit---Telugu-Script	MAR-010-045	మార్కః 10:45	యతో మనుష్యపుత్రః సేవ్యో భవితుం నాగతః సేవాం కర్త్తాం తథానేకేషాం పరిత్రాణస్య మూల్యరూపస్వప్రాణం దాతుఞ్చాగతః
+Holy-Bible---Sanskrit---Telugu-Script	MAR-010-045	మార్కః 10:45	యతో మనుష్యపుత్రః సేవ్యో భవితుం నాగతః సేవాం కర్త్తాం తథానేకేషాం పరిత్రాణస్య మూల్యరూపస్వప్రాణం దాతుఞ్చాగతః|
 Holy-Bible---Sanskrit---Telugu-Script	ROM-001-001	రోమిణః 1:1	ఈశ్వరో నిజపుత్రమధి యం సుసంవాదం భవిష్యద్వాదిభి ర్ధర్మ్మగ్రన్థే ప్రతిశ్రుతవాన్ తం సుసంవాదం ప్రచారయితుం పృథక్కృత ఆహూతః ప్రేరితశ్చ ప్రభో ర్యీశుఖ్రీష్టస్య సేవకో యః పౌలః
-Holy-Bible---Sanskrit---Telugu-Script	MAT-028-019	మథిః 28:19	అతో యూయం ప్రయాయ సర్వ్వదేశీయాన్ శిష్యాన్ కృత్వా పితుః పుత్రస్య పవిత్రస్యాత్మనశ్చ నామ్నా తానవగాహయత; అహం యుష్మాన్ యద్యదాదిశం తదపి పాలయితుం తానుపాదిశత
+Holy-Bible---Sanskrit---Telugu-Script	MAT-028-019	మథిః 28:19	అతో యూయం ప్రయాయ సర్వ్వదేశీయాన్ శిష్యాన్ కృత్వా పితుః పుత్రస్య పవిత్రస్యాత్మనశ్చ నామ్నా తానవగాహయత; అహం యుష్మాన్ యద్యదాదిశం తదపి పాలయితుం తానుపాదిశత|
 Holy-Bible---Sanskrit---Thai-Script	JOH-003-016	โยหน: 3:16	อีศฺวร อิตฺถํ ชคททยต ยตฺ สฺวมทฺวิตียํ ตนยํ ปฺราททาตฺ ตโต ย: กศฺจิตฺ ตสฺมินฺ วิศฺวสิษฺยติ โส'วินาศฺย: สนฺ อนนฺตายุ: ปฺราปฺสฺยติฯ
 Holy-Bible---Sanskrit---Thai-Script	GEN-003-024		
 Holy-Bible---Sanskrit---Thai-Script	LUK-023-034	ลูก: 23:34	ตทา ยีศุรกถยตฺ, เห ปิตเรตานฺ กฺษมสฺว ยต เอเต ยตฺ กรฺมฺม กุรฺวฺวนฺติ ตนฺ น วิทุ: ; ปศฺจาตฺเต คุฏิกาปาตํ กฺฤตฺวา ตสฺย วสฺตฺราณิ วิภชฺย ชคฺฤหุ: ฯ
@@ -2714,15 +2714,15 @@ Holy-Bible---Sanskrit---Urdu-Script	EXO-013-017
 Holy-Bible---Sanskrit---Urdu-Script	MAR-010-045	مارْکَح 10:45	یَتو مَنُشْیَپُتْرَح سیوْیو بھَوِتُں ناگَتَح سیواں کَرْتّاں تَتھانیکیشاں پَرِتْرانَسْیَ مُولْیَرُوپَسْوَپْرانَں داتُنْچاگَتَح۔
 Holy-Bible---Sanskrit---Urdu-Script	ROM-001-001	رومِنَح 1:1	اِیشْوَرو نِجَپُتْرَمَدھِ یَں سُسَںوادَں بھَوِشْیَدْوادِبھِ رْدھَرْمَّگْرَنْتھے پْرَتِشْرُتَوانْ تَں سُسَںوادَں پْرَچارَیِتُں پرِتھَکّرِتَ آہُوتَح پْریرِتَشْچَ پْرَبھو رْیِیشُکھْرِیشْٹَسْیَ سیوَکو یَح پَولَح
 Holy-Bible---Sanskrit---Urdu-Script	MAT-028-019	مَتھِح 28:19	اَتو یُویَں پْرَیایَ سَرْوَّدیشِییانْ شِشْیانْ کرِتْوا پِتُح پُتْرَسْیَ پَوِتْرَسْیاتْمَنَشْچَ نامْنا تانَوَگاہَیَتَ؛ اَہَں یُشْمانْ یَدْیَدادِشَں تَدَپِ پالَیِتُں تانُپادِشَتَ۔
-Holy-Bible---Sanskrit---Velthuis-Script	JOH-003-016	yohana.h 3:16	ii"svara ittha. m jagadadayata yat svamadvitiiya. m tanaya. m praadadaat tato ya. h ka"scit tasmin vi"svasi. syati so. avinaa"sya. h san anantaayu. h praapsyati
+Holy-Bible---Sanskrit---Velthuis-Script	JOH-003-016	yohana.h 3:16	ii"svara ittha. m jagadadayata yat svamadvitiiya. m tanaya. m praadadaat tato ya. h ka"scit tasmin vi"svasi. syati so. avinaa"sya. h san anantaayu. h praapsyati|
 Holy-Bible---Sanskrit---Velthuis-Script	GEN-003-024		
-Holy-Bible---Sanskrit---Velthuis-Script	LUK-023-034	luuka.h 23:34	tadaa yii"surakathayat, he pitaretaan k. samasva yata ete yat karmma kurvvanti tan na vidu. h; pa"scaatte gu. tikaapaata. m k. rtvaa tasya vastraa. ni vibhajya jag. rhu. h
-Holy-Bible---Sanskrit---Velthuis-Script	REV-021-002	prakaasita.m 21:2-3	apara. m svargaad avarohantii pavitraa nagarii, arthato naviinaa yiruu"saalamapurii mayaa d. r.s. taa, saa varaaya vibhuu. sitaa kanyeva susajjitaasiit anantara. m svargaad e. sa mahaaravo mayaa "sruta. h pa"syaaya. m maanavai. h saarddham ii"svarasyaavaasa. h, sa tai. h saarddha. m vatsyati te ca tasya prajaa bhavi. syanti, ii"svara"sca svaya. m te. saam ii"svaro bhuutvaa tai. h saarddha. m sthaasyati
-Holy-Bible---Sanskrit---Velthuis-Script	HEB-011-008	ibri.na.h 11:8	vi"svaasenebraahiim aahuuta. h san aaj naa. m g. rhiitvaa yasya sthaanasyaadhikaarastena praaptavyastat sthaana. m prasthitavaan kintu prasthaanasamaye kka yaamiiti naajaanaat
+Holy-Bible---Sanskrit---Velthuis-Script	LUK-023-034	luuka.h 23:34	tadaa yii"surakathayat, he pitaretaan k. samasva yata ete yat karmma kurvvanti tan na vidu. h; pa"scaatte gu. tikaapaata. m k. rtvaa tasya vastraa. ni vibhajya jag. rhu. h|
+Holy-Bible---Sanskrit---Velthuis-Script	REV-021-002	prakaasita.m 21:2-3	apara. m svargaad avarohantii pavitraa nagarii, arthato naviinaa yiruu"saalamapurii mayaa d. r.s. taa, saa varaaya vibhuu. sitaa kanyeva susajjitaasiit| anantara. m svargaad e. sa mahaaravo mayaa "sruta. h pa"syaaya. m maanavai. h saarddham ii"svarasyaavaasa. h, sa tai. h saarddha. m vatsyati te ca tasya prajaa bhavi. syanti, ii"svara"sca svaya. m te. saam ii"svaro bhuutvaa tai. h saarddha. m sthaasyati|
+Holy-Bible---Sanskrit---Velthuis-Script	HEB-011-008	ibri.na.h 11:8	vi"svaasenebraahiim aahuuta. h san aaj naa. m g. rhiitvaa yasya sthaanasyaadhikaarastena praaptavyastat sthaana. m prasthitavaan kintu prasthaanasamaye kka yaamiiti naajaanaat|
 Holy-Bible---Sanskrit---Velthuis-Script	EXO-013-017		
-Holy-Bible---Sanskrit---Velthuis-Script	MAR-010-045	maarka.h 10:45	yato manu. syaputra. h sevyo bhavitu. m naagata. h sevaa. m karttaa. m tathaaneke. saa. m paritraa. nasya muulyaruupasvapraa. na. m daatu ncaagata. h
+Holy-Bible---Sanskrit---Velthuis-Script	MAR-010-045	maarka.h 10:45	yato manu. syaputra. h sevyo bhavitu. m naagata. h sevaa. m karttaa. m tathaaneke. saa. m paritraa. nasya muulyaruupasvapraa. na. m daatu ncaagata. h|
 Holy-Bible---Sanskrit---Velthuis-Script	ROM-001-001	romi.na.h 1:1	ii"svaro nijaputramadhi ya. m susa. mvaada. m bhavi. syadvaadibhi rdharmmagranthe prati"srutavaan ta. m susa. mvaada. m pracaarayitu. m p. rthakk. rta aahuuta. h prerita"sca prabho ryii"sukhrii. s.tasya sevako ya. h paula. h
-Holy-Bible---Sanskrit---Velthuis-Script	MAT-028-019	mathi.h 28:19	ato yuuya. m prayaaya sarvvade"siiyaan "si. syaan k. rtvaa pitu. h putrasya pavitrasyaatmana"sca naamnaa taanavagaahayata; aha. m yu. smaan yadyadaadi"sa. m tadapi paalayitu. m taanupaadi"sata
+Holy-Bible---Sanskrit---Velthuis-Script	MAT-028-019	mathi.h 28:19	ato yuuya. m prayaaya sarvvade"siiyaan "si. syaan k. rtvaa pitu. h putrasya pavitrasyaatmana"sca naamnaa taanavagaahayata; aha. m yu. smaan yadyadaadi"sa. m tadapi paalayitu. m taanupaadi"sata|
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark	JOH-003-016		
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark	GEN-003-024		
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark	LUK-023-034		

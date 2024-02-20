@@ -44,13 +44,13 @@ if ('Holy-Bible---Portuguese---Portuguese-Trans-Trans'==$bible) {
 
 // REMOVE CHARACTERS
 if ('Holy-Bible---English---STEPBible-Amalgamant'==$bible ||
-	'Holy-Bible---English---STEPBible-Concordant'==$bible) {
+	'Holy-Bible---English---STEPBible-Concordant'==$bible  ||
+	preg_match('/Sanskrit/us',$bible)) {
 	$bfile = preg_replace("/[¶]+/us", '', $bfile);
 }
 else {
 	$bfile = preg_replace("/[¶*|]+/us", '', $bfile);
 }
-
 
 // REMOVE HTML TAGS
 // make sure no valid data tagged!
@@ -686,6 +686,17 @@ if (!($bfile = preg_replace("/Revelation of John 17:16 (.+?)Revelation of John 1
 goto RAWHIDE;
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Bhadrawahi---Bhadrawahi-Bible" :
+$blockfix = <<<EOF
+2PE 1:18 अस नेबी केरू वचन भी ज़ानतम, ज़ैन तैनेईं मसीहेरे बारे मां ज़ोवं तैन बिलकुल सच़्च़े, तैना इस बारे मां पक्कू केरतन ज़ैन असेईं तुसन तैसेरे वापस एजनेरे बारे मां शिखालू। तुसेईं तैना गल्लां ध्याने सेइं शुनोरी लोड़न, ज़ेन्च़रे दीयो आंधरे मां बलते ते लोकन सही बत्तां गानेरे लेइ मद्दत केरते, इन वचन तुश्शी इन ज़ान्नेरे लेइ मद्दत केरेलू कि सच़ कुने।
+2PE 1:19 तुसेईं तैन वचन रोड़े च़ारे शुनोरे लोड़न ज़ांतगर इश्शो प्रभु यीशु मसीह वापस न एज्जे। तैसेरू एजनू एरू भोलू ज़ेन्च़रे नंव्वे दिहैड़री लौ भोली, ते तै झ़ेझ़ेरे तारेरो ज़ेरो भोलो। तैस वक्त तैसेरी लौ तुश्शे दिलन मां चमकेली त कने तुसन पुड़ परमेशरे बांदी केरेली।
+2PE 1:20 
+EOF;
+if (!($bfile = preg_replace("/2PE 1:19 (.+?)2PE 1:20 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
 
 
 // RAWFIX BIBLE ********************
@@ -880,6 +891,14 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Cebuano---Cebuano-Philippine" :
+if (!($bfile = preg_replace("/ \d /us",' ',$bfile,-1,$rnum)) || $rnum!=16) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
+
+
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms" :
@@ -892,6 +911,12 @@ if (!($bfile = preg_replace("/JOH 1:43 (.+?)JOH 1:45 /us",$blockfix,$bfile,-1,$r
 goto RAWHIDE;
 
 
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Chichewa---Chichewa-Bible" :
+if (!($bfile = preg_replace("/LEV 1:1 26 /us",'LEV 1:1 ',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
 
 
 
@@ -944,7 +969,29 @@ goto RAWHIDE;
 case "Holy-Bible---Chinese---Chinese-Sigao-Bible" :
 if (!($bfile = preg_replace("/\+\?\x{80}\+\?\x{80}/us","? ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/\+\?\x{80}\+/us","? ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/\\\\t/us",'',$bfile,-1,$rnum)) || $rnum!=5) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )[\d.]+/mus",'$1',$bfile,-1,$rnum)) || $rnum!=6) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
+$blockfix = <<<EOF
+Esther 3:13 然後由眾驛使傳遞至帝國各省，限令在一天內，即十二月，「阿達爾」月十三日，把全國所有的猶太人，不論老幼婦孺，一律加以殲滅、屠殺、剷除，財產一律沒收。
+Esther 3:14 
+EOF;
+if (!($bfile = preg_replace("/Esther 3:13 (.+?)Esther 3:14 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Esther 4:17 於是摩爾德開走了，進行艾斯德爾所吩咐他的一切事。
+Esther 5:1 
+EOF;
+if (!($bfile = preg_replace("/Esther 4:17 (.+?)Esther 5:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Esther 8:12 且應在十二月「阿達爾」十三日那一天，在薛西斯帝國各省內開始生效。
+Esther 8:13 
+EOF;
+if (!($bfile = preg_replace("/Esther 8:12 (.+?)Esther 8:13 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Esther 10:3 猶太人摩爾德開，位僅次於薛西斯王，受猶太人的敬重，受他全體同胞的愛戴；他也努力為他的民族謀幸福，關心他的整個種族的安全。
+I Maccabees 1:1 
+EOF;
+if (!($bfile = preg_replace("/Esther 10:3 (.+?)I Maccabees 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -998,6 +1045,26 @@ EOF;
 if (!($bfile = preg_replace("/ACT 19:40 (.+?)ACT 20:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Coptic---Sahidic-Bible-2" :
+$blockfix = <<<EOF
+Acts 7:59 ⲁⲩⲱ ⲁⲩϩⲓⲱⲛⲉ ⲉⲥⲧⲉⲫⲁⲛⲟⲥ ⲉϥⲉⲡⲓⲕⲁⲗⲉⲓ ⲉϥϫⲱ ⲙⲙⲟⲥ ϫⲉ ⲡϫⲟⲉⲓⲥ ⲓⲥ ϣⲉⲡ ⲡⲁⲡⲛⲁ ⲉⲣⲟⲕ
+Acts 7:60 ⲁϥⲕⲱⲗϫ ⲇⲉ ⲛⲛⲉϥⲡⲁⲧ ⲁϥⲁϣⲕⲁⲕ ⲉⲃⲟⲗ ϩⲛ ⲟⲩⲛⲟϭ ⲛⲥⲙⲏ ϫⲉ ⲡϫⲟⲉⲓⲥ ⲙⲡⲣⲱⲡⲉⲣⲟⲟⲩ ⲙⲡⲉⲓⲛⲟⲃⲉ ⲛⲧⲉⲣⲉϥϫⲉ ⲡⲁⲓ ⲇⲉ ⲁϥⲛⲕⲟⲧⲕ
+Acts 8:1 
+EOF;
+if (!($bfile = preg_replace("/Acts 7:59 (.+?)Acts 8:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Coptic---Sahidic-Coptic-Horner" :
+if (!($bfile = preg_replace("/&lt;[ ]*/us","(",$bfile,-1,$rnum)) || $rnum!=182) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/[ ]*&gt;/us",")",$bfile,-1,$rnum)) || $rnum!=182) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
 
 
 
@@ -1294,6 +1361,198 @@ Hebrews 1:3
 EOF;
 if (!($bfile = preg_replace("/Hebrews 1:1 (.+?)Hebrews 1:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Czech---Living-Bible" :
+$textfix = <<<EOF
+MAR 14:1 Dva dny před židovskými Velikonocemi byl Ježíš v Betanii hostem u Šimona, zvaného Malomocný.
+MAR 14:2 Právě byli u stolu, když do domu přišla žena s alabastrovou nádobkou drahocenného vonného oleje z pravého nardu. Otevřela ji a olej vylila na Ježíšovu hlavu.
+MAR 14:3 Některým se to zdálo přehnané a říkali si mezi sebou: „K čemu takové plýtvání? Vždyť ten olej měl cenu přes tři sta denárů. Mohli jsme ho prodat a výtěžek rozdat chudým.“
+MAR 14:4 Vyčetli to i té ženě. Ale Ježíš se jí ujal: „Nechte ji. Proč jí kazíte radost? Vždyť ona to myslí dobře.
+MAR 14:5 Chudých bude vždycky dost a budete mít příležitost jim pomáhat, ale já od vás odejdu.
+MAR 14:6 Udělala, co mohla. Vlastně předem ošetřila moje tělo, jako se to dělá před pohřbem.
+MAR 14:7 Poslyšte, co vám teď řeknu: Kdekoliv po světě se bude mluvit o mně, tam se také bude připomínat tento její čin.“
+MAR 14:8 Mezitím se radili velekněží a učitelé zákona, jak by Ježíše nenápadně zatkli a odstranili.
+MAR 14:9 Usnesli se: „Nesmíme to udělat o svátcích, aby nevznikly nepokoje, když je v Jeruzalémě mnoho poutníků.“
+MAR 14:10 
+EOF;
+if (!($bfile = preg_replace("/MAR 14:1 (.+?)MAR 14:10 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ACT 18:18 Pavel zůstal v Korintu ještě delší dobu. Nakonec se však rozloučil s bratry a vydal se na cestu lodí zpět do Sýrie. Spolu s ním vypluli i manželé Priscila s Akvilou, kteří se stěhovali do Efezu. Ve východním korintském přístavu si dal Pavel naposled ostříhat vlasy. Po celou cestu až do Jeruzaléma se totiž zavázal dodržovat nazírský slib (vnějšími projevy tohoto slibu bylo, že si muž nestříhal vlasy a vousy a nepil žádné opojné nápoje).
+ACT 18:19 V Efezu se Pavel rozloučil s přáteli, ale před odjezdem ještě zašel do tamní synagogy pohovořit si s židy.
+ACT 18:20 
+EOF;
+if (!($bfile = preg_replace("/ACT 18:18 (.+?)ACT 18:20 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ACT 18:26 Tak vystoupil bez bázně i v efezské synagoze. Tam ho uslyšeli Priscila a Akvila, pozvali ho k sobě a důkladněji mu vysvětlili Kristovo evangelium.
+ACT 18:27 Apollos se pak rozhodl jít dále do Řecka a zvěstovat Ježíše. Efezští křesťané mu to schvalovali a dali mu pěkný doporučující dopis. Svým výjimečným obdarováním prokázal platné služby věřícím v Řecku.
+ACT 18:28 
+EOF;
+if (!($bfile = preg_replace("/ACT 18:26 (.+?)ACT 18:28 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+1CO 11:1 Jinak vás musím pochválit, že na mne nezapomínáte a držíte se toho, co jsem vás naučil.
+1CO 11:2 Nelíbí se mi však móda, jakou u vás některé ženy začínají pěstovat:
+1CO 11:3 když ve veřejných shromážděních vzývají Boha nebo o něm hovoří, nezahalují si hlavu.
+1CO 11:4 Vždyť je to stejný projev neúcty,
+1CO 11:5 jako když muž si nechá ve společnosti na hlavě pokrývku.
+1CO 11:6 Platí-li v důstojnosti pořadí Bůh – Kristus – muž – žena,
+1CO 11:7 pak si má žena hlavu zahalovat,
+1CO 11:8 jako si ji zahalují andělé před Bohem.
+1CO 11:9 Muž to nedělá proto, že má nezakrytě zrcadlit Boží slávu,
+1CO 11:10 a žena to má dělat proto,
+1CO 11:11 že tím uznává vyšší autoritu muže.
+1CO 11:12 Takový je aspoň všeobecný zvyk.
+1CO 11:13 Jinak jsou si ovšem obě pohlaví rovna v tom,
+1CO 11:14 že jako žena pochází z muže,
+1CO 11:15 tak se muž zase rodí z ženy;
+1CO 11:16 oba stejně vděčí za svůj život Bohu.
+1CO 11:17 
+EOF;
+if (!($bfile = preg_replace("/1CO 11:1 (.+?)1CO 11:17 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+1CO 11:17 Když už jsem v tom napomínání, ještě jedna věc mě rmoutí.
+1CO 11:18 Vidím, že vaše shromáždění začínají být spíš ke škodě než k užitku.
+1CO 11:19 Slyšel jsem – a něco pravdy na tom zřejmě je, že do vašich shromáždění pronikají různice.
+1CO 11:20 Na tom je dobré snad jedině to, že se aspoň jasně odliší zdravé od nezdravého mezi vámi.
+1CO 11:21 Výsledkem však je, že se ani nedá společně zasednout ke stolu Páně, protože každý honem spěchá sníst to, co si přinesl, a pak už často nemůže pozřít sousto s těmi, kdo přišli hladoví.
+1CO 11:22 
+EOF;
+if (!($bfile = preg_replace("/1CO 11:17 (.+?)1CO 11:22 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2CO 5:2 Toužíme po tom a zároveň kolísáme,
+2CO 5:3 protože bychom se rádi vyhnuli umírání a vstoupili přímo do nesmrtelného života,
+2CO 5:4 k němuž nás Bůh už nyní připravuje: 
+2CO 5:5 jako záruku nám dal svého Ducha.
+2CO 5:6 Proto se můžeme důvěřivě těšit na náš nebeský domov; ve svých tělech tu vlastně žijeme v cizině, daleko od své vlasti, kde nás očekává Kristus.
+2CO 5:7 Nevidíme ho, ale jsme s ním spojeni vírou.
+2CO 5:8 Proto s plnou důvěrou a rád opustím třeba hned toto tělo, abych získal domov u svého Pána.
+2CO 5:9 V každém případě však chci dělat to, co se líbí jemu, ať už to znamená setrvat zde v cizině, nebo se vydat do své vlasti. Na ničem jiném totiž nezáleží.
+2CO 5:10 
+EOF;
+if (!($bfile = preg_replace("/2CO 5:2 (.+?)2CO 5:10 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Danish---Danish-1871-1907" :
+if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )0/mus",'$1O',$bfile,-1,$rnum)) || $rnum!=3) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+$blockfix = <<<EOF
+Leviticus 5:19 Det er et Skyldoffer, han var skyldig for Herren.
+Leviticus 5:20 Og Herren talede til Mose og sagde:
+Leviticus 5:21 Naar nogen synder og forgriber sig saare imod Herren, ved at han lyver for sin Næste, angaaende det ham betroede eller det i hans Værge nedlagte, eller angaaende det røvede eller det, han har taget med Vold fra sin Næste;
+Leviticus 5:22 eller ved at han har fundet noget, som var tabt, og lyver om det og sværger paa Løgn i hvilken som helst Ting, et Menneske gør, og synder deri:
+Leviticus 5:23 Da skal det ske, naar han saa synder og bliver skyldig, at han skal tilbagegive det røvede, som han har røvet, eller det med Vold tagne, som han har taget, eller det betroede, som var ham betroet, eller det tabte, som han har fundet,
+Leviticus 5:24 eller alt, hvorom han har svoret paa Løgn: Han skal betale det med den fulde Sum og lægge den femte Part deraf dertil; den, hvem det tilhørte, skal han give det paa sit Skyldoffers Dag.
+Leviticus 5:25 Men for sin Skyld skal han fremføre til Herren en Væder uden Lyde af Smaakvæget, efter din Vurdering, til et Skyldoffer til Præsten.
+Leviticus 5:26 Og Præsten skal gøre Forligelse for ham for Herrens Ansigt, saa bliver det ham forladt for hvad som helst, han har gjort, hvorved han er bleven skyldig.
+Leviticus 6:1 
+EOF;
+if (!($bfile = preg_replace("/Leviticus 5:19 (.+?)Leviticus 6:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Joel 3:21 Og Herren skal brøle fra Zion og lade sin Røst lyde fra Jerusalem, og Himmel og Jord skulle ryste; men Herren skal være en Tilflugt for sit Folk og et Værn for Israels Børn.
+Joel 3:22 Og I skulle fornemme, at jeg er Herren eders Gud, som bor paa Zion, mit hellige Bjerg; og Jerusalem skal vorde en Helligdom, og fremmede skulle ikke ydermere drage over den.
+Joel 3:23 Og det skal ske paa denne Dag, at Bjergene skulle dryppe med Most, og Højene skulle flyde med Mælk, og alle Strømme i Juda skulle rinde med Vand, og der skal udgaa en Kilde fra Herrens Hus, og den skal vande Sittims Dal.
+Joel 3:24 Ægypten skal blive øde, og Edom skal blive til en øde Ørk, formedelst Voldsgerning imod Judas Børn, eftersom de have udøst uskyldigt Blod i deres Land.
+Joel 3:25 Men Juda skal blive evindelig og Jerusalem fra Slægt til Slægt.
+Joel 3:26 Og jeg vil sone deres Blod, som jeg ikke havde sonet; og Herren bor paa Zion.
+Amos 1:1 
+EOF;
+if (!($bfile = preg_replace("/Joel 3:21 (.+?)Amos 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Zechariah 2:13 Thi se, jeg svinger min Haand over dem, og de skulle blive et Bytte for dem, som tjente dem; og I skulle fornemme, at den Herre Zebaoth har sendt mig.
+Zechariah 2:14 Syng og vær glad, du Zions Datter! thi se, jeg kommer og vil bo i din Midte, siger Herren.
+Zechariah 2:15 Og mange Hedningefolk skulle slutte sig til Herren paa den Dag, og de skulle blive mig et Folk, og jeg vil bo i din Midte, og du skal fornemme, at den Herre Zebaoth har sendt mig til dig.
+Zechariah 2:16 Og Herren skal tage Juda som sin Del til Eje paa den hellige Jordbund, og han skal fremdeles udvælge Jerusalem.
+Zechariah 2:17 Stille, alt Kød, for Herrens Ansigt; thi han har rejst sig fra sin hellige Bolig.
+Zechariah 3:1 
+EOF;
+if (!($bfile = preg_replace("/Zechariah 2:13 (.+?)Zechariah 3:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Job 39:30 Eller er det efter din Befaling, at Ørnen flyver højt og bygger sin Rede i det høje?
+Job 39:31 Den bor paa Klippen og bliver der om Natten, paa Tinden af en Klippe og Borg.
+Job 39:32 Derfra spejder den efter Føde; dens Øjne se ud i det fjerne,
+Job 39:33 og dens Unger drikke Blod; og hvor der er ihjelslagne, der er den.
+Job 39:34 Og Herren svarede Job og sagde:
+Job 39:35 Vil Dadleren gaa i Rette med den Almægtige? den, som anklager Gud, han svare herpaa!
+Job 39:36 Da svarede Job Herren og sagde: Se, jeg er ringe, hvad skal jeg give dig til Svar? jeg har lagt min Haand paa min Mund.
+Job 39:37 Jeg har talt een Gang, men vil ikke svare mere; og to Gange, men vil ikke blive ved.
+Job 40:1 
+EOF;
+if (!($bfile = preg_replace("/Job 39:30 (.+?)Job 40:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Job 40:24 Kan du lege med den som med en Fugl? eller binde den fast, til Morskab for dine Smaapiger?
+Job 40:25 Skulle Deltagerne vel drive Handel med den? skulle de dele den ud iblandt Købmænd?
+Job 40:26 Kan du fylde dens Hud med Spyd, dens Hoved med Harpuner?
+Job 40:27 Læg din Haand paa den! Du vil huske den Kamp og ikke gøre det mere.
+Job 40:28 Se, Haabet derom slaar fejl; styrter man ikke ned endog kun ved Synet af den?
+Job 41:1 
+EOF;
+if (!($bfile = preg_replace("/Job 40:24 (.+?)Job 41:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Danish---Danish-1931-1907" :
+$blockfix = <<<EOF
+Leviticus 5:19 Det er et Skyldoffer; han har paadraget sig Skyld over for HERREN.
+Leviticus 5:20 HERREN talede fremdeles til Moses og sagde:
+Leviticus 5:21 Naar nogen forsynder sig og gør sig skyldig i Svig mod HERREN, idet han frakender sin Næste Retten til noget, der var ham betroet, et Haandpant eller noget, han har røvet, eller han aftvinger sin Næste noget,
+Leviticus 5:22 eller han finder noget, som er tabt, og nægter det, eller han aflægger falsk Ed angaaende en af alle de Ting, som Mennesket forsynder sig ved at gøre,
+Leviticus 5:23 saa skal han, naar han har forsyndet sig og føler sig skyldig, tilbagegive det, han har røvet, eller det, han har aftvunget, eller det, som var ham betroet, eller det tabte, som han har fundet,
+Leviticus 5:24 eller alt det, hvorom han har aflagt falsk Ed; han skal erstatte det med dets fulde Værdi med Tillæg af en Femtedel. Han skal give den retmæssige Ejer det, den Dag han gør Bod.
+Leviticus 5:25 Og til Bod skal han af Smaakvæget bringe HERREN en lydefri Væder, der er taget god; som Skyldoffer skal han bringe den til Præsten.
+Leviticus 5:26 Da skal Præsten skaffe ham Soning for HERRENS Aasyn, saa han finder Tilgivelse for enhver Ting, hvorved man paadrager sig Skyld.
+Leviticus 6:1 
+EOF;
+if (!($bfile = preg_replace("/Leviticus 5:19 (.+?)Leviticus 6:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Joel 3:21 HERREN brøler fra Zion, fra Jerusalem løfter han sin Røst; Himmelen og Jorden skælver. Men HERREN er Ly for sit Folk og Værn for Israels Børn.
+Joel 3:22 Og I skal kende, at jeg er HERREN eders Gud, som bor paa Zion, mit hellige Bjerg. Jerusalem skal blive en Helligdom, og fremmede skal ikke mere drage derigennem.
+Joel 3:23 Paa hin Dag skal Bjergene dryppe af Most og Højene flyde med Mælk; alle Judas Bække skal strømme med Vand, og en Kilde skal vælde frem fra HERRENS Hus og vande Akaciedalen.
+Joel 3:24 Ægypten skal blive øde, Edom en øde Ørk for deres Vold mod Judæerne, i hvis Land de udgød uskyldigt Blod.
+Joel 3:25 Og Juda skal være beboet evindelig, Jerusalem fra Slægt til Slægt.
+Joel 3:26 Jeg hævner deres Blod, som jeg endnu ikke har hævnet; og HERREN bor paa Zion.
+Amos 1:1 
+EOF;
+if (!($bfile = preg_replace("/Joel 3:21 (.+?)Amos 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Zechariah 2:13 Thi se, jeg svinger min Haand imod dem, og de skal blive til Bytte for dem, som nu er deres Trælle; og I skal kende, at Hærskarers HERRE har sendt mig.
+Zechariah 2:14 Jubl og glæd dig, Zions Datter! Thi se, jeg kommer og fæster Bo i din Midte, lyder det fra HERREN.«
+Zechariah 2:15 Og mange Folk skal paa hin Dag slutte sig til HERREN og være hans Folk og bo i din Midte, og du skal kende, at Hærskarers HERRE har sendt mig til dig.
+Zechariah 2:16 Og HERREN tager Juda til Arvelod paa den hellige Jord og udvælger atter Jerusalem.
+Zechariah 2:17 Stille, alt Kød, for HERREN, thi han har rejst sig fra sin hellige Bolig.
+Zechariah 3:1 
+EOF;
+if (!($bfile = preg_replace("/Zechariah 2:13 (.+?)Zechariah 3:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Job 39:30 Skyldes det Bud fra dig, at Ørnen flyver højt og bygger sin højtsatte Rede?
+Job 39:31 Den bygger og bor paa Klipper, paa Klippens Tinde og Borg;
+Job 39:32 den spejder derfra efter Æde, viden om skuer dens Øjne.
+Job 39:33 Ungerne svælger i Blod; hvor Valen findes, der er den!
+Job 39:34 Og HERREN svarede Job og sagde:
+Job 39:35 Vil den trættekære tvistes med den Almægtige? Han, som revser Gud, han svare herpaa!
+Job 39:36 Da svarede Job HERREN og sagde: Se, jeg er ringe, hvad skal jeg svare?
+Job 39:37 Jeg lægger min Haand paa min Mund! Een Gang har jeg talt, gentager det ikke, to Gange, men gør det ej mer!
+Job 40:1 
+EOF;
+if (!($bfile = preg_replace("/Job 39:30 (.+?)Job 40:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Job 40:24 Han du mon lege med den som en Fugl og tøjre den for dine Pigebørn?
+Job 40:25 Falbyder Fiskerlauget den og stykker den ud mellem Sælgerne?
+Job 40:26 Mon du kan spække dens Hud med Kroge og med Harpuner dens Hoved?
+Job 40:27 Læg dog engang din Haand paa den! Du vil huske den Kamp og gør det ej mer.
+Job 40:28 Det Haab vilde blive til Skamme, alene ved Synet laa du der.
+Job 41:1 
+EOF;
+if (!($bfile = preg_replace("/Job 40:24 (.+?)Job 41:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
 
 
 
@@ -1678,6 +1937,16 @@ $replacements = array(
 if (!($bfile=preg_replace(array_keys($replacements), $replacements, $bfile, -1, $rnum)) || $rnum!=3734) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---English---Anderson-Bible" :
+$textfix = <<<EOF
+Revelation of John 22:21 The grace of the Lord Jesus Christ be with all the saints.
+EOF;
+if (!($bfile = preg_replace("/Revelation of John 22:21 .+$/us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
 
 
 
@@ -2552,6 +2821,14 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---English---Haweis-Bible" :
+if (!($bfile = preg_replace("/\\\\p/us"," ",$bfile,-1,$rnum)) || $rnum!=27) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
+
+
 
 
 // RAWFIX BIBLE ********************
@@ -2575,8 +2852,14 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---English---King-James-Version-Restored-Name" :
 if (!($bfile = preg_replace('/יהוה/us','YHWH',$bfile,-1,$rnum)) || $rnum!=8227) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/[{]+/us','(',$bfile,-1,$rnum)) || $rnum!=33) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/[}]+/us',')',$bfile,-1,$rnum)) || $rnum!=33) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/face="Times New Roman"&gt;/us','',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 if (!($bfile = preg_replace('/Hebrew אדני/us',' ',$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/_atnement/us','atonement',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/Numbers 15:34 _nd/us','Numbers 15:34 And',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/II Chronicles 24:11 _Nw/us','II Chronicles 24:11 Now',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -2755,6 +3038,16 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---English---Noyes" :
+if (!($bfile = preg_replace('/[{]+/us','(',$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/[}]+/us',')',$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---English---One-Unity-Resource-Bible" :
 if (!($bfile = preg_replace('/\^/us',' ',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace('/\([^()\n]*Maftir[^()\n]*\)[ ]*\n/us'," \n",$bfile,-1,$rnum)) || $rnum!=56) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -2799,6 +3092,15 @@ Matthew 23:13 But alas for you, Scribes and Pharisees, hypocrites; because ye ar
 Matthew 23:15 
 EOF;
 if (!($bfile = preg_replace("/Matthew 23:14 (.+?)Matthew 23:15 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---English---Syriac-Peshitta-Etheridge" :
+if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )[\d.]+/mus",'$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
 goto RAWHIDE;
 
 
@@ -3856,6 +4158,12 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Ewe---Word-of-Life" :
+if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )[\d.]+/mus",'$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
 
 
 // RAWFIX BIBLE ********************
@@ -4186,6 +4494,16 @@ Revelation of John 20:11
 EOF;
 if (!($bfile = preg_replace("/Revelation of John 20:7 (.+?)Revelation of John 20:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace('/dons \{de faire des miracles,\}/us','dons, de faire des miracles,',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---French---French-Crampon-Bible-New" :
+if (!($bfile = preg_replace('/[{]+/us','(',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/[}]+/us',')',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/strong="G3581"/us',' ',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
 goto RAWHIDE;
 
 
@@ -4813,6 +5131,17 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Gamotso---Gamo" :
 $bfile .= "REV 22:1 (note: chapter missing)";
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---German---German-Albrecht" :
+$textfix = <<<EOF
+Mark 16:20 Sie zogen aus und predigten überall. Dabei stand ihnen der Herr zur Seite und bestätigte ihr Wort durch die begleitenden Wunderzeichen.
+Luke 1:1 
+EOF;
+if (!($bfile = preg_replace("/Mark 16:20 (.+?)Luke 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -6631,6 +6960,14 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Gikuyu---Kikuyu" :
+if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )[\d.]+/mus",'$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
+
+
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Gourma---Gourma-Bible" :
@@ -6755,6 +7092,14 @@ $textfix = <<<EOF
 48N	1	1	
 EOF;
 if (!($bfile = preg_replace("/47N	13	12	(.+?)48N	1	1	/us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Greek---Greek-TR-Stephanus-Scrivener" :
+if (!($bfile = preg_replace("/[\s\d]*{[A-Z\-]+}/us"," ",$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
 goto RAWHIDE;
 
 
@@ -6892,6 +7237,44 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Haryanvi---Haryanvi-Bible" :
+$textfix = <<<EOF
+1PE 2:4 थम प्रभु यीशु मसीह कै धोरै आए हो, वो उस खास पत्थर की ढाळ सै जो नीम म्ह लगाया जावै सै, पर वो जिन्दा पत्थर सै। भोत सारे माणसां नै उस ताहीं त्याग दिया, पर परमेसवर नै उस ताहीं चुण्या, अर उस ताहीं कीमती बणाया, अर थम जो बिश्वासी लोग प्रभु यीशु कै धोरै आए हो, ताके थम भी उसके जरिये जिन्दे पत्थरां की ढाळ हो जाओ, जो परमेसवर की आत्मिक आराधना का घर बणण म्ह काम आ सकै।
+1PE 2:5 उसनै थारे ताहीं भी पवित्र याजक बणाया, जिस तरियां याजक परमेसवर ताहीं भेट चढ़ावै सै, उस्से तरियां थम भी अपणे दिल नै भेट के रूप म्ह चढ़ा द्यो, अर याए भेट परमेसवर नै आच्छी लाग्गै सै, क्यूँके थम यीशु मसीह के कहलाओ सों।
+1PE 2:6 
+EOF;
+if (!($bfile = preg_replace("/1PE 2:4 (.+?)1PE 2:6 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+HEB 7:1 यो मलिकिसिदक शालेम नगर का राजा अर परमप्रधान परमेसवर का याजक था, उनके नाम का मतलब “राजा” सै जो नियम कै साथ न्याय करै सै, शालेम के राजा का मतलब सै “शान्ति का राजा।”
+HEB 7:2 पवित्र ग्रन्थ म्ह उसके माँ-बाप, उसके पूर्वज, या उसकी मौत या जन्म के बारें म्ह, कुछ भी न्ही लिख्या गया सै। वो हमेशा खात्तर एक याजक सै। इस करकै वो परमेसवर के बेट्टे की तरियां सै।
+HEB 7:3 जिब अब्राहम नै चार राजां की हत्या कर दी थी, तो मलिकिसिदक नै उसतै मुलाकात करी, अर उस ताहीं आशीर्वाद दिया। अब्राहम नै युध्द म्ह जीत हासिल करी, अर सारी चिज्जां का दसमां हिस्सा भी दिया।
+HEB 7:4 
+EOF;
+if (!($bfile = preg_replace("/HEB 7:1 (.+?)HEB 7:4 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Hausa---Hausa-Bible" :
+if (!($bfile = preg_replace('/[{]+/us','(',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/[}]+/us',')',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+if (!($bfile = preg_replace('/su_/us','su',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Hausa---Contemporary" :
+if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )[\d.-]+/mus",'$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
+
+
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Hawaiian---Hawaiian-Bible-1868" :
@@ -6901,6 +7284,13 @@ if (!($bfile = preg_replace("/hoowahawahaia 2 Iehova/us","hoowahawahaia Iehova",
 $bfile_saved = $bfile;		
 goto RAWHIDE;
 
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball" :
+if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )[\d.]+/mus",'$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
 
 
 
@@ -6930,6 +7320,38 @@ if (!($bfile = preg_replace("/\([^()]+[[:digit:]]+[[:punct:]]*\)/us"," ",$bfile,
 $bfile_saved = $bfile;		
 goto RAWHIDE;
 
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Hungarian---Hungarian-Jewish-Bible" :
+$textfix = <<<EOF
+Lamentations 4:1 Jaj! de meghomályosodott az arany, elváltozott a szép színarany, kiszórattak a szent hely kövei minden utcza szegletére. 
+Lamentations 4:2 Sionnak drága fiait, a kik becsesebbek valának mint a színarany, cserépedénynek tekintették, a fazekas munkájának. 
+Lamentations 4:3 Még a sárkányok is oda nyujtják emlőiket, szoptatják fiaikat; az én népem leánya pedig kegyetlen, mint a struczmadarak a pusztában. 
+Lamentations 4:4 A csecsemő nyelve az ínyéhez tapadt a szomjúság miatt; a kisdedek kenyeret kértek, és nem volt, a ki nyujtott volna nékik.
+Lamentations 4:5 Kik pompás ételeket evének, elpusztulának az utczákon; a kik bíborban neveltetének, a szemétdombot ölelgetik. 
+Lamentations 4:6 Bizony nagyobb az én népem leányának bűnhődése Sodoma bűnhődésénél, a mely elsülyedt egy pillanat alatt, noha kézzel sem ütöttek felé. 
+Lamentations 4:7 Az ő názireusai tisztábbak valának a hónál, fehérebbek a tejnél, testök pirosabb vala, mint a korál, termetök mint a zafir. 
+Lamentations 4:8 De most feketébb az ő ábrázatjok a koromnál, nem ismerik meg őket az utczákon; bőrük csontjaikhoz ragadt, elszáradt, mint a fa.
+Lamentations 4:9 Jobban jártak, a kik fegyverrel ölettek meg, mint a kik éhen vesztek el; mert azok átveretve multak ki, ezek pedig a mező termésének hiánya miatt.
+Lamentations 4:10 Irgalmas anyák kezei megfőzték gyermekeiket, hogy azok eledeleik legyenek az én népem leányának romlásakor. 
+Lamentations 4:11 Megteljesíté az Úr az ő búsulását, kiöntötte az ő felgerjedt haragját, és tüzet gyújtott a Sionban, és megemésztette annak fundamentomait. 
+Lamentations 4:12 Nem hitték a föld királyai, sem a föld kerekségének lakosai, hogy szorongató és ellenség vonuljon be Jeruzsálemnek kapuin. 
+Lamentations 4:13 Az ő prófétáinak bűne, az ő papjainak vétke miatt van ez, a kik az igazaknak vérét ontották abban.
+Lamentations 4:14 Tántorogtak, mint vakok az utczákon, vérrel bemocskolva, annyira, hogy ruháikat sem érinthették. 
+Lamentations 4:15 Távozzatok! tisztátalan! kiáltották azoknak; távozzatok, távozzatok, ne illessetek! Bizony elfutottak, bujdostak is; a pogányok közt ezt mondták: Nem lakhatnak itt sokáig! 
+Lamentations 4:16 Az Úr haragja oszlatta el őket; többé nem tekint reájok, mivelhogy a papok orczáját nem tisztelték, a véneken nem könyörültek. 
+Lamentations 4:17 Még mikor meg voltunk, elepedve néztek szemeink a hiábavaló segedelem után; esengve várakoztunk olyan népre, a mely nem szabadított meg. 
+Lamentations 4:18 Vadásztak lépéseinkre úgy, hogy nem járhattunk a mi utczáinkon; elközelgetett a mi végünk, beteltek a mi napjaink, bizony eljött a mi végünk!
+Lamentations 4:19 Gyorsabbak valának a mi üldözőink az égnek saskeselyűinél; a hegyeken kergettek minket, a pusztában ólálkodtak utánunk. 
+Lamentations 4:20 Orrunk lehellete, az Úr felkentje megfogattaték az ő vermeikben, a kiről azt mondottuk: az ő árnyékában élünk a pogányok között. 
+Lamentations 4:21 Örülj és vígadozz, Edom leánya, a ki Uz földjén lakozol, mert még te rád is rád kerül a pohár, megrészegedel és meztelenkedel. 
+Lamentations 4:22 Eltörültetik a te álnokságod, oh Sion leánya, nem fog téged száműzni többé; meglátogatja a te álnokságodat, Edom leánya fölfedi a te bűneidet.
+Lamentations 5:1 
+EOF;
+if (!($bfile = preg_replace("/Lamentations 4:1 (.+?)Lamentations 5:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )[\d.]+/mus",'$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
 
 
 
@@ -7124,6 +7546,73 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Icelandic---Open-Living-Word" :
+$textfix = <<<EOF
+MAT 8:8 „Herra,“ sagði liðsforinginn, „ég er ekki verður þess að þú komir inn á heimili mitt (og það er reyndar ekki nauðsynlegt). Segðu aðeins núna: „Læknist þú!“ og þá mun þjónn minn verða heilbrigður!
+MAT 8:9 Þetta segi ég vegna þess að ég er settur undir vald æðri liðsforingja, en hef jafnframt sjálfur vald yfir mínum hermönnum. Ég segi við einn þeirra: „Farðu!“ og hann fer, og við annan: „Komdu!“ og hann kemur. Við þjón minn segi ég: „Gerðu þetta!“ og hann hlýðir skilyrðislaust. Þess vegna veit ég að þú hefur vald til að skipa þessum sjúkdómi að fara og hann mun fara!“
+MAT 8:10 
+EOF;
+if (!($bfile = preg_replace("/MAT 8:8 (.+?)MAT 8:10 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+LUK 7:6 Jesús fór með þeim. Rétt áður en þeir komu að húsinu sendi höfuðsmaðurinn vini sína til Jesú með þessi skilaboð: „Herra, vertu ekki að ómaka þig með að koma inn til mín, því ég er hvorki verður þess að hitta þig né hafa þig sem gest.
+LUK 7:7 Segðu það aðeins með orði, þar sem þú ert staddur, og þá mun þræll minn læknast.
+LUK 7:8 Ég skil þig vel, því sjálfur þarf ég að hlýða æðri herforingjum, en hef síðan vald yfir mínum undirmönnum. Ég þarf aðeins að segja við þá: „Farið“ og þá fara þeir, eða: „Komið“ og þeir koma. Við þræl minn segi ég: „Gerðu þetta“ og hann hlýðir. Segðu því bara: „Læknist þú“ og þá mun þræll minn verða heilbrigður.“
+LUK 7:9 
+EOF;
+if (!($bfile = preg_replace("/LUK 7:6 (.+?)LUK 7:9 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ROM 2:12 Guð mun refsa fyrir synd, hvar sem hún finnst. Hann mun refsa heiðingjunum þegar þeir syndga, jafnvel þótt þeir hafi aldrei þekkt hin skráðu lög Guðs, því að innra með sér þekkja þeir muninn á réttu og röngu.
+ROM 2:13 Lög Guðs eru skráð í vitund þeirra. Stundum dæmir samviskan þá og stundum afsakar hún þá.
+ROM 2:14 En Guð mun einnig refsa Gyðingum. Hann mun refsa þeim fyrir syndir þeirra, því að þeir eiga lög hans skráð í bók en hlýða þeim þó ekki. Þeir vita hvað er rangt, en breyta gegn betri vitund.
+ROM 2:15 Þegar öllu er á botninn hvolft er hjálpræðið ekki þeirra sem þekkja mun á réttu og röngu, heldur hinna sem gera það sem rétt er.
+ROM 2:16 
+EOF;
+if (!($bfile = preg_replace("/ROM 2:12 (.+?)ROM 2:16 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ROM 3:21 En nú hefur Guð bent okkur á aðra leið til sín. Hún felst ekki í því að menn skuli vera góðir og reyna að hlýða lögunum, heldur er um nýja leið að ræða (reyndar er hún nú ekki ný því að Gamla testamentið sagði frá henni fyrir langa löngu).
+ROM 3:22 Hún er þessi: Guð vill taka okkur í sátt við sig og sýkna okkur, ef við treystum því að Jesús Kristur fyrirgefi og taki burt syndir okkar. Öll getum við frelsast á þennan eina og sama hátt: Að koma til Krists, og þá skiptir engu hver við erum eða hvernig við höfum lifað.
+ROM 3:23 
+EOF;
+if (!($bfile = preg_replace("/ROM 3:21 (.+?)ROM 3:23 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ROM 7:23 en það er eitthvað annað djúpt innra með mér – lægri hvatir – sem berst gegn vilja mínum, hefur yfirburði, sem gerir mig að þræli syndarinnar sem í mér er.
+ROM 7:24 Ásetningur minn er að vera hlýðinn þjónn Guðs, en þess í stað finn ég að ég er enn í ánauð syndarinnar. Þið sjáið þetta sjálf: Hið nýja líf mitt segir mér að gera það rétta en gamla eðlið, sem enn er í mér, þráir syndina.
+ROM 7:25 Æ, þetta er hræðileg aðstaða! Hver getur frelsað mig frá þrældómi syndarinnar? Þökk sé Guði að Jesús Kristur, Drottinn okkar og frelsari, hefur þegar gert það og þar með leyst mig úr ánauðinni.
+ROM 8:1 
+EOF;
+if (!($bfile = preg_replace("/ROM 7:23 (.+?)ROM 8:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ROM 9:10 Og árin liðu og þessi sonur, Ísak, óx og þegar hann var orðinn fullorðinn, giftist hann konu sem hét Rebekka.
+ROM 9:11 Þegar Rebekka eignaðist tvíbura, sagði Guð henni að Esaú, barnið sem fæddist fyrst, myndi verða þjónn Jakobs, tvíburabróður síns.
+ROM 9:12 Gamla testamentið lýsir þessu svo: „Jakob mun ég blessa en ekki Esaú.“ Þetta sagði Guð áður en drengirnir fæddust, áður en þeir höfðu tækifæri til að gera gott eða illt.
+ROM 9:13 Af þessu má sjá að Guð var að framkvæma fyrirætlun sína, sem hann hafði ákveðið löngu áður, en hann var ekki að launa drengjunum fyrir neitt, hvorki gott né illt.
+ROM 9:14 
+EOF;
+if (!($bfile = preg_replace("/ROM 9:10 (.+?)ROM 9:14 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ROM 16:25 Ég fel ykkur Guði, honum sem megnar að styrkja ykkur og staðfesta í trúnni, eins og talað er um í gleðiboðskapnum sem ég flyt. Sá boðskapur er leiðin sem Guð hefur opnað öllum mönnum til hjálpræðis og sem öldum saman hefur legið í þagnargildi.
+ROM 16:26 En nú hefur það gerst samkvæmt skipun Guðs, eins og spámennirnir sögðu fyrir, að þessi boðskapur er fluttur meðal allra þjóða, svo að fólk um víða veröld trúi Kristi og hlýði honum.
+ROM 16:27 Guði, sem þekkir alla hluti, sé dýrð að eilífu fyrir Drottin Jesú Krist. Amen.
+1CO 1:1 
+EOF;
+if (!($bfile = preg_replace("/ROM 16:25 (.+?)1CO 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+GAL 4:24 Þessi frásaga sýnir ljóslega þær tvær leiðir sem Guð fer til að hjálpa fólki. Önnur var sú að gefa því lög til að fara eftir. Það gerði hann á Sínaífjalli þegar hann gaf Móse boðorðin tíu. Sínaífjall er reyndar kallað Hagarfjall af Aröbum.
+GAL 4:25 Í myndinni sem ég er að draga upp, táknar Hagar, hin þrælborna kona Abrahams, Jerúsalem, höfuðborg Gyðinga, en hún er miðstöð þeirra kenninga sem segja að við getum þóknast Guði með því að hlýða boðorðunum. Og Gyðingarnir, sem aðhyllast þessa skoðun, eru börn hennar – fædd í þrældómi.
+GAL 4:26 
+EOF;
+if (!($bfile = preg_replace("/GAL 4:24 (.+?)GAL 4:26 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2PE 3:15 Munið hvers vegna hann bíður. Hann gerir það til þess að við getum flutt hjálpræðisboðskap hans út til allra manna. Páll, hinn elskaði og skynsami bróðir okkar, hefur rætt um þetta í mörgum bréfa sinna.
+2PE 3:16 Sumt af því sem hann segir er torskilið, og til eru menn, sem af ásettu ráði hegða sér heimskulega og vilja snúa út úr því sem hann segir. Þeir hafa mistúlkað bréf hans svo hrapallega að þau fá allt aðra merkingu en til var ætlast og þannig fara þeir með margt annað í Biblíunni. Afleiðingin er sú að þeir leiða tortímingu yfir sjálfa sig.
+2PE 3:17 
+EOF;
+if (!($bfile = preg_replace("/2PE 3:15 (.+?)2PE 3:17 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Ilocano---Ilocano-Bible" :
@@ -7146,6 +7635,7 @@ Gen.44:32
 EOF;
 if (!($bfile = preg_replace("/Gen.44:30 (.+?)Gen.44:32 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
+
 
 
 
@@ -7660,6 +8150,24 @@ $textfix = <<<EOF
 GAL 1:1 
 EOF;
 if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Korean---Korean-Revised-Version" :
+$textfix = <<<EOF
+Joshua 2:12 그러므로 청하노니 내가 너희를 선대하였은즉 너희도 내 아버지의 집을 선대하여
+Joshua 2:13 나의 부모와 남녀 형제와 무릇 그들에게 있는 모든 자를 살려주어 우리 생명을 죽는데서 건져내기로 이제 여호와로 맹세하고 내게 진실한 표를 내라
+Joshua 2:14 
+EOF;
+if (!($bfile = preg_replace("/Joshua 2:12 (.+?)Joshua 2:14 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Isaiah 7:8 대저 아람의 머리는 다메섹이요 다메섹의 머리는 르신이며 에브라임의 머리는 사마리아요 사마리아의 머리는 르말리야의 아들이라도 육십오 년 내에 에브라임이 패하여 다시는 나라를 이루지 못하리라
+Isaiah 7:9 만일 너희가 믿지 아니하면 정녕히 굳게 서지 못하리라 하셨다 할지니라
+Isaiah 7:10 
+EOF;
+if (!($bfile = preg_replace("/Isaiah 7:8 (.+?)Isaiah 7:10 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -9716,6 +10224,20 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Mahasu-Pahari---Baghlayani-Bible" :
+if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )[\d.]+/mus",'$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+$textfix = <<<EOF
+2PE 1:18 आसे ये बी जाणूंए कि भविष्यबक्तेया जो वचन मसीह रे बारे लिखी राखेया से एकदम सच ए और आसे तुसा लोका खे मसीह रे बारे रे जो सखाई राखेया था से इजी गल्ला खे साबित करोए। तुसे इना वचना खे आसा रे प्रभु यीशुए रे वापस आऊणे तक त्यानो साथे सुणो,
+2PE 1:19 कऊँकि जिंयां दिऊआ लोका खे न्हेरे रे सई बाट दखाणे खे प्रयासा देओआ तिंयाँ ई एस वचनो तुसा खे समजणे रे मताद करनी कि सच क्या ए। तिना रा वापस आऊणा नये दिनो रे प्यागा रे प्रयासे जेड़ा ऊणा और से प्याणु तारे जेड़ा चमकणा। तेस बखते तिना री ज्योति तुसा रे दिलो रे चमकणी और तेस परमेशर तुसा पाँदे साफ-साफ प्रकट करना।
+2PE 1:20 
+EOF;
+if (!($bfile = preg_replace("/2PE 1:19 (.+?)2PE 1:20 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Malagasy---Malagasy-Bible" :
@@ -9828,6 +10350,19 @@ case "Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible" :
 if (!($bfile = preg_replace("/[\x{05d0}-\x{05ea}\x{fb31}\x{fb44}]+/us"," ",$bfile,-1,$rnum)) || $rnum!=174) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Malayalam---Contemporary" :
+$textfix = <<<EOF
+TIT 1:1 ദൈവത്തിന്റെ ദാസനും യേശുക്രിസ്തുവിന്റെ അപ്പൊസ്തലനുമായ പൗലോസ്, നമുക്കു പൊതുവായുള്ള വിശ്വാസത്തിൽ എന്റെ യഥാർഥ പുത്രതുല്യനായ തീത്തോസിന്, എഴുതുന്നത്:
+TIT 1:2 നിനക്കു പിതാവായ ദൈവത്തിൽനിന്നും നമ്മുടെ രക്ഷകനായ ക്രിസ്തുയേശുവിൽനിന്നും കൃപയും സമാധാനവും ഉണ്ടാകുമാറാകട്ടെ.
+TIT 1:3 ദൈവം തെരഞ്ഞെടുത്തവർ വിശ്വസിക്കാനും ഭക്തിയിലേക്കു നയിക്കുന്ന സത്യത്തിന്റെ പരിപൂർണജ്ഞാനം അവർക്കു ലഭിക്കാനുമായി നിത്യജീവന്റെ പ്രത്യാശ അവിടത്തെ വചനത്തിന്റെ പ്രഘോഷണത്തിലൂടെ അവർക്കു വെളിപ്പെടുത്താൻ നമ്മുടെ രക്ഷകനായ ദൈവം എന്നെ ഭരമേൽപ്പിച്ചിരിക്കുന്നു.
+TIT 1:4 ഈ പ്രത്യാശ വ്യാജംപറയാത്ത ദൈവം കാലാരംഭത്തിനു മുമ്പേ വാഗ്ദാനം ചെയ്തതും നിയുക്തസമയത്ത് വെളിപ്പെടുത്തിയതുമാണ്.
+TIT 1:5 
+EOF;
+if (!($bfile = preg_replace("/TIT 1:1 (.+?)TIT 1:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
 
 
 
@@ -10116,6 +10651,30 @@ HEB 13:21 ကိုယ်​တော်​သည်​မိ​မိ​နှ�
 HEB 13:22 
 EOF;
 if (!($bfile = preg_replace("/HEB 13:20 (.+?)HEB 13:22 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Myanmar---Burmese-Judson" :
+if (!($bfile = preg_replace("/=/us",' ',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )[\d.]+/mus",'$1',$bfile,-1,$rnum)) || $rnum!=25) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+$bigfix = <<<EOF
+2CH 6:4 ရှင်ဘုရင်ကလည်း၊ ထာဝရဘုရား၏ ဗျာဒိတ် တော်စကားဟူမူကား၊ ငါ ၏လူ ဣသရေလအမျိုးသားတို့ကို အဲဂုတ္တု ပြည် မှ နှုတ်ဆောင် သော နေ့ က စ၍၊ ငါ့ နာမ တည် ရာ အိမ် ကို ဆောက် စေခြင်းငှါ ၊
+2CH 6:5 ဣသရေလ ခရိုင် များတို့တွင် မြို့ တစုံတမြို့ကို ငါမ ရွေး ၊ ငါ ၏လူ ဣသရေလ အမျိုးသားတို့ကို အုပ်စိုး ရသောသူကိုလည်း ငါမ ရွေး သေး။
+2CH 6:6 ယခုမူကား၊ ငါ့ နာမ တည် ရာ ယေရုရှလင် မြို့ကို ၎င်း၊ ငါ ၏လူ ဣသရေလ အမျိုးသားတို့ကို အုပ်စိုး စေခြင်းငှါ ဒါဝိဒ် ကို ၎င်း၊ ငါရွေး ပြီဟု ငါ့ ခမည်းတော် ဒါဝိဒ် အား ဗျာဒိတ် တော်ရှိသည်အတိုင်း၊ ပြုတော်မူသောဣသရေလ အမျိုး ၏ဘုရားသခင် ထာဝရဘုရား သည် မင်္ဂလာ ရှိတော်မူစေ သတည်း။
+2CH 6:7 
+EOF;
+if (!($bfile = preg_replace("/2CH 6:4 (.+?)2CH 6:7 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bigfix = <<<EOF
+EZR 9:10 ယခု လည်း အိုအကျွန်ုပ် တို့၏ ဘုရား သခင်၊ ဤသို့ ပြုမိပြီးမှ၊ အဘယ် သို့လျှောက် ရပါမည်နည်း။
+EZR 9:11 ကိုယ်တော်က၊ သင် တို့သွား ၍ သိမ်း ယူလတံ့ သော ပြည် သည်၊ ပြည်သူ ပြည်သားတို့ အညစ် အကြေးကြောင့် ညစ်ညူး သော ပြည် ဖြစ်၏။ တပြည်လုံး ကို ရွံရှာ ဘွယ်အမှုတို့နှင့် ပြည့် စေကြပြီ။
+EZR 9:12 သို့ဖြစ်၍ သင် တို့သမီး ကို သူ တို့သား အား မ ပေးစား ကြနှင့်။ သူ တို့၏သမီး ကို သင် တို့သား နှင့် မ စုံဘက် စေကြနှင့်။ သူ တို့ချမ်းသာ နှင့် သူ တို့စည်းစိမ် ကို အလျှင်းမ ပြုစု ကြနှင့်။ သင်တို့သည် ခွန်အား ကြီး၍ မြေ အသီး အနှံကို စား ရသောအခွင့်၊ ထိုမြေ ကို ကိုယ် သား မြေးတို့၌ နိစ္စ အမွေမြေဖြစ်စေ၍၊ အပ်ရသောအခွင့်ရှိစေခြင်းငှါ၊ ထိုသို့ကျင့်၍ နေကြလော့ဟု ကိုယ်တော် ကျွန် ၊ ပရောဖက် တို့အားဖြင့်မှာ ထားတော်မူသော ပညတ် စကားတော်ကို အကျွန်ုပ်တို့သည် နား မထောင်ပါ တကား။
+EZR 9:13 
+EOF;
+if (!($bfile = preg_replace("/EZR 9:10 (.+?)EZR 9:13 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -10903,6 +11462,86 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Norwegian---Living-Bible" :
+if (!($bfile = preg_replace("/[$]+\d+/us"," ",$bfile,-1,$rnum)) || $rnum!=11) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+$textfix = <<<EOF
+LUK 3:23 Jesus var rundt 30 år da han begynte å undervise folket og gjøre mirakler. Han ble ansett for å være sønnen til Josef. Far til Josef, og forfedrenes hans lenger tilbake hadde denne rekkefølgen: Eli,
+LUK 3:24 Mattat, Levi, Melki, Jannai, Josef,
+LUK 3:25 Mattatia, Amos, Nahum, Esli, Naggai,
+LUK 3:26 Ma`at, Mattatia, Sjimi, Josek, Joda,
+LUK 3:27 Johanan, Resa, Serubabel, Sealtiel, Neri,
+LUK 3:28 Melki, Addi, Kosam, Elmadam, Er,
+LUK 3:29 Josva, Elieser, Jorim, Mattat, Levi,
+LUK 3:30 Simeon, Juda, Josef, Jonam, Eljakim,
+LUK 3:31 Melea, Manna, Mattata, Natan, David,
+LUK 3:32 Isai, Obed, Boas, Salmon, Naksjon,
+LUK 3:33 Amminadab, Admin, Arni, Hesron, Peres, Juda,
+LUK 3:34 Jakob, Isak, Abraham, Tarah, Nakor,
+LUK 3:35 Serug, Re`u, Peleg, Eber, Salah,
+LUK 3:36 Kenan, Arpaksad, Sem, Noah, Lamek,
+LUK 3:37 Metusalah, Enok, Jered, Mahalael, Kenan,
+LUK 3:38 Enosj, Set. Set var sønn til Adam som ble skapt av Gud.
+LUK 4:1 
+EOF;
+if (!($bfile = preg_replace("/LUK 3:23 (.+?)LUK 4:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 4:21 Jesus forklarte: ”Tro meg, det kommer en dag da ingen lenger behøver å diskutere om det er på dette fjellet eller i Jerusalem vi skal tilbe vår Far i himmelen.
+JOH 4:22 Det er ikke spørsmålet om hvor vi tilber som er det viktigste, heller hvordan vi skal tilbe. Virkelig tilbedelse er ekte og inspirert av Guds Ånd.
+JOH 4:23 Det er slik Gud vil at vi skal tilbe ham, etter som Gud er Ånd. Og det kommer en dag, ja, den er allerede her, da menneskene skal tilbe Gud på denne måten.
+JOH 4:24 Men dere som er samaritaner, vet lite om ham som dere tilber. Vi jøder derimot kjenner ham godt, for frelsen kommer fra jødene.”
+JOH 4:25 
+EOF;
+if (!($bfile = preg_replace("/JOH 4:21 (.+?)JOH 4:25 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 7:21 Jesus svarte: ”Jeg gjorde noe som virkelig forskrekket dere, da jeg helbredet en mann på hviledagen.
+JOH 7:22 Arbeider dere ikke selv hver gang dere lyder Moseloven i punktet om omskjærelsen? Ut fra det avsnittet omskjærer dere guttene på hviledagen. Moses, eller rettere sagt forfedrene deres, bestemte at omskjærelsen skal bli gjort på den åttende dagen etter fødselen. Dette gjelder også om den åttende dagen faller på en hviledag.
+JOH 7:23 Dersom det nå er tillatt å omskjære noen på hviledagen, hvorfor skal da jeg bli dømt for at jeg helbredet noen på hviledagen?
+JOH 7:24 
+EOF;
+if (!($bfile = preg_replace("/JOH 7:21 (.+?)JOH 7:24 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+EPH 2:11 Husk derfor på hvilken håpløs situasjon dere befant dere i, før dere lærte Kristus å kjenne. Etter som dere tilhører folkeslag som ikke regnes som jøder, kalte jødene dere for ”dem som ikke er omskåret”. Jødene var stolte over sin seremoni med å omskjære alle gutter, selv om denne seremonien aldri kunne forvandle hjertene på noen.
+EPH 2:12 På den tiden tilhørte dere ikke Guds eget folk. Den pakten Gud hadde inngått med Israels folk, gjaldt ikke dere, og dere hadde ingen del i de løftene han hadde gitt. Nei, dere hadde ikke noe håp om frelse, og dere levde uten Gud her i verden.
+EPH 2:13 
+EOF;
+if (!($bfile = preg_replace("/EPH 2:11 (.+?)EPH 2:13 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ROM 16:25 Hyll Gud, for han er den som kan gjøre troen sterk hos alle! Dette fortalte jeg dere da jeg kom med det glade budskapet om Jesus Kristus. Budskapet om Kristus var Guds hemmelige plan, som hadde ligget skjult siden tidenes begynnelse.
+ROM 16:26 Men nøyaktig som Gud, han som er evig, hadde bestemt, har han nå avslørt sin plan. Han har gjort kjent det han hele tiden har forutsagt ved profetene i Skriften, for at alle folk skal kunne tro på Kristus og bli lydige mot ham.
+ROM 16:27 Gud, han som ene og alene har fullkommen innsikt og visdom, er verd å bli hyllet i all evighet for det som Jesus Kristus har gjort for oss. Ja, dette er sant!
+1CO 1:1 
+EOF;
+if (!($bfile = preg_replace("/ROM 16:25 (.+?)1CO 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2CO 2:14 Jeg takker Gud, han som har vunnet seier gjennom det Kristus gjorde, og som har gjort meg til sin slave. Nå må jeg marsjere med i hans triumftog over verden, for å spre det glade budskapet om Kristus til alle mennesker.
+2CO 2:15 Mitt arbeid er som aromatisk røkelse som blir ofret til Gud. Til hans ære sprer jeg duften om Kristus til alle mennesker.
+2CO 2:16 For dem som tror på budskapet og blir frelst, er dette en duft som feirer livet. De derimot som ikke tror på budskapet og derfor går evig fortapt, opplever det som duften av Guds påminnelse om dagen med straff og døden. Hvem er da verdige til å utføre et slikt arbeid?
+2CO 2:17 
+EOF;
+if (!($bfile = preg_replace("/2CO 2:14 (.+?)2CO 2:17 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+1TH 1:5 Da vi kom til dere med det glade budskapet om Jesus, tok dere imot det. Vi kom ikke bare med ord til dere. Guds Hellige Ånd ga oss kraft til å gjøre mirakler, slik at dere så at vi virkelig selv trodde på budskapet. Dere vet alt vi gjorde blant dere for å frelse dere.
+1TH 1:6 Dette overbeviste dere, slik at dere tok imot budskapet om Jesus med den glede som Guds Hellige Ånd gir. Det gjorde dere til tross for de forfølgelsene dere ble utsatt for. Dere fulgte vårt eksempel, og dermed også eksemplet til Herren Jesus, ved at dere var villige til å lide.
+1TH 1:7 
+EOF;
+if (!($bfile = preg_replace("/1TH 1:5 (.+?)1TH 1:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2PE 3:15 At vår Herre ikke kommer igjen nå straks, skal dere se på som noe positivt, etter som det betyr at flere kan bli frelst. Det har også vår kjære bror Paulus skrevet til dere om, med den visdom han har fått fra Gud.
+2PE 3:16 Ja, hver gang han skriver noe i sine brev om at Herren Jesus skal komme tilbake, da nevner han akkurat dette. Noe av det Paulus underviser, er vanskelig å forstå, og det finnes uerfarne mennesker med en usikker tro, som forvrenger det han skriver. Akkurat på samme måten forvrenger de også andre ting som står i Skriften. På grunn av dette vil de gå evig fortapt.
+2PE 3:17 
+EOF;
+if (!($bfile = preg_replace("/2PE 3:15 (.+?)2PE 3:17 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JUD 1:3 Kjære venner, jeg har lenge tenkt å skrive til dere om hvordan Gud frelste oss, men nå kjenner jeg at brevet mitt i stedet må handle om noe annet. Jeg har nemlig hørt at noen onde personer har trengt seg inn blant dere for å spre falsk lære. Derfor må jeg oppfordre dere til å stå imot disse falske lærerne, og dere må holde fast ved den troen på Jesus som Gud en gang for alle har gitt oss som tilhører ham.
+JUD 1:4 Disse personene påstår at siden Gud i sin godhet har tilgitt oss, kan vi leve et vilt og umoralsk liv. De fornekter vår eneste sanne hersker og Herre, Jesus Kristus. Gud har for lenge siden bestemt at ugudelige skal bli rammet av dommen.
+JUD 1:5 
+EOF;
+if (!($bfile = preg_replace("/JUD 1:3 (.+?)JUD 1:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Norwegian---Norwegian-Student-Bible" :
@@ -11537,6 +12176,13 @@ if (!($bfile = preg_replace("/\x{200e}/us",' ',$bfile,-1,$rnum)) || $rnum!=14) {
 $bfile_saved = $bfile;
 goto RAWHIDE;
 
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Pogolo---Pogoro-Bible" :
+if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )[\d.]+/mus",'$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
 
 
 
@@ -12233,6 +12879,15 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---Portuguese---Free-for-All" :
+if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )[\d.]+/mus",'$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---Portuguese---Portuguese-Trans-Trans" :
 if (!($bfile = preg_replace("/◄/us","(",$bfile,-1,$rnum)) || $rnum!=5) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%E2%97%84/1
 if (!($bfile = preg_replace("/►/us",")",$bfile,-1,$rnum)) || $rnum!=5) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%E2%96%BA/1
@@ -12368,12 +13023,6 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Romani-Vlax---Arli-Luke" :
-$bigfix = <<<EOF
-LUK 9:30 I dikh, nekotar iklile duj manuša ano baro sjaj, o Mojsije hem o Ilija, hem lelje te vaćeren e Isuseja.
-LUK 9:31 On vaćerde e meribnastar savo e Isuse adžićeri ano Jerusalim.
-LUK 9:32 
-EOF;
-if (!($bfile = preg_replace("/LUK 9:30 (.+?)LUK 9:32 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bigfix = <<<EOF
 LUK 23:50 Inele jekh manuš palo anav Josif tari Arimateja, diz ani Judeja.
 LUK 23:51 Ov inele šukar hem pravedno manuš kova adžićeri ine e Mesija te anel o carstvo e Devlesoro. Iako inele člano oto e jevrejengoro odbor, na složinđa pe adaleja so inele odlučime te roden o Isus te ovel mudardo.
@@ -12567,6 +13216,24 @@ if ($bible == "Holy-Bible---Sanskrit---Malayalam-Script" ||
 if ($bible == "Holy-Bible---Sanskrit---Tamil-Script") {
 	if (!($bfile = preg_replace("/\x{02bc}/us","’",$bfile,-1,$rnum)) || $rnum!=26341) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 }
+if ($bible == "Holy-Bible---Sanskrit---Cologne-Script" ||
+	$bible == "Holy-Bible---Sanskrit---Harvard-Kyoto-Script" ||
+	$bible == "Holy-Bible---Sanskrit---IAST-Script" ||
+	$bible == "Holy-Bible---Sanskrit---ISO-Script" ||
+	$bible == "Holy-Bible---Sanskrit---ITRANS-Script" ||
+	$bible == "Holy-Bible---Sanskrit---Malayalam-Script" ||
+	$bible == "Holy-Bible---Sanskrit---Sinhala-Script" ||
+	$bible == "Holy-Bible---Sanskrit---Tamil-Script" ||
+	$bible == "Holy-Bible---Sanskrit---Telugu-Script" ||
+	$bible == "Holy-Bible---Sanskrit---Velthuis-Script") {
+	if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )[\d#]+/mus",'$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+}
+if ($bible == "Holy-Bible---Sanskrit---Cologne-Script" ||
+	$bible == "Holy-Bible---Sanskrit---Harvard-Kyoto-Script" ||
+	$bible == "Holy-Bible---Sanskrit---ITRANS-Script" ||
+	$bible == "Holy-Bible---Sanskrit---Velthuis-Script") {
+	if (!($bfile = preg_replace('/_/mus','',$bfile,-1,$rnum)) || $rnum!=24) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+}
 $bfile_saved = $bfile;
 if (!($bfile = preg_replace("/^(MAT 6:6 .+)l$/mu",'$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/^(MAT 7:25 .+)l$/mu",'$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -12737,6 +13404,160 @@ Hebrews 1:2 говори и нама у последак дана ових пр�
 Hebrews 1:3 
 EOF;
 if (!($bfile = preg_replace("/Hebrews 1:1 (.+?)Hebrews 1:3 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Setswana---Open-Tswana-Living" :
+$jobfix = <<<EOF
+MAT 8:8 Mme mogolwane a re, “Rra ga ke a lekana go go tseela kwa lwapeng lwa me gape ga go tlhokafale gore o tle. Fa o ka nna fela fa mme wa re, ‘Fola’, motlhanka wa me o tlaa fola!
+MAT 8:9 Ke a itse, ka gore ke ka fa tlase ga taolo ya baeteledipele ba me ba bagolo mme ke na le taolo mo masoleng a me, mme ke raya lengwe ke re, ‘Tsamaya’ mme le tsamaye, mme ke reye le lengwe ke re, ‘Tla’ mme le tle, mme ke reye motlhanka wa me wa mosimane ke re, ‘Dira se kgotsa sele’ mme a se dire. Mme ke itse gore o na le thata ya go raya bolwetse jwa gagwe o re bo tsamaye mme bo tlaa tsamaya.”
+MAT 8:10 
+EOF;
+if (!($bfile = preg_replace("/MAT 8:8 (.+?)MAT 8:10 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+JOH 4:1 Erile Morena a itse gore Bafarasai ba utlwile kaga bontsintsi jo bo yang kwa go ene go na le kwa go Johane go kolobediwa le go nna barutwa ba gagwe
+JOH 4:2 (ntswa Jesu ene ka boene a ne a sa ba kolobetse, go ne go kolobetsa barutwa ba gagwe).
+JOH 4:3 
+EOF;
+if (!($bfile = preg_replace("/JOH 4:1 (.+?)JOH 4:3 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+JOH 4:5 Mme erile motshegare wa sethoboloko, fa a atamela motse wa Sikara, a goroga fa Sedibeng sa ga Jakobe se se neng se le mo setsheng sa lefatshe se Jakobe a neng a se neile morwawe Josefe.
+JOH 4:6 Jesu o ne a lapisitswe ke go tsamaya mo mogoteng wa letsatsi sekgala se se leele, hong a nna fa thoko ga sediba a lapile thata.
+JOH 4:7 
+EOF;
+if (!($bfile = preg_replace("/JOH 4:5 (.+?)JOH 4:7 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+JOH 4:17 Mme mosadi a mo fetola a re, “Kana ga ke a nyalwa.”
+JOH 4:18 Jesu a re, “O bua boammaaruri Ka gore o kile wa nna le banna ba le batlhano, mme monna yo o nnang le ene gompieno jaana ga a go nyala.”
+JOH 4:19 
+EOF;
+if (!($bfile = preg_replace("/JOH 4:17 (.+?)JOH 4:19 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+JOH 4:21 Jesu a fetola a re, “Nako e e tla, mma, fa re tlaa bong re sa tlhole re tshwenyega ka gore a re obamela Rara fano kgotsa mo Jerusalema.
+JOH 4:22 Gonne ga go mo go reng re obamela kae, fa e se gore re obama jang, ebong gore a kobamelo ya rona ke ya semowa le ya boammaaruri? A re na le thuso ya Mowa O O Boitshepo?
+JOH 4:23 Gonne Modimo ke Mowa, jalo re tshwanetse go nna le thuso ya one go o obamela jaaka re tshwanetse. Rara o batla one mofuta o wa kobamelo mo go rona.
+JOH 4:24 Mme lona Basamaria lo itse go se kae fela kaga gagwe, lo obamela ka bofofu fa rona Bajuta re itse gotlhe kaga gagwe, gonne poloko e tla mo lefatsheng ka Bajuta.”
+JOH 4:25 
+EOF;
+if (!($bfile = preg_replace("/JOH 4:21 (.+?)JOH 4:25 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+JOH 4:28 Mme mosadi a tsamaya a tlogela nkgwana ya gagwe ya metsi fa thoko ga sediba a boela kwa motseng mme a feta a bolelela mongwe le mongwe jaana,
+JOH 4:29 “Tlang lo bone monna yo o mpoleletseng sengwe le sengwe se ke neng ke tshela ke se dira! A e ka ne e le ene Mesia?”
+JOH 4:30 
+EOF;
+if (!($bfile = preg_replace("/JOH 4:28 (.+?)JOH 4:30 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+JOH 4:40 Erile ba ya go mmona kwa sedibeng, ba feta ba mo kopa go ya go nna mo motseng wa bone; mme a dira jalo, a nna malatsi a le mabedi,
+JOH 4:41 a a neng a lekanye ba le bantsi go dumela mo go ene ba sena go mo utlwa.
+JOH 4:42 
+EOF;
+if (!($bfile = preg_replace("/JOH 4:40 (.+?)JOH 4:42 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+JOH 4:43 Erile a sena go nna malatsi a mabedi, a ya Galalea
+JOH 4:44 fela jaaka a ne a tle a re, “Moporofiti o tlotlega gongwe le gongwe fa e se fela mo lefatsheng la ga gabo!”
+JOH 4:45 
+EOF;
+if (!($bfile = preg_replace("/JOH 4:43 (.+?)JOH 4:45 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+JOH 4:46 Mo lobakeng lwa loeto lwa gagwe a raletse Galalea, o ne a goroga mo motseng wa Kana kwa a neng a kile a fetola metsi mofine teng. Erile a sale teng koo, monna mongwe mo motseng wa Kaperenama, yo e neng e le kgosana, yo morwawe o neng a lwala thata,
+JOH 4:47 a utlwa gore Jesu o boile kwa Judea jaanong o mo Galalea. Monna yo a ya kwa Kana, a fitlhela Jesu, mme a kopa gore a ye le ene kwa Kaperenama go ya go fodisa morwawe yo a neng a le fa gare ga loso le botshelo.
+JOH 4:48 
+EOF;
+if (!($bfile = preg_replace("/JOH 4:46 (.+?)JOH 4:48 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+ACT 18:25 Erile fa a sa ntse a le mo Egepeto, mongwe o ne a mmoleletse ka ga Johane wa Mokolobetsi le se Johane o se buileng ka ga Jesu, mme moo e ne e le gone fela mo a go itseng. O ne a ise a ke a utlwe polelo yotlhe!
+ACT 18:26 Jalo o ne a rera ka bopelokgale le ka botlhaga mo tlung ya thuto a re, “Mesia o e tla! Ipaakanyetseng go mo amogela!” Peresila le Akwila ba ne ba le teng mme ba mo utlwa, mme e ne e le thero e e nonofileng. Morago ga moo ba kopana nae mme ba mo tlhalosetsa se se diragaletseng Jesu go tloga ka nako ya ga Johane, le gore mo gotlhe go raya eng!
+ACT 18:27 
+EOF;
+if (!($bfile = preg_replace("/ACT 18:25 (.+?)ACT 18:27 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+ROM 3:21 Mme jaanong Modimo o re supegeditse tsela e sele ya go ya kwa legodimong, e seng “ka go siama ga rona” le go leka go tshegetsa melao ya one, mme e leng ka tsela e ncha (lefa go ntse jalo tota ga e ncha, gonne dikwalo ga di bolo go bolela ka ga yone bogologolo).
+ROM 3:22 Jaanong Modimo wa re o tlaa re amogela o bo o re golola, o re supa “re se molato” fa re ikanya Jesu go tlosa dibe tsa rona. Mme le rona rotlhe re ka bolokwa mo go yone tsela e, ka go tla kwa go Keresete, ga gore sepe gore re bomang kgotsa gore ra re re ntse jang.
+ROM 3:23 
+EOF;
+if (!($bfile = preg_replace("/ROM 3:21 (.+?)ROM 3:23 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+ROM 2:12 O tlaa otlhaya sebe gongwe le gongwe kwa se bonwang teng. O tlaa otlhaya baheitane fa ba leofa, le fa ba ise ba ke ba nne le melao ya Modimo e e kwadilweng, gonne mo botennye jwa dipelo tsa bone ba itse tshiamo le bosula.
+ROM 2:13 Melao ya Modimo e kwadilwe mo go bone; segakolodi sa bone se ba baya molato, ka nako e nngwe se dumalana nabo.
+ROM 2:14 Mme Modimo o tlaa otlhaela Bajuta go leofa gonne ba na le melao ya one e e kwadilweng mme ga ba e tshegetse.
+ROM 2:15 Ba itse se se siameng mme ga ba se dire. Kana poloko ga e newe ba ba itseng se ba tshwanetseng go se dira, fa e se fela ba se dira.
+ROM 2:16 
+EOF;
+if (!($bfile = preg_replace("/ROM 2:12 (.+?)ROM 2:16 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+ROM 7:23 mme go na le selo sengwe mo botennye jwa me, mo tlholegong ya me e kgologolo, se se tlhabanang le tlhaloganyo ya me, mme se ntira motlhanka wa boleo jo bo sa ntseng bo le mo go nna.
+ROM 7:24 Mo tlhaloganyong ya me ke batla go nna motlhanka wa Modimo yo o ikemise-ditseng go dira go rata ga one mme mo boemong jwa moo ke iphitlhela ke sa ntse ke le motlhanka wa boleo. Jalo lo bona ka fa go ntseng ka teng: Botshelo jwa me jo bosha bo mpolelela gore ke dire molemo, mme tlholego e kgologolo e e sa ntseng e le mo go nna e rata go leofa.
+ROM 7:25 Oo, ke mo bothateng jo bo boitshegang jang! Emang yo o tlaa nkgololang mo botlhankeng jo jwa tlholego e ya loso. Ke leboga Modimo! Gonne go setse go dirilwe ke Keresete Morena wa rona. O nkgolotse.
+ROM 8:1 
+EOF;
+if (!($bfile = preg_replace("/ROM 7:23 (.+?)ROM 8:1 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+ROM 9:10 Mme morago ga dingwaga, fa morwawe, Isake, a setse a godile ebile a nyetse, le Rebeka mosadi wa gagwe a tlaa tloga a mo tsholela mawelana, Modimo o ne wa raya Rebeka wa re, Esawe ngwana yo o tlaa tsalwang pele, o tlaa nna motlhanka wa ga Jakoba, lewelana la gagwe.
+ROM 9:11 Jaaka mafoko a lokwalo a re, “Ke tlhophile go segofatsa Jakoba, mme e seng Esawe.”
+ROM 9:12 Mme Modimo o ne wa bua jaana pele ga bana ba tsholwa, pele ga ba dira se se molemo kgotsa se se bosula.
+ROM 9:13 Se se supa gore Modimo o ne wa dira se o neng o se ikaeletse go tsweng kwa tshimologong; e ne e se ka ntlha ya se bana ba se dirileng mme e ne e le ka ntlha ya se Modimo o se batlileng wa se itlhophela.
+ROM 9:14 
+EOF;
+if (!($bfile = preg_replace("/ROM 9:10 (.+?)ROM 9:14 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+ROM 13:12 Bosigo bo setse bo fetile, letsatsi la go bowa ga gagwe le tlaa tloga le goroga. Jalo latlhang ditiro tse di bosula tsa lefifi lo apare seaparo sa tshiamo sa go tshela ka tlhamalalo, jaaka rona ba re nnang mo leseding re tshwanetse go dira!
+ROM 13:13 Nnang molemo le boammaaruri mo go sengwe le sengwe se lo se dirang gore botlhe ba tle ba dumelane le maitseo a lona. Se diriseng nako ya lona mo medirong e e sa siamang, le mo go tagweng kgotsa mo kgokafalong le dithato tsa nama, kgotsa mo ntweng, kgotsa mo lefufeng.
+ROM 13:14 
+EOF;
+if (!($bfile = preg_replace("/ROM 13:12 (.+?)ROM 13:14 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+ROM 16:25 Ke lo neela mo Modimong, o o kgonang go lo nonotsha le go lo pepetletsa mo Moreneng, fela jaaka Mafoko a a Molemo a bua, le jaaka ke lo boleletse. Se ke leano la Modimo la poloko ya lona badichaba, le le neng le fitlhegile go tsweng kwa tshimologong ya metlha.
+ROM 16:26 Mme jaanong fela jaaka baporofiti ba sale ba bolela le jaaka Modimo o laotse molaetsa o o rerwa gongwe le gongwe, gore batho mo tikologong yotlhe ya lefatshe ba tle ba nne le tumelo mo go Keresete ba mo obamele.
+ROM 16:27 A Kgalalelo e nne go Modimo ka osi o o leng botlhale, ka Jesu Keresete Morena wa rona. Amen. Ke nna wa boammaaruri, Paulo
+1CO 1:1 
+EOF;
+if (!($bfile = preg_replace("/ROM 16:25 (.+?)1CO 1:1 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+GAL 4:24 Jaanong polelo e e boammaaruri e, ke setshwantsho kaga ditsela tse pedi tsa Modimo tsa go thusa batho. Tsela e nngwe e ne e le go ba neela melao ya one gore ba e obamele. O dirile jaana mo Thabeng ya Senai, fa o neela Moshe Melao e e Some. Thaba ya Senai, kana tota, e bidiwa “Thaba ya Hagare” ka Searabia,
+GAL 4:25 mme mo setshwantshong se ke se ntshitseng mosadi wa ga Aberahame Hagare, wa lelata, o emetse Jerusalema, mma-motse wa Bajuta, modi wa tsela ele ya go leka go itumedisa Modimo ka go leka go obamela Melao; mme Bajuta, ba ba lekang go sala morago tsela eo, ke bana ba one ba batlhanka.
+GAL 4:26 
+EOF;
+if (!($bfile = preg_replace("/GAL 4:24 (.+?)GAL 4:26 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+EPH 4:15 Mo boemong jwa go fetola megopolo ya rona mo go se re se dumelang, re tlaa sala morago boammaaruri ka lorato ka dinako tsotlhe, re bua boammaaruri, re dira ka boammaaruri, re tshela ka boammaaruri, mo tseleng nngwe le nngwe re nna jaaka Keresete yo o leng Tlhogo ya mmele wa gagwe, ebong phuthego.
+EPH 4:16 Ka fa ketelellong ya pele ya gagwe mmele otlhe o kitlanye sentle, mme tokololo nngwe le nngwe mo tirong ya yone ya botlhokwa e thusa ditokololo tse dingwe gore mmele otlhe o itekanele o gole o bo a tlale lorato.
+EPH 4:17 
+EOF;
+if (!($bfile = preg_replace("/EPH 4:15 (.+?)EPH 4:17 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+HEB 5:12 Ga lo bolo go nna Bakeresete ka lobaka lo lo leele jaanong, e bile lo tshwanetse lo ka bo lo ruta ba bangwe, mme mo boemong jwa moo lo boetse kwa morago kwa maemong a lo tlhokang mongwe go ipuseletsa go lo ruta gape metheo ya ntlha ka Lefoko la Modim. Lo tshwana le bananyana ba ba ka nwang mashi fela, ba sa gola mo go lekanyeng go ja dijo tse di loileng.
+HEB 5:13 Mme fa motho a santse a tshela ka mashi fela go supa gore ga a ise a gatele pele thata mo botshelong jwa Sekeresete, ebile ga a itse thata ka pharologanyo fa gare ga tshiamo le bosula. E santse e le Mokeresete yo mmotlana fela!
+HEB 5:14 
+EOF;
+if (!($bfile = preg_replace("/HEB 5:12 (.+?)HEB 5:14 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+2PE 1:13 Mme Morena Jesu Keresete o mpontshitse gore malatsi a me mo lefatsheng a badilwe, ke gaufi le go swa.
+2PE 1:14 Fela fa ke santse ke le fa ke ikaelela go nna ke lo romelela dikgakololo tse,
+2PE 1:15 
+EOF;
+if (!($bfile = preg_replace("/2PE 1:13 (.+?)2PE 1:15 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+2PE 1:17 Ke ne ke le gone mo thabeng e e boitshepo fa a phatshima ka tlotlo e o e neilweng ke Modimo Rraagwe;
+2PE 1:18 ke utlwile lentswe leo le le galalelang la Bogosi le le neng le tswa legodimong, le re, “Yo ke Morwaake yo o rategang thata; ke itumela thata ka ene.”
+2PE 1:19 
+EOF;
+if (!($bfile = preg_replace("/2PE 1:17 (.+?)2PE 1:19 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+2PE 3:15 Mme gakologelwang gore ke eng fa a diegile go tla. O re naya nako ya gore re tseye molaetsa wa gagwe wa poloko re o ise kwa go ba bangwe.
+2PE 3:16 Mokaulengwe yo o botlhale yo o rategang Paulo o buile ka dilo tse mo dikwalong tse dintsi tsa gagwe. Dikakgelo dingwe tsa gagwe ga di motlhofo go tlhaloganngwa, mme go na le batho ba ba dieleele ka bomo, ba ba agang ba batla dithanolo, ditlhaloso tse di sa tlwaelesegang, ba pitikolotse dikwalo tsa gagwe gore di reye sengwe se se pharologanyo thata le se a neng a se raya, fela jaaka ba dira mo dintlheng tse dingwe tsa dikwalo tse di boitshepo mme phelelo ya bone ke tshenyego.
+2PE 3:17 
+EOF;
+if (!($bfile = preg_replace("/2PE 3:15 (.+?)2PE 3:17 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+1JO 5:6 Mme re itse gore ke Morwa Modimo, gonne Modimo o buile jalo ka lentswe le le tswang kwa legodimong fa Jesu a kolobediwa, le jaaka a ne a lebaganye le loso, ee, eseng fela ka nako ya kolobetso ya gagwe mme e leng le ka nako e a neng a lebaganye le loso ka yone. Le Mowa O O Boitshepo, o o leng boammaaruri ka bosenabokhutlo o bua jalo.
+1JO 5:7 Jalo re na le basupi ba le bararo ebong lentswe la Mowa O O Boitshepo mo dipelong tsa rona, lentswe le le neng la tswa kwa legodimong ka nako e Jesu a neng a kolobediwa ka yone, le lentswe le le neng la utlwala pele ga a a swa.
+1JO 5:8 Mme botlhe fela basupi ba, ba bua selo se le sengwe: gore Jesu Keresete ke Morwa Modimo.
+1JO 5:9 
+EOF;
+if (!($bfile = preg_replace("/1JO 5:6 (.+?)1JO 5:9 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -12931,6 +13752,21 @@ EOF;
 if (!($bfile = preg_replace("/Revelation of John 21:25 (.+?)Revelation of John 22:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Spanish---Biblia-Platense-Straubinger" :
+if (!($bfile = preg_replace("/Song of Solomon 8:6\s+\}/us","Song of Solomon 8:6 ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Spanish---Gods-Word-for-You" :
+if (!($bfile = preg_replace("/[[\]]{2,}/us","",$bfile,-1,$rnum)) || $rnum!=45) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
 
 
 
@@ -13686,6 +14522,33 @@ EOF;
 if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Swedish---Swedish-Bible-1917" :
+$textfix = <<<EOF
+Job 39:30 Eller är det på ditt bud som örnen stiger så högt och bygger sitt näste i höjden? På klippan bor han, där har han sitt tillhåll, på klippans spets och på branta berget.
+Job 39:31 Därifrån spanar han efter sitt byte, långt bort i fjärran skådar hans ögon.
+Job 39:32 Hans ungar frossa på blod, och där slagna ligga, där finner man honom.
+Job 39:33 Så svarade nu HERREN Job och sade:
+Job 39:34 Vill du tvista med den Allsmäktige, du mästare? Svara då, du som så klagar på Gud!
+Job 39:35 Job svarade HERREN och sade:
+Job 39:36 Nej, därtill är jag för ringa; vad skulle jag svara dig? Jag måste lägga handen på munnen. En gång har jag talat, och nu säger jag intet mer; ja, två gånger, men jag gör det icke åter.    
+Job 40:1 Och HERREN talade till Job ur stormvinden och sade:
+Job 40:2 Omgjorda såsom en man dina länder; jag vill fråga dig, och du må giva mig besked.
+Job 40:3 
+EOF;
+if (!($bfile = preg_replace("/Job 39:30 (.+?)Job 40:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Job 40:24 Kan du hava honom till leksak såsom en fågel och sätta honom i band åt dina tärnor?
+Job 40:25 Pläga fiskarlag köpslå om honom och stycka ut hans kropp mellan krämare?
+Job 40:26 Kan du skjuta hans hud full med spjut och hans huvud med fiskharpuner?
+Job 40:27 Ja, försök att bära hand på honom du skall minnas den striden och skall ej föra så mer.
+Job 40:28 Nej, den sådant vågar, hans hopp bliver sviket, han fälles till marken redan vid hans åsyn.      
+Job 41:1 
+EOF;
+if (!($bfile = preg_replace("/Job 40:24 (.+?)Job 41:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
 
 
 
@@ -14623,6 +15486,15 @@ JUD 1:25 ⱨǝywǝt-uluƣluⱪ, ⱪudrǝt wǝ ⱨoⱪuⱪ ǝzǝldin burun, ⱨaz
 REV 1:1 
 EOF;
 if (!($bfile = preg_replace("/JUD 1:24 (.+?)REV 1:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Ukrainian---Kulish" :
+if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )[\d.]+/mus",'$1',$bfile,-1,$rnum)) || $rnum!=6) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
 goto RAWHIDE;
 
 

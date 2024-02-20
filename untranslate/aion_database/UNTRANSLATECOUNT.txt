@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
 # File Size: 35719       
-# File Date: 02/12/2024 15:51:07
+# File Date: 02/19/2024 22:51:45
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -202,7 +202,7 @@ Holy-Bible---Hindi---Hindi-Bible	12	0	64	12	1	11	9	1	5	94	64	10	2	0	1	0	273	266	
 Holy-Bible---Hungarian---Hungarian-Jewish-Bible	0	0	64	0	0	0	0	0	0	0	0	0	0	0	0	0	64	64	64	0	201	0	0
 Holy-Bible---Hungarian---Hungarian-Karoli	14	2	64	12	1	11	9	1	5	94	64	10	2	0	1	2	273	266	265	0	0	0	1
 Holy-Bible---Hungarian---Magyar-Bible	4	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
-Holy-Bible---Icelandic---Open-Living-Word	0	5	14	12	1	10	8	1	5	85	63	10	2	0	0	5	211	204	204	0	49	12	0
+Holy-Bible---Icelandic---Open-Living-Word	0	5	14	12	1	10	8	1	5	86	64	10	2	0	0	5	213	206	206	0	49	10	0
 Holy-Bible---Igbo---Igbo-Bible	0	1	64	12	1	11	9	1	5	94	64	10	2	0	0	1	273	265	265	0	0	0	0
 Holy-Bible---Ilocano---Ilocano-Bible	0	0	64	12	1	11	9	1	5	94	64	10	2	0	1	0	273	266	265	0	0	0	1
 Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari	0	5	64	12	1	11	9	1	5	94	64	10	2	0	0	5	273	265	265	0	0	0	0
@@ -245,7 +245,7 @@ Holy-Bible---Luganda---Luganda-Bible	0	0	64	12	1	11	9	1	5	94	64	10	2	0	0	0	273	2
 Holy-Bible---Mahasu-Pahari---Baghlayani-Bible	0	3	0	12	1	11	9	1	5	94	64	10	2	0	0	3	209	201	201	0	64	0	0
 Holy-Bible---Malagasy---Malagasy-Bible	0	0	64	12	1	11	9	1	5	94	64	10	2	0	0	0	273	265	265	0	0	0	0
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	0	0	64	12	1	10	9	1	4	92	61	10	2	0	0	0	266	259	259	0	0	6	0
-Holy-Bible---Malayalam---Contemporary	0	0	63	12	1	11	9	1	5	88	62	10	2	0	0	0	264	256	256	0	3	6	0
+Holy-Bible---Malayalam---Contemporary	0	0	63	12	1	11	9	1	5	88	63	10	2	0	0	0	265	257	257	0	2	6	0
 Holy-Bible---Malayalam---Malayalam-Bible	0	0	64	12	1	11	9	1	5	94	64	10	2	0	0	0	273	265	265	0	0	0	0
 Holy-Bible---Malayalam---Malayalam-Bible-1910	0	0	64	12	1	11	9	1	5	93	64	10	2	0	0	0	272	264	264	0	0	1	0
 Holy-Bible---Manipuri---Meitei-Bible	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
@@ -261,7 +261,7 @@ Holy-Bible---Ndebele---Ndebele-Bible	0	0	64	12	1	11	9	1	5	94	64	10	2	0	1	0	273	2
 Holy-Bible---Ndengereko---Ndengereko-Bible	0	0	0	12	1	11	9	1	5	94	64	10	2	0	1	0	209	202	201	0	64	0	1
 Holy-Bible---Nepali---Nepali-Bible	0	0	64	12	1	11	9	1	5	94	64	10	2	0	0	0	273	265	265	0	0	0	0
 Holy-Bible---Ngoni---Ngoni-Bible	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
-Holy-Bible---Norwegian---Living-Bible	0	0	0	12	1	11	9	1	5	87	63	10	2	0	0	0	201	193	193	0	64	8	0
+Holy-Bible---Norwegian---Living-Bible	0	0	0	12	1	11	9	1	5	88	64	10	2	0	0	0	203	195	195	0	64	6	0
 Holy-Bible---Norwegian---Norwegian-Bible	0	0	64	12	1	11	9	1	5	94	64	10	2	0	0	0	273	265	265	0	0	0	0
 Holy-Bible---Norwegian---Norwegian-Student-Bible	0	0	64	12	1	11	9	1	5	94	64	10	2	0	1	0	273	266	265	0	0	0	1
 Holy-Bible---Oriya---Oriya-Bible	0	3	64	12	1	11	9	1	5	94	64	10	2	0	5	3	273	268	265	0	0	0	3
@@ -317,7 +317,7 @@ Holy-Bible---Sanskrit---Velthuis-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark	0	0	0	3	0	0	0	0	0	2	1	4	0	0	0	0	10	8	8	0	257	0	0
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	0	0	64	12	1	11	9	1	5	94	64	10	2	0	1	0	273	266	265	0	0	0	1
 Holy-Bible---Serbian---Serbian-Ekavski-Bible	0	0	64	12	1	11	9	1	5	94	64	10	2	0	1	0	273	266	265	0	0	0	1
-Holy-Bible---Setswana---Open-Tswana-Living	0	0	0	12	1	10	9	1	5	86	63	10	2	0	0	0	199	192	192	0	64	9	0
+Holy-Bible---Setswana---Open-Tswana-Living	0	0	0	12	1	10	9	1	5	87	64	10	2	0	0	0	201	194	194	0	64	7	0
 Holy-Bible---Shona---Rakasununguka	0	0	64	12	1	11	9	1	5	94	64	10	2	0	0	0	273	265	265	0	0	0	0
 Holy-Bible---Shona---Shona-Bible	0	0	0	12	1	11	9	1	5	94	64	10	2	0	1	0	209	202	201	0	64	0	1
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	0	4	64	12	1	11	9	1	5	94	64	10	2	0	15	4	273	280	265	0	0	0	15

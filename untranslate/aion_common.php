@@ -965,6 +965,9 @@ function AION_TEXT_REPAIR($string,$errline,$bible,$trueifrawtext, &$textrepair,$
 	else if ('Holy-Bible---English---STEPBible-Amalgamant'==$bible || 'Holy-Bible---English---STEPBible-Concordant'==$bible) {
 		if (preg_match('/[@#$%\^\\\\&_{}|<>]{1}/ui',$string)) {							AION_ECHO("WARNING!!! PUNCTUATION PROBLEM! $errline:\t$string"); }
 	}
+	else if (preg_match("/Sanskrit/us", $bible)) {
+		if (preg_match('/[~@#$%\\\\&*_+{}<>]{1}/ui',$string)) {							AION_ECHO("WARNING!!! PUNCTUATION PROBLEM! $errline:\t$string"); }
+	}
 	else {
 		if (preg_match('/[~@#$%\^\\\\&*_+{}|<>]{1}/ui',$string)) {						AION_ECHO("WARNING!!! PUNCTUATION PROBLEM! $errline:\t$string"); }
 	}
@@ -3098,27 +3101,27 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-8103;
 	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-8596;
 	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-277601;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-7370639;
-	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-77715;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-7370827;
+	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-77722;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-379;
-	$grandmarker['LONG']		= $grandtotal['LONG']-1120;
+	$grandmarker['LONG']		= $grandtotal['LONG']-1062;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-0;
-	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-5844;
+	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-5750;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-5063;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-13463;
-	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-24487;
-	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-8363;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-13727;
+	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-24299;
+	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-8387;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-717;
 	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-622;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-187300;
-	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-25826;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-4231.92;
-	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-147;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-186888;
+	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-37192;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-4223.68;
+	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-148;
 	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-80;
-	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-341;
-	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-171;
-	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-147;
+	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-342;
+	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-172;
+	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-207;
 	$grandmarker['PDF_PRTL']	= $grandtotal['PDF_PRTL']-213;
 	$grandmarker['TRANS']		= $grandtotal['TRANS']-291;
 	$grandtotal['LONG']		= ($grandtotal['LONG']		== 0 ? $grandtotal['LONG']		: "<span style='font-weight:bold; color:red;'>".$grandtotal['LONG']."</span>" );

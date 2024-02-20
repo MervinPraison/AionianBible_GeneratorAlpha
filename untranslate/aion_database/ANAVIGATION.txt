@@ -1,6 +1,6 @@
 # File Name: ANAVIGATION.txt
-# File Size: 27606       
-# File Date: 02/12/2024 16:30:38
+# File Size: 27147       
+# File Date: 02/19/2024 23:31:26
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -287,8 +287,6 @@ Holy-Bible---Icelandic---Open-Living-Word	VERSMISS	040-MAT-012-032
 Holy-Bible---Icelandic---Open-Living-Word	VERSMISS	042-LUK-020-035
 Holy-Bible---Icelandic---Open-Living-Word	VERSMISS	043-JOH-006-051
 Holy-Bible---Icelandic---Open-Living-Word	VERSMISS	043-JOH-014-016
-Holy-Bible---Icelandic---Open-Living-Word	VERSMISS	045-ROM-016-026
-Holy-Bible---Icelandic---Open-Living-Word	VERSMISS	045-ROM-016-027
 Holy-Bible---Icelandic---Open-Living-Word	VERSMISS	058-HEB-006-005
 Holy-Bible---Icelandic---Open-Living-Word	VERSMISS	058-HEB-013-021
 Holy-Bible---Icelandic---Open-Living-Word	VERSMISS	065-JUD-001-025
@@ -383,7 +381,6 @@ Holy-Bible---Malayalam---Contemporary	VERSMISS	040-MAT-028-020
 Holy-Bible---Malayalam---Contemporary	VERSMISS	042-LUK-001-055
 Holy-Bible---Malayalam---Contemporary	VERSMISS	049-EPH-001-021
 Holy-Bible---Malayalam---Contemporary	VERSMISS	049-EPH-003-011
-Holy-Bible---Malayalam---Contemporary	VERSMISS	056-TIT-001-002
 Holy-Bible---Malayalam---Contemporary	VERSMISS	058-HEB-006-002
 Holy-Bible---Malayalam---Contemporary	VERSMISS	066-REV-001-006
 Holy-Bible---Malayalam---Contemporary	VERSMISS	066-REV-007-012
@@ -406,8 +403,6 @@ Holy-Bible---Nepali---Nepali-Bible
 Holy-Bible---Ngoni---Ngoni-Bible		
 Holy-Bible---Norwegian---Living-Bible		
 Holy-Bible---Norwegian---Living-Bible	VERSMISS	042-LUK-020-035
-Holy-Bible---Norwegian---Living-Bible	VERSMISS	045-ROM-016-026
-Holy-Bible---Norwegian---Living-Bible	VERSMISS	045-ROM-016-027
 Holy-Bible---Norwegian---Living-Bible	VERSMISS	046-1CO-002-008
 Holy-Bible---Norwegian---Living-Bible	VERSMISS	058-HEB-006-005
 Holy-Bible---Norwegian---Living-Bible	VERSMISS	058-HEB-007-021
@@ -484,8 +479,6 @@ Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	040-MAT-012-032
 Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	042-LUK-020-035
 Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	043-JOH-006-051
 Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	043-JOH-014-016
-Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	045-ROM-016-026
-Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	045-ROM-016-027
 Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	058-HEB-013-021
 Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	065-JUD-001-025
 Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	066-REV-001-018

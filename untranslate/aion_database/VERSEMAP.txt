@@ -88,8 +88,14 @@ Holy-Bible---Croatian---Croatian-Bible	MAL3-4
 Holy-Bible---Czech---Czech-Bible-Kralicka	NONE
 Holy-Bible---Czech---Kralicka	NONE
 Holy-Bible---Czech---Living-Bible	NONE
-Holy-Bible---Danish---Danish-1871-1907	NONE
-Holy-Bible---Danish---Danish-1931-1907	NONE
+Holy-Bible---Danish---Danish-1871-1907	LEV5-6
+Holy-Bible---Danish---Danish-1871-1907	JOE2-3
+Holy-Bible---Danish---Danish-1871-1907	ZEC1-2
+Holy-Bible---Danish---Danish-1871-1907	JOB38-39-40-41
+Holy-Bible---Danish---Danish-1931-1907	LEV5-6
+Holy-Bible---Danish---Danish-1931-1907	JOE2-3
+Holy-Bible---Danish---Danish-1931-1907	ZEC1-2
+Holy-Bible---Danish---Danish-1931-1907	JOB38-39-40-41
 Holy-Bible---Danish---Danish-Bible	NONE
 Holy-Bible---Desiya---Desiya-Bible	NONE
 Holy-Bible---Dholuo---Dholuo-Bible	NONE
@@ -1081,7 +1087,7 @@ Holy-Bible---Swedish---Swedish-Bible-1873	DAN3-4
 Holy-Bible---Swedish---Swedish-Bible-1873	HOS13-14
 Holy-Bible---Swedish---Swedish-Bible-1873	JON1-2
 Holy-Bible---Swedish---Swedish-Bible-1873	HAG1-2
-Holy-Bible---Swedish---Swedish-Bible-1917	NONE
+Holy-Bible---Swedish---Swedish-Bible-1917	JOB38-39-40-41
 Holy-Bible---Tagalog---Tagalog-Bible	NONE
 Holy-Bible---Tagalog---Tagalog-Bible-1905	NONE
 Holy-Bible---Tagalog---Tagalog-Bible-Unlocked	NONE

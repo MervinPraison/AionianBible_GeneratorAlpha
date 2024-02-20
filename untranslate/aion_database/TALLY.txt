@@ -1,6 +1,6 @@
 # File Name: TALLY.txt
 # File Size: 21066       
-# File Date: 02/12/2024 13:55:05
+# File Date: 02/19/2024 20:50:33
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -29,7 +29,7 @@ Holy-Bible---Basque---Basque-NT	7932	7932	7932
 Holy-Bible---Beaver---Beaver-Mark	678	678	678
 Holy-Bible---Bengali---Bengali-Bible	31094	31094	31097
 Holy-Bible---Bengali---Contemporary	31100	31100	31101
-Holy-Bible---Bhadrawahi---Bhadrawahi-Bible	7936	7936	7938
+Holy-Bible---Bhadrawahi---Bhadrawahi-Bible	7937	7937	7939
 Holy-Bible---Bodo-Parja---BOPO-Bible	7959	7959	7959
 Holy-Bible---Breton---Breton-Gospels	3779	3779	3779
 Holy-Bible---Bulgarian---Bulgarian-Bible	31096	31096	31102
@@ -51,14 +51,14 @@ Holy-Bible---Chinese---Chinese-Union-Version-Traditional	31017	31017	31019
 Holy-Bible---Chiyawo---Yao	7959	7959	7959
 Holy-Bible---Coptic---Coptic-Boharic-NT	7950	7950	7957
 Holy-Bible---Coptic---Coptic-NT	7945	7945	7957
-Holy-Bible---Coptic---Sahidic-Bible-2	7922	7922	7959
+Holy-Bible---Coptic---Sahidic-Bible-2	7923	7923	7959
 Holy-Bible---Coptic---Sahidic-Coptic-Horner	7906	7906	7933
 Holy-Bible---Croatian---Croatian-Bible	31086	31086	31342
 Holy-Bible---Czech---Czech-Bible-Kralicka	31102	31102	31103
 Holy-Bible---Czech---Kralicka	31172	31172	31172
-Holy-Bible---Czech---Living-Bible	7301	7301	7301
-Holy-Bible---Danish---Danish-1871-1907	31063	31063	31063
-Holy-Bible---Danish---Danish-1931-1907	31062	31062	31062
+Holy-Bible---Czech---Living-Bible	7337	7337	7337
+Holy-Bible---Danish---Danish-1871-1907	31090	31090	31090
+Holy-Bible---Danish---Danish-1931-1907	31089	31089	31089
 Holy-Bible---Danish---Danish-Bible	31102	31102	31102
 Holy-Bible---Desiya---Desiya-Bible	7958	7958	7958
 Holy-Bible---Dholuo---Dholuo-Bible	31103	31103	31103
@@ -186,7 +186,7 @@ Holy-Bible---Greek---Text-Critical	7953	7953	7953
 Holy-Bible---Gujarati---Gujarati-Bible	31102	31102	31104
 Holy-Bible---Haitian---Haitian-Creole-Bible	31102	31102	31102
 Holy-Bible---Haitian---Haitian-Creole-Smith	31103	31103	31103
-Holy-Bible---Haryanvi---Haryanvi-Bible	7918	7918	7918
+Holy-Bible---Haryanvi---Haryanvi-Bible	7921	7921	7921
 Holy-Bible---Hausa---Contemporary	31087	31087	31087
 Holy-Bible---Hausa---Hausa-Bible	7959	7959	7959
 Holy-Bible---Hawaiian---Hawaiian-Bible-1868	31102	31102	31102
@@ -202,7 +202,7 @@ Holy-Bible---Hindi---Hindi-Bible	31102	31102	31104
 Holy-Bible---Hungarian---Hungarian-Jewish-Bible	23160	23160	23181
 Holy-Bible---Hungarian---Hungarian-Karoli	31102	31102	31173
 Holy-Bible---Hungarian---Magyar-Bible	7957	7957	7957
-Holy-Bible---Icelandic---Open-Living-Word	9906	9906	9906
+Holy-Bible---Icelandic---Open-Living-Word	9922	9922	9922
 Holy-Bible---Igbo---Igbo-Bible	31103	31103	31103
 Holy-Bible---Ilocano---Ilocano-Bible	31076	31076	31102
 Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari	29687	29687	31102
@@ -242,10 +242,10 @@ Holy-Bible---Latvian---Latvian-Gluck-Bible	31102	31102	31102
 Holy-Bible---Lingala---Lingala-Bible	31148	31148	31169
 Holy-Bible---Lodhi---Lodhi-Bible	7958	7958	7958
 Holy-Bible---Luganda---Luganda-Bible	31104	31104	31104
-Holy-Bible---Mahasu-Pahari---Baghlayani-Bible	7954	7954	7954
+Holy-Bible---Mahasu-Pahari---Baghlayani-Bible	7955	7955	7955
 Holy-Bible---Malagasy---Malagasy-Bible	31088	31088	31171
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	30861	30861	30887
-Holy-Bible---Malayalam---Contemporary	30940	30940	30940
+Holy-Bible---Malayalam---Contemporary	30943	30943	30943
 Holy-Bible---Malayalam---Malayalam-Bible	31095	31095	31097
 Holy-Bible---Malayalam---Malayalam-Bible-1910	31094	31094	31094
 Holy-Bible---Manipuri---Meitei-Bible	7929	7929	7929
@@ -254,14 +254,14 @@ Holy-Bible---Marathi---Marathi-Bible	31092	31092	31094
 Holy-Bible---Munda---Munda-Bible	7958	7958	7958
 Holy-Bible---Mwera---Mwera-Bible	7957	7957	7959
 Holy-Bible---Myanmar---Burmese-Common-Bible	29767	29767	29794
-Holy-Bible---Myanmar---Burmese-Judson	30979	30979	31102
+Holy-Bible---Myanmar---Burmese-Judson	30981	30981	31102
 Holy-Bible---Myanmar---Myanmar-Burmese-Judson	30846	30846	30929
 Holy-Bible---Ndebele---Accessible-Bible	31103	31103	31103
 Holy-Bible---Ndebele---Ndebele-Bible	31102	31102	31102
 Holy-Bible---Ndengereko---Ndengereko-Bible	7949	7949	7956
 Holy-Bible---Nepali---Nepali-Bible	31100	31100	31102
 Holy-Bible---Ngoni---Ngoni-Bible	7959	7959	7959
-Holy-Bible---Norwegian---Living-Bible	7748	7748	7748
+Holy-Bible---Norwegian---Living-Bible	7776	7776	7776
 Holy-Bible---Norwegian---Norwegian-Bible	31102	31102	31169
 Holy-Bible---Norwegian---Norwegian-Student-Bible	31102	31102	31169
 Holy-Bible---Oriya---Oriya-Bible	31102	31102	31104
@@ -317,7 +317,7 @@ Holy-Bible---Sanskrit---Velthuis-Script	7958	7958	7959
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark	678	678	678
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	31102	31102	31105
 Holy-Bible---Serbian---Serbian-Ekavski-Bible	31102	31102	31103
-Holy-Bible---Setswana---Open-Tswana-Living	7586	7586	7586
+Holy-Bible---Setswana---Open-Tswana-Living	7618	7618	7618
 Holy-Bible---Shona---Rakasununguka	31103	31103	31103
 Holy-Bible---Shona---Shona-Bible	7957	7957	7957
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	31065	31065	31319
@@ -338,7 +338,7 @@ Holy-Bible---Swahili---New-Swahili-Bible	31101	31101	31103
 Holy-Bible---Swahili---Swahili-Bible	7853	7853	7853
 Holy-Bible---Swedish---Swedish-Bible	31082	31082	31153
 Holy-Bible---Swedish---Swedish-Bible-1873	31102	31102	31170
-Holy-Bible---Swedish---Swedish-Bible-1917	31052	31052	31069
+Holy-Bible---Swedish---Swedish-Bible-1917	31063	31063	31080
 Holy-Bible---Tagalog---Tagalog-Bible	31102	31102	31102
 Holy-Bible---Tagalog---Tagalog-Bible-1905	31102	31102	31102
 Holy-Bible---Tagalog---Tagalog-Bible-Unlocked	31101	31101	31103
