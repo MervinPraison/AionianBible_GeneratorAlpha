@@ -1,6 +1,6 @@
 # File Name: ANAVIGATION.txt
-# File Size: 27147       
-# File Date: 02/19/2024 23:31:26
+# File Size: 27084       
+# File Date: 02/21/2024 03:41:19
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -406,7 +406,6 @@ Holy-Bible---Norwegian---Living-Bible	VERSMISS	042-LUK-020-035
 Holy-Bible---Norwegian---Living-Bible	VERSMISS	046-1CO-002-008
 Holy-Bible---Norwegian---Living-Bible	VERSMISS	058-HEB-006-005
 Holy-Bible---Norwegian---Living-Bible	VERSMISS	058-HEB-007-021
-Holy-Bible---Norwegian---Living-Bible	VERSMISS	058-HEB-013-021
 Holy-Bible---Norwegian---Living-Bible	VERSMISS	065-JUD-001-025
 Holy-Bible---Norwegian---Norwegian-Bible		
 Holy-Bible---Norwegian---Norwegian-Student-Bible		

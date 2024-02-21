@@ -1432,6 +1432,20 @@ $textfix = <<<EOF
 2CO 5:10 
 EOF;
 if (!($bfile = preg_replace("/2CO 5:2 (.+?)2CO 5:10 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2CO 6:8 Stojím při Bohu věrně, ať mě za to oslavují nebo mi nadávají, ať mi věří nebo mě prohlašují za podvodníka.
+2CO 6:9 Pro jedny mé jméno nic neznamená, jiní nahlédli až na dno mého srdce. Denně se nade mnou vznáší smrt, ale nikdy jsem nežil plněji. Bili mě, div jsem ducha nevypustil, ale přece mě nezabili.
+2CO 6:10 Stále mi házejí klacky pod nohy, o radost mě tím však nepřipraví. Jsem chudý, a přece rozdávám poklady nesmírné ceny. Nemám nic – a přece mi patří celý svět! Moji drazí přátelé, musel jsem vám to napsat tak, jak to cítím.
+2CO 6:11 
+EOF;
+if (!($bfile = preg_replace("/2CO 6:8 (.+?)2CO 6:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2TH 2:2 Prosím vás, nenechte si poplést hlavu pověstmi, že ten den už přichází, i kdyby to někdo tvrdil na základě nějakého prorockého vidění nebo se dokonce odvolával na nás. Nikdy jsme nic takového neřekli ani nenapsali.
+2TH 2:3 Než ten den nastane, musí dojít k velkému odpadnutí od původního Kristova učení a vystoupí člověk ztělesňující vzpouru proti Bohu a jeho zákonu.
+2TH 2:4 Ten se vyvýší nade všechno, co nese Boží jméno, a bude vyžadovat božské pocty sám pro sebe. Dokonce si přisvojí Boží trůn a představí se jako Bůh.
+2TH 2:5 
+EOF;
+if (!($bfile = preg_replace("/2TH 2:2 (.+?)2TH 2:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -11527,6 +11541,12 @@ $textfix = <<<EOF
 1TH 1:7 
 EOF;
 if (!($bfile = preg_replace("/1TH 1:5 (.+?)1TH 1:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+HEB 13:20 Selv ber jeg om at Gud, han som gir fred, på alle måter vil støtte og å hjelpe dere, slik at dere alltid kan gjøre hans vilje. Ja, jeg ber om at han gjennom den kraft som Jesus Kristus gir, vil hjelpe dere til alltid å gjøre det som gleder ham. Gud vakte opp vår Herre Jesus fra de døde. På grunn av at Jesus hadde ofret sitt blod og innstiftet en evig pakt mellom Gud og menneskene, ble Jesus Kristus den store gjeteren for alle sauene i flokken.
+HEB 13:21 Hans er æren i all evighet. Ja, det er sant!
+HEB 13:22 
+EOF;
+if (!($bfile = preg_replace("/HEB 13:20 (.+?)HEB 13:22 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 2PE 3:15 At vår Herre ikke kommer igjen nå straks, skal dere se på som noe positivt, etter som det betyr at flere kan bli frelst. Det har også vår kjære bror Paulus skrevet til dere om, med den visdom han har fått fra Gud.
 2PE 3:16 Ja, hver gang han skriver noe i sine brev om at Herren Jesus skal komme tilbake, da nevner han akkurat dette. Noe av det Paulus underviser, er vanskelig å forstå, og det finnes uerfarne mennesker med en usikker tro, som forvrenger det han skriver. Akkurat på samme måten forvrenger de også andre ting som står i Skriften. På grunn av dette vil de gå evig fortapt.

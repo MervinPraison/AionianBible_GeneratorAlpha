@@ -1,6 +1,6 @@
 # File Name: TALLY_HO.txt
 # File Size: 21069       
-# File Date: 02/19/2024 23:07:39
+# File Date: 02/21/2024 03:16:24
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -56,7 +56,7 @@ Holy-Bible---Coptic---Sahidic-Coptic-Horner	7906	7906	7933
 Holy-Bible---Croatian---Croatian-Bible	31086	31086	31342
 Holy-Bible---Czech---Czech-Bible-Kralicka	31102	31102	31103
 Holy-Bible---Czech---Kralicka	31172	31172	31172
-Holy-Bible---Czech---Living-Bible	7337	7337	7337
+Holy-Bible---Czech---Living-Bible	7341	7341	7341
 Holy-Bible---Danish---Danish-1871-1907	31090	31090	31090
 Holy-Bible---Danish---Danish-1931-1907	31089	31089	31089
 Holy-Bible---Danish---Danish-Bible	31102	31102	31102
@@ -261,7 +261,7 @@ Holy-Bible---Ndebele---Ndebele-Bible	31102	31102	31102
 Holy-Bible---Ndengereko---Ndengereko-Bible	7949	7949	7956
 Holy-Bible---Nepali---Nepali-Bible	31100	31100	31102
 Holy-Bible---Ngoni---Ngoni-Bible	7959	7959	7959
-Holy-Bible---Norwegian---Living-Bible	7776	7776	7776
+Holy-Bible---Norwegian---Living-Bible	7777	7777	7777
 Holy-Bible---Norwegian---Norwegian-Bible	31102	31102	31169
 Holy-Bible---Norwegian---Norwegian-Student-Bible	31102	31102	31169
 Holy-Bible---Oriya---Oriya-Bible	31102	31102	31104
