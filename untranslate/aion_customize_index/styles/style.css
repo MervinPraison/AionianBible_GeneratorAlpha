@@ -114,7 +114,7 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 #word .word-buy .buylinks { color: #000000; font-size: 90%; }
 #word .word-buy .buylinks a { text-decoration: underline; color: #000000; }
 #word .word-buy .buylinks a:hover { color: #FFFFFF; background-color: #9966CC; border: 1px solid #9966CC; }
-#word-quick a { display: inline-block; margin: 0 4px 10px 4px }
+#word-quick a { display: inline-block; margin: 0 3px 10px 4px }
 #word .word-custom { margin-bottom: 20px; }
 
 #word-search { }

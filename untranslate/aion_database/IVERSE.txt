@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 837552      
-# File Date: 02/21/2024 03:39:13
+# File Size: 837426      
+# File Date: 02/25/2024 12:11:06
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -1228,7 +1228,7 @@ Holy-Bible---Gamotso---Gamo	HEB-011-008	Ibirawe 11:8	Abiramey bees laata biitta 
 Holy-Bible---Gamotso---Gamo	EXO-013-017		
 Holy-Bible---Gamotso---Gamo	MAR-010-045	Marqqossa 10:45	Asa nay gidikko asas oothansine ba shemppo darota gish athi immans yades atin ase othisanas yibeyna.” gides.
 Holy-Bible---Gamotso---Gamo	ROM-001-001	Roome 1:1	Yesus Kiristoosa ayllene haware gidanasi xeygettida mishiracho qaala yootanaas kiitettida taape Phawulossape kiitettida kiita.
-Holy-Bible---Gamotso---Gamo	MAT-028-019		
+Holy-Bible---Gamotso---Gamo	MAT-028-019	Maatosa 28:19	Hessa gish bidi dere wursos Aawa Na7azane Xillo Ayana suthan xamaqishe tana kalizayta oothite,
 Holy-Bible---German---German-Albrecht	JOH-003-016	Johannes 3:16	Denn so sehr hat Gott die Welt geliebt, daß er seinen eingeborenen Sohn gegeben hat, damit jeder, der an ihn glaubt, nicht verlorengehe, sondern das ewige Leben habe.
 Holy-Bible---German---German-Albrecht	GEN-003-024		
 Holy-Bible---German---German-Albrecht	LUK-023-034	Lukas 23:34	Da sprach Jesus: "Vater, vergib ihnen; denn sie wissen nicht, was sie tun!" Dann verteilten sie seine Kleider unter sich, indem sie das Los darüber warfen.
@@ -2110,7 +2110,7 @@ Holy-Bible---Malayalam---Contemporary	HEB-011-008	എബ്രായർ 11:8	അ
 Holy-Bible---Malayalam---Contemporary	EXO-013-017	പുറപ്പാട് 13:17	ഫറവോൻ ജനത്തെ വിട്ടയച്ചപ്പോൾ, ഫെലിസ്ത്യദേശത്തുകൂടിയുള്ള വഴി ദൂരം കുറഞ്ഞതായിരുന്നെങ്കിലും ദൈവം അവരെ ആ വഴിയിൽക്കൂടി നടത്തിയില്ല. “യുദ്ധം നേരിട്ടാൽ അവർക്കു മനംമാറ്റം ഉണ്ടാകുകയും അവർ ഈജിപ്റ്റിലേക്കു മടങ്ങുകയും ചെയ്തേക്കാം,” എന്നു ദൈവം കരുതി.
 Holy-Bible---Malayalam---Contemporary	MAR-010-045	മർക്കൊസ് 10:45	മനുഷ്യപുത്രൻ (ഞാൻ) വന്നതോ മറ്റുള്ളവരിൽനിന്ന് ശുശ്രൂഷ സ്വീകരിക്കാനല്ല; മറിച്ച്, മറ്റുള്ളവരെ ശുശ്രൂഷിക്കാനും തന്റെ ജീവൻ അനേകർക്ക് വീണ്ടെടുപ്പുവിലയായി നൽകാനും ആണ്.”
 Holy-Bible---Malayalam---Contemporary	ROM-001-001	റോമർ 1:1	ക്രിസ്തുയേശുവിന്റെ ദാസനും അപ്പൊസ്തലനും ദൈവത്തിന്റെ സുവിശേഷം പ്രസംഗിക്കുന്നതിനു നിയോഗിക്കപ്പെട്ടിരിക്കുന്നവനുമായ പൗലോസാണ് ഈ ലേഖനം എഴുതുന്നത്.
-Holy-Bible---Malayalam---Contemporary	MAT-028-019	മത്തായി 28:19	അതുകൊണ്ട് നിങ്ങൾ പോയി പിതാവിന്റെയും പുത്രന്റെയും പരിശുദ്ധാത്മാവിന്റെയും നാമത്തിൽ സ്നാനം കഴിപ്പിച്ചും ഞാൻ നിങ്ങളോട് കൽപ്പിച്ചതെല്ലാം അനുവർത്തിക്കാൻ അവരെ ഉപദേശിച്ചുംകൊണ്ട് സകലജനതയെയും എന്റെ ശിഷ്യരാക്കുക. ഞാൻ യുഗാന്ത്യംവരെ എപ്പോഴും നിങ്ങളോടുകൂടെ ഉണ്ടായിരിക്കും, നിശ്ചയം,” എന്നു കൽപ്പിച്ചു.
+Holy-Bible---Malayalam---Contemporary	MAT-028-019	മത്തായി 28:19	അതുകൊണ്ട് നിങ്ങൾ പോയി പിതാവിന്റെയും പുത്രന്റെയും പരിശുദ്ധാത്മാവിന്റെയും നാമത്തിൽ സ്നാനം കഴിപ്പിച്ചും ഞാൻ നിങ്ങളോട് കൽപ്പിച്ചതെല്ലാം അനുവർത്തിക്കാൻ അവരെ ഉപദേശിച്ചുംകൊണ്ട് സകലജനതയെയും എന്റെ ശിഷ്യരാക്കുക.
 Holy-Bible---Malayalam---Malayalam-Bible	JOH-003-016	യോഹന്നാൻ ൩:൧൬	തന്റെ ഏകജാതനായ പുത്രനിൽ വിശ്വസിക്കുന്ന ഏവനും നശിച്ചുപോകാതെ നിത്യജീവൻ പ്രാപിക്കേണ്ടതിന് ദൈവം അവനെ നല്കുവാൻ തക്കവണ്ണം ലോകത്തെ സ്നേഹിച്ചു.
 Holy-Bible---Malayalam---Malayalam-Bible	GEN-003-024	ഉല്പത്തി ൩:൨൪	ഇങ്ങനെ ദൈവം മനുഷ്യനെ ഇറക്കിവിട്ടു; ജീവന്റെ വൃക്ഷത്തിങ്കലേക്കുള്ള വഴി കാവൽചെയ്യുവാൻ അവിടുന്ന് ഏദെൻ തോട്ടത്തിന് കിഴക്ക് കെരൂബുകളെ എല്ലാ വശത്തേക്കും തിരിഞ്ഞുകൊണ്ടിരിക്കുന്ന ജ്വാലയുള്ള വാളുമായി നിർത്തി.
 Holy-Bible---Malayalam---Malayalam-Bible	LUK-023-034	ലൂക്കോസ് ൨൩:൩൪	അപ്പോൾ യേശു: പിതാവേ, ഇവർ ചെയ്യുന്നതു എന്താണെന്ന് അറിയാത്തതുകൊണ്ട് ഇവരോട് ക്ഷമിക്കേണമേ എന്നു പറഞ്ഞു. പിന്നീട് അവർ അവന്റെ വസ്ത്രം പങ്കിടാനായി ചീട്ടിട്ടു.

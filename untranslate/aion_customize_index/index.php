@@ -1211,7 +1211,8 @@ echo "<div id='word-menu-bottom'>$menu</div>";
 echo '</div>';
 if (!empty($_BibleONE['T_VERSIONS']['WARNING'])) { echo "<div class='word-warning'>".$_BibleONE['T_VERSIONS']['WARNING']."</div>\n"; }
 echo "<div class='word-links'>\n".
-	"<a href='".abcms_href("/Strongs/$_Part[1]",FALSE,TRUE,TRUE)."' title='Aionian Glossary and Strongs Concordance'>Concordance</a>\n".
+	"<a href='#' title='Go to Bookmark' onclick='AionianBible_Get();'>Bookmark Get</a> and <a href='#' title='Set Bookmark' onclick='AionianBible_Set();'>Set</a>".
+	" / <a href='".abcms_href("/Strongs/$_Part[1]",FALSE,TRUE,TRUE)."' title='Aionian Glossary and Strongs Concordance'>Concordance</a>\n".
 	" / <a href='/Maps' title='Middle Eastern and Mediterranean Bible maps, Bible timeline and church history'>Maps</a>\n".
 	(($tmp = preg_replace("/Bibles\//","Publisher/",$_Path)) ? " / <a href='/$tmp' title='Propose translation correction'>Report Issue</a>\n" : '').
 	"</div>\n";
@@ -1270,6 +1271,7 @@ if (!empty($_BibleONE['T_VERSIONS']['WARNING'])) { echo "<div class='word-warnin
 $javascript = "AionianBible_CollapseExpand(\"ab-lexicon\", null); return false;";
 echo "<div class=field-header>\n".
 	"<a href='' title='Open or close all lexicon entries below' onclick='$javascript'>Toggle Lexicons</a>\n".
+	" / <a href='#' title='Go to Bookmark' onclick='AionianBible_Get();'>Bookmark Get</a> and <a href='#' title='Set Bookmark' onclick='AionianBible_Set();'>Set</a>".
 	" / <a href='".abcms_href("/Verse/All/$_Part[2]/$_Part[3]/$_Part[4]",FALSE,TRUE,TRUE)."' title='Verse in all Bibles'>All Bibles</a>\n".
 	" / <a href='".abcms_href("/Strongs/$_Part[1]",FALSE,TRUE,TRUE)."' title='Aionian Glossary and Strongs Concordance'>Concordance</a>\n".
 	" / <a href='/Maps' title='Middle Eastern and Mediterranean Bible maps, Bible timeline and church history'>Maps</a>\n".

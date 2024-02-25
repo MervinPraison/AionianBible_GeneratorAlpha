@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1458316     
-# File Date: 02/21/2024 00:35:47
+# File Size: 1458097     
+# File Date: 02/25/2024 09:37:10
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -2478,7 +2478,6 @@ Holy-Bible---French---Free-for-the-World	042	LUK	017	036
 Holy-Bible---French---Free-for-the-World	044	ACT	008	037	
 Holy-Bible---French---Free-for-the-World	044	ACT	015	034	
 Holy-Bible---French---Free-for-the-World	044	ACT	024	007	
-Holy-Bible---French---Free-for-the-World	045	ROM	016	025	
 Holy-Bible---French---French-Crampon-Bible	007	JDG	005	031	Qu'ainsi périssent tous tes ennemis, ô Yahweh ! Et que ceux qui l'aiment soient comme le soleil, quand il se lève dans sa force !
 Holy-Bible---French---French-Crampon-Bible	009	1SA	020	042	Et Jonathas dit à David : « Va en paix, après que nous avons juré l'un et l'autre, au nom de Yahweh, en disant : Que Yahweh soit entre moi et toi, entre ma postérité et ta postérité à jamais ! »
 Holy-Bible---French---French-Crampon-Bible	011	1KI	022	043	Il marcha dans toute la voie d'Asa, son père, et ne s'en détourna point, faisant ce qui est droit aux yeux de Yahweh.
@@ -6076,7 +6075,6 @@ Holy-Bible---Indonesian---For-All	044	ACT	024	007
 Holy-Bible---Indonesian---For-All	044	ACT	028	029	
 Holy-Bible---Indonesian---For-All	045	ROM	016	024	
 Holy-Bible---Indonesian---For-All	066	REV	012	018	
-Holy-Bible---Indonesian---Simple	045	ROM	016	025	
 Holy-Bible---Indonesian---Simple	066	REV	012	018	
 Holy-Bible---Isanzu---Isanzu-Bible	040	MAT	018	011	
 Holy-Bible---Isanzu---Isanzu-Bible	040	MAT	023	014	
@@ -9116,7 +9114,6 @@ Holy-Bible---Romanian---Free-Bible	042	LUK	017	036
 Holy-Bible---Romanian---Free-Bible	044	ACT	008	037	
 Holy-Bible---Romanian---Free-Bible	044	ACT	015	034	
 Holy-Bible---Romanian---Free-Bible	044	ACT	024	007	
-Holy-Bible---Romanian---Free-Bible	045	ROM	016	025	
 Holy-Bible---Rote-Dela---Rote-Dela-Bible	064	3JO	001	014	Huu au hule-hule' fo nda doo' sa na ata tandaa, fo ru'a nggita ola-ola' neu' ena.
 Holy-Bible---Rote-Dela---Rote-Dela-Bible	066	REV	012	018	Basa ma, mengge-buta a neu nambarii' nangginggio sia tasi suun.
 Holy-Bible---Russian---Russian-Synodal-Translation	006	JOS	024	034	В тот день сыны Израилевы, взяв ковчег Божий, носили с собою, и Финеес был священником вместо Елеазара, отца своего, доколе не умер и не был погребен в городе своем Гаваафе.
@@ -9852,7 +9849,6 @@ Holy-Bible---Spanish---Free-for-the-World	042	LUK	017	036
 Holy-Bible---Spanish---Free-for-the-World	044	ACT	008	037	
 Holy-Bible---Spanish---Free-for-the-World	044	ACT	015	034	
 Holy-Bible---Spanish---Free-for-the-World	044	ACT	024	007	
-Holy-Bible---Spanish---Free-for-the-World	045	ROM	016	025	
 Holy-Bible---Spanish---Gods-Word-for-You	018	JOB	020	029	
 Holy-Bible---Spanish---Gods-Word-for-You	040	MAT	016	003	
 Holy-Bible---Spanish---Gods-Word-for-You	040	MAT	017	021	

@@ -694,6 +694,12 @@ $blockfix = <<<EOF
 2PE 1:20 
 EOF;
 if (!($bfile = preg_replace("/2PE 1:19 (.+?)2PE 1:20 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+REV 4:9 ज़ै तखते पुड़ बिशोरो ज़ै हमेशा-हमेशा ज़ींतोए, तैना प्राणी तैसेरी महिमा ते आदर ते शुक्र केरेले,
+REV 4:10 ज़ैखन चोब्ही बुज़ुर्ग तखतन पुड़ बिशने बाले कां मथ्थो टेकेले, ते तैसेरी आराधना केरेले। ते तैना अपना-अपना ताजां तखतेरे सामने इन ज़ोइतां रखेले:
+REV 4:11 
+EOF;
+if (!($bfile = preg_replace("/REV 4:9 (.+?)REV 4:11 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -1380,6 +1386,100 @@ MAR 14:10
 EOF;
 if (!($bfile = preg_replace("/MAR 14:1 (.+?)MAR 14:10 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
+LUK 1:54 Ujímá se svého lidu, Izraele, protože slíbil našim otcům,
+LUK 1:55 Abrahamovi i jeho potomkům, že k nim bude na věky milosrdný.“
+LUK 1:56 
+EOF;
+if (!($bfile = preg_replace("/LUK 1:54 (.+?)LUK 1:56 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+LUK 12:16 A pověděl jim k tomu příběh: „Když jeden člověk sklidil z polí velkou úrodu,
+LUK 12:17 přemýšlel, kam ji uložit.
+LUK 12:18 Rozhodl se, že dá zbořit staré stodoly a postaví prostornější, kam si všechno uskladní.
+LUK 12:19 Těšil se, že bude mít na léta po starosti a v klidu a pohodě si bude všeho užívat.
+LUK 12:20 
+EOF;
+if (!($bfile = preg_replace("/LUK 12:16 (.+?)LUK 12:20 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+LUK 12:25 Kdyby se někdo z vás sebevíc snažil, může povyrůst třeba jen o jediný centimetr?
+LUK 12:26 Když ani taková maličkost není ve vaší moci, proč se trápíte starostmi o to ostatní?
+LUK 12:27 
+EOF;
+if (!($bfile = preg_replace("/LUK 12:25 (.+?)LUK 12:27 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+LUK 12:47 Kdo zná vůli svého pána, ale neřídí se podle ní, bude tvrdě potrestán;
+LUK 12:48 kdo ji nezná a udělá něco, co zasluhuje trestu, nedopadne tak zle. Od toho, komu bylo mnoho svěřeno, bude mnoho očekáváno, a kdo dostal jasné pokyny, od toho bude mnoho vyžadováno.
+LUK 12:49 
+EOF;
+if (!($bfile = preg_replace("/LUK 12:47 (.+?)LUK 12:49 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+LUK 20:30 S vdovou se oženil druhý bratr, ale také zemřel bez dětí.
+LUK 20:31 Tak tomu bylo i s třetím a dalšími, až se s tou ženou oženilo postupně všech sedm a všichni zůstali bezdětní.
+LUK 20:32 Nakonec zemřela i ona.
+LUK 20:33 Komu bude při vzkříšení náležet, když měla sedm manželů?“
+LUK 20:34 Ježíš odpověděl: „Manželství a rodina jsou záležitostí pozemského života.
+LUK 20:35 Avšak pro ty, které Bůh vzkřísí a přijme do věčného života, ztratí manželství svůj pozemský smysl.
+LUK 20:36 Budou všichni tvořit Boží rodinu, podobně jako jeho andělé.
+LUK 20:37 
+EOF;
+if (!($bfile = preg_replace("/LUK 20:30 (.+?)LUK 20:37 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 4:13 Nato jí Ježíš odpověděl:
+JOH 4:14 „Voda, kterou nabízím já, uhašuje žízeň navždy a naplňuje touhu po věčnosti.“
+JOH 4:15 
+EOF;
+if (!($bfile = preg_replace("/JOH 4:13 (.+?)JOH 4:15 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 6:50 Kdo však okusí skutečný nebeský chléb – a to jsem já, nezemře.
+JOH 6:51 Kdo se mnou sytí, bude věčně žít. Tím chlebem je mé tělo a já je obětuji, aby svět mohl žít.“
+JOH 6:52 
+EOF;
+if (!($bfile = preg_replace("/JOH 6:50 (.+?)JOH 6:52 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 6:56 Kdo ji přijme, ten je se mnou nerozlučně spojen.
+JOH 6:57 Já mu budu zdrojem života, který vyvěrá z Otce.
+JOH 6:58 Proto je moje oběť ten pravý nebeský chléb. Vaši předkové jedli manu, a přece zemřeli. Jestliže vy přijmete mne jako svůj chléb, budete žít věčně.“
+JOH 6:59 
+EOF;
+if (!($bfile = preg_replace("/JOH 6:56 (.+?)JOH 6:59 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 9:20 Rodiče odpověděli: „Je to náš syn a býval vždycky slepý.
+JOH 9:21 Ovšem nevíme, kdo ho uzdravil. Konečně, je už dospělý, ať vám to řekne sám.“
+JOH 9:22 Farizejové hrozili vyloučením z židovské obce každému, kdo by Ježíše prohlásil za Mesiáše.
+JOH 9:23 Odpověděli vyhýbavě, protože se báli.
+JOH 9:24 
+EOF;
+if (!($bfile = preg_replace("/JOH 9:20 (.+?)JOH 9:24 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 9:31 „Bůh by jistě nevyslyšel prosbu zlého člověka! Slyší jen toho, kdo ho poslouchá a ctí.
+JOH 9:32 Ještě jsem neslyšel, že by někdo uzdravil slepého od narození.
+JOH 9:33 
+EOF;
+if (!($bfile = preg_replace("/JOH 9:31 (.+?)JOH 9:33 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 11:5 Měl velmi rád obě sestry i Lazara,
+JOH 11:6 ale přesto se ještě dva dny zdržel na místě, kde ho zastihla zpráva o Lazarově nemoci.
+JOH 11:7 
+EOF;
+if (!($bfile = preg_replace("/JOH 11:5 (.+?)JOH 11:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 11:20 Ty se dověděly, že Ježíš přichází. Marie zůstala doma,
+JOH 11:21 ale Marta mu běžela vstříc se slovy: „Pane, kdybys tu byl, bratr by jistě neumřel.
+JOH 11:22 
+EOF;
+if (!($bfile = preg_replace("/JOH 11:20 (.+?)JOH 11:22 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 11:25 Ježíš jí řekl: „To já přináším vzkříšení a život. Ti, kdo ve mne uvěřili, ať zemřeli nebo ještě žijí,
+JOH 11:26 v žádném případě nezemřou navždy. Věříš tomu, Marto?“
+JOH 11:27 
+EOF;
+if (!($bfile = preg_replace("/JOH 11:24 (.+?)JOH 11:27 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 12:49 Říkám jen to, čím mne Otec pověřil,
+JOH 12:50 a moje poselství přináší věčný život. To, co vám říkám, jsou Otcova slova.“
+JOH 13:1 
+EOF;
+if (!($bfile = preg_replace("/JOH 12:49 (.+?)JOH 13:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 ACT 18:18 Pavel zůstal v Korintu ještě delší dobu. Nakonec se však rozloučil s bratry a vydal se na cestu lodí zpět do Sýrie. Spolu s ním vypluli i manželé Priscila s Akvilou, kteří se stěhovali do Efezu. Ve východním korintském přístavu si dal Pavel naposled ostříhat vlasy. Po celou cestu až do Jeruzaléma se totiž zavázal dodržovat nazírský slib (vnějšími projevy tohoto slibu bylo, že si muž nestříhal vlasy a vousy a nepil žádné opojné nápoje).
 ACT 18:19 V Efezu se Pavel rozloučil s přáteli, ale před odjezdem ještě zašel do tamní synagogy pohovořit si s židy.
 ACT 18:20 
@@ -1391,6 +1491,36 @@ ACT 18:27 Apollos se pak rozhodl jít dále do Řecka a zvěstovat Ježíše. Ef
 ACT 18:28 
 EOF;
 if (!($bfile = preg_replace("/ACT 18:26 (.+?)ACT 18:28 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ROM 1:5 Nám nehodným prokázal tu přízeň, že z nás učinil své vyslance a uložil nám vybízet lidi všech národů, aby ho uposlechli a uvěřili mu.
+ROM 1:6 K tomu jste byli mezi všemi povoláni i vy.
+ROM 1:8 
+EOF;
+if (!($bfile = preg_replace("/ROM 1:5 (.+?)ROM 1:8 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ROM 1:11 Rád bych vás osobně viděl a
+ROM 1:12 rozdělil se s vámi o povzbuzení a potěšení ze společné víry.
+ROM 1:13 
+EOF;
+if (!($bfile = preg_replace("/ROM 1:11 (.+?)ROM 1:13 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ROM 5:20 Zákon ovšem přispěl k tomu, že přestupků jen přibylo. Čím větší však odpadnutí od Boha, tím většího významu nabývá jeho milost. 
+ROM 5:21 Odpadnutí od Božího zákona přineslo člověku smrt. Bůh však nabídl člověku milost, tedy dokonalost získanou prostřednictvím Ježíše Krista, která mu opět vrací život.
+ROM 6:1 
+EOF;
+if (!($bfile = preg_replace("/ROM 5:20 (.+?)ROM 6:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ROM 16:25 Bůh vám může dát schopnost žít podle slov, která jsem vám zvěstoval. Byly vám zjeveny jeho dávné plány, dlouho skryté,
+ROM 16:26 ale nyní objasněné proroctvími, abyste je vírou poslušně přijali a podle nich žili.
+ROM 16:27 
+EOF;
+if (!($bfile = preg_replace("/ROM 16:24 (.+?)ROM 16:27 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+1CO 10:10 neprovokujte ho, jako to dělali někteří z nich; a přivolali na sebe jedovaté hady a smrt.
+1CO 10:11 Vezměme si z toho ponaučení, mnoho času nám už nezbývá.
+1CO 10:12 
+EOF;
+if (!($bfile = preg_replace("/1CO 10:10 (.+?)1CO 10:12 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 1CO 11:1 Jinak vás musím pochválit, že na mne nezapomínáte a držíte se toho, co jsem vás naučil.
 1CO 11:2 Nelíbí se mi však móda, jakou u vás některé ženy začínají pěstovat:
@@ -1440,12 +1570,202 @@ $textfix = <<<EOF
 EOF;
 if (!($bfile = preg_replace("/2CO 6:8 (.+?)2CO 6:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
+2CO 11:3 Víte přece, jak chytře dokázal satan ošálit Evu v ráji!
+2CO 11:4 A vy s takovým klidem popřáváte sluchu každému, kdo vám předkládá jiného Krista než my a vnáší mezi vás cizího ducha a rozšiřuje jakési jiné poselství, než jste slyšeli od nás.
+2CO 11:5 
+EOF;
+if (!($bfile = preg_replace("/2CO 11:3 (.+?)2CO 11:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2CO 11:11 Proč? Protože vás snad nemám rád? Bůh ví, že mám.
+2CO 11:12 Chci vám i nadále sloužit bez jakékoliv odměny, aby ti lidé nemohli tvrdit, že v naší a jejich činnosti není žádný rozdíl.
+2CO 11:13 
+EOF;
+if (!($bfile = preg_replace("/2CO 11:11 (.+?)2CO 11:13 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2CO 11:17 Jako křesťanovi by se mi to ovšem dost příčilo,
+2CO 11:18 ale jako údajný blázen si to snad mohu dovolit.
+2CO 11:19 Vy jste přece tak moudří, že umíte být i k bláznům shovívaví!
+2CO 11:20 Nevadí vám, že vás tyranizují a vydírají, že vámi pohrdají a šlapou po vás.
+2CO 11:21 Tedy ano, přiznávám, že tohle bych já nedokázal.
+2CO 11:22 
+EOF;
+if (!($bfile = preg_replace("/2CO 11:17 (.+?)2CO 11:22 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2CO 11:26 Kolikrát jsem cestoval stovky vyčerpávajících kilometrů, ohrožován rozvodněnými řekami, lupiči, vlastními soukmenovci i pohany. Smrt mi hrozila v rozběsněných davech i liduprázdných pouštích, na rozbouřeném moři i mezi falešnými bratry.
+2CO 11:27 Vím, co jsou bezesné noci a smrtelná únava, sžíravý hlad a mučivá žízeň, co je být na kost promrzlý a nemít se čím zahřát.
+2CO 11:28 A k tomu navíc neustálé starosti, jak se vede mým křesťanským obcím. Odmítl jsem snad někdy pomoc někomu, koho tížilo svědomí?
+2CO 11:29 Netrápil jsem se snad, kdykoliv někdo kolísal ve víře?
+2CO 11:30 Když už jsem tedy nucen nějak se chlubit, budu mluvit o věcech, které neslouží ke cti mně,
+2CO 11:31 nýbrž Bohu. On – věčná sláva jeho jménu – ví, že nelžu.
+2CO 11:32 
+EOF;
+if (!($bfile = preg_replace("/2CO 11:26 (.+?)2CO 11:32 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+GAL 1:4 Věčná chvála buď Bohu i Kristu Ježíši,
+GAL 1:5 který podle Boží vůle za nás obětoval svůj život a tak nás zachránil z moci zla, které ovládá tento svět.
+GAL 1:6 
+EOF;
+if (!($bfile = preg_replace("/GAL 1:4 (.+?)GAL 1:6 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+EPH 1:1 Píšu vám jako Bohem ustanovený apoštol Ježíše Krista.
+EPH 1:2 Přeji vám Boží milost a pokoj a chválím Boha za všechno požehnání,
+EPH 1:3 kterým nás obdařil z toho důvodu, že náležíme Kristu.
+EPH 1:4 Už dávno před stvořením světa rozhodl se Bůh získat si nás prostřednictvím Kristovým, aby z nás učinil své děti a přiznal nám svou dokonalost.
+EPH 1:5 Dík Bohu za jeho nekonečnou laskavost, kterou nám prokázal v osobě Ježíšově!
+EPH 1:6 Jeho milost k nám je tak nesmírná,
+EPH 1:7 že nám pro jeho oběť odpustil všechno zlé a zachránil nás od jisté smrti.
+EPH 1:8 Ve své moudrosti a prozíravosti nám odhalil svůj velkorysý záměr, který po staletí zůstával lidem ukryt,
+EPH 1:9 že totiž ve stanovenou dobu pošle svého Syna, aby nás ze všech stran, živé i mrtvé shromáždil navždy k sobě.
+EPH 1:10 A tak nás, přesně podle svého rozhodnutí, učinil svým majetkem, abychom ho chválili a oslavovali, kdo jsme svou naději upnuli ke Kristu.
+EPH 1:11 Vždyť Kristovou zásluhou jste do tohoto záměru byli zahrnuti i vy,
+EPH 1:12 když jste uslyšeli jeho poselství a uvěřili.
+EPH 1:13 
+EOF;
+if (!($bfile = preg_replace("/EPH 1:1 (.+?)EPH 1:13 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+EPH 1:19 Vždyť vše, co patří Bohu, je i vaše! A prosím i o to, abyste se přesvědčili, jak neuvěřitelně velká je moc, která ve vás působí.
+EPH 1:20 Je to táž moc, která vzkřísila Krista z mrtvých a vyzdvihla ho vysoko nad všechny krále a vlády, velitele i diktátory, až na čestné místo po pravici Boží.
+EPH 1:21 Jeho sláva nemá obdoby v minulosti ani budoucnosti.
+EPH 1:22 
+EOF;
+if (!($bfile = preg_replace("/EPH 1:19 (.+?)EPH 1:22 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+EPH 3:3 On sám mi odhalil tajemství svého plánu s Kristem;
+EPH 3:4 to jen na vysvětlenou, odkud to všechno vím.
+EPH 3:5 
+EOF;
+if (!($bfile = preg_replace("/EPH 3:3 (.+?)EPH 3:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+EPH 3:8 Když pomyslím, jak ubohý a nepatrný jsem mezi všemi křesťany – a on mě přesto vyznamenal tou zvláštní radostí, že smím pohanům přinášet poselství o nekonečném bohatství, jaké je jim v Kristově osobě darováno!
+EPH 3:9 A právě já jim smím vysvětlovat, že Bůh, Stvořitel všeho, je i jejich zachráncem.
+EPH 3:10 
+EOF;
+if (!($bfile = preg_replace("/EPH 3:8 (.+?)EPH 3:10 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 2TH 2:2 Prosím vás, nenechte si poplést hlavu pověstmi, že ten den už přichází, i kdyby to někdo tvrdil na základě nějakého prorockého vidění nebo se dokonce odvolával na nás. Nikdy jsme nic takového neřekli ani nenapsali.
 2TH 2:3 Než ten den nastane, musí dojít k velkému odpadnutí od původního Kristova učení a vystoupí člověk ztělesňující vzpouru proti Bohu a jeho zákonu.
 2TH 2:4 Ten se vyvýší nade všechno, co nese Boží jméno, a bude vyžadovat božské pocty sám pro sebe. Dokonce si přisvojí Boží trůn a představí se jako Bůh.
 2TH 2:5 
 EOF;
 if (!($bfile = preg_replace("/2TH 2:2 (.+?)2TH 2:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2TI 2:9 Jenom proto, že jsem tyto velké pravdy hlásal, jsem teď přikován ve vězení jako nějaký zločinec. Ale Boží slovo nikdo neuváže na řetěz jako mne.
+2TI 2:10 A tak to s radostí snáším pro ty, kterým chce Bůh dát záchranu a věčnou slávu v Kristu Ježíši.
+2TI 2:11 
+EOF;
+if (!($bfile = preg_replace("/2TI 2:9 (.+?)2TI 2:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+TIT 3:5 Neučinil to kvůli našim kdovíjakým zásluhám, ale ze své laskavosti a soucitu. Očistil nás od všech hříchů a udělil svého Ducha, který v nás zrodil nový život. 
+TIT 3:6 Toho Ducha jsme dostali v hojnosti zásluhou Ježíše Krista a pouze z jeho dobroty.
+TIT 3:7 Již nyní smíme mít podíl na věčném životě, který toužebně očekáváme.
+TIT 3:8 
+EOF;
+if (!($bfile = preg_replace("/TIT 3:5 (.+?)TIT 3:8 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+HEB 5:8 Ačkoliv byl Boží Syn, měl se ve škole utrpení naučit, co znamená bezvýhradná poslušnost.
+HEB 5:9 Když v té zkoušce obstál, stal se všem, kdo se mu podrobují, zdrojem trvalé ochrany.
+HEB 5:10 
+EOF;
+if (!($bfile = preg_replace("/HEB 5:8 (.+?)HEB 5:10 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+HEB 6:4 Ten, kdo byl jednou osvícen, okusil Božího daru, získal podíl na Duchu svatém, poznal,
+HEB 6:5 jak vážná je Boží věc, zakusil moc přicházejícího světa,
+HEB 6:6 
+EOF;
+if (!($bfile = preg_replace("/HEB 6:4 (.+?)HEB 6:6 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2PE 1:1 Apoštol a služebník Ježíše Krista – Šimon Petr – posílá tento dopis všem, kterým Bůh a náš zachránce Ježíš Kristus dal tutéž vzácnou víru jako nám. Přeji vám, abyste prožívali Boží dobrotivost a pokoj.
+2PE 1:2 Toho dosáhnete hlubším poznáváním Boha a Ježíše, našeho Pána.
+2PE 1:3 
+EOF;
+if (!($bfile = preg_replace("/2PE 1:1 (.+?)2PE 1:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2PE 1:5 Učiňte vše pro to, aby vás víra vedla ke správnému životu, ke stále hlubšímu poznávání Boha,
+2PE 1:6 k sebekázni, trpělivosti, naprosté oddanosti Bohu,
+2PE 1:7 k bratrské náklonnosti a křesťanské lásce.
+2PE 1:8 
+EOF;
+if (!($bfile = preg_replace("/2PE 1:5 (.+?)2PE 1:8 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2PE 1:10 Moji milí bratři, usilujte tedy o to, abyste svým křesťanským životem prokazovali, že vás Bůh zavolal a vyvolil.
+2PE 1:11 Pak nikdy nesejdete z cesty víry a Bůh vám široce otevře věčné království našeho Pána a Spasitele Ježíše Krista.
+2PE 1:12 Chci vám stále připomínat tyto věci, i když je už dávno znáte a podle nich také žijete.
+2PE 1:13 Náš Pán Ježíš Kristus mi zjevil, že můj život zde na zemi se chýlí ke konci, že brzo zemřu.
+2PE 1:14 Ale dokud jsem zde, pokládám za svou povinnost povzbuzovat vaši víru.
+2PE 1:15 
+EOF;
+if (!($bfile = preg_replace("/2PE 1:10 (.+?)2PE 1:15 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+1JO 1:1 Přinášíme a dosvědčujeme vám zvěst o tom, co bylo od počátku: o Ježíši, který je živé slovo –
+1JO 1:2 viditelný projev Otcova věčného života. Slyšeli jsme ho, viděli jsme ho, sledovali jsme ho, dotýkali jsme se ho.
+1JO 1:3 Podáváme vám o něm zprávu, abyste se s námi sjednotili, jako jsme my zajedno s Otcem a s jeho Synem Ježíšem Kristem,
+1JO 1:4 aby se tím naše radost vzájemně znásobila.
+1JO 1:5 
+EOF;
+if (!($bfile = preg_replace("/1JO 1:1 (.+?)1JO 1:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+1JO 5:2 Naše vzájemná láska prozrazuje, jak milujeme a posloucháme Boha.
+1JO 5:3 Jeho přikázání nejsou těžká, plníme-li je z lásky.
+1JO 5:4 Když posloucháme Boha jako děti, nepodléháme zlu. Vítězství v tomto zápase nám přináší víra v Ježíše Krista jako Božího Syna. Bez ní nemáme naději.
+1JO 5:5 K víře, že jsme zachráněni, nás opravňují tři skutečnosti:
+1JO 5:6 to, že se dal Ježíš pokřtít, jako by byl hříšník; to, že místo nás zemřel na kříži jako zločinec; a to, že jsme obdrželi Ducha svatého, který nám to potvrzuje.
+1JO 5:7 
+EOF;
+if (!($bfile = preg_replace("/1JO 5:2 (.+?)1JO 5:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+1JO 5:10 Kdo tedy věří v Ježíše jako v Božího Syna, dává Bohu za pravdu. Kdo Bohu nevěří, dělá z něho lháře, protože odmítá svědectví Otce o Synu.
+1JO 5:11 Kdo přijímá toto svědectví, stojí na prahu věčného života.
+1JO 5:12 Dveře nám otevřel Boží Syn. Bez něho se dovnitř nedostaneme.
+1JO 5:13 To je smysl mého dopisu, abyste měli jistotu, že věříte-li v Božího Syna, máte věčný život.
+1JO 5:14 Můžeme si však být jisti i tím, že už dnes nás slyší, když o něco prosíme v souladu s jeho vůlí.
+1JO 5:15 A nejen slyší, ale dává nám to, oč ho prosíme.
+1JO 5:16 
+EOF;
+if (!($bfile = preg_replace("/1JO 5:10 (.+?)1JO 5:16 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+1JO 5:10 Kdo tedy věří v Ježíše jako v Božího Syna, dává Bohu za pravdu. Kdo Bohu nevěří, dělá z něho lháře, protože odmítá svědectví Otce o Synu.
+1JO 5:11 Kdo přijímá toto svědectví, stojí na prahu věčného života.
+1JO 5:12 Dveře nám otevřel Boží Syn. Bez něho se dovnitř nedostaneme.
+1JO 5:13 To je smysl mého dopisu, abyste měli jistotu, že věříte-li v Božího Syna, máte věčný život.
+1JO 5:14 Můžeme si však být jisti i tím, že už dnes nás slyší, když o něco prosíme v souladu s jeho vůlí.
+1JO 5:15 A nejen slyší, ale dává nám to, oč ho prosíme.
+1JO 5:16 
+EOF;
+if (!($bfile = preg_replace("/1JO 5:10 (.+?)1JO 5:16 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2JO 1:1 Jan Boží církvi u vás a všem jejím členům. Miluji vás spolu se všemi, kdo poznali pravdu,
+2JO 1:2 která žije v našich srdcích a zůstane tu věčně.
+2JO 1:3 A nejen pravda, ale i láska, slitování a pokoj od Boha Otce i od Ježíše, jeho Syna.
+2JO 1:4 Mám radost, že někteří z vás žijí opravdu podle Božích přikázání.
+2JO 1:5 Nebude to nic nového, ale připomenu jen to, co víte už dávno:
+2JO 1:6 Milujme jedni druhé, jak nás tomu učil Ježíš Kristus.
+2JO 1:7 
+EOF;
+if (!($bfile = preg_replace("/2JO 1:1 (.+?)2JO 1:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JUD 1:20 Ale vy, moji přátelé, budujte dále na základech dokonalé víry, modlete se v Duchu svatém a zůstávejte v Boží lásce.
+JUD 1:21 Trpělivě čekejte na věčný život daný z milosti našeho Pána Ježíše Krista.
+JUD 1:22 
+EOF;
+if (!($bfile = preg_replace("/JUD 1:20 (.+?)JUD 1:22 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+REV 4:8 Každá měla tři páry křídel. Bez ustání, ve dne i v noci,
+REV 4:9 vzdávaly slávu, čest a díky tomu, který seděl na trůnu, živému od věků na věky:
+REV 4:10 
+EOF;
+if (!($bfile = preg_replace("/REV 4:8 (.+?)REV 4:10 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+REV 20:4 Na soudní stolici potom usedli soudci, lidé popravení pro věrnost Ježíšovi a Božímu slovu, kteří se neklaněli šelmě ani její soše a nepřijali znak šelmy na čelo ani na ruku. Ti nyní ožili a vládli s Kristem tisíc let. To je první vzkříšení.
+REV 20:5 Ostatní mrtví musejí počkat, dokud se nedovrší tisíciletí.
+REV 20:6 
+EOF;
+if (!($bfile = preg_replace("/REV 20:4 (.+?)REV 20:6 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+REV 20:12 A viděl jsem vzkříšené mrtvé, malé i velké, stát před tím trůnem. Byly otevřeny Knihy skutků a Kniha života a byli souzeni podle svých činů.
+REV 20:13 Moře, smrt i její říše vydaly své mrtvé. 
+REV 20:14 
+EOF;
+if (!($bfile = preg_replace("/REV 20:12 (.+?)REV 20:14 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -1956,6 +2276,18 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---English---Anderson-Bible" :
+$textfix = <<<EOF
+I Peter 1:24 For all flesh is as grass, and all the glory of man as the flower of grass; the grass withers, and its flower fails away:
+I Peter 1:25 but the word of the Lord abides forever: and this is the word which has been preached as gospel to you.
+I Peter 2:1 
+EOF;
+if (!($bfile = preg_replace("/I Peter 1:24 (.+?)I Peter 2:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Jude 1:24 Now to him that is able to keep you free from stumbling, and to present you blameless in the presence of his glory with exceeding joy,
+Jude 1:25 to the only God our Savior, be glory and majesty, strength and authority, both now and throughout all the ages. Amen. 
+Revelation of John 1:1 
+EOF;
+if (!($bfile = preg_replace("/Jude 1:24 (.+?)Revelation of John 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 Revelation of John 22:21 The grace of the Lord Jesus Christ be with all the saints.
 EOF;
@@ -4568,6 +4900,16 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---French---Free-for-the-World" :
+$textfix = <<<EOF
+1CO 1:1 
+EOF;
+if (!($bfile = preg_replace("/ROM 16:25 (.+?)1CO 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---French---French-Khan-Bible" :
@@ -5144,6 +5486,68 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Gamotso---Gamo" :
+$textfix = <<<EOF
+MAT 28:5 Kitanachay macashata baboppite inte kaqetida Yesusa koyzasa ta erays izi ha7i han bawa,
+MAT 28:6 izi kasse yotida mala hayqoppe dendidees ha yidi izi zin7idaso beyte gidees.
+MAT 28:7 
+EOF;
+if (!($bfile = preg_replace("/MAT 28:5 (.+?)MAT 28:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+MAT 28:12 Qessista halaqatikka dere cimatara shiqetidi zoretida,
+MAT 28:13 wotadaratas gidiza miish immidi nuni zin7on dishin iza kalizayti qammara yidi kaysi efida gite gida.
+MAT 28:14 
+EOF;
+if (!($bfile = preg_replace("/MAT 28:12 (.+?)MAT 28:14 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+MAT 28:18 Yesusaykka bena kalizaytakko shiqidi salonine bitta bollan godatethi tass immetidees.
+MAT 28:19 Hessa gish bidi dere wursos Aawa Na7azane Xillo Ayana suthan xamaqishe tana kalizayta oothite,
+MAT 28:20 ta intena azazidaysa wursi nagana mala tamarsitte takka alame wurseth gakanas ta intenara daysi gidees.
+MAR 1:1 
+EOF;
+if (!($bfile = preg_replace("/MAT 28:18 (.+?)MAR 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+LUK 1:5 Herdossay Yuda biittan kawottida wode Aabiya geettetiza qeessista halaqqa bagafe qeessetetha ootho taray iza gakida Zakarassa geetettiza issi qeessey dees.
+LUK 1:6 Iza machcheyaka Elsabeexxo geetetaysu, izaka Aaronne bagga asa. Nam7atika Goda azazonne iza woga wothoy bayndda naagidi dizaytanne Xoossa sinthan xillo asa.
+LUK 1:7 
+EOF;
+if (!($bfile = preg_replace("/LUK 1:5 (.+?)LUK 1:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+LUK 1:46 Maaramakka izi ba aylleyi kawushshatetha xellida gish ta shemppiya Goda dhoqqu oothada bonchaysu.
+LUK 1:47 Ta ayanaykka tana ashshizza ta Xoossan ufa7istaysu.
+LUK 1:48 Wolqqama Goday taas giita miishshe oothida gish hachchife sinthan asi wuri tana anjjettidaro gaana.
+LUK 1:49 Iza sunthaykka geeshsha.
+LUK 1:50 
+EOF;
+if (!($bfile = preg_replace("/LUK 1:46 (.+?)LUK 1:50 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+LUK 1:54 Kase nu aawatas Abramesinne iza qommotas gida qaala naaganas
+LUK 1:55 ba maaretetha yushi qoppidi ba aylle Isra7eele maaddides gadus.
+LUK 1:56 
+EOF;
+if (!($bfile = preg_replace("/LUK 1:54 (.+?)LUK 1:56 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+LUK 1:69 Beni wode ba geeshsha nabeta duunan haasa7ettidayssa mala
+LUK 1:70 ba aylle Daawute keeththan ashshizza woliqqa nuus denthides.
+LUK 1:71 
+EOF;
+if (!($bfile = preg_replace("/LUK 1:69 (.+?)LUK 1:71 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+LUK 1:73 Kase nu aawa Abrames caaqqidayssa qopana malane,
+LUK 1:74 nu morketa kusheppe izi nuna kessin nuni izas babboy baayndda oothanasinne,
+LUK 1:75 nu diza wode wurson ba sinthan nuna geeshshatethanne xillotethan essanassa.
+LUK 1:76 
+EOF;
+if (!($bfile = preg_replace("/LUK 1:73 (.+?)LUK 1:76 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+1JO 5:16 Oonikka ba ishay bena hayqqos
+1JO 5:17 gathonta nagara oothishin beyikko izas woosso.
+1JO 5:18 Xoossikka hayqos gathonta
+1JO 5:19 nagara oothidaytas deyo imana.
+1JO 5:20 Hayqos gathiza nagaraykka dees.
+1JO 5:21 Hayqos gaathiza nagara gish woso giike.
+2JO 1:1 
+EOF;
+if (!($bfile = preg_replace("/1JO 5:16 (.+?)2JO 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile .= "REV 22:1 (note: chapter missing)";
 goto RAWHIDE;
 
@@ -5156,6 +5560,12 @@ Mark 16:20 Sie zogen aus und predigten überall. Dabei stand ihnen der Herr zur 
 Luke 1:1 
 EOF;
 if (!($bfile = preg_replace("/Mark 16:20 (.+?)Luke 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Ephesians 3:20 Ihm aber, der durch seine Kraft, die in uns wirksam ist, unendlich mehr zu tun vermag, als wir bitten und verstehen,
+Ephesians 3:21 ihm sei Ehre in der Kirche und in Christus Jesus bis in alle Geschlechter der endlosen Zeiten der zukünftigen Welt! Amen.
+Ephesians 4:1 
+EOF;
+if (!($bfile = preg_replace("/Ephesians 3:20 (.+?)Ephesians 4:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -6982,6 +7392,17 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Gofa---Gofa-Bible" :
+$blockfix = <<<EOF
+JOH 3:14 Musey bazzo biittan biraata shooshi kaqqidayssada tana ammanida
+JOH 3:15 ubbay merinaa de7uwa ekkana mela Asa Na7ay dhoqqu gaanaw bessees.
+JOH 3:16 
+EOF;
+if (!($bfile = preg_replace("/JOH 3:14 (.+?)JOH 3:16 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Gourma---Gourma-Bible" :
@@ -7020,6 +7441,12 @@ goto RAWHIDE;
 case "Holy-Bible---Gourmantche---Gourmantche-Bible" :
 if (!($bfile = preg_replace("/([A-Z0-9]{3} \d+:\d+ )\d+/us",'$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
+$textfix = <<<EOF
+1CO 8:12 A ya biidi a naataani ke gɔa biid bi pala, a biidi jesu n yeni.
+1CO 8:13 Lani cedi mi jiema po ya ba cedi nilo n ba ti biidin nni, n kan di lan jiema k da tua tantudli n naataanu po.
+1CO 9:1 
+EOF;
+if (!($bfile = preg_replace("/1CO 8:12 (.+?)1CO 9:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -7036,6 +7463,7 @@ Romans 15:1
 EOF;
 if (!($bfile = preg_replace("/Romans 14:23 (.+?)Romans 15:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
+
 
 
 
@@ -7162,11 +7590,18 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Greek---Greek-SBL" :
+if (!($bfile = preg_replace("/‘[ a-zA-Z\/]+’/us"," ",$bfile,-1,$rnum)) || $rnum!=45) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
+
+
 
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Gujarati---Gujarati-Bible" :
-$bfile_saved = $bfile;
 $textfix = <<<EOF
 LUK 1:69 તેમણે પોતાના સેવક દાઉદના કુળમાં, આપણે સારુ એક પરાક્રમી ઉદ્ધારનાર આપ્યા છે,
 LUK 1:70 ( જગતના પહેલાથી ઈશ્વરે પવિત્ર પ્રબોધકોના મુખથી કહ્યું હતું તે પ્રમાણે, ),
@@ -7182,6 +7617,7 @@ goto RAWHIDE;
 case "Holy-Bible---Haitian---Haitian-Creole-Bible" :
 if (!($bfile = preg_replace("/\([0]+/us","(",$bfile,-1,$rnum)) || $rnum!=1714) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/\(\d+:\d+[\-]*\)/us"," ",$bfile,-1,$rnum)) || $rnum!=1058) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
 $textfix = <<<EOF
 GEN 5:23 Li te gen twasanswasannsenkan (0365 an) lè l' disparèt, paske Bondye te pran l' avè l'.
 GEN 5:24 Enòk te pase tout vi l' ap mache byen ak Bondye.
@@ -7266,8 +7702,31 @@ HEB 7:3 जिब अब्राहम नै चार राजां की 
 HEB 7:4 
 EOF;
 if (!($bfile = preg_replace("/HEB 7:1 (.+?)HEB 7:4 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+HEB 13:20 अर इब शान्तिदाता परमेसवर, जिसनै म्हारै प्रभु यीशु ताहीं मुर्दा म्ह तै जिन्दा करया, वो थारे ताहीं सब कुछ दे, जो उसकी इच्छा पूरी करण खात्तर चाहिये सै, परमेसवर यीशु मसीह की शक्ति के जरिये वो सब थारे म्ह पूरा करै, जो उस ताहीं खुशी दे सकै सै, यीशु मसीह भेड्डां का महान् रुखाळा सै, उसनै अपणे लहू कै जरिये सदा के करार नै स्थापित करया सै,
+HEB 13:21 उस ताहीं सदा महिमा मिलती रहवै। आमीन।
+HEB 13:22 
+EOF;
+if (!($bfile = preg_replace("/HEB 13:20 (.+?)HEB 13:22 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JUD 1:24 वो एकमात्र सच्चा परमेसवर सै, जो थमनै ठोक्कर खाण तै बचा सकै सै, अर वो थमनै बेकसूर अर मगन करकै अपणे महिमा म्ह अपणे स्याम्ही खड्या करैगा। जो प्रभु यीशु मसीह नै म्हारे खात्तर करया, उसकै जरिये परमेसवर नै म्हारे ताहीं बचाया सै।
+JUD 1:25 म्हारा प्रभु यीशु मसीह माणसां म्ह, परमेसवर की तारीफ करण का कारण बणा, ताके वो पिच्छाण सकै, के शरुआत तै, इब अर सदा कै खात्तर शक्ति अर अधिकार उस्से का सै। आमीन।
+REV 1:1 
+EOF;
+if (!($bfile = preg_replace("/JUD 1:24 (.+?)REV 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+REV 7:1 उसकै पाच्छै मन्नै दुनिया कै च्यारु कुणयां पै चार सुर्गदूत खड़े देक्खे, उन सुर्गदूत्तां नै परमेसवर तै यो हक मिल्या था, के वे दुनिया के माणसां ताहीं मरी तै मारै, चाहे वे धरती पै हो या समुन्दर पै हो, उननै हवा ताहीं धरती के च्यारु कुणयां पै तै रोक राख्या था, ताके हवा धरती, समुन्दर, या किसी भी जंगल तै ना गुजरे,
+REV 7:2 अर मन्नै एक और सुर्गदूत ताहीं पूरब दिशा की ओड़ आन्दे देख्या, उसके हाथ म्ह परमेसवर की ओड़ तै एक मोंहर थी, जो युगानुयुग जिन्दा सै, उस सुर्गदूत नै ऊँच्ची आवाज म्ह दुसरे चार सुर्गदूत्तां तै यो कह्या।
+REV 7:3 
+EOF;
+if (!($bfile = preg_replace("/REV 7:1 (.+?)REV 7:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+REV 7:11 अर सारे सुर्गदूत, उस सिंहासन, बुजुर्गां अर च्यारु प्राणियाँ कै चौगरदेकै खड़े सै, फेर वे सिंहासन कै स्याम्ही मुँह कै बळ पड़गे, अर परमेसवर ताहीं प्रणाम करकै कह्या, म्हारै परमेसवर की बड़ाई,
+REV 7:12 महिमा, ज्ञान, धन्यवाद, आदर, सामर्थ, अर ताकत युगानुयुग बणी रहवै। आमीन।
+REV 7:13 
+EOF;
+if (!($bfile = preg_replace("/REV 7:11 (.+?)REV 7:13 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
-
 
 
 
@@ -7337,6 +7796,8 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Hungarian---Hungarian-Jewish-Bible" :
+if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )[\d.]+/mus",'$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
 $textfix = <<<EOF
 Lamentations 4:1 Jaj! de meghomályosodott az arany, elváltozott a szép színarany, kiszórattak a szent hely kövei minden utcza szegletére. 
 Lamentations 4:2 Sionnak drága fiait, a kik becsesebbek valának mint a színarany, cserépedénynek tekintették, a fazekas munkájának. 
@@ -7363,8 +7824,6 @@ Lamentations 4:22 Eltörültetik a te álnokságod, oh Sion leánya, nem fog té
 Lamentations 5:1 
 EOF;
 if (!($bfile = preg_replace("/Lamentations 4:1 (.+?)Lamentations 5:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )[\d.]+/mus",'$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$bfile_saved = $bfile;
 goto RAWHIDE;
 
 
@@ -7569,12 +8028,94 @@ MAT 8:10
 EOF;
 if (!($bfile = preg_replace("/MAT 8:8 (.+?)MAT 8:10 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
+MAT 12:31 Háð gegn mér er unnt að fyrirgefa og einnig allar aðrar syndir, nema eina: Lastmæli gegn heilögum anda verður aldrei fyrirgefið,
+MAT 12:32 hvorki í þessum heimi né hinum komandi.
+MAT 12:33 
+EOF;
+if (!($bfile = preg_replace("/MAT 12:31 (.+?)MAT 12:33 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 LUK 7:6 Jesús fór með þeim. Rétt áður en þeir komu að húsinu sendi höfuðsmaðurinn vini sína til Jesú með þessi skilaboð: „Herra, vertu ekki að ómaka þig með að koma inn til mín, því ég er hvorki verður þess að hitta þig né hafa þig sem gest.
 LUK 7:7 Segðu það aðeins með orði, þar sem þú ert staddur, og þá mun þræll minn læknast.
 LUK 7:8 Ég skil þig vel, því sjálfur þarf ég að hlýða æðri herforingjum, en hef síðan vald yfir mínum undirmönnum. Ég þarf aðeins að segja við þá: „Farið“ og þá fara þeir, eða: „Komið“ og þeir koma. Við þræl minn segi ég: „Gerðu þetta“ og hann hlýðir. Segðu því bara: „Læknist þú“ og þá mun þræll minn verða heilbrigður.“
 LUK 7:9 
 EOF;
 if (!($bfile = preg_replace("/LUK 7:6 (.+?)LUK 7:9 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+LUK 20:27 Þá komu til hans nokkrir saddúkear. Þeir trúa hvorki á líf eftir dauðann né upprisu. Þeir sögðu:
+LUK 20:28 „Lög Móse segja að deyi maður barnlaus, þá eigi bróðir hans að kvænast ekkjunni og börn þeirra skulu teljast börn látna mannsins og bera nafn hans.
+LUK 20:29 
+EOF;
+if (!($bfile = preg_replace("/LUK 20:27 (.+?)LUK 20:29 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+LUK 20:34 „Hjónabandið er fyrir þá sem lifa á jörðinni,“ svaraði Jesús,
+LUK 20:35 „en þeir sem verðskulda guðsríki ganga ekki í hjónaband við upprisuna,
+LUK 20:36 og þeir munu aldrei deyja. Þeir eru synir Guðs og eru eins og englarnir. Þeir hafa risið upp frá dauðum til nýs lífs.
+LUK 20:37 Hvers vegna efist þið um upprisuna? Sjálfur Móse talar um hana. Hann lýsir því hvernig Guð birtist honum í brennandi runna. Hann talar um að Guð sé „Guð Abrahams, Guð Ísaks og Guð Jakobs.“
+LUK 20:38 Ef við segjum að Drottinn sé Guð einhvers manns, þá þýðir það að sá maður er lifandi en ekki dauður! Því Guð er sá sem gefur lífið.“
+LUK 20:39 
+EOF;
+if (!($bfile = preg_replace("/LUK 20:34 (.+?)LUK 20:39 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+LUK 20:42 Davíð sagði í Sálmunum: „Guð sagði við minn Drottin: „Sittu mér til hægri handar,
+LUK 20:43 þar til ég legg óvini þína að fótum þér.“ “
+LUK 20:44 
+EOF;
+if (!($bfile = preg_replace("/LUK 20:42 (.+?)LUK 20:44 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 6:2 og fylgdi honum gífurlegur mannfjöldi. Margt af þessu fólki var pílagrímar á leið til Jerúsalem á páskahátíðina,
+JOH 6:3 en það langaði til að sjá Jesú lækna hina sjúku og því fylgdi það honum hvert fótmál.
+JOH 6:4 Jesús gekk upp á fjallið ásamt lærisveinum sínum og settist, og sá þá að mannfjöldinn var að koma.
+JOH 6:5 Hann sneri sér að Filippusi og sagði: „Filippus, hvar getum við keypt brauð til að gefa fólkinu að borða?“
+JOH 6:6 
+EOF;
+if (!($bfile = preg_replace("/JOH 6:2 (.+?)JOH 6:6 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 6:8 Þá sagði Andrés, bróðir Símonar Péturs:
+JOH 6:9 „Hér er ungur drengur með fimm byggbrauð og tvo fiska, en það dugar að vísu skammt handa öllum þessum fjölda.“
+JOH 6:10 
+EOF;
+if (!($bfile = preg_replace("/JOH 6:8 (.+?)JOH 6:10 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 6:18 En á leiðinni hvessti skyndilega svo vatnið varð mjög úfið.
+JOH 6:19 Þeir höfðu róið um sex kílómetra þegar þeir sáu Jesú koma gangandi í átt til sín. Þeir urðu skelkaðir,
+JOH 6:20 
+EOF;
+if (!($bfile = preg_replace("/JOH 6:18 (.+?)JOH 6:20 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 6:22 Morguninn eftir fór fólkið að safnast saman á ströndinni hinum megin vatnsins (í von um að hitta Jesú), því það vissi að hann hafði komið þangað með lærisveinum sínum, og að lærisveinarnir höfðu síðan farið á sínum bát, en skilið Jesú eftir.
+JOH 6:23 Þarna voru margir smábátar frá Tíberías.
+JOH 6:24 
+EOF;
+if (!($bfile = preg_replace("/JOH 6:22 (.+?)JOH 6:24 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 6:30 „Þá verður þú að sýna okkur fleiri kraftaverk, ef þú vilt að við trúum því að þú sért Kristur,“ svaraði fólkið.
+JOH 6:31 „Gefðu okkur ókeypis brauð á hverjum degi eins og forfeður okkar fengu á leið sinni yfir eyðimörkina. Það stendur í Biblíunni að Móse hafi gefið þeim brauð frá himni.“
+JOH 6:32 
+EOF;
+if (!($bfile = preg_replace("/JOH 6:30 (.+?)JOH 6:32 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 6:48 Ég er brauð lífsins!
+JOH 6:49 Það var ekkert líf í brauðinu sem féll af himni og forfeður ykkar átu í eyðimörkinni – þeir dóu allir um síðir.
+JOH 6:50 Það er aðeins til eitt himneskt brauð og þeir sem þess neyta munu ekki deyja.
+JOH 6:51 Ég er þetta lifandi brauð, sem kom niður af himni, og sá sem neytir þess mun lifa að eilífu. Þetta brauð er ég sjálfur – hold mitt sem gefið er heiminum til lífs.“
+JOH 6:52 
+EOF;
+if (!($bfile = preg_replace("/JOH 6:48 (.+?)JOH 6:52 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 14:2 Heima hjá föður mínum eru margar vistarverur og ég ætla að búa þær undir komu ykkar.
+JOH 14:3 Þegar allt er reiðubúið, kem ég aftur og sæki ykkur, svo að þið getið verið hjá mér alla tíð. Ef þessu væri öðruvísi varið, hefði ég sagt ykkur það.
+JOH 14:4 
+EOF;
+if (!($bfile = preg_replace("/JOH 14:2 (.+?)JOH 14:4 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 14:12 Ég segi ykkur satt: Sá sem á mig trúir, mun gera sömu kraftaverk og þau sem ég gerði, og jafnvel enn meiri, því að ég fer til föðurins.
+JOH 14:13 Hvað sem þið biðjið föðurinn um, mun ég gera ef þið biðjið hann um það í mínu nafni. Allt það sem ég, sonurinn, geri fyrir ykkur, verður föður mínum til vegsemdar.
+JOH 14:14 Biðjið um hvað sem þið viljið og notið nafn mitt, og þá mun ég svara bæn ykkar.
+JOH 14:15 Ef þið elskið mig, hlýðið þá orðum mínum.
+JOH 14:16 Ég mun biðja föðurinn og hann mun gefa ykkur annan hjálpara, sem aldrei yfirgefur ykkur.
+JOH 14:17 
+EOF;
+if (!($bfile = preg_replace("/JOH 14:12 (.+?)JOH 14:17 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 ROM 2:12 Guð mun refsa fyrir synd, hvar sem hún finnst. Hann mun refsa heiðingjunum þegar þeir syndga, jafnvel þótt þeir hafi aldrei þekkt hin skráðu lög Guðs, því að innra með sér þekkja þeir muninn á réttu og röngu.
 ROM 2:13 Lög Guðs eru skráð í vitund þeirra. Stundum dæmir samviskan þá og stundum afsakar hún þá.
@@ -7618,11 +8159,48 @@ GAL 4:26
 EOF;
 if (!($bfile = preg_replace("/GAL 4:24 (.+?)GAL 4:26 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
+HEB 6:4 Ef þið hafið snúið baki við Drottni eftir að hafa öðlast skilning á gleðiboðskapnum, fengið forsmekkinn af gæðum himnanna, öðlast hlutdeild í heilögum anda,
+HEB 6:5 reynt blessunina af orði Guðs og fundið mátt hins komandi heims, þá er þýðingarlaust að reyna að leiða ykkur aftur til Drottins.
+HEB 6:6 Þið getið ekki iðrast á ný, ef þið hafið krossfest son Guðs í annað sinn með því að hafna honum og hæða hann í allra áheyrn.
+HEB 6:7 
+EOF;
+if (!($bfile = preg_replace("/HEB 6:4 (.+?)HEB 6:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+HEB 13:20 Guð friðarins, sem vakti Drottin Jesú upp frá dauðum, annist allar þarfir ykkar, svo að þið getið gert vilja hans. Ég bið hann, hinn mikla hirði sauðanna, sem undirritaði eilífan sáttmála milli ykkar og Guðs með blóði sínu,
+HEB 13:21 að hann fullkomni ykkur í öllu góðu fyrir kraft Krists, svo að þið gerið hans vilja og séuð honum þóknanleg. Honum sé dýrðin að eilífu. Amen.
+HEB 13:22 
+EOF;
+if (!($bfile = preg_replace("/HEB 13:20 (.+?)HEB 13:22 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+HEB 13:24 Skilið kveðjum frá mér til leiðtoga ykkar og annarra trúaðra. Mennirnir frá Ítalíu, sem hér eru ásamt mér, senda ykkur kærar kveðjur.
+HEB 13:25 Náð Guðs sé með ykkur öllum. Amen.
+JAM 1:1 
+EOF;
+if (!($bfile = preg_replace("/HEB 13:24 (.+?)JAM 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 2PE 3:15 Munið hvers vegna hann bíður. Hann gerir það til þess að við getum flutt hjálpræðisboðskap hans út til allra manna. Páll, hinn elskaði og skynsami bróðir okkar, hefur rætt um þetta í mörgum bréfa sinna.
 2PE 3:16 Sumt af því sem hann segir er torskilið, og til eru menn, sem af ásettu ráði hegða sér heimskulega og vilja snúa út úr því sem hann segir. Þeir hafa mistúlkað bréf hans svo hrapallega að þau fá allt aðra merkingu en til var ætlast og þannig fara þeir með margt annað í Biblíunni. Afleiðingin er sú að þeir leiða tortímingu yfir sjálfa sig.
 2PE 3:17 
 EOF;
 if (!($bfile = preg_replace("/2PE 3:15 (.+?)2PE 3:17 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JUD 1:24 Dýrð sé Guði, því að hann einn er Guð og hann frelsar okkur með hjálp Jesú Krists, Drottins okkar.
+JUD 1:25 Honum tilheyrir dýrð, hátign, máttur og vald frá upphafi, í dag og um ókomna tíma. Hann er þess megnugur að varðveita ykkur frá hrösun og leiða ykkur fagnandi, lýtalaus og heilög inn í dýrð sína. Amen. Júdas.
+REV 1:1 
+EOF;
+if (!($bfile = preg_replace("/JUD 1:24 (.+?)REV 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+REV 1:17 Við þessa sýn féll ég að fótum hans sem dauður væri, en þá lagði hann hægri hönd sína á mig og sagði: „Vertu ekki hræddur. Ég er hinn fyrsti og hinn síðasti!
+REV 1:18 Ég var lifandi, síðan dó ég, en nú lifi ég að eilífu. Óttastu ekki, ég hef lykla dauðans og heljar!
+REV 1:19 
+EOF;
+if (!($bfile = preg_replace("/REV 1:17 (.+?)REV 1:19 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+REV 20:2 Hann greip drekann, gamla höggorminn, djöfulinn, – Satan – hlekkjaði hann
+REV 20:3 og fleygði honum í botnlausa hyldýpið. Síðan lokaði hann því og læsti og þar varð Satan að dúsa í þúsund ár. Þetta gerði engillinn til þess að Satan gæti ekki leitt þjóðirnar afvega fyrr en að þessum þúsund árum liðnum, en þá átti að láta hann lausan í stuttan tíma.
+REV 20:4 
+EOF;
+if (!($bfile = preg_replace("/REV 20:2 (.+?)REV 20:4 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -7650,6 +8228,185 @@ EOF;
 if (!($bfile = preg_replace("/Gen.44:30 (.+?)Gen.44:32 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Indonesian---Simple" :
+$textfix = <<<EOF
+2SA 22:5 Ketika aku merasa seperti akan tenggelam dalam ombak-ombak laut,
+2SA 22:6 seperti tertangkap dan terikat untuk dibuang ke dalam Syeol,
+2SA 22:7 
+EOF;
+if (!($bfile = preg_replace("/2SA 22:5 (.+?)2SA 22:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PRO 1:11 Orang jahat berkata, “Bergabunglah dengan kami. Kita akan membagi rata semua harta yang kita rampas!
+PRO 1:12 Kita akan menelan mereka hidup-hidup, seakan melempar mereka bulat-bulat ke dalam Syeol.
+PRO 1:13 Rumah-rumah kita akan penuh dengan hasil jarahan! Mari kita mengintai orang dan menyerang mereka diam-diam lalu merampas seluruh harta benda mereka!
+PRO 1:14 Tak usah pikirkan alasannya. Musnahkan saja walau mereka tak bersalah.”
+PRO 1:15 
+EOF;
+if (!($bfile = preg_replace("/PRO 1:11 (.+?)PRO 1:15 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PRO 1:17 Namun, sesungguhnya keserakahan mereka bagai perangkap yang akan membunuh mereka sendiri.
+PRO 1:18 Burung pun tidak akan masuk perangkap kalau melihat jaring dipasang di depan matanya, tetapi orang-orang semacam itu memasang jerat untuk diri sendiri.
+PRO 1:19 Perbuatan mereka seperti senjata makan tuan.
+PRO 1:20 
+EOF;
+if (!($bfile = preg_replace("/PRO 1:17 (.+?)PRO 1:20 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PRO 1:26 Kelak malapetaka akan menyerbu kalian seperti badai dan angin topan, dan bencana yang kalian takutkan akan menimpamu sehingga kalian sangat terjepit dan menderita.
+PRO 1:27 Pada saat itu aku akan tertawa getir atasmu, karena sebelumnya kalian tidak mau mendengar ajaranku yang dapat menyelamatkanmu.
+PRO 1:28 
+EOF;
+if (!($bfile = preg_replace("/PRO 1:26 (.+?)PRO 1:28 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JON 2:1 Dari dalam perut ikan itu, Yunus berdoa kepada Allah-nya.
+JON 2:2 Katanya, “Ya TUHAN, seperti penulis Mazmur berkata, ‘Waktu aku dalam kesusahan besar, aku berseru kepada-Mu minta tolong, dan Engkau sudah menjawab aku! Ketika aku berada jauh dan seperti sudah dalam kuburan, aku berseru kepada-Mu, dan Engkau pernah mendengar seruanku dan menyelamatkanku.
+JON 2:3 
+EOF;
+if (!($bfile = preg_replace("/JON 2:1 (.+?)JON 2:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ROM 10:6 Tetapi sebenarnya manusia dapat dibenarkan di mata Allah hanya dengan percaya penuh kepada Kristus. Hal itu sesuai dengan perintah Allah dalam Kitab Suci, “Kalian tidak perlu naik sampai ke langit yang tertinggi ataupun turun sampai ke dasar bumi yang terdalam.” Karena sesungguhnya perintah itu berbicara tentang Kristus.
+ROM 10:7 Maksudnya, “Kalian tidak perlu mencari jalan sampai ke surga untuk bisa menurunkan Kristus ke dunia ini agar Dia menolong kalian. Dan kalian juga tidak perlu turun sampai ke dunia orang mati untuk membawa Kristus naik ke sini. Sebab Kristus sudah dekat dengan kita.”
+ROM 10:8 
+EOF;
+if (!($bfile = preg_replace("/ROM 10:6 (.+?)ROM 10:8 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ROM 12:1 Berdasarkan semua yang sudah saya jelaskan sebelumnya tentang berbagai cara Allah berbaik hati kepada kita, maka sudah sepantasnya kita membalas kebaikan hati-Nya itu!
+ROM 12:2 Janganlah lagi kamu mengikuti cara hidup berdosa yang sudah menjadi kebiasaan orang-orang duniawi. Tetapi hendaklah kamu mengambil keputusan seperti ini, “Ya TUHAN, aku mempersembahkan tubuhku sebagai kurban bagi-Mu!”— walaupun sebenarnya kamu masih hidup. Keputusan itu merupakan persembahan yang suci dan menyenangkan hati TUHAN. Dia akan memperbarui pikiranmu masing-masing, sehingga kamu bisa mengetahui apa kehendak-Nya bagimu dan apa yang terbaik dalam setiap keadaan. Kamu semua akan dimampukan untuk mengerti dan memilih apa yang baik, yang paling tepat, dan yang menyenangkan hati TUHAN.
+ROM 12:3 
+EOF;
+if (!($bfile = preg_replace("/ROM 12:1 (.+?)ROM 12:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ROM 12:4 Karena setiap orang yang bersatu dengan Kristus merupakan anggota tubuh Kristus. Dan tubuh Kristus bisa digambarkan seperti tubuh manusia: Satu tubuh mempunyai banyak anggota, dan setiap anggota mempunyai tugasnya sendiri-sendiri.
+ROM 12:5 Begitu jugalah dengan kita. Biarpun banyak, kita masing-masing adalah anggota dari satu tubuh, yaitu tubuh Kristus. Jadi, kita semua berkaitan satu sama lain.
+ROM 12:6 
+EOF;
+if (!($bfile = preg_replace("/ROM 12:4 (.+?)ROM 12:6 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ROM 14:24 Terpujilah Allah! Hanya Dialah yang sanggup menjagamu supaya tetap berdiri teguh di atas ajaran Kristus Yesus dan Kabar Baik yang saya beritakan. Sudah lama Kabar itu tersembunyi karena Allah yang kekal merahasiakannya dari zaman ke zaman, tetapi sekarang Dia sudah menyatakannya.
+ROM 14:25 Dan Dia memerintahkan agar tulisan para nabi diberitakan kepada segala bangsa, supaya setiap orang dapat mengerti Kabar Baik serta menaati dan mempercayainya.
+ROM 14:26 Allah kita penuh hikmat. Untuk selamanya berikanlah kemuliaan kepada Allah kita melalui Kristus Yesus! Amin.
+ROM 15:1 
+EOF;
+if (!($bfile = preg_replace("/ROM 14:24 (.+?)ROM 15:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+1CO 1:1 
+EOF;
+if (!($bfile = preg_replace("/ROM 16:25 (.+?)1CO 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+1TI 6:3 Kalau ada orang yang mengajarkan ajaran yang salah, berarti orang itu sombong dan tidak tahu apa-apa. Yang saya maksud ‘ajaran yang salah’ adalah segala ajaran yang bertentangan dengan ajaran benar dari Tuhan kita Kristus Yesus, dan yang tidak memimpin kepada hidup yang memuliakan Allah.
+1TI 6:4 Orang-orang yang mengajarkan ajaran sesat seperti itu senang berdebat dan bertengkar tentang hal-hal yang tidak penting, seperti perbedaan kecil dalam arti istilah-istilah. Perdebatan seperti itu hanya menimbulkan iri hati, perpecahan, fitnah, dan saling curiga.
+1TI 6:5 
+EOF;
+if (!($bfile = preg_replace("/1TI 6:3 (.+?)1TI 6:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+1TI 6:18 Nasihatilah juga mereka supaya berusaha menjadi kaya di mata Allah, yaitu murah hati, suka memberi, dan menggunakan hartanya untuk mengerjakan segala perbuatan yang baik.
+1TI 6:19 Dengan berbuat begitu, mereka sama dengan menabung harta di surga sebagai bekal untuk kehidupan yang akan datang. Jadi, mereka mengarahkan tujuannya pada hidup yang kekal.
+1TI 6:20 
+EOF;
+if (!($bfile = preg_replace("/1TI 6:18 (.+?)1TI 6:20 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2TI 1:1 Kepada Timotius, anakku yang terkasih. Salam sejahtera dari saya Paulus, yang menjadi rasul Kristus Yesus karena kehendak Allah. Kiranya kamu senantiasa hidup tenang dan menikmati kebaikan serta kemurahan dari Allah Bapa dan Kristus Yesus Penguasa kita.
+2TI 1:2 Sebagai rasul, saya ditugaskan untuk memberitakan tentang hidup kekal yang sudah dijanjikan Allah. Hidup kekal itu kita peroleh karena bersatu dengan Kristus Yesus.
+2TI 1:3 
+EOF;
+if (!($bfile = preg_replace("/2TI 1:1 (.+?)2TI 1:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2TI 1:16 Hal itu membuat saya merindukan Onesiforus! Dia selalu menghibur dan menguatkan saya.
+2TI 1:17 Kamu pasti ingat betapa banyaknya dia menolong saya ketika kita bersama di Efesus. Lalu waktu saya dipenjara di Roma, dia mencari saya ke sana kemari sampai menemukan saya.
+2TI 1:18 Dia tidak malu mengunjungi dan menghibur saya. Ah, kiranya TUHAN bermurah hati kepadanya pada Hari Pengadilan dan memberkati keluarga Onesiforus dengan kemurahan hati-Nya.
+2TI 2:1 
+EOF;
+if (!($bfile = preg_replace("/2TI 1:16 (.+?)2TI 2:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+TIT 1:1 Kepada Titus, yang sudah saya anggap seperti anakku sendiri karena keyakinan kita yang sama pada Tuhan Yesus.
+TIT 1:2 Salam sejahtera dari saya, Paulus, hamba Allah dan rasul Kristus Yesus. Kiranya kamu senantiasa hidup tenang dan menikmati kebaikan serta kemurahan dari Allah Bapa dan Kristus Yesus, Penguasa serta Penyelamat kita.
+TIT 1:3 Anakku, Allah yang tidak pernah berdusta sudah menjanjikan hidup kekal bagi manusia sebelum dunia diciptakan. Lalu pada waktu yang tepat, Allah, yang juga Penyelamat kita, menyatakan hidup kekal itu kepada dunia melalui Kabar Baik. Kabar itulah yang Dia percayakan kepada saya untuk diberitakan.
+TIT 1:4 Sebagai rasul-Nya, saya juga ditugaskan untuk menolong umat Allah supaya semakin percaya kepada Kristus serta mengetahui ajaran yang benar dari Allah. Perintah-Nya itu saya kerjakan dengan penuh pengharapan, karena saya yakin akan menerima hidup yang kekal.
+TIT 1:5 
+EOF;
+if (!($bfile = preg_replace("/TIT 1:1 (.+?)TIT 1:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+HEB 6:4 Hati-hatilah! Jangan sampai ada di antara kalian yang kembali pada kehidupan yang gelap! Karena orang yang seperti itu tidak mungkin kita bimbing kembali untuk bertobat seperti ketika dia baru mengikut Kristus. Dia sudah pernah menerima kebaikan hati Allah melalui Yesus dan sudah mengalami pertolongan Roh Kudus.
+HEB 6:5 Dia juga sudah mencicipi indahnya Firman Allah serta kemampuan-kemampuan rohani yang akan kita nikmati pada zaman yang akan datang. Kalau orang seperti itu meninggalkan Kristus, tidak mungkin dia bertobat lagi. Karena ketika dia meninggalkan Kristus, dia seakan menginjak-injak Anak Allah di muka umum.
+HEB 6:6 Bila orang seperti itu hendak bertobat, dia seolah menyuruh Yesus, “Salibkanlah diri-Mu sekali lagi bagiku, supaya Engkau menebus dosa-dosa yang aku perbuat selama meninggalkan Engkau!”
+HEB 6:7 
+EOF;
+if (!($bfile = preg_replace("/HEB 6:4 (.+?)HEB 6:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+HEB 6:13 Abraham adalah contoh bagi kita. Allah berjanji kepadanya dengan “bersumpah demi diri-Nya sendiri,” sewaktu Allah berkata, “Aku bersumpah demi diri-Ku sendiri: Aku sungguh-sungguh berjanji akan memberkatimu dan memberikan banyak keturunan kepadamu.”
+HEB 6:14 Sesudah menunggu dengan sabar dan penuh keyakinan, Abraham pun menerima janji Allah itu. Yang membuat dia yakin akan janji tersebut adalah karena Allah menguatkan janji-Nya dengan “bersumpah demi diri-Nya sendiri.”
+HEB 6:15 Memang tidak ada yang lebih besar daripada Allah. Itulah sebabnya Dia menguatkan janji-Nya atas nama diri-Nya sendiri.
+HEB 6:16 
+EOF;
+if (!($bfile = preg_replace("/HEB 6:13 (.+?)HEB 6:16 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+HEB 6:19 Biarlah harapan itu berfungsi seperti jangkar yang mengamankan diri kita, supaya kita terpancang kuat dan tidak terbawa oleh arus apa pun. Karena Pengharapan kita yang sebenarnya adalah Yesus sendiri. Dia sudah membuka jalan bagi kita ke dalam ruang mahakudus di rumah Allah di surga.
+HEB 6:20 Jadi, sekarang kita bisa langsung mendekat kepada-Nya melalui doa, karena Yesus sudah bertugas sebagai Imam Agung bagi kita untuk selama-lamanya, sesuai dengan pola Imam Melkisedek.
+HEB 7:1 
+EOF;
+if (!($bfile = preg_replace("/HEB 6:19 (.+?)HEB 7:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+HEB 7:13 Maksud saya, Tuhan kita Yesus tidak berasal dari suku Lewi, tetapi suku Yehuda.
+HEB 7:14 Orang-orang dari suku Yehuda tidak pernah melayani persembahan kurban di atas mezbah di rumah Allah, dan hukum Taurat tidak pernah mengizinkan orang dari suku itu untuk menjabat sebagai imam.
+HEB 7:15 
+EOF;
+if (!($bfile = preg_replace("/HEB 7:13 (.+?)HEB 7:15 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+HEB 7:20 Kita dapat semakin yakin akan jalan yang baru ini, yaitu jalan melalui Imam Agung kita Yesus, karena Dia disahkan oleh Allah dengan sumpah, sedangkan para imam lain diangkat tanpa sumpah.
+HEB 7:21 Allah bersumpah kepada Yesus seperti yang tertulis dalam Mazmur Daud, “TUHAN sudah berjanji dengan sumpah dan Dia tidak akan berubah pikiran, ‘Engkau menjabat sebagai Imam untuk selama-lamanya sesuai dengan pola pengangkatan Imam Melkisedek dahulu.’”
+HEB 7:22 
+EOF;
+if (!($bfile = preg_replace("/HEB 7:20 (.+?)HEB 7:22 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+HEB 9:23 Ingatlah bahwa di dunia ini, kemah TUHAN yang disucikan itu hanyalah gambaran atau bayangan dari kemah yang sejati di surga. Jadi, kalau kemah duniawi yang dibuat dengan tangan manusia pun harus disucikan dengan darah hewan kurban, tentu kemah yang sesungguhnya harus disucikan dengan persembahan yang jauh lebih mulia daripada darah hewan!
+HEB 9:24 Itulah yang terjadi ketika Kristus masuk dengan darah-Nya sendiri ke ruang mahakudus yang sejati. Sekarang Dia masih berada di sana sebagai Perantara bagi kita di hadapan Allah.
+HEB 9:25 Kristus bukan seperti imam besar duniawi yang harus memasuki ruang mahakudus setiap tahun dengan membawa darah yang bukan darahnya sendiri.
+HEB 9:26 Seandainya Kristus seperti itu, berarti Dia harus menderita dan mempersembahkan diri-Nya berulang kali sejak penciptaan dunia. Tetapi Kristus sudah diutus Allah ke dunia pada zaman terakhir ini untuk mempersembahkan diri-Nya sendiri satu kali saja sebagai kurban penghapus dosa.
+HEB 9:27 
+EOF;
+if (!($bfile = preg_replace("/HEB 9:23 (.+?)HEB 9:27 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+HEB 13:20 Kiranya Allah sumber ketenangan, yang membangkitkan Yesus Penguasa kita dari kematian, melengkapi segala sesuatu yang kalian perlukan untuk melakukan kehendak-Nya. Dan melalui pertolongan Kristus Yesus, Gembala Agung kita yang mensahkan perjanjian baru dari Allah melalui persembahan darah-Nya sendiri,
+HEB 13:21 kiranya Allah memampukan kalian untuk melakukan segala sesuatu yang menyenangkan hati-Nya. Berilah kemuliaan kepada-Nya sampai selama-lamanya. Amin.
+HEB 13:22 
+EOF;
+if (!($bfile = preg_replace("/HEB 13:20 (.+?)HEB 13:22 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+1JO 5:9 Pikirkanlah: Biasanya kita percaya pada ucapan seorang saksi mata. Alangkah jauh lebih terpercaya lagi jika yang memberi kesaksian adalah Allah sendiri!
+1JO 5:10 Dan inilah kesaksian penting yang diungkapkan Allah mengenai Anak-Nya: Allah sudah memberikan hidup kekal kepada kita.
+1JO 5:11 Hidup kekal itu hanya diberikan kepada orang-orang yang bersatu dengan Anak-Nya. Setiap orang yang sudah percaya kepada Anak Allah yakin di dalam hatinya bahwa pernyataan Allah Bapa itu benar. Tetapi setiap orang yang tidak percaya pada kesaksian Allah sama dengan mengatakan bahwa Allah pembohong, karena orang itu menolak untuk mempercayai kesaksian Allah tentang Anak-Nya.
+1JO 5:12 
+EOF;
+if (!($bfile = preg_replace("/1JO 5:9 (.+?)1JO 5:12 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+REV 1:5 dan dari Kristus Yesus, yang selalu bisa dipercaya dalam seluruh kesaksian-Nya tentang Allah Bapa. Dialah yang pertama mendapatkan hidup kekal sesudah kematian, dan Dialah Raja Agung atas semua raja di dunia. Mulialah Kristus selama-lamanya! Karena kasih-Nya yang sangat luar biasa bagi kita, Dia mencurahkan darah-Nya untuk membersihkan kita dari dosa.
+REV 1:6 Dengan demikian Dia sudah menjadikan kita warga kerajaan Allah dan imam-imam yang melayani Allah Bapa-Nya secara rohani. Milik Kristuslah segala kuasa sampai selama-lamanya! Amin!
+REV 1:7 
+EOF;
+if (!($bfile = preg_replace("/REV 1:5 (.+?)REV 1:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+REV 4:9 Sewaktu kedua puluh empat pemimpin tadi mendengar para makhluk itu menyanyikan pujian, hormat, dan ucapan syukur kepada Dia yang hidup sampai selama-lamanya, mereka juga berulang kali sujud menyembah di hadapan Dia yang duduk di takhta itu.
+REV 4:10 Lalu mereka menaruh mahkota mereka masing-masing di hadapan takhta-Nya sebagai tanda bahwa segala kemuliaan hanyalah milik-Nya, sembari bernyanyi,
+REV 4:11 
+EOF;
+if (!($bfile = preg_replace("/REV 4:9 (.+?)REV 4:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+REV 20:2 Malaikat itu menangkap dan mengikat si naga besar, yaitu ular yang kita kenal dalam peristiwa Taman Eden, yang disebut iblis dan bernama Satanas. Dialah yang menyesatkan semua orang di dunia.
+REV 20:3 Kemudian malaikat itu melemparkan dia ke dalam jurang maut. Sesudah mengunci pintunya, dia memasang meterai pada pintu itu. Selama seribu tahun si iblis akan terikat dan dipenjarakan di situ. Dia tidak bisa menipu bangsa-bangsa sampai masa seribu tahun itu berakhir. Sesudah itu dia akan dilepaskan lagi, tetapi hanya sementara.
+REV 20:4 
+EOF;
+if (!($bfile = preg_replace("/REV 20:2 (.+?)REV 20:4 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+REV 20:12 Kemudian saya melihat semua orang mati lainnya sudah dihidupkan kembali, baik yang tenggelam di lautan maupun yang dikubur di daratan.
+REV 20:13 Seluruhnya, baik yang dahulu berkedudukan tinggi maupun rendah, berdiri setara di hadapan takhta putih itu. Kemudian buku-buku catatan tentang perbuatan mereka dibuka, dan sebuah kitab lain juga dibuka, yaitu Kitab Kehidupan. Mereka pun dihakimi menurut perbuatannya masing-masing sesuai dengan yang tertulis dalam kitab-kitab itu.
+REV 20:14 Kemudian setiap orang yang namanya tidak tertulis dalam Kitab Kehidupan dilemparkan ke dalam lautan api.
+REV 20:15 Terakhir, kuasa kematian dan Syeol juga dilemparkan ke dalam lautan api. Inilah yang disebut ‘kematian tahap kedua’. Sesudah itu tidak ada lagi kematian! Kuasa kematian sudah lenyap!
+REV 21:1 
+EOF;
+if (!($bfile = preg_replace("/REV 20:12 (.+?)REV 21:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
 
 
 
@@ -8090,7 +8847,15 @@ MAR 9:47 もし、あなたの目があなたのつまずきを引き起こす�
 MAR 9:48 
 EOF;
 if (!($bfile = preg_replace("/MAR 9:44 (.+?)MAR 9:48 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ROM 16:25 私の福音とイエス・キリストの宣教によって、すなわち、世々にわたって長い間隠されていたが、
+ROM 16:26 今や現わされて、永遠の神の命令に従い、預言者たちの書によって、信仰の従順に導くためにあらゆる国の人々に知らされた奥義の啓示によって、あなたがたを堅く立たせることができる方、
+ROM 16:27 知恵に富む唯一の神に、イエス・キリストによって、御栄えがとこしえまでありますように。アーメン。
+1CO 1:1 
+EOF;
+if (!($bfile = preg_replace("/ROM 16:24 (.+?)1CO 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
+
 
 
 
@@ -8101,6 +8866,12 @@ if (!($bfile = preg_replace("/16Ejile/us","Ejile",$bfile,-1,$rnum)) || $rnum!=1)
 if (!($bfile = preg_replace("/0([[:alpha:]]{1})/us",'$1',$bfile,-1,$rnum)) || $rnum!=5) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/_/us"," ",$bfile,-1,$rnum)) || $rnum!=3) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
+$textfix = <<<EOF
+1TI 6:15 Nyamuanga alitula abhwelu okuja kwaye ku katungu kekisi, Nyamuanga owalibhando, amanaga genyele, Omukama unu kakama, na Lata bhugenyi unu katangasha.
+1TI 6:16 Omwene enyele kalama akajanende, ekaye mubhwelu bhunu bhutakulebhelelwa. Ataliwo omunu unu katula okumulola nolwo okumuta muliso. Kumwene chiliwo echibhalo no obhutulo bwa akajanende. Amina.
+1TI 6:17 
+EOF;
+if (!($bfile = preg_replace("/1TI 6:15 (.+?)1TI 6:17 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -10369,6 +11140,30 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Malayalam---Contemporary" :
 $textfix = <<<EOF
+GEN 44:30 “അതുകൊണ്ട് ഇപ്പോൾ ബാലനെ കൂടാതെ ഞാൻ അങ്ങയുടെ ദാസനായ എന്റെ പിതാവിന്റെ അടുക്കൽ ചെന്നാൽ, അവനെ കാണാത്തതുനിമിത്തം അദ്ദേഹം മരിച്ചുപോകും; അദ്ദേഹത്തിന്റെ ജീവൻ ബാലന്റെ ജീവനോടു പറ്റിച്ചേർന്നിരിക്കുന്നു;
+GEN 44:31 അടിയങ്ങൾക്കു പിതാവിന്റെ നരച്ചതലയെ ദുഃഖത്തോടെ പാതാളത്തിൽ ഇറക്കാൻ ഇടയാകും.
+GEN 44:32 
+EOF;
+if (!($bfile = preg_replace("/GEN 44:30 (.+?)GEN 44:32 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+MAT 28:19 അതുകൊണ്ട് നിങ്ങൾ പോയി പിതാവിന്റെയും പുത്രന്റെയും പരിശുദ്ധാത്മാവിന്റെയും നാമത്തിൽ സ്നാനം കഴിപ്പിച്ചും ഞാൻ നിങ്ങളോട് കൽപ്പിച്ചതെല്ലാം അനുവർത്തിക്കാൻ അവരെ ഉപദേശിച്ചുംകൊണ്ട് സകലജനതയെയും എന്റെ ശിഷ്യരാക്കുക.
+MAT 28:20 ഞാൻ യുഗാന്ത്യംവരെ എപ്പോഴും നിങ്ങളോടുകൂടെ ഉണ്ടായിരിക്കും, നിശ്ചയം,” എന്നു കൽപ്പിച്ചു.
+MAR 1:1 
+EOF;
+if (!($bfile = preg_replace("/MAT 28:19 (.+?)MAR 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+EPH 1:11 സ്വഹിതമനുസരിച്ച് എല്ലാറ്റിനെയും പ്രവർത്തനനിരതമാക്കുന്ന ദൈവം, അവിടന്ന് മുൻനിയമിച്ചിരുന്ന പദ്ധതിയനുസരിച്ച്, ആദ്യം ക്രിസ്തുവിൽ പ്രത്യാശവെച്ചവരായ ഞങ്ങൾ അവിടത്തെ
+EPH 1:12 മഹത്ത്വത്തിന്റെ പുകഴ്ചയായിത്തീരേണ്ടതിന് നമ്മെ അവകാശമായി തെരഞ്ഞെടുത്തു.
+EPH 1:13 
+EOF;
+if (!($bfile = preg_replace("/EPH 1:11 (.+?)EPH 1:13 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+EPH 1:20 ഈ ശക്തിതന്നെയാണ്, ക്രിസ്തുവിനെ മരിച്ചവരിൽനിന്നുയിർപ്പിച്ച് എല്ലാ ഭരണത്തിനും അധികാരത്തിനും ശക്തിക്കും കർത്തൃത്വത്തിനും മീതേ സ്വർഗത്തിൽ തന്റെ വലതുഭാഗത്ത്,
+EPH 1:21 ഈ യുഗത്തിൽമാത്രമല്ല, വരാനുള്ളതിലും വിളിക്കപ്പെട്ട എല്ലാ നാമത്തിനും അത്യന്തം മീതേ, ഇരുത്താൻ ദൈവം പ്രയോഗിച്ച അതിമഹത്തായ ശക്തി.
+EPH 1:22 
+EOF;
+if (!($bfile = preg_replace("/EPH 1:20 (.+?)EPH 1:22 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 TIT 1:1 ദൈവത്തിന്റെ ദാസനും യേശുക്രിസ്തുവിന്റെ അപ്പൊസ്തലനുമായ പൗലോസ്, നമുക്കു പൊതുവായുള്ള വിശ്വാസത്തിൽ എന്റെ യഥാർഥ പുത്രതുല്യനായ തീത്തോസിന്, എഴുതുന്നത്:
 TIT 1:2 നിനക്കു പിതാവായ ദൈവത്തിൽനിന്നും നമ്മുടെ രക്ഷകനായ ക്രിസ്തുയേശുവിൽനിന്നും കൃപയും സമാധാനവും ഉണ്ടാകുമാറാകട്ടെ.
 TIT 1:3 ദൈവം തെരഞ്ഞെടുത്തവർ വിശ്വസിക്കാനും ഭക്തിയിലേക്കു നയിക്കുന്ന സത്യത്തിന്റെ പരിപൂർണജ്ഞാനം അവർക്കു ലഭിക്കാനുമായി നിത്യജീവന്റെ പ്രത്യാശ അവിടത്തെ വചനത്തിന്റെ പ്രഘോഷണത്തിലൂടെ അവർക്കു വെളിപ്പെടുത്താൻ നമ്മുടെ രക്ഷകനായ ദൈവം എന്നെ ഭരമേൽപ്പിച്ചിരിക്കുന്നു.
@@ -10376,6 +11171,24 @@ TIT 1:4 ഈ പ്രത്യാശ വ്യാജംപറയാത്ത ദ
 TIT 1:5 
 EOF;
 if (!($bfile = preg_replace("/TIT 1:1 (.+?)TIT 1:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+HEB 6:1 ആകയാൽ നമുക്ക് ക്രിസ്തുവിനെക്കുറിച്ചുള്ള പ്രാഥമികപാഠങ്ങളാകുന്ന അടിസ്ഥാനം പിന്നെയും ഇടാതെ പക്വതയിലേക്കു മുന്നേറാം.
+HEB 6:2 നിർജീവപ്രവൃത്തികളിൽനിന്നുള്ള മാനസാന്തരം, ദൈവത്തിലുള്ള വിശ്വാസം, സ്നാനങ്ങളെപ്പറ്റിയുള്ള ഉപദേശം, കരപൂരണങ്ങൾ, മരിച്ചവരുടെ പുനരുത്ഥാനം, നിത്യശിക്ഷാവിധി എന്നിവയാണ് അടിസ്ഥാന ഉപദേശങ്ങൾ.
+HEB 6:3 
+EOF;
+if (!($bfile = preg_replace("/HEB 6:1 (.+?)HEB 6:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+REV 1:5 വിശ്വസ്തസാക്ഷിയും മരിച്ചവരുടെ ഇടയിൽനിന്ന് ആദ്യം ഉയിർത്തെഴുന്നേറ്റവനും ഭൂമിയിലെ രാജാക്കന്മാരുടെ അധിപനുമായ യേശുക്രിസ്തുവിൽനിന്ന് നിങ്ങൾക്കു കൃപയും സമാധാനവും ഉണ്ടാകുമാറാകട്ടെ.
+REV 1:6 നമ്മെ സ്നേഹിച്ച് സ്വന്തം രക്തത്താൽ, നമ്മുടെ പാപങ്ങളിൽനിന്ന് നമ്മെ വിടുവിച്ച് അവിടത്തെ ദൈവവും പിതാവുമായവനുവേണ്ടി നമ്മെ രാജ്യവും പുരോഹിതന്മാരുമാക്കിത്തീർത്ത യേശുക്രിസ്തുവിന് എന്നെന്നേക്കും മഹത്ത്വവും ആധിപത്യവും ഉണ്ടായിരിക്കട്ടെ! ആമേൻ.
+REV 1:7 
+EOF;
+if (!($bfile = preg_replace("/REV 1:5 (.+?)REV 1:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+REV 7:11 അപ്പോൾ സർവദൂതന്മാരും, സിംഹാസനത്തിനും മുഖ്യന്മാർക്കും നാലു ജീവികൾക്കും ചുറ്റിലുമായി നിൽക്കയും, “ആമേൻ!
+REV 7:12 നമ്മുടെ ദൈവത്തിന് എന്നെന്നേക്കും സ്തുതിയും മഹത്ത്വവും ജ്ഞാനവും സ്തോത്രവും ബഹുമാനവും അധികാരവും ശക്തിയും ഉണ്ടായിരിക്കട്ടെ, ആമേൻ!” എന്നു പറഞ്ഞ് സിംഹാസനത്തിനുമുമ്പിൽ സാഷ്ടാംഗം പ്രണമിച്ചുകൊണ്ട് ദൈവത്തെ ആരാധിക്കുകയും ചെയ്തു.
+REV 7:13 
+EOF;
+if (!($bfile = preg_replace("/REV 7:11 (.+?)REV 7:13 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -10526,6 +11339,19 @@ REV 7:12 “ആമേൻ;” നമ്മുടെ ദൈവത്തിന് �
 REV 7:13 
 EOF;
 if (!($bfile = preg_replace("/REV 7:11 (.+?)REV 7:13 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Malayalam---Malayalam-Bible-1910" :
+$textfix = <<<EOF
+Romans 16:25 പൂൎവ്വകാലങ്ങളിൽ മറഞ്ഞിരുന്നിട്ടു ഇപ്പോൾ വെളിപ്പെട്ടുവന്നതും നിത്യദൈവത്തിന്റെ നിയോഗപ്രകാരം സകലജാതികൾക്കും വിശ്വാസത്തിന്റെ അനുസരണത്തിന്നായി പ്രവാചകന്മാരുടെ എഴുത്തുകളാൽ
+Romans 16:26 അറിയിച്ചിരിക്കുന്നതുമായ മൎമ്മത്തിന്റെ വെളിപ്പാടിന്നു അനുസരണമായുള്ള എന്റെ സുവിശേഷത്തിന്നും യേശുക്രിസ്തുവിനെക്കുറിച്ചുള്ള പ്രസംഗത്തിന്നും ഒത്തവണ്ണം നിങ്ങളെ സ്ഥിരപ്പെടുത്തുവാൻ കഴിയുന്ന
+Romans 16:27 ഏകജ്ഞാനിയായ ദൈവത്തിന്നു യേശുക്രിസ്തുമുഖാന്തരം എന്നെന്നേക്കും മഹത്വം ഉണ്ടാകുമാറാകട്ടെ. ആമേൻ. 
+I Corinthians 1:1 
+EOF;
+if (!($bfile = preg_replace("/Romans 16:24 (.+?)I Corinthians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -11501,6 +12327,12 @@ LUK 4:1
 EOF;
 if (!($bfile = preg_replace("/LUK 3:23 (.+?)LUK 4:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
+LUK 20:34 Jesus svarte saddukeerne: ”Det er bare her på jorden at menn og kvinner gifter seg.
+LUK 20:35 De som er verdige til å være med i den kommende verden, etter at de har stått opp fra de døde, kommer ikke til å gifte seg.
+LUK 20:36 
+EOF;
+if (!($bfile = preg_replace("/LUK 20:34 (.+?)LUK 20:36 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 JOH 4:21 Jesus forklarte: ”Tro meg, det kommer en dag da ingen lenger behøver å diskutere om det er på dette fjellet eller i Jerusalem vi skal tilbe vår Far i himmelen.
 JOH 4:22 Det er ikke spørsmålet om hvor vi tilber som er det viktigste, heller hvordan vi skal tilbe. Virkelig tilbedelse er ekte og inspirert av Guds Ånd.
 JOH 4:23 Det er slik Gud vil at vi skal tilbe ham, etter som Gud er Ånd. Og det kommer en dag, ja, den er allerede her, da menneskene skal tilbe Gud på denne måten.
@@ -11529,6 +12361,12 @@ ROM 16:27 Gud, han som ene og alene har fullkommen innsikt og visdom, er verd å
 EOF;
 if (!($bfile = preg_replace("/ROM 16:25 (.+?)1CO 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
+1CO 2:7 Nei, vår lære er fylt av Guds egen kunnskap. Den handler om Guds hemmelige plan. En plan som har ligget skjult fra tidenes begynnelse. I tråd med denne planen hadde Gud bestemt at Herren Jesus skulle dø for å frelse oss, slik at vi får del i Guds herlighet.
+1CO 2:8 Denne verdens onde makthavere, forsto ikke Guds plan. Derfor lot de Jesus bli henrettet på et kors, han som har del i Guds makt og herlighet.
+1CO 2:9 
+EOF;
+if (!($bfile = preg_replace("/1CO 2:7 (.+?)1CO 2:9 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 2CO 2:14 Jeg takker Gud, han som har vunnet seier gjennom det Kristus gjorde, og som har gjort meg til sin slave. Nå må jeg marsjere med i hans triumftog over verden, for å spre det glade budskapet om Kristus til alle mennesker.
 2CO 2:15 Mitt arbeid er som aromatisk røkelse som blir ofret til Gud. Til hans ære sprer jeg duften om Kristus til alle mennesker.
 2CO 2:16 For dem som tror på budskapet og blir frelst, er dette en duft som feirer livet. De derimot som ikke tror på budskapet og derfor går evig fortapt, opplever det som duften av Guds påminnelse om dagen med straff og døden. Hvem er da verdige til å utføre et slikt arbeid?
@@ -11541,6 +12379,19 @@ $textfix = <<<EOF
 1TH 1:7 
 EOF;
 if (!($bfile = preg_replace("/1TH 1:5 (.+?)1TH 1:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+HEB 6:4 De personene som har forlatt troen på Jesus Kristus, kan vi ikke få til å vende tilbake.
+HEB 6:5 Nei, dersom de en gang har tatt imot det sanne budskapet, fått del i Guds gave og Ånd, fattet hvor godt Guds budskap er og opplevd kreftene i den kommende verden,
+HEB 6:6 men likevel forlater Kristus, da kan vi ikke få dem til å vende tilbake. Ved det de gjør, spikrer de på nytt Guds sønn til korset og vil latterliggjøre hans vei til korset.
+HEB 6:7 
+EOF;
+if (!($bfile = preg_replace("/HEB 6:4 (.+?)HEB 6:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+HEB 7:20 Gud har sverget en ed på at Jesus for alltid skal være presten vår.
+HEB 7:21 Noe slikt har han aldri gjort med de andre prestene. Det er bare Jesus som har fått høre Gud si: ”Herren har sverget en ed som han ikke vil bryte: ’Du er prest for evig.’”
+HEB 7:22 
+EOF;
+if (!($bfile = preg_replace("/HEB 7:20 (.+?)HEB 7:22 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 HEB 13:20 Selv ber jeg om at Gud, han som gir fred, på alle måter vil støtte og å hjelpe dere, slik at dere alltid kan gjøre hans vilje. Ja, jeg ber om at han gjennom den kraft som Jesus Kristus gir, vil hjelpe dere til alltid å gjøre det som gleder ham. Gud vakte opp vår Herre Jesus fra de døde. På grunn av at Jesus hadde ofret sitt blod og innstiftet en evig pakt mellom Gud og menneskene, ble Jesus Kristus den store gjeteren for alle sauene i flokken.
 HEB 13:21 Hans er æren i all evighet. Ja, det er sant!
@@ -11559,7 +12410,14 @@ JUD 1:4 Disse personene påstår at siden Gud i sin godhet har tilgitt oss, kan 
 JUD 1:5 
 EOF;
 if (!($bfile = preg_replace("/JUD 1:3 (.+?)JUD 1:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JUD 1:24 Hyll Gud, for han er den som kan bevare dere slik at dere holder fast ved troen. Han kan også hjelpe dere slik at dere en dag kan stå jublende og uten skyld innfor ham i herlighet. Han, som er den ene sanne Gud, frelste oss gjennom det som vår Herre Jesus Kristus gjorde.
+JUD 1:25 Ja, hyll Gud, for han er mektig, sterk og regjerer over alt, fra tidenes begynnelse, nå og i all evighet. Ja, det er sant!
+REV 1:1 
+EOF;
+if (!($bfile = preg_replace("/JUD 1:24 (.+?)REV 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
+
 
 
 
@@ -12234,6 +13092,18 @@ EOF;
 if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Polish---Open-Access-Word-of-Life" :
+$bigfix = <<<EOF
+JUD 1:24 Bóg może ochronić was przed upadkiem i sprawić, że—czyści i radośni—będziecie mogli stanąć przed Jego chwalebnym majestatem.
+JUD 1:25 On jest jedynym, prawdziwym Bogiem i Jemu należy się wieczna chwała, uwielbienie, moc i władza. Oddajmy Mu więc cześć, poprzez naszego Pana, Jezusa Chrystusa. Amen!
+REV 1:1 
+EOF;
+if (!($bfile = preg_replace("/JUD 1:24 (.+?)REV 1:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
 
 
 
@@ -13013,6 +13883,16 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---Romanian---Free-Bible" :
+$textfix = <<<EOF
+1CO 1:1 
+EOF;
+if (!($bfile = preg_replace("/ROM 16:25 (.+?)1CO 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---Romanian---Ludari-Luke" :
 $bigfix = <<<EOF
 LUK 1:55 Jel ažutat alu Izrael, alu argatu aluj baš kum adat obečală alu sămănca anuastră, alu Abraham š alu kupi aluj, k osă lji fije uvjek d milă.”
@@ -13777,6 +14657,17 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Spanish---Biblia-Platense-Straubinger" :
 if (!($bfile = preg_replace("/Song of Solomon 8:6\s+\}/us","Song of Solomon 8:6 ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Spanish---Free-for-the-World" :
+$textfix = <<<EOF
+1CO 1:1 
+EOF;
+if (!($bfile = preg_replace("/ROM 16:25 (.+?)1CO 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 

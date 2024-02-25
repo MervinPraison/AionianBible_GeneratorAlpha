@@ -21,6 +21,7 @@ function AionianBible_readCookie(name) {
 }
 // globals assigned onload, used onclick
 var AB_Bookmark = null;
+var AB_Bookmark2 = null;
 var AB_Accessible = null;
 // onload assign globals, write bookmark cookie
 window.onload = function() {
@@ -31,6 +32,7 @@ window.onload = function() {
 	else {
 		AB_Bookmark = AionianBible_readCookie("AionianBible.Bookmark");
 	}
+	AB_Bookmark2 = AionianBible_readCookie("AionianBible.Bookmark2");
 	AB_Accessible = document.getElementById("body");
 	if (null!==AB_Accessible) {
 		AB_Accessible.className = AionianBible_readCookie("AionianBible.Accessible");
@@ -38,6 +40,20 @@ window.onload = function() {
 	if (true===AB_Collapse) {
 		AionianBible_CollapseExpand("ab-lexicon", null);
 	}
+}
+// set and get
+function AionianBible_Set() {
+	AB_Bookmark2 = window.location.pathname.replace(/^\/+|\/+$/g,"");
+	if (null!==AB_Bookmark2) {
+		AionianBible_writeCookie("AionianBible.Bookmark2", AB_Bookmark2);
+	}
+	return false;
+}
+function AionianBible_Get() {
+	if (null!==AB_Bookmark2) {
+		window.location.assign("/"+AB_Bookmark2);
+	}
+	return false;
 }
 // toggle accessibility
 function AionianBible_Accessible() {

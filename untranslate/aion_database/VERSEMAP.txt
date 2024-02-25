@@ -229,7 +229,7 @@ Holy-Bible---English---STEPBible-Amalgamant	NONE
 Holy-Bible---English---STEPBible-Concordant	NONE
 Holy-Bible---English---Syriac-Peshitta-Etheridge	NONE
 Holy-Bible---English---Syriac-Peshitta-Murdock	NONE
-Holy-Bible---English---Text-Critical	NONE
+Holy-Bible---English---Text-Critical	ROM14-16
 Holy-Bible---English---Trans-Trans	NONE
 Holy-Bible---English---Twentieth-Century-NT	NONE
 Holy-Bible---English---Tyndale-Bible	NONE
@@ -239,8 +239,8 @@ Holy-Bible---English---Webster-Bible-Revised	NONE
 Holy-Bible---English---Weymouth-NT	NONE
 Holy-Bible---English---World-English-Bible	ROM14-16
 Holy-Bible---English---World-English-Bible-British-Edition	ROM14-16
-Holy-Bible---English---World-English-Bible-Updated	NONE
-Holy-Bible---English---World-English-Bible-Updated-British	NONE
+Holy-Bible---English---World-English-Bible-Updated	ROM14-16
+Holy-Bible---English---World-English-Bible-Updated-British	ROM14-16
 Holy-Bible---English---World-Messianic-Bible	ROM14-16
 Holy-Bible---English---World-Messianic-Bible-British-Edition	ROM14-16
 Holy-Bible---English---Worsley-Bible	NONE
@@ -266,7 +266,7 @@ Holy-Bible---Ewe---Word-of-Life	NONE
 Holy-Bible---Finnish---Finnish-Bible	NONE
 Holy-Bible---Finnish---Finnish-Pyha-Raamattu	NONE
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible	JOH7-8
-Holy-Bible---French---Free-for-the-World	NONE
+Holy-Bible---French---Free-for-the-World	ROM14-16
 Holy-Bible---French---French-Crampon-Bible	GEN31-32
 Holy-Bible---French---French-Crampon-Bible	EXO7-8
 Holy-Bible---French---French-Crampon-Bible	EXO21-22
@@ -451,6 +451,7 @@ Holy-Bible---French---French-Ostervald-Bible	PSA66
 Holy-Bible---French---French-Perret-Gentil-Rilliet	NONE
 Holy-Bible---French---French-Stapfer-Bible	NONE
 Holy-Bible---French---French-Synodale-Bible	NONE
+Holy-Bible---French---Vulgate-Glaire	PSA150
 Holy-Bible---French---Vulgate-Glaire	DAN100
 Holy-Bible---Gamotso---Gamo	NONE
 Holy-Bible---German---German-Albrecht	NONE
@@ -571,7 +572,7 @@ Holy-Bible---Gourma---Gourma-Bible	NONE
 Holy-Bible---Gourmantche---Gourmantche-Bible	NONE
 Holy-Bible---Greek---Brenton-Septuagint	NONE
 Holy-Bible---Greek---Greek-Antoniades	ROM14-16
-Holy-Bible---Greek---Greek-Byzantine	NONE
+Holy-Bible---Greek---Greek-Byzantine	ROM14-16
 Holy-Bible---Greek---Greek-Byzantine-Majority	ROM14-16
 Holy-Bible---Greek---Greek-LXX-Septuagint	GEN31-32
 Holy-Bible---Greek---Greek-LXX-Septuagint	EXO7-8
@@ -628,7 +629,7 @@ Holy-Bible---Greek---Greek-Tischendorf	NONE
 Holy-Bible---Greek---Greek-Tregelles	NONE
 Holy-Bible---Greek---Greek-TR-Stephanus-Scrivener	NONE
 Holy-Bible---Greek---Greek-Westcott-Hort	NONE
-Holy-Bible---Greek---Text-Critical	NONE
+Holy-Bible---Greek---Text-Critical	ROM14-16
 Holy-Bible---Gujarati---Gujarati-Bible	NONE
 Holy-Bible---Haitian---Haitian-Creole-Bible	NONE
 Holy-Bible---Haitian---Haitian-Creole-Smith	NONE
@@ -714,7 +715,7 @@ Holy-Bible---Ilocano---Ilocano-Bible	NONE
 Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari	NONE
 Holy-Bible---Indonesian---For-All	NONE
 Holy-Bible---Indonesian---New-Indonesian-Translation	NONE
-Holy-Bible---Indonesian---Simple	NONE
+Holy-Bible---Indonesian---Simple	ROM14-16
 Holy-Bible---Isanzu---Isanzu-Bible	NONE
 Holy-Bible---Italian---Conferenza-Episcopale-Italiana	GEN31-32
 Holy-Bible---Italian---Conferenza-Episcopale-Italiana	EXO7-8
@@ -977,7 +978,7 @@ Holy-Bible---Portuguese---Free-for-All	NONE
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	NONE
 Holy-Bible---Romanian---Bayash-Luke	NONE
 Holy-Bible---Romanian---Cyrillic	NONE
-Holy-Bible---Romanian---Free-Bible	NONE
+Holy-Bible---Romanian---Free-Bible	ROM14-16
 Holy-Bible---Romanian---Ludari-Luke	NONE
 Holy-Bible---Romani---Eastern-Vlakh	NONE
 Holy-Bible---Romani-Vlax---Arli-Luke	NONE
@@ -1052,9 +1053,10 @@ Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	ROM14-16
 Holy-Bible---Slovene---Slovene-Savli-Bible	NONE
 Holy-Bible---Slovene---Slovene-Stritarja-NT	NONE
 Holy-Bible---Somali---Somali-Bible	NONE
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	PSA150
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	DAN100
 Holy-Bible---Spanish---Free-Bible-NT	NONE
-Holy-Bible---Spanish---Free-for-the-World	NONE
+Holy-Bible---Spanish---Free-for-the-World	ROM14-16
 Holy-Bible---Spanish---Gods-Word-for-You	NONE
 Holy-Bible---Spanish---Reina-Valera-1865	NONE
 Holy-Bible---Spanish---Reina-Valera-1909	NUM12-13
@@ -1136,7 +1138,7 @@ Holy-Bible---Ukrainian---Ukrainian-Ogienko	JON1-2
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	MIC4-5
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	NAH1-2
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	ZEC1-2
-Holy-Bible---Ukrainian---New-Translation	NONE
+Holy-Bible---Ukrainian---New-Translation	PSA150
 Holy-Bible---Urdu---Urdu-Bible	NONE
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic	NONE
 Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic	NUM12-13

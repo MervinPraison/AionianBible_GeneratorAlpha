@@ -70,7 +70,7 @@ Holy-Bible---Croatian---Croatian-Bible								NULL
 Holy-Bible---Czech---Czech-Bible-Kralicka	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Czech---Czech-Bible-Kralicka								NULL
 Holy-Bible---Czech---Kralicka								NULL
-Holy-Bible---Czech---Living-Bible								NULL
+Holy-Bible---Czech---Living-Bible	043	JOH	021	009	SKIP			NULL
 Holy-Bible---Danish---Danish-1871-1907								NULL
 Holy-Bible---Danish---Danish-1931-1907								NULL
 Holy-Bible---Danish---Danish-Bible								NULL
@@ -669,7 +669,14 @@ Holy-Bible---Hebrew---Hebrew-Masoretic-OT								NULL
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad								NULL
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball								NULL
-Holy-Bible---Hebrew---Living-Bible								NULL
+Holy-Bible---Hebrew---Living-Bible	042	LUK	001	054	AIONS	g165		NULL
+Holy-Bible---Hebrew---Living-Bible	042	LUK	001	055	SKIP			NULL
+Holy-Bible---Hebrew---Living-Bible	056	TIT	001	001	AIONIAN	g166		NULL
+Holy-Bible---Hebrew---Living-Bible	056	TIT	001	002	SKIP			NULL
+Holy-Bible---Hebrew---Living-Bible	065	JUD	001	024	AIONS	g165		NULL
+Holy-Bible---Hebrew---Living-Bible	065	JUD	001	025	SKIP			NULL
+Holy-Bible---Hebrew---Living-Bible	066	REV	001	005	AIONS	g165		NULL
+Holy-Bible---Hebrew---Living-Bible	066	REV	001	006	SKIP			NULL
 Holy-Bible---Hebrew---Modern-Hebrew-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Hebrew---Modern-Hebrew-Bible								NULL
 Holy-Bible---Hindi---Contemporary								NULL
@@ -686,7 +693,12 @@ Holy-Bible---Ilocano---Ilocano-Bible								NULL
 Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari								NULL
 Holy-Bible---Indonesian---For-All								NULL
 Holy-Bible---Indonesian---New-Indonesian-Translation								NULL
-Holy-Bible---Indonesian---Simple								NULL
+Holy-Bible---Indonesian---Simple	056	TIT	001	002	SKIP			NULL
+Holy-Bible---Indonesian---Simple	056	TIT	001	004	AIONIAN	g166		NULL
+Holy-Bible---Indonesian---Simple	066	REV	020	012	HADES	g86		NULL
+Holy-Bible---Indonesian---Simple	066	REV	020	013	SKIP			NULL
+Holy-Bible---Indonesian---Simple	066	REV	020	014	LOF	g3041 g4442		NULL
+Holy-Bible---Indonesian---Simple	066	REV	020	015	HADES,LOF	g86,g3041 g4442		NULL
 Holy-Bible---Isanzu---Isanzu-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Isanzu---Isanzu-Bible								NULL
 Holy-Bible---Italian---Conferenza-Episcopale-Italiana								NULL
@@ -704,9 +716,6 @@ Holy-Bible---Japanese---Japanese-Raguet-yaku	045	ROM	016	026	SKIP			NULL
 Holy-Bible---Japanese---Japanese-Raguet-yaku	066	REV	020	009	LOF	g3041 g4442		NULL
 Holy-Bible---Japanese---Japanese-Raguet-yaku	066	REV	020	010	AIONS	g165		NULL
 Holy-Bible---Japanese---Japanese-Raguet-yaku								NULL
-Holy-Bible---Japanese---New-Japanese-New-Testament	045	ROM	016	024	AIONIAN	g166		NULL
-Holy-Bible---Japanese---New-Japanese-New-Testament	045	ROM	016	025	SKIP			NULL
-Holy-Bible---Japanese---New-Japanese-New-Testament	045	ROM	016	026	SKIP			NULL
 Holy-Bible---Japanese---New-Japanese-New-Testament								NULL
 Holy-Bible---Kamano---Kamano-Kafe								NULL
 Holy-Bible---Kannada---Kannada-Bible	042	LUK	001	054	AIONS	g165		NULL
@@ -726,10 +735,12 @@ Holy-Bible---Kannada---Kannada-Bible	058	HEB	013	020	AIONS,AIONIAN	g165,g166		NU
 Holy-Bible---Kannada---Kannada-Bible	058	HEB	013	021	SKIP			NULL
 Holy-Bible---Kannada---Kannada-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Kannada---Kannada-Bible								NULL
-Holy-Bible---Kannada---Open-Contemporary								NULL
-Holy-Bible---Kara---Kara-Bible	061	2PE	002	017	NOTE			questioned
-Holy-Bible---Kara---Kara-Bible								NULL
-Holy-Bible---Kiche---Totonicapan								NULL
+Holy-Bible---Kannada---Open-Contemporary	042	LUK	001	054	AIONS	g165		NULL
+Holy-Bible---Kannada---Open-Contemporary	042	LUK	001	055	SKIP			NULL
+Holy-Bible---Kannada---Open-Contemporary	042	LUK	001	069	AIONS	g165		NULL
+Holy-Bible---Kannada---Open-Contemporary	042	LUK	001	070	SKIP			NULL
+Holy-Bible---Kiche---Totonicapan	065	JUD	001	020	AIONIAN	g166		NULL
+Holy-Bible---Kiche---Totonicapan	065	JUD	001	021	SKIP			NULL
 Holy-Bible---Kinga---Mahanji-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Kinga---Mahanji-Bible								NULL
 Holy-Bible---Kisi---Kisi-Bible	061	2PE	002	017	NOTE			questioned
@@ -757,7 +768,10 @@ Holy-Bible---Luganda---Luganda-Bible								NULL
 Holy-Bible---Mahasu-Pahari---Baghlayani-Bible								NULL
 Holy-Bible---Malagasy---Malagasy-Bible								NULL
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible								NULL
-Holy-Bible---Malayalam---Contemporary								NULL
+Holy-Bible---Malayalam---Contemporary	042	LUK	001	054	AIONS	g165		NULL
+Holy-Bible---Malayalam---Contemporary	042	LUK	001	055	SKIP			NULL
+Holy-Bible---Malayalam---Contemporary	049	EPH	003	010	AIONS	g165		NULL
+Holy-Bible---Malayalam---Contemporary	049	EPH	003	011	SKIP			NULL
 Holy-Bible---Malayalam---Malayalam-Bible								NULL
 Holy-Bible---Malayalam---Malayalam-Bible-1910								NULL
 Holy-Bible---Maori---Maori-Bible								NULL
@@ -793,13 +807,19 @@ Holy-Bible---Oromo---New-World								NULL
 Holy-Bible---Panjabi---Punjabi-Bible								NULL
 Holy-Bible---Persian---Old-Persion-Version-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Persian---Old-Persion-Version-Bible								NULL
-Holy-Bible---Persian---Open-Contemporary								NULL
+Holy-Bible---Persian---Open-Contemporary	066	REV	001	017	HADES	g86		NULL
+Holy-Bible---Persian---Open-Contemporary	066	REV	001	018	SKIP			NULL
+Holy-Bible---Persian---Open-Contemporary	066	REV	020	002	ABYSS	g12		NULL
+Holy-Bible---Persian---Open-Contemporary	066	REV	020	003	SKIP			NULL
 Holy-Bible---Pogolo---Pogoro-Bible								NULL
 Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet								NULL
 Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet								NULL
-Holy-Bible---Polish---Open-Access-Word-of-Life								NULL
+Holy-Bible---Polish---Open-Access-Word-of-Life	042	LUK	001	069	AIONS	g165		NULL
+Holy-Bible---Polish---Open-Access-Word-of-Life	042	LUK	001	070	SKIP			NULL
+Holy-Bible---Polish---Open-Access-Word-of-Life	058	HEB	013	020	AIONS,AIONIAN	g165,g166		NULL
+Holy-Bible---Polish---Open-Access-Word-of-Life	058	HEB	013	021	SKIP			NULL
 Holy-Bible---Polish---Polish-Gdansk	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Polish---Polish-Gdansk								NULL
 Holy-Bible---Polish---Polish-Updated-Gdansk	061	2PE	002	017	NOTE			questioned
@@ -815,7 +835,8 @@ Holy-Bible---Romanian---Bayash-Luke								NULL
 Holy-Bible---Romanian---Cyrillic								NULL
 Holy-Bible---Romanian---Free-Bible								NULL
 Holy-Bible---Romanian---Ludari-Luke								NULL
-Holy-Bible---Romani---Eastern-Vlakh								NULL
+Holy-Bible---Romani---Eastern-Vlakh	042	LUK	001	054	AIONS	g165		NULL
+Holy-Bible---Romani---Eastern-Vlakh	042	LUK	001	055	SKIP			NULL
 Holy-Bible---Romani-Vlax---Arli-Luke								NULL
 Holy-Bible---Romani-Vlax---Chergash-Luke								NULL
 Holy-Bible---Romani-Vlax---Gurbet-Luke								NULL
@@ -861,7 +882,16 @@ Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	061	2PE	002	017	NOTE			ques
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script								NULL
 Holy-Bible---Serbian---Serbian-Ekavski-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Serbian---Serbian-Ekavski-Bible								NULL
-Holy-Bible---Setswana---Open-Tswana-Living								NULL
+Holy-Bible---Setswana---Open-Tswana-Living	043	JOH	006	050	AIONS	g165		NULL
+Holy-Bible---Setswana---Open-Tswana-Living	043	JOH	006	051	SKIP			NULL
+Holy-Bible---Setswana---Open-Tswana-Living	043	JOH	014	015	AIONS	g165		NULL
+Holy-Bible---Setswana---Open-Tswana-Living	043	JOH	014	016	SKIP			NULL
+Holy-Bible---Setswana---Open-Tswana-Living	058	HEB	013	020	AIONS,AIONIAN	g165,g166		NULL
+Holy-Bible---Setswana---Open-Tswana-Living	058	HEB	013	021	SKIP			NULL
+Holy-Bible---Setswana---Open-Tswana-Living	065	JUD	001	024	AIONS	g165		NULL
+Holy-Bible---Setswana---Open-Tswana-Living	065	JUD	001	025	SKIP			NULL
+Holy-Bible---Setswana---Open-Tswana-Living	066	REV	001	017	HADES	g86		NULL
+Holy-Bible---Setswana---Open-Tswana-Living	066	REV	001	018	SKIP			NULL
 Holy-Bible---Shona---Rakasununguka								NULL
 Holy-Bible---Shona---Shona-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Shona---Shona-Bible								NULL
