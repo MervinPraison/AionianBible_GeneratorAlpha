@@ -47,7 +47,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Basque|Breton).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Panjabi).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Myanmar|Spanish---Free).*---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---(English---[N-Z]+|E[o-z]+|[F-Z]+).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Burmese-Common).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Nepali-Bible|Oriya-Bible|Uyghur-Bible-Cyrillic|Uyghur-Bible-Pinyin).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(LXX|Khan).*---Aionian-Edition\.noia$/",
@@ -58,7 +58,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---(Tongan|Turkish|[UV]+).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Catholic-Public-Domain---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
-		'include'	=> "/---Aionian-Edition\.noia$/",
+		//'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		) );
@@ -87,7 +87,9 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 	if (($args['q_rtlhuh'] == 'RTL' && empty($forprint['RTL'])) || ($args['q_rtlhuh'] == 'RTLNO' && !empty($forprint['RTL']))) { AION_ECHO("SPEEDATA SKIPPING! $bible"); return; } // RTL Only. NO RTL, or ALL
 	if (( $args['q_allall'] && $forprint['DOIT']=="FALSE") || (!$args['q_allall'] && $forprint['DOIT']!="TRUE")) { AION_ECHO("SPEEDATA SKIPPING! $bible"); return; }
 	if ($args['q_pdflu']) { $args['q_pdfpo'] = $args['q_pdfnt'] = TRUE;	}
-	AION_ECHO("SPEEDATA BUILDING: $bible");	
+	AION_ECHO("SPEEDATA BUILDING: $bible");
+	AION_ECHO("SPEEDATA MEMORY: PHP=".(int)(memory_get_usage(false)/1000)." SYSTEM=".(int)(memory_get_usage(true)/1000));
+	system("free");
 
 	// SOURCE VERSION
 	$base = $args['source'].'/'.$bible;

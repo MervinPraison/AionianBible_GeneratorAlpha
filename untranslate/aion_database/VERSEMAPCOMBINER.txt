@@ -26,8 +26,8 @@ Holy-Bible---Bengali---Bengali-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Bengali---Contemporary	064	3JO	001	014	14	1	end
 Holy-Bible---Bhadrawahi---Bhadrawahi-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Bhadrawahi---Bhadrawahi-Bible	066	REV	012	018	1	-1	end
-Holy-Bible---Bhadrawahi---Bhadrawahi-Bible							end
-Holy-Bible---Bodo-Parja---BOPO-Bible							end
+Holy-Bible---Bodo-Parja---BOPO-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Bodo-Parja---BOPO-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Breton---Breton-Gospels							end
 Holy-Bible---Bulgarian---Bulgarian-Bible	016	NEH	012	047	47	1	end
 Holy-Bible---Bulgarian---Bulgarian-Bible	018	JOB	011	020	20	1	end
@@ -39,10 +39,77 @@ Holy-Bible---Cebuano---Cebuano-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Cebuano---Cebuano-Philippine							end
 Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms							end
 Holy-Bible---Cherokee---Cherokee-New-Testament							end
-Holy-Bible---Chichewa---Chichewa-Bible							end
+Holy-Bible---Chichewa---Chichewa-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Chichewa---Chichewa-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	064	3JO	001	014	14	1	end
-Holy-Bible---Chinese---Chinese-Easy-to-Read							end
-Holy-Bible---Chinese---Chinese-Sigao-Bible							end
+Holy-Bible---Chinese---Chinese-Easy-to-Read	064	3JO	001	014	14	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	007	JDG	005	031	31	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	011	1KI	022	043	53	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	013	1CH	012	004	40	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	003	001	8	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	004	001	8	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	005	001	12	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	006	001	10	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	007	001	17	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	008	001	9	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	009	001	20	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	012	001	8	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	018	001	50	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	019	001	14	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	020	001	9	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	021	001	13	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	022	001	31	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	030	001	12	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	031	001	24	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	034	001	22	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	036	001	12	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	038	001	22	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	039	001	13	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	040	001	17	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	041	001	13	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	042	001	11	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	044	001	26	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	045	001	17	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	046	001	11	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	047	001	9	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	048	001	14	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	049	001	20	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	051	001	19	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	052	001	9	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	053	001	6	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	054	001	7	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	055	001	23	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	056	001	13	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	057	001	11	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	058	001	11	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	059	001	17	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	060	001	12	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	061	001	8	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	062	001	12	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	063	001	11	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	064	001	10	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	065	001	13	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	067	001	7	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	068	001	35	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	069	001	36	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	070	001	5	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	075	001	10	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	076	001	12	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	077	001	20	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	080	001	19	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	081	001	16	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	083	001	18	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	084	001	12	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	085	001	13	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	088	001	18	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	089	001	52	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	092	001	15	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	102	001	28	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	108	001	13	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	140	001	13	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	142	001	7	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Chinese---Chinese-Union-Version-Simplified	064	3JO	001	014	14	1	end
 Holy-Bible---Chinese---Chinese-Union-Version-Simplified	066	REV	012	018	1	-1	end
 Holy-Bible---Chinese---Chinese-Union-Version-Traditional	064	3JO	001	014	14	1	end
@@ -53,7 +120,8 @@ Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Chin-Thado---Chongthu-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Chin-Thado---Chongthu-Bible	066	REV	012	018	1	-1	end
-Holy-Bible---Chiyawo---Yao							end
+Holy-Bible---Chiyawo---Yao	064	3JO	001	014	14	1	end
+Holy-Bible---Chiyawo---Yao	066	REV	012	018	1	-1	end
 Holy-Bible---Coptic---Coptic-Boharic-NT	064	3JO	001	014	14	1	end
 Holy-Bible---Coptic---Coptic-NT	064	3JO	001	014	14	1	end
 Holy-Bible---Coptic---Sahidic-Bible-2							end

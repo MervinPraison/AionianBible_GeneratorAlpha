@@ -979,6 +979,16 @@ if (!($bfile = preg_replace("/\\\\t/us",'',$bfile,-1,$rnum)) || $rnum!=5) { AION
 if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )[\d.]+/mus",'$1',$bfile,-1,$rnum)) || $rnum!=6) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 $blockfix = <<<EOF
+Numbers 26:1 這次災禍以後，上主對梅瑟和大司祭亞郎的兒子厄肋阿匝爾說：
+Numbers 26:2 
+EOF;
+if (!($bfile = preg_replace("/Numbers 25:19 (.+?)Numbers 26:2 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+I Samuel 21:1 最後，約納堂對達味說：「你平安去吧! 照我們兩人以上主的名所起的誓：願上主永遠在我和你之間，在我的後代與你的後代之間! 」達味就動身走了，約納堂也回到城裏﹖
+I Samuel 21:2 
+EOF;
+if (!($bfile = preg_replace("/I Samuel 20:42 (.+?)I Samuel 21:2 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
 Esther 3:13 然後由眾驛使傳遞至帝國各省，限令在一天內，即十二月，「阿達爾」月十三日，把全國所有的猶太人，不論老幼婦孺，一律加以殲滅、屠殺、剷除，財產一律沒收。
 Esther 3:14 
 EOF;
@@ -998,6 +1008,25 @@ Esther 10:3 猶太人摩爾德開，位僅次於薛西斯王，受猶太人的�
 I Maccabees 1:1 
 EOF;
 if (!($bfile = preg_replace("/Esther 10:3 (.+?)I Maccabees 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Isaiah 63:19 我們儼然成了一個從未受你治理，從未屬你名下的民族。啊！
+Isaiah 63:20 望你衝破諸天降下，諸山在你面前震盪。  
+Isaiah 64:1 
+EOF;
+if (!($bfile = preg_replace("/Isaiah 63:19 (.+?)Isaiah 64:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Acts 19:40 關於今天的事，我們實在有被控作亂的危險，因為這本是無緣無故的；我們對這事，對這次集會，也不能指出理由來。」
+Acts 19:41 他說了這些話，纔把集會遣散了。
+Acts 20:1 
+EOF;
+if (!($bfile = preg_replace("/Acts 19:40 (.+?)Acts 20:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+II Corinthians 13:12 你們要以聖吻彼此問候；
+II Corinthians 13:13 這裏的聖徒問候你們。
+II Corinthians 13:14 願主耶穌基督的恩寵，和天主的愛情，以及聖神的相通，常與你們眾人相偕。
+Galatians 1:1 
+EOF;
+if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
