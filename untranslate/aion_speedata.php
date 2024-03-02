@@ -47,7 +47,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Basque|Breton).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Panjabi).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---(Hebrew---Living-Bible|[K-Z]+).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---(Ahirani|Hebrew---Living-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Burmese-Common).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Nepali-Bible|Oriya-Bible|Uyghur-Bible-Cyrillic|Uyghur-Bible-Pinyin).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(LXX|Khan).*---Aionian-Edition\.noia$/",
@@ -119,7 +119,7 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 	$numarialfont = ($args['database']['T_NUMBERS'][$bible][1] === '1' ? TRUE : FALSE);
 	$FOLDERS= '../AB-Fonts:../AB-Images:../AB-ISBN';
 	$DATA	= 'bible_data.xml';
-	$CONFIGVALS  = "data=$DATA\nautoopen=false\nextra-dir=$FOLDERS\ngrid=false\nruns=1\nxmlparser=lua\n";
+	$CONFIGVALS  = "data=$DATA\nautoopen=false\nextra-dir=$FOLDERS\ngrid=false\nruns=1\nxmlparser=lua\nverbose=true\nloglevel=info\n";
 	$CONFIGFILE  = 'bible_config.cfg';
 	// tags
 	$destiny_READ					= '---Aionian-Edition';
@@ -1520,31 +1520,31 @@ $fonts
 		<Case test="$rotated">
 			<ClearPage openon="left" pagetype="$page1colleftrotated"/>
 			<Bookmark level="1" select="'$bm_map'" open="no" />
-			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt' allocate='no'><Image file='$PIX_MAP_ABRAHAM' height='$MARGIN_MAPS_WIDTH' width='$MARGIN_MAPS_HEIGHT' clip='no' rotate='90' /></PlaceObject>
+			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt' allocate='no'><Image file='$PIX_MAP_ABRAHAM' height='$MARGIN_MAPS_WIDTH' width='$MARGIN_MAPS_HEIGHT' clip='no' rotate='90' /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_COLUMN" column="1" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$heb11_8</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP1 ',sd:current-page())" />
 
 			<ClearPage openon="right" pagetype="$page1colrightrotated"/>
-			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_EXODUS' height='$MARGIN_MAPS_WIDTH' width='$MARGIN_MAPS_HEIGHT' clip='no' rotate='90' /></PlaceObject>
+			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_EXODUS' height='$MARGIN_MAPS_WIDTH' width='$MARGIN_MAPS_HEIGHT' clip='no' rotate='90' /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_COLUMN" column="1" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$exo13_17</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP2 ',sd:current-page())" />
 
 			<ClearPage openon="left" pagetype="$page1colleft"/>
-			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt' allocate='no'><Image file='$PIX_MAP_JESUS' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
+			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt' allocate='no'><Image file='$PIX_MAP_JESUS' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_HEIGHT" column="$MARGIN_MAPS_COLUMN" rotate="-90" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$mar10_45</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP3 ',sd:current-page())" />
 
 			<ClearPage openon="right" pagetype="$page1colrightrotated"/>
-			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt' allocate='no'><Image file='$PIX_MAP_PAUL' height='$MARGIN_MAPS_WIDTH' width='$MARGIN_MAPS_HEIGHT' clip='no' rotate='90' /></PlaceObject>
+			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt' allocate='no'><Image file='$PIX_MAP_PAUL' height='$MARGIN_MAPS_WIDTH' width='$MARGIN_MAPS_HEIGHT' clip='no' rotate='90' /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_COLUMN" column="1" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$rom1_1</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP4 ',sd:current-page())" />
 
 			<ClearPage openon="left" pagetype="$page1colleftrotated"/>
-			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_TIMEA' height='$MARGIN_MAPS_WIDTH_TIME' width='$MARGIN_MAPS_HEIGHT_TIME' clip='no' /></PlaceObject>
+			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_TIMEA' height='$MARGIN_MAPS_WIDTH_TIME' width='$MARGIN_MAPS_HEIGHT_TIME' clip='no' /></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf TIMEA ',sd:current-page())" />
 
 			<ClearPage openon="right" pagetype="$page1colrightrotated"/>
-			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' ><Image file='$PIX_TIMEB' height='$MARGIN_MAPS_WIDTH_TIME' width='$MARGIN_MAPS_HEIGHT_TIME' clip='no' /></PlaceObject>
+			<PlaceObject row="1" column="1" background='full' background-color='white' ><Image file='$PIX_TIMEB' height='$MARGIN_MAPS_WIDTH_TIME' width='$MARGIN_MAPS_HEIGHT_TIME' clip='no' /></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf TIMEB ',sd:current-page())" />
 
 			<!-- LAKE OF FIRE -->
@@ -1554,57 +1554,57 @@ $fonts
 			<Message select="concat('ABPROOFER $outpdf LAKEOFFIRE ',sd:current-page())" />
 
 			<ClearPage openon="right" pagetype="$page1colrightrotated"/>
-			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_WORLD' height='$MARGIN_MAPS_WIDTH' width='$MARGIN_MAPS_HEIGHT' clip='no' rotate='90' /></PlaceObject>
+			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_WORLD' height='$MARGIN_MAPS_WIDTH' width='$MARGIN_MAPS_HEIGHT' clip='no' rotate='90' /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_COLUMN" column="1" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$mat28_19</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP5 ',sd:current-page())" />
 		</Case>
 		<Otherwise>
 			<ClearPage openon="left" pagetype="$page1colleft"/>
 			<Bookmark level="1" select="'$bm_map'" open="no" />
-			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_ABRAHAM' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
+			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_ABRAHAM' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_HEIGHT" column="$MARGIN_MAPS_COLUMN" rotate="-90" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$heb11_8</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP1 ',sd:current-page())" />
 
 			<ClearPage openon="right" pagetype="$page1colright"/>
-			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_EXODUS' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
+			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_EXODUS' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_HEIGHT" column="$MARGIN_MAPS_COLUMN" rotate="-90" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$exo13_17</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP2 ',sd:current-page())" />
 
 			<ClearPage openon="left" pagetype="$page1colleft"/>
-			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_JESUS' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
+			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_JESUS' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_HEIGHT" column="$MARGIN_MAPS_COLUMN" rotate="-90" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$mar10_45</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP3 ',sd:current-page())" />
 
 			<ClearPage openon="right" pagetype="$page1colright"/>
-			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_PAUL' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
+			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_PAUL' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_HEIGHT" column="$MARGIN_MAPS_COLUMN" rotate="-90" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$rom1_1</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP4 ',sd:current-page())" />
 
 			<Switch>
 				<Case test="$studyformat">
 					<ClearPage openon="left" pagetype="$page1colleft"/>
-					<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_TIMEA' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' rotate='-90'  /></PlaceObject>
+					<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_TIMEA' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' rotate='-90'  /></PlaceObject>
 					<Message select="concat('ABPROOFER $outpdf TIMEA ',sd:current-page())" />
 
 					<ClearPage openon="right" pagetype="$page1colright"/>
-					<PlaceObject row="1" column="1" background='full' backgroundcolor='white' ><Image file='$PIX_TIMEB' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' rotate='-90'  /></PlaceObject>
+					<PlaceObject row="1" column="1" background='full' background-color='white' ><Image file='$PIX_TIMEB' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' rotate='-90'  /></PlaceObject>
 					<Message select="concat('ABPROOFER $outpdf TIMEB ',sd:current-page())" />
 				</Case>			
 				<Otherwise>
 					<ClearPage openon="left" pagetype="$page1colleft"/>
-					<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_TIME1' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' /></PlaceObject>
+					<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_TIME1' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' /></PlaceObject>
 					<Message select="concat('ABPROOFER $outpdf TIME1 ',sd:current-page())" />
 
 					<ClearPage openon="right" pagetype="$page1colright"/>
-					<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_TIME2' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' /></PlaceObject>
+					<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_TIME2' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' /></PlaceObject>
 					<Message select="concat('ABPROOFER $outpdf TIME2 ',sd:current-page())" />
 
 					<ClearPage openon="left" pagetype="$page1colleft"/>
-					<PlaceObject row="1" column="1" background='full' backgroundcolor='white' ><Image file='$PIX_TIME3' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' /></PlaceObject>
+					<PlaceObject row="1" column="1" background='full' background-color='white' ><Image file='$PIX_TIME3' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' /></PlaceObject>
 					<Message select="concat('ABPROOFER $outpdf TIME3 ',sd:current-page())" />
 
 					<ClearPage openon="right" pagetype="$page1colright"/>
-					<PlaceObject row="1" column="1" background='full' backgroundcolor='white' ><Image file='$PIX_TIME4' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' /></PlaceObject>
+					<PlaceObject row="1" column="1" background='full' background-color='white' ><Image file='$PIX_TIME4' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' /></PlaceObject>
 					<Message select="concat('ABPROOFER $outpdf TIME4 ',sd:current-page())" />
 				</Otherwise>
 			</Switch>
@@ -1616,7 +1616,7 @@ $fonts
 			<Message select="concat('ABPROOFER $outpdf LAKEOFFIRE ',sd:current-page())" />
 		
 			<ClearPage openon="right" pagetype="$page1colright"/>
-			<PlaceObject row="1" column="1" background='full' backgroundcolor='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_WORLD' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
+			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_WORLD' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_HEIGHT" column="$MARGIN_MAPS_COLUMN" rotate="-90" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$mat28_19</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP5 ',sd:current-page())" />
 		</Otherwise>
@@ -2297,7 +2297,7 @@ $fonts
 	<!-- BACK -->
 	<SetVariable variable="xlocation" select="(0.75 + $hardmargin)"/>
 	<SetVariable variable="ylocation" select="(1.375 + $hardmargin)"/>
-	<PlaceObject row="{\$ylocation} in" column="{\$xlocation} in" background='full' backgroundcolor='purpledark' allocate="no">
+	<PlaceObject row="{\$ylocation} in" column="{\$xlocation} in" background='full' background-color='purpledark' allocate="no">
 	<Table width='4.75in' stretch='max' padding='0.125in'><Tr><Td>
 	<Paragraph language="English (USA)" textformat="center" color='white' fontfamily="FF-Btex">
 	$joh3_16<Br />
@@ -2319,7 +2319,7 @@ $fonts
 	<!-- ISBN WHITE BOX -->
 	<SetVariable variable="xlocation" select="(3.425 + $hardmargin)"/>
 	<SetVariable variable="ylocation" select="(7.775 + $hardmargin)"/>
-	<Switch><Case test='$isbnpixtest'><PlaceObject row="{\$ylocation} in" column="{\$xlocation} in" allocate="no" background="full" backgroundcolor="white"><Image file='$isbnpix' /></PlaceObject></Case></Switch>
+	<Switch><Case test='$isbnpixtest'><PlaceObject row="{\$ylocation} in" column="{\$xlocation} in" allocate="no" background="full" background-color="white"><Image file='$isbnpix' /></PlaceObject></Case></Switch>
 	
 	<!-- BINDING -->
 	<Switch>
@@ -2330,12 +2330,12 @@ $fonts
 			<DefineFontfamily name="FX-AioE" fontsize="25" leading="25"><Regular fontface="FT-IMPA"/></DefineFontfamily>
 			<DefineFontfamily name="FX-AioR" fontsize="12" leading="12"><Regular fontface="FT-REGU"/></DefineFontfamily>
 			<DefineFontfamily name="FX-VerE" fontsize="18" leading="18"><Regular fontface="FA-BOLD"/></DefineFontfamily>
-			<SetVariable variable="cover_bindX" select="\$cover_bindR - max(0,((\$cover_spineX - 0.825) div 2))"/>
+			<SetVariable variable="cover_bindX" select="\$cover_bindR - max((0,((\$cover_spineX - 0.825) div 2)))"/>
 			<SetVariable variable="ylocation" select="(0.375 + $hardmargin)"/>
 			<PlaceObject row="{\$ylocation} in" column="{\$cover_bindX} in" allocate="no" rotate='90'><Textblock width='4.125in'><Paragraph textformat="left" color='white'>
 				<Fontface fontfamily="FX-Holy"><Value>Holy Bible</Value></Fontface>
 			</Paragraph></Textblock></PlaceObject>
-			<SetVariable variable="cover_bindZ" select="\$cover_bindR - max(0,((\$cover_spineX - 1) div 2))"/>
+			<SetVariable variable="cover_bindZ" select="\$cover_bindR - max((0,((\$cover_spineX - 1) div 2)))"/>
 			<SetVariable variable="ylocation" select="(4.25 + $hardmargin)"/>
 			<PlaceObject row="{\$ylocation} in" column="{\$cover_bindZ} in" allocate="no" rotate='90'><Textblock width='5in'><Paragraph textformat="left" color='white'>
 				<Fontface fontfamily="FX-Aion"><Value>Aionian </Value></Fontface>
@@ -2351,7 +2351,7 @@ $fonts
 			<DefineFontfamily name="FX-AioE" fontsize="19" leading="26"><Regular fontface="FT-IMPA"/></DefineFontfamily>
 			<DefineFontfamily name="FX-AioR" fontsize="14" leading="26"><Regular fontface="FT-REGU"/></DefineFontfamily>
 			<DefineFontfamily name="FX-VerE" fontsize="19" leading="22"><Regular fontface="FA-BOLD"/></DefineFontfamily>
-			<SetVariable variable="cover_bindX" select="\$cover_bindR - max(0,((\$cover_spineX - 0.33) div 2))"/>
+			<SetVariable variable="cover_bindX" select="\$cover_bindR - max((0,((\$cover_spineX - 0.33) div 2)))"/>
 			<SetVariable variable="ylocation" select="(0.375 + $hardmargin)"/>
 			<PlaceObject row="{\$ylocation} in" column="{\$cover_bindX} in" allocate="no" rotate='90'><Textblock width='5in'><Paragraph textformat="left" color='white'>
 				<Fontface fontfamily="FX-Holy"><Value>Holy Bible</Value></Fontface>
@@ -2371,7 +2371,7 @@ $fonts
 			<DefineFontfamily name="FX-AioE" fontsize="17" leading="24"><Regular fontface="FT-IMPA"/></DefineFontfamily>
 			<DefineFontfamily name="FX-AioR" fontsize="12" leading="24"><Regular fontface="FT-REGU"/></DefineFontfamily>
 			<DefineFontfamily name="FX-VerE" fontsize="17" leading="20"><Regular fontface="FA-BOLD"/></DefineFontfamily>
-			<SetVariable variable="cover_bindX" select="\$cover_bindR - max(0,((\$cover_spineX - 0.28) div 2))"/>
+			<SetVariable variable="cover_bindX" select="\$cover_bindR - max((0,((\$cover_spineX - 0.28) div 2)))"/>
 			<SetVariable variable="ylocation" select="(0.375 + $hardmargin)"/>
 			<PlaceObject row="{\$ylocation} in" column="{\$cover_bindX} in" allocate="no" rotate='90'><Textblock width='5in'><Paragraph textformat="left" color='white'>
 				<Fontface fontfamily="FX-Holy"><Value>Holy Bible</Value></Fontface>
@@ -2391,7 +2391,7 @@ $fonts
 			<DefineFontfamily name="FX-AioE" fontsize="15" leading="22"><Regular fontface="FT-IMPA"/></DefineFontfamily>
 			<DefineFontfamily name="FX-AioR" fontsize="10" leading="22"><Regular fontface="FT-REGU"/></DefineFontfamily>
 			<DefineFontfamily name="FX-VerE" fontsize="15" leading="18"><Regular fontface="FA-BOLD"/></DefineFontfamily>
-			<SetVariable variable="cover_bindX" select="\$cover_bindR - max(0,((\$cover_spineX - 0.26) div 2))"/>
+			<SetVariable variable="cover_bindX" select="\$cover_bindR - max((0,((\$cover_spineX - 0.26) div 2)))"/>
 			<SetVariable variable="ylocation" select="(0.375 + $hardmargin)"/>
 			<PlaceObject row="{\$ylocation} in" column="{\$cover_bindX} in" allocate="no" rotate='90'><Textblock width='5in'><Paragraph textformat="left" color='white'>
 				<Fontface fontfamily="FX-Holy"><Value>Holy Bible</Value></Fontface>
@@ -2411,7 +2411,7 @@ $fonts
 			<DefineFontfamily name="FX-AioE" fontsize="11" leading="17"><Regular fontface="FT-IMPA"/></DefineFontfamily>
 			<DefineFontfamily name="FX-AioR" fontsize="8"  leading="17"><Regular fontface="FT-REGU"/></DefineFontfamily>
 			<DefineFontfamily name="FX-VerE" fontsize="14" leading="16"><Regular fontface="FA-BOLD"/></DefineFontfamily>
-			<SetVariable variable="cover_bindX" select="\$cover_bindR - max(0,((\$cover_spineX - 0.21) div 2))"/>
+			<SetVariable variable="cover_bindX" select="\$cover_bindR - max((0,((\$cover_spineX - 0.21) div 2)))"/>
 			<SetVariable variable="ylocation" select="(0.375 + $hardmargin)"/>
 			<PlaceObject row="{\$ylocation} in" column="{\$cover_bindX} in" allocate="no" rotate='90'><Textblock width='5in'><Paragraph textformat="left" color='white'>
 				<Fontface fontfamily="FX-Holy"><Value>Holy Bible</Value></Fontface>
@@ -2556,12 +2556,12 @@ $fonts
 			<DefineFontfamily name="FX-AioE" fontsize="25" leading="25"><Regular fontface="FT-IMPA"/></DefineFontfamily>
 			<DefineFontfamily name="FX-AioR" fontsize="12" leading="12"><Regular fontface="FT-REGU"/></DefineFontfamily>
 			<DefineFontfamily name="FX-VerE" fontsize="18" leading="18"><Regular fontface="FA-BOLD"/></DefineFontfamily>
-			<SetVariable variable="cover_bindX" select="\$cover_bindR - max(0,((\$cover_spineX - 0.825) div 2))"/>
+			<SetVariable variable="cover_bindX" select="\$cover_bindR - max((0,((\$cover_spineX - 0.825) div 2)))"/>
 			<SetVariable variable="ylocation" select="(0.375 + $hardmargin)"/>
 			<PlaceObject row="{\$ylocation} in" column="{\$cover_bindX} in" allocate="no" rotate='90'><Textblock width='4.125in'><Paragraph textformat="left" color='white'>
 				<Fontface fontfamily="FX-Holy"><Value>Holy Bible</Value></Fontface>
 			</Paragraph></Textblock></PlaceObject>
-			<SetVariable variable="cover_bindZ" select="\$cover_bindR - max(0,((\$cover_spineX - 1) div 2))"/>
+			<SetVariable variable="cover_bindZ" select="\$cover_bindR - max((0,((\$cover_spineX - 1) div 2)))"/>
 			<SetVariable variable="ylocation" select="(4.25 + $hardmargin)"/>
 			<PlaceObject row="{\$ylocation} in" column="{\$cover_bindZ} in" allocate="no" rotate='90'><Textblock width='5in'><Paragraph textformat="left" color='white'>
 				<Fontface fontfamily="FX-Aion"><Value>Aionian </Value></Fontface>
@@ -2577,7 +2577,7 @@ $fonts
 			<DefineFontfamily name="FX-AioE" fontsize="19" leading="26"><Regular fontface="FT-IMPA"/></DefineFontfamily>
 			<DefineFontfamily name="FX-AioR" fontsize="14" leading="26"><Regular fontface="FT-REGU"/></DefineFontfamily>
 			<DefineFontfamily name="FX-VerE" fontsize="19" leading="22"><Regular fontface="FA-BOLD"/></DefineFontfamily>
-			<SetVariable variable="cover_bindX" select="\$cover_bindR - max(0,((\$cover_spineX - 0.33) div 2))"/>
+			<SetVariable variable="cover_bindX" select="\$cover_bindR - max((0,((\$cover_spineX - 0.33) div 2)))"/>
 			<SetVariable variable="ylocation" select="(0.375 + $hardmargin)"/>
 			<PlaceObject row="{\$ylocation} in" column="{\$cover_bindX} in" allocate="no" rotate='90'><Textblock width='5in'><Paragraph textformat="left" color='white'>
 				<Fontface fontfamily="FX-Holy"><Value>Holy Bible</Value></Fontface>
@@ -2597,7 +2597,7 @@ $fonts
 			<DefineFontfamily name="FX-AioE" fontsize="17" leading="24"><Regular fontface="FT-IMPA"/></DefineFontfamily>
 			<DefineFontfamily name="FX-AioR" fontsize="12" leading="24"><Regular fontface="FT-REGU"/></DefineFontfamily>
 			<DefineFontfamily name="FX-VerE" fontsize="17" leading="20"><Regular fontface="FA-BOLD"/></DefineFontfamily>
-			<SetVariable variable="cover_bindX" select="\$cover_bindR - max(0,((\$cover_spineX - 0.28) div 2))"/>
+			<SetVariable variable="cover_bindX" select="\$cover_bindR - max((0,((\$cover_spineX - 0.28) div 2)))"/>
 			<SetVariable variable="ylocation" select="(0.375 + $hardmargin)"/>
 			<PlaceObject row="{\$ylocation} in" column="{\$cover_bindX} in" allocate="no" rotate='90'><Textblock width='5in'><Paragraph textformat="left" color='white'>
 				<Fontface fontfamily="FX-Holy"><Value>Holy Bible</Value></Fontface>
@@ -2617,7 +2617,7 @@ $fonts
 			<DefineFontfamily name="FX-AioE" fontsize="15" leading="22"><Regular fontface="FT-IMPA"/></DefineFontfamily>
 			<DefineFontfamily name="FX-AioR" fontsize="10" leading="22"><Regular fontface="FT-REGU"/></DefineFontfamily>
 			<DefineFontfamily name="FX-VerE" fontsize="15" leading="18"><Regular fontface="FA-BOLD"/></DefineFontfamily>
-			<SetVariable variable="cover_bindX" select="\$cover_bindR - max(0,((\$cover_spineX - 0.26) div 2))"/>
+			<SetVariable variable="cover_bindX" select="\$cover_bindR - max((0,((\$cover_spineX - 0.26) div 2)))"/>
 			<SetVariable variable="ylocation" select="(0.375 + $hardmargin)"/>
 			<PlaceObject row="{\$ylocation} in" column="{\$cover_bindX} in" allocate="no" rotate='90'><Textblock width='5in'><Paragraph textformat="left" color='white'>
 				<Fontface fontfamily="FX-Holy"><Value>Holy Bible</Value></Fontface>
@@ -2637,7 +2637,7 @@ $fonts
 			<DefineFontfamily name="FX-AioE" fontsize="11" leading="17"><Regular fontface="FT-IMPA"/></DefineFontfamily>
 			<DefineFontfamily name="FX-AioR" fontsize="8"  leading="17"><Regular fontface="FT-REGU"/></DefineFontfamily>
 			<DefineFontfamily name="FX-VerE" fontsize="14" leading="16"><Regular fontface="FA-BOLD"/></DefineFontfamily>
-			<SetVariable variable="cover_bindX" select="\$cover_bindR - max(0,((\$cover_spineX - 0.21) div 2))"/>
+			<SetVariable variable="cover_bindX" select="\$cover_bindR - max((0,((\$cover_spineX - 0.21) div 2)))"/>
 			<SetVariable variable="ylocation" select="(0.375 + $hardmargin)"/>
 			<PlaceObject row="{\$ylocation} in" column="{\$cover_bindX} in" allocate="no" rotate='90'><Textblock width='5in'><Paragraph textformat="left" color='white'>
 				<Fontface fontfamily="FX-Holy"><Value>Holy Bible</Value></Fontface>
@@ -2658,7 +2658,7 @@ $fonts
 	<!-- RTL BACK -->
 	<SetVariable variable="xlocation" select="(\$cover_width - 0.75 - 4.75 - $hardmargin)"/>
 	<SetVariable variable="ylocation" select="(1.375 + $hardmargin)"/>
-	<PlaceObject row="{\$ylocation} in" column="{\$xlocation} in" background='full' backgroundcolor='purpledark' allocate="no">
+	<PlaceObject row="{\$ylocation} in" column="{\$xlocation} in" background='full' background-color='purpledark' allocate="no">
 	<Table width='4.75in' stretch='max' padding='0.125in'><Tr><Td>
 	<Paragraph language="English (USA)" textformat="center" color='white' fontfamily="FF-Btex" $bidi_center>
 	$joh3_16<Br />
@@ -2681,7 +2681,7 @@ $fonts
 	<SetVariable variable="xlocation" select="(\$cover_width - $hardmargin - 6 + 3.425)"/>
 	<SetVariable variable="xlocation" select="(3.425 + $hardmargin)"/>
 	<SetVariable variable="ylocation" select="(7.775 + $hardmargin)"/>
-	<Switch><Case test='$isbnpixtest'><PlaceObject row="{\$ylocation} in" column="{\$xlocation} in" allocate="no" background="full" backgroundcolor="white"><Image file='$isbnpix' /></PlaceObject></Case></Switch>
+	<Switch><Case test='$isbnpixtest'><PlaceObject row="{\$ylocation} in" column="{\$xlocation} in" allocate="no" background="full" background-color="white"><Image file='$isbnpix' /></PlaceObject></Case></Switch>
 	
 </Record>
 </Layout>
