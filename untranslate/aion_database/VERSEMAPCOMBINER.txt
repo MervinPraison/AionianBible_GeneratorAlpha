@@ -44,6 +44,7 @@ Holy-Bible---Chichewa---Chichewa-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Chinese---Chinese-Easy-to-Read	064	3JO	001	014	14	1	end
 Holy-Bible---Chinese---Chinese-Sigao-Bible	007	JDG	005	031	31	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	009	1SA	020	042	42	1	end
 Holy-Bible---Chinese---Chinese-Sigao-Bible	011	1KI	022	043	53	1	end
 Holy-Bible---Chinese---Chinese-Sigao-Bible	013	1CH	012	004	40	1	end
 Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	003	001	8	1	end
@@ -74,16 +75,16 @@ Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	046	001	11	1	end
 Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	047	001	9	1	end
 Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	048	001	14	1	end
 Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	049	001	20	1	end
-Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	051	001	19	1	end
-Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	052	001	9	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	051	001	19	2	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	052	001	9	2	end
 Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	053	001	6	1	end
-Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	054	001	7	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	054	001	7	2	end
 Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	055	001	23	1	end
 Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	056	001	13	1	end
 Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	057	001	11	1	end
 Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	058	001	11	1	end
 Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	059	001	17	1	end
-Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	060	001	12	1	end
+Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	060	001	12	2	end
 Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	061	001	8	1	end
 Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	062	001	12	1	end
 Holy-Bible---Chinese---Chinese-Sigao-Bible	019	PSA	063	001	11	1	end
@@ -118,14 +119,17 @@ Holy-Bible---Chin-Matu---Matupi-Chin-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible							end
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	066	REV	012	018	1	-1	end
+Holy-Bible---Chin-Thado---Chongthu-Bible	022	SOL	006	013	13	1	end
 Holy-Bible---Chin-Thado---Chongthu-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Chin-Thado---Chongthu-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Chiyawo---Yao	064	3JO	001	014	14	1	end
 Holy-Bible---Chiyawo---Yao	066	REV	012	018	1	-1	end
 Holy-Bible---Coptic---Coptic-Boharic-NT	064	3JO	001	014	14	1	end
 Holy-Bible---Coptic---Coptic-NT	064	3JO	001	014	14	1	end
-Holy-Bible---Coptic---Sahidic-Bible-2							end
-Holy-Bible---Coptic---Sahidic-Coptic-Horner							end
+Holy-Bible---Coptic---Sahidic-Bible-2	064	3JO	001	014	14	1	end
+Holy-Bible---Coptic---Sahidic-Bible-2	066	REV	012	018	1	-1	end
+Holy-Bible---Coptic---Sahidic-Coptic-Horner	064	3JO	001	014	14	1	end
+Holy-Bible---Coptic---Sahidic-Coptic-Horner	066	REV	012	018	1	-1	end
 Holy-Bible---Croatian---Croatian-Bible	009	1SA	020	042	42	1	end
 Holy-Bible---Croatian---Croatian-Bible	011	1KI	022	043	53	1	end
 Holy-Bible---Croatian---Croatian-Bible	013	1CH	012	004	40	1	end
@@ -197,12 +201,89 @@ Holy-Bible---Croatian---Croatian-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Croatian---Croatian-Bible							end
 Holy-Bible---Czech---Czech-Bible-Kralicka	019	PSA	022	001	31	1	end
 Holy-Bible---Czech---Czech-Bible-Kralicka							end
+Holy-Bible---Czech---Kralicka	009	1SA	020	042	42	1	end
+Holy-Bible---Czech---Kralicka	011	1KI	022	043	53	1	end
+Holy-Bible---Czech---Kralicka	018	JOB	031	040	40	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	003	001	8	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	004	001	8	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	005	001	12	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	006	001	10	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	007	001	17	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	008	001	9	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	009	001	20	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	012	001	8	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	018	001	50	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	019	001	14	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	020	001	9	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	021	001	13	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	022	001	31	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	030	001	12	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	031	001	24	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	034	001	22	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	036	001	12	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	038	001	22	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	039	001	13	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	040	001	17	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	041	001	13	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	042	001	11	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	044	001	26	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	045	001	17	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	046	001	11	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	047	001	9	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	048	001	14	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	049	001	20	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	051	001	19	2	end
+Holy-Bible---Czech---Kralicka	019	PSA	052	001	9	2	end
+Holy-Bible---Czech---Kralicka	019	PSA	053	001	6	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	054	001	7	2	end
+Holy-Bible---Czech---Kralicka	019	PSA	055	001	23	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	056	001	13	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	057	001	11	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	058	001	11	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	059	001	17	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	060	001	12	2	end
+Holy-Bible---Czech---Kralicka	019	PSA	061	001	8	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	062	001	12	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	063	001	11	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	064	001	10	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	065	001	13	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	067	001	7	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	068	001	35	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	069	001	36	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	070	001	5	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	075	001	10	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	076	001	12	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	077	001	20	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	080	001	19	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	081	001	16	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	083	001	18	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	084	001	12	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	085	001	13	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	088	001	18	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	089	001	52	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	092	001	15	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	102	001	28	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	108	001	13	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	140	001	13	1	end
+Holy-Bible---Czech---Kralicka	019	PSA	142	001	7	1	end
+Holy-Bible---Czech---Kralicka	021	ECC	007	030	1	-1	end
+Holy-Bible---Czech---Kralicka	043	JOH	001	038	51	1	end
+Holy-Bible---Czech---Kralicka	064	3JO	001	014	14	1	end
+Holy-Bible---Czech---Kralicka	066	REV	012	018	1	-1	end
 Holy-Bible---Czech---Kralicka							end
+Holy-Bible---Czech---Living-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Czech---Living-Bible							end
+Holy-Bible---Danish---Danish-1871-1907	064	3JO	001	014	14	1	end
+Holy-Bible---Danish---Danish-1871-1907	066	REV	012	018	1	-1	end
 Holy-Bible---Danish---Danish-1871-1907							end
+Holy-Bible---Danish---Danish-1931-1907	064	3JO	001	014	14	1	end
+Holy-Bible---Danish---Danish-1931-1907	066	REV	012	018	1	-1	end
 Holy-Bible---Danish---Danish-1931-1907							end
 Holy-Bible---Danish---Danish-Bible							end
+Holy-Bible---Desiya---Desiya-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Desiya---Desiya-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Desiya---Desiya-Bible							end
+Holy-Bible---Dholuo---Dholuo-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Dholuo---Dholuo-Bible							end
 Holy-Bible---Dombe---Dombe-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Dombe---Dombe-Bible	066	REV	012	018	1	-1	end
@@ -526,6 +607,7 @@ Holy-Bible---English---Douay-Rheims-1899	043	JOH	006	051	71	1	end
 Holy-Bible---English---Douay-Rheims-1899	066	REV	012	018	1	-1	end
 Holy-Bible---English---Douay-Rheims-1899							end
 Holy-Bible---English---Family-35-NT							end
+Holy-Bible---English---Free-Bible-Version	064	3JO	001	014	14	1	end
 Holy-Bible---English---Free-Bible-Version							end
 Holy-Bible---English---Geneva-Bible	009	1SA	020	042	42	1	end
 Holy-Bible---English---Geneva-Bible	026	EZE	001	028	28	1	end
@@ -592,6 +674,7 @@ Holy-Bible---English---World-English-Bible-Updated							end
 Holy-Bible---English---World-English-Bible-Updated-British							end
 Holy-Bible---English---World-Messianic-Bible							end
 Holy-Bible---English---World-Messianic-Bible-British-Edition							end
+Holy-Bible---English---Worsley-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---English---Worsley-Bible							end
 Holy-Bible---English---Wycliffe-Bible	004	NUM	020	028	29	1	end
 Holy-Bible---English---Wycliffe-Bible	006	JOS	004	023	24	1	end
@@ -671,6 +754,7 @@ Holy-Bible---English---Wycliffe-Bible							end
 Holy-Bible---English---Youngs-Literal-Translation							end
 Holy-Bible---Esperanto---Esperanto-Bible							end
 Holy-Bible---Estonian---For-All							end
+Holy-Bible---Ewe---Word-of-Life	064	3JO	001	014	14	1	end
 Holy-Bible---Ewe---Word-of-Life							end
 Holy-Bible---Finnish---Finnish-Bible							end
 Holy-Bible---Finnish---Finnish-Pyha-Raamattu							end
@@ -744,6 +828,75 @@ Holy-Bible---French---French-Crampon-Bible	019	PSA	140	001	13	1	end
 Holy-Bible---French---French-Crampon-Bible	019	PSA	142	001	7	1	end
 Holy-Bible---French---French-Crampon-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---French---French-Crampon-Bible							end
+Holy-Bible---French---French-Crampon-Bible-New	004	NUM	025	019	1	-1	end
+Holy-Bible---French---French-Crampon-Bible-New	009	1SA	020	042	42	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	003	001	8	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	004	001	8	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	005	001	12	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	006	001	10	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	007	001	17	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	008	001	9	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	009	001	20	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	012	001	8	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	018	001	50	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	019	001	14	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	020	001	9	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	021	001	13	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	022	001	31	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	030	001	12	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	031	001	24	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	034	001	22	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	036	001	12	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	038	001	22	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	039	001	13	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	040	001	17	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	041	001	13	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	042	001	11	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	044	001	26	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	045	001	17	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	046	001	11	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	047	001	9	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	048	001	14	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	049	001	20	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	051	001	19	2	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	052	001	9	2	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	053	001	6	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	054	001	7	2	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	055	001	23	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	056	001	13	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	057	001	11	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	058	001	11	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	059	001	17	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	060	001	12	2	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	061	001	8	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	062	001	12	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	063	001	11	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	064	001	10	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	065	001	13	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	067	001	7	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	068	001	35	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	069	001	36	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	070	001	5	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	075	001	10	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	076	001	12	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	077	001	20	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	080	001	19	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	081	001	16	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	083	001	18	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	084	001	12	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	085	001	13	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	088	001	18	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	089	001	52	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	092	001	15	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	101	001	8	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	102	001	28	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	108	001	13	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	140	001	13	1	end
+Holy-Bible---French---French-Crampon-Bible-New	019	PSA	142	001	7	1	end
+Holy-Bible---French---French-Crampon-Bible-New	064	3JO	001	014	14	1	end
+Holy-Bible---French---French-Crampon-Bible-New	066	REV	012	018	1	-1	end
+Holy-Bible---French---French-Crampon-Bible-New	007	JDG	005	031	31	1	end
+Holy-Bible---French---French-Crampon-Bible-New	011	1KI	022	043	53	1	end
 Holy-Bible---French---French-Crampon-Bible-New							end
 Holy-Bible---French---French-Darby-Bible	009	1SA	020	042	42	1	end
 Holy-Bible---French---French-Darby-Bible	011	1KI	022	043	53	1	end
@@ -1033,7 +1186,85 @@ Holy-Bible---French---French-Ostervald-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---French---French-Perret-Gentil-Rilliet							end
 Holy-Bible---French---French-Stapfer-Bible							end
 Holy-Bible---French---French-Synodale-Bible							end
+Holy-Bible---French---Vulgate-Glaire	004	NUM	020	028	29	1	end
+Holy-Bible---French---Vulgate-Glaire	006	JOS	004	023	24	1	end
+Holy-Bible---French---Vulgate-Glaire	006	JOS	005	014	15	1	end
+Holy-Bible---French---Vulgate-Glaire	007	JDG	005	031	31	1	end
+Holy-Bible---French---Vulgate-Glaire	009	1SA	020	042	42	1	end
+Holy-Bible---French---Vulgate-Glaire	011	1KI	022	043	53	1	end
+Holy-Bible---French---Vulgate-Glaire	018	JOB	016	004	22	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	002	012	12	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	003	001	8	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	004	001	8	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	005	001	12	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	006	001	10	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	007	001	17	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	008	001	9	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	009	001	20	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	011	001	7	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	012	001	8	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	018	001	50	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	019	001	14	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	020	001	9	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	021	001	13	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	022	001	31	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	030	001	12	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	031	001	24	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	034	001	22	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	036	001	12	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	038	001	22	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	039	001	13	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	040	001	17	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	041	001	13	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	042	001	11	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	044	001	26	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	045	001	17	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	046	001	11	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	047	001	9	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	048	001	14	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	049	001	20	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	051	001	19	2	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	052	001	9	2	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	053	001	6	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	054	001	7	2	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	055	001	23	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	056	001	13	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	057	001	11	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	058	001	11	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	059	001	17	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	060	001	12	2	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	061	001	8	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	062	001	12	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	063	001	11	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	064	001	10	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	065	001	13	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	067	001	7	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	068	001	35	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	069	001	36	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	070	001	5	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	075	001	10	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	076	001	12	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	077	001	20	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	080	001	19	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	081	001	16	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	083	001	18	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	084	001	12	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	085	001	13	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	088	001	18	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	089	001	52	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	092	001	15	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	102	001	28	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	108	001	13	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	140	001	13	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	142	001	7	1	end
+Holy-Bible---French---Vulgate-Glaire	023	ISA	045	023	25	1	end
+Holy-Bible---French---Vulgate-Glaire	028	HOS	002	023	23	1	end
+Holy-Bible---French---Vulgate-Glaire	030	AMO	006	010	14	1	end
+Holy-Bible---French---Vulgate-Glaire	043	JOH	006	051	71	1	end
+Holy-Bible---French---Vulgate-Glaire	066	REV	012	018	1	-1	end
 Holy-Bible---French---Vulgate-Glaire							end
+Holy-Bible---Gamotso---Gamo	064	3JO	001	014	14	1	end
+Holy-Bible---Gamotso---Gamo	066	REV	012	018	1	-1	end
 Holy-Bible---Gamotso---Gamo							end
 Holy-Bible---German---German-Albrecht							end
 Holy-Bible---German---German-Elberfelder-1871							end
@@ -1234,6 +1465,73 @@ Holy-Bible---German---German-Luther-Bible-1545	019	PSA	108	001	12	1	end
 Holy-Bible---German---German-Luther-Bible-1545	019	PSA	140	001	12	1	end
 Holy-Bible---German---German-Luther-Bible-1545	019	PSA	142	001	6	1	end
 Holy-Bible---German---German-Luther-Bible-1912							end
+Holy-Bible---German---German-Menge	009	1SA	020	042	42	1	end
+Holy-Bible---German---German-Menge	011	1KI	022	043	53	1	end
+Holy-Bible---German---German-Menge	013	1CH	012	004	40	1	end
+Holy-Bible---German---German-Menge	019	PSA	003	001	8	1	end
+Holy-Bible---German---German-Menge	019	PSA	004	001	8	1	end
+Holy-Bible---German---German-Menge	019	PSA	005	001	12	1	end
+Holy-Bible---German---German-Menge	019	PSA	006	001	10	1	end
+Holy-Bible---German---German-Menge	019	PSA	007	001	17	1	end
+Holy-Bible---German---German-Menge	019	PSA	008	001	9	1	end
+Holy-Bible---German---German-Menge	019	PSA	009	001	20	1	end
+Holy-Bible---German---German-Menge	019	PSA	012	001	8	1	end
+Holy-Bible---German---German-Menge	019	PSA	018	001	50	1	end
+Holy-Bible---German---German-Menge	019	PSA	019	001	14	1	end
+Holy-Bible---German---German-Menge	019	PSA	020	001	9	1	end
+Holy-Bible---German---German-Menge	019	PSA	021	001	13	1	end
+Holy-Bible---German---German-Menge	019	PSA	022	001	31	1	end
+Holy-Bible---German---German-Menge	019	PSA	030	001	12	1	end
+Holy-Bible---German---German-Menge	019	PSA	031	001	24	1	end
+Holy-Bible---German---German-Menge	019	PSA	034	001	22	1	end
+Holy-Bible---German---German-Menge	019	PSA	036	001	12	1	end
+Holy-Bible---German---German-Menge	019	PSA	038	001	22	1	end
+Holy-Bible---German---German-Menge	019	PSA	039	001	13	1	end
+Holy-Bible---German---German-Menge	019	PSA	040	001	17	1	end
+Holy-Bible---German---German-Menge	019	PSA	041	001	13	1	end
+Holy-Bible---German---German-Menge	019	PSA	042	001	11	1	end
+Holy-Bible---German---German-Menge	019	PSA	044	001	26	1	end
+Holy-Bible---German---German-Menge	019	PSA	045	001	17	1	end
+Holy-Bible---German---German-Menge	019	PSA	046	001	11	1	end
+Holy-Bible---German---German-Menge	019	PSA	047	001	9	1	end
+Holy-Bible---German---German-Menge	019	PSA	048	001	14	1	end
+Holy-Bible---German---German-Menge	019	PSA	049	001	20	1	end
+Holy-Bible---German---German-Menge	019	PSA	051	001	19	2	end
+Holy-Bible---German---German-Menge	019	PSA	052	001	9	2	end
+Holy-Bible---German---German-Menge	019	PSA	053	001	6	1	end
+Holy-Bible---German---German-Menge	019	PSA	054	001	7	2	end
+Holy-Bible---German---German-Menge	019	PSA	055	001	23	1	end
+Holy-Bible---German---German-Menge	019	PSA	056	001	13	1	end
+Holy-Bible---German---German-Menge	019	PSA	057	001	11	1	end
+Holy-Bible---German---German-Menge	019	PSA	058	001	11	1	end
+Holy-Bible---German---German-Menge	019	PSA	059	001	17	1	end
+Holy-Bible---German---German-Menge	019	PSA	060	001	12	2	end
+Holy-Bible---German---German-Menge	019	PSA	061	001	8	1	end
+Holy-Bible---German---German-Menge	019	PSA	062	001	12	1	end
+Holy-Bible---German---German-Menge	019	PSA	063	001	11	1	end
+Holy-Bible---German---German-Menge	019	PSA	064	001	10	1	end
+Holy-Bible---German---German-Menge	019	PSA	065	001	13	1	end
+Holy-Bible---German---German-Menge	019	PSA	067	001	7	1	end
+Holy-Bible---German---German-Menge	019	PSA	068	001	35	1	end
+Holy-Bible---German---German-Menge	019	PSA	069	001	36	1	end
+Holy-Bible---German---German-Menge	019	PSA	070	001	5	1	end
+Holy-Bible---German---German-Menge	019	PSA	075	001	10	1	end
+Holy-Bible---German---German-Menge	019	PSA	076	001	12	1	end
+Holy-Bible---German---German-Menge	019	PSA	077	001	20	1	end
+Holy-Bible---German---German-Menge	019	PSA	080	001	19	1	end
+Holy-Bible---German---German-Menge	019	PSA	081	001	16	1	end
+Holy-Bible---German---German-Menge	019	PSA	083	001	18	1	end
+Holy-Bible---German---German-Menge	019	PSA	084	001	12	1	end
+Holy-Bible---German---German-Menge	019	PSA	085	001	13	1	end
+Holy-Bible---German---German-Menge	019	PSA	088	001	18	1	end
+Holy-Bible---German---German-Menge	019	PSA	089	001	52	1	end
+Holy-Bible---German---German-Menge	019	PSA	092	001	15	1	end
+Holy-Bible---German---German-Menge	019	PSA	102	001	28	1	end
+Holy-Bible---German---German-Menge	019	PSA	108	001	13	1	end
+Holy-Bible---German---German-Menge	019	PSA	140	001	13	1	end
+Holy-Bible---German---German-Menge	019	PSA	142	001	7	1	end
+Holy-Bible---German---German-Menge	064	3JO	001	014	14	1	end
+Holy-Bible---German---German-Menge	066	REV	012	018	1	-1	end
 Holy-Bible---German---German-Menge							end
 Holy-Bible---German---German-Reinhardt-Bible							end
 Holy-Bible---German---German-Schlachter							end
@@ -1301,12 +1599,18 @@ Holy-Bible---German---German-Tafel-Bible	019	PSA	108	001	13	1	end
 Holy-Bible---German---German-Tafel-Bible	019	PSA	140	001	13	1	end
 Holy-Bible---German---German-Tafel-Bible	019	PSA	142	001	7	1	end
 Holy-Bible---Gikuyu---Kikuyu							end
+Holy-Bible---Gofa---Gofa-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Gofa---Gofa-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Gofa---Gofa-Bible							end
 Holy-Bible---Gourma---Gourma-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Gourma---Gourma-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Gourmantche---Gourmantche-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Gourmantche---Gourmantche-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Greek---Greek-Antoniades							end
+Holy-Bible---Greek---Greek-Byzantine	043	JOH	001	038	51	1	end
+Holy-Bible---Greek---Greek-Byzantine	064	3JO	001	014	14	1	end
+Holy-Bible---Greek---Greek-Byzantine	066	REV	012	018	1	-1	end
+Holy-Bible---Greek---Greek-Byzantine	066	REV	015	008	8	1	end
 Holy-Bible---Greek---Greek-Byzantine							end
 Holy-Bible---Greek---Greek-Byzantine-Majority							end
 Holy-Bible---Greek---Greek-LXX-Septuagint	009	1SA	020	042	42	1	end
@@ -1380,8 +1684,12 @@ Holy-Bible---Greek---Greek-Modern-Kathareuousa							end
 Holy-Bible---Greek---Greek-Nestle	064	3JO	001	014	14	1	end
 Holy-Bible---Greek---Greek-Nestle	066	REV	012	018	1	-1	end
 Holy-Bible---Greek---Greek-Pickering-Family-35							end
+Holy-Bible---Greek---Greek-SBL	064	3JO	001	014	14	1	end
+Holy-Bible---Greek---Greek-SBL	066	REV	012	018	1	-1	end
 Holy-Bible---Greek---Greek-SBL							end
 Holy-Bible---Greek---Greek-Scrivener							end
+Holy-Bible---Greek---Greek-Statistical-Restoration	064	3JO	001	014	14	1	end
+Holy-Bible---Greek---Greek-Statistical-Restoration	066	REV	012	018	1	-1	end
 Holy-Bible---Greek---Greek-Statistical-Restoration							end
 Holy-Bible---Greek---Greek-Stephanus							end
 Holy-Bible---Greek---Greek-Textus-Receptus	064	3JO	001	014	14	1	end
@@ -1396,13 +1704,20 @@ Holy-Bible---Greek---Greek-Tregelles	066	REV	012	018	1	-1	end
 Holy-Bible---Greek---Greek-TR-Stephanus-Scrivener							end
 Holy-Bible---Greek---Greek-Westcott-Hort	064	3JO	001	014	14	1	end
 Holy-Bible---Greek---Greek-Westcott-Hort	066	REV	012	018	1	-1	end
+Holy-Bible---Greek---Greek-Westcott-Hort							end
 Holy-Bible---Greek---Text-Critical							end
 Holy-Bible---Gujarati---Gujarati-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Gujarati---Gujarati-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Haitian---Haitian-Creole-Bible							end
+Holy-Bible---Haitian---Haitian-Creole-Smith	064	3JO	001	014	14	1	end
 Holy-Bible---Haitian---Haitian-Creole-Smith							end
+Holy-Bible---Haryanvi---Haryanvi-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Haryanvi---Haryanvi-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Haryanvi---Haryanvi-Bible							end
+Holy-Bible---Hausa---Contemporary	064	3JO	001	014	14	1	end
 Holy-Bible---Hausa---Contemporary							end
+Holy-Bible---Hausa---Hausa-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Hausa---Hausa-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Hausa---Hausa-Bible							end
 Holy-Bible---Hawaiian---Hawaiian-Bible-1868							end
 Holy-Bible---Hebrew---Hebrew-Aleppo-Codex	009	1SA	020	042	42	1	end
@@ -1471,7 +1786,73 @@ Holy-Bible---Hebrew---Hebrew-Aleppo-Codex	019	PSA	108	001	13	1	end
 Holy-Bible---Hebrew---Hebrew-Aleppo-Codex	019	PSA	140	001	13	1	end
 Holy-Bible---Hebrew---Hebrew-Aleppo-Codex	019	PSA	142	001	7	1	end
 Holy-Bible---Hebrew---Hebrew-Aleppo-Codex							end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	009	1SA	020	042	42	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	011	1KI	022	043	53	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	013	1CH	012	004	40	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	003	001	8	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	004	001	8	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	005	001	12	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	006	001	10	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	007	001	17	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	008	001	9	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	009	001	20	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	012	001	8	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	018	001	50	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	019	001	14	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	020	001	9	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	021	001	13	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	022	001	31	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	030	001	12	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	031	001	24	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	034	001	22	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	036	001	12	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	038	001	22	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	039	001	13	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	040	001	17	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	041	001	13	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	042	001	11	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	044	001	26	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	045	001	17	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	046	001	11	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	047	001	9	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	048	001	14	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	049	001	20	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	051	001	19	2	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	052	001	9	2	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	053	001	6	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	054	001	7	2	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	055	001	23	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	056	001	13	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	057	001	11	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	058	001	11	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	059	001	17	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	060	001	12	2	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	061	001	8	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	062	001	12	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	063	001	11	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	064	001	10	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	065	001	13	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	067	001	7	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	068	001	35	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	069	001	36	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	070	001	5	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	075	001	10	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	076	001	12	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	077	001	20	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	080	001	19	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	081	001	16	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	083	001	18	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	084	001	12	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	085	001	13	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	088	001	18	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	089	001	52	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	092	001	15	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	102	001	28	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	108	001	13	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	140	001	13	1	end
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	019	PSA	142	001	7	1	end
 Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah							end
+Holy-Bible---Hebrew---Hebrew-Masoretic-OT	004	NUM	025	019	1	-1	end
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT	009	1SA	021	001	15	1	end
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT	011	1KI	022	043	53	1	end
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT	013	1CH	012	004	40	1	end
@@ -1538,6 +1919,7 @@ Holy-Bible---Hebrew---Hebrew-Masoretic-OT	019	PSA	108	001	13	1	end
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT	019	PSA	140	001	13	1	end
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT	019	PSA	142	001	7	1	end
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT							end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	004	NUM	025	019	1	-1	end
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	009	1SA	021	001	15	1	end
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	011	1KI	022	043	53	1	end
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	013	1CH	012	004	40	1	end
@@ -1604,12 +1986,144 @@ Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	019	PSA	108	001	13	1	end
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	019	PSA	140	001	13	1	end
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	019	PSA	142	001	7	1	end
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad							end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	009	1SA	020	042	42	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	011	1KI	022	043	53	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	013	1CH	012	004	40	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	003	001	8	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	004	001	8	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	005	001	12	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	006	001	10	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	007	001	17	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	008	001	9	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	009	001	20	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	012	001	8	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	018	001	50	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	019	001	14	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	020	001	9	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	021	001	13	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	022	001	31	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	030	001	12	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	031	001	24	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	034	001	22	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	036	001	12	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	038	001	22	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	039	001	13	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	040	001	17	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	041	001	13	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	042	001	11	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	044	001	26	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	045	001	17	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	046	001	11	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	047	001	9	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	048	001	14	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	049	001	20	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	051	001	19	2	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	052	001	9	2	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	053	001	6	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	054	001	7	2	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	055	001	23	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	056	001	13	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	057	001	11	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	058	001	11	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	059	001	17	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	060	001	12	2	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	061	001	8	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	062	001	12	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	063	001	11	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	064	001	10	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	065	001	13	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	067	001	7	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	068	001	35	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	069	001	36	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	070	001	5	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	075	001	10	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	076	001	12	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	077	001	20	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	080	001	19	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	081	001	16	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	083	001	18	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	084	001	12	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	085	001	13	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	088	001	18	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	089	001	52	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	092	001	15	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	102	001	28	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	108	001	13	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	140	001	13	1	end
+Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	019	PSA	142	001	7	1	end
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball							end
+Holy-Bible---Hebrew---Living-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Hebrew---Living-Bible							end
 Holy-Bible---Hebrew---Modern-Hebrew-Bible							end
+Holy-Bible---Hindi---Contemporary	064	3JO	001	014	14	1	end
 Holy-Bible---Hindi---Contemporary							end
 Holy-Bible---Hindi---Hindi-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Hindi---Hindi-Bible	066	REV	012	018	1	-1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	009	1SA	020	042	42	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	011	1KI	022	043	53	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	013	1CH	012	004	40	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	003	001	8	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	004	001	8	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	005	001	12	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	006	001	10	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	007	001	17	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	008	001	9	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	009	001	20	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	012	001	8	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	018	001	50	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	019	001	14	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	020	001	9	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	021	001	13	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	022	001	31	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	030	001	12	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	031	001	24	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	034	001	22	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	036	001	12	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	038	001	22	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	039	001	13	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	040	001	17	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	041	001	13	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	042	001	11	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	044	001	26	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	045	001	17	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	046	001	11	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	047	001	9	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	048	001	14	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	049	001	20	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	051	001	19	2	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	052	001	9	2	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	053	001	6	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	054	001	7	2	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	055	001	23	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	056	001	13	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	057	001	11	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	058	001	11	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	059	001	17	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	060	001	12	2	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	061	001	8	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	062	001	12	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	063	001	11	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	064	001	10	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	065	001	13	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	067	001	7	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	068	001	35	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	069	001	36	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	070	001	5	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	075	001	10	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	076	001	12	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	077	001	20	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	080	001	19	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	081	001	16	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	083	001	18	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	084	001	12	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	085	001	13	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	088	001	18	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	089	001	52	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	092	001	15	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	102	001	28	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	108	001	13	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	140	001	13	1	end
+Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	142	001	7	1	end
 Holy-Bible---Hungarian---Hungarian-Jewish-Bible							end
 Holy-Bible---Hungarian---Hungarian-Karoli	009	1SA	020	042	42	1	end
 Holy-Bible---Hungarian---Hungarian-Karoli	011	1KI	022	043	53	1	end
@@ -1679,12 +2193,80 @@ Holy-Bible---Hungarian---Hungarian-Karoli	043	JOH	001	038	51	1	end
 Holy-Bible---Hungarian---Hungarian-Karoli	064	3JO	001	014	14	1	end
 Holy-Bible---Hungarian---Hungarian-Karoli	066	REV	012	018	1	-1	end
 Holy-Bible---Hungarian---Hungarian-Karoli							end
+Holy-Bible---Hungarian---Magyar-Bible	042	LUK	023	056	56	1	end
+Holy-Bible---Hungarian---Magyar-Bible	043	JOH	001	038	51	1	end
+Holy-Bible---Hungarian---Magyar-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Hungarian---Magyar-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Hungarian---Magyar-Bible							end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	002	012	12	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	003	001	8	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	004	002	8	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	005	002	12	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	006	002	10	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	007	002	17	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	008	002	9	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	009	001	20	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	013	002	6	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	018	001	50	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	019	002	14	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	020	002	9	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	021	002	13	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	022	002	31	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	030	002	12	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	031	002	24	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	034	002	22	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	036	002	12	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	038	002	22	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	039	002	13	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	040	002	17	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	041	002	13	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	042	002	11	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	044	002	26	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	045	002	17	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	046	002	11	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	047	002	9	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	048	002	14	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	049	003	20	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	051	001	19	2	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	052	001	9	2	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	053	002	6	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	054	001	7	2	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	055	002	23	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	056	002	13	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	057	002	11	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	058	002	11	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	059	001	17	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	060	001	12	2	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	061	002	8	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	062	002	12	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	063	001	11	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	065	002	13	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	067	002	7	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	068	002	35	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	069	002	36	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	070	002	5	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	075	002	10	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	076	002	12	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	080	002	19	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	081	002	16	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	083	002	18	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	084	002	12	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	085	002	13	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	088	002	18	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	089	002	52	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	092	002	15	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	102	002	28	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	108	002	13	1	end
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	140	002	13	1	end
+Holy-Bible---Icelandic---Open-Living-Word	064	3JO	001	014	14	1	end
+Holy-Bible---Icelandic---Open-Living-Word	066	REV	012	018	1	-1	end
 Holy-Bible---Icelandic---Open-Living-Word							end
+Holy-Bible---Igbo---Igbo-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Igbo---Igbo-Bible							end
 Holy-Bible---Ilocano---Ilocano-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Ilocano---Ilocano-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari							end
+Holy-Bible---Indonesian---For-All	064	3JO	001	014	14	1	end
 Holy-Bible---Indonesian---For-All							end
 Holy-Bible---Indonesian---New-Indonesian-Translation							end
 Holy-Bible---Indonesian---Simple							end
@@ -1779,13 +2361,17 @@ Holy-Bible---Japanese---Japanese-Raguet-yaku	043	JOH	006	051	70	1	end
 Holy-Bible---Japanese---Japanese-Raguet-yaku							end
 Holy-Bible---Japanese---New-Japanese-New-Testament	064	3JO	001	014	14	1	end
 Holy-Bible---Japanese---New-Japanese-New-Testament	066	REV	012	018	1	-1	end
+Holy-Bible---Kamano---Kamano-Kafe	064	3JO	001	014	14	1	end
 Holy-Bible---Kamano---Kamano-Kafe							end
 Holy-Bible---Kannada---Kannada-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Kannada---Kannada-Bible	066	REV	012	018	1	-1	end
+Holy-Bible---Kannada---Open-Contemporary	064	3JO	001	014	14	1	end
 Holy-Bible---Kannada---Open-Contemporary							end
 Holy-Bible---Kara---Kara-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Kara---Kara-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Kara---Kara-Bible							end
+Holy-Bible---Kiche---Totonicapan	064	3JO	001	014	14	1	end
+Holy-Bible---Kiche---Totonicapan	066	REV	012	018	1	-1	end
 Holy-Bible---Kiche---Totonicapan							end
 Holy-Bible---Kinga---Mahanji-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Kinga---Mahanji-Bible	066	REV	012	018	1	-1	end
@@ -1793,6 +2379,7 @@ Holy-Bible---Kinga---Mahanji-Bible							end
 Holy-Bible---Kisi---Kisi-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Kisi---Kisi-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Kisi---Kisi-Bible							end
+Holy-Bible---Korean---Korean-Revised-Version	064	3JO	001	014	14	1	end
 Holy-Bible---Korean---Korean-Revised-Version							end
 Holy-Bible---Korean---Korean-RV	004	NUM	001	038	54	2	end
 Holy-Bible---Korean---Korean-RV	005	DEU	002	013	37	1	end
@@ -1815,7 +2402,10 @@ Holy-Bible---Kosraean---Kosraean-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Kuhane---Kuhane-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Kuhane---Kuhane-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Kuhane---Kuhane-Bible							end
+Holy-Bible---Kurdish---Sorani-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Kurdish---Sorani-Bible							end
+Holy-Bible---Kuvi---Kuvi-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Kuvi---Kuvi-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Kuvi---Kuvi-Bible							end
 Holy-Bible---Latin---Clementine-Vulgate-1598	004	NUM	020	028	29	1	end
 Holy-Bible---Latin---Clementine-Vulgate-1598	006	JOS	004	023	24	1	end
@@ -2272,9 +2862,82 @@ Holy-Bible---Latin---Vulgate-Jerome	043	JOH	006	051	71	1	end
 Holy-Bible---Latin---Vulgate-Jerome	066	REV	012	018	1	-1	end
 Holy-Bible---Latin---Vulgate-Jerome							end
 Holy-Bible---Latvian---Latvian-Gluck-Bible							end
+Holy-Bible---Lingala---Lingala-Bible	009	1SA	020	042	42	1	end
+Holy-Bible---Lingala---Lingala-Bible	013	1CH	012	004	40	1	end
+Holy-Bible---Lingala---Lingala-Bible	011	1KI	022	043	53	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	003	001	8	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	004	001	8	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	005	001	12	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	006	001	10	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	007	001	17	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	008	001	9	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	009	001	20	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	012	001	8	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	018	001	50	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	019	001	14	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	020	001	9	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	021	001	13	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	022	001	31	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	030	001	12	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	031	001	24	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	034	001	22	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	036	001	12	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	038	001	22	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	039	001	13	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	040	001	17	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	041	001	13	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	042	001	11	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	044	001	26	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	045	001	17	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	046	001	11	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	047	001	9	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	048	001	14	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	049	001	20	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	051	001	19	2	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	052	001	9	2	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	053	001	6	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	054	001	7	2	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	055	001	23	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	056	001	13	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	057	001	11	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	058	001	11	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	059	001	17	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	060	001	12	2	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	061	001	8	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	062	001	12	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	063	001	11	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	064	001	10	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	065	001	13	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	067	001	7	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	068	001	35	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	069	001	36	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	070	001	5	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	075	001	10	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	076	001	12	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	077	001	20	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	080	001	19	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	081	001	16	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	083	001	18	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	084	001	12	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	085	001	13	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	088	001	18	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	089	001	52	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	092	001	15	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	102	001	28	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	108	001	13	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	140	001	13	1	end
+Holy-Bible---Lingala---Lingala-Bible	019	PSA	142	001	7	1	end
+Holy-Bible---Lingala---Lingala-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Lingala---Lingala-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Lingala---Lingala-Bible							end
+Holy-Bible---Lodhi---Lodhi-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Lodhi---Lodhi-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Lodhi---Lodhi-Bible							end
+Holy-Bible---Luganda---Luganda-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Luganda---Luganda-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Luganda---Luganda-Bible							end
+Holy-Bible---Mahasu-Pahari---Baghlayani-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Mahasu-Pahari---Baghlayani-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Mahasu-Pahari---Baghlayani-Bible							end
 Holy-Bible---Malagasy---Malagasy-Bible	009	1SA	020	042	42	1	end
 Holy-Bible---Malagasy---Malagasy-Bible	011	1KI	022	043	53	1	end
@@ -2342,15 +3005,25 @@ Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	140	001	13	1	end
 Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	142	001	7	1	end
 Holy-Bible---Malagasy---Malagasy-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Malagasy---Malagasy-Bible							end
+Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	003	NUM	030	001	16	1	end
+Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	009	1SA	020	042	42	1	end
+Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible							end
+Holy-Bible---Malayalam---Contemporary	064	3JO	001	014	14	1	end
 Holy-Bible---Malayalam---Contemporary							end
 Holy-Bible---Malayalam---Malayalam-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Malayalam---Malayalam-Bible	066	REV	012	018	1	-1	end
+Holy-Bible---Malayalam---Malayalam-Bible							end
+Holy-Bible---Malayalam---Malayalam-Bible-1910	064	3JO	001	014	14	1	end
 Holy-Bible---Malayalam---Malayalam-Bible-1910							end
 Holy-Bible---Maori---Maori-Bible							end
 Holy-Bible---Marathi---Marathi-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Marathi---Marathi-Bible	066	REV	012	018	1	-1	end
+Holy-Bible---Manipuri---Meitei-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Manipuri---Meitei-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Manipuri---Meitei-Bible							end
+Holy-Bible---Munda---Munda-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Munda---Munda-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Munda---Munda-Bible							end
 Holy-Bible---Mwera---Mwera-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Mwera---Mwera-Bible	066	REV	012	018	1	-1	end
@@ -2362,6 +3035,7 @@ Holy-Bible---Myanmar---Burmese-Judson							end
 Holy-Bible---Myanmar---Myanmar-Burmese-Judson	004	NUM	027	023	23	1	end
 Holy-Bible---Myanmar---Myanmar-Burmese-Judson	019	PSA	058	010	11	1	end
 Holy-Bible---Myanmar---Myanmar-Burmese-Judson							end
+Holy-Bible---Ndebele---Accessible-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Ndebele---Accessible-Bible							end
 Holy-Bible---Ndebele---Ndebele-Bible							end
 Holy-Bible---Ndengereko---Ndengereko-Bible	064	3JO	001	014	14	1	end
@@ -2370,7 +3044,10 @@ Holy-Bible---Ndengereko---Ndengereko-Bible							end
 Holy-Bible---Nepali---Nepali-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Nepali---Nepali-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Nepali---Nepali-Bible							end
+Holy-Bible---Ngoni---Ngoni-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Ngoni---Ngoni-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Ngoni---Ngoni-Bible							end
+Holy-Bible---Norwegian---Living-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Norwegian---Living-Bible							end
 Holy-Bible---Norwegian---Norwegian-Bible	011	1KI	022	043	53	1	end
 Holy-Bible---Norwegian---Norwegian-Bible	019	PSA	003	001	8	1	end
@@ -2502,18 +3179,26 @@ Holy-Bible---Norwegian---Norwegian-Student-Bible	019	PSA	142	001	7	1	end
 Holy-Bible---Norwegian---Norwegian-Student-Bible							end
 Holy-Bible---Oriya---Oriya-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Oriya---Oriya-Bible	066	REV	012	018	1	-1	end
+Holy-Bible---Oromo---New-World	064	3JO	001	014	14	1	end
 Holy-Bible---Oromo---New-World							end
 Holy-Bible---Panjabi---Punjabi-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Panjabi---Punjabi-Bible	066	REV	012	018	1	-1	end
+Holy-Bible---Panjabi---Punjabi-Bible							end
 Holy-Bible---Persian---Old-Persion-Version-Bible	002	EXO	029	036	46	1	end
 Holy-Bible---Persian---Old-Persion-Version-Bible	014	2CH	014	007	15	1	end
 Holy-Bible---Persian---Old-Persion-Version-Bible	019	PSA	068	033	35	1	end
 Holy-Bible---Persian---Old-Persion-Version-Bible	066	REV	015	008	8	1	end
 Holy-Bible---Persian---Old-Persion-Version-Bible							end
+Holy-Bible---Persian---Open-Contemporary	064	3JO	001	014	14	1	end
 Holy-Bible---Persian---Open-Contemporary							end
+Holy-Bible---Pogolo---Pogoro-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Pogolo---Pogoro-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Pogolo---Pogoro-Bible							end
 Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet	064	3JO	001	014	14	1	end
+Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet							end
 Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet	064	3JO	001	014	14	1	end
+Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet							end
+Holy-Bible---Polish---Open-Access-Word-of-Life	064	3JO	001	014	14	1	end
 Holy-Bible---Polish---Open-Access-Word-of-Life							end
 Holy-Bible---Polish---Polish-Gdansk	011	1KI	022	043	53	1	end
 Holy-Bible---Polish---Polish-Gdansk	019	PSA	003	001	8	1	end
@@ -2589,6 +3274,7 @@ Holy-Bible---Portuguese---Almeida-NewOrthography	011	1KI	022	043	53	1	end
 Holy-Bible---Portuguese---Almeida-NewOrthography	064	3JO	001	014	14	1	end
 Holy-Bible---Portuguese---Almeida-NewOrthography							end
 Holy-Bible---Portuguese---Biblia-Livre							end
+Holy-Bible---Portuguese---Free-for-All	064	3JO	001	014	14	1	end
 Holy-Bible---Portuguese---Free-for-All							end
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	064	3JO	001	014	14	1	end
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	066	REV	012	018	1	-1	end
@@ -2672,28 +3358,28 @@ Holy-Bible---Russian---Russian-Synodal-Translation							end
 Holy-Bible---Safwa---Safwa-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Safwa---Safwa-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Safwa---Safwa-Bible							end
-Holy-Bible---Sanskrit---Assamese-Script							end
-Holy-Bible---Sanskrit---Bengali-Script							end
-Holy-Bible---Sanskrit---Burmese-Script							end
-Holy-Bible---Sanskrit---Cologne-Script							end
-Holy-Bible---Sanskrit---Devanagari-Script							end
-Holy-Bible---Sanskrit---Gujarati-Script							end
-Holy-Bible---Sanskrit---Harvard-Kyoto-Script							end
-Holy-Bible---Sanskrit---IAST-Script							end
-Holy-Bible---Sanskrit---ISO-Script							end
-Holy-Bible---Sanskrit---ITRANS-Script							end
-Holy-Bible---Sanskrit---Kannada-Script							end
-Holy-Bible---Sanskrit---Khmer-Script							end
-Holy-Bible---Sanskrit---Malayalam-Script							end
-Holy-Bible---Sanskrit---Oriya-Script							end
-Holy-Bible---Sanskrit---Punjabi-Script							end
-Holy-Bible---Sanskrit---Sinhala-Script							end
-Holy-Bible---Sanskrit---Tamil-Script							end
-Holy-Bible---Sanskrit---Telugu-Script							end
-Holy-Bible---Sanskrit---Thai-Script							end
-Holy-Bible---Sanskrit---Tibetan-Script							end
-Holy-Bible---Sanskrit---Urdu-Script							end
-Holy-Bible---Sanskrit---Velthuis-Script							end
+Holy-Bible---Sanskrit---Assamese-Script	064	3JO	001	014	14	1	end
+Holy-Bible---Sanskrit---Bengali-Script	064	3JO	001	014	14	1	end
+Holy-Bible---Sanskrit---Burmese-Script	064	3JO	001	014	14	1	end
+Holy-Bible---Sanskrit---Cologne-Script	064	3JO	001	014	14	1	end
+Holy-Bible---Sanskrit---Devanagari-Script	064	3JO	001	014	14	1	end
+Holy-Bible---Sanskrit---Gujarati-Script	064	3JO	001	014	14	1	end
+Holy-Bible---Sanskrit---Harvard-Kyoto-Script	064	3JO	001	014	14	1	end
+Holy-Bible---Sanskrit---IAST-Script	064	3JO	001	014	14	1	end
+Holy-Bible---Sanskrit---ISO-Script	064	3JO	001	014	14	1	end
+Holy-Bible---Sanskrit---ITRANS-Script	064	3JO	001	014	14	1	end
+Holy-Bible---Sanskrit---Kannada-Script	064	3JO	001	014	14	1	end
+Holy-Bible---Sanskrit---Khmer-Script	064	3JO	001	014	14	1	end
+Holy-Bible---Sanskrit---Malayalam-Script	064	3JO	001	014	14	1	end
+Holy-Bible---Sanskrit---Oriya-Script	064	3JO	001	014	14	1	end
+Holy-Bible---Sanskrit---Punjabi-Script	064	3JO	001	014	14	1	end
+Holy-Bible---Sanskrit---Sinhala-Script	064	3JO	001	014	14	1	end
+Holy-Bible---Sanskrit---Tamil-Script	064	3JO	001	014	14	1	end
+Holy-Bible---Sanskrit---Telugu-Script	064	3JO	001	014	14	1	end
+Holy-Bible---Sanskrit---Thai-Script	064	3JO	001	014	14	1	end
+Holy-Bible---Sanskrit---Tibetan-Script	064	3JO	001	014	14	1	end
+Holy-Bible---Sanskrit---Urdu-Script	064	3JO	001	014	14	1	end
+Holy-Bible---Sanskrit---Velthuis-Script	064	3JO	001	014	14	1	end
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark							end
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	009	1SA	020	042	42	1	end
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	011	1KI	022	043	53	1	end
@@ -2701,7 +3387,9 @@ Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	064	3JO	001	014	14	1	end
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script							end
 Holy-Bible---Serbian---Serbian-Ekavski-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Serbian---Serbian-Ekavski-Bible							end
+Holy-Bible---Setswana---Open-Tswana-Living	064	3JO	001	014	14	1	end
 Holy-Bible---Setswana---Open-Tswana-Living							end
+Holy-Bible---Shona---Rakasununguka	064	3JO	001	014	14	1	end
 Holy-Bible---Shona---Rakasununguka							end
 Holy-Bible---Shona---Shona-Bible							end
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	009	1SA	020	042	42	1	end
@@ -2835,16 +3523,89 @@ Holy-Bible---Slovene---Slovene-Stritarja-NT	019	PSA	140	001	13	1	end
 Holy-Bible---Slovene---Slovene-Stritarja-NT	019	PSA	142	001	7	1	end
 Holy-Bible---Slovene---Slovene-Stritarja-NT	043	JOH	001	038	51	1	end
 Holy-Bible---Slovene---Slovene-Stritarja-NT	064	3JO	001	014	14	1	end
+Holy-Bible---Slovene---Slovene-Stritarja-NT							end
+Holy-Bible---Somali---Somali-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Somali---Somali-Bible							end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	006	JOS	005	014	15	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	011	1KI	022	043	53	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	018	JOB	016	004	22	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	003	001	8	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	004	001	8	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	005	001	12	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	006	001	10	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	007	001	17	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	008	001	9	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	009	001	20	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	012	001	8	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	018	001	50	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	019	001	14	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	020	001	9	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	021	001	13	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	022	001	31	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	030	001	12	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	031	001	24	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	034	001	22	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	036	001	12	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	038	001	22	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	039	001	13	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	040	001	17	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	041	001	13	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	042	001	11	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	044	001	26	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	045	001	17	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	046	001	11	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	047	001	9	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	048	001	14	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	049	001	20	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	051	001	19	2	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	052	001	9	2	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	053	001	6	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	054	001	7	2	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	055	001	23	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	056	001	13	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	057	001	11	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	058	001	11	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	059	001	17	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	060	001	12	2	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	061	001	8	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	062	001	12	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	063	001	11	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	064	001	10	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	065	001	13	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	067	001	7	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	068	001	35	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	069	001	36	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	070	001	5	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	075	001	10	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	076	001	12	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	077	001	20	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	080	001	19	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	081	001	16	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	083	001	18	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	084	001	12	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	085	001	13	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	088	001	18	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	089	001	52	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	092	001	15	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	102	001	28	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	108	001	13	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	140	001	13	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	019	PSA	142	001	7	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	028	HOS	002	023	23	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	030	AMO	006	010	14	1	end
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	066	REV	012	018	1	-1	end
 Holy-Bible---Spanish---Biblia-Platense-Straubinger							end
 Holy-Bible---Spanish---Free-Bible							end
 Holy-Bible---Spanish---Free-for-the-World							end
+Holy-Bible---Spanish---Gods-Word-for-You	064	3JO	001	014	14	1	end
+Holy-Bible---Spanish---Gods-Word-for-You	066	REV	012	018	1	-1	end
 Holy-Bible---Spanish---Gods-Word-for-You							end
 Holy-Bible---Spanish---Reina-Valera-1865							end
 Holy-Bible---Spanish---Reina-Valera-1909							end
 Holy-Bible---Spanish---Reina-Valera-NT-1858	064	3JO	001	014	14	1	end
 Holy-Bible---Spanish---Sagradas-Escrituras-1569							end
 Holy-Bible---Spanish---Sencillo-Bible							end
+Holy-Bible---Swahili---Contemporary	064	3JO	001	014	14	1	end
 Holy-Bible---Swahili---Contemporary							end
 Holy-Bible---Swahili---New-Swahili-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Swahili---New-Swahili-Bible	066	REV	012	018	1	-1	end
@@ -2983,12 +3744,15 @@ Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	108	001	13	1	end
 Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	140	001	13	1	end
 Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	142	001	7	1	end
 Holy-Bible---Swedish---Swedish-Bible-1873							end
+Holy-Bible---Swedish---Swedish-Bible-1917	064	3JO	001	014	14	1	end
+Holy-Bible---Swedish---Swedish-Bible-1917	066	REV	012	018	1	-1	end
 Holy-Bible---Swedish---Swedish-Bible-1917							end
 Holy-Bible---Tagalog---Tagalog-Bible							end
 Holy-Bible---Tagalog---Tagalog-Bible-1905							end
 Holy-Bible---Tagalog---Tagalog-Bible-Unlocked	064	3JO	001	014	14	1	end
 Holy-Bible---Tagalog---Tagalog-Bible-Unlocked	066	REV	012	018	1	-1	end
 Holy-Bible---Tagalog---Tagalog-Bible-Unlocked							end
+Holy-Bible---Tamil---Open-Contemporary	064	3JO	001	014	14	1	end
 Holy-Bible---Tamil---Open-Contemporary							end
 Holy-Bible---Tamil---Tamil-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Tamil---Tamil-Bible							end
@@ -2997,12 +3761,19 @@ Holy-Bible---Telugu---Telugu-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Tongan---Revised-West-Version							end
 Holy-Bible---Turkish---Turkish-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Turkish---Turkish-Bible							end
+Holy-Bible---Twi---Akuapem-Twi-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Twi---Akuapem-Twi-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Twi---Akuapem-Twi-Bible							end
+Holy-Bible---Twi---Asante-Twi-WAKNA	064	3JO	001	014	14	1	end
+Holy-Bible---Twi---Asante-Twi-WAKNA	066	REV	012	018	1	-1	end
 Holy-Bible---Twi---Asante-Twi-WAKNA							end
+Holy-Bible---Twi---Asante-Twi-WASNA	064	3JO	001	014	14	1	end
+Holy-Bible---Twi---Asante-Twi-WASNA	066	REV	012	018	1	-1	end
 Holy-Bible---Twi---Asante-Twi-WASNA							end
+Holy-Bible---Ukrainian---Kulish	064	3JO	001	014	14	1	end
 Holy-Bible---Ukrainian---Kulish							end
 Holy-Bible---Ukrainian---Ukrainian-NT							end
-Holy-Bible---Ukrainian---Ukrainian-Ogienko	011	1KI	022	044	53	1	end
+Holy-Bible---Ukrainian---Ukrainian-Ogienko	011	1KI	022	043	53	1	end
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	003	001	8	1	end
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	004	001	8	1	end
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	005	001	12	1	end
@@ -3069,6 +3840,69 @@ Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	142	001	7	1	end
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	064	3JO	001	014	14	1	end
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	066	REV	012	018	1	-1	end
 Holy-Bible---Ukrainian---Ukrainian-Ogienko							end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	003	001	8	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	004	001	8	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	005	001	12	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	006	001	10	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	007	001	17	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	008	001	9	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	009	001	20	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	012	001	8	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	018	001	50	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	019	001	14	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	020	001	9	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	021	001	13	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	022	001	31	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	030	001	12	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	031	001	24	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	034	001	22	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	036	001	12	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	038	001	22	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	039	001	13	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	040	001	17	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	041	001	13	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	042	001	11	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	044	001	26	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	045	001	17	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	046	001	11	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	047	001	9	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	048	001	14	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	049	001	20	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	051	001	19	2	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	052	001	9	2	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	053	001	6	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	054	001	7	2	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	055	001	23	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	056	001	13	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	057	001	11	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	058	001	11	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	059	001	17	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	060	001	12	2	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	061	001	8	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	062	001	12	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	063	001	11	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	064	001	10	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	065	001	13	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	067	001	7	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	068	001	35	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	069	001	36	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	070	001	5	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	075	001	10	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	076	001	12	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	077	001	20	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	080	001	19	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	081	001	16	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	083	001	18	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	084	001	12	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	085	001	13	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	088	001	18	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	089	001	52	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	092	001	15	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	102	001	28	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	108	001	13	1	end
+Holy-Bible---Ukrainian---New-Translation	019	PSA	140	001	13	1	end
+Holy-Bible---Ukrainian---New-Translation	064	3JO	001	014	14	1	end
+Holy-Bible---Ukrainian---New-Translation	066	REV	012	018	1	-1	end
 Holy-Bible---Ukrainian---New-Translation							end
 Holy-Bible---Urdu---Urdu-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Urdu---Urdu-Bible	066	REV	012	018	1	-1	end
@@ -3148,11 +3982,16 @@ Holy-Bible---Uyghur---Uyghur-Bible-Pinyin	009	1SA	021	001	15	1	end
 Holy-Bible---Uyghur---Uyghur-Bible-Pinyin	011	1KI	022	044	53	1	end
 Holy-Bible---Uyghur---Uyghur-Bible-Pinyin	064	3JO	001	014	14	1	end
 Holy-Bible---Uyghur---Uyghur-Bible-Pinyin							end
+Holy-Bible---Vietnamese---Contemporary	064	3JO	001	014	14	1	end
+Holy-Bible---Vietnamese---Contemporary	066	REV	012	018	1	-1	end
 Holy-Bible---Vietnamese---Contemporary							end
 Holy-Bible---Vietnamese---Vietnamese-Bible							end
 Holy-Bible---Vietnamese---Vietnamese-Bible-1934							end
 Holy-Bible---Vwanji---Vwanji-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Vwanji---Vwanji-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Vwanji---Vwanji-Bible							end
+Holy-Bible---Yombe---Yombe-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Yombe---Yombe-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Yombe---Yombe-Bible							end
+Holy-Bible---Yoruba---Yoruba-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Yoruba---Yoruba-Bible							end

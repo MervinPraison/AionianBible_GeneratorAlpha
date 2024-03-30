@@ -615,7 +615,7 @@ function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $ski
 		'include'	=> '/---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/.*Ukrainian-Ogienko.*---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---Slovene---Slovene-Savli-Bible---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
-		//'include'	=> '/Holy-Bible---(S[p-z]{1}|[T-Z]{1}).+---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
+		//'include'	=> '/Holy-Bible---([I-Z]{1}).+---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---Kiche---Totonicapan---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
 		//'include'	=> '/Holy-Bible---Meitei---Meitei-Bible---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
 		'destiny'	=> $destiny,
@@ -1686,6 +1686,16 @@ function AION_BIBLES_REMAPPER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 		if ($book=='1CH' && $chapter==7 && $verse>=23) {
 			$verse = sprintf('%03d', $verse + 1);
 			$current="WARNING REMAPPED = $bible: SINGLE 1 Chronicles 7";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
+	/* 1CH21-22 */
+	if (isset($database[T_VERSEMAP][$bible.'-1CH21-22'])!==FALSE) {	
+		/* 1 Chronicles */	
+		if ($book=='1CH' && (($chapter==21 && $verse>=31) || ($chapter==22))) {
+			AION_BIBLES_SLIDE_FORE($bible, 21, 30, 1, $chapter, $verse);
+			$current="WARNING REMAPPED = $bible: SINGLE 1 Chronicles 21-22";
 			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
 			goto YO;
 		}
@@ -3101,22 +3111,22 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-8103;
 	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-8596;
 	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-277601;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-7371005;
-	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-77863;
-	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-371;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-7370544;
+	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-77865;
+	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-350;
 	$grandmarker['LONG']		= $grandtotal['LONG']-1049;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-0;
-	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-3941;
-	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-2769;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-12549;
-	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-19533;
-	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-8822;
+	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-2722;
+	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-908;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-13315;
+	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-16272;
+	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-10214;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
-	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-892;
-	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-663;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-186888;
-	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-37192;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-4223.68;
+	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-715;
+	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-665;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-186554;
+	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-37412;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-4215.58;
 	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-148;
 	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-80;
 	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-342;

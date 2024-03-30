@@ -1186,7 +1186,7 @@ Act.2.11#05=NKO	Κρῆτες (Krētes)	[11] Cretans	G2912=N-NPM-LG	Κρής=Cr
 		}
 		
 		// is there a value beyond valid fields, or word number not 5 digits? BOMB!
-		if (!empty(trim($match[18])) || !empty(trim($match[19])) || strlen($match[4])!=5) {
+		if (!empty(trim($match[19])) || strlen($match[4])!=5) {
 			AION_ECHO("ERROR! line=$count $newmess bad fields: $data");
 		}
 		
@@ -3016,10 +3016,14 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 			$editions .= (preg_match("#^.+\s+in:\s+([^«»]+)$#us", $line['VAR']) ? ("+".preg_replace("#^.+\s+in:\s+([^«»]+)$#us", '$1', $line['VAR'])) : "");
 			// Tyn+WH: Δαυεὶδ ; +TR: Δαβὶδ ; 
 			// TR«9+Byz«9: τὴν ; 
+			// Byz0
+			// NA28+NA27+Tyn+WH+Treg+TR.24:+Byz
 			$tempspell = preg_replace("#[«»]+[\d.]+#us", "+", $line['SPELL']);
 			$editions .= (!preg_match("#^([^;:]+):.+$#us", $tempspell) ? "" : ("+".preg_replace("#^([^;:]+):.+$#us",  '$1', $tempspell)));
 			$editions .= (!preg_match("#^[^;]+;([^;:]+):.+$#us", $tempspell) ? "" : ("+".preg_replace("#^[^;]+;([^;:]+):.+$#us",  '$1', $tempspell)));
 			$editions .= (!preg_match("#^[^;]+;[^;]+;([^;:]+):.+$#us", $tempspell) ? "" : ("+".preg_replace("#^[^;]+;[^;]+;([^;:]+):.+$#us",  '$1', $tempspell)));
+			$editions  = preg_replace("#\+Byz0#u", "+Byz", $editions);
+			$editions  = preg_replace("#\.[\d.:;]+\+#u", "+", $editions);
 			$editions  = preg_replace("#[«»]+[\d.:;]+#u", "+", $editions);
 			$editions  = preg_replace("#\s+#u", "+", $editions);
 			$editions  = preg_replace("#0([\d]+)#u", 'U$1', $editions); // replace 0 with U for unicals
@@ -3029,6 +3033,8 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 				AION_ECHO("WARN!\t$warn".print_r($line,TRUE)."\n\n\n");	
 			}
 			// FIX EDITIONS
+			$line['EDITIONS'] = preg_replace("#\+Byz0#u", "+Byz", $line['EDITIONS']);
+			$line['EDITIONS'] = preg_replace("#\.[\d.:;]+\+#u", "+", $line['EDITIONS']);
 			$line['EDITIONS'] = preg_replace("#[«»]+[\d.;:]+#u", "+", $line['EDITIONS']);
 			$line['EDITIONS'] = preg_replace("#\s+#u", "+", $line['EDITIONS']);
 			$line['EDITIONS'] = preg_replace("#0([\d]+)#u", 'U$1', $line['EDITIONS']); // replace 0 with U for unicals

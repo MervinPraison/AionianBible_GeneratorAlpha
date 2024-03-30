@@ -807,7 +807,7 @@ Holy-Bible---Oromo---New-World								NULL
 Holy-Bible---Panjabi---Punjabi-Bible								NULL
 Holy-Bible---Persian---Old-Persion-Version-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Persian---Old-Persion-Version-Bible								NULL
-Holy-Bible---Persian---Open-Contemporary	066	REV	001	017	HADES	g86		NULL
+Holy-Bible---Persian---Open-Contemporary	066	REV	001	017	AIONS,HADES	g165,g86		NULL
 Holy-Bible---Persian---Open-Contemporary	066	REV	001	018	SKIP			NULL
 Holy-Bible---Persian---Open-Contemporary	066	REV	020	002	ABYSS	g12		NULL
 Holy-Bible---Persian---Open-Contemporary	066	REV	020	003	SKIP			NULL
@@ -882,6 +882,8 @@ Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	061	2PE	002	017	NOTE			ques
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script								NULL
 Holy-Bible---Serbian---Serbian-Ekavski-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Serbian---Serbian-Ekavski-Bible								NULL
+Holy-Bible---Setswana---Open-Tswana-Living	040	MAT	012	031	AIONS	g165		NULL
+Holy-Bible---Setswana---Open-Tswana-Living	040	MAT	012	032	SKIP			NULL
 Holy-Bible---Setswana---Open-Tswana-Living	043	JOH	006	050	AIONS	g165		NULL
 Holy-Bible---Setswana---Open-Tswana-Living	043	JOH	006	051	SKIP			NULL
 Holy-Bible---Setswana---Open-Tswana-Living	043	JOH	014	015	AIONS	g165		NULL
@@ -890,7 +892,7 @@ Holy-Bible---Setswana---Open-Tswana-Living	058	HEB	013	020	AIONS,AIONIAN	g165,g1
 Holy-Bible---Setswana---Open-Tswana-Living	058	HEB	013	021	SKIP			NULL
 Holy-Bible---Setswana---Open-Tswana-Living	065	JUD	001	024	AIONS	g165		NULL
 Holy-Bible---Setswana---Open-Tswana-Living	065	JUD	001	025	SKIP			NULL
-Holy-Bible---Setswana---Open-Tswana-Living	066	REV	001	017	HADES	g86		NULL
+Holy-Bible---Setswana---Open-Tswana-Living	066	REV	001	017	AIONS,HADES	g165,g86		NULL
 Holy-Bible---Setswana---Open-Tswana-Living	066	REV	001	018	SKIP			NULL
 Holy-Bible---Shona---Rakasununguka								NULL
 Holy-Bible---Shona---Shona-Bible	061	2PE	002	017	NOTE			questioned

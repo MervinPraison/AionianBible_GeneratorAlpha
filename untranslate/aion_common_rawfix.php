@@ -79,6 +79,7 @@ case 'Holy-Bible---Gamotso---Gamo' :
 	break;
 case 'Holy-Bible---Chinese---Chinese-Union-Version-Simplified' :
 case 'Holy-Bible---Chinese---Chinese-Union-Version-Traditional' :
+case 'Holy-Bible---French---French-Darby-Bible' :
 case 'Holy-Bible---Japanese---Japanese-Bungo-yaku' :
 case 'Holy-Bible---Japanese---Japanese-Electronic-Network-Bible' :
 case 'Holy-Bible---Japanese---Japanese-Kougo-yaku' :
@@ -984,11 +985,6 @@ Numbers 26:2
 EOF;
 if (!($bfile = preg_replace("/Numbers 25:19 (.+?)Numbers 26:2 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $blockfix = <<<EOF
-I Samuel 21:1 最後，約納堂對達味說：「你平安去吧! 照我們兩人以上主的名所起的誓：願上主永遠在我和你之間，在我的後代與你的後代之間! 」達味就動身走了，約納堂也回到城裏﹖
-I Samuel 21:2 
-EOF;
-if (!($bfile = preg_replace("/I Samuel 20:42 (.+?)I Samuel 21:2 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$blockfix = <<<EOF
 Esther 3:13 然後由眾驛使傳遞至帝國各省，限令在一天內，即十二月，「阿達爾」月十三日，把全國所有的猶太人，不論老幼婦孺，一律加以殲滅、屠殺、剷除，財產一律沒收。
 Esther 3:14 
 EOF;
@@ -1009,11 +1005,33 @@ I Maccabees 1:1
 EOF;
 if (!($bfile = preg_replace("/Esther 10:3 (.+?)I Maccabees 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $blockfix = <<<EOF
+Psalms 84:4 萬軍的上主，我的君王，我的天主，麻雀您的祭壇找到了住所，燕子也找到了安置 幼雛的窩巢。
+Psalms 84:5 
+EOF;
+if (!($bfile = preg_replace("/Psalms 84:4 (.+?)Psalms 84:5 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 140:1 上主，求您救拔我脫離兇惡的人；
+Psalms 140:2 上主，求您保護我脫離強暴的人！
+Psalms 140:3 
+EOF;
+if (!($bfile = preg_replace("/Psalms 140:1 (.+?)Psalms 140:3 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 142:1 我高聲向上主呼求，
+Psalms 142:2 我高聲向天主求助。
+Psalms 142:3 
+EOF;
+if (!($bfile = preg_replace("/Psalms 142:1 (.+?)Psalms 142:3 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
 Isaiah 63:19 我們儼然成了一個從未受你治理，從未屬你名下的民族。啊！
 Isaiah 63:20 望你衝破諸天降下，諸山在你面前震盪。  
 Isaiah 64:1 
 EOF;
 if (!($bfile = preg_replace("/Isaiah 63:19 (.+?)Isaiah 64:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Song of Solomon 6:1 ◆耶京女郎： 妳這女中極美麗的啊! 妳的愛人往那裏去了﹖妳的愛人轉向何處去了﹖妳讓我們同妳一起去尋找﹖◆新娘：
+Song of Solomon 6:2 
+EOF;
+if (!($bfile = preg_replace("/Song of Solomon 6:1 (.+?)Song of Solomon 6:2 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $blockfix = <<<EOF
 Acts 19:40 關於今天的事，我們實在有被控作亂的危險，因為這本是無緣無故的；我們對這事，對這次集會，也不能指出理由來。」
 Acts 19:41 他說了這些話，纔把集會遣散了。
@@ -1099,6 +1117,12 @@ case "Holy-Bible---Coptic---Sahidic-Coptic-Horner" :
 if (!($bfile = preg_replace("/&lt;[ ]*/us","(",$bfile,-1,$rnum)) || $rnum!=182) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/[ ]*&gt;/us",")",$bfile,-1,$rnum)) || $rnum!=182) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
+$blockfix = <<<EOF
+Revelation of John 12:17 ⲁⲡⲉⲇⲣⲁⲕⲱⲛ ϭⲱⲛⲧ ⲉⲧⲉⲥϩⲓⲙⲉ ⲁϥⲃⲱⲕ ⲉⲉⲓⲣⲉ ⲛⲟⲩⲡⲟⲗⲉⲙⲟⲥ ⲙⲛⲡⲕⲉⲥⲉⲡⲏ ⲡⲉⲥⲡⲉⲣⲙⲁ ⲛⲁⲓ ⲉⲧϩⲁⲣⲉϩ ⲉⲛⲉⲛⲧⲟⲗⲏ ⲙⲡⲛⲟⲩⲧⲉ ⲙⲛⲧⲙⲛⲧⲙⲛⲧⲣⲉ ⲛⲓ̅ⲥ̅ 
+Revelation of John 12:18 ⲁⲩⲱ ⲁⲓⲁϩⲉⲣⲁⲧ ϩⲓϫⲙⲡϣⲱ ⲛⲑⲁⲗⲗⲁⲥⲥⲁ
+Revelation of John 13:1 
+EOF;
+if (!($bfile = preg_replace("/Revelation of John 12:17 (.+?)Revelation of John 13:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -1399,6 +1423,45 @@ goto RAWHIDE;
 
 
 
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Czech---Kralicka" :
+$textfix = <<<EOF
+EXO 2:11 I stalo se ve dnech těch, když vyrostl Mojžíš, že vyšel k bratřím svým, a hleděl na trápení jejich. Uzřel také muže Egyptského, an tepe muže Hebrejského, jednoho z bratří jeho.
+EXO 2:12 A sem i tam se ohlédna, vida, že žádného tu není, zabil Egyptského, a zahrabal jej v písku.
+EXO 2:13 Vyšed potom druhého dne, a aj, dva muži Hebrejští vadili se. I řekl tomu, kterýž křivdu činil: Proč tepeš bližního svého?
+EXO 2:14 Kterýžto odpověděl: Kdo tě ustanovil knížetem a soudcí nad námi? Zdali zabiti mne myslíš, jako jsi zabil Egyptského? Protož ulekl se Mojžíš a řekl: Jistě známá jest ta věc.
+EXO 2:15 A uslyšav Farao tu věc, hledal zabiti Mojžíše. Ale Mojžíš utekl od tváři Faraonovy, a bydlil v zemi Madianské; i usadil se podlé studnice.
+EXO 2:16 Kníže pak Madianské mělo sedm dcer. Kteréžto přišedše, vážily vodu, a nalívaly do koryt, aby napájely dobytek otce svého.
+EXO 2:17 I přišli pastýři, a odehnali je. Tedy Mojžíš vstav, pomohl jim a napojil dobytek jejich.
+EXO 2:18 A když se navrátily k Raguelovi, otci svému, řekl on: Jakž jste to dnes tak brzo přišly?
+EXO 2:19 Odpověděly: Muž Egyptský vysvobodil nás z ruky pastýřů; ano také ochotně navážil nám vody, a napojil dobytek.
+EXO 2:20 I řekl dcerám svým: Kdež pak jest? Pročež jste pustily muže toho? Povolejte ho, ať pojí chleba.
+EXO 2:21 A svolil Mojžíš k tomu, aby bydlil s mužem tím. Kterýžto dal Zeforu, dceru svou, Mojžíšovi.
+EXO 2:22 I porodila syna, a nazval jméno jeho Gerson; nebo řekl: Příchozí jsem byl v zemi cizí.
+EXO 2:23 Stalo se pak po mnohých časích, že umřel král Egyptský; a synové Izraelští úpěli pro roboty, a křičeli. I vstoupil k Bohu křik jejich pro roboty.
+EXO 2:24 A uslyšel Bůh naříkání jejich, a rozpomenul se Bůh na smlouvu svou s Abrahamem, Izákem a Jákobem.
+EXO 2:25 I vzhlédl Bůh na syny Izraelské, a poznal Bůh.
+EXO 3:1 
+EOF;
+if (!($bfile = preg_replace("/EXO 2:11 (.+?)EXO 3:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ACT 19:40 Nebo strach jest, abychom nedošli nesnáze pro tu bouřku dnešní, poněvadž žádné příčiny není, kterouž bychom mohli předložiti, proč jsme se tuto sběhli.
+ACT 19:41 A to pověděv, rozpustil lid.
+ACT 20:1 
+EOF;
+if (!($bfile = preg_replace("/ACT 19:40 (.+?)ACT 20:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2CO 13:12 Pozdravtež jedni druhých políbením svatým.
+2CO 13:13 Pozdravují vás všickni svatí.
+2CO 13:14 Milost Pána Jezukrista, a láska Boží, a účastenství Ducha svatého budiž se všemi vámi. Amen. Druhý list k Korintským psán byl z Filippis, Města Macedonského, po Titovi a Lukášovi.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Czech---Living-Bible" :
 $textfix = <<<EOF
@@ -1630,6 +1693,14 @@ $textfix = <<<EOF
 EOF;
 if (!($bfile = preg_replace("/2CO 11:26 (.+?)2CO 11:32 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
+2CO 13:11 Tak tedy nashledanou, moji drazí. Buďte radostní, dejte všechno do pořádku a vykročte zase správným směrem, žijte v jednomyslnosti a vzájemném pokoji a Bůh, pramen lásky a pokoje, bude s vámi.
+2CO 13:12 Obejměte se vzájemně v křesťanské lásce.
+2CO 13:13 Celá zdejší církev vás pozdravuje.
+2CO 13:14 Kéž vás provází milost našeho Pána Ježíše Krista. Boží láska a jeho svatý Duch ať vás naplňují. Váš Pavel
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:11 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 GAL 1:4 Věčná chvála buď Bohu i Kristu Ježíši,
 GAL 1:5 který podle Boží vůle za nás obětoval svůj život a tak nás zachránil z moci zla, které ovládá tento svět.
 GAL 1:6 
@@ -1855,6 +1926,13 @@ Job 40:28 Se, Haabet derom slaar fejl; styrter man ikke ned endog kun ved Synet 
 Job 41:1 
 EOF;
 if (!($bfile = preg_replace("/Job 40:24 (.+?)Job 41:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+II Corinthians 13:12 Hilser hverandre med et helligt Kys!
+II Corinthians 13:13 Alle de hellige hilse eder.
+II Corinthians 13:14 Den Herres Jesu Kristi Naade og Guds Kærlighed og den Helligaands Samfund være med eder alle!
+Galatians 1:1 
+EOF;
+if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -1914,8 +1992,28 @@ Job 40:28 Det Haab vilde blive til Skamme, alene ved Synet laa du der.
 Job 41:1 
 EOF;
 if (!($bfile = preg_replace("/Job 40:24 (.+?)Job 41:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+II Corinthians 13:12 Hilser hverandre med et helligt Kys!
+II Corinthians 13:13 Alle de hellige hilse eder.
+II Corinthians 13:14 Den Herres Jesu Kristi Naade og Guds Kærlighed og den Helligaands Samfund være med eder alle!
+Galatians 1:1 
+EOF;
+if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Desiya---Desiya-Bible" :
+$blockfix = <<<EOF
+2CO 13:12 ତମେ ରୁଣ୍ଡ୍‌ଲା ବେଲେ ନିଜର୍‌ ନିଜର୍‌ ବିତ୍‌ରେ କିରିସ୍‌ଟର୍‌ ଆଲାଦେ ଜୁଆର୍‌ବେଟ୍‌ ଉଆ ।
+2CO 13:13 ଇତି ରଇବା ପର୍‌ମେସରର୍‌ ଲକ୍‌ମନ୍‌ ତମ୍‌କେ ଜୁଆର୍‌ ଜାନାଇଲାଇନି ।
+2CO 13:14 ଆମର୍‌ ମାପ୍‌ରୁ ଜିସୁକିରିସ୍‌ଟର୍‌ ଜିବନ୍‌ ଦୁକାଇଲାଟା, ପର୍‌ମେସରର୍‌ ଆଲାଦ୍‌ ଆରି ସୁକଲ୍‌ ଆତ୍‌ମାର୍‍ ମିସିକରି ରଇବାଟା, ତମର୍‌ ସବୁ ଲକର୍‌ ସଙ୍ଗ୍‍ ରଅ । ଜୁଆର୍‌ ।
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
 
 
 
@@ -2306,11 +2404,48 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---English---Anderson-Bible" :
 $textfix = <<<EOF
+Matthew 19:29 And every one that has left houses, or brothers, or sisters, or father, or mother, or wife, or children, or lands, for my name’s sake, shall receive a hundred-fold, and shall inherit eternal life.
+Matthew 19:30 But many that are first shall be last; and the last first.
+Matthew 20:1 
+EOF;
+if (!($bfile = preg_replace("/Matthew 19:29 (.+?)Matthew 20:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Acts 23:34 And when he had read the letter, he inquired to what province he belonged. And learning that he was from Cilicia,
+Acts 23:35 he said: I will hear you when your accusers also have come. And he ordered him to be kept under guard in Herod’s palace.
+Acts 24:1 
+EOF;
+if (!($bfile = preg_replace("/Acts 23:34 (.+?)Acts 24:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+II Corinthians 13:12 Salute one another with a holy kiss.
+II Corinthians 13:13 All the saints salute you.
+II Corinthians 13:14 The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit, be with you all.
+Galatians 1:1 
+EOF;
+if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+II Timothy 3:16 All scripture is given by inspiration of God, and is profitable for teaching, for reproof, for correction, for instruction in righteousness,
+II Timothy 3:17 that the man of God may be perfect, thoroughly furnished for every good work.
+II Timothy 4:1 
+EOF;
+if (!($bfile = preg_replace("/II Timothy 3:16 (.+?)II Timothy 4:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Hebrews 13:24 Salute all your rulers, and all the saints. The saints of Italy salute you.
+Hebrews 13:25 Grace be with you all. Amen.
+James 1:1 
+EOF;
+if (!($bfile = preg_replace("/Hebrews 13:24 (.+?)James 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 I Peter 1:24 For all flesh is as grass, and all the glory of man as the flower of grass; the grass withers, and its flower fails away:
 I Peter 1:25 but the word of the Lord abides forever: and this is the word which has been preached as gospel to you.
 I Peter 2:1 
 EOF;
 if (!($bfile = preg_replace("/I Peter 1:24 (.+?)I Peter 2:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+I John 5:20 And we know that the Son of God has come, and has given us understanding, that we may know him that is true: and we are in him that is true, in his Son Jesus Christ. This is the true God, and life eternal.
+I John 5:21 Little children, keep yourselves from idols.
+II John 1:1 
+EOF;
+if (!($bfile = preg_replace("/I John 5:20 (.+?)II John 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 Jude 1:24 Now to him that is able to keep you free from stumbling, and to present you blameless in the presence of his glory with exceeding joy,
 Jude 1:25 to the only God our Savior, be glory and majesty, strength and authority, both now and throughout all the ages. Amen. 
@@ -2318,10 +2453,18 @@ Revelation of John 1:1
 EOF;
 if (!($bfile = preg_replace("/Jude 1:24 (.+?)Revelation of John 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
+Revelation of John 4:10 the twenty-four elders fall down before him that sits on the throne, and worship him that lives from age to age, and throw their crowns before the throne, saying:
+Revelation of John 4:11 Thou art worthy, O Lord, to receive glory and honor and power: for thou hast created all things, and by thy will they exist, and were created.
+Revelation of John 5:1 
+EOF;
+if (!($bfile = preg_replace("/Revelation of John 4:10 (.+?)Revelation of John 5:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 Revelation of John 22:21 The grace of the Lord Jesus Christ be with all the saints.
 EOF;
 if (!($bfile = preg_replace("/Revelation of John 22:21 .+$/us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
+
+
 
 
 
@@ -3223,6 +3366,32 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---English---King-James-Version-Cambridge" :
+$textfix = <<<EOF
+Joshua 15:1 THIS then was the lot of the tribe of the children of Judah by their families; even to the border of Edom the wilderness of Zin southward was the uttermost part of the south coast.
+Joshua 15:2 
+EOF;
+if (!($bfile = preg_replace("/Joshua 15:0 (.+?)Joshua 15:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Job 7:1 IS there not an appointed time to man upon earth? Are not his days also like the days of an hireling?
+Job 7:2 
+EOF;
+if (!($bfile = preg_replace("/Job 7:0 (.+?)Job 7:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Hosea 8:1 SET the trumpet to thy mouth. He shall come as an eagle against the house of the Lord, because they have transgressed my covenant, and trespassed against my law.
+Hosea 8:2 
+EOF;
+if (!($bfile = preg_replace("/Hosea 8:0 (.+?)Hosea 8:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Romans 8:1 THERE is therefore now no condemnation to them which are in Christ Jesus, who walk not after the flesh, but after the Spirit.
+Romans 8:2 
+EOF;
+if (!($bfile = preg_replace("/Romans 8:0 (.+?)Romans 8:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---English---King-James-Version-Restored-Name" :
@@ -3485,6 +3654,25 @@ goto RAWHIDE;
 case "Holy-Bible---English---Syriac-Peshitta-Murdock" :
 if (!($bfile = preg_replace('/[\x{0F}]+/ui'," ",$bfile,-1,$rnum)) || $rnum!=4) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com
 $bfile_saved = $bfile;
+$textfix = <<<EOF
+Acts 19:40 Because too we are now in danger of being accused as seditious, since we cannot give a reason for the meeting of this day, because we have assembled needlessly, and been tumultuous without a cause.
+Acts 19:41 And having said these things, he dismissed the assembly.
+Acts 20:1 
+EOF;
+if (!($bfile = preg_replace("/Acts 19:40 (.+?)Acts 20:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Acts 20:16 For Paul had determined with himself to pass by Ephesus, lest he should be delayed there; because he hasted on, if possible, to keep the day of pentecost in Jerusalem.
+Acts 20:17 And from Miletus, he sent and called the Elders of the church at Ephesus.
+Acts 20:18 
+EOF;
+if (!($bfile = preg_replace("/Acts 20:16 (.+?)Acts 20:18 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+II Corinthians 13:12 Salute ye one another, with a holy kiss.
+II Corinthians 13:13 All the saints salute you.
+II Corinthians 13:14 The peace of our Lord Jesus the Messiah, and the love of God, and the communion of the Holy Spirit be with you all. Amen.
+Galatians 1:1 
+EOF;
+if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -4879,6 +5067,141 @@ if (!($bfile = preg_replace('/[{]+/us','(',$bfile,-1,$rnum)) || $rnum!=1) { AION
 if (!($bfile = preg_replace('/[}]+/us',')',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace('/strong="G3581"/us',' ',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
+$textfix = <<<EOF
+DEU 5:17 Tu ne tueras pas.
+DEU 5:18 Tu ne commettras pas d’adultère.
+DEU 5:19 Tu ne déroberas pas.
+DEU 5:20 Tu ne porteras pas de faux témoignage contre ton prochain.
+DEU 5:21 Tu ne convoiteras pas la femme de ton prochain. Tu ne désireras pas la maison de ton prochain, ni son champ, ni son serviteur, ni sa servante, ni son bœuf, ni son âne, ni rien de ce qui appartient à ton prochain. »
+DEU 5:22 Telles sont les paroles que Yahweh adressa à toute votre assemblée, sur la montagne, du milieu du feu, de la nuée et de l’obscurité, d’une voix forte ; et il n’ajouta rien. Il les écrivit sur deux tables de pierre, qu’il me donna.
+DEU 5:23 Lorsque vous eûtes entendu la voix du milieu des ténèbres, la montagne étant toute en feu, vous vous approchâtes de moi, tous vos chefs de tribus et vos anciens,
+DEU 5:24 et vous dîtes : « Voici que Yahweh, notre Dieu, nous a montré sa gloire et sa grandeur, et nous avons entendu sa voix du milieu du feu ; aujourd’hui nous avons vu Dieu parler à l’homme et l’homme rester vivant.
+DEU 5:25 Et maintenant pourquoi mourrions-nous ? Car ce grand feu nous dévorera ; si nous entendons encore la voix de Yahweh, notre Dieu, nous mourrons.
+DEU 5:26 Car parmi toute chair, quel est celui qui a entendu, comme nous, la voix du Dieu vivant parlant du milieu du feu, et qui soit demeuré en vie ?
+DEU 5:27 Toi, approche-toi, et écoute tout ce que dira Yahweh, notre Dieu, et tu nous rapporteras tout ce que t’aura dit Yahweh, notre Dieu : nous l’écouterons et nous le ferons. »
+DEU 5:28 Yahweh entendit vos paroles tandis que vous me parliez, et Yahweh me dit : « J’ai entendu les paroles que ce peuple t’a adressées : tout ce qu’ils ont dit est bien.
+DEU 5:29 Oh ! S’ils avaient toujours ce même cœur pour me craindre et pour observer mes commandements, afin qu’ils soient heureux à jamais, eux et leurs enfants !
+DEU 5:30 Va, dis-leur : Retournez dans vos tentes.
+DEU 5:31 Mais toi, reste ici avec moi, et je te dirai tous les commandements, les lois et les ordonnances que tu leur enseigneras, pour qu’ils les mettent en pratique dans le pays que je leur donne en possession.
+DEU 5:32 Vous aurez soin de faire ce que Yahweh, votre Dieu, vous a commandé ; vous ne vous en détournerez ni à droite ni à gauche,
+DEU 5:33 mais vous suivrez en tout la voie que Yahweh, votre Dieu, vous a prescrite, afin que vous viviez et que vous soyez heureux, et que vous prolongiez vos jours dans le pays que vous posséderez.” »
+DEU 6:1 
+EOF;
+if (!($bfile = preg_replace("/DEU 5:17 (.+?)DEU 6:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JDG 21:24 En ce temps-là, les enfants d’Israël s’en allèrent de là, chacun dans sa tribu et dans sa famille, et ils retournèrent de là, chacun dans son héritage.
+JDG 21:25 En ces jours-là, il n’y avait pas de roi en Israël ; chacun faisait ce qui était bon...
+RUT 1:1 
+EOF;
+if (!($bfile = preg_replace("/JDG 21:24 (.+?)RUT 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ISA 63:19 Nous sommes depuis longtemps comme un peuple que vous ne gouvernez pas, sur lequel votre nom n’est pas invoqué.
+ISA 63:20 Ah ! si vous déchiriez les cieux, si vous descendiez, — les montagnes seraient ébranlées devant vous ! —
+ISA 64:1 
+EOF;
+if (!($bfile = preg_replace("/ISA 63:19 (.+?)ISA 64:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+1CH 11:46 Eliel, de Mahum ; Jéribaï et Josaïa, fils d’Elnaëm ; Jethma, le Moabite ;
+1CH 11:47 Eliel, Obed et Jasiel, de Masobia.
+1CH 12:1 
+EOF;
+if (!($bfile = preg_replace("/1CH 11:46 (.+?)1CH 12:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ECC 7:27 Vois, j’ai trouvé ceci, dit l’Ecclésiaste, en considérant les choses une à une pour en découvrir la raison,
+ECC 7:28 que mon âme a constamment cherchée, sans que je l’aie trouvée : J’ai trouvé un homme entre mille, mais je n’ai pas trouvé une femme dans le même nombre.
+ECC 7:29 Seulement, vois, j’ai trouvé ceci : C’est que Dieu a fait l’homme droit, mais eux cherchent beaucoup de subtilités.
+ECC 8:1 
+EOF;
+if (!($bfile = preg_replace("/ECC 7:27 (.+?)ECC 8:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ISA 38:21 Isaïe dit : « Qu’on apporte une masse de figues, et qu’on l’applique sur l’ulcère et que le roi guérisse ! »
+ISA 38:22 Et Ezéchias dit : « A quel signe connaîtrai-je que je monterai à la maison de Yahweh ? »
+ISA 39:1 
+EOF;
+if (!($bfile = preg_replace("/ISA 38:21 (.+?)ISA 39:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+MAT 17:14 Jésus étant retourné vers le peuple, un homme s’approcha, et, tombant à genoux devant lui, il lui dit :
+MAT 17:15 « Seigneur, aie pitié de mon fils qui est lunatique et qui souffre cruellement ; il tombe souvent dans le feu et souvent dans l’eau.
+MAT 17:16 Je l’ai présenté à tes disciples, et ils n’ont pas su le guérir. »
+MAT 17:17 Jésus répondit : « O race incrédule et perverse, jusques à quand serai-je avec vous ? Jusques à quand vous supporterai-je ? Amenez-le-moi ici. »
+MAT 17:18 Et Jésus commanda au démon avec menace, et le démon sortit de l’enfant, qui fut guéri à l’heure même.
+MAT 17:19 Alors les disciples vinrent trouver Jésus en particulier, et lui dirent : « Pourquoi n’avons-nous pas pu le chasser ? »
+MAT 17:20 Jésus leur dit : « À cause de votre manque de foi. En vérité, je vous le dis, si vous avez de la foi comme un grain de sénevé, vous direz à cette montagne : Passe d’ici là, et elle y passera, et rien ne vous sera impossible.
+MAT 17:21 Mais ce genre de démon n’est chassé que par le jeûne et la prière. »
+MAT 17:22 Comme ils parcouraient la Galilée, Jésus leur dit : « Le Fils de l’homme doit être livré entre les mains des hommes,
+MAT 17:23 et ils le mettront à mort, et il ressuscitera le troisième jour. » Et ils en furent vivement attristés.
+MAT 17:24 Lorsqu’ils furent de retour à Capharnaüm, ceux qui recueillaient les didrachmes s’approchèrent de Pierre et lui dirent : « Votre Maître ne paie-t-il pas les didrachmes ? » —
+MAT 17:25 « Oui, » dit Pierre. Et comme ils entraient dans la maison, Jésus le prévenant, lui dit : « Que t’en semble, Simon ? De qui les rois de la terre perçoivent-ils des tributs ou le cens ? De leurs fils, ou des étrangers ? »
+MAT 17:26 Pierre répondit : « Des étrangers, — Les fils, lui dit Jésus, en sont donc exempts.
+MAT 17:27 Mais pour ne pas les scandaliser, va à la mer, jette l’hameçon, tire le premier poisson qui montera ; puis, ouvrant sa bouche, tu y trouveras un statère. Prends-le et donne-le-leur pour moi et pour toi. »
+MAT 18:1 
+EOF;
+if (!($bfile = preg_replace("/MAT 17:14 (.+?)MAT 18:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+MAR 4:40 Et il leur dit : « Pourquoi êtes-vous effrayés ? N’avez-vous pas encore la foi ?
+MAR 4:41 » Et ils furent saisis d’une grande crainte, et ils se disaient l’un à l’autre : « Qui donc est celui-ci, que le vent et la mer lui obéissent ? »
+MAR 4:42 
+MAR 5:1 
+EOF;
+if (!($bfile = preg_replace("/MAR 4:40 (.+?)MAR 5:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 11:56 Ils cherchaient Jésus et ils se disaient les uns aux autres, se tenant dans le temple : « Que vous en semble ? Pensez-vous qu’il ne viendra pas à la fête ? »
+JOH 11:57 Or, les Pontifes et les Pharisiens avaient donné l’ordre que, si quelqu’un savait où il était, il le déclarât, afin qu’ils le fissent prendre.
+JOH 12:1 
+EOF;
+if (!($bfile = preg_replace("/JOH 11:56 (.+?)JOH 12:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ACT 14:6 les Apôtres, l’ayant su, se réfugièrent dans les villes de Lycaonie, Lystres et Derbé, et le pays d’alentour,
+ACT 14:7 et ils y annoncèrent la bonne nouvelle.
+ACT 14:8 Il y avait à Lystres un homme perclus des jambes, qui se tenait assis, car il était boiteux de naissance et n’avait jamais marché.
+ACT 14:9 Il écoutait Paul parler ; et Paul, ayant arrêté les yeux sur lui et voyant qu’il avait la foi pour être guéri,
+ACT 14:10 dit d’une voix forte : « Lève-toi droit sur tes pieds. » Aussitôt il bondit et il marchait.
+ACT 14:11 A la vue de ce que Paul venait de faire, la foule éleva la voix et dit en lycaonien : « Les dieux sous une forme humaine sont descendus vers nous. »
+ACT 14:12 Et ils appelaient Barnabé Jupiter, et Paul Mercure, parce que c’était lui qui portait la parole.
+ACT 14:13 De plus, le prêtre du temple de Jupiter, qui était à l’entrée de la ville, amena devant les portes des taureaux avec des bandelettes, et voulait, ainsi que la foule, offrir un sacrifice.
+ACT 14:14 Les Apôtres Paul et Barnabé, l’ayant appris, déchirèrent leurs vêtements et se précipitèrent au milieu de la foule ;
+ACT 14:15 et, d’une voix retentissante, ils disaient : « O hommes, pourquoi faites-vous cela ? Nous aussi, nous sommes des hommes sujets aux mêmes faiblesses que vous ; nous vous annonçons qu’il faut quitter ces vanités pour vous tourner vers le Dieu vivant, qui a fait le ciel et la terre, la mer, et tout ce qu’ils renferment.
+ACT 14:16 Ce Dieu, dans les siècles passés, a laissé toutes les nations suivre leurs voies,
+ACT 14:17 sans que toutefois il ait cessé de se rendre témoignage à lui-même, faisant du bien, dispensant du ciel les pluies et les saisons favorables, nous donnant la nourriture avec abondance et remplissant nos cœurs de joie. »
+ACT 14:18 Malgré ces paroles, ils ne parvinrent qu’avec peine à empêcher le peuple de leur offrir un sacrifice.
+ACT 14:19 Alors survinrent d’Antioche et d’Iconium des Juifs qui, ayant gagné le peuple, lapidèrent Paul et le traînèrent hors de la ville, le croyant mort.
+ACT 14:20 Mais les disciples l’ayant entouré, il se releva et rentra dans la ville. Le lendemain, il partit pour Derbé avec Barnabé.
+ACT 14:21 Quand ils eurent évangélisé cette ville et fait un assez grand nombre de disciples, ils retournèrent à Lystres, à Iconium et à Antioche,
+ACT 14:22 fortifiant l'esprit des disciples, les exhortant à persévérer dans la foi, et disant que c’est par beaucoup de tribulations qu’il nous faut entrer dans le royaume de Dieu.
+ACT 14:23 Ils instituèrent des Anciens dans chaque Eglise, après avoir prié et jeûné, et les recommandèrent au Seigneur, en qui ils avaient cru.
+ACT 14:24 Traversant ensuite la Pisidie, ils vinrent en Pamphylie,
+ACT 14:25 et après avoir annoncé la parole de Dieu à Perge, ils descendirent à Attalie.
+ACT 14:26 De là ils firent voile pour Antioche, d’où ils étaient partis, après avoir été recommandés à la grâce de Dieu, pour l’œuvre qu’ils venaient d’accomplir.
+ACT 14:27 Dès qu’ils furent arrivés, ils assemblèrent l’Eglise, et racontèrent tout ce que Dieu avait fait pour eux, et comment il avait ouvert aux nations la porte de la foi.
+ACT 14:28 Et ils demeurèrent à Antioche assez longtemps avec les disciples.
+ACT 15:1 
+EOF;
+if (!($bfile = preg_replace("/ACT 14:6 (.+?)ACT 15:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ACT 19:40 Nous risquons, en effet, d’être accusés de sédition pour ce qui s’est passé aujourd’hui, car il n’existe aucun motif qui nous permette de justifier cet attroupement. »
+ACT 19:41 Ayant parlé ainsi, il congédia l’assemblée.
+ACT 20:1 
+EOF;
+if (!($bfile = preg_replace("/ACT 19:40 (.+?)ACT 20:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+1CO 16:23 QUE LA GRÂCE DU SEIGNEUR JÉSUS SOIT AVEC VOUS !
+1CO 16:24 MON AMOUR EST AVEC VOUS TOUS EN JÉSUS-CHRIST [AMEN !].
+2CO 1:1 
+EOF;
+if (!($bfile = preg_replace("/1CO 16:23 (.+?)2CO 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2CO 13:12 Saluez-vous les uns les autres par un saint baiser.
+2CO 13:13 Tous les saints vous saluent.
+2CO 13:14 Que la grâce de notre Seigneur Jésus-Christ, l’amour de Dieu et la communication du Saint-Esprit soient avec vous tous !
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+HEB 13:24 Saluez tous ceux qui vous conduisent et tous les saints. Les frères d’Italie vous saluent.
+HEB 13:25 Que la grâce soit avec vous tous ! Amen !
+JAM 1:1 
+EOF;
+if (!($bfile = preg_replace("/HEB 13:24 (.+?)JAM 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -4886,9 +5209,7 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---French---French-Darby-Bible" :
-if (!($bfile = preg_replace("/✽/us"," ",$bfile,-1,$rnum)) || $rnum!=559) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-if (!($bfile = preg_replace("/★/us"," ",$bfile,-1,$rnum)) || $rnum!=488) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#0x2605/1
-if (!($bfile = preg_replace("/✶/us"," ",$bfile,-1,$rnum)) || $rnum!=374) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/✶/us"," ",$bfile,-1,$rnum)) || $rnum!=375) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/✝/us"," ",$bfile,-1,$rnum)) || $rnum!=56) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 $textfix = <<<EOF
@@ -5510,6 +5831,43 @@ Revelation of John 1:7
 EOF;
 if (!($bfile = preg_replace("/Revelation of John 1:5 (.+?)Revelation of John 1:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---French---Vulgate-Glaire" :
+$textfix = <<<EOF
+Psalms 4:9 Et moi je dormirai et me reposerai en paix; parce que vous, Seigneur, m’avez affermi dans une espérance singulière.
+Psalms 5:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 4:9 (.+?)Psalms 5:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Psalms 43:22 Dieu n’en redemandera-t-il pas compte ? Car il connaît les secrets du cœur.
+Psalms 43:23 Car c’est à cause de vous que nous sommes tous les jours livrés à la mort, et qu’on nous regarde comme des brebis de boucherie.
+Psalms 43:24 Levez-vous ; pourquoi dormez-vous, Seigneur ? Levez-vous, et ne nous repoussez pas à jamais.
+Psalms 43:25 Pourquoi détournez-vous votre visage ? oubliez-vous notre misère et notre tribulation ?
+Psalms 43:26 Car notre âme est humiliée dans la poussière, et notre sein est comme collé à la terre.
+Psalms 43:27 Levez-vous, Seigneur ; secourez-nous, et rachetez-nous à cause de votre nom.
+Psalms 44:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 43:22 (.+?)Psalms 44:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Psalms 55:11 Je louerai en Dieu la parole ; je louerai dans le Seigneur sa promesse.
+Psalms 55:12 J’espère en Dieu ; je ne craindrai point ce que l’homme peut me faire.
+Psalms 55:13 Je connais, ô Dieu, les vœux que je vous ai faits, et les louanges, dont j’ai à m’acquitter envers vous.
+Psalms 55:14 Car vous avez délivré mon âme de la mort, et mes pieds de la chute, afin que je me rende agréable devant Dieu à la lumière des vivants.
+Psalms 56:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 55:11 (.+?)Psalms 56:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+II Corinthians 13:12 Saluez-vous les uns les autres par un saint baiser.
+II Corinthians 13:13 Tous les saints vous saluent.
+II Corinthians 13:14 Que la grâce de Notre-Seigneur Jésus-Christ, l’amour de Dieu et la communication du Saint-Esprit soient avec vous tous. Amen.
+Galatians 1:1 
+EOF;
+if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
 
 
 
@@ -6557,8 +6915,6 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---German---German-Luther-Bible-1912" :
-//if (!($bfile = preg_replace("/[[:punct:]]*‘[[:digit:]]+’[ ]*/us"," ",$bfile,-1,$rnum)) || $rnum!=120) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-//$bfile_saved = $bfile;
 if (!($bfile = preg_replace("/518heeft/us","heeft",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 ISA 64:1 Ach daß du den Himmel zerrissest und führest herab, daß die Berge vor dir zerflössen,
@@ -6566,6 +6922,42 @@ ISA 64:2 wie ein heißes Wasser vom heftigen Feuer versiedet, daß dein Name kun
 ISA 64:3 
 EOF;
 if (!($bfile = preg_replace("/ISA 64:1 (.+?)ISA 64:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---German---German-Menge" :
+$textfix = <<<EOF
+Nehemiah 7:68 Die Zahl ihrer Pferde betrug 736, ihrer Maultiere 245,
+Nehemiah 7:69 ihrer Kamele 435 und ihrer Esel 6720.
+Nehemiah 7:70 Manche von den Familienhäuptern spendeten Beiträge für den Gottesdienst. Der Statthalter schenkte für den Schatz: an Gold 1000 Dariken, 50 Sprengschalen, 30 Priestergewänder.
+Nehemiah 7:71 Von den Familienhäuptern gaben einige für den Gottesdienst: an Gold 20000 Dariken und an Silber 2200 Minen;
+Nehemiah 7:72 und was das übrige Volk gab, betrug an Gold 20000 Dariken und an Silber 2000 Minen und 67 Priestergewänder.
+Nehemiah 7:73 So siedelten sich denn die Priester und die Leviten sowie die Torhüter, die Sänger und die Tempelhörigen in Jerusalem und dessen Gebiet an, alle übrigen Israeliten dagegen in ihren Ortschaften. Als nun der siebte Monat herankam, während die Israeliten sich in ihren Ortschaften befanden,
+Nehemiah 8:1 
+EOF;
+if (!($bfile = preg_replace("/Nehemiah 7:68 (.+?)Nehemiah 8:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Isaiah 63:19 a Es ist uns ergangen wie solchen, über die du nicht von alters her geherrscht hast und über denen dein Name niemals genannt worden ist. 
+Isaiah 63:20 O daß du doch den Himmel zerrissest, herabführest, so daß die Berge vor dir ins Wanken gerieten –
+Isaiah 64:1 
+EOF;
+if (!($bfile = preg_replace("/Isaiah 63:19 (.+?)Isaiah 64:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Acts 19:40 Droht uns doch wegen der heutigen Vorkommnisse sogar eine Anklage wegen Aufruhrs, weil kein Grund vorliegt, mit dem wir diesen Aufruhr rechtfertigen könnten.«
+Acts 19:41 Durch diese Worte brachte er die Versammlung zum Auseinandergehen.
+Acts 20:1 
+EOF;
+if (!($bfile = preg_replace("/Acts 19:40 (.+?)Acts 20:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+II Corinthians 13:12 Grüßt einander mit dem heiligen Kuß.
+II Corinthians 13:13 Es grüßen euch die Heiligen alle.
+II Corinthians 13:14 Die Gnade des Herrn Jesus Christus und die Liebe Gottes und die Gemeinschaft des heiligen Geistes sei mit euch allen! 
+Galatians 1:1 
+EOF;
+if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -7496,6 +7888,18 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Greek---Greek-Byzantine" :
+$textfix = <<<EOF
+2CO 13:12 Ἀσπάσασθε ἀλλήλους ἐν ἁγίῳ φιλήματι.
+2CO 13:13 ἀσπάζονται ὑμᾶς οἱ ἅγιοι πάντες.
+2CO 13:14 Ἡ χάρις τοῦ Κυρίου Ἰησοῦ Χριστοῦ καὶ ἡ ἀγάπη τοῦ Θεοῦ καὶ ἡ κοινωνία τοῦ Ἁγίου Πνεύματος μετὰ πάντων ὑμῶν· ἀμήν.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Greek---Greek-LXX-Septuagint" :
@@ -7623,9 +8027,39 @@ goto RAWHIDE;
 case "Holy-Bible---Greek---Greek-SBL" :
 if (!($bfile = preg_replace("/‘[ a-zA-Z\/]+’/us"," ",$bfile,-1,$rnum)) || $rnum!=45) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
+$textfix = <<<EOF
+ACT 19:40 καὶ γὰρ κινδυνεύομεν ἐγκαλεῖσθαι στάσεως περὶ τῆς σήμερον μηδενὸς αἰτίου ὑπάρχοντος περὶ οὗ οὐ δυνησόμεθα ⸀ἀποδοῦναιλόγον ⸀περὶτῆς συστροφῆς ταύτης.
+ACT 19:41 καὶ ταῦτα εἰπὼν ἀπέλυσεν τὴν ἐκκλησίαν.
+ACT 20:1 
+EOF;
+if (!($bfile = preg_replace("/ACT 19:40 (.+?)ACT 20:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2CO 13:12 ἀσπάσασθε ἀλλήλους ἐν ἁγίῳ φιλήματι.
+2CO 13:13 ἀσπάζονται ὑμᾶς οἱ ἅγιοι πάντες.
+2CO 13:14 ἡ χάρις τοῦ κυρίου Ἰησοῦ Χριστοῦ καὶ ἡ ἀγάπη τοῦ θεοῦ καὶ ἡ κοινωνία τοῦ ἁγίου πνεύματος μετὰ πάντων ⸀ὑμῶν
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Greek---Greek-Statistical-Restoration" :
+$textfix = <<<EOF
+Acts 19:40 Καὶ γὰρ κινδυνεύομεν ἐγκαλεῖσθαι στάσεως περὶ τῆς σήμερον, μηδενὸς αἰτίου ὑπάρχοντος, περὶ οὗ οὐ δυνησόμεθα ἀποδοῦναι λόγον περὶ τῆς συστροφῆς ταύτης.”
+Acts 19:41 Καὶ ταῦτα εἰπὼν, ἀπέλυσεν τὴν ἐκκλησίαν. 
+Acts 20:1 
+EOF;
+if (!($bfile = preg_replace("/Acts 19:40 (.+?)Acts 20:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+II Corinthians 13:12 Ἀσπάσασθε ἀλλήλους ἐν ἁγίῳ φιλήματι.
+II Corinthians 13:13 Ἀσπάζονται ὑμᾶς οἱ ἅγιοι πάντες. 
+II Corinthians 13:14 Ἡ χάρις τοῦ ˚Κυρίου ˚Ἰησοῦ ˚Χριστοῦ, καὶ ἡ ἀγάπη τοῦ ˚Θεοῦ, καὶ ἡ κοινωνία τοῦ Ἁγίου ˚Πνεύματος, μετὰ πάντων ὑμῶν. 
+Galatians 1:1 
+EOF;
+if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
 
 
 
@@ -7788,10 +8222,52 @@ goto RAWHIDE;
 
 
 
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah" :
+$textfix = <<<EOF
+Numbers 26:1 וַיְהִי אַחֲרֵי הַמַּגֵּפָה וַיֹּאמֶר יְהֹוָה אֶל־מֹשֶׁה וְאֶל אֶלְעָזָר בֶּן־אַהֲרֹן הַכֹּהֵן לֵאמֹֽר׃
+Numbers 26:2 
+EOF;
+if (!($bfile = preg_replace("/Numbers 25:19 (.+?)Numbers 26:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Nehemiah 7:69 גְּמַלִּים אַרְבַּע מֵאוֹת שְׁלֹשִׁים וַחֲמִשָּׁה חֲמֹרִים שֵׁשֶׁת אֲלָפִים שְׁבַע מֵאוֹת וְעֶשְׂרִֽים׃
+Nehemiah 7:70 וּמִקְצָת רָאשֵׁי הָֽאָבוֹת נָתְנוּ לַמְּלָאכָה הַתִּרְשָׁתָא נָתַן לָאוֹצָר זָהָב דַּרְכְּמֹנִים אֶלֶף מִזְרָקוֹת חֲמִשִּׁים כׇּתְנוֹת כֹּֽהֲנִים שְׁלֹשִׁים וַחֲמֵשׁ מֵאֽוֹת׃
+Nehemiah 7:71 וּמֵֽרָאשֵׁי הָֽאָבוֹת נָֽתְנוּ לְאוֹצַר הַמְּלָאכָה זָהָב דַּרְכְּמוֹנִים שְׁתֵּי רִבּוֹת וְכֶסֶף מָנִים אַלְפַּיִם וּמָאתָֽיִם׃
+Nehemiah 7:72 וַאֲשֶׁר נָתְנוּ שְׁאֵרִית הָעָם זָהָב דַּרְכְּמֹנִים שְׁתֵּי רִבּוֹא וְכֶסֶף מָנִים אַלְפָּיִם וְכׇתְנֹת כֹּֽהֲנִים שִׁשִּׁים וְשִׁבְעָֽה׃
+Nehemiah 7:73 וַיֵּשְׁבוּ הַכֹּהֲנִים וְהַלְוִיִּם וְהַשּׁוֹעֲרִים וְהַמְשֹׁרְרִים וּמִן־הָעָם וְהַנְּתִינִים וְכׇל־יִשְׂרָאֵל בְּעָרֵיהֶם וַיִּגַּע הַחֹדֶשׁ הַשְּׁבִיעִי וּבְנֵי יִשְׂרָאֵל בְּעָרֵיהֶֽם׃
+Nehemiah 8:1 
+EOF;
+if (!($bfile = preg_replace("/Nehemiah 7:68 (.+?)Nehemiah 8:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Isaiah 63:19 הָיִינוּ מֵֽעוֹלָם לֹא־מָשַׁלְתָּ בָּם לֹֽא־נִקְרָא שִׁמְךָ עֲלֵיהֶם לֽוּא־קָרַעְתָּ 
+Isaiah 63:20 שָׁמַיִם יָרַדְתָּ מִפָּנֶיךָ הָרִים נָזֹֽלּוּ׃
+Isaiah 64:1 
+EOF;
+if (!($bfile = preg_replace("/Isaiah 63:19 (.+?)Isaiah 64:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball" :
 if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )[\d.]+/mus",'$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
+$textfix = <<<EOF
+Numbers 26:1 וַיְהִי אַחֲרֵי הַמַּגֵּפָה וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה וְאֶל אֶלְעָזָר בֶּן־אַהֲרֹן הַכֹּהֵן לֵאמֹֽר׃
+Numbers 26:2 
+EOF;
+if (!($bfile = preg_replace("/Numbers 25:19 (.+?)Numbers 26:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Nehemiah 7:69 גְּמַלִּים אַרְבַּע מֵאוֹת שְׁלֹשִׁים וַחֲמִשָּׁה חֲמֹרִים שֵׁשֶׁת אֲלָפִים שְׁבַע מֵאוֹת וְעֶשְׂרִֽים׃
+Nehemiah 7:70 וּמִקְצָת רָאשֵׁי הֽ͏ָאָבוֹת נָתְנוּ לַמְּלָאכָה הַתִּרְשָׁתָא נָתַן לָאוֹצָר זָהָב דַּרְכְּמֹנִים אֶלֶף מִזְרָקוֹת חֲמִשִּׁים כָּתְנוֹת כֹּֽהֲנִים שְׁלֹשִׁים וַחֲמֵשׁ מֵאֽוֹת׃
+Nehemiah 7:71 וּמֵֽרָאשֵׁי הָֽאָבוֹת נָֽתְנוּ לְאוֹצַר הַמְּלָאכָה זָהָב דַּרְכְּמוֹנִים שְׁתֵּי רִבּוֹת וְכֶסֶף מָנִים אַלְפַּיִם וּמָאתָֽיִם׃
+Nehemiah 7:72 וַאֲשֶׁר נָתְנוּ שְׁאֵרִית הָעָם זָהָב דַּרְכְּמוֹנִים שְׁתֵּי רִבּוֹא וְכֶסֶף מָנִים אַלְפָּיִם וְכָתְנֹת כֹּֽהֲנִים שִׁשִּׁים וְשִׁבְעָֽה׃
+Nehemiah 7:73 וַיֵּשְׁבוּ הַכֹּהֲנִים וְהַלְוִיִּם וְהַשּׁוֹעֲרִים וְהַמְשֹׁרְרִים וּמִן־הָעָם וְהַנְּתִינִים וְכָל־יִשְׂרָאֵל בְּעָרֵיהֶם וַיִּגַּע הַחֹדֶשׁ הַשְּׁבִיעִי וּבְנֵי יִשְׂרָאֵל בְּעָרֵיהֶֽם׃
+Nehemiah 8:1 
+EOF;
+if (!($bfile = preg_replace("/Nehemiah 7:68 (.+?)Nehemiah 8:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -7827,6 +8303,246 @@ goto RAWHIDE;
 case "Holy-Bible---Hungarian---Hungarian-Jewish-Bible" :
 if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )[\d.]+/mus",'$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
+$textfix = <<<EOF
+Numbers 26:1 És volt a csapás után: Szólt az Örökkévaló Mózeshez, meg Eleázárhoz, Áron, a pap fiához mondván:
+Numbers 26:2 
+EOF;
+if (!($bfile = preg_replace("/Numbers 25:19 (.+?)Numbers 26:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Deuteronomy 5:17 Ne ölj!
+Deuteronomy 5:18 Ne törj házasságot!
+Deuteronomy 5:19 Ne lopj!
+Deuteronomy 5:20 Ne vallj felebarátod ellen mint hamis tanú!
+Deuteronomy 5:21 Ne kívánd meg felebarátod feleségét és ne vágyakozzál felebarátod házára, mezejére, szolgájára, szolgálójára, ökrére, szamarára és semmire, ami felebarátodé!
+Deuteronomy 5:22 Ez igéket mondta az Örökkévaló egész gyülekezeteteknek a hegyen, a tűz, a felhő és a sűrű homály közül fennhangon, de nem többet; és fölírta azokat két kőtáblára és átadta nekem.
+Deuteronomy 5:23 És történt, mikor ti hallottátok a hangot a sötétség közül és a hegy égett a tűzben, akkor odaléptetek hozzám törzseitek minden fejei és véneitek,
+Deuteronomy 5:24 és mondtátok: Íme, megmutatta nekünk az Örökkévaló, a mi Istenünk az ő dicsőségét és nagyságát, hangját pedig hallottuk a tűz közül; ezen a napon láttuk, hogy Isten szól az emberhez és ez életben marad.
+Deuteronomy 5:25 De most miért haljunk meg? Mert megemészt bennünket ez a nagy tűz; ha még tovább halljuk az Örökkévaló, a mi Istenünk hangját, akkor meghalunk.
+Deuteronomy 5:26 Mert ki az a halandó, aki hallotta az élő Isten hangját szólani a tűz közül, mint mi és életben maradt?
+Deuteronomy 5:27 Lépj te oda és halljad mindazt, amit mond az Örökkévaló, a mi Istenünk és te mondd el nekünk mindazt, amit szól az Örökkévaló, a mi Istenűnk hozzád, hogy halljuk és megtegyük.
+Deuteronomy 5:28 És az Örökkévaló hallotta szavaitok hangját, midőn szóltatok hozzám; és az Örökkévaló mondta nekem; Hallottam a nép szavainak hangját, amellyel szóltak hozzád; jól mondták mindazt, amit szóltak.
+Deuteronomy 5:29 Vajha ez a szívük maradna nekik, hogy féljenek engem és megőrizzék mind a parancsolataimat minden időben, hogy jó dolguk legyen nekik és fiaiknak örökké.
+Deuteronomy 5:30 Menj, mondd nekik: Térjetek vissza sátraitokba!
+Deuteronomy 5:31 Te pedig állj itt nálam, hadd mondom el neked mind a parancsolatot, a törvényeket és a rendeleteket, amelyekre őket tanítsd, hogy megtegyék az országban, melyet én adok nekik, hogy elfoglalják.
+Deuteronomy 5:32 Azért őrizzétek meg, hogy úgy cselekedjetek, amint parancsolta az Örökkévaló, a ti Istenetek nektek, ne térjetek el se jobbra, se baba,
+Deuteronomy 5:33 Mindazon az úton, melyet parancsolt az Örökkévaló; a ti Istenetek nektek, járjatok, hogy éljetek, jó dolgotok legyen és hosszú ideig maradjatok az országban, melyet elfoglaltok.
+Deuteronomy 6:1 
+EOF;
+if (!($bfile = preg_replace("/Deuteronomy 5:17 (.+?)Deuteronomy 6:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Joshua 21:35 Dimnát és közlegelőit, Nahalált és közlegelőit – négy várost.
+Joshua 21:36 [Réubén törzséből: Bécert és közlegelőit, Jahcát és közlegelőit;
+Joshua 21:37 Kedémótot és közlegelőit, Méfáatot és közlegelőit – négy várost.]
+Joshua 21:38 Gád törzséből: a gyilkos menedékének való várost, Rámótot Gileádban és közlegelőit, Máchanájmot és közlegelőit;
+Joshua 21:39 Chesbónt és közlegelőit, Jáezért és közlegelőit – összesen négy várost.
+Joshua 21:40 Mind a városok Merári fiainak családjaik szerint, a többieknek a leviták családjaiból – lett a sorsuk tizenkét város.
+Joshua 21:41 A leviták városai mind, Izraél fiai örökbirtoka között negyvennyolc város és közlegelőik.
+Joshua 21:42 Legyenek e városok egy-egy város és közlegelői körülötte – így mind e városokkal.
+Joshua 21:43 Adta tehát az Örökkévaló Izraélnek az egész országot, melyről megesküdött, hogy adja őseiknek; elfoglalták és laktak benne.
+Joshua 21:44 És nyugalmat szerzett nekik az Örökkévaló köröskörül, mind a szerint, amint megesküdött őseiknek; s nem állhatott meg előttük senki, mind az ellenségeik közül, mind az ellenségeiket kezükbe adta az Örökkévaló.
+Joshua 21:45 Nem maradt el semmi mindazon jó igéből, melyet szólt az Örökkévaló Izraél házához; mind bekövetkezett.
+Joshua 22:1 
+EOF;
+if (!($bfile = preg_replace("/Joshua 21:35 (.+?)Joshua 22:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+I Samuel 31:11 Hallottak róla Jábés-Gileád lakói, hogy mit cselekedtek a filiszteusok Sáullal;
+I Samuel 31:12 akkor fölkelt minden vitéz ember, mentek egész éjjel és levették Sául testét és fiainak testét Bét-Sán faláról, eljutottak Jábésba és elégették őket ott.
+I Samuel 31:13 Vették a csontjaikat és eltemették a tamariskfa alatt Jábésban; és böjtöltek hét napig.
+II Samuel 1:1 
+EOF;
+if (!($bfile = preg_replace("/I Samuel 31:11 (.+?)II Samuel 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+II Samuel 13:3 Amnónnak pedig volt egy barátja, neve Jónádáb, fia Simeának, Dávid testvérének, s Jónádáb igen okos ember volt.
+II Samuel 13:4 És mondta neki: Miért vagy te egyre soványabb, oh királyfi, napról-napra? Ugye megmondod nekem: Mondta neki Amnón: Támárt, Absálóm testvéremnek nővérét szeretem.
+II Samuel 13:5 Erre mondta neki Jónádáb: Feküdj ágyadra és tettesd magad betegnek; s ha majd jön az atyád, hogy téged lásson, így szólj hozzá: jöjjön csak Támár nővérem és adjon nekem kenyeret enni, készítse el szemem előtt az ételt, azért hogy lássam és kezéből egyem.
+II Samuel 13:6 Lefeküdt tehát Amnón és betegnek tetette magát; eljött a király, hogy lássa őt, ekkor így szólt Amnón a királyhoz: Jöjjön csak Támár nővérem és készítsen szemem előtt két bélest, hogy kezéből egyem.
+II Samuel 13:7 Ekkor küldött Dávid a házba Támárhoz, mondván: Menj csak Amnón testvéred házába és készítsd el neki az ételt.
+II Samuel 13:8 És elment Támár Amnón testvérének házába, az pedig feküdt; vette a tésztát, meggyúrta, elkészítette szemei előtt és megfőzte a bélest.
+II Samuel 13:9 Vette a serpenyőt s kitöltötte elé, de az vonakodott enni; s mondta Amnón: Vezessetek ki mindenkit tőlem, és kiment mindenki tőle.
+II Samuel 13:10 Ekkor szólt Amnón Támárhoz: Hozd be az ételt a kamarába, hadd egyem kezedből; s vette Támár a bélest, melyet elkészített és bevitte Amnón testvérének a kamrába.
+II Samuel 13:11 Odanyújtotta neki, hogy egyék; ekkor megragadta őt és mondta neki: Jöjj, feküdj mellém, nővérem.
+II Samuel 13:12 De mondta neki: Ne, testvérem, ne gyalázz meg, mert nem tesznek ilyesmit Izraelben, ne kövesd el ez aljasságot.
+II Samuel 13:13 S én hová vigyem gyalázatomat? Te pedig olyan lennél, mint: a legaljasabbaknak egyike Izraelben! Most tehát beszélj csak a királlyal, mert nem tagad meg engem tőled.
+II Samuel 13:14 De nem akart hallgatni szavára, erőt vett rajta, meggyalázta és hált vele.
+II Samuel 13:15 Erre meggyűlölte őt Amnón igen nagy gyűlölettel; sőt nagyobb volt a gyűlölet, mellyel gyűlölte, a szerelemnél, mellyel szerette volt: és mondta neki Amnón: Kelj föl, menj!
+II Samuel 13:16 Mondta neki: Ne történjék e gonoszság, mely nagyobb a másiknál, melyet rajtam elkövettél, hogy elküldsz engem! De nem akart rá hallgatni.
+II Samuel 13:17 Hívta a legényét, aki őt szolgálta és mondta: Küldjétek csak ki mellőlem ezt itt és csukd be az ajtót utána.
+II Samuel 13:18 Volt pedig rajta tarka köntös, mert ily ruhákba öltözködnek a hajadon királyleányok. És elvezette őt szolgája kifelé és becsukta utána az ajtót.
+II Samuel 13:19 Ekkor hamut hintett Támár a fejére, a rajta levő tarka köntöst pedig megszaggatta; fejére tette a kezét és elment, egyre jajgatva.
+II Samuel 13:20 És szólt hozzá testvére Ábsálóm: Vajon testvéred Amnón volt-e nálad? De most nővérem hallgass, testvéred ő, ne fordítsd szívedet e dologra. És maradt Támár elhagyottan testvérének Ábsálómnak házában.
+II Samuel 13:21 Dávid király pedig meghallotta mind e dolgokat, és haragjára volt nagyon.
+II Samuel 13:22 És nem beszélt Ábsálóm Amnónnal, se rosszat, se jót, mert gyűlölte Absálóm Amnónt amiatt, hogy meggyalázta nővérét, Támárt.
+II Samuel 13:23 Történt pedig két esztendő után, nyírtak Ábsálómnál Báal-Cháczórban, mely Efraim mellett van; és meghívta Ábsálóm mind a királyfiakat.
+II Samuel 13:24 Ekkor bement Ábsálóm a királyhoz és mondta: Íme, kérlek, nyírnak szolgádnál; menjen csak oda a király meg szolgái a te szolgáddal.
+II Samuel 13:25 Szólt a király Ábsálómhoz: Ne fiam, ne hagyj mennünk mindnyájunkat, hogy terhedre ne legyünk; unszolta őt, de nem akart odamenni, hanem megáldotta.
+II Samuel 13:26 Ekkor mondta Ábsálóm: Ha nem, jöjjön csak oda velünk Amnón testvérem! Mondta neki a király: Minek menjen veled?
+II Samuel 13:27 De unszolta őt Ábsálóm; küldte tehát vele Amnónt és mind a királyfiakat.
+II Samuel 13:28 És megparancsolta Ábsálóm a legényeinek, mondván: Nézzétek csak, mikor vidám lesz Amnón szíve a bor közben és így szólok hozzátok: üssétek le Amnónt, akkor öljétek meg, ne féljetek, hiszen én parancsoltam nektek, erősödjetek és legyetek derék emberek!
+II Samuel 13:29 És tettek Ábsálóm legényei Amnónnal, amint parancsolta Ábsálóm; erre fölkeltek mind a királyfiak, felültek kiki az öszvérére és megfutamodtak.
+II Samuel 13:30 Ők még útban voltak, és a hír eljutott Dávidhoz, mondván: megölte Ábsálóm mind a királyfiakat, és nem maradt meg közülük egy sem.
+II Samuel 13:31 Erre fölkelt a király, megszaggatta ruháit és földre feküdt; mind a szolgái pedig ott álltak megszaggatott ruhákkal.
+II Samuel 13:32 Ekkor megszólalt Jónádáb, Simea, Dávid testvérének fia és mondta: Ne mondja uram: mind az ifjakat, a királyfiakat megöltek, hanem egyedül Amnón halt meg, mert Ábsálóm szájában volt ez, amióta amaz meggyalázta Támárt, a nővérét.
+II Samuel 13:33 Most tehát ne vegyen uram a király ily dolgot szívébe, hogy mondaná: mind a királyfiak meghaltak; mert egyedül Amnón halt meg.
+II Samuel 13:34 Ábsálóm pedig megszökött. És fölemelte az őrködő legény a szemeit és látta, íme sok nép jött az út felől, a hegy oldaláról, hátuljáról.
+II Samuel 13:35 Ekkor szólt Jónádáb a királyhoz: Íme a királyfiak megjöttek; szolgád szava szerint, úgy lett.
+II Samuel 13:36 És volt, amint végzett a beszéddel, íme a királyfiak megjöttek, fölemelték hangjukat ég sírtak; a király is és mind a szolgái sírtak igen nagy sírással.
+II Samuel 13:37 Ábsálóm pedig megszökött és ment Talmájhoz, Ammíhúd fiához, Gesúr királyához. És gyászolt fia fölött minden időben.
+II Samuel 13:38 Ábsálóm megszökött és ment Gesúrba, és ott volt három évig.
+II Samuel 13:39 És vágyódott Dávid király lelke epedve Ábsálóm után, mert megvigasztalódott Amnón felől, hogy meghalt.
+II Samuel 14:1 
+EOF;
+if (!($bfile = preg_replace("/II Samuel 13:3 (.+?)II Samuel 14:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+II Kings 5:26 De szólt hozzá: Nem ment-e veled a szívem, mikor feléd fordult kocsijáról? Idején van-e elvenni az ezüstöt és venni ruhákat, olajfákat és szőlőket, aprójószágot és marhát, szolgákat és szolgálókat?
+II Kings 5:27 De Náamánnak a bélpoklossága reád tapad és magzatodra örökre! És kiment előle bélpoklosan, mint a hó.
+II Kings 6:1 
+EOF;
+if (!($bfile = preg_replace("/II Kings 5:26 (.+?)II Kings 6:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+I Chronicles 21:30 De nem mehetett Dávid elé, hogy Istent felkeresse, mert megijedt az Örökkévaló angyalának kardja miatt.
+I Chronicles 21:31 Mondta Dávid: Ez legyen az Örökkévalónak, az Istennek háza és ez égőáldozatnak való oltár Izrael számára!
+I Chronicles 22:1 
+EOF;
+if (!($bfile = preg_replace("/I Chronicles 21:30 (.+?)I Chronicles 22:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+II Chronicles 20:3 akkor félt és arra irányította arcát Jehósáfát, hogy keresse az Örökkévalót; és böjtöt hirdetett egész Jehúdára.
+II Chronicles 20:4 És gyülekeztek a Jehúdabeliek, hogy kérjék az Örökkévalót; mind a Jehúda városaiból is jöttek, hogy kérjék az Örökkévalót.
+II Chronicles 20:5 És ott állt Jehósáfát Jehúda és Jeruzsálem gyülekezetében, az Örökkévaló házában, az új udvar előtt.
+II Chronicles 20:6 És mondta: Örökkévaló, őseink Istene, nemde te vagy az Isten az égben s te uralkodsz mind a nemzetek királyságain, s a te kezedben van erő s hatalom, s nincs senki, hogy melletted megállhatna.
+II Chronicles 20:7 Nemde te, oh istenünk, elűzted ennek ez országnak lakóit néped Izrael elől s odaadtad barátod Ábrahám magzatjának örökre,
+II Chronicles 20:8 s ők megtelepedtek abban és építettek neked abban szentélyt neved számára, mondván:
+II Chronicles 20:9 Ha jönne miránk baj, kard, büntetés, vagy dögvész, vagy éhség: hadd állunk eme ház elé és a te színed elé, mert a te neved van ebben a házban, s kiáltsunk tehozzád szorultságunkból, és te hallod és segítesz.
+II Chronicles 20:10 És most, íme Ammón fiai és Móáb és a Széir hegybeliek, akik közé mennie Izraelnek nem engedted, midőn Egyiptom földjéről jöttek, hanem kitértek előlük és nem semmisítették meg őket-
+II Chronicles 20:11 íme ők viszonozzák minekünk, eljövén, hogy elűzzenek minket örökségedből, amelyet nekünk örökbe adtál –
+II Chronicles 20:12 Istenünk, nemde ítéletet teszel rajtuk, mert bennünk nincs erő eme nagy tömeggel szemben, amely jön ellenünk; s mi nem tudjuk mit tegyünk, hanem csak te feléd fordulnak szemeink.
+II Chronicles 20:13 És egész Jehúda ott állt az Örökkévaló színe előtt, kisdedeik is, nejeik s fiaik.
+II Chronicles 20:14 És Jachazíél, Zekharjáhú fia, Benája fia, Jeíél fia, Mattanja fia, az Aszáf fiai közül való levita – volt rajta az Örökkévaló szelleme a gyülekezet közepette.
+II Chronicles 20:15 És mondta: Figyeljetek egész Jehúda és Jeruzsálem lakói és te Jehósáfát király! Így szól nektek az Örökkévaló: ti ne féljetek s ne rettegjetek a nagy tömegtől, mert nem tietek a harc, hanem az Istené.
+II Chronicles 20:16 Holnap szálljatok le ellenük; íme ők feljönnek a Czicz hágóján, s megtaláljátok őket a völgy végén, Jerúél pusztával szemben.
+II Chronicles 20:17 Nem tinektek kell itt harcolnotok; állapodjatok meg, álljatok meg és lássátok az Örökkévalónak segítségét ti veletek. Jehúda és Jeruzsálem! Ne féljetek s ne rettegjetek, holnap vonuljatok ki ellenük, s az Örökkévaló veletek lesz.
+II Chronicles 20:18 És meghajtotta magát Jehósáfát arccal a földre; egész Jehúda pedig és Jeruzsálem lakói levetették magukat az Örökkévaló előtt, leborulván az Örökkévaló előtt.
+II Chronicles 20:19 És felkeltek a kehhátiak fiai közül és a kórachiak fiai közül való leviták, hogy dicsérjék az Örökkévalót, Izrael Istenét, felette nagy hangon.
+II Chronicles 20:20 És felkeltek reggel s kimentek Tekóa pusztájába; s midőn kivonultak, odaállt Jehósáfát s mondta: Hallgassatok meg engem, Jehúda és Jeruzsálem lakói, bízzatok az Örökkévalóban, a ti Istenetekben és biztosságtok lesz, bízzatok prófétáiban s szerencsések lesztek.
+II Chronicles 20:21 És tanácskozott a néppel s felállított énekeseket az Örökkévalónak, akik ugyanis dicsérték szent díszben, midőn vonultak a fegyveres csapat előtt s mondták: Adjatok hálát az Örökkévalónak, mert örökké tart az ő kegyelme.
+II Chronicles 20:22 És amidőn elkezdettek fohászkodással és dicsérő dallal, akkor az Örökkévaló lesbenállókat szerzett Ammón fiai meg Móáb és a Széir hegybeliek ellen, akik Jehúda ellen jöttek volt, és sújtva lettek.
+II Chronicles 20:23 És felkeltek Ammón fiai és Móáb Széir hegyének lakói ellen, hogy kiirtsák és megsemmisítsék és midőn végeztek Széir lakóival, akkor egyike a másikát segítette elpusztításra.
+II Chronicles 20:24 Jehúda pedig odament a pusztára tekintő magaslatra, s a tömeg felé fordultak, és íme azok földre terült hullák, menekülés nélkül.
+II Chronicles 20:25 És odament Jehósáfát s népe, hogy elprédálják zsákmányukat, s találtak közöttük tömegesen vagyont is, ruhákat is, meg drága edényeket, és elvitték maguknak, úgy hogy elhordani nem bírták; s így három napig prédálták el a zsákmányt, mert sok volt.
+II Chronicles 20:26 A negyedik napon pedig gyülekeztek Berákha völgyében, mert ott áldották az Örökkévalót; azért így nevezték el azt a helyet: Berákha völgye, mind a mai napig.
+II Chronicles 20:27 És visszafordultak mind Jehúda és Jeruzsálem emberei és Jehósáfát az élükön, hogy visszatérjenek Jeruzsálembe örömmel, mert megörvendeztette őket az Örökkévaló ellenségeik fölött.
+II Chronicles 20:28 És megérkeztek Jeruzsálembe lantokkal, hárfákkal és trombitákkal, az Örökkévaló házához.
+II Chronicles 20:29 És volt az Isten rettegése mind az országok királyságain, midőn meghallották, hogy az Örökkévaló harcolt Izrael ellenségeivel.
+II Chronicles 20:30 És nyugodt volt Jehósáfát uralma, s nyugalmat szerzett neki Istene köröskörül.
+II Chronicles 20:31 És uralkodott Jehósáfát Jehúda fölött; harmincöt éves volt, midőn király lett, és huszonöt évig uralkodott Jeruzsálemben; anyjának neve pedig Azúba, Silchi leánya.
+II Chronicles 20:32 És járt atyjának, Ászának útján, nem tért le arról, tévén azt, ami helyes az Örökkévaló szemeiben.
+II Chronicles 20:33 Csak a magaslatok nem szűntek meg, és a nép még nem irányította szívét ősei Istene felé.
+II Chronicles 20:34 Jehósáfát egyéb dolgai pedig, az előbbiek és utóbbiak, íme meg vannak írva Jéhúnak, Chanáni fiának beszédei között, amelyek fölvétettek Izrael királyainak könyvébe.
+II Chronicles 20:35 És azután szövetkezett Jehósáfát, Jehúda királya, Achazjával, Izrael királyával, aki gonoszul cselekedett.
+II Chronicles 20:36 És szövetségesévé tette őt, hogy készítsenek hajókat, melyek Tarsisba menjenek; és készítettek hajókat Ecjón-Géberben.
+II Chronicles 20:37 És prófétált Eliézer, Dódáváhú fia, Márésából, Jehósáfát ellen, mondván: Mivelhogy szövetkeztél Achazjáhúval, rést tört az Örökkévaló a te műveden. És a hajók összetörtek és nem bírtak Tarsisba menni.
+II Chronicles 21:1 
+EOF;
+if (!($bfile = preg_replace("/II Chronicles 20:3 (.+?)II Chronicles 21:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Nehemiah 7:72 A mit pedig a többi nép adott, arany: húszezer darkemón, és ezüst: kétezer máné, papi köntösök: hatvanhét.
+Nehemiah 7:73 És letelepedtek a papok és leviták, meg a kapuőrök s az énekesek és a népből valók, és a szentélyszolgák és egész Izraél városaikban. És elérkezett a hetedik hónap, Izraél fiai pedig városaikban voltak
+Nehemiah 8:1 
+EOF;
+if (!($bfile = preg_replace("/Nehemiah 7:72 (.+?)Nehemiah 8:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Psalms 38:22 Ne hagyj el, Örökkévaló; Istenem, ne légy távol tőlem.
+Psalms 38:23 Siess segítségemre, Uram, segedelmem!
+Psalms 39:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 38:22 (.+?)Psalms 39:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Psalms 60:3 Isten, elvetettél minket, rést ütöttél bennünk, haragudtál: bárcsak helyreállítanál minket!
+Psalms 60:4 Megrendítotted a földet, szétrepesztetted, gyógyítsd meg töréseit, mert megingott.
+Psalms 60:5 Láttattál népeddel keményet, itattad velünk a támolygás borát.
+Psalms 60:6 Adtál tisztelőidnek jelzászlót, hogy jeleskedjenek, az igazságnak miatta! Széla.
+Psalms 60:7 Azért hogy megszabadíttassanak kedveltjeid, segíts jobboddal és hallgass meg!
+Psalms 60:8 Isten beszélt szentségében: Hadd ujjongok, hadd osztom ki Sekhémet, és Szukkót völgyét hadd mérem fel.
+Psalms 60:9 Enyém Gilsád és enyém Menasse, Efraim pedig fejem erőssége, Jehúda törvénypálczám.
+Psalms 60:10 Móáb mosdó medenczém, Edómra vetem sarumat; felém, Peléset, riadozzál!
+Psalms 60:11 Ki vezet engem az ostromlott városba, ki vezérel engem Edómig?
+Psalms 60:12 Nemde te, oh Isten, elvetettél minket és nem vonulsz ki, Isten, hadainkkal!
+Psalms 60:13 Adj nekünk segítséget a szorongató ellen; hisz hiábavaló embernek segedelme.
+Psalms 60:14 Istennel végzünk hatalmast és ő tiporja le szorongatóinkat.
+Psalms 61:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 60:3 (.+?)Psalms 61:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Psalms 77:20 Tengeren át volt utad és ösvényed nagy vizeken, és nyomdokaid nem voltak fölismerhetők.
+Psalms 77:21 Vezetted népedet, mint juhokat, Mózes és Áron által.
+Psalms 78:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 77:20 (.+?)Psalms 78:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Psalms 110:6 Ítéletet tart a nemzetek fölött teli holttestekkel minden – összezúzta a fejet tágas földön.
+Psalms 110:7 A patakból az úton iszik, azért fölemeli a fejet.
+Psalms 111:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 110:6 (.+?)Psalms 111:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Psalms 114:7 Az Úr elől reszkess, oh föld, Jákób Istene elől,
+Psalms 114:8 ő ki a sziklát vizes tóvá változtat-ja, a kovát víznek forrásává.
+Psalms 115:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 114:7 (.+?)Psalms 115:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Psalms 149:4 Mert az Örökkévalónak kedve telik népében, megdicsőíti az alázatosakat segítséggel.
+Psalms 149:5 Vígadjanak a jámborok dicsőségben, ujjongjanak fekvőkelyeiken;
+Psalms 149:6 Isten magasztalása torkukban, és két élü kard kezükben
+Psalms 149:7 hogy bosszút végezzenek a nemzeteken, fenyítéseket a népeken;
+Psalms 149:8 hogy megkössék királyaikat bilincsekkel, s előkelőiket vasbéklyókkal;
+Psalms 149:9 hogy végezzék rajtuk a megirott törvényt. Dísze az mind az ő jámborainak. Hallelúja!
+Psalms 150:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 149:4 (.+?)Psalms 150:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Proverbs 18:21 Halál és élet a nyelv kezében, s a ki szereti, élvezi gyümölcsét.
+Proverbs 18:22 Asszonyt talált, jót talált és kegyet nyert az Örökkévalótól.
+Proverbs 18:23 Könyörögve beszél a szegény, de a gazdag keményen felel.
+Proverbs 18:24 Vannak társak arra, hogy rosszul járjunk, s van barát, ki ragaszkodóbb testvérnél.
+Proverbs 19:1 
+EOF;
+if (!($bfile = preg_replace("/Proverbs 18:21 (.+?)Proverbs 19:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Ecclesiastes 12:8 Hiúságok hiúsága, mondja Kóhélet, minden hiúság.
+Ecclesiastes 12:9 Azonfelűl, hogy Kóhélet bölcs volt, még tanította a népet megismerésre, és fontolgatott és vizsgálódott, sok példabeszédet szerzett.
+Ecclesiastes 12:10 
+EOF;
+if (!($bfile = preg_replace("/Ecclesiastes 12:8 (.+?)Ecclesiastes 12:10 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Song of Solomon 2:16 Barátom az enyim s én vagyok az övé, a ki a liliomok közt legeltet.
+Song of Solomon 2:17 Mig hűvösödik a nap és futnak az árnyékok, fordulj, légy hasonlóvá, barátom, a szarvashoz vagy az őzök gidájához a szakadékos hegyeken.
+Song of Solomon 3:1 
+EOF;
+if (!($bfile = preg_replace("/Song of Solomon 2:16 (.+?)Song of Solomon 3:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Song of Solomon 8:13 Te, ki a kertekben lakol, társak figyelnek hangodra, hallasd velem!
+Song of Solomon 8:14 Fuss el, barátom és légy hasonlóvá a szarvashoz vagy az őzök gidájához a fűszerek hegyein.
+Ecclesiastes 1:1 
+EOF;
+if (!($bfile = preg_replace("/Song of Solomon 8:13 (.+?)Ecclesiastes 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Isaiah 21:16 Mert így szólt hozzám az Úr: Egy év múlva, a napszámos évei szerint, elenyészik Kédár egész dicsősége:
+Isaiah 21:17 Kédár vitéz fiai ifjainak megmaradt száma pedig csekély lesz, mert az Örökkévaló, Izrael Istene szólt.
+Isaiah 22:1 
+EOF;
+if (!($bfile = preg_replace("/Isaiah 21:16 (.+?)Isaiah 22:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Isaiah 63:19 Olyanok lettünk, mint akiken soha nem uralkodtál, akik fölött nem neveztetett a te neved.
+Isaiah 63:20 Ha szétszakasztanád az egeket, leszállnál, hegyek folynának szét előtted.
+Isaiah 64:1 
+EOF;
+if (!($bfile = preg_replace("/Isaiah 63:19 (.+?)Isaiah 64:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Jeremiah 30:24 Nem tér meg az Örökkévaló föllobbant haragja, amíg meg nem tette és teljesítette szívének gondolatait; a napok végén meg fogjátok érteni.
+Jeremiah 30:25 Abban az időben, úgymond az Örökkévaló, leszek Istenül Izrael minden nemzetségeinek és ők lesznek nekem népül.
+Jeremiah 31:1 
+EOF;
+if (!($bfile = preg_replace("/Jeremiah 30:24 (.+?)Jeremiah 31:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 Lamentations 4:1 Jaj! de meghomályosodott az arany, elváltozott a szép színarany, kiszórattak a szent hely kövei minden utcza szegletére. 
 Lamentations 4:2 Sionnak drága fiait, a kik becsesebbek valának mint a színarany, cserépedénynek tekintették, a fazekas munkájának. 
@@ -8049,7 +8765,1112 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---Hungarian---Magyar-Bible" :
+$textfix = <<<EOF
+1CO 13:12 Mert most tükör által homályosan látunk, akkor pedig színről-színre. Most töredékes bennem az ismeret, akkor pedig úgy ismerek majd, amint Isten ismer engem.
+1CO 13:13 Most azért megmarad a hit, remény, szeretet, e három; ezek között pedig legnagyobb a szeretet.
+1CO 14:1 
+EOF;
+if (!($bfile = preg_replace("/1CO 13:12 (.+?)1CO 14:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2CO 13:12 Köszöntsétek egymást szent csókkal.
+2CO 13:13 Köszöntenek titeket a szentek mindnyájan.
+2CO 13:14 Az Úr Jézus Krisztus kegyelme és az Isten szeretete és a Szentlélek közössége legyen mindnyájatokkal. Ámen.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+REV 2:28 és annak adom a hajnalcsillagot.
+REV 2:29 Akinek van füle, hallja, mit mond a Lélek a gyülekezeteknek.
+REV 3:1 
+EOF;
+if (!($bfile = preg_replace("/REV 2:28 (.+?)REV 3:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+REV 4:10 a huszonnégy vén leborul az előtt, aki a királyi széken ül és imádja azt, aki örökkön-örökké él, és koronájukat leteszik a királyi szék elé és ezt mondják:
+REV 4:11 „Méltó vagy, Urunk, hogy tied legyen a dicsőség, tisztesség és erő, mert te teremtettél mindent, és a te akaratod hívott létre és teremtett mindent“.
+REV 5:1 
+EOF;
+if (!($bfile = preg_replace("/REV 4:10 (.+?)REV 5:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---Icelandic---Open-Living-Word" :
+$textfix = <<<EOF
+PSA 3:8 Ég mun hrópa til Drottins: „Drottinn, rís þú upp! Bjargaðu mér, þú Guð minn!“ Og hann mun slá óvini mína og brjóta tennur illvirkjanna.
+PSA 3:9 Hjálpin kemur frá Guði. Blessun hans hvílir yfir þjóð hans.
+PSA 4:1 
+EOF;
+if (!($bfile = preg_replace("/PSA 3:8 (.+?)PSA 4:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 4:1 Þú, Guð réttlætis míns, þú sem hefur annast mig í öllum mínum erfiðleikum.
+PSA 4:2 Hlusta nú þegar ég kalla á nýjan leik. Miskunna þú mér. Heyr bæn mína.
+PSA 4:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 4:1 (.+?)PSA 4:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 5:1 Drottinn, hlustaðu á orð mín.
+PSA 5:2 Heyr þú mína einlægu bæn.
+PSA 5:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 5:1 (.+?)PSA 5:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 6:1 Æ, Drottinn! 
+PSA 6:2 Ekki refsa mér í reiði þinni!
+PSA 6:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 6:1 (.+?)PSA 6:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 7:1 Ég treysti þér, Drottinn, Guð minn, 
+PSA 7:2 að þú frelsir mig frá þeim sem ofsækja mig.
+PSA 7:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 7:1 (.+?)PSA 7:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 7:8 Safnaðu saman öllum þjóðum. Taktu þér sæti hátt uppi yfir þeim og dæmdu syndir þeirra.
+PSA 7:9 En mig, Drottinn, lýstu mig réttlátan svo allir heyri, auglýstu réttlæti mitt og ráðvendni.
+PSA 7:10 
+EOF;
+if (!($bfile = preg_replace("/PSA 7:8 (.+?)PSA 7:10 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 8:1 Ó, Drottinn Guð, mikið er nafn þitt! 
+PSA 8:2 Jörðin er full af dýrð þinni og himnarnir endurspegla mikilleik þinn.
+PSA 8:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 8:1 (.+?)PSA 8:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 9:1 Drottinn, ég vil lofa þig af öllu hjarta 
+PSA 9:2 og segja öllum frá þínum dásamlegu verkum!
+PSA 9:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 9:1 (.+?)PSA 9:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 9:8 En Drottinn lifir að eilífu. Hann situr í hásæti sínu,
+PSA 9:9 sker úr málum þjóðanna og dæmir þær með réttvísi.
+PSA 9:10 
+EOF;
+if (!($bfile = preg_replace("/PSA 9:8 (.+?)PSA 9:10 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 12:2 Allir ljúga og iðka svik og pretti, en einlægnin virðist fokin út í veður og vind.
+PSA 12:3 En Drottinn mun ekki fara mjúkum höndum um þá sem iðka ranglæti.
+PSA 12:4 Hann mun útrýma þessum lygurum sem segja: „Við skulum ljúga til um áform okkar, enda ráðum við sjálfir hvað við segjum!“
+PSA 12:5 Þessu svarar Drottinn: „Ég mun rísa upp og verja þá kúguðu, fátæku og hrjáðu. Ég mun frelsa þá samkvæmt bænum þeirra.“
+PSA 12:6 Loforð Drottins eru áreiðanleg. Hvert orð á vörum hans er satt og rétt eins og marghreinsað skíragull.
+PSA 12:7 Drottinn, við vitum að þú munt varðveita þitt fólk frá verkum illra manna,
+PSA 12:8 þó svo þeir vaði alls staðar uppi og njóti heiðurs í landinu.
+PSA 13:1 
+EOF;
+if (!($bfile = preg_replace("/PSA 12:3 (.+?)PSA 13:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 13:1 Hversu lengi ætlar þú Drottinn að gleyma mér – að eilífu, eða hvað?
+PSA 13:2 Ætlar þú sífellt að horfa í aðra átt þegar ég er í nauðum staddur?
+PSA 13:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 13:1 (.+?)PSA 13:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 17:13 Drottinn, rís þú upp og hastaðu á þá! Rektu þá frá!
+PSA 17:14 Komdu og frelsaðu mig frá hinum óguðlegu sem aðeins leita jarðnesks ávinnings, þeim sem þú hefur gefið auð og völd og ótal afkomendur.
+PSA 17:15 
+EOF;
+if (!($bfile = preg_replace("/PSA 17:13 (.+?)PSA 17:15 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 18:44 Þú veittir mér sigur í sérhverri orustu. Þjóðirnar komu og þjónuðu mér. Jafnvel þær sem ég þekkti ekki komu nú og veittu mér lotningu.
+PSA 18:45 Útlendingar sem aldrei höfðu mig augum litið lýstu sig reiðubúna til þjónustu.
+PSA 18:46 Skjálfandi stigu þeir niður úr virkjum sínum.
+PSA 18:47 
+EOF;
+if (!($bfile = preg_replace("/PSA 18:44 (.+?)PSA 18:47 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 19:1 Himnarnir sýna okkur dýrð Guðs. 
+PSA 19:2 Þeir eru þögull vitnisburður um mikilleik verka hans.
+PSA 19:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 19:1 (.+?)PSA 19:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 19:4 Hljóðlaust og án orða bera þau boðin um gervalla jörðina.
+PSA 19:5 Sólin fer sína braut um loftin – einmitt þá sem Drottinn setti henni í upphafi.
+PSA 19:6 
+EOF;
+if (!($bfile = preg_replace("/PSA 19:4 (.+?)PSA 19:6 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 19:8 Lög Guðs eru fullkomin.
+PSA 19:9 Þau vernda og auka skilning, gleðja og lýsa.
+PSA 19:10 
+EOF;
+if (!($bfile = preg_replace("/PSA 19:8 (.+?)PSA 19:10 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 20:1 Drottinn sé með þér og bænheyri þig á degi neyðarinnar! 
+PSA 20:2 Guð Jakobs frelsi þig frá allri ógæfu.
+PSA 20:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 20:1 (.+?)PSA 20:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 21:1 Drottinn! Yfir valdi þínu og mætti fagnar konungurinn. 
+PSA 21:2 Hann gleðst stórlega yfir hjálp þinni!
+PSA 21:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 21:1 (.+?)PSA 21:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 21:10 Þegar þú stígur fram eyðast þeir í eldinum sem út frá þér gengur.
+PSA 21:11 Drottinn mun afmá þá og afkomendur þeirra.
+PSA 21:12 
+EOF;
+if (!($bfile = preg_replace("/PSA 21:10 (.+?)PSA 21:12 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 22:1 Guð minn, Guð minn, hví hefur þú yfirgefið mig? 
+PSA 22:2 Hví ert þú þögull og hjálpar ekki þegar ég hrópa til þín í neyð minni?
+PSA 22:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 22:1 (.+?)PSA 22:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 22:4 – En samt ert þú hinn heilagi og lofsöngvar Ísraels óma umhverfis hásæti þitt.
+PSA 22:5 Feðurnir treystu þér og þú frelsaðir þá.
+PSA 22:6 
+EOF;
+if (!($bfile = preg_replace("/PSA 22:4 (.+?)PSA 22:6 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 22:10 Drottinn, oft hefur þú hjálpað mér. Móðir mín fæddi mig heilbrigðan í heiminn og þar varst þú til staðar og gættir mín, eins og öll mín bernskuár.
+PSA 22:11 Frá fæðingu hef ég átt allt undir þér. Þú varst minn Guð allt frá fyrstu stundu.
+PSA 22:12 Yfirgef mig ekki nú, nei ekki núna á neyðarstundu þegar enginn getur hjálpað nema þú!
+PSA 22:13 
+EOF;
+if (!($bfile = preg_replace("/PSA 22:10 (.+?)PSA 22:13 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 25:6 Drottinn, minnstu ekki æskusynda minna. Líttu til mín miskunnaraugum og veittu mér náð. 
+PSA 25:7 Minnstu mín í elsku þinni og gæsku, Drottinn minn.
+PSA 25:8 
+EOF;
+if (!($bfile = preg_replace("/PSA 25:6 (.+?)PSA 25:8 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 26:9 Láttu mér ekki farnast eins og syndurum og morðingjum
+PSA 26:10 eða þeim sem beita saklausa menn vélráðum og heimta mútur.
+PSA 26:11 
+EOF;
+if (!($bfile = preg_replace("/PSA 26:9 (.+?)PSA 26:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 29:5 Hún fellir sedrustrén til jarðar og klýfur hin hávöxnu tré í Líbanon. Raust Drottins skekur fjöllin í Líbanon og hristir Hermonfjall.
+PSA 29:6 Hans vegna hoppa þau um eins og ungir kálfar!
+PSA 29:7 Rödd Drottins kveður við í eldingunni
+PSA 29:8 og endurómar í eyðimörkinni sem nötrar endanna á milli.
+PSA 29:9 
+EOF;
+if (!($bfile = preg_replace("/PSA 29:5 (.+?)PSA 29:9 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 30:1 Ég vil lofa þig Drottinn, því að þú hefur frelsað mig frá óvinum mínum. 
+PSA 30:2 Þú leyfðir þeim ekki að yfirbuga mig.
+PSA 30:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 30:1 (.+?)PSA 30:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 30:7 Þegar allt gekk mér í hag, hugsaði ég: „Svona verður það alla tíð, nú getur ekkert stöðvað mig framar! Drottinn hefur velþóknun á mér. Hans vegna stend ég stöðugur, fastur fyrir eins og fjöllin!“
+PSA 30:8 Þá snerir þú þér, Drottinn, burt frá mér og hélst aftur af blessun þinni. Skyndilega var kjarkur minn brostinn. Ég varð skelkaður og örvænti um minn hag.
+PSA 30:9 
+EOF;
+if (!($bfile = preg_replace("/PSA 30:7 (.+?)PSA 30:9 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 31:1 Drottinn, þér einum treysti ég. Láttu ekki óvini mína yfirbuga mig. 
+PSA 31:2 Bjargaðu mér, því að þú ert réttlátur í öllum hlutum.
+PSA 31:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 31:1 (.+?)PSA 31:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 31:10 Ó, Drottinn, miskunna mér í neyð minni.
+PSA 31:11 Augu mín eru grátbólgin, heilsa mín brostin af sorg.
+PSA 31:12 
+EOF;
+if (!($bfile = preg_replace("/PSA 31:10 (.+?)PSA 31:12 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 31:15 En Drottinn, þér treysti ég! Ég sagði: „Þú einn ert minn Guð,“
+PSA 31:16 þú ákveður ævilengd mína. Frelsaðu mig Drottinn, undan þeim sem ofsækja mig.
+PSA 31:17 
+EOF;
+if (!($bfile = preg_replace("/PSA 31:15 (.+?)PSA 31:17 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 32:1 Hvílík náð að fá syndir sínar fyrirgefnar! Það er dásamlegt þegar afbrotin eru strikuð út!
+PSA 32:2 En sá léttir hverjum játandi syndara að heyra Drottin segja: „Ég sýkna þig.“
+PSA 32:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 32:1 (.+?)PSA 32:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 33:6 Það var orð Drottins sem skapaði himininn og alla hans stjörnumergð.
+PSA 33:7 Og höfunum safnaði hann saman og bjó þeim sinn rétta stað.
+PSA 33:8 
+EOF;
+if (!($bfile = preg_replace("/PSA 33:6 (.+?)PSA 33:8 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 33:13 Drottinn lítur niður af himni,
+PSA 33:14 horfir á mannanna börn.
+PSA 33:15 Hann hefur myndað hjörtu þeirra og gefur gætur að öllum athöfnum þeirra.
+PSA 33:16 Velbúinn her tryggir konungi ekki sigur og ofurafl eitt stoðar lítið.
+PSA 33:17 Stríðshestur er ekki til að reiða sig á, styrkur hans einn frelsar engan.
+PSA 33:18 En, – augu Drottins vaka yfir þeim sem óttast hann, þeim sem reiða sig á elsku hans.
+PSA 33:19 Hann frelsar þá frá dauða, varðveitir líf þeirra á neyðarstund.
+PSA 33:20 
+EOF;
+if (!($bfile = preg_replace("/PSA 33:13 (.+?)PSA 33:20 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 34:1 Ég vil lofa Drottin öllum stundum, 
+PSA 34:2 vegsama hann seint og snemma.
+PSA 34:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 34:1 (.+?)PSA 34:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 36:1 Rödd syndarinnar talar í huga guðleysingjans og hvetur hann til vondra verka. 
+PSA 36:2 Enginn guðsótti býr í hjarta hans.
+PSA 36:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 36:1 (.+?)PSA 36:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 37:12 Drottinn hlær að þeim sem brugga launráð gegn hans trúuðu.
+PSA 37:13 Hann hefur þegar ákveðið daginn er þeir verða dæmdir.
+PSA 37:14 
+EOF;
+if (!($bfile = preg_replace("/PSA 37:12 (.+?)PSA 37:14 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 37:30 Guðrækinn maður talar speki, enda réttsýnn og sanngjarn.
+PSA 37:31 Lögmál Guðs er í hjarta hans og hann kann að greina gott frá illu.
+PSA 37:32 
+EOF;
+if (!($bfile = preg_replace("/PSA 37:30 (.+?)PSA 37:32 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 37:35 Ég sá vondan mann og hrokafullan – hann þandi sig út eins og laufmikið tré –
+PSA 37:36 en svo var hann horfinn! Ég leitaði eftir honum, en fann hann ekki framar.
+PSA 37:37 
+EOF;
+if (!($bfile = preg_replace("/PSA 37:35 (.+?)PSA 37:37 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 38:1 Drottinn, ekki refsa mér, 
+PSA 38:2 þótt þú sért reiður.
+PSA 38:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 38:1 (.+?)PSA 38:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 38:4 Vegna reiði þinnar er ég sjúkur maður, heilsa mín er farin vegna synda minna.
+PSA 38:5 Syndir mínar líkjast flóði sem færir mig í kaf, eins og byrði sem ég kikna undan.
+PSA 38:6 Ólykt leggur af sárum mínum – það er drep í þeim.
+PSA 38:7 Ég er ráðþrota vegna synda minna. Ég ráfa um í angist liðlangan daginn.
+PSA 38:8 
+EOF;
+if (!($bfile = preg_replace("/PSA 38:4 (.+?)PSA 38:8 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 38:14 En illráð þeirra verka ekki á mig!
+PSA 38:15 Ég virði þá ekki viðlits. Áform þeirra rætast ekki,
+PSA 38:16 
+EOF;
+if (!($bfile = preg_replace("/PSA 38:14 (.+?)PSA 38:16 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 39:1 Ég hugsaði: 
+PSA 39:2 „Ég ætla ekki að kvarta, né segja neitt ljótt meðan óguðlegir heyra til.“
+PSA 39:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 39:1 (.+?)PSA 39:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 39:3 Og ég þagði. En hið innra leið mér verr og verr.
+PSA 39:4 Ég hélt aftur af mér, en gremjan magnaðist í mér. Að lokum gat ég ekki orða bundist:
+PSA 39:5 „Drottinn, fæ ég aðeins að lifa örfá ár í viðbót?
+PSA 39:6 Ævi mín er lítið lengri en höndin á mér! Og í þínum augum er hún nánast ekki neitt! Maðurinn, hvað er hann? Vindblær, flöktandi skuggi!
+PSA 39:7 Ys hans og amstur kemur engu til leiðar. Hann rakar saman fé sem svo aðrir eyða!“
+PSA 39:8 
+EOF;
+if (!($bfile = preg_replace("/PSA 39:3 (.+?)PSA 39:8 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 40:1 Ég setti alla mína von á Drottin. 
+PSA 40:2 Hann heyrði kvein mitt og að lokum bjargaði hann mér.
+PSA 40:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 40:1 (.+?)PSA 40:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 40:15 Ruglaðu þá í ríminu; sem sækjast eftir lífi mínu.
+PSA 40:16 Sendu þá burt með skömm!
+PSA 40:17 
+EOF;
+if (!($bfile = preg_replace("/PSA 40:15 (.+?)PSA 40:17 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 41:1 Guð blessar þann sem hjálpar bágstöddum. 
+PSA 41:2 Á mæðudeginum bjargar Drottinn honum.
+PSA 41:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 41:1 (.+?)PSA 41:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 42:1 Eins og hindin þráir vatnslindir, 
+PSA 42:2 þrái ég þig, ó Guð.
+PSA 42:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 42:1 (.+?)PSA 42:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 42:5 Hresstu þig nú, sál mín! Minnstu þess er þú á hátíðum leiddir skrúðgönguna til musterisins, og söngst lofsöng um Drottin? Það var ógleymanlegt!
+PSA 42:6 Til hvers þá að vera hnugginn? Hvers vegna að súta og syrgja? Treystu Drottni! Já, svo sannarlega vil ég lofa hann á ný. Aftur vil ég þakka honum hjálp hans.
+PSA 42:7 
+EOF;
+if (!($bfile = preg_replace("/PSA 42:5 (.+?)PSA 42:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 44:1 Guð, við höfum heyrt um máttarverk þín á dögum forfeðra okkar. 
+PSA 44:2 Þeir hafa sagt:
+PSA 44:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 44:1 (.+?)PSA 44:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 44:16 Ég verð fyrir stöðugum skömmum,
+PSA 44:17 mér er formælt og ég fyrirlitinn af hefnigjörnum óvinum.
+PSA 44:18 
+EOF;
+if (!($bfile = preg_replace("/PSA 44:16 (.+?)PSA 44:18 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 45:1 Hjarta mitt svellur af fögrum orðum. Ég vil flytja konungi ljóð. 
+PSA 45:2 Tunga mín er penni hraðritarans, hún flytur langa sögu á augabragði:
+PSA 45:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 45:1 (.+?)PSA 45:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 45:11 „Dóttir mín, hlustaðu. Ég vil gefa þér ráð: Gleymdu heimþránni, vertu ekki döpur.
+PSA 45:12 Konungurinn elskar þig og gleðst yfir fegurð þinni. Sýndu honum lotningu því hann er herra þinn.
+PSA 45:13 
+EOF;
+if (!($bfile = preg_replace("/PSA 45:11 (.+?)PSA 45:13 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 46:1 Guð er mér hæli og styrkur, 
+PSA 46:2 örugg hjálp í nauðum.
+PSA 46:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 46:1 (.+?)PSA 46:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 47:1 Komið allar þjóðir! Klappið saman höndum af gleði! 
+PSA 47:2 Hrópið af fögnuði fyrir Guði!
+PSA 47:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 47:1 (.+?)PSA 47:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 47:7 Lofsyngið Guði, konungi okkar. Já, syngið lofgjörðarsöng fyrir konunginn,
+PSA 47:8 konung allrar jarðarinnar. Lofsyngið Guði!
+PSA 47:9 
+EOF;
+if (!($bfile = preg_replace("/PSA 47:7 (.+?)PSA 47:9 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 48:1 Mikill er Drottinn! Vegsömum hann, já lofum hann! 
+PSA 48:2 Hann býr á sínu helga fjalli í Jerúsalem.
+PSA 48:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 48:1 (.+?)PSA 48:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 48:14 Lítið á múrinn og sjáið hallirnar og segið komandi kynslóð frá því að slíkur sé Drottinn!
+PSA 48:15 Hann mun leiða okkur um aldur og ævi.
+PSA 49:1 
+EOF;
+if (!($bfile = preg_replace("/PSA 48:14 (.+?)PSA 49:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 49:1 Hlustið nú 
+PSA 49:2 háir og lágir, ríkir og fátækir.
+PSA 49:3 Allir heimsbúar hlýðið á.
+PSA 49:4 
+EOF;
+if (!($bfile = preg_replace("/PSA 49:1 (.+?)PSA 49:4 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 49:9 Sál mannsins er dýrmætari en svo að hún verði keypt fyrir fé.
+PSA 49:10 Auður alls heimsins hrekkur ekki til að kaupa einum manni líf og forða honum frá gröfinni.
+PSA 49:11 
+EOF;
+if (!($bfile = preg_replace("/PSA 49:9 (.+?)PSA 49:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 50:10 því að öll dýr jarðarinnar tilheyra mér!
+PSA 50:11 Hjarðirnar á fjöllunum og fuglar loftsins – allt er það mitt.
+PSA 50:12 Væri ég hungraður, segði ég þér ekki frá því – allt á jörðu er mitt, ekkert er undan skilið.
+PSA 50:13 Nei, ég þrái ekki kjötfórnir þínar og blóðfórnir,
+PSA 50:14 heldur þakklæti og orðheldni.
+PSA 50:15 Ákallaðu mig á degi neyðarinnar og þá mun ég frelsa þig. Og þú skalt vegsama mig. Já, þetta skaltu gera.
+PSA 50:16 
+EOF;
+if (!($bfile = preg_replace("/PSA 50:10 (.+?)PSA 50:16 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 51:16 Frelsaðu mig frá dauðans háska, ó Guð minn. Þú einn getur frelsað mig!
+PSA 51:17 Leyf mér að syngja um miskunn þína, Drottinn. Opnaðu varir mínar svo að ég megi vegsama þig!
+PSA 51:18 
+EOF;
+if (!($bfile = preg_replace("/PSA 51:16 (.+?)PSA 51:18 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 53:1 En sú heimska að segja: „Guð er ekki til.“ Hvers vegna segja menn slíkt? 
+PSA 53:2 Vegna þess að hjörtu þeirra eru spillt og verk þeirra vond.
+PSA 53:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 53:1 (.+?)PSA 53:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 55:1 Heyr bæn mína, ó Guð! 
+PSA 55:2 Snú þér ekki frá þegar ég ákalla þig.
+PSA 55:3 Hlustaðu á ákall mitt. Ég andvarpa og græt í sorg minni.
+PSA 55:4 Óvinir mínir æpa á mig, hóta að drepa mig. Þeir umkringja mig og brugga mér banaráð, öskra á mig í hamslausri reiði.
+PSA 55:5 Ég er lamaður af ótta, fullur örvæntingar. 
+PSA 55:6 Hvílík skelfing!
+PSA 55:7 
+EOF;
+if (!($bfile = preg_replace("/PSA 55:1 (.+?)PSA 55:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 56:1 Drottinn, miskunna þú mér, 
+PSA 56:2 því að liðlangan daginn sækja óvinir mínir að.
+PSA 56:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 56:1 (.+?)PSA 56:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 57:1 Þennan sálm orti Davíð þegar hann flýði inn í hellinn undan Sál. (Sjá 1. Sam. 22:1‑2 og 24:1‑9). 
+PSA 57:2 Ó Guð, vertu mér náðugur, því að ég treysti þér. Ég vil leita skjóls undir vængjum þínum uns storminn hefur lægt.
+PSA 57:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 57:1 (.+?)PSA 57:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 57:9 Rís þú nú upp, sál mín! Vakna þú harpa og gígja! Bjóddu morgunroðann velkominn með söng!
+PSA 57:10 Allir landsbúar heyra þakkargjörð mína. Ég vil syngja þér lof meðal þjóðanna.
+PSA 57:11 Miskunn þín er há eins og himinninn og trúfesti þín nær til skýjanna.
+PSA 57:12 Þú ert hærri en hæstu himnar, ó, Guð. Láttu dýrð þína breiðast yfir gjörvalla jörðina.
+PSA 58:1 
+EOF;
+if (!($bfile = preg_replace("/PSA 57:9 (.+?)PSA 58:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 58:1 Þið konungar og leiðtogar þjóðanna, talið þið sannleika? 
+PSA 58:2 Er réttlæti í dómum ykkar og úrskurðum?
+PSA 58:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 58:1 (.+?)PSA 58:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 58:6 Drottinn, slíttu úr þeim eiturbroddinn!
+PSA 58:7 Dragðu vígtennurnar úr þessum vörgum, ó Guð.
+PSA 58:8 
+EOF;
+if (!($bfile = preg_replace("/PSA 58:7 (.+?)PSA 58:8 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 59:15 Á hverju kvöldi koma þeir aftur, ýlfra eins og hundar og ráfa um borgina,
+PSA 59:16 urra og leita að æti.
+PSA 59:17 En ég? – Á hverjum morgni vil ég syngja um miskunn þína og mátt, því að á degi neyðarinnar varstu mér vígi.
+PSA 59:18 Þú styrkur minn, um þig vil ég syngja ljóðin mín. Þú háborg mín! Þú minn miskunnsami Guð!
+PSA 60:1 
+EOF;
+if (!($bfile = preg_replace("/PSA 59:15 (.+?)PSA 60:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 60:8 Guð hefur heitið hjálp. Hann hefur svarið það við heilagleika sinn! Er að undra þótt ég sé glaður?!
+PSA 60:9 „Síkem, Súkkót, Gíleað, Manasse – allt er þetta mitt,“ segir hann. „Júda gefur konung og Efraím varðmenn.
+PSA 60:10 
+EOF;
+if (!($bfile = preg_replace("/PSA 60:8 (.+?)PSA 60:10 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 61:1 Ó, Guð, heyrðu hróp mitt! 
+PSA 61:2 Hlustaðu á bæn mína.
+PSA 61:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 61:1 (.+?)PSA 61:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 61:8 Ég mun lifa frammi fyrir Drottni að eilífu! Lát elsku þína og trúfesti gæta mín,
+PSA 61:9 þá mun ég lofa nafn þitt um aldur og ævi og efna heit mín dag eftir dag.
+PSA 62:1 
+EOF;
+if (!($bfile = preg_replace("/PSA 61:8 (.+?)PSA 62:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 62:1 Ég bíð rólegur og þögull 
+PSA 62:2 eftir hjálp Drottins.
+PSA 62:3 Hann einn er bjarg mitt og lausnari, vörn mín og vígi. Ég hef ekkert að óttast.
+PSA 62:4 En hvað um þessa menn sem ásaka mig þegar veldi mitt stendur höllum fæti, vilja mig feigan og ljúga og pretta til að steypa mér af stóli.
+PSA 62:5 Þeir tala fagurgala, satt er það, en hata mig í hjörtum sínum!
+PSA 62:6 
+EOF;
+if (!($bfile = preg_replace("/PSA 62:1 (.+?)PSA 62:6 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 62:11 Safnið ekki auði með svikum og ránum og treystið ekki illa fengnu fé. 
+PSA 62:12 Treystið Drottni! Minnist þess aftur og aftur að Drottins er styrkurinn.
+PSA 62:13 
+EOF;
+if (!($bfile = preg_replace("/PSA 62:11 (.+?)PSA 62:13 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 64:1 Ó, Drottinn, hlustaðu á neyðaróp mitt, verndaðu mig! 
+PSA 64:2 því að hópur af þorpurum og bófum hafa gert samsæri gegn mér.
+PSA 64:3 Orð þeirra eru eins og rýtingur í bakið. Þeir hvæsa á mig og nísta hjarta mitt.
+PSA 64:4 Þeir senda mér kaldar kveðjur úr launsátri, vinna verk sín í skyndi, eru hvergi smeykir.
+PSA 64:5 Þeir sitja á svikráðum. Hittast á laun og leggja gildrur fyrir aðra. „Þetta sér enginn,“ segja þeir.
+PSA 64:6 Þeir upphugsa ill verk og segja „Nú er allt klappað og klárt!“ Hjörtu þeirra fyllast illsku og svikum.
+PSA 64:7 En Guð mun slá þá til jarðar. Eins og hendi sé veifað hittir örin þá
+PSA 64:8 Tunga þeirra verður þeim að falli. Menn hrista höfuðið yfir þeim og
+PSA 64:9 ótta slær á alla. Þeir játa mikilleik Guðs og hans voldugu verk, gefa gætur að því sem hann gerir.
+PSA 64:10 En hinir trúuðu munu fagna í Drottni, leita hjálpar hans og hrósa sigri með honum.
+PSA 65:1 
+EOF;
+if (!($bfile = preg_replace("/PSA 64:1 (.+?)PSA 65:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 65:1 Ó, þú Guð á Síon, 
+PSA 65:2 við lofum þig og vegsömum og efnum heit okkar við þig.
+PSA 65:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 65:1 (.+?)PSA 65:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 65:12 Landið klæðist grænni kápu.
+PSA 65:13 Heiðarnar blómstra og hlíðarnar brosa, allt er loðið af gróðri!
+PSA 65:14 Hjarðirnar liðast um hagana og dalirnir fyllast af korni. Allt fagnar og syngur!
+PSA 66:1 
+EOF;
+if (!($bfile = preg_replace("/PSA 65:12 (.+?)PSA 66:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 67:1 Ó, veittu okkur miskunn þína og náð! 
+PSA 67:2 Leyfðu okkur að sjá þig og kærleika þinn.
+PSA 67:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 67:1 (.+?)PSA 67:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 67:7 Því að uppskera jarðarinnar varð mikil og Guð, hefur blessað okkur ríkulega.
+PSA 67:8 Og hann blessi okkur áfram svo að allar þjóðir megi óttast hann og elska.
+PSA 68:1 
+EOF;
+if (!($bfile = preg_replace("/PSA 67:7 (.+?)PSA 68:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 68:1 Þegar Guð rís á fætur þá tvístrast óvinir hans! 
+PSA 68:2 Þeir sem hata hann flýja sem mest þeir mega.
+PSA 68:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 68:1 (.+?)PSA 68:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 68:10 Þú, Guð, sendir regnskúrir yfir land þitt, hresstir það og endurnærðir.
+PSA 68:11 Þar settist þjóð þín að. Þú gafst hinum hrjáðu heimili og skjól.
+PSA 68:12 Drottinn lætur orð sín rætast og þegar hann talar flýja óvinirnir.
+PSA 68:13 Konurnar sem heima eru flytja gleðifrétt: „Óvinaherinn er flúinn, þeir sem vildu eyða öllu og umturna!“ Og konur í Ísrael skipta herfanginu.
+PSA 68:14 Þær hylja sig með gulli og silfri, rétt eins og dúfan vængjum sínum!
+PSA 68:15 Þegar Guð stökkti óvinunum á flótta þá snjóaði á Salmonsfjalli.
+PSA 68:16 Þið voldugu Basanfjöll, þið illkleifu tindar!
+PSA 68:17 Hvers vegna horfið þið með öfund til Síonar – fjallsins sem Drottinn hefur kosið sér til bústaðar?
+PSA 68:18 
+EOF;
+if (!($bfile = preg_replace("/PSA 68:10 (.+?)PSA 68:18 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 69:1 Frelsaðu mig, ó Guð, 
+PSA 69:2 því að vatnið hækkar sífellt
+PSA 69:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 69:1 (.+?)PSA 69:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 70:1 Bjargaðu mér, ó Guð! 
+PSA 70:2 Flýttu þér Drottinn, að hjálpa mér!
+PSA 70:3 Óvinir mínir sækjast eftir lífi mínu og njóta þess að kvelja mig.
+PSA 70:4 Rektu þá burt með skömm! Stöðvaðu þá! Láttu þá ekki hæða mig og spotta.
+PSA 70:5 
+EOF;
+if (!($bfile = preg_replace("/PSA 70:1 (.+?)PSA 70:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 71:10 Óvinir mínir hvísla: 
+PSA 71:11 „Guð hefur yfirgefið hann! Nú er hann auðveld bráð. Hann hefur engan sér til hjálpar!“
+PSA 71:12 
+EOF;
+if (!($bfile = preg_replace("/PSA 71:10 (.+?)PSA 71:12 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 72:2 Gefðu að hann dæmi þjóð þína með sanngirni og láti hina snauðu ná rétti sínum.
+PSA 72:3 Stjórnspeki hans leiði af sér velferð og grósku.
+PSA 72:4 
+EOF;
+if (!($bfile = preg_replace("/PSA 72:2 (.+?)PSA 72:4 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 73:11 „Guð virðist láta þá í friði,“ segir fólk,
+PSA 73:12 „já, þessir guðleysingjar lifa áhyggjulausu lífi og verða ríkari með hverjum degi.“
+PSA 73:13 
+EOF;
+if (!($bfile = preg_replace("/PSA 73:11 (.+?)PSA 73:13 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 74:5 Allt er eins og rjúkandi rúst, eins og brunninn skógur.
+PSA 74:6 Með öxum sínum og sleggjum hjuggu þeir og brutu allan útskurðinn.
+PSA 74:7 Þeir kveiktu í musterinu og gjöreyddu helgidóm þinn, Drottinn.
+PSA 74:8 „Þurrkum út allt sem minnir á Drottin!“ öskruðu þeir og brenndu síðan öll samkomuhús Guðs í landinu.
+PSA 74:9 Ekkert er nú eftir sem sýnir að við séum þín útvalda þjóð. Spámennirnir eru horfnir og hver getur þá sagt okkur hvenær þessi ósköp munu enda?
+PSA 74:10 Hve lengi ætlar þú Guð að leyfa óvinum þínum að óvirða nafn þitt? Ætlar þú að láta þá komast upp með þetta að eilífu?
+PSA 74:11 Eftir hverju ertu að bíða? Af hverju gerir þú ekkert? Ó, rektu þá burt með þinni sterku hendi!
+PSA 74:12 Guð, þú ert konungur minn frá alda öðli. Hjálpar þinnar hef ég notið á öllum mínum ferðum.
+PSA 74:13 Þú klaufst hafið með mætti þínum,
+PSA 74:14 molaðir haus sjávarguðsins!
+PSA 74:15 
+EOF;
+if (!($bfile = preg_replace("/PSA 74:5 (.+?)PSA 74:15 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 75:1 Þökk sé þér Drottinn! 
+PSA 75:2 Máttarverk þín staðfesta umhyggju þína.
+PSA 75:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 75:1 (.+?)PSA 75:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 76:1 Orðstír Drottins er mikill 
+PSA 76:2 í Júda og Ísrael.
+PSA 76:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 76:1 (.+?)PSA 76:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 78:2 Nú ætla ég að rifja upp fyrir þér liðna atburði,
+PSA 78:3 frásagnir sem varðveist hafa frá kynslóð til kynslóðar.
+PSA 78:4 
+EOF;
+if (!($bfile = preg_replace("/PSA 78:2 (.+?)PSA 78:4 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 78:11 Þeir gleymdu máttarverkum Drottins,
+PSA 78:12 sem hann hafði fyrir þá gert og forfeður þeirra í Egyptalandi,
+PSA 78:13 
+EOF;
+if (!($bfile = preg_replace("/PSA 78:11 (.+?)PSA 78:13 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 78:19 Þeir ásökuðu jafnvel sjálfan Guð og sögðu:
+PSA 78:20 „Hann gaf okkur vatn, en hvers vegna fáum við ekki brauð eða kjöt?!“
+PSA 78:21 
+EOF;
+if (!($bfile = preg_replace("/PSA 78:19 (.+?)PSA 78:21 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 78:71 úr smalamennskunni, til að verða leiðtogi og hirðir þjóðar sinnar.
+PSA 78:72 Og hann gætti hennar af öryggi og með hreinu hjarta.
+PSA 79:1 
+EOF;
+if (!($bfile = preg_replace("/PSA 78:71 (.+?)PSA 79:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 80:1 Þú hirðir Ísraels sem leiðir þjóð þína eins og hjörð. 
+PSA 80:2 Þú Guð sem situr á hásæti uppi yfir verndarenglunum, beygðu þig niður og hlustaðu á bæn mína. Láttu veldi þitt birtast í geisladýrð!
+PSA 80:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 80:1 (.+?)PSA 80:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 81:1 Guð er okkar styrkur! 
+PSA 81:2 Syngið lofsöng og fagnið fyrir Guði Ísraels!
+PSA 81:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 81:1 (.+?)PSA 81:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 83:1 Guð, vertu ekki þögull og afskiptalaus þegar við biðjum til þín. 
+PSA 83:2 Svaraðu okkur! Já, bjargaðu okkur!
+PSA 83:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 83:1 (.+?)PSA 83:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 84:1 Ó, hve musteri þitt er yndislegt, 
+PSA 84:2 þú Drottinn hersveitanna.
+PSA 84:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 84:1 (.+?)PSA 84:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 85:1 Drottinn, þú hefur baðað land þetta blessun! 
+PSA 85:2 Þú hefur snúið hlutunum Ísrael í hag
+PSA 85:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 85:1 (.+?)PSA 85:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 87:1 Hátt á hinu heilaga fjalli, stendur Jerúsalem, borg Guðs –
+PSA 87:2 borgin sem hann elskar öllum borgum framar.
+PSA 87:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 87:1 (.+?)PSA 87:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 88:1 Drottinn, þú Guð minn og hjálpari minn, 
+PSA 88:2 ég ákalla þig um daga og nætur.
+PSA 88:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 88:1 (.+?)PSA 88:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 89:1 Ég vil syngja um miskunn Drottins að eilífu! 
+PSA 89:2 Ungir sem gamlir skulu fá að heyra um trúfesti þína.
+PSA 89:3 Elska þín og náð vara að eilífu og trúfesti þín stendur óhögguð eins og himinninn.
+PSA 89:4 Svo segir Drottinn Guð: „Ég hef gert sáttmála við Davíð, minn útvalda þjón.
+PSA 89:5 Ég hef unnið þann eið, að afkomendur hans skuli sitja á konungsstóli héðan í frá og að eilífu!“
+PSA 89:6 
+EOF;
+if (!($bfile = preg_replace("/PSA 89:1 (.+?)PSA 89:6 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 89:15 Tvær eru undirstöður hásætis þíns: Réttvísi og réttlæti, og miskunn og trúfesti eru fylgdarsveinar þínir.
+PSA 89:16 Sælir eru þeir sem heyra fagnaðarópið – þeir sem ganga í ljósinu sem stafar frá Drottni.
+PSA 89:17 
+EOF;
+if (!($bfile = preg_replace("/PSA 89:15 (.+?)PSA 89:17 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 89:31 Ef afkomendur hans hafna lögmáli mínu og óhlýðnast mér,
+PSA 89:32 þá mun ég hegna þeim,
+PSA 89:33 en aldrei mun ég þó hætta að miskunna þeim,
+PSA 89:34 né bregðast loforði mínu.
+PSA 89:35 
+EOF;
+if (!($bfile = preg_replace("/PSA 89:31 (.+?)PSA 89:35 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 89:36 Ég hef heitið Davíð því (og hinn heilagi Guð talar sannleika)
+PSA 89:37 að konungsætt hans mun vara um aldir alda, já rétt eins og sólin!
+PSA 89:38 
+EOF;
+if (!($bfile = preg_replace("/PSA 89:36 (.+?)PSA 89:38 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 90:5 Við berumst með straumi tímans og hverfum líkt og í draumi.
+PSA 90:6 Við erum eins og grasið sem grær að morgni en skrælnar að kvöldi, visnar og deyr.
+PSA 90:7 
+EOF;
+if (!($bfile = preg_replace("/PSA 90:5 (.+?)PSA 90:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 92:1 Gott er að þakka Drottni 
+PSA 92:2 og lofsyngja Guði hinum hæsta.
+PSA 92:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 92:1 (.+?)PSA 92:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 93:1 Drottinn er konungur! Hann er íklæddur mætti og dýrð. Heimurinn allur er hásæti hans.
+PSA 93:2 Ó, Drottinn, þú hefur ríkt frá örófi alda.
+PSA 93:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 93:1 (.+?)PSA 93:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 94:1 Drottinn, þú ert Guð hefndarinnar – sá Guð sem réttir hlut þeirra sem ranglæti eru beittir. Láttu dýrð þína birtast.
+PSA 94:2 Rís upp, þú dómari jarðar. Refsaðu ofstopamönnum fyrir illverk þeirra.
+PSA 94:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 94:1 (.+?)PSA 94:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 94:6 Þeir myrða ekkjur og munaðarleysingja og líka útlendinga sem hér hafa sest að.
+PSA 94:7 „Drottinn sér þetta ekki,“ segja þeir, „hann lætur sér fátt um finnast.“
+PSA 94:8 
+EOF;
+if (!($bfile = preg_replace("/PSA 94:6 (.+?)PSA 94:8 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 94:12 og því agar hann okkur til góðs.
+PSA 94:13 Það gerir hann til þess að við göngum á hans vegum og gefumst ekki upp í mótlæti.
+PSA 94:14 
+EOF;
+if (!($bfile = preg_replace("/PSA 94:12 (.+?)PSA 94:14 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 94:21 Hefur þú þóknun á þeim sem dæma saklausa til dauða?
+PSA 94:22 Nei! Drottinn, Guð minn, er vígi mitt, kletturinn þar sem ég leita skjóls.
+PSA 94:23 
+EOF;
+if (!($bfile = preg_replace("/PSA 94:21 (.+?)PSA 94:23 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 97:8 Jerúsalem og borgirnar í Júda hafa heyrt af réttvísi þinni, Drottinn,
+PSA 97:9 og fagna, því að þú ríkir með reisn yfir allri jörðinni og ert hátt yfir alla aðra guði hafinn.
+PSA 97:10 
+EOF;
+if (!($bfile = preg_replace("/PSA 97:8 (.+?)PSA 97:10 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 98:8 Fossarnir klappi lof í lófa og klettarnir syngi gleðisöng,
+PSA 98:9 því að Drottinn mun dæma heiminn í réttlæti sínu og af réttvísi.
+PSA 99:1 
+EOF;
+if (!($bfile = preg_replace("/PSA 98:8 (.+?)PSA 99:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 102:1 Drottinn, heyrðu bæn mína! 
+PSA 102:2 Hlustaðu á ákall mitt!
+PSA 102:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 102:1 (.+?)PSA 102:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 102:4 Ævi mín líður svo hratt, dagarnir fljúga hver af öðrum.
+PSA 102:5 Heilsan er búin, hjartað er sjúkt – ég er eins og visið strá. Maturinn er bragðlaus, ég er hættur að finna bragð.
+PSA 102:6 
+EOF;
+if (!($bfile = preg_replace("/PSA 102:4 (.+?)PSA 102:6 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 102:10 Fæða mín er aska, ekki brauð, og drykkur minn blandast tárum mínum.
+PSA 102:11 Þú ert mér reiður Drottinn og hefur varpað mér burt frá þér.
+PSA 102:12 
+EOF;
+if (!($bfile = preg_replace("/PSA 102:10 (.+?)PSA 102:12 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 102:22 Þess vegna streyma þúsundir til musteris hans í Jerúsalem og lofa hann og vegsama um alla borgina.
+PSA 102:23 Konungar jarðarinnar eru í þeim hópi.
+PSA 102:24 
+EOF;
+if (!($bfile = preg_replace("/PSA 102:22 (.+?)PSA 102:24 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 103:17 En miskunn Drottins endist að eilífu fyrir þá sem reiða sig á orð hans og óttast hann.
+PSA 103:18 Og hjálpræði hans nær til barnabarnanna ef við höldum sáttmála hans og hlýðum boðum hans.
+PSA 103:19 
+EOF;
+if (!($bfile = preg_replace("/PSA 103:17 (.+?)PSA 103:19 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 104:1 Ég lofa Drottin! Drottinn, þú Guð minn, þú ert undursamlegur! Þú ert íklæddur hátign og dýrð og umlukinn ljósi!
+PSA 104:2 Þú þandir út himininn eins og dúk og dreifðir um hann stjörnunum.
+PSA 104:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 104:1 (.+?)PSA 104:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 104:7 Og þegar þú bauðst, safnaðist vatnið saman í höfunum,
+PSA 104:8 fjöllin risu og dalirnir urðu til.
+PSA 104:9 
+EOF;
+if (!($bfile = preg_replace("/PSA 104:7 (.+?)PSA 104:9 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 105:5 Minnist dásemdarverkanna sem hann vann fyrir okkur, sína útvöldu þjóð,
+PSA 105:6 afkomendur Abrahams og Jakobs, þjóna hans. Munið þið hvernig hann útrýmdi óvinum okkar?
+PSA 105:7 Hann er Drottinn, Guð okkar. Elska hans blasir við hvar sem er í landinu.
+PSA 105:8 Þótt þúsund kynslóðir líði, þá gleymir hann ekki loforði sínu,
+PSA 105:9 sáttmála sínum við Abraham og Ísak.
+PSA 105:10 Þennan sáttmála endurnýjaði hann við Jakob. Þetta er hans eilífi sáttmáli við Ísrael:
+PSA 105:11 „Ég mun gefa ykkur Kanaansland að erfð.“
+PSA 105:12 
+EOF;
+if (!($bfile = preg_replace("/PSA 105:5 (.+?)PSA 105:12 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 106:19 Þeir gerðu sér líkneski af nauti, sem étur gras,
+PSA 106:20 og tilbáðu það í stað hins dýrlega Guðs!
+PSA 106:21 Þannig óvirtu þeir Guð, frelsara sinn,
+PSA 106:22 sem gert hafði undur og tákn í Egyptalandi og við hafið rauða.
+PSA 106:23 
+EOF;
+if (!($bfile = preg_replace("/PSA 106:19 (.+?)PSA 106:23 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 106:37 Þeir fórnuðu jafnvel börnum sínum til illra anda – 
+PSA 106:38 til hjáguða Kanverja – úthelltu saklausu blóði og vanhelguðu landið með morðum.
+PSA 106:39 
+EOF;
+if (!($bfile = preg_replace("/PSA 106:37 (.+?)PSA 106:39 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 106:41 og lét hann heiðnar þjóðir drottna yfir honum.
+PSA 106:42 Ísrael var stjórnað af óvinum sínum og þeir kúguðu hann.
+PSA 106:43 
+EOF;
+if (!($bfile = preg_replace("/PSA 106:41 (.+?)PSA 106:43 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 108:1 Ó, Guð, nú vil ég lofa þig! 
+PSA 108:2 Ég vil syngja og fagna frammi fyrir þér.
+PSA 108:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 108:1 (.+?)PSA 108:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 109:9 Börn hans verði föðurlaus og kona hans ekkja
+PSA 109:10 og rektu þau burt úr rústum heimilis þeirra.
+PSA 109:11 Lánardrottnarnir taki landareign hans og ókunnugir fái allt sem hann hafði aflað.
+PSA 109:12 Enginn sýni honum miskunn né aumki sig yfir föðurlausu börnin hans.
+PSA 109:13 Afkomendur hans verði afmáðir og ætt hans eins og hún leggur sig.
+PSA 109:14 
+EOF;
+if (!($bfile = preg_replace("/PSA 109:9 (.+?)PSA 109:14 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 109:22 Það hallar undan fæti, ég finn að dauðinn nálgast.
+PSA 109:23 Ég er hristur til jarðar eins og padda af ermi!
+PSA 109:24 
+EOF;
+if (!($bfile = preg_replace("/PSA 109:22 (.+?)PSA 109:24 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 111:1 Hallelúja! Ég þakka Guði máttarverk hans, já, í áheyrn og augsýn allrar þjóðarinnar.
+PSA 111:2 Allir sem vilja, íhugi þetta ásamt mér.
+PSA 111:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 111:1 (.+?)PSA 111:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 116:10 Þegar ég átti erfitt hugsaði ég:
+PSA 116:11 Þeir segja ósatt, að allt muni snúast mér í hag.
+PSA 116:12 
+EOF;
+if (!($bfile = preg_replace("/PSA 116:10 (.+?)PSA 116:12 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 116:18 Í forgörðum musteris Drottins í Jerúsalem vil ég –
+PSA 116:19 og það í augsýn allra – færa honum allt sem ég hafði lofað. Dýrð sé Drottni!
+PSA 117:1 
+EOF;
+if (!($bfile = preg_replace("/PSA 116:18 (.+?)PSA 117:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 118:15 Á heimilum réttlátra syngja menn fagnaðarljóð,
+PSA 118:16 enda nýkomnar fréttir af sigri!
+PSA 118:17 
+EOF;
+if (!($bfile = preg_replace("/PSA 118:15 (.+?)PSA 118:17 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 118:27 Drottinn er ljósið sem lýsir okkur. Dansið fyrir honum, já, alla leiðina að altari hans.
+PSA 118:28 Hann er minn Guð, ég þakka honum og lofa hann.
+PSA 118:29 
+EOF;
+if (!($bfile = preg_replace("/PSA 118:27 (.+?)PSA 118:29 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 119:29 Leiddu mig burt frá öllu illu. Hjálpaðu mér, óverðugum, að hlýða lögum þínum,
+PSA 119:30 því að ég hef valið að gera rétt.
+PSA 119:31 
+EOF;
+if (!($bfile = preg_replace("/PSA 119:29 (.+?)PSA 119:31 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 119:33 Segðu mér, Drottinn, hvað mér ber að gera og þá mun ég gera það.
+PSA 119:34 Ég vil hlýða þér af heilum hug svo lengi sem ég lifi.
+PSA 119:35 
+EOF;
+if (!($bfile = preg_replace("/PSA 119:33 (.+?)PSA 119:35 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 119:44 Þess vegna vil ég hlýða þér um aldur
+PSA 119:45 og ævi og njóta þess frelsis sem lög þín veita.
+PSA 119:46 Ég mun fræða konunga um gildi þeirra og þeir munu hlusta af áhuga og virðingu.
+PSA 119:47 Ég elska lög þín! Ég gleðst yfir boðum þínum!
+PSA 119:48 „Komið, komið til mín!“ segi ég við þau; því að ég elska þau og þrái að íhuga þau.
+PSA 119:49 Drottinn, gleymdu ekki fyrirheitum þeim sem þú gafst mér, þjóni þínum, – þau eru það sem ég treysti á.
+PSA 119:50 Þau eru styrkur minn þegar á móti blæs – þau hressa mig og lífga!
+PSA 119:51 
+EOF;
+if (!($bfile = preg_replace("/PSA 119:44 (.+?)PSA 119:51 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 119:59 Þegar ég sá að ég var á rangri leið,
+PSA 119:60 snéri ég við og flýtti mér aftur til þín.
+PSA 119:61 
+EOF;
+if (!($bfile = preg_replace("/PSA 119:59 (.+?)PSA 119:61 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 119:71 Hirting þín var það besta sem fyrir mig gat komið, því að hún beindi augum mínum að lögum þínum.
+PSA 119:72 Lög þín eru mér meira virði en hrúgur af gulli og silfri!
+PSA 119:73 Þú, Drottinn, ert skapari minn, gefðu mér vit til að halda lög þín.
+PSA 119:74 Allir þeir sem óttast og elska þig, taka mér vel, þeir sjá að einnig ég treysti orðum þínum.
+PSA 119:75 Ég veit, Drottinn, að ákvarðanir þínar eru réttar og að úrskurðir þínir gerðu mér gott.
+PSA 119:76 Huggaðu mig með miskunn þinni, eins og þú lofaðir mér.
+PSA 119:77 Umvef mig náð þinni svo að ég haldi lífi. Lög þín eru unun mín.
+PSA 119:78 
+EOF;
+if (!($bfile = preg_replace("/PSA 119:71 (.+?)PSA 119:78 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 119:85 Ofstopamenn sem hata sannleika þinn og lög hafa grafið mér gryfju.
+PSA 119:86 Lygi þeirra hefur komið mér í mikinn vanda. Þú elskar sannleikann, hjálpaðu mér!
+PSA 119:87 
+EOF;
+if (!($bfile = preg_replace("/PSA 119:85 (.+?)PSA 119:87 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 119:90 Trúfesti þín nær frá kynslóð til kynslóðar, hún stendur óhögguð eins og jörðin sem þú hefur skapað.
+PSA 119:91 Hún varir samkvæmt orðum þínum. Allir hlutir lúta þér.
+PSA 119:92 
+EOF;
+if (!($bfile = preg_replace("/PSA 119:90 (.+?)PSA 119:92 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 119:102 Ekki hef ég snúið baki við fyrirmælum þínum;
+PSA 119:103 orð þín eru sætari en hunang!
+PSA 119:104 
+EOF;
+if (!($bfile = preg_replace("/PSA 119:102 (.+?)PSA 119:104 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 119:167 Ég hef leitað og gætt boðorða þinna og elska þau af öllu hjarta.
+PSA 119:168 Þetta veistu, því að allt sem ég geri þekkir þú til fulls.
+PSA 119:169 
+EOF;
+if (!($bfile = preg_replace("/PSA 119:167 (.+?)PSA 119:169 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 120:5 Hvílík mæða að búa með óguðlegum!
+PSA 120:6 Ég er þreyttur á þeim sem hata friðinn.
+PSA 120:7 
+EOF;
+if (!($bfile = preg_replace("/PSA 120:5 (.+?)PSA 120:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 121:3 Hann mun aldrei láta mig hrasa eða falla.
+PSA 121:4 Hann gætir mín öllum stundum og sefur ekki á verðinum.
+PSA 121:5 
+EOF;
+if (!($bfile = preg_replace("/PSA 121:3 (.+?)PSA 121:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 122:2 Við erum stödd í Jerúsalem
+PSA 122:3 og borgin er full af fólki.
+PSA 122:4 
+EOF;
+if (!($bfile = preg_replace("/PSA 122:2 (.+?)PSA 122:4 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 123:3 Miskunna okkur, Drottinn, miskunna okkur.
+PSA 123:4 Við höfum fengið nóg af háði og spotti hinna hrokafullu.
+PSA 124:1 
+EOF;
+if (!($bfile = preg_replace("/PSA 123:3 (.+?)PSA 124:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 124:2 þá hefðu óvinirnir gleypt okkur lifandi,
+PSA 124:3 útrýmt okkur í heiftarreiði sinni.
+PSA 124:4 Við hefðum skolast burt á augabragði,
+PSA 124:5 horfið í strauminn.
+PSA 124:6 
+EOF;
+if (!($bfile = preg_replace("/PSA 124:2 (.+?)PSA 124:6 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 125:4 Ó, Drottinn, gerðu vel við þá sem góðir eru, þá sem leitast við að gera vilja þinn,
+PSA 125:5 en útrýmdu illgjörðamönnum. Láttu frið og velgengni ríkja í Ísrael.
+PSA 126:1 
+EOF;
+if (!($bfile = preg_replace("/PSA 125:4 (.+?)PSA 126:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 127:4 Börn sem maður eignast ungur, eru eins og beittar örvar – þau koma síðar að gagni!
+PSA 127:5 Sæll er sá maður sem hefur fyllt örvamæli sinn með þeim! Hann mun ekki verða til skammar þegar hann þarf að útkljá deilumál við óvini sína!
+PSA 128:1 
+EOF;
+if (!($bfile = preg_replace("/PSA 127:4 (.+?)PSA 128:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 129:3 Þótt þeir húðstrýktu mig og tættu bak mitt, þá segi ég samt:
+PSA 129:4 „Drottinn er góður!“ Því að hann braut hlekkina sem illmennin höfðu fjötrað mig með.
+PSA 129:5 Þeir sem hata Jerúsalem skulu verða til skammar og flýja.
+PSA 129:6 Þeir skulu vera eins og gras á þaki – það skrælnar áður en það hefur vaxið og myndað fræ.
+PSA 129:7 Sláttumaðurinn mun grípa í tómt og sá sem bindur fær ekki neitt.
+PSA 129:8 
+EOF;
+if (!($bfile = preg_replace("/PSA 129:3 (.+?)PSA 129:8 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 130:3 Drottinn, ef þú rifjaðir sífellt upp syndir okkar, hver fengi þá staðist?
+PSA 130:4 En þú fyrirgefur! Getum við annað en óttast þig og elskað?
+PSA 130:5 
+EOF;
+if (!($bfile = preg_replace("/PSA 130:3 (.+?)PSA 130:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 132:2 Hann náði ekki að hvílast, kom ekki dúr á auga.
+PSA 132:3 Þá kom honum í hug að reisa hús yfir örk þína,
+PSA 132:4 musteri fyrir hinn volduga í Ísrael.
+PSA 132:5 Og hann hét því að svo skyldi verða og sór hátíðlegan eið fyrir Drottni.
+PSA 132:6 
+EOF;
+if (!($bfile = preg_replace("/PSA 132:2 (.+?)PSA 132:6 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 135:1 Hallelúja!
+PSA 135:2 Lýður Drottins lofi hann í forgörðum musteris hans.
+PSA 135:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 135:1 (.+?)PSA 135:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 136:11 Hann leiddi þá út með mætti sínum og sinni voldugu hendi,
+PSA 136:12 því að miskunn hans við Ísrael varir að eilífu.
+PSA 136:13 Lofið Drottin sem opnaði þeim leið gegnum Rauðahafið,
+PSA 136:14 því að miskunn hans – varir að eilífu,
+PSA 136:15 
+EOF;
+if (!($bfile = preg_replace("/PSA 136:11 (.+?)PSA 136:15 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 137:3 Hvernig eigum við að geta sungið?
+PSA 137:4 Samt heimta kúgarar okkar söng, vilja að við syngjum gleðiljóð frá Síon!
+PSA 137:5 Ef ég gleymi þér Jerúsalem, þá visni mín hægri hönd!
+PSA 137:6 Ef ég elska annað umfram Jerúsalem, þá sé mér mátulegt að missa málið og tapa röddinni.
+PSA 137:7 
+EOF;
+if (!($bfile = preg_replace("/PSA 137:3 (.+?)PSA 137:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 139:17 Hugsanir þínar, ó Guð, eru mér torskildar, en samt eru þær stórkostlegar!
+PSA 139:18 Ef ég reyndi að telja þær, þá yrði það mér ofviða því að þær eru fleiri en sandkorn á sjávarströnd! Já, ég mundi vakna eins og af draumi, en hugur minn, hann væri enn hjá þér!
+PSA 139:19 
+EOF;
+if (!($bfile = preg_replace("/PSA 139:17 (.+?)PSA 139:19 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 140:1 Ó, Drottinn, frelsaðu mig frá vondum mönnum. 
+PSA 140:2 Verndaðu mig gegn ofbeldismönnunum
+PSA 140:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 140:1 (.+?)PSA 140:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 140:7 Ó, Drottinn, þú ert minn Guð! Hlustaðu á grátbeiðni mína!
+PSA 140:8 Láttu ekki svikráð níðinganna heppnast.
+PSA 140:9 
+EOF;
+if (!($bfile = preg_replace("/PSA 140:7 (.+?)PSA 140:9 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 141:6 Þegar foringjar þeirra fá sinn dóm, þegar þeim verður hrint fram af kletti,
+PSA 141:7 þá munu menn þessir hlusta á viðvörun mína og skilja að ég vildi þeim vel.
+PSA 141:8 
+EOF;
+if (!($bfile = preg_replace("/PSA 141:6 (.+?)PSA 141:8 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 142:1 Ég bið og bið til Drottins,
+PSA 142:2 stöðugt grátbæni ég hann.
+PSA 142:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 142:1 (.+?)PSA 142:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 144:12 Nú vil ég lýsa landinu þar sem Drottinn er Guð – hamingjulandinu!
+PSA 144:13 Þar eru synirnir hraustir og stæltir eins og þróttmikil tré. Dæturnar fagrar og prúðar eins og úthöggnar hallarsúlur.
+PSA 144:14 Hlöðurnar fullar af alls konar afurðum. Hjarðir þúsunda sauða liðast um hagana. Uxarnir eru klyfjaðir og ekkert skarð í múrnum.
+PSA 144:15 Friður hvert sem litið er, enginn maður í útlegð og glæpir horfnir af strætunum. Já, sæl er sú þjóð sem á Drottin að Guði.
+PSA 145:1 
+EOF;
+if (!($bfile = preg_replace("/PSA 144:12 (.+?)PSA 145:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 145:1 Ég vil lofa þig, þú Guð minn og konungur,
+PSA 145:2 og vegsama nafn þitt hvern einasta dag, já að eilífu!
+PSA 145:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 145:1 (.+?)PSA 145:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+PSA 149:4 Drottinn hefur unun af lýð sínum. Hann frelsar hina auðmjúku.
+PSA 149:5 Hinir trúuðu gleðjist með sæmd og syngi fagnandi í hvílum sínum.
+PSA 149:6 Lofið hann, þið fólk hans!
+PSA 149:7 Framkvæmið refsingu hans á þjóðunum með tvíeggjuðu sverði.
+PSA 149:8 Setjið konunga þeirra og fyrirmenn í járn og fullnægið á þeim skráðum dómi.
+PSA 149:9 Drottinn er vegsemd þjóðar sinnar. Hallelúja!
+PSA 150:1 
+EOF;
+if (!($bfile = preg_replace("/PSA 149:4 (.+?)PSA 150:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 MAT 8:8 „Herra,“ sagði liðsforinginn, „ég er ekki verður þess að þú komir inn á heimili mitt (og það er reyndar ekki nauðsynlegt). Segðu aðeins núna: „Læknist þú!“ og þá mun þjónn minn verða heilbrigður!
 MAT 8:9 Þetta segi ég vegna þess að ég er settur undir vald æðri liðsforingja, en hef jafnframt sjálfur vald yfir mínum hermönnum. Ég segi við einn þeirra: „Farðu!“ og hann fer, og við annan: „Komdu!“ og hann kemur. Við þjón minn segi ég: „Gerðu þetta!“ og hann hlýðir skilyrðislaust. Þess vegna veit ég að þú hefur vald til að skipa þessum sjúkdómi að fara og hann mun fara!“
@@ -8843,6 +10664,13 @@ John 4:15
 EOF;
 if (!($bfile = preg_replace("/\nJohn 4:13 (.+?)\nJohn 4:15 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
+II Corinthians 13:12 聖なる接吻を以て互に宜しく言へ、
+II Corinthians 13:13 聖徒等皆汝等に宜しくと言へり。
+II Corinthians 13:14 願はくは我主イエズス、キリストの恩寵と、神の寵愛と、聖霊の交際と、汝等一同と共に在らん事を、アメン。 
+Galatians 1:1 
+EOF;
+if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 Galatians 6:7 自ら欺く勿れ、神は侮られ給ふものに非ず、人は其撒きし所を刈取らん、
 Galatians 6:8 即ち己が肉の為に蒔く人は、又肉より腐敗を刈取り、霊の為に撒く人は、又霊より永遠の生命を刈取らん。
 Galatians 6:9 
@@ -8883,6 +10711,13 @@ ROM 16:27 知恵に富む唯一の神に、イエス・キリストによって�
 1CO 1:1 
 EOF;
 if (!($bfile = preg_replace("/ROM 16:24 (.+?)1CO 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2CO 13:12 きよい口づけをもって、互いにあいさつをかわしなさい。
+2CO 13:13 すべての聖徒たちが、あなたがたによろしくと言っています。
+2CO 13:14 主イエス・キリストの恵み、神の愛、聖霊の交わりが、あなたがたすべてとともにありますように。
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -8977,11 +10812,24 @@ Joshua 2:14
 EOF;
 if (!($bfile = preg_replace("/Joshua 2:12 (.+?)Joshua 2:14 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
+Psalms 72:19 그 영화로운 이름을 영원히 찬송할지어다 온 땅에 그 영광이 충만할지어다 아멘 아멘 
+Psalms 72:20 이새의 아들 다윗의 기도가 필하다
+Psalms 73:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 72:19 (.+?)Psalms 73:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 Isaiah 7:8 대저 아람의 머리는 다메섹이요 다메섹의 머리는 르신이며 에브라임의 머리는 사마리아요 사마리아의 머리는 르말리야의 아들이라도 육십오 년 내에 에브라임이 패하여 다시는 나라를 이루지 못하리라
 Isaiah 7:9 만일 너희가 믿지 아니하면 정녕히 굳게 서지 못하리라 하셨다 할지니라
 Isaiah 7:10 
 EOF;
 if (!($bfile = preg_replace("/Isaiah 7:8 (.+?)Isaiah 7:10 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+II Corinthians 13:12 모든 성도가 너희에게 문안하느니라
+II Corinthians 13:14 주 예수 그리스도의 은혜와 하나님의 사랑과 성령의 교통하심이 너희 무리와 함께 있을지어다
+Galatians 1:1 
+EOF;
+if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+
 goto RAWHIDE;
 
 
@@ -9008,6 +10856,14 @@ $textfix = <<<EOF
 20O	9	1	
 EOF;
 if (!($bfile = preg_replace("/20O	8	22	(.+?)20O	9	1	/us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+47N	13	11	마지막으로 말하노니 형제들아 기뻐하라 ! 온전케 되며 위로를 받으며 마음을 같이 하며 평안할지어다 ! 또 사랑과 평강의 하나님이 너희와 함께 계시리라 거룩하게
+47N	13	12	입맞춤으로 서로 문안하라
+47N	13	13	모든 성도가 너희에게 문안하느니라
+47N	13	14	주 예수 그리스도의 은혜와 하나님의 사랑과 성령의 교통하심이 너희 무리와 함께 있을지어다 !
+48N	1	1	
+EOF;
+if (!($bfile = preg_replace("/47N	13	11	(.+?)48N	1	1	/us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -11039,6 +12895,49 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---Lingala---Lingala-Bible" :
+$textfix = <<<EOF
+NUM 26:1 Sima na etumbu wana, Yawe alobaki na Moyize mpe na Nganga-Nzambe Eleazari, mwana mobali ya Aron :
+NUM 26:2 
+EOF;
+if (!($bfile = preg_replace("/NUM 25:19 (.+?)NUM 26:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+NEH 7:68 
+NEH 7:69 bashamo nkama minei na tuku misato na mitano mpe ba-ane nkoto motoba na nkama sambo na tuku mibale.
+NEH 7:70 Bakambi mingi ya mabota bapesaki makabo oyo bakataki kopesa wuta na mitema na bango moko, mpo na misala ya kotonga Tempelo. Moyangeli apesaki na libenga ya misala mbongo ya bibende ya wolo nkoto moko, bakopo tuku mitano mpe banzambala nkama mitano na tuku misato ya mosala ya bonganga-Nzambe.
+NEH 7:71 Bakambi mosusu ya mabota bapesaki na libenga ya misala mbongo ya bibende ya wolo nkoto tuku mibale mpe mbongo ya bibende ya palata nkoto mibale na nkama mibale na tuku mibale.
+NEH 7:72 Batikali kati na bato bapesaki mbongo ya bibende ya wolo nkoto tuku mibale, mbongo ya bibende ya palata nkoto mibale mpe banzambala tuku motoba na sambo ya mosala ya bonganga-Nzambe.
+NEH 7:73 Banganga-Nzambe, Balevi, bakengeli bikuke, bayembi, basali ya Tempelo, ndambo kati na bato mpe bato nyonso ya Isalaele bavandaki kati na bingumba na bango moko. Tango sanza ya sambo ekomaki, bana ya Isalaele bakomaki kovanda kati na bingumba na bango.
+NEH 8:1 
+EOF;
+if (!($bfile = preg_replace("/NEH 7:68 (.+?)NEH 8:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ISA 63:19 Wuta kala, tozalaka bato na Yo ; kasi tokomi lokola bato oyo okambaka lisusu te, lokola bato oyo babengami na Kombo na Yo te.
+ISA 63:20 Oh soki okokaki kopasola likolo mpe kokita, bangomba ekoningana liboso na Yo !
+ISA 64:1 
+EOF;
+if (!($bfile = preg_replace("/ISA 63:19 (.+?)ISA 64:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ACT 19:40 Soki tokebi te, bakoki kofunda biso ete botombokisi bato, mpo na makambo oyo esalemi lelo. Na bongo, tokolonga te kolimbola tina oyo bato basangani awa.
+ACT 19:41 Tango kaka asilisaki koloba, apesaki mitindo ete bato bapanzana.
+ACT 20:1 
+EOF;
+if (!($bfile = preg_replace("/ACT 19:40 (.+?)ACT 20:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2CO 13:12 Bopesanaka mbote na beze ya bule.
+2CO 13:13 Basantu nyonso oyo bazali awa batindeli bino mbote.
+2CO 13:14 Tika ete ngolu ya Nkolo Yesu-Klisto, bolingo ya Nzambe mpe lisanga na Molimo Mosantu ezala na bino nyonso !
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+
+goto RAWHIDE;
+
+
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---Mahasu-Pahari---Baghlayani-Bible" :
 if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )[\d.]+/mus",'$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
@@ -11162,6 +13061,65 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible" :
 if (!($bfile = preg_replace("/[\x{05d0}-\x{05ea}\x{fb31}\x{fb44}]+/us"," ",$bfile,-1,$rnum)) || $rnum!=174) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+$textfix = <<<EOF
+NUM 30:1 Le nanao ty hoe amo talèm-pifokoa’ o ana’ Israeleoo t’i Mosè: Zao ty nandilia’ Iehovà:
+NUM 30:2 Naho mifanta am’ Iehovà t’indaty, ndra mitangèñe hifahara’ ty arofo’e ami’ty lahatse, le tsy hivalik’ amy saontsi’ey re, fa hanoe’e ze hene miakatse am-palie’e.
+NUM 30:3 Aa naho mifanta am’ Iehovà ty ampela, ke mitan-ty vata’e aman-titike, ie añ’anjom­ban-drae’e ao naho mbe somondrara,
+NUM 30:4 fa naho mahajanjiñe i nifantà’ey ty rae’e naho i titike namahora’e ty tro’ey vaho mianjiñe avao ty rae’e, le fonga hijadoñe o nifantà’eo, le hifahatse ze titike namahora’e troke.
+NUM 30:5 F’ie lieren-drae’e amy andro naha­janjiña’e azey, le tsy hijadoñe i nifantà’ey ndra ze titike namahora’e troke vaho hapo’ Iehovà ty aze, ty amy lien-drae’ey.
+NUM 30:6 Aa ie nengaen-dahy te vahoram-panta, ke t’ie finehe’ ze volañe naakan-tsoñi’e tsy nisatrie’e,
+NUM 30:7 le ie janji’ ty vali’e fe tsy mañaoñe amy andro nijanjiña’e azey, le hijadoñe i nifantà’ey vaho hifahatse ze titike nama­hora’e troke.
+NUM 30:8 F’ie liere’ ty vali’e amy andro nijanjiña’e azey le hapo’e i fanta nifehe azey, ndra i volan-tsoñi’e tsy nisatrie’e namahora’e trokey; toe hado’ Iehovà.
+NUM 30:9 (Fe ze nifantà’ ty vantotse ndra ty nariam-baly, ie namahotse ty arofo’e, le hijadoñe hifehe aze zay.)
+NUM 30:10 Aa naho nifanta añ’an­jom­bam-bali’e ao, ke namaho-batañe aman-titike
+NUM 30:11 naho nahajanjiñe aze i vali’ey ie tsy nandietse, le hijadoñe iaby o nifantà’eo vaho hifahatse ama’e ze titike namahora’e arofo.
+NUM 30:12 F’ie avali’ ty vali’e amy andro naha­janjiña’ey, le tsy hijadoñe ndra inoñ’ inoñe niakats’ an-tsoñi’e amo ni­fantà’eo ndra amy titike namahora’e trokey; fa navali’ ty vali’e, le hapo’ Iehovà re ty ama’e.
+NUM 30:13 Ze fanta ndra titike famahoram-batañe, le azo ty vali’e ajadoñe ndra faoheñe.
+NUM 30:14 Fe naho tsy mañaoñe aze handro am-pohatse i vali’ey, le hene hampijadoñe’e o nifantà’eo, naho ze mamahotse ty tro’e; toe niventese’e, kanao tsy nisaontsie’e amy andro nahajanjiña’e azey.
+NUM 30:15 Aa naho avali’e t’ie añe i nijanjiña’e azey le hivave i tahi’ey i lahilahiy.
+NUM 30:16 Ie o fañè linili’ Iehovà amy Mosèo ty amy t’indaty naho i vali’ey, naho ty aman-drae naho ty anak’ ampela’e mbe kede añ’ anjomban-drae’e ao.
+NUM 31:1 
+EOF;
+if (!($bfile = preg_replace("/NUM 30:1 (.+?)NUM 31:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+DEU 5:17 Ko mañoho-doza.
+DEU 5:18 Ko mangala-bali’ ondaty,
+DEU 5:19 Ko mampikametse,
+DEU 5:20 Ko mitalily vilañe ondaty,
+DEU 5:21 Ko mihañe ty vali’ ondaty, le ko mitsikirìke ty anjomban-drañe’o ndra ty tete’e ndra ty ondevo’e lahy ndra ampela ndra ty vosi’e ndra ty borìke’e ndra inoñ’inoñe a ondatio.
+DEU 5:22 Nipazahe’ Iehovà ami’ty valobohò’ areo hirik’ am-bohitse ey boak’añ’afo ao naho amy rahoñey naho amy hamoromoroñañey, am-piarañanañañe abo i tsaray vaho tsy nitovoñañe. Pinate’e an-dravem-bato roe izay, vaho natolo’e ahiko.
+DEU 5:23 Le nahajanjiñe i fiarañanañañe boak’ an-kamoromoroñañey nahareo, ie niforehete’ ty afo i vohitsey, le nañarine ahy ze hene talèm-pifokoa’ areo naho o androanavi’ areoo;
+DEU 5:24 le hoe ty asa’ areo, Ingo te naboa’ Iehovà Andrianañaharentika amantika ty enge’e naho ty hajabahina’e le jinanjintika i fiara­ñanaña’ey boak’ amy afoy ao, naho nionintika henane zay te toe mitsara ama’ ondaty t’i Andria­naña­hare vaho mitambeloñe iereo.
+DEU 5:25 Ie amy zao ino ty hivetraha’ay avao? Toe hamorototo anay o afo jaba­jabao naho mbe hijanjiñe ty fiarañanaña’ Iehovà Andrianañaharentika, le vata’e hikoromake.
+DEU 5:26 Fa ia amy ze hene atao nofotse ty nahajanjiñe ty fiarañanañan’ Andrianañahare veloñe boak’ añ’afo ao, manahake i nijanjiñen-tikañey vaho mbe nahatam­beloñe?
+DEU 5:27 Miharinea mb’eo rehe, le janjiño ze hene tsarae’ Iehovà Andria­nañaharentika. Le fonga taroño ama’ay ze nitsara’ Iehovà Andrianañaharentika ama’o, le hijanjiñe vaho hanoe’ay.
+DEU 5:28 Jinanji’ Iehovà o fisaontsi’ areoo, i nisaontsia’ areo amakoy, le hoe t’Iehovà amako: Fa tsinanoko o entañe sinaontsi’ ondatio ama’oo; le soa-fehe iaby o saontsi’ iareoo.
+DEU 5:29 Ee te nanao hoe zao nainai’e ty arofo’iareo t’ie nañeveñe amako, naho nañambeñe o nandiliako iabio, soa te hanintsiñe nainai’e iereo naho o amori’iareoo.
+DEU 5:30 Akia arè, isaontsio himpolia’ iareo mb’an-kiboho’ iareo mb’eo.
+DEU 5:31 F’ihe, mijohaña marine ahy atoy le ho taroñeko ama’o ze hene Lily, naho fañè naho fepètse, hañòha’o iareo hañorike irezay an-tane atoloko iareo ho fanañañe añe.
+DEU 5:32 Aa asoao te hanoe’ areo ze andilia’ Iehovà Andrianañahare’ areo, tsy hiotake mb’am-pitàn-kavana ndra havia,
+DEU 5:33 fe horihe’ areo aman-kahiti’e ze hene lala linili’ Iehovà Andrianañahare’ areo, soa t’ie ho veloñe naho ho tahie’e vaho ho lava haveloñe an-tane fanaña’ areo atoy.
+DEU 6:1 
+EOF;
+if (!($bfile = preg_replace("/DEU 5:17 (.+?)DEU 6:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ISA 63:19 Fa ninjare hoe mbe lia’e tsy nifehe’o zahay, amy te tsy nitokaveñe amy Tahina’oy.
+ISA 63:20 Ehe te ho riate’o o likerañeo, hizotsoa’o mb’etoa, naho hiezeñezeñe añ’atrefa’o eo o vohitseo,
+ISA 64:1 
+EOF;
+if (!($bfile = preg_replace("/ISA 63:19 (.+?)ISA 64:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+HOS 12:14 Mpitoky ty nañendesa’ Iehovà t’Israele boake Mitsraime ao, vaho mpitoky ty nañarovañ’ aze;
+HOS 12:15 nikai-jaka añ’afero t’i Efraime; aa le hapoke ama’e ty lio’e; vaho hondrohe’ i Talè’e ama’e ty inje’e.
+HOS 13:1 
+EOF;
+if (!($bfile = preg_replace("/HOS 12:14 (.+?)HOS 13:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+1CO 11:1 Tsikombeo raho hambañe amy te zaho ka ro mpiamy Norizañey.
+1CO 11:2 
+EOF;
+if (!($bfile = preg_replace("/1CO 10:34 (.+?)1CO 11:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -11391,6 +13349,13 @@ case "Holy-Bible---Manipuri---Meitei-Bible" :
 if (!($bfile = preg_replace("/[\x{92}\x{93}\x{94}]+/us",'',$bfile,-1,$rnum)) || $rnum!=2671) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/\x{01c3}/us","!",$bfile,-1,$rnum)) || $rnum!=3) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
+$textfix = <<<EOF
+2CO 13:12 Asengba chupnabaga loinana amaga amaga khurumnou.
+2CO 13:13 Mapham asida leiriba asengba mi pumnamakna nakhoibu khurumjari.
+2CO 13:14 Ibungo Jisu Christtagi thoujal, Tengban Mapugi nungsiba amasung Thawai Asengbagi saruk phangminnaba aduna nakhoi pumnamakpu loinabisanu.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -11461,6 +13426,20 @@ $textfix = <<<EOF
 2JO 1:3 
 EOF;
 if (!($bfile = preg_replace("/2JO 1:1 (.+?)2JO 1:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Munda---Munda-Bible" :
+$textfix = <<<EOF
+2CO 13:12 ଖ୍ରୀଷ୍ଟ୍‌ ଦୁଲାଡ଼୍‌ତେ ମିହୁଡ଼୍‌ ଆଡଃମିହୁଡ଼୍‌ଲଃ ଜହାରଃପେ ।
+2CO 13:13 ପାର୍‌ମେଶ୍ୱାର୍‌ଆଃ ସବେନ୍‌ ହଡ଼କ ଆପେକେ ଜହାର୍‌ ମେନ୍ତେକ କାଜିକୁଲ୍‌ତାନା ।
+2CO 13:14 ପ୍ରାଭୁ ୟୀଶୁ ଖ୍ରୀଷ୍ଟ୍‌ଆଃ ସାୟାଦ୍‌, ପାର୍‌ମେଶ୍ୱାର୍‌ଆଃ ଦୁଲାଡ଼୍‌, ଆଡଃ ପାବିତାର୍‌ ଆତ୍ମାରେୟାଃ ସାଙ୍ଗାତି ଆପେ ସବେନ୍‌କଲଃ ହବାଅଃକା ।
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -12403,6 +14382,14 @@ $textfix = <<<EOF
 EOF;
 if (!($bfile = preg_replace("/2CO 2:14 (.+?)2CO 2:17 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
+2CO 13:12 Gi hverandre et velkomstkyss som tegn på at dere tilhører Herren.
+2CO 13:13 Alle de troende her hilser til dere.
+2CO 13:14 Med ønske om at alt godt fra Herren Jesus Kristus vil følge dere, at Gud vil gi dere sin kjærlighet og at hans Hellige Ånd vil styrke fellesskapet med hverandre.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+
+$textfix = <<<EOF
 1TH 1:5 Da vi kom til dere med det glade budskapet om Jesus, tok dere imot det. Vi kom ikke bare med ord til dere. Guds Hellige Ånd ga oss kraft til å gjøre mirakler, slik at dere så at vi virkelig selv trodde på budskapet. Dere vet alt vi gjorde blant dere for å frelse dere.
 1TH 1:6 Dette overbeviste dere, slik at dere tok imot budskapet om Jesus med den glede som Guds Hellige Ånd gir. Det gjorde dere til tross for de forfølgelsene dere ble utsatt for. Dere fulgte vårt eksempel, og dermed også eksemplet til Herren Jesus, ved at dere var villige til å lide.
 1TH 1:7 
@@ -13126,6 +15113,13 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Polish---Open-Access-Word-of-Life" :
+$bigfix = <<<EOF
+2CO 13:12 Wszyscy święci, którzy są ze mną, proszą o przekazanie wam ich pozdrowień.
+2CO 13:13 Przekażcie je sobie nawzajem!
+2CO 13:14 Niech Jezus, nasz Pan, obdarza was swoją łaską! Niech Bóg obdarza was swą miłością! A Duch Święty niech pomoże wam tworzyć wspólnotę z innymi wierzącymi!
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bigfix = <<<EOF
 JUD 1:24 Bóg może ochronić was przed upadkiem i sprawić, że—czyści i radośni—będziecie mogli stanąć przed Jego chwalebnym majestatem.
 JUD 1:25 On jest jedynym, prawdziwym Bogiem i Jemu należy się wieczna chwała, uwielbienie, moc i władza. Oddajmy Mu więc cześć, poprzez naszego Pana, Jezusa Chrystusa. Amen!
@@ -13951,6 +15945,19 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---Romani---Eastern-Vlakh" :
+$bigfix = <<<EOF
+ACT 19:40 Мэ дарав, со пала кода, со тумэ адес вазглепэ, амэн терэна ужылэнца, колэстар со нинай черэз со тэ стидэн кацаво стидимос. Амэнди на авэла, со тэ пхэнэн.
+ACT 19:41 Тай кацавэ лавэнца вов розмукля о стидимос.
+ACT 20:1 
+EOF;
+if (!($bfile = preg_replace("/ACT 19:40 (.+?)ACT 20:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---Romani-Vlax---Arli-Luke" :
 $bigfix = <<<EOF
 LUK 23:50 Inele jekh manuš palo anav Josif tari Arimateja, diz ani Judeja.
@@ -13960,6 +15967,17 @@ EOF;
 if (!($bfile = preg_replace("/LUK 23:50 (.+?)LUK 23:52 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Romani-Vlax---Servi-Bible" :
+$bigfix = <<<EOF
+ACT 19:40 Тэ на дошарэн амэн авдивэ, со терах ваздимо, и амэнди на авэла, со тэ пхэнах.
+ACT 19:41 Кадэла лавэнца вов розмукля лэнгоро стидэмо.
+ACT 20:1 
+EOF;
+if (!($bfile = preg_replace("/ACT 19:40 (.+?)ACT 20:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
 
 
 
@@ -14005,6 +16023,13 @@ ROM 1:20 Atahori ia ra nda ra'ena toto'u-nonoet fo rasala'e ao nara sa, huu dala
 ROM 1:21 
 EOF;
 if (!($bfile = preg_replace("/ROM 1:19 (.+?)ROM 1:21 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bigfix = <<<EOF
+2CO 13:12 Hei esa musi natea esa no iꞌidꞌu susue-lalaiꞌ a, mana nandaa soaꞌ neu Lamatuaꞌ atahori meumaren.
+2CO 13:13 Lamatualain atahorin mana sia ia ra basa se helu hara sodꞌa-moleꞌ neu nggi boe.
+2CO 13:14 Au hule fo hita Lamatuan Yesus Kristus natudꞌu Rala malolen neu nggi. Au hule fo Lamatualain natudꞌu susue-lalain neu nggi. Au o hule fo Lamatuaꞌ Dula-dale Meumaren natudꞌu rala malolen, naa fo basa nggi misodꞌa no ralaꞌ esa. Baꞌuꞌ a naa ena, Paulus
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bigfix = <<<EOF
 TIT 1:2 Titus ana malole ngge! Susura ia mia au, Paulus, Lamatualain aten, no Yesus Kristus dedenun. Ana denu au tao manggatetee atahori fo tengga nala' ra nemehere nara. Ana o denu au utud'u dala ndoos, fo rasod'a tungga Lamatua' hihii-nanaun. No ta'o naa, Lamatualain atahori nara ramahena rae dei fo rasod'a ra'ab'ue rakandoo ro E. Lamatua' nda fe'e na'ad'ad'ad'i' raefafo' ia sa, te Ana helu mema' nae, dei fo atahori nara rasod'a rakandoo ro E. Mema' Ana nda mana peko-leleko' sa. Nandaa no fain ma, Lamatualain natud'u relo-relo nae, Eni fee atahori rasod'a mia sala-kilu nara, fo rasod'a rakandoo ro Eni. Basa ma Ana parenda au uu dui-b'engga Hara-lii Malolen neu basa atahori sia bee-b'ee. Titus! Ho ona' ana ngga ena, huu ru'a nggita tamahere bela' neu Kristus. Dad'i au hule-o'e neu Ama Lamatualain, no Yesus Kristus mana fee masod'a' neu nggita, fo ratud'u rala malolen nara neu nggo, fo musod'a no mole-d'ame.
 TIT 1:5 
@@ -14685,7 +16710,64 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Spanish---Biblia-Platense-Straubinger" :
+$textfix = <<<EOF
+Psalms 43:26 Agobiada hasta el polvo está nuestra alma, y nuestro cuerpo pegado a la tierra.
+Psalms 43:27 ¡Levántate en nuestro auxilio, líbranos por tu piedad!
+Psalms 44:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 43:26 (.+?)Psalms 44:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Psalms 55:13 Te debo, oh Dios, los votos que te hice; te ofreceré sacrificios de alabanza.
+Psalms 55:14 Pues Tú has librado mi vida de la muerte, y mis pies de la caída, para que ande yo ante la faz de Dios en la luz de los vivientes.
+Psalms 56:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 55:13 (.+?)Psalms 56:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Psalms 66:7 La tierra ha dado su fruto; nos bendijo Dios, el Dios nuestro.
+Psalms 66:8 ¡Que Dios nos bendiga y que le reverencien hasta los últimos confines del universo!
+Psalms 67:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 66:7 (.+?)Psalms 67:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/Song of Solomon 8:6\s+\}/us","Song of Solomon 8:6 ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Jeremiah 37:20 Óyeme ahora, oh rey, señor mío; y acoge propicio mi súplica. No me vuelvas a la casa de Jonatán, secretario; sería mi muerte.”
+Jeremiah 37:21 Entonces mandó el rey Sedecías que guardasen a Jeremías en el patio de la cárcel, y que se le diese cada día un pan, de la calle de los panaderos, mientras hubiese pan en la ciudad. Así quedó Jeremías en el patio de la cárcel.
+Jeremiah 38:1 
+EOF;
+if (!($bfile = preg_replace("/Jeremiah 37:20 (.+?)Jeremiah 38:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Ezekiel 2:9 Yo miré, y vi una mano que se tendía hacia mí, y he aquí en ella el rollo de un libro.
+Ezekiel 2:10 Lo desenvolvió delante de mí, y estaba escrito por dentro y por fuera; y lo escrito en él eran cantos lúgubres, lamentaciones y ayes.
+Ezekiel 3:1 
+EOF;
+if (!($bfile = preg_replace("/Ezekiel 2:9 (.+?)Ezekiel 3:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Jonah 2:9 Los que van tras las mentirosas vanidades abandonan su misericordia.
+Jonah 2:10 Mas yo te ofreceré sacrificios con cánticos de alabanza; cumpliré los votos que he hecho, pues de Yahvé viene la salvación.” 
+Jonah 2:11 Entonces Yahvé dio orden al pez, y este vomitó a Jonás en tierra. 
+Jonah 3:1 
+EOF;
+if (!($bfile = preg_replace("/Jonah 2:9 (.+?)Jonah 3:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Micah 5:14 Arrancaré de en medio de ti tus ascheras y destruiré tus ciudades;
+Micah 5:15 y con ira e indignación tomaré venganza de los pueblos que no escucharon.
+Micah 6:1 
+EOF;
+if (!($bfile = preg_replace("/Micah 5:14 (.+?)Micah 6:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Acts 19:40 porque estamos en peligro de ser acusados de sedición por lo de hoy, pues no hay causa alguna que nos permita dar razón de este tropel”.
+Acts 19:41 Dicho esto, despidió a la asamblea.
+Acts 20:1 
+EOF;
+if (!($bfile = preg_replace("/Acts 19:40 (.+?)Acts 20:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+II Corinthians 13:11 Por lo demás, alegraos, hermanos, y perfeccionaos; consolaos, tened un mismo sentir, vivid en paz; y el Dios de la caridad y de la paz será con vosotros.
+II Corinthians 13:12 Saludaos unos a otros en ósculo santo.
+II Corinthians 13:13 Os saludan todos los santos.
+II Corinthians 13:14 La gracia del Señor Jesucristo y la caridad de Dios ( Padre ) y la comunicación del Espíritu Santo sea con todos vosotros.
+Galatians 1:1 
+EOF;
+if (!($bfile = preg_replace("/II Corinthians 13:11 (.+?)Galatians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -14706,6 +16788,13 @@ goto RAWHIDE;
 case "Holy-Bible---Spanish---Gods-Word-for-You" :
 if (!($bfile = preg_replace("/[[\]]{2,}/us","",$bfile,-1,$rnum)) || $rnum!=45) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
+$textfix = <<<EOF
+2CO 13:12 Salúdense unos a otros con un beso santo.
+2CO 13:13 Los saludan todos los santos.
+2CO 13:14 La gracia del Señor Jesucristo, el amor de Dios y la comunión del Santo Espíritu sean con todos ustedes.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -15488,6 +17577,19 @@ Job 40:28 Nej, den sådant vågar, hans hopp bliver sviket, han fälles till mar
 Job 41:1 
 EOF;
 if (!($bfile = preg_replace("/Job 40:24 (.+?)Job 41:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Acts 19:40 På grund av det som i dag har skett löpa vi ju till och med fara att bliva anklagade för upplopp, fastän vi icke hava gjort något ont; och någon giltig anledning till denna folkskockning kunna vi icke heller uppgiva.»
+Acts 19:41 Med dessa ord fick han menigheten att skiljas åt.
+Acts 20:1 
+EOF;
+if (!($bfile = preg_replace("/Acts 19:40 (.+?)Acts 20:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+II Corinthians 13:12 Hälsen varandra med en helig kyss.
+II Corinthians 13:13 Alla de heliga hälsa eder.
+II Corinthians 13:14 Herrens, Jesu Kristi, nåd och Guds kärlek och den helige Andes delaktighet vare med eder alla.
+Galatians 1:1 
+EOF;
+if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -15555,6 +17657,17 @@ EOF;
 if (!($bfile = preg_replace("/REV 20:2 (.+?)REV 20:4 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Tamil---Open-Contemporary" :
+$bigfix = <<<EOF
+PSA 1:1 தீயவர்களின் அறிவுரையின்படி நடவாமல், பாவிகளின் வழியில் நில்லாமல், பரிகாசக்காரருடன் உட்காராமல்,
+PSA 1:2 யெகோவாவினுடைய சட்டத்திலே மனமகிழ்ச்சியாயிருந்து, இரவும் பகலும் அவருடைய வேதத்தை தியானிக்கிறவர் ஆசீர்வதிக்கபட்டவர்.
+PSA 1:3 
+EOF;
+if (!($bfile = preg_replace("/PSA 1:1 (.+?)PSA 1:3 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
 
 
 
@@ -16435,6 +18548,21 @@ goto RAWHIDE;
 case "Holy-Bible---Ukrainian---Kulish" :
 if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )[\d.]+/mus",'$1',$bfile,-1,$rnum)) || $rnum!=6) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
+$bigfix = <<<EOF
+2CO 13:12 Витайте один одного цїлуваннем сьвятим.
+2CO 13:13 Витають вас, усї сьвяті.
+2CO 13:14 Благодать Господа Ісуса Христа і любов Божа, і причастє сьвятого Духа з усїма вами. Амінь.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bigfix = <<<EOF
+PHM 1:23 Витають тебе Єпафрас, товариш, неволї моєї в Христї Ісусї,
+PHM 1:24 Марко, Аристарх, Димас, Лука, помічники мої.
+PHM 1:25 Благодать Господа нашого Ісуса Христа з духом вашим. Амінь.
+HEB 1:1 
+EOF;
+if (!($bfile = preg_replace("/PHM 1:23 (.+?)HEB 1:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+
 goto RAWHIDE;
 
 
@@ -16661,6 +18789,27 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---Ukrainian---New-Translation" :
+$bigfix = <<<EOF
+ACT 19:40 Бо є небезпека, що нас можуть за сьогоднішнє обвинуватити в заколоті, адже не маємо жодного виправдання цьому збіговиську».
+ACT 19:41 Сказавши це, він розпустив зібрання.
+ACT 20:1 
+EOF;
+if (!($bfile = preg_replace("/ACT 19:40 (.+?)ACT 20:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bigfix = <<<EOF
+2CO 13:12 Вітайте одне одного святим поцілунком!
+2CO 13:13 Усі святі вітають вас!
+2CO 13:14 [Нехай] благодать Господа Ісуса Христа, любов Бога та спільність Святого Духа [будуть] з вами усіма!
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---Ukrainian---Ukrainian-NT" :
 if (!($bfile = preg_replace("/сьвідкування/us","свідкування",$bfile,-1,$rnum)) || $rnum!=3) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/0тець/us","Oтець",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -16797,6 +18946,13 @@ goto RAWHIDE;
 case "Holy-Bible---Yombe---Yombe-Bible" :
 if (!($bfile = preg_replace('/\x{a78c}/ui',"'",$bfile,-1,$rnum)) || $rnum!=1057) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
+$bigfix = <<<EOF
+2CO 13:12 Luvanasana mboti beno na beno mu besi ki kinlongo.
+2CO 13:13 Banlongoboso badi kuaku baluveni mboti.
+2CO 13:14 Bika nlemvo wu Pfumu eto Yesu Klisto, luzolo lu Nzambi ayi kithuadi ki Pheve Yinlongo bibanga yeno beno boso.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 

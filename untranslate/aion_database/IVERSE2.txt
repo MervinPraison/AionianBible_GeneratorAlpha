@@ -1,6 +1,6 @@
 # File Name: IVERSE2.txt
-# File Size: 685513      
-# File Date: 02/25/2024 12:11:06
+# File Size: 685522      
+# File Date: 03/30/2024 12:19:39
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -284,7 +284,7 @@ Holy-Bible---Portuguese---Portuguese-Trans-Trans	Deus nos amou tanto a nós, os 
 Holy-Bible---Romani---Eastern-Vlakh					Исусо пхэндя: — Дадэ! Эртисар лэн, онэ на жанэн, со терэн. Халавдэ шонас жребиё тай розлэнас машкар пэстэ йида Исусостири.	Лукастар 23:34	 											
 Holy-Bible---Romani-Vlax---Arli-Luke					O Isus phenđa: “Dade Devla, oprostin lenđe, adalese so na džanen so ćerena!” Tegani o vojnici frdinde barbuti hem ađahar delinde maškara pumende e Isusesere šeja.	Luka 23:34	 											
 Holy-Bible---Romani-Vlax---Chergash-Luke					A o Isus phenelas: “Jartosar lenđe, Dade Devla, kaj či džanen so ćeren!” Pale godova e vojnikurja čhudine e kocka thaj gajda podelisardine maškar peste lešće drze.	Luka 23:34	 											
-Holy-Bible---Romani-Vlax---Gurbet-Luke					A o Isus vaćarda: “Dade! Oprosti lenđe, golese kaj ni džanen so ćeren.” Thaj e vojnikura čhudije i kocka thaj ulade maškar peste leso fostano.	Luka 23:34	 											
+Holy-Bible---Romani-Vlax---Gurbet-Luke					Tegani o Isus vaćarda: “Dade! Oprosti lenđe, golese kaj ni džanen so ćeren.” Pale gova e vojnikura čhudije i kocka te ulaven maškar peste leso fostano.	Luka 23:34	 											
 Holy-Bible---Romani-Vlax---Servi-Bible					Исусо пхэнэлас: — Дадэ! Эртисар лэн! Вонэ на джянэн, со терэн. Халавдэ чутэ жребии и розлиле Лэхкири їда.	Лукастар 23:34	 											
 Holy-Bible---Romanian---Bayash-Luke					Šă Isus u zăs: “Tata Dimizovu amnjov, jartălji kă jej nu šćijă šje fašji.” Šă vojnici ur skos kockă să să ămperci dăm coljilje aluj ăntri jej.	Luka 23:34	 											
 Holy-Bible---Romanian---Cyrillic	Фииндкэатыт де мулт а юбит Думнезеу лумя, кэ а дат пе сингурул Луй Фиу, пентру ка орьчине креде ын Ел сэ ну пярэ, чи сэ айбэ вяца вешникэ.	Иоан 3:16	Астфел а изгонит Ел пе Адам; ши ла рэсэритул грэдиний Еденулуй а пус ниште херувимь, каре сэ ынвыртяскэ о сабие ынвэпэятэ, ка сэ пэзяскэ друмул каре дуче ла помул веций.	Ӂенеза 3:24	Исус зичя: „Татэ, яртэ-й, кэч нуштиу че фак!” Ей шь-ау ымпэрцит хайнеле Луй ынтре ей, трэгынд ла сорць.	Лука 23:34	Ши еу ам вэзут коборынду-се дин чер, де ла Думнезеу, четатя сфынтэ, Ноул Иерусалим, гэтитэ ка о мирясэ ымподобитэ пентру бэрбатул ей. Ши ам аузит ун глас таре, каре ешя дин скаунул де домние ши зичя: „Ятэ кортул луй Думнезеу ку оамений! Ел ва локуи ку ей ши ей вор фи попорул Луй ши Думнезеу Ынсушь ва фи ку ей. Ел ва фи Думнезеул лор.	Апокалипса 21:2-3	Прин крединцэ Авраам, кынд а фост кемат сэ плече ынтр-ун лок пе каре авя сэ-л я ка моштенире, а аскултат ши а плекат фэрэ сэ штие унде се дуче.	Еврей 11:8	Дупэ че Фараон а лэсат пе попор сэ плече, Думнезеу ну л-а дус пе друмул каре дэ ын цара филистенилор, мэкар кэ ера май апроапе, кэч а зис Думнезеу: „С-ар путя сэ-й парэ рэу попорулуй вэзынд рэзбоюл ши сэ се ынтоаркэ ын Еӂипт.”	Екзодул 13:17	Кэч Фиуломулуй н-а венит сэ И се служяскэ, чи Ел сэ служяскэ ши сэ-Шьдя вяца рэскумпэраре пентру мулць!”	Марку 10:45	Павел, роб ал луй Исус Христос, кемат сэ фие апостол, пус деопарте ка сэ вестяскэ Евангелия луй Думнезеу,	Романь 1:1	Дучеци-вэши фачець ученичьдин тоате нямуриле, ботезынду-й ын Нумеле Татэлуй ши ал Фиулуй ши ал Сфынтулуй Дух.	Матей 28:19

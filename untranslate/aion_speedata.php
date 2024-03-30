@@ -40,13 +40,13 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Gujarati|Aionian-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|New-Arabic|Burmese-Common|Bulgarian|Basque|Japanese-Yougo|Uyghur-Bible-Pinyin|Sencillo-Bible|Chinese-Union-Version-Traditional).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(King-James-Version-Updated).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Myanmar-Burmese-Judson).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Arabic---New-Arabic-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic|Nepali).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Bulgarian|Cebuano|Gourmantche|Nepali|Uyghur-Bible-Arabic|Uyghur-Bible-Cyrillic|Uyghur-Bible-Pinyin).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic|Uyghur-Bible-Cyrillic|Uyghur-Bible-Pinyin).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---(English---[K-Z]+|E[o-z]+|[F-Z]+).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Basque|Breton).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Panjabi).*---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---.*(Chiyawo).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Ahirani|Hebrew---Living-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Burmese-Common).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Nepali-Bible|Oriya-Bible|Uyghur-Bible-Cyrillic|Uyghur-Bible-Pinyin).*---Aionian-Edition\.noia$/",
@@ -58,7 +58,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---(Tongan|Turkish|[UV]+).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Catholic-Public-Domain---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
-		'include'	=> "/---Aionian-Edition\.noia$/",
+		//'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		) );
@@ -119,7 +119,7 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 	$numarialfont = ($args['database']['T_NUMBERS'][$bible][1] === '1' ? TRUE : FALSE);
 	$FOLDERS= '../AB-Fonts:../AB-Images:../AB-ISBN';
 	$DATA	= 'bible_data.xml';
-	$CONFIGVALS  = "data=$DATA\nautoopen=false\nextra-dir=$FOLDERS\ngrid=false\nruns=1\nxmlparser=lua\nverbose=true\nloglevel=info\n";
+	$CONFIGVALS  = "data=$DATA\nautoopen=false\nextra-dir=$FOLDERS\ngrid=false\nruns=1\nxmlparser=lua\nverbose=true\nloglevel=info\nfontloader=fontforge\n";
 	$CONFIGFILE  = 'bible_config.cfg';
 	// tags
 	$destiny_READ					= '---Aionian-Edition';
@@ -1714,7 +1714,7 @@ $fonts
 		<Text fontfamily="FF-Bibl" textformat="bible">
 			<Paragraph $langspeed $bidi_bible>
 				<Switch>
-					<Case test="$rtlinit"><Span $langchap><Fontface fontfamily="FF-Init"><Value select="@CHAP "/><Value>  </Value></Fontface></Span></Case>
+					<Case test="$rtlinit"><Span $langchap><Fontface fontfamily="FF-Init"><Value select="@CHAP"/><Value>&#xa0;&#xa0;</Value></Fontface></Span></Case>
 					<Otherwise><Initial fontfamily="FF-Init" padding-right="2pt"><Value select="@CHAP"/></Initial></Otherwise>
 				</Switch>
 				<ForAll select="*">
@@ -2910,7 +2910,6 @@ return <<<EOT
 <LoadFontfile name="FA-BOLD" filename="liberationsans-bold.ttf"/>
 <LoadFontfile name="FA-ITAL" filename="liberationsans-italic.ttf"/>
 <LoadFontfile name="FA-BOIT" filename="liberationsans-bolditalic.ttf"/>
-<LoadFontfile $harfbuzz name="FT-EZRA" filename="ezra_sil.ttf"/>
 $loadfontfile
 
 <!-- DEFINE FONT GLOBAL -->
@@ -2945,7 +2944,6 @@ $loadfontfile
 <DefineFontfamily name="FF-Book" fontsize="$bsize"	leading="$bleading"	><Regular fontface="FB-BOLD"/><Bold fontface="FB-BOLD"/><Italic fontface="FB-BOIT"/><BoldItalic fontface="FB-BOIT"/></DefineFontfamily>
 <DefineFontfamily name="FF-Init" fontsize="18"		leading="18"		>$initfont</DefineFontfamily>
 <DefineFontfamily name="FF-Bibl" fontsize="$size"	leading="$leading"	><Regular fontface="FB-REGU"/><Bold fontface="FB-BOLD"/><Italic fontface="FB-ITAL"/><BoldItalic fontface="FB-BOIT"/></DefineFontfamily>
-<DefineFontfamily name="FF-Ezra" fontsize="$size"	leading="$leading"	><Regular fontface="FT-EZRA"/></DefineFontfamily>
 <DefineFontfamily name="FF-Bnot" fontsize="$nsize"	leading="$leading"	><Regular fontface="FT-REGU"/><Bold fontface="FT-BOLD"/><Italic fontface="FT-ITAL"/><BoldItalic fontface="FT-BOIT"/></DefineFontfamily>
 <DefineFontfamily name="FF-Bnum" fontsize="$nsize"	leading="$leading"	>$numbfont</DefineFontfamily>
 <DefineFontfamily name="FF-Foot" fontsize="$fsize"	leading="10"		><Regular fontface="FB-REGU"/><Bold fontface="FB-BOLD"/><Italic fontface="FB-ITAL"/><BoldItalic fontface="FB-BOIT"/></DefineFontfamily>

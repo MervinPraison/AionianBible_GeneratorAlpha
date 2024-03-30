@@ -1,6 +1,6 @@
 # File Name: ANAVIGATION.txt
-# File Size: 19267       
-# File Date: 02/25/2024 12:13:00
+# File Size: 19200       
+# File Date: 03/30/2024 12:21:38
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -220,7 +220,6 @@ Holy-Bible---Hungarian---Hungarian-Jewish-Bible
 Holy-Bible---Hungarian---Hungarian-Karoli		
 Holy-Bible---Hungarian---Magyar-Bible		
 Holy-Bible---Icelandic---Open-Living-Word		
-Holy-Bible---Icelandic---Open-Living-Word	VERSMISS	019-PSA-141-007
 Holy-Bible---Igbo---Igbo-Bible		
 Holy-Bible---Ilocano---Ilocano-Bible		
 Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari		

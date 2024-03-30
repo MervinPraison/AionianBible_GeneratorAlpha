@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 837426      
-# File Date: 02/25/2024 12:11:06
+# File Size: 837435      
+# File Date: 03/30/2024 12:19:39
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -2446,7 +2446,7 @@ Holy-Bible---Romani-Vlax---Chergash-Luke	ROM-001-001
 Holy-Bible---Romani-Vlax---Chergash-Luke	MAT-028-019		
 Holy-Bible---Romani-Vlax---Gurbet-Luke	JOH-003-016		
 Holy-Bible---Romani-Vlax---Gurbet-Luke	GEN-003-024		
-Holy-Bible---Romani-Vlax---Gurbet-Luke	LUK-023-034	Luka 23:34	A o Isus vaćarda: “Dade! Oprosti lenđe, golese kaj ni džanen so ćeren.” Thaj e vojnikura čhudije i kocka thaj ulade maškar peste leso fostano.
+Holy-Bible---Romani-Vlax---Gurbet-Luke	LUK-023-034	Luka 23:34	Tegani o Isus vaćarda: “Dade! Oprosti lenđe, golese kaj ni džanen so ćeren.” Pale gova e vojnikura čhudije i kocka te ulaven maškar peste leso fostano.
 Holy-Bible---Romani-Vlax---Gurbet-Luke	REV-021-002		 
 Holy-Bible---Romani-Vlax---Gurbet-Luke	HEB-011-008		
 Holy-Bible---Romani-Vlax---Gurbet-Luke	EXO-013-017		
