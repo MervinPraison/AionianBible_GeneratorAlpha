@@ -166,7 +166,7 @@ Holy-Bible---Dutch---Schrift				https://ebible.org/sword/zip/nld1917eb.zip	Holy-
 Holy-Bible---Dutch---Statenvertaling				./aion_source/Holy-Bible---Dutch---Statenvertaling.unbound.zip	Holy-Bible---Dutch---Statenvertaling---Source-Edition.UNBOUND.zip
 Holy-Bible---Dutch---Statenvertaling				https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/DutSVV.zip	Holy-Bible---Dutch---Statenvertaling---Source-Edition.SWORD.zip
 Holy-Bible---English---A-Conservative-Version	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/ACV.zip	Holy-Bible---English---A-Conservative-Version---Source-Edition.SWORD.zip
-Holy-Bible---English---Aionian-Bible				https://ebible.org/Scriptures/engwebp_vpl.zip	Holy-Bible---English---Aionian-Bible---Source-Edition.VPL.zip
+Holy-Bible---English---Aionian-Bible				https://ebible.org/Scriptures/engwebu_vpl.zip	Holy-Bible---English---Aionian-Bible---Source-Edition.VPL.zip
 Holy-Bible---English---American-Standard-Version-1901				https://ebible.org/epub/eng-asv.epub	Holy-Bible---English---American-Standard-Version-1901---Source-Edition.epub
 Holy-Bible---English---American-Standard-Version-1901				https://ebible.org/pdf/eng-asv/eng-asv_prt.pdf	Holy-Bible---English---American-Standard-Version-1901---Source-Edition.pdf
 Holy-Bible---English---American-Standard-Version-1901				https://ebible.org/Scriptures/eng-asv_vpl.zip	Holy-Bible---English---American-Standard-Version-1901---Source-Edition.VPL.zip

@@ -1875,6 +1875,12 @@ case "Holy-Bible---Danish---Danish-1871-1907" :
 if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )0/mus",'$1O',$bfile,-1,$rnum)) || $rnum!=3) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 $blockfix = <<<EOF
+Genesis 42:38 Og han sagde: Min Søn skal ikke fare ned med eder; thi hans Broder er død, og han alene er bleven tilbage, og møder ham nogen Ulykke paa Vejen, som I drage hen paa, da skulle I føre mine graa Haar med Sorg til Graven.
+Genesis 42:39 Og Hungeren var svar i Landet.
+Genesis 43:1 
+EOF;
+if (!($bfile = preg_replace("/Genesis 42:38 (.+?)Genesis 43:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
 Leviticus 5:19 Det er et Skyldoffer, han var skyldig for Herren.
 Leviticus 5:20 Og Herren talede til Mose og sagde:
 Leviticus 5:21 Naar nogen synder og forgriber sig saare imod Herren, ved at han lyver for sin Næste, angaaende det ham betroede eller det i hans Værge nedlagte, eller angaaende det røvede eller det, han har taget med Vold fra sin Næste;
@@ -1886,6 +1892,19 @@ Leviticus 5:26 Og Præsten skal gøre Forligelse for ham for Herrens Ansigt, saa
 Leviticus 6:1 
 EOF;
 if (!($bfile = preg_replace("/Leviticus 5:19 (.+?)Leviticus 6:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Numbers 30:16 Men dersom han rygger dem, efterat han har hørt dem, da skal han bære hendes Misgerning.
+Numbers 30:17 Disse ere de Bestemmelser, som Herren befalede Mose, imellem en Mand og hans Hustru, imellem Faderen og hans Datter, i hendes Ungdom, medens hun er i sin Faders Hus.
+Numbers 31:1 
+EOF;
+if (!($bfile = preg_replace("/Numbers 30:16 (.+?)Numbers 31:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+
+I Samuel 24:22 Saa sværg mig nu ved Herren, at du ikke vil udrydde min Sæd efter mig, og at du ikke vil udslette mit Navn af min Faders Hus.
+I Samuel 24:23 Da tilsvor David Saul dette, og Saul gik til sit Hus, men David og hans Folk gik op i Befæstningen.
+I Samuel 25:1 
+EOF;
+if (!($bfile = preg_replace("/\nI Samuel 24:22 (.+?)\nI Samuel 25:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $blockfix = <<<EOF
 Joel 3:21 Og Herren skal brøle fra Zion og lade sin Røst lyde fra Jerusalem, og Himmel og Jord skulle ryste; men Herren skal være en Tilflugt for sit Folk og et Værn for Israels Børn.
 Joel 3:22 Og I skulle fornemme, at jeg er Herren eders Gud, som bor paa Zion, mit hellige Bjerg; og Jerusalem skal vorde en Helligdom, og fremmede skulle ikke ydermere drage over den.
@@ -1912,8 +1931,9 @@ Job 39:32 Derfra spejder den efter Føde; dens Øjne se ud i det fjerne,
 Job 39:33 og dens Unger drikke Blod; og hvor der er ihjelslagne, der er den.
 Job 39:34 Og Herren svarede Job og sagde:
 Job 39:35 Vil Dadleren gaa i Rette med den Almægtige? den, som anklager Gud, han svare herpaa!
-Job 39:36 Da svarede Job Herren og sagde: Se, jeg er ringe, hvad skal jeg give dig til Svar? jeg har lagt min Haand paa min Mund.
-Job 39:37 Jeg har talt een Gang, men vil ikke svare mere; og to Gange, men vil ikke blive ved.
+Job 39:36 Da svarede Job Herren og sagde:
+Job 39:37 Se, jeg er ringe, hvad skal jeg give dig til Svar? jeg har lagt min Haand paa min Mund.
+Job 39:38 Jeg har talt een Gang, men vil ikke svare mere; og to Gange, men vil ikke blive ved.
 Job 40:1 
 EOF;
 if (!($bfile = preg_replace("/Job 39:30 (.+?)Job 40:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -1926,6 +1946,62 @@ Job 40:28 Se, Haabet derom slaar fejl; styrter man ikke ned endog kun ved Synet 
 Job 41:1 
 EOF;
 if (!($bfile = preg_replace("/Job 40:24 (.+?)Job 41:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Ecclesiastes 4:16 Der var ikke Ende paa alt det Folk, paa alt det, som han gik i Spidsen for, dog skulle Efterkommerne ikke glædes over ham: Thi ogsaa dette er Forfængelighed og Aandsfortærelse.
+Ecclesiastes 4:17 Forvar din Fod, naar du vil gaa til Guds Hus, og vær nær for at høre; dette er bedre, end naar Daarerne yde Slagtoffer; thi de vide ikke, at de gøre ondt.
+Ecclesiastes 5:1 
+EOF;
+if (!($bfile = preg_replace("/Ecclesiastes 4:16 (.+?)Ecclesiastes 5:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Isaiah 63:19 Vi ere, som om du ikke havde regeret over os fra gammel Tid, og som om vi ikke vare kaldede efter dit Navn;
+Isaiah 63:20 gid du vilde sønderrive Himlene og fare ned, saa at Bjergene fløde bort for dit Ansigt!
+Isaiah 64:1 
+EOF;
+if (!($bfile = preg_replace("/Isaiah 63:19 (.+?)Isaiah 64:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Daniel 6:28 Han er den, som udfrier, og som redder og gør Tegn og underfulde Ting i Himmelen og paa Jorden, han, som udfriede Daniel af Løvernes Vold.
+Daniel 6:29 Og denne Daniel havde Lykke under Darius's Regering og under Perseren Kyrus's Regering.
+Daniel 7:1 
+EOF;
+if (!($bfile = preg_replace("/Daniel 6:28 (.+?)Daniel 7:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Daniel 10:18 Og han, der var af Skikkelse som et Menneske, rørte fremdeles ved mig og styrkede mig;
+Daniel 10:19 og han sagde: Frygt ikke, du højlig elskede Mand! Fred være med dig, vær frimodig, ja, vær frimodig! og der han talte med mig, følte jeg mig styrket og sagde: Min Herre tale! thi du har styrket mig.
+Daniel 10:20 Og han sagde: Ved du, hvorfor jeg er kommen til dig? og nu skal jeg vende tilbage for at stride imod Persiens Fyrste; og naar jeg drager ud, da se, saa skal Grækenlands Fyrste komme.
+Daniel 10:21 Dog vil jeg kundgøre dig, hvad der er optegnet i Sandheds Bog. — Der er ikke een, som staar mig kraftigt bi imod disse, uden Mikael, eders Fyrste;
+Daniel 11:1 
+EOF;
+if (!($bfile = preg_replace("/Daniel 10:18 (.+?)Daniel 11:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Hosea 12:14 Og ved en Profet førte Herren Israel op af Ægypten, og ved en Profet blev det bevaret.
+Hosea 12:15 Efraim har vakt bitter Harme; men hans Herre skal lade hans Blodskyld blive paa ham og betale ham hans Forhaanelse.
+Hosea 13:1 
+EOF;
+if (!($bfile = preg_replace("/Hosea 12:14 (.+?)Hosea 13:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Hosea 14:9 Efraim! hvad har jeg fremdeles at gøre med Afguder? jeg har bønhørt ham, og jeg beskuer ham; jeg vil være som en grønnende Cypres, din Frugt er funden at være af mig.
+Hosea 14:10 Hvo er viis, at han forstaar disse Ting? og forstandig, at han kender dem? thi Herrens Veje ere rette, og de retfærdige vandre paa dem, men Overtrædere falde paa dem.
+Joel 1:1 
+EOF;
+if (!($bfile = preg_replace("/Hosea 14:9 (.+?)Joel 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Jonah 2:10 Men jeg, jeg vil med Taksigelses Røst ofre til dig, jeg vil betale det, jeg har lovet; Frelse er der hos Herren.
+Jonah 2:11 Og Herren bød Fisken, og den udspyede Jonas paa det tørre Land.
+Jonah 3:1 
+EOF;
+if (!($bfile = preg_replace("/Jonah 2:10 (.+?)Jonah 3:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Micah 4:13 Gør dig rede og tærsk, du Zions Datter! thi jeg gør dit Horn til Jern og gør dine Hove til Kobber, at du maa sønderknuse mange Folk, og at jeg kan vie Herren deres Bytte og hele Jordens Herre deres Gods.
+Micah 4:14 Nu, flok dig sammen, du Flokkens Datter! en Belejring retter man imod os; med Kæppen slaar man Israels Dommer paa Kinden.
+Micah 5:1 
+EOF;
+if (!($bfile = preg_replace("/Micah 4:13 (.+?)Micah 5:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Nahum 2:13 En Løve, der røvede, hvad der var nok til dens Unger, og kvalte til sine Løvinder og fyldte sine Huler med Rov og sine Boliger med det røvede.
+Nahum 2:14 Se, jeg kommer imod dig, siger den Herre Zebaoth, og jeg vil brænde dine Vogne, saa de gaa op i Røg, og Sværd skal fortære dine unge Løver; og jeg vil udrydde dit Rov af Jorden, og dine Sendebuds Røst skal ikke høres ydermere.
+Nahum 3:1 
+EOF;
+if (!($bfile = preg_replace("/Nahum 2:13 (.+?)Nahum 3:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $blockfix = <<<EOF
 II Corinthians 13:12 Hilser hverandre med et helligt Kys!
 II Corinthians 13:13 Alle de hellige hilse eder.
@@ -1978,8 +2054,9 @@ Job 39:32 den spejder derfra efter Æde, viden om skuer dens Øjne.
 Job 39:33 Ungerne svælger i Blod; hvor Valen findes, der er den!
 Job 39:34 Og HERREN svarede Job og sagde:
 Job 39:35 Vil den trættekære tvistes med den Almægtige? Han, som revser Gud, han svare herpaa!
-Job 39:36 Da svarede Job HERREN og sagde: Se, jeg er ringe, hvad skal jeg svare?
-Job 39:37 Jeg lægger min Haand paa min Mund! Een Gang har jeg talt, gentager det ikke, to Gange, men gør det ej mer!
+Job 39:36 Da svarede Job HERREN og sagde:
+Job 39:37 Se, jeg er ringe, hvad skal jeg svare?
+Job 39:38 Jeg lægger min Haand paa min Mund! Een Gang har jeg talt, gentager det ikke, to Gange, men gør det ej mer!
 Job 40:1 
 EOF;
 if (!($bfile = preg_replace("/Job 39:30 (.+?)Job 40:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -2369,6 +2446,7 @@ $replacements = array(
 	"#don’t#us"		=>"do not",
 	"#Don’t#us"		=>"Do not",
 	"#hadn’t#us"	=>"had not",
+	"#Hadn’t#us"	=>"Had not",
 	"#hasn’t#us"	=>"has not",
 	"#Hasn’t#us"	=>"Has not",
 	"#Haven’t#us"	=>"Have not",
@@ -2384,6 +2462,7 @@ $replacements = array(
 	"#we’ll#us"		=>"we will",
 	"#We’ll#us"		=>"We will",
 	"#we’re#us"		=>"we are",
+	"#We’re#us"		=>"We are",
 	"#weren’t#us"	=>"were not",
 	"#Weren’t#us"	=>"Were not",
 	"#won’t#us"		=>"will not",
@@ -2395,7 +2474,7 @@ $replacements = array(
 	"#you’ve#us"	=>"you have",
 	"#You’ve#us"	=>"You have",
 	);
-if (!($bfile=preg_replace(array_keys($replacements), $replacements, $bfile, -1, $rnum)) || $rnum!=3734) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile=preg_replace(array_keys($replacements), $replacements, $bfile, -1, $rnum)) || $rnum!=4644) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 

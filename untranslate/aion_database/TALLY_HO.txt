@@ -1,6 +1,6 @@
 # File Name: TALLY_HO.txt
 # File Size: 21072       
-# File Date: 03/30/2024 11:58:53
+# File Date: 03/31/2024 12:03:53
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -57,8 +57,8 @@ Holy-Bible---Croatian---Croatian-Bible	31086	31086	31342
 Holy-Bible---Czech---Czech-Bible-Kralicka	31102	31102	31103
 Holy-Bible---Czech---Kralicka	31102	31102	31175
 Holy-Bible---Czech---Living-Bible	7409	7409	7410
-Holy-Bible---Danish---Danish-1871-1907	31089	31089	31091
-Holy-Bible---Danish---Danish-1931-1907	31088	31088	31090
+Holy-Bible---Danish---Danish-1871-1907	31102	31102	31104
+Holy-Bible---Danish---Danish-1931-1907	31089	31089	31091
 Holy-Bible---Danish---Danish-Bible	31102	31102	31102
 Holy-Bible---Desiya---Desiya-Bible	7957	7957	7959
 Holy-Bible---Dholuo---Dholuo-Bible	31102	31102	31103
@@ -282,7 +282,7 @@ Holy-Bible---Portuguese---Free-for-All	7941	7941	7959
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	7897	7897	7899
 Holy-Bible---Romani---Eastern-Vlakh	2280	2280	2280
 Holy-Bible---Romani-Vlax---Arli-Luke	1150	1150	1151
-Holy-Bible---Romani-Vlax---Chergash-Luke	1150	1150	1150
+Holy-Bible---Romani-Vlax---Chergash-Luke	1151	1151	1151
 Holy-Bible---Romani-Vlax---Gurbet-Luke	1151	1151	1151
 Holy-Bible---Romani-Vlax---Servi-Bible	2284	2284	2284
 Holy-Bible---Romanian---Bayash-Luke	1149	1149	1151
