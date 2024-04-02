@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 837435      
-# File Date: 03/31/2024 12:25:09
+# File Size: 837425      
+# File Date: 04/02/2024 02:50:10
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -2213,9 +2213,9 @@ Holy-Bible---Ndebele---Accessible-Bible	MAT-028-019	UMathewu 28:19	Ngakho hamban
 Holy-Bible---Ndebele---Ndebele-Bible	JOH-003-016	UJohane 3:16	Ngoba uNkulunkulu wawuthanda umhlaba ngokunjalo, ngakho wanika iNdodana yakhe ezelwe yodwa, ukuze wonke okholwa kuyo angabhubhi, kodwa abe lempilo elaphakade.
 Holy-Bible---Ndebele---Ndebele-Bible	GEN-003-024	UGenesisi 3:24	Yasimxotsha umuntu; yabeka empumalanga kwesivande seEdeni amakherubhi lenkemba evuthayo ephenduphendukayo, ukulinda indlela yesihlahla sempilo.
 Holy-Bible---Ndebele---Ndebele-Bible	LUK-023-034	ULukha 23:34	UJesu wasesithi: Baba, bathethelele; ngoba kabakwazi abakwenzayo. Njalo babelana izembatho zakhe, benza inkatho yokuphosa.
-Holy-Bible---Ndebele---Ndebele-Bible	REV-021-002	Isambulo 21:2-3	Mina Johane ngasengibona umuzi ongcwele, iJerusalema entsha, usehla uvela kuNkulunkulu ezulwini, ulungisiwe njengomakoti ececiselwe umkakhe. Ngasengisizwa ilizwi elikhulu livela ezulwini, lisithi: Khangela, ithabhanekele likaNkulunkulu lisebantwini, njalo uzahlala labo, futhi bona bazakuba ngabantu bakhe, loNkulunkulu uqobo uzakuba labo, eng uNkulunkulu wabo;
+Holy-Bible---Ndebele---Ndebele-Bible	REV-021-002	Isambulo 21:2-3	Mina Johane ngasengibona umuzi ongcwele, iJerusalema entsha, usehla uvela kuNkulunkulu ezulwini, ulungisiwe njengomakoti ececiselwe umkakhe. Ngasengisizwa ilizwi elikhulu livela ezulwini, lisithi: Khangela, ithabhanekele likaNkulunkulu lisebantwini, njalo uzahlala labo, futhi bona bazakuba ngabantu bakhe, loNkulunkulu uqobo uzakuba labo, enguNkulunkulu wabo;
 Holy-Bible---Ndebele---Ndebele-Bible	HEB-011-008	KumaHebheru 11:8	Ngokholo uAbrahama walalela ebizwa ukuthi aphume aye endaweni ayezayemukela ibe yilifa; waphuma, engazi lapho aya khona.
-Holy-Bible---Ndebele---Ndebele-Bible	EXO-013-017	U-Eksodusi 13:17	Kwasekusithi uFaro eseyekele abantu bahambe, uNkulunkulu kabakhokhelanga nge ndlela yelizwe lamaFilisti, lanxa yayiseduze; ngoba uNkulunkulu wathi: Hlezi abantu bazisole nxa bebona impi, babuyele eGibhithe.
+Holy-Bible---Ndebele---Ndebele-Bible	EXO-013-017	U-Eksodusi 13:17	Kwasekusithi uFaro eseyekele abantu bahambe, uNkulunkulu kabakhokhelanga ngendlela yelizwe lamaFilisti, lanxa yayiseduze; ngoba uNkulunkulu wathi: Hlezi abantu bazisole nxa bebona impi, babuyele eGibhithe.
 Holy-Bible---Ndebele---Ndebele-Bible	MAR-010-045	UMakho 10:45	Ngoba leNdodana yomuntu kayizanga ukukhonzwa, kodwa ukukhonza, lokunika impilo yayo ibe lihlawulo labanengi.
 Holy-Bible---Ndebele---Ndebele-Bible	ROM-001-001	KwabaseRoma 1:1	UPawuli, inceku kaJesu Kristu, ebizelwe ukuba ngumphostoli, ehlukaniselwe ivangeli likaNkulunkulu,
 Holy-Bible---Ndebele---Ndebele-Bible	MAT-028-019	UMathewu 28:19	ngakho hambani lenze izizwe zonke zibe ngabafundi, libabhabhathiza ebizweni likaYise leleNdodana lelikaMoya oNgcwele;
@@ -2786,13 +2786,13 @@ Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	EXO-013-017	Исход 1
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	MAR-010-045	От Марка святое благовествование 10:45	ибо Сын Человечь не прииде, да послужат Ему, но да послужит и даст душу Свою избавление за многи.
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	ROM-001-001	Послание к Римлянам 1:1	Павел, раб Иисус Христов, зван Апостол, избран в благовестие Божие,
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	MAT-028-019	От Матфея святое благовествование 28:19	шедше убо научите вся языки, крестяще их во имя Отца и Сына и Святаго Духа,
-Holy-Bible---Slovene---Slovene-Savli-Bible	JOH-003-016	Janez 3:16	Kajti Bog je tako ljubil svet, da je dal svojega edinorojenega Sina, da se kdorkoli veruje vanj, ne bo pogubil, temveč bo imel večno življenje.
-Holy-Bible---Slovene---Slovene-Savli-Bible	GEN-003-024	1 Mojzes 3:24	Tako je izgnal človeka in na vzhodu edenskega vrta namestil kerube in ognjen meč, ki obrača vsako pot, da varuje pot do drevesa življenja.
-Holy-Bible---Slovene---Slovene-Savli-Bible	LUK-023-034	Luka 23:34	Potem je Jezus rekel: „Oče, odpusti jim, kajti ne vedo kaj delajo.“Oni pa so si razdelili njegova oblačila ter metali žrebe.
-Holy-Bible---Slovene---Slovene-Savli-Bible	REV-021-002	Razodetje 21:2-3	In jaz, Janez, sem videl sveto mesto, novi Jeruzalem, prihajati dol od Boga, iz nebes, pripravljeno kakor je nevesta okrašena za svojega soproga. In zaslišal sem močan glas z neba, rekoč: „Glej, šotorsko svetišče Boga je z ljudmi in prebival bo z njimi in oni bodo njegovi ljudje in sam Bog bo z njimi in bo njihov Bog.
-Holy-Bible---Slovene---Slovene-Savli-Bible	HEB-011-008	Hebrejcem 11:8	Po veri je Abraham ubogal, ko je bil poklican, da gre ven, na kraj, katerega naj bi kasneje prejel v dediščino in odšel je ven, ne vedoč kam je šel.
-Holy-Bible---Slovene---Slovene-Savli-Bible	EXO-013-017	2 Mojzes 13:17	Pripetilo se je, ko je faraon ljudstvu pustil oditi, da jih Bog ni vodil po poti dežele Filistejcev, čeprav je bila ta blizu, kajti Bog je rekel: „Da se ne bi morda ljudstvo pokesalo, ko zagleda vojno in se vrnejo v Egipt, “
-Holy-Bible---Slovene---Slovene-Savli-Bible	MAR-010-045	Marko 10:45	Kajti celo Sin človekov ni prišel, da bi mu služili, temveč, da služi in da svoje življenje daruje v odkupnino za mnoge.“
+Holy-Bible---Slovene---Slovene-Savli-Bible	JOH-003-016	Janez 3:16	Kajti Bog je tako ljubil svet, da je dal svojega edinorojenega Sina, da kdorkoli veruje vanj, se ne bo pogubil, temveč bo imel večno življenje.
+Holy-Bible---Slovene---Slovene-Savli-Bible	GEN-003-024	1 Mojzes 3:24	Tako je izgnal človeka in na vzhodu edenskega vrta namestil kerube in ognjen meč, ki obrača vsako pot, da varuje pot drevesa življenja.
+Holy-Bible---Slovene---Slovene-Savli-Bible	LUK-023-034	Luka 23:34	Potem je Jezus rekel: »Oče, odpusti jim, kajti ne vedo, kaj delajo.« Oni pa so si razdelili njegova oblačila ter metali žrebe.
+Holy-Bible---Slovene---Slovene-Savli-Bible	REV-021-002	Razodetje 21:2-3	In jaz, Janez, sem videl sveto mesto, novi Jeruzalem, prihajati dol od Boga, iz nebes, pripravljeno, kakor je nevesta okrašena za svojega soproga. In zaslišal sem močan glas z neba, rekoč: »Glej, šotorsko svetišče Boga je z ljudmi in prebival bo z njimi in oni bodo njegovi ljudje in sam Bog bo z njimi in bo njihov Bog.
+Holy-Bible---Slovene---Slovene-Savli-Bible	HEB-011-008	Hebrejcem 11:8	Po veri je Abraham ubogal, ko je bil poklican, da gre ven, na kraj, ki naj bi ga kasneje prejel v dediščino; in odšel je ven, ne vedoč kam je šel.
+Holy-Bible---Slovene---Slovene-Savli-Bible	EXO-013-017	2 Mojzes 13:17	Pripetilo se je, ko je faraon ljudstvu pustil oditi, da jih Bog ni vodil po poti dežele Filistejcev, čeprav je bila ta blizu, kajti Bog je rekel: »Da se ne bi morda ljudstvo pokesalo, ko zagleda vojno in se vrnejo v Egipt, «
+Holy-Bible---Slovene---Slovene-Savli-Bible	MAR-010-045	Marko 10:45	Kajti celo Sin človekov ni prišel, da bi mu služili, temveč, da služi in da svoje življenje daruje v odkupnino za mnoge.«
 Holy-Bible---Slovene---Slovene-Savli-Bible	ROM-001-001	Rimljanom 1:1	Pavel, služabnik Jezusa Kristusa, poklican, da bi bil apostol, odbran za evangelij Boga,
 Holy-Bible---Slovene---Slovene-Savli-Bible	MAT-028-019	Matej 28:19	Pojdite torej in učite vse narode, krščujoč jih v ime Očeta in Sina in Svetega Duha,
 Holy-Bible---Slovene---Slovene-Stritarja-NT	JOH-003-016	Janez 3:16	Kajti tako je Bog ljubil svet, da je sina svojega edinorojenega dal, da kdorkoli veruje va-nj, ne pogine, nego da ima večno življenje.

@@ -89,11 +89,53 @@ case 'Holy-Bible---Japanese---New-Japanese-New-Testament' :
 case 'Holy-Bible---Korean---Korean-RV' :
 case 'Holy-Bible---English---Rotherham-Bible' :
 case 'Holy-Bible---Swedish---Swedish-Bible' :
+case 'Holy-Bible---Chinese---Chinese-Sigao-Bible' :
+case 'Holy-Bible---English---King-James-Version-Cambridge' :
+case 'Holy-Bible---English---Worsley-Bible' :
+case 'Holy-Bible---French---French-Perret-Gentil-Rilliet' :
+case 'Holy-Bible---Ndebele---Ndebele-Bible' :
+case 'Holy-Bible---Shona---Shona-Bible' :
 	$rnum = 0;
 	if (!($bfile = preg_replace('/<[^<>\n]*>/us','',$bfile,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
 	if (!($bfile = preg_replace('/<[^<>\n]*>/us','',$bfile,-1,$rnum))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
 	if ($rnum) { AION_ECHO("WARNING! $bible TAGS within TAGS found: $rnum");  }
 	break;
+/*	replace <tag> without space on 4/1/24 and difference only in these Bibles
+	with space is safer, so change only if solid reason. yes = no space, no,ok = stick with space
+
+Holy-Bible---Basque---Basque-NT								ok - 30 verses better and worse so hold
+Holy-Bible---Cherokee---Cherokee-New-Testament				ok - spaced brackets and parens - leave it
+Holy-Bible---Chinese---Chinese-Sigao-Bible					yes - better, no spaces for Chinese
+Holy-Bible---Coptic---Sahidic-Coptic-Horner					ok - spaced dots . might be better, but nominal improvement
+Holy-Bible---Czech---Czech-Bible-Kralicka					ok - can't tell, some punctuation improvement
+Holy-Bible---English---Anderson-Bible						ok - only 1 of 1 verse better
+Holy-Bible---English---Catholic-Public-Domain				ok - only 1 of 1 verse better
+Holy-Bible---English---King-James-Version-Cambridge			yes - better punctuation and possessive '
+Holy-Bible---English---King-James-Version-Restored-Name		no - worse, so hold
+Holy-Bible---English---King-James-Version-Revised			ok - hallelujah fixed and spaced parens, but hold for now
+Holy-Bible---English---Webster-Bible-Revised				no - worse - joined words
+Holy-Bible---English---Worsley-Bible						yes - better punctuation and hyphenation
+Holy-Bible---French---French-Khan-Bible						ok - 10 verses mix better and worse so hold
+Holy-Bible---French---French-Perret-Gentil-Rilliet			yes - better puncuation and apostrophe
+Holy-Bible---German---German-Katholiche-Riessler			no - worse, words joined
+Holy-Bible---German---German-Menge							no - 10 verses miss (selah)
+Holy-Bible---Greek---Greek-Antoniades						ok - spaced brackets, leave it
+Holy-Bible---Greek---Greek-Textus-Receptus-Elzevir			ok - 10 verses with spaced/non-spaced brackets
+Holy-Bible---Greek---Greek-Tregelles						ok - cannot tell, hold for now
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah			ok - hard to tell, safe to leave the space
+Holy-Bible---Malayalam---Malayalam-Bible-1910				no - 2 verses need the space to find selah!
+Holy-Bible---Ndebele---Ndebele-Bible						yes - stop splitting words
+Holy-Bible---Shona---Shona-Bible							yes - stop splitting words
+Holy-Bible---Slovene---Slovene-Savli-Bible					no - other problems with space after opening quote „
+Holy-Bible---Slovene---Slovene-Stritarja-NT					ok - only 2 of 2 verses better
+Holy-Bible---Spanish---Biblia-Platense-Straubinger			ok - spaced brackets and parens - leave it
+Holy-Bible---Spanish---Reina-Valera-1865					ok - not sure, hold for now
+Holy-Bible---Spanish---Sagradas-Escrituras-1569				ok - mainly spaced parens, leave it
+Holy-Bible---Swedish---Swedish-Bible-1873					ok - parens without spaces better, but hold
+Holy-Bible---Swedish---Swedish-Bible-1917					no - 10 verses worse with quotes
+Holy-Bible---Ukrainian---Ukrainian-NT						ok - only 1 of 1 verse better
+Holy-Bible---Ukrainian---Ukrainian-Ogienko					no - other problems with space after opening quote „
+*/
 default:
 	$rnum = 0;
 	if (!($bfile = preg_replace('/<[^<>\n]*>/us',' ',$bfile,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
@@ -3552,7 +3594,7 @@ $textfix = <<<EOF
 John 13:38 "Your life you will lay down for me? In solemn truth I tell you, the cock shall not crow before you have three times disowned me."
 John 14:1 
 EOF;
-if (!($bfile = preg_replace("/\nJohn 13:38 (.+?)\nJohn 14:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/\nJohn 13:38 (.*?)\nJohn 14:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 
 John 14:16 "and I will pray the Father, and he will give you another Comforter to be with you forever,
@@ -8790,7 +8832,7 @@ $textfix = <<<EOF
 John 21:1 Ezek után ismét megjelentette magát Jézus a tanítványoknak a Tibériás tengerénél; megjelentette pedig ekképen: 
 John 21:2 
 EOF;
-if (!($bfile = preg_replace("/\nJohn 21:0 (.+?)\nJohn 21:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/\nJohn 21:0 (.*?)\nJohn 21:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 Acts 12:6 Mikor pedig Heródes őt elő akará vezettetni, azon az éjszakán aluszik vala Péter két vitéz között, megkötözve két lánczczal; és őrök őrizék az ajtó előtt a tömlöczöt.
 Acts 12:7 
@@ -16708,10 +16750,9 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Slovene---Slovene-Savli-Bible" :
-if (!($bfile = preg_replace('/§/us',' ',$bfile,-1,$rnum)) || $rnum!=1079) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%C2%A7/1
+if (!($bfile = preg_replace('/§/us',' ',$bfile,-1,$rnum)) || $rnum!=1082) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%C2%A7/1
 $bfile_saved = $bfile;
-if (!($bfile = preg_replace("/(\[א\]|\[ב\]|\[ג\]|\[ד\]|\[ה\]|\[ו\]|\[ז\]|\[ח\]|\[ט\]|\[י\]|\[כ\]|\[ל\]|\[מ\]|\[נ\]|\[ס\]|\[ע\]|\[פ\]|\[צ\]|\[ק\]|\[ר\]|\[ש\]|\[ת\])/us"," ",$bfile,-1,$rnum)) || $rnum!=22) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-if (!($bfile = preg_replace("/ ENG Behold[^\n]+\n/us","\n",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/(א|ב|ג|ד|ה|ו|ז|ח|ט|י|כ|ל|מ|נ|ס|ע|פ|צ|ק|ר|ש|ת)/us"," ",$bfile,-1,$rnum)) || $rnum!=22) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
