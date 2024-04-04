@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1557220     
-# File Date: 04/01/2024 23:40:44
+# File Size: 1557362     
+# File Date: 04/04/2024 00:36:53
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -3828,6 +3828,7 @@ Holy-Bible---French---Vulgate-Glaire	019	PSA	008	001	Pour la fin, pour les press
 Holy-Bible---French---Vulgate-Glaire	019	PSA	009	001	Pour la fin, pour les secrets    du fils, psaume de David.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	011	001	Pour la fin, psaume de David.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	012	001	Pour la fin, pour l’octave, psaume de David.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	013	002	Jusques à quand remplirai-je mon âme de projets, et mon cœur chaque jour de chagrin ?
 Holy-Bible---French---Vulgate-Glaire	019	PSA	018	001	Pour la fin, de David, serviteur du Seigneur, qui adressa au    Seigneur les paroles de ce cantique, au jour où le Seigneur le délivra de la main de tous ses ennemis et de la main de Saül ; et il dit  :
 Holy-Bible---French---Vulgate-Glaire	019	PSA	019	001	Pour la fin, psaume de David.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	020	001	Pour la fin, psaume de David.

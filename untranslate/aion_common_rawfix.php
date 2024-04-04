@@ -2059,6 +2059,12 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Danish---Danish-1931-1907" :
 $blockfix = <<<EOF
+Genesis 42:38 Men han sagde: »Min Søn skal ikke rejse derned med eder, thi hans Broder er død, og han alene er tilbage; tilstøder der ham en Ulykke paa den Rejse, I har for, saa bringer I mine graa Haar ned i Dødsriget med Sorg!«
+Genesis 42:39 Men Hungersnøden var haard i Landet;
+Genesis 43:1 
+EOF;
+if (!($bfile = preg_replace("/Genesis 42:38 (.+?)Genesis 43:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
 Leviticus 5:19 Det er et Skyldoffer; han har paadraget sig Skyld over for HERREN.
 Leviticus 5:20 HERREN talede fremdeles til Moses og sagde:
 Leviticus 5:21 Naar nogen forsynder sig og gør sig skyldig i Svig mod HERREN, idet han frakender sin Næste Retten til noget, der var ham betroet, et Haandpant eller noget, han har røvet, eller han aftvinger sin Næste noget,
@@ -2070,6 +2076,36 @@ Leviticus 5:26 Da skal Præsten skaffe ham Soning for HERRENS Aasyn, saa han fin
 Leviticus 6:1 
 EOF;
 if (!($bfile = preg_replace("/Leviticus 5:19 (.+?)Leviticus 6:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Numbers 30:16 og hvis han vil gøre dem ugyldige, en Tid efter at han fik det at høre, skal han undgælde for hendes Brøde.
+Numbers 30:17 Det er de Anordninger, HERREN gav Moses om Forholdet mellem Mand og Hustru og mellem Fader og Datter, medens hun endnu i sine unge Aar opholder sig i hans Hus. 
+Numbers 31:1 
+EOF;
+if (!($bfile = preg_replace("/Numbers 30:16 (.+?)Numbers 31:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+
+I Samuel 24:22 saa tilsværg mig nu ved HERREN, at du ikke vil udrydde mine Efterkommere efter mig eller udslette mit Navn af mit Fædrenehus!«
+I Samuel 24:23 Det tilsvor David Saul, hvorefter Saul drog hjem, medens David og hans Mænd gik op i Klippeborgen. 
+I Samuel 25:1 
+EOF;
+if (!($bfile = preg_replace("/\nI Samuel 24:22 (.+?)\nI Samuel 25:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Nehemiah 7:67 foruden deres Trælle og Trælkvinder, som udgjorde 7337, hvor til kom 245 Sangere og Sangerinder.
+Nehemiah 7:68 Deres Heste udgjorde 736, deres Muldyr 245,
+Nehemiah 7:69 deres Kameler 435 og deres Æsler 6720. 
+Nehemiah 7:70 En Del af Fædrenehusenes Overhoveder ydede Tilskud til Byggearbejdet. Statholderen gav til Byggesummen 1000 Drakmer Guld, 50 Skaale og 30 Præstekjortler.
+Nehemiah 7:71 Af Fædrenehusenes Overhoveder gav nogle til Byggesummen 20 000 Drakmer Guld og 2200 Miner Sølv.
+Nehemiah 7:72 Og hvad det øvrige Folk gav, løb op til 20 000 Drakmer Guld, 2000 Miner Sølv og 67 Præstekjortler. 
+Nehemiah 7:73 Derpaa bosatte Præsterne, Leviterne og en Del af Folket sig i Jerusalem og dets Omraade, men Sangerne, Dørvogterne og hele det øvrige Israel i deres Byer. Da den syvende Maaned indtraf — Israeliterne boede nu i deres Byer —
+Nehemiah 8:1 
+EOF;
+if (!($bfile = preg_replace("/Nehemiah 7:67 (.+?)Nehemiah 8:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Proverbs 30:32 Har du handlet som Daare i Overmod, tænker du ondt, da Haand for Mund!
+Proverbs 30:33 Thi Tryk paa Mælk giver Ost, Tryk paa Næsen Blod og Tryk paa Vrede Trætte. 
+Proverbs 31:1 
+EOF;
+if (!($bfile = preg_replace("/Proverbs 30:32 (.+?)Proverbs 31:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $blockfix = <<<EOF
 Joel 3:21 HERREN brøler fra Zion, fra Jerusalem løfter han sin Røst; Himmelen og Jorden skælver. Men HERREN er Ly for sit Folk og Værn for Israels Børn.
 Joel 3:22 Og I skal kende, at jeg er HERREN eders Gud, som bor paa Zion, mit hellige Bjerg. Jerusalem skal blive en Helligdom, og fremmede skal ikke mere drage derigennem.
@@ -2111,6 +2147,54 @@ Job 40:28 Det Haab vilde blive til Skamme, alene ved Synet laa du der.
 Job 41:1 
 EOF;
 if (!($bfile = preg_replace("/Job 40:24 (.+?)Job 41:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Ecclesiastes 4:16 der var ikke Tal paa alle de Mennesker, han stod i Spidsen for; men heller ikke over ham glæder de senere Slægter sig; nej, ogsaa det er Tomhed og Jag efter Vind.
+Ecclesiastes 4:17 Va'r din Fod, naar du gaar til Guds Hus! At komme for at høre er bedre, end at Daarer bringer Slagtoffer, thi de har ikke Forstand til andet end at gøre ondt.
+Ecclesiastes 5:1 
+EOF;
+if (!($bfile = preg_replace("/Ecclesiastes 4:16 (.+?)Ecclesiastes 5:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Isaiah 63:19 Vi er som dem, du aldrig har styret, over hvem dit Navn ej er nævnt.
+Isaiah 63:20 Gid du sønderrev Himlen og steg ned, saa Bjergene vakled for dit Aasyn!
+Isaiah 64:1 
+EOF;
+if (!($bfile = preg_replace("/Isaiah 63:19 (.+?)Isaiah 64:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Daniel 6:28 Det er ham, der redder og udfrier, og han gør Tegn og Undere i Himmelen og paa Jorden, han, som reddede Daniel af Løvernes Vold!«
+Daniel 6:29 Og Daniel vedblev at have Lykken med sig under Darius's og Perseren Kyros's Regering. 
+Daniel 7:1 
+EOF;
+if (!($bfile = preg_replace("/Daniel 6:28 (.+?)Daniel 7:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Hosea 12:14 Ved en Profet førte HERREN Israel op fra Ægypten, og det vogtedes ved en Profet.
+Hosea 12:15 Efraim vakte bitter Vrede, han bærer Blodskyld; med Skændsel dænges han til, hans Herre gør Gengæld. 
+Hosea 13:1 
+EOF;
+if (!($bfile = preg_replace("/Hosea 12:14 (.+?)Hosea 13:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Hosea 14:9 Hvad skal Efraim mere med Afguder? Jeg hører ham, ser ned til ham. Jeg er som en grøn Cypres, du faar din Frugt fra mig.
+Hosea 14:10 Hvem er saa viis, at han fatter det, saa klog, at han ved det? Thi rette er HERRENS Veje; retfærdige vandrer paa dem, men Syndere snubler paa dem. 
+Joel 1:1 
+EOF;
+if (!($bfile = preg_replace("/Hosea 14:9 (.+?)Joel 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Jonah 2:10 men jeg vil bringe dig Ofre med Lovsangs Toner og indfri de Løfter, jeg gav. Hos HERREN er Frelse.
+Jonah 2:11 Saa talede HERREN til Fisken, og den spyede Jonas ud paa det tørre Land. 
+Jonah 3:1 
+EOF;
+if (!($bfile = preg_replace("/Jonah 2:10 (.+?)Jonah 3:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Micah 4:13 Op og tærsk, du Zions Datter! Thi jeg giver dig Horn af Jern, jeg giver dig Klove af Kobber. Du skal knuse de mange Folk, lægge Band paa Byttet for HERREN, paa Godset for al Jordens Herre.
+Micah 4:14 Riv nu Saar i din Hud! De har opkastet en Vold imod os; med Stokken slaar de Israels Hersker paa Kinden. 
+Micah 5:1 
+EOF;
+if (!($bfile = preg_replace("/Micah 4:13 (.+?)Micah 5:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Nahum 2:13 Den røved til Ungernes Tarv og myrded til Løvinderne, fyldte sine Hier med Bytte, sit Bo med Rov.
+Nahum 2:14 Se, jeg kommer over dig, lyder det fra Hærskarers HERRE, dit Lejrsted lader jeg gaa op i Røg. Dine Ungløver skal Sværdet fortære; jeg rydder din Røverfærd bort fra Jorden. Dine Sendebuds Røst skal aldrig høres mer. 
+Nahum 3:1 
+EOF;
+if (!($bfile = preg_replace("/Nahum 2:13 (.+?)Nahum 3:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $blockfix = <<<EOF
 II Corinthians 13:12 Hilser hverandre med et helligt Kys!
 II Corinthians 13:13 Alle de hellige hilse eder.
@@ -2543,6 +2627,14 @@ II Corinthians 13:14 The grace of the Lord Jesus Christ, and the love of God, an
 Galatians 1:1 
 EOF;
 if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+
+I Thessalonians 2:19 For what is our hope, or joy, or crown of rejoicing? Are not even you, in the presence of our Lord Jesus Christ at his coming?
+I Thessalonians 2:20 You indeed are our glory and joy.
+I Thessalonians 3:1 
+EOF;
+if (!($bfile = preg_replace("/\nI Thessalonians 2:19 (.+?)\nI Thessalonians 3:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+
 $textfix = <<<EOF
 II Timothy 3:16 All scripture is given by inspiration of God, and is profitable for teaching, for reproof, for correction, for instruction in righteousness,
 II Timothy 3:17 that the man of God may be perfect, thoroughly furnished for every good work.
@@ -3775,6 +3867,48 @@ goto RAWHIDE;
 case "Holy-Bible---English---Syriac-Peshitta-Murdock" :
 if (!($bfile = preg_replace('/[\x{0F}]+/ui'," ",$bfile,-1,$rnum)) || $rnum!=4) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com
 $bfile_saved = $bfile;
+$textfix = <<<EOF
+Matthew 26:29 But I say to you, that I will henceforth not drink of this product of the vine, until the day in which I shall drink it with you new in the kingdom of God.
+Matthew 26:30 And they sang praises, and went forth to the mount of Olives.
+Matthew 26:31 
+EOF;
+if (!($bfile = preg_replace("/Matthew 26:29 (.+?)Matthew 26:31 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Matthew 26:45 Then he came to his disciples, and said to them: Sleep on now, and take rest. Behold, the hour is come: and the Son of man is betrayed into the hands of sinners.
+Matthew 26:46 Arise, let us go. Behold, he that betrayeth me hath come.
+Matthew 26:47 
+EOF;
+if (!($bfile = preg_replace("/Matthew 26:46 (.+?)Matthew 26:47 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Mark 4:9 And he said: Whoever hath ears to hear, let him hear.
+Mark 4:10 And when they were by themselves, those with him, together with the twelve, asked him concerning this similitude.
+Mark 4:11 
+EOF;
+if (!($bfile = preg_replace("/Mark 4:9 (.+?)Mark 4:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Mark 8:18 and ye have eyes, but see not? and have ears, but hear not, nor reflect?
+Mark 8:19 When I broke the five loaves to five thousand, how many baskets full of the fragments took ye up? They say to him: Twelve.
+Mark 8:20 
+EOF;
+if (!($bfile = preg_replace("/Mark 8:18 (.+?)Mark 8:20 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Mark 9:30 And when he departed from there, they passed through Galilee: and he desired that no one might know him.
+Mark 9:31 For he taught his disciples, and said to them: The Son of man is delivered into the hands of men, and they will kill him; and when he is killed, on the third day, he will rise.
+Mark 9:32 
+EOF;
+if (!($bfile = preg_replace("/Mark 9:30 (.+?)Mark 9:32 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Mark 11:18 And the chief priests and the Scribes heard him, and they sought how they might destroy him; for they were afraid of him, because all the people admired his doctrine.
+Mark 11:19 And when it was evening, they went out from the city.
+Mark 11:20 
+EOF;
+if (!($bfile = preg_replace("/Mark 11:18 (.+?)Mark 11:20 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Luke 18:34 But not one of these things, did they understand; but this subject was hidden from them, and they knew not the things told to them.
+Luke 18:35 And as they came near to Jericho, a blind man was sitting by the side of the way, begging.
+Luke 18:36 
+EOF;
+if (!($bfile = preg_replace("/Luke 18:34 (.+?)Luke 18:36 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 Acts 19:40 Because too we are now in danger of being accused as seditious, since we cannot give a reason for the meeting of this day, because we have assembled needlessly, and been tumultuous without a cause.
 Acts 19:41 And having said these things, he dismissed the assembly.
@@ -5963,6 +6097,12 @@ Psalms 5:1
 EOF;
 if (!($bfile = preg_replace("/Psalms 4:9 (.+?)Psalms 5:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
+Psalms 12:6 mais j’ai espéré en votre miséricorde. Mon cœur sera transporté de joie à cause de votre salut.
+Psalms 12:7 Je chanterai le Seigneur qui m’a comblé de biens, et je célébrerai le nom du Seigneur Très-Haut.
+Psalms 13:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 12:6 (.+?)Psalms 13:6 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 Psalms 43:22 Dieu n’en redemandera-t-il pas compte ? Car il connaît les secrets du cœur.
 Psalms 43:23 Car c’est à cause de vous que nous sommes tous les jours livrés à la mort, et qu’on nous regarde comme des brebis de boucherie.
 Psalms 43:24 Levez-vous ; pourquoi dormez-vous, Seigneur ? Levez-vous, et ne nous repoussez pas à jamais.
@@ -5980,6 +6120,24 @@ Psalms 55:14 Car vous avez délivré mon âme de la mort, et mes pieds de la chu
 Psalms 56:1 
 EOF;
 if (!($bfile = preg_replace("/Psalms 55:11 (.+?)Psalms 56:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Ecclesiastes 7:30 J’ai trouvé seulement cela, c’est que Dieu a créé l’homme droit, et qu’il s’est lui-même embarrassé dans des questions sans fin.
+Ecclesiastes 8:1 Qui est comme le sage ? et qui connaît l’explication des choses ? La sagesse de l’homme luit sur son visage, et le Tout-Puissant le lui change a son gré.
+Ecclesiastes 8:2 
+EOF;
+if (!($bfile = preg_replace("/Ecclesiastes 7:30 (.+?)Ecclesiastes 8:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Song of Solomon 4:16 L’EPOUSE. Lève-toi, aquilon, et viens, vent du midi ; souffle dans mon jardin, et qu’il exhale ses parfums. Que mon bien-aimé vienne dans son jardin, et qu’il mange du fruit de ses arbres.
+Song of Solomon 5:1 L’EPOUX. Je suis venu dans mon jardin, ma sœur, mon épouse ; j’ai recueilli ma myrrhe avec mes parfums ; j’ai mangé le rayon avec mon miel ; j’ai bu mon vin avec mon lait. Mangez, mes amis, et buvez, et enivrez-vous, mes bien-aimés.
+Song of Solomon 5:2 
+EOF;
+if (!($bfile = preg_replace("/Song of Solomon 4:16 (.+?)Song of Solomon 5:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Song of Solomon 6:12 Reviens, reviens, ô Sulamite ! reviens, reviens, afin que nous te contemplions. Que verrez-vous dans la Sulamite, sinon les chœurs d’un camp ?
+Song of Solomon 7:1 Que tes pieds sont beaux dans ta chaussure, ô fille du prince ! Les jointures de tes hanches sont comme des colliers travaillés par la main d’un artiste.
+Song of Solomon 7:2 
+EOF;
+if (!($bfile = preg_replace("/Song of Solomon 6:12 (.+?)Song of Solomon 7:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 II Corinthians 13:12 Saluez-vous les uns les autres par un saint baiser.
 II Corinthians 13:13 Tous les saints vous saluent.

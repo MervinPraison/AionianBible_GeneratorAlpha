@@ -1203,6 +1203,7 @@ Holy-Bible---French---Vulgate-Glaire	019	PSA	008	001	9	1	end
 Holy-Bible---French---Vulgate-Glaire	019	PSA	009	001	20	1	end
 Holy-Bible---French---Vulgate-Glaire	019	PSA	011	001	7	1	end
 Holy-Bible---French---Vulgate-Glaire	019	PSA	012	001	8	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	013	002	6	1	end
 Holy-Bible---French---Vulgate-Glaire	019	PSA	018	001	50	1	end
 Holy-Bible---French---Vulgate-Glaire	019	PSA	019	001	14	1	end
 Holy-Bible---French---Vulgate-Glaire	019	PSA	020	001	9	1	end
