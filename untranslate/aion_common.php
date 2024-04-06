@@ -613,7 +613,7 @@ function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $ski
 		'source'	=> $source,
 		'uniusage'	=> $uniusage,
 		'include'	=> '/---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
-		//'include'	=> '/Holy-Bible---.*Murdock.*---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
+		//'include'	=> '/Holy-Bible---.*Icelandic.*---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---Slovene---Slovene-Savli-Bible---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
 		//'include'	=> '/Holy-Bible---([H-Z]{1}).+---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---Kiche---Totonicapan---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	

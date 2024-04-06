@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1557362     
-# File Date: 04/04/2024 00:36:53
+# File Size: 1557221     
+# File Date: 04/05/2024 22:03:46
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -5113,68 +5113,68 @@ Holy-Bible---Hungarian---Magyar-Bible	064	3JO	001	014	Remélem azonban, hogy csa
 Holy-Bible---Hungarian---Magyar-Bible	066	REV	012	018	És odaállt a tenger fövenyére.
 Holy-Bible---Icelandic---Open-Living-Word	019	PSA	002	012	Fallið á kné fyrir syni hans og kyssið fætur hans svo að hann reiðist ekki og tortími ykkur!
 Holy-Bible---Icelandic---Open-Living-Word	019	PSA	003	001	Sálmur eftir Davíð þegar hann flúði frá Absalon, syni sínum.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	004	002	Hlusta nú þegar ég kalla á nýjan leik. Miskunna þú mér. Heyr bæn mína.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	005	002	Heyr þú mína einlægu bæn.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	006	002	Ekki refsa mér í reiði þinni!
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	007	002	að þú frelsir mig frá þeim sem ofsækja mig.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	008	002	Jörðin er full af dýrð þinni og himnarnir endurspegla mikilleik þinn.
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	004	001	Þú, Guð réttlætis míns, þú sem hefur annast mig í öllum mínum erfiðleikum.
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	005	001	Drottinn, hlustaðu á orð mín.
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	006	001	Æ, Drottinn!
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	007	001	Ég treysti þér, Drottinn, Guð minn,
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	008	001	Ó, Drottinn Guð, mikið er nafn þitt!
 Holy-Bible---Icelandic---Open-Living-Word	019	PSA	009	001	Drottinn, ég vil lofa þig af öllu hjarta
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	013	002	Ætlar þú sífellt að horfa í aðra átt þegar ég er í nauðum staddur?
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	013	001	Hversu lengi ætlar þú Drottinn að gleyma mér – að eilífu, eða hvað?
 Holy-Bible---Icelandic---Open-Living-Word	019	PSA	018	001	Þennan sálm orti Davíð eftir að Drottinn hafði frelsað hann undan óvinum hans, þeirra á meðal Sál konungi.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	019	002	Þeir eru þögull vitnisburður um mikilleik verka hans.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	020	002	Guð Jakobs frelsi þig frá allri ógæfu.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	021	002	Hann gleðst stórlega yfir hjálp þinni!
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	022	002	Hví ert þú þögull og hjálpar ekki þegar ég hrópa til þín í neyð minni?
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	030	002	Þú leyfðir þeim ekki að yfirbuga mig.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	031	002	Bjargaðu mér, því að þú ert réttlátur í öllum hlutum.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	034	002	vegsama hann seint og snemma.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	036	002	Enginn guðsótti býr í hjarta hans.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	038	002	þótt þú sért reiður.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	039	002	„Ég ætla ekki að kvarta, né segja neitt ljótt meðan óguðlegir heyra til.“
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	040	002	Hann heyrði kvein mitt og að lokum bjargaði hann mér.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	041	002	Á mæðudeginum bjargar Drottinn honum.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	042	002	þrái ég þig, ó Guð.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	044	002	Þeir hafa sagt:
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	045	002	Tunga mín er penni hraðritarans, hún flytur langa sögu á augabragði:
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	046	002	örugg hjálp í nauðum.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	047	002	Hrópið af fögnuði fyrir Guði!
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	048	002	Hann býr á sínu helga fjalli í Jerúsalem.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	049	003	Allir heimsbúar hlýðið á.
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	019	001	Himnarnir sýna okkur dýrð Guðs.
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	020	001	Drottinn sé með þér og bænheyri þig á degi neyðarinnar!
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	021	001	Drottinn! Yfir valdi þínu og mætti fagnar konungurinn.
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	022	001	Guð minn, Guð minn, hví hefur þú yfirgefið mig?
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	030	001	Ég vil lofa þig Drottinn, því að þú hefur frelsað mig frá óvinum mínum.
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	031	001	Drottinn, þér einum treysti ég. Láttu ekki óvini mína yfirbuga mig.
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	034	001	Ég vil lofa Drottin öllum stundum,
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	036	001	Rödd syndarinnar talar í huga guðleysingjans og hvetur hann til vondra verka.
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	038	001	Drottinn, ekki refsa mér,
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	039	001	Ég hugsaði:
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	040	001	Ég setti alla mína von á Drottin.
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	041	001	Guð blessar þann sem hjálpar bágstöddum.
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	042	001	Eins og hindin þráir vatnslindir,
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	044	001	Guð, við höfum heyrt um máttarverk þín á dögum forfeðra okkar.
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	045	001	Hjarta mitt svellur af fögrum orðum. Ég vil flytja konungi ljóð.
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	046	001	Guð er mér hæli og styrkur,
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	047	001	Komið allar þjóðir! Klappið saman höndum af gleði!
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	048	001	Mikill er Drottinn! Vegsömum hann, já lofum hann!
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	049	001	Hlustið nú
 Holy-Bible---Icelandic---Open-Living-Word	019	PSA	051	001	Þennan sálm orti Davíð
 Holy-Bible---Icelandic---Open-Living-Word	019	PSA	051	002	eftir að Natan spámaður hafði birt honum dóm Guðs vegna hórdóms hans með Batsebu og morðsins á Úría eiginmanni hennar.
 Holy-Bible---Icelandic---Open-Living-Word	019	PSA	052	001	Þennan sálm orti Davíð
 Holy-Bible---Icelandic---Open-Living-Word	019	PSA	052	002	til að andmæla óvini sínum Dóeg sem síðar tók af lífi áttatíu og fimm presta og fjölskyldur þeirra (sjá: 1. Sam. 22.).
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	053	002	Vegna þess að hjörtu þeirra eru spillt og verk þeirra vond.
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	053	001	En sú heimska að segja: „Guð er ekki til.“ Hvers vegna segja menn slíkt?
 Holy-Bible---Icelandic---Open-Living-Word	019	PSA	054	001	Sálmur eftir Davíð,
 Holy-Bible---Icelandic---Open-Living-Word	019	PSA	054	002	ortur þegar menn frá Síf reyndu að svíkja hann í hendur Sál konungs.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	055	002	Snú þér ekki frá þegar ég ákalla þig.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	056	002	því að liðlangan daginn sækja óvinir mínir að.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	057	002	Ó Guð, vertu mér náðugur, því að ég treysti þér. Ég vil leita skjóls undir vængjum þínum uns storminn hefur lægt.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	058	002	Er réttlæti í dómum ykkar og úrskurðum?
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	055	001	Heyr bæn mína, ó Guð!
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	056	001	Drottinn, miskunna þú mér,
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	057	001	Þennan sálm orti Davíð þegar hann flýði inn í hellinn undan Sál. (Sjá 1. Sam. 22:1‑2 og 24:1‑9).
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	058	001	Þið konungar og leiðtogar þjóðanna, talið þið sannleika?
 Holy-Bible---Icelandic---Open-Living-Word	019	PSA	059	001	Þennan sálm orti Davíð þegar Sál konungur sendi menn heim til hans til að handsama hann og drepa (sjá: 1. Sam. 19:11).
 Holy-Bible---Icelandic---Open-Living-Word	019	PSA	060	001	Þennan sálm orti Davíð
 Holy-Bible---Icelandic---Open-Living-Word	019	PSA	060	002	þegar hann átti í ófriði við Sýrlendinga og óvíst var um úrslit. Þetta gerðist á sama tíma og Jóab, hershöfðingi Ísraels, vann sigur á 12.000 Edomítum í Saltdalnum.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	061	002	Hlustaðu á bæn mína.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	062	002	eftir hjálp Drottins.
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	061	001	Ó, Guð, heyrðu hróp mitt!
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	062	001	Ég bíð rólegur og þögull
 Holy-Bible---Icelandic---Open-Living-Word	019	PSA	063	001	Þennan sálm orti Davíð þegar hann leitaði skjóls í Júdeueyðimörkinni.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	065	002	við lofum þig og vegsömum og efnum heit okkar við þig.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	067	002	Leyfðu okkur að sjá þig og kærleika þinn.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	068	002	Þeir sem hata hann flýja sem mest þeir mega.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	069	002	því að vatnið hækkar sífellt
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	070	002	Flýttu þér Drottinn, að hjálpa mér!
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	075	002	Máttarverk þín staðfesta umhyggju þína.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	076	002	í Júda og Ísrael.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	080	002	Þú Guð sem situr á hásæti uppi yfir verndarenglunum, beygðu þig niður og hlustaðu á bæn mína. Láttu veldi þitt birtast í geisladýrð!
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	081	002	Syngið lofsöng og fagnið fyrir Guði Ísraels!
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	083	002	Svaraðu okkur! Já, bjargaðu okkur!
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	084	002	þú Drottinn hersveitanna.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	085	002	Þú hefur snúið hlutunum Ísrael í hag
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	088	002	ég ákalla þig um daga og nætur.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	089	002	Ungir sem gamlir skulu fá að heyra um trúfesti þína.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	092	002	og lofsyngja Guði hinum hæsta.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	102	002	Hlustaðu á ákall mitt!
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	108	002	Ég vil syngja og fagna frammi fyrir þér.
-Holy-Bible---Icelandic---Open-Living-Word	019	PSA	140	002	Verndaðu mig gegn ofbeldismönnunum
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	065	001	Ó, þú Guð á Síon,
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	067	001	Ó, veittu okkur miskunn þína og náð!
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	068	001	Þegar Guð rís á fætur þá tvístrast óvinir hans!
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	069	001	Frelsaðu mig, ó Guð,
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	070	001	Bjargaðu mér, ó Guð!
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	075	001	Þökk sé þér Drottinn!
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	076	001	Orðstír Drottins er mikill
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	080	001	Þú hirðir Ísraels sem leiðir þjóð þína eins og hjörð.
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	081	001	Guð er okkar styrkur!
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	083	001	Guð, vertu ekki þögull og afskiptalaus þegar við biðjum til þín.
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	084	001	Ó, hve musteri þitt er yndislegt,
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	085	001	Drottinn, þú hefur baðað land þetta blessun!
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	088	001	Drottinn, þú Guð minn og hjálpari minn,
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	089	001	Ég vil syngja um miskunn Drottins að eilífu!
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	092	001	Gott er að þakka Drottni
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	102	001	Drottinn, heyrðu bæn mína!
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	108	001	Ó, Guð, nú vil ég lofa þig!
+Holy-Bible---Icelandic---Open-Living-Word	019	PSA	140	001	Ó, Drottinn, frelsaðu mig frá vondum mönnum.
 Holy-Bible---Icelandic---Open-Living-Word	064	3JO	001	014	því að ég vona að ég muni sjá þig fljótlega og þá getum við rætt saman.
 Holy-Bible---Icelandic---Open-Living-Word	066	REV	012	018	Og drekinn nam staðar á ströndinni.
 Holy-Bible---Igbo---Igbo-Bible	064	3JO	001	014	Ọ bụ olileanya m ịbịa ịhụ gị nʼoge na-adịghị anya. Mgbe ahụ anyị ga-anọdụ ala kwuo ihe niile nʼihu nʼihu.

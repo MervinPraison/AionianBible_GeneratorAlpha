@@ -5422,7 +5422,7 @@ ACT 14:18 Malgré ces paroles, ils ne parvinrent qu’avec peine à empêcher le
 ACT 14:19 Alors survinrent d’Antioche et d’Iconium des Juifs qui, ayant gagné le peuple, lapidèrent Paul et le traînèrent hors de la ville, le croyant mort.
 ACT 14:20 Mais les disciples l’ayant entouré, il se releva et rentra dans la ville. Le lendemain, il partit pour Derbé avec Barnabé.
 ACT 14:21 Quand ils eurent évangélisé cette ville et fait un assez grand nombre de disciples, ils retournèrent à Lystres, à Iconium et à Antioche,
-ACT 14:22 fortifiant l'esprit des disciples, les exhortant à persévérer dans la foi, et disant que c’est par beaucoup de tribulations qu’il nous faut entrer dans le royaume de Dieu.
+ACT 14:22 fortifiant l’esprit des disciples, les exhortant à persévérer dans la foi, et disant que c’est par beaucoup de tribulations qu’il nous faut entrer dans le royaume de Dieu.
 ACT 14:23 Ils instituèrent des Anciens dans chaque Eglise, après avoir prié et jeûné, et les recommandèrent au Seigneur, en qui ils avaient cru.
 ACT 14:24 Traversant ensuite la Pisidie, ils vinrent en Pamphylie,
 ACT 14:25 et après avoir annoncé la parole de Dieu à Perge, ils descendirent à Attalie.
@@ -16989,6 +16989,12 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Spanish---Biblia-Platense-Straubinger" :
 $textfix = <<<EOF
+Job 42:16 Job vivió después de esto ciento cuarenta años; y vio a sus hijos y a los hijos de sus hijos hasta la cuarta generación.
+Job 42:17 Y murió Job anciano y colmado de días.
+Psalms 1:1 
+EOF;
+if (!($bfile = preg_replace("/Job 42:16 (.+?)Psalms 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 Psalms 43:26 Agobiada hasta el polvo está nuestra alma, y nuestro cuerpo pegado a la tierra.
 Psalms 43:27 ¡Levántate en nuestro auxilio, líbranos por tu piedad!
 Psalms 44:1 
@@ -17006,6 +17012,18 @@ Psalms 66:8 ¡Que Dios nos bendiga y que le reverencien hasta los últimos confi
 Psalms 67:1 
 EOF;
 if (!($bfile = preg_replace("/Psalms 66:7 (.+?)Psalms 67:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Ecclesiastes 7:30 Pero esto hallé; nótalo bien: Dios creó al hombre recto; mas ellos se entregaron a muchos vanos pensamientos.
+Ecclesiastes 8:1 ¿Quién como el sabio? ¿Quién sabe explicar las cosas? La sabiduría da brillo al rostro del hombre, y se muda la aspereza de su semblante.
+Ecclesiastes 8:2 
+EOF;
+if (!($bfile = preg_replace("/Ecclesiastes 7:30 (.+?)Ecclesiastes 8:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Song of Solomon 6:12 ¡Vuelve, vuelve, Sulamita! ¡Vuelve, vuelve, para que te miremos! ¿Por qué miráis a la Sulamita como las danzas de Mahanaim?
+Song of Solomon 7:1 ¡Qué hermosos son tus pies en las sandalias, hija de príncipe! Los contornos de tus caderas son como joyas, obra de manos de artista.  
+Song of Solomon 7:2 
+EOF;
+if (!($bfile = preg_replace("/Song of Solomon 6:12 (.+?)Song of Solomon 7:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/Song of Solomon 8:6\s+\}/us","Song of Solomon 8:6 ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 Jeremiah 37:20 Óyeme ahora, oh rey, señor mío; y acoge propicio mi súplica. No me vuelvas a la casa de Jonatán, secretario; sería mi muerte.”
@@ -17834,13 +17852,15 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Swedish---Swedish-Bible-1917" :
 $textfix = <<<EOF
-Job 39:30 Eller är det på ditt bud som örnen stiger så högt och bygger sitt näste i höjden? På klippan bor han, där har han sitt tillhåll, på klippans spets och på branta berget.
-Job 39:31 Därifrån spanar han efter sitt byte, långt bort i fjärran skådar hans ögon.
-Job 39:32 Hans ungar frossa på blod, och där slagna ligga, där finner man honom.
-Job 39:33 Så svarade nu HERREN Job och sade:
-Job 39:34 Vill du tvista med den Allsmäktige, du mästare? Svara då, du som så klagar på Gud!
-Job 39:35 Job svarade HERREN och sade:
-Job 39:36 Nej, därtill är jag för ringa; vad skulle jag svara dig? Jag måste lägga handen på munnen. En gång har jag talat, och nu säger jag intet mer; ja, två gånger, men jag gör det icke åter.    
+Job 39:30 Eller är det på ditt bud som örnen stiger så högt och bygger sitt näste i höjden?
+Job 39:31 På klippan bor han, där har han sitt tillhåll, på klippans spets och på branta berget.
+Job 39:32 Därifrån spanar han efter sitt byte, långt bort i fjärran skådar hans ögon.
+Job 39:33 Hans ungar frossa på blod, och där slagna ligga, där finner man honom.
+Job 39:34 Så svarade nu HERREN Job och sade:
+Job 39:35 Vill du tvista med den Allsmäktige, du mästare? Svara då, du som så klagar på Gud!
+Job 39:36 Job svarade HERREN och sade:
+Job 39:37 Nej, därtill är jag för ringa; vad skulle jag svara dig? Jag måste lägga handen på munnen.
+Job 39:38 En gång har jag talat, och nu säger jag intet mer; ja, två gånger, men jag gör det icke åter.    
 Job 40:1 Och HERREN talade till Job ur stormvinden och sade:
 Job 40:2 Omgjorda såsom en man dina länder; jag vill fråga dig, och du må giva mig besked.
 Job 40:3 
@@ -19068,6 +19088,22 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Ukrainian---New-Translation" :
+$bigfix = <<<EOF
+PSA 12:6 Я ж бо на милість Твою покладаю надію, радітиме серце моє через порятунок, [посланий] Тобою,
+PSA 12:7 співатиму я Господеві, бо Він виявив до мене прихильність.
+PSA 13:1 
+EOF;
+if (!($bfile = preg_replace("/PSA 12:6 (.+?)PSA 13:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bigfix = <<<EOF
+PSA 89:1 Молитва Мойсея, чоловіка Божого. Владико, Ти був пристановищем нашим з роду в рід.
+PSA 89:2 Перш ніж народилися гори й Ти утворив землю і всесвіт, від віку й до віку Ти – Бог.
+PSA 89:3 Ти повертаєш людину назад у порох і кажеш: «Поверніться назад, сини людські!»
+PSA 89:4 Адже тисяча років в очах Твоїх, немов день вчорашній, що минає, як сторожа вночі.
+PSA 89:5 Потоком Ти несеш людей, немов сон минули вони; як трава, що вранці сходить,
+PSA 89:6 вранці цвіте й рясніє, а ввечері в’яне й засихає.
+PSA 89:7 
+EOF;
+if (!($bfile = preg_replace("/PSA 89:1 (.+?)PSA 89:7 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bigfix = <<<EOF
 ACT 19:40 Бо є небезпека, що нас можуть за сьогоднішнє обвинуватити в заколоті, адже не маємо жодного виправдання цьому збіговиську».
 ACT 19:41 Сказавши це, він розпустив зібрання.
