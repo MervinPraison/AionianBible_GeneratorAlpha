@@ -1948,6 +1948,54 @@ I Samuel 25:1
 EOF;
 if (!($bfile = preg_replace("/\nI Samuel 24:22 (.+?)\nI Samuel 25:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $blockfix = <<<EOF
+Psalms 6:10 Herren har hørt min ydmyge Begæring, Herren vil antage min Bøn.
+Psalms 6:11 Alle mine Fjender skulle blive til Skamme og skælve saare; de skulle vige tilbage, de skulle blive til Skamme i et Øjeblik.
+Psalms 7:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 6:10 (.+?)Psalms 7:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 9:20 Herre! staa op, lad ikke et Menneske blive mægtigt; lad Hedningerne dømmes for dit Ansigt!
+Psalms 9:21 Lad Frygt, o Herre! komme paa dem; lad Hedningerne kende, at de ere Mennesker. Sela.
+Psalms 10:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 9:20 (.+?)Psalms 10:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 30:12 Du har omskiftet min Sorg til Dans for mig; du har løst min Sæk og bundet op om mig med Glæde,
+Psalms 30:13 at min Ære maa lovsynge dig og ikke tie; Herre, min Gud! evindelig vil jeg takke dig.
+Psalms 31:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 30:12 (.+?)Psalms 31:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 31:24 Elsker Herren, alle hans hellige! Herren bevarer de trofaste og betaler i Overmaal ham, som øver Hovmod.
+Psalms 31:25 Værer frimodige, og han skal styrke eders Hjerte, alle I, som haabe paa Herren!
+Psalms 32:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 31:24 (.+?)Psalms 32:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 49:20 Saa skal han dog komme til sine Fædres Slægt; i Evighed se de ikke Lyset.
+Psalms 49:21 Et Menneske, som er i Værdighed og ikke har Forstand, han bliver lig Dyrene, som udryddes.
+Psalms 50:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 49:20 (.+?)Psalms 50:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 55:23 Kast din Sag paa Herren, og han skal forsørge dig; han skal ikke evindelig tilstede, at den retfærdige rokkes.
+Psalms 55:24 Men du, Gud! du skal støde dem ned i Gravens Dyb; blodgerrige og falske Mænd skulle ikke naa deres Dages halve Tal; men jeg vil forlade mig paa dig.
+Psalms 56:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 55:23 (.+?)Psalms 56:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 88:18 De have omringet mig som Vande den ganske Dag, de have omspændt mig tilsammen.
+Psalms 88:19 Du har fjernet min Ven og Stalbroder langt fra mig; mine Kyndinger ere Mørkets Sted.
+Psalms 89:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 88:18 (.+?)Psalms 89:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 89:52 med hvilken dine Fjender have bespottet, Herre! med hvilken de have bespottet din Salvedes Fodspor.
+Psalms 89:53 Lovet være Herren evindelig! Amen, ja, amen.
+Psalms 90:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 89:52 (.+?)Psalms 90:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
 Joel 3:21 Og Herren skal brøle fra Zion og lade sin Røst lyde fra Jerusalem, og Himmel og Jord skulle ryste; men Herren skal være en Tilflugt for sit Folk og et Værn for Israels Børn.
 Joel 3:22 Og I skulle fornemme, at jeg er Herren eders Gud, som bor paa Zion, mit hellige Bjerg; og Jerusalem skal vorde en Helligdom, og fremmede skulle ikke ydermere drage over den.
 Joel 3:23 Og det skal ske paa denne Dag, at Bjergene skulle dryppe med Most, og Højene skulle flyde med Mælk, og alle Strømme i Juda skulle rinde med Vand, og der skal udgaa en Kilde fra Herrens Hus, og den skal vande Sittims Dal.
@@ -2100,6 +2148,54 @@ Nehemiah 7:73 Derpaa bosatte Præsterne, Leviterne og en Del af Folket sig i Jer
 Nehemiah 8:1 
 EOF;
 if (!($bfile = preg_replace("/Nehemiah 7:67 (.+?)Nehemiah 8:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 6:10 HERREN har hørt min Tryglen, min Bøn tager HERREN imod.
+Psalms 6:11 Beskæmmes skal alle mine Fjender og saare forfærdes, brat skal de vige med Skam.
+Psalms 7:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 6:10 (.+?)Psalms 7:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 9:20  Rejs dig, HERRE, lad ikke Mennesker faa Magten, lad Folkene dømmes for dit Aasyn;
+Psalms 9:21  HERRE, slaa dem med Rædsel, lad Folkene kende, at de er Mennesker! — Sela.
+Psalms 10:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 9:20 (.+?)Psalms 10:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 30:12 Du vendte min Sorg til Dans, løste min Sørgedragt, hylled mig i Glæde,
+Psalms 30:13 at min Ære skal prise dig uden Ophør. HERRE min Gud, jeg vil takke dig evigt!
+Psalms 31:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 30:12 (.+?)Psalms 31:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 31:24 Elsk HERREN, alle hans fromme; de trofaste skærmer HERREN; men den, der handler i Hovmod, gengælder han mangefold.
+Psalms 31:25 Fat Mod, eders Hjerte være stærkt, alle I, som bier paa HERREN!
+Psalms 32:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 31:24 (.+?)Psalms 32:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 49:20 han vandrer til sine Fædres Slægt, der aldrig faar Lyset at skue.
+Psalms 49:21 Den, som lever i Herlighed, men uden Forstand, han er som Dyrene, der forgaar.
+Psalms 50:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 49:20 (.+?)Psalms 50:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 55:23 Kast din Byrde paa HERREN, saa sørger han for dig, den retfærdige lader han ikke i Evighed rokkes.
+Psalms 55:24 Og du, o Gud, nedstyrt dem i Gravens Dyb! Ej skal blodstænkte, svigefulde Mænd naa Hælvten af deres Dage. Men jeg, jeg stoler paa dig!
+Psalms 56:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 55:23 (.+?)Psalms 56:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 88:18 som Vand er de om mig Dagen lang, til Hobe slutter de Kreds om mig;
+Psalms 88:19 Ven og Frænde fjerned du fra mig, holdt mine Kendinge borte.
+Psalms 89:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 88:18 (.+?)Psalms 89:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 89:52 hvorledes dine Fjender haaner, HERRE, hvorledes de haaner din Salvedes Fodspor.
+Psalms 89:53 Lovet være HERREN i Evighed, Amen, Amen!
+Psalms 90:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 89:52 (.+?)Psalms 90:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $blockfix = <<<EOF
 Proverbs 30:32 Har du handlet som Daare i Overmod, tænker du ondt, da Haand for Mund!
 Proverbs 30:33 Thi Tryk paa Mælk giver Ost, Tryk paa Næsen Blod og Tryk paa Vrede Trætte. 
@@ -6221,6 +6317,54 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---German---German-Albrecht" :
+$blockfix = <<<EOF
+Psalms 6:10 Hören wird Jahwe auf mein Flehn, / Jahwe wird mein Gebet annehmen.
+Psalms 6:11 Zuschanden werden und gar sehr erschrecken müssen alle meine Feinde, / Sie weichen vor Scham gar plötzlich.
+Psalms 7:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 6:10 (.+?)Psalms 7:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 9:20 Komm, Jahwe, daß der Mensch nicht trotze, / Laß die Heiden vor dir gerichtet werden!
+Psalms 9:21 Schick ihnen, Jahwe, Schreckenswarnung! / Dann erkennen die Heiden, daß sie nur sterbliche Menschen sind. Sela.
+Psalms 10:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 9:20 (.+?)Psalms 10:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 30:12 Du hast mir ja stets schon mein Klagen in Reigen verwandelt, / Meinen Sack gelöst, mich mit Freude gegürtet,
+Psalms 30:13 Damit ich dir singe und nimmer verstumme. / Jahwe, mein Gott, immerdar will ich dich preisen!
+Psalms 31:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 30:12 (.+?)Psalms 31:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 31:24 Liebt Jahwe, all seine Frommen! / Die Treuen behütet Jahwe, / Aber die Stolzen straft er streng.
+Psalms 31:25 Seid stark und mutigen Herzens / Alle, die ihr auf Jahwe harrt!
+Psalms 32:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 31:24 (.+?)Psalms 32:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 49:20 Du gehest doch ein in der Väter Haus, / Die nimmer das Licht erblicken.
+Psalms 49:21 Wer in Reichtum prangt und ist ohne Verstand, / Der gleicht den Tieren, die man vertilgt.
+Psalms 50:1  
+EOF;
+if (!($bfile = preg_replace("/Psalms 49:20 (.+?)Psalms 50:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 55:23 Wirf deine Bürde auf Jahwe! / Er wird dich versorgen; / Nimmer läßt er den Gerechten wanken.
+Psalms 55:24 Doch du, Elohim, wirst sie in die unterste Grube stürzen. / Die da mit Mord und Trug umgehn, / Sollen nicht ihres Lebens Hälfte erreichen. / Ich aber traue auf dich!
+Psalms 56:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 55:23 (.+?)Psalms 56:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 88:18 Wie Wasser umgeben sie mich allezeit, / Umringen mich allzumal.
+Psalms 88:18 Du hast alle Lieben von mir entfernt, / Mir bleibt als Freund nur — die Finsternis!
+Psalms 89:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 88:18 (.+?)Psalms 89:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 89:52 Gedenke, Jahwe, wie deine Feinde gelästert haben, / Wie sie gelästert / Deines Gesalbten Fersen!
+Psalms 89:53 Gepriesen sei Jahwe in Ewigkeit! / Amen. Amen.
+Psalms 90:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 89:52 (.+?)Psalms 90:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 Mark 16:20 Sie zogen aus und predigten überall. Dabei stand ihnen der Herr zur Seite und bestätigte ihr Wort durch die begleitenden Wunderzeichen.
 Luke 1:1 
@@ -17875,6 +18019,55 @@ Job 40:28 Nej, den sådant vågar, hans hopp bliver sviket, han fälles till mar
 Job 41:1 
 EOF;
 if (!($bfile = preg_replace("/Job 40:24 (.+?)Job 41:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Psalms 6:10 HERREN har hört min åkallan, min bön upptager HERREN.
+Psalms 6:11 Alla mina fiender skola komma på skam och storligen förskräckas; de skola vika tillbaka och komma på skam med hast.
+Psalms 7:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 6:10 (.+?)Psalms 7:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 9:20 Stå upp, HERRE; låt icke människor få överhanden, låt hedningarna bliva dömda inför ditt ansikte. 
+Psalms 9:21 Låt, o HERRE, förskräckelse komma över dem; må hedningarna förnimma att de äro människor. Sela. 
+Psalms 10:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 9:20 (.+?)Psalms 10:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 30:12 Då förvandlade du min klagan i fröjdesprång; du klädde av mig sorgens dräkt och omgjordade mig med glädje.
+Psalms 30:13 Därför skall min ära lovsjunga dig, utan att tystna; HERRE, min Gud, jag vill tacka dig evinnerligen. 
+Psalms 31:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 30:12 (.+?)Psalms 31:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 31:24 Älsken HERREN, alla I hans fromme. HERREN bevarar de trogna, men han vedergäller i fullt mått den som över högmod.
+Psalms 31:25 Varen frimodiga och oförfärade i edra hjärtan, alla I som sätten edert hopp till HERREN.
+Psalms 32:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 31:24 (.+?)Psalms 32:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 49:19 Om han ock prisar sig välsignad under sitt liv, ja, om man än berömmer dig, när du gör goda dagar,
+Psalms 49:20 så skall dock vars och ens själ gå till hans fäders släkte, till dem som aldrig mer se ljuset.
+Psalms 49:21 En människa som, mitt i sin härlighet, är utan förstånd, hon är lik fänaden, som förgöres.
+Psalms 50:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 49:19 (.+?)Psalms 50:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 55:23 Kasta din börda på HERREN, han skall uppehålla dig; han skall i evighet icke tillstädja att den rättfärdige vacklar.
+Psalms 55:24 Gud, du skall störta dem ned i gravens djup; de blodgiriga och falska skola ej nå sin halva ålder. Men jag förtröstar på dig.
+Psalms 56:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 55:23 (.+?)Psalms 56:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 88:18 De omgiva mig beständigt såsom vatten, de kringränna mig allasammans.
+Psalms 88:19 Du har drivit vän och frände långt bort ifrån mig; i mina förtrognas ställe har jag nu mörkret.
+Psalms 89:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 88:18 (.+?)Psalms 89:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 89:52 tänk på huru dina fiender smäda, o HERRE, huru de smäda din smordes fotspår.
+Psalms 89:53 Lovad vare HERREN evinnerligen! Amen, Amen.
+Psalms 90:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 89:52 (.+?)Psalms 90:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 Acts 19:40 På grund av det som i dag har skett löpa vi ju till och med fara att bliva anklagade för upplopp, fastän vi icke hava gjort något ont; och någon giltig anledning till denna folkskockning kunna vi icke heller uppgiva.»
 Acts 19:41 Med dessa ord fick han menigheten att skiljas åt.

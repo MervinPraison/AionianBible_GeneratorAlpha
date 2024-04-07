@@ -273,9 +273,25 @@ Holy-Bible---Czech---Kralicka	066	REV	012	018	1	-1	end
 Holy-Bible---Czech---Kralicka							end
 Holy-Bible---Czech---Living-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Czech---Living-Bible							end
+Holy-Bible---Danish---Danish-1871-1907	019	PSA	006	001	10	1	end
+Holy-Bible---Danish---Danish-1871-1907	019	PSA	009	001	20	1	end
+Holy-Bible---Danish---Danish-1871-1907	019	PSA	030	001	12	1	end
+Holy-Bible---Danish---Danish-1871-1907	019	PSA	031	001	24	1	end
+Holy-Bible---Danish---Danish-1871-1907	019	PSA	049	001	20	1	end
+Holy-Bible---Danish---Danish-1871-1907	019	PSA	055	001	23	1	end
+Holy-Bible---Danish---Danish-1871-1907	019	PSA	088	001	18	1	end
+Holy-Bible---Danish---Danish-1871-1907	019	PSA	089	001	52	1	end
 Holy-Bible---Danish---Danish-1871-1907	064	3JO	001	014	14	1	end
 Holy-Bible---Danish---Danish-1871-1907	066	REV	012	018	1	-1	end
 Holy-Bible---Danish---Danish-1871-1907							end
+Holy-Bible---Danish---Danish-1931-1907	019	PSA	006	001	10	1	end
+Holy-Bible---Danish---Danish-1931-1907	019	PSA	009	001	20	1	end
+Holy-Bible---Danish---Danish-1931-1907	019	PSA	030	001	12	1	end
+Holy-Bible---Danish---Danish-1931-1907	019	PSA	031	001	24	1	end
+Holy-Bible---Danish---Danish-1931-1907	019	PSA	049	001	20	1	end
+Holy-Bible---Danish---Danish-1931-1907	019	PSA	055	001	23	1	end
+Holy-Bible---Danish---Danish-1931-1907	019	PSA	088	001	18	1	end
+Holy-Bible---Danish---Danish-1931-1907	019	PSA	089	001	52	1	end
 Holy-Bible---Danish---Danish-1931-1907	064	3JO	001	014	14	1	end
 Holy-Bible---Danish---Danish-1931-1907	066	REV	012	018	1	-1	end
 Holy-Bible---Danish---Danish-1931-1907							end
@@ -1267,6 +1283,14 @@ Holy-Bible---French---Vulgate-Glaire							end
 Holy-Bible---Gamotso---Gamo	064	3JO	001	014	14	1	end
 Holy-Bible---Gamotso---Gamo	066	REV	012	018	1	-1	end
 Holy-Bible---Gamotso---Gamo							end
+Holy-Bible---German---German-Albrecht	019	PSA	006	001	10	1	end
+Holy-Bible---German---German-Albrecht	019	PSA	009	001	20	1	end
+Holy-Bible---German---German-Albrecht	019	PSA	030	001	12	1	end
+Holy-Bible---German---German-Albrecht	019	PSA	031	001	24	1	end
+Holy-Bible---German---German-Albrecht	019	PSA	049	001	20	1	end
+Holy-Bible---German---German-Albrecht	019	PSA	055	001	23	1	end
+Holy-Bible---German---German-Albrecht	019	PSA	088	001	18	1	end
+Holy-Bible---German---German-Albrecht	019	PSA	089	001	52	1	end
 Holy-Bible---German---German-Albrecht							end
 Holy-Bible---German---German-Elberfelder-1871							end
 Holy-Bible---German---German-Elberfelder-1905							end
@@ -3745,6 +3769,14 @@ Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	108	001	13	1	end
 Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	140	001	13	1	end
 Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	142	001	7	1	end
 Holy-Bible---Swedish---Swedish-Bible-1873							end
+Holy-Bible---Swedish---Swedish-Bible-1917	019	PSA	006	001	10	1	end
+Holy-Bible---Swedish---Swedish-Bible-1917	019	PSA	009	001	20	1	end
+Holy-Bible---Swedish---Swedish-Bible-1917	019	PSA	030	001	12	1	end
+Holy-Bible---Swedish---Swedish-Bible-1917	019	PSA	031	001	24	1	end
+Holy-Bible---Swedish---Swedish-Bible-1917	019	PSA	049	001	20	1	end
+Holy-Bible---Swedish---Swedish-Bible-1917	019	PSA	055	001	23	1	end
+Holy-Bible---Swedish---Swedish-Bible-1917	019	PSA	088	001	18	1	end
+Holy-Bible---Swedish---Swedish-Bible-1917	019	PSA	089	001	52	1	end
 Holy-Bible---Swedish---Swedish-Bible-1917	064	3JO	001	014	14	1	end
 Holy-Bible---Swedish---Swedish-Bible-1917	066	REV	012	018	1	-1	end
 Holy-Bible---Swedish---Swedish-Bible-1917							end
