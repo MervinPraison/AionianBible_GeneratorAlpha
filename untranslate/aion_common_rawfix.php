@@ -6355,7 +6355,7 @@ EOF;
 if (!($bfile = preg_replace("/Psalms 55:23 (.+?)Psalms 56:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $blockfix = <<<EOF
 Psalms 88:18 Wie Wasser umgeben sie mich allezeit, / Umringen mich allzumal.
-Psalms 88:18 Du hast alle Lieben von mir entfernt, / Mir bleibt als Freund nur — die Finsternis!
+Psalms 88:19 Du hast alle Lieben von mir entfernt, / Mir bleibt als Freund nur — die Finsternis!
 Psalms 89:1 
 EOF;
 if (!($bfile = preg_replace("/Psalms 88:18 (.+?)Psalms 89:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }

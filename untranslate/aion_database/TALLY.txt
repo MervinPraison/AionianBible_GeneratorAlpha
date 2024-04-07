@@ -1,6 +1,6 @@
 # File Name: TALLY.txt
 # File Size: 21069       
-# File Date: 04/05/2024 22:03:46
+# File Date: 04/06/2024 22:04:35
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -57,8 +57,8 @@ Holy-Bible---Croatian---Croatian-Bible	31086	31086	31342
 Holy-Bible---Czech---Czech-Bible-Kralicka	31102	31102	31103
 Holy-Bible---Czech---Kralicka	31102	31102	31175
 Holy-Bible---Czech---Living-Bible	7409	7409	7410
-Holy-Bible---Danish---Danish-1871-1907	31102	31102	31104
-Holy-Bible---Danish---Danish-1931-1907	31102	31102	31104
+Holy-Bible---Danish---Danish-1871-1907	31102	31102	31112
+Holy-Bible---Danish---Danish-1931-1907	31102	31102	31112
 Holy-Bible---Danish---Danish-Bible	31102	31102	31102
 Holy-Bible---Desiya---Desiya-Bible	7957	7957	7959
 Holy-Bible---Dholuo---Dholuo-Bible	31102	31102	31103
@@ -148,7 +148,7 @@ Holy-Bible---French---French-Stapfer-Bible	7957	7957	7957
 Holy-Bible---French---French-Synodale-Bible	10418	10418	10418
 Holy-Bible---French---Vulgate-Glaire	31060	31060	31428
 Holy-Bible---Gamotso---Gamo	7832	7832	7834
-Holy-Bible---German---German-Albrecht	10388	10388	10388
+Holy-Bible---German---German-Albrecht	10388	10388	10396
 Holy-Bible---German---German-Elberfelder-1871	31101	31101	31101
 Holy-Bible---German---German-Elberfelder-1905	31101	31101	31102
 Holy-Bible---German---German-Katholiche-Riessler	31096	31096	31164
@@ -324,7 +324,7 @@ Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	31065	31065	31319
 Holy-Bible---Slovene---Slovene-Savli-Bible	31102	31102	31102
 Holy-Bible---Slovene---Slovene-Stritarja-NT	10413	10413	10481
 Holy-Bible---Somali---Somali-Bible	31102	31102	31103
-Holy-Bible---Spanish---Biblia-Platense-Straubinger	31069	31069	31425
+Holy-Bible---Spanish---Biblia-Platense-Straubinger	31070	31070	31426
 Holy-Bible---Spanish---Free-Bible	31086	31086	31102
 Holy-Bible---Spanish---Free-for-the-World	31098	31098	31102
 Holy-Bible---Spanish---Gods-Word-for-You	31057	31057	31082
@@ -338,7 +338,7 @@ Holy-Bible---Swahili---New-Swahili-Bible	31101	31101	31103
 Holy-Bible---Swahili---Swahili-Bible	7853	7853	7853
 Holy-Bible---Swedish---Swedish-Bible	31082	31082	31153
 Holy-Bible---Swedish---Swedish-Bible-1873	31102	31102	31170
-Holy-Bible---Swedish---Swedish-Bible-1917	31063	31063	31082
+Holy-Bible---Swedish---Swedish-Bible-1917	31065	31065	31092
 Holy-Bible---Tagalog---Tagalog-Bible	31102	31102	31102
 Holy-Bible---Tagalog---Tagalog-Bible-1905	31102	31102	31102
 Holy-Bible---Tagalog---Tagalog-Bible-Unlocked	31101	31101	31103
@@ -351,7 +351,7 @@ Holy-Bible---Twi---Akuapem-Twi-Bible	31098	31098	31100
 Holy-Bible---Twi---Asante-Twi-WAKNA	31098	31098	31100
 Holy-Bible---Twi---Asante-Twi-WASNA	31098	31098	31100
 Holy-Bible---Ukrainian---Kulish	7956	7956	7957
-Holy-Bible---Ukrainian---New-Translation	10418	10418	10485
+Holy-Bible---Ukrainian---New-Translation	10418	10418	10486
 Holy-Bible---Ukrainian---Ukrainian-NT	7957	7957	7957
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	31094	31094	31164
 Holy-Bible---Urdu---Urdu-Bible	31102	31102	31104

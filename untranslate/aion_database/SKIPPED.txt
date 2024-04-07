@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1557221     
-# File Date: 04/05/2024 22:03:46
+# File Size: 1561070     
+# File Date: 04/06/2024 22:04:35
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -761,8 +761,24 @@ Holy-Bible---Czech---Kralicka	043	JOH	001	038	I obrátiv se Ježíš, a uzřev j
 Holy-Bible---Czech---Kralicka	064	3JO	001	014	Nebo mám naději, že tě tudíž uzřím, a ústy k ústům mluviti budeme.
 Holy-Bible---Czech---Kralicka	066	REV	012	018	I stál jsem na písku mořském.
 Holy-Bible---Czech---Living-Bible	064	3JO	001	014	protože doufám, že se brzo uvidíme a důkladně si o všem pohovoříme.
+Holy-Bible---Danish---Danish-1871-1907	019	PSA	006	001	Til Sangmesteren; med Strengeleg; til Skeminith; en Psalme af David.
+Holy-Bible---Danish---Danish-1871-1907	019	PSA	009	001	Til Sangmesteren; til Muth-Labben; en Psalme af David.
+Holy-Bible---Danish---Danish-1871-1907	019	PSA	030	001	En Psalme, en Sang ved Husets Indvielse; af David.
+Holy-Bible---Danish---Danish-1871-1907	019	PSA	031	001	Til Sangmesteren; en Psalme af David.
+Holy-Bible---Danish---Danish-1871-1907	019	PSA	049	001	Til Sangmesteren; af Koras Børn; en Psalme.
+Holy-Bible---Danish---Danish-1871-1907	019	PSA	055	001	Til Sangmesteren; med Strengeleg; en Undervisning af David.
+Holy-Bible---Danish---Danish-1871-1907	019	PSA	088	001	En Sang, en Psalme; af Koras Børn; til Sangmesteren; til Makalath-Leanoth; en Undervisning af Heman, Esrahiteren.
+Holy-Bible---Danish---Danish-1871-1907	019	PSA	089	001	En Undervisning; af Ethan, Esrahiteren.
 Holy-Bible---Danish---Danish-1871-1907	064	3JO	001	014	Men jeg haaber snart at se dig, og da skulle vi mundtligt tale sammen.
 Holy-Bible---Danish---Danish-1871-1907	066	REV	012	018	Og jeg stod paa Sandet ved Havet.
+Holy-Bible---Danish---Danish-1931-1907	019	PSA	006	001	Til Sangmesteren. Med Strengespil. Efter den ottende. En Salme af David.
+Holy-Bible---Danish---Danish-1931-1907	019	PSA	009	001	Til Sangmesteren. Al-mut-labben. En Salme af David.
+Holy-Bible---Danish---Danish-1931-1907	019	PSA	030	001	En Salme. En Sang ved Husets Indvielse. Af David.
+Holy-Bible---Danish---Danish-1931-1907	019	PSA	031	001	Til Sangmesteren. En Salme af David.
+Holy-Bible---Danish---Danish-1931-1907	019	PSA	049	001	Til Sangmesteren. Af Koras Sønner. En Salme.
+Holy-Bible---Danish---Danish-1931-1907	019	PSA	055	001	Til Sangmesteren. Med Strengespil. En Maskil af David.
+Holy-Bible---Danish---Danish-1931-1907	019	PSA	088	001	En Sang. En Salme af Koras Sønner. Til Sangmesteren. Al-mahalat-leannot. En Maskil af Ezraiten Heman.
+Holy-Bible---Danish---Danish-1931-1907	019	PSA	089	001	En Maskil af Ezraiten Etan.
 Holy-Bible---Danish---Danish-1931-1907	064	3JO	001	014	Men jeg haaber snart at se dig, og da skulle vi mundtligt tale sammen.
 Holy-Bible---Danish---Danish-1931-1907	066	REV	012	018	Og jeg stod paa Sandet ved Havet.
 Holy-Bible---Desiya---Desiya-Bible	064	3JO	001	014	ମୁଇ ଦାପ୍‌ରେ ତମର୍‌ଟାନେ ଆସିକରି ତମର୍‌ ମୁଆଟେ ସବୁ କାତା କଇବି ।
@@ -4071,6 +4087,14 @@ Holy-Bible---French---Vulgate-Glaire	048	GAL	002	008	,
 Holy-Bible---French---Vulgate-Glaire	066	REV	012	018	Et il se tint sur le sable de la mer.
 Holy-Bible---Gamotso---Gamo	064	3JO	001	014	Ta nena mata wode beyanas ufays oothays, he wode nu isife uti hasa7ana.
 Holy-Bible---Gamotso---Gamo	066	REV	012	018	Dawezika abba achchan ace bolla eqqides.
+Holy-Bible---German---German-Albrecht	019	PSA	006	001	Dem Sangmeister mit Saitenspielbegleitung, in der achten Tonart . / Ein Psalm Davids.
+Holy-Bible---German---German-Albrecht	019	PSA	009	001	Dem Sangmeister, nach (der Melodie des Liedes:) "Stirb für den Sohn"  . Ein Psalm Davids.
+Holy-Bible---German---German-Albrecht	019	PSA	030	001	Ein Psalm. Nach dem Liede der Hausweihe  . Von David.
+Holy-Bible---German---German-Albrecht	019	PSA	031	001	Dem Sangmeister. Ein Psalm Davids.
+Holy-Bible---German---German-Albrecht	019	PSA	049	001	Dem Sangmeister. Ein Psalm der Söhne Korahs.
+Holy-Bible---German---German-Albrecht	019	PSA	055	001	Dem Sangmeister, mit Saitenspielbegleitung. Eine Betrachtung   Davids.
+Holy-Bible---German---German-Albrecht	019	PSA	088	001	Ein Psalm der Söhne Korahs. Dem Sangmeister, nach schwermütiger Weise mit gedämpfter Stimme vorzutragen  : eine Betrachtung   Hemans, des Esrahiters.
+Holy-Bible---German---German-Albrecht	019	PSA	089	001	Eine Betrachtung   Etans, des Esrahiters.
 Holy-Bible---German---German-Elberfelder-1905	044	ACT	015	034	-
 Holy-Bible---German---German-Katholiche-Riessler	002	EXO	017	016	Er
 Holy-Bible---German---German-Katholiche-Riessler	019	PSA	003	001	Ein Lied Davids auf der Flucht vor seinem Sohne Absalom.
@@ -10751,6 +10775,14 @@ Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	142	001	En undervisning Davids
 Holy-Bible---Swedish---Swedish-Bible-1917	006	JOS	021	036	
 Holy-Bible---Swedish---Swedish-Bible-1917	006	JOS	021	037	
 Holy-Bible---Swedish---Swedish-Bible-1917	016	NEH	007	068	
+Holy-Bible---Swedish---Swedish-Bible-1917	019	PSA	006	001	För sångmästaren, med strängaspel, till Seminit; en psalm av David.
+Holy-Bible---Swedish---Swedish-Bible-1917	019	PSA	009	001	För sångmästaren, till Mutlabbén; en psalm av David.
+Holy-Bible---Swedish---Swedish-Bible-1917	019	PSA	030	001	En psalm, en sång av David, vid templets invigning.
+Holy-Bible---Swedish---Swedish-Bible-1917	019	PSA	031	001	För sångmästaren; en psalm av David.
+Holy-Bible---Swedish---Swedish-Bible-1917	019	PSA	049	001	För sångmästaren; av Koras söner; en psalm.
+Holy-Bible---Swedish---Swedish-Bible-1917	019	PSA	055	001	För sångmästaren, med strängaspel; en sång av David.
+Holy-Bible---Swedish---Swedish-Bible-1917	019	PSA	088	001	En sång, en psalm av Koras söner; för sångmästaren, till Mahalat-leannót; en sång av esraiten Heman.
+Holy-Bible---Swedish---Swedish-Bible-1917	019	PSA	089	001	En sång av esraiten Etan.
 Holy-Bible---Swedish---Swedish-Bible-1917	040	MAT	017	021	
 Holy-Bible---Swedish---Swedish-Bible-1917	040	MAT	018	011	
 Holy-Bible---Swedish---Swedish-Bible-1917	040	MAT	021	044	
@@ -10790,6 +10822,7 @@ Holy-Bible---Ukrainian---New-Translation	019	PSA	007	001	Жалобна пісн
 Holy-Bible---Ukrainian---New-Translation	019	PSA	008	001	Керівнику хору. Виконання в стилі ґіттіт. Псалом Давидів.
 Holy-Bible---Ukrainian---New-Translation	019	PSA	009	001	Керівнику хору. На мотив «Смерть сина». Псалом Давидів.
 Holy-Bible---Ukrainian---New-Translation	019	PSA	012	001	Керівнику хору. У супроводі восьмиструнного інструмента. Псалом Давидів.
+Holy-Bible---Ukrainian---New-Translation	019	PSA	013	001	Керівнику хору. Псалом Давидів.
 Holy-Bible---Ukrainian---New-Translation	019	PSA	018	001	Керівнику хору. Псалом раба Господнього Давида. Він заспівав слова цієї пісні Господеві того дня, коли визволив його Господь від руки всіх ворогів його й від руки Саула.
 Holy-Bible---Ukrainian---New-Translation	019	PSA	019	001	Керівнику хору. Псалом Давидів.
 Holy-Bible---Ukrainian---New-Translation	019	PSA	020	001	Керівнику хору. Псалом Давидів.
