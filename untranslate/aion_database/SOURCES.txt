@@ -973,10 +973,7 @@ Holy-Bible---Tongan---Revised-West-Version				https://ebible.org/epub/ton.epub	H
 Holy-Bible---Tongan---Revised-West-Version				https://ebible.org/pdf/ton/ton_prt.pdf	Holy-Bible---Tongan---Revised-West-Version---Source-Edition.pdf
 Holy-Bible---Tongan---Revised-West-Version				https://ebible.org/Scriptures/ton_vpl.zip	Holy-Bible---Tongan---Revised-West-Version---Source-Edition.VPL.zip
 Holy-Bible---Tongan---Revised-West-Version				https://ebible.org/sword/zip/ton2014eb.zip	Holy-Bible---Tongan---Revised-West-Version---Source-Edition.SWORD.zip
-Holy-Bible---Turkish---Turkish-Bible				https://ebible.org/epub/turev.epub	Holy-Bible---Turkish---Turkish-Bible---Source-Edition.epub
-Holy-Bible---Turkish---Turkish-Bible				https://ebible.org/pdf/turev/turev_prt.pdf	Holy-Bible---Turkish---Turkish-Bible---Source-Edition.pdf
-Holy-Bible---Turkish---Turkish-Bible				https://ebible.org/Scriptures/turev_vpl.zip	Holy-Bible---Turkish---Turkish-Bible---Source-Edition.VPL.zip
-Holy-Bible---Turkish---Turkish-Bible				https://ebible.org/sword/zip/turTCL02eb.zip	Holy-Bible---Turkish---Turkish-Bible---Source-Edition.SWORD.zip
+Holy-Bible---Turkish---Turkish-Bible				./aion_source/Holy-Bible---Turkish---Turkish-Bible---Source-Edition.VPL.zip	Holy-Bible---Turkish---Turkish-Bible---Source-Edition.VPL.zip
 Holy-Bible---Twi---Akuapem-Twi-Bible				https://ebible.org/epub/twi.epub	Holy-Bible---Twi---Akuapem-Twi-Bible---Source-Edition.epub
 Holy-Bible---Twi---Akuapem-Twi-Bible				https://ebible.org/pdf/twi/twi_prt.pdf	Holy-Bible---Twi---Akuapem-Twi-Bible---Source-Edition.pdf
 Holy-Bible---Twi---Akuapem-Twi-Bible				https://ebible.org/Scriptures/twi_vpl.zip	Holy-Bible---Twi---Akuapem-Twi-Bible---Source-Edition.VPL.zip

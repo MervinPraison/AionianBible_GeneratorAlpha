@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
 # File Size: 35715       
-# File Date: 04/07/2024 00:26:17
+# File Date: 04/09/2024 02:10:34
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -159,7 +159,7 @@ Holy-Bible---German---German-Menge	11	0	64	12	1	11	9	1	5	94	64	10	2	0	0	0	273	26
 Holy-Bible---German---German-Reinhardt-Bible	0	0	0	11	0	4	1	0	0	26	24	10	0	0	1	0	76	72	71	0	194	0	1
 Holy-Bible---German---German-Schlachter	18	1	64	12	1	11	9	1	5	94	64	10	2	0	0	1	273	265	265	0	0	0	0
 Holy-Bible---German---German-Tafel-Bible	62	0	45	12	1	11	9	1	5	94	64	10	2	0	1	0	254	247	246	0	19	0	1
-Holy-Bible---Gikuyu---Kikuyu	0	0	64	12	1	11	9	1	5	94	64	10	2	0	0	0	273	265	265	0	0	0	0
+Holy-Bible---Gikuyu---Kikuyu	0	0	64	12	1	11	9	1	5	94	64	10	2	0	2	0	273	266	265	0	0	0	1
 Holy-Bible---Gofa---Gofa-Bible	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
 Holy-Bible---Gourma---Gourma-Bible	0	0	0	12	1	11	9	1	5	94	64	10	2	0	1	0	209	202	201	0	64	0	1
 Holy-Bible---Gourmantche---Gourmantche-Bible	0	0	0	12	1	11	9	1	5	94	64	10	2	0	1	0	209	202	201	0	64	0	1
@@ -245,16 +245,16 @@ Holy-Bible---Luganda---Luganda-Bible	0	0	64	12	1	11	9	1	5	94	64	10	2	0	0	0	273	2
 Holy-Bible---Mahasu-Pahari---Baghlayani-Bible	0	3	0	12	1	11	9	1	5	94	64	10	2	0	0	3	209	201	201	0	64	0	0
 Holy-Bible---Malagasy---Malagasy-Bible	0	0	64	12	1	11	9	1	5	94	64	10	2	0	0	0	273	265	265	0	0	0	0
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	0	0	64	12	1	10	9	1	4	92	61	10	2	0	0	0	266	259	259	0	0	6	0
-Holy-Bible---Malayalam---Contemporary	0	0	64	12	1	11	9	1	5	94	64	10	2	0	2	0	273	265	263	2	0	0	2
+Holy-Bible---Malayalam---Contemporary	0	0	64	12	1	11	9	1	5	94	64	10	2	0	6	0	273	267	263	2	0	0	4
 Holy-Bible---Malayalam---Malayalam-Bible	0	0	64	12	1	11	9	1	5	94	64	10	2	0	0	0	273	265	265	0	0	0	0
-Holy-Bible---Malayalam---Malayalam-Bible-1910	0	0	64	12	1	11	9	1	5	94	64	10	2	0	0	0	273	265	265	0	0	0	0
+Holy-Bible---Malayalam---Malayalam-Bible-1910	0	0	64	12	1	11	9	1	5	94	64	10	2	0	4	0	273	267	265	0	0	0	2
 Holy-Bible---Manipuri---Meitei-Bible	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
 Holy-Bible---Maori---Maori-Bible	0	0	64	12	1	11	9	1	5	94	64	10	2	0	0	0	273	265	265	0	0	0	0
 Holy-Bible---Marathi---Marathi-Bible	0	0	64	12	1	11	9	1	5	94	64	10	2	0	0	0	273	265	265	0	0	0	0
 Holy-Bible---Munda---Munda-Bible	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
 Holy-Bible---Mwera---Mwera-Bible	0	0	0	12	1	11	9	1	5	94	64	10	2	0	1	0	209	202	201	0	64	0	1
 Holy-Bible---Myanmar---Burmese-Common-Bible	0	0	64	12	1	11	9	1	5	94	64	10	2	0	0	0	273	265	265	0	0	0	0
-Holy-Bible---Myanmar---Burmese-Judson	0	3	64	12	1	11	9	1	5	94	64	10	2	0	0	3	273	265	265	0	0	0	0
+Holy-Bible---Myanmar---Burmese-Judson	0	0	64	12	1	11	9	1	5	94	64	10	2	0	6	0	273	268	265	0	0	0	3
 Holy-Bible---Myanmar---Myanmar-Burmese-Judson	0	0	64	12	1	11	9	1	5	94	64	10	2	0	2	0	273	266	264	1	0	0	2
 Holy-Bible---Ndebele---Accessible-Bible	0	3	64	12	1	11	9	1	5	94	64	10	2	0	0	3	273	265	265	0	0	0	0
 Holy-Bible---Ndebele---Ndebele-Bible	0	0	64	12	1	11	9	1	5	94	64	10	2	0	1	0	273	266	265	0	0	0	1
@@ -292,28 +292,28 @@ Holy-Bible---Romanian---Ludari-Luke	0	0	0	1	0	2	1	0	0	6	3	2	0	0	0	0	15	14	14	0	2
 Holy-Bible---Rote-Dela---Rote-Dela-Bible	0	0	4	12	1	11	9	1	5	93	63	12	2	0	2	0	213	205	204	1	60	0	1
 Holy-Bible---Russian---Russian-Synodal-Translation	104	7	64	12	1	11	9	1	5	94	64	10	2	0	6	7	273	271	265	0	0	0	6
 Holy-Bible---Safwa---Safwa-Bible	0	0	0	12	1	11	9	1	5	94	64	10	2	0	1	0	209	202	201	0	64	0	1
-Holy-Bible---Sanskrit---Assamese-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
-Holy-Bible---Sanskrit---Bengali-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
-Holy-Bible---Sanskrit---Burmese-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
-Holy-Bible---Sanskrit---Cologne-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
-Holy-Bible---Sanskrit---Devanagari-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
-Holy-Bible---Sanskrit---Gujarati-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
-Holy-Bible---Sanskrit---Harvard-Kyoto-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
-Holy-Bible---Sanskrit---IAST-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
-Holy-Bible---Sanskrit---ISO-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
-Holy-Bible---Sanskrit---ITRANS-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
-Holy-Bible---Sanskrit---Kannada-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
-Holy-Bible---Sanskrit---Khmer-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
-Holy-Bible---Sanskrit---Malayalam-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
-Holy-Bible---Sanskrit---Oriya-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
-Holy-Bible---Sanskrit---Punjabi-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
-Holy-Bible---Sanskrit---Sinhala-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
-Holy-Bible---Sanskrit---Tamil-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
-Holy-Bible---Sanskrit---Telugu-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
-Holy-Bible---Sanskrit---Thai-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
-Holy-Bible---Sanskrit---Tibetan-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
-Holy-Bible---Sanskrit---Urdu-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
-Holy-Bible---Sanskrit---Velthuis-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	0	0	209	201	201	0	64	0	0
+Holy-Bible---Sanskrit---Assamese-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	8	0	209	205	201	0	64	0	4
+Holy-Bible---Sanskrit---Bengali-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	8	0	209	205	201	0	64	0	4
+Holy-Bible---Sanskrit---Burmese-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	8	0	209	205	201	0	64	0	4
+Holy-Bible---Sanskrit---Cologne-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	8	0	209	205	201	0	64	0	4
+Holy-Bible---Sanskrit---Devanagari-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	8	0	209	205	201	0	64	0	4
+Holy-Bible---Sanskrit---Gujarati-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	8	0	209	205	201	0	64	0	4
+Holy-Bible---Sanskrit---Harvard-Kyoto-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	8	0	209	205	201	0	64	0	4
+Holy-Bible---Sanskrit---IAST-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	8	0	209	205	201	0	64	0	4
+Holy-Bible---Sanskrit---ISO-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	8	0	209	205	201	0	64	0	4
+Holy-Bible---Sanskrit---ITRANS-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	8	0	209	205	201	0	64	0	4
+Holy-Bible---Sanskrit---Kannada-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	8	0	209	205	201	0	64	0	4
+Holy-Bible---Sanskrit---Khmer-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	8	0	209	205	201	0	64	0	4
+Holy-Bible---Sanskrit---Malayalam-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	8	0	209	205	201	0	64	0	4
+Holy-Bible---Sanskrit---Oriya-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	8	0	209	205	201	0	64	0	4
+Holy-Bible---Sanskrit---Punjabi-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	8	0	209	205	201	0	64	0	4
+Holy-Bible---Sanskrit---Sinhala-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	8	0	209	205	201	0	64	0	4
+Holy-Bible---Sanskrit---Tamil-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	8	0	209	205	201	0	64	0	4
+Holy-Bible---Sanskrit---Telugu-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	8	0	209	205	201	0	64	0	4
+Holy-Bible---Sanskrit---Thai-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	8	0	209	205	201	0	64	0	4
+Holy-Bible---Sanskrit---Tibetan-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	8	0	209	205	201	0	64	0	4
+Holy-Bible---Sanskrit---Urdu-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	8	0	209	205	201	0	64	0	4
+Holy-Bible---Sanskrit---Velthuis-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	8	0	209	205	201	0	64	0	4
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark	0	0	0	3	0	0	0	0	0	2	1	4	0	0	0	0	10	8	8	0	257	0	0
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	0	0	64	12	1	11	9	1	5	94	64	10	2	0	1	0	273	266	265	0	0	0	1
 Holy-Bible---Serbian---Serbian-Ekavski-Bible	0	0	64	12	1	11	9	1	5	94	64	10	2	0	1	0	273	266	265	0	0	0	1

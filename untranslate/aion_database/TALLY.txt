@@ -1,6 +1,6 @@
 # File Name: TALLY.txt
 # File Size: 21069       
-# File Date: 04/06/2024 22:04:35
+# File Date: 04/08/2024 23:31:17
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -338,7 +338,7 @@ Holy-Bible---Swahili---New-Swahili-Bible	31101	31101	31103
 Holy-Bible---Swahili---Swahili-Bible	7853	7853	7853
 Holy-Bible---Swedish---Swedish-Bible	31082	31082	31153
 Holy-Bible---Swedish---Swedish-Bible-1873	31102	31102	31170
-Holy-Bible---Swedish---Swedish-Bible-1917	31065	31065	31092
+Holy-Bible---Swedish---Swedish-Bible-1917	31066	31066	31093
 Holy-Bible---Tagalog---Tagalog-Bible	31102	31102	31102
 Holy-Bible---Tagalog---Tagalog-Bible-1905	31102	31102	31102
 Holy-Bible---Tagalog---Tagalog-Bible-Unlocked	31101	31101	31103

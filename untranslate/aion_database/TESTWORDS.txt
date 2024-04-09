@@ -1,6 +1,6 @@
 # File Name: TESTWORDS.txt
-# File Size: 244530      
-# File Date: 04/07/2024 01:03:30
+# File Size: 244532      
+# File Date: 04/09/2024 02:49:07
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -254,7 +254,7 @@ Holy-Bible---Marathi---Marathi-Bible	0	GROUP=0/0/0	GROUP=0/0/0	नरक=0/0/0, 
 Holy-Bible---Munda---Munda-Bible	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Mwera---Mwera-Bible	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Myanmar---Burmese-Common-Bible	0	GROUP=0/0/0	GROUP=0/0/0	ငရဲ=0/0/0, GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
-Holy-Bible---Myanmar---Burmese-Judson	0	GROUP=0/0/0	GROUP=0/0/0	ငရဲ=11/8/3, GROUP=11/8/3	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
+Holy-Bible---Myanmar---Burmese-Judson	0	GROUP=0/0/0	GROUP=0/0/0	ငရဲ=11/11/0, GROUP=11/11/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Myanmar---Myanmar-Burmese-Judson	0	GROUP=0/0/0	GROUP=0/0/0	ငရဲ=1/1/0, GROUP=1/1/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Ndebele---Accessible-Bible	0	GROUP=0/0/0	GROUP=0/0/0	esihogweni=14/11/3, GROUP=14/11/3	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Ndebele---Ndebele-Bible	0	GROUP=0/0/0	GROUP=0/0/0	esihogweni=29/29/0, GROUP=29/29/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
