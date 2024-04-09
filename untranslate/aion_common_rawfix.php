@@ -18068,6 +18068,12 @@ Psalms 89:53 Lovad vare HERREN evinnerligen! Amen, Amen.
 Psalms 90:1 
 EOF;
 if (!($bfile = preg_replace("/Psalms 89:52 (.+?)Psalms 90:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Jonah 2:10 Men jag vill offra åt dig, med högljudd tacksägelse; vad jag har lovat vill jag infria; frälsningen är hos HERREN!»
+Jonah 2:11 Och på HERRENS befallning kastade fisken upp Jona på land.
+Jonah 3:1 
+EOF;
+if (!($bfile = preg_replace("/Jonah 2:10 (.+?)Jonah 3:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 Acts 19:40 På grund av det som i dag har skett löpa vi ju till och med fara att bliva anklagade för upplopp, fastän vi icke hava gjort något ont; och någon giltig anledning till denna folkskockning kunna vi icke heller uppgiva.»
 Acts 19:41 Med dessa ord fick han menigheten att skiljas åt.

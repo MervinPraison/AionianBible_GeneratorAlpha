@@ -591,6 +591,8 @@ Holy-Bible---German---German-Reinhardt-Bible								NULL
 Holy-Bible---German---German-Schlachter								NULL
 Holy-Bible---German---German-Tafel-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---German---German-Tafel-Bible								NULL
+Holy-Bible---Gikuyu---Kikuyu	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Gikuyu---Kikuyu	041	MAR	009	044	GEHENNA	g1067		NULL
 Holy-Bible---Gikuyu---Kikuyu								NULL
 Holy-Bible---Gofa---Gofa-Bible								NULL
 Holy-Bible---Gourma---Gourma-Bible	061	2PE	002	017	NOTE			questioned
@@ -768,11 +770,20 @@ Holy-Bible---Luganda---Luganda-Bible								NULL
 Holy-Bible---Mahasu-Pahari---Baghlayani-Bible								NULL
 Holy-Bible---Malagasy---Malagasy-Bible								NULL
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible								NULL
+Holy-Bible---Malayalam---Contemporary	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Malayalam---Contemporary	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Malayalam---Contemporary	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Malayalam---Contemporary	041	MAR	009	046	GEHENNA	g1067		NULL
 Holy-Bible---Malayalam---Contemporary	042	LUK	001	054	AIONS	g165		NULL
 Holy-Bible---Malayalam---Contemporary	042	LUK	001	055	SKIP			NULL
 Holy-Bible---Malayalam---Contemporary	049	EPH	003	010	AIONS	g165		NULL
 Holy-Bible---Malayalam---Contemporary	049	EPH	003	011	SKIP			NULL
+Holy-Bible---Malayalam---Contemporary								NULL
 Holy-Bible---Malayalam---Malayalam-Bible								NULL
+Holy-Bible---Malayalam---Malayalam-Bible-1910	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Malayalam---Malayalam-Bible-1910	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Malayalam---Malayalam-Bible-1910	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Malayalam---Malayalam-Bible-1910	041	MAR	009	046	GEHENNA	g1067		NULL
 Holy-Bible---Malayalam---Malayalam-Bible-1910								NULL
 Holy-Bible---Maori---Maori-Bible								NULL
 Holy-Bible---Marathi---Marathi-Bible								NULL
@@ -781,6 +792,12 @@ Holy-Bible---Munda---Munda-Bible								NULL
 Holy-Bible---Mwera---Mwera-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Mwera---Mwera-Bible								NULL
 Holy-Bible---Myanmar---Burmese-Common-Bible								NULL
+Holy-Bible---Myanmar---Burmese-Judson	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Myanmar---Burmese-Judson	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Myanmar---Burmese-Judson	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Myanmar---Burmese-Judson	041	MAR	009	046	GEHENNA	g1067		NULL
+Holy-Bible---Myanmar---Burmese-Judson	041	MAR	009	047	SKIP			NULL
+Holy-Bible---Myanmar---Burmese-Judson	041	MAR	009	048	GEHENNA	g1067		NULL
 Holy-Bible---Myanmar---Burmese-Judson								NULL
 Holy-Bible---Myanmar---Myanmar-Burmese-Judson	042	LUK	001	068	AIONS	g165		NULL
 Holy-Bible---Myanmar---Myanmar-Burmese-Judson	042	LUK	001	070	SKIP			NULL
@@ -854,27 +871,203 @@ Holy-Bible---Russian---Russian-Synodal-Translation	061	2PE	002	017	NOTE			questi
 Holy-Bible---Russian---Russian-Synodal-Translation								NULL
 Holy-Bible---Safwa---Safwa-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Safwa---Safwa-Bible								NULL
+Holy-Bible---Sanskrit---Assamese-Script	041	MAR	004	018	AIONS	g165		NULL
+Holy-Bible---Sanskrit---Assamese-Script	041	MAR	004	019	SKIP			NULL
+Holy-Bible---Sanskrit---Assamese-Script	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Sanskrit---Assamese-Script	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Assamese-Script	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Sanskrit---Assamese-Script	041	MAR	009	046	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Assamese-Script	041	MAR	009	047	SKIP			NULL
+Holy-Bible---Sanskrit---Assamese-Script	041	MAR	009	048	GEHENNA	g1067		NULL
 Holy-Bible---Sanskrit---Assamese-Script								NULL
+Holy-Bible---Sanskrit---Bengali-Script	041	MAR	004	018	AIONS	g165		NULL
+Holy-Bible---Sanskrit---Bengali-Script	041	MAR	004	019	SKIP			NULL
+Holy-Bible---Sanskrit---Bengali-Script	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Sanskrit---Bengali-Script	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Bengali-Script	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Sanskrit---Bengali-Script	041	MAR	009	046	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Bengali-Script	041	MAR	009	047	SKIP			NULL
+Holy-Bible---Sanskrit---Bengali-Script	041	MAR	009	048	GEHENNA	g1067		NULL
 Holy-Bible---Sanskrit---Bengali-Script								NULL
+Holy-Bible---Sanskrit---Burmese-Script	041	MAR	004	018	AIONS	g165		NULL
+Holy-Bible---Sanskrit---Burmese-Script	041	MAR	004	019	SKIP			NULL
+Holy-Bible---Sanskrit---Burmese-Script	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Sanskrit---Burmese-Script	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Burmese-Script	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Sanskrit---Burmese-Script	041	MAR	009	046	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Burmese-Script	041	MAR	009	047	SKIP			NULL
+Holy-Bible---Sanskrit---Burmese-Script	041	MAR	009	048	GEHENNA	g1067		NULL
 Holy-Bible---Sanskrit---Burmese-Script								NULL
+Holy-Bible---Sanskrit---Cologne-Script	041	MAR	004	018	AIONS	g165		NULL
+Holy-Bible---Sanskrit---Cologne-Script	041	MAR	004	019	SKIP			NULL
+Holy-Bible---Sanskrit---Cologne-Script	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Sanskrit---Cologne-Script	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Cologne-Script	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Sanskrit---Cologne-Script	041	MAR	009	046	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Cologne-Script	041	MAR	009	047	SKIP			NULL
+Holy-Bible---Sanskrit---Cologne-Script	041	MAR	009	048	GEHENNA	g1067		NULL
 Holy-Bible---Sanskrit---Cologne-Script								NULL
+Holy-Bible---Sanskrit---Devanagari-Script	041	MAR	004	018	AIONS	g165		NULL
+Holy-Bible---Sanskrit---Devanagari-Script	041	MAR	004	019	SKIP			NULL
+Holy-Bible---Sanskrit---Devanagari-Script	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Sanskrit---Devanagari-Script	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Devanagari-Script	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Sanskrit---Devanagari-Script	041	MAR	009	046	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Devanagari-Script	041	MAR	009	047	SKIP			NULL
+Holy-Bible---Sanskrit---Devanagari-Script	041	MAR	009	048	GEHENNA	g1067		NULL
 Holy-Bible---Sanskrit---Devanagari-Script								NULL
+Holy-Bible---Sanskrit---Gujarati-Script	041	MAR	004	018	AIONS	g165		NULL
+Holy-Bible---Sanskrit---Gujarati-Script	041	MAR	004	019	SKIP			NULL
+Holy-Bible---Sanskrit---Gujarati-Script	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Sanskrit---Gujarati-Script	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Gujarati-Script	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Sanskrit---Gujarati-Script	041	MAR	009	046	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Gujarati-Script	041	MAR	009	047	SKIP			NULL
+Holy-Bible---Sanskrit---Gujarati-Script	041	MAR	009	048	GEHENNA	g1067		NULL
 Holy-Bible---Sanskrit---Gujarati-Script								NULL
+Holy-Bible---Sanskrit---Harvard-Kyoto-Script	041	MAR	004	018	AIONS	g165		NULL
+Holy-Bible---Sanskrit---Harvard-Kyoto-Script	041	MAR	004	019	SKIP			NULL
+Holy-Bible---Sanskrit---Harvard-Kyoto-Script	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Sanskrit---Harvard-Kyoto-Script	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Harvard-Kyoto-Script	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Sanskrit---Harvard-Kyoto-Script	041	MAR	009	046	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Harvard-Kyoto-Script	041	MAR	009	047	SKIP			NULL
+Holy-Bible---Sanskrit---Harvard-Kyoto-Script	041	MAR	009	048	GEHENNA	g1067		NULL
 Holy-Bible---Sanskrit---Harvard-Kyoto-Script								NULL
+Holy-Bible---Sanskrit---IAST-Script	041	MAR	004	018	AIONS	g165		NULL
+Holy-Bible---Sanskrit---IAST-Script	041	MAR	004	019	SKIP			NULL
+Holy-Bible---Sanskrit---IAST-Script	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Sanskrit---IAST-Script	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---IAST-Script	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Sanskrit---IAST-Script	041	MAR	009	046	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---IAST-Script	041	MAR	009	047	SKIP			NULL
+Holy-Bible---Sanskrit---IAST-Script	041	MAR	009	048	GEHENNA	g1067		NULL
 Holy-Bible---Sanskrit---IAST-Script								NULL
+Holy-Bible---Sanskrit---ISO-Script	041	MAR	004	018	AIONS	g165		NULL
+Holy-Bible---Sanskrit---ISO-Script	041	MAR	004	019	SKIP			NULL
+Holy-Bible---Sanskrit---ISO-Script	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Sanskrit---ISO-Script	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---ISO-Script	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Sanskrit---ISO-Script	041	MAR	009	046	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---ISO-Script	041	MAR	009	047	SKIP			NULL
+Holy-Bible---Sanskrit---ISO-Script	041	MAR	009	048	GEHENNA	g1067		NULL
 Holy-Bible---Sanskrit---ISO-Script								NULL
+Holy-Bible---Sanskrit---ITRANS-Script	041	MAR	004	018	AIONS	g165		NULL
+Holy-Bible---Sanskrit---ITRANS-Script	041	MAR	004	019	SKIP			NULL
+Holy-Bible---Sanskrit---ITRANS-Script	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Sanskrit---ITRANS-Script	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---ITRANS-Script	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Sanskrit---ITRANS-Script	041	MAR	009	046	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---ITRANS-Script	041	MAR	009	047	SKIP			NULL
+Holy-Bible---Sanskrit---ITRANS-Script	041	MAR	009	048	GEHENNA	g1067		NULL
 Holy-Bible---Sanskrit---ITRANS-Script								NULL
+Holy-Bible---Sanskrit---Kannada-Script	041	MAR	004	018	AIONS	g165		NULL
+Holy-Bible---Sanskrit---Kannada-Script	041	MAR	004	019	SKIP			NULL
+Holy-Bible---Sanskrit---Kannada-Script	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Sanskrit---Kannada-Script	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Kannada-Script	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Sanskrit---Kannada-Script	041	MAR	009	046	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Kannada-Script	041	MAR	009	047	SKIP			NULL
+Holy-Bible---Sanskrit---Kannada-Script	041	MAR	009	048	GEHENNA	g1067		NULL
 Holy-Bible---Sanskrit---Kannada-Script								NULL
+Holy-Bible---Sanskrit---Khmer-Script	041	MAR	004	018	AIONS	g165		NULL
+Holy-Bible---Sanskrit---Khmer-Script	041	MAR	004	019	SKIP			NULL
+Holy-Bible---Sanskrit---Khmer-Script	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Sanskrit---Khmer-Script	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Khmer-Script	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Sanskrit---Khmer-Script	041	MAR	009	046	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Khmer-Script	041	MAR	009	047	SKIP			NULL
+Holy-Bible---Sanskrit---Khmer-Script	041	MAR	009	048	GEHENNA	g1067		NULL
 Holy-Bible---Sanskrit---Khmer-Script								NULL
+Holy-Bible---Sanskrit---Malayalam-Script	041	MAR	004	018	AIONS	g165		NULL
+Holy-Bible---Sanskrit---Malayalam-Script	041	MAR	004	019	SKIP			NULL
+Holy-Bible---Sanskrit---Malayalam-Script	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Sanskrit---Malayalam-Script	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Malayalam-Script	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Sanskrit---Malayalam-Script	041	MAR	009	046	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Malayalam-Script	041	MAR	009	047	SKIP			NULL
+Holy-Bible---Sanskrit---Malayalam-Script	041	MAR	009	048	GEHENNA	g1067		NULL
 Holy-Bible---Sanskrit---Malayalam-Script								NULL
+Holy-Bible---Sanskrit---Oriya-Script	041	MAR	004	018	AIONS	g165		NULL
+Holy-Bible---Sanskrit---Oriya-Script	041	MAR	004	019	SKIP			NULL
+Holy-Bible---Sanskrit---Oriya-Script	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Sanskrit---Oriya-Script	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Oriya-Script	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Sanskrit---Oriya-Script	041	MAR	009	046	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Oriya-Script	041	MAR	009	047	SKIP			NULL
+Holy-Bible---Sanskrit---Oriya-Script	041	MAR	009	048	GEHENNA	g1067		NULL
 Holy-Bible---Sanskrit---Oriya-Script								NULL
+Holy-Bible---Sanskrit---Punjabi-Script	041	MAR	004	018	AIONS	g165		NULL
+Holy-Bible---Sanskrit---Punjabi-Script	041	MAR	004	019	SKIP			NULL
+Holy-Bible---Sanskrit---Punjabi-Script	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Sanskrit---Punjabi-Script	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Punjabi-Script	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Sanskrit---Punjabi-Script	041	MAR	009	046	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Punjabi-Script	041	MAR	009	047	SKIP			NULL
+Holy-Bible---Sanskrit---Punjabi-Script	041	MAR	009	048	GEHENNA	g1067		NULL
 Holy-Bible---Sanskrit---Punjabi-Script								NULL
+Holy-Bible---Sanskrit---Sinhala-Script	041	MAR	004	018	AIONS	g165		NULL
+Holy-Bible---Sanskrit---Sinhala-Script	041	MAR	004	019	SKIP			NULL
+Holy-Bible---Sanskrit---Sinhala-Script	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Sanskrit---Sinhala-Script	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Sinhala-Script	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Sanskrit---Sinhala-Script	041	MAR	009	046	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Sinhala-Script	041	MAR	009	047	SKIP			NULL
+Holy-Bible---Sanskrit---Sinhala-Script	041	MAR	009	048	GEHENNA	g1067		NULL
 Holy-Bible---Sanskrit---Sinhala-Script								NULL
+Holy-Bible---Sanskrit---Tamil-Script	041	MAR	004	018	AIONS	g165		NULL
+Holy-Bible---Sanskrit---Tamil-Script	041	MAR	004	019	SKIP			NULL
+Holy-Bible---Sanskrit---Tamil-Script	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Sanskrit---Tamil-Script	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Tamil-Script	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Sanskrit---Tamil-Script	041	MAR	009	046	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Tamil-Script	041	MAR	009	047	SKIP			NULL
+Holy-Bible---Sanskrit---Tamil-Script	041	MAR	009	048	GEHENNA	g1067		NULL
 Holy-Bible---Sanskrit---Tamil-Script								NULL
+Holy-Bible---Sanskrit---Telugu-Script	041	MAR	004	018	AIONS	g165		NULL
+Holy-Bible---Sanskrit---Telugu-Script	041	MAR	004	019	SKIP			NULL
+Holy-Bible---Sanskrit---Telugu-Script	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Sanskrit---Telugu-Script	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Telugu-Script	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Sanskrit---Telugu-Script	041	MAR	009	046	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Telugu-Script	041	MAR	009	047	SKIP			NULL
+Holy-Bible---Sanskrit---Telugu-Script	041	MAR	009	048	GEHENNA	g1067		NULL
 Holy-Bible---Sanskrit---Telugu-Script								NULL
+Holy-Bible---Sanskrit---Thai-Script	041	MAR	004	018	AIONS	g165		NULL
+Holy-Bible---Sanskrit---Thai-Script	041	MAR	004	019	SKIP			NULL
+Holy-Bible---Sanskrit---Thai-Script	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Sanskrit---Thai-Script	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Thai-Script	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Sanskrit---Thai-Script	041	MAR	009	046	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Thai-Script	041	MAR	009	047	SKIP			NULL
+Holy-Bible---Sanskrit---Thai-Script	041	MAR	009	048	GEHENNA	g1067		NULL
 Holy-Bible---Sanskrit---Thai-Script								NULL
+Holy-Bible---Sanskrit---Tibetan-Script	041	MAR	004	018	AIONS	g165		NULL
+Holy-Bible---Sanskrit---Tibetan-Script	041	MAR	004	019	SKIP			NULL
+Holy-Bible---Sanskrit---Tibetan-Script	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Sanskrit---Tibetan-Script	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Tibetan-Script	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Sanskrit---Tibetan-Script	041	MAR	009	046	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Tibetan-Script	041	MAR	009	047	SKIP			NULL
+Holy-Bible---Sanskrit---Tibetan-Script	041	MAR	009	048	GEHENNA	g1067		NULL
 Holy-Bible---Sanskrit---Tibetan-Script								NULL
+Holy-Bible---Sanskrit---Urdu-Script	041	MAR	004	018	AIONS	g165		NULL
+Holy-Bible---Sanskrit---Urdu-Script	041	MAR	004	019	SKIP			NULL
+Holy-Bible---Sanskrit---Urdu-Script	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Sanskrit---Urdu-Script	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Urdu-Script	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Sanskrit---Urdu-Script	041	MAR	009	046	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Urdu-Script	041	MAR	009	047	SKIP			NULL
+Holy-Bible---Sanskrit---Urdu-Script	041	MAR	009	048	GEHENNA	g1067		NULL
 Holy-Bible---Sanskrit---Urdu-Script								NULL
+Holy-Bible---Sanskrit---Velthuis-Script	041	MAR	004	018	AIONS	g165		NULL
+Holy-Bible---Sanskrit---Velthuis-Script	041	MAR	004	019	SKIP			NULL
+Holy-Bible---Sanskrit---Velthuis-Script	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Sanskrit---Velthuis-Script	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Velthuis-Script	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Sanskrit---Velthuis-Script	041	MAR	009	046	GEHENNA	g1067		NULL
+Holy-Bible---Sanskrit---Velthuis-Script	041	MAR	009	047	SKIP			NULL
+Holy-Bible---Sanskrit---Velthuis-Script	041	MAR	009	048	GEHENNA	g1067		NULL
 Holy-Bible---Sanskrit---Velthuis-Script								NULL
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark								NULL

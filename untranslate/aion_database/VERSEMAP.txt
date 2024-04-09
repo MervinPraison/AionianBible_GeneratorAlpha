@@ -1432,6 +1432,7 @@ Holy-Bible---Swedish---Swedish-Bible-1873	HOS13-14
 Holy-Bible---Swedish---Swedish-Bible-1873	JON1-2
 Holy-Bible---Swedish---Swedish-Bible-1873	HAG1-2
 Holy-Bible---Swedish---Swedish-Bible-1917	JOB38-39-40-41
+Holy-Bible---Swedish---Swedish-Bible-1917	JON1-2
 Holy-Bible---Tagalog---Tagalog-Bible	NONE
 Holy-Bible---Tagalog---Tagalog-Bible-1905	NONE
 Holy-Bible---Tagalog---Tagalog-Bible-Unlocked	NONE
