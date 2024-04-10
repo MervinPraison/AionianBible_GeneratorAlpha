@@ -5496,6 +5496,12 @@ MAR 5:1
 EOF;
 if (!($bfile = preg_replace("/MAR 4:40 (.+?)MAR 5:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
+LUK 1:32 Il sera grand, on l’appellera le Fils du Très-Haut ; le Seigneur Dieu lui donnera le trône de David son père;
+LUK 1:33 il régnera éternellement sur la maison de Jacob, et son règne n’aura pas de fin. »
+LUK 1:34 
+EOF;
+if (!($bfile = preg_replace("/LUK 1:32 (.+?)LUK 1:34 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 JOH 11:56 Ils cherchaient Jésus et ils se disaient les uns aux autres, se tenant dans le temple : « Que vous en semble ? Pensez-vous qu’il ne viendra pas à la fête ? »
 JOH 11:57 Or, les Pontifes et les Pharisiens avaient donné l’ordre que, si quelqu’un savait où il était, il le déclarât, afin qu’ils le fissent prendre.
 JOH 12:1 
@@ -6234,6 +6240,12 @@ Song of Solomon 7:1 Que tes pieds sont beaux dans ta chaussure, ô fille du prin
 Song of Solomon 7:2 
 EOF;
 if (!($bfile = preg_replace("/Song of Solomon 6:12 (.+?)Song of Solomon 7:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Luke 1:32 Il sera grand, et sera appelé le Fils du Très-Haut ; et le Seigneur Dieu lui donnera le trône de David son père,
+Luke 1:33 et il régnera éternellement sur la maison de Jacob, et son règne n’aura pas de fin.
+Luke 1:34 
+EOF;
+if (!($bfile = preg_replace("/Luke 1:32 (.+?)Luke 1:34 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 II Corinthians 13:12 Saluez-vous les uns les autres par un saint baiser.
 II Corinthians 13:13 Tous les saints vous saluent.
