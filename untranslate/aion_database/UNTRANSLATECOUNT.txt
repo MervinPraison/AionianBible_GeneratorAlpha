@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
 # File Size: 35737       
-# File Date: 04/10/2024 02:21:18
+# File Date: 04/11/2024 03:01:32
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -317,7 +317,7 @@ Holy-Bible---Sanskrit---Velthuis-Script	0	0	0	12	1	11	9	1	5	94	64	10	2	0	12	0	20
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark	0	0	0	3	0	0	0	0	0	2	1	4	0	0	0	0	10	8	8	0	257	0	0
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	0	0	64	12	1	11	9	1	5	94	64	10	2	0	1	0	273	266	265	0	0	0	1
 Holy-Bible---Serbian---Serbian-Ekavski-Bible	0	0	64	12	1	11	9	1	5	94	64	10	2	0	1	0	273	266	265	0	0	0	1
-Holy-Bible---Setswana---Open-Tswana-Living	0	0	0	12	1	11	9	1	5	92	63	12	2	0	6	0	208	199	194	6	64	1	5
+Holy-Bible---Setswana---Open-Tswana-Living	0	0	0	12	1	11	9	1	5	92	63	12	2	0	6	0	208	200	196	4	64	1	4
 Holy-Bible---Shona---Rakasununguka	0	0	64	12	1	11	9	1	5	94	64	10	2	0	0	0	273	265	265	0	0	0	0
 Holy-Bible---Shona---Shona-Bible	0	0	0	12	1	11	9	1	5	94	64	10	2	0	1	0	209	202	201	0	64	0	1
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	0	4	64	12	1	11	9	1	5	94	64	10	2	0	15	4	273	280	265	0	0	0	15

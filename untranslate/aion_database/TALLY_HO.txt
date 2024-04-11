@@ -1,6 +1,6 @@
 # File Name: TALLY_HO.txt
 # File Size: 21072       
-# File Date: 04/10/2024 02:36:33
+# File Date: 04/11/2024 03:23:35
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -317,7 +317,7 @@ Holy-Bible---Sanskrit---Velthuis-Script	7957	7957	7959
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark	678	678	678
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	31102	31102	31105
 Holy-Bible---Serbian---Serbian-Ekavski-Bible	31102	31102	31103
-Holy-Bible---Setswana---Open-Tswana-Living	7617	7617	7618
+Holy-Bible---Setswana---Open-Tswana-Living	7619	7619	7620
 Holy-Bible---Shona---Rakasununguka	31102	31102	31103
 Holy-Bible---Shona---Shona-Bible	7957	7957	7957
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	31065	31065	31319

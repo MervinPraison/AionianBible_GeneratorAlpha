@@ -5072,10 +5072,37 @@ goto RAWHIDE;
 
 
 
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Estonian---For-All" :
+$textfix = <<<EOF
+JOH 14:16 Ma palun Isa ja ta saadab teile teise Lohutaja, tõe Vaimu, kes on alati teie juures.
+JOH 14:17 Maailm ei saa teda vastu võtta, sest ta ei otsi teda ega tunne teda. Aga teie tunnete teda, sest ta elab teie juures ja on teie sees.
+JOH 14:18 
+EOF;
+if (!($bfile = preg_replace("/JOH 14:16 (.+?)JOH 14:18 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Ewe---Word-of-Life" :
 if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )[\d.]+/mus",'$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
+$textfix = <<<EOF
+JOH 4:13 Yesu ɖo eŋu nɛ be, “Ame sia ame si no tsi sia la, tsikɔ agawui,
+JOH 4:14 gake ame si ano tsi si manae la, tsikɔ magawui o. Le nyateƒe me la, tsi si manae la azu agbetsi, anɔ sisim le eme si ahe agbe mavɔ vɛ.”
+JOH 4:15 
+EOF;
+if (!($bfile = preg_replace("/JOH 4:13 (.+?)JOH 4:15 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 14:16 Mabia Fofo la, wòaɖo nyaxɔɖeakɔla bubu ɖe mi, ame si nye nyateƒe ƒe Gbɔgbɔ, be wòanɔ anyi kpli mi yi ɖe mavɔ me.
+JOH 14:17 Xexea me mate ŋu axɔ nyateƒe ƒe Gbɔgbɔ la o, elabena mekpɔnɛ alo dzea sii o. Ke miawo la, mienyae, elabena ele mia me, eye wòanɔ anyi kpli mi.
+JOH 14:18 
+EOF;
+if (!($bfile = preg_replace("/JOH 14:16 (.+?)JOH 14:18 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -5501,6 +5528,12 @@ LUK 1:33 il régnera éternellement sur la maison de Jacob, et son règne n’au
 LUK 1:34 
 EOF;
 if (!($bfile = preg_replace("/LUK 1:32 (.+?)LUK 1:34 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 4:13 Jésus lui répondit : « Quiconque boit de cette eau aura encore soif ;
+JOH 4:14 mais celui qui boira de l'eau que je lui donnerai, n’aura plus jamais soif ; au contraire l'eau que je lui donnerai de viendra en lui une source d'eau jaillissant jusqu’à la vie éternelle. »
+JOH 4:15 
+EOF;
+if (!($bfile = preg_replace("/JOH 4:13 (.+?)JOH 4:15 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 JOH 11:56 Ils cherchaient Jésus et ils se disaient les uns aux autres, se tenant dans le temple : « Que vous en semble ? Pensez-vous qu’il ne viendra pas à la fête ? »
 JOH 11:57 Or, les Pontifes et les Pharisiens avaient donné l’ordre que, si quelqu’un savait où il était, il le déclarât, afin qu’ils le fissent prendre.
@@ -6246,6 +6279,13 @@ Luke 1:33 et il régnera éternellement sur la maison de Jacob, et son règne n�
 Luke 1:34 
 EOF;
 if (!($bfile = preg_replace("/Luke 1:32 (.+?)Luke 1:34 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+
+John 4:13 Jésus lui répondit : Quiconque boit de cette eau aura encore soif ;
+John 4:14 mais celui qui boira de l’eau que je lui donnerai n’aura jamais soif ; car l’eau que je lui donnerai deviendra en lui une source d’eau qui jaillira jusque dans la vie éternelle.
+John 4:15 
+EOF;
+if (!($bfile = preg_replace("/\nJohn 4:13 (.+?)\nJohn 4:15 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 II Corinthians 13:12 Saluez-vous les uns les autres par un saint baiser.
 II Corinthians 13:13 Tous les saints vous saluent.
@@ -10515,6 +10555,20 @@ goto RAWHIDE;
 
 
 
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Indonesian---For-All" :
+$textfix = <<<EOF
+JOH 14:16 Saya akan meminta kepada Bapa, bahwa Dia akan memberi untuk kalian Penghibur yang lain. Ini adalah Roh kebenaran, yang akan selalu bersamamu.
+JOH 14:17 Dunia tidak bisa menerima Roh yang sesungguhnya karena tidak melihat dan tidak mengenal-Nya Tetapi kalian akan mengenal-Nya karena Roh itu bersatu dengan kalian, dan kalian bersatu dengan-Nya.
+JOH 14:18 
+EOF;
+if (!($bfile = preg_replace("/JOH 14:16 (.+?)JOH 14:18 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Indonesian---Simple" :
 $textfix = <<<EOF
@@ -13958,6 +14012,12 @@ EZR 9:12 သို့ဖြစ်၍ သင် တို့သမီး ကိ�
 EZR 9:13 
 EOF;
 if (!($bfile = preg_replace("/EZR 9:10 (.+?)EZR 9:13 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bigfix = <<<EOF
+JOH 3:35 ခမည်းတော် သည်သား တော်ကိုချစ် တော်မူ၍၊ ခပ်သိမ်း သောအရာတို့ကို သား တော်လက် သို့ အပ်ပေး တော်မူပြီ။
+JOH 3:36 သား တော်ကို ယုံကြည် သောသူ သည် ထာဝရ အသက် ကိုရ ၏။ သား တော်ကို ပယ် သောသူ မူကား အသက် ကို မ တွေ့ ရ။ ထိုသူ ၏အပေါ် ၌ဘုရားသခင် ၏ အမျက် တော်တည်နေ သည်ဟု ယောဟန်ဟော လေ၏။
+JOH 4:1 
+EOF;
+if (!($bfile = preg_replace("/JOH 3:35 (.+?)JOH 4:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -16230,6 +16290,12 @@ goto RAWHIDE;
 case "Holy-Bible---Portuguese---Free-for-All" :
 if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )[\d.]+/mus",'$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
+$textfix = <<<EOF
+JOH 14:16 Eu pedirei ao Pai, e ele lhes dará outro Consolador, o Espírito da verdade, que sempre estará com vocês.
+JOH 14:17 O mundo não pode recebê-lo, porque não está esperando por ele e não o conhece. Mas, vocês o conhecem, porque ele vive com vocês e estará em vocês.
+JOH 14:18 
+EOF;
+if (!($bfile = preg_replace("/JOH 14:16 (.+?)JOH 14:18 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -16818,6 +16884,12 @@ JOH 4:6 Jesu o ne a lapisitswe ke go tsamaya mo mogoteng wa letsatsi sekgala se 
 JOH 4:7 
 EOF;
 if (!($bfile = preg_replace("/JOH 4:5 (.+?)JOH 4:7 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 4:13 Jesu a fetola a re, “Batho ba tshwarwa ke lenyora ka bofefo fa ba sena go nwa metsi a.
+JOH 4:14 A ke a ba nayang, a nna motswedi wa bosakhutleng mo go bone. Mme metsi a. A ke a motswedi o o ba nose-tsang ka metlha ka botshelo jo bo sa khutleng.”
+JOH 4:15 
+EOF;
+if (!($bfile = preg_replace("/JOH 4:13 (.+?)JOH 4:15 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $jobfix = <<<EOF
 JOH 4:17 Mme mosadi a mo fetola a re, “Kana ga ke a nyalwa.”
 JOH 4:18 Jesu a re, “O bua boammaaruri Ka gore o kile wa nna le banna ba le batlhano, mme monna yo o nnang le ene gompieno jaana ga a go nyala.”
@@ -16856,6 +16928,18 @@ JOH 4:47 a utlwa gore Jesu o boile kwa Judea jaanong o mo Galalea. Monna yo a ya
 JOH 4:48 
 EOF;
 if (!($bfile = preg_replace("/JOH 4:46 (.+?)JOH 4:48 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+JOH 6:50 Mme go na le senkgwe tota se se tswang legodimong se se nayang mongwe le mongwe yo o se jang botshelo jo bo sa khutleng.
+JOH 6:51 Mme ke sone senkgwe seo se se tshelang se se fologileng kwa Legodimong. Le fa e le mang yo o jang senkgwe se o tlaa tshelela ruri; mmele wa me ke sone senkgwe se, se ntsheditswe go golola batho.”
+JOH 6:52 
+EOF;
+if (!($bfile = preg_replace("/JOH 6:50 (.+?)JOH 6:52 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 14:15 “Fa e le gore lo a nthata, inkokobeletseng;
+JOH 14:16 mme ke tlaa kopa Rara mme o tlaa lo naya Mogomotsi yo mongwe, mme ga a kitla a lo tlogela.
+JOH 14:17 
+EOF;
+if (!($bfile = preg_replace("/JOH 14:15 (.+?)JOH 14:17 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $jobfix = <<<EOF
 ACT 18:25 Erile fa a sa ntse a le mo Egepeto, mongwe o ne a mmoleletse ka ga Johane wa Mokolobetsi le se Johane o se buileng ka ga Jesu, mme moo e ne e le gone fela mo a go itseng. O ne a ise a ke a utlwe polelo yotlhe!
 ACT 18:26 Jalo o ne a rera ka bopelokgale le ka botlhaga mo tlung ya thuto a re, “Mesia o e tla! Ipaakanyetseng go mo amogela!” Peresila le Akwila ba ne ba le teng mme ba mo utlwa, mme e ne e le thero e e nonofileng. Morago ga moo ba kopana nae mme ba mo tlhalosetsa se se diragaletseng Jesu go tloga ka nako ya ga Johane, le gore mo gotlhe go raya eng!
