@@ -1614,6 +1614,12 @@ JOH 13:1
 EOF;
 if (!($bfile = preg_replace("/JOH 12:49 (.+?)JOH 13:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
+ACT 2:30 Nemluvil tedy o sobě, ale prorokoval to o Mesiáši, který podle Božího slibu měl být Davidovým potomkem.
+ACT 2:31 A tak když říkal, že nezůstane mezi mrtvými a jeho tělo nepodlehne zkáze, viděl vlastně dopředu Kristovo vzkříšení z mrtvých.
+ACT 2:32 
+EOF;
+if (!($bfile = preg_replace("/ACT 2:30 (.+?)ACT 2:32 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 ACT 18:18 Pavel zůstal v Korintu ještě delší dobu. Nakonec se však rozloučil s bratry a vydal se na cestu lodí zpět do Sýrie. Spolu s ním vypluli i manželé Priscila s Akvilou, kteří se stěhovali do Efezu. Ve východním korintském přístavu si dal Pavel naposled ostříhat vlasy. Po celou cestu až do Jeruzaléma se totiž zavázal dodržovat nazírský slib (vnějšími projevy tohoto slibu bylo, že si muž nestříhal vlasy a vousy a nepil žádné opojné nápoje).
 ACT 18:19 V Efezu se Pavel rozloučil s přáteli, ale před odjezdem ještě zašel do tamní synagogy pohovořit si s židy.
 ACT 18:20 
@@ -5587,6 +5593,12 @@ GAL 1:1
 EOF;
 if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
+2TI 4:9 Tâche de me rejoindre au plus tôt ; 
+2TI 4:10 car Démas, m’a quitté par amour pour le siècle présent, et il est parti pour Thessalonique ; Crescent est allé en Galatie, Tite en Dalmatie.
+2TI 4:11 
+EOF;
+if (!($bfile = preg_replace("/2TI 4:9 (.+?)2TI 4:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 HEB 13:24 Saluez tous ceux qui vous conduisent et tous les saints. Les frères d’Italie vous saluent.
 HEB 13:25 Que la grâce soit avec vous tous ! Amen !
 JAM 1:1 
@@ -6293,6 +6305,25 @@ II Corinthians 13:14 Que la grâce de Notre-Seigneur Jésus-Christ, l’amour de
 Galatians 1:1 
 EOF;
 if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+II Thessalonians 2:10 et avec toutes les séductions de l’iniquité pour ceux qui périssent, parce qu’ils n’ont pas reçu l’amour de la vérité pour être sauvés.
+II Thessalonians 2:11 C’est pourquoi Dieu leur enverra une puissance d’égarement, pour qu’ils croient au mensonge,
+II Thessalonians 2:12 afin que tous ceux qui n’auront pas cru à la vérité, mais qui auront consenti à l’iniquité, soient condamnés.
+II Thessalonians 2:13 Mais nous, frères bien-aimés de Dieu, nous devons rendre à Dieu de continuelles actions de grâces à votre sujet, de ce que Dieu vous a élus comme des prémices, pour vous sauver par la sanctification de l’Esprit et par la foi en la vérité ;
+II Thessalonians 2:14 ce à quoi il vous a appelés par notre Evangile, pour vous faire acquérir la gloire de Notre-Seigneur Jésus-Christ.
+II Thessalonians 2:15 Ainsi donc, frères, demeurez fermes, et conservez les traditions que vous avez apprises soit par notre parole, soit par notre lettre.
+II Thessalonians 2:16 Que Notre-Seigneur Jésus-Christ lui-même, et Dieu notre Père, qui nous a aimés, et qui nous a donné par sa grâce une consolation éternelle et une bonne espérance,
+II Thessalonians 2:17 consolent vos cœurs, et vous affermissent en toute bonne œuvre, et en toute bonne parole !
+II Thessalonians 3:1 
+EOF;
+if (!($bfile = preg_replace("/II Thessalonians 2:10 (.+?)II Thessalonians 3:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+II Timothy 4:8 Reste la couronne de justice qui m’est réservée, que le Seigneur, le juste juge, me rendra en ce jour-là ; et non seulement à moi, mais aussi à ceux qui aiment son avènement.
+II Timothy 4:9 Hâte-toi de venir bientôt auprès de moi.
+II Timothy 4:10 Car Démas m’a abandonné, par amour pour le siècle, et il est allé à Thessalonique ; Crescent, en Galatie ; Tite, en Dalmatie.
+II Timothy 4:11 
+EOF;
+if (!($bfile = preg_replace("/II Timothy 4:8 (.+?)II Timothy 4:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -13822,12 +13853,42 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Malayalam---Malayalam-Bible-1910" :
 $textfix = <<<EOF
+Romans 2:7 നല്ല പ്രവൃത്തിക്കു വേണ്ടുന്ന സ്ഥിരത പൂണ്ടു തേജസ്സും മാനവും അക്ഷയതയും അന്വേഷിക്കുന്നവൎക്കു നിത്യജീവനും,
+Romans 2:8 ശാഠ്യം പൂണ്ടു സത്യം അനുസരിക്കാതെ അനീതി അനുസരിക്കുന്നവൎക്കു കോപവും ക്രോധവും കൊടുക്കും.
+Romans 2:9 
+EOF;
+if (!($bfile = preg_replace("/Romans 2:7 (.+?)Romans 2:9 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 Romans 16:25 പൂൎവ്വകാലങ്ങളിൽ മറഞ്ഞിരുന്നിട്ടു ഇപ്പോൾ വെളിപ്പെട്ടുവന്നതും നിത്യദൈവത്തിന്റെ നിയോഗപ്രകാരം സകലജാതികൾക്കും വിശ്വാസത്തിന്റെ അനുസരണത്തിന്നായി പ്രവാചകന്മാരുടെ എഴുത്തുകളാൽ
 Romans 16:26 അറിയിച്ചിരിക്കുന്നതുമായ മൎമ്മത്തിന്റെ വെളിപ്പാടിന്നു അനുസരണമായുള്ള എന്റെ സുവിശേഷത്തിന്നും യേശുക്രിസ്തുവിനെക്കുറിച്ചുള്ള പ്രസംഗത്തിന്നും ഒത്തവണ്ണം നിങ്ങളെ സ്ഥിരപ്പെടുത്തുവാൻ കഴിയുന്ന
 Romans 16:27 ഏകജ്ഞാനിയായ ദൈവത്തിന്നു യേശുക്രിസ്തുമുഖാന്തരം എന്നെന്നേക്കും മഹത്വം ഉണ്ടാകുമാറാകട്ടെ. ആമേൻ. 
 I Corinthians 1:1 
 EOF;
 if (!($bfile = preg_replace("/Romans 16:24 (.+?)I Corinthians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Galatians 1:3 കൎത്താവായ യേശുക്രിസ്തുവിങ്കൽ നിന്നും നിങ്ങൾക്കു കൃപയും സമാധാനവും ഉണ്ടാകട്ടെ,
+Galatians 1:4 പിതാവായ ദൈവത്തിങ്കൽനിന്നും നമ്മുടെ ദൈവവും പിതാവുമായവന്റെ ഇഷ്ടപ്രകാരം ഇപ്പോഴത്തെ ദുഷ്ടലോകത്തിൽനിന്നു നമ്മെ വിടുവിക്കേണ്ടതിന്നു നമ്മുടെ പാപങ്ങൾനിമിത്തം തന്നെത്താൻ ഏല്പിച്ചുകൊടുത്തവനായി നമ്മുടെ.
+Galatians 1:5 
+EOF;
+if (!($bfile = preg_replace("/Galatians 1:3 (.+?)Galatians 1:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Ephesians 2:6 ക്രിസ്തുയേശുവിൽ അവനോടുകൂടെ ഉയിൎത്തെഴുന്നേല്പിച്ചു സ്വൎഗ്ഗത്തിൽ ഇരുത്തുകയും ചെയ്തു,
+Ephesians 2:7 ക്രിസ്തുയേശുവിൽ നമ്മെക്കുറിച്ചുള്ള വാത്സല്യത്തിൽ തന്റെ കൃപയുടെ അത്യന്തധനത്തെ വരും കാലങ്ങളിൽ കാണിക്കേണ്ടതിന്നു.
+Ephesians 2:8 
+EOF;
+if (!($bfile = preg_replace("/Ephesians 2:6 (.+?)Ephesians 2:8 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Titus 2:12 ഭക്തികേടും പ്രപഞ്ചമോഹങ്ങളും വൎജ്ജിച്ചിട്ടു ഈ ലോകത്തിൽ സുബോധത്തോടും നീതിയോടും ദൈവഭക്തിയോടുംകൂടെ ജീവിച്ചുപോരേണ്ടതിന്നു അതു നമ്മെ ശിക്ഷിച്ചുവളൎത്തുന്നു,
+Titus 2:13 നാം ഭാഗ്യകരമായ പ്രത്യാശെക്കായിട്ടും മഹാദൈവവും നമ്മുടെ രക്ഷിതാവുമായ യേശുക്രിസ്തുവിന്റെ തേജസ്സിന്റെ പ്രത്യക്ഷതെക്കായിട്ടും കാത്തുകൊണ്ടു.
+Titus 2:14 
+EOF;
+if (!($bfile = preg_replace("/Titus 2:12 (.+?)Titus 2:14 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Titus 3:6 നാം അവന്റെ കൃപയാൽ നീതീകരിക്കപ്പെട്ടിട്ടു
+Titus 3:7 പ്രത്യാശപ്രകാരം നിത്യജീവന്റെ അവകാശികളായിത്തീരേണ്ടതിന്നു പുനൎജ്ജനനസ്നാനം കൊണ്ടും നമ്മുടെ രക്ഷിതാവായ യേശുക്രിസ്തുമൂലം നമ്മുടെമേൽ ധാരാളമായി പകൎന്ന പരിശുദ്ധാത്മാവിന്റെ നവീകരണംകൊണ്ടും തന്നേ.
+Titus 3:8 
+EOF;
+if (!($bfile = preg_replace("/Titus 3:6 (.+?)Titus 3:8 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -14018,6 +14079,26 @@ JOH 3:36 သား တော်ကို ယုံကြည် သောသူ �
 JOH 4:1 
 EOF;
 if (!($bfile = preg_replace("/JOH 3:35 (.+?)JOH 4:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bigfix = <<<EOF
+EPH 3:8 စစ် ၍မကုန်နိုင်သော ခရစ်တော် ၏ ကြွယ်ဝ ပြည့်စုံခြင်း၏ ဧဝံဂေလိ တရားကို တစ်ပါး အမျိုးသားတို့အား ဟောပြောခြင်းငှာ၎င်း၊
+EPH 3:9 အလုံးစုံ တို့ကို ယေရှု ခရစ်အားဖြင့် ဖန်ဆင်း တော်မူသောဘုရားသခင် ၌ ရှေး ကပ်ကာလပတ်လုံးဝှက်ထား လျက်ရှိသော ထို နက်နဲ သောအရာနှင့် စပ်ဆိုင်သော သာသနာ သည် အဘယ်သို့ ဖြစ်သည်ကို လူအပေါင်း တို့အား ထင်ရှား စေခြင်းငှာ၎င်း ၊ သန့်ရှင်း သူအပေါင်း တို့တွင် အငယ်ဆုံးသော သူထက်သာ၍ငယ် သော ငါ အားထို ကျေးဇူး တော်ကို ပေး တော်မူပြီ။
+EPH 3:10 ကောင်းကင် အရပ်တို့၌ အထွဋ်အမြတ် အာဏာစက် တို့သည်၊ ဘုရားသခင် ၏ထူးဆန်း သော ပညတ် တော်ကို အသင်းတော် အားဖြင့် ယခု သိ ကြရမည် အကြောင်း တည်း။
+EPH 3:11 အဘယ်ကြောင့်နည်းဟူမူကား၊ ငါ တို့သခင် ယေရှု ခရစ် ကို အကြောင်း ပြု၍ ထာဝရ အကြံ တော် ရှိသည်နှင့်အညီ ၊
+EPH 3:12 
+EOF;
+if (!($bfile = preg_replace("/EPH 3:8 (.+?)EPH 3:12 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2TI 4:9 ငါ့ ထံသို့ မြန်မြန် လာ ခြင်းငှာကြိုးစား လော့။
+2TI 4:10 အကြောင်းမူကား၊ ဒေမ သည် ယခု ဘဝ ကို နှစ်သက် သော စိတ်ရှိသည်နှင့် ငါ့ ကိုစွန့်ပစ် ၍၊ သက်သာလောနိတ် မြို့သို့ သွား ပြီ။ ကရက္ကေ သည်ဂလာတိ ပြည်သို့ ၎င်း ၊ တိတု သည် ဒါလမာတိ ပြည်သို့ ၎င်း သွားပြီ။
+2TI 4:11 
+EOF;
+if (!($bfile = preg_replace("/2TI 4:9 (.+?)2TI 4:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+HEB 6:1 ထိုကြောင့် ၊ သေ ခြင်းနှင့်စပ်ဆိုင်သော အကျင့် ကို နောင်တရ ခြင်း၊
+HEB 6:2 ဘုရားသခင် ကို ယုံကြည် ခြင်း၊ ဗတ္တိဇံ တရားကိုသွန်သင် ခြင်း၊ လက် ကိုတင် ခြင်း၊ သေ လွန်သော သူတို့၏ထမြောက် ခြင်း၊ ထာဝရ စီရင် ဆုံးဖြတ်ခြင်းတည်းဟူသောမူလ အမြစ်ကို ငါတို့သည် ပြန် ၍ မ တည် ဘဲ၊ ခရစ်တော် ၏ဘာသာ၌ အစအဦး ဖြစ် သော အကြောင်း အရာတို့ကိုထား ၍၊ စုံလင် သောအဖြစ်သို့ တက် ကြကုန်အံ့
+HEB 6:3 
+EOF;
+if (!($bfile = preg_replace("/HEB 6:1 (.+?)HEB 6:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
