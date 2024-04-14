@@ -1,6 +1,6 @@
 # File Name: ANAVIGATION.txt
-# File Size: 19064       
-# File Date: 04/12/2024 02:22:10
+# File Size: 19002       
+# File Date: 04/13/2024 20:36:50
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -241,7 +241,6 @@ Holy-Bible---Kannada---Kannada-Bible
 Holy-Bible---Kannada---Kannada-Bible	VERSMISS	042-LUK-001-055
 Holy-Bible---Kannada---Kannada-Bible	VERSMISS	045-ROM-016-026
 Holy-Bible---Kannada---Kannada-Bible	VERSMISS	049-EPH-003-011
-Holy-Bible---Kannada---Kannada-Bible	VERSMISS	054-1TI-006-019
 Holy-Bible---Kannada---Kannada-Bible	VERSMISS	056-TIT-003-007
 Holy-Bible---Kannada---Kannada-Bible	VERSMISS	058-HEB-006-002
 Holy-Bible---Kannada---Kannada-Bible	VERSMISS	058-HEB-013-021
