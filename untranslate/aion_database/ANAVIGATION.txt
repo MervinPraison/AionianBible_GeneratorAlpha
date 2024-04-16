@@ -1,6 +1,6 @@
 # File Name: ANAVIGATION.txt
-# File Size: 19002       
-# File Date: 04/13/2024 20:36:50
+# File Size: 19177       
+# File Date: 04/16/2024 00:12:14
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -56,6 +56,11 @@ Holy-Bible---Chiyawo---Yao
 Holy-Bible---Coptic---Coptic-Boharic-NT		
 Holy-Bible---Coptic---Coptic-NT		
 Holy-Bible---Coptic---Sahidic-Bible-2		
+Holy-Bible---Coptic---Sahidic-Bible-2	VERSMISS	065-JUD-001-006
+Holy-Bible---Coptic---Sahidic-Bible-2	VERSMISS	065-JUD-001-007
+Holy-Bible---Coptic---Sahidic-Bible-2	VERSMISS	065-JUD-001-013
+Holy-Bible---Coptic---Sahidic-Bible-2	VERSMISS	065-JUD-001-021
+Holy-Bible---Coptic---Sahidic-Bible-2	VERSMISS	065-JUD-001-025
 Holy-Bible---Coptic---Sahidic-Coptic-Horner		
 Holy-Bible---Croatian---Croatian-Bible		
 Holy-Bible---Czech---Czech-Bible-Kralicka		
@@ -313,7 +318,6 @@ Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet
 Holy-Bible---Polish---Open-Access-Word-of-Life		
 Holy-Bible---Polish---Open-Access-Word-of-Life	VERSMISS	042-LUK-001-070
 Holy-Bible---Polish---Open-Access-Word-of-Life	VERSMISS	058-HEB-013-021
-Holy-Bible---Polish---Open-Access-Word-of-Life	VERSMISS	066-REV-020-015
 Holy-Bible---Polish---Polish-Gdansk		
 Holy-Bible---Polish---Polish-Updated-Gdansk		
 Holy-Bible---Portuguese---Almeida-Bible-1911		
@@ -365,7 +369,6 @@ Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	040-MAT-012-032
 Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	042-LUK-020-035
 Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	058-HEB-013-021
 Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	065-JUD-001-025
-Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	066-REV-001-018
 Holy-Bible---Shona---Rakasununguka		
 Holy-Bible---Shona---Shona-Bible		
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth		

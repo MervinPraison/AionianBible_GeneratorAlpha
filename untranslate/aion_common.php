@@ -613,7 +613,7 @@ function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $ski
 		'source'	=> $source,
 		'uniusage'	=> $uniusage,
 		'include'	=> '/---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
-		//'include'	=> '/Holy-Bible---.*(Albrecht|1917).*---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
+		//'include'	=> '/Holy-Bible---.*(Burmese-Judson).*---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---Slovene---Slovene-Savli-Bible---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
 		//'include'	=> '/Holy-Bible---([F-Z]{1}).+---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---Kiche---Totonicapan---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
@@ -2570,7 +2570,7 @@ function AION_BIBLES_REMAPPER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 		}
 	}
 	/* REV12-18 */
-	if (isset($database[T_VERSEMAP][$bible.'-REV-12-18'])!==FALSE) {	
+	if (isset($database[T_VERSEMAP][$bible.'-REV12-18'])!==FALSE) {	
 		/* REV */
 		if ($book=='REV' && $chapter==13) {
 			AION_BIBLES_SLIDE_BACK($bible, 12, 17, 1, $chapter, $verse);	$current="WARNING REMAPPED = $bible: SINGLE Rev 12-18 12";	if ($previous!=$current) { AION_ECHO($current); $previous=$current; } goto YO; }

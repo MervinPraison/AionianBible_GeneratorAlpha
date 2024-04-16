@@ -1,6 +1,6 @@
 # File Name: TALLY_HO.txt
 # File Size: 21072       
-# File Date: 04/13/2024 20:13:54
+# File Date: 04/15/2024 23:49:54
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -51,7 +51,7 @@ Holy-Bible---Chinese---Chinese-Union-Version-Traditional	31017	31017	31019
 Holy-Bible---Chiyawo---Yao	7957	7957	7959
 Holy-Bible---Coptic---Coptic-Boharic-NT	7950	7950	7957
 Holy-Bible---Coptic---Coptic-NT	7945	7945	7957
-Holy-Bible---Coptic---Sahidic-Bible-2	7921	7921	7959
+Holy-Bible---Coptic---Sahidic-Bible-2	7897	7897	7935
 Holy-Bible---Coptic---Sahidic-Coptic-Horner	7905	7905	7934
 Holy-Bible---Croatian---Croatian-Bible	31086	31086	31342
 Holy-Bible---Czech---Czech-Bible-Kralicka	31102	31102	31103
@@ -254,7 +254,7 @@ Holy-Bible---Marathi---Marathi-Bible	31092	31092	31094
 Holy-Bible---Munda---Munda-Bible	7957	7957	7959
 Holy-Bible---Mwera---Mwera-Bible	7957	7957	7959
 Holy-Bible---Myanmar---Burmese-Common-Bible	29767	29767	29794
-Holy-Bible---Myanmar---Burmese-Judson	30981	30981	31102
+Holy-Bible---Myanmar---Burmese-Judson	30982	30982	31103
 Holy-Bible---Myanmar---Myanmar-Burmese-Judson	30846	30846	30929
 Holy-Bible---Ndebele---Accessible-Bible	31102	31102	31103
 Holy-Bible---Ndebele---Ndebele-Bible	31102	31102	31102
@@ -272,7 +272,7 @@ Holy-Bible---Persian---Open-Contemporary	29468	29468	29469
 Holy-Bible---Pogolo---Pogoro-Bible	7957	7957	7959
 Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet	10415	10415	10416
 Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet	10415	10415	10416
-Holy-Bible---Polish---Open-Access-Word-of-Life	7916	7916	7917
+Holy-Bible---Polish---Open-Access-Word-of-Life	7917	7917	7918
 Holy-Bible---Polish---Polish-Gdansk	31101	31101	31170
 Holy-Bible---Polish---Polish-Updated-Gdansk	31102	31102	31102
 Holy-Bible---Portuguese---Almeida-Bible-1911	31102	31102	31102
@@ -317,7 +317,7 @@ Holy-Bible---Sanskrit---Velthuis-Script	7957	7957	7959
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark	678	678	678
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	31102	31102	31105
 Holy-Bible---Serbian---Serbian-Ekavski-Bible	31102	31102	31103
-Holy-Bible---Setswana---Open-Tswana-Living	7619	7619	7620
+Holy-Bible---Setswana---Open-Tswana-Living	7620	7620	7621
 Holy-Bible---Shona---Rakasununguka	31102	31102	31103
 Holy-Bible---Shona---Shona-Bible	7957	7957	7957
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	31065	31065	31319
