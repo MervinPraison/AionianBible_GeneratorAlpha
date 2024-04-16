@@ -1150,6 +1150,11 @@ Acts 7:60 ⲁϥⲕⲱⲗϫ ⲇⲉ ⲛⲛⲉϥⲡⲁⲧ ⲁϥⲁϣⲕⲁⲕ ⲉ�
 Acts 8:1 
 EOF;
 if (!($bfile = preg_replace("/Acts 7:59 (.+?)Acts 8:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Jude 1:1 (note: chapter missing)
+Revelation of John 1:1 
+EOF;
+if (!($bfile = preg_replace("/Jude 1:1 (.+?)Revelation of John 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -4180,22 +4185,25 @@ goto RAWHIDE;
 
 
 
-
-// RAWFIX BIBLE ********************
-//case "Holy-Bible---English---Webster-Bible-Revised" :
-//if (!($bfile = preg_replace("/\{[^{}\n]*\}/us"," ",$bfile,-1,$rnum)) || $rnum!=7864) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-//$bfile_saved = $bfile;
-//goto RAWHIDE;
-
-
-
-
 // RAWFIX BIBLE ********************
 case "Holy-Bible---English---Weymouth-NT" :
 if (!($bfile = preg_replace("/`/us","'",$bfile,-1,$rnum)) || $rnum!=542) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%60/1
 if (!($bfile = preg_replace("/&lt;/us","",$bfile,-1,$rnum)) || $rnum!=308) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/&gt;/us","",$bfile,-1,$rnum)) || $rnum!=307) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---English---Worsley-Bible" :
+$textfix = <<<EOF
+Revelation of John 4:9 And when the animals give glory and honor and thanks to Him that sitteth on the throne, who liveth for ever and ever,
+Revelation of John 4:10 the four and twenty elders fall down before Him that sitteth on the throne, and worship Him that liveth for ever and ever,
+Revelation of John 4:11 
+EOF;
+if (!($bfile = preg_replace("/Revelation of John 4:9 (.+?)Revelation of John 4:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -5604,6 +5612,12 @@ HEB 13:25 Que la grâce soit avec vous tous ! Amen !
 JAM 1:1 
 EOF;
 if (!($bfile = preg_replace("/HEB 13:24 (.+?)JAM 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+REV 20:9 mais Dieu fit tomber un feu du ciel qui les dévora.
+REV 20:10 Et le diable, leur séducteur, fut jeté dans l’étang de feu et de soufre, où sont la bête et le faux prophète, et ils seront tourmentés jour et nuit aux siècles des siècles.
+REV 20:11 
+EOF;
+if (!($bfile = preg_replace("/REV 20:9 (.+?)REV 20:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -6324,6 +6338,12 @@ II Timothy 4:10 Car Démas m’a abandonné, par amour pour le siècle, et il es
 II Timothy 4:11 
 EOF;
 if (!($bfile = preg_replace("/II Timothy 4:8 (.+?)II Timothy 4:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Revelation of John 20:9 Mais un feu, lancé par Dieu, descendit du ciel et les dévora ;
+Revelation of John 20:10 et le diable qui les séduisait fut jeté dans l’étang de feu et de soufre, où la bête et le faux prophète seront tourmentés jour et nuit dans les siècles des siècles.
+Revelation of John 20:11 
+EOF;
+if (!($bfile = preg_replace("/Revelation of John 20:9 (.+?)Revelation of John 20:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -13640,6 +13660,12 @@ $textfix = <<<EOF
 1CO 11:2 
 EOF;
 if (!($bfile = preg_replace("/1CO 10:34 (.+?)1CO 11:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+REV 20:9 Nionjoñe mb’ambone’ ty treha’ i Taney iereo nañarikoboñe ty tobe’ o noro’eo naho i rova kokoañey.
+REV 20:10 Fe nidoiñe boak’ andindìñe ey ty afo nampibotseke iareo. Le navokovoko amy antara-afo aman-tsolifaray i mpañìnje namañahy iareoy, hatraoke amy bibiy naho i mpitoky sare’eiy, vaho halovilovy handro an-kaleñe nainai’e kitro-katroke.
+REV 20:11 
+EOF;
+if (!($bfile = preg_replace("/REV 20:9 (.+?)REV 20:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -14099,6 +14125,18 @@ HEB 6:2 ဘုရားသခင် ကို ယုံကြည် ခြင်
 HEB 6:3 
 EOF;
 if (!($bfile = preg_replace("/HEB 6:1 (.+?)HEB 6:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+REV 18:18 ဤမျှလောက် ကြီးစွာ သော စည်းစိမ် သည် တ နာရီ ခြင်းတွင် ပျက်စီး ပါပြီတကားဟု ငိုကြွေး ၍ စိတ်မသာ ညည်းတွားကြလိမ့်မည်။ ခပ်သိမ်း သောသင်္ဘော သူကြီး၊ အရပ်ရပ် သို့ လွှင့်ကူး တတ်သော သူအပေါင်း တို့နှင့် သင်္ဘောသား ၊ ပင်လယ် ကုန်သည် ရှိသမျှ တို့သည် အဝေး က ရပ် ၍18သူ ကျွမ်းလောင် ရာမီးခိုး
+REV 18:19 ကိုမြင် လျှင်၊ ထိုမြို့ နှင့် အဘယ် မြို့ တူ သနည်းဟူ၍၎င်း၊
+REV 18:20 ဖြစ်ရ လေခြင်း၊ ဖြစ်ရ လေခြင်း၊ ပင်လယ် ကူး သော သင်္ဘော ကိုပိုင် သော သူ အပေါင်း တို့အား ကိုယ် စည်းစိမ်ကိုပေး၍ ငွေရတတ်စေသော မြို့ ကြီး ၊ တစ် နာရီ ခြင်းတွင် ပျက်စီး ပါပြီ တကားဟူ၍၎င်း အော်ဟစ် လျက်၊ မြေမှုန့် ကို မိမိ တို့ခေါင်း ပေါ်မှာ ပစ်တင် လျက် ငိုကြွေး ၍ စိတ်မသာ ညည်းတွားကြလိမ့်မည်။
+REV 18:21 ကောင်းကင် မှစ၍ သန့်ရှင်း သူ တမန်တော် ပရောဖက် တို့၊ သူ ကို ကြည့်ရှု၍ ဝမ်းမြောက် ကြလော့။ ဘုရားသခင် သည် သင် တို့ဘက်၌ နေ၍၊ သူ့ ကို တရား စီရင် တော်မူပြီဟုပြောဆိုသည်ကို ငါကြား၏။
+REV 18:22 ခွန်အား ကြီးသော ကောင်းကင်တမန် တစ်ပါး သည် ကြီးစွာ သော ကြိတ်ဆုံ ကျောက်ကဲ့သို့သော ကျောက် ကို ချီယူ ၍ ပင်လယ် ထဲသို့ ချပစ် ပြီးလျှင် ထိုနည်းတူ ၊ ဗာဗုလုန် မြို့ ကြီး ကို ပြင်းထန် စွာ ချပစ် ၍ နောက်တစ်ဖန် မ ပေါ် မရှိရ။
+REV 18:23 စောင်း သမား၊ အငြိမ့်သမား၊ ပုလွေ သမား၊ တံပိုး သမားများ တီးမှုတ်သော အသံ လည်း သင့် အထဲ ၌ နောက်တစ်ဖန် မ မြည် ရ။ အမျိုးမျိုး သော လက်တတ် သမား တို့တွင် တစ်ယောက်မျှ သင့် အထဲ ၌ နောက်တစ်ဖန် မ ပေါ် မရှိရ။ ကြိတ်ဆုံ သံ လည်း သင့် အထဲ ၌ နောက်တစ်ဖန် မ မြည် ရ။
+REV 18:24 ဆီမီး အလင်း လည်း သင့် အထဲ ၌ နောက်တစ်ဖန် မ ထွန်း မလင်းရ။ မင်္ဂလာဆောင်သတို့သား သတို့သမီး အသံ ကိုလည်း သင့် အထဲ ၌ နောက်တစ်ဖန် မ ကြား ရ။ အကြောင်းမူကား ၊ လောကီ မှူးမတ် တို့သည် သင် ၏ ကုန်သည် ဖြစ် ကြပြီ။ လူ အမျိုးမျိုး တို့သည် သင် ၏ ပြုစား ခြင်း ပရိယာယ်အားဖြင့် လှည့်ဖြား ခြင်းကို ခံရကြ ပြီဟု ကောင်းကင်တမန် ပြောဆို၏။
+REV 18:25 ပရောဖက် တို့၏ အသွေး ၊ သန့်ရှင်း သူတို့၏ အသွေး၊ မြေကြီး ပေါ်မှာ ကွပ်မျက် သောသူ အပေါင်း တို့၏ အသွေးကို ထိုမြို့ ၌ တွေ့ ၏။
+REV 19:1 
+EOF;
+if (!($bfile = preg_replace("/REV 18:18 (.+?)REV 19:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -15702,6 +15740,12 @@ JUD 1:25 On jest jedynym, prawdziwym Bogiem i Jemu należy się wieczna chwała,
 REV 1:1 
 EOF;
 if (!($bfile = preg_replace("/JUD 1:24 (.+?)REV 1:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bigfix = <<<EOF
+REV 20:14 Wówczas śmierć i świat zmarłych zostały wrzucone do ognistego jeziora.
+REV 20:15 Trafili tam również wszyscy ci, którzy nie byli zapisani w księdze życia. Ogniste jezioro jest drugą śmiercią.
+REV 21:1 
+EOF;
+if (!($bfile = preg_replace("/REV 20:14 (.+?)REV 21:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -17112,6 +17156,12 @@ $jobfix = <<<EOF
 1JO 5:9 
 EOF;
 if (!($bfile = preg_replace("/1JO 5:6 (.+?)1JO 5:9 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+REV 1:17 Erile ke mmona, ka wela fa dinaong tsa gagwe jaaka ekete ke sule; mme a baya seatla sa gagwe se segolo mo go nna a re, “Se boife! Le fa ke le wa Ntlha le wa Bofelo,
+REV 1:18 yo o tshelang yo o neng a swa, yo jaanong o tshelang ka bosakhutleng, yo o tshotseng dilotlele tsa molete le loso, se boife!
+REV 1:19 
+EOF;
+if (!($bfile = preg_replace("/REV 1:17 (.+?)REV 1:19 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 

@@ -745,6 +745,8 @@ Holy-Bible---Kannada---Open-Contemporary	042	LUK	001	054	AIONS	g165		NULL
 Holy-Bible---Kannada---Open-Contemporary	042	LUK	001	055	SKIP			NULL
 Holy-Bible---Kannada---Open-Contemporary	042	LUK	001	069	AIONS	g165		NULL
 Holy-Bible---Kannada---Open-Contemporary	042	LUK	001	070	SKIP			NULL
+Holy-Bible---Kannada---Open-Contemporary	063	2JO	001	001	AIONS	g165		NULL
+Holy-Bible---Kannada---Open-Contemporary	063	2JO	001	002	SKIP			NULL
 Holy-Bible---Kiche---Totonicapan	065	JUD	001	020	AIONIAN	g166		NULL
 Holy-Bible---Kiche---Totonicapan	065	JUD	001	021	SKIP			NULL
 Holy-Bible---Kinga---Mahanji-Bible	061	2PE	002	017	NOTE			questioned
@@ -788,6 +790,8 @@ Holy-Bible---Malayalam---Contemporary	049	EPH	003	010	AIONS	g165		NULL
 Holy-Bible---Malayalam---Contemporary	049	EPH	003	011	SKIP			NULL
 Holy-Bible---Malayalam---Contemporary	056	TIT	001	002	SKIP			NULL
 Holy-Bible---Malayalam---Contemporary	056	TIT	001	003	AIONIAN	g166		NULL
+Holy-Bible---Malayalam---Contemporary	063	2JO	001	001	AIONS	g165		NULL
+Holy-Bible---Malayalam---Contemporary	063	2JO	001	002	SKIP			NULL
 Holy-Bible---Malayalam---Contemporary								NULL
 Holy-Bible---Malayalam---Malayalam-Bible								NULL
 Holy-Bible---Malayalam---Malayalam-Bible-1910	041	MAR	009	043	SKIP			NULL
@@ -800,6 +804,10 @@ Holy-Bible---Malayalam---Malayalam-Bible-1910	042	LUK	001	069	AIONS	g165		NULL
 Holy-Bible---Malayalam---Malayalam-Bible-1910	042	LUK	001	070	SKIP			NULL
 Holy-Bible---Malayalam---Malayalam-Bible-1910	053	2TH	001	009	SKIP			NULL
 Holy-Bible---Malayalam---Malayalam-Bible-1910	053	2TH	001	010	AIONIAN	g166		NULL
+Holy-Bible---Malayalam---Malayalam-Bible-1910	063	2JO	001	001	AIONS	g165		NULL
+Holy-Bible---Malayalam---Malayalam-Bible-1910	063	2JO	001	002	SKIP			NULL
+Holy-Bible---Malayalam---Malayalam-Bible-1910	066	REV	010	006	SKIP			NULL
+Holy-Bible---Malayalam---Malayalam-Bible-1910	066	REV	010	007	AIONS	g165		NULL
 Holy-Bible---Malayalam---Malayalam-Bible-1910								NULL
 Holy-Bible---Maori---Maori-Bible								NULL
 Holy-Bible---Marathi---Marathi-Bible								NULL
@@ -820,6 +828,8 @@ Holy-Bible---Myanmar---Burmese-Judson	051	COL	001	025	AIONS	g165		NULL
 Holy-Bible---Myanmar---Burmese-Judson	051	COL	001	026	SKIP			NULL
 Holy-Bible---Myanmar---Burmese-Judson	053	2TH	001	009	SKIP			NULL
 Holy-Bible---Myanmar---Burmese-Judson	053	2TH	001	010	AIONIAN	g166		NULL
+Holy-Bible---Myanmar---Burmese-Judson	063	2JO	001	001	AIONS	g165		NULL
+Holy-Bible---Myanmar---Burmese-Judson	063	2JO	001	002	SKIP			NULL
 Holy-Bible---Myanmar---Burmese-Judson								NULL
 Holy-Bible---Myanmar---Myanmar-Burmese-Judson	042	LUK	001	068	AIONS	g165		NULL
 Holy-Bible---Myanmar---Myanmar-Burmese-Judson	042	LUK	001	070	SKIP			NULL
@@ -1411,8 +1421,6 @@ Holy-Bible---Setswana---Open-Tswana-Living	058	HEB	013	020	AIONS,AIONIAN	g165,g1
 Holy-Bible---Setswana---Open-Tswana-Living	058	HEB	013	021	SKIP			NULL
 Holy-Bible---Setswana---Open-Tswana-Living	065	JUD	001	024	AIONS	g165		NULL
 Holy-Bible---Setswana---Open-Tswana-Living	065	JUD	001	025	SKIP			NULL
-Holy-Bible---Setswana---Open-Tswana-Living	066	REV	001	017	AIONS,HADES	g165,g86		NULL
-Holy-Bible---Setswana---Open-Tswana-Living	066	REV	001	018	SKIP			NULL
 Holy-Bible---Shona---Rakasununguka								NULL
 Holy-Bible---Shona---Shona-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Shona---Shona-Bible								NULL
@@ -1522,4 +1530,6 @@ Holy-Bible---Vietnamese---Vietnamese-Bible-1934								NULL
 Holy-Bible---Vwanji---Vwanji-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Vwanji---Vwanji-Bible								NULL
 Holy-Bible---Yombe---Yombe-Bible								NULL
+Holy-Bible---Yoruba---Yoruba-Bible	066	REV	005	013	SKIP			NULL
+Holy-Bible---Yoruba---Yoruba-Bible	066	REV	005	014	AIONS	g165		NULL
 Holy-Bible---Yoruba---Yoruba-Bible								NULL

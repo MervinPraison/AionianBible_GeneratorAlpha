@@ -2569,6 +2569,22 @@ function AION_BIBLES_REMAPPER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 			goto YO;
 		}
 	}
+	/* REV12-18 */
+	if (isset($database[T_VERSEMAP][$bible.'-REV-12-18'])!==FALSE) {	
+		/* REV */
+		if ($book=='REV' && $chapter==13) {
+			AION_BIBLES_SLIDE_BACK($bible, 12, 17, 1, $chapter, $verse);	$current="WARNING REMAPPED = $bible: SINGLE Rev 12-18 12";	if ($previous!=$current) { AION_ECHO($current); $previous=$current; } goto YO; }
+		if ($book=='REV' && $chapter==14) {
+			AION_BIBLES_SLIDE_BACK($bible, 13, 18, 1, $chapter, $verse);	$current="WARNING REMAPPED = $bible: SINGLE Rev 12-18 13";	if ($previous!=$current) { AION_ECHO($current); $previous=$current; } goto YO; }
+		if ($book=='REV' && $chapter==15) {
+			AION_BIBLES_SLIDE_BACK($bible, 14, 20, 1, $chapter, $verse);	$current="WARNING REMAPPED = $bible: SINGLE Rev 12-18 14";	if ($previous!=$current) { AION_ECHO($current); $previous=$current; } goto YO; }
+		if ($book=='REV' && $chapter==16) {
+			AION_BIBLES_SLIDE_BACK($bible, 15, 8, 1, $chapter, $verse);		$current="WARNING REMAPPED = $bible: SINGLE Rev 12-18 15";	if ($previous!=$current) { AION_ECHO($current); $previous=$current; } goto YO; }
+		if ($book=='REV' && $chapter==17) {
+			AION_BIBLES_SLIDE_BACK($bible, 16, 21, 1, $chapter, $verse);	$current="WARNING REMAPPED = $bible: SINGLE Rev 12-18 16";	if ($previous!=$current) { AION_ECHO($current); $previous=$current; } goto YO; }
+		if ($book=='REV' && $chapter==18) {
+			AION_BIBLES_SLIDE_BACK($bible, 17, 18, 1, $chapter, $verse);	$current="WARNING REMAPPED = $bible: SINGLE Rev 12-18 17";	if ($previous!=$current) { AION_ECHO($current); $previous=$current; } goto YO; }
+	}
 	/* CUSTOM TRANSLATION */
 	if (isset($database[T_VERSEMAP][$bible.'-XALB'])!==FALSE) {
 		$albanian = $index.'-'.$book.'-'.$chapter.'-'.$verse;

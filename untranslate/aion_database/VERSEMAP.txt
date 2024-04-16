@@ -1246,7 +1246,7 @@ Holy-Bible---Manipuri---Meitei-Bible	NONE
 Holy-Bible---Munda---Munda-Bible	NONE
 Holy-Bible---Mwera---Mwera-Bible	NONE
 Holy-Bible---Myanmar---Burmese-Common-Bible	SOL1-8
-Holy-Bible---Myanmar---Burmese-Judson	NONE
+Holy-Bible---Myanmar---Burmese-Judson	REV12-18
 Holy-Bible---Myanmar---Myanmar-Burmese-Judson	NONE
 Holy-Bible---Ndebele---Accessible-Bible	NONE
 Holy-Bible---Ndebele---Ndebele-Bible	NONE

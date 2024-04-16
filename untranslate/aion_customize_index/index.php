@@ -1548,6 +1548,7 @@ static $entry_type_greek = array(
 	"K+O"	=> "Noted difference in King James and other sources, absent in Nestle/Aland sources",
 	"K+o"	=> "Identical in King James sources, minor difference in other sources, absent in Nestle/Aland sources",
 	"k+o"	=> "Minor difference in King James and other sources, absent in Nestle/Aland sources",
+	"+kO"	=> "Minor difference in King James, identical in other sources, absent in Nestle/Aland sources",
 	"ko"	=> "Identical minor difference in King James and other sources, absent in Nestle/Aland sources",
 	"K"		=> "Identical in King James sources, absent in Nestle/Aland and other sources",
 	"k"		=> "Minor difference in King James sources, absent in Nestle/Aland and other sources",
