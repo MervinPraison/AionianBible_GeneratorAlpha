@@ -170,6 +170,7 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 #word .word-para-two .word-text { background-color: #F0EBF5; font-style: italic; }
 #word .word-para-two .word-text .word-aionian { background-color: #F0EBF5; }
 #word .word-para-two .word-text .word-questioned { background-color: #F0EBF5; }
+#word .word-para-two.word-ltr .verse-num { margin-right: 12px; }
 #word .word-verse { font-weight: bold; }
 #word .word-verse-lang { font-weight: bold; }
 #word .word-text { }

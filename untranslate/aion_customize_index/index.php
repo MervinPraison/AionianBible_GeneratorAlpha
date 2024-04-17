@@ -1238,10 +1238,13 @@ global $_BibleONE, $_BibleONE_Lang, $_BibleBOOKS, $_BibleSTRONGS;
 global $_BibleCHAP1, $_BibleCHAP1_Last, $_BibleCHAP2_Last, $_BibleTWO, $_BibleCHAP2, $_BibleTWO_Lang;
 abcms_word_init();
 abcms_word_init_chap();
-if (!ctype_digit($_Part[4]) || (int)$_Part[4]<1 || (int)$_Part[4]>$_BibleCHAP1_Last) {
+if (!ctype_digit($_Part[4]) || (int)$_Part[4]<1 || (int)$_Part[4]>176) {
 	abcms_bomb("/Bibles/$_Part[1]","The Bible book chapter verse requested was not found");
 }
 $_Part[4] = intval($_Part[4]);
+if (empty($_BibleCHAP1[$_Part[4]]) && empty($_BibleCHAP2[$_Part[4]])) {
+	exit(header("Location: ".abcms_href("/Bibles/$_Part[1]/$_Part[2]/$_Part[3]",FALSE,TRUE,TRUE)));
+}
 abcms_html(TRUE,'class=word-read','true');
 abcms_head(abcms_word_menu('vers'));
 // VERSE
@@ -1254,13 +1257,13 @@ $verse_number = (empty($_BibleONE['T_NUMBERS'][$x]) || $x==$_BibleONE['T_NUMBERS
 $strongs = abcms_word_chap_stro($x);
 $verse_text = "$_BibleONE_Lang word-text $strongs'>".(empty($_BibleCHAP1[$x]) ? 'Verse not available in this translation' : $_BibleCHAP1[$x]).'</span> ';
 if ($_BibleCHAP2_Last) {
-	$verse_number2 = (empty($_BibleTWO['T_NUMBERS'][$x]) || $x==$_BibleTWO['T_NUMBERS'][$x] ? '' : $_BibleTWO_Lang." word-verse-lang'>".$_BibleTWO['T_NUMBERS'][$x].'</span>');
-	$verse_text2 = (empty($_BibleCHAP2[$x]) ? '' : $_BibleTWO_Lang." word-text'>".(empty($_BibleCHAP2[$x]) ? 'Verse not available in this translation' : $_BibleCHAP2[$x]).'</span>');
+	$verse_number2 = (empty($_BibleTWO['T_NUMBERS'][$x]) || $x==$_BibleTWO['T_NUMBERS'][$x] ? '' : $_BibleTWO_Lang." word-verse-lang verse-num'>".$_BibleTWO['T_NUMBERS'][$x].'</span>');
+	$verse_text2 = (empty($_BibleCHAP2[$x]) ? '<span>Verse not available in this translation</span>' : $_BibleTWO_Lang." word-text'>".$_BibleCHAP2[$x].'</span>');
 	echo "<div class='word-para'>\n";
 	if ($rtl) { echo "<table class='word-para-one word-rtl'><tr><td class='word-text'>$verse_text</td><td class='word-refs'>$verse_number<span class='word-verse'>$x </span></td></tr></table>\n"; }
 	else {		echo "<div class='word-para-one'><span class='word-verse'>$x </span>$verse_number$verse_text</div>\n"; }
 	if ($rtl2) {echo "<table class='word-para-two word-rtl'><tr><td class='word-text'>$verse_text2</td><td class='word-refs'>$verse_number2</td></tr></table>\n"; }
-	else {		echo "<div class='word-para-two'>$verse_number2$verse_text2</div>\n"; }
+	else {		echo "<div class='word-para-two word-ltr'>$verse_number2$verse_text2</div>\n"; }
 	echo "</div>\n";
 }
 else {
