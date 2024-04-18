@@ -244,12 +244,27 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Aramaic---Aramaic-NT-Peshitta" :
-if (!($bfile = preg_replace("/ ܀/us"," ",$bfile,-1,$rnum)) || $rnum!=7969) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com not found
+if (!($bfile = preg_replace("/܀/us"," ",$bfile,-1,$rnum)) || $rnum!=7969) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com not found
 if (!($bfile = preg_replace("/V/us"," ",$bfile,-1,$rnum)) || $rnum!=41) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 if (!($bfile = preg_replace("/1 : 51 \)/us"," ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }	
 if (!($bfile = preg_replace("/([0-9NO]{3}\t)([0-9]+\t)([0-9]+\t)([^0-9NO\r\n]+)([0-9]+)/us","$1$2$3$4\r\n$1$2$5\t",$bfile,-1,$rnum)) || $rnum!=42) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/([0-9NO]{3}\t)([0-9]+\t)([0-9]+\t)([^0-9NO\r\n]+)([0-9]+)/us","$1$2$3$4\r\n$1$2$5\t",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Aramaic---Syriac-Peshitta" :
+if (!($bfile = preg_replace("/܀/us"," ",$bfile,-1,$rnum)) || $rnum!=7971) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com not found
+if (!($bfile = preg_replace("/V/us"," ",$bfile,-1,$rnum)) || $rnum!=40) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+$blockfix = <<<EOF
+Mark 9:49 ܟܠ ܓܝܪ ܒܢܘܪܐ ܢܬܡܠܚ ܘܟܠ ܕܒܚܬܐ ܒܡܠܚܐ ܬܬܡܠܚ  
+Mark 9:50 ܫܦܝܪܐ ܗܝ ܡܠܚܐ ܐܢ ܕܝܢ ܡܠܚܐ ܬܦܟܗ ܒܡܢܐ ܬܬܡܠܚ ܬܗܘܐ ܒܟܘܢ ܡܠܚܐ ܘܒܫܝܢܐ ܗܘܘ ܚܕ ܥܡ ܚܕ 
+Mark 10:1 
+EOF;
+if (!($bfile = preg_replace("/Mark 9:49 (.+?)Mark 10:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 

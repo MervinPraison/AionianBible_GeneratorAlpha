@@ -1,6 +1,6 @@
 # File Name: TALLY.txt
 # File Size: 21069       
-# File Date: 04/16/2024 08:16:16
+# File Date: 04/18/2024 00:31:56
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -19,7 +19,7 @@ Holy-Bible---Amo---Amo-Bible	7952	7952	7956
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible	31102	31102	31104
 Holy-Bible---Arabic---New-Arabic-Bible	31100	31100	31101
 Holy-Bible---Aramaic---Aramaic-NT-Peshitta	7956	7956	7956
-Holy-Bible---Aramaic---Syriac-Peshitta	7956	7956	7956
+Holy-Bible---Aramaic---Syriac-Peshitta	7957	7957	7957
 Holy-Bible---Arapaho---Arapaho-Luke	1151	1151	1151
 Holy-Bible---Armenian---Armenian-Bible-Eastern	6486	6486	6489
 Holy-Bible---Armenian---Armenian-Bible-Western	7955	7955	7956
