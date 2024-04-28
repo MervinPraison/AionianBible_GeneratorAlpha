@@ -5472,7 +5472,6 @@ goto RAWHIDE;
 case "Holy-Bible---French---French-Crampon-Bible-New" :
 if (!($bfile = preg_replace('/[{]+/us','(',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace('/[}]+/us',')',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-if (!($bfile = preg_replace('/strong="G3581"/us',' ',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 $textfix = <<<EOF
 DEU 5:17 Tu ne tueras pas.

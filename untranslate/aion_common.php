@@ -615,7 +615,7 @@ function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $ski
 		'include'	=> '/---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---.*(Aramaic).*---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---Slovene---Slovene-Savli-Bible---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
-		//'include'	=> '/Holy-Bible---([F-Z]{1}).+---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
+		//'include'	=> '/Holy-Bible---([G-Z]{1}).+---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---Kiche---Totonicapan---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
 		//'include'	=> '/Holy-Bible---Meitei---Meitei-Bible---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
 		'destiny'	=> $destiny,
@@ -4475,7 +4475,7 @@ function AION_LOOP_CHECK_UNTRANSLATE_MODULE_DOIT($args) {
 	if (!preg_match("/\/(Holy-Bible---.*)---Standard-Edition\.noia/", $args['filepath'], $matches)) {	AION_ECHO("ERROR! Failed to preg_match(Holy-Bible): ".$args['filepath']);	}
 	$bible = $matches[1];
 	if (!preg_match("/Holy-Bible---/", $bible)) {														AION_ECHO("ERROR! Failed to preg_match(Bible): $bible");	}
-	if (empty($args['database'][T_UNTRANSLATEWORDS][$bible])) {											AION_ECHO("ERROR! Failed to find BOOK[bible] = $bible");	}
+	if (empty($args['database'][T_UNTRANSLATEWORDS][$bible])) {											AION_ECHO("ERROR! Failed to find UNTRANSLATEWORDS[bible] = $bible");	}
 	$args['database']['T_UNTRANSLATECOUNT'][$bible] = array();
 	$count = &$args['database']['T_UNTRANSLATECOUNT'][$bible];
 	$count['BIBLE']		= $bible;

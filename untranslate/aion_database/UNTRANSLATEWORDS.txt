@@ -4,20 +4,26 @@ Holy-Bible---Albanian-Tosk---Albanian-Bible	0		shekuj të shekujve,amshim,amshua
 Holy-Bible---Amo---Amo-Bible	0											NULL
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible	0											NULL
 Holy-Bible---Arabic---New-Arabic-Bible	0											NULL
-Holy-Bible---Aramaic---Aramaic-NT-Peshitta	0											NULL
 Holy-Bible---Aramaic---Syriac-Peshitta	0											NULL
 Holy-Bible---Arapaho---Arapaho-Luke	0											NULL
 Holy-Bible---Armenian---Armenian-Bible-Eastern	0			դժոխք,դժոխքի,դժոխքում,դժոխքին,դժոխքը								NULL
 Holy-Bible---Armenian---Armenian-Bible-Western	0			դժոխք,դժոխքի,դժոխքում,դժոխքին,դժոխքը								NULL
 Holy-Bible---Assamese---Assamese-Bible	0			নৰক								NULL
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	0			cəhənnəm								NULL
+Holy-Bible---Bangwinji---Bangwinji-Bible	0											NULL
+Holy-Bible---Bareli-Palya---Palya-Bareli-Bible	0											NULL
 Holy-Bible---Basque---Basque-NT	0			iffernurano								NULL
+Holy-Bible---Beami---Bedamuni-Bible	0											NULL
 Holy-Bible---Beaver---Beaver-Mark	0											NULL
 Holy-Bible---Bengali---Bengali-Bible	0			জাহান্নাম								NULL
 Holy-Bible---Bengali---Contemporary	0			জাহান্নাম								NULL
 Holy-Bible---Bhadrawahi---Bhadrawahi-Bible	0											NULL
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	0											NULL
+Holy-Bible---Blackfoot---Matthew	0											NULL
 Holy-Bible---Bodo-Parja---BOPO-Bible	0											NULL
+Holy-Bible---Borna---Borna-Latin-Bible	0											NULL
 Holy-Bible---Breton---Breton-Gospels	0											NULL
+Holy-Bible---Bu---Bu-Bible	0											NULL
 Holy-Bible---Bulgarian---Bulgarian-Bible	0			пъкъла								NULL
 Holy-Bible---Calo---Calo-Bible	0											NULL
 Holy-Bible---Cebuano---Cebuano-Bible	0			impiyerno								NULL
@@ -25,19 +31,22 @@ Holy-Bible---Cebuano---Cebuano-Philippine	0			infierno								NULL
 Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	0											NULL
 Holy-Bible---Cherokee---Cherokee-New-Testament	0											NULL
 Holy-Bible---Chichewa---Chichewa-Bible	0											NULL
+Holy-Bible---Chin-Daai---Daai-Chin-Bible	0											NULL
 Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	0											NULL
 Holy-Bible---Chinese---Chinese-Easy-to-Read	1		永,世	地狱,阴间,塔耳塔洛斯 深渊,无底坑,火湖	地狱,阴间,欣嫩子谷,塔耳塔洛斯 深渊,无底坑,火湖	地狱,阴间	地狱,欣嫩子谷	地狱,阴间	地狱,塔耳塔洛斯 深渊	无底坑	火湖	NULL
 Holy-Bible---Chinese---Chinese-Sigao-Bible	1		永,世	地獄,陰間,塔耳塔洛斯 深淵,無底坑,火湖	地獄,陰間,欣嫩子穀,塔耳塔洛斯 深淵,無底坑,火湖	地獄,陰間	地獄,欣嫩子穀	地獄,陰間	地獄,塔耳塔洛斯 深淵	無底坑	火湖	NULL
 Holy-Bible---Chinese---Chinese-Union-Version-Simplified	1		永,世	地狱,阴间,塔耳塔洛斯 深渊,无底坑,火湖	地狱,阴间,欣嫩子谷,塔耳塔洛斯 深渊,无底坑,火湖	地狱,阴间	地狱,欣嫩子谷	地狱,阴间	地狱,塔耳塔洛斯 深渊	无底坑	火湖	NULL
 Holy-Bible---Chinese---Chinese-Union-Version-Traditional	1		永,世	地獄,陰間,塔耳塔洛斯 深淵,無底坑,火湖	地獄,陰間,欣嫩子穀,塔耳塔洛斯 深淵,無底坑,火湖	地獄,陰間	地獄,欣嫩子穀	地獄,陰間	地獄,塔耳塔洛斯 深淵	無底坑	火湖	NULL
+Holy-Bible---Chin-Matu---Matupi-Chin-2019	0											NULL
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	0											NULL
 Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible	0											NULL
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	0											NULL
 Holy-Bible---Chin-Thado---Chongthu-Bible	0											NULL
+Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	0											NULL
 Holy-Bible---Chiyawo---Yao	0											NULL
 Holy-Bible---Coptic---Coptic-Boharic-NT	0											NULL
 Holy-Bible---Coptic---Coptic-NT	0											NULL
-Holy-Bible---Coptic---Sahidic-Bible-2	0											NULL
+Holy-Bible---Coptic---Sahidic-Bible	0											NULL
 Holy-Bible---Coptic---Sahidic-Coptic-Horner	0											NULL
 Holy-Bible---Croatian---Croatian-Bible	0			paklena,paklu								NULL
 Holy-Bible---Czech---Czech-Bible-Kralicka	0		věčnost,věčného,věčný,věčných,věčná,věčnému,věčným,věčnou,věčné,věky,věku,věka,věků,věkové,světě,světa,světu,svět	pekelný,pekelného,pekelném,pekelné,pekla,pekle,peklo	zatracení,pekelný,pekelného,pekelném,pekelné,pekla,pekle,peklo	zatracení,pekelný,pekelného,pekelném,pekelné,pekla,pekle,peklo,hrobu,hrobě,hrob,Odkryta,smrti,smrt,zahynutí,zakopali	zatracení,pekelný,pekelného,pekelném,pekelné,pekla,pekle,peklo	zatracení,pekelný,pekelného,pekelném,pekelné,pekla,pekle,peklo,hrobu,hrobě,hrob,Odkryta,smrti,smrt,zahynutí,zakopali	žaláře	propasti	jezera ohnivého, jezera ohně,jezeře, kteréž hoří ohněm	NULL
@@ -50,6 +59,7 @@ Holy-Bible---Desiya---Desiya-Bible	0											NULL
 Holy-Bible---Dholuo---Dholuo-Bible	0											NULL
 Holy-Bible---Dombe---Dombe-Bible	0											NULL
 Holy-Bible---Dutch---Canisiusvertaling	0			helse,hel								NULL
+Holy-Bible---Dutch---Petrus-Canisius	0			helse,hel								NULL
 Holy-Bible---Dutch---Schrift	0			helse,hel								NULL
 Holy-Bible---Dutch---Statenvertaling	0			helse,hel								NULL
 Holy-Bible---English---A-Conservative-Version	0		eternity,eternal,forever,everlasting,evermore,and ever,for ever,always,immortal,age-during,age,ages,of old,world,worlds,long ago,universe,this life,earliest times,all the years,life without end,last days,present order,time to come,from the first,all times,the true,present life,order of the generations,last day,coming time,order of events,cares of life,since time was,time began,lasting,from the very first,only true,for all time,everliving,forevermore,truly life	hell	hell,sheol,gehenna,gehinnom,hades,abyss,bottomless pit,depths below,tartarus,lake of fire,lake that burns with fire	hell,sheol,hades,grave's,the grave,underworld,place of the dead,depth of the pit,the deepest pit,into the pit,bars of the pit,alive into the pit,lowest pit	hell,gehenna,gehinnom,underworld	hell,hades,underworld,grave's,grave,sheol	hell,tartarus,the deepest pit of gloom	abyss,the deep,great deep,bottomless pit,the pit,depths below	lake of fire,lake that burns with fire,lake that burneth with fire,sea of ever-burning fire,sea of fire,lake which burns with fire,pool of fire,pool burning with fire,lake which burneth with fire	NULL
@@ -134,6 +144,7 @@ Holy-Bible---French---French-Stapfer-Bible	0		l'éternité,éternelle,éternel,�
 Holy-Bible---French---French-Synodale-Bible	0		l'éternité,éternelle,éternel,éternellement,siècles,monde,toujours,jamais,siècle,éternels,éternité,éternelles,âges,depuis longtemps,permanente,tout temps	enfer,séjour des morts,géhenne,l'étang de feu,abîmes de ténèbres	enfer,séjour des morts,géhenne,l'étang de feu	enfer,enfers,séjour des morts,profond des morts,sépulcre	enfer,géhenne	enfer,enfers,séjour des morts,profond des morts,sépulcre,O mort	enfer,abîmes de ténèbres	l'abîme	l'étang de feu,dans l'étang ardent de feu	NULL
 Holy-Bible---French---Vulgate-Glaire	0		l'éternité,éternelle,éternel,éternellement,siècles,monde,toujours,jamais,siècle,éternels,éternité,éternelles,âges,depuis longtemps,permanente,tout temps	enfer,séjour des morts,géhenne,l'étang de feu,abîmes de ténèbres	enfer,séjour des morts,géhenne,l'étang de feu	enfer,enfers,séjour des morts,profond des morts,sépulcre	enfer,géhenne	enfer,enfers,séjour des morts,profond des morts,sépulcre,O mort	enfer,abîmes de ténèbres	l'abîme	l'étang de feu,dans l'étang ardent de feu	NULL
 Holy-Bible---Gamotso---Gamo	0											NULL
+Holy-Bible---Gata---Gata-Didayi-Bible	0											NULL
 Holy-Bible---German---German-Albrecht	0		ewige,ewigen,nimmermehr,ewiglich,ewigkeit,Welt,ewig,ewiges,derniers temps,zukünftigen Zeiten,ewiger	hölle,höllen,höllische,höllischen,den feurigen Pfuhl	hölle,höllen,höllische,höllischen,den feurigen Pfuhl,Tiefe fahren	hölle,höllen,höllische,höllischen,grube,Tode,Toten,Tod,Todes	hölle,höllen,höllische,höllischen	hölle,höllen,höllische,höllischen,grube,Tode,Toten,Tod,Todes	hölle,höllen,höllische,höllischen	Abgrund,Abgrunds,Tiefe fahren	den feurigen Pfuhl,der mit Feuer	NULL
 Holy-Bible---German---German-Elberfelder-1871	0		ewige,ewigen,nimmermehr,ewiglich,ewigkeit,Welt,ewig,ewiges,derniers temps,zukünftigen Zeiten,ewiger	hölle,höllen,höllische,höllischen,den feurigen Pfuhl	hölle,höllen,höllische,höllischen,den feurigen Pfuhl,Tiefe fahren	hölle,höllen,höllische,höllischen,grube,Tode,Toten,Tod,Todes	hölle,höllen,höllische,höllischen	hölle,höllen,höllische,höllischen,grube,Tode,Toten,Tod,Todes	hölle,höllen,höllische,höllischen	Abgrund,Abgrunds,Tiefe fahren	den feurigen Pfuhl,der mit Feuer	NULL
 Holy-Bible---German---German-Elberfelder-1905	0		ewige,ewigen,nimmermehr,ewiglich,ewigkeit,Welt,ewig,ewiges,derniers temps,zukünftigen Zeiten,ewiger	hölle,höllen,höllische,höllischen,den feurigen Pfuhl	hölle,höllen,höllische,höllischen,den feurigen Pfuhl,Tiefe fahren	hölle,höllen,höllische,höllischen,grube,Tode,Toten,Tod,Todes	hölle,höllen,höllische,höllischen	hölle,höllen,höllische,höllischen,grube,Tode,Toten,Tod,Todes	hölle,höllen,höllische,höllischen	Abgrund,Abgrunds,Tiefe fahren	den feurigen Pfuhl,der mit Feuer	NULL
@@ -199,12 +210,14 @@ Holy-Bible---Isanzu---Isanzu-Bible	0											NULL
 Holy-Bible---Italian---Conferenza-Episcopale-Italiana	0		sempiterno,eterno,eterna,l’eterna,eternas,eterni,dell’eterno,eterne,all’eterno,sempre,secolo,secoli,perpetuo,permanente,antico,mondo,mondi,mondane,dell’età,età,principio,tempi,vera vita,era	inferno,nell’inferno,l’inferno,all’inferno,dell’inferno,dall’inferno	inferno,nell’inferno,l’inferno,all’inferno,dell’inferno,dall’inferno	inferno,nell’inferno,l’inferno,all’inferno,dell’inferno,dall’inferno,sotterra,sepolcro	geenna	inferno,nell’inferno,l’inferno,all’inferno,dell’inferno,dall’inferno	abissati	nell’abisso,dell’abisso,dall’abisso	stagno del fuoco,stagno ardente di fuoco	NULL
 Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible	0		sempiterno,eterno,eterna,l’eterna,eternas,eterni,dell’eterno,eterne,all’eterno,sempre,secolo,secoli,perpetuo,permanente,antico,mondo,mondi,mondane,dell’età,età,principio,tempi,vera vita,era	inferno,nell’inferno,l’inferno,all’inferno,dell’inferno,dall’inferno	inferno,nell’inferno,l’inferno,all’inferno,dell’inferno,dall’inferno	inferno,nell’inferno,l’inferno,all’inferno,dell’inferno,dall’inferno,sotterra,sepolcro	geenna	inferno,nell’inferno,l’inferno,all’inferno,dell’inferno,dall’inferno	abissati	nell’abisso,dell’abisso,dall’abisso	stagno del fuoco,stagno ardente di fuoco	NULL
 Holy-Bible---Italian---Italian-Riveduta-Bible	0		sempiterno,eterno,eterna,l’eterna,eternas,eterni,dell’eterno,eterne,all’eterno,sempre,secolo,secoli,perpetuo,permanente,antico,mondo,mondi,mondane,dell’età,età,principio,tempi,vera vita,era	inferno,nell’inferno,l’inferno,all’inferno,dell’inferno,dall’inferno	inferno,nell’inferno,l’inferno,all’inferno,dell’inferno,dall’inferno	de’ morti,dei morti,morte	geenna	nell’Ades,dell’Ades,l’Ades,morte	inabissò	nell’abisso,dell’abisso,dall’abisso	stagno ardente di fuoco,stagno ardente di fuoco	NULL
+Holy-Bible---Janji---Janji-Bible	0											NULL
 Holy-Bible---Japanese---Japanese-Bungo-yaku	1			地獄								NULL
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	1			地獄								NULL
 Holy-Bible---Japanese---Japanese-Kougo-yaku	1			地獄								NULL
 Holy-Bible---Japanese---Japanese-Meiji-yaku	1			地獄								NULL
 Holy-Bible---Japanese---Japanese-Raguet-yaku	1			地獄								NULL
 Holy-Bible---Japanese---New-Japanese-New-Testament	1			地獄								NULL
+Holy-Bible---Juray---Juray-Bible	0											NULL
 Holy-Bible---Kamano---Kamano-Kafe	0											NULL
 Holy-Bible---Kannada---Kannada-Bible	0			ನರಕ								NULL
 Holy-Bible---Kannada---Open-Contemporary	0			ನರಕ								NULL
@@ -234,17 +247,20 @@ Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	0											NULL
 Holy-Bible---Malayalam---Contemporary	0			നരകം								NULL
 Holy-Bible---Malayalam---Malayalam-Bible	0			നരകം								NULL
 Holy-Bible---Malayalam---Malayalam-Bible-1910	0			നരകം								NULL
+Holy-Bible---Manipuri---Meitei-Bible	0											NULL
 Holy-Bible---Maori---Maori-Bible	0											NULL
 Holy-Bible---Marathi---Marathi-Bible	0			नरक								NULL
-Holy-Bible---Manipuri---Meitei-Bible	0											NULL
 Holy-Bible---Munda---Munda-Bible	0											NULL
 Holy-Bible---Mwera---Mwera-Bible	0											NULL
 Holy-Bible---Myanmar---Burmese-Common-Bible	0			ငရဲ								NULL
 Holy-Bible---Myanmar---Burmese-Judson	0			ငရဲ								NULL
 Holy-Bible---Myanmar---Myanmar-Burmese-Judson	0			ငရဲ								NULL
+Holy-Bible---Naga-Pidgin---Nagamese-Bible	0											NULL
+Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible	0											NULL
 Holy-Bible---Ndebele---Accessible-Bible	0			esihogweni								NULL
 Holy-Bible---Ndebele---Ndebele-Bible	0			esihogweni								NULL
 Holy-Bible---Ndengereko---Ndengereko-Bible	0											NULL
+Holy-Bible---Nend---Mark	0											NULL
 Holy-Bible---Nepali---Nepali-Bible	0			नरकको,नरकमा								NULL
 Holy-Bible---Ngoni---Ngoni-Bible	0											NULL
 Holy-Bible---Norwegian---Living-Bible	0			helvete,helvedes,helvede								NULL
@@ -253,6 +269,7 @@ Holy-Bible---Norwegian---Norwegian-Student-Bible	0			helvete,helvedes,helvede			
 Holy-Bible---Oriya---Oriya-Bible	0			ନର୍କରେ								NULL
 Holy-Bible---Oromo---New-World	0			gahaannam,gahaannamtu,gahaannamis,gahaannamitti,gahaannamiitti,gahaannamiittiin								NULL
 Holy-Bible---Panjabi---Punjabi-Bible	0			ਨਰਕ								NULL
+Holy-Bible---Pengo---Pengo-Bible	0											NULL
 Holy-Bible---Persian---Old-Persion-Version-Bible	0											NULL
 Holy-Bible---Persian---Open-Contemporary	0											NULL
 Holy-Bible---Pogolo---Pogoro-Bible	0			Jehanamu								NULL
@@ -264,8 +281,9 @@ Holy-Bible---Polish---Polish-Updated-Gdansk	0			piekło,piekła,piekielne,piekle
 Holy-Bible---Portuguese---Almeida-Bible-1911	0	eterno,eternos,eterna,eternas,eternamente,sempiterno,eternidade	eterno,eternos,eterna,eternas,eternamente,sempiterno,eternidade,perpétuo,sempre,séculos,século,tempos antigos,sua geração,antiguidade,desde o princípio,todas,verdadeira vida,mundo,mundos,era,tempo,universo	inferno	inferno	Seol,sepultura	inferno	hades	inferno	abismo,abismos	lago de fogo,lago ardente de fogo	NULL
 Holy-Bible---Portuguese---Almeida-NewOrthography	0	eterno,eternos,eterna,eternas,eternamente,sempiterno,eternidade	eterno,eternos,eterna,eternas,eternamente,sempiterno,eternidade,perpétuo,sempre,séculos,século,tempos antigos,sua geração,antiguidade,desde o princípio,todas,verdadeira vida,mundo,mundos,era,tempo,universo	inferno	inferno	Seol,sepultura	inferno	hades	inferno	abismo,abismos	lago de fogo,lago ardente de fogo	NULL
 Holy-Bible---Portuguese---Biblia-Livre	0	eterno,eternos,eterna,eternas,eternamente,sempiterno,eternidade	eterno,eternos,eterna,eternas,eternamente,sempiterno,eternidade,perpétuo,sempre,séculos,século,tempos antigos,sua geração,antiguidade,desde o princípio,todas,verdadeira vida,mundo,mundos,era,tempo,universo	inferno	inferno	Xeol	inferno	Xeol,hades	inferno	abismo,abismos	lago de fogo,lago ardente de fogo,lago que queima com fogo	NULL
-Holy-Bible---Portuguese---Free-for-All	0											NULL
+Holy-Bible---Portuguese---Free-for-All	0	eterno,eternos,eterna,eternas,eternamente,sempiterno,eternidade	eterno,eternos,eterna,eternas,eternamente,sempiterno,eternidade,perpétuo,sempre,séculos,século,tempos antigos,sua geração,antiguidade,desde o princípio,todas,verdadeira vida,mundo,mundos,era,tempo,universo	inferno	inferno	Xeol	inferno	Xeol,hades	inferno	abismo,abismos	lago de fogo,lago ardente de fogo,lago que queima com fogo	NULL
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	0		eterno,eternos,eterna,eternas,eternamente,sempiterno,eternidade,perpétuo,sempre,séculos,século,tempos antigos,sua geração,antiguidade,desde o princípio,todas,verdadeira vida,mundo,mundos,era,tempo,universo	inferno	inferno	Xeol	inferno	Xeol,hades	inferno	abismo,abismos	lago de fogo,lago ardente de fogo,lago que queima com fogo	NULL
+Holy-Bible---Portuguese---World-Portuguese-Bible	0	eterno,eternos,eterna,eternas,eternamente,sempiterno,eternidade	eterno,eternos,eterna,eternas,eternamente,sempiterno,eternidade,perpétuo,sempre,séculos,século,tempos antigos,sua geração,antiguidade,desde o princípio,todas,verdadeira vida,mundo,mundos,era,tempo,universo	inferno	inferno	Xeol	inferno	Xeol,hades	inferno	abismo,abismos	lago de fogo,lago ardente de fogo,lago que queima com fogo	NULL
 Holy-Bible---Romanian---Bayash-Luke	0			pakao								NULL
 Holy-Bible---Romanian---Cyrillic	0											NULL
 Holy-Bible---Romanian---Free-Bible	0											NULL
@@ -274,10 +292,12 @@ Holy-Bible---Romani---Eastern-Vlakh	0											NULL
 Holy-Bible---Romani-Vlax---Arli-Luke	0											NULL
 Holy-Bible---Romani-Vlax---Chergash-Luke	0											NULL
 Holy-Bible---Romani-Vlax---Gurbet-Luke	0											NULL
+Holy-Bible---Romani-Vlax---Lovaric-Bible	0											NULL
 Holy-Bible---Romani-Vlax---Servi-Bible	0											NULL
 Holy-Bible---Rote-Dela---Rote-Dela-Bible	0											NULL
 Holy-Bible---Russian---Russian-Synodal-Translation	0		вечную,века,вечный,веке,веки,вечные,мира,вовек,вечной,вечно,вечная,вечности	аде,ада,адского,преисподнюю,геенне,геенны,геенну,адского,преисподней,преисподняя,преисподнею	аде,ада,адского,преисподнюю,во гроб,геенны,геенну,адского,в озеро огненное,бездну,преисподней,преисподняя,преисподнею	аде,ада,адского,преисподнюю,во гроб,преисподней,преисподняя,преисподнею	аде,ада,адского,геенны,геенну,геенне	аде,ада,адского,преисподней,преисподняя,преисподнею	аде,ада,адского	бездну	в озеро огненное	NULL
 Holy-Bible---Safwa---Safwa-Bible	0											NULL
+Holy-Bible---Sakachep---Sakachep-Bible	0											NULL
 Holy-Bible---Sanskrit---Assamese-Script	0											NULL
 Holy-Bible---Sanskrit---Bengali-Script	0											NULL
 Holy-Bible---Sanskrit---Burmese-Script	0											NULL
@@ -309,6 +329,7 @@ Holy-Bible---Shona---Shona-Bible	0			gehena,wegehena,mugehena,kugehena,negehena,
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	0			аде,ада,адского,преисподнюю,геенне,геенны,геенну,адского,преисподней,преисподняя,преисподнею								NULL
 Holy-Bible---Slovene---Slovene-Savli-Bible	0			pekel,pekla,peklu,peklenski								NULL
 Holy-Bible---Slovene---Slovene-Stritarja-NT	0			pekel,pekla,peklu,peklenski								NULL
+Holy-Bible---Soli---Soli-Bible	0											NULL
 Holy-Bible---Somali---Somali-Bible	0			jahannamada								NULL
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	0		eterna,eternas,eternos,eterno,el venidero,siglo,mundo,siempre,eternamente,jamás,siglos,sempiterno,eternalmente,perpetuamente,eternidad	infierno,lago de fuego,los infiernos	infierno,gehenna,lago de fuego,abismo,,los infiernos	infierno,sepultura,sepulcro,abismo,el profundo,descenderán,los infiernos	infierno,gehenna	infierno,los infiernos,sepulcro	infierno	abismo	lago de fuego,lago ardiendo con fuego	NULL
 Holy-Bible---Spanish---Free-Bible	0		eterna,eternas,eternos,eterno,el venidero,siglo,mundo,siempre,eternamente,jamás,siglos,sempiterno,eternalmente,perpetuamente,eternidad	infierno,lago de fuego,los infiernos	infierno,gehenna,lago de fuego,abismo,,los infiernos	infierno,sepultura,sepulcro,abismo,el profundo,descenderán,los infiernos	infierno,gehenna	infierno,los infiernos,sepulcro	infierno	abismo	lago de fuego,lago ardiendo con fuego	NULL
@@ -325,21 +346,20 @@ Holy-Bible---Swahili---Swahili-Bible	0			kuzimu,kuzimuni	kuzimu,ziwa la moto		Je
 Holy-Bible---Swedish---Swedish-Bible				helvete,helvetes,helvetet								NULL
 Holy-Bible---Swedish---Swedish-Bible-1873	0			helvete,helvetes,helvetet								NULL
 Holy-Bible---Swedish---Swedish-Bible-1917	0			helvete,helvetes,helvetet								NULL
-Holy-Bible---Tagalog---Tagalog-Bible				impyerno,impierno								NULL
 Holy-Bible---Tagalog---Tagalog-Bible-1905	0			impyerno,impierno								NULL
 Holy-Bible---Tagalog---Tagalog-Bible-Unlocked	0			impyerno,impierno								NULL
+Holy-Bible---Tagin---Tagin-First-Bible	0											NULL
 Holy-Bible---Tamil---Open-Contemporary	0			நரகம்,நரகத்தின்,நரகத்திலே,நரகத்திற்குள்								NULL
 Holy-Bible---Tamil---Tamil-Bible	0			நரகம்,நரகத்தின்,நரகத்திலே,நரகத்திற்குள்								NULL
 Holy-Bible---Telugu---Telugu-Bible	0			నరకాగ్ని,నరకంలో,నరకాగ్నికి గురై								NULL
 Holy-Bible---Tongan---Revised-West-Version	0			heli								NULL
+Holy-Bible---Tsakhur---Tsakhur-Bible	0											NULL
 Holy-Bible---Turkish---Turkish-Bible	0			cehenneme,cehennem								NULL
 Holy-Bible---Twi---Akuapem-Twi-Bible	0			asaman								NULL
-Holy-Bible---Twi---Asante-Twi-WAKNA	0			asaman								NULL
 Holy-Bible---Twi---Asante-Twi-WASNA	0			asaman								NULL
-Holy-Bible---Ukrainian---Kulish	0			пекло,геєнни,геєнні,геєнну,аду,адові,Ад,пекельні,пеклї,пекла								NULL
+Holy-Bible---Ukrainian---New-Translation	0			пекло,геєнни,геєнні,геєнну,аду,адові,Ад,пекельні,пеклї,пекла								NULL
 Holy-Bible---Ukrainian---Ukrainian-NT	0			пекло,геєнни,геєнні,геєнну,аду,адові,Ад,пекельні,пеклї,пекла								NULL
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	0			пекло,геєнни,геєнні,геєнну,аду,адові,Ад,пекельні,пеклї,пекла								NULL
-Holy-Bible---Ukrainian---New-Translation	0			пекло,геєнни,геєнні,геєнну,аду,адові,Ад,пекельні,пеклї,пекла								NULL
 Holy-Bible---Urdu---Urdu-Bible	0			جہنم								NULL
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic	0											NULL
 Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic	0											NULL

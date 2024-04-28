@@ -363,44 +363,44 @@ Holy-Bible---Coptic---Coptic-NT	041	MAR	015	034	✠
 Holy-Bible---Coptic---Coptic-NT	041	MAR	015	043	✠
 Holy-Bible---Coptic---Coptic-NT	041	MAR	015	044	✠
 Holy-Bible---Coptic---Coptic-NT	064	3JO	001	014	ϯⲉⲣϩⲉⲗⲡⲓⲥ ⲇⲉ ⲥⲁⲧⲟⲧ ⳿ⲉⲛⲁⲩ ⳿ⲉⲣⲟⲕ ⲟⲩⲟϩ ⳿ⲛⲧⲉⲛⲥⲁϫⲓ ⲛⲉⲙ ⲛⲉⲛⲉⲣⲏⲟⲩ ⳿ⲛⲣⲟ ⲟⲩⲃⲉ ⲣⲟ.
-Holy-Bible---Coptic---Sahidic-Bible-2	040	MAT	012	047	
-Holy-Bible---Coptic---Sahidic-Bible-2	040	MAT	016	003	
-Holy-Bible---Coptic---Sahidic-Bible-2	040	MAT	017	021	
-Holy-Bible---Coptic---Sahidic-Bible-2	040	MAT	018	011	
-Holy-Bible---Coptic---Sahidic-Bible-2	040	MAT	023	014	
-Holy-Bible---Coptic---Sahidic-Bible-2	041	MAR	007	016	
-Holy-Bible---Coptic---Sahidic-Bible-2	041	MAR	009	010	
-Holy-Bible---Coptic---Sahidic-Bible-2	041	MAR	009	044	
-Holy-Bible---Coptic---Sahidic-Bible-2	041	MAR	009	046	
-Holy-Bible---Coptic---Sahidic-Bible-2	041	MAR	011	026	
-Holy-Bible---Coptic---Sahidic-Bible-2	041	MAR	015	028	
-Holy-Bible---Coptic---Sahidic-Bible-2	042	LUK	017	036	
-Holy-Bible---Coptic---Sahidic-Bible-2	042	LUK	022	043	
-Holy-Bible---Coptic---Sahidic-Bible-2	042	LUK	022	044	
-Holy-Bible---Coptic---Sahidic-Bible-2	042	LUK	023	017	
-Holy-Bible---Coptic---Sahidic-Bible-2	043	JOH	005	004	
-Holy-Bible---Coptic---Sahidic-Bible-2	043	JOH	007	053	
-Holy-Bible---Coptic---Sahidic-Bible-2	043	JOH	008	001	
-Holy-Bible---Coptic---Sahidic-Bible-2	043	JOH	008	002	
-Holy-Bible---Coptic---Sahidic-Bible-2	043	JOH	008	003	
-Holy-Bible---Coptic---Sahidic-Bible-2	043	JOH	008	004	
-Holy-Bible---Coptic---Sahidic-Bible-2	043	JOH	008	005	
-Holy-Bible---Coptic---Sahidic-Bible-2	043	JOH	008	006	
-Holy-Bible---Coptic---Sahidic-Bible-2	043	JOH	008	007	
-Holy-Bible---Coptic---Sahidic-Bible-2	043	JOH	008	008	
-Holy-Bible---Coptic---Sahidic-Bible-2	043	JOH	008	009	
-Holy-Bible---Coptic---Sahidic-Bible-2	043	JOH	008	010	
-Holy-Bible---Coptic---Sahidic-Bible-2	043	JOH	008	011	
-Holy-Bible---Coptic---Sahidic-Bible-2	043	JOH	009	038	
-Holy-Bible---Coptic---Sahidic-Bible-2	043	JOH	010	042	
-Holy-Bible---Coptic---Sahidic-Bible-2	043	JOH	016	015	
-Holy-Bible---Coptic---Sahidic-Bible-2	044	ACT	008	037	
-Holy-Bible---Coptic---Sahidic-Bible-2	044	ACT	024	007	
-Holy-Bible---Coptic---Sahidic-Bible-2	045	ROM	016	024	
-Holy-Bible---Coptic---Sahidic-Bible-2	047	2CO	013	014	
-Holy-Bible---Coptic---Sahidic-Bible-2	052	1TH	004	011	
-Holy-Bible---Coptic---Sahidic-Bible-2	064	3JO	001	014	ϯϩⲉⲗⲡⲓⲍⲉ   ⲇⲉ   ⲉⲛⲁⲩ   ⲉⲣⲟⲕ   ϩⲛ   ⲟⲩϭⲉⲡⲏ   ⲛⲧⲉⲛϣⲁϫⲉ   ⲙⲛ   ⲛⲉⲛⲉⲣⲏⲩ   ⲛⲧⲁⲡⲣⲟ   ϩⲓ   ⲧⲁⲡⲣⲟ
-Holy-Bible---Coptic---Sahidic-Bible-2	066	REV	012	018	ⲁⲩⲱ   ⲁⲓⲁϩⲉⲣⲁⲧ   ϩⲓϫⲙ   ⲡϣⲱ   ⲛⲑⲁⲗⲁⲥⲥⲁ
+Holy-Bible---Coptic---Sahidic-Bible	040	MAT	012	047	
+Holy-Bible---Coptic---Sahidic-Bible	040	MAT	016	003	
+Holy-Bible---Coptic---Sahidic-Bible	040	MAT	017	021	
+Holy-Bible---Coptic---Sahidic-Bible	040	MAT	018	011	
+Holy-Bible---Coptic---Sahidic-Bible	040	MAT	023	014	
+Holy-Bible---Coptic---Sahidic-Bible	041	MAR	007	016	
+Holy-Bible---Coptic---Sahidic-Bible	041	MAR	009	010	
+Holy-Bible---Coptic---Sahidic-Bible	041	MAR	009	044	
+Holy-Bible---Coptic---Sahidic-Bible	041	MAR	009	046	
+Holy-Bible---Coptic---Sahidic-Bible	041	MAR	011	026	
+Holy-Bible---Coptic---Sahidic-Bible	041	MAR	015	028	
+Holy-Bible---Coptic---Sahidic-Bible	042	LUK	017	036	
+Holy-Bible---Coptic---Sahidic-Bible	042	LUK	022	043	
+Holy-Bible---Coptic---Sahidic-Bible	042	LUK	022	044	
+Holy-Bible---Coptic---Sahidic-Bible	042	LUK	023	017	
+Holy-Bible---Coptic---Sahidic-Bible	043	JOH	005	004	
+Holy-Bible---Coptic---Sahidic-Bible	043	JOH	007	053	
+Holy-Bible---Coptic---Sahidic-Bible	043	JOH	008	001	
+Holy-Bible---Coptic---Sahidic-Bible	043	JOH	008	002	
+Holy-Bible---Coptic---Sahidic-Bible	043	JOH	008	003	
+Holy-Bible---Coptic---Sahidic-Bible	043	JOH	008	004	
+Holy-Bible---Coptic---Sahidic-Bible	043	JOH	008	005	
+Holy-Bible---Coptic---Sahidic-Bible	043	JOH	008	006	
+Holy-Bible---Coptic---Sahidic-Bible	043	JOH	008	007	
+Holy-Bible---Coptic---Sahidic-Bible	043	JOH	008	008	
+Holy-Bible---Coptic---Sahidic-Bible	043	JOH	008	009	
+Holy-Bible---Coptic---Sahidic-Bible	043	JOH	008	010	
+Holy-Bible---Coptic---Sahidic-Bible	043	JOH	008	011	
+Holy-Bible---Coptic---Sahidic-Bible	043	JOH	009	038	
+Holy-Bible---Coptic---Sahidic-Bible	043	JOH	010	042	
+Holy-Bible---Coptic---Sahidic-Bible	043	JOH	016	015	
+Holy-Bible---Coptic---Sahidic-Bible	044	ACT	008	037	
+Holy-Bible---Coptic---Sahidic-Bible	044	ACT	024	007	
+Holy-Bible---Coptic---Sahidic-Bible	045	ROM	016	024	
+Holy-Bible---Coptic---Sahidic-Bible	047	2CO	013	014	
+Holy-Bible---Coptic---Sahidic-Bible	052	1TH	004	011	
+Holy-Bible---Coptic---Sahidic-Bible	064	3JO	001	014	ϯϩⲉⲗⲡⲓⲍⲉ   ⲇⲉ   ⲉⲛⲁⲩ   ⲉⲣⲟⲕ   ϩⲛ   ⲟⲩϭⲉⲡⲏ   ⲛⲧⲉⲛϣⲁϫⲉ   ⲙⲛ   ⲛⲉⲛⲉⲣⲏⲩ   ⲛⲧⲁⲡⲣⲟ   ϩⲓ   ⲧⲁⲡⲣⲟ
+Holy-Bible---Coptic---Sahidic-Bible	066	REV	012	018	ⲁⲩⲱ   ⲁⲓⲁϩⲉⲣⲁⲧ   ϩⲓϫⲙ   ⲡϣⲱ   ⲛⲑⲁⲗⲁⲥⲥⲁ
 Holy-Bible---Coptic---Sahidic-Coptic-Horner	040	MAT	012	047	
 Holy-Bible---Coptic---Sahidic-Coptic-Horner	040	MAT	016	003	
 Holy-Bible---Coptic---Sahidic-Coptic-Horner	040	MAT	017	021	

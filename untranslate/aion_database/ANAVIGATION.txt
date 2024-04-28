@@ -55,12 +55,12 @@ Holy-Bible---Chinese---Chinese-Union-Version-Traditional
 Holy-Bible---Chiyawo---Yao		
 Holy-Bible---Coptic---Coptic-Boharic-NT		
 Holy-Bible---Coptic---Coptic-NT		
-Holy-Bible---Coptic---Sahidic-Bible-2		
-Holy-Bible---Coptic---Sahidic-Bible-2	VERSMISS	065-JUD-001-006
-Holy-Bible---Coptic---Sahidic-Bible-2	VERSMISS	065-JUD-001-007
-Holy-Bible---Coptic---Sahidic-Bible-2	VERSMISS	065-JUD-001-013
-Holy-Bible---Coptic---Sahidic-Bible-2	VERSMISS	065-JUD-001-021
-Holy-Bible---Coptic---Sahidic-Bible-2	VERSMISS	065-JUD-001-025
+Holy-Bible---Coptic---Sahidic-Bible		
+Holy-Bible---Coptic---Sahidic-Bible	VERSMISS	065-JUD-001-006
+Holy-Bible---Coptic---Sahidic-Bible	VERSMISS	065-JUD-001-007
+Holy-Bible---Coptic---Sahidic-Bible	VERSMISS	065-JUD-001-013
+Holy-Bible---Coptic---Sahidic-Bible	VERSMISS	065-JUD-001-021
+Holy-Bible---Coptic---Sahidic-Bible	VERSMISS	065-JUD-001-025
 Holy-Bible---Coptic---Sahidic-Coptic-Horner		
 Holy-Bible---Croatian---Croatian-Bible		
 Holy-Bible---Czech---Czech-Bible-Kralicka		

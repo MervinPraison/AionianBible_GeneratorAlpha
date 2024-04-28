@@ -51,7 +51,7 @@ Holy-Bible---Chinese---Chinese-Union-Version-Traditional	31017	31017	31019
 Holy-Bible---Chiyawo---Yao	7957	7957	7959
 Holy-Bible---Coptic---Coptic-Boharic-NT	7950	7950	7957
 Holy-Bible---Coptic---Coptic-NT	7945	7945	7957
-Holy-Bible---Coptic---Sahidic-Bible-2	7897	7897	7935
+Holy-Bible---Coptic---Sahidic-Bible	7897	7897	7935
 Holy-Bible---Coptic---Sahidic-Coptic-Horner	7905	7905	7934
 Holy-Bible---Croatian---Croatian-Bible	31086	31086	31342
 Holy-Bible---Czech---Czech-Bible-Kralicka	31102	31102	31103
