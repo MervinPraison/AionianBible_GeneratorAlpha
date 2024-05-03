@@ -353,7 +353,6 @@ Holy-Bible---Tamil---Open-Contemporary	0			நரகம்,நரகத்தி
 Holy-Bible---Tamil---Tamil-Bible	0			நரகம்,நரகத்தின்,நரகத்திலே,நரகத்திற்குள்								NULL
 Holy-Bible---Telugu---Telugu-Bible	0			నరకాగ్ని,నరకంలో,నరకాగ్నికి గురై								NULL
 Holy-Bible---Tongan---Revised-West-Version	0			heli								NULL
-Holy-Bible---Tsakhur---Tsakhur-Bible	0											NULL
 Holy-Bible---Turkish---Turkish-Bible	0			cehenneme,cehennem								NULL
 Holy-Bible---Twi---Akuapem-Twi-Bible	0			asaman								NULL
 Holy-Bible---Twi---Asante-Twi-WASNA	0			asaman								NULL

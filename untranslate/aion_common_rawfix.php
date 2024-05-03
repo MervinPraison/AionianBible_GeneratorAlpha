@@ -37,6 +37,10 @@ if ('Holy-Bible---Greek---Greek-Westcott-Hort'==$bible) {
 	if (!($bfile = preg_replace("/</us",'(',$bfile,-1,$rnum)) || $rnum!=29) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 	if (!($bfile = preg_replace("/>/us",')',$bfile,-1,$rnum)) || $rnum!=29) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 }
+if ('Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible'==$bible) {
+	if (!($bfile = preg_replace("/[<]+/us","[",$bfile,-1,$rnum)) || $rnum!=440) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+	if (!($bfile = preg_replace("/[>]+/us","]",$bfile,-1,$rnum)) || $rnum!=349) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+}
 if ('Holy-Bible---Portuguese---Portuguese-Trans-Trans'==$bible) {
 	if (!($bfile = preg_replace("/\[([[:punct:][:space:]]+)\]/us",'$1 ', $bfile,-1,$rnum)) || $rnum!=143) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 }
@@ -1028,6 +1032,14 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible" :
+if (!($bfile = preg_replace('/\x{0081}/ui',"",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/\x{05ea} /ui',"",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
+
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Chinese---Chinese-Sigao-Bible" :
@@ -1158,7 +1170,7 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
-case "Holy-Bible---Coptic---Sahidic-Bible-2" :
+case "Holy-Bible---Coptic---Sahidic-Bible" :
 $blockfix = <<<EOF
 Acts 7:59 ⲁⲩⲱ ⲁⲩϩⲓⲱⲛⲉ ⲉⲥⲧⲉⲫⲁⲛⲟⲥ ⲉϥⲉⲡⲓⲕⲁⲗⲉⲓ ⲉϥϫⲱ ⲙⲙⲟⲥ ϫⲉ ⲡϫⲟⲉⲓⲥ ⲓⲥ ϣⲉⲡ ⲡⲁⲡⲛⲁ ⲉⲣⲟⲕ
 Acts 7:60 ⲁϥⲕⲱⲗϫ ⲇⲉ ⲛⲛⲉϥⲡⲁⲧ ⲁϥⲁϣⲕⲁⲕ ⲉⲃⲟⲗ ϩⲛ ⲟⲩⲛⲟϭ ⲛⲥⲙⲏ ϫⲉ ⲡϫⲟⲉⲓⲥ ⲙⲡⲣⲱⲡⲉⲣⲟⲟⲩ ⲙⲡⲉⲓⲛⲟⲃⲉ ⲛⲧⲉⲣⲉϥϫⲉ ⲡⲁⲓ ⲇⲉ ⲁϥⲛⲕⲟⲧⲕ
@@ -2664,6 +2676,18 @@ EOF;
 if (!($bfile = preg_replace("/Revelation of John 6:7 (.+?)Revelation of John 6:9 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/(En Job stierf oud en hoogbejaard\.)/us","\r\nJob 42:17 $1",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/ Antiochië3 /us"," Antiochië ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Dutch---Petrus-Canisius" :
+$blockfix = <<<EOF
+REV 6:7 Toen het Lam het vierde zegel opende, hoorde ik de stem van het vierde Dier roepen: “Kom uit!”
+REV 6:8 Ik zag toe. En zie: een vaal paard; en die er op zat, heette de Dood, en de Onderwereld kwam achter hem aan. En hun werd macht gegeven over het vierde deel der aarde, om te doden met zwaard en hongersnood, met pest en wilde beesten.
+REV 6:9 
+EOF;
+if (!($bfile = preg_replace("/REV 6:7 (.+?)REV 6:9 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -5558,7 +5582,7 @@ EOF;
 if (!($bfile = preg_replace("/LUK 1:32 (.+?)LUK 1:34 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 JOH 4:13 Jésus lui répondit : « Quiconque boit de cette eau aura encore soif ;
-JOH 4:14 mais celui qui boira de l'eau que je lui donnerai, n’aura plus jamais soif ; au contraire l'eau que je lui donnerai de viendra en lui une source d'eau jaillissant jusqu’à la vie éternelle. »
+JOH 4:14 mais celui qui boira de l’eau que je lui donnerai, n’aura plus jamais soif ; au contraire l’eau que je lui donnerai de viendra en lui une source d’eau jaillissant jusqu’à la vie éternelle. »
 JOH 4:15 
 EOF;
 if (!($bfile = preg_replace("/JOH 4:13 (.+?)JOH 4:15 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -14268,6 +14292,15 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible" :
+if (!($bfile = preg_replace('/\x{01c3}/ui',"!",$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---Nepali---Nepali-Bible" :
 if (!($bfile = preg_replace("/\x{2236}/us",":",$bfile,-1,$rnum)) || $rnum!=4) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/\x{02bb}/us","ʼ",$bfile,-1,$rnum)) || $rnum!=17) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -18358,6 +18391,17 @@ DAN 4:30
 EOF;
 if (!($bfile = preg_replace("/DAN 4:28 (.+?)DAN 4:30 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Tagin---Tagin-First-Bible" :
+if (!($bfile = preg_replace('/\x{94}/ui',"",$bfile,-1,$rnum)) || $rnum!=157) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/\x{9b}/ui',"",$bfile,-1,$rnum)) || $rnum!=4) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
 
 
 

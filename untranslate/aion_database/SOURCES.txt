@@ -337,14 +337,14 @@ Holy-Bible---English---Webster-Bible				https://ebible.org/Scriptures/engwebster
 Holy-Bible---English---Webster-Bible				https://eBible.org/sword/zip/engwebster1833eb.zip	Holy-Bible---English---Webster-Bible---Source-Edition.SWORD.zip
 Holy-Bible---English---Webster-Bible-Revised	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/RWebster.zip	Holy-Bible---English---Webster-Bible-Revised---Source-Edition.SWORD.zip
 Holy-Bible---English---Weymouth-NT				./aion_source/Holy-Bible---English---Weymouth-NT.unbound.zip	Holy-Bible---English---Weymouth-NT---Source-Edition.UNBOUND.zip
-Holy-Bible---English---World-English-Bible				https://ebible.org/epub/engwebp.epub	Holy-Bible---English---World-English-Bible---Source-Edition.epub
-Holy-Bible---English---World-English-Bible				https://ebible.org/pdf/engwebp/engwebp_prt.pdf	Holy-Bible---English---World-English-Bible---Source-Edition.pdf
-Holy-Bible---English---World-English-Bible				https://ebible.org/Scriptures/engwebp_vpl.zip	Holy-Bible---English---World-English-Bible---Source-Edition.VPL.zip
-Holy-Bible---English---World-English-Bible				https://ebible.org/sword/zip/engWEB2015peb.zip	Holy-Bible---English---World-English-Bible---Source-Edition.SWORD.zip
-Holy-Bible---English---World-English-Bible-British-Edition				https://ebible.org/epub/engwebpb.epub	Holy-Bible---English---World-English-Bible-British-Edition---Source-Edition.epub
-Holy-Bible---English---World-English-Bible-British-Edition				https://ebible.org/pdf/engwebpb/engwebpb_prt.pdf	Holy-Bible---English---World-English-Bible-British-Edition---Source-Edition.pdf
-Holy-Bible---English---World-English-Bible-British-Edition				https://ebible.org/Scriptures/engwebpb_vpl.zip	Holy-Bible---English---World-English-Bible-British-Edition---Source-Edition.VPL.zip
-Holy-Bible---English---World-English-Bible-British-Edition				https://ebible.org/sword/zip/engWEBBE2015peb.zip	Holy-Bible---English---World-English-Bible-British-Edition---Source-Edition.SWORD.zip
+Holy-Bible---English---World-English-Bible				https://ebible.org/epub/eng-web.epub	Holy-Bible---English---World-English-Bible---Source-Edition.epub
+Holy-Bible---English---World-English-Bible				https://ebible.org/pdf/eng-web/eng-web_prt.pdf	Holy-Bible---English---World-English-Bible---Source-Edition.pdf
+Holy-Bible---English---World-English-Bible				https://ebible.org/Scriptures/eng-web_vpl.zip	Holy-Bible---English---World-English-Bible---Source-Edition.VPL.zip
+Holy-Bible---English---World-English-Bible				https://ebible.org/sword/zip/engWEB2015eb.zip	Holy-Bible---English---World-English-Bible---Source-Edition.SWORD.zip
+Holy-Bible---English---World-English-Bible-British-Edition				https://ebible.org/epub/eng-webbe.epub	Holy-Bible---English---World-English-Bible-British-Edition---Source-Edition.epub
+Holy-Bible---English---World-English-Bible-British-Edition				https://ebible.org/pdf/eng-webbe/eng-webbe_prt.pdf	Holy-Bible---English---World-English-Bible-British-Edition---Source-Edition.pdf
+Holy-Bible---English---World-English-Bible-British-Edition				https://ebible.org/Scriptures/eng-webbe_vpl.zip	Holy-Bible---English---World-English-Bible-British-Edition---Source-Edition.VPL.zip
+Holy-Bible---English---World-English-Bible-British-Edition				https://ebible.org/sword/zip/engWEBBE2015eb.zip	Holy-Bible---English---World-English-Bible-British-Edition---Source-Edition.SWORD.zip
 Holy-Bible---English---World-English-Bible-Updated				https://ebible.org/epub/engwebu.epub	Holy-Bible---English---World-English-Bible-Updated---Source-Edition.epub
 Holy-Bible---English---World-English-Bible-Updated				https://ebible.org/pdf/engwebu/engwebu_prt.pdf	Holy-Bible---English---World-English-Bible-Updated---Source-Edition.pdf
 Holy-Bible---English---World-English-Bible-Updated				https://ebible.org/Scriptures/engwebu_vpl.zip	Holy-Bible---English---World-English-Bible-Updated---Source-Edition.VPL.zip
@@ -1063,10 +1063,6 @@ Holy-Bible---Tongan---Revised-West-Version				https://ebible.org/epub/ton.epub	H
 Holy-Bible---Tongan---Revised-West-Version				https://ebible.org/pdf/ton/ton_prt.pdf	Holy-Bible---Tongan---Revised-West-Version---Source-Edition.pdf
 Holy-Bible---Tongan---Revised-West-Version				https://ebible.org/Scriptures/ton_vpl.zip	Holy-Bible---Tongan---Revised-West-Version---Source-Edition.VPL.zip
 Holy-Bible---Tongan---Revised-West-Version				https://ebible.org/sword/zip/ton2014eb.zip	Holy-Bible---Tongan---Revised-West-Version---Source-Edition.SWORD.zip
-Holy-Bible---Tsakhur---Tsakhur-Bible				https://ebible.org/epub/tkr.epub	Holy-Bible---Tsakhur---Tsakhur-Bible---Source-Edition.epub
-Holy-Bible---Tsakhur---Tsakhur-Bible				https://ebible.org/pdf/tkr/tkr_prt.pdf	Holy-Bible---Tsakhur---Tsakhur-Bible---Source-Edition.pdf
-Holy-Bible---Tsakhur---Tsakhur-Bible				https://ebible.org/Scriptures/tkr_vpl.zip	Holy-Bible---Tsakhur---Tsakhur-Bible---Source-Edition.VPL.zip
-Holy-Bible---Tsakhur---Tsakhur-Bible				https://ebible.org/sword/zip/tkr2022eb.zip	Holy-Bible---Tsakhur---Tsakhur-Bible---Source-Edition.SWORD.zip
 Holy-Bible---Turkish---Turkish-Bible				./aion_source/Holy-Bible---Turkish---Turkish-Bible---Source-Edition.VPL.zip	Holy-Bible---Turkish---Turkish-Bible---Source-Edition.VPL.zip
 Holy-Bible---Twi---Akuapem-Twi-Bible				https://ebible.org/epub/twi.epub	Holy-Bible---Twi---Akuapem-Twi-Bible---Source-Edition.epub
 Holy-Bible---Twi---Akuapem-Twi-Bible				https://ebible.org/pdf/twi/twi_prt.pdf	Holy-Bible---Twi---Akuapem-Twi-Bible---Source-Edition.pdf

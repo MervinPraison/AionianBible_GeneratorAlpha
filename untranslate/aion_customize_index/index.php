@@ -87,7 +87,7 @@ $modified = date("n/j/Y", filemtime("./index.php"));
 <div id='logo'><img src='/images/Holy-Bible-Aionian-Edition-PURPLE-HOME.png' alt='Aionian Bible' /></div>
 <div id='j316'>For God so loved the world,<BR />that he gave his only begotten Son,<BR />that whoever believes in him<BR />should not perish, but have...</div>
 <div id='aion'>aionian life!</div>
-<div id='moto'>The world's first Holy Bible <span style="text-decoration: underline;">untranslation</span><BR />One hundred thirty-five languages<BR />Three hundred fifty-two versions<BR />Anonymous on TOR network<BR />100% free to copy &amp; print<BR />Updated <? echo $modified; ?><BR /><BR />Also known as<BR />'The Purple Bible'
+<div id='moto'>The world's first Holy Bible <span style="text-decoration: underline;">untranslation</span><BR />One hundred fifty-four languages<BR />Three hundred seventy-one versions<BR />Anonymous on TOR network<BR />100% free to copy &amp; print<BR />Updated <? echo $modified; ?><BR /><BR />Also known as<BR />'The Purple Bible'
 </div>
 </div>
 </a>
@@ -886,7 +886,7 @@ if ($what=='all') {
 		: (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]])
 		? "<a href='".abcms_href("/Verse/All/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]."/1",FALSE,TRUE,TRUE)."' title='Next chapter' class='nav right'><span class='nav cgt'>&gt;</span></a>"
 		: "<a href='/Read' title='Bookmarked Bible' onclick='return AionianBible_Bookmark(".'"/Read"'.");' class='nav left'><span class='nav vgt'>+</span></a>"));
-	$N136 = (isset($_GET['N136']) ? '?N136' : ''); $N136N=(isset($_GET['N136']) ? 'N136' : ''); // TEMP JEFF
+	$N136 = (isset($_GET['N136']) ? "?N136={$_GET['N136']}" : ''); $N136N=(isset($_GET['N136']) ? "N136={$_GET['N136']}" : ''); // TEMP JEFF
 	$aionianprev = ($aionprev ? "<a href='".abcms_href("/Verse/$_Part[1]/$aionprev",FALSE,TRUE,TRUE)."{$N136}' title='Previous Aionian Glossary word' class='nav'><span class='nav slt'>&lt;</span></a>" : '');
 	$aioniannext = ($aionnext ? "<a href='".abcms_href("/Verse/$_Part[1]/$aionnext",FALSE,TRUE,TRUE)."{$N136}' title='Next Aionian Glossary word' class='nav'><span class='nav sgt'>&gt;</span></a> $N136N" : '');
 	$path_strongs = abcms_href("/Strongs",FALSE,TRUE,TRUE);
@@ -1350,7 +1350,7 @@ $last = NULL;
 $bible_ALL = array( 'Holy-Bible---English---Aionian-Bible2' => $bible_ALL['Holy-Bible---English---Aionian-Bible']) + $bible_ALL;
 $count = 0;
 foreach( $bible_ALL as $bible => $version ) {
-	if (isset($_GET['N136']) && empty($version['N136'])) { continue; } // TEMP JEFF
+	if ($count && isset($_GET['N136']) && (empty($version['N136']) || $_GET['N136']!=$version['N136'])) { continue; } // TEMP JEFF
 	$_Part[1] = str_replace('Holy-Bible---','',$bible);
 	$_Part[1] = ($_Part[1] == 'English---Aionian-Bible2' ? 'English---Aionian-Bible' : $_Part[1]);
 	if (!is_array(($_BibleONE = @json_decode(file_get_contents('./library/Holy-Bible---'.$_Part[1].'---Aionian-Edition.json'),true))) || empty($_BibleONE['T_BOOKS'])) {

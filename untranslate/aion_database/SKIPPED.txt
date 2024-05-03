@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1561070     
-# File Date: 04/20/2024 13:06:19
+# File Size: 1579884     
+# File Date: 05/03/2024 00:30:06
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -45,14 +45,228 @@ Holy-Bible---Azerbaijani---Azerbaijani-Bible	044	ACT	008	037
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	044	ACT	015	034	
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	044	ACT	028	029	
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	045	ROM	016	024	
+Holy-Bible---Bangwinji---Bangwinji-Bible	042	LUK	017	036	
+Holy-Bible---Bangwinji---Bangwinji-Bible	042	LUK	022	007	
+Holy-Bible---Bangwinji---Bangwinji-Bible	066	REV	012	018	La drangon nya ti dor yabum, wi kabam wi mam.
+Holy-Bible---Beami---Bedamuni-Bible	002	EXO	007	003	-
+Holy-Bible---Beami---Bedamuni-Bible	002	EXO	027	004	-
+Holy-Bible---Beami---Bedamuni-Bible	002	EXO	038	004	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	003	003	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	003	009	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	003	014	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	004	008	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	006	004	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	006	016	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	007	003	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	007	032	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	008	020	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	011	002	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	011	029	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	013	040	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	014	055	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	015	005	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	017	003	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	018	012	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	018	026	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	021	002	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	021	011	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	022	004	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	022	015	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	022	017	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	022	026	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	025	006	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	025	048	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	026	034	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	026	040	-
+Holy-Bible---Beami---Bedamuni-Bible	003	LEV	027	009	-
+Holy-Bible---Beami---Bedamuni-Bible	004	NUM	005	005	-
+Holy-Bible---Beami---Bedamuni-Bible	004	NUM	014	024	-
+Holy-Bible---Beami---Bedamuni-Bible	004	NUM	033	038	-
+Holy-Bible---Beami---Bedamuni-Bible	005	DEU	001	020	-
+Holy-Bible---Beami---Bedamuni-Bible	005	DEU	004	045	-
+Holy-Bible---Beami---Bedamuni-Bible	005	DEU	015	004	-
+Holy-Bible---Beami---Bedamuni-Bible	005	DEU	016	005	-
+Holy-Bible---Beami---Bedamuni-Bible	005	DEU	019	002	-
+Holy-Bible---Beami---Bedamuni-Bible	005	DEU	025	013	-
+Holy-Bible---Beami---Bedamuni-Bible	005	DEU	028	054	-
+Holy-Bible---Beami---Bedamuni-Bible	005	DEU	028	056	-
+Holy-Bible---Beami---Bedamuni-Bible	005	DEU	029	010	-
+Holy-Bible---Beami---Bedamuni-Bible	005	DEU	032	040	-
+Holy-Bible---Beami---Bedamuni-Bible	006	JOS	003	014	-
+Holy-Bible---Beami---Bedamuni-Bible	006	JOS	006	008	-
+Holy-Bible---Beami---Bedamuni-Bible	006	JOS	006	012	-
+Holy-Bible---Beami---Bedamuni-Bible	006	JOS	008	025	-
+Holy-Bible---Beami---Bedamuni-Bible	006	JOS	011	017	-
+Holy-Bible---Beami---Bedamuni-Bible	006	JOS	014	003	-
+Holy-Bible---Beami---Bedamuni-Bible	006	JOS	019	015	-
+Holy-Bible---Beami---Bedamuni-Bible	006	JOS	021	009	-
+Holy-Bible---Beami---Bedamuni-Bible	006	JOS	021	041	-
+Holy-Bible---Beami---Bedamuni-Bible	007	JDG	001	018	-
+Holy-Bible---Beami---Bedamuni-Bible	007	JDG	013	015	-
+Holy-Bible---Beami---Bedamuni-Bible	007	JDG	013	020	-
+Holy-Bible---Beami---Bedamuni-Bible	007	JDG	014	012	-
+Holy-Bible---Beami---Bedamuni-Bible	007	JDG	016	024	-
+Holy-Bible---Beami---Bedamuni-Bible	007	JDG	018	027	-
+Holy-Bible---Beami---Bedamuni-Bible	007	JDG	019	010	-
+Holy-Bible---Beami---Bedamuni-Bible	007	JDG	019	012	-
+Holy-Bible---Beami---Bedamuni-Bible	007	JDG	020	015	-
+Holy-Bible---Beami---Bedamuni-Bible	007	JDG	020	022	-
+Holy-Bible---Beami---Bedamuni-Bible	007	JDG	020	027	-
+Holy-Bible---Beami---Bedamuni-Bible	008	RUT	002	015	-
+Holy-Bible---Beami---Bedamuni-Bible	009	1SA	002	013	-
+Holy-Bible---Beami---Bedamuni-Bible	009	1SA	003	006	-
+Holy-Bible---Beami---Bedamuni-Bible	009	1SA	007	003	-
+Holy-Bible---Beami---Bedamuni-Bible	009	1SA	009	012	-
+Holy-Bible---Beami---Bedamuni-Bible	009	1SA	025	002	-
+Holy-Bible---Beami---Bedamuni-Bible	010	2SA	002	004	-
+Holy-Bible---Beami---Bedamuni-Bible	010	2SA	003	009	-
+Holy-Bible---Beami---Bedamuni-Bible	010	2SA	007	010	-
+Holy-Bible---Beami---Bedamuni-Bible	010	2SA	008	011	-
+Holy-Bible---Beami---Bedamuni-Bible	010	2SA	013	037	-
+Holy-Bible---Beami---Bedamuni-Bible	010	2SA	017	028	-
+Holy-Bible---Beami---Bedamuni-Bible	010	2SA	024	011	-
+Holy-Bible---Beami---Bedamuni-Bible	011	1KI	003	011	-
+Holy-Bible---Beami---Bedamuni-Bible	011	1KI	004	022	-
+Holy-Bible---Beami---Bedamuni-Bible	011	1KI	007	002	-
+Holy-Bible---Beami---Bedamuni-Bible	011	1KI	007	017	-
+Holy-Bible---Beami---Bedamuni-Bible	011	1KI	008	041	-
+Holy-Bible---Beami---Bedamuni-Bible	011	1KI	009	020	-
+Holy-Bible---Beami---Bedamuni-Bible	011	1KI	010	019	-
+Holy-Bible---Beami---Bedamuni-Bible	011	1KI	011	009	-
+Holy-Bible---Beami---Bedamuni-Bible	011	1KI	011	015	-
+Holy-Bible---Beami---Bedamuni-Bible	011	1KI	012	026	-
+Holy-Bible---Beami---Bedamuni-Bible	011	1KI	018	036	-
+Holy-Bible---Beami---Bedamuni-Bible	012	2KI	011	005	-
+Holy-Bible---Beami---Bedamuni-Bible	012	2KI	012	011	-
+Holy-Bible---Beami---Bedamuni-Bible	012	2KI	012	020	-
+Holy-Bible---Beami---Bedamuni-Bible	012	2KI	024	003	-
+Holy-Bible---Beami---Bedamuni-Bible	012	2KI	025	020	-
+Holy-Bible---Beami---Bedamuni-Bible	013	1CH	026	004	-
+Holy-Bible---Beami---Bedamuni-Bible	014	2CH	002	011	-
+Holy-Bible---Beami---Bedamuni-Bible	014	2CH	004	003	-
+Holy-Bible---Beami---Bedamuni-Bible	014	2CH	004	007	-
+Holy-Bible---Beami---Bedamuni-Bible	014	2CH	006	032	-
+Holy-Bible---Beami---Bedamuni-Bible	014	2CH	008	007	-
+Holy-Bible---Beami---Bedamuni-Bible	014	2CH	009	018	-
+Holy-Bible---Beami---Bedamuni-Bible	014	2CH	022	002	-
+Holy-Bible---Beami---Bedamuni-Bible	014	2CH	025	011	-
+Holy-Bible---Beami---Bedamuni-Bible	014	2CH	028	002	-
+Holy-Bible---Beami---Bedamuni-Bible	014	2CH	032	003	-
+Holy-Bible---Beami---Bedamuni-Bible	014	2CH	035	018	-
+Holy-Bible---Beami---Bedamuni-Bible	015	EZR	002	059	-
+Holy-Bible---Beami---Bedamuni-Bible	015	EZR	002	061	-
+Holy-Bible---Beami---Bedamuni-Bible	015	EZR	008	026	-
+Holy-Bible---Beami---Bedamuni-Bible	015	EZR	010	031	-
+Holy-Bible---Beami---Bedamuni-Bible	017	EST	005	007	-
+Holy-Bible---Beami---Bedamuni-Bible	017	EST	006	007	-
+Holy-Bible---Beami---Bedamuni-Bible	017	EST	009	026	-
+Holy-Bible---Beami---Bedamuni-Bible	018	JOB	003	002	-
+Holy-Bible---Beami---Bedamuni-Bible	018	JOB	006	019	-
+Holy-Bible---Beami---Bedamuni-Bible	018	JOB	007	009	-
+Holy-Bible---Beami---Bedamuni-Bible	018	JOB	009	021	-
+Holy-Bible---Beami---Bedamuni-Bible	018	JOB	009	027	-
+Holy-Bible---Beami---Bedamuni-Bible	018	JOB	012	012	-
+Holy-Bible---Beami---Bedamuni-Bible	018	JOB	012	024	-
+Holy-Bible---Beami---Bedamuni-Bible	018	JOB	015	026	-
+Holy-Bible---Beami---Bedamuni-Bible	018	JOB	020	012	-
+Holy-Bible---Beami---Bedamuni-Bible	018	JOB	021	023	-
+Holy-Bible---Beami---Bedamuni-Bible	018	JOB	021	032	-
+Holy-Bible---Beami---Bedamuni-Bible	018	JOB	023	016	-
+Holy-Bible---Beami---Bedamuni-Bible	018	JOB	027	003	-
+Holy-Bible---Beami---Bedamuni-Bible	018	JOB	038	037	-
+Holy-Bible---Beami---Bedamuni-Bible	018	JOB	038	039	-
+Holy-Bible---Beami---Bedamuni-Bible	018	JOB	040	003	-
+Holy-Bible---Beami---Bedamuni-Bible	019	PSA	105	044	-
+Holy-Bible---Beami---Bedamuni-Bible	019	PSA	116	010	-
+Holy-Bible---Beami---Bedamuni-Bible	020	PRO	026	018	-
+Holy-Bible---Beami---Bedamuni-Bible	021	ECC	004	013	-
+Holy-Bible---Beami---Bedamuni-Bible	022	SOL	004	013	-
+Holy-Bible---Beami---Bedamuni-Bible	023	ISA	002	017	-
+Holy-Bible---Beami---Bedamuni-Bible	023	ISA	022	009	-
+Holy-Bible---Beami---Bedamuni-Bible	023	ISA	033	022	-
+Holy-Bible---Beami---Bedamuni-Bible	023	ISA	059	005	-
+Holy-Bible---Beami---Bedamuni-Bible	023	ISA	063	012	-
+Holy-Bible---Beami---Bedamuni-Bible	023	ISA	065	021	-
+Holy-Bible---Beami---Bedamuni-Bible	024	JER	001	018	-
+Holy-Bible---Beami---Bedamuni-Bible	024	JER	005	013	-
+Holy-Bible---Beami---Bedamuni-Bible	024	JER	009	005	-
+Holy-Bible---Beami---Bedamuni-Bible	024	JER	009	025	-
+Holy-Bible---Beami---Bedamuni-Bible	024	JER	017	021	-
+Holy-Bible---Beami---Bedamuni-Bible	024	JER	025	036	-
+Holy-Bible---Beami---Bedamuni-Bible	024	JER	027	019	-
+Holy-Bible---Beami---Bedamuni-Bible	024	JER	029	031	-
+Holy-Bible---Beami---Bedamuni-Bible	024	JER	030	021	-
+Holy-Bible---Beami---Bedamuni-Bible	024	JER	030	023	-
+Holy-Bible---Beami---Bedamuni-Bible	024	JER	034	006	-
+Holy-Bible---Beami---Bedamuni-Bible	024	JER	034	012	-
+Holy-Bible---Beami---Bedamuni-Bible	024	JER	034	018	-
+Holy-Bible---Beami---Bedamuni-Bible	024	JER	035	009	-
+Holy-Bible---Beami---Bedamuni-Bible	024	JER	035	012	-
+Holy-Bible---Beami---Bedamuni-Bible	024	JER	041	017	-
+Holy-Bible---Beami---Bedamuni-Bible	024	JER	044	024	-
+Holy-Bible---Beami---Bedamuni-Bible	024	JER	046	022	-
+Holy-Bible---Beami---Bedamuni-Bible	024	JER	046	025	-
+Holy-Bible---Beami---Bedamuni-Bible	024	JER	051	022	-
+Holy-Bible---Beami---Bedamuni-Bible	024	JER	052	021	-
+Holy-Bible---Beami---Bedamuni-Bible	025	LAM	003	035	-
+Holy-Bible---Beami---Bedamuni-Bible	026	EZE	004	004	-
+Holy-Bible---Beami---Bedamuni-Bible	026	EZE	023	014	-
+Holy-Bible---Beami---Bedamuni-Bible	026	EZE	027	018	-
+Holy-Bible---Beami---Bedamuni-Bible	026	EZE	032	024	-
+Holy-Bible---Beami---Bedamuni-Bible	026	EZE	042	007	-
+Holy-Bible---Beami---Bedamuni-Bible	026	EZE	042	009	-
+Holy-Bible---Beami---Bedamuni-Bible	026	EZE	046	021	-
+Holy-Bible---Beami---Bedamuni-Bible	027	DAN	002	008	-
+Holy-Bible---Beami---Bedamuni-Bible	027	DAN	010	020	-
+Holy-Bible---Beami---Bedamuni-Bible	028	HOS	002	004	-
+Holy-Bible---Beami---Bedamuni-Bible	028	HOS	002	021	-
+Holy-Bible---Beami---Bedamuni-Bible	029	JOE	003	020	-
+Holy-Bible---Beami---Bedamuni-Bible	030	AMO	005	026	-
+Holy-Bible---Beami---Bedamuni-Bible	034	NAH	002	011	-
+Holy-Bible---Beami---Bedamuni-Bible	041	MAR	001	043	-
+Holy-Bible---Beami---Bedamuni-Bible	043	JOH	010	014	-
+Holy-Bible---Beami---Bedamuni-Bible	044	ACT	001	021	-
+Holy-Bible---Beami---Bedamuni-Bible	044	ACT	008	027	-
+Holy-Bible---Beami---Bedamuni-Bible	044	ACT	013	032	-
+Holy-Bible---Beami---Bedamuni-Bible	045	ROM	003	025	-
+Holy-Bible---Beami---Bedamuni-Bible	045	ROM	009	011	-
+Holy-Bible---Beami---Bedamuni-Bible	046	1CO	005	003	-
+Holy-Bible---Beami---Bedamuni-Bible	046	1CO	005	012	-
+Holy-Bible---Beami---Bedamuni-Bible	046	1CO	010	006	-
+Holy-Bible---Beami---Bedamuni-Bible	046	1CO	015	051	-
+Holy-Bible---Beami---Bedamuni-Bible	047	2CO	001	010	-
+Holy-Bible---Beami---Bedamuni-Bible	047	2CO	001	013	-
+Holy-Bible---Beami---Bedamuni-Bible	047	2CO	006	006	-
+Holy-Bible---Beami---Bedamuni-Bible	047	2CO	008	013	-
+Holy-Bible---Beami---Bedamuni-Bible	047	2CO	012	003	-
+Holy-Bible---Beami---Bedamuni-Bible	049	EPH	001	019	-
+Holy-Bible---Beami---Bedamuni-Bible	049	EPH	002	008	-
+Holy-Bible---Beami---Bedamuni-Bible	051	COL	001	011	-
+Holy-Bible---Beami---Bedamuni-Bible	052	1TH	005	009	-
+Holy-Bible---Beami---Bedamuni-Bible	053	2TH	001	007	-
+Holy-Bible---Beami---Bedamuni-Bible	056	TIT	001	012	-
+Holy-Bible---Beami---Bedamuni-Bible	059	JAM	001	007	-
+Holy-Bible---Beami---Bedamuni-Bible	059	JAM	002	003	-
+Holy-Bible---Beami---Bedamuni-Bible	059	JAM	005	019	-
+Holy-Bible---Beami---Bedamuni-Bible	064	3JO	001	014	Na da dima hedolowane misini, dia odagia sia:mu hanai gala.
+Holy-Bible---Beami---Bedamuni-Bible	065	JUD	001	014	-
+Holy-Bible---Beami---Bedamuni-Bible	066	REV	012	018	Amola hanome da hano wayabo bagade bega: lelu.
 Holy-Bible---Bengali---Bengali-Bible	044	ACT	015	034	
 Holy-Bible---Bengali---Bengali-Bible	064	3JO	001	014	আশাকরি, শীঘ্রই তোমাকে দেখব, তখন আমরা সামনা সামনি হয়ে কথাবার্তা বলব।
 Holy-Bible---Bengali---Bengali-Bible	066	REV	012	018	তখন সেই বিরাটাকার সাপটি সমুদ্রের বালুকাময় কিনারে দাঁড়াল।
 Holy-Bible---Bengali---Contemporary	064	3JO	001	014	আশা করি, অচিরেই তোমার সঙ্গে সাক্ষাৎ হবে; আমরা মুখোমুখি সব আলোচনা করব।
 Holy-Bible---Bhadrawahi---Bhadrawahi-Bible	064	3JO	001	014	पन मीं उमीदे कि अवं तीं सेइं जल्दी मुलाकत केरेलो, तैखन अस आमने-सामने गल्लां केरमेले।
 Holy-Bible---Bhadrawahi---Bhadrawahi-Bible	066	REV	012	018	तैखन अजगर जेव, ते समुन्दरेरे बन्ने पुड़ खड़ो भोव।
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	064	3JO	001	014	पर मिंजो आस है, की मैं तुहाड़े बाल ओंऐ, कने आमणे सामणे होईकरी गल्लां करे तालू असां पूरी तरा ला खुश होणा।
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	066	REV	012	018	तालू सै अजगर चली गिया कने समुंद्रे दे कंडे पर खड़ोई गिया।
 Holy-Bible---Bodo-Parja---BOPO-Bible	064	3JO	001	014	ମର୍‌ ଆସା ଜେ, ବେଗି ତୁମାର୍‌ ସଃଙ୍ଗ୍ ବେଟ୍‌ ଅୟ୍‌ଦ୍‌ ଆର୍‌ ଅଃମିମଃନ୍‌ ଗଟେତଃୟ୍‌ ବଃସି ଗଟିକଃତା କଃରୁଆଁ ।
 Holy-Bible---Bodo-Parja---BOPO-Bible	066	REV	012	018	ଆର୍‌ ସେ ସଃମ୍‌ନ୍ଦାର୍‌ ବାଲି ଉହ୍ରେ ଟିଆ ଅୟ୍‌ଲି ।
+Holy-Bible---Borna---Borna-Latin-Bible	045	ROM	016	024	
+Holy-Bible---Borna---Borna-Latin-Bible	064	3JO	001	014	Karnon neen bek'oshe jangirwe, manoor noonon keewetwone.
+Holy-Bible---Borna---Borna-Latin-Bible	066	REV	012	018	Daruwonwere aats k'ari gúúratsi shiyaats need'b́wutsi.
+Holy-Bible---Bu---Bu-Bible	047	2CO	006	017	
+Holy-Bible---Bu---Bu-Bible	064	3JO	001	014	Mi you suran di mi toh tu lalo mu na ki ki tre shi shi.
+Holy-Bible---Bu---Bu-Bible	066	REV	012	018	Niki dragon a hon kri nitu yashi wu nyu kpantre maa.
 Holy-Bible---Bulgarian---Bulgarian-Bible	016	NEH	012	047	И в дните на Зоровавела и в дните на Неемия, целият Израил даваха определените за всеки ден дялове на певците и на вратарите;
 Holy-Bible---Bulgarian---Bulgarian-Bible	018	JOB	011	020	А очите на нечестивите ще изтекат; Прибежище не ще има за тях;
 Holy-Bible---Bulgarian---Bulgarian-Bible	038	ZEC	010	011	Като премине Той върху морето, Ще порази вълните на морето,
@@ -66,13 +280,19 @@ Holy-Bible---Cebuano---Cebuano-Bible	064	3JO	001	014	Apan nagdahom ako sa pagpak
 Holy-Bible---Cebuano---Cebuano-Bible	066	REV	012	018	Unya ang dragon mitindog didto sa balas sa baybayon.
 Holy-Bible---Chichewa---Chichewa-Bible	064	3JO	001	014	Ndiyembekezera kufika kwanuko posachedwapa, ndipo tidzakambirana pamaso ndi pamaso.
 Holy-Bible---Chichewa---Chichewa-Bible	066	REV	012	018	Kenaka ndinaona chinjokacho chitayima mʼmbali mwa nyanja.
+Holy-Bible---Chin-Daai---Daai-Chin-Bible	064	3JO	001	014	Sängsäng se ning jah hmuh law vaia ka ngaiki. Acun üng mi püi hmu lü mi ngthuhei be kawm u. Acunüng, akhyang puma mi ngthuei law khaie.
+Holy-Bible---Chin-Daai---Daai-Chin-Bible	066	REV	012	018	Acunüng mnaka cun tuikam kdiyüta khana ngdüiki.
 Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	064	3JO	001	014	nang hoi angqum palang tih hmang, tiah oephaih ka tawnh, to naah mikhmai kang tongah lok aram tih hmang.
+Holy-Bible---Chin-Matu---Matupi-Chin-2019	064	3JO	001	014	Tedae nangmih te tlek hmuh ham ka ngaiuep. Te vaengah ka neh ka rhoi te n'thui bitni.
+Holy-Bible---Chin-Matu---Matupi-Chin-2019	066	REV	012	018	Tedae tuitunli kah laivin dongah sut pai.
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	066	REV	012	018	Tedae tuitunli kah laivin dongah sut pai.
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	064	3JO	001	014	Ahihang hai ngawl in hong mu tu in ki um khi hi, maitang kisi in i ki paupui tu hi.
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	066	REV	012	018	Pathian thupiak te a zui nupi nu i suan a tanglai te do tu in kuankhia hi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	022	SOL	006	013	Zailom: Hung kile in, hung kile kit tan, O Shulam nungahnu. Hung kinung heijin, hung kit in, i-kimuto kit theina diuvin.
 Holy-Bible---Chin-Thado---Chongthu-Bible	064	3JO	001	014	Ajeh chu nangma toh kimaitoa kimuto vahding kakinemin ahi. Chuphat leh kimaitoa ikihoulim ding ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	066	REV	012	018	Chujouvin dragon chu twikhanglen pam'a chun ading in ahi.
+Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	064	3JO	001	014	Palang kâhmo roi pawiteh buet touh hoi buet touh lawk kâpan han telah ngaihawi hoi ka o.
+Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	066	REV	012	018	tuipui teng thingyei dawk a kangdue.
 Holy-Bible---Chinese---Chinese-Easy-to-Read	040	MAT	017	021	
 Holy-Bible---Chinese---Chinese-Easy-to-Read	040	MAT	018	011	
 Holy-Bible---Chinese---Chinese-Easy-to-Read	040	MAT	023	014	
@@ -1136,6 +1356,29 @@ Holy-Bible---Dutch---Canisiusvertaling	040	MAT	018	011
 Holy-Bible---Dutch---Canisiusvertaling	041	MAR	011	026	
 Holy-Bible---Dutch---Canisiusvertaling	042	LUK	017	036	
 Holy-Bible---Dutch---Canisiusvertaling	066	REV	012	018	Hij ging staan aan het strand van de zee.
+Holy-Bible---Dutch---Petrus-Canisius	001	GEN	049	018	-
+Holy-Bible---Dutch---Petrus-Canisius	003	LEV	008	020	-
+Holy-Bible---Dutch---Petrus-Canisius	003	LEV	011	025	-
+Holy-Bible---Dutch---Petrus-Canisius	006	JOS	003	012	-
+Holy-Bible---Dutch---Petrus-Canisius	006	JOS	010	015	-
+Holy-Bible---Dutch---Petrus-Canisius	011	1KI	015	006	-
+Holy-Bible---Dutch---Petrus-Canisius	011	1KI	015	032	-
+Holy-Bible---Dutch---Petrus-Canisius	016	NEH	007	068	-
+Holy-Bible---Dutch---Petrus-Canisius	018	JOB	012	022	-
+Holy-Bible---Dutch---Petrus-Canisius	018	JOB	013	028	-
+Holy-Bible---Dutch---Petrus-Canisius	018	JOB	027	001	-
+Holy-Bible---Dutch---Petrus-Canisius	019	PSA	116	018	-
+Holy-Bible---Dutch---Petrus-Canisius	019	PSA	118	020	-
+Holy-Bible---Dutch---Petrus-Canisius	023	ISA	002	001	-
+Holy-Bible---Dutch---Petrus-Canisius	023	ISA	060	012	-
+Holy-Bible---Dutch---Petrus-Canisius	024	JER	015	013	-
+Holy-Bible---Dutch---Petrus-Canisius	024	JER	015	014	-
+Holy-Bible---Dutch---Petrus-Canisius	024	JER	016	014	-
+Holy-Bible---Dutch---Petrus-Canisius	024	JER	016	015	-
+Holy-Bible---Dutch---Petrus-Canisius	026	EZE	040	030	-
+Holy-Bible---Dutch---Petrus-Canisius	040	MAT	018	011	-
+Holy-Bible---Dutch---Petrus-Canisius	041	MAR	011	026	-
+Holy-Bible---Dutch---Petrus-Canisius	042	LUK	017	036	-
 Holy-Bible---Dutch---Statenvertaling	009	1SA	020	042	Toen zeide Jonathan tot David: Ga in vrede; hetgeen wij beiden in den Naam des HEEREN gezworen Hebben, zeggende: De HEERE zij tussen mij en tussen u, en tussen mijn zaad en tussen uw zaad, zij tot in eeuwigheid!
 Holy-Bible---Dutch---Statenvertaling	011	1KI	022	043	En hij wandelde in al den weg van zijn vader Asa; hij week niet daarvan, doende dat recht was in de ogen des HEEREN.
 Holy-Bible---Dutch---Statenvertaling	016	NEH	007	073	En de priesters, en de Levieten, en de poortiers, en de zangers, en sommigen van het volk, en de Nethinim, en gans Israel, woonden in hun steden.
@@ -3717,376 +3960,373 @@ Holy-Bible---French---French-Ostervald-Bible	019	PSA	054	001	Lorsque les Ziphien
 Holy-Bible---French---French-Ostervald-Bible	019	PSA	060	001	Lorsqu'il fit la guerre avec les Syriens de Mésopotamie et avec les Syriens de Tsoba, et que Joab revint et défit douze mille Édomites dans la vallée du Sel.
 Holy-Bible---French---French-Ostervald-Bible	064	3JO	001	014	Car j'espère te voir bientôt, et nous parlerons bouche à bouche. La paix soit avec toi
 Holy-Bible---French---French-Ostervald-Bible	066	REV	012	018	Et je me tins debout sur le sable de la mer;
-Holy-Bible---French---Vulgate-Glaire	004	NUM	012	003	,
-Holy-Bible---French---Vulgate-Glaire	004	NUM	020	028	Et après qu’il eut dépouillé Aaron de ses vêtements, il en revêtit Eléazar, son fils.
-Holy-Bible---French---Vulgate-Glaire	006	JOS	004	023	le Seigneur votre Dieu ayant desséché les eaux devant vous, jusqu’à ce que vous fussiez passés,
-Holy-Bible---French---Vulgate-Glaire	006	JOS	005	014	Il lui répondit : Non ; mais je suis le prince de l’armée du Seigneur, et je viens maintenant.
-Holy-Bible---French---Vulgate-Glaire	007	JDG	005	031	Ainsi périssent, Seigneur, tous vos ennemis ; mais que ceux qui vous aiment brillent comme le soleil, lorsque ses rayons éclatent au matin.
-Holy-Bible---French---Vulgate-Glaire	009	1SA	020	042	Jonathas dit donc à David : Va en paix ; que ce que nous avons juré tous deux au nom du Seigneur demeure ferme ; et que le Seigneur, comme nous avons dit, en soit témoin entre toi et moi, et entre ta race et ma race à jamais.
-Holy-Bible---French---Vulgate-Glaire	011	1KI	022	043	Il marcha dans toutes les voies d’Asa son père, sans se détourner, et il fit ce qui était droit devant le Seigneur.
-Holy-Bible---French---Vulgate-Glaire	017	EST	010	004	Alors Mardochée dit : C’est Dieu qui a fait ces choses.
-Holy-Bible---French---Vulgate-Glaire	017	EST	010	005	Je me souviens d’un songe que j’avais vu, qui signifiait toutes ces choses, dont rien n’est resté sans accomplissement.
-Holy-Bible---French---Vulgate-Glaire	017	EST	010	006	La petite fontaine qui s’accrut et devint un fleuve, et qui se changea en lumière et en soleil, et se répandit en eaux abondantes, c’est Esther, que le roi épousa, et qu’il voulut faire reine.
-Holy-Bible---French---Vulgate-Glaire	017	EST	010	007	Et les deux dragons, c’est moi et Aman.
-Holy-Bible---French---Vulgate-Glaire	017	EST	010	008	Les peuples qui s’assemblèrent, ce sont ceux qui ont tâché d’exterminer le nom des Juifs.
-Holy-Bible---French---Vulgate-Glaire	017	EST	010	009	Israël est mon peuple, qui cria au Seigneur, et le Seigneur sauva son peuple, et il nous délivra de tous nos maux, et il fit des miracles et de grands prodiges parmi les nations ;
-Holy-Bible---French---Vulgate-Glaire	017	EST	010	010	et il ordonna qu’il y eût deux sorts, l’un du peuple de Dieu, et l’autre de toutes les nations.
-Holy-Bible---French---Vulgate-Glaire	017	EST	010	011	Et ce double sort vint au jour marqué dès ce temps-là devant Dieu pour toutes les nations.
-Holy-Bible---French---Vulgate-Glaire	017	EST	010	012	Et le Seigneur se ressouvint de son peuple, et il eut compassion de son héritage.
-Holy-Bible---French---Vulgate-Glaire	017	EST	010	013	Et ces jours seront célébrés au mois d’Adar, le quatorzième et le quinzième jour de ce même mois, avec zèle et avec joie, par le peuple réuni en assemblée, dans toutes les générations futures du peuple d’Israël.
-Holy-Bible---French---Vulgate-Glaire	017	EST	011	001	La quatrième année du règne de Ptolémée et de Cléopâtre, Dosithée, qui se disait prêtre et de la race de Lévi, et Ptolémée, son fils, apportèrent cette lettre des phurim, qu’ils disaient avoir été traduite à Jérusalem par Lysimaque, fils de Ptolémée.
-Holy-Bible---French---Vulgate-Glaire	017	EST	011	002	La seconde année du règne du très grand Artaxerxès, le premier jour du mois de Nisan, Mardochée, fils de Jaïr, fils de Séméi, fils de Cis, de la tribu de Benjamin, eut un songe.
-Holy-Bible---French---Vulgate-Glaire	017	EST	011	003	C’était un Juif qui demeurait dans la ville de Suse, homme puissant et des premiers de la cour du roi.
-Holy-Bible---French---Vulgate-Glaire	017	EST	011	004	Il était du nombre des captifs que Nabuchodonosor, roi de Babylone, avait transportés de Jérusalem avec Jéchonias, roi de Juda.
-Holy-Bible---French---Vulgate-Glaire	017	EST	011	005	Et voici le songe qu’il eut. Il apparut des voix, et du tumulte, et des tonnerres, et des tremblements de terre, et des trouble sur la terre.
-Holy-Bible---French---Vulgate-Glaire	017	EST	011	006	Et voici deux grands dragons, prêts à combattre l’un contre l’autre.
-Holy-Bible---French---Vulgate-Glaire	017	EST	011	007	A leur cri, toutes les nations se soulevèrent pour combattre contre la nation des justes.
-Holy-Bible---French---Vulgate-Glaire	017	EST	011	008	Et ce jour fut un jour de ténèbres et de périls, d’affliction et d’angoisses, et de grande épouvante sur la terre.
-Holy-Bible---French---Vulgate-Glaire	017	EST	011	009	Et la nation des justes fut troublée, redoutant ses malheurs, et se disposant à la mort.
-Holy-Bible---French---Vulgate-Glaire	017	EST	011	010	Et ils crièrent vers Dieu, et, au bruit de ces cris, une petite fontaine devint un grand fleuve, et répandit une grande abondance d’eaux.
-Holy-Bible---French---Vulgate-Glaire	017	EST	011	011	La lumière et le soleil parurent, et ceux qui étaient humiliés furent élevés, et ils dévorèrent ceux qui étaient dans l’éclat.
-Holy-Bible---French---Vulgate-Glaire	017	EST	011	012	Mardochée ayant eu cette vision, et s’étant levé de son lit, pensait en lui-même ce que Dieu voulait faire ; et elle lui demeura gravée dans son esprit, et il désirait savoir ce que ce songe signifiait.
-Holy-Bible---French---Vulgate-Glaire	017	EST	012	001	Or, en ce temps-là, Mardochée était à la cour du roi avec Bagatha et Thara, eunuques du roi, qui étaient les gardes de la porte du palais.
-Holy-Bible---French---Vulgate-Glaire	017	EST	012	002	Et ayant compris leurs pensées, et reconnu par une exacte recherche ce qu’ils machinaient, il découvrit qu’ils avaient entrepris de porter la main sur le roi Artaxerxès, et il en donna avis au roi.
-Holy-Bible---French---Vulgate-Glaire	017	EST	012	003	Celui-ci, les ayant fait interroger tous deux, après qu’ils eurent confessé leur crime, les fit mener au supplice.
-Holy-Bible---French---Vulgate-Glaire	017	EST	012	004	Or le roi fit écrire dans les annales ce qui s’était passé, et Mardochée le mit aussi par écrit pour en conserver le souvenir.
-Holy-Bible---French---Vulgate-Glaire	017	EST	012	005	Et le roi lui ordonna de demeurer dans son palais, et il lui fit des présents pour sa dénonciation.
-Holy-Bible---French---Vulgate-Glaire	017	EST	012	006	Mais Aman, fils d’Amadathi, Bugée, avait été élevé par le roi à une grande gloire, et il voulut perdre Mardochée et son peuple, à cause des deux eunuques du roi qui avaient été mis à mort. Or voici la teneur de la lettre.
-Holy-Bible---French---Vulgate-Glaire	017	EST	013	001	Le grand roi Artaxerxès, qui règne depuis les Indes jusqu’en Ethiopie, aux princes et aux gouverneurs des cent vingt-sept provinces qui sont soumises à son empire, salut.
-Holy-Bible---French---Vulgate-Glaire	017	EST	013	002	Quoique je commandasse à tant de nations, et que j’eusse soumis tout l’univers à mon empire, je n’ai pas voulu abuser de la grandeur de ma puissance, mais j’ai gouverné mes sujets avec clémence et avec bonté, afin que, passant leur vie doucement et sans aucune crainte, ils jouissent de la paix qui est désirée de tous les hommes.
-Holy-Bible---French---Vulgate-Glaire	017	EST	013	003	Et ayant demandé à mes conseillers de quelle manière je pourrais accomplir ce dessein, l’un d’eux, nommé Aman, élevé par sa sagesse et sa fidélité au-dessus des autres, et le second après le roi,
-Holy-Bible---French---Vulgate-Glaire	017	EST	013	004	m’a informé qu’il y a un peuple dispersé dans toute la terre, qui suit de nouvelles lois, et qui, s’opposant aux coutumes des autres nations, méprise les commandements du roi, et trouble par la contrariété de ses sentiments la concorde de tous les peuples.
-Holy-Bible---French---Vulgate-Glaire	017	EST	013	005	Ce qu’ayant appris, et voyant qu’une seule nation se révolte contre tout le genre humain, suit des lois perverses, désobéit à nos ordonnances, et trouble la paix et la concorde des provinces qui nous sont soumises,
-Holy-Bible---French---Vulgate-Glaire	017	EST	013	006	nous avons ordonné que tous ceux qu’Aman, qui commande à toutes les provinces, qui est le second après le roi, et que nous honorons comme un père, aura désignés, soient tués par leurs ennemis, avec leurs femmes et leurs enfants, le quatorzième jour d’Adar, douzième mois de cette année, sans que personne en ait compassion ;
-Holy-Bible---French---Vulgate-Glaire	017	EST	013	007	afin que ces scélérats, descendant tous aux enfers en un même jour, rendent à notre empire la paix qu’ils avaient troublée.
+Holy-Bible---French---Vulgate-Glaire	004	NUM	020	028	Et lorsqu’il eut dépouillé Aaron de ses vêtements il en revêtit Eléazar son fils.
+Holy-Bible---French---Vulgate-Glaire	006	JOS	004	023	Le Seigneur votre Dieu ayant séché les eaux en votre présence jusqu’à ce que vous eussiez passé,
+Holy-Bible---French---Vulgate-Glaire	006	JOS	005	014	Il répondit : Nullement, mais je suis le prince de l’armée du Seigneur, et maintenant je viens.
+Holy-Bible---French---Vulgate-Glaire	007	JDG	005	031	Ainsi périssent tous vos ennemis. Seigneur ! mais que ceux qui vous aiment, brillent, comme le soleil resplendit à son lever.
+Holy-Bible---French---Vulgate-Glaire	009	1SA	020	042	Jonathas donc dit à David : Va en paix ; tout ce que nous avons juré tous deux, au nom du Seigneur, disant : Que le Seigneur soit entre moi et toi, et entre ma postérité et ta postérité pour toujours…
+Holy-Bible---French---Vulgate-Glaire	011	1KI	022	043	Et il marcha dans toute la voie d’Aza son père, et il ne s’en détourna point, et il fit ce qui était droit en la présence du Seigneur.
+Holy-Bible---French---Vulgate-Glaire	017	EST	010	004	Et Mardochée dit : C’est par Dieu qu’ont été faites ces choses.
+Holy-Bible---French---Vulgate-Glaire	017	EST	010	005	Je me souviens d’un songe que j’ai vu, et qui marquait ces mêmes choses, et rien de ces choses n’a été vain.
+Holy-Bible---French---Vulgate-Glaire	017	EST	010	006	La petite source qui devint grande comme un fleuve, puis se changea en lumière et en soleil, et se répandit en eaux très abondantes, c’est Esther, que le roi a prise pour femme, et il a voulu qu’elle fût reine.
+Holy-Bible---French---Vulgate-Glaire	017	EST	010	007	Mais les deux dragons, moi et Aman.
+Holy-Bible---French---Vulgate-Glaire	017	EST	010	008	Les nations qui s’étaient assemblées, ce sont ceux qui ont tâché d’effacer le nom des Juifs.
+Holy-Bible---French---Vulgate-Glaire	017	EST	010	009	Ma nation est Israël, laquelle cria vers le Seigneur, et le Seigneur sauva son peuple, et il nous a délivrés de tous les maux, et il a fait de grands miracles et des prodiges parmi les nations.
+Holy-Bible---French---Vulgate-Glaire	017	EST	010	010	Et il ordonna qu’il y eût deux sorts, l’un du peuple de Dieu, et l’autre de toutes les nations.
+Holy-Bible---French---Vulgate-Glaire	017	EST	010	011	Et l’un et l’autre sort vinrent au jour marqué dès ce temps-là devant Dieu pour toutes les nations.
+Holy-Bible---French---Vulgate-Glaire	017	EST	010	012	Et le Seigneur se souvint de son peuple, et eut pitié de son héritage.
+Holy-Bible---French---Vulgate-Glaire	017	EST	010	013	Et ces jours seront observés au mois d’Adar, le quatorzième et le quinzième jour du même mois, avec tout le zèle et toute la joie du peuple réuni en une seule assemblée, et cela dans toutes les générations à venir du peuple d’Israël.
+Holy-Bible---French---Vulgate-Glaire	017	EST	011	001	En la quatrième année du règne de Ptolémée et de Cléopâtre, Dosithée, qui se disait prêtre, et de la race lévitique, et Ptolémée son fils, apportèrent cette épître des phurim, qu’ils dirent avoir été interprétée par Lysimaque, fils de Ptolémée, à Jérusalem.
+Holy-Bible---French---Vulgate-Glaire	017	EST	011	002	À la seconde année du règne d’Artaxerxès très grand, le premier jour du mois de Nisan, Mardochée, fils de Jaïr, fils de Séméi, fils de Cis, de la tribu de Benjamin, vit un songe :
+Holy-Bible---French---Vulgate-Glaire	017	EST	011	003	C’était un Juif qui demeurait dans la ville de Suse, homme puissant, et entre les premiers de la cour du roi.
+Holy-Bible---French---Vulgate-Glaire	017	EST	011	004	Or il était du nombre des captifs que Nabuchodonosor, roi de Babylone, avait transférés de Jérusalem avec Jéchonias, roi de Juda.
+Holy-Bible---French---Vulgate-Glaire	017	EST	011	005	Et voici quel fut son songe : Des voix se firent entendre, ainsi qu’un tumulte et des tonnerres ; et il y eut un tremblement de terre, et un trouble sur la terre :
+Holy-Bible---French---Vulgate-Glaire	017	EST	011	006	Et voilà deux dragons grands, et prêts à combattre l’un contre l’autre.
+Holy-Bible---French---Vulgate-Glaire	017	EST	011	007	À leur cri, toutes les nations s’émurent pour combattre contre la nation des justes.
+Holy-Bible---French---Vulgate-Glaire	017	EST	011	008	Et ce jour fut un jour de ténèbres, de péril, de tribulation, d’angoisse, et une grande épouvante sur la terre.
+Holy-Bible---French---Vulgate-Glaire	017	EST	011	009	La nation des justes, qui craignaient pour leurs propres maux, se troubla et se prépara à la mort.
+Holy-Bible---French---Vulgate-Glaire	017	EST	011	010	Et ils crièrent vers Dieu, et, pendant qu’ils poussaient des clameurs, une petite source devint un très grand fleuve, et se répandit en eaux très abondantes.
+Holy-Bible---French---Vulgate-Glaire	017	EST	011	011	La lumière et le soleil parurent ; et ceux qui étaient dans l’humiliation furent exaltés, et ils dévorèrent ceux qui était dans l’éclat.
+Holy-Bible---French---Vulgate-Glaire	017	EST	011	012	Lorsque Mardochée eut vu ce songe, et qu’il se fut levé de son lit, il pensait en lui-même ce que Dieu voulait faire ; et il avait le songe fixé en son esprit, désirant savoir ce qu’il signifiait.
+Holy-Bible---French---Vulgate-Glaire	017	EST	012	001	Or il demeurait en ce temps-là à la cour du roi avec Bagatha et Thara, eunuques du roi, qui étaient les portiers du palais.
+Holy-Bible---French---Vulgate-Glaire	017	EST	012	002	Et ayant compris leurs pensées, et ayant vu plus exactement leur dessein, il apprit qu’ils avaient entrepris de porter leurs mains sur le roi Artaxerxès, et il en donna avis au roi.
+Holy-Bible---French---Vulgate-Glaire	017	EST	012	003	Le roi, après qu’ils eurent été mis l’un et l’autre à la question, et qu’ils eurent confessé leur crime, commanda qu’ils fussent conduits à la mort.
+Holy-Bible---French---Vulgate-Glaire	017	EST	012	004	Or le roi écrivit dans des mémoires ce qui s’était passé, et Mardochée en transmit le souvenir dans sa lettre.
+Holy-Bible---French---Vulgate-Glaire	017	EST	012	005	Le roi lui ordonna de demeurer en son palais, en lui donnant des présents pour sa délation.
+Holy-Bible---French---Vulgate-Glaire	017	EST	012	006	Mais Aman, fils d’Amadath, Bugée, était en grand honneur auprès du roi, et il voulut nuire à Mardochée et à son peuple, à cause des deux eunuques du roi qui avaient été tués.
+Holy-Bible---French---Vulgate-Glaire	017	EST	013	001	Le roi très grand Artaxerxès, qui règne depuis l’Inde jusqu’à l’Ethiopie sur cent vingt-sept provinces, aux princes et aux chefs qui sont soumis à son empire, salut.
+Holy-Bible---French---Vulgate-Glaire	017	EST	013	002	Quoique je commandasse à un très grand nombre de nations, et que j’eusse soumis tout l’univers à ma domination, je n’ai voulu en aucune manière abuser de la grandeur de ma puissance ; mais j’ai gouverné mes sujets avec clémence et avec douceur, afin que, passant leur vie en silence et sans aucune crainte, ils jouissent de la paix souhaitée de tous les mortels.
+Holy-Bible---French---Vulgate-Glaire	017	EST	013	003	Et comme je demandai à mes conseillers de quelle manière cela pourrait être accompli, l’un d’entre eux, nommé Aman, qui par sa sagesse et par sa fidélité l’emportait sur tous les autres, et était le second après le roi,
+Holy-Bible---French---Vulgate-Glaire	017	EST	013	004	M’a fait connaître qu’il y a un peuple dispersé dans toute la terre, ayant de nouvelles lois, et qui, agissant contre la coutume de toutes les nations, méprise les commandements des rois, et détruit par son dissentiment la concorde de tous les peuples.
+Holy-Bible---French---Vulgate-Glaire	017	EST	013	005	Ce qu’ayant appris, et voyant qu’une seule nation rebelle à tout le genre humain, a des lois perverses, va contre nos ordonnances, et trouble la paix et la concorde des provinces qui nous sont soumises,
+Holy-Bible---French---Vulgate-Glaire	017	EST	013	006	Nous avons ordonné que tous ceux qu’Aman (qui est préposé sur toutes les provinces, qui est le second après le roi, et que nous honorons comme notre père) aura fait connaître, comme étant de ce peuple, soient détruits par leurs ennemis, avec leurs femmes et leurs enfants, le quatorzième jour d’Adar, douzième mois de l’année présente, et que nul n’en ait pitié,
+Holy-Bible---French---Vulgate-Glaire	017	EST	013	007	Afin que ces hommes criminels, descendant tous en un même jour dans les enfers, rendent à notre empire la paix qu’ils avaient troublée. Et, allant, Mardochée fit tout ce que lui avait mandé Esther.
 Holy-Bible---French---Vulgate-Glaire	017	EST	013	008	Or Mardochée pria le Seigneur, se souvenant de toutes ses œuvres,
-Holy-Bible---French---Vulgate-Glaire	017	EST	013	009	et il dit : Seigneur, Seigneur, roi tout-puissant, toutes choses sont soumises à votre pouvoir, et nul ne peut résister à votre volonté, si vous avez résolu de sauver Israël.
-Holy-Bible---French---Vulgate-Glaire	017	EST	013	010	Vous avez fait le ciel et la terre, et tout ce qui est contenu dans l’enceinte du ciel.
-Holy-Bible---French---Vulgate-Glaire	017	EST	013	011	Vous êtes le Seigneur de toutes choses, et nul ne peut résister à votre majesté.
-Holy-Bible---French---Vulgate-Glaire	017	EST	013	012	Vous connaissez tout, et vous savez que si je n’ai pas adoré le superbe Aman, ce n’a été ni par orgueil, ni par mépris, ni par quelque désir de gloire ;
-Holy-Bible---French---Vulgate-Glaire	017	EST	013	013	car volontiers, pour le salut d’Israël, j’aurais été disposé à baiser les traces mêmes de ses pieds.
-Holy-Bible---French---Vulgate-Glaire	017	EST	013	014	Mais j’ai craint de transférer à un homme l’honneur de mon Dieu, et d’adorer quelqu’un en dehors de mon Dieu.
-Holy-Bible---French---Vulgate-Glaire	017	EST	013	015	Maintenant donc, Seigneur roi, Dieu d’Abraham, ayez pitié de votre peuple, parce que nos ennemis veulent nous perdre et détruire votre héritage.
-Holy-Bible---French---Vulgate-Glaire	017	EST	013	016	Ne méprisez pas qui est votre partage, que vous avez racheté de l’Egypte pour vous.
-Holy-Bible---French---Vulgate-Glaire	017	EST	013	017	Exaucez ma prière, et soyez propice à une nation qui est votre part et votre héritage, et changez, Seigneur, notre deuil en joie, afin que pendant notre vie nous glorifiions votre nom, et ne fermez pas la bouche de ceux qui vous louent.
-Holy-Bible---French---Vulgate-Glaire	017	EST	013	018	Tout Israël cria aussi au Seigneur, dans un même esprit et une même supplication, parce qu’une mort certaine les menaçait.
-Holy-Bible---French---Vulgate-Glaire	017	EST	014	001	La reine Esther eut aussi recours au Seigneur, épouvantée du péril qui était proche ;
-Holy-Bible---French---Vulgate-Glaire	017	EST	014	002	et ayant quitté tous ses vêtements royaux, elle en prit de conformes à son affliction ; et elle se couvrit la tête de cendres et d’ordure, au lieu de parfums variés, et elle humilia son corps par les jeûnes ; et elle remplit de ses cheveux, qu’elle s’arrachait, tous les endroits où elle avait coutume de se réjouir auparavant.
-Holy-Bible---French---Vulgate-Glaire	017	EST	014	003	Et elle suppliait le Seigneur, le Dieu d’Israël, en disant : Mon Seigneur, qui êtes seul notre roi, assistez-moi dans l’abandon où je suis, puisque vous êtes le seul qui puissiez me secourir.
-Holy-Bible---French---Vulgate-Glaire	017	EST	014	004	Mon péril est présent et inévitable.
-Holy-Bible---French---Vulgate-Glaire	017	EST	014	005	J’ai appris de mon père, Seigneur, que vous avez pris Israël d’entre toutes les nations, et nos pères d’entre tous leurs ancêtres qui les avaient devancés, pour les posséder comme un héritage éternel ; et vous leur avez fait ce que vous leur aviez promis.
-Holy-Bible---French---Vulgate-Glaire	017	EST	014	006	Nous avons péché devant vous, et c’est pour cela que vous nous avez livrés entre les mains de nos ennemis :
-Holy-Bible---French---Vulgate-Glaire	017	EST	014	007	car nous avons adoré leurs dieux. Vous êtes juste, Seigneur ;
-Holy-Bible---French---Vulgate-Glaire	017	EST	014	008	et maintenant ils ne se contentent pas de nous opprimer par une très dure servitude ; mais, attribuant la force de leurs mains à la puissance de leurs idoles,
-Holy-Bible---French---Vulgate-Glaire	017	EST	014	009	ils veulent renverser vos promesses, détruire votre héritage, fermer la bouche à ceux qui vous louent, et éteindre la gloire de votre temple et de votre autel,
-Holy-Bible---French---Vulgate-Glaire	017	EST	014	010	pour ouvrir la bouche des nations, pour louer la puissance des idoles, et pour célébrer à jamais un roi de chair.
-Holy-Bible---French---Vulgate-Glaire	017	EST	014	011	Seigneur, ne livrez pas votre sceptre à ceux qui ne sont rien, de peur qu’ils ne se rient de notre ruine : mais faites retomber sur eux leurs desseins, et perdez celui qui a commencé à sévir contre nous.
-Holy-Bible---French---Vulgate-Glaire	017	EST	014	012	Souvenez-vous, Seigneur, et montrez-vous à nous dans le temps de notre affliction ; et donnez-moi de la fermeté, Seigneur, roi des dieux et de toute puissance.
-Holy-Bible---French---Vulgate-Glaire	017	EST	014	013	Mettez dans ma bouche des paroles habiles en présence du lion, et portez son cœur à haïr notre ennemi, afin qu’il périsse lui-même, avec tous ceux qui conspirent avec lui.
-Holy-Bible---French---Vulgate-Glaire	017	EST	014	014	Pour nous, délivrez-nous par votre main, et aidez-moi, Seigneur, vous qui êtes mon unique secours, vous qui connaissez toutes choses,
-Holy-Bible---French---Vulgate-Glaire	017	EST	014	015	et qui savez que je hais la gloire des impies, et que je déteste la couche des incirconcis et de tout étranger.
-Holy-Bible---French---Vulgate-Glaire	017	EST	014	016	Vous savez la nécessité où je me trouve, et que j’ai en abomination la marque superbe de ma gloire qui est sur ma tête aux jours de ma magnificence, et que je la déteste comme un linge souillé, et que je ne la porte pas aux jours de mon silence ;
-Holy-Bible---French---Vulgate-Glaire	017	EST	014	017	et que je n’ai pas mangé à la table d’Aman, ni pris plaisir au festin du roi ; que je n’ai pas bu le vin des libations,
-Holy-Bible---French---Vulgate-Glaire	017	EST	014	018	et que depuis l’instant où j’ai été amenée ici au palais jusqu’a ce jour, jamais votre servante ne s’est réjouie qu’en vous seul, Seigneur, Dieu d’Abraham.
-Holy-Bible---French---Vulgate-Glaire	017	EST	014	019	Dieu fort au-dessus de tous, exaucez la voix de ceux qui n’ont aucune autre espérance, sauvez-nous de la main des méchants, et délivrez-moi de ma crainte.
-Holy-Bible---French---Vulgate-Glaire	017	EST	015	001	Et il lui manda d’entrer chez le roi, et de prier pour son peuple et pour sa patrie.
-Holy-Bible---French---Vulgate-Glaire	017	EST	015	002	Souvenez-vous, lui dit-il des jours de votre abaissement, et comment vous avez été nourrie par mes mains ; car Aman, qui est le second après le roi, a parlé contre nous pour nous perdre.
-Holy-Bible---French---Vulgate-Glaire	017	EST	015	003	Et vous, invoquez le Seigneur ; parlez pour nous au roi, et délivrez-nous de la mort.
-Holy-Bible---French---Vulgate-Glaire	017	EST	015	004	Le troisième jour, Esther quitta les habits de deuil dont elle s’était revêtue, et s’environna de sa gloire.
-Holy-Bible---French---Vulgate-Glaire	017	EST	015	005	Et lorsqu’elle brilla dans cette parure royale, ayant invoqué Dieu, qui est le guide et le sauveur de tous, elle prit deux de ses suivantes ;
-Holy-Bible---French---Vulgate-Glaire	017	EST	015	006	et elle s’appuyait sur l’une d’elles, comme ayant peine à soutenir son corps, à cause de sa délicatesse et de sa faiblesse extrême ;
-Holy-Bible---French---Vulgate-Glaire	017	EST	015	007	l’autre servante suivait sa maîtresse, portant ses vêtements qui traînaient par terre.
-Holy-Bible---French---Vulgate-Glaire	017	EST	015	008	Elle cependant, une couleur de rose répandue sur son visage, et les yeux pleins d’agréments et d’éclats, cachait la tristesse de son âme qui était toute contractée par une crainte violente.
-Holy-Bible---French---Vulgate-Glaire	017	EST	015	009	Et ayant passé toutes les portes l’une après l’autre, elle se présenta devant le roi au lieu où il était assis sur son trône, couvert de ses vêtements royaux, tout brillant d’or et de pierres précieuses ; et il était terrible à voir.
-Holy-Bible---French---Vulgate-Glaire	017	EST	015	010	Et lorsqu’il eut levé la tête, et que par ses yeux étincelants il eut manifesté la fureur de son cœur, la reine s’affaissa, et la couleur de son teint se changeant en pâleur, elle laissa tomber sa tête fatiguée sur sa jeune servante.
-Holy-Bible---French---Vulgate-Glaire	017	EST	015	011	Et Dieu changea le cœur du roi et l’adoucit. Et aussitôt, tremblant, il s’élança de son trône, et la soutenant entre ses bras jusqu’à ce qu’elle fût revenue à elle, il la caressait en lui disant :
-Holy-Bible---French---Vulgate-Glaire	017	EST	015	012	Qu’avez-vous, Esther ? Je suis votre frère, ne craignez pas.
-Holy-Bible---French---Vulgate-Glaire	017	EST	015	013	Vous ne mourrez pas, car cette loi n’a pas été faite pour vous, mais pour tous les autres.
+Holy-Bible---French---Vulgate-Glaire	017	EST	013	009	Et il dit : Seigneur, Seigneur, roi tout-puissant, car toutes choses sont soumises à votre pouvoir, et il n’y a personne qui puisse résister à votre volonté, si vous avez résolu de sauver Israël.
+Holy-Bible---French---Vulgate-Glaire	017	EST	013	010	C’est vous qui avez fait le ciel et la terre, et tout ce qui est renfermé dans l’enceinte du ciel.
+Holy-Bible---French---Vulgate-Glaire	017	EST	013	011	Vous êtes le Seigneur de toutes choses, et il n’y a personne qui puisse résister à votre majesté.
+Holy-Bible---French---Vulgate-Glaire	017	EST	013	012	Vous connaissez toutes choses, et vous savez que ce n’est ni par orgueil, ni par insulte, ni par quelque désir de gloire, que j’ai fait en sorte de ne pas adorer Aman, le très superbe.
+Holy-Bible---French---Vulgate-Glaire	017	EST	013	013	(Car volontiers, pour le salut d’Israël, j’aurais été prêt à baiser les traces de ses pieds) :
+Holy-Bible---French---Vulgate-Glaire	017	EST	013	014	Mais j’ai craint de transporter l’honneur de mon Dieu à un homme, et d’adorer quelqu’un, excepté mon Dieu.
+Holy-Bible---French---Vulgate-Glaire	017	EST	013	015	Et maintenant. Seigneur roi. Dieu d’Abraham, ayez pitié de votre peuple, parce que nos ennemis veulent nous perdre, et détruire votre héritage.
+Holy-Bible---French---Vulgate-Glaire	017	EST	013	016	Ne méprisez pas votre portion que vous vous êtes rachetée de l’Egypte.
+Holy-Bible---French---Vulgate-Glaire	017	EST	013	017	Exaucez ma prière, et soyez propice à votre lot et à votre partage, et changez notre deuil en joie, afin que, vivant, nous célébrions votre nom, Seigneur, et ne fermez pas la bouche de ceux qui vous chantent.
+Holy-Bible---French---Vulgate-Glaire	017	EST	013	018	Tout Israël aussi, dans le même esprit, et avec les mêmes supplications, cria vers le Seigneur, parce qu’une mort certaine les menaçait.
+Holy-Bible---French---Vulgate-Glaire	017	EST	014	001	La reine Esther aussi eut recours au Seigneur, effrayée du péril qui était imminent.
+Holy-Bible---French---Vulgate-Glaire	017	EST	014	002	Et, quittant ses habits de reine, elle prit des vêtements conformes aux pleurs et au deuil, et au lieu de ses diverses essences, elle couvrit sa tête de cendre et de boue : elle affligea son corps par les jeûnes ; et tous les lieux où auparavant elle avait accoutumé de se réjouir, elle les remplit de ses cheveux qu’elle s’arrachait.
+Holy-Bible---French---Vulgate-Glaire	017	EST	014	003	Et elle priait le Seigneur Dieu d’Israël, disant : Mon Seigneur, qui seul êtes notre roi, secourez-moi dans mon abandon, puisque hors de vous il n’est aucun autre aide.
+Holy-Bible---French---Vulgate-Glaire	017	EST	014	004	Mon péril est en mes mains.
+Holy-Bible---French---Vulgate-Glaire	017	EST	014	005	J’ai ouï de mon père que vous, Seigneur, aviez pris Israël d’entre toutes les nations, et, en remontant, nos pères d’entre tous leurs ancêtres, pour que vous possédiez un héritage éternel ; et vous avez fait pour eux comme vous avez dit.
+Holy-Bible---French---Vulgate-Glaire	017	EST	014	006	Nous avons péché en votre présence, et c’est pour cela que vous nous avez livrés aux mains de nos ennemis ;
+Holy-Bible---French---Vulgate-Glaire	017	EST	014	007	Car nous avons adoré leurs dieux. Vous êtes juste. Seigneur.
+Holy-Bible---French---Vulgate-Glaire	017	EST	014	008	Et, maintenant, il ne leur suffit pas de nous opprimer par la plus dure servitude ; mais, attribuant la force de leurs bras au pouvoir des idoles,
+Holy-Bible---French---Vulgate-Glaire	017	EST	014	009	Ils veulent changer vos promesses, détruire votre héritage, fermer les bouches de ceux qui vous louent, et éteindre la gloire du temple et de votre autel,
+Holy-Bible---French---Vulgate-Glaire	017	EST	014	010	Afin d’ouvrir la bouche des nations, de louer la puissance des idoles, et de célébrer un roi de chair à jamais.
+Holy-Bible---French---Vulgate-Glaire	017	EST	014	011	Ne livrez pas. Seigneur, votre sceptre à ceux qui ne sont pas, de peur qu’ils ne rient de notre ruine ; mais tournez leurs conseils sur eux, et perdez celui qui a commencé à sévir contre nous.
+Holy-Bible---French---Vulgate-Glaire	017	EST	014	012	Souvenez-vous de nous, Seigneur, montrez-vous à nous dans le temps de notre tribulation, et donnez-moi l’assurance. Seigneur, roi des dieux et de toute puissance.
+Holy-Bible---French---Vulgate-Glaire	017	EST	014	013	Mettez des paroles convenables dans ma bouche en présence du lion, et transférez son cœur à la haine de notre ennemi, afin qu’il périsse lui-même et tous les autres qui conspirent avec lui.
+Holy-Bible---French---Vulgate-Glaire	017	EST	014	014	Mais nous, délivrez-nous par votre main, et secourez-moi ; car je n’ai d’autre secours que vous, Seigneur, qui avez la science de toutes choses,
+Holy-Bible---French---Vulgate-Glaire	017	EST	014	015	Et qui savez que je hais la gloire des hommes iniques, et que je déteste le lit des incirconcis et de tout étranger.
+Holy-Bible---French---Vulgate-Glaire	017	EST	014	016	Oui, vous savez ma situation pénible, et que j’ai en abomination le signe de mon orgueil et de ma gloire qui est sur ma tête dans les jours de ma splendeur, et que je le déteste comme un linge souillé, et que je ne le porte pas dans les jours de mon silence ;
+Holy-Bible---French---Vulgate-Glaire	017	EST	014	017	Que je n’ai pas mangé à la table d’Aman, que le festin du roi ne m’a point plu, et que je n’ai pas bu du vin des libations ;
+Holy-Bible---French---Vulgate-Glaire	017	EST	014	018	Et que jamais votre servante ne s’est réjouie, depuis que j’ai été transportée ici jusqu’au présent jour, sinon en vous. Seigneur Dieu d’Abraham.
+Holy-Bible---French---Vulgate-Glaire	017	EST	014	019	Dieu fort, au-dessus de tous, exaucez la voix de ceux qui n’ont aucune autre espérance, délivrez-nous de la main des hommes iniques, et arrachez-moi à ma crainte.
+Holy-Bible---French---Vulgate-Glaire	017	EST	015	001	Et il manda à Esther (point de doute que ce ne fut Mardochée) d’entrer auprès du roi, et de le prier pour son peuple et pour sa patrie.
+Holy-Bible---French---Vulgate-Glaire	017	EST	015	002	Souvenez-vous (dit-il) des jours de votre humiliation, comment vous avez été nourrie par ma main, parce qu’Aman, le second après le roi, a parlé contre nous de mort ;
+Holy-Bible---French---Vulgate-Glaire	017	EST	015	003	Et vous, invoquez le Seigneur, et parlez au roi pour nous, et délivrez-nous de la mort.
+Holy-Bible---French---Vulgate-Glaire	017	EST	015	004	Or, le troisième jour, Esther quitta les vêtements de sa parure, et s’environna de sa gloire ;
+Holy-Bible---French---Vulgate-Glaire	017	EST	015	005	Et, brillant dans ce costume de reine, lorsqu’elle eut invoqué celui qui régit toutes choses, et le Dieu Sauveur, elle prit ses deux servantes ;
+Holy-Bible---French---Vulgate-Glaire	017	EST	015	006	Et elle s’appuyait sur l’une d’elles, comme ne pouvant soutenir son corps, à cause de son attitude nonchalante et de son extrême délicatesse.
+Holy-Bible---French---Vulgate-Glaire	017	EST	015	007	Et l’autre servante suivait sa maîtresse, portant ses vêtements qui traînaient à terre.
+Holy-Bible---French---Vulgate-Glaire	017	EST	015	008	Elle cependant, avec une couleur de rose répandue sur le visage et des yeux gracieux et brillants, cachait un cœur triste et serré d’une excessive crainte.
+Holy-Bible---French---Vulgate-Glaire	017	EST	015	009	Etant donc entrée successivement par toutes les portes, elle se présenta devant le roi, où celui-ci était assis sur son trône, couvert des vêtements royaux, brillant d’or et de pierres précieuses ; et il était terrible à voir.
+Holy-Bible---French---Vulgate-Glaire	017	EST	015	010	Et lorsqu’il eut levé sa face, et qu’avec des yeux ardents il eut montré la fureur de son cœur, la reine tomba, et, sa couleur se changeant en pâleur, elle pencha sa tête lassée sur la jeune servante.
+Holy-Bible---French---Vulgate-Glaire	017	EST	015	011	Mais Dieu changea en douceur l’esprit du roi qui, se hâtant et effrayé, s’élança de son trône, et, soutenant Esther dans ses bras, jusqu’à ce qu’elle revînt à elle, il la caressait en ces termes :
+Holy-Bible---French---Vulgate-Glaire	017	EST	015	012	Qu’avez-vous, Esther ? Je suis votre frère, ne craignez point.
+Holy-Bible---French---Vulgate-Glaire	017	EST	015	013	Vous ne mourrez point ; car cette loi n’a pas été établie pour vous, mais pour tous les autres.
 Holy-Bible---French---Vulgate-Glaire	017	EST	015	014	Approchez-vous donc, et touchez mon sceptre.
-Holy-Bible---French---Vulgate-Glaire	017	EST	015	015	Et comme elle se taisait, il prit son sceptre d’or, et le lui posa sur le cou, et il la baisa et lui dit : Pourquoi ne me parlez-vous pas ?
-Holy-Bible---French---Vulgate-Glaire	017	EST	015	016	Elle lui répondit : Seigneur, je vous ai vu comme un ange de Dieu, et mon cœur a été troublé par la crainte de votre gloire.
-Holy-Bible---French---Vulgate-Glaire	017	EST	015	017	Car, Seigneur, vous êtes admirable, et votre visage est plein de grâces.
-Holy-Bible---French---Vulgate-Glaire	017	EST	015	018	En disant ces paroles, elle retomba encore, et elle était sur le pas de s’évanouir.
-Holy-Bible---French---Vulgate-Glaire	017	EST	015	019	Le roi en était troublé, et ses ministres la consolaient.
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	001	Le grand roi Artaxerxès, qui règne depuis les Indes jusqu’en Ethiopie, aux chefs et aux gouverneurs des cent vingt-sept provinces qui sont soumises à notre empire, salut.
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	002	Plusieurs ont abusé insolemment de la bonté des princes, et de l’honneur qu’ils en ont reçu ;
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	003	et non seulement ils s’efforcent d’opprimer les sujets des rois, mais, ne pouvant supporter la gloire dont ils ont été comblés, ils tendent des pièges à ceux mêmes qui la leur ont accordée.
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	004	Et ils ne se contentent pas de méconnaître les grâces qu’on leur a faites, et de violer eux-mêmes les droits de l’humanité ; mais ils s’imaginent aussi qu’ils pourront se soustraire à la justice de Dieu qui voit tout.
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	005	Et leur présomption passe à un tel excès, que, s’élevant contre ceux qui s’acquittent avec soin de leurs fonctions, et se conduisent de telle sorte qu’ils méritent la louange de tous, ils tâchent de les perdre par les artifices de leurs mensonges,
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	006	surprenant par leurs déguisements et par leur adresse la bonté des princes, qui jugent les autres d’après leur propre nature.
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	007	Ceci est confirmé par les anciennes histoires, et on voit encore tous les jours combien les bonnes inclinations des rois sont souvent altérées par de faux rapports.
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	008	C’est pourquoi nous devons pourvoir à la paix de toutes les provinces.
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	009	Et, si nous ordonnons des choses différentes, vous ne devez pas croire que cela vienne de la légèreté de notre esprit ; mais plutôt que nous formulons nos ordonnances selon la diversité et la nécessité des temps, suivant que le demande le bien public.
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	010	Et pour vous faire connaître ceci plus clairement, nous avions auprès de nous l’étranger Aman, fils d’Amadathi, Macédonien d’inclination et d’origine, qui n’avait rien de commun avec le sang des Perses, et qui a voulu déshonorer notre clémence par sa cruauté ;
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	011	et après que nous lui avions donné tant de marques de notre bienveillance, jusqu’à le faire appeler notre père et à le faire adorer de tous, comme le second après le roi,
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	012	il s’est élevé à un tel excès d’insolence, qu’il a tâché de nous faire perdre la couronne et la vie.
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	013	Car, par des machinations nouvelles et inouïes, il avait tenté de perdre Mardochée, grâce à la fidélité et aux bons services duquel nous vivons, et Esther, la compagne de notre royaume, avec tout leur peuple,
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	014	pensant qu’après les avoir tués, il nous tendrait des embûches dans notre isolement, et ferait passer aux Macédoniens l’empire des Perses.
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	015	Mais nous avons reconnu que les Juifs, qui étaient destinés à la mort par le plus méchant des hommes, n’étaient coupables d’aucune faute ; mais qu’au contraire ils se conduisent par des lois justes,
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	016	et qu’ils sont les enfants du Dieu très haut, très puissant et éternel, par la grâce duquel ce royaume a été donné à nos pères et à nous-mêmes, et se conserve encore aujourd’hui.
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	017	C’est pourquoi sachez que les lettres qu’il vous avait envoyées en notre nom sont nulles.
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	018	A cause de ce crime dont il a été l’instigateur, il a été pendu avec tous ses proches, devant la porte de cette ville, c’est-à-dire de Suse, Dieu lui-même, et non pas nous, l’ayant traité comme il l’a mérité.
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	019	Que cet édit, que nous vous envoyons maintenant, soit affiché dans toutes les villes, afin qu’il soit permis aux Juifs de garder leurs lois.
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	020	Et vous devrez leur prêter secours, afin qu’ils puissent tuer ceux qui se préparaient à les perdre le treizième jour du douzième mois, appelé Adar.
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	021	Car le Dieu tout-puissant a changé pour eux ce jour de tristesse et de deuil en un jour de joie.
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	022	C’est pourquoi mettez aussi ce jour au rang des jours de fêtes, et célébrez-le avec toute sorte de réjouissances, afin que l’on sache à l’avenir
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	023	que tous ceux qui obéissent fidèlement aux Perses reçoivent une récompense digne de leur fidélité, mais que ceux qui conspirent contre le royaume périssent pour leurs crimes.
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	024	Et que toute province et toute ville qui refuserait de prendre part à cette solennité périsse par le glaive et par le feu, et qu’elle soit tellement détruite, qu’elle demeure inaccessible à jamais, non seulement aux hommes, mais aux bêtes même, comme un exemple de désobéissance et de mépris.
-Holy-Bible---French---Vulgate-Glaire	018	JOB	016	004	Moi aussi je pourrais en dire autant que vous ; et que ne suis-je à votre place !
-Holy-Bible---French---Vulgate-Glaire	018	JOB	031	018	;
-Holy-Bible---French---Vulgate-Glaire	019	PSA	002	012	Attachez-vous à la doctrine, de peur que le Seigneur ne s’irrite, et que vous ne périssiez hors de la voie droite.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	003	001	Psaume de David lorsqu’il fuyait devant Absalom son fils.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	004	001	Pour la fin, parmi les cantiques, psaume de David.
+Holy-Bible---French---Vulgate-Glaire	017	EST	015	015	Et comme Esther gardait le silence, il prit son sceptre d’or, le posant sur son cou, il lui donna un baiser, et dit : Pourquoi ne me parlez-vous pas ?
+Holy-Bible---French---Vulgate-Glaire	017	EST	015	016	Elle répondit : Je vous ai vu, seigneur, comme un ange de Dieu, et mon cœur a été troublé par la crainte de votre gloire :
+Holy-Bible---French---Vulgate-Glaire	017	EST	015	017	Car, seigneur, vous êtes admirable, et votre face est pleine de grâces.
+Holy-Bible---French---Vulgate-Glaire	017	EST	015	018	Et, comme elle parlait, elle tomba de nouveau, et elle était près de s’évanouir.
+Holy-Bible---French---Vulgate-Glaire	017	EST	015	019	Or le roi était troublé, et tous ses ministres la consolaient.
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	001	Le grand roi Artaxerxès, qui règne depuis l’Inde jusqu’à l’Ethiopie, aux chefs et aux gouverneurs des cent vingt-sept provinces qui sont soumises à notre commandement, dit salut.
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	002	Beaucoup ont abusé de la bonté des princes et de l’honneur qui leur a été conféré, jusqu’à l’insolence ;
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	003	Et non seulement ils tâchent d’opprimer les sujets des rois, mais, ne pouvant supporter la gloire qui leur a été donnée, ils tendent des pièges à ceux mêmes qui la leur ont donnée.
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	004	Ils ne se contentent pas de ne point rendre grâces pour les bienfaits, et de violer en eux-mêmes les droits de l’humanité ; mais ils s’imaginent aussi qu’ils pourront échapper à la sentence de Dieu, qui voit tout.
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	005	Et ils sont tombés dans un tel degré de folie, que ceux qui remplissent fidèlement les charges à eux confiées et qui font toutes choses de manière à être dignes des louanges de tous, ils s’efforcent de les perdre par les artifices du mensonge,
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	006	Tandis que par une fraude astucieuse, ils trompent les oreilles des princes, lesquelles sont simples et estiment les autres hommes par leur propre nature.
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	007	Ce qui est prouvé et par les anciennes histoires, et par ce qui se passe chaque jour, c’est comment par les mauvaises suggestions de quelques-uns les intentions des rois sont perverties.
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	008	C’est pourquoi il faut pourvoir à la paix de toutes les provinces.
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	009	Et vous ne devez pas penser, si nous ordonnons des choses différentes, que cela vienne de la légèreté de notre esprit, mais juger que c’est selon la nature et la nécessité des temps, comme l’utilité de l’Etat l’exige.
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	010	Et, afin que vous compreniez plus manifestement ce que nous disons, Aman, fils d’Amadath, Macédonien de cœur et d’origine, n’étant point du sang des Perses, déshonorant notre clémence par sa cruauté, a été accueilli par nous, comme étranger.
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	011	Et, après avoir reçu des marques de bonté telles, qu’il était appelé notre père, et adoré par tous, comme le second après le roi,
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	012	Il s’est élevé à un si grand excès d’arrogance, qu’il tâchait de nous priver du royaume et de la vie.
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	013	Car, par des manœuvres nouvelles et inouïes, il a vivement désiré envoyer à la mort Mardochée. par la fidélité et les bons offices duquel nous vivons, et Esther, la compagne de notre royauté, avec toute sa nation,
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	014	Pensant qu’eux une fois tués, il surprendrait notre vigilance, et transférerait le royaume des Perses aux Macédoniens.
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	015	Mais nous, nous n’avons trouvé coupables d’aucune faute que ce soit les Juifs, destinés à la mort par le plus méchant des mortels ; mais au contraire se conformant à de justes lois,
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	016	Et enfants du Dieu très haut, très grand et toujours vivant, par le bienfait de qui ce royaume a été donné et à nos pères et à nous, et par qui il a été conservé jusqu’à aujourd’hui.
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	017	C’est pourquoi sachez que ces lettres, qu’il vous avait adressées sous mon nom, sont annulées.
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	018	Pour lequel crime, et lui qui l’a machiné, et toute sa parenté, sont pendus devant les portes de cette ville, c’est-à-dire de Suse, Dieu, et non pas nous, lui ayant rendu ce qu’il a mérité.
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	019	Que cet édit donc que nous envoyons maintenant, soit exposé à la vue dans toutes les villes, afin qu’il soit permis aux Juifs de garder leurs lois.
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	020	Et vous devez leur être en aide, afin qu’ils puissent tuer le treizième jour du douzième mois, qui est appelé Adar, ceux qui s’étaient préparés à les faire mourir ;
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	021	Car ce jour d’affliction et de deuil, le Dieu tout-puissant l’a changé pour eux en joie.
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	022	C’est pourquoi vous aussi, ayez ce jour parmi tous les autres jours de fête, et célébrez-le avec toute sorte de réjouissances, afin que dans l’avenir aussi on sache
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	023	Que tous ceux qui obéissent fidèlement aux Perses reçoivent une récompense pour leur fidélité, mais que ceux qui trament une trahison contre leur royaume périssent pour leur crime.
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	024	Or que toute province ou toute ville qui ne voudra pas participer à cette solennité, périsse par le glaive et par le feu, et soit tellement détruite, qu’elle devienne inaccessible à jamais, non seulement aux hommes, mais même aux bêtes, comme un exemple de mépris et de désobéissance.
+Holy-Bible---French---Vulgate-Glaire	018	JOB	016	004	Je pourrais, moi aussi, parler comme vous ; et plût à Dieu que votre âme fût à la place de mon âme !
+Holy-Bible---French---Vulgate-Glaire	019	PSA	002	012	Embrassez la doctrine, de peur que quelque jour le Seigneur ne s’irrite, et que vous ne périssiez hors de la voie de la justice.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	003	001	Psaume de David, lorsqu’il fuyait devant Absalom son fils.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	004	001	Pour la fin, dans les cantiques, psaume de David.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	005	001	Pour la fin, pour celle qui obtient l’héritage, psaume de David.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	006	001	Pour la fin, parmi les cantiques, psaume de David, pour l’octave.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	007	001	Psaume de David, qu’il chanta au Seigneur à cause des paroles de Chus, fils de Jémini.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	006	001	Pour la fin, dans les cantiques, psaume de David, pour l’octave.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	007	001	Psaume de David qu’il chanta au Seigneur, à cause des paroles de Chus, fils de Jémini.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	008	001	Pour la fin, pour les pressoirs, psaume de David.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	009	001	Pour la fin, pour les secrets    du fils, psaume de David.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	009	001	Pour la fin, pour les mystères du Fils, psaume de David.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	011	001	Pour la fin, psaume de David.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	012	001	Pour la fin, pour l’octave, psaume de David.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	013	002	Jusques à quand remplirai-je mon âme de projets, et mon cœur chaque jour de chagrin ?
-Holy-Bible---French---Vulgate-Glaire	019	PSA	018	001	Pour la fin, de David, serviteur du Seigneur, qui adressa au    Seigneur les paroles de ce cantique, au jour où le Seigneur le délivra de la main de tous ses ennemis et de la main de Saül ; et il dit  :
+Holy-Bible---French---Vulgate-Glaire	019	PSA	013	002	Jusques à quand formerai-je des projets dans mon âme, et donnerai-je du tourment à mon cœur pendant le jour ?
+Holy-Bible---French---Vulgate-Glaire	019	PSA	018	001	Pour la fin, par le serviteur du Seigneur, David, qui a prononce à la gloire du Seigneur les paroles de ce cantique, au jour où le Seigneur l’arracha à la main de ses ennemis, et à la main de Saül, et a dit :
 Holy-Bible---French---Vulgate-Glaire	019	PSA	019	001	Pour la fin, psaume de David.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	020	001	Pour la fin, psaume de David.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	021	001	Pour la fin, psaume de David.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	022	001	Pour la fin, pour le secours du matin, psaume de David.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	030	001	Pour    la dédicace de la maison de David.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	030	001	À la dédicace de la maison David.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	031	001	Pour la fin, psaume de David, pour l’extase.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	034	001	De David, lorsqu’il changea son visage devant Achimélech, qui le renvoya, et qu’il s’en alla.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	036	001	Pour la fin, de David,    serviteur du Seigneur  .
-Holy-Bible---French---Vulgate-Glaire	019	PSA	038	001	Psaume de David, pour faire    souvenir, pour le sabbat.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	034	001	Psaume par David, lorsqu’il changea son visage devant Achimélech, qui le renvoya, et qu’il s’en alla.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	036	001	Pour la fin, au serviteur du Seigneur, par David lui-même.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	038	001	Psaume de David, en souvenir touchant le sabbat.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	039	001	Pour la fin, à Idithun lui-même, cantique de David.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	040	001	Pour la fin, psaume de David lui-même.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	041	001	Pour la fin, psaume de David  .
-Holy-Bible---French---Vulgate-Glaire	019	PSA	042	001	Pour la fin, instruction des    fils de Coré.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	044	001	Pour la fin, des    fils de Coré, pour l’instruction  .
-Holy-Bible---French---Vulgate-Glaire	019	PSA	045	001	Pour la fin, pour ceux qui seront changés, instruction des    fils de Coré  , cantique pour le Bien-aimé.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	046	001	Pour la fin, des fils de Coré, sur les mystères, psaume.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	047	001	Pour la fin, des    fils de Coré, psaume.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	048	001	Psaume,    cantique des fils de Coré, pour le second jour de la semaine.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	049	001	Pour la fin, des    fils de Coré, psaume.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	051	001	Pour la fin, psaume de David ,
-Holy-Bible---French---Vulgate-Glaire	019	PSA	051	002	lorsque le prophète Nathan vint le trouver après qu’il eut été    avec Bethsabée.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	052	001	Pour la fin, instruction de    David,
-Holy-Bible---French---Vulgate-Glaire	019	PSA	052	002	lorsque Doëg l’Iduméen vint annoncer    à Saül :    David est    venu dans la maison d’Achimélech.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	053	001	Pour la fin, sur Maéleth, instruction de    David.  L’insensé a dit dans son cœur : Il n’y a point de Dieu.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	054	001	Pour la fin, parmi les cantiques, instruction de    David ,
-Holy-Bible---French---Vulgate-Glaire	019	PSA	054	002	lorsque les habitants de Ziph vinrent dire à Saül :  David n’est-il pas caché parmi nous ?
-Holy-Bible---French---Vulgate-Glaire	019	PSA	055	001	Pour la fin, parmi les cantiques, instruction de    David.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	056	001	Pour la fin. Pour le peuple qui a été éloigné des saints  , de David,    inscription du    titre, lorsque les Philistins   (Allophyles   ) l’eurent arrêté à Geth.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	057	001	Pour la fin. N’exterminez pas    ; de David, inscription du    titre, lorsqu’il s’enfuit de devant Saül dans une    caverne.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	058	001	N’exterminez pas    ; de David, inscription du    titre.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	059	001	N’exterminez pas    ; de David, pour l’inscription du    titre, quand Saül envoya garder sa maison pour le tuer  .
-Holy-Bible---French---Vulgate-Glaire	019	PSA	060	001	Pour ceux qui seront changés, inscription du    titre, instruction de David  ,
-Holy-Bible---French---Vulgate-Glaire	019	PSA	060	002	lorsqu’il brûla la Mésopotamie de Syrie et Sobal, et que Joab revint et frappa l’Idumée dans la vallée des Salines, tuant douze mille hommes.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	061	001	Sur    les cantiques  , de David.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	040	001	Pour la fin, psaume par David lui-même.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	041	001	Pour la fin, psaume de David.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	042	001	Pour la fin, intelligence aux fils de Coré.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	044	001	Pour la fin, aux fils de Coré pour l’intelligence.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	045	001	Pour la fin, pour ceux qui seront changés, aux fils de Coré, pour l’intelligence. Cantique pour le bien-aimé.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	046	001	Pour la fin, aux fils de Coré, pour les secrets, psaume.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	047	001	Pour la fin, pour les fils de Coré, psaume.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	048	001	Psaume du cantique aux fils de Coré pour le second jour de la semaine.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	049	001	Pour la fin, aux fils de Coré, psaume.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	051	001	Pour la fin, psaume de David.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	051	002	Lorsque le prophète Nathan vint le trouver, après qu’il eut péché avec Bethsabée.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	052	001	Pour la fin. Intelligence à David,
+Holy-Bible---French---Vulgate-Glaire	019	PSA	052	002	Lorsque Doëg l’Iduméen vint annoncer à Saül que David était venu dans la maison d’Achimélech.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	053	001	Pour la fin, pour Maheleth. Intelligence à David.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	054	001	Pour la fin dans les cantiques, intelligence à David.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	054	002	Lorsque les habitants de Ziph furent venus et eurent dit a Saül : Est-ce que David n’est pas chez nous ?
+Holy-Bible---French---Vulgate-Glaire	019	PSA	055	001	Pour la fin, dans les cantiques, intelligence à David.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	056	001	Pour le peuple qui a été éloigné des saints (ou des choses saintes); par David, pour une inscription de titre, lorsque les Allophylles (étrangers) le retinrent dans Geth.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	057	001	Ne perdez pas entièrement ; par David, pour une inscription de titre, lorsqu’il s’enfuit de devant la face de Saül dans la caverne.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	058	001	Ne perdez pas entièrement ; par David, pour une inscription de titre.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	059	001	Ne perdez pas entièrement ; par David, pour une inscription de titre, quand Saül envoya des gens et fit garder sa maison afin de le tuer (I Rois 19,11).
+Holy-Bible---French---Vulgate-Glaire	019	PSA	060	001	Pour ceux qui seront changés, pour une inscription de titre par David lui-même, pour la doctrine,
+Holy-Bible---French---Vulgate-Glaire	019	PSA	060	002	Lorsqu’il brûla la Mésopotamie de Syrie et Sobal, et que Joab, étant revenu, frappa l’Idumée dans la vallée des Salines, par la défaite de douze mille hommes.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	061	001	Dans les hymnes de David.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	062	001	Pour Idithun, psaume de David.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	063	001	Psaume de David, lorsqu’il était dans le désert d’Idumée .
+Holy-Bible---French---Vulgate-Glaire	019	PSA	063	001	Psaume de David lorsqu’il était dans le désert de l’Idumée  .
 Holy-Bible---French---Vulgate-Glaire	019	PSA	064	001	Pour la fin, psaume de David.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	065	001	Cantique de Jérémie et d’Ezéchiel, pour le peuple de la captivité, lorsqu’il commençait à partir  .
-Holy-Bible---French---Vulgate-Glaire	019	PSA	067	001	Parmi    les hymnes, psaume,    cantique de David.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	068	001	Psaume,    cantique de David lui-même.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	069	001	Pour la fin, pour ceux qui seront changés, Psaume de David.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	070	001	En souvenir de ce que Dieu    l’avait sauvé.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	075	001	Pour la fin. Ne détruis    pas. Psaume    cantique d’Asaph.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	076	001	Pour la fin, parmi    les louanges, psaume d’Asaph, cantique sur les    Assyriens.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	077	001	Pour la fin, à    Idithun, psaume d’Asaph.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	065	001	Cantique de Jérémie et d’Ézéchiel, pour le peuple émigré, lorsqu’il commençait à sortir.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	067	001	Dans les hymnes, psaume d’un cantique de David.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	068	001	Psaume d’un cantique de David lui-même.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	069	001	Pour la fin, pour ceux qui seront changés, par David.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	070	001	En mémoire de ce que le Seigneur l’avait sauvé.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	075	001	Pour la fin. Ne corrompez pas. Psaume d’un cantique d’Asaph.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	076	001	Pour la fin, dans les louanges, psaume d’Asaph à l’occasion des Assyriens.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	077	001	Pour la fin, pour Idithun, psaume d’Asaph.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	080	001	Pour la fin, pour ceux qui seront changés, témoignage d’Asaph, psaume.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	081	001	Pour les pressoirs, psaume d’Asaph  .
-Holy-Bible---French---Vulgate-Glaire	019	PSA	083	001	Cantique    psaume d’Asaph.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	084	001	Pour les pressoirs, psaume des    fils de Coré  .
-Holy-Bible---French---Vulgate-Glaire	019	PSA	085	001	Pour la fin, psaume des    fils de Coré  .
-Holy-Bible---French---Vulgate-Glaire	019	PSA	088	001	Des fils de Coré, pour la fin, sur Mahéleth, pour répondre, instruction    d’Eman l’Ezrahite.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	089	001	Instruction    d’Ethan l’Ezrahite.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	092	001	Pour le    jour du sabbat.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	102	001	Prière    du pauvre.  Lorsqu’il sera dans l’affliction, et qu’il répand sa supplication en présence du Seigneur.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	108	001	Cantique    psaume, de David  .
+Holy-Bible---French---Vulgate-Glaire	019	PSA	081	001	Pour les pressoirs, psaume d’Asaph lui-même.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	083	001	Cantique du psaume d’Asaph.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	084	001	Pour les pressoirs, aux fils de Coré, psaume.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	085	001	Pour la fin, aux fils de Coré, psaume.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	088	001	Des fils de Coré, pour la fin, pour Maheleth, pour répondre, intelligence d’Eman l’Ezrahite.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	089	001	Intelligence d’Ethan l’Ezrahite.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	092	001	Au jour du sabbat.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	102	001	Oraison du pauvre. Lorsqu’il est dans l’anxiété, et qu’en présence du Seigneur il répand sa prière.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	108	001	Cantique de psaume, de David lui-même.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	140	001	Pour la fin, psaume de David.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	142	001	Instruction de David, lorsqu’il était dans la caverne, prière.
-Holy-Bible---French---Vulgate-Glaire	023	ISA	045	023	J’ai juré par moi-même ; une parole de justice est sortie de ma bouche, et elle ne sera pas révoquée :
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	024	Et ils marchaient au milieu de la flamme, louant Dieu et bénissant le Seigneur.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	025	Or Azarias, se tenant debout, fit cette prière, et, ouvrant la bouche au milieu du feu, il dit :
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	026	Soyez béni, Seigneur, Dieu de nos pères, et que votre nom soit loué et glorifié dans tous les siècles ;
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	027	parce que vous êtes juste dans tout ce que vous nous avez fait, et que toutes vos œuvres sont vraies et vos voies droites, et que tous vos jugements sont véritables.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	028	Car vous avez rendu des jugements équitables dans tout ce que vous avez fait venir sur nous et sur la cité sainte de nos pères, Jérusalem ; parce que c’est dans la vérité et dans la justice, à cause de nos péchés, que vous avez amené tout cela.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	029	Car nous avons péché, et nous avons manqué en tout ;
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	030	nous n’avons pas écouté vos préceptes et nous ne les avons pas observés, et nous n’avons pas agi comme vous nous l’aviez commandé, afin que nous fussions heureux.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	031	Ainsi tout ce que vous avez amené sur nous et tout ce que vous nous avez fait, c’est par une justice véritable que vous l’avez fait ;
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	032	et vous nous avez livrés entre les mains de nos ennemis, qui sont injustes, scélérats, prévaricateurs, et au roi injuste et le plus méchant qu’il y ait sur la terre.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	033	Et maintenant nous ne pouvons pas ouvrir la bouche ; nous sommes devenus la confusion et l’opprobre de vos serviteurs et de ceux qui vous servent.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	034	Ne nous abandonnez pas à jamais, nous vous en supplions, à cause de votre nom, et ne détruisez pas votre alliance,
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	035	et ne retirez pas de nous votre miséricorde, à cause d’Abraham votre bien-aimé, et d’Isaac votre serviteur, et d’Israël votre saint,
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	036	auxquels vous avez parlé, promettant de multiplier leur race comme les étoiles du ciel, et comme le sable qui est sur le rivage de la mer ;
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	037	car, Seigneur, nous sommes réduits à un plus petit nombre que toutes les nations, et nous sommes aujourd’hui humiliés sur toute la terre à cause de nos péchés.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	038	Et il n’y a plus actuellement ni prince, ni chef, ni prophète, ni holocauste, ni sacrifice, ni oblation, ni encens, ni endroit pour vous offrir les prémices,
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	039	afin que nous puissions trouver votre miséricorde. Mais recevez-nous dans un cœur contrit et dans un esprit humilié,
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	040	comme un holocauste de béliers et de taureaux, comme de milliers d’agneaux gras, qu’ainsi notre sacrifice paraisse aujourd’hui devant vous et qu’il vous soit agréable, car ceux qui ont confiance en vous ne sont pas confondus.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	041	Et maintenant nous vous suivons de tout notre cœur ; nous vous craignons, et nous recherchons votre face.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	042	Ne nous confondez pas, mais agissez envers nous selon votre douceur et selon la multitude de vos miséricordes.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	043	Délivrez-nous par vos merveilles, et donnez gloire à votre nom, Seigneur.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	044	Que tous ceux qui font souffrir vos serviteurs soient confondus ; qu’ils soient confondus par votre toute-puissance, et que leur force soit brisée ;
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	045	et qu’ils sachent que vous, Seigneur, êtes le Dieu unique et glorieux sur toute la terre.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	046	Cependant les serviteurs du roi qui les avaient jetés dans le feu ne cessaient pas d’allumer la fournaise avec du bitume, de l’étoupe, de la poix et des sarments ;
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	047	et la flamme s’élevait quarante-neuf coudées de haut au-dessus de la fournaise ;
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	048	et elle s’élança et brûla ceux des Chaldéens qu’elle trouva près de la fournaise.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	049	Or l’ange du Seigneur descendit auprès d’Azarias et de ses compagnons dans la fournaise, et il écarta les flammes et le feu de la fournaise,
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	050	et il fit au milieu de la fournaise comme un vent de rosée qui soufflait et le feu ne les toucha nullement ; il ne les incommoda pas et ne leur causa aucune peine.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	051	Alors ces trois hommes, comme d’une seule bouche, louaient, glorifiaient et bénissaient Dieu dans la fournaise, en disant :
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	052	Vous êtes béni, Seigneur, Dieu de nos pères ; vous êtes louable, et glorieux, et élevé au-dessus de tout dans tous les siècles ; le saint nom de votre gloire est béni, il est louable et élevé au-dessus de tout dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	053	Vous êtes béni dans le temple saint de votre gloire, et élevé au-dessus de toute louange et de toute gloire dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	054	Vous êtes béni dans le trône de votre royaume, et élevé au-dessus de toute louange et de toute gloire dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	055	Vous êtes béni, vous qui contemplez les abîmes et qui êtes assis sur les chérubins ; et vous êtes louable et élevé au-dessus de toute gloire dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	056	Vous êtes béni dans le firmament du ciel, et vous êtes louable et glorieux dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	057	Ouvrages du Seigneur, bénissez tous le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	058	Anges du Seigneur, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	059	Cieux, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	060	Toutes les eaux qui êtes au-dessus des cieux, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	061	Toutes les vertus du Seigneur, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	062	Soleil et lune, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	063	Etoiles du ciel, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	064	Pluies et rosées, bénissez toutes le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	065	Tous les souffles de Dieu, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	066	Feu et chaleur, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	067	Froid et chaleur, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	068	Rosées et bruine, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	069	Gelée et froid, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	070	Glaces et neiges, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	071	Nuits et jours, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	072	Lumière et ténèbres, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	073	Eclairs et nuages, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	074	Que la terre bénisse le Seigneur ; qu’elle le loue et qu’elle l’exalte dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	075	Montagnes et collines, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	076	Plantes qui germez sur la terre, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	077	Fontaines, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	078	Mers et fleuves, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	079	Grands poissons et tout ce qui se meut dans les eaux, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	080	Tous les oiseaux du ciel, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	081	Bêtes et troupeaux sauvages, bénissez tous le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	082	Enfants des hommes, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	083	Qu’Israël bénisse le Seigneur : qu’il le loue et l’exalte dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	084	Prêtres du Seigneur, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	085	Serviteurs du Seigneur, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	086	Esprits et âmes des justes, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	087	Saints et humbles de cœur, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	088	Ananias, Azarias et Misaël, bénissez le Seigneur ; louez-le et exaltez-le dans tous les siècles, parce qu’il nous a tirés de l’enfer, qu’il nous a sauvés de la mort, qu’il nous a délivrés du milieu des flammes ardentes, et qu’il nous a tirés du milieu du feu.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	089	Rendez grâces au Seigneur, parce qu’il est bon, parce que sa miséricorde est éternelle.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	090	Vous tous qui êtes religieux, bénissez le Seigneur, le Dieu des dieux ; louez-le et célébrez-le, parce que sa miséricorde s’étend dans tous les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	001	Il y avait un homme qui habitait à Babylone, et dont le nom était Joakim.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	002	Il prit une femme nommée Susanne, fille d’Helcias, parfaitement belle et craignant Dieu ;
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	003	car ses parents, qui étaient justes, avaient instruit leur fille selon la loi de Moïse.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	004	Or Joakim était très riche, et il avait un jardin fruitier près de sa maison ; et les Juifs affluaient chez lui, parce qu’il était le plus honorable de tous.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	005	On avait établi pour juges, cette année-là, deux vieillards d’entre le peuple ; c’est d’eux que le Seigneur a dit : L’iniquité est sortie de Babylone par des vieillards qui étaient juges, qui semblaient conduire le peuple.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	006	Ceux-là fréquentaient la maison de Joakim, et tous ceux qui avaient des affaires à juger venaient les y trouver.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	007	Lorsque la foule était partie, sur le midi, Susanne entrait et se promenait dans le jardin de son mari.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	008	Ces vieillards l’y voyaient tous les jours entrer et se promener, et ils brûlèrent de passion pour elle ;
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	009	ils pervertirent leur sens, et ils détournèrent leurs yeux, pour ne pas voir le ciel et pour ne se pas souvenir des justes jugements.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	010	Ils étaient donc tous deux blessés de son amour, mais ils ne s’entre-dirent pas leur peine ;
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	011	car ils rougissaient de se découvrir l’un à l’autre leur passion, voulant corrompre Susanne.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	012	Et ils cherchaient tous les jours, avec grand soin, à la voir. Ils se dirent l’un à l’autre :
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	013	Allons chez nous, car c’est l’heure du dîner ; et étant sortis, ils se séparèrent l’un de l’autre.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	014	Mais, revenant aussitôt, ils se rencontrèrent, et, après s’en être demandé mutuellement la raison, ils avouèrent leur passion ; et alors ils fixèrent ensemble un temps où ils pourraient la trouver seule.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	015	Comme ils cherchaient un jour convenable, il arriva que Susanne entra, selon la coutume, accompagnée seulement de deux jeunes filles, et elle voulut se baigner dans le jardin, car il faisait chaud ;
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	016	et il n’y avait là personne que les deux vieillards, qui étaient cachés et qui la regardaient.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	017	Elle dit donc aux jeunes filles : Apportez-moi de l’huile et des parfums et fermez les portes du jardin, afin que je me baigne.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	018	Elles firent ce qu’elle avait commandé ; elles fermèrent les portes du jardin et elles sortirent par une porte de derrière, pour apporter ce qu’elle avait ordonné ; et elles ne savaient pas que les vieillards furent cachés à l’intérieur.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	019	Lorsque les jeunes filles furent sorties, les deux vieillards se levèrent, coururent à Susanne et lui dirent :
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	020	Voici, les portes du jardin sont fermées ; personne ne nous voit et nous brûlons de passion pour toi ; rends-toi donc à notre désir et unis-toi à nous.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	021	Si tu refuses, nous témoignerons contre toi, et nous dirons qu’un jeune homme était avec toi, et que c’est pour cela que tu as renvoyé tes jeunes filles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	022	Susanne gémit et dit : L’angoisse m’entoure de tous côtés ; car si je fais cela, c’est la mort pour moi ; si je ne le fais pas, je n’échapperai pas de vos mains.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	023	Mais il est meilleur pour moi de tomber sans motif entre vos mains, que de pécher en la présence du Seigneur.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	024	Alors Susanne poussa un grand cri, et les vieillards crièrent aussi contre elle.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	025	Et l’un d’eux courut à la porte du jardin et l’ouvrit.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	026	Ayant entendu crier dans le jardin, les serviteurs de la maison se précipitèrent par la porte de derrière, pour voir ce que c’était.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	027	Après que les vieillards eurent parlé, les serviteurs éprouvèrent une grande honte, parce qu’on n’avait jamais rien dit de semblable de Susanne. Le lendemain arriva,
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	028	et le peuple étant venu chez Joakim son mari, les deux vieillards y vinrent aussi, pleins d’une résolution criminelle contre Susanne, pour lui faire perdre la vie.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	029	Et ils dirent devant le peuple : Envoyez chercher Susanne, fille d’Helcias, femme de Joakim. On y envoya aussitôt,
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	030	et elle vint avec ses parents, ses enfants et tous ses proches.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	031	Or Susanne était d’une délicatesse et d’une beauté parfaites.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	032	Ces méchants ordonnèrent qu’on lui ôtât son voile, afin de se rassasier au moins en cette manière de sa beauté.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	033	Les siens et tous ceux qui l’avaient connue pleuraient.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	034	Alors les deux vieillards, se levant au milieu du peuple, mirent leurs mains sur sa tête.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	035	Elle, en pleura, leva les yeux au ciel, car son cœur avait confiance dans le Seigneur.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	036	Et les vieillards dirent : Comme nous nous promenions seuls dans le jardin, cette femme est entrée avec deux servantes ; elle a fermé les portes du jardin et elle a renvoyé les jeunes filles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	037	Et un jeune homme, qui était caché, est venu et a péché avec elle.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	038	Nous étions dans un coin du jardin, et, voyant cette iniquité, nous sommes accourus à eux, et nous les avons vus s’unir.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	039	Lui, nous n’avons pu le prendre, parce qu’il était plus fort que nous, et qu’ayant ouvert la porte, il s’est échappé.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	040	Mais elle, après l’avoir prise, nous lui avons demandé quel était ce jeune homme, et elle n’a pas voulu nous le dire. C’est de quoi nous sommes témoins.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	041	La multitude les crut, parce qu’ils étaient des anciens et des juges du peuple, et ils la condamnèrent à mort.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	042	Alors Susanne poussa un grand cri et dit : Dieu éternel, qui pénétrez ce qui est caché, et qui connaissez toutes choses avant qu’elles arrivent,
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	043	vous savez qu’ils ont porté un faux témoignage contre moi ; et voici que je meurs, sans avoir rien fait de tout ce qu’ils ont inventé malicieusement contre moi.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	044	Et le Seigneur entendit sa voix.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	045	Et comme on la conduisait à la mort, le Seigneur suscita l’esprit saint d’un jeune enfant nommé Daniel,
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	046	qui cria à haute voix : Je suis pur du sang de cette femme.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	047	Tout le peuple se tourna vers lui et dit : Quelle est cette parole que tu as proférée ?
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	048	Se tenant debout au milieu d’eux, il dit : Etes-vous assez insensés, fils d’Israël, pour condamner, sans la juger et sans connaître la vérité, une fille d’Israël ?
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	049	Jugez-la de nouveau, car ils ont porté un faux témoignage contre elle.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	050	Le peuple revint donc en grande hâte, et les vieillards dirent à Daniel : Viens, et prends place au milieu de nous, et instruis-nous, puisque Dieu t’a donné l’honneur de la vieillesse.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	051	Daniel dit au peuple : Séparez-les l’un de l’autre, et je les jugerai.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	052	Lorsqu’ils eurent été séparés l’un de l’autre, Daniel appela l’un d’eux et lui dit : Homme vieilli dans le mal, les péchés que tu as commis autrefois viennent maintenant sur toi,
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	053	qui rendais des jugements injustes, qui opprimais les innocents et qui relâchais les coupables, quoique le Seigneur ait dit : Tu ne feras pas mourir l’innocent et le juste.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	054	Maintenant donc, si tu l’as vue, dis sous quel arbre tu les as vus parler ensemble. Il dit : Sous un lentisque.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	055	Daniel lui dit : Vraiment tu as menti contre ta tête ; car voici que l’ange de Dieu, ayant reçu son arrêt, te coupera en deux.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	056	Après l’avoir renvoyé, il ordonna qu’on fît venir l’autre, et il lui dit : Race de Chanaan, et non de Juda, la beauté t’a séduit, et la passion a perverti ton cœur.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	057	C’est ainsi que vous traitiez les filles d’Israël, et, effrayées, elles vous parlaient ; mais une fille de Juda n’a pu souffrir votre iniquité.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	058	Maintenant donc, dis-moi sous quel arbre tu les as surpris lorsqu’ils se parlaient. Il dit : Sous un chêne.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	059	Daniel lui dit : Vraiment, toi aussi tu as menti contre ta tête ; car l’ange du Seigneur est prêt, et tient l’épée pour te couper par le milieu et pour te faire mourir.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	060	Alors toute l’assemblée poussa un grand cri, et ils bénirent Dieu, qui sauve ceux qui espèrent en lui.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	061	Et ils s’élevèrent contre les deux vieillards, que Daniel avait convaincus par leur propre bouche d’avoir porté un faux témoignage ; et ils leur firent le mal qu’ils avaient fait à leur prochain,
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	062	pour exécuter la loi de Moïse. Ils les firent mourir, et le sang innocent fut sauvé en ce jour-là.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	063	Helcias et sa femme louèrent Dieu au sujet de leur fille Susanne, avec Joakim son mari et tous ses proches, de ce que rien de honteux ne s’était trouvé en elle.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	064	Quant à Daniel, il devint grand devant le peuple, depuis ce jour-là et dans la suite.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	013	065	Et le roi Astyages ayant été réuni à ses pères, Cyrus le Perse lui succéda dans le royaume.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	001	Daniel mangeait à la table du roi, qui l’avait honoré au-dessus de tous ses amis.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	002	Il y avait alors chez les Babyloniens une idole nommée Bel ; on dépensait chaque jour pour elle douze mesures de farine, quarante brebis et six amphores de vin.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	003	Le roi l’honorait aussi, et il allait chaque jour l’adorer. Mais Daniel adorait son Dieu. Et le roi lui dit : Pourquoi n’adores-tu pas Bel ?
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	004	Il lui répondit : Parce que je n’adore pas des idoles faites de main d’homme, mais le Dieu vivant, qui a créé le ciel et la terre, et qui a puissance sur toute chair.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	005	Le roi dit à Daniel : Est-ce que Bel ne te paraît pas être un Dieu vivant ? Ne vois-tu pas combien il mange et boit chaque jour ?
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	006	Daniel dit en souriant : Ne t’y trompe pas, ô roi ; ce Bel est de boue au dedans et d’airain au dehors, et il ne mange jamais.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	007	Alors le roi irrité appela les prêtres de Bel et leur dit : Si vous ne me dites quel est celui qui mange tous ces aliments, vous mourrez.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	008	Mais si vous me montrez que c’est Bel qui mange tout cela, Daniel mourra, parce qu’il a blasphémé contre Bel. Daniel dit au roi : Qu’il soit fait selon ta parole.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	009	Or les prêtres de Bel étaient au nombre de soixante-dix, sans compter leurs femmes, leurs enfants et leurs petits-enfants. Le roi alla avec Daniel au temple de Bel,
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	010	et les prêtres de Bel dirent : Voici, nous allons sortir ; et toi, ô roi, fais apporter les mets et servir le vin ; puis ferme la porte et scelle-la de ton anneau ;
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	011	et quand tu seras entré demain matin, si tu ne trouves pas que Bel a tout mangé, nous mourrons, nous, ou Daniel qui a menti contre nous.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	012	Ils parlaient ainsi avec mépris parce qu’ils avaient fait sous la table une entrée secrète, par laquelle ils venaient toujours pour dévorer les offrandes.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	013	Après donc que les prêtres furent sortis, le roi plaça les mets devant Bel, et Daniel commanda à ses serviteurs d’apporter de la cendre, et il la répandit par tout le temple devant le roi ; ils sortirent ensuite et fermèrent la porte, et, l’ayant scellée avec l’anneau du roi, ils s’en allèrent.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	014	Les prêtres entrèrent durant la nuit, selon leur coutume, avec leurs femmes et leurs enfants, et ils mangèrent et burent tout.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	015	Le roi se leva dès la pointe du jour, et Daniel vint avec lui.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	016	Et le roi dit : Daniel, le sceau est-il intact ? Il répondit : Il est intact, ô roi.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	017	Aussitôt le roi, ayant ouvert la porte et voyant la table, s’écria à haute voix : Tu es grand, ô Bel, et il n’y a pas en toi de tromperie.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	018	Daniel se mit à rire, et retenant le roi pour qu’il n’avançât pas dans l’intérieur, il dit : Voici le pavé ; remarque de qui sont ces traces.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	019	Le roi dit : Je vois des traces de pieds d’hommes, et de femmes, et de petits enfants. Et le roi fut irrité.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	020	Il fit alors saisir les prêtres, leurs femmes et leurs enfants, et ils lui montrèrent les petites portes secrètes par où ils entraient pour manger ce qui était sur la table.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	021	Le roi les fit mettre à mort, et il livra Bel au pouvoir de Daniel, qui le renversa ainsi que son temple.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	022	Il y avait aussi en ce lieu-là un grand dragon, que les Babyloniens adoraient.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	023	Et le roi dit à Daniel : Voici, maintenant tu ne peux pas dire que celui-ci n’est pas un dieu vivant ; adore-le donc.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	024	Daniel dit : J’adore le Seigneur mon Dieu, parce que c’est lui qui est un Dieu vivant ; mais celui-ci n’est pas un Dieu vivant.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	025	Mais toi, ô roi, donne-moi la permission, et je tuerai ce dragon, sans épée ni bâton. Le roi dit : Je te la donne.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	026	Daniel prit donc de la poix, de la graisse et des poils ; il fit cuire tout ensemble, et il en fit des masses, qu’il mit dans la gueule du dragon, et le dragon creva. Et Daniel dit : Voilà ce que vous adoriez.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	027	Lorsque les Babyloniens eurent appris cela, ils s’indignèrent violemment, et, s’étant assemblés contre le roi, ils dirent : Le roi est devenu Juif ; il a renversé Bel, il a tué le dragon et il a fait mourir les prêtres.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	028	Ils vinrent donc trouver le roi et ils lui dirent : Livre-nous Daniel ; autrement nous te tuerons, avec toute ta maison.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	029	Le roi vit donc qu’ils le pressaient avec violence, et, contraint par la nécessité, il leur livra Daniel.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	142	001	Intelligence de David, lorsqu’il était dans la caverne, prière.
+Holy-Bible---French---Vulgate-Glaire	023	ISA	045	023	Par moi-même j’ai juré ; il sortira de ma bouche une parole de justice, et elle ne reviendra pas :
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	024	Et ils marchaient au milieu de la flamme, louant et bénissant le Seigneur.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	025	Or, se tenant debout, Azarias pria ainsi, et, ouvrant sa bouche au milieu du feu, dit :
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	026	Vous êtes béni, Seigneur Dieu de nos pères, et louable et glorieux est votre nom dans les siècles ;
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	027	Parce que vous êtes juste dans tout ce que vous nous avez fait ; et que toutes vos œuvres sont vraies, et vos voies droites, et tous vos jugements vrais.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	028	Car vous avez exercé des jugements vrais dans tous les maux que vous avez fait venir sur nous et sur la sainte cité de nos pères, Jérusalem ; parce que c’est dans la vérité et dans la justice que vous avez fait venir tous ces maux, à cause de nos péchés.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	029	Car nous avons péché, et nous avons commis l’iniquité en nous retirant de vous ; et nous avons manqué en toutes choses ;
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	030	Et nous n’avons pas écouté vos préceptes et nous ne les avons pas gardés, et nous n’avons pas agi comme vous nous aviez ordonné, afin que bien nous fût.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	031	Dans tous les maux donc que vous avez fait venir sur nous, et dans tout ce que vous nous avez fait, c’est dans une justice véritable que vous avez agi ;
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	032	Et vous nous avez livrés aux mains de nos ennemis iniques, très méchants et prévaricateurs, et à un roi injuste et le plus méchant de toute la terre.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	033	Et maintenant nous ne pouvons pas ouvrir la bouche, et nous sommes devenus un objet de confusion et d’opprobre pour vos serviteurs et pour ceux qui vous adorent.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	034	Ne nous livrez pas pour toujours, nous vous en prions, à cause de votre nom, et ne détruisez pas votre alliance ;
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	035	Et ne retirez pas votre miséricorde de nous, à cause d’Abraham votre bien-aimé, et d’Isaac votre serviteur, et d’Israël votre saint ;
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	036	Auxquels vous avez parlé, promettant que vous multiplieriez leur race comme les étoiles du ciel et comme le sable qui est sur le rivage de la mer ;
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	037	Parce que, Seigneur, nous avons été diminués plus que toutes les nations, et nous sommes humiliés sur toute la terre aujourd’hui, à cause de nos péchés.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	038	Et il n’est en ce temps-ci parmi nous ni prince, ni chef, ni prophète, ni holocauste, ni sacrifice, ni oblation, ni encens, ni lieu pour offrir des prémices devant vous,
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	039	Afin que nous puissions obtenir votre miséricorde, mais que nous soyons reçus dans notre cœur contrit et notice esprit humilié.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	040	Que comme dans un holocauste de béliers et de taureaux, et comme dans l’immolation de milliers d’agneaux gras, ainsi soit offert aujourd’hui notre sacrifice en votre présence, et qu’il vous plaise, parce qu’il n’est point de confusion pour ceux qui se confient en vous.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	041	Et maintenant nous vous suivons de tout notre cœur, et nous vous craignons, et nous cherchons votre face.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	042	Ne nous confondez pas, mais faites-nous selon votre mansuétude et la grandeur de votre miséricorde ;
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	043	Et délivrez-nous par vos merveilles, et donnez gloire à votre nom, Seigneur ;
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	044	Et qu’ils soient confondus, tous ceux qui font souffrir des maux à vos serviteurs ; qu’ils soient confondus par votre toute puissance, et que leur force soit brisée ;
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	045	Et qu’ils sachent que c’est vous seul qui êtes le Seigneur Dieu, et le glorieux sur le globe des terres.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	046	Et les ministres du roi qui les avaient jetés dans le feu ne cessaient d’embraser la fournaise avec du naphte, de l’étoupe, de la poix et du sarment ;
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	047	Et la flamme se répandait au-dessus de la fournaise à quarante-neuf coudées ;
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	048	Et elle s’élança, et elle brûla d’entre les Chaldéens ceux qu’elle trouva près de la fournaise.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	049	Mais l’ange du Seigneur descendit avec Azarias et ses compagnons dans la fournaise, et il écarta la flamme de feu de la fournaise.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	050	Et il rendit le milieu de la fournaise comme un vent qui répand la rosée ; et le feu ne les toucha en aucune manière, et ne les incommoda pas, et ne leur fit aucune peine.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	051	Alors ces trois jeunes hommes, d’une même voix, louaient, et glorifiaient, et bénissaient Dieu dans la fournaise, disant :
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	052	Vous êtes béni, Seigneur Dieu de nos pères, et louable, et glorieux, et souverainement exalté dans les siècles ; et béni est le nom saint de votre gloire, et louable et souverainement exalté dans tous les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	053	Vous êtes béni dans le temple saint de votre gloire, et souverainement louable, et souverainement glorieux dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	054	Vous êtes béni sur le trône de votre royaume, souverainement louable et souverainement exalté dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	055	Vous êtes béni, vous qui regardez l’abîme, et qui êtes assis sur des chérubins ; et louable et souverainement exalté dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	056	Vous êtes béni dans le firmament du ciel, et louable et glorieux dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	057	Bénissez le Seigneur, vous tous, ouvrages du Seigneur ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	058	Bénissez le Seigneur, vous tous, anges du Seigneur, louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	059	Bénissez le Seigneur, ô cieux ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	060	Bénissez le Seigneur, vous toutes, les eaux, qui êtes au-dessus des cieux ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	061	Bénissez le Seigneur, vous toutes, les armées célestes du Seigneur ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	062	Bénissez le Seigneur, soleil et lune ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	063	Bénissez le Seigneur, étoiles du ciel ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	064	Bénissez le Seigneur, vous toutes, pluie et rosée ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	065	Bénissez le Seigneur, vous tous, souffles de Dieu ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	066	Bénissez le Seigneur, feu et chaleur brûlante ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	067	Bénissez le Seigneur, froid et chaleur brûlante ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	068	Bénissez le Seigneur, rosée et frimas ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	069	Bénissez le Seigneur, gelée et froid ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	070	Bénissez le Seigneur, glaces et neiges ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	071	Bénissez le Seigneur, nuits et jours ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	072	Bénissez le Seigneur, lumière et ténèbres ;louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	073	Bénissez le Seigneur, éclairs et nuées ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	074	Que la terre bénisse le Seigneur, qu’elle le loue et l’exalte souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	075	Bénissez le Seigneur, montagnes et collines ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	076	Bénissez le Seigneur, vous toutes, plantes qui germez dans la terre ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	077	Bénissez le Seigneur, fontaines ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	078	Bénissez le Seigneur, mers et fleuves ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	079	Bénissez le Seigneur, grands poissons, et vous toutes, bêtes qui vous mouvez dans les eaux ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	080	Bénissez le Seigneur, vous tous, oiseaux du ciel ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	081	Bénissez le Seigneur, vous toutes, bêtes sauvages, et troupeaux ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	082	Bénissez le Seigneur, fils des hommes ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	083	Qu’Israël bénisse le Seigneur ; qu’il le loue et l’exalte souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	084	Bénissez le Seigneur, prêtres du Seigneur ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	085	Bénissez le Seigneur, serviteurs du Seigneur ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	086	Bénissez le Seigneur, esprits et âmes des justes ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	087	Bénissez le Seigneur, vous, saints et humbles de cœur ; louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	088	Bénissez le Seigneur, Ananias, Azarias, Misaël ; louez, et exaltez-le souverainement dans les siècles. Parce qu’il nous a arrachés à l’enfer, et qu’il nous a sauves de la main de la mort ; et qu’il nous a délivrés du milieu de la flamme ardente, et qu’il nous a retirés du milieu du feu.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	089	Louez le Seigneur, parce qu’il est bon, parce que pour jamais est sa miséricorde.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	090	Bénissez le Seigneur, le Dieu des dieux, vous tous, hommes religieux ; louez et célébrez-le, parce que dans tous les siècles est sa miséricorde.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	001	Or il y avait un homme habitant à Babylone, et son nom était Joakim.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	002	Et il prit une femme du nom de Susanne, fille d’Helcias, fort belle, et craignant Dieu.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	003	Car, comme ses parents étaient justes, ils élevèrent leur fille selon la loi de Moïse.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	004	Or, Joakim était très riche, et il avait un verger près de sa maison ; et les Juifs affluaient souvent chez lui, parce qu’il était le plus considérable de tous.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	005	Et on établit juges d’entre le peuple en cette année là deux vieillards, dont le Seigneur a parlé, disant : L’iniquité est sortie de Babylone par des juges vieillards qui paraissaient gouverner le peuple.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	006	Ces juges se rendaient fréquemment dans la maison de Joakim, et tous ceux qui avaient des contestations venaient vers eux.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	007	Mais lorsque le peuple s’en était allé sur le midi, Susanne entrait et se promenait dans le verger de son mari.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	008	Et les vieillards la voyaient tous les jours entrant et se promenant ; et ils conçurent une violente passion pour elle ;
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	009	Et leur sens fut perverti, et ils détournèrent leurs yeux afin de ne pas voir le ciel, et de ne pas se souvenir des justes jugements.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	010	Ils étaient donc tous deux blessés par l’amour de Susanne, et ils ne se dirent pas l’un à l’autre leur peine ;
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	011	Car ils rougissaient de se faire connaître leur passion, voulant tous deux l’assouvir.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	012	Et ils épiaient tous les jours avec la plus grande vigilance le moment de la voir. Et l’un dit à l’autre :
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	013	Allons à la maison, car c’est l’heure du dîner. Et, étant sortis, ils se séparèrent.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	014	Mais, comme ils revinrent, ils se trouvèrent ensemble ; et, s’en demandant mutuellement la cause, ils s’avouèrent leur passion ; et alors ils fixèrent ensemble le temps, quand ils pourraient la trouver seule.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	015	Or, il arriva que, lorsqu’ils épiaient le jour convenable, Susanne entra, comme la veille et l’avant-veille, seulement avec deux jeunes filles, et voulut se baigner dans le verger, car il faisait chaud.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	016	Et il n’y avait là personne, excepté les deux vieillards cachés, et qui la regardaient.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	017	Et elle dit donc aux jeunes filles : Apportez-moi de l’huile et des savons, et fermez les portes du verger, afin que je me baigne.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	018	Et elles firent comme elle avait ordonné, et elles fermèrent les portes du verger, et sortirent par la porte de derrière, pour apporter ce qu’elle avait commandé, et elles ne savaient pas que les vieillards fussent cachés au dedans du verger.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	019	Mais, lorsque les servantes furent sorties, les deux vieillards se levèrent et accoururent à elle, et dirent :
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	020	Voici que les portes du jardin sont fermées, et personne ne nous voit, nous avons conçu une violente passion pour vous ; à cause de cela, rendez-vous à nos désirs et livrez-vous à nous.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	021	Que si vous ne voulez pas, nous porterons contre vous témoignage, qu’il y avait avec vous un jeune homme, et que c’est pour cela que vous avez renvoyé les jeunes filles d’auprès de vous.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	022	Susanne soupira, et dit : Je suis dans des angoisses de toutes parts ; car si je fais cela, c’est la mort pour moi ; et si je ne le fais point, je n’échapperai pas à vos mains.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	023	Mais il est mieux pour moi de tomber sans crime en vos mains, que de pécher en la présence du Seigneur.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	024	Et Susanne s’écria d’une voix forte ; mais les vieillards s’écrièrent aussi contre elle.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	025	Et l’un d’eux courut aux portes du verger, et les ouvrit.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	026	Lors donc que les serviteurs de la maison entendirent les cris dans le verger, ils coururent par la porte de derrière, afin de voir ce que c’était.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	027	Mais, après que les vieillards eurent parlé, les serviteurs rougirent d’une honte extrême, parce que jamais parole de cette sorte n’avait été dite de Susanne. Et le lendemain arriva.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	028	Et comme le peuple vint vers Joakim, son mari, vinrent aussi les deux vieillards, pleins d’une pensée inique contre Susanne, afin de la faire mourir.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	029	Et ils dirent devant le peuple : Envoyez vers Susanne, fille d’Helcias, femme de Joakim. Et aussitôt on y envoya.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	030	Et elle vint avec son père et sa mère, et ses fils, et tous ses parents.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	031	Or Susanne était extrêmement gracieuse et belle de visage.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	032	Mais ces hommes iniques commandèrent qu’on lui ôtât son voile (car elle était voilée), afin qu’au moins, de cette manière, ils se rassasiassent de sa beauté.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	033	Et ses parents pleuraient, et tous ceux qui la connaissaient.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	034	Cependant les deux vieillards, se levant au milieu du peuple, mirent leurs mains sur sa tête.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	035	Et elle, en pleurant, leva les yeux au ciel, car son cœur avait confiance au Seigneur.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	036	Et les vieillards dirent : Comme nous nous promenions seuls dans le verger, cette femme est entrée avec deux jeunes servantes, et elle a fermé les portes du verger, et renvoyé d’auprès d’elle les jeunes filles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	037	Et est venu vers elle un jeune homme qui était caché et a commis le crime avec elle.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	038	Pour nous, comme nous étions dans un coin du verger, voyant cette iniquité, nous avons couru vers eux et les avons vus ensemble.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	039	À la vérité, nous n’avons pu saisir le jeune homme, parce qu’il était plus fort que nous, et qu’après avoir ouvert les portes, il est sorti avec précipitation.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	040	Mais elle, lorsque nous l’avons eu prise, nous lui ayons demandé quel était ce jeune homme, et elle n’a pas voulu nous le faire connaître ; de ceci nous sommes témoins.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	041	La multitude les crut comme vieillards et juges du peuple ; et ils la condamnèrent à mort.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	042	Mais Susanne s’écria d’une voix forte, et dit : Dieu éternel, qui connaissez les choses cachées, qui connaissez toutes choses avant qu’elles soient faites,
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	043	Vous savez qu’ils ont porté un faux témoignage contre moi ; et voilà que je meurs, quoique je n’aie rien fait de tout ce que ces hommes ont malicieusement inventé contre moi.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	044	Or le Seigneur exauça sa voix.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	045	Et comme on la conduisait à la mort, le Seigneur suscita l’esprit saint d’un jeune enfant dont le nom est Daniel ;
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	046	Et il s’écria d’une voix forte : Je suis innocent du sang de cette femme.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	047	Et tout le peuple s’étant tourné vers lui, dit : Quelle est cette parole que tu as dite ?
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	048	Et lui, se tenant debout au milieu d’eux, dit : C’est ainsi, insensés, enfants d’Israël, que ne jugeant et ne connaissant pas ce qui est véritable, vous condamnez une fille d’Israël ?
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	049	Retournez au jugement, car ils ont porté un faux témoignage contre elle.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	050	Le peuple donc retourna promptement, et les anciens lui dirent : Viens, et assieds-toi au milieu de nous, et éclaire-nous, parce que Dieu t’a donné l’honneur de la vieillesse.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	051	Et Daniel leur dit : Séparez-les l’un de l’autre, et je les jugerai.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	052	Lors donc qu’ils furent séparés l’un de l’autre, il appela l’un d’eux, et lui dit : Vieillard plein de jours mauvais, maintenant ils sont venus, les péchés que vous commettiez auparavant,
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	053	Rendant des jugements injustes, opprimant les innocents et renvoyant les coupables, le Seigneur disant : Tu ne feras pas mourir un juste et un innocent.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	054	Maintenant donc, si vous l’avez vue, dites sous quel arbre vous les avez vus s’entretenant. Et il dit : Sous un lentisque.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	055	Or Daniel dit : Vous avez précisément menti contre votre tête ; car voici qu’un ange de Dieu, ayant reçu sa sentence, vous coupera par le milieu.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	056	Et l’ayant fait retirer, il commanda que l’autre vînt, et il lui dit : Race de Chanaan, et non de Juda, la beauté vous a séduit, et la passion a perverti votre cœur.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	057	C’est ainsi que vous agissiez avec les filles d’Israël, et elles, saisies de crainte, vous parlaient ; mais la fille de Juda n’a pas souffert votre iniquité.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	058	Maintenant donc, dites-moi sous quel arbre vous les avez surpris se parlant. Et il dit : Sous une yeuse.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	059	Or Daniel lui dit : Vous avez précisément menti vous aussi contre votre tête, car l’ange du Seigneur est tout prêt, ayant le glaive afin de vous couper par le milieu, et de vous tuer tous deux.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	060	C’est pourquoi toute l’assemblée s’écria d’une voix forte, et ils bénirent Dieu qui sauve ceux qui espèrent en lui.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	061	Et ils s’élevèrent contre les deux vieillards (car Daniel les avait convaincus par leur propre bouche qu’ils avaient porté un faux témoignage), et ils les traitèrent selon le mal qu’ils avaient fait à leur prochain,
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	062	Afin d’agir suivant la loi de Moïse, et ils les mirent à mort, et un sang innocent fut sauvé en ce jour-là.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	063	Or Helcias et sa femme louèrent Dieu pour leur fille Susanne, avec Joakim, son mari, et tous les parents, parce qu’aucune chose honteuse n’avait été trouvée en elle.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	064	Mais Daniel devint grand en la présence du peuple, depuis ce jour-là et dans la suite.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	013	065	Et le roi Astyage fut réuni à ses pères, et Cyrus le Perse reçut son royaume.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	001	Or Daniel était convive du roi, et honoré au-dessus de tous ses amis.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	002	Il y avait aussi chez les Babyloniens une idole du nom de Bel, et on employait pour elle chaque jour douze artabes de fleur de farine, et quarante brebis, et six amphores de vin.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	003	Le roi aussi l’honorait, et allait chaque jour l’adorer ; mais Daniel adorait son Dieu. Et le roi lui dit : Pourquoi n’adores-tu pas Bel ?
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	004	Et Daniel, répondant, lui dit : Parce que je n’honore pas les idoles faites à la main, mais le Dieu vivant, qui a créé le ciel et la terre, et qui a puissance sur toute chair.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	005	Et le roi lui dit : Bel ne te semble-t-il pas un Dieu vivant ? Est-ce que tu ne vois pas combien il mange et boit chaque jour.?
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	006	Et Daniel dit en souriant : Ne vous y trompez pas, ô roi, car Bel au dedans est d’argile, et au dehors, d’airain, et il ne mange jamais.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	007	Et le roi irrité appela ses prêtres, et leur dit : Si vous ne me dites qui est celui qui mange tout ce qui se dépense ainsi, vous mourrez.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	008	Mais, si vous montrez que Bel mange ces choses, Daniel mourra, parce qu’il a blasphémé contre Bel. Et Daniel dit au roi : Qu’il soit fait selon votre parole.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	009	Or il y avait soixante-dix prêtres de Bel, outre les femmes, et les petits enfants, et les fils. Et le roi vint avec Daniel au temple de Bel.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	010	Et les prêtres de Bel dirent : Voici que nous, nous sortons dehors ; et vous, ô roi, mettez les aliments et mêlez le vin ; et fermez la porte et la scellez de votre anneau ;
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	011	Et, lorsque vous serez entré le matin, si vous ne trouvez pas que tout ait été mangé par Bel, nous mourrons de mort, nous, ou Daniel qui a menti contre nous.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	012	Mais ils parlaient par bravade, parce qu’ils avaient fait sous la table une entrée secrète ; et ils s’introduisaient toujours par là, et dévoraient le tout.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	013	Il arriva donc qu’après que ceux-ci furent sortis, le roi mit des aliments devant Bel ; Daniel ordonna à ses serviteurs, et ils apportèrent de la cendre, et il la cribla et la répandit dans tout le temple, devant le roi ; et, étant sortis, ils fermèrent la porte, et, la scellant de l’anneau du roi, ils s’en allèrent.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	014	Or les prêtres entrèrent la nuit, selon leur coutume, ainsi que leurs femmes et leurs enfants, et ils mangèrent et burent tout.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	015	Mais le roi se leva au point du jour, et Daniel avec lui.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	016	Et le roi dit : Les sceaux sont-ils intacts, Daniel ? et il répondit : Intacts, ô roi.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	017	Et aussitôt qu’il eut ouvert la porte, le roi, ayant regardé la table, s’écria d’une voix forte : Tu es grand, Bel, et il n’y a en toi aucune fraude.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	018	Et Daniel rit, et il retint le roi, afin qu’il n’avançât pas plus avant, et il dit : Voici le pavé, remarquez de qui sont ces traces de pieds.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	019	Et le roi dit : Je vois des traces de pieds d’hommes, et de femmes, et d’enfants. Et le roi fut irrité.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	020	Alors il fit saisir les prêtres, leurs femmes et leurs enfants ; et ils lui montrèrent les petites portes secrètes par lesquelles ils entraient, et mangeaient ce qui était sur la table.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	021	Le roi les fit donc mourir, et livra Bel en la puissance de Daniel, qui le renversa ainsi que son temple.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	022	Il y avait aussi un grand dragon en ce lieu-là, et les Babyloniens l’adoraient.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	023	Et le roi dit à Daniel : Voici maintenant, tu ne peux pas dire que celui-ci ne soit pas un Dieu vivant : Adore-le donc.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	024	Et Daniel dit : J’adore le Seigneur mon Dieu, parce que c’est lui qui est un Dieu vivant ; mais celui-ci n’est pas un Dieu vivant.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	025	Mais vous, ô roi, donnez m’en le pouvoir, et je tuerai le dragon sans glaive et sans bâton. Et le roi dit : Je te le donne.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	026	Daniel prit donc de la poix et de la graisse et des poils, et les fit cuire ensemble ; et il en fit des masses, et les jeta dans la gueule du dragon, et le dragon creva. Et Daniel dit : Voici ce que vous adoriez.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	027	Lorsque les Babyloniens eurent appris cela, ils furent extrêmement indignés, et, s’étant assemblés contre le roi, ils dirent : Le roi est devenu Juif ; il a détruit Bel, il a tué le dragon, et il a fait mourir les prêtres.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	028	Et ils dirent, lorsqu’ils furent venus vers le roi : Livrez-nous Daniel ; autrement nous vous tuerons, vous et votre maison.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	029	Le roi vit donc qu’ils venaient à lui avec violence ; et, contraint par la nécessité, il leur livra Daniel.
 Holy-Bible---French---Vulgate-Glaire	027	DAN	014	030	Ils le jetèrent dans la fosse aux lions, et il y demeura six jours.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	031	Or il y avait dans la fosse sept lions, et on leur donnait chaque jour deux corps et deux brebis ; mais on ne leur en donna pas alors, afin qu’ils dévorassent Daniel.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	032	Cependant le prophète Habacuc était en Judée ; il avait fait cuire des aliments, et il avait broyé du pain dans un vase, et il allait aux champs les porter aux moissonneurs.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	033	Et l’ange du Seigneur dit à Habacuc : Porte à Babylone le repas que tu as, pour Daniel, qui est dans la fosse aux lions.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	034	Habacuc dit : Seigneur, je n’ai pas vu Babylone, et je ne connais pas la fosse.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	035	Alors l’ange du Seigneur le prit par le haut de la tête et le porta par les cheveux, et il le déposa à Babylone, au-dessus de la fosse, avec l’impétuosité de son esprit.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	036	Et Habacuc cria en disant : Daniel, serviteur de Dieu, prends le repas que Dieu t’a envoyé.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	037	Et Daniel dit : Vous vous êtes souvenu de moi, ô Dieu, et vous n’avez pas abandonné ceux qui vous aiment.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	038	Et, se levant, Daniel mangea. Mais l’ange du Seigneur remit aussitôt Habacuc au lieu où il l’avait pris.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	039	Le roi vint, le septième jour, pour pleurer Daniel ; il s’approcha de la fosse et regarda dedans, et voici que Daniel était assis au milieu des lions.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	040	Et le roi poussa un grand cri et dit : Vous êtes grand, Seigneur, Dieu de Daniel. Et il le fit tirer de la fosse aux lions.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	041	Puis il fit jeter dans la fosse ceux qui avaient voulu perdre Daniel, et ils furent dévorés devant lui en un moment.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	014	042	Alors le roi dit : Que tous les habitants de toute la terre tremblent devant le Dieu de Daniel, car c’est lui qui est le sauveur, qui fait des prodiges et des merveilles sur la terre, et qui a délivré Daniel de la fosse aux lions.
-Holy-Bible---French---Vulgate-Glaire	028	HOS	002	023	Je la sèmerai dans le pays, et je ferai miséricorde à celle qui était Sans miséricorde.
-Holy-Bible---French---Vulgate-Glaire	030	AMO	006	010	Leur parent les prendra, et les brûlera, pour en emporter les os hors de la maison ; et il dira à celui qui est au fond de la maison : Y a-t-il encore quelqu’un avec toi ?
-Holy-Bible---French---Vulgate-Glaire	043	JOH	004	002	,
-Holy-Bible---French---Vulgate-Glaire	043	JOH	006	051	Je suis le pain vivant, qui suis descendu du ciel.
-Holy-Bible---French---Vulgate-Glaire	047	2CO	005	007	;
-Holy-Bible---French---Vulgate-Glaire	048	GAL	002	008	,
-Holy-Bible---French---Vulgate-Glaire	066	REV	012	018	Et il se tint sur le sable de la mer.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	031	Or dans la fosse étaient sept lions, et on leur donnait deux corps chaque jour, et deux brebis ; mais alors on ne leur en donna point, afin qu’ils dévorassent Daniel.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	032	Or Habacuc, le prophète, était en Judée, et il avait fait cuire un mets, et il avait émietté des pains dans un vase, et il allait au champ, pour les porter aux moissonneurs.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	033	Et l’ange du Seigneur dit à Habacuc : Porte le dîner que tu as à Babylone, à Daniel, qui est dans la fosse aux lions.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	034	Et Habacuc dit : Seigneur, je n’ai jamais vu Babylone, et la fosse, je ne la connais pas.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	035	Et l’ange du Seigneur le prit par le sommet de sa tête, et le porta par les cheveux, et le mit à Babylone, sur la fosse, avec la rapidité de son esprit.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	036	Et Habacuc cria, disant : Daniel, serviteur de Dieu, prends le dîner que Dieu t’a envoyé.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	037	Et Daniel dit : Vous vous êtes souvenu de moi, ô Dieu, et vous n’avez pas abandonné ceux qui vous aiment.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	038	Et Daniel se levant mangea. Mais l’ange du Seigneur remit aussitôt Habacuc en son lieu.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	039	Et le roi vint au septième jour, afin de pleurer Daniel ; et il vint à la fosse, et il regarda dedans, et voici Daniel assis au milieu des lions.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	040	Et le roi s’écria d’une voix forte, disant : Vous êtes grand. Seigneur Dieu de Daniel. Et il le retira de la fosse aux lions.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	041	Mais ceux qui avaient voulu sa perte, il les jeta dans la fosse ; et ils furent dévorés en un moment devant lui.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	014	042	Alors le roi dit : Que tous ceux qui habitent sur toute la terre redoutent le Dieu de Daniel ; parce que c’est lui qui est le sauveur sur la terre, faisant des prodiges et des merveilles, lui qui a délivré Daniel de la fosse aux lions.
+Holy-Bible---French---Vulgate-Glaire	028	HOS	002	023	Je la sèmerai sur la terre, et j’aurai pitié de celle qui fut nommée Sans miséricorde.
+Holy-Bible---French---Vulgate-Glaire	030	AMO	006	010	Et le parent de l’un l’enlèvera et le brûlera, afin d’emporter ses os de la maison, et il dira à celui qui est au fond de la maison : Est-ce qu’il y a encore quelqu’un chez toi ?
+Holy-Bible---French---Vulgate-Glaire	043	JOH	006	051	Je suis le pain vivant, moi qui suis descendu du ciel.
+Holy-Bible---French---Vulgate-Glaire	066	REV	012	018	Et il s’arrêta sur le sable de la mer.
 Holy-Bible---Gamotso---Gamo	064	3JO	001	014	Ta nena mata wode beyanas ufays oothays, he wode nu isife uti hasa7ana.
 Holy-Bible---Gamotso---Gamo	066	REV	012	018	Dawezika abba achchan ace bolla eqqides.
+Holy-Bible---Gata---Gata-Didayi-Bible	064	3JO	001	014	ନେଙ୍ଗ୍‌ନେ ଆସା ଜେ ଦାପେ ପେନେ ଏତେ କୁଡ଼େଃଏ ବାରି ନେ ସେଃମଁ ଡିଙ୍ଗ୍‌ଚେ ବାଲିର୍‌ବାତା ନେଡିଙ୍ଗ୍‌ ।
+Holy-Bible---Gata---Gata-Didayi-Bible	066	REV	012	018	ସେଲାମ୍ବୁଏନେ ଆତେନ୍‌ ବଂସଣ୍ଡ୍ରେଇଂକେ ବିରଦ୍ ଡିଂନେ ନ୍‌ସା ମେଁ ୱେଚେ କେଣ୍ଡିଆଃନେ ବାଲି ଆଡ଼ାତ୍ରା ତୁଆଁକେ ।
 Holy-Bible---German---German-Albrecht	019	PSA	006	001	Dem Sangmeister mit Saitenspielbegleitung, in der achten Tonart . / Ein Psalm Davids.
 Holy-Bible---German---German-Albrecht	019	PSA	009	001	Dem Sangmeister, nach (der Melodie des Liedes:) "Stirb für den Sohn"  . Ein Psalm Davids.
 Holy-Bible---German---German-Albrecht	019	PSA	030	001	Ein Psalm. Nach dem Liede der Hausweihe  . Von David.
@@ -6936,10 +7176,17 @@ Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible	041	MAR	009	050	Il sale [�
 Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible	048	GAL	003	029	Perciocchè voi tutti siete uno in Cristo Gesù.
 Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible	064	3JO	001	014	Ma spero di vederti tosto, ed [allora] ci parleremo a bocca.
 Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible	066	REV	012	018	Ed io mi fermai in su la rena del mare.
+Holy-Bible---Janji---Janji-Bible	043	JOH	005	004	
+Holy-Bible---Janji---Janji-Bible	044	ACT	019	017	
+Holy-Bible---Janji---Janji-Bible	055	2TI	002	023	
+Holy-Bible---Janji---Janji-Bible	064	3JO	001	014	In zinu ubasa me tidi iri acece anyimo ati ye ti geme sarki ucara uganiya, abini me tidi buu tize aje unu hira aje.
+Holy-Bible---Janji---Janji-Bible	066	REV	012	018	Ba biwame bi tono ikiki, aje uraba udang.
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	042	LUK	017	036	
 Holy-Bible---Japanese---Japanese-Raguet-yaku	043	JOH	006	051	我は天より降りたる活ける麪なり。人若此わが麪を食せば永遠に活くべし。
 Holy-Bible---Japanese---New-Japanese-New-Testament	064	3JO	001	014	間もなくあなたに会いたいと思います。そして顔を合わせて話し合いましょう。
 Holy-Bible---Japanese---New-Japanese-New-Testament	066	REV	012	018	そして、彼は海べの砂の上に立った。
+Holy-Bible---Juray---Juray-Bible	064	3JO	001	014	ଞେନ୍‌ ଅମଙ୍‌ବେନ୍‌ ଇୟ୍‌ଲାୟ୍‌ ଡେନ୍‌ ଆମ୍ୱେଞ୍ଜି ସରିନ୍‌ ଇୟ୍‌ତାୟ୍‌ କଡାଡ଼ିନାୟ୍‌ ଗାମ୍‌ଲେ ଞେନ୍‌ ଆସାତନାୟ୍‌ ।
+Holy-Bible---Juray---Juray-Bible	066	REV	012	018	ଆରି, ଆନିନ୍‌ ଅନେଙ୍‌ ସମେଁୟ୍‌ଣ୍ଡ୍ରାନ୍‌ ଆ ଲକିୟ୍‍ଲୋଙ୍‍ ତନଙେନ୍‌ ।
 Holy-Bible---Kamano---Kamano-Kafe	064	3JO	001	014	Hianagi mensintfana tamagenakure hu'na nagesa nentahue, magopi mani'neta keaga hanunegu nehue.
 Holy-Bible---Kannada---Kannada-Bible	064	3JO	001	014	ನಾನು ಬೇಗನೆ ಬಂದು ನಿನ್ನನ್ನು ನೋಡುವೆನೆಂದು ನಿರೀಕ್ಷಿಸುತ್ತೇನೆ. ಆಗ ನಾವು ಮುಖಾ ಮುಖಿಯಾಗಿ ಮಾತನಾಡೋಣ.
 Holy-Bible---Kannada---Kannada-Bible	066	REV	012	018	ಸಮುದ್ರ ತೀರದ ಮರಳಿನ ಮೇಲೆ ನಿಂತನು.
@@ -9480,6 +9727,10 @@ Holy-Bible---Myanmar---Myanmar-Burmese-Judson	014	2CH	033	023
 Holy-Bible---Myanmar---Myanmar-Burmese-Judson	014	2CH	033	024	
 Holy-Bible---Myanmar---Myanmar-Burmese-Judson	014	2CH	033	025	
 Holy-Bible---Myanmar---Myanmar-Burmese-Judson	019	PSA	058	010	ဖြောင့်မတ်သောသူသည် ထိုသို့သောဒဏ်ပေး ခြင်းကို မြင်၍ ဝမ်းမြောက်ပါလိမ့်မည်။
+Holy-Bible---Naga-Pidgin---Nagamese-Bible	064	3JO	001	014	Kintu moi tumikhan ke joldi lok pabole itcha kori ase, titia moi khan ekjon-ekjon logote bohi kene kotha koribo.
+Holy-Bible---Naga-Pidgin---Nagamese-Bible	066	REV	012	018	Titia etu ajgar samundar usorte khara korise.
+Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible	064	3JO	001	014	Nga tuungmaang eje ang lang sen damdoh elaang ih chomui suh ah, eno erah doh seng pupuh damdoh chomui ino ma roongwaan ih.
+Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible	066	REV	012	018	Eno dragoon ah juusih kaang ni chapta.
 Holy-Bible---Ndebele---Accessible-Bible	064	3JO	001	014	Ngithemba ukuthi ngizalibona masinyane lapho esizakhuluma khona ubuso ngobuso.
 Holy-Bible---Ndengereko---Ndengereko-Bible	040	MAT	018	011	
 Holy-Bible---Ndengereko---Ndengereko-Bible	041	MAR	015	028	
@@ -9632,6 +9883,8 @@ Holy-Bible---Oriya---Oriya-Bible	066	REV	012	018	ଆଉ ସେ ସମୁଦ୍�
 Holy-Bible---Oromo---New-World	064	3JO	001	014	Qooda kanaa ani dhiʼootti si arguuf abdii qaba; nus ifaan ifatti ni haasofna.
 Holy-Bible---Panjabi---Punjabi-Bible	064	3JO	001	014	ਪਰ ਮੈਨੂੰ ਆਸ ਹੈ ਕਿ ਤੈਨੂੰ ਜਲਦੀ ਮਿਲਾਂ। ਫਿਰ ਅਸੀਂ ਆਹਮਣੇ ਸਾਹਮਣੇ ਗੱਲਾਂ ਕਰਾਂਗੇ।
 Holy-Bible---Panjabi---Punjabi-Bible	066	REV	012	018	ਅਤੇ ਸਮੁੰਦਰ ਦੇ ਰੇਤੇ ਉੱਤੇ ਜਾ ਖਲੋਤਾ।
+Holy-Bible---Pengo---Pengo-Bible	064	3JO	001	014	ନା ଆହା ଜେ, ବେଗି ନି ଲାହାଙ୍ଗ୍‌ ହୁଡ଼୍‌କା ଆଦେଂ, ଆରେ ଆସେଙ୍ଗ୍‌ ବେଟା ଆଜ଼ି କାତାବାର୍ତା କିନାସ୍‌ ।
+Holy-Bible---Pengo---Pengo-Bible	066	REV	012	018	ଆରେ ହେୱାନ୍‌ ହାମ୍‌ଦୁର୍‌ନି ବାଲି ଜପି ନିଲ୍‌ତାତ୍‌ ।
 Holy-Bible---Persian---Old-Persion-Version-Bible	002	EXO	029	036	و گوساله قربانی گناه را هرروز بجهت کفاره ذبح کن.
 Holy-Bible---Persian---Old-Persion-Version-Bible	014	2CH	014	007	و به یهوداگفت: «این شهرها را بنا نماییم و دیوارها و برجهابا دروازه‌ها و پشت بندها به اطراف آنها بسازیم.
 Holy-Bible---Persian---Old-Persion-Version-Bible	018	JOB	035	001	
@@ -9752,6 +10005,11 @@ Holy-Bible---Portuguese---Free-for-All	064	3JO	001	014	Espero vê-lo muito em br
 Holy-Bible---Portuguese---Free-for-All	066	REV	012	018	
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	064	3JO	001	014	Em vez disso espero [ir ]logo visitá-lo. Então poderemos conversar diretamente.
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	066	REV	012	018	O dragão ficou em pé na praia do mar.
+Holy-Bible---Portuguese---World-Portuguese-Bible	042	LUK	017	036	
+Holy-Bible---Portuguese---World-Portuguese-Bible	044	ACT	008	037	
+Holy-Bible---Portuguese---World-Portuguese-Bible	044	ACT	015	034	
+Holy-Bible---Portuguese---World-Portuguese-Bible	044	ACT	024	007	
+Holy-Bible---Portuguese---World-Portuguese-Bible	045	ROM	016	025	
 Holy-Bible---Romani-Vlax---Arli-Luke	042	LUK	023	017	
 Holy-Bible---Romanian---Bayash-Luke	042	LUK	017	036	
 Holy-Bible---Romanian---Bayash-Luke	042	LUK	023	017	
@@ -9759,8 +10017,8 @@ Holy-Bible---Romanian---Free-Bible	042	LUK	017	036
 Holy-Bible---Romanian---Free-Bible	044	ACT	008	037	
 Holy-Bible---Romanian---Free-Bible	044	ACT	015	034	
 Holy-Bible---Romanian---Free-Bible	044	ACT	024	007	
-Holy-Bible---Rote-Dela---Rote-Dela-Bible	064	3JO	001	014	Huu au hule-hule' fo nda doo' sa na ata tandaa, fo ru'a nggita ola-ola' neu' ena.
-Holy-Bible---Rote-Dela---Rote-Dela-Bible	066	REV	012	018	Basa ma, mengge-buta a neu nambarii' nangginggio sia tasi suun.
+Holy-Bible---Rote-Dela---Rote-Dela-Bible	064	3JO	001	014	Huu au hule-huleꞌ fo nda dooꞌ sa na ata tandaa, fo ruꞌa nggita ola-olaꞌ neuꞌ ena.
+Holy-Bible---Rote-Dela---Rote-Dela-Bible	066	REV	012	018	Basa ma, mengge-buta a neu nambariiꞌ nangginggio sia tasi suun.
 Holy-Bible---Russian---Russian-Synodal-Translation	006	JOS	024	034	В тот день сыны Израилевы, взяв ковчег Божий, носили с собою, и Финеес был священником вместо Елеазара, отца своего, доколе не умер и не был погребен в городе своем Гаваафе.
 Holy-Bible---Russian---Russian-Synodal-Translation	006	JOS	024	035	И сыны Израилевы пошли каждый в свое место и в свой город.
 Holy-Bible---Russian---Russian-Synodal-Translation	006	JOS	024	036	И стали сыны Израилевы служить Астарте и Астарофу и богам окрестных народов; и предал их Господь в руки Еглона, царя Моавитского, и он владел ими восемнадцать лет.
@@ -9842,6 +10100,8 @@ Holy-Bible---Safwa---Safwa-Bible	044	ACT	028	029
 Holy-Bible---Safwa---Safwa-Bible	045	ROM	016	024	
 Holy-Bible---Safwa---Safwa-Bible	064	3JO	001	014	Ehwanza aje enenze tilolane nkatiyanje nkatalolana humaso.
 Holy-Bible---Safwa---Safwa-Bible	066	REV	012	018	Shesho onzoha ahemeleye pamwanya pesanga mnshenje mnsombi.
+Holy-Bible---Sakachep---Sakachep-Bible	064	3JO	001	014	Nang mu lai rang ka sabeia, hanchu intongin la chong rei.
+Holy-Bible---Sakachep---Sakachep-Bible	066	REV	012	018	Male dragon hah tuikhanglien panga han ânding zoi.
 Holy-Bible---Sanskrit---Assamese-Script	064	3JO	001	014	অচিৰেণ ৎৱাং দ্ৰক্ষ্যামীতি মম প্ৰত্যাশাস্তে তদাৱাং সম্মুখীভূয পৰস্পৰং সম্ভাষিষ্যাৱহে|
 Holy-Bible---Sanskrit---Assamese-Script	066	REV	012	018	
 Holy-Bible---Sanskrit---Bengali-Script	064	3JO	001	014	অচিরেণ ৎৱাং দ্রক্ষ্যামীতি মম প্রত্যাশাস্তে তদাৱাং সম্মুখীভূয পরস্পরং সম্ভাষিষ্যাৱহে|
@@ -10214,6 +10474,8 @@ Holy-Bible---Slovene---Slovene-Stritarja-NT	019	PSA	140	001	Načelniku godbe, ps
 Holy-Bible---Slovene---Slovene-Stritarja-NT	019	PSA	142	001	Pesem  ukovita Davidova, ko je bil v jami, molitev.
 Holy-Bible---Slovene---Slovene-Stritarja-NT	043	JOH	001	038	Obrnivši se pa Jezus, in ugledavši ju, da gresta za njim, reče jima:
 Holy-Bible---Slovene---Slovene-Stritarja-NT	064	3JO	001	014	Upam pa videti te skoraj, in govorila bodeva iz ust do ust.
+Holy-Bible---Soli---Soli-Bible	064	3JO	001	014	Ndayeyenga kwisa kwambeti tukabandike nkatuli twalangana.
+Holy-Bible---Soli---Soli-Bible	066	REV	012	018	Nomba cinjoka calakemana mulombe lwa lwenje.
 Holy-Bible---Somali---Somali-Bible	064	3JO	001	014	Laakiin waxaan rajaynayaa inaan dhowaan ku arko, oo aynu afkeenna iskula hadli doonno.
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	006	JOS	005	014	Él respondió: “No, sino que soy el príncipe del ejército de Yahvé, que acabo de llegar.”
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	011	1KI	022	043	Anduvo en todos los caminos de su padre Asá, sin apartarse de ellos, haciendo lo que era recto a los ojos de Yahvé.
@@ -10801,6 +11063,8 @@ Holy-Bible---Swedish---Swedish-Bible-1917	064	3JO	001	014	Ty jag hoppas att rät
 Holy-Bible---Swedish---Swedish-Bible-1917	066	REV	012	018	Och han ställde sig på sanden invid havet.
 Holy-Bible---Tagalog---Tagalog-Bible-Unlocked	064	3JO	001	014	Pero ako ay umaasa na makita ka sa lalong madaling panahon, at tayo ay mag-uusap harap-harapan.
 Holy-Bible---Tagalog---Tagalog-Bible-Unlocked	066	REV	012	018	Pagkatapos tumayo ang dragon sa buhangin ng dalampasigan.
+Holy-Bible---Tagin---Tagin-First-Bible	064	3JO	001	014	Nonua ngo baapubv kaarwk sinvpv mvngtin sidu, okv vbvrikubolo ngonuv doorwk sitola atuanying ngv japrwk sipa reku.
+Holy-Bible---Tagin---Tagin-First-Bible	066	REV	012	018	Okv svmasa gv agumai lo Sichingpanv angv ridudakdu.
 Holy-Bible---Tamil---Open-Contemporary	064	3JO	001	014	உன்னை விரைவில் சந்திப்பேன் என எதிர்பார்க்கிறேன். அப்பொழுது, நாம் நேரடியாகவே பேசிக்கொள்ளலாம். உனக்கு சமாதானம் உண்டாவதாக.
 Holy-Bible---Tamil---Tamil-Bible	064	3JO	001	014	சீக்கிரமாக உன்னைப் பார்க்கலாம் என்று நம்பியிருக்கிறேன், அப்பொழுது முகமுகமாகப் பேசிக்கொள்ளுவோம்.
 Holy-Bible---Telugu---Telugu-Bible	040	MAT	004	014	
@@ -10809,11 +11073,8 @@ Holy-Bible---Telugu---Telugu-Bible	066	REV	012	018	దానికోసం ఆ 
 Holy-Bible---Turkish---Turkish-Bible	066	REV	012	018	Denizin kıyısında dikilip durdu.
 Holy-Bible---Twi---Akuapem-Twi-Bible	064	3JO	001	014	Ɛrenkyɛ biara mehu mo na me ne mo akasa.
 Holy-Bible---Twi---Akuapem-Twi-Bible	066	REV	012	018	Na ɔwɔ no kogyinaa mpoano hɔ.
-Holy-Bible---Twi---Asante-Twi-WAKNA	064	3JO	001	014	Ɛrenkyɛ biara mehu mo na me ne mo akasa.
-Holy-Bible---Twi---Asante-Twi-WAKNA	066	REV	012	018	Na ɔwɔ no kogyinaa mpoano hɔ.
 Holy-Bible---Twi---Asante-Twi-WASNA	064	3JO	001	014	Ɛrenkyɛre biara mɛhunu mo na me ne mo akasa.
 Holy-Bible---Twi---Asante-Twi-WASNA	066	REV	012	018	Na ɔwɔ no kɔgyinaa mpoano hɔ.
-Holy-Bible---Ukrainian---Kulish	064	3JO	001	014	надію ся ж незабаром бачити тебе, то й устно поговоримо.
 Holy-Bible---Ukrainian---New-Translation	019	PSA	003	001	Псалом Давидів, коли він втікав від свого сина Авесалома.
 Holy-Bible---Ukrainian---New-Translation	019	PSA	004	001	Керівнику хору. На струнних інструментах. Псалом Давидів.
 Holy-Bible---Ukrainian---New-Translation	019	PSA	005	001	Керівнику хору. Для виконання в супроводі сопілок. Псалом Давидів.

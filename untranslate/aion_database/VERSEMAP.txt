@@ -1326,7 +1326,7 @@ Holy-Bible---Portuguese---Almeida-NewOrthography	NONE
 Holy-Bible---Portuguese---Biblia-Livre	NONE
 Holy-Bible---Portuguese---Free-for-All	NONE
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	NONE
-Holy-Bible---Portuguese---World-Portuguese-Bible	NONE
+Holy-Bible---Portuguese---World-Portuguese-Bible	ROM14-16
 Holy-Bible---Romanian---Bayash-Luke	NONE
 Holy-Bible---Romanian---Cyrillic	NONE
 Holy-Bible---Romanian---Free-Bible	ROM14-16
@@ -1335,7 +1335,7 @@ Holy-Bible---Romani---Eastern-Vlakh	JON1-2
 Holy-Bible---Romani-Vlax---Arli-Luke	NONE
 Holy-Bible---Romani-Vlax---Chergash-Luke	NONE
 Holy-Bible---Romani-Vlax---Gurbet-Luke	NONE
-Holy-Bible---Romani-Vlax---Lovaric-Bible	NONE
+Holy-Bible---Romani-Vlax---Lovaric-Bible	JON1-2
 Holy-Bible---Romani-Vlax---Servi-Bible	JON1-2
 Holy-Bible---Rote-Dela---Rote-Dela-Bible	NONE
 Holy-Bible---Russian---Russian-Synodal-Translation	JOS5-6
@@ -1463,7 +1463,6 @@ Holy-Bible---Tamil---Open-Contemporary	NONE
 Holy-Bible---Tamil---Tamil-Bible	NONE
 Holy-Bible---Telugu---Telugu-Bible	NONE
 Holy-Bible---Tongan---Revised-West-Version	NONE
-Holy-Bible---Tsakhur---Tsakhur-Bible	NONE
 Holy-Bible---Turkish---Turkish-Bible	NONE
 Holy-Bible---Twi---Akuapem-Twi-Bible	NONE
 Holy-Bible---Twi---Asante-Twi-WAKNA	NONE

@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 837467      
-# File Date: 04/20/2024 15:43:37
+# File Size: 879236      
+# File Date: 05/03/2024 04:01:07
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -59,15 +59,6 @@ Holy-Bible---Arabic---New-Arabic-Bible	EXO-013-017	خرُوج ١٣:١٧	وَعِ
 Holy-Bible---Arabic---New-Arabic-Bible	MAR-010-045	مَرْقُس ١٠:٤٥	فَحَتَّى ابْنُ الإِنْسَانِ قَدْ جَاءَ لاَ لِيُخْدَمَ، بَلْ لِيَخْدِمَ وَيَبْذِلَ نَفْسَهُ فِدْيَةً عَنْ كَثِيرِينَ».
 Holy-Bible---Arabic---New-Arabic-Bible	ROM-001-001	رُوما ١:١	مِنْ بُولُسَ عَبْدِ يَسُوعَ المَسِيحِ، الرَّسُولِ الْمَدْعُوِّ وَالْمُفْرَزِ لإِنْجِيلِ اللهِ،
 Holy-Bible---Arabic---New-Arabic-Bible	MAT-028-019	مَتَّى ٢٨:١٩	فَاذْهَبُوا إِذَنْ، وَتَلْمِذُوا جَمِيعَ الأُمَمِ، وَعَمِّدُوهُمْ بِاسْمِ الآبِ وَالاِبْنِ وَالرُّوحِ الْقُدُسِ؛
-Holy-Bible---Aramaic---Aramaic-NT-Peshitta	JOH-003-016	ܝܘܚܢܢ 3:16	ܗܟܢܐ ܓܝܪ ܐܚܒ ܐܠܗܐ ܠܥܠܡܐ ܐܝܟܢܐ ܕܠܒܪܗ ܝܚܝܕܝܐ ܢܬܠ ܕܟܠ ܡܢ ܕܡܗܝܡܢ ܒܗ ܠܐ ܢܐܒܕ ܐܠܐ ܢܗܘܘܢ ܠܗ ܚܝܐ ܕܠܥܠܡ
-Holy-Bible---Aramaic---Aramaic-NT-Peshitta	GEN-003-024		
-Holy-Bible---Aramaic---Aramaic-NT-Peshitta	LUK-023-034	ܠܘܩܘܣ 23:34	ܗܘ ܕܝܢ ܝܫܘܥ ܐܡܪ ܗܘܐ ܐܒܐ ܫܒܘܩ ܠܗܘܢ ܠܐ ܓܝܪ ܝܕܥܝܢ ܡܢܐ ܥܒܕܝܢ ܘܦܠܓܘ ܢܚܬܘܗܝ ܘܐܪܡܝܘ ܥܠܝܗܘܢ ܦܤܐ
-Holy-Bible---Aramaic---Aramaic-NT-Peshitta	REV-021-002	ܓܠܝܢܐ 21:2-3	ܘܠܡܕܝܢܬܐ ܩܕܝܫܬܐ ܐܘܪܫܠܡ ܚܕܬܐ ܚܙܝܬܗ ܕܢܚܬܐ ܡܢ ܫܡܝܐ ܡܢ ܨܝܕ ܐܠܗܐ ܕܡܛܝܒܐ ܐܝܟ ܟܠܬܐ ܡܨܒܬܬܐ ܠܒܥܠܗ ܘܫܡܥܬ ܩܠܐ ܪܒܐ ܡܢ ܫܡܝܐ ܕܐܡܪ ܗܐ ܡܫܪܝܐ ܕܐܠܗܐ ܥܡ ܒܢܝܢܫܐ ܘܫܪܐ ܥܡܗܘܢ ܘܗܢܘܢ ܥܡܐ ܕܝܠܗ ܢܗܘܘܢ ܘܗܘ ܐܠܗܐ ܥܡܗܘܢ ܘܢܗܘܐ ܠܗܘܢ ܐܠܗܐ
-Holy-Bible---Aramaic---Aramaic-NT-Peshitta	HEB-011-008	ܥܒܪ̈ܝܐ 11:8	ܒܗܝܡܢܘܬܐ ܐܒܪܗܡ ܟܕ ܐܬܩܪܝ ܐܫܬܡܥ ܕܢܦܘܩ ܠܐܬܪܐ ܗܘ ܕܥܬܝܕ ܗܘܐ ܕܢܤܒ ܠܝܪܬܘܬܐ ܘܢܦܩ ܟܕ ܠܐ ܝܕܥ ܗܘܐ ܠܐܝܟܐ ܐܙܠ
-Holy-Bible---Aramaic---Aramaic-NT-Peshitta	EXO-013-017		
-Holy-Bible---Aramaic---Aramaic-NT-Peshitta	MAR-010-045	ܡܪܩܘܣ 10:45	ܐܦ ܒܪܗ ܓܝܪ ܕܐܢܫܐ ܠܐ ܐܬܐ ܕܢܫܬܡܫ ܐܠܐ ܕܢܫܡܫ ܘܕܢܬܠ ܢܦܫܗ ܦܘܪܩܢܐ ܚܠܦ ܤܓܝܐܐ
-Holy-Bible---Aramaic---Aramaic-NT-Peshitta	ROM-001-001	ܪ̈ܗܘܡܝܐ 1:1	ܦܘܠܘܤ ܥܒܕܐ ܕܝܫܘܥ ܡܫܝܚܐ ܩܪܝܐ ܘܫܠܝܚܐ ܕܐܬܦܪܫ ܠܐܘܢܓܠܝܘܢ ܕܐܠܗܐ
-Holy-Bible---Aramaic---Aramaic-NT-Peshitta	MAT-028-019	ܡܬܝ 28:19	ܙܠܘ ܗܟܝܠ ܬܠܡܕܘ ܟܠܗܘܢ ܥܡܡܐ ܘܐܥܡܕܘ ܐܢܘܢ ܒܫܡ ܐܒܐ ܘܒܪܐ ܘܪܘܚܐ ܕܩܘܕܫܐ
 Holy-Bible---Aramaic---Syriac-Peshitta	JOH-003-016	ܝܘܚܢܢ 3:16	ܗܟܢܐ ܓܝܪ ܐܚܒ ܐܠܗܐ ܠܥܠܡܐ ܐܝܟܢܐ ܕܠܒܪܗ ܝܚܝܕܝܐ ܢܬܠ ܕܟܠ ܡܢ ܕܡܗܝܡܢ ܒܗ ܠܐ ܢܐܒܕ ܐܠܐ ܢܗܘܘܢ ܠܗ ܚܝܐ ܕܠܥܠܡ
 Holy-Bible---Aramaic---Syriac-Peshitta	GEN-003-024		
 Holy-Bible---Aramaic---Syriac-Peshitta	LUK-023-034	ܠܘܩܘܣ 23:34	ܗܘ ܕܝܢ ܝܫܘܥ ܐܡܪ ܗܘܐ ܐܒܐ ܫܒܘܩ ܠܗܘܢ ܠܐ ܓܝܪ ܝܕܥܝܢ ܡܢܐ ܥܒܕܝܢ ܘܦܠܓܘ ܢܚܬܘܗܝ ܘܐܪܡܝܘ ܥܠܝܗܘܢ ܦܤܐ
@@ -122,6 +113,24 @@ Holy-Bible---Azerbaijani---Azerbaijani-Bible	EXO-013-017	Çixiş 13:17	Firon xal
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	MAR-010-045	Mark 10:45	Çünki Bəşər Oğlu gəlmədi ki, Ona xidmət etsinlər, gəldi ki, Özü xidmət etsin və çoxlarını satın almaq üçün Öz canını fidyə versin».
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	ROM-001-001	Romalilara 1:1	İsa Məsihin qulu, həvari olmağa çağırılmış, Allahın Müjdəsini yaymaq üçün seçilmiş mən Pauldan salam!
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	MAT-028-019	Matta 28:19	Beləliklə, gedin, bütün millətləri Mənim şagirdim edin; onları Ata, Oğul və Müqəddəs Ruh adı ilə vəftiz edin;
+Holy-Bible---Bangwinji---Bangwinji-Bible	JOH-003-016	Yuhanna 3:16	kwama ciu kale wo ri cin neken bibwe ce wiin cuar, la wo ne bilenke cineneri mani a bwiya ti la wi ki lai dume diriri.
+Holy-Bible---Bangwinji---Bangwinji-Bible	GEN-003-024		
+Holy-Bible---Bangwinji---Bangwinji-Bible	LUK-023-034	Luka 23:34	Yecu yi ki, “kwama, yabcinen wori, ci nyombo dike ci ma tiyeu”. La ciin mer dacen, ciin tikangum belle ceu.
+Holy-Bible---Bangwinji---Bangwinji-Bible	REV-021-002	Dukum Yuwa 21:2-3	Min to cinan loro wucakeu, Urusalima fwirko, wo yirau dii kwama Kwama nin, ywelum ywele na bine ci manten bwayilen ker nina bare cereu. Min diro dur dor kutile liyare tok ti ki, “To! fiye yime Kwamau kino wari kange nubo fir tini, tak keu ca yi kange cii. Cii an yilam nubo loce, la Kwama ki bwico an yi kange cii, can yilam Kwama ciye.
+Holy-Bible---Bangwinji---Bangwinji-Bible	HEB-011-008	Ibraniya 11:8	ki bilengke Ibrahim kambo ci co ceu, bwangten ceri yaken fiye ca yoti na kwaliceu. con ceri co nyombo fiye co yakenti wiyeu.
+Holy-Bible---Bangwinji---Bangwinji-Bible	EXO-013-017		
+Holy-Bible---Bangwinji---Bangwinji-Bible	MAR-010-045		
+Holy-Bible---Bangwinji---Bangwinji-Bible	ROM-001-001	Romawa 1:1	Bulu canga Yesu Almasiya co na yilam nii tomange, take cokom coke na fulen kert Kwama.
+Holy-Bible---Bangwinji---Bangwinji-Bible	MAT-028-019	Matta 28:19	kom ya ki dok nobo a yilam bi bei tomange ka le wo gwam kom yu'u cinen mwem ki den te, kange bwe kange yuwa tangbe wucake
+Holy-Bible---Bareli-Palya---Palya-Bareli-Bible	JOH-003-016		
+Holy-Bible---Bareli-Palya---Palya-Bareli-Bible	GEN-003-024		
+Holy-Bible---Bareli-Palya---Palya-Bareli-Bible	LUK-023-034		
+Holy-Bible---Bareli-Palya---Palya-Bareli-Bible	REV-021-002		 
+Holy-Bible---Bareli-Palya---Palya-Bareli-Bible	HEB-011-008		
+Holy-Bible---Bareli-Palya---Palya-Bareli-Bible	EXO-013-017		
+Holy-Bible---Bareli-Palya---Palya-Bareli-Bible	MAR-010-045		
+Holy-Bible---Bareli-Palya---Palya-Bareli-Bible	ROM-001-001		
+Holy-Bible---Bareli-Palya---Palya-Bareli-Bible	MAT-028-019	मत्‌ती 28:19	आनीन करीन तमु जावो, आखा राज्‌य ना माणहु ने चेला बणावो; अने तीमने बाह, अने सोरा, अने चोखली आत्‌मा नी नाम सी बपतीस्‌मा आपो,
 Holy-Bible---Basque---Basque-NT	JOH-003-016	Joan 3:16	Ecen hala Iaincoac onhetsi vkan du mundua, non bere Seme bakoitza eman vkan baitu, hura baithan sinhesten duenic gal eztadin, baina vicitze eternala duençát.
 Holy-Bible---Basque---Basque-NT	GEN-003-024		
 Holy-Bible---Basque---Basque-NT	LUK-023-034	Lukas 23:34	Eta Iesusec erraiten çuen, Aitá, barka iecec: ecen etzeaquie cer eguiten dutén. Guero haren abillamenduac partituric, çorte egotz ceçaten.
@@ -131,6 +140,15 @@ Holy-Bible---Basque---Basque-NT	EXO-013-017
 Holy-Bible---Basque---Basque-NT	MAR-010-045	Markos 10:45	Ecen guiçonaren Semea-ere ezta ethorri cerbitzatu içatera, baina cerbitzatzera, eta bere viciaren anhitzengatic rançoinetan emaitera.
 Holy-Bible---Basque---Basque-NT	ROM-001-001	Erromatarrei 1:1	PAVLEC Iesus Christen cerbitzariac Apostolu içatera deithuac, Iaincoaren Euangelioaren predicatzeco bereciac.
 Holy-Bible---Basque---Basque-NT	MAT-028-019	Mateo 28:19	Çoazte bada eta iracats itzaçue gende guciac: batheyatzen dituçuela Aitaren eta Semearen eta Spiritu sainduaren icenean:
+Holy-Bible---Beami---Bedamuni-Bible	JOH-003-016	Yone 3:16	Bai Gode da osobo bagade fifi asi gala hodole, ilima asigili, Egefe ilima i. Ea sia: dafawaneyale dawa: sea, lalegagusia, eso huluane mae bogole Fifi Ahoanumu.
+Holy-Bible---Beami---Bedamuni-Bible	GEN-003-024	Mui 3:24	Amalalu, Idini Ifabi gusu la: ididili, Gode da ‘selubimi’ dunu asunasi, amola gegesu gobiha: i bagade lalu agoane amo da gusu, gudu amola ga amo fefeloasu, amo E da asunasi. Dunu eno da mae bogole Fifi Ahoanusu ifa amoma doaga: sa: besa: le, E agoane hamoi.
+Holy-Bible---Beami---Bedamuni-Bible	LUK-023-034	Luge 23:34	Yesu E amane sia: i, “Ada! Dia ilia hou gogolema: ne olofoma! Bai ilia hamobe ilia da mae dawa: iwane hamosa!” Louma dadi gagui dunu, ilia da Yesu Ea abula lamusa: , ululuasu.
+Holy-Bible---Beami---Bedamuni-Bible	REV-021-002	Wamolegei Sia: Olelesu 21:2-3	Amalalu, na da Hadigi Moilai bai bagade, amo da Gaheabolo Yelusaleme moilai bai bagade Hebene amoga misini, gudu manebe ba: i. Gode da Yelusaleme amo osobo bagade gaheabolo amoma iasi. Yelusaleme da uda amo egoa amoma fimusa: ahoanebe liligi ida: iwane ga: ne ahoa, amo agoaiwane ba: i. Na da Fisu amoga sia: bagade manebe amane nabi, “Wali Gode Ea esalebe diasu da osobo bagade dunu fi amo ganodini diala. E amola ili da gilisili esalumu. Ilia da Gode Ea fidafa esalumu. Gode da ili sigi esalumu. E da ilima Gode esalumu.
+Holy-Bible---Beami---Bedamuni-Bible	HEB-011-008	Hibulu 11:8	A: ibalaha: me da dafawaneyale dawa: su hou lalegaguiba: le, soge amo da Gode da ema imunu ilegele sia: i amola amoga doaga: musa: gadili masa: ne sia: i, e da Gode Ea sia: nabawane hamoi. E da ea soge yolesili, soge amo e da hame dawa: i soge, amoga doaga: musa: asi.
+Holy-Bible---Beami---Bedamuni-Bible	EXO-013-017	Gadili Asi 13:17	Idibidi hina bagade (Felou) da Isala: ili dunu gadili masa: ne fisidigiloba, Gode da ili logo dunumuni (amo da hano wayabo bagade bega: Filisidia sogega ahoasu) amoga hame oule asi. Gode da amane dawa: i, “Isala: ili dunu da se nabasea amola gegesu ba: sea, ilia asigi dawa: su sinidigili, Idibidi sogega bu hagimu Na higa: i hodosa.”
+Holy-Bible---Beami---Bedamuni-Bible	MAR-010-045	Maga 10:45	Bai Dunu Egefe, da dunu eno ilia Ema hawa: hamoma: ne, hame misi. Be eno dunu fidimusa: amola dunu bagohame ilia esalusu bu bidi lama: ne, E da bogomusa: , misi dagoi.
+Holy-Bible---Beami---Bedamuni-Bible	ROM-001-001	Louma 1:1	Na da Bolo, Yesu Gelesu Ea hawa: hamosu dunu! Amola Gode da ilegei dagoiba: le, na da Ea Sia: Ida: iwane Gala olelema: ne asunasi dunu hamoi. Na da dili Louma dunuma meloa dedesa.
+Holy-Bible---Beami---Bedamuni-Bible	MAT-028-019	Ma:diu 28:19	Amaiba: le, dilia dunu fifi asi gala huluane, Na fa: no bobogesu fi hamoma: ne masa. Dilia da lalegagui dunu huluane amo Ada Ea Dioba: le, Egefe Ea Dioba: le amola Gode Ea A: silibu Hadigidafa Gala Ea Dioba: le, hanoga fane salima.
 Holy-Bible---Beaver---Beaver-Mark	JOH-003-016		
 Holy-Bible---Beaver---Beaver-Mark	GEN-003-024		
 Holy-Bible---Beaver---Beaver-Mark	LUK-023-034		
@@ -167,6 +185,24 @@ Holy-Bible---Bhadrawahi---Bhadrawahi-Bible	EXO-013-017
 Holy-Bible---Bhadrawahi---Bhadrawahi-Bible	MAR-010-045	मरकुस 10:45	किजोकि मैनेरू मट्ठू, यानी अवं एस दुनियाई मां एल्हेरेलेइ नईं ओरो कि कोई मेरी सेवा केरे, पन एल्हेरेलेइ ओरोईं कि अवं होरि लोकां केरि सेवा केरि त कने बड़े लोकां केरे लेइ अपनि जान बलिदान केरि, ताके तैन अपने पापां केरे सज़ाई केरां छुटकारो मैल्ले।”
 Holy-Bible---Bhadrawahi---Bhadrawahi-Bible	ROM-001-001	रोमियों 1:1	अवं पौलुस यीशु मसीहेरो दास आईं, ते प्रेरित भोनेरे लेइ परमेशरे च़ुनोरोईं, ते परमेशरेरी खुशखबरी प्रचार केरनेरे लेइ ठहरावरो आईं।
 Holy-Bible---Bhadrawahi---Bhadrawahi-Bible	MAT-028-019	मत्ती 28:19	एल्हेरेलेइ तुस गाथ ते सैरी कौमां केरे लोकन चेले बनाथ, ते तैन बाजी, ते मट्ठेरे, ते पवित्र आत्मारे नंव्वे सेइं बपतिस्मो देथ।
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	JOH-003-016	यूहन्ना 3:16	“क्योंकि परमेश्वरे संसारे दे लोकां ने ऐसा प्यार किता की उनी अपणा इकलोता पुत्र देई ता, ताकि जड़ा कोई उस पर भरोसा करे, उदा नाश ना होऐ, पर उसयो हमेशा दी जिन्दगी मिल्ले।
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	GEN-003-024		
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	LUK-023-034	लूका 23:34	तालू यीशुऐ बोलया, “हे पिता, इना जो माफ कर, क्योंकि ऐ जाणदे नी न की ऐ क्या करा दे न?” कने उना पर्चियां पाई करी उदे कपड़े बंडी ले।
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	REV-021-002	प्रकाशितवाक्य 21:2-3	फिरी मैं पबित्र नोऐ शेहर यरूशलेमे जो भी दिखया, जड़ा स्वर्गे ला परमेश्वरे दिया तरफा ला थले ओआ दा है। उस शेहरे जो नोईया लाड़िया सांई तैयार कितया था, जिसा जो कपड़े पहनाई करी कने श्रृंगार कितया है जड़ी लाड़े सोगी बियाह करणे तांई तैयार है। फिरी मैं इक अबाज सुणी जड़ी परमेश्वरे दे सिंहासने ला जोरे ला बोली, “दिख, हुण परमेश्वरे लोकां बिच अपणा घर बणाणा।” उनी उना सोगी रैणा, कने सै उदे लोक होणे, उनी अपु उना जो अपणे लोकां दे रुपे च अपनाणा कने उनी उना सोगी रेंणा कने उना भी उसयो परमेश्वरे दे रुपे च अपनाई लेंणा।
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	HEB-011-008	इब्रानिया 11:8	भरोसे दिया बजा ला ही अब्राहम नाऐ दे माणुऐ जो परमेश्वरे इक ऐसी जगा च जाणे तांई सदया जिसा जगा जो परमेश्वर बादे च उसयो विरासत च देणेबाला था। कने सै ऐ नी जाणदा था की कुथयो चलया है, पर फिर भी परमेश्वरे दा हुकम मन्नी करी सै उस देशे जो चली गिया।
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	EXO-013-017		
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	MAR-010-045	मरकुस 10:45	मैं ऐ इस तांई बोलदा है क्योंकि मैं, माणुऐ दा पुत्र, इस संसारे च सारयां दी सेबा करणे तांई आया है, मैं इस तांई नी आया कि लोकां ला अपणी सेबा करां। मैं तां लोकां जो पापां ला छुटकारा कराणे तांई अपणे प्राण कीमत च देणा आया है।”
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	ROM-001-001	रोमियो 1:1	ऐ चिठ्ठी पौलुस दिया तरफा ला है, जड़ा प्रभु यीशु मसीह दा सेवक है, कने परमेश्वरे उसयो प्रेरित होणे तांई चुणया है, कने परमेश्वरे दा शुभसमाचार दा प्रचार करणे तांई नियुक्त कितया है।
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	MAT-028-019	मत्ती 28:19	इस तांई तुसां जाई करी सारियां जातियां दे लोकां जो चेले बणा; कने उना जो पिता, पुत्र, कने पबित्र आत्मा दे नाऐ ने बपतिस्मा दीया।
+Holy-Bible---Blackfoot---Matthew	JOH-003-016		
+Holy-Bible---Blackfoot---Matthew	GEN-003-024		
+Holy-Bible---Blackfoot---Matthew	LUK-023-034		
+Holy-Bible---Blackfoot---Matthew	REV-021-002		 
+Holy-Bible---Blackfoot---Matthew	HEB-011-008		
+Holy-Bible---Blackfoot---Matthew	EXO-013-017		
+Holy-Bible---Blackfoot---Matthew	MAR-010-045		
+Holy-Bible---Blackfoot---Matthew	ROM-001-001		
+Holy-Bible---Blackfoot---Matthew	MAT-028-019	Matthew 28:19	Ŭn'nikaie, ĭs'tapuk, ĭsksĭnĭmats'okau kŏnau'mianĭstsitappii, ŭs'tapĭnokau ninikŏt'tokĕsts otsĭn'ikŏsĭmĕsts kĭn'un, ki okku'i, ki atsĭm'istaaw:
 Holy-Bible---Bodo-Parja---BOPO-Bible	JOH-003-016	ଜହନ୍‌ 3:16	ବଃଲେକ୍‌ ଇସ୍ୱର୍‌ ଜଃଗତ୍‌କେ ଅଃତେକ୍‌ ଲାଡ୍‌ କଃଲା ଜେ ସେ ଅଃହ୍‌ଣାର୍‌ ଗଟେକ୍‌ ବଃଲି ହୟ୍‌ସିକ୍‌ ଦାନ୍‌ ଦିଲା, ଜଃନ୍‌କଃରି ଜେହେଁ ତାକେ ବିସ୍ୱାସ୍‌ କଃରେଦ୍‌ ସେ ନଃସ୍ଟ୍‌ ନୟ୍‌ ସେ ଅଃମ୍ବର୍‌ ଜିବନ୍ ହାୟ୍‌ଦ୍‌ ।
 Holy-Bible---Bodo-Parja---BOPO-Bible	GEN-003-024		
 Holy-Bible---Bodo-Parja---BOPO-Bible	LUK-023-034	ଲୁକ 23:34	ସଃଡେବଃଳ୍‌ ଜିସୁ କୟ୍‌ଲା, “ଉବା, ଇ ଲକ୍‌ମଃନ୍‌କାର୍‌ ହାହ୍‌ କେମା କଃର୍‌, ବଃଲେକ୍‌ ଇ ଲକ୍‌ମଃନ୍ କାୟ୍‌ କଃରୁଲାୟ୍‌ ସେରି ଜାଣୁ ନଃହାରୁଲାୟ୍‌ ।” ଆର୍‌ ସେମଃନ୍ ଜିସୁର୍‌ ବଃସ୍ତର୍‌ ବାଟା କଃରୁକେ କେଳିବାଚ୍‌ଲାୟ୍‌ ।
@@ -176,6 +212,15 @@ Holy-Bible---Bodo-Parja---BOPO-Bible	EXO-013-017
 Holy-Bible---Bodo-Parja---BOPO-Bible	MAR-010-045	ମାର୍କ 10:45	କାୟ୍‌ତାକ୍‌ବଃଲେକ୍‌ ନଃରାର୍‌ ହୟ୍‌ସି ହେଁ ସେବା ହାଉଁକ୍‌ ନାସେ, ମଃତର୍‌ ସେବା କଃରୁକେ ଆର୍‌ ଗାଦେକ୍‌ ଲକାର୍‌ ଗିନେ ମୁକ୍ଳାଉତା ମଲ୍‌ ହର୍‌ ଅଃହ୍‌ଣାର୍‌ ଜିବନ୍ ଦେଉଁକେ ଆସି ଆଚେ ।”
 Holy-Bible---Bodo-Parja---BOPO-Bible	ROM-001-001	ରମିୟ 1:1	ପାଉଲ୍‌, କ୍ରିସ୍ଟ ଜିସୁର୍‌ ଗତିଦଃଙ୍ଗ୍‌ଳା ଆର୍‌ କୁଦ୍‌ଲାର୍‌ ଗଟ୍‌ ପେରିତ୍‌, ଆର୍‌ ଅଃହ୍‌ଣାର୍‌ ହୟ୍‌ସି ଅଃମାର୍‌ ମାପ୍ରୁ ଜିସୁ କ୍ରିସ୍ଟର୍‌ ବିସୟେ ନିଜାର୍‌ ଜୁୟ୍‌ ନିକ କବୁର୍‌ ଦଃର୍ମସାସ୍ତରେ ଅଃହ୍‌ଣାର୍‌ ବାବ୍‌ବାଦି ମଃନ୍‌କାର୍‌ ତଃୟ୍‌ ହୁର୍ବେ ସଃୟ୍‌ତ୍‌ କଃରିରିଲା, ସେ ନିକ କବୁର୍‌ ।
 Holy-Bible---Bodo-Parja---BOPO-Bible	MAT-028-019	ମାତିଉ 28:19	ତଃବେ ତୁମିମଃନ୍ ଜାୟ୍‌ ସଃବୁ ବାସାର୍‌ ରିଲା ଲକ୍‌ମଃନ୍‌କେ ଉବା, ହଅ ଆର୍‌ ପବିତ୍ର ଆତ୍ମାର୍‌ ନାଉଁଏ ବାପ୍ତିସମ୍‌ ଦଃୟ୍‌, ସେମଃନ୍‌କେ ଚେଲା କଃରା ।
+Holy-Bible---Borna---Borna-Latin-Bible	JOH-003-016	Yohans Dooshishiyo 3:16	«Bín amanit jametswots dúre dúri beyo b́ daatsituwok'owa bako b́ t'afrawok'o Ik'o datsu ayidek't b́shuntsotse ik s'uzo b́naayi b́ imi.
+Holy-Bible---Borna---Borna-Latin-Bible	GEN-003-024		
+Holy-Bible---Borna---Borna-Latin-Bible	LUK-023-034	Luk'as Dooshishiyo 23:34	Maniyehakon Iyesus, «T niho! bo k'aliruwo bodanawotse boosh orowa eree!» bíet. Kes' kes'fuwotsu Iyesus tahats it'o oorsht kaybodek'i.
+Holy-Bible---Borna---Borna-Latin-Bible	REV-021-002	Yohans Bek'o 21:2-3	Kit S'ayinú, Iyerusalem handru, b kenihsh baatsts guuyukok'o k'andek'at darotse Ik'oke b oot'fere tbek'i, hank'o etiru k'áári eenonowere naashi jooratse b́ keshfere t shishi, «Hambe! Ik'i k'ewoko ashuwots dagotse, bontonwere beetwe, boowere bíashuwotsi wotitúne, Ik'o b́tookon bonton wotitwe, Izar Izewerwere bok wotitwe,
+Holy-Bible---Borna---Borna-Latin-Bible	HEB-011-008	Ibrawiyots 11:8	Abraham keer, bísh risti woshde'er b́ dek'et beyokok bí ametuwok'o bín s'eegeyor bí ametuwoko dab b́dariyalor amoosh bíazaze amanatniye.
+Holy-Bible---Borna---Borna-Latin-Bible	EXO-013-017		
+Holy-Bible---Borna---Borna-Latin-Bible	MAR-010-045	Mark'os Dooshishiyo 10:45	Ash Na'oniyere ashuwotssh finonat b́ kashu ay ashuwots bin bokashit k'awntso woshde'er ímosha b́ weyi bako bísh bofinitwok'o waratse.»
+Holy-Bible---Borna---Borna-Latin-Bible	ROM-001-001	Rom 1:1	Iyesus Krstossh guuts wottso woshosh s'egetsoke, Ik'i doo shishiyo daniyosh marat'etso P'awlosoke wosheets wosho.
+Holy-Bible---Borna---Borna-Latin-Bible	MAT-028-019	Matiwos Dooshishiyo 28:19	Datsatsi ash jamok amr, nihon, naayonat shayiri S'ayno shútson boon gufr t danifwotsi woshweree.
 Holy-Bible---Breton---Breton-Gospels	JOH-003-016	Jean 3:16	Rak kement en deus Doue karet ar bed, m'en deus roet e Vab nemetañ, evit na vo ket kollet piv bennak a gred ennañ, met m'en devo ar vuhez peurbadus.
 Holy-Bible---Breton---Breton-Gospels	GEN-003-024		
 Holy-Bible---Breton---Breton-Gospels	LUK-023-034	Luc 23:34	Jezuz a lavare: Tad, pardon dezho, rak n'ouzont ket ar pezh a reont. Neuze e lodennjont e zilhad, ouzh o zeurel d'ar sord.
@@ -185,6 +230,15 @@ Holy-Bible---Breton---Breton-Gospels	EXO-013-017
 Holy-Bible---Breton---Breton-Gospels	MAR-010-045	Marc 10:45	Rak Mab an den n'eo ket deuet evit bezañ servijet, met evit servijañ hag evit reiñ e vuhez e daspren evit kalz.
 Holy-Bible---Breton---Breton-Gospels	ROM-001-001		
 Holy-Bible---Breton---Breton-Gospels	MAT-028-019	Matthieu 28:19	It eta, grit diskibien eus an holl vroadoù, o vadeziñ anezho en anv an Tad, ar Mab hag ar Spered-Santel,
+Holy-Bible---Bu---Bu-Bible	JOH-003-016	Yohana 3:16	niwa irji a lo suron ni gbungbulua kpukpome na ban ivren ma riri no wa a ka suron ma no wa ka que na kason ni viri hi ni tuntur
+Holy-Bible---Bu---Bu-Bible	GEN-003-024		
+Holy-Bible---Bu---Bu-Bible	LUK-023-034	Luke 23:34	Yesu tre “Itie, kpa wruhle ni bawu, don bana toh kpe wa ba tie na.” Ba lu ni ta chacha, na yaba inklon ga.
+Holy-Bible---Bu---Bu-Bible	REV-021-002	Revelation 21:2-3	Mito tsatsra gbua, isa urushelima, wa grji ye rhini shulu u, Irji wa ba mlati to wa ba mla wa sa ti ni kpibi yabi ni lonma. Mi wo kikle ilan rhini kursiyima ni tre ndji “ya! bubu son u ijjhi a he nimi mri inji, wa ani son niba. Ba kmati inji ma, Irji kima ani he niba wa ani Irjhi mba.
+Holy-Bible---Bu---Bu-Bible	HEB-011-008	Hebrews 11:8	a he ni tu nyme krigbangban Ibrahim mba niwa ba yoaa wo yo a nda rhuhu hi ni bubu wa ani hi kpa ti u ma a rhuhi hama ni to bubu waa sia hia
+Holy-Bible---Bu---Bu-Bible	EXO-013-017		
+Holy-Bible---Bu---Bu-Bible	MAR-010-045	Mark 10:45	ni u njaji vren ndi na ye nduba tie yah nitu ma na ama wawu ni tie ya nitu bari da kpa que nitu bari gbugbuu bi latre ndu ba nawo
+Holy-Bible---Bu---Bu-Bible	ROM-001-001	Romawa 1:1	Bulus vren koh Yesu Almasihu, wa ba you aye, kma tie ndji u toh ndu, wa ba chu zi kan nitu tre Irji.
+Holy-Bible---Bu---Bu-Bible	MAT-028-019	Matiyu 28:19	Bika hi ndi ka indji bi gbu ba ba wawuu tie mrli koh mu (bihume). Tie batisma bawu nimi nde u tie, ni u vren ni u Tsratsra Brji.
 Holy-Bible---Bulgarian---Bulgarian-Bible	JOH-003-016	Йоан 3:16	Защото Бог толкова възлюби света, че даде Своя Единороден Син, за да не погине ни един, който вярва в Него, но да има вечен живот:
 Holy-Bible---Bulgarian---Bulgarian-Bible	GEN-003-024	Битие 3:24	Така Той изпъди Адама; и постави на изток от Едемската градина херувимите и пламенния меч, който се въртеше, за да пазят пътя към дървото на живота.
 Holy-Bible---Bulgarian---Bulgarian-Bible	LUK-023-034	Лука 23:34	А Исус каза: Отче, прости им, защото не знаят какво правят. И като разделиха дрехите Му, хвърлиха жребие за тях.
@@ -248,6 +302,15 @@ Holy-Bible---Chichewa---Chichewa-Bible	EXO-013-017	Eksodo 13:17	Farao atalola an
 Holy-Bible---Chichewa---Chichewa-Bible	MAR-010-045	Marko 10:45	Pakuti ngakhale Mwana wa Munthu sanabwere kudzatumikiridwa, koma kudzatumikira, ndi kupereka moyo wake kuti ukhale dipo la anthu ambiri.”
 Holy-Bible---Chichewa---Chichewa-Bible	ROM-001-001	Aroma 1:1	Ndine Paulo, mtumiki wa Khristu Yesu, woyitanidwa ndi Mulungu kukhala mtumwi. Ndinapatulidwa kuti ndilalikire Uthenga Wabwino wa Mulungu
 Holy-Bible---Chichewa---Chichewa-Bible	MAT-028-019	Mateyu 28:19	Chifukwa chake, pitani kaphunzitseni anthu a mitundu yonse, ndi kuwabatiza mʼdzina la Atate ndi la Mwana ndi la Mzimu Woyera,
+Holy-Bible---Chin-Daai---Daai-Chin-Bible	JOH-003-016	Johan 3:16	“Pamhnam naw khawmdek a mhläkphyanak leng lenga phäh a Capa mat däk a jah pet. Ani jumki naküt cun käh thi ti lü angsäia xünnak yah khaie.
+Holy-Bible---Chin-Daai---Daai-Chin-Bible	GEN-003-024		
+Holy-Bible---Chin-Daai---Daai-Chin-Bible	LUK-023-034	Luhka 23:34	Jesuh naw, “Ka Pa aw, jah mhläta; i ami pawh am ksing hei ve u,” a ti. Acunüng, a suisak he cung kphawng u lü ami jah ngpaiei.
+Holy-Bible---Chin-Daai---Daai-Chin-Bible	REV-021-002	Malam Mdannak 21:2-3	Acunüng Mlüh Ngcim, Jerusalem kthai cun nglamica a ceia hama nglanglawi lü ngtünkia kba Pamhnama vei üngka khankhaw üngka naw kyum law se ka hmuh. Bawingawhnak üngka naw angsang yea, “Pamhnama im nghngicim khyang hea hlawnga awm ve. Amimi am alanga awm khai. Amimi cun a khyang hea kya khai he. Pamhnam amät ami hlawnga awm se ani cun ami Pamhnama kya khai.
+Holy-Bible---Chin-Daai---Daai-Chin-Bible	HEB-011-008	Hebru 11:8	Pamhnam naw khyütam lü a pet vai pe cua Abraham Pamhnam naw a khü üng a kcangnak cun jumeinaka phäha kyaki. Hawa a cehnak vai am ksing xa lü ani naw a pe cun hawih hütki ni.
+Holy-Bible---Chin-Daai---Daai-Chin-Bible	EXO-013-017		
+Holy-Bible---Chin-Daai---Daai-Chin-Bible	MAR-010-045	Makuh 10:45	Khyanga Capa cun khyanga khüih vaia am law lü; khyang jah khüih lü khawjah thawnnak vaia a xünnak pe khaia ni a law ve,” a ti.
+Holy-Bible---Chin-Daai---Daai-Chin-Bible	ROM-001-001	Romah 1:1	Jesuh Khritawa mpya ja ngsä vaia khü, Pamhnama thangkdaw sang khaia xüa Pawluh üngkhyüh ni.
+Holy-Bible---Chin-Daai---Daai-Chin-Bible	MAT-028-019	Mahte 28:19	Acunakyase, cit u lü khyang naküt ka hnukläkea jah pyang u lü, Pa, Capa ja ngmüimkhya ngcima ngming üng baptican jah pe ua.
 Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	JOH-003-016	Johan 3:16	Sithaw mah long palung phi pongah, maeto khue tawnh ih a Capa to a paek, mi kawbaktih doeh Anih tang kami loe anghmaa mak ai, dungzan hinghaih to hnu tih.
 Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	GEN-003-024	Genesis 3:24	Kami to haek pacoengah, hinghaih thingkung loklam to toep hanah, Cherubimnawk hoi ahnuk ahma angmet thaih hmai sumsen to Eden takha ni angyae bang ah a suek.
 Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	LUK-023-034	Luka 23:34	Jesu mah, Pa, nihcae to tahmen ah; nihcae loe a sak o ih hmuen to panoek o ai, tiah a naa. Taham khethaih phoisa to azuh o moe, anih ih kahni to amzet o.
@@ -257,6 +320,15 @@ Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	EXO-013-017	Exodus 13:17	F
 Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	MAR-010-045	Marka 10:45	Kami Capa loe minawk toksaksak hanah angzo ai, minawk ih tok to sak pae moe, paroeai kaminawk akrang hanah a hinghaih paek han ih ni angzoh, tiah a naa.
 Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	ROM-001-001	Rom 1:1	Pawl, Jesu Kri ih tamna, Sithaw tamthanglok hoih pongah, pahoe ih kami ah kaom, patoeh ih kami ah kawk ih kami mah,
 Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	MAT-028-019	Mathai 28:19	To pongah caeh oh loe, acaengnawk boih to patuk oh, nihcae to Ampa, Capa, Kacai Muithla ih ahmin hoiah tuinuemhaih to paek oh:
+Holy-Bible---Chin-Matu---Matupi-Chin-2019	JOH-003-016	Johan 3:16	Pathen loh diklai a lungnah tangloeng tih khueh duen capa te a paek. Amah aka tangnah boeih tah poci pawt vetih dungyan hingnah a dang ni.
+Holy-Bible---Chin-Matu---Matupi-Chin-2019	GEN-003-024	Suencuek 3:24	Hlang te khaw a haek coeng tih hingnah thingkung longpuei aka hung ham cherubim neh hmaitak cunghang aka tinghil te Eden dum kah khothoeng ah a khueh.
+Holy-Bible---Chin-Matu---Matupi-Chin-2019	LUK-023-034	Luka 23:34	Te vaengah Jesuh loh, “A pa, amih he tholh hlah mai, a saii uh he khaw a ming uh moenih,” a ti. Te phoeiah a himbai te a phen uh tih hmulung a naan thil uh.
+Holy-Bible---Chin-Matu---Matupi-Chin-2019	REV-021-002	Olphong 21:2-3	A cim kho thai Jerusalem te khaw a va ham aka rhuengphong tih aka thoeihcam vasakung bangla vaan Pathen taeng lamkah ha suntla te ka hmuh. Te vaengah ngolkhoel lamkah ol ue ka yaak. “Pathen kah dap tah hlang rhoek taengah om coeng ke. Te dongah amih taengah rhaeh vetih amih khaw a pilnam la om uh ni. Pathen amah khaw amih taengah om vetih amih kah Pathen la om ni.
+Holy-Bible---Chin-Matu---Matupi-Chin-2019	HEB-011-008	Hebru 11:8	Tangnah neh a khue vaengah rho la pang aka cai hmuen te paan ham Abraham loh a ngai. Te vaengah mela a caeh khaw a ming mueh lam ni a caeh.
+Holy-Bible---Chin-Matu---Matupi-Chin-2019	EXO-013-017	Sunglatnah 13:17	Pharaoh loh pilnam te a hlah coeng dae Pathen loh, “Pilnam he caemtloeknah a hmuh vaengah hal vetih Egypt la mael ve,” a ti. Te dongah amih te Pathen loh Philisti kho kah longpuei longah pat mawt pawh.
+Holy-Bible---Chin-Matu---Matupi-Chin-2019	MAR-010-045	Marku 10:45	Hlang capa tah hlang thotat sak ham pawt tih thohtat pah ham neh a hinglu te ping kah tlansum la paek ham ni halo,” a ti nah.
+Holy-Bible---Chin-Matu---Matupi-Chin-2019	ROM-001-001	Rom 1:1	Jesuh Khrih kah sal, caeltueih la a khue tih Pathen kah olthangthen ham a coelh kai Paul,
+Holy-Bible---Chin-Matu---Matupi-Chin-2019	MAT-028-019	Matthai 28:19	Te dongah cet uh lamtah namtom boeih te ham bang sak uh. Amih te Pa, Capa, Cim Mueihla kah ming neh nuem uh.
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	JOH-003-016	Johan 3:16	Pathen loh Diklai a lungnah tangloeng tih khueh duen capa te a paek. Amah aka tangnah boeih tah poci pawt vetih dungyan hingnah a dang ni.
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	GEN-003-024	Suencuek 3:24	Hlang te khaw a haek coeng tih hingnah thingkung longpuei aka hung ham cherubim neh hmaitak cunghang aka tinghil te Eden dum kah khothoeng ah a khueh.
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	LUK-023-034	Luka 23:34	Te vaengah Jesuh loh, “A pa, amih he tholh hlah mai, a saii uh he khaw a ming uh moenih,” a ti. Te phoeiah a himbai te a phen uh tih hmulung a naan thiluh.
@@ -293,6 +365,15 @@ Holy-Bible---Chin-Thado---Chongthu-Bible	EXO-013-017	Potdohbu 13:17	Ajonan Phara
 Holy-Bible---Chin-Thado---Chongthu-Bible	MAR-010-045	Mark 10:45	Ijeh inem iti leh Mihem Chapa tah jong chu jen dinga hung hilouvin mijenle ding le mitampi lhatdohna dinga ahinna tohdoh ding joh-a hung ahibouve,” ati.
 Holy-Bible---Chin-Thado---Chongthu-Bible	ROM-001-001	Rome 1:1	Hiche lekhathot hi Christa Yeshua soh, solchah hidinga Pathen lhendoh, Ama Kipana Thupha seiphong dinga kisoldoh, Paul'a kon ahi:
 Holy-Bible---Chin-Thado---Chongthu-Bible	MAT-028-019	Matthew 28:19	Hijeh chun, nangho cheuvin chule namtin jouse seijuiyin gasemun, amaho chu Pa le Chapa chule Lhagao Theng min-in Twilutsah uvin.
+Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	JOH-003-016	Jawhan 3:16	Cathut ni a Capa tawntoe e pasoung ditouh talaivan a lungpataw. Capa ka yuem e tami pueng teh rawk laipalah a yungyoe hringnae a tawn awh nahane doeh.
+Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	GEN-003-024	Kamtawngnae 3:24	Hottelah, tami hah a pâlei hnukkhu, avoivang kamrit thai e tahloi hoi Cherubim hah, hringnae thingkung lamthung ka ring hanelah, Eden takha kanîtholah a hruek.
+Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	LUK-023-034	Luk 23:34	Jisuh ni, a Pa, ahnimae yon ngaithoum haw, bangmaw ka sak tie panuek awh hoeh, telah ati. Ahnimouh ni cungpam a rayu awh teh angki a kâravei awh.
+Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	REV-021-002	Papholawk 21:2-3	Hahoi teh khopui kathoung Jerusalem katha teh Cathut koe, kalvan lahoi a kum e ka hmu. Vâ ka sak hane tangla ni a vâ nahane hoi kâhmo han nah a kamthoup e patetlah a kamthoup. Hathnukkhu kalvan hoi ka tho e kacaipounge lawk ni, khenhaw! Cathut onae lukkareiim teh taminaw koe ao toe. Ama teh taminaw hoi reirei ao han. Ahnimanaw hai Ama e miphun lah ao awh vaiteh Cathut ma roeroe ahnimouh hoi rei o vaiteh ahnimae Cathut lah ao han.
+Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	HEB-011-008	Hebru 11:8	Cathut ni Abraham teh râw lah a coe hane ram dawk cei hanlah a kaw navah, ahni ni nâ lah maw ka cei han tie panuek laipalah yuemnae lahoi lawk a ngâi teh a cei.
+Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	EXO-013-017	Tâconae 13:17	Faro ni Isarelnaw a tâco sak hnukkhu, Filistin lah ceinae lam kahnaica ao eiteh, Cathut ni hote lam dawk hrawi hoeh. Bangkongtetpawiteh, ahnimouh ni tarantuknae a kâhmo awh navah, a lungpout teh Izip ram lah a ban payon han doeh ti a panue.
+Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	MAR-010-045	Mark 10:45	Bangkongtetpawiteh, tami Capa patenghai, ayâ patoun hanelah tho hoeh. Ayânaw e thaw tawk pouh hane hoi, hringnae pasoung laihoi, taminaw ratang hanelah doeh a tho atipouh.
+Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	ROM-001-001	Rom 1:1	Kai Pawl, Jisuh Khrih e a san, Cathut ni a kamthang kahawi pâpho hanlah, na rawi teh na kaw e, guncei lah kaawm e ni ca na patawn awh.
+Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	MAT-028-019	Matthai 28:19	Nangmouh ni cet awh nateh miphun pueng hah ka hnuk kâbang lah coung sak awh. Pa, Capa, Kathoung Muitha e min dawk Baptisma poe awh.
 Holy-Bible---Chinese---Chinese-Easy-to-Read	JOH-003-016	约翰福音 3:16	这就是上帝爱这世界的方式，上帝他把自己的独子赐给他们，让信他的人不会死去，而是获得永生。
 Holy-Bible---Chinese---Chinese-Easy-to-Read	GEN-003-024		
 Holy-Bible---Chinese---Chinese-Easy-to-Read	LUK-023-034	路加福音 23:34	耶稣说：“父啊，宽恕他们吧！因为他们不知道自己在做什么。”众人通过扔骰子的方式，分走了他的衣服。
@@ -473,6 +554,15 @@ Holy-Bible---Dutch---Canisiusvertaling	EXO-013-017	Exodus 13:17	Nadat Farao het 
 Holy-Bible---Dutch---Canisiusvertaling	MAR-010-045	Markus 10:45	Ook de Mensenzoon is niet gekomen om gediend te worden, maar om te dienen, en zijn leven te geven tot losprijs voor velen.
 Holy-Bible---Dutch---Canisiusvertaling	ROM-001-001	Romeinen 1:1	Paulus, dienaar van Christus Jesus, geroepen als apostel en bestemd voor het Evangelie van God,
 Holy-Bible---Dutch---Canisiusvertaling	MAT-028-019	Mattheüs 28:19	Gaat dus heen; onderwijst alle volken, doopt ze in de naam van den Vader en van den Zoon en van den Heiligen Geest,
+Holy-Bible---Dutch---Petrus-Canisius	JOH-003-016	Johannes 3:16	Want zo lief heeft God de wereld gehad, dat Hij zijn eengeboren Zoon heeft gegeven: opdat allen die in Hem geloven, niet verloren zouden gaan, maar het eeuwige leven zouden hebben.
+Holy-Bible---Dutch---Petrus-Canisius	GEN-003-024	Genesis 3:24	Hij joeg den mens weg, en plaatste ten oosten van Edens tuin de cherubs met de vlam van het bliksemende zwaard, om de weg naar de levensboom te bewaken.
+Holy-Bible---Dutch---Petrus-Canisius	LUK-023-034	Lukas 23:34	En Jesus zeide: Vader, vergeef het hun; want ze weten niet, wat ze doen. En ze verdeelden zijn klederen bij het lot.
+Holy-Bible---Dutch---Petrus-Canisius	REV-021-002	Openbaring 21:2-3	En de heilige Stad, het Nieuw-Jerusalem, zag ik neerdalen van God uit de hemel, toegerust als een bruid, die voor haar man is getooid. En ik hoorde van de Troon een machtige stem en ze sprak: Zie, de Woonstede Gods bij de mensen: Hij zal zijn Tent bij hen spannen. Zij zullen zijn volk zijn, Hij: God met hen!
+Holy-Bible---Dutch---Petrus-Canisius	HEB-011-008	Hebreeën 11:8	Door het geloof ging Abraham, toen hij geroepen werd, gehoorzaam uit naar de plaats, die hij tot erfdeel zou ontvangen; hij vertrok. zonder te weten, waarheen hij ging.
+Holy-Bible---Dutch---Petrus-Canisius	EXO-013-017	Exodus 13:17	Nadat Farao het volk had laten gaan, leidde God hen niet langs de weg, die naar het land der Filistijnen voerde, hoewel die de kortste was. Want God dacht, dat het volk wel eens spijt kon krijgen, wanneer het tegenstand zou ontmoeten, en dan naar Egypte zou willen terugkeren.
+Holy-Bible---Dutch---Petrus-Canisius	MAR-010-045	Markus 10:45	Ook de Mensenzoon is niet gekomen om gediend te worden, maar om te dienen, en zijn leven te geven tot losprijs voor velen.
+Holy-Bible---Dutch---Petrus-Canisius	ROM-001-001	Romeinen 1:1	Paulus, dienaar van Christus Jesus, geroepen als apostel en bestemd voor het Evangelie van God,
+Holy-Bible---Dutch---Petrus-Canisius	MAT-028-019	Mattheüs 28:19	Gaat dus heen; onderwijst alle volken, doopt ze in de naam van den Vader en van den Zoon en van den Heiligen Geest,
 Holy-Bible---Dutch---Schrift	JOH-003-016	Johannes 3:16	Want alzo lief heeft God de wereld gehad, dat Hij Zijn eniggeboren Zoon gegeven heeft, opdat een iegelijk die in Hem gelooft, niet verderve, maar het eeuwige leven hebbe.
 Holy-Bible---Dutch---Schrift	GEN-003-024	Genesis 3:24	En Hij dreef den mens uit; en stelde cherubim tegen het oosten des hofs van Eden, en een vlammig lemmer eens zwaards, dat zich omkeerde, om te bewaren den weg van den boom des levens.
 Holy-Bible---Dutch---Schrift	LUK-023-034	Lukas 23:34	En Jezus zeide: Vader, vergeef het hun; want zij weten niet, wat zij doen. En verdelende Zijn klederen, wierpen zij het lot.
@@ -889,7 +979,7 @@ Holy-Bible---English---Syriac-Peshitta-Murdock	ROM-001-001	Romans 1:1	PAUL, a se
 Holy-Bible---English---Syriac-Peshitta-Murdock	MAT-028-019	Matthew 28:19	Go ye, therefore, and instruct all nations; and baptize them in the name of the Father, and of the Son, and of the Holy Spirit.
 Holy-Bible---English---Text-Critical	JOH-003-016	John 3:16	“For God loved the world in this way: He gave his one and only Son, so that whoever believes in him should not perish but have eternal life.
 Holy-Bible---English---Text-Critical	GEN-003-024		
-Holy-Bible---English---Text-Critical	LUK-023-034	Luke 23:34	But Jesus said, “Father, forgive them, for they know not what they do.” Then they cast lots to divide his garments.
+Holy-Bible---English---Text-Critical	LUK-023-034	Luke 23:34	But Jesus said, “Father, forgive them, for they do not know what they are doing.” Then they cast lots to divide his garments.
 Holy-Bible---English---Text-Critical	REV-021-002	Revelation 21:2-3	I also saw the holy city, new Jerusalem, coming down out of heaven from God, prepared like a bride adorned for her husband. And I heard a loud voice from heaven saying, “Behold, the tabernacle of God is with men. He will dwell with them, and they will be his people, and God himself will be with them.
 Holy-Bible---English---Text-Critical	HEB-011-008	Hebrews 11:8	By faith Abraham obeyed when he was called to go out to the place that he was to receive as an inheritance. And he went out, not knowing where he was going.
 Holy-Bible---English---Text-Critical	EXO-013-017		
@@ -1119,7 +1209,7 @@ Holy-Bible---French---French-Crampon-Bible-New	REV-021-002	Apocalypse 21:2-3	Et 
 Holy-Bible---French---French-Crampon-Bible-New	HEB-011-008	Hébreux 11:8	C’est par la foi qu’Abraham, obéissant à l’appel de Dieu, partit pour un pays qu’il devait recevoir en héritage, et se mit en chemin sans savoir où il allait.
 Holy-Bible---French---French-Crampon-Bible-New	EXO-013-017	Exode 13:17	Lorsque Pharaon laissa aller le peuple, Dieu ne le conduisit pas par le chemin du pays des Philistins, quoique le plus court; car Dieu dit: « Le peuple pourrait se repentir en voyant la guerre, et retourner en Égypte. »
 Holy-Bible---French---French-Crampon-Bible-New	MAR-010-045	Marc 10:45	Car le Fils de l’homme est venu, non pour être servi, mais pour servir et donner sa vie pour la rançon de la multitude. »
-Holy-Bible---French---French-Crampon-Bible-New	ROM-001-001	Romains 1:1	Paul, serviteur du Christ-Jésus, apôtre par son appel, mis à part pour annoncer l'Evangile de Dieu,
+Holy-Bible---French---French-Crampon-Bible-New	ROM-001-001	Romains 1:1	Paul, serviteur du Christ-Jésus, apôtre par son appel, mis à part pour annoncer l’Evangile de Dieu,
 Holy-Bible---French---French-Crampon-Bible-New	MAT-028-019	Matthieu 28:19	Allez donc, enseignez toutes les nations, les baptisant au nom du Père, et du Fils et du Saint-Esprit,
 Holy-Bible---French---French-Darby-Bible	JOH-003-016	Jean 3:16	Car Dieu a tant aimé le monde, qu’il a donné son Fils unique, afin que quiconque croit en lui ne périsse pas, mais qu’il ait la vie éternelle.
 Holy-Bible---French---French-Darby-Bible	GEN-003-024	Genèse 3:24	il chassa l’homme, et plaça à l’orient du jardin d’Éden les chérubins et la lame de l’épée qui tournait çà et là, pour garder le chemin de l’arbre de vie.
@@ -1211,15 +1301,15 @@ Holy-Bible---French---French-Synodale-Bible	EXO-013-017
 Holy-Bible---French---French-Synodale-Bible	MAR-010-045	Marc 10:45	Car le Fils de l'homme est venu, non pour être servi, mais pour servir, et donner sa vie pour la rançon de plusieurs.
 Holy-Bible---French---French-Synodale-Bible	ROM-001-001	Romains 1:1	Paul, serviteur de Jésus-Christ, appelé à être apôtre, mis à part pour annoncer l'Évangile de Dieu,
 Holy-Bible---French---French-Synodale-Bible	MAT-028-019	Matthieu 28:19	Allez donc, enseignez toutes les nations, en les baptisant au nom du Père, du Fils et du Saint-Esprit,
-Holy-Bible---French---Vulgate-Glaire	JOH-003-016	Jean 3:16	Car Dieu a tant aimé le monde, qu’il a donné son Fils unique, afin que quiconque croit en lui ne périsse pas, mais qu’il ait la vie éternelle.
-Holy-Bible---French---Vulgate-Glaire	GEN-003-024	Genèse 3:24	Et l’en ayant chassé, il mit devant le jardin de délices des Chérubins qui faisaient étinceler une épée de feu, pour garder le chemin qui conduisait à l’arbre de vie.
-Holy-Bible---French---Vulgate-Glaire	LUK-023-034	Luc 23:34	Et Jésus disait: Père, pardonnez-leur, car ils ne savent ce qu’ils font. Partageant ensuite ses vêtements, ils les tirèrent au sort.
-Holy-Bible---French---Vulgate-Glaire	REV-021-002	Apocalypse 21:2-3	Et moi, Jean, je vis la cité sainte, la Jérusalem nouvelle, qui descendait du ciel, d’auprès de Dieu, prête comme une épouse qui s’est parée pour son époux. Et j’entendis une voix forte venant du trône, qui disait: Voici le tabernacle de Dieu avec les hommes, et il habitera avec eux; et ils seront son peuple, et Dieu lui-même sera avec eux, comme leur Dieu;
-Holy-Bible---French---Vulgate-Glaire	HEB-011-008	Hébreux 11:8	C’est par la foi qu’Abraham, lors de son appel, obéit en partant pour le pays qu’il devait recevoir en héritage; et il partit, ne sachant pas où il allait.
-Holy-Bible---French---Vulgate-Glaire	EXO-013-017	Exode 13:17	Or Pharaon ayant fait sortir de ses terres le peuple d’Israël, le Seigneur ne les conduisit point par le chemin du pays des Philistins qui est voisin, de peur qu’ils ne vinssent à se repentir d’être ainsi sortis, s’ils voyaient s’élever des guerres contre eux, et qu’ils ne retournassent en Egypte.
-Holy-Bible---French---Vulgate-Glaire	MAR-010-045	Marc 10:45	Car le Fils de l’homme lui-même n’est pas venu pour être servi, mais pour servir, et pour donner sa vie comme la rançon d’un grand nombre.
-Holy-Bible---French---Vulgate-Glaire	ROM-001-001	Romains 1:1	Paul, serviteur de Jésus-Christ, appelé Apôtre, mis à part pour l’Evangile de Dieu,
-Holy-Bible---French---Vulgate-Glaire	MAT-028-019	Matthieu 28:19	Allez donc, enseignez toutes les nations, les baptisant au nom du Père, et du Fils, et du Saint-Esprit,
+Holy-Bible---French---Vulgate-Glaire	JOH-003-016	Jean 3:16	Car Dieu a tellement aimé le monde, qu’il a donné son Fils unique, afin que quiconque croit en lui ne périsse point, mais qu’il ait la vie éternelle.
+Holy-Bible---French---Vulgate-Glaire	GEN-003-024	Genèse 3:24	Il renvoya donc Adam, et il plaça à l’entrée du jardin de délices les Chérubins avec un glaive flamboyant qu’ils brandissaient, pour garder la voie de l’arbre de la vie.
+Holy-Bible---French---Vulgate-Glaire	LUK-023-034	Luc 23:34	Mais Jésus disait: Mon Père, pardonnez-leur, car ils ne savent ce qu’ils font. Partageant ensuite ses vêtements, ils y jetèrent le sort.
+Holy-Bible---French---Vulgate-Glaire	REV-021-002	Apocalypse 21:2-3	Et moi, Jean, je vis la sainte cité, la nouvelle Jérusalem, descendant du ciel, d’auprès de Dieu, parée comme une épouse et ornée pour son époux. Et j’entendis une voix forte sortie du trône, disant: Voici le tabernacle de Dieu avec les hommes, et il demeurera avec eux. Et eux seront son peuple, et lui-même, Dieu, au milieu d’eux, sera leur Dieu.
+Holy-Bible---French---Vulgate-Glaire	HEB-011-008	Hébreux 11:8	C’est par la foi que celui qui est appelé Abraham obéit et partit sans savoir où il allait.
+Holy-Bible---French---Vulgate-Glaire	EXO-013-017	Exode 13:17	Or, quand Pharaon eut laissé aller le peuple. Dieu ne les conduisit point par le chemin de la terre des Philistins qui est voisine, pensant que peut-être il se repentirait, s’il voyait des guerres s’élever contre lui, et qu’il retournerait en Egypte.
+Holy-Bible---French---Vulgate-Glaire	MAR-010-045	Marc 10:45	Car le Fils de l’homme même n’est pas venu pour être servi, mais pour servir, et donner sa vie pour la rédemption d’un grand nombre.
+Holy-Bible---French---Vulgate-Glaire	ROM-001-001	Romains 1:1	Paul, serviteur de Jésus-Christ, appelé à l’apostolat, choisi pour l’Evangile de Dieu,
+Holy-Bible---French---Vulgate-Glaire	MAT-028-019	Matthieu 28:19	Allez donc, enseignez toutes les nations, les baptisant au nom du Père, et du Fils, et du Saint-Esprit;
 Holy-Bible---Gamotso---Gamo	JOH-003-016	Yanisa Mishiracho 3:16	Xoossa na ammanizay wuri medhina deyo demanappe attin dhayonta mala Xoossi hayssa alameza daro siqida gish ba mixi issi na immides.
 Holy-Bible---Gamotso---Gamo	GEN-003-024		
 Holy-Bible---Gamotso---Gamo	LUK-023-034	Luqaassa 23:34	Yesussaykka aabo hayti ba oothizaysa eridi ooothonta gish istas atto ga gides. Istika iza mayoza saama yegidi ba garssan gishetti ekkida.
@@ -1229,6 +1319,15 @@ Holy-Bible---Gamotso---Gamo	EXO-013-017
 Holy-Bible---Gamotso---Gamo	MAR-010-045	Marqqossa 10:45	Asa nay gidikko asas oothansine ba shemppo darota gish athi immans yades atin ase othisanas yibeyna.” gides.
 Holy-Bible---Gamotso---Gamo	ROM-001-001	Roome 1:1	Yesus Kiristoosa ayllene haware gidanasi xeygettida mishiracho qaala yootanaas kiitettida taape Phawulossape kiitettida kiita.
 Holy-Bible---Gamotso---Gamo	MAT-028-019	Maatosa 28:19	Hessa gish bidi dere wursos Aawa Na7azane Xillo Ayana suthan xamaqishe tana kalizayta oothite,
+Holy-Bible---Gata---Gata-Didayi-Bible	JOH-003-016	ଜହନ୍‌ 3:16	ଡାଗ୍ଲା ଇସ୍‌ପର୍ ମଞ୍ଚ୍‌ପୁର୍‌କେ ଅଃକେନ୍ ଆଲାଦ୍ ଡିଂକେ ଜେ ମେଁ ନିଜର୍ ମୁଇଂ ଆଃ ମାତର୍‌‌ ଉଙ୍ଗ୍‌ଡେକେ ଦାନ୍ ଡିଙ୍ଗ୍‌କେ ଡିରକମ୍ ଜାଣ୍ତେ ଡିଗ୍‌ ମେଁଅରିଆ ବିସ୍‌ବାସ୍ ଡିଙ୍ଗ୍‌ଏ ମେଁ ନସ୍ଟ ମାଡିଙ୍ଗ୍‌ଚେ ମାଡାନେ ପାରାନ୍ ବାଏ ।
+Holy-Bible---Gata---Gata-Didayi-Bible	GEN-003-024		
+Holy-Bible---Gata---Gata-Didayi-Bible	LUK-023-034	ଲୁକ୍‌ 23:34	ଜିସୁ ବାସଙ୍ଗ୍‌କେ “ଏ ମ୍ନାଃ ଆବା ଜାଣ୍ଡେ ରେମୁଆଁଇଂ ଆନେଙ୍ଗ୍ ବାଗୁଏ ଆର୍‌ଏ ଡିଙ୍ଗ୍‌କେ ଆମେଇଂକେ କେମା ଡିଗ୍ । ମାତ୍‍ରମ୍‍ ମେଇଂ ମେଁନେ ଡିଙ୍ଗ୍ଆର୍‌ଡିଙ୍କେ ଆତେନ୍‌ ମେଇଂ ଆମ୍ୟାକେ ଣ୍ଡୁ ।” ସନ୍ୟ‍ଇଙ୍ଗ୍ ଲେଟ୍‍ରିକ୍‍ ତ୍ଲାଗ୍‌ଚେ ଜିସୁନେ ସକା ବାଟା ଆର୍‌କେ ।
+Holy-Bible---Gata---Gata-Didayi-Bible	REV-021-002	ପ୍ରକାସିତ୍‌ 21:2-3	ବାରି ମୁଇଙ୍ଗ୍ ପବିତ୍ର ଇନି ତ୍ମି ଯିରୂଶାଲାମ୍ ସେଲା ବେସ୍‌ରେ ଆର୍ମେଚେ କିତଂବାନ୍ ଇସ୍‌ପର୍‌ନେ ଡାଗ୍ରାବାନ୍ ଦର୍‌ତନି ଆଡ଼ାତ୍ରା ଜାର୍‌ନେ ଙ୍କେକେ । ବାରି କିତଂ ସିଂଆସନବାନ୍ ମୁଇଙ୍ଗ୍ ସାମୁଆଁ ନ୍ନାଂକେ: “ଏକେ ଇସ୍‌ପର୍‌ନେ ବାସାନେ ରେମୁଆଁଇଂନେ ବିତ୍ରେ; ମେଁ ମେଁଇଂନେ ଏତେ ବାସାଏ ବାରି ମେଇଂ ମେଁନେ ନିଜର୍ ରେମୁଆଁ ଡିଂଆର୍‌ଏ । ଇସ୍‌ପର୍ ମେଁଇଂନେ ଏତେ ବାସାଏ ଆରି ମେଁଇଂନେ ଇସ୍‌ପର୍ ଡିଂଆର୍‌ଏ ।
+Holy-Bible---Gata---Gata-Didayi-Bible	HEB-011-008	ଏବ୍‌ରି 11:8	ଇସ୍‌ପର୍ ଅବ୍ରାହାମ୍‌କେ ମୁଡ଼ି ଦେସ୍ ବିଏ ଡାଗ୍‌ଚେ ସାମୁଆଁ ବିବଗେ ଆତେନ୍‌ ଦେସ୍‌ନ୍ତୁଗ୍ ୱେନେ ନ୍‌ସା ମେଁ ଉଡ଼ିବେଲା ଆମେକେ ୱାକେ ଅଃତେନ୍‌ ବେଲା ଅବ୍ରହାମ୍ ବିସ୍‌ବାସ୍‌ନିଆ ଇସ୍‌ପର୍‌ନେ ସାମୁଆଁ ପାଲନ୍ ଡିଂବଗେ । ମେଁ ଆଣ୍ଡି ୱେଡିଂକେ ଆତେନ୍‌ ମାମ୍ୟାଚେ ଡିଗ୍ ନିଜର୍ ଦେସ୍ ଆନ୍ତାର୍‌ବଗେ ।
+Holy-Bible---Gata---Gata-Didayi-Bible	EXO-013-017		
+Holy-Bible---Gata---Gata-Didayi-Bible	MAR-010-045	ମାର୍‌କ 10:45	ଡାଗ୍ଲା ମାପ୍‌ରୁ ଉଙ୍ଗ୍‌ଡେ ଡିଗ୍ ସେବା ବାନ୍‌ସା ପାଙ୍ଗ୍ ଆଲେଃକେ ଣ୍ଡୁ । ଆରି ସେବା ଡିଙ୍ଗ୍‌ନ୍‌ସା ଆରି ଗୁଲେ ରେମୁଆଁଇଂ ଆତ୍‌ଲା ଉଦାର୍ ଡିଂନେନ୍‌ସା ନିଜର୍‌ ପାରାନ୍ ବିଃନେ ପାଙ୍ଗ୍‌ଲେଃକେ ।”
+Holy-Bible---Gata---Gata-Didayi-Bible	ROM-001-001	ରମିୟ 1:1	ଜିସୁ କିସ୍‌ଟନେ ଦାସ ବାରି ଇସ୍‍ପର୍‍ବାନ୍‍ ପାଙ୍ଗ୍‍ଲେଃକ୍ନେ ନିମାଣ୍ଡା କବର୍ ବାସଙ୍ଗ୍‍ ଅଲେଙ୍ଗ୍‍ନେସା ପ୍ରେରିତ୍‌ ସିସ୍‍ ରକମ୍‍ ଡିଙ୍ଗ୍‍ଚେ ପାଙ୍ଗ୍‍ନ୍ଲେଃକ୍ନେ ପାଉଲ୍‍ ଉଲିଆ ।
+Holy-Bible---Gata---Gata-Didayi-Bible	MAT-028-019	ମାତିଉ 28:19	ସାପା ଦେସ୍‌ନେ ସାପା ବାସାନେ ରେମୁଆଁଇଂ ଡାଗ୍ରା ୱେଚେ ଆମେଇଂକେ ନେଙ୍ଗ୍‌ନେ ସିସ୍‍ ଆଡିଙ୍ଗ୍‌ପା । ଆବା ଉଙ୍ଗ୍‌ଡେ ଆରି ପବିତ୍ର ଆତ୍ମାନେ ମ୍ନିରେ ଆମେଇଂକେ ଦିକ୍ୟା ବିଃପା
 Holy-Bible---German---German-Albrecht	JOH-003-016	Johannes 3:16	Denn so sehr hat Gott die Welt geliebt, daß er seinen eingeborenen Sohn gegeben hat, damit jeder, der an ihn glaubt, nicht verlorengehe, sondern das ewige Leben habe.
 Holy-Bible---German---German-Albrecht	GEN-003-024		
 Holy-Bible---German---German-Albrecht	LUK-023-034	Lukas 23:34	Da sprach Jesus: "Vater, vergib ihnen; denn sie wissen nicht, was sie tun!" Dann verteilten sie seine Kleider unter sich, indem sie das Los darüber warfen.
@@ -1814,6 +1913,15 @@ Holy-Bible---Italian---Italian-Riveduta-Bible	EXO-013-017	Esodo 13:17	Or quando 
 Holy-Bible---Italian---Italian-Riveduta-Bible	MAR-010-045	Marco 10:45	Poiché anche il Figliuol dell’uomo non è venuto per esser servito, ma per servire, e per dar la vita sua come prezzo di riscatto per molti.
 Holy-Bible---Italian---Italian-Riveduta-Bible	ROM-001-001	Romani 1:1	Paolo, servo di Cristo Gesù, chiamato ad essere apostolo, appartato per l’Evangelo di Dio,
 Holy-Bible---Italian---Italian-Riveduta-Bible	MAT-028-019	Matteo 28:19	Andate dunque, ammaestrate tutti i popoli, battezzandoli nel nome del Padre e del Figliuolo e dello Spirito Santo,
+Holy-Bible---Janji---Janji-Bible	JOH-003-016	Uyuhana 3:16	Barki uhemme sa ugomo asere mawu uneh men madusa ma nya vana uinde ugino me, barki vat debe sama kaba me kati macorno me, idi cukono me madi kem venke uzatu umarsa.
+Holy-Bible---Janji---Janji-Bible	GEN-003-024		
+Holy-Bible---Janji---Janji-Bible	LUK-023-034	Uluka 23:34	Yeso ma gu “Acoo, vette ucara uwemen, barki sa wa taawe imume sa wazin unuwuza ba”. Wa acece tirunga tumeme in bizawazawa.
+Holy-Bible---Janji---Janji-Bible	REV-021-002	Revelation 21:2-3	In iri nipin nilau, urushalima uso, uge sa wa suri aseseri ahira Asere utu une kasi unee uso sa abrka me barki uruma ume. In kunna nimyiran nidandang ahira ukpanku me nigusa ira! ahira ati cukum ta Asere nigome nan anabu, madi cukuno nan we wadi cukuno anu ame, Asere madi cukuno nigome nan we ma kuri ma cukuno Asere awe.
+Holy-Bible---Janji---Janji-Bible	HEB-011-008	Uibraniyawa 11:8	Ahira uhem in kadure uni ibrahim, uganiya sa atiti me daki ma yeze nice ba madusa maha maka kaba imum be sa izi ime, madusa masuri daki marusi ahira sa ma hazin ba.
+Holy-Bible---Janji---Janji-Bible	EXO-013-017		
+Holy-Bible---Janji---Janji-Bible	MAR-010-045	Umarkus 10:45	Vana unu ma e uwuza ukatuma ka co me kani, da awuzi meni.
+Holy-Bible---Janji---Janji-Bible	ROM-001-001	Uromawa 1:1	A hira Bulus urere ukaba Asere vana umeme Yesu una kadura ka vana be Asere ma muru ma cukuno unu bezi tize ta Asere ahira an back de sa wa kaba me but ba.
+Holy-Bible---Janji---Janji-Bible	MAT-028-019	Umatiyu 28:19	. Hana ni anyimo uney ika nyara anu jabisa utize ta sere i zorsizo we a nyimo niza na coo ni vana nan bi be bi lau.
 Holy-Bible---Japanese---Japanese-Bungo-yaku	JOH-003-016	ヨハネの福音書 3:16	それ神はその獨子を賜ふほどに世を愛し給へり、すべて彼を信ずる者の亡びずして、永遠の生命を得んためなり。
 Holy-Bible---Japanese---Japanese-Bungo-yaku	GEN-003-024	創世記 3:24	斯神其人を逐出しエデンの園の東にケルビムと自から旋轉る焔の劍を置て生命の樹の途を保守りたまふ
 Holy-Bible---Japanese---Japanese-Bungo-yaku	LUK-023-034	ルカの福音書 23:34	かくてイエス言ひたまふ『父よ、彼らを赦し給へ、その爲す所を知らざればなり』彼らイエスの衣を分ちて鬮取にせり、
@@ -1868,6 +1976,15 @@ Holy-Bible---Japanese---New-Japanese-New-Testament	EXO-013-017
 Holy-Bible---Japanese---New-Japanese-New-Testament	MAR-010-045	マルコの福音書 10:45	人の子が来たのも、仕えられるためではなく、かえって仕えるためであり、また、多くの人のための、贖いの代価として、自分のいのちを与えるためなのです。」
 Holy-Bible---Japanese---New-Japanese-New-Testament	ROM-001-001	ローマ人への手紙 1:1	神の福音のために選び分けられ、使徒として召されたキリスト・イエスのしもべパウロ、
 Holy-Bible---Japanese---New-Japanese-New-Testament	MAT-028-019	マタイの福音書 28:19	それゆえ、あなたがたは行って、あらゆる国の人々を弟子としなさい。そして、父、子、聖霊の御名によってバプテスマを授け、
+Holy-Bible---Juray---Juray-Bible	JOH-003-016	ଜନ 3:16	ଇନିଆସନ୍‌ଗାମେଣ୍ଡେନ୍‌ ଇସ୍ୱରନ୍‌ ପୁର୍ତିନ୍‌ ଏତ୍ତେଲେ ଡୁଙ୍‌ୟମେନ୍‌ ଡ, ଆନିନ୍‌ ଆବୟଡମ୍‌ ଆ ଅନନ୍‌ ତିୟେନ୍‌, ଆନାଜନଙ୍‌ ଆମଙନ୍‌ ଡର୍ତନେ, ଆନିନ୍‌ ଅଃମ୍ମୋସ୍ସାଏ, ଆରି ଅଃନ୍ନଞିଡେନ୍‌ ଆନମେଙ୍‌ ଞାଙ୍‌ତେ ।
+Holy-Bible---Juray---Juray-Bible	GEN-003-024		
+Holy-Bible---Juray---Juray-Bible	LUK-023-034	ଲୁକ 23:34	ତିଆଡିଡ୍‌ ଜିସୁନ୍‌ ବର୍ରନେ, “ଏ ଆପେୟ୍‌, କେନ୍‌ଆନିଞ୍ଜିଆଡଙ୍‌ କେମାନ୍‌ ତିୟାଜି, ଇନିଆସନ୍‌ଗାମେଣ୍ଡେନ୍‌ କେନ୍‌ଆନିଞ୍ଜି ଇନି ଲୁମ୍‌ତଜି, ତିଆତେ ଅଃଜ୍ଜନାଏଜି ।” ଆରି ଆନିଞ୍ଜି ଜିସୁନ୍‌ ଆ ଅଙ୍ଗି ବନ୍ତାନେନ୍‌ ଆସନ୍‌ ଅବ୍‌କଡ଼ିଏଞ୍ଜି ।
+Holy-Bible---Juray---Juray-Bible	REV-021-002	ଅନବ୍‌ଜନାବର୍‌ 21:2-3	ଆରି ଅବୟ୍‌ ମଡ଼ିର୍‌ ଗଡ଼ାନ୍‌, ରଙ୍‌ ଜିରୁସାଲମନ୍‌, ବରନ୍‌ ଆସନ୍‌ ସଜ୍ଜଡାଲନ୍‌ କନ୍ୟାନ୍‌ ଅନ୍ତମ୍‌ ରୁଆଙନ୍‌ ସିଲଡ୍‌ ଇସ୍ୱରନ୍‌ ଆମଙ୍‌ ସିଲଡ୍‌ ପୁର୍ତିଲୋଙନ୍‌ ଆପ୍ରଡ୍‌ଲନାଞନ୍‌ ଞେନ୍‌ ଗିୟ୍‌ଲାୟ୍‌ । ଆରି କୁର୍ସିଲୋଙନ୍‌ ସିଲଡ୍‌ ଅବୟ୍‌ ସୋଡ଼ା ସର୍ରଙନ୍‌ ସଡ୍ଡାଏନ୍‌; “ଗିୟ୍‌ବା, ମନ୍‌ରାଞ୍ଜି ଆମଙ୍‌ ଇସ୍ୱରନ୍‌ ଆ ଡରକୋନେସିଂ ଡକୋ, ଆନିନ୍‌ ଆନିଞ୍ଜି ସରିନ୍‌ ଡକୋତନ୍‌, ଆରି ଆନିଞ୍ଜି ଆ ମନ୍‌ରାଡମଞ୍ଜି ଡେତଜି, ଇସ୍ୱରନ୍‌ ଆନିଞ୍ଜି ସରିନ୍‌ ଡକୋତନ୍‌, ଆରି ଆନିନ୍‌ ଆ ଇସ୍ୱରଞ୍ଜି ଡେତେ ।
+Holy-Bible---Juray---Juray-Bible	HEB-011-008	ଏବ୍ରି 11:8	ଇସ୍ୱରନ୍‌ ଅବ୍ରାମନ୍‌ଆଡଙ୍‌ ଅଙ୍ଗା ଡେସା ତିୟ୍‍ତମ୍‍ ଗାମ୍‌ଲେ ସିବ୍‍ଡେୟ୍‌ବର୍ରନେ ତି ଆ ଡେସା ଜନିରନ୍‌ ଆସନ୍‌ ଅଙ୍ଗାଆଡିଡ୍‌ ଆନିନ୍‌ଆଡଙ୍‌ ଓଡ୍ଡେଏନ୍‌, ତିଆଡିଡ୍‌ ଅବ୍ରାମନ୍‌ ଡର୍ରନ୍‌ ବାତ୍ତେ ଇସ୍ୱରନ୍‌ ଆ ବର୍ନେ ମାନ୍ନେଏନ୍‌ । ଆରି ଆନିନ୍‌ ଅଡ଼େଙ୍ଗା ଜିର୍ତେ, ତିଆତେ ଆନିନ୍‌ ଅଃଜ୍ଜନାଲୋ ଜନଙ୍‌ଡେନ୍‌, ଆନିନ୍‌ ଆ ଡେସାନ୍‌ ଅମ୍‌ରେଙ୍‌ଲେ ଜିରେନ୍‌ ।
+Holy-Bible---Juray---Juray-Bible	EXO-013-017		
+Holy-Bible---Juray---Juray-Bible	MAR-010-045	ମାର୍କ 10:45	ଇନିଆସନ୍‌ଗାମେଣ୍ଡେନ୍‌ ମନ୍‌ରା ଡାଙ୍ଗଡ଼ାଅନନ୍‌ ନିୟ୍‌ ଅନବ୍‌ସାକ୍କେନେବାନ୍‌ ଅଃନ୍ନିୟ୍‌ଲାୟ୍‌, ଆର୍ପାୟ୍‌ ସନାକ୍କେବାନ୍‌ ଆରି ଅଡ଼୍‌କୋ ମନ୍‌ରାଞ୍ଜିଆଡଙ୍‌ ତନାଣ୍ଡେବାନ୍‌ ଆ ପରାନ୍ନାନ୍‌ ତନିୟନ୍‌ ଆସନ୍‌ ଇୟ୍‌ଲାୟ୍‌ ।”
+Holy-Bible---Juray---Juray-Bible	ROM-001-001	ରୋମିଅ 1:1	ପାଓଲନ୍‌, ଜିସୁ କ୍ରିସ୍ଟନ୍‌ ଆ କାବ୍ବାଡ଼ାମର୍‌ ଆରି ଇସ୍ୱରନ୍‌ ଆ ମନଙ୍‌ବର୍‌ ଅନପ୍ପୁଙ୍‌ବରନ୍‌ ଆସନ୍‌ ଅନାପ୍ପାୟ୍‌ ଞଙ୍‌ନେମର୍‌ ଗାମ୍‌ଲେ ଅନୋଡ୍ଡେନ୍‌ ଡେଏନ୍‌ ।
+Holy-Bible---Juray---Juray-Bible	MAT-028-019	ମାତିଉ 28:19	ତିଆସନ୍‌ ଆମ୍ୱେଞ୍ଜି ଜିର୍ରେ ଅଡ଼୍‌କୋ ଜାତିନ୍‌ ଆ ମନ୍‌ରାଜିଆଡଙ୍‌ ଞଙ୍‌ନେମର୍‌ ଏମ୍ମେଡାଲେ ଆପେୟନ୍‌, ଡାଙ୍ଗଡ଼ାଅନନ୍‌ ଡ ମଡ଼ିର୍‌ ପୁରାଡ଼ାନ୍‌ ଆଞୁମ୍‌ଲୋଙ୍‌ ତବ୍ବୁବ୍‌ଡାନ୍‌ ଇୟ୍‌ ତିୟ୍‌ବାଜି ।
 Holy-Bible---Kamano---Kamano-Kafe	JOH-003-016	Joni 3:16	Anumzamo tusiza huno mopafi vaheku avesi nezmanteno, magoke ante'nea Ne'mofavre'a zami'ne. Agrite zamentinti hanamo'za fanane osu'za manivava zamasimu erigahaze.
 Holy-Bible---Kamano---Kamano-Kafe	GEN-003-024	Jenesis 3:24	Hagi Anumzamo'a ana ne'ma Ideni hozafinti ahenatigeno vutegeno'a, zage hanati kaziga hankavenentike ankerozamantege'za ana hoza kegava nehazageno, tevenefa tagivazu nehia bainati kazimo kagigagi nehige'za, ana manivava zafamofona kegava hu'naze.
 Holy-Bible---Kamano---Kamano-Kafe	LUK-023-034	Ruku 23:34	Hianagi Jisasi'a anage hu'ne, Nafanimoke, ontahine'za anara nehazanki, kumizmia atrezmanto. Anage nehige'za sondia vahe'mo'za zaza kena'a refko huza erinaku taisi zokogo re'naze. (Sam-Zga 22:18)
@@ -2201,6 +2318,24 @@ Holy-Bible---Myanmar---Myanmar-Burmese-Judson	EXO-013-017	ထွက်မြေ�
 Holy-Bible---Myanmar---Myanmar-Burmese-Judson	MAR-010-045	မာကု ၁၀:၄၅	အကြောင်းမူကား၊ လူသားသည် သူတပါးကို စေစားခြင်းငှါမလာ၊ သူတပါးအစေကို ခံခြင်းငှါ၎င်း၊ မိမိအသက်ကိုစွန့်၍ လူများကို ရွေးခြင်းငှါ၎င်း၊ ကြွလာသတည်းဟု မိန့်တော်မူ၏။
 Holy-Bible---Myanmar---Myanmar-Burmese-Judson	ROM-001-001	ရောမ ၁:၁	လူဇာတိအားဖြင်း ဒါဝိဒ်အမျိုးဖြစ်တော်မူ ထသော၊
 Holy-Bible---Myanmar---Myanmar-Burmese-Judson	MAT-028-019	မဿဲ ၂၈:၁၉	သင်တို့သွား၍ လူမျိုးတကာတို့ကို ငါ့တပည့် ဖြစ်စေလျက်၊ ခမည်းတော်၊ သားတော်၊ သန့်ရှင်းသော ဝိညာဉ်တော်၏နာမ၌ ဗတ္တိဇံကို ပေးကြလော့။
+Holy-Bible---Naga-Pidgin---Nagamese-Bible	JOH-003-016	John 3:16	Kelemane Isor duniya ke eneka morom korise, Tai nijor laga ekjon he thaka Putro ke di dise, tinehoile jun Taike biswas koribo, khotom nahobo, kintu anondo jibon pabo.
+Holy-Bible---Naga-Pidgin---Nagamese-Bible	GEN-003-024		
+Holy-Bible---Naga-Pidgin---Nagamese-Bible	LUK-023-034	Luke 23:34	Titia Jisu koise, “Baba, taikhan ke maph kori dibi, taikhan ki korise etu taikhan najane.” Pichete taikhan Jisu laga kapra to chithi kheli kene bhag korise.
+Holy-Bible---Naga-Pidgin---Nagamese-Bible	REV-021-002	Revelation 21:2-3	Aru moi pobitro sheher dikhise, notun Jerusalem Isor laga sorgo pora ahi thakise, ekjon shadi kora mahila tai laga mota ke taiyari kori kene lok pabole aha nisena. Aru titia moi dangor awaj singhason pora koi thaka hunise, “Sabi! Isor laga ghor to manu khan logote ase, aru Tai Nijor he taikhan logote thakibo. Taikhan he Tai laga manu hoi jabo, aru Isor Tai nijor bhi taikhan logote thakibo.
+Holy-Bible---Naga-Pidgin---Nagamese-Bible	HEB-011-008	Hebrews 11:8	Biswas pora Abraham, jitia Isor pora taike matise, kotha mani kene tai pabole thaka jagate jaise. Tai ulaikene jaise, kun jagate jabo lage etu bhi najani kene jaise.
+Holy-Bible---Naga-Pidgin---Nagamese-Bible	EXO-013-017		
+Holy-Bible---Naga-Pidgin---Nagamese-Bible	MAR-010-045	Mark 10:45	Kelemane Manu laga Putro bhi sewa lobole aha nohoi, kintu sewa kori bole aru bisi manu ke bacha bole nijor jibon dibole ahise.”
+Holy-Bible---Naga-Pidgin---Nagamese-Bible	ROM-001-001	Romans 1:1	Paul, Jisu Khrista laga ekjon noukar, Tai laga basi luwa manu hobole nimite mati luwa aru Tai laga susamachar koi dibole alag rakhi luwa,
+Holy-Bible---Naga-Pidgin---Nagamese-Bible	MAT-028-019	Matthew 28:19	Etu nimite jabi aru sob desh te Moi laga chela bonabi. Taikhan ke Baba, Putro aru Pobitro Atma laga naam pora baptizma dibi.
+Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible	JOH-003-016	Joon 3:16	Rangte ih mongrep ah erah than ih minchanha Hesah wasiit luulu ah thoonkota, tiimnge liidi o mina ih heh hanpi ah erah tatiika erah nang ebah lathoon roidong ah ba choh ah.
+Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible	GEN-003-024		
+Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible	LUK-023-034	Luk 23:34	Jisu ah jengta,” Ewah! Biin anaan et rum uh, tumeah neng ih tajatka neng tumjih reela rah ah.” Henyuh hekhat ah neng chamchi ni jongteh ah tooloom rum ano pheehaat rumta.
+Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible	REV-021-002	Revelation 21:2-3	Erah dam ih ngah ih Esa Samnuthung, Jerusalem ena ah khookham cho, Rangte jiin nawa rangmong nawa dat raaha rah japtuptang, jaalah choomraang ano heh miwah damdoh chomui suh kah arah likhiik ah. Luungwang tongtheng ni erong ih jeng arah root esiit jap chaattang: “Amadi Rangte nok ah mina damdi! Heh neng damdoh roongtong ah, eno neng ah heh mina ang rum ah. Rangte heh teeteewah neng damdoh ang ah, eno heh ah neng Rangte ang ah.
+Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible	HEB-011-008	Hebruute 11:8	Abraham ih Rangte jeng chaatta rah heh di tuungmaang eje ang thaang ih. Rangte ih Abraham suh marah heh suh kottheng angta erah hah adoh kaat suh baatta, heh hah ah thinhaat ano mani kalang ngeh uh lajat kaadi kata.
+Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible	EXO-013-017		
+Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible	MAR-010-045	Maak 10:45	Mina Sah ah botseh mih suh mootthuk suh tara taha; erah nang ih mih raangtaan ih moh suh ra taha nyia mina loong ah puipang suh heh roidong ah kota.”
+Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible	ROM-001-001	Roomte 1:1	Jisu Kristo laksuh Pool, Rangte ih heh Ruurang Ese ah tumbaat suh heh kaamwah ih danje ano poonta erah jiin nawa arah tiit ah.
+Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible	MAT-028-019	Mathiu 28:19	Erah ang abah, sen kah anno, noongrep nawa mina loong ah nga liphante ih hoon kah an: Heh Wah, Heh Sah, nyia Esa Chiiala mendoh, juungtem tem kah an,
 Holy-Bible---Ndebele---Accessible-Bible	JOH-003-016	UJohane 3:16	UNkulunkulu walithanda ilizwe kangaka waze wanikela iNdodana yakhe eyiyo yodwa ukuze kuthi loba ngubani okholwa kuyo angabhubhi, kodwa abe lokuphila okungapheliyo.
 Holy-Bible---Ndebele---Accessible-Bible	GEN-003-024	UGenesisi 3:24	Esemxotshile umuntu wamisa ngempumalanga kweSivande se-Edeni amakherubhi lenkemba ebhebhayo, iphazima isiyale lale ukulinda indlela eya esihlahleni sokuphila.
 Holy-Bible---Ndebele---Accessible-Bible	LUK-023-034	ULukha 23:34	UJesu wathi, “Baba, baxolele, ngoba kabakwazi abakwenzayo.” Njalo basebesabelana izigqoko zakhe ngokutshaya inkatho.
@@ -2228,6 +2363,15 @@ Holy-Bible---Ndengereko---Ndengereko-Bible	EXO-013-017
 Holy-Bible---Ndengereko---Ndengereko-Bible	MAR-010-045	Marko 10:45	Mwalo mwana wa Adamu aisi kwa kutunukiwa bali aisi kutumika, ni kuyaoiya maisha gake kwa faida ya bingi.”
 Holy-Bible---Ndengereko---Ndengereko-Bible	ROM-001-001	Arumi 1:1	Paulo Tarisi waYesu Kirisitu, ywakemilwe panga mtumishi ywa bagulilwe mwanja likewe lya Nnungu.
 Holy-Bible---Ndengereko---Ndengereko-Bible	MAT-028-019	Mathayo 28:19	Kwa eyo muyende mukabapange mataifa goti kuba anapunzi bango. mukaabatize kwa lina lya Tate, na lya mwana, na lya Roho mpeletau.
+Holy-Bible---Nend---Mark	JOH-003-016		
+Holy-Bible---Nend---Mark	GEN-003-024		
+Holy-Bible---Nend---Mark	LUK-023-034		
+Holy-Bible---Nend---Mark	REV-021-002		 
+Holy-Bible---Nend---Mark	HEB-011-008		
+Holy-Bible---Nend---Mark	EXO-013-017		
+Holy-Bible---Nend---Mark	MAR-010-045	Mak 10:45	Handɨv Wɨramɨnd Nor hambez mbɨ wɨram emŋgav ndɨn ntɨŋ hɨrawi ŋamŋgɨz are maim, nend amar. Mbɨ ndɨŋndɨv hɨrawi mbon mbɨkɨr kɨpɨr eŋgwe osa anchɨ han uŋkɨ eŋgwe ekwaŋg ŋɨmbɨŋɨn are air amar.
+Holy-Bible---Nend---Mark	ROM-001-001		
+Holy-Bible---Nend---Mark	MAT-028-019		
 Holy-Bible---Nepali---Nepali-Bible	JOH-003-016	यूहन्‍ना 3:16	किनभने परमेश्‍वरले संसारलाई यस्तो प्रेम गर्नुभयो, कि उहाँले आफ्ना एक मात्र पुत्र दिनुभयो, ताकि उहाँमा ‍विश्‍वास गर्ने कोही पनि नमरोस्, तर उसले अनन्त जीवन पाओस् ।
 Holy-Bible---Nepali---Nepali-Bible	GEN-003-024	उत्पत्ति 3:24	परमेश्‍वरले मानिसलाई बगैँचाबाट निकालिदिनुभएपछि जीवनको रुखतर्फको मार्गमा पहरा दिन उहाँले अदनको बगैँचाको पूर्वमा करूबहरू र चारैदिशातर्फ घुमिरहने ज्वालामय तरवार राखिदिनुभयो ।
 Holy-Bible---Nepali---Nepali-Bible	LUK-023-034	लुका 23:34	येशूले भन्‍नुभयो, “हे पिता, तिनीहरूलाई क्षमा गर्नुहोस्, किनभने तिनीहरूले के गर्दै छन् सो जान्दैनन् ।” र तिनीहरूले उहाँका वस्‍त्रहरू भाग गर्नलाई चिट्ठा हाले ।
@@ -2300,6 +2444,15 @@ Holy-Bible---Panjabi---Punjabi-Bible	EXO-013-017	ਕੂਚ ੧੩:੧੭	ਤਾ�
 Holy-Bible---Panjabi---Punjabi-Bible	MAR-010-045	ਮਰਕੁਸ ੧੦:੪੫	ਕਿਉਂਕਿ ਮਨੁੱਖ ਦਾ ਪੁੱਤਰ ਵੀ ਆਪਣੀ ਸੇਵਾ ਕਰਾਉਣ ਲਈ ਨਹੀਂ, ਸਗੋਂ ਸੇਵਾ ਕਰਨ ਲਈ ਆਇਆ ਹੈ, ਅਤੇ ਬਹੁਤਿਆਂ ਦੇ ਪ੍ਰਾਸਚਿੱਤ ਦਾ ਮੁੱਲ ਭਰਨ ਨੂੰ ਆਪਣੀ ਜਾਨ ਦੇਣ ਲਈ ਆਇਆ ਹੈ।
 Holy-Bible---Panjabi---Punjabi-Bible	ROM-001-001	ਰੋਮੀਆਂ ਨੂੰ ੧:੧	ਪੌਲੁਸ ਦੇ ਵਲੋਂ ਜੋ ਯਿਸੂ ਮਸੀਹ ਦਾ ਦਾਸ ਹੈ, ਜੋ ਰਸੂਲ ਬਣਨ ਲਈ ਸੱਦਿਆ ਗਿਆ ਅਤੇ ਪਰਮੇਸ਼ੁਰ ਦੀ ਖੁਸ਼ਖਬਰੀ ਦੇ ਲਈ ਅਲੱਗ ਕੀਤਾ ਗਿਆ।
 Holy-Bible---Panjabi---Punjabi-Bible	MAT-028-019	ਮੱਤੀ ੨੮:੧੯	ਇਸ ਲਈ ਤੁਸੀਂ ਜਾ ਕੇ ਸਾਰੀਆਂ ਕੌਮਾਂ ਨੂੰ ਚੇਲੇ ਬਣਾਓ ਅਤੇ ਉਨ੍ਹਾਂ ਨੂੰ ਪਿਤਾ ਅਤੇ ਪੁੱਤਰ ਅਤੇ ਪਵਿੱਤਰ ਆਤਮਾ ਦੇ ਨਾਮ ਵਿੱਚ ਬਪਤਿਸਮਾ ਦਿਓ।
+Holy-Bible---Pengo---Pengo-Bible	JOH-003-016	ଜହନ୍‌ 3:16	ଇନାକିଦେଂକି ଇସ୍ୱର୍‌ ପୁର୍ତିତିଂ ଏଚେକ୍‌ ଜିଉନତାନ୍‍ ଜେ, ହେୱାନ୍‌ ଜାର୍‌ ପାଣ୍‍ଆଁ ମାଜ଼ିଙ୍ଗ୍‌ ଦାନ୍‌ କିତାନ୍‌, ଇନେସ୍‌ ଇନେର୍‌କି ତା ତାକେ ପାର୍ତି କିତାର୍‌, ହେୱାନ୍‌ ନସ୍ଟ ଆୱାଦାଂ ୱିଜ଼୍‌ୱି ଜିବୁନ୍‌ ପାୟା ଆନାନ୍‌ ।
+Holy-Bible---Pengo---Pengo-Bible	GEN-003-024		
+Holy-Bible---Pengo---Pengo-Bible	LUK-023-034	ଲୁକ 23:34	ହେ ଏଚେକାଡ଼୍‌ଦ ଜିସୁ ଇଚାନ୍‌, “ଆବା, ଇୱାରିଂ କେମା କିୟା, ଇନାକିଦେଂକି ଇୱାର୍‌ ଇନାକା କିନାରା, ହେଦାଂ ପୁନୁରା ।” ଆରେ, ହେୱାର୍‌ ତା ହେନ୍ଦ୍ରା ସବୁ ବାଟା କିନି କାଜିଂ ଦରମ୍‌ଗୁଲି କିତାର୍‌ ।
+Holy-Bible---Pengo---Pengo-Bible	REV-021-002	ହତ୍‌ତି 21:2-3	ଆରେ ଆନେଙ୍ଗ୍‌ ପୁଇପୁୟା ଗାଡ଼୍‌ଦ, ଇଚିସ୍‌ ପୁନି ଜିରୁସାଲମ୍‌ତ ବିବାଦାଙ୍ଗ୍‌ଣେନ୍‌ କାଜିଂ ରଞ୍ଚି ଗାଡ଼୍‌ ଲାକେ ଜାଗ୍ରତ୍‌ ଆଜ଼ି ସାର୍ଗେତାଂ ଇସ୍ୱର୍ତି ଲାଗାଂତାଂ ପୁର୍ତିତ ଜୁଦ୍‌ନାକା ହୁଡ଼୍‌ତାଂ । ଆରେ ଆନେଙ୍ଗ୍‌ ଗାଦି ବିତ୍ରେତାଂ ର ଗାଜା ସବଦ୍‌ ଇଦାଂ ଇନାକା ୱେଚାଙ୍ଗ୍‌, ହୁଡ଼ାଟ୍‌, ମାନାୟାର୍‌ ବିତ୍ରେ ଇସ୍ୱର୍ତି ବାହାକିନାକା ମାନାତ୍‌, ହେୱାନ୍‌ ହେୱାର୍‌ ଲାହାଙ୍ଗ୍‌ ବାହାକିନାନ୍‌, ଆରେ ହେୱାର୍‌ ଇସ୍ୱର୍‌ ଲକୁ ଆନାର୍‌ ଆରେ ଇସ୍ୱର୍‌ ନିଜେ ହେୱାର୍‌ ଲାହାଂ ମାନ୍‌ଗାନାନ୍‌,
+Holy-Bible---Pengo---Pengo-Bible	HEB-011-008	ଏବ୍ରି 11:8	ପାର୍ତି ହୁଦାଂ ଅବ୍ରାହାମ୍‌ କୁକ୍ୟା ଆତିଲେ, ଇମ୍‌ଣି ଦେସ୍‌ ହେୱାନ୍‌ ଆଦିକାର୍‌ ଲାହାଂ ଗାଟା ଆଦେଂ ହାଲ୍‌ଜି ମାଚାନ୍‌, କାତା ମାନି କିଜ଼ି ହେବେଣ୍ଡାଂ ହତାନ୍, ଆରେ ହେୱାନ୍‌ ଇମେତାକେ ହାନାନା, ହେଦାଂ ପୁନ୍‌ୱାଦାଂ ପା ହସି ହାଚାନ୍‌ ।
+Holy-Bible---Pengo---Pengo-Bible	EXO-013-017		
+Holy-Bible---Pengo---Pengo-Bible	MAR-010-045	ମାର୍କ 10:45	ଇନେକିଦେଂକି ମାନାୟ୍‌ ମାଜ଼ି ପା ହେବା ପାୟା ଆଦେଂ ୱାୱାତାଂନା, ମତର୍‌ ହେବା କିଦେଙ୍ଗ୍‌ ଆରି ହେନି କାଜିଂ ମୁକ୍‌ଡ଼ାୟ୍‌ କିନି ମୁଲ୍‌ଲାକେ ଜିବୁନ୍‌ ହିଦେଂ ୱାତାନ୍‌ନା ।”
+Holy-Bible---Pengo---Pengo-Bible	ROM-001-001	ରମିୟ 1:1	ପାଉଲ୍‌, କ୍ରିସ୍ଟ ଜିସୁତି ଆଡ଼ିଏନ୍‌ ଆରି କୁକ୍ୟାତି ରୱାନ୍‌ ପକ୍ୟାତାକାନ୍‌, ଆରେ ଇସ୍ୱର୍‌ ଜାର୍‌ ମାଜ଼ି ମା ମାପ୍ରୁ କ୍ରିସ୍ଟତି ବିସ୍ରେ ଜାର୍‌ ଇମ୍‌ଣି ନେକ୍ରିକାବୁର୍‌ ଦରମ୍‌ ସାସ୍ତର୍‌ତ ଜାର୍‌ ବେଣ୍‌ବାକ୍‌ଣାୟ୍‌କିନାକାନ୍‌ ହୁକେ ଆଗେ ରାଣ୍‌ କିଜ଼ି ମାଚାନ୍‌, ହେ ନେକ୍ରିକାବୁର୍‌ କାଜିଂ ବିନେ ଆଜ଼ି ମାନି ପାଉଲ୍‌ତି ଆକି ।
+Holy-Bible---Pengo---Pengo-Bible	MAT-028-019	ମାତିଉ 28:19	ଲାଗିଂ, ଏପେଙ୍ଗ୍‌ ହାଲ୍‌ଜି ସବୁ ଜାତିନି ମାନାୟାରିଂ ବାୱା, ମାଜ଼ି, ଆରି ପୁଇପୁୟା ଜିବୁନ୍‍ ତର୍‌ଦାଂ ବାପ୍ତିସିମ୍‌ ହିୟାଟ୍‌,
 Holy-Bible---Persian---Old-Persion-Version-Bible	JOH-003-016	یوحنا ۳:۱۶	زیرا خدا جهان را اینقدر محبت نمود که پسر یگانه خود را داد تا هر‌که بر او ایمان آورد هلاک نگردد بلکه حیات جاودانی یابد.
 Holy-Bible---Persian---Old-Persion-Version-Bible	GEN-003-024	پیدایش ۳:۲۴	پس آدم را بیرون کرد و به طرف شرقی باغ عدن، کروبیان را مسکن داد و شمشیرآتشباری را که به هر سو گردش می‌کرد تا طریق درخت حیات را محافظت کند.
 Holy-Bible---Persian---Old-Persion-Version-Bible	LUK-023-034	لوقا ۲۳:۳۴	عیسی گفت: «ای پدر اینها را بیامرز، زیراکه نمی دانند چه می‌کنند.» پس جامه های او راتقسیم کردند و قرعه افکندند.
@@ -2417,6 +2570,15 @@ Holy-Bible---Portuguese---Portuguese-Trans-Trans	EXO-013-017
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	MAR-010-045	Marcos 10:45	Vocês devem fazer assim porque, apesar de ser eu aquele que veio do céu, não vim somente para ser servido dos outros; vim para servir os outros e deixar que eles me matassem, para que Deus possa livrar muitas pessoas ao invés de condená-las por causa dos seus pecados.
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	ROM-001-001	Romanos 1:1	[Eu ]Paulo que sirvo a Cristo Jesus [estou escrevendo esta carta. ]Deus me escolheu para apóstolo e me nomeou para que [eu proclamasse ]a boa mensagem que [vem dele. ]
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	MAT-028-019	Mateus 28:19	Portanto vão [e, usando essa autoridade, ensinem a minha mensagem] às pessoas de todas as etnias/grupos étnicos para que possam ser meus discípulos. Batizem elas [para estarem debaixo da autoridade do] meu Pai, de mim, o Filho dele, e do Espírito Santo.
+Holy-Bible---Portuguese---World-Portuguese-Bible	JOH-003-016	João 3:16	Pois Deus amou tanto o mundo, que deu seu único Filho nascido, para que todo aquele que nele crê não pereça, mas tenha a vida eterna.
+Holy-Bible---Portuguese---World-Portuguese-Bible	GEN-003-024	Gênesis 3:24	Então ele expulsou o homem; e colocou querubins ao leste do jardim do Éden, e uma espada flamejante que se virou para todos os lados, para guardar o caminho para a árvore da vida.
+Holy-Bible---Portuguese---World-Portuguese-Bible	LUK-023-034	Lucas 23:34	Jesus disse: “Pai, perdoa-lhes, pois eles não sabem o que estão fazendo”. Dividindo suas peças de vestuário entre eles, eles lançam à sorte.
+Holy-Bible---Portuguese---World-Portuguese-Bible	REV-021-002	Apocalipse 21:2-3	Vi a cidade santa, Nova Jerusalém, descendo do céu vindo de Deus, preparada como uma noiva adornada para seu marido. Ouvi uma voz alta do céu dizendo: “Eis que a morada de Deus está com as pessoas; e ele habitará com elas, e elas serão seu povo, e o próprio Deus estará com elas como seu Deus”.
+Holy-Bible---Portuguese---World-Portuguese-Bible	HEB-011-008	Hebreus 11:8	Pela fé Abraão, quando foi chamado, obedeceu para ir ao lugar que deveria receber em troca de uma herança. Saiu, sem saber para onde ia.
+Holy-Bible---Portuguese---World-Portuguese-Bible	EXO-013-017	Êxodo 13:17	Quando o Faraó deixou o povo ir, Deus não o conduziu pelo caminho da terra dos filisteus, embora isso estivesse próximo; pois Deus disse: “Para que o povo não mude de idéia quando vir a guerra, e volte ao Egito”;
+Holy-Bible---Portuguese---World-Portuguese-Bible	MAR-010-045	Marcos 10:45	Pois o Filho do Homem também não veio para ser servido, mas para servir, e para dar sua vida em resgate por muitos”.
+Holy-Bible---Portuguese---World-Portuguese-Bible	ROM-001-001	Romanos 1:1	Paulo, um servo de Jesus Cristo, chamado a ser apóstolo, separado para a Boa Nova de Deus,
+Holy-Bible---Portuguese---World-Portuguese-Bible	MAT-028-019	Mateus 28:19	Ide e fazei discípulos de todas as nações, batizando-os em nome do Pai e do Filho e do Espírito Santo,
 Holy-Bible---Romani---Eastern-Vlakh	JOH-003-016		
 Holy-Bible---Romani---Eastern-Vlakh	GEN-003-024		
 Holy-Bible---Romani---Eastern-Vlakh	LUK-023-034	Лукастар 23:34	Исусо пхэндя: — Дадэ! Эртисар лэн, онэ на жанэн, со терэн. Халавдэ шонас жребиё тай розлэнас машкар пэстэ йида Исусостири.
@@ -2453,6 +2615,15 @@ Holy-Bible---Romani-Vlax---Gurbet-Luke	EXO-013-017
 Holy-Bible---Romani-Vlax---Gurbet-Luke	MAR-010-045		
 Holy-Bible---Romani-Vlax---Gurbet-Luke	ROM-001-001		
 Holy-Bible---Romani-Vlax---Gurbet-Luke	MAT-028-019		
+Holy-Bible---Romani-Vlax---Lovaric-Bible	JOH-003-016		
+Holy-Bible---Romani-Vlax---Lovaric-Bible	GEN-003-024		
+Holy-Bible---Romani-Vlax---Lovaric-Bible	LUK-023-034		
+Holy-Bible---Romani-Vlax---Lovaric-Bible	REV-021-002		 
+Holy-Bible---Romani-Vlax---Lovaric-Bible	HEB-011-008		
+Holy-Bible---Romani-Vlax---Lovaric-Bible	EXO-013-017		
+Holy-Bible---Romani-Vlax---Lovaric-Bible	MAR-010-045		
+Holy-Bible---Romani-Vlax---Lovaric-Bible	ROM-001-001		
+Holy-Bible---Romani-Vlax---Lovaric-Bible	MAT-028-019		
 Holy-Bible---Romani-Vlax---Servi-Bible	JOH-003-016		
 Holy-Bible---Romani-Vlax---Servi-Bible	GEN-003-024		
 Holy-Bible---Romani-Vlax---Servi-Bible	LUK-023-034	Лукастар 23:34	Исусо пхэнэлас: — Дадэ! Эртисар лэн! Вонэ на джянэн, со терэн. Халавдэ чутэ жребии и розлиле Лэхкири їда.
@@ -2498,15 +2669,15 @@ Holy-Bible---Romanian---Ludari-Luke	EXO-013-017
 Holy-Bible---Romanian---Ludari-Luke	MAR-010-045		
 Holy-Bible---Romanian---Ludari-Luke	ROM-001-001		
 Holy-Bible---Romanian---Ludari-Luke	MAT-028-019		
-Holy-Bible---Rote-Dela---Rote-Dela-Bible	JOH-003-016	Yohanis 3:16	Huu Lamatualain sue-lai naseli' basa atahori sia raefafo' ia. Naeni de Ana denu Au, Ana isen ia, fo basa atahori mana ramahere neu Au nda saranggaa mia Lamatualain sa. No ta'o naa, ara hambu masod'a ndoo-tetu' nda etu ma nda basa sa.
-Holy-Bible---Rote-Dela---Rote-Dela-Bible	GEN-003-024	Dud'uit Fefeu' a 3:24	Lamatualain oi basa se ma, Ana denu ate malida Nara mia sorga, fo reu ranea osi seri' rulu. Ara to'u tafa' mana mbila ona' ai, de lalaes neu-nema. Lamatualain denu se ena dala' rala neu, huu Ana nda nau atahori ra reu etu hau boa' mana fee se rasod'a rakandoo.
-Holy-Bible---Rote-Dela---Rote-Dela-Bible	LUK-023-034	Lukas 23:34	[Lele' naa, Yesus hule-o'e nae, “Ama'! Fe ambon neu atahori ia ra sala nara, te ara nda rahine saa fo ara tao' ia sa.”] Basa ma, sold'ad'u ra lea lot fo rae rahine seka mana hambu Yesus b'adu narun.
-Holy-Bible---Rote-Dela---Rote-Dela-Bible	REV-021-002	Rae-fafo' Mata Feu' 21:2-3	Boe ma au ita Lamatualain kota meumaren, naeni Yerusalem feu' a, onda mia sorga. Kota naa ona' lemba-dode ina' fo soru saon. Basa de au rena hara' sa mia kadera parenda' a nae, “Mete malolole! Eni' ia naa, Lamatualain Umen sia atahori ra talad'an. Mia fai' ia, Lamatualain nasod'a na'ab'ue no atahori nara. Ana dad'i sira Lamatualain na. Ma ara dad'i Eni ana nara boe. Dei fo Ana no se nakandoo' a ma Ana na'ab'ue no se losa doo ndu'u-doon a.
-Holy-Bible---Rote-Dela---Rote-Dela-Bible	HEB-011-008	Ibrani 11:8	B'ai Abraham o namahere neu Lamatualain. Huu naa Lamatualain no'e e nae, “Abraham, e! Lao hela kambom fo muu sia mamana' fo dei fo utud'u neu nggo. Te rae naa dei fo dad'i tititi-nonosi mara pusakan.” Rena ta'o naa ma, ana tao tungga Lamatua' hihii-nanaun, mae ana nda nahine nita' nae bee neu sa boe.
+Holy-Bible---Rote-Dela---Rote-Dela-Bible	JOH-003-016	Yohanis 3:16	Huu Lamatualain sue-lai naseliꞌ basa atahori sia raefafoꞌ ia. Naeni de Ana denu Au, Ana isen ia, fo basa atahori mana ramahere neu Au nda saranggaa mia Lamatualain sa. No taꞌo naa, ara hambu masodꞌa ndoo-tetuꞌ nda etu ma nda basa sa.
+Holy-Bible---Rote-Dela---Rote-Dela-Bible	GEN-003-024	Dud'uit Fefeu' a 3:24	Lamatualain oi basa se ma, Ana denu ate malida Nara mia sorga, fo reu ranea osi seriꞌ rulu. Ara toꞌu tafaꞌ mana mbila onaꞌ ai, de lalaes neu-nema. Lamatualain denu se ena dalaꞌ rala neu, huu Ana nda nau atahori ra reu etu hau boaꞌ mana fee se rasodꞌa rakandoo.
+Holy-Bible---Rote-Dela---Rote-Dela-Bible	LUK-023-034	Lukas 23:34	[Leleꞌ naa, Yesus hule-oꞌe nae, “Amaꞌ! Fe ambon neu atahori ia ra sala nara, te ara nda rahine saa fo ara taoꞌ ia sa.”] Basa ma, soldꞌadꞌu ra lea lot fo rae rahine seka mana hambu Yesus bꞌadu narun.
+Holy-Bible---Rote-Dela---Rote-Dela-Bible	REV-021-002	Rae-fafo' Mata Feu' 21:2-3	Boe ma au ita Lamatualain kota meumaren, naeni Yerusalem feuꞌ a, onda mia sorga. Kota naa onaꞌ lemba-dode inaꞌ fo soru saon. Basa de au rena haraꞌ sa mia kadera parendaꞌ a nae, “Mete malolole! Eniꞌ ia naa, Lamatualain Umen sia atahori ra taladꞌan. Mia faiꞌ ia, Lamatualain nasodꞌa naꞌabꞌue no atahori nara. Ana dadꞌi sira Lamatualain na. Ma ara dadꞌi Eni ana nara boe. Dei fo Ana no se nakandooꞌ a ma Ana naꞌabꞌue no se losa doo nduꞌu-doon a.
+Holy-Bible---Rote-Dela---Rote-Dela-Bible	HEB-011-008	Ibrani 11:8	Bꞌai Abraham o namahere neu Lamatualain. Huu naa Lamatualain noꞌe e nae, “Abraham, e! Lao hela kambom fo muu sia mamanaꞌ fo dei fo utudꞌu neu nggo. Te rae naa dei fo dadꞌi tititi-nonosi mara pusakan.” Rena taꞌo naa ma, ana tao tungga Lamatuaꞌ hihii-nanaun, mae ana nda nahine nitaꞌ nae bee neu sa boe.
 Holy-Bible---Rote-Dela---Rote-Dela-Bible	EXO-013-017		
-Holy-Bible---Rote-Dela---Rote-Dela-Bible	MAR-010-045	Markus 10:45	Te Au ia, teb'e-teb'e Atahori Matetu' a. Au nda uma fo atahori tao mata' neu Au sa. Te Au uma fo tao mata' neu atahori nae'. Au uma fee masod'a ngga teme-teme fo mbo'i hendi atahori nae' mia sira sala nara.”
-Holy-Bible---Rote-Dela---Rote-Dela-Bible	ROM-001-001	Roma 1:1	Susura ia mia au, Paulus. Lamatualain no'e nala au fo dad'i Yesus Kristus ded'enun. Ana so'u au dad'i Yesus Kristus atahori ded'enun fo uu dui-b'engga Eni Hara-lii Malolen sud'i' sia bee-b'ee.
-Holy-Bible---Rote-Dela---Rote-Dela-Bible	MAT-028-019	Mateos 28:19	Dad'i hei mii sia bee-b'ee, na, hei musi dui-b'engga Au Dud'ui Malole ngga neu basa nusa' ra. Hei musi minori se malolole, naa fo ara dad'i Au ana ded'enu ngga. Ma musi sarani se fo dad'i tatanda' oi, ara ra'ab'ue reu esa ro Ama', ma Anan, boe ma Dula-dale Meumaren
+Holy-Bible---Rote-Dela---Rote-Dela-Bible	MAR-010-045	Markus 10:45	Te Au ia, tebꞌe-tebꞌe Atahori Matetuꞌ a. Au nda uma fo atahori tao mataꞌ neu Au sa. Te Au uma fo tao mataꞌ neu atahori naeꞌ. Au uma fee masodꞌa ngga teme-teme fo mboꞌi hendi atahori naeꞌ mia sira sala nara.”
+Holy-Bible---Rote-Dela---Rote-Dela-Bible	ROM-001-001	Roma 1:1	Susura ia mia au, Paulus. Lamatualain noꞌe nala au fo dadꞌi Yesus Kristus dedꞌenun. Ana soꞌu au dadꞌi Yesus Kristus atahori dedꞌenun fo uu dui-bꞌengga Eni Hara-lii Malolen sudꞌiꞌ sia bee-bꞌee.
+Holy-Bible---Rote-Dela---Rote-Dela-Bible	MAT-028-019	Mateos 28:19	Dadꞌi hei mii sia bee-bꞌee, na, hei musi dui-bꞌengga Au Dudꞌui Malole ngga neu basa nusaꞌ ra. Hei musi minori se malolole, naa fo ara dadꞌi Au ana dedꞌenu ngga. Ma musi sarani se fo dadꞌi tatandaꞌ oi, ara raꞌabꞌue reu esa ro Amaꞌ, ma Anan, boe ma Dula-dale Meumaren
 Holy-Bible---Russian---Russian-Synodal-Translation	JOH-003-016	От Иоанна 3:16	Ибо так возлюбил Бог мир, что отдал Сына Своего Единородного, дабы всякий, верующий в Него, не погиб, но имел жизнь вечную.
 Holy-Bible---Russian---Russian-Synodal-Translation	GEN-003-024	Бытие 3:24	И изгнал Адама, и поставил на востоке у сада Едемского Херувима и пламенный меч обращающийся, чтобы охранять путь к дереву жизни.
 Holy-Bible---Russian---Russian-Synodal-Translation	LUK-023-034	От Луки 23:34	Иисус же говорил: Отче! прости им, ибо не знают, что делают. И делили одежды Его, бросая жребий.
@@ -2525,6 +2696,15 @@ Holy-Bible---Safwa---Safwa-Bible	EXO-013-017
 Holy-Bible---Safwa---Safwa-Bible	MAR-010-045	Maluko 10:45	Wahuje Umwana wa Adamu hagaahiza atumishilwe bali atumishe nafume maisha gakwe abhvhe lisombo wa vhinji.”
 Holy-Bible---Safwa---Safwa-Bible	ROM-001-001	Walumi 1:1	O Paulo, otumwi owa Yesu Kilisiti, yakwiziwe abhe tumi, nabagulwe hu ndommbelelo ezya Ngolobhe.
 Holy-Bible---Safwa---Safwa-Bible	MAT-028-019	Mathayo 28:19	Eshi bhalaji mubhabheshe abha munsi wonti abhe bhanafunzi, wuoziaji hwitawa lya Daada nalya mwana nilya upepo ufijile.
+Holy-Bible---Sakachep---Sakachep-Bible	JOH-003-016	John 3:16	Pathien'n rammuol a lungkham tatak sikin a Nâipasal khât a pêka, masika han tukhom ama iem kai chu thi loia kumtuong ringna an dôn theina rangin.
+Holy-Bible---Sakachep---Sakachep-Bible	GEN-003-024		
+Holy-Bible---Sakachep---Sakachep-Bible	LUK-023-034	Luke 23:34	Jisua'n, “O Pa, ngâidam ngei roh, imo an tho an riet loi kêng,” a tia. Hanchu taruo sânin a puon an insema.
+Holy-Bible---Sakachep---Sakachep-Bible	REV-021-002	Chongphuong 21:2-3	Male Khopuilien Inthieng, Jerusalem thar hah, moiin a pasal don ranga ânthoka ân zoisai anghan Pathien kôm invân renga juong chum ku mu sa. Rêngsukmun renga rôl inringtakin ahong chongin ki rieta: “Atûn Pathien in chu munisingei lâia ajuong om zoi! Ama chu an kôm om a ta, male anni ngei hah a mingei nîng an tih. Pathien lelên an kôm om a ta, male ama hah an Pathien nîng atih.
+Holy-Bible---Sakachep---Sakachep-Bible	HEB-011-008	Hebrew 11:8	Taksônnân Abraham han, Pathien'n pêk ranga ram a khâm pe muna se rangin a koi lâihan Pathien chong jômin a sena rang luo riet loiin a ram mâkin a se ani.
+Holy-Bible---Sakachep---Sakachep-Bible	EXO-013-017		
+Holy-Bible---Sakachep---Sakachep-Bible	MAR-010-045	Mark 10:45	Miriem Nâipasal luo mana mîn a sin an tho pe rangin juong maka; mi sin tho pe rangin le mi tamtak ngei ratan ranga a ringna pêk rangin ke a juong ani” a tia.
+Holy-Bible---Sakachep---Sakachep-Bible	ROM-001-001	Rom 1:1	Paul renga, Jisua Khrista tîrlâm le tîrton ranga thang, Pathien'n a Thurchi Sa ngei misîr ranga koi.
+Holy-Bible---Sakachep---Sakachep-Bible	MAT-028-019	Matthew 28:19	Hanchu, muntina mingei murdi kôm se ungla, ku ruoisîn sin ngei ungla: Pa, Nâipasal le Ratha Inthieng rimingin Baptis ngei ungla,
 Holy-Bible---Sanskrit---Assamese-Script	JOH-003-016	যোহনঃ ৩:১৬	ঈশ্ৱৰ ইত্থং জগদদযত যৎ স্ৱমদ্ৱিতীযং তনযং প্ৰাদদাৎ ততো যঃ কশ্চিৎ তস্মিন্ ৱিশ্ৱসিষ্যতি সোঽৱিনাশ্যঃ সন্ অনন্তাযুঃ প্ৰাপ্স্যতি|
 Holy-Bible---Sanskrit---Assamese-Script	GEN-003-024		
 Holy-Bible---Sanskrit---Assamese-Script	LUK-023-034	লূকঃ ২৩:৩৪	তদা যীশুৰকথযৎ, হে পিতৰেতান্ ক্ষমস্ৱ যত এতে যৎ কৰ্ম্ম কুৰ্ৱ্ৱন্তি তন্ ন ৱিদুঃ; পশ্চাত্তে গুটিকাপাতং কৃৎৱা তস্য ৱস্ত্ৰাণি ৱিভজ্য জগৃহুঃ|
@@ -2804,6 +2984,15 @@ Holy-Bible---Slovene---Slovene-Stritarja-NT	EXO-013-017
 Holy-Bible---Slovene---Slovene-Stritarja-NT	MAR-010-045	Marko 10:45	Kajti tudi sin človečji ni prišel, da bi mu služili, nego da služi, in dá življenje svoje za odkup mnogim.
 Holy-Bible---Slovene---Slovene-Stritarja-NT	ROM-001-001	Rimljanom 1:1	Pavel služabnik Jezusa Kristusa, poklican apostelj, odločen za evangelj Božji,
 Holy-Bible---Slovene---Slovene-Stritarja-NT	MAT-028-019	Matej 28:19	Pojdite torej, in naučite vse narode, krsteč jih v ime očeta in sina in Duha svetega;
+Holy-Bible---Soli---Soli-Bible	JOH-003-016	Yohane 3:16	Kayi Lesa walabasunisha bantu pacishi capanshi, ecebo cakendi walayaba Mwanendi umo enka, kwambeti uliyense eti akamushome akacane buyumi butapu.
+Holy-Bible---Soli---Soli-Bible	GEN-003-024		
+Holy-Bible---Soli---Soli-Bible	LUK-023-034	Luka 23:34	Yesu walambeti, “Ta, kamubalekelela pakwinga nkabacinshi ncobalenshinga.” Lino balensa nsolo nekuyabana byakufwala byakendi.
+Holy-Bible---Soli---Soli-Bible	REV-021-002	Kuyubulula 21:2-3	Kayi ndalabona Munshi Uswepa Yelusalemu wa linolino kauseluka kwilu kuli Lesa, wabambwa cena mbuli nabwinga ncakute kufwala cena ayanga kukumana ne ibendi. Ndalanyumfwa liswi ku Cipuna ca Bwami lyalikompololeti, “Kamubonani lino ng'anda ya Lesa ili pakati pa bantu, nakekale nabo pamo. Nabo nibakekale nendi! Nibakabe bantu bakendi, nendi nakabe Lesa wabo.
+Holy-Bible---Soli---Soli-Bible	HEB-011-008	Bahebeli 11:8	Mu lushomo Abulahamu walanyumfwila Lesa pa cindi ncalamukuwa kushiya cishi ca comwabo kuya kucishi ncalamulaya kumupa. Walashiya cishi cakendi katakwinshi nkwalikuya.
+Holy-Bible---Soli---Soli-Bible	EXO-013-017		
+Holy-Bible---Soli---Soli-Bible	MAR-010-045	Maliko 10:45	Pakwinga nambi Mwana Muntu uliya kwisa kusebenselwa, nsombi kulipa mwine kuba musebenshi, ne kubenga buyumi bwakendi kwambeti alubule bantu bangi.”
+Holy-Bible---Soli---Soli-Bible	ROM-001-001	Baloma 1:1	Njame Paulo musebenshi wa Yesu Klistu. Lesa walankuweti mbe mutumwa, kayi ne kunsaleti nkakambauke Mulumbe wakendi Waina.
+Holy-Bible---Soli---Soli-Bible	MAT-028-019	Mateyo 28:19	Anu lino kamuyani kubantu bamishobo yonse, mwenga mubeyishe babe beshikwiya bakame. Mukababatishenga mu lina lya Bata ne mu lina lya Mwana, kayi ne lya Mushimu Uswepa.
 Holy-Bible---Somali---Somali-Bible	JOH-003-016	Yooxanaa 3:16	Ilaah intuu dunida jacayl u qabay ayuu siiyey Wiilkiisa keliya oo dhashay in mid kastoo isaga rumaystaa uusan lumin laakiinse uu lahaado nolosha weligeed ah.
 Holy-Bible---Somali---Somali-Bible	GEN-003-024	Bilowgii 3:24	Kolkaasuu ninkii eryay; Beer Ceeden barigeedana wuxuu taagay Keruubiim, iyo seef ololaysa, oo dhan walba u jeesanaysa, si ay u dhawrto jidka geedka nolosha.
 Holy-Bible---Somali---Somali-Bible	LUK-023-034	Luukos 23:34	Markaasaa Ciise wuxuu yidhi, Aabbow, iyaga cafi, waayo, garan maayaan waxay samaynayaan. Markaasay dharkiisii qaybsadeen, wayna saami riteen.
@@ -2948,15 +3137,6 @@ Holy-Bible---Swedish---Swedish-Bible-1917	EXO-013-017	2 Mosebok 13:17	När Farao
 Holy-Bible---Swedish---Swedish-Bible-1917	MAR-010-045	Markus 10:45	Också Människosonen har ju kommit, icke för att låta tjäna sig, utan för att tjäna och giva sitt liv till lösen för många.»
 Holy-Bible---Swedish---Swedish-Bible-1917	ROM-001-001	Romarbrevet 1:1	Paulus, Jesu Kristi tjänare, kallad till apostel, avskild till att förkunna Guds evangelium,
 Holy-Bible---Swedish---Swedish-Bible-1917	MAT-028-019	Matteus 28:19	Gån fördenskull ut och gören alla folk till lärjungar, döpande dem i Faderns och Sonens och den helige Andes namn,
-Holy-Bible---Tagalog---Tagalog-Bible	JOH-003-016	Juan 3:16	Sapagka't gayon na lamang ang pagsinta ng Dios sa sanglibutan, na ibinigay niya ang kaniyang bugtong na Anak, upang ang sinomang sa kaniya'y sumampalataya ay huwag mapahamak, kundi magkaroon ng buhay na walang hanggan.
-Holy-Bible---Tagalog---Tagalog-Bible	GEN-003-024	Genesis 3:24	Ano pa't itinaboy ang lalake; at inilagay sa silanganan ng halamanan ng Eden ang mga Querubin at ang isang nagniningas na tabak na umiikot, upang ingatan ang daang patungo sa kahoy ng buhay.
-Holy-Bible---Tagalog---Tagalog-Bible	LUK-023-034	Lucas 23:34	At sinabi ni Jesus, Ama, patawarin mo sila; sapagka't hindi nila nalalaman ang kanilang ginagawa. At sa pagbabahabahagi nila ng kaniyang mga suot ay kanilang pinagsapalaranan.
-Holy-Bible---Tagalog---Tagalog-Bible	REV-021-002	Pahayag 21:2-3	At nakita ko ang bayang banal, ang bagong Jerusalem, na nananaog mula sa langit buhat sa Dios, na nahahandang gaya ng isang babaing kasintahan na nagagayakang talaga sa kaniyang asawa. At narinig ko ang isang malakas na tinig na mula sa luklukan, na nagsasabi, Narito, ang tabernakulo ng Dios ay nasa mga tao, at siya'y mananahan sa kanila, at sila'y magiging mga bayan niya, at ang Dios din ay sasa kanila, at magiging Dios nila:
-Holy-Bible---Tagalog---Tagalog-Bible	HEB-011-008	Mga Hebreo 11:8	Sa pananampalataya si Abraham, nang tawagin, ay tumalima upang pumaroon sa isang dakong kaniyang tatanggaping mana; at siya'y yumaon na di nalalaman kung saan siya paroroon.
-Holy-Bible---Tagalog---Tagalog-Bible	EXO-013-017	Exodo 13:17	At nangyari, nang tulutan ni Faraon na ang bayan ay yumaon, na hindi sila pinatnubayan ng Dios sa daang patungo sa lupain ng mga Filisteo, bagaman malapit; sapagka't sinabi ng Dios, Baka sakaling ang bayan ay magsisi pagkakita ng pagbabaka, at magsipagbalik sa Egipto:
-Holy-Bible---Tagalog---Tagalog-Bible	MAR-010-045	Marcos 10:45	Sapagka't ang Anak ng tao rin naman ay hindi naparito upang paglingkuran, kundi upang maglingkod, at ibigay ang kaniyang buhay na pangtubos sa marami.
-Holy-Bible---Tagalog---Tagalog-Bible	ROM-001-001	Mga Roma 1:1	Si Pablo na alipin ni Jesucristo, na tinawag na maging apostol, ibinukod sa evangelio ng Dios,
-Holy-Bible---Tagalog---Tagalog-Bible	MAT-028-019	Mateo 28:19	Dahil dito magsiyaon nga kayo, at gawin ninyong mga alagad ang lahat ng mga bansa, na sila'y inyong bautismuhan sa pangalan ng Ama at ng Anak at ng Espiritu Santo:
 Holy-Bible---Tagalog---Tagalog-Bible-1905	JOH-003-016	Juan 3:16	Sapagka't gayon na lamang ang pagsinta ng Dios sa sanglibutan, na ibinigay niya ang kaniyang bugtong na Anak, upang ang sinomang sa kaniya'y sumampalataya ay huwag mapahamak, kundi magkaroon ng buhay na walang hanggan.
 Holy-Bible---Tagalog---Tagalog-Bible-1905	GEN-003-024	Genesis 3:24	Ano pa't itinaboy ang lalake; at inilagay sa silanganan ng halamanan ng Eden ang mga Querubin at ang isang nagniningas na tabak na umiikot, upang ingatan ang daang patungo sa kahoy ng buhay.
 Holy-Bible---Tagalog---Tagalog-Bible-1905	LUK-023-034	Lucas 23:34	At sinabi ni Jesus, Ama, patawarin mo sila; sapagka't hindi nila nalalaman ang kanilang ginagawa. At sa pagbabahabahagi nila ng kaniyang mga suot ay kanilang pinagsapalaranan.
@@ -2975,6 +3155,15 @@ Holy-Bible---Tagalog---Tagalog-Bible-Unlocked	EXO-013-017	Exodo 13:17	Nang pinay
 Holy-Bible---Tagalog---Tagalog-Bible-Unlocked	MAR-010-045	Marcos 10:45	Sapagkat hindi dumating ang Anak ng Tao upang paglingkuran, ngunit upang maglingkod at upang ibigay ang kaniyang buhay bilang katubusan ng lahat.”
 Holy-Bible---Tagalog---Tagalog-Bible-Unlocked	ROM-001-001	Mga Roma 1:1	Ako si Pablo, na isang lingkod ni Jesu-Cristo, tinawag upang maging apostol, at inilaan para sa ebanghelyo ng Diyos.
 Holy-Bible---Tagalog---Tagalog-Bible-Unlocked	MAT-028-019	Mateo 28:19	Humayo kayo at gawing mga alagad ang lahat ng mga bansa. Bautismuhan sila sa ngalan ng Ama, ng Anak, at ng Banal na Espiritu.
+Holy-Bible---Tagin---Tagin-First-Bible	JOH-003-016	Jon 3:16	Pwknvyarnv nyiamooku a achialvbv pakla ninyigv Kuunyilo akin mvngchik a jitoku, vkvlvgabv yvvdw ninyia mvngjwng rinv v simare vbvritola turbwngnv singnam a paare.
+Holy-Bible---Tagin---Tagin-First-Bible	GEN-003-024		
+Holy-Bible---Tagin---Tagin-First-Bible	LUK-023-034	Luk 23:34	Jisu minto, “Abu! bunugv rimur a mvngnga laka, bunu chima bunu ogugo ridudw.” Bunu ninyigv vji a amin chinkala baakminsuto
+Holy-Bible---Tagin---Tagin-First-Bible	REV-021-002	Nyikrwkaatamnam 21:2-3	Okv Darwknv Pamtv vv, anwnv Jerusalem ngv, Pwknvyarnv gv nyidomooku lokv, nyimv nyamnv gv, gvkigvak tvla okv ninyigv nyilu nga kaarwk sitvnam aingbv anwnv Jerusalem ngvka mvpvripv tvkula ninyia, idubv ngo kaato. Ngo dvbvdotumnvnv tolo gvngv gaam adu dutv rungnv go vbv mindung dubv tvvpato: “Vjak Pwknvyarnv gv naamnasung ngv nyi vdwgv lvkobv dooduku! Ninyi bunua lvkobv dooming gvriku, okv bunu vdwv ninyigv nyi bv rireku. Pwknvyarnv nw awv bunua lvkobv dooreku, okv Nw bunugv Pwknvyarnv bv rireku.
+Holy-Bible---Tagin---Tagin-First-Bible	HEB-011-008	Hebru 11:8	Mvngjwng lokv Abraham Pwknvyarnv gv ninyia diringmooku jinvpv vla milv kunam diringmooku lo vnglin yikv vla kanamla minam ha tvvtoku. Nw ogolo vngtv dunvdw um chimatola atubogv diringmooku nga vngyula vngtoku.
+Holy-Bible---Tagin---Tagin-First-Bible	EXO-013-017		
+Holy-Bible---Tagin---Tagin-First-Bible	MAR-010-045	Mark 10:45	Nyia kuunyilo jesing ngv rijikodubv aama; Nw rijitebv aato okv ninyigv singtung nga mvngnga yala achialv nyi go ringlin dukubv.”
+Holy-Bible---Tagin---Tagin-First-Bible	ROM-001-001	Roman 1:1	Paul lokv, apostol akobv gaknam Kristo Jisu gv pakbu akobv rinv okv alvnv yunying minggo kardubv Pwknvyarnv gv goklin kunamv.
+Holy-Bible---Tagin---Tagin-First-Bible	MAT-028-019	Metiu 28:19	Vbvrikunamv, nyi vdw mvnwng gvlo vngnyika okv bunua ngoogv lvbwlaksubv mvteritekuka: bunua Abu gvla, Kuunyilo gvla, okv Darwknv Dow gv amin bv baptisma jilaka,
 Holy-Bible---Tamil---Open-Contemporary	JOH-003-016	யோவான் 3:16	இறைவன் தமது ஒரே மகனை ஒப்புக்கொடுத்து அவரில் விசுவாசிக்கிற ஒருவரும் அழிந்து போகாமல் நித்திய ஜீவனைப் பெறும்படி இவ்வளவாய் உலகத்தினரை அன்புகூர்ந்தார்.
 Holy-Bible---Tamil---Open-Contemporary	GEN-003-024	ஆதியாகமம் 3:24	அவர் மனிதனை வெளியே துரத்திவிட்டபின், ஏதேன் தோட்டத்தின் கிழக்குப் பக்கமாக கேருபீன்களையும், சுற்றிச் சுழலும் சுடரொளி வாளையும் வாழ்வளிக்கும் மரத்திற்குப் போகும் வழியைக் காவல் காக்கும்படி வைத்தார்.
 Holy-Bible---Tamil---Open-Contemporary	LUK-023-034	லூக்கா 23:34	அப்பொழுது இயேசு, “பிதாவே, இவர்களை மன்னியும், தாங்கள் செய்வது இன்னதென்று அறியாதிருக்கிறார்களே” என்றார். படைவீரர்கள் சீட்டுப்போட்டு அவருடைய உடைகளைப் பங்கிட்டுக்கொண்டார்கள்.
@@ -3029,15 +3218,6 @@ Holy-Bible---Twi---Akuapem-Twi-Bible	EXO-013-017	2 Mose 13:17	Farao maa nnipa no
 Holy-Bible---Twi---Akuapem-Twi-Bible	MAR-010-045	Marko 10:45	Onipa Ba no amma sɛ wɔnsom no, na mmom ɔbɛsomee, na ɔde ne kra too hɔ sɛ mpata maa nnipa nyinaa.”
 Holy-Bible---Twi---Akuapem-Twi-Bible	ROM-001-001	Romafo 1:1	Saa nhoma yi fi me, Paulo, Yesu Kristo somfo a wɔayi me sɛ ɔsɛnkafo a wɔasoma me sɛ menkɔka Onyankopɔn asɛmpa no nkyɛn.
 Holy-Bible---Twi---Akuapem-Twi-Bible	MAT-028-019	Mateo 28:19	Enti monkɔ nkɔyɛ amanaman nyinaa mʼasuafo. Mommɔ wɔn asu nhyɛ Agya, Ɔba ne Honhom Kronkron din mu,
-Holy-Bible---Twi---Asante-Twi-WAKNA	JOH-003-016	Yohane 3:16	“Na sɛnea Onyankopɔn dɔɔ wiase ni, sɛ ɔde ne Ba a ɔwoo no koro no mae, na obiara a ogye no di no nyera na wanya nkwa a enni awiei.
-Holy-Bible---Twi---Asante-Twi-WAKNA	GEN-003-024	1 Mose 3:24	Ɔpam onipa no, ɔde Kerubim ne afoa a ɛdɛw twaa ne ho fa baabiara no sii Eden turo no apuei fam sɛ ɛnwɛn ɔkwan a ɛkɔ nkwa dua no ho no.
-Holy-Bible---Twi---Asante-Twi-WAKNA	LUK-023-034	Luka 23:34	Yesu kae se, “Agya, fa kyɛ wɔn, efisɛ wonnim nea wɔreyɛ.” Asraafo no kyekyɛɛ ne ntade mu bɔɔ so ntonto fae.
-Holy-Bible---Twi---Asante-Twi-WAKNA	REV-021-002	Adiyisɛm 21:2-3	Na mihuu Kurow Kronkron a ɛyɛ Yerusalem foforo sɛ efi Onyankopɔn hɔ wɔ ɔsoro reba fam, a wasiesie ne ho te sɛ ayeforo a ɔrekohyia ne kunu. Metee nne dennen bi fi ahengua no so se, “Afei, Onyankopɔn atenae wɔ nnipa mu. Ɔne wɔn bɛtena na wɔayɛ ne nkurɔfo. Onyankopɔn no ankasa ne wɔn bɛtena na wayɛ wɔn Nyankopɔn.
-Holy-Bible---Twi---Asante-Twi-WAKNA	HEB-011-008	Hebrifo 11:8	Gyidi nti na bere a Onyankopɔn ka kyerɛɛ Abraham se ɔnkɔ asase a wahyɛ ho bɔ sɛ ɔde bɛma no no so no, otiei na ɔkɔe. Ogyaw ne man hɔ kɔe a na onnim faako a ɔrekɔ.
-Holy-Bible---Twi---Asante-Twi-WAKNA	EXO-013-017	2 Mose 13:17	Farao maa nnipa no kwan sɛ wɔnkɔ no, Onyankopɔn amma wɔamfa ɔkwan a ɛfa Filistifo man no mu a na ɛyɛ tiaa no so. Efisɛ Onyankopɔn kae se, “Sɛ wokohyia ɔko a, ebia na wɔasesa wɔn adwene ama wɔasan akɔ Misraim.”
-Holy-Bible---Twi---Asante-Twi-WAKNA	MAR-010-045	Marko 10:45	Onipa Ba no amma sɛ wɔnsom no, na mmom ɔbɛsomee, na ɔde ne kra too hɔ sɛ mpata maa nnipa nyinaa.”
-Holy-Bible---Twi---Asante-Twi-WAKNA	ROM-001-001	Romafo 1:1	Saa nhoma yi fi me, Paulo, Yesu Kristo somfo a wɔayi me sɛ ɔsɛnkafo a wɔasoma me sɛ menkɔka Onyankopɔn asɛmpa no nkyɛn.
-Holy-Bible---Twi---Asante-Twi-WAKNA	MAT-028-019	Mateo 28:19	Enti monkɔ nkɔyɛ amanaman nyinaa mʼasuafo. Mommɔ wɔn asu nhyɛ Agya, Ɔba ne Honhom Kronkron din mu,
 Holy-Bible---Twi---Asante-Twi-WASNA	JOH-003-016	Yohane 3:16	“Na sɛdeɛ Onyankopɔn dɔɔ ewiase nie; sɛ ɔde ne Ba a ɔwoo no korɔ no maeɛ, na obiara a ɔgye no di no anyera, na mmom wanya nkwa a ɛnni awieeɛ.
 Holy-Bible---Twi---Asante-Twi-WASNA	GEN-003-024	1 Mose 3:24	Ɔpamoo onipa no. Na Eden turo no apueeɛ fam hɔ no, ɔde Kerubim ne afena a ɛredɛre twa ne ho fa baabiara no sii hɔ sɛ, ɛnwɛn ɛkwan a ɛkɔ nkwa dua no ho.
 Holy-Bible---Twi---Asante-Twi-WASNA	LUK-023-034	Luka 23:34	Yesu kaa sɛ, “Agya, fa kyɛ wɔn, ɛfiri sɛ, wɔnnim deɛ wɔreyɛ.” Afei, asraafoɔ no kyekyɛɛ ne ntadeɛ mu bɔɔ so ntonto faeɛ.
@@ -3047,15 +3227,6 @@ Holy-Bible---Twi---Asante-Twi-WASNA	EXO-013-017	2 Mose 13:17	Akyire no, Farao ma
 Holy-Bible---Twi---Asante-Twi-WASNA	MAR-010-045	Marko 10:45	Me a meyɛ Onipa Ba no, mamma sɛ wɔnsom me na mmom, mebaeɛ sɛ merebɛboa afoforɔ, na mede me kra ayɛ mpata ama nnipa pii.”
 Holy-Bible---Twi---Asante-Twi-WASNA	ROM-001-001	Romafoɔ 1:1	Nnwoma yi firi me, Paulo, Yesu Kristo ɔsomfoɔ a wɔayi me sɛ ɔsɛnkafoɔ a wɔasoma me sɛ menkɔka Onyankopɔn asɛmpa no nkyɛn.
 Holy-Bible---Twi---Asante-Twi-WASNA	MAT-028-019	Mateo 28:19	Enti, monkɔ nkɔyɛ amanaman nyinaa mʼasuafoɔ. Mommɔ wɔn asu nhyɛ Agya, Ɔba ne Honhom Kronkron din mu,
-Holy-Bible---Ukrainian---Kulish	JOH-003-016	Від Івана 3:16	Так бо полюбив Бог сьвіт, що Сина свого єдинородного дав, щоб кожен, віруючий в Него, не погиб, а мав життє вічне.
-Holy-Bible---Ukrainian---Kulish	GEN-003-024		
-Holy-Bible---Ukrainian---Kulish	LUK-023-034	Від Луки 23:34	Ісус же рече: Отче, відпусти їм; не знають бо, що роблять.
-Holy-Bible---Ukrainian---Kulish	REV-021-002	Об'явлення 21:2-3	А я Йоан бачив город той сьвятий, новий Єрусалим, що сходив від Бога з неба, приготований, як невіста украшена чоловікові своєму. І чув я голос великий з неба, що глаголав: Ось, оселя Божа з людьми, і, дому вати ме з ними; а вони будуть Його люде, і сам Бог буде з ними, Бог їх.
-Holy-Bible---Ukrainian---Kulish	HEB-011-008	До євреїв 11:8	Вірою, покликаний Авраам, послухав, щоб вийти на те місце, котре мав прийняти в наслїддє, і вийшов, не знаючи, куди йде.
-Holy-Bible---Ukrainian---Kulish	EXO-013-017		
-Holy-Bible---Ukrainian---Kulish	MAR-010-045	Від Марка 10:45	Бо й Син чоловічий не прийшов, щоб служено Йому, а служити й дати душу свою викуп за многих.
-Holy-Bible---Ukrainian---Kulish	ROM-001-001	До римлян 1:1	Павел, слуга Ісуса Христа, покликаний апостол, вибраний на благовістуваннє Боже,
-Holy-Bible---Ukrainian---Kulish	MAT-028-019	Від Матвія 28:19	Ійдїть же навчайте всї народи, хрестячи їх в імя Отця, і Сина, й сьвятого Духа,
 Holy-Bible---Ukrainian---New-Translation	JOH-003-016	Від Івана 3:16	Бо так полюбив Бог світ, що віддав Свого Єдинородного Сина, щоб кожний, хто вірує в Нього, не загинув, але мав життя вічне.
 Holy-Bible---Ukrainian---New-Translation	GEN-003-024		
 Holy-Bible---Ukrainian---New-Translation	LUK-023-034	Від Луки 23:34	Ісус же казав: «Отче, прости їм, бо не знають, що чинять!» Коли ж ділили Його одяг між собою, то кидали жереб.

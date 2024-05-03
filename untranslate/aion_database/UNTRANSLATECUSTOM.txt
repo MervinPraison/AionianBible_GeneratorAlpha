@@ -24,23 +24,53 @@ Holy-Bible---Azerbaijani---Azerbaijani-Bible	042	LUK	001	055	SKIP			NULL
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	044	ACT	015	017	AIONS	g165		NULL
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	044	ACT	015	018	SKIP			NULL
 Holy-Bible---Azerbaijani---Azerbaijani-Bible								NULL
+Holy-Bible---Bangwinji---Bangwinji-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Bangwinji---Bangwinji-Bible								NULL
 Holy-Bible---Bareli-Palya---Palya-Bareli-Bible								NULL
 Holy-Bible---Basque---Basque-NT	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Basque---Basque-NT								NULL
+Holy-Bible---Beami---Bedamuni-Bible	001	GEN	044	030	SHEOL	h7585		NULL
+Holy-Bible---Beami---Bedamuni-Bible	001	GEN	044	031	SKIP			NULL
+Holy-Bible---Beami---Bedamuni-Bible	018	JOB	007	009	SKIP			NULL
+Holy-Bible---Beami---Bedamuni-Bible	018	JOB	007	010	SHEOL	h7585		NULL
+Holy-Bible---Beami---Bedamuni-Bible	058	HEB	006	001	AIONIAN	g166		NULL
+Holy-Bible---Beami---Bedamuni-Bible	058	HEB	006	002	SKIP			NULL
+Holy-Bible---Beami---Bedamuni-Bible	058	HEB	013	020	AIONS,AIONIAN	g165,g166		NULL
+Holy-Bible---Beami---Bedamuni-Bible	058	HEB	013	021	SKIP			NULL
+Holy-Bible---Beami---Bedamuni-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Beami---Bedamuni-Bible								NULL
 Holy-Bible---Beaver---Beaver-Mark	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Beaver---Beaver-Mark								NULL
 Holy-Bible---Bengali---Bengali-Bible								NULL
 Holy-Bible---Bengali---Contemporary								NULL
 Holy-Bible---Bhadrawahi---Bhadrawahi-Bible								NULL
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	049	EPH	006	011	AIONS	g165		NULL
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	049	EPH	006	012	SKIP			NULL
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	058	HEB	009	025	AIONS	g165		NULL
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	058	HEB	009	026	SKIP			NULL
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	058	HEB	013	020	AIONS,AIONIAN	g165,g166		NULL
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	058	HEB	013	021	SKIP			NULL
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	065	JUD	001	024	AIONS	g165		NULL
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	065	JUD	001	025	SKIP			NULL
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	066	REV	001	005	AIONS	g165		NULL
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	066	REV	001	006	SKIP			NULL
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	066	REV	015	006	AIONS	g165		NULL
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	066	REV	015	007	SKIP			NULL
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	066	REV	020	002	ABYSS	g12		NULL
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	066	REV	020	003	SKIP			NULL
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	066	REV	020	012	HADES	g86		NULL
+Holy-Bible---Bhattiyali---Bhattiyali-Bible	066	REV	020	013	SKIP			NULL
 Holy-Bible---Bhattiyali---Bhattiyali-Bible								NULL
 Holy-Bible---Blackfoot---Matthew								NULL
 Holy-Bible---Bodo-Parja---BOPO-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Bodo-Parja---BOPO-Bible								NULL
+Holy-Bible---Borna---Borna-Latin-Bible	042	LUK	001	054	AIONS	g165		NULL
+Holy-Bible---Borna---Borna-Latin-Bible	042	LUK	001	055	SKIP			NULL
+Holy-Bible---Borna---Borna-Latin-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Borna---Borna-Latin-Bible								NULL
 Holy-Bible---Breton---Breton-Gospels	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Breton---Breton-Gospels								NULL
+Holy-Bible---Bu---Bu-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Bu---Bu-Bible								NULL
 Holy-Bible---Bulgarian---Bulgarian-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Bulgarian---Bulgarian-Bible								NULL
@@ -53,6 +83,11 @@ Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms								NULL
 Holy-Bible---Cherokee---Cherokee-New-Testament	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Cherokee---Cherokee-New-Testament								NULL
 Holy-Bible---Chichewa---Chichewa-Bible								NULL
+Holy-Bible---Chin-Daai---Daai-Chin-Bible	051	COL	001	025	AIONS	g165		NULL
+Holy-Bible---Chin-Daai---Daai-Chin-Bible	051	COL	001	026	SKIP			NULL
+Holy-Bible---Chin-Daai---Daai-Chin-Bible	058	HEB	013	020	AIONS,AIONIAN	g165,g166		NULL
+Holy-Bible---Chin-Daai---Daai-Chin-Bible	058	HEB	013	021	SKIP			NULL
+Holy-Bible---Chin-Daai---Daai-Chin-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Chin-Daai---Daai-Chin-Bible								NULL
 Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible								NULL
@@ -65,6 +100,7 @@ Holy-Bible---Chinese---Chinese-Sigao-Bible								NULL
 Holy-Bible---Chinese---Chinese-Union-Version-Simplified								NULL
 Holy-Bible---Chinese---Chinese-Union-Version-Traditional	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Chinese---Chinese-Union-Version-Traditional								NULL
+Holy-Bible---Chin-Matu---Matupi-Chin-2019	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Chin-Matu---Matupi-Chin-2019								NULL
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible								NULL
@@ -74,6 +110,7 @@ Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible								NULL
 Holy-Bible---Chin-Thado---Chongthu-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Chin-Thado---Chongthu-Bible								NULL
+Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible								NULL
 Holy-Bible---Chiyawo---Yao	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Chiyawo---Yao								NULL
@@ -617,6 +654,7 @@ Holy-Bible---French---Vulgate-Glaire	042	LUK	016	023	SKIP			NULL
 Holy-Bible---French---Vulgate-Glaire								NULL
 Holy-Bible---Gamotso---Gamo	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Gamotso---Gamo								NULL
+Holy-Bible---Gata---Gata-Didayi-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Gata---Gata-Didayi-Bible								NULL
 Holy-Bible---German---German-Albrecht								NULL
 Holy-Bible---German---German-Elberfelder-1871	061	2PE	002	017	NOTE			questioned
@@ -768,6 +806,9 @@ Holy-Bible---Isanzu---Isanzu-Bible								NULL
 Holy-Bible---Italian---Conferenza-Episcopale-Italiana								NULL
 Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible								NULL
 Holy-Bible---Italian---Italian-Riveduta-Bible								NULL
+Holy-Bible---Janji---Janji-Bible	040	MAT	025	045	AIONIAN	g166		NULL
+Holy-Bible---Janji---Janji-Bible	040	MAT	025	046	SKIP			NULL
+Holy-Bible---Janji---Janji-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Janji---Janji-Bible								NULL
 Holy-Bible---Japanese---Japanese-Bungo-yaku								NULL
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	061	2PE	002	017	NOTE			questioned
@@ -782,6 +823,7 @@ Holy-Bible---Japanese---Japanese-Raguet-yaku	066	REV	020	009	LOF	g3041 g4442		NU
 Holy-Bible---Japanese---Japanese-Raguet-yaku	066	REV	020	010	AIONS	g165		NULL
 Holy-Bible---Japanese---Japanese-Raguet-yaku								NULL
 Holy-Bible---Japanese---New-Japanese-New-Testament								NULL
+Holy-Bible---Juray---Juray-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Juray---Juray-Bible								NULL
 Holy-Bible---Kamano---Kamano-Kafe	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Kamano---Kamano-Kafe								NULL
@@ -909,7 +951,11 @@ Holy-Bible---Myanmar---Myanmar-Burmese-Judson	042	LUK	001	068	AIONS	g165		NULL
 Holy-Bible---Myanmar---Myanmar-Burmese-Judson	042	LUK	001	070	SKIP			NULL
 Holy-Bible---Myanmar---Myanmar-Burmese-Judson	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Myanmar---Myanmar-Burmese-Judson								NULL
+Holy-Bible---Naga-Pidgin---Nagamese-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Naga-Pidgin---Nagamese-Bible								NULL
+Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible	058	HEB	013	020	AIONS,AIONIAN	g165,g166		NULL
+Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible	058	HEB	013	021	SKIP			NULL
+Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible								NULL
 Holy-Bible---Ndebele---Accessible-Bible								NULL
 Holy-Bible---Ndebele---Ndebele-Bible	061	2PE	002	017	NOTE			questioned
@@ -933,6 +979,7 @@ Holy-Bible---Oriya---Oriya-Bible								NULL
 Holy-Bible---Oromo---New-World	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Oromo---New-World								NULL
 Holy-Bible---Panjabi---Punjabi-Bible								NULL
+Holy-Bible---Pengo---Pengo-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Pengo---Pengo-Bible								NULL
 Holy-Bible---Persian---Old-Persion-Version-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Persian---Old-Persion-Version-Bible								NULL
@@ -963,6 +1010,7 @@ Holy-Bible---Portuguese---Free-for-All	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Portuguese---Free-for-All								NULL
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Portuguese---Portuguese-Trans-Trans								NULL
+Holy-Bible---Portuguese---World-Portuguese-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Portuguese---World-Portuguese-Bible								NULL
 Holy-Bible---Romanian---Bayash-Luke								NULL
 Holy-Bible---Romanian---Cyrillic	061	2PE	002	017	NOTE			questioned
@@ -990,6 +1038,9 @@ Holy-Bible---Russian---Russian-Synodal-Translation	061	2PE	002	017	NOTE			questi
 Holy-Bible---Russian---Russian-Synodal-Translation								NULL
 Holy-Bible---Safwa---Safwa-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Safwa---Safwa-Bible								NULL
+Holy-Bible---Sakachep---Sakachep-Bible	058	HEB	013	020	AIONS,AIONIAN	g165,g166		NULL
+Holy-Bible---Sakachep---Sakachep-Bible	058	HEB	013	021	SKIP			NULL
+Holy-Bible---Sakachep---Sakachep-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Sakachep---Sakachep-Bible								NULL
 Holy-Bible---Sanskrit---Assamese-Script	041	MAR	004	018	AIONS	g165		NULL
 Holy-Bible---Sanskrit---Assamese-Script	041	MAR	004	019	SKIP			NULL
@@ -1555,6 +1606,7 @@ Holy-Bible---Slovene---Slovene-Savli-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Slovene---Slovene-Savli-Bible								NULL
 Holy-Bible---Slovene---Slovene-Stritarja-NT	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Slovene---Slovene-Stritarja-NT								NULL
+Holy-Bible---Soli---Soli-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Soli---Soli-Bible								NULL
 Holy-Bible---Somali---Somali-Bible								NULL
 Holy-Bible---Spanish---Biblia-Platense-Straubinger								NULL
@@ -1584,6 +1636,7 @@ Holy-Bible---Swedish---Swedish-Bible-1873								NULL
 Holy-Bible---Swedish---Swedish-Bible-1917								NULL
 Holy-Bible---Tagalog---Tagalog-Bible-1905								NULL
 Holy-Bible---Tagalog---Tagalog-Bible-Unlocked								NULL
+Holy-Bible---Tagin---Tagin-First-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Tagin---Tagin-First-Bible								NULL
 Holy-Bible---Tamil---Open-Contemporary	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Tamil---Open-Contemporary								NULL
@@ -1617,7 +1670,6 @@ Holy-Bible---Telugu---Telugu-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Telugu---Telugu-Bible								NULL
 Holy-Bible---Tongan---Revised-West-Version	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Tongan---Revised-West-Version								NULL
-Holy-Bible---Tsakhur---Tsakhur-Bible								NULL
 Holy-Bible---Turkish---Turkish-Bible								NULL
 Holy-Bible---Twi---Akuapem-Twi-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Twi---Akuapem-Twi-Bible								NULL
