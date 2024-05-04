@@ -6290,95 +6290,181 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---French---Vulgate-Glaire" :
+if (!($bfile = preg_replace('/(Song of Solomon \d+:\d+ )\. /us','$1',$bfile,-1,$rnum)) || $rnum!=24) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
 $textfix = <<<EOF
-Psalms 4:9 Et moi je dormirai et me reposerai en paix; parce que vous, Seigneur, m’avez affermi dans une espérance singulière.
+Psalms 4:9 Dans la paix je m’endormirai et je reposerai tout à la fois, Parce que vous, Seigneur, vous seul m’avez établi dans l’espérance.
 Psalms 5:1 
 EOF;
 if (!($bfile = preg_replace("/Psalms 4:9 (.+?)Psalms 5:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Psalms 12:6 mais j’ai espéré en votre miséricorde. Mon cœur sera transporté de joie à cause de votre salut.
-Psalms 12:7 Je chanterai le Seigneur qui m’a comblé de biens, et je célébrerai le nom du Seigneur Très-Haut.
+Psalms 12:6 Mais moi, j’ai espéré dans votre miséricorde. Mon cœur tressaillira d’allégresse dans votre salut ;
+Psalms 12:7 je chanterai le Seigneur qui m’a comblé de biens ; je chanterai le nom du Dieu Très-Haut.
 Psalms 13:1 
 EOF;
-if (!($bfile = preg_replace("/Psalms 12:6 (.+?)Psalms 13:6 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/Psalms 12:6 (.+?)Psalms 13:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Psalms 43:22 Dieu n’en redemandera-t-il pas compte ? Car il connaît les secrets du cœur.
-Psalms 43:23 Car c’est à cause de vous que nous sommes tous les jours livrés à la mort, et qu’on nous regarde comme des brebis de boucherie.
-Psalms 43:24 Levez-vous ; pourquoi dormez-vous, Seigneur ? Levez-vous, et ne nous repoussez pas à jamais.
-Psalms 43:25 Pourquoi détournez-vous votre visage ? oubliez-vous notre misère et notre tribulation ?
-Psalms 43:26 Car notre âme est humiliée dans la poussière, et notre sein est comme collé à la terre.
-Psalms 43:27 Levez-vous, Seigneur ; secourez-nous, et rachetez-nous à cause de votre nom.
+Psalms 43:22 Est-ce que Dieu ne s’en enquerra pas ? Car il connaît, lui, les choses cachées du cœur.
+Psalms 43:23 Puisque, à cause de vous, nous sommes mis à mort tout le jour ; nous sommes regardés comme des brebis de tuerie.
+Psalms 43:24 Levez-vous, pourquoi dormez-vous, Seigneur ? Levez-vous, et ne nous rejetez pas pour toujours.
+Psalms 43:25 Pourquoi détournez-vous votre face, oubliez-vous notre misère et notre tribulation ?
+Psalms 43:26 Car notre âme est humiliée dans la poussière, et notre ventre est collé à la terre.
+Psalms 43:27 Levez-vous, Seigneur, secourez-nous, et rachetez-nous à cause de votre nom.
 Psalms 44:1 
 EOF;
 if (!($bfile = preg_replace("/Psalms 43:22 (.+?)Psalms 44:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Psalms 55:11 Je louerai en Dieu la parole ; je louerai dans le Seigneur sa promesse.
-Psalms 55:12 J’espère en Dieu ; je ne craindrai point ce que l’homme peut me faire.
-Psalms 55:13 Je connais, ô Dieu, les vœux que je vous ai faits, et les louanges, dont j’ai à m’acquitter envers vous.
-Psalms 55:14 Car vous avez délivré mon âme de la mort, et mes pieds de la chute, afin que je me rende agréable devant Dieu à la lumière des vivants.
+Psalms 55:11 En Dieu, je louerai une parole ; dans le Seigneur, je louerai un discours :
+Psalms 55:12 en Dieu j’ai espéré, je ne craindrai pas ce que pourra me faire un homme.
+Psalms 55:13 Je vous dois, ô Dieu, des vœux que j’acquitterai, et des louanges en votre honneur.
+Psalms 55:14 Parce que vous avez arraché mon âme à la mort, et mes pieds à la chute, afin que je me rende agréable devant Dieu, dans la lumière des vivants.
 Psalms 56:1 
 EOF;
 if (!($bfile = preg_replace("/Psalms 55:11 (.+?)Psalms 56:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Ecclesiastes 7:30 J’ai trouvé seulement cela, c’est que Dieu a créé l’homme droit, et qu’il s’est lui-même embarrassé dans des questions sans fin.
-Ecclesiastes 8:1 Qui est comme le sage ? et qui connaît l’explication des choses ? La sagesse de l’homme luit sur son visage, et le Tout-Puissant le lui change a son gré.
+Ecclesiastes 7:30 J’ai trouvé cela seulement, que Dieu a fait l’homme droit, et que celui-ci s’est embarrassé lui-même dans des questions infinies.
+Ecclesiastes 8:1 Qui est tel que le sage ? et qui connaît la solution de la parole ? La sagesse de l’homme luit sur son visage, et le tout-puissant changera sa face.
 Ecclesiastes 8:2 
 EOF;
 if (!($bfile = preg_replace("/Ecclesiastes 7:30 (.+?)Ecclesiastes 8:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Song of Solomon 4:16 L’EPOUSE. Lève-toi, aquilon, et viens, vent du midi ; souffle dans mon jardin, et qu’il exhale ses parfums. Que mon bien-aimé vienne dans son jardin, et qu’il mange du fruit de ses arbres.
-Song of Solomon 5:1 L’EPOUX. Je suis venu dans mon jardin, ma sœur, mon épouse ; j’ai recueilli ma myrrhe avec mes parfums ; j’ai mangé le rayon avec mon miel ; j’ai bu mon vin avec mon lait. Mangez, mes amis, et buvez, et enivrez-vous, mes bien-aimés.
+Song of Solomon 4:16 Lève-toi, aquilon, et viens, vent du midi ; souffle sans cesse dans mon jardin, et que ses parfums coulent. Qu’il vienne, mon bien-aimé, dans son jardin, et qu’il mange le fruit de ses arbres.
+Song of Solomon 5:1 Je suis venu dans mon jardin, ma sœur, épouse, j’ai recueilli ma myrrhe avec mes aromates ; j’ai mangé le rayon avec le miel, j’ai bu mon vin avec mon lait : mangez, mes amis, et buvez ; enivrez-vous, mes bien chers.
 Song of Solomon 5:2 
 EOF;
 if (!($bfile = preg_replace("/Song of Solomon 4:16 (.+?)Song of Solomon 5:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Song of Solomon 6:12 Reviens, reviens, ô Sulamite ! reviens, reviens, afin que nous te contemplions. Que verrez-vous dans la Sulamite, sinon les chœurs d’un camp ?
-Song of Solomon 7:1 Que tes pieds sont beaux dans ta chaussure, ô fille du prince ! Les jointures de tes hanches sont comme des colliers travaillés par la main d’un artiste.
+Song of Solomon 6:12 Les filles de Jérusalem. Reviens, reviens, Sulamite ; reviens, reviens, afin que nous te contemplions. Que verras-tu dans la Sulamite, sinon les chœurs des camps ?
+Song of Solomon 7:1 Que tes pas sont beaux dans les chaussures, fille de prince ! Les jointures de tes jambes sont comme ces colliers qui ont été faits par la main d’un habile ouvrier.
 Song of Solomon 7:2 
 EOF;
 if (!($bfile = preg_replace("/Song of Solomon 6:12 (.+?)Song of Solomon 7:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Luke 1:32 Il sera grand, et sera appelé le Fils du Très-Haut ; et le Seigneur Dieu lui donnera le trône de David son père,
-Luke 1:33 et il régnera éternellement sur la maison de Jacob, et son règne n’aura pas de fin.
+Jeremiah 4:5 Annoncez dans Juda, et faites entendre dans Jérusalem ; parlez et sonnez de la trompette sur la terre ; criez fortement et dites : Assemblez-vous, et entrons dans les cités fortifiées ;
+Jeremiah 4:6 
+EOF;
+if (!($bfile = preg_replace("/Jeremiah 4:5 (.+?)Jeremiah 4:6 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Ezekiel 45:7 Au prince aussi vous donnerez ce qui s’étendra de part et d’autre, le long de ce qui a été séparé pour le sanctuaire et pour la possession de la cité, vis-à-vis de ce qui a été séparé pour le sanctuaire, et vis-à-vis de la possession de la ville ; depuis le côté de la mer jusqu’à la mer, et depuis le côté de l’orient jusqu’à l’orient ; or la longueur de sa possession sera égale dans chacune de ses portions, depuis les bornes de l’occident jusqu’aux bornes de l’orient.
+Ezekiel 45:8 
+EOF;
+if (!($bfile = preg_replace("/Ezekiel 45:7 (.+?)Ezekiel 45:8 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Matthew 17:14 Lorsqu’il fut venu vers le peuple, un homme s’approcha de lui, et il se jeta à ses pieds, disant :
+Matthew 17:15 Seigneur, ayez pitié de mon fils, parce qu’il est lunatique et qu’il souffre cruellement ; car il tombe souvent dans le feu et souvent dans l’eau.
+Matthew 17:16 Je l’ai présenté à vos disciples, et ils n’ont pu le guérir.
+Matthew 17:17 Et répondant, Jésus dit : Ô race incrédule et perverse, jusqu’à quand serai-je avec vous ? jusqu’à quand vous supporterai-je ? Amenez-le-moi ici.
+Matthew 17:18 Or, Jésus ayant gourmandé le démon, il sortit de l’enfant, qui fut guéri à l’heure même.
+Matthew 17:19 Alors les disciples s’approchèrent de Jésus en secret, et lui dirent : Pourquoi nous, n’avons-nous pu le chasser ?
+Matthew 17:20 Jésus leur répondit : À cause de votre incrédulité. En vérité, je vous le dis, si vous aviez de la foi comme un grain de sénevé, vous diriez à cette montagne : Passe d’ici là, et elle y passerait, et rien ne vous serait impossible.
+Matthew 17:21 Mais ce genre de démons ne se chasse que par la prière et le jeûne.
+Matthew 17:22 Or, tandis qu’ils se trouvaient en Galilée, Jésus leur dit : Le Fils de l’homme doit être livré entre les mains des hommes.
+Matthew 17:23 Et ils le tueront, et le troisième jour il ressuscitera. Et ils furent extrêmement contristés.
+Matthew 17:24 Lorsqu’ils vinrent à Capharnaüm, ceux qui recevaient le didrachme s’approchèrent de Pierre, et lui demandèrent : Est-ce que votre maître ne paye pas le didrachme ?
+Matthew 17:25 Il répondit : Il le paye. Et lorsqu’il fut entré dans la maison, Jésus le prévint, disant : Que t’en semble, Simon ? De qui les rois de la terre reçoivent-ils le tribut ou le cens ? de leurs enfants ou des étrangers ?
+Matthew 17:26 Et Pierre répondit : Des étrangers. Jésus lui dit : Ainsi, les enfants en sont exempts.
+Matthew 17:27 Cependant pour ne les point scandaliser, va à la mer, jette un hameçon ; et le poisson qui le premier montera, prends-le ; puis ouvrant sa bouche, tu trouveras un statère ; l’ayant pris, donne-le pour moi et pour toi.
+Matthew 18:1 
+EOF;
+if (!($bfile = preg_replace("/Matthew 17:14 (.+?)Matthew 18:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Luke 1:32 Il sera grand, et sera appelé le Fils du Très-Haut, et le Seigneur Dieu lui donnera le trône de David, son père ;
+Luke 1:33 et il régnera éternellement sur la maison de Jacob, Et son règne n’aura point de fin.
 Luke 1:34 
 EOF;
 if (!($bfile = preg_replace("/Luke 1:32 (.+?)Luke 1:34 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 
-John 4:13 Jésus lui répondit : Quiconque boit de cette eau aura encore soif ;
-John 4:14 mais celui qui boira de l’eau que je lui donnerai n’aura jamais soif ; car l’eau que je lui donnerai deviendra en lui une source d’eau qui jaillira jusque dans la vie éternelle.
+John 4:13 Jésus répliqua et lui dit : Quiconque boit de cette eau aura encore soif ;
+John 4:14 au contraire, qui boira de l’eau que je lui donnerai, n’aura jamais soif ; Mais l’eau que je lui donnerai deviendra une fontaine d’eau jaillissante jusque dans la vie éternelle.
 John 4:15 
 EOF;
 if (!($bfile = preg_replace("/\nJohn 4:13 (.+?)\nJohn 4:15 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
+
+John 19:19 Pilate fit une inscription et la mit sur la croix. Or il était écrit : Jésus de Nazareth, le roi des Juifs.
+John 19:20 
+EOF;
+if (!($bfile = preg_replace("/\nJohn 19:19 (.+?)\nJohn 19:20 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Acts 2:9 Parthes, Mèdes, Elamites, et ceux qui habitent la Mésopotamie, la Judée, la Cappadoce, le Pont et l’Asie,
+Acts 2:10 
+EOF;
+if (!($bfile = preg_replace("/Acts 2:9 (.+?)Acts 2:10 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Acts 3:2 Et voilà qu’on portait un homme qui était boiteux dès le sein de sa mère, et chaque jour on le posait à la porte du temple, appelée la Belle, afin qu’il demandât l’aumône à ceux qui entraient dans le temple.
+Acts 3:3 
+EOF;
+if (!($bfile = preg_replace("/Acts 3:2 (.+?)Acts 3:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Acts 9:2 Et lui demanda des lettres pour les synagogues de Damas, afin que, s’il y trouvait des hommes et des femmes de cette voie, il les conduisît enchaînés à Jérusalem.
+Acts 9:3 
+EOF;
+if (!($bfile = preg_replace("/Acts 9:2 (.+?)Acts 9:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Acts 9:36 Il y avait à Joppé, parmi les disciples, une femme du nom de Tabithe, qui veut dire par interprétation Dorcas. Elle était remplie de bonnes œuvres et elle faisait beaucoup d’aumônes.
+Acts 9:37 
+EOF;
+if (!($bfile = preg_replace("/Acts 9:36 (.+?)Acts 9:37 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Acts 17:1 Après avoir passé par Amphipolis et Apollonie, ils vinrent à Thessalonique, à l’endroit où était la synagogue des Juifs.
+Acts 17:2 
+EOF;
+if (!($bfile = preg_replace("/Acts 17:1 (.+?)Acts 17:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Acts 17:15 Or ceux qui conduisaient Paul, le menèrent jusqu’à Athènes ; et ayant reçu de lui, pour Silas et Timothée, l’ordre de venir le rejoindre au plus vite, ils partirent.
+Acts 17:16 
+EOF;
+if (!($bfile = preg_replace("/Acts 17:15 (.+?)Acts 17:16 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Acts 18:12 Mais Gallion étant proconsul d’Achaïe, les Juifs, d’un commun accord, s’élevèrent contre Paul, et le conduisirent à son tribunal,
+Acts 18:13 
+EOF;
+if (!($bfile = preg_replace("/Acts 18:12 (.+?)Acts 18:13 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Acts 18:19 Et il vint à Ephèse, où il laissa Priscille et Aquila. Mais lui, étant entré dans la synagogue, il disputait avec les Juifs.
+Acts 18:20 
+EOF;
+if (!($bfile = preg_replace("/Acts 18:19 (.+?)Acts 18:20 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Acts 27:7 Après avoir navigué lentement pendant bien des jours, et être à peine arrivés devant Cnide, le vent nous arrêtant, nous côtoyâmes la Crète, du côté de Salmone ;
+Acts 27:8 
+EOF;
+if (!($bfile = preg_replace("/Acts 27:7 (.+?)Acts 27:8 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Romans 16:1 Je vous recommande Phoebé, notre sœur, attachée au service de l’Eglise qui est à Cenchrée,
+Romans 16:2 
+EOF;
+if (!($bfile = preg_replace("/Romans 16:1 (.+?)Romans 16:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 II Corinthians 13:12 Saluez-vous les uns les autres par un saint baiser.
 II Corinthians 13:13 Tous les saints vous saluent.
-II Corinthians 13:14 Que la grâce de Notre-Seigneur Jésus-Christ, l’amour de Dieu et la communication du Saint-Esprit soient avec vous tous. Amen.
+II Corinthians 13:14 Que la grâce du Seigneur Jésus-Christ, et la charité de Dieu, et la communication du Saint-Esprit soient avec vous tous. Amen.
 Galatians 1:1 
 EOF;
 if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-II Thessalonians 2:10 et avec toutes les séductions de l’iniquité pour ceux qui périssent, parce qu’ils n’ont pas reçu l’amour de la vérité pour être sauvés.
-II Thessalonians 2:11 C’est pourquoi Dieu leur enverra une puissance d’égarement, pour qu’ils croient au mensonge,
-II Thessalonians 2:12 afin que tous ceux qui n’auront pas cru à la vérité, mais qui auront consenti à l’iniquité, soient condamnés.
-II Thessalonians 2:13 Mais nous, frères bien-aimés de Dieu, nous devons rendre à Dieu de continuelles actions de grâces à votre sujet, de ce que Dieu vous a élus comme des prémices, pour vous sauver par la sanctification de l’Esprit et par la foi en la vérité ;
-II Thessalonians 2:14 ce à quoi il vous a appelés par notre Evangile, pour vous faire acquérir la gloire de Notre-Seigneur Jésus-Christ.
-II Thessalonians 2:15 Ainsi donc, frères, demeurez fermes, et conservez les traditions que vous avez apprises soit par notre parole, soit par notre lettre.
-II Thessalonians 2:16 Que Notre-Seigneur Jésus-Christ lui-même, et Dieu notre Père, qui nous a aimés, et qui nous a donné par sa grâce une consolation éternelle et une bonne espérance,
-II Thessalonians 2:17 consolent vos cœurs, et vous affermissent en toute bonne œuvre, et en toute bonne parole !
+II Thessalonians 2:10 Et avec toute séduction d’iniquité pour ceux qui périssent, parce qu’ils n’ont pas reçu l’amour de la vérité afin d’être sauvés.
+II Thessalonians 2:11 C’est pourquoi Dieu leur enverra une opération d’erreur, de manière qu’ils croiront au mensonge ;
+II Thessalonians 2:12 En sorte que soient condamnés tous ceux qui n’ont pas cru à la vérité, mais ont acquiescé à l’iniquité.
+II Thessalonians 2:13 Mais nous, mes frères chéris de Dieu, nous devons sans cesse rendre grâces à Dieu pour vous, de ce qu’il vous a choisis comme des prémices, pour vous sauver par la sanctification de l’Esprit et par la foi de la vérité,
+II Thessalonians 2:14 À laquelle il vous a appelés par notre Evangile, pour acquérir la gloire de Notre Seigneur Jésus-Christ.
+II Thessalonians 2:15 C’est pourquoi, mes frères, demeurez fermes, et gardez les traditions que vous avez apprises soit par nos discours, soit par notre lettre.
+II Thessalonians 2:16 Que Notre Seigneur Jésus-Christ lui même, et que notre Dieu et Père, qui nous a aimés et nous a donné une consolation éternelle et une bonne espérance par sa grâce,
+II Thessalonians 2:17 Ranime vos cœurs, et vous affermisse en toute bonne œuvre et toute bonne doctrine.
 II Thessalonians 3:1 
 EOF;
 if (!($bfile = preg_replace("/II Thessalonians 2:10 (.+?)II Thessalonians 3:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-II Timothy 4:8 Reste la couronne de justice qui m’est réservée, que le Seigneur, le juste juge, me rendra en ce jour-là ; et non seulement à moi, mais aussi à ceux qui aiment son avènement.
-II Timothy 4:9 Hâte-toi de venir bientôt auprès de moi.
-II Timothy 4:10 Car Démas m’a abandonné, par amour pour le siècle, et il est allé à Thessalonique ; Crescent, en Galatie ; Tite, en Dalmatie.
+II Timothy 4:8 Reste la couronne de justice qui m’est réservée, que le Seigneur, juste juge, me rendra en ce jour ; et non-seulement à moi, mais encore à ceux qui aiment son avènement.
+II Timothy 4:9 Hâte-toi de venir près de moi ;
+II Timothy 4:10 Car Démas m’a quitté, par amour de ce siècle, et il s’en est allé à Thessalonique ; Crescent, en Galatie ; Tite, en Dalmatie.
 II Timothy 4:11 
 EOF;
 if (!($bfile = preg_replace("/II Timothy 4:8 (.+?)II Timothy 4:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Revelation of John 20:9 Mais un feu, lancé par Dieu, descendit du ciel et les dévora ;
-Revelation of John 20:10 et le diable qui les séduisait fut jeté dans l’étang de feu et de soufre, où la bête et le faux prophète seront tourmentés jour et nuit dans les siècles des siècles.
+Revelation of John 20:9 Mais il descendit du ciel un feu venu de Dieu, et il les dévora ;
+Revelation of John 20:10 et le diable qui les séduisait, fut jeté dans l’étang de feu et de soufre, où la bête elle-même, Et le faux prophète seront tourmentés jour et nuit dans les siècles des siècles.
 Revelation of John 20:11 
 EOF;
 if (!($bfile = preg_replace("/Revelation of John 20:9 (.+?)Revelation of John 20:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
