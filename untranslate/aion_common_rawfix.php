@@ -6463,11 +6463,13 @@ II Timothy 4:11
 EOF;
 if (!($bfile = preg_replace("/II Timothy 4:8 (.+?)II Timothy 4:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Revelation of John 20:9 Mais il descendit du ciel un feu venu de Dieu, et il les dévora ;
-Revelation of John 20:10 et le diable qui les séduisait, fut jeté dans l’étang de feu et de soufre, où la bête elle-même, Et le faux prophète seront tourmentés jour et nuit dans les siècles des siècles.
+Revelation of John 20:7 Et lorsque seront accomplis les mille ans, Satan sera relâché de sa prison
+Revelation of John 20:8 et sortira, et il séduira les nations qui sont aux quatre coins du monde, Gog et Magog, et il les assemblera au combat, eux dont le nombre est comme le sable de la mer.
+Revelation of John 20:9 Et ils montèrent sur toute la face de la terre, et ils environnèrent le camp des saints et la cité bien-aimée. Mais il descendit du ciel un feu venu de Dieu, et il les dévora ;
+Revelation of John 20:10 et le diable qui les séduisait, fut jeté dans l’étang de feu et de soufre, où la bête elle-même, et le faux prophète seront tourmentés jour et nuit dans les siècles des siècles.
 Revelation of John 20:11 
 EOF;
-if (!($bfile = preg_replace("/Revelation of John 20:9 (.+?)Revelation of John 20:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/Revelation of John 20:7 (.+?)Revelation of John 20:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
