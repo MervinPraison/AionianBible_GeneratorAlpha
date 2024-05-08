@@ -31,7 +31,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_epubc'	=> TRUE,	// TRUE = do ePub covers
 		//'include'	=> "/Holy-Bible---([G-Z]+.*)---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Modern-Hebrew-Bible).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Portuguese-Trans-Trans).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Hebrew-Aleppo-Miqra-Mesorah).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(English---Trans-Trans).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(STEP).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Traditional|Aionian-Bible|Oriya|Vietnamese).*---Aionian-Edition\.noia$/",
@@ -43,7 +43,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Arabic---New-Arabic-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic|Nepali).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Bulgarian|Cebuano|Gourmantche|Nepali|Uyghur-Bible-Arabic|Uyghur-Bible-Cyrillic|Uyghur-Bible-Pinyin).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---(English---[K-Z]+|E[o-z]+|[F-Z]+).*---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---(Spanish---[R-Z]+|S[q-z]+|[T-Z]+).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Basque|Breton).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Chiyawo).*---Aionian-Edition\.noia$/",
@@ -58,7 +58,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---(Tongan|Turkish|[UV]+).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Catholic-Public-Domain---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
-		'include'	=> "/---Aionian-Edition\.noia$/",
+		//'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		) );

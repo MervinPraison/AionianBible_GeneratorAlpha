@@ -19828,8 +19828,6 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Yombe---Yombe-Bible" :
-if (!($bfile = preg_replace('/\x{a78c}/ui',"'",$bfile,-1,$rnum)) || $rnum!=1057) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$bfile_saved = $bfile;
 $bigfix = <<<EOF
 2CO 13:12 Luvanasana mboti beno na beno mu besi ki kinlongo.
 2CO 13:13 Banlongoboso badi kuaku baluveni mboti.
