@@ -42,8 +42,9 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(King-James-Version-Updated).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic---New-Arabic-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic|Nepali).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Bulgarian|Cebuano|Gourmantche|Nepali|Uyghur-Bible-Arabic|Uyghur-Bible-Cyrillic|Uyghur-Bible-Pinyin).*---Aionian-Edition\.noia$/",
-		'include'	=> "/Holy-Bible---(Spanish---[R-Z]+|S[q-z]+|[T-Z]+).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(New-Heart|Rote-Dela|French---Vulgate|Yombe|Hebrew---Living|Hebrew---Modern|Bangwinji|Bhadrawahi|Blackfoot|Borna|Chin-Daai|Chin--Thaiphum).*---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---.*(Chin-Thaiphum).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---(Spanish---[R-Z]+|S[q-z]+|[T-Z]+).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Basque|Breton).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Chiyawo).*---Aionian-Edition\.noia$/",
@@ -779,7 +780,7 @@ $mat28_19	= trim(!empty($forprint['MAT28_19'])	? $forprint['MAT28_19']		: $defau
 // references
 if ($language=="Hebrew") {
 	$front = "</Value><Span language='English (USA)'><Fontface fontfamily='FF-Pixt'><Value> ) </Value></Fontface></Span><Value>";
-	$back   = "</Value><Span language='English (USA)'><Fontface fontfamily='FF-Pixt'><Value> ( HRNT </Value></Fontface></Span><Value>";
+	$back   = "</Value><Span language='English (USA)'><Fontface fontfamily='FF-Pixt'><Value> ( </Value></Fontface></Span><Value>";
 	$backot = "</Value><Span language='English (USA)'><Fontface fontfamily='FF-Pixt'><Value> ( </Value></Fontface></Span><Value>";
 	$joh3_16_b	= $front.trim($forprint['JOH3_16_B'])	.$back;
 	$gen3_24_b	= $front.trim($forprint['GEN3_24_B'])	.$backot;

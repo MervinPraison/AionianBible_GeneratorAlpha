@@ -6,12 +6,33 @@ AION_ECHO("PDF PROOFER GENERATION: BEGIN");
 if (!chdir("../www-stageresources")) { AION_ECHO("ERROR! chdir()"); }
 
 
+$NEWBIBLES = array();
 /*
-$NEWBIBLES = array(
-"Holy-Bible---Ahirani---Gospels",
+"Holy-Bible---Bangwinji---Bangwinji-Bible",
+"Holy-Bible---Bareli-Palya---Palya-Bareli-Bible",
+"Holy-Bible---Beami---Bedamuni-Bible",
+"Holy-Bible---Bhattiyali---Bhattiyali-Bible",
+"Holy-Bible---Blackfoot---Matthew",
+"Holy-Bible---Borna---Borna-Latin-Bible",
+"Holy-Bible---Bu---Bu-Bible",
+"Holy-Bible---Chin-Daai---Daai-Chin-Bible",
+"Holy-Bible---Chin-Matu---Matupi-Chin-2019",
+"Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible",
+"Holy-Bible---Dutch---Petrus-Canisius",
+"Holy-Bible---Gata---Gata-Didayi-Bible",
+"Holy-Bible---Janji---Janji-Bible",
+"Holy-Bible---Juray---Juray-Bible",
+"Holy-Bible---Naga-Pidgin---Nagamese-Bible",
+"Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible",
+"Holy-Bible---Nend---Mark",
+"Holy-Bible---Pengo---Pengo-Bible",
+"Holy-Bible---Portuguese---World-Portuguese-Bible",
+"Holy-Bible---Romani-Vlax---Lovaric-Bible",
+"Holy-Bible---Sakachep---Sakachep-Bible",
+"Holy-Bible---Soli---Soli-Bible",
+"Holy-Bible---Tagin---Tagin-First-Bible",
 );
 */
-
 
 // BUILD PROOFER
 $proofer = array();
@@ -50,7 +71,7 @@ AION_ECHO("PDF PROOFER GENERATION: ARRAY");
 
 // BUILD PDFTK - ONE BY ONE
 function build_pdftk_flex($proofer, $filename, $pagename) {
-	//global $NEWBIBLES;
+	global $NEWBIBLES;
 	// pdftk A=in1.pdf cat A# output A.pdf
 	// pdftk A=in1.pdf... cat A B C ... output Final.pdf
 	$tempdir = "./temp.proof";
