@@ -11391,6 +11391,14 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---Kannada---Kannada-Bible" :
+if (!($bfile = preg_replace("/:1 1 /us",":1 ",$bfile,-1,$rnum)) || $rnum!=3) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---Kara---Kara-Bible" :
 if (!($bfile = preg_replace("/16Ejile/us","Ejile",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/0([[:alpha:]]{1})/us",'$1',$bfile,-1,$rnum)) || $rnum!=5) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -13549,6 +13557,7 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Latvian---Latvian-Gluck-Bible" :
 if (!($bfile = preg_replace("/ 2\. /us","",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/ \d+, /us"," ",$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;	
 $textfix = <<<EOF
 Hebrews 1:1 Dievs dažu reizi un dažādi vecos laikos uz tiem tēviem runājis caur tiem praviešiem,

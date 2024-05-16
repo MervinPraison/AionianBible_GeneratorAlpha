@@ -1,6 +1,6 @@
 # File Name: ANAVIGATION.txt
-# File Size: 21303       
-# File Date: 05/10/2024 04:39:46
+# File Size: 21264       
+# File Date: 05/11/2024 14:40:16
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -103,7 +103,6 @@ Holy-Bible---Desiya---Desiya-Bible
 Holy-Bible---Dholuo---Dholuo-Bible		
 Holy-Bible---Dombe---Dombe-Bible		
 Holy-Bible---Dutch---Canisiusvertaling		
-Holy-Bible---Dutch---Petrus-Canisius		
 Holy-Bible---Dutch---Schrift		
 Holy-Bible---Dutch---Statenvertaling		
 Holy-Bible---English---A-Conservative-Version		

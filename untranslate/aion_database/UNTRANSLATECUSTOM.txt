@@ -140,7 +140,6 @@ Holy-Bible---Dholuo---Dholuo-Bible								NULL
 Holy-Bible---Dombe---Dombe-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Dombe---Dombe-Bible								NULL
 Holy-Bible---Dutch---Canisiusvertaling								NULL
-Holy-Bible---Dutch---Petrus-Canisius								NULL
 Holy-Bible---Dutch---Schrift	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Dutch---Schrift								NULL
 Holy-Bible---Dutch---Statenvertaling	061	2PE	002	017	NOTE			questioned

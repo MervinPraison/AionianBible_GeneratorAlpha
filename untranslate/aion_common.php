@@ -893,26 +893,11 @@ function AION_TEXT_REPAIR($string,$errline,$bible,$trueifrawtext, &$textrepair,$
 	if ('Holy-Bible---French---French-Crampon-Bible'==$bible) { // public domain
 		$string = preg_replace('/1/ui', 'l', $string);
 	}
-	if ('Holy-Bible---German---German-Elberfelder-1871'==$bible) { // public domain
-		$string = preg_replace('/^[0-9]+ /ui', '', $saved=$string); if(is_array($textrepair) && $string!=$saved) { $textrepair[] = array($errline."\t".$string); } // note the repair
-	}
 	if ('Holy-Bible---Greek---Greek-Byzantine-Majority'==$bible) { // public domain
-		$string = preg_replace('/[A-Z0-9[:punct:]()]*[0-9]+[A-Z0-9[:punct:]()]*/ui', ' ', $saved=$string);	if(is_array($textrepair) && $string!=$saved) { $textrepair[] = array($errline."\t".$string); } // note the repair
-	}
-	if ('Holy-Bible---Greek---Greek-Majority-Text'==$bible) { // public domain
 		$string = preg_replace('/[A-Z0-9[:punct:]()]*[0-9]+[A-Z0-9[:punct:]()]*/ui', ' ', $saved=$string);	if(is_array($textrepair) && $string!=$saved) { $textrepair[] = array($errline."\t".$string); } // note the repair
 	}
 	if ($trueifrawtext && 'Holy-Bible---Hebrew---Hebrew-Aleppo-Codex'==$bible) { // public domain
 		$string = preg_replace('/^[[:space:]]*[^[:space:]]+[[:space:]]+/ui', '', $string); // remove verse numbers indicated as 1st word of each verse!
-	}
-	if ('Holy-Bible---Kannada---Kannada-Bible'==$bible) { // cc share alike
-		$string = preg_replace('/^[0-9]{1} /ui', '', $saved=$string); if(is_array($textrepair) && $string!=$saved) { $textrepair[] = array($errline."\t".$string); } // note the repair
-	}
-	if ('Holy-Bible---Latvian---Latvian-Gluck-Bible'==$bible) {
-		$string = preg_replace('/^[0-9]+, /ui', '', $saved=$string); if(is_array($textrepair) && $string!=$saved) { $textrepair[] = array($errline."\t".$string); } // note the repair
-	}	
-	if ("Holy-Bible---Malagasy---Malagasy-Bible"==$bible) {
-		$string = preg_replace('/[\d]+/ui', ' ', $saved=$string);	if(is_array($textrepair) && $string!=$saved) { $textrepair[] = array($errline."\t".$string); } // note the repair
 	}
 	if ("Holy-Bible---Ukrainian---Ukrainian-NT"==$bible) { // public domain
 		$string = preg_replace('/3/ui', 'З', $saved=$string); if(is_array($textrepair) && $string!=$saved) { $textrepair[] = array($errline."\t".$string); } // note the repair
@@ -3145,34 +3130,34 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 		'foreign'	=> &$foreign,
 		)));
 	$grandmarker = array();
-	$grandmarker['BIBLE_COUNT']	= $grandtotal['BIBLE_COUNT']-371;
+	$grandmarker['BIBLE_COUNT']	= $grandtotal['BIBLE_COUNT']-370;
 	$grandmarker['LANG_COUNT']	= $grandtotal['LANG_COUNT']-154;
-	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-8221;
-	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-9000;
-	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-284328;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-7559442;
-	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-80764;
-	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-460;
+	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-8183;
+	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-8973;
+	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-283151;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-7528722;
+	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-80500;
+	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-458;
 	$grandmarker['LONG']		= $grandtotal['LONG']-1153;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-0;
-	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-2839;
+	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-2836;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-910;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-13525;
-	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-17849;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-13526;
+	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-17824;
 	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-10328;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-715;
 	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-1339;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-191802;
-	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-37970;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-4346.04;
-	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-149;
-	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-82;
-	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-360;
-	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-169;
-	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-204;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-191068;
+	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-37882;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-4329.94;
+	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-148;
+	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-83;
+	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-359;
+	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-174;
+	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-208;
 	$grandmarker['PDF_PRTL']	= $grandtotal['PDF_PRTL']-232;
-	$grandmarker['TRANS']		= $grandtotal['TRANS']-310;
+	$grandmarker['TRANS']		= $grandtotal['TRANS']-309;
 	$grandtotal['LONG']		= ($grandtotal['LONG']		== 0 ? $grandtotal['LONG']		: "<span style='font-weight:bold; color:red;'>".$grandtotal['LONG']."</span>" );
 	$grandtotal['CHAP_NO']	= ($grandtotal['CHAP_NO']	== 0 ? $grandtotal['CHAP_NO']	: "<span style='font-weight:bold; color:red;'>".$grandtotal['CHAP_NO']."</span>" );
 	$grandtotal['VERS_NO']	= ($grandtotal['VERS_NO']	== 0 ? $grandtotal['VERS_NO']	: "<span style='font-weight:bold; color:red;'>".$grandtotal['VERS_NO']."</span>" );
@@ -3832,6 +3817,8 @@ function AION_LOOP_HTMS_DOIT($args) {
 	if (!file_put_contents($newfile, $htm)) { AION_ECHO("ERROR! HTM Debug file problem: $newfile"); }
 	unset($htm);
 	$note = (empty($args['database']['T_VERSIONS'][$bible]['NOTE']) ? "" : $args['database']['T_VERSIONS'][$bible]['NOTE']);
+	$note .= (empty($args['database']['T_VERSIONS'][$bible]['NEW']) ? "" : ",".$args['database']['T_VERSIONS'][$bible]['NEW']);
+	$rowback = (empty($args['database']['T_VERSIONS'][$bible]['NEW']) ? "" : ($args['database']['T_VERSIONS'][$bible]['NEW']=='Y136' ? "bgcolor='#f2dcdb'" : "bgcolor='#ebf1de'"));
 	static $bible_count = 0;	++$bible_count;
 	static $lang_count = 0;		static $lang_last = NULL; if ($lang_last != $lang) { $lang_last=$lang; ++$lang_count;}
 	$args['grandtotal']['BIBLE_COUNT']	= $bible_count;
@@ -3982,7 +3969,7 @@ function AION_LOOP_HTMS_DOIT($args) {
 	}
 	$args['grandtotal']['PROBPDF'] += $PROBPDF;
 	
-	$args['debug'].= "<tr><td><a href='/Bibles/$biblename/parallel-English---King-James-Version' target='_blank'>$biblename</a></td><td><a href='/library/$bible.php' target='_blank'>p</a></td><td>$SOURCE</td><td>$note</td><td>$bible_count</td><td>$lang_count</td><td>$BOOK_OT</td><td>$BOOK_NT</td><td>$CHAP_TOTAL</td><td>$VERS_TOTAL</td><td>$VERS_AION</td><td>$VERS_QUES</td><td>$LONG</td><td>$CHAP_NO</td><td>$VERS_NO</td><td>$VERS_EX</td><td>$FIXED</td><td>$NOTFIXED</td><td>$CHAP_RE</td><td>$REVE_NO</td><td>$REVE_EX</td><td>$CUSTO</td><td>$PDFPA</td><td>$PDFPN</td><td>$PDFPIF</td><td>$PDF_PKDP</td><td>$PDF_PKNT</td><td>$PDF_PLUL</td><td>$PDF_PLNT</td><td>$PDF_PLHC</td><td>$PDF_PRTL</td><td>$ISGOOD</td></tr>\n";
+	$args['debug'].= "<tr {$rowback}><td><a href='/Bibles/$biblename/parallel-English---King-James-Version' target='_blank'>$biblename</a></td><td><a href='/library/$bible.php' target='_blank'>p</a></td><td>$SOURCE</td><td>$note</td><td>$bible_count</td><td>$lang_count</td><td>$BOOK_OT</td><td>$BOOK_NT</td><td>$CHAP_TOTAL</td><td>$VERS_TOTAL</td><td>$VERS_AION</td><td>$VERS_QUES</td><td>$LONG</td><td>$CHAP_NO</td><td>$VERS_NO</td><td>$VERS_EX</td><td>$FIXED</td><td>$NOTFIXED</td><td>$CHAP_RE</td><td>$REVE_NO</td><td>$REVE_EX</td><td>$CUSTO</td><td>$PDFPA</td><td>$PDFPN</td><td>$PDFPIF</td><td>$PDF_PKDP</td><td>$PDF_PKNT</td><td>$PDF_PLUL</td><td>$PDF_PLNT</td><td>$PDF_PLHC</td><td>$PDF_PRTL</td><td>$ISGOOD</td></tr>\n";
 	
 	if (!($bible_count % 20)) {
 		$args['debug'].="<tr><td>BIBLE</td><td>P</td><td>S</td><td>NOT</td><td>B#</td><td>LAN</td><td>OLD</td><td>NEW</td><td>CHP</td><td>VER</td><td>AIO</td><td>QUE</td><td>LON</td><td>CMI</td><td>VMI</td><td>VXT</td><td>VFI</td><td>NOF</td><td>CMA</td><td>VMI</td><td>VME</td><td>CUS</td><td>PAG</td><td>PAN</td><td>PRI</td><td>KDP</td><td>KNT</td><td>LUL</td><td>LNT</td><td>LHC</td><td>WAT</td><td>STA</td></tr>\n";
@@ -4639,87 +4626,14 @@ function AION_LOOP_CHECK_UNTRANSLATE_MODULE_DOIT($args) {
 	AION_unset($database); $database=NULL; unset($database);
 	gc_collect_cycles();
 }
+/* append the annotation */
 function AION_HEART(&$text,$nospace,$greek,$words,&$match,&$gotone,&$replacements,&$warn) {
 	$gotone = TRUE;
 	$replace = 0;
-	/*
-	This function attempts to place the aionian note next to the appropriate word.
-	Degress of success were accomplished but never to +95% and that for only 2/3s of the Bibles
-	so the effort was noble, but for now all notes will be appended to the end of the verse!
-
-	The future plan is to use this function to again produce the UNTRANSLATE modules for
-	each bible with our best guess so that manual efforts can be made for each bible
-	and in fact to recruit this effort directly from the website.
-	
-	force the test below to be false to append the note to the end of the verse, otherwise
-	the logic will attempt to place the note next to the word.
-	*/
-	$matches_total = 0;
-	if (FALSE && is_array($words)) {
-		$word_found = NULL;
-		foreach($words as $word) {
-			if (empty($word)) { continue; }
-			$search = $nospace ? "/$word/ui" : '/(^|\s|[[:punct:]])('.$word.')($|\s|[[:punct:]])/ui';
-			if (($matches=preg_match_all($search,$text))) {
-				$match .= $word."($matches),";
-				$word_found = $word;
-				$matches_total += $matches;
-			}
-		}
-		if ($matches_total==1 && !empty($word_found)) {
-			$search = $nospace ? "/$word_found/ui" : '/(^|\s|[[:punct:]])('.$word_found.')($|\s|[[:punct:]])/ui';
-			$substitute = $nospace ? "$word_found $greek " : "$1$2 $greek$3";
-			$replace = 1;
-			++$replacements;
-			if (!($text = preg_replace($search, $substitute, $text))) { AION_ECHO("ERROR! Untranslate failure preg_replace(heart)"); }
-		}
-		/* exception handling for a few replacements */
-		else if (	$matches_total==2 &&
-					in_array('and ever',$words) &&
-					(preg_match_all('/for ever and ever/ui',$text)==1 ||
-					preg_match_all('/forever and ever/ui',$text)==1)
-				) {
-			$word_found = 'and ever';
-			$matches_total = 1;
-			$match .= "+COMBO,";
-			$search = $nospace ? "/$word_found/ui" : '/(^|\s|[[:punct:]])('.$word_found.')($|\s|[[:punct:]])/ui';
-			$substitute = $nospace ? "$word_found $greek " : "$1$2 $greek$3";
-			$replace = 1;
-			++$replacements;
-			if (!($text = preg_replace($search, $substitute, $text))) { AION_ECHO("ERROR! Untranslate failure preg_replace(heart)"); }
-		}
-		else if (	$matches_total==2 &&
-					in_array('ages',$words) &&
-					preg_match_all('/the ages of ages/ui',$text)
-				) {
-			$word_found = 'ages of ages';
-			$matches_total = 1;
-			$match .= "+COMBO,";
-			$search = $nospace ? "/$word_found/ui" : '/(^|\s|[[:punct:]])('.$word_found.')($|\s|[[:punct:]])/ui';
-			$substitute = $nospace ? "$word_found $greek " : "$1$2 $greek$3";
-			$replace = 1;
-			++$replacements;
-			if (!($text = preg_replace($search, $substitute, $text))) { AION_ECHO("ERROR! Untranslate failure preg_replace(heart)"); }
-		}
-		else if (	$matches_total==2 &&
-					in_array('the pit',$words) &&
-					preg_match_all('/the pit of the abyss/ui',$text)
-				) {
-			$word_found = 'the abyss';
-			$matches_total = 1;
-			$match .= "+COMBO,";
-			$search = $nospace ? "/$word_found/ui" : '/(^|\s|[[:punct:]])('.$word_found.')($|\s|[[:punct:]])/ui';
-			$substitute = $nospace ? "$word_found $greek " : "$1$2 $greek$3";
-			$replace = 1;
-			++$replacements;
-			if (!($text = preg_replace($search, $substitute, $text))) { AION_ECHO("ERROR! Untranslate failure preg_replace(heart)"); }
-		}
-	}
 	if (!$replace) {
 		if (is_numeric($words)) {		$replace = $words;	$replacements += $words; }
 		else {							$replace = 1;		$replacements += 1; }
-		if ($matches_total>1) {			$warn .= "MATCHES($matches_total),"; } 
-		else if (is_array($words)) {	$warn .= 'MISSING,'; } 
+		if (is_array($words)) {			$warn .= 'MISSING,'; } 
 		if (!($text = preg_replace('/( *)$/ui', " $greek$1", $text, 1))) { AION_ECHO("ERROR! Untranslate failure preg_replace(postfix)"); }
 	}
 	return $replace;

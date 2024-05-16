@@ -198,10 +198,6 @@ Holy-Bible---Dombe---Dombe-Bible				https://eBible.org/sword/zip/dov2020eb.zip	H
 Holy-Bible---Dutch---Canisiusvertaling	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/NlCanisius1939.zip	Holy-Bible---Dutch---Canisiusvertaling---Source-Edition.SWORD.zip
 Holy-Bible---Dutch---Canisiusvertaling				https://ebible.org/epub/nld1939.epub	Holy-Bible---Dutch---Canisiusvertaling---Source-Edition.epub
 Holy-Bible---Dutch---Canisiusvertaling				https://ebible.org/pdf/nld1939/nld1939_prt.pdf	Holy-Bible---Dutch---Canisiusvertaling---Source-Edition.pdf
-Holy-Bible---Dutch---Petrus-Canisius				https://ebible.org/epub/nld1939.epub	Holy-Bible---Dutch---Petrus-Canisius---Source-Edition.epub
-Holy-Bible---Dutch---Petrus-Canisius				https://ebible.org/pdf/nld1939/nld1939_prt.pdf	Holy-Bible---Dutch---Petrus-Canisius---Source-Edition.pdf
-Holy-Bible---Dutch---Petrus-Canisius				https://ebible.org/Scriptures/nld1939_vpl.zip	Holy-Bible---Dutch---Petrus-Canisius---Source-Edition.VPL.zip
-Holy-Bible---Dutch---Petrus-Canisius				https://ebible.org/sword/zip/nld1939eb.zip	Holy-Bible---Dutch---Petrus-Canisius---Source-Edition.SWORD.zip
 Holy-Bible---Dutch---Schrift				https://ebible.org/epub/nld.epub	Holy-Bible---Dutch---Schrift---Source-Edition.epub
 Holy-Bible---Dutch---Schrift				https://ebible.org/pdf/nld/nld_prt.pdf	Holy-Bible---Dutch---Schrift---Source-Edition.pdf
 Holy-Bible---Dutch---Schrift				https://ebible.org/Scriptures/nld_vpl.zip	Holy-Bible---Dutch---Schrift---Source-Edition.VPL.zip

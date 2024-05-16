@@ -188,7 +188,6 @@ Holy-Bible---Dutch---Canisiusvertaling	DAN100
 Holy-Bible---Dutch---Canisiusvertaling	HAG1-2
 Holy-Bible---Dutch---Canisiusvertaling	PRO2
 Holy-Bible---Dutch---Canisiusvertaling	MAR8-9
-Holy-Bible---Dutch---Petrus-Canisius	NONE
 Holy-Bible---Dutch---Schrift	NONE
 Holy-Bible---Dutch---Statenvertaling	EXO5-6
 Holy-Bible---Dutch---Statenvertaling	1SA23-24

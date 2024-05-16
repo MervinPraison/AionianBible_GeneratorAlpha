@@ -392,7 +392,6 @@ Holy-Bible---Dutch---Canisiusvertaling	019	PSA	140	001	13	1	end
 Holy-Bible---Dutch---Canisiusvertaling	019	PSA	142	001	7	1	end
 Holy-Bible---Dutch---Canisiusvertaling	066	REV	012	018	1	-1	end
 Holy-Bible---Dutch---Canisiusvertaling							end
-Holy-Bible---Dutch---Petrus-Canisius							end
 Holy-Bible---Dutch---Schrift							end
 Holy-Bible---Dutch---Statenvertaling	009	1SA	020	042	42	1	end
 Holy-Bible---Dutch---Statenvertaling	011	1KI	022	043	53	1	end

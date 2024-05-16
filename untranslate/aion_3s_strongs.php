@@ -734,7 +734,37 @@ $commentplus = <<<EOT
 #	ENGLISH		English word in context
 #	GLOSS		English from lexicon
 #	MORPH		Morphhology grammar
-#	EDITIONS	Found in these editions: Byz,Coptic,Cp,ESV,Goodnews,KJV,KJV?,NA26,NA27,NA28,Lt,NIV,OldLatin,OldSyriac,P66,P66*,Punc,SBL,Sy,TR,Treg,Tyn,U1,U2,U3,U4,U5,U6,U32,WH
+#	EDITIONS
+#				"Byz"		=> "Byzantine from Robinson/Pierpoint",
+#				"Coptic"	=> "Coptic",
+#				"ESV"		=> "English Standard Version",
+#				"Goodnews"	=> "Goodnews",
+#				"KJV"		=> "King James Version",
+#				"KJV?"		=> "King James Version possibly",
+#				"NA26"		=> "Nestle/Aland 26th Edition",
+#				"NA27"		=> "Nestle/Aland 27th Edition",
+#				"NA28"		=> "Nestle/Aland 28th Edition, not ECM",
+#				"Latin"		=> "Latin",
+#				"NIV"		=> "New International Version",
+#				"OldLatin"	=> "Old Latin",
+#				"OldSyriac"	=> "Old Syriac version",
+#				"P46"		=> "Papyri #46",
+#				"P66"		=> "Papyri #66",
+#				"P66*"		=> "Papyri #66 corrector",
+#				"Punc"		=> "Accent variant from punctuation",
+#				"SBL"		=> "Society of Biblical Literature Greek NT",
+#				"Syriac"	=> "Syriac",
+#				"TR"		=> "Textus Receptus",
+#				"Treg"		=> "Tregelles",
+#				"Tyn"		=> "Tyndale House GNT",
+#				"U1"		=> "Uncial Codex #1, Sinaiticus",
+#				"U2"		=> "Uncial Codex #2",
+#				"U3"		=> "Uncial Codex #3, Alexandrinus",
+#				"U4"		=> "Uncial Codex #4",
+#				"U5"		=> "Uncial Codex #5, Bezae",
+#				"U6"		=> "Uncial Codex #6",
+#				"U32"		=> "Uncial Codex #32",
+#				"WH"		=> "Westcott/Hort",
 #	VAR			Translation variations
 #	SPELL		Spelling variations
 #	EXTRA		Extra notes

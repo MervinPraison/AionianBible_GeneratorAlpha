@@ -1,6 +1,6 @@
 # File Name: TALLY.txt
-# File Size: 22084       
-# File Date: 05/10/2024 00:54:12
+# File Size: 22029       
+# File Date: 05/11/2024 11:42:51
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -73,7 +73,6 @@ Holy-Bible---Desiya---Desiya-Bible	7957	7957	7959
 Holy-Bible---Dholuo---Dholuo-Bible	31102	31102	31103
 Holy-Bible---Dombe---Dombe-Bible	7955	7955	7959
 Holy-Bible---Dutch---Canisiusvertaling	31069	31069	31417
-Holy-Bible---Dutch---Petrus-Canisius	30720	30720	30743
 Holy-Bible---Dutch---Schrift	31102	31102	31102
 Holy-Bible---Dutch---Statenvertaling	31102	31102	31175
 Holy-Bible---English---A-Conservative-Version	31102	31102	31102
