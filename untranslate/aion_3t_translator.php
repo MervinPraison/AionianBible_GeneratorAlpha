@@ -36,7 +36,7 @@ $HEADER = <<<EOT
 #
 # FILES:
 # AB-README.txt									This explanation.
-# AB-Shared-Resources.zip
+# AB-Shared-Resources.zip						Repackaged from https://github.com/STEPBible/STEPBible-Data
 #	AB-README.txt								Also this explanation.
 #	Greek-Lexicon.txt							Tyndale Greek extended Strongs lexicon.
 #	Greek-Lexicon-LSJ.txt						Liddell Scott Jones lexicon.

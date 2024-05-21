@@ -27,11 +27,11 @@ RewriteRule ^ http://sy3tqe5tvukyk35kbqx4v3xjj5jxkrvrcdno4c4neg5kymz3zb5avzqd.on
 RewriteCond %{REQUEST_URI} ^\/TOR(.*)$ [NC]
 RewriteRule ^ http://sy3tqe5tvukyk35kbqx4v3xjj5jxkrvrcdno4c4neg5kymz3zb5avzqd.onion%1 [L,R=301]
 RewriteCond %{HTTPS} off
-RewriteCond %{HTTP_HOST} ^(archive|stage|www|xcdn)\.aionianbible\.org$ [NC]
+RewriteCond %{HTTP_HOST} ^(archive|backup|stage|www|xcdn)\.aionianbible\.org$ [NC]
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteCond %{HTTP_HOST} !^\d+
 RewriteCond %{HTTP_HOST} !^sy3tqe5
-RewriteCond %{HTTP_HOST} !^(archive|stage|www|xcdn)\.aionianbible\.org$ [NC]
+RewriteCond %{HTTP_HOST} !^(archive|backup|stage|www|xcdn)\.aionianbible\.org$ [NC]
 RewriteRule ^ https://www.aionianbible.org%{REQUEST_URI} [L,R=301]
 
 # REWRITE BASICS

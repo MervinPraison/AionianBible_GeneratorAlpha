@@ -5582,7 +5582,7 @@ EOF;
 if (!($bfile = preg_replace("/LUK 1:32 (.+?)LUK 1:34 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 JOH 4:13 Jésus lui répondit : « Quiconque boit de cette eau aura encore soif ;
-JOH 4:14 mais celui qui boira de l’eau que je lui donnerai, n’aura plus jamais soif ; au contraire l’eau que je lui donnerai de viendra en lui une source d’eau jaillissant jusqu’à la vie éternelle. »
+JOH 4:14 mais celui qui boira de l’eau que je lui donnerai, n’aura plus jamais soif ; au contraire l’eau que je lui donnerai deviendra en lui une source d’eau jaillissant jusqu’à la vie éternelle. »
 JOH 4:15 
 EOF;
 if (!($bfile = preg_replace("/JOH 4:13 (.+?)JOH 4:15 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }

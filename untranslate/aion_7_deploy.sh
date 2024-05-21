@@ -80,7 +80,8 @@ system("rm -rf $TEMP");
 /*** replace temp backup with new backup ***/
 system("rm -rf $BACK");					if (is_dir($BACK)) {				AION_ECHO("ERROR! rm failed: $BACK"); }
 system("mv $BACK2 $BACK");				if (!is_dir($BACK)) {				AION_ECHO("ERROR! mv failed: $BACK2"); }
-
+if (!chmod($BACK,0755)) {													AION_ECHO("ERROR! chmod failed: $BACK"); }
+if (!chmod("$BACK/library",0755)) {											AION_ECHO("ERROR! chmod failed: $BACK/library"); }
 
 /*** diff after deploy, should be no differences! ***/
 AION_LOOP_DIFF(	'../www-stage/library', 	'../www-production/library',	'../diff-www-stage-with-www-production-AFTER-DEPLOY',			'/\.php$/', '', 'stageresources','resources');
