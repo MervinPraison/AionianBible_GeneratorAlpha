@@ -69,6 +69,8 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 	system("grep 'COUNT_STUDY' BIBLE-PROOF.messages | sed -e 's/  <Message>PAGE COUNT_//g' -e 's/<\/Message>//g' > BIBLE-PROOF.count_study");
 	system("grep 'COUNT_NEW'   BIBLE-PROOF.messages | sed -e 's/  <Message>PAGE COUNT_//g' -e 's/<\/Message>//g' > BIBLE-PROOF.count_new");
 	system("grep 'COUNT_POD'   BIBLE-PROOF.messages | sed -e 's/  <Message>PAGE COUNT_//g' -e 's/<\/Message>//g' > BIBLE-PROOF.count_pod");
+	//system("./aion_X_proofer.sh 2>&1 > aion_X_proofer.out");
+	//system("./aion_X_proofer_diff.sh 2>&1 > aion_X_proofer_diff.out");
 	AION_ECHO("TODO! REMINDER!!! RUN AION_5_INDEX.SH TO UPDATE PDF LINKS!");
 	AION_ECHO("TODO! REMINDER!!! RUN PROOFER AFTER COMPLETE RUNS!");
 }
