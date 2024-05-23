@@ -30,7 +30,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_pdfoo'	=> FALSE,	// TRUE = do One Online PDFs
 		'q_epubc'	=> TRUE,	// TRUE = do ePub covers
 		//'include'	=> "/Holy-Bible---([G-Z]+.*)---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Modern-Hebrew-Bible).*---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---.*(Albanian|Amo|Aionian-Bible|Beami).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Hebrew-Aleppo-Miqra-Mesorah).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(English---Trans-Trans).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(STEP).*---Aionian-Edition\.noia$/",
@@ -59,7 +59,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---(Tongan|Turkish|[UV]+).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Catholic-Public-Domain---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
-		'include'	=> "/---Aionian-Edition\.noia$/",
+		//'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		) );
@@ -699,6 +699,16 @@ $rleading	= trim(!empty($forprint['RLEADING'])	? $forprint['RLEADING']		: $defau
 if ($format=='STUDY') {
 	$size	= trim(!empty($forprint['SIZEST'])		? $forprint['SIZEST']		: $default['SIZEST']		);
 	$leading= trim(!empty($forprint['LEADINGST'])	? $forprint['LEADINGST']	: $default['LEADINGST']		);
+}
+else if ($format!='POD') {
+	$size	= $size2	= trim(!empty($forprint['SIZE'])	? $forprint['SIZE']		: $default['SIZE']		);
+	$leading= $leading2	= trim(!empty($forprint['LEADING'])	? $forprint['LEADING']	: $default['LEADING']	);
+	if ((float)$size < 9.0) {
+		$ratio = (float)$leading / (float)$size;
+		$size = "9.0";
+		$leading = number_format( ceil(9.0 * $ratio * 100) / 100, 2);
+		AION_ECHO("JEFF NOTICE! SIZE/LEADING was $size2/$leading2 now $size/$leading");
+	}
 }
 else {
 	$size	= trim(!empty($forprint['SIZE'])		? $forprint['SIZE']			: $default['SIZE']			);
