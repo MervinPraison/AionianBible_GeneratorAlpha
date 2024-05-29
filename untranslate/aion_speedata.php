@@ -29,8 +29,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_pdfon'	=> FALSE,	// TRUE = do Online PDFs
 		'q_pdfoo'	=> FALSE,	// TRUE = do One Online PDFs
 		'q_epubc'	=> TRUE,	// TRUE = do ePub covers
-		//'include'	=> "/Holy-Bible---([G-Z]+.*)---Aionian-Edition\.noia$/",
-		'include'	=> "/Holy-Bible---.*(Albanian|Amo|Aionian-Bible|Beami).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Albanian|Amo|Aionian-Bible|Beami).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Hebrew-Aleppo-Miqra-Mesorah).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(English---Trans-Trans).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(STEP).*---Aionian-Edition\.noia$/",
@@ -44,7 +43,8 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Arabic|Nepali).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(New-Heart|Rote-Dela|French---Vulgate|Yombe|Hebrew---Living|Hebrew---Modern|Bangwinji|Bhadrawahi|Blackfoot|Borna|Chin-Daai|Chin--Thaiphum).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Hebrew|Juray|Sakachep).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---(Spanish---[R-Z]+|S[q-z]+|[T-Z]+).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---(Ndebele---Ndebele-Bible|Ndengereko---Ndengereko-Bible|N[e-z]+|[O-Z]+).*---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---(Uyghur---Uyghur-Bible-Latin|Uyghur---Uyghur-Bible-Pinyin|[V-Z]+).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Basque|Breton).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Chiyawo).*---Aionian-Edition\.noia$/",
@@ -69,6 +69,9 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 	system("grep 'COUNT_STUDY' BIBLE-PROOF.messages | sed -e 's/  <Message>PAGE COUNT_//g' -e 's/<\/Message>//g' > BIBLE-PROOF.count_study");
 	system("grep 'COUNT_NEW'   BIBLE-PROOF.messages | sed -e 's/  <Message>PAGE COUNT_//g' -e 's/<\/Message>//g' > BIBLE-PROOF.count_new");
 	system("grep 'COUNT_POD'   BIBLE-PROOF.messages | sed -e 's/  <Message>PAGE COUNT_//g' -e 's/<\/Message>//g' > BIBLE-PROOF.count_pod");
+	// ok really do the whole thing!
+	//chdir('/home/inmoti55/public_html/domain.aionianbible.org/untranslate');
+	//system("./aion_5_index.sh 2>&1 > aion_5_index.sh.aionian.out");
 	//system("./aion_X_proofer.sh 2>&1 > aion_X_proofer.out");
 	//system("./aion_X_proofer_diff.sh 2>&1 > aion_X_proofer_diff.out");
 	AION_ECHO("TODO! REMINDER!!! RUN AION_5_INDEX.SH TO UPDATE PDF LINKS!");

@@ -3850,8 +3850,8 @@ function AION_LOOP_HTMS_DOIT($args) {
 	$NOTFIXED = ($NOTFIXED == 0 ? $NOTFIXED : "<span style='font-weight:bold; color:red;'>$NOTFIXED</span>" );
 	$REVE_NO = ($REVE_NO == 0 ? $REVE_NO : "<span style='font-weight:bold; color:red;'>$REVE_NO</span>" );
 	$REVE_EX = ($REVE_EX == 0 ? $REVE_EX : "<span style='font-weight:bold; color:red;'>$REVE_EX</span>" );
-	$PDFPA = ($PDFPA <= 0 ? "" : ($PDFPA <= 790 ? $PDFPA : "<span style='font-weight:bold; color:red;'>$PDFPA</span>"));
-	$PDFPN = ($PDFPN <= 0 ? "" : ($PDFPN <= 229 ? $PDFPN : "<span style='font-weight:bold; color:red;'>$PDFPN</span>"));
+	$PDFPA = ($PDFPA <= 0 ? "" : ($PDFPA <= 800 ? $PDFPA : "<span style='font-weight:bold; color:red;'>$PDFPA</span>"));
+	$PDFPN = ($PDFPN <= 0 ? "" : ($PDFPN <= 400 ? $PDFPN : "<span style='font-weight:bold; color:red;'>$PDFPN</span>"));
 	$PDFPIF = sprintf("%.2f",$PDFPI);
 	$PDFPIF = ($PDFPI <= 0 ? "" : ($PDFPI <= 18 ? $PDFPIF : "<span style='font-weight:bold; color:red;'>$PDFPIF</span>"));
 	$ISGOOD = ($ISGOOD == "GOOD" ? "ok" : "<span style='font-weight:bold; color:red;'>sos</span>" );
