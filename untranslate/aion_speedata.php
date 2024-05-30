@@ -35,7 +35,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(STEP).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Traditional|Aionian-Bible|Oriya|Vietnamese).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Syriac-Peshitta|Assamese-Bible|Palya-Bareli-Bible|Sorani-Bible|Marathi-Bible|Nepali-Bible|Urdu-Script|Tagalog-Bible-1905).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Arabic|Kannada|Myanmar|Oriya|Persian).*---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---(Kannada|Myanmar|Malayalam|Tamil|Sanskrit).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Gujarati|Aionian-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|New-Arabic|Burmese-Common|Bulgarian|Basque|Japanese-Yougo|Uyghur-Bible-Pinyin|Sencillo-Bible|Chinese-Union-Version-Traditional).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(King-James-Version-Updated).*---Aionian-Edition\.noia$/",
@@ -44,7 +44,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(New-Heart|Rote-Dela|French---Vulgate|Yombe|Hebrew---Living|Hebrew---Modern|Bangwinji|Bhadrawahi|Blackfoot|Borna|Chin-Daai|Chin--Thaiphum).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Hebrew|Juray|Sakachep).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Ndebele---Ndebele-Bible|Ndengereko---Ndengereko-Bible|N[e-z]+|[O-Z]+).*---Aionian-Edition\.noia$/",
-		'include'	=> "/Holy-Bible---(Uyghur---Uyghur-Bible-Latin|Uyghur---Uyghur-Bible-Pinyin|[V-Z]+).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---(German---German-Luther-Bible-1545|Haitian---Haitian-Creole-Smith|Portuguese---World-Portuguese-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Basque|Breton).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Chiyawo).*---Aionian-Edition\.noia$/",
@@ -705,13 +705,18 @@ if ($format=='STUDY') {
 	$size	= trim(!empty($forprint['SIZEST'])		? $forprint['SIZEST']		: $default['SIZEST']		);
 	$leading= trim(!empty($forprint['LEADINGST'])	? $forprint['LEADINGST']	: $default['LEADINGST']		);
 }
-else if ($format!='POD') {
+else if ($format!='POD' && !preg_match("/Holy-Bible---Sanskrit/u",	$versions['BIBLE'])) {
 	$size	= $size2	= trim(!empty($forprint['SIZE'])	? $forprint['SIZE']		: $default['SIZE']		);
 	$leading= $leading2	= trim(!empty($forprint['LEADING'])	? $forprint['LEADING']	: $default['LEADING']	);
-	if ((float)$size < 9.0) {
+	$newsize =
+		(preg_match("/Holy-Bible---Kannada/u",	$versions['BIBLE'])	? 7.5 :
+		(preg_match("/Holy-Bible---Malayalam/u",$versions['BIBLE'])	? 7.0 :
+		(preg_match("/Holy-Bible---Myanmar/u",	$versions['BIBLE'])	? 7.0 :
+		(preg_match("/Holy-Bible---Tamil/u",	$versions['BIBLE'])	? 6.5 : 9.0))));
+	if ((float)$size < $newsize) {
 		$ratio = (float)$leading / (float)$size;
-		$size = "9.0";
-		$leading = number_format( ceil(9.0 * $ratio * 100) / 100, 2);
+		$size = sprintf("%.1f", $newsize);
+		$leading = number_format( ceil($newsize * $ratio * 100) / 100, 2);
 		AION_ECHO("JEFF NOTICE! SIZE/LEADING was $size2/$leading2 now $size/$leading");
 	}
 }

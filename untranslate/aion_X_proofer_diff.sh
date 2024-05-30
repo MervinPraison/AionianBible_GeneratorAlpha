@@ -15,6 +15,9 @@ $files = array( // DO SOME
 	);
 $files = array_diff(scandir('../www-stageresources/AB-PROOFS'), array('.', '..')); // DO ALL
 //$files = array(); // DO NONE
+//if (($key = array_search("BIBLE-PROOF-ACOVER_ALL.pdf", $files)) !== false) { unset($files[$key]); }
+//if (($key = array_search("BIBLE-PROOF-ACOVER_HAR.pdf", $files)) !== false) { unset($files[$key]); }
+//if (($key = array_search("BIBLE-PROOF-ACOVER_NEW.pdf", $files)) !== false) { unset($files[$key]); }
 foreach($files as $file) {
 	//if (preg_match("#_HARD\.pdf$#",$file)) { continue; }
 	//if (preg_match("#_NT\.pdf$#",$file)) { continue; }
