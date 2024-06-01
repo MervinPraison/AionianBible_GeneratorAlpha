@@ -35,7 +35,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(STEP).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Traditional|Aionian-Bible|Oriya|Vietnamese).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Syriac-Peshitta|Assamese-Bible|Palya-Bareli-Bible|Sorani-Bible|Marathi-Bible|Nepali-Bible|Urdu-Script|Tagalog-Bible-1905).*---Aionian-Edition\.noia$/",
-		'include'	=> "/Holy-Bible---(Kannada|Myanmar|Malayalam|Tamil|Sanskrit).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---(Kannada|Myanmar|Malayalam|Tamil|Sanskrit).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Gujarati|Aionian-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|New-Arabic|Burmese-Common|Bulgarian|Basque|Japanese-Yougo|Uyghur-Bible-Pinyin|Sencillo-Bible|Chinese-Union-Version-Traditional).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(King-James-Version-Updated).*---Aionian-Edition\.noia$/",
@@ -59,7 +59,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---(Tongan|Turkish|[UV]+).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Catholic-Public-Domain---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
-		//'include'	=> "/---Aionian-Edition\.noia$/",
+		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		) );
@@ -701,24 +701,50 @@ $tsize		= trim(!empty($forprint['TSIZE'])		? $forprint['TSIZE']		: $default['TSI
 $tleading	= trim(!empty($forprint['TLEADING'])	? $forprint['TLEADING']		: $default['TLEADING']		);
 $rsize		= trim(!empty($forprint['RSIZE'])		? $forprint['RSIZE']		: $default['RSIZE']			);
 $rleading	= trim(!empty($forprint['RLEADING'])	? $forprint['RLEADING']		: $default['RLEADING']		);
+
+/* FONT / LEADING 
+
+Setting the font and leading size for the body text is a challenge because the different languages and glyphs
+require different font and leading size ratios for proper display and also because Amazon and Lulu have a hard
+limit of 800 pages for printed books. So it is a challenge for some texts especially to maximize font and leading 
+size for readability and stay under 800 pages. Originally I had one font and leading size specified for each translation
+regardless of the PDF type, whether the online PDF, the study PDF, the POD PDF, or the NT POD PDF. This was simple 
+but compromised readability for the online PDF, the study PDF, and the NT POD PDF
+
+Then I increased the font size and also the leading ratio for the study PDF with additional values in FORPRINT 
+to allow for better note taking with a taller line height.
+
+Now most recently I also programmatically increased the font and leading for the online PDF, the study PDF, and
+the NT POD PDF. However the POD PDF remains exactly as specified in the input.  In a nutshell if the font is < 9.0
+I increase to 9.0 as a minimum, except for the Kannada language. Others are also excepted. See below. And I also
+increase the leading by 10%, but again not for the POD PDF.
+
+This allows us to increase font and leading size for the PDF types where the 800 page maximum is not a concern.
+This also brings a curious question. In the case when the translation is OT or NT or partial books and there is
+not a NT POD PDF, but only a POD PDF, then in this case the font and leading are not programmatically increased
+but only the online PDF and the study PDF are increased. This does seem inconsistent and probably is, though the
+POD PDF font and leading is explicitly set at a readable level in FORPRINT. I guess we could argue that there is
+reason to keep the POD PDF smaller than the online adn study PDF in order to keep page counts down and price down
+whereas there is no reason to spare pages for the online PDF and the study PDF and readability is the only concern.
+
+*/
 if ($format=='STUDY') {
 	$size	= trim(!empty($forprint['SIZEST'])		? $forprint['SIZEST']		: $default['SIZEST']		);
 	$leading= trim(!empty($forprint['LEADINGST'])	? $forprint['LEADINGST']	: $default['LEADINGST']		);
 }
-else if ($format!='POD' && !preg_match("/Holy-Bible---Sanskrit/u",	$versions['BIBLE'])) {
+else if ($format!='POD' &&
+	!preg_match("/Holy-Bible---Sanskrit/u",	$versions['BIBLE']) &&
+	!preg_match("/Holy-Bible---Malayalam/u",$versions['BIBLE']) &&
+	!preg_match("/Holy-Bible---Myanmar/u",	$versions['BIBLE']) &&
+	!preg_match("/Holy-Bible---Tamil/u",	$versions['BIBLE'])
+	) {
 	$size	= $size2	= trim(!empty($forprint['SIZE'])	? $forprint['SIZE']		: $default['SIZE']		);
 	$leading= $leading2	= trim(!empty($forprint['LEADING'])	? $forprint['LEADING']	: $default['LEADING']	);
-	$newsize =
-		(preg_match("/Holy-Bible---Kannada/u",	$versions['BIBLE'])	? 7.5 :
-		(preg_match("/Holy-Bible---Malayalam/u",$versions['BIBLE'])	? 7.0 :
-		(preg_match("/Holy-Bible---Myanmar/u",	$versions['BIBLE'])	? 7.0 :
-		(preg_match("/Holy-Bible---Tamil/u",	$versions['BIBLE'])	? 6.5 : 9.0))));
-	if ((float)$size < $newsize) {
-		$ratio = (float)$leading / (float)$size;
-		$size = sprintf("%.1f", $newsize);
-		$leading = number_format( ceil($newsize * $ratio * 100) / 100, 2);
-		AION_ECHO("JEFF NOTICE! SIZE/LEADING was $size2/$leading2 now $size/$leading");
-	}
+	$ratio	= ((float)$leading / (float)$size) * 1.1; // 10% increase in non-POD leading
+	$newsize= (preg_match("/Holy-Bible---Kannada/u",	$versions['BIBLE'])	? 7.5 : 9.0);
+	if ((float)$size < $newsize) { $size = sprintf("%.1f", $newsize); }
+	$leading = number_format( ceil((float)$size * $ratio * 100) / 100, 2); // calculate new leading from previous leading ratio
+	AION_ECHO("JEFF NOTICE! SIZE/LEADING was $size2/$leading2 now $size/$leading");
 }
 else {
 	$size	= trim(!empty($forprint['SIZE'])		? $forprint['SIZE']			: $default['SIZE']			);
