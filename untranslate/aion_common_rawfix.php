@@ -5494,9 +5494,6 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---French---French-Crampon-Bible-New" :
-if (!($bfile = preg_replace('/[{]+/us','(',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-if (!($bfile = preg_replace('/[}]+/us',')',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$bfile_saved = $bfile;
 $textfix = <<<EOF
 DEU 5:17 Tu ne tueras pas.
 DEU 5:18 Tu ne commettras pas d’adultère.
@@ -5625,12 +5622,6 @@ ACT 19:41 Ayant parlé ainsi, il congédia l’assemblée.
 ACT 20:1 
 EOF;
 if (!($bfile = preg_replace("/ACT 19:40 (.+?)ACT 20:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-1CO 16:23 QUE LA GRÂCE DU SEIGNEUR JÉSUS SOIT AVEC VOUS !
-1CO 16:24 MON AMOUR EST AVEC VOUS TOUS EN JÉSUS-CHRIST [AMEN !].
-2CO 1:1 
-EOF;
-if (!($bfile = preg_replace("/1CO 16:23 (.+?)2CO 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 2CO 13:12 Saluez-vous les uns les autres par un saint baiser.
 2CO 13:13 Tous les saints vous saluent.
