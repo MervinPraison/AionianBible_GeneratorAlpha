@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
 # File Size: 1578973     
-# File Date: 06/07/2024 00:36:44
+# File Date: 06/08/2024 08:32:00
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024

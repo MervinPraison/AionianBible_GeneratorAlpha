@@ -56,10 +56,10 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/.*Arapaho.*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Sanskrit---Tamil).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Rote-Dela).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---(Tongan|Turkish|[UV]+).*---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---(Coptic|Myanmar---Burmese-Common|Sanskrit---Burmese|Sanskrit---Cologne|Sanskrit---Harvard|Sanskrit---IAST|Sanskrit---ISO|Sanskrit---ITRANS|Sanskrit---Tamil|Sanskrit---Velthuis).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Catholic-Public-Domain---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
-		'include'	=> "/---Aionian-Edition\.noia$/",
+		//'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		) );
@@ -202,6 +202,7 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 	$current_chap = NULL;
 	$closetag = 'oldtest';
 	$database = array();
+	$thyphen_count1 = $thyphen_count2 = $thyphen_count3 = $thyphen_count4 = $thyphen_count5 = 0;
 	AION_FILE_DATA_GET( $args['filepath'], 'T_BIBLE', $database, array('INDEX','BOOK','CHAPTER','VERSE'), FALSE );
 	AION_FILE_BIBLE_RESORT( $forprint, $database );
 	AION_GLOSSARY_REFERENCES_GET( $bible, $database, $args );
@@ -243,9 +244,28 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 			if ($verse['TEXT'] != $verse_orig) { AION_ECHO("JEFF NOTICE! Replacement in $bible at ".$verse['INDEX']." ".$verse['BOOK']." ".$verse['CHAPTER']." ".$verse['VERSE']." ".$verse['TEXT']); }
 		}
 		// HYPHEN
-		if (!empty($forprint['HYPHEN']) && ($hyphen=(int)$forprint['HYPHEN'])>=20) {
-			if (!($verse['TEXT'] = preg_replace('/(\p{L}{10})(\p{L}{10,})/ui', '$1-$2', $verse['TEXT'], -1, $hyphen_count))) { AION_ECHO("ERROR! preg_replace(hyphen) error: ".preg_last_error() . " ".$verse['BOOK']." ".$verse['CHAPTER']." ".$verse['VERSE']." ".$verse['TEXT']); }
-			if ($hyphen_count>0) { AION_ECHO("SPEEDATA! MANUAL HYPHEN: $hyphen_count at $bible ".$verse['BOOK']." ".$verse['CHAPTER']." ".$verse['VERSE']); }
+		// begin each word part with \p{Letter} hoping that \p{Mark} are connected to correct letter, do not separate Marks from Letters
+		$hyphen_count1 = $hyphen_count2 = $hyphen_count3 = $hyphen_count4 = $hyphen_count5 = 0;
+		if (!empty($forprint['HYPHEN'])) {
+			if (!($verse['TEXT'] = preg_replace('/([\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})/ui', '$1-$2-$3-$4-$5-$6', $verse['TEXT'], -1, $hyphen_count5)) ||
+				!($verse['TEXT'] = preg_replace('/([\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})/ui', '$1-$2-$3-$4-$5', $verse['TEXT'], -1, $hyphen_count4)) ||
+				!($verse['TEXT'] = preg_replace('/([\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})/ui', '$1-$2-$3-$4', $verse['TEXT'], -1, $hyphen_count3)) ||
+				!($verse['TEXT'] = preg_replace('/([\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})/ui', '$1-$2-$3', $verse['TEXT'], -1, $hyphen_count2)) ||
+				!($verse['TEXT'] = preg_replace('/([\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})/ui', '$1-$2', $verse['TEXT'], -1, $hyphen_count1))) {
+				AION_ECHO("ERROR! preg_replace(hyphen) error: ".preg_last_error() . " ".$verse['BOOK']." ".$verse['CHAPTER']." ".$verse['VERSE']." ".$verse['TEXT']);
+			}
+			if (preg_match('/([\p{L}\p{M}]{23})/ui', $verse['TEXT'])) {
+				AION_ECHO("ERROR! HYPHEN preg_match(23) missed: ".$verse['BOOK']." ".$verse['CHAPTER']." ".$verse['VERSE']." ".$verse['TEXT']);
+			}
+			$hyphen_count = $hyphen_count1 + $hyphen_count2 + $hyphen_count3 + $hyphen_count4 + $hyphen_count5;
+			if ($hyphen_count>0) {
+				AION_ECHO("SPEEDATA! HYPHENATED: $bible, $hyphen_count1 + $hyphen_count2 + $hyphen_count3 + $hyphen_count4 + $hyphen_count5 = $hyphen_count\t".$verse['BOOK']."\t".$verse['CHAPTER']."\t".$verse['VERSE']."\t".$verse['TEXT']);
+				$thyphen_count1 += $hyphen_count1;
+				$thyphen_count2 += $hyphen_count2;
+				$thyphen_count3 += $hyphen_count3;
+				$thyphen_count4 += $hyphen_count4;
+				$thyphen_count5 += $hyphen_count5;
+			}
 		}
 		// VERSE FORMAT
 		$count_q = $count_g = 0;
@@ -279,6 +299,9 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 	if(!fclose($fp)) { AION_ECHO("ERROR! fclose: $DATA"); }
 	$langspeed	= trim(!empty($forprint['LANGSPEED']) ? $forprint['LANGSPEED'] : "English (USA)" );
 	AION_GLOSSARY_REFERENCES_PUT( $bible, $database, $args, !empty($forprint['ISBNLU22']), $langspeed);
+	$thyphen_count = $thyphen_count1 + $thyphen_count2 + $thyphen_count3 + $thyphen_count4 + $thyphen_count5;
+	if ($thyphen_count>0) { AION_ECHO("SPEEDATA! TOTAL HYPHEN: $bible, $thyphen_count1 + $thyphen_count2 + $thyphen_count3 + $thyphen_count4 + $thyphen_count5 = $thyphen_count"); }
+
 	AION_ECHO("SPEEDATA $bible: BIBLE CREATION SUCCESS! $DATA");
 	
 	// UNSET
