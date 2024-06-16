@@ -202,7 +202,7 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 	$current_chap = NULL;
 	$closetag = 'oldtest';
 	$database = array();
-	$thyphen_count1 = $thyphen_count2 = $thyphen_count3 = $thyphen_count4 = $thyphen_count5 = 0;
+	$hyphen_total = array(0,0,0,0,0,0,0,0,0);
 	AION_FILE_DATA_GET( $args['filepath'], 'T_BIBLE', $database, array('INDEX','BOOK','CHAPTER','VERSE'), FALSE );
 	AION_FILE_BIBLE_RESORT( $forprint, $database );
 	AION_GLOSSARY_REFERENCES_GET( $bible, $database, $args );
@@ -245,27 +245,32 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 		}
 		// HYPHEN
 		// begin each word part with \p{Letter} hoping that \p{Mark} are connected to correct letter, do not separate Marks from Letters
-		$hyphen_count1 = $hyphen_count2 = $hyphen_count3 = $hyphen_count4 = $hyphen_count5 = 0;
 		if (!empty($forprint['HYPHEN'])) {
-			if (!($verse['TEXT'] = preg_replace('/(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})/ui', '$1-$2-$3-$4-$5-$6', $verse['TEXT'], -1, $hyphen_count5)) ||
-				!($verse['TEXT'] = preg_replace('/(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})/ui', '$1-$2-$3-$4-$5', $verse['TEXT'], -1, $hyphen_count4)) ||
-				!($verse['TEXT'] = preg_replace('/(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})/ui', '$1-$2-$3-$4', $verse['TEXT'], -1, $hyphen_count3)) ||
-				!($verse['TEXT'] = preg_replace('/(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})/ui', '$1-$2-$3', $verse['TEXT'], -1, $hyphen_count2)) ||
-				!($verse['TEXT'] = preg_replace('/(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})/ui', '$1-$2', $verse['TEXT'], -1, $hyphen_count1))) {
+			$seg = "(\p{L}[\p{L}\p{M}]{7,16})";
+			$hyphen_count = array(0,0,0,0,0,0,0,0,0);
+			if (!($verse['TEXT'] = preg_replace("/$seg$seg$seg$seg$seg$seg$seg$seg$seg$seg/ui",	'$1-$2-$3-$4-$5-$6-$7-$8-$9-$10',	$verse['TEXT'], -1, $hyphen_count[0])) || // 7*10+10=80, 16*10+10=170
+				!($verse['TEXT'] = preg_replace("/$seg$seg$seg$seg$seg$seg$seg$seg$seg/ui",		'$1-$2-$3-$4-$5-$6-$7-$8-$9',		$verse['TEXT'], -1, $hyphen_count[1])) || // 7*9+9=72,   16*9+9=153
+				!($verse['TEXT'] = preg_replace("/$seg$seg$seg$seg$seg$seg$seg$seg/ui",			'$1-$2-$3-$4-$5-$6-$7-$8',			$verse['TEXT'], -1, $hyphen_count[2])) || // 7*8+8=64,   16*8+8=136
+				!($verse['TEXT'] = preg_replace("/$seg$seg$seg$seg$seg$seg$seg/ui",				'$1-$2-$3-$4-$5-$6-$7',				$verse['TEXT'], -1, $hyphen_count[3])) || // 7*7+7=56,   16*7+7=119
+				!($verse['TEXT'] = preg_replace("/$seg$seg$seg$seg$seg$seg/ui",					'$1-$2-$3-$4-$5-$6',				$verse['TEXT'], -1, $hyphen_count[4])) || // 7*6+6=49,   16*6+6=102
+				!($verse['TEXT'] = preg_replace("/$seg$seg$seg$seg$seg/ui",						'$1-$2-$3-$4-$5',					$verse['TEXT'], -1, $hyphen_count[5])) || // 7*5+5=42,   16*5+5=85
+				!($verse['TEXT'] = preg_replace("/$seg$seg$seg$seg/ui",							'$1-$2-$3-$4',						$verse['TEXT'], -1, $hyphen_count[6])) || // 7*4+4=35,   16*4+4=68
+				!($verse['TEXT'] = preg_replace("/$seg$seg$seg/ui",								'$1-$2-$3',							$verse['TEXT'], -1, $hyphen_count[7])) || // 7*3+3=24,   16*3+3=51
+				!($verse['TEXT'] = preg_replace("/$seg$seg/ui",									'$1-$2',							$verse['TEXT'], -1, $hyphen_count[8])) || // 7*2+2=16,   16*2+2=34
+				FALSE
+				) {
 				AION_ECHO("ERROR! preg_replace(hyphen) error: ".preg_last_error() . " ".$verse['BOOK']." ".$verse['CHAPTER']." ".$verse['VERSE']." ".$verse['TEXT']);
 			}
-			if (preg_match('/([\p{L}\p{M}]{22})/ui', $verse['TEXT'])) {
-				AION_ECHO("ERROR! HYPHEN preg_match(22) missed: ".$verse['BOOK']." ".$verse['CHAPTER']." ".$verse['VERSE']." ".$verse['TEXT']);
+			if (preg_match('/([\p{L}\p{M}]{19})/ui', $verse['TEXT'])) {
+				AION_ECHO("ERROR! HYPHEN preg_match(19) missed: ".$verse['BOOK']." ".$verse['CHAPTER']." ".$verse['VERSE']." ".$verse['TEXT']);
 			}
-			$hyphen_count = $hyphen_count1 + $hyphen_count2 + $hyphen_count3 + $hyphen_count4 + $hyphen_count5;
-			if ($hyphen_count>0) {
-				AION_ECHO("SPEEDATA! HYPHENATED: $bible, $hyphen_count1 + $hyphen_count2 + $hyphen_count3 + $hyphen_count4 + $hyphen_count5 = $hyphen_count\t".$verse['BOOK']."\t".$verse['CHAPTER']."\t".$verse['VERSE']."\t".$verse['TEXT']);
-				$thyphen_count1 += $hyphen_count1;
-				$thyphen_count2 += $hyphen_count2;
-				$thyphen_count3 += $hyphen_count3;
-				$thyphen_count4 += $hyphen_count4;
-				$thyphen_count5 += $hyphen_count5;
+			$yes = $counts = $total = NULL;
+			foreach($hyphen_count as $dex => $num) {
+				$num = (int)$num;
+				$counts .= " / $num";
+				if ($num) { $yes = TRUE; $hyphen_total[$dex] += $num; $total += $num; }
 			}
+			if ($yes) { AION_ECHO("HYPHENATED $counts : $total: ".$verse['BOOK']." ".$verse['CHAPTER']." ".$verse['VERSE']." ".$verse['TEXT']); }
 		}
 		// VERSE FORMAT
 		$count_q = $count_g = 0;
@@ -299,8 +304,10 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 	if(!fclose($fp)) { AION_ECHO("ERROR! fclose: $DATA"); }
 	$langspeed	= trim(!empty($forprint['LANGSPEED']) ? $forprint['LANGSPEED'] : "English (USA)" );
 	AION_GLOSSARY_REFERENCES_PUT( $bible, $database, $args, !empty($forprint['ISBNLU22']), $langspeed);
-	$thyphen_count = $thyphen_count1 + $thyphen_count2 + $thyphen_count3 + $thyphen_count4 + $thyphen_count5;
-	if ($thyphen_count>0) { AION_ECHO("SPEEDATA! TOTAL HYPHEN: $bible, $thyphen_count1 + $thyphen_count2 + $thyphen_count3 + $thyphen_count4 + $thyphen_count5 = $thyphen_count"); }
+
+	$counts = $total = NULL;
+	foreach($hyphen_total as $dex => $num) { $num = (int)$num; $total += $num; $counts .= " / $num"; }
+	AION_ECHO("TOTAL HYPHEN: $bible $counts : $total\n\n\n");
 
 	AION_ECHO("SPEEDATA $bible: BIBLE CREATION SUCCESS! $DATA");
 	
