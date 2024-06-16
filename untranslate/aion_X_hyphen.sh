@@ -27,15 +27,15 @@ foreach($BIBLES as $bible) {
 	AION_FILE_DATA_GET( $bible, 'T_BIBLE', $database, array('INDEX','BOOK','CHAPTER','VERSE'), FALSE );
 	$replacements = $replacements1 = $replacements2 = $replacements3 = $replacements4 = $replacements5 = 0;
 	foreach($database['T_BIBLE'] as $ref => $verse) {
-		if (!($verse['TEXT'] = preg_replace('/([\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})/ui', '$1-$2-$3-$4-$5-$6', $verse['TEXT'], -1, $hyphen_count5)) ||
-			!($verse['TEXT'] = preg_replace('/([\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})/ui', '$1-$2-$3-$4-$5', $verse['TEXT'], -1, $hyphen_count4)) ||
-			!($verse['TEXT'] = preg_replace('/([\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})/ui', '$1-$2-$3-$4', $verse['TEXT'], -1, $hyphen_count3)) ||
-			!($verse['TEXT'] = preg_replace('/([\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})/ui', '$1-$2-$3', $verse['TEXT'], -1, $hyphen_count2)) ||
-			!($verse['TEXT'] = preg_replace('/([\p{L}\p{M}]{9,13})(\p{L}[\p{L}\p{M}]{9,13})/ui', '$1-$2', $verse['TEXT'], -1, $hyphen_count1))) {
+		if (!($verse['TEXT'] = preg_replace('/(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})/ui', '$1-$2-$3-$4-$5-$6', $verse['TEXT'], -1, $hyphen_count5)) ||
+			!($verse['TEXT'] = preg_replace('/(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})/ui', '$1-$2-$3-$4-$5', $verse['TEXT'], -1, $hyphen_count4)) ||
+			!($verse['TEXT'] = preg_replace('/(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})/ui', '$1-$2-$3-$4', $verse['TEXT'], -1, $hyphen_count3)) ||
+			!($verse['TEXT'] = preg_replace('/(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})/ui', '$1-$2-$3', $verse['TEXT'], -1, $hyphen_count2)) ||
+			!($verse['TEXT'] = preg_replace('/(\p{L}[\p{L}\p{M}]{8,10})(\p{L}[\p{L}\p{M}]{8,10})/ui', '$1-$2', $verse['TEXT'], -1, $hyphen_count1))) {
 			AION_ECHO("ERROR! preg_replace(hyphen) error: ".preg_last_error() . " ".$verse['BOOK']." ".$verse['CHAPTER']." ".$verse['VERSE']." ".$verse['TEXT']);
 		}
-		if (preg_match('/([\p{L}\p{M}]{23})/ui', $verse['TEXT'])) {
-			AION_ECHO("ERROR! preg_match(23) missed: ".$verse['BOOK']." ".$verse['CHAPTER']." ".$verse['VERSE']." ".$verse['TEXT']);
+		if (preg_match('/([\p{L}\p{M}]{22})/ui', $verse['TEXT'])) {
+			AION_ECHO("ERROR! preg_match(22) missed: ".$verse['BOOK']." ".$verse['CHAPTER']." ".$verse['VERSE']." ".$verse['TEXT']);
 		}
 		$hyphen_count = $hyphen_count1 + $hyphen_count2 + $hyphen_count3 + $hyphen_count4 + $hyphen_count5;
 		if ($hyphen_count>0) {

@@ -3,7 +3,7 @@ Holy-Bible---Ahirani---Gospels	NONE
 Holy-Bible---Albanian-Tosk---Albanian-Bible	XALB
 Holy-Bible---Amo---Amo-Bible	NONE
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible	NONE
-Holy-Bible---Arabic---New-Arabic-Bible	PRO1
+Holy-Bible---Arabic---New-Arabic-Bible	NONE
 Holy-Bible---Aramaic---Aramaic-NT-Peshitta	NONE
 Holy-Bible---Aramaic---Syriac-Peshitta	NONE
 Holy-Bible---Arapaho---Arapaho-Luke	NONE

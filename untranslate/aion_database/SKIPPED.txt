@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1578973     
-# File Date: 06/08/2024 08:32:00
+# File Size: 1579460     
+# File Date: 06/15/2024 23:14:21
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -21,7 +21,8 @@ Holy-Bible---Amo---Amo-Bible	064	3JO	001	014	Ndin caa inyene mune nin nizi, tima
 Holy-Bible---Amo---Amo-Bible	066	REV	012	018	Ddragone uni wa yissin kitene licicin nbiyu kurawa.
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible	054	1TI	006	021	ٱلَّذِي إِذْ تَظَاهَرَ بِهِ قَوْمٌ زَاغُوا مِنْ جِهَةِ ٱلْإِيمَانِ.
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible	064	3JO	001	014	وَلَكِنَّنِي أَرْجُو أَنْ أَرَاكَ عَنْ قَرِيبٍ فَنَتَكَلَّمَ فَمًا لِفَمٍ.
-Holy-Bible---Arabic---New-Arabic-Bible	044	ACT	015	025	،
+Holy-Bible---Arabic---New-Arabic-Bible	054	1TI	006	021	وَإِذِ ادَّعَى بَعْضُهُمْ هَذِهِ الْمَعْرِفَةَ الْمَزْعُومَةَ، زَاغُوا عَنِ الإِيمَانِ.
+Holy-Bible---Arabic---New-Arabic-Bible	064	3JO	001	014	فَآمُلُ أَنْ نَتَقَابَلَ عَنْ قَرِيبٍ، فَنَتَكَلَّمَ مُوَاجَهَةً!
 Holy-Bible---Armenian---Armenian-Bible-Eastern	040	MAT	006	009	Եւ արդ, դուք այսպէ՛ս աղօթեցէք».
 Holy-Bible---Armenian---Armenian-Bible-Eastern	040	MAT	028	011	Երբ նրանք գնացին, ահա զինուորներից ոմանք քաղաք եկան ու
 Holy-Bible---Armenian---Armenian-Bible-Eastern	043	JOH	006	051	Ես եմ կենդանի հացը, որ երկնքից է իջած.
@@ -285,6 +286,7 @@ Holy-Bible---Chin-Daai---Daai-Chin-Bible	066	REV	012	018	Acunüng mnaka cun tuik
 Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	064	3JO	001	014	nang hoi angqum palang tih hmang, tiah oephaih ka tawnh, to naah mikhmai kang tongah lok aram tih hmang.
 Holy-Bible---Chin-Matu---Matupi-Chin-2019	064	3JO	001	014	Tedae nangmih te tlek hmuh ham ka ngaiuep. Te vaengah ka neh ka rhoi te n'thui bitni.
 Holy-Bible---Chin-Matu---Matupi-Chin-2019	066	REV	012	018	Tedae tuitunli kah laivin dongah sut pai.
+Holy-Bible---Chin-Matu---Matupi-Chin-Bible	064	3JO	001	014	Tedae nangmih te tlek hmuh ham ka ngaiuep. Te vaengah ka neh ka rhoi te n'thui bitni.
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	066	REV	012	018	Tedae tuitunli kah laivin dongah sut pai.
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	064	3JO	001	014	Ahihang hai ngawl in hong mu tu in ki um khi hi, maitang kisi in i ki paupui tu hi.
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	066	REV	012	018	Pathian thupiak te a zui nupi nu i suan a tanglai te do tu in kuankhia hi.

@@ -7,6 +7,9 @@ Holy-Bible---Amo---Amo-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Amo---Amo-Bible							end
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible	054	1TI	006	021	21	1	end
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Arabic---Arabic-Van-Dyck-Bible							end
+Holy-Bible---Arabic---New-Arabic-Bible	054	1TI	006	021	21	1	end
+Holy-Bible---Arabic---New-Arabic-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Arabic---New-Arabic-Bible							end
 Holy-Bible---Aramaic---Syriac-Peshitta							end
 Holy-Bible---Arapaho---Arapaho-Luke							end
@@ -136,7 +139,9 @@ Holy-Bible---Chinese---Chinese-Union-Version-Traditional	066	REV	012	018	1	-1	en
 Holy-Bible---Chin-Matu---Matupi-Chin-2019	064	3JO	001	014	14	1	end
 Holy-Bible---Chin-Matu---Matupi-Chin-2019	066	REV	012	018	1	-1	end
 Holy-Bible---Chin-Matu---Matupi-Chin-2019							end
+Holy-Bible---Chin-Matu---Matupi-Chin-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	066	REV	012	018	1	-1	end
+Holy-Bible---Chin-Matu---Matupi-Chin-Bible							end
 Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible							end
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	066	REV	012	018	1	-1	end

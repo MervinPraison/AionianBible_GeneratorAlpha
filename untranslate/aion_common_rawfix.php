@@ -237,14 +237,6 @@ goto RAWHIDE;
 
 
 
-// RAWFIX BIBLE ********************
-case "Holy-Bible---Arabic---New-Arabic-Bible" :
-if (!($bfile = preg_replace("/([A-Z0-9]{3} \d+:\d+ )\d+/us",'$1',$bfile,-1,$rnum)) || $rnum!=3) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$bfile_saved = $bfile;
-goto RAWHIDE;
-
-
-
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Aramaic---Aramaic-NT-Peshitta" :
@@ -1002,7 +994,6 @@ case "Holy-Bible---Chin-Matu---Matupi-Chin-Bible" :
 if (!($bfile = preg_replace("/\x{200d}/us"," ",$bfile,-1,$rnum)) || $rnum!=10) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#0x200d/1
 //if (!($bfile = preg_replace("#(א|ב|ג|ד|ה|ו|ז|ח|ט|י|כ|ל|מ|נ|ס|ע|פ|צ|ק|ר|ש|ת|/ שׁ|ׂ)#us"," ",$bfile,-1,$rnum)) || $rnum!=24) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
-if (!($bfile = preg_replace("/[\r\n]+3JO 1:15 /us"," ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
