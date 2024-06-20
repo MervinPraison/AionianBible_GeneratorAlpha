@@ -57,6 +57,9 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Sanskrit---Tamil).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Rote-Dela).*---Aionian-Edition\.noia$/",
 		'include'	=> "/Holy-Bible---(Coptic|Myanmar---Burmese-Common|Sanskrit---Burmese|Sanskrit---Cologne|Sanskrit---Harvard|Sanskrit---IAST|Sanskrit---ISO|Sanskrit---ITRANS|Sanskrit---Tamil|Sanskrit---Velthuis).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---(Coptic).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---(Myanmar---Burmese-Common).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---Coptic---Coptic-Boharic-NT---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Catholic-Public-Domain---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
 		//'include'	=> "/---Aionian-Edition\.noia$/",
@@ -202,7 +205,7 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 	$current_chap = NULL;
 	$closetag = 'oldtest';
 	$database = array();
-	$hyphen_total = array(0,0,0,0,0,0,0,0,0);
+	$hyphen_total = 0;
 	AION_FILE_DATA_GET( $args['filepath'], 'T_BIBLE', $database, array('INDEX','BOOK','CHAPTER','VERSE'), FALSE );
 	AION_FILE_BIBLE_RESORT( $forprint, $database );
 	AION_GLOSSARY_REFERENCES_GET( $bible, $database, $args );
@@ -245,32 +248,18 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 		}
 		// HYPHEN
 		// begin each word part with \p{Letter} hoping that \p{Mark} are connected to correct letter, do not separate Marks from Letters
+		//https://www.regular-expressions.info/unicode.html
+		// \p{L}\p{M}\p{Z}\p{S}\p{N}\p{P}\p{C}
 		if (!empty($forprint['HYPHEN'])) {
-			$seg = "(\p{L}[\p{L}\p{M}]{7,16})";
-			$hyphen_count = array(0,0,0,0,0,0,0,0,0);
-			if (!($verse['TEXT'] = preg_replace("/$seg$seg$seg$seg$seg$seg$seg$seg$seg$seg/ui",	'$1-$2-$3-$4-$5-$6-$7-$8-$9-$10',	$verse['TEXT'], -1, $hyphen_count[0])) || // 7*10+10=80, 16*10+10=170
-				!($verse['TEXT'] = preg_replace("/$seg$seg$seg$seg$seg$seg$seg$seg$seg/ui",		'$1-$2-$3-$4-$5-$6-$7-$8-$9',		$verse['TEXT'], -1, $hyphen_count[1])) || // 7*9+9=72,   16*9+9=153
-				!($verse['TEXT'] = preg_replace("/$seg$seg$seg$seg$seg$seg$seg$seg/ui",			'$1-$2-$3-$4-$5-$6-$7-$8',			$verse['TEXT'], -1, $hyphen_count[2])) || // 7*8+8=64,   16*8+8=136
-				!($verse['TEXT'] = preg_replace("/$seg$seg$seg$seg$seg$seg$seg/ui",				'$1-$2-$3-$4-$5-$6-$7',				$verse['TEXT'], -1, $hyphen_count[3])) || // 7*7+7=56,   16*7+7=119
-				!($verse['TEXT'] = preg_replace("/$seg$seg$seg$seg$seg$seg/ui",					'$1-$2-$3-$4-$5-$6',				$verse['TEXT'], -1, $hyphen_count[4])) || // 7*6+6=49,   16*6+6=102
-				!($verse['TEXT'] = preg_replace("/$seg$seg$seg$seg$seg/ui",						'$1-$2-$3-$4-$5',					$verse['TEXT'], -1, $hyphen_count[5])) || // 7*5+5=42,   16*5+5=85
-				!($verse['TEXT'] = preg_replace("/$seg$seg$seg$seg/ui",							'$1-$2-$3-$4',						$verse['TEXT'], -1, $hyphen_count[6])) || // 7*4+4=35,   16*4+4=68
-				!($verse['TEXT'] = preg_replace("/$seg$seg$seg/ui",								'$1-$2-$3',							$verse['TEXT'], -1, $hyphen_count[7])) || // 7*3+3=24,   16*3+3=51
-				!($verse['TEXT'] = preg_replace("/$seg$seg/ui",									'$1-$2',							$verse['TEXT'], -1, $hyphen_count[8])) || // 7*2+2=16,   16*2+2=34
-				FALSE
-				) {
-				AION_ECHO("ERROR! preg_replace(hyphen) error: ".preg_last_error() . " ".$verse['BOOK']." ".$verse['CHAPTER']." ".$verse['VERSE']." ".$verse['TEXT']);
+			$hyphen_count = 0;
+			$before = $verse['TEXT'];
+			if (!($verse['TEXT'] = preg_replace("/([\p{L}\p{M}\p{S}\p{N}\p{C}]{{$forprint['HYPHEN']}})(\p{L}[\p{L}\p{M}\p{S}\p{N}\p{C}]{{$forprint['HYPHEN']}})/ui", '$1-$2', $verse['TEXT'], -1, $hyphen_count))) {
+				AION_ECHO("ERROR! $bible preg_replace(hyphen) error: ".preg_last_error() . " $ref $before ".$verse['TEXT']);
 			}
-			if (preg_match('/([\p{L}\p{M}]{19})/ui', $verse['TEXT'])) {
-				AION_ECHO("ERROR! HYPHEN preg_match(19) missed: ".$verse['BOOK']." ".$verse['CHAPTER']." ".$verse['VERSE']." ".$verse['TEXT']);
+			if ($hyphen_count) {
+				AION_ECHO("HYPHEN VERSE\t$hyphen_count\t$bible\t$ref\t$before\t".$verse['TEXT']);
+				$hyphen_total += $hyphen_count;
 			}
-			$yes = $counts = $total = NULL;
-			foreach($hyphen_count as $dex => $num) {
-				$num = (int)$num;
-				$counts .= " / $num";
-				if ($num) { $yes = TRUE; $hyphen_total[$dex] += $num; $total += $num; }
-			}
-			if ($yes) { AION_ECHO("HYPHENATED $counts : $total: ".$verse['BOOK']." ".$verse['CHAPTER']." ".$verse['VERSE']." ".$verse['TEXT']); }
 		}
 		// VERSE FORMAT
 		$count_q = $count_g = 0;
@@ -304,11 +293,7 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 	if(!fclose($fp)) { AION_ECHO("ERROR! fclose: $DATA"); }
 	$langspeed	= trim(!empty($forprint['LANGSPEED']) ? $forprint['LANGSPEED'] : "English (USA)" );
 	AION_GLOSSARY_REFERENCES_PUT( $bible, $database, $args, !empty($forprint['ISBNLU22']), $langspeed);
-
-	$counts = $total = NULL;
-	foreach($hyphen_total as $dex => $num) { $num = (int)$num; $total += $num; $counts .= " / $num"; }
-	AION_ECHO("TOTAL HYPHEN: $bible $counts : $total\n\n\n");
-
+	if ($hyphen_total) { AION_ECHO("HYPHEN TOTAL=$hyphen_total,  $bible");	}
 	AION_ECHO("SPEEDATA $bible: BIBLE CREATION SUCCESS! $DATA");
 	
 	// UNSET
@@ -724,6 +709,7 @@ $langchap	= trim(!empty($forprint['LANGCHAP'])	? "language='".$forprint['LANGCHA
 $yesnew		= trim(!empty($forprint['YESNEW'])		? $forprint['YESNEW']		: $default['YESNEW']		);
 $rtl		= trim(!empty($forprint['RTL'])			? $forprint['RTL']			: $default['RTL']			);
 $hyphen		= trim(!empty($forprint['HYPHEN'])		? $forprint['HYPHEN']		: $default['HYPHEN']		);
+$column1	= trim(!empty($forprint['COLUMN1'])		? $forprint['COLUMN1']		: NULL						);
 $font		= trim(!empty($forprint['FONT'])		? $forprint['FONT']			: $default['FONT']			);
 $bsize		= trim(!empty($forprint['BSIZE'])		? $forprint['BSIZE']		: $default['BSIZE']			);
 $bleading	= trim(!empty($forprint['BLEADING'])	? $forprint['BLEADING']		: $default['BLEADING']		);
@@ -1092,8 +1078,8 @@ $onlineformat = (($format=="READ" || $format=="STUDY") ? "true()" : "false()" );
 $rotated = (($format=="READ") ? "true()" : "false()" );
 $studyformat = (($format=="STUDY") ? "true()" : "false()" );
 $adjustpagenumbers = (($format=="READ" || $format=="STUDY") ? "false()" : "true()" );
-$format_1col = ($format=='STUDY' ? "true()" : "false()" );
-$format_2col = ($format=='STUDY' ? "false()" : "true()" );
+$format_1col = ($format=='STUDY' || $column1 ? "true()" : "false()" );
+$format_2col = ($format=='STUDY' || $column1 ? "false()" : "true()" );
 if (($format=="READ" || $format=="STUDY")) {
 	$PIX_COVER			= 'COVER-web.jpg';
 	$PIX_MAP_ABRAHAM	= 'MAP-1-ABRAHAM-web.jpg';
@@ -1181,16 +1167,7 @@ $page1colleft			= "page1colleft";
 $page1colrightrotated	= "page1colrightrotated";
 $page1colleftrotated	= "page1colleftrotated";
 // MARGINS ALL
-if ($format=="READ") {
-	$web72 = '-web';
-	$MARGIN_SINGLE_INSIDE	= '0.5625in';	$MARGIN_SINGLE_OUTSIDE	= '0.5625in';	$REFER_SINGLE_INSIDE	= '0.5625in';	$REFER_SINGLE_OUTSIDE		= '0.5625in';
-	$MARGIN_RIGHT_LEFT		= '0.25in';		$MARGIN_RIGHT_RIGHT		= '0.25in';		$MARGIN_RIGHT_TOP		= '0.25in';		$MARGIN_RIGHT_BOTTOM	= '0.25in';
-	$MARGIN_LEFT_LEFT		= '0.25in';		$MARGIN_LEFT_RIGHT		= '0.25in';		$MARGIN_LEFT_TOP		= '0.25in';		$MARGIN_LEFT_BOTTOM		= '0.25in';
-	$COLUMN_LEFT_COLUMN		= '1';			$COLUMN_LEFT_WIDTH		= '43';			$COLUMN_LEFT_HEIGHT		= '132';
-	$COLUMN_RIGHT_COLUMN	= '46';			$COLUMN_RIGHT_WIDTH		= '43';			$COLUMN_RIGHT_HEIGHT	= '132';
-	$BOTTOM_ROW				= '134';		$BOTTOM_RIGHT_RIGHT		= '47';			$BOTTOM_WIDTH			= '42';			$BOTTOM_CENTER			= '44';
-}
-else if ($format=="STUDY") {
+if ($format=="STUDY") {
 	$web72 = '-web';
 	$PAGE_WIDTH				= '8.5in';		$PAGE_HEIGHT			= '11in';
 	$MARGIN_SINGLE_INSIDE	= '1in';		$MARGIN_SINGLE_OUTSIDE	= '1in';		$REFER_SINGLE_INSIDE	= '1in';		$REFER_SINGLE_OUTSIDE	= '1in';
@@ -1201,6 +1178,24 @@ else if ($format=="STUDY") {
 	$BOTTOM_ROW				= '142';		$BOTTOM_WIDTH			= '50';			$BOTTOM_CENTER			= '51';
 	$COLUMN_RIGHT_COLUMN	= '46';			$COLUMN_RIGHT_WIDTH		= '43';			$COLUMN_RIGHT_HEIGHT	= '132'; // unused but defined
 	$BOTTOM_RIGHT_RIGHT		= '47'; // unused but defined
+}
+else if ($format=="READ" && $column1) {
+	$web72 = '-web';
+	$MARGIN_SINGLE_INSIDE	= '0.5625in';	$MARGIN_SINGLE_OUTSIDE	= '0.5625in';	$REFER_SINGLE_INSIDE	= '0.5625in';	$REFER_SINGLE_OUTSIDE		= '0.5625in';
+	$MARGIN_RIGHT_LEFT		= '0.25in';		$MARGIN_RIGHT_RIGHT		= '0.25in';		$MARGIN_RIGHT_TOP		= '0.25in';		$MARGIN_RIGHT_BOTTOM	= '0.25in';
+	$MARGIN_LEFT_LEFT		= '0.25in';		$MARGIN_LEFT_RIGHT		= '0.25in';		$MARGIN_LEFT_TOP		= '0.25in';		$MARGIN_LEFT_BOTTOM		= '0.25in';
+	$COLUMN_LEFT_COLUMN		= '1';			$COLUMN_LEFT_WIDTH		= '88';			$COLUMN_LEFT_HEIGHT		= '132';
+	$COLUMN_RIGHT_COLUMN	= '46';			$COLUMN_RIGHT_WIDTH		= '43';			$COLUMN_RIGHT_HEIGHT	= '132'; // unused but defined
+	$BOTTOM_ROW				= '134';		$BOTTOM_RIGHT_RIGHT		= '47';			$BOTTOM_WIDTH			= '42';			$BOTTOM_CENTER			= '44';
+}
+else if ($format=="READ") {
+	$web72 = '-web';
+	$MARGIN_SINGLE_INSIDE	= '0.5625in';	$MARGIN_SINGLE_OUTSIDE	= '0.5625in';	$REFER_SINGLE_INSIDE	= '0.5625in';	$REFER_SINGLE_OUTSIDE		= '0.5625in';
+	$MARGIN_RIGHT_LEFT		= '0.25in';		$MARGIN_RIGHT_RIGHT		= '0.25in';		$MARGIN_RIGHT_TOP		= '0.25in';		$MARGIN_RIGHT_BOTTOM	= '0.25in';
+	$MARGIN_LEFT_LEFT		= '0.25in';		$MARGIN_LEFT_RIGHT		= '0.25in';		$MARGIN_LEFT_TOP		= '0.25in';		$MARGIN_LEFT_BOTTOM		= '0.25in';
+	$COLUMN_LEFT_COLUMN		= '1';			$COLUMN_LEFT_WIDTH		= '43';			$COLUMN_LEFT_HEIGHT		= '132';
+	$COLUMN_RIGHT_COLUMN	= '46';			$COLUMN_RIGHT_WIDTH		= '43';			$COLUMN_RIGHT_HEIGHT	= '132';
+	$BOTTOM_ROW				= '134';		$BOTTOM_RIGHT_RIGHT		= '47';			$BOTTOM_WIDTH			= '42';			$BOTTOM_CENTER			= '44';
 }
 else if ($rtl=='TRUE') { // margins flipped
 	$MARGIN_SINGLE_INSIDE	= '0.875in';
@@ -1222,6 +1217,19 @@ else if ($rtl=='TRUE') { // margins flipped
 	$pref1colright			= "pref1colleft";
 	$pref1colleft			= "pref1colright";
 	$TITLEJUSTIFICATION		= "left";
+}
+else if ($column1) {
+	$MARGIN_SINGLE_INSIDE	= '0.875in';
+	$REFER_SINGLE_INSIDE	= '0.875in';
+	$MARGIN_SINGLE_WIDTH	= '77';
+	$MARGIN_MAPS_WIDTH		= '69';
+	$MARGIN_MAPS_WIDTH_TIME	= '77';
+	$MARGIN_MAPS_COLUMN		= '71';
+	$MARGIN_RIGHT_LEFT		= '0.875in';	$MARGIN_RIGHT_RIGHT		= '0.3125in';	$MARGIN_RIGHT_TOP		= '0.3125in';	$MARGIN_RIGHT_BOTTOM	= '0.3125in';
+	$MARGIN_LEFT_LEFT		= '0.3125in';	$MARGIN_LEFT_RIGHT		= '0.875in';	$MARGIN_LEFT_TOP		= '0.3125in';	$MARGIN_LEFT_BOTTOM		= '0.3125in';
+	$COLUMN_LEFT_COLUMN		= '1';			$COLUMN_LEFT_WIDTH		= '77';			$COLUMN_LEFT_HEIGHT		= '130';
+	$COLUMN_RIGHT_COLUMN	= '40';			$COLUMN_RIGHT_WIDTH		= '38';			$COLUMN_RIGHT_HEIGHT	= '130'; // unused but defined
+	$BOTTOM_ROW				= '132';		$BOTTOM_RIGHT_RIGHT		= '42';			$BOTTOM_WIDTH			= '36';			$BOTTOM_CENTER			= '38';
 }
 else {
 	$MARGIN_SINGLE_INSIDE	= '0.875in';
@@ -1409,10 +1417,10 @@ $fonts
 	<SetVariable variable="pagesextra" select="'0'"/>
 	<SetVariable variable="newpagetype" select="'page1col'"/>
 	<SetVariable variable="gotold" select="'false'"/>
-	<ForAll select="oldtest" limit="1"><SetVariable variable="gotold" select="'true'"/></ForAll>
+	<ForAll select="oldtest[1]"><SetVariable variable="gotold" select="'true'"/></ForAll>
 	<Switch><Case test="$oldtestno"><SetVariable variable="gotold" select="'false'"/></Case></Switch>
 	<SetVariable variable="gotnew" select="'false'"/>
-	<ForAll select="newtest" limit="1"><SetVariable variable="gotnew" select="'true'"/></ForAll>
+	<ForAll select="newtest[1]"><SetVariable variable="gotnew" select="'true'"/></ForAll>
 	
 	<!-- BIBLE TITLE -->
 	<Switch>

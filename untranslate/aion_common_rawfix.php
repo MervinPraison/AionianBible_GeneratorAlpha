@@ -13728,7 +13728,7 @@ NUM 30:5 F’ie lieren-drae’e amy andro naha­janjiña’e azey, le tsy hijado
 NUM 30:6 Aa ie nengaen-dahy te vahoram-panta, ke t’ie finehe’ ze volañe naakan-tsoñi’e tsy nisatrie’e,
 NUM 30:7 le ie janji’ ty vali’e fe tsy mañaoñe amy andro nijanjiña’e azey, le hijadoñe i nifantà’ey vaho hifahatse ze titike nama­hora’e troke.
 NUM 30:8 F’ie liere’ ty vali’e amy andro nijanjiña’e azey le hapo’e i fanta nifehe azey, ndra i volan-tsoñi’e tsy nisatrie’e namahora’e trokey; toe hado’ Iehovà.
-NUM 30:9 (Fe ze nifantà’ ty vantotse ndra ty nariam-baly, ie namahotse ty arofo’e, le hijadoñe hifehe aze zay.)
+NUM 30:9 (Fe ze nifantà’ ty vantotse ndra ty nariam-baly, ie namahotse ty arofo’e, le hijadoñe hifehe aze izay.)
 NUM 30:10 Aa naho nifanta añ’an­jom­bam-bali’e ao, ke namaho-batañe aman-titike
 NUM 30:11 naho nahajanjiñe aze i vali’ey ie tsy nandietse, le hijadoñe iaby o nifantà’eo vaho hifahatse ama’e ze titike namahora’e arofo.
 NUM 30:12 F’ie avali’ ty vali’e amy andro naha­janjiña’ey, le tsy hijadoñe ndra inoñ’ inoñe niakats’ an-tsoñi’e amo ni­fantà’eo ndra amy titike namahora’e trokey; fa navali’ ty vali’e, le hapo’ Iehovà re ty ama’e.

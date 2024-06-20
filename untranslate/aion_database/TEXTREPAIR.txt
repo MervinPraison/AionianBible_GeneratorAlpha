@@ -1,6 +1,6 @@
 # File Name: TEXTREPAIR.txt
 # File Size: 5509        
-# File Date: 06/15/2024 23:14:21
+# File Date: 06/19/2024 23:57:25
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
