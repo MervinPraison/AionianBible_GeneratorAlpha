@@ -20,6 +20,7 @@ $commands = array(
 	'3t' => 'aion_3t_translator.sh',
 	'5'  => 'aion_5_index.sh',
 	'6'  => 'aion_6_check.sh',
+	'6m' => 'aion_6m_check.sh',
 	'6n' => 'aion_6n_check.sh',
 	'6q' => 'aion_6q_check.sh',
 	'6w' => 'aion_6w_check.sh',

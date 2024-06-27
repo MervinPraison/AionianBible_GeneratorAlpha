@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
 # File Size: 877113      
-# File Date: 06/20/2024 01:52:41
+# File Date: 06/26/2024 09:33:34
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -2202,7 +2202,7 @@ Holy-Bible---Malagasy---Malagasy-Bible	MAR-010-045	Marka 10:45	Fa ny Zanak’ ol
 Holy-Bible---Malagasy---Malagasy-Bible	ROM-001-001	Romana 1:1	Paoly, mpanompon’ i Jesosy Kristy, voantso ho Apostoly, voatokana ho amin’ ny filazantsaran’ Andriamanitra,
 Holy-Bible---Malagasy---Malagasy-Bible	MAT-028-019	Matio 28:19	koa mandehana ianareo, dia ataovy mpianatra ny firenena rehetra, manao batisa azy ho amin’ ny anaran’ ny Ray sy ny Zanaka ary ny Fanahy Masìna
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	JOH-003-016	Jaona 3:16	Akore ty hakokoan’ Añahare ty voatse toy, kanao nitolora’e i lahy bako-toka’ey, soa tsy haito ze miato ama’e fa hanan-kaveloñe nai­nai’e.
-Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	GEN-003-024	Genesisy 3:24	Aa le sinoi’e añe indatiy vaho nampijadoñe’e ke­robe reke-pibara nibela niviombioñe ty atiñana’ i goloboñe Edeney higari­tse ty lala’ i hataen-kaveloñey.
+Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	GEN-003-024	Genesisy 3:24	Aa le sinoi’e añe indatiy vaho nampijadoñe’e ke­robe reke-pibara nibela niviombioñe ami’ty atiñana’ i goloboñe Edeney higari­tse ty lala’ i hataen-kaveloñey.
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	LUK-023-034	Lioka 23:34	Le hoe t’Iesoà: O Aba, iheveo, fa amoea’ iareo o anoe’ iereoo. Nifanjara’ iereo ty saro’e vaho na­nao tsato-piso.
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	REV-021-002	Apokalypsy 21:2-3	Le nahatrea i Rova Miavakey, Ierosaleme vao, nizotso hirik’ andindìñe añe boak’ aman’ Añahare, hinalankañe hoe enga vao soa hamiñe, ho a i vali’ey. Le tsinanoko ty fiarañanañañe mafe boak’ amy fiambesatsey nanao ty hoe: Ingo te am’ondatio ty kivohon’ Añahare, ie hitrao-pimoneñe am’ iereo; ho ondati’e iereo naho ho am’ iareo ao t’i Andrianañahare ho Andrianañahare’ iareo,
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	HEB-011-008	Hebreo 11:8	Fatokisañe ty niantofa’ i Abra­àme, ie kinanjy hienga mb’an-tane ho ram­bese’e afara ho lova, vaho nionjoñe mb’eo tsy nahafohiñe ty hombà’e.
@@ -2581,7 +2581,7 @@ Holy-Bible---Romani---Eastern-Vlakh	ROM-001-001
 Holy-Bible---Romani---Eastern-Vlakh	MAT-028-019		
 Holy-Bible---Romani-Vlax---Arli-Luke	JOH-003-016		
 Holy-Bible---Romani-Vlax---Arli-Luke	GEN-003-024		
-Holy-Bible---Romani-Vlax---Arli-Luke	LUK-023-034	Luka 23:34	O Isus phenđa: “Dade Devla, oprostin lenđe, adalese so na džanen so ćerena!” Tegani o vojnici frdinde barbuti hem ađahar delinde maškara pumende e Isusesere šeja.
+Holy-Bible---Romani-Vlax---Arli-Luke	LUK-023-034	Luka 23:34	O Isus phenđa: “Dade, oprostin lenđe, adalese so na džanen so ćerena!” Tegani o vojnici frdinde barbuti hem ađahar delinde maškara pumende e Isusesere šeja.
 Holy-Bible---Romani-Vlax---Arli-Luke	REV-021-002		 
 Holy-Bible---Romani-Vlax---Arli-Luke	HEB-011-008		
 Holy-Bible---Romani-Vlax---Arli-Luke	EXO-013-017		

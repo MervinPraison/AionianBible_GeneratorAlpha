@@ -3135,7 +3135,7 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-8183;
 	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-8973;
 	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-283151;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-7528723;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-7528724;
 	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-80500;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-458;
 	$grandmarker['LONG']		= $grandtotal['LONG']-1153;
@@ -3143,14 +3143,14 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-2835;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-910;
 	$grandmarker['FIXED']		= $grandtotal['FIXED']-13522;
-	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-17823;
+	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-17822;
 	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-10330;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-715;
 	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-1339;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-198662;
-	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-46954;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-4481.82;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-198664;
+	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-46956;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-4481.86;
 	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-148;
 	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-83;
 	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-359;
@@ -5297,6 +5297,89 @@ function AION_LOOP_SPECIAL_DOIT($args) {
 	AION_ECHO("SUCCESS SPECIAL! $bible");
 }
 
+
+
+/*** aion loop special ***/
+function AION_LOOP_PDFMARGIN($source, $destiny) {
+	$database = array();
+	AION_FILE_DATA_GET(	'./aion_database/FORPRINT.txt',	'T_FORPRINT', $database, 'BIBLE', FALSE );
+	AION_LOOP( array(
+		'function'	=> 'AION_LOOP_PDFMARGIN_DOIT',
+		'include'	=> "/Aionian-Edition\.noia$/",
+		'database'	=> &$database,
+		'destiny'	=> $destiny,
+		'source'	=> $source,
+		) );
+	AION_unset($database); $database=NULL; unset($database);
+}
+function AION_LOOP_PDFMARGIN_DOIT($args) {
+	// bible
+	if (!preg_match("/\/(Holy-Bible---.*)---Aionian-Edition\.noia/", $args['filepath'], $matches)) {	AION_ECHO("ERROR! Failed to preg_match(Holy-Bible): ".$args['filepath']);	}
+	$bible = $matches[1];
+	$source = $args['source'];
+	$destiny = $args['destiny'];
+	AION_ECHO("MARGIN! $bible");
+	$c = (empty($args['database']['T_FORPRINT'][$bible]['COLUMN1']) ? TRUE : NULL); // 1 or 2 column?
+	$yes = (empty($args['database']['T_FORPRINT'][$bible]['YESNEW']) ? NULL : TRUE); // ot and nt so allow for 1 false positive in the STUDY
+		AION_LOOP_PDFMARGIN_CHECKER(417, 0,  432, 648, 11, 14, $source, $destiny, NULL, "$bible---Aionian-Edition.pdf",			"right");
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(212, 31, 216, 648, 11, 14, $source, $destiny, NULL, "$bible---Aionian-Edition.pdf",			"center"); }
+		AION_LOOP_PDFMARGIN_CHECKER(327, 0,  434, 648, 11, 14, $source, $destiny, $yes, "$bible---Aionian-Edition---STUDY.pdf",	"right");
+
+		AION_LOOP_PDFMARGIN_CHECKER(414, 0,  432, 648, 13, 17, $source, $destiny, NULL, "$bible---POD_KDP_ALL_BODY.pdf",		"right", "odd");
+		AION_LOOP_PDFMARGIN_CHECKER(378, 0,  432, 648, 13, 17, $source, $destiny, NULL, "$bible---POD_KDP_ALL_BODY.pdf",		"right", "even");
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(235, 31, 239, 648, 13, 17, $source, $destiny, NULL, "$bible---POD_KDP_ALL_BODY.pdf",		"center","odd"); }
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(195, 31, 199, 648, 13, 17, $source, $destiny, NULL, "$bible---POD_KDP_ALL_BODY.pdf",		"center","even"); }
+	
+		AION_LOOP_PDFMARGIN_CHECKER(414, 0,  432, 648, 13, 17, $source, $destiny, NULL, "$bible---POD_KDP_NEW_BODY.pdf",		"right", "odd");
+		AION_LOOP_PDFMARGIN_CHECKER(378, 0,  432, 648, 13, 17, $source, $destiny, NULL, "$bible---POD_KDP_NEW_BODY.pdf",		"right", "even");
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(235, 31, 239, 648, 13, 17, $source, $destiny, NULL, "$bible---POD_KDP_NEW_BODY.pdf",		"center","odd"); }
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(195, 31, 199, 648, 13, 17, $source, $destiny, NULL, "$bible---POD_KDP_NEW_BODY.pdf",		"center","even"); }
+}
+
+
+// Check the margins
+function AION_LOOP_PDFMARGIN_CHECKER($x1, $y1, $x2, $y2, $head, $tail, $source, $destiny, $yesnew, $file, $margin, $what='') {
+	$input = "$source/$file";
+	if (!file_exists($input)) { AION_ECHO("MARGIN! NOEXIST $input"); return; }
+	$pdfprob = "$destiny/$file";
+	if (file_exists($pdfprob)) { unlink($pdfprob); }
+	$output = "$destiny/$file.$margin.pdf";
+	if (file_exists($output)) { unlink($output); }
+	$alternate	= ($what=="odd" ? "sed '0~2d' | " : ($what=="even" ? "sed '1~2d' | " : ""));
+	$result = "$output.out$what.txt";
+	if (file_exists($result)) { unlink($result); }
+	// FIRST create pfds from margin only. should all be blank
+	// https://stackoverflow.com/questions/6183479/cropping-a-pdf-using-ghostscript-9-01
+	// https://stackoverflow.com/questions/8158295/what-dimensions-do-the-coordinates-in-pdf-cropbox-refer-to
+	// coordinates: left,bottom and right,top
+	// 1-inch=72pts, 6x9 = 432x648
+	system("gs -o $output -sDEVICE=pdfwrite -c '[/CropBox [$x1 $y1 $x2 $y2]' -c '/PAGES pdfmark' -f $input;");
+	// SECOND check if the cropped margin is entirely blank, should be!
+	// https://stackoverflow.com/questions/12831990/check-pdf-if-document-is-blank-in-bash-or-ruby
+	// https://askubuntu.com/questions/410196/remove-first-n-lines-of-a-large-text-file
+	// https://www.tutorialspoint.com/remove-the-last-n-lines-of-a-file-in-linux
+	// https://stackoverflow.com/questions/21309020/remove-odd-or-even-lines-from-a-text-file
+	system("\
+gs -dBATCH -dNOPAUSE -dQUIET -sDEVICE=bbox $output 2>&1 |\
+sed -e '/%%BoundingBox/d' |\
+nl |\
+tail -n +$head |\
+head -n -$tail |\
+$alternate sed -e '/%%HiResBoundingBox: 0.000000 0.000000 0.000000 0.000000/d' |\
+tee \
+$result \
+");
+	unlink($output); // dont need this anymore
+	$matches = array();
+	if (!($tmp=file_get_contents($result)) || empty($tmp) || ($yesnew && (!($matches=preg_match("/\r\n/ui",$tmp)) || $matches<=1))) {
+		if (file_exists($result)) { unlink($result); }
+		AION_ECHO("MARGIN! NOPROB $input");
+	}
+	else {
+		if (!copy($input, $pdfprob)) { AION_ECHO("ERROR! MARGIN CHECKER: failed copy($input, $pdfprob)"); }
+		AION_ECHO("MARGIN! PROBLEM $input");
+	}
+}
 
 
 

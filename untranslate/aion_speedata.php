@@ -56,13 +56,14 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/.*Arapaho.*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Sanskrit---Tamil).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Rote-Dela).*---Aionian-Edition\.noia$/",
-		'include'	=> "/Holy-Bible---(Coptic|Myanmar---Burmese-Common|Sanskrit---Burmese|Sanskrit---Cologne|Sanskrit---Harvard|Sanskrit---IAST|Sanskrit---ISO|Sanskrit---ITRANS|Sanskrit---Tamil|Sanskrit---Velthuis).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---(Coptic|Myanmar---Burmese-Common|Sanskrit---Burmese|Sanskrit---Cologne|Sanskrit---Harvard|Sanskrit---IAST|Sanskrit---ISO|Sanskrit---ITRANS|Sanskrit---Tamil|Sanskrit---Velthuis).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---(Sanskrit---Burmese).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Coptic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Myanmar---Burmese-Common).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Coptic---Coptic-Boharic-NT---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Catholic-Public-Domain---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
-		//'include'	=> "/---Aionian-Edition\.noia$/",
+		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		) );
@@ -2964,8 +2965,15 @@ $loadfontfile = (
  <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"notoseriftibetan.ttf\"/>
  <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"notoseriftibetan-bold.ttf\"/>"
 :
+// Tibetan
+($font == "NotoSans" ?
+"<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"notosans-basic-regular.ttf\"/>
+ <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"notosans-basic-bold.ttf\"/>
+ <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"notosans-basic-italic.ttf\"/>
+ <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"notosans-basic-bolditalic.ttf\"/>"
+:
 // ERROR
-AION_ECHO("ERROR! Font not found $font"))))))))))))))))))))))))))));
+AION_ECHO("ERROR! Font not found $font")))))))))))))))))))))))))))));
 
 if ($numarialfont) {	$initfont = '<Regular fontface="FT-BOLD"/><Bold fontface="FT-BOLD"/><Italic fontface="FT-BOIT"/><BoldItalic fontface="FT-BOIT"/>';
 						$numbfont = '<Regular fontface="FT-REGU"/><Bold fontface="FT-BOLD"/><Italic fontface="FT-ITAL"/><BoldItalic fontface="FT-BOIT"/>'; }

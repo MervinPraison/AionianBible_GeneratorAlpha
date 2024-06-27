@@ -29,6 +29,7 @@ else if ($_Path=='Bible-Cover') {						$_meta = " ~ Aionian Bible Branded Leathe
 else if ($_Path=='Privacy') {							$_meta = " ~ Privacy Policy";								abcms_page('docs/privacy.htm'); }
 else if ($_Path=='Apple-iOS-App') {						$_meta = " ~ Apple iOS App";								abcms_page('docs/appleiosapp.htm'); }
 else if ($_Path=='Third-Party-Publisher-Resources') {	$_meta = " ~ Third Party Publisher Resources";				abcms_page('docs/third-party-publisher-resources.htm'); }
+else if ($_Path=='Country') {							echo "COUNTRY: ".(empty($_SERVER["HTTP_CF_IPCOUNTRY"]) ? "UNKNOWN" : $_SERVER["HTTP_CF_IPCOUNTRY"]); exit; }
 else if (!preg_match('/^[a-zA-Z0-9\-\/]+$/',$_Path)) {																abcms_notf(); }
 if (($number=preg_match_all("#/parallel-[^/]+#", $_Path, $matches, PREG_PATTERN_ORDER))) {
 	if ($number>1) { abcms_bomb("/Read","Invalid URL Requested, multiple 'parallels' not allowed"); }

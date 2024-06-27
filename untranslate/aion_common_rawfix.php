@@ -13750,7 +13750,7 @@ DEU 5:23 Le nahajanjiñe i fiarañanañañe boak’ an-kamoromoroñañey nahareo
 DEU 5:24 le hoe ty asa’ areo, Ingo te naboa’ Iehovà Andrianañaharentika amantika ty enge’e naho ty hajabahina’e le jinanjintika i fiara­ñanaña’ey boak’ amy afoy ao, naho nionintika henane zay te toe mitsara ama’ ondaty t’i Andria­naña­hare vaho mitambeloñe iereo.
 DEU 5:25 Ie amy zao ino ty hivetraha’ay avao? Toe hamorototo anay o afo jaba­jabao naho mbe hijanjiñe ty fiarañanaña’ Iehovà Andrianañaharentika, le vata’e hikoromake.
 DEU 5:26 Fa ia amy ze hene atao nofotse ty nahajanjiñe ty fiarañanañan’ Andrianañahare veloñe boak’ añ’afo ao, manahake i nijanjiñen-tikañey vaho mbe nahatam­beloñe?
-DEU 5:27 Miharinea mb’eo rehe, le janjiño ze hene tsarae’ Iehovà Andria­nañaharentika. Le fonga taroño ama’ay ze nitsara’ Iehovà Andrianañaharentika ama’o, le hijanjiñe vaho hanoe’ay.
+DEU 5:27 Miharinea mb’eo irehe, le janjiño ze hene tsarae’ Iehovà Andria­nañaharentika. Le fonga taroño ama’ay ze nitsara’ Iehovà Andrianañaharentika ama’o, le hijanjiñe vaho hanoe’ay.
 DEU 5:28 Jinanji’ Iehovà o fisaontsi’ areoo, i nisaontsia’ areo amakoy, le hoe t’Iehovà amako: Fa tsinanoko o entañe sinaontsi’ ondatio ama’oo; le soa-fehe iaby o saontsi’ iareoo.
 DEU 5:29 Ee te nanao hoe zao nainai’e ty arofo’iareo t’ie nañeveñe amako, naho nañambeñe o nandiliako iabio, soa te hanintsiñe nainai’e iereo naho o amori’iareoo.
 DEU 5:30 Akia arè, isaontsio himpolia’ iareo mb’an-kiboho’ iareo mb’eo.
@@ -13773,7 +13773,7 @@ HOS 13:1
 EOF;
 if (!($bfile = preg_replace("/HOS 12:14 (.+?)HOS 13:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-1CO 11:1 Tsikombeo raho hambañe amy te zaho ka ro mpiamy Norizañey.
+1CO 11:1 Tsikombeo iraho hambañe amy te izaho ka ro mpiamy Norizañey.
 1CO 11:2 
 EOF;
 if (!($bfile = preg_replace("/1CO 10:34 (.+?)1CO 11:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -16712,8 +16712,8 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Romani-Vlax---Arli-Luke" :
 $bigfix = <<<EOF
-LUK 23:50 Inele jekh manuš palo anav Josif tari Arimateja, diz ani Judeja.
-LUK 23:51 Ov inele šukar hem pravedno manuš kova adžićeri ine e Mesija te anel o carstvo e Devlesoro. Iako inele člano oto e jevrejengoro odbor, na složinđa pe adaleja so inele odlučime te roden o Isus te ovel mudardo.
+LUK 23:50 A inele jekh manuš palo anav Josif tari Arimateja, diz ani Judeja.
+LUK 23:51 Ov inele šukar hem pravedno manuš kova adžićeri ine o carstvo e Devlesoro. Iako inele člano oto e jevrejengoro sabor, na složinđa pe adaleja so inele odlučime te roden o Isus te ovel mudardo.
 LUK 23:52 
 EOF;
 if (!($bfile = preg_replace("/LUK 23:50 (.+?)LUK 23:52 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
