@@ -5305,6 +5305,9 @@ function AION_LOOP_PDFMARGIN($source, $destiny) {
 	AION_FILE_DATA_GET(	'./aion_database/FORPRINT.txt',	'T_FORPRINT', $database, 'BIBLE', FALSE );
 	AION_LOOP( array(
 		'function'	=> 'AION_LOOP_PDFMARGIN_DOIT',
+		//'include'	=> "/(Bu-Bible---|Amo-Bible---|Bareli-Bible---|Bengali-Bible---)Aionian-Edition\.noia$/",
+		//'include'	=> "/(Bengali-Bible---)Aionian-Edition\.noia$/",
+		//'include'	=> "/(Arabic-Van-Dyck-Bible---)Aionian-Edition\.noia$/",
 		'include'	=> "/Aionian-Edition\.noia$/",
 		'database'	=> &$database,
 		'destiny'	=> $destiny,
@@ -5321,19 +5324,23 @@ function AION_LOOP_PDFMARGIN_DOIT($args) {
 	AION_ECHO("MARGIN! $bible");
 	$c = (empty($args['database']['T_FORPRINT'][$bible]['COLUMN1']) ? TRUE : NULL); // 1 or 2 column?
 	$yes = (empty($args['database']['T_FORPRINT'][$bible]['YESNEW']) ? NULL : TRUE); // ot and nt so allow for 1 false positive for the NT picture
-		AION_LOOP_PDFMARGIN_CHECKER(417, 0,  432, 648, 11, 14, $source, $destiny, NULL, "$bible---Aionian-Edition.pdf",			"right");
-if($c){	AION_LOOP_PDFMARGIN_CHECKER(213, 31, 216, 648, 11, 14, $source, $destiny, $yes, "$bible---Aionian-Edition.pdf",			"center"); }
-		AION_LOOP_PDFMARGIN_CHECKER(327, 0,  434, 648, 11, 14, $source, $destiny, $yes, "$bible---Aionian-Edition---STUDY.pdf",	"right");
+	$odd  = ("TRUE"==$args['database']['T_FORPRINT'][$bible]['RTL'] ? "even" : "odd"); // swap the RTLs
+	$even = ("TRUE"==$args['database']['T_FORPRINT'][$bible]['RTL'] ? "odd" : "even"); // swap the RTLs
+	$yes_odd  = ($yes && $odd=="even" ? TRUE : NULL); // nt intro picture on even-left normally, odd-right for RTL
+	$yes_even = ($yes && $odd=="odd"  ? TRUE : NULL); 
+		AION_LOOP_PDFMARGIN_CHECKER(417, 0,  432, 648, 11, 14, $source, $destiny, NULL,		"$bible---Aionian-Edition.pdf",			"right");
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(215, 33, 217, 648, 11, 14, $source, $destiny, $yes,		"$bible---Aionian-Edition.pdf",			"center"); }
+		AION_LOOP_PDFMARGIN_CHECKER(327, 0,  434, 648, 11, 14, $source, $destiny, $yes,		"$bible---Aionian-Edition---STUDY.pdf",	"right");
 
-		AION_LOOP_PDFMARGIN_CHECKER(414, 0,  432, 648, 13, 17, $source, $destiny, NULL, "$bible---POD_KDP_ALL_BODY.pdf",		"right",	"odd"	);
-		AION_LOOP_PDFMARGIN_CHECKER(378, 0,  432, 648, 13, 17, $source, $destiny, NULL, "$bible---POD_KDP_ALL_BODY.pdf",		"right",	"even"	);
-if($c){	AION_LOOP_PDFMARGIN_CHECKER(235, 32, 237, 648, 13, 17, $source, $destiny, NULL, "$bible---POD_KDP_ALL_BODY.pdf",		"center",	"odd"	); }
-if($c){	AION_LOOP_PDFMARGIN_CHECKER(195, 32, 197, 648, 13, 17, $source, $destiny, $yes, "$bible---POD_KDP_ALL_BODY.pdf",		"center",	"even"	); }
+		AION_LOOP_PDFMARGIN_CHECKER(414, 0,  432, 648, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_ALL_BODY.pdf",		"right",	$odd	);
+		AION_LOOP_PDFMARGIN_CHECKER(378, 0,  432, 648, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_ALL_BODY.pdf",		"right",	$even	);
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(236, 33, 237, 648, 13, 17, $source, $destiny, $yes_odd,	"$bible---POD_KDP_ALL_BODY.pdf",		"center",	$odd	); }
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(195, 33, 196, 648, 13, 17, $source, $destiny, $yes_even,"$bible---POD_KDP_ALL_BODY.pdf",		"center",	$even	); }
 	
-		AION_LOOP_PDFMARGIN_CHECKER(414, 0,  432, 648, 13, 17, $source, $destiny, NULL, "$bible---POD_KDP_NEW_BODY.pdf",		"right",	"odd"	);
-		AION_LOOP_PDFMARGIN_CHECKER(378, 0,  432, 648, 13, 17, $source, $destiny, NULL, "$bible---POD_KDP_NEW_BODY.pdf",		"right",	"even"	);
-if($c){	AION_LOOP_PDFMARGIN_CHECKER(235, 32, 237, 648, 13, 17, $source, $destiny, NULL, "$bible---POD_KDP_NEW_BODY.pdf",		"center",	"odd"	); }
-if($c){	AION_LOOP_PDFMARGIN_CHECKER(195, 32, 197, 648, 13, 17, $source, $destiny, $yes, "$bible---POD_KDP_NEW_BODY.pdf",		"center",	"even"	); }
+		AION_LOOP_PDFMARGIN_CHECKER(414, 0,  432, 648, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_NEW_BODY.pdf",		"right",	$odd	);
+		AION_LOOP_PDFMARGIN_CHECKER(378, 0,  432, 648, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_NEW_BODY.pdf",		"right",	$even	);
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(236, 33, 237, 648, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_NEW_BODY.pdf",		"center",	$odd	); }
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(195, 33, 196, 648, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_NEW_BODY.pdf",		"center",	$even	); }
 }
 
 

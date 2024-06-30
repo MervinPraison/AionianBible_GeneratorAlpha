@@ -29,7 +29,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_pdfon'	=> FALSE,	// TRUE = do Online PDFs
 		'q_pdfoo'	=> FALSE,	// TRUE = do One Online PDFs
 		'q_epubc'	=> TRUE,	// TRUE = do ePub covers
-		//'include'	=> "/Holy-Bible---.*(Albanian|Amo|Aionian-Bible|Beami).*---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---.*(Albanian|Aionian-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Hebrew-Aleppo-Miqra-Mesorah).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(English---Trans-Trans).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(STEP).*---Aionian-Edition\.noia$/",
@@ -59,11 +59,12 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---(Coptic|Myanmar---Burmese-Common|Sanskrit---Burmese|Sanskrit---Cologne|Sanskrit---Harvard|Sanskrit---IAST|Sanskrit---ISO|Sanskrit---ITRANS|Sanskrit---Tamil|Sanskrit---Velthuis).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Sanskrit---Burmese).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Coptic).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---(Myanmar---Burmese-Common).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Myanmar|Burmese).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Sanskrit---Burmese).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Coptic---Coptic-Boharic-NT---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Catholic-Public-Domain---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
-		'include'	=> "/---Aionian-Edition\.noia$/",
+		//'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		) );
@@ -679,6 +680,8 @@ function hyperlink(&$text, $notedlink="") {
 	$text = preg_replace("#<U><Value>creativecommons.or</Value></U><Value>g</Value><U><Value>/licenses/b</Value></U><Value>y</Value><U><Value>-nd/4.0</Value></U>#",
 		"<A href='https://creativecommons.org/licenses/by-nd/4.0/'><U><Value>creativecommons.or</Value></U><Value>g</Value><U><Value>/licenses/b</Value></U><Value>y</Value><U><Value>-nd/4.0</Value></U></A>", $text);
 	// extra space added BELOW to prevent overlap replace
+	$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/History</Value></U>#",
+		"<A href='https://www.AionianBible.org/History'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/History</Value></U></A>", $text);
 	$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Preface</Value></U>#",
 		"<A href='https://www.AionianBible.org/Preface'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Preface</Value></U></A>", $text);
 	$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Aionios-and-Aidios</Value></U>#",
@@ -783,6 +786,7 @@ $versionE	= trim(!empty($forprint['VERSIONE'])	? $forprint['VERSIONE']		: $defau
 $isbn		= trim(!empty($forprint['ISBN'])		? $forprint['ISBN']			: ''						);
 $extension	= trim(!empty($forprint['EXTENSION'])	? "true()"					: "false()"					);
 $keizer		= trim(!empty($forprint['KEIZER'])		? "true()"					: "false()"					);
+$history	= trim(!empty($forprint['HIST'])		? $forprint['HIST']			: $default['HIST']			);
 $pref		= trim(!empty($forprint['PREF'])		? $forprint['PREF']			: $default['PREF']			);
 $pref2		= trim(!empty($forprint['PREF2'])		? $forprint['PREF2']		: $default['PREF2']			);
 $read		= trim(!empty($forprint['READ'])		? $forprint['READ']			: $default['READ']			);
@@ -792,6 +796,7 @@ $glos3		= trim(!empty($forprint['GLOS3'])		? $forprint['GLOS3']		: $default['GLO
 $loff		= trim(!empty($forprint['LOF'])			? $forprint['LOF']			: $default['LOF']			);
 // words
 $w_font		= trim(!empty($forprint['W_FONT'])		? $forprint['W_FONT']		: $default['W_FONT']		);
+$w_hist		= trim(!empty($forprint['W_HIST'])		? $forprint['W_HIST']		: $default['W_HIST']		);
 $w_pref		= trim(!empty($forprint['W_PREF'])		? $forprint['W_PREF']		: $default['W_PREF']		);
 $w_old		= trim(!empty($forprint['W_OLD'])		? $forprint['W_OLD']		: $default['W_OLD']			);
 $w_new		= trim(!empty($forprint['W_NEW'])		? $forprint['W_NEW']		: $default['W_NEW']			);
@@ -822,6 +827,7 @@ $rtlbook	= ($rtl=="TRUE" ? 'right' : 'left' );
 // bookmarks
 $bm_old		= str_replace("'","’",(empty($w_old) ? "OLD TESTAMENT" : $w_old));
 $bm_new		= str_replace("'","’",(empty($w_new) ? "NEW TESTAMENT" : $w_new));
+$bm_hist	= str_replace("'","’",$w_hist);
 $bm_pref	= str_replace("'","’",$w_pref);
 $bm_toc		= str_replace("'","’",(empty($w_toc) ? "Table of Contents" : $w_toc));
 $bm_apdx	= str_replace("'","’",$w_apdx);
@@ -900,17 +906,19 @@ $w_akapurp = (empty($w_purp) ? $w_aka : "$w_aka<Value> </Value>$w_purp");
 // arial font for numbers, percents, hyphen, space
 if ($w_font=='FOREIGN' && (!($w_free=preg_replace("/([\-0-9:% ]{3,})/","</Value><Span language='English (USA)'><Fontface fontfamily='FF-Btex'><Value> $1 </Value></Fontface></Span><Value>",$w_free,-1,$count)) || $count>1)) { AION_ECHO("JEFF NOTICE! preg_replace(numbers)"); }
 // fix the preface and other headers
-$pref		= foreignlink($default['W_PREF'],	$w_pref,	"",		$w_font,	$langforeign,	$langenglish,	$pref,	$langspeed, $rtl);
-$read		= foreignlink($default['W_READ'],	$w_read,	"",		$w_font,	$langforeign,	$langenglish,	$read,	$langspeed, $rtl);
-$glos1		= foreignlink($default['W_GLOS'],	$w_glos,	"",		$w_font,	$langforeign,	$langenglish,	$glos1,	$langspeed, $rtl);
-$glos3		= foreignlink($default['W_GLOS'],	$w_glos,	" +",	$w_font,	"",				$langenglish,	$glos3,	$langspeed, $rtl);
-$loff		= foreignlink($default['W_DESTINY'],$w_dest,	"",		$w_font,	$langforeign,	$langenglish,	$loff,	$langspeed, $rtl);
+$history	= foreignlink($default['W_HIST'],	$w_hist,	"",		$w_font,	$langforeign,	$langenglish,	$history,	$langspeed, $rtl);
+$pref		= foreignlink($default['W_PREF'],	$w_pref,	"",		$w_font,	$langforeign,	$langenglish,	$pref,		$langspeed, $rtl);
+$read		= foreignlink($default['W_READ'],	$w_read,	"",		$w_font,	$langforeign,	$langenglish,	$read,		$langspeed, $rtl);
+$glos1		= foreignlink($default['W_GLOS'],	$w_glos,	"",		$w_font,	$langforeign,	$langenglish,	$glos1,		$langspeed, $rtl);
+$glos3		= foreignlink($default['W_GLOS'],	$w_glos,	" +",	$w_font,	"",				$langenglish,	$glos3,		$langspeed, $rtl);
+$loff		= foreignlink($default['W_DESTINY'],$w_dest,	"",		$w_font,	$langforeign,	$langenglish,	$loff,		$langspeed, $rtl);
 // add the PDF hyperlinks
 $bibleurl = preg_replace("/Holy-Bible---/","",$versions['BIBLE']);
 $link_tor = "<Value>TOR Anonymously</Value><Br />";
 $link_ab = "<U><Value>https://AionianBible.or</Value></U><Value>g</Value>";
 $link_na = "<U><Value>https://Nainoia-Inc.si</Value></U><Value>g</Value><U><Value>nedon.net</Value></U>";
 if (($format=="READ" || $format=="STUDY")) {
+	hyperlink($history);
 	hyperlink($pref);
 	hyperlink($pref2);
 	hyperlink($read);
@@ -1496,11 +1504,13 @@ $fonts
 			</Case></Switch>
 	</Textblock></PlaceObject>
 	<Message select="concat('ABPROOFER $outpdf COPYRIGHT ',sd:current-page())" />
+
+	<!-- HISTORY -->
 	<ClearPage openon="right" pagetype="$page1colright" />
-	<PlaceObject row="50" column="1"><Textblock><Paragraph textformat="center"><Fontface fontfamily='FF-Copy'>
-		<I><Value>Celebrate Jesus Christ’s victory of grace!</Value></I>
-	</Fontface></Paragraph></Textblock></PlaceObject>
-	
+	<Bookmark level="1" select="'$bm_hist'" open="no" />
+	<Output area="area1col"><Text>$history</Text></Output>
+	<Message select="concat('ABPROOFER $outpdf HISTORY ',sd:current-page())" />
+
 	<!-- BIBLE PREFACE -->
 	<Switch>
 		<Case test="$keizer">
@@ -1513,9 +1523,14 @@ $fonts
 		</Otherwise>
 	</Switch>
 	<Message select="concat('ABPROOFER $outpdf PREFACE ',sd:current-page())" />
-	
+
+	<!-- VICTORY -->
+	<ClearPage openon="left" pagetype="$page1colleft" />
+	<PlaceObject row="50" column="1"><Textblock><Paragraph textformat="center"><Fontface fontfamily='FF-Copy'>
+		<I><Value>Celebrate Jesus Christ’s victory of grace!</Value></I>
+	</Fontface></Paragraph></Textblock></PlaceObject>	
+
 	<!-- BIBLE TOC -->
-	<ClearPage openon="left" pagetype="$page1colleft"  />
 	<ClearPage openon="right" pagetype="$page1colright" />
 	<InsertPages name="toc" pages="1" />
     <SetVariable variable="toc_variable"/>
@@ -2908,6 +2923,10 @@ $loadfontfile = (
  <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"padauk-bold.ttf\" />
  <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"padauk-regular.ttf\" />
  <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"padauk-bold.ttf\" />"
+//"<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"notosansmyanmar-regular-plus.ttf\" />
+// <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"notosansmyanmar-bold-plus.ttf\" />
+// <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"notosansmyanmar-italic-plus.ttf\" />
+// <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"notosansmyanmar-bolditalic-plus.ttf\" />"
 :
 // Oriya
 ($font == "Oriya" ?

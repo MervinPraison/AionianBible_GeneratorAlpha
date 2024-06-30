@@ -188,7 +188,7 @@ span.font-malayalam { font-family: 'font-malayalam', 'NotoSans', 'Arial', 'sans-
 		'font-myanmar';
 	src:
 		url('../fonts/padauk-regular.woff2')	format('woff2'),
-		url('../fonts/padauk-regular.woff')	format('woff'),
+		url('../fonts/padauk-regular.woff')		format('woff'),
 		url('../fonts/padauk-regular.ttf')		format('truetype');
 }
 span.font-myanmar { font-family: 'font-myanmar', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
