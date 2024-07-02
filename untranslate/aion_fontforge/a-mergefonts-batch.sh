@@ -1,5 +1,12 @@
 #!/bin/bash
 
+./a-mergefonts.sh		notosans-basic-regular.ttf		notosansmyanmar-regular.ttf						notosansmyanmar-regular-plus.ttf
+./a-mergefonts.sh		notosans-basic-bold.ttf			notosansmyanmar-bold.ttf						notosansmyanmar-bold-plus.ttf
+./a-mergefonts.sh		notosans-basic-italic.ttf		notosansmyanmar-regular.ttf						notosansmyanmar-italic-plus.ttf
+./a-mergefonts.sh		notosans-basic-bolditalic.ttf	notosansmyanmar-bold.ttf						notosansmyanmar-bolditalic-plus.ttf
+
+exit
+
 ./a-mergefonts.sh		liberationsans-basic.ttf		estrangelo_edessa.ttf						estrangelo_edessa_plus.ttf
 ./a-mergefonts.sh		LiberationSans-Regular.ttf		notosansoriyaui-bold.ttf					notosansoriyaui-bold-plus.ttf
 ./a-mergefonts.sh		LiberationSans-Regular.ttf		notosansoriyaui-regular.ttf					notosansoriyaui-regular-plus.ttf

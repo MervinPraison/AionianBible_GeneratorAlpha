@@ -138,6 +138,7 @@ AION_ECHO("PDF PROOFER GENERATION: COVERS");
 // INTERIOR PDFS
 build_pdftk_flex($proofer, "---POD_KDP_ALL_BODY.pdf", "TITLE");
 build_pdftk_flex($proofer, "---POD_KDP_ALL_BODY.pdf", "COPYRIGHT");
+build_pdftk_flex($proofer, "---POD_KDP_ALL_BODY.pdf", "HISTORY");
 build_pdftk_flex($proofer, "---POD_KDP_ALL_BODY.pdf", "PREFACE");
 build_pdftk_flex($proofer, "---POD_KDP_ALL_BODY.pdf", "TOC");
 build_pdftk_flex($proofer, "---POD_KDP_ALL_BODY.pdf", "OT-INTRO");
@@ -166,6 +167,7 @@ AION_ECHO("PDF PROOFER GENERATION: INTERIOR");
 
 build_pdftk_flex($proofer, "---POD_KDP_NEW_BODY.pdf", "TITLE");
 build_pdftk_flex($proofer, "---POD_KDP_NEW_BODY.pdf", "COPYRIGHT");
+build_pdftk_flex($proofer, "---POD_KDP_NEW_BODY.pdf", "HISTORY");
 build_pdftk_flex($proofer, "---POD_KDP_NEW_BODY.pdf", "PREFACE");
 build_pdftk_flex($proofer, "---POD_KDP_NEW_BODY.pdf", "TOC");
 build_pdftk_flex($proofer, "---POD_KDP_NEW_BODY.pdf", "OT-INTRO");
@@ -195,6 +197,7 @@ AION_ECHO("PDF PROOFER GENERATION: INTERIOR_NT");
 
 build_pdftk_flex($proofer, "---STUDY.pdf", "TITLE");
 build_pdftk_flex($proofer, "---STUDY.pdf", "COPYRIGHT");
+build_pdftk_flex($proofer, "---STUDY.pdf", "HISTORY");
 build_pdftk_flex($proofer, "---STUDY.pdf", "PREFACE");
 build_pdftk_flex($proofer, "---STUDY.pdf", "TOC");
 build_pdftk_flex($proofer, "---STUDY.pdf", "OT-INTRO");
@@ -222,6 +225,7 @@ AION_ECHO("PDF PROOFER GENERATION: STUDY");
 
 build_pdftk_flex($proofer, "---Aionian-Edition.pdf", "TITLE");
 build_pdftk_flex($proofer, "---Aionian-Edition.pdf", "COPYRIGHT");
+build_pdftk_flex($proofer, "---Aionian-Edition.pdf", "HISTORY");
 build_pdftk_flex($proofer, "---Aionian-Edition.pdf", "PREFACE");
 build_pdftk_flex($proofer, "---Aionian-Edition.pdf", "TOC");
 build_pdftk_flex($proofer, "---Aionian-Edition.pdf", "OT-INTRO");
