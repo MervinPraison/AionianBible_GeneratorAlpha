@@ -1,0 +1,67 @@
+#!/usr/bin/fontforge
+#
+# this worked beautifully in the resulting PDF
+#
+# script
+#  \x{1039}\x{1012}\x{1039}\x{1013}\x{1036} 
+Open("mmrtext.ttf")
+Select(4114)
+Select(4115)
+Select(4150)
+Select(4153)
+Copy()
+Open("padauk-regular.ttf")
+Select(4114)
+Select(4115)
+Select(4150)
+Select(4153)
+Paste()
+Generate("padauk-regular-plus.ttf")
+
+Open("mmrtextb.ttf")
+Select(4114)
+Select(4115)
+Select(4150)
+Select(4153)
+Copy()
+Open("padauk-bold.ttf")
+Select(4114)
+Select(4115)
+Select(4150)
+Select(4153)
+Paste()
+Generate("padauk-bold-plus.ttf")
+
+Open("padauk-regular-plus.ttf")
+Select(4114)
+Select(4115)
+Select(4150)
+Select(4153)
+name = GlyphInfo("Name")
+class = GlyphInfo("Class")
+width = GlyphInfo("Width")
+color = GlyphInfo("Color")
+space = " - "
+Print(name, space, class, space, width, space, color)
+
+Open("padauk-bold-plus.ttf")
+Select(4114)
+Select(4115)
+Select(4150)
+Select(4153)
+name = GlyphInfo("Name")
+class = GlyphInfo("Class")
+width = GlyphInfo("Width")
+color = GlyphInfo("Color")
+space = " - "
+Print(name, space, class, space, width, space, color)
+
+#Open("gentiumplus-r.ttf")
+#Select(65062)
+#Select(700000000)
+#name = GlyphInfo("Name")
+#width = GlyphInfo("Width")
+#color = GlyphInfo("Color")
+#Print(name, width, color)
+#MergeFonts("gentiumplus-r.ttf")
+#Generate("newathu5_5_jeff.ttf")

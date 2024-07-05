@@ -29,7 +29,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_pdfon'	=> FALSE,	// TRUE = do Online PDFs
 		'q_pdfoo'	=> FALSE,	// TRUE = do One Online PDFs
 		'q_epubc'	=> TRUE,	// TRUE = do ePub covers
-		'include'	=> "/Holy-Bible---.*(Albanian|Aionian-Bible).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Albanian|Aionian-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Hebrew-Aleppo-Miqra-Mesorah).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(English---Trans-Trans).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(STEP).*---Aionian-Edition\.noia$/",
@@ -64,7 +64,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---Coptic---Coptic-Boharic-NT---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Catholic-Public-Domain---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
-		//'include'	=> "/---Aionian-Edition\.noia$/",
+		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		) );
@@ -1507,9 +1507,9 @@ $fonts
 
 	<!-- HISTORY -->
 	<ClearPage openon="right" pagetype="$page1colright" />
-	<Bookmark level="1" select="'$bm_hist'" open="no" />
-	<Output area="area1col"><Text>$history</Text></Output>
-	<Message select="concat('ABPROOFER $outpdf HISTORY ',sd:current-page())" />
+	<PlaceObject row="50" column="1"><Textblock><Paragraph textformat="center"><Fontface fontfamily='FF-Copy'>
+		<I><Value>Celebrate Jesus Christ’s victory of grace!</Value></I>
+	</Fontface></Paragraph></Textblock></PlaceObject>
 
 	<!-- BIBLE PREFACE -->
 	<Switch>
@@ -1526,9 +1526,9 @@ $fonts
 
 	<!-- VICTORY -->
 	<ClearPage openon="left" pagetype="$page1colleft" />
-	<PlaceObject row="50" column="1"><Textblock><Paragraph textformat="center"><Fontface fontfamily='FF-Copy'>
-		<I><Value>Celebrate Jesus Christ’s victory of grace!</Value></I>
-	</Fontface></Paragraph></Textblock></PlaceObject>	
+	<Bookmark level="1" select="'$bm_hist'" open="no" />
+	<Output area="area1col"><Text>$history</Text></Output>
+	<Message select="concat('ABPROOFER $outpdf HISTORY ',sd:current-page())" />
 
 	<!-- BIBLE TOC -->
 	<ClearPage openon="right" pagetype="$page1colright" />
@@ -2919,14 +2919,22 @@ $loadfontfile = (
 :
 // Myanmar
 ($font == "Myanmar" ?
-"<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"padauk-regular.ttf\" />
- <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"padauk-bold.ttf\" />
- <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"padauk-regular.ttf\" />
- <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"padauk-bold.ttf\" />"
+//"<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"mmrtext.ttf\" />
+// <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"mmrtextb.ttf\" />
+// <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"mmrtext.ttf\" />
+// <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"mmrtextb.ttf\" />"
 //"<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"notosansmyanmar-regular-plus.ttf\" />
 // <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"notosansmyanmar-bold-plus.ttf\" />
 // <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"notosansmyanmar-italic-plus.ttf\" />
 // <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"notosansmyanmar-bolditalic-plus.ttf\" />"
+//"<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"notoserifmyanmar-regular-plus.ttf\" />
+// <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"notoserifmyanmar-bold-plus.ttf\" />
+// <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"notoserifmyanmar-italic-plus.ttf\" />
+// <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"notoserifmyanmar-bolditalic-plus.ttf\" />"
+"<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"padauk-regular.ttf\" />
+ <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"padauk-bold.ttf\" />
+ <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"padauk-regular.ttf\" />
+ <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"padauk-bold.ttf\" />"
 :
 // Oriya
 ($font == "Oriya" ?

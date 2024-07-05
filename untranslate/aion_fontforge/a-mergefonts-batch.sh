@@ -1,9 +1,14 @@
 #!/bin/bash
 
-./a-mergefonts.sh		notosans-basic-regular.ttf		notosansmyanmar-regular.ttf						notosansmyanmar-regular-plus.ttf
-./a-mergefonts.sh		notosans-basic-bold.ttf			notosansmyanmar-bold.ttf						notosansmyanmar-bold-plus.ttf
-./a-mergefonts.sh		notosans-basic-italic.ttf		notosansmyanmar-regular.ttf						notosansmyanmar-italic-plus.ttf
-./a-mergefonts.sh		notosans-basic-bolditalic.ttf	notosansmyanmar-bold.ttf						notosansmyanmar-bolditalic-plus.ttf
+./a-mergefonts.sh		notosans-basic-regular.ttf		notosansmyanmar-regular.ttf					notosansmyanmar-regular-plus.ttf
+./a-mergefonts.sh		notosans-basic-bold.ttf			notosansmyanmar-bold.ttf					notosansmyanmar-bold-plus.ttf
+./a-mergefonts.sh		notosans-basic-italic.ttf		notosansmyanmar-regular.ttf					notosansmyanmar-italic-plus.ttf
+./a-mergefonts.sh		notosans-basic-bolditalic.ttf	notosansmyanmar-bold.ttf					notosansmyanmar-bolditalic-plus.ttf
+
+./a-mergefonts.sh		notosans-basic-regular.ttf		notoserifmyanmar-regular.ttf				notoserifmyanmar-regular-plus.ttf
+./a-mergefonts.sh		notosans-basic-bold.ttf			notoserifmyanmar-bold.ttf					notoserifmyanmar-bold-plus.ttf
+./a-mergefonts.sh		notosans-basic-italic.ttf		notoserifmyanmar-regular.ttf				notoserifmyanmar-italic-plus.ttf
+./a-mergefonts.sh		notosans-basic-bolditalic.ttf	notoserifmyanmar-bold.ttf					notoserifmyanmar-bolditalic-plus.ttf
 
 exit
 

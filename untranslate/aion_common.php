@@ -5306,9 +5306,10 @@ function AION_LOOP_PDFMARGIN($source, $destiny) {
 	AION_LOOP( array(
 		'function'	=> 'AION_LOOP_PDFMARGIN_DOIT',
 		//'include'	=> "/(Bu-Bible---|Amo-Bible---|Bareli-Bible---|Bengali-Bible---)Aionian-Edition\.noia$/",
-		//'include'	=> "/(Bengali-Bible---)Aionian-Edition\.noia$/",
-		//'include'	=> "/(Arabic-Van-Dyck-Bible---)Aionian-Edition\.noia$/",
-		'include'	=> "/Aionian-Edition\.noia$/",
+		//'include'	=> "/(Amo-Bible---|Albanian-Bible---|Assamese-Bible---)Aionian-Edition\.noia$/",
+		'include'	=> "/(Amo-Bible---)Aionian-Edition\.noia$/",
+		//'include'	=> "/(Bengali-Bible---|Arabic-Van-Dyck-Bible---)Aionian-Edition\.noia$/",
+		//'include'	=> "/Aionian-Edition\.noia$/",
 		'database'	=> &$database,
 		'destiny'	=> $destiny,
 		'source'	=> $source,
@@ -5322,25 +5323,57 @@ function AION_LOOP_PDFMARGIN_DOIT($args) {
 	$source = $args['source'];
 	$destiny = $args['destiny'];
 	AION_ECHO("MARGIN! $bible");
-	$c = (empty($args['database']['T_FORPRINT'][$bible]['COLUMN1']) ? TRUE : NULL); // 1 or 2 column?
-	$yes = (empty($args['database']['T_FORPRINT'][$bible]['YESNEW']) ? NULL : TRUE); // ot and nt so allow for 1 false positive for the NT picture
-	$odd  = ("TRUE"==$args['database']['T_FORPRINT'][$bible]['RTL'] ? "even" : "odd"); // swap the RTLs
-	$even = ("TRUE"==$args['database']['T_FORPRINT'][$bible]['RTL'] ? "odd" : "even"); // swap the RTLs
-	$yes_odd  = ($yes && $odd=="even" ? TRUE : NULL); // nt intro picture on even-left normally, odd-right for RTL
-	$yes_even = ($yes && $odd=="odd"  ? TRUE : NULL); 
-		AION_LOOP_PDFMARGIN_CHECKER(417, 0,  432, 648, 11, 14, $source, $destiny, NULL,		"$bible---Aionian-Edition.pdf",			"right");
-if($c){	AION_LOOP_PDFMARGIN_CHECKER(215, 33, 217, 648, 11, 14, $source, $destiny, $yes,		"$bible---Aionian-Edition.pdf",			"center"); }
-		AION_LOOP_PDFMARGIN_CHECKER(327, 0,  434, 648, 11, 14, $source, $destiny, $yes,		"$bible---Aionian-Edition---STUDY.pdf",	"right");
-
-		AION_LOOP_PDFMARGIN_CHECKER(414, 0,  432, 648, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_ALL_BODY.pdf",		"right",	$odd	);
-		AION_LOOP_PDFMARGIN_CHECKER(378, 0,  432, 648, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_ALL_BODY.pdf",		"right",	$even	);
-if($c){	AION_LOOP_PDFMARGIN_CHECKER(236, 33, 237, 648, 13, 17, $source, $destiny, $yes_odd,	"$bible---POD_KDP_ALL_BODY.pdf",		"center",	$odd	); }
-if($c){	AION_LOOP_PDFMARGIN_CHECKER(195, 33, 196, 648, 13, 17, $source, $destiny, $yes_even,"$bible---POD_KDP_ALL_BODY.pdf",		"center",	$even	); }
 	
-		AION_LOOP_PDFMARGIN_CHECKER(414, 0,  432, 648, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_NEW_BODY.pdf",		"right",	$odd	);
-		AION_LOOP_PDFMARGIN_CHECKER(378, 0,  432, 648, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_NEW_BODY.pdf",		"right",	$even	);
-if($c){	AION_LOOP_PDFMARGIN_CHECKER(236, 33, 237, 648, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_NEW_BODY.pdf",		"center",	$odd	); }
-if($c){	AION_LOOP_PDFMARGIN_CHECKER(195, 33, 196, 648, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_NEW_BODY.pdf",		"center",	$even	); }
+	// exceptional list of false positives because not flagged as YESNEW but has OT+NT abd the NT intro pix
+	$exceptional = array(
+		"Holy-Bible---Armenian---Armenian-Bible-Eastern" => TRUE,
+	);
+
+	// flags
+	$c		= (empty($args['database']['T_FORPRINT'][$bible]['COLUMN1']) ? TRUE : NULL);								// check center if 2 column only
+	$yes	= (empty($args['database']['T_FORPRINT'][$bible]['YESNEW']) && empty($exceptional[$bible]) ? NULL : TRUE); 	// allow one false positive if OT/NT for intro pix, flag wrong in some cases
+	$odd	= ("TRUE"==$args['database']['T_FORPRINT'][$bible]['RTL'] ? "even" : "odd");								// if RTL swap odd/even
+	$even	= ("TRUE"==$args['database']['T_FORPRINT'][$bible]['RTL'] ? "odd" : "even");								// if RTL swap odd/even
+	$yes_odd	= ($yes && $odd=="even"  ? TRUE : NULL);																// if RTL swap NT pix location
+	$yes_even	= ($yes && $even=="even" ? TRUE : NULL);																// if RTL swap NT pix location
+	
+	// do it
+	// numbers equal 1 pixel width at 144dpi or 1/144
+	// 8.5"x11" = 1224x1584
+	// 6"x9" = 864x1296
+	
+	// right margin 4.5", so give 0.5" of allowance before warning
+	// 576 / 144 = 4"
+	// 1584 - 1404 = 180 / 144 = 1.25"
+	// 648 / 144 = 4.5"
+//		AION_LOOP_PDFMARGIN_CHECKER(576, 1404, 648, 0, 11, 14, $source, $destiny, $yes,		"$bible---Aionian-Edition---STUDY.pdf",	"right",	"all"	);
+
+	// center exactly at 432 = 3"
+	// center margin is 0.125"
+	// 4 / 144 = 0.0277"
+	// right margin is 0.25" or 36 pixels
+	// go for 26 pixels allowing 10 overrun
+	// overuns allowed for online version BUT NOT POD!
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(4,   1220, 432, 0, 11, 14, $source, $destiny, $yes,		"$bible---Aionian-Edition.pdf",			"center",	"all"	); }
+		AION_LOOP_PDFMARGIN_CHECKER(26,  1220, 838, 0, 11, 14, $source, $destiny, NULL,		"$bible---Aionian-Edition.pdf",			"right",	"all"	); // prob
+//if($c){	AION_LOOP_PDFMARGIN_CHECKER(432, 73, 436, 0, 11, 14, $source, $destiny, $yes,		"$bible---Aionian-Edition.pdf",			"center",	"all"	); }
+//		AION_LOOP_PDFMARGIN_CHECKER(838, 73, 864, 0, 11, 14, $source, $destiny, NULL,		"$bible---Aionian-Edition.pdf",			"right",	"all"	); // prob
+return;
+	// center margin = 0.0625 or 9 pixels
+	// right/right margin = 0.3125, but 0.25 min or 36 points 
+	// odd page center starts at 0.875+2.375=3.25*144=468pixels, so 472 is 4 pixels into 9 pixels center margin
+	// odd page right margin min 0.25 = 36 pixels
+	// even page center starts at 0.3125+2.375=2.6875*144=387pixels, so 391 is 4 pixels into 9 pixels center margin
+	// even page right margin min 0.875 = 126 pixels
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(2,   1220, 472, 0, 13, 17, $source, $destiny, $yes_odd,	"$bible---POD_KDP_ALL_BODY.pdf",		"center",	$odd	); }
+		AION_LOOP_PDFMARGIN_CHECKER(36,  1220, 828, 0, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_ALL_BODY.pdf",		"right",	$odd	); // prob
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(2,   1220, 391, 0, 13, 17, $source, $destiny, $yes_even,"$bible---POD_KDP_ALL_BODY.pdf",		"center",	$even	); }
+		AION_LOOP_PDFMARGIN_CHECKER(126, 1220, 738, 0, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_ALL_BODY.pdf",		"right",	$even	); // prob
+
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(2,   1220, 472, 0, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_NEW_BODY.pdf",		"center",	$odd	); }
+		AION_LOOP_PDFMARGIN_CHECKER(36,  1220, 828, 0, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_NEW_BODY.pdf",		"right",	$odd	);
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(2,   1220, 391, 0, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_NEW_BODY.pdf",		"center",	$even	); }
+		AION_LOOP_PDFMARGIN_CHECKER(126, 1220, 738, 0, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_NEW_BODY.pdf",		"right",	$even	);
 }
 
 
@@ -5349,17 +5382,45 @@ function AION_LOOP_PDFMARGIN_CHECKER($x1, $y1, $x2, $y2, $head, $tail, $source, 
 	$input = "$source/$file";
 	if (!file_exists($input)) { AION_ECHO("MARGIN! NOEXIST $input"); return; }
 	$pdfprob = "$destiny/$file";
-	$output = "$destiny/$file.$margin.pdf";
+	$output = "$destiny/$file.$margin.$what.pdf";
 	if (file_exists($output)) { unlink($output); }
 	$alternate	= ($what=="odd" ? "sed '0~2d' | " : ($what=="even" ? "sed '1~2d' | " : ""));
-	$result = "$output.out$what.txt";
+	$result = "$output.out.txt";
 	if (file_exists($result)) { unlink($result); }
+
 	// FIRST create pfds from margin only. should all be blank
 	// https://stackoverflow.com/questions/6183479/cropping-a-pdf-using-ghostscript-9-01
 	// https://stackoverflow.com/questions/8158295/what-dimensions-do-the-coordinates-in-pdf-cropbox-refer-to
+	// https://stackoverflow.com/questions/12675371/how-to-set-custom-page-size-with-ghostscript
 	// coordinates: left,bottom and right,top
 	// 1-inch=72pts, 6x9 = 432x648
-	system("gs -o $output -sDEVICE=pdfwrite -c '[/CropBox [$x1 $y1 $x2 $y2]' -c '/PAGES pdfmark' -f $input;");
+	// x3 -dDEVICEWIDTHPOINTS=1296 -dDEVICEHEIGHTPOINTS=1944 -dPDFFitPage
+	//if ($x0>1) {
+	//	if (!file_exists("$output.pdf")) { system("gs -o $output.pdf -dDEVICEWIDTHPOINTS=". 432 * $x0 ." -dDEVICEHEIGHTPOINTS=". 648 * $x0 ." -dPDFFitPage -sDEVICE=pdfwrite -f $input;"); }
+	//	$input = "$output.pdf";
+	//}
+	//system("gs -o $output -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -c '[/CropBox [$x1 $y1 $x2 $y2] /PAGES pdfmark' -f $input;");
+	//
+	// CONVERT!
+	// https://stackoverflow.com/questions/26538574/how-can-i-easily-crop-a-pdf-page 
+	// https://stackoverflow.com/questions/23160191/compressing-text-heavy-pdfs-without-ghostscript-and-only-imagemagik-causes-blurr
+	// https://stackoverflow.com/questions/60686993/how-to-process-each-page-of-a-multi-page-pdf-in-place-with-imagemagick
+	// https://imagemagick.org/script/command-line-processing.php#geometry 
+	// https://imagemagick.org/script/command-line-options.php 
+	// -compress Group4 \
+	system("\
+convert \
+	-verbose \
+	-limit memory 2GB \
+	-compress None \
+	-density 144 \
+	-crop {$x1}x{$y1}+{$x2}+{$y2} \
+	+repage \
+	$input \
+	$output \
+");	
+
+
 	// SECOND check if the cropped margin is entirely blank, should be!
 	// https://stackoverflow.com/questions/12831990/check-pdf-if-document-is-blank-in-bash-or-ruby
 	// https://askubuntu.com/questions/410196/remove-first-n-lines-of-a-large-text-file
@@ -5368,6 +5429,7 @@ function AION_LOOP_PDFMARGIN_CHECKER($x1, $y1, $x2, $y2, $head, $tail, $source, 
 	// tee $result.raw.txt |\
 	system("\
 gs -dBATCH -dNOPAUSE -dQUIET -sDEVICE=bbox $output 2>&1 |\
+tee $result.raw.txt |\
 sed -e '/%%BoundingBox/d' |\
 nl |\
 tail -n +$head |\
@@ -5375,10 +5437,12 @@ head -n -$tail |\
 $alternate sed -e '/%%HiResBoundingBox: 0.000000 0.000000 0.000000 0.000000/d' |\
 tee $result \
 ");
-	unlink($output); // dont need this anymore
+
+
+	//unlink($output); // dont need this anymore
 	$matches = array();
 	if (!($tmp=file_get_contents($result)) || empty($tmp) || ($yesnew && (!($matches=preg_match("/\r\n/ui",$tmp)) || $matches<=1))) {
-		if (file_exists($result)) { unlink($result); }
+		//if (file_exists($result)) { unlink($result); }
 		AION_ECHO("MARGIN! NOPROB $input");
 	}
 	else {
