@@ -5305,11 +5305,11 @@ function AION_LOOP_PDFMARGIN($source, $destiny) {
 	AION_FILE_DATA_GET(	'./aion_database/FORPRINT.txt',	'T_FORPRINT', $database, 'BIBLE', FALSE );
 	AION_LOOP( array(
 		'function'	=> 'AION_LOOP_PDFMARGIN_DOIT',
-		//'include'	=> "/(Bu-Bible---|Amo-Bible---|Bareli-Bible---|Bengali-Bible---)Aionian-Edition\.noia$/",
-		//'include'	=> "/(Amo-Bible---|Albanian-Bible---|Assamese-Bible---)Aionian-Edition\.noia$/",
-		'include'	=> "/(Amo-Bible---)Aionian-Edition\.noia$/",
+		//'include'	=> "/(Amo-Bible---|Bu-Bible---|Bareli-Bible---|Bengali-Bible---)Aionian-Edition\.noia$/",
+		//'include'	=> "/(Amo-Bible---|Bu-Bible---|Albanian-Bible---|Assamese-Bible---|Bengali-Bible---|Arabic-Van-Dyck-Bible---)Aionian-Edition\.noia$/",
+		//'include'	=> "/(Albanian-Bible---)Aionian-Edition\.noia$/",
 		//'include'	=> "/(Bengali-Bible---|Arabic-Van-Dyck-Bible---)Aionian-Edition\.noia$/",
-		//'include'	=> "/Aionian-Edition\.noia$/",
+		'include'	=> "/Aionian-Edition\.noia$/",
 		'database'	=> &$database,
 		'destiny'	=> $destiny,
 		'source'	=> $source,
@@ -5338,16 +5338,34 @@ function AION_LOOP_PDFMARGIN_DOIT($args) {
 	$yes_even	= ($yes && $even=="even" ? TRUE : NULL);																// if RTL swap NT pix location
 	
 	// do it
+	// GS SIZES
+	// 8.5"x11" = 612x792
+	// 6"x9" = 432x648
+		AION_LOOP_PDFMARGIN_CHECKER(342, 0,  378, 792, 11, 14, $source, $destiny, $yes,		"$bible---Aionian-Edition---STUDY.pdf",	"right",	"all"	);
+		
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(216, 38, 217, 648, 11, 14, $source, $destiny, $yes,		"$bible---Aionian-Edition.pdf",			"center",	"all"	); }
+		AION_LOOP_PDFMARGIN_CHECKER(417, 38, 432, 648, 11, 14, $source, $destiny, NULL,		"$bible---Aionian-Edition.pdf",			"right",	"all"	); // prob
+		
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(236, 38, 237, 648, 13, 17, $source, $destiny, $yes_odd,	"$bible---POD_KDP_ALL_BODY.pdf",		"center",	$odd	); }
+		AION_LOOP_PDFMARGIN_CHECKER(414, 38, 432, 648, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_ALL_BODY.pdf",		"right",	$odd	); // prob
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(195, 38, 196, 648, 13, 17, $source, $destiny, $yes_even,"$bible---POD_KDP_ALL_BODY.pdf",		"center",	$even	); }
+		AION_LOOP_PDFMARGIN_CHECKER(371, 38, 432, 648, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_ALL_BODY.pdf",		"right",	$even	); // prob
+		
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(236, 38, 237, 648, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_NEW_BODY.pdf",		"center",	$odd	); }
+		AION_LOOP_PDFMARGIN_CHECKER(414, 38, 432, 648, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_NEW_BODY.pdf",		"right",	$odd	);
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(195, 38, 196, 648, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_NEW_BODY.pdf",		"center",	$even	); }
+		AION_LOOP_PDFMARGIN_CHECKER(371, 38, 432, 648, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_NEW_BODY.pdf",		"right",	$even	);
+return;
+/*		
+	// CONVERT SIZES
 	// numbers equal 1 pixel width at 144dpi or 1/144
 	// 8.5"x11" = 1224x1584
 	// 6"x9" = 864x1296
-	
 	// right margin 4.5", so give 0.5" of allowance before warning
 	// 576 / 144 = 4"
 	// 1584 - 1404 = 180 / 144 = 1.25"
 	// 648 / 144 = 4.5"
-//		AION_LOOP_PDFMARGIN_CHECKER(576, 1404, 648, 0, 11, 14, $source, $destiny, $yes,		"$bible---Aionian-Edition---STUDY.pdf",	"right",	"all"	);
-
+		AION_LOOP_PDFMARGIN_CHECKER(576, 1404, 648, 0, 11, 14, $source, $destiny, $yes,		"$bible---Aionian-Edition---STUDY.pdf",	"right",	"all"	);
 	// center exactly at 432 = 3"
 	// center margin is 0.125"
 	// 4 / 144 = 0.0277"
@@ -5356,9 +5374,6 @@ function AION_LOOP_PDFMARGIN_DOIT($args) {
 	// overuns allowed for online version BUT NOT POD!
 if($c){	AION_LOOP_PDFMARGIN_CHECKER(4,   1220, 432, 0, 11, 14, $source, $destiny, $yes,		"$bible---Aionian-Edition.pdf",			"center",	"all"	); }
 		AION_LOOP_PDFMARGIN_CHECKER(26,  1220, 838, 0, 11, 14, $source, $destiny, NULL,		"$bible---Aionian-Edition.pdf",			"right",	"all"	); // prob
-//if($c){	AION_LOOP_PDFMARGIN_CHECKER(432, 73, 436, 0, 11, 14, $source, $destiny, $yes,		"$bible---Aionian-Edition.pdf",			"center",	"all"	); }
-//		AION_LOOP_PDFMARGIN_CHECKER(838, 73, 864, 0, 11, 14, $source, $destiny, NULL,		"$bible---Aionian-Edition.pdf",			"right",	"all"	); // prob
-return;
 	// center margin = 0.0625 or 9 pixels
 	// right/right margin = 0.3125, but 0.25 min or 36 points 
 	// odd page center starts at 0.875+2.375=3.25*144=468pixels, so 472 is 4 pixels into 9 pixels center margin
@@ -5374,13 +5389,14 @@ if($c){	AION_LOOP_PDFMARGIN_CHECKER(2,   1220, 472, 0, 13, 17, $source, $destiny
 		AION_LOOP_PDFMARGIN_CHECKER(36,  1220, 828, 0, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_NEW_BODY.pdf",		"right",	$odd	);
 if($c){	AION_LOOP_PDFMARGIN_CHECKER(2,   1220, 391, 0, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_NEW_BODY.pdf",		"center",	$even	); }
 		AION_LOOP_PDFMARGIN_CHECKER(126, 1220, 738, 0, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_NEW_BODY.pdf",		"right",	$even	);
+*/
 }
 
 
 // Check the margins
 function AION_LOOP_PDFMARGIN_CHECKER($x1, $y1, $x2, $y2, $head, $tail, $source, $destiny, $yesnew, $file, $margin, $what='') {
 	$input = "$source/$file";
-	if (!file_exists($input)) { AION_ECHO("MARGIN! NOEXIST $input"); return; }
+	if (!file_exists($input)) { AION_ECHO("MARGIN! NOEXIST $margin $what $input"); return; }
 	$pdfprob = "$destiny/$file";
 	$output = "$destiny/$file.$margin.$what.pdf";
 	if (file_exists($output)) { unlink($output); }
@@ -5399,7 +5415,7 @@ function AION_LOOP_PDFMARGIN_CHECKER($x1, $y1, $x2, $y2, $head, $tail, $source, 
 	//	if (!file_exists("$output.pdf")) { system("gs -o $output.pdf -dDEVICEWIDTHPOINTS=". 432 * $x0 ." -dDEVICEHEIGHTPOINTS=". 648 * $x0 ." -dPDFFitPage -sDEVICE=pdfwrite -f $input;"); }
 	//	$input = "$output.pdf";
 	//}
-	//system("gs -o $output -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -c '[/CropBox [$x1 $y1 $x2 $y2] /PAGES pdfmark' -f $input;");
+	system("gs -o $output -sDEVICE=pdfwrite -c '[/CropBox [$x1 $y1 $x2 $y2] /PAGES pdfmark' -f $input;");
 	//
 	// CONVERT!
 	// https://stackoverflow.com/questions/26538574/how-can-i-easily-crop-a-pdf-page 
@@ -5408,18 +5424,17 @@ function AION_LOOP_PDFMARGIN_CHECKER($x1, $y1, $x2, $y2, $head, $tail, $source, 
 	// https://imagemagick.org/script/command-line-processing.php#geometry 
 	// https://imagemagick.org/script/command-line-options.php 
 	// -compress Group4 \
-	system("\
-convert \
-	-verbose \
-	-limit memory 2GB \
-	-compress None \
-	-density 144 \
-	-crop {$x1}x{$y1}+{$x2}+{$y2} \
-	+repage \
-	$input \
-	$output \
-");	
-
+//	system("\
+//convert \
+//	-verbose \
+//	-limit memory 2GB \
+//	-compress None \
+//	-density 144 \
+//	-crop {$x1}x{$y1}+{$x2}+{$y2} \
+//	+repage \
+//	$input \
+//	$output \
+//");	
 
 	// SECOND check if the cropped margin is entirely blank, should be!
 	// https://stackoverflow.com/questions/12831990/check-pdf-if-document-is-blank-in-bash-or-ruby
@@ -5429,7 +5444,6 @@ convert \
 	// tee $result.raw.txt |\
 	system("\
 gs -dBATCH -dNOPAUSE -dQUIET -sDEVICE=bbox $output 2>&1 |\
-tee $result.raw.txt |\
 sed -e '/%%BoundingBox/d' |\
 nl |\
 tail -n +$head |\
@@ -5438,16 +5452,17 @@ $alternate sed -e '/%%HiResBoundingBox: 0.000000 0.000000 0.000000 0.000000/d' |
 tee $result \
 ");
 
+	unlink($output); // dont need this anymore
+	$content = (($content=file_get_contents($result)) ? $content : "");
+	$matches = (($matches=preg_match_all("/[\r\n]+/ui", $content)) ? $matches : 0);
 
-	//unlink($output); // dont need this anymore
-	$matches = array();
-	if (!($tmp=file_get_contents($result)) || empty($tmp) || ($yesnew && (!($matches=preg_match("/\r\n/ui",$tmp)) || $matches<=1))) {
-		//if (file_exists($result)) { unlink($result); }
-		AION_ECHO("MARGIN! NOPROB $input");
+	if (empty($content) || ($yesnew && $matches<=1)) {
+		if (file_exists($result)) { unlink($result); }
+		AION_ECHO("MARGIN! NOPROB $margin $what $input");
 	}
 	else {
-		if (!copy($input, $pdfprob)) { AION_ECHO("ERROR! MARGIN CHECKER: failed copy($input, $pdfprob)"); }
-		AION_ECHO("MARGIN! PROBLEM $input");
+		//if (!copy($input, $pdfprob)) { AION_ECHO("ERROR! MARGIN CHECKER: failed copy($input, $pdfprob)"); }
+		AION_ECHO("MARGIN! PROBLEM $margin $what $matches $input");
 	}
 }
 
