@@ -29,6 +29,7 @@ else if ($_Path=='Bible-Cover') {						$_meta = " ~ Aionian Bible Branded Leathe
 else if ($_Path=='Privacy') {							$_meta = " ~ Privacy Policy";								abcms_page('docs/privacy.htm'); }
 else if ($_Path=='Apple-iOS-App') {						$_meta = " ~ Apple iOS App";								abcms_page('docs/appleiosapp.htm'); }
 else if ($_Path=='Third-Party-Publisher-Resources') {	$_meta = " ~ Third Party Publisher Resources";				abcms_page('docs/third-party-publisher-resources.htm'); }
+else if (strpos($_Path, 'Debug')===0) {					$_meta = " ~ Debug";										abcms_debug(); }
 else if ($_Path=='Country') {							echo "COUNTRY: ".(empty($_SERVER["HTTP_CF_IPCOUNTRY"]) ? "UNKNOWN" : $_SERVER["HTTP_CF_IPCOUNTRY"]); exit; }
 else if (!preg_match('/^[a-zA-Z0-9\-\/]+$/',$_Path)) {																abcms_notf(); }
 if (($number=preg_match_all("#/parallel-[^/]+#", $_Path, $matches, PREG_PATTERN_ORDER))) {
@@ -156,6 +157,15 @@ require 'glossary.php';
 abcms_tail();
 }
 
+
+
+/*** DEBUG ***/
+function abcms_debug() {
+abcms_html();
+abcms_head();
+require 'debug.php';
+abcms_tail();
+}
 
 
 
@@ -2205,7 +2215,7 @@ if ($_para ||
 <link rel="manifest" href="/site.webmanifest">
 <link rel='stylesheet' href='/styles/style.css'>
 <?
-if ($_Path=='Bibles' || $_Path=='Read' || $_Part[0]=='Parallel') {	echo "<noscript><link rel='stylesheet' type='text/css' href='/styles/style-all.css' /></noscript>"; }
+if ($_Path=='Bibles' || $_Path=='Read' || $_Part[0]=='Parallel' || strpos($_Path, 'Debug')===0) {	echo "<noscript><link rel='stylesheet' type='text/css' href='/styles/style-all.css' /></noscript>"; }
 else {	if (!empty($_BibleONE['T_VERSIONS']['LANGUAGESTYLE'])) {	echo "<noscript><link rel='stylesheet' type='text/css' href='/styles/".$_BibleONE['T_VERSIONS']['LANGUAGESTYLE']."' /></noscript>"; }
 		if (!empty($_BibleTWO['T_VERSIONS']['LANGUAGESTYLE'])) {	echo "<noscript><link rel='stylesheet' type='text/css' href='/styles/".$_BibleTWO['T_VERSIONS']['LANGUAGESTYLE']."' /></noscript>"; }
 }
@@ -2287,7 +2297,7 @@ $social .= "<a href='mailto:?subject=".preg_replace("/ /","%20","$title0&body=$u
 <?
 echo "<script>AionianBible_SwipeLinks('$_SwipePREV','$_SwipeNEXT');</script>";
 abcms_jsonld($good);
-if ($_Path=='Bibles' || $_Path=='Read' || $_Part[0]=='Parallel') {?>
+if ($_Path=='Bibles' || $_Path=='Read' || $_Part[0]=='Parallel' || strpos($_Path, 'Debug')===0) {?>
 <script>
 /* www.giftofspeed.com/defer-loading-css */
 var deferload = document.createElement('link');

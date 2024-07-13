@@ -13735,7 +13735,7 @@ NUM 30:12 F’ie avali’ ty vali’e amy andro naha­janjiña’ey, le tsy hija
 NUM 30:13 Ze fanta ndra titike famahoram-batañe, le azo ty vali’e ajadoñe ndra faoheñe.
 NUM 30:14 Fe naho tsy mañaoñe aze handro am-pohatse i vali’ey, le hene hampijadoñe’e o nifantà’eo, naho ze mamahotse ty tro’e; toe niventese’e, kanao tsy nisaontsie’e amy andro nahajanjiña’e azey.
 NUM 30:15 Aa naho avali’e t’ie añe i nijanjiña’e azey le hivave i tahi’ey i lahilahiy.
-NUM 30:16 Ie o fañè linili’ Iehovà amy Mosèo ty amy t’indaty naho i vali’ey, naho ty aman-drae naho ty anak’ ampela’e mbe kede añ’ anjomban-drae’e ao.
+NUM 30:16 Ie o fañè linili’ Iehovà añamy Mosèo amy t’indaty naho i vali’ey, naho aman-drae naho ty anak’ ampela’e mbe kede añ’ anjomban-drae’e ao.
 NUM 31:1 
 EOF;
 if (!($bfile = preg_replace("/NUM 30:1 (.+?)NUM 31:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }

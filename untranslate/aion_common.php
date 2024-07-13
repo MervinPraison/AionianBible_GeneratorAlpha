@@ -3142,15 +3142,15 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-0;
 	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-2835;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-910;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-13522;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-13520;
 	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-17822;
 	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-10330;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-715;
 	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-1339;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-198664;
-	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-46956;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-4481.86;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-198572;
+	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-46934;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-4480.02;
 	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-148;
 	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-83;
 	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-359;
@@ -5325,36 +5325,76 @@ function AION_LOOP_PDFMARGIN_DOIT($args) {
 	AION_ECHO("MARGIN! $bible");
 	
 	// exceptional list of false positives because not flagged as YESNEW but has OT+NT abd the NT intro pix
+	// value of 2 if OT and NT and New Testament intro longer in the language to test positive
+	// two reason for this list 
+	// 1. the Bible does not have YESNEW flagged, but it does have OT and NT so the pix in the middle (1) below
+	// 2. The New Testament beginning page has a long word that trips as a false positive (2) below
 	$exceptional = array(
-		"Holy-Bible---Armenian---Armenian-Bible-Eastern" => TRUE,
+		"Holy-Bible---Armenian---Armenian-Bible-Eastern"			=> 1,
+		"Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms"	=> 1,
+		"Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible"			=> 1,
+		"Holy-Bible---Danish---Danish-1871-1907"					=> 1,
+		"Holy-Bible---English---Geneva-Bible"						=> 1,
+		"Holy-Bible---English---King-James-Version-American"		=> 1,
+		"Holy-Bible---English---Noyes"								=> 1,
+		"Holy-Bible---English---One-Unity-Resource-Bible"			=> 1,
+		"Holy-Bible---English---Open-English-Bible-Commonwealth"	=> 1,
+		"Holy-Bible---English---Open-English-Bible-US"				=> 1,
+		"Holy-Bible---English---Trans-Trans"						=> 1,
+		"Holy-Bible---English---Tyndale-Bible"						=> 1,
+		"Holy-Bible---English---Wycliffe-Bible"						=> 1,
+		"Holy-Bible---French---Free-for-the-World"					=> 2, 
+		"Holy-Bible---French---French-Crampon-Bible"				=> 2,
+		"Holy-Bible---French---French-Crampon-Bible-New"			=> 2,
+		"Holy-Bible---French---French-Darby-Bible"					=> 2,
+		"Holy-Bible---French---French-Louis-Segond-1910-Bible"		=> 2,
+		"Holy-Bible---French---French-Martin"						=> 2,
+		"Holy-Bible---French---French-Ostervald-Bible"				=> 2,
+		"Holy-Bible---French---French-Perret-Gentil-Rilliet"		=> 2,
+		"Holy-Bible---French---French-Synodale-Bible"				=> 2,
+		"Holy-Bible---French---Vulgate-Glaire"						=> 2,
+		"Holy-Bible---German---German-Albrecht"						=> 1,
+		"Holy-Bible---Icelandic---Open-Living-Word"					=> 1,
+		"Holy-Bible---Italian---Conferenza-Episcopale-Italiana"		=> 2,
+		"Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible"		=> 2,
+		"Holy-Bible---Italian---Italian-Riveduta-Bible"				=> 2,
+		"Holy-Bible---Latin---Clementine-Vulgate-1598"				=> 2,
+		"Holy-Bible---Latin---Clementine-Vulgate-Conte"				=> 2,
+		"Holy-Bible---Latin---Clementine-Vulgate-Hetzenauer"		=> 2,
+		"Holy-Bible---Latin---Clementine-Vulgate-Tweedale"			=> 2,
+		"Holy-Bible---Latin---Vulgata-Sistina"						=> 2,
+		"Holy-Bible---Latin---Vulgate-Jerome"						=> 2,
+		"Holy-Bible---Malagasy---Malagasy-Bible"					=> 2,
+		"Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible"			=> 2,
 	);
 
 	// flags
-	$c		= (empty($args['database']['T_FORPRINT'][$bible]['COLUMN1']) ? TRUE : NULL);								// check center if 2 column only
-	$yes	= (empty($args['database']['T_FORPRINT'][$bible]['YESNEW']) && empty($exceptional[$bible]) ? NULL : TRUE); 	// allow one false positive if OT/NT for intro pix, flag wrong in some cases
-	$odd	= ("TRUE"==$args['database']['T_FORPRINT'][$bible]['RTL'] ? "even" : "odd");								// if RTL swap odd/even
-	$even	= ("TRUE"==$args['database']['T_FORPRINT'][$bible]['RTL'] ? "odd" : "even");								// if RTL swap odd/even
-	$yes_odd	= ($yes && $odd=="even"  ? TRUE : NULL);																// if RTL swap NT pix location
-	$yes_even	= ($yes && $even=="even" ? TRUE : NULL);																// if RTL swap NT pix location
+	$c		= (empty($args['database']['T_FORPRINT'][$bible]['COLUMN1'])	? TRUE : NULL);				// check center if 2 column only
+	$yes	=	(!empty($exceptional[$bible])								? $exceptional[$bible] :	// allow false positives if OT/NT for intro pix, flag wrong in some cases
+				(!empty($args['database']['T_FORPRINT'][$bible]['YESNEW'])	? 1 : 0));
+	$odd	= ("TRUE"==$args['database']['T_FORPRINT'][$bible]['RTL']		? "even" : "odd");			// if RTL swap odd/even
+	$even	= ("TRUE"==$args['database']['T_FORPRINT'][$bible]['RTL']		? "odd" : "even");			// if RTL swap odd/even
+	$yes_odd	= ($yes && ($odd=="even" || $exceptional[$bible]>1)			? 1 : 0);					// if RTL swap NT pix location, if yes and exception>1 means one false positive allowed on odd and even page
+	$yes_even	= ($yes && $even=="even"									? 1 : 0);					// if RTL swap NT pix location
 	
 	// do it
 	// GS SIZES
 	// 8.5"x11" = 612x792
 	// 6"x9" = 432x648
-		AION_LOOP_PDFMARGIN_CHECKER(342, 0,  378, 792, 11, 14, $source, $destiny, $yes,		"$bible---Aionian-Edition---STUDY.pdf",	"right",	"all"	);
+		AION_LOOP_PDFMARGIN_CHECKER(342, 0,  378, 792, 11, 14, $source, $destiny, ($yes?2:0),	"$bible---Aionian-Edition---STUDY.pdf",	"right",	"all"	);		// none or two
 		
-if($c){	AION_LOOP_PDFMARGIN_CHECKER(216, 38, 217, 648, 11, 14, $source, $destiny, $yes,		"$bible---Aionian-Edition.pdf",			"center",	"all"	); }
-		AION_LOOP_PDFMARGIN_CHECKER(417, 38, 432, 648, 11, 14, $source, $destiny, NULL,		"$bible---Aionian-Edition.pdf",			"right",	"all"	); // prob
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(216, 38, 217, 648, 11, 14, $source, $destiny, $yes,			"$bible---Aionian-Edition.pdf",			"center",	"all"	); }	// none, one, or two
+		AION_LOOP_PDFMARGIN_CHECKER(417, 38, 432, 648, 11, 14, $source, $destiny, 0,			"$bible---Aionian-Edition.pdf",			"right",	"all"	);		// false positives sometimes
 		
-if($c){	AION_LOOP_PDFMARGIN_CHECKER(236, 38, 237, 648, 13, 17, $source, $destiny, $yes_odd,	"$bible---POD_KDP_ALL_BODY.pdf",		"center",	$odd	); }
-		AION_LOOP_PDFMARGIN_CHECKER(414, 38, 432, 648, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_ALL_BODY.pdf",		"right",	$odd	); // prob
-if($c){	AION_LOOP_PDFMARGIN_CHECKER(195, 38, 196, 648, 13, 17, $source, $destiny, $yes_even,"$bible---POD_KDP_ALL_BODY.pdf",		"center",	$even	); }
-		AION_LOOP_PDFMARGIN_CHECKER(371, 38, 432, 648, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_ALL_BODY.pdf",		"right",	$even	); // prob
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(236, 38, 237, 648, 13, 17, $source, $destiny, $yes_odd,		"$bible---POD_KDP_ALL_BODY.pdf",		"center",	$odd	); }	// none or one
+		AION_LOOP_PDFMARGIN_CHECKER(414, 38, 432, 648, 13, 17, $source, $destiny, 0,			"$bible---POD_KDP_ALL_BODY.pdf",		"right",	$odd	);		// false positives sometimes
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(195, 38, 196, 648, 13, 17, $source, $destiny, $yes_even,	"$bible---POD_KDP_ALL_BODY.pdf",		"center",	$even	); }	// none or one
+		AION_LOOP_PDFMARGIN_CHECKER(371, 38, 432, 648, 13, 17, $source, $destiny, 0,			"$bible---POD_KDP_ALL_BODY.pdf",		"right",	$even	);		// false postives sometimes
 		
-if($c){	AION_LOOP_PDFMARGIN_CHECKER(236, 38, 237, 648, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_NEW_BODY.pdf",		"center",	$odd	); }
-		AION_LOOP_PDFMARGIN_CHECKER(414, 38, 432, 648, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_NEW_BODY.pdf",		"right",	$odd	);
-if($c){	AION_LOOP_PDFMARGIN_CHECKER(195, 38, 196, 648, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_NEW_BODY.pdf",		"center",	$even	); }
-		AION_LOOP_PDFMARGIN_CHECKER(371, 38, 432, 648, 13, 17, $source, $destiny, NULL,		"$bible---POD_KDP_NEW_BODY.pdf",		"right",	$even	);
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(236, 38, 237, 648, 13, 17, $source, $destiny, 0,			"$bible---POD_KDP_NEW_BODY.pdf",		"center",	$odd	); }
+		AION_LOOP_PDFMARGIN_CHECKER(414, 38, 432, 648, 13, 17, $source, $destiny, 0,			"$bible---POD_KDP_NEW_BODY.pdf",		"right",	$odd	);
+if($c){	AION_LOOP_PDFMARGIN_CHECKER(195, 38, 196, 648, 13, 17, $source, $destiny, 0,			"$bible---POD_KDP_NEW_BODY.pdf",		"center",	$even	); }
+		AION_LOOP_PDFMARGIN_CHECKER(371, 38, 432, 648, 13, 17, $source, $destiny, 0,			"$bible---POD_KDP_NEW_BODY.pdf",		"right",	$even	);
 return;
 /*		
 	// CONVERT SIZES
@@ -5456,13 +5496,13 @@ tee $result \
 	$content = (($content=file_get_contents($result)) ? $content : "");
 	$matches = (($matches=preg_match_all("/[\r\n]+/ui", $content)) ? $matches : 0);
 
-	if (empty($content) || ($yesnew && $matches<=1)) {
+	if (empty($content) || ($yesnew && $matches <= $yesnew)) {
 		if (file_exists($result)) { unlink($result); }
-		AION_ECHO("MARGIN! NOPROB $margin $what $input");
+		AION_ECHO("MARGIN! NOPROB $margin $what pages=$matches $input");
 	}
 	else {
 		//if (!copy($input, $pdfprob)) { AION_ECHO("ERROR! MARGIN CHECKER: failed copy($input, $pdfprob)"); }
-		AION_ECHO("MARGIN! PROBLEM $margin $what $matches $input");
+		AION_ECHO("MARGIN! PROBLEM $margin $what pages=$matches $input");
 	}
 }
 
