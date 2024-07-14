@@ -3135,15 +3135,15 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-8183;
 	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-8973;
 	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-283151;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-7528724;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-7528732;
 	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-80500;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-458;
-	$grandmarker['LONG']		= $grandtotal['LONG']-1153;
+	$grandmarker['LONG']		= $grandtotal['LONG']-1152;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-0;
 	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-2835;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-910;
 	$grandmarker['FIXED']		= $grandtotal['FIXED']-13520;
-	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-17822;
+	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-17814;
 	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-10330;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-715;
@@ -5366,6 +5366,11 @@ function AION_LOOP_PDFMARGIN_DOIT($args) {
 		"Holy-Bible---Latin---Vulgate-Jerome"						=> 2,
 		"Holy-Bible---Malagasy---Malagasy-Bible"					=> 2,
 		"Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible"			=> 2,
+		"Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet"	=> 1,
+		"Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet"	=> 1,
+		"Holy-Bible---Romani---Eastern-Vlakh"						=> 1,
+		"Holy-Bible---Romani-Vlax---Servi-Bible"					=> 1,
+		"Holy-Bible---Rote-Dela---Rote-Dela-Bible"					=> 1,
 	);
 
 	// flags
