@@ -22,12 +22,12 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_onebook'	=> FALSE,	// TRUE = only do first bible book, otherwise all
 		'q_rtlhuh'	=> 'ALL',	// 'RTL' = RTL only,  'RTLNO' = Skip RTL, 'ALL' = all
 		'q_allall'	=> TRUE,	// TRUE = do all bibles not marked FALSE -OR- FALSE = do all bibles marked TRUE
-		'q_pdfall'	=> FALSE,	// TRUE = do ALL PDFs
+		'q_pdfall'	=> TRUE,	// TRUE = do ALL PDFs
 		'q_pdfpo'	=> FALSE,	// TRUE = do KDP PDFs
 		'q_pdfnt'	=> FALSE,	// TRUE = do KDP NT PDFs
 		'q_pdflu'	=> FALSE,	// TRUE = do LULU PDFs
 		'q_pdfon'	=> FALSE,	// TRUE = do Online PDFs
-		'q_pdfoo'	=> TRUE,	// TRUE = do One Online PDFs
+		'q_pdfoo'	=> FALSE,	// TRUE = do One Online PDFs
 		'q_epubc'	=> TRUE,	// TRUE = do ePub covers
 		//'include'	=> "/Holy-Bible---.*(Albanian|Aionian-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Hebrew-Aleppo-Miqra-Mesorah).*---Aionian-Edition\.noia$/",
@@ -57,14 +57,14 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Sanskrit---Tamil).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Rote-Dela).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Coptic|Myanmar---Burmese-Common|Sanskrit---Burmese|Sanskrit---Cologne|Sanskrit---Harvard|Sanskrit---IAST|Sanskrit---ISO|Sanskrit---ITRANS|Sanskrit---Tamil|Sanskrit---Velthuis).*---Aionian-Edition\.noia$/",
-		'include'	=> "/Holy-Bible---(Sanskrit---Burmese).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Arapaho|Cherokee|Finnish-Bible|Malayalam|Myanmar|Sanskrit|Tamil).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Coptic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Myanmar|Burmese).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Sanskrit---Burmese).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Coptic---Coptic-Boharic-NT---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Catholic-Public-Domain---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
-		//'include'	=> "/---Aionian-Edition\.noia$/",
+		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		) );
@@ -714,6 +714,7 @@ $yesnew		= trim(!empty($forprint['YESNEW'])		? $forprint['YESNEW']		: $default['
 $rtl		= trim(!empty($forprint['RTL'])			? $forprint['RTL']			: $default['RTL']			);
 $hyphen		= trim(!empty($forprint['HYPHEN'])		? $forprint['HYPHEN']		: $default['HYPHEN']		);
 $column1	= trim(!empty($forprint['COLUMN1'])		? $forprint['COLUMN1']		: NULL						);
+$studwide	= trim(!empty($forprint['STUDWIDE'])	? $forprint['STUDWIDE']		: NULL						);
 $font		= trim(!empty($forprint['FONT'])		? $forprint['FONT']			: $default['FONT']			);
 $bsize		= trim(!empty($forprint['BSIZE'])		? $forprint['BSIZE']		: $default['BSIZE']			);
 $bleading	= trim(!empty($forprint['BLEADING'])	? $forprint['BLEADING']		: $default['BLEADING']		);
@@ -1187,6 +1188,8 @@ if ($format=="STUDY") {
 	$BOTTOM_ROW				= '142';		$BOTTOM_WIDTH			= '50';			$BOTTOM_CENTER			= '51';
 	$COLUMN_RIGHT_COLUMN	= '46';			$COLUMN_RIGHT_WIDTH		= '43';			$COLUMN_RIGHT_HEIGHT	= '132'; // unused but defined
 	$BOTTOM_RIGHT_RIGHT		= '47'; // unused but defined
+	
+	if ($studwide) { $COLUMN_LEFT_WIDTH		= '80'; }
 }
 else if ($format=="READ" && $column1) {
 	$web72 = '-web';

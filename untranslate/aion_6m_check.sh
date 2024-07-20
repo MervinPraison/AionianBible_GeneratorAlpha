@@ -9,7 +9,7 @@ AION_ECHO("START " . basename(__FILE__, '.php'));
 
 AION_ECHO("PDF MARGIN CHECKER");
 AION_LOOP_PDFMARGIN('../www-stageresources', '../pdf-margin-checker' );
-
+AION_LOOP_DIFF('../pdf-margin-checker','../pdf-margin-checker-MARKER','../pdf-margin-checker-diff');
 
 /*** done ***/
 AION_ECHO("DONE!");
