@@ -57,10 +57,12 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Sanskrit---Tamil).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Rote-Dela).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Coptic|Myanmar---Burmese-Common|Sanskrit---Burmese|Sanskrit---Cologne|Sanskrit---Harvard|Sanskrit---IAST|Sanskrit---ISO|Sanskrit---ITRANS|Sanskrit---Tamil|Sanskrit---Velthuis).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Arapaho|Cherokee|Finnish-Bible|Malayalam|Myanmar|Sanskrit|Tamil).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Arapaho|Cherokee|Malayalam|Myanmar-Burmese-Judson|Sanskrit|Tamil).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---(Malayalam|.*Myanmar-Burmese-Judson|Tamil|Sanskrit---Sinhala|Sanskrit---Telugu|Sanskrit---Thai).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---(Kannada|Malayalam|Myanmar|Sanskrit|Tamil).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Coptic).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Myanmar|Burmese).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Sanskrit---Burmese).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---(Kannada|Myanmar).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Sanskrit---Urdu).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Coptic---Coptic-Boharic-NT---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Catholic-Public-Domain---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
@@ -737,7 +739,7 @@ to allow for better note taking with a taller line height.
 
 Now most recently I also programmatically increased the font and leading for the online PDF, the study PDF, and
 the NT POD PDF. However the POD PDF remains exactly as specified in the input.  In a nutshell if the font is < 9.0
-I increase to 9.0 as a minimum, except for the Kannada language. Others are also excepted. See below. And I also
+I increase to 9.0 as a minimum, except for the Kannada and Myanmar language. See below. And I also
 increase the leading by 10%, but again not for the POD PDF.
 
 This allows us to increase font and leading size for the PDF types where the 800 page maximum is not a concern.
@@ -745,7 +747,7 @@ This also brings a curious question. In the case when the translation is OT or N
 not a NT POD PDF, but only a POD PDF, then in this case the font and leading are not programmatically increased
 but only the online PDF and the study PDF are increased. This does seem inconsistent and probably is, though the
 POD PDF font and leading is explicitly set at a readable level in FORPRINT. I guess we could argue that there is
-reason to keep the POD PDF smaller than the online adn study PDF in order to keep page counts down and price down
+reason to keep the POD PDF smaller than the online and study PDF in order to keep page counts down and price down
 whereas there is no reason to spare pages for the online PDF and the study PDF and readability is the only concern.
 
 */
@@ -753,16 +755,11 @@ if ($format=='STUDY') {
 	$size	= trim(!empty($forprint['SIZEST'])		? $forprint['SIZEST']		: $default['SIZEST']		);
 	$leading= trim(!empty($forprint['LEADINGST'])	? $forprint['LEADINGST']	: $default['LEADINGST']		);
 }
-else if ($format!='POD' &&
-	!preg_match("/Holy-Bible---Sanskrit/u",	$versions['BIBLE']) &&
-	!preg_match("/Holy-Bible---Malayalam/u",$versions['BIBLE']) &&
-	!preg_match("/Holy-Bible---Myanmar/u",	$versions['BIBLE']) &&
-	!preg_match("/Holy-Bible---Tamil/u",	$versions['BIBLE'])
-	) {
+else if ($format!='POD') {
 	$size	= $size2	= trim(!empty($forprint['SIZE'])	? $forprint['SIZE']		: $default['SIZE']		);
 	$leading= $leading2	= trim(!empty($forprint['LEADING'])	? $forprint['LEADING']	: $default['LEADING']	);
 	$ratio	= ((float)$leading / (float)$size) * 1.1; // 10% increase in non-POD leading
-	$newsize= (preg_match("/Holy-Bible---Kannada/u",	$versions['BIBLE'])	? 7.5 : 9.0);
+	$newsize= (preg_match("/Holy-Bible---(Kannada|Myanmar)/u",	$versions['BIBLE'])	? 8.4 : 9.0); // exceptions for Kannada and Myanmar
 	if ((float)$size < $newsize) { $size = sprintf("%.1f", $newsize); }
 	$leading = number_format( ceil((float)$size * $ratio * 100) / 100, 2); // calculate new leading from previous leading ratio
 	AION_ECHO("JEFF NOTICE! SIZE/LEADING was $size2/$leading2 now $size/$leading");
@@ -1188,26 +1185,17 @@ if ($format=="STUDY") {
 	$BOTTOM_ROW				= '142';		$BOTTOM_WIDTH			= '50';			$BOTTOM_CENTER			= '51';
 	$COLUMN_RIGHT_COLUMN	= '46';			$COLUMN_RIGHT_WIDTH		= '43';			$COLUMN_RIGHT_HEIGHT	= '132'; // unused but defined
 	$BOTTOM_RIGHT_RIGHT		= '47'; // unused but defined
-	
 	if ($studwide) { $COLUMN_LEFT_WIDTH		= '80'; }
-}
-else if ($format=="READ" && $column1) {
-	$web72 = '-web';
-	$MARGIN_SINGLE_INSIDE	= '0.5625in';	$MARGIN_SINGLE_OUTSIDE	= '0.5625in';	$REFER_SINGLE_INSIDE	= '0.5625in';	$REFER_SINGLE_OUTSIDE		= '0.5625in';
-	$MARGIN_RIGHT_LEFT		= '0.25in';		$MARGIN_RIGHT_RIGHT		= '0.25in';		$MARGIN_RIGHT_TOP		= '0.25in';		$MARGIN_RIGHT_BOTTOM	= '0.25in';
-	$MARGIN_LEFT_LEFT		= '0.25in';		$MARGIN_LEFT_RIGHT		= '0.25in';		$MARGIN_LEFT_TOP		= '0.25in';		$MARGIN_LEFT_BOTTOM		= '0.25in';
-	$COLUMN_LEFT_COLUMN		= '1';			$COLUMN_LEFT_WIDTH		= '88';			$COLUMN_LEFT_HEIGHT		= '132';
-	$COLUMN_RIGHT_COLUMN	= '46';			$COLUMN_RIGHT_WIDTH		= '43';			$COLUMN_RIGHT_HEIGHT	= '132'; // unused but defined
-	$BOTTOM_ROW				= '134';		$BOTTOM_RIGHT_RIGHT		= '47';			$BOTTOM_WIDTH			= '42';			$BOTTOM_CENTER			= '44';
 }
 else if ($format=="READ") {
 	$web72 = '-web';
-	$MARGIN_SINGLE_INSIDE	= '0.5625in';	$MARGIN_SINGLE_OUTSIDE	= '0.5625in';	$REFER_SINGLE_INSIDE	= '0.5625in';	$REFER_SINGLE_OUTSIDE		= '0.5625in';
+	$MARGIN_SINGLE_INSIDE	= '0.5625in';	$MARGIN_SINGLE_OUTSIDE	= '0.5625in';	$REFER_SINGLE_INSIDE	= '0.5625in';	$REFER_SINGLE_OUTSIDE	= '0.5625in';
 	$MARGIN_RIGHT_LEFT		= '0.25in';		$MARGIN_RIGHT_RIGHT		= '0.25in';		$MARGIN_RIGHT_TOP		= '0.25in';		$MARGIN_RIGHT_BOTTOM	= '0.25in';
 	$MARGIN_LEFT_LEFT		= '0.25in';		$MARGIN_LEFT_RIGHT		= '0.25in';		$MARGIN_LEFT_TOP		= '0.25in';		$MARGIN_LEFT_BOTTOM		= '0.25in';
 	$COLUMN_LEFT_COLUMN		= '1';			$COLUMN_LEFT_WIDTH		= '43';			$COLUMN_LEFT_HEIGHT		= '132';
 	$COLUMN_RIGHT_COLUMN	= '46';			$COLUMN_RIGHT_WIDTH		= '43';			$COLUMN_RIGHT_HEIGHT	= '132';
 	$BOTTOM_ROW				= '134';		$BOTTOM_RIGHT_RIGHT		= '47';			$BOTTOM_WIDTH			= '42';			$BOTTOM_CENTER			= '44';
+	if ($column1) { $COLUMN_LEFT_WIDTH		= '88'; }
 }
 else if ($rtl=='TRUE') { // margins flipped
 	$MARGIN_SINGLE_INSIDE	= '0.875in';
@@ -1229,19 +1217,7 @@ else if ($rtl=='TRUE') { // margins flipped
 	$pref1colright			= "pref1colleft";
 	$pref1colleft			= "pref1colright";
 	$TITLEJUSTIFICATION		= "left";
-}
-else if ($column1) {
-	$MARGIN_SINGLE_INSIDE	= '0.875in';
-	$REFER_SINGLE_INSIDE	= '0.875in';
-	$MARGIN_SINGLE_WIDTH	= '77';
-	$MARGIN_MAPS_WIDTH		= '69';
-	$MARGIN_MAPS_WIDTH_TIME	= '77';
-	$MARGIN_MAPS_COLUMN		= '71';
-	$MARGIN_RIGHT_LEFT		= '0.875in';	$MARGIN_RIGHT_RIGHT		= '0.3125in';	$MARGIN_RIGHT_TOP		= '0.3125in';	$MARGIN_RIGHT_BOTTOM	= '0.3125in';
-	$MARGIN_LEFT_LEFT		= '0.3125in';	$MARGIN_LEFT_RIGHT		= '0.875in';	$MARGIN_LEFT_TOP		= '0.3125in';	$MARGIN_LEFT_BOTTOM		= '0.3125in';
-	$COLUMN_LEFT_COLUMN		= '1';			$COLUMN_LEFT_WIDTH		= '77';			$COLUMN_LEFT_HEIGHT		= '130';
-	$COLUMN_RIGHT_COLUMN	= '40';			$COLUMN_RIGHT_WIDTH		= '38';			$COLUMN_RIGHT_HEIGHT	= '130'; // unused but defined
-	$BOTTOM_ROW				= '132';		$BOTTOM_RIGHT_RIGHT		= '42';			$BOTTOM_WIDTH			= '36';			$BOTTOM_CENTER			= '38';
+	if ($column1) { $COLUMN_LEFT_WIDTH		= '77'; }
 }
 else {
 	$MARGIN_SINGLE_INSIDE	= '0.875in';
@@ -1255,6 +1231,7 @@ else {
 	$COLUMN_LEFT_COLUMN		= '1';			$COLUMN_LEFT_WIDTH		= '38';			$COLUMN_LEFT_HEIGHT		= '130';
 	$COLUMN_RIGHT_COLUMN	= '40';			$COLUMN_RIGHT_WIDTH		= '38';			$COLUMN_RIGHT_HEIGHT	= '130';
 	$BOTTOM_ROW				= '132';		$BOTTOM_RIGHT_RIGHT		= '42';			$BOTTOM_WIDTH			= '36';			$BOTTOM_CENTER			= '38';
+	if ($column1) { $COLUMN_LEFT_WIDTH		= '77'; }
 }
 // RTL tune up, footer book opposite side
 $BOTTOM_LEFT_LEFT = 1;
