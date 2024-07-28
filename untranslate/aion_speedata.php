@@ -759,7 +759,9 @@ else if ($format!='POD') {
 	$size	= $size2	= trim(!empty($forprint['SIZE'])	? $forprint['SIZE']		: $default['SIZE']		);
 	$leading= $leading2	= trim(!empty($forprint['LEADING'])	? $forprint['LEADING']	: $default['LEADING']	);
 	$ratio	= ((float)$leading / (float)$size) * 1.1; // 10% increase in non-POD leading
-	$newsize= (preg_match("/Holy-Bible---(Kannada|Myanmar)/u",	$versions['BIBLE'])	? 8.4 : 9.0); // exceptions for Kannada and Myanmar
+	$newsize=
+		("Holy-Bible---Myanmar---Burmese-Common-Bible" == $versions['BIBLE']	? 7.5 : 
+		(preg_match("/Holy-Bible---(Kannada|Myanmar)/u", $versions['BIBLE'])	? 8.4 : 9.0)); // exceptions for Kannada and Myanmar
 	if ((float)$size < $newsize) { $size = sprintf("%.1f", $newsize); }
 	$leading = number_format( ceil((float)$size * $ratio * 100) / 100, 2); // calculate new leading from previous leading ratio
 	AION_ECHO("JEFF NOTICE! SIZE/LEADING was $size2/$leading2 now $size/$leading");

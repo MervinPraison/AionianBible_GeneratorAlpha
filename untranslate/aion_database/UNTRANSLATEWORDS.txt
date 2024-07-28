@@ -170,6 +170,7 @@ Holy-Bible---Greek---Greek-Pickering-Family-35	0											NULL
 Holy-Bible---Greek---Greek-SBL	0											NULL
 Holy-Bible---Greek---Greek-Scrivener	0											NULL
 Holy-Bible---Greek---Greek-Statistical-Restoration	0											NULL
+Holy-Bible---Greek---Greek-STEPBible	0											NULL
 Holy-Bible---Greek---Greek-Stephanus	0											NULL
 Holy-Bible---Greek---Greek-Textus-Receptus	0											NULL
 Holy-Bible---Greek---Greek-Textus-Receptus-Boyd	0											NULL
@@ -189,6 +190,7 @@ Holy-Bible---Hawaiian---Hawaiian-Bible-1868	0											NULL
 Holy-Bible---Hebrew---Hebrew-Aleppo-Codex	0											NULL
 Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	0											NULL
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT	0											NULL
+Holy-Bible---Hebrew---Hebrew-STEPBible	0											NULL
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	0											NULL
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball	0											NULL
 Holy-Bible---Hebrew---Living-Bible	0											NULL
@@ -243,6 +245,7 @@ Holy-Bible---Luganda---Luganda-Bible	0											NULL
 Holy-Bible---Mahasu-Pahari---Baghlayani-Bible	0			नरको								NULL
 Holy-Bible---Malagasy---Malagasy-Bible	0											NULL
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	0											NULL
+Holy-Bible---Malayalam---1910-Contemporary	0			നരകം								NULL
 Holy-Bible---Malayalam---Contemporary	0			നരകം								NULL
 Holy-Bible---Malayalam---Malayalam-Bible	0			നരകം								NULL
 Holy-Bible---Malayalam---Malayalam-Bible-1910	0			നരകം								NULL
@@ -284,6 +287,7 @@ Holy-Bible---Portuguese---Free-for-All	0	eterno,eternos,eterna,eternas,eternamen
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	0		eterno,eternos,eterna,eternas,eternamente,sempiterno,eternidade,perpétuo,sempre,séculos,século,tempos antigos,sua geração,antiguidade,desde o princípio,todas,verdadeira vida,mundo,mundos,era,tempo,universo	inferno	inferno	Xeol	inferno	Xeol,hades	inferno	abismo,abismos	lago de fogo,lago ardente de fogo,lago que queima com fogo	NULL
 Holy-Bible---Portuguese---World-Portuguese-Bible	0	eterno,eternos,eterna,eternas,eternamente,sempiterno,eternidade	eterno,eternos,eterna,eternas,eternamente,sempiterno,eternidade,perpétuo,sempre,séculos,século,tempos antigos,sua geração,antiguidade,desde o princípio,todas,verdadeira vida,mundo,mundos,era,tempo,universo	inferno	inferno	Xeol	inferno	Xeol,hades	inferno	abismo,abismos	lago de fogo,lago ardente de fogo,lago que queima com fogo	NULL
 Holy-Bible---Romanian---Bayash-Luke	0			pakao								NULL
+Holy-Bible---Romanian---BTF-Bible	0											NULL
 Holy-Bible---Romanian---Cyrillic	0											NULL
 Holy-Bible---Romanian---Free-Bible	0											NULL
 Holy-Bible---Romanian---Ludari-Luke	0											NULL
@@ -352,6 +356,7 @@ Holy-Bible---Tamil---Open-Contemporary	0			நரகம்,நரகத்தி
 Holy-Bible---Tamil---Tamil-Bible	0			நரகம்,நரகத்தின்,நரகத்திலே,நரகத்திற்குள்								NULL
 Holy-Bible---Telugu---Telugu-Bible	0			నరకాగ్ని,నరకంలో,నరకాగ్నికి గురై								NULL
 Holy-Bible---Tongan---Revised-West-Version	0			heli								NULL
+Holy-Bible---Tsakhur---Tsakhur-Bible	0											NULL
 Holy-Bible---Turkish---Turkish-Bible	0			cehenneme,cehennem								NULL
 Holy-Bible---Twi---Akuapem-Twi-Bible	0			asaman								NULL
 Holy-Bible---Twi---Asante-Twi-WASNA	0			asaman								NULL

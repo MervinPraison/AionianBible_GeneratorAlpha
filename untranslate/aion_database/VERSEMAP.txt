@@ -783,6 +783,7 @@ Holy-Bible---Greek---Greek-Pickering-Family-35	ROM14-16
 Holy-Bible---Greek---Greek-SBL	NONE
 Holy-Bible---Greek---Greek-Scrivener	NONE
 Holy-Bible---Greek---Greek-Statistical-Restoration	NONE
+Holy-Bible---Greek---Greek-STEPBible	NONE
 Holy-Bible---Greek---Greek-Stephanus	NONE
 Holy-Bible---Greek---Greek-Textus-Receptus	NONE
 Holy-Bible---Greek---Greek-Textus-Receptus-Boyd	NONE
@@ -878,6 +879,7 @@ Holy-Bible---Hebrew---Hebrew-Masoretic-OT	JOE3-4
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT	PRO5
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT	SOL6-7
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT	ISA64
+Holy-Bible---Hebrew---Hebrew-STEPBible	NONE
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	HEBREW
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	JOE3-4
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	PRO5
@@ -1248,6 +1250,7 @@ Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	MIC4-5
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	NAH1-2
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	ZEC1-2
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	MAL3-4
+Holy-Bible---Malayalam---1910-Contemporary	NONE
 Holy-Bible---Malayalam---Contemporary	NONE
 Holy-Bible---Malayalam---Malayalam-Bible	DEU12-13
 Holy-Bible---Malayalam---Malayalam-Bible	DEU28-29
@@ -1327,6 +1330,7 @@ Holy-Bible---Portuguese---Free-for-All	NONE
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	NONE
 Holy-Bible---Portuguese---World-Portuguese-Bible	ROM14-16
 Holy-Bible---Romanian---Bayash-Luke	NONE
+Holy-Bible---Romanian---BTF-Bible	NONE
 Holy-Bible---Romanian---Cyrillic	NONE
 Holy-Bible---Romanian---Free-Bible	ROM14-16
 Holy-Bible---Romanian---Ludari-Luke	NONE
@@ -1462,6 +1466,7 @@ Holy-Bible---Tamil---Open-Contemporary	NONE
 Holy-Bible---Tamil---Tamil-Bible	NONE
 Holy-Bible---Telugu---Telugu-Bible	NONE
 Holy-Bible---Tongan---Revised-West-Version	NONE
+Holy-Bible---Tsakhur---Tsakhur-Bible	NONE
 Holy-Bible---Turkish---Turkish-Bible	NONE
 Holy-Bible---Twi---Akuapem-Twi-Bible	NONE
 Holy-Bible---Twi---Asante-Twi-WAKNA	NONE

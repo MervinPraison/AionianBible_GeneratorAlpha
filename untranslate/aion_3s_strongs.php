@@ -108,7 +108,8 @@ $GREEK_USAGE_INDX = "Greek_Chapter_Usage_Index.json";
 // bible
 $STEPBIBLE_AMA = "../www-stage/library/stepbible/Holy-Bible---English---STEPBible-Amalgamant---Source-Edition.STEP.txt";
 $STEPBIBLE_CON = "../www-stage/library/stepbible/Holy-Bible---English---STEPBible-Concordant---Source-Edition.STEP.txt";
-
+$STEPBIBLE_HEB = "../www-stage/library/stepbible/Holy-Bible---Hebrew---Hebrew-STEPBible---Source-Edition.STEP.txt";
+$STEPBIBLE_GRK = "../www-stage/library/stepbible/Holy-Bible---Greek---Greek-STEPBible---Source-Edition.STEP.txt";
 
 // PREPARE THE STAGE
 if (!is_dir($FOLDER_SOURCE)) { AION_ECHO("ERROR! Bad unzip($FOLDER_SOURCE)"); }
@@ -869,7 +870,9 @@ AION_NEWSTRONGS_STEPBIBLE(
 	"$FOLDER_STAGE$GREEK_TBESG_INDX",
 	"$FOLDER_STAGE$GREEK_TBESG_DATA",
 	"$STEPBIBLE_AMA",
-	"$STEPBIBLE_CON"
+	"$STEPBIBLE_CON",
+	"$STEPBIBLE_HEB",
+	"$STEPBIBLE_GRK"
 	);
 
 
@@ -3892,19 +3895,23 @@ function AION_NEWSTRONGS_COD($file, $table, &$result, $defaultmorph=FALSE) {
 
 
 // CREATE THE STEPBIBLE
-function AION_NEWSTRONGS_STEPBIBLE($hebtag,$hebdex,$heblex,$gretag,$gredex,$grelex,$bible_ama,$bible_con) {
+function AION_NEWSTRONGS_STEPBIBLE($hebtag,$hebdex,$heblex,$gretag,$gredex,$grelex,$bible_ama,$bible_con,$bible_heb,$bible_grk) {
 	// setup
 	$newmess = "STEPBIBLE\t$bible_ama";
 	mb_regex_encoding("UTF-8");
 	mb_internal_encoding("UTF-8");	
 	$bibledata_ama = "// STEPBible Amalgamant, compiled by ABCMS (alpha)\n";
 	$bibledata_con = "// STEPBible Concordant, compiled by ABCMS (alpha)\n";
+	$bibledata_heb = "// STEPBible Hebrew, compiled by ABCMS (alpha)\n";
+	$bibledata_grk = "// STEPBible Greek, compiled by ABCMS (alpha)\n";
 	$bibledata_key = <<<EOF
-//
 // Source: Scripture Tools for Every Person
 // https://www.STEPBible.org
 // https://github.com/STEPBible/STEPBible-Data
 //
+
+EOF;
+	$bibledata_key_ot = <<<EOF
 //  Old Testament Source Legend
 //	"A"		=> "Aleppo",
 //	"AH"	=> "Aleppo and Ben Chaim",
@@ -3938,6 +3945,9 @@ function AION_NEWSTRONGS_STEPBIBLE($hebtag,$hebdex,$heblex,$gretag,$gredex,$grel
 //	"V"		=> "Other Hebrew manuscripts",
 //	"X"		=> "Extra words from Septuagint (LXX), in Hebrew based on apparatus in BHS and BHK",
 //
+
+EOF;
+	$bibledata_key_nt = <<<EOF
 //  New Testament Source Legend
 //	"NKO"	=> "Identical in all sources",
 //	"NK+O"	=> "Identical in Nestle/Aland and King James sources, noted difference in other sources",
@@ -3967,11 +3977,12 @@ function AION_NEWSTRONGS_STEPBIBLE($hebtag,$hebdex,$heblex,$gretag,$gredex,$grel
 //	"O"		=> "Identical in other sources, absent in Nestle/Aland and King James sources",
 //	"o"		=> "Minor difference in other sources, absent in Nestle/Aland and King James sources",
 //
-//
 
 EOF;
-	$bibledata_ama .= $bibledata_key;
-	$bibledata_con .= $bibledata_key;
+	$bibledata_ama .= ($bibledata_key . $bibledata_key_ot . $bibledata_key_nt);
+	$bibledata_con .= ($bibledata_key . $bibledata_key_ot . $bibledata_key_nt);
+	$bibledata_heb .= ($bibledata_key . $bibledata_key_ot);
+	$bibledata_grk .= ($bibledata_key . $bibledata_key_nt);
 	
 	// HEBREW open tag, lex index, and lex
 	if (($contents = file_get_contents( $hebtag )) === FALSE) { 	AION_ECHO("ERROR! $newmess !file_get_contents($hebtag)"); }
@@ -3988,16 +3999,19 @@ EOF;
 		//                 INDX   BOOK         CHAP   VERS   STRONGS                             JOIN      TYPE      UNDER     TRANS     LEXICON   ENGLISH
         //                 1      2            3      4      5        6                          7         8         9         10        11        12
 		if (!preg_match("#^(\d+)\t([A-Z0-9]+)\t(\d+)\t(\d+)\t([GH]{1})([0-9]{1,5}[A-Za-z]{0,1})\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]*)\t([^\t]+)\t([^\t]+)#u", $line, $match)) {	AION_ECHO("ERROR! $newmess corrupt ref tag\n".print_r($line,TRUE)); }
-		$book = $match[2]; $chap = (int)$match[3]; $vers = (int)$match[4]; $strg = $match[6]; $amal = $match[12]; $wtype = $match[8];
+		$book = $match[2]; $chap = (int)$match[3]; $vers = (int)$match[4]; $strg = $match[6]; $join = $match[7]; $under = $match[9]; $amal = $match[12]; $wtype = $match[8];
 		$book = strtoupper($book); if (!ctype_digit($book[0])) { $book[1] = strtolower($book[1]); } $book[2] = strtolower($book[2]);
 		if ($book != $last_book) { AION_ECHO("BUILDING Concordant STEPBible! $book"); $last_book = $book; }
 		if ($vers != $last_vers) {
 			$wtype_close = ($last_wtype=="L" ? "" : " *$last_wtype)");
 			$bibledata_ama .= ("$wtype_close\n$book $chap:$vers ");
 			$bibledata_con .= ("$wtype_close\n$book $chap:$vers ");
+			$bibledata_heb .= ("$wtype_close\n$book $chap:$vers ");
 			$last_vers = $vers;
 			$last_wtype = "L";
 		}
+		// underlying HEBREW
+		if (NULL===($under = preg_replace("#[\\\\/]+#usi","",$under))) { AION_ECHO("ERROR! $newmess !preg_replace($under)"); }
 		// remove <words>
 		if (NULL===($amal = preg_replace("#<[^<>]+>#usi","",$amal))) { AION_ECHO("ERROR! $newmess !preg_replace($amal)"); }
 		/* capitalize if following punctuation
@@ -4028,6 +4042,10 @@ EOF;
 		// build the bible word by word
 		$bibledata_ama .= "$wtype_close$wtype_open$amal";
 		$bibledata_con .= "$wtype_close$wtype_open$word";
+		if ('W'==$join[0]) {
+			$wtype_openH = ($wtype_open==" " && preg_match('#־$#u', $under) ? "" : $wtype_open);
+			$bibledata_heb .= "$wtype_close$under$wtype_openH";
+		}
 		$line = strtok( "\n" );
 	}
 	fclose($fd);
@@ -4048,13 +4066,14 @@ EOF;
 		//                 INDX   BOOK         CHAP   VERS   STRONGS                             JOIN      TYPE      UNDER     TRANS     LEXICON   ENGLISH
 		//                 1      2            3      4      5        6                          7         8         9         10        11        12
 		if (!preg_match("#^(\d+)\t([A-Z0-9]+)\t(\d+)\t(\d+)\t([GH]{1})([0-9]{1,5}[A-Za-z]{0,1})\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]*)\t([^\t]+)\t([^\t]+)#u", $line, $match)) {	AION_ECHO("ERROR! $newmess corrupt ref tag\n".print_r($line,TRUE)); }
-		$book = $match[2]; $chap = (int)$match[3]; $vers = (int)$match[4]; $strg = $match[6]; $amal = $match[12]; $wtype = $match[8];
+		$book = $match[2]; $chap = (int)$match[3]; $vers = (int)$match[4]; $strg = $match[6]; $under = $match[9]; $amal = $match[12]; $wtype = $match[8];
 		$book = strtoupper($book); if (!ctype_digit($book[0])) { $book[1] = strtolower($book[1]); } $book[2] = strtolower($book[2]);
 		if ($book != $last_book) { AION_ECHO("BUILDING Concordant STEPBible! $book"); $last_book = $book; }
 		if ($vers != $last_vers) {
 			$wtype_close = ($last_wtype=="NKO" ? "" : " *$last_wtype)");
 			$bibledata_ama .= ("$wtype_close\n$book $chap:$vers ");
 			$bibledata_con .= ("$wtype_close\n$book $chap:$vers ");
+			$bibledata_grk .= ("$wtype_close\n$book $chap:$vers ");
 			$last_vers = $vers;
 			$last_wtype = "NKO";
 		}
@@ -4077,12 +4096,15 @@ EOF;
 		// build the bible word by word
 		$bibledata_ama .= "$wtype_close$wtype_open$amal";
 		$bibledata_con .= "$wtype_close$wtype_open$word";
+		$bibledata_grk .= "$wtype_close$wtype_open$under";
 		$line = strtok( "\n" );
 	}
 	// last wtype
 	$wtype_close = ($last_wtype=="NKO" ? "" : " *$last_wtype)");
 	$bibledata_ama .= ("$wtype_close\n");
 	$bibledata_con .= ("$wtype_close\n");
+	$bibledata_heb .= ("$wtype_close\n");
+	$bibledata_grk .= ("$wtype_close\n");
 	// close
 	fclose($fd);
 	unset($contents); $contents=NULL;
@@ -4125,6 +4147,8 @@ EOF;
 	// write the Bible
 	if (file_put_contents($bible_ama,$bibledata_ama) === FALSE ) {							AION_ECHO("ERROR! $newmess file_put_contents($bible_ama)" ); }
 	if (file_put_contents($bible_con,$bibledata_con) === FALSE ) {							AION_ECHO("ERROR! $newmess file_put_contents($bible_con)" ); }
+	if (file_put_contents($bible_heb,$bibledata_heb) === FALSE ) {							AION_ECHO("ERROR! $newmess file_put_contents($bible_heb)" ); }
+	if (file_put_contents($bible_grk,$bibledata_grk) === FALSE ) {							AION_ECHO("ERROR! $newmess file_put_contents($bible_grk)" ); }
 	// done
 	AION_ECHO("DONE $newmess");
 	return;

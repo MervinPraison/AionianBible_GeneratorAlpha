@@ -1748,6 +1748,7 @@ Holy-Bible---Greek---Greek-Scrivener							end
 Holy-Bible---Greek---Greek-Statistical-Restoration	064	3JO	001	014	14	1	end
 Holy-Bible---Greek---Greek-Statistical-Restoration	066	REV	012	018	1	-1	end
 Holy-Bible---Greek---Greek-Statistical-Restoration							end
+Holy-Bible---Greek---Greek-STEPBible							end
 Holy-Bible---Greek---Greek-Stephanus							end
 Holy-Bible---Greek---Greek-Textus-Receptus	064	3JO	001	014	14	1	end
 Holy-Bible---Greek---Greek-Textus-Receptus	066	REV	012	018	1	-1	end
@@ -1976,6 +1977,7 @@ Holy-Bible---Hebrew---Hebrew-Masoretic-OT	019	PSA	108	001	13	1	end
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT	019	PSA	140	001	13	1	end
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT	019	PSA	142	001	7	1	end
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT							end
+Holy-Bible---Hebrew---Hebrew-STEPBible							end
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	004	NUM	025	019	1	-1	end
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	009	1SA	021	001	15	1	end
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	011	1KI	022	043	53	1	end
@@ -3072,6 +3074,7 @@ Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	003	NUM	030	001	16	1	end
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	009	1SA	020	042	42	1	end
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible							end
+Holy-Bible---Malayalam---1910-Contemporary							end
 Holy-Bible---Malayalam---Contemporary	064	3JO	001	014	14	1	end
 Holy-Bible---Malayalam---Contemporary							end
 Holy-Bible---Malayalam---Malayalam-Bible	064	3JO	001	014	14	1	end
@@ -3353,6 +3356,7 @@ Holy-Bible---Portuguese---Portuguese-Trans-Trans	064	3JO	001	014	14	1	end
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	066	REV	012	018	1	-1	end
 Holy-Bible---Portuguese---World-Portuguese-Bible							end
 Holy-Bible---Romanian---Bayash-Luke							end
+Holy-Bible---Romanian---BTF-Bible							end
 Holy-Bible---Romanian---Cyrillic							end
 Holy-Bible---Romanian---Free-Bible							end
 Holy-Bible---Romanian---Ludari-Luke							end
@@ -3850,6 +3854,7 @@ Holy-Bible---Tamil---Tamil-Bible							end
 Holy-Bible---Telugu---Telugu-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Telugu---Telugu-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Tongan---Revised-West-Version							end
+Holy-Bible---Tsakhur---Tsakhur-Bible							end
 Holy-Bible---Turkish---Turkish-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Turkish---Turkish-Bible							end
 Holy-Bible---Twi---Akuapem-Twi-Bible	064	3JO	001	014	14	1	end

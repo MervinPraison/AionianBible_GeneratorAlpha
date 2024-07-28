@@ -731,6 +731,7 @@ Holy-Bible---Greek---Greek-SBL								NULL
 Holy-Bible---Greek---Greek-Scrivener	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Greek---Greek-Scrivener								NULL
 Holy-Bible---Greek---Greek-Statistical-Restoration								NULL
+Holy-Bible---Greek---Greek-STEPBible								NULL
 Holy-Bible---Greek---Greek-Stephanus	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Greek---Greek-Stephanus								NULL
 Holy-Bible---Greek---Greek-Textus-Receptus	061	2PE	002	017	NOTE			questioned
@@ -762,6 +763,7 @@ Holy-Bible---Hebrew---Hebrew-Aleppo-Codex								NULL
 Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah								NULL
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT								NULL
+Holy-Bible---Hebrew---Hebrew-STEPBible								NULL
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad								NULL
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball								NULL
@@ -884,6 +886,7 @@ Holy-Bible---Mahasu-Pahari---Baghlayani-Bible								NULL
 Holy-Bible---Malagasy---Malagasy-Bible								NULL
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible								NULL
+Holy-Bible---Malayalam---1910-Contemporary								NULL
 Holy-Bible---Malayalam---Contemporary	041	MAR	009	043	SKIP			NULL
 Holy-Bible---Malayalam---Contemporary	041	MAR	009	044	GEHENNA	g1067		NULL
 Holy-Bible---Malayalam---Contemporary	041	MAR	009	045	SKIP			NULL
@@ -1012,6 +1015,7 @@ Holy-Bible---Portuguese---Portuguese-Trans-Trans								NULL
 Holy-Bible---Portuguese---World-Portuguese-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Portuguese---World-Portuguese-Bible								NULL
 Holy-Bible---Romanian---Bayash-Luke								NULL
+Holy-Bible---Romanian---BTF-Bible								NULL
 Holy-Bible---Romanian---Cyrillic	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Romanian---Cyrillic								NULL
 Holy-Bible---Romanian---Free-Bible	061	2PE	002	017	NOTE			questioned
@@ -1669,6 +1673,7 @@ Holy-Bible---Telugu---Telugu-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Telugu---Telugu-Bible								NULL
 Holy-Bible---Tongan---Revised-West-Version	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Tongan---Revised-West-Version								NULL
+Holy-Bible---Tsakhur---Tsakhur-Bible								NULL
 Holy-Bible---Turkish---Turkish-Bible								NULL
 Holy-Bible---Twi---Akuapem-Twi-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Twi---Akuapem-Twi-Bible								NULL

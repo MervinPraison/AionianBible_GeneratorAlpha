@@ -474,6 +474,7 @@ Holy-Bible---Greek---Greek-SBL				https://ebible.org/sword/zip/grcsbl2010eb.zip	
 Holy-Bible---Greek---Greek-Scrivener				https://bible4u.net/static/bible_files/pdf/TR1894.pdf	Holy-Bible---Greek---Greek-Scrivener---Source-Edition.pdf
 Holy-Bible---Greek---Greek-Scrivener				https://bible4u.net/static/bible_files/txt/TR1894_txt.zip	Holy-Bible---Greek---Greek-Scrivener---Source-Edition.B4U.zip
 Holy-Bible---Greek---Greek-Statistical-Restoration	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/StatResGNT.zip	Holy-Bible---Greek---Greek-Statistical-Restoration---Source-Edition.SWORD.zip
+Holy-Bible---Greek---Greek-STEPBible				./aion_source/Holy-Bible---Greek---Greek-STEPBible---Source-Edition.STEP.txt	Holy-Bible---Greek---Greek-STEPBible---Source-Edition.STEP.txt
 Holy-Bible---Greek---Greek-Stephanus				https://bible4u.net/static/bible_files/pdf/TR1550.pdf	Holy-Bible---Greek---Greek-Stephanus---Source-Edition.pdf
 Holy-Bible---Greek---Greek-Stephanus				https://bible4u.net/static/bible_files/txt/TR1550_txt.zip	Holy-Bible---Greek---Greek-Stephanus---Source-Edition.B4U.zip
 Holy-Bible---Greek---Greek-Textus-Receptus				./aion_source/Holy-Bible---Greek---Greek-Textus-Receptus.unbound.zip	Holy-Bible---Greek---Greek-Textus-Receptus---Source-Edition.UNBOUND.zip
@@ -528,6 +529,7 @@ Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah	SWORD			https://crosswire.org/
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT				https://ebible.org/epub/hbo.epub	Holy-Bible---Hebrew---Hebrew-Masoretic-OT---Source-Edition.epub
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT				https://ebible.org/Scriptures/hbo_vpl.zip	Holy-Bible---Hebrew---Hebrew-Masoretic-OT---Source-Edition.VPL.zip
 Holy-Bible---Hebrew---Hebrew-Masoretic-OT				https://ebible.org/sword/zip/hboMTeb.zip	Holy-Bible---Hebrew---Hebrew-Masoretic-OT---Source-Edition.SWORD.zip
+Holy-Bible---Hebrew---Hebrew-STEPBible				./aion_source/Holy-Bible---Hebrew---Hebrew-STEPBible---Source-Edition.STEP.txt	Holy-Bible---Hebrew---Hebrew-STEPBible---Source-Edition.STEP.txt
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad				https://ebible.org/epub/hboWLC.epub	Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad---Source-Edition.epub
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad				https://ebible.org/Scriptures/hboWLC_vpl.zip	Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad---Source-Edition.VPL.zip
 Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad				https://ebible.org/sword/zip/hboWLCeb.zip	Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad---Source-Edition.SWORD.zip
@@ -687,6 +689,10 @@ Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible				https://ebible.org/epub/tdx.ep
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible				https://ebible.org/pdf/tdx/tdx_prt.pdf	Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible---Source-Edition.pdf
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible				https://ebible.org/Scriptures/tdx_vpl.zip	Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible---Source-Edition.VPL.zip
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible				https://ebible.org/sword/zip/tdx2023eb.zip	Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible---Source-Edition.SWORD.zip
+Holy-Bible---Malayalam---1910-Contemporary				https://ebible.org/epub/mal2015.epub	Holy-Bible---Malayalam---1910-Contemporary---Source-Edition.epub
+Holy-Bible---Malayalam---1910-Contemporary				https://ebible.org/pdf/mal2015/mal2015_prt.pdf	Holy-Bible---Malayalam---1910-Contemporary---Source-Edition.pdf
+Holy-Bible---Malayalam---1910-Contemporary				https://ebible.org/Scriptures/mal2015_vpl.zip	Holy-Bible---Malayalam---1910-Contemporary---Source-Edition.VPL.zip
+Holy-Bible---Malayalam---1910-Contemporary				https://ebible.org/sword/zip/malc2015eb.zip	Holy-Bible---Malayalam---1910-Contemporary---Source-Edition.SWORD.zip
 Holy-Bible---Malayalam---Contemporary				https://ebible.org/epub/malc.epub	Holy-Bible---Malayalam---Contemporary---Source-Edition.epub
 Holy-Bible---Malayalam---Contemporary				https://ebible.org/pdf/malc/malc_prt.pdf	Holy-Bible---Malayalam---Contemporary---Source-Edition.pdf
 Holy-Bible---Malayalam---Contemporary				https://ebible.org/Scriptures/malc_vpl.zip	Holy-Bible---Malayalam---Contemporary---Source-Edition.VPL.zip
@@ -832,6 +838,10 @@ Holy-Bible---Romanian---Cyrillic				https://ebible.org/epub/ron1924.epub	Holy-Bi
 Holy-Bible---Romanian---Cyrillic				https://ebible.org/pdf/ron1924/ron1924_prt.pdf	Holy-Bible---Romanian---Cyrillic---Source-Edition.pdf
 Holy-Bible---Romanian---Cyrillic				https://ebible.org/Scriptures/ron1924_vpl.zip	Holy-Bible---Romanian---Cyrillic---Source-Edition.VPL.zip
 Holy-Bible---Romanian---Cyrillic				https://ebible.org/sword/zip/ron19241924eb.zip	Holy-Bible---Romanian---Cyrillic---Source-Edition.SWORD.zip
+Holy-Bible---Romanian---BTF-Bible				https://ebible.org/epub/ronbtf.epub	Holy-Bible---Romanian---BTF-Bible---Source-Edition.epub
+Holy-Bible---Romanian---BTF-Bible				https://ebible.org/pdf/ronbtf/ronbtf_prt.pdf	Holy-Bible---Romanian---BTF-Bible---Source-Edition.pdf
+Holy-Bible---Romanian---BTF-Bible				https://ebible.org/Scriptures/ronbtf_vpl.zip	Holy-Bible---Romanian---BTF-Bible---Source-Edition.VPL.zip
+Holy-Bible---Romanian---BTF-Bible				https://ebible.org/sword/zip/ronbtf20242eb.zip	Holy-Bible---Romanian---BTF-Bible---Source-Edition.SWORD.zip
 Holy-Bible---Romanian---Free-Bible				https://ebible.org/epub/ronlsb.epub	Holy-Bible---Romanian---Free-Bible---Source-Edition.epub
 Holy-Bible---Romanian---Free-Bible				https://ebible.org/pdf/ronlsb/ronlsb_prt.pdf	Holy-Bible---Romanian---Free-Bible---Source-Edition.pdf
 Holy-Bible---Romanian---Free-Bible				https://ebible.org/Scriptures/ronlsb_vpl.zip	Holy-Bible---Romanian---Free-Bible---Source-Edition.VPL.zip
@@ -1055,6 +1065,10 @@ Holy-Bible---Telugu---Telugu-Bible				https://ebible.org/epub/tel2017.epub	Holy-
 Holy-Bible---Telugu---Telugu-Bible				https://ebible.org/pdf/tel2017/tel2017_prt.pdf	Holy-Bible---Telugu---Telugu-Bible---Source-Edition.pdf
 Holy-Bible---Telugu---Telugu-Bible				https://ebible.org/Scriptures/tel2017_vpl.zip	Holy-Bible---Telugu---Telugu-Bible---Source-Edition.VPL.zip
 Holy-Bible---Telugu---Telugu-Bible				https://ebible.org/sword/zip/telirv2019eb.zip	Holy-Bible---Telugu---Telugu-Bible---Source-Edition.SWORD.zip
+Holy-Bible---Tsakhur---Tsakhur-Bible				https://ebible.org/epub/tkr.epub	Holy-Bible---Tsakhur---Tsakhur-Bible---Source-Edition.epub
+Holy-Bible---Tsakhur---Tsakhur-Bible				https://ebible.org/pdf/tkr/tkr_prt.pdf	Holy-Bible---Tsakhur---Tsakhur-Bible---Source-Edition.pdf
+Holy-Bible---Tsakhur---Tsakhur-Bible				https://ebible.org/Scriptures/tkr_vpl.zip	Holy-Bible---Tsakhur---Tsakhur-Bible---Source-Edition.VPL.zip
+Holy-Bible---Tsakhur---Tsakhur-Bible				https://ebible.org/sword/zip/tkr2022eb.zip	Holy-Bible---Tsakhur---Tsakhur-Bible---Source-Edition.SWORD.zip
 Holy-Bible---Tongan---Revised-West-Version				https://ebible.org/epub/ton.epub	Holy-Bible---Tongan---Revised-West-Version---Source-Edition.epub
 Holy-Bible---Tongan---Revised-West-Version				https://ebible.org/pdf/ton/ton_prt.pdf	Holy-Bible---Tongan---Revised-West-Version---Source-Edition.pdf
 Holy-Bible---Tongan---Revised-West-Version				https://ebible.org/Scriptures/ton_vpl.zip	Holy-Bible---Tongan---Revised-West-Version---Source-Edition.VPL.zip

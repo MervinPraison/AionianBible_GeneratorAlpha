@@ -438,6 +438,12 @@ function AION_LOOP_DIFF_DOIT($args) {
 	$filepath2 = $args['compare'].'/'.$args['filename'];
 	$fileout   = $args['destiny'].'/'.$filename1.'.diff';
 	$flags     = $args['flags'];
+	// this added for speed and also because Michael Johnson remove the newlines from the xml which screwed up the diff, but don't need xml anyway.
+	$removexml = FALSE;
+	if ('removexml+' == $flags) {
+		$flags = '';
+		$removexml = TRUE;
+	}
 	if (file_put_contents($fileout, 'BEGIN DIFF! '.$filepath1.' VS '.$filepath2."\n")===FALSE) {
 		AION_ECHO("ERROR! Failed header diff write!");
 	}
@@ -452,6 +458,9 @@ function AION_LOOP_DIFF_DOIT($args) {
 		if (!mkdir('.tmp.diff')) {														AION_ECHO("ERROR! mkdir()"); }
 		system("unzip -q $filepath1 -d .tmp.diff/A");
 		system("unzip -q $filepath2 -d .tmp.diff/B");
+		if (preg_match("/VPL\.zip$/i", $filename1) && $removexml) {
+			system("rm -rf .tmp.diff/A/*_vpl.sql .tmp.diff/A/*_vpl.xml .tmp.diff/B/*_vpl.sql .tmp.diff/B/*_vpl.xml");
+		}
 		system("diff -r $flags .tmp.diff/A .tmp.diff/B 2>&1 >> $fileout" );
 		if (!is_dir('.tmp.diff/A') || !is_dir('.tmp.diff/A') || !is_file($fileout) ) {	AION_ECHO("ERROR! Bad unzip() or diff()"); }
 		system("rm -rf .tmp.diff");
@@ -5310,8 +5319,9 @@ function AION_LOOP_PDFMARGIN($source, $destiny) {
 		//'include'	=> "/(Albanian-Bible---)Aionian-Edition\.noia$/",
 		//'include'	=> "/(Bengali-Bible---|Arabic-Van-Dyck-Bible---)Aionian-Edition\.noia$/",
 		//'include'	=> "/(Arapaho|Cherokee|Finnish-Bible|Malayalam|Myanmar|Sanskrit|Tamil).*---Aionian-Edition\.noia$/",
-		'include'	=> "/Holy-Bible---(Kannada|Malayalam|Myanmar|Sanskrit|Tamil|[U-Z]+).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---([U-Z]+).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/(Kannada|Myanmar-Burmese-Common|Spanish-Reina-Valera-1909).*---Aionian-Edition\.noia$/",
+		'include'	=> "/Aionian-Edition\.noia$/",
 		'database'	=> &$database,
 		'destiny'	=> $destiny,
 		'source'	=> $source,
@@ -5382,6 +5392,7 @@ function AION_LOOP_PDFMARGIN_DOIT($args) {
 		"Holy-Bible---Spanish---Free-for-the-World"					=> 2,
 		"Holy-Bible---Spanish---Gods-Word-for-You"					=> 2,
 		"Holy-Bible---Spanish---Reina-Valera-1865"					=> 2,
+		"Holy-Bible---Spanish---Reina-Valera-1909"					=> 2,
 		"Holy-Bible---Spanish---Sagradas-Escrituras-1569"			=> 2,
 		"Holy-Bible---Spanish---Sencillo-Bible"						=> 2,
 		"Holy-Bible---Swedish---Swedish-Bible-1873"					=> 1,

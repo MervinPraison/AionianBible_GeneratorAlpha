@@ -21,7 +21,7 @@ sed \
 -e "s/---Aionian-Edition\.pdf\./\tAionian\t/" \
 -e "s/\.pdf\.out\.txt:[ ]*/\t/" \
 -e "s/\t\%\%HiResBoundingBox:[ .0-9]*$//" | \
-tee ../pdf-margin-checker/AMASTER.PDF-MARGIN-DETAIL
+tee ../pdf-margin-checker/AMASTER.PDF-MARGIN-DETAIL.txt
 ');
 
 system('
@@ -36,7 +36,7 @@ sed \
 -e "s/---Aionian-Edition\.pdf\./\tpdf\t/" \
 -e "s/\.pdf\.out\.txt//" \
 -e "/\ttotal/d" | \
-tee ../pdf-margin-checker/AMASTER.PDF-MARGIN-SUMMARY
+tee ../pdf-margin-checker/AMASTER.PDF-MARGIN-SUMMARY.txt
 ');
 
 /*** done ***/
