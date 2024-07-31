@@ -4006,11 +4006,13 @@ EOF;
 			$wtype_close = ($last_wtype=="L" ? "" : " *$last_wtype)");
 			$bibledata_ama .= ("$wtype_close\n$book $chap:$vers ");
 			$bibledata_con .= ("$wtype_close\n$book $chap:$vers ");
-			$bibledata_heb .= ("$wtype_close\n$book $chap:$vers ");
+			$bibledata_heb .= ("\n$book $chap:$vers ");
 			$last_vers = $vers;
 			$last_wtype = "L";
 		}
 		// underlying HEBREW
+		//if (NULL===($under = preg_replace("#׃#usi"," ׃ ",$under))) { AION_ECHO("ERROR! $newmess !preg_replace($under)"); }		
+		if (NULL===($under = preg_replace("#׀#usi"," ׀ ",$under))) { AION_ECHO("ERROR! $newmess !preg_replace($under)"); }
 		if (NULL===($under = preg_replace("#[\\\\/]+#usi","",$under))) { AION_ECHO("ERROR! $newmess !preg_replace($under)"); }
 		// remove <words>
 		if (NULL===($amal = preg_replace("#<[^<>]+>#usi","",$amal))) { AION_ECHO("ERROR! $newmess !preg_replace($amal)"); }
@@ -4043,8 +4045,8 @@ EOF;
 		$bibledata_ama .= "$wtype_close$wtype_open$amal";
 		$bibledata_con .= "$wtype_close$wtype_open$word";
 		if ('W'==$join[0]) {
-			$wtype_openH = ($wtype_open==" " && preg_match('#־$#u', $under) ? "" : $wtype_open);
-			$bibledata_heb .= "$wtype_close$under$wtype_openH";
+			$wtype_openH = (preg_match('#־$#u', $under) ? "" : " ");
+			$bibledata_heb .= "$under$wtype_openH";
 		}
 		$line = strtok( "\n" );
 	}
@@ -4103,7 +4105,7 @@ EOF;
 	$wtype_close = ($last_wtype=="NKO" ? "" : " *$last_wtype)");
 	$bibledata_ama .= ("$wtype_close\n");
 	$bibledata_con .= ("$wtype_close\n");
-	$bibledata_heb .= ("$wtype_close\n");
+	$bibledata_heb .= ("\n");
 	$bibledata_grk .= ("$wtype_close\n");
 	// close
 	fclose($fd);
@@ -4139,10 +4141,13 @@ EOF;
 	if (!($bibledata_con=preg_replace("#obj\.#ui", "obj", $bibledata_con))) {				AION_ECHO("ERROR! $newmess: preg_replace(obj[.]*)"); }
 	// both
 	if (!($bibledata_ama=preg_replace("#\(\s+\*[+[:alnum:]]+\)#ui", " ", $bibledata_ama))){	AION_ECHO("ERROR! $newmess: preg_replace(\(\s+\*[+[:alnum:]]+\))"); }
-	if (!($bibledata_ama=preg_replace("#[ ]+#ui", " ", $bibledata_ama))) {					AION_ECHO("ERROR! $newmess: preg_replace([ ]+)"); }
-	if (!($bibledata_con=preg_replace("#[ ]+#ui", " ", $bibledata_con))) {					AION_ECHO("ERROR! $newmess: preg_replace([ ]+)"); }	
 	if (!($bibledata_ama=preg_replace("#([[{(]{1})\s+#ui", '$1', $bibledata_ama))) {		AION_ECHO("ERROR! $newmess: preg_replace(([[{(]{1})\s+)"); }
 	if (!($bibledata_con=preg_replace("#\s+([\]})]{1})#ui", '$1', $bibledata_con))) {		AION_ECHO("ERROR! $newmess: preg_replace(\s+([\]})]{1}))"); }
+	//all
+	if (!($bibledata_ama=preg_replace("#[ ]+#ui", " ", $bibledata_ama))) {					AION_ECHO("ERROR! $newmess: preg_replace([ ]+)"); }
+	if (!($bibledata_con=preg_replace("#[ ]+#ui", " ", $bibledata_con))) {					AION_ECHO("ERROR! $newmess: preg_replace([ ]+)"); }	
+	if (!($bibledata_heb=preg_replace("#[ ]+#ui", " ", $bibledata_heb))) {					AION_ECHO("ERROR! $newmess: preg_replace([ ]+)"); }
+	if (!($bibledata_grk=preg_replace("#[ ]+#ui", " ", $bibledata_grk))) {					AION_ECHO("ERROR! $newmess: preg_replace([ ]+)"); }		
 	
 	// write the Bible
 	if (file_put_contents($bible_ama,$bibledata_ama) === FALSE ) {							AION_ECHO("ERROR! $newmess file_put_contents($bible_ama)" ); }

@@ -988,6 +988,73 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Chin-Matu---Matupi-Chin-2019" :
+/*
+Original
+MAR 8:35 Amah khaw a hinglu te khang ham aka ngaih tah a hlong ni. Tedae amah khaw kai neh olthangthen ham a hinglu aka hlong tah daem ni.
+MAR 8:36 Hlang pakhat te Diklai pum a dang dae a hinglu te a hlong atah balae a hoeikhang?
+MAR 8:37 Hlang loh a hinglu ham balae tlansum la a phai eh?
+MAR 8:38 He suentae lakliah kamah neh ka ol aka yah puei te tah samphaih neh hlangtholh la om coeng. Hlang capa loh a napa kah thangpomnah dongah hlangcim rhoek kah puencawn rhoek neh ha pawk vaengah anih te a yah puei van ni,” a ti nah.
+New
+MAR 8:33 Te dongah anih te hlangping taeng lamloh amah bueng a hoep tih a hna khuila kutdawn a puei. Te phoeiah a timthoeih tih a lai te a taek pah.
+MAR 8:34 Vaan la oeloe tih a huei phoeiah anih te, “Ephphatha (khui saeh tila om),” a ti nah.
+MAR 8:35 Te vaengah a hnavue te tlek khui tih a lai aka khom te yaih tih balh cal.
+MAR 8:36 Te phoeiah hlang taengah thui pawt ham amih te ol a paek. Amih te muep ol a paek dae amih loh a nah la muep a hoe uh.
+MAR 8:37 Te dongah let uh khungdaeng tih, “Cungkuem la balh a saii dongah hnapang te a yaak ham a saii tih olmueh te a cal sak,” a ti uh.
+ 
+Original 
+LUK 1:40 Zekhariah im khuiah kun tih Elizabeth te a voek.
+LUK 1:41 Mary kah toidalnah te Elizabeth loh a yaak vaengah a bung khuikah cahni te soipet tih Elizabeth khaw Mueihla Cim neh baetawt.
+LUK 1:42 Te vaengah tamlung neh pang khungdaeng tih, “Nang tah huta rhoek lakliah na yoethen coeng tih, nang bung kah a thaih te a yoethen coeng.
+LUK 1:43 Kai aih he metlam nim, ka boeipa kah a manu kai taengla ha pawk tarha he?
+LUK 1:44 Nang kah toidalnah ol te ka hna khuiah a kun vaengah tah, ka bung khuikah cahni loh kohoenah neh soipet he.
+LUK 1:45 Te dongah Boeipa loh a thui te hmakhahnah om ni tila aka tangnah tah a yoethen,” a ti nah.
+LUK 1:46 Mary long khaw, “Boeipa te ka hinglu loh a oep.
+LUK 1:47 Ka mueihla tah ka khangkung Pathen dongah hlampan coeng.
+LUK 1:48 A salnu mathoe he a paelki thil coeng dongah tahae lamkah tah cadil boeih loh kai ng'uem uh pawn ni.
+LUK 1:49 Kai taengah thaom tloe la a saii dongah, a ming tah cim pai saeh.
+LUK 1:50 A rhennah tah amah aka rhih rhoek kah cadil cahma ham ni.
+LUK 1:51 A ban neh a thaomnah a saii, a thinko kopoek ah buhueng aka pom te a taekyak.
+LUK 1:52 Mangpa rhoek a ngolkhoel lamloh a hlak tih, tlayae rhoek te a pomsang.
+LUK 1:53 Bungpong rhoek te hno then neh a hah sak tih, khuehtawn rhoek a tlongtlai la a tueih.
+LUK 1:54 A rhennah te poek sak hamla a ca Israel te a bom‍ .
+LUK 1:55 A pa rhoek taengah a thui bangla, Abraham neh a tiingan taengah kumhal duela a khueh,” a ti.
+LUK 1:56 Mary te Elizabeth neh hla thum tluk hmaih a naeh phoeiah amah im la bal.
+LUK 1:57 Elizabeth te a om tue a pha coeng tih capa a cun.
+LUK 1:58 Boeipa loh a rhennah te anih taengah a khueh tih, a oep te a huiko neh imben loh a yaak vaengah anih te a omngaih puei uh.
+LUK 1:59 Khohnin hnin rhet a lo vaengah camoe te yahvinrhet ham cet uh. Te vaengah anih te a napa ming Zekhariah la a khue uh.
+LUK 1:60 Tedae a manu loh a doo tih, “Moenih, Johan la a khue ni,” a ti nah.
+LUK 1:61 Te vaengah anih taengah, “Hekah ming la a khue te na cako khuiah a om pawt ah,” a ti nauh.
+LUK 1:62 Camoe metla khue a ngaih poek tila a napa te a yavaih uh.
+LUK 1:63 Te vaengah cabael a hoe tih a daek hatah, “A ming tah Johan ni,” a ti tih boeih a ngaihmang uh.
+LUK 1:64 Te vaengah a hmui, a lai te khaw pahoi a khui pah dongah cal tih Pathen te a uem.
+LUK 1:65 Te vaengah amih tolvael rhoek boeih te rhihnah loh a pai thil. Te dongah hekah olka loh Judah tlang tom te boeih a ngae uh.
+LUK 1:66 Aka ya boeih loh a thinko khuiah a dueh uh tih, “Hekah camoe he metlam nim a om ve?” a ti uh. Tedae Boeipa kah kut loh anih te a om puei.
+LUK 1:67 A napa Zekhariah tah Mueihla Cim neh baetawt.
+LUK 1:68 Te dongah a olphong neh, “A pilnam te a hip tih tlannah a saii dongah, Israel Pathen Boeipa tah uemom pai saeh.
+LUK 1:69 A taengom David im khuiah mamih ham khangnah ki a thoh sak.
+LUK 1:70 Khosuen lamloh a tonghma ciim rhoek kah ka dongah a thui vanbangla,
+LUK 1:71 Mamih kah rhal rhoek neh mamih aka hmuhuet rhoek boeih kut lamkah khangnah,
+LUK 1:72 a pa rhoek taengah rhennah tueng sak ham neh a paipi ciim te poek sak ham,
+LUK 1:73 a pa Abraham taengah olhlo neh a toemngam te mamih paek ham,
+LUK 1:74 amah taengah thothueng hamla rhal kut lamloh hoel n'hlawt coeng.
+LUK 1:75 Mamih kah khohnin rhoek boeih te amah hmaiah duengnah neh cimcaihnah ham ni.
+LUK 1:76 Te phoeiah, camoe, nang tah Khohni tonghma la n'khue vetih a longpuei rhoekbah ham Boeipa hmaiah na lamhma ni.
+LUK 1:77 Amih kah tholh khodawkngainah rhangneh a pilnam taengah khangnah mingnah a paek ni.
+LUK 1:78 Mamih Pathen kah rhehnah om. Te nen te a sang lamkah khothoeng loh mamih n'hip.
+LUK 1:79 Dueknah mueihlip neh yinnah khuiah aka ngol rhoek ham te a tue vetih, mamih kah kho te ngaimongnah longpuei la hoihaeng ham ni,” a ti.
+LUK 1:80 Camoe tah rhoeng tih mueihla ah khaw rhaang. Te dongah Israel taengah a phoenah khohnin duela khosoek ah om.
+LUK 2:1 A khohnin a pha vaengah Kaisar Augustus taengkah oltloek te lunglai pum ah a pat.
+New
+LUK 1:40 Zekhariah im khuiah kun tih Elizabeth te a voek.
+LUK 1:41 Mary kah toidalnah te Elizabeth loh a yaak vaengah a bung khuikah cahni te soipet tih Elizabeth khaw Mueihla Cim neh baetawt.
+LUK 1:42 Te vaengah tamlung neh pang khungdaeng tih, “N
+LUK 2:1 A khohnin a pha vaengah Kaisar Augustus taengkah oltloek te lunglai pum ah a pat.
+*/
+goto RAWHIDE;
+
+
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Chin-Matu---Matupi-Chin-Bible" :
@@ -13788,6 +13855,55 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---Malayalam---1910-Contemporary" :
+$textfix = <<<EOF
+EXO 7:25 യഹോവ നദിയെ അടിച്ചിട്ടു ഏഴു ദിവസം കഴിഞ്ഞപ്പോൾ മോശെയോടു കല്പിച്ചതു:
+EXO 8:1 നീ ഫറവോന്റെ അടുക്കൽ ചെന്നു പറയേണ്ടതു എന്തെന്നാൽ: യഹോവ ഇപ്രകാരം അരുളിച്ചെയ്യുന്നു: എന്നെ ആരാധിപ്പാൻ എന്റെ ജനത്തെ വിട്ടയക്ക.
+EXO 8:2 
+EOF;
+if (!($bfile = preg_replace("/EXO 8:1 (.+?)EXO 8:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+1SA 30:30 ഹൊർമ്മയിലുള്ളവർക്കും കോർ-ആശാനിൽ ഉള്ളവർക്കും അഥാക്കിലുള്ളവർക്കും
+1SA 30:31 ഹെബ്രോനിലുള്ളവർക്കും ദാവീദും അവന്റെ ആളുകളും സഞ്ചരിച്ചുവന്ന സകലസ്ഥലങ്ങളിലേക്കും കൊടുത്തയച്ചു.
+1SA 31:1 
+EOF;
+if (!($bfile = preg_replace("/1SA 30:30 (.+?)1SA 31:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2SA 17:28 കിടക്കകളും കിണ്ണങ്ങളും മൺപാത്രങ്ങളും ദാവീദിന്നും കൂടെയുള്ള ജനത്തിന്നും ഭക്ഷിപ്പാൻ കോതമ്പു, യവം, മാവു, മലർ, അമരക്ക, പയർ, പരിപ്പു,
+2SA 17:29 തേൻ, വെണ്ണ, ആടു, പശുവിൻ പാല്ക്കട്ട എന്നിവയും കൊണ്ടുവന്നു; ജനം മരുഭൂമിയിൽ വിശന്നും ദാഹിച്ചും ഇരിക്കുമല്ലോ എന്നു അവർ പറഞ്ഞു.
+2SA 18:1 
+EOF;
+if (!($bfile = preg_replace("/2SA 17:28 (.+?)2SA 18:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ACT 15:34 എന്നാൽ പൗലൊസും ബർന്നബാസും അന്ത്യൊക്ക്യയിൽ പാർത്തു
+ACT 15:35 മറ്റു പലരോടും കൂടി കർത്താവിന്റെ വചനം ഉപദേശിച്ചും സുവിശേഷിച്ചും കൊണ്ടിരുന്നു.
+ACT 15:36 കുറെനാൾ കഴിഞ്ഞിട്ടു പൗലൊസ് ബർന്നബാസിനോടു: നാം കർത്താവിന്റെ വചനം അറിയിച്ച പട്ടണംതോറും പിന്നെയും ചെന്നു സഹോദരന്മാർ എങ്ങനെയിരിക്കുന്നു എന്നു നോക്കുക എന്നു പറഞ്ഞു.
+ACT 15:37 മർക്കൊസ് എന്ന യോഹന്നാനെയും കൂട്ടിക്കൊണ്ടു പോകുവാൻ ബർന്നബാസ് ഇച്ഛിച്ചു.
+ACT 15:38 പൗലൊസോ പംഫുല്യയിൽനിന്നു തങ്ങളെ വിട്ടു പ്രവൃത്തിക്കു വരാതെ പോയവനെ കൂട്ടിക്കൊണ്ടു പോകുന്നതു യോഗ്യമല്ല എന്നു നിരൂപിച്ചു.
+ACT 15:39 അങ്ങനെ അവർ തമ്മിൽ ഉഗ്രവാദമുണ്ടായിട്ടു വേർ പിരിഞ്ഞു, ബർന്നബാസ് മർക്കൊസിനെ കൂട്ടി കപ്പൽകയറി കുപ്രൊസ് ദ്വീപിലേക്കു പോയി.
+ACT 15:40 പൗലൊസോ ശീലാസിനെ തിരഞ്ഞെടുത്തു സഹോദരന്മാരാൽ കർത്താവിന്റെ കൃപയിൽ ഭരമേല്പിക്കപ്പെട്ടിട്ടു
+ACT 15:41 യാത്ര പുറപ്പെട്ടു സുറിയാ കിലിക്യാ ദേശങ്ങളിൽ കൂടി സഞ്ചരിച്ചു സഭകളെ ഉറപ്പിച്ചു പോന്നു.
+ACT 16:1 
+EOF;
+if (!($bfile = preg_replace("/ACT 15:34 (.+?)ACT 16:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ACT 28:30 അവൻ കൂലിക്കു വാങ്ങിയ വീട്ടിൽ രണ്ടു സംവത്സരം മുഴുവൻ പാർത്തു, തന്റെ അടുക്കൽ വരുന്നവരെ ഒക്കെയും കൈക്കൊണ്ടു
+ACT 28:31 പൂർണ്ണ പ്രാഗത്ഭ്യത്തോടെ വിഘ്നംകൂടാതെ ദൈവരാജ്യം പ്രസംഗിച്ചും കർത്താവായ യേശുക്രിസ്തുവിനെക്കുറിച്ചു ഉപദേശിച്ചും പോന്നു.
+ROM 1:1 
+EOF;
+if (!($bfile = preg_replace("/ACT 28:29 (.+?)ROM 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+ROM 16:25 പൂർവ്വകാലങ്ങളിൽ മറഞ്ഞിരുന്നിട്ടു ഇപ്പോൾ വെളിപ്പെട്ടുവന്നതും നിത്യദൈവത്തിന്റെ നിയോഗപ്രകാരം സകലജാതികൾക്കും വിശ്വാസത്തിന്റെ അനുസരണത്തിന്നായി പ്രവാചകന്മാരുടെ എഴുത്തുകളാൽ
+ROM 16:26 അറിയിച്ചിരിക്കുന്നതുമായ മർമ്മത്തിന്റെ വെളിപ്പാടിന്നു അനുസരണമായുള്ള എന്റെ സുവിശേഷത്തിന്നും യേശുക്രിസ്തുവിനെക്കുറിച്ചുള്ള പ്രസംഗത്തിന്നും ഒത്തവണ്ണം നിങ്ങളെ സ്ഥിരപ്പെടുത്തുവാൻ കഴിയുന്ന
+ROM 16:27 ഏകജ്ഞാനിയായ ദൈവത്തിന്നു യേശുക്രിസ്തുമുഖാന്തരം എന്നെന്നേക്കും മഹത്വം ഉണ്ടാകുമാറാകട്ടെ. ആമേൻ.
+1CO 1:1 
+EOF;
+if (!($bfile = preg_replace("/ROM 16:24 (.+?)1CO 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---Malayalam---Contemporary" :
 $textfix = <<<EOF
 GEN 44:30 “അതുകൊണ്ട് ഇപ്പോൾ ബാലനെ കൂടാതെ ഞാൻ അങ്ങയുടെ ദാസനായ എന്റെ പിതാവിന്റെ അടുക്കൽ ചെന്നാൽ, അവനെ കാണാത്തതുനിമിത്തം അദ്ദേഹം മരിച്ചുപോകും; അദ്ദേഹത്തിന്റെ ജീവൻ ബാലന്റെ ജീവനോടു പറ്റിച്ചേർന്നിരിക്കുന്നു;
@@ -16588,6 +16704,16 @@ if (!($bfile = preg_replace("/ /us","",$bfile,-1,$rnum)) || $rnum!=10) { AION_
 $bfile_saved = $bfile;	
 goto RAWHIDE;
 
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Romanian---BTF-Bible" :
+if (!($bfile = preg_replace("/\s+\]/us","]",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/\[\s+/us"," [",$bfile,-1,$rnum)) || $rnum!=37) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/(א|ב|ג|ד|ה|ו|ז|ח|ט|י|כ|ל|מ|נ|ס|ע|פ|צ|ק|ר|ש|ת)/us"," ",$bfile,-1,$rnum)) || $rnum!=22) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;	
+goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************

@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1579406     
-# File Date: 07/19/2024 07:26:52
+# File Size: 1579917     
+# File Date: 07/31/2024 00:51:43
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -9469,6 +9469,8 @@ Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	044	ACT	008	037
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	044	ACT	028	029	
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	066	REV	012	018	Le nijagarodoñe amy faseñe añ’olon-driakey re.
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	066	REV	016	015	.
+Holy-Bible---Malayalam---1910-Contemporary	054	1TI	006	021	ആ ജ്ഞാനം ചിലർ സ്വീകരിച്ചു വിശ്വാസം വിട്ടു തെറ്റിപ്പോയിരിക്കുന്നു.
+Holy-Bible---Malayalam---1910-Contemporary	064	3JO	001	014	വേഗത്തിൽ നിന്നെ കാണ്മാൻ ആശിക്കുന്നു. അപ്പോൾ നമുക്കു മുഖാമുഖമായി സംസാരിക്കാം.
 Holy-Bible---Malayalam---Contemporary	064	3JO	001	014	ഉടനെ നിന്നെ കാണാമെന്നു ഞാൻ പ്രതീക്ഷിക്കുന്നു. അപ്പോൾ നമുക്ക് മുഖാമുഖമായി സംസാരിക്കാം.
 Holy-Bible---Malayalam---Malayalam-Bible	064	3JO	001	014	എന്നാൽ ഞാൻ വേഗത്തിൽ നിന്നെ കാണ്മാൻ ആശിക്കുന്നു. അപ്പോൾ നമുക്ക് മുഖാമുഖമായി സംസാരിക്കാം.
 Holy-Bible---Malayalam---Malayalam-Bible	066	REV	012	018	പിന്നെ സർപ്പം കടൽപ്പുറത്തെ മണലിന്മേൽ നിന്നു.

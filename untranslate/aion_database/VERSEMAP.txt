@@ -1250,7 +1250,9 @@ Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	MIC4-5
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	NAH1-2
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	ZEC1-2
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	MAL3-4
-Holy-Bible---Malayalam---1910-Contemporary	NONE
+Holy-Bible---Malayalam---1910-Contemporary	DEU12-13
+Holy-Bible---Malayalam---1910-Contemporary	DEU28-29
+Holy-Bible---Malayalam---1910-Contemporary	SOL6-7
 Holy-Bible---Malayalam---Contemporary	NONE
 Holy-Bible---Malayalam---Malayalam-Bible	DEU12-13
 Holy-Bible---Malayalam---Malayalam-Bible	DEU28-29

@@ -3074,6 +3074,8 @@ Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	003	NUM	030	001	16	1	end
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	009	1SA	020	042	42	1	end
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible							end
+Holy-Bible---Malayalam---1910-Contemporary	054	1TI	006	021	21	1	end
+Holy-Bible---Malayalam---1910-Contemporary	064	3JO	001	014	14	1	end
 Holy-Bible---Malayalam---1910-Contemporary							end
 Holy-Bible---Malayalam---Contemporary	064	3JO	001	014	14	1	end
 Holy-Bible---Malayalam---Contemporary							end

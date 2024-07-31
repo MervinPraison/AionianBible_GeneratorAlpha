@@ -49,7 +49,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Basque|Breton).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Chiyawo).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Ahirani|Hebrew---Living-Bible).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Burmese-Common).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Burmese|Myanmar).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Nepali-Bible|Oriya-Bible|Uyghur-Bible-Cyrillic|Uyghur-Bible-Pinyin).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(LXX|Khan).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/(Holy-Bible---Latvian---Latvian-Gluck-Bible|Holy-Bible---Japanese---Japanese-Yougo-yaku)---Aionian-Edition\.noia$/",
@@ -58,15 +58,15 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Rote-Dela).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Coptic|Myanmar---Burmese-Common|Sanskrit---Burmese|Sanskrit---Cologne|Sanskrit---Harvard|Sanskrit---IAST|Sanskrit---ISO|Sanskrit---ITRANS|Sanskrit---Tamil|Sanskrit---Velthuis).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arapaho|Cherokee|Malayalam|Myanmar-Burmese-Judson|Sanskrit|Tamil).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---(Malayalam|.*Myanmar-Burmese-Judson|Tamil|Sanskrit---Sinhala|Sanskrit---Telugu|Sanskrit---Thai).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Tsakhur|Burmese-Common).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Kannada|Malayalam|Myanmar|Sanskrit|Tamil).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Coptic).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---(Kannada|Myanmar).*---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---(Tsakhur).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Sanskrit---Urdu).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Coptic---Coptic-Boharic-NT---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Catholic-Public-Domain---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
-		'include'	=> "/---Aionian-Edition\.noia$/",
+		//'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		) );
@@ -209,10 +209,37 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 	$current_chap = NULL;
 	$closetag = 'oldtest';
 	$database = array();
-	$hyphen_total = 0;
 	AION_FILE_DATA_GET( $args['filepath'], 'T_BIBLE', $database, array('INDEX','BOOK','CHAPTER','VERSE'), FALSE );
 	AION_FILE_BIBLE_RESORT( $forprint, $database );
 	AION_GLOSSARY_REFERENCES_GET( $bible, $database, $args );
+
+	// MANUAL EXPLICIT HYPHENATION
+	// ugly adjustments needed for PDF hyphenation and line wrap
+	// mainly because I do not use Speedata to hyphenate because too many languages to consider, so no auto hyphenation!
+	if ("Holy-Bible---Finnish---Finnish-Bible"===$bible) {
+		$ref='023-ISA-036-001';
+		if (!($database['T_BIBLE'][$ref]['TEXT']=preg_replace("/Ja tapahtui kuningas Hiskian neljännellätoistakymmenennellä /u","Ja tapahtui kuningas Hiskian neljännellätoista-kymmenennellä ",$database['T_BIBLE'][$ref]['TEXT'],-1,$n)) || 1!=$n) {
+			AION_ECHO("ERROR! $bible preg_replace(manual hyphen) error: ".preg_last_error() . " $ref ".$database['T_BIBLE'][$ref]['TEXT']);
+		}
+	}
+	else if ("Holy-Bible---Kannada---Kannada-Bible"===$bible) {
+		$ref='040-MAT-025-001';
+		if (!($database['T_BIBLE'][$ref]['TEXT']=preg_replace("/ಪರಲೋಕ ರಾಜ್ಯವು ತಮ್ಮ ದೀಪಾರತಿಗಳನ್ನುತೆಗೆದುಕೊಂಡು /u","ಪರಲೋಕ ರಾಜ್ಯವು ತಮ್ಮ ದೀಪಾರತಿಗಳನ್ನು ತೆಗೆದುಕೊಂಡು ",$database['T_BIBLE'][$ref]['TEXT'],-1,$n)) || 1!=$n) {
+			AION_ECHO("ERROR! $bible preg_replace(manual hyphen) error: ".preg_last_error() . " $ref ".$database['T_BIBLE'][$ref]['TEXT']);
+		}				
+		$ref='054-1TI-003-001';
+		if (!($database['T_BIBLE'][$ref]['TEXT']=preg_replace("/ಸಭಾಧ್ಯಕ್ಷನ ಉದ್ಯೋಗವನ್ನು ಪಡೆದುಕೊಳ್ಳಬೇಕೆಂದಿರುವವನು /u","ಸಭಾಧ್ಯಕ್ಷನ ಉದ್ಯೋಗವನ್ನು ಪಡೆದುಕೊಳ್ಳ ಬೇಕೆಂದಿರುವವನು ",$database['T_BIBLE'][$ref]['TEXT'],-1,$n)) || 1!=$n) {
+			AION_ECHO("ERROR! $bible preg_replace(manual hyphen) error: ".preg_last_error() . " $ref ".$database['T_BIBLE'][$ref]['TEXT']);
+		}
+	}
+	else if ("Holy-Bible---Kannada---Open-Contemporary"===$bible) {
+		$ref='040-MAT-025-001';
+		if (!($database['T_BIBLE'][$ref]['TEXT']=preg_replace("/ಪರಲೋಕ ರಾಜ್ಯವು ತಮ್ಮ ದೀಪಗಳನ್ನು ತೆಗೆದುಕೊಂಡು ಮದುಮಗನನ್ನು ಎದುರುಗೊಳ್ಳುವುದಕ್ಕಾಗಿ /u","ಪರಲೋಕ ರಾಜ್ಯವು ತಮ್ಮ ದೀಪಗಳನ್ನು ತೆಗೆದುಕೊಂಡು ಮದುಮಗನನ್ನು ಎದುರುಗೊಳ್ಳು ವುದಕ್ಕಾಗಿ ",$database['T_BIBLE'][$ref]['TEXT'],-1,$n)) || 1!=$n) {
+			AION_ECHO("ERROR! $bible preg_replace(manual hyphen) error: ".preg_last_error() . " $ref ".$database['T_BIBLE'][$ref]['TEXT']);
+		}
+	}
+
+	// loop
 	foreach($database['T_BIBLE'] as $ref => $verse) {
 		// BOOK
 		if ($current_book != $verse['BOOK']) {
@@ -254,6 +281,9 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 		// begin each word part with \p{Letter} hoping that \p{Mark} are connected to correct letter, do not separate Marks from Letters
 		//https://www.regular-expressions.info/unicode.html
 		// \p{L}\p{M}\p{Z}\p{S}\p{N}\p{P}\p{C}
+		// currently only used by Finnish
+		// this worked but using above explicit hyphenation above instead for greater control
+		/*
 		if (!empty($forprint['HYPHEN'])) {
 			$hyphen_count = 0;
 			$before = $verse['TEXT'];
@@ -265,6 +295,8 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 				$hyphen_total += $hyphen_count;
 			}
 		}
+		*/
+
 		// VERSE FORMAT
 		$count_q = $count_g = 0;
 		// question span
@@ -297,7 +329,6 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 	if(!fclose($fp)) { AION_ECHO("ERROR! fclose: $DATA"); }
 	$langspeed	= trim(!empty($forprint['LANGSPEED']) ? $forprint['LANGSPEED'] : "English (USA)" );
 	AION_GLOSSARY_REFERENCES_PUT( $bible, $database, $args, !empty($forprint['ISBNLU22']), $langspeed);
-	if ($hyphen_total) { AION_ECHO("HYPHEN TOTAL=$hyphen_total,  $bible");	}
 	AION_ECHO("SPEEDATA $bible: BIBLE CREATION SUCCESS! $DATA");
 	
 	// UNSET
@@ -714,7 +745,6 @@ $langspeed	= trim(!empty($forprint['LANGSPEED'])	? "language='".$forprint['LANGS
 $langchap	= trim(!empty($forprint['LANGCHAP'])	? "language='".$forprint['LANGCHAP']."'"	: ""		);
 $yesnew		= trim(!empty($forprint['YESNEW'])		? $forprint['YESNEW']		: $default['YESNEW']		);
 $rtl		= trim(!empty($forprint['RTL'])			? $forprint['RTL']			: $default['RTL']			);
-$hyphen		= trim(!empty($forprint['HYPHEN'])		? $forprint['HYPHEN']		: $default['HYPHEN']		);
 $column1	= trim(!empty($forprint['COLUMN1'])		? $forprint['COLUMN1']		: NULL						);
 $studwide	= trim(!empty($forprint['STUDWIDE'])	? $forprint['STUDWIDE']		: NULL						);
 $font		= trim(!empty($forprint['FONT'])		? $forprint['FONT']			: $default['FONT']			);
@@ -760,7 +790,7 @@ else if ($format!='POD') {
 	$leading= $leading2	= trim(!empty($forprint['LEADING'])	? $forprint['LEADING']	: $default['LEADING']	);
 	$ratio	= ((float)$leading / (float)$size) * 1.1; // 10% increase in non-POD leading
 	$newsize=
-		("Holy-Bible---Myanmar---Burmese-Common-Bible" == $versions['BIBLE']	? 7.5 : 
+		("Holy-Bible---Myanmar---Burmese-Common-Bible" == $versions['BIBLE']	? 6.6 : 
 		(preg_match("/Holy-Bible---(Kannada|Myanmar)/u", $versions['BIBLE'])	? 8.4 : 9.0)); // exceptions for Kannada and Myanmar
 	if ((float)$size < $newsize) { $size = sprintf("%.1f", $newsize); }
 	$leading = number_format( ceil((float)$size * $ratio * 100) / 100, 2); // calculate new leading from previous leading ratio
@@ -1885,7 +1915,6 @@ $language	= trim(!empty($forprint['LANGUAGE'])	? $forprint['LANGUAGE']		: $defau
 $langspeed	= trim(!empty($forprint['LANGSPEED'])	? "language='".$forprint['LANGSPEED']."'"	: ""		);
 $yesnew		= trim(!empty($forprint['YESNEW'])		? $forprint['YESNEW']		: $default['YESNEW']		);
 $rtl		= trim(!empty($forprint['RTL'])			? $forprint['RTL']			: $default['RTL']			);
-$hyphen		= trim(!empty($forprint['HYPHEN'])		? $forprint['HYPHEN']		: $default['HYPHEN']		);
 $font		= trim(!empty($forprint['FONT'])		? $forprint['FONT']			: $default['FONT']			);
 $bsize		= trim(!empty($forprint['BSIZE'])		? $forprint['BSIZE']		: $default['BSIZE']			);
 $bleading	= trim(!empty($forprint['BLEADING'])	? $forprint['BLEADING']		: $default['BLEADING']		);
@@ -2011,7 +2040,6 @@ $language	= trim(!empty($forprint['LANGUAGE'])	? $forprint['LANGUAGE']		: $defau
 $langspeed	= trim(!empty($forprint['LANGSPEED'])	? "language='".$forprint['LANGSPEED']."'"	: ""		);
 $yesnew		= trim(!empty($forprint['YESNEW'])		? $forprint['YESNEW']		: $default['YESNEW']		);
 $rtl		= trim(!empty($forprint['RTL'])			? $forprint['RTL']			: $default['RTL']			);
-$hyphen		= trim(!empty($forprint['HYPHEN'])		? $forprint['HYPHEN']		: $default['HYPHEN']		);
 $font		= trim(!empty($forprint['FONT'])		? $forprint['FONT']			: $default['FONT']			);
 $bsize		= trim(!empty($forprint['BSIZE'])		? $forprint['BSIZE']		: $default['BSIZE']			);
 $bleading	= trim(!empty($forprint['BLEADING'])	? $forprint['BLEADING']		: $default['BLEADING']		);
@@ -2160,7 +2188,6 @@ $language	= trim(!empty($forprint['LANGUAGE'])	? $forprint['LANGUAGE']		: $defau
 $langspeed	= trim(!empty($forprint['LANGSPEED'])	? "language='".$forprint['LANGSPEED']."'"	: ""		);
 $yesnew		= trim(!empty($forprint['YESNEW'])		? $forprint['YESNEW']		: $default['YESNEW']		);
 $rtl		= trim(!empty($forprint['RTL'])			? $forprint['RTL']			: $default['RTL']			);
-$hyphen		= trim(!empty($forprint['HYPHEN'])		? $forprint['HYPHEN']		: $default['HYPHEN']		);
 $font		= trim(!empty($forprint['FONT'])		? $forprint['FONT']			: $default['FONT']			);
 $bsize		= trim(!empty($forprint['BSIZE'])		? $forprint['BSIZE']		: $default['BSIZE']			);
 $bleading	= trim(!empty($forprint['BLEADING'])	? $forprint['BLEADING']		: $default['BLEADING']		);
