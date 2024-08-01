@@ -1,6 +1,6 @@
 # File Name: TALLY_HO.txt
 # File Size: 22306       
-# File Date: 07/31/2024 02:52:47
+# File Date: 08/01/2024 00:29:30
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -370,7 +370,7 @@ Holy-Bible---Tamil---Open-Contemporary	31102	31102	31103
 Holy-Bible---Tamil---Tamil-Bible	31102	31102	31103
 Holy-Bible---Telugu---Telugu-Bible	31038	31038	31041
 Holy-Bible---Tongan---Revised-West-Version	31102	31102	31102
-Holy-Bible---Tsakhur---Tsakhur-Bible	5562	5562	5562
+Holy-Bible---Tsakhur---Tsakhur-Bible	5561	5561	5562
 Holy-Bible---Turkish---Turkish-Bible	30238	30238	30239
 Holy-Bible---Twi---Akuapem-Twi-Bible	31098	31098	31100
 Holy-Bible---Twi---Asante-Twi-WASNA	31098	31098	31100

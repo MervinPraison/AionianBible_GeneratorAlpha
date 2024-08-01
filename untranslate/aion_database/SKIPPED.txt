@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1579917     
-# File Date: 07/31/2024 00:51:43
+# File Size: 1580185     
+# File Date: 07/31/2024 22:18:49
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -11056,6 +11056,7 @@ Holy-Bible---Tamil---Tamil-Bible	064	3JO	001	014	சீக்கிரமாக 
 Holy-Bible---Telugu---Telugu-Bible	040	MAT	004	014	
 Holy-Bible---Telugu---Telugu-Bible	064	3JO	001	014	కానీ నేను నిన్ను త్వరలోనే చూడగలనని ఆశిస్తున్నాను. అప్పుడు మనం ముఖాముఖీ మాట్లాడుకుందాం.
 Holy-Bible---Telugu---Telugu-Bible	066	REV	012	018	దానికోసం ఆ మహా సర్పం సముద్ర తీరంలో ఇసుక తిన్నెలపై నిలబడింది.
+Holy-Bible---Tsakhur---Tsakhur-Bible	009	1SA	020	042	Yonatanee Davuduk'le eyhen: – Vas yugna yəq vuxhena. Zınay ğu Rəbbine doyule sana-sang'us k'ın g'assır, uvhunniy: Rəbb yizdeyiy yiğne, yişde uşaxaaşine yı'q'neenar gırgıne gahbışisda Şahad vorna.
 Holy-Bible---Turkish---Turkish-Bible	066	REV	012	018	Denizin kıyısında dikilip durdu.
 Holy-Bible---Twi---Akuapem-Twi-Bible	064	3JO	001	014	Ɛrenkyɛ biara mehu mo na me ne mo akasa.
 Holy-Bible---Twi---Akuapem-Twi-Bible	066	REV	012	018	Na ɔwɔ no kogyinaa mpoano hɔ.

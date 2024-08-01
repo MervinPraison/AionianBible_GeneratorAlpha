@@ -89,7 +89,7 @@ $modified = date("n/j/Y", filemtime("./index.php"));
 <div id='logo'><img src='/images/Holy-Bible-Aionian-Edition-PURPLE-HOME.png' alt='Aionian Bible' /></div>
 <div id='j316'>For God so loved the world,<BR />that he gave his only begotten Son,<BR />that whoever believes in him<BR />should not perish, but have...</div>
 <div id='aion'>aionian life!</div>
-<div id='moto'>The world's first Holy Bible <span style="text-decoration: underline;">untranslation</span><BR />Three hundred seventy-five versions<BR />One hundred fifty-five languages<BR />Anonymous on TOR network<BR />100% free to copy &amp; print<BR />Updated <? echo $modified; ?><BR /><BR />Also known as<BR />'The Purple Bible'
+<div id='moto'>The world's first Holy Bible <span style="text-decoration: underline;">untranslation</span><BR />Three hundred seventy-five versions<BR />One hundred sixty-three languages<BR />Anonymous on TOR network<BR />100% free to copy &amp; print<BR />Updated <? echo $modified; ?><BR /><BR />Also known as<BR />'The Purple Bible'
 </div>
 </div>
 </a>
