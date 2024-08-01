@@ -886,6 +886,24 @@ Holy-Bible---Mahasu-Pahari---Baghlayani-Bible								NULL
 Holy-Bible---Malagasy---Malagasy-Bible								NULL
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible								NULL
+Holy-Bible---Malayalam---1910-Contemporary	041	MAR	009	043	SKIP			NULL
+Holy-Bible---Malayalam---1910-Contemporary	041	MAR	009	044	GEHENNA	g1067		NULL
+Holy-Bible---Malayalam---1910-Contemporary	041	MAR	009	045	SKIP			NULL
+Holy-Bible---Malayalam---1910-Contemporary	041	MAR	009	046	GEHENNA	g1067		NULL
+Holy-Bible---Malayalam---1910-Contemporary	042	LUK	001	054	AIONS	g165		NULL
+Holy-Bible---Malayalam---1910-Contemporary	042	LUK	001	055	SKIP			NULL
+Holy-Bible---Malayalam---1910-Contemporary	042	LUK	001	069	AIONS	g165		NULL
+Holy-Bible---Malayalam---1910-Contemporary	042	LUK	001	070	SKIP			NULL
+Holy-Bible---Malayalam---1910-Contemporary	048	GAL	001	003	AIONS	g165		NULL
+Holy-Bible---Malayalam---1910-Contemporary	048	GAL	001	004	SKIP			NULL
+Holy-Bible---Malayalam---1910-Contemporary	049	EPH	002	006	AIONS	g165		NULL
+Holy-Bible---Malayalam---1910-Contemporary	049	EPH	002	007	SKIP			NULL
+Holy-Bible---Malayalam---1910-Contemporary	053	2TH	001	009	SKIP			NULL
+Holy-Bible---Malayalam---1910-Contemporary	053	2TH	001	010	AIONIAN	g166		NULL
+Holy-Bible---Malayalam---1910-Contemporary	056	TIT	002	012	SKIP			NULL
+Holy-Bible---Malayalam---1910-Contemporary	056	TIT	003	007	SKIP			NULL
+Holy-Bible---Malayalam---1910-Contemporary	063	2JO	001	001	AIONS	g165		NULL
+Holy-Bible---Malayalam---1910-Contemporary	063	2JO	001	002	SKIP			NULL
 Holy-Bible---Malayalam---1910-Contemporary								NULL
 Holy-Bible---Malayalam---Contemporary	041	MAR	009	043	SKIP			NULL
 Holy-Bible---Malayalam---Contemporary	041	MAR	009	044	GEHENNA	g1067		NULL

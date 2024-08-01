@@ -141,7 +141,7 @@ function AION_LOOP_ANALYSIS_DOIT($args) {
 	$analysis .= "$short	BYTES	AionianClean	bytes / chars	$result	NOTICE\n";
 	
 	// AIONIAN
-	$analysis .= "\n# AIONIAN VERSE COUNTS - LOOKING FOR 263\n";
+	$analysis .= "\n# AIONIAN VERSE COUNTS - LOOKING FOR 264\n";
 	$missingbook1 = $missingbook2 = $butbookfound = $missingchapter = $missingverse = $gotverse = 0;
 	foreach($args['database']['T_UNTRANSLATE'] as $key => $untranslate) {
 		$key0 = preg_replace('/-\d\d\d-\d\d\d$/us','',$key);
@@ -180,7 +180,7 @@ function AION_LOOP_ANALYSIS_DOIT($args) {
 	$analysis .= "$short	AIONIAN	Aionian	missing-chapter	$missingchapter	".			($missingchapter ? "ERROR" : "NOTICE" )."\n";
 	$analysis .= "$short	AIONIAN	Aionian	missing-verse	$missingverse	NOTICE\n";
 	$analysis .= "$short	AIONIAN	Aionian	aionian-verses	$gotverse	NOTICE\n";
-	$analysis .= "$short	AIONIAN	Aionian	tested-verses	$total	".					($total==263 ? "NOTICE" : "ERROR" ).	"\n";
+	$analysis .= "$short	AIONIAN	Aionian	tested-verses	$total	".					($total==264 ? "NOTICE" : "ERROR" ).	"\n";
 
 	// UNPRINTABLES
 	$analysis .= "\n# UNPRINTABLE\n";

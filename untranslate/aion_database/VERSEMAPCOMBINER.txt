@@ -3856,6 +3856,7 @@ Holy-Bible---Tamil---Tamil-Bible							end
 Holy-Bible---Telugu---Telugu-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Telugu---Telugu-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Tongan---Revised-West-Version							end
+Holy-Bible---Tsakhur---Tsakhur-Bible	009	1SA	020	042	42	1	end
 Holy-Bible---Tsakhur---Tsakhur-Bible							end
 Holy-Bible---Turkish---Turkish-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Turkish---Turkish-Bible							end
