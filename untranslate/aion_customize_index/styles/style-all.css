@@ -201,15 +201,7 @@ span.font-myanmar { font-family: 'font-myanmar', 'NotoSans', 'Arial', 'sans-seri
 		url('../fonts/notosansmyanmar-regular.ttf')		format('truetype');
 }
 span.font-myanmar-google { font-family: 'font-myanmar-google', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
-@font-face {
-	font-family:
-		'font-myanmar-microsoft';
-	src:
-		url('../fonts/mmrtext.woff2')	format('woff2'),
-		url('../fonts/mmrtext.woff')	format('woff'),
-		url('../fonts/mmrtext.ttf')		format('truetype');
-}
-span.font-myanmar-microsoft { font-family: 'font-myanmar-microsoft', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+span.font-myanmar-microsoft { font-family: 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
 
 /* Oriya */
 @font-face {

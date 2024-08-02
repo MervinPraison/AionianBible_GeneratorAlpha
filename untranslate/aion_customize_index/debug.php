@@ -26,6 +26,7 @@ if ("Debug/Sanskrit-Burmese"==$_Path) {
 	$g = "\x{1039}";
 	// sequence bookend
 	$e = "[^\x{1039}]{1,1}";
+	echo "Note: This page must be viewed from a Windows 10/11 machine to see the Myanmar Text, mmrtext.ttf rendering<br>";
 	echo "Strategy: Find unique medial sequences, a medial defined as a character preceeded by \x{1039}<br>";
 	echo "Disclaimer: Medial sequences found may not cover all possibilities or be the complete sequence<br>";
 	echo "Fonts: Sequence are tested with Padauk, Google, and Microsoft fonts for testing purposes only<br>";
