@@ -670,6 +670,7 @@ Holy-Bible---English---King-James-Version-Revised							end
 Holy-Bible---English---King-James-Version-Updated							end
 Holy-Bible---English---Leeser-Tanakh							end
 Holy-Bible---English---Literal-Standard							end
+Holy-Bible---English---Living-Oracles-NT							end
 Holy-Bible---English---LXX2012-U-S-English	006	JOS	005	014	15	1	end
 Holy-Bible---English---LXX2012-U-S-English	007	JDG	005	031	31	1	end
 Holy-Bible---English---LXX2012-U-S-English	011	1KI	022	043	53	1	end
@@ -2329,6 +2330,7 @@ Holy-Bible---Indonesian---For-All	064	3JO	001	014	14	1	end
 Holy-Bible---Indonesian---For-All							end
 Holy-Bible---Indonesian---New-Indonesian-Translation							end
 Holy-Bible---Indonesian---Simple							end
+Holy-Bible---Irish---Odomhnuill-Modern							end
 Holy-Bible---Isanzu---Isanzu-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Isanzu---Isanzu-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Isanzu---Isanzu-Bible							

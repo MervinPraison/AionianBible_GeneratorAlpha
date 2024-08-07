@@ -1,6 +1,6 @@
 # File Name: ANAVIGATION.txt
-# File Size: 21464       
-# File Date: 08/01/2024 20:24:05
+# File Size: 21548       
+# File Date: 08/06/2024 10:52:50
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -133,6 +133,7 @@ Holy-Bible---English---King-James-Version-Updated
 Holy-Bible---English---LXX2012-U-S-English		
 Holy-Bible---English---Leeser-Tanakh		
 Holy-Bible---English---Literal-Standard		
+Holy-Bible---English---Living-Oracles-NT		
 Holy-Bible---English---Montgomery-NT		
 Holy-Bible---English---New-Heart-Aramaic		
 Holy-Bible---English---New-Heart-Jehovah		
@@ -261,6 +262,7 @@ Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari
 Holy-Bible---Indonesian---For-All		
 Holy-Bible---Indonesian---New-Indonesian-Translation		
 Holy-Bible---Indonesian---Simple		
+Holy-Bible---Irish---Odomhnuill-Modern		
 Holy-Bible---Isanzu---Isanzu-Bible		
 Holy-Bible---Italian---Conferenza-Episcopale-Italiana		
 Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible		

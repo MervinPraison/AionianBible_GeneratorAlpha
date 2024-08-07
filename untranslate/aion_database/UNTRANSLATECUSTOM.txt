@@ -517,6 +517,7 @@ Holy-Bible---English---King-James-Version-Updated								NULL
 Holy-Bible---English---Leeser-Tanakh								NULL
 Holy-Bible---English---Literal-Standard	061	2PE	002	017	NOTE			questioned
 Holy-Bible---English---Literal-Standard								NULL
+Holy-Bible---English---Living-Oracles-NT								NULL
 Holy-Bible---English---LXX2012-U-S-English	006	JOS	021	042	SWAP			and their suburbs round about these cities: a city and the suburbs round about the city to all these cities.
 Holy-Bible---English---LXX2012-U-S-English	006	JOS	024	030	SWAP			And they buried him by the borders of his inheritance in Thamnasarach in the mount of Ephraim, northward of the mount of Galaad.
 Holy-Bible---English---LXX2012-U-S-English	006	JOS	024	033	SWAP			And it came to pass afterwards that Eleazar the high-priest the son of Aaron died, and was buried in Gabaar of Phinees his son, which he gave him in mount Ephraim.
@@ -802,6 +803,7 @@ Holy-Bible---Indonesian---Simple	066	REV	020	012	HADES	g86		NULL
 Holy-Bible---Indonesian---Simple	066	REV	020	013	SKIP			NULL
 Holy-Bible---Indonesian---Simple	066	REV	020	014	LOF	g3041 g4442		NULL
 Holy-Bible---Indonesian---Simple	066	REV	020	015	HADES,LOF	g86,g3041 g4442		NULL
+Holy-Bible---Irish---Odomhnuill-Modern								NULL
 Holy-Bible---Isanzu---Isanzu-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Isanzu---Isanzu-Bible								NULL
 Holy-Bible---Italian---Conferenza-Episcopale-Italiana								NULL

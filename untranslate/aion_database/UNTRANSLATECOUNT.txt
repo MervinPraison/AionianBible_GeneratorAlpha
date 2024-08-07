@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
-# File Size: 37931       
-# File Date: 08/01/2024 19:49:28
+# File Size: 38121       
+# File Date: 08/06/2024 10:14:11
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -102,6 +102,7 @@ Holy-Bible---English---King-James-Version-Updated	129	0	64	12	1	11	9	1	5	94	63	1
 Holy-Bible---English---LXX2012-U-S-English	120	3	64	0	0	0	0	0	0	0	0	0	0	0	27	3	64	91	64	0	200	0	27
 Holy-Bible---English---Leeser-Tanakh	67	0	64	0	0	0	0	0	0	0	0	0	0	0	0	0	64	64	64	0	200	0	0
 Holy-Bible---English---Literal-Standard	163	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
+Holy-Bible---English---Living-Oracles-NT	33	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
 Holy-Bible---English---Montgomery-NT	34	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
 Holy-Bible---English---New-Heart-Aramaic	145	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---English---New-Heart-Jehovah	167	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
@@ -221,6 +222,7 @@ Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari	0	5	64	12	1	11	9	1	5	94	6
 Holy-Bible---Indonesian---For-All	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
 Holy-Bible---Indonesian---New-Indonesian-Translation	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Indonesian---Simple	0	19	18	12	1	11	9	1	5	94	63	10	2	0	7	19	226	221	218	0	46	0	3
+Holy-Bible---Irish---Odomhnuill-Modern	0	0	0	1	0	2	1	0	0	6	3	2	0	0	0	0	15	14	14	0	250	0	0
 Holy-Bible---Isanzu---Isanzu-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
 Holy-Bible---Italian---Conferenza-Episcopale-Italiana	3	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Italian---Italian-Giovanni-Diodati-Bible	29	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0

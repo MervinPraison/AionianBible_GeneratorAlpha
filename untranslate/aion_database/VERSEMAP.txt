@@ -278,6 +278,7 @@ Holy-Bible---English---King-James-Version-Revised	NONE
 Holy-Bible---English---King-James-Version-Updated	NONE
 Holy-Bible---English---Leeser-Tanakh	NONE
 Holy-Bible---English---Literal-Standard	NONE
+Holy-Bible---English---Living-Oracles-NT	NONE
 Holy-Bible---English---LXX2012-U-S-English	GEN37
 Holy-Bible---English---LXX2012-U-S-English	XJER
 Holy-Bible---English---LXX2012-U-S-English	NUM12-13
@@ -990,6 +991,7 @@ Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari	NONE
 Holy-Bible---Indonesian---For-All	NONE
 Holy-Bible---Indonesian---New-Indonesian-Translation	NONE
 Holy-Bible---Indonesian---Simple	ROM14-16
+Holy-Bible---Irish---Odomhnuill-Modern	NONE
 Holy-Bible---Isanzu---Isanzu-Bible	NONE
 Holy-Bible---Italian---Conferenza-Episcopale-Italiana	GEN31-32
 Holy-Bible---Italian---Conferenza-Episcopale-Italiana	EXO7-8

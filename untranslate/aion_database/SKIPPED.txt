@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1580185     
-# File Date: 08/01/2024 18:16:50
+# File Size: 1580301     
+# File Date: 08/06/2024 08:17:43
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -2298,6 +2298,8 @@ Holy-Bible---English---Leeser-Tanakh	006	JOS	021	036
 Holy-Bible---English---Leeser-Tanakh	006	JOS	021	037	
 Holy-Bible---English---Literal-Standard	064	3JO	001	015	-
 Holy-Bible---English---Literal-Standard	066	REV	012	018	-
+Holy-Bible---English---Living-Oracles-NT	042	LUK	017	036	
+Holy-Bible---English---Living-Oracles-NT	044	ACT	008	037	
 Holy-Bible---English---Montgomery-NT	041	MAR	011	026	
 Holy-Bible---English---Montgomery-NT	043	JOH	017	016	
 Holy-Bible---English---New-Heart-Aramaic	040	MAT	017	021	

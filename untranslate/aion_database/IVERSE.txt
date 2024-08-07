@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 889438      
-# File Date: 08/01/2024 20:22:27
+# File Size: 891704      
+# File Date: 08/06/2024 10:50:49
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -815,6 +815,15 @@ Holy-Bible---English---Literal-Standard	EXO-013-017	Exodus 13:17	And it comes to
 Holy-Bible---English---Literal-Standard	MAR-010-045	Mark 10:45	for even the Son of Man did not come to be ministered to, but to minister, and to give His life [as] a ransom for many.”
 Holy-Bible---English---Literal-Standard	ROM-001-001	Romans 1:1	Paul, a servant of Jesus Christ, a called apostle, having been separated to the good news of God,
 Holy-Bible---English---Literal-Standard	MAT-028-019	Matthew 28:19	having gone, then, disciple all the nations, immersing them into the Name of the Father, and of the Son, and of the Holy Spirit,
+Holy-Bible---English---Living-Oracles-NT	JOH-003-016	John 3:16	for God has so loved the world, as to give his own begotten Son, that whosoever believes on him, may not perish, but obtain eternal life.
+Holy-Bible---English---Living-Oracles-NT	GEN-003-024		
+Holy-Bible---English---Living-Oracles-NT	LUK-023-034	Luke 23:34	And Jesus said, Father, forgive them, for they know not what they do. And they parted his garments by lot.
+Holy-Bible---English---Living-Oracles-NT	REV-021-002	Revelation 21:2-3	And I, John, saw the holy city, the New Jerusalem, descending from God, out of heaven, prepared like a bride adorned for her husband. And I heard a great voice out of heaven, saying, Behold, the tabernacle of God is with men, and he shall pitch his tent among them, and they shall be his people, and God himself shall be among them--their God.
+Holy-Bible---English---Living-Oracles-NT	HEB-011-008	Hebrews 11:8	By faith, Abraham, when called to go out into a place which he should afterward receive as an inheritance, obeyed, and went out, not knowing whither he was going.
+Holy-Bible---English---Living-Oracles-NT	EXO-013-017		
+Holy-Bible---English---Living-Oracles-NT	MAR-010-045	Mark 10:45	For even the Son of Man came not to be served, but to serve, and to give his life a ransom for many.
+Holy-Bible---English---Living-Oracles-NT	ROM-001-001	Romans 1:1	Paul, a servant of Jesus Christ, a called Apostle, set apart for the gospel of God,
+Holy-Bible---English---Living-Oracles-NT	MAT-028-019	Matthew 28:19	go, convert all the nations, immersing them into the name of the Father, and of the Son, and of the Holy Spirit;
 Holy-Bible---English---Montgomery-NT	JOH-003-016	John 3:16	"For God so loved the world that he gave his only begotten Son, that whoever trusts in him should not perish, but have eternal life.
 Holy-Bible---English---Montgomery-NT	GEN-003-024		
 Holy-Bible---English---Montgomery-NT	LUK-023-034	Luke 23:34	Jesus kept saying, "Father forgive them, for they do not know what they are doing." And they divided his garments among them, casting lots for them,
@@ -1886,6 +1895,15 @@ Holy-Bible---Indonesian---Simple	EXO-013-017	Keluaran 13:17	Ketika raja Mesir me
 Holy-Bible---Indonesian---Simple	MAR-010-045	Markus 10:45	Kalian harus mengikuti teladan-Ku. Biarpun Aku Sang Anak Adam, Aku datang ke dunia ini bukan untuk dilayani, tetapi untuk melayani dan memberikan hidup-Ku sebagai kurban untuk menebus banyak orang dari dosa-dosa mereka.”
 Holy-Bible---Indonesian---Simple	ROM-001-001	Roma 1:1	Kepada Saudara-saudari di Roma, yaitu kalian semua yang dikasihi Allah dan dipanggil menjadi umat yang disucikan oleh-Nya. Salam sejahtera dari saya, Paulus, hamba Kristus Yesus yang dipanggil dan dipilih Allah menjadi seorang rasul untuk memberitakan Kabar Baik. Kiranya kalian semua senantiasa hidup tenang dan menikmati kebaikan dari Allah Bapa dan Kristus Yesus Penguasa kita. Sejak dulu, melalui nubuatan para nabi yang tertulis dalam Kitab Suci, Allah sudah berjanji untuk menyampaikan Kabar Baik kepada kita. Kabar Baik itu menjelaskan tentang Anak Allah, yaitu Kristus Yesus, Penguasa kita. Dia layak disebut Anak Allah karena kedua hal ini: Pertama, sebagai manusia Dia lahir dari keturunan Daud. Kedua, dengan kuasa yang luar biasa, Dia sudah terbukti sebagai Anak Allah, yakni sewaktu Roh Kudus membangkitkan Dia dari antara orang mati. Melalui kebaikan hati Kristus, Allah sudah mempercayakan pelayanan khusus kepada saya untuk menjadi rasul Kristus. Kami para rasul bertugas menuntun orang-orang dari segala bangsa supaya percaya dan taat kepada Yesus. Dan kalian yang di Roma juga termasuk orang-orang yang dipanggil untuk menjadi milik Kristus Yesus.
 Holy-Bible---Indonesian---Simple	MAT-028-019	Matius 28:19	Karena itu, pergilah dan ajarlah orang-orang dari setiap suku-bangsa supaya mereka menjadi murid-Ku. Baptislah mereka sebagai orang yang mengikut Aku, Bapa-Ku, dan Roh Kudus.
+Holy-Bible---Irish---Odomhnuill-Modern	JOH-003-016		
+Holy-Bible---Irish---Odomhnuill-Modern	GEN-003-024		
+Holy-Bible---Irish---Odomhnuill-Modern	LUK-023-034	Lúcás 23:34	Agus a dubhairt Iósa, A Athair, maith dhóibh; óir ní bhfuil a fhios aca créd do nid said. Agus an roinn a éaduighsion, do theilgeadar crannchar orthu.
+Holy-Bible---Irish---Odomhnuill-Modern	REV-021-002		 
+Holy-Bible---Irish---Odomhnuill-Modern	HEB-011-008		
+Holy-Bible---Irish---Odomhnuill-Modern	EXO-013-017		
+Holy-Bible---Irish---Odomhnuill-Modern	MAR-010-045		
+Holy-Bible---Irish---Odomhnuill-Modern	ROM-001-001		
+Holy-Bible---Irish---Odomhnuill-Modern	MAT-028-019		
 Holy-Bible---Isanzu---Isanzu-Bible	JOH-003-016	uYohana 3:16	Ku ndogoelyo iyi Itunda ai u uloelwe u unkumbigulu, kina akamupumya u ng'wana nu akwe nu ing'wene, iti kina muntu wihi nu muhuiie waleke kulimila ila watule nu upanga nua kali na kali.
 Holy-Bible---Isanzu---Isanzu-Bible	GEN-003-024		
 Holy-Bible---Isanzu---Isanzu-Bible	LUK-023-034	Luka 23:34	Uyesu akahinga, Tata alekole kunsoko shangaalikile niakituma. Nienso ikaku ialo ahume kugalana imyenda akwe.
