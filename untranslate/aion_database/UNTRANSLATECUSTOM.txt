@@ -902,8 +902,6 @@ Holy-Bible---Malayalam---1910-Contemporary	049	EPH	002	006	AIONS	g165		NULL
 Holy-Bible---Malayalam---1910-Contemporary	049	EPH	002	007	SKIP			NULL
 Holy-Bible---Malayalam---1910-Contemporary	053	2TH	001	009	SKIP			NULL
 Holy-Bible---Malayalam---1910-Contemporary	053	2TH	001	010	AIONIAN	g166		NULL
-Holy-Bible---Malayalam---1910-Contemporary	056	TIT	002	012	SKIP			NULL
-Holy-Bible---Malayalam---1910-Contemporary	056	TIT	003	007	SKIP			NULL
 Holy-Bible---Malayalam---1910-Contemporary	063	2JO	001	001	AIONS	g165		NULL
 Holy-Bible---Malayalam---1910-Contemporary	063	2JO	001	002	SKIP			NULL
 Holy-Bible---Malayalam---1910-Contemporary								NULL
