@@ -72,6 +72,7 @@ function AION_VERSION_RECURSE($folder, &$version, $track_subfolders) {
 	$files = array_diff(scandir($folder), array('.', '..'));
 	foreach($files as $file) {
 		$filepath = $folder.'/'.$file;
+		//if ("error_log"==$file) { continue; } // temp hack
 		if (strpos($filepath,'.aionian.out')!==FALSE || is_link($filepath)) { continue; }
 		if (is_dir($filepath)) {
 			$version_return = AION_VERSION_RECURSE($filepath, $version, FALSE);

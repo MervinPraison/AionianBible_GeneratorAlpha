@@ -190,7 +190,7 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 #word .word-rtl .word-verse-lang { font-weight: bold; margin-left: 10px; margin-right: 0px; }
 
 #word.questioned hr { border-top: 1px solid #9966CC; border-bottom: 0px; margin-top: 35px; }
-#body .word-links { margin-top: 7px; }
+#word-links { margin-top: 7px; }
 #body div.word-warning { margin-top: 7px; }
 div.word-warning { color: red; }
 
@@ -340,7 +340,10 @@ div.captcha {
 	#sticky-body { margin: 0 auto !important; }
 	#body { padding: 10px 5% 2% !important; }
 	#head,
-	#google_translate_element,
+	#word-menu-float,
+	#word-menu-bottom,
+	#word-links,
+	#social-footer,
 	#sticky-push,
 	#sticky-foot { display: none !important; }
 }

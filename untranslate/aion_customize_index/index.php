@@ -1220,7 +1220,7 @@ if ($nopage) { return TRUE; }
 echo "<div id='word-menu-bottom'>$menu</div>";
 echo '</div>';
 if (!empty($_BibleONE['T_VERSIONS']['WARNING'])) { echo "<div class='word-warning'>".$_BibleONE['T_VERSIONS']['WARNING']."</div>\n"; }
-echo "<div class='word-links'>\n".
+echo "<div id='word-links'>\n".
 	"<a href='#' title='Go to Bookmark' onclick='AionianBible_Get();'>Bookmark Get</a> and <a href='#' title='Set Bookmark' onclick='AionianBible_Set();'>Set</a>".
 	" / <a href='".abcms_href("/Strongs/$_Part[1]",FALSE,TRUE,TRUE)."' title='Aionian Glossary and Strongs Concordance'>Concordance</a>\n".
 	" / <a href='/Maps' title='Middle Eastern and Mediterranean Bible maps, Bible timeline and church history'>Maps</a>\n".

@@ -54,7 +54,7 @@ echo "\n\t:";
 /*** choice ***/
 $choice = trim(fgets(STDIN));
 if (empty($commands[$choice])) {	AION_ECHO("ERROR! BAD CHOICE"); }
-if ((!$compare2 && $choice!='0')) {	AION_ECHO("ERROR! PLEASE APPROVE NEW VERSIONS"); }
+//if ((!$compare2 && $choice!='0')) {	AION_ECHO("ERROR! PLEASE APPROVE NEW VERSIONS"); }
 
 
 
