@@ -165,7 +165,7 @@ function AION_FILE_DATA_PUT_HEADER($file, $filesize, $comments_more) {
 	$comments .= "# File Date: $thedate\n";
 	$comments .= "# File Purpose: Supporting resource for the Aionian Bible project\n";
 	$comments .= "# File Location: https://resources.AionianBible.org\n";
-	$comments .= "# File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-".date('Y')."\n";
+	$comments .= "# File Copyright: Creative Commons Attribution 4.0 International, 2018-".date('Y')."\n";
 	$comments .= "# File Generator: ABCMS (alpha)\n";
 	$comments .= "# File Accuracy: Contact publisher with corrections to file format or content\n";
 	$comments .= "# Publisher Name: Nainoia Inc\n";
@@ -181,7 +181,7 @@ function AION_FILE_DATA_PUT_HEADER($file, $filesize, $comments_more) {
 	$comments .= "# File Date: $thedate\n";
 	$comments .= "# File Purpose: Supporting resource for the Aionian Bible project\n";
 	$comments .= "# File Location: https://resources.AionianBible.org\n";
-	$comments .= "# File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-".date('Y')."\n";
+	$comments .= "# File Copyright: Creative Commons Attribution 4.0 International, 2018-".date('Y')."\n";
 	$comments .= "# File Generator: ABCMS (alpha)\n";
 	$comments .= "# File Accuracy: Contact publisher with corrections to file format or content\n";
 	$comments .= "# Publisher Name: Nainoia Inc\n";
@@ -3429,7 +3429,7 @@ function AION_LOOP_HTMS_DOIT($args) {
 	$htm .= "<tr><td>LANGUAGE</td><td>".$args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH']."</td></tr>\n";
 	$htm .= "<tr><td>AUTHOR</td><td>Nainoia Inc</td></tr>\n";	
 	$htm .= "<tr><td>CATEGORY</td><td>Non-fiction > Bibles > General / Christian</td></tr>\n";
-	$htm .= "<tr><td>COPYRIGHT</td><td>Creative Commons Attribution-NoDerivatives</td></tr>\n";
+	$htm .= "<tr><td>COPYRIGHT</td><td>".$args['database']['T_VERSIONS'][$bible]['ABCOPYRIGHT']."</td></tr>\n";
 	$htm .= "<tr><td>TYPE</td><td>6x9, NO-BLEED, Glossy</td></tr>\n";
 	$htm .= "<tr><td>PAPER</td><td>Standard black and white interior with white paper</td></tr>\n";
 	$htm .= "<tr><td>PAGES</td><td>Full=$PDFPA  New=$PDFPN</td></tr>\n";

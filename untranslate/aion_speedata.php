@@ -29,7 +29,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_pdfon'	=> FALSE,	// TRUE = do Online PDFs
 		'q_pdfoo'	=> FALSE,	// TRUE = do One Online PDFs
 		'q_epubc'	=> TRUE,	// TRUE = do ePub covers
-		//'include'	=> "/Holy-Bible---.*(Albanian|Aionian-Bible).*---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---.*(Albanian|Aionian-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Hebrew-Aleppo-Miqra-Mesorah).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(English---Trans-Trans).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(STEP).*---Aionian-Edition\.noia$/",
@@ -42,7 +42,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Arabic---New-Arabic-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic|Nepali).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(New-Heart|Rote-Dela|French---Vulgate|Yombe|Hebrew---Living|Hebrew---Modern|Bangwinji|Bhadrawahi|Blackfoot|Borna|Chin-Daai|Chin--Thaiphum).*---Aionian-Edition\.noia$/",
-		'include'	=> "/Holy-Bible---[L-Z]+.*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---[L-Z]+.*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Ndebele---Ndebele-Bible|Ndengereko---Ndengereko-Bible|N[e-z]+|[O-Z]+).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(German---German-Luther-Bible-1545|Haitian---Haitian-Creole-Smith|Portuguese---World-Portuguese-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic).*---Aionian-Edition\.noia$/",
@@ -457,7 +457,7 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 # DESCRIPTION:
 # 	This script and associated data files produce high quality PDFS of the $bible
 #	Developed and Coprighted by Nainoia Inc, PO Box 462, Bellefonte, PA 16823, (814) 470-8028, https://NAINOIA-INC.signedon.net
-#	Copyright 2020, Creative Commons Attribution No Derivative Works 4.0, https://creativecommons.org/licenses/by-nd/4.0/
+#	Copyright 2020, Creative Commons Attribution 4.0 International, https://creativecommons.org/licenses/by/4.0/
 #
 # OPERATION:
 #	AB-README_RUNME.sh	`						// Help and cat the script
@@ -710,8 +710,8 @@ function hyperlink(&$text, $notedlink="") {
 		"<A href='https://nheb.net/'><U><Value>NHEB.net</Value></U></A>", $text);
 	$text = preg_replace("#<U><Value>Bible4u.net</Value></U>#",
 		"<A href='https://bible4u.net/'><U><Value>Bible4u.net</Value></U></A>", $text);
-	$text = preg_replace("#<U><Value>creativecommons.or</Value></U><Value>g</Value><U><Value>/licenses/b</Value></U><Value>y</Value><U><Value>-nd/4.0</Value></U>#",
-		"<A href='https://creativecommons.org/licenses/by-nd/4.0/'><U><Value>creativecommons.or</Value></U><Value>g</Value><U><Value>/licenses/b</Value></U><Value>y</Value><U><Value>-nd/4.0</Value></U></A>", $text);
+	$text = preg_replace("#<U><Value>creativecommons.or</Value></U><Value>g</Value><U><Value>/licenses/b</Value></U><Value>y</Value><U><Value>/4.0</Value></U>#",
+		"<A href='https://creativecommons.org/licenses/by/4.0/'><U><Value>creativecommons.or</Value></U><Value>g</Value><U><Value>/licenses/b</Value></U><Value>y</Value><U><Value>/4.0</Value></U></A>", $text);
 	// extra space added BELOW to prevent overlap replace
 	$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/History</Value></U>#",
 		"<A href='https://www.AionianBible.org/History'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/History</Value></U></A>", $text);
@@ -1091,7 +1091,7 @@ $versionNT_TI = (!$newtonly ? "" : "<Br /><Fontface fontfamily='FF-VerE'><Value>
 $versionFO_CP = "<Span $langspeed><Fontface fontfamily='$copyff'><Value>$version</Value></Fontface></Span>";
 $versionEN_CP = ($version == $versionE ? "" : "<Br /><Fontface fontfamily='FF-Copy'><Value>$versionE</Value></Fontface>" );
 $versionNT_CP = (!$newtonly ? "" : "<Br /><Fontface fontfamily='FF-Copy'><Value>$newtonly</Value></Fontface>");
-$versionSS_CP = "<Value>".(empty($versions['ABCOPYRIGHT']) ? ("Creative Commons No Derivative Works, 2018-".date("Y")) : $versions['ABCOPYRIGHT'])."</Value><Br />";
+$versionSS_CP = "<Value>".(empty($versions['ABCOPYRIGHT']) ? ("Creative Commons Attribution 4.0 International, 2018-".date("Y")) : $versions['ABCOPYRIGHT'])."</Value><Br />";
 $versionSS_CP .= "<Value>Source text: ".$versions['SOURCEDOMAIN']."</Value><Br />";
 $versionSS_CP .= $forprint['SOURCEVERSION'];
 $versionSS_CP .= "<Value>Source copyright: ".$versions['COPYRIGHT']."</Value><Br />";
@@ -2075,7 +2075,7 @@ $keywordsMETA = (empty($language) ? "English" : $language) . ", Holy Bible, Scri
 $versionFO_CP = "<Span $langspeed><Fontface fontfamily='$copyff'><Value>$version</Value></Fontface></Span>";
 $versionEN_CP = ($version == $versionE ? "" : "<Br /><Fontface fontfamily='FF-Copy'><Value>$versionE</Value></Fontface>" );
 $versionNT_CP = (!$newtonly ? "" : "<Br /><Fontface fontfamily='FF-Copy'><Value>$newtonly</Value></Fontface>");
-$versionSS_CP = "<Value>".(empty($versions['ABCOPYRIGHT']) ? ("Creative Commons No Derivative Works, 2018-".date("Y")) : $versions['ABCOPYRIGHT'])."</Value><Br />";
+$versionSS_CP = "<Value>".(empty($versions['ABCOPYRIGHT']) ? ("Creative Commons Attribution 4.0 International, 2018-".date("Y")) : $versions['ABCOPYRIGHT'])."</Value><Br />";
 $versionSS_CP .= "<Value>Source text: ".$versions['SOURCEDOMAIN']."</Value><Br />";
 $versionSS_CP .= $forprint['SOURCEVERSION'];
 $versionSS_CP .= "<Value>Source copyright: ".$versions['COPYRIGHT']."</Value><Br />";

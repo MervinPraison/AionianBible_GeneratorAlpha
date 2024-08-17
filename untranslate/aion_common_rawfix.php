@@ -185,13 +185,6 @@ switch($bible) {
 
 
 
-// RAWFIX BIBLE ********************
-case "Holy-Bible---Albanian-Tosk---Albanian-Bible" :
-if (!($bfile = preg_replace("/aaa up to 37/us","",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-goto RAWHIDE;
-
-
-
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Amo---Amo-Bible" :
