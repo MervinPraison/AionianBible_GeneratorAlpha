@@ -1,6 +1,6 @@
 # File Name: TALLY.txt
 # File Size: 22413       
-# File Date: 08/08/2024 12:06:23
+# File Date: 08/16/2024 17:48:44
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution No Derivative Works 4.0, 2018-2024
@@ -14,7 +14,7 @@
 #
 BIBLE	AIONIAN	STANDARD	SOURCE
 Holy-Bible---Ahirani---Gospels	1749	1749	1749
-Holy-Bible---Albanian-Tosk---Albanian-Bible	31102	31102	31104
+Holy-Bible---Albanian-Tosk---Albanian-Bible	31102	31102	31103
 Holy-Bible---Amo---Amo-Bible	7952	7952	7956
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible	31102	31102	31104
 Holy-Bible---Arabic---New-Arabic-Bible	31101	31101	31103

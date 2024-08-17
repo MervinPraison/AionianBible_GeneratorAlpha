@@ -796,7 +796,7 @@ function AION_LOOP_CONV_DOIT($args) {
 		if ( $numb+0< $numbL ||
 			($numb+0==$numbL && $chap+0< $chapL) ||
 			($numb+0==$numbL && $chap+0==$chapL && $vers+0<=$versL)){						AION_ECHO("WARNING! Bible Verse Out of Sorts! numb=$numb, numL=$numbL, chap=$chap, chapL=$chapL, vers=$vers, versL=$versL | $elin | $text"); }
-		if ($bible!='Holy-Bible---Albanian-Tosk---Albanian-Bible' && ($book!=$book_orig || $numb!=$numb_orig)) { AION_ECHO("ERROR! Bible convert changed the Bible book or index! $elin = $vers"); }
+		if ($book!=$book_orig || $numb!=$numb_orig) { AION_ECHO("ERROR! Bible convert changed the Bible book or index! $elin = $vers"); }
 		// revise all text
 		AION_BIBLES_REVISE($bible,$numb,$book,$chap,$vers,$text);
 		if ($chap!=$chap_orig || $vers!=$vers_orig) {
@@ -1057,7 +1057,6 @@ function AION_BIBLES_REMAPPER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 	if ($database===FALSE) {
 		$database = array();
 		AION_FILE_DATA_GET( './aion_database/VERSEMAP.txt', 'T_VERSEMAP', $database, array('BIBLE','MAP'), FALSE );
-		AION_FILE_DATA_GET( './aion_database/VERSEMAPALBANIAN.txt', 'T_VERSEMAPALBANIAN', $database, array('INDEX','BOOK','CHAPTER','VERSE'), FALSE );
 		AION_FILE_DATA_GET( './aion_database/BOOKSCOUNT.txt', 'T_BOOKSCOUNT', $database, 'BOOK', FALSE );
 	}
 	/* FIRST **********************************************************/
@@ -2580,19 +2579,6 @@ function AION_BIBLES_REMAPPER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 		if ($book=='REV' && $chapter==18) {
 			AION_BIBLES_SLIDE_BACK($bible, 17, 18, 1, $chapter, $verse);	$current="WARNING REMAPPED = $bible: SINGLE Rev 12-18 17";	if ($previous!=$current) { AION_ECHO($current); $previous=$current; } goto YO; }
 	}
-	/* CUSTOM TRANSLATION */
-	if (isset($database[T_VERSEMAP][$bible.'-XALB'])!==FALSE) {
-		$albanian = $index.'-'.$book.'-'.$chapter.'-'.$verse;
-		if(!empty(    $database[T_VERSEMAPALBANIAN][$albanian])) {
-			$index	= $database[T_VERSEMAPALBANIAN][$albanian]['INDEX2'];
-			$book	= $database[T_VERSEMAPALBANIAN][$albanian]['BOOK2'];
-			$chapter= $database[T_VERSEMAPALBANIAN][$albanian]['CHAPTER2'];
-			$verse	= $database[T_VERSEMAPALBANIAN][$albanian]['VERSE2'];
-			$current="WARNING REMAPPED = $bible: ALBANIAN FIASCO!";
-			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
-			goto YO;
-		}
-	}
 SKIP:
 	/* skip apocryphal and other verses */
 	/* joshua 9:28+
@@ -3146,18 +3132,18 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-9085;
 	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-287192;
 	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-7636667;
-	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-81561;
+	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-81563;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-458;
-	$grandmarker['LONG']		= $grandtotal['LONG']-1155;
+	$grandmarker['LONG']		= $grandtotal['LONG']-1156;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-12;
 	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-2968;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-910;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-13541;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-13545;
 	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-19147;
-	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-10345;
+	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-10248;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-715;
-	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-1357;
+	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-1355;
 	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-202236;
 	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-49590;
 	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-4563.22;

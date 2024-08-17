@@ -188,40 +188,6 @@ switch($bible) {
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Albanian-Tosk---Albanian-Bible" :
 if (!($bfile = preg_replace("/aaa up to 37/us","",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$blockfix = <<<EOF
-2CO 13:12 Përshëndetni njeri tjetrin me një puthje të shenjtë,
-2CO 13:13 të gjithë shenjtorët ju përshëndesin.
-2CO 13:14 Hiri i Zotit Jezu Krisht, dashuria e Perëndisë dhe bashkësia e Frymës së Shenjtë qofshin me ju të gjithë. Amen.
-2CO 13:15 Pali, apostull (jo nga njerëzit, as me anë të njeriut, por nëpërmjet Jezu Krishtit dhe Perëndisë Atit, që e ringjalli prej së vdekurish),
-GAL 1:1 
-EOF;
-if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$blockfix = <<<EOF
-HEB 7:8 Dhe, që të them kështu, vetë Levi, që merr të dhjetat, dha të dhjeta te Abrahami,
-HEB 7:9 sepse ishte ende në mesin e t’et, kur Melkisedeku i doli përpara.
-HEB 7:10 Sepse, po të ishte përkryerja me anë të priftërisë levitike (sepse populli e mori ligji nën atë), ç’nevojë kishte të dilte një prift tjetër sipas rendit të Melkisedekut dhe të mos caktohet sipas rendit të Aaronit?
-HEB 7:11 Sepse, po të ndërrohet priftëria, domosdo ndërrohet edhe ligji.
-HEB 7:12 Sepse ai për të cilin bëhet fjalë i përket një fisi tjetër, prej të cilit askush nuk i ka shërbyer ndonjëherë altarit;
-HEB 7:13 sepse dihet se Perëndia ynë lindi nga fisi i Judës, për të cilin Moisiu nuk tha asgjë lidhur me priftërinë.
-HEB 7:14 Dhe kjo bëhet edhe më e qartë, në qoftë se del një prift tjetër pas shëmbëllimit të Melkisedekut,
-HEB 7:15 që nuk u bë i tillë në bazë të ligjit të porosisë së mishit, po në bazë të fuqisë të jetës së pashkatërrueshme.
-HEB 7:16 Sepse Shkrimi dëshmon: “Ti je prift për jetë të jetës, sipas rendit të Melkisedekut”.
-HEB 7:17 Në këtë mënyrë bie poshtë urdhërimi i mëparshëm, për shkak të dobësisë dhe të padobisë së tij,
-HEB 7:18 sepse ligji nuk mbaroi asnjë lloj pune, po futi një shpresë më të mirë, me anë të së cilës i afrohemi Perëndisë.
-HEB 7:19 Dhe kjo nuk u bë pa betim. Sepse ata bëheshin priftërinj pa bërë betim,
-HEB 7:20 (ndërsa ky në bazë të betimit nga ana e atij që i tha: “Perëndia u betua dhe nuk do të pendohet: Ti je prift përjetë, sipas rendit të Melkisedekut”).
-HEB 7:21 Kështu Jezusi u bë garant i një besëlidhjeje shumë më të mirë.
-HEB 7:22 Për më tepër ata qenë bërë priftërinj në numër të madh, sepse vdekja nuk i linte të qëndronin për gjithnjë,
-HEB 7:23 kurse ai, mbasi qëndron për jetë të jetës, ka priftëri të patjetërsueshme,
-HEB 7:24 prandaj edhe mund të shpëtojë plotësisht ata që me anë të tij i afrohen Perëndisë, sepse gjithmonë rron që të ndërmjetësojë për ta.
-HEB 7:25 Sepse ne një kryeprift i tillë na duhej, i shenjtë, i pafaj, i papërlyer, i ndarë nga mëkatarët dhe i ngritur përmbi qiej,
-HEB 7:26 i cili nuk ka nevojë çdo ditë, si ata kryepriftërinjtë, të ofrojë flijime më parë për mëkatet e veta e pastaj për ato të popullit; sepse këtë e bëri një herë e mirë, kur e kushtoi vetveten.
-HEB 7:27 Sepse ligji vë kryepriftërinj njerëz që kanë dobësi, por fjala e betimit, që vjen pas ligjit, vë Birin që është i përkryer në jetë të jetës.
-HEB 7:28 Dhe pika kryesore e atyre gjërave që po themi është kjo: ne kemi një kryeprift të tillë, i cili qëndron në të djathtën e fronit të Madhërisë në qiejt,
-HEB 7:29 shërbenjës i shenjtërores dhe të tabernakullit të vërtetë, të cilin e ngriti Perëndia e jo njeriu.
-HEB 8:1 
-EOF;
-if (!($bfile = preg_replace("/HEB 7:8 (.+?)HEB 8:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
