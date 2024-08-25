@@ -867,7 +867,7 @@ $versionCC_CP = "Copyright: ".
  $G_VERSIONS['ABCOPYRIGHT']))."<br />";
 $langlink = "<a href='https://en.wikipedia.org/wiki/ISO_639:".$G_VERSIONS['LANGUAGECODE']."' target='_blank' title='Ethnologue language description'>".$G_VERSIONS['LANGUAGECODE']."</a>";
 $versionLA_CP = "Language: ".$G_VERSIONS['LANGUAGEENGLISH'].($G_VERSIONS['LANGUAGEENGLISH']==$G_VERSIONS['LANGUAGE'] ? "<br />" : " [ <span $css>".$G_VERSIONS['LANGUAGE']."</span> ] $langlink<br />");
-$versionDE_CP = (empty($G_VERSIONS['DESCRIPTION']) ? "" : $G_VERSIONS['DESCRIPTION']."<br />");
+$versionDE_CP = (empty($G_VERSIONS['DESCRIPTION']) ? "" : "<br />".$G_VERSIONS['DESCRIPTION']."<br />");
 $versionSS_CP  = "Source: ".$G_VERSIONS['SOURCE'].(empty($G_VERSIONS['YEAR']) ? "" : ", ".$G_VERSIONS['YEAR'])."<br />";
 $versionSS_CP .= "Source copyright: ".$G_VERSIONS['COPYRIGHT']."<br />";
 $versionSS_CP .= $G_VERSIONS['SOURCEVERSION'];
@@ -915,7 +915,6 @@ Download:
 <a href='$studylink' target='_blank' title='Download Study PDF'>Study PDF</a>, 
 <a href='$datalink' target='_blank' title='Download Data File'>Data File</a>, and 
 <a href='$everythinglink' target='_blank' title='Download Everything'>Everything</a><br />
-<br />
 $versionDE_CP
 <br />
 $versionSS_CP

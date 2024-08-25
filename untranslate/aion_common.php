@@ -278,12 +278,14 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $allbibles ) {
 		($database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGE']==$database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGEENGLISH']? '' : (" [ ".$langfor.$database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGE']."</span> ]")).
         " <a href='https://en.wikipedia.org/wiki/ISO_639:".$database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGECODE']."' target='_blank' title='Ethnologue language description'>".$database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGECODE']."</a>".
 		"\n</div></div>".
-		
+
+        (empty($database[$version[C_BIBLE]][T_VERSIONS]['ABCOPYRIGHT'])?'':("\n<div class='field-field'><div class='field-label'>Copyright:</div><div class='field-value'>".$database[$version[C_BIBLE]][T_VERSIONS]['ABCOPYRIGHT']."</div></div>")).
+
         (empty($database[$version[C_BIBLE]][T_VERSIONS]['SOURCE'])?'':("\n<div class='field-field'><div class='field-label'>Source:</div><div class='field-value'>".$database[$version[C_BIBLE]][T_VERSIONS]['SOURCE']."</div></div>")).
 		$source_version.
         (empty($database[$version[C_BIBLE]][T_VERSIONS]['SOURCELINK'])?'':("\n<div class='field-field'><div class='field-label'>Source URL:</div><div class='field-value'><a href='".$database[$version[C_BIBLE]][T_VERSIONS]['SOURCELINK']."' target='_blank'>".$database[$version[C_BIBLE]][T_VERSIONS]['SOURCELINK']."</a>".(empty($database[$version[C_BIBLE]][T_VERSIONS]['SOURCELINKEXTRA'])?'':"<br /><a href='".$database[$version[C_BIBLE]][T_VERSIONS]['SOURCELINKEXTRA']."' target='_blank'>".$database[$version[C_BIBLE]][T_VERSIONS]['SOURCELINKEXTRA']."</a>")."</div></div>")).
-        (empty($database[$version[C_BIBLE]][T_VERSIONS]['COPYRIGHT'])?'':("\n<div class='field-field'><div class='field-label'>Copyright:</div><div class='field-value'>".$database[$version[C_BIBLE]][T_VERSIONS]['COPYRIGHT']."</div></div>")).
-        (empty($database[$version[C_BIBLE]][T_VERSIONS]['YEAR'])?'':("\n<div class='field-field'><div class='field-label'>Published:</div><div class='field-value'>".$database[$version[C_BIBLE]][T_VERSIONS]['YEAR']."</div></div>")).
+        (empty($database[$version[C_BIBLE]][T_VERSIONS]['COPYRIGHT'])?'':("\n<div class='field-field'><div class='field-label'>Source Copyright:</div><div class='field-value'>".$database[$version[C_BIBLE]][T_VERSIONS]['COPYRIGHT']."</div></div>")).
+        (empty($database[$version[C_BIBLE]][T_VERSIONS]['YEAR'])?'':("\n<div class='field-field'><div class='field-label'>Source Published:</div><div class='field-value'>".$database[$version[C_BIBLE]][T_VERSIONS]['YEAR']."</div></div>")).
 		
 		(empty($database[$version[C_BIBLE]][T_VERSIONS]['EXTENSION'])? '' : ("\n<div class='field-field'><div class='field-label'>Additional Information:<br /></div><div class='field-value'>".$database[$version[C_BIBLE]][T_VERSIONS]['EXTENSION']."</div></div>")).
 
@@ -502,6 +504,7 @@ function AION_LOOP_DIFF_DOIT($args) {
 function AION_LOOP_UNPACK($folder) {
 	$database = array();
 	AION_FILE_DATA_GET( './aion_database/SOURCES.txt', 'T_SOURCES', $database, FALSE, FALSE );
+	AION_FILE_DATA_GET(	'./aion_database/VERSIONS.txt',	'T_VERSIONS', $database, 'BIBLE', FALSE );
 	$database['T_SOURCES'][] = array('SOURCE'=>''); // add empty one for simpler loop below
 	AION_LOOP( array(
 		'function'	=> 'AION_LOOP_UNPACK_DOIT',
@@ -529,7 +532,7 @@ function AION_LOOP_UNPACK_DOIT($args) {
 	/* always try to repack NHEB and STEP */
 	if (preg_match("/\.NHEB\.txt$/", $txtfile) ||
 		preg_match("/\.STEP\.txt$/", $txtfile)) {
-		AION_LOOP_UNPACK_STAMP($bible, $source['SOURCE'], $source_date, $txtfile);
+		AION_LOOP_UNPACK_STAMP($bible, $source['SOURCE'], $source_date, $txtfile, $args);
 		return;
 	}
 
@@ -558,7 +561,7 @@ function AION_LOOP_UNPACK_DOIT($args) {
 		if ($type=='UNB' && preg_match("/_utf8\.txt$/i", $unpack)==TRUE) {	break; }
 	}
 	if (is_file("$temp/$unpack") && rename("$temp/$unpack", $txtfile)) {
-		AION_LOOP_UNPACK_STAMP($bible, $source['SOURCE'], $source_date, $txtfile);
+		AION_LOOP_UNPACK_STAMP($bible, $source['SOURCE'], $source_date, $txtfile, $args);
 	}
 	else {
 		if (file_exists($txtfile)) { unlink($txtfile); }
@@ -567,7 +570,7 @@ function AION_LOOP_UNPACK_DOIT($args) {
 	}
 	system("rm -rf $temp");
 }
-function AION_LOOP_UNPACK_STAMP($bible, $source, $source_date, $file) {
+function AION_LOOP_UNPACK_STAMP($bible, $source, $source_date, $file, $args) {
 if (!($contents=file_get_contents($file))) { AION_ECHO("ERROR! UNPACK_STAMP file_get_contents($file)"); }
 if (preg_match("/^## Aionian Bible/", $contents)) {
 	touch($file, $source_date);
@@ -576,6 +579,8 @@ if (preg_match("/^## Aionian Bible/", $contents)) {
 $filename = basename($file);
 $today = date('m/d/Y H:i:s');
 $source_date_formatted = date("m/d/Y H:i:s", $source_date);
+$source_url = $args['database']['T_VERSIONS'][$bible]['SOURCELINK'];
+$source_copy = $args['database']['T_VERSIONS'][$bible]['COPYRIGHT'];
 $contents = <<<EOT
 ## Aionian Bible
 ## File Name: $filename
@@ -588,8 +593,10 @@ $contents = <<<EOT
 ## Publisher Mission: https://www.AionianBible.org/Preface
 ## Publisher Website: https://NAINOIA-INC.signedon.net
 ## Publisher Facebook: https://www.Facebook.com/AionianBible
-## Source URL: $source
+## Source URL: $source_url
+## Source File: $source
 ## Source Date: $source_date_formatted
+## Source Copyright: $source_copy
 ## Source Text: unaltered below
 ##
 
@@ -3131,15 +3138,15 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-8308;
 	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-9085;
 	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-287192;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-7636667;
-	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-81563;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-7636855;
+	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-81569;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-458;
-	$grandmarker['LONG']		= $grandtotal['LONG']-1156;
+	$grandmarker['LONG']		= $grandtotal['LONG']-1165;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-12;
-	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-2968;
+	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-2793;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-910;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-13545;
-	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-19147;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-13544;
+	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-18959;
 	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-10248;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-715;

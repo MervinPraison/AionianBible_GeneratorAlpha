@@ -6298,7 +6298,7 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---French---Vulgate-Glaire" :
-if (!($bfile = preg_replace('/(Song of Solomon \d+:\d+ )\. /us','$1',$bfile,-1,$rnum)) || $rnum!=24) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/(Song of Solomon \d+:\d+ )\. /us','$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 $textfix = <<<EOF
 Psalms 4:9 Dans la paix je m’endormirai et je reposerai tout à la fois, Parce que vous, Seigneur, vous seul m’avez établi dans l’espérance.
@@ -13743,7 +13743,7 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible" :
-if (!($bfile = preg_replace("/[\x{05d0}-\x{05ea}\x{fb31}\x{fb44}]+/us"," ",$bfile,-1,$rnum)) || $rnum!=174) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/[\x{05d0}-\x{05ea}\x{fb31}\x{fb44}]+/us"," ",$bfile,-1,$rnum)) || $rnum!=176) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 $textfix = <<<EOF
 NUM 30:1 Le nanao ty hoe amo talèm-pifokoa’ o ana’ Israeleoo t’i Mosè: Zao ty nandilia’ Iehovà:

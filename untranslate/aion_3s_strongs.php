@@ -2121,6 +2121,13 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 		"H"		=> "Ben Chaim (2nd Rabbinic Bible)",
 		"K"		=> "Ketiv 'written' in the text with Tyndale pointing",
 		"L"		=> "Leningrad manuscript",
+		"LAHb"	=> "Leningrad manuscript, influencing variant: Aleppo and Ben Chaim, minor variant: BHS", // new
+		"Labh"	=> "Leningrad manuscript, minor variant: Aleppo, BHS, and Ben Chaim", // new
+		"LBHA"	=> "Leningrad manuscript, influencing variant: BHS, Ben Chaim, and Aleppo", // new
+		"LBah"	=> "Leningrad manuscript, influencing variant: BHS, minor variant: Aleppo and Ben Chaim", // new
+		"LBHaC"	=> "Leningrad manuscript, influencing variant: BHS, Ben Chaim, and Cairensis, minor variant: Aleppo", // new
+		"LHab"	=> "Leningrad manuscript, influencing variant: Ben Chaim, minor variant: Aleppo and BHS", // new
+		"LaV"	=> "Leningrad manuscript, influencing variant: other Hebrew manuscripts, minor variant: Aleppo", // new
 		"LAH"	=> "Leningrad manuscript, influencing variant: Aleppo and Ben Chaim",
 		"Lav"	=> "Leningrad manuscript, minor variant: Aleppo and other Hebrew manuscripts",
 		"LB"	=> "Leningrad manuscript, influencing variant: BHS",
@@ -2134,7 +2141,7 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 		"LP"	=> "Leningrad manuscript, influencing variant: alternate punctuation",
 		"Lp"	=> "Leningrad manuscript, minor variant: alternate punctuation",
 		"LS"	=> "Leningrad manuscript, influencing variant: Scribal traditions in Itture Sopherim, etc",
-		"LV"	=> "Leningrad manuscript, influencing variant: and other Hebrew manuscripts",
+		"LV"	=> "Leningrad manuscript, influencing variant: other Hebrew manuscripts",
 		"Qk"	=> "Qere 'spoken' corrections from margin and text pointing, minor variant: Ketiv 'written', Tyndale pointing",
 		"QK"	=> "Qere 'spoken' corrections from margin and text pointing, influencing variant: Ketiv 'written', Tyndale pointing",
 		"QKB"	=> "Qere 'spoken' corrections from margin and text pointing, influencing variant: BHS and Ketiv 'written', Tyndale pointing",
@@ -2308,21 +2315,21 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 			// W=next word, Ketiv=written word, Qere=read word, P=word parts, R=Root or related, J=joined words, D=divided word
 
 			// PARSE SPECIAL CASES - QK FIRST!
-			//Jdg.16.25#02=Q(K)		[ ]	[ ]			K= ki (כִּי) "for" (H3588A=HR)	L= כְּי ¦ ;									
-			//Jdg.16.25#02=Q(K)		[ ]	[ ]			K= ki (כִּי) "for" (H3588A=HR)	L= כְּי ¦ ;									
-			//Rut.3.12#05=Q(K)		[ ]	[ ]			K= 'im (אִם) "if" (H0518B=HTc)	L= אם ¦ ;									
-			//1Sa.9.1#04=Q(K)		[ ]	[ ]			K= ya.Min (יָמִין) "-jamin" (H3225I=HNpm)	L= יָמִ֗ין ¦ ;									
-			//1Sa.24.8(24.9)#06=Q(K)		[ ]	[ ]			K= min- (מִן\־) "from" (H4480A\H9014=HR)	L= מֵֽן\־ ¦ ;									
-			//2Sa.13.33#15=Q(K)		[ ]	[ ]			K= 'im- (אִם\־) "except" (H0518B\H9014=HTc)	L= אִם\־ ¦ ;									
-			//2Ki.5.18#23=Q(K)		[ ]	[ ]			K= na' (נָא) "please" (H4994=HTj)	L= נא ¦ ;									
-			//2Ch.34.6#07=Q(K)		[ ]	[ ]			K= be./har (בְּ/הַר) "in/ [the] hill country of" (H9003/H2022G=HR/Ncbsc)	L= בְּ/הַרְ ¦ ;									
-			//Isa.44.24#16=Q(K)		[ ]	[ ]			K= mi (מִי) "who [was]?" (H4310=HPi)	L= מֵי ¦ ;									
-			//Jer.38.16#10=Q(K)		[ ]	[ ]			K= 'et (אֵת) "<obj.>" (H0853=HTo)	L= את ¦ ;									
-			//Jer.39.12#11=Q(K)		[ ]	[ ]			K= 'im (אִם) "except" (H0518B=HTc)	L= אם ¦ ;									
-			//Jer.51.3#03=Q(K)		[ ]	[ ]			K= yid.rokh (יִדְרֹךְ) "he bend" (H1869=HVqi3ms)	L= ידרך ¦ ;									
-			//Lam.1.6#02=Q(K)		[ ]	[ ]			K= min- (מִן\־) "from" (H4480A\H9014=HR)	L= מִן\־ ¦ ;									
-			//Lam.4.3#10=Q(K)		[ ]	[ ]			K= ki (כִּי) "for" (H3588A=HTc)	L= כַּיְ ¦ ;									
-			//Ezk.48.16#12=Q(K)		[ ]	[ ]			K= cha.mesh (חֲמֵשׁ) "five" (H2568=HAcbsc)	L= חמש ¦ ;			
+			// 007,JDG,016,025,50200,QK,, ,, ,,,,,K= ki (כִּי) "for" (H3588A=HR)												,L= כְּי ¦;,,,,H3588A
+			// 008,RUT,003,012,50500,QK,, ,, ,,,,,K= 'im (אִם) "if" (H518B=HTc)												,L= אם ¦;,,,,H518B, H3588B_c
+			// 009,1SA,009,001,50400,QK,, ,, ,,,,,K= ya.Min (יָמִין) "-jamin" (H3225I=HNpm)									,L= יָמִ֗ין ¦;,,,,H3225I
+			// 009,1SA,024,008,70600,QK,, ,, ,,,,,K= min- (מִן\־) "from" (H4480A\H9014=HR)									,L= מֵֽן\־ ¦;,,,,H4480A
+			// 010,2SA,013,033,51500,QK,, ,, ,,,,,K= 'im- (אִם\־) "except" (H518B\H9014=HTc)									,L= אִם\־ ¦;,,,,H518B, H3588B
+			// 012,2KI,005,018,52300,QK,, ,, ,,,,,K= na' (נָא) "please" (H4994=HTj)											,L= נא ¦;,,,,H4994
+			// 014,2CH,034,006,50700,QK,, ,, ,,,,,K= be./har (בְּ/הַר) "in/ [the] hill country of" (H9003/H2022G=HR/Ncbsc)		,L= בְּ/הַרְ ¦;,,,,H2022G
+			// 023,ISA,044,024,51600,QK,, ,, ,,,,,K= mi (מִי) "who [was]?" (H4310=HPi)										,L= מֵי ¦;,,,,H4310, H4325G
+			// 024,JER,038,016,51000,QK,, ,, ,,,,,K= 'et (אֵת) "<obj.>" (H853=HTo)											,L= את ¦;,,,,H853_a
+			// 024,JER,039,012,51100,QK,, ,, ,,,,,K= 'im (אִם) "except" (H518B=HTc)											,L= אם ¦;,,,,H518B, H3588B_b
+			// 024,JER,051,003,50300,QK,, ,, ,,,,,K= yid.rokh (יִדְרֹךְ) "he bend" (H1869=HVqi3ms)								,L= ידרך ¦;,,,,H1869_A
+			// 025,LAM,001,006,50200,QK,, ,, ,,,,,K= min- (מִן\־) "from" (H4480A\H9014=HR)									,L= מִן\־ ¦;,,,,H4480A
+			// 025,LAM,004,003,51000,QK,, ,, ,,,,,K= ki (כִּי) "for" (H3588A=HTc)												,L= כַּיְ ¦;,,,,H3588A
+			// 026,EZE,048,016,51200,QK,, ,, ,,,,,K= cha.mesh (חֲמֵשׁ) "five" (H2568=HAcbsc)									,L= חמש ¦;,,,,H2568_B
+
 			if ($strongs=="" && 'QK'==$line['TYPE'] && empty($WORDUP)) {
 				if (!empty($line['TRANS']) ||
 					!empty($line['MORPH']) ||
@@ -3924,6 +3931,13 @@ EOF;
 //	"H"		=> "Ben Chaim (2nd Rabbinic Bible)",
 //	"K"		=> "Ketiv 'written' in the text with Tyndale pointing",
 //	"L"		=> "Leningrad manuscript",
+//	"LAHb"	=> "Leningrad manuscript, influencing variant: Aleppo and Ben Chaim, minor variant: BHS",
+//	"Labh"	=> "Leningrad manuscript, minor variant: Aleppo, BHS, and Ben Chaim",
+//	"LBHA"	=> "Leningrad manuscript, influencing variant: BHS, Ben Chaim, and Aleppo",
+//	"LBah"	=> "Leningrad manuscript, influencing variant: BHS, minor variant: Aleppo and Ben Chaim",
+//	"LBHaC"	=> "Leningrad manuscript, influencing variant: BHS, Ben Chaim, and Cairensis, minor variant: Aleppo",
+//	"LHab"	=> "Leningrad manuscript, influencing variant: Ben Chaim, minor variant: Aleppo and BHS",
+//	"LaV"	=> "Leningrad manuscript, influencing variant: other Hebrew manuscripts, minor variant: Aleppo",
 //	"LAH"	=> "Leningrad manuscript, influencing variant: Aleppo and Ben Chaim",
 //	"Lav"	=> "Leningrad manuscript, minor variant: Aleppo and other Hebrew manuscripts",
 //	"LB"	=> "Leningrad manuscript, influencing variant: BHS",
@@ -3937,7 +3951,7 @@ EOF;
 //	"LP"	=> "Leningrad manuscript, influencing variant: alternate punctuation",
 //	"Lp"	=> "Leningrad manuscript, minor variant: alternate punctuation",
 //	"LS"	=> "Leningrad manuscript, influencing variant: Scribal traditions in Itture Sopherim, etc",
-//	"LV"	=> "Leningrad manuscript, influencing variant: and other Hebrew manuscripts",
+//	"LV"	=> "Leningrad manuscript, influencing variant: other Hebrew manuscripts",
 //	"Qk"	=> "Qere 'spoken' corrections from margin and text pointing, minor variant: Ketiv 'written', Tyndale pointing",
 //	"QK"	=> "Qere 'spoken' corrections from margin and text pointing, influencing variant: Ketiv 'written', Tyndale pointing",
 //	"QKB"	=> "Qere 'spoken' corrections from margin and text pointing, influencing variant: BHS and Ketiv 'written', Tyndale pointing",

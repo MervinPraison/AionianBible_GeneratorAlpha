@@ -1264,6 +1264,7 @@ Holy-Bible---French---Vulgate-Glaire	019	PSA	039	001	13	1	end
 Holy-Bible---French---Vulgate-Glaire	019	PSA	040	001	17	1	end
 Holy-Bible---French---Vulgate-Glaire	019	PSA	041	001	13	1	end
 Holy-Bible---French---Vulgate-Glaire	019	PSA	042	001	11	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	043	005	5	1	end
 Holy-Bible---French---Vulgate-Glaire	019	PSA	044	001	26	1	end
 Holy-Bible---French---Vulgate-Glaire	019	PSA	045	001	17	1	end
 Holy-Bible---French---Vulgate-Glaire	019	PSA	046	001	11	1	end
@@ -1302,6 +1303,8 @@ Holy-Bible---French---Vulgate-Glaire	019	PSA	089	001	52	1	end
 Holy-Bible---French---Vulgate-Glaire	019	PSA	092	001	15	1	end
 Holy-Bible---French---Vulgate-Glaire	019	PSA	102	001	28	1	end
 Holy-Bible---French---Vulgate-Glaire	019	PSA	108	001	13	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	126	006	6	1	end
+Holy-Bible---French---Vulgate-Glaire	019	PSA	136	026	26	1	end
 Holy-Bible---French---Vulgate-Glaire	019	PSA	140	001	13	1	end
 Holy-Bible---French---Vulgate-Glaire	019	PSA	142	001	7	1	end
 Holy-Bible---French---Vulgate-Glaire	023	ISA	045	023	25	1	end

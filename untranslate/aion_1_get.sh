@@ -67,6 +67,8 @@ function checksource( $url, &$status, &$redirect, &$size, &$date, &$stime) {
 AION_ECHO("READ FILE SOURCE TABLE AND BIBLE VERSIONS");
 $database = array();
 AION_FILE_DATA_GET( './aion_database/SOURCES.txt', 'T_SOURCES', $database, FALSE, FALSE );
+AION_FILE_DATA_GET(	'./aion_database/VERSIONS.txt',	'T_VERSIONS', $database, 'BIBLE', FALSE );
+$args = array('database' => $database);
 
 
 /*** get bibles! ***/
@@ -183,7 +185,7 @@ foreach( $database[T_SOURCES] as $data ) {
 			system("mod2vpl $module 1 > $unpack");
 			system("installmgr -u $module");
 			if (file_exists($unpack)) {
-				AION_LOOP_UNPACK_STAMP($bible, $source, $source_time, $unpack);
+				AION_LOOP_UNPACK_STAMP($bible, $source, $source_time, $unpack, $args);
 			}
 			else {
 				AION_ECHO("SWORD UNPACK FAILED $unpack");

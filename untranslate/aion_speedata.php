@@ -29,7 +29,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_pdfon'	=> FALSE,	// TRUE = do Online PDFs
 		'q_pdfoo'	=> FALSE,	// TRUE = do One Online PDFs
 		'q_epubc'	=> TRUE,	// TRUE = do ePub covers
-		'include'	=> "/Holy-Bible---.*(Albanian|Aionian-Bible).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Albanian|Aionian-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Hebrew-Aleppo-Miqra-Mesorah).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(English---Trans-Trans).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(STEP).*---Aionian-Edition\.noia$/",
@@ -66,7 +66,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---Coptic---Coptic-Boharic-NT---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Catholic-Public-Domain---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
-		//'include'	=> "/---Aionian-Edition\.noia$/",
+		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		) );
@@ -947,6 +947,7 @@ $bibleurl = preg_replace("/Holy-Bible---/","",$versions['BIBLE']);
 $link_tor = "<Value>TOR Anonymously</Value><Br />";
 $link_ab = "<U><Value>https://AionianBible.or</Value></U><Value>g</Value>";
 $link_na = "<U><Value>https://Nainoia-Inc.si</Value></U><Value>g</Value><U><Value>nedon.net</Value></U>";
+$link_tr = "<U><Value>https://AionianBible.or</Value></U><Value>g</Value><U><Value>/Third-Part</Value></U><Value>y</Value><U><Value>-Publisher-Resources</Value></U>";
 if (($format=="READ" || $format=="STUDY")) {
 	hyperlink($history);
 	hyperlink($pref);
@@ -958,6 +959,7 @@ if (($format=="READ" || $format=="STUDY")) {
 	$link_tor = "<A href='https://www.AionianBible.org/TOR'><U><Value>TOR Anonymousl</Value></U><Value>y</Value></A><Br />";
 	$link_ab = "<A href='https://www.AionianBible.org'><U><Value>https://AionianBible.or</Value></U><Value>g</Value></A>";
 	$link_na = "<A href='https://nainoia-inc.signedon.net'><U><Value>https://Nainoia-Inc.si</Value></U><Value>g</Value><U><Value>nedon.net</Value></U></A>";
+	$link_tr = "<A href='https://nainoia-inc.signedon.net'><U><Value>https://AionianBible.or</Value></U><Value>g</Value><U><Value>/Third-Part</Value></U><Value>y</Value><U><Value>-Publisher-Resources</Value></U></A>";
 }
 // adjust the Glossary Noted url
 if (!($glos3=preg_replace("#<Value>/Bibles/English---Aionian-Bible/Noted#","<Value>/Bibles/$bibleurl/Noted",$glos3,-1,$count)) || $count!=1) { AION_ECHO("ERROR! $bible: Glossary + preg_replace()"); }
@@ -1277,7 +1279,7 @@ if ($rtl=="TRUE") {
 }
 
 // help needed
-$helpneeded = "<Value>We pray for a modern public domain translation in every language</Value><Br /><Value>Report content and format concerns to Nainoia Inc</Value><Br /><Value>Volunteer help is welcome and appreciated!</Value>";
+$helpneeded = "<Value>We pray for a modern Creative Commons translation in every language</Value><Br /><Value>Translator resources at </Value>$link_tr<Br /><Value>Report content and format concerns to Nainoia Inc</Value><Br /><Value>Volunteer help is welcome and appreciated!</Value>";
 
 return <<<EOT
 <?xml version="1.0" encoding="UTF-8"?>
@@ -2107,7 +2109,8 @@ $MARGIN_SINGLE_WIDTH		= '78';
 $MARGIN_SINGLE_HEIGHT		= '134';
 
 // help needed
-$helpneeded = "<Value>We pray for a modern public domain translation in every language</Value><Br /><Value>Report content and format concerns to Nainoia Inc</Value><Br /><Value>Volunteer help is welcome and appreciated!</Value>";
+$helpneeded = "<Value>We pray for a modern Creative Commons translation in every language</Value><Br /><Value>Translator resources at </Value><U><Value>https://AionianBible.or</Value></U><Value>g</Value><U><Value>/Third-Part</Value></U><Value>y</Value><U><Value>-Publisher-Resources</Value></U><Br /><Value>Report content and format concerns to Nainoia Inc</Value><Br /><Value>Volunteer help is welcome and appreciated!</Value>";
+
 
 return <<<EOT
 <?xml version="1.0" encoding="UTF-8"?>
