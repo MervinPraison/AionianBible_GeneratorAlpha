@@ -459,37 +459,52 @@ $commentplus = <<<EOT
 #				"L"		=> "Link previous-next word",
 #				"P"		=> "Punctuation",
 #	TYPE		Source description
-#				"A"		=> "Aleppo",
-#				"AH"	=> "Aleppo and Ben Chaim",
-#				"AV"	=> "Aleppo and other Hebrew manuscripts",
-#				"B"		=> "Biblia Hebraica Stuttgartensia",
-#				"C"		=> "Cairensis",
-#				"D"		=> "Dead Sea and other Judean Desert manuscripts",
-#				"E"		=> "Emendation from ancient sources",
-#				"F"		=> "Format pointing or word divisions differently without changing letters",
-#				"H"		=> "Ben Chaim (2nd Rabbinic Bible)",
-#				"K"		=> "Ketiv 'written' in the text with Tyndale pointing",
-#				"L"		=> "Leningrad manuscript",
-#				"LAH"	=> "Leningrad manuscript, influencing variant: Aleppo and Ben Chaim",
-#				"Lav"	=> "Leningrad manuscript, minor variant: Aleppo and other Hebrew manuscripts",
-#				"LB"	=> "Leningrad manuscript, influencing variant: BHS",
-#				"Lb"	=> "Leningrad manuscript, minor variant: BHS",
-#				"Lbp"	=> "Leningrad manuscript, minor variants: BHS and alternate punctuation",
-#				"LC"	=> "Leningrad manuscript, influencing variant: Cairensis",
-#				"LD"	=> "Leningrad manuscript, influencing variant: Dead Sea manuscript",
-#				"LE"	=> "Leningrad manuscript, influencing variant: ancient sources",
-#				"LF"	=> "Leningrad manuscript, influencing variant: pointing and divisions",
-#				"LH"	=> "Leningrad manuscript, influencing variant: Ben Chaim",
-#				"LP"	=> "Leningrad manuscript, influencing variant: alternate punctuation",
-#				"Lp"	=> "Leningrad manuscript, minor variant: alternate punctuation",
-#				"LS"	=> "Leningrad manuscript, influencing variant: Scribal traditions in Itture Sopherim, etc",
-#				"LV"	=> "Leningrad manuscript, influencing variant: and other Hebrew manuscripts",
-#				"Qk"	=> "Qere 'spoken' corrections from margin and text pointing, minor variant: Ketiv 'written', Tyndale pointing",
-#				"QK"	=> "Qere 'spoken' corrections from margin and text pointing, influencing variant: Ketiv 'written', Tyndale pointing",
-#				"QKB"	=> "Qere 'spoken' corrections from margin and text pointing, influencing variant: BHS and Ketiv 'written', Tyndale pointing",
-#				"R"		=> "Restored text based on Leningrad parallels",
-#				"V"		=> "Other Hebrew manuscripts",
-#				"X"		=> "Extra words from Septuagint (LXX), in Hebrew based on apparatus in BHS and BHK",
+#				The STEPBible translator resource tags Old Testament words as L = Leningrad (the default tag); Q = Qere 'spoken' corrections from margin and text pointing; R = restored text based on Leningrad parallels; and X = extra words from the Septuagint (LXX), in Hebrew, based on BHS and BHK. Other letters indicate parallels and variants with A = Aleppo; B = Biblia Hebraica Stuttgartensia; C = Cairensis; D = Dead Sea and Judean Desert manuscripts; E = emendation from ancient sources, F = format pointing or word division differences without changing letters; H = Ben Chaim (2nd Rabbinic Bible); K = Ketiv 'written', Tyndale pointing; P = alternate punctuation; S = scribal traditions; and V = other Hebrew manuscripts. Tags place identical sources outside of parens in upper case. Variant tags are inside parens: uppercase are influencing variants, lower case are minor variants, and differing variants are joined with a “+”. Translators normally follow L, and when this presents a choice between Q and K they follow Q, so K is presented as a variant. Tags in STEP Hebrew are only available when viewed in parallel with STEP English at https://www.aionianbible.org/Bibles/Hebrew---Hebrew-STEPBible/Genesis/1/parallel-English---STEPBible-Amalgamant.
+#				"A"			=> "Aleppo",
+#				"B"			=> "Biblia Hebraica Stuttgartensia",
+#				"C"			=> "Cairensis",
+#				"D"			=> "Dead Sea and Judean Desert manuscripts",
+#				"E"			=> "Emendation from ancient sources",
+#				"F"			=> "Format pointing or word division difference without letter changes",
+#				"H"			=> "Ben Chaim (2nd Rabbinic Bible)",
+#				"K"			=> "Ketiv 'written' in the text with Tyndale pointing",
+#				"L"			=> "Leningrad",
+#				"L(a+bh)"	=> "Leningrad with minor variants: Aleppo plus BHS and Ben Chaim",
+#				"L(a+V)"	=> "Leningrad with minor variants: Aleppo plus influencing variants: other Hebrew manuscripts",
+#				"L(abh)"	=> "Leningrad with minor variants: Aleppo, BHS, and Ben Chaim",
+#				"L(ah+b)"	=> "Leningrad with minor variants: Aleppo and Ben Chaim plus BHS",
+#				"L(AH+B)"	=> "Leningrad with influencing variants: Aleppo and Ben Chaim plus BHS",
+#				"L(b)"		=> "Leningrad with minor variants: BHS",
+#				"L(b+p)"	=> "Leningrad with minor variants: BHS plus alternate punctuation",
+#				"L(bah)"	=> "Leningrad with minor variants: Aleppo, BHS, and Ben Chaim",
+#				"L(D)"		=> "Leningrad with influencing variants: Dead Sea and Judean Desert manuscripts",
+#				"L(E)"		=> "Leningrad with influencing variants: emendation from ancient sources",
+#				"L(F)"		=> "Leningrad with influencing variants: format pointing or word division difference without letter changes",
+#				"L(H)"		=> "Leningrad with influencing variants: Ben Chaim (2nd Rabbinic Bible)",
+#				"L(p)"		=> "Leningrad with minor variants: alternate punctuation",
+#				"L(P)"		=> "Leningrad with influencing variants: alternate punctuation",
+#				"L(S)"		=> "Leningrad with influencing variants: scribal traditions",
+#				"L(V)"		=> "Leningrad with influencing variants: other Hebrew manuscripts",
+#				"LA(bh)"	=> "Leningrad and Aleppo with minor variants: BHS and Ben Chaim",
+#				"LA(BH)"	=> "Leningrad and Aleppo with influencing variants: BHS and Ben Chaim",
+#				"LAB(h)"	=> "Leningrad, Aleppo, and BHS with minor variants: Ben Chaim",
+#				"LAB(H)"	=> "Leningrad, Aleppo, and BHS with influencing variants: Ben Chaim",
+#				"LAH(b)"	=> "Leningrad, Aleppo, and Ben Chaim with minor variants: BHS",
+#				"LB(ah)"	=> "Leningrad and BHS with minor variants: Aleppo and Ben Chaim",
+#				"LB(AH)"	=> "Leningrad and BHS with influencing variants: Aleppo and Ben Chaim",
+#				"LB(ha)"	=> "Leningrad and BHS with minor variants: Aleppo and Ben Chaim",
+#				"LBH(a)"	=> "Leningrad, BHS, and Ben Chaim with minor variants: Aleppo",
+#				"LBH(A)"	=> "Leningrad, BHS, and Ben Chaim with influencing variants: Aleppo",
+#				"LBH(a+C)"	=> "Leningrad, BHS, and Ben Chaim with minor variants: Aleppo plus influencing variants: Cairensis",
+#				"LH(ab)"	=> "Leningrad and Ben Chaim with minor variants: Aleppo and BHS",
+#				"P"			=> "Alternate punctuation",
+#				"Q"			=> "Qere 'spoken' corrections from margin and text pointing",
+#				"Q(k)"		=> "Qere 'spoken' corrections from margin and text pointing, with minor variants: Ketiv 'written', Tyndale pointing",
+#				"Q(K)"		=> "Qere 'spoken' corrections from margin and text pointing, with influencing variants: Ketiv 'written', Tyndale pointing",
+#				"R"			=> "Restored text based on Leningrad parallels",
+#				"S"			=> "Scribal traditions",
+#				"V"			=> "Other Hebrew manuscripts",
+#				"X"			=> "Extra words from Septuagint (LXX), in Hebrew based on apparatus in BHS and BHK",
 #	UNDER		Hebrew underlying word
 #	TRANS		Hebrew transliteration
 #	LEXICON		Hebrew lexicon word
@@ -702,33 +717,35 @@ $commentplus = <<<EOT
 #				"L"		=> "Link previous-next word",
 #				"P"		=> "Punctuation",
 #	TYPE		Source description
-#				"NKO"	=> "Identical in all sources",
-#				"NK+O"	=> "Identical in Nestle/Aland and King James sources, noted difference in other sources",
-#				"NK+o"	=> "Identical in Nestle/Aland and King James sources, minor difference in other sources",
-#				"N+KO"	=> "Identical in Nestle/Aland and other sources, noted difference in King James sources",
-#				"N+K+O"	=> "Noted difference in Nestle/Aland, King James, and other sources",
-#				"N+K+o"	=> "Noted difference in Nestle/Aland and King James sources, minor difference in other sources",
-#				"N+kO"	=> "Identical in Nestle/Aland and other source, minor difference in King James sources",
-#				"N+k+O"	=> "Noted difference in Nestle/Aland and other sources, minor difference in King James sources",
-#				"N+k+o"	=> "Identical in Nestle/Aland sources, minor difference in King James and other sources",
-#				"NK"	=> "Identical in Nestle/Aland and King James sources, absent in other sources",
-#				"N+k"	=> "Identical in Nestle/Aland sources, minor difference in King James sources, absent in other sources",
-#				"NO"	=> "Identical in Nestle/Aland and other sources, absent in King James sources",
-#				"no"	=> "Minor difference in Nestle/Aland and other sources, absent in King James sources",
-#				"N+O"	=> "Identical in Nestle/Aland sources, noted difference in other sources, absent in King James sources",
-#				"N+o"	=> "Identical in Nestle/Aland sources, minor difference in other sources, absent in King James sources",
-#				"n+o"	=> "Minor difference in Nestle/Aland and other sources, absent in King James sources",
-#				"N"		=> "Identical in Nestle/Aland sources, absent in King James and other sources",
-#				"n"		=> "Minor difference in Nestle/Aland sources, absent in King James and other sources",
-#				"KO"	=> "Identical in King James and other sources, absent in Nestle/Aland sources",
-#				"K+O"	=> "Noted difference in King James and other sources, absent in Nestle/Aland sources",
-#				"K+o"	=> "Identical in King James sources, minor difference in other sources, absent in Nestle/Aland sources",
-#				"k+o"	=> "Minor difference in King James and other sources, absent in Nestle/Aland sources",
-#				"ko"	=> "Identical minor difference in King James and other sources, absent in Nestle/Aland sources",
-#				"K"		=> "Identical in King James sources, absent in Nestle/Aland and other sources",
-#				"k"		=> "Minor difference in King James sources, absent in Nestle/Aland and other sources",
-#				"O"		=> "Identical in other sources, absent in Nestle/Aland and King James sources",
-#				"o"		=> "Minor difference in other sources, absent in Nestle/Aland and King James sources",
+#				The STEPBible translator resource tags New Testament words as N = Nestlé-Aland NA27 edition with NA28 spelling used by most modern translators; K = Textus Receptus used by KJV, Scrivener 1894 edition; and O = other Greek editions not used by modern translations or KJV. NKO without parens, (the default tag), means all editions include the same vocabulary and grammar, though the spelling may vary. Variant tags are inside parens, uppercase are noted variants and lower case are minor differences and variants. New Testament study is revolutionized by the discovery of earlier manuscripts in North Africa and other discoveries. The NA text is based mostly on these earlier manuscripts, but the TR text was compiled from later ones, before the earlier ones were found. Later scribes occasionally removed ambiguities with changes like adding phrases to clarify the text. There are no instances of changed theology, confirmed by the huge failed effort to find even one. Less discussed are the words found in the earlier manuscripts, but not in the later. The best explanation is that additions found only in earlier manuscripts and additions found only in later ones are simply two sets of additions by scribes to clarify the text with no theological agenda. So, if you want the very earliest text, use only the words that are in both NA and TR. If you want to include clarifications by North African believers like modern Bibles, then include words found only in NA. If you want to only include the clarifications by Byzantine scribes like the KJV, then include the words found only in TR, and use the TR variants.
+#				"(k)O"		=> "Minor variant in King James sources, present in other sources, absent in Nestle/Aland",
+#				"k"			=> "Minor difference in King James sources, absent in Nestle/Aland and other sources",
+#				"K"			=> "Present in King James sources, absent in Nestle/Aland and other sources",
+#				"k(o)"		=> "Minor difference in King James sources, minor variant in other sources, absent in Nestle/Aland sources",
+#				"K(o)"		=> "Present in King James sources, minor variant in other sources, absent in Nestle/Aland sources",
+#				"K(O)"		=> "Present in King James sources, noted variant in other sources, absent in Nestle/Aland sources",
+#				"ko"		=> "Minor difference in King James and other sources, absent in Nestle/Aland sources",
+#				"KO"		=> "Identical in King James and other sources, absent in Nestle/Aland sources",
+#				"n"			=> "Minor difference in Nestle/Aland sources, absent in King James and other sources",
+#				"N"			=> "Present in Nestle/Aland sources, absent in King James and other sources",
+#				"N(k)"		=> "Present in Nestle/Aland sources, minor variant in King James sources, absent in other sources",
+#				"N(k)(o)"	=> "Present in Nestle/Aland sources, minor variant in King James and other sources",
+#				"N(k)(O)"	=> "Present in Nestle/Aland sources, minor variant in King James sources, noted variant in other sources",
+#				"N(K)(o)"	=> "Present in Nestle/Aland sources, noted variant in King James sources, minor variant in other sources",
+#				"N(K)(O)"	=> "Present in Nestle/Aland sources, noted variant in King James and other sources",
+#				"N(k)O"		=> "Identical in Nestle/Aland and other sources, minor variant in King James sources",
+#				"N(K)O"		=> "Identical in Nestle/Aland and other sources, noted variant in King James sources",
+#				"n(o)"		=> "Minor difference in Nestle/Aland sources, minor variant in other sources, absent in King James sources",
+#				"N(o)"		=> "Present in Nestle/Aland sources, minor variant in other sources, absent in King James sources",
+#				"N(O)"		=> "Present in Nestle/Aland sources, noted variant in other sources, absent in King James sources",
+#				"NK"		=> "Identical in Nestle/Aland and King James sources, absent in other sources",
+#				"NK(o)"		=> "Identical in Nestle/Aland and King James sources, minor variant in other sources",
+#				"NK(O)"		=> "Identical in Nestle/Aland and King James sources, noted variant in other sources",
+#				"NKO"		=> "Identical in Nestle/Aland, King James, and other sources",
+#				"no"		=> "Minor difference in Nestle/Aland and other sources, absent in King James sources",
+#				"NO"		=> "Identical in Nestle/Aland and other sources, absent in King James sources",
+#				"o"			=> "Minor difference in other sources, absent in Nestle/Aland and King James sources",
+#				"O"			=> "Present in other sources, absent in Nestle/Aland and King James sources",
 #	UNDER		Hebrew underlying word
 #	TRANS		Hebrew transliteration
 #	LEXICON		Hebrew lexicon word
@@ -1037,8 +1054,8 @@ Eng (Heb) Ref & Type	Hebrew	Transliteration	Translation	dStrongs	Grammar	Meaning
 		$chap = sprintf('%03d', (int)$match[2]);
 		$vers = sprintf('%03d', (int)$match[3]);		
 		$numb = sprintf('%05d', (int)$match[4]);
-		// remove spaces and punctuation from type field
-		$match[5] = preg_replace("#[\s\+()/;]+#u","",$match[5]);
+		// remove spaces from type field
+		$match[5] = preg_replace("#[\s]+#u","",$match[5]);
 		// more clean up
 		$match[6] = trim(preg_replace("#\s+#u"," ",$match[6]));
 		$match[7] = trim(preg_replace("#\s+#u"," ",$match[7]));
@@ -1242,8 +1259,7 @@ Act.2.11#05=NKO	Κρῆτες (Krētes)	[11] Cretans	G2912=N-NPM-LG	Κρής=Cr
 		++$numbnumb;
 		
 		// remove spaces from type field
-		$match[5] = preg_replace("#[\s\)]+#u","",$match[5]);
-		$match[5] = preg_replace("#[\(]+#u","+",$match[5]);
+		$match[5] = preg_replace("#[\s]+#u","",$match[5]);
 		// break apart Greek and Transliteration
 		$twopieces = mb_split("[()]{1}", $match[6]);
 		if(count($twopieces) != 3 || !empty($twopieces[2])) { AION_ECHO("ERROR! line=$count $newmess Greek/Translit format problem, $data"); }
@@ -2109,54 +2125,55 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 		$database[$table] = "INDX	BOOK	CHAP	VERS	STRONGS	JOIN	TYPE	UNDER	TRANS	LEXICON	ENGLISH	GLOSS	MORPH	EDITIONS	VAR	SPELL	EXTRA	ALT\n";
 	}
 	$strongs_counts = array();
+/*
+The STEPBible Tyndale Amalgamated Hebrew and Greek translator resource with the Old Testament words tagged as L = Leningrad (the default tag); Q = Qere 'spoken' corrections from margin and text pointing; R = restored text based on Leningrad parallels; and X = extra words from the Septuagint (LXX), in Hebrew, based on apparatus in BHS and BHK. Other letters indicate identical parallels and variants with A = Aleppo; B = Biblia Hebraica Stuttgartensia; C = Cairensis; D = Dead Sea and Judean Desert manuscripts; E = emendation from ancient sources, F = format pointing or word division differences without changing letters; H = Ben Chaim (2nd Rabbinic Bible); K = Ketiv 'written', Tyndale pointing; P = alternate punctuation; S = scribal traditions; and V = other Hebrew manuscripts. Tag notation places identical parallel sources outside of parens in upper case. Variant tags are inside parens, uppercase are influencing variants, lower case are minor variants, and differing variants are joined with a "+". Translators normally follow L, and when this presents a choice between Q and K they follow Q, so K is presented as a variant. Tags in STEP Hebrew are only available when viewing in parallel with STEP English at https://www.aionianbible.org/Bibles/Hebrew---Hebrew-STEPBible/Genesis/1/parallel-English---STEPBible-Amalgamant.
+*/
 	static $tagtypes = array(
-		"A"		=> "Aleppo",
-		"AH"	=> "Aleppo and Ben Chaim",
-		"AV"	=> "Aleppo and other Hebrew manuscripts",
-		"B"		=> "Biblia Hebraica Stuttgartensia",
-		"C"		=> "Cairensis",
-		"D"		=> "Dead Sea and other Judean Desert manuscripts",
-		"E"		=> "Emendation from ancient sources",
-		"F"		=> "Format pointing or word divisions differently without changing letters",
-		"H"		=> "Ben Chaim (2nd Rabbinic Bible)",
-		"K"		=> "Ketiv 'written' in the text with Tyndale pointing",
-		"L"		=> "Leningrad manuscript",
-		"LABH"	=> "Leningrad manuscript, influencing variant: Aleppo, Ben Chaim, and BHS", // new
-		"LABh"	=> "Leningrad manuscript, influencing variant: Aleppo and BHS, minor variant: Ben Chaim", // new
-		"LAbh"	=> "Leningrad manuscript, influencing variant: Aleppo minor variant: Ben Chaim and BHS", // new
-		"Labh"	=> "Leningrad manuscript, minor variant: Aleppo, BHS, and Ben Chaim", // new
-		"LAH"	=> "Leningrad manuscript, influencing variant: Aleppo and Ben Chaim",
-		"LAHB"	=> "Leningrad manuscript, influencing variant: Aleppo, Ben Chaim, and BHS", // new
-		"LAHb"	=> "Leningrad manuscript, influencing variant: Aleppo and Ben Chaim, minor variant: BHS", // new
-		"Lahb"	=> "Leningrad manuscript, minor variant: Aleppo, BHS, and Ben Chaim", // new
-		"LaV"	=> "Leningrad manuscript, influencing variant: other Hebrew manuscripts, minor variant: Aleppo", // new
-		"Lav"	=> "Leningrad manuscript, minor variant: Aleppo and other Hebrew manuscripts",
-		"LB"	=> "Leningrad manuscript, influencing variant: BHS",
-		"Lb"	=> "Leningrad manuscript, minor variant: BHS",
-		"LBAH"	=> "Leningrad manuscript, influencing variant: Aleppo, Ben Chaim, and BHS", // new
-		"LBah"	=> "Leningrad manuscript, influencing variant: BHS, minor variant: Aleppo and Ben Chaim", // new
-		"LBHA"	=> "Leningrad manuscript, influencing variant: BHS, Ben Chaim, and Aleppo", // new
-		"LBHa"	=> "Leningrad manuscript, influencing variant: BHS and Ben Chaim, minor variant: Aleppo", // new
-		"LBHaC"	=> "Leningrad manuscript, influencing variant: BHS, Ben Chaim, and Cairensis, minor variant: Aleppo", // new
-		"LBha"	=> "Leningrad manuscript, influencing variant: BHS, minor variant: Aleppo and Ben Chaim", // new
-		"Lbah"	=> "Leningrad manuscript, minor variant: Aleppo, BHS, and Ben Chaim", // new
-		"Lbp"	=> "Leningrad manuscript, minor variants: BHS and alternate punctuation",
-		"LHab"	=> "Leningrad manuscript, influencing variant: Ben Chaim, minor variant: Aleppo and BHS", // new
-		"LC"	=> "Leningrad manuscript, influencing variant: Cairensis",
-		"LD"	=> "Leningrad manuscript, influencing variant: Dead Sea manuscript",
-		"LE"	=> "Leningrad manuscript, influencing variant: ancient sources",
-		"LF"	=> "Leningrad manuscript, influencing variant: pointing and divisions",
-		"LH"	=> "Leningrad manuscript, influencing variant: Ben Chaim",
-		"LP"	=> "Leningrad manuscript, influencing variant: alternate punctuation",
-		"Lp"	=> "Leningrad manuscript, minor variant: alternate punctuation",
-		"LS"	=> "Leningrad manuscript, influencing variant: Scribal traditions in Itture Sopherim, etc",
-		"LV"	=> "Leningrad manuscript, influencing variant: other Hebrew manuscripts",
-		"Qk"	=> "Qere 'spoken' corrections from margin and text pointing, minor variant: Ketiv 'written', Tyndale pointing",
-		"QK"	=> "Qere 'spoken' corrections from margin and text pointing, influencing variant: Ketiv 'written', Tyndale pointing",
-		"QKB"	=> "Qere 'spoken' corrections from margin and text pointing, influencing variant: BHS and Ketiv 'written', Tyndale pointing",
-		"R"		=> "Restored text based on Leningrad parallels",
-		"V"		=> "Other Hebrew manuscripts",
-		"X"		=> "Extra words from Septuagint (LXX), in Hebrew based on apparatus in BHS and BHK",
+	"A"			=> "Aleppo",
+	"B"			=> "Biblia Hebraica Stuttgartensia",
+	"C"			=> "Cairensis",
+	"D"			=> "Dead Sea and Judean Desert manuscripts",
+	"E"			=> "Emendation from ancient sources",
+	"F"			=> "Format pointing or word division difference without letter changes",
+	"H"			=> "Ben Chaim (2nd Rabbinic Bible)",
+	"K"			=> "Ketiv 'written' in the text with Tyndale pointing",
+	"L"			=> "Leningrad",
+	"L(a+bh)"	=> "Leningrad with minor variants: Aleppo plus BHS and Ben Chaim",
+	"L(a+V)"	=> "Leningrad with minor variants: Aleppo plus influencing variants: other Hebrew manuscripts",
+	"L(abh)"	=> "Leningrad with minor variants: Aleppo, BHS, and Ben Chaim",
+	"L(ah+b)"	=> "Leningrad with minor variants: Aleppo and Ben Chaim plus BHS",
+	"L(AH+B)"	=> "Leningrad with influencing variants: Aleppo and Ben Chaim plus BHS",
+	"L(b)"		=> "Leningrad with minor variants: BHS",
+	"L(b+p)"	=> "Leningrad with minor variants: BHS plus alternate punctuation",
+	"L(bah)"	=> "Leningrad with minor variants: Aleppo, BHS, and Ben Chaim",
+	"L(D)"		=> "Leningrad with influencing variants: Dead Sea and Judean Desert manuscripts",
+	"L(E)"		=> "Leningrad with influencing variants: emendation from ancient sources",
+	"L(F)"		=> "Leningrad with influencing variants: format pointing or word division difference without letter changes",
+	"L(H)"		=> "Leningrad with influencing variants: Ben Chaim (2nd Rabbinic Bible)",
+	"L(p)"		=> "Leningrad with minor variants: alternate punctuation",
+	"L(P)"		=> "Leningrad with influencing variants: alternate punctuation",
+	"L(S)"		=> "Leningrad with influencing variants: scribal traditions",
+	"L(V)"		=> "Leningrad with influencing variants: other Hebrew manuscripts",
+	"LA(bh)"	=> "Leningrad and Aleppo with minor variants: BHS and Ben Chaim",
+	"LA(BH)"	=> "Leningrad and Aleppo with influencing variants: BHS and Ben Chaim",
+	"LAB(h)"	=> "Leningrad, Aleppo, and BHS with minor variants: Ben Chaim",
+	"LAB(H)"	=> "Leningrad, Aleppo, and BHS with influencing variants: Ben Chaim",
+	"LAH(b)"	=> "Leningrad, Aleppo, and Ben Chaim with minor variants: BHS",
+	"LB(ah)"	=> "Leningrad and BHS with minor variants: Aleppo and Ben Chaim",
+	"LB(AH)"	=> "Leningrad and BHS with influencing variants: Aleppo and Ben Chaim",
+	"LB(ha)"	=> "Leningrad and BHS with minor variants: Aleppo and Ben Chaim",
+	"LBH(a)"	=> "Leningrad, BHS, and Ben Chaim with minor variants: Aleppo",
+	"LBH(A)"	=> "Leningrad, BHS, and Ben Chaim with influencing variants: Aleppo",
+	"LBH(a+C)"	=> "Leningrad, BHS, and Ben Chaim with minor variants: Aleppo plus influencing variants: Cairensis",
+	"LH(ab)"	=> "Leningrad and Ben Chaim with minor variants: Aleppo and BHS",
+	"P"			=> "Alternate punctuation",
+	"Q"			=> "Qere 'spoken' corrections from margin and text pointing",
+	"Q(k)"		=> "Qere 'spoken' corrections from margin and text pointing, with minor variants: Ketiv 'written', Tyndale pointing",
+	"Q(K)"		=> "Qere 'spoken' corrections from margin and text pointing, with influencing variants: Ketiv 'written', Tyndale pointing",
+	"R"			=> "Restored text based on Leningrad parallels",
+	"S"			=> "Scribal traditions",
+	"V"			=> "Other Hebrew manuscripts",
+	"X"			=> "Extra words from Septuagint (LXX), in Hebrew based on apparatus in BHS and BHK",
 	);
 	
 	// LOOP LINES
@@ -2175,7 +2192,6 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 		if (empty($tagtypes[$line['TYPE']])) {
 			$database['MISS_MANU'] .= ($warn="$newmess\tmissing tag type: {$line['TYPE']}\n");
 			AION_ECHO("WARN!\t$newmess\t$warn\n".print_r($line,TRUE)."\n\n\n");
-			if ("LM"==$line['TYPE']) { $line['TYPE']="LV"; }
 		}
 
 		// PARSE REFERENCE
@@ -2339,7 +2355,7 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 			// 025,LAM,004,003,51000,QK,, ,, ,,,,,K= ki (כִּי) "for" (H3588A=HTc)												,L= כַּיְ ¦;,,,,H3588A
 			// 026,EZE,048,016,51200,QK,, ,, ,,,,,K= cha.mesh (חֲמֵשׁ) "five" (H2568=HAcbsc)									,L= חמש ¦;,,,,H2568_B
 
-			if ($strongs=="" && 'QK'==$line['TYPE'] && empty($WORDUP)) {
+			if ($strongs=="" && 'Q(K)'==$line['TYPE'] && empty($WORDUP)) {
 				if (!empty($line['TRANS']) ||
 					!empty($line['MORPH']) ||
 					//                  1            2             3              4                          5       6        
@@ -2882,34 +2898,34 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 		// VALIDATE TAGNT TYPE 
 		static $tagnttypemissing = array();
 		static $tagnttype = array(
-			"NKO"	=> "Identical in all sources",
-			"NK+O"	=> "Identical in Nestle/Aland and King James sources, noted difference in other sources",
-			"NK+o"	=> "Identical in Nestle/Aland and King James sources, minor difference in other sources",
-			"N+KO"	=> "Identical in Nestle/Aland and other sources, noted difference in King James sources",
-			"N+K+O"	=> "Noted difference in Nestle/Aland, King James sources, and other sources",
-			"N+K+o"	=> "Noted difference in Nestle/Aland and King James sources, minor difference in other sources",
-			"N+kO"	=> "Identical in Nestle/Aland and other source, minor difference in King James sources",
-			"N+k+O"	=> "Noted difference in Nestle/Aland and other sources, minor difference in King James sources",
-			"N+k+o"	=> "Identical in Nestle/Aland sources, minor difference in King James sources and other sources",
-			"NK"	=> "Identical in Nestle/Aland and King James sources, absent in other sources",
-			"N+k"	=> "Identical in Nestle/Aland sources, minor difference in King James sources, absent in other sources",
-			"NO"	=> "Identical in Nestle/Aland and other sources, absent in King James sources",
-			"no"	=> "Minor difference in Nestle/Aland and other sources, absent in King James sources",
-			"N+O"	=> "Identical in Nestle/Aland sources, noted difference in other sources, absent in King James sources",
-			"N+o"	=> "Identical in Nestle/Aland sources, minor difference in other sources, absent in King James sources",
-			"n+o"	=> "Minor difference in Nestle/Aland and other sources, absent in King James sources",
-			"N"		=> "Identical in Nestle/Aland sources, absent in King James sources and other sources",
-			"n"		=> "Minor difference in Nestle/Aland sources, absent in King James sources and other sources",
-			"KO"	=> "Identical in King James sources and other sources, absent in Nestle/Aland sources",
-			"K+O"	=> "Noted difference in King James sources and other sources, absent in Nestle/Aland sources",
-			"K+o"	=> "Identical in King James sources, minor difference in other sources, absent in Nestle/Aland sources",
-			"k+o"	=> "Minor difference in King James sources and other sources, absent in Nestle/Aland sources",
-			"+kO"	=> "Minor difference in King James sources; absent in oldest manuscripts",
-			"ko"	=> "Identical minor difference in King James sources and other sources, absent in Nestle/Aland sources",
-			"K"		=> "Identical in King James sources, absent in Nestle/Aland and other sources",
-			"k"		=> "Minor difference in King James sources, absent in Nestle/Aland and other sources",
-			"O"		=> "Identical in other sources, absent in Nestle/Aland and King James sources",
-			"o"		=> "Minor difference in other sources, absent in Nestle/Aland and King James sources",
+			"(k)O"		=> "Minor variant in King James sources, present in other sources, absent in Nestle/Aland",
+			"k"			=> "Minor difference in King James sources, absent in Nestle/Aland and other sources",
+			"K"			=> "Present in King James sources, absent in Nestle/Aland and other sources",
+			"k(o)"		=> "Minor difference in King James sources, minor variant in other sources, absent in Nestle/Aland sources",
+			"K(o)"		=> "Present in King James sources, minor variant in other sources, absent in Nestle/Aland sources",
+			"K(O)"		=> "Present in King James sources, noted variant in other sources, absent in Nestle/Aland sources",
+			"ko"		=> "Minor difference in King James and other sources, absent in Nestle/Aland sources",
+			"KO"		=> "Identical in King James and other sources, absent in Nestle/Aland sources",
+			"n"			=> "Minor difference in Nestle/Aland sources, absent in King James and other sources",
+			"N"			=> "Present in Nestle/Aland sources, absent in King James and other sources",
+			"N(k)"		=> "Present in Nestle/Aland sources, minor variant in King James sources, absent in other sources",
+			"N(k)(o)"	=> "Present in Nestle/Aland sources, minor variant in King James and other sources",
+			"N(k)(O)"	=> "Present in Nestle/Aland sources, minor variant in King James sources, noted variant in other sources",
+			"N(K)(o)"	=> "Present in Nestle/Aland sources, noted variant in King James sources, minor variant in other sources",
+			"N(K)(O)"	=> "Present in Nestle/Aland sources, noted variant in King James and other sources",
+			"N(k)O"		=> "Identical in Nestle/Aland and other sources, minor variant in King James sources",
+			"N(K)O"		=> "Identical in Nestle/Aland and other sources, noted variant in King James sources",
+			"n(o)"		=> "Minor difference in Nestle/Aland sources, minor variant in other sources, absent in King James sources",
+			"N(o)"		=> "Present in Nestle/Aland sources, minor variant in other sources, absent in King James sources",
+			"N(O)"		=> "Present in Nestle/Aland sources, noted variant in other sources, absent in King James sources",
+			"NK"		=> "Identical in Nestle/Aland and King James sources, absent in other sources",
+			"NK(o)"		=> "Identical in Nestle/Aland and King James sources, minor variant in other sources",
+			"NK(O)"		=> "Identical in Nestle/Aland and King James sources, noted variant in other sources",
+			"NKO"		=> "Identical in Nestle/Aland, King James, and other sources",
+			"no"		=> "Minor difference in Nestle/Aland and other sources, absent in King James sources",
+			"NO"		=> "Identical in Nestle/Aland and other sources, absent in King James sources",
+			"o"			=> "Minor difference in other sources, absent in Nestle/Aland and King James sources",
+			"O"			=> "Present in other sources, absent in Nestle/Aland and King James sources",
 		);
 		if (empty($tagnttype[$line['TYPE']]) && empty($tagnttypemissing[$line['TYPE']])) {
 			$tagnttypemissing[$line['TYPE']] = TRUE;
@@ -3929,76 +3945,86 @@ function AION_NEWSTRONGS_STEPBIBLE($hebtag,$hebdex,$heblex,$gretag,$gredex,$grel
 EOF;
 	$bibledata_key_ot = <<<EOF
 //  Old Testament Source Legend
-//	"A"		=> "Aleppo",
-//	"AH"	=> "Aleppo and Ben Chaim",
-//	"AV"	=> "Aleppo and other Hebrew manuscripts",
-//	"B"		=> "Biblia Hebraica Stuttgartensia",
-//	"C"		=> "Cairensis",
-//	"D"		=> "Dead Sea and other Judean Desert manuscripts",
-//	"E"		=> "Emendation from ancient sources",
-//	"F"		=> "Format pointing or word divisions differently without changing letters",
-//	"H"		=> "Ben Chaim (2nd Rabbinic Bible)",
-//	"K"		=> "Ketiv 'written' in the text with Tyndale pointing",
-//	"L"		=> "Leningrad manuscript",
-//	"LAHb"	=> "Leningrad manuscript, influencing variant: Aleppo and Ben Chaim, minor variant: BHS",
-//	"Labh"	=> "Leningrad manuscript, minor variant: Aleppo, BHS, and Ben Chaim",
-//	"LBHA"	=> "Leningrad manuscript, influencing variant: BHS, Ben Chaim, and Aleppo",
-//	"LBah"	=> "Leningrad manuscript, influencing variant: BHS, minor variant: Aleppo and Ben Chaim",
-//	"LBHaC"	=> "Leningrad manuscript, influencing variant: BHS, Ben Chaim, and Cairensis, minor variant: Aleppo",
-//	"LHab"	=> "Leningrad manuscript, influencing variant: Ben Chaim, minor variant: Aleppo and BHS",
-//	"LaV"	=> "Leningrad manuscript, influencing variant: other Hebrew manuscripts, minor variant: Aleppo",
-//	"LAH"	=> "Leningrad manuscript, influencing variant: Aleppo and Ben Chaim",
-//	"Lav"	=> "Leningrad manuscript, minor variant: Aleppo and other Hebrew manuscripts",
-//	"LB"	=> "Leningrad manuscript, influencing variant: BHS",
-//	"Lb"	=> "Leningrad manuscript, minor variant: BHS",
-//	"Lbp"	=> "Leningrad manuscript, minor variants: BHS and alternate punctuation",
-//	"LC"	=> "Leningrad manuscript, influencing variant: Cairensis",
-//	"LD"	=> "Leningrad manuscript, influencing variant: Dead Sea manuscript",
-//	"LE"	=> "Leningrad manuscript, influencing variant: ancient sources",
-//	"LF"	=> "Leningrad manuscript, influencing variant: pointing and divisions",
-//	"LH"	=> "Leningrad manuscript, influencing variant: Ben Chaim",
-//	"LP"	=> "Leningrad manuscript, influencing variant: alternate punctuation",
-//	"Lp"	=> "Leningrad manuscript, minor variant: alternate punctuation",
-//	"LS"	=> "Leningrad manuscript, influencing variant: Scribal traditions in Itture Sopherim, etc",
-//	"LV"	=> "Leningrad manuscript, influencing variant: other Hebrew manuscripts",
-//	"Qk"	=> "Qere 'spoken' corrections from margin and text pointing, minor variant: Ketiv 'written', Tyndale pointing",
-//	"QK"	=> "Qere 'spoken' corrections from margin and text pointing, influencing variant: Ketiv 'written', Tyndale pointing",
-//	"QKB"	=> "Qere 'spoken' corrections from margin and text pointing, influencing variant: BHS and Ketiv 'written', Tyndale pointing",
-//	"R"		=> "Restored text based on Leningrad parallels",
-//	"V"		=> "Other Hebrew manuscripts",
-//	"X"		=> "Extra words from Septuagint (LXX), in Hebrew based on apparatus in BHS and BHK",
+//	The STEPBible translator resource tags Old Testament words as L = Leningrad (the default tag); Q = Qere 'spoken' corrections from margin and text pointing; R = restored text based on Leningrad parallels; and X = extra words from the Septuagint (LXX), in Hebrew, based on BHS and BHK. Other letters indicate parallels and variants with A = Aleppo; B = Biblia Hebraica Stuttgartensia; C = Cairensis; D = Dead Sea and Judean Desert manuscripts; E = emendation from ancient sources, F = format pointing or word division differences without changing letters; H = Ben Chaim (2nd Rabbinic Bible); K = Ketiv 'written', Tyndale pointing; P = alternate punctuation; S = scribal traditions; and V = other Hebrew manuscripts. Tags place identical sources outside of parens in upper case. Variant tags are inside parens: uppercase are influencing variants, lower case are minor variants, and differing variants are joined with a “+”. Translators normally follow L, and when this presents a choice between Q and K they follow Q, so K is presented as a variant. Tags in STEP Hebrew are only available when viewed in parallel with STEP English at https://www.aionianbible.org/Bibles/Hebrew---Hebrew-STEPBible/Genesis/1/parallel-English---STEPBible-Amalgamant.
+//	"A"			=> "Aleppo",
+//	"B"			=> "Biblia Hebraica Stuttgartensia",
+//	"C"			=> "Cairensis",
+//	"D"			=> "Dead Sea and Judean Desert manuscripts",
+//	"E"			=> "Emendation from ancient sources",
+//	"F"			=> "Format pointing or word division difference without letter changes",
+//	"H"			=> "Ben Chaim (2nd Rabbinic Bible)",
+//	"K"			=> "Ketiv 'written' in the text with Tyndale pointing",
+//	"L"			=> "Leningrad",
+//	"L(a+bh)"	=> "Leningrad with minor variants: Aleppo plus BHS and Ben Chaim",
+//	"L(a+V)"	=> "Leningrad with minor variants: Aleppo plus influencing variants: other Hebrew manuscripts",
+//	"L(abh)"	=> "Leningrad with minor variants: Aleppo, BHS, and Ben Chaim",
+//	"L(ah+b)"	=> "Leningrad with minor variants: Aleppo and Ben Chaim plus BHS",
+//	"L(AH+B)"	=> "Leningrad with influencing variants: Aleppo and Ben Chaim plus BHS",
+//	"L(b)"		=> "Leningrad with minor variants: BHS",
+//	"L(b+p)"	=> "Leningrad with minor variants: BHS plus alternate punctuation",
+//	"L(bah)"	=> "Leningrad with minor variants: Aleppo, BHS, and Ben Chaim",
+//	"L(D)"		=> "Leningrad with influencing variants: Dead Sea and Judean Desert manuscripts",
+//	"L(E)"		=> "Leningrad with influencing variants: emendation from ancient sources",
+//	"L(F)"		=> "Leningrad with influencing variants: format pointing or word division difference without letter changes",
+//	"L(H)"		=> "Leningrad with influencing variants: Ben Chaim (2nd Rabbinic Bible)",
+//	"L(p)"		=> "Leningrad with minor variants: alternate punctuation",
+//	"L(P)"		=> "Leningrad with influencing variants: alternate punctuation",
+//	"L(S)"		=> "Leningrad with influencing variants: scribal traditions",
+//	"L(V)"		=> "Leningrad with influencing variants: other Hebrew manuscripts",
+//	"LA(bh)"	=> "Leningrad and Aleppo with minor variants: BHS and Ben Chaim",
+//	"LA(BH)"	=> "Leningrad and Aleppo with influencing variants: BHS and Ben Chaim",
+//	"LAB(h)"	=> "Leningrad, Aleppo, and BHS with minor variants: Ben Chaim",
+//	"LAB(H)"	=> "Leningrad, Aleppo, and BHS with influencing variants: Ben Chaim",
+//	"LAH(b)"	=> "Leningrad, Aleppo, and Ben Chaim with minor variants: BHS",
+//	"LB(ah)"	=> "Leningrad and BHS with minor variants: Aleppo and Ben Chaim",
+//	"LB(AH)"	=> "Leningrad and BHS with influencing variants: Aleppo and Ben Chaim",
+//	"LB(ha)"	=> "Leningrad and BHS with minor variants: Aleppo and Ben Chaim",
+//	"LBH(a)"	=> "Leningrad, BHS, and Ben Chaim with minor variants: Aleppo",
+//	"LBH(A)"	=> "Leningrad, BHS, and Ben Chaim with influencing variants: Aleppo",
+//	"LBH(a+C)"	=> "Leningrad, BHS, and Ben Chaim with minor variants: Aleppo plus influencing variants: Cairensis",
+//	"LH(ab)"	=> "Leningrad and Ben Chaim with minor variants: Aleppo and BHS",
+//	"P"			=> "Alternate punctuation",
+//	"Q"			=> "Qere 'spoken' corrections from margin and text pointing",
+//	"Q(k)"		=> "Qere 'spoken' corrections from margin and text pointing, with minor variants: Ketiv 'written', Tyndale pointing",
+//	"Q(K)"		=> "Qere 'spoken' corrections from margin and text pointing, with influencing variants: Ketiv 'written', Tyndale pointing",
+//	"R"			=> "Restored text based on Leningrad parallels",
+//	"S"			=> "Scribal traditions",
+//	"V"			=> "Other Hebrew manuscripts",
+//	"X"			=> "Extra words from Septuagint (LXX), in Hebrew based on apparatus in BHS and BHK",
 //
 
 EOF;
 	$bibledata_key_nt = <<<EOF
 //  New Testament Source Legend
-//	"NKO"	=> "Identical in all sources",
-//	"NK+O"	=> "Identical in Nestle/Aland and King James sources, noted difference in other sources",
-//	"NK+o"	=> "Identical in Nestle/Aland and King James sources, minor difference in other sources",
-//	"N+KO"	=> "Identical in Nestle/Aland and other sources, noted difference in King James sources",
-//	"N+K+O"	=> "Noted difference in Nestle/Aland, King James, and other sources",
-//	"N+K+o"	=> "Noted difference in Nestle/Aland and King James sources, minor difference in other sources",
-//	"N+kO"	=> "Identical in Nestle/Aland and other source, minor difference in King James sources",
-//	"N+k+O"	=> "Noted difference in Nestle/Aland and other sources, minor difference in King James sources",
-//	"N+k+o"	=> "Identical in Nestle/Aland sources, minor difference in King James and other sources",
-//	"NK"	=> "Identical in Nestle/Aland and King James sources, absent in other sources",
-//	"N+k"	=> "Identical in Nestle/Aland sources, minor difference in King James sources, absent in other sources",
-//	"NO"	=> "Identical in Nestle/Aland and other sources, absent in King James sources",
-//	"no"	=> "Minor difference in Nestle/Aland and other sources, absent in King James sources",
-//	"N+O"	=> "Identical in Nestle/Aland sources, noted difference in other sources, absent in King James sources",
-//	"N+o"	=> "Identical in Nestle/Aland sources, minor difference in other sources, absent in King James sources",
-//	"n+o"	=> "Minor difference in Nestle/Aland and other sources, absent in King James sources",
-//	"N"		=> "Identical in Nestle/Aland sources, absent in King James and other sources",
-//	"n"		=> "Minor difference in Nestle/Aland sources, absent in King James and other sources",
-//	"KO"	=> "Identical in King James and other sources, absent in Nestle/Aland sources",
-//	"K+O"	=> "Noted difference in King James and other sources, absent in Nestle/Aland sources",
-//	"K+o"	=> "Identical in King James sources, minor difference in other sources, absent in Nestle/Aland sources",
-//	"k+o"	=> "Minor difference in King James and other sources, absent in Nestle/Aland sources",
-//	"ko"	=> "Identical minor difference in King James and other sources, absent in Nestle/Aland sources",
-//	"K"		=> "Identical in King James sources, absent in Nestle/Aland and other sources",
-//	"k"		=> "Minor difference in King James sources, absent in Nestle/Aland and other sources",
-//	"O"		=> "Identical in other sources, absent in Nestle/Aland and King James sources",
-//	"o"		=> "Minor difference in other sources, absent in Nestle/Aland and King James sources",
+//	The STEPBible translator resource tags New Testament words as N = Nestlé-Aland NA27 edition with NA28 spelling used by most modern translators; K = Textus Receptus used by KJV, Scrivener 1894 edition; and O = other Greek editions not used by modern translations or KJV. NKO without parens, (the default tag), means all editions include the same vocabulary and grammar, though the spelling may vary. Variant tags are inside parens, uppercase are noted variants and lower case are minor differences and variants. New Testament study is revolutionized by the discovery of earlier manuscripts in North Africa and other discoveries. The NA text is based mostly on these earlier manuscripts, but the TR text was compiled from later ones, before the earlier ones were found. Later scribes occasionally removed ambiguities with changes like adding phrases to clarify the text. There are no instances of changed theology, confirmed by the huge failed effort to find even one. Less discussed are the words found in the earlier manuscripts, but not in the later. The best explanation is that additions found only in earlier manuscripts and additions found only in later ones are simply two sets of additions by scribes to clarify the text with no theological agenda. So, if you want the very earliest text, use only the words that are in both NA and TR. If you want to include clarifications by North African believers like modern Bibles, then include words found only in NA. If you want to only include the clarifications by Byzantine scribes like the KJV, then include the words found only in TR, and use the TR variants.
+//	"(k)O"		=> "Minor variant in King James sources, present in other sources, absent in Nestle/Aland",
+//	"k"			=> "Minor difference in King James sources, absent in Nestle/Aland and other sources",
+//	"K"			=> "Present in King James sources, absent in Nestle/Aland and other sources",
+//	"k(o)"		=> "Minor difference in King James sources, minor variant in other sources, absent in Nestle/Aland sources",
+//	"K(o)"		=> "Present in King James sources, minor variant in other sources, absent in Nestle/Aland sources",
+//	"K(O)"		=> "Present in King James sources, noted variant in other sources, absent in Nestle/Aland sources",
+//	"ko"		=> "Minor difference in King James and other sources, absent in Nestle/Aland sources",
+//	"KO"		=> "Identical in King James and other sources, absent in Nestle/Aland sources",
+//	"n"			=> "Minor difference in Nestle/Aland sources, absent in King James and other sources",
+//	"N"			=> "Present in Nestle/Aland sources, absent in King James and other sources",
+//	"N(k)"		=> "Present in Nestle/Aland sources, minor variant in King James sources, absent in other sources",
+//	"N(k)(o)"	=> "Present in Nestle/Aland sources, minor variant in King James and other sources",
+//	"N(k)(O)"	=> "Present in Nestle/Aland sources, minor variant in King James sources, noted variant in other sources",
+//	"N(K)(o)"	=> "Present in Nestle/Aland sources, noted variant in King James sources, minor variant in other sources",
+//	"N(K)(O)"	=> "Present in Nestle/Aland sources, noted variant in King James and other sources",
+//	"N(k)O"		=> "Identical in Nestle/Aland and other sources, minor variant in King James sources",
+//	"N(K)O"		=> "Identical in Nestle/Aland and other sources, noted variant in King James sources",
+//	"n(o)"		=> "Minor difference in Nestle/Aland sources, minor variant in other sources, absent in King James sources",
+//	"N(o)"		=> "Present in Nestle/Aland sources, minor variant in other sources, absent in King James sources",
+//	"N(O)"		=> "Present in Nestle/Aland sources, noted variant in other sources, absent in King James sources",
+//	"NK"		=> "Identical in Nestle/Aland and King James sources, absent in other sources",
+//	"NK(o)"		=> "Identical in Nestle/Aland and King James sources, minor variant in other sources",
+//	"NK(O)"		=> "Identical in Nestle/Aland and King James sources, noted variant in other sources",
+//	"NKO"		=> "Identical in Nestle/Aland, King James, and other sources",
+//	"no"		=> "Minor difference in Nestle/Aland and other sources, absent in King James sources",
+//	"NO"		=> "Identical in Nestle/Aland and other sources, absent in King James sources",
+//	"o"			=> "Minor difference in other sources, absent in Nestle/Aland and King James sources",
+//	"O"			=> "Present in other sources, absent in Nestle/Aland and King James sources",
 //
 
 EOF;
@@ -4026,7 +4052,7 @@ EOF;
 		$book = strtoupper($book); if (!ctype_digit($book[0])) { $book[1] = strtolower($book[1]); } $book[2] = strtolower($book[2]);
 		if ($book != $last_book) { AION_ECHO("BUILDING Concordant STEPBible! $book"); $last_book = $book; }
 		if ($vers != $last_vers) {
-			$wtype_close = ($last_wtype=="L" ? "" : " *$last_wtype)");
+			$wtype_close = ($last_wtype=="L" ? "" : " *{$last_wtype}*)");
 			$bibledata_ama .= ("$wtype_close\n$book $chap:$vers ");
 			$bibledata_con .= ("$wtype_close\n$book $chap:$vers ");
 			$bibledata_heb .= ("\n$book $chap:$vers ");
@@ -4060,8 +4086,8 @@ EOF;
 		$defs = explode("\t",$entry);
 		$word = trim($defs[4]);
 		if ($wtype==$last_wtype) {			$wtype_close = "";					$wtype_open = " "; }
-		else if ($wtype=="L") {				$wtype_close = " *$last_wtype)";	$wtype_open = " "; }
-		else  if ($last_wtype!="L") { 		$wtype_close = " *$last_wtype)";	$wtype_open = " ("; }
+		else if ($wtype=="L") {				$wtype_close = " *{$last_wtype}*)";	$wtype_open = " "; }
+		else  if ($last_wtype!="L") { 		$wtype_close = " *{$last_wtype}*)";	$wtype_open = " ("; }
 		else {							 	$wtype_close = "";					$wtype_open = " ("; }
 		$last_wtype = $wtype;
 		// build the bible word by word
@@ -4073,6 +4099,11 @@ EOF;
 		}
 		$line = strtok( "\n" );
 	}
+	// last wtype
+	$wtype_close = ($last_wtype=="L" ? "" : " *{$last_wtype}*)");
+	$bibledata_ama .= ("$wtype_close");
+	$bibledata_con .= ("$wtype_close");
+	
 	fclose($fd);
 	unset($contents); $contents=NULL;
 	unset($index); $index=NULL;
@@ -4095,7 +4126,7 @@ EOF;
 		$book = strtoupper($book); if (!ctype_digit($book[0])) { $book[1] = strtolower($book[1]); } $book[2] = strtolower($book[2]);
 		if ($book != $last_book) { AION_ECHO("BUILDING Concordant STEPBible! $book"); $last_book = $book; }
 		if ($vers != $last_vers) {
-			$wtype_close = ($last_wtype=="NKO" ? "" : " *$last_wtype)");
+			$wtype_close = ($last_wtype=="NKO" ? "" : " *{$last_wtype}*)");
 			$bibledata_ama .= ("$wtype_close\n$book $chap:$vers ");
 			$bibledata_con .= ("$wtype_close\n$book $chap:$vers ");
 			$bibledata_grk .= ("$wtype_close\n$book $chap:$vers ");
@@ -4114,8 +4145,8 @@ EOF;
 		$defs = explode("\t",$entry);
 		$word = trim($defs[4]);
 		if ($wtype==$last_wtype) {			$wtype_close = "";					$wtype_open = " "; }
-		else if ($wtype=="NKO") {			$wtype_close = " *$last_wtype)";	$wtype_open = " "; }
-		else  if ($last_wtype!="NKO") { 	$wtype_close = " *$last_wtype)";	$wtype_open = " ("; }
+		else if ($wtype=="NKO") {			$wtype_close = " *{$last_wtype}*)";	$wtype_open = " "; }
+		else  if ($last_wtype!="NKO") { 	$wtype_close = " *{$last_wtype}*)";	$wtype_open = " ("; }
 		else {							 	$wtype_close = "";					$wtype_open = " ("; }
 		$last_wtype = $wtype;
 		// build the bible word by word
@@ -4125,7 +4156,7 @@ EOF;
 		$line = strtok( "\n" );
 	}
 	// last wtype
-	$wtype_close = ($last_wtype=="NKO" ? "" : " *$last_wtype)");
+	$wtype_close = ($last_wtype=="NKO" ? "" : " *{$last_wtype}*)");
 	$bibledata_ama .= ("$wtype_close\n");
 	$bibledata_con .= ("$wtype_close\n");
 	$bibledata_heb .= ("\n");

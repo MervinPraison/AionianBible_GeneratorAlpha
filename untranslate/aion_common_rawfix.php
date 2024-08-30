@@ -49,6 +49,7 @@ if ('Holy-Bible---Portuguese---Portuguese-Trans-Trans'==$bible) {
 // REMOVE CHARACTERS
 if ('Holy-Bible---English---STEPBible-Amalgamant'==$bible ||
 	'Holy-Bible---English---STEPBible-Concordant'==$bible  ||
+	'Holy-Bible---Greek---Greek-STEPBible'==$bible  ||
 	preg_match('/Sanskrit/us',$bible)) {
 	$bfile = preg_replace("/[¶]+/us", '', $bfile);
 }
