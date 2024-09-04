@@ -7,9 +7,9 @@ echo "*** MAGA Speedata ***"
 date
 echo
 
-./aion_8_speedata.sh 2>&1 >  aion_8_speedata.sh.aionian.out
-./aion_X_proofer.sh 2>&1 >  aion_X_proofer.out
-./aion_X_proofer_diff.sh 2>&1 >  aion_X_proofer_diff.out
+./aion_8_speedata.sh		2>&1 | tee aion_8_speedata.sh.aionian.out
+./aion_X_proofer.sh			2>&1 | tee aion_X_proofer.out
+./aion_X_proofer_diff.sh	2>&1 | tee aion_X_proofer_diff.out
 
 echo
 date

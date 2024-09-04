@@ -13744,7 +13744,7 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible" :
-if (!($bfile = preg_replace("/[\x{05d0}-\x{05ea}\x{fb31}\x{fb44}]+/us"," ",$bfile,-1,$rnum)) || $rnum!=176) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/[\x{05d0}-\x{05ea}\x{fb31}\x{fb44}\x{05bc}]+/us"," ",$bfile,-1,$rnum)) || $rnum!=176) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 $textfix = <<<EOF
 NUM 30:1 Le nanao ty hoe amo talèm-pifokoa’ o ana’ Israeleoo t’i Mosè: Zao ty nandilia’ Iehovà:
