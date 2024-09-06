@@ -10,6 +10,7 @@ global $_Path;
 // SANSKRIT BURMESE
 if ("Debug/Sanskrit-Burmese"==$_Path) {
 	// Initialize
+	$number = 1;
 	echo "<h2 class='center'>Debug Sanskrit Burmese</h2>";
 	if (!($contents=file_get_contents(($file='../www-stageresources/Holy-Bible---Sanskrit---Burmese-Script---Aionian-Edition.noia')))) {
 		echo "<p>Error: file_get_contents($file)</p>"; return;
@@ -43,9 +44,9 @@ if ("Debug/Sanskrit-Burmese"==$_Path) {
 		echo "Error: preg_match_all($regex)<br></p>";
 	}
 	else {
-		$flipped = array_flip(array_flip($matches[1]));		
+		$flipped = array_flip(array_flip($matches[1]));
 		foreach($flipped as $medial) {
-			echo ($decimal=mb_ord($medial, "UTF-8"))." / 0x".dechex($decimal)." / Padauk5.002( <span class='font-myanmar'>$medial</span> )  NotoGoogle( <span class='font-myanmar-google'>$medial</span> )  Microsoft( <span class='font-myanmar-microsoft'>$medial</span> )<br>";
+			echo $number++.") ".($decimal=mb_ord($medial, "UTF-8"))." / 0x".dechex($decimal)." / Padauk5.003( <span class='font-myanmar'>$medial</span> )  NotoGoogle( <span class='font-myanmar-google'>$medial</span> )  Microsoft( <span class='font-myanmar-microsoft'>$medial</span> )<br>";
 		}
 	}
 	echo "</p>";
@@ -55,7 +56,7 @@ if ("Debug/Sanskrit-Burmese"==$_Path) {
 		"Three Medials in Sequence"	=> "/$e($m$g$m$g$m$g$m)$e/u",
 		"Two Medials in Sequence"	=> "/$e($m$g$m$g$m)$e/u",
 	);
-	echo "<h3>All Unique Sequences with 2 and 3 Medials in Microsoft Font / Paduak 5.002</h3>";
+	echo "<h3>All Unique Sequences with 2 and 3 Medials in Microsoft Font / Paduak 5.003</h3>";
 	echo "<p>";
 	foreach($lookfer as $title => $regex) {
 		$matches = array();
@@ -65,7 +66,7 @@ if ("Debug/Sanskrit-Burmese"==$_Path) {
 		}
 		$flipped = array_flip(array_flip($matches[1]));
 		foreach($flipped as $key => $sequence) {
-			echo "<span class='font-myanmar-microsoft'>$sequence</span>&nbsp;&nbsp; / &nbsp;&nbsp;<span class='font-myanmar'>$sequence</span><br>";
+			echo $number++.") <span class='font-myanmar-microsoft'>$sequence</span>&nbsp;&nbsp; / &nbsp;&nbsp;<span class='font-myanmar'>$sequence</span><br>";
 		}
 	}
 	echo "</p>";
@@ -75,7 +76,7 @@ if ("Debug/Sanskrit-Burmese"==$_Path) {
 		"Three Medials in Sequence"	=> "/$e($m$g$m$g$m$g$m)$e/u",
 		"Two Medials in Sequence"	=> "/$e($m$g$m$g$m)$e/u",
 	);
-	echo "<h3>All Unique Sequences in a Sample Context with 2 and 3 Medials in Microsoft Font / Paduak 5.002</h3>";
+	echo "<h3>All Unique Sequences in a Sample Context with 2 and 3 Medials in Microsoft Font / Paduak 5.003</h3>";
 	echo "<p>";
 	foreach($lookfer as $title => $regex) {
 		$matches = array();
@@ -85,7 +86,7 @@ if ("Debug/Sanskrit-Burmese"==$_Path) {
 		}
 		$flipped = array_flip(array_flip($matches[1]));
 		foreach($flipped as $key => $sequence) {
-			echo "<span class='font-myanmar-microsoft'>{$matches[0][$key]}</span>&nbsp;&nbsp; / &nbsp;&nbsp;<span class='font-myanmar'>{$matches[0][$key]}</span><br>";
+			echo $number++.") <span class='font-myanmar-microsoft'>{$matches[0][$key]}</span>&nbsp;&nbsp; / &nbsp;&nbsp;<span class='font-myanmar'>{$matches[0][$key]}</span><br>";
 		}
 	}
 	echo "</p>";
@@ -113,7 +114,7 @@ if ("Debug/Sanskrit-Burmese"==$_Path) {
 			echo "<b>Context:</b>  Padauk5002( <span class='font-myanmar'>{$matches[0][$key]}</span> )  NotoGoogle( <span class='font-myanmar-google'>{$matches[0][$key]}</span> )  Microsoft( <span class='font-myanmar-microsoft'>{$matches[0][$key]}</span> )<br>";
 			echo "Sequence:  Padauk5002( <span class='font-myanmar'>$sequence</span> )  NotoGoogle( <span class='font-myanmar-google'>$sequence</span> )  Microsoft( <span class='font-myanmar-microsoft'>$sequence</span> )<br>";
 			foreach (mb_str_split($sequence) as $char) {
-				echo "<span class='font-myanmar-microsoft'>$char</span>: ".($decimal=mb_ord($char, "UTF-8"))." / 0x".dechex($decimal)."<br>";
+				echo $number++.") <span class='font-myanmar-microsoft'>$char</span>: ".($decimal=mb_ord($char, "UTF-8"))." / 0x".dechex($decimal)."<br>";
 			}
 			echo "<br>";
 		}
