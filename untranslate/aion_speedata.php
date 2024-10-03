@@ -16,6 +16,179 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 	AION_FILE_DATA_GET( './aion_database/NUMBERS.txt', 'T_NUMBERS', $database, 'BIBLE', FALSE );
 	AION_FILE_DATA_GET( './aion_database/VERSIONS.txt', 'T_VERSIONS', $database, 'BIBLE', FALSE );
 	AION_FILE_DATA_GET( './aion_database/FORPRINT.txt', 'T_FORPRINT', $database, 'BIBLE', FALSE );
+	$verses66 = array(
+		"001	GEN	009	008" => "001	GEN	009	",
+		"001	GEN	009	009" => "001	GEN	009	",
+		"001	GEN	009	010" => "001	GEN	009	",
+		"001	GEN	009	011" => "001	GEN	009	",
+		"001	GEN	009	012" => "001	GEN	009	",
+		"001	GEN	009	013" => "001	GEN	009	",
+		"002	EXO	014	013" => "002	EXO	014	",
+		"002	EXO	014	014" => "002	EXO	014	",
+		"003	LEV	020	026" => "003	LEV	020	",
+		"004	NUM	006	024" => "004	NUM	006	",
+		"004	NUM	006	025" => "004	NUM	006	",
+		"004	NUM	006	026" => "004	NUM	006	",
+		"005	DEU	018	018" => "005	DEU	018	",
+		"005	DEU	018	019" => "005	DEU	018	",
+		"006	JOS	001	007" => "006	JOS	001	",
+		"006	JOS	001	008" => "006	JOS	001	",
+		"006	JOS	001	009" => "006	JOS	001	",
+		"007	JDG	002	007" => "007	JDG	002	",
+		"008	RUT	001	016" => "008	RUT	001	",
+		"008	RUT	001	017" => "008	RUT	001	",
+		"009	1SA	016	007" => "009	1SA	016	",
+		"010	2SA	007	022" => "010	2SA	007	",
+		"011	1KI	002	003" => "011	1KI	002	",
+		"012	2KI	022	019" => "012	2KI	022	",
+		"013	1CH	029	017" => "013	1CH	029	",
+		"014	2CH	007	014" => "014	2CH	007	",
+		"015	EZR	007	010" => "015	EZR	007	",
+		"016	NEH	006	003" => "016	NEH	006	",
+		"017	EST	004	014" => "017	EST	004	",
+		"018	JOB	019	025" => "018	JOB	019	",
+		"019	PSA	023	001" => "019	PSA	023	",
+		"019	PSA	023	002" => "019	PSA	023	",
+		"019	PSA	023	003" => "019	PSA	023	",
+		"019	PSA	023	004" => "019	PSA	023	",
+		"019	PSA	023	005" => "019	PSA	023	",
+		"019	PSA	023	006" => "019	PSA	023	",
+		"020	PRO	003	005" => "020	PRO	003	",
+		"020	PRO	003	006" => "020	PRO	003	",
+		"021	ECC	003	010" => "021	ECC	003	",
+		"021	ECC	003	011" => "021	ECC	003	",
+		"022	SOL	002	004" => "022	SOL	002	",
+		"023	ISA	009	006" => "023	ISA	009	",
+		"023	ISA	009	007" => "023	ISA	009	",
+		"024	JER	029	011" => "024	JER	029	",
+		"025	LAM	003	021" => "025	LAM	003	",
+		"025	LAM	003	022" => "025	LAM	003	",
+		"025	LAM	003	023" => "025	LAM	003	",
+		"026	EZE	036	026" => "026	EZE	036	",
+		"026	EZE	036	027" => "026	EZE	036	",
+		"027	DAN	003	016" => "027	DAN	003	",
+		"027	DAN	003	017" => "027	DAN	003	",
+		"027	DAN	003	018" => "027	DAN	003	",
+		"028	HOS	006	006" => "028	HOS	006	",
+		"029	JOE	002	028" => "029	JOE	002	",
+		"029	JOE	002	029" => "029	JOE	002	",
+		"029	JOE	002	030" => "029	JOE	002	",
+		"029	JOE	002	031" => "029	JOE	002	",
+		"029	JOE	002	032" => "029	JOE	002	",
+		"030	AMO	005	024" => "030	AMO	005	",
+		"031	OBA	001	015" => "031	OBA	001	",
+		"032	JON	002	006" => "032	JON	002	",
+		"032	JON	002	007" => "032	JON	002	",
+		"032	JON	002	008" => "032	JON	002	",
+		"032	JON	002	009" => "032	JON	002	",
+		"033	MIC	006	008" => "033	MIC	006	",
+		"034	NAH	001	002" => "034	NAH	001	",
+		"034	NAH	001	003" => "034	NAH	001	",
+		"035	HAB	003	017" => "035	HAB	003	",
+		"035	HAB	003	018" => "035	HAB	003	",
+		"035	HAB	003	019" => "035	HAB	003	",
+		"036	ZEP	003	017" => "036	ZEP	003	",
+		"037	HAG	001	004" => "037	HAG	001	",
+		"037	HAG	001	005" => "037	HAG	001	",
+		"037	HAG	001	006" => "037	HAG	001	",
+		"037	HAG	001	007" => "037	HAG	001	",
+		"038	ZEC	012	010" => "038	ZEC	012	",
+		"039	MAL	004	002" => "039	MAL	004	",
+		"039	MAL	004	003" => "039	MAL	004	",
+		"040	MAT	028	018" => "040	MAT	028	",
+		"040	MAT	028	019" => "040	MAT	028	",
+		"040	MAT	028	020" => "040	MAT	028	",
+		"041	MAR	001	014" => "041	MAR	001	",
+		"041	MAR	001	015" => "041	MAR	001	",
+		"041	MAR	001	016" => "041	MAR	001	",
+		"041	MAR	001	017" => "041	MAR	001	",
+		"041	MAR	001	018" => "041	MAR	001	",
+		"042	LUK	004	018" => "042	LUK	004	",
+		"043	JOH	003	016" => "043	JOH	003	",
+		"043	JOH	003	017" => "043	JOH	003	",
+		"044	ACT	001	007" => "044	ACT	001	",
+		"044	ACT	001	008" => "044	ACT	001	",
+		"045	ROM	011	032" => "045	ROM	011	",
+		"045	ROM	011	033" => "045	ROM	011	",
+		"045	ROM	011	034" => "045	ROM	011	",
+		"045	ROM	011	035" => "045	ROM	011	",
+		"045	ROM	011	036" => "045	ROM	011	",
+		"046	1CO	006	009" => "046	1CO	006	",
+		"046	1CO	006	010" => "046	1CO	006	",
+		"046	1CO	006	011" => "046	1CO	006	",
+		"047	2CO	005	017" => "047	2CO	005	",
+		"047	2CO	005	018" => "047	2CO	005	",
+		"047	2CO	005	019" => "047	2CO	005	",
+		"047	2CO	005	020" => "047	2CO	005	",
+		"047	2CO	005	021" => "047	2CO	005	",
+		"048	GAL	001	006" => "048	GAL	001	",
+		"048	GAL	001	007" => "048	GAL	001	",
+		"049	EPH	002	001" => "049	EPH	002	",
+		"049	EPH	002	002" => "049	EPH	002	",
+		"049	EPH	002	003" => "049	EPH	002	",
+		"049	EPH	002	004" => "049	EPH	002	",
+		"049	EPH	002	005" => "049	EPH	002	",
+		"049	EPH	002	006" => "049	EPH	002	",
+		"049	EPH	002	007" => "049	EPH	002	",
+		"049	EPH	002	008" => "049	EPH	002	",
+		"049	EPH	002	009" => "049	EPH	002	",
+		"049	EPH	002	010" => "049	EPH	002	",
+		"050	PHI	003	007" => "050	PHI	003	",
+		"050	PHI	003	008" => "050	PHI	003	",
+		"050	PHI	003	009" => "050	PHI	003	",
+		"051	COL	001	015" => "051	COL	001	",
+		"051	COL	001	016" => "051	COL	001	",
+		"051	COL	001	017" => "051	COL	001	",
+		"051	COL	001	018" => "051	COL	001	",
+		"051	COL	001	019" => "051	COL	001	",
+		"051	COL	001	020" => "051	COL	001	",
+		"052	1TH	004	001" => "052	1TH	004	",
+		"052	1TH	004	002" => "052	1TH	004	",
+		"052	1TH	004	003" => "052	1TH	004	",
+		"052	1TH	004	004" => "052	1TH	004	",
+		"052	1TH	004	005" => "052	1TH	004	",
+		"053	2TH	003	006" => "053	2TH	003	",
+		"053	2TH	003	007" => "053	2TH	003	",
+		"053	2TH	003	008" => "053	2TH	003	",
+		"053	2TH	003	009" => "053	2TH	003	",
+		"053	2TH	003	010" => "053	2TH	003	",
+		"054	1TI	002	001" => "054	1TI	002	",
+		"054	1TI	002	002" => "054	1TI	002	",
+		"054	1TI	002	003" => "054	1TI	002	",
+		"054	1TI	002	004" => "054	1TI	002	",
+		"054	1TI	002	005" => "054	1TI	002	",
+		"055	2TI	002	008" => "055	2TI	002	",
+		"055	2TI	002	009" => "055	2TI	002	",
+		"055	2TI	002	010" => "055	2TI	002	",
+		"056	TIT	002	011" => "056	TIT	002	",
+		"056	TIT	002	012" => "056	TIT	002	",
+		"056	TIT	002	013" => "056	TIT	002	",
+		"056	TIT	002	014" => "056	TIT	002	",
+		"057	PHM	001	003" => "057	PHM	001	",
+		"057	PHM	001	004" => "057	PHM	001	",
+		"057	PHM	001	005" => "057	PHM	001	",
+		"057	PHM	001	006" => "057	PHM	001	",
+		"057	PHM	001	007" => "057	PHM	001	",
+		"058	HEB	001	001" => "058	HEB	001	",
+		"058	HEB	001	002" => "058	HEB	001	",
+		"058	HEB	001	003" => "058	HEB	001	",
+		"059	JAM	001	016" => "059	JAM	001	",
+		"059	JAM	001	017" => "059	JAM	001	",
+		"059	JAM	001	018" => "059	JAM	001	",
+		"060	1PE	003	018" => "060	1PE	003	",
+		"061	2PE	001	003" => "061	2PE	001	",
+		"061	2PE	001	004" => "061	2PE	001	",
+		"062	1JO	002	001" => "062	1JO	002	",
+		"062	1JO	002	002" => "062	1JO	002	",
+		"063	2JO	001	007" => "063	2JO	001	",
+		"064	3JO	001	004" => "064	3JO	001	",
+		"065	JUD	001	003" => "065	JUD	001	",
+		"065	JUD	001	004" => "065	JUD	001	",
+		"066	REV	003	019" => "066	REV	003	",
+		"066	REV	003	020" => "066	REV	003	",
+		"066	REV	003	021" => "066	REV	003	",
+		"066	REV	003	022" => "066	REV	003	",
+	);
 	AION_LOOP( array(
 		'function'	=> 'AION_LOOP_PDF_POD_DOIT',
 		'source'	=> $source,
@@ -28,8 +201,9 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_pdflu'	=> FALSE,	// TRUE = do LULU PDFs
 		'q_pdfon'	=> FALSE,	// TRUE = do Online PDFs
 		'q_pdfoo'	=> FALSE,	// TRUE = do One Online PDFs
-		'q_epubc'	=> TRUE,	// TRUE = do ePub covers
-		//'include'	=> "/Holy-Bible---.*(Albanian|Aionian-Bible).*---Aionian-Edition\.noia$/",
+		'q_pdfjo'	=> FALSE,	// TRUE = do John PDFs
+		'q_epubc'	=> TRUE,	// TRUE = do ePub and covers
+		'include'	=> "/Holy-Bible---.*(Arabic|Aionian-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Hebrew-Aleppo-Miqra-Mesorah).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(English---Trans-Trans).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(STEP).*---Aionian-Edition\.noia$/",
@@ -40,7 +214,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|New-Arabic|Burmese-Common|Bulgarian|Basque|Japanese-Yougo|Uyghur-Bible-Pinyin|Sencillo-Bible|Chinese-Union-Version-Traditional).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(King-James-Version-Updated).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Arabic---New-Arabic-Bible).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Arabic|Nepali).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Arabic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(New-Heart|Rote-Dela|French---Vulgate|Yombe|Hebrew---Living|Hebrew---Modern|Bangwinji|Bhadrawahi|Blackfoot|Borna|Chin-Daai|Chin--Thaiphum).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---[N-Z]+.*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Ndebele---Ndebele-Bible|Ndengereko---Ndengereko-Bible|N[e-z]+|[O-Z]+).*---Aionian-Edition\.noia$/",
@@ -49,7 +223,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Basque|Breton).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Chiyawo).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Ahirani|Hebrew---Living-Bible).*---Aionian-Edition\.noia$/",
-		'include'	=> "/Holy-Bible---.*(Burmese|Myanmar).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Burmese|Myanmar).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Nepali-Bible|Oriya-Bible|Uyghur-Bible-Cyrillic|Uyghur-Bible-Pinyin).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(LXX|Khan).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/(Holy-Bible---Latvian---Latvian-Gluck-Bible|Holy-Bible---Japanese---Japanese-Yougo-yaku)---Aionian-Edition\.noia$/",
@@ -64,11 +238,12 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Greek-STEP|Hebrew-STEP|1910-Contemp|Romanian---BTF|Tsakhur).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Sanskrit---Urdu).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Coptic---Coptic-Boharic-NT---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---English---Catholic-Public-Domain---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---English---(World-English-Bible-Updated|Aionian-Bible)---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
 		//'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
+		'verses66'	=> $verses66,
 		) );
 	AION_unset($database); unset($database);
 	system("cat Holy-Bible*.messages > BIBLE-PROOF.messages");
@@ -93,6 +268,7 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 
 	// SKIP
 	$forprint = $args['database']['T_FORPRINT'][$bible];
+	//if ($forprint['YESJOHN']!="TRUE") { return; } // JOHNNY TEST TEST TEST TEST
 	if ($forprint['NOPDO']=="TRUE") {
 		if ($args['q_allall']) { $args['q_pdfon'] = TRUE; }
 		$args['q_pdfall'] = $args['q_pdfpo'] = $args['q_pdfnt'] = $args['q_pdflu'] = FALSE;
@@ -151,6 +327,10 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 	$destiny_POD_COVER_LULU_NT		= '---POD_LULU_NEW_COVER';
 	$destiny_POD_LULU_22			= '---POD_LULU_X22_BODY';
 	$destiny_POD_COVER_LULU_22		= '---POD_LULU_X22_COVER';
+	$destiny_POD_JOHN				= '---POD_JOHN_BODY';
+	$destiny_POD_JOHN_COVER			= '---POD_JOHN_COVER';
+	$destiny_POD_JOHN_LULU			= '---POD_LULU_JOHN_BODY';
+	$destiny_POD_JOHN_COVER_LULU	= '---POD_LULU_JOHN_COVER';
 	$destiny_EPUB					= '---EPUB_COVER';
 	$destiny_SPEEDATA				= '---SPEEDATA';
 	// replacements
@@ -241,6 +421,9 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 
 	// loop
 	foreach($database['T_BIBLE'] as $ref => $verse) {
+		// VV MARKERS
+		$VC = (in_array("{$verse['INDEX']}\t{$verse['BOOK']}\t{$verse['CHAPTER']}\t",$args['verses66']) ? " C='1'" : "");
+		$VV = (!empty($args['verses66']["{$verse['INDEX']}\t{$verse['BOOK']}\t{$verse['CHAPTER']}\t{$verse['VERSE']}"]) ? " R='1'" : "");
 		// BOOK
 		if ($current_book != $verse['BOOK']) {
 			if ($current_book != NULL) {
@@ -255,19 +438,16 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 			if(strpos($BOOK,'"')!==FALSE || strpos($BOOKENGLISH,'"')!==FALSE) { AION_ECHO("ERROR! book name quote problem! $BOOK $BOOKENGLISH"); }
 			$CHAPTER = $args['database']['T_NUMBERS'][$bible][(int)$verse['CHAPTER']];
 			$GoTwentyTwo = (empty($TwentyTwo[$verse['BOOK']]) ? "" : "GO");
-			if ((int)$verse['INDEX']<40) {
-				if (!fwrite($fp, '<oldtest BOOK="'.$BOOK.'" BOOKENGLISH="'.$BOOKENGLISH.'" TWENTYTWO="'.$GoTwentyTwo.'" LANG="'.$LANGSPEED.'">'."\n<chapter CHAP='$CHAPTER'>")) { AION_ECHO("ERROR! fwrite: $DATA"); } 
-				$closetag = 'oldtest';
-			}
-			else {
-				if (!fwrite($fp, '<newtest BOOK="'.$BOOK.'" BOOKENGLISH="'.$BOOKENGLISH.'" TWENTYTWO="'.$GoTwentyTwo.'" LANG="'.$LANGSPEED.'">'."\n<chapter CHAP='$CHAPTER'>")) { AION_ECHO("ERROR! fwrite: $DATA"); } 
-				$closetag = 'newtest';
-			}
+			$GoJohnnyB = ($verse['BOOK']=="GEN" || $verse['BOOK']=="JOH" || $verse['BOOK']=="REV" ? "GO" : "");
+			$GoJohnnyC = (($verse['BOOK']=="GEN" && (int)$verse['CHAPTER']<=4) || $verse['BOOK']=="JOH" || ($verse['BOOK']=="REV"  && (int)$verse['CHAPTER']>=19) ? "GO" : "");
+			$closetag = ((int)$verse['INDEX']<40 ? 'oldtest' : 'newtest');
+			if (!fwrite($fp, "<{$closetag} BOOK=\"{$BOOK}\" BOOKENGLISH=\"{$BOOKENGLISH}\" TWENTYTWO=\"{$GoTwentyTwo}\" JO=\"{$GoJohnnyB}\" LANG=\"{$LANGSPEED}\">\n<chapter CHAP=\"$CHAPTER\" JO=\"{$GoJohnnyC}\"{$VC}>")) { AION_ECHO("ERROR! fwrite: $DATA"); } 
 		}
 		// CHAPTER
 		else if ($current_chap != $verse['CHAPTER']) {
+			$GoJohnny = (($verse['BOOK']=="GEN" && (int)$verse['CHAPTER']<=4) || $verse['BOOK']=="JOH" || ($verse['BOOK']=="REV"  && (int)$verse['CHAPTER']>=19) ? "GO" : "");
 			$CHAPTER = $args['database']['T_NUMBERS'][$bible][(int)$verse['CHAPTER']];
-			if (!fwrite($fp, "</chapter>\n<chapter CHAP='$CHAPTER'>")) { AION_ECHO("ERROR! fwrite: $DATA"); }
+			if (!fwrite($fp, "</chapter>\n<chapter CHAP=\"{$CHAPTER}\" JO=\"{$GoJohnny}\"{$VC}>")) { AION_ECHO("ERROR! fwrite: $DATA"); }
 		}
 		$current_book = $verse['BOOK'];
 		$current_chap = $verse['CHAPTER'];
@@ -300,13 +480,13 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 		// VERSE FORMAT
 		$count_q = $count_g = 0;
 		// question span
-		if (!($verse['TEXT'] = preg_replace('/\(questioned\)/ui', "</span><span class='vo'>(questioned)</span><span class='va'>", $verse['TEXT'],-1,$count_q))) { AION_ECHO("ERROR! preg_replace(gXXX)"); }
+		if (!($verse['TEXT'] = preg_replace('/\(questioned\)/ui', "</span><span class='vo'$VV>(questioned)</span><span class='va'$VV>", $verse['TEXT'],-1,$count_q))) { AION_ECHO("ERROR! preg_replace(gXXX)"); }
 		if ($count_q > 0) {
 			AION_ECHO("SPEEDATA GLOSSARY QUES: $bible ".$verse['BOOK']." ".$verse['CHAPTER']." ".$verse['VERSE']);
 			$database['T_GLOSSARY_REFERENCES'][]=array_merge($verse,array('WORD'=>'QUESTIONED'));
 		}
 		// aionian note span
-		if (!($verse['TEXT'] = preg_replace('/(\([^()]+[gGhH]{1}[[:digit:]]+[^()]*\))/ui', '</span><span class=\'vo\'>$1</span><span class=\'va\'>', $verse['TEXT'],-1,$count_g))) { AION_ECHO("ERROR! preg_replace(gXXX)"); }
+		if (!($verse['TEXT'] = preg_replace('/(\([^()]+[gGhH]{1}[[:digit:]]+[^()]*\))/ui', "</span><span class='vo'$VV>\$1</span><span class='va'$VV>", $verse['TEXT'],-1,$count_g))) { AION_ECHO("ERROR! preg_replace(gXXX)"); }
 		if (!$count_g && !empty($database['T_GLOSSARY_REFERENCES'][$ref])) {
 			AION_ECHO("SPEEDATA GLOSSARY MOVE: $bible ".$verse['BOOK']." ".$verse['CHAPTER']." ".$verse['VERSE']);
 			$database['T_GLOSSARY_REFERENCES'][$ref]['MARK']='*';
@@ -316,13 +496,13 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 		}
 		// mark 16:9 note span and others
 		if ($verse['INDEX']==41 && $verse['CHAPTER']==16 && $verse['VERSE']==9 &&
-			!($verse['TEXT'] = preg_replace('/(\(note:[^()]+\))/ui', "</span><span class='vo'>$1</span><span class='v'>", $verse['TEXT'],1))) { AION_ECHO("ERROR! preg_replace(MAR 16:9)"); }
+			!($verse['TEXT'] = preg_replace('/(\(note:[^()]+\))/ui', "</span><span class='vo' VV='0'>$1</span><span class='v' VV='0'>", $verse['TEXT'],1))) { AION_ECHO("ERROR! preg_replace(MAR 16:9)"); }
 		if ('Holy-Bible---Myanmar---Myanmar-Burmese-Judson'==$bible &&
-			!($verse['TEXT'] = preg_replace('/(\(note:[^()]+\))/ui', "</span><span class='vo'>$1</span><span class='v'>", $verse['TEXT'],1))) { AION_ECHO("ERROR! preg_replace(Myanmar note!)"); }
+			!($verse['TEXT'] = preg_replace('/(\(note:[^()]+\))/ui', "</span><span class='vo' VV='0'>$1</span><span class='v' VV='0'>", $verse['TEXT'],1))) { AION_ECHO("ERROR! preg_replace(Myanmar note!)"); }
 		$VNUM = (int)$verse['VERSE'];
 		$VERSE = $args['database']['T_NUMBERS'][$bible][(int)$verse['VERSE']];
-		if ($count_q || $count_g) { $verse['TEXT'] = "<span class='vna' V='$VNUM' VN='$VERSE'> $VERSE </span><span class='va'>".$verse['TEXT']." </span>"; }
-		else { $verse['TEXT'] = "<span class='vn' V='$VNUM' VN='$VERSE'> $VERSE </span><span class='v'>".$verse['TEXT']." </span>"; }
+		if ($count_q || $count_g) { $verse['TEXT'] = "<span class='vna' V='$VNUM'$VV> $VERSE </span><span class='va'$VV>".$verse['TEXT']." </span>"; }
+		else { $verse['TEXT'] = "<span class='vn' V='$VNUM'$VV> $VERSE </span><span class='v'$VV>".$verse['TEXT']." </span>"; }
 		if (!fwrite($fp, $verse['TEXT'])) { AION_ECHO("ERROR! fwrite: $DATA"); }
 	}
 	if (!fwrite($fp, "</chapter>\n</$closetag>\n</bible>\n")) { AION_ECHO("ERROR! fwrite: $DATA"); }
@@ -443,6 +623,18 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 		if (!file_put_contents($outxml,AION_LOOP_PDF_POD_LAYOUT_COVR($versions,$forprint,$default,"$bible$destiny_POD_INTERIOR.pdf",FALSE,$numarialfont,$outisb,'ISBNLUHARD',TRUE))) { AION_ECHO("ERROR! file_put_contents: $outxml"); }
 		if (!file_put_contents($outlua,str_replace('XMLTOVALIDATE',$outxml,$lua))) { AION_ECHO("ERROR! file_put_contents: $outlua"); }
 	}
+
+	if (!empty($forprint['YESJOHN'])) {
+		$outxml = "bible_layout$destiny_POD_JOHN.xml";
+		$outlua = "bible_luachk$destiny_POD_JOHN.lua";
+		$outpdf = "$bible$destiny_POD_JOHN.pdf";
+		if (!file_put_contents($outxml,AION_LOOP_PDF_POD_LAYOUT_BODY($versions,$forprint,$default,"Gospel of John, Primer Edition",'PODJO',$numarialfont,$outpdf))) { AION_ECHO("ERROR! file_put_contents: $outxml"); }
+		if (!file_put_contents($outlua,str_replace('XMLTOVALIDATE',$outxml,$lua))) { AION_ECHO("ERROR! file_put_contents: $outlua"); }
+		$outxml = "bible_layout$destiny_POD_JOHN_COVER.xml";
+		$outlua = "bible_luachk$destiny_POD_JOHN_COVER.lua";
+		if (!file_put_contents($outxml,AION_LOOP_PDF_POD_LAYOUT_COVR($versions,$forprint,$default,"$bible$destiny_POD_JOHN.pdf","Gospel of John, Primer Edition",$numarialfont,NULL,NULL,FALSE))) { AION_ECHO("ERROR! file_put_contents: $outxml"); }
+		if (!file_put_contents($outlua,str_replace('XMLTOVALIDATE',$outxml,$lua))) { AION_ECHO("ERROR! file_put_contents: $outlua"); }
+	}
 	AION_ECHO("SPEEDATA $bible: LAYOUT CREATION SUCCESS!");
 
 	// UNSET
@@ -481,6 +673,9 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 #	[prefix]---POD_LULU_NEW_COVER.[suffix]		// Print on demand cover New Testament for LuLu specifications
 #	[prefix]---POD_LULU_HAR_BODY.[suffix]		// Print on demand interior hardback for LuLu specifications
 #	[prefix]---POD_LULU_HAR_COVER.[suffix]		// Print on demand cover hardback for LuLu specifications
+#	[prefix]---POD_JOHN_BODY.[suffix]			// Print on demand interior Genesis, John and Revelation for Amazon KDP and Lulu specifications
+#	[prefix]---POD_JOHN_COVER.[suffix]			// Print on demand cover Genesis, John and Revelation for Amazon KDP and Lulu specifications
+#	[prefix]---POD_LULU_JOHN_BODY.[suffix]		// Print on demand RTL interior Genesis, John and Revelation for Lulu specifications
 #
 error_exit()
 {
@@ -506,6 +701,11 @@ name="$destiny_POD_INTERIOR_22"
 if ( [ "\$1" = "+ALL" ] || [[ "\${@#+PO}" != "\$@" ]] ) && [ -f bible_layout\$name.xml ] ; then \$SPEED --config $CONFIGFILE --jobname=$bible\$name --filter=bible_luachk\$name.lua --layout=bible_layout\$name.xml || error_exit "ERROR $bible\$name.pdf"; fi
 name="$destiny_POD_COVER_22"
 if ( [ "\$1" = "+ALL" ] || [[ "\${@#+PO}" != "\$@" ]] ) && [ -f bible_layout\$name.xml ] ; then \$SPEED --config $CONFIGFILE  --jobname=$bible\$name --filter=bible_luachk\$name.lua --layout=bible_layout\$name.xml || error_exit "ERROR $bible\$name.pdf"; fi
+
+name="$destiny_POD_JOHN"
+if ( [ "\$1" = "+ALL" ] || [[ "\${@#+JO}" != "\$@" ]] ) && [ -f bible_layout\$name.xml ] ; then \$SPEED --config $CONFIGFILE --jobname=$bible\$name --filter=bible_luachk\$name.lua --layout=bible_layout\$name.xml || error_exit "ERROR $bible\$name.pdf"; fi
+name="$destiny_POD_JOHN_COVER"
+if ( [ "\$1" = "+ALL" ] || [[ "\${@#+JO}" != "\$@" ]] ) && [ -f bible_layout\$name.xml ] ; then \$SPEED --config $CONFIGFILE  --jobname=$bible\$name --filter=bible_luachk\$name.lua --layout=bible_layout\$name.xml || error_exit "ERROR $bible\$name.pdf"; fi
 
 name="$destiny_POD_INTERIOR_NT"
 if ( [ "\$1" = "+ALL" ] || [[ "\${@#+NT}" != "\$@" ]] ) && [ -f bible_layout\$name.xml ] ; then \$SPEED --config $CONFIGFILE --jobname=$bible\$name --filter=bible_luachk\$name.lua --layout=bible_layout\$name.xml || error_exit "ERROR $bible\$name.pdf"; fi
@@ -548,6 +748,7 @@ EOT;
 	$runflag .= ($args['q_pdfpo']	? " +PO"	: "");
 	$runflag .= ($args['q_pdfnt']	? " +NT"	: "");
 	$runflag .= ($args['q_pdflu']	? " +LU"	: "");
+	$runflag .= ($args['q_pdfjo']	? " +JO"	: "");
 	$runflag .= ($args['q_epubc']	? " +EP"	: "");
 	// RUN
 	$scripterr = FALSE;
@@ -595,6 +796,10 @@ EOT;
 		if (!rename("$bible$destiny_POD_LULU_HARD.pdf",			"../$bible$destiny_POD_LULU_HARD.pdf")) {			AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_POD_LULU_HARD.pdf");		$scripterr = TRUE; }
 		if (!rename("$bible$destiny_POD_COVER_LULU_HARD.pdf",	"../$bible$destiny_POD_COVER_LULU_HARD.pdf")) {		AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_POD_COVER_LULU_HARD.pdf");	$scripterr = TRUE; }
 	}
+	if (($args['q_pdfall'] || $args['q_pdfjo']) && !empty($forprint['YESJOHN'])) {
+		if (!rename("$bible$destiny_POD_JOHN.pdf",				"../$bible$destiny_POD_JOHN.pdf")) {				AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_POD_JOHN.pdf");			$scripterr = TRUE; }
+		if (!rename("$bible$destiny_POD_JOHN_COVER.pdf",		"../$bible$destiny_POD_JOHN_COVER.pdf")) {			AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_POD_JOHN_COVER.pdf");		$scripterr = TRUE; }
+	}
 	
 	// MOVE STATUS
 	system("cat *.status > $bible.messages");	
@@ -640,6 +845,12 @@ EOT;
 			if (!rename("$bible$destiny_POD_LULU_HARD.rev.pdf",	"$bible$destiny_POD_LULU_HARD.pdf")) {				AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_POD_LULU_HARD.rev.pdf");	$scripterr = TRUE; }
 		}
 	}
+	if (($args['q_pdfall'] || $args['q_pdfjo']) && !empty($forprint['YESJOHN'])) {
+		if ($forprint['RTL']=='TRUE') {
+			system("pdftk $bible$destiny_POD_JOHN.pdf cat end-1 output $bible$destiny_POD_JOHN_LULU.rev.pdf");
+			if (!rename("$bible$destiny_POD_JOHN_LULU.rev.pdf",		"$bible$destiny_POD_JOHN_LULU.pdf")) {			AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_POD_JOHN_LULU.rev.pdf");	$scripterr = TRUE; }
+		}
+	}
 	
 	// CLEANUP
 	AION_unset($forprint); unset($forprint); $forprint=NULL;
@@ -647,7 +858,7 @@ EOT;
 	// ZIP
 	system("zip -r - $bible$destiny_SPEEDATA > $bible$destiny_SPEEDATA.zip");
 	AION_ECHO("SPEEDATA $bible: ZIP SUCCESS!");
-	system("rm -rf $bible$destiny_SPEEDATA");
+	//system("rm -rf $bible$destiny_SPEEDATA");
 	if ($scripterr) {	AION_ECHO("SPEEDATA $bible: FINAL ERROR"); }
 	else {				AION_ECHO("SPEEDATA $bible: FINAL SUCCESS"); }
 }
@@ -817,13 +1028,14 @@ $isbn		= trim(!empty($forprint['ISBN'])		? $forprint['ISBN']			: ''						);
 $extension	= trim(!empty($forprint['EXTENSION'])	? "true()"					: "false()"					);
 $keizer		= trim(!empty($forprint['KEIZER'])		? "true()"					: "false()"					);
 $history	= trim(!empty($forprint['HIST'])		? $forprint['HIST']			: $default['HIST']			);
-$pref		= trim(!empty($forprint['PREF'])		? $forprint['PREF']			: $default['PREF']			);
-$pref2		= trim(!empty($forprint['PREF2'])		? $forprint['PREF2']		: $default['PREF2']			);
+$pref		= trim(!empty($forprint['PREF'])  && $format!='PODJO' ? $forprint['PREF']	: $default['PREF']	);
+$pref2		= trim(!empty($forprint['PREF2']) && $format!='PODJO' ? $forprint['PREF2']	: $default['PREF2']	);
 $read		= trim(!empty($forprint['READ'])		? $forprint['READ']			: $default['READ']			);
 $glos1		= trim(!empty($forprint['GLOS1'])		? $forprint['GLOS1']		: $default['GLOS1']			);
 $glos2		= trim(!empty($forprint['GLOS2'])		? $forprint['GLOS2']		: $default['GLOS2']			);
 $glos3		= trim(!empty($forprint['GLOS3'])		? $forprint['GLOS3']		: $default['GLOS3']			);
 $loff		= trim(!empty($forprint['LOF'])			? $forprint['LOF']			: $default['LOF']			);
+$verses		= trim(!empty($forprint['VERSES'])		? $forprint['VERSES']		: $default['VERSES']		);
 // words
 $w_font		= trim(!empty($forprint['W_FONT'])		? $forprint['W_FONT']		: $default['W_FONT']		);
 $w_hist		= trim(!empty($forprint['W_HIST'])		? $forprint['W_HIST']		: $default['W_HIST']		);
@@ -837,6 +1049,7 @@ $w_glos		= trim(!empty($forprint['W_GLOS'])		? $forprint['W_GLOS']		: $default['
 $w_map		= trim(!empty($forprint['W_MAP'])		? $forprint['W_MAP']		: $default['W_MAP']			);
 $w_ilus		= trim(!empty($forprint['W_ILUS'])		? $forprint['W_ILUS']		: $default['W_ILUS']		);
 $w_dest		= trim(!empty($forprint['W_DESTINY'])	? $forprint['W_DESTINY']	: $default['W_DESTINY']		);
+$w_verses	= trim(!empty($forprint['W_VERSES'])	? $forprint['W_VERSES']		: $default['W_VERSES']		);
 $w_life		= trim(!empty($forprint['W_LIFE'])		? $forprint['W_LIFE']		: $default['W_LIFE']		);
 $w_lifex	= trim(!empty($forprint['W_LIFEX'])		? $forprint['W_LIFEX']		: $default['W_LIFEX']		);
 $w_worl		= trim(!empty($forprint['W_WORL'])		? $forprint['W_WORL']		: $default['W_WORL']		);
@@ -865,6 +1078,7 @@ $bm_read	= str_replace("'","’",$w_read);
 $bm_glos	= str_replace("'","’",$w_glos);
 $bm_map		= str_replace("'","’",$w_map);
 $bm_loff	= str_replace("'","’",$w_dest);
+$bm_verses	= str_replace("'","’",$w_verses);
 // verses
 $v_font		= trim(!empty($forprint['V_FONT'])		? $forprint['V_FONT']		: $default['V_FONT']		);
 $joh3_16	= trim(!empty($forprint['JOH3_16'])		? $forprint['JOH3_16']		: $default['JOH3_16']		);
@@ -942,6 +1156,7 @@ $read		= foreignlink($default['W_READ'],	$w_read,	"",		$w_font,	$langforeign,	$l
 $glos1		= foreignlink($default['W_GLOS'],	$w_glos,	"",		$w_font,	$langforeign,	$langenglish,	$glos1,		$langspeed, $rtl);
 $glos3		= foreignlink($default['W_GLOS'],	$w_glos,	" +",	$w_font,	"",				$langenglish,	$glos3,		$langspeed, $rtl);
 $loff		= foreignlink($default['W_DESTINY'],$w_dest,	"",		$w_font,	$langforeign,	$langenglish,	$loff,		$langspeed, $rtl);
+$verses		= foreignlink($default['W_VERSES'],	$w_verses,	"",		$w_font,	$langforeign,	$langenglish,	$verses,	$langspeed, $rtl);
 // add the PDF hyperlinks
 $bibleurl = preg_replace("/Holy-Bible---/","",$versions['BIBLE']);
 $link_tor = "<Value>TOR Anonymously</Value><Br />";
@@ -1104,16 +1319,24 @@ $versionSS_CP .= (empty($isbn) || $isbn=="UNKNOWN" ? "" : "<Value>ISBN: ".$isbn.
 $extension_text = '';
 $copyright_row = '50';
 if (!empty($forprint['EXTENSION'])) {
+	$extension = 'true()';
 	$extension_text = trim($forprint['EXTENSION']);
 	$copyright_row = '6';
+}
+else if ($format=='PODJO' && ($extension_text=trim(!empty($forprint['JOHNEXTENSION'])	? $forprint['JOHNEXTENSION'] : $default['JOHNEXTENSION'] ))) {
+	$extension = 'true()';
+	$copyright_row = '6';
+}
+else {
+	$extension = 'false()';
 }
 // KEIZER
 $web72 = '';
 // newtonly
 $oldtestno = ($newtonly=="New Testament" ? "true()" : "false()");
 $testflag = "_$format";
-// twenty-two only
-$allbooks = ($format=='POD22' ? 'false()' : 'true()');
+// twenty-two and johnny only
+$allbooks = ($format=='POD22' || $format=='PODJO' ? 'false()' : 'true()');
 // online and study format
 $onlineformat = (($format=="READ" || $format=="STUDY") ? "true()" : "false()" );
 $rotated = (($format=="READ") ? "true()" : "false()" );
@@ -1295,6 +1518,7 @@ $fonts
 <DefineTextformat name="center"				alignment="centered"		hyphenate="no"								/>
 <DefineTextformat name="centerpad"			alignment="centered"		hyphenate="no"		padding-top="10pt"		/>
 <DefineTextformat name="prefaceparagraph"	alignment="justified"		hyphenate="no"		padding-top="7pt"		/>
+<DefineTextformat name="versesparagraph"	alignment="justified"		hyphenate="no"		padding-top="7pt"	margin-bottom="12pt"	/>
 <DefineTextformat name="left"				alignment="leftaligned"		hyphenate="no"								/>
 <DefineTextformat name="leftpad"			alignment="leftaligned"		hyphenate="no"		padding-top="10pt"		/>
 <DefineTextformat name="right"				alignment="rightaligned"	hyphenate="no"								/>
@@ -1470,7 +1694,9 @@ $fonts
 			</Paragraph></Textblock></PlaceObject>
 		</Case>
 		<Otherwise>
-			<ClearPage openon="right" pagetype="$page1colright" force="yes" />
+			<Switch><Case test="'$format'!='PODJO'">	
+				<ClearPage openon="right" pagetype="$page1colright" force="yes" />
+			</Case></Switch>	
 			<ClearPage openon="right" pagetype="$page1colright" />
 			<Bookmark level="1" select="'Title Page'" open="no" />
 			<PlaceObject row="7" column="1"><Textblock><Paragraph textformat="$TITLEJUSTIFICATION">
@@ -1519,14 +1745,20 @@ $fonts
 	</Textblock></PlaceObject>
 	<Message select="concat('ABPROOFER $outpdf COPYRIGHT ',sd:current-page())" />
 
-	<!-- HISTORY -->
+<!-- NOT JOHNNY -->
+<Switch><Case test="'$format'!='PODJO'">
+	<!-- VICTORY -->
 	<ClearPage openon="right" pagetype="$page1colright" />
 	<PlaceObject row="50" column="1"><Textblock><Paragraph textformat="center"><Fontface fontfamily='FF-Copy'>
 		<I><Value>Celebrate Jesus Christ’s victory of grace!</Value></I>
 	</Fontface></Paragraph></Textblock></PlaceObject>
+</Case></Switch>
 
 	<!-- BIBLE PREFACE -->
 	<Switch>
+		<Case test="'$format'='PODJO'">
+			<ClearPage openon="right" pagetype="$page1colright" /><Bookmark level="1" select="'$bm_pref'" open="no" /><Output area="area1col"><Text>$pref</Text></Output>
+		</Case>
 		<Case test="$keizer">
 			<ClearPage openon="left" pagetype="$page1colleft" /><Bookmark level="1" select="'$bm_pref'" open="no" /><Output area="area1col"><Text>$pref</Text></Output>
 			<ClearPage openon="right" pagetype="$page1colright"  /><Output area="area1col"><Text>$pref2</Text></Output>
@@ -1538,7 +1770,9 @@ $fonts
 	</Switch>
 	<Message select="concat('ABPROOFER $outpdf PREFACE ',sd:current-page())" />
 
-	<!-- VICTORY -->
+<!-- NOT JOHNNY -->
+<Switch><Case test="'$format'!='PODJO'">
+	<!-- HISTORY -->
 	<ClearPage openon="left" pagetype="$page1colleft" />
 	<Bookmark level="1" select="'$bm_hist'" open="no" />
 	<Output area="area1col"><Text>$history</Text></Output>
@@ -1547,15 +1781,28 @@ $fonts
 	<!-- BIBLE TOC -->
 	<ClearPage openon="right" pagetype="$page1colright" />
 	<InsertPages name="toc" pages="1" />
-    <SetVariable variable="toc_variable"/>
 	<Message select="concat('ABPROOFER $outpdf TOC ',sd:current-page() - 1 )" />
+</Case>
+<Otherwise>
+<Message select="concat('ABPROOFER $outpdf HISTORY 0')" />
+<Message select="concat('ABPROOFER $outpdf TOC 0')" />
+</Otherwise>
+</Switch>
+    <SetVariable variable="toc_variable"/>
 	
 	<!-- BIBLE OLD INTRO -->
 	<Switch><Case test="\$gotold='true'">
+<!-- NOT JOHNNY -->
+<Switch><Case test="'$format'!='PODJO'">
 		<ClearPage openon="right" pagetype="$page1colright" />
 		<Bookmark level="1" select="'$bm_old'" open="no" />
 		<PlaceObject row="1" column="1"><Textblock><Paragraph language="Other" textformat="$TITLEJUSTIFICATION">$w_old</Paragraph></Textblock></PlaceObject>
 		<Message select="concat('ABPROOFER $outpdf OT-INTRO ',sd:current-page())" />
+</Case>
+<Otherwise>
+<Message select="concat('ABPROOFER $outpdf OT-INTRO 0')" />
+</Otherwise>
+</Switch>
 		<ClearPage openon="left" pagetype="$page1colleft" />
 		<PlaceObject row="1" column="1"><Image file='$PIX_OLD' width='$MARGIN_SINGLE_WIDTH' /></PlaceObject>
 		<PlaceObject row="105" column="5"><Textblock width="69">$gen3_24</Textblock></PlaceObject>
@@ -1572,15 +1819,22 @@ $fonts
     <SetVariable variable="proof_gotfirst" select="'false'"/>
 	<Switch><Case test="$adjustpagenumbers"><SetVariable variable="pagesextra" select="sd:current-page()"/></Case></Switch>
 	<Switch><Case test="\$gotold='true'">
-		<ProcessNode select="oldtest" />
+		<ProcessNode select="oldtest"  mode="oldregular"/>
 	</Case></Switch>
 		
 	<!-- BIBLE NEW INTRO -->
 	<Switch><Case test="\$gotnew='true'">
+<!-- NOT JOHNNY -->
+<Switch><Case test="'$format'!='PODJO'">
 		<ClearPage openon="right" pagetype="$page1colright" skippagetype="$page1colleft" />
 		<Bookmark level="1" select="'$bm_new'" open="no" />
 		<PlaceObject row="1" column="1"><Textblock><Paragraph language="Other" textformat="$TITLEJUSTIFICATION">$w_new</Paragraph></Textblock></PlaceObject>
 		<Message select="concat('ABPROOFER $outpdf NT-INTRO ',sd:current-page())" />
+</Case>
+<Otherwise>
+<Message select="concat('ABPROOFER $outpdf NT-INTRO 0')" />
+</Otherwise>
+</Switch>
 		<ClearPage openon="left" pagetype="$page1colleft" />
 		<PlaceObject row="1" column="1"><Image file='$PIX_NEW' width='$MARGIN_SINGLE_WIDTH' /></PlaceObject>
 		<PlaceObject row="105" column="5"><Textblock width="69">$luk23_34</Textblock></PlaceObject>
@@ -1596,14 +1850,29 @@ $fonts
 	<!-- BIBLE NEW TESTAMENT -->
     <SetVariable variable="proof_gotfirst" select="'false'"/>
 	<Switch><Case test="$adjustpagenumbers and \$gotold='false'"><SetVariable variable="pagesextra" select="sd:current-page()"/></Case></Switch>
-	<ProcessNode select="newtest" />
-	
+	<ProcessNode select="newtest"  mode="newregular"/>
+
+<!-- JOHNNY -->
+<Switch><Case test="'$format'='PODJO'">	
+	<!-- VERSES -->
+	<SetVariable variable="newpagetype" select="'page1col'"/>
+	<SetVariable variable="versesbook" select="''"/>
+	<ClearPage openon="left" pagetype="page1colleft" skippagetype="page1colright"/>
+	<Bookmark level="1" select="'$bm_verses'" open="no" />
+	<Message select="concat('ABPROOFER $outpdf VERSES ',sd:current-page())" />
+	<Output area="area1col"><Text>$verses</Text></Output>
+	<ProcessNode select="oldtest" mode="oldbiblebook"/>	
+	<ProcessNode select="newtest" mode="newbiblebook"/>
+</Case>
+<Otherwise>
 	<!-- BIBLE PICTURE -->
 	<ClearPage openon="left" pagetype="$page1colleft" skippagetype="$page1colright"/>	
 	<Bookmark level="1" select="'$bm_apdx'" open="no" />
 	<PlaceObject row="1" column="1"><Image file='$PIX_END' width='$MARGIN_SINGLE_WIDTH' /></PlaceObject>
 	<PlaceObject row="105" column="5"><Textblock width="69">$rev21_2_3</Textblock></PlaceObject>
 	<Message select="concat('ABPROOFER $outpdf END-PIX ',sd:current-page())" />
+</Otherwise>
+</Switch>
 	
 	<!-- READERS GUIDE -->
 	<ClearPage openon="right" pagetype="$page1colright" />
@@ -1621,6 +1890,8 @@ $fonts
 	<Output area="area1col"><Text>$glos2</Text></Output>
 	<Message select="concat('ABPROOFER $outpdf GLOSSARY2 ',sd:current-page())" />
 
+<!-- NOT JOHNNY -->
+<Switch><Case test="'$format'!='PODJO'">
 	<!-- BIBLE GLOSSARY+ -->
 	<SetVariable variable="newpagetype" select="'page2colref'"/>
 	<ClearPage openon="left" pagetype="page2colleftref" />
@@ -1629,6 +1900,12 @@ $fonts
 	<Message select="concat('ABPROOFER $outpdf GLOSSARYA ',sd:current-page())" />
 	<LoadDataset name="references_dataset"/>
 	<Message select="concat('ABPROOFER $outpdf GLOSSARYB ',sd:current-page())" />
+</Case>
+<Otherwise>
+<Message select="concat('ABPROOFER $outpdf GLOSSARYA 0')" />
+<Message select="concat('ABPROOFER $outpdf GLOSSARYB 0')" />
+</Otherwise>
+</Switch>
 
 	<!-- BIBLE MAPS -->
 	<Switch>
@@ -1736,12 +2013,14 @@ $fonts
 			<Message select="concat('ABPROOFER $outpdf MAP5 ',sd:current-page())" />
 		</Otherwise>
 	</Switch>
-	
+
+<!-- NOT JOHNNY -->
+<Switch><Case test="'$format'!='PODJO'">
 	<!-- BIBLE BLANKS -->
 	<Switch><Case test="$onlineformat"></Case><Otherwise>
 		<ClearPage openon="left" pagetype="$page1colleft"/>
 	</Otherwise></Switch>
-	
+
 	<!-- SAVE DATASET -->
 	<Message select="concat('PAGE COUNT','$testflag',': ',@NAMEENGLISH,', ',sd:current-page())" />
 	<SaveDataset name="toc_dataset" elementname="toc_element" select="\$toc_variable" />
@@ -1751,6 +2030,12 @@ $fonts
 		<Bookmark level="1" select="'$bm_toc'" open="no" />
 		<LoadDataset name="toc_dataset"/>
 	</SavePages>
+</Case>
+<Otherwise>
+<Message select="concat('PAGE COUNT','$testflag',': ',@NAMEENGLISH,', ',sd:current-page())" />
+</Otherwise>
+</Switch>
+
 </Record>
 
 
@@ -1788,9 +2073,10 @@ $fonts
 
 
 <!-- PRINT OLD TESTAMENT -->
-<Record element="oldtest">
+<Record element="oldtest" mode="oldregular">
 	<SetVariable variable="twentytwo" select="@TWENTYTWO"/>
-	<Switch><Case test="$allbooks or \$twentytwo='GO'" >
+	<SetVariable variable="johnny" select="@JO"/>
+	<Switch><Case test="$allbooks or ('$format'='POD22' and \$twentytwo='GO') or ('$format'='PODJO' and \$johnny='GO')">
 		<SetVariable variable="newpagetype" select="'biblepage'"/>
 		<SetVariable variable="book" select="@BOOK"/>
 		<SetVariable variable="lang" select="@LANG"/>
@@ -1800,53 +2086,104 @@ $fonts
 		<Bookmark level="1" select="@BOOK" open="no" />
 		<SetVariable variable="toc_variable"><Copy-of select="\$toc_variable" />\n<Element name="oldtoc"><Attribute name="BOOK" select="@BOOK" /><Attribute name="LANG" select="@LANG" /><Attribute name="PAGE" select="sd:current-page() - \$pagesextra" /></Element></SetVariable>
 		<Output area="area2col"><Text fontfamily="FF-Book" textformat="$rtlbook"><Paragraph language="{\$lang}"><Value select="@BOOK"/></Paragraph></Text></Output>
-		<ProcessNode select="chapter"/>
+		<ProcessNode select="chapter" mode="regular"/>
 	</Case></Switch>		
 </Record>
 
 
 <!-- PRINT NEW TESTAMENT -->
-<Record element="newtest">
+<Record element="newtest"  mode="newregular">
 	<SetVariable variable="twentytwo" select="@TWENTYTWO"/>
-	<Switch><Case test="$allbooks or \$twentytwo='GO'" >
+	<SetVariable variable="johnny" select="@JO"/>
+	<Switch><Case test="$allbooks or ('$format'='POD22' and \$twentytwo='GO') or ('$format'='PODJO' and \$johnny='GO')">
 		<SetVariable variable="newpagetype" select="'biblepage'"/>
 		<SetVariable variable="book" select="@BOOK"/>
+		<SetVariable variable="bookenglish" select="@BOOKENGLISH"/>
 		<SetVariable variable="lang" select="@LANG"/>
+<!-- JOHNNY -->
+<Switch><Case test="'$format'='PODJO' and \$bookenglish='Revelation'">	
+	<!-- BIBLE PICTURE -->
+	<ClearPage openon="left" pagetype="$page1colleft" skippagetype="$page1colright"/>	
+	<PlaceObject row="1" column="1"><Image file='$PIX_END' width='$MARGIN_SINGLE_WIDTH' /></PlaceObject>
+	<PlaceObject row="105" column="5"><Textblock width="69">$rev21_2_3</Textblock></PlaceObject>
+	<Message select="concat('ABPROOFER $outpdf END-PIX ',sd:current-page())" />
+</Case></Switch>
 		<ClearPage />
 		<Switch><Case test="\$proof_gotfirst='false'"><Message select="concat('ABPROOFER $outpdf NT-PAGE1 ',sd:current-page())" /></Case></Switch>
 		<SetVariable variable="proof_gotfirst" select="'true'"/>
 		<Bookmark level="1" select="@BOOK" open="no" />
 		<SetVariable variable="toc_variable"><Copy-of select="\$toc_variable" />\n<Element name="newtoc"><Attribute name="BOOK" select="@BOOK" /><Attribute name="LANG" select="@LANG" /><Attribute name="PAGE" select="sd:current-page() - \$pagesextra" /></Element></SetVariable>
 		<Output area="area2col"><Text fontfamily="FF-Book" textformat="$rtlbook"><Paragraph language="{\$lang}"><Value select="@BOOK"/></Paragraph></Text></Output>
-		<ProcessNode select="chapter"/>
+		<ProcessNode select="chapter" mode="regular"/>
 	</Case></Switch>
 </Record>
 
 
 <!-- PRINT CHAPTER -->
-<Record element="chapter">
-	<Output area="area2col">
+<Record element="chapter" mode="regular">
+	<SetVariable variable="johnny" select="@JO"/>
+	<Switch><Case test="$allbooks or '$format'='POD22' or ('$format'='PODJO' and \$johnny='GO')">
+		<Output area="area2col">
+			<Text fontfamily="FF-Bibl" textformat="bible">
+				<Paragraph $langspeed $bidi_bible>
+					<Switch>
+						<Case test="$rtlinit"><Span $langchap><Fontface fontfamily="FF-Init"><Value select="@CHAP"/><Value>&#xa0;&#xa0;</Value></Fontface></Span></Case>
+						<Otherwise><Initial fontfamily="FF-Init" padding-right="2pt"><Value select="@CHAP"/></Initial></Otherwise>
+					</Switch>
+					<ForAll select="*">
+						<Switch>
+							<Case test="@V=1">						</Case>
+							<Case test="@class='vn' and @V!=1">		<Span $versenumberlanguage class='vn'><Fontface fontfamily="FF-Bnum"><B><Value select="."/></B></Fontface></Span></Case>
+							<Case test="@class='vna' and @V!=1">	<Span $versenumberlanguage class='verseaioniannumber'><Fontface fontfamily="FF-Bnum"><B><Value select="."/></B></Fontface></Span></Case>
+							<Case test="@class='v'">				<Span class='v'><Value select="."/></Span></Case>
+							<Case test="@class='va'">				<Span class='verseaionian'><Value select="."/></Span></Case>
+							<Case test="@class='vo'">				<Span language='English (USA)' class='versenote'><Fontface fontfamily="FF-Bnot"><B><Value select="."/></B></Fontface></Span></Case>
+							<Otherwise>								<Message select="'ERROR, BAD DATA FILE TAG'" errorcode='1' exit='yes' /></Otherwise>
+						</Switch>
+					</ForAll>
+				</Paragraph>
+			</Text>
+		</Output>
+	</Case></Switch>
+</Record>
+
+
+<!-- PRINT VERSES -->
+<Record element="oldtest" mode="oldbiblebook">
+	<SetVariable variable="book" select="@BOOK"/>
+	<SetVariable variable="bookenglish" select="@BOOKENGLISH"/>
+	<SetVariable variable="lang" select="@LANG"/>
+	<ProcessNode select="chapter" mode="verses"/>
+</Record>
+<Record element="newtest" mode="newbiblebook">
+	<SetVariable variable="book" select="@BOOK"/>
+	<SetVariable variable="bookenglish" select="@BOOKENGLISH"/>
+	<SetVariable variable="lang" select="@LANG"/>
+	<ProcessNode select="chapter" mode="verses"/>
+</Record>
+<Record element="chapter" mode="verses">
+	<SetVariable variable="chap" select="@CHAP"/>
+	<Switch><Case test="not(empty(@C)) and @C=1">
+	<Output area="area1col">
 		<Text fontfamily="FF-Bibl" textformat="bible">
 			<Paragraph $langspeed $bidi_bible>
-				<Switch>
-					<Case test="$rtlinit"><Span $langchap><Fontface fontfamily="FF-Init"><Value select="@CHAP"/><Value>&#xa0;&#xa0;</Value></Fontface></Span></Case>
-					<Otherwise><Initial fontfamily="FF-Init" padding-right="2pt"><Value select="@CHAP"/></Initial></Otherwise>
-				</Switch>
+				<Switch><Case test="\$book!=\$versesbook"><SetVariable variable="versesbook" select="\$book"/><Br /><Span language="{\$lang}"><B><Value select="\$book"/></B><Value>&#xa0;&#xa0;</Value></Span></Case></Switch>
 				<ForAll select="*">
 					<Switch>
-						<Case test="@V=1">						</Case>
-						<Case test="@class='vn' and @V!=1">		<Span $versenumberlanguage class='vn'><Fontface fontfamily="FF-Bnum"><B><Value select="."/></B></Fontface></Span></Case>
-						<Case test="@class='vna' and @V!=1">	<Span $versenumberlanguage class='verseaioniannumber'><Fontface fontfamily="FF-Bnum"><B><Value select="."/></B></Fontface></Span></Case>
-						<Case test="@class='v'">				<Span class='v'><Value select="."/></Span></Case>
-						<Case test="@class='va'">				<Span class='verseaionian'><Value select="."/></Span></Case>
-						<Case test="@class='vo'">				<Span language='English (USA)' class='versenote'><Fontface fontfamily="FF-Bnot"><B><Value select="."/></B></Fontface></Span></Case>
-						<Otherwise>								<Message select="'ERROR, BAD DATA FILE TAG'" errorcode='1' exit='yes' /></Otherwise>
+						<Case test="empty(@R) or @R!=1"></Case>
+						<Case test="@class='vn'"><Span $versenumberlanguage class='vn'><Fontface fontfamily="FF-Bnum"><B><Value select="\$chap"/><Value select="':'"/><Value select="normalize-space(.)"/><Value>&#xa0;&#xa0;</Value></B></Fontface></Span></Case>
+						<Case test="@class='vna'"><Span $versenumberlanguage class='vna'><Fontface fontfamily="FF-Bnum"><B><Value select="\$chap"/><Value select="':'"/><Value select="normalize-space(.)"/><Value>&#xa0;&#xa0;</Value></B></Fontface></Span></Case>
+						<Case test="@class='v'"><Span class='v'><Value select="."/></Span></Case>
+						<Case test="@class='va'"><Span class='verseaionian'><Value select="."/></Span></Case>
+						<Case test="@class='vo'"><Span language='English (USA)' class='versenote'><Fontface fontfamily="FF-Bnot"><B><Value select="."/></B></Fontface></Span></Case>
 					</Switch>
 				</ForAll>
 			</Paragraph>
 		</Text>
 	</Output>
+	</Case></Switch>
 </Record>
+
 
 <!-- PRINT GLOSSARY+ -->
 <Record element="references_element">

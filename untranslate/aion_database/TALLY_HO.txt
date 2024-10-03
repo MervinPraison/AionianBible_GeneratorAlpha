@@ -1,6 +1,6 @@
 # File Name: TALLY_HO.txt
 # File Size: 22410       
-# File Date: 09/14/2024 13:34:52
+# File Date: 09/20/2024 23:38:15
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2024
