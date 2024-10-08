@@ -4,7 +4,7 @@
 require_once('./aion_common.php');
 AION_ECHO("PDF PROOFER GENERATION: BEGIN");
 if (!chdir("../www-stageresources")) { AION_ECHO("ERROR! chdir()"); }
-
+//system("cat Holy-Bible*.messages > BIBLE-PROOF.messages");
 
 $NEWBIBLES = array();
 /*
@@ -125,14 +125,15 @@ function build_pdftk_flex($proofer, $filename, $pagename) {
 }
 AION_ECHO("PDF PROOFER GENERATION: FUNCTION");
 
-
 // COVER PDFs
 if (file_exists("./AB-PROOFS/BIBLE-PROOF-ACOVER_ALL.pdf"))	{ unlink("./AB-PROOFS/BIBLE-PROOF-ACOVER_ALL.pdf"); }
 if (file_exists("./AB-PROOFS/BIBLE-PROOF-ACOVER_HAR.pdf"))	{ unlink("./AB-PROOFS/BIBLE-PROOF-ACOVER_HAR.pdf"); }
 if (file_exists("./AB-PROOFS/BIBLE-PROOF-ACOVER_NEW.pdf"))	{ unlink("./AB-PROOFS/BIBLE-PROOF-ACOVER_NEW.pdf"); }
+if (file_exists("./AB-PROOFS/BIBLE-PROOF-ACOVER_JOH.pdf"))	{ unlink("./AB-PROOFS/BIBLE-PROOF-ACOVER_JOH.pdf"); }
 system("pdftk *POD_KDP_ALL_COVER.pdf   cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_ALL.pdf");
 system("pdftk *POD_LULU_HAR_COVER.pdf  cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_HAR.pdf");
 system("pdftk *POD_KDP_NEW_COVER.pdf   cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_NEW.pdf");
+system("pdftk *POD_JOHN_COVER.pdf      cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_JOH.pdf");
 AION_ECHO("PDF PROOFER GENERATION: COVERS");
 
 // INTERIOR PDFS
@@ -250,3 +251,26 @@ build_pdftk_flex($proofer, "---Aionian-Edition.pdf", "TIMEB");
 build_pdftk_flex($proofer, "---Aionian-Edition.pdf", "LAKEOFFIRE");
 AION_ECHO("PDF PROOFER GENERATION: ONLINE");
 
+build_pdftk_flex($proofer, "---POD_JOHN_BODY.pdf", "TITLE");
+build_pdftk_flex($proofer, "---POD_JOHN_BODY.pdf", "COPYRIGHT");
+build_pdftk_flex($proofer, "---POD_JOHN_BODY.pdf", "PREFACE");
+build_pdftk_flex($proofer, "---POD_JOHN_BODY.pdf", "OT-PIX");
+build_pdftk_flex($proofer, "---POD_JOHN_BODY.pdf", "OT-PAGE1");
+build_pdftk_flex($proofer, "---POD_JOHN_BODY.pdf", "NT-PIX");
+build_pdftk_flex($proofer, "---POD_JOHN_BODY.pdf", "NT-PAGE1");
+build_pdftk_flex($proofer, "---POD_JOHN_BODY.pdf", "END-PIX");
+build_pdftk_flex($proofer, "---POD_JOHN_BODY.pdf", "VERSES");
+build_pdftk_flex($proofer, "---POD_JOHN_BODY.pdf", "READERS");
+build_pdftk_flex($proofer, "---POD_JOHN_BODY.pdf", "GLOSSARY1");
+build_pdftk_flex($proofer, "---POD_JOHN_BODY.pdf", "GLOSSARY2");
+build_pdftk_flex($proofer, "---POD_JOHN_BODY.pdf", "MAP1");
+build_pdftk_flex($proofer, "---POD_JOHN_BODY.pdf", "MAP2");
+build_pdftk_flex($proofer, "---POD_JOHN_BODY.pdf", "MAP3");
+build_pdftk_flex($proofer, "---POD_JOHN_BODY.pdf", "MAP4");
+build_pdftk_flex($proofer, "---POD_JOHN_BODY.pdf", "TIME1");
+build_pdftk_flex($proofer, "---POD_JOHN_BODY.pdf", "TIME2");
+build_pdftk_flex($proofer, "---POD_JOHN_BODY.pdf", "TIME3");
+build_pdftk_flex($proofer, "---POD_JOHN_BODY.pdf", "TIME4");
+build_pdftk_flex($proofer, "---POD_JOHN_BODY.pdf", "LAKEOFFIRE");
+build_pdftk_flex($proofer, "---POD_JOHN_BODY.pdf", "MAP5");
+AION_ECHO("PDF PROOFER GENERATION: JOHN"); 
