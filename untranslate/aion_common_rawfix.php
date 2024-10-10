@@ -5654,12 +5654,6 @@ $textfix = <<<EOF
 EOF;
 if (!($bfile = preg_replace("/2TI 4:9 (.+?)2TI 4:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-HEB 13:24 Saluez tous ceux qui vous conduisent et tous les saints. Les frères d’Italie vous saluent.
-HEB 13:25 Que la grâce soit avec vous tous ! Amen !
-JAM 1:1 
-EOF;
-if (!($bfile = preg_replace("/HEB 13:24 (.+?)JAM 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
 REV 20:9 mais Dieu fit tomber un feu du ciel qui les dévora.
 REV 20:10 Et le diable, leur séducteur, fut jeté dans l’étang de feu et de soufre, où sont la bête et le faux prophète, et ils seront tourmentés jour et nuit aux siècles des siècles.
 REV 20:11 

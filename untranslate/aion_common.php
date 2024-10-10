@@ -3076,6 +3076,7 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$debug .= "table td { border: 0px solid gray; padding: 12px 3px; }\n";
 	$debug .= "</style>\n";
 	$debug .= "</head>\n<body style='margin:20px;padding:0'>\n<h2>AionianBible.org Proofer Reader</h2>\n";
+	$debug .= "<a href='https://ebible.org/Scriptures/copyright.php' target='_blank'>https://ebible.org/Scriptures/copyright.php</a><br />\n";
 	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---eBible.htm' target='_blank'>eBible public domain and CC Bibles</a><br />\n";
 	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---eBible-source.txt' target='_blank'>eBible public domain and CC Bibles source template</a><br />\n";
 	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---Questioned.htm' target='_blank'>Questioned Verses</a><br />\n";
@@ -3145,7 +3146,7 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-12;
 	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-2793;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-910;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-13544;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-13543;
 	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-18959;
 	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-10248;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
