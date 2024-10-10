@@ -3076,6 +3076,7 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$debug .= "table td { border: 0px solid gray; padding: 12px 3px; }\n";
 	$debug .= "</style>\n";
 	$debug .= "</head>\n<body style='margin:20px;padding:0'>\n<h2>AionianBible.org Proofer Reader</h2>\n";
+	$debug .= "<a href='https://ebible.org/Scriptures/copyright.php' target='_blank'>https://ebible.org/Scriptures/copyright.php</a><br />\n";
 	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---eBible.htm' target='_blank'>eBible public domain and CC Bibles</a><br />\n";
 	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---eBible-source.txt' target='_blank'>eBible public domain and CC Bibles source template</a><br />\n";
 	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---Questioned.htm' target='_blank'>Questioned Verses</a><br />\n";

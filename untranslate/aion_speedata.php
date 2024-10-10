@@ -195,13 +195,13 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_onebook'	=> FALSE,	// TRUE = only do first bible book, otherwise all
 		'q_rtlhuh'	=> 'ALL',	// 'RTL' = RTL only,  'RTLNO' = Skip RTL, 'ALL' = all
 		'q_allall'	=> TRUE,	// TRUE = do all bibles not marked FALSE -OR- FALSE = do all bibles marked TRUE
-		'q_pdfall'	=> TRUE,	// TRUE = do ALL PDFs
+		'q_pdfall'	=> FALSE,	// TRUE = do ALL PDFs
 		'q_pdfpo'	=> FALSE,	// TRUE = do KDP PDFs
 		'q_pdfnt'	=> FALSE,	// TRUE = do KDP NT PDFs
 		'q_pdflu'	=> FALSE,	// TRUE = do LULU PDFs
 		'q_pdfon'	=> FALSE,	// TRUE = do Online PDFs
 		'q_pdfoo'	=> FALSE,	// TRUE = do One Online PDFs
-		'q_pdfjo'	=> FALSE,	// TRUE = do John PDFs
+		'q_pdfjo'	=> TRUE,	// TRUE = do John PDFs
 		'q_epubc'	=> TRUE,	// TRUE = do ePub and covers
 		//'include'	=> "/Holy-Bible---.*(Chinese-Sigao|Azerbaijani|Albanian|New-Arabic|Aionian-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Hebrew-Aleppo-Miqra-Mesorah).*---Aionian-Edition\.noia$/",
@@ -237,9 +237,9 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---(Coptic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Bhadrawahi-Bible|Coptic---Sahidic-Bible|Haryanvi-Bible|Lodhi-Bible|Baghlayani-Bible|Nepali-Bible|Chinese-Union-Version-Traditional|Hausa---Contemporary|Bahasa-Indonesia-Sehari-hari|Yoruba).*---Aionian-Edition\.noia$/",
 
-		'include'	=> "/Holy-Bible---.*(Ewe---Word-of-Life|Greek-Modern-Kathareuousa|Oromo---New-World|Twi---Akuapem-Twi-Bible|Twi---Asante-Twi-WASNA|Bhadrawahi-Bible|Coptic---Sahidic-Bible|Haryanvi-Bible|Lodhi-Bible|Baghlayani-Bible|Nepali-Bible|Chinese-Union-Version-Traditional|Hausa---Contemporary|Bahasa-Indonesia-Sehari-hari|Yoruba).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Ewe---Word-of-Life|Greek-Modern-Kathareuousa|Oromo---New-World|Twi---Akuapem-Twi-Bible|Twi---Asante-Twi-WASNA|Bhadrawahi-Bible|Coptic---Sahidic-Bible|Haryanvi-Bible|Lodhi-Bible|Baghlayani-Bible|Nepali-Bible|Chinese-Union-Version-Traditional|Hausa---Contemporary|Bahasa-Indonesia-Sehari-hari|Yoruba).*---Aionian-Edition\.noia$/",
 
-		//'include'	=> "/Holy-Bible---.*(Sanskrit---Urdu).*---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---.*(Polish-Updated-Gdansk).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Coptic---Coptic-Boharic-NT---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---(World-English-Bible-Updated|Aionian-Bible)---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
@@ -271,7 +271,7 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 
 	// SKIP
 	$forprint = $args['database']['T_FORPRINT'][$bible];
-	//if ($forprint['YESJOHN']!="TRUE") { return; } // JOHNNY TEST TEST TEST TEST
+	if ($forprint['YESJOHN']!="TRUE") { return; } // JOHNNY TEST TEST TEST TEST
 	if ($forprint['NOPDO']=="TRUE") {
 		if ($args['q_allall']) { $args['q_pdfon'] = TRUE; }
 		$args['q_pdfall'] = $args['q_pdfpo'] = $args['q_pdfnt'] = $args['q_pdflu'] = FALSE;
@@ -581,11 +581,11 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 		$outxml = "bible_layout$destiny_POD_JOHN.xml";
 		$outlua = "bible_luachk$destiny_POD_JOHN.lua";
 		$outpdf = "$bible$destiny_POD_JOHN.pdf";
-		if (!file_put_contents($outxml,AION_LOOP_PDF_POD_LAYOUT_BODY($versions,$forprint,$default,"Gospel of John, Primer Edition",'PODJO',$numarialfont,$outpdf))) { AION_ECHO("ERROR! file_put_contents: $outxml"); }
+		if (!file_put_contents($outxml,AION_LOOP_PDF_POD_LAYOUT_BODY($versions,$forprint,$default,"Gospel Primer",'PODJO',$numarialfont,$outpdf))) { AION_ECHO("ERROR! file_put_contents: $outxml"); }
 		if (!file_put_contents($outlua,str_replace('XMLTOVALIDATE',$outxml,$lua))) { AION_ECHO("ERROR! file_put_contents: $outlua"); }
 		$outxml = "bible_layout$destiny_POD_JOHN_COVER.xml";
 		$outlua = "bible_luachk$destiny_POD_JOHN_COVER.lua";
-		if (!file_put_contents($outxml,AION_LOOP_PDF_POD_LAYOUT_COVR($versions,$forprint,$default,"$bible$destiny_POD_JOHN.pdf","Gospel of John, Primer Edition",$numarialfont,NULL,NULL,FALSE))) { AION_ECHO("ERROR! file_put_contents: $outxml"); }
+		if (!file_put_contents($outxml,AION_LOOP_PDF_POD_LAYOUT_COVR($versions,$forprint,$default,"$bible$destiny_POD_JOHN.pdf","Gospel Primer",$numarialfont,NULL,NULL,FALSE))) { AION_ECHO("ERROR! file_put_contents: $outxml"); }
 		if (!file_put_contents($outlua,str_replace('XMLTOVALIDATE',$outxml,$lua))) { AION_ECHO("ERROR! file_put_contents: $outlua"); }
 	}
 
@@ -1224,7 +1224,7 @@ if ($w_apdx == $default['W_APDX']) {
 	$w_app = "<Span language='English (USA)'><Value>$w_pref</Value><Br /><Value>Genesis 1-4</Value><Br /><Value>John 1-21</Value><Br /><Value>Revelation 1-4</Value><Br /><Value>$w_verses</Value><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_hist</Value><Br /><Value>$w_dest</Value><Br /><Value>$w_ilus, Doré</Value></Span>";
 }
 else if ($rtl=="TRUE") {
-	$w_app = "<Span $langspeed><Fontface fontfamily='FF-TocF'><Value>$w_pref</Value><Br /><Value>{$forprint['GENESIS']} 1-4</Value><Br /><Value>{$forprint['JOHN']} 1-21</Value><Br /><Value>{$forprint['REVELATION']} 1-4</Value><Br /><Value>$w_verses</Value><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_dest</Value><Br /><Value>&#xa0;$w_ilus&#xa0;</Value></Fontface></Span><Span language='English (USA)'><Value>&#xa0;Doré&#xa0;</Value></Span>";
+	$w_app = "<Span $langspeed><Fontface fontfamily='FF-TocF'><Value>$w_pref</Value><Br /><Value>{$forprint['GENESIS']} 1-4</Value><Br /><Value>{$forprint['JOHN']} 1-21</Value><Br /><Value>{$forprint['REVELATION']} 1-4</Value><Br /><Value>$w_verses</Value><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_dest</Value><Br /><Value>$w_ilus</Value></Fontface></Span><Span language='English (USA)'><Value>&#xa0;Doré&#xa0;</Value></Span>";
 }
 else if ($w_font=='FOREIGN') {
 	$w_app = "<Span $langspeed><Fontface fontfamily='FF-TocF'><Value>$w_pref</Value><Br /><Value>{$forprint['GENESIS']} 1-4</Value><Br /><Value>{$forprint['JOHN']} 1-21</Value><Br /><Value>{$forprint['REVELATION']} 1-4</Value><Br /><Value>$w_verses</Value><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_dest</Value><Br /><Value>$w_ilus</Value></Fontface></Span><Span language='English (USA)'><Value>, Doré</Value></Span>";
@@ -1238,7 +1238,7 @@ if ($w_apdx == $default['W_APDX']) {
 	$w_app = "<Span language='English (USA)'><B><Value>$w_apdx</Value></B><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_dest</Value><Br /><Value>$w_ilus, Doré</Value></Span>";
 }
 else if ($rtl=="TRUE") {
-	$w_app = "<Span $langspeed><Fontface fontfamily='FF-TocF'><B><Value>$w_apdx</Value></B><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_dest</Value><Br /><Value>&#xa0;$w_ilus&#xa0;</Value></Fontface></Span><Span language='English (USA)'><Value>&#xa0;Doré&#xa0;</Value></Span>";
+	$w_app = "<Span $langspeed><Fontface fontfamily='FF-TocF'><B><Value>$w_apdx</Value></B><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_dest</Value><Br /><Value>$w_ilus</Value></Fontface></Span><Span language='English (USA)'><Value>&#xa0;Doré&#xa0;</Value></Span>";
 }
 else if ($w_font=='FOREIGN') {
 	$w_app = "<Span $langspeed><Fontface fontfamily='FF-TocF'><B><Value>$w_apdx</Value></B><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_dest</Value><Br /><Value>$w_ilus</Value></Fontface></Span><Span language='English (USA)'><Value>, Doré</Value></Span>";
@@ -1343,19 +1343,18 @@ $versionSS_CP .= (empty($isbn) || $isbn=="UNKNOWN" ? "" : "<Value>ISBN: ".$isbn.
 // extension
 $extension_text = '';
 $copyright_row = '50';
-if ($format=='PODJO') {
-	$extension_text  = trim(!empty($forprint['JOHNEXTENSION']) ? $forprint['JOHNEXTENSION'] : $default['JOHNEXTENSION']);
-	$extension_text .= trim(!empty($forprint['EXTENSION']) ? $forprint['EXTENSION'] : '');
-	$extension = 'true()';
-	$copyright_row = '1';
-}
-else if (!empty($forprint['EXTENSION'])) {
+if (!empty($forprint['EXTENSION'])) {
 	$extension = 'true()';
 	$extension_text = trim($forprint['EXTENSION']);
 	$copyright_row = '6';
 }
 else {
 	$extension = 'false()';
+}
+$extension_top = '';
+if ($format=='PODJO') {
+	$extension_top  = trim(!empty($forprint['JOHNEXTENSION']) ? $forprint['JOHNEXTENSION'] : $default['JOHNEXTENSION']);
+	$copyright_row = '1';
 }
 // KEIZER
 $web72 = '';
@@ -1748,7 +1747,7 @@ $fonts
 <Switch><Case test="'$format'='PODJO'">
 	<Paragraph textformat="center">$w_toc<Br /></Paragraph>
 	<Paragraph textformat="center" $bidi_plain>$w_app</Paragraph>
-	$extension_text
+	$extension_top
 </Case></Switch>
 		<Paragraph language="English (USA)" textformat="center" $bidi_center><Fontface fontfamily='FF-Copy'>
 			<I><Value>Holy Bible Aionian Edition ®</Value></I><Br />
@@ -1768,7 +1767,7 @@ $fonts
 		</Fontface></Paragraph><Paragraph textformat="centerpad"><Fontface fontfamily='FF-Copy'>
 			$helpneeded
 		</Fontface></Paragraph>
-		<Switch><Case test="$extension and '$format'!='PODJO'">
+		<Switch><Case test="$extension">
 			<Paragraph textformat="leftpad"><Fontface fontfamily='FF-Copy'>
 				<Value>Additional Information:</Value>
 			</Fontface></Paragraph>
