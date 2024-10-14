@@ -3093,7 +3093,7 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$debug .= "<a href='/index-rates.php' target='_blank'>Caculate KDP currency exchange rates</a><br />\n";
 	$debug .= "<br />\n";
 	$debug .= "<table>";
-	$debug .="<tr><td>BIBLE</td><td>P</td><td>S</td><td>NOT</td><td>B#</td><td>LAN</td><td>OLD</td><td>NEW</td><td>CHP</td><td>VER</td><td>AIO</td><td>QUE</td><td>LON</td><td>CMI</td><td>VMI</td><td>VXT</td><td>VFI</td><td>NOF</td><td>CMA</td><td>VMI</td><td>VME</td><td>CUS</td><td>PAG</td><td>PAN</td><td>PRI</td><td>KDP</td><td>KNT</td><td>LUL</td><td>LNT</td><td>LHC</td><td>WAT</td><td>STA</td></tr>\n";
+	$debug .="<tr><td>BIBLE</td><td>P</td><td>S</td><td>NOT</td><td>B#</td><td>LAN</td><td>OLD</td><td>NEW</td><td>CHP</td><td>VER</td><td>AIO</td><td>QUE</td><td>LON</td><td>CMI</td><td>VMI</td><td>VXT</td><td>VFI</td><td>NOF</td><td>CMA</td><td>VMI</td><td>VME</td><td>CUS</td><td>PAG</td><td>PAN</td><td>PRI</td><td>KDP</td><td>KNT</td><td>KJO</td><td>LUL</td><td>LNT</td><td>LHC</td><td>LJO</td><td>WAT</td><td>STA</td></tr>\n";
 	$foreign = "<!DOCTYPE html><html lang='en'>\n<head>\n<meta charset='utf-8'>\n<title>Aionian Bible Foreign Language Proof Reader</title>\n";
 	$foreign .= "<style>\n";
 	$foreign .= "table.aionborder { border-collapse: collapse; }\n";
@@ -3122,7 +3122,7 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$count_done = $count_total - ($count_google + $count_trans);
 	$foreign .= "<br />There are $count_total languages with $count_done completed, $count_trans to translate, and $count_google to review.<br /><br /><br /><br /><br />\n";
 	$foreign .= "<P style='page-break-before: always'>\n\n";
-	$grandtotal = array('BIBLE_COUNT'=>0,'LANG_COUNT'=>0,'BOOK_OT'=>0,'BOOK_NT'=>0,'CHAP_TOTAL'=>0,'VERS_TOTAL'=>0,'VERS_AION'=>0,'VERS_QUES'=>0,'LONG'=>0,'CHAP_NO'=>0,'VERS_NO'=>0,'VERS_EX'=>0,'FIXED'=>0,'NOTFIXED'=>0,'CHAP_RE'=>0,'REVE_NO'=>0,'REVE_EX'=>0,'CUSTO'=>0,'PDFPA'=>0,'PDFPN'=>0,'PDFPI'=>(float)0,'PDF_PKDP'=>0,'PDF_PLUL'=>0,'PDF_PKNT'=>0,'PDF_PLNT'=>0,'PDF_PLHC'=>0,'PDF_PRTL'=>0,'TRANS'=>0,'PROBPDF'=>0);
+	$grandtotal = array('BIBLE_COUNT'=>0,'LANG_COUNT'=>0,'BOOK_OT'=>0,'BOOK_NT'=>0,'CHAP_TOTAL'=>0,'VERS_TOTAL'=>0,'VERS_AION'=>0,'VERS_QUES'=>0,'LONG'=>0,'CHAP_NO'=>0,'VERS_NO'=>0,'VERS_EX'=>0,'FIXED'=>0,'NOTFIXED'=>0,'CHAP_RE'=>0,'REVE_NO'=>0,'REVE_EX'=>0,'CUSTO'=>0,'PDFPA'=>0,'PDFPN'=>0,'PDFPI'=>(float)0,'PDF_PKDP'=>0,'PDF_PLUL'=>0,'PDF_PKNT'=>0,'PDF_PLNT'=>0,'PDF_PKJO'=>0,'PDF_PLJO'=>0,'PDF_PLHC'=>0,'PDF_PRTL'=>0,'TRANS'=>0,'PROBPDF'=>0);
 	AION_LOOP( ($args=array(
 		'function'	=> 'AION_LOOP_HTMS_DOIT',
 		'source'	=> $source,
@@ -3146,7 +3146,7 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-12;
 	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-2793;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-910;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-13543;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-13542;
 	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-18959;
 	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-10248;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
@@ -3157,9 +3157,11 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-4563.50;
 	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-151;
 	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-83;
+	$grandmarker['PDF_PKJO']	= $grandtotal['PDF_PKJO']-16;
 	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-366;
 	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-176;
 	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-212;
+	$grandmarker['PDF_PLJO']	= $grandtotal['PDF_PLJO']-87;
 	$grandmarker['PDF_PRTL']	= $grandtotal['PDF_PRTL']-236;
 	$grandmarker['TRANS']		= $grandtotal['TRANS']-314;
 	$grandtotal['LONG']		= ($grandtotal['LONG']		== 0 ? $grandtotal['LONG']		: "<span style='font-weight:bold; color:red;'>".$grandtotal['LONG']."</span>" );
@@ -3195,9 +3197,11 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$debug .= "<td>".sprintf("%.2f",$grandtotal['PDFPI'])."</td>";
 	$debug .= "<td>".$grandtotal['PDF_PKDP']."</td>";
 	$debug .= "<td>".$grandtotal['PDF_PKNT']."</td>";
+	$debug .= "<td>".$grandtotal['PDF_PKJO']."</td>";
 	$debug .= "<td>".$grandtotal['PDF_PLUL']."</td>";
 	$debug .= "<td>".$grandtotal['PDF_PLNT']."</td>";
 	$debug .= "<td>".$grandtotal['PDF_PLHC']."</td>";
+	$debug .= "<td>".$grandtotal['PDF_PLJO']."</td>";
 	$debug .= "<td>".$grandtotal['PDF_PRTL']."</td>";
 	$debug .= "<td>".$grandtotal['TRANS']."</td>";
 	$debug .= "</tr>\n";
@@ -3226,9 +3230,11 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$debug .= "<td>".sprintf("%.2f",$grandmarker['PDFPI'])."</td>";
 	$debug .= "<td>".$grandmarker['PDF_PKDP']."</td>";
 	$debug .= "<td>".$grandmarker['PDF_PKNT']."</td>";
+	$debug .= "<td>".$grandmarker['PDF_PKJO']."</td>";
 	$debug .= "<td>".$grandmarker['PDF_PLUL']."</td>";
 	$debug .= "<td>".$grandmarker['PDF_PLNT']."</td>";
 	$debug .= "<td>".$grandmarker['PDF_PLHC']."</td>";
+	$debug .= "<td>".$grandmarker['PDF_PLJO']."</td>";
 	$debug .= "<td>".$grandmarker['PDF_PRTL']."</td>";
 	$debug .= "<td>".$grandmarker['TRANS']."</td>";
 	$debug .= "</tr>\n";
@@ -3263,9 +3269,11 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$debug .= "PRI: Amazon KDP price given page count = (($0.85 + (PAGES x $0.012))/0.6).<br />\n";
 	$debug .= "KDP: Amazon KPD full Bible upload ( Add=Add-to-POD / Mod=Modify-existing-POD / A=POD-product-exists / F=POD-file-available )<br />\n";	
 	$debug .= "KNT: Amazon KDP New Testament Bible upload<br />\n";	
+	$debug .= "KJO: Amazon KDP Gospel Primer upload<br />\n";	
 	$debug .= "LUL: Lulu full Bible upload<br />\n";	
 	$debug .= "LNT: Lulu New Testament Bible upload<br />\n";	
 	$debug .= "LHC: Lulu hardcover Bible upload<br />\n";	
+	$debug .= "LJO: Lulu Gospel Primer upload<br />\n";
 	$debug .= "WAT: No KDP language or non-commercial license<br />\n";
 	$debug .= "STA: Status of the foreign heading translation effort.<br />\n";
 	$debug .= "</body>\n</html>";
@@ -3416,15 +3424,15 @@ function AION_LOOP_HTMS_DOIT($args) {
 		$kdpedit = (empty($args['database']['T_VERSIONS'][$bible]['KDPJOHN']) || $args['database']['T_VERSIONS'][$bible]['KDPJOHN']=='NULL' ? "<a href='https://kdp.amazon.com/en_US/bookshelf' target='_blank'>Add</a>" : "<a href='https://kdp.amazon.com/action/dualbookshelf.editpaperbackdetails/en_US/title-setup/paperback/".$args['database']['T_VERSIONS'][$bible]['KDPJOHN']."/details?ref_=kdp_BS_D_ta_de' target='_blank'>Edit</a>");
 		if ($args['database']['T_FORPRINT'][$bible]['YESJOHN']=='TRUE' && $args['database']['T_FORPRINT'][$bible]['YESKDP']=='TRUE' && !empty($args['database']['T_VERSIONS'][$bible]['AMAZONJOHN']) && $args['database']['T_VERSIONS'][$bible]['AMAZONJOHN']!='NULL') {
 			$kdpbuy = "<a href='https://www.amazon.com/dp/".$args['database']['T_VERSIONS'][$bible]['AMAZONJOHN']."' target='_blank'>Buy</a>";
-			$htm .= "<tr><td>KDP_JOHN</td><td>POD_KDP_JOHN_BODY.pdf &nbsp;/&nbsp; POD_KDP_JOHN_COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
+			$htm .= "<tr><td>KDP_JOHN</td><td>POD_JOHN_BODY.pdf &nbsp;/&nbsp; POD_JOHN_COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
 		}
 		else if (!empty($args['database']['T_VERSIONS'][$bible]['AMAZONJOHN']) && $args['database']['T_VERSIONS'][$bible]['AMAZONJOHN']!='NULL') {
 			$kdpbuy = "<a href='https://www.amazon.com/dp/".$args['database']['T_VERSIONS'][$bible]['AMAZONJOHN']."' target='_blank'>Buy*</a>";
-			$htm .= "<tr><td>KDP_JOHN</td><td>POD_KDP_JOHN_BODY.pdf &nbsp;/&nbsp; POD_KDP_JOHN_COVER.pdf &nbsp;/&nbsp; $kdpedit* $kdpbuy</td></tr>\n";
+			$htm .= "<tr><td>KDP_JOHN</td><td>POD_JOHN_BODY.pdf &nbsp;/&nbsp; POD_JOHN_COVER.pdf &nbsp;/&nbsp; $kdpedit* $kdpbuy</td></tr>\n";
 		}
 		else if ($args['database']['T_FORPRINT'][$bible]['YESJOHN']=='TRUE' && $args['database']['T_FORPRINT'][$bible]['YESKDP']=='TRUE')  {
 			$kdpbuy = "<a href='https://www.amazon.com/s/keywords=Holy Bible Aionian Edition ".$args['database']['T_FORPRINT'][$bible]['VERSIONE']."' target='_blank'>Find</a>";
-			$htm .= "<tr><td>KDP_JOHN</td><td>POD_KDP_JOHN_BODY.pdf &nbsp;/&nbsp; POD_KDP_JOHN_COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
+			$htm .= "<tr><td>KDP_JOHN</td><td>POD_JOHN_BODY.pdf &nbsp;/&nbsp; POD_JOHN_COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
 		}
 		else { $htm .= "<tr><td>KDP_JOHN</td><td>None</td></tr>\n"; }
 		// Lulu links
@@ -3450,9 +3458,9 @@ function AION_LOOP_HTMS_DOIT($args) {
 		else  { $htm .= "<tr><td>LULU_HARD</td><td>POD_LULU_HAR_BODY.pdf &nbsp;/&nbsp; POD_LULU_HAR_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUHARD']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/wizard/".$args['database']['T_VERSIONS'][$bible]['LULUHARDX']."/start' target='_blank'>Edit</a> <a href='$lulu_hard' target='_blank'>Buy</a></td></tr>\n"; }
 		// Lulu John
 		if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLUJOHN']) && $args['database']['T_VERSIONS'][$bible]['LULUJOHN']!="NULL") { $htm .= "<tr><td>LULU_JOHN</td><td>Problem</td></tr>\n"; }
-		else if (!empty($args['database']['T_FORPRINT'][$bible]['ISBNLUJOHN']) && $args['database']['T_VERSIONS'][$bible]['LULUJOHN']=="NULL") { $htm .= "<tr><td>LULU_JOHN</td><td>POD_LULU_JOHN_BODY.pdf &nbsp;/&nbsp; POD_LULU_JOHN_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUJOHN']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/projects' target='_blank'>Add</a></td></tr>\n"; }
+		else if (!empty($args['database']['T_FORPRINT'][$bible]['ISBNLUJOHN']) && $args['database']['T_VERSIONS'][$bible]['LULUJOHN']=="NULL") { $htm .= "<tr><td>LULU_JOHN</td><td>POD_JOHN_BODY.pdf &nbsp;/&nbsp; POD_JOHN_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUJOHN']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/projects' target='_blank'>Add</a></td></tr>\n"; }
 		else if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLUJOHN'])) { $htm .= "<tr><td>LULU_JOHN</td><td>None</td></tr>\n"; }
-		else { $htm .= "<tr><td>LULU_JOHN</td><td>POD_LULU_JOHN_BODY.pdf &nbsp;/&nbsp; POD_LULU_JOHN_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUJOHN']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/wizard/".$args['database']['T_VERSIONS'][$bible]['LULUJOHNX']."/start' target='_blank'>Edit</a> <a href='$lulu_john' target='_blank'>Buy</a></td></tr>\n"; }
+		else { $htm .= "<tr><td>LULU_JOHN</td><td>POD_JOHN_BODY.pdf &nbsp;/&nbsp; POD_JOHN_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUJOHN']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/wizard/".$args['database']['T_VERSIONS'][$bible]['LULUJOHNX']."/start' target='_blank'>Edit</a> <a href='$lulu_john' target='_blank'>Buy</a></td></tr>\n"; }
 	}
 	$htm .= "<tr><td><br /></td><td></td></tr>\n";
 	$htm .= "<tr><td>LANGUAGE</td><td>".$args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH']."</td></tr>\n";
@@ -3884,7 +3892,7 @@ function AION_LOOP_HTMS_DOIT($args) {
 	strtok($args['database']['T_VERSIONS'][$bible]['SOURCELINK'],'/.');
 	$SOURCE = "<a href='".$args['database']['T_VERSIONS'][$bible]['SOURCELINK']."' target='_blank'>".substr(strtok('/.'),0,3)."</a>";
 	// init
-	$PDF_PKDP = $PDF_PLUL = $PDF_PKNT = $PDF_PLNT = $PDF_PLHC = $PDF_PRTL = "";
+	$PDF_PKDP = $PDF_PLUL = $PDF_PKNT = $PDF_PLNT = $PDF_PKJO = $PDF_PLJO = $PDF_PLHC = $PDF_PRTL = "";
 	$PROBPDF = 0;
 	// POD PDF exist?
 	$pod_kdp_reg = (filenotzero("../www-stageresources/$bible---POD_KDP_ALL_COVER.pdf")		&& filenotzero("../www-stageresources/$bible---POD_KDP_ALL_BODY.pdf")	? "" : "<span style='font-weight:bold; color:red;'>*?</span>");
@@ -3892,6 +3900,8 @@ function AION_LOOP_HTMS_DOIT($args) {
 	$pod_luu_reg = (filenotzero("../www-stageresources/$bible---POD_LULU_ALL_COVER.pdf")	&& filenotzero("../www-stageresources/$bible---POD_LULU_ALL_BODY.pdf")	? "" : "<span style='font-weight:bold; color:red;'>*?</span>");
 	$pod_luu_new = (filenotzero("../www-stageresources/$bible---POD_LULU_NEW_COVER.pdf")	&& filenotzero("../www-stageresources/$bible---POD_LULU_NEW_BODY.pdf")	? "" : "<span style='font-weight:bold; color:red;'>*?</span>");
 	$pod_luu_har = (filenotzero("../www-stageresources/$bible---POD_LULU_HAR_COVER.pdf")	&& filenotzero("../www-stageresources/$bible---POD_LULU_HAR_BODY.pdf")	? "" : "<span style='font-weight:bold; color:red;'>*?</span>");
+
+	$pod_joh_joh = (filenotzero("../www-stageresources/$bible---POD_JOHN_COVER.pdf")		&& filenotzero("../www-stageresources/$bible---POD_JOHN_BODY.pdf")		? "" : "<span style='font-weight:bold; color:red;'>*?</span>");
 
 	// PDF Priority
 	if ($args['database']['T_FORPRINT'][$bible]['YESKDP']!='TRUE') {
@@ -3934,6 +3944,21 @@ function AION_LOOP_HTMS_DOIT($args) {
 		// NO KPD but FORSALE WHY? - PROB
 		else if ($args['database']['T_VERSIONS'][$bible]['AMAZONNT']!='NULL')  { $PDF_PKNT="<span style='font-weight:bold; color:red;'>$alink</span>"; ++$PROBPDF; }
 		else if (empty($pod_kdp_new)) { $PDF_PKNT="File"; }
+		// KDP JOHN **********************************************
+		$alink = ($args['database']['T_VERSIONS'][$bible]['AMAZONJOHN']=='NULL' ? "" : "<a href='https://www.amazon.com/dp/".$args['database']['T_VERSIONS'][$bible]['AMAZONJOHN']."' target='_blank'>Buy*</a>");
+		// YES KDP and YES FORSALE
+		if ($args['database']['T_VERSIONS'][$bible]['AMAZONJOHN']!='NULL' && $args['database']['T_FORPRINT'][$bible]['YESKDP']=='TRUE' && $args['database']['T_FORPRINT'][$bible]['YESJOHN']=='TRUE')  {
+			if (!empty($pod_joh_joh)) { ++$PROBPDF; }
+			$args['grandtotal']['PDF_PKJO'] += 1; $PDF_PKJO="<a href='https://www.amazon.com/dp/".$args['database']['T_VERSIONS'][$bible]['AMAZONJOHN']."' target='_blank'>Buy</a>$pod_joh_joh"; }
+		// YES KDP but NO FORSALE - PROB		
+		else if ($args['database']['T_FORPRINT'][$bible]['YESJOHN']=='TRUE' && $args['database']['T_FORPRINT'][$bible]['YESKDP']=='TRUE')  {
+			++$PROBPDF;
+			$args['grandtotal']['PDF_PKJO'] += 1; $PDF_PKJO="<span style='font-weight:bold; color:red;'>Buy</span>$pod_joh_joh"; }
+		// NO KPD but FORSALE from CREATESPACE	
+		else if ($args['database']['T_VERSIONS'][$bible]['AMAZONJOHN']!='NULL' && empty($pod_joh_joh))  { $PDF_PKJO=$alink; }
+		// NO KPD but FORSALE WHY? - PROB
+		else if ($args['database']['T_VERSIONS'][$bible]['AMAZONJOHN']!='NULL')  { $PDF_PKJO="<span style='font-weight:bold; color:red;'>$alink</span>"; ++$PROBPDF; }
+		else if (empty($pod_joh_joh)) { $PDF_PKJO="File"; }
 
 		// Lulu Full *********************************************
 		// PROBLEM
@@ -3992,10 +4017,29 @@ function AION_LOOP_HTMS_DOIT($args) {
 			++$PROBPDF; $args['grandtotal']['PDF_PLHC'] += 1; $PDF_PLHC="<span style='font-weight:bold; color:red;'>Buy</span>"; }
 		else if (empty($pod_luu_har)) {
 			++$PROBPDF; $args['grandtotal']['PDF_PLHC'] += 1; $PDF_PLHC="<span style='font-weight:bold; color:red;'>File</span>"; }
+		// Lulu JOHN *********************************************
+		// PROBLEM
+		if (0&(
+			($args['database']['T_VERSIONS'][$bible]['LULUJOHN']=="NULL" && empty($pod_joh_joh)) ||
+			($args['database']['T_VERSIONS'][$bible]['LULUJOHN']=="NULL" && !empty($args['database']['T_FORPRINT'][$bible]['ISBNLUJOHN'])) ||
+			($args['database']['T_VERSIONS'][$bible]['LULUJOHN']!="NULL" && !empty($pod_joh_joh)) ||
+			($args['database']['T_VERSIONS'][$bible]['LULUJOHN']!="NULL" && empty($args['database']['T_FORPRINT'][$bible]['ISBNLUJOHN'])) ||
+			(empty($args['database']['T_FORPRINT'][$bible]['ISBNLUJOHN']) && empty($pod_joh_joh)) ||
+			(!empty($args['database']['T_FORPRINT'][$bible]['ISBNLUJOHN']) && !empty($pod_joh_joh)))) {
+			$PDF_PLJO="<span style='font-weight:bold; color:red;'>=?</span>"; ++$PROBPDF; }
+		// YES LULU
+		else if ($args['database']['T_VERSIONS'][$bible]['LULUJOHN']!='NULL')  {
+			if (!empty($pod_joh_joh)) { ++$PROBPDF; }
+			$args['grandtotal']['PDF_PLJO'] += 1; $PDF_PLJO="<a href='$lulu_john' target='_blank'>Buy</a>$pod_joh_joh"; }
+		// TODO LULU
+		else if (!empty($args['database']['T_FORPRINT'][$bible]['ISBNLUJOHN'])) {
+			++$PROBPDF; $args['grandtotal']['PDF_PLJO'] += 1; $PDF_PLJO="<span style='font-weight:bold; color:red;'>Buy</span>"; }
+		else if (empty($pod_joh_joh)) {
+			++$PROBPDF; $args['grandtotal']['PDF_PLJO'] += 1; $PDF_PLJO="<span style='font-weight:bold; color:red;'>File</span>"; }
 	}
 	$args['grandtotal']['PROBPDF'] += $PROBPDF;
 	
-	$args['debug'].= "<tr {$rowback}><td><a href='/Bibles/$biblename/parallel-English---King-James-Version' target='_blank'>$biblename</a></td><td><a href='/library/$bible.php' target='_blank'>p</a></td><td>$SOURCE</td><td>$note</td><td>$bible_count</td><td>$lang_count</td><td>$BOOK_OT</td><td>$BOOK_NT</td><td>$CHAP_TOTAL</td><td>$VERS_TOTAL</td><td>$VERS_AION</td><td>$VERS_QUES</td><td>$LONG</td><td>$CHAP_NO</td><td>$VERS_NO</td><td>$VERS_EX</td><td>$FIXED</td><td>$NOTFIXED</td><td>$CHAP_RE</td><td>$REVE_NO</td><td>$REVE_EX</td><td>$CUSTO</td><td>$PDFPA</td><td>$PDFPN</td><td>$PDFPIF</td><td>$PDF_PKDP</td><td>$PDF_PKNT</td><td>$PDF_PLUL</td><td>$PDF_PLNT</td><td>$PDF_PLHC</td><td>$PDF_PRTL</td><td>$ISGOOD</td></tr>\n";
+	$args['debug'].= "<tr {$rowback}><td><a href='/Bibles/$biblename/parallel-English---King-James-Version' target='_blank'>$biblename</a></td><td><a href='/library/$bible.php' target='_blank'>p</a></td><td>$SOURCE</td><td>$note</td><td>$bible_count</td><td>$lang_count</td><td>$BOOK_OT</td><td>$BOOK_NT</td><td>$CHAP_TOTAL</td><td>$VERS_TOTAL</td><td>$VERS_AION</td><td>$VERS_QUES</td><td>$LONG</td><td>$CHAP_NO</td><td>$VERS_NO</td><td>$VERS_EX</td><td>$FIXED</td><td>$NOTFIXED</td><td>$CHAP_RE</td><td>$REVE_NO</td><td>$REVE_EX</td><td>$CUSTO</td><td>$PDFPA</td><td>$PDFPN</td><td>$PDFPIF</td><td>$PDF_PKDP</td><td>$PDF_PKNT</td><td>$PDF_PKJO</td><td>$PDF_PLUL</td><td>$PDF_PLNT</td><td>$PDF_PLHC</td><td>$PDF_PLJO</td><td>$PDF_PRTL</td><td>$ISGOOD</td></tr>\n";
 	
 	if (!($bible_count % 20)) {
 		$args['debug'].="<tr><td>BIBLE</td><td>P</td><td>S</td><td>NOT</td><td>B#</td><td>LAN</td><td>OLD</td><td>NEW</td><td>CHP</td><td>VER</td><td>AIO</td><td>QUE</td><td>LON</td><td>CMI</td><td>VMI</td><td>VXT</td><td>VFI</td><td>NOF</td><td>CMA</td><td>VMI</td><td>VME</td><td>CUS</td><td>PAG</td><td>PAN</td><td>PRI</td><td>KDP</td><td>KNT</td><td>LUL</td><td>LNT</td><td>LHC</td><td>WAT</td><td>STA</td></tr>\n";

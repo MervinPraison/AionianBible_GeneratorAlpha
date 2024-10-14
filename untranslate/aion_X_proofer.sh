@@ -4,7 +4,7 @@
 require_once('./aion_common.php');
 AION_ECHO("PDF PROOFER GENERATION: BEGIN");
 if (!chdir("../www-stageresources")) { AION_ECHO("ERROR! chdir()"); }
-//system("cat Holy-Bible*.messages > BIBLE-PROOF.messages");
+system("cat Holy-Bible*.messages > BIBLE-PROOF.messages");
 
 $NEWBIBLES = array();
 /*
