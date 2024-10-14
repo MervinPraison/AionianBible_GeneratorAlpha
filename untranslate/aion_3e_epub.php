@@ -75,7 +75,7 @@ function AION_LOOP_EPUBY($source, $destiny_unzip, $destiny_zip) {
 		'function'		=> 'AION_LOOP_EPUBY_DOIT',
 		'source'		=> $source,
 		//'include'		=> "/Holy-Bible---.*(Albanian).*---Aionian-Edition\.noia$/",
-		//'include'		=> "/Holy-Bible---.*(Aionian-Bible|Gods-Living-Word|Family-35-NT|LXX2012-U-S-English).*---Aionian-Edition\.noia$/",
+		//'include'		=> "/Holy-Bible---.*(Aionian-Bible|Tsak).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.+(Basic).+---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.*(Azerb|Gaelic|Somali).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.*(STEPBible).*---Aionian-Edition\.noia$/",
@@ -335,7 +335,16 @@ EOF;
 			}
 			else if (($book_chapters = $args['database']['T_BOOKS']['CHAPTERS'][array_search($last_book,$args['database']['T_BOOKS']['CODE'])])>1) {
 				$book_format .= ", Chapter \n";
-				for($x=1; $x<=$book_chapters; $x++) { $book_format .= ($x==$last_chaN ? "" : " <a href='$last_indx-$last_book-".sprintf('%03d',$x).".xhtml' title='View book chapter'>$x</a>\n"); }
+				for($x=1; $x<=$book_chapters; $x++) {
+					$reffy = "{$verse['INDEX']}-{$verse['BOOK']}-".sprintf('%03d',$x);
+					if (empty($database['T_BIBLE']["{$reffy}-001"]) &&
+						empty($database['T_BIBLE']["{$reffy}-002"]) &&
+						empty($database['T_BIBLE']["{$reffy}-003"])) {
+						AION_ECHO("WARN! Skipping TOC $reffy");
+						continue;
+					}
+					$book_format .= ($x==$last_chaN ? "" : " <a href='$last_indx-$last_book-".sprintf('%03d',$x).".xhtml' title='View book chapter'>$x</a>\n");
+				}
 			}
 			$book_format .= "</div>\n";
 			$book_trailer = "<div class='chapbot'>\n<a href='https://www.aionianbible.org/Publisher/$bible_basic/$book_index/$last_chaN' title='Report Bible text questions and concerns to Nainoia Inc'>Report Issue</a>\n</div>\n";

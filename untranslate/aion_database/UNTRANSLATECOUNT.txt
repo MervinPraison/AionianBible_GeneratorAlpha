@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
 # File Size: 38115       
-# File Date: 10/01/2024 11:54:09
+# File Date: 10/11/2024 21:40:14
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2024

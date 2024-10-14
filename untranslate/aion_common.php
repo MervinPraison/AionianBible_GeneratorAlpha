@@ -3412,10 +3412,26 @@ function AION_LOOP_HTMS_DOIT($args) {
 			$htm .= "<tr><td>KDP_NEW</td><td>POD_KDP_NEW_BODY.pdf &nbsp;/&nbsp; POD_KDP_NEW_COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
 		}
 		else { $htm .= "<tr><td>KDP_NEW</td><td>None</td></tr>\n"; }
+		// KDP JOHN
+		$kdpedit = (empty($args['database']['T_VERSIONS'][$bible]['KDPJOHN']) || $args['database']['T_VERSIONS'][$bible]['KDPJOHN']=='NULL' ? "<a href='https://kdp.amazon.com/en_US/bookshelf' target='_blank'>Add</a>" : "<a href='https://kdp.amazon.com/action/dualbookshelf.editpaperbackdetails/en_US/title-setup/paperback/".$args['database']['T_VERSIONS'][$bible]['KDPJOHN']."/details?ref_=kdp_BS_D_ta_de' target='_blank'>Edit</a>");
+		if ($args['database']['T_FORPRINT'][$bible]['YESJOHN']=='TRUE' && $args['database']['T_FORPRINT'][$bible]['YESKDP']=='TRUE' && !empty($args['database']['T_VERSIONS'][$bible]['AMAZONJOHN']) && $args['database']['T_VERSIONS'][$bible]['AMAZONJOHN']!='NULL') {
+			$kdpbuy = "<a href='https://www.amazon.com/dp/".$args['database']['T_VERSIONS'][$bible]['AMAZONJOHN']."' target='_blank'>Buy</a>";
+			$htm .= "<tr><td>KDP_JOHN</td><td>POD_KDP_JOHN_BODY.pdf &nbsp;/&nbsp; POD_KDP_JOHN_COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
+		}
+		else if (!empty($args['database']['T_VERSIONS'][$bible]['AMAZONJOHN']) && $args['database']['T_VERSIONS'][$bible]['AMAZONJOHN']!='NULL') {
+			$kdpbuy = "<a href='https://www.amazon.com/dp/".$args['database']['T_VERSIONS'][$bible]['AMAZONJOHN']."' target='_blank'>Buy*</a>";
+			$htm .= "<tr><td>KDP_JOHN</td><td>POD_KDP_JOHN_BODY.pdf &nbsp;/&nbsp; POD_KDP_JOHN_COVER.pdf &nbsp;/&nbsp; $kdpedit* $kdpbuy</td></tr>\n";
+		}
+		else if ($args['database']['T_FORPRINT'][$bible]['YESJOHN']=='TRUE' && $args['database']['T_FORPRINT'][$bible]['YESKDP']=='TRUE')  {
+			$kdpbuy = "<a href='https://www.amazon.com/s/keywords=Holy Bible Aionian Edition ".$args['database']['T_FORPRINT'][$bible]['VERSIONE']."' target='_blank'>Find</a>";
+			$htm .= "<tr><td>KDP_JOHN</td><td>POD_KDP_JOHN_BODY.pdf &nbsp;/&nbsp; POD_KDP_JOHN_COVER.pdf &nbsp;/&nbsp; $kdpedit $kdpbuy</td></tr>\n";
+		}
+		else { $htm .= "<tr><td>KDP_JOHN</td><td>None</td></tr>\n"; }
 		// Lulu links
 		$lulu_regu	= ($args['database']['T_VERSIONS'][$bible]['LULU']=='NULL'		|| preg_match('/^http/i',$args['database']['T_VERSIONS'][$bible]['LULU'])		? $args['database']['T_VERSIONS'][$bible]['LULU']		: "https://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULU']);
 		$lulu_hard	= ($args['database']['T_VERSIONS'][$bible]['LULUHARD']=='NULL'	|| preg_match('/^http/i',$args['database']['T_VERSIONS'][$bible]['LULUHARD'])	? $args['database']['T_VERSIONS'][$bible]['LULUHARD']	: "https://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULUHARD']);
 		$lulu_ntnt	= ($args['database']['T_VERSIONS'][$bible]['LULUNT']=='NULL'	|| preg_match('/^http/i',$args['database']['T_VERSIONS'][$bible]['LULUNT'])		? $args['database']['T_VERSIONS'][$bible]['LULUNT']		: "https://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULUNT']);
+		$lulu_john	= ($args['database']['T_VERSIONS'][$bible]['LULUJOHN']=='NULL'	|| preg_match('/^http/i',$args['database']['T_VERSIONS'][$bible]['LULUJOHN'])	? $args['database']['T_VERSIONS'][$bible]['LULUJOHN']	: "https://www.lulu.com/content/".$args['database']['T_VERSIONS'][$bible]['LULUJOHN']);
 		// Lulu Full
 		// Jump to landing pages:  /start  /copyright  /design  /details  /pricing
 		if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLU']) && $args['database']['T_VERSIONS'][$bible]['LULU']!="NULL") { $htm .= "<tr><td>LULU_ALL</td><td>Problem</td></tr>\n"; }
@@ -3432,6 +3448,11 @@ function AION_LOOP_HTMS_DOIT($args) {
 		else if (!empty($args['database']['T_FORPRINT'][$bible]['ISBNLUHARD']) && $args['database']['T_VERSIONS'][$bible]['LULUHARD']=="NULL") { $htm .= "<tr><td>LULU_HARD</td><td>POD_LULU_HAR_BODY.pdf &nbsp;/&nbsp; POD_LULU_HAR_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUHARD']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/projects' target='_blank'>Add</a></td></tr>\n"; }
 		else if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLUHARD'])) { $htm .= "<tr><td>LULU_HARD</td><td>None</td></tr>\n"; }
 		else  { $htm .= "<tr><td>LULU_HARD</td><td>POD_LULU_HAR_BODY.pdf &nbsp;/&nbsp; POD_LULU_HAR_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUHARD']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/wizard/".$args['database']['T_VERSIONS'][$bible]['LULUHARDX']."/start' target='_blank'>Edit</a> <a href='$lulu_hard' target='_blank'>Buy</a></td></tr>\n"; }
+		// Lulu John
+		if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLUJOHN']) && $args['database']['T_VERSIONS'][$bible]['LULUJOHN']!="NULL") { $htm .= "<tr><td>LULU_JOHN</td><td>Problem</td></tr>\n"; }
+		else if (!empty($args['database']['T_FORPRINT'][$bible]['ISBNLUJOHN']) && $args['database']['T_VERSIONS'][$bible]['LULUJOHN']=="NULL") { $htm .= "<tr><td>LULU_JOHN</td><td>POD_LULU_JOHN_BODY.pdf &nbsp;/&nbsp; POD_LULU_JOHN_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUJOHN']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/projects' target='_blank'>Add</a></td></tr>\n"; }
+		else if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLUJOHN'])) { $htm .= "<tr><td>LULU_JOHN</td><td>None</td></tr>\n"; }
+		else { $htm .= "<tr><td>LULU_JOHN</td><td>POD_LULU_JOHN_BODY.pdf &nbsp;/&nbsp; POD_LULU_JOHN_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUJOHN']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/wizard/".$args['database']['T_VERSIONS'][$bible]['LULUJOHNX']."/start' target='_blank'>Edit</a> <a href='$lulu_john' target='_blank'>Buy</a></td></tr>\n"; }
 	}
 	$htm .= "<tr><td><br /></td><td></td></tr>\n";
 	$htm .= "<tr><td>LANGUAGE</td><td>".$args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH']."</td></tr>\n";
@@ -3447,6 +3468,7 @@ function AION_LOOP_HTMS_DOIT($args) {
 	$htm .= "<tr><td>TRANSLATOR</td><td>".$args['database']['T_VERSIONS'][$bible]['TRANSLATOR']."</td></tr>\n";
 	$htm .= "<tr><td>KDP_DESC</td><td>".htmlentities($blurb)."</td></tr>\n";
 	$htm .= "<tr><td>LULU_DESC</td><td>$blurb</td></tr>\n";
+	$htm .= "<tr><td>JOHN_DESC</td><td>(replace 'This Bible') This gospel primer includes Genesis 1-4, John's Gospel, Revelation 19-22, verses from every Bible book, and</td></tr>\n";
 	$htm .= "</table\n";
 	$htm .= "<br /><br />\n";
 

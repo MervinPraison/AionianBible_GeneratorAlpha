@@ -60,7 +60,13 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		"022	SOL	002	004" => "022	SOL	002	",
 		"023	ISA	009	006" => "023	ISA	009	",
 		"023	ISA	009	007" => "023	ISA	009	",
-		"024	JER	029	011" => "024	JER	029	",
+		"024	JER	001	004" => "024	JER	001	",
+		"024	JER	001	005" => "024	JER	001	",
+		"024	JER	001	006" => "024	JER	001	",
+		"024	JER	001	007" => "024	JER	001	",
+		"024	JER	001	008" => "024	JER	001	",
+		"024	JER	001	009" => "024	JER	001	",
+		"024	JER	001	010" => "024	JER	001	",
 		"025	LAM	003	021" => "025	LAM	003	",
 		"025	LAM	003	022" => "025	LAM	003	",
 		"025	LAM	003	023" => "025	LAM	003	",
@@ -195,13 +201,13 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_onebook'	=> FALSE,	// TRUE = only do first bible book, otherwise all
 		'q_rtlhuh'	=> 'ALL',	// 'RTL' = RTL only,  'RTLNO' = Skip RTL, 'ALL' = all
 		'q_allall'	=> TRUE,	// TRUE = do all bibles not marked FALSE -OR- FALSE = do all bibles marked TRUE
-		'q_pdfall'	=> FALSE,	// TRUE = do ALL PDFs
+		'q_pdfall'	=> TRUE,	// TRUE = do ALL PDFs
 		'q_pdfpo'	=> FALSE,	// TRUE = do KDP PDFs
 		'q_pdfnt'	=> FALSE,	// TRUE = do KDP NT PDFs
 		'q_pdflu'	=> FALSE,	// TRUE = do LULU PDFs
 		'q_pdfon'	=> FALSE,	// TRUE = do Online PDFs
 		'q_pdfoo'	=> FALSE,	// TRUE = do One Online PDFs
-		'q_pdfjo'	=> TRUE,	// TRUE = do John PDFs
+		'q_pdfjo'	=> FALSE,	// TRUE = do John PDFs
 		'q_epubc'	=> TRUE,	// TRUE = do ePub and covers
 		//'include'	=> "/Holy-Bible---.*(Chinese-Sigao|Azerbaijani|Albanian|New-Arabic|Aionian-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Hebrew-Aleppo-Miqra-Mesorah).*---Aionian-Edition\.noia$/",
@@ -217,7 +223,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Arabic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(New-Heart|Rote-Dela|French---Vulgate|Yombe|Hebrew---Living|Hebrew---Modern|Bangwinji|Bhadrawahi|Blackfoot|Borna|Chin-Daai|Chin--Thaiphum).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---[N-Z]+.*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---(Ndebele---Ndebele-Bible|Ndengereko---Ndengereko-Bible|N[e-z]+|[O-Z]+).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---(French|[G-Z]+).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(German---German-Luther-Bible-1545|Haitian---Haitian-Creole-Smith|Portuguese---World-Portuguese-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Basque|Breton).*---Aionian-Edition\.noia$/",
@@ -239,11 +245,11 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 
 		//'include'	=> "/Holy-Bible---.*(Ewe---Word-of-Life|Greek-Modern-Kathareuousa|Oromo---New-World|Twi---Akuapem-Twi-Bible|Twi---Asante-Twi-WASNA|Bhadrawahi-Bible|Coptic---Sahidic-Bible|Haryanvi-Bible|Lodhi-Bible|Baghlayani-Bible|Nepali-Bible|Chinese-Union-Version-Traditional|Hausa---Contemporary|Bahasa-Indonesia-Sehari-hari|Yoruba).*---Aionian-Edition\.noia$/",
 
-		'include'	=> "/Holy-Bible---.*(Polish-Updated-Gdansk).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Polish-Updated-Gdansk).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Coptic---Coptic-Boharic-NT---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---(World-English-Bible-Updated|Aionian-Bible)---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
-		//'include'	=> "/---Aionian-Edition\.noia$/",
+		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		'verses66'	=> $verses66,
@@ -271,7 +277,7 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 
 	// SKIP
 	$forprint = $args['database']['T_FORPRINT'][$bible];
-	if ($forprint['YESJOHN']!="TRUE") { return; } // JOHNNY TEST TEST TEST TEST
+	//if ($forprint['YESJOHN']!="TRUE") { return; } // JOHNNY TEST TEST TEST TEST
 	if ($forprint['NOPDO']=="TRUE") {
 		if ($args['q_allall']) { $args['q_pdfon'] = TRUE; }
 		$args['q_pdfall'] = $args['q_pdfpo'] = $args['q_pdfnt'] = $args['q_pdflu'] = FALSE;
