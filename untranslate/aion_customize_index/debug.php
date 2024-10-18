@@ -30,7 +30,7 @@ if ("Debug/Sanskrit-Burmese"==$_Path) {
 	echo "Note: This page must be viewed from a Windows 10/11 machine to see the Myanmar Text, mmrtext.ttf rendering<br>";
 	echo "Strategy: Find unique medial sequences, a medial defined as a character preceeded by \x{1039}<br>";
 	echo "Disclaimer: Medial sequences found may not cover all possibilities or be the complete sequence<br>";
-	echo "Fonts: Sequence are tested with Padauk, Google, and Microsoft fonts for testing purposes only<br>";
+	echo "Fonts: Sequence are tested with Paduak, Google, and Microsoft fonts for testing purposes only<br>";
 	echo "Medial or Character: $m<br>";
 	echo "Preceeds medial: $g<br>";	
 	echo "Bookends sequence: $e<br>";
@@ -46,7 +46,7 @@ if ("Debug/Sanskrit-Burmese"==$_Path) {
 	else {
 		$flipped = array_flip(array_flip($matches[1]));
 		foreach($flipped as $medial) {
-			echo $number++.") ".($decimal=mb_ord($medial, "UTF-8"))." / 0x".dechex($decimal)." / Padauk5.003( <span class='font-myanmar'>$medial</span> )  NotoGoogle( <span class='font-myanmar-google'>$medial</span> )  Microsoft( <span class='font-myanmar-microsoft'>$medial</span> )<br>";
+			echo $number++.") ".($decimal=mb_ord($medial, "UTF-8"))." / 0x".dechex($decimal)." / Paduak( <span class='font-myanmar'>$medial</span> )  NotoGoogle( <span class='font-myanmar-google'>$medial</span> )  Microsoft( <span class='font-myanmar-microsoft'>$medial</span> )<br>";
 		}
 	}
 	echo "</p>";
@@ -56,7 +56,7 @@ if ("Debug/Sanskrit-Burmese"==$_Path) {
 		"Three Medials in Sequence"	=> "/$e($m$g$m$g$m$g$m)$e/u",
 		"Two Medials in Sequence"	=> "/$e($m$g$m$g$m)$e/u",
 	);
-	echo "<h3>All Unique Sequences with 2 and 3 Medials in Microsoft Font / Paduak 5.003</h3>";
+	echo "<h3>All Unique Sequences with 2 and 3 Medials in Microsoft Font / Paduak</h3>";
 	echo "<p>";
 	foreach($lookfer as $title => $regex) {
 		$matches = array();
@@ -76,7 +76,7 @@ if ("Debug/Sanskrit-Burmese"==$_Path) {
 		"Three Medials in Sequence"	=> "/$e($m$g$m$g$m$g$m)$e/u",
 		"Two Medials in Sequence"	=> "/$e($m$g$m$g$m)$e/u",
 	);
-	echo "<h3>All Unique Sequences in a Sample Context with 2 and 3 Medials in Microsoft Font / Paduak 5.003</h3>";
+	echo "<h3>All Unique Sequences in a Sample Context with 2 and 3 Medials in Microsoft Font / Paduak</h3>";
 	echo "<p>";
 	foreach($lookfer as $title => $regex) {
 		$matches = array();
@@ -111,8 +111,8 @@ if ("Debug/Sanskrit-Burmese"==$_Path) {
 		$unique = count($flipped);
 		echo "Result: total sequences = $total, unique sequences = $unique</p>"; 	
 		foreach($flipped as $key => $sequence) {
-			echo "<b>Context:</b>  Padauk5002( <span class='font-myanmar'>{$matches[0][$key]}</span> )  NotoGoogle( <span class='font-myanmar-google'>{$matches[0][$key]}</span> )  Microsoft( <span class='font-myanmar-microsoft'>{$matches[0][$key]}</span> )<br>";
-			echo "Sequence:  Padauk5002( <span class='font-myanmar'>$sequence</span> )  NotoGoogle( <span class='font-myanmar-google'>$sequence</span> )  Microsoft( <span class='font-myanmar-microsoft'>$sequence</span> )<br>";
+			echo "<b>Context:</b>  Paduak( <span class='font-myanmar'>{$matches[0][$key]}</span> )  NotoGoogle( <span class='font-myanmar-google'>{$matches[0][$key]}</span> )  Microsoft( <span class='font-myanmar-microsoft'>{$matches[0][$key]}</span> )<br>";
+			echo "Sequence:  Paduak( <span class='font-myanmar'>$sequence</span> )  NotoGoogle( <span class='font-myanmar-google'>$sequence</span> )  Microsoft( <span class='font-myanmar-microsoft'>$sequence</span> )<br>";
 			foreach (mb_str_split($sequence) as $char) {
 				echo $number++.") <span class='font-myanmar-microsoft'>$char</span>: ".($decimal=mb_ord($char, "UTF-8"))." / 0x".dechex($decimal)."<br>";
 			}

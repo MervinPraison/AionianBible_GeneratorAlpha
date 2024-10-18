@@ -215,7 +215,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(STEP).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Traditional|Aionian-Bible|Oriya|Vietnamese).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Syriac-Peshitta|Assamese-Bible|Palya-Bareli-Bible|Sorani-Bible|Marathi-Bible|Nepali-Bible|Urdu-Script|Tagalog-Bible-1905).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---(Kannada|Myanmar|Malayalam|Tamil|Sanskrit).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---(Arabic---New-Arabic-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Gujarati|Aionian-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|New-Arabic|Burmese-Common|Bulgarian|Basque|Japanese-Yougo|Uyghur-Bible-Pinyin|Sencillo-Bible|Chinese-Union-Version-Traditional).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(King-James-Version-Updated).*---Aionian-Edition\.noia$/",
@@ -223,7 +223,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Arabic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(New-Heart|Rote-Dela|French---Vulgate|Yombe|Hebrew---Living|Hebrew---Modern|Bangwinji|Bhadrawahi|Blackfoot|Borna|Chin-Daai|Chin--Thaiphum).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---[N-Z]+.*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---(French|[G-Z]+).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---(Portuguese---Biblia-Livre|Portuguese---Free-for-All|Portuguese---Portuguese-Trans-Trans|Portuguese---World-Portuguese-Bible|[Q-Z]+).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(German---German-Luther-Bible-1545|Haitian---Haitian-Creole-Smith|Portuguese---World-Portuguese-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Basque|Breton).*---Aionian-Edition\.noia$/",
@@ -1227,16 +1227,16 @@ $w_toc =
 // toc appendix
 if ($format=='PODJO') {
 if ($w_apdx == $default['W_APDX']) {
-	$w_app = "<Span language='English (USA)'><Value>$w_pref</Value><Br /><Value>Genesis 1-4</Value><Br /><Value>John 1-21</Value><Br /><Value>Revelation 1-4</Value><Br /><Value>$w_verses</Value><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_hist</Value><Br /><Value>$w_dest</Value><Br /><Value>$w_ilus, Doré</Value></Span>";
+	$w_app = "<Span language='English (USA)'><Value>$w_pref</Value><Br /><Value>Genesis 1-4</Value><Br /><Value>John 1-21</Value><Br /><Value>Revelation 19-22</Value><Br /><Value>$w_verses</Value><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_hist</Value><Br /><Value>$w_dest</Value><Br /><Value>$w_ilus, Doré</Value></Span>";
 }
 else if ($rtl=="TRUE") {
-	$w_app = "<Span $langspeed><Fontface fontfamily='FF-TocF'><Value>$w_pref</Value><Br /><Value>{$forprint['GENESIS']} 1-4</Value><Br /><Value>{$forprint['JOHN']} 1-21</Value><Br /><Value>{$forprint['REVELATION']} 1-4</Value><Br /><Value>$w_verses</Value><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_dest</Value><Br /><Value>$w_ilus</Value></Fontface></Span><Span language='English (USA)'><Value>&#xa0;Doré&#xa0;</Value></Span>";
+	$w_app = "<Span $langspeed><Fontface fontfamily='FF-TocF'><Value>$w_pref</Value><Br /><Value>{$forprint['GENESIS']} 1-4</Value><Br /><Value>{$forprint['JOHN']} 1-21</Value><Br /><Value>{$forprint['REVELATION']} 19-22</Value><Br /><Value>$w_verses</Value><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_dest</Value><Br /><Value>$w_ilus</Value></Fontface></Span><Span language='English (USA)'><Value>&#xa0;Doré&#xa0;</Value></Span>";
 }
 else if ($w_font=='FOREIGN') {
-	$w_app = "<Span $langspeed><Fontface fontfamily='FF-TocF'><Value>$w_pref</Value><Br /><Value>{$forprint['GENESIS']} 1-4</Value><Br /><Value>{$forprint['JOHN']} 1-21</Value><Br /><Value>{$forprint['REVELATION']} 1-4</Value><Br /><Value>$w_verses</Value><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_dest</Value><Br /><Value>$w_ilus</Value></Fontface></Span><Span language='English (USA)'><Value>, Doré</Value></Span>";
+	$w_app = "<Span $langspeed><Fontface fontfamily='FF-TocF'><Value>$w_pref</Value><Br /><Value>{$forprint['GENESIS']} 1-4</Value><Br /><Value>{$forprint['JOHN']} 1-21</Value><Br /><Value>{$forprint['REVELATION']} 19-22</Value><Br /><Value>$w_verses</Value><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_dest</Value><Br /><Value>$w_ilus</Value></Fontface></Span><Span language='English (USA)'><Value>, Doré</Value></Span>";
 }
 else {
-	$w_app = "<Span $langspeed><Value>$w_pref</Value><Br /><Value>{$forprint['GENESIS']} 1-4</Value><Br /><Value>{$forprint['JOHN']} 1-21</Value><Br /><Value>{$forprint['REVELATION']} 1-4</Value><Br /><Value>$w_verses</Value><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_dest</Value><Br /><Value>$w_ilus</Value></Span><Span language='English (USA)'><Value>, Doré</Value></Span>";
+	$w_app = "<Span $langspeed><Value>$w_pref</Value><Br /><Value>{$forprint['GENESIS']} 1-4</Value><Br /><Value>{$forprint['JOHN']} 1-21</Value><Br /><Value>{$forprint['REVELATION']} 19-22</Value><Br /><Value>$w_verses</Value><Br /><Value>$w_read</Value><Br /><Value>$w_glos</Value><Br /><Value>$w_map</Value><Br /><Value>$w_dest</Value><Br /><Value>$w_ilus</Value></Span><Span language='English (USA)'><Value>, Doré</Value></Span>";
 }
 }
 else {
@@ -2051,15 +2051,18 @@ $fonts
 		</Otherwise>
 	</Switch>
 
-<!-- NOT JOHNNY -->
-<Switch><Case test="'$format'!='PODJO'">
 	<!-- BIBLE BLANKS -->
 	<Switch><Case test="$onlineformat"></Case><Otherwise>
 		<ClearPage openon="left" pagetype="$page1colleft"/>
 	</Otherwise></Switch>
 
-	<!-- SAVE DATASET -->
+	<!-- PAGE COUNT -->
 	<Message select="concat('PAGE COUNT','$testflag',': ',@NAMEENGLISH,', ',sd:current-page())" />
+
+<!-- NOT JOHNNY -->
+<Switch><Case test="'$format'!='PODJO'">
+
+	<!-- SAVE DATASET -->
 	<SaveDataset name="toc_dataset" elementname="toc_element" select="\$toc_variable" />
 
 	<!-- CREATE TOC -->
@@ -2068,9 +2071,6 @@ $fonts
 		<LoadDataset name="toc_dataset"/>
 	</SavePages>
 </Case>
-<Otherwise>
-<Message select="concat('PAGE COUNT','$testflag',': ',@NAMEENGLISH,', ',sd:current-page())" />
-</Otherwise>
 </Switch>
 
 </Record>

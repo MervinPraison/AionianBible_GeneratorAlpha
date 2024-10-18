@@ -219,7 +219,8 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $allbibles ) {
 		$source_version = (filemtime($base.$sour)===FALSE ? '' : ("\n<div class='field-field'><div class='field-label'>Source Version:</div><div class='field-value'>".date("n/j/Y", filemtime($base.$sour))."</div></div>"));
 		
 		// skip bible?
-		if (!$allbibles && $database[$version[C_BIBLE]][T_VERSIONS]['NOPRO']=='TRUE') {
+		//if (!$allbibles && $database[$version[C_BIBLE]][T_VERSIONS]['NOPRO']=='TRUE') {
+		if ($database[$version[C_BIBLE]][T_VERSIONS]['NOPRO']=='TRUE') {
 			// remove bible index
 			AION_unset($database[T_VERSIONS][$bible]); $database[T_VERSIONS][$bible]=NULL; unset($database[T_VERSIONS][$bible]);
 			// remove bible files
