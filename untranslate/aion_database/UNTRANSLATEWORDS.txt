@@ -1,6 +1,5 @@
 BIBLE	NOSPACE	NOETERNAL	ETERNAL	NOHELL	YESHELL	SHEOL	GEHENNA	HADES	TARTARUS	ABYSS	LOF	END
 Holy-Bible---Ahirani---Gospels	0											NULL
-Holy-Bible---Albanian-Tosk---Albanian-Bible	0		shekuj të shekujve,amshim,amshuar,amshueshme,gjithmon,pasosur,gjithmonë,përjetësi,përgjithmonë,përjetshëm,përjetshme,përjetë,botë,bote,botën,botës,bota,kohët,kohe,kohërash,kohë,kohëve,epokët,epokë,epokat,shekulli,,jetëve,gjithësinë,jetë të jetës	ferr,ferrit	ferr,ferrit	Sheol,Sheolit,Sheoli,Sheolin,në varr	Gehenës,Gehenën,Gehena,Gehenas	ferr,ferrit,Hades,Hadesi	tartar	humnerë,humnerës,humnera	liqenin e zjarrtë,liqenin që digjet me zjarr	NULL
 Holy-Bible---Amo---Amo-Bible	0											NULL
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible	0											NULL
 Holy-Bible---Arabic---New-Arabic-Bible	0											NULL

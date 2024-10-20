@@ -5377,8 +5377,6 @@ function AION_LOOP_PDFMARGIN($source, $destiny) {
 	AION_LOOP( array(
 		'function'	=> 'AION_LOOP_PDFMARGIN_DOIT',
 		//'include'	=> "/(Amo-Bible---|Bu-Bible---|Bareli-Bible---|Bengali-Bible---)Aionian-Edition\.noia$/",
-		//'include'	=> "/(Amo-Bible---|Bu-Bible---|Albanian-Bible---|Assamese-Bible---|Bengali-Bible---|Arabic-Van-Dyck-Bible---)Aionian-Edition\.noia$/",
-		//'include'	=> "/(Albanian-Bible---)Aionian-Edition\.noia$/",
 		//'include'	=> "/(Bengali-Bible---|Arabic-Van-Dyck-Bible---)Aionian-Edition\.noia$/",
 		//'include'	=> "/(Arapaho|Cherokee|Finnish-Bible|Malayalam|Myanmar|Sanskrit|Tamil).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Kannada|Finnish---Finnish-Bible).*---Aionian-Edition\.noia$/",

@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 891747      
-# File Date: 10/11/2024 22:11:54
+# File Size: 889461      
+# File Date: 10/18/2024 09:52:41
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2024
@@ -23,15 +23,6 @@ Holy-Bible---Ahirani---Gospels	EXO-013-017
 Holy-Bible---Ahirani---Gospels	MAR-010-045	मार्क 10:45	कारण मनुष्यना पोऱ्या पण सेवा करी लेवाले नही तर सेवा कराले अनी लोकसना पापनं मोल म्हणीन आपला जीव देवाले येल शे.”
 Holy-Bible---Ahirani---Gospels	ROM-001-001		
 Holy-Bible---Ahirani---Gospels	MAT-028-019	मत्तय 28:19	यामुये तुम्हीन जाईसन सर्वा राष्ट्रमाधला लोकसले शिष्य करा; त्यासले पिता, पुत्र अनं पवित्र आत्माना नावतीन बाप्तिस्मा द्या,
-Holy-Bible---Albanian-Tosk---Albanian-Bible	JOH-003-016	Gjoni 3:16	Sepse Perëndia e deshi aq botën, sa dha Birin e tij të vetëmlindurin, që, kushdo që beson në të, të mos humbasë, por të ketë jetë të përjetshme.
-Holy-Bible---Albanian-Tosk---Albanian-Bible	GEN-003-024	Zanafilla 3:24	Kështu ai e dëboi njeriun; dhe vendosi në lindje të kopshtit të Edenit kerubinët që vërtisnin nga çdo anë një shpatë flakëruese për të ruajtur rrugën e pemës së jetës.
-Holy-Bible---Albanian-Tosk---Albanian-Bible	LUK-023-034	Luka 23:34	Dhe Jezusi tha: “O Atë, fali ata sepse nuk dinë ç’bëjnë”. Pastaj, pasi i ndanë rrobat e tij, hodhën short.
-Holy-Bible---Albanian-Tosk---Albanian-Bible	REV-021-002	Zbulesa 21:2-3	Dhe unë, Gjoni, pashë qytetin e shenjtë, Jeruzalemin e ri, që zbriste nga qielli, nga Perëndia, që ishte bërë gati si nuse e stolisur për burrin e vet. Dhe dëgjova një zë të madh nga qielli që thoshte: “Ja tabernakulli i Perëndisë me njerëzit! Dhe ai do të banojë me ta; edhe ata do të jenë populli i tij dhe vetë Perëndia do të jetë bashkë me ta, Perëndi e tyre.
-Holy-Bible---Albanian-Tosk---Albanian-Bible	HEB-011-008	Hebrenjve 11:8	Me anë të besimit Abrahami, kur u thirr, u bind të shkojë në atë vend që do të merrte për trashëgim; dhe u nis pa ditur se ku po shkonte.
-Holy-Bible---Albanian-Tosk---Albanian-Bible	EXO-013-017	Eksodi 13:17	Kur Faraoni e la popullin të shkojë, Perëndia nuk e çoi nëpër rrugën e vendit të Filistejve, megjithëse kjo ishte më e shkurtëra, sepse Perëndia tha: “Që të mos pendohet populli, kur të shohë luftën, dhe të mos kthehet në Egjipt”.
-Holy-Bible---Albanian-Tosk---Albanian-Bible	MAR-010-045	Marku 10:45	Sepse edhe Biri i njeriut nuk erdhi që t’i shërbejnë, por për të shërbyer dhe për të dhënë jetën e tij si çmim për shpengimin e shumë vetave”.
-Holy-Bible---Albanian-Tosk---Albanian-Bible	ROM-001-001	Romakëve 1:1	Pali, shërbëtor i Jezu Krishtit, i thirrur për të qenë apostull, i veçuar për ungjillin e Perëndisë,
-Holy-Bible---Albanian-Tosk---Albanian-Bible	MAT-028-019	Mateu 28:19	Shkoni, pra, dhe bëni dishepuj nga të gjithë popujt duke i pagëzuar në emër të Atit e të Birit e të Frymës së Shenjtë,
 Holy-Bible---Amo---Amo-Bible	JOH-003-016	Yuhana 3:16	Bara Kutelle nati usu inyii ulele, amini na ni gono kinin kirum cas, vat nlenge na ayinna ninghe, na ama nanu ba, ama se ulai un saligang.
 Holy-Bible---Amo---Amo-Bible	GEN-003-024		
 Holy-Bible---Amo---Amo-Bible	LUK-023-034	Luka 23:34	Yesu woro, “Ucif, wesse nani alapi mine, bara na iyiru imon ile na idin sue ba.” I tunna idinja timo, I koso imon me.

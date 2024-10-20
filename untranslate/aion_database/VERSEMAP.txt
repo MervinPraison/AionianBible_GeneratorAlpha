@@ -1,6 +1,5 @@
 BIBLE	MAP
 Holy-Bible---Ahirani---Gospels	NONE
-Holy-Bible---Albanian-Tosk---Albanian-Bible	NONE
 Holy-Bible---Amo---Amo-Bible	NONE
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible	NONE
 Holy-Bible---Arabic---New-Arabic-Bible	NONE

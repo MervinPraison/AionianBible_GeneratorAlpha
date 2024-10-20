@@ -1,7 +1,5 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	WORD	STRONGS	UNTRANS	TEXT
 Holy-Bible---Ahirani---Gospels								NULL
-Holy-Bible---Albanian-Tosk---Albanian-Bible	061	2PE	002	017	NOTE			questioned
-Holy-Bible---Albanian-Tosk---Albanian-Bible								NULL
 Holy-Bible---Amo---Amo-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Amo---Amo-Bible								NULL
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible	061	2PE	002	017	NOTE			questioned

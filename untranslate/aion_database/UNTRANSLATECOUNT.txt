@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
-# File Size: 38115       
-# File Date: 10/11/2024 21:40:14
+# File Size: 38013       
+# File Date: 10/18/2024 09:19:02
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2024
@@ -14,7 +14,6 @@
 #
 BIBLE	HELL_ALL	HELL_OUT	SHEOL	GEHENNA	ELEESE	HADES	ABYSS	TARTARUS	LOF	AION	AIONIAN	AION-2	AIDIOS	AION_OUT	CUSTOM	OUT	IN	VERSE_DO	VERSE_OK	VERSE_SK	VERSE_NO	VERSE_ER	VERSE_CK
 Holy-Bible---Ahirani---Gospels	0	0	0	10	0	2	0	0	0	10	6	4	0	0	0	0	32	30	30	0	234	0	0
-Holy-Bible---Albanian-Tosk---Albanian-Bible	5	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---Amo---Amo-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---Arabic---New-Arabic-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1

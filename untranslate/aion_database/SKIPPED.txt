@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1580533     
-# File Date: 10/11/2024 20:05:22
+# File Size: 1580409     
+# File Date: 10/18/2024 07:33:39
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2024
@@ -13,7 +13,6 @@
 # Publisher Facebook: https://www.Facebook.com/AionianBible
 #
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	TEXT
-Holy-Bible---Albanian-Tosk---Albanian-Bible	064	3JO	001	014	por shpresoj të të shoh së shpejti dhe do të flasim gojarisht.
 Holy-Bible---Amo---Amo-Bible	041	MAR	009	046	
 Holy-Bible---Amo---Amo-Bible	044	ACT	001	008	
 Holy-Bible---Amo---Amo-Bible	064	3JO	001	014	Ndin caa inyene mune nin nizi, tima nin liru tiyenje atii.
@@ -3644,7 +3643,7 @@ Holy-Bible---French---French-Darby-Bible	019	PSA	102	001	Prière de l’affligé
 Holy-Bible---French---French-Darby-Bible	019	PSA	108	001	Cantique. Psaume de David.
 Holy-Bible---French---French-Darby-Bible	019	PSA	140	001	Au chef de musique. Psaume de David.
 Holy-Bible---French---French-Darby-Bible	019	PSA	142	001	Instruction de David ; lorsqu’il était dans la caverne. Prière.
-Holy-Bible---French---French-Darby-Bible	040	MAT	023	014	
+Holy-Bible---French---French-Darby-Bible	040	MAT	023	014	 
 Holy-Bible---French---French-Darby-Bible	064	3JO	001	014	mais j’espère te voir bientôt et nous parlerons bouche à bouche.
 Holy-Bible---French---French-Darby-Bible	066	REV	012	018	Et je me tins sur le sable de la mer ;
 Holy-Bible---French---French-Khan-Bible	011	1KI	022	043	Il suivit en tout la voie d’Asa, son père, sans s’en détourner; il fit le bien aux yeux de l’Eternel.

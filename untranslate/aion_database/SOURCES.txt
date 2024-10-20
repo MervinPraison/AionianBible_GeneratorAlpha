@@ -4,10 +4,6 @@ Holy-Bible---Ahirani---Gospels				https://ebible.org/epub/ahr.epub	Holy-Bible---
 Holy-Bible---Ahirani---Gospels				https://ebible.org/pdf/ahr/ahr_prt.pdf	Holy-Bible---Ahirani---Gospels---Source-Edition.pdf	
 Holy-Bible---Ahirani---Gospels				https://ebible.org/Scriptures/ahr_vpl.zip	Holy-Bible---Ahirani---Gospels---Source-Edition.VPL.zip	
 Holy-Bible---Ahirani---Gospels				https://ebible.org/sword/zip/ahr2023eb.zip	Holy-Bible---Ahirani---Gospels---Source-Edition.SWORD.zip	
-Holy-Bible---Albanian-Tosk---Albanian-Bible				https://ebible.org/epub/alsSHQ.epub	Holy-Bible---Albanian-Tosk---Albanian-Bible---Source-Edition.epub	
-Holy-Bible---Albanian-Tosk---Albanian-Bible				https://ebible.org/pdf/alsSHQ/alsSHQ_prt.pdf	Holy-Bible---Albanian-Tosk---Albanian-Bible---Source-Edition.pdf	
-Holy-Bible---Albanian-Tosk---Albanian-Bible				https://ebible.org/Scriptures/alsSHQ_vpl.zip	Holy-Bible---Albanian-Tosk---Albanian-Bible---Source-Edition.VPL.zip	
-Holy-Bible---Albanian-Tosk---Albanian-Bible				https://ebible.org/sword/zip/alsSHQ1994eb.zip	Holy-Bible---Albanian-Tosk---Albanian-Bible---Source-Edition.SWORD.zip	
 Holy-Bible---Amo---Amo-Bible				https://ebible.org/epub/amo.epub	Holy-Bible---Amo---Amo-Bible---Source-Edition.epub	
 Holy-Bible---Amo---Amo-Bible				https://ebible.org/pdf/amo/amo_prt.pdf	Holy-Bible---Amo---Amo-Bible---Source-Edition.pdf	
 Holy-Bible---Amo---Amo-Bible				https://ebible.org/Scriptures/amo_vpl.zip	Holy-Bible---Amo---Amo-Bible---Source-Edition.VPL.zip	

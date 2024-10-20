@@ -1,6 +1,6 @@
 # File Name: TESTWORDS.txt
-# File Size: 252221      
-# File Date: 10/11/2024 22:09:51
+# File Size: 251128      
+# File Date: 10/18/2024 09:50:32
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2024
@@ -14,7 +14,6 @@
 #
 BIBLE	NOSPACE	NOETERNAL	ETERNAL	NOHELL	YESHELL	SHEOL	GEHENNA	HADES	TARTARUS	ABYSS	LOF	END
 Holy-Bible---Ahirani---Gospels	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
-Holy-Bible---Albanian-Tosk---Albanian-Bible	0	GROUP=0/0/0	shekuj të shekujve=22/21/1, amshim=3/1/2, amshuar=6/6/0, amshueshme=1/1/0, gjithmon=1/1/0, pasosur=2/2/0, gjithmonë=22/1/21, përjetësi=18/2/16, përgjithmonë=8/4/4, përjetshëm=84/11/73, përjetshme=104/50/54, përjetë=226/25/201, botë=52/5/47, bote=18/7/11, botën=52/3/49, botës=66/13/53, bota=55/3/52, kohët=22/1/21, kohe=61/2/59, kohërash=1/1/0, kohë=252/8/244, kohëve=9/1/8, epokët=1/1/0, epokë=1/1/0, epokat=3/2/1, shekulli=1/1/0, jetëve=2/1/1, gjithësinë=1/1/0, jetë të jetës=3/3/0, GROUP=1097/179/918	ferr=4/4/0, ferrit=1/1/0, GROUP=5/5/0	ferr=4/4/0, ferrit=1/1/0, GROUP=5/5/0	Sheol=64/64/0, Sheolit=16/16/0, Sheoli=14/14/0, Sheolin=4/4/0, në varr=17/3/14, GROUP=115/101/14	Gehenës=1/1/0, Gehenën=2/2/0, Gehena=7/7/0, Gehenas=2/2/0, GROUP=12/12/0	ferr=4/4/0, ferrit=1/1/0, Hades=2/2/0, Hadesi=3/3/0, GROUP=10/10/0	tartar=1/1/0, GROUP=1/1/0	humnerë=9/3/6, humnerës=16/4/12, humnera=12/2/10, GROUP=37/9/28	liqenin e zjarrtë=1/1/0, liqenin që digjet me zjarr=1/1/0, GROUP=2/2/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Amo---Amo-Bible	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Arabic---New-Arabic-Bible	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0

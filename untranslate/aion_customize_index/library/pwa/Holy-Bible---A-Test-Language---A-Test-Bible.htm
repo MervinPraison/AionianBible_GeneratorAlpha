@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Holy Bible Aionian Edition® ~ PWA</title>
+<meta name="description" content="Holy Bible Aionian Edition® ~ The world's first Holy Bible untranslation! ~ Progressive Web App">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="generator" content="ABCMS™">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta property="og:url" content="https://www.aionianbible.org">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Holy Bible Aionian Edition">
+<meta property="og:description" content="Holy Bible Aionian Edition ~ PWA">
+<meta property="og:image" content="https://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-1.jpg">
+<meta property="og:image" content="https://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-2.jpg">
+<meta property="og:image" content="https://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-3.jpg">
+<meta property="og:image" content="https://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-4.jpg">
+<link rel="shortcut icon" href="https://www.aionianbible.org/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.aionianbible.org/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.aionianbible.org/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.aionianbible.org/favicon-16x16.png">
+<link rel="manifest" href="https://www.aionianbible.org/pwa.webmanifest">
+<style>
+	body {
+		padding: 7px;
+		color: purple;
+		font-weight: 900;
+	}
+</style>
+</head>
+<body>
+<br>
+Javascript is required to view this Progressive Web App (PWA).<br>
+<br>
+Patience. Loading entire Bible...
+<script>
+/*
+T = title
+S = subtitle
+M = menu
+B = body
+*/
+const bible = [
+/* zero */
+``,
+/* one */
+`
+<h2>Hello World! 1</h2>
+<a title="Page 1" href="#" onclick="doit(1);return false;">1</a>,
+<a title="Page 2" href="#" onclick="doit(2);return false;">2</a>,
+<a title="Page 3" href="#" onclick="doit(3);return false;">3</a>,
+<p>
+Preface
+<p>
+`,
+/* two */
+`
+<h2>Hello World! 2</h2>
+<a title="Page 1" href="#" onclick="doit(1);return false;">1</a>,
+<a title="Page 2" href="#" onclick="doit(2);return false;">2</a>,
+<a title="Page 3" href="#" onclick="doit(3);return false;">3</a>,
+<p>
+Hello World!
+<p>
+`,
+/* three */
+`
+<h2>Hello World! 3</h2>
+<a title="Page 1" href="#" onclick="doit(1);return false;">1</a>,
+<a title="Page 2" href="#" onclick="doit(2);return false;">2</a>,
+<a title="Page 3" href="#" onclick="doit(3);return false;">3</a>,
+<p>
+Lorem ipsum odor amet, consectetuer adipiscing elit. Habitasse himenaeos faucibus nostra vitae fusce leo. Interdum dolor magna nascetur semper at urna enim. Eu nulla tortor ridiculus vehicula nunc morbi. Sollicitudin iaculis cras nulla est eleifend torquent fermentum? Nostra euismod quisque tempor metus lorem urna. Natoque ad nulla massa placerat cras neque dignissim auctor duis?
+</p>
+<p>
+Viverra lobortis laoreet dapibus; nec vel nascetur felis ad pulvinar. Dictum felis ante hac vulputate curae quis. Est sagittis ut finibus donec vestibulum. Natoque elementum finibus nibh euismod convallis; sem vehicula conubia. Praesent dictumst et nascetur nisl tristique elit eu fusce. Tempus netus ipsum placerat suscipit varius ornare; felis porttitor felis. Erat porttitor potenti habitasse montes potenti ridiculus. Nullam phasellus vulputate ex magna conubia sagittis ipsum tempor. Libero vulputate bibendum vestibulum netus neque pulvinar. Lacinia eleifend litora maecenas mattis fusce eget sed.
+<p>
+`
+];
+/* easy peasy */
+function doit(indx) {
+	if (typeof bible[indx] === 'undefined' || indx == 0) { indx = 1; }
+	document.getElementsByTagName("body")[0].innerHTML = bible[indx];
+}
+doit(1);
+</script>
+</body>
+</html>
