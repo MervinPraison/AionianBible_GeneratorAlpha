@@ -258,12 +258,14 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $allbibles ) {
 		$langfor = "<span lang='".$database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGECODEISO']."' class='".$database[$version[C_BIBLE]][T_VERSIONS]['LANGUAGECSS']."'>";
 		
 		// Amazon and Lulu links
-		$L_AMAZON	= (empty($version[C_AMAZON])	|| $version[C_AMAZON]=='NULL'	? "" : "https://www.amazon.com/dp/".$version[C_AMAZON]);
-		$L_AMAZONNT	= (empty($version[C_AMAZONNT])	|| $version[C_AMAZONNT]=='NULL'	? "" : "https://www.amazon.com/dp/".$version[C_AMAZONNT]);
-		$L_LULU		= (empty($version[C_LULU])		|| $version[C_LULU]=='NULL'		? "" : (preg_match('/^http/i',$version[C_LULU])		? $version[C_LULU]		: "https://www.lulu.com/content/".$version[C_LULU]));
-		$L_LULUHARD	= (empty($version[C_LULUHARD])	|| $version[C_LULUHARD]=='NULL'	? "" : (preg_match('/^http/i',$version[C_LULUHARD])	? $version[C_LULUHARD]	: "https://www.lulu.com/content/".$version[C_LULUHARD]));
-		$L_LULUNT	= (empty($version[C_LULUNT])	|| $version[C_LULUNT]=='NULL'	? "" : (preg_match('/^http/i',$version[C_LULUNT])	? $version[C_LULUNT]	: "https://www.lulu.com/content/".$version[C_LULUNT]));
-
+		$L_AMAZON		= (empty($version[C_AMAZON])	|| $version[C_AMAZON]=='NULL'		? "" : "https://www.amazon.com/dp/".$version[C_AMAZON]);
+		$L_AMAZONNT		= (empty($version[C_AMAZONNT])	|| $version[C_AMAZONNT]=='NULL'		? "" : "https://www.amazon.com/dp/".$version[C_AMAZONNT]);
+		$L_AMAZONJOHN	= (empty($version[C_AMAZONJOHN])|| $version[C_AMAZONJOHN]=='NULL'	? "" : "https://www.amazon.com/dp/".$version[C_AMAZONJOHN]);
+		$L_LULU			= (empty($version[C_LULU])		|| $version[C_LULU]=='NULL'			? "" : (preg_match('/^http/i',$version[C_LULU])		? $version[C_LULU]		: "https://www.lulu.com/content/".$version[C_LULU]));
+		$L_LULUHARD		= (empty($version[C_LULUHARD])	|| $version[C_LULUHARD]=='NULL'		? "" : (preg_match('/^http/i',$version[C_LULUHARD])	? $version[C_LULUHARD]	: "https://www.lulu.com/content/".$version[C_LULUHARD]));
+		$L_LULUNT		= (empty($version[C_LULUNT])	|| $version[C_LULUNT]=='NULL'		? "" : (preg_match('/^http/i',$version[C_LULUNT])	? $version[C_LULUNT]	: "https://www.lulu.com/content/".$version[C_LULUNT]));
+		$L_LULUJOHN		= (empty($version[C_LULUJOHN])	|| $version[C_LULUJOHN]=='NULL'		? "" : (preg_match('/^http/i',$version[C_LULUJOHN])	? $version[C_LULUJOHN]	: "https://www.lulu.com/content/".$version[C_LULUJOHN]));
+		
 		// okay built it
 		$database[$version[C_BIBLE]]['FORMATTED'] = ''.
 		
@@ -291,12 +293,14 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $allbibles ) {
 		(empty($database[$version[C_BIBLE]][T_VERSIONS]['EXTENSION'])? '' : ("\n<div class='field-field'><div class='field-label'>Additional Information:<br /></div><div class='field-value'>".$database[$version[C_BIBLE]][T_VERSIONS]['EXTENSION']."</div></div>")).
 
 		($database[$version[C_BIBLE]][T_VERSIONS]['DOWNLOAD']=='N' ? '' : ( 
- 
-		"\n<div class='field-header'>Downloads:</div><div class='field-field'><div class='field-links decorated'>".
+
+ 		"\n<div class='field-header'>Online:</div><div class='field-field'><div class='field-links decorated'>".
 		"<a href='https://play.google.com/store/apps/details?id=net.signedon.aionianbible.aionianbible' target='_blank' title='Aionian Bible free at Google Play Store'>Android App</a>".
         (is_dir(  $bpub.'---Aionian-Edition')					?(", <a href='/epub/"		.$version[C_BIBLE]	."---Aionian-Edition' target='_blank' title='Aionian Bible ePub Futurepress'>Futurepress</a>") :'').
         (is_dir(  $bpub.'---Aionian-Edition')					?(", <a href='/Readium/"	.$version[C_BIBLE]	."---Aionian-Edition' target='_blank' title='Aionian Bible ePub Readium'>Readium</a>") :'').
-		(AION_filesize($base.'---Aionian-Edition.epub')			?(", <a href='/resources/"	.$version[C_BIBLE]	."---Aionian-Edition.epub' download title='Aionian Bible ePub format download'>ePub</a>") :'').
+
+ 		"\n<div class='field-header'>Downloads:</div><div class='field-field'><div class='field-links decorated'>".
+		(AION_filesize($base.'---Aionian-Edition.epub')			?("<a href='/resources/"	.$version[C_BIBLE]	."---Aionian-Edition.epub' download title='Aionian Bible ePub format download'>ePub</a>") :'').
 		(AION_filesize($base.'---Aionian-Edition.pdf')			?(", <a href='/resources/"	.$version[C_BIBLE]	."---Aionian-Edition.pdf' target='_blank' title='Aionian Bible PDF format'>PDF</a>") :'').
 		(AION_filesize($base.'---Aionian-Edition---STUDY.pdf')	?(", <a href='/resources/"	.$version[C_BIBLE]	."---Aionian-Edition---STUDY.pdf' target='_blank' title='Aionian Bible wide margin PDF study format'>Study PDF</a>") :'').
 		($pack													?(", <a href='$pack' target='_blank' title='Aionian Bible Study Pack resources for Bible translation and study of underlying languages'>Study Pack</a>") :'').
@@ -307,18 +311,22 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $allbibles ) {
 
 		((!empty($L_AMAZON) ||
 		  !empty($L_AMAZONNT) ||
+		  !empty($L_AMAZONJOHN) ||
 		  !empty($L_LULU) ||
 		  !empty($L_LULUHARD) ||
-		  !empty($L_LULUNT)) ?
+		  !empty($L_LULUNT) ||
+		  !empty($L_LULUJOHN)) ?
         ("\n<div class='field-header'>Purchase / Buy:</div><div class='field-field'><div class='field-links decorated'>".
 		(TRUE					?("<a href='/Buy' title='Buy Aionian Bible'><img src='/images/Aionian-Bible-Button-Buy-25.png' title='Buy the Aionian Bible in print' /></a> ") :'').
 		(TRUE					?("<a href='/Buy' title='Buy the Aionian Bible in print'>All Bibles</a>, ") :'').
 		(!empty($L_AMAZON)		?("<a href='$L_AMAZON' target='_blank' title='Buy Holy Bible Aionian Edition print copy at Amazon.com'>Amazon</a>, ")					:'').
 		(!empty($L_AMAZONNT)	?("<a href='$L_AMAZONNT' target='_blank' title='Buy Holy Bible Aionian Edition New Testament print copy at Amazon.com'>Amazon New Testament</a>, ")	:'').
+		(!empty($L_AMAZONJOHN)	?("<a href='$L_AMAZONJOHN' target='_blank' title='Buy Holy Bible Aionian Edition Gospel Primer print copy at Amazon.com'>Amazon Gospel Primer</a>, ")	:'').
 		($bible=='Holy-Bible---English---Aionian-Bible'	?("<a href='https://www.amazon.com/dp/B084DHWQXL' target='_blank' title='Buy Holy Bible Aionian Edition Aionian Bible 22 Book Special Edition print copy at Amazon.com'>Amazon 22 Special</a>, ")	:'').
 		(!empty($L_LULU)		?("<a href='$L_LULU' target='_blank' title='Buy Holy Bible Aionian Edition print copy at Lulu.com'>Lulu</a>, ")								:'').
 		(!empty($L_LULUHARD)	?("<a href='$L_LULUHARD' target='_blank' title='Buy Holy Bible Aionian Edition hardcover copy at Lulu.com'>Lulu Hardcover</a>, ")				:'').
 		(!empty($L_LULUNT)		?("<a href='$L_LULUNT' target='_blank' title='Buy Holy Bible Aionian Edition New Testament print copy at Lulu.com'>Lulu New Testament</a>, ")	:'').
+		(!empty($L_LULUJOHN)	?("<a href='$L_LULUJOHN' target='_blank' title='Buy Holy Bible Aionian Edition Gospel Primer print copy at Lulu.com'>Lulu Gospel Primer</a>, ")	:'').
 		($bible=='Holy-Bible---English---Aionian-Bible'	?("<a href='https://www.lulu.com/shop/-nainoia-inc/holy-bible-aionian-edition-aionian-bible-22-book-digest-special-edition/paperback/product-1qkg7e89.html' target='_blank' title='Buy Holy Bible Aionian Edition Aionian Bible 22 Book Special Edition print copy at Lulu.com'>Lulu 22 Special</a>")	:'').
 		"</div></div>")
 		 : "").

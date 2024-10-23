@@ -439,10 +439,12 @@ foreach( $bible_ALL as $bible => $version ) {
 		echo "<div class='word-buy $stripe $highlight' $quick_id><a href='".abcms_href('/Bibles/'.$bible,FALSE,TRUE,TRUE)."' title='Bible Table of Contents'>".$language." ~ ".$name."</a>";
 		$buylinks  = ($version['AMAZON']=='NULL'		? '' : "<a href='https://www.amazon.com/dp/".$version['AMAZON']."'		target='_blank' title='$title'>Amazon</a>, ");
 		$buylinks .= ($version['AMAZONNT']=='NULL'		? '' : "<a href='https://www.amazon.com/dp/".$version['AMAZONNT']."'	target='_blank' title='$title'>Amazon NT</a>, ");
+		$buylinks .= ($version['AMAZONJOHN']=='NULL'	? '' : "<a href='https://www.amazon.com/dp/".$version['AMAZONJOHN']."'	target='_blank' title='$title'>Amazon Gospel Primer</a>, ");
 		$buylinks .= ($bible!='English---Aionian-Bible'	? '' : "<a href='https://www.amazon.com/dp/B084DHWQXL'	target='_blank' title='$title'>Amazon 22 Special</a>, ");
 		$buylinks .= ($version['LULU']=='NULL'			? '' : "<a href='".$version['LULU']		."' target='_blank' title='$title'>Lulu</a>, ");
 		$buylinks .= ($version['LULUHARD']=='NULL'		? '' : "<a href='".$version['LULUHARD']	."' target='_blank' title='$title'>Lulu Hardcover</a>, ");
 		$buylinks .= ($version['LULUNT']=='NULL'		? '' : "<a href='".$version['LULUNT']	."' target='_blank' title='$title'>Lulu NT</a>, ");
+		$buylinks .= ($version['LULUJOHN']=='NULL'		? '' : "<a href='".$version['LULUJOHN']	."' target='_blank' title='$title'>Lulu Gospel Primer</a>, ");
 		$buylinks .= ($bible!='English---Aionian-Bible'	? '' : "<a href='https://www.lulu.com/shop/-nainoia-inc/holy-bible-aionian-edition-aionian-bible-22-book-digest-special-edition/paperback/product-1qkg7e89.html'	target='_blank' title='$title'>Lulu 22 Special</a>, ");
 		$buylinks .= ($version['BUYOTHER']=='NULL'		? '' : "<a href='".$version['BUYOTHER']	."' target='_blank' title='$title'>{$version['BUYOTHER']}</a>");
 		$buylinks = trim($buylinks,', ');

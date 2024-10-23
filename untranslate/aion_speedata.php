@@ -247,8 +247,9 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Polish-Updated-Gdansk).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Coptic---Coptic-Boharic-NT---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---(World-English-Bible-Updated|Aionian-Bible)---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
-		'include'	=> "/---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---(English---Aionian-Bible|Hebrew---Modern-Hebrew-Bible|English---World-Messianic-Bible)---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---(Arabic---New-Arabic-Bible|English---Aionian-Bible|Hebrew---Modern-Hebrew-Bible)---Aionian-Edition\.noia$/",
+		//'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		'verses66'	=> $verses66,
@@ -1421,6 +1422,8 @@ $PAGE_HEIGHT				= '9in';
 // margins
 $MARGIN_SINGLE_INSIDE		= '0.8125in';
 $MARGIN_SINGLE_OUTSIDE		= '0.3125in';
+$MARGIN_SINGLE_INSIDE66		= '0.8125in';
+$MARGIN_SINGLE_OUTSIDE66	= '0.3125in';
 $REFER_SINGLE_INSIDE		= '0.8125in';
 $REFER_SINGLE_OUTSIDE		= '0.3125in';
 $MARGIN_SINGLE_TOP			= '0.3125in';
@@ -1459,6 +1462,8 @@ $REFERENCE_RIGHT	= '53';
 $TITLEJUSTIFICATION		= "right";
 $page1colright			= "page1colright";
 $page1colleft			= "page1colleft";
+$page1colright66		= "page1colright66";
+$page1colleft66			= "page1colleft66";
 $page1colrightrotated	= "page1colrightrotated";
 $page1colleftrotated	= "page1colleftrotated";
 // MARGINS ALL
@@ -1487,9 +1492,12 @@ else if ($format=="READ") {
 }
 else if ($rtl=='TRUE') { // margins flipped
 	$MARGIN_SINGLE_INSIDE	= '0.875in';
+	$MARGIN_SINGLE_OUTSIDE	= '0.3125in';
+	$MARGIN_SINGLE_INSIDE66	= '0.3125in';
+	$MARGIN_SINGLE_OUTSIDE66= '0.875in';
 	$MARGIN_SINGLE_WIDTH	= '77';
 	$MARGIN_MAPS_WIDTH		= '69';
-	$MARGIN_MAPS_WIDTH_TIME	= '77';
+	$MARGIN_MAPS_WIDTH_TIME	= '76';
 	$MARGIN_MAPS_COLUMN		= '71';
 	$REFER_SINGLE_INSIDE	= '0.3125in';	$REFER_SINGLE_OUTSIDE	= '0.875in';
 	$MARGIN_RIGHT_LEFT		= '0.3125in';	$MARGIN_RIGHT_RIGHT		= '0.875in';	$MARGIN_RIGHT_TOP		= '0.3125in';	$MARGIN_RIGHT_BOTTOM	= '0.3125in';
@@ -1500,6 +1508,8 @@ else if ($rtl=='TRUE') { // margins flipped
 	$TITLEJUSTIFICATION		= "left";
 	$page1colright			= "page1colleft";
 	$page1colleft			= "page1colright";
+	$page1colright66		= "page1colleft66";
+	$page1colleft66			= "page1colright66";
 	$page1colrightrotated	= "page1colleftrotated";
 	$page1colleftrotated	= "page1colrightrotated";
 	$pref1colright			= "pref1colleft";
@@ -1512,7 +1522,7 @@ else {
 	$REFER_SINGLE_INSIDE	= '0.875in';
 	$MARGIN_SINGLE_WIDTH	= '77';
 	$MARGIN_MAPS_WIDTH		= '69';
-	$MARGIN_MAPS_WIDTH_TIME	= '77';
+	$MARGIN_MAPS_WIDTH_TIME	= '76';
 	$MARGIN_MAPS_COLUMN		= '71';
 	$MARGIN_RIGHT_LEFT		= '0.875in';	$MARGIN_RIGHT_RIGHT		= '0.3125in';	$MARGIN_RIGHT_TOP		= '0.3125in';	$MARGIN_RIGHT_BOTTOM	= '0.3125in';
 	$MARGIN_LEFT_LEFT		= '0.3125in';	$MARGIN_LEFT_RIGHT		= '0.875in';	$MARGIN_LEFT_TOP		= '0.3125in';	$MARGIN_LEFT_BOTTOM		= '0.3125in';
@@ -1587,6 +1597,18 @@ $fonts
 </Pagetype>
 <Pagetype name="page1colleft" test="\$newpagetype != 'biblepage' and \$newpagetype != 'page1rotated' and sd:even(sd:current-page())">
 	<Margin left="$MARGIN_SINGLE_OUTSIDE" right="$MARGIN_SINGLE_INSIDE" top="$MARGIN_SINGLE_TOP" bottom="$MARGIN_SINGLE_BOTTOM"/>
+	<PositioningArea name="area1col">
+		<PositioningFrame row="1" column="1" width="$MARGIN_SINGLE_WIDTH" height="$MARGIN_SINGLE_HEIGHT"/>
+	</PositioningArea>
+</Pagetype>
+<Pagetype name="page1colright66" test="\$newpagetype = 'page1col66' and sd:odd(sd:current-page())">
+	<Margin left="$MARGIN_SINGLE_INSIDE66" right="$MARGIN_SINGLE_OUTSIDE66" top="$MARGIN_SINGLE_TOP" bottom="$MARGIN_SINGLE_BOTTOM"/>
+	<PositioningArea name="area1col">
+		<PositioningFrame row="1" column="1" width="$MARGIN_SINGLE_WIDTH" height="$MARGIN_SINGLE_HEIGHT"/>
+	</PositioningArea>
+</Pagetype>
+<Pagetype name="page1colleft66" test="\$newpagetype = 'page1col66' and sd:even(sd:current-page())">
+	<Margin left="$MARGIN_SINGLE_OUTSIDE66" right="$MARGIN_SINGLE_INSIDE66" top="$MARGIN_SINGLE_TOP" bottom="$MARGIN_SINGLE_BOTTOM"/>
 	<PositioningArea name="area1col">
 		<PositioningFrame row="1" column="1" width="$MARGIN_SINGLE_WIDTH" height="$MARGIN_SINGLE_HEIGHT"/>
 	</PositioningArea>
@@ -1891,14 +1913,15 @@ $fonts
 <!-- JOHNNY -->
 <Switch><Case test="'$format'='PODJO'">	
 	<!-- VERSES -->
-	<SetVariable variable="newpagetype" select="'page1col'"/>
+	<SetVariable variable="newpagetype" select="'page1col66'"/>
 	<SetVariable variable="versesbook" select="''"/>
-	<ClearPage openon="left" pagetype="page1colleft" skippagetype="page1colright"/>
+	<ClearPage openon="left" pagetype="page1colleft66" skippagetype="page1colright66"/>
 	<Bookmark level="1" select="'$bm_verses'" open="no" />
 	<Message select="concat('ABPROOFER $outpdf VERSES ',sd:current-page())" />
 	<Output area="area1col"><Text>$verses</Text></Output>
 	<ProcessNode select="oldtest" mode="oldbiblebook"/>	
 	<ProcessNode select="newtest" mode="newbiblebook"/>
+	<SetVariable variable="newpagetype" select="'page1col'"/>
 </Case>
 <Otherwise>
 	<!-- BIBLE PICTURE -->
@@ -2189,12 +2212,14 @@ $fonts
 	<SetVariable variable="book" select="@BOOK"/>
 	<SetVariable variable="bookenglish" select="@BOOKENGLISH"/>
 	<SetVariable variable="lang" select="@LANG"/>
+	<SetVariable variable="newpagetype" select="'page1col66'"/>
 	<ProcessNode select="chapter" mode="verses"/>
 </Record>
 <Record element="newtest" mode="newbiblebook">
 	<SetVariable variable="book" select="@BOOK"/>
 	<SetVariable variable="bookenglish" select="@BOOKENGLISH"/>
 	<SetVariable variable="lang" select="@LANG"/>
+	<SetVariable variable="newpagetype" select="'page1col66'"/>
 	<ProcessNode select="chapter" mode="verses"/>
 </Record>
 <Record element="chapter" mode="verses">
