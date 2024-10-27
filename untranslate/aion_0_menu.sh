@@ -15,6 +15,7 @@ $commands = array(
 	'3'  => 'aion_3_stage.sh',
 	'3b' => 'aion_3b_stage.sh',
 	'3e' => 'aion_3e_epub.sh',
+	'3p' => 'aion_3p_pwa.sh',
 	'3q' => 'aion_3q_stage.sh',
 	'3s' => 'aion_3s_strongs.sh',
 	'3t' => 'aion_3t_translator.sh',

@@ -21,18 +21,20 @@ https://www.pcmag.com/how-to/how-to-use-progressive-web-apps
 $_Path = trim(strtok($_SERVER['REQUEST_URI'],'?'),'/');
 
 // PWA dynamic png -OR- webmanifest
-// these could be physically generated with the htm file, but dynamic is easier for now
+// Could be generated like the htm file, but dynamic easier while drafting and
+// results in a smaller tidier complete package in GitHub
 if (preg_match("#(Holy-Bible---(.+)---(.+))\.(webmanifest|192\.png|512\.png)$#", $_Path, $match) &&
 	file_exists(($file=$match[1].".htm")) &&
 	($handle = fopen($file, 'r'))) {
-	// get bible info
+	// parse the filename for information
 	$lang = preg_replace("#-#ui"," ", $match[2]);
 	$name = preg_replace("#-#ui"," ", $match[3]);
 	$type = $match[4];
 	$shor = "AB";
 	$desc = "Aionian Bible: {$name}, Progressive Web Application";
 	$loop = 0;
-	while ((++$loop)<7 && ($line = fgets($handle))) {
+	// parse the file contents for information
+	while ((++$loop)<20 && ($line = fgets($handle))) {
 		if (preg_match("#<title>(\s*.*[^[:alnum:]]+([[:alnum:]]+))\s*</title>#iu", $line, $match)) {
 			$desc = $match[1];
 			$shor = $match[2];
@@ -40,7 +42,7 @@ if (preg_match("#(Holy-Bible---(.+)---(.+))\.(webmanifest|192\.png|512\.png)$#",
 		}
 	}
 	fclose($handle);
-	// image
+	// dynamic image
 	if ($type=='192.png' || $type=='512.png') {
 		$size = (int)preg_replace("#.png#ui","", $type);
 		$font = ($size==192 ? 100:200);
@@ -48,14 +50,14 @@ if (preg_match("#(Holy-Bible---(.+)---(.+))\.(webmanifest|192\.png|512\.png)$#",
 		$IMG = imagecreate($size, $size);
 		$background = imagecolorallocate($IMG, 102,51, 153);
 		$text_color = imagecolorallocate($IMG, 255,255,255); 
-		imagettftext($IMG, $font, 0, 20, $posi, $text_color, 'anton.ttf', $shor);
+		imagettftext($IMG, $font, 0, 20, $posi, $text_color, './fonts/anton-regular.ttf', $shor);
 		header( "Content-type: image/png" );
 		imagepng($IMG);
 		imagecolordeallocate($IMG, $text_color);
 		imagecolordeallocate($IMG, $background);
 		imagedestroy($IMG);
 	}
-	// webmanifest
+	// dynamic webmanifest
 	else if ($type=='webmanifest') {
 		header('Content-Type: application/manifest+json;');
 		echo <<<EOL
@@ -90,12 +92,40 @@ EOL;
 
 // PWA List
 else if (empty($_Path) || preg_match("#{$_Path}\$#ui", dirname(__FILE__))) {
-	echo "<h2>Aionian Bible Progressive Web Applications</h2>";
+	echo <<< EOF
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Holy Bible Aionian Edition® ~ PWA</title>
+<meta name="description" content="Holy Bible Aionian Edition® ~ The world's first Holy Bible untranslation! ~ Progressive Web Application">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="generator" content="ABCMS™">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta property="og:url" content="https://www.aionianbible.org/pwa">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Holy Bible Aionian Edition® ~ PWA">
+<meta property="og:description" content="Holy Bible Aionian Edition® ~ The world's first Holy Bible untranslation! ~ Progressive Web Application">
+<meta property="og:image" content="images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-1.jpg">
+<meta property="og:image" content="images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-2.jpg">
+<meta property="og:image" content="images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-3.jpg">
+<meta property="og:image" content="images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-4.jpg">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<style>	body { padding: 16px; } h2 { margin-top: 0; } </style>
+</head>
+<body>	
+<h2>Aionian Bible Progressive Web Applications</h2>
+EOF;	
 	$files = array_diff(scandir('./'), array('.', '..'));
 	foreach($files as $file) {
 		if (!preg_match("#\.htm$#", $file)) { continue; }
-		echo " <a href='$file' target='_blank'>$file</a><br>";
+		echo "<a href='$file' target='_blank'>$file</a><br>";
 	}
+	echo "</body></html>";
 }
 
 // not found
@@ -103,5 +133,5 @@ else {
 	header('HTTP/1.0 404 Not Found');
 }
 
-// byenow
+// bye now
 exit;

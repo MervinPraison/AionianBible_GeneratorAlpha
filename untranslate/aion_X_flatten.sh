@@ -1,0 +1,16 @@
+convert -density 300 ../www-stageresources/Holy-Bible---English---Aionian-Bible---POD_JOHN_BODY.pdf			./aion_flatten/Holy-Bible---English---Aionian-Bible---POD_JOHN_BODY.pdf
+convert -density 300 ../www-stageresources/Holy-Bible---English---Aionian-Bible---POD_JOHN_COVER.pdf		./aion_flatten/Holy-Bible---English---Aionian-Bible---POD_JOHN_COVER.pdf
+convert -density 300 ../www-stageresources/Holy-Bible---English---Aionian-Bible---POD_KDP_ALL_BODY.pdf		./aion_flatten/Holy-Bible---English---Aionian-Bible---POD_KDP_ALL_BODY.pdf
+convert -density 300 ../www-stageresources/Holy-Bible---English---Aionian-Bible---POD_KDP_ALL_COVER.pdf		./aion_flatten/Holy-Bible---English---Aionian-Bible---POD_KDP_ALL_COVER.pdf
+convert -density 300 ../www-stageresources/Holy-Bible---English---Aionian-Bible---POD_KDP_NEW_BODY.pdf		./aion_flatten/Holy-Bible---English---Aionian-Bible---POD_KDP_NEW_BODY.pdf
+convert -density 300 ../www-stageresources/Holy-Bible---English---Aionian-Bible---POD_KDP_NEW_COVER.pdf		./aion_flatten/Holy-Bible---English---Aionian-Bible---POD_KDP_NEW_COVER.pdf
+convert -density 300 ../www-stageresources/Holy-Bible---English---Aionian-Bible---POD_KDP_X22_BODY.pdf		./aion_flatten/Holy-Bible---English---Aionian-Bible---POD_KDP_X22_BODY.pdf
+convert -density 300 ../www-stageresources/Holy-Bible---English---Aionian-Bible---POD_KDP_X22_COVER.pdf		./aion_flatten/Holy-Bible---English---Aionian-Bible---POD_KDP_X22_COVER.pdf
+convert -density 300 ../www-stageresources/Holy-Bible---English---Aionian-Bible---POD_LULU_ALL_BODY.pdf		./aion_flatten/Holy-Bible---English---Aionian-Bible---POD_LULU_ALL_BODY.pdf
+convert -density 300 ../www-stageresources/Holy-Bible---English---Aionian-Bible---POD_LULU_ALL_COVER.pdf	./aion_flatten/Holy-Bible---English---Aionian-Bible---POD_LULU_ALL_COVER.pdf
+convert -density 300 ../www-stageresources/Holy-Bible---English---Aionian-Bible---POD_LULU_HAR_BODY.pdf		./aion_flatten/Holy-Bible---English---Aionian-Bible---POD_LULU_HAR_BODY.pdf
+convert -density 300 ../www-stageresources/Holy-Bible---English---Aionian-Bible---POD_LULU_HAR_COVER.pdf	./aion_flatten/Holy-Bible---English---Aionian-Bible---POD_LULU_HAR_COVER.pdf
+convert -density 300 ../www-stageresources/Holy-Bible---English---Aionian-Bible---POD_LULU_NEW_BODY.pdf		./aion_flatten/Holy-Bible---English---Aionian-Bible---POD_LULU_NEW_BODY.pdf
+convert -density 300 ../www-stageresources/Holy-Bible---English---Aionian-Bible---POD_LULU_NEW_COVER.pdf	./aion_flatten/Holy-Bible---English---Aionian-Bible---POD_LULU_NEW_COVER.pdf
+convert -density 300 ../www-stageresources/Holy-Bible---English---Aionian-Bible---POD_LULU_X22_BODY.pdf		./aion_flatten/Holy-Bible---English---Aionian-Bible---POD_LULU_X22_BODY.pdf
+convert -density 300 ../www-stageresources/Holy-Bible---English---Aionian-Bible---POD_LULU_X22_COVER.pdf	./aion_flatten/Holy-Bible---English---Aionian-Bible---POD_LULU_X22_COVER.pdf

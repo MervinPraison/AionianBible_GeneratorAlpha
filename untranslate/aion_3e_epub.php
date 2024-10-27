@@ -118,6 +118,7 @@ function AION_LOOP_EPUBY_DOIT($args) {
 <!-- Website: https://www.AionianBible.org -->
 <!-- Publisher: https://NAINOIA-INC.signedon.net -->
 <!-- Repository: https://resources.AionianBible.org -->
+<!-- Repository: https://github.com/Nainoia-Inc -->
 <!-- Copyright: $bible_acopy -->
 <!-- Bible: Holy Bible Aionian Edition(R): $bible_name -->
 <!-- Bible text copyright: $bible_copy -->
