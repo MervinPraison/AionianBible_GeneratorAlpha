@@ -2,7 +2,7 @@
 function AionianBible_writeCookie(cname, cvalue) {
 	var date = new Date();
 	date.setTime(date.getTime() + (1000 * 24 * 60 * 60 * 1000));
-	document.cookie = cname + "=" + cvalue + ";expires=" + date.toUTCString() + ";path=/";
+	document.cookie = cname + "=" + cvalue + ";expires=" + date.toUTCString() + ";SameSite=Strict;path=/";
 }
 // read cookie
 function AionianBible_readCookie(name) {

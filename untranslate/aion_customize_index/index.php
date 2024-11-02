@@ -85,7 +85,7 @@ $modified = date("n/j/Y", filemtime("./index.php"));
 <div id='horz'>
 <a href='/Preface' onclick='return AionianBible_Bookmark("/Preface");'>
 <div id='butt'>
-<h2>Welcome to the <i>Holy Bible Aionian Edition<span class='RegisteredTM'>®</span></i></h2>
+<h2>Welcome to the <i>Holy&nbsp;Bible&nbsp;Aionian&nbsp;Edition<span class='RegisteredTM'>®</span></i></h2>
 <div id='logo'><img src='/images/Holy-Bible-Aionian-Edition-PURPLE-HOME.png' alt='Aionian Bible' /></div>
 <div id='j316'>For God so loved the world,<BR />that he gave his only begotten Son,<BR />that whoever believes in him<BR />should not perish, but have...</div>
 <div id='aion'>aionian life!</div>
@@ -97,6 +97,7 @@ $modified = date("n/j/Y", filemtime("./index.php"));
 </div>
 </div>
 <div id='icon'>
+<a href='https://pwa.AionianBible.org' target='_blank' title='pwa.AionianBible.org'><img src='/images/Aionian-Bible-Online.png' alt='pwa.AionianBible.org' title='Aionian single bible web apps'></a>
 <a href='/Facebook'		target='_blank' title='Facebook/AionianBible'>	<img src='/images/Aionian-Bible-Facebook.png' alt='Facebook' title='Aionian Bible on Facebook' /></a>
 <a href='/Twitter'		target='_blank' title='Twitter/AionianBible'>	<img src='/images/Aionian-Bible-Twitter.png' alt='Twitter' title='Aionian Bible on Twitter' /></a>
 <a href='/LinkedIn'		target='_blank' title='LinkedIn/AionianBible'>	<img src='/images/Aionian-Bible-LinkedIn.png' alt='LinkedIn' title='Aionian Bible on LinkedIn' /></a>

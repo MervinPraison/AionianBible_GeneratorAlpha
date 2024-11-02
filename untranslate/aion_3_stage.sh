@@ -24,8 +24,9 @@ AION_LOOP_AION		(	'../www-stageresources',	'../www-stageresources',	'../www-stag
 AION_LOOP_NOIA		(	'../www-stageresources',	'../www-stage/library');
 
 require_once('./aion_3e_epub.php'); // Aionian Bible epub
-
 AION_LOOP_EPUB_UZIP	(	'../www-stageresources',	'../www-stage/library');
+
+require_once('./aion_3p_pwa.php'); // Aionian Bible PWA
 
 $database = array();
 AION_FILE_DATA_GET(			'./aion_database/VERSIONS.txt',	'T_VERSIONS',	$database, 'BIBLE', TRUE );

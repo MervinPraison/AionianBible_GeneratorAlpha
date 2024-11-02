@@ -92,6 +92,7 @@ EOL;
 
 // PWA List
 else if (empty($_Path) || preg_match("#{$_Path}\$#ui", dirname(__FILE__))) {
+	$year = date("Y");
 	echo <<< EOF
 <!DOCTYPE html>
 <html lang="en">
@@ -115,15 +116,29 @@ else if (empty($_Path) || preg_match("#{$_Path}\$#ui", dirname(__FILE__))) {
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-<style>	body { padding: 16px; } h2 { margin-top: 0; } </style>
+<style>
+body { padding: 16px; } h2 { margin-top: 0; }
+img.bible { max-width: 216px; height: auto; }
+a.bible { margin-bottom: 5px; display: inline-block; text-decoration: none; font-size: 16px; }
+</style>
 </head>
 <body>	
-<h2>Aionian Bible Progressive Web Applications</h2>
+<a href='http://www.AionianBible.org' title='Visit AionianBible.org' target='_blank' alt='Visit AionianBible.org'><img src='images/Holy-Bible-Aionian-Edition-PURPLE-HOME.png' alt='Aionian Bible' class='bible' /></a><br />
+The world's first Holy Bible untranslation! <a href='http://www.AionianBible.org/Preface' title='Check out the mission' target='_blank' alt='Check out the mission'>Check out the mission</a>.<br />
+Licensed with <a href='https://creativecommons.org/licenses/by/4.0/' title='License' alt='License' target='_blank'>Creative Commons Attribution 4.0 International license</a>, 2018-{$year}.<br />
+<a href='http://www.aionianbible.org/Third-Party-Publisher-Resources' target='_blank'>Third Party Publisher resources here</a><br />
+<br>
+<b>Progressive Web Applications (PWA)</b><br>
+Available off-line on smart devices.<br />
+<br />
 EOF;	
 	$files = array_diff(scandir('./'), array('.', '..'));
 	foreach($files as $file) {
-		if (!preg_match("#\.htm$#", $file)) { continue; }
-		echo "<a href='$file' target='_blank'>$file</a><br>";
+		if (!preg_match("#^Holy-Bible---(.+)---Aionian-Edition\.htm$#", $file, $matches) || 
+			!($bible=preg_replace("#---#", ":&nbsp;&nbsp;&nbsp;", $matches[1])) ||
+			!($bible=preg_replace("#-#", "&nbsp;", $bible))) { continue; }
+		
+		echo "<a href='$file' target='_blank' class='bible'>$bible</a><br>";
 	}
 	echo "</body></html>";
 }

@@ -76,8 +76,9 @@ a:hover { color: #9966CC; }
 #aion { padding: 0 0 15px 0; font-style: italic; font-size: 130%; font-weight: bold; }
 #moto { margin: 10px 0 0 0; color: #663399; }
 .RegisteredTM { font-size: 75%; }
-#icon { padding: 0 0 15px 0; position: fixed; bottom: 0; right: 0; }
+#icon { padding: 0 0 15px 0; position: fixed; bottom: 0; right: 0; width: 57px; text-align: right; }
 #icon a { margin: 3px 15px 0 0; display: block; }
+#icon a:hover { margin-right: 17px; }
 
 
 /*** HEAD ***/
