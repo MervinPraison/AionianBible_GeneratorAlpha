@@ -24,24 +24,12 @@ $_Path = trim(strtok($_SERVER['REQUEST_URI'],'?'),'/');
 // Could be generated like the htm file, but dynamic easier while drafting and
 // results in a smaller tidier complete package in GitHub
 if (preg_match("#(Holy-Bible---(.+)---(.+))\.(webmanifest|192\.png|512\.png)$#", $_Path, $match) &&
-	file_exists(($file=$match[1].".htm")) &&
-	($handle = fopen($file, 'r'))) {
+	file_exists(($file=($match[1].".htm")))) {
 	// parse the filename for information
 	$lang = preg_replace("#-#ui"," ", $match[2]);
 	$name = preg_replace("#-#ui"," ", $match[3]);
 	$type = $match[4];
-	$shor = "AB";
-	$desc = "Aionian Bible: {$name}, Progressive Web Application";
 	$loop = 0;
-	// parse the file contents for information
-	while ((++$loop)<20 && ($line = fgets($handle))) {
-		if (preg_match("#<title>(\s*.*[^[:alnum:]]+([[:alnum:]]+))\s*</title>#iu", $line, $match)) {
-			$desc = $match[1];
-			$shor = $match[2];
-			break;
-		}
-	}
-	fclose($handle);
 	// dynamic image
 	if ($type=='192.png' || $type=='512.png') {
 		$size = (int)preg_replace("#.png#ui","", $type);
@@ -59,9 +47,24 @@ if (preg_match("#(Holy-Bible---(.+)---(.+))\.(webmanifest|192\.png|512\.png)$#",
 	}
 	// dynamic webmanifest
 	else if ($type=='webmanifest') {
+		// parse file contents
+		$desc = "Aionian Bible: {$name}, Progressive Web Application";
+		$shor = "AB";
+		if ($handle = fopen($file, 'r')) {
+			while ((++$loop)<20 && ($line = fgets($handle))) {
+				if (preg_match("#<title>(\s*.*[^[:alnum:]]+([[:alnum:]]+))\s*</title>#iu", $line, $match2)) {
+					$desc = $match2[1];
+					$shor = $match2[2];
+					break;
+				}
+			}
+		}
+		fclose($handle);
+		$id = date("YmdHis", filemtime($file));
 		header('Content-Type: application/manifest+json;');
 		echo <<<EOL
 {
+"id"			: "{$id}",
 "dir"			: "ltr",
 "lang"			: "en",
 "name"			: "Aionian Bible PWA ~ {$match[1]}",
@@ -83,6 +86,9 @@ if (preg_match("#(Holy-Bible---(.+)---(.+))\.(webmanifest|192\.png|512\.png)$#",
 ]
 }
 EOL;
+		//echo $json;
+		// debug
+		//file_put_contents(".debug",$json);
 	}
 	// not found
 	else {
@@ -108,14 +114,14 @@ else if (empty($_Path) || preg_match("#{$_Path}\$#ui", dirname(__FILE__))) {
 <meta property="og:type" content="website">
 <meta property="og:title" content="Holy Bible Aionian Edition® ~ PWA">
 <meta property="og:description" content="Holy Bible Aionian Edition® ~ The world's first Holy Bible untranslation! ~ Progressive Web Application">
-<meta property="og:image" content="images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-1.jpg">
-<meta property="og:image" content="images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-2.jpg">
-<meta property="og:image" content="images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-3.jpg">
-<meta property="og:image" content="images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-4.jpg">
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<meta property="og:image" content="https://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-1.jpg">
+<meta property="og:image" content="https://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-2.jpg">
+<meta property="og:image" content="https://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-3.jpg">
+<meta property="og:image" content="https://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-4.jpg">
+<link rel="shortcut icon" href="https://www.aionianbible.org/images/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.aionianbible.org/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.aionianbible.org/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.aionianbible.org/images/favicon-16x16.png">
 <style>
 body { padding: 16px; } h2 { margin-top: 0; }
 img.bible { max-width: 216px; height: auto; }
@@ -123,7 +129,7 @@ a.bible { margin-bottom: 5px; display: inline-block; text-decoration: none; font
 </style>
 </head>
 <body>	
-<a href='http://www.AionianBible.org' title='Visit AionianBible.org' target='_blank' alt='Visit AionianBible.org'><img src='images/Holy-Bible-Aionian-Edition-PURPLE-HOME.png' alt='Aionian Bible' class='bible' /></a><br />
+<a href='http://www.AionianBible.org' title='Visit AionianBible.org' target='_blank' alt='Visit AionianBible.org'><img src='https://www.aionianbible.org/images/Holy-Bible-Aionian-Edition-PURPLE-HOME.png' alt='Aionian Bible' class='bible' /></a><br />
 The world's first Holy Bible untranslation! <a href='http://www.AionianBible.org/Preface' title='Check out the mission' target='_blank' alt='Check out the mission'>Check out the mission</a>.<br />
 Licensed with <a href='https://creativecommons.org/licenses/by/4.0/' title='License' alt='License' target='_blank'>Creative Commons Attribution 4.0 International license</a>, 2018-{$year}.<br />
 <a href='http://www.aionianbible.org/Third-Party-Publisher-Resources' target='_blank'>Third Party Publisher resources here</a><br />

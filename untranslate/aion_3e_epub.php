@@ -161,6 +161,7 @@ EOF;
 	$G_FORPRINT['W_MAP']	= (empty($G_FORPRINT['W_MAP'])		? "Maps"				: "Maps / <span $csshed>".$G_FORPRINT['W_MAP']."</span>");
 	$G_FORPRINT['W_ILUS']	= (empty($G_FORPRINT['W_ILUS'])		? "Illustrations"		: "Illustrations / <span $csshed>".$G_FORPRINT['W_ILUS']."</span>");
 	$G_FORPRINT['W_DESTINY']= (empty($G_FORPRINT['W_DESTINY'])	? "Destiny"				: "Destiny / <span $csshed>".$G_FORPRINT['W_DESTINY']."</span>");
+	$G_FORPRINT['W_HIST']	= (empty($G_FORPRINT['W_HIST'])		? "History"				: "History / <span $csshed>".$G_FORPRINT['W_HIST']."</span>");
 	
 	// REMOVE any XML
 	$G_FORPRINT['JOH3_16']	= trim($G_FORPRINT['JOH3_16']);
@@ -199,29 +200,29 @@ EOF;
 		? "<span class='j316'><span $csstex>".$G_FORPRINT['JOH3_16']."</span> ".$G_FORPRINT['W_LIFE']." Aionian!</span>"
 		: "<span class='j316'>For God so loved the world that he gave his only begotten Son that whoever believes in him should not perish, but have... Aionian Life!</span>"));
 	$G_FORPRINT['GEN3_24'] = (!empty($G_FORPRINT['GEN3_24'])
-		? "<p class='cap'><span $csstex>".$G_FORPRINT['GEN3_24']."<br />".$front.$G_FORPRINT['GEN3_24_B'].$backot."</span></p>"
-		: "<p class='cap'>“So he drove out the man; and he placed cherubim at the east of the garden of Eden, and a flaming sword which turned every way, to guard the way to the tree of life.”<br />Genesis 3:24</p>");
+		? "<p class='cap'><span $csstex>".$G_FORPRINT['GEN3_24']."<br /><span class='ref'>".$front.$G_FORPRINT['GEN3_24_B'].$backot."</span></span></p>"
+		: "<p class='cap'>“So he drove out the man; and he placed cherubim at the east of the garden of Eden, and a flaming sword which turned every way, to guard the way to the tree of life.”<br /><span class='ref'>Genesis 3:24</span></p>");
 	$G_FORPRINT['LUK23_34'] = (!empty($G_FORPRINT['LUK23_34'])
-		? "<p class='cap'><span $csstex>".$G_FORPRINT['LUK23_34']."<br />".$front.$G_FORPRINT['LUK23_34_B'].$back."</span></p>"
-		: "<p class='cap'>“Jesus said, ‘Father, forgive them, for they don’t know what they are doing.’ Dividing his garments among them, they cast lots.”<br />Luke 23:34</p>");
+		? "<p class='cap'><span $csstex>".$G_FORPRINT['LUK23_34']."<br /><span class='ref'>".$front.$G_FORPRINT['LUK23_34_B'].$back."</span></span></p>"
+		: "<p class='cap'>“Jesus said, ‘Father, forgive them, for they don’t know what they are doing.’ Dividing his garments among them, they cast lots.”<br /><span class='ref'>Luke 23:34</span></p>");
 	$G_FORPRINT['REV21_2_3'] = (!empty($G_FORPRINT['REV21_2_3'])
-		? "<p class='cap'><span $csstex>".$G_FORPRINT['REV21_2_3']."<br />".$front.$G_FORPRINT['REV21_2_3_B'].$back."</span></p>"
-		: "<p class='cap'>“I saw the holy city, New Jerusalem, coming down out of heaven from God, prepared like a bride adorned for her husband. I heard a loud voice out of heaven saying, ‘Behold, God’s dwelling is with people, and he will dwell with them, and they will be his people, and God himself will be with them as their God.’”<br />Revelation 21:2-3</p>");
+		? "<p class='cap'><span $csstex>".$G_FORPRINT['REV21_2_3']."<br /><span class='ref'>".$front.$G_FORPRINT['REV21_2_3_B'].$back."</span></span></p>"
+		: "<p class='cap'>“I saw the holy city, New Jerusalem, coming down out of heaven from God, prepared like a bride adorned for her husband. I heard a loud voice out of heaven saying, ‘Behold, God’s dwelling is with people, and he will dwell with them, and they will be his people, and God himself will be with them as their God.’”<br /><span class='ref'>Revelation 21:2-3</span></p>");
 	$G_FORPRINT['HEB11_8'] = (!empty($G_FORPRINT['HEB11_8'])
-		? "<p class='cap'><span $csstex>".$G_FORPRINT['HEB11_8']."<br />".$front.$G_FORPRINT['HEB11_8_B'].$back."</span></p>"
-		: "<p class='cap'>“By faith, Abraham, when he was called, obeyed to go out to the place which he was to receive for an inheritance. He went out, not knowing where he went”<br />Hebrews 11:8</p>");
+		? "<p class='cap'><span $csstex>".$G_FORPRINT['HEB11_8']."<br /><span class='ref'>".$front.$G_FORPRINT['HEB11_8_B'].$back."</span></span></p>"
+		: "<p class='cap'>“By faith, Abraham, when he was called, obeyed to go out to the place which he was to receive for an inheritance. He went out, not knowing where he went”<br /><span class='ref'>Hebrews 11:8</span></p>");
 	$G_FORPRINT['EXO13_17'] = (!empty($G_FORPRINT['EXO13_17'])
-		? "<p class='cap'><span $csstex>".$G_FORPRINT['EXO13_17']."<br />".$front.$G_FORPRINT['EXO13_17_B'].$backot."</span></p>"
-		: "<p class='cap'>“When Pharaoh had let the people go, God didn’t lead them by the way of the land of the Philistines, although that was near; for God said, ‘Lest perhaps the people change their minds when they see war, and they return to Egypt’”<br />Exodus 13:17</p>");
+		? "<p class='cap'><span $csstex>".$G_FORPRINT['EXO13_17']."<br /><span class='ref'>".$front.$G_FORPRINT['EXO13_17_B'].$backot."</span></span></p>"
+		: "<p class='cap'>“When Pharaoh had let the people go, God didn’t lead them by the way of the land of the Philistines, although that was near; for God said, ‘Lest perhaps the people change their minds when they see war, and they return to Egypt’”<br /><span class='ref'>Exodus 13:17</span></p>");
 	$G_FORPRINT['MAR10_45'] = (!empty($G_FORPRINT['MAR10_45'])
-		? "<p class='cap'><span $csstex>".$G_FORPRINT['MAR10_45']."<br />".$front.$G_FORPRINT['MAR10_45_B'].$back."</span></p>"
-		: "<p class='cap'>“For the Son of Man also came not to be served, but to serve, and to give his life as a ransom for many”<br />Mark 10:45</p>");
+		? "<p class='cap'><span $csstex>".$G_FORPRINT['MAR10_45']."<br /><span class='ref'>".$front.$G_FORPRINT['MAR10_45_B'].$back."</span></span></p>"
+		: "<p class='cap'>“For the Son of Man also came not to be served, but to serve, and to give his life as a ransom for many”<br /><span class='ref'>Mark 10:45</span></p>");
 	$G_FORPRINT['ROM1_1'] = (!empty($G_FORPRINT['ROM1_1'])
-		? "<p class='cap'><span $csstex>".$G_FORPRINT['ROM1_1']."<br />".$front.$G_FORPRINT['ROM1_1_B'].$back."</span></p>"
-		: "<p class='cap'>“Paul, a servant of Jesus Christ, called to be an apostle, set apart for the Good News of God”<br />Romans 1:1</p>");
+		? "<p class='cap'><span $csstex>".$G_FORPRINT['ROM1_1']."<br /><span class='ref'>".$front.$G_FORPRINT['ROM1_1_B'].$back."</span></span></p>"
+		: "<p class='cap'>“Paul, a servant of Jesus Christ, called to be an apostle, set apart for the Good News of God”<br /><span class='ref'>Romans 1:1</span></p>");
 	$G_FORPRINT['MAT28_19'] = (!empty($G_FORPRINT['MAT28_19'])
-		? "<p class='cap'><span $csstex>".$G_FORPRINT['MAT28_19']."<br />".$front.$G_FORPRINT['MAT28_19_B'].$back."</span></p>"
-		: "<p class='cap'>“Go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit”<br />Matthew 28:19</p>");
+		? "<p class='cap'><span $csstex>".$G_FORPRINT['MAT28_19']."<br /><span class='ref'>".$front.$G_FORPRINT['MAT28_19_B'].$back."</span></span></p>"
+		: "<p class='cap'>“Go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit”<br /><span class='ref'>Matthew 28:19</span></p>");
 
 	// TEMPLATE
 	$FOLDER = $args['destiny']."/$bible---Aionian-Edition";
@@ -338,10 +339,50 @@ EOF;
 				$book_format .= ", Chapter \n";
 				for($x=1; $x<=$book_chapters; $x++) {
 					$reffy = "{$verse['INDEX']}-{$verse['BOOK']}-".sprintf('%03d',$x);
+					// super ugly strategy to confirm there are no verses in the chapter 
+					// what we really need is a next and prev function for an associative array element, but too costly
+					// https://www.reddit.com/r/PHP/comments/6dtoci/given_a_key_whats_the_most_elegant_way_to_get_the/
 					if (empty($database['T_BIBLE']["{$reffy}-001"]) &&
 						empty($database['T_BIBLE']["{$reffy}-002"]) &&
-						empty($database['T_BIBLE']["{$reffy}-003"])) {
-						AION_ECHO("WARN! Skipping TOC $reffy");
+						empty($database['T_BIBLE']["{$reffy}-003"]) &&
+						empty($database['T_BIBLE']["{$reffy}-004"]) &&
+						empty($database['T_BIBLE']["{$reffy}-005"]) &&
+						empty($database['T_BIBLE']["{$reffy}-006"]) &&
+						empty($database['T_BIBLE']["{$reffy}-007"]) &&
+						empty($database['T_BIBLE']["{$reffy}-008"]) &&
+						empty($database['T_BIBLE']["{$reffy}-009"]) &&
+						empty($database['T_BIBLE']["{$reffy}-010"]) &&						
+						empty($database['T_BIBLE']["{$reffy}-011"]) &&
+						empty($database['T_BIBLE']["{$reffy}-012"]) &&
+						empty($database['T_BIBLE']["{$reffy}-013"]) &&
+						empty($database['T_BIBLE']["{$reffy}-014"]) &&
+						empty($database['T_BIBLE']["{$reffy}-015"]) &&
+						empty($database['T_BIBLE']["{$reffy}-016"]) &&
+						empty($database['T_BIBLE']["{$reffy}-017"]) &&
+						empty($database['T_BIBLE']["{$reffy}-018"]) &&
+						empty($database['T_BIBLE']["{$reffy}-019"]) &&
+						empty($database['T_BIBLE']["{$reffy}-020"]) &&	
+						empty($database['T_BIBLE']["{$reffy}-021"]) &&
+						empty($database['T_BIBLE']["{$reffy}-022"]) &&
+						empty($database['T_BIBLE']["{$reffy}-023"]) &&
+						empty($database['T_BIBLE']["{$reffy}-024"]) &&
+						empty($database['T_BIBLE']["{$reffy}-025"]) &&
+						empty($database['T_BIBLE']["{$reffy}-026"]) &&
+						empty($database['T_BIBLE']["{$reffy}-027"]) &&
+						empty($database['T_BIBLE']["{$reffy}-028"]) &&
+						empty($database['T_BIBLE']["{$reffy}-029"]) &&
+						empty($database['T_BIBLE']["{$reffy}-030"]) &&
+						empty($database['T_BIBLE']["{$reffy}-031"]) &&
+						empty($database['T_BIBLE']["{$reffy}-032"]) &&
+						empty($database['T_BIBLE']["{$reffy}-033"]) &&
+						empty($database['T_BIBLE']["{$reffy}-034"]) &&
+						empty($database['T_BIBLE']["{$reffy}-035"]) &&
+						empty($database['T_BIBLE']["{$reffy}-036"]) &&
+						empty($database['T_BIBLE']["{$reffy}-037"]) &&
+						empty($database['T_BIBLE']["{$reffy}-038"]) &&
+						empty($database['T_BIBLE']["{$reffy}-039"]) &&
+						empty($database['T_BIBLE']["{$reffy}-040"])) {
+						AION_ECHO("WARN! $bible_basic Skipping TOC $reffy");
 						continue;
 					}
 					$book_format .= ($x==$last_chaN ? "" : " <a href='$last_indx-$last_book-".sprintf('%03d',$x).".xhtml' title='View book chapter'>$x</a>\n");
@@ -686,11 +727,11 @@ a:hover { color: #9966CC; }
 .map { text-align: center; margin: auto; }
 .pix { max-width: 50%; height: auto; border: 1px solid #C5C5C5; float: right; margin: 0 0 10px 10px; }
 .j316 { font-weight: 600; font-style: italic; }
-.cap { text-align: center; font-style: italics; }
+.cap { text-align: center; font-style: italic; }
 .tag { color: #191919; }
 .bok { text-align: center; }
 .ver { }
-.ref { } 
+.ref { font-style: normal; } 
 .tex { }
 .avh { background-color: #E0D6EB; }
 .lan { }
