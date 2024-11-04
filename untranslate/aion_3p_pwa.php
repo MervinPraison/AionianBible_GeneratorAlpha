@@ -140,10 +140,10 @@ function AION_LOOP_PWA_DOIT($args) {
 	}
 	$G_FORPRINT['W_LIFE'] = (empty($G_FORPRINT['W_LIFE'])	? "Life"				: "<span $csstex>".$G_FORPRINT['W_LIFE']."</span>");
 	$G_FORPRINT['JOH3_16'] = (!empty($G_FORPRINT['JOH3_16']) && empty($G_FORPRINT['W_LIFEX'])
-		? "<span class='j316'><span $csstex>".$G_FORPRINT['JOH3_16']."</span> Aionian ".$G_FORPRINT['W_LIFE']."!</span>"
+		? "<span class='j316'><span $csstex>".$G_FORPRINT['JOH3_16']."</span><br>Aionian ".$G_FORPRINT['W_LIFE']."!</span>"
 		: (!empty($G_FORPRINT['JOH3_16'])
-		? "<span class='j316'><span $csstex>".$G_FORPRINT['JOH3_16']."</span> ".$G_FORPRINT['W_LIFE']." Aionian!</span>"
-		: "<span class='j316'>For God so loved the world that he gave his only begotten Son that whoever believes in him should not perish, but have... Aionian Life!</span>"));
+		? "<span class='j316'><span $csstex>".$G_FORPRINT['JOH3_16']."</span><br>".$G_FORPRINT['W_LIFE']." Aionian!</span>"
+		: "<span class='j316'>For God so loved the world that he gave his only begotten Son that whoever believes in him should not perish, but have...<br>Aionian Life!</span>"));
 	$G_FORPRINT['GEN3_24'] = (!empty($G_FORPRINT['GEN3_24'])
 		? "<p class='cap'><span $csstex>".$G_FORPRINT['GEN3_24']."<br /><span class='ref'>".$front.$G_FORPRINT['GEN3_24_B'].$backot."</span></span></p>"
 		: "<p class='cap'>“So he drove out the man; and he placed cherubim at the east of the garden of Eden, and a flaming sword which turned every way, to guard the way to the tree of life.”<br /><span class='ref'>Genesis 3:24</span></p>");
@@ -201,22 +201,6 @@ function AION_LOOP_PWA_DOIT($args) {
 		$questioned .= "<div><span $cssbok>$book_foreign</span> $reference</div>";
 	}
 	ksort($database['T_UNTRANSLATE']);
-	$ref_prev = $chp_prev = NULL;
-	foreach($database['T_UNTRANSLATE'] as $ref => $verse) { // assign the previous aionian note link
-		if (empty($database['T_BIBLE'][$ref])) { continue; }
-		$ref_chap = $verse['INDEX'].'-'.$verse['BOOK'].'-'.$verse['CHAPTER'];
-		$chp_prev = ($ref_prev===NULL ? "" : ($ref_chap == $ref_prev ? $chp_prev : $ref_prev));
-		$database['T_UNTRANSLATE'][$ref]['PREV'] = ($chp_prev ? "<a href='./$chp_prev.xhtml' title='View previous annotation'>&lt;</a>"  : "");
-		$ref_prev = $ref_chap;
-	}
-	$ref_prev = $chp_prev = NULL;
-	foreach(array_reverse($database['T_UNTRANSLATE']) as $ref => $verse) { // assign the next aionian note link
-		if (empty($database['T_BIBLE'][$ref])) { continue; }
-		$ref_chap = $verse['INDEX'].'-'.$verse['BOOK'].'-'.$verse['CHAPTER'];
-		$chp_prev = ($ref_prev===NULL ? "" : ($ref_chap == $ref_prev ? $chp_prev : $ref_prev));
-		$database['T_UNTRANSLATE'][$ref]['NEXT'] = ($chp_prev ? "<a href='./$chp_prev.xhtml' title='View next annotation'>&gt;</a>"  : "");
-		$ref_prev = $ref_chap;
-	}
 
 	// Find the Aionian verses and chapter numbers
 	// bible starts on page 7, content array index 6
@@ -250,15 +234,17 @@ function AION_LOOP_PWA_DOIT($args) {
 			$pageindex++;
 		}
 		// aionian
-		if (false===array_search($pageindex, $aions) && preg_match('#\((questioned|[^()]+[gGhH]{1}[[:digit:]]+|note:[^()]+)\)#ui', $verse['TEXT'])) {
-			$aions[] = $pageindex;
+		if (false===array_search($pageindex-1, $aions) && preg_match('#\((questioned|[^()]+[gGhH]{1}[[:digit:]]+|note:[^()]+)\)#ui', $verse['TEXT'])) {
+			$aions[] = $pageindex-1;
 		}
 		// next
 		$last_indx = $indx;
 		$last_book = $book;
 		$last_chap = $chap;
 	}
-	$aions_flip = array($aions);
+	$aions_flip = array_flip($aions);
+	//error_log(print_r($aions,TRUE));
+	//error_log(print_r($aions_flip,TRUE));
 	
 	// CREATE chapter files
 	$last_indx = $last_book = $last_chap = $contents = NULL;
@@ -273,22 +259,24 @@ function AION_LOOP_PWA_DOIT($args) {
 		$verN = (int)$vers;
 		$text = preg_replace("#`#ui", "\`", $verse['TEXT'], -1, $ticks);
 		if ($gotticks && $ticks) { $gotticks = FALSE; AION_ECHO("WARN! $error backticks escaped in text"); }
-		// Highlight Aionian!
-		$prev = (empty($database['T_UNTRANSLATE'][$ref]['PREV']) ? "&lt;" : $database['T_UNTRANSLATE'][$ref]['PREV']);
-		$next = (empty($database['T_UNTRANSLATE'][$ref]['NEXT']) ? "&gt;" : $database['T_UNTRANSLATE'][$ref]['NEXT']);
+		
+		// Annotations
+		$pn = $G_PWA->bible_numb+6;
+		$prev = (!isset($aions_flip[$pn]) || !isset($aions[$aions_flip[$pn]-1]) || !($pf=$aions[$aions_flip[$pn]-1]) ? "(" : "<a href='#' onclick='ABDO({$pf});return false;' title='View previous annotation'>&lt;</a>");
+		$next = (!isset($aions_flip[$pn]) || !isset($aions[$aions_flip[$pn]+1]) || !($pf=$aions[$aions_flip[$pn]+1]) ? ")" : "<a href='#' onclick='ABDO({$pf});return false;' title='View next annotation'>&gt;</a>");
 		$mark = $text;
-		if (!($text = preg_replace('#\((questioned|[^()]+[gGhH]{1}[[:digit:]]+|note:[^()]+)\)#ui', "<span class='not' dir='ltr'>$prev".' $1 '."$next</span>", $text))) { AION_ECHO("ERROR! $error preg_replace(gXXX)"); }
-		if (!($text = preg_replace('# h7585([^0-9]{1})#ui',	' <a href=\'../rear-2-glossary.xhtml#h7585\' title=\'View definition\'>h7585</a>$1',$text))) { AION_ECHO("ERROR! $error preg_replace(h7585)"); }
-		if (!($text = preg_replace('# g12([^0-9]{1})#ui',	' <a href=\'../rear-2-glossary.xhtml#g12\'   title=\'View definition\'>g12</a>$1',	$text))) { AION_ECHO("ERROR! $error preg_replace(g12)"); }
-		if (!($text = preg_replace('# g86([^0-9]{1})#ui',	' <a href=\'../rear-2-glossary.xhtml#g86\'   title=\'View definition\'>g86</a>$1',	$text))) { AION_ECHO("ERROR! $error preg_replace(g86)"); }
-		if (!($text = preg_replace('# g126([^0-9]{1})#ui',	' <a href=\'../rear-2-glossary.xhtml#g126\'  title=\'View definition\'>g126</a>$1',	$text))) { AION_ECHO("ERROR! $error preg_replace(g126)"); }
-		if (!($text = preg_replace('# g165([^0-9]{1})#ui',	' <a href=\'../rear-2-glossary.xhtml#g165\'  title=\'View definition\'>g165</a>$1',	$text))) { AION_ECHO("ERROR! $error preg_replace(g165)"); }
-		if (!($text = preg_replace('# g1653([^0-9]{1})#ui',	' <a href=\'../rear-2-glossary.xhtml#g1653\' title=\'View definition\'>g1653</a>$1',$text))) { AION_ECHO("ERROR! $error preg_replace(g1653)"); }
-		if (!($text = preg_replace('# g166([^0-9]{1})#ui',	' <a href=\'../rear-2-glossary.xhtml#g166\'  title=\'View definition\'>g166</a>$1',	$text))) { AION_ECHO("ERROR! $error preg_replace(g166)"); }
-		if (!($text = preg_replace('# g1067([^0-9]{1})#ui',	' <a href=\'../rear-2-glossary.xhtml#g1067\' title=\'View definition\'>g1067</a>$1',$text))) { AION_ECHO("ERROR! $error preg_replace(g1067)"); }
-		if (!($text = preg_replace('# g3041([^0-9]{1})#ui',	' <a href=\'../rear-2-glossary.xhtml#g3041\' title=\'View definition\'>g3041</a>$1',$text))) { AION_ECHO("ERROR! $error preg_replace(g3041)"); }
-		if (!($text = preg_replace('# g4442([^0-9]{1})#ui',	' <a href=\'../rear-2-glossary.xhtml#g4442\' title=\'View definition\'>g4442</a>$1',$text))) { AION_ECHO("ERROR! $error preg_replace(g4442)"); }
-		if (!($text = preg_replace('# g5020([^0-9]{1})#ui',	' <a href=\'../rear-2-glossary.xhtml#g5020\' title=\'View definition\'>g5020</a>$1',$text))) { AION_ECHO("ERROR! $error preg_replace(g5020)"); }
+		if (!($text = preg_replace('#\((questioned|[^()]+[gGhH]{1}[[:digit:]]+|note:[^()]+)\)#ui', "<span class='not' dir='ltr'>$prev".' $1 '."$next</span>",	$text))) { AION_ECHO("ERROR! $error preg_replace(gXXX)"); }
+		if (!($text = preg_replace('# h7585([^0-9]{1})#ui',	' <a href="#" onclick="ABDO(-1,\'h7585\');	return false;"	title=\'View definition\'>h7585</a>$1',	$text))) { AION_ECHO("ERROR! $error preg_replace(h7585)"); }
+		if (!($text = preg_replace('# g12([^0-9]{1})#ui',	' <a href="#" onclick="ABDO(-1,\'g12\');	return false;"	title=\'View definition\'>g12</a>$1',	$text))) { AION_ECHO("ERROR! $error preg_replace(g12)"); }
+		if (!($text = preg_replace('# g86([^0-9]{1})#ui',	' <a href="#" onclick="ABDO(-1,\'g86\');	return false;"	title=\'View definition\'>g86</a>$1',	$text))) { AION_ECHO("ERROR! $error preg_replace(g86)"); }
+		if (!($text = preg_replace('# g126([^0-9]{1})#ui',	' <a href="#" onclick="ABDO(-1,\'g126\');	return false;"	title=\'View definition\'>g126</a>$1',	$text))) { AION_ECHO("ERROR! $error preg_replace(g126)"); }
+		if (!($text = preg_replace('# g165([^0-9]{1})#ui',	' <a href="#" onclick="ABDO(-1,\'g165\');	return false;"	title=\'View definition\'>g165</a>$1',	$text))) { AION_ECHO("ERROR! $error preg_replace(g165)"); }
+		if (!($text = preg_replace('# g1653([^0-9]{1})#ui',	' <a href="#" onclick="ABDO(-1,\'g1653\');	return false;"	title=\'View definition\'>g1653</a>$1',	$text))) { AION_ECHO("ERROR! $error preg_replace(g1653)"); }
+		if (!($text = preg_replace('# g166([^0-9]{1})#ui',	' <a href="#" onclick="ABDO(-1,\'g166\');	return false;"	title=\'View definition\'>g166</a>$1',	$text))) { AION_ECHO("ERROR! $error preg_replace(g166)"); }
+		if (!($text = preg_replace('# g1067([^0-9]{1})#ui',	' <a href="#" onclick="ABDO(-1,\'g1067\');	return false;"	title=\'View definition\'>g1067</a>$1',	$text))) { AION_ECHO("ERROR! $error preg_replace(g1067)"); }
+		if (!($text = preg_replace('# g3041([^0-9]{1})#ui',	' <a href="#" onclick="ABDO(-1,\'g3041\');	return false;"	title=\'View definition\'>g3041</a>$1',	$text))) { AION_ECHO("ERROR! $error preg_replace(g3041)"); }
+		if (!($text = preg_replace('# g4442([^0-9]{1})#ui',	' <a href="#" onclick="ABDO(-1,\'g4442\');	return false;"	title=\'View definition\'>g4442</a>$1',	$text))) { AION_ECHO("ERROR! $error preg_replace(g4442)"); }
+		if (!($text = preg_replace('# g5020([^0-9]{1})#ui',	' <a href="#" onclick="ABDO(-1,\'g5020\');	return false;"	title=\'View definition\'>g5020</a>$1',	$text))) { AION_ECHO("ERROR! $error preg_replace(g5020)"); }
 		if ($mark != $text) {	$text = "<span $cssavh>".$text."</span>"; }
 		else {					$text = "<span $csstex>".$text."</span>"; }
 				
@@ -1218,9 +1206,10 @@ All versions are available online at <a href='/Read' title='The worlds first Hol
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // load the page
 // functions
-function ABDO(goto) {
+function ABDO(goto, anchor=null) {
 	// validate goto
 	if (null === goto) { goto = AB_Bookmark; }
+	else if (-1 === goto) { goto = Zglo; }
 	if (typeof AB_Bible[goto] === 'undefined') {
 		if ((AB_Page == 0 && goto < 0) || goto >= AB_Bible.length) { return; }
 		alert("Oops, invalid link = " + goto);
@@ -1272,8 +1261,10 @@ function ABDO(goto) {
 	if (null !== AB_Accessible) {
 		AB_Accessible.className = AionianBible_readCookie("AionianBible.Accessible");
 	}
-	window.scrollTo(0,0);
+	if (anchor === null) {	window.scrollTo(0,0); }
+	else {					location.hash = "#" + anchor; }
 }
+
 
 
 
