@@ -2,12 +2,12 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	MAP	FLAG
 # File Accuracy: Contact publisher with corrections to file format or content
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2024
-# File Date: 11/01/2024 19:03:24
+# File Date: 11/05/2024 23:01:40
 # File Generator: ABCMS (alpha)
 # File Location: https://resources.AionianBible.org
 # File Name: BOOKSCHAPTERS.txt
 # File Purpose: Supporting resource for the Aionian Bible project
-# File Size: 1353119     
+# File Size: 1352840     
 Holy-Bible---Amo---Amo-Bible	041	MAR	007	027	MISSING	MID
 Holy-Bible---Amo---Amo-Bible	041	MAR	009	046	MISSING	MID
 Holy-Bible---Amo---Amo-Bible	044	ACT	001	008	MISSING	MID
@@ -1831,10 +1831,6 @@ Holy-Bible---Chin-Thado---Chongthu-Bible	013	1CH	010	014	MISSING	END*
 Holy-Bible---Chin-Thado---Chongthu-Bible	014	2CH	003	017	MISSING	END*
 Holy-Bible---Chin-Thado---Chongthu-Bible	014	2CH	011	023	MISSING	END*
 Holy-Bible---Chin-Thado---Chongthu-Bible	014	2CH	034	011	MISSING	MID
-Holy-Bible---Chin-Thado---Chongthu-Bible	019	PSA	074	023	MISSING	END*
-Holy-Bible---Chin-Thado---Chongthu-Bible	019	PSA	088	018	MISSING	END*
-Holy-Bible---Chin-Thado---Chongthu-Bible	019	PSA	118	004	MISSING	MID
-Holy-Bible---Chin-Thado---Chongthu-Bible	019	PSA	129	008	MISSING	END*
 Holy-Bible---Chin-Thado---Chongthu-Bible	021	ECC	006	005	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	023	ISA	030	018	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	024	JER	019	012	MISSING	MID

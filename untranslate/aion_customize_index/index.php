@@ -76,6 +76,7 @@ exit;
 
 
 /*** HOME ***/
+// <a href='https://pwa.AionianBible.org' target='_blank' title='pwa.AionianBible.org'><img src='/images/Aionian-Bible-Online.png' alt='pwa.AionianBible.org' title='Aionian single bible web apps'></a>
 function abcms_home() {
 abcms_html();
 $modified = date("n/j/Y", filemtime("./index.php"));
@@ -97,7 +98,6 @@ $modified = date("n/j/Y", filemtime("./index.php"));
 </div>
 </div>
 <div id='icon'>
-<a href='https://pwa.AionianBible.org' target='_blank' title='pwa.AionianBible.org'><img src='/images/Aionian-Bible-Online.png' alt='pwa.AionianBible.org' title='Aionian single bible web apps'></a>
 <a href='/Facebook'		target='_blank' title='Facebook/AionianBible'>	<img src='/images/Aionian-Bible-Facebook.png' alt='Facebook' title='Aionian Bible on Facebook' /></a>
 <a href='/Twitter'		target='_blank' title='Twitter/AionianBible'>	<img src='/images/Aionian-Bible-Twitter.png' alt='Twitter' title='Aionian Bible on Twitter' /></a>
 <a href='/LinkedIn'		target='_blank' title='LinkedIn/AionianBible'>	<img src='/images/Aionian-Bible-LinkedIn.png' alt='LinkedIn' title='Aionian Bible on LinkedIn' /></a>

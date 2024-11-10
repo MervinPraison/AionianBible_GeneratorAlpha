@@ -25,7 +25,7 @@ function AION_LOOP_PWA($source, $destiny) {
 		'function'		=> 'AION_LOOP_PWA_DOIT',
 		'source'		=> $source,
 		//'include'		=> "/Holy-Bible---.*(Albanian).*---Aionian-Edition\.noia$/",
-		//'include'		=> "/Holy-Bible---.*(Aionian-Bible|Traditional).*---Aionian-Edition\.noia$/",
+		//'include'		=> "/Holy-Bible---.*(Amo|Aionian-Bible|Traditional|Sencillo|Modern).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.+(Basic).+---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.*(Azerb|Gaelic|Somali).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.*(STEPBible).*---Aionian-Edition\.noia$/",
@@ -92,21 +92,23 @@ function AION_LOOP_PWA_DOIT($args) {
 	$cssnum = "class='ff num' $G_ISO $G_RTL";
 	$csslan = "class='ff lan' $G_ISO $G_RTL";
 	
-	// PREPARE LANGUAGE
-	$G_VERSIONS['LANGUAGEHTML'] = (empty($G_VERSIONS['LANGUAGE']) || $G_VERSIONS['LANGUAGE']=="English" ? "English" : "{$G_VERSIONS['LANGUAGEENGLISH']} / <span $csslan>{$G_VERSIONS['LANGUAGE']}</span>");
+	// PREPARE FIELDS
+	$G_PWA->bible_lang = (empty($G_VERSIONS['LANGUAGE']) || $G_VERSIONS['LANGUAGE']=="English" ? "English" : "{$G_VERSIONS['LANGUAGEENGLISH']} / <span $csslan>{$G_VERSIONS['LANGUAGE']}</span>");
+	$G_PWA->bible_title = ($G_VERSIONS['NAMEENGLISH'] == $G_VERSIONS['NAME'] ? $G_VERSIONS['NAME'] : "{$G_VERSIONS['NAMEENGLISH']} / <span $csslan>{$G_VERSIONS['NAME']}</span>");
+
 	
 	// PREPARE Language Headings
-	$G_FORPRINT['W_PREF']	= (empty($G_FORPRINT['W_PREF'])		? "Preface"				: "Preface / <span $csshed>".$G_FORPRINT['W_PREF']."</span>");
-	$G_FORPRINT['W_OLD']	= (empty($G_FORPRINT['W_OLD'])		? "Old Testament"		: "Old Testament / <span $csshed>".$G_FORPRINT['W_OLD']."</span>");
-	$G_FORPRINT['W_NEW']	= (empty($G_FORPRINT['W_NEW'])		? "New Testament"		: "New Testament / <span $csshed>".$G_FORPRINT['W_NEW']."</span>");
-	$G_FORPRINT['W_TOC']	= (empty($G_FORPRINT['W_TOC'])		? "Table of Contents"	: "Table of Contents / <span $csshed>".$G_FORPRINT['W_TOC']."</span>");
-	$G_FORPRINT['W_APDX']	= (empty($G_FORPRINT['W_APDX'])		? "Appendix"			: "Appendix / <span $csshed>".$G_FORPRINT['W_APDX']."</span>");
-	$G_FORPRINT['W_READ']	= (empty($G_FORPRINT['W_READ'])		? "Reader's Guide"		: "Reader's Guide / <span $csshed>".$G_FORPRINT['W_READ']."</span>");
-	$G_FORPRINT['W_GLOS']	= (empty($G_FORPRINT['W_GLOS'])		? "Aionian Glossary"	: "Aionian Glossary / <span $csshed>".$G_FORPRINT['W_GLOS']."</span>");
-	$G_FORPRINT['W_MAP']	= (empty($G_FORPRINT['W_MAP'])		? "Maps"				: "Maps / <span $csshed>".$G_FORPRINT['W_MAP']."</span>");
-	$G_FORPRINT['W_ILUS']	= (empty($G_FORPRINT['W_ILUS'])		? "Illustrations"		: "Illustrations / <span $csshed>".$G_FORPRINT['W_ILUS']."</span>");
-	$G_FORPRINT['W_DESTINY']= (empty($G_FORPRINT['W_DESTINY'])	? "Destiny"				: "Destiny / <span $csshed>".$G_FORPRINT['W_DESTINY']."</span>");
-	$G_FORPRINT['W_HIST']	= (empty($G_FORPRINT['W_HIST'])		? "History"				: "History / <span $csshed>".$G_FORPRINT['W_HIST']."</span>");
+	$G_FORPRINT['W_PREF']	= (empty($G_FORPRINT['W_PREF'])		? "Preface"					: "Preface / <span $csshed>".$G_FORPRINT['W_PREF']."</span>");
+	$G_FORPRINT['W_OLD']	= (empty($G_FORPRINT['W_OLD'])		? "Old Testament"			: "Old Testament / <span $csshed>".$G_FORPRINT['W_OLD']."</span>");
+	$G_FORPRINT['W_NEW']	= (empty($G_FORPRINT['W_NEW'])		? "New Testament"			: "New Testament / <span $csshed>".$G_FORPRINT['W_NEW']."</span>");
+	$G_FORPRINT['W_TOC']	= (empty($G_FORPRINT['W_TOC'])		? "Table of Contents"		: "Table of Contents / <span $csshed>".$G_FORPRINT['W_TOC']."</span>");
+	$G_FORPRINT['W_APDX']	= (empty($G_FORPRINT['W_APDX'])		? "Appendix"				: "Appendix / <span $csshed>".$G_FORPRINT['W_APDX']."</span>");
+	$G_FORPRINT['W_READ']	= (empty($G_FORPRINT['W_READ'])		? "Reader's Guide"			: "Reader's Guide / <span $csshed>".$G_FORPRINT['W_READ']."</span>");
+	$G_FORPRINT['W_GLOS']	= (empty($G_FORPRINT['W_GLOS'])		? "Aionian Glossary"		: "Aionian Glossary / <span $csshed>".$G_FORPRINT['W_GLOS']."</span>");
+	$G_FORPRINT['W_MAP']	= (empty($G_FORPRINT['W_MAP'])		? "Maps"					: "Maps / <span $csshed>".$G_FORPRINT['W_MAP']."</span>");
+	$G_FORPRINT['W_ILUS']	= (empty($G_FORPRINT['W_ILUS'])		? "Illustrations by Doré"	: "Illustrations by Doré / <span $csshed>".$G_FORPRINT['W_ILUS']."</span>");
+	$G_FORPRINT['W_DESTINY']= (empty($G_FORPRINT['W_DESTINY'])	? "Destiny"					: "Destiny / <span $csshed>".$G_FORPRINT['W_DESTINY']."</span>");
+	$G_FORPRINT['W_HIST']	= (empty($G_FORPRINT['W_HIST'])		? "History"					: "History / <span $csshed>".$G_FORPRINT['W_HIST']."</span>");
 	
 	// REMOVE any XML
 	$G_FORPRINT['JOH3_16']	= trim($G_FORPRINT['JOH3_16']);
@@ -145,47 +147,47 @@ function AION_LOOP_PWA_DOIT($args) {
 		? "<span class='j316'><span $csstex>".$G_FORPRINT['JOH3_16']."</span><br>".$G_FORPRINT['W_LIFE']." Aionian!</span>"
 		: "<span class='j316'>For God so loved the world that he gave his only begotten Son that whoever believes in him should not perish, but have...<br>Aionian Life!</span>"));
 	$G_FORPRINT['GEN3_24'] = (!empty($G_FORPRINT['GEN3_24'])
-		? "<p class='cap'><span $csstex>".$G_FORPRINT['GEN3_24']."<br /><span class='ref'>".$front.$G_FORPRINT['GEN3_24_B'].$backot."</span></span></p>"
-		: "<p class='cap'>“So he drove out the man; and he placed cherubim at the east of the garden of Eden, and a flaming sword which turned every way, to guard the way to the tree of life.”<br /><span class='ref'>Genesis 3:24</span></p>");
+		? "<p class='cap'><span $csstex>".$G_FORPRINT['GEN3_24']."<br><span class='ref'>".$front.$G_FORPRINT['GEN3_24_B'].$backot."</span></span></p>"
+		: "<p class='cap'>“So he drove out the man; and he placed cherubim at the east of the garden of Eden, and a flaming sword which turned every way, to guard the way to the tree of life.”<br><span class='ref'>Genesis 3:24</span></p>");
 	$G_FORPRINT['LUK23_34'] = (!empty($G_FORPRINT['LUK23_34'])
-		? "<p class='cap'><span $csstex>".$G_FORPRINT['LUK23_34']."<br /><span class='ref'>".$front.$G_FORPRINT['LUK23_34_B'].$back."</span></span></p>"
-		: "<p class='cap'>“Jesus said, ‘Father, forgive them, for they don’t know what they are doing.’ Dividing his garments among them, they cast lots.”<br /><span class='ref'>Luke 23:34</span></p>");
+		? "<p class='cap'><span $csstex>".$G_FORPRINT['LUK23_34']."<br><span class='ref'>".$front.$G_FORPRINT['LUK23_34_B'].$back."</span></span></p>"
+		: "<p class='cap'>“Jesus said, ‘Father, forgive them, for they don’t know what they are doing.’ Dividing his garments among them, they cast lots.”<br><span class='ref'>Luke 23:34</span></p>");
 	$G_FORPRINT['REV21_2_3'] = (!empty($G_FORPRINT['REV21_2_3'])
-		? "<p class='cap'><span $csstex>".$G_FORPRINT['REV21_2_3']."<br /><span class='ref'>".$front.$G_FORPRINT['REV21_2_3_B'].$back."</span></span></p>"
-		: "<p class='cap'>“I saw the holy city, New Jerusalem, coming down out of heaven from God, prepared like a bride adorned for her husband. I heard a loud voice out of heaven saying, ‘Behold, God’s dwelling is with people, and he will dwell with them, and they will be his people, and God himself will be with them as their God.’”<br /><span class='ref'>Revelation 21:2-3</span></p>");
+		? "<p class='cap'><span $csstex>".$G_FORPRINT['REV21_2_3']."<br><span class='ref'>".$front.$G_FORPRINT['REV21_2_3_B'].$back."</span></span></p>"
+		: "<p class='cap'>“I saw the holy city, New Jerusalem, coming down out of heaven from God, prepared like a bride adorned for her husband. I heard a loud voice out of heaven saying, ‘Behold, God’s dwelling is with people, and he will dwell with them, and they will be his people, and God himself will be with them as their God.’”<br><span class='ref'>Revelation 21:2-3</span></p>");
 	$G_FORPRINT['HEB11_8'] = (!empty($G_FORPRINT['HEB11_8'])
-		? "<p class='cap'><span $csstex>".$G_FORPRINT['HEB11_8']."<br /><span class='ref'>".$front.$G_FORPRINT['HEB11_8_B'].$back."</span></span></p>"
-		: "<p class='cap'>“By faith, Abraham, when he was called, obeyed to go out to the place which he was to receive for an inheritance. He went out, not knowing where he went”<br /><span class='ref'>Hebrews 11:8</span></p>");
+		? "<p class='cap'><span $csstex>".$G_FORPRINT['HEB11_8']."<br><span class='ref'>".$front.$G_FORPRINT['HEB11_8_B'].$back."</span></span></p>"
+		: "<p class='cap'>“By faith, Abraham, when he was called, obeyed to go out to the place which he was to receive for an inheritance. He went out, not knowing where he went”<br><span class='ref'>Hebrews 11:8</span></p>");
 	$G_FORPRINT['EXO13_17'] = (!empty($G_FORPRINT['EXO13_17'])
-		? "<p class='cap'><span $csstex>".$G_FORPRINT['EXO13_17']."<br /><span class='ref'>".$front.$G_FORPRINT['EXO13_17_B'].$backot."</span></span></p>"
-		: "<p class='cap'>“When Pharaoh had let the people go, God didn’t lead them by the way of the land of the Philistines, although that was near; for God said, ‘Lest perhaps the people change their minds when they see war, and they return to Egypt’”<br /><span class='ref'>Exodus 13:17</span></p>");
+		? "<p class='cap'><span $csstex>".$G_FORPRINT['EXO13_17']."<br><span class='ref'>".$front.$G_FORPRINT['EXO13_17_B'].$backot."</span></span></p>"
+		: "<p class='cap'>“When Pharaoh had let the people go, God didn’t lead them by the way of the land of the Philistines, although that was near; for God said, ‘Lest perhaps the people change their minds when they see war, and they return to Egypt’”<br><span class='ref'>Exodus 13:17</span></p>");
 	$G_FORPRINT['MAR10_45'] = (!empty($G_FORPRINT['MAR10_45'])
-		? "<p class='cap'><span $csstex>".$G_FORPRINT['MAR10_45']."<br /><span class='ref'>".$front.$G_FORPRINT['MAR10_45_B'].$back."</span></span></p>"
-		: "<p class='cap'>“For the Son of Man also came not to be served, but to serve, and to give his life as a ransom for many”<br /><span class='ref'>Mark 10:45</span></p>");
+		? "<p class='cap'><span $csstex>".$G_FORPRINT['MAR10_45']."<br><span class='ref'>".$front.$G_FORPRINT['MAR10_45_B'].$back."</span></span></p>"
+		: "<p class='cap'>“For the Son of Man also came not to be served, but to serve, and to give his life as a ransom for many”<br><span class='ref'>Mark 10:45</span></p>");
 	$G_FORPRINT['ROM1_1'] = (!empty($G_FORPRINT['ROM1_1'])
-		? "<p class='cap'><span $csstex>".$G_FORPRINT['ROM1_1']."<br /><span class='ref'>".$front.$G_FORPRINT['ROM1_1_B'].$back."</span></span></p>"
-		: "<p class='cap'>“Paul, a servant of Jesus Christ, called to be an apostle, set apart for the Good News of God”<br /><span class='ref'>Romans 1:1</span></p>");
+		? "<p class='cap'><span $csstex>".$G_FORPRINT['ROM1_1']."<br><span class='ref'>".$front.$G_FORPRINT['ROM1_1_B'].$back."</span></span></p>"
+		: "<p class='cap'>“Paul, a servant of Jesus Christ, called to be an apostle, set apart for the Good News of God”<br><span class='ref'>Romans 1:1</span></p>");
 	$G_FORPRINT['MAT28_19'] = (!empty($G_FORPRINT['MAT28_19'])
-		? "<p class='cap'><span $csstex>".$G_FORPRINT['MAT28_19']."<br /><span class='ref'>".$front.$G_FORPRINT['MAT28_19_B'].$back."</span></span></p>"
-		: "<p class='cap'>“Go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit”<br /><span class='ref'>Matthew 28:19</span></p>");
+		? "<p class='cap'><span $csstex>".$G_FORPRINT['MAT28_19']."<br><span class='ref'>".$front.$G_FORPRINT['MAT28_19_B'].$back."</span></span></p>"
+		: "<p class='cap'>“Go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit”<br><span class='ref'>Matthew 28:19</span></p>");
 
 	// GET BIBLE	
 	$database = array();
 	AION_FILE_DATA_GET( $args['filepath'], 'T_BIBLE', $database, array('INDEX','BOOK','CHAPTER','VERSE'), FALSE );
 	// CREATE Glossary Page Links
-	$h7585	= pwa_glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "h7585");
-	$g12	= pwa_glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g12");
-	$g86	= pwa_glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g86");
-	$g126	= pwa_glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g126");
-	$g165	= pwa_glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g165");
-	$g1653	= pwa_glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g163");
-	$g166	= pwa_glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g166");
-	$g1067	= pwa_glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g1067");
-	$g3041	= pwa_glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g3041");
-	$g5020	= pwa_glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g5020");
+	$G_PWA->h7585	= pwa_glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "h7585");
+	$G_PWA->g12		= pwa_glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g12");
+	$G_PWA->g86		= pwa_glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g86");
+	$G_PWA->g126	= pwa_glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g126");
+	$G_PWA->g165	= pwa_glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g165");
+	$G_PWA->g1653	= pwa_glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g163");
+	$G_PWA->g166	= pwa_glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g166");
+	$G_PWA->g1067	= pwa_glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g1067");
+	$G_PWA->g3041	= pwa_glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g3041");
+	$G_PWA->g5020	= pwa_glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g5020");
 	// CREATE Chapter Glossary Links
 	$database['T_UNTRANSLATE'] = $args['database']['T_UNTRANSLATE'];
-	$questioned = NULL;
+	$G_PWA->questioned = NULL;
 	foreach($database['T_BIBLE'] as $ref => $verse) { // grab the questioned verses
 		if (!preg_match('#\(questioned|note:[^()]+\)#ui', $verse['TEXT'])) { continue; }
 		$database['T_UNTRANSLATE'][$ref] = $verse;
@@ -198,18 +200,18 @@ function AION_LOOP_PWA_DOIT($args) {
 		$reference = (int)$verse['CHAPTER'].":".(int)$verse['VERSE'];
 		$title = $args['database']['T_BOOKS']['ENGLISH'][$book_index]." ".$reference;
 		$reference = (empty($database['T_BIBLE'][$ref]) ? $reference : "<a href='chapters/$ref_chap.xhtml' title='$title'>$reference</a>");	
-		$questioned .= "<div><span $cssbok>$book_foreign</span> $reference</div>";
+		$G_PWA->questioned .= "<div><span $cssbok>$book_foreign</span> $reference</div>";
 	}
 	ksort($database['T_UNTRANSLATE']);
 
 	// Find the Aionian verses and chapter numbers
 	// bible starts on page 7, content array index 6
 	$G_PWA->bible_menu = NULL;
-	$G_PWA->bible_nti = 6;
 	$last_indx = $last_book = $last_chap = NULL;
+	$yes_ot = $yes_nt = FALSE;
 	$links = array();
 	$aions = array();
-	$pageindex = 6;
+	$pageindex = 5;
 	foreach($database['T_BIBLE'] as $ref => $verse) {
 		// init
 		$indx = $verse['INDEX'];
@@ -221,8 +223,22 @@ function AION_LOOP_PWA_DOIT($args) {
 			for($x = 1; $x < (int)$chap; $x++) {
 				AION_ECHO("WARN! $error Skipping TOC {$verse['INDEX']}-{$verse['BOOK']}-".sprintf('%03d',$x));
 			}
-			if ($last_indx && (int)$indx==40) { $pageindex++; }
-			$G_PWA->bible_menu .= "<a title='View Book' href='#' onclick='ABDO({$pageindex});return false;'>$book</a>, ";
+			if (!$yes_ot && (int)$indx<40) {
+				$yes_ot = TRUE;
+				$G_PWA->bible_menu .= "<br><b><a title='Old Testament' href='#' onclick='ABDO({$pageindex});return false;'>{$G_FORPRINT['W_OLD']}</a></b><br>";
+				$pageindex++;
+			}
+			if (!$yes_nt && (int)$indx>39) {
+				$yes_nt = TRUE;
+				$G_PWA->bible_menu = trim($G_PWA->bible_menu," ,");
+				$G_PWA->bible_menu .= "<br><b><a title='New Testament' href='#' onclick='ABDO({$pageindex});return false;'>{$G_FORPRINT['W_NEW']}</a></b><br>";
+				$pageindex++;
+			}
+			$book_index		= array_search($book, $args['database']['T_BOOKS']['CODE']);
+			$book_english	= $args['database']['T_BOOKS']['ENGLISH'][$book_index];
+			$book_foreign	= $args['database']['T_BOOKS'][$bible][$book_index];
+			if(strpos($book_english,'"')!==FALSE || strpos($book_foreign,'"')!==FALSE) { AION_ECHO("ERROR! $error book name quote problem! $book_english $book_foreign"); }
+			$G_PWA->bible_menu .= "<a title='View Book' href='#' onclick='ABDO({$pageindex});return false;'>$book_foreign</a>, ";
 			$links[$book] = array($chaN => $pageindex);
 			$pageindex++;
 		}
@@ -242,12 +258,14 @@ function AION_LOOP_PWA_DOIT($args) {
 		$last_book = $book;
 		$last_chap = $chap;
 	}
+	$G_PWA->bible_menu = trim($G_PWA->bible_menu," ,");
 	$aions_flip = array_flip($aions);
 	//error_log(print_r($aions,TRUE));
 	//error_log(print_r($aions_flip,TRUE));
 	
 	// CREATE chapter files
 	$last_indx = $last_book = $last_chap = $contents = NULL;
+	$yes_ot = $yes_nt = FALSE;
 	$gotticks = TRUE;
 	foreach($database['T_BIBLE'] as $ref => $verse) {
 		// INIT
@@ -261,7 +279,7 @@ function AION_LOOP_PWA_DOIT($args) {
 		if ($gotticks && $ticks) { $gotticks = FALSE; AION_ECHO("WARN! $error backticks escaped in text"); }
 		
 		// Annotations
-		$pn = $G_PWA->bible_numb+6;
+		$pn = $G_PWA->bible_numb+5;
 		$prev = (!isset($aions_flip[$pn]) || !isset($aions[$aions_flip[$pn]-1]) || !($pf=$aions[$aions_flip[$pn]-1]) ? "(" : "<a href='#' onclick='ABDO({$pf});return false;' title='View previous annotation'>&lt;</a>");
 		$next = (!isset($aions_flip[$pn]) || !isset($aions[$aions_flip[$pn]+1]) || !($pf=$aions[$aions_flip[$pn]+1]) ? ")" : "<a href='#' onclick='ABDO({$pf});return false;' title='View next annotation'>&gt;</a>");
 		$mark = $text;
@@ -279,16 +297,29 @@ function AION_LOOP_PWA_DOIT($args) {
 		if (!($text = preg_replace('# g5020([^0-9]{1})#ui',	' <a href="#" onclick="ABDO(-1,\'g5020\');	return false;"	title=\'View definition\'>g5020</a>$1',	$text))) { AION_ECHO("ERROR! $error preg_replace(g5020)"); }
 		if ($mark != $text) {	$text = "<span $cssavh>".$text."</span>"; }
 		else {					$text = "<span $csstex>".$text."</span>"; }
-				
+		// OT INTRO
+		if (!$yes_ot && $book != $last_book && (int)$indx<40) {
+			$yes_ot = TRUE;
+			$G_PWA->bible_text .= <<< EOF
+`
+<h2>{$G_FORPRINT['W_OLD']}</h2>
+<div class="map"><img src="https://resources.aionianbible.org/Gustave-Dore-La-Grande-Bible-de-Tours/web/Gustave-Dore-Bible-Tour-Hebrew-OT-003-Adam-and-Eve-Are-Driven-out-of-Eden.jpg" alt="Adam and Eve are driven out of Eden"></div>
+{$G_FORPRINT['GEN3_24']}
+`,
+
+EOF;
+			$G_PWA->bible_numb++;
+		}
 		// CHAPTER
 		if ($last_indx && ($book != $last_book || $chap != $last_chap)) {
 			$book_index		= array_search($last_book, $args['database']['T_BOOKS']['CODE']);
 			$book_english	= $args['database']['T_BOOKS']['ENGLISH'][$book_index];
 			$book_foreign	= $args['database']['T_BOOKS'][$bible][$book_index];
 			if(strpos($book_english,'"')!==FALSE || strpos($book_foreign,'"')!==FALSE) { AION_ECHO("ERROR! $error book name quote problem! $book_english $book_foreign"); }
+			$book_form		= ($book_english == $book_foreign ? $book_english : "$book_english / <span $cssbok>$book_foreign</span>");
 			$chap_number	= $args['database']['T_NUMBERS'][$bible][$last_chaN];
 			if (!($first=reset($links[$book]))) { AION_ECHO("ERROR! $error links[$book][first] empty"); }
-			$book_format	= "<h2 $cssbok><a title='View Chapter Menu' href='#' onclick='ABDO({$first});return false;'>$book_foreign</a> $chap_number</h2>\n";
+			$book_format	= NULL;
 			if ($last_chaN==1 && $links[$book]>1) {
 				$book_format .= "<div class='chapnav'>Chapter";
 				foreach($links[$book] as $c => $p) {
@@ -296,20 +327,42 @@ function AION_LOOP_PWA_DOIT($args) {
 				}
 				$book_format .= "</div>\n";
 			}
-			$G_PWA->bible_text .= "`$book_format<div class='chap'>\n$contents</div>`,\n";
+			$G_PWA->bible_text .= <<<EOF
+`
+<h2>
+<a title='Previous Page' class='nav left' href='#' onclick='ABDO(-999999);return false;'><span class="nav clt">&lt;</span></a>
+<a title='View Book Chapters' href='#' onclick='ABDO({$first});return false;'>{$book_form}</a> {$chap_number}
+<a title='Next Page' class='nav right' href='#' onclick='ABDO(999999);return false;'><span class="nav cgt">&gt;</span></a>
+</h2>
+{$book_format}
+<div class='chap'>
+{$contents}
+</div>
+<div id="word-menu-bottom">
+<h2>
+<a title='Previous Page' class='nav left' href='#' onclick='ABDO(-999999);return false;'><span class="nav clt">&lt;</span></a>
+<a title='View Book Chapters' href='#' onclick='ABDO({$first});return false;'>{$book_form}</a> {$chap_number}
+<a title='Next Page' class='nav right' href='#' onclick='ABDO(999999);return false;'><span class="nav cgt">&gt;</span></a>
+</h2>
+</div>
+`,
+
+EOF;
 			$G_PWA->bible_numb++;
-			if ($book != $last_book && (int)$indx==40) {
+			$contents = NULL;
+		}
+		// NT INTRO
+		if (!$yes_nt && $book != $last_book && (int)$indx>39) {
+				$yes_nt = TRUE;
 				$G_PWA->bible_text .= <<< EOF
 `
 <h2>{$G_FORPRINT['W_NEW']}</h2>
 <div class="map"><img src="https://resources.aionianbible.org/Gustave-Dore-La-Grande-Bible-de-Tours/web/Gustave-Dore-Bible-Tour-NT-Gospel-215-The-Crucifixion-of-Jesus-and-Two-Criminals.jpg" alt="The Crucifixion of Jesus and Two Criminals"></div>
 {$G_FORPRINT['GEN3_24']}
 `,
+
 EOF;
-				$G_PWA->bible_nti = $G_PWA->bible_numb;
-				$G_PWA->bible_numb++;
-			}
-			$contents = NULL;
+			$G_PWA->bible_numb++;
 		}
 		// VERSE
 		$verF = $args['database']['T_NUMBERS'][$bible][$verN];
@@ -327,9 +380,10 @@ EOF;
 	$book_english	= $args['database']['T_BOOKS']['ENGLISH'][$book_index];
 	$book_foreign	= $args['database']['T_BOOKS'][$bible][$book_index];
 	if(strpos($book_english,'"')!==FALSE || strpos($book_foreign,'"')!==FALSE) { AION_ECHO("ERROR! $error book name quote problem! $book_english $book_foreign"); }
+	$book_form = ($book_english == $book_foreign ? $book_english : "$book_english / <span $cssbok>$book_foreign</span>");
 	$chap_number	= $args['database']['T_NUMBERS'][$bible][$last_chaN];
 	if (!($first=reset($links[$book]))) { AION_ECHO("ERROR! $error links[$book][first] empty"); }
-	$book_format	= "<h2 $cssbok><a title='View Chapter Menu' href='#' onclick='ABDO({$first});return false;'>$book_foreign</a> $chap_number</h2>\n<div class='chapnav'>\n";
+	$book_format	= NULL;
 	if ($last_chaN==1 && $links[$book]>1) {
 		$book_format .= "<div class='chapnav'>Chapter";
 		foreach($links[$book] as $c => $p) {
@@ -337,7 +391,27 @@ EOF;
 		}
 		$book_format .= "</div>\n";
 	}
-	$G_PWA->bible_text .= "`$book_format<div class='chap'>$contents</div>`,\n";
+	$G_PWA->bible_text .= <<<EOF
+`
+<h2>
+<a title='Previous Page' class='nav left' href='#' onclick='ABDO(-999999);return false;'><span class="nav clt">&lt;</span></a>
+<a title='View Book Chapters' href='#' onclick='ABDO({$first});return false;'>{$book_form}</a> {$chap_number}
+<a title='Next Page' class='nav right' href='#' onclick='ABDO(999999);return false;'><span class="nav cgt">&gt;</span></a>
+</h2>
+{$book_format}
+<div class='chap'>
+{$contents}
+</div>
+<div id="word-menu-bottom">
+<h2>
+<a title='Previous Page' class='nav left' href='#' onclick='ABDO(-999999);return false;'><span class="nav clt">&lt;</span></a>
+<a title='View Book Chapters' href='#' onclick='ABDO({$first});return false;'>{$book_form}</a> {$chap_number}
+<a title='Next Page' class='nav right' href='#' onclick='ABDO(999999);return false;'><span class="nav cgt">&gt;</span></a>
+</h2>
+</div>
+`,
+
+EOF;
 	$G_PWA->bible_numb++;
 	$contents = NULL;
 
@@ -463,8 +537,8 @@ $foreign_font = <<< EOF
 	font-family:
 		'$n';
 	src:
-		url('https://www.AionianBible.org/fonts/$f.woff')	format('woff'),
-		url('https://www.AionianBible.org/fonts/$f.ttf')		format('truetype');
+		url('fonts/$f.woff')	format('woff'),
+		url('fonts/$f.ttf')		format('truetype');
 }
 .ff { font-family: 'NotoSans', '$n', 'Arial', 'sans-serif', 'GentiumPlus'; }
 
@@ -517,14 +591,6 @@ return <<< EOF
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="generator" content="ABCMS™">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<meta property="og:url" content="https://www.aionianbible.org">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Holy Bible Aionian Edition® ~ PWA ~ {$G_VERSIONS['NAMEENGLISH']}">
-<meta property="og:description" content="Holy Bible Aionian Edition® ~ The world's first Holy Bible untranslation! ~ Progressive Web App ~ {$G_VERSIONS['NAMEENGLISH']}">
-<meta property="og:image" content="https://www.AionianBible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-1.jpg">
-<meta property="og:image" content="https://www.AionianBible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-2.jpg">
-<meta property="og:image" content="https://www.AionianBible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-3.jpg">
-<meta property="og:image" content="https://www.AionianBible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-4.jpg">
 <link rel="shortcut icon" href="https://www.AionianBible.org/images/favicon.ico" type="image/x-icon">
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.AionianBible.org/images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.AionianBible.org/images/favicon-32x32.png">
@@ -558,17 +624,17 @@ OTHER
 	font-family:
 		'NotoSans';
 	src:
-		url('https://www.AionianBible.org/fonts/notosans-basic-regular.woff2')	format('woff2'),
-		url('https://www.AionianBible.org/fonts/notosans-basic-regular.woff')	format('woff'),
-		url('https://www.AionianBible.org/fonts/notosans-basic-regular.ttf')		format('truetype');
+		url('fonts/notosans-basic-regular.woff2')	format('woff2'),
+		url('fonts/notosans-basic-regular.woff')	format('woff'),
+		url('fonts/notosans-basic-regular.ttf')		format('truetype');
 }
 @font-face {
 	font-family:
 		'GentiumPlus';
 	src:
-		url('https://www.AionianBible.org/fonts/gentiumplus-r.woff2')			format('woff2'),
-		url('https://www.AionianBible.org/fonts/gentiumplus-r.woff')				format('woff'),
-		url('https://www.AionianBible.org/fonts/gentiumplus-r.ttf')				format('truetype');
+		url('fonts/gentiumplus-r.woff2')			format('woff2'),
+		url('fonts/gentiumplus-r.woff')				format('woff'),
+		url('fonts/gentiumplus-r.ttf')				format('truetype');
 }
 {$G_PWA->font}
 html,body	{ font-family: 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
@@ -588,6 +654,7 @@ a:hover { color: #9966CC; }
 /* THINGS */
 .title { text-align: center; }
 .chapnav { margin-bottom: 7px; }
+.chapnav a { margin-left: 2px; display: inline-block; }
 .chapbot { margin-top: 7px; }
 .cov { text-align: center; margin: auto; } 
 .map { text-align: center; margin: auto; }
@@ -620,7 +687,7 @@ a:hover { color: #9966CC; }
 #home a:hover #aion { color: #663399; }
 #butt { margin: 0 auto; padding: 10px; text-align: center; }
 #butt h2	{ margin: 10px 0 20px 0; }
-#j316 { padding: 10px 0; font-style: italic; font-size: 110%; font-weight: bold; width: 360px; margin: 0 auto; }
+#j316 { padding: 10px 0; font-style: italic; font-size: 110%; font-weight: bold; width: 420px; margin: 0 auto; }
 #aion { padding: 0 0 15px 0; font-style: italic; font-size: 130%; font-weight: bold; }
 #moto { margin: 10px 0 0 0; color: #663399; }
 .RegisteredTM { font-size: 75%; }
@@ -639,7 +706,7 @@ a:hover { color: #9966CC; }
 #body.large { font-size: 150%; }
 #body.larger { font-size: 200%; }
 #menu { display: inline-block; float: right; white-space: nowrap; }
-#menu a { color: #FFFFFF; margin: 0px 0px 0px 15px; display: inline-block; font-size: 175%; }
+#menu a { color: #FFFFFF; margin: 0px 0px 0px 10px; display: inline-block; font-size: 175%; }
 #menu a:hover { color: #E0D6EB; }
 #menu a#accessible { font-weight: bold; font-size: 200%;  }
 
@@ -779,6 +846,7 @@ div.word-warning { color: red; }
 	#page {	padding: 0; }
 }
 @media screen and (max-width: 640px) {
+	#j316 { width: 360px; }
 	#logo1 { display: none !important; }
 	#logo2 { display: inline-block !important; float: left; }
 	#word-menu .crunch { display: none; }
@@ -810,11 +878,18 @@ div.word-warning { color: red; }
 <div id='horz'>
 <a title="Table of Contents" href="#" onclick="ABDO(null); return false;">
 <div id='butt'>
-<h2 id='welcome'>{$G_VERSIONS['NAMEENGLISH']}<br>Welcome to the <i>Holy&nbsp;Bible&nbsp;Aionian&nbsp;Edition<span class='RegisteredTM'>®</span></i></h2>
-<div id='logo'><img src='https://www.AionianBible.org/images/Holy-Bible-Aionian-Edition-PURPLE-HOME.png' alt='Aionian Bible'></div>
-<div id='j316'>{$G_FORPRINT['JOH3_16']}
-<div id='moto'>The world's first Holy Bible <span style="text-decoration: underline;">untranslation</span><br>Three hundred seventy-six versions<br>One hundred sixty-five languages<br>Anonymous on TOR network<br>100% free to copy &amp; print<br>Updated {$G_PWA->modified}<br><br>Also known as<br>'The Purple Bible'
-</div>
+<h2 id='welcome'>{$G_PWA->bible_title}<br>
+Welcome to <u>One</u> Offline <i>Holy&nbsp;Bible&nbsp;Aionian&nbsp;Edition<span class='RegisteredTM'>®</span></i></h2>
+<div id='logo'><img src='https://www.AionianBible.org/images/Holy-Bible-Aionian-Edition-PURPLE-HOME-1.png' alt='Aionian Bible'></div>
+<div id='j316'>{$G_FORPRINT['JOH3_16']}</div>
+<div id='moto'>The world's first Holy Bible <span style="text-decoration: underline;">untranslation</span> Offline<br>
+<u>One</u> of Three hundred seventy-six versions<br>
+<u>One</u> of One hundred sixty-five languages<br>
+Anonymous on TOR network<br>100% free to copy &amp; print<br>
+Updated {$G_PWA->modified}<br>
+<br>
+Also known as<br>
+'The Purple Bible'</div>
 </div>
 </a>
 </div>
@@ -846,21 +921,18 @@ const Zcop = 1;
 const Zpre = 2;
 const Zaio = 3;
 const Ztoc = 4;
-const Zoti = 5;
-const Zgen = 6;
-const Znti = {$G_PWA->bible_nti} +  6;
-const Zend = {$G_PWA->bible_numb} +  6;
-const Zrea = {$G_PWA->bible_numb} +  7;
-const Zpro = {$G_PWA->bible_numb} +  8;
-const Zglo = {$G_PWA->bible_numb} +  9;
-const Zpas = {$G_PWA->bible_numb} + 10;
-const Zfut = {$G_PWA->bible_numb} + 11;
-const Zdes = {$G_PWA->bible_numb} + 12;
-const Zabe = {$G_PWA->bible_numb} + 13;
-const Zisr = {$G_PWA->bible_numb} + 14;
-const Zjes = {$G_PWA->bible_numb} + 15;
-const Zpau = {$G_PWA->bible_numb} + 16;
-const Zwor = {$G_PWA->bible_numb} + 17;
+const Zend = {$G_PWA->bible_numb} +  5;
+const Zrea = {$G_PWA->bible_numb} +  6;
+const Zpro = {$G_PWA->bible_numb} +  7;
+const Zglo = {$G_PWA->bible_numb} +  8;
+const Zpas = {$G_PWA->bible_numb} +  9;
+const Zfut = {$G_PWA->bible_numb} + 10;
+const Zdes = {$G_PWA->bible_numb} + 11;
+const Zabe = {$G_PWA->bible_numb} + 12;
+const Zisr = {$G_PWA->bible_numb} + 13;
+const Zjes = {$G_PWA->bible_numb} + 14;
+const Zpau = {$G_PWA->bible_numb} + 15;
+const Zwor = {$G_PWA->bible_numb} + 16;
 
 
 
@@ -900,9 +972,10 @@ Also known as the Purple Bible<br>
 100% Free to Copy and Print at <a href='https://www.AionianBible.org' target='_blank' title='Holy Bible Aionian Edition online'>AionianBible.org</a><br>
 <a href='https://www.AionianBible.org/Buy' target='_blank' title='Holy Bible Aionian Edition hardcopy print at Amazon and Lulu'>Buy hardcopy print format</a><br>
 <br>
+Title: {$G_PWA->bible_title}<br>
 Publisher: Nainoia Inc<br>
 Copyright: <a href='https://creativecommons.org/licenses/by/4.0/' target='_blank'>Creative Commons Attribution 4.0 International, 2018-2024</a><br>
-Language: {$G_VERSIONS['LANGUAGEHTML']}<br>
+Language: {$G_PWA->bible_lang}<br>
 Formatted: ABCMS on {$G_PWA->modified}<br>
 Online: <a href='https://www.AionianBible.org/Bibles/English---Aionian-Bible' target='_blank' title='Read online'>Read</a> and <a href='https://www.AionianBible.org/TOR/Bibles/English---Aionian-Bible' target='_blank' title='Read TOR anonymously'>TOR Anonymously</a><br>
 Download: 
@@ -957,37 +1030,29 @@ Hello world!<br>
 // TOC
 `
 <h2>{$G_FORPRINT['W_TOC']}</h2>
-Swipe right and left for next and previous page<br>
+<a title="AionianBible.org"				href="https://www.AionianBible.org" target="_blank">AionianBible.org</a> (all Bibles online)<br>
+Swipe right and left to page<br>
+<br>
 <a title="Cover"						href="#" onclick="ABDO(\${Zcov});return false;">Cover</a><br>
 <a title="Copyright"					href="#" onclick="ABDO(\${Zcop});return false;">Copyright</a><br>
-<a title="Preface"						href="#" onclick="ABDO(\${Zpre});return false;">Preface</a><br>
-<a title="Aiōnios and Aïdios"			href="#" onclick="ABDO(\${Zaio});return false;">Aiōnios and Aïdios</a><br>
-<a title="Old Testament"				href="#" onclick="ABDO(\${Zoti});return false;">Old Testament</a><br>
-<a title="New Testament"				href="#" onclick="ABDO({$G_PWA->bible_nti});return false;">New Testament</a><br>
+<a title="Preface"						href="#" onclick="ABDO(\${Zpre});return false;">{$G_FORPRINT['W_PREF']}</a><br>
+<a title="Aiōnios and Aïdios"			href="#" onclick="ABDO(\${Zaio});return false;">Aiōnios and Aïdios</a>
 {$G_PWA->bible_menu}<br>
+<b>{$G_FORPRINT['W_APDX']}</b><br>
 <a title="The New Jerusalem"			href="#" onclick="ABDO(\${Zend});return false;">The New Jerusalem</a><br>
-<a title="Reader's Guide"				href="#" onclick="ABDO(\${Zrea});return false;">Reader's Guide</a><br>
-<a title="Project History"				href="#" onclick="ABDO(\${Zpro});return false;">Project History</a><br>
-<a title="Aionian Glossary"				href="#" onclick="ABDO(\${Zglo});return false;">Aionian Glossary</a><br>
+<a title="Reader's Guide"				href="#" onclick="ABDO(\${Zrea});return false;">{$G_FORPRINT['W_READ']}</a><br>
+<a title="Project History"				href="#" onclick="ABDO(\${Zpro});return false;">Project {$G_FORPRINT['W_HIST']}</a><br>
+<a title="Aionian Glossary"				href="#" onclick="ABDO(\${Zglo});return false;">{$G_FORPRINT['W_GLOS']}</a><br>
 <a title="History Past"					href="#" onclick="ABDO(\${Zpas});return false;">History Past</a><br>
 <a title="History Future"				href="#" onclick="ABDO(\${Zfut});return false;">History Future</a><br>
-<a title="Destiny"						href="#" onclick="ABDO(\${Zdes});return false;">Destiny</a><br>
+<a title="Destiny"						href="#" onclick="ABDO(\${Zdes});return false;">{$G_FORPRINT['W_DESTINY']}</a><br>
+<b>{$G_FORPRINT['W_MAP']}</b><br>
 <a title="Abraham's Journeys"			href="#" onclick="ABDO(\${Zabe});return false;">Abraham's Journeys</a><br>
 <a title="Israel's Exodus"				href="#" onclick="ABDO(\${Zisr});return false;">Israel's Exodus</a><br>
 <a title="Jesus' Journeys"				href="#" onclick="ABDO(\${Zjes});return false;">Jesus' Journeys</a><br>
 <a title="Paul's Missionary Journeys"	href="#" onclick="ABDO(\${Zpau});return false;">Paul's Missionary Journeys</a><br>
 <a title="World Nations"				href="#" onclick="ABDO(\${Zwor});return false;">World Nations</a><br>
-`,
-
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////
-// OT IMAGE
-`
-<h2>{$G_FORPRINT['W_OLD']}</h2>
-<div class="map"><img src="https://resources.aionianbible.org/Gustave-Dore-La-Grande-Bible-de-Tours/web/Gustave-Dore-Bible-Tour-Hebrew-OT-003-Adam-and-Eve-Are-Driven-out-of-Eden.jpg" alt="Adam and Eve are driven out of Eden"></div>
-{$G_FORPRINT['GEN3_24']}
+{$G_FORPRINT['W_ILUS']}
 `,
 
 
@@ -1026,26 +1091,26 @@ Swipe right and left for next and previous page<br>
 <h2 class='center'>Project History</h2>
 <p>
 The <span class='notranslate'>Aionian</span>  Bible republishes public domain and Creative Common Bible texts that are 100% free to copy and print.
-All versions are available online at <a href='/Read' title='The worlds first Holy Bible untranslation'>AionianBible.org</a> in web page, ePub, text, and PDF format.  Also read online with the  <a href='/Google-Play' target='_blank' title='Aionian Bible free online at Google Play'><span class='notranslate'>Android</span></a>  and  <a href='/Apple-iOS-App' title='Apple iOS App'><span class='notranslate'>Apple iOS App</span></a>.  Buy print Bibles at <a href='/Buy' title='Holy Bible Aionian Edition at Amazon.com and Lulu.com'><span class='notranslate'>Amazon.com and Lulu.com</span></a>.<br />
-<br />
+All versions are available online at <a href='/Read' title='The worlds first Holy Bible untranslation'>AionianBible.org</a> in web page, ePub, text, and PDF format.  Also read online with the  <a href='/Google-Play' target='_blank' title='Aionian Bible free online at Google Play'><span class='notranslate'>Android</span></a>  and  <a href='/Apple-iOS-App' title='Apple iOS App'><span class='notranslate'>Apple iOS App</span></a>.  Buy print Bibles at <a href='/Buy' title='Holy Bible Aionian Edition at Amazon.com and Lulu.com'><span class='notranslate'>Amazon.com and Lulu.com</span></a>.<br>
+<br>
 </p><p>
-<b>08/18/24</b>&nbsp;&nbsp;<a href='https://creativecommons.org/licenses/by/4.0/' target='_blank' title='Copyright license'>Creative Commons Attribution 4.0 International</a>, if source allows.<br />
+<b>08/18/24</b>&nbsp;&nbsp;<a href='https://creativecommons.org/licenses/by/4.0/' target='_blank' title='Copyright license'>Creative Commons Attribution 4.0 International</a>, if source allows.<br>
 </p><p>
-<b>08/05/24</b>&nbsp;&nbsp;377 translations now available in 166 languages.<br />
+<b>08/05/24</b>&nbsp;&nbsp;377 translations now available in 166 languages.<br>
 </p><p>
-<b>05/01/24</b>&nbsp;&nbsp;370 translations now available in 164 languages.<br />
+<b>05/01/24</b>&nbsp;&nbsp;370 translations now available in 164 languages.<br>
 </p><p>
-<b>02/04/24</b>&nbsp;&nbsp;352 translations now available in 142 languages.<br />
+<b>02/04/24</b>&nbsp;&nbsp;352 translations now available in 142 languages.<br>
 </p><p>
-<b>12/04/23</b>&nbsp;&nbsp;<a href='/Glossary#g1653' title='View definition' onclick='return AionianBible_Makemark("/Glossary","#g1653");'>Eleēsē</a> added to the <a href='/Glossary' title='Strongs Enhanced Concordance and Glossary' onclick='return AionianBible_Makemark("/Glossary","");'>Aionian Glossary</a>.<br />
+<b>12/04/23</b>&nbsp;&nbsp;<a href='/Glossary#g1653' title='View definition' onclick='return AionianBible_Makemark("/Glossary","#g1653");'>Eleēsē</a> added to the <a href='/Glossary' title='Strongs Enhanced Concordance and Glossary' onclick='return AionianBible_Makemark("/Glossary","");'>Aionian Glossary</a>.<br>
 </p><p>
-<b>02/14/23</b>&nbsp;&nbsp;Aionian Bible published for anonymous access on the <a href='/TOR' target='_blank' title='TOR Network'>TOR Network</a>.<br />
+<b>02/14/23</b>&nbsp;&nbsp;Aionian Bible published for anonymous access on the <a href='/TOR' target='_blank' title='TOR Network'>TOR Network</a>.<br>
 </p><p>
-<b>02/14/22</b>&nbsp;&nbsp;<a href='https://en.wikipedia.org/wiki/Strong%27s_Concordance' target='_blank' title='Strongs Concordance history at wikipedia'>Strong's Concordance</a> from <a href='https://viz.bible' target='_blank' title='Strongs Concordance source'>viz.bible</a>, <a href='https://github.com/openscriptures/strongs' target='_blank' title='improved Strongs Concordance source'>Open Scriptures</a>, and <a href='https://github.com/STEPBible/STEPBible-Data' target='_blank' title='STEPBible Enhanced Strongs Concordance'>STEPBible Enhanced Strong's</a> at <a href='/Strongs' title='Strongs Enhanced Concordance and Glossary' onclick='return AionianBible_Makemark("/Strongs");'>AionianBible.org/Strongs</a>.<br />
+<b>02/14/22</b>&nbsp;&nbsp;<a href='https://en.wikipedia.org/wiki/Strong%27s_Concordance' target='_blank' title='Strongs Concordance history at wikipedia'>Strong's Concordance</a> from <a href='https://viz.bible' target='_blank' title='Strongs Concordance source'>viz.bible</a>, <a href='https://github.com/openscriptures/strongs' target='_blank' title='improved Strongs Concordance source'>Open Scriptures</a>, and <a href='https://github.com/STEPBible/STEPBible-Data' target='_blank' title='STEPBible Enhanced Strongs Concordance'>STEPBible Enhanced Strong's</a> at <a href='/Strongs' title='Strongs Enhanced Concordance and Glossary' onclick='return AionianBible_Makemark("/Strongs");'>AionianBible.org/Strongs</a>.<br>
 </p><p>
-<b>01/09/22</b>&nbsp;&nbsp;<a href='https://resources.aionianbible.org/AB-StudyPack/' target='_blank' title='Aionian Bible language StudyPacks'>StudyPack</a> resources for Bible translation and underlying language study now available.<br />
+<b>01/09/22</b>&nbsp;&nbsp;<a href='https://resources.aionianbible.org/AB-StudyPack/' target='_blank' title='Aionian Bible language StudyPacks'>StudyPack</a> resources for Bible translation and underlying language study now available.<br>
 </p><p>
-<b>01/01/22</b>&nbsp;&nbsp;216 translations now available in 99 languages.<br />
+<b>01/01/22</b>&nbsp;&nbsp;216 translations now available in 99 languages.<br>
 </p><p>
 <b>12/20/21</b>&nbsp;&nbsp;Social media presence on 
 <a href='/Facebook'		target='_blank' title='Facebook/AionianBible'>Facebook</a>,
@@ -1055,53 +1120,53 @@ All versions are available online at <a href='/Read' title='The worlds first Hol
 <a href='/Pinterest'	target='_blank' title='Pinterest/AionianBible'>Pinterest</a>,
 <a href='/YouTube'		target='_blank' title='YouTube/AionianBible'>YouTube</a>,
 <a href='/Google-Play'	target='_blank' title='GooglePlay/AionianBible'>GooglePlay</a>, and
-<a href='/EmailNews'	target='_blank' title='EmailNews/AionianBible'>MailChimp</a><br />
+<a href='/EmailNews'	target='_blank' title='EmailNews/AionianBible'>MailChimp</a><br>
 </p><p>
-<b>11/17/21</b>&nbsp;&nbsp;<a href='/Bible-Cover'  title='Buy the Aionian Bible Branded Leather Bible Cover'>Aionian Bible Branded Leather Bible Covers</a> now available.<br />
+<b>11/17/21</b>&nbsp;&nbsp;<a href='/Bible-Cover'  title='Buy the Aionian Bible Branded Leather Bible Cover'>Aionian Bible Branded Leather Bible Covers</a> now available.<br>
 </p><p>
-<b>03/31/21</b>&nbsp;&nbsp;214 translations now available in 99 languages.<br />
+<b>03/31/21</b>&nbsp;&nbsp;214 translations now available in 99 languages.<br>
 </p><p>
-<b>12/01/20</b>&nbsp;&nbsp;Right to left and Hindic languages now available in PDF format.<br />
+<b>12/01/20</b>&nbsp;&nbsp;Right to left and Hindic languages now available in PDF format.<br>
 </p><p>
-<b>08/29/20</b>&nbsp;&nbsp;Aionian Bibles now available in ePub format.<br />
+<b>08/29/20</b>&nbsp;&nbsp;Aionian Bibles now available in ePub format.<br>
 </p><p>
-<b>05/25/20</b>&nbsp;&nbsp;Illustrations by Gustave Doré, <a href='https://resources.aionianbible.org/Gustave-Dore-La-Grande-Bible-de-Tours/' title='Gustave Dorés La Grande Bible de Tours' target='_blank'>La Grande Bible de Tours</a>, (Felix Just, S.J., <a href='https://catholic-resources.org/Art/Dore.htm' title='Catholic Resources' target='_blank'>Catholic-Resources.org/Art/Dore.htm</a>).<br />
+<b>05/25/20</b>&nbsp;&nbsp;Illustrations by Gustave Doré, <a href='https://resources.aionianbible.org/Gustave-Dore-La-Grande-Bible-de-Tours/' title='Gustave Dorés La Grande Bible de Tours' target='_blank'>La Grande Bible de Tours</a>, (Felix Just, S.J., <a href='https://catholic-resources.org/Art/Dore.htm' title='Catholic Resources' target='_blank'>Catholic-Resources.org/Art/Dore.htm</a>).<br>
 </p><p>
-<b>02/22/20</b>&nbsp;&nbsp;Aionian Bibles available in print at <a href='/Lulu' target='_blank' title='Aionian Bibles in print at Lulu.com'>Lulu.com</a>.<br />
+<b>02/22/20</b>&nbsp;&nbsp;Aionian Bibles available in print at <a href='/Lulu' target='_blank' title='Aionian Bibles in print at Lulu.com'>Lulu.com</a>.<br>
 </p><p>
-<b>10/31/19</b>&nbsp;&nbsp;174 translations now available in 74 languages.<br />
+<b>10/31/19</b>&nbsp;&nbsp;174 translations now available in 74 languages.<br>
 </p><p>
-<b>10/28/19</b>&nbsp;&nbsp;<span class='notranslate'>Aionian</span>  Bible project nursed as J. and J. pray.<br />
+<b>10/28/19</b>&nbsp;&nbsp;<span class='notranslate'>Aionian</span>  Bible project nursed as J. and J. pray.<br>
 </p><p>
-<b>03/24/19</b>&nbsp;&nbsp;135 translations now available in 67 languages.<br />
+<b>03/24/19</b>&nbsp;&nbsp;135 translations now available in 67 languages.<br>
 </p><p>
-<b>11/17/18</b>&nbsp;&nbsp;104 translations now available in 57 languages.<br />
+<b>11/17/18</b>&nbsp;&nbsp;104 translations now available in 57 languages.<br>
 </p><p>
-<b>10/20/18</b>&nbsp;&nbsp;70 translations now available in 33 languages.<br />
+<b>10/20/18</b>&nbsp;&nbsp;70 translations now available in 33 languages.<br>
 </p><p>
-<b>03/06/18</b>&nbsp;&nbsp;Aionian Bibles available in print at <a href='/Amazon' target='_blank' title='Aionian Bibles in print at Amazon.com'>Amazon.com</a>.<br />
+<b>03/06/18</b>&nbsp;&nbsp;Aionian Bibles available in print at <a href='/Amazon' target='_blank' title='Aionian Bibles in print at Amazon.com'>Amazon.com</a>.<br>
 </p><p>
-<b>02/01/18</b>&nbsp;&nbsp;<i class='notranslate'>Holy Bible Aionian Edition®</i>  trademark registered.<br />
+<b>02/01/18</b>&nbsp;&nbsp;<i class='notranslate'>Holy Bible Aionian Edition®</i>  trademark registered.<br>
 </p><p>
-<b>07/30/17</b>&nbsp;&nbsp;42 translations now available in 22 languages.<br />
+<b>07/30/17</b>&nbsp;&nbsp;42 translations now available in 22 languages.<br>
 </p><p>
-<b>07/01/17</b>&nbsp;&nbsp;<i>'The Purple Bible'</i> nickname begins.<br />
+<b>07/01/17</b>&nbsp;&nbsp;<i>'The Purple Bible'</i> nickname begins.<br>
 </p><p>
-<b>01/16/17</b>&nbsp;&nbsp;<a href='/Google-Play' target='_blank' title='Aionian Bible free online at Google Play'><span class='notranslate'>Aionian</span>  Bible Google Play Store App</a> published.<br />
+<b>01/16/17</b>&nbsp;&nbsp;<a href='/Google-Play' target='_blank' title='Aionian Bible free online at Google Play'><span class='notranslate'>Aionian</span>  Bible Google Play Store App</a> published.<br>
 </p><p>
-<b>01/01/17</b>&nbsp;&nbsp;<a href='https://creativecommons.org/licenses/by-nd/4.0' target='_blank' title='Copyright license'>Creative Commons Attribution No Derivative Works 4.0</a> license added.<br />
+<b>01/01/17</b>&nbsp;&nbsp;<a href='https://creativecommons.org/licenses/by-nd/4.0' target='_blank' title='Copyright license'>Creative Commons Attribution No Derivative Works 4.0</a> license added.<br>
 </p><p>
-<b>12/07/16</b>&nbsp;&nbsp;<a href='https://NAINOIA-INC.signedon.net' target='_blank' title='Nainoia, Inc. exists for Christian mission promotion, technical support services, and Bible translation'>Nainoia Inc</a> established as non-profit corporation.<br />
+<b>12/07/16</b>&nbsp;&nbsp;<a href='https://NAINOIA-INC.signedon.net' target='_blank' title='Nainoia, Inc. exists for Christian mission promotion, technical support services, and Bible translation'>Nainoia Inc</a> established as non-profit corporation.<br>
 </p><p>
-<b>06/21/16</b>&nbsp;&nbsp;30 translations available in 12 languages.<br />
+<b>06/21/16</b>&nbsp;&nbsp;30 translations available in 12 languages.<br>
 </p><p>
-<b>01/11/16</b>&nbsp;&nbsp;<a href='/'  title='The worlds first Holy Bible untranslation'>AionianBible.org</a> domain registered.<br />
+<b>01/11/16</b>&nbsp;&nbsp;<a href='/'  title='The worlds first Holy Bible untranslation'>AionianBible.org</a> domain registered.<br>
 </p><p>
-<b>06/21/15</b>&nbsp;&nbsp;<span class='notranslate'>Aionian</span>  Bible project birthed as G. and J. pray.<br />
+<b>06/21/15</b>&nbsp;&nbsp;<span class='notranslate'>Aionian</span>  Bible project birthed as G. and J. pray.<br>
 </p><p>
-<b>12/18/13</b>&nbsp;&nbsp;<span class='notranslate'>Aionian</span>  Bible project announced as J. and J. pray.<br />
+<b>12/18/13</b>&nbsp;&nbsp;<span class='notranslate'>Aionian</span>  Bible project announced as J. and J. pray.<br>
 </p><p>
-<b>04/15/85</b>&nbsp;&nbsp;<span class='notranslate'>Aionian</span>  Bible project conceived as B. and J. pray.<br />
+<b>04/15/85</b>&nbsp;&nbsp;<span class='notranslate'>Aionian</span>  Bible project conceived as B. and J. pray.<br>
 </p>
 `,
 
@@ -1112,6 +1177,98 @@ All versions are available online at <a href='/Read' title='The worlds first Hol
 // GLOSSARY
 `
 <h2>{$G_FORPRINT['W_GLOS']}</h2>
+<p>The <i>Aionian Bible</i> un-translates and instead transliterates eleven special words to help us better understand the extent of God’s love for individuals and all mankind, and the nature of afterlife destinies.  The original translation is unaltered and a note is added to 64 Old Testament and 200 New Testament verses. Compare the definitions below to the Strong's Concordance.  Follow the links below to study the word's usage.</p>
+
+<h3><i><a class='tag' id="g12">Abyssos</a></i></h3>
+Language: Koine Greek<br>
+Speech: proper noun, place<br>
+Strongs: g12<br>
+Meaning:<br>
+<div style='margin-left: 15px;'>Temporary prison for special fallen angels such as Apollyon, the Beast, and Satan.</div>
+Usage: 9 times in 3 books, 6 chapters, and 9 verses<br>
+{$G_PWA->g12}<br>
+
+<h3><i><a class='tag' id="g126">aïdios</a></i></h3>
+Language: Koine Greek<br>
+Speech: adjective<br>
+Strongs: g126<br>
+Meaning:<br><div style='margin-left: 15px;'>Lasting, enduring forever, eternal.</div>
+Usage: 2 times in Romans 1:20 and Jude 6<br>
+{$G_PWA->g126}<br>
+
+<h3><i><a class='tag' id="g165">aiōn</a></i></h3>
+Language: Koine Greek<br>
+Speech: noun<br>
+Strongs: g165<br>
+Meaning:<br><div style='margin-left: 15px;'>A lifetime or time period with a beginning and end, an era, an age, the completion of which is beyond human perception, but known only to God the creator of the aiōns, Hebrews 1:2. Never meaning simple <i>endless or infinite chronological time</i> in Koine Greek usage. Read <a href='front-4-aionian.xhtml' title='Book abstracts of Dr. Heleen Keizer and Ramelli and Konstan'>Dr. Heleen Keizer and Ramelli and Konstan</a> for proofs.</div>
+Usage: 127 times in 22 books, 75 chapters, and 102 verses<br>
+{$G_PWA->g165}<br>
+
+<h3><i><a class='tag' id="g166">aiōnios</a></i></h3>
+Language: Koine Greek<br>
+Speech: adjective<br>
+Strongs: g166<br>
+Meaning:<br><div style='margin-left: 15px;'>From start to finish, pertaining to the age, lifetime, entirety, complete, or even consummate. Never meaning simple <i>endless or infinite chronological time</i> in Koine Greek usage. Read <a href='front-4-aionian.xhtml' title='Book abstracts of Dr. Heleen Keizer and Ramelli and Konstan'>Dr. Heleen Keizer and Ramelli and Konstan</a> for proofs.</div>
+Usage: 71 times in 19 books, 44 chapters, and 69 verses<br>
+{$G_PWA->g166}<br>
+
+<h3><i><a class='tag' id="g1653">eleēsē</a></i></h3>
+Language: Koine Greek<br>
+Speech: verb<br>
+Strongs: g1653<br>
+Meaning:<br><div style='margin-left: 15px;'>To have pity on, to show mercy. Typically, the subjunctive mood indicates possiblity, not certainty. However, a subjunctive in a purpose clause is a resulting action as certain as the causal action. The subjunctive in a purpose clause functions as an indicative, not an optative. Thus, the grand conclusion of grace theology in Romans 11:32 must be clarified. God's mercy on all is not a possibility, but a certainty. See <a href='https://www.ntgreek.org' target='_blank'>www.ntgreek.org</a>.</div>
+Usage: 1 time in this conjugation, Romans 11:32<br>
+{$G_PWA->g1653}<br>
+
+<h3><i><a class='tag' id="g1067">Geenna</a></i></h3>
+Language: Koine Greek<br>
+Speech: proper noun, place<br>
+Strongs: g1067<br>
+Meaning:<br>
+<div style='margin-left: 15px;'>Valley of Hinnom, Jerusalem's trash dump, a place of ruin, destruction, and judgment in this life, or the next, though not eternal to Jesus' audience.</div>
+Usage: 12 times in 4 books, 7 chapters, and 12 verses<br>
+{$G_PWA->g1067}<br>
+
+<h3><i><a class='tag' id="g86">Hadēs</a></i></h3>
+Language: Koine Greek<br>
+Speech: proper noun, place<br>
+Strongs: g86<br>
+Meaning:<br>
+<div style='margin-left: 15px;'>Synonomous with <i>Sheol</i>, though in New Testament usage <i>Hades</i> is the temporal place of punishment for deceased unbelieving mankind, distinct from <i>Paradise</i> for deceased believers.</div>
+Usage: 11 times in 5 books, 9 chapters, and 11 verses<br>
+{$G_PWA->g86}<br>
+
+<h3><i><a class='tag' id="g3041"></a><a class='tag' id="g4442">Limnē Pyr</a></i></h3>
+Language: Koine Greek<br>
+Speech: proper noun, place<br>
+Strongs: g3041 g4442<br>
+Meaning:<br>
+<div style='margin-left: 15px;'>Lake of Fire, final punishment for those not named in the Book of Life, prepared for the Devil and his angels, Matthew 25:41.</div>
+Usage: Phrase 5 times in the New Testament<br>
+{$G_PWA->g3041}<br>
+
+<h3><i><a class='tag' id="h7585">Sheol</a></i></h3>
+Language: Hebrew<br>
+Speech: proper noun, place<br>
+Strongs: h7585<br>
+Meaning:<br>
+<div style='margin-left: 15px;'>The grave or temporal afterlife world of both the righteous and unrighteous, believing and unbelieving, until the general resurrection.</div>
+Usage: 66 times in 17 books, 50 chapters, and 64 verses<br>
+{$G_PWA->h7585}<br>
+
+<h3><i><a class='tag' id="g5020">Tartaroō</a></i></h3>
+Language: Koine Greek<br>
+Speech: proper noun, place<br>
+Strongs: g5020<br>
+Meaning:<br>
+<div style='margin-left: 15px;'>Temporary prison for particular fallen angels awaiting final judgment.</div>
+Usage: 1 time in 2 Peter 2:4<br>
+{$G_PWA->g5020}<br>
+
+<h3><i><a class='tag' id="questioned">Questioned</a></i></h3>
+Questioned verse translations do not contain Aionian Glossary words, but may wrongly imply eternal or Hell.<br>
+<br>
+{$G_PWA->questioned}
 `,
 
 
@@ -1208,8 +1365,10 @@ All versions are available online at <a href='/Read' title='The worlds first Hol
 // functions
 function ABDO(goto, anchor=null) {
 	// validate goto
-	if (null === goto) { goto = AB_Bookmark; }
-	else if (-1 === goto) { goto = Zglo; }
+	if (      null   === goto) { goto = AB_Bookmark; }
+	else if (-1      === goto) { goto = Zglo; }
+	else if (-999999 === goto) { goto = AB_Page - 1; }
+	else if ( 999999 === goto) { goto = AB_Page + 1; }
 	if (typeof AB_Bible[goto] === 'undefined') {
 		if ((AB_Page == 0 && goto < 0) || goto >= AB_Bible.length) { return; }
 		alert("Oops, invalid link = " + goto);
@@ -1230,10 +1389,10 @@ function ABDO(goto, anchor=null) {
 <div id='sticky-body'>
 <div id='head'>
 <div id='head-hi'>
-<div id='logo1'><a href='#' title='Aionian Bible homepage' onclick="ABDO(\${Zcov});return false;"><img src='https://www.AionianBible.org/images/Holy-Bible-Aionian-Edition-PURPLE-LOGO.png' alt='Aionian Bible'></a></div>
-<div id='logo2'><a href='#' title='Aionian Bible homepage' onclick="ABDO(\${Zcov});return false;"><img src='https://www.AionianBible.org/images/Holy-Bible-Aionian-Edition-PURPLE-AB.png' alt='Aionian Bible'></a></div>
+<div id='logo1'><a href='#' title='Aionian Bible homepage' onclick="ABDO(\${Zcov});return false;"><img src='https://www.AionianBible.org/images/Holy-Bible-Aionian-Edition-PURPLE-LOGO-1.png' alt='Aionian Bible'></a></div>
+<div id='logo2'><a href='#' title='Aionian Bible homepage' onclick="ABDO(\${Zcov});return false;"><img src='https://www.AionianBible.org/images/Holy-Bible-Aionian-Edition-PURPLE-AB-1.png' alt='Aionian Bible'></a></div>
 <div id='menu'>
-<a href="#" title="Table of Contents" onclick="ABDO(\${Ztoc});return false;">Menu</a>
+<a href="#" title="Table of Contents" onclick="ABDO(\${Ztoc});return false;">TOC</a>
 <a href='#' title='Go to Bookmark' onclick='AionianBible_Get();'>Get</a> 
 <a href='#' title='Set Bookmark' onclick='AionianBible_Set();'>Set</a>
 <a href="#" title="Previous page" class="nav left" onclick="ABDO(\${AB_Page}-1);return false;"><span class="nav clt">&lt;</span></a>
