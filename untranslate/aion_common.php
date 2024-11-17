@@ -5464,6 +5464,7 @@ function AION_LOOP_PDFMARGIN_DOIT($args) {
 		"Holy-Bible---Spanish---Sagradas-Escrituras-1569"			=> 2,
 		"Holy-Bible---Spanish---Sencillo-Bible"						=> 2,
 		"Holy-Bible---Swedish---Swedish-Bible-1873"					=> 1,
+		"Holy-Bible---Tsakhur---Tsakhur-Bible"						=> 1,
 		"Holy-Bible---Ukrainian---New-Translation"					=> 1,
 		"Holy-Bible---Yombe---Yombe-Bible"							=> 1,
 	);

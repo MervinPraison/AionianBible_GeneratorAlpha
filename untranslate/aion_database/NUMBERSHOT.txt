@@ -1,6 +1,6 @@
 # File Name: NUMBERSHOT.txt
 # File Size: 254862      
-# File Date: 11/12/2024 14:52:01
+# File Date: 11/16/2024 22:17:14
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2024

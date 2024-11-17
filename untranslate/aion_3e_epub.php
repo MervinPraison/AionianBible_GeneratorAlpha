@@ -922,7 +922,7 @@ $versionDE_CP = (empty($G_VERSIONS['DESCRIPTION']) ? "" : "<br />".$G_VERSIONS['
 $versionSS_CP  = "Source: ".$G_VERSIONS['SOURCE'].(empty($G_VERSIONS['YEAR']) ? "" : ", ".$G_VERSIONS['YEAR'])."<br />";
 $versionSS_CP .= "Source copyright: ".$G_VERSIONS['COPYRIGHT']."<br />";
 $versionSS_CP .= $G_VERSIONS['SOURCEVERSION'];
-$versionSS_CP .= "Source text: <a href='".$G_VERSIONS['SOURCELINK']."' target='_blank'>".$G_VERSIONS['SOURCELINK']."</a><br />";
+$versionSS_CP .= "Source text: <a href='".$G_VERSIONS['SOURCELINK']."' target='_blank' title='Download Source File'>".$G_VERSIONS['SOURCELINK']."</a><br />";
 $onlinelink = "https://www.AionianBible.org/Bibles/".str_replace("Holy-Bible---","",$G_VERSIONS['BIBLE']);
 $onionlink = "https://www.AionianBible.org/TOR/Bibles/".str_replace("Holy-Bible---","",$G_VERSIONS['BIBLE']);
 $epublink = "https://resources.AionianBible.org/".$G_VERSIONS['BIBLE']."---Aionian-Edition.epub";
