@@ -946,8 +946,8 @@ $G_COMMENT
 </head>
 <body>
 <img src="./images/LOGO.jpg" alt="Holy Bible Aionian Edition" class='simple' />
-$versionFO_CP
 $versionEN_CP
+$versionFO_CP
 $j316<br />
 <br />
 The world’s first Holy Bible untranslation<br />

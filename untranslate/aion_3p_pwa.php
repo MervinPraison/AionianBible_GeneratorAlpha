@@ -42,12 +42,7 @@ https://www.pcmag.com/how-to/how-to-use-progressive-web-apps
 https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/
 
 
-
-
 */
-
-
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // PWA COMPILER
 AION_LOOP_PWA(	'/home/inmoti55/public_html/domain.aionianbible.org/www-stageresources',
@@ -248,9 +243,10 @@ function AION_LOOP_PWA_DOIT($args) {
 	}
 	ksort($database['T_UNTRANSLATE']);
 
-	// BUILD the Bible Map
+	// BUILD Bible Map array
 	// Find the Aionian verses and chapter numbers
-	// bible starts on page 7, content array index 6
+	// *** Note some logic below could be put in page builder loop below more efficiently, but need two loops anyway to build aionian verse array
+	// Javascript object linking PWA page names to their page number in the page array
 	$G_PWA->bible_map = <<<EOF
 const AB_Map = {
 'PWA'		:	0,
@@ -262,11 +258,11 @@ const AB_Map = {
 
 EOF;
 
-	$G_PWA->bible_menu = NULL;
+	$G_PWA->bible_menu = NULL; // bible book names for the TOC
+	$links = array(); // handy array of all book and chapter page numbers
+	$aions = array(); // array of page numbers with aionian verses
 	$last_indx = $last_book = $last_chap = NULL;
 	$yes_ot = $yes_nt = FALSE;
-	$links = array();
-	$aions = array();
 	$pageindex = 5;
 	foreach($database['T_BIBLE'] as $ref => $verse) {
 		// init
@@ -274,21 +270,24 @@ EOF;
 		$book = $verse['BOOK'];
 		$chap = $verse['CHAPTER'];
 		$chaN = (int)$verse['CHAPTER'];
-		// marker
+		// new book name found
 		if ($book != $last_book) {
 			$book_index		= array_search($book, $args['database']['T_BOOKS']['CODE']);
 			$book_english	= $args['database']['T_BOOKS']['ENGLISH'][$book_index];
 			$book_foreign	= $args['database']['T_BOOKS'][$bible][$book_index];
 			if(strpos($book_english,'"')!==FALSE || strpos($book_foreign,'"')!==FALSE) { AION_ECHO("ERROR! $error book name quote problem! $book_english $book_foreign"); }
+			// warning if beginning chapters missed
 			for($x = 1; $x < (int)$chap; $x++) {
 				AION_ECHO("WARN! $error Skipping TOC {$verse['INDEX']}-{$verse['BOOK']}-".sprintf('%03d',$x));
 			}
+			// Add OT intro to TOC 
 			if (!$yes_ot && (int)$indx<40) {
 				$yes_ot = TRUE;
 				$G_PWA->bible_menu .= "<br><b><a title='Old Testament' href='?Old' onclick=\"ABDO('Old');return false;\">{$G_FORPRINT['W_OLD']}</a></b><br>";
 				$G_PWA->bible_map .= "'Old':{$pageindex},"; // map
 				$pageindex++;
 			}
+			// Add NT intro to TOC
 			if (!$yes_nt && (int)$indx>39) {
 				$yes_nt = TRUE;
 				$G_PWA->bible_menu = trim($G_PWA->bible_menu," ,");
@@ -296,12 +295,14 @@ EOF;
 				$G_PWA->bible_map .= "'New':{$pageindex},"; // map
 				$pageindex++;
 			}
+			// Add Book name to TOC
 			$G_PWA->bible_menu .= "<a title='View Book' href='?{$book_index}' onclick=\"ABDO('{$book_index}');return false;\">$book_foreign</a>, ";
 			$links[$book] = array($chaN => $pageindex);
 			$G_PWA->bible_map .= "'{$book_index}':{$pageindex},"; // map
 			$G_PWA->bible_map .= "'{$book_index}-{$chaN}':{$pageindex},"; // map
 			$pageindex++;
 		}
+		// new chapter found
 		else if ($chap != $last_chap) {
 			for($x = 1 + (int)$last_chap; $x < (int)$chap; $x++) {
 				AION_ECHO("WARN! $error Skipping TOC {$verse['INDEX']}-{$verse['BOOK']}-".sprintf('%03d',$x));
@@ -310,7 +311,7 @@ EOF;
 			$G_PWA->bible_map .= "'{$book_index}-{$chaN}':{$pageindex},"; // map
 			$pageindex++;
 		}
-		// aionian
+		// aionian verse array
 		if (false===array_search($pageindex-1, $aions) && preg_match('#\((questioned|[^()]+[gGhH]{1}[[:digit:]]+|note:[^()]+)\)#ui', $verse['TEXT'])) {
 			$aions[] = $pageindex-1;
 		}
@@ -319,6 +320,7 @@ EOF;
 		$last_book = $book;
 		$last_chap = $chap;
 	}
+	// end of bible map
 	$G_PWA->bible_map .= <<<EOF
 
 'Appendix'	:	{$pageindex} +  0,
@@ -339,12 +341,10 @@ EOF;
 
 EOF;
 	$G_PWA->bible_menu = trim($G_PWA->bible_menu," ,");
-	$G_LINKS = AION_PWA_LINKS($links);
-	$aions_flip = array_flip($aions);
-	//error_log(print_r($aions,TRUE));
-	//error_log(print_r($aions_flip,TRUE));
+	$G_LINKS = AION_PWA_LINKS($links); // links need to see if verse reference exists
+	$aions_flip = array_flip($aions); // slick means to easily determine the previous and next aionian verse page number
 	
-	// CREATE chapter files
+	// CHAPTERS
 	$last_indx = $last_book = $last_chap = $contents = NULL;
 	$yes_ot = $yes_nt = FALSE;
 	$gotticks = TRUE;
@@ -356,10 +356,11 @@ EOF;
 		$chaN = (int)$chap;
 		$vers = $verse['VERSE'];
 		$verN = (int)$vers;
+		// warn if ticks replaced
 		$text = preg_replace("#`#ui", "\`", $verse['TEXT'], -1, $ticks);
 		if ($gotticks && $ticks) { $gotticks = FALSE; AION_ECHO("WARN! $error backticks escaped in text"); }
 		
-		// Annotations
+		// hyperlink aannotations, use slick aions_flip to determine next and previous page
 		$pn = $G_PWA->bible_numb+5;
 		$prev = (!isset($aions_flip[$pn]) || !isset($aions[$aions_flip[$pn]-1]) || !($pf=$aions[$aions_flip[$pn]-1]) ? "(" : "<a href='?{$pf}' onclick='ABDO({$pf});return false;' title='View previous annotation'>&lt;</a>");
 		$next = (!isset($aions_flip[$pn]) || !isset($aions[$aions_flip[$pn]+1]) || !($pf=$aions[$aions_flip[$pn]+1]) ? ")" : "<a href='?{$pf}' onclick='ABDO({$pf});return false;' title='View next annotation'>&gt;</a>");
@@ -378,7 +379,7 @@ EOF;
 		if (!($text = preg_replace('# g5020([^0-9]{1})#ui',	' <a href="?Glossary#g5020" onclick="ABDO(\'Glossary\',\'g5020\');return false;"	title=\'View definition\'>g5020</a>$1',	$text))) { AION_ECHO("ERROR! $error preg_replace(g5020)"); }
 		if ($mark != $text) {	$text = "<span $cssavh>".$text."</span>"; }
 		else {					$text = "<span $csstex>".$text."</span>"; }
-		// OT INTRO
+		// OT INTRO, before first chapter
 		if (!$yes_ot && $book != $last_book && (int)$indx<40) {
 			$yes_ot = TRUE;
 			$G_PWA->bible_text .= <<< EOF
@@ -435,7 +436,7 @@ EOF;
 			$G_PWA->bible_numb++;
 			$contents = NULL;
 		}
-		// NT INTRO
+		// NT INTRO after last OT chapter
 		if (!$yes_nt && $book != $last_book && (int)$indx>39) {
 				$yes_nt = TRUE;
 				$G_PWA->bible_text .= <<< EOF
@@ -452,7 +453,7 @@ EOF;
 EOF;
 			$G_PWA->bible_numb++;
 		}
-		// VERSE
+		// VERSE - build the chapter verse by verse
 		$verF = $args['database']['T_NUMBERS'][$bible][$verN];
 		$verF = ($verF == $verN ? "" : "<span $cssnum> $verF </span>");
 		if ($cssdir) {	$contents .= "<table class='rtl-tab'><tr><td>$text</td><td class='rtl-ref'>$verF<span class='num'> $verN</span></td></tr></table>\n"; }
@@ -742,6 +743,7 @@ a:hover { color: #9966CC; }
 
 /* THINGS */
 .title { text-align: center; }
+.title2 { font-size: 125%; font-weight: bold; }
 .chapnav { margin-bottom: 7px; }
 .chapnav a { margin-left: 2px; display: inline-block; }
 .map { text-align: center; margin: auto; }
@@ -784,7 +786,7 @@ a:hover { color: #9966CC; }
 
 /* BODY */
 #body {	max-width: 1024px; margin: 0 auto; padding: 80px 3% 40px 3%; }
-#body h1, #body h2, #body h3 { text-align: center; }
+#body h1, #body h2 { text-align: center; }
 body.word-toc  #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3%; }
 body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3%; }
 
@@ -1017,9 +1019,9 @@ const AB_Bible = [
 {$G_FORPRINT['W_TOC']}
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
 </h2>
-<b>{$G_VERSIONS['NAMEENGLISH']}</b><br>
-<a title="AionianBible.org online"		href="https://www.AionianBible.org" target="_blank">AionianBible.org for all Bibles</a><br>
-<a title='Internet connection required'	href='#' onclick="AionianBible_reload();return false;">Update PWA from source</a><br>
+<span class='title2'>{$G_VERSIONS['NAMEENGLISH']}</span><br>
+&nbsp;&nbsp;&nbsp;<a title="AionianBible.org online"		href="https://www.AionianBible.org" target="_blank">AionianBible.org for all Bibles</a><br>
+&nbsp;&nbsp;&nbsp;<a title='Internet connection required'	href='#' onclick="AionianBible_reload();return false;">Update PWA from source</a><br>
 <a title="Copyright"					href="?Copyright"	onclick="ABDO('Copyright');	return false;">Copyright</a><br>
 <a title="Preface"						href="?Preface"		onclick="ABDO('Preface');	return false;">{$G_FORPRINT['W_PREF']}</a><br>
 <a title="Aiōnios and Aïdios"			href="?Aionian"		onclick="ABDO('Aionian');	return false;">Aiōnios and Aïdios</a>
