@@ -17,6 +17,7 @@ https://www.pcmag.com/how-to/how-to-use-progressive-web-apps
 
 */
 
+
 // Path
 $_Path = trim(strtok($_SERVER['REQUEST_URI'],'?'),'/');
 
@@ -25,20 +26,32 @@ $_Path = trim(strtok($_SERVER['REQUEST_URI'],'?'),'/');
 // results in a smaller tidier complete package in GitHub
 if (preg_match("#(Holy-Bible---(.+)---(.+))\.(webmanifest|192\.png|512\.png)$#", $_Path, $match) &&
 	file_exists(($file=($match[1].".htm")))) {
-	// parse the filename for information
+	// parse file name
 	$lang = preg_replace("#-#ui"," ", $match[2]);
-	$name = preg_replace("#-#ui"," ", $match[3]);
+	$bnam = preg_replace("#-#ui"," ", $match[3]);
 	$type = $match[4];
-	$loop = 0;
+	// parse file contents
+	$name = "Aionian Bible: {$bnam}";
+	$abbr = "AB";
+	if ($handle = fopen($file, 'r')) {
+		while ((++$loop)<50 && ($line = fgets($handle))) {
+			if (preg_match("#<title>(\s*.*[^[:alnum:]]+([[:alnum:]]+))\s*</title>#iu", $line, $match2)) {
+				$name = $match2[1];
+				$abbr = $match2[2];
+				break;
+			}
+		}
+	}
+	fclose($handle);
 	// dynamic image
 	if ($type=='192.png' || $type=='512.png') {
 		$size = (int)preg_replace("#.png#ui","", $type);
-		$font = ($size==192 ? 100:200);
-		$posi = ($size==192 ? 170:480);
+		$font = ($size==192 ?  70:200);
+		$posi = ($size==192 ? 175:480);
 		$IMG = imagecreate($size, $size);
 		$background = imagecolorallocate($IMG, 102,51, 153);
 		$text_color = imagecolorallocate($IMG, 255,255,255); 
-		imagettftext($IMG, $font, 0, 20, $posi, $text_color, './fonts/anton-regular.ttf', $shor);
+		imagettftext($IMG, $font, 0, 10, $posi, $text_color, './fonts/anton-regular.ttf', $abbr);
 		header( "Content-type: image/png" );
 		imagepng($IMG);
 		imagecolordeallocate($IMG, $text_color);
@@ -48,18 +61,7 @@ if (preg_match("#(Holy-Bible---(.+)---(.+))\.(webmanifest|192\.png|512\.png)$#",
 	// dynamic webmanifest
 	else if ($type=='webmanifest') {
 		// parse file contents
-		$desc = "Aionian Bible: {$name}, Progressive Web Application";
-		$shor = "AB";
-		if ($handle = fopen($file, 'r')) {
-			while ((++$loop)<20 && ($line = fgets($handle))) {
-				if (preg_match("#<title>(\s*.*[^[:alnum:]]+([[:alnum:]]+))\s*</title>#iu", $line, $match2)) {
-					$desc = $match2[1];
-					$shor = $match2[2];
-					break;
-				}
-			}
-		}
-		fclose($handle);
+
 		$id = date("YmdHis", filemtime($file));
 		header('Content-Type: application/manifest+json;');
 		echo <<<EOL
@@ -67,11 +69,12 @@ if (preg_match("#(Holy-Bible---(.+)---(.+))\.(webmanifest|192\.png|512\.png)$#",
 "id"			: "{$id}",
 "dir"			: "ltr",
 "lang"			: "en",
-"name"			: "Aionian Bible PWA ~ {$match[1]}",
-"short_name"	: "Aionian Bible PWA",
-"description"	: "Aionian Bible PWA ~ {$match[1]} Progressive Web Application",
+"name"			: "{$name}",
+"short_name"	: "{$abbr}",
+"description"	: "{$name} - Progressive Web Application",
 "start_url"		: "{$match[1]}.htm",
 "display"		: "browser",
+"prefer_related_applications"	: false,
 "icons"			: [
 	{
 	"src"	: "{$match[1]}-192.png",

@@ -1201,9 +1201,13 @@ $G_COMMENT
 
 <p>The Aionian Bible republishes public domain and Creative Common Bible texts that are 100% free to copy and print. All versions are available online at <a href='https://www.Aionianbible.org/Read' target='_blank' title='The worlds first Holy Bible untranslation'>AionianBible.org</a> in web page, ePub, text, and PDF format.  Also read online with the  <a href='https://www.Aionianbible.org/Google-Play' target='_blank' title='Aionian Bible free online at Google Play'>Android</a>  and  <a href='https://www.Aionianbible.org/Apple-iOS-App' target='_blank' title='Apple iOS App'>Apple iOS App</a>.  Buy print Bibles at <a href='https://www.Aionianbible.org/Buy' target='_blank' title='Holy Bible Aionian Edition at Amazon.com and Lulu.com'>Amazon.com and Lulu.com</a>.<br /><br /></p>
 
+<p><b>11/24/24</b> Progressive Web Application <a href='https://pwa.aionianbible.org/' target='_blank' title='PWA format'>off-line format</a>.<br /></p>
+
+<p><b>10/20/24</b> Gospel Primer handout <a href='https://www.aionianbible.org/Buy' target='_blank' title='Buy at Amazon and Lulu'>print format</a>.<br /></p>
+
 <p><b>08/18/24</b> <a href='https://creativecommons.org/licenses/by/4.0/' target='_blank' title='Copyright license'>Creative Commons Attribution 4.0 International</a>, if source allows.<br /></p>
 
-<p><b>08/05/24</b> 377 translations now available in 166 languages.<br /></p>
+<p><b>08/05/24</b> 376 translations now available in 165 languages.<br /></p>
 
 <p><b>05/02/24</b> 370 translations now available in 164 languages.<br /></p>
 
@@ -1245,7 +1249,7 @@ $G_COMMENT
 
 <p><b>05/25/20</b> Illustrations by Gustave Doré, <a href='https://resources.aionianbible.org/Gustave-Dore-La-Grande-Bible-de-Tours/' title='Gustave Dorés La Grande Bible de Tours' target='_blank'>La Grande Bible de Tours</a>, (Felix Just, S.J., <a href='https://catholic-resources.org/Art/Dore.htm' title='Catholic Resources' target='_blank'>Catholic-Resources.org/Art/Dore.htm</a>).<br /></p>
 
-<p><b>02/22/20</b> Aionian Bibles available in print at <a href='https://www.Aionianbible.org/Lulu' target='_blank' title='Aionian Bibles in print at Lulu.com'>Lulu.com</a>.<br /></p>
+<p><b>02/22/20</b> Aionian Bibles <a href='https://www.aionianbible.org/Buy' target='_blank' title='in print at Amazon and Lulu'>available in print</a> at <a href='https://www.Aionianbible.org/Lulu' target='_blank' title='Aionian Bibles in print at Lulu.com'>Lulu.com</a>.<br /></p>
 
 <p><b>10/31/19</b> 174 translations now available in 74 languages.<br /></p>
 
@@ -1257,7 +1261,7 @@ $G_COMMENT
 
 <p><b>10/20/18</b> 70 translations now available in 33 languages.<br /></p>
 
-<p><b>03/06/18</b> Aionian Bibles available in print at <a href='https://www.Aionianbible.org/Amazon' target='_blank' title='Aionian Bibles in print at Amazon.com'>Amazon.com</a>.<br /></p>
+<p><b>03/06/18</b> Aionian Bibles <a href='https://www.aionianbible.org/Buy' target='_blank' title='in print at Amazon and Lulu'>available in print</a> at <a href='https://www.Aionianbible.org/Amazon' target='_blank' title='Aionian Bibles in print at Amazon.com'>Amazon.com</a>.<br /></p>
 
 <p><b>02/01/18</b> <i>Holy Bible Aionian Edition®</i>  trademark registered.<br /></p>
 

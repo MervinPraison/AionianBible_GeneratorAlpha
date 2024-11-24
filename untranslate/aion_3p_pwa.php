@@ -63,7 +63,7 @@ function AION_LOOP_PWA($source, $destiny) {
 		'function'		=> 'AION_LOOP_PWA_DOIT',
 		'source'		=> $source,
 		//'include'		=> "/Holy-Bible---.*(Albanian).*---Aionian-Edition\.noia$/",
-		//'include'		=> "/Holy-Bible---.*(Amo|Aionian-Bible|Traditional|Sencillo|Modern).*---Aionian-Edition\.noia$/",
+		//'include'		=> "/Holy-Bible---.*(Amo|Aionian-Bible|Traditional|Sencillo|Masoretic).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.+(Basic).+---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.*(Azerb|Gaelic|Somali).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.*(STEPBible).*---Aionian-Edition\.noia$/",
@@ -291,6 +291,7 @@ EOF;
 			if (!$yes_nt && (int)$indx>39) {
 				$yes_nt = TRUE;
 				$G_PWA->bible_menu = trim($G_PWA->bible_menu," ,");
+				if ($yes_ot) { $G_PWA->bible_menu .= "<br>"; }
 				$G_PWA->bible_menu .= "<br><b><a title='New Testament' href='?New' onclick=\"ABDO('New');return false;\">{$G_FORPRINT['W_NEW']}</a></b><br>";
 				$G_PWA->bible_map .= "'New':{$pageindex},"; // map
 				$pageindex++;
@@ -670,23 +671,20 @@ return <<< EOF
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Holy Bible Aionian Edition® ~ {$G_VERSIONS['NAMEENGLISH']}</title>
-
-
-
-
-
-<!--////////////////////////////////////////////////////////////////////////////////////////////////////-->
-<meta name="description" content="Holy Bible Aionian Edition® ~ {$G_VERSIONS['NAMEENGLISH']} ~ The world's first Holy Bible untranslation! ~ Progressive Web Application PWA">
+<title>Holy Bible Aionian Edition® ~ {$G_VERSIONS['NAMEENGLISH']} ~ {$G_VERSIONS['SHORT']}</title>
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+<meta name="application-name" content="Holy Bible Aionian Edition® ~ {$G_VERSIONS['NAMEENGLISH']} ~ The world's first Holy Bible untranslation! ~ Progressive Web Application PWA">
+<meta name="description" content="Holy Bible Aionian Edition® ~ {$G_VERSIONS['NAMEENGLISH']} ~ The world's first Holy Bible untranslation! ~ Progressive Web Application PWA">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="generator" content="ABCMS™">
+<meta name="version" content="{$G_PWA->modified}">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <link rel="shortcut icon" href="https://www.AionianBible.org/images/favicon.ico" type="image/x-icon">
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.AionianBible.org/images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.AionianBible.org/images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="https://www.AionianBible.org/images/favicon-16x16.png">
 <link rel="manifest" href="{$G_PWA->bible}.webmanifest">
+
 
 
 
@@ -764,8 +762,14 @@ a:hover { color: #9966CC; }
 :target:before { content:""; display:block; height:110px; margin:-110px 0 0; } /* static header target adjustment */
 
 /* HOME */
-#j316 { padding: 10px 0; font-style: italic; font-size: 110%; font-weight: bold; width: 420px; margin: 0 auto; }
-#aion { padding: 0 0 15px 0; font-style: italic; font-size: 130%; font-weight: bold; }
+#home1 { margin: 0 auto; text-align: center; }
+#home1 a:hover #home2 { border: 1px solid #9966CC; border-radius: 7px;	background-color: #F0EBF5; }
+#home1 .black { color: #191919; }
+#home1 a { display: inline-block; }
+#home1 a:hover #aion { color: #663399; }
+#home2 { padding: 0 10px; }
+#j316 { padding: 10px 0; font-style: italic; font-size: 110%; font-weight: bold; width: 420px; margin: 0 auto; color: #191919; }
+#aion { padding: 0 0 15px 0; font-style: italic; font-size: 130%; font-weight: bold; color: #191919; }
 #moto { margin: 10px 0 0 0; color: #663399; }
 .RegisteredTM { font-size: 75%; }
 #java { text-align: center; color: red; }
@@ -945,14 +949,17 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 <div id='body' class=''>
 
 <div id='java'>( Javascript and cookies required )</div>
+<div id='home1'>
+<a title="Return to last page read or TOC" href="?Bookmark" onclick="ABDO('Bookmark'); return false;">
+<div id='home2'>
 <h2 class='title'>
-Progressive Web App <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a><br>
-<a title="Return to last page read or TOC" href="?Bookmark" onclick="ABDO('Bookmark'); return false;">{$G_PWA->bible_title}</a><br>
-Welcome to the <i>Holy&nbsp;Bible&nbsp;Aionian&nbsp;Edition<span class='RegisteredTM'>®</span></i></h2>
-<div class='center'>
+<span class='black'>Progressive Web Application</span><br>
+{$G_PWA->bible_title}<br>
+<span class='black'>Welcome to the <i>Holy&nbsp;Bible&nbsp;Aionian&nbsp;Edition<span class='RegisteredTM'>®</span></i></span>
+</h2>
 {$G_FORPRINT['JOH3_16']}
 <div id='moto'>
-One of the world's first Holy Bible <u><a title="Return to last page read or TOC" href="?Bookmark" onclick="ABDO('Bookmark'); return false;">untranslations</a></u><br>
+One of the world's first Holy Bible <u>untranslations</u><br>
 One of three hundred seventy-six versions<br>
 One of one hundred sixty-five languages<br>
 Anonymous on TOR network<br>
@@ -962,12 +969,14 @@ Updated {$G_PWA->modified}<br>
 Also known as 'The Purple Bible'
 </div>
 </div>
+</a>
+</div>
 
 </div>
 <div id='sticky-push'></div>
 </div>
 <div id='sticky-foot'> 
-<div id='tail'><a title="Table of Contents" href="?TOC" onclick="ABDO('TOC'); return false;">{$G_VERSIONS['NAMEENGLISH']}</a> ~ <a href='https://www.AionianBible.org' title='AionianBible.org' target='_blank'>AionianBible.org for all Bibles</a></div>
+<div id='tail'><a title="Table of Contents" href="?TOC" onclick="ABDO('TOC'); return false;">{$G_VERSIONS['NAMEENGLISH']}</a> ~ <a href='https://www.AionianBible.org/Read' title='AionianBible.org' target='_blank'>AionianBible.org for all Bibles</a></div>
 </div>
 </div>
 
@@ -1017,11 +1026,11 @@ const AB_Bible = [
 <h2 class='title'>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
 {$G_FORPRINT['W_TOC']}
-<a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
+<a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a><br>
+<a title="Return to last page read or TOC" href="?Bookmark" onclick="ABDO('Bookmark'); return false;">{$G_PWA->bible_title}</a>
 </h2>
-<span class='title2'>{$G_VERSIONS['NAMEENGLISH']}</span><br>
-&nbsp;&nbsp;&nbsp;<a title="AionianBible.org online"		href="https://www.AionianBible.org" target="_blank">AionianBible.org for all Bibles</a><br>
-&nbsp;&nbsp;&nbsp;<a title='Internet connection required'	href='#' onclick="AionianBible_reload();return false;">Update PWA from source</a><br>
+<a title="AionianBible.org online"		href="https://www.AionianBible.org/Read" target="_blank">AionianBible.org for all Bibles</a><br>
+<a title='Internet connection required'	href='?TOC' onclick="AionianBible_reload();return false;">Update PWA from source</a><br>
 <a title="Copyright"					href="?Copyright"	onclick="ABDO('Copyright');	return false;">Copyright</a><br>
 <a title="Preface"						href="?Preface"		onclick="ABDO('Preface');	return false;">{$G_FORPRINT['W_PREF']}</a><br>
 <a title="Aiōnios and Aïdios"			href="?Aionian"		onclick="ABDO('Aionian');	return false;">Aiōnios and Aïdios</a>
@@ -1044,8 +1053,8 @@ const AB_Bible = [
 <a title="Paul's Missionary Journeys"	href="?Paul"		onclick="ABDO('Paul');		return false;">Paul's Missionary Journeys</a><br>
 <a title="World Nations"				href="?World"		onclick="ABDO('World');		return false;">World Nations</a><br>
 <br>
-Swipe right and left to page.<br>
-{$G_FORPRINT['W_ILUS']}.
+<a href='https://resources.aionianbible.org/Gustave-Dore-La-Grande-Bible-de-Tours/' target='_blank' title='La Grande Bible de Tours by Gustave Doré'>{$G_FORPRINT['W_ILUS']}</a>.<br>
+Swipe right and left to page.
 `,
 
 
@@ -1058,14 +1067,13 @@ Swipe right and left to page.<br>
 <h2 class='title'>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
 Copyright
-<a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-<br>
-{$G_PWA->bible_title}
+<a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a><br>
+<a title="Return to last page read or TOC" href="?Bookmark" onclick="ABDO('Bookmark'); return false;">{$G_PWA->bible_title}</a>
 </h2>
 Publisher: Nainoia Inc<br>
 Copyright: <a href='https://creativecommons.org/licenses/by/4.0/' target='_blank'>Creative Commons Attribution 4.0 International, 2018-2024</a><br>
 Language: {$G_PWA->bible_lang}<br>
-Formatted: ABCMS Progressive Web Application on {$G_PWA->modified}<br>
+Formatted: ABCMS <a href='https://en.wikipedia.org/wiki/Progressive_web_app' target='_blank' title='Web pages designed for off-line viewing'>Progressive Web Application</a> on {$G_PWA->modified}<br>
 Formats:
 <a href='https://www.AionianBible.org/Bibles/{$G_PWA->bible_basic}' target='_blank' title='Read online'>Online</a>,
 <a href='https://www.AionianBible.org/TOR/Bibles/{$G_PWA->bible_basic}' target='_blank' title='Read TOR anonymously'>TOR Anonymously</a>,
@@ -1081,7 +1089,8 @@ Source copyright: {$G_VERSIONS['COPYRIGHT']}<br>
 Source version: {$G_VERSIONS['SOURCEVERSION']}<br>
 Source text: <a href='{$G_VERSIONS['SOURCELINK']}' target='_blank' title='Download Source File'>{$G_VERSIONS['SOURCELINK']}</a><br>
 <br>
-We pray for a modern public domain translation in every language. Report concerns to <a href='https://nainoia-inc.signedon.net/' target='_blank' title='Publisher of the Holy Bible Aionian Edition'>Nainoia Inc</a>. Volunteer help appreciated!<br>
+We pray for a modern public domain translation in every language.<br>
+Report concerns to <a href='https://nainoia-inc.signedon.net/' target='_blank' title='Publisher of the Holy Bible Aionian Edition'>Nainoia Inc</a>. Volunteer help appreciated!<br>
 <br>
 Celebrate Jesus Christ’s victory of grace!<br>
 `,
@@ -1099,7 +1108,7 @@ Celebrate Jesus Christ’s victory of grace!<br>
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
 </h2>
 
-<p>This a Progressive Web App (PWA) format of one <i class='notranslate'>Holy Bible Aionian Edition®</i>. PWAs are special webpages designed to install an App icon and be available offline on a smart device if an Internet connection is not available. Visit <a href='https://www.AionianBible.org/Read' target='_blank' title='Select from all AionianBible.org translations'>AionianBible.org</a> for all Bibles. <a title='Internet connection required' href='#' onclick="AionianBible_reload();return false;">Update this PWA from the source.</a></p>
+<p>This a Progressive Web App (PWA) format of one <i class='notranslate'>Holy Bible Aionian Edition®</i>. PWAs are special webpages designed to install an App icon and be available offline on a smart device if an Internet connection is not available. Visit <a href='https://www.AionianBible.org/Read' target='_blank' title='Select from all AionianBible.org translations'>AionianBible.org</a> for all Bibles.</p>
 
 <p>The  <i class='notranslate'>Holy Bible Aionian Edition®</i>  is the world’s first Bible <i>un-translation</i>!  What is an  <i>un-translation</i>?  Bibles are translated into each of our languages from the original Hebrew, Aramaic, and Koine Greek.  Occasionally, the best word translation cannot be found and these words are transliterated letter by letter.  Four well known transliterations are  <i>Christ</i>,  <i>baptism</i>,  <i>angel</i>, and  <i>apostle</i>.  The meaning is then preserved more accurately through context and a dictionary.  The  <span class='notranslate'>Aionian</span>  Bible un-translates and instead transliterates eleven additional <a href="?Glossary" title="Aionian glossary" onclick="ABDO('Glossary');return false;"><span class='notranslate'>Aionian</span> Glossary</a> words to help us better understand God’s love for individuals and all mankind, and the nature of afterlife destinies.</p>
 
@@ -1203,9 +1212,13 @@ The <span class='notranslate'>Aionian</span>  Bible republishes public domain an
 All versions are available online at <a href='https://www.AionianBible.org/Read' target='_blank' title='The worlds first Holy Bible untranslation'>AionianBible.org</a> in web page, ePub, text, and PDF format.  Also read online with the  <a href='https://www.AionianBible.org/Google-Play' target='_blank' title='Aionian Bible free online at Google Play'><span class='notranslate'>Android</span></a>  and  <a href='https://www.AionianBible.org/Apple-iOS-App' target='_blank' title='Apple iOS App'><span class='notranslate'>Apple iOS App</span></a>.  Buy print Bibles at <a href='https://www.AionianBible.org/Buy' target='_blank' title='Holy Bible Aionian Edition at Amazon.com and Lulu.com'><span class='notranslate'>Amazon.com and Lulu.com</span></a>.<br>
 <br>
 </p><p>
+<b>11/24/24</b>&nbsp;&nbsp;Progressive Web Application <a href='https://pwa.aionianbible.org/' target='_blank' title='PWA format'>off-line format</a>.<br>
+</p><p>
+<b>10/20/24</b>&nbsp;&nbsp;Gospel Primer handout <a href='https://www.aionianbible.org/Buy' target='_blank' title='Buy at Amazon and Lulu'>print format</a>.<br>
+</p><p>
 <b>08/18/24</b>&nbsp;&nbsp;<a href='https://creativecommons.org/licenses/by/4.0/' target='_blank' title='Copyright license'>Creative Commons Attribution 4.0 International</a>, if source allows.<br>
 </p><p>
-<b>08/05/24</b>&nbsp;&nbsp;377 translations now available in 166 languages.<br>
+<b>08/05/24</b>&nbsp;&nbsp;376 translations now available in 165 languages.<br>
 </p><p>
 <b>05/01/24</b>&nbsp;&nbsp;370 translations now available in 164 languages.<br>
 </p><p>
@@ -1242,7 +1255,7 @@ All versions are available online at <a href='https://www.AionianBible.org/Read'
 </p><p>
 <b>05/25/20</b>&nbsp;&nbsp;Illustrations by Gustave Doré, <a href='https://resources.aionianbible.org/Gustave-Dore-La-Grande-Bible-de-Tours/' title='Gustave Dorés La Grande Bible de Tours' target='_blank'>La Grande Bible de Tours</a>, (Felix Just, S.J., <a href='https://catholic-resources.org/Art/Dore.htm' title='Catholic Resources' target='_blank'>Catholic-Resources.org/Art/Dore.htm</a>).<br>
 </p><p>
-<b>02/22/20</b>&nbsp;&nbsp;Aionian Bibles available in print at <a href='https://www.AionianBible.org/Lulu' target='_blank' title='Aionian Bibles in print at Lulu.com'>Lulu.com</a>.<br>
+<b>02/22/20</b>&nbsp;&nbsp;Aionian Bibles <a href='https://www.aionianbible.org/Buy' target='_blank' title='in print at Amazon and Lulu'>available in print</a> at <a href='https://www.AionianBible.org/Lulu' target='_blank' title='Aionian Bibles in print at Lulu.com'>Lulu.com</a>.<br>
 </p><p>
 <b>10/31/19</b>&nbsp;&nbsp;174 translations now available in 74 languages.<br>
 </p><p>
@@ -1254,7 +1267,7 @@ All versions are available online at <a href='https://www.AionianBible.org/Read'
 </p><p>
 <b>10/20/18</b>&nbsp;&nbsp;70 translations now available in 33 languages.<br>
 </p><p>
-<b>03/06/18</b>&nbsp;&nbsp;Aionian Bibles available in print at <a href='https://www.AionianBible.org/Amazon' target='_blank' title='Aionian Bibles in print at Amazon.com'>Amazon.com</a>.<br>
+<b>03/06/18</b>&nbsp;&nbsp;Aionian Bibles <a href='https://www.aionianbible.org/Buy' target='_blank' title='in print at Amazon and Lulu'>available in print</a> at <a href='https://www.AionianBible.org/Amazon' target='_blank' title='Aionian Bibles in print at Amazon.com'>Amazon.com</a>.<br>
 </p><p>
 <b>02/01/18</b>&nbsp;&nbsp;<i class='notranslate'>Holy Bible Aionian Edition®</i>  trademark registered.<br>
 </p><p>
@@ -1573,7 +1586,7 @@ function ABDO(goto, anchor=null, push=true) {
 
 	// page assign, bookmark, load
 	AB_Page = gonu;
-	if (AB_Page > 0 && AB_Bookmark != goto) {
+	if (AB_Page > 2 && AB_Bookmark != goto) {
 		AB_Bookmark = goto;
 		AionianBible_writeCookie("AionianBible.Bookmark", AB_Bookmark);
 	}
@@ -1604,8 +1617,16 @@ function ABDO(goto, anchor=null, push=true) {
 function AionianBible_reload() {
 	const myRequest = new Request(window.location.href);
 	fetch(myRequest,{cache: 'reload'}).then((response) => {
-		if (response.status == 200) {	alert('PWA updated from source'); location.reload(); }
-		else {							alert('PWA source not available'); }
+		if (response.status == 200) {
+			const headers = response.headers;
+			var modified = '';
+			if (headers) { modified = ' dated: ' + headers.get('last-modified'); }
+			alert('Updated PWA from source' + modified);
+			location.reload();
+		}
+		else {
+			alert('PWA source not available');
+		}
 	}).catch(err => {
 		alert('PWA source not available');
 	});
