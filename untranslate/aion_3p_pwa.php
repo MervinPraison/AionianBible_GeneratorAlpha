@@ -106,6 +106,7 @@ function AION_LOOP_PWA_DOIT($args) {
 	$G_PWA->bible_numb	= 0;
 
 	// SOURCE
+	if (!empty($G_VERSIONS['DOWNLOAD'])) { AION_ECHO("WARN! $error skipping no download requested"); return; }
 	$base = $args['source'].'/'.$bible;
 	$sour = (
 		(is_file($base.'---Source-Edition.STEP.txt')	? '---Source-Edition.STEP.txt' :
