@@ -101,12 +101,12 @@ function AION_LOOP_PWA_DOIT($args) {
 	$G_BOOKS	= $args['database'][T_BOOKS][$bible];
 	$G_NUMBERS	= $args['database'][T_NUMBERS][$bible];
 	$G_VERSIONS	= $args['database'][T_VERSIONS][$bible];
+	if ($G_VERSIONS['DOWNLOAD']=='N') { AION_ECHO("WARN! $error DOWNLOAD=N"); return; }
 	$G_FORPRINT	= $args['database'][T_FORPRINT][$bible];
 	$G_PWA->bible_text	= NULL;
 	$G_PWA->bible_numb	= 0;
 
 	// SOURCE
-	if (!empty($G_VERSIONS['DOWNLOAD'])) { AION_ECHO("WARN! $error skipping no download requested"); return; }
 	$base = $args['source'].'/'.$bible;
 	$sour = (
 		(is_file($base.'---Source-Edition.STEP.txt')	? '---Source-Edition.STEP.txt' :

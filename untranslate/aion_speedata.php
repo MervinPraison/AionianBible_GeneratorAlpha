@@ -275,9 +275,10 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 	if (empty($args['database'][T_BOOKS][$bible])) {			AION_ECHO("ERROR! Failed to find BOOK[bible] = $bible"); }
 	if (($x=count($args['database'][T_BOOKS][$bible]))!=67) {	AION_ECHO("ERROR! Count(args[T_BOOKS][BIBLE])!=67: $x"); }
 
-	// SKIP
+	// SKIPS
+	$versions = $args['database']['T_VERSIONS'][$bible];
+	if ($versions['DOWNLOAD']=='N') { AION_ECHO("WARN! $bible DOWNLOAD=N"); return; }
 	$forprint = $args['database']['T_FORPRINT'][$bible];
-	//if ($forprint['YESJOHN']!="TRUE") { return; } // JOHNNY TEST TEST TEST TEST
 	if ($forprint['NOPDO']=="TRUE") {
 		if ($args['q_allall']) { $args['q_pdfon'] = TRUE; }
 		$args['q_pdfall'] = $args['q_pdfpo'] = $args['q_pdfnt'] = $args['q_pdflu'] = FALSE;
@@ -311,7 +312,6 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 		(!preg_match("/^(.*)\s+([^ ]+)\s+([^ ]+)$/", system("$speed2 --version 2>&1"), $match) || empty($match[2]) || empty($match[3]) ? "Speedata Publisher on $rundate" :
 		"Speedata Publisher $match[2] $match[3] on $rundate"));
 	$lua = "runtime = require('runtime')\nschema = '../AB-Speedata/share/schema/layoutschema-en.rng'\nok, msg = runtime.validate_relaxng('XMLTOVALIDATE',schema)\nif not ok then\nprint(msg)\nos.exit(-1)\nend";
-	$versions = $args['database']['T_VERSIONS'][$bible];
 	$default = $args['database']['T_FORPRINT']['DEFAULT'];
 	$forprint['ISBN'] = NULL;
 	$numarialfont = ($args['database']['T_NUMBERS'][$bible][1] === '1' ? TRUE : FALSE);

@@ -105,6 +105,7 @@ function AION_LOOP_EPUBY_DOIT($args) {
 	$G_BOOKS	= $args['database'][T_BOOKS][$bible];
 	$G_NUMBERS	= $args['database'][T_NUMBERS][$bible];
 	$G_VERSIONS	= $args['database'][T_VERSIONS][$bible];
+	if ($G_VERSIONS['DOWNLOAD']=='N') { AION_ECHO("WARN! $bible DOWNLOAD=N"); return; }
 	$G_FORPRINT	= $args['database'][T_FORPRINT][$bible];
 	$G_UUID		= $G_FORPRINT['UUID'];
 	$G_TITLE	= "Holy Bible Aionian Edition: ".$G_VERSIONS['NAMEENGLISH'];
