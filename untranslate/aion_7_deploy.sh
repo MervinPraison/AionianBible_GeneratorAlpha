@@ -87,9 +87,9 @@ if (!chmod("$BACK/library",0755)) {											AION_ECHO("ERROR! chmod failed: $B
 AION_LOOP_DIFF(	'../www-stage/library', 	'../www-production/library',	'../diff-www-stage-with-www-production-AFTER-DEPLOY',			'/\.php$/', '', 'stageresources','resources');
 AION_LOOP_DIFF(	'../www-stageresources', 	'../www-resources',				'../diff-www-stageresources-with-www-resources-AFTER-DEPLOY',	'',			'/(Aionian-Edition\.noia|Standard-Edition\.noia|Source-Edition\.epub)$/');
 
-/*** remove Turkish and licensed fonts ***/
+/*** remove Turkish ***/
 system('rm -rf ../www-resources/Holy-Bible---Turkish---Turkish-Bible---*' );
-system('rm -rf ../www-production-files/fonts/mmrtext*' );
+system('chmod 640 ../www-stageresources/Holy-Bible---Turkish---Turkish-Bible---*' );
 
 /*** done ***/
 AION_ECHO("DONE! DEPLOYMENT SUCCESS!!");

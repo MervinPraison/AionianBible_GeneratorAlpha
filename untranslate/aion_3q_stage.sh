@@ -20,6 +20,10 @@ AION_LOOP_CONV		(	'../www-stageresources',
 
 AION_LOOP_AION		(	'../www-stageresources',		'../www-stageresources',	'../www-stage/library');
 
+/*** remove Turkish ***/
+system('rm -rf ../www-resources/Holy-Bible---Turkish---Turkish-Bible---*' );
+system('chmod 640 ../www-stageresources/Holy-Bible---Turkish---Turkish-Bible---*' );
+
 /*** done ***/
 AION_ECHO("REMINDER! COPY TO DATABASE: ../checks/UNTRANSLATEREVERSE.txt");
 AION_ECHO("REMINDER! COPY TO DATABASE: ../checks/SKIPPED.txt");

@@ -18,21 +18,29 @@ https://www.pcmag.com/how-to/how-to-use-progressive-web-apps
 */
 
 
+// Query string not allowed
+if (!empty($_SERVER['QUERY_STRING'])) {
+		header('HTTP/1.0 404 Not Found');
+}
+
 // Path
-$_Path = trim(strtok($_SERVER['REQUEST_URI'],'?'),'/');
+$_Path = trim(strtok($_SERVER['REQUEST_URI'],'?'),'/\?');
+$_Full = trim(filter_var((empty($_SERVER['HTTPS']) ? 'http://' : 'https://')."{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}", FILTER_SANITIZE_URL),'/\?');
 
 // PWA dynamic png -OR- webmanifest
 // Could be generated like the htm file, but dynamic easier while drafting and
 // results in a smaller tidier complete package in GitHub
-if (preg_match("#(Holy-Bible---(.+)---(.+))\.(webmanifest|192\.png|512\.png)$#", $_Path, $match) &&
-	file_exists(($file=($match[1].".htm")))) {
+if (preg_match("#^(.+)/(Holy-Bible---(.+)---(.+))\.(webmanifest|([0-9]+)\.png)$#", $_Full, $match) &&
+	file_exists(($file=($match[2].'.htm')))) {
 	// parse file name
-	$lang = preg_replace("#-#ui"," ", $match[2]);
-	$bnam = preg_replace("#-#ui"," ", $match[3]);
-	$type = $match[4];
+	$lang = preg_replace("#-#ui"," ", $match[3]);
+	$bnam = preg_replace("#-#ui"," ", $match[4]);
+	$type = $match[5];
+	$size = (empty($match[6]) ? 0 : (int)$match[6]);
 	// parse file contents
 	$name = "Aionian Bible: {$bnam}";
 	$abbr = "AB";
+	$loop = 0;
 	if ($handle = fopen($file, 'r')) {
 		while ((++$loop)<50 && ($line = fgets($handle))) {
 			if (preg_match("#<title>(\s*.*[^[:alnum:]]+([[:alnum:]]+))\s*</title>#iu", $line, $match2)) {
@@ -44,14 +52,14 @@ if (preg_match("#(Holy-Bible---(.+)---(.+))\.(webmanifest|192\.png|512\.png)$#",
 	}
 	fclose($handle);
 	// dynamic image
-	if ($type=='192.png' || $type=='512.png') {
-		$size = (int)preg_replace("#.png#ui","", $type);
-		$font = ($size==192 ?  70:200);
-		$posi = ($size==192 ? 175:480);
+	if ($size>=16 && $size<=2048) {
+		$font = (int)($size * 0.4);
+		$posx = (int)($size * 0.05);
+		$posy = (int)($size * 0.75);
 		$IMG = imagecreate($size, $size);
 		$background = imagecolorallocate($IMG, 102,51, 153);
 		$text_color = imagecolorallocate($IMG, 255,255,255); 
-		imagettftext($IMG, $font, 0, 10, $posi, $text_color, './fonts/anton-regular.ttf', $abbr);
+		imagettftext($IMG, $font, 0, $posx, $posy, $text_color, './fonts/anton-regular.ttf', $abbr);
 		header( "Content-type: image/png" );
 		imagepng($IMG);
 		imagecolordeallocate($IMG, $text_color);
@@ -60,9 +68,7 @@ if (preg_match("#(Holy-Bible---(.+)---(.+))\.(webmanifest|192\.png|512\.png)$#",
 	}
 	// dynamic webmanifest
 	else if ($type=='webmanifest') {
-		// parse file contents
-
-		$id = date("YmdHis", filemtime($file));
+		$id = date("YmdHis", filemtime($file)).'-'.fileinode($file);
 		header('Content-Type: application/manifest+json;');
 		echo <<<EOL
 {
@@ -72,17 +78,17 @@ if (preg_match("#(Holy-Bible---(.+)---(.+))\.(webmanifest|192\.png|512\.png)$#",
 "name"			: "{$name}",
 "short_name"	: "{$abbr}",
 "description"	: "{$name} - Progressive Web Application",
-"start_url"		: "{$match[1]}.htm",
+"start_url"		: "{$match[1]}/{$match[2]}.htm",
 "display"		: "browser",
 "prefer_related_applications"	: false,
 "icons"			: [
 	{
-	"src"	: "{$match[1]}-192.png",
+	"src"	: "{$match[1]}/{$match[2]}.192.png",
 	"type"	: "image/png",
 	"sizes"	: "192x192"
 	},
 	{
-	"src"	: "{$match[1]}-512.png",
+	"src"	: "{$match[1]}/{$match[2]}.512.png",
 	"type"	: "image/png",
 	"sizes"	: "512x512"
 	}
@@ -100,7 +106,7 @@ EOL;
 }
 
 // PWA List
-else if (empty($_Path) || preg_match("#{$_Path}\$#ui", dirname(__FILE__))) {
+else if (empty($_Path) || preg_match("#{$_Path}$#ui", dirname(__FILE__))) {
 	$year = date("Y");
 	echo <<< EOF
 <!DOCTYPE html>

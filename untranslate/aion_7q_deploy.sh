@@ -49,9 +49,9 @@ AION_INSTALL_INDEX(			'../www-production');
 AION_INSTALL_INDEX_UPDATED(	'../www-production/index.php');
 AION_SITEMAP(				'../www-production');
 
-/*** remove Turkish and licensed fonts ***/
+/*** remove Turkish ***/
 system('rm -rf ../www-resources/Holy-Bible---Turkish---Turkish-Bible---*' );
-system('rm -rf ../www-production-files/fonts/mmrtext*' );
+system('chmod 640 ../www-stageresources/Holy-Bible---Turkish---Turkish-Bible---*' );
 
 /*** done ***/
 AION_ECHO("DONE!");

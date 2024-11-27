@@ -42,6 +42,10 @@ AION_LOOP_DIFF		(	'../www-stageresources', 	'../www-resources',				'../diff-www-
 AION_LOOP_DIFF		(	'../raw-fixed', 			'../raw-original',				'../raw-diff');
 AION_LOOP_DIFF		(	'../raw-diff', 				'../raw-diff-MARKER',			'../raw-diff-diff');
 
+/*** remove Turkish ***/
+system('rm -rf ../www-resources/Holy-Bible---Turkish---Turkish-Bible---*' );
+system('chmod 640 ../www-stageresources/Holy-Bible---Turkish---Turkish-Bible---*' );
+
 /*** done ***/
 AION_ECHO("REMINDER! COPY TO DATABASE: ../checks/UNTRANSLATEREVERSE.txt");
 AION_ECHO("REMINDER! COPY TO DATABASE: ../checks/SKIPPED.txt");
