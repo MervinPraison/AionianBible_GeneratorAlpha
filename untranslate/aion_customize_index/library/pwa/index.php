@@ -53,9 +53,9 @@ if (preg_match("#^(.+)/(Holy-Bible---(.+)---(.+))\.(webmanifest|([0-9]+)\.png)$#
 	fclose($handle);
 	// dynamic image
 	if ($size>=16 && $size<=2048) {
-		$font = (int)($size * 0.4);
-		$posx = (int)($size * 0.05);
-		$posy = (int)($size * 0.75);
+		$font = (int)($size * 0.28);
+		$posx = (int)($size * 0.15);
+		$posy = (int)($size * 0.65);
 		$IMG = imagecreate($size, $size);
 		$background = imagecolorallocate($IMG, 102,51, 153);
 		$text_color = imagecolorallocate($IMG, 255,255,255); 
