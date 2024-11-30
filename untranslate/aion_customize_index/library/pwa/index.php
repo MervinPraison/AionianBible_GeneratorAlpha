@@ -30,7 +30,7 @@ $_Full = trim(filter_var((empty($_SERVER['HTTPS']) ? 'http://' : 'https://')."{$
 // PWA dynamic png -OR- webmanifest
 // Could be generated like the htm file, but dynamic easier while drafting and
 // results in a smaller tidier complete package in GitHub
-if (preg_match("#^(.+)/(Holy-Bible---(.+)---(.+))\.(webmanifest|([0-9]+)\.png)$#", $_Full, $match) &&
+if (preg_match("#^(.+)/(Holy-Bible---(.+)---(.+))\.(manifest|([0-9]+)\.png)$#", $_Full, $match) &&
 	file_exists(($file=($match[2].'.htm')))) {
 	// parse file name
 	$lang = preg_replace("#-#ui"," ", $match[3]);
@@ -67,31 +67,51 @@ if (preg_match("#^(.+)/(Holy-Bible---(.+)---(.+))\.(webmanifest|([0-9]+)\.png)$#
 		imagedestroy($IMG);
 	}
 	// dynamic webmanifest
-	else if ($type=='webmanifest') {
+	else if ($type=='manifest') {
 		$id = date("YmdHis", filemtime($file)).'-'.fileinode($file);
 		header('Content-Type: application/manifest+json;');
 		echo <<<EOL
 {
-"id"			: "{$id}",
-"dir"			: "ltr",
-"lang"			: "en",
-"name"			: "{$name}",
-"short_name"	: "{$abbr}",
-"description"	: "{$name} - Progressive Web Application",
-"start_url"		: "{$match[1]}/{$match[2]}.htm",
-"display"		: "browser",
+"id"				: "{$id}",
+"dir"				: "ltr",
+"lang"				: "en",
+"name"				: "{$name}",
+"short_name"		: "{$abbr}",
+"description"		: "{$name} Progressive Web Application",
+"start_url"			: "{$match[1]}/{$match[2]}.htm",
+"scope"				: ".",
+"background_color"	: "#663399",
+"theme_color"		: "#663399",
+"display"			: "minimal-ui",
+"orientation"		: "portrait",
 "prefer_related_applications"	: false,
 "icons"			: [
 	{
-	"src"	: "{$match[1]}/{$match[2]}.192.png",
+	"src"	: "{$match[2]}.192.png",
 	"type"	: "image/png",
 	"sizes"	: "192x192"
 	},
 	{
-	"src"	: "{$match[1]}/{$match[2]}.512.png",
+	"src"	: "{$match[2]}.512.png",
 	"type"	: "image/png",
 	"sizes"	: "512x512"
 	}
+],
+"screenshots": [
+  {
+    "src": "images/Aionian-Bible-PWA-Screenshot-Landscape.jpg",
+    "sizes": "1301x708",
+    "type": "image/jpg",
+    "form_factor": "wide",
+    "label": "Aionian Bible home screen wide format"
+  },
+  {
+    "src": "images/Aionian-Bible-PWA-Screenshot-Portrait.jpg",
+    "sizes": "502x770",
+    "type": "image/jpg",
+    "form_factor": "narrow",
+    "label": "Aionian Bible home screen narrow format"
+  }
 ]
 }
 EOL;

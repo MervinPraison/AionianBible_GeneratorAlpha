@@ -2213,8 +2213,8 @@ if (!$goodpage) { header('HTTP/1.0 404 Not Found'); $_meta = 'Page not found'; }
 <meta charset='utf-8'>
 <title>Holy Bible Aionian Edition®<?echo $_meta;?></title>
 <meta name='description' content="Holy Bible Aionian Edition® ~ The world's first Holy Bible untranslation!<?echo $_meta;?>">
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"/>
-<meta name='apple-mobile-web-app-capable' content='yes'>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta name='mobile-web-app-capable' content='yes'>
 <meta name="generator" content="ABCMS™">
 <meta http-equiv='x-ua-compatible' content='ie=edge'>
 <?

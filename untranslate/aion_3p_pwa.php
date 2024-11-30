@@ -2,45 +2,60 @@
 <?php
 
 
-
-
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // NOTES
 /*
+PROBLEMS
+	Seems like each Bible app will need its own folder for its own scope
+	Other wise can only install one app
+	May can accomplish with .htaccess slight of hand
+		https://developer.mozilla.org/en-US/docs/Web/Manifest/scope 
+		https://stackoverflow.com/questions/65366737/pwa-prompt-for-multiple-paths-of-same-domain 
+		https://web.dev/articles/building-multiple-pwas-on-the-same-domain 
 
-https://dev.to/mtee/caching-a-fetching-data-in-pwa-56ai
+	Service worker code for the precache installer must be inside the service worker
+	“loaded in via register” what does that mean?
+	Can I create a service work in the js in the main file?
+		https://stackoverflow.com/questions/59395753/service-workers-install-event-not-firing 
+		https://developer.mozilla.org/en-US/docs/Web/API/Cache/addAll 
+		https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerContainer/register 
+		https://pwa-workshop.js.org/2-service-worker/#service-workers 
 
-https://developer.mozilla.org/en-US/docs/Web/API/RequestInit
-https://developer.mozilla.org/en-US/docs/Web/API/Window/fetch
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expires
+	Precache absolute, relative, leading “/”???
+		https://stackoverflow.com/questions/76915595/clarification-needed-about-using-relative-file-paths-with-the-cache-api-compar 
+		https://stackoverflow.com/questions/46208326/for-serviceworker-cache-addall-how-do-the-urls-work/46213137 
 
-https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps
-https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Caching
-https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable
-https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames/App_structure 
+	Cache Strategies
+		https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Caching 
 
-https://medium.com/james-johnson/a-simple-progressive-web-app-tutorial-f9708e5f2605 
+DOCS
+	https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps
+	https://pwa-workshop.js.org
+	https://web.dev/progressive-web-apps/
+	https://www.freecodecamp.org/news/build-a-pwa-from-scratch-with-html-css-and-javascript/
+	
+	https://dev.to/mtee/caching-a-fetching-data-in-pwa-56ai
+	https://medium.com/james-johnson/a-simple-progressive-web-app-tutorial-f9708e5f2605 
+	https://stackoverflow.com/questions/15185199/navigating-to-previous-and-next-item-in-a-javascript-object
+	https://stackoverflow.com/questions/22631869/how-to-refresh-page-using-javascript-if-connected
+	https://stackoverflow.com/questions/24307401/window-history-pushstate-refreshing-the-browser
+	https://stackoverflow.com/questions/30019724/adding-browser-history-and-navigation-to-javascript-dom-page-change-function
+	https://stackoverflow.com/questions/3163615/how-to-scroll-an-html-page-to-a-given-anchor
+	https://stackoverflow.com/questions/4329092/multi-dimensional-associative-arrays-in-javascript
+	https://stackoverflow.com/questions/55534106/spa-should-servers-http-cache-be-turned-off-for-all-pwa-related-resources
+	https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript 
+	https://vinayak-hegde.medium.com/cache-control-meta-tag-pros-cons-and-faqs-b09aa150f5a4 
 
-https://stackoverflow.com/questions/15185199/navigating-to-previous-and-next-item-in-a-javascript-object
-https://stackoverflow.com/questions/22631869/how-to-refresh-page-using-javascript-if-connected
-https://stackoverflow.com/questions/24307401/window-history-pushstate-refreshing-the-browser
-https://stackoverflow.com/questions/30019724/adding-browser-history-and-navigation-to-javascript-dom-page-change-function
-https://stackoverflow.com/questions/3163615/how-to-scroll-an-html-page-to-a-given-anchor
-https://stackoverflow.com/questions/4329092/multi-dimensional-associative-arrays-in-javascript
-https://stackoverflow.com/questions/55534106/spa-should-servers-http-cache-be-turned-off-for-all-pwa-related-resources
-https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript 
+TESTING
+	https://www.validbot.com/tools/app-manifest-wizard.php
+	https://www.seoreviewtools.com/pwa-testing-tool/ 
+	https://pagespeed.web.dev/ 
+	https://www.workwithloop.com/blog/how-to-test-progressive-web-apps-pwas-effectively
+	https://www.browserstack.com/guide/how-to-test-pwa
 
-https://vinayak-hegde.medium.com/cache-control-meta-tag-pros-cons-and-faqs-b09aa150f5a4 
-
-https://web.dev/progressive-web-apps/
-
-https://www.freecodecamp.org/news/build-a-pwa-from-scratch-with-html-css-and-javascript/
-
-https://www.pcmag.com/how-to/how-to-use-progressive-web-apps 
-
-https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/
-
+ARCHIVE
+	Caching external domains too hard so dont do that.
+	https://stackoverflow.com/questions/39432717/how-can-i-cache-external-urls-using-service-worker
 
 */
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -48,6 +63,7 @@ https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-ap
 AION_LOOP_PWA(	'/home/inmoti55/public_html/domain.aionianbible.org/www-stageresources',
 				'/home/inmoti55/public_html/domain.aionianbible.org/www-stage/library/pwa' );
 AION_ECHO("DONE!");
+//AION_LOOP_DIFF(	'../www-stage/library/pwa', '../www-production-files/library/pwa', '../diff-www-stagepwa-with-pwa-BEFORE-DEPLOY');
 return;
 
 
@@ -89,6 +105,7 @@ function AION_LOOP_PWA_DOIT($args) {
 	// BIBLE
 	if (!preg_match("/\/Holy-Bible---(.*)---Aionian-Edition\.noia/", $args['filepath'], $matches)) {	AION_ECHO("ERROR! Failed to preg_match(Holy-Bible): ".$args['filepath']); }
 	$bible = $G_PWA->bible = "Holy-Bible---$matches[1]";
+	$G_PWA->bible2 = "Holy-Bible---$matches[1]---Aionian-Edition";
 	$G_PWA->bible_basic = $matches[1];
 	$error = "{$G_PWA->bible_basic} PWA,";
 	if (empty($args['database'][T_BOOKS][$bible])) {													AION_ECHO("ERROR! $error Failed to find BOOK[bible]"); }
@@ -177,36 +194,37 @@ function AION_LOOP_PWA_DOIT($args) {
 		$back   = " HRNT ) ";
 		$backot   = " ) ";
 	}
+
 	$G_FORPRINT['W_LIFE'] = (empty($G_FORPRINT['W_LIFE']) ? "Life" : "<span $csstex>".$G_FORPRINT['W_LIFE']."</span>");
-	$G_FORPRINT['JOH3_16'] = (!empty($G_FORPRINT['JOH3_16']) && empty($G_FORPRINT['W_LIFEX'])
+	$G_FORPRINT['JOH3_16'] = preg_replace("#`#ui", "\`", (!empty($G_FORPRINT['JOH3_16']) && empty($G_FORPRINT['W_LIFEX'])
 		? "<div id='j316'><span $csstex>".$G_FORPRINT['JOH3_16']."</span></div><div id='aion'>Aionian ".$G_FORPRINT['W_LIFE']."!</div>"
 		: (!empty($G_FORPRINT['JOH3_16'])
 		? "<div id='j316'><span $csstex>".$G_FORPRINT['JOH3_16']."</span></div><div id='aion'>".$G_FORPRINT['W_LIFE']." Aionian!</div>"
-		: "<div id='j316'>For God so loved the world that he gave his only begotten Son that whoever believes in him should not perish, but have...</div><div id='aion'>Aionian Life!</div>"));
-	$G_FORPRINT['GEN3_24'] = (!empty($G_FORPRINT['GEN3_24'])
+		: "<div id='j316'>For God so loved the world that he gave his only begotten Son that whoever believes in him should not perish, but have...</div><div id='aion'>Aionian Life!</div>")), -1);
+	$G_FORPRINT['GEN3_24'] = preg_replace("#`#ui", "\`", (!empty($G_FORPRINT['GEN3_24'])
 		? "<p class='cap'><span $csstex>".$G_FORPRINT['GEN3_24']."<br><span class='ref'>".$front.$G_FORPRINT['GEN3_24_B'].$backot."</span></span></p>"
-		: "<p class='cap'>“So he drove out the man; and he placed cherubim at the east of the garden of Eden, and a flaming sword which turned every way, to guard the way to the tree of life.”<br><span class='ref'>Genesis 3:24</span></p>");
-	$G_FORPRINT['LUK23_34'] = (!empty($G_FORPRINT['LUK23_34'])
+		: "<p class='cap'>“So he drove out the man; and he placed cherubim at the east of the garden of Eden, and a flaming sword which turned every way, to guard the way to the tree of life.”<br><span class='ref'>Genesis 3:24</span></p>"), -1);
+	$G_FORPRINT['LUK23_34'] = preg_replace("#`#ui", "\`", (!empty($G_FORPRINT['LUK23_34'])
 		? "<p class='cap'><span $csstex>".$G_FORPRINT['LUK23_34']."<br><span class='ref'>".$front.$G_FORPRINT['LUK23_34_B'].$back."</span></span></p>"
-		: "<p class='cap'>“Jesus said, ‘Father, forgive them, for they don’t know what they are doing.’ Dividing his garments among them, they cast lots.”<br><span class='ref'>Luke 23:34</span></p>");
-	$G_FORPRINT['REV21_2_3'] = (!empty($G_FORPRINT['REV21_2_3'])
+		: "<p class='cap'>“Jesus said, ‘Father, forgive them, for they don’t know what they are doing.’ Dividing his garments among them, they cast lots.”<br><span class='ref'>Luke 23:34</span></p>"), -1);
+	$G_FORPRINT['REV21_2_3'] = preg_replace("#`#ui", "\`", (!empty($G_FORPRINT['REV21_2_3'])
 		? "<p class='cap'><span $csstex>".$G_FORPRINT['REV21_2_3']."<br><span class='ref'>".$front.$G_FORPRINT['REV21_2_3_B'].$back."</span></span></p>"
-		: "<p class='cap'>“I saw the holy city, New Jerusalem, coming down out of heaven from God, prepared like a bride adorned for her husband. I heard a loud voice out of heaven saying, ‘Behold, God’s dwelling is with people, and he will dwell with them, and they will be his people, and God himself will be with them as their God.’”<br><span class='ref'>Revelation 21:2-3</span></p>");
-	$G_FORPRINT['HEB11_8'] = (!empty($G_FORPRINT['HEB11_8'])
+		: "<p class='cap'>“I saw the holy city, New Jerusalem, coming down out of heaven from God, prepared like a bride adorned for her husband. I heard a loud voice out of heaven saying, ‘Behold, God’s dwelling is with people, and he will dwell with them, and they will be his people, and God himself will be with them as their God.’”<br><span class='ref'>Revelation 21:2-3</span></p>"), -1);
+	$G_FORPRINT['HEB11_8'] = preg_replace("#`#ui", "\`", (!empty($G_FORPRINT['HEB11_8'])
 		? "<p class='cap'><span $csstex>".$G_FORPRINT['HEB11_8']."<br><span class='ref'>".$front.$G_FORPRINT['HEB11_8_B'].$back."</span></span></p>"
-		: "<p class='cap'>“By faith, Abraham, when he was called, obeyed to go out to the place which he was to receive for an inheritance. He went out, not knowing where he went”<br><span class='ref'>Hebrews 11:8</span></p>");
-	$G_FORPRINT['EXO13_17'] = (!empty($G_FORPRINT['EXO13_17'])
+		: "<p class='cap'>“By faith, Abraham, when he was called, obeyed to go out to the place which he was to receive for an inheritance. He went out, not knowing where he went”<br><span class='ref'>Hebrews 11:8</span></p>"), -1);
+	$G_FORPRINT['EXO13_17'] = preg_replace("#`#ui", "\`", (!empty($G_FORPRINT['EXO13_17'])
 		? "<p class='cap'><span $csstex>".$G_FORPRINT['EXO13_17']."<br><span class='ref'>".$front.$G_FORPRINT['EXO13_17_B'].$backot."</span></span></p>"
-		: "<p class='cap'>“When Pharaoh had let the people go, God didn’t lead them by the way of the land of the Philistines, although that was near; for God said, ‘Lest perhaps the people change their minds when they see war, and they return to Egypt’”<br><span class='ref'>Exodus 13:17</span></p>");
-	$G_FORPRINT['MAR10_45'] = (!empty($G_FORPRINT['MAR10_45'])
+		: "<p class='cap'>“When Pharaoh had let the people go, God didn’t lead them by the way of the land of the Philistines, although that was near; for God said, ‘Lest perhaps the people change their minds when they see war, and they return to Egypt’”<br><span class='ref'>Exodus 13:17</span></p>"), -1);
+	$G_FORPRINT['MAR10_45'] = preg_replace("#`#ui", "\`", (!empty($G_FORPRINT['MAR10_45'])
 		? "<p class='cap'><span $csstex>".$G_FORPRINT['MAR10_45']."<br><span class='ref'>".$front.$G_FORPRINT['MAR10_45_B'].$back."</span></span></p>"
-		: "<p class='cap'>“For the Son of Man also came not to be served, but to serve, and to give his life as a ransom for many”<br><span class='ref'>Mark 10:45</span></p>");
-	$G_FORPRINT['ROM1_1'] = (!empty($G_FORPRINT['ROM1_1'])
+		: "<p class='cap'>“For the Son of Man also came not to be served, but to serve, and to give his life as a ransom for many”<br><span class='ref'>Mark 10:45</span></p>"), -1);
+	$G_FORPRINT['ROM1_1'] = preg_replace("#`#ui", "\`", (!empty($G_FORPRINT['ROM1_1'])
 		? "<p class='cap'><span $csstex>".$G_FORPRINT['ROM1_1']."<br><span class='ref'>".$front.$G_FORPRINT['ROM1_1_B'].$back."</span></span></p>"
-		: "<p class='cap'>“Paul, a servant of Jesus Christ, called to be an apostle, set apart for the Good News of God”<br><span class='ref'>Romans 1:1</span></p>");
-	$G_FORPRINT['MAT28_19'] = (!empty($G_FORPRINT['MAT28_19'])
+		: "<p class='cap'>“Paul, a servant of Jesus Christ, called to be an apostle, set apart for the Good News of God”<br><span class='ref'>Romans 1:1</span></p>"), -1);
+	$G_FORPRINT['MAT28_19'] = preg_replace("#`#ui", "\`", (!empty($G_FORPRINT['MAT28_19'])
 		? "<p class='cap'><span $csstex>".$G_FORPRINT['MAT28_19']."<br><span class='ref'>".$front.$G_FORPRINT['MAT28_19_B'].$back."</span></span></p>"
-		: "<p class='cap'>“Go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit”<br><span class='ref'>Matthew 28:19</span></p>");
+		: "<p class='cap'>“Go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit”<br><span class='ref'>Matthew 28:19</span></p>"), -1);
 
 	// GET BIBLE	
 	$database = array();
@@ -391,7 +409,7 @@ EOF;
 {$G_FORPRINT['W_OLD']}
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
 </h2>
-<div class="map"><img src="https://resources.aionianbible.org/Gustave-Dore-La-Grande-Bible-de-Tours/web/Gustave-Dore-Bible-Tour-Hebrew-OT-003-Adam-and-Eve-Are-Driven-out-of-Eden.jpg" alt="Adam and Eve are driven out of Eden"></div>
+<div class="map"><img src="images/Gustave-Dore-Bible-Tour-Hebrew-OT-003-Adam-and-Eve-Are-Driven-out-of-Eden.jpg" alt="Adam and Eve are driven out of Eden"></div>
 {$G_FORPRINT['GEN3_24']}
 `,
 
@@ -448,7 +466,7 @@ EOF;
 {$G_FORPRINT['W_NEW']}
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
 </h2>
-<div class="map"><img src="https://resources.aionianbible.org/Gustave-Dore-La-Grande-Bible-de-Tours/web/Gustave-Dore-Bible-Tour-NT-Gospel-215-The-Crucifixion-of-Jesus-and-Two-Criminals.jpg" alt="The Crucifixion of Jesus and Two Criminals"></div>
+<div class="map"><img src="images/Gustave-Dore-Bible-Tour-NT-Gospel-215-The-Crucifixion-of-Jesus-and-Two-Criminals.jpg" alt="The Crucifixion of Jesus and Two Criminals"></div>
 {$G_FORPRINT['GEN3_24']}
 `,
 
@@ -506,7 +524,8 @@ EOF;
 	$contents = NULL;
 
 	// DYNAMIC STUFF
-	$G_PWA->font = AION_PWA_FONT();
+	$G_PWA->font2 = NULL;
+	$G_PWA->font = AION_PWA_FONT($G_PWA->font2);
 	// WRITE AND VALIDATE
 	if (file_put_contents($file="{$args['destiny']}/$bible---Aionian-Edition.htm", AION_PWA_CONTENTS()) === FALSE) { AION_ECHO("ERROR! $error file_put_contents($file)"); } // CREATE copyright
 	// DONE
@@ -586,7 +605,7 @@ function AION_PWA_LINKS($links) {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // CSS
-function AION_PWA_FONT() {
+function AION_PWA_FONT(&$fontfiles) {
 global $G_VERSIONS;
 // FOREIGN FONT 
 $fray = array(
@@ -617,7 +636,7 @@ $fray = array(
 'font-tibetan.css'			=> array('notoseriftibetan',			'notoseriftibetan',				'font-tibetan',			'font-tibetan'		),
 );
 $font = $G_VERSIONS['LANGUAGESTYLE'];
-if (empty($font)) {				$foreign_font = NULL; }
+if (empty($font)) {				$foreign_font = $fontfiles = NULL; }
 else if (empty($fray[$font])) {	AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS font not found: $font"); }
 else {
 $l = $fray[$font][0];
@@ -629,11 +648,16 @@ $foreign_font = <<< EOF
 	font-family:
 		'$n';
 	src:
-		url('fonts/$f.woff')	format('woff'),
-		url('fonts/$f.ttf')		format('truetype');
+		url('fonts/{$f}.woff')	format('woff'),
+		url('fonts/{$f}.ttf')		format('truetype');
 }
 .ff { font-family: 'NotoSans', '$n', 'Arial', 'sans-serif', 'GentiumPlus'; }
 
+EOF;
+
+$fontfiles = <<<EOF
+'fonts/{$f}.woff',
+'fonts/{$f}.ttf',
 EOF;
 }
 
@@ -673,18 +697,18 @@ return <<< EOF
 <head>
 <meta charset="utf-8">
 <title>Holy Bible Aionian Edition® ~ {$G_VERSIONS['NAMEENGLISH']} ~ {$G_VERSIONS['SHORT']}</title>
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="application-name" content="Holy Bible Aionian Edition® ~ {$G_VERSIONS['NAMEENGLISH']} ~ The world's first Holy Bible untranslation! ~ Progressive Web Application PWA">
 <meta name="description" content="Holy Bible Aionian Edition® ~ {$G_VERSIONS['NAMEENGLISH']} ~ The world's first Holy Bible untranslation! ~ Progressive Web Application PWA">
-<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="generator" content="ABCMS™">
 <meta name="version" content="{$G_PWA->modified}">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<link rel="shortcut icon" href="https://www.AionianBible.org/images/favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon" sizes="180x180" href="https://www.AionianBible.org/images/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://www.AionianBible.org/images/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://www.AionianBible.org/images/favicon-16x16.png">
-<link rel="manifest" href="{$G_PWA->bible}.webmanifest">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="{$G_PWA->bible2}.manifest">
 
 
 
@@ -933,8 +957,8 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 <div id='sticky-body'>
 <div id='head'>
 <div id='head-hi'>
-<div id='logo1'><a href='?PWA' title='Aionian Bible homepage' onclick="ABDO('PWA');return false;"><img src='https://www.AionianBible.org/images/Holy-Bible-Aionian-Edition-PURPLE-LOGO.png' alt='Aionian Bible'></a></div>
-<div id='logo2'><a href='?PWA' title='Aionian Bible homepage' onclick="ABDO('PWA');return false;"><img src='https://www.AionianBible.org/images/Holy-Bible-Aionian-Edition-PURPLE-AB.png' alt='Aionian Bible'></a></div>
+<div id='logo1'><a href='?PWA' title='Aionian Bible homepage' onclick="ABDO('PWA');return false;"><img src='images/Holy-Bible-Aionian-Edition-PURPLE-LOGO.png' alt='Aionian Bible'></a></div>
+<div id='logo2'><a href='?PWA' title='Aionian Bible homepage' onclick="ABDO('PWA');return false;"><img src='images/Holy-Bible-Aionian-Edition-PURPLE-AB.png' alt='Aionian Bible'></a></div>
 <div id='menu'>
 <a href="?TOC" title="Table of Contents" onclick="ABDO('TOC');return false;">TOC</a>
 <a href='?Bookmark' title='Go to Bookmark' onclick='AionianBible_Get();return false;'>Get</a> 
@@ -1163,7 +1187,7 @@ New Jerusalem
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
 </h2>
 
-<div class="map"><img src="https://resources.aionianbible.org/Gustave-Dore-La-Grande-Bible-de-Tours/web/Gustave-Dore-Bible-Tour-NT-Gospel-241-The-New-Jerusalem.jpg" alt="New Jerusalem"></div>
+<div class="map"><img src="images/Gustave-Dore-Bible-Tour-NT-Gospel-241-The-New-Jerusalem.jpg" alt="New Jerusalem"></div>
 {$G_FORPRINT['REV21_2_3']}
 `,
 
@@ -1347,7 +1371,7 @@ Language: Koine Greek<br>
 Speech: verb<br>
 Strongs: g1653<br>
 Meaning:<br><div style='margin-left: 15px;'>To have pity on, to show mercy. Typically, the subjunctive mood indicates possiblity, not certainty. However, a subjunctive in a purpose clause is a resulting action as certain as the causal action. The subjunctive in a purpose clause functions as an indicative, not an optative. Thus, the grand conclusion of grace theology in Romans 11:32 must be clarified. God's mercy on all is not a possibility, but a certainty. See <a href='https://www.ntgreek.org' target='_blank'>www.ntgreek.org</a>.</div>
-Usage: 1 time in this conjugation, Romans 11:32<br>
+Usage: 1 time in this conjugation, {$G_LINKS->X_ROM_11}<br>
 {$G_PWA->g1653}<br>
 
 <h3><i><a id="g1067">Geenna</a></i></h3>
@@ -1414,7 +1438,7 @@ History Past
 </h2>
 
 <div id='maps'>
-<div class="map timeline"><img src="https://www.AionianBible.org//images/Timeline-History-Aionian-Bible.jpg" alt="History Past"></div>
+<div class="map timeline"><img src="images/Timeline-History-Aionian-Bible.jpg" alt="History Past"></div>
 <p class='left'>Derived from <a href='https://www.aionianbible.org/Uusher' target='_blank' title='Download PDF'>The Annals of the World by James Uusher</a> and <a href='https://www.aionianbible.org/Wikipedia-Timeline-of-Christian-Missions' target='_blank' title='Visit Wikipedia'>Timeline of Christian missions, Wikipedia</a>. <a href='https://www.aionianbible.org/Timeline' target='_blank' title='Download printable chart'>Printable version</a></p>
 </div>
 `,
@@ -1433,7 +1457,7 @@ History Future
 </h2>
 
 <div id='maps'>
-<div class="map timeline"><img src="https://www.AionianBible.org//images/Timeline-Eschatology-Aionian-Bible.jpg" alt="History Future"></div>
+<div class="map timeline"><img src="images/Timeline-Eschatology-Aionian-Bible.jpg" alt="History Future"></div>
 <p class='left'>The chart indicates the whereabouts of God, mankind, and angels throughout the ages of history.  Note that the punishment of deceased unbelieving mankind in Hades is temporal as promised when Jesus said <i>“the gates of Hades will not prevail”</i>, Paul wrote <i>“Hades where is your victory?”</i>, and John wrote <i>“Hades gives up.”</i>  Also note that certain fallen angels are already held in a separate prison, Tartarus, awaiting final judgment and sentencing to the Lake of Fire which is <i>“prepared for the Devil and his angels,”</i> according to Matthew 25:41.  Satan’s rebellion will be crushed and Christ will be victorious in the salvation of all his people.  You too can know your name is already written in Heaven through faith in Jesus Christ! <a href='https://www.aionianbible.org/Future' target='_blank' title='Download printable chart'>Printable version</a></p>
 </div>
 `,
@@ -1476,7 +1500,7 @@ Abraham's Journey
 </h2>
 
 <div id='maps'>
-<div class="map"><img src="https://www.AionianBible.org//images/MAP-Abrahams-Journey.jpg" alt="Abraham's Journey"></div>
+<div class="map"><img src="images/MAP-Abrahams-Journey.jpg" alt="Abraham's Journey"></div>
 <div class='caption'>{$G_FORPRINT['HEB11_8']}</div>
 </div>
 `,
@@ -1495,7 +1519,7 @@ Israel's Exodus
 </h2>
 
 <div id='maps'>
-<div class="map"><img src="https://www.AionianBible.org//images/MAP-Israels-Exodus.jpg" alt="Israel's Exodus"></div>
+<div class="map"><img src="images/MAP-Israels-Exodus.jpg" alt="Israel's Exodus"></div>
 <div class='caption'>{$G_FORPRINT['EXO13_17']}</div>
 </div>
 `,
@@ -1514,7 +1538,7 @@ Jesus' Journeys
 </h2>
 
 <div id='maps'>
-<div class="map portrait"><img src="https://www.AionianBible.org//images/MAP-Jesus-Journeys.jpg" alt="Jesus' Journeys"></div>
+<div class="map portrait"><img src="images/MAP-Jesus-Journeys.jpg" alt="Jesus' Journeys"></div>
 <div class='caption'>{$G_FORPRINT['MAR10_45']}</div>
 </div>
 `,
@@ -1533,7 +1557,7 @@ Paul's Missionary Journeys
 </h2>
 
 <div id='maps'>
-<div class="map"><img src="https://www.AionianBible.org//images/MAP-Pauls-Missionary-Journeys.jpg" alt="Paul's Missionary Journeys"></div>
+<div class="map"><img src="images/MAP-Pauls-Missionary-Journeys.jpg" alt="Paul's Missionary Journeys"></div>
 <div class='caption'>{$G_FORPRINT['ROM1_1']}</div>
 </div>
 `,
@@ -1551,7 +1575,7 @@ World Nations
 </h2>
 
 <div id='maps'>
-<div class="map"><img src="https://www.AionianBible.org//images/MAP-World-Nations.jpg" alt="World Nations"></div>
+<div class="map"><img src="images/MAP-World-Nations.jpg" alt="World Nations"></div>
 <div class='caption'>{$G_FORPRINT['MAT28_19']}</div>
 </div>
 `
@@ -1605,7 +1629,7 @@ function ABDO(goto, anchor=null, push=true) {
 	if (null !== AB_Accessible) {
 		AB_Accessible.className = AionianBible_readCookie("AionianBible.Accessible");
 	}
-	if (anchor) { document.getElementById(anchor).scrollIntoView(true); }
+	if (anchor) { document.getElementById(anchor).scrollIntoView(true); window.scrollBy(0,-70); }
 	else { window.scrollTo(0, 0); }
 }
 
@@ -1669,35 +1693,6 @@ function AionianBible_readCookie(cname) {
 		}
 	}
 	return null;
-}
-
-
-
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-// ONLOAD
-window.onload = function() {
-	// get bookmarks
-	AB_Bookmark = AionianBible_readCookie("AionianBible.Bookmark");
-	if (AB_Bookmark === null) {
-		AB_Bookmark = 'TOC';
-		AionianBible_writeCookie("AionianBible.Bookmark", AB_Bookmark);
-	}
-	AB_Bookmark2 = AionianBible_readCookie("AionianBible.Bookmark2");
-	if (AB_Bookmark2 === null) {
-		AB_Bookmark2 = 'TOC';
-		AionianBible_writeCookie("AionianBible.Bookmark", AB_Bookmark2);
-	}
-
-	// remove javascript warning and copy Homepage to page array
-	document.getElementById('java').outerHTML = '';
-	AB_Bible[0] = document.getElementById('body').innerHTML;
-
-	// homepage or query
-	const query = window.location.search;
-	if (query && query != "?PWA") {	ABDO(query.substr(1), window.location.hash); }
-	else {							window.history.replaceState({go:'PWA'}, '', location.pathname + "?PWA"); }
 }
 
 
@@ -1777,6 +1772,101 @@ function AionianBible_SwipeLinks() {
 	}, false);
 }
 AionianBible_SwipeLinks();
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+// PWA https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Caching
+// https://stackoverflow.com/questions/39432717/how-can-i-cache-external-urls-using-service-worker
+// PRE-CACHE
+
+const AionianBible_cacheName = "AionianBible";
+const AionianBible_precachedResources = [
+'/',
+'fonts/gentiumplus-r.ttf',
+'fonts/gentiumplus-r.woff',
+'fonts/gentiumplus-r.woff2',
+'fonts/notosans-basic-regular.ttf',
+'fonts/notosans-basic-regular.woff',
+'fonts/notosans-basic-regular.woff2',
+{$G_PWA->font2}
+'images/favicon.ico',
+'images/favicon-32x32.png',
+'images/favicon-16x16.png',
+'images/apple-touch-icon.png',
+'images/Holy-Bible-Aionian-Edition-PURPLE-LOGO.png',
+'images/Holy-Bible-Aionian-Edition-PURPLE-AB.png',
+'images/Gustave-Dore-Bible-Tour-Hebrew-OT-003-Adam-and-Eve-Are-Driven-out-of-Eden.jpg',
+'images/Gustave-Dore-Bible-Tour-NT-Gospel-215-The-Crucifixion-of-Jesus-and-Two-Criminals.jpg',
+'images/Gustave-Dore-Bible-Tour-NT-Gospel-241-The-New-Jerusalem.jpg',
+'images/Timeline-History-Aionian-Bible.jpg',
+'images/Timeline-Eschatology-Aionian-Bible.jpg',
+'images/MAP-Abrahams-Journey.jpg',
+'images/MAP-Israels-Exodus.jpg',
+'images/MAP-Jesus-Journeys.jpg',
+'images/MAP-Pauls-Missionary-Journeys.jpg',
+'images/MAP-World-Nations.jpg'
+];
+
+async function AionianBible_precache() {
+	const cache = await caches.open(AionianBible_cacheName);
+	return cache.addAll(AionianBible_precachedResources);
+}
+
+/*
+self.addEventListener("install", (event) => {
+	event.waitUntil(AionianBible_precache());
+});
+*/
+
+// CACHE THEN REFRESH
+async function AionianBible_cacheFirstWithRefresh(request) {
+	const fetchResponsePromise = fetch(request).then(async (networkResponse) => {
+		if (networkResponse.ok) {
+			const cache = await caches.open(AionianBible_cacheName);
+			cache.put(request, networkResponse.clone());
+		}
+		return networkResponse;
+	});
+	return (await caches.match(request)) || (await fetchResponsePromise);
+}
+
+self.addEventListener("fetch", (event) => {
+	event.respondWith(AionianBible_cacheFirstWithRefresh(event.request));
+});
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+// ONLOAD
+window.onload = function() {
+	// get bookmarks
+	AB_Bookmark = AionianBible_readCookie("AionianBible.Bookmark");
+	if (AB_Bookmark === null) {
+		AB_Bookmark = 'TOC';
+		AionianBible_writeCookie("AionianBible.Bookmark", AB_Bookmark);
+	}
+	AB_Bookmark2 = AionianBible_readCookie("AionianBible.Bookmark2");
+	if (AB_Bookmark2 === null) {
+		AB_Bookmark2 = 'TOC';
+		AionianBible_writeCookie("AionianBible.Bookmark", AB_Bookmark2);
+	}
+
+	// remove javascript warning and copy Homepage to page array
+	document.getElementById('java').outerHTML = '';
+	AB_Bible[0] = document.getElementById('body').innerHTML;
+
+	// homepage or query
+	const query = window.location.search;
+	if (query && query != "?PWA") {	ABDO(query.substr(1), window.location.hash); }
+	else {							window.history.replaceState({go:'PWA'}, '', location.pathname + "?PWA"); }
+
+	// load the precache
+	AionianBible_precache();
+}
 
 </script>
 
