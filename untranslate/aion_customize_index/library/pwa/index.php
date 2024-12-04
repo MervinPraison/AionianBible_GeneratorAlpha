@@ -17,10 +17,29 @@ https://www.pcmag.com/how-to/how-to-use-progressive-web-apps
 
 */
 
+// error page 
+$error = <<<EOF
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Holy Bible Aionian Edition® ~ Error, page not found</title>
+</head>
+<body>
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;Sorry, page not found.
+</body>
+</html>
+EOF;
+
 
 // Query string not allowed
 if (!empty($_SERVER['QUERY_STRING'])) {
-		header('HTTP/1.0 404 Not Found');
+	http_response_code(404);
+	echo $error;
+	exit;
 }
 
 // Path
@@ -30,8 +49,9 @@ $_Full = trim(filter_var((empty($_SERVER['HTTPS']) ? 'http://' : 'https://')."{$
 // PWA dynamic png -OR- webmanifest
 // Could be generated like the htm file, but dynamic easier while drafting and
 // results in a smaller tidier complete package in GitHub
-if (preg_match("#^(.+)/(Holy-Bible---(.+)---(.+))\.(manifest|([0-9]+)\.png)$#", $_Full, $match) &&
-	file_exists(($file=($match[2].'.htm')))) {
+if (preg_match("#^(.+)/(Holy-Bible---(.+)---(.+))/pwa\.(json|([0-9]+)\.png)$#", $_Full, $match) &&
+	file_exists(($file=("{$match[2]}/pwa.htm"))) &&
+	file_exists(($fonf=("{$match[2]}/fonts/anton-regular.ttf")))) {
 	// parse file name
 	$lang = preg_replace("#-#ui"," ", $match[3]);
 	$bnam = preg_replace("#-#ui"," ", $match[4]);
@@ -59,7 +79,7 @@ if (preg_match("#^(.+)/(Holy-Bible---(.+)---(.+))\.(manifest|([0-9]+)\.png)$#", 
 		$IMG = imagecreate($size, $size);
 		$background = imagecolorallocate($IMG, 102,51, 153);
 		$text_color = imagecolorallocate($IMG, 255,255,255); 
-		imagettftext($IMG, $font, 0, $posx, $posy, $text_color, './fonts/anton-regular.ttf', $abbr);
+		imagettftext($IMG, $font, 0, $posx, $posy, $text_color, $fonf, $abbr);
 		header( "Content-type: image/png" );
 		imagepng($IMG);
 		imagecolordeallocate($IMG, $text_color);
@@ -67,19 +87,17 @@ if (preg_match("#^(.+)/(Holy-Bible---(.+)---(.+))\.(manifest|([0-9]+)\.png)$#", 
 		imagedestroy($IMG);
 	}
 	// dynamic webmanifest
-	else if ($type=='manifest') {
-		$id = date("YmdHis", filemtime($file)).'-'.fileinode($file);
+	else if ($type=='json') {
 		header('Content-Type: application/manifest+json;');
 		echo <<<EOL
 {
-"id"				: "{$id}",
 "dir"				: "ltr",
 "lang"				: "en",
 "name"				: "{$name}",
 "short_name"		: "{$abbr}",
 "description"		: "{$name} Progressive Web Application",
-"start_url"			: "{$match[1]}/{$match[2]}.htm",
-"scope"				: ".",
+"start_url"			: "{$match[1]}/{$match[2]}/",
+"scope"				: "{$match[1]}/{$match[2]}/",
 "background_color"	: "#663399",
 "theme_color"		: "#663399",
 "display"			: "minimal-ui",
@@ -87,26 +105,26 @@ if (preg_match("#^(.+)/(Holy-Bible---(.+)---(.+))\.(manifest|([0-9]+)\.png)$#", 
 "prefer_related_applications"	: false,
 "icons"			: [
 	{
-	"src"	: "{$match[2]}.192.png",
+	"src"	: "{$match[1]}/{$match[2]}/pwa.192.png",
 	"type"	: "image/png",
 	"sizes"	: "192x192"
 	},
 	{
-	"src"	: "{$match[2]}.512.png",
+	"src"	: "{$match[1]}/{$match[2]}/pwa.512.png",
 	"type"	: "image/png",
 	"sizes"	: "512x512"
 	}
 ],
 "screenshots": [
   {
-    "src": "images/Aionian-Bible-PWA-Screenshot-Landscape.jpg",
+    "src": "{$match[1]}/{$match[2]}/images/Aionian-Bible-PWA-Screenshot-Landscape.jpg",
     "sizes": "1301x708",
     "type": "image/jpg",
     "form_factor": "wide",
     "label": "Aionian Bible home screen wide format"
   },
   {
-    "src": "images/Aionian-Bible-PWA-Screenshot-Portrait.jpg",
+    "src": "{$match[1]}/{$match[2]}/images/Aionian-Bible-PWA-Screenshot-Portrait.jpg",
     "sizes": "502x770",
     "type": "image/jpg",
     "form_factor": "narrow",
@@ -119,10 +137,7 @@ EOL;
 		// debug
 		//file_put_contents(".debug",$json);
 	}
-	// not found
-	else {
-		header('HTTP/1.0 404 Not Found');
-	}	
+	exit;	
 }
 
 // PWA List
@@ -169,19 +184,18 @@ Available off-line on smart devices.<br />
 EOF;	
 	$files = array_diff(scandir('./'), array('.', '..'));
 	foreach($files as $file) {
-		if (!preg_match("#^Holy-Bible---(.+)---Aionian-Edition\.htm$#", $file, $matches) || 
-			!($bible=preg_replace("#---#", ":&nbsp;&nbsp;&nbsp;", $matches[1])) ||
+		if (!is_dir($file) ||
+			!preg_match("#^(Holy-Bible---(.+)---Aionian-Edition)$#", $file, $matches) || 
+			!($bible=preg_replace("#---#", ":&nbsp;&nbsp;&nbsp;", $matches[2])) ||
 			!($bible=preg_replace("#-#", "&nbsp;", $bible))) { continue; }
 		
-		echo "<a href='$file' target='_blank' class='bible'>$bible</a><br>";
+		echo "<a href='{$matches[1]}/' target='_blank' class='bible'>$bible</a><br>";
 	}
 	echo "</body></html>";
+	exit;
 }
 
-// not found
-else {
-	header('HTTP/1.0 404 Not Found');
-}
-
-// bye now
+// bad bye now
+http_response_code(404);
+echo $error;
 exit;

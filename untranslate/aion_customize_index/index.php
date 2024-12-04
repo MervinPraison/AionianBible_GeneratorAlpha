@@ -2205,7 +2205,7 @@ return $cache[$file][$key];
 /*** HTML ***/
 function abcms_html($goodpage=TRUE,$bodystuff='',$collapse='false') {
 global $_para, $_stid, $_meta, $_Path, $_Part, $_pnum, $_BibleONE, $_BibleTWO;
-if (!$goodpage) { header('HTTP/1.0 404 Not Found'); $_meta = 'Page not found'; }
+if (!$goodpage) { http_response_code(404); $_meta = 'Page not found'; }
 ?>
 <!DOCTYPE html>
 <html lang='en'>

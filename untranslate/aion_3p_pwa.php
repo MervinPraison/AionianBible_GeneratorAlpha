@@ -69,6 +69,7 @@ return;
 
 // LOOP
 function AION_LOOP_PWA($source, $destiny) {
+	system("cd {$destiny}; ln -s ../../images ./.images; ln -s ../../fonts ./.fonts");
 	$database = array();
 	AION_FILE_DATA_GET( './aion_database/UNTRANSLATE.txt',	'T_UNTRANSLATE',	$database, array('INDEX','BOOK','CHAPTER','VERSE'), FALSE );
 	AION_FILE_DATA_GET( './aion_database/BOOKS.txt',		'T_BOOKS',			$database, 'BIBLE', FALSE );
@@ -527,7 +528,12 @@ EOF;
 	$G_PWA->font2 = NULL;
 	$G_PWA->font = AION_PWA_FONT($G_PWA->font2);
 	// WRITE AND VALIDATE
-	if (file_put_contents($file="{$args['destiny']}/$bible---Aionian-Edition.htm", AION_PWA_CONTENTS()) === FALSE) { AION_ECHO("ERROR! $error file_put_contents($file)"); } // CREATE copyright
+	$folder = "{$args['destiny']}/{$bible}---Aionian-Edition";
+	system("rm -rf {$folder}");
+	if (!mkdir("{$folder}") ||
+		file_put_contents($file="{$folder}/pwa.htm", AION_PWA_CONTENTS()) === FALSE) { AION_ECHO("ERROR! $error file_put_contents($file)"); }
+	system("cd {$folder}; ln -s ../../../images ./images; ln -s ../../../fonts ./fonts");
+
 	// DONE
 	AION_unset($database); unset($database); $database=NULL;
 	AION_ECHO("PWA SUCCESS: $bible");
@@ -648,8 +654,8 @@ $foreign_font = <<< EOF
 	font-family:
 		'$n';
 	src:
-		url('fonts/{$f}.woff')	format('woff'),
-		url('fonts/{$f}.ttf')		format('truetype');
+		fonts/{$f}.woff	format('woff'),
+		fonts/{$f}.ttf	format('truetype');
 }
 .ff { font-family: 'NotoSans', '$n', 'Arial', 'sans-serif', 'GentiumPlus'; }
 
@@ -708,7 +714,7 @@ return <<< EOF
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-<link rel="manifest" href="{$G_PWA->bible2}.manifest">
+<link rel="manifest" href="pwa.json">
 
 
 
@@ -739,17 +745,17 @@ OTHER
 	font-family:
 		'NotoSans';
 	src:
-		url('fonts/notosans-basic-regular.woff2')	format('woff2'),
-		url('fonts/notosans-basic-regular.woff')	format('woff'),
-		url('fonts/notosans-basic-regular.ttf')		format('truetype');
+		fonts/notosans-basic-regular.woff2	format('woff2'),
+		fonts/notosans-basic-regular.woff	format('woff'),
+		fonts/notosans-basic-regular.ttf	format('truetype');
 }
 @font-face {
 	font-family:
 		'GentiumPlus';
 	src:
-		url('fonts/gentiumplus-r.woff2')			format('woff2'),
-		url('fonts/gentiumplus-r.woff')				format('woff'),
-		url('fonts/gentiumplus-r.ttf')				format('truetype');
+		fonts/gentiumplus-r.woff2			format('woff2'),
+		fonts/gentiumplus-r.woff			format('woff'),
+		fonts/gentiumplus-r.ttf				format('truetype');
 }
 {$G_PWA->font}
 html,body	{ font-family: 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }

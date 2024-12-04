@@ -103,7 +103,7 @@ RewriteRule ^ /Read [L,R=301]
 # REWRITE EPUB
 RewriteCond %{REQUEST_URI} ^\/epub\/ [NC]
 RewriteCond %{DOCUMENT_ROOT}\/library%{REQUEST_URI} -d
-RewriteRule ^ http://%{HTTP_HOST}/?e=%{REQUEST_URI} [L,R=301]
+RewriteRule ^ https://%{HTTP_HOST}/?e=%{REQUEST_URI} [L,R=301]
 
 # REWRITE READIUM
 RewriteCond %{REQUEST_URI} ^\/Readium\/(Holy\-Bible\-\-\-.*)$
@@ -111,10 +111,17 @@ RewriteCond %{DOCUMENT_ROOT}\/library\/epub\/%1 -d
 RewriteRule ^ /Readium?epub=../library/epub/%1 [L,R=301]
 
 # REWRITE PWA
-RewriteCond %{REQUEST_URI} ^\/pwa(.*)$ [NC]
-RewriteRule ^ /library/pwa%1 [L]
-RewriteCond %{REQUEST_URI} ^\/library\/pwa(.*)$ [NC]
-RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} ^(\/pwa\/Holy\-Bible\-\-\-[^/.]+)$ [NC,OR]
+RewriteCond %{REQUEST_URI} ^(\/pwa\/Holy\-Bible\-\-\-[^/.]+)\/pwa\.htm$ [NC]
+RewriteRule ^ %1/ [L,R=301]
+RewriteCond %{REQUEST_URI} ^\/pwa\/(Holy\-Bible\-\-\-[^/.]+)\/$ [NC]
+RewriteCond %{DOCUMENT_ROOT}/library/pwa/%1/pwa.htm -f
+RewriteRule ^ /library/pwa/%1/pwa.htm?PWA [L]
+RewriteCond %{REQUEST_URI} ^\/pwa\/(Holy\-Bible\-\-\-[^/.]+\/.+)$ [NC]
+RewriteCond %{DOCUMENT_ROOT}/library/pwa/%1 -f
+RewriteRule ^ /library/pwa/%1 [L]
+RewriteCond %{REQUEST_URI} ^\/pwa\/(.+)$ [NC]
+RewriteCond %{DOCUMENT_ROOT}/library/pwa/%1 !-f
 RewriteRule ^ /library/pwa/index.php [L]
 
 # REWRITE INDEX

@@ -201,7 +201,7 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $allbibles ) {
 		$okay = $destiny.'/'.$version[C_BIBLE];
 		$bpub = $destiny.'/epub/'.$version[C_BIBLE];
 		$boli = $destiny.'/online/'.$version[C_BIBLE];
-		$pwa1 = $destiny.'/pwa/'.$version[C_BIBLE].'---Aionian-Edition.htm';
+		$pwa1 = $destiny.'/pwa/'.$version[C_BIBLE].'---Aionian-Edition/pwa.htm';
 
 		// study pack
 		$lang = strtok($version[C_LANGUAGEENGLISH],", ");
@@ -297,9 +297,9 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $allbibles ) {
 
  		"\n<div class='field-header'>Online:</div><div class='field-field'><div class='field-links decorated'>".
 		"<a href='https://play.google.com/store/apps/details?id=net.signedon.aionianbible.aionianbible' target='_blank' title='Aionian Bible free at Google Play Store'>Android App</a>".
-        (is_dir(  $bpub.'---Aionian-Edition')					?(", <a href='/epub/"		.$version[C_BIBLE]	."---Aionian-Edition' target='_blank' title='Aionian Bible ePub Futurepress'>Futurepress</a>") :'').
-        (is_dir(  $bpub.'---Aionian-Edition')					?(", <a href='/Readium/"	.$version[C_BIBLE]	."---Aionian-Edition' target='_blank' title='Aionian Bible ePub Readium'>Readium</a>") :'').
-		(AION_filesize($pwa1)									?(", <a href='/pwa/"		.$version[C_BIBLE]	."---Aionian-Edition.htm' target='_blank' title='Aionian Bible Progressive Web Application'>PWA</a>") :'').
+        (is_dir(  $bpub.'---Aionian-Edition')					?(", <a href='/epub/"		.$version[C_BIBLE]	."---Aionian-Edition'  target='_blank' title='Aionian Bible ePub Futurepress'>Futurepress</a>") :'').
+        (is_dir(  $bpub.'---Aionian-Edition')					?(", <a href='/Readium/"	.$version[C_BIBLE]	."---Aionian-Edition'  target='_blank' title='Aionian Bible ePub Readium'>Readium</a>") :'').
+		(AION_filesize($pwa1)									?(", <a href='/pwa/"		.$version[C_BIBLE]	."---Aionian-Edition/' target='_blank' title='Aionian Bible Progressive Web Application'>PWA</a>") :'').
 
  		"\n<div class='field-header'>Downloads:</div><div class='field-field'><div class='field-links decorated'>".
 		(AION_filesize($base.'---Aionian-Edition.epub')			?("<a href='/resources/"	.$version[C_BIBLE]	."---Aionian-Edition.epub' download title='Aionian Bible ePub format download'>ePub</a>") :'').
