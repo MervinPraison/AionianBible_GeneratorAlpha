@@ -27,6 +27,7 @@ require_once('./aion_3e_epub.php'); // Aionian Bible epub
 AION_LOOP_EPUB_UZIP	(	'../www-stageresources',	'../www-stage/library');
 
 require_once('./aion_3p_pwa.php'); // Aionian Bible PWA
+AION_LOOP_DIFF_PWA(	'../www-stage/library/pwa', '../www-production-files/library/pwa', '../diff-www-stagepwa-with-pwa-BEFORE-DEPLOY');
 
 $database = array();
 AION_FILE_DATA_GET(			'./aion_database/VERSIONS.txt',	'T_VERSIONS',	$database, 'BIBLE', TRUE );

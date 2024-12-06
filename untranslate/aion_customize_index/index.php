@@ -76,7 +76,6 @@ exit;
 
 
 /*** HOME ***/
-// <a href='https://pwa.AionianBible.org' target='_blank' title='pwa.AionianBible.org'><img src='/images/Aionian-Bible-Online.png' alt='pwa.AionianBible.org' title='Aionian single bible web apps'></a>
 function abcms_home() {
 abcms_html();
 $modified = date("n/j/Y", filemtime("./index.php"));
@@ -87,7 +86,7 @@ $modified = date("n/j/Y", filemtime("./index.php"));
 <a href='/Preface' onclick='return AionianBible_Bookmark("/Preface");'>
 <div id='butt'>
 <h2>Welcome to the <i>Holy&nbsp;Bible&nbsp;Aionian&nbsp;Edition<span class='RegisteredTM'>®</span></i></h2>
-<div id='logo'><img src='/images/Holy-Bible-Aionian-Edition-PURPLE-HOME.png' alt='Aionian Bible' /></div>
+<div id='logo'><img src='/images/Holy-Bible-Aionian-Edition-PURPLE-HOME.png' alt='Aionian Bible'></div>
 <div id='j316'>For God so loved the world,<br>that he gave his only begotten Son,<br>that whoever believes in him<br>should not perish, but have...</div>
 <div id='aion'>Aionian Life!</div>
 <div id='moto'>
@@ -106,16 +105,16 @@ Also known as 'The Purple Bible'
 </div>
 </div>
 <div id='icon'>
-<a href='/Facebook'		target='_blank' title='Facebook/AionianBible'>	<img src='/images/Aionian-Bible-Facebook.png' alt='Facebook' title='Aionian Bible on Facebook' /></a>
-<a href='/X'			target='_blank' title='X/AionianBible Twitter'>	<img src='/images/Aionian-Bible-X.png' alt='X/Twitter' title='Aionian Bible on X/Twitter' /></a>
-<a href='/LinkedIn'		target='_blank' title='LinkedIn/AionianBible'>	<img src='/images/Aionian-Bible-LinkedIn.png' alt='LinkedIn' title='Aionian Bible on LinkedIn' /></a>
-<a href='/Instagram'	target='_blank' title='Instagram/AionianBible'>	<img src='/images/Aionian-Bible-Instagram.png' alt='Instagram' title='Aionian Bible on Instagram' /></a>
-<a href='/Pinterest'	target='_blank' title='Pinterest/AionianBible'>	<img src='/images/Aionian-Bible-Pinterest.png' alt='Pinterest' title='Aionian Bible on Pinterest' /></a>
-<a href='/YouTube'		target='_blank' title='YouTube/AionianBible'>	<img src='/images/Aionian-Bible-Youtube.png' alt='YouTube' title='Aionian Bible on Youtube' /></a>
-<a href='/Google-Play'	target='_blank' title='GooglePlay/AionianBible'><img src='/images/Aionian-Bible-GooglePlay.png' alt='GooglePlay' title='Aionian Bible on GooglePlay' /></a>
-<a href='/TOR'			target='_blank' title='TOR/AionianBible'>		<img src='/images/Aionian-Bible-TOR.png' alt='TOR' title='Aionian Bible on The Onion Router network' /></a>
-<a href='/EmailNews'	target='_blank' title='EmailNews/AionianBible'>	<img src='/images/Aionian-Bible-Button-Your-Gift-Email-Newsletter.png' alt='EmailNews' title='Aionian Bible Gift and Newsletter' /></a>
-<a href='/Buy' title='Buy Aionian Bibles and T-Shirts'>					<img src='/images/Aionian-Bible-Button-Buy-Square.png' alt='Buy Bibles' title='Buy Aionian Bible in print' /></a>
+<a href='/Facebook'		target='_blank' title='Facebook/AionianBible'>	<img src='/images/Aionian-Bible-Facebook.png' alt='Facebook' title='Aionian Bible on Facebook'></a>
+<a href='/X'			target='_blank' title='X/AionianBible Twitter'>	<img src='/images/Aionian-Bible-X.png' alt='X/Twitter' title='Aionian Bible on X/Twitter'></a>
+<a href='/LinkedIn'		target='_blank' title='LinkedIn/AionianBible'>	<img src='/images/Aionian-Bible-LinkedIn.png' alt='LinkedIn' title='Aionian Bible on LinkedIn'></a>
+<a href='/Instagram'	target='_blank' title='Instagram/AionianBible'>	<img src='/images/Aionian-Bible-Instagram.png' alt='Instagram' title='Aionian Bible on Instagram'></a>
+<a href='/Pinterest'	target='_blank' title='Pinterest/AionianBible'>	<img src='/images/Aionian-Bible-Pinterest.png' alt='Pinterest' title='Aionian Bible on Pinterest'></a>
+<a href='/YouTube'		target='_blank' title='YouTube/AionianBible'>	<img src='/images/Aionian-Bible-Youtube.png' alt='YouTube' title='Aionian Bible on Youtube'></a>
+<a href='/Google-Play'	target='_blank' title='GooglePlay/AionianBible'><img src='/images/Aionian-Bible-GooglePlay.png' alt='GooglePlay' title='Aionian Bible on GooglePlay'></a>
+<a href='/TOR'			target='_blank' title='TOR/AionianBible'>		<img src='/images/Aionian-Bible-TOR.png' alt='TOR' title='Aionian Bible on The Onion Router network'></a>
+<a href='/EmailNews'	target='_blank' title='EmailNews/AionianBible'>	<img src='/images/Aionian-Bible-Button-Your-Gift-Email-Newsletter.png' alt='EmailNews' title='Aionian Bible Gift and Newsletter'></a>
+<a href='/Buy' title='Buy Aionian Bibles and T-Shirts'>					<img src='/images/Aionian-Bible-Button-Buy-Square.png' alt='Buy Bibles' title='Buy Aionian Bible in print'></a>
 </div>
 <script>AionianBible_SwipeLinks('','');</script>
 <? abcms_jsonld(TRUE); ?>
@@ -192,8 +191,8 @@ PO Box 462, Bellefonte, PA 16823<br>
 <a href='/AB-CUSTOM-VERSES.txt' target='_blank' title='Request Custom Formatted Verses'>Request Custom Formatted Verses</a><br>
 <br>
 <form action="https://www.paypal.com/donate" method="post" target="_top">
-<input type="hidden" name="hosted_button_id" value="PNHVLFLK5B77E" />
-<input type="image" src="/images/Aionian-Bible-Button-Donate.png" name="submit" title="PayPal - The safer, easier way to donate online!" alt="Donate at PayPal" />
+<input type="hidden" name="hosted_button_id" value="PNHVLFLK5B77E">
+<input type="image" src="/images/Aionian-Bible-Button-Donate.png" name="submit" title="PayPal - The safer, easier way to donate online!" alt="Donate at PayPal">
 </form>
 EOF;
 // skipit
@@ -267,15 +266,15 @@ else {
 	echo "$nainoia Please contact us below<br><span class='form-status'>$status</span>";	
 ?>
 <form action='/Publisher/<?php echo hash('sha256','AionianBible.org/Publisher/Submit'.time().random_bytes(7)); ?>' method='post' accept-charset='UTF-8'>
-<input type='hidden' name='csrf' value='<?php echo ($_SESSION['csrf'] = hash('sha256','AionianBible.org/Publisher'.time().random_bytes(10))); ?>' />
-<input type='text' name='name' placeholder='Name' value="<? echo $val_name;?>" />
-<input type='email' name='email' placeholder='Email' value="<? echo $val_email;?>" />
-<input type='text' name='subject' placeholder='Subject' value="<? echo $val_subject;?>" />
+<input type='hidden' name='csrf' value='<?php echo ($_SESSION['csrf'] = hash('sha256','AionianBible.org/Publisher'.time().random_bytes(10))); ?>'>
+<input type='text' name='name' placeholder='Name' value="<? echo $val_name;?>">
+<input type='email' name='email' placeholder='Email' value="<? echo $val_email;?>">
+<input type='text' name='subject' placeholder='Subject' value="<? echo $val_subject;?>">
 <textarea name='message' placeholder='Comment or question, 1000 character maximum' rows='15'><? echo $val_message;?></textarea>
-<input type='text' name='company' value="<? echo 'Replace asteriks with Captcha [******]';?>" />
-<input type='text' name='captcha' id='captcha' placeholder='Enter Captcha' />
-<div class='captcha'><img src='/CAPTCHA/<?php echo mb_rand('l'); ?>' alt='Captcha' title='Captcha' id='lcaptcha_image' /><img src='/CAPTCHA/<?php echo mb_rand('2'); ?>' alt='Captcha' title='Captcha' id='2captcha_image' /><img src='/CAPTCHA/<?php echo mb_rand('3'); ?>' alt='Captcha' title='Captcha' id='3captcha_image' /> <a href='javascript: AionianBible_RefreshCaptcha();'>Refresh Captcha</a></div>
-<input type='submit' name='submit' value='Submit' />
+<input type='text' name='company' value="<? echo 'Replace asteriks with Captcha [******]';?>">
+<input type='text' name='captcha' id='captcha' placeholder='Enter Captcha'>
+<div class='captcha'><img src='/CAPTCHA/<?php echo mb_rand('l'); ?>' alt='Captcha' title='Captcha' id='lcaptcha_image'><img src='/CAPTCHA/<?php echo mb_rand('2'); ?>' alt='Captcha' title='Captcha' id='2captcha_image'><img src='/CAPTCHA/<?php echo mb_rand('3'); ?>' alt='Captcha' title='Captcha' id='3captcha_image'> <a href='javascript: AionianBible_RefreshCaptcha();'>Refresh Captcha</a></div>
+<input type='submit' name='submit' value='Submit'>
 </form>
 <?
 }
@@ -284,7 +283,6 @@ abcms_tail();
 }
 /*** CAPTCHA ***/
 function abcms_mail_captcha() {
-// https://www.allphptricks.com/create-a-simple-captcha-script-using-php/
 // setup
 global $_Part;
 session_start();
@@ -1314,7 +1312,7 @@ else {
 	if (empty($standard) || !is_array($standard) || count($_BibleCHAP1) != count($standard)) { echo "This verse may be mis-aligned with Strongs references.<br>"; }
 	foreach($_BibleSTRONGS as $tag) {
 		abcms_enty($tag[4],$tag,$_BibleBOOKS[$_Part[2]]['CODE'],$chap,$verse);
-		echo "<hr />";
+		echo "<hr>";
 	}
 }
 echo "</div>\n";
@@ -1453,7 +1451,7 @@ foreach( $bible_ALL as $bible => $version ) {
 		if ($rtl) {	echo "<table class='word-rtl $stripe'><tr><td class='word-refs rtlref'><span class='word-verse'>$vref_link</span></td></tr><tr><td class='word-text'>$verse_text</td></tr></table>\n"; }
 		else {		echo "<div class='word-para $stripe aionian'><div class='word-para-ref'>$vref_link</div>\n<div class='word-para-one'>$verse_number$verse_text</div>\n</div>\n"; }
 	}
-	if ($x) { echo "<hr />"; }
+	if ($x) { echo "<hr>"; }
 }
 echo "</div>\n";
 abcms_tail();	
@@ -1506,8 +1504,8 @@ abcms_head();
 The  <span class='notranslate'>Aionian</span>  Bible un-translates and instead transliterates eleven special words to help us better understand the extent of God’s love for individuals and all mankind, and the nature of afterlife destinies.  The original translation is unaltered and an inline note is appended to 64 Old Testament and 200 New Testament verses. Compare the definitions below to the <a href='/Glossary' title='Aionian Glossary' onclick='return AionianBible_Makemark("/Glossary");'><span class='notranslate'>Aionian</span> Glossary</a>. Follow the <span class='word-blue'>blue link</span> below to study the word's usage.  Search for any Strong's number: g1-21369 and h1-9049.<br>
 <div class=center>
 <form action='<? echo abcms_href(TRUE,'',TRUE,FALSE); ?>' method='post'>
-<input type='text' name='sid' placeholder='Enter g1-21369 or h1-9049 for Greek and Hebrew Strongs numbers, for example g166' value=''/>
-<input type='submit' name='search' value='Search' />
+<input type='text' name='sid' placeholder='Enter g1-21369 or h1-9049 for Greek and Hebrew Strongs numbers, for example g166' value=''>
+<input type='submit' name='search' value='Search'>
 </form>
 </div>
 <div id='strong-page'>
@@ -2213,7 +2211,7 @@ if (!$goodpage) { http_response_code(404); $_meta = 'Page not found'; }
 <meta charset='utf-8'>
 <title>Holy Bible Aionian Edition®<?echo $_meta;?></title>
 <meta name='description' content="Holy Bible Aionian Edition® ~ The world's first Holy Bible untranslation!<?echo $_meta;?>">
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name='mobile-web-app-capable' content='yes'>
 <meta name="generator" content="ABCMS™">
 <meta http-equiv='x-ua-compatible' content='ie=edge'>
@@ -2225,14 +2223,14 @@ if ($_para ||
 	echo "<meta name='robots' content='noindex'>";
 }
 ?>
-<meta property="og:url" content="https://www.aionianbible.org" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Holy Bible Aionian Edition" />
-<meta property="og:description" content="Holy Bible Aionian Edition<?echo $_meta;?>" />
-<meta property="og:image" content="/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-1.jpg"/>
-<meta property="og:image" content="/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-2.jpg"/>
-<meta property="og:image" content="/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-3.jpg"/>
-<meta property="og:image" content="/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-4.jpg"/>
+<meta property="og:url" content="https://www.aionianbible.org">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Holy Bible Aionian Edition">
+<meta property="og:description" content="Holy Bible Aionian Edition<?echo $_meta;?>">
+<meta property="og:image" content="/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-1.jpg">
+<meta property="og:image" content="/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-2.jpg">
+<meta property="og:image" content="/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-3.jpg">
+<meta property="og:image" content="/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-4.jpg">
 <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon'>
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -2240,9 +2238,9 @@ if ($_para ||
 <link rel="manifest" href="/site.webmanifest">
 <link rel='stylesheet' href='/styles/style.css'>
 <?
-if ($_Path=='Bibles' || $_Path=='Read' || $_Part[0]=='Parallel' || strpos($_Path, 'Debug')===0) {	echo "<noscript><link rel='stylesheet' type='text/css' href='/styles/style-all.css' /></noscript>"; }
-else {	if (!empty($_BibleONE['T_VERSIONS']['LANGUAGESTYLE'])) {	echo "<noscript><link rel='stylesheet' type='text/css' href='/styles/".$_BibleONE['T_VERSIONS']['LANGUAGESTYLE']."' /></noscript>"; }
-		if (!empty($_BibleTWO['T_VERSIONS']['LANGUAGESTYLE'])) {	echo "<noscript><link rel='stylesheet' type='text/css' href='/styles/".$_BibleTWO['T_VERSIONS']['LANGUAGESTYLE']."' /></noscript>"; }
+if ($_Path=='Bibles' || $_Path=='Read' || $_Part[0]=='Parallel' || strpos($_Path, 'Debug')===0) {	echo "<noscript><link rel='stylesheet' type='text/css' href='/styles/style-all.css'></noscript>"; }
+else {	if (!empty($_BibleONE['T_VERSIONS']['LANGUAGESTYLE'])) {	echo "<noscript><link rel='stylesheet' type='text/css' href='/styles/".$_BibleONE['T_VERSIONS']['LANGUAGESTYLE']."'></noscript>"; }
+		if (!empty($_BibleTWO['T_VERSIONS']['LANGUAGESTYLE'])) {	echo "<noscript><link rel='stylesheet' type='text/css' href='/styles/".$_BibleTWO['T_VERSIONS']['LANGUAGESTYLE']."'></noscript>"; }
 }
 ?> 
 <script><?echo "var AB_Collapse = $collapse;";?></script>
@@ -2262,8 +2260,8 @@ function abcms_head($headlo='',$good=TRUE) {
 <div id='sticky-body'>
 <div id='head'>
 <div id='head-hi'>
-<div id='logo1'><a href='/' title='Aionian Bible homepage'><img src='/images/Holy-Bible-Aionian-Edition-PURPLE-LOGO.png' alt='Aionian Bible' /></a></div>
-<div id='logo2'><a href='/' title='Aionian Bible homepage'><img src='/images/Holy-Bible-Aionian-Edition-PURPLE-AB.png' alt='Aionian Bible' /></a></div>
+<div id='logo1'><a href='/' title='Aionian Bible homepage'><img src='/images/Holy-Bible-Aionian-Edition-PURPLE-LOGO.png' alt='Aionian Bible'></a></div>
+<div id='logo2'><a href='/' title='Aionian Bible homepage'><img src='/images/Holy-Bible-Aionian-Edition-PURPLE-AB.png' alt='Aionian Bible'></a></div>
 <div id='menu'>
 <?
 global $_Path, $_Part;
@@ -2293,21 +2291,21 @@ global $_Orig, $_Path, $_Part, $_meta, $_BibleONE, $_BibleTWO, $_SwipePREV, $_Sw
 // share urls from https://github.com/bradvin/social-share-urls
 $url = ($good ? urlencode(($url0=("https://www.AionianBible.org/".preg_replace('/\s+/', ' ',$_Path)))) : urlencode($url0="https://www.AionianBible.org"));
 $title = ($good ? urlencode(($title0=preg_replace('/\s+/', ' ',"Holy Bible Aionian Edition® $_meta"))) : urlencode($title0="Holy Bible Aionian Edition® ~ Homepage"));
-$social  = "<a href='https://www.facebook.com/sharer.php?u=$url' target='_blank'><img src='/social/facebook.png' title='Facebook post' class='img25' /></a>";
-$social .= "<a href='https://x.com/intent/tweet?url=$url&text=$title&hashtags=AionianBible' target='_blank'><img src='/social/x.png' title='X/Twitter post' class='img25' /></a>";
-$social .= "<a href='https://www.linkedin.com/sharing/share-offsite/?url=$url' target='_blank'><img src='/social/linkedin.png' title='LinkedIn post' class='img25' /></a>";
-$social .= "<a href='https://reddit.com/submit?url=$url&title=$title' target='_blank'><img src='/social/reddit.png' title='Reddit post' class='img25' /></a>";
-$social .= "<a href='https://www.tumblr.com/widgets/share/tool?canonicalUrl=$url&title=$title&tags=AionianBible' target='_blank'><img src='/social/tumblr.png' title='Tumblr post' class='img25' /></a>";
-$social .= "<a href='https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=$url' target='_blank'><img src='/social/qzone.png' title='Qzone post' class='img25' /></a>";
-$social .= "<a href='https://vk.com/share.php?url=$url&title=$title' target='_blank'><img src='/social/vk.png' title='VK post' class='img25' /></a>";
-$social .= "<a href='https://service.weibo.com/share/share.php?url=$url&appkey=&title=$title&pic=&ralateUid=' target='_blank'><img src='/social/weibo.png' title='Weibo post' class='img25' /></a>";
-$social .= "<a href='mailto:?subject=".preg_replace("/ /","%20","$title0&body=$url0")."' target='_blank'><img src='/social/email.png' title='Email link' class='img25' /></a>";
+$social  = "<a href='https://www.facebook.com/sharer.php?u=$url' target='_blank'><img src='/social/facebook.png' title='Facebook post' class='img25'></a>";
+$social .= "<a href='https://x.com/intent/tweet?url=$url&text=$title&hashtags=AionianBible' target='_blank'><img src='/social/x.png' title='X/Twitter post' class='img25'></a>";
+$social .= "<a href='https://www.linkedin.com/sharing/share-offsite/?url=$url' target='_blank'><img src='/social/linkedin.png' title='LinkedIn post' class='img25'></a>";
+$social .= "<a href='https://reddit.com/submit?url=$url&title=$title' target='_blank'><img src='/social/reddit.png' title='Reddit post' class='img25'></a>";
+$social .= "<a href='https://www.tumblr.com/widgets/share/tool?canonicalUrl=$url&title=$title&tags=AionianBible' target='_blank'><img src='/social/tumblr.png' title='Tumblr post' class='img25'></a>";
+$social .= "<a href='https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=$url' target='_blank'><img src='/social/qzone.png' title='Qzone post' class='img25'></a>";
+$social .= "<a href='https://vk.com/share.php?url=$url&title=$title' target='_blank'><img src='/social/vk.png' title='VK post' class='img25'></a>";
+$social .= "<a href='https://service.weibo.com/share/share.php?url=$url&appkey=&title=$title&pic=&ralateUid=' target='_blank'><img src='/social/weibo.png' title='Weibo post' class='img25'></a>";
+$social .= "<a href='mailto:?subject=".preg_replace("/ /","%20","$title0&body=$url0")."' target='_blank'><img src='/social/email.png' title='Email link' class='img25'></a>";
 ?>
 <div id='social-footer'>
 <div id='google_translate_element'></div>
 <div id='social-shares'>
 <?echo $social;?><br>
-<a href='/EmailNews' target='_blank' title='EmailNews/AionianBible'><img src='/images/Aionian-Bible-Button-Your-Gift-Email-Newsletter.png' alt='EmailNews' title='Aionian Bible Gift and Newsletter' class='img25' /></a><a href='/Facebook' target='_blank' title='Facebook/AionianBible'><img src='/images/Aionian-Bible-Facebook.png' title='Aionian Bible on Facebook' class='img25' /></a><a href='/X' target='_blank' title='X/AionianBible Twitter'><img src='/images/Aionian-Bible-X.png' title='Aionian Bible on X/Twitter' class='img25' /></a><a href='/LinkedIn' target='_blank' title='LinkedIn/AionianBible'><img src='/images/Aionian-Bible-LinkedIn.png' title='Aionian Bible on LinkedIn' class='img25' /></a><a href='/Instagram' target='_blank' title='Instagram/AionianBible'><img src='/images/Aionian-Bible-Instagram.png' title='Aionian Bible on Instagram' class='img25' /></a><a href='/Pinterest' target='_blank' title='Pinterest/AionianBible'><img src='/images/Aionian-Bible-Pinterest.png' alt='Pinterest' title='Aionian Bible on Pinterest' class='img25' /></a><a href='/YouTube' target='_blank' title='YouTube/AionianBible'>	<img src='/images/Aionian-Bible-Youtube.png' title='Aionian Bible on Youtube' class='img25' /></a><a href='/Google-Play' target='_blank' title='GooglePlay/AionianBible'><img src='/images/Aionian-Bible-GooglePlay.png' alt='GooglePlay' title='Aionian Bible on GooglePlay' class='img25' /></a><a href='/TOR/<?echo $_Orig;?>' target='_blank' title='TOR/AionianBible'><img src='/images/Aionian-Bible-TOR.png' alt='TOR' title='Aionian Bible on The Onion Router network' class='img25' /></a><a href='/Buy' title='Buy Aionian Bibles and T-Shirts'><img src='/images/Aionian-Bible-Button-Buy-Square.png' title='Buy Aionian Bible in print' class='img25' /></a>
+<a href='/EmailNews' target='_blank' title='EmailNews/AionianBible'><img src='/images/Aionian-Bible-Button-Your-Gift-Email-Newsletter.png' alt='EmailNews' title='Aionian Bible Gift and Newsletter' class='img25'></a><a href='/Facebook' target='_blank' title='Facebook/AionianBible'><img src='/images/Aionian-Bible-Facebook.png' title='Aionian Bible on Facebook' class='img25'></a><a href='/X' target='_blank' title='X/AionianBible Twitter'><img src='/images/Aionian-Bible-X.png' title='Aionian Bible on X/Twitter' class='img25'></a><a href='/LinkedIn' target='_blank' title='LinkedIn/AionianBible'><img src='/images/Aionian-Bible-LinkedIn.png' title='Aionian Bible on LinkedIn' class='img25'></a><a href='/Instagram' target='_blank' title='Instagram/AionianBible'><img src='/images/Aionian-Bible-Instagram.png' title='Aionian Bible on Instagram' class='img25'></a><a href='/Pinterest' target='_blank' title='Pinterest/AionianBible'><img src='/images/Aionian-Bible-Pinterest.png' alt='Pinterest' title='Aionian Bible on Pinterest' class='img25'></a><a href='/YouTube' target='_blank' title='YouTube/AionianBible'>	<img src='/images/Aionian-Bible-Youtube.png' title='Aionian Bible on Youtube' class='img25'></a><a href='/Google-Play' target='_blank' title='GooglePlay/AionianBible'><img src='/images/Aionian-Bible-GooglePlay.png' alt='GooglePlay' title='Aionian Bible on GooglePlay' class='img25'></a><a href='/TOR/<?echo $_Orig;?>' target='_blank' title='TOR/AionianBible'><img src='/images/Aionian-Bible-TOR.png' alt='TOR' title='Aionian Bible on The Onion Router network' class='img25'></a><a href='/Buy' title='Buy Aionian Bibles and T-Shirts'><img src='/images/Aionian-Bible-Button-Buy-Square.png' title='Buy Aionian Bible in print' class='img25'></a>
 </div>
 <script>function googleTranslateElementInit() { new google.translate.TranslateElement({pageLanguage: 'xx' }, 'google_translate_element'); }</script>
 <script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
@@ -3418,8 +3416,8 @@ $caption =(($title=='The World is Destroyed by Water' ||
 			$title=='The Great Flood' ||
 			$title=='A Dove is Sent Forth from the Ark')
 			? $title :
-			"<a href='https://resources.aionianbible.org/Gustave-Dore-La-Grande-Bible-de-Tours/Gustave-Dore-Bible-Tour-$file.jpg' target='_blank' title=\"$title\">$title</a>");
-echo "<div id='dore'><img src='https://resources.aionianbible.org/Gustave-Dore-La-Grande-Bible-de-Tours/web/Gustave-Dore-Bible-Tour-$file.jpg' alt=\"$title\" /><br>$caption</div>";
+			"<a href='/resources/Gustave-Dore-La-Grande-Bible-de-Tours/Gustave-Dore-Bible-Tour-$file.jpg' target='_blank' title=\"$title\">$title</a>");
+echo "<div id='dore'><img src='/resources/Gustave-Dore-La-Grande-Bible-de-Tours/web/Gustave-Dore-Bible-Tour-$file.jpg' alt=\"$title\"><br>$caption</div>";
 return;
 }
 

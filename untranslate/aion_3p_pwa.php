@@ -33,6 +33,7 @@ DOCS
 	https://pwa-workshop.js.org
 	https://web.dev/progressive-web-apps/
 	https://www.freecodecamp.org/news/build-a-pwa-from-scratch-with-html-css-and-javascript/
+	https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/How_to/Trigger_install_prompt
 	
 	https://dev.to/mtee/caching-a-fetching-data-in-pwa-56ai
 	https://medium.com/james-johnson/a-simple-progressive-web-app-tutorial-f9708e5f2605 
@@ -62,8 +63,8 @@ ARCHIVE
 // PWA COMPILER
 AION_LOOP_PWA(	'/home/inmoti55/public_html/domain.aionianbible.org/www-stageresources',
 				'/home/inmoti55/public_html/domain.aionianbible.org/www-stage/library/pwa' );
+//AION_LOOP_DIFF_PWA(	'../www-stage/library/pwa', '../www-production-files/library/pwa', '../diff-www-stagepwa-with-pwa-BEFORE-DEPLOY');
 AION_ECHO("DONE!");
-//AION_LOOP_DIFF(	'../www-stage/library/pwa', '../www-production-files/library/pwa', '../diff-www-stagepwa-with-pwa-BEFORE-DEPLOY');
 return;
 
 
@@ -80,13 +81,13 @@ function AION_LOOP_PWA($source, $destiny) {
 		'function'		=> 'AION_LOOP_PWA_DOIT',
 		'source'		=> $source,
 		//'include'		=> "/Holy-Bible---.*(Albanian).*---Aionian-Edition\.noia$/",
-		//'include'		=> "/Holy-Bible---.*(Amo|Aionian-Bible|Traditional|Sencillo|Masoretic).*---Aionian-Edition\.noia$/",
+		'include'		=> "/Holy-Bible---.*(Amo|Aionian-Bible|Traditional|Sencillo|Masoretic).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.+(Basic).+---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.*(Azerb|Gaelic|Somali).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.*(STEPBible).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---Gamotso---Gamo---Aionian-Edition\.noia$/",
-		'include'		=> "/---Aionian-Edition\.noia$/",
+		//'include'		=> "/---Aionian-Edition\.noia$/",
 		'database'		=> $database,
 		'destiny'		=> $destiny,
 		) );
@@ -654,8 +655,8 @@ $foreign_font = <<< EOF
 	font-family:
 		'$n';
 	src:
-		fonts/{$f}.woff	format('woff'),
-		fonts/{$f}.ttf	format('truetype');
+		url('fonts/{$f}.woff')	format('woff'),
+		url('fonts/{$f}.ttf')	format('truetype');
 }
 .ff { font-family: 'NotoSans', '$n', 'Arial', 'sans-serif', 'GentiumPlus'; }
 
@@ -738,6 +739,7 @@ OTHER
 #EDEDED gray light
 #FFFFFF white
 #000000 black
+#F8F8F8 super light gray
 */
 
 /* FONT */
@@ -745,24 +747,24 @@ OTHER
 	font-family:
 		'NotoSans';
 	src:
-		fonts/notosans-basic-regular.woff2	format('woff2'),
-		fonts/notosans-basic-regular.woff	format('woff'),
-		fonts/notosans-basic-regular.ttf	format('truetype');
+		url('fonts/notosans-basic-regular.woff2')	format('woff2'),
+		url('fonts/notosans-basic-regular.woff')	format('woff'),
+		url('fonts/notosans-basic-regular.ttf')		format('truetype');
 }
 @font-face {
 	font-family:
 		'GentiumPlus';
 	src:
-		fonts/gentiumplus-r.woff2			format('woff2'),
-		fonts/gentiumplus-r.woff			format('woff'),
-		fonts/gentiumplus-r.ttf				format('truetype');
+		url('fonts/gentiumplus-r.woff2')			format('woff2'),
+		url('fonts/gentiumplus-r.woff')				format('woff'),
+		url('fonts/gentiumplus-r.ttf')				format('truetype');
 }
 {$G_PWA->font}
 html,body	{ font-family: 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
 
 /* BASE */
 html { height: 100%; }
-body { height: 100%; margin: 0; min-width: 360px; font-size: 100%; color: #191919; }
+body { height: 100%; margin: 0; min-width: 360px; font-size: 100%; color: #191919; background-color: #F8F8F8; }
 h1, h2, h3, h4 { margin: 0 0 10px 0; }
 p { margin: 0 0 10px 0; }
 img { max-width: 100%; height: auto; }
@@ -803,10 +805,11 @@ a:hover { color: #9966CC; }
 #aion { padding: 0 0 15px 0; font-style: italic; font-size: 130%; font-weight: bold; color: #191919; }
 #moto { margin: 10px 0 0 0; color: #663399; }
 .RegisteredTM { font-size: 75%; }
-#java { text-align: center; color: red; }
+#java { text-align: center; font-weight: bold; }
+#java .red { color: red; }
 
 /* PAGE HEAD */
-#page {	height: 100%; max-width: 1280px; margin: 0 auto; }
+#page {	height: 100%; max-width: 1280px; margin: 0 auto; padding: 0 10px; background-color: #FFFFFF; }
 #head { position: fixed; width: 100%; max-width: 1280px; min-width: 360px; background-color: #FFFFFF; }
 #head-hi { max-height: 42px; margin-top: 10px; padding: 2px 15px; border: 1px solid #663399; border-radius: 7px; background-color: #663399; overflow: hidden; }
 #logo { }
@@ -849,7 +852,7 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 #word-menu .word-menu-r { float: right; }
 
 #word-menu-float { position: fixed; width: 0px; height: 0px; bottom: 0px; left: 0px; font-size: 200%; }
-#word-menu-float a  { position: fixed; width: 32px; height: 40%; top: 30%; background-color: #EDEDED; color: #FFFFFF; border-radius: 10px; text-align: center; display: table; }
+#word-menu-float a  { position: fixed; width: 32px; height: 40%; top: 30%; background-color: #D3D3D3; color: #FFFFFF; border-radius: 10px; text-align: center; display: table; }
 #word-menu-float a span  { display: table-cell; vertical-align: middle; }
 #word-menu-float a.left  { left:  7px; }
 #word-menu-float a.right { right: 7px; }
@@ -963,8 +966,8 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 <div id='sticky-body'>
 <div id='head'>
 <div id='head-hi'>
-<div id='logo1'><a href='?PWA' title='Aionian Bible homepage' onclick="ABDO('PWA');return false;"><img src='images/Holy-Bible-Aionian-Edition-PURPLE-LOGO.png' alt='Aionian Bible'></a></div>
-<div id='logo2'><a href='?PWA' title='Aionian Bible homepage' onclick="ABDO('PWA');return false;"><img src='images/Holy-Bible-Aionian-Edition-PURPLE-AB.png' alt='Aionian Bible'></a></div>
+<div id='logo1'><a href='?PWA' title='Aionian Bible homepage' onclick="ABDO('PWA');return false;"><img src='images/Holy-Bible-Aionian-Edition-PURPLE-LOGO-PWA.png' alt='Aionian Bible'></a></div>
+<div id='logo2'><a href='?PWA' title='Aionian Bible homepage' onclick="ABDO('PWA');return false;"><img src='images/Holy-Bible-Aionian-Edition-PURPLE-AB-PWA.png' alt='Aionian Bible'></a></div>
 <div id='menu'>
 <a href="?TOC" title="Table of Contents" onclick="ABDO('TOC');return false;">TOC</a>
 <a href='?Bookmark' title='Go to Bookmark' onclick='AionianBible_Get();return false;'>Get</a> 
@@ -979,15 +982,15 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 </div>
 <div id='body' class=''>
 
-<div id='java'>( Javascript and cookies required )</div>
+<div id='java'><span class='red'>( Javascript and cookies required )</span></div>
 <div id='home1'>
 <a title="Return to last page read or TOC" href="?Bookmark" onclick="ABDO('Bookmark'); return false;">
 <div id='home2'>
 <h2 class='title'>
-<span class='black'>Progressive Web Application</span><br>
 {$G_PWA->bible_title}<br>
 <span class='black'>Welcome to the <i>Holy&nbsp;Bible&nbsp;Aionian&nbsp;Edition<span class='RegisteredTM'>®</span></i></span>
 </h2>
+<div id="logo"><img src="images/Holy-Bible-Aionian-Edition-PURPLE-HOME.png" alt="Aionian Bible"></div>
 {$G_FORPRINT['JOH3_16']}
 <div id='moto'>
 One of the world's first Holy Bible <u>untranslations</u><br>
@@ -1061,7 +1064,7 @@ const AB_Bible = [
 <a title="Return to last page read or TOC" href="?Bookmark" onclick="ABDO('Bookmark'); return false;">{$G_PWA->bible_title}</a>
 </h2>
 <a title="AionianBible.org online"		href="https://www.AionianBible.org/Read" target="_blank">AionianBible.org for all Bibles</a><br>
-<a title='Internet connection required'	href='?TOC' onclick="AionianBible_reload();return false;">Update PWA from source</a><br>
+<a title='Internet connection required'	href='?TOC' onclick="AionianBible_reload();return false;">Update Bible App</a><br>
 <a title="Copyright"					href="?Copyright"	onclick="ABDO('Copyright');	return false;">Copyright</a><br>
 <a title="Preface"						href="?Preface"		onclick="ABDO('Preface');	return false;">{$G_FORPRINT['W_PREF']}</a><br>
 <a title="Aiōnios and Aïdios"			href="?Aionian"		onclick="ABDO('Aionian');	return false;">Aiōnios and Aïdios</a>
@@ -1652,14 +1655,14 @@ function AionianBible_reload() {
 			const headers = response.headers;
 			var modified = '';
 			if (headers) { modified = ' dated: ' + headers.get('last-modified'); }
-			alert('Updated PWA from source' + modified);
+			alert('Update Bible App from source' + modified);
 			location.reload();
 		}
 		else {
-			alert('PWA source not available');
+			alert('Bible App update not available');
 		}
 	}).catch(err => {
-		alert('PWA source not available');
+		alert('Bible App update not available');
 	});
 }
 
@@ -1801,8 +1804,9 @@ const AionianBible_precachedResources = [
 'images/favicon-32x32.png',
 'images/favicon-16x16.png',
 'images/apple-touch-icon.png',
-'images/Holy-Bible-Aionian-Edition-PURPLE-LOGO.png',
-'images/Holy-Bible-Aionian-Edition-PURPLE-AB.png',
+'images/Holy-Bible-Aionian-Edition-PURPLE-HOME.png',
+'images/Holy-Bible-Aionian-Edition-PURPLE-LOGO-PWA.png',
+'images/Holy-Bible-Aionian-Edition-PURPLE-AB-PWA.png',
 'images/Gustave-Dore-Bible-Tour-Hebrew-OT-003-Adam-and-Eve-Are-Driven-out-of-Eden.jpg',
 'images/Gustave-Dore-Bible-Tour-NT-Gospel-215-The-Crucifixion-of-Jesus-and-Two-Criminals.jpg',
 'images/Gustave-Dore-Bible-Tour-NT-Gospel-241-The-New-Jerusalem.jpg',
@@ -1817,14 +1821,13 @@ const AionianBible_precachedResources = [
 
 async function AionianBible_precache() {
 	const cache = await caches.open(AionianBible_cacheName);
+	console.log(`Aionian Bible App precache: complete`);
 	return cache.addAll(AionianBible_precachedResources);
 }
 
-/*
 self.addEventListener("install", (event) => {
 	event.waitUntil(AionianBible_precache());
 });
-*/
 
 // CACHE THEN REFRESH
 async function AionianBible_cacheFirstWithRefresh(request) {
@@ -1845,11 +1848,35 @@ self.addEventListener("fetch", (event) => {
 
 
 
+///////////////////////////////////////////////////////////////////////////////////////////////////
+// INSTALL LINK
+var AionianBible_PWA_preventDefault = null;
+function AionianBible_PWA_Install() {
+	document.getElementById('java').innerHTML = "<a href='?PWA' onclick='AionianBible_PWA_InstallPrompt();return false;' title='Install Progressive Web Application'>( Install Bible App )</a>";
+}
+function AionianBible_PWA_Update() {
+	document.getElementById('java').innerHTML = "<a title='Internet connection required' href='?PWA' onclick='AionianBible_reload();return false;'>( Update Bible App )</a>";
+}
+// install request
+async function AionianBible_PWA_InstallPrompt() {
+	if (!AionianBible_PWA_preventDefault) {
+		return;
+	}
+	const result = await AionianBible_PWA_preventDefault.prompt();
+	console.log(`Aionian Bible App install prompt: \${result.outcome}`);
+	AionianBible_PWA_Update();
+}
+
+
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // ONLOAD
 window.onload = function() {
-	// get bookmarks
+	// precache
+	AionianBible_precache();
+
+	// bookmarks
 	AB_Bookmark = AionianBible_readCookie("AionianBible.Bookmark");
 	if (AB_Bookmark === null) {
 		AB_Bookmark = 'TOC';
@@ -1861,17 +1888,25 @@ window.onload = function() {
 		AionianBible_writeCookie("AionianBible.Bookmark", AB_Bookmark2);
 	}
 
-	// remove javascript warning and copy Homepage to page array
-	document.getElementById('java').outerHTML = '';
+	// homepage
+	document.getElementById('java').innerHTML = '';
 	AB_Bible[0] = document.getElementById('body').innerHTML;
-
-	// homepage or query
 	const query = window.location.search;
 	if (query && query != "?PWA") {	ABDO(query.substr(1), window.location.hash); }
 	else {							window.history.replaceState({go:'PWA'}, '', location.pathname + "?PWA"); }
 
-	// load the precache
-	AionianBible_precache();
+	// install
+	AionianBible_PWA_Update();
+	window.addEventListener("beforeinstallprompt", (event) => {
+		event.preventDefault();
+		AionianBible_PWA_preventDefault = event;
+		AionianBible_PWA_Install();
+	});
+	window.addEventListener("appinstalled", () => {
+		AionianBible_PWA_Update();
+	});
+
+	console.log(`Aionian Bible App onload: complete`);
 }
 
 </script>

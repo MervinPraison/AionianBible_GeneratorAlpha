@@ -35,9 +35,9 @@ $HEADER = <<<EOT
 # Report STEPBible data concerns at https://github.com/STEPBible/STEPBible-Data
 #
 # FILES:
-# AB-README.txt									This explanation.
+# _README.txt									This explanation.
 # AB-Shared-Resources.zip						Repackaged from https://github.com/STEPBible/STEPBible-Data
-#	AB-README.txt								Also this explanation.
+#	_README.txt									Also this explanation.
 #	Greek-Lexicon.txt							Tyndale Greek extended Strongs lexicon.
 #	Greek-Lexicon-LSJ.txt						Liddell Scott Jones lexicon.
 #	Greek-Lexicon-LSJ-Extra.txt					Liddell Scott Jones lexicon.
@@ -365,7 +365,7 @@ foreach($PACKS as $lang => $pack) {
 	// write the files
 	AION_ECHO("Copy: more files");
 	// revise and write README
-	if (file_put_contents("$studypack/AB-README.txt", $HEADER)===FALSE) {																									AION_ECHO("ERROR! file_put_contents(6)"); }
+	if (file_put_contents("$studypack/_README.txt", $HEADER)===FALSE) {																								AION_ECHO("ERROR! file_put_contents(6)"); }
 	// zip the files
 	AION_ECHO("Zip: $studypack");
 	unlink("../www-resources/AB-StudyPack/$studypack.zip");
@@ -375,7 +375,7 @@ foreach($PACKS as $lang => $pack) {
 
 /////////////////////////////////////////////////////////////////
 // README
-if (file_put_contents("../www-resources/AB-StudyPack/AB-README.txt", $HEADER)===FALSE) {																				AION_ECHO("ERROR! file_put_contents(7)"); }
+if (file_put_contents("../www-resources/AB-StudyPack/_README.txt", $HEADER)===FALSE) {																				AION_ECHO("ERROR! file_put_contents(7)"); }
 
 //////////////////////////////////////////////////////////////////
 // make the shared resource PACK
@@ -384,7 +384,7 @@ AION_ECHO("Zip: $studypack");
 unlink("../www-resources/AB-StudyPack/$studypack.zip");
 system("rm -rf $studypack");
 if (!mkdir($studypack)) { AION_ECHO("ERROR! mkdir()"); }
-if (!copy("../www-resources/AB-StudyPack/AB-README.txt", "$studypack/AB-README.txt")) {																								AION_ECHO("ERROR! copy(1)"); }
+if (!copy("../www-resources/AB-StudyPack/_README.txt", "$studypack/_README.txt")) {																									AION_ECHO("ERROR! copy(1)"); }
 if (!copy("../STEPBible-Data-master-production/TBESG - Translators Brief lexicon of Extended Strongs for Greek - STEPBible.org CC BY.txt", "$studypack/Greek-Lexicon.txt")) {		AION_ECHO("ERROR! copy(2)"); }
 if (!copy("../STEPBible-Data-master-production/TBESH - Translators Brief lexicon of Extended Strongs for Hebrew - STEPBible.org CC BY.txt", "$studypack/Hebrew-Lexicon.txt")) {		AION_ECHO("ERROR! copy(3)"); }
 if (!copy("../STEPBible-Data-master-production/TEGMC - Translators Expansion of Greek Morphhology Codes - STEPBible.org CC BY.txt", "$studypack/Greek-Morphhology.txt")) {			AION_ECHO("ERROR! copy(4)"); }

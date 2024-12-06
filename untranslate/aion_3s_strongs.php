@@ -71,7 +71,7 @@ $CHECK_UHEB = "CHECK_UNUSED_HEBREW_TBESH.txt";
 $CHECK_VARS = "CHECK_VARIANT.txt";
 $CHECK_WARN = "CHECK_WARNINGS.txt";
 // readme +
-$README_FILE = "AREADME.md";
+$README_FILE = "_README.md";
 $HTACCESS_FILE = ".htaccess";
 // hebrew
 $HEBREW_VIZBI_DATA = "Hebrew_Lexicon_Strongs.txt";

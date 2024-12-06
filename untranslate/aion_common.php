@@ -287,11 +287,11 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $allbibles ) {
 
         (empty($database[$version[C_BIBLE]][T_VERSIONS]['SOURCE'])?'':("\n<div class='field-field'><div class='field-label'>Source:</div><div class='field-value'>".$database[$version[C_BIBLE]][T_VERSIONS]['SOURCE']."</div></div>")).
 		$source_version.
-        (empty($database[$version[C_BIBLE]][T_VERSIONS]['SOURCELINK'])?'':("\n<div class='field-field'><div class='field-label'>Source URL:</div><div class='field-value'><a href='".$database[$version[C_BIBLE]][T_VERSIONS]['SOURCELINK']."' target='_blank'>".$database[$version[C_BIBLE]][T_VERSIONS]['SOURCELINK']."</a>".(empty($database[$version[C_BIBLE]][T_VERSIONS]['SOURCELINKEXTRA'])?'':"<br /><a href='".$database[$version[C_BIBLE]][T_VERSIONS]['SOURCELINKEXTRA']."' target='_blank'>".$database[$version[C_BIBLE]][T_VERSIONS]['SOURCELINKEXTRA']."</a>")."</div></div>")).
+        (empty($database[$version[C_BIBLE]][T_VERSIONS]['SOURCELINK'])?'':("\n<div class='field-field'><div class='field-label'>Source URL:</div><div class='field-value'><a href='".$database[$version[C_BIBLE]][T_VERSIONS]['SOURCELINK']."' target='_blank'>".$database[$version[C_BIBLE]][T_VERSIONS]['SOURCELINK']."</a>".(empty($database[$version[C_BIBLE]][T_VERSIONS]['SOURCELINKEXTRA'])?'':"<br><a href='".$database[$version[C_BIBLE]][T_VERSIONS]['SOURCELINKEXTRA']."' target='_blank'>".$database[$version[C_BIBLE]][T_VERSIONS]['SOURCELINKEXTRA']."</a>")."</div></div>")).
         (empty($database[$version[C_BIBLE]][T_VERSIONS]['COPYRIGHT'])?'':("\n<div class='field-field'><div class='field-label'>Source Copyright:</div><div class='field-value'>".$database[$version[C_BIBLE]][T_VERSIONS]['COPYRIGHT']."</div></div>")).
         (empty($database[$version[C_BIBLE]][T_VERSIONS]['YEAR'])?'':("\n<div class='field-field'><div class='field-label'>Source Published:</div><div class='field-value'>".$database[$version[C_BIBLE]][T_VERSIONS]['YEAR']."</div></div>")).
 		
-		(empty($database[$version[C_BIBLE]][T_VERSIONS]['EXTENSION'])? '' : ("\n<div class='field-field'><div class='field-label'>Additional Information:<br /></div><div class='field-value'>".$database[$version[C_BIBLE]][T_VERSIONS]['EXTENSION']."</div></div>")).
+		(empty($database[$version[C_BIBLE]][T_VERSIONS]['EXTENSION'])? '' : ("\n<div class='field-field'><div class='field-label'>Additional Information:<br></div><div class='field-value'>".$database[$version[C_BIBLE]][T_VERSIONS]['EXTENSION']."</div></div>")).
 
 		($database[$version[C_BIBLE]][T_VERSIONS]['DOWNLOAD']=='N' ? '' : ( 
 
@@ -319,7 +319,7 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $allbibles ) {
 		  !empty($L_LULUNT) ||
 		  !empty($L_LULUJOHN)) ?
         ("\n<div class='field-header'>Purchase / Buy:</div><div class='field-field'><div class='field-links decorated'>".
-		(TRUE					?("<a href='/Buy' title='Buy Aionian Bible'><img src='/images/Aionian-Bible-Button-Buy-25.png' title='Buy the Aionian Bible in print' /></a> ") :'').
+		(TRUE					?("<a href='/Buy' title='Buy Aionian Bible'><img src='/images/Aionian-Bible-Button-Buy-25.png' title='Buy the Aionian Bible in print'></a> ") :'').
 		(TRUE					?("<a href='/Buy' title='Buy the Aionian Bible in print'>All Bibles</a>, ") :'').
 		(!empty($L_AMAZON)		?("<a href='$L_AMAZON' target='_blank' title='Buy Holy Bible Aionian Edition print copy at Amazon.com'>Amazon</a>, ")					:'').
 		(!empty($L_AMAZONNT)	?("<a href='$L_AMAZONNT' target='_blank' title='Buy Holy Bible Aionian Edition New Testament print copy at Amazon.com'>Amazon New Testament</a>, ")	:'').
@@ -505,6 +505,34 @@ function AION_LOOP_DIFF_DOIT($args) {
 		}
 		if (!is_file($fileout)) {														AION_ECHO("ERROR! Bad diff()"); }
 		AION_ECHO('DIFF REG: '.$filepath1.' VS '.$filepath2);
+	}
+}
+
+function AION_LOOP_DIFF_PWA($stag, $prod, $dest) {
+	system("rm -rf $dest");
+	if (!mkdir($dest)) { AION_ECHO("ERROR! !mkdir: $dest"); }
+	$files = array_diff(scandir($stag), array('.', '..'));
+	foreach($files as $file) {
+		if (!is_dir("$stag/$file") || !preg_match("/^Holy/", $file)) {
+			AION_ECHO("SKIPPING: $file");
+			continue;
+		}
+		$stagZ = "$stag/$file/pwa.htm";
+		$prodZ = "$prod/$file/pwa.htm";		
+		$destZ = "$dest/$file.diff";
+		if (file_put_contents($destZ, "BEGIN DIFF! $stagZ VS $prodZ\n")===FALSE) {
+			AION_ECHO("ERROR! Failed header diff write!");
+		}
+		if (!is_file($stagZ) || !is_file($prodZ)) {
+			if (file_put_contents($destZ, "Cannot diff because file missing: $stagZ VS $prodZ\n",FILE_APPEND)===FALSE) {
+				AION_ECHO("ERROR! Failed missing diff write!");
+			}
+			AION_ECHO("MISSING: Cannot diff because file missing: $stagZ VS $prodZ");
+			continue;
+		}
+		system("diff '$stagZ' '$prodZ' 2>&1 >> '$destZ'");
+		if (!is_file($destZ)) { AION_ECHO("ERROR! Bad diff()"); }
+		AION_ECHO("DIFF PWA! $stagZ VS $prodZ");
 	}
 }
 
@@ -3087,22 +3115,22 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$debug .= "table td { border: 0px solid gray; padding: 12px 3px; }\n";
 	$debug .= "</style>\n";
 	$debug .= "</head>\n<body style='margin:20px;padding:0'>\n<h2>AionianBible.org Proofer Reader</h2>\n";
-	$debug .= "<a href='https://ebible.org/Scriptures/copyright.php' target='_blank'>https://ebible.org/Scriptures/copyright.php</a><br />\n";
-	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---eBible.htm' target='_blank'>eBible public domain and CC Bibles</a><br />\n";
-	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---eBible-source.txt' target='_blank'>eBible public domain and CC Bibles source template</a><br />\n";
-	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---Questioned.htm' target='_blank'>Questioned Verses</a><br />\n";
-	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---LongLine.htm' target='_blank'>Long Verses, Source Edition</a><br />\n";
-	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---LongLine-STD.htm' target='_blank'>Long Verses, Aionian Edition</a><br />\n";
-	$debug .= "<a href='/library/stepbible/CHECK_HTML_HEBREW_TBESH.htm' target='_blank'>STEPBible Hebrew TBESH Lexicon Errors</a><br />\n";
-	$debug .= "<a href='/library/stepbible/CHECK_HTML_HEBREW_TAHOT.htm' target='_blank'>STEPBible Hebrew TAHOT Line Errors</a><br />\n";
-	$debug .= "<a href='/library/stepbible/CHECK_HTML_GREEK_TBESG.htm' target='_blank'>STEPBible Greek TBESG Lexicon Errors</a><br />\n";
-	$debug .= "<a href='/library/stepbible/CHECK_HTML_GREEK_TFLSJ.htm' target='_blank'>STEPBible Greek TFLSJ Lexicon Errors</a><br />\n";
-	$debug .= "<a href='/library/stepbible/CHECK_HTML_GREEK_TAGNT.htm' target='_blank'>STEPBible Greek TAGNT Line Errors</a><br />\n";
-	$debug .= "<a href='/Please' target='_blank'>Foreign Phrases at AionianBible.org/Please</a><br />\n";
-	$debug .= "<a href='/RTL' target='_blank'>Right-to-Left and Hindic proofing at AionianBible.org/RTL</a><br />\n";
-	$debug .= "<a href='/Promote' target='_blank'>Promote at AionianBible.org/Promote</a><br />\n";
-	$debug .= "<a href='/index-rates.php' target='_blank'>Caculate KDP currency exchange rates</a><br />\n";
-	$debug .= "<br />\n";
+	$debug .= "<a href='https://ebible.org/Scriptures/copyright.php' target='_blank'>https://ebible.org/Scriptures/copyright.php</a><br>\n";
+	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---eBible.htm' target='_blank'>eBible public domain and CC Bibles</a><br>\n";
+	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---eBible-source.txt' target='_blank'>eBible public domain and CC Bibles source template</a><br>\n";
+	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---Questioned.htm' target='_blank'>Questioned Verses</a><br>\n";
+	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---LongLine.htm' target='_blank'>Long Verses, Source Edition</a><br>\n";
+	$debug .= "<a href='/library/Holy-Bible---AAA---Versions---LongLine-STD.htm' target='_blank'>Long Verses, Aionian Edition</a><br>\n";
+	$debug .= "<a href='/library/stepbible/CHECK_HTML_HEBREW_TBESH.htm' target='_blank'>STEPBible Hebrew TBESH Lexicon Errors</a><br>\n";
+	$debug .= "<a href='/library/stepbible/CHECK_HTML_HEBREW_TAHOT.htm' target='_blank'>STEPBible Hebrew TAHOT Line Errors</a><br>\n";
+	$debug .= "<a href='/library/stepbible/CHECK_HTML_GREEK_TBESG.htm' target='_blank'>STEPBible Greek TBESG Lexicon Errors</a><br>\n";
+	$debug .= "<a href='/library/stepbible/CHECK_HTML_GREEK_TFLSJ.htm' target='_blank'>STEPBible Greek TFLSJ Lexicon Errors</a><br>\n";
+	$debug .= "<a href='/library/stepbible/CHECK_HTML_GREEK_TAGNT.htm' target='_blank'>STEPBible Greek TAGNT Line Errors</a><br>\n";
+	$debug .= "<a href='/Please' target='_blank'>Foreign Phrases at AionianBible.org/Please</a><br>\n";
+	$debug .= "<a href='/RTL' target='_blank'>Right-to-Left and Hindic proofing at AionianBible.org/RTL</a><br>\n";
+	$debug .= "<a href='/Promote' target='_blank'>Promote at AionianBible.org/Promote</a><br>\n";
+	$debug .= "<a href='/index-rates.php' target='_blank'>Caculate KDP currency exchange rates</a><br>\n";
+	$debug .= "<br>\n";
 	$debug .= "<table>";
 	$debug .="<tr><td>BIBLE</td><td>P</td><td>S</td><td>NOT</td><td>B#</td><td>LAN</td><td>OLD</td><td>NEW</td><td>CHP</td><td>VER</td><td>AIO</td><td>QUE</td><td>LON</td><td>CMI</td><td>VMI</td><td>VXT</td><td>VFI</td><td>NOF</td><td>CMA</td><td>VMI</td><td>VME</td><td>CUS</td><td>PAG</td><td>PAN</td><td>PRI</td><td>KDP</td><td>KNT</td><td>KJO</td><td>LUL</td><td>LNT</td><td>LHC</td><td>LJO</td><td>WAT</td><td>STA</td></tr>\n";
 	$foreign = "<!DOCTYPE html><html lang='en'>\n<head>\n<meta charset='utf-8'>\n<title>Aionian Bible Foreign Language Proof Reader</title>\n";
@@ -3112,12 +3140,12 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$foreign .= "</style>\n";
 	$foreign .= "</head><body style='margin:20px;padding:0'><span id='top'></span>\n";
 	$foreign .= "<h2>AionianBible.org Foreign Language Proof Reader</h2>\n";
-	$foreign .= "Please help make public domain Bibles available in 74 world languages.<br />\n";
-	$foreign .= "Do you or a friend know any of the foreign languages listed below?  We need your help!<br />\n";
-	$foreign .= "Please help translate or confirm 14 words and phrases used as page headings.<br />\n";
-	$foreign .= "<a href='/'>AionianBible.org</a> is sponsored by <a href='https://nainoia-inc.signedon.net' target='_blank'>Nainoia Inc</a>.<br />\n";
-	$foreign .= "<b>** Click on the language link below to see 14 words for translation.</b><br />\n";
-	$foreign .= "<br />\n";
+	$foreign .= "Please help make public domain Bibles available in 74 world languages.<br>\n";
+	$foreign .= "Do you or a friend know any of the foreign languages listed below?  We need your help!<br>\n";
+	$foreign .= "Please help translate or confirm 14 words and phrases used as page headings.<br>\n";
+	$foreign .= "<a href='/'>AionianBible.org</a> is sponsored by <a href='https://nainoia-inc.signedon.net' target='_blank'>Nainoia Inc</a>.<br>\n";
+	$foreign .= "<b>** Click on the language link below to see 14 words for translation.</b><br>\n";
+	$foreign .= "<br>\n";
 	$last="";
 	$count_google = $count_trans = $count_total = 0;
 	foreach($database['T_VERSIONS'] as $bible) {
@@ -3128,10 +3156,10 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 		if (stripos($database['T_FORPRINT'][$bible['BIBLE']]['STATUS'],'Confirm')!==FALSE) { ++$count_google; }
 		else { ++$count_trans; }
 		$status = (stripos($database['T_FORPRINT'][$bible['BIBLE']]['STATUS'],'Confirm')!==FALSE ? "*" : "");
-		$foreign .= "<a href='#".str_replace(array(' ',','),"-",$bible['LANGUAGEENGLISH'])."'>".$bible['LANGUAGEENGLISH']." / ".$bible['LANGUAGE']."</a> $status<br />\n";
+		$foreign .= "<a href='#".str_replace(array(' ',','),"-",$bible['LANGUAGEENGLISH'])."'>".$bible['LANGUAGEENGLISH']." / ".$bible['LANGUAGE']."</a> $status<br>\n";
 	}
 	$count_done = $count_total - ($count_google + $count_trans);
-	$foreign .= "<br />There are $count_total languages with $count_done completed, $count_trans to translate, and $count_google to review.<br /><br /><br /><br /><br />\n";
+	$foreign .= "<br>There are $count_total languages with $count_done completed, $count_trans to translate, and $count_google to review.<br><br><br><br><br>\n";
 	$foreign .= "<P style='page-break-before: always'>\n\n";
 	$grandtotal = array('BIBLE_COUNT'=>0,'LANG_COUNT'=>0,'BOOK_OT'=>0,'BOOK_NT'=>0,'CHAP_TOTAL'=>0,'VERS_TOTAL'=>0,'VERS_AION'=>0,'VERS_QUES'=>0,'LONG'=>0,'CHAP_NO'=>0,'VERS_NO'=>0,'VERS_EX'=>0,'FIXED'=>0,'NOTFIXED'=>0,'CHAP_RE'=>0,'REVE_NO'=>0,'REVE_EX'=>0,'CUSTO'=>0,'PDFPA'=>0,'PDFPN'=>0,'PDFPI'=>(float)0,'PDF_PKDP'=>0,'PDF_PLUL'=>0,'PDF_PKNT'=>0,'PDF_PLNT'=>0,'PDF_PKJO'=>0,'PDF_PLJO'=>0,'PDF_PLHC'=>0,'PDF_PRTL'=>0,'TRANS'=>0,'PROBPDF'=>0);
 	AION_LOOP( ($args=array(
@@ -3163,9 +3191,9 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-715;
 	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-1354;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-201468;
-	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-49354;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-4546.44;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-201438;
+	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-49318;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-4545.84;
 	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-151;
 	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-83;
 	$grandmarker['PDF_PKJO']	= $grandtotal['PDF_PKJO']-16;
@@ -3250,43 +3278,43 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$debug .= "<td>".$grandmarker['TRANS']."</td>";
 	$debug .= "</tr>\n";
 	$debug .= "</table>\n";
-	$debug .= "<br />\n";
-	$debug .= "COLUMN LEGEND<br />\n";
-	$debug .= "<span style='font-weight:bold; color:red;'>PROB: ".$args['grandtotal']['PROBPDF']." links and files missing or existing, search for ? or red Buy*</span><br />\n";
-	$debug .= "BIBLE: Bible version name<br />\n";
-	$debug .= "P: Proofer page<br />\n";
-	$debug .= "S: Source link<br />\n";
-	$debug .= "NOT: Special note<br />\n";
-	$debug .= "B#: Bible number<br />\n";
-	$debug .= "LAN: Language number<br />\n";
-	$debug .= "OLD: Old Testament book count<br />\n";
-	$debug .= "NEW: New Testament book count<br />\n";
-	$debug .= "CHP: Chapter count<br />\n";
-	$debug .= "VER: Verse count<br />\n";
-	$debug .= "AIO: Aionian glossary annotated verse count<br />\n";
-	$debug .= "QUE: Questioned verse count<br />\n";
-	$debug .= "LON: Verses longer than 500 bytes OR if Aionian Bible 40 bytes longer than NHEB<br />\n";
-	$debug .= "CMI: Missing chapters for Bible books included in version.<br />\n";
-	$debug .= "VMI: Missing verses for Bible books included in version.<br />\n";
-	$debug .= "VXT: Extra verses, outside of the English standard chapter verse counts.<br />\n";
-	$debug .= "VFI: Verses touched by RAWFIX<br />\n";
-	$debug .= "NOF: Problem verses listed in ../Checks/BOOKSCHAPTERS.txt<br />\n";
-	$debug .= "CMA: Chapters remapped by ./aion_database/VERSEMAP.txt<br />\n";
-	$debug .= "VMI: Missing verses in remapped chapters<br />\n";
-	$debug .= "VME: Extra versse in remapped chapters<br />\n";
-	$debug .= "CUS: Custom untranslation situations such as SKIP, ANNOTATE, and SWAP.<br />\n";
-	$debug .= "PAG: PDF page total.<br />\n";
-	$debug .= "PAN: PDF page total, New Testament.<br />\n";
-	$debug .= "PRI: Amazon KDP price given page count = (($0.85 + (PAGES x $0.012))/0.6).<br />\n";
-	$debug .= "KDP: Amazon KPD full Bible upload ( Add=Add-to-POD / Mod=Modify-existing-POD / A=POD-product-exists / F=POD-file-available )<br />\n";	
-	$debug .= "KNT: Amazon KDP New Testament Bible upload<br />\n";	
-	$debug .= "KJO: Amazon KDP Gospel Primer upload<br />\n";	
-	$debug .= "LUL: Lulu full Bible upload<br />\n";	
-	$debug .= "LNT: Lulu New Testament Bible upload<br />\n";	
-	$debug .= "LHC: Lulu hardcover Bible upload<br />\n";	
-	$debug .= "LJO: Lulu Gospel Primer upload<br />\n";
-	$debug .= "WAT: No KDP language or non-commercial license<br />\n";
-	$debug .= "STA: Status of the foreign heading translation effort.<br />\n";
+	$debug .= "<br>\n";
+	$debug .= "COLUMN LEGEND<br>\n";
+	$debug .= "<span style='font-weight:bold; color:red;'>PROB: ".$args['grandtotal']['PROBPDF']." links and files missing or existing, search for ? or red Buy*</span><br>\n";
+	$debug .= "BIBLE: Bible version name<br>\n";
+	$debug .= "P: Proofer page<br>\n";
+	$debug .= "S: Source link<br>\n";
+	$debug .= "NOT: Special note<br>\n";
+	$debug .= "B#: Bible number<br>\n";
+	$debug .= "LAN: Language number<br>\n";
+	$debug .= "OLD: Old Testament book count<br>\n";
+	$debug .= "NEW: New Testament book count<br>\n";
+	$debug .= "CHP: Chapter count<br>\n";
+	$debug .= "VER: Verse count<br>\n";
+	$debug .= "AIO: Aionian glossary annotated verse count<br>\n";
+	$debug .= "QUE: Questioned verse count<br>\n";
+	$debug .= "LON: Verses longer than 500 bytes OR if Aionian Bible 40 bytes longer than NHEB<br>\n";
+	$debug .= "CMI: Missing chapters for Bible books included in version.<br>\n";
+	$debug .= "VMI: Missing verses for Bible books included in version.<br>\n";
+	$debug .= "VXT: Extra verses, outside of the English standard chapter verse counts.<br>\n";
+	$debug .= "VFI: Verses touched by RAWFIX<br>\n";
+	$debug .= "NOF: Problem verses listed in ../Checks/BOOKSCHAPTERS.txt<br>\n";
+	$debug .= "CMA: Chapters remapped by ./aion_database/VERSEMAP.txt<br>\n";
+	$debug .= "VMI: Missing verses in remapped chapters<br>\n";
+	$debug .= "VME: Extra versse in remapped chapters<br>\n";
+	$debug .= "CUS: Custom untranslation situations such as SKIP, ANNOTATE, and SWAP.<br>\n";
+	$debug .= "PAG: PDF page total.<br>\n";
+	$debug .= "PAN: PDF page total, New Testament.<br>\n";
+	$debug .= "PRI: Amazon KDP price given page count = (($0.85 + (PAGES x $0.012))/0.6).<br>\n";
+	$debug .= "KDP: Amazon KPD full Bible upload ( Add=Add-to-POD / Mod=Modify-existing-POD / A=POD-product-exists / F=POD-file-available )<br>\n";	
+	$debug .= "KNT: Amazon KDP New Testament Bible upload<br>\n";	
+	$debug .= "KJO: Amazon KDP Gospel Primer upload<br>\n";	
+	$debug .= "LUL: Lulu full Bible upload<br>\n";	
+	$debug .= "LNT: Lulu New Testament Bible upload<br>\n";	
+	$debug .= "LHC: Lulu hardcover Bible upload<br>\n";	
+	$debug .= "LJO: Lulu Gospel Primer upload<br>\n";
+	$debug .= "WAT: No KDP language or non-commercial license<br>\n";
+	$debug .= "STA: Status of the foreign heading translation effort.<br>\n";
 	$debug .= "</body>\n</html>";
 	$foreign .= "</body>\n</html>";
 	if (!file_put_contents(($file="$destiny/Holy-Bible---AAA---Versions.htm"),$debug)) { AION_ECHO("ERROR! HTM Debug index file problem: $file"); }
@@ -3395,7 +3423,7 @@ function AION_LOOP_HTMS_DOIT($args) {
 	$htm .= "<tr><td>TITLE</td><td><b>Holy Bible Aionian Edition: ".$args['database']['T_FORPRINT'][$bible]['VERSIONE']."</b></td></tr>\n";
 	$htm .= "<tr><td>TITLE_NEW</td><td>Holy Bible Aionian Edition: ".$args['database']['T_FORPRINT'][$bible]['VERSIONE']." - New Testament</td></tr>\n";
 	// Proofer Priority
-	$htm .= "<tr><td><br /></td><td></td></tr>\n";
+	$htm .= "<tr><td><br></td><td></td></tr>\n";
 	$htm .= "<tr><td>FILE</td><td>$bible"."_POD_</td></tr>\n";
 	if (!empty($args['database']['T_FORPRINT'][$bible]['NOPDO'])) {
 		$htm .= "<tr><td>POD</td><td>Nope, Translation not available for Print on Demand</td></tr>\n";
@@ -3473,7 +3501,7 @@ function AION_LOOP_HTMS_DOIT($args) {
 		else if (empty($args['database']['T_FORPRINT'][$bible]['ISBNLUJOHN'])) { $htm .= "<tr><td>LULU_JOHN</td><td>None</td></tr>\n"; }
 		else { $htm .= "<tr><td>LULU_JOHN</td><td>POD_JOHN_BODY.pdf &nbsp;/&nbsp; POD_JOHN_COVER.pdf &nbsp;/&nbsp; <b>".$args['database']['T_FORPRINT'][$bible]['ISBNLUJOHN']."</b> &nbsp;/&nbsp; <a href='https://www.lulu.com/account/wizard/".$args['database']['T_VERSIONS'][$bible]['LULUJOHNX']."/start' target='_blank'>Edit</a> <a href='$lulu_john' target='_blank'>Buy</a></td></tr>\n"; }
 	}
-	$htm .= "<tr><td><br /></td><td></td></tr>\n";
+	$htm .= "<tr><td><br></td><td></td></tr>\n";
 	$htm .= "<tr><td>LANGUAGE</td><td>".$args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH']."</td></tr>\n";
 	$htm .= "<tr><td>AUTHOR</td><td>Nainoia Inc</td></tr>\n";	
 	$htm .= "<tr><td>CATEGORY</td><td>Non-fiction > Bibles > General / Christian</td></tr>\n";
@@ -3489,24 +3517,24 @@ function AION_LOOP_HTMS_DOIT($args) {
 	$htm .= "<tr><td>LULU_DESC</td><td>$blurb</td></tr>\n";
 	$htm .= "<tr><td>JOHN_DESC</td><td>(replace 'This Bible') This gospel primer includes Genesis 1-4, John's Gospel, Revelation 19-22, verses from every Bible book, and</td></tr>\n";
 	$htm .= "</table\n";
-	$htm .= "<br /><br />\n";
+	$htm .= "<br><br>\n";
 
 	// links
-	$htm .= "<b>PROOFER</b> - <a href='/Bibles/$biblename/parallel-English---King-James-Version' target='_blank'>$bible</a><br />\n";
-	$htm .= "<a href='/Bibles/$biblename/Noted/parallel-English---King-James-Version' target='_blank'>Review Aionian Verses</a><br />\n";
-	$htm .= "<a href='https://translate.google.com/translate?".$lang2."&tl=en&u=http%3A%2F%2Fstage.aionianbible.org%2FBibles%2F".$biblename."%2FNoted%2Fparallel-English---King-James-Version' target='_blank'>Translate Aionian Verses</a><br />\n";
-	$htm .= "<a href='https://translate.google.com/translate?".$lang2."&tl=en&u=http%3A%2F%2Fstage.aionianbible.org%2Flibrary%2F".$bible.".php'       target='_blank'>Translate WHOLE</a><br />\n";
-	$htm .= "<a href='https://translate.google.com/translate?".$lang2."&tl=en&u=http%3A%2F%2Fstage.aionianbible.org%2Flibrary%2F".$bible.".php?raw=1' target='_blank'>Translate RAWFIX</a>  <a href='#raw'>On page</a><br />\n";
-	$htm .= "<a href='https://translate.google.com/translate?".$lang2."&tl=en&u=http%3A%2F%2Fstage.aionianbible.org%2Flibrary%2F".$bible.".php?not=1' target='_blank'>Translate NOTFIX</a>  <a href='#not'>On page</a><br />\n";
-	$htm .= "<a href='https://translate.google.com/translate?".$lang2."&tl=en&u=http%3A%2F%2Fstage.aionianbible.org%2Flibrary%2F".$bible.".php?unt=1' target='_blank'>Translate CUSTOM</a>  <a href='#unt'>On page</a><br />\n";
-	$htm .= "<a href='https://translate.google.com/translate?".$lang2."&tl=en&u=http%3A%2F%2Fstage.aionianbible.org%2Flibrary%2F".$bible.".php?rev=1' target='_blank'>Translate REVERS</a>  <a href='#rev'>On page</a><br />\n";
-	$htm .= "<a href='https://translate.google.com/translate?".$lang2."&tl=en&u=http%3A%2F%2Fstage.aionianbible.org%2Flibrary%2F".$bible.".php?rev=2' target='_blank'>Translate REVERS 0-120</a>  <a href='#rev'>On page</a><br />\n";
-	$htm .= "<a href='https://translate.google.com/translate?".$lang2."&tl=en&u=http%3A%2F%2Fstage.aionianbible.org%2Flibrary%2F".$bible.".php?rev=3' target='_blank'>Translate REVERS 120+</a>  <a href='#rev'>On page</a><br />\n";
-	$htm .= "<br /><br />\n";	
+	$htm .= "<b>PROOFER</b> - <a href='/Bibles/$biblename/parallel-English---King-James-Version' target='_blank'>$bible</a><br>\n";
+	$htm .= "<a href='/Bibles/$biblename/Noted/parallel-English---King-James-Version' target='_blank'>Review Aionian Verses</a><br>\n";
+	$htm .= "<a href='https://translate.google.com/translate?".$lang2."&tl=en&u=http%3A%2F%2Fstage.aionianbible.org%2FBibles%2F".$biblename."%2FNoted%2Fparallel-English---King-James-Version' target='_blank'>Translate Aionian Verses</a><br>\n";
+	$htm .= "<a href='https://translate.google.com/translate?".$lang2."&tl=en&u=http%3A%2F%2Fstage.aionianbible.org%2Flibrary%2F".$bible.".php'       target='_blank'>Translate WHOLE</a><br>\n";
+	$htm .= "<a href='https://translate.google.com/translate?".$lang2."&tl=en&u=http%3A%2F%2Fstage.aionianbible.org%2Flibrary%2F".$bible.".php?raw=1' target='_blank'>Translate RAWFIX</a>  <a href='#raw'>On page</a><br>\n";
+	$htm .= "<a href='https://translate.google.com/translate?".$lang2."&tl=en&u=http%3A%2F%2Fstage.aionianbible.org%2Flibrary%2F".$bible.".php?not=1' target='_blank'>Translate NOTFIX</a>  <a href='#not'>On page</a><br>\n";
+	$htm .= "<a href='https://translate.google.com/translate?".$lang2."&tl=en&u=http%3A%2F%2Fstage.aionianbible.org%2Flibrary%2F".$bible.".php?unt=1' target='_blank'>Translate CUSTOM</a>  <a href='#unt'>On page</a><br>\n";
+	$htm .= "<a href='https://translate.google.com/translate?".$lang2."&tl=en&u=http%3A%2F%2Fstage.aionianbible.org%2Flibrary%2F".$bible.".php?rev=1' target='_blank'>Translate REVERS</a>  <a href='#rev'>On page</a><br>\n";
+	$htm .= "<a href='https://translate.google.com/translate?".$lang2."&tl=en&u=http%3A%2F%2Fstage.aionianbible.org%2Flibrary%2F".$bible.".php?rev=2' target='_blank'>Translate REVERS 0-120</a>  <a href='#rev'>On page</a><br>\n";
+	$htm .= "<a href='https://translate.google.com/translate?".$lang2."&tl=en&u=http%3A%2F%2Fstage.aionianbible.org%2Flibrary%2F".$bible.".php?rev=3' target='_blank'>Translate REVERS 120+</a>  <a href='#rev'>On page</a><br>\n";
+	$htm .= "<br><br>\n";	
 	
 	// Fourteen words and phrases
 	$ISGOOD = $args['database']['T_FORPRINT'][$bible]['STATUS'];
-	$htmFF = "<span id='".str_replace(array(' ',','),"-",$args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH'])."'></span><b>Please help translate or confirm the 14 words and phrases below and thank you!</b><br />\n";
+	$htmFF = "<span id='".str_replace(array(' ',','),"-",$args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH'])."'></span><b>Please help translate or confirm the 14 words and phrases below and thank you!</b><br>\n";
 	$htmFF .= "<table class='aionborder'>\n<tr><td style='background-color:lightgray'>ENGLISH   &gt;   </td><td style='background-color:lightgray'><h3>".$args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH']." / ".$args['database']['T_VERSIONS'][$bible]['LANGUAGE']."</h3></td></tr>\n";
 	$htmFF .= "<tr><td class='notranslate' style='background-color:lightgray'>Status   &gt;   </td><td style='background-color:lightgray'>".$args['database']['T_FORPRINT'][$bible]['STATUS']."</td></tr>\n";
 	$htmFF .= "<tr><td class='notranslate' >Preface   &gt;   </td><td>".$args['database']['T_FORPRINT'][$bible]['W_PREF']."</td></tr>\n";
@@ -3519,13 +3547,13 @@ function AION_LOOP_HTMS_DOIT($args) {
 	$htmFF .= "<tr><td class='notranslate' >Maps   &gt;   </td><td>".$args['database']['T_FORPRINT'][$bible]['W_MAP']."</td></tr>\n";
 	$htmFF .= "<tr><td class='notranslate' >Illustrations   &gt;   </td><td>".$args['database']['T_FORPRINT'][$bible]['W_ILUS']."</td></tr>\n";
 	$htmFF .= "<tr><td class='notranslate' >Life   &gt;   </td><td>".$args['database']['T_FORPRINT'][$bible]['W_LIFE']."</td></tr>\n";
-	$htmFF .= "<tr><td class='notranslate' >The world’s first Holy Bible untranslation<br />\n(The first Holy Bible in the world reverse translated)   &gt;   </td><td>".$args['database']['T_FORPRINT'][$bible]['W_WORL']."</td></tr>\n";
+	$htmFF .= "<tr><td class='notranslate' >The world’s first Holy Bible untranslation<br>\n(The first Holy Bible in the world reverse translated)   &gt;   </td><td>".$args['database']['T_FORPRINT'][$bible]['W_WORL']."</td></tr>\n";
 	$htmFF .= "<tr><td class='notranslate' >100% free to copy and print   &gt;   </td><td>".$args['database']['T_FORPRINT'][$bible]['W_FREE']."</td></tr>\n";
 	$htmFF .= "<tr><td class='notranslate' >also known as   &gt;   </td><td>".$args['database']['T_FORPRINT'][$bible]['W_AKA']."</td></tr>\n";
 	$htmFF .= "<tr><td class='notranslate' >The Purple Bible   &gt;   </td><td>".$args['database']['T_FORPRINT'][$bible]['W_PURP']."</td></tr>\n";
 	$htmFF .= "</table>\n";
-	$htmFF .= "<span class='notranslate'>** The word 'untranslation' is a made up to word to explain to the reader that we have un-translated certain words back to the underlying language of Hebrew or Greek to help the reader better understand in certain verses.  The word 'untranslation' is understood in English.  However, for other languages we have to consider what expression means 'un' or we could say instead 'reverse translation' or 'translated back'.  Also please note that I hope for these terms to be standard terms that you would find in a Bible or a book.  Thanks so much for your help.  Also 'Purple' is a color and the color used for the cover of these Bible translations.  So the name 'Purple Bible' is simply the friendly name of this Bible project.</span><br />";
-	$htmFF .= "** <b><a href='#top'>Return to top</a> -- or -- <a href='mailto:escribes@aionianbible.org?subject=".rawurlencode(htmlspecialchars_decode('Yes! I can help translate the 14 words and phrases in '.$args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH']))."&body=".rawurlencode(htmlspecialchars_decode(strip_tags($htmFF)))."'>Click here to email corrections for the 14 words above in ".$args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH'].". Thank you!</a></b><br /><br /><br /><br /><br />\n";
+	$htmFF .= "<span class='notranslate'>** The word 'untranslation' is a made up to word to explain to the reader that we have un-translated certain words back to the underlying language of Hebrew or Greek to help the reader better understand in certain verses.  The word 'untranslation' is understood in English.  However, for other languages we have to consider what expression means 'un' or we could say instead 'reverse translation' or 'translated back'.  Also please note that I hope for these terms to be standard terms that you would find in a Bible or a book.  Thanks so much for your help.  Also 'Purple' is a color and the color used for the cover of these Bible translations.  So the name 'Purple Bible' is simply the friendly name of this Bible project.</span><br>";
+	$htmFF .= "** <b><a href='#top'>Return to top</a> -- or -- <a href='mailto:escribes@aionianbible.org?subject=".rawurlencode(htmlspecialchars_decode('Yes! I can help translate the 14 words and phrases in '.$args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH']))."&body=".rawurlencode(htmlspecialchars_decode(strip_tags($htmFF)))."'>Click here to email corrections for the 14 words above in ".$args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH'].". Thank you!</a></b><br><br><br><br><br>\n";
 	$htm .= $htmFF;
 	
 	// build foreign language page also!
@@ -3534,7 +3562,7 @@ function AION_LOOP_HTMS_DOIT($args) {
 	$lastlang = $args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH'];
 	
 	// Eight verses
-	$htm .= "<br /><br /><b>PLEASE HELP CONFIRM THE ILLUSTRATION VERSES BELOW</b><br />\n";	
+	$htm .= "<br><br><b>PLEASE HELP CONFIRM THE ILLUSTRATION VERSES BELOW</b><br>\n";	
 	$htm .= "<table class='aionborder'>\n<tr><td>REFERENCE</td><td>VERSE</td></tr>\n";
 	$htm .= "<tr><td>John 3:16 / ".$args['database']['T_FORPRINT'][$bible]['JOH3_16_B']."</td><td>".$args['database']['T_FORPRINT'][$bible]['JOH3_16']."</td></tr>\n";
 	$htm .= "<tr><td>Genesis 3:24 / ".$args['database']['T_FORPRINT'][$bible]['GEN3_24_B']."</td><td>".$args['database']['T_FORPRINT'][$bible]['GEN3_24']."</td></tr>\n";
@@ -3549,8 +3577,8 @@ function AION_LOOP_HTMS_DOIT($args) {
 
 	// loop complete rawfix
 	$htm .= "<? if(empty(\$_GET) || !empty(\$_GET['raw'])) { ?>\n";
-	$htm .= "<br /><br /><br /><a name='raw'></a><b>PLEASE HELP CONFIRM THE FIXED VERSES BELOW</b><br />\n";
-	$htm .= "<br />\n<table cellpadding='3'>\n<tr><td>INDEX</td><td>BOOK</td><td>CHAP</td><td>VERS</td><td>RAWFIX</td><td>TEXT</td></tr>\n";
+	$htm .= "<br><br><br><a name='raw'></a><b>PLEASE HELP CONFIRM THE FIXED VERSES BELOW</b><br>\n";
+	$htm .= "<br>\n<table cellpadding='3'>\n<tr><td>INDEX</td><td>BOOK</td><td>CHAP</td><td>VERS</td><td>RAWFIX</td><td>TEXT</td></tr>\n";
 	$prev = NULL;
 	$FIXED = 0;
 	foreach($args['database']['T_RAWCHECK'] as $verse) {
@@ -3608,8 +3636,8 @@ function AION_LOOP_HTMS_DOIT($args) {
 	
 	// loop outstanding bookschapters
 	$htm .= "<? if(empty(\$_GET) || !empty(\$_GET['not'])) { ?>\n";
-	$htm .= "<br /><br /><br /><a name='not'><b>PLEASE HELP REVIEW THE OUTSTANDING VERSES BELOW</b><br />\n";
-	$htm .= "<br />\n<table cellpadding='3'>\n<tr><td>INDEX</td><td>BOOK</td><td>CHAP</td><td>VERS</td><td>FLAG</td><td>TEXT</td></tr>\n";
+	$htm .= "<br><br><br><a name='not'><b>PLEASE HELP REVIEW THE OUTSTANDING VERSES BELOW</b><br>\n";
+	$htm .= "<br>\n<table cellpadding='3'>\n<tr><td>INDEX</td><td>BOOK</td><td>CHAP</td><td>VERS</td><td>FLAG</td><td>TEXT</td></tr>\n";
 	$prev = NULL;
 	$NOTFIXED = 0;
 	foreach($args['database']['T_BOOKSCHAPTERS'] as $verse) {
@@ -3661,8 +3689,8 @@ function AION_LOOP_HTMS_DOIT($args) {
 	
 	// loop untranslate customs
 	$htm .= "<? if(empty(\$_GET) || !empty(\$_GET['unt'])) { ?>\n";
-	$htm .= "<br /><br /><br /><a name='unt'><b>PLEASE HELP REVIEW THE CUSTOM UNTRANSLATE VERSES BELOW</b><br />\n";
-	$htm .= "<br />\n<table cellpadding='3'>\n<tr><td>INDEX</td><td>BOOK</td><td>CHAP</td><td>VERS</td><td>FLAG</td><td>TEXT</td></tr>\n";
+	$htm .= "<br><br><br><a name='unt'><b>PLEASE HELP REVIEW THE CUSTOM UNTRANSLATE VERSES BELOW</b><br>\n";
+	$htm .= "<br>\n<table cellpadding='3'>\n<tr><td>INDEX</td><td>BOOK</td><td>CHAP</td><td>VERS</td><td>FLAG</td><td>TEXT</td></tr>\n";
 	$prev = NULL;
 	$CUSTO = 0;
 	foreach($args['database']['T_UNTRANSLATECUSTOM'] as $verse) {
@@ -3715,8 +3743,8 @@ function AION_LOOP_HTMS_DOIT($args) {
 	
 	// loop reversification
 	$htm .= "<? if(empty(\$_GET) || !empty(\$_GET['rev'])) { ?>\n";
-	$htm .= "<br /><br /><br /><a name='rev'><b>PLEASE HELP CONFIRM THE RE-VERSIFICATIONS BELOW</b><br />\n";
-	$htm .= "<br />\n<table cellpadding='3'>\n<tr><td>INDEX</td><td>BOOK</td><td>CHAP</td><td>VERS</td><td>TEXT</td></tr>\n";
+	$htm .= "<br><br><br><a name='rev'><b>PLEASE HELP CONFIRM THE RE-VERSIFICATIONS BELOW</b><br>\n";
+	$htm .= "<br>\n<table cellpadding='3'>\n<tr><td>INDEX</td><td>BOOK</td><td>CHAP</td><td>VERS</td><td>TEXT</td></tr>\n";
 	$htm .= "<? if(empty(\$_GET) || \$_GET['rev']!=3) { ?>\n";
 	$verse_last = $reverse_last = NULL;
 	$current_last = 1000;
