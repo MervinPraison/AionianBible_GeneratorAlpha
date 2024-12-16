@@ -5,13 +5,14 @@ RewriteBase /
 
 # PWA
 RewriteCond %{QUERY_STRING} !PWA
-RewriteCond %{REQUEST_URI} ^(.*\/Holy\-Bible\-\-\-[^/.]+)$ [NC,OR]
-RewriteCond %{REQUEST_URI} ^(.*\/Holy\-Bible\-\-\-[^/.]+)\/pwa\.htm$ [NC]
+RewriteCond %{REQUEST_URI} ^(\/Holy\-Bible\-\-\-[^/.]+)$ [NC,OR]
+RewriteCond %{REQUEST_URI} ^(\/Holy\-Bible\-\-\-[^/.]+)\/pwa\.htm$ [NC]
 RewriteRule ^ %1/ [L,R=301]
-RewriteCond %{REQUEST_URI} ^(.*\/Holy\-Bible\-\-\-[^/.]+\/)$ [NC]
+RewriteCond %{REQUEST_URI} ^(\/Holy\-Bible\-\-\-[^/.]+)\/$ [NC]
 RewriteCond %{DOCUMENT_ROOT}%1/pwa.htm -f
 RewriteRule ^ %1/pwa.htm?PWA [L]
-RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
 RewriteRule ^ index.php [L]
 
 # REWRITE INFINITE LOOP

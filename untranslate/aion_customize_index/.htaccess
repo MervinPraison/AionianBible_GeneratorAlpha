@@ -120,8 +120,7 @@ RewriteRule ^ /library/pwa/%1/pwa.htm?PWA [L]
 RewriteCond %{REQUEST_URI} ^\/pwa\/(Holy\-Bible\-\-\-[^/.]+\/.+)$ [NC]
 RewriteCond %{DOCUMENT_ROOT}/library/pwa/%1 -f
 RewriteRule ^ /library/pwa/%1 [L]
-RewriteCond %{REQUEST_URI} ^\/pwa\/(.+)$ [NC]
-RewriteCond %{DOCUMENT_ROOT}/library/pwa/%1 !-f
+RewriteCond %{REQUEST_URI} ^\/pwa(|\/|\/.+)$ [NC]
 RewriteRule ^ /library/pwa/index.php [L]
 
 # REWRITE INDEX

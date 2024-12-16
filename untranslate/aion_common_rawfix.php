@@ -3955,8 +3955,7 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---English---One-Unity-Resource-Bible" :
-if (!($bfile = preg_replace('/\^/us',' ',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-if (!($bfile = preg_replace('/\([^()\n]*Maftir[^()\n]*\)[ ]*\n/us'," \n",$bfile,-1,$rnum)) || $rnum!=56) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/\([^()\n]*Maftir[^()\n]*\)[ \t\r]*\n/us'," \n",$bfile,-1,$rnum)) || $rnum!=56) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 goto RAWHIDE;
 

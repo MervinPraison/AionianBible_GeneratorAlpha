@@ -17,58 +17,42 @@ https://www.pcmag.com/how-to/how-to-use-progressive-web-apps
 
 */
 
-// error page 
-$error = <<<EOF
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Holy Bible Aionian Edition® ~ Error, page not found</title>
-</head>
-<body>
-<br>
-<br>
-&nbsp;&nbsp;&nbsp;Sorry, page not found.
-</body>
-</html>
-EOF;
-
-
-// Query string not allowed
-if (!empty($_SERVER['QUERY_STRING'])) {
-	http_response_code(404);
-	echo $error;
-	exit;
-}
-
-// Path
-$_Path = trim(strtok($_SERVER['REQUEST_URI'],'?'),'/\?');
-$_Full = trim(filter_var((empty($_SERVER['HTTPS']) ? 'http://' : 'https://')."{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}", FILTER_SANITIZE_URL),'/\?');
 
 // PWA dynamic png -OR- webmanifest
 // Could be generated like the htm file, but dynamic easier while drafting and
 // results in a smaller tidier complete package in GitHub
-if (preg_match("#^(.+)/(Holy-Bible---(.+)---(.+))/pwa\.(json|([0-9]+)\.png)$#", $_Full, $match) &&
+$_Full = trim(filter_var((empty($_SERVER['HTTPS']) ? 'http://' : 'https://')."{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}", FILTER_SANITIZE_URL),'/\?');
+if (empty($_SERVER['QUERY_STRING']) &&
+	preg_match("#^(.+)/(Holy-Bible---(.+)---(.+))/pwa\.(json|js|([0-9]+)\.png)$#", $_Full, $match) &&
 	file_exists(($file=("{$match[2]}/pwa.htm"))) &&
 	file_exists(($fonf=("{$match[2]}/fonts/anton-regular.ttf")))) {
-	// parse file name
-	$lang = preg_replace("#-#ui"," ", $match[3]);
+	// parse filename
+	$cach = $match[2];
 	$bnam = preg_replace("#-#ui"," ", $match[4]);
 	$type = $match[5];
 	$size = (empty($match[6]) ? 0 : (int)$match[6]);
-	// parse file contents
+	// parse contents
+	//<!-- SubTitle: {$G_VERSIONS['NAMEENGLISH']} -->
+	//<!-- Short: {$G_VERSIONS['SHORT']} -->
+	//<!-- Font: {$G_PWA->fontname} -->
+	$SubTitle = "Aionian Bible";
+	$Short = "AB";
+	$Font = "";
 	$name = "Aionian Bible: {$bnam}";
-	$abbr = "AB";
-	$loop = 0;
 	if ($handle = fopen($file, 'r')) {
-		while ((++$loop)<50 && ($line = fgets($handle))) {
-			if (preg_match("#<title>(\s*.*[^[:alnum:]]+([[:alnum:]]+))\s*</title>#iu", $line, $match2)) {
-				$name = $match2[1];
-				$abbr = $match2[2];
-				break;
-			}
+		$loop = $got = 0;
+		while ((++$loop)<30 && ($line = fgets($handle))) {
+			if		(preg_match("#<!--\s*SubTitle:\s*(.+?)\s*-->#iu",	$line, $match2)) { $SubTitle = trim($match2[1]);	++$got; }
+			else if	(preg_match("#<!--\s*Short:\s*(.+?)\s*-->#iu",		$line, $match2)) { $Short = trim($match2[1]);		++$got; }
+			else if	(preg_match("#<!--\s*Font:\s*(.+?)\s*-->#iu",		$line, $match2)) { $Font = trim($match2[1]);		++$got; }
+			if ($got > 2) { break; }
 		}
+	}
+	if (!empty($Font)) {
+		$Font = <<<EOF
+'fonts/{$Font}.woff',
+'fonts/{$Font}.ttf',
+EOF;
 	}
 	fclose($handle);
 	// dynamic image
@@ -79,7 +63,7 @@ if (preg_match("#^(.+)/(Holy-Bible---(.+)---(.+))/pwa\.(json|([0-9]+)\.png)$#", 
 		$IMG = imagecreate($size, $size);
 		$background = imagecolorallocate($IMG, 102,51, 153);
 		$text_color = imagecolorallocate($IMG, 255,255,255); 
-		imagettftext($IMG, $font, 0, $posx, $posy, $text_color, $fonf, $abbr);
+		imagettftext($IMG, $font, 0, $posx, $posy, $text_color, $fonf, $Short);
 		header( "Content-type: image/png" );
 		imagepng($IMG);
 		imagecolordeallocate($IMG, $text_color);
@@ -93,9 +77,9 @@ if (preg_match("#^(.+)/(Holy-Bible---(.+)---(.+))/pwa\.(json|([0-9]+)\.png)$#", 
 {
 "dir"				: "ltr",
 "lang"				: "en",
-"name"				: "{$name}",
-"short_name"		: "{$abbr}",
-"description"		: "{$name} Progressive Web Application",
+"name"				: "{$SubTitle}",
+"short_name"		: "{$Short}",
+"description"		: "Holy Bible Aionian Edition® {$SubTitle}, Progressive Web Application",
 "start_url"			: "{$match[1]}/{$match[2]}/",
 "scope"				: "{$match[1]}/{$match[2]}/",
 "background_color"	: "#663399",
@@ -137,13 +121,133 @@ EOL;
 		// debug
 		//file_put_contents(".debug",$json);
 	}
+	// dynamic serviceworker.js
+	else if ($type=='js') {
+		// PWA https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps
+		header('Content-Type: application/javascript;');
+		echo <<<EOL
+// Holy Bible Aionian Edition® Progressive Web Application, service worker
+// Publisher: https://NAINOIA-INC.signedon.net
+// Website: https://www.AionianBible.org
+// Resources: https://resources.AionianBible.org
+// Repository: https://github.com/Nainoia-Inc
+// Copyright: Creative Commons Attribution 4.0 International  
+
+// Cache Setup
+const AionianBible_CacheName = `{$cach}-v1`;
+const AionianBible_CacheResources = [
+'pwa.htm',
+'fonts/gentiumplus-r.ttf',
+'fonts/gentiumplus-r.woff',
+'fonts/gentiumplus-r.woff2',
+'fonts/notosans-basic-regular.ttf',
+'fonts/notosans-basic-regular.woff',
+'fonts/notosans-basic-regular.woff2',
+{$Font}
+'images/favicon.ico',
+'images/favicon-32x32.png',
+'images/favicon-16x16.png',
+'images/apple-touch-icon.png',
+'images/Holy-Bible-Aionian-Edition-PURPLE-HOME.png',
+'images/Holy-Bible-Aionian-Edition-PURPLE-LOGO-PWA.png',
+'images/Holy-Bible-Aionian-Edition-PURPLE-AB-PWA.png',
+'images/Gustave-Dore-Bible-Tour-Hebrew-OT-003-Adam-and-Eve-Are-Driven-out-of-Eden.jpg',
+'images/Gustave-Dore-Bible-Tour-NT-Gospel-215-The-Crucifixion-of-Jesus-and-Two-Criminals.jpg',
+'images/Gustave-Dore-Bible-Tour-NT-Gospel-241-The-New-Jerusalem.jpg',
+'images/Timeline-History-Aionian-Bible.jpg',
+'images/Timeline-Eschatology-Aionian-Bible.jpg',
+'images/MAP-Abrahams-Journey.jpg',
+'images/MAP-Israels-Exodus.jpg',
+'images/MAP-Jesus-Journeys.jpg',
+'images/MAP-Pauls-Missionary-Journeys.jpg',
+'images/MAP-World-Nations.jpg'
+];
+
+// Cache Install
+async function AionianBible_CacheInstall() {
+	const cache = await caches.open(AionianBible_CacheName);
+	return cache.addAll(AionianBible_CacheResources);
+}
+self.addEventListener("install", (event) => {
+	event.waitUntil(AionianBible_CacheInstall());
+	console.log(`Aionian Bible App service worker cache installed`);
+});
+
+// Cache ReInstall
+self.addEventListener('message', (event) => {
+	if (event.data && event.data.type === 'AionianBible_PWA_ReInstall') {
+		event.waitUntil(AionianBible_CacheInstall());
+		console.log(`Aionian Bible App service worker cache re-installed`);
+	}
+});
+
+// Cache Clean
+self.addEventListener("activate", (event) => {
+	event.waitUntil(
+		(async () => {
+			const names = await caches.keys();
+			await Promise.all(
+				names.map((name) => {
+					if (name !== AionianBible_CacheName) {
+						console.log(`Aionian Bible App service worker cache deleted: ` + name);
+						return caches.delete(name);
+					}
+				}),
+			);
+			await clients.claim();
+		})(),
+	);
+	AionianBible_CacheInstall(); // needed?
+});
+
+// Cache Fetch
+async function AionianBible_CacheFirst(request) {
+	const cachedResponse = await caches.match(request);
+	if (cachedResponse) {
+		console.log(`Aionian Bible App service worker return cache`);
+		return cachedResponse;
+	}
+	try {
+		const networkResponse = await fetch(request);
+		if (networkResponse.ok) {
+			const cache = await caches.open(AionianBible_CacheName);
+			cache.put(request, networkResponse.clone());
+			console.log(`Aionian Bible App service worker cache network`);
+		}
+		console.log(`Aionian Bible App service worker return network`);
+		return networkResponse;
+	} catch (error) {
+		return Response.error();
+	}
+}
+self.addEventListener("fetch", (event) => {
+	if (AionianBible_CacheResources.includes(event.request.url.pathname)) {
+		console.log(`Aionian Bible App service worker query cache`);
+		event.respondWith(AionianBible_CacheFirst(event.request));
+	}
+	else {
+		console.log(`Aionian Bible App service worker query network`);
+	}
+});
+EOL;
+	}
 	exit;	
 }
 
 // PWA List
-else if (empty($_Path) || preg_match("#{$_Path}$#ui", dirname(__FILE__))) {
-	$year = date("Y");
-	echo <<< EOF
+// output error message
+$_Path = trim(strtok($_SERVER['REQUEST_URI'],'?'),'/\?');
+$_Message = NULL;
+if (!empty($_SERVER['QUERY_STRING']) ||
+	!empty($_Path) ||
+	!preg_match("#{$_Path}$#ui", dirname(__FILE__))) {
+	http_response_code(404);
+	$_Message = "<span style='color:red;'>Sorry page requested not found<br><br></span>";
+}
+
+// output list
+$year = date("Y");
+echo <<< EOF
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -178,24 +282,20 @@ The world's first Holy Bible untranslation! <a href='http://www.AionianBible.org
 Licensed with <a href='https://creativecommons.org/licenses/by/4.0/' title='License' alt='License' target='_blank'>Creative Commons Attribution 4.0 International license</a>, 2018-{$year}.<br />
 <a href='http://www.aionianbible.org/Third-Party-Publisher-Resources' target='_blank'>Third Party Publisher resources here</a><br />
 <br>
+{$_Message}
 <b>Progressive Web Applications (PWA)</b><br>
 Available off-line on smart devices.<br />
 <br />
 EOF;	
-	$files = array_diff(scandir('./'), array('.', '..'));
-	foreach($files as $file) {
-		if (!is_dir($file) ||
-			!preg_match("#^(Holy-Bible---(.+)---Aionian-Edition)$#", $file, $matches) || 
-			!($bible=preg_replace("#---#", ":&nbsp;&nbsp;&nbsp;", $matches[2])) ||
-			!($bible=preg_replace("#-#", "&nbsp;", $bible))) { continue; }
-		
-		echo "<a href='{$matches[1]}/' target='_blank' class='bible'>$bible</a><br>";
-	}
-	echo "</body></html>";
-	exit;
-}
 
-// bad bye now
-http_response_code(404);
-echo $error;
+$files = array_diff(scandir('./'), array('.', '..'));
+foreach($files as $file) {
+	if (!is_dir($file) ||
+		!preg_match("#^(Holy-Bible---(.+)---Aionian-Edition)$#", $file, $matches) || 
+		!($bible=preg_replace("#---#", ":&nbsp;&nbsp;&nbsp;", $matches[2])) ||
+		!($bible=preg_replace("#-#", "&nbsp;", $bible))) { continue; }
+	
+	echo "<a href='{$_Path}/{$matches[1]}/' target='_blank' class='bible'>$bible</a><br>";
+}
+echo "</body></html>";
 exit;
