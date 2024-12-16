@@ -1,40 +1,35 @@
 <?php
-/* PWA HOW TO
-https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps
-https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable
-https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames/App_structure
+/*
 
-OTHER STUFF:
-https://stackoverflow.com/questions/4329092/multi-dimensional-associative-arrays-in-javascript
-https://medium.com/james-johnson/a-simple-progressive-web-app-tutorial-f9708e5f2605 
-https://vinayak-hegde.medium.com/cache-control-meta-tag-pros-cons-and-faqs-b09aa150f5a4 
-https://web.dev/progressive-web-apps/
-https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/
-https://www.freecodecamp.org/news/build-a-pwa-from-scratch-with-html-css-and-javascript/
+Holy Bible Aionian Edition® Progressive Web Application, service worker
+Publisher: https://NAINOIA-INC.signedon.net
+Website: https://www.AionianBible.org
+Resources: https://resources.AionianBible.org
+Repository: https://github.com/Nainoia-Inc
+Copyright: Creative Commons Attribution 4.0 International 
 
-USER DOCS:
-https://www.pcmag.com/how-to/how-to-use-progressive-web-apps 
+The Aionian Bible project also serves all its translations as Progressive Web Apps.
+Each Bible translation is contained in a single HTM file using javascript to paginate.
+The PWA listing, manifests, service workers, and icons are served dynamically.
+Dynamic files could be pre-generated, but dynamic results in a simpler GitHub package.
+.htaccess rules masquerade each PWA into its own folder allowing multiple-installs.
 
 */
 
-
-// PWA dynamic png -OR- webmanifest
-// Could be generated like the htm file, but dynamic easier while drafting and
-// results in a smaller tidier complete package in GitHub
-$_Full = trim(filter_var((empty($_SERVER['HTTPS']) ? 'http://' : 'https://')."{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}", FILTER_SANITIZE_URL),'/\?');
+// PWA Dynamic File
+// caculate the full URL
+$url = trim(filter_var((empty($_SERVER['HTTPS']) ? 'http://' : 'https://')."{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}", FILTER_SANITIZE_URL),'/\?');
+// test for dynamic file creation
 if (empty($_SERVER['QUERY_STRING']) &&
-	preg_match("#^(.+)/(Holy-Bible---(.+)---(.+))/pwa\.(json|js|([0-9]+)\.png)$#", $_Full, $match) &&
-	file_exists(($file=("{$match[2]}/pwa.htm"))) &&
-	file_exists(($fonf=("{$match[2]}/fonts/anton-regular.ttf")))) {
+	preg_match("#^(.+)/(Holy-Bible---(.+)---(.+))/pwa\.(json|js|([0-9]+)\.png)$#", $url, $match) &&
+	file_exists(($file=("{$match[2]}.htm"))) &&
+	file_exists(($fonf=("fonts/anton-regular.ttf")))) {
 	// parse filename
 	$cach = $match[2];
 	$bnam = preg_replace("#-#ui"," ", $match[4]);
 	$type = $match[5];
 	$size = (empty($match[6]) ? 0 : (int)$match[6]);
-	// parse contents
-	//<!-- SubTitle: {$G_VERSIONS['NAMEENGLISH']} -->
-	//<!-- Short: {$G_VERSIONS['SHORT']} -->
-	//<!-- Font: {$G_PWA->fontname} -->
+	// parse htm header for meta data
 	$SubTitle = "Aionian Bible";
 	$Short = "AB";
 	$Font = "";
@@ -48,6 +43,9 @@ if (empty($_SERVER['QUERY_STRING']) &&
 			if ($got > 2) { break; }
 		}
 	}
+	// add custom fonts to the service worker precache
+	// this is the only reason each PWA needs a unique service worker
+	// otherwise each Bible translation could use the same service worker
 	if (!empty($Font)) {
 		$Font = <<<EOF
 'fonts/{$Font}.woff',
@@ -55,7 +53,7 @@ if (empty($_SERVER['QUERY_STRING']) &&
 EOF;
 	}
 	fclose($handle);
-	// dynamic image
+	// return the dynamic image icon requested
 	if ($size>=16 && $size<=2048) {
 		$font = (int)($size * 0.28);
 		$posx = (int)($size * 0.15);
@@ -70,7 +68,7 @@ EOF;
 		imagecolordeallocate($IMG, $background);
 		imagedestroy($IMG);
 	}
-	// dynamic webmanifest
+	// return the dynamic webmanifest requested
 	else if ($type=='json') {
 		header('Content-Type: application/manifest+json;');
 		echo <<<EOL
@@ -117,26 +115,31 @@ EOF;
 ]
 }
 EOL;
-		//echo $json;
-		// debug
-		//file_put_contents(".debug",$json);
 	}
-	// dynamic serviceworker.js
+	// return the dynamic service worker requested
 	else if ($type=='js') {
-		// PWA https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps
 		header('Content-Type: application/javascript;');
 		echo <<<EOL
-// Holy Bible Aionian Edition® Progressive Web Application, service worker
+// Holy Bible Aionian Edition® Progressive Web Application, Service Worker
 // Publisher: https://NAINOIA-INC.signedon.net
 // Website: https://www.AionianBible.org
 // Resources: https://resources.AionianBible.org
 // Repository: https://github.com/Nainoia-Inc
 // Copyright: Creative Commons Attribution 4.0 International  
+//
+// The Aionian Bible project also serves all its translations as Progressive Web Apps.
+// Each Bible translation is contained in a single HTM file using javascript to paginate.
+// The PWA listing, manifests, service workers, and icons are served dynamically.
+// Dynamic files could be pre-generated, but dynamic results in a simpler GitHub package.
+// .htaccess rules masquerade each PWA into its own folder allowing multiple-installs.
+//
+
+console.log(`Aionian Bible App service worker opened`);
 
 // Cache Setup
 const AionianBible_CacheName = `{$cach}-v1`;
 const AionianBible_CacheResources = [
-'pwa.htm',
+'/',
 'fonts/gentiumplus-r.ttf',
 'fonts/gentiumplus-r.woff',
 'fonts/gentiumplus-r.woff2',
@@ -173,7 +176,7 @@ self.addEventListener("install", (event) => {
 	console.log(`Aionian Bible App service worker cache installed`);
 });
 
-// Cache ReInstall
+// Cache ReInstall - currently not used
 self.addEventListener('message', (event) => {
 	if (event.data && event.data.type === 'AionianBible_PWA_ReInstall') {
 		event.waitUntil(AionianBible_CacheInstall());
@@ -181,8 +184,9 @@ self.addEventListener('message', (event) => {
 	}
 });
 
-// Cache Clean
+// Cache Clean and Update - called when service worker registered
 self.addEventListener("activate", (event) => {
+	// Remove unused cache versions
 	event.waitUntil(
 		(async () => {
 			const names = await caches.keys();
@@ -197,14 +201,16 @@ self.addEventListener("activate", (event) => {
 			await clients.claim();
 		})(),
 	);
-	AionianBible_CacheInstall(); // needed?
+	// reload the cache
+	AionianBible_CacheInstall();
+	console.log(`Aionian Bible App service worker cache activated`);
 });
 
 // Cache Fetch
 async function AionianBible_CacheFirst(request) {
 	const cachedResponse = await caches.match(request);
 	if (cachedResponse) {
-		console.log(`Aionian Bible App service worker return cache`);
+		console.log(`Aionian Bible App service worker returned cache`);
 		return cachedResponse;
 	}
 	try {
@@ -214,9 +220,10 @@ async function AionianBible_CacheFirst(request) {
 			cache.put(request, networkResponse.clone());
 			console.log(`Aionian Bible App service worker cache network`);
 		}
-		console.log(`Aionian Bible App service worker return network`);
+		console.log(`Aionian Bible App service worker returned network`);
 		return networkResponse;
 	} catch (error) {
+		console.log(`Aionian Bible App service worker returned error`);
 		return Response.error();
 	}
 }
@@ -234,13 +241,13 @@ EOL;
 	exit;	
 }
 
-// PWA List
-// output error message
-$_Path = trim(strtok($_SERVER['REQUEST_URI'],'?'),'/\?');
+
+// PWA Listing
+$path = trim(strtok($_SERVER['REQUEST_URI'],'?'),'/\?');
 $_Message = NULL;
+// output error message
 if (!empty($_SERVER['QUERY_STRING']) ||
-	!empty($_Path) ||
-	!preg_match("#{$_Path}$#ui", dirname(__FILE__))) {
+	(!empty($path) && !preg_match("#{$path}$#ui", dirname(__FILE__)))) {
 	http_response_code(404);
 	$_Message = "<span style='color:red;'>Sorry page requested not found<br><br></span>";
 }
@@ -290,12 +297,11 @@ EOF;
 
 $files = array_diff(scandir('./'), array('.', '..'));
 foreach($files as $file) {
-	if (!is_dir($file) ||
-		!preg_match("#^(Holy-Bible---(.+)---Aionian-Edition)$#", $file, $matches) || 
+	if (!preg_match("#^(Holy-Bible---(.+)---Aionian-Edition).htm$#", $file, $matches) || 
 		!($bible=preg_replace("#---#", ":&nbsp;&nbsp;&nbsp;", $matches[2])) ||
 		!($bible=preg_replace("#-#", "&nbsp;", $bible))) { continue; }
 	
-	echo "<a href='{$_Path}/{$matches[1]}/' target='_blank' class='bible'>$bible</a><br>";
+	echo "<a href='{$path}/{$matches[1]}/' target='_blank' class='bible'>$bible</a><br>";
 }
 echo "</body></html>";
 exit;

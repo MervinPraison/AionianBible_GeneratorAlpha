@@ -3,15 +3,21 @@ RewriteEngine On
 Options +FollowSymlinks
 RewriteBase /
 
-# PWA
+# REWRITE PWA
+# Must end with "/" to masquerade each PWA into its own folder allowing multiple-installs
 RewriteCond %{QUERY_STRING} !PWA
 RewriteCond %{REQUEST_URI} ^(\/Holy\-Bible\-\-\-[^/.]+)$ [NC,OR]
-RewriteCond %{REQUEST_URI} ^(\/Holy\-Bible\-\-\-[^/.]+)\/pwa\.htm$ [NC]
+RewriteCond %{REQUEST_URI} ^(\/Holy\-Bible\-\-\-[^/.]+)\.htm$ [NC]
 RewriteRule ^ %1/ [L,R=301]
+# Once masqueraded must point to the actual PWA HTM file
 RewriteCond %{REQUEST_URI} ^(\/Holy\-Bible\-\-\-[^/.]+)\/$ [NC]
-RewriteCond %{DOCUMENT_ROOT}%1/pwa.htm -f
-RewriteRule ^ %1/pwa.htm?PWA [L]
-#RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{DOCUMENT_ROOT}%1\.htm -f
+RewriteRule ^ %1.htm?PWA [L]
+# Likewise point to actual PWA resource files
+RewriteCond %{REQUEST_URI} ^\/Holy\-Bible\-\-\-[^/.]+\/(.+)$ [NC]
+RewriteCond %{DOCUMENT_ROOT}\/%1 -f
+RewriteRule ^ /%1 [L]
+# If not an actual file then a dynamic resource
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
 RewriteRule ^ index.php [L]
 

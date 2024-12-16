@@ -12,6 +12,12 @@
 # Publisher Facebook: https://www.Facebook.com/AionianBible
 #
 
+The Aionian Bible project also serves all its translations as Progressive Web Apps.
+Each Bible translation is contained in a single HTM file using javascript to paginate.
+The PWA listing, manifests, service workers, and icons are served dynamically.
+Dynamic files could be pre-generated, but dynamic results in a simpler GitHub package.
+.htaccess rules masquerade each PWA into its own folder allowing multiple-installs.
+
 Thank you for your interest in re-publishing Aionian Bible content. The Aionian Bible is copyrighted with the Creative Commons Attribution 4.0 International license allowing 100% freedom to copy, print, revise, and sell if allowed by the source text copyright. First, third party publishers are granted permission to distribute any unchanged Aionian Bible publication or file for free or commercially, except on or through any Amazon, Lulu, Ingram Spark, or Ingram Lightning Source platform or subsidiary which are our chosen commercial outlets. The Holy Bible Aionian Edition® trademark enforces this rule. Second, you are welcome to create derived works with complete freedom, though you must change the publication title, remove our trademark, and give attribution as follows, "Derived from AionianBible.org by Nainoia Inc." We also request that you give attribution to our original source and even consider deriving your new work directly from our source. The Aionian Bible does not require that your derived work include a ShareAlike copyright in order to allow future publishers greater copyright freedom, though again we request that future copyrights at least require attribution, Creative Commons Attribution 4.0 International, so that the text lineage is documented. If you have any licensing questions please ask.
 
 Aionian Bible text repositories:

@@ -508,35 +508,6 @@ function AION_LOOP_DIFF_DOIT($args) {
 	}
 }
 
-function AION_LOOP_DIFF_PWA($stag, $prod, $dest) {
-	system("rm -rf $dest");
-	if (!mkdir($dest)) { AION_ECHO("ERROR! !mkdir: $dest"); }
-	$files = array_diff(scandir($stag), array('.', '..'));
-	foreach($files as $file) {
-		if (!is_dir("$stag/$file") || !preg_match("/^Holy/", $file)) {
-			AION_ECHO("SKIPPING: $file");
-			continue;
-		}
-		$stagZ = "$stag/$file/pwa.htm";
-		$prodZ = "$prod/$file/pwa.htm";		
-		$destZ = "$dest/$file.diff";
-		if (file_put_contents($destZ, "BEGIN DIFF! $stagZ VS $prodZ\n")===FALSE) {
-			AION_ECHO("ERROR! Failed header diff write!");
-		}
-		if (!is_file($stagZ) || !is_file($prodZ)) {
-			if (file_put_contents($destZ, "Cannot diff because file missing: $stagZ VS $prodZ\n",FILE_APPEND)===FALSE) {
-				AION_ECHO("ERROR! Failed missing diff write!");
-			}
-			AION_ECHO("MISSING: Cannot diff because file missing: $stagZ VS $prodZ");
-			continue;
-		}
-		system("diff '$stagZ' '$prodZ' 2>&1 >> '$destZ'");
-		if (!is_file($destZ)) { AION_ECHO("ERROR! Bad diff()"); }
-		AION_ECHO("DIFF PWA! $stagZ VS $prodZ");
-	}
-}
-
-
 
 
 /*** aion diff loop ***/

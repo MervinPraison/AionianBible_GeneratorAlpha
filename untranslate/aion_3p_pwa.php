@@ -1,76 +1,47 @@
 #!/usr/local/bin/php
 <?php
-
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-// NOTES
 /*
-PROBLEMS
-	Seems like each Bible app will need its own folder for its own scope
-	Other wise can only install one app
-	May can accomplish with .htaccess slight of hand
-		https://developer.mozilla.org/en-US/docs/Web/Manifest/scope 
-		https://stackoverflow.com/questions/65366737/pwa-prompt-for-multiple-paths-of-same-domain 
-		https://web.dev/articles/building-multiple-pwas-on-the-same-domain 
+Holy Bible Aionian Edition® Progressive Web Application, service worker
+Publisher: https://NAINOIA-INC.signedon.net
+Website: https://www.AionianBible.org
+Resources: https://resources.AionianBible.org
+Repository: https://github.com/Nainoia-Inc
+Copyright: Creative Commons Attribution 4.0 International 
 
-	Service worker code for the precache installer must be inside the service worker
-	“loaded in via register” what does that mean?
-	Can I create a service work in the js in the main file?
-		https://stackoverflow.com/questions/59395753/service-workers-install-event-not-firing 
-		https://developer.mozilla.org/en-US/docs/Web/API/Cache/addAll 
-		https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerContainer/register 
-		https://pwa-workshop.js.org/2-service-worker/#service-workers 
-
-	Precache absolute, relative, leading “/”???
-		https://stackoverflow.com/questions/76915595/clarification-needed-about-using-relative-file-paths-with-the-cache-api-compar 
-		https://stackoverflow.com/questions/46208326/for-serviceworker-cache-addall-how-do-the-urls-work/46213137 
-
-	Cache Strategies
-		https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Caching 
+The Aionian Bible project also serves all its translations as Progressive Web Apps.
+Each Bible translation is contained in a single HTM file using javascript to paginate.
+The PWA listing, manifests, service workers, and icons are served dynamically.
+Dyanmic files could be pre-generated, but dynamic results in a simpler GitHub package.
+.htaccess rules masquerade each PWA into its own folder allowing multiple-installs.
 
 DOCS
 	https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps
 	https://pwa-workshop.js.org
 	https://web.dev/progressive-web-apps/
 	https://www.freecodecamp.org/news/build-a-pwa-from-scratch-with-html-css-and-javascript/
-	https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/How_to/Trigger_install_prompt
-	
-	https://dev.to/mtee/caching-a-fetching-data-in-pwa-56ai
-	https://medium.com/james-johnson/a-simple-progressive-web-app-tutorial-f9708e5f2605 
-	https://stackoverflow.com/questions/15185199/navigating-to-previous-and-next-item-in-a-javascript-object
-	https://stackoverflow.com/questions/22631869/how-to-refresh-page-using-javascript-if-connected
-	https://stackoverflow.com/questions/24307401/window-history-pushstate-refreshing-the-browser
-	https://stackoverflow.com/questions/30019724/adding-browser-history-and-navigation-to-javascript-dom-page-change-function
-	https://stackoverflow.com/questions/3163615/how-to-scroll-an-html-page-to-a-given-anchor
-	https://stackoverflow.com/questions/4329092/multi-dimensional-associative-arrays-in-javascript
-	https://stackoverflow.com/questions/55534106/spa-should-servers-http-cache-be-turned-off-for-all-pwa-related-resources
-	https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript 
-	https://vinayak-hegde.medium.com/cache-control-meta-tag-pros-cons-and-faqs-b09aa150f5a4 
+	https://felixgerschau.com/how-to-communicate-with-service-workers/
+	Caching external domains too hard so dont do that.
+	https://stackoverflow.com/questions/39432717/how-can-i-cache-external-urls-using-service-worker
 
 TESTING
 	https://www.validbot.com/tools/app-manifest-wizard.php
 	https://www.seoreviewtools.com/pwa-testing-tool/ 
-	https://pagespeed.web.dev/ 
-	https://www.workwithloop.com/blog/how-to-test-progressive-web-apps-pwas-effectively
-	https://www.browserstack.com/guide/how-to-test-pwa
-
-ARCHIVE
-	Caching external domains too hard so dont do that.
-	https://stackoverflow.com/questions/39432717/how-can-i-cache-external-urls-using-service-worker
 
 */
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // PWA COMPILER
 AION_LOOP_PWA(	'/home/inmoti55/public_html/domain.aionianbible.org/www-stageresources',
 				'/home/inmoti55/public_html/domain.aionianbible.org/www-stage/library/pwa' );
-//AION_LOOP_DIFF_PWA(	'../www-stage/library/pwa', '../www-production-files/library/pwa', '../diff-www-stagepwa-with-pwa-BEFORE-DEPLOY');
+//AION_LOOP_DIFF('../www-stage/library/pwa', '../www-production-files/library/pwa', '../diff-www-stagepwa-with-pwa-BEFORE-DEPLOY');
 AION_ECHO("DONE!");
 return;
 
 
 // LOOP
 function AION_LOOP_PWA($source, $destiny) {
-	system("cd {$destiny}; ln -s ../../images ./.images; ln -s ../../fonts ./.fonts");
+	system("cd {$destiny}; ln -s ../../images ./images; ln -s ../../fonts ./fonts");
 	$database = array();
 	AION_FILE_DATA_GET( './aion_database/UNTRANSLATE.txt',	'T_UNTRANSLATE',	$database, array('INDEX','BOOK','CHAPTER','VERSE'), FALSE );
 	AION_FILE_DATA_GET( './aion_database/BOOKS.txt',		'T_BOOKS',			$database, 'BIBLE', FALSE );
@@ -81,13 +52,13 @@ function AION_LOOP_PWA($source, $destiny) {
 		'function'		=> 'AION_LOOP_PWA_DOIT',
 		'source'		=> $source,
 		//'include'		=> "/Holy-Bible---.*(Albanian).*---Aionian-Edition\.noia$/",
-		'include'		=> "/Holy-Bible---.*(Amo|Aionian-Bible|Traditional|Sencillo|Masoretic).*---Aionian-Edition\.noia$/",
+		//'include'		=> "/Holy-Bible---.*(Amo|Aionian-Bible|Traditional|Sencillo|Masoretic).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.+(Basic).+---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.*(Azerb|Gaelic|Somali).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.*(STEPBible).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---Gamotso---Gamo---Aionian-Edition\.noia$/",
-		//'include'		=> "/---Aionian-Edition\.noia$/",
+		'include'		=> "/---Aionian-Edition\.noia$/",
 		'database'		=> $database,
 		'destiny'		=> $destiny,
 		) );
@@ -430,7 +401,7 @@ EOF;
 			if ($last_chaN==1 && count($links[$last_book])>1) {
 				$book_format .= "<div class='chapnav'>Chapter";
 				foreach($links[$last_book] as $c => $p) {
-					$book_format .= ($c==1 ? "" : " <a title='View Chapter' href='?{$book_english}-{$c}' onclick=\"ABDO('{$book_english}-{$c}');return false;\">$c</a>\n");
+					$book_format .= ($c==1 ? "" : " <a title='View Chapter' href='?{$book_index}-{$c}' onclick=\"ABDO('{$book_index}-{$c}');return false;\">$c</a>\n");
 				}
 				$book_format .= "</div>\n";
 			}
@@ -438,7 +409,7 @@ EOF;
 `
 <h2>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-<a title='View Book Chapters' href='?{$book_english}' onclick="ABDO('{$book_english}');return false;">{$book_form}</a> {$chap_number}
+<a title='View Book Chapters' href='?{$book_index}' onclick="ABDO('{$book_index}');return false;">{$book_form}</a> {$chap_number}
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
 </h2>
 {$book_format}
@@ -448,7 +419,7 @@ EOF;
 <div id="word-menu-bottom">
 <h2>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-<a title='View Book Chapters' href='?{$book_english}' onclick="ABDO('{$book_english}');return false;">{$book_form}</a> {$chap_number}
+<a title='View Book Chapters' href='?{$book_index}' onclick="ABDO('{$book_index}');return false;">{$book_form}</a> {$chap_number}
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
 </h2>
 </div>
@@ -497,7 +468,7 @@ EOF;
 	if ($last_chaN==1 && count($links[$last_book])>1) {
 		$book_format .= "<div class='chapnav'>Chapter";
 		foreach($links[$last_book] as $c => $p) {
-			$book_format .= ($c==1 ? "" : " <a title='View Chapter' href='?{$book_english}-{$c}' onclick=\"ABDO('{$book_english}-{$c}');return false;\">$c</a>\n");
+			$book_format .= ($c==1 ? "" : " <a title='View Chapter' href='?{$book_index}-{$c}' onclick=\"ABDO('{$book_index}-{$c}');return false;\">$c</a>\n");
 		}
 		$book_format .= "</div>\n";
 	}
@@ -505,7 +476,7 @@ EOF;
 `
 <h2>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-<a title='View Book Chapters' href='?{$book_english}' onclick="ABDO('{$book_english}');return false;">{$book_form}</a> {$chap_number}
+<a title='View Book Chapters' href='?{$book_index}' onclick="ABDO('{$book_index}');return false;">{$book_form}</a> {$chap_number}
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
 </h2>
 {$book_format}
@@ -515,7 +486,7 @@ EOF;
 <div id="word-menu-bottom">
 <h2>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-<a title='View Book Chapters' href='?{$book_english}' onclick="ABDO('{$book_english}');return false;">{$book_form}</a> {$chap_number}
+<a title='View Book Chapters' href='?{$book_index}' onclick="ABDO('{$book_index}');return false;">{$book_form}</a> {$chap_number}
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
 </h2>
 </div>
@@ -526,14 +497,12 @@ EOF;
 	$contents = NULL;
 
 	// DYNAMIC STUFF
-	$G_PWA->font2 = NULL;
-	$G_PWA->font = AION_PWA_FONT($G_PWA->font2);
+	$G_PWA->fontname = $G_PWA->fontfiles = NULL;
+	$G_PWA->font = AION_PWA_FONT($G_PWA->fontname, $G_PWA->fontfiles);
 	// WRITE AND VALIDATE
-	$folder = "{$args['destiny']}/{$bible}---Aionian-Edition";
-	system("rm -rf {$folder}");
-	if (!mkdir("{$folder}") ||
-		file_put_contents($file="{$folder}/pwa.htm", AION_PWA_CONTENTS()) === FALSE) { AION_ECHO("ERROR! $error file_put_contents($file)"); }
-	system("cd {$folder}; ln -s ../../../images ./images; ln -s ../../../fonts ./fonts");
+	$file = "{$args['destiny']}/{$bible}---Aionian-Edition.htm";
+	if (is_file($file)) { unlink($file); }
+	if (file_put_contents($file, AION_PWA_CONTENTS()) === FALSE) { AION_ECHO("ERROR! $error file_put_contents($file)"); }
 
 	// DONE
 	AION_unset($database); unset($database); $database=NULL;
@@ -612,7 +581,7 @@ function AION_PWA_LINKS($links) {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // CSS
-function AION_PWA_FONT(&$fontfiles) {
+function AION_PWA_FONT(&$fontname, &$fontfiles) {
 global $G_VERSIONS;
 // FOREIGN FONT 
 $fray = array(
@@ -643,13 +612,14 @@ $fray = array(
 'font-tibetan.css'			=> array('notoseriftibetan',			'notoseriftibetan',				'font-tibetan',			'font-tibetan'		),
 );
 $font = $G_VERSIONS['LANGUAGESTYLE'];
-if (empty($font)) {				$foreign_font = $fontfiles = NULL; }
+if (empty($font)) {				$fontname = $foreign_font = $fontfiles = NULL; }
 else if (empty($fray[$font])) {	AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS font not found: $font"); }
 else {
 $l = $fray[$font][0];
 $f = $fray[$font][1];
 $n = $fray[$font][2];
 $c = $fray[$font][3]; // unused, all use same tag!
+$fontname = $f;
 $foreign_font = <<< EOF
 @font-face {
 	font-family:
@@ -680,20 +650,27 @@ return $foreign_font;
 function AION_PWA_CONTENTS() {
 global $G_PWA, $G_LINKS, $G_BOOKS, $G_NUMBERS, $G_VERSIONS, $G_FORPRINT, $AION_PWA_IMAGE_PAGED;	
 return <<< EOF
-<!-- HTML: Aionian Bible Progressive Web Application PWA -->
+<!-- Title: Holy Bible Aionian Edition® Progressive Web Application -->
+<!-- SubTitle: {$G_VERSIONS['NAMEENGLISH']} -->
+<!-- Short: {$G_VERSIONS['SHORT']} -->
+<!-- Font: {$G_PWA->fontname} -->
 <!-- Publisher: https://NAINOIA-INC.signedon.net -->
+<!-- Formatted: ABCMS on {$G_PWA->modified} -->
 <!-- Website: https://www.AionianBible.org -->
 <!-- Resources: https://resources.AionianBible.org -->
 <!-- Repository: https://github.com/Nainoia-Inc -->
-<!-- Bible: Holy Bible Aionian Edition® {$G_VERSIONS['NAMEENGLISH']} -->
 <!-- Copyright: {$G_VERSIONS['ABCOPYRIGHT']} -->
 <!-- Language: {$G_VERSIONS['LANGUAGEENGLISH']} -->
-<!-- Formatted: ABCMS on {$G_PWA->modified} -->
 <!-- Source: {$G_VERSIONS['SOURCE']} -->
 <!-- Source copyright: {$G_VERSIONS['COPYRIGHT']} -->
 <!-- Source version: {$G_VERSIONS['SOURCEVERSION']} -->
 <!-- Source text: {$G_VERSIONS['SOURCELINK']} -->
 
+<!-- The Aionian Bible project also serves all its translations as Progressive Web Apps. -->
+<!-- Each Bible translation is contained in a single HTM file using javascript to paginate. -->
+<!-- The PWA listing, manifests, service workers, and icons are served dynamically. -->
+<!-- Dynamic files could be pre-generated, but dynamic results in a simpler GitHub package. -->
+<!-- .htaccess rules masquerade each PWA into its own folder allowing multiple-installs. -->
 
 
 
@@ -805,8 +782,7 @@ a:hover { color: #9966CC; }
 #aion { padding: 0 0 15px 0; font-style: italic; font-size: 130%; font-weight: bold; color: #191919; }
 #moto { margin: 10px 0 0 0; color: #663399; }
 .RegisteredTM { font-size: 75%; }
-#java { text-align: center; font-weight: bold; }
-#java .red { color: red; }
+#upin.home { text-align: center; font-weight: bold; color: red; }
 
 /* PAGE HEAD */
 #page {	height: 100%; max-width: 1280px; margin: 0 auto; padding: 0 10px; background-color: #FFFFFF; }
@@ -980,9 +956,9 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 <a href="?Prev" title="Previous page" class="nav left" onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
 <a href="?Next" title="Next page" class="nav right" onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
 </div>
-<div id='body' class=''>
+<div id='body'>
 
-<div id='java'><span class='red'>( Javascript and cookies required )</span></div>
+<div id='upin' class='home'><span class='java'>( Javascript and cookies required )<br></span></div>
 <div id='home1'>
 <a title="Return to last page read or TOC" href="?Bookmark" onclick="ABDO('Bookmark'); return false;">
 <div id='home2'>
@@ -1020,7 +996,7 @@ Also known as 'The Purple Bible'
 
 <script>
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-// Globals
+// Globals to control javascript paging
 var AB_Accessible	= null;
 var AB_Bookmark		= 'TOC';
 var AB_Bookmark2	= 'TOC';
@@ -1031,7 +1007,7 @@ var AB_Page			= 0;
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-// Bible pages map
+// Bible pages object map page name to AB_Bible index
 {$G_PWA->bible_map}
 
 
@@ -1039,7 +1015,7 @@ var AB_Page			= 0;
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-// Bible pages
+// Bible pages array of all Bible content by chapter
 const AB_Bible = [
 
 
@@ -1047,7 +1023,7 @@ const AB_Bible = [
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-// Homepage populated dynamically from HTML #body on page load
+// Homepage populated dynamically from HTML #body on page load so homepage is only defined one place
 ``,
 
 
@@ -1055,7 +1031,7 @@ const AB_Bible = [
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-// TOC
+// TOC - Table of Contents
 `
 <h2 class='title'>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
@@ -1064,7 +1040,7 @@ const AB_Bible = [
 <a title="Return to last page read or TOC" href="?Bookmark" onclick="ABDO('Bookmark'); return false;">{$G_PWA->bible_title}</a>
 </h2>
 <a title="AionianBible.org online"		href="https://www.AionianBible.org/Read" target="_blank">AionianBible.org for all Bibles</a><br>
-<a title='Internet connection required'	href='?TOC' onclick="AionianBible_reload();return false;">Update Bible App</a><br>
+<div id='upin'></div>
 <a title="Copyright"					href="?Copyright"	onclick="ABDO('Copyright');	return false;">Copyright</a><br>
 <a title="Preface"						href="?Preface"		onclick="ABDO('Preface');	return false;">{$G_FORPRINT['W_PREF']}</a><br>
 <a title="Aiōnios and Aïdios"			href="?Aionian"		onclick="ABDO('Aionian');	return false;">Aiōnios and Aïdios</a>
@@ -1596,7 +1572,7 @@ World Nations
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-// PAGER
+// PAGER - The heart of the PWA that allows navigating through the page content array AB_Bible
 function ABDO(goto, anchor=null, push=true) {
 	// validate request
 	if      (typeof goto == 'number')  {				gonu = goto; }
@@ -1613,7 +1589,7 @@ function ABDO(goto, anchor=null, push=true) {
 	else {												gonu = null; }
 	if (gonu === null || typeof AB_Bible[gonu] == 'undefined') {
 		if (gonu !== null && ((AB_Page == 0 && gonu == -1) || (AB_Page == AB_Bible.length-1 && gonu == AB_Bible.length))) { return; }
-		alert("Oops, returning to TOC, invalid page requested: " + goto);
+		alert("Returning to TOC, invalid page: " + goto);
 		goto = 'TOC';
 		gonu = AB_Map['TOC'];
 	}
@@ -1625,6 +1601,11 @@ function ABDO(goto, anchor=null, push=true) {
 		AionianBible_writeCookie("AionianBible.Bookmark", AB_Bookmark);
 	}
 	document.getElementById('body').innerHTML = AB_Bible[AB_Page];
+
+	// Set the update and install links 
+	if (AB_Page < 2) {
+		AionianBible_PWA_UpdateInstall();
+	}
 
 	// push history to browser
 	if (anchor && anchor[0]=='#') { anchor = anchor.substr(1); }
@@ -1647,31 +1628,7 @@ function ABDO(goto, anchor=null, push=true) {
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-// RELOAD
-function AionianBible_reload() {
-	const myRequest = new Request(window.location.href);
-	fetch(myRequest,{cache: 'reload'}).then((response) => {
-		if (response.status == 200) {
-			const headers = response.headers;
-			var modified = '';
-			if (headers) { modified = ' dated: ' + headers.get('last-modified'); }
-			alert('Update Bible App from source' + modified);
-			location.reload();
-		}
-		else {
-			alert('Bible App update not available');
-		}
-	}).catch(err => {
-		alert('Bible App update not available');
-	});
-}
-
-
-
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-// BROWSER HISTORY
+// BROWSER HISTORY - Since we page without re-loading this sets the brower history
 window.addEventListener('popstate', function (event) {
     if (event.state) {
 		ABDO(event.state.go, null, false);
@@ -1683,7 +1640,7 @@ window.addEventListener('popstate', function (event) {
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-// COOKIES
+// COOKIES - Used for bookmarking pages
 function AionianBible_writeCookie(cname, cvalue) {
 	var date = new Date();
 	date.setTime(date.getTime() + (1000 * 24 * 60 * 60 * 1000));
@@ -1709,7 +1666,7 @@ function AionianBible_readCookie(cname) {
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-// BOOKMARK
+// BOOKMARK - Save bookmarks to Cookies
 function AionianBible_Set() {
 	AB_Bookmark2 = AB_Page;
 	AionianBible_writeCookie("AionianBible.Bookmark2", AB_Bookmark2);
@@ -1725,7 +1682,7 @@ function AionianBible_Get() {
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-// ACCESSIBILITY
+// ACCESSIBILITY - Increase font size for readability
 function AionianBible_Accessible() {
 	AB_Accessible = document.getElementById('body');
 	if (null !== AB_Accessible) {
@@ -1751,7 +1708,7 @@ function AionianBible_Accessible() {
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-// SWIPE
+// SWIPE - Swipe pagination
 function AionianBible_SwipeListener(handleswipe) {
 	var swipedir, startX, startY, distX, distY, elapsedTime, startTime;
 	document.body.addEventListener('touchstart', function(e) {
@@ -1785,97 +1742,71 @@ AionianBible_SwipeLinks();
 
 
 
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-// PWA https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Caching
-// https://stackoverflow.com/questions/39432717/how-can-i-cache-external-urls-using-service-worker
-// PRE-CACHE
-
-const AionianBible_cacheName = "AionianBible";
-const AionianBible_precachedResources = [
-'/',
-'fonts/gentiumplus-r.ttf',
-'fonts/gentiumplus-r.woff',
-'fonts/gentiumplus-r.woff2',
-'fonts/notosans-basic-regular.ttf',
-'fonts/notosans-basic-regular.woff',
-'fonts/notosans-basic-regular.woff2',
-{$G_PWA->font2}
-'images/favicon.ico',
-'images/favicon-32x32.png',
-'images/favicon-16x16.png',
-'images/apple-touch-icon.png',
-'images/Holy-Bible-Aionian-Edition-PURPLE-HOME.png',
-'images/Holy-Bible-Aionian-Edition-PURPLE-LOGO-PWA.png',
-'images/Holy-Bible-Aionian-Edition-PURPLE-AB-PWA.png',
-'images/Gustave-Dore-Bible-Tour-Hebrew-OT-003-Adam-and-Eve-Are-Driven-out-of-Eden.jpg',
-'images/Gustave-Dore-Bible-Tour-NT-Gospel-215-The-Crucifixion-of-Jesus-and-Two-Criminals.jpg',
-'images/Gustave-Dore-Bible-Tour-NT-Gospel-241-The-New-Jerusalem.jpg',
-'images/Timeline-History-Aionian-Bible.jpg',
-'images/Timeline-Eschatology-Aionian-Bible.jpg',
-'images/MAP-Abrahams-Journey.jpg',
-'images/MAP-Israels-Exodus.jpg',
-'images/MAP-Jesus-Journeys.jpg',
-'images/MAP-Pauls-Missionary-Journeys.jpg',
-'images/MAP-World-Nations.jpg'
-];
-
-async function AionianBible_precache() {
-	const cache = await caches.open(AionianBible_cacheName);
-	console.log(`Aionian Bible App precache: complete`);
-	return cache.addAll(AionianBible_precachedResources);
-}
-
-self.addEventListener("install", (event) => {
-	event.waitUntil(AionianBible_precache());
-});
-
-// CACHE THEN REFRESH
-async function AionianBible_cacheFirstWithRefresh(request) {
-	const fetchResponsePromise = fetch(request).then(async (networkResponse) => {
-		if (networkResponse.ok) {
-			const cache = await caches.open(AionianBible_cacheName);
-			cache.put(request, networkResponse.clone());
+// RELOAD - Reload the HTM file and all resources
+function AionianBible_Reload() {
+	const myRequest = new Request(window.location.href);
+	fetch(myRequest,{cache: 'reload'}).then((response) => {
+		if (response.status == 200) {
+			const headers = response.headers;
+			var modified = '';
+			if (headers) { modified = ' dated: ' + headers.get('last-modified'); }
+			alert('Update Bible App from source' + modified);
+			location.reload();
 		}
-		return networkResponse;
+		else {
+			alert('Bible App update unavailable');
+		}
+	}).catch(err => {
+		alert('Bible App update error');
 	});
-	return (await caches.match(request)) || (await fetchResponsePromise);
 }
-
-self.addEventListener("fetch", (event) => {
-	event.respondWith(AionianBible_cacheFirstWithRefresh(event.request));
-});
 
 
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-// INSTALL LINK
-var AionianBible_PWA_preventDefault = null;
-function AionianBible_PWA_Install() {
-	document.getElementById('java').innerHTML = "<a href='?PWA' onclick='AionianBible_PWA_InstallPrompt();return false;' title='Install Progressive Web Application'>( Install Bible App )</a>";
-}
-function AionianBible_PWA_Update() {
-	document.getElementById('java').innerHTML = "<a title='Internet connection required' href='?PWA' onclick='AionianBible_reload();return false;'>( Update Bible App )</a>";
-}
-// install request
-async function AionianBible_PWA_InstallPrompt() {
-	if (!AionianBible_PWA_preventDefault) {
-		return;
+// PWA - Display install and update links accordingly, called from various contexts
+var AionianBible_PWA_InstallPromptEvent = null;
+function AionianBible_PWA_UpdateInstall() {
+	var upin = document.getElementById('upin');
+	if (upin) {
+		// No install prompt or 'minimal-ui' display so must already be installed
+		if (!AionianBible_PWA_InstallPromptEvent || window.matchMedia('(display-mode: minimal-ui)').matches) {
+			upin.innerHTML = "<a title='Internet connection required' href='?PWA' onclick='AionianBible_Reload();return false;'>( Update Bible App )</a><br>";
+		}
+		// offer install function */
+		else {
+			upin.innerHTML = "<a href='?PWA' onclick='AionianBible_PWA_InstallPrompt();return false;' title='Install Progressive Web Application'>( Install Bible App )</a><br>";
+		}
 	}
-	const result = await AionianBible_PWA_preventDefault.prompt();
-	console.log(`Aionian Bible App install prompt: \${result.outcome}`);
-	AionianBible_PWA_Update();
+}
+// install prompt event captured on page load
+async function AionianBible_PWA_InstallPrompt() {
+	if (AionianBible_PWA_InstallPromptEvent) {
+		const result = await AionianBible_PWA_InstallPromptEvent.prompt();
+		console.log(`Aionian Bible App install prompt: \${result.outcome}`);
+		AionianBible_PWA_InstallPromptEvent = null;
+		AionianBible_PWA_UpdateInstall();
+	}
+}
+// message the service worker to reload the cache - currently unused
+async function AionianBible_PWA_ReInstall() {
+	if ("serviceWorker" in navigator && navigator.serviceWorker.controller) {
+		navigator.serviceWorker.controller.postMessage({
+			type: 'AionianBible_PWA_ReInstall',
+		});
+		console.log(`Aionian Bible App recache message sent`);
+	}
 }
 
 
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-// ONLOAD
+// ONLOAD - Initialize the PWA
 window.onload = function() {
-	// precache
-	AionianBible_precache();
-
 	// bookmarks
 	AB_Bookmark = AionianBible_readCookie("AionianBible.Bookmark");
 	if (AB_Bookmark === null) {
@@ -1888,23 +1819,33 @@ window.onload = function() {
 		AionianBible_writeCookie("AionianBible.Bookmark", AB_Bookmark2);
 	}
 
-	// homepage
-	document.getElementById('java').innerHTML = '';
+	// remove javascript warning and save homepage to array
+	var upin = document.getElementById('upin');
+	if (upin) { upin.innerHTML = ''; }
 	AB_Bible[0] = document.getElementById('body').innerHTML;
-	const query = window.location.search;
-	if (query && query != "?PWA") {	ABDO(query.substr(1), window.location.hash); }
-	else {							window.history.replaceState({go:'PWA'}, '', location.pathname + "?PWA"); }
 
-	// install
-	AionianBible_PWA_Update();
+	// load queried page
+	const query = window.location.search;
+	if (query && query != "?PWA") {
+		ABDO(query.substr(1), window.location.hash);
+	}
+	// homepage already loaded, but indicate update or install
+	else {
+		window.history.replaceState({go:'PWA'}, '', location.pathname + "?PWA");
+		AionianBible_PWA_UpdateInstall();
+	}
+
+	// seize the install prompt
 	window.addEventListener("beforeinstallprompt", (event) => {
 		event.preventDefault();
-		AionianBible_PWA_preventDefault = event;
-		AionianBible_PWA_Install();
+		AionianBible_PWA_InstallPromptEvent = event;
+		AionianBible_PWA_UpdateInstall();
 	});
-	window.addEventListener("appinstalled", () => {
-		AionianBible_PWA_Update();
-	});
+
+	// register the service worker
+	if ("serviceWorker" in navigator) {
+		navigator.serviceWorker.register("pwa.js");
+	}
 
 	console.log(`Aionian Bible App onload: complete`);
 }

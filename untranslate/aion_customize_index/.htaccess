@@ -111,16 +111,20 @@ RewriteCond %{DOCUMENT_ROOT}\/library\/epub\/%1 -d
 RewriteRule ^ /Readium?epub=../library/epub/%1 [L,R=301]
 
 # REWRITE PWA
+# Must end with "/" to masquerade each PWA into its own folder allowing multiple-installs
 RewriteCond %{REQUEST_URI} ^(\/pwa\/Holy\-Bible\-\-\-[^/.]+)$ [NC,OR]
-RewriteCond %{REQUEST_URI} ^(\/pwa\/Holy\-Bible\-\-\-[^/.]+)\/pwa\.htm$ [NC]
+RewriteCond %{REQUEST_URI} ^(\/pwa\/Holy\-Bible\-\-\-[^/.]+)\.htm$ [NC]
 RewriteRule ^ %1/ [L,R=301]
+# Once masqueraded must point to the actual PWA HTM file
 RewriteCond %{REQUEST_URI} ^\/pwa\/(Holy\-Bible\-\-\-[^/.]+)\/$ [NC]
-RewriteCond %{DOCUMENT_ROOT}/library/pwa/%1/pwa.htm -f
-RewriteRule ^ /library/pwa/%1/pwa.htm?PWA [L]
-RewriteCond %{REQUEST_URI} ^\/pwa\/(Holy\-Bible\-\-\-[^/.]+\/.+)$ [NC]
+RewriteCond %{DOCUMENT_ROOT}\/library\/pwa\/%1\.htm -f
+RewriteRule ^ /library/pwa/%1.htm?PWA [L]
+# Likewise point to actual PWA resource files
+RewriteCond %{REQUEST_URI} ^\/pwa\/Holy\-Bible\-\-\-[^/.]+\/(.+)$ [NC]
 RewriteCond %{DOCUMENT_ROOT}/library/pwa/%1 -f
 RewriteRule ^ /library/pwa/%1 [L]
-RewriteCond %{REQUEST_URI} ^\/pwa(|\/|\/.+)$ [NC]
+# If not an actual file then a dynamic resource
+RewriteCond %{REQUEST_URI} ^\/pwa(|\/.*)$ [NC]
 RewriteRule ^ /library/pwa/index.php [L]
 
 # REWRITE INDEX
