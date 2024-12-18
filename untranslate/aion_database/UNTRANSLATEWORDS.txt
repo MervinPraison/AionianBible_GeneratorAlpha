@@ -227,8 +227,9 @@ Holy-Bible---Kara---Kara-Bible	0											NULL
 Holy-Bible---Kiche---Totonicapan	0											NULL
 Holy-Bible---Kinga---Mahanji-Bible	0											NULL
 Holy-Bible---Kisi---Kisi-Bible	0											NULL
+Holy-Bible---Korean---Korean-1910	0			지옥								NULL
 Holy-Bible---Korean---Korean-Revised-Version	0			지옥								NULL
-Holy-Bible---Korean---Korean-RV	1			지옥								NULL
+Holy-Bible---Korean---Korean-RV	0			지옥								NULL
 Holy-Bible---Kosraean---Kosraean-Bible	0			hell								NULL
 Holy-Bible---Kuhane---Kuhane-Bible	0											NULL
 Holy-Bible---Kurdish---Sorani-Bible	0											NULL

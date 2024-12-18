@@ -638,6 +638,9 @@ Holy-Bible---Kisi---Kisi-Bible				https://ebible.org/epub/kiz.epub	Holy-Bible---
 Holy-Bible---Kisi---Kisi-Bible				https://ebible.org/pdf/kiz/kiz_prt.pdf	Holy-Bible---Kisi---Kisi-Bible---Source-Edition.pdf	
 Holy-Bible---Kisi---Kisi-Bible				https://ebible.org/Scriptures/kiz_vpl.zip	Holy-Bible---Kisi---Kisi-Bible---Source-Edition.VPL.zip	
 Holy-Bible---Kisi---Kisi-Bible				https://eBible.org/sword/zip/kiz2020eb.zip	Holy-Bible---Kisi---Kisi-Bible---Source-Edition.SWORD.zip	
+Holy-Bible---Korean---Korean-1910				https://ebible.org/epub/kor.epub	Holy-Bible---Korean---Korean-1910---Source-Edition.epub	
+Holy-Bible---Korean---Korean-1910				https://ebible.org/Scriptures/kor_vpl.zip	Holy-Bible---Korean---Korean-1910---Source-Edition.VPL.zip	
+Holy-Bible---Korean---Korean-1910				https://ebible.org/sword/zip/kor1910eb.zip	Holy-Bible---Korean---Korean-1910---Source-Edition.SWORD.zip	
 Holy-Bible---Korean---Korean-Revised-Version	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/KorRV.zip	Holy-Bible---Korean---Korean-Revised-Version---Source-Edition.SWORD.zip	
 Holy-Bible---Korean---Korean-RV				./aion_source/Holy-Bible---Korean---Korean-RV.unbound.zip	Holy-Bible---Korean---Korean-RV---Source-Edition.UNBOUND.zip	
 Holy-Bible---Korean---Korean-RV				https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/KorRV.zip	Holy-Bible---Korean---Korean-RV---Source-Edition.SWORD.zip	

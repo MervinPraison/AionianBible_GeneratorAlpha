@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
-# File Size: 38013       
-# File Date: 12/05/2024 11:13:47
+# File Size: 38105       
+# File Date: 12/17/2024 11:47:54
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2024
@@ -241,6 +241,7 @@ Holy-Bible---Kara---Kara-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	
 Holy-Bible---Kiche---Totonicapan	0	0	0	12	1	11	9	1	5	94	63	10	2	0	2	0	208	201	199	1	64	0	2
 Holy-Bible---Kinga---Mahanji-Bible	0	0	0	12	1	11	9	1	5	93	61	10	2	0	1	0	205	198	197	0	67	0	1
 Holy-Bible---Kisi---Kisi-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
+Holy-Bible---Korean---Korean-1910	0	0	63	12	1	11	9	1	5	93	62	10	2	0	0	0	269	261	261	0	0	3	0
 Holy-Bible---Korean---Korean-RV	0	0	63	12	1	11	9	1	5	94	63	10	2	0	1	0	271	264	263	0	0	1	1
 Holy-Bible---Korean---Korean-Revised-Version	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Kosraean---Kosraean-Bible	0	6	64	12	1	11	9	1	5	94	63	10	2	0	1	6	272	265	264	0	0	0	1

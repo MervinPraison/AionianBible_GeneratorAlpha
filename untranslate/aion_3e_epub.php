@@ -1208,7 +1208,7 @@ $G_COMMENT
 
 <p><b>08/18/24</b> <a href='https://creativecommons.org/licenses/by/4.0/' target='_blank' title='Copyright license'>Creative Commons Attribution 4.0 International</a>, if source allows.<br /></p>
 
-<p><b>08/05/24</b> 376 translations now available in 165 languages.<br /></p>
+<p><b>08/05/24</b> 377 translations now available in 165 languages.<br /></p>
 
 <p><b>05/02/24</b> 370 translations now available in 164 languages.<br /></p>
 

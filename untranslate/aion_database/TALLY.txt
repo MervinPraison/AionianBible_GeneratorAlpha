@@ -1,6 +1,6 @@
 # File Name: TALLY.txt
-# File Size: 22345       
-# File Date: 12/05/2024 09:32:27
+# File Size: 22397       
+# File Date: 12/17/2024 09:58:40
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2024
@@ -241,6 +241,7 @@ Holy-Bible---Kara---Kara-Bible	7950	7950	7955
 Holy-Bible---Kiche---Totonicapan	7955	7955	7957
 Holy-Bible---Kinga---Mahanji-Bible	7905	7905	7908
 Holy-Bible---Kisi---Kisi-Bible	7943	7943	7948
+Holy-Bible---Korean---Korean-1910	30991	30991	30991
 Holy-Bible---Korean---Korean-RV	31011	31011	31039
 Holy-Bible---Korean---Korean-Revised-Version	31084	31084	31085
 Holy-Bible---Kosraean---Kosraean-Bible	30944	30944	30947

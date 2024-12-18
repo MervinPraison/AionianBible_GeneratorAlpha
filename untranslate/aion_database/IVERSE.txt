@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 889461      
-# File Date: 12/05/2024 11:47:35
+# File Size: 891840      
+# File Date: 12/17/2024 12:23:03
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2024
@@ -887,7 +887,7 @@ Holy-Bible---English---Noyes	EXO-013-017
 Holy-Bible---English---Noyes	MAR-010-045	Mark 10:45	for even the Son of man came not to be served, but to serve, and to give his life a ransom for many.
 Holy-Bible---English---Noyes	ROM-001-001	Romans 1:1	Paul, a servant of Christ Jesus, a called apostle, set apart to preach the gospel of God,
 Holy-Bible---English---Noyes	MAT-028-019	Matthew 28:19	Go, and make all nations my disciples, baptizing them into the name of the Father, and of the Son, and of the Holy Spirit;
-Holy-Bible---English---One-Unity-Resource-Bible	JOH-003-016	John 3:16	For God has agapao ·total devotion love· to the inhabitants of the earth, so he gave his one and only Son, that whoever believes in him should not perish, but have eternal life.
+Holy-Bible---English---One-Unity-Resource-Bible	JOH-003-016	John 3:16	For God has agapao ·total devotion love· to the inhabitants of the earth, so he gave his one and only Son, that whoever trusts in him should not perish, but have eternal life.
 Holy-Bible---English---One-Unity-Resource-Bible	GEN-003-024	Genesis 3:24	So he gahrash ·relationally divorced· the man; and he placed cherubim at the east of the garden of Eden, and a flaming sword which turned every way, to guard the way to the tree of life.
 Holy-Bible---English---One-Unity-Resource-Bible	LUK-023-034	Luke 23:34	Yeshua [Salvation] said, “Abba ·Father familiar, Dear Dad·, forgive them, for they don’t know what they are doing.” They divided up his clothes by casting lots.
 Holy-Bible---English---One-Unity-Resource-Bible	REV-021-002		 
@@ -895,7 +895,7 @@ Holy-Bible---English---One-Unity-Resource-Bible	HEB-011-008
 Holy-Bible---English---One-Unity-Resource-Bible	EXO-013-017	Exodus 13:17	When Pharaoh had let the people go, God didn’t lead them by the way of the land of the Philistines [To roll in dust (As an insult)], although that was near; for God said, “Lest perhaps the people change their minds when they see war, and they teshuvah ·completely return· to Egypt [Abode of slavery];”
 Holy-Bible---English---One-Unity-Resource-Bible	MAR-010-045	Mark 10:45	For the Son of Man also came not to be served, but to serve, and to give his life as a ransom for many.”
 Holy-Bible---English---One-Unity-Resource-Bible	ROM-001-001		
-Holy-Bible---English---One-Unity-Resource-Bible	MAT-028-019	Matthew 28:19	Go, and make disciples of all nations, baptizing them in the name of the Abba ·Father· and of the Son and of Ruach haKodesh [Spirit of the Holiness],
+Holy-Bible---English---One-Unity-Resource-Bible	MAT-028-019	Matthew 28:19	Go, and make disciples of all nations, baptizing them in the name of the Abba ·Father· and of the Son and of Ruach haKodesh [Spirit, Breath of the Holiness],
 Holy-Bible---English---Open-English-Bible-Commonwealth	JOH-003-016	John 3:16	For God so loved the world, that he gave his only Son, so that everyone who believes in him may not be lost, but have eternal life.
 Holy-Bible---English---Open-English-Bible-Commonwealth	GEN-003-024		
 Holy-Bible---English---Open-English-Bible-Commonwealth	LUK-023-034	Luke 23:34	Then Jesus said, ‘Father, forgive them; they do not know what they are doing.’ His clothes they divided among them by casting lots.
@@ -2066,6 +2066,15 @@ Holy-Bible---Kisi---Kisi-Bible	EXO-013-017
 Holy-Bible---Kisi---Kisi-Bible	MAR-010-045	Marko 10:45	Kwa kujha mwana ghwa Adamu ahidilepi kutumikibhwa bali kutumika, ni kughabhosya maisha gha muene kujha fidia jha bhangi.”
 Holy-Bible---Kisi---Kisi-Bible	ROM-001-001	Bharumi 1:1	Paulo ntumishi ghwa Yesu Kritu jha akutibhu kujha mfalme, ni kutengibhwa kwa ndabha jha injili jha K'yara.
 Holy-Bible---Kisi---Kisi-Bible	MAT-028-019	Matayo 28:19	Henu mulotajhi mukabhabhombayi malaika ghoha kujha bhanafunzi. Mubhabatisiajhi mu lihina lya Tata, ni la Muana, ni la Roho Mtakatifu.
+Holy-Bible---Korean---Korean-1910	JOH-003-016	요한복음 3:16	하나님이 세상을 이처럼 사랑하사 독생자를 주셨으니 이는 저를 믿는 자마다 멸망치 않고 영생을 얻게 하려 하심이니라
+Holy-Bible---Korean---Korean-1910	GEN-003-024	창세기 3:24	이같이 하나님이 그 사람을 쫓아 내시고 에덴 동산 동편에 그룹들과 두루 도는 화염검을 두어 생명나무의 길을 지키게 하시니라
+Holy-Bible---Korean---Korean-1910	LUK-023-034	누가복음 23:34	이에 예수께서 가라사대 `아버지여 저희를 사하여 주옵소서 자기의 하는 것을 알지 못함이니이다' 하시더라 저희가 그의 옷을 나눠 제비 뽑을쌔
+Holy-Bible---Korean---Korean-1910	REV-021-002	요한계시록 21:2-3	또 내가 보매 거룩한 성 새 예루살렘이 하나님께로부터 하늘에서 내려오니 그 예비한 것이 신부가 남편을 위하여 단장한 것 같더라 내가 들으니 보좌에서 큰 음성이 나서 가로되 `보라, 하나님의 장막이 사람들과 함께 있으매 하나님이 저희와 함께 거하시리니 저희는 하나님의 백성이 되고 하나님은 친히 저희와 함께 계셔서
+Holy-Bible---Korean---Korean-1910	HEB-011-008	히브리서 11:8	믿음으로 아브라함은 부르심을 받았을 때에 순종하여 장래 기업으로 받을 땅에 나갈새 갈 바를 알지 못하고 나갔으며
+Holy-Bible---Korean---Korean-1910	EXO-013-017	출애굽기 13:17	바로가 백성을 보낸 후에 블레셋 사람의 땅의 길은 가까울지라도 하나님이 그들을 그 길로 인도하지 아니하셨으니 이는 하나님이 말씀하시기를 이 백성이 전쟁을 보면 뉘우쳐 애굽으로 돌아갈까 하셨음이라
+Holy-Bible---Korean---Korean-1910	MAR-010-045	마가복음 10:45	인자의 온 것은 섬김을 받으려 함이 아니라 도리어 섬기려 하고 자기 목숨을 많은 사람의 대속물로 주려 함이니라'
+Holy-Bible---Korean---Korean-1910	ROM-001-001	로마서 1:1	예수 그리스도의 종 바울은 사도로 부르심을 받아 하나님의 복음을 위하여 택정함을 입었으니
+Holy-Bible---Korean---Korean-1910	MAT-028-019	마태복음 28:19	그러므로 너희는 가서 모든 족속으로 제자를 삼아 아버지와 아들과 성령의 이름으로 세례를 주고
 Holy-Bible---Korean---Korean-RV	JOH-003-016	요한복음 3:16	하나님이 세상을 이처럼 사랑하사 독생자를 주셨으니 이는 저를 믿는 자마다 멸망치 않고 영생을 얻게 하려 하심이니라
 Holy-Bible---Korean---Korean-RV	GEN-003-024	창세기 3:24	이같이 하나님이 그 사람을 쫓아 내시고 에덴 동산 동편에 그룹들과 두루 도는 화염검을 두어 생명나무의 길을 지키게 하시니라
 Holy-Bible---Korean---Korean-RV	LUK-023-034	누가복음 23:34	이에 예수께서 가라사대 `아버지여 저희를 사하여 주옵소서 자기의 하는 것을 알지 못함이니이다' 하시더라 저희가 그의 옷을 나눠 제비 뽑을쌔

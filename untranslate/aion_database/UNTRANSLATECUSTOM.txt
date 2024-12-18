@@ -858,6 +858,7 @@ Holy-Bible---Kinga---Mahanji-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Kinga---Mahanji-Bible								NULL
 Holy-Bible---Kisi---Kisi-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Kisi---Kisi-Bible								NULL
+Holy-Bible---Korean---Korean-1910								NULL
 Holy-Bible---Korean---Korean-Revised-Version								NULL
 Holy-Bible---Korean---Korean-RV	023	ISA	027	011	SWAP			마르면 꺾이나니 여인이 와서 그것을 불사를 것이라 이 백성이 지각이 없으므로 그들을 지으신 자가 불쌍히 여기지 아니하시며 그들을 조성하신 자가 은혜를 베풀지 아니하시리라
 Holy-Bible---Korean---Korean-RV								NULL

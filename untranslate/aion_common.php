@@ -201,7 +201,7 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $allbibles ) {
 		$okay = $destiny.'/'.$version[C_BIBLE];
 		$bpub = $destiny.'/epub/'.$version[C_BIBLE];
 		$boli = $destiny.'/online/'.$version[C_BIBLE];
-		$pwa1 = $destiny.'/pwa/'.$version[C_BIBLE].'---Aionian-Edition/pwa.htm';
+		$pwa1 = $destiny.'/pwa/'.$version[C_BIBLE].'---Aionian-Edition.htm';
 
 		// study pack
 		$lang = strtok($version[C_LANGUAGEENGLISH],", ");
@@ -1594,6 +1594,16 @@ function AION_BIBLES_REMAPPER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 			goto YO;
 		}
 	}
+	/* NUM10 */
+	if (isset($database[T_VERSEMAP][$bible.'-NUM10'])!==FALSE) {	
+		/* Numbers 10 */	
+		if ($book=='NUM' && $chapter==10 && $verse>=28) {
+			$verse = sprintf('%03d', $verse + 2);
+			$current="WARNING REMAPPED = $bible: SINGLE Numbers 10";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
 	/* NUM12-13 */
 	if (isset($database[T_VERSEMAP][$bible.'-NUM12-13'])!==FALSE) {
 		/* numbers */
@@ -1634,12 +1644,62 @@ function AION_BIBLES_REMAPPER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 			goto YO;
 		}
 	}
+	/* JOS10 */
+	if (isset($database[T_VERSEMAP][$bible.'-JOS10'])!==FALSE) {	
+		/* Joshua 10 */	
+		if ($book=='JOS' && $chapter==10 && $verse>=5) {
+			$verse = sprintf('%03d', $verse + 2);
+			$current="WARNING REMAPPED = $bible: SINGLE Joshua 10";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
+	/* JOS15 */
+	if (isset($database[T_VERSEMAP][$bible.'-JOS15'])!==FALSE) {	
+		/* Joshua 15 */	
+		if ($book=='JOS' && $chapter==15 && $verse>=16) {
+			$verse = sprintf('%03d', $verse + 1);
+			$current="WARNING REMAPPED = $bible: SINGLE Joshua 15";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
 	/* JOS21 */
 	if (isset($database[T_VERSEMAP][$bible.'-JOS21'])!==FALSE) {	
 		/* Joshua21 */	
 		if ($book=='JOS' && $chapter==21 && $verse>=38) {
 			$verse = sprintf('%03d', $verse + 2);
 			$current="WARNING REMAPPED = $bible: SINGLE Joshua 21";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
+	/* JDG9 */
+	if (isset($database[T_VERSEMAP][$bible.'-JDG9'])!==FALSE) {	
+		/* Judges 9 */	
+		if ($book=='JDG' && $chapter==9 && $verse>=52) {
+			$verse = sprintf('%03d', $verse + 1);
+			$current="WARNING REMAPPED = $bible: SINGLE Judges 9";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
+	/* 1SA7 */
+	if (isset($database[T_VERSEMAP][$bible.'-1SA7'])!==FALSE) {	
+		/* 1 Samuel 7 */	
+		if ($book=='1SA' && $chapter==7 && $verse>=2) {
+			$verse = sprintf('%03d', $verse + 1);
+			$current="WARNING REMAPPED = $bible: SINGLE 1 Samuel 7";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
+	/* 1SA17 */
+	if (isset($database[T_VERSEMAP][$bible.'-1SA17'])!==FALSE) {	
+		/* 1 Samuel 17 */	
+		if ($book=='1SA' && $chapter==17 && $verse>=17) {
+			$verse = sprintf('%03d', $verse + 1);
+			$current="WARNING REMAPPED = $bible: SINGLE 1 Samuel 17";
 			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
 			goto YO;
 		}
@@ -1674,6 +1734,16 @@ function AION_BIBLES_REMAPPER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 			goto YO;
 		}
 	}
+	/* 1KI1 */
+	if (isset($database[T_VERSEMAP][$bible.'-1KI1'])!==FALSE) {
+		/* 1 Kings 1 */	
+		if ($book=='1KI' && $chapter==1 && $verse>=15) {
+			$verse = sprintf('%03d', $verse + 1);
+			$current="WARNING REMAPPED = $bible: SINGLE 1 Kings 1";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
 	/* 1KI4-5 */
 	if (isset($database[T_VERSEMAP][$bible.'-1KI4-5'])!==FALSE) {	
 		/* 1 Kings */
@@ -1694,12 +1764,32 @@ function AION_BIBLES_REMAPPER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 			goto YO;
 		}
 	}
+	/* 1KI22 */
+	if (isset($database[T_VERSEMAP][$bible.'-1KI22'])!==FALSE) {
+		/* 1 Kings 22 */
+		if ($book=='1KI' && $chapter==22 && $verse>=43) {
+			$verse = sprintf('%03d', $verse + 1);
+			$current="WARNING REMAPPED = $bible: SINGLE 1 Kings 22";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
 	/* 2KI11-12 */
 	if (isset($database[T_VERSEMAP][$bible.'-2KI11-12'])!==FALSE) {	
 		/* 2 Kings */
 		if ($book=='2KI' && $chapter==12) {
 			AION_BIBLES_SLIDE_BACK($bible, 11, 21, 1, $chapter, $verse);
 			$current="WARNING REMAPPED = $bible: SINGLE II Kings 11-12";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
+	/* 1CH2 */
+	if (isset($database[T_VERSEMAP][$bible.'-1CH2'])!==FALSE) {
+		/* 1 Chronicles 2 */
+		if ($book=='1CH' && $chapter==2 && $verse>=24) {
+			$verse = sprintf('%03d', $verse + 1);
+			$current="WARNING REMAPPED = $bible: SINGLE 1 Chronicles 2";
 			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
 			goto YO;
 		}
@@ -1740,6 +1830,16 @@ function AION_BIBLES_REMAPPER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 		if ($book=='2CH' && (($chapter==1 && $verse>=18) || ($chapter==2))) {
 			AION_BIBLES_SLIDE_FORE($bible, 1, 17, 1, $chapter, $verse);
 			$current="WARNING REMAPPED = $bible: SINGLE 2 Chronicles 1-2";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
+	/* 2CH7 */
+	if (isset($database[T_VERSEMAP][$bible.'-2CH7'])!==FALSE) {
+		/* 2 Chronicles 7 */
+		if ($book=='2CH' && $chapter==7 && $verse>=18) {
+			$verse = sprintf('%03d', $verse + 1);
+			$current="WARNING REMAPPED = $bible: SINGLE 2 Chronicles 7";
 			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
 			goto YO;
 		}
@@ -1942,12 +2042,42 @@ function AION_BIBLES_REMAPPER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 			goto YO;
 		}
 	}
+	/* PSA8 */
+	if (isset($database[T_VERSEMAP][$bible.'-PSA8'])!==FALSE) {
+		/* Psalm 8 */
+		if ($book=='PSA' && $chapter==8 && $verse>=8) {
+			$verse = sprintf('%03d', $verse + 1);
+			$current="WARNING REMAPPED = $bible: SINGLE Psalm 8";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
+	/* PSA36 */
+	if (isset($database[T_VERSEMAP][$bible.'-PSA36'])!==FALSE) {
+		/* Psalm 36 */
+		if ($book=='PSA' && $chapter==36 && $verse>=5) {
+			$verse = sprintf('%03d', $verse + 1);
+			$current="WARNING REMAPPED = $bible: SINGLE Psalm 36";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
 	/* PSA66 */
 	if (isset($database[T_VERSEMAP][$bible.'-PSA66'])!==FALSE) {
 		/* Proverbs */
 		if ($book=='PSA' && ($chapter==66)) {
 			$verse = sprintf('%03d', $verse + 1);
 			$current="WARNING REMAPPED = $bible: SINGLE Psalms 66";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
+	/* PSA80 */
+	if (isset($database[T_VERSEMAP][$bible.'-PSA80'])!==FALSE) {
+		/* Psalm 80 */
+		if ($book=='PSA' && $chapter==80 && $verse>=11) {
+			$verse = sprintf('%03d', $verse + 1);
+			$current="WARNING REMAPPED = $bible: SINGLE Psalm 80";
 			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
 			goto YO;
 		}
@@ -1990,12 +2120,42 @@ function AION_BIBLES_REMAPPER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 			goto YO;
 		}
 	}
+	/* PSA104 */
+	if (isset($database[T_VERSEMAP][$bible.'-PSA104'])!==FALSE) {
+		/* Psalm 104 */
+		if ($book=='PSA' && $chapter==104 && $verse>=13) {
+			$verse = sprintf('%03d', $verse + 1);
+			$current="WARNING REMAPPED = $bible: SINGLE Psalm 104";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
 	/* PRO1 */
 	if (isset($database[T_VERSEMAP][$bible.'-PRO1'])!==FALSE) {
 		/* Proverbs */
 		if ($book=='PRO' && $chapter==1) {
 			$verse = sprintf('%03d', $verse + 1);
 			$current="WARNING REMAPPED = $bible: SINGLE Proverbs 1";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
+	/* PRO10 */
+	if (isset($database[T_VERSEMAP][$bible.'-PRO10'])!==FALSE) {
+		/* Proverbs 10 */
+		if ($book=='PRO' && $chapter==10 && $verse>=10) {
+			$verse = sprintf('%03d', $verse + ($verse>=12 ? 2 :1));
+			$current="WARNING REMAPPED = $bible: SINGLE Proverbs 10";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
+	/* PRO11 */
+	if (isset($database[T_VERSEMAP][$bible.'-PRO11'])!==FALSE) {
+		/* Proverbs 11 */
+		if ($book=='PRO' && $chapter==11 && $verse>=6) {
+			$verse = sprintf('%03d', $verse + 1);
+			$current="WARNING REMAPPED = $bible: SINGLE Proverbs 11";
 			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
 			goto YO;
 		}
@@ -2026,6 +2186,16 @@ function AION_BIBLES_REMAPPER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 		if ($book=='ECC' && (($chapter==4 && $verse>=17) || ($chapter==5))) {
 			AION_BIBLES_SLIDE_FORE($bible, 4, 16, 1, $chapter, $verse);
 			$current="WARNING REMAPPED = $bible: SINGLE Ecclesiates 4-5";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
+	/* ECC5 */
+	if (isset($database[T_VERSEMAP][$bible.'-ECC5'])!==FALSE) {
+		/* Ecclesiates5 */
+		if ($book=='ECC' && $chapter==5 && $verse>=11) {
+			$verse = sprintf('%03d', $verse + 1);
+			$current="WARNING REMAPPED = $bible: SINGLE Ecclesiates 5";
 			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
 			goto YO;
 		}
@@ -2157,6 +2327,26 @@ function AION_BIBLES_REMAPPER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 			goto YO;
 		}
 	}
+	/* ISA32 */
+	if (isset($database[T_VERSEMAP][$bible.'-ISA32'])!==FALSE) {
+		/* Isaiah 32 */
+		if ($book=='ISA' && $chapter==32 && $verse>=14) {
+			$verse = sprintf('%03d', $verse + 1);
+			$current="WARNING REMAPPED = $bible: SINGLE Isaiah 32";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
+	/* ISA37 */
+	if (isset($database[T_VERSEMAP][$bible.'-ISA37'])!==FALSE) {
+		/* Isaiah 37 */
+		if ($book=='ISA' && $chapter==37 && $verse>=10) {
+			$verse = sprintf('%03d', $verse + ($verse>=32 ? 2 : 1));
+			$current="WARNING REMAPPED = $bible: SINGLE Isaiah 37";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
 	/* ISA63-64 */
 	if (isset($database[T_VERSEMAP][$bible.'-ISA63-64'])!==FALSE) {
 		if ($book=='ISA' && (($chapter==63 && $verse>=20) || ($chapter==64))) {
@@ -2175,6 +2365,16 @@ function AION_BIBLES_REMAPPER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 			goto YO;
 		}
 	}
+	/* JER1 */
+	if (isset($database[T_VERSEMAP][$bible.'-JER1'])!==FALSE) {
+		/* Jeremiah 1 */
+		if ($book=='JER' && $chapter==1 && $verse>=13) {
+			$verse = sprintf('%03d', $verse + 1);
+			$current="WARNING REMAPPED = $bible: SINGLE Jeremiah 1";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
 	/* JER8-9 */
 	if (isset($database[T_VERSEMAP][$bible.'-JER8-9'])!==FALSE) {
 		if ($book=='JER' && (($chapter==8 && $verse>=23) || ($chapter==9))) {
@@ -2189,6 +2389,26 @@ function AION_BIBLES_REMAPPER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 		if ($book=='JER' && (($chapter==30 && $verse>=25) || ($chapter==31))) {
 			AION_BIBLES_SLIDE_FORE($bible, 30, 24, 1, $chapter, $verse);
 			$current="WARNING REMAPPED = $bible: SINGLE Jeremiah 30-31";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
+	/* JER51 */
+	if (isset($database[T_VERSEMAP][$bible.'-JER51'])!==FALSE) {
+		/* Jeremiah 51 */
+		if ($book=='JER' && $chapter==51 && $verse>=46) {
+			$verse = sprintf('%03d', $verse + 1);
+			$current="WARNING REMAPPED = $bible: SINGLE Jeremiah 51";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
+	/* JER52 */
+	if (isset($database[T_VERSEMAP][$bible.'-JER52'])!==FALSE) {
+		/* Jeremiah 52 */
+		if ($book=='JER' && $chapter==52 && $verse>=27) {
+			$verse = sprintf('%03d', $verse + 1);
+			$current="WARNING REMAPPED = $bible: SINGLE Jeremiah 52";
 			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
 			goto YO;
 		}
@@ -2515,6 +2735,16 @@ function AION_BIBLES_REMAPPER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 		if ($book=='ACT' && $chapter==28 && $verse>=29) {
 			$verse = sprintf('%03d', $verse + 1);
 			$current="WARNING REMAPPED = $bible: SINGLE Act 29";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
+	/* ACT23 */
+	if (isset($database[T_VERSEMAP][$bible.'-ACT23'])!==FALSE) {
+		/* Acts 23 */
+		if ($book=='ACT' && $chapter==23 && $verse>=18) {
+			$verse = sprintf('%03d', $verse + 1);
+			$current="WARNING REMAPPED = $bible: SINGLE Acts 23";
 			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
 			goto YO;
 		}
@@ -3144,20 +3374,20 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 		'foreign'	=> &$foreign,
 		)));
 	$grandmarker = array();
-	$grandmarker['BIBLE_COUNT']	= $grandtotal['BIBLE_COUNT']-376;
+	$grandmarker['BIBLE_COUNT']	= $grandtotal['BIBLE_COUNT']-377;
 	$grandmarker['LANG_COUNT']	= $grandtotal['LANG_COUNT']-155;
-	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-8269;
-	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-9058;
-	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-286003;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-7605757;
-	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-81305;
+	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-8308;
+	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-9085;
+	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-287191;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-7636748;
+	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-81566;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-457;
-	$grandmarker['LONG']		= $grandtotal['LONG']-1174;
-	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-12;
-	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-2790;
+	$grandmarker['LONG']		= $grandtotal['LONG']-1175;
+	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-13;
+	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-2887;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-910;
 	$grandmarker['FIXED']		= $grandtotal['FIXED']-13540;
-	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-18955;
+	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-19066;
 	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-10246;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-715;
@@ -3168,12 +3398,12 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-151;
 	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-83;
 	$grandmarker['PDF_PKJO']	= $grandtotal['PDF_PKJO']-16;
-	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-365;
-	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-175;
-	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-211;
-	$grandmarker['PDF_PLJO']	= $grandtotal['PDF_PLJO']-86;
-	$grandmarker['PDF_PRTL']	= $grandtotal['PDF_PRTL']-235;
-	$grandmarker['TRANS']		= $grandtotal['TRANS']-313;
+	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-366;
+	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-176;
+	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-212;
+	$grandmarker['PDF_PLJO']	= $grandtotal['PDF_PLJO']-87;
+	$grandmarker['PDF_PRTL']	= $grandtotal['PDF_PRTL']-236;
+	$grandmarker['TRANS']		= $grandtotal['TRANS']-314;
 	$grandtotal['LONG']		= ($grandtotal['LONG']		== 0 ? $grandtotal['LONG']		: "<span style='font-weight:bold; color:red;'>".$grandtotal['LONG']."</span>" );
 	$grandtotal['CHAP_NO']	= ($grandtotal['CHAP_NO']	== 0 ? $grandtotal['CHAP_NO']	: "<span style='font-weight:bold; color:red;'>".$grandtotal['CHAP_NO']."</span>" );
 	$grandtotal['VERS_NO']	= ($grandtotal['VERS_NO']	== 0 ? $grandtotal['VERS_NO']	: "<span style='font-weight:bold; color:red;'>".$grandtotal['VERS_NO']."</span>" );

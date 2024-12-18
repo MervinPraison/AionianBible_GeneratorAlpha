@@ -2447,6 +2447,7 @@ Holy-Bible---Kinga---Mahanji-Bible							end
 Holy-Bible---Kisi---Kisi-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Kisi---Kisi-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Kisi---Kisi-Bible							end
+Holy-Bible---Korean---Korean-1910							end
 Holy-Bible---Korean---Korean-Revised-Version	064	3JO	001	014	14	1	end
 Holy-Bible---Korean---Korean-Revised-Version							end
 Holy-Bible---Korean---Korean-RV	004	NUM	001	038	54	2	end

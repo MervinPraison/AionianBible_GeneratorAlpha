@@ -1,6 +1,6 @@
 # File Name: ANAVIGATION.txt
-# File Size: 21064       
-# File Date: 12/05/2024 11:49:23
+# File Size: 21277       
+# File Date: 12/17/2024 12:24:48
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2024
@@ -291,6 +291,10 @@ Holy-Bible---Kiche---Totonicapan
 Holy-Bible---Kiche---Totonicapan	VERSMISS	065-JUD-001-021
 Holy-Bible---Kinga---Mahanji-Bible		
 Holy-Bible---Kisi---Kisi-Bible		
+Holy-Bible---Korean---Korean-1910		
+Holy-Bible---Korean---Korean-1910	VERSMISS	019-PSA-016-010
+Holy-Bible---Korean---Korean-1910	CHAPMISS	060-1PE-005-010
+Holy-Bible---Korean---Korean-1910	CHAPMISS	060-1PE-005-011
 Holy-Bible---Korean---Korean-RV		
 Holy-Bible---Korean---Korean-RV	VERSMISS	019-PSA-016-010
 Holy-Bible---Korean---Korean-Revised-Version		

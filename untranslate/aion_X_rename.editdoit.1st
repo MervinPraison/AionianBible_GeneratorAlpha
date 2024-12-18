@@ -1,3 +1,3 @@
 
-cat aion_X_rename.edit |xargs sed -i 	-e 's/Holy-Bible---Gourmantche---Gourma-Bible/Holy-Bible---Gourma---Gourma-Bible/g'
+cat aion_X_rename.edit |xargs sed -i 	-e 's/Holy-Bible---Coptic---Sahidic-Bible-2/Holy-Bible---Coptic---Sahidic-Bible/g'
 

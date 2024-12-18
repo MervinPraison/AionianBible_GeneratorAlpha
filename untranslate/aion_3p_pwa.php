@@ -51,7 +51,7 @@ function AION_LOOP_PWA($source, $destiny) {
 	AION_LOOP( array(
 		'function'		=> 'AION_LOOP_PWA_DOIT',
 		'source'		=> $source,
-		//'include'		=> "/Holy-Bible---.*(Albanian).*---Aionian-Edition\.noia$/",
+		//'include'		=> "/Holy-Bible---.*(Korean).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.*(Amo|Aionian-Bible|Traditional|Sencillo|Masoretic).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.+(Basic).+---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.*(Azerb|Gaelic|Somali).*---Aionian-Edition\.noia$/",
@@ -1228,7 +1228,7 @@ All versions are available online at <a href='https://www.AionianBible.org/Read'
 </p><p>
 <b>08/18/24</b>&nbsp;&nbsp;<a href='https://creativecommons.org/licenses/by/4.0/' target='_blank' title='Copyright license'>Creative Commons Attribution 4.0 International</a>, if source allows.<br>
 </p><p>
-<b>08/05/24</b>&nbsp;&nbsp;376 translations now available in 165 languages.<br>
+<b>08/05/24</b>&nbsp;&nbsp;377 translations now available in 165 languages.<br>
 </p><p>
 <b>05/01/24</b>&nbsp;&nbsp;370 translations now available in 164 languages.<br>
 </p><p>

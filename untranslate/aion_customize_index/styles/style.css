@@ -213,7 +213,7 @@ div.word-warning { color: red; }
 
 /*** MAPS ***/
 #maps { text-align: center; width: 100%; }
-#maps img { text-align: center; margin: 10px auto; border: solid black 1px; }
+#maps img { text-align: center; margin: 10px auto 0 auto; border: solid black 1px; }
 #maps div { margin: 0 auto; }
 #maps div.portrait { max-width: 360px; }
 #maps div.timeline { max-width: 800px; }
