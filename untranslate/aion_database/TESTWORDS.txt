@@ -1,6 +1,6 @@
 # File Name: TESTWORDS.txt
 # File Size: 251318      
-# File Date: 12/17/2024 12:20:42
+# File Date: 12/19/2024 19:19:44
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2024
