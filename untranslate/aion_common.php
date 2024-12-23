@@ -3623,6 +3623,7 @@ function AION_LOOP_HTMS_DOIT($args) {
 	$htm .= "<table class='aionmeta' style='border: 4px solid purple;'>\n";
 	$htm .= "<tr><td>TITLE</td><td><b>Holy Bible Aionian Edition: ".$args['database']['T_FORPRINT'][$bible]['VERSIONE']."</b></td></tr>\n";
 	$htm .= "<tr><td>TITLE_NEW</td><td>Holy Bible Aionian Edition: ".$args['database']['T_FORPRINT'][$bible]['VERSIONE']." - New Testament</td></tr>\n";
+	$htm .= "<tr><td>TITLE_GOS</td><td>Holy Bible Aionian Edition: ".$args['database']['T_FORPRINT'][$bible]['VERSIONE']." - Gospel Primer</td></tr>\n";
 	// Proofer Priority
 	$htm .= "<tr><td><br></td><td></td></tr>\n";
 	$htm .= "<tr><td>FILE</td><td>$bible"."_POD_</td></tr>\n";
@@ -3716,7 +3717,7 @@ function AION_LOOP_HTMS_DOIT($args) {
 	$htm .= "<tr><td>TRANSLATOR</td><td>".$args['database']['T_VERSIONS'][$bible]['TRANSLATOR']."</td></tr>\n";
 	$htm .= "<tr><td>KDP_DESC</td><td>".htmlentities($blurb)."</td></tr>\n";
 	$htm .= "<tr><td>LULU_DESC</td><td>$blurb</td></tr>\n";
-	$htm .= "<tr><td>JOHN_DESC</td><td>(replace 'This Bible') This gospel primer includes Genesis 1-4, John's Gospel, Revelation 19-22, verses from every Bible book, and</td></tr>\n";
+	$htm .= "<tr><td>JOHN_DESC</td><td>".preg_replace("# This Bible helps #u"," This gospel primer includes Genesis 1-4, John's Gospel, Revelation 19-22, verses from every Bible book, and helps ",$blurb)."</td></tr>\n";
 	$htm .= "</table\n";
 	$htm .= "<br><br>\n";
 

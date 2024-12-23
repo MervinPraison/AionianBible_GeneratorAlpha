@@ -21,6 +21,7 @@ $files = array_diff(scandir('../www-stageresources/AB-PROOFS'), array('.', '..')
 foreach($files as $file) {
 	//if (preg_match("#_HARD\.pdf$#",$file)) { continue; }
 	//if (preg_match("#_NT\.pdf$#",$file)) { continue; }
+	//if (!preg_match("#ACOVER#",$file)) { continue; }
 	if (!preg_match("#\.pdf$#",$file)) { continue; }
 	$result = system("diff-pdf -v -m -s --output-diff=../www-stageresources/AB-PROOFS-DIFFS/$file ../www-stageresources/AB-PROOFS/$file ../www-stageresources/AB-PROOFS-MARKER/$file");
 	AION_ECHO("PROOF:  result=$result  $file\n");

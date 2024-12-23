@@ -240,7 +240,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Tsakhur|Burmese-Common).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Kannada|Malayalam|Myanmar|Sanskrit|Tamil).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Coptic).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Bhadrawahi-Bible|Coptic---Sahidic-Bible|Haryanvi-Bible|Lodhi-Bible|Baghlayani-Bible|Nepali-Bible|Chinese-Union-Version-Traditional|Hausa---Contemporary|Bahasa-Indonesia-Sehari-hari|Yoruba).*---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---.*(One-Unity).*---Aionian-Edition\.noia$/",
 
 		//'include'	=> "/Holy-Bible---.*(Ewe---Word-of-Life|Greek-Modern-Kathareuousa|Oromo---New-World|Twi---Akuapem-Twi-Bible|Twi---Asante-Twi-WASNA|Bhadrawahi-Bible|Coptic---Sahidic-Bible|Haryanvi-Bible|Lodhi-Bible|Baghlayani-Bible|Nepali-Bible|Chinese-Union-Version-Traditional|Hausa---Contemporary|Bahasa-Indonesia-Sehari-hari|Yoruba).*---Aionian-Edition\.noia$/",
 
@@ -249,7 +249,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---English---(World-English-Bible-Updated|Aionian-Bible)---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Arabic---New-Arabic-Bible|English---Aionian-Bible|Hebrew---Modern-Hebrew-Bible|Spanish---Sencillo-Bible)---Aionian-Edition\.noia$/",
-		'include'	=> "/---Aionian-Edition\.noia$/",
+		//'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		'verses66'	=> $verses66,
@@ -3278,6 +3278,13 @@ $loadfontfile = (
  <LoadFontfile name=\"FB-ITAL\" filename=\"gentiumplus-i.ttf\"/>
  <LoadFontfile name=\"FB-BOIT\" filename=\"gentiumplus-i.ttf\"/>"
 :
+// GentiumEzra
+($font == "GentiumEzra" ?
+"<LoadFontfile name=\"FB-REGU\" filename=\"gentiumplus-r.ttf\"><Fallback filename=\"ezra_sil.ttf\" /></LoadFontfile>
+ <LoadFontfile name=\"FB-BOLD\" filename=\"gentiumplus-r.ttf\"><Fallback filename=\"ezra_sil.ttf\" /></LoadFontfile>
+ <LoadFontfile name=\"FB-ITAL\" filename=\"gentiumplus-i.ttf\"><Fallback filename=\"ezra_sil.ttf\" /></LoadFontfile>
+ <LoadFontfile name=\"FB-BOIT\" filename=\"gentiumplus-i.ttf\"><Fallback filename=\"ezra_sil.ttf\" /></LoadFontfile>"
+:
 // Gujarati
 ($font == "Gujarati" ?
 "<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"notoserifgujarati-regular.ttf\"/>
@@ -3319,6 +3326,13 @@ $loadfontfile = (
  <LoadFontfile name=\"FB-BOLD\" filename=\"liberationsansnarrow-bold.ttf\"/>
  <LoadFontfile name=\"FB-BOIT\" filename=\"liberationsansnarrow-bolditalic.ttf\"/>
  <LoadFontfile name=\"FB-ITAL\" filename=\"liberationsansnarrow-italic.ttf\"/>"
+:
+// LiberationEzra
+($font == "LiberationEzra" ?
+"<LoadFontfile name=\"FB-REGU\" filename=\"liberationsansnarrow-regular.ttf\"><Fallback filename=\"ezra_sil.ttf\" /></LoadFontfile>
+ <LoadFontfile name=\"FB-BOLD\" filename=\"liberationsansnarrow-bold.ttf\"><Fallback filename=\"ezra_sil.ttf\" /></LoadFontfile>
+ <LoadFontfile name=\"FB-BOIT\" filename=\"liberationsansnarrow-bolditalic.ttf\"><Fallback filename=\"ezra_sil.ttf\" /></LoadFontfile>
+ <LoadFontfile name=\"FB-ITAL\" filename=\"liberationsansnarrow-italic.ttf\"><Fallback filename=\"ezra_sil.ttf\" /></LoadFontfile>"
 :
 // Malayalam
 ($font == "Malayalam" ?
@@ -3410,7 +3424,7 @@ $loadfontfile = (
  <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"notosans-basic-bolditalic.ttf\"/>"
 :
 // ERROR
-AION_ECHO("ERROR! Font not found $font")))))))))))))))))))))))))))));
+AION_ECHO("ERROR! Font not found $font")))))))))))))))))))))))))))))));
 
 if ($numarialfont) {	$initfont = '<Regular fontface="FT-BOLD"/><Bold fontface="FT-BOLD"/><Italic fontface="FT-BOIT"/><BoldItalic fontface="FT-BOIT"/>';
 						$numbfont = '<Regular fontface="FT-REGU"/><Bold fontface="FT-BOLD"/><Italic fontface="FT-ITAL"/><BoldItalic fontface="FT-BOIT"/>'; }

@@ -300,8 +300,9 @@ foreach($files as $file) {
 	if (!preg_match("#^(Holy-Bible---(.+)---Aionian-Edition).htm$#", $file, $matches) || 
 		!($bible=preg_replace("#---#", ":&nbsp;&nbsp;&nbsp;", $matches[2])) ||
 		!($bible=preg_replace("#-#", "&nbsp;", $bible))) { continue; }
-	
-	echo "<a href='{$path}/{$matches[1]}/' target='_blank' class='bible'>$bible</a><br>";
+
+	if ($_Message) {	echo "$bible<br>"; }
+	else {				echo "<a href='{$path}/{$matches[1]}/' target='_blank' class='bible'>$bible</a><br>"; }
 }
 echo "</body></html>";
 exit;
