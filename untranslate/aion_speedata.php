@@ -240,16 +240,16 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Tsakhur|Burmese-Common).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Kannada|Malayalam|Myanmar|Sanskrit|Tamil).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Coptic).*---Aionian-Edition\.noia$/",
-		'include'	=> "/Holy-Bible---.*(One-Unity).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(One-Unity).*---Aionian-Edition\.noia$/",
 
 		//'include'	=> "/Holy-Bible---.*(Ewe---Word-of-Life|Greek-Modern-Kathareuousa|Oromo---New-World|Twi---Akuapem-Twi-Bible|Twi---Asante-Twi-WASNA|Bhadrawahi-Bible|Coptic---Sahidic-Bible|Haryanvi-Bible|Lodhi-Bible|Baghlayani-Bible|Nepali-Bible|Chinese-Union-Version-Traditional|Hausa---Contemporary|Bahasa-Indonesia-Sehari-hari|Yoruba).*---Aionian-Edition\.noia$/",
 
-		//'include'	=> "/Holy-Bible---.*(Polish-Updated-Gdansk).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Oromo).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Coptic---Coptic-Boharic-NT---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---(World-English-Bible-Updated|Aionian-Bible)---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Arabic---New-Arabic-Bible|English---Aionian-Bible|Hebrew---Modern-Hebrew-Bible|Spanish---Sencillo-Bible)---Aionian-Edition\.noia$/",
-		//'include'	=> "/---Aionian-Edition\.noia$/",
+		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		'verses66'	=> $verses66,
@@ -283,6 +283,7 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 		if ($args['q_allall']) { $args['q_pdfon'] = TRUE; }
 		$args['q_pdfall'] = $args['q_pdfpo'] = $args['q_pdfnt'] = $args['q_pdflu'] = FALSE;
 	}
+	//if ($forprint['YESJOHN']!="TRUE") { return; }
 	if (($args['q_rtlhuh'] == 'RTL' && empty($forprint['RTL'])) || ($args['q_rtlhuh'] == 'RTLNO' && !empty($forprint['RTL']))) { AION_ECHO("SPEEDATA SKIPPING! $bible"); return; } // RTL Only. NO RTL, or ALL
 	if (( $args['q_allall'] && $forprint['DOIT']=="FALSE") || (!$args['q_allall'] && $forprint['DOIT']!="TRUE")) { AION_ECHO("SPEEDATA SKIPPING! $bible"); return; }
 	if ($args['q_pdflu']) { $args['q_pdfpo'] = $args['q_pdfnt'] = TRUE;	}
@@ -591,7 +592,7 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 		if (!file_put_contents($outlua,str_replace('XMLTOVALIDATE',$outxml,$lua))) { AION_ECHO("ERROR! file_put_contents: $outlua"); }
 		$outxml = "bible_layout$destiny_POD_JOHN_COVER.xml";
 		$outlua = "bible_luachk$destiny_POD_JOHN_COVER.lua";
-		if (!file_put_contents($outxml,AION_LOOP_PDF_POD_LAYOUT_COVR($versions,$forprint,$default,"$bible$destiny_POD_JOHN.pdf","Gospel Primer",$numarialfont,NULL,NULL,FALSE))) { AION_ECHO("ERROR! file_put_contents: $outxml"); }
+		if (!file_put_contents($outxml,AION_LOOP_PDF_POD_LAYOUT_COVR($versions,$forprint,$default,"$bible$destiny_POD_JOHN.pdf","Gospel Primer",$numarialfont,"ISBN.pdf",NULL,FALSE))) { AION_ECHO("ERROR! file_put_contents: $outxml"); }
 		if (!file_put_contents($outlua,str_replace('XMLTOVALIDATE',$outxml,$lua))) { AION_ECHO("ERROR! file_put_contents: $outlua"); }
 	}
 

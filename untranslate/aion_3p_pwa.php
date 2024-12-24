@@ -72,7 +72,7 @@ function AION_LOOP_PWA_DOIT($args) {
 	// GLOBALS
 	global $G_PWA, $G_LINKS, $G_BOOKS, $G_NUMBERS, $G_VERSIONS, $G_FORPRINT;
 	$G_PWA = new stdClass();
-	static $modified = NULL; if ($modified==NULL) { $modified = date("n/j/Y h:i:s"); }
+	static $modified = NULL; if ($modified==NULL) { $modified = date("n/j/Y"); }
 	$G_PWA->modified = $modified;
 
 	// BIBLE
