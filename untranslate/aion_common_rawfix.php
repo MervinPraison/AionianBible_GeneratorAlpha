@@ -950,68 +950,7 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Chin-Matu---Matupi-Chin-2019" :
-/*
-Original
-MAR 8:35 Amah khaw a hinglu te khang ham aka ngaih tah a hlong ni. Tedae amah khaw kai neh olthangthen ham a hinglu aka hlong tah daem ni.
-MAR 8:36 Hlang pakhat te Diklai pum a dang dae a hinglu te a hlong atah balae a hoeikhang?
-MAR 8:37 Hlang loh a hinglu ham balae tlansum la a phai eh?
-MAR 8:38 He suentae lakliah kamah neh ka ol aka yah puei te tah samphaih neh hlangtholh la om coeng. Hlang capa loh a napa kah thangpomnah dongah hlangcim rhoek kah puencawn rhoek neh ha pawk vaengah anih te a yah puei van ni,” a ti nah.
-New
-MAR 8:33 Te dongah anih te hlangping taeng lamloh amah bueng a hoep tih a hna khuila kutdawn a puei. Te phoeiah a timthoeih tih a lai te a taek pah.
-MAR 8:34 Vaan la oeloe tih a huei phoeiah anih te, “Ephphatha (khui saeh tila om),” a ti nah.
-MAR 8:35 Te vaengah a hnavue te tlek khui tih a lai aka khom te yaih tih balh cal.
-MAR 8:36 Te phoeiah hlang taengah thui pawt ham amih te ol a paek. Amih te muep ol a paek dae amih loh a nah la muep a hoe uh.
-MAR 8:37 Te dongah let uh khungdaeng tih, “Cungkuem la balh a saii dongah hnapang te a yaak ham a saii tih olmueh te a cal sak,” a ti uh.
- 
-Original 
-LUK 1:40 Zekhariah im khuiah kun tih Elizabeth te a voek.
-LUK 1:41 Mary kah toidalnah te Elizabeth loh a yaak vaengah a bung khuikah cahni te soipet tih Elizabeth khaw Mueihla Cim neh baetawt.
-LUK 1:42 Te vaengah tamlung neh pang khungdaeng tih, “Nang tah huta rhoek lakliah na yoethen coeng tih, nang bung kah a thaih te a yoethen coeng.
-LUK 1:43 Kai aih he metlam nim, ka boeipa kah a manu kai taengla ha pawk tarha he?
-LUK 1:44 Nang kah toidalnah ol te ka hna khuiah a kun vaengah tah, ka bung khuikah cahni loh kohoenah neh soipet he.
-LUK 1:45 Te dongah Boeipa loh a thui te hmakhahnah om ni tila aka tangnah tah a yoethen,” a ti nah.
-LUK 1:46 Mary long khaw, “Boeipa te ka hinglu loh a oep.
-LUK 1:47 Ka mueihla tah ka khangkung Pathen dongah hlampan coeng.
-LUK 1:48 A salnu mathoe he a paelki thil coeng dongah tahae lamkah tah cadil boeih loh kai ng'uem uh pawn ni.
-LUK 1:49 Kai taengah thaom tloe la a saii dongah, a ming tah cim pai saeh.
-LUK 1:50 A rhennah tah amah aka rhih rhoek kah cadil cahma ham ni.
-LUK 1:51 A ban neh a thaomnah a saii, a thinko kopoek ah buhueng aka pom te a taekyak.
-LUK 1:52 Mangpa rhoek a ngolkhoel lamloh a hlak tih, tlayae rhoek te a pomsang.
-LUK 1:53 Bungpong rhoek te hno then neh a hah sak tih, khuehtawn rhoek a tlongtlai la a tueih.
-LUK 1:54 A rhennah te poek sak hamla a ca Israel te a bom‍ .
-LUK 1:55 A pa rhoek taengah a thui bangla, Abraham neh a tiingan taengah kumhal duela a khueh,” a ti.
-LUK 1:56 Mary te Elizabeth neh hla thum tluk hmaih a naeh phoeiah amah im la bal.
-LUK 1:57 Elizabeth te a om tue a pha coeng tih capa a cun.
-LUK 1:58 Boeipa loh a rhennah te anih taengah a khueh tih, a oep te a huiko neh imben loh a yaak vaengah anih te a omngaih puei uh.
-LUK 1:59 Khohnin hnin rhet a lo vaengah camoe te yahvinrhet ham cet uh. Te vaengah anih te a napa ming Zekhariah la a khue uh.
-LUK 1:60 Tedae a manu loh a doo tih, “Moenih, Johan la a khue ni,” a ti nah.
-LUK 1:61 Te vaengah anih taengah, “Hekah ming la a khue te na cako khuiah a om pawt ah,” a ti nauh.
-LUK 1:62 Camoe metla khue a ngaih poek tila a napa te a yavaih uh.
-LUK 1:63 Te vaengah cabael a hoe tih a daek hatah, “A ming tah Johan ni,” a ti tih boeih a ngaihmang uh.
-LUK 1:64 Te vaengah a hmui, a lai te khaw pahoi a khui pah dongah cal tih Pathen te a uem.
-LUK 1:65 Te vaengah amih tolvael rhoek boeih te rhihnah loh a pai thil. Te dongah hekah olka loh Judah tlang tom te boeih a ngae uh.
-LUK 1:66 Aka ya boeih loh a thinko khuiah a dueh uh tih, “Hekah camoe he metlam nim a om ve?” a ti uh. Tedae Boeipa kah kut loh anih te a om puei.
-LUK 1:67 A napa Zekhariah tah Mueihla Cim neh baetawt.
-LUK 1:68 Te dongah a olphong neh, “A pilnam te a hip tih tlannah a saii dongah, Israel Pathen Boeipa tah uemom pai saeh.
-LUK 1:69 A taengom David im khuiah mamih ham khangnah ki a thoh sak.
-LUK 1:70 Khosuen lamloh a tonghma ciim rhoek kah ka dongah a thui vanbangla,
-LUK 1:71 Mamih kah rhal rhoek neh mamih aka hmuhuet rhoek boeih kut lamkah khangnah,
-LUK 1:72 a pa rhoek taengah rhennah tueng sak ham neh a paipi ciim te poek sak ham,
-LUK 1:73 a pa Abraham taengah olhlo neh a toemngam te mamih paek ham,
-LUK 1:74 amah taengah thothueng hamla rhal kut lamloh hoel n'hlawt coeng.
-LUK 1:75 Mamih kah khohnin rhoek boeih te amah hmaiah duengnah neh cimcaihnah ham ni.
-LUK 1:76 Te phoeiah, camoe, nang tah Khohni tonghma la n'khue vetih a longpuei rhoekbah ham Boeipa hmaiah na lamhma ni.
-LUK 1:77 Amih kah tholh khodawkngainah rhangneh a pilnam taengah khangnah mingnah a paek ni.
-LUK 1:78 Mamih Pathen kah rhehnah om. Te nen te a sang lamkah khothoeng loh mamih n'hip.
-LUK 1:79 Dueknah mueihlip neh yinnah khuiah aka ngol rhoek ham te a tue vetih, mamih kah kho te ngaimongnah longpuei la hoihaeng ham ni,” a ti.
-LUK 1:80 Camoe tah rhoeng tih mueihla ah khaw rhaang. Te dongah Israel taengah a phoenah khohnin duela khosoek ah om.
-LUK 2:1 A khohnin a pha vaengah Kaisar Augustus taengkah oltloek te lunglai pum ah a pat.
-New
-LUK 1:40 Zekhariah im khuiah kun tih Elizabeth te a voek.
-LUK 1:41 Mary kah toidalnah te Elizabeth loh a yaak vaengah a bung khuikah cahni te soipet tih Elizabeth khaw Mueihla Cim neh baetawt.
-LUK 1:42 Te vaengah tamlung neh pang khungdaeng tih, “N
-LUK 2:1 A khohnin a pha vaengah Kaisar Augustus taengkah oltloek te lunglai pum ah a pat.
-*/
+//if (!($bfile = preg_replace("/\|strong=\"[GH]{1}\d+\"/us","",$bfile,-1,$rnum)) || $rnum!=531) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
