@@ -658,7 +658,7 @@ else {
 		$para .= "</a></div></div>"; 
 	}
 	else { $para = ''; }
-	$tocmenu = "<div class='field-header2'>Table of Contents:</div>$ol2$ne2$para";	
+	$tocmenu = "<div class='field-header2'><img src='/images/Aionian-Bible-Bible.png' title='Read Aionian Bible'> Read:</div>$ol2$ne2$para";	
 	$name = "<span class='word-tocs'>".$_BibleONE['T_VERSIONS']['SHORT']."</span>";	
 }
 if (isset($_Part[2]) && $_Part[2]=='Noted') {	$avs = "<span class='word-tocs'>AVS</span>"; }
@@ -689,7 +689,7 @@ abcms_head(abcms_word_tocs_menu(NULL, $tocmenu));
 echo "<div id='word'>";
 echo "<h2 class=center>".$_BibleONE['T_VERSIONS']['NAMEENGLISH']."</h2>";
 echo "<div id='word-description'>".$tocmenu.$_BibleONE['FORMATTED']."</div>";
-echo "<div id='word-search'><div class='field-header'>Aionian Verses:</div>";
+echo "<div id='word-search'><div class='field-header'><img src='/images/Aionian-Bible-Online.png' title='Aionian Glossary Verses'> Aionian Glossary Verses:</div>";
 $path_glossary = abcms_href('/Glossary',TRUE,TRUE,FALSE);
 $path_noted = abcms_href(TRUE,'/Noted',TRUE,TRUE);
 echo "<p>Chapters with <a href='$path_glossary' title='Aionian Glossary'>Aionian Glossary</a> words are highlighted in the table of contents with each verse also <a href='$path_noted' title='Aionian Glossary usage'>listed here</a>.  Notes are added to 64 Old Testament and 200 New Testament verses without altering the source text.  Contact the <a href='/Publisher' title='Contact Nainoia, Inc'>Publisher</a> with any questions. We pray for a modern public domain translation in every language.</p>";

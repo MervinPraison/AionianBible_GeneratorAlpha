@@ -295,20 +295,21 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $allbibles ) {
 
 		($database[$version[C_BIBLE]][T_VERSIONS]['DOWNLOAD']=='N' ? '' : ( 
 
- 		"\n<div class='field-header'>Online:</div><div class='field-field'><div class='field-links decorated'>".
+ 		"\n<div class='field-header'><img src='/images/Aionian-Bible-Internet.png' title='Aionian Bible Online'> Online:</div><div class='field-field'><div class='field-links decorated'>".
+		(AION_filesize($pwa1)									?("<a href='/pwa/"			.$version[C_BIBLE]	."---Aionian-Edition/' target='_blank' title='Aionian Bible Progressive Web Application'>PWA App</a>, ") :'').
 		"<a href='https://play.google.com/store/apps/details?id=net.signedon.aionianbible.aionianbible' target='_blank' title='Aionian Bible free at Google Play Store'>Android App</a>".
         (is_dir(  $bpub.'---Aionian-Edition')					?(", <a href='/epub/"		.$version[C_BIBLE]	."---Aionian-Edition'  target='_blank' title='Aionian Bible ePub Futurepress'>Futurepress</a>") :'').
         (is_dir(  $bpub.'---Aionian-Edition')					?(", <a href='/Readium/"	.$version[C_BIBLE]	."---Aionian-Edition'  target='_blank' title='Aionian Bible ePub Readium'>Readium</a>") :'').
-		(AION_filesize($pwa1)									?(", <a href='/pwa/"		.$version[C_BIBLE]	."---Aionian-Edition/' target='_blank' title='Aionian Bible Progressive Web Application'>PWA</a>") :'').
+		"</div></div>".
 
- 		"\n<div class='field-header'>Downloads:</div><div class='field-field'><div class='field-links decorated'>".
+ 		"\n<div class='field-header'><img src='/images/Aionian-Bible-Download.png' title='Aionian Bible Download'> Download:</div><div class='field-field'><div class='field-links decorated'>".
 		(AION_filesize($base.'---Aionian-Edition.epub')			?("<a href='/resources/"	.$version[C_BIBLE]	."---Aionian-Edition.epub' download title='Aionian Bible ePub format download'>ePub</a>") :'').
 		(AION_filesize($base.'---Aionian-Edition.pdf')			?(", <a href='/resources/"	.$version[C_BIBLE]	."---Aionian-Edition.pdf' target='_blank' title='Aionian Bible PDF format'>PDF</a>") :'').
 		(AION_filesize($base.'---Aionian-Edition---STUDY.pdf')	?(", <a href='/resources/"	.$version[C_BIBLE]	."---Aionian-Edition---STUDY.pdf' target='_blank' title='Aionian Bible wide margin PDF study format'>Study PDF</a>") :'').
 		($pack													?(", <a href='$pack' target='_blank' title='Aionian Bible Study Pack resources for Bible translation and study of underlying languages'>Study Pack</a>") :'').
 		(AION_filesize($base.'---Aionian-Edition.noia')			?(", <a href='/resources/"	.$version[C_BIBLE]	."---Aionian-Edition.noia' download title='Aionian Bible with annotations data format download'>Annotated Datafile</a>") :'').
 		(AION_filesize($base.'---Standard-Edition.noia')		?(", <a href='/resources/"	.$version[C_BIBLE]	."---Standard-Edition.noia' download title='Standard Bible data format download'>Standard Datafile</a>") :'').
-		", <a href='/resources/' target='_blank' title='All Aionian Bible resources for download'>Everything</a>".
+		", and <a href='/resources/' target='_blank' title='All Aionian Bible resources for download'>Everything</a>".
 		"</div></div>".
 
 		((!empty($L_AMAZON) ||
@@ -318,9 +319,7 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $allbibles ) {
 		  !empty($L_LULUHARD) ||
 		  !empty($L_LULUNT) ||
 		  !empty($L_LULUJOHN)) ?
-        ("\n<div class='field-header'>Purchase / Buy:</div><div class='field-field'><div class='field-links decorated'>".
-		(TRUE					?("<a href='/Buy' title='Buy Aionian Bible'><img src='/images/Aionian-Bible-Button-Buy-25.png' title='Buy the Aionian Bible in print'></a> ") :'').
-		(TRUE					?("<a href='/Buy' title='Buy the Aionian Bible in print'>All Bibles</a>, ") :'').
+        ("\n<div class='field-header'><img src='/images/Aionian-Bible-Button-Buy-Square.png' title='Buy Print Aionian Bible'> Purchase:</div><div class='field-field'><div class='field-links decorated'>".
 		(!empty($L_AMAZON)		?("<a href='$L_AMAZON' target='_blank' title='Buy Holy Bible Aionian Edition print copy at Amazon.com'>Amazon</a>, ")					:'').
 		(!empty($L_AMAZONNT)	?("<a href='$L_AMAZONNT' target='_blank' title='Buy Holy Bible Aionian Edition New Testament print copy at Amazon.com'>Amazon New Testament</a>, ")	:'').
 		(!empty($L_AMAZONJOHN)	?("<a href='$L_AMAZONJOHN' target='_blank' title='Buy Holy Bible Aionian Edition Gospel Primer print copy at Amazon.com'>Amazon Gospel Primer</a>, ")	:'').
@@ -329,7 +328,8 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $allbibles ) {
 		(!empty($L_LULUHARD)	?("<a href='$L_LULUHARD' target='_blank' title='Buy Holy Bible Aionian Edition hardcover copy at Lulu.com'>Lulu Hardcover</a>, ")				:'').
 		(!empty($L_LULUNT)		?("<a href='$L_LULUNT' target='_blank' title='Buy Holy Bible Aionian Edition New Testament print copy at Lulu.com'>Lulu New Testament</a>, ")	:'').
 		(!empty($L_LULUJOHN)	?("<a href='$L_LULUJOHN' target='_blank' title='Buy Holy Bible Aionian Edition Gospel Primer print copy at Lulu.com'>Lulu Gospel Primer</a>, ")	:'').
-		($bible=='Holy-Bible---English---Aionian-Bible'	?("<a href='https://www.lulu.com/shop/-nainoia-inc/holy-bible-aionian-edition-aionian-bible-22-book-digest-special-edition/paperback/product-1qkg7e89.html' target='_blank' title='Buy Holy Bible Aionian Edition Aionian Bible 22 Book Special Edition print copy at Lulu.com'>Lulu 22 Special</a>")	:'').
+		($bible=='Holy-Bible---English---Aionian-Bible'	?("<a href='https://www.lulu.com/shop/-nainoia-inc/holy-bible-aionian-edition-aionian-bible-22-book-digest-special-edition/paperback/product-1qkg7e89.html' target='_blank' title='Buy Holy Bible Aionian Edition Aionian Bible 22 Book Special Edition print copy at Lulu.com'>Lulu 22 Special</a>, ")	:'').
+		"and <a href='/Buy' title='Buy the Aionian Bible in print'>Browse All Bibles</a>".
 		"</div></div>")
 		 : "").
 		
@@ -338,7 +338,7 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $allbibles ) {
 		  AION_filesize($base.'---Source-Edition.epub') ||
 		  AION_filesize($base.'---Source-Edition.pdf') ||
 		  AION_filesize($base.'---Source-Edition.SWORD.zip')) ?
-        ("\n<div class='field-header'>Source Downloads:</div><div class='field-field'><div class='field-links decorated'>".
+        ("\n<div class='field-header'><img src='/images/Aionian-Bible-Source.png' title='Aionian Bible Source'> Source:</div><div class='field-field'><div class='field-links decorated'>".
 		 (is_dir(  $bpub.'---Source-Edition')				?("<a href='/epub/"		.$version[C_BIBLE]."---Source-Edition' target='_blank' title='Source Bible ePub Futurepress'>Futurepress</a>, ")					:'').
 		 (is_dir(  $bpub.'---Source-Edition')				?("<a href='/Readium/"	.$version[C_BIBLE]."---Source-Edition' target='_blank' title='Source Bible ePub Readium'>Readium</a>, ")							:'').
 		 (AION_filesize($base.'---Source-Edition.epub')		?("<a href='/resources/".$version[C_BIBLE]."---Source-Edition.epub' download title='Source Bible ePub format download'>ePub</a>, ")							:'').
