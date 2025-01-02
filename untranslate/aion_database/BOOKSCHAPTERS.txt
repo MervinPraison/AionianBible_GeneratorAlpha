@@ -1,8 +1,8 @@
 #
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	MAP	FLAG
 # File Accuracy: Contact publisher with corrections to file format or content
-# File Copyright: Creative Commons Attribution 4.0 International, 2018-2024
-# File Date: 12/29/2024 12:17:11
+# File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
+# File Date: 01/01/2025 16:18:10
 # File Generator: ABCMS (alpha)
 # File Location: https://resources.AionianBible.org
 # File Name: BOOKSCHAPTERS.txt
