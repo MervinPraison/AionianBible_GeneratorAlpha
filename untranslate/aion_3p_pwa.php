@@ -1224,7 +1224,7 @@ All versions are available online at <a href='https://www.AionianBible.org/Read'
 </p><p>
 <b>11/24/24</b>&nbsp;&nbsp;Progressive Web Application <a href='https://pwa.aionianbible.org/' target='_blank' title='PWA format'>off-line format</a>.<br>
 </p><p>
-<b>10/20/24</b>&nbsp;&nbsp;Gospel Primer handout <a href='https://www.aionianbible.org/Buy' target='_blank' title='Buy at Amazon and Lulu'>print format</a>.<br>
+<b>10/20/24</b>&nbsp;&nbsp;Gospel Primer <a href='https://www.aionianbible.org/Buy' target='_blank' title='Buy at Amazon and Lulu'>handout format</a>.<br>
 </p><p>
 <b>08/18/24</b>&nbsp;&nbsp;<a href='https://creativecommons.org/licenses/by/4.0/' target='_blank' title='Copyright license'>Creative Commons Attribution 4.0 International</a>, if source allows.<br>
 </p><p>
