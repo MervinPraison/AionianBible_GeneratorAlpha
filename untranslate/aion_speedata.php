@@ -247,9 +247,9 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Swedish-Bible-1917).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Coptic---Coptic-Boharic-NT---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---(World-English-Bible-Updated|Aionian-Bible)---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---(English---Aionian-Bible|Hebrew---Modern-Hebrew-Bible|Polish---Polish-Updated-Gdansk)---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---.*(Aionian-Bible|Modern-Hebrew|One-Unity|World-English-Bible-Updated).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Arabic---New-Arabic-Bible|English---Aionian-Bible|Hebrew---Modern-Hebrew-Bible|Spanish---Sencillo-Bible)---Aionian-Edition\.noia$/",
-		'include'	=> "/---Aionian-Edition\.noia$/",
+		//'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		'verses66'	=> $verses66,
@@ -3330,10 +3330,10 @@ $loadfontfile = (
 :
 // LiberationEzra
 ($font == "LiberationEzra" ?
-"<LoadFontfile name=\"FB-REGU\" filename=\"liberationsansnarrow-regular.ttf\"><Fallback filename=\"ezra_sil.ttf\" /></LoadFontfile>
- <LoadFontfile name=\"FB-BOLD\" filename=\"liberationsansnarrow-bold.ttf\"><Fallback filename=\"ezra_sil.ttf\" /></LoadFontfile>
- <LoadFontfile name=\"FB-BOIT\" filename=\"liberationsansnarrow-bolditalic.ttf\"><Fallback filename=\"ezra_sil.ttf\" /></LoadFontfile>
- <LoadFontfile name=\"FB-ITAL\" filename=\"liberationsansnarrow-italic.ttf\"><Fallback filename=\"ezra_sil.ttf\" /></LoadFontfile>"
+"<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"liberationsansnarrow-regular.ttf\"><Fallback filename=\"ezra_sil.ttf\" /></LoadFontfile>
+ <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"liberationsansnarrow-bold.ttf\"><Fallback filename=\"ezra_sil.ttf\" /></LoadFontfile>
+ <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"liberationsansnarrow-bolditalic.ttf\"><Fallback filename=\"ezra_sil.ttf\" /></LoadFontfile>
+ <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"liberationsansnarrow-italic.ttf\"><Fallback filename=\"ezra_sil.ttf\" /></LoadFontfile>"
 :
 // Malayalam
 ($font == "Malayalam" ?
