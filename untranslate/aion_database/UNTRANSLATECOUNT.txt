@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
 # File Size: 38105       
-# File Date: 01/07/2025 01:44:47
+# File Date: 01/19/2025 11:45:11
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -143,7 +143,7 @@ Holy-Bible---Finnish---Finnish-Bible	73	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	
 Holy-Bible---Finnish---Finnish-Pyha-Raamattu	12	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
 Holy-Bible---French---Free-for-the-World	77	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
-Holy-Bible---French---French-Crampon-Bible	39	1	64	12	1	11	9	1	5	94	63	10	2	0	0	1	272	264	264	0	0	0	0
+Holy-Bible---French---French-Crampon-Bible	34	1	64	12	1	11	9	1	5	94	63	10	2	0	0	1	272	264	264	0	0	0	0
 Holy-Bible---French---French-Crampon-Bible-New	34	1	64	12	1	11	9	1	5	94	63	10	2	0	0	1	272	264	264	0	0	0	0
 Holy-Bible---French---French-Darby-Bible	12	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---French---French-Khan-Bible	0	0	64	0	0	0	0	0	0	0	0	0	0	0	0	0	64	64	64	0	200	0	0

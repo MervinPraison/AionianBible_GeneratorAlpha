@@ -351,7 +351,6 @@ Holy-Bible---French---French-Crampon-Bible	NUM29-30
 Holy-Bible---French---French-Crampon-Bible	DEU12-13
 Holy-Bible---French---French-Crampon-Bible	DEU22-23
 Holy-Bible---French---French-Crampon-Bible	DEU28-29
-Holy-Bible---French---French-Crampon-Bible	JOS21
 Holy-Bible---French---French-Crampon-Bible	1SA20-21
 Holy-Bible---French---French-Crampon-Bible	1SA23-24
 Holy-Bible---French---French-Crampon-Bible	2SA18-19

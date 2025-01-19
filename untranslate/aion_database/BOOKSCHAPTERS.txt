@@ -2,12 +2,12 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	MAP	FLAG
 # File Accuracy: Contact publisher with corrections to file format or content
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
-# File Date: 01/07/2025 02:03:55
+# File Date: 01/19/2025 12:03:40
 # File Generator: ABCMS (alpha)
 # File Location: https://resources.AionianBible.org
 # File Name: BOOKSCHAPTERS.txt
 # File Purpose: Supporting resource for the Aionian Bible project
-# File Size: 1359432     
+# File Size: 1361158     
 Holy-Bible---Amo---Amo-Bible	041	MAR	007	027	MISSING	MID
 Holy-Bible---Amo---Amo-Bible	041	MAR	009	046	MISSING	MID
 Holy-Bible---Amo---Amo-Bible	044	ACT	001	008	MISSING	MID
@@ -5389,8 +5389,32 @@ Holy-Bible---French---Free-for-the-World	042	LUK	017	036	MISSING	MID
 Holy-Bible---French---Free-for-the-World	044	ACT	008	037	MISSING	MID
 Holy-Bible---French---Free-for-the-World	044	ACT	015	034	MISSING	MID
 Holy-Bible---French---Free-for-the-World	044	ACT	024	007	MISSING	MID
-Holy-Bible---French---French-Crampon-Bible	006	JOS	021	038	MISSING	MID
-Holy-Bible---French---French-Crampon-Bible	006	JOS	021	039	MISSING	MID-SEQ
+Holy-Bible---French---French-Crampon-Bible	001	GEN	021	034	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	002	EXO	018	027	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	002	EXO	031	018	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	003	LEV	014	057	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	004	NUM	024	025	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	005	DEU	011	032	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	005	DEU	019	021	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	006	JOS	021	045	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	008	RUT	002	023	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	010	2SA	002	032	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	010	2SA	012	031	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	010	2SA	014	033	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	011	1KI	011	043	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	012	2KI	017	041	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	012	2KI	021	026	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	014	2CH	009	031	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	014	2CH	028	027	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	014	2CH	034	033	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	027	DAN	002	049	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	027	DAN	009	027	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	038	ZEC	013	009	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	040	MAT	012	050	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	042	LUK	006	049	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	042	LUK	021	038	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	042	LUK	023	056	MISSING	END*
+Holy-Bible---French---French-Crampon-Bible	052	1TH	004	018	MISSING	END*
 Holy-Bible---French---French-Crampon-Bible-New	006	JOS	021	038	MISSING	MID
 Holy-Bible---French---French-Crampon-Bible-New	006	JOS	021	039	MISSING	MID-SEQ
 Holy-Bible---French---French-Darby-Bible	040	MAT	023	014	MISSING	MID

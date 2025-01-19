@@ -806,8 +806,10 @@ Holy-Bible---Flemish---Flemish-De-Jonge-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---French---Free-for-the-World							end
 Holy-Bible---French---French-Crampon-Bible	007	JDG	005	031	31	1	end
+Holy-Bible---French---French-Crampon-Bible	009	1SA	002	001	36	1	end
 Holy-Bible---French---French-Crampon-Bible	009	1SA	020	042	42	1	end
 Holy-Bible---French---French-Crampon-Bible	011	1KI	022	043	53	1	end
+Holy-Bible---French---French-Crampon-Bible	013	1CH	012	004	40	1	end
 Holy-Bible---French---French-Crampon-Bible	019	PSA	003	001	8	1	end
 Holy-Bible---French---French-Crampon-Bible	019	PSA	004	001	8	1	end
 Holy-Bible---French---French-Crampon-Bible	019	PSA	005	001	12	1	end

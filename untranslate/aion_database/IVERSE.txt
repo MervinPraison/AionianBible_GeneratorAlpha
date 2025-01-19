@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 891840      
-# File Date: 01/07/2025 02:18:22
+# File Size: 891878      
+# File Date: 01/19/2025 12:16:56
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -1184,14 +1184,14 @@ Holy-Bible---French---Free-for-the-World	EXO-013-017	Exode 13:17	Lorsque Pharaon
 Holy-Bible---French---Free-for-the-World	MAR-010-045	Marc 10:45	Car le Fils de l'homme est venu, lui aussi, non pour être servi, mais pour servir, et donner sa vie en rançon pour la multitude. »
 Holy-Bible---French---Free-for-the-World	ROM-001-001	Romains 1:1	Paul, serviteur de Jésus-Christ, appelé à être apôtre, mis à part pour la Bonne Nouvelle de Dieu,
 Holy-Bible---French---Free-for-the-World	MAT-028-019	Matthieu 28:19	Allez, faites de toutes les nations des disciples, baptisez-les au nom du Père, du Fils et du Saint-Esprit,
-Holy-Bible---French---French-Crampon-Bible	JOH-003-016	Jean 3:16	En effet, Dieu a tellement aimé le monde, qu'il a donné son Fils unique, afin que quiconque croit en lui ne périsse point mais ait la vie éternelle.
-Holy-Bible---French---French-Crampon-Bible	GEN-003-024	Genèse 3:24	Et il chassa l'homme, et il mit à l'orient du jardin d'Eden les Chérubins et la flamme de l'épée tournoyante, pour garder le chemin de l'arbre de vie.
-Holy-Bible---French---French-Crampon-Bible	LUK-023-034	Luc 23:34	Mais Jésus disait: " Père, pardonnez-leur, car ils ne savent ce qu'ils font. " Se partageant ensuite ses vêtements, ils les tirèrent au sort.
-Holy-Bible---French---French-Crampon-Bible	REV-021-002	Apocalypse 21:2-3	Et je vis descendre du ciel, d'auprès de Dieu, la ville sainte, une Jérusalem nouvelle, vêtue comme une nouvelle mariée parée pour son époux. Et j'entendis une voix forte qui disait: " Voici le tabernacle de Dieu avec les hommes: il habitera avec eux, et ils seront son peuple; et lui-même il sera le Dieu avec eux, il sera leur Dieu.
-Holy-Bible---French---French-Crampon-Bible	HEB-011-008	Hébreux 11:8	C'est par la foi qu'Abraham, obéissant à l'appel de Dieu, partit pour un pays qu'il devait recevoir en héritage, et se mit en chemin sans savoir où il allait.
-Holy-Bible---French---French-Crampon-Bible	EXO-013-017	Exode 13:17	Lorsque Pharaon laissa aller le peuple, Dieu ne le conduisit point par le chemin du pays des Philistins, quoique le plus court; car Dieu dit: " Le peuple pourrait se repentir en voyant la guerre, et retourner en Egypte. "
-Holy-Bible---French---French-Crampon-Bible	MAR-010-045	Marc 10:45	Car le Fils de l'homme est venu, non pour être servi, mais pour servir et donner sa vie pour la rançon de la multitude. "
-Holy-Bible---French---French-Crampon-Bible	ROM-001-001	Romains 1:1	Paul, serviteur du Christ-Jésus, apôtre par son appel, mis à part pour annoncer l'Evangile de Dieu,
+Holy-Bible---French---French-Crampon-Bible	JOH-003-016	Jean 3:16	En effet, Dieu a tellement aimé le monde, qu’il a donné son Fils unique, afin que quiconque croit en lui ne périsse point mais ait la vie éternelle.
+Holy-Bible---French---French-Crampon-Bible	GEN-003-024	Genèse 3:24	Et il chassa l’homme, et il mit à l’orient du jardin d’Eden les Chérubins et la flamme de l’épée tournoyante, pour garder le chemin de l’arbre de vie.
+Holy-Bible---French---French-Crampon-Bible	LUK-023-034	Luc 23:34	Mais Jésus disait: « Père, pardonnez-leur, car ils ne savent ce qu’ils font. » Se partageant ensuite ses vêtements, ils les tirèrent au sort.
+Holy-Bible---French---French-Crampon-Bible	REV-021-002	Apocalypse 21:2-3	Et je vis descendre du ciel, d’auprès de Dieu, la ville sainte, une Jérusalem nouvelle, vêtue comme une nouvelle mariée parée pour son époux. Et j’entendis une voix forte qui disait: « Voici le tabernacle de Dieu avec les hommes: il habitera avec eux, et ils seront son peuple; et lui-même il sera le Dieu avec eux, il sera leur Dieu.
+Holy-Bible---French---French-Crampon-Bible	HEB-011-008	Hébreux 11:8	C’est par la foi qu’Abraham, obéissant à l’appel de Dieu, partit pour un pays qu’il devait recevoir en héritage, et se mit en chemin sans savoir où il allait.
+Holy-Bible---French---French-Crampon-Bible	EXO-013-017	Exode 13:17	Lorsque Pharaon laissa aller le peuple, Dieu ne le conduisit point par le chemin du pays des Philistins, quoique le plus court; car Dieu dit: « Le peuple pourrait se repentir en voyant la guerre, et retourner en Égypte. »
+Holy-Bible---French---French-Crampon-Bible	MAR-010-045	Marc 10:45	Car le Fils de l’homme est venu, non pour être servi, mais pour servir et donner sa vie pour la rançon de la multitude. »
+Holy-Bible---French---French-Crampon-Bible	ROM-001-001	Romains 1:1	Paul, serviteur du Christ-Jésus, apôtre par son appel, mis à part pour annoncer l’Évangile de Dieu.
 Holy-Bible---French---French-Crampon-Bible	MAT-028-019	Matthieu 28:19	Allez donc, enseignez toutes les nations, les baptisant au nom du Père, et du Fils et du Saint-Esprit,
 Holy-Bible---French---French-Crampon-Bible-New	JOH-003-016	Jean 3:16	En effet, Dieu a tellement aimé le monde, qu’il a donné son Fils unique, afin que quiconque croit en lui ne périsse pas mais ait la vie éternelle.
 Holy-Bible---French---French-Crampon-Bible-New	GEN-003-024	Genèse 3:24	Et il chassa l’homme, et il mit à l’orient du jardin d’Eden les Chérubins et la flamme de l’épée tournoyante, pour garder le chemin de l’arbre de vie.
