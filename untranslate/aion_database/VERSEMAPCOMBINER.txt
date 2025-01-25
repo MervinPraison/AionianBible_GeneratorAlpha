@@ -797,6 +797,8 @@ Holy-Bible---English---Wycliffe-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---English---Wycliffe-Bible							end
 Holy-Bible---English---Youngs-Literal-Translation							end
 Holy-Bible---Esperanto---Esperanto-Bible							end
+Holy-Bible---Estonian---Contemporary	064	3JO	001	014	14	1	end
+Holy-Bible---Estonian---Contemporary							end
 Holy-Bible---Estonian---For-All							end
 Holy-Bible---Ewe---Word-of-Life	064	3JO	001	014	14	1	end
 Holy-Bible---Ewe---Word-of-Life							end

@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
-# File Size: 38105       
-# File Date: 01/19/2025 11:45:11
+# File Size: 38200       
+# File Date: 01/25/2025 12:15:26
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -137,6 +137,7 @@ Holy-Bible---English---Worsley-Bible	32	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	2
 Holy-Bible---English---Wycliffe-Bible	64	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---English---Youngs-Literal-Translation	163	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---Esperanto---Esperanto-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
+Holy-Bible---Estonian---Contemporary	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
 Holy-Bible---Estonian---For-All	0	0	0	11	1	4	2	0	0	31	30	10	1	0	0	0	90	85	85	0	179	0	0
 Holy-Bible---Ewe---Word-of-Life	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Finnish---Finnish-Bible	73	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1

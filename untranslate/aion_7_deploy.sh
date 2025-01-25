@@ -31,6 +31,9 @@ if (!chdir("..")) {																AION_ECHO("ERROR! chdir: .."); }
 
 /*** prepare stage for production from current live ***/
 AION_ECHO("STAGE TO PRODUCTION");
+if (!chmod($STAGE,0755)) {														AION_ECHO("ERROR! chmod failed: $STAGE"); }
+if (!chmod("$STAGE/library",0755)) {											AION_ECHO("ERROR! chmod failed: $STAGE/library"); }
+if (!chmod("$STAGE/library/pwa",0755)) {										AION_ECHO("ERROR! chmod failed: $STAGE/library/pwa"); }
 system("rm -rf $STAGE$WEBS");			if (is_dir("$STAGE$WEBS")) {			AION_ECHO("ERROR! rm -rf failed: $STAGE$WEBS"); }
 system("cp -R $LIVE$WEBS $STAGE$WEBS");	if (!is_dir("$STAGE$WEBS")) {			AION_ECHO("ERROR! cp -a $STAGE$WEBS"); }
 system("rm -rf $AION$WEBS");			if (is_dir("$AION$WEBS")) {				AION_ECHO("ERROR! rm -rf failed: $AION$WEBS"); }
@@ -42,7 +45,7 @@ system("mv $LIVE $BACK2");				if (is_dir($LIVE) || !is_dir($BACK2)) {	AION_ECHO(
 system("cp -R $STAGE $LIVE");			if (!is_dir($LIVE)) {					AION_ECHO("ERROR! cp -a $LIVE"); }
 if (!chmod($LIVE,0755)) {														AION_ECHO("ERROR! chmod failed: $LIVE"); }
 if (!chmod("$LIVE/library",0755)) {												AION_ECHO("ERROR! chmod failed: $LIVE/library"); }
-
+if (!chmod("$LIVE/library/pwa",0755)) {											AION_ECHO("ERROR! chmod failed: $LIVE/library/pwa"); }
 
 /*** live resources also ***/
 system("rsync -amv \
@@ -82,6 +85,7 @@ system("rm -rf $BACK");					if (is_dir($BACK)) {				AION_ECHO("ERROR! rm failed:
 system("mv $BACK2 $BACK");				if (!is_dir($BACK)) {				AION_ECHO("ERROR! mv failed: $BACK2"); }
 if (!chmod($BACK,0755)) {													AION_ECHO("ERROR! chmod failed: $BACK"); }
 if (!chmod("$BACK/library",0755)) {											AION_ECHO("ERROR! chmod failed: $BACK/library"); }
+if (!chmod("$BACK/library/pwa",0755)) {										AION_ECHO("ERROR! chmod failed: $BACK/library/pwa"); }
 
 /*** diff after deploy, should be no differences! ***/
 AION_LOOP_DIFF(	'../www-stage/library', 	'../www-production/library',	'../diff-www-stage-with-www-production-AFTER-DEPLOY',			'/\.php$/', '', 'stageresources','resources');

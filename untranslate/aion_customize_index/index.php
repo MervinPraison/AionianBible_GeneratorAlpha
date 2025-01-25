@@ -91,7 +91,7 @@ $modified = date("n/j/Y", filemtime("./index.php"));
 <div id='aion'>Aionian Life!</div>
 <div id='moto'>
 The world's first Holy Bible <u>untranslation</u><br>
-Three hundred seventy-seven versions<br>
+Three hundred seventy-eight versions<br>
 One hundred sixty-five languages<br>
 Anonymous on TOR network<br>
 100% free to copy &amp; print<br>

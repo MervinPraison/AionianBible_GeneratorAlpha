@@ -1208,7 +1208,7 @@ $G_COMMENT
 
 <p><b>08/18/24</b> <a href='https://creativecommons.org/licenses/by/4.0/' target='_blank' title='Copyright license'>Creative Commons Attribution 4.0 International</a>, if source allows.<br /></p>
 
-<p><b>08/05/24</b> 377 translations now available in 165 languages.<br /></p>
+<p><b>08/05/24</b> 378 translations now available in 165 languages.<br /></p>
 
 <p><b>05/02/24</b> 370 translations now available in 164 languages.<br /></p>
 
@@ -1261,6 +1261,8 @@ $G_COMMENT
 <p><b>11/17/18</b> 104 translations now available in 57 languages.<br /></p>
 
 <p><b>10/20/18</b> 70 translations now available in 33 languages.<br /></p>
+
+<p><b>09/15/18</b> Aionian Bible project dedicated as J. and J. pray again.<br /></p>
 
 <p><b>03/06/18</b> Aionian Bibles <a href='https://www.aionianbible.org/Buy' target='_blank' title='in print at Amazon and Lulu'>available in print</a> at <a href='https://www.Aionianbible.org/Amazon' target='_blank' title='Aionian Bibles in print at Amazon.com'>Amazon.com</a>.<br /></p>
 

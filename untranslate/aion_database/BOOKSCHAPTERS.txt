@@ -2,12 +2,12 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	MAP	FLAG
 # File Accuracy: Contact publisher with corrections to file format or content
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
-# File Date: 01/19/2025 12:03:40
+# File Date: 01/25/2025 12:34:40
 # File Generator: ABCMS (alpha)
 # File Location: https://resources.AionianBible.org
 # File Name: BOOKSCHAPTERS.txt
 # File Purpose: Supporting resource for the Aionian Bible project
-# File Size: 1361158     
+# File Size: 1361287     
 Holy-Bible---Amo---Amo-Bible	041	MAR	007	027	MISSING	MID
 Holy-Bible---Amo---Amo-Bible	041	MAR	009	046	MISSING	MID
 Holy-Bible---Amo---Amo-Bible	044	ACT	001	008	MISSING	MID
@@ -5358,6 +5358,8 @@ Holy-Bible---English---Wycliffe-Bible	003	LEV	015	023	MISSING	MID
 Holy-Bible---English---Wycliffe-Bible	006	JOS	021	038	MISSING	MID
 Holy-Bible---English---Wycliffe-Bible	006	JOS	021	039	MISSING	MID-SEQ
 Holy-Bible---English---Wycliffe-Bible	022	SOL	001	001	MISSING	MID
+Holy-Bible---Estonian---Contemporary	045	ROM	009	012	MISSING	MID
+Holy-Bible---Estonian---Contemporary	064	3JO	001	015	EXTRA	END*
 Holy-Bible---Estonian---For-All	040	MAT	017	021	MISSING	MID
 Holy-Bible---Estonian---For-All	040	MAT	018	011	MISSING	MID
 Holy-Bible---Estonian---For-All	040	MAT	023	014	MISSING	MID

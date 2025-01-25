@@ -595,6 +595,7 @@ Holy-Bible---English---Wycliffe-Bible-1395								NULL
 Holy-Bible---English---Youngs-Literal-Translation	061	2PE	002	017	NOTE			questioned
 Holy-Bible---English---Youngs-Literal-Translation								NULL
 Holy-Bible---Esperanto---Esperanto-Bible								NULL
+Holy-Bible---Estonian---Comptemporary								NULL
 Holy-Bible---Estonian---For-All								NULL
 Holy-Bible---Ewe---Word-of-Life								NULL
 Holy-Bible---Finnish---Finnish-Bible	061	2PE	002	017	NOTE			questioned

@@ -5085,6 +5085,18 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---Estonian---Contemporary" :
+$textfix = <<<EOF
+ROM 9:11 Kuid Jumala kava pidi teostuma endiselt valiku põhjal, sõltudes mitte inimeste tegudest, vaid kutsujast. Seepärast, veel enne, kui Rebeka pojad sündisid ja midagi head või halba tegid,
+ROM 9:12 kuulutati talle: „Vanem orjab nooremat!“
+ROM 9:13 
+EOF;
+if (!($bfile = preg_replace("/ROM 9:11 (.+?)ROM 9:13 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---Estonian---For-All" :
 $textfix = <<<EOF
 JOH 14:16 Ma palun Isa ja ta saadab teile teise Lohutaja, tõe Vaimu, kes on alati teie juures.

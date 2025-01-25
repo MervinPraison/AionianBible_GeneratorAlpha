@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 891878      
-# File Date: 01/19/2025 12:16:56
+# File Size: 893485      
+# File Date: 01/25/2025 12:48:32
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -1130,6 +1130,15 @@ Holy-Bible---Esperanto---Esperanto-Bible	EXO-013-017	Eliro 13:17	Kiam Faraono fo
 Holy-Bible---Esperanto---Esperanto-Bible	MAR-010-045	Marko 10:45	Ĉar la Filo de homo venis, ne por esti servata, sed por servi, kaj por doni sian vivon kiel elaĉeton por multaj.
 Holy-Bible---Esperanto---Esperanto-Bible	ROM-001-001	Romanoj 1:1	Paŭlo, servisto de Jesuo Kristo, apostolo vokita, apartigita al la evangelio de Dio,
 Holy-Bible---Esperanto---Esperanto-Bible	MAT-028-019	Mateo 28:19	Iru do kaj disĉipligu ĉiujn naciojn, baptante ilin en la nomon de la Patro kaj de la Filo kaj de la Sankta Spirito;
+Holy-Bible---Estonian---Contemporary	JOH-003-016	Johannese 3:16	Sest nõnda on Jumal maailma armastanud, et ta andis oma ainusündinud Poja, et ükski, kes temasse usub, ei hukkuks, vaid et tal oleks igavene elu.
+Holy-Bible---Estonian---Contemporary	GEN-003-024		
+Holy-Bible---Estonian---Contemporary	LUK-023-034	Luuka 23:34	Jeesus ütles: „Isa, anna neile andeks, sest nad ei tea, mida nad teevad!“Ja nad jagasid liisku heites omavahel ära tema riided.
+Holy-Bible---Estonian---Contemporary	REV-021-002	Ilmutus 21:2-3	Ma nägin püha linna, uut Jeruusalemma, taevast Jumala juurest alla laskumas. Ta oli seatud valmis nagu pruut, kaunilt ehitud oma mehele. Ja ma kuulsin valju häält trooni juurest hüüdmas: „Nüüd on Jumala elupaik inimeste seas ja ta jääb nende juurde elama. Nemad on tema rahvas ja tema on nende Jumal.
+Holy-Bible---Estonian---Contemporary	HEB-011-008	Heebrealastele 11:8	Usus läks Aabraham kuulekalt teele, kui teda kutsuti paika, mille ta pidi saama pärandiks. Ta läks teele, teadmata, kuhu ta läheb.
+Holy-Bible---Estonian---Contemporary	EXO-013-017		
+Holy-Bible---Estonian---Contemporary	MAR-010-045	Markuse 10:45	Sest ka Inimese Poeg ei ole tulnud, et lasta ennast teenida, vaid et ise teenida ja anda oma elu lunastuseks paljude eest!“
+Holy-Bible---Estonian---Contemporary	ROM-001-001	Roomlastele 1:1	Pauluselt, Kristuse Jeesuse sulaselt, kes on kutsutud apostliks ja valitud levitama Jumala evangeeliumi,
+Holy-Bible---Estonian---Contemporary	MAT-028-019	Matteuse 28:19	Minge siis ja tehke jüngriteks kõik rahvad, ristides neid Isa ja Poja ja Püha Vaimu nimel
 Holy-Bible---Estonian---For-All	JOH-003-016	Johannes 3:16	Sest Jumal armastas maailma nii väga, et andis oma ühe ja ainsa Poja, et igaüks, kes temasse usub, ei peaks surema, vaid tal oleks igavene elu.
 Holy-Bible---Estonian---For-All	GEN-003-024		
 Holy-Bible---Estonian---For-All	LUK-023-034	Luuka 23:34	Jeesus ütles: „Isa, anna neile andeks, sest nad ei tea, mida nad teevad.“Nad jaotasid tema riideid, heites nende pärast täringut.
@@ -1637,7 +1646,7 @@ Holy-Bible---Greek---Greek-Westcott-Hort	MAT-028-019	Κατα Ματθαιον 2
 Holy-Bible---Greek---Text-Critical	JOH-003-016	Κατα Ιωαννην 3:16	Οὕτω γὰρ ἠγάπησεν ὁ Θεὸς τὸν κόσμον, ὥστε τὸν υἱὸν αὐτοῦ τὸν μονογενῆ ἔδωκεν, ἵνα πᾶς ὁ πιστεύων εἰς αὐτὸν μὴ ἀπόληται, ἀλλ᾽ ἔχῃ ζωὴν αἰώνιον.
 Holy-Bible---Greek---Text-Critical	GEN-003-024		
 Holy-Bible---Greek---Text-Critical	LUK-023-034	Κατα Λουκαν 23:34	Ὁ δὲ Ἰησοῦς ἔλεγε, Πάτερ, ἄφες αὐτοῖς· οὐ γὰρ οἴδασι τί ποιοῦσι. Διαμεριζόμενοι δὲ τὰ ἱμάτια αὐτοῦ, ἔβαλον κλῆρον.
-Holy-Bible---Greek---Text-Critical	REV-021-002	Αποκαλυψις Ιωαννου 21:2-3	Καὶ τὴν πόλιν τὴν ἁγίαν, Ἱερουσαλὴμ καινήν, εἶδον καταβαίνουσαν ἐκ τοῦ οὐρανοῦ ἀπὸ τοῦ Θεοῦ, ἡτοιμασμένην ὡς νύμφην κεκοσμημένην τῷ ἀνδρὶ αὐτῆς. Καὶ ἤκουσα φωνῆς μεγάλης ἐκ τοῦ οὐρανοῦ, λεγούσης, Ἰδού, ἡ σκηνὴ τοῦ Θεοῦ μετὰ τῶν ἀνθρώπων, καὶ σκηνώσει μετ᾽ αὐτῶν, καὶ αὐτοὶ λαὸς αὐτοῦ ἔσονται, καὶ αὐτὸς ὁ Θεὸς ἔσται μετ᾽ αὐτῶν·
+Holy-Bible---Greek---Text-Critical	REV-021-002	Αποκαλυψις Ιωαννου 21:2-3	Καὶ τὴν πόλιν τὴν ἁγίαν, Ἱερουσαλὴμ καινήν, εἶδον καταβαίνουσαν ἐκ τοῦ οὐρανοῦ ἀπὸ τοῦ Θεοῦ, ἡτοιμασμένην ὡς νύμφην κεκοσμημένην τῷ ἀνδρὶ αὐτῆς. Καὶ ἤκουσα φωνῆς μεγάλης ἐκ τοῦ οὐρανοῦ, λεγούσης, Ἰδού, ἡ σκηνὴ τοῦ Θεοῦ μετὰ τῶν ἀνθρώπων, καὶ σκηνώσει μετ᾽ αὐτῶν, καὶ αὐτοὶ λαὸς αὐτοῦ ἔσονται, καὶ αὐτὸς ὁ Θεὸς μετ᾿ αὐτῶν ἔσται·
 Holy-Bible---Greek---Text-Critical	HEB-011-008	Προς Εβραιους 11:8	Πίστει καλούμενος Ἀβραὰμ ὑπήκουσεν ἐξελθεῖν εἰς τὸν τόπον ὃν ἤμελλε λαμβάνειν εἰς κληρονομίαν, καὶ ἐξῆλθε μὴ ἐπιστάμενος ποῦ ἔρχεται.
 Holy-Bible---Greek---Text-Critical	EXO-013-017		
 Holy-Bible---Greek---Text-Critical	MAR-010-045	Κατα Μαρκον 10:45	Καὶ γὰρ ὁ υἱὸς τοῦ ἀνθρώπου οὐκ ἦλθε διακονηθῆναι, ἀλλὰ διακονῆσαι, καὶ δοῦναι τὴν ψυχὴν αὐτοῦ λύτρον ἀντὶ πολλῶν.

@@ -1,6 +1,6 @@
 # File Name: ANAVIGATION.txt
-# File Size: 21277       
-# File Date: 01/19/2025 12:18:37
+# File Size: 21316       
+# File Date: 01/25/2025 12:50:15
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -168,6 +168,7 @@ Holy-Bible---English---Worsley-Bible
 Holy-Bible---English---Wycliffe-Bible		
 Holy-Bible---English---Youngs-Literal-Translation		
 Holy-Bible---Esperanto---Esperanto-Bible		
+Holy-Bible---Estonian---Contemporary		
 Holy-Bible---Estonian---For-All		
 Holy-Bible---Ewe---Word-of-Life		
 Holy-Bible---Finnish---Finnish-Bible		

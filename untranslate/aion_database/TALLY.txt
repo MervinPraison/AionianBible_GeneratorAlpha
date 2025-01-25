@@ -1,6 +1,6 @@
 # File Name: TALLY.txt
-# File Size: 22397       
-# File Date: 01/19/2025 10:06:58
+# File Size: 22449       
+# File Date: 01/25/2025 10:31:10
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -137,6 +137,7 @@ Holy-Bible---English---Worsley-Bible	7957	7957	7958
 Holy-Bible---English---Wycliffe-Bible	31095	31095	31456
 Holy-Bible---English---Youngs-Literal-Translation	31102	31102	31102
 Holy-Bible---Esperanto---Esperanto-Bible	31102	31102	31102
+Holy-Bible---Estonian---Contemporary	7957	7957	7957
 Holy-Bible---Estonian---For-All	4200	4200	4212
 Holy-Bible---Ewe---Word-of-Life	31102	31102	31103
 Holy-Bible---Finnish---Finnish-Bible	31102	31102	31102

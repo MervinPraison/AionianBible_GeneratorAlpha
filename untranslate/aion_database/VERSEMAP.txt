@@ -336,6 +336,7 @@ Holy-Bible---English---Wycliffe-Bible	HAG1-2
 Holy-Bible---English---Wycliffe-Bible	MAR8-9
 Holy-Bible---English---Youngs-Literal-Translation	NONE
 Holy-Bible---Esperanto---Esperanto-Bible	NONE
+Holy-Bible---Estonian---Contemporary	NONE
 Holy-Bible---Estonian---For-All	NONE
 Holy-Bible---Ewe---Word-of-Life	NONE
 Holy-Bible---Finnish---Finnish-Bible	NONE
