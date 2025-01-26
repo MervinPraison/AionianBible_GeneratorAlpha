@@ -7,6 +7,7 @@
 // See the javascript functions, onclick events, and the abcms_href() function and usage.
 // EPUB
 $_Path = $_Orig = trim(strtok($_SERVER['REQUEST_URI'],'?'),'/');
+$_pathl = strtolower($_Path);
 if (!empty($_GET['e'])) {
 	if(!empty($_Path)) { abcms_notf(); }
 	require 'epub.php';
@@ -16,22 +17,22 @@ if (!empty($_GET['e'])) {
 $_para = $_stid = $_paraC = $_stidC = $_stidN = $_stidX = $_meta = $_SwipePREV = $_SwipeNEXT = $_BibleSTRONGS = NULL;
 $_Part = array(NULL);
 if ($_Path=='' || $_Path=='index.php') {				$_meta = " ~ Homepage";										abcms_home(); }
-else if ($_Path=='Preface') {							$_meta = " ~ Preface";										abcms_page('docs/preface.htm'); }
-else if ($_Path=='Buy') {								$_meta = " ~ Buy Bibles and T-Shirts";						abcms_word_list('buy',NULL); }
-else if ($_Path=='Maps') {								$_meta = " ~ Maps";											abcms_page('docs/maps.htm'); }
-else if ($_Path=='Cool') {								$_meta = " ~ Cool Cup of Water";							abcms_page('docs/cool.htm'); }
-else if ($_Path=='History') {							$_meta = " ~ History";										abcms_page('docs/history.htm'); }
-else if ($_Path=='Readers-Guide') {						$_meta = " ~ Readers Guide";								abcms_page('docs/readers-guide.htm'); }
-else if ($_Path=='Aionios-and-Aidios') {				$_meta = " ~ Aiōnios and Aïdios";							abcms_page('docs/aionios-and-aidios.htm'); }
-else if ($_Path=='Destiny') {							$_meta = " ~ Heaven, Hell, men, angels, demons, and Satan";	abcms_page('docs/lake-of-fire.htm'); }
-else if ($_Path=='Promote') {							$_meta = " ~ Promote, Sponsor, Advertise, Market";			abcms_page('docs/promote.htm'); }
-else if ($_Path=='Nainoia-Inc') {						$_meta = " ~ Nainoia Inc, publisher of the Aionian Bible";	abcms_page('docs/nainoia-inc.htm'); }
-else if ($_Path=='Bible-Cover') {						$_meta = " ~ Aionian Bible Branded Leather Bible Covers";	abcms_page('docs/cover.htm'); }
-else if ($_Path=='Privacy') {							$_meta = " ~ Privacy Policy";								abcms_page('docs/privacy.htm'); }
-else if ($_Path=='Apple-iOS-App') {						$_meta = " ~ Apple iOS App";								abcms_page('docs/appleiosapp.htm'); }
-else if ($_Path=='Third-Party-Publisher-Resources') {	$_meta = " ~ Third Party Publisher Resources";				abcms_page('docs/third-party-publisher-resources.htm'); }
+else if ($_pathl=='preface') {							$_meta = " ~ Preface";										abcms_page('docs/preface.htm'); }
+else if ($_pathl=='buy') {								$_meta = " ~ Buy Bibles and T-Shirts";						abcms_word_list('buy',NULL); }
+else if ($_pathl=='maps') {								$_meta = " ~ Maps";											abcms_page('docs/maps.htm'); }
+else if ($_pathl=='cool') {								$_meta = " ~ Cool Cup of Water";							abcms_page('docs/cool.htm'); }
+else if ($_pathl=='history') {							$_meta = " ~ History";										abcms_page('docs/history.htm'); }
+else if ($_pathl=='readers-guide') {					$_meta = " ~ Readers Guide";								abcms_page('docs/readers-guide.htm'); }
+else if ($_pathl=='aionios-and-aidios') {				$_meta = " ~ Aiōnios and Aïdios";							abcms_page('docs/aionios-and-aidios.htm'); }
+else if ($_pathl=='destiny') {							$_meta = " ~ Heaven, Hell, men, angels, demons, and Satan";	abcms_page('docs/lake-of-fire.htm'); }
+else if ($_pathl=='promote') {							$_meta = " ~ Promote, Sponsor, Advertise, Market";			abcms_page('docs/promote.htm'); }
+else if ($_pathl=='nainoia-inc') {						$_meta = " ~ Nainoia Inc, publisher of the Aionian Bible";	abcms_page('docs/nainoia-inc.htm'); }
+else if ($_pathl=='bible-cover') {						$_meta = " ~ Aionian Bible Branded Leather Bible Covers";	abcms_page('docs/cover.htm'); }
+else if ($_pathl=='privacy') {							$_meta = " ~ Privacy Policy";								abcms_page('docs/privacy.htm'); }
+else if ($_pathl=='apple-ios-app') {					$_meta = " ~ Apple iOS App";								abcms_page('docs/appleiosapp.htm'); }
+else if ($_pathl=='third-party-publisher-resources') {	$_meta = " ~ Third Party Publisher Resources";				abcms_page('docs/third-party-publisher-resources.htm'); }
 else if (strpos($_Path, 'Debug')===0) {					$_meta = " ~ Debug";										abcms_debug(); }
-else if ($_Path=='Country') {							echo "COUNTRY: ".(empty($_SERVER["HTTP_CF_IPCOUNTRY"]) ? "UNKNOWN" : $_SERVER["HTTP_CF_IPCOUNTRY"]); exit; }
+else if ($_pathl=='country') {							echo "COUNTRY: ".(empty($_SERVER["HTTP_CF_IPCOUNTRY"]) ? "UNKNOWN" : $_SERVER["HTTP_CF_IPCOUNTRY"]); exit; }
 else if (!preg_match('/^[a-zA-Z0-9\-\/]+$/',$_Path)) {																abcms_notf(); }
 if (($number=preg_match_all("#/parallel-[^/]+#", $_Path, $matches, PREG_PATTERN_ORDER))) {
 	if ($number>1) { abcms_bomb("/Read","Invalid URL Requested, multiple 'parallels' not allowed"); }
