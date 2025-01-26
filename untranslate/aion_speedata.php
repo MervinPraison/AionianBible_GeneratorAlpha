@@ -247,7 +247,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Ahirani).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Coptic---Coptic-Boharic-NT---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---(World-English-Bible-Updated|Aionian-Bible)---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Aionian-Bible).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Estonian---Contemporary).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Arabic---New-Arabic-Bible|English---Aionian-Bible|Hebrew---Modern-Hebrew-Bible|Spanish---Sencillo-Bible)---Aionian-Edition\.noia$/",
 		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
