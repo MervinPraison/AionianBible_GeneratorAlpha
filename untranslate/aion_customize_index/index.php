@@ -19,6 +19,7 @@ if ($_Path=='' || $_Path=='index.php') {				$_meta = " ~ Homepage";										abc
 else if ($_Path=='Preface') {							$_meta = " ~ Preface";										abcms_page('docs/preface.htm'); }
 else if ($_Path=='Buy') {								$_meta = " ~ Buy Bibles and T-Shirts";						abcms_word_list('buy',NULL); }
 else if ($_Path=='Maps') {								$_meta = " ~ Maps";											abcms_page('docs/maps.htm'); }
+else if ($_Path=='Cool') {								$_meta = " ~ Cool Cup of Water";							abcms_page('docs/cool.htm'); }
 else if ($_Path=='History') {							$_meta = " ~ History";										abcms_page('docs/history.htm'); }
 else if ($_Path=='Readers-Guide') {						$_meta = " ~ Readers Guide";								abcms_page('docs/readers-guide.htm'); }
 else if ($_Path=='Aionios-and-Aidios') {				$_meta = " ~ Aiōnios and Aïdios";							abcms_page('docs/aionios-and-aidios.htm'); }

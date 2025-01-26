@@ -247,9 +247,9 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Ahirani).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Coptic---Coptic-Boharic-NT---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---(World-English-Bible-Updated|Aionian-Bible)---Aionian-Edition\.noia$/",
-		'include'	=> "/Holy-Bible---.*(Aionian-Bible|Estonian---Contemporary).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Aionian-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Arabic---New-Arabic-Bible|English---Aionian-Bible|Hebrew---Modern-Hebrew-Bible|Spanish---Sencillo-Bible)---Aionian-Edition\.noia$/",
-		//'include'	=> "/---Aionian-Edition\.noia$/",
+		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		'verses66'	=> $verses66,
@@ -3545,11 +3545,11 @@ function AION_GLOSSARY_REFERENCES_PUT( $bible, $database, $args, $tt22, $langspe
 		$GLOS = 'QUESTIONED';	if (stripos($verse['WORD'],$GLOS)!==FALSE) {	$references .= "<$GLOS BOOK=\"$BOOK\" CHAPTER=\"$CHAP\" VERSE=\"$VERS\" MARK=\"$MARK\" LANG=\"$LANG\"></$GLOS>\n"; }
 	}
 	$references .= "</references_element>";
-	if (!file_put_contents(($filename="$bible---Aionian-Edition-references_dataset.dataxml"), $references))			{ AION_ECHO("ERROR! file_put_contents: $filename"); }
-	if (!file_put_contents(($filename="$bible---Aionian-Edition---STUDY-references_dataset.dataxml"), $references))	{ AION_ECHO("ERROR! file_put_contents: $filename"); }
-	if (!file_put_contents(($filename="$bible---POD_KDP_ALL_BODY-references_dataset.dataxml"), $references))		{ AION_ECHO("ERROR! file_put_contents: $filename"); }
-	if ($tt22 && !file_put_contents(($filename="$bible---POD_KDP_X22_BODY-references_dataset.dataxml"), $references)){ AION_ECHO("ERROR! file_put_contents: $filename"); }
-	if (!file_put_contents(($filename="$bible---POD_KDP_NEW_BODY-references_dataset.dataxml"), $references))		{ AION_ECHO("ERROR! file_put_contents: $filename"); }
+	if (!file_put_contents(($filename="$bible---Aionian-Edition-references_dataset.xml"), $references))			{ AION_ECHO("ERROR! file_put_contents: $filename"); }
+	if (!file_put_contents(($filename="$bible---Aionian-Edition---STUDY-references_dataset.xml"), $references))	{ AION_ECHO("ERROR! file_put_contents: $filename"); }
+	if (!file_put_contents(($filename="$bible---POD_KDP_ALL_BODY-references_dataset.xml"), $references))		{ AION_ECHO("ERROR! file_put_contents: $filename"); }
+	if ($tt22 && !file_put_contents(($filename="$bible---POD_KDP_X22_BODY-references_dataset.xml"), $references)){ AION_ECHO("ERROR! file_put_contents: $filename"); }
+	if (!file_put_contents(($filename="$bible---POD_KDP_NEW_BODY-references_dataset.xml"), $references))		{ AION_ECHO("ERROR! file_put_contents: $filename"); }
 }
 
 

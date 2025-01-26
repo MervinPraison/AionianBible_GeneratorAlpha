@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1581978     
-# File Date: 01/25/2025 10:31:10
+# File Size: 1582092     
+# File Date: 01/25/2025 17:34:39
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -2847,6 +2847,7 @@ Holy-Bible---English---Wycliffe-Bible	028	HOS	002	023	And Y schal sowe it to me 
 Holy-Bible---English---Wycliffe-Bible	030	AMO	006	010	And his neiybore schal take hym, and schal brenne hym, that he bere out boonys of the hous. And he schal seie to hym, that is in the priuy places of the hous,
 Holy-Bible---English---Wycliffe-Bible	043	JOH	006	051	Y am lyuynge breed, that cam doun fro heuene.
 Holy-Bible---English---Wycliffe-Bible	066	REV	012	018	And he stood on the grauel of the see.
+Holy-Bible---Estonian---Contemporary	064	3JO	001	014	sest loodan sind varsti näha. Siis räägime silmast silma.
 Holy-Bible---Estonian---For-All	040	MAT	017	021	
 Holy-Bible---Estonian---For-All	040	MAT	018	011	
 Holy-Bible---Estonian---For-All	040	MAT	023	014	
