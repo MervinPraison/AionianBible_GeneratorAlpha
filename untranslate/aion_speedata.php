@@ -937,6 +937,8 @@ function hyperlink(&$text, $notedlink="") {
 		"<A href='https://nheb.net/'><U><Value>NHEB.net</Value></U></A>", $text);
 	$text = preg_replace("#<U><Value>Bible4u.net</Value></U>#",
 		"<A href='https://bible4u.net/'><U><Value>Bible4u.net</Value></U></A>", $text);
+	$text = preg_replace("#<U><Value>CoolCup.or</Value></U><Value>g</Value>#",
+		"<A href='https://CoolCup.org/'><U><Value>CoolCup.or</Value></U><Value>g</Value></A>", $text);
 	$text = preg_replace("#<U><Value>creativecommons.or</Value></U><Value>g</Value><U><Value>/licenses/b</Value></U><Value>y</Value><U><Value>/4.0</Value></U>#",
 		"<A href='https://creativecommons.org/licenses/by/4.0/'><U><Value>creativecommons.or</Value></U><Value>g</Value><U><Value>/licenses/b</Value></U><Value>y</Value><U><Value>/4.0</Value></U></A>", $text);
 	// extra space added BELOW to prevent overlap replace
@@ -1178,6 +1180,7 @@ $bibleurl = preg_replace("/Holy-Bible---/","",$versions['BIBLE']);
 $link_tor = "<Value>TOR Anonymously</Value><Br />";
 $link_ab = "<U><Value>https://AionianBible.or</Value></U><Value>g</Value>";
 $link_na = "<U><Value>https://Nainoia-Inc.si</Value></U><Value>g</Value><U><Value>nedon.net</Value></U>";
+$link_cc = "<U><Value>https://CoolCup.or</Value></U><Value>g</Value>";
 $link_tr = "<U><Value>https://AionianBible.or</Value></U><Value>g</Value><U><Value>/Third-Part</Value></U><Value>y</Value><U><Value>-Publisher-Resources</Value></U>";
 if (($format=="READ" || $format=="STUDY")) {
 	hyperlink($history);
@@ -1189,8 +1192,9 @@ if (($format=="READ" || $format=="STUDY")) {
 	hyperlink($loff);
 	$link_tor = "<A href='https://www.AionianBible.org/TOR'><U><Value>TOR Anonymousl</Value></U><Value>y</Value></A><Br />";
 	$link_ab = "<A href='https://www.AionianBible.org'><U><Value>https://AionianBible.or</Value></U><Value>g</Value></A>";
-	$link_na = "<A href='https://nainoia-inc.signedon.net'><U><Value>https://Nainoia-Inc.si</Value></U><Value>g</Value><U><Value>nedon.net</Value></U></A>";
-	$link_tr = "<A href='https://nainoia-inc.signedon.net'><U><Value>https://AionianBible.or</Value></U><Value>g</Value><U><Value>/Third-Part</Value></U><Value>y</Value><U><Value>-Publisher-Resources</Value></U></A>";
+	$link_na = "<A href='https://Nainoia-Inc.signedon.net'><U><Value>https://Nainoia-Inc.si</Value></U><Value>g</Value><U><Value>nedon.net</Value></U></A>";
+	$link_cc = "<A href='https://CoolCup.org'><U><Value>https://CoolCup.or</Value></U><Value>g</Value></A>";
+	$link_tr = "<A href='https://www.AionianBible.org/Third-Party-Publisher-Resources'><U><Value>https://AionianBible.or</Value></U><Value>g</Value><U><Value>/Third-Part</Value></U><Value>y</Value><U><Value>-Publisher-Resources</Value></U></A>";
 }
 // adjust the Glossary Noted url
 if (!($glos3=preg_replace("#<Value>/Bibles/English---Aionian-Bible/Noted#","<Value>/Bibles/$bibleurl/Noted",$glos3,-1,$count)) || $count!=1) { AION_ECHO("ERROR! $bible: Glossary + preg_replace()"); }
@@ -1790,8 +1794,8 @@ $fonts
 			$link_tor
 			$link_ab
 		</Fontface></Paragraph><Paragraph textformat="centerpad"><Fontface fontfamily='FF-Copy'>
-			<Value>Published by Nainoia Inc</Value><Br />
-			$link_na
+			<Value>Published by Nainoia Inc, </Value>$link_na<Br />
+			<Value>All profits are given to </Value>$link_cc
 		</Fontface></Paragraph><Paragraph textformat="centerpad"><Fontface fontfamily='FF-Copy'>
 			$helpneeded
 		</Fontface></Paragraph>
