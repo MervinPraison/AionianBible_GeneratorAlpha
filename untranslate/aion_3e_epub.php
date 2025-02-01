@@ -1203,6 +1203,8 @@ $G_COMMENT
 
 <p>The Aionian Bible republishes public domain and Creative Common Bible texts that are 100% free to copy and print. All versions are available online at <a href='https://www.Aionianbible.org/Read' target='_blank' title='The worlds first Holy Bible untranslation'>AionianBible.org</a> in web page, ePub, text, and PDF format.  Also read online with the  <a href='https://www.Aionianbible.org/Google-Play' target='_blank' title='Aionian Bible free online at Google Play'>Android</a>  and  <a href='https://www.Aionianbible.org/Apple-iOS-App' target='_blank' title='Apple iOS App'>Apple iOS App</a>.  Buy print Bibles at <a href='https://www.Aionianbible.org/Buy' target='_blank' title='Holy Bible Aionian Edition at Amazon.com and Lulu.com'>Amazon.com and Lulu.com</a>.<br /><br /></p>
 
+<p><b>01/28/25</b> All profits are given to <a href='https://CoolCup.org' target='_blank' title='Cool Cup of Water Project'>CoolCup.org</a>.<br /></p>
+
 <p><b>11/24/24</b> Progressive Web Application <a href='https://pwa.aionianbible.org/' target='_blank' title='PWA format'>off-line format</a>.<br /></p>
 
 <p><b>10/20/24</b> Gospel Primer <a href='https://www.aionianbible.org/Buy' target='_blank' title='Buy at Amazon and Lulu'>handout format</a>.<br /></p>
@@ -1226,6 +1228,8 @@ $G_COMMENT
 <p><b>02/14/22</b> <a href='https://en.wikipedia.org/wiki/Strong%27s_Concordance' target='_blank' title='Strongs Concordance history at wikipedia'>Strong's Concordance</a> from <a href='https://viz.bible' target='_blank' title='Strongs Concordance source'>viz.bible</a>, <a href='https://github.com/openscriptures/strongs' target='_blank' title='improved Strongs Concordance source'>Open Scriptures</a>, and <a href='https://github.com/STEPBible/STEPBible-Data' target='_blank' title='STEPBible Enhanced Strongs Concordance'>STEPBible Enhanced Strong's</a> at <a href='https://www.Aionianbible.org/Strongs' target='_blank' title='Strongs Enhanced Concordance and Glossary'>AionianBible.org/Strongs</a>.<br /></p>
 
 <p><b>01/09/22</b> <a href='https://resources.aionianbible.org/AB-StudyPack/' target='_blank' title='Aionian Bible language StudyPacks'>StudyPack</a> resources for Bible translation and underlying language study now available.<br /></p>
+
+<p><b>01/23/22</b> Volunteers celebrate with pie and prayer.<br /></p>
 
 <p><b>01/01/22</b> 216 translations now available in 99 languages.<br /></p>
 
