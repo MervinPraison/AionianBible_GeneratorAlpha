@@ -30,7 +30,7 @@ $output = <<<EOF
 <body>
 <h1>eBible Parsed from <a href='https://ebible.org/Scriptures/copyright.php' target='_blank'>https://ebible.org/Scriptures/copyright.php</a></h1>
 <table>
-<tr><td>#</td><td>Priority</td><td>License</td><td>Code</td><td>Language</td><td>Population</td><td>Title</td><td>eBible</td><td>Year</td><td>Note</td><td>Link-Page</td><td>Link-VPL</td><td>Link-SWORD</td><td>Link-PDF</td><td>Link-EPUB</td></tr>
+<tr><td>#</td><td>Priority</td><td>License</td><td>Code</td><td>Language</td><td>Population</td><td>Title</td><td>eBible</td><td>Year</td><td>Note</td><td>Extra</td><td>Link-Page</td><td>Link-VPL</td><td>Link-SWORD</td><td>Link-PDF</td><td>Link-EPUB</td></tr>
 
 EOF;
 $output2 = "FILE	FLAG	POST	VALUE	SOURCE	DESTINATION\n";
@@ -45,7 +45,8 @@ foreach( $matches as $ebible ) {
 	$priority = (in_array($ebible[3],$keepers) ? 0 : 1);
 	$pop = '';
 	$note = '';
-
+	$extra = '';
+	
 	// Population
 	// https://en.wikipedia.org/wiki/ISO_639:als
 	if (400 <= ($ecode=aion_curl( 'https://en.wikipedia.org/wiki/ISO_639:'.$ebible[1], $html)) || empty($html)) { AION_ECHO("ERROR! aion_curl(lang) = {$ecode}, {$ebible[1]}"); }
@@ -58,15 +59,16 @@ foreach( $matches as $ebible ) {
 	// https://ebible.org/details.php?id=benirv
 	if (400 <= ($ecode=aion_curl("https://ebible.org/details.php?id=".$ebible[3], $html)) || empty($html)) { AION_ECHO("ERROR! aion_curl(ebible) = {$ecode}, {$ebible[3]}"); }
 	else if (preg_match("#public[\s]*domain#uis",$html)) { ; }
-	else if (preg_match("#no[\s]*derivative#uis",$html)) {									$priority = 4; $note = "+NoDeriv"; }
-	else if (preg_match("#no[\s]*commercial#uis",$html)) {									$priority = 3; $note = "+NoCom"; }
-	else if (!preg_match("#creative[\s]*common#uis",$html)) {								$priority = 2; $note = "+NoCC"; }
-	if (preg_match("#India#us",$html)) {													$note = "+India"; }
-
-	// already?
+	else if (preg_match("#no[\s]*derivative#uis",$html)) {									$priority = 4; $note = "NoDe"; }
+	else if (preg_match("#no[\s]*commercial#uis",$html)) {									$priority = 3; $note = "NoCo"; }
+	else if (!preg_match("#creative[\s]*common#uis",$html)) {								$priority = 2; $note = "NoCC"; }
 	foreach( $database[T_VERSIONS] as $bible => $version ) {
-		if ("https://ebible.org/details.php?id=".$ebible[3] == $version['SOURCELINK']) {	$priority = 5; $note = "+".$bible; break; }
+		if ("https://ebible.org/details.php?id=".$ebible[3] == $version['SOURCELINK']) {	$priority = 5; $note = "".$bible; break; }
 	}
+
+	// Extra
+	if (preg_match("#India#usi",$html)) { $extra .= "+India"; }
+	if (preg_match("#(does not|extend|outside)#usi",$html)) { $extra .= "+Except"; }
 
 	// links
 	// https://ebible.org/sword/zip/engourb2016eb.zip
@@ -106,6 +108,7 @@ foreach( $matches as $ebible ) {
 	<td><a href='{$link_page}' target='_blank'>{$ebible[3]}</a></td>
 	<td>{$ebible[5]}</td>
 	<td>{$note}</td>
+	<td>{$extra}</td>
 	<td><a href='{$link_page}' target='_blank' {$font_page}>{$mark_page} {$link_page}</a></td>
 	<td><a href='{$link_vpls}' target='_blank' {$font_vpls}>{$mark_vpls} {$link_vpls}</a></td>
 	<td><a href='{$link_swrd}' target='_blank' {$font_swrd}>{$mark_swrd} {$link_swrd}</a></td>
