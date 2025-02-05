@@ -247,9 +247,9 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Ahirani).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Coptic---Coptic-Boharic-NT---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---(World-English-Bible-Updated|Aionian-Bible)---Aionian-Edition\.noia$/",
-		'include'	=> "/Holy-Bible---.*(Aionian-Bible|Estonian---Contemporary).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Estonian---Contemporary).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Arabic---New-Arabic-Bible|English---Aionian-Bible|Hebrew---Modern-Hebrew-Bible|Spanish---Sencillo-Bible)---Aionian-Edition\.noia$/",
-		//'include'	=> "/---Aionian-Edition\.noia$/",
+		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		'verses66'	=> $verses66,
@@ -2566,7 +2566,7 @@ $fonts
 			<Value>TOR Anonymously</Value><Br />
 			<U><Value>AionianBible.or</Value></U><Value>g</Value>
 		</Fontface></Paragraph><Paragraph textformat="centerpad"><Fontface fontfamily='FF-Copy'>
-			<Value>Published by Nainoia Inc</Value><U><Value>https://Nainoia-Inc.si</Value></U><Value>g</Value><U><Value>nedon.net</Value></U><Br />
+			<Value>Published by Nainoia Inc, </Value><U><Value>https://Nainoia-Inc.si</Value></U><Value>g</Value><U><Value>nedon.net</Value></U><Br />
 			<Value>All profits are given to </Value><U><Value>https://CoolCup.or</Value></U><Value>g</Value>
 		</Fontface></Paragraph><Paragraph textformat="centerpad"><Fontface fontfamily='FF-Copy'>
 			$helpneeded
