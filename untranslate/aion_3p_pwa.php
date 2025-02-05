@@ -1615,7 +1615,7 @@ function ABDO(goto, anchor=null, push=true) {
 	}
 
 	// push history to browser
-	if (anchor && anchor[0]=='#') { anchor = anchor.substr(1); }
+	if (anchor && anchor[0]=='#') { anchor = anchor.substring(1); }
 	if (push && (window.history.state === null || typeof window.history.state.go == "undefined" || window.history.state.go != goto)) {
 		const anchor2 = (anchor ? '#' + anchor : '');
 		window.history.pushState({go:goto}, '', window.location.pathname + "?" + goto + anchor2);
@@ -1834,7 +1834,7 @@ window.onload = function() {
 	// load queried page
 	const query = window.location.search;
 	if (query && query != "?PWA") {
-		ABDO(query.substr(1), window.location.hash);
+		ABDO(query.substring(1), window.location.hash);
 	}
 	// homepage already loaded, but indicate update or install
 	else {
