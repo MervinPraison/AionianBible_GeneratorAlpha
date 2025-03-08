@@ -640,7 +640,7 @@ function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $ski
 		'source'	=> $source,
 		'uniusage'	=> $uniusage,
 		'include'	=> '/---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
-		//'include'	=> '/Holy-Bible---.*(French-Crampon-Bible).*---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
+		//'include'	=> '/Holy-Bible---.*(Danish).*---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---Slovene---Slovene-Savli-Bible---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
 		//'include'	=> '/Holy-Bible---([G-Z]{1}).+---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---Kiche---Totonicapan---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
@@ -3379,30 +3379,30 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-8308;
 	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-9112;
 	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-287451;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-7644690;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-7644691;
 	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-81766;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-457;
-	$grandmarker['LONG']		= $grandtotal['LONG']-1176;
+	$grandmarker['LONG']		= $grandtotal['LONG']-1182;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-13;
 	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-2876;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-910;
 	$grandmarker['FIXED']		= $grandtotal['FIXED']-13792;
-	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-19081;
+	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-19080;
 	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-10272;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-715;
 	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-1354;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-202444;
-	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-49586;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-4568.80;
-	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-151;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-202408;
+	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-49564;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-4568.08;
+	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-150;
 	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-83;
 	$grandmarker['PDF_PKJO']	= $grandtotal['PDF_PKJO']-16;
 	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-367;
 	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-176;
-	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-212;
+	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-218;
 	$grandmarker['PDF_PLJO']	= $grandtotal['PDF_PLJO']-86;
-	$grandmarker['PDF_PRTL']	= $grandtotal['PDF_PRTL']-237;
+	$grandmarker['PDF_PRTL']	= $grandtotal['PDF_PRTL']-238;
 	$grandmarker['TRANS']		= $grandtotal['TRANS']-315;
 	$grandtotal['LONG']		= ($grandtotal['LONG']		== 0 ? $grandtotal['LONG']		: "<span style='font-weight:bold; color:red;'>".$grandtotal['LONG']."</span>" );
 	$grandtotal['CHAP_NO']	= ($grandtotal['CHAP_NO']	== 0 ? $grandtotal['CHAP_NO']	: "<span style='font-weight:bold; color:red;'>".$grandtotal['CHAP_NO']."</span>" );
@@ -3613,9 +3613,9 @@ function AION_LOOP_HTMS_DOIT($args) {
 	$noderive  = (stripos($args['database']['T_VERSIONS'][$bible]['COPYRIGHT'],'Derivative')!==FALSE ? "" : " Apocryphal text is removed and verses renumbered to the English standard.");
 	$blurbpdox = (empty($args['database']['T_FORPRINT'][$bible]['PDOEXTENSION']) ? "" : " ".trim($args['database']['T_FORPRINT'][$bible]['PDOEXTENSION']));
 	$blurbdesc = (empty($args['database']['T_VERSIONS'][$bible]['DESCRIPTION']) ? "" : " ".trim($args['database']['T_VERSIONS'][$bible]['DESCRIPTION']).".");
-	$blurb = "<b>The <i>Holy Bible Aionian Edition</i> is the world's first Bible <i>un-translation</i>!</b> This Bible helps us understand God's love for everyone and after-life destinies. What is an <i>un-translation</i>? This Bible shows the locations of eleven key Greek and Hebrew words. The primary word shown is <i>aionios</i>, typically translated <i>eternal</i>, yet <i>aionios</i> means something more wonderful than infinite time! Greeks used <i>aionios</i> to mean <i>entirety</i>, even <i>consummate</i>, but never merely <i>infinite</i> time. So the <i>aionios</i> life promised in John 3:16 is not simply a ticket to future <i>eternal</i> life, but the invitation to <i>consummate</i> life now! <i>Aionios</i> life with Christ is better than forever. This Bible is in the ".trim($args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH'])." language, with source: <i>".trim($args['database']['T_VERSIONS'][$bible]['SOURCE'])."</i>$blurbyear, from ".trim($args['database']['T_VERSIONS'][$bible]['SOURCEDOMAIN']).", free at AionianBible.org, and also known as <i>The Purple Bible</i> $noderive$blurbpdox All profits are given to CoolCup.org.<BR>";
+	$blurb = "<b>The <i>Holy Bible Aionian Edition</i> is the world's first Bible <i>un-translation</i>!</b> This Bible helps us understand God's love for everyone and after-life destinies. What is an <i>un-translation</i>? This Bible shows the locations of eleven key Greek and Hebrew words. The primary word shown is <i>aionios</i>, typically translated <i>eternal</i>, yet <i>aionios</i> means something more wonderful than infinite time! Greeks used <i>aionios</i> to mean <i>entirety</i>, even <i>consummate</i>, but never merely <i>infinite</i> time. So the <i>aionios</i> life promised in John 3:16 is not simply a ticket to future <i>eternal</i> life, but the invitation to <i>consummate</i> life now! <i>Aionios</i> life with Christ is better than forever. This Bible is in the ".trim($args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH'])." language, with source: <i>".trim($args['database']['T_VERSIONS'][$bible]['SOURCE'])."</i>$blurbyear, from ".trim($args['database']['T_VERSIONS'][$bible]['SOURCEDOMAIN']).", free at AionianBible.org, and also known as <i>The Purple Bible</i>.  $noderive$blurbpdox All profits are given to CoolCup.org.<BR>";
 	if (AION_LOOP_HTMS_DOIT_OTONLY($database['T_BIBLE'])) {
-	$blurb = "<b>The <i>Holy Bible Aionian Edition</i> is the world's first Bible <i>un-translation</i>!</b> This Bible helps us understand God's love for everyone and after-life destinies. What is an <i>un-translation</i>? This Bible shows the location of the Hebrew word <i>Sheol</i>, typically translated as <i>Hell</i>. However, Hell is ill-defined when compared with the underlying Hebrew meaning. Instead, Sheol is the abode of deceased believers and unbelievers and should never be translated as Hell. The implications are more than noteworthy. This Bible is in the ".trim($args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH'])." language, with source: <i>".trim($args['database']['T_VERSIONS'][$bible]['SOURCE'])."</i>$blurbyear, from ".trim($args['database']['T_VERSIONS'][$bible]['SOURCEDOMAIN']).", free at AionianBible.org, and also known as <i>The Purple Bible</i>.$noderive$blurbpdox All profits are given to CoolCup.org.<BR>";
+	$blurb = "<b>The <i>Holy Bible Aionian Edition</i> is the world's first Bible <i>un-translation</i>!</b> This Bible helps us understand God's love for everyone and after-life destinies. What is an <i>un-translation</i>? This Bible shows the location of the Hebrew word <i>Sheol</i>, typically translated as <i>Hell</i>. However, Hell is ill-defined when compared with the underlying Hebrew meaning. Instead, Sheol is the abode of deceased believers and unbelievers and should never be translated as Hell. The implications are more than noteworthy. This Bible is in the ".trim($args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH'])." language, with source: <i>".trim($args['database']['T_VERSIONS'][$bible]['SOURCE'])."</i>$blurbyear, from ".trim($args['database']['T_VERSIONS'][$bible]['SOURCEDOMAIN']).", free at AionianBible.org, and also known as <i>The Purple Bible</i>.  $noderive$blurbpdox All profits are given to CoolCup.org.<BR>";
 	}
 	$PDFPA = AION_PDF_PAGECOUNT("../www-stageresources/$bible---POD_KDP_ALL_BODY.pdf");
 	$PDFPN = AION_PDF_PAGECOUNT("../www-stageresources/$bible---POD_KDP_NEW_BODY.pdf");
@@ -4092,8 +4092,6 @@ function AION_LOOP_HTMS_DOIT($args) {
 	if (!file_put_contents($newfile, $htm)) { AION_ECHO("ERROR! HTM Debug file problem: $newfile"); }
 	unset($htm);
 	$note = (empty($args['database']['T_VERSIONS'][$bible]['NOTE']) ? "" : $args['database']['T_VERSIONS'][$bible]['NOTE']);
-	$note .= (empty($args['database']['T_VERSIONS'][$bible]['NEW']) ? "" : ",".$args['database']['T_VERSIONS'][$bible]['NEW']);
-	$rowback = (empty($args['database']['T_VERSIONS'][$bible]['NEW']) ? "" : ($args['database']['T_VERSIONS'][$bible]['NEW']=='Y136' ? "bgcolor='#f2dcdb'" : "bgcolor='#ebf1de'"));
 	static $bible_count = 0;	++$bible_count;
 	static $lang_count = 0;		static $lang_last = NULL; if ($lang_last != $lang) { $lang_last=$lang; ++$lang_count;}
 	$args['grandtotal']['BIBLE_COUNT']	= $bible_count;
@@ -4280,7 +4278,7 @@ function AION_LOOP_HTMS_DOIT($args) {
 	}
 	$args['grandtotal']['PROBPDF'] += $PROBPDF;
 	
-	$args['debug'].= "<tr {$rowback}><td><a href='/Bibles/$biblename/parallel-English---King-James-Version' target='_blank'>$biblename</a></td><td><a href='/library/$bible.php' target='_blank'>p</a></td><td>$SOURCE</td><td>$note</td><td>$bible_count</td><td>$lang_count</td><td>$BOOK_OT</td><td>$BOOK_NT</td><td>$CHAP_TOTAL</td><td>$VERS_TOTAL</td><td>$VERS_AION</td><td>$VERS_QUES</td><td>$LONG</td><td>$CHAP_NO</td><td>$VERS_NO</td><td>$VERS_EX</td><td>$FIXED</td><td>$NOTFIXED</td><td>$CHAP_RE</td><td>$REVE_NO</td><td>$REVE_EX</td><td>$CUSTO</td><td>$PDFPA</td><td>$PDFPN</td><td>$PDFPIF</td><td>$PDF_PKDP</td><td>$PDF_PKNT</td><td>$PDF_PKJO</td><td>$PDF_PLUL</td><td>$PDF_PLNT</td><td>$PDF_PLHC</td><td>$PDF_PLJO</td><td>$PDF_PRTL</td><td>$ISGOOD</td></tr>\n";
+	$args['debug'].= "<tr><td><a href='/Bibles/$biblename/parallel-English---King-James-Version' target='_blank'>$biblename</a></td><td><a href='/library/$bible.php' target='_blank'>p</a></td><td>$SOURCE</td><td>$note</td><td>$bible_count</td><td>$lang_count</td><td>$BOOK_OT</td><td>$BOOK_NT</td><td>$CHAP_TOTAL</td><td>$VERS_TOTAL</td><td>$VERS_AION</td><td>$VERS_QUES</td><td>$LONG</td><td>$CHAP_NO</td><td>$VERS_NO</td><td>$VERS_EX</td><td>$FIXED</td><td>$NOTFIXED</td><td>$CHAP_RE</td><td>$REVE_NO</td><td>$REVE_EX</td><td>$CUSTO</td><td>$PDFPA</td><td>$PDFPN</td><td>$PDFPIF</td><td>$PDF_PKDP</td><td>$PDF_PKNT</td><td>$PDF_PKJO</td><td>$PDF_PLUL</td><td>$PDF_PLNT</td><td>$PDF_PLHC</td><td>$PDF_PLJO</td><td>$PDF_PRTL</td><td>$ISGOOD</td></tr>\n";
 	
 	if (!($bible_count % 20)) {
 		$args['debug'].="<tr><td>BIBLE</td><td>P</td><td>S</td><td>NOT</td><td>B#</td><td>LAN</td><td>OLD</td><td>NEW</td><td>CHP</td><td>VER</td><td>AIO</td><td>QUE</td><td>LON</td><td>CMI</td><td>VMI</td><td>VXT</td><td>VFI</td><td>NOF</td><td>CMA</td><td>VMI</td><td>VME</td><td>CUS</td><td>PAG</td><td>PAN</td><td>PRI</td><td>KDP</td><td>KNT</td><td>LUL</td><td>LNT</td><td>LHC</td><td>WAT</td><td>STA</td></tr>\n";

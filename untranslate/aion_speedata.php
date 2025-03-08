@@ -209,7 +209,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_pdfoo'	=> FALSE,	// TRUE = do One Online PDFs
 		'q_pdfjo'	=> FALSE,	// TRUE = do John PDFs
 		'q_epubc'	=> TRUE,	// TRUE = do ePub and covers
-		//'include'	=> "/Holy-Bible---.*(Hebrew-Aleppo-Miqra-Mesorah).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---Hebrew---.*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(English---Trans-Trans).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(STEP).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Traditional|Aionian-Bible|Oriya|Vietnamese).*---Aionian-Edition\.noia$/",
@@ -244,11 +244,11 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 
 		//'include'	=> "/Holy-Bible---.*(Ewe---Word-of-Life|Greek-Modern-Kathareuousa|Oromo---New-World|Twi---Akuapem-Twi-Bible|Twi---Asante-Twi-WASNA|Bhadrawahi-Bible|Coptic---Sahidic-Bible|Haryanvi-Bible|Lodhi-Bible|Baghlayani-Bible|Nepali-Bible|Chinese-Union-Version-Traditional|Hausa---Contemporary|Bahasa-Indonesia-Sehari-hari|Yoruba).*---Aionian-Edition\.noia$/",
 
-		//'include'	=> "/Holy-Bible---.*(Ahirani).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Coptic---Coptic-Boharic-NT---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---(World-English-Bible-Updated|Aionian-Bible)---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Estonian---Contemporary).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---(Arabic---New-Arabic-Bible|English---Aionian-Bible|Hebrew---Modern-Hebrew-Bible|Spanish---Sencillo-Bible)---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Danish-1871-1907).*---Aionian-Edition\.noia$/",
 		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
@@ -977,6 +977,8 @@ $rtl		= trim(!empty($forprint['RTL'])			? $forprint['RTL']			: $default['RTL']		
 $column1	= trim(!empty($forprint['COLUMN1'])		? $forprint['COLUMN1']		: NULL						);
 $studwide	= trim(!empty($forprint['STUDWIDE'])	? $forprint['STUDWIDE']		: NULL						);
 $font		= trim(!empty($forprint['FONT'])		? $forprint['FONT']			: $default['FONT']			);
+$nudge		= trim(!empty($forprint['NUDGE'])		? $forprint['NUDGE']		: $default['NUDGE']			);
+$bidi		= trim(!empty($forprint['BIDI'])		? $forprint['BIDI']			: $default['BIDI']			);
 $bsize		= trim(!empty($forprint['BSIZE'])		? $forprint['BSIZE']		: $default['BSIZE']			);
 $bleading	= trim(!empty($forprint['BLEADING'])	? $forprint['BLEADING']		: $default['BLEADING']		);
 $tsize		= trim(!empty($forprint['TSIZE'])		? $forprint['TSIZE']		: $default['TSIZE']			);
@@ -1078,9 +1080,10 @@ $w_nudge	= trim(!empty($forprint['W_NUDGE'])		? $forprint['W_NUDGE']		: $default
 // RTL EXTRAS
 $bidi_plain	= ($rtl=="TRUE" ? 'bidi="yes"' : '' );
 $bidi_center= ($rtl=="TRUE" ? 'bidi="yes" direction="rtl"' : '' );
+$bidi_title	= ($rtl=="TRUE" ? 'bidi="yes"' : '' );
 $bidi_right	= ($rtl=="TRUE" && !empty($w_free.$w_aka) ? 'bidi="yes" direction="rtl"' : '' ); // very kludgey thing to do, but RTL bibles with default English free and aka must set this to ''
 $bidi_table	= ($rtl=="TRUE" ? 'bidi="yes" direction="rtl"' : '' );
-$bidi_bible	= ($rtl=="TRUE" ? 'bidi="yes" direction="rtl"' : '' );
+$bidi_bible	= ($rtl=="TRUE" ? 'bidi="yes" direction="rtl"' : ($bidi=="TRUE" ? 'bidi="yes" direction="ltr"' : ''));
 $bidi_3col	= ($rtl=="TRUE" ? 'bidi="yes" direction="rtl"' : '' );
 $rtlcols	= ($rtl=="TRUE" ? 'columnordering="rtl"' : '' );
 $rtlinit	= ($rtl=="TRUE" ? 'true()' : 'false()' );
@@ -1357,7 +1360,7 @@ $copyright_row = '50';
 if (!empty($forprint['EXTENSION'])) {
 	$extension = 'true()';
 	$extension_text = trim($forprint['EXTENSION']);
-	$copyright_row = '6';
+	$copyright_row = '3';
 }
 else {
 	$extension = 'false()';
@@ -1521,9 +1524,16 @@ else if ($rtl=='TRUE') { // margins flipped
 	$pref1colleft			= "pref1colright";
 	$TITLEJUSTIFICATION		= "left";
 	if ($column1) { $COLUMN_LEFT_WIDTH		= '77'; }
+	if ($nudge) {
+		$MARGIN_RIGHT_LEFT		= '0.2875in';	$MARGIN_RIGHT_RIGHT		= '0.9in';
+		$MARGIN_LEFT_LEFT		= '0.9in';		$MARGIN_LEFT_RIGHT		= '0.2875in';
+		$MARGIN_SINGLE_INSIDE	= '0.9in';
+		$MARGIN_SINGLE_OUTSIDE	= '0.2875in';
+	}
 }
 else {
 	$MARGIN_SINGLE_INSIDE	= '0.875in';
+	$MARGIN_SINGLE_OUTSIDE	= '0.3125in';
 	$REFER_SINGLE_INSIDE	= '0.875in';
 	$MARGIN_SINGLE_WIDTH	= '77';
 	$MARGIN_MAPS_WIDTH		= '69';
@@ -1535,6 +1545,13 @@ else {
 	$COLUMN_RIGHT_COLUMN	= '40';			$COLUMN_RIGHT_WIDTH		= '38';			$COLUMN_RIGHT_HEIGHT	= '130';
 	$BOTTOM_ROW				= '132';		$BOTTOM_RIGHT_RIGHT		= '42';			$BOTTOM_WIDTH			= '36';			$BOTTOM_CENTER			= '38';
 	if ($column1) { $COLUMN_LEFT_WIDTH		= '77'; }
+	//nudge the page for KDP approval, needed for certain font glyphs that go out of bounds
+	if ($nudge) {
+		$MARGIN_RIGHT_LEFT		= '0.9in';		$MARGIN_RIGHT_RIGHT		= '0.2875in';
+		$MARGIN_LEFT_LEFT		= '0.2875in';	$MARGIN_LEFT_RIGHT		= '0.9in';
+		$MARGIN_SINGLE_INSIDE	= '0.9in';
+		$MARGIN_SINGLE_OUTSIDE	= '0.2875in';
+	}
 }
 // RTL tune up, footer book opposite side
 $BOTTOM_LEFT_LEFT = 1;
@@ -1739,7 +1756,7 @@ $fonts
 				<Fontface fontfamily="FF-AioR"><Value>®</Value></Fontface>
 			</Paragraph></Textblock></PlaceObject>
 
-			<PlaceObject row="62" column="1"><Textblock><Paragraph language="English (USA)" textformat="right" color="white" $bidi_right>
+			<PlaceObject row="62" column="1"><Textblock><Paragraph language="English (USA)" textformat="right" color="white" $bidi_title>
 				$versionFO_TI
 				$versionEN_TI
 				$versionNT_TI
@@ -1763,7 +1780,7 @@ $fonts
 				<Fontface fontfamily="FF-AioE"><Value>Edition</Value></Fontface>
 				<Fontface fontfamily="FF-AioR"><Value>®</Value></Fontface>
 			</Paragraph></Textblock></PlaceObject>
-			<PlaceObject row="66" column="1"><Textblock><Paragraph language="English (USA)" textformat="$TITLEJUSTIFICATION" $bidi_plain>
+			<PlaceObject row="66" column="1"><Textblock><Paragraph language="English (USA)" textformat="$TITLEJUSTIFICATION" $bidi_title>
 				$versionFO_TI
 				$versionEN_TI
 				$versionNT_TI
@@ -1781,7 +1798,7 @@ $fonts
 	<Paragraph textformat="center" $bidi_plain>$w_app</Paragraph>
 	$extension_top
 </Case></Switch>
-		<Paragraph language="English (USA)" textformat="center" $bidi_center><Fontface fontfamily='FF-Copy'>
+		<Paragraph language="English (USA)" textformat="center" $bidi_title><Fontface fontfamily='FF-Copy'>
 			<I><Value>Holy Bible Aionian Edition ®</Value></I><Br />
 			$versionFO_CP
 			$versionEN_CP
@@ -2351,6 +2368,7 @@ $w_purp		= trim(!empty($forprint['W_PURP'])		? $forprint['W_PURP']		: $default['
 $w_nudge	= trim(!empty($forprint['W_NUDGE'])		? $forprint['W_NUDGE']		: $default['W_NUDGE']		);
 // RTL EXTRAS
 $bidi_right	= ($rtl=="TRUE" && !empty($w_free.$w_aka) ? 'bidi="yes" direction="rtl"' : '' ); // very kludgey thing to do, but RTL bibles with default English free and aka must set this to ''
+$bidi_title	= ($rtl=="TRUE" ? 'bidi="yes"' : '' );
 // cover words
 $w_worl	=
 	($w_font=='FOREIGN' && !empty($w_worl)
@@ -2420,7 +2438,7 @@ $fonts
 		<Fontface fontfamily="FF-AioE"><Value>Edition</Value></Fontface>
 		<Fontface fontfamily="FF-AioR"><Value>®</Value></Fontface>
 	</Paragraph></Textblock></PlaceObject>
-	<PlaceObject row="62" column="1"><Textblock><Paragraph language="English (USA)" textformat="right" color="white" $bidi_right>
+	<PlaceObject row="62" column="1"><Textblock><Paragraph language="English (USA)" textformat="right" color="white" $bidi_title>
 		$versionFO_TI
 		$versionEN_TI
 	</Paragraph></Textblock></PlaceObject>
@@ -2471,6 +2489,7 @@ $isbn		= trim(!empty($forprint['ISBN'])		? $forprint['ISBN']			: ''						);
 $extension	= trim(!empty($forprint['EXTENSION'])	? "true()"					: "false()"					);
 // RTL EXTRAS
 $bidi_center= ($rtl=="TRUE" ? 'bidi="yes" direction="rtl"' : '' );
+$bidi_title	= ($rtl=="TRUE" ? 'bidi="yes"' : '' );
 // fonts
 $fonts = AION_LOOP_PDF_POD_FONTS($font,$bsize,$bleading,$tsize,$tleading,$rsize,$rleading,$size,$leading,$numarialfont,$footsize,$backvl,$backtl,$backal,$backll,$headfont,$pixtext,$pixlead);
 // options
@@ -2492,7 +2511,7 @@ $extension_text = '';
 $copyright_row = '50';
 if (!empty($forprint['EXTENSION'])) {
 	$extension_text = trim($forprint['EXTENSION']);
-	$copyright_row = '6';
+	$copyright_row = '3';
 }
 // page
 $PAGE_WIDTH					= '6in';
@@ -2553,7 +2572,7 @@ $fonts
 
 	<!-- BIBLE COPYRIGHT -->
 	<PlaceObject row="$copyright_row" column="1"><Textblock>
-		<Paragraph language="English (USA)" textformat="center" $bidi_center><Fontface fontfamily='FF-Copy'>
+		<Paragraph language="English (USA)" textformat="center" $bidi_title><Fontface fontfamily='FF-Copy'>
 			<I><Value>Holy Bible Aionian Edition ®</Value></I><Br />
 			$versionFO_CP
 			$versionEN_CP
@@ -2662,8 +2681,8 @@ $mar10_45_b	= trim(!empty($forprint['MAR10_45_B'])	? $forprint['MAR10_45_B']	: $
 $rom1_1_b	= trim(!empty($forprint['ROM1_1_B'])	? $forprint['ROM1_1_B']		: $default['ROM1_1_B']		);
 $mat28_19_b	= trim(!empty($forprint['MAT28_19_B'])	? $forprint['MAT28_19_B']	: $default['MAT28_19_B']	);
 // RTL EXTRAS
-$bidi_left	= ($rtl=="TRUE" ? 'bidi="yes" direction="rtl"' : '' );
 $bidi_center= ($rtl=="TRUE" && !empty($w_free.$w_aka) ? 'bidi="yes" direction="rtl"' : ($rtl=="TRUE" ? 'bidi="yes"' : '' )); // very kludgey thing to do, but RTL bibles with default English free and aka must set this to ''
+$bidi_title	= ($rtl=="TRUE" ? 'bidi="yes"' : '' );
 // fix cover stuff
 $joh3_16 =
 	($v_font=='FOREIGN' && !empty($joh3_16)
@@ -2957,7 +2976,7 @@ $fonts
 
 	<!-- TITLE continued -->
 	<SetVariable variable="ylocation" select="(7.125 + $hardmargin)"/>
-	<PlaceObject row="{\$ylocation} in" column="0 in" allocate="no"><Textblock width='{\$xlocation} in'><Paragraph language="English (USA)" textformat="right" color='white'>
+	<PlaceObject row="{\$ylocation} in" column="0 in" allocate="no"><Textblock width='{\$xlocation} in'><Paragraph language="English (USA)" textformat="right" color='white' $bidi_title>
 		$versionFO_TI
 		$versionEN_TI
 		$versionNT_TI
@@ -3056,7 +3075,7 @@ $fonts
 
 	<!-- TITLE continued -->
 	<SetVariable variable="ylocation" select="(7.125 + $hardmargin)"/>
-	<PlaceObject row="{\$ylocation} in" column="{\$xlocation} in" allocate="no"><Textblock width='5.5in'><Paragraph language="English (USA)" textformat="left" color='white' $bidi_left>
+	<PlaceObject row="{\$ylocation} in" column="{\$xlocation} in" allocate="no"><Textblock width='5.5in'><Paragraph language="English (USA)" textformat="left" color='white' $bidi_title>
 		$versionFO_TI
 		$versionEN_TI
 		$versionNT_TI

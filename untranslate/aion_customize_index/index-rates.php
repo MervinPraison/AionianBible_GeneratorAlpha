@@ -29,16 +29,16 @@ td {	padding: 10px; text-align: right; }
 <input type='submit' name='submit' value='Submit' />
 </form>
 <table>
-<tr><td>Currency</td><td>Price</td><td>Profit</td><td>Note</td></tr>
+<tr><td>Currency</td><td>Price</td><td>Profit</td></tr>
 <?
-$f = max(1.00,1.00);			$usd_rate = 1.00;	echo "<td>USD</td><td>" . number_format($f * $usd_float * $usd_rate, 2,'.','') . "</td><td>" . number_format($usd_rate,2,'.') . "</td><td>" . ($f==1?'?':'') . "</td></tr>";
-$f = max(1.00,15.18/15.15);		$gbp_rate = 0.83;	echo "<td>GBP</td><td>" . number_format($f * $usd_float * $gbp_rate, 2,'.','') . "</td><td>" . $gbp_rate. "</td><td>" . ($f==1?'?':'') . "</td></tr>";
-$f = max(1.00,17.71/16.97);		$eur_rate = 0.93;	echo "<td>EUR</td><td>" . number_format($f * $usd_float * $eur_rate, 2,'.','') . "</td><td>" . $eur_rate. "</td><td>" . ($f==1?'?':'') . "</td></tr>";
-$f = max(1.00,87.84/81.21);		$pln_rate = 4.45;	echo "<td>PLN</td><td>" . number_format($f * $usd_float * $pln_rate, 2,'.','') . "</td><td>" . $pln_rate. "</td><td>" . ($f==1?'?':'') . "</td></tr>"; 
-$f = max(1.00,179.16/190.71);	$sek_rate = 10.45;	echo "<td>SEK</td><td>" . number_format($f * $usd_float * $sek_rate, 2,'.','') . "</td><td>" . $sek_rate. "</td><td>" . ($f==1?'?':'') . "</td></tr>";
-$f = max(1.00,3042/2447.69);	$jpy_rate = 134.12;	echo "<td>JPY</td><td>" . number_format($f * $usd_float * $jpy_rate, 2,'.','') . "</td><td>" . $jpy_rate. "</td><td>" . ($f==1?'?':'') . "</td></tr>";
-$f = max(1.00,24.32/24.64);		$cad_rate = 1.35;	echo "<td>CAD</td><td>" . number_format($f * $usd_float * $cad_rate, 2,'.','') . "</td><td>" . $cad_rate. "</td><td>" . ($f==1?'?':'') . "</td></tr>";
-$f = max(1.00,33.20/26.46);		$aud_rate = 1.45;	echo "<td>AUD</td><td>" . number_format($f * $usd_float * $aud_rate, 2,'.','') . "</td><td>" . $aud_rate. "</td><td>" . ($f==1?'?':'') . "</td></tr>";
+$usd_rate = 1.00;	echo "<td>USD</td><td>" . number_format($usd_float * $usd_rate, 2,'.','') . "</td><td>" . number_format($usd_rate,2,'.') . "</td></tr>";
+$gbp_rate = 0.81;	echo "<td>GBP</td><td>" . number_format($usd_float * $gbp_rate, 2,'.','') . "</td><td>" . $gbp_rate. "</td></tr>";
+$eur_rate = 0.97;	echo "<td>EUR</td><td>" . number_format($usd_float * $eur_rate, 2,'.','') . "</td><td>" . $eur_rate. "</td></tr>";
+$pln_rate = 4.06;	echo "<td>PLN</td><td>" . number_format($usd_float * $pln_rate, 2,'.','') . "</td><td>" . $pln_rate. "</td></tr>"; 
+$sek_rate = 10.94;	echo "<td>SEK</td><td>" . number_format($usd_float * $sek_rate, 2,'.','') . "</td><td>" . $sek_rate. "</td></tr>";
+$jpy_rate = 151.38;	echo "<td>JPY</td><td>" . number_format($usd_float * $jpy_rate, 2,'.','') . "</td><td>" . $jpy_rate. "</td></tr>";
+$cad_rate = 1.43;	echo "<td>CAD</td><td>" . number_format($usd_float * $cad_rate, 2,'.','') . "</td><td>" . $cad_rate. "</td></tr>";
+$aud_rate = 1.59;	echo "<td>AUD</td><td>" . number_format($usd_float * $aud_rate, 2,'.','') . "</td><td>" . $aud_rate. "</td></tr>";
 ?>
 </table>
 </body>

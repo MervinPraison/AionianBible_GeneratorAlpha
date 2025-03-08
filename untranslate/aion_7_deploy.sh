@@ -25,8 +25,8 @@ if (!is_dir($BACK)) {															AION_ECHO("ERROR! no backup available: $BACK
 if (!mkdir("$TEMP/$TEMPBACK",0755,TRUE)) {										AION_ECHO("ERROR! mkdir failed: $TEMP/$TEMPBACK"); }
 if (!chdir($TEMP)) {															AION_ECHO("ERROR! chdir: $TEMP"); }
 system("ln -s $TEMPBACK $LINK");		if (!is_dir($LINK)) {					AION_ECHO("ERROR! ln failed: $LINK"); }
-system("mv $LINK ../../");				if (!is_dir("../../$LINK")) {			AION_ECHO("ERROR! mv failed: $LINK"); }
-if (!chdir("..")) {																AION_ECHO("ERROR! chdir: .."); }
+system("mv -f $LINK ../../");			if (!is_dir("../../$LINK")) {			AION_ECHO("ERROR! mv failed: $LINK"); }
+if (!chdir("../")) {															AION_ECHO("ERROR! chdir: .."); }
 
 
 /*** prepare stage for production from current live ***/
@@ -75,8 +75,8 @@ AION_FILE_DATABASE_PUT(		$database, '../www-resources', "$LIVE/library", FALSE);
 if (!mkdir("$TEMP/$TEMPLIVE",0755,TRUE)) {										AION_ECHO("ERROR! mkdir failed: $TEMP/$TEMPLIVE"); }
 if (!chdir($TEMP)) {															AION_ECHO("ERROR! chdir: $TEMP"); }
 system("ln -s $TEMPLIVE $LINK");		if (!is_dir($LINK)) {					AION_ECHO("ERROR! ln failed: $LINK"); }
-system("mv $LINK ../../");				if (!is_dir('../../'.$LINK)) {			AION_ECHO("ERROR! mv failed: $LINK"); }
-if (!chdir("..")) {																AION_ECHO("ERROR! chdir: .."); }
+system("mv -f $LINK ../../");			if (!is_dir('../../'.$LINK)) {			AION_ECHO("ERROR! mv failed: $LINK"); }
+if (!chdir("../")) {															AION_ECHO("ERROR! chdir: .."); }
 system("rm -rf $TEMP");
 
 

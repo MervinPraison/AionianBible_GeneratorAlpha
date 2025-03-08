@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 893485      
-# File Date: 02/04/2025 21:07:53
+# File Size: 893487      
+# File Date: 03/07/2025 21:00:45
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -484,20 +484,20 @@ Holy-Bible---Czech---Living-Bible	ROM-001-001	Římanům 1:1	Milí přátelé, j
 Holy-Bible---Czech---Living-Bible	MAT-028-019	Matouš 28:19	Proto jděte a získávejte mi následovníky ve všech národech, křtěte je ve jméno Otce, Syna i Ducha svatého.
 Holy-Bible---Danish---Danish-1871-1907	JOH-003-016	Johannes 3:16	Thi saaledes elskede Gud Verden, at han gav sin Søn den enbaarne, for at hver den, som tror paa ham, ikke skal fortabes, men have et evigt Liv.
 Holy-Bible---Danish---Danish-1871-1907	GEN-003-024	1 Mosebog 3:24	Og han drev Mennesket ud og satte Keruber Østen for Edens Have med et blinkende Sværd, som vendte sig hid og did, til at vogte Vejen til Livsens Træ.
-Holy-Bible---Danish---Danish-1871-1907	LUK-023-034	Lukas 23:34	Men Jesus sagde: „Fader! forlad dem; thi de vide ikke, hvad de gøre.‟ Men de delte hans Klæder imellem sig ved Lodkastning.
+Holy-Bible---Danish---Danish-1871-1907	LUK-023-034	Lukas 23:34	Men Jesus sagde: „Fader! forlad dem; thi de vide ikke, hvad de gøre.” Men de delte hans Klæder imellem sig ved Lodkastning.
 Holy-Bible---Danish---Danish-1871-1907	REV-021-002	Aabenbaringen 21:2-3	Og jeg saa den hellige Stad, det nye Jerusalem, stige ned fra Himmelen fra Gud, beredet som en Brud, der er smykket for sin Brudgom. Og jeg hørte en høj Røst fra Himmelen, som sagde: Se, Guds Telt er hos Menneskene, og han skal bo hos dem, og de skulle være hans Folk, og Gud selv skal være hos dem og være deres Gud.
 Holy-Bible---Danish---Danish-1871-1907	HEB-011-008	Hebræerne 11:8	Ved Tro adlød Abraham, da han blev kaldet, saa han gik ud til et Sted, som han skulde tage til Arv; og han gik ud, skønt han ikke vidste, hvor han kom hen.
 Holy-Bible---Danish---Danish-1871-1907	EXO-013-017	2 Mosebog 13:17	Og det skete, der Farao lod Folket fare, da førte Gud dem ikke ad Vejen til Filistrene, skønt den var nærmest; thi Gud sagde: Maaske det kunde fortryde Folket, naar de se Striden, og de kunde vende tilbage til Ægypten.
-Holy-Bible---Danish---Danish-1871-1907	MAR-010-045	Markus 10:45	thi ogsaa Menneskesønnen er ikke kommen for at lade sig tjene, men for at tjene og give sit Liv til en Genløsning for mange.‟
+Holy-Bible---Danish---Danish-1871-1907	MAR-010-045	Markus 10:45	thi ogsaa Menneskesønnen er ikke kommen for at lade sig tjene, men for at tjene og give sit Liv til en Genløsning for mange.”
 Holy-Bible---Danish---Danish-1871-1907	ROM-001-001	Romerne 1:1	Paulus, Jesu Kristi Tjener, Apostel ifølge Kald, udtagen til at forkynde Guds Evangelium,
 Holy-Bible---Danish---Danish-1871-1907	MAT-028-019	Matthæus 28:19	Gaar derfor hen og gører alle Folkeslagene til mine Disciple, idet I døbe dem til Faderens og Sønnens og den Helligaands Navn,
 Holy-Bible---Danish---Danish-1931-1907	JOH-003-016	Johannes 3:16	Thi saaledes elskede Gud Verden, at han gav sin Søn den enbaarne, for at hver den, som tror paa ham, ikke skal fortabes, men have et evigt Liv.
 Holy-Bible---Danish---Danish-1931-1907	GEN-003-024	1 Mosebog 3:24	og han drev Mennesket ud, og østen for Edens Have satte han Keruberne med det glimtende Flammesværd til at vogte Vejen til Livets Træ.
-Holy-Bible---Danish---Danish-1931-1907	LUK-023-034	Lukas 23:34	Men Jesus sagde: „Fader! forlad dem; thi de vide ikke, hvad de gøre.‟ Men de delte hans Klæder imellem sig ved Lodkastning.
+Holy-Bible---Danish---Danish-1931-1907	LUK-023-034	Lukas 23:34	Men Jesus sagde: „Fader! forlad dem; thi de vide ikke, hvad de gøre.” Men de delte hans Klæder imellem sig ved Lodkastning.
 Holy-Bible---Danish---Danish-1931-1907	REV-021-002	Aabenbaringen 21:2-3	Og jeg saa den hellige Stad, det nye Jerusalem, stige ned fra Himmelen fra Gud, beredet som en Brud, der er smykket for sin Brudgom. Og jeg hørte en høj Røst fra Himmelen, som sagde: Se, Guds Telt er hos Menneskene, og han skal bo hos dem, og de skulle være hans Folk, og Gud selv skal være hos dem og være deres Gud.
 Holy-Bible---Danish---Danish-1931-1907	HEB-011-008	Hebræerne 11:8	Ved Tro adlød Abraham, da han blev kaldet, saa han gik ud til et Sted, som han skulde tage til Arv; og han gik ud, skønt han ikke vidste, hvor han kom hen.
 Holy-Bible---Danish---Danish-1931-1907	EXO-013-017	2 Mosebog 13:17	Da Farao lod Folket drage bort, førte Gud dem ikke ad Vejen til Filisterlandet, som havde været den nærmeste, thi Gud sagde: »Folket kunde komme til at fortryde det, naar de ser, der bliver Krig, og vende tilbage til Ægypten.«
-Holy-Bible---Danish---Danish-1931-1907	MAR-010-045	Markus 10:45	thi ogsaa Menneskesønnen er ikke kommen for at lade sig tjene, men for at tjene og give sit Liv til en Genløsning for mange.‟
+Holy-Bible---Danish---Danish-1931-1907	MAR-010-045	Markus 10:45	thi ogsaa Menneskesønnen er ikke kommen for at lade sig tjene, men for at tjene og give sit Liv til en Genløsning for mange.”
 Holy-Bible---Danish---Danish-1931-1907	ROM-001-001	Romerne 1:1	Paulus, Jesu Kristi Tjener, Apostel ifølge Kald, udtagen til at forkynde Guds Evangelium,
 Holy-Bible---Danish---Danish-1931-1907	MAT-028-019	Matthæus 28:19	Gaar derfor hen og gører alle Folkeslagene til mine Disciple, idet I døbe dem til Faderens og Sønnens og den Helligaands Navn,
 Holy-Bible---Danish---Danish-Bible	JOH-003-016	Johannes 3:16	Thi således elskede Gud Verden, at han gav sin Søn den enbårne, for at hver den, som tror på ham, ikke skal fortabes, men have et evigt Liv.
@@ -902,16 +902,16 @@ Holy-Bible---English---Open-English-Bible-Commonwealth	LUK-023-034	Luke 23:34	Th
 Holy-Bible---English---Open-English-Bible-Commonwealth	REV-021-002	Revelation 21:2-3	And I saw the Holy City, Jerusalem, descending new out of heaven from God, like a bride adorned in readiness for her husband. And I heard a loud voice from the throne, which said – “See! The tent of God is set up among people. God will live among them, and they will be his Peoples, and God himself will be among them,
 Holy-Bible---English---Open-English-Bible-Commonwealth	HEB-011-008	Hebrews 11:8	It was faith that enabled Abraham to obey the call that he received, and to set out for the place which he was afterwards to obtain as his own; and he set out not knowing where he was going.
 Holy-Bible---English---Open-English-Bible-Commonwealth	EXO-013-017		
-Holy-Bible---English---Open-English-Bible-Commonwealth	MAR-010-045	Mark 10:45	for even the Son of Man came, not be served, but to serve, and to give his life as a ransom for many.’
+Holy-Bible---English---Open-English-Bible-Commonwealth	MAR-010-045	Mark 10:45	for even the Son of Man came not to be served but to serve, and to give his life as a ransom for many.’
 Holy-Bible---English---Open-English-Bible-Commonwealth	ROM-001-001	Romans 1:1	From Paul, a servant of Jesus Christ, who has been called to become an apostle, and has been set apart to tell God’s good news.
-Holy-Bible---English---Open-English-Bible-Commonwealth	MAT-028-019	Matthew 28:19	Therefore go and make disciples of all the nations, baptizing them in the name of the Father, the Son, and the Holy Spirit,
+Holy-Bible---English---Open-English-Bible-Commonwealth	MAT-028-019	Matthew 28:19	Therefore go and make disciples of all the nations, baptising them in the name of the Father, the Son, and the Holy Spirit,
 Holy-Bible---English---Open-English-Bible-US	JOH-003-016	John 3:16	For God so loved the world, that he gave his only Son, so that everyone who believes in him may not be lost, but have eternal life.
 Holy-Bible---English---Open-English-Bible-US	GEN-003-024		
 Holy-Bible---English---Open-English-Bible-US	LUK-023-034	Luke 23:34	Then Jesus said, “Father, forgive them; they do not know what they are doing.” His clothes they divided among them by casting lots.
 Holy-Bible---English---Open-English-Bible-US	REV-021-002	Revelation 21:2-3	And I saw the Holy City, Jerusalem, descending new out of heaven from God, like a bride adorned in readiness for her husband. And I heard a loud voice from the throne, which said – ‘See! The tent of God is set up among people. God will live among them, and they will be his Peoples, and God himself will be among them,
 Holy-Bible---English---Open-English-Bible-US	HEB-011-008	Hebrews 11:8	It was faith that enabled Abraham to obey the call that he received, and to set out for the place which he was afterward to obtain as his own; and he set out not knowing where he was going.
 Holy-Bible---English---Open-English-Bible-US	EXO-013-017		
-Holy-Bible---English---Open-English-Bible-US	MAR-010-045	Mark 10:45	for even the Son of Man came, not be served, but to serve, and to give his life as a ransom for many.”
+Holy-Bible---English---Open-English-Bible-US	MAR-010-045	Mark 10:45	for even the Son of Man came not to be served but to serve, and to give his life as a ransom for many.”
 Holy-Bible---English---Open-English-Bible-US	ROM-001-001	Romans 1:1	From Paul, a servant of Jesus Christ, who has been called to become an apostle, and has been set apart to tell God’s good news.
 Holy-Bible---English---Open-English-Bible-US	MAT-028-019	Matthew 28:19	Therefore go and make disciples of all the nations, baptizing them in the name of the Father, the Son, and the Holy Spirit,
 Holy-Bible---English---Revised-Version	JOH-003-016	John 3:16	For God so loved the world, that he gave his only begotten Son, that whosoever believeth on him should not perish, but have eternal life.

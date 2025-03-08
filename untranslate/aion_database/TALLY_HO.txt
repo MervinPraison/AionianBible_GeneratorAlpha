@@ -1,6 +1,6 @@
 # File Name: TALLY_HO.txt
 # File Size: 22452       
-# File Date: 02/04/2025 20:50:11
+# File Date: 03/07/2025 20:41:35
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -177,7 +177,7 @@ Holy-Bible---Gourmantche---Gourmantche-Bible	7943	7943	7945
 Holy-Bible---Greek---Greek-Antoniades	7956	7956	7956
 Holy-Bible---Greek---Greek-Byzantine	7956	7956	7959
 Holy-Bible---Greek---Greek-Byzantine-Majority	7953	7953	7953
-Holy-Bible---Greek---Greek-LXX-Septuagint	22821	22821	22964
+Holy-Bible---Greek---Greek-LXX-Septuagint	22822	22822	23899
 Holy-Bible---Greek---Greek-Majority-Text	7953	7953	7957
 Holy-Bible---Greek---Greek-Modern-Kathareuousa	31102	31102	31102
 Holy-Bible---Greek---Greek-Nestle	7942	7942	7944

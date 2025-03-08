@@ -549,6 +549,7 @@ function AION_PWA_LINKS($links) {
 	$object->X_JOH_3	= (!empty($links['JOH'][3])		? "<a title='View Reference' href='?John-3'				onclick=\"ABDO('John-3');			return false;\">John 3:16</a>"				: "John 3:16");
 	$object->X_ROM_1	= (!empty($links['ROM'][1])		? "<a title='View Reference' href='?Romans-1'			onclick=\"ABDO('Romans-1');			return false;\">Romans 1:20</a>"			: "Romans 1:20");
 	$object->X_ROM_11	= (!empty($links['ROM'][11])	? "<a title='View Reference' href='?Romans-11'			onclick=\"ABDO('Romans-11');		return false;\">Romans 11:32</a>"			: "Romans 11:32");
+	$object->X_ROM_1116	= (!empty($links['ROM'][11])	? "<a title='View Reference' href='?Romans-11'			onclick=\"ABDO('Romans-11');		return false;\">Romans 11:16</a>"			: "Romans 11:16");
 	$object->X_1CO_2	= (!empty($links['1CO'][2])		? "<a title='View Reference' href='?1-Corinthians-2'	onclick=\"ABDO('1-Corinthians-2');	return false;\">1 Corinthians 2:13-14</a>"	: "1 Corinthians 2:13-14");
 	$object->X_2TI_2	= (!empty($links['2TI'][2])		? "<a title='View Reference' href='?2-Timothy-2'		onclick=\"ABDO('2-Timothy-2');		return false;\">2 Timothy 2:15</a>"			: "2 Timothy 2:15");
 	$object->X_2PE_1	= (!empty($links['2PE'][1])		? "<a title='View Reference' href='?2-Peter-1'			onclick=\"ABDO('2-Peter-1');		return false;\">2 Peter 1:4-8</a>"			: "2 Peter 1:4-8");
@@ -1475,7 +1476,7 @@ History Future
 
 <p>Finally, we read that anyone whose name is not written in the Book of Life is thrown into the Lake of Fire, the second death, with no exit ever mentioned or promised, {$G_LINKS->X_REV_21}. So are those evacuated from Hades then, <i>“out of the frying pan, into the fire?”</i>  Certainly, the Lake of Fire is the destiny of the Goats.  But, do not be afraid. Instead, read the Bible's explicit mention of the purpose of the Lake of Fire and the identity of the Goats. <i>“Then he will say also to those on the left hand, ‘Depart from me, you cursed, into the consummate fire which is prepared for... the devil and his angels,’”</i> {$G_LINKS->X_MAT_25}. Bad news for the Devil. Good news for all mankind!</p>
 
-<p>Faith is not a pen to write your own name in the Book of Life. Instead, faith is the glasses to see that the love of Christ for all mankind has already written our names in Heaven. Jesus said, <i>“You did not choose me, but I chose you,”</i> {$G_LINKS->X_JOH_15}.  Though unbelievers will suffer regrettable punishment in Hades, redeemed mankind will never enter the Lake of Fire, prepared for the devil and his angels. And as God promised, all mankind will worship Christ together forever, {$G_LINKS->X_PHI_2}.</p>
+<p>Faith is not a pen to write your own name in the Book of Life. Instead, faith is the glasses to see that the love of Christ for all mankind has already written our names in Heaven. <i>“If the first fruit is holy, so is the lump,”</i> {$G_LINKS->X_ROM_1116}.  Though unbelievers will suffer regrettable punishment in Hades, redeemed mankind will never enter the Lake of Fire, prepared for the devil and his angels. And as God promised, all mankind will worship Christ together forever, {$G_LINKS->X_PHI_2}.</p>
 `,
 
 

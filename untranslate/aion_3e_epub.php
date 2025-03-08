@@ -534,6 +534,7 @@ if (empty($object) || $folder) {
 	$object->X_JOH_3	= ($folder && file_exists("$folder/chapters/043-JOH-003.xhtml") ? "<a href='chapters/043-JOH-003.xhtml' title='View reference'>John 3:16</a>"				: "John 3:16");
 	$object->X_ROM_1	= ($folder && file_exists("$folder/chapters/045-ROM-001.xhtml") ? "<a href='chapters/045-ROM-001.xhtml' title='View reference'>Romans 1:20</a>"				: "Romans 1:20");
 	$object->X_ROM_11	= ($folder && file_exists("$folder/chapters/045-ROM-011.xhtml") ? "<a href='chapters/045-ROM-011.xhtml' title='View reference'>Romans 11:32</a>"			: "Romans 11:32");
+	$object->X_ROM_1116	= ($folder && file_exists("$folder/chapters/045-ROM-011.xhtml") ? "<a href='chapters/045-ROM-011.xhtml' title='View reference'>Romans 11:16</a>"			: "Romans 11:16");
 	$object->X_1CO_2	= ($folder && file_exists("$folder/chapters/046-1CO-002.xhtml") ? "<a href='chapters/046-1CO-002.xhtml' title='View reference'>1 Corinthians 2:13-14</a>"	: "1 Corinthians 2:13-14");
 	$object->X_2TI_2	= ($folder && file_exists("$folder/chapters/055-2TI-002.xhtml") ? "<a href='chapters/055-2TI-002.xhtml' title='View reference'>2 Timothy 2:15</a>"			: "2 Timothy 2:15");
 	$object->X_2PE_1	= ($folder && file_exists("$folder/chapters/061-2PE-001.xhtml") ? "<a href='chapters/061-2PE-001.xhtml' title='View reference'>2 Peter 1:4-8</a>"			: "2 Peter 1:4-8");
@@ -1517,7 +1518,7 @@ $G_COMMENT
 
 <p>Finally, we read that anyone whose name is not written in the Book of Life is thrown into the Lake of Fire, the second death, with no exit ever mentioned or promised, {$links->X_REV_21}. So are those evacuated from Hades then, <i>“out of the frying pan, into the fire?”</i>  Certainly, the Lake of Fire is the destiny of the Goats.  But, do not be afraid. Instead, read the Bible's explicit mention of the purpose of the Lake of Fire and the identity of the Goats. <i>“Then he will say also to those on the left hand, ‘Depart from me, you cursed, into the consummate fire which is prepared for... the devil and his angels,’”</i> {$links->X_MAT_25}. Bad news for the Devil. Good news for all mankind!</p>
 
-<p>Faith is not a pen to write your own name in the Book of Life. Instead, faith is the glasses to see that the love of Christ for all mankind has already written our names in Heaven. Jesus said, <i>“You did not choose me, but I chose you,”</i> {$links->X_JOH_15}.  Though unbelievers will suffer regrettable punishment in Hades, redeemed mankind will never enter the Lake of Fire, prepared for the devil and his angels. And as God promised, all mankind will worship Christ together forever, {$links->X_PHI_2}.</p>
+<p>Faith is not a pen to write your own name in the Book of Life. Instead, faith is the glasses to see that the love of Christ for all mankind has already written our names in Heaven. <i>“If the first fruit is holy, so is the lump,”</i> {$links->X_ROM_1116}.  Though unbelievers will suffer regrettable punishment in Hades, redeemed mankind will never enter the Lake of Fire, prepared for the devil and his angels. And as God promised, all mankind will worship Christ together forever, {$links->X_PHI_2}.</p>
 
 <p><a href='index.xhtml' title='Table of Contents'>TOC</a></p>
 </body>

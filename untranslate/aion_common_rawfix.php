@@ -1890,7 +1890,10 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+// „orig-quotes‟  “new-quotes”
 case "Holy-Bible---Danish---Danish-1871-1907" :
+//if (!($bfile = preg_replace("/\x{201e}/us","“",$bfile,-1,$rnum)) || $rnum!=1869) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/\x{201f}/us","”",$bfile,-1,$rnum)) || $rnum!=1860) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )0/mus",'$1O',$bfile,-1,$rnum)) || $rnum!=3) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 $blockfix = <<<EOF
@@ -2082,7 +2085,11 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+// „orig-quotes‟  “new-quotes”
 case "Holy-Bible---Danish---Danish-1931-1907" :
+//if (!($bfile = preg_replace("/\x{201e}/us","“",$bfile,-1,$rnum)) || $rnum!=1722) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/\x{201f}/us","”",$bfile,-1,$rnum)) || $rnum!=1719) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
 $blockfix = <<<EOF
 Genesis 42:38 Men han sagde: »Min Søn skal ikke rejse derned med eder, thi hans Broder er død, og han alene er tilbage; tilstøder der ham en Ulykke paa den Rejse, I har for, saa bringer I mine graa Haar ned i Dødsriget med Sorg!«
 Genesis 42:39 Men Hungersnøden var haard i Landet;
@@ -8501,7 +8508,7 @@ goto RAWHIDE;
 case "Holy-Bible---Greek---Greek-LXX-Septuagint" :
 $textfix = <<<EOF
 Isaiah 63:19 ἐγενόμεθα ὡς τὸ ἀπ’ ἀρχῆς ὅτε οὐκ ἦρξας ἡμῶν οὐδὲ ἐπεκλήθη τὸ ὄνομά σου ἐφ’ ἡμᾶς
-Isaiah 63:20 ἐὰν ἀνοίξῃς τὸν οὐρανόν τρόμος λήμψεται ἀπὸ σοῦ ὄρη καὶ τακήσονται 
+Isaiah 63:20 ἐὰν ἀνοίξῃς τὸν οὐρανόν τρόμος λήμψεται ἀπὸ σοῦ ὄρη καὶ τακήσονται
 Isaiah 64:0 
 EOF;
 if (!($bfile = preg_replace("/Isaiah 63:19 (.+?)Isaiah 64:0 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
