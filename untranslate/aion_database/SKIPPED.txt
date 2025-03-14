@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1637198     
-# File Date: 03/07/2025 18:42:44
+# File Size: 1637305     
+# File Date: 03/13/2025 08:31:07
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -2861,6 +2861,8 @@ Holy-Bible---Estonian---For-All	042	LUK	023	017
 Holy-Bible---Estonian---For-All	043	JOH	005	004	
 Holy-Bible---Estonian---For-All	045	ROM	016	024	
 Holy-Bible---Ewe---Word-of-Life	064	3JO	001	014	Mele mɔ kpɔm be míado go kpuie, eye míaƒo nu ŋkume kple ŋkume.
+Holy-Bible---Finnish---Open-Living-News	064	3JO	001	014	Toivon, että tapaamme pian ja saamme puhua kaikesta.
+Holy-Bible---Finnish---Open-Living-News	066	REV	012	018	Se jäi väijymään valtameren rantaan.
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible	043	JOH	008	059	
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible	064	3JO	001	014	doch ik hoop u spoedig te zien, en dan zullen wij van mond tot mond spreken.
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible	066	REV	012	018	En hij ging staan bij den oever der zee,
@@ -2868,18 +2870,18 @@ Holy-Bible---French---Free-for-the-World	042	LUK	017	036
 Holy-Bible---French---Free-for-the-World	044	ACT	008	037	
 Holy-Bible---French---Free-for-the-World	044	ACT	015	034	
 Holy-Bible---French---Free-for-the-World	044	ACT	024	007	
-Holy-Bible---French---French-Crampon-Bible	007	JDG	005	031	Qu’ainsi périssent tous tes ennemis, ô Yahweh  !   Et que ceux qui l’aiment soient comme le soleil,   quand il se lève dans sa force  !
-Holy-Bible---French---French-Crampon-Bible	009	1SA	002	001	Anne pria et dit   :
-Holy-Bible---French---French-Crampon-Bible	009	1SA	020	042	Et Jonathas dit à David  : « Va en paix, après que nous avons juré l’un et l’autre, au nom de Yahweh, en disant  : Que Yahweh soit entre moi et toi, entre ma postérité et ta postérité à jamais  ! »
+Holy-Bible---French---French-Crampon-Bible	007	JDG	005	031	Qu’ainsi périssent tous tes ennemis, ô Yahweh !   Et que ceux qui l’aiment soient comme le soleil,   quand il se lève dans sa force !
+Holy-Bible---French---French-Crampon-Bible	009	1SA	002	001	Anne pria et dit :
+Holy-Bible---French---French-Crampon-Bible	009	1SA	020	042	Et Jonathas dit à David : « Va en paix, après que nous avons juré l’un et l’autre, au nom de Yahweh, en disant : Que Yahweh soit entre moi et toi, entre ma postérité et ta postérité à jamais ! »
 Holy-Bible---French---French-Crampon-Bible	011	1KI	022	043	Il marcha dans toute la voie d’Asa, son père, et ne s’en détourna point, faisant ce qui est droit aux yeux de Yahweh.
-Holy-Bible---French---French-Crampon-Bible	013	1CH	012	004	Samaïas, de Gabaon, vaillant parmi les Trente et chef des Trente  ;
-Holy-Bible---French---French-Crampon-Bible	017	EST	010	004	Alors Mardochée dit  : « C’est Dieu qui a fait toutes ces choses  !
-Holy-Bible---French---French-Crampon-Bible	017	EST	010	005	Je me souviens en effet du songe que j’ai eu à ce sujet  ; aucun trait  de la vision  n’est resté sans accomplissement  :
+Holy-Bible---French---French-Crampon-Bible	013	1CH	012	004	Samaïas, de Gabaon, vaillant parmi les Trente et chef des Trente ;
+Holy-Bible---French---French-Crampon-Bible	017	EST	010	004	Alors Mardochée dit : « C’est Dieu qui a fait toutes ces choses !
+Holy-Bible---French---French-Crampon-Bible	017	EST	010	005	Je me souviens en effet du songe que j’ai eu à ce sujet ; aucun trait  de la vision  n’est resté sans accomplissement :
 Holy-Bible---French---French-Crampon-Bible	017	EST	010	006	la petite source qui devint un fleuve, et la lumière qui se fit, et le soleil et la masse d’eau. Le fleuve, c’est Esther, que le roi a prise pour femme et qu’il a faite reine.
 Holy-Bible---French---French-Crampon-Bible	017	EST	010	007	Les deux dragons, c’est moi et Aman.
-Holy-Bible---French---French-Crampon-Bible	017	EST	010	008	Les nations sont ceux qui s’étaient réunis pour détruire le nom des Juifs  ;
-Holy-Bible---French---French-Crampon-Bible	017	EST	010	009	et mon peuple, c’est Israël qui a crié vers Dieu et qui a été sauvé. Ainsi le Seigneur a sauvé son peuple, et il nous a délivrés de tous ces maux  ; Dieu a fait des miracles et de grands prodiges, comme il n’est est point arrivé parmi les nations.
-Holy-Bible---French---French-Crampon-Bible	017	EST	010	010	À cet effet, il a préparé deux sorts  : un pour le peuple de Dieu et un pour toutes les nations.
+Holy-Bible---French---French-Crampon-Bible	017	EST	010	008	Les nations sont ceux qui s’étaient réunis pour détruire le nom des Juifs ;
+Holy-Bible---French---French-Crampon-Bible	017	EST	010	009	et mon peuple, c’est Israël qui a crié vers Dieu et qui a été sauvé. Ainsi le Seigneur a sauvé son peuple, et il nous a délivrés de tous ces maux ; Dieu a fait des miracles et de grands prodiges, comme il n’est est point arrivé parmi les nations.
+Holy-Bible---French---French-Crampon-Bible	017	EST	010	010	À cet effet, il a préparé deux sorts : un pour le peuple de Dieu et un pour toutes les nations.
 Holy-Bible---French---French-Crampon-Bible	017	EST	010	011	Et ces deux sorts sont venus à l’heure, au temps et au jour du jugement,  marqués  devant Dieu pour toutes les nations.
 Holy-Bible---French---French-Crampon-Bible	017	EST	010	012	Et Dieu s’est souvenu de son peuple, et il a rendu justice à son héritage.
 Holy-Bible---French---French-Crampon-Bible	017	EST	010	013	Et ces jours du mois d’Adar, le quatorzième et le quinzième de ce mois, seront  célébrés  par eux en assemblée, avec joie et allégresse devant Dieu, durant les générations, à perpétuité, dans Israël, son peuple. »
@@ -2887,13 +2889,13 @@ Holy-Bible---French---French-Crampon-Bible	017	EST	011	001	La quatrième année 
 Holy-Bible---French---French-Crampon-Bible	017	EST	011	002	La seconde année du règne d’Assuérus, le grand roi, le premier jour du mois de Nisan, Mardochée, fils de Jaïr, fils de Séméi, fils de Cis, de la tribu de Benjamin, eut un songe.
 Holy-Bible---French---French-Crampon-Bible	017	EST	011	003	C’était un Juif qui demeurait dans la ville de Suse, homme illustre et attaché à la cour du roi.
 Holy-Bible---French---French-Crampon-Bible	017	EST	011	004	Il était du nombre des captifs que Nabuchodonosor, roi de Babylone, avait transporté de Jérusalem avec Jéchonias, roi de Juda.
-Holy-Bible---French---French-Crampon-Bible	017	EST	011	005	Voici quel fut son songe  : Soudain  on entendit  des voix, un grand bruit et des tonnerres  ; la terre trembla et fut bouleversée.
+Holy-Bible---French---French-Crampon-Bible	017	EST	011	005	Voici quel fut son songe : Soudain  on entendit  des voix, un grand bruit et des tonnerres ; la terre trembla et fut bouleversée.
 Holy-Bible---French---French-Crampon-Bible	017	EST	011	006	Puis soudain deux grands dragons s’avancèrent, tous deux prêts à combattre.
 Holy-Bible---French---French-Crampon-Bible	017	EST	011	007	Ils firent entendre un grand cri et, à leur voix, toutes les nations se préparèrent à la lutte, pour combattre le peuple des justes.
-Holy-Bible---French---French-Crampon-Bible	017	EST	011	008	Puis soudain, ce fut un jour de ténèbres et d’obscurité  ; il y eut angoisse, détresse, tribulation et grande épouvante sur la terre.
+Holy-Bible---French---French-Crampon-Bible	017	EST	011	008	Puis soudain, ce fut un jour de ténèbres et d’obscurité ; il y eut angoisse, détresse, tribulation et grande épouvante sur la terre.
 Holy-Bible---French---French-Crampon-Bible	017	EST	011	009	Le peuple entier des justes, craignant pour lui  tous  les maux, était dans le trouble et se préparait à périr.
 Holy-Bible---French---French-Crampon-Bible	017	EST	011	010	Ils crièrent vers Dieu et, à leurs cris, il y eut comme une petite source d’où sortit un grand fleuve, une masse d’eau.
-Holy-Bible---French---French-Crampon-Bible	017	EST	011	011	La lumière et le soleil brillèrent  ; ceux qui étaient dans l’humiliation furent élevés, et ils dévorèrent ceux qui étaient dans les honneurs.
+Holy-Bible---French---French-Crampon-Bible	017	EST	011	011	La lumière et le soleil brillèrent ; ceux qui étaient dans l’humiliation furent élevés, et ils dévorèrent ceux qui étaient dans les honneurs.
 Holy-Bible---French---French-Crampon-Bible	017	EST	011	012	S’étant réveillé après avoir vu ce songe et ce que Dieu avait résolu de faire, Mardochée le retint  gravé  dans son esprit et, jusqu’à la nuit, il fit tous ses efforts pour le comprendre.
 Holy-Bible---French---French-Crampon-Bible	017	EST	012	001	Puis Mardochée demeura à la cour avec Bagathan et Tharès, les deux eunuques du roi, gardiens de la porte du palais.
 Holy-Bible---French---French-Crampon-Bible	017	EST	012	002	Ayant connu leurs pensées et pénétré leurs desseins, il découvrit qu’ils s’étaient proposés de porter la main sur le roi Assuérus, et il en donna avis au roi.
@@ -2901,72 +2903,72 @@ Holy-Bible---French---French-Crampon-Bible	017	EST	012	003	Celui-ci fit mettre �
 Holy-Bible---French---French-Crampon-Bible	017	EST	012	004	Le roi fit écrire dans les Chroniques ce qui s’était passé, et Mardochée en consigna aussi par écrit le souvenir.
 Holy-Bible---French---French-Crampon-Bible	017	EST	012	005	Et le roi ordonna qu’il exercerait un office dans le palais, et il lui donna des présents pour sa  dénonciation .
 Holy-Bible---French---French-Crampon-Bible	017	EST	012	006	Mais Aman, fils d’Amadatha, l’Agagite, était en grand honneur auprès du roi, et il chercha à perdre Mardochée et son peuple à cause des deux eunuques du roi.
-Holy-Bible---French---French-Crampon-Bible	017	EST	013	001	Voici la copie de cette lettre  :   « Assuérus, le grand roi, aux satrapes et aux gouverneurs des cent vingt-sept provinces, de l’Inde à l’Ethiopie, lesquels sont soumis à ses ordres, mande ce qui suit  :
-Holy-Bible---French---French-Crampon-Bible	017	EST	013	002	« Quoique je commande à un très grand nombre de nations et que j’aie soumis tout l’univers, je veux, non pas abuser de ma puissance pour m’enorgueillir, mais, par un gouvernement toujours clément et doux, assurer continuellement à mes sujets une vie sans trouble  ; et, procurant à mon royaume le calme et la sécurité jusqu’à ses extrêmes frontières, faire refleurir la paix chère à tous les mortels.
+Holy-Bible---French---French-Crampon-Bible	017	EST	013	001	Voici la copie de cette lettre :   « Assuérus, le grand roi, aux satrapes et aux gouverneurs des cent vingt-sept provinces, de l’Inde à l’Ethiopie, lesquels sont soumis à ses ordres, mande ce qui suit :
+Holy-Bible---French---French-Crampon-Bible	017	EST	013	002	« Quoique je commande à un très grand nombre de nations et que j’aie soumis tout l’univers, je veux, non pas abuser de ma puissance pour m’enorgueillir, mais, par un gouvernement toujours clément et doux, assurer continuellement à mes sujets une vie sans trouble ; et, procurant à mon royaume le calme et la sécurité jusqu’à ses extrêmes frontières, faire refleurir la paix chère à tous les mortels.
 Holy-Bible---French---French-Crampon-Bible	017	EST	013	003	Ayant donc demandé à mes conseillers de quelle manière mes intentions pouvaient être réalisées, l’un d’eux, nommé Aman, qui excelle parmi nous en sagesse, qui est connu pour son dévouement inaltérable et sa fidélité constante, et qui occupe la seconde place dans le royaume,
 Holy-Bible---French---French-Crampon-Bible	017	EST	013	004	m’a fait connaître qu’il y a un peuple mal intentionné, mêlé à toutes les tribus qui sont sur la terre, en opposition avec tous les peuples au nom de ses lois, méprisant continuellement les commandements des rois, de façon à empêcher la parfaite harmonie de l’empire que nous dirigeons.
 Holy-Bible---French---French-Crampon-Bible	017	EST	013	005	Ayant donc appris que ce seul peuple, en contradiction perpétuelle avec tout le genre humain, s’en séparant par le caractère étrange de ses lois, et mal affectionné à nos intérêts, commet les derniers excès et empêche ainsi la prospérité du royaume,
-Holy-Bible---French---French-Crampon-Bible	017	EST	013	006	nous avons ordonné que ceux qui vous sont désignés dans les lettres d’Aman, lequel est à la tête des affaires et  honoré  comme notre second père, soient tous, avec femmes et enfants, radicalement exterminés par le glaive de leurs ennemis, sans aucune miséricorde ni clémence, le quatorzième jour du douzième mois,  le mois  d’Adar, de la présente année  ;
+Holy-Bible---French---French-Crampon-Bible	017	EST	013	006	nous avons ordonné que ceux qui vous sont désignés dans les lettres d’Aman, lequel est à la tête des affaires et  honoré  comme notre second père, soient tous, avec femmes et enfants, radicalement exterminés par le glaive de leurs ennemis, sans aucune miséricorde ni clémence, le quatorzième jour du douzième mois,  le mois  d’Adar, de la présente année ;
 Holy-Bible---French---French-Crampon-Bible	017	EST	013	007	afin que ces hommes, autrefois et maintenant encore hostiles, descendant le même jour, par mort violente, aux enfers, rendent pour les temps à venir à nos affaires une prospérité et une paix parfaites ».
 Holy-Bible---French---French-Crampon-Bible	017	EST	013	008	Et Mardochée pria le Seigneur, se souvenant de toutes ses œuvres.
-Holy-Bible---French---French-Crampon-Bible	017	EST	013	009	Il dit  :   « Seigneur, Seigneur, Roi tout-puissant, toutes choses sont soumises à votre pouvoir, et il n’est personne qui puisse Vous faire obstacle, si Vous avez résolu de sauver Israël.
+Holy-Bible---French---French-Crampon-Bible	017	EST	013	009	Il dit :   « Seigneur, Seigneur, Roi tout-puissant, toutes choses sont soumises à votre pouvoir, et il n’est personne qui puisse Vous faire obstacle, si Vous avez résolu de sauver Israël.
 Holy-Bible---French---French-Crampon-Bible	017	EST	013	010	C’est Vous qui avez fait le ciel et la terre, et toutes les merveilles qui sont sous le ciel.
-Holy-Bible---French---French-Crampon-Bible	017	EST	013	011	Vous êtes le Seigneur de toutes choses et nul ne peut Vous résister, à Vous le Seigneur  !
+Holy-Bible---French---French-Crampon-Bible	017	EST	013	011	Vous êtes le Seigneur de toutes choses et nul ne peut Vous résister, à Vous le Seigneur !
 Holy-Bible---French---French-Crampon-Bible	017	EST	013	012	Vous connaissez toutes choses et Vous savez que ce n’est ni par insolence, ni par orgueil, ni par quelque désir de gloire que j’ai agi en ne me prosternant pas devant le superbe Aman,
 Holy-Bible---French---French-Crampon-Bible	017	EST	013	013	car volontiers, pour le salut d’Israël, je serais prêt à baiser les traces  mêmes  de ses pas.
-Holy-Bible---French---French-Crampon-Bible	017	EST	013	014	Mais je l’ai fait pour ne pas mettre l’honneur d’un homme au-dessus de l’honneur dû à mon Dieu  ; et  jamais  je ne me prosternerai devant un autre que Vous, mon Seigneur, et ce n’est pas par orgueil que j’agirai de la sorte.
+Holy-Bible---French---French-Crampon-Bible	017	EST	013	014	Mais je l’ai fait pour ne pas mettre l’honneur d’un homme au-dessus de l’honneur dû à mon Dieu ; et  jamais  je ne me prosternerai devant un autre que Vous, mon Seigneur, et ce n’est pas par orgueil que j’agirai de la sorte.
 Holy-Bible---French---French-Crampon-Bible	017	EST	013	015	Maintenant donc, Seigneur  mon  Dieu et  mon  Roi, Dieu d’Abraham, ayez pitié de votre peuple, parce que  nos ennemis  jettent les yeux sur nous pour nous perdre et veulent détruire votre antique héritage.
-Holy-Bible---French---French-Crampon-Bible	017	EST	013	016	Ne méprisez pas votre lot, que Vous avez racheté pour Vous de la terre d’Égypte. Exaucez ma prière  !
+Holy-Bible---French---French-Crampon-Bible	017	EST	013	016	Ne méprisez pas votre lot, que Vous avez racheté pour Vous de la terre d’Égypte. Exaucez ma prière !
 Holy-Bible---French---French-Crampon-Bible	017	EST	013	017	Soyez favorable à votre part d’héritage et changez notre deuil en joie, afin que, conservant la vie, nous célébrions votre nom, Seigneur, et ne fermez pas la bouche de ceux qui vous louent. »
-Holy-Bible---French---French-Crampon-Bible	017	EST	013	018	Tout Israël cria aussi  vers le Seigneur  de  toutes  ses forces  ; car ils avaient la mort devant les yeux.
+Holy-Bible---French---French-Crampon-Bible	017	EST	013	018	Tout Israël cria aussi  vers le Seigneur  de  toutes  ses forces ; car ils avaient la mort devant les yeux.
 Holy-Bible---French---French-Crampon-Bible	017	EST	014	001	La reine Esther aussi,  se sentant  placée en un extrême péril de mort, eut recours au Seigneur.
-Holy-Bible---French---French-Crampon-Bible	017	EST	014	002	Quittant ses vêtements splendides, elle prit des habits d’angoisse et de deuil  ; à la place de ses parfums précieux, elle se couvrit la tête de cendre et de poussière, affligea durement son corps et, s’arrachant les cheveux, elle en remplissait tous les lieux où elle avait coutume de se livrer à la joie.
-Holy-Bible---French---French-Crampon-Bible	017	EST	014	003	Et elle adressa cette prière au Seigneur, Dieu d’Israël  :   « Mon Seigneur, qui êtes seul notre Roi, assistez-moi dans mon délaissement, moi qui n’ai, pas d’autre secours que Vous  ;
+Holy-Bible---French---French-Crampon-Bible	017	EST	014	002	Quittant ses vêtements splendides, elle prit des habits d’angoisse et de deuil ; à la place de ses parfums précieux, elle se couvrit la tête de cendre et de poussière, affligea durement son corps et, s’arrachant les cheveux, elle en remplissait tous les lieux où elle avait coutume de se livrer à la joie.
+Holy-Bible---French---French-Crampon-Bible	017	EST	014	003	Et elle adressa cette prière au Seigneur, Dieu d’Israël :   « Mon Seigneur, qui êtes seul notre Roi, assistez-moi dans mon délaissement, moi qui n’ai, pas d’autre secours que Vous ;
 Holy-Bible---French---French-Crampon-Bible	017	EST	014	004	car le danger qui me menace, je le touche  déjà  de mes mains.
 Holy-Bible---French---French-Crampon-Bible	017	EST	014	005	J’ai appris dès mon bas âge, au sein de ma tribu paternelle, que Vous, Seigneur, avez pris Israël de préférence à toutes les nations, et nos pères de préférence à tous leurs ancêtres, pour  votre  héritage éternel, et que Vous avez accompli en leur faveur toutes vos promesses.
 Holy-Bible---French---French-Crampon-Bible	017	EST	014	006	Et maintenant, nous avons péché en votre présence, et Vous nous avez livrés aux mains de nos ennemis,
-Holy-Bible---French---French-Crampon-Bible	017	EST	014	007	parce que nous avons rendu hommage à leurs dieux. Vous êtes juste, Seigneur  !
+Holy-Bible---French---French-Crampon-Bible	017	EST	014	007	parce que nous avons rendu hommage à leurs dieux. Vous êtes juste, Seigneur !
 Holy-Bible---French---French-Crampon-Bible	017	EST	014	008	Et maintenant, il ne leur suffit plus de  faire peser  sur nous une amère servitude, mais ils ont mis leurs mains  dans les mains de leurs idoles ,
 Holy-Bible---French---French-Crampon-Bible	017	EST	014	009	pour  faire serment d’ abolir les décrets de votre bouche, d’anéantir votre héritage, de fermer la bouche de ceux qui Vous louent, et d’éteindre la gloire de votre temple et de votre autel,
 Holy-Bible---French---French-Crampon-Bible	017	EST	014	010	afin que s’ouvre la bouche des nations, pour  louer  la puissance des idoles et célébrer à jamais un roi de chair.
-Holy-Bible---French---French-Crampon-Bible	017	EST	014	011	Ne livrez pas, Seigneur, votre sceptre à ceux qui ne sont rien, afin qu’ils ne se rient pas de notre ruine  ; mais faites retomber sur eux leur dessein et faites un exemple de celui qui le premier s’est déchaîné contre nous.
-Holy-Bible---French---French-Crampon-Bible	017	EST	014	012	Souvenez-Vous  de nous , Seigneur  ; faites-Vous connaître dans  ce  temps de notre affliction et donnez-moi du courage, Roi des Dieux et Dominateur de toute puissance  !
+Holy-Bible---French---French-Crampon-Bible	017	EST	014	011	Ne livrez pas, Seigneur, votre sceptre à ceux qui ne sont rien, afin qu’ils ne se rient pas de notre ruine ; mais faites retomber sur eux leur dessein et faites un exemple de celui qui le premier s’est déchaîné contre nous.
+Holy-Bible---French---French-Crampon-Bible	017	EST	014	012	Souvenez-Vous  de nous , Seigneur ; faites-Vous connaître dans  ce  temps de notre affliction et donnez-moi du courage, Roi des Dieux et Dominateur de toute puissance !
 Holy-Bible---French---French-Crampon-Bible	017	EST	014	013	Mettez de sages paroles sur mes lèvres en présence du lion, et faites passer son cœur à la haine de notre ennemi, afin qu’il périsse, lui et tous ceux qui ont les mêmes sentiments.
-Holy-Bible---French---French-Crampon-Bible	017	EST	014	014	Mais nous, délivrez-nous par votre main, et assistez-moi, moi qui suis seule et n’ai que Vous, Seigneur  ! Vous connaissez toutes choses,
+Holy-Bible---French---French-Crampon-Bible	017	EST	014	014	Mais nous, délivrez-nous par votre main, et assistez-moi, moi qui suis seule et n’ai que Vous, Seigneur ! Vous connaissez toutes choses,
 Holy-Bible---French---French-Crampon-Bible	017	EST	014	015	et Vous savez que je hais la splendeur des méchants, que j’ai horreur de la couche des incirconcis et de tout étranger.
-Holy-Bible---French---French-Crampon-Bible	017	EST	014	016	Vous savez la contrainte que je subis,  vous savez  que j’ai en horreur l’insigne de mon élévation, qui est  posé  sur ma tête aux jours où je dois me laisser voir  ; je l’ai en horreur comme un linge souillé, et je ne le porte point aux jours que je puis passer dans la retraite.
+Holy-Bible---French---French-Crampon-Bible	017	EST	014	016	Vous savez la contrainte que je subis,  vous savez  que j’ai en horreur l’insigne de mon élévation, qui est  posé  sur ma tête aux jours où je dois me laisser voir ; je l’ai en horreur comme un linge souillé, et je ne le porte point aux jours que je puis passer dans la retraite.
 Holy-Bible---French---French-Crampon-Bible	017	EST	014	017	Votre servante n’a jamais mangé à la table d’Aman, ni fait grand cas des festins du roi, ni bu le vin des libations.
 Holy-Bible---French---French-Crampon-Bible	017	EST	014	018	Jamais, depuis le jour où j’ai été amenée ici jusqu’à maintenant, votre servante n’a goûté la joie, si ce n’est en Vous, Seigneur Dieu, Dieu d’Abraham.
-Holy-Bible---French---French-Crampon-Bible	017	EST	014	019	Ô Dieu, qui l’emportez sur tous en puissance, exaucez la prière de ceux qui n’ont aucun  autre  espoir  ; délivrez-nous des mains des méchants et tirez-moi de mon angoisse  ! »
+Holy-Bible---French---French-Crampon-Bible	017	EST	014	019	Ô Dieu, qui l’emportez sur tous en puissance, exaucez la prière de ceux qui n’ont aucun  autre  espoir ; délivrez-nous des mains des méchants et tirez-moi de mon angoisse ! »
 Holy-Bible---French---French-Crampon-Bible	017	EST	015	001	Il fit mander à  Esther  d’entrer chez le roi, afin de lui adresser une supplication pour son peuple et sa patrie.
-Holy-Bible---French---French-Crampon-Bible	017	EST	015	002	« Rappelle-toi,  lui  dit-il, les jours de ton abaissement,  et  comment tu as été nourrie de ma main  ; car Aman, le premier après le roi, a parlé contre nous pour notre perte.
-Holy-Bible---French---French-Crampon-Bible	017	EST	015	003	Mais toi, invoque le Seigneur et parle pour nous au roi  ; sauve-nous de la mort  ! »
+Holy-Bible---French---French-Crampon-Bible	017	EST	015	002	« Rappelle-toi,  lui  dit-il, les jours de ton abaissement,  et  comment tu as été nourrie de ma main ; car Aman, le premier après le roi, a parlé contre nous pour notre perte.
+Holy-Bible---French---French-Crampon-Bible	017	EST	015	003	Mais toi, invoque le Seigneur et parle pour nous au roi ; sauve-nous de la mort ! »
 Holy-Bible---French---French-Crampon-Bible	017	EST	015	004	Le troisième jour, ayant fini sa prière,  Esther  quitta ses habits de pénitence, et revêtit  les ornements de  sa dignité.
 Holy-Bible---French---French-Crampon-Bible	017	EST	015	005	Dans tout l’éclat de sa parure, après avoir invoqué Dieu, l’arbitre et le sauveur de tous, elle prit avec elle les deux suivantes  d’usage .
-Holy-Bible---French---French-Crampon-Bible	017	EST	015	006	Elle s’appuyait sur l’une comme pouvant à peine soutenir son corps délicat  ;
+Holy-Bible---French---French-Crampon-Bible	017	EST	015	006	Elle s’appuyait sur l’une comme pouvant à peine soutenir son corps délicat ;
 Holy-Bible---French---French-Crampon-Bible	017	EST	015	007	l’autre suivait, relevant la longue robe de  sa maîtresse .
-Holy-Bible---French---French-Crampon-Bible	017	EST	015	008	Celle-ci, tout empourprée du puissant éclat de sa beauté, avait le visage joyeux et l’air aimable  ; mais la crainte lui serrait le cœur.
-Holy-Bible---French---French-Crampon-Bible	017	EST	015	009	Ayant donc franchi toutes les portes, elle se présenta devant le roi.  Assuérus  était assis sur son trône royal, revêtu de tous les insignes de sa majesté, tout brillant d’or et de pierres précieuses  ; son  aspect  était terrible.
+Holy-Bible---French---French-Crampon-Bible	017	EST	015	008	Celle-ci, tout empourprée du puissant éclat de sa beauté, avait le visage joyeux et l’air aimable ; mais la crainte lui serrait le cœur.
+Holy-Bible---French---French-Crampon-Bible	017	EST	015	009	Ayant donc franchi toutes les portes, elle se présenta devant le roi.  Assuérus  était assis sur son trône royal, revêtu de tous les insignes de sa majesté, tout brillant d’or et de pierres précieuses ; son  aspect  était terrible.
 Holy-Bible---French---French-Crampon-Bible	017	EST	015	010	Lorsqu’il eut relevé sa tête rayonnante de gloire et lancé un regard étincelant de colère, la reine tomba en défaillance, changeant de couleur et s’inclinant sur l’épaule de la servante qui marchait devant  elle .
-Holy-Bible---French---French-Crampon-Bible	017	EST	015	011	Alors Dieu changea la colère du roi en douceur  ; inquiet, il s’élança de son trône et soutint  Esther  dans ses bras, jusqu’à ce qu’elle eût repris ses sens, calmant sa frayeur par des paroles amicales  :
-Holy-Bible---French---French-Crampon-Bible	017	EST	015	012	« Qu’as-tu donc, Esther  ? lui disait-il, je suis ton frère, aie confiance  ;
+Holy-Bible---French---French-Crampon-Bible	017	EST	015	011	Alors Dieu changea la colère du roi en douceur ; inquiet, il s’élança de son trône et soutint  Esther  dans ses bras, jusqu’à ce qu’elle eût repris ses sens, calmant sa frayeur par des paroles amicales :
+Holy-Bible---French---French-Crampon-Bible	017	EST	015	012	« Qu’as-tu donc, Esther ? lui disait-il, je suis ton frère, aie confiance ;
 Holy-Bible---French---French-Crampon-Bible	017	EST	015	013	tu ne mourras point, car notre ordonnance est pour le commun  de nos sujets .
-Holy-Bible---French---French-Crampon-Bible	017	EST	015	014	Approche  ! »
-Holy-Bible---French---French-Crampon-Bible	017	EST	015	015	Et levant le sceptre d’or, il  le  lui posa sur le cou et lui donna un baiser, en disant  : « Parle-moi. »
-Holy-Bible---French---French-Crampon-Bible	017	EST	015	016	Elle répondit  : « Je vous ai vu, seigneur, comme un ange de Dieu, et mon cœur a été troublé par la crainte de votre majesté  ;
+Holy-Bible---French---French-Crampon-Bible	017	EST	015	014	Approche ! »
+Holy-Bible---French---French-Crampon-Bible	017	EST	015	015	Et levant le sceptre d’or, il  le  lui posa sur le cou et lui donna un baiser, en disant : « Parle-moi. »
+Holy-Bible---French---French-Crampon-Bible	017	EST	015	016	Elle répondit : « Je vous ai vu, seigneur, comme un ange de Dieu, et mon cœur a été troublé par la crainte de votre majesté ;
 Holy-Bible---French---French-Crampon-Bible	017	EST	015	017	car vous êtes digne d’admiration, seigneur, et votre visage est plein d’amabilité. »
 Holy-Bible---French---French-Crampon-Bible	017	EST	015	018	Comme elle parlait, elle s’affaissa  de nouveau , prête à s’évanouir.
 Holy-Bible---French---French-Crampon-Bible	017	EST	015	019	Le roi était consterné, et tous ses serviteurs cherchaient à ranimer la reine.
-Holy-Bible---French---French-Crampon-Bible	017	EST	016	001	Ce qui suit est la copie de cette lettre  :   « Assuérus, le grand roi, aux satrapes  et  aux chefs des cent vingt-sept provinces, de l’Inde à l’Éthiopie, et à ceux qui ont à cœur nos  intérêts , salut  !
+Holy-Bible---French---French-Crampon-Bible	017	EST	016	001	Ce qui suit est la copie de cette lettre :   « Assuérus, le grand roi, aux satrapes  et  aux chefs des cent vingt-sept provinces, de l’Inde à l’Éthiopie, et à ceux qui ont à cœur nos  intérêts , salut !
 Holy-Bible---French---French-Crampon-Bible	017	EST	016	002	« Plusieurs, après avoir été comblés de distinctions par la grande bonté des  princes leurs  bienfaiteurs, deviennent arrogants.
 Holy-Bible---French---French-Crampon-Bible	017	EST	016	003	Non seulement ils prennent à tâche d’opprimer nos sujets, mais, incapables de porter le poids des honneurs, ils ourdissent des trames contre leurs bienfaiteurs.
-Holy-Bible---French---French-Crampon-Bible	017	EST	016	004	Ce n’est pas assez pour eux de bannir la reconnaissance du milieu des hommes  ; enflés par le fastueux éclat d’une fortune inaccoutumée, ils vont jusqu’à se persuader qu’ils pourront échapper à la justice vengeresse de Dieu, qui toujours voit toutes choses.
-Holy-Bible---French---French-Crampon-Bible	017	EST	016	005	Maintes et maintes fois, le langage artificieux des hommes que l’amitié  des princes  avait chargés d’administrer les affaires, a engagé dans d’irrémédiables maux ceux qui étaient à la tête des empires, en les rendant complices  de l’effusion  du sang innocent  ;
+Holy-Bible---French---French-Crampon-Bible	017	EST	016	004	Ce n’est pas assez pour eux de bannir la reconnaissance du milieu des hommes ; enflés par le fastueux éclat d’une fortune inaccoutumée, ils vont jusqu’à se persuader qu’ils pourront échapper à la justice vengeresse de Dieu, qui toujours voit toutes choses.
+Holy-Bible---French---French-Crampon-Bible	017	EST	016	005	Maintes et maintes fois, le langage artificieux des hommes que l’amitié  des princes  avait chargés d’administrer les affaires, a engagé dans d’irrémédiables maux ceux qui étaient à la tête des empires, en les rendant complices  de l’effusion  du sang innocent ;
 Holy-Bible---French---French-Crampon-Bible	017	EST	016	006	les fallacieux mensonges de la malice trompant ainsi la bienveillante simplicité des gouvernants.
-Holy-Bible---French---French-Crampon-Bible	017	EST	016	007	Et ce n’est pas seulement dans les anciennes histoires — comme nous venons de le rappeler, — que vous pourrez voir des actes impies dus à l’influence pestilentielle de ceux qui exercent indignement le pouvoir  ;  vous le pourrez  mieux encore en examinant ce qui se passe auprès de vous.
+Holy-Bible---French---French-Crampon-Bible	017	EST	016	007	Et ce n’est pas seulement dans les anciennes histoires — comme nous venons de le rappeler, — que vous pourrez voir des actes impies dus à l’influence pestilentielle de ceux qui exercent indignement le pouvoir ;  vous le pourrez  mieux encore en examinant ce qui se passe auprès de vous.
 Holy-Bible---French---French-Crampon-Bible	017	EST	016	008	Il nous faut donc pourvoir à l’avenir, afin d’assurer, en faveur de tous les hommes, la tranquillité et la paix du royaume,
 Holy-Bible---French---French-Crampon-Bible	017	EST	016	009	opérant les changements  nécessaires  et jugeant avec prudence les choses qui se présentent à nous,  afin d’y faire face  avec une constante équité.
-Holy-Bible---French---French-Crampon-Bible	017	EST	016	010	«   Vous savez,  en effet, comment Aman, fils d’Amadatha, un Macédonien, vraiment étranger à la race des Perses et fort éloigné de notre mansuétude, ayant été recueilli par notre hospitalité,
+Holy-Bible---French---French-Crampon-Bible	017	EST	016	010	«  Vous savez,  en effet, comment Aman, fils d’Amadatha, un Macédonien, vraiment étranger à la race des Perses et fort éloigné de notre mansuétude, ayant été recueilli par notre hospitalité,
 Holy-Bible---French---French-Crampon-Bible	017	EST	016	011	éprouva les effets de la bienveillance que nous portons à tous les peuples, jusqu’à être appelé notre père et à voir tout le monde se prosterner devant lui, comme possédant la dignité la plus proche du trône royal.
 Holy-Bible---French---French-Crampon-Bible	017	EST	016	012	Mais incapable de porter  dignement  une si haute fortune, il s’étudia à nous priver de la royauté et de la vie.
 Holy-Bible---French---French-Crampon-Bible	017	EST	016	013	Par toutes sortes d’artifices et de mensonges, il s’efforça de perdre et Mardochée, qui nous a sauvé et toujours utilement servi, et Esther, la compagne irréprochable de notre royauté, avec leur peuple tout entier.
@@ -2974,9 +2976,9 @@ Holy-Bible---French---French-Crampon-Bible	017	EST	016	014	De cette manière il 
 Holy-Bible---French---French-Crampon-Bible	017	EST	016	015	Mais ces Juifs, voués à la mort par le plus scélérat  des hommes , nous avons reconnu qu’ils n’étaient coupables d’aucune faute, mais qu’ils obéissent à des lois très justes,
 Holy-Bible---French---French-Crampon-Bible	017	EST	016	016	et qu’ils sont les enfants du Dieu très haut, très grand et  éternellement  vivant, lequel, pour nous comme pour nos ancêtres, conserve ce royaume dans l’état le plus florissant.
 Holy-Bible---French---French-Crampon-Bible	017	EST	016	017	« C’est pourquoi, vous ferez bien de ne pas tenir compte des lettres envoyées par Aman, fils d’Amadatha,
-Holy-Bible---French---French-Crampon-Bible	017	EST	016	018	attendu que l’auteur de ces crimes a été pendu au bois, avec toute sa maison, devant les portes de Suse  ; Dieu, Maître souverain de toutes choses, lui ayant infligé sans retard le châtiment mérité.
+Holy-Bible---French---French-Crampon-Bible	017	EST	016	018	attendu que l’auteur de ces crimes a été pendu au bois, avec toute sa maison, devant les portes de Suse ; Dieu, Maître souverain de toutes choses, lui ayant infligé sans retard le châtiment mérité.
 Holy-Bible---French---French-Crampon-Bible	017	EST	016	019	Affichant la copie de la présente lettre publiquement en tout lieu, permettez aux Juifs de suivre leurs lois en toute liberté,
-Holy-Bible---French---French-Crampon-Bible	017	EST	016	020	et prêtez-leur assistance, afin qu’ils puissent repousser  l’attaque de  ceux qui, durant les jours d’oppression, se sont élevés contre eux  ;  et cela,  le treizième jour du douzième mois, appelé Adar, en un même jour.
+Holy-Bible---French---French-Crampon-Bible	017	EST	016	020	et prêtez-leur assistance, afin qu’ils puissent repousser  l’attaque de  ceux qui, durant les jours d’oppression, se sont élevés contre eux ;  et cela,  le treizième jour du douzième mois, appelé Adar, en un même jour.
 Holy-Bible---French---French-Crampon-Bible	017	EST	016	021	Car Dieu, le Maître de toutes choses, a changé, pour la race choisie, ce jour de malheur en un jour d’allégresse.
 Holy-Bible---French---French-Crampon-Bible	017	EST	016	022	Vous donc, célébrez aussi ce grand jour avec toutes sortes de réjouissances, comme une de vos fêtes solennelles, afin qu’il soit, maintenant et dans l’avenir,
 Holy-Bible---French---French-Crampon-Bible	017	EST	016	023	pour nous et pour tous ceux qui sont affectionnés aux Perses, un  gage de  salut et  au contraire  un souvenir de ruine pour ceux qui complotent contre nous.
@@ -2996,7 +2998,7 @@ Holy-Bible---French---French-Crampon-Bible	019	PSA	021	001	Au maître de chant. 
 Holy-Bible---French---French-Crampon-Bible	019	PSA	022	001	Au maître de chant. Sur « Biche de l’aurore ». Psaume de David.
 Holy-Bible---French---French-Crampon-Bible	019	PSA	030	001	Psaume. Cantique pour la dédicace de la maison. De David.
 Holy-Bible---French---French-Crampon-Bible	019	PSA	031	001	Au maître de chant. Psaume de David.
-Holy-Bible---French---French-Crampon-Bible	019	PSA	034	001	De David  : lorsqu’il contrefit l’insensé en présence d’Abimélech, et que, chassé par lui, il s’en alla.
+Holy-Bible---French---French-Crampon-Bible	019	PSA	034	001	De David : lorsqu’il contrefit l’insensé en présence d’Abimélech, et que, chassé par lui, il s’en alla.
 Holy-Bible---French---French-Crampon-Bible	019	PSA	036	001	Au maître de chant. De David, serviteur de Yahweh.
 Holy-Bible---French---French-Crampon-Bible	019	PSA	038	001	Psaume de David. Pour faire souvenir.
 Holy-Bible---French---French-Crampon-Bible	019	PSA	039	001	Au maître de chant, à Idithun. Chant de David.
@@ -3012,15 +3014,15 @@ Holy-Bible---French---French-Crampon-Bible	019	PSA	049	001	Au maître de chant. 
 Holy-Bible---French---French-Crampon-Bible	019	PSA	051	001	Au maître de chant. Psaume de David.
 Holy-Bible---French---French-Crampon-Bible	019	PSA	051	002	Lorsque Nathan le prophète vint le trouver, après qu’il fut allé vers Bethsabée.
 Holy-Bible---French---French-Crampon-Bible	019	PSA	052	001	Au maître de chant. Cantique de David.
-Holy-Bible---French---French-Crampon-Bible	019	PSA	052	002	Lorsque Doëg l’Edomite vint faire à Saül ce rapport  : David s’est rendu dans la maison d’Achimélech.
+Holy-Bible---French---French-Crampon-Bible	019	PSA	052	002	Lorsque Doëg l’Edomite vint faire à Saül ce rapport : David s’est rendu dans la maison d’Achimélech.
 Holy-Bible---French---French-Crampon-Bible	019	PSA	053	001	Au maître de chant. Sur le ton plaintif. Cantique de David.
 Holy-Bible---French---French-Crampon-Bible	019	PSA	054	001	Au maître de chant. Avec instruments à cordes. Cantique de David.
-Holy-Bible---French---French-Crampon-Bible	019	PSA	054	002	Lorsque les Ziphéens vinrent dire à Saül  : David est caché parmi nous.
+Holy-Bible---French---French-Crampon-Bible	019	PSA	054	002	Lorsque les Ziphéens vinrent dire à Saül : David est caché parmi nous.
 Holy-Bible---French---French-Crampon-Bible	019	PSA	055	001	Au maître de chant, avec instruments à cordes. Cantique de David.
 Holy-Bible---French---French-Crampon-Bible	019	PSA	056	001	Au maître de chant. Sur la Colombe muette des pays lointains. Hymne de David. Lorsque les Philistins le saisirent à Geth.
 Holy-Bible---French---French-Crampon-Bible	019	PSA	057	001	Au maître de chant. « Ne détruis pas. » Hymne de David, lorsque,  poursuivi  par Saül, il se réfugia dans la caverne.
 Holy-Bible---French---French-Crampon-Bible	019	PSA	058	001	Au maître de chant. Ne détruis pas. Hymne de David.
-Holy-Bible---French---French-Crampon-Bible	019	PSA	059	001	Au maître de chant. Ne détruis pas  ! Hymne de David. Lorsque Saül envoya garder sa maison pour le mettre à mort.
+Holy-Bible---French---French-Crampon-Bible	019	PSA	059	001	Au maître de chant. Ne détruis pas ! Hymne de David. Lorsque Saül envoya garder sa maison pour le mettre à mort.
 Holy-Bible---French---French-Crampon-Bible	019	PSA	060	001	Au maître de chant. Sur le Lys du témoignage. Hymne de David, à enseigner.
 Holy-Bible---French---French-Crampon-Bible	019	PSA	060	002	Lorsqu’il fit la guerre aux Syriens de Mésopotamie et aux Syriens de Soba, et que Joab revint et battit Edom dans la vallée du Sel,  lui tuant  douze mille hommes.
 Holy-Bible---French---French-Crampon-Bible	019	PSA	061	001	Au maître de chant. Sur les instruments à cordes. De David.
@@ -3032,7 +3034,7 @@ Holy-Bible---French---French-Crampon-Bible	019	PSA	067	001	Au maître de chant. 
 Holy-Bible---French---French-Crampon-Bible	019	PSA	068	001	Au maître de chant. Psaume de David. Cantique.
 Holy-Bible---French---French-Crampon-Bible	019	PSA	069	001	Au maître de chant. Sur les lys. De David.
 Holy-Bible---French---French-Crampon-Bible	019	PSA	070	001	Au maître de chant. De David. Pour faire souvenir.
-Holy-Bible---French---French-Crampon-Bible	019	PSA	075	001	Au maître de chant. « Ne détruis pas  ! » Psaume d’Asaph. Cantique.
+Holy-Bible---French---French-Crampon-Bible	019	PSA	075	001	Au maître de chant. « Ne détruis pas ! » Psaume d’Asaph. Cantique.
 Holy-Bible---French---French-Crampon-Bible	019	PSA	076	001	Au maître de chant. Avec instruments à cordes. Psaume d’Asaph, cantique.
 Holy-Bible---French---French-Crampon-Bible	019	PSA	077	001	Au maître de chant,… Idithun. Psaume d’Asaph.
 Holy-Bible---French---French-Crampon-Bible	019	PSA	080	001	Au maître de chant. Sur les lis du témoignage. Psaume d’Asaph.
@@ -3048,178 +3050,179 @@ Holy-Bible---French---French-Crampon-Bible	019	PSA	108	001	Cantique. Psaume de D
 Holy-Bible---French---French-Crampon-Bible	019	PSA	140	001	Au maître de chant. Psaume de David.
 Holy-Bible---French---French-Crampon-Bible	019	PSA	142	001	Cantique de David. Lorsqu’il était dans la caverne. Prière.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	003	024	Et ils marchaient au milieu de la flamme, louant Dieu et bénissant le Seigneur.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	025	Et Azarias, se levant, fit cette prière  ; ouvrant la bouche au milieu du feu, il dit  :
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	026	Soyez béni, Seigneur, Dieu de nos pères  ;   votre nom est digne de louange et de gloire à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	027	Car vous êtes juste dans tout ce que vous nous avez fait,   et toutes vos œuvres sont vraies  ;   vos voies sont droites,   et vos jugements sont équitables.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	028	Car vous avez rendu des jugements équitables  ;   dans tous  les maux  que vous avez fait venir sur nous  ;   et sur la ville sainte de nos pères, Jérusalem  ;   c’est par un juste jugement que vous avez fait tout cela,   à cause de nos péchés.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	025	Et Azarias, se levant, fit cette prière ; ouvrant la bouche au milieu du feu, il dit :
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	026	Soyez béni, Seigneur, Dieu de nos pères ;   votre nom est digne de louange et de gloire à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	027	Car vous êtes juste dans tout ce que vous nous avez fait,   et toutes vos œuvres sont vraies ;   vos voies sont droites,   et vos jugements sont équitables.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	028	Car vous avez rendu des jugements équitables ;   dans tous  les maux  que vous avez fait venir sur nous ;   et sur la ville sainte de nos pères, Jérusalem ;   c’est par un juste jugement que vous avez fait tout cela,   à cause de nos péchés.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	003	029	Car nous avons péché et commis l’iniquité en nous retirant de vous,   et nous avons manqué en toutes choses.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	003	030	Nous n’avons pas écouté vos commandements   et nous ne les avons pas observés,   et nous n’avons pas agi selon que vous nous l’aviez commandé,   afin que nous fussions heureux.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	003	031	Tout ce que vous avez fait venir sur nous,   tout ce que vous nous avez fait,   c’est par un juste jugement que vous l’avez fait.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	003	032	Vous nous avez livrés aux mains d’ennemis injustes,   d’apostats acharnés  contre nous ,   et d’un roi injuste, le plus méchant de toute la terre.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	033	Et maintenant nous n’osons ouvrir la bouche  ;   la honte et l’opprobre sont à vos serviteurs,   et à tous ceux qui vous adorent.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	033	Et maintenant nous n’osons ouvrir la bouche ;   la honte et l’opprobre sont à vos serviteurs,   et à tous ceux qui vous adorent.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	003	034	Ne nous livrez pas pour toujours, à cause de votre nom,   et ne détruisez pas votre alliance.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	003	035	Ne retirez pas de nous votre miséricorde,   à cause d’Abraham votre ami,   d’Isaac votre serviteur,   et d’Israël votre saint,
 Holy-Bible---French---French-Crampon-Bible	027	DAN	003	036	auxquels vous avez promis de multiplier leur postérité,   comme les étoiles du ciel,   et comme le sable qui est sur le rivage de la mer.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	003	037	Car, Seigneur, nous sommes réduits devant toutes les nations,   et nous sommes aujourd’hui humiliés par toute ta terre,   à cause de nos péchés.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	038	Il n’y a plus en ce temps  pour nous     ni prince, ni chef, ni prophète,   ni holocauste, ni sacrifice, ni oblation, ni encens  ;   ni endroit pour apporter devant vous les prémices et trouver grâce.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	038	Il n’y a plus en ce temps  pour nous     ni prince, ni chef, ni prophète,   ni holocauste, ni sacrifice, ni oblation, ni encens ;   ni endroit pour apporter devant vous les prémices et trouver grâce.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	003	039	Mais, Seigneur, puissions-nous être reçus,   le cœur contrit et l’esprit humilié,
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	040	comme  vous recevez  un holocauste de béliers et de taureaux,   ou de mille agneaux gras  ;   qu’il en soit ainsi de notre sacrifice devant vous aujourd’hui,   et de notre soumission envers vous,   car il n’y a pas de confusion pour ceux qui se fient en vous.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	040	comme  vous recevez  un holocauste de béliers et de taureaux,   ou de mille agneaux gras ;   qu’il en soit ainsi de notre sacrifice devant vous aujourd’hui,   et de notre soumission envers vous,   car il n’y a pas de confusion pour ceux qui se fient en vous.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	003	041	Maintenant, nous  vous  suivons de tout notre cœur,   nous vous craignons et nous cherchons votre visage.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	003	042	Ne nous confondez pas,   mais traitez-nous selon votre douceur,   et selon l’abondance de votre miséricorde.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	003	043	Délivrez-nous par vos prodiges,   et donnez, Seigneur, gloire à votre nom.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	003	044	Qu’ils soient confondus tous ceux qui maltraitent vos serviteurs,   couverts de honte  par la perte  de toute  leur  puissance,   et que leur force soit brisée,
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	045	qu’ils sachent que vous êtes le Seigneur, le seul Dieu,   et le glorieux  souverain  de toute la terre  ! »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	045	qu’ils sachent que vous êtes le Seigneur, le seul Dieu,   et le glorieux  souverain  de toute la terre ! »
 Holy-Bible---French---French-Crampon-Bible	027	DAN	003	046	Cependant  les serviteurs du roi qui avaient jeté ces  trois hommes  dans la fournaise, ne cessaient de la chauffer avec du naphte, de l’étoupe, de la poix et des sarments.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	047	La flamme s’élevait quarante-neuf coudées au-dessus de la fournaise  ;
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	047	La flamme s’élevait quarante-neuf coudées au-dessus de la fournaise ;
 Holy-Bible---French---French-Crampon-Bible	027	DAN	003	048	et, s’étant élancée, elle brûla les Chaldéens qu’elle rencontra près de la fournaise.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	003	049	Mais l’ange du Seigneur était descendu dans la fournaise avec Azarias et ses compagnons, et il écartait de la fournaise la flamme de feu.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	050	Et il rendit le milieu de la fournaise tel que si un vent de rosée y avait soufflé  ; et le feu ne les toucha même pas, il ne les blessa point et ne leur causa point le moindre mal.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	051	Alors ces trois  hommes , comme d’une seule bouche, louaient, glorifiaient et bénissaient Dieu dans la fournaise, en disant  :
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	050	Et il rendit le milieu de la fournaise tel que si un vent de rosée y avait soufflé ; et le feu ne les toucha même pas, il ne les blessa point et ne leur causa point le moindre mal.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	051	Alors ces trois  hommes , comme d’une seule bouche, louaient, glorifiaient et bénissaient Dieu dans la fournaise, en disant :
 Holy-Bible---French---French-Crampon-Bible	027	DAN	003	052	Vous êtes béni, Seigneur, Dieu de nos pères,   digne d’être loué, glorifié et exalté à jamais.   Béni est votre nom saint et glorieux,   digne de suprême louange et exaltation à tout jamais.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	003	053	Vous êtes béni dans le temple de votre sainte gloire,   digne de suprême louange et gloire à jamais.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	003	054	Vous élus béni sur le trône de votre royaume,   digne de suprême louange et exaltation à jamais.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	003	055	Vous êtes béni, vous dont le regard pénètre les abîmes,   et qui êtes assis sur les Chérubins,   digne de suprême louange et exaltation à jamais.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	003	056	Vous êtes béni au firmament du ciel,   digne de louange et de gloire à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	057	Bénissez toutes le Seigneur, œuvres du Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	058	Anges du Seigneur, bénissez le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	059	Cieux, bénissez le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	060	Eaux et tout ce qui est au-dessus des cieux, bénissez le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	061	Puissances du Seigneur, bénissez toutes le Seigneur  ;   louez-le, et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	062	Soleil et lune, bénissez le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	063	Astres du ciel, bénissez le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	064	Pluies et rosées, bénissez toutes le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	065	Vents que Dieu  déchaîne , bénissez tous le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	066	Feux et chaleurs, bénissez le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	067	Froid et chaleur, bénissez le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	068	Rosées et givres, bénissez le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	069	Gelées et frimas, bénissez le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	070	Glaces et neiges, bénissez le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	071	Nuits et jours, bénissez le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	072	Lumière et ténèbres, bénissez le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	073	Éclairs et sombres nuages, bénissez le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	074	Que la terre bénisse le Seigneur  ;   qu’elle le loue et l’exalte à jamais  !
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	075	Montagnes et collines, bénissez le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	076	Plantes  qui croissez sur la terre, bénissez toutes le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	077	Fontaines, bénissez le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	078	Mers et fleuves, bénissez le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	079	Monstres et tout ce qui s’agite dans les eaux, bénissez le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	080	Oiseaux du ciel, bénissez tous le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	081	Bêtes sauvages et troupeaux, bénissez tous le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	082	Enfants des hommes, bénissez le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	083	Qu’Israël bénisse le Seigneur  ;   qu’il le loue et l’exalte à jamais  !
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	084	Prêtres du Seigneur, bénissez le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	085	Serviteurs du Seigneur, bénissez le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	086	Esprits et âmes des justes, bénissez le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	087	Saints et humbles de cœur, bénissez le Seigneur  ;   louez-le et exaltez-le à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	088	Ananias, Azarias et Misaël, bénissez le Seigneur  ;   louez-le et exaltez-le à jamais.      Car il nous à tirés du schéol,   et délivrés de la puissance de la mort  ;   il nous à sauvés du milieu de la fournaise de flamme brûlante,   et tirés du milieu du feu.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	057	Bénissez toutes le Seigneur, œuvres du Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	058	Anges du Seigneur, bénissez le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	059	Cieux, bénissez le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	060	Eaux et tout ce qui est au-dessus des cieux, bénissez le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	061	Puissances du Seigneur, bénissez toutes le Seigneur ;   louez-le, et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	062	Soleil et lune, bénissez le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	063	Astres du ciel, bénissez le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	064	Pluies et rosées, bénissez toutes le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	065	Vents que Dieu  déchaîne , bénissez tous le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	066	Feux et chaleurs, bénissez le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	067	Froid et chaleur, bénissez le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	068	Rosées et givres, bénissez le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	069	Gelées et frimas, bénissez le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	070	Glaces et neiges, bénissez le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	071	Nuits et jours, bénissez le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	072	Lumière et ténèbres, bénissez le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	073	Éclairs et sombres nuages, bénissez le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	074	Que la terre bénisse le Seigneur ;   qu’elle le loue et l’exalte à jamais !
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	075	Montagnes et collines, bénissez le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	076	Plantes  qui croissez sur la terre, bénissez toutes le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	077	Fontaines, bénissez le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	078	Mers et fleuves, bénissez le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	079	Monstres et tout ce qui s’agite dans les eaux, bénissez le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	080	Oiseaux du ciel, bénissez tous le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	081	Bêtes sauvages et troupeaux, bénissez tous le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	082	Enfants des hommes, bénissez le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	083	Qu’Israël bénisse le Seigneur ;   qu’il le loue et l’exalte à jamais !
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	084	Prêtres du Seigneur, bénissez le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	085	Serviteurs du Seigneur, bénissez le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	086	Esprits et âmes des justes, bénissez le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	087	Saints et humbles de cœur, bénissez le Seigneur ;   louez-le et exaltez-le à jamais.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	088	Ananias, Azarias et Misaël, bénissez le Seigneur ;   louez-le et exaltez-le à jamais.      Car il nous à tirés du schéol,   et délivrés de la puissance de la mort ;   il nous à sauvés du milieu de la fournaise de flamme brûlante,   et tirés du milieu du feu.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	003	089	Célébrez le Seigneur, car il est bon,   car sa miséricorde dure à jamais.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	003	090	Vous tous, hommes pieux,   bénissez le Seigneur, le Dieu des dieux  ;   louez-le et célébrez-le,   car sa miséricorde dure à jamais.         Le morceau qui se termine ici ne se trouve pas dans l’hébreu  ; la traduction que nous en avons donnée est faite sur l’édition de Théodotion.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	003	090	Vous tous, hommes pieux,   bénissez le Seigneur, le Dieu des dieux ;   louez-le et célébrez-le,   car sa miséricorde dure à jamais.        Le morceau qui se termine ici ne se trouve pas dans l’hébreu ; la traduction que nous en avons donnée est faite sur l’édition de Théodotion.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	001	Il y avait un homme qui demeurait à Babylone, et son nom était Joakim.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	002	Il prit une femme nommée Susanne, fille d’Helcias, d’une grande beauté et craignant Dieu  ;
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	002	Il prit une femme nommée Susanne, fille d’Helcias, d’une grande beauté et craignant Dieu ;
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	003	car ses parents, qui étaient justes, avaient instruit leur fille selon la loi de Moïse.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	004	Or Joakim était fort riche, et il avait un jardin près de sa maison, et les Juifs affluaient chez lui, parce qu’il était le plus honorable de tous.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	005	On avait établi juges cette année-là deux anciens d’entre le peuple, dont le Maître a dit  : « L’iniquité est sortie de Babylone par des vieillards qui étaient juges, qui paraissaient régir le peuple. »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	005	On avait établi juges cette année-là deux anciens d’entre le peuple, dont le Maître a dit : « L’iniquité est sortie de Babylone par des vieillards qui étaient juges, qui paraissaient régir le peuple. »
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	006	Ils fréquentaient la maison de Joakim, et tous ceux qui avaient des différends se rendaient auprès d’eux.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	007	Vers le milieu du jour, lorsque le peuple s’était retiré, Susanne entrait dans le jardin de son mari et s’y promenait.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	008	Les deux vieillards la voyaient chaque jour y entrer et s’y promener, et ils conçurent pour elle une ardente passion.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	009	Ils pervertirent leur sens et détournèrent leurs yeux pour ne pas voir le ciel et ne pas se souvenir des justes jugements  de Dieu .
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	010	Ils étaient donc blessés  d’amour  pour elle, mais ils ne se communiquaient pas mutuellement leur souffrance,
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	011	car ils avaient honte de révéler  l’un à l’autre  la passion qui leur faisait désirer d’être avec elle.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	012	Ils  l’ observaient chaque jour avec soin pour la voir, et ils se dirent l’un à l’autre  :
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	013	« Allons chez nous, c’est l’heure du dîner. « Et ils sortirent et se séparèrent.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	014	Mais étant revenus sur leurs pas, ils se rencontrèrent, et s’étant demandé le motif  de leur retour , ils s’avouèrent leur passion  ; puis ils convinrent entre eux du moment où ils pourraient la trouver seule.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	015	Comme ils épiaient un jour convenable, il arriva que Suzanne entra dans le jardin, comme elle l’avait fait la veille et l’avant-veille, sans autre compagnie que deux jeunes filles  ; elle voulut se baigner dans le jardin, car il faisait chaud.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	012	Ils  l’ observaient chaque jour avec soin pour la voir, et ils se dirent l’un à l’autre :
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	013	« Allons chez nous, c’est l’heure du dîner. » Et ils sortirent et se séparèrent.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	014	Mais étant revenus sur leurs pas, ils se rencontrèrent, et s’étant demandé le motif  de leur retour , ils s’avouèrent leur passion ; puis ils convinrent entre eux du moment où ils pourraient la trouver seule.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	015	Comme ils épiaient un jour convenable, il arriva que Suzanne entra dans le jardin, comme elle l’avait fait la veille et l’avant-veille, sans autre compagnie que deux jeunes filles ; elle voulut se baigner dans le jardin, car il faisait chaud.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	016	Il n’y avait là personne, sinon les deux vieillards, qui s’étaient cachés et qui l’épiaient.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	017	Elle dit aux jeunes filles  : « Apportez-moi de l’huile parfumée et des onguents, et fermez les portes du jardin, afin que je me baigne. »
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	018	Elles firent ce que  Suzanne  avait commandé et, ayant fermé la porte du jardin, elles sortirent par une porte de derrière, pour apporter ce qui leur avait été demandé  ; elles ne savaient pas que les vieillards étaient cachés  dans le jardin .
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	019	Dès que les jeunes filles furent sorties, les deux vieillards se levèrent, coururent à  Susanne  et lui dirent  :
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	020	« Vois, les portes du jardin sont fermées, personne ne nous aperçoit, et nous brûlons d’amour pour toi  ; consens donc à notre désir et sois à nous.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	017	Elle dit aux jeunes filles : « Apportez-moi de l’huile parfumée et des onguents, et fermez les portes du jardin, afin que je me baigne. »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	018	Elles firent ce que  Suzanne  avait commandé et, ayant fermé la porte du jardin, elles sortirent par une porte de derrière, pour apporter ce qui leur avait été demandé ; elles ne savaient pas que les vieillards étaient cachés  dans le jardin .
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	019	Dès que les jeunes filles furent sorties, les deux vieillards se levèrent, coururent à  Susanne  et lui dirent :
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	020	« Vois, les portes du jardin sont fermées, personne ne nous aperçoit, et nous brûlons d’amour pour toi ; consens donc à notre désir et sois à nous.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	021	Si non, nous nous porterons témoins contre toi,  et nous dirons  qu’un jeune homme était avec toi, et que  c’est  pour cela  que  tu as renvoyé les jeunes filles. »
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	022	Susanne soupira et dit  : « De tous côtés l’angoisse m’  environne . Si je fais cela, c’est la mort pour moi, et si je ne le fais pas, je n’échapperai pas de vos mains.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	022	Susanne soupira et dit : « De tous côtés l’angoisse m’ environne . Si je fais cela, c’est la mort pour moi, et si je ne le fais pas, je n’échapperai pas de vos mains.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	023	Mais il vaut mieux pour moi tomber entre vos mains sans avoir fait  le mal  que de pécher en présence du Seigneur. »
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	024	Alors Susanne jeta un grand cri, et les deux vieillards crièrent aussi contre elle.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	025	Et l’un  d’eux  courut ouvrir les portes du jardin.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	026	Quand les  serviteurs  de la maison entendirent les cris  poussés  dans le jardin, ils se précipitèrent par la porte de derrière pour voir ce qu’il y avait.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	027	Lorsque les vieillards se furent expliqués, les serviteurs eurent grande honte, parce qu’on n’avait jamais dit chose semblable de Susanne.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	028	Le lendemain, le peuple s’étant rassemblé chez Joakim, mari de Susanne, les deux vieillards y vinrent aussi, tout remplis de pensées méchantes contre elle, afin de la faire périr.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	029	Ils dirent devant le peuple  : « Envoyez chercher Suzanne, fille d’Helcias, femme de Joakim. « Et on envoya aussitôt.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	029	Ils dirent devant le peuple : « Envoyez chercher Suzanne, fille d’Helcias, femme de Joakim. » Et on envoya aussitôt.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	030	Elle vint avec ses parents, ses fils et tous ses proches.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	031	Or Suzanne, avait les traits délicats et une grande beauté.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	032	Comme elle était voilée, les  juges  méchants commandèrent qu’on lui ôtât son voile, pour se rassasier de sa beauté.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	033	Mais tous les siens et tous ceux qui la connaissaient versaient des larmes.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	034	Les deux vieillards, se levant au milieu du peuple, mirent leurs mains sur sa tête.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	035	Elle, en pleurant, regarda vers le ciel, car son cœur avait confiance dans le Seigneur.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	036	Les vieillards dirent  : « Comme nous nous promenions seuls dans le jardin, elle est entrée avec deux jeunes filles et, après avoir fait fermer les portes du jardin, elle a renvoyé les jeunes filles.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	036	Les vieillards dirent : « Comme nous nous promenions seuls dans le jardin, elle est entrée avec deux jeunes filles et, après avoir fait fermer les portes du jardin, elle a renvoyé les jeunes filles.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	037	Et un jeune homme qui était caché est venu à elle et a fait le mal avec elle.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	038	Nous étions dans un coin du jardin ; en voyant le crime, nous avons couru à eux, et nous les avons vus dans cette infamie.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	039	Nous n’avons pu prendre le  jeune homme , parce qu’il était plus fort que nous, et qu’ayant ouvert la porte, il s’est échappé.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	040	Mais elle, après  l’ avoir prise, nous  lui  avons demandé quel était ce jeune homme, et elle n’a pas voulu nous le dire. Voilà ce que nous attestons. »
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	041	La foule les crut, parce que c’étaient des vieillards et des juges du peuple, et ils la condamnèrent à mort.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	042	Alors Susanne s’écria à haute voix et dit  : « Dieu éternel, qui connaissez ce qui est caché et qui savez toutes choses avant qu’elles n’arrivent,
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	043	vous savez qu’ils ont rendu un faux témoignage contre moi  ; et voici que je meurs, sans avoir rien fait de ce qu’ils ont méchamment inventé contre moi. »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	042	Alors Susanne s’écria à haute voix et dit : « Dieu éternel, qui connaissez ce qui est caché et qui savez toutes choses avant qu’elles n’arrivent,
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	043	vous savez qu’ils ont rendu un faux témoignage contre moi ; et voici que je meurs, sans avoir rien fait de ce qu’ils ont méchamment inventé contre moi. »
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	044	Le Seigneur entendit sa voix.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	045	Comme on la conduisait à la mort, Dieu éveilla l’esprit saint d’un jeune enfant nommé Daniel.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	046	Il cria à haute voix  : « Pour moi, je suis pur du sang de cette  femme   ! »
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	047	Tout le peuple se tourna vers lui et  lui  dit  : « Que  signifie  cette parole que tu dis-là  ? »
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	048	Daniel , se tenant au milieu d’eux, dit  : « Êtes-vous donc insensés à ce point, enfants d’Israël, de faire mourir une fille d’Israël sans examen, sans  chercher  à connaître la vérité  ?
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	046	Il cria à haute voix : « Pour moi, je suis pur du sang de cette  femme  ! »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	047	Tout le peuple se tourna vers lui et  lui  dit : « Que  signifie  cette parole que tu dis-là ? »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	048	Daniel , se tenant au milieu d’eux, dit : « Êtes-vous donc insensés à ce point, enfants d’Israël, de faire mourir une fille d’Israël sans examen, sans  chercher  à connaître la vérité ?
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	049	Retournez au tribunal, car ils ont rendu un faux témoignage contre elle. »
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	050	Alors le peuple retourna en hâte, et les anciens dirent à  Daniel   :
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	051	« Viens, prends place au milieu de nous, et expose-nous  ton avis , car Dieu t’a donné  l’honneur de  la vieillesse. » Daniel dit au peuple  : « Séparez-les loin l’un de l’autre, et je les jugerai. »
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	052	Quand ils furent séparés l’un de l’autre, Daniel en appela un et lui dit  : « Homme vieilli dans le crime, les péchés que tu as commis autrefois sont maintenant venus  sur toi ,
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	053	toi qui rendais des jugements injustes, qui condamnais les innocents et relâchais les coupables, quand le Seigneur a dit  : Tu ne feras pas mourir l’innocent et le juste.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	054	Eh bien, si tu l’as vue, dis sous quel arbre tu les as vus s’entretenant ensemble. » Il répondit  : « Sous un lentisque. »
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	055	Daniel dit  : « Justement tu dis un mensonge pour ta perte  ; car l’ange de Dieu qui a déjà reçu l’arrêt divin va te fendre par le milieu. »
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	056	Après l’avoir renvoyé, il ordonna d’amener l’autre, et il lui dit  : « Race de Chanaan, et non de Juda, la beauté  d’une femme  t’a séduit et la passion a perverti ton cœur.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	057	C’est ainsi que vous en agissiez avec les filles d’Israël, et elles, ayant peur  de vous , vous parlaient  ; mais une fille de Juda n’a pu souffrir votre iniquité.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	050	Alors le peuple retourna en hâte, et les anciens dirent à  Daniel  :
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	051	« Viens, prends place au milieu de nous, et expose-nous  ton avis , car Dieu t’a donné  l’honneur de  la vieillesse. » Daniel dit au peuple : « Séparez-les loin l’un de l’autre, et je les jugerai. »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	052	Quand ils furent séparés l’un de l’autre, Daniel en appela un et lui dit : « Homme vieilli dans le crime, les péchés que tu as commis autrefois sont maintenant venus  sur toi ,
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	053	toi qui rendais des jugements injustes, qui condamnais les innocents et relâchais les coupables, quand le Seigneur a dit : Tu ne feras pas mourir l’innocent et le juste.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	054	Eh bien, si tu l’as vue, dis sous quel arbre tu les as vus s’entretenant ensemble. » Il répondit : « Sous un lentisque. »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	055	Daniel dit : « Justement tu dis un mensonge pour ta perte ; car l’ange de Dieu qui a déjà reçu l’arrêt divin va te fendre par le milieu. »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	056	Après l’avoir renvoyé, il ordonna d’amener l’autre, et il lui dit : « Race de Chanaan, et non de Juda, la beauté  d’une femme  t’a séduit et la passion a perverti ton cœur.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	057	C’est ainsi que vous en agissiez avec les filles d’Israël, et elles, ayant peur  de vous , vous parlaient ; mais une fille de Juda n’a pu souffrir votre iniquité.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	058	Dis-moi donc maintenant sous quel arbre tu les as surpris s’entretenant ensemble. »
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	059	Il dit  : « Sous un chêne. » Daniel lui dit  : « Justement tu as dit, toi aussi, un mensonge pour ta perte  ; car l’ange du Seigneur attend, le glaive en main,  le moment  de te couper par le milieu, afin de vous faire mourir. »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	059	Il dit : « Sous un chêne. » Daniel lui dit : « Justement tu as dit, toi aussi, un mensonge pour ta perte ; car l’ange du Seigneur attend, le glaive en main,  le moment  de te couper par le milieu, afin de vous faire mourir. »
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	060	Alors  toute l’assemblée jeta un grand cri, et ils bénirent Dieu qui sauve ceux qui espèrent en lui.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	013	061	Puis ils s’élevèrent contre les deux vieillards, que Daniel avait convaincus par leur propre bouche d’avoir rendu un faux témoignage, et ils leur firent le mal qu’eux-mêmes avaient  voulu  faire à leur prochain  ;
+Holy-Bible---French---French-Crampon-Bible	027	DAN	013	061	Puis ils s’élevèrent contre les deux vieillards, que Daniel avait convaincus par leur propre bouche d’avoir rendu un faux témoignage, et ils leur firent le mal qu’eux-mêmes avaient  voulu  faire à leur prochain ;
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	062	afin d’accomplir la loi de Moïse, et ils les firent donc mourir, et le sang innocent fut sauvé en ce jour-là.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	063	Helcias et sa femme louèrent  Dieu  au sujet de leur fille Susanne, avec Joakim, son mari, et tous ses parents, parce qu’il ne s’était trouvé en elle rien de déshonnête.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	013	064	Et Daniel devint grand devant le peuple, à partir de ce jour et dans la suite des temps.              Le roi Astyage ayant été réuni à ses pères, Cyrus le Perse reçut le royaume.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	014	001	Or Daniel mangeait à la table du roi, et il était honoré plus que tous ses  autres  amis.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	002	Il y avait chez les Babyloniens une idole nommée Bel  ; on dépensait chaque jour pour elle douze artabes de farine, quarante brebis et six métrètes de vin.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	003	Le roi aussi la vénérait, et il allait chaque jour l’adorer  ; mais Daniel adorait son Dieu.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	004	Le roi lui dit  : « Pourquoi n’adores-tu pas Bel  ? » Il  lui  répondit  : « Parce que je ne vénère pas des idoles faites de main d’homme, mais le Dieu vivant qui a fait le ciel et la terre et qui a puissance sur toute chair. »
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	005	Le roi lui dit  : « Est-ce que Bel ne te semble pas un être vivant  ? Ne vois-tu pas tout ce qu’il mange et boit chaque jour  ? »
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	006	Daniel répondit en souriant  : « Ne t’y trompes pas, ô roi  ; car il est de boue en dedans et d’airain à l’extérieur, et il n’a jamais  rien  mangé. »
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	007	Le roi irrité appela les prêtres de  Bel  et leur dit  : « Si vous ne me dites pas qui est celui qui mange ces offrandes, vous mourrez  ;
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	002	Il y avait chez les Babyloniens une idole nommée Bel ; on dépensait chaque jour pour elle douze artabes de farine, quarante brebis et six métrètes de vin.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	003	Le roi aussi la vénérait, et il allait chaque jour l’adorer ; mais Daniel adorait son Dieu.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	004	Le roi lui dit : « Pourquoi n’adores-tu pas Bel ? » Il  lui  répondit : « Parce que je ne vénère pas des idoles faites de main d’homme, mais le Dieu vivant qui a fait le ciel et la terre et qui a puissance sur toute chair. »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	005	Le roi lui dit : « Est-ce que Bel ne te semble pas un être vivant ? Ne vois-tu pas tout ce qu’il mange et boit chaque jour ? »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	006	Daniel répondit en souriant : « Ne t’y trompes pas, ô roi ; car il est de boue en dedans et d’airain à l’extérieur, et il n’a jamais  rien  mangé. »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	007	Le roi irrité appela les prêtres de  Bel  et leur dit : « Si vous ne me dites pas qui est celui qui mange ces offrandes, vous mourrez ;
 Holy-Bible---French---French-Crampon-Bible	027	DAN	014	008	mais si vous me démontrez que  c’est  Bel  qui  les mange, Daniel mourra, parce qu’il a blasphémé contre Bel. »
 Holy-Bible---French---French-Crampon-Bible	027	DAN	014	009	Or il y avait soixante-dix prêtres de Bel, sans compter  leurs  femmes et  leurs  enfants. Et le roi se rendit avec Daniel au temple de Bel.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	010	Les prêtres de Bel dirent  : « Voici que nous allons sortir  ; toi, ô roi, fais placer les mets et apporter le vin, après l’avoir mélangé  ; puis ferme la porte, et scelle-la avec ton anneau.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	011	Et quand tu entreras demain matin, si tu ne trouves pas que tout a été mangé par Bel, nous mourrons  ; ou bien ce sera Daniel, qui a menti contre tous. »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	010	Les prêtres de Bel dirent : « Voici que nous allons sortir ; toi, ô roi, fais placer les mets et apporter le vin, après l’avoir mélangé ; puis ferme la porte, et scelle-la avec ton anneau.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	011	Et quand tu entreras demain matin, si tu ne trouves pas que tout a été mangé par Bel, nous mourrons ; ou bien ce sera Daniel, qui a menti contre tous. »
 Holy-Bible---French---French-Crampon-Bible	027	DAN	014	012	Ils songeaient qu’ils avaient fait sous la table une ouverture secrète, par laquelle ils s’introduisaient toujours et  venaient  consommer les  offrandes .
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	013	Lorsqu’ils furent sortis et que le roi eut fait mettre les aliments devant Bel, Daniel commanda à ses serviteurs d’apporter de la cendre, et il la répandirent par tout le temple en présence du roi seul  ; puis ils sortirent, fermèrent la porte en la scellant avec l’anneau du roi, et s’en allèrent.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	013	Lorsqu’ils furent sortis et que le roi eut fait mettre les aliments devant Bel, Daniel commanda à ses serviteurs d’apporter de la cendre, et il la répandirent par tout le temple en présence du roi seul ; puis ils sortirent, fermèrent la porte en la scellant avec l’anneau du roi, et s’en allèrent.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	014	014	Pendant la nuit, les prêtres entrèrent selon leur coutume avec leurs femmes et leurs enfants, et ils mangèrent et burent tout  ce qui était là .
 Holy-Bible---French---French-Crampon-Bible	027	DAN	014	015	Le roi se leva dès le point du jour, et Daniel avec lui.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	016	Le roi  dit  : « Les sceaux sont-ils intacts, Daniel  ? » Celui-ci répondit  : « Ils sont intacts, ô roi. »
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	017	Dès qu’il eut ouvert la porte et regardé la table, le roi s’écria à haute voix  : « Tu es grand, ô Bel, et il n’y a pas la moindre tromperie en toi. »
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	018	Daniel se prit à rire et, retenant le roi pour qu’il n’entrât pas plus avant, il  lui  dit  : « Regarde le pavé, considère de qui sont ces pas. »
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	019	Le roi dit  : « je vois des pas d’hommes, de femmes et d’enfants  ; » et le roi entra dans une grande colère.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	016	Le roi  dit : « Les sceaux sont-ils intacts, Daniel ? » Celui-ci répondit : « Ils sont intacts, ô roi. »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	017	Dès qu’il eut ouvert la porte et regardé la table, le roi s’écria à haute voix : « Tu es grand, ô Bel, et il n’y a pas la moindre tromperie en toi. »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	018	Daniel se prit à rire et, retenant le roi pour qu’il n’entrât pas plus avant, il  lui  dit : « Regarde le pavé, considère de qui sont ces pas. »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	019	Le roi dit : « je vois des pas d’hommes, de femmes et d’enfants ; » et le roi entra dans une grande colère.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	014	020	Alors il fit saisir les prêtres, leurs femmes et leurs enfants, et ils lui montrèrent les portes secrètes par où ils s’introduisaient et  venaient  manger ce qui était sur la table.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	014	021	Il les fit mettre à mort et livra Bel au pouvoir de Daniel, qui le détruisit ainsi que son temple.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	014	022	Il y avait aussi un grand dragon, et les Babyloniens le vénéraient.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	023	Le roi dit à Daniel  : « Diras-tu encore que celui-ci est d’airain  ? Vois, il vit, il mange et boit. Maintenant, tu ne pourras pas dire que ce n’est pas un dieu vivant. »
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	024	Daniel répondit  : « J’adore le Seigneur, mon Dieu, car lui est un Dieu vivant  ; mais celui-ci n’est point un dieu vivant.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	023	Le roi dit à Daniel : « Diras-tu encore que celui-ci est d’airain ? Vois, il vit, il mange et boit. Maintenant, tu ne pourras pas dire que ce n’est pas un dieu vivant. »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	024	Daniel répondit : « J’adore le Seigneur, mon Dieu, car lui est un Dieu vivant ; mais celui-ci n’est point un dieu vivant.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	014	025	Toi, ô roi, donne-moi la permission, et je tuerai ce dragon sans épée ni bâton. »
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	026	Le roi dit  : « Je te  la  donne. » Alors Daniel prit de la poix, de la graisse et des poils, fit bouillir  le tout  ensemble et en fit des boules qu’il jeta dans la gueule du dragon. Et le dragon creva. Et il dit  : « Voilà celui que vous vénériez  ! »
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	027	Les Babyloniens, l’ayant appris, furent saisis d’une vive indignation  ; ils se rassemblèrent contre le roi et dirent  : « Le roi est devenu juif  ; il a détruit Bel, fait mourir le dragon et massacrer les prêtres. »
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	028	Ils vinrent donc trouver le roi et lui dirent  : « Livre-nous Daniel  ; sinon, nous te ferons mourir, toi et ta maison. »
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	029	Le roi vit qu’ils se jetaient sur lui avec violence  ; cédant à la nécessité, il leur livra Daniel.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	026	Le roi dit : « Je te  la  donne. » Alors Daniel prit de la poix, de la graisse et des poils, fit bouillir  le tout  ensemble et en fit des boules qu’il jeta dans la gueule du dragon. Et le dragon creva. Et il dit : « Voilà celui que vous vénériez ! »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	027	Les Babyloniens, l’ayant appris, furent saisis d’une vive indignation ; ils se rassemblèrent contre le roi et dirent : « Le roi est devenu juif ; il a détruit Bel, fait mourir le dragon et massacrer les prêtres. »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	028	Ils vinrent donc trouver le roi et lui dirent : « Livre-nous Daniel ; sinon, nous te ferons mourir, toi et ta maison. »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	029	Le roi vit qu’ils se jetaient sur lui avec violence ; cédant à la nécessité, il leur livra Daniel.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	014	030	Ils le jetèrent dans la fosse aux lions, et il y demeura six jours.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	031	Dans la fosse, il y avait sept lions, et on leur donnait chaque jour deux corps et deux brebis  ; mais alors on ne leur donna pas  cette pâture , afin qu’ils dévorassent Daniel.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	032	Or le prophète Habacuc était en Judée  ; après avoir fait cuire une bouillie et émietté du pain dans un vase, il allait aux champs le porter à ses moissonneurs.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	033	L’ange du Seigneur dit à Habacuc  : « Porte le repas que tu tiens à Babylone, à Daniel,  qui est  dans la fosse aux lions. »
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	034	Habacuc dit  : « Seigneur, je n’ai jamais vu Babylone, et je ne connais pas la fosse. »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	031	Dans la fosse, il y avait sept lions, et on leur donnait chaque jour deux corps et deux brebis ; mais alors on ne leur donna pas  cette pâture , afin qu’ils dévorassent Daniel.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	032	Or le prophète Habacuc était en Judée ; après avoir fait cuire une bouillie et émietté du pain dans un vase, il allait aux champs le porter à ses moissonneurs.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	033	L’ange du Seigneur dit à Habacuc : « Porte le repas que tu tiens à Babylone, à Daniel,  qui est  dans la fosse aux lions. »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	034	Habacuc dit : « Seigneur, je n’ai jamais vu Babylone, et je ne connais pas la fosse. »
 Holy-Bible---French---French-Crampon-Bible	027	DAN	014	035	Alors l’ange le prit par le haut de la tête, le porta, par les cheveux de sa tête, et le déposa à Babylone, au-dessus de la fosse, avec toute l’agilité de sa nature spirituelle.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	036	Et Habacuc cria  : « Daniel, serviteur de Dieu, prends le repas que Dieu t’envoie. »
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	037	Daniel répondit  : « Vous vous êtes, en effet, souvenu de moi, ô Dieu, et vous n’avez pas abandonné ceux qui vous aiment. »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	036	Et Habacuc cria : « Daniel, serviteur de Dieu, prends le repas que Dieu t’envoie. »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	037	Daniel répondit : « Vous vous êtes, en effet, souvenu de moi, ô Dieu, et vous n’avez pas abandonné ceux qui vous aiment. »
 Holy-Bible---French---French-Crampon-Bible	027	DAN	014	038	Et Daniel se leva et mangea. Et l’ange du Seigneur remit aussitôt Habacuc en son lieu.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	039	Le septième jour, le roi vint pour pleurer Daniel  ; étant venu vers la fosse, il regarda, et voici que Daniel était assis au milieu des lions.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	040	Il cria à haute voix et dit  : « Vous êtes grand, Seigneur, Dieu de Daniel, et il n’y en a point d’autre que vous  ! » Et il le retira de la fosse aux lions.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	039	Le septième jour, le roi vint pour pleurer Daniel ; étant venu vers la fosse, il regarda, et voici que Daniel était assis au milieu des lions.
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	040	Il cria à haute voix et dit : « Vous êtes grand, Seigneur, Dieu de Daniel, et il n’y en a point d’autre que vous ! » Et il le retira de la fosse aux lions.
 Holy-Bible---French---French-Crampon-Bible	027	DAN	014	041	Puis il fit jeter dans la fosse ceux qui avaient voulu le perdre, et ils furent dévorés sous ses yeux, en un instant.
-Holy-Bible---French---French-Crampon-Bible	027	DAN	014	042	Alors le roi dit  : « Que tous les habitants de la terre entière craignent le Dieu de Daniel, car  c’est  lui  qui  est le Sauveur, qui fait des signes et des prodiges sur la terre,  lui  qui a délivré Daniel de la fosse aux lions  ! »
+Holy-Bible---French---French-Crampon-Bible	027	DAN	014	042	Alors le roi dit : « Que tous les habitants de la terre entière craignent le Dieu de Daniel, car  c’est  lui  qui  est le Sauveur, qui fait des signes et des prodiges sur la terre,  lui  qui a délivré Daniel de la fosse aux lions ! »
+Holy-Bible---French---French-Crampon-Bible	064	3JO	001	014	j’espère te voir bientôt, et nous nous entretiendrons de vive voix.
 Holy-Bible---French---French-Crampon-Bible	066	REV	012	018	Et il s’arrêta sur le sable de la mer.
 Holy-Bible---French---French-Crampon-Bible-New	004	NUM	025	019	A la suite de cette plaie,
 Holy-Bible---French---French-Crampon-Bible-New	007	JDG	005	031	Qu’ainsi périssent tous tes ennemis, ô Yahweh ! Et que ceux qui l’aiment soient comme le soleil, quand il se lève dans sa force !
@@ -3573,8 +3576,6 @@ Holy-Bible---French---French-Crampon-Bible-New	027	DAN	014	039	Le septième jour
 Holy-Bible---French---French-Crampon-Bible-New	027	DAN	014	040	Il cria à haute voix et dit : « Vous êtes grand, Seigneur, Dieu de Daniel, et il n’y en a pas d’autre que vous ! » Et il le retira de la fosse aux lions.
 Holy-Bible---French---French-Crampon-Bible-New	027	DAN	014	041	Puis il fit jeter dans la fosse ceux qui avaient voulu le perdre, et ils furent dévorés sous ses yeux, en un instant.
 Holy-Bible---French---French-Crampon-Bible-New	027	DAN	014	042	Alors le roi dit : « Que tous les habitants de la terre entière craignent le Dieu de Daniel, car c’est lui qui est le Sauveur, qui fait des signes et des prodiges sur la terre, lui qui a délivré Daniel de la fosse aux lions ! »
-Holy-Bible---French---French-Crampon-Bible-New	041	MAR	004	042	
-Holy-Bible---French---French-Crampon-Bible-New	044	ACT	010	049	
 Holy-Bible---French---French-Crampon-Bible-New	064	3JO	001	014	j’espère te voir bientôt, et nous nous entretiendrons de vive voix.
 Holy-Bible---French---French-Crampon-Bible-New	066	REV	012	018	Et il s’arrêta sur le sable de la mer.
 Holy-Bible---French---French-Darby-Bible	009	1SA	020	042	Et Jonathan dit à David : Va en paix, selon que nous avons juré, nous deux, au nom de l’Éternel, disant : L’Éternel sera entre moi et toi, et entre ma semence et ta semence, à toujours !
@@ -10669,6 +10670,7 @@ Holy-Bible---Ndengereko---Ndengereko-Bible	064	3JO	001	014	Balo masoba masene, t
 Holy-Bible---Ndengereko---Ndengereko-Bible	066	REV	012	018	Boka po ling'ambo latiyema kunani ya miangi ufukweni mwa bahari.
 Holy-Bible---Nepali---Nepali-Bible	064	3JO	001	014	तर तिमीलाई छिट्टै भेट्ने आशा गर्छु, र हामी आमने सामने कुरा गर्नेछौँ ।
 Holy-Bible---Nepali---Nepali-Bible	066	REV	012	018	तब त्यो अजिङ्गर समुद्र किनारको बालुवामाथि उभियो ।
+Holy-Bible---Nepali---Nepali-Contemporary	064	3JO	001	014	म तिमीलाई चाँडै नै भेट्ने आशा गर्दछु, तब हामी आमने-सामने भएर कुरा गर्नेछौँ।
 Holy-Bible---Ngoni---Ngoni-Bible	064	3JO	001	014	Nihuvalila kukulola papipi na penapo yati tilongela mihu kwa mihu.
 Holy-Bible---Ngoni---Ngoni-Bible	066	REV	012	018	Hinu, liyoka likayima pamuhana ya nyanja.
 Holy-Bible---Norwegian---Living-Bible	064	3JO	001	014	Jeg håpet snart å treffe deg, slik at vi kan snakke personlig.
@@ -11998,6 +12000,8 @@ Holy-Bible---Telugu---Telugu-Bible	040	MAT	004	014
 Holy-Bible---Telugu---Telugu-Bible	064	3JO	001	014	కానీ నేను నిన్ను త్వరలోనే చూడగలనని ఆశిస్తున్నాను. అప్పుడు మనం ముఖాముఖీ మాట్లాడుకుందాం.
 Holy-Bible---Telugu---Telugu-Bible	066	REV	012	018	దానికోసం ఆ మహా సర్పం సముద్ర తీరంలో ఇసుక తిన్నెలపై నిలబడింది.
 Holy-Bible---Tsakhur---Tsakhur-Bible	009	1SA	020	042	Yonatanee Davuduk'le eyhen: – Vas yugna yəq vuxhena. Zınay ğu Rəbbine doyule sana-sang'us k'ın g'assır, uvhunniy: Rəbb yizdeyiy yiğne, yişde uşaxaaşine yı'q'neenar gırgıne gahbışisda Şahad vorna.
+Holy-Bible---Turkish---Open-Basic-Turkish	064	3JO	001	014	Yakında seni görmeyi umut ediyorum. O zaman yüz yüze konuşacağız.
+Holy-Bible---Turkish---Open-Basic-Turkish	066	REV	012	018	Ejderha gidip deniz kenarında dikilip durdu.
 Holy-Bible---Turkish---Turkish-Bible	066	REV	012	018	Denizin kıyısında dikilip durdu.
 Holy-Bible---Twi---Akuapem-Twi-Bible	064	3JO	001	014	Ɛrenkyɛ biara mehu mo na me ne mo akasa.
 Holy-Bible---Twi---Akuapem-Twi-Bible	066	REV	012	018	Na ɔwɔ no kogyinaa mpoano hɔ.

@@ -1,6 +1,6 @@
 # File Name: TALLY.txt
-# File Size: 22449       
-# File Date: 03/07/2025 18:42:44
+# File Size: 22681       
+# File Date: 03/13/2025 08:31:07
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -142,10 +142,11 @@ Holy-Bible---Estonian---For-All	4200	4200	4212
 Holy-Bible---Ewe---Word-of-Life	31102	31102	31103
 Holy-Bible---Finnish---Finnish-Bible	31102	31102	31102
 Holy-Bible---Finnish---Finnish-Pyha-Raamattu	31087	31087	31087
+Holy-Bible---Finnish---Open-Living-News	7647	7647	7649
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible	7957	7957	7960
 Holy-Bible---French---Free-for-the-World	31098	31098	31102
-Holy-Bible---French---French-Crampon-Bible	31076	31076	31429
-Holy-Bible---French---French-Crampon-Bible-New	31100	31100	31456
+Holy-Bible---French---French-Crampon-Bible	31102	31102	31456
+Holy-Bible---French---French-Crampon-Bible-New	31090	31090	31444
 Holy-Bible---French---French-Darby-Bible	31099	31099	31171
 Holy-Bible---French---French-Khan-Bible	23142	23142	23210
 Holy-Bible---French---French-LXX	23005	23005	23149
@@ -257,6 +258,7 @@ Holy-Bible---Latin---Vulgata-Sistina	31092	31092	31454
 Holy-Bible---Latin---Vulgate-Jerome	31086	31086	31458
 Holy-Bible---Latvian---Latvian-Gluck-Bible	31102	31102	31102
 Holy-Bible---Lingala---Lingala-Bible	31100	31100	31172
+Holy-Bible---Lithuanian---Believers-Heritage	2499	2499	2499
 Holy-Bible---Lodhi---Lodhi-Bible	7956	7956	7958
 Holy-Bible---Luganda---Luganda-Bible	31102	31102	31104
 Holy-Bible---Mahasu-Pahari---Baghlayani-Bible	7953	7953	7955
@@ -281,6 +283,7 @@ Holy-Bible---Ndebele---Ndebele-Bible	31102	31102	31102
 Holy-Bible---Ndengereko---Ndengereko-Bible	7949	7949	7956
 Holy-Bible---Nend---Mark	635	635	635
 Holy-Bible---Nepali---Nepali-Bible	31100	31100	31102
+Holy-Bible---Nepali---Nepali-Contemporary	31094	31094	31095
 Holy-Bible---Ngoni---Ngoni-Bible	7957	7957	7959
 Holy-Bible---Norwegian---Living-Bible	7783	7783	7784
 Holy-Bible---Norwegian---Norwegian-Bible	31102	31102	31169
@@ -374,6 +377,7 @@ Holy-Bible---Tamil---Tamil-Bible	31102	31102	31103
 Holy-Bible---Telugu---Telugu-Bible	31038	31038	31041
 Holy-Bible---Tongan---Revised-West-Version	31102	31102	31102
 Holy-Bible---Tsakhur---Tsakhur-Bible	5561	5561	5562
+Holy-Bible---Turkish---Open-Basic-Turkish	7899	7899	7901
 Holy-Bible---Turkish---Turkish-Bible	30238	30238	30239
 Holy-Bible---Twi---Akuapem-Twi-Bible	31098	31098	31100
 Holy-Bible---Twi---Asante-Twi-WASNA	31098	31098	31100

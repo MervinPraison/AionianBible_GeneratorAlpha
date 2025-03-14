@@ -341,6 +341,7 @@ Holy-Bible---Estonian---For-All	NONE
 Holy-Bible---Ewe---Word-of-Life	NONE
 Holy-Bible---Finnish---Finnish-Bible	NONE
 Holy-Bible---Finnish---Finnish-Pyha-Raamattu	NONE
+Holy-Bible---Finnish---Open-Living-News	NONE
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible	JOH7-8
 Holy-Bible---French---Free-for-the-World	ROM14-16
 Holy-Bible---French---French-Crampon-Bible	GEN31-32
@@ -1201,6 +1202,7 @@ Holy-Bible---Lingala---Lingala-Bible	MIC4-5
 Holy-Bible---Lingala---Lingala-Bible	NAH1-2
 Holy-Bible---Lingala---Lingala-Bible	ZEC1-2
 Holy-Bible---Lingala---Lingala-Bible	MAL3-4
+Holy-Bible---Lithuanian---Believers-Heritage	NONE
 Holy-Bible---Lodhi---Lodhi-Bible	NONE
 Holy-Bible---Luganda---Luganda-Bible	NONE
 Holy-Bible---Mahasu-Pahari---Baghlayani-Bible	NONE
@@ -1298,6 +1300,7 @@ Holy-Bible---Ndebele---Ndebele-Bible	NONE
 Holy-Bible---Ndengereko---Ndengereko-Bible	NONE
 Holy-Bible---Nend---Mark	NONE
 Holy-Bible---Nepali---Nepali-Bible	NONE
+Holy-Bible---Nepali---Nepali-Contemporary	NONE
 Holy-Bible---Ngoni---Ngoni-Bible	NONE
 Holy-Bible---Norwegian---Living-Bible	NONE
 Holy-Bible---Norwegian---Norwegian-Bible	GEN42-43
@@ -1496,6 +1499,7 @@ Holy-Bible---Tongan---Revised-West-Version	NONE
 Holy-Bible---Tsakhur---Tsakhur-Bible	1SA23-24
 Holy-Bible---Tsakhur---Tsakhur-Bible	DAN3-4
 Holy-Bible---Tsakhur---Tsakhur-Bible	JON1-2
+Holy-Bible---Turkish---Open-Basic-Turkish	NONE
 Holy-Bible---Turkish---Turkish-Bible	NONE
 Holy-Bible---Twi---Akuapem-Twi-Bible	NONE
 Holy-Bible---Twi---Asante-Twi-WAKNA	NONE

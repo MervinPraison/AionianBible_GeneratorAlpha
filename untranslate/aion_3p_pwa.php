@@ -1224,6 +1224,8 @@ The <span class='notranslate'>Aionian</span>  Bible republishes public domain an
 All versions are available online at <a href='https://www.AionianBible.org/Read' target='_blank' title='The worlds first Holy Bible untranslation'>AionianBible.org</a> in web page, ePub, text, and PDF format.  Also read online with the  <a href='https://www.AionianBible.org/Google-Play' target='_blank' title='Aionian Bible free online at Google Play'><span class='notranslate'>Android</span></a>  and  <a href='https://www.AionianBible.org/Apple-iOS-App' target='_blank' title='Apple iOS App'><span class='notranslate'>Apple iOS App</span></a>.  Buy print Bibles at <a href='https://www.AionianBible.org/Buy' target='_blank' title='Holy Bible Aionian Edition at Amazon.com and Lulu.com'><span class='notranslate'>Amazon.com and Lulu.com</span></a>.<br>
 <br>
 </p><p>
+<b>03/12/25</b>&nbsp;&nbsp;382 translations now available in 166 languages.<br>
+</p><p>
 <b>01/28/25</b>&nbsp;&nbsp;All profits are given to <a href='https://CoolCup.org' target='_blank' title='Cool Cup of Water Project'>CoolCup.org</a>.<br>
 </p><p>
 <b>11/24/24</b>&nbsp;&nbsp;Progressive Web Application <a href='https://pwa.aionianbible.org/' target='_blank' title='PWA format'>off-line format</a>.<br>
@@ -1275,7 +1277,7 @@ All versions are available online at <a href='https://www.AionianBible.org/Read'
 </p><p>
 <b>10/31/19</b>&nbsp;&nbsp;174 translations now available in 74 languages.<br>
 </p><p>
-<b>10/28/19</b>&nbsp;&nbsp;<span class='notranslate'>Aionian</span>  Bible project nursed as J. and J. pray.<br>
+<b>10/28/19</b>&nbsp;&nbsp;<span class='notranslate'>Aionian</span>  Bible project nursed as another J. and J. pray.<br>
 </p><p>
 <b>03/24/19</b>&nbsp;&nbsp;135 translations now available in 67 languages.<br>
 </p><p>
@@ -1308,6 +1310,8 @@ All versions are available online at <a href='https://www.AionianBible.org/Read'
 <b>12/18/13</b>&nbsp;&nbsp;<span class='notranslate'>Aionian</span>  Bible project announced as J. and J. pray.<br>
 </p><p>
 <b>04/15/85</b>&nbsp;&nbsp;<span class='notranslate'>Aionian</span>  Bible project conceived as B. and J. pray.<br>
+</p><p>
+<b>06/21/75</b>&nbsp;&nbsp;Two boys, P. and J., wonder if Jesus saves all.<br>
 </p>
 `,
 

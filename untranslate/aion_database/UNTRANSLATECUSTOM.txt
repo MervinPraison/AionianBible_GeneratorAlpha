@@ -601,6 +601,7 @@ Holy-Bible---Ewe---Word-of-Life								NULL
 Holy-Bible---Finnish---Finnish-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Finnish---Finnish-Bible								NULL
 Holy-Bible---Finnish---Finnish-Pyha-Raamattu								NULL
+Holy-Bible---Finnish---Open-Living-News								NULL
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible								NULL
 Holy-Bible---French---Free-for-the-World	061	2PE	002	017	NOTE			questioned
 Holy-Bible---French---Free-for-the-World								NULL
@@ -880,6 +881,7 @@ Holy-Bible---Latin---Vulgate-Jerome								NULL
 Holy-Bible---Latvian---Latvian-Gluck-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Latvian---Latvian-Gluck-Bible								NULL
 Holy-Bible---Lingala---Lingala-Bible								NULL
+Holy-Bible---Lithuanian---Believers-Heritage								NULL
 Holy-Bible---Lodhi---Lodhi-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Lodhi---Lodhi-Bible								NULL
 Holy-Bible---Luganda---Luganda-Bible								NULL
@@ -984,6 +986,7 @@ Holy-Bible---Ndengereko---Ndengereko-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Ndengereko---Ndengereko-Bible								NULL
 Holy-Bible---Nend---Mark								NULL
 Holy-Bible---Nepali---Nepali-Bible								NULL
+Holy-Bible---Nepali---Nepali-Contemporary								NULL
 Holy-Bible---Ngoni---Ngoni-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Ngoni---Ngoni-Bible								NULL
 Holy-Bible---Norwegian---Living-Bible	061	2PE	002	017	NOTE			questioned
@@ -1692,6 +1695,7 @@ Holy-Bible---Telugu---Telugu-Bible								NULL
 Holy-Bible---Tongan---Revised-West-Version	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Tongan---Revised-West-Version								NULL
 Holy-Bible---Tsakhur---Tsakhur-Bible								NULL
+Holy-Bible---Turkish---Open-Basic-Turkish								NULL
 Holy-Bible---Turkish---Turkish-Bible								NULL
 Holy-Bible---Twi---Akuapem-Twi-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Twi---Akuapem-Twi-Bible								NULL

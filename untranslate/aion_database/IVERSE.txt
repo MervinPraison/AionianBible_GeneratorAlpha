@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 893487      
-# File Date: 03/07/2025 21:00:45
+# File Size: 902915      
+# File Date: 03/13/2025 10:55:09
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -1175,6 +1175,15 @@ Holy-Bible---Finnish---Finnish-Pyha-Raamattu	EXO-013-017	2 Mooseksen 13:17	Mutta
 Holy-Bible---Finnish---Finnish-Pyha-Raamattu	MAR-010-045	Markuksen 10:45	Sillä ei Ihmisen Poikakaan tullut palveltavaksi, vaan palvelemaan ja antamaan henkensä lunnaiksi monen edestä."
 Holy-Bible---Finnish---Finnish-Pyha-Raamattu	ROM-001-001	Roomalaisille 1:1	Paavali, Jeesuksen Kristuksen palvelija, kutsuttu apostoli, erotettu julistamaan Jumalan evankeliumia,
 Holy-Bible---Finnish---Finnish-Pyha-Raamattu	MAT-028-019	Matteuksen 28:19	Menkää siis ja tehkää kaikki kansat minun opetuslapsikseni, kastamalla heitä Isän ja Pojan ja Pyhän Hengen nimeen
+Holy-Bible---Finnish---Open-Living-News	JOH-003-016	Johannes 3:16	Jumala rakasti maailmaa niin paljon, että antoi ainoan Poikansa sitä varten, ettei kukaan, joka uskoo häneen, joutuisi perikatoon vaan saisi ikuisen elämän.
+Holy-Bible---Finnish---Open-Living-News	GEN-003-024		
+Holy-Bible---Finnish---Open-Living-News	LUK-023-034	Luukas 23:34	Jeesus sanoi: »Isä, anna näille ihmisille anteeksi, sillä he eivät tiedä, mitä tekevät.» Sotilaat arpoivat keskenään hänen vaatteensa.
+Holy-Bible---Finnish---Open-Living-News	REV-021-002	Ilmestys 21:2-3	Näin pyhän kaupungin, uuden Jerusalemin, tulevan taivaasta Jumalan luota. Se oli ihana näky – kuin morsian hääpuvussaan. Valtaistuimelta kaikui ääni: »Jumalan asuinpaikka on nyt ihmisten keskellä. Hän elää heidän joukossaan, ja he ovat hänen kansaansa.
+Holy-Bible---Finnish---Open-Living-News	HEB-011-008	Heprealaisille 11:8	Aabraham luotti Jumalaan. Jumala käski Aabrahamin lähteä kotoaan ja muuttaa maahan, jonka hän tälle antaisi. Aabraham totteli ja lähti liikkeelle, vaikkei edes tiennyt, mihin oli menossa.
+Holy-Bible---Finnish---Open-Living-News	EXO-013-017		
+Holy-Bible---Finnish---Open-Living-News	MAR-010-045	Markus 10:45	En minäkään, vaikka olen kotoisin taivaasta, ole tullut palveltavaksi, vaan palvelemaan ihmisiä ja antamaan henkeni lunnaiksi monien puolesta.»
+Holy-Bible---Finnish---Open-Living-News	ROM-001-001	Roomalaisille 1:1	Rakkaat Roomassa asuvat ystävät! Tämä kirje on Paavalilta, Jeesuksen Kristuksen palvelijalta, jonka Jumala on kutsunut työhönsä ja lähettänyt levittämään hyvää uutistaan.
+Holy-Bible---Finnish---Open-Living-News	MAT-028-019	Matteus 28:19	Menkää ja kutsukaa ihmisiä kaikista kansoista minun oppilaikseni. Kastakaa heidät Isän, Pojan ja Pyhän Hengen nimeen.
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible	JOH-003-016	Johannes 3:16	Want alzoo heeft God de wereld bemind, dat Hij zijn eeniggeboren Zoon heeft gegeven, opdat al wie in Hem gelooft niet verga, maar eeuwig leven hebbe.
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible	GEN-003-024		
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible	LUK-023-034	Lukas 23:34	En Jezus zeide: Vader, vergeef het hun, want zij weten niet wat ze doen! En zijn kleederen verdeelende wierpen zij er het lot over.
@@ -1206,10 +1215,10 @@ Holy-Bible---French---French-Crampon-Bible-New	JOH-003-016	Jean 3:16	En effet, D
 Holy-Bible---French---French-Crampon-Bible-New	GEN-003-024	Genèse 3:24	Et il chassa l’homme, et il mit à l’orient du jardin d’Eden les Chérubins et la flamme de l’épée tournoyante, pour garder le chemin de l’arbre de vie.
 Holy-Bible---French---French-Crampon-Bible-New	LUK-023-034	Luc 23:34	Mais Jésus disait: « Père, pardonnez-leur, car ils ne savent ce qu’ils font. » Se partageant ensuite ses vêtements, ils les tirèrent au sort.
 Holy-Bible---French---French-Crampon-Bible-New	REV-021-002	Apocalypse 21:2-3	Et je vis descendre du ciel, d’auprès de Dieu, la ville sainte, une Jérusalem nouvelle, vêtue comme une nouvelle mariée parée pour son époux. Et j’entendis une voix forte qui disait: « Voici le tabernacle de Dieu avec les hommes: il habitera avec eux, et ils seront son peuple; et lui-même il sera le Dieu avec eux, il sera leur Dieu.
-Holy-Bible---French---French-Crampon-Bible-New	HEB-011-008	Hébreux 11:8	C’est par la foi qu’Abraham, obéissant à l’appel de Dieu, partit pour un pays qu’il devait recevoir en héritage, et se mit en chemin sans savoir où il allait.
+Holy-Bible---French---French-Crampon-Bible-New	HEB-011-008	Hébreux 11:8	C’est par la foi qu’Abraham, obéissant à l’appel [de Dieu], partit pour un pays qu’il devait recevoir en héritage, et se mit en chemin sans savoir où il allait.
 Holy-Bible---French---French-Crampon-Bible-New	EXO-013-017	Exode 13:17	Lorsque Pharaon laissa aller le peuple, Dieu ne le conduisit pas par le chemin du pays des Philistins, quoique le plus court; car Dieu dit: « Le peuple pourrait se repentir en voyant la guerre, et retourner en Égypte. »
 Holy-Bible---French---French-Crampon-Bible-New	MAR-010-045	Marc 10:45	Car le Fils de l’homme est venu, non pour être servi, mais pour servir et donner sa vie pour la rançon de la multitude. »
-Holy-Bible---French---French-Crampon-Bible-New	ROM-001-001	Romains 1:1	Paul, serviteur du Christ-Jésus, apôtre par son appel, mis à part pour annoncer l’Evangile de Dieu,
+Holy-Bible---French---French-Crampon-Bible-New	ROM-001-001	Romains 1:1	Paul, serviteur du Christ-Jésus, apôtre par son appel, mis à part pour annoncer l’Évangile de Dieu.
 Holy-Bible---French---French-Crampon-Bible-New	MAT-028-019	Matthieu 28:19	Allez donc, enseignez toutes les nations, les baptisant au nom du Père, et du Fils et du Saint-Esprit,
 Holy-Bible---French---French-Darby-Bible	JOH-003-016	Jean 3:16	Car Dieu a tant aimé le monde, qu’il a donné son Fils unique, afin que quiconque croit en lui ne périsse pas, mais qu’il ait la vie éternelle.
 Holy-Bible---French---French-Darby-Bible	GEN-003-024	Genèse 3:24	il chassa l’homme, et plaça à l’orient du jardin d’Éden les chérubins et la lame de l’épée qui tournait çà et là, pour garder le chemin de l’arbre de vie.
@@ -2210,6 +2219,15 @@ Holy-Bible---Lingala---Lingala-Bible	EXO-013-017	Kobima 13:17	Tango Faraon atika
 Holy-Bible---Lingala---Lingala-Bible	MAR-010-045	Malako 10:45	Pamba te Mwana na Moto ayaki te mpo ete basalela Ye, kasi ayaki nde kosala mpo na bato mpe kopesa bomoi na Ye lokola motuya ya kofuta mpo na kosikola bato ebele.
 Holy-Bible---Lingala---Lingala-Bible	ROM-001-001	Barome 1:1	Polo, mowumbu ya Yesu-Klisto, oyo abengama mpo ete azala ntoma mpe aponama mpo na kosakola Sango Malamu ya Nzambe,
 Holy-Bible---Lingala---Lingala-Bible	MAT-028-019	Matayo 28:19	Bokende, bokomisa bato ya bikolo nyonso bayekoli na Ngai, bobatisa bango na Kombo ya Tata, ya Mwana mpe ya Molimo Mosantu;
+Holy-Bible---Lithuanian---Believers-Heritage	JOH-003-016	Jono 3:16	Nes Dievas taip mylėjo pasaulį, jog davė savo viengimį Sūnų, kad kiekvienas, kuris juo tiki, nepražūtų, bet turėtų amžiną gyvenimą.
+Holy-Bible---Lithuanian---Believers-Heritage	GEN-003-024		
+Holy-Bible---Lithuanian---Believers-Heritage	LUK-023-034		
+Holy-Bible---Lithuanian---Believers-Heritage	REV-021-002		 
+Holy-Bible---Lithuanian---Believers-Heritage	HEB-011-008		
+Holy-Bible---Lithuanian---Believers-Heritage	EXO-013-017		
+Holy-Bible---Lithuanian---Believers-Heritage	MAR-010-045		
+Holy-Bible---Lithuanian---Believers-Heritage	ROM-001-001	Romiečiams 1:1	Paulius, Jėzaus Kristaus tarnas, pašauktas apaštalas, išskirtas Dievo evangelijai,
+Holy-Bible---Lithuanian---Believers-Heritage	MAT-028-019		
 Holy-Bible---Lodhi---Lodhi-Bible	JOH-003-016	यूहन्ना 3:16	“कहालीकि परमेश्वर न जगत सी असो प्रेम करयो कि ओन अपनो एकलौतो टुरा दे दियो, ताकि जो कोयी ओको पर विश्वास करेंन त ऊ नाश नहीं होयेंन, पर अनन्त जीवन ख प्राप्त करेंन।
 Holy-Bible---Lodhi---Lodhi-Bible	GEN-003-024		
 Holy-Bible---Lodhi---Lodhi-Bible	LUK-023-034	लूका 23:34	तब यीशु न कह्यो, “हे बाप, इन्क माफ कर, कहालीकि हि जानय नहीं कि का कर रह्यो हंय।” अऊर उन्न चिट्ठी डाल क ओको कपड़ा बाट लियो।
@@ -2419,13 +2437,22 @@ Holy-Bible---Nend---Mark	ROM-001-001
 Holy-Bible---Nend---Mark	MAT-028-019		
 Holy-Bible---Nepali---Nepali-Bible	JOH-003-016	यूहन्‍ना 3:16	किनभने परमेश्‍वरले संसारलाई यस्तो प्रेम गर्नुभयो, कि उहाँले आफ्ना एक मात्र पुत्र दिनुभयो, ताकि उहाँमा ‍विश्‍वास गर्ने कोही पनि नमरोस्, तर उसले अनन्त जीवन पाओस् ।
 Holy-Bible---Nepali---Nepali-Bible	GEN-003-024	उत्पत्ति 3:24	परमेश्‍वरले मानिसलाई बगैँचाबाट निकालिदिनुभएपछि जीवनको रुखतर्फको मार्गमा पहरा दिन उहाँले अदनको बगैँचाको पूर्वमा करूबहरू र चारैदिशातर्फ घुमिरहने ज्वालामय तरवार राखिदिनुभयो ।
-Holy-Bible---Nepali---Nepali-Bible	LUK-023-034	लुका 23:34	येशूले भन्‍नुभयो, “हे पिता, तिनीहरूलाई क्षमा गर्नुहोस्, किनभने तिनीहरूले के गर्दै छन् सो जान्दैनन् ।” र तिनीहरूले उहाँका वस्‍त्रहरू भाग गर्नलाई चिट्ठा हाले ।
+Holy-Bible---Nepali---Nepali-Bible	LUK-023-034	लूका 23:34	येशूले भन्‍नुभयो, “हे पिता, तिनीहरूलाई क्षमा गर्नुहोस्, किनभने तिनीहरूले के गर्दै छन् सो जान्दैनन् ।” र तिनीहरूले उहाँका वस्‍त्रहरू भाग गर्नलाई चिट्ठा हाले ।
 Holy-Bible---Nepali---Nepali-Bible	REV-021-002	प्रकाश 21:2-3	तब परमेश्‍वरबाट दुलहाका लागि दुलहीझैँ सिङ्‍गारिएर तयार पारिएकी पवित्र सहर, नयाँ यरूशलेम स्वर्गबाट तल झरिरहेको मैले देखेँ । मैले सिंहासनबाट चर्को सोरमा यसो भनेको सुनेँ, “हेर, परमेश्‍वरको वासस्थान मानव-जातिसँग छ, र उहाँ तिनीहरूसँग बास गर्नुहुनेछ । तिनीहरू उहाँका मानिसहरू हुनेछन्, अनि परमेश्‍वर आफैँ तिनीहरूसँग हुनुहुनेछ र उहाँ तिनीहरूका परमेश्‍वर हुनुहुनेछ ।
-Holy-Bible---Nepali---Nepali-Bible	HEB-011-008	हिब्रू 11:8	अब्राहामलाई बोलाइँदा विश्‍वासद्वारा नै तिनले आज्ञापालन गरे र तिनी उत्तराधिकारको रूपमा पाउनुपर्ने ठाउँतिर गए । आफू कहाँ जाँदै छु भन्‍ने कुरा थाहै नपाए तापनि तिनी गए ।
+Holy-Bible---Nepali---Nepali-Bible	HEB-011-008	हिब्रूहरू 11:8	अब्राहामलाई बोलाइँदा विश्‍वासद्वारा नै तिनले आज्ञापालन गरे र तिनी उत्तराधिकारको रूपमा पाउनुपर्ने ठाउँतिर गए । आफू कहाँ जाँदै छु भन्‍ने कुरा थाहै नपाए तापनि तिनी गए ।
 Holy-Bible---Nepali---Nepali-Bible	EXO-013-017	प्रस्थान 13:17	फारोले मानिसहरूलाई जान दिएपछि परमेश्‍वरले तिनीहरूलाई पलिश्तीको देशको बाटो नजिकै भए तापनि त्यहाँबाट भएर अगुवाइ गर्नुभएन । किनकि उहाँले भन्‍नुभयो, “तिनीहरूले लडाइँ देखेर तिनीहरूको मन बद्ली तिनीहरू मिश्रमा नै फर्केर जान सक्छन् ।”
 Holy-Bible---Nepali---Nepali-Bible	MAR-010-045	मर्कूस 10:45	किनभने मानिसका पुत्र सेवा पाउन होइन, तर सेवा गर्नका निम्ति र धेरैको छुटकाराको मोलको रूपमा आफ्नो जीवन दिन आयो ।
 Holy-Bible---Nepali---Nepali-Bible	ROM-001-001	रोमी 1:1	प्रेरित हुनको निम्ति बोलाइएका र सुसमाचारको कामको निम्ति अलग गरिएका, येशू ख्रीष्‍टका दास पावल ।
 Holy-Bible---Nepali---Nepali-Bible	MAT-028-019	मत्ती 28:19	यसकारण, जाओ र सबै देशका जातिलाई चेला बनाओ । पिता, पुत्र र पवित्र आत्माको नाउँमा तिनीहरूलाई बप्‍तिस्‍मा देओ ।
+Holy-Bible---Nepali---Nepali-Contemporary	JOH-003-016	यूहन्‍ना 3:16	किनकि परमेश्‍वरले संसारलाई यस्तो प्रेम गर्नुभयो, कि उहाँले आफ्ना अद्वितीय पुत्रलाई बलिदानका लागि दिनुभयो, ताकि उहाँमाथि विश्‍वास गर्ने कोही पनि नाश नहोस्, तर त्यसले अनन्त जीवन पाओस्।
+Holy-Bible---Nepali---Nepali-Contemporary	GEN-003-024	उत्पत्ति 3:24	उहाँले मानिसलाई धपाइदिनुभएपछि, अदनको बगैँचाको पूर्वपट्टि जीवनको रूखमा जाने बाटोको रक्षा गर्नलाई करूबहरू अनि चारैतिर चम्किरहने ज्वालामय तरवार राखिदिनुभयो।
+Holy-Bible---Nepali---Nepali-Contemporary	LUK-023-034	लूका 23:34	येशूले भन्‍नुभयो, “हे पिता, यिनीहरूलाई क्षमा गरिदिनुहोस्; किनकि यिनीहरूले के गर्दैछन्, सो जान्दैनन्।” अनि तिनीहरूले उहाँको वस्त्र चिट्ठा हालेर आपसमा बाँडे।
+Holy-Bible---Nepali---Nepali-Contemporary	REV-021-002	प्रकाश 21:2-3	अनि मैले पवित्र सहर अर्थात् नयाँ यरूशलेमलाई आफ्ना पतिको निम्ति दुलहीझैँ सिँगारिएर स्वर्गदेखि परमेश्‍वरबाट तल झरिरहेको देखेँ। तब मैले सिंहासनबाट चर्को सोरले यसो भनिरहेको सुनेँ, “हेर! अब परमेश्‍वरको बास मानिसहरूसित भएको छ, र उहाँ तिनीहरूसित बस्‍नुहुनेछ। तिनीहरू उहाँका जातिहरू हुनेछन्, र परमेश्‍वर आफैँ नै तिनीहरूसित तिनीहरूका परमेश्‍वर हुनुहुनेछ।
+Holy-Bible---Nepali---Nepali-Contemporary	HEB-011-008	हिब्रूहरू 11:8	विश्‍वासैद्वारा अब्राहामले उनलाई जानू भनेको ठाउँमा आज्ञाकारी भएर गए, जुन ठाउँ पछिबाट मात्रै उत्तराधिकारको रूपमा प्राप्‍त हुनेवाला थियो। यद्यपि तिनी कहाँ जानुपर्ने हो, सो थाहा थिएन।
+Holy-Bible---Nepali---Nepali-Contemporary	EXO-013-017	प्रस्थान 13:17	जब फारोले ती मानिसहरूलाई जान दिए, याहवेहले तिनीहरूलाई पलिश्तीहरूको देश भएर डोर्‍याउनुभएन; यद्यपि त्यो छोटो थियो। किनकि परमेश्‍वरले भन्‍नुभयो, “तिनीहरूले युद्धको सामना गर्नुपर्‍यो भने तिनीहरूले आफ्ना मन परिवर्तन गरेर इजिप्टतिरै फर्कन सक्छन्।”
+Holy-Bible---Nepali---Nepali-Contemporary	MAR-010-045	मर्कूस 10:45	किनकि मानिसको पुत्र सेवा पाउनलाई होइन, तर सेवा गर्न र धेरैको छुटकाराको मोल स्वरूप आफ्नो प्राण दिनको लागि आएको हो।”
+Holy-Bible---Nepali---Nepali-Contemporary	ROM-001-001	रोमी 1:1	म पावल, ख्रीष्‍ट येशूको एक सेवक, प्रेरित हुनलाई बोलाइएको, र परमेश्‍वरका सुसमाचारको निम्ति अलग गरिएको हुँ,
+Holy-Bible---Nepali---Nepali-Contemporary	MAT-028-019	मत्ती 28:19	यसकारण जाओ, र सबै राष्ट्रहरूमा गएर चेला बनाओ, र तिनीहरूलाई पिता, पुत्र र पवित्र आत्माको नाममा बप्‍तिस्मा देओ,
 Holy-Bible---Ngoni---Ngoni-Bible	JOH-003-016	Yohani 3:16	Muni Chapanga avaganili neju vandu va mulima hati amuwusili Mwana waki ngamwene yuyo, muni yoyoha mwaisadika akotoka kuyaga ndi avyayi na wumi wa magono goha.
 Holy-Bible---Ngoni---Ngoni-Bible	GEN-003-024		
 Holy-Bible---Ngoni---Ngoni-Bible	LUK-023-034	Luka 23:34	Yesu akajova, “Dadi, valekekesa, muni nakumanya chevikita.” Kangi, vakagavana nyula zaki kwa kuhagula kwa gudugudu.
@@ -3263,6 +3290,15 @@ Holy-Bible---Tsakhur---Tsakhur-Bible	EXO-013-017	Qığeepç'iy 13:17	Fironee mil
 Holy-Bible---Tsakhur---Tsakhur-Bible	MAR-010-045		
 Holy-Bible---Tsakhur---Tsakhur-Bible	ROM-001-001		
 Holy-Bible---Tsakhur---Tsakhur-Bible	MAT-028-019	Matta 28:19	Mançil-allab hapk'ın gırgıne milletbışike Yizın telebabı hee'e, manbı Dekkıne, Duxayne, sayıb Muq'addasne Rı'hı'ne doyuka xhineeqa k'yooq'u gicəpxı'ybı aleet'e'e.
+Holy-Bible---Turkish---Open-Basic-Turkish	JOH-003-016	Yuhanna 3:16	Allah dünyayı o kadar sevdi ki, biricik Oğluʼnu verdi. Öyle ki, her kim Oʼna iman ederse mahvolmasın ama sonsuz yaşama kavuşsun.
+Holy-Bible---Turkish---Open-Basic-Turkish	GEN-003-024		
+Holy-Bible---Turkish---Open-Basic-Turkish	LUK-023-034	Luka 23:34	O zaman İsa şöyle dedi: “Baba, onları bağışla. Çünkü ne yaptıklarını bilmiyorlar.” Askerler İsaʼnın elbiselerini aralarında paylaşmak için kura çektiler.
+Holy-Bible---Turkish---Open-Basic-Turkish	REV-021-002	Vahiy 21:2-3	Kutsal şehrin, yeni Yeruşalimʼin gökten Allahʼın huzurundan indiğini gördüm. Kocası için süslenmiş bir gelin gibiydi. Tahttan çıkan gür bir ses işittim. Ses şöyle dedi: “Bakın! Allahʼın yaşadığı yer insanların arasındadır. O, onlarla birlikte yaşayacak. Onlar Oʼnun halkı olacaklar. Allahʼın kendisi de onların arasında olacak.
+Holy-Bible---Turkish---Open-Basic-Turkish	HEB-011-008	İbraniler 11:8	İman sayesinde İbrahim Allahʼın çağrısına uydu. Miras alacağı yere gitmek için yola çıktı. Ama yola çıkarken nereye gideceğini bilmiyordu.
+Holy-Bible---Turkish---Open-Basic-Turkish	EXO-013-017		
+Holy-Bible---Turkish---Open-Basic-Turkish	MAR-010-045	Markos 10:45	Çünkü, İnsan Oğlu Oʼna hizmet edilsin diye gelmedi. Hayır, O hizmet etmeye ve kendi canını feda ederek birçok kişiyi günaha esirlikten kurtarmaya geldi.”
+Holy-Bible---Turkish---Open-Basic-Turkish	ROM-001-001	Romalilar 1:1	Ben Pavlus, Mesih İsaʼnın kuluyum. Allah beni elçisi olmaya çağırdı ve Müjdesiʼni yaymak için seçti.
+Holy-Bible---Turkish---Open-Basic-Turkish	MAT-028-019	Matta 28:19	Bunun için gidin, bütün milletleri öğrencilerim olarak yetiştirin. Onları Baba, Oğul ve Kutsal Ruhadıylavaftiz edin.
 Holy-Bible---Turkish---Turkish-Bible	JOH-003-016	Yuhanna 3:16	“Çünkü Tanrı dünyayı o kadar çok sevdi ki, biricik Oğlu'nu verdi. Öyle ki, O'na iman edenlerin hiçbiri mahvolmasın, hepsi sonsuz yaşama kavuşsun.
 Holy-Bible---Turkish---Turkish-Bible	GEN-003-024	Yaratiliş 3:24	Onu kovdu. Yaşam ağacının yolunu denetlemek için de Aden bahçesinin doğusuna Keruvlar ve her yana dönen alevli bir kılıç yerleştirdi.
 Holy-Bible---Turkish---Turkish-Bible	LUK-023-034	Luka 23:34	İsa, “Baba, onları bağışla” dedi. “Çünkü ne yaptıklarını bilmiyorlar.” O'nun giysilerini aralarında paylaşmak için kura çektiler.

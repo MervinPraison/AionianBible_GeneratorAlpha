@@ -5170,6 +5170,80 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---Finnish---Open-Living-News" :
+$textfix = <<<EOF
+MAT 12:32 Jos ihminen pilkkaa minua tai tekee mitä tahansa muuta syntiä, sen hän voi saada anteeksi. Mutta on yksi asia, jota ei voi koskaan saada anteeksi, ei tässä maailmassa eikä tulevassa, ja se on Pyhää Henkeä vastaan puhuminen.
+MAT 12:33 
+EOF;
+if (!($bfile = preg_replace("/MAT 12:31 (.+?)MAT 12:33 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+LUK 1:32 Hän on suuri, hän on Jumalan Poika. Jumala tekee hänestä kuninkaan niin kuin hänen esi-isästään Daavidista,
+LUK 1:33 mutta Jeesuksen valtakunta, hänen Israelinsa, on ikuinen.»
+LUK 1:34 
+EOF;
+if (!($bfile = preg_replace("/LUK 1:32 (.+?)LUK 1:34 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+LUK 20:34 Jeesus vastasi: »Avioliittoja solmitaan vain täällä maan päällä.
+LUK 20:35 Ne, jotka pääsevät kuoleman jälkeen ikuiseen elämään, eivät enää mene siellä naimisiin.
+LUK 20:36 
+EOF;
+if (!($bfile = preg_replace("/LUK 20:34 (.+?)LUK 20:36 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2CO 13:12 Jeesukseen uskovat, tervehtikää toisianne lämpimästi.
+2CO 13:13 Kaikki kristityt lähettävät teille täältä parhaat terveisensä.
+2CO 13:14 Toivon kaikkien elämään Jeesuksen Kristuksen armon, Jumalan rakkauden ja Pyhän Hengen todellisuutta.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+EPH 3:10 Miksi hän teki tällaisen suunnitelman? Siksi, että henkivallatkin tajuaisivat, miten täydellinen hänen viisautensa on, kun näkevät Jumalan koko perheen – sekä pakanoiden että juutalaisten – liittyvän Jeesuksen välityksellä yhdeksi seurakunnaksi
+EPH 3:11 tarkalleen Jumalan suunnitelman mukaan.
+EPH 3:12 
+EOF;
+if (!($bfile = preg_replace("/EPH 3:10 (.+?)EPH 3:12 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+COL 1:25 Jumala lähetti minut auttamaan seurakuntaansa ja kertomaan teille tähän asti salassa pitämästään suunnitelmasta.
+COL 1:26 Vuosisatojen ja sukupolvien ajan hän on varjellut salaisuuttaan, mutta nyt hän haluaa paljastaa sen niille, jotka rakastavat häntä ja elävät hänelle.
+COL 1:27 Hänen valtava suunnitelmansa koskee myös pakanoita. Ja tällainen on hänen salaisuutensa: Kristus elää teissä, ja sen tähden teillä on toivo ikuisesta elämästä.
+COL 1:28 
+EOF;
+if (!($bfile = preg_replace("/COL 1:25 (.+?)COL 1:28 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+TIT 1:1 [Lähettäjä:] Paavali, Jumalan palvelija ja Jeesuksen Kristuksen lähettiläs. Tehtäväni on auttaa Jumalan valitsemia ihmisiä uskoon. Opetan heille Jumalan totuutta, joka muuttaa kaiken.
+TIT 1:2 Niin he voivat saada ikuisen elämän, jonka Jumala on heille luvannut jo ennen maailman luomista – eikä hän koskaan valehtele.
+TIT 1:3 
+EOF;
+if (!($bfile = preg_replace("/TIT 1:1 (.+?)TIT 1:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+HEB 6:4 Niitä, jotka ovat ymmärtäneet hyvän uutisen Kristuksesta, mutta kääntäneet sitten Jumalalle selkänsä, ei kannata yrittää tuoda uudestaan hänen luokseen.
+HEB 6:5 He ovat maistaneet uutta elämää Kristuksen ja Pyhän Hengen yhteydessä, oppineet tuntemaan Jumalan sanaa ja tulevan maailman suunnattomia voimia.
+HEB 6:6 
+EOF;
+if (!($bfile = preg_replace("/HEB 6:4 (.+?)HEB 6:6 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+HEB 13:20 Toivon vielä, että rauhan Jumala, joka herätti Herran Jeesuksen kuolleista, antaisi teille kaiken, mitä tarvitsette voidaksenne elää niin kuin hän haluaa. Jeesus on hyvä ja suuri paimen. Hänen verensä merkitsee ikuisesti kestävää liittoa Jumalan ja teidän välillänne.
+HEB 13:21 Suokoon Jumala, että Kristuksen voima saisi tehdä teistä sellaisia kuin Jumala tahtoo. Hänelle kunnia ikuisesti! Aamen.
+HEB 13:22 
+EOF;
+if (!($bfile = preg_replace("/HEB 13:20 (.+?)HEB 13:22 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2JO 1:1 [Lähettäjä:] Johannes, seurakunnan johtaja. [Vastaanottaja:] Jumalan omien seurakunta,
+2JO 1:2 jota minä ja muut uskovat vilpittömästi rakastamme yhteisen Vapahtajamme Jeesuksen Kristuksen tähden.
+2JO 1:3 
+EOF;
+if (!($bfile = preg_replace("/2JO 1:1 (.+?)2JO 1:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JUD 1:24 Hän voi estää teidät sortumasta vääryyteen ja viedä teidät puhtaina ja täydellisinä luokseen taivaan riemuun.
+JUD 1:25 Kaikki kunnia hänelle, joka yksin on Jumala! Hän pelastaa meidät Jeesuksen Kristuksen, Herramme, tähden. Hänellä on alusta asti ollut kirkkaus, kunnia, voima ja valta, ja ne pysyvät hänellä ikuisesti. Aamen.
+REV 1:1 
+EOF;
+if (!($bfile = preg_replace("/JUD 1:24 (.+?)REV 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---Flemish---Flemish-De-Jonge-Bible" :
 if (!($bfile = preg_replace("/Ik heb 17 heden gewonnen/us","Ik heb Je vandaag het leven gegeven",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
@@ -5209,104 +5283,99 @@ case "Holy-Bible---French---French-Crampon-Bible" :
 if (!($bfile = preg_replace("/\([\dxvi, -]+\)/us",'$1',$bfile,-1,$rnum)) || $rnum!=34) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 $textfix = <<<EOF
-Genesis 22:19 Abraham retourna vers ses serviteurs et, s’étant levés, ils s’en allèrent ensemble à Bersabée. Et Abraham habita à Bersabée.
-Genesis 22:20 
-EOF;
-if (!($bfile = preg_replace("/Genesis 22:19 (.+?)Genesis 22:20 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Genesis 22:19 Abraham retourna vers ses serviteurs et, s’étant levés, ils s’en allèrent ensemble à Bersabée. Et Abraham habita à Bersabée.
-Genesis 22:20 
-EOF;
-if (!($bfile = preg_replace("/Genesis 22:19 (.+?)Genesis 22:20 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Genesis 30:24 Et elle le nomma Joseph, en disant  : « Que Yahweh m’ajoute encore un autre fils  ! » 
-Genesis 30:25 Lorsque Rachel eut enfanté Joseph, Jacob dit à Laban  : « Laisse-moi partir, et que je retourne chez moi, dans mon pays.
+Genesis 30:24 Et elle le nomma Joseph, en disant : « Que Yahweh m’ajoute encore un autre fils ! »
+Genesis 30:25 Lorsque Rachel eut enfanté Joseph, Jacob dit à Laban : « Laisse-moi partir, et que je retourne chez moi, dans mon pays.
 Genesis 30:26 Donne-moi mes femmes, ainsi que mes enfants, pour lesquels je t’ai servi, et je m’en irai, car tu sais quel service j’ai fait pour toi. »
-Genesis 30:27 Laban lui dit  : « Si j’ai trouvé grâce à tes yeux… J’ai observé que Yahweh m’a béni à cause de toi  ;
+Genesis 30:27 Laban lui dit : « Si j’ai trouvé grâce à tes yeux… J’ai observé que Yahweh m’a béni à cause de toi ;
 Genesis 30:28 fixe-moi ton salaire, et je te le donnerai. »
-Genesis 30:29 Jacob lui dit  : « Tu sais toi-même comment je t’ai servi et ce qu’est devenu ton bétail avec moi.
-Genesis 30:30 Car c’était peu de chose que ton bien avant moi  ; mais il s’est extrêmement accru, et Yahweh t’a béni sur mes pas. Maintenant quand travaillerai-je aussi pour ma maison  ? »
-Genesis 30:31 Laban dit  : « Que te donnerai-je  ? » Et Jacob dit  : « Tu ne me donneras rien. Si tu m’accordes ce que je vais dire, je recommencerai à paître ton troupeau et à le garder.
-Genesis 30:32 Je passerai aujourd’hui à travers tout ton troupeau, en mettant à part parmi les agneaux toute bête tachetée et marquetée et toute bête noire, et parmi les chèvres tout ce qui est marqueté et tacheté  : ce sera mon salaire.
+Genesis 30:29 Jacob lui dit : « Tu sais toi-même comment je t’ai servi et ce qu’est devenu ton bétail avec moi.
+Genesis 30:30 Car c’était peu de chose que ton bien avant moi ; mais il s’est extrêmement accru, et Yahweh t’a béni sur mes pas. Maintenant quand travaillerai-je aussi pour ma maison ? »
+Genesis 30:31 Laban dit : « Que te donnerai-je ? » Et Jacob dit : « Tu ne me donneras rien. Si tu m’accordes ce que je vais dire, je recommencerai à paître ton troupeau et à le garder.
+Genesis 30:32 Je passerai aujourd’hui à travers tout ton troupeau, en mettant à part parmi les agneaux toute bête tachetée et marquetée et toute bête noire, et parmi les chèvres tout ce qui est marqueté et tacheté : ce sera mon salaire.
 Genesis 30:33 Ma droiture témoignera pour moi demain, quand tu viendras reconnaître mon salaire. Tout ce qui ne sera pas tacheté et marqueté parmi les chèvres, et noir parmi les agneaux sera chez moi un vol. »
-Genesis 30:34 Laban dit  : « Eh bien, qu’il en soit selon ta parole. »
-Genesis 30:35 Et le jour même, il mit à part les boucs rayés et marquetés, toutes les chèvres tachetées et marquetées, toutes celles qui avaient du blanc, et tout ce qui était noir parmi les agneaux  ; et il les mit entre les mains de ses fils.
-Genesis 30:36 Puis il mit l’espace de trois journées de chemin entre lui et Jacob. Et Jacob faisait paître le reste du troupeau de Laban. 
-Genesis 30:37 Jacob prit des baguettes vertes de peuplier, d’amandier et de platane  ; il y pela des bandes blanches, mettant à nu le blanc qui était sur les baguettes.
-Genesis 30:38 Puis il plaça les baguettes qu’il avait pelées en regard des brebis dans les rigoles, dans les abreuvoirs où les brebis venaient boire  ; et elles entraient en chaleur quand elles venaient boire.
+Genesis 30:34 Laban dit : « Eh bien, qu’il en soit selon ta parole. »
+Genesis 30:35 Et le jour même, il mit à part les boucs rayés et marquetés, toutes les chèvres tachetées et marquetées, toutes celles qui avaient du blanc, et tout ce qui était noir parmi les agneaux ; et il les mit entre les mains de ses fils.
+Genesis 30:36 Puis il mit l’espace de trois journées de chemin entre lui et Jacob. Et Jacob faisait paître le reste du troupeau de Laban.
+Genesis 30:37 Jacob prit des baguettes vertes de peuplier, d’amandier et de platane ; il y pela des bandes blanches, mettant à nu le blanc qui était sur les baguettes.
+Genesis 30:38 Puis il plaça les baguettes qu’il avait pelées en regard des brebis dans les rigoles, dans les abreuvoirs où les brebis venaient boire ; et elles entraient en chaleur quand elles venaient boire.
 Genesis 30:39 Et les brebis, entrant en chaleur devant les baguettes, faisaient des petits rayés, tachetés et marquetés.
 Genesis 30:40 Jacob mettait à part les agneaux, et il tournait la face du troupeau vers ce qui était rayé et tout ce qui était noir dans le troupeau de Laban. Il se fit ainsi des troupeaux à lui, qu’il ne joignit pas au troupeau de Laban.
 Genesis 30:41 En outre, c’était quand les brebis vigoureuses entraient en chaleur que Jacob mettait sous les yeux des brebis les baguettes dans les abreuvoirs, afin qu’elles entrassent en chaleur près des baguettes.
 Genesis 30:42 Quand les brebis étaient chétives, il ne les mettait point, en sorte que les agneaux chétifs étaient pour Laban, et les vigoureux pour Jacob.
-Genesis 30:43 Cet homme devint ainsi extrêmement riche  ; il eut de nombreux troupeaux, des servantes et des serviteurs, des chameaux et des ânes. 
+Genesis 30:43 Cet homme devint ainsi extrêmement riche ; il eut de nombreux troupeaux, des servantes et des serviteurs, des chameaux et des ânes.
 Genesis 31:1 
 EOF;
 if (!($bfile = preg_replace("/Genesis 30:24 (.+?)Genesis 31:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Exodus 23:13 Vous prendrez garde à tout ce que je vous ai dit  ; vous ne prononcerez point le nom de dieux étrangers, et on n’en entendra pas sortir de votre bouche.
+Exodus 23:13 Vous prendrez garde à tout ce que je vous ai dit ; vous ne prononcerez point le nom de dieux étrangers, et on n’en entendra pas sortir de votre bouche.
 Exodus 23:14 
 EOF;
 if (!($bfile = preg_replace("/Exodus 23:13 (.+?)Exodus 23:14 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Numbers 26:1 À la suite de cette plaie, Yahweh parla à Moïse et à Eléazar, fils d’Aaron, le prêtre, en disant :
+Numbers 21:17 Alors Israël chanta ce cantique : Monte, puits ! Acclamez-le !
+Numbers 21:18 Le puits, que des princes ont creusé,que les grands du peuple ont ouvert, avec le sceptre, avec leurs bâtons ! Du désert ils allèrent à Matthana ;
+Numbers 21:19 
+EOF;
+if (!($bfile = preg_replace("/Numbers 21:17 (.+?)Numbers 21:19 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Numbers 21:27 C’est pourquoi les poètes disent : Venez à Hésebon ! Que la ville de Séhon soit rebâtie et fortifiée !
+Numbers 21:28 
+EOF;
+if (!($bfile = preg_replace("/Numbers 21:27 (.+?)Numbers 21:28 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Numbers 26:1 À la suite de cette plaie, Yahweh parla à Moïse et à Eléazar, fils d’Aaron, le prêtre, en disant :
 Numbers 26:2 
 EOF;
 if (!($bfile = preg_replace("/Numbers 25:19 (.+?)Numbers 26:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Numbers 26:39 de Supham, la famille des Suphamites  ; de Hupham, la famille des Huphamites. —
-Numbers 26:40 
-EOF;
-if (!($bfile = preg_replace("/Numbers 26:39 (.+?)Numbers 26:40 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-Joshua 10:11 Comme ils fuyaient devant Israël, à la descente de Béthoron, Yahweh fit tomber du ciel sur eux de grosses pierres jusqu’à Azéca, et ils moururent  ; ceux qui moururent par les pierres de grêle furent plus nombreux que ceux qui furent tués par l’épée des enfants d’Israël.
-Joshua 10:12 Soleil, arrête-toi sur Gabaon, et toi, lune, sur la vallée d’Ajalon  ! 
-Joshua 10:13 
-EOF;
-if (!($bfile = preg_replace("/Joshua 10:11 (.+?)Joshua 10:13 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
 
 I Samuel 2:36 Et je me susciterai un prêtre fidèle, qui agira selon mon cœur et selon mon âme, je lui bâtirai une maison stable, et il marchera toujours devant mon oint.
-I Samuel 2:37 Et quiconque restera de ta maison viendra se prosterner devant lui, pour avoir une pièce d’argent et un morceau de pain, et il dira  : Mets-moi, je te prie, à quelqu’une des fonctions du sacerdoce, afin que j’aie un morceau de pain à manger. »
+I Samuel 2:37 Et quiconque restera de ta maison viendra se prosterner devant lui, pour avoir une pièce d’argent et un morceau de pain, et il dira : Mets-moi, je te prie, à quelqu’une des fonctions du sacerdoce, afin que j’aie un morceau de pain à manger. »
 I Samuel 3:1 
 EOF;
 if (!($bfile = preg_replace("/\nI Samuel 2:36 (.+?)\nI Samuel 3:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Psalms 13:1 Au maître de chant. Chant de David. Jusques à quand, Yahweh, m’oublieras-tu toujours  ? Jusques à quand me cacheras-tu ta face  ? 
-Psalms 13:2 Jusques à quand formerai-je en mon âme des projets, et chaque jour le chagrin remplira-t-il mon cœur  ? Jusques à quand mon ennemi s’élèvera-t-il contre moi  ? 
-Psalms 13:3 Regarde, réponds-moi, Yahweh, mon Dieu  ! Donne la lumière à mes yeux, afin que je ne m’endorme pas dans la mort, 
-Psalms 13:4 afin que mon ennemi ne dise pas  : « Je l’ai vaincu  ! » et que mes adversaires ne se réjouissent pas en me voyant chanceler. 
-Psalms 13:5 Moi, j’ai confiance en ta bonté  ; mon cœur tressaillira à cause de ton salut,
-Psalms 13:6 je chanterai Yahweh pour le bien qu’il m’a fait. 
+Psalms 9:17 Yahweh s’est montré, il a exercé le jugement, dans l’œuvre de ses mains il a enlacé l’impie. Séla . 
+Psalms 9:18 
+EOF;
+if (!($bfile = preg_replace("/Psalms 9:17 (.+?)Psalms 9:18 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Psalms 13:1 Au maître de chant. Chant de David. Jusques à quand, Yahweh, m’oublieras-tu toujours ? Jusques à quand me cacheras-tu ta face ? 
+Psalms 13:2 Jusques à quand formerai-je en mon âme des projets, et chaque jour le chagrin remplira-t-il mon cœur ? Jusques à quand mon ennemi s’élèvera-t-il contre moi ? 
+Psalms 13:3 Regarde, réponds-moi, Yahweh, mon Dieu ! Donne la lumière à mes yeux, afin que je ne m’endorme pas dans la mort, 
+Psalms 13:4 afin que mon ennemi ne dise pas : « Je l’ai vaincu ! » et que mes adversaires ne se réjouissent pas en me voyant chanceler. 
+Psalms 13:5 Moi, j’ai confiance en ta bonté ; mon cœur tressaillira à cause de ton salut,
+Psalms 13:6 je chanterai Yahweh pour le bien qu’il m’a fait.
 Psalms 14:1 
 EOF;
 if (!($bfile = preg_replace("/Psalms 13:1 (.+?)Psalms 14:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 Psalms 60:6 Mais tu as donné à ceux qui te craignent une bannière, afin qu’elle s’élève à cause de ta vérité. — Séla. 
 Psalms 60:7 Afin que tes bien-aimés soient délivrés, sauve par ta droite, et exauce-moi. 
-Psalms 60:8 Dieu a parlé dans sa sainteté  : « Je tressaillirai de joie. J’aurai Sichem en partage, et je mesurerai la vallée de Succoth. 
-Psalms 60:9 Galaad est à moi, à moi Manassé  ! Ephraïm est l’armure de ma tête, et Juda mon sceptre. 
-Psalms 60:10 Moab est le bassin où je me lave  ; sur Edom je jette ma sandale  ; terre des Philistins, pousse des acclamations en mon honneur  ! » 
-Psalms 60:11 Qui me mènera à la ville forte  ? Qui me conduira à Edom  ? 
-Psalms 60:12 N’est-ce pas toi, ô Dieu, qui nous avais rejetés, ô Dieu, qui ne sortais plus avec nos armées  ? 
-Psalms 60:13 Prête-nous ton secours contre l’oppresseur  ! Le secours de l’homme n’est que vanité.
-Psalms 60:14 Avec Dieu nous accomplirons des exploits  ; il écrasera nos ennemis. 
+Psalms 60:8 Dieu a parlé dans sa sainteté : « Je tressaillirai de joie. J’aurai Sichem en partage, et je mesurerai la vallée de Succoth. 
+Psalms 60:9 Galaad est à moi, à moi Manassé ! Ephraïm est l’armure de ma tête, et Juda mon sceptre. 
+Psalms 60:10 Moab est le bassin où je me lave ; sur Edom je jette ma sandale ; terre des Philistins, pousse des acclamations en mon honneur ! » 
+Psalms 60:11 Qui me mènera à la ville forte ? Qui me conduira à Edom ? 
+Psalms 60:12 N’est-ce pas toi, ô Dieu, qui nous avais rejetés, ô Dieu, qui ne sortais plus avec nos armées ? 
+Psalms 60:13 Prête-nous ton secours contre l’oppresseur ! Le secours de l’homme n’est que vanité.
+Psalms 60:14 Avec Dieu nous accomplirons des exploits ; il écrasera nos ennemis. 
 Psalms 61:1 
 EOF;
 if (!($bfile = preg_replace("/Psalms 60:6 (.+?)Psalms 61:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Psalms 120:1 Cantique des montées. Vers Yahweh, dans ma détresse, j’ai crié, et il m’a exaucé  : 
+Psalms 120:1 Cantique des montées. Vers Yahweh, dans ma détresse, j’ai crié, et il m’a exaucé : 
 Psalms 120:2 
 EOF;
 if (!($bfile = preg_replace("/Psalms 120:1 (.+?)Psalms 120:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Isaiah 9:19 On coupe à droite, et l’on a faim  ; on dévore à gauche, et l’on n’est point rassasié  ; chacun dévore la chair de son bras;
+Isaiah 9:19 On coupe à droite, et l’on a faim ; on dévore à gauche, et l’on n’est point rassasié ; chacun dévore la chair de son bras ;
 Isaiah 9:20 Manassé contre Éphraïm, Éphraïm contre Manassé, tous deux ensemble contre Juda ! Avec tout cela, sa colère ne s’est point détournée, et sa main reste étendue. 
 Isaiah 10:1 
 EOF;
 if (!($bfile = preg_replace("/Isaiah 9:19 (.+?)Isaiah 10:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 Isaiah 63:19 Nous sommes depuis longtemps comme un peuple que vous ne gouvernez pas, sur lequel votre nom n’est pas invoqué.
-Isaiah 63:20 Ah  ! si vous déchiriez les cieux, si vous descendiez, — les montagnes seraient ébranlées devant vous  ! —
+Isaiah 63:20 Ah ! si vous déchiriez les cieux, si vous descendiez, — les montagnes seraient ébranlées devant vous ! — 
 Isaiah 64:1 
 EOF;
 if (!($bfile = preg_replace("/Isaiah 63:19 (.+?)Isaiah 64:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -5345,22 +5414,22 @@ Matthew 17:19 Alors les disciples vinrent trouver Jésus en particulier, et lui 
 Matthew 17:20 Jésus leur dit : « À cause de votre manque de foi. En vérité, je vous le dis, si vous avez de la foi comme un grain de sénevé, vous direz à cette montagne : Passe d’ici là, et elle y passera, et rien ne vous sera impossible.
 Matthew 17:21 Mais ce genre de démon n’est chassé que par le jeûne et la prière. » 
 Matthew 17:22 Comme ils parcouraient la Galilée, Jésus leur dit : « Le Fils de l’homme doit être livré entre les mains des hommes,
-Matthew 17:23 et ils le mettront à mort, et il ressuscitera le troisième jour.  » Et ils en furent vivement attristés. 
+Matthew 17:23 et ils le mettront à mort, et il ressuscitera le troisième jour. » Et ils en furent vivement attristés.
 Matthew 17:24 Lorsqu’ils furent de retour à Capharnaüm, ceux qui recueillaient les didrachmes s’approchèrent de Pierre et lui dirent : « Votre Maître ne paie-t-il pas les didrachmes ? » —
 Matthew 17:25 « Oui, » dit Pierre. Et comme ils entraient dans la maison, Jésus le prévenant, lui dit : « Que t’en semble, Simon ? De qui les rois de la terre perçoivent-ils des tributs ou le cens ? De leurs fils, ou des étrangers ? »
 Matthew 17:26 Pierre répondit : « Des étrangers, — Les fils, lui dit Jésus, en sont donc exempts.
-Matthew 17:27 Mais pour ne pas les scandaliser, va à la mer, jette l’hameçon, tire le premier poisson qui montera ; puis, ouvrant sa bouche, tu y trouveras un statère. Prends-le et donne-le-leur pour moi et pour toi. » 
+Matthew 17:27 Mais pour ne pas les scandaliser, va à la mer, jette l’hameçon, tire le premier poisson qui montera ; puis, ouvrant sa bouche, tu y trouveras un statère. Prends-le et donne-le-leur pour moi et pour toi. »
 Matthew 18:1 
 EOF;
 if (!($bfile = preg_replace("/Matthew 17:14 (.+?)Matthew 18:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Matthew 19:29 Et quiconque aura quitté des maisons, ou des frères, ou des sœurs, ou un père, ou une mère, ou une femme, ou des enfants, ou des champs à cause de mon nom, il recevra le centuple et possédera la vie éternelle. » 
+Matthew 19:29 Et quiconque aura quitté des maisons, ou des frères, ou des sœurs, ou un père, ou une mère, ou une femme, ou des enfants, ou des champs à cause de mon nom, il recevra le centuple et possédera la vie éternelle. »
 Matthew 19:30 
 EOF;
 if (!($bfile = preg_replace("/Matthew 19:29 (.+?)Matthew 19:30 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Mark 4:40 Et il leur dit : « Pourquoi êtes-vous effrayés ? N’avez-vous pas encore la foi ? »
-Mark 4:41 Et ils furent saisis d’une grande crainte, et ils se disaient l’un à l’autre : « Qui donc est celui-ci, que le vent et la mer lui obéissent ? » 
+Mark 4:40 Et il leur dit : « Pourquoi êtes-vous effrayés ? N’avez-vous pas encore la foi ? »
+Mark 4:41 Et ils furent saisis d’une grande crainte, et ils se disaient l’un à l’autre : « Qui donc est celui-ci, que le vent et la mer lui obéissent ? »
 Mark 5:1 
 EOF;
 if (!($bfile = preg_replace("/Mark 4:40 (.+?)Mark 5:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -5371,7 +5440,7 @@ Mark 9:1
 EOF;
 if (!($bfile = preg_replace("/Mark 8:38 (.+?)Mark 9:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Luke 1:32 Il sera grand, on l’appellera le Fils du Très-Haut  ; le Seigneur Dieu lui donnera le trône de David son père  ;
+Luke 1:32 Il sera grand, on l’appellera le Fils du Très-Haut ; le Seigneur Dieu lui donnera le trône de David son père ;
 Luke 1:33 il régnera éternellement sur la maison de Jacob, et son règne n’aura point de fin. »
 Luke 1:34 
 EOF;
@@ -5379,79 +5448,74 @@ if (!($bfile = preg_replace("/Luke 1:32 (.+?)Luke 1:34 /us",$textfix,$bfile,-1,$
 $textfix = <<<EOF
 Luke 1:73 Selon le serment qu’il fit à Abraham, notre père,
 Luke 1:74 De nous accorder que, sans crainte, Affranchis du pouvoir de nos ennemis,
-Luke 1:75 Nous le servions, avec une sainteté et une justice Dignes de ses regards, tous les jours de notre vie. 
+Luke 1:75 Nous le servions, avec une sainteté et une justice Dignes de ses regards, tous les jours de notre vie.
 Luke 1:76 
 EOF;
 if (!($bfile = preg_replace("/Luke 1:73 (.+?)Luke 1:76 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 
-John 3:21 Mais celui qui accomplit la vérité, vient à la lumière, de sorte que ses œuvres soient manifestées, parce qu’elles sont faites en Dieu. » 
+John 3:21 Mais celui qui accomplit la vérité, vient à la lumière, de sorte que ses œuvres soient manifestées, parce qu’elles sont faites en Dieu. »
 John 3:22 
 EOF;
 if (!($bfile = preg_replace("/\nJohn 3:21 (.+?)\nJohn 3:22 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 
-John 4:13 Jésus lui répondit  : « Quiconque boit de cette eau aura encore soif  ;
-John 4:14 mais celui qui boira de l’eau que je lui donnerai, n’aura plus jamais soif  ; au contraire l’eau que je lui donnerai deviendra en lui une source d’eau jaillissant jusqu’à la vie éternelle. »
+John 4:13 Jésus lui répondit : « Quiconque boit de cette eau aura encore soif ;
+John 4:14 mais celui qui boira de l’eau que je lui donnerai, n’aura plus jamais soif ; au contraire l’eau que je lui donnerai deviendra en lui une source d’eau jaillissant jusqu’à la vie éternelle. »
 John 4:15 
 EOF;
 if (!($bfile = preg_replace("/\nJohn 4:13 (.+?)\nJohn 4:15 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 
-John 5:39 Vous scrutez les Écritures, parce que vous pensez trouver en elles la vie éternelle  ; or, ce sont elles qui rendent témoignage de moi  ;
+John 5:39 Vous scrutez les Écritures, parce que vous pensez trouver en elles la vie éternelle ; or, ce sont elles qui rendent témoignage de moi ;
 John 5:40 et vous ne voulez pas venir à moi pour avoir la vie.
 John 5:41 
 EOF;
 if (!($bfile = preg_replace("/\nJohn 5:39 (.+?)\nJohn 5:41 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 
-John 12:24 En vérité, en vérité, je vous le dis, si le grain de blé tombé en terre ne meurt pas, il demeure seul  ; mais s’il meurt, il porte beaucoup de fruit.
-John 12:25 Celui qui aime sa vie, la perdra  ; et celui qui hait sa vie en ce monde, la conservera pour la vie éternelle.
+John 10:21 D’autres disaient : « Ce ne sont pas là les paroles d’un possédé ; est-ce qu’un démon peut ouvrir les yeux des aveugles ?
+John 10:22 
+EOF;
+if (!($bfile = preg_replace("/\nJohn 10:21 (.+?)\nJohn 10:22 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+
+John 12:24 En vérité, en vérité, je vous le dis, si le grain de blé tombé en terre ne meurt pas, il demeure seul ; mais s’il meurt, il porte beaucoup de fruit.
+John 12:25 Celui qui aime sa vie, la perdra ; et celui qui hait sa vie en ce monde, la conservera pour la vie éternelle.
 John 12:26 
 EOF;
 if (!($bfile = preg_replace("/\nJohn 12:24 (.+?)\nJohn 12:26 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Acts 19:40 Nous risquons, en effet, d’être accusés de sédition pour ce qui s’est passé aujourd’hui, car il n’existe aucun motif qui nous permette de justifier cet attroupement. »
-Acts 19:41 Ayant parlé ainsi, il congédia l’assemblée. 
+Acts 19:40 Nous risquons, en effet, d’être accusés de sédition pour ce qui s’est passé aujourd’hui, car il n’existe aucun motif qui nous permette de justifier cet attroupement. «
+Acts 19:41 Ayant parlé ainsi, il congédia l’assemblée.
 Acts 20:1 
 EOF;
 if (!($bfile = preg_replace("/Acts 19:40 (.+?)Acts 20:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Romans 11:35 Ou bien « qui lui a donné le premier, pour qu’il ait à recevoir en retour  ? »
-Romans 11:36 De lui, par lui et pour lui sont toutes choses. A lui la gloire dans tous les siècles ! Amen !
-Romans 12:1 
-EOF;
-if (!($bfile = preg_replace("/Romans 11:35 (.+?)Romans 12:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
 II Corinthians 13:12 Saluez-vous les uns les autres par un saint baiser.
 II Corinthians 13:13 Tous les saints vous saluent.
-II Corinthians 13:14 Que la grâce de notre Seigneur Jésus-Christ, l’amour de Dieu et la communication du Saint-Esprit soient avec vous tous  ! 
+II Corinthians 13:14 Que la grâce de notre Seigneur Jésus-Christ, l’amour de Dieu et la communication du Saint-Esprit soient avec vous tous ! 
 Galatians 1:1 
 EOF;
 if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Galatians 6:7 Ne vous y trompez pas  : on ne se rit pas de Dieu. Ce qu’on aura semé, on le moissonnera.
-Galatians 6:8 Celui qui sème dans sa chair moissonnera, de la chair, la corruption  ; celui qui sème dans l’esprit moissonnera, de l’esprit, la vie éternelle.
+Galatians 6:7 Ne vous y trompez pas : on ne se rit pas de Dieu. Ce qu’on aura semé, on le moissonnera.
+Galatians 6:8 Celui qui sème dans sa chair moissonnera, de la chair, la corruption ; celui qui sème dans l’esprit moissonnera, de l’esprit, la vie éternelle.
 Galatians 6:9 
 EOF;
 if (!($bfile = preg_replace("/Galatians 6:7 (.+?)Galatians 6:9 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-II Timothy 4:9 Tâche de me rejoindre au plus tôt  ;
-II Timothy 4:10 car Démas, m’a quitté par amour pour le siècle présent, et il est parti pour Thessalonique  ; Crescent est allé en Galatie, Tite en Dalmatie.
+II Timothy 4:9 Tâche de me rejoindre au plus tôt ;
+II Timothy 4:10 car Démas, m’a quitté par amour pour le siècle présent, et il est parti pour Thessalonique ; Crescent est allé en Galatie, Tite en Dalmatie.
 II Timothy 4:11 
 EOF;
 if (!($bfile = preg_replace("/II Timothy 4:9 (.+?)II Timothy 4:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-III John 1:14 j’espère te voir bientôt, et nous nous entretiendrons de vive voix. La paix soit avec toi ! Nos amis te saluent. Salue nos amis, chacun en particulier. 
-Jude 1:1 
-EOF;
-if (!($bfile = preg_replace("/III John 1:14 (.+?)Jude 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
 Revelation of John 20:7 Quand les mille ans seront accomplis, Satan sera relâché de sa prison,
-Revelation of John 20:8 et il en sortira pour séduire les nations qui sont aux quatre extrémités de la terre, Gog et Magog, afin de les rassembler pour le combat  : leur nombre est comme le sable de la mer.
-Revelation of John 20:9 Elles montèrent sur la surface de la terre, et elles cernèrent le camp des saints et la ville bien-aimée  ; mais Dieu fit tomber un feu du ciel qui les dévora.
+Revelation of John 20:8 et il en sortira pour séduire les nations qui sont aux quatre extrémités de la terre, Gog et Magog, afin de les rassembler pour le combat : leur nombre est comme le sable de la mer.
+Revelation of John 20:9 Elles montèrent sur la surface de la terre, et elles cernèrent le camp des saints et la ville bien-aimée ; mais Dieu fit tomber un feu du ciel qui les dévora.
 Revelation of John 20:10 Et le diable, leur séducteur, fut jeté dans l’étang de feu et de soufre, où sont la bête et le faux prophète, et ils seront tourmentés jour et nuit aux siècles des siècles.
-Revelation of John 20:11  
+Revelation of John 20:11 
 EOF;
 if (!($bfile = preg_replace("/Revelation of John 20:7 (.+?)Revelation of John 20:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
@@ -5488,12 +5552,6 @@ RUT 1:1
 EOF;
 if (!($bfile = preg_replace("/JDG 21:24 (.+?)RUT 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-ISA 63:19 Nous sommes depuis longtemps comme un peuple que vous ne gouvernez pas, sur lequel votre nom n’est pas invoqué.
-ISA 63:20 Ah ! si vous déchiriez les cieux, si vous descendiez, — les montagnes seraient ébranlées devant vous ! —
-ISA 64:1 
-EOF;
-if (!($bfile = preg_replace("/ISA 63:19 (.+?)ISA 64:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
 1CH 11:46 Eliel, de Mahum ; Jéribaï et Josaïa, fils d’Elnaëm ; Jethma, le Moabite ;
 1CH 11:47 Eliel, Obed et Jasiel, de Masobia.
 1CH 12:1 
@@ -5513,77 +5571,68 @@ ISA 39:1
 EOF;
 if (!($bfile = preg_replace("/ISA 38:21 (.+?)ISA 39:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
+ISA 63:19 Nous sommes depuis longtemps comme un peuple que vous ne gouvernez pas, sur lequel votre nom n’est pas invoqué.
+ISA 63:20 Ah ! si vous déchiriez les cieux, si vous descendiez, — les montagnes seraient ébranlées devant vous ! —
+ISA 64:1 
+EOF;
+if (!($bfile = preg_replace("/ISA 63:19 (.+?)ISA 64:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 MAT 17:14 Jésus étant retourné vers le peuple, un homme s’approcha, et, tombant à genoux devant lui, il lui dit :
-MAT 17:15 « Seigneur, aie pitié de mon fils qui est lunatique et qui souffre cruellement ; il tombe souvent dans le feu et souvent dans l’eau.
+MAT 17:15 « Seigneur, aie pitié de mon fils qui est lunatique et qui souffre cruellement ; il tombe souvent dans le feu et souvent dans l’eau.
 MAT 17:16 Je l’ai présenté à tes disciples, et ils n’ont pas su le guérir. »
-MAT 17:17 Jésus répondit : « O race incrédule et perverse, jusques à quand serai-je avec vous ? Jusques à quand vous supporterai-je ? Amenez-le-moi ici. »
+MAT 17:17 Jésus répondit : « Ô race incrédule et perverse, jusques à quand serai-je avec vous ? Jusques à quand vous supporterai-je ? Amenez-le-moi ici. »
 MAT 17:18 Et Jésus commanda au démon avec menace, et le démon sortit de l’enfant, qui fut guéri à l’heure même.
-MAT 17:19 Alors les disciples vinrent trouver Jésus en particulier, et lui dirent : « Pourquoi n’avons-nous pas pu le chasser ? »
+MAT 17:19 Alors les disciples vinrent trouver Jésus en particulier, et lui dirent : « Pourquoi n’avons-nous pas pu le chasser ? »
 MAT 17:20 Jésus leur dit : « À cause de votre manque de foi. En vérité, je vous le dis, si vous avez de la foi comme un grain de sénevé, vous direz à cette montagne : Passe d’ici là, et elle y passera, et rien ne vous sera impossible.
-MAT 17:21 Mais ce genre de démon n’est chassé que par le jeûne et la prière. »
+MAT 17:21 Mais ce genre [de démon] n’est chassé que par le jeûne et la prière. »
 MAT 17:22 Comme ils parcouraient la Galilée, Jésus leur dit : « Le Fils de l’homme doit être livré entre les mains des hommes,
 MAT 17:23 et ils le mettront à mort, et il ressuscitera le troisième jour. » Et ils en furent vivement attristés.
-MAT 17:24 Lorsqu’ils furent de retour à Capharnaüm, ceux qui recueillaient les didrachmes s’approchèrent de Pierre et lui dirent : « Votre Maître ne paie-t-il pas les didrachmes ? » —
-MAT 17:25 « Oui, » dit Pierre. Et comme ils entraient dans la maison, Jésus le prévenant, lui dit : « Que t’en semble, Simon ? De qui les rois de la terre perçoivent-ils des tributs ou le cens ? De leurs fils, ou des étrangers ? »
-MAT 17:26 Pierre répondit : « Des étrangers, — Les fils, lui dit Jésus, en sont donc exempts.
-MAT 17:27 Mais pour ne pas les scandaliser, va à la mer, jette l’hameçon, tire le premier poisson qui montera ; puis, ouvrant sa bouche, tu y trouveras un statère. Prends-le et donne-le-leur pour moi et pour toi. »
+MAT 17:24 Lorsqu’ils furent de retour à Capharnaüm, ceux qui recueillaient les didrachmes s’approchèrent de Pierre et lui dirent : « Votre Maître ne paie-t-il pas les didrachmes ? » —
+MAT 17:25 « Oui, » dit Pierre. Et comme ils entraient dans la maison, Jésus le prévenant, lui dit : « Que t’en semble, Simon ? De qui les rois de la terre perçoivent-ils des tributs ou le cens ? De leurs fils, ou des étrangers ? »
+MAT 17:26 Pierre répondit : « Des étrangers, — Les fils, lui dit Jésus, en sont donc exempts.
+MAT 17:27 Mais pour ne pas les scandaliser, va à la mer, jette l’hameçon, tire le premier poisson qui montera ; puis, ouvrant sa bouche, tu y trouveras un statère. Prends-le et donne-le-leur pour moi et pour toi. »
 MAT 18:1 
 EOF;
 if (!($bfile = preg_replace("/MAT 17:14 (.+?)MAT 18:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-MAR 4:40 Et il leur dit : « Pourquoi êtes-vous effrayés ? N’avez-vous pas encore la foi ?
-MAR 4:41 » Et ils furent saisis d’une grande crainte, et ils se disaient l’un à l’autre : « Qui donc est celui-ci, que le vent et la mer lui obéissent ? »
-MAR 4:42 
+MAT 19:29 Et quiconque aura quitté des maisons, ou des frères, ou des sœurs, ou un père, ou une mère, ou une femme, ou des enfants, ou des champs à cause de mon nom, il recevra le centuple et possédera la vie éternelle.
+MAT 19:30 
+EOF;
+if (!($bfile = preg_replace("/MAT 19:29 (.+?)MAT 19:30 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+MAR 4:40 Et il leur dit : « Pourquoi êtes-vous effrayés  ? N’avez-vous pas encore la foi ?
+MAR 4:41  » Et ils furent saisis d’une grande crainte, et ils se disaient l’un à l’autre : « Qui donc est celui-ci, que le vent et la mer lui obéissent ? »
 MAR 5:1 
 EOF;
 if (!($bfile = preg_replace("/MAR 4:40 (.+?)MAR 5:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-LUK 1:32 Il sera grand, on l’appellera le Fils du Très-Haut ; le Seigneur Dieu lui donnera le trône de David son père;
-LUK 1:33 il régnera éternellement sur la maison de Jacob, et son règne n’aura pas de fin. »
+MAR 9:1 
+EOF;
+if (!($bfile = preg_replace("/MAR 8:39 (.+?)MAR 9:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+LUK 1:32 Il sera grand, on l’appellera le Fils du Très-Haut ; le Seigneur Dieu lui donnera le trône de David son père ;
+LUK 1:33 il régnera éternellement sur la maison de Jacob, et son règne n’aura pas de fin. »
 LUK 1:34 
 EOF;
 if (!($bfile = preg_replace("/LUK 1:32 (.+?)LUK 1:34 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-JOH 4:13 Jésus lui répondit : « Quiconque boit de cette eau aura encore soif ;
-JOH 4:14 mais celui qui boira de l’eau que je lui donnerai, n’aura plus jamais soif ; au contraire l’eau que je lui donnerai deviendra en lui une source d’eau jaillissant jusqu’à la vie éternelle. »
+JOH 3:21 Mais celui qui accomplit la vérité, vient à la lumière, de sorte que ses œuvres soient manifestées, parce qu’elles sont faites en Dieu.
+JOH 3:22 
+EOF;
+if (!($bfile = preg_replace("/JOH 3:21 (.+?)JOH 3:22 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+JOH 4:13 Jésus lui répondit : « Quiconque boit de cette eau aura encore soif ;
+JOH 4:14 mais celui qui boira de l’eau que je lui donnerai, n’aura plus jamais soif ; au contraire l’eau que je lui donnerai deviendra en lui une source d’eau jaillissant jusqu’à la vie éternelle. »
 JOH 4:15 
 EOF;
 if (!($bfile = preg_replace("/JOH 4:13 (.+?)JOH 4:15 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-JOH 11:56 Ils cherchaient Jésus et ils se disaient les uns aux autres, se tenant dans le temple : « Que vous en semble ? Pensez-vous qu’il ne viendra pas à la fête ? »
-JOH 11:57 Or, les Pontifes et les Pharisiens avaient donné l’ordre que, si quelqu’un savait où il était, il le déclarât, afin qu’ils le fissent prendre.
-JOH 12:1 
+JOH 10:21 D’autres disaient : « Ce ne sont pas là les paroles d’un possédé ; est-ce qu’un démon peut ouvrir les yeux des aveugles ?
+JOH 10:22 
 EOF;
-if (!($bfile = preg_replace("/JOH 11:56 (.+?)JOH 12:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/JOH 10:21 (.+?)JOH 10:22 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-ACT 14:6 les Apôtres, l’ayant su, se réfugièrent dans les villes de Lycaonie, Lystres et Derbé, et le pays d’alentour,
-ACT 14:7 et ils y annoncèrent la bonne nouvelle.
-ACT 14:8 Il y avait à Lystres un homme perclus des jambes, qui se tenait assis, car il était boiteux de naissance et n’avait jamais marché.
-ACT 14:9 Il écoutait Paul parler ; et Paul, ayant arrêté les yeux sur lui et voyant qu’il avait la foi pour être guéri,
-ACT 14:10 dit d’une voix forte : « Lève-toi droit sur tes pieds. » Aussitôt il bondit et il marchait.
-ACT 14:11 A la vue de ce que Paul venait de faire, la foule éleva la voix et dit en lycaonien : « Les dieux sous une forme humaine sont descendus vers nous. »
-ACT 14:12 Et ils appelaient Barnabé Jupiter, et Paul Mercure, parce que c’était lui qui portait la parole.
-ACT 14:13 De plus, le prêtre du temple de Jupiter, qui était à l’entrée de la ville, amena devant les portes des taureaux avec des bandelettes, et voulait, ainsi que la foule, offrir un sacrifice.
-ACT 14:14 Les Apôtres Paul et Barnabé, l’ayant appris, déchirèrent leurs vêtements et se précipitèrent au milieu de la foule ;
-ACT 14:15 et, d’une voix retentissante, ils disaient : « O hommes, pourquoi faites-vous cela ? Nous aussi, nous sommes des hommes sujets aux mêmes faiblesses que vous ; nous vous annonçons qu’il faut quitter ces vanités pour vous tourner vers le Dieu vivant, qui a fait le ciel et la terre, la mer, et tout ce qu’ils renferment.
-ACT 14:16 Ce Dieu, dans les siècles passés, a laissé toutes les nations suivre leurs voies,
-ACT 14:17 sans que toutefois il ait cessé de se rendre témoignage à lui-même, faisant du bien, dispensant du ciel les pluies et les saisons favorables, nous donnant la nourriture avec abondance et remplissant nos cœurs de joie. »
-ACT 14:18 Malgré ces paroles, ils ne parvinrent qu’avec peine à empêcher le peuple de leur offrir un sacrifice.
-ACT 14:19 Alors survinrent d’Antioche et d’Iconium des Juifs qui, ayant gagné le peuple, lapidèrent Paul et le traînèrent hors de la ville, le croyant mort.
-ACT 14:20 Mais les disciples l’ayant entouré, il se releva et rentra dans la ville. Le lendemain, il partit pour Derbé avec Barnabé.
-ACT 14:21 Quand ils eurent évangélisé cette ville et fait un assez grand nombre de disciples, ils retournèrent à Lystres, à Iconium et à Antioche,
-ACT 14:22 fortifiant l’esprit des disciples, les exhortant à persévérer dans la foi, et disant que c’est par beaucoup de tribulations qu’il nous faut entrer dans le royaume de Dieu.
-ACT 14:23 Ils instituèrent des Anciens dans chaque Eglise, après avoir prié et jeûné, et les recommandèrent au Seigneur, en qui ils avaient cru.
-ACT 14:24 Traversant ensuite la Pisidie, ils vinrent en Pamphylie,
-ACT 14:25 et après avoir annoncé la parole de Dieu à Perge, ils descendirent à Attalie.
-ACT 14:26 De là ils firent voile pour Antioche, d’où ils étaient partis, après avoir été recommandés à la grâce de Dieu, pour l’œuvre qu’ils venaient d’accomplir.
-ACT 14:27 Dès qu’ils furent arrivés, ils assemblèrent l’Eglise, et racontèrent tout ce que Dieu avait fait pour eux, et comment il avait ouvert aux nations la porte de la foi.
-ACT 14:28 Et ils demeurèrent à Antioche assez longtemps avec les disciples.
-ACT 15:1 
-EOF;
-if (!($bfile = preg_replace("/ACT 14:6 (.+?)ACT 15:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
-ACT 19:40 Nous risquons, en effet, d’être accusés de sédition pour ce qui s’est passé aujourd’hui, car il n’existe aucun motif qui nous permette de justifier cet attroupement. »
+ACT 19:40 Nous risquons, en effet, d’être accusés de sédition pour ce qui s’est passé aujourd’hui, car il n’existe aucun motif qui nous permette de justifier cet attroupement.«
 ACT 19:41 Ayant parlé ainsi, il congédia l’assemblée.
 ACT 20:1 
 EOF;
@@ -5591,13 +5640,13 @@ if (!($bfile = preg_replace("/ACT 19:40 (.+?)ACT 20:1 /us",$textfix,$bfile,-1,$r
 $textfix = <<<EOF
 2CO 13:12 Saluez-vous les uns les autres par un saint baiser.
 2CO 13:13 Tous les saints vous saluent.
-2CO 13:14 Que la grâce de notre Seigneur Jésus-Christ, l’amour de Dieu et la communication du Saint-Esprit soient avec vous tous !
+2CO 13:14 Que la grâce de notre Seigneur Jésus-Christ, l’amour de Dieu et la communication du Saint-Esprit soient avec vous tous !
 GAL 1:1 
 EOF;
 if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-2TI 4:9 Tâche de me rejoindre au plus tôt ; 
-2TI 4:10 car Démas, m’a quitté par amour pour le siècle présent, et il est parti pour Thessalonique ; Crescent est allé en Galatie, Tite en Dalmatie.
+2TI 4:9 Tâche de me rejoindre au plus tôt ;
+2TI 4:10 car Démas, m’a quitté par amour pour le siècle présent, et il est parti pour Thessalonique  ; Crescent est allé en Galatie, Tite en Dalmatie.
 2TI 4:11 
 EOF;
 if (!($bfile = preg_replace("/2TI 4:9 (.+?)2TI 4:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -14825,6 +14874,19 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---Nepali---Nepali-Contemporary" :
+$bigfix = <<<EOF
+HEB 6:1 यसकारण ख्रीष्‍टसम्बन्धी सुरुका शिक्षाहरू त्यागेर परिपक्वतातर्फ बढौँ। मृत्युतिर लैजाने कर्महरूबाट पश्‍चात्ताप, परमेश्‍वरमाथिको विश्‍वास,
+HEB 6:2 बप्‍तिस्माको विषयमा निर्देशन, हात राख्ने कामहरू, मरेकाहरूको पुनरुत्थान र अनन्त न्यायका कुरा यी सुरुका शिक्षाहरूको जग फेरि नबसालौँ।
+HEB 6:3 
+EOF;
+if (!($bfile = preg_replace("/HEB 6:1 (.+?)HEB 6:3 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---Ndengereko---Ndengereko-Bible" :
 if (!($bfile = preg_replace("/([A-Z0-9]{3} \d+:\d+ )\d+([ b]{1})/us",'$1$2',$bfile,-1,$rnum)) || $rnum!=3) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
@@ -19190,6 +19252,44 @@ REV 18:10 ఆమె తగలబడి పోతుంటే వచ్చే ప
 REV 18:11 
 EOF;
 if (!($bfile = preg_replace("/REV 18:9 (.+?)REV 18:11 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Turkish---Open-Basic-Turkish" :
+$bigfix = <<<EOF
+MAR 3:28 Size doğrusunu söylüyorum: İnsanların işlediği her günah ve ettiği her hakaret bağışlanabilir,
+MAR 3:29 ama kim Kutsal Ruhʼa hakaret ederse, o hiçbir zaman bağışlanmayacak. O kişinin günahı sonsuza kadar boynunda kalacak.”
+MAR 3:30 
+EOF;
+if (!($bfile = preg_replace("/MAR 3:28 (.+?)MAR 3:30 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bigfix = <<<EOF
+MAR 10:29 İsa da şunları söyledi: “Size doğrusunu söylüyorum: benim için ve Müjde için evini, kardeşlerini, kız kardeşlerini, annesini, babasını, çocuklarını ya da tarlalarını bırakmış olan herkes bunların yüz katını alacak.
+MAR 10:30 Şimdi bu dünyada, çekeceği eziyetlerle birlikte, evler, kardeşler, kız kardeşler, anneler, çocuklar ve tarlalara kavuşacak. Hem de gelecek dünyada sonsuz yaşama sahip olacak.
+MAR 10:31 
+EOF;
+if (!($bfile = preg_replace("/MAR 10:29 (.+?)MAR 10:31 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bigfix = <<<EOF
+LUK 18:29 İsa da onlara şunu söyledi: “Size doğrusunu söylüyorum: Allahʼın Krallığı için evini, karısını, kardeşlerini, annesini, babasını, ya da çocuklarını bırakan herkes,
+LUK 18:30 bu dünyada bunların kat kat fazlasını alacak. Hem de gelecek dünyada sonsuz yaşama kavuşacak.”
+LUK 18:31 
+EOF;
+if (!($bfile = preg_replace("/LUK 18:29 (.+?)LUK 18:31 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bigfix = <<<EOF
+ACT 15:17 O zaman geriye kalan insanlar, halkım olmaya çağırdığım bütün milletler, bana sığınacaklar.’
+ACT 15:18 Rab bu şeyleri ezelden beri bildirmiştir.
+ACT 15:19 
+EOF;
+if (!($bfile = preg_replace("/ACT 15:17 (.+?)ACT 15:19 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bigfix = <<<EOF
+ROM 10:6 İmana dayanan doğruluk ise şöyle diyor: “Kendi kendine, ‘Allahʼın sözünü, yani Mesihʼi, yeryüzüne indirmek için göğe kim çıkacak?’ diye sorma.
+ROM 10:7 ‘Dipsiz derinliklere, yani Mesihʼi ölüler arasından çıkarmaya kim inecek?’ diye de sorma.”
+ROM 10:8 
+EOF;
+if (!($bfile = preg_replace("/ROM 10:6 (.+?)ROM 10:8 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 

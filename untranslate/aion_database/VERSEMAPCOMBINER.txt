@@ -804,6 +804,9 @@ Holy-Bible---Ewe---Word-of-Life	064	3JO	001	014	14	1	end
 Holy-Bible---Ewe---Word-of-Life							end
 Holy-Bible---Finnish---Finnish-Bible							end
 Holy-Bible---Finnish---Finnish-Pyha-Raamattu							end
+Holy-Bible---Finnish---Open-Living-News	064	3JO	001	014	14	1	end
+Holy-Bible---Finnish---Open-Living-News	066	REV	012	018	1	-1	end
+Holy-Bible---Finnish---Open-Living-News							end
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---French---Free-for-the-World							end
@@ -874,6 +877,7 @@ Holy-Bible---French---French-Crampon-Bible	019	PSA	102	001	28	1	end
 Holy-Bible---French---French-Crampon-Bible	019	PSA	108	001	13	1	end
 Holy-Bible---French---French-Crampon-Bible	019	PSA	140	001	13	1	end
 Holy-Bible---French---French-Crampon-Bible	019	PSA	142	001	7	1	end
+Holy-Bible---French---French-Crampon-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---French---French-Crampon-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---French---French-Crampon-Bible							end
 Holy-Bible---French---French-Crampon-Bible-New	004	NUM	025	019	1	-1	end
@@ -3003,6 +3007,7 @@ Holy-Bible---Lingala---Lingala-Bible	019	PSA	142	001	7	1	end
 Holy-Bible---Lingala---Lingala-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Lingala---Lingala-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Lingala---Lingala-Bible							end
+Holy-Bible---Lithuanian---Believers-Heritage							end
 Holy-Bible---Lodhi---Lodhi-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Lodhi---Lodhi-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Lodhi---Lodhi-Bible							end
@@ -3127,6 +3132,8 @@ Holy-Bible---Nend---Mark							end
 Holy-Bible---Nepali---Nepali-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Nepali---Nepali-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Nepali---Nepali-Bible							end
+Holy-Bible---Nepali---Nepali-Contemporary	064	3JO	001	014	14	1	end
+Holy-Bible---Nepali---Nepali-Contemporary							end
 Holy-Bible---Ngoni---Ngoni-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Ngoni---Ngoni-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Ngoni---Ngoni-Bible							end
@@ -3866,6 +3873,9 @@ Holy-Bible---Telugu---Telugu-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Tongan---Revised-West-Version							end
 Holy-Bible---Tsakhur---Tsakhur-Bible	009	1SA	020	042	42	1	end
 Holy-Bible---Tsakhur---Tsakhur-Bible							end
+Holy-Bible---Turkish---Open-Basic-Turkish	064	3JO	001	014	14	1	end
+Holy-Bible---Turkish---Open-Basic-Turkish	066	REV	012	018	1	-1	end
+Holy-Bible---Turkish---Open-Basic-Turkish							end
 Holy-Bible---Turkish---Turkish-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Turkish---Turkish-Bible							end
 Holy-Bible---Twi---Akuapem-Twi-Bible	064	3JO	001	014	14	1	end

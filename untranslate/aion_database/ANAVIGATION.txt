@@ -1,6 +1,6 @@
 # File Name: ANAVIGATION.txt
-# File Size: 21316       
-# File Date: 03/07/2025 21:02:30
+# File Size: 21493       
+# File Date: 03/13/2025 10:56:54
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -173,6 +173,7 @@ Holy-Bible---Estonian---For-All
 Holy-Bible---Ewe---Word-of-Life		
 Holy-Bible---Finnish---Finnish-Bible		
 Holy-Bible---Finnish---Finnish-Pyha-Raamattu		
+Holy-Bible---Finnish---Open-Living-News		
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible		
 Holy-Bible---French---Free-for-the-World		
 Holy-Bible---French---French-Crampon-Bible		
@@ -311,6 +312,7 @@ Holy-Bible---Latin---Vulgata-Sistina
 Holy-Bible---Latin---Vulgate-Jerome		
 Holy-Bible---Latvian---Latvian-Gluck-Bible		
 Holy-Bible---Lingala---Lingala-Bible		
+Holy-Bible---Lithuanian---Believers-Heritage		
 Holy-Bible---Lodhi---Lodhi-Bible		
 Holy-Bible---Luganda---Luganda-Bible		
 Holy-Bible---Mahasu-Pahari---Baghlayani-Bible		
@@ -339,6 +341,7 @@ Holy-Bible---Ndebele---Ndebele-Bible
 Holy-Bible---Ndengereko---Ndengereko-Bible		
 Holy-Bible---Nend---Mark		
 Holy-Bible---Nepali---Nepali-Bible		
+Holy-Bible---Nepali---Nepali-Contemporary		
 Holy-Bible---Ngoni---Ngoni-Bible		
 Holy-Bible---Norwegian---Living-Bible		
 Holy-Bible---Norwegian---Norwegian-Bible		
@@ -443,6 +446,7 @@ Holy-Bible---Tamil---Tamil-Bible
 Holy-Bible---Telugu---Telugu-Bible		
 Holy-Bible---Tongan---Revised-West-Version		
 Holy-Bible---Tsakhur---Tsakhur-Bible		
+Holy-Bible---Turkish---Open-Basic-Turkish		
 Holy-Bible---Turkish---Turkish-Bible		
 Holy-Bible---Twi---Akuapem-Twi-Bible		
 Holy-Bible---Twi---Asante-Twi-WASNA		

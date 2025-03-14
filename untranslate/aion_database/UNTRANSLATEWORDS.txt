@@ -128,6 +128,7 @@ Holy-Bible---Estonian---For-All	0											NULL
 Holy-Bible---Ewe---Word-of-Life	0			dzomavɔʋe								NULL
 Holy-Bible---Finnish---Finnish-Bible	0		ijankaikkisuudessa,ijankaikkisilla,iankaikkisen,ijäksi,ijankaikkisia,ijankaikkista,ijankaikkisesta,ijankaikkiset,ijankaikkinen,ijankaikkisiin,ijankaikkisesti,ijankaikkiseen,ijankaikkisen,maailmassa,mailman,maailman,maailmalle,maailmasta,maailmaa,maailma,salattu ollut,ajoilla	helvetti,helvettiin,Helvetin,helvetissä,helvetistä,helvettiä	helvetti,helvettiin,Helvetin,helvetissä,helvetistä,helvettiä	helvetti,helvettiin,Helvetin,helvetissä,helvetistä,helvettiä,hautaan,haudan,hauta,tuonelassa,tuonelan	helvetti,helvettiin,Helvetin,helvetissä,helvetistä,helvettiä	helvetti,helvettiin,Helvetin,helvetissä,helvetistä,helvettiä	helvettiin	syvyyteen,syvyyden,syvyydestä	tuliseen järveen,tulikiviseen järveen,joka tulesta	NULL
 Holy-Bible---Finnish---Finnish-Pyha-Raamattu	0		iankaikkisissa,iankaikkisuuden,iankaikkisissaiankaikkisuuden,iankaikkisesta,iäksi,ikuisia,ikuisiaiankaikkiselle,iankaikkiselle,iankaikkiseksi,iankaikkisia,aikojen,iäti,iankaikkinen,iankaikkisesti,iankaikkiseen,iankaikkisen,iankaikkista,ikiajoista,maailman,majoihin,maailmanajan,maailmaan,maailmanaikoja,maailmassa,maailmanaikojen,maailmanajasta,maailmanajassa,maailmanaikoina,maailmanvaltiaita,maailma,ajoista,ajoiksi,elävän	helvetti,helvettiin,Helvetin,helvetissä,helvetistä,helvettiä	helvetti,helvettiin,Helvetin,helvetissä,helvetistä,helvettiä	tuonelaan,tuonelan,tuonela-mitä,tuonela,tuonelassa,tuonelasta,tuonelaa	helvetti,helvettiin,Helvetin,helvetissä,helvetistä,helvettiä	helvetti,helvettiin,Helvetin,helvetissä,helvetistä,helvettiä,tuonelaan,tuonelan,tuonela-mitä,tuonela,tuonelassa,tuonelasta,tuonelaa	syvyyteen	syvyyteen,syvyyden,syvyydestä	tuliseen järveen,tuli-ja tulikivijärveen,tulinen järvi,järvessä,joka tulta	NULL
+Holy-Bible---Finnish---Open-Living-News	0		ijankaikkisuudessa,ijankaikkisilla,iankaikkisen,ijäksi,ijankaikkisia,ijankaikkista,ijankaikkisesta,ijankaikkiset,ijankaikkinen,ijankaikkisiin,ijankaikkisesti,ijankaikkiseen,ijankaikkisen,maailmassa,mailman,maailman,maailmalle,maailmasta,maailmaa,maailma,salattu ollut,ajoilla	helvetti,helvettiin,Helvetin,helvetissä,helvetistä,helvettiä	helvetti,helvettiin,Helvetin,helvetissä,helvetistä,helvettiä	helvetti,helvettiin,Helvetin,helvetissä,helvetistä,helvettiä,hautaan,haudan,hauta,tuonelassa,tuonelan	helvetti,helvettiin,Helvetin,helvetissä,helvetistä,helvettiä	helvetti,helvettiin,Helvetin,helvetissä,helvetistä,helvettiä	helvettiin	syvyyteen,syvyyden,syvyydestä	tuliseen järveen,tulikiviseen järveen,joka tulesta	NULL
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible	0			hel,helsche,helle								NULL
 Holy-Bible---French---Free-for-the-World	0		l'éternité,éternelle,éternel,éternellement,siècles,monde,toujours,jamais,siècle,éternels,éternité,éternelles,âges,depuis longtemps,permanente,tout temps	enfer,séjour des morts,géhenne,l'étang de feu,abîmes de ténèbres	enfer,séjour des morts,géhenne,l'étang de feu	enfer,enfers,séjour des morts,profond des morts,sépulcre	enfer,géhenne	enfer,enfers,séjour des morts,profond des morts,sépulcre,O mort	enfer,abîmes de ténèbres	l'abîme	l'étang de feu,dans l'étang ardent de feu	NULL
 Holy-Bible---French---French-Crampon-Bible	0		l'éternité,éternelle,éternel,éternellement,siècles,monde,toujours,jamais,siècle,éternels,éternité,éternelles,âges,depuis longtemps,permanente,tout temps	enfer,séjour des morts,géhenne,l'étang de feu,abîmes de ténèbres	enfer,séjour des morts,géhenne,l'étang de feu	enfer,enfers,séjour des morts,profond des morts,sépulcre	enfer,géhenne	enfer,enfers,séjour des morts,profond des morts,sépulcre,O mort	enfer,abîmes de ténèbres	l'abîme	l'étang de feu,dans l'étang ardent de feu	NULL
@@ -243,6 +244,7 @@ Holy-Bible---Latin---Vulgata-Sistina	0		æternam,aeternum,æternum,æterni,æter
 Holy-Bible---Latin---Vulgate-Jerome	0		æternam,aeternum,æternum,æterni,æterna,futuro,sæculo,sæculi,sæcula,sempiternum,æternæ,sempiterna,æternis,sæculorum,sæculis,æternas,sæcularia,æternitatis,sæculum	infernum,infernus,inferos,inferni,inferna,in stagnum ignis,inferno,inferne,inferi	infernum,infernus,inferos,inferni,inferna,Gehennam,gehennæ,tartarum,in stagnum ignis,abyssum,abyssi,abysso,inferno,inferne,inferi	infernum,infernus,inferos,inferni,inferna,inferno,inferne,inferi,mortis	Gehennam,gehennæ,gehenna	infernum,infernus,inferos,inferni,inferna,inferno,inferne,inferi,ubi est mors,mortis,cum esset in tormentis	tartarum	abyssum,abyssi,abysso	in stagnum ignis,stagno ardenti igne	NULL
 Holy-Bible---Latvian---Latvian-Gluck-Bible	0			ellē,elles,ellei								NULL
 Holy-Bible---Lingala---Lingala-Bible	0			lifelo								NULL
+Holy-Bible---Lithuanian---Believers-Heritage	0											NULL
 Holy-Bible---Lodhi---Lodhi-Bible	0			नरक								NULL
 Holy-Bible---Luganda---Luganda-Bible	0											NULL
 Holy-Bible---Mahasu-Pahari---Baghlayani-Bible	0			नरको								NULL
@@ -267,6 +269,7 @@ Holy-Bible---Ndebele---Ndebele-Bible	0			esihogweni								NULL
 Holy-Bible---Ndengereko---Ndengereko-Bible	0											NULL
 Holy-Bible---Nend---Mark	0											NULL
 Holy-Bible---Nepali---Nepali-Bible	0			नरकको,नरकमा								NULL
+Holy-Bible---Nepali---Nepali-Contemporary	0			नरकको,नरकमा								NULL
 Holy-Bible---Ngoni---Ngoni-Bible	0											NULL
 Holy-Bible---Norwegian---Living-Bible	0			helvete,helvedes,helvede								NULL
 Holy-Bible---Norwegian---Norwegian-Bible	0			helvete,helvedes,helvede								NULL
@@ -360,6 +363,7 @@ Holy-Bible---Tamil---Tamil-Bible	0			நரகம்,நரகத்தின்
 Holy-Bible---Telugu---Telugu-Bible	0			నరకాగ్ని,నరకంలో,నరకాగ్నికి గురై								NULL
 Holy-Bible---Tongan---Revised-West-Version	0			heli								NULL
 Holy-Bible---Tsakhur---Tsakhur-Bible	0											NULL
+Holy-Bible---Turkish---Open-Basic-Turkish	0			cehenneme,cehennem								NULL
 Holy-Bible---Turkish---Turkish-Bible	0			cehenneme,cehennem								NULL
 Holy-Bible---Twi---Akuapem-Twi-Bible	0			asaman								NULL
 Holy-Bible---Twi---Asante-Twi-WASNA	0			asaman								NULL
