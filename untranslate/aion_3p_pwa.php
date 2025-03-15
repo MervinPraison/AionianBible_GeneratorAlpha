@@ -1311,7 +1311,7 @@ All versions are available online at <a href='https://www.AionianBible.org/Read'
 </p><p>
 <b>04/15/85</b>&nbsp;&nbsp;<span class='notranslate'>Aionian</span>  Bible project conceived as B. and J. pray.<br>
 </p><p>
-<b>06/21/75</b>&nbsp;&nbsp;Two boys, P. and J., wonder if Jesus saves all.<br>
+<b>06/21/75</b>&nbsp;&nbsp;Two boys, P. and J., wonder if Jesus saves all and pray.<br>
 </p>
 `,
 

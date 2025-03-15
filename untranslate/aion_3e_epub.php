@@ -1296,7 +1296,7 @@ $G_COMMENT
 
 <p><b>04/15/85</b> Aionian Bible project conceived as B. and J. pray.<br /></p>
 
-<p><b>06/21/75</b> Two boys, P. and J., wonder if Jesus saves all.<br /></p>
+<p><b>06/21/75</b> Two boys, P. and J., wonder if Jesus saves all and pray.<br /></p>
 
 <p><a href='index.xhtml' title='Table of Contents'>TOC</a></p>
 </body>
