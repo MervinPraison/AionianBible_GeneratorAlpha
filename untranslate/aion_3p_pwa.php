@@ -1247,9 +1247,9 @@ All versions are available online at <a href='https://www.AionianBible.org/Read'
 </p><p>
 <b>02/14/22</b>&nbsp;&nbsp;<a href='https://en.wikipedia.org/wiki/Strong%27s_Concordance' target='_blank' title='Strongs Concordance history at wikipedia'>Strong's Concordance</a> from <a href='https://viz.bible' target='_blank' title='Strongs Concordance source'>viz.bible</a>, <a href='https://github.com/openscriptures/strongs' target='_blank' title='improved Strongs Concordance source'>Open Scriptures</a>, and <a href='https://github.com/STEPBible/STEPBible-Data' target='_blank' title='STEPBible Enhanced Strongs Concordance'>STEPBible Enhanced Strong's</a> at <a href='https://www.AionianBible.org/Strongs' target='_blank' title='Strongs Enhanced Concordance and Glossary'>AionianBible.org/Strongs</a>.<br>
 </p><p>
-<b>01/09/22</b>&nbsp;&nbsp;<a href='https://resources.aionianbible.org/AB-StudyPack/' target='_blank' title='Aionian Bible language StudyPacks'>StudyPack</a> resources for Bible translation and underlying language study now available.<br>
-</p><p>
 <b>01/23/22</b>&nbsp;&nbsp;Volunteers celebrate with pie and prayer.<br>
+</p><p>
+<b>01/09/22</b>&nbsp;&nbsp;<a href='https://resources.aionianbible.org/AB-StudyPack/' target='_blank' title='Aionian Bible language StudyPacks'>StudyPack</a> resources for Bible translation and underlying language study now available.<br>
 </p><p>
 <b>01/01/22</b>&nbsp;&nbsp;216 translations now available in 99 languages.<br>
 </p><p>

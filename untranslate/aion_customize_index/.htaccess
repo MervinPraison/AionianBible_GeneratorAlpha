@@ -103,7 +103,7 @@ RewriteRule ^ /Read [L,R=301]
 # REWRITE EPUB
 RewriteCond %{REQUEST_URI} ^\/epub\/ [NC]
 RewriteCond %{DOCUMENT_ROOT}\/library%{REQUEST_URI} -d
-RewriteRule ^ https://%{HTTP_HOST}/?e=%{REQUEST_URI} [L,R=301]
+RewriteRule ^ /?e=%{REQUEST_URI} [L,R=301]
 
 # REWRITE READIUM
 RewriteCond %{REQUEST_URI} ^\/Readium\/(Holy\-Bible\-\-\-.*)$
