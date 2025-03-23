@@ -1,6 +1,6 @@
 # File Name: TALLY.txt
 # File Size: 22681       
-# File Date: 03/20/2025 07:52:44
+# File Date: 03/22/2025 18:24:13
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -186,7 +186,7 @@ Holy-Bible---Greek---Greek-Pickering-Family-35	7953	7953	7953
 Holy-Bible---Greek---Greek-SBL	7939	7939	7941
 Holy-Bible---Greek---Greek-STEPBible	7957	7957	7957
 Holy-Bible---Greek---Greek-Scrivener	7957	7957	7957
-Holy-Bible---Greek---Greek-Statistical-Restoration	7914	7914	7916
+Holy-Bible---Greek---Greek-Statistical-Restoration	7914	7914	7914
 Holy-Bible---Greek---Greek-Stephanus	7956	7956	7957
 Holy-Bible---Greek---Greek-TR-Stephanus-Scrivener	7956	7956	7957
 Holy-Bible---Greek---Greek-Textus-Receptus	7957	7957	7959

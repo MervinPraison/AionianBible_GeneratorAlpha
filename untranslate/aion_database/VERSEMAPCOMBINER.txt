@@ -1755,8 +1755,6 @@ Holy-Bible---Greek---Greek-SBL	064	3JO	001	014	14	1	end
 Holy-Bible---Greek---Greek-SBL	066	REV	012	018	1	-1	end
 Holy-Bible---Greek---Greek-SBL							end
 Holy-Bible---Greek---Greek-Scrivener							end
-Holy-Bible---Greek---Greek-Statistical-Restoration	064	3JO	001	014	14	1	end
-Holy-Bible---Greek---Greek-Statistical-Restoration	066	REV	012	018	1	-1	end
 Holy-Bible---Greek---Greek-Statistical-Restoration							end
 Holy-Bible---Greek---Greek-STEPBible							end
 Holy-Bible---Greek---Greek-Stephanus							end
