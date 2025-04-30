@@ -1,7 +1,9 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	WORD	STRONGS	UNTRANS	TEXT
 Holy-Bible---Ahirani---Gospels								NULL
+Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible								NULL
 Holy-Bible---Amo---Amo-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Amo---Amo-Bible								NULL
+Holy-Bible---Apal---Apali-Bible								NULL
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible								NULL
 Holy-Bible---Arabic---New-Arabic-Bible	061	2PE	002	017	NOTE			questioned
@@ -39,6 +41,7 @@ Holy-Bible---Beami---Bedamuni-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Beami---Bedamuni-Bible								NULL
 Holy-Bible---Beaver---Beaver-Mark	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Beaver---Beaver-Mark								NULL
+Holy-Bible---Bekwel---Bekwel-Bible								NULL
 Holy-Bible---Bengali---Bengali-Bible								NULL
 Holy-Bible---Bengali---Contemporary								NULL
 Holy-Bible---Bhadrawahi---Bhadrawahi-Bible								NULL
@@ -59,6 +62,7 @@ Holy-Bible---Bhattiyali---Bhattiyali-Bible	066	REV	020	003	SKIP			NULL
 Holy-Bible---Bhattiyali---Bhattiyali-Bible	066	REV	020	012	HADES	g86		NULL
 Holy-Bible---Bhattiyali---Bhattiyali-Bible	066	REV	020	013	SKIP			NULL
 Holy-Bible---Bhattiyali---Bhattiyali-Bible								NULL
+Holy-Bible---Bhilali---Bhilali-Bible								NULL
 Holy-Bible---Blackfoot---Matthew								NULL
 Holy-Bible---Bodo-Parja---BOPO-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Bodo-Parja---BOPO-Bible								NULL
@@ -70,6 +74,7 @@ Holy-Bible---Breton---Breton-Gospels	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Breton---Breton-Gospels								NULL
 Holy-Bible---Bu---Bu-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Bu---Bu-Bible								NULL
+Holy-Bible---Bugun---Bugun-Bible								NULL
 Holy-Bible---Bulgarian---Bulgarian-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Bulgarian---Bulgarian-Bible								NULL
 Holy-Bible---Calo---Calo-Bible	061	2PE	002	017	NOTE			questioned
@@ -583,8 +588,6 @@ Holy-Bible---English---World-English-Bible-British-Edition	061	2PE	002	017	NOTE	
 Holy-Bible---English---World-English-Bible-British-Edition								NULL
 Holy-Bible---English---World-English-Bible-Updated	061	2PE	002	017	NOTE			questioned
 Holy-Bible---English---World-English-Bible-Updated								NULL
-Holy-Bible---English---World-English-Bible-Updated-British	061	2PE	002	017	NOTE			questioned
-Holy-Bible---English---World-English-Bible-Updated-British								NULL
 Holy-Bible---English---World-Messianic-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---English---World-Messianic-Bible								NULL
 Holy-Bible---English---World-Messianic-Bible-British-Edition	061	2PE	002	017	NOTE			questioned
@@ -641,6 +644,7 @@ Holy-Bible---French---French-LXX	020	PRO	004	027	SWAP			N'incline ni à droite n
 Holy-Bible---French---French-LXX	020	PRO	024	022	SWAP			Car ils punissent inopinément les impies; et qui peut prévoir quelle sera leur vengeance?
 Holy-Bible---French---French-LXX	061	2PE	002	017	NOTE			questioned
 Holy-Bible---French---French-LXX								NULL
+Holy-Bible---French---French-LXX-TheoTex								NULL
 Holy-Bible---French---French-Martin	061	2PE	002	017	NOTE			questioned
 Holy-Bible---French---French-Martin								NULL
 Holy-Bible---French---French-Oltramare-Bible								NULL
@@ -1594,6 +1598,8 @@ Holy-Bible---Sanskrit---Velthuis-Script	058	HEB	007	021	SKIP			NULL
 Holy-Bible---Sanskrit---Velthuis-Script	058	HEB	007	022	AIONS	g165		NULL
 Holy-Bible---Sanskrit---Velthuis-Script	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Sanskrit---Velthuis-Script								NULL
+Holy-Bible---Sari---Sari-Bible								NULL
+Holy-Bible---Satawalese---Satawalese-Bible								NULL
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark								NULL
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	061	2PE	002	017	NOTE			questioned
@@ -1702,6 +1708,7 @@ Holy-Bible---Twi---Akuapem-Twi-Bible								NULL
 Holy-Bible---Twi---Asante-Twi-WASNA	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Twi---Asante-Twi-WASNA								NULL
 Holy-Bible---Ukrainian---New-Translation								NULL
+Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible								NULL
 Holy-Bible---Ukrainian---Ukrainian-NT	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Ukrainian---Ukrainian-NT								NULL
 Holy-Bible---Ukrainian---Ukrainian-Ogienko								NULL

@@ -116,7 +116,7 @@ foreach( $database[T_SOURCES] as $data ) {
 		checksource($source, $source_status, $source_redirect, $source_size, $source_date, $source_time);
 		if ($source_size<=0) {
 			AION_ECHO("WARN! ZERO SIZE SOURCE: $source");
-			if (!preg_match("#STEPBible#u",$source)) { AION_ECHO("WARN! SKIPPING ZERO SIZE SOURCE: $source"); continue; }
+			if (!preg_match("#STEPBible#u",$source)) { AION_ECHO("WARN! SKIPPING ZERO SIZE SOURCE: {$data[C_FILE]} $source"); continue; }
 		}
 		$destination_size = $destination_date = "unknown";
 		if (file_exists($destination) && ($stat=stat($destination))) {

@@ -1,6 +1,6 @@
 # File Name: ANAVIGATION.txt
-# File Size: 21493       
-# File Date: 04/20/2025 11:26:36
+# File Size: 22683       
+# File Date: 04/27/2025 18:56:40
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -14,7 +14,21 @@
 #
 BIBLE	STATUS	MISSING
 Holy-Bible---Ahirani---Gospels		
+Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible		
+Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	VERSMISS	042-LUK-001-055
 Holy-Bible---Amo---Amo-Bible		
+Holy-Bible---Apal---Apali-Bible		
+Holy-Bible---Apal---Apali-Bible	VERSMISS	001-GEN-044-031
+Holy-Bible---Apal---Apali-Bible	VERSMISS	041-MAR-003-029
+Holy-Bible---Apal---Apali-Bible	VERSMISS	041-MAR-010-030
+Holy-Bible---Apal---Apali-Bible	VERSMISS	042-LUK-001-055
+Holy-Bible---Apal---Apali-Bible	VERSMISS	044-ACT-015-018
+Holy-Bible---Apal---Apali-Bible	VERSMISS	046-1CO-002-008
+Holy-Bible---Apal---Apali-Bible	VERSMISS	058-HEB-006-002
+Holy-Bible---Apal---Apali-Bible	VERSMISS	058-HEB-006-005
+Holy-Bible---Apal---Apali-Bible	VERSMISS	058-HEB-007-021
+Holy-Bible---Apal---Apali-Bible	VERSMISS	066-REV-010-006
+Holy-Bible---Apal---Apali-Bible	VERSMISS	066-REV-020-003
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible		
 Holy-Bible---Arabic---New-Arabic-Bible		
 Holy-Bible---Aramaic---Syriac-Peshitta		
@@ -37,6 +51,7 @@ Holy-Bible---Beami---Bedamuni-Bible	VERSMISS	045-ROM-016-026
 Holy-Bible---Beami---Bedamuni-Bible	VERSMISS	058-HEB-006-002
 Holy-Bible---Beami---Bedamuni-Bible	VERSMISS	058-HEB-013-021
 Holy-Bible---Beaver---Beaver-Mark		
+Holy-Bible---Bekwel---Bekwel-Bible		
 Holy-Bible---Bengali---Bengali-Bible		
 Holy-Bible---Bengali---Contemporary		
 Holy-Bible---Bhadrawahi---Bhadrawahi-Bible		
@@ -51,12 +66,15 @@ Holy-Bible---Bhattiyali---Bhattiyali-Bible	VERSMISS	066-REV-015-007
 Holy-Bible---Bhattiyali---Bhattiyali-Bible	VERSMISS	066-REV-020-003
 Holy-Bible---Bhattiyali---Bhattiyali-Bible	VERSMISS	066-REV-020-013
 Holy-Bible---Bhattiyali---Bhattiyali-Bible	VERSMISS	066-REV-020-015
+Holy-Bible---Bhilali---Bhilali-Bible		
 Holy-Bible---Blackfoot---Matthew		
 Holy-Bible---Bodo-Parja---BOPO-Bible		
 Holy-Bible---Borna---Borna-Latin-Bible		
 Holy-Bible---Borna---Borna-Latin-Bible	VERSMISS	042-LUK-001-055
 Holy-Bible---Breton---Breton-Gospels		
 Holy-Bible---Bu---Bu-Bible		
+Holy-Bible---Bugun---Bugun-Bible		
+Holy-Bible---Bugun---Bugun-Bible	VERSMISS	058-HEB-013-021
 Holy-Bible---Bulgarian---Bulgarian-Bible		
 Holy-Bible---Calo---Calo-Bible		
 Holy-Bible---Cebuano---Cebuano-Bible		
@@ -161,7 +179,6 @@ Holy-Bible---English---Weymouth-NT
 Holy-Bible---English---World-English-Bible		
 Holy-Bible---English---World-English-Bible-British-Edition		
 Holy-Bible---English---World-English-Bible-Updated		
-Holy-Bible---English---World-English-Bible-Updated-British		
 Holy-Bible---English---World-Messianic-Bible		
 Holy-Bible---English---World-Messianic-Bible-British-Edition		
 Holy-Bible---English---Worsley-Bible		
@@ -181,6 +198,7 @@ Holy-Bible---French---French-Crampon-Bible-New
 Holy-Bible---French---French-Darby-Bible		
 Holy-Bible---French---French-Khan-Bible		
 Holy-Bible---French---French-LXX		
+Holy-Bible---French---French-LXX-TheoTex		
 Holy-Bible---French---French-Louis-Segond-1910-Bible		
 Holy-Bible---French---French-Martin		
 Holy-Bible---French---French-Oltramare-Bible		
@@ -408,6 +426,10 @@ Holy-Bible---Sanskrit---Thai-Script
 Holy-Bible---Sanskrit---Tibetan-Script		
 Holy-Bible---Sanskrit---Urdu-Script		
 Holy-Bible---Sanskrit---Velthuis-Script		
+Holy-Bible---Sari---Sari-Bible		
+Holy-Bible---Sari---Sari-Bible	VERSMISS	042-LUK-001-055
+Holy-Bible---Satawalese---Satawalese-Bible		
+Holy-Bible---Satawalese---Satawalese-Bible	VERSMISS	042-LUK-001-055
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark		
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script		
 Holy-Bible---Serbian---Serbian-Ekavski-Bible		
@@ -451,6 +473,7 @@ Holy-Bible---Turkish---Turkish-Bible
 Holy-Bible---Twi---Akuapem-Twi-Bible		
 Holy-Bible---Twi---Asante-Twi-WASNA		
 Holy-Bible---Ukrainian---New-Translation		
+Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible		
 Holy-Bible---Ukrainian---Ukrainian-NT		
 Holy-Bible---Ukrainian---Ukrainian-Ogienko		
 Holy-Bible---Urdu---Urdu-Bible		

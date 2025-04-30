@@ -29,6 +29,9 @@ if ('Holy-Bible---English---Trans-Trans'==$bible) {
 if ('Holy-Bible---Greek---Greek-Nestle'==$bible) {
 	if (!($bfile = preg_replace("/[<>]+/us"," ",$bfile,-1,$rnum)) || $rnum!=6) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 }
+if ('Holy-Bible---Bugun---Bugun-Bible'==$bible) {
+	if (!($bfile = preg_replace("/[<>]+/us"," ",$bfile,-1,$rnum)) || $rnum!=4) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+}
 if ('Holy-Bible---Greek---Greek-Westcott-Hort'==$bible) {
 	if (!($bfile = preg_replace("/ [\d]+:[\d]+/us",' ',$bfile,-1,$rnum)) || $rnum!=16) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 	if (!($bfile = preg_replace("/</us",'(',$bfile,-1,$rnum)) || $rnum!=29) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -190,6 +193,21 @@ if (!($bfile = preg_replace("/([A-Z0-9]{3} \d+:\d+ )\d+/us",'$1',$bfile,-1,$rnum
 if (!($bfile = preg_replace("/tifulawa\[amomoagigimeichizina/us","tifulawa amomoagigimeichizina",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Apal---Apali-Bible" :
+$blockfix = <<<EOF
+2CO 13:12 Asɨ dɨ hulaŋ iamɨgali alaŋ aludɨ isagali imahali me agɨladɨ iga iga hɨjɨŋalaŋala human lamɨmɨli uami.
+2CO 13:13 Asɨ dɨ hulaŋ iamɨgali limu hɨhɨle agɨlaŋ nalusaŋ lamulavi uami.
+2CO 13:14 Aludɨ Hekɨlɨ Jisasɨ Kɨlaisɨ agaŋ nalusaŋ mavɨn hɨnibali uami. Asɨ agaŋ avi nalusaŋ mavɨn hekɨlɨ hɨnibali uami. Asɨ dɨ Amɨŋ agaŋ namɨlaŋ hula hɨnihɨni lɨdaci namɨlaŋ ahuata humɨgaŋ pam laci hɨnibalaŋ uami.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
 
 
 
@@ -697,6 +715,22 @@ if (!($bfile = preg_replace("/Revelation of John 17:16 (.+?)Revelation of John 1
 goto RAWHIDE;
 
 
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Bekwel---Bekwel-Bible" :
+$blockfix = <<<EOF
+2CO 13:12 Swoselka pak'en mɛswosel mɛ ɛboma mɛmuk nɛ bɔn nyɛɛg bina nɛ lyem e dɛɛ.
+2CO 13:13 Bɔn nyɛɛg tɔ ɛdum ɛ koŋ nɛ Zɛɛb eeswos bin.
+2CO 13:14 Betka náá, enɛm nɛ embɛɛ e Ghɛŋ Yezu Klisto, kwyɛl ɛ Zɛɛb nɛ ɛgwakel tɔ Sisim na Dɛɛ di nɛ biyɔ djas.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Bhadrawahi---Bhadrawahi-Bible" :
 $blockfix = <<<EOF
@@ -765,6 +799,20 @@ $blockfix = <<<EOF
 1TH 5:22 
 EOF;
 if (!($bfile = preg_replace("/\n1TH 5:20 (.+?)\n1TH 5:22 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Bugun---Bugun-Bible" :
+$blockfix = <<<EOF
+2CO 13:12 Nawaithek chung liijiing pha khichiug è salam rek rai bo.
+2CO 13:13 Zab pha Hamangkhung-aphuii branthek è nathek shii salamthek ren ge ro.
+2CO 13:14 Ithong Isu Masi ro bushun, Hamangkhung-aphuii ro miie, chiih-è Ragung So pha ò ne zab nathek rog shii um bo.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -19874,6 +19922,20 @@ JUD 1:25 ⱨǝywǝt-uluƣluⱪ, ⱪudrǝt wǝ ⱨoⱪuⱪ ǝzǝldin burun, ⱨaz
 REV 1:1 
 EOF;
 if (!($bfile = preg_replace("/JUD 1:24 (.+?)REV 1:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible" :
+$blockfix = <<<EOF
+2CO 13:12 Витайте один одного цїлуваннєм сьвятим.
+2CO 13:13 Витають вас, усї сьвяті.
+2CO 13:14 Благодать Господа Ісуса Христа і любов Божа, і причастє сьвятого Духа з усїма вами. Амінь.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 

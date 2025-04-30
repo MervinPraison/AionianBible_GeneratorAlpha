@@ -247,9 +247,10 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Coptic---Coptic-Boharic-NT---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---(World-English-Bible-Updated|Aionian-Bible)---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Finnish---Open-Living-News|Lithuanian---Believers-Heritage|Nepali---Nepali-Contemporary|Turkish---Open-Basic-Turkish).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Danish-1871-1907).*---Aionian-Edition\.noia$/",
-		'include'	=> "/---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Bugun---Bugun-Bible).*---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---.*(Ukrainian---Ukrainian-Freedom-Bible).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Haryanvi---Haryanvi-Bible|Alaba-Kabeena---Alaba-Kabeena-Bible|Apal---Apali-Bible|Bekwel---Bekwel-Bible|Bhilali---Bhilali-Bible|Bugun---Bugun-Bible|French---French-LXX-TheoTex|Sari---Sari-Bible|Satawalese---Satawalese-Bible|Ukrainian---Ukrainian-Freedom-Bible).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		'verses66'	=> $verses66,
@@ -890,7 +891,7 @@ if (empty($langforeign) || $langforeign=='English') {
 else if ($langforeign==$langenglish) {
 	$text = preg_replace(
 		'/(<Fontface fontfamily=\'FF-Pref\'><U><Value>AionianBible\.or)/',
-		"<Fontface fontfamily='FF-Pre2'><Value>$langforeign</Value></Fontface><Fontface fontfamily='FF-Pref'><Value> at </Value></Fontface>$1",
+		"<Fontface fontfamily='FF-Pref'><Value>$langforeign at </Value></Fontface>$1",
 		$text,-1,$count);
 }
 else if ($rtl=="TRUE") {
@@ -3288,6 +3289,20 @@ $loadfontfile = (
  <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"notoserifdevanagari-regular.ttf\"/>
  <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"notoserifdevanagari-bold.ttf\"/>"
 :
+// Devanagari - Marathi
+($font == "DevanagariPlus" ?
+"<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"notoserifdevanagari-regular-plus.ttf\"/>
+ <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"notoserifdevanagari-bold-plus.ttf\"/>
+ <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"notoserifdevanagari-regular-plus.ttf\"/>
+ <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"notoserifdevanagari-bold-plus.ttf\"/>"
+:
+// Ethiopic
+($font == "Ethiopic" ?
+"<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"noto-ethiopic-serif-regular.ttf\"/>
+ <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"noto-ethiopic-serif-bold.ttf\"/>
+ <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"noto-ethiopic-serif-regular.ttf\"/>
+ <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"noto-ethiopic-serif-bold.ttf\"/>"
+:
 // Ezra, Hebrew
 ($font == "Ezra" ?
 "<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"ezra_sil.ttf\"/>
@@ -3448,7 +3463,7 @@ $loadfontfile = (
  <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"notosans-basic-bolditalic.ttf\"/>"
 :
 // ERROR
-AION_ECHO("ERROR! Font not found $font")))))))))))))))))))))))))))))));
+AION_ECHO("ERROR! Font not found $font")))))))))))))))))))))))))))))))));
 
 if ($numarialfont) {	$initfont = '<Regular fontface="FT-BOLD"/><Bold fontface="FT-BOLD"/><Italic fontface="FT-BOIT"/><BoldItalic fontface="FT-BOIT"/>';
 						$numbfont = '<Regular fontface="FT-REGU"/><Bold fontface="FT-BOLD"/><Italic fontface="FT-ITAL"/><BoldItalic fontface="FT-BOIT"/>'; }

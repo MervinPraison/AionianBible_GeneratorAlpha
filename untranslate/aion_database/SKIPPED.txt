@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1637040     
-# File Date: 04/20/2025 08:57:12
+# File Size: 1663460     
+# File Date: 04/27/2025 18:03:20
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -250,6 +250,8 @@ Holy-Bible---Beami---Bedamuni-Bible	059	JAM	005	019	-
 Holy-Bible---Beami---Bedamuni-Bible	064	3JO	001	014	Na da dima hedolowane misini, dia odagia sia:mu hanai gala.
 Holy-Bible---Beami---Bedamuni-Bible	065	JUD	001	014	-
 Holy-Bible---Beami---Bedamuni-Bible	066	REV	012	018	Amola hanome da hano wayabo bagade bega: lelu.
+Holy-Bible---Bekwel---Bekwel-Bible	041	MAR	009	046	]
+Holy-Bible---Bekwel---Bekwel-Bible	044	ACT	028	029	]
 Holy-Bible---Bengali---Bengali-Bible	044	ACT	015	034	
 Holy-Bible---Bengali---Bengali-Bible	064	3JO	001	014	আশাকরি, শীঘ্রই তোমাকে দেখব, তখন আমরা সামনা সামনি হয়ে কথাবার্তা বলব।
 Holy-Bible---Bengali---Bengali-Bible	066	REV	012	018	তখন সেই বিরাটাকার সাপটি সমুদ্রের বালুকাময় কিনারে দাঁড়াল।
@@ -2470,11 +2472,6 @@ Holy-Bible---English---World-English-Bible-Updated	044	ACT	008	037
 Holy-Bible---English---World-English-Bible-Updated	044	ACT	015	034	
 Holy-Bible---English---World-English-Bible-Updated	044	ACT	024	007	
 Holy-Bible---English---World-English-Bible-Updated	045	ROM	016	025	
-Holy-Bible---English---World-English-Bible-Updated-British	042	LUK	017	036	
-Holy-Bible---English---World-English-Bible-Updated-British	044	ACT	008	037	
-Holy-Bible---English---World-English-Bible-Updated-British	044	ACT	015	034	
-Holy-Bible---English---World-English-Bible-Updated-British	044	ACT	024	007	
-Holy-Bible---English---World-English-Bible-Updated-British	045	ROM	016	025	
 Holy-Bible---English---World-Messianic-Bible	042	LUK	017	036	
 Holy-Bible---English---World-Messianic-Bible	044	ACT	008	037	
 Holy-Bible---English---World-Messianic-Bible	044	ACT	015	034	
@@ -3862,6 +3859,217 @@ Holy-Bible---French---French-LXX	027	DAN	003	087	Saints et humbles de cœur, bé
 Holy-Bible---French---French-LXX	027	DAN	003	088	Ananias, Azarias, Misaël, bénissez le Seigneur; chantez-le, exaltez-le infiniment dans tous les siècles, parce qu'il nous a tirés des enfers, qu'il nous a sauvés des mains de la mort, délivrés du milieu de la fournaise en flammes, et protégés au milieu du feu.
 Holy-Bible---French---French-LXX	027	DAN	003	089	Rendez gloire ensemble au Seigneur, parce qu'il est bon, parce que sa miséricorde est éternelle.
 Holy-Bible---French---French-LXX	027	DAN	003	090	Hommes pieux, bénissez le Seigneur, Dieu des dieux; chantez-le et rendez- lui gloire, parce que sa miséricorde est éternelle.
+Holy-Bible---French---French-LXX-TheoTex	009	1SA	013	002	
+Holy-Bible---French---French-LXX-TheoTex	009	1SA	017	041	
+Holy-Bible---French---French-LXX-TheoTex	009	1SA	017	050	
+Holy-Bible---French---French-LXX-TheoTex	009	1SA	018	006	
+Holy-Bible---French---French-LXX-TheoTex	009	1SA	018	011	
+Holy-Bible---French---French-LXX-TheoTex	009	1SA	018	019	
+Holy-Bible---French---French-LXX-TheoTex	009	1SA	020	042	Et Jonathan dit à David : Va en paix, que notre mutuel serment subsiste ; car nous avons juré, au nom du Seigneur, quand nous avons dit : Le Seigneur sera témoin pour toujours entre toi et moi, entre ma postérité et la tienne.
+Holy-Bible---French---French-LXX-TheoTex	009	1SA	023	012	
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	003	002	
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	005	009	
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	005	032	
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	006	015	
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	006	019	
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	008	013	
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	009	026	
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	011	004	
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	011	025	
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	011	040	
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	012	003	
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	012	018	
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	013	028	
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	014	021	
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	015	033	
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	022	043	Et il marcha dans la voie d’Asa, son père ; il ne s’en écarta point, et il fut agréable aux yeux du Seigneur.
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	022	051	
+Holy-Bible---French---French-LXX-TheoTex	013	1CH	001	017	
+Holy-Bible---French---French-LXX-TheoTex	013	1CH	001	024	
+Holy-Bible---French---French-LXX-TheoTex	013	1CH	012	004	Samaïas de Gabaon, vaillant parmi les trente, et leur chef,
+Holy-Bible---French---French-LXX-TheoTex	013	1CH	016	025	
+Holy-Bible---French---French-LXX-TheoTex	014	2CH	027	009	
+Holy-Bible---French---French-LXX-TheoTex	016	NEH	003	008	
+Holy-Bible---French---French-LXX-TheoTex	016	NEH	011	017	
+Holy-Bible---French---French-LXX-TheoTex	016	NEH	011	022	
+Holy-Bible---French---French-LXX-TheoTex	016	NEH	011	030	
+Holy-Bible---French---French-LXX-TheoTex	016	NEH	011	036	
+Holy-Bible---French---French-LXX-TheoTex	016	NEH	012	007	
+Holy-Bible---French---French-LXX-TheoTex	017	EST	004	007	
+Holy-Bible---French---French-LXX-TheoTex	017	EST	009	006	
+Holy-Bible---French---French-LXX-TheoTex	017	EST	009	031	
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	003	001	Psaume de David, lorsqu’il fuyait de devant son fils Absalom.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	004	001	Jusqu’à la Fin, un cantique de David dans les Psaumes.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	005	001	Jusqu’à la Fin, un psaume de David, au sujet de l’héritière.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	006	001	Jusqu’à la Fin, un psaume de David, pris des hymnes en octave.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	007	001	Un psaume de David, qu’il chanta au Seigneur, à cause des paroles de Chusi, le benjamite.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	008	001	Jusqu’à la Fin, au sujet des pressoirs à vin, un psaume de David.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	009	001	Jusqu’à la Fin, un psaume de David, au sujet des secrets du Fils.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	012	001	Jusqu’à la Fin, psaume de David, en octave.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	018	001	Jusqu’à la Fin. Pour David, serviteur de Dieu : il a composé au Seigneur les paroles de ce psaume le jour que le Seigneur l’a sauvé des mains de tous ses ennemis, et des mains de Saül,
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	019	001	Jusqu’à la Fin, psaume de David.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	020	001	Jusqu’à la Fin, psaume de David.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	021	001	Jusqu’à la Fin, psaume de David.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	022	001	Jusqu’à la Fin, pour la prière du matin, psaume de David.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	030	001	Jusqu’à la Fin, psaume et cantique de David à l’occasion de la dédicace de la maison.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	031	001	Jusqu’à la Fin. Psaume de David, à l’occasion d’une grande terreur.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	034	001	Psaume de David, quand il changea de contenance devant Abimélech, qui le laissa partir, et il partit.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	036	001	Jusqu’à la Fin. Psaume de David, serviteur du Seigneur.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	038	001	Psaume de David, pour se souvenir du Sabbat.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	039	001	Jusqu’à la Fin, sur Idithun. Hymne de David.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	040	001	Jusqu’à la Fin. Psaume de David.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	041	001	Jusqu’à la Fin, Psaume de David.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	042	001	Jusqu’à la Fin. Psaume d’instruction des fils de Koré.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	044	001	Jusqu’à la Fin. Psaume d’instruction, des fils de Koré.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	045	001	Jusqu’à la Fin, avec chants alternés, une instruction des fils de Koré, un cantique au sujet du bien-aimé.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	046	001	Jusqu’à la Fin. Des fils de Koré, un psaume au sujet de choses cachées.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	047	001	Jusqu’à la Fin, psaume des fils de Koré.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	048	001	Psaume chanté par les fils de Koré, le second jour de la semaine.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	049	001	Jusqu’à la Fin. Psaume des fils de Koré.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	051	001	Jusqu’à la Fin. Psaume de David.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	051	002	Quand le prophète Nathan le vint trouver, parce qu’il avait eu commerce avec Bersabée.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	052	001	Jusqu’à la Fin ; instruction de David,
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	052	002	Quand Doeg l’Iduméen alla porter un message à Saül, et lui dit : David est entré dans la maison d’Abimélech,
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	053	001	Jusqu’à la Fin, sur Maeleth. Une instruction de David.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	054	001	Jusqu’à la Fin, parmi les hymnes, instruction de David,
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	054	002	Quand ceux de Ziph entrèrent, et dirent à Saül : N’as-tu pas vu où David est caché parmi nous ?
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	055	001	Jusqu’à la Fin, parmi les hymnes, instruction de David.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	056	001	Jusqu’à la Fin, pour le peuple, quand il fut éloigné des saints lieux, inscription de David, lorsque les Philistins l’eurent maîtrisé dans Geth.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	057	001	Jusqu’à la Fin, avec cette inscription de David : Ne détruis pas ; lorsqu’il se réfugia dans la caverne pour se soustraire aux recherches de Saül.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	058	001	Jusqu’à la Fin, avec cette inscription de David : Ne détruis pas.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	059	001	Jusqu’à la Fin, avec cette inscription de David : Ne détruis pas ; quand Saül envoya et fit garder sa maison pour le mettre à mort.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	060	001	Jusqu’à la Fin, pour ceux qui seront transformés, avec cette inscription de David : Instruction,
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	060	002	Quand il avait brûlé Mésopotamia de Syrie et Syria-Sobal, et que Joab avait fait demi-tour pour frapper douze mille dans la vallée du sel.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	061	001	Jusqu’à la Fin, parmi les hymnes de David.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	062	001	Jusqu’à la Fin, sur Idithun, psaume de David.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	063	001	Psaume de David, quand il était dans le désert de Judée.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	064	001	Jusqu’à la Fin, psaume de David,
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	065	001	Jusqu’à la Fin. Hymne de David, inspiré des paroles de Jérémie et Ezéchiel à l’époque de la déportation, et quand ils étaient sur le point de sortir.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	067	001	Jusqu’à la Fin, psaume d’un des hymnes de David,
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	068	001	Jusqu’à la Fin, psaume de David,
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	069	001	Jusqu’à la Fin, pour ceux qui seront changés, de David.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	070	001	Jusqu’à la Fin, souvenir de David.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	075	001	Jusqu’à la Fin. Ne détruis pas ; psaume et cantique d’Asaph,
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	076	001	Jusqu’à la Fin. Jusqu’à la Fin avec les hymnes, psaume d’Asaph, chant concernant l’Assyrien.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	077	001	Jusqu’à la Fin, sur Idithun. Psaume d’Asaph.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	080	001	Jusqu’à la Fin, chant en répons ; témoignage d’Asaph, Psaume au sujet de l’Assyrien.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	081	001	Jusqu’à la Fin, psaume d’Asaph, sur les pressoirs.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	083	001	Cantique et Psaume d’Asaph.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	084	001	Jusqu’à la Fin, sur les pressoirs, psaume des fils de Koré.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	085	001	Jusqu’à la Fin ; psaume des fils de Koré.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	088	001	Psaume des fils de Koré. Jusqu’à la Fin, sur Maeleth, afin qu’il lui soit répondu. Méditation d’Eman l’Israélite.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	089	001	Un psaume de méditation d’Étham, l’Israélite.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	092	001	Psaume et cantique pour le jour du Sabbat.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	102	001	Prière pour le pauvre, lorsqu’il sera dans l’angoisse et qu’il épanchera ses vœux devant le Seigneur.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	108	001	Cantique et psaume de David.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	115	006	
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	140	001	Jusqu’à la Fin. Psaume de David.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	142	001	Méditation de David lorsqu’il était dans la caverne en prière.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	151	001	Ce psaume est authentiquement de David quoique surnuméraire ; il a été composé à l’occasion de son combat singulier contre Goliath — J’étais parmi mes frères le plus jeune de la maison de mon père : je paissais ses brebis.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	151	002	De mes mains j’ai fait un instrument de musique ; de mes doigts j’ai accordé la cithare.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	151	003	Et qui l’annoncera à mon Seigneur ? le Seigneur en personne, car lui-même entend.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	151	004	Il a envoyé son ange me prendre derrière les brebis de mon père, et il m’a oint de son huile.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	151	005	Mes frères étaient beaux et forts ; mais le Seigneur n’a pas pris plaisir en eux.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	151	006	Je suis sorti à la rencontre du Philistin, et il m’a maudit par ses idoles.
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	151	007	Mais j’ai tiré sa propre épée, je l’ai décapité, et ôté l’opprobre des fils d’Israël.
+Holy-Bible---French---French-LXX-TheoTex	020	PRO	004	027	N’incline ni à droite ni à gauche, et retire tes pieds de la voie mauvaise ;  (a) Car Dieu seul connaît les voies de la droite, et celles de la gauche sont tortueuses.
+Holy-Bible---French---French-LXX-TheoTex	024	JER	002	002	
+Holy-Bible---French---French-LXX-TheoTex	024	JER	007	002	
+Holy-Bible---French---French-LXX-TheoTex	024	JER	008	013	
+Holy-Bible---French---French-LXX-TheoTex	024	JER	010	011	
+Holy-Bible---French---French-LXX-TheoTex	024	JER	011	008	
+Holy-Bible---French---French-LXX-TheoTex	024	JER	026	027	
+Holy-Bible---French---French-LXX-TheoTex	024	JER	028	049	
+Holy-Bible---French---French-LXX-TheoTex	024	JER	030	023	
+Holy-Bible---French---French-LXX-TheoTex	024	JER	032	013	
+Holy-Bible---French---French-LXX-TheoTex	024	JER	032	015	
+Holy-Bible---French---French-LXX-TheoTex	024	JER	034	002	
+Holy-Bible---French---French-LXX-TheoTex	024	JER	034	008	
+Holy-Bible---French---French-LXX-TheoTex	024	JER	034	014	
+Holy-Bible---French---French-LXX-TheoTex	024	JER	034	018	
+Holy-Bible---French---French-LXX-TheoTex	024	JER	034	022	
+Holy-Bible---French---French-LXX-TheoTex	024	JER	036	021	
+Holy-Bible---French---French-LXX-TheoTex	024	JER	037	012	
+Holy-Bible---French---French-LXX-TheoTex	024	JER	037	016	
+Holy-Bible---French---French-LXX-TheoTex	024	JER	037	023	
+Holy-Bible---French---French-LXX-TheoTex	024	JER	046	014	
+Holy-Bible---French---French-LXX-TheoTex	024	JER	052	004	
+Holy-Bible---French---French-LXX-TheoTex	024	JER	052	016	
+Holy-Bible---French---French-LXX-TheoTex	024	JER	052	031	
+Holy-Bible---French---French-LXX-TheoTex	025	LAM	003	025	
+Holy-Bible---French---French-LXX-TheoTex	025	LAM	003	030	
+Holy-Bible---French---French-LXX-TheoTex	026	EZE	001	015	
+Holy-Bible---French---French-LXX-TheoTex	026	EZE	027	032	
+Holy-Bible---French---French-LXX-TheoTex	026	EZE	032	020	
+Holy-Bible---French---French-LXX-TheoTex	026	EZE	033	027	
+Holy-Bible---French---French-LXX-TheoTex	026	EZE	040	031	
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	024	Et ils marchèrent au milieu des flammes, chantant Dieu et bénissant le Seigneur.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	025	Et Azarias, debout, pria ainsi, et ayant ouvert la bouche au milieu des flammes :
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	026	Béni soyez-vous, dit-il, Seigneur Dieu de nos pères, soyez loué ; que votre nom soit glorifié dans tous les siècles !
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	027	Car vous êtes juste en toutes les choses que vous avez faites ; toutes vos œuvres sont vraies, vos voies sont droites, et tous vos jugements sont vérité.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	028	Et vous avez fait des jugements équitables dans tous les maux que vous avez amenés contre nous et contre Jérusalem, ville sainte de nos pères, puisque vous avez fait toutes ces choses en vérité et en justice, à cause de nos péchés.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	029	Car nous avons péché, nous nous sommes égarés en nous éloignant de vous, et nous avons failli en toutes choses. Nous avons été indociles à vos commandements.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	030	Nous ne les avons pas observés ; nous n’avons point fait comme vous nous l’aviez prescrit pour que nous fussions heureux.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	031	Et tout ce que vous avez amené contre nous, tout ce que vous nous avez fait, vous l’avez fait en justice et en vérité.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	032	Et vous nous avez livrés aux mains d’ennemis pervers, d’infidèles abominables, d’un roi inique et le plus méchant de toute la terre.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	033	Et maintenant il ne nous est plus permis d’ouvrir la bouche ; nous sommes un sujet de confusion et d’opprobre pour ceux qui vous servent et vous adorent.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	034	Pour l’amour de votre nom, ne nous livrez pas à jamais ; ne rompez pas votre alliance.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	035	Ne détournez pas de nous votre miséricorde, en considération d’Abraham, votre bien-aimé, d’Isaac, votre serviteur, de Jacob, votre saint,
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	036	A qui vous avez promis de multiplier leur postérité autant que les étoiles du ciel et que le sable du rivage de la mer.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	037	Seigneur, nous sommes les moindres en nombre, parmi toutes les nations, et nous sommes humiliés aujourd’hui dans toute la terre, à cause de nos péchés.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	038	Et dans le temps présent il n’y a plus pour nous ni chef, ni prophète, ni roi, ni holocaustes, ni sacrifices, ni oblations, ni encens, ni de lieu où nous puissions porter les prémices de nos fruits en votre présence, et obtenir votre miséricorde.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	039	Mais l’âme contrite et l’esprit humilié, puissions-nous être accueillis de vous, comme un holocauste de béliers et de taureaux, comme l’oblation de dix mille agneaux gras,
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	040	Et qu’il arrive jusqu’à vous ! car ceux qui ont confiance en vous ne seront jamais confondus.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	041	Et maintenant, nous nous consacrons à vous de tout notre cœur, nous vous craignons, et nous cherchons votre visage.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	042	Ne nous couvrez pas de honte ; mais traitez-nous selon votre mansuétude et selon l’abondance de votre miséricorde.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	043	Délivrez-nous par un de vos prodiges, et donnez la gloire à votre nom, ô Seigneur !
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	044	Et qu’ils tremblent tous ceux qui font connaître ces maux à vos serviteurs ; qu’ils soient humiliés par votre toute-puissance, et que toute leur force soit brisée
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	045	Qu’ils sachent que vous êtes le Seigneur, le seul Dieu, le Dieu de gloire qui règne sur toute la terre.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	046	Cependant les serviteurs du roi qui les avaient jetés dans la fournaise ne cessaient pas d’y brûler du naphte et de la poix, des étoupes et du sarment.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	047	Et la flamme s’élevait au-dessus de la fournaise à quarante-neuf coudées ;
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	048	Et elle se promena, et brûla ceux des Chaldéens qu’elle trouva autour de la fournaise.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	049	Et l’ange du Seigneur descendit en même temps vers ceux qui étaient dans la fournaise avec Azarias, et il secoua la flamme hors de la fournaise.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	050	Et il fit souffler au milieu de la fournaise comme un vent chargé de rosée ; et le feu ne les atteignit aucunement, et il ne leur fit point de mal, et même il ne les incommoda point.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	051	Alors tous les trois se mirent à chanter d’une seule voix, et ils glorifièrent Dieu, et ils le bénirent du fond de la fournaise, disant :
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	052	Soyez béni, Seigneur Dieu de nos pères ; soyez loué et infiniment exalté dans tous les siècles ! Que béni soit votre nom saint et glorieux ; qu’il soit célébré, qu’il soit exalté dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	053	Vous êtes béni dans le temple de votre gloire sainte ; vous êtes au-dessus de toute louange et de toute gloire dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	054	Vous êtes béni sur le trône de votre royauté ; vous êtes infiniment loué et exalté dans tous les siècles !
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	055	Vous êtes béni, vous qui regardez les abîmes, vous qui êtes assis sur les chérubins ; vous êtes infiniment loué et exalté dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	056	Vous êtes béni dans le firmament du ciel ; vous êtes chanté et glorifié dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	057	Œuvres du Seigneur, bénissez toutes le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	058	Anges du Seigneur, bénissez le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	059	Cieux, bénissez le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	060	Eaux de la terre, eaux du ciel, bénissez le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	061	Armées du Seigneur, bénissez toutes le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	062	Soleil et lune, bénissez le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	063	Étoiles du ciel, bénissez le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	064	Pluie et rosée, bénissez le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	065	Vents, bénissez tous le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	066	Feu et chaleur, bénissez le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	067	Froidures (de l’hiver) et canicules (de l’été), bénissez le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	068	Rosées et neiges, bénissez le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	069	Glace et froid, bénissez le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	070	Gelées et neiges, bénissez le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	071	Nuits et jours, bénissez le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	072	Lumière et ténèbres, bénissez le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	073	Éclairs et nuées, bénissez le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	074	Que la terre bénisse le Seigneur ; qu’elle le chante, qu’elle l’exalte infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	075	Monts et collines, bénissez le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	076	Plantes de la terre, bénissez toutes le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	077	Fontaines, bénissez le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	078	Mer et fleuves, bénissez le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	079	Monstres marins qui vous mouvez dans les ondes, bénissez tous le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	080	Oiseaux du ciel, bénissez tous le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	081	Bêtes fauves et troupeaux, bénissez tous le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	082	Fils des hommes, bénissez le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	083	Israël, bénissez le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	084	Prêtres, bénissez le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	085	Serviteurs, bénissez le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	086	Esprits et âmes des justes, bénissez le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	087	Saints et humbles de cœur, bénissez le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	088	Ananias, Azarias, Misaël, bénissez le Seigneur ; chantez-le, exaltez-le infiniment dans tous les siècles, parce qu’il nous a tirés des enfers, qu’il nous a sauvés des mains de la mort, délivrés du milieu de la fournaise en flammes, et protégés au milieu du feu.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	089	Rendez gloire ensemble au Seigneur, parce qu’il est bon, parce que sa miséricorde est éternelle.
+Holy-Bible---French---French-LXX-TheoTex	027	DAN	003	090	Hommes pieux, bénissez le Seigneur, Dieu des dieux ; chantez-le et rendez-lui gloire, parce que sa miséricorde est éternelle.
 Holy-Bible---French---French-Louis-Segond-1910-Bible	009	1SA	020	042	Et Jonathan dit à David: Va en paix, maintenant que nous avons juré l’un et l’autre, au nom de l’Éternel, en disant: Que l’Éternel soit à jamais entre moi et toi, entre ma postérité et ta postérité!
 Holy-Bible---French---French-Louis-Segond-1910-Bible	011	1KI	022	043	Il marcha dans toute la voie d’Asa, son père, et ne s’en détourna point, faisant ce qui est droit aux yeux de l’Éternel.
 Holy-Bible---French---French-Louis-Segond-1910-Bible	019	PSA	003	001	Psaume de David. A l’occasion de sa fuite devant Absalom, son fils.
@@ -11073,6 +11281,7 @@ Holy-Bible---Sanskrit---Urdu-Script	064	3JO	001	014	اَچِرینَ تْواں 
 Holy-Bible---Sanskrit---Urdu-Script	066	REV	012	018	
 Holy-Bible---Sanskrit---Velthuis-Script	064	3JO	001	014	acire.na tvaa.m drak.syaamiiti mama pratyaa"saaste tadaavaa.m sammukhiibhuuya paraspara.m sambhaa.si.syaavahe|
 Holy-Bible---Sanskrit---Velthuis-Script	066	REV	012	018	
+Holy-Bible---Sari---Sari-Bible	044	ACT	015	034	
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	009	1SA	020	042	I reèe Jonatan Davidu: idi s mirom, kao što smo se zakleli obojica imenom Gospodnjim rekavši: Gospod da je svjedok izmeðu mene i tebe i izmeðu mojega sjemena i tvojega sjemena dovijeka.
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	011	1KI	022	043	I hoðaše putem Ase oca svojega sasvijem, i ne otstupi od njega èineæi sve što je pravo pred Gospodom.
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	064	3JO	001	014	Nego se nadam da æu te skoro vidjeti, i iz usta govoriti.

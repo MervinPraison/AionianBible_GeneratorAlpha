@@ -1,8 +1,14 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	TOTAL	COMBINE	END
 Holy-Bible---Ahirani---Gospels							end
+Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	066	REV	012	018	1	-1	end
+Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible							end
 Holy-Bible---Amo---Amo-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Amo---Amo-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Amo---Amo-Bible							end
+Holy-Bible---Apal---Apali-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Apal---Apali-Bible	066	REV	012	018	1	-1	end
+Holy-Bible---Apal---Apali-Bible							end
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible	054	1TI	006	021	21	1	end
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible							end
@@ -27,6 +33,9 @@ Holy-Bible---Beami---Bedamuni-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Beami---Bedamuni-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Beami---Bedamuni-Bible							end
 Holy-Bible---Beaver---Beaver-Mark							end
+Holy-Bible---Bekwel---Bekwel-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Bekwel---Bekwel-Bible	066	REV	012	018	1	-1	end
+Holy-Bible---Bekwel---Bekwel-Bible							end
 Holy-Bible---Bengali---Bengali-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Bengali---Bengali-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Bengali---Contemporary	064	3JO	001	014	14	1	end
@@ -35,6 +44,9 @@ Holy-Bible---Bhadrawahi---Bhadrawahi-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Bhattiyali---Bhattiyali-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Bhattiyali---Bhattiyali-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Bhattiyali---Bhattiyali-Bible							end
+Holy-Bible---Bhilali---Bhilali-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Bhilali---Bhilali-Bible	066	REV	012	018	1	-1	end
+Holy-Bible---Bhilali---Bhilali-Bible							end
 Holy-Bible---Blackfoot---Matthew							end
 Holy-Bible---Bodo-Parja---BOPO-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Bodo-Parja---BOPO-Bible	066	REV	012	018	1	-1	end
@@ -45,6 +57,9 @@ Holy-Bible---Breton---Breton-Gospels							end
 Holy-Bible---Bu---Bu-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Bu---Bu-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Bu---Bu-Bible							end
+Holy-Bible---Bugun---Bugun-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Bugun---Bugun-Bible	066	REV	012	018	1	-1	end
+Holy-Bible---Bugun---Bugun-Bible							end
 Holy-Bible---Bulgarian---Bulgarian-Bible	016	NEH	012	047	47	1	end
 Holy-Bible---Bulgarian---Bulgarian-Bible	018	JOB	011	020	20	1	end
 Holy-Bible---Bulgarian---Bulgarian-Bible	038	ZEC	010	011	12	1	end
@@ -715,7 +730,6 @@ Holy-Bible---English---Weymouth-NT	064	3JO	001	014	14	1	end
 Holy-Bible---English---World-English-Bible							end
 Holy-Bible---English---World-English-Bible-British-Edition							end
 Holy-Bible---English---World-English-Bible-Updated							end
-Holy-Bible---English---World-English-Bible-Updated-British							end
 Holy-Bible---English---World-Messianic-Bible							end
 Holy-Bible---English---World-Messianic-Bible-British-Edition							end
 Holy-Bible---English---Worsley-Bible	064	3JO	001	014	14	1	end
@@ -1220,6 +1234,73 @@ Holy-Bible---French---French-LXX	019	PSA	140	001	13	1	end
 Holy-Bible---French---French-LXX	019	PSA	142	001	7	1	end
 Holy-Bible---French---French-LXX	020	PRO	004	027	27	1	end
 Holy-Bible---French---French-LXX							end
+Holy-Bible---French---French-LXX-TheoTex	009	1SA	020	042	42	1	end
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	022	043	53	1	end
+Holy-Bible---French---French-LXX-TheoTex	013	1CH	012	004	40	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	003	001	8	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	004	001	8	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	005	001	12	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	006	001	10	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	007	001	17	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	008	001	9	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	009	001	20	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	012	001	8	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	018	001	50	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	019	001	14	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	020	001	9	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	021	001	13	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	022	001	31	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	030	001	12	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	031	001	24	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	034	001	22	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	036	001	12	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	038	001	22	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	039	001	13	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	040	001	17	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	041	001	13	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	042	001	11	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	044	001	26	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	045	001	17	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	046	001	11	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	047	001	9	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	048	001	14	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	049	001	20	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	051	001	19	2	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	052	001	9	2	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	053	001	6	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	054	001	7	2	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	055	001	23	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	056	001	13	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	057	001	11	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	058	001	11	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	059	001	17	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	060	001	12	2	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	061	001	8	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	062	001	12	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	063	001	11	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	064	001	10	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	065	001	13	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	067	001	7	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	068	001	35	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	069	001	36	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	070	001	5	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	075	001	10	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	076	001	12	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	077	001	20	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	080	001	19	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	081	001	16	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	083	001	18	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	084	001	12	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	085	001	13	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	088	001	18	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	089	001	52	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	092	001	15	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	102	001	28	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	108	001	13	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	140	001	13	1	end
+Holy-Bible---French---French-LXX-TheoTex	019	PSA	142	001	7	1	end
+Holy-Bible---French---French-LXX-TheoTex	020	PRO	004	027	27	1	end
+Holy-Bible---French---French-LXX-TheoTex							end
 Holy-Bible---French---French-Martin	009	1SA	020	042	42	1	end
 Holy-Bible---French---French-Martin	011	1KI	022	043	53	1	end
 Holy-Bible---French---French-Martin	041	MAR	009	050	50	1	end
@@ -3477,6 +3558,10 @@ Holy-Bible---Sanskrit---Thai-Script	064	3JO	001	014	14	1	end
 Holy-Bible---Sanskrit---Tibetan-Script	064	3JO	001	014	14	1	end
 Holy-Bible---Sanskrit---Urdu-Script	064	3JO	001	014	14	1	end
 Holy-Bible---Sanskrit---Velthuis-Script	064	3JO	001	014	14	1	end
+Holy-Bible---Sari---Sari-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Sari---Sari-Bible	066	REV	012	018	1	-1	end
+Holy-Bible---Sari---Sari-Bible							end
+Holy-Bible---Satawalese---Satawalese-Bible							end
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark							end
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	009	1SA	020	042	42	1	end
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	011	1KI	022	043	53	1	end
@@ -3947,6 +4032,8 @@ Holy-Bible---Ukrainian---New-Translation	019	PSA	140	001	13	1	end
 Holy-Bible---Ukrainian---New-Translation	064	3JO	001	014	14	1	end
 Holy-Bible---Ukrainian---New-Translation	066	REV	012	018	1	-1	end
 Holy-Bible---Ukrainian---New-Translation							end
+Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible							end
 Holy-Bible---Ukrainian---Ukrainian-NT							end
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	011	1KI	022	043	53	1	end
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	003	001	8	1	end
