@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1663460     
-# File Date: 04/27/2025 18:03:20
+# File Size: 1665416     
+# File Date: 04/29/2025 23:14:09
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -13,10 +13,13 @@
 # Publisher Facebook: https://www.Facebook.com/AionianBible
 #
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	TEXT
+Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	064	3JO	001	014	አን ግደኖ በሬን ደቀሞሄተ ተብሳሃ አኣም፤ ህከ ወክት ሜጡበ እንክ ጉዕመርቹንከ ጠወዕናም።
+Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	066	REV	012	018	ደህቹንኩ ባር ገበላን ሽፋር አሌን ኡሬእ።
 Holy-Bible---Amo---Amo-Bible	041	MAR	009	046	
 Holy-Bible---Amo---Amo-Bible	044	ACT	001	008	
 Holy-Bible---Amo---Amo-Bible	064	3JO	001	014	Ndin caa inyene mune nin nizi, tima nin liru tiyenje atii.
 Holy-Bible---Amo---Amo-Bible	066	REV	012	018	Ddragone uni wa yissin kitene licicin nbiyu kurawa.
+Holy-Bible---Apal---Apali-Bible	066	REV	012	018	Lɨci sahula hekɨlɨ agaŋ vala ua avɨli hekɨlɨ caba heŋ hɨni uami.
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible	054	1TI	006	021	ٱلَّذِي إِذْ تَظَاهَرَ بِهِ قَوْمٌ زَاغُوا مِنْ جِهَةِ ٱلْإِيمَانِ.
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible	064	3JO	001	014	وَلَكِنَّنِي أَرْجُو أَنْ أَرَاكَ عَنْ قَرِيبٍ فَنَتَكَلَّمَ فَمًا لِفَمٍ.
 Holy-Bible---Arabic---New-Arabic-Bible	054	1TI	006	021	وَإِذِ ادَّعَى بَعْضُهُمْ هَذِهِ الْمَعْرِفَةَ الْمَزْعُومَةَ، زَاغُوا عَنِ الإِيمَانِ.
@@ -252,6 +255,8 @@ Holy-Bible---Beami---Bedamuni-Bible	065	JUD	001	014	-
 Holy-Bible---Beami---Bedamuni-Bible	066	REV	012	018	Amola hanome da hano wayabo bagade bega: lelu.
 Holy-Bible---Bekwel---Bekwel-Bible	041	MAR	009	046	]
 Holy-Bible---Bekwel---Bekwel-Bible	044	ACT	028	029	]
+Holy-Bible---Bekwel---Bekwel-Bible	064	3JO	001	014	Mɛ ɛ́ nɛ ɛbwaalel náá, mena waaboma tɔ mɛlu mak. E di'enek, menabɛl bɛbá waamɔ.
+Holy-Bible---Bekwel---Bekwel-Bible	066	REV	012	018	É di'enek, dhalaghɔŋ nazɛtɔ́ kɛtyaa é ngwoob bɛsyɛ boo dii mɛsɔn.
 Holy-Bible---Bengali---Bengali-Bible	044	ACT	015	034	
 Holy-Bible---Bengali---Bengali-Bible	064	3JO	001	014	আশাকরি, শীঘ্রই তোমাকে দেখব, তখন আমরা সামনা সামনি হয়ে কথাবার্তা বলব।
 Holy-Bible---Bengali---Bengali-Bible	066	REV	012	018	তখন সেই বিরাটাকার সাপটি সমুদ্রের বালুকাময় কিনারে দাঁড়াল।
@@ -260,6 +265,8 @@ Holy-Bible---Bhadrawahi---Bhadrawahi-Bible	064	3JO	001	014	पन मीं उ�
 Holy-Bible---Bhadrawahi---Bhadrawahi-Bible	066	REV	012	018	तैखन अजगर जेव, ते समुन्दरेरे बन्ने पुड़ खड़ो भोव।
 Holy-Bible---Bhattiyali---Bhattiyali-Bible	064	3JO	001	014	पर मिंजो आस है, की मैं तुहाड़े बाल ओंऐ, कने आमणे सामणे होईकरी गल्लां करे तालू असां पूरी तरा ला खुश होणा।
 Holy-Bible---Bhattiyali---Bhattiyali-Bible	066	REV	012	018	तालू सै अजगर चली गिया कने समुंद्रे दे कंडे पर खड़ोई गिया।
+Holy-Bible---Bhilali---Bhilali-Bible	064	3JO	001	014	बाकुन मे छाटुस आवीन तुसेक भेळु हवणेन आस कर रयु। ने जत्‌यार मे तारेन चां आवीन तुसेक भेळु हय्‌स, तत्‌यार आपणु आंबा-सांबा वात करसु।
+Holy-Bible---Bhilali---Bhilali-Bible	066	REV	012	018	ने चु दरीयान रेतळा पर जाय्‌न हुबु हय गुयु।
 Holy-Bible---Bodo-Parja---BOPO-Bible	064	3JO	001	014	ମର୍‌ ଆସା ଜେ, ବେଗି ତୁମାର୍‌ ସଃଙ୍ଗ୍ ବେଟ୍‌ ଅୟ୍‌ଦ୍‌ ଆର୍‌ ଅଃମିମଃନ୍‌ ଗଟେତଃୟ୍‌ ବଃସି ଗଟିକଃତା କଃରୁଆଁ ।
 Holy-Bible---Bodo-Parja---BOPO-Bible	066	REV	012	018	ଆର୍‌ ସେ ସଃମ୍‌ନ୍ଦାର୍‌ ବାଲି ଉହ୍ରେ ଟିଆ ଅୟ୍‌ଲି ।
 Holy-Bible---Borna---Borna-Latin-Bible	045	ROM	016	024	
@@ -268,6 +275,8 @@ Holy-Bible---Borna---Borna-Latin-Bible	066	REV	012	018	Daruwonwere aats k'ari g�
 Holy-Bible---Bu---Bu-Bible	047	2CO	006	017	
 Holy-Bible---Bu---Bu-Bible	064	3JO	001	014	Mi you suran di mi toh tu lalo mu na ki ki tre shi shi.
 Holy-Bible---Bu---Bu-Bible	066	REV	012	018	Niki dragon a hon kri nitu yashi wu nyu kpantre maa.
+Holy-Bible---Bugun---Bugun-Bible	064	3JO	001	014	Gu ne luthong nathek shii ne khthiie si ruii, chiihphado gethek ne ò jia shii nyamulo muii phro.
+Holy-Bible---Bugun---Bugun-Bible	066	REV	012	018	Chiih-è hakhliingmuii yi khamuiiring shii riu dun ro.
 Holy-Bible---Bulgarian---Bulgarian-Bible	016	NEH	012	047	И в дните на Зоровавела и в дните на Неемия, целият Израил даваха определените за всеки ден дялове на певците и на вратарите;
 Holy-Bible---Bulgarian---Bulgarian-Bible	018	JOB	011	020	А очите на нечестивите ще изтекат; Прибежище не ще има за тях;
 Holy-Bible---Bulgarian---Bulgarian-Bible	038	ZEC	010	011	Като премине Той върху морето, Ще порази вълните на морето,
@@ -11282,6 +11291,8 @@ Holy-Bible---Sanskrit---Urdu-Script	066	REV	012	018
 Holy-Bible---Sanskrit---Velthuis-Script	064	3JO	001	014	acire.na tvaa.m drak.syaamiiti mama pratyaa"saaste tadaavaa.m sammukhiibhuuya paraspara.m sambhaa.si.syaavahe|
 Holy-Bible---Sanskrit---Velthuis-Script	066	REV	012	018	
 Holy-Bible---Sari---Sari-Bible	044	ACT	015	034	
+Holy-Bible---Sari---Sari-Bible	064	3JO	001	014	Ŋiŋgɔɔ le shɛɔ niiŋ mbɛ ŋɛŋ wɛ, tɛ wɛ se ni tɛ yeti wi ŋiŋgi wi li lii.
+Holy-Bible---Sari---Sari-Bible	066	REV	012	018	Yi se gɛɛŋ yi lemi li ŋgemɛ yi dzɔɔ yi nyɔŋa-a.
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	009	1SA	020	042	I reèe Jonatan Davidu: idi s mirom, kao što smo se zakleli obojica imenom Gospodnjim rekavši: Gospod da je svjedok izmeðu mene i tebe i izmeðu mojega sjemena i tvojega sjemena dovijeka.
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	011	1KI	022	043	I hoðaše putem Ase oca svojega sasvijem, i ne otstupi od njega èineæi sve što je pravo pred Gospodom.
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	064	3JO	001	014	Nego se nadam da æu te skoro vidjeti, i iz usta govoriti.
@@ -12282,6 +12293,7 @@ Holy-Bible---Ukrainian---New-Translation	019	PSA	108	001	Пісня. Псало�
 Holy-Bible---Ukrainian---New-Translation	019	PSA	140	001	Керівнику хору. Псалом Давидів.
 Holy-Bible---Ukrainian---New-Translation	064	3JO	001	014	Я сподіваюся скоро відвідати тебе, і ми поговоримо віч-на-віч.
 Holy-Bible---Ukrainian---New-Translation	066	REV	012	018	Потім [дракон] став на березі моря.
+Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	064	3JO	001	014	надїю ся ж незабаром бачити тебе, то й устно поговоримо.
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	011	1KI	022	043	І ходив він усією дорогою батька свого Аси,  і  не збо́чував із неї, щоб чинити добре в Господніх оча́х.
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	003	001	Псалом Давидів, як він утікав був перед Авесало́мом, своїм сином.
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	019	PSA	004	001	Для дириґе́нта хору. На струнних знаря́ддях. Псало́м Давидів.

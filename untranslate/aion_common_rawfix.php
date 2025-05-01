@@ -206,6 +206,11 @@ $blockfix = <<<EOF
 GAL 1:1 
 EOF;
 if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+3JO 1:14 Nadɨ humɨgaŋ agaŋ vana simɨ hɨnim uami. Nadɨ nagɨlihalina huaci huaci sɨbaŋ agɨlaŋ nasaŋ lamulavadi uami. Alaŋ aludɨ nagɨlihali huaci huaci sɨbaŋ nama hula hɨniavɨlalɨ agɨlasaŋ lamuladalu uami. Nama uavɨla alaŋ lamuladalu agasaŋ nulɨdɨ hɨtɨŋ hɨtɨŋ sulɨha uami.
+JUD 1:1 
+EOF;
+if (!($bfile = preg_replace("/3JO 1:15 (.+?)JUD 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -5889,13 +5894,6 @@ Joshua 24:32
 EOF;
 if (!($bfile = preg_replace("/Joshua 24:29 (.+?)Joshua 24:32 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Joshua 24:29 Après ces choses, Josué, fils de Nau, serviteur de Dieu, mourut âgé de cent dix ans.
-Joshua 24:30 On l'ensevelit sur les limites de son héritage, en Thamnasarach, dans les montagnes d'Ephraïm, au nord des montagnes de Galaad.
-Joshua 24:31 Israël servit donc le Seigneur durant tous les jours de Josué, et durant tous les jours des anciens dont la vie s'était prolongée avec la sienne, et qui avaient vu toutes les œuvres du Seigneur en faveur d'Israël.
-Joshua 24:32 
-EOF;
-if (!($bfile = preg_replace("/Joshua 24:29 (.+?)Joshua 24:32 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
 
 I Kings 10:21 Et tous les vases dont se servait Salomon étaient d'or, ses baignoires étaient d'or ; tous les meubles du palais de bois du Liban étaient d'or et de pièces rapportées. On n'y voyait point d'argent ; car ce métal était compté pour rien du temps de Salomon ;
 I Kings 10:22 Et cela parce que Salomon avait un vaisseau de Tharsis à la mer, avec la flotte d'Hiram ; tous les trois ans un vaisseau venait de Tharsis chargé d'or, d'argent et de pierres rares et travaillées.
@@ -5973,6 +5971,43 @@ if (!($bfile = preg_replace('/ 11 /us',' Il ',$bfile,-1,$rnum)) || $rnum!=2) { A
 if (!($bfile = preg_replace('/ 1a /us',' la ',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace('/Noadie 1 Raphia/us','Noadie, Raphia',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace('/Basan, 0a,/us','Basan, Hod,',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---French---French-LXX-TheoTex" :
+$textfix = <<<EOF
+Joshua 24:29 Après ces choses, Josué, fils de Nau, serviteur de Dieu, mourut âgé de cent dix ans.
+Joshua 24:30 On l’ensevelit sur les limites de son héritage, en Thamnasarach, dans les montagnes d’Ephraïm, au nord des montagnes de Galaad.
+Joshua 24:31 Israël servit donc le Seigneur durant tous les jours de Josué, et durant tous les jours des anciens dont la vie s’était prolongée avec la sienne, et qui avaient vu toutes les œuvres du Seigneur en faveur d’Israël.
+Joshua 24:32 Les fils d’Israël avaient rapporté de l’Egypte les ossements de Joseph, et ils les inhumèrent à Sichem dans le champ que Jacob avait acheté au prix de cent agneaux, des Amorrhéens qui habitaient Sichem, et qu’il avait donné à Joseph. 
+Joshua 24:33 Ce jour-là, les fils d’Israël, ayant pris l’arche de Dieu, la transportèrent dans leurs rangs. Et Phinées fut prêtre à la place de son père Eléazar, jusqu’à ce que lui-même mourut et fut inhumé dans sa terre de Gabaar.
+Judges 1:1 
+EOF;
+if (!($bfile = preg_replace("/Joshua 24:29 (.+?)Judges 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+
+I Kings 10:22 Et cela parce que Salomon avait un vaisseau de Tharsis à la mer, avec la flotte d’Hiram ; tous les trois ans un vaisseau venait de Tharsis chargé d’or, d’argent et de pierres rares et travaillées.
+I Kings 10:23 Et Salomon fut grand en science et en richesses par-dessus tous les rois de la terre.
+I Kings 10:24 Tous les rois de la terre demandèrent à le voir, et à entendre la sagesse que Dieu avait mise en son cœur.
+I Kings 10:25 Et, chaque année, ils lui apportaient tous des présents des vases d’or, des vêtements, de la myrrhe, des épices, des chevaux et des mules.
+I Kings 10:26 Salomon avait, pour ses chars, quatre mille cavales, et dix mille chevaux pour ses cavaliers ; il les avait mis dans les villes des chars ou auprès de lui à Jérusalem.
+I Kings 11:1 
+EOF;
+if (!($bfile = preg_replace("/\nI Kings 10:22 (.+?)\nI Kings 11:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Malachi 3:19 Voilà que le jour approche, brûlant comme une fournaise, et il les consumera ; et tous les étrangers et tous ceux qui font le mal seront comme de la paille ; et le jour qui approche les dévorera, dit le Seigneur tout-puissant ; et il ne restera d’eux ni branche ni racine.
+Malachi 3:20 Et le Soleil de justice se lèvera pour vous qui craignez mon nom ; et sur ses ailes Il portera le salut ; et vous sortirez, et vous bondirez comme de jeunes bœufs délivrés de leurs liens.
+Malachi 3:21 Et vous foulerez les impies ; car ils seront sous vos pieds comme de la cendre, le jour que je ferai naître, dit le Seigneur tout-puissant.
+Malachi 3:22 Souvenez-vous de la loi de Moïse, mon serviteur, telle que je la lui ai intimée, en Horeb, devant tout Israël, dans ses commandements et ses préceptes.
+Malachi 3:23 Et voilà que je vous enverrai Élie le Thesbite, avant que vienne ce jour du Seigneur, jour grand et éclatant,
+Malachi 3:24 qui réunira au fils le cœur de son père, à l’homme le cœur de son prochain, de peur que je ne survienne et que je n’anéantisse la terre.
+Isaiah 1:1 
+EOF;
+if (!($bfile = preg_replace("/Malachi 3:19 (.+?)Isaiah 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -19930,12 +19965,65 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible" :
 $blockfix = <<<EOF
+LEV 6:1 І рече Господь Мойсейові:
+LEV 6:2 Коли хто согрішить і спроневіриться проти Господа, і запирається перед ближнїм своїм в тому, що повірено йому на схованку яке добро, чи то пожичив він чи вкрав; або коли видусить що в ближнього свого,
+LEV 6:3 Або знайде загублене та й відпирається того; і кленеться льживо про що б нї було, що люди творять і грішать:
+LEV 6:4 Тоді мусить: коли чоловік согрішив і провинив бути так, щоб вернув пожаковане, що пожакував, чи видушене, що видусив, чи повірене, що повірено йому, чи то загублене, що він знайшов;
+LEV 6:5 Чи щоб нї було воно, про що клявся льживо, Нехай виплатить сповна, та ще й пятину додасть до того; оддавати ме тому, чиє воно, того дня, як приносити ме жертву за провину.
+LEV 6:6 І подасть жертву за провину свою Господеві, барана без скази з отари по цїнуванню твойму, на жертву сьвященникові.
+LEV 6:7 І очистить сьвященник гріх його перед Господом, і проститься йому, що б нї було, в усьому, що вкоїв провинивши.
+LEV 6:8 І рече Господь Мойсейові:
+LEV 6:9 Повели Аронові й синам його: От вам закон жертвопалення: Жертва всепалення нехай зостанеться на жертівнику всю ніч до ранку; а вогонь на жертівнику мусить горіти на йому.
+LEV 6:10 І надїне сьвященник ризу льняну, і спідну одїж льняну надїне на тїло своє; і здійме попіл, що зіставсь од жертви, що пожер огонь, та й положить коло жертівника.
+LEV 6:11 Потім скине шати свої, надїне иншу одїж, та й винесе попіл із табору, на чисте місце.
+LEV 6:12 Огонь же на жертівнику мусить горіти, не згасати; і буде запалювати сьвященник на йому дрова що ранку, і покладати на йому жертву всепалення; і закурювати на йому куснї мирних жертв.
+LEV 6:13 Вогонь мусить безустанно горіти на жертівнику не згасаючи.
+LEV 6:14 А се закон про жертви хлїбні: Приносити мусить їх один із синів Арона перед Господом, до жертівника.
+LEV 6:15 І мусить він взяти з приносу жменю муки й олїї й увесь ладан, що на приносї хлїбному, та й закурити на жертівнику: се пахощі любі, частина на спомин Господеві.
+LEV 6:16 Останки ж жертви їсти муть Арон та сини його; прісне їсти муть у сьвятому місцї; в дворі соборного намету їсти муть.
+LEV 6:17 Не годиться пекти його заквашеним; як частину їх даю їм від жертвопалення мого: Се велика сьвятиня, як жертва за гріх і як жертва за провину.
+LEV 6:18 Увесь музький пол між синами Ароновими їсти ме її. Установа віковічня в роди ваші про жертвопаленнє Господнє. Все, що доторкнеться до них, осьвятиться.
+LEV 6:19 І рече Господь Мойсейові:
+LEV 6:20 Се приноси від Арона й синів його, що мусять вони приносити Господеві в день помазаня свого: десятину ефи муки пшеничної в жертву повсячасну, половину того рано, а поливину того в вечір.
+LEV 6:21 На сковородї в олїї щоб пряжено його, поливане олїєю принесеш його; спечені куски жертви хлїбної принесеш як любі пахощі Господеві.
+LEV 6:22 І сьвященник із синів його помазаний намість його мусить се приносити; установа віковічня: Вся жертва буде спалена Господеві.
+LEV 6:23 І всяку хлїбну жертву сьвященника мусите до крихти палити; не можна їсти її.
+LEV 6:24 І рече Господь Мойсейові:
+LEV 6:25 Промов до Арона й синів його: Се закон про жертву за гріх: там де заколюють жертву всепалення, заколювати меться жертва за гріх перед Господом: се велика сьвятощ.
+LEV 6:26 Сьвященник, що приносить жертву за гріх, їсти ме її; в сьвятому місцї мусять їсти її, в дворі коло соборного намету.
+LEV 6:27 Усе, що доторкнеться до мясива її, осьвятиться; і коли бризне крові її на одежу, те, на що бризнуло, мусиш випрати на сьвятому місцї.
+LEV 6:28 І посудину глиняну, що в їй варено її, треба розбити, а коли в посудинї мідянїй варено її, так треба витерти й виполоскати водою.
+LEV 6:29 Увесь музький пол у сьвященників їсти ме її: се велика сьвятощ.
+LEV 6:30 Нїякої ж жертви за гріх, що кров з неї вносять у соборний намет, щоб спокутувати гріх у сьвятинї, не годиться їсти. На огнї палити її.
+LEV 7:1 
+EOF;
+if (!($bfile = preg_replace("/LEV 5:20 (.+?)LEV 7:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+DEU 29:1 Се слова завіту, що Господь заповідав Мойсейові вчинити з синами Ізраїля, в Моабській землї, окрім завіту, що вчинив з ними на Гореб горі.
+DEU 29:2 І скликав Мойсей усього Ізраїля і промовив до них: Самі ви вбачали все, що сотворив Господь перед очима вашими в Египецькій землї з Фараоном і з рабами його і з його землею:
+DEU 29:3 
+EOF;
+if (!($bfile = preg_replace("/DEU 28:69 (.+?)DEU 29:3 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
 2CO 13:12 Витайте один одного цїлуваннєм сьвятим.
 2CO 13:13 Витають вас, усї сьвяті.
 2CO 13:14 Благодать Господа Ісуса Христа і любов Божа, і причастє сьвятого Духа з усїма вами. Амінь.
 GAL 1:1 
 EOF;
 if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+PHI 3:20 Наше бо життє єсть на небесах, звідкіля ждемо і Спасителя, Господа нашого Ісуса Христа,
+PHI 3:21 котрий переобразить тїло смирення нашого, щоб було подобне тїлу слави Його, по дїйству, котрим зможе і покорити собі все.
+PHI 4:1 
+EOF;
+if (!($bfile = preg_replace("/PHI 3:20 (.+?)PHI 4:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+PHM 1:23 Витають тебе Єпафрас, товариш, неволї моєї в Христї Ісусї,
+PHM 1:24 Марко, Аристарх, Димас, Лука, помічники мої.
+PHM 1:25 Благодать Господа нашого Ісуса Христа з духом вашим. Амінь.
+HEB 1:1 
+EOF;
+if (!($bfile = preg_replace("/PHM 1:23 (.+?)HEB 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 

@@ -2,12 +2,12 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	MAP	FLAG
 # File Accuracy: Contact publisher with corrections to file format or content
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
-# File Date: 04/27/2025 18:39:20
+# File Date: 04/30/2025 01:49:20
 # File Generator: ABCMS (alpha)
 # File Location: https://resources.AionianBible.org
 # File Name: BOOKSCHAPTERS.txt
 # File Purpose: Supporting resource for the Aionian Bible project
-# File Size: 1479774     
+# File Size: 1478734     
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	040	MAT	002	010	MISSING	MID
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	040	MAT	014	004	MISSING	MID
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	040	MAT	020	012	MISSING	MID
@@ -48,10 +48,8 @@ Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	048	GAL	001	002	MISSING	MID
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	054	1TI	003	015	MISSING	MID
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	055	2TI	003	017	MISSING	END*
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	060	1PE	001	002	MISSING	MID
-Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	064	3JO	001	015	EXTRA	END*
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	066	REV	001	005	MISSING	MID
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	066	REV	001	011	MISSING	MID
-Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	066	REV	012	018	EXTRA	END*
 Holy-Bible---Amo---Amo-Bible	041	MAR	007	027	MISSING	MID
 Holy-Bible---Amo---Amo-Bible	041	MAR	009	046	MISSING	MID
 Holy-Bible---Amo---Amo-Bible	044	ACT	001	008	MISSING	MID
@@ -452,7 +450,6 @@ Holy-Bible---Apal---Apali-Bible	047	2CO	006	005	MISSING	MID
 Holy-Bible---Apal---Apali-Bible	047	2CO	010	005	MISSING	MID
 Holy-Bible---Apal---Apali-Bible	047	2CO	012	003	MISSING	MID
 Holy-Bible---Apal---Apali-Bible	047	2CO	012	004	MISSING	MID-SEQ
-Holy-Bible---Apal---Apali-Bible	047	2CO	013	014	MISSING	END*
 Holy-Bible---Apal---Apali-Bible	048	GAL	001	002	MISSING	MID
 Holy-Bible---Apal---Apali-Bible	048	GAL	001	016	MISSING	MID
 Holy-Bible---Apal---Apali-Bible	048	GAL	002	004	MISSING	MID
@@ -536,7 +533,6 @@ Holy-Bible---Apal---Apali-Bible	066	REV	006	017	MISSING	END*
 Holy-Bible---Apal---Apali-Bible	066	REV	007	017	MISSING	END*
 Holy-Bible---Apal---Apali-Bible	066	REV	010	006	MISSING	MID
 Holy-Bible---Apal---Apali-Bible	066	REV	011	010	MISSING	MID
-Holy-Bible---Apal---Apali-Bible	066	REV	012	018	EXTRA	END*
 Holy-Bible---Apal---Apali-Bible	066	REV	013	018	MISSING	END*
 Holy-Bible---Apal---Apali-Bible	066	REV	015	003	MISSING	MID
 Holy-Bible---Apal---Apali-Bible	066	REV	016	006	MISSING	MID
@@ -1958,9 +1954,6 @@ Holy-Bible---Bekwel---Bekwel-Bible	044	ACT	013	039	MISSING	MID
 Holy-Bible---Bekwel---Bekwel-Bible	044	ACT	024	007	MISSING	MID
 Holy-Bible---Bekwel---Bekwel-Bible	044	ACT	028	029	MISSING	MID
 Holy-Bible---Bekwel---Bekwel-Bible	047	2CO	012	004	MISSING	MID
-Holy-Bible---Bekwel---Bekwel-Bible	047	2CO	013	014	MISSING	END*
-Holy-Bible---Bekwel---Bekwel-Bible	064	3JO	001	015	EXTRA	END*
-Holy-Bible---Bekwel---Bekwel-Bible	066	REV	012	018	EXTRA	END*
 Holy-Bible---Bengali---Bengali-Bible	040	MAT	018	011	MISSING	MID
 Holy-Bible---Bengali---Bengali-Bible	041	MAR	009	044	MISSING	MID
 Holy-Bible---Bengali---Bengali-Bible	041	MAR	009	046	MISSING	MID
@@ -2063,8 +2056,6 @@ Holy-Bible---Bhattiyali---Bhattiyali-Bible	066	REV	020	013	MISSING	MID
 Holy-Bible---Bhattiyali---Bhattiyali-Bible	066	REV	020	015	MISSING	END*
 Holy-Bible---Bhilali---Bhilali-Bible	044	ACT	001	022	MISSING	MID
 Holy-Bible---Bhilali---Bhilali-Bible	044	ACT	013	039	MISSING	MID
-Holy-Bible---Bhilali---Bhilali-Bible	064	3JO	001	015	EXTRA	END*
-Holy-Bible---Bhilali---Bhilali-Bible	066	REV	012	018	EXTRA	END*
 Holy-Bible---Borna---Borna-Latin-Bible	042	LUK	001	055	MISSING	MID
 Holy-Bible---Borna---Borna-Latin-Bible	042	LUK	020	043	MISSING	MID
 Holy-Bible---Borna---Borna-Latin-Bible	044	ACT	002	035	MISSING	MID
@@ -2119,20 +2110,17 @@ Holy-Bible---Bugun---Bugun-Bible	046	1CO	015	052	MISSING	MID
 Holy-Bible---Bugun---Bugun-Bible	047	2CO	001	014	MISSING	MID
 Holy-Bible---Bugun---Bugun-Bible	047	2CO	008	014	MISSING	MID
 Holy-Bible---Bugun---Bugun-Bible	047	2CO	012	004	MISSING	MID
-Holy-Bible---Bugun---Bugun-Bible	047	2CO	013	014	MISSING	END*
 Holy-Bible---Bugun---Bugun-Bible	049	EPH	002	009	MISSING	MID
 Holy-Bible---Bugun---Bugun-Bible	051	COL	001	012	MISSING	MID
 Holy-Bible---Bugun---Bugun-Bible	051	COL	002	019	MISSING	MID
 Holy-Bible---Bugun---Bugun-Bible	056	TIT	001	013	MISSING	MID
 Holy-Bible---Bugun---Bugun-Bible	058	HEB	013	021	MISSING	MID
 Holy-Bible---Bugun---Bugun-Bible	059	JAM	001	008	MISSING	MID
-Holy-Bible---Bugun---Bugun-Bible	064	3JO	001	015	EXTRA	END*
 Holy-Bible---Bugun---Bugun-Bible	066	REV	002	027	MISSING	MID
 Holy-Bible---Bugun---Bugun-Bible	066	REV	002	028	MISSING	MID-SEQ
 Holy-Bible---Bugun---Bugun-Bible	066	REV	007	006	MISSING	MID
 Holy-Bible---Bugun---Bugun-Bible	066	REV	007	007	MISSING	MID-SEQ
 Holy-Bible---Bugun---Bugun-Bible	066	REV	007	008	MISSING	MID-SEQ
-Holy-Bible---Bugun---Bugun-Bible	066	REV	012	018	EXTRA	END*
 Holy-Bible---Bulgarian---Bulgarian-Bible	044	ACT	002	010	MISSING	MID
 Holy-Bible---Bulgarian---Bulgarian-Bible	044	ACT	002	020	MISSING	MID
 Holy-Bible---Bulgarian---Bulgarian-Bible	044	ACT	002	030	MISSING	MID
@@ -16733,8 +16721,6 @@ Holy-Bible---Sari---Sari-Bible	044	ACT	001	022	MISSING	MID
 Holy-Bible---Sari---Sari-Bible	044	ACT	015	034	MISSING	MID
 Holy-Bible---Sari---Sari-Bible	044	ACT	024	007	MISSING	MID
 Holy-Bible---Sari---Sari-Bible	045	ROM	009	012	MISSING	MID
-Holy-Bible---Sari---Sari-Bible	064	3JO	001	015	EXTRA	END*
-Holy-Bible---Sari---Sari-Bible	066	REV	012	018	EXTRA	END*
 Holy-Bible---Satawalese---Satawalese-Bible	041	MAR	008	009	MISSING	MID
 Holy-Bible---Satawalese---Satawalese-Bible	041	MAR	015	043	MISSING	MID
 Holy-Bible---Satawalese---Satawalese-Bible	041	MAR	016	004	MISSING	MID
@@ -19686,10 +19672,8 @@ Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	028	HOS	013	016	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	028	HOS	014	010	EXTRA	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	032	JON	001	017	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	032	JON	002	011	EXTRA	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	047	2CO	013	014	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	050	PHI	003	021	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	057	PHM	001	025	MISSING	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	064	3JO	001	015	EXTRA	END*
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	002	EXO	021	032	MISSING	MID
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	003	LEV	027	034	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	004	NUM	031	048	MISSING	MID

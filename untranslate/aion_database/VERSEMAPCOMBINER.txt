@@ -6,7 +6,6 @@ Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible							end
 Holy-Bible---Amo---Amo-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Amo---Amo-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Amo---Amo-Bible							end
-Holy-Bible---Apal---Apali-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Apal---Apali-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Apal---Apali-Bible							end
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible	054	1TI	006	021	21	1	end
@@ -4032,6 +4031,14 @@ Holy-Bible---Ukrainian---New-Translation	019	PSA	140	001	13	1	end
 Holy-Bible---Ukrainian---New-Translation	064	3JO	001	014	14	1	end
 Holy-Bible---Ukrainian---New-Translation	066	REV	012	018	1	-1	end
 Holy-Bible---Ukrainian---New-Translation							end
+Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	004	NUM	023	017	30	1	end
+Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	009	1SA	020	042	42	1	end
+Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	009	1SA	024	001	22	1	end
+Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	010	2SA	002	001	22	1	end
+Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	011	1KI	022	043	53	1	end
+Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	019	PSA	060	001	12	2	end
+Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	019	PSA	127	005	5	1	end
+Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	023	ISA	009	021	21	1	end
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible							end
 Holy-Bible---Ukrainian---Ukrainian-NT							end

@@ -1548,7 +1548,12 @@ Holy-Bible---Twi---Akuapem-Twi-Bible	NONE
 Holy-Bible---Twi---Asante-Twi-WAKNA	NONE
 Holy-Bible---Twi---Asante-Twi-WASNA	NONE
 Holy-Bible---Ukrainian---New-Translation	PSA150
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	NONE
+Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	JOB39-40-41-42A
+Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	ECC4-5
+Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	SOL6-7
+Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	DAN3-4
+Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	HOS13-14
+Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	JON1-2
 Holy-Bible---Ukrainian---Ukrainian-NT	NONE
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	GEN31-32
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	EXO7-8

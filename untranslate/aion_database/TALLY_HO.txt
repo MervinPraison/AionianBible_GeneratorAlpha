@@ -1,6 +1,6 @@
 # File Name: TALLY_HO.txt
 # File Size: 23101       
-# File Date: 04/27/2025 18:32:57
+# File Date: 04/30/2025 01:43:43
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -14,9 +14,9 @@
 #
 BIBLE	AIONIAN	STANDARD	SOURCE
 Holy-Bible---Ahirani---Gospels	1749	1749	1749
-Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	7917	7917	7917
+Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	7915	7915	7917
 Holy-Bible---Amo---Amo-Bible	7952	7952	7956
-Holy-Bible---Apal---Apali-Bible	10218	10218	10218
+Holy-Bible---Apal---Apali-Bible	10218	10218	10219
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible	31102	31102	31104
 Holy-Bible---Arabic---New-Arabic-Bible	31101	31101	31103
 Holy-Bible---Aramaic---Syriac-Peshitta	7957	7957	7957
@@ -30,18 +30,18 @@ Holy-Bible---Bareli-Palya---Palya-Bareli-Bible	1071	1071	1071
 Holy-Bible---Basque---Basque-NT	7932	7932	7932
 Holy-Bible---Beami---Bedamuni-Bible	29856	29856	30059
 Holy-Bible---Beaver---Beaver-Mark	678	678	678
-Holy-Bible---Bekwel---Bekwel-Bible	7948	7948	7950
+Holy-Bible---Bekwel---Bekwel-Bible	7947	7947	7951
 Holy-Bible---Bengali---Bengali-Bible	31094	31094	31097
 Holy-Bible---Bengali---Contemporary	31100	31100	31101
 Holy-Bible---Bhadrawahi---Bhadrawahi-Bible	7938	7938	7940
 Holy-Bible---Bhattiyali---Bhattiyali-Bible	7886	7886	7888
-Holy-Bible---Bhilali---Bhilali-Bible	7957	7957	7957
+Holy-Bible---Bhilali---Bhilali-Bible	7955	7955	7957
 Holy-Bible---Blackfoot---Matthew	1071	1071	1071
 Holy-Bible---Bodo-Parja---BOPO-Bible	7957	7957	7959
 Holy-Bible---Borna---Borna-Latin-Bible	7945	7945	7948
 Holy-Bible---Breton---Breton-Gospels	3779	3779	3779
 Holy-Bible---Bu---Bu-Bible	7951	7951	7954
-Holy-Bible---Bugun---Bugun-Bible	7911	7911	7911
+Holy-Bible---Bugun---Bugun-Bible	7910	7910	7912
 Holy-Bible---Bulgarian---Bulgarian-Bible	31096	31096	31102
 Holy-Bible---Calo---Calo-Bible	1151	1151	1151
 Holy-Bible---Cebuano---Cebuano-Bible	31098	31098	31103
@@ -348,7 +348,7 @@ Holy-Bible---Sanskrit---Thai-Script	7957	7957	7959
 Holy-Bible---Sanskrit---Tibetan-Script	7957	7957	7959
 Holy-Bible---Sanskrit---Urdu-Script	7957	7957	7959
 Holy-Bible---Sanskrit---Velthuis-Script	7957	7957	7959
-Holy-Bible---Sari---Sari-Bible	7950	7950	7951
+Holy-Bible---Sari---Sari-Bible	7948	7948	7951
 Holy-Bible---Satawalese---Satawalese-Bible	3770	3770	3770
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark	678	678	678
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	31102	31102	31105
@@ -389,7 +389,7 @@ Holy-Bible---Turkish---Turkish-Bible	30238	30238	30239
 Holy-Bible---Twi---Akuapem-Twi-Bible	31098	31098	31100
 Holy-Bible---Twi---Asante-Twi-WASNA	31098	31098	31100
 Holy-Bible---Ukrainian---New-Translation	10418	10418	10486
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	31082	31082	31082
+Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	31082	31082	31083
 Holy-Bible---Ukrainian---Ukrainian-NT	7957	7957	7957
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	31094	31094	31164
 Holy-Bible---Urdu---Urdu-Bible	31102	31102	31104

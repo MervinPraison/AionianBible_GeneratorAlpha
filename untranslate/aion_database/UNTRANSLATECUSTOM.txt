@@ -1,8 +1,31 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	WORD	STRONGS	UNTRANS	TEXT
 Holy-Bible---Ahirani---Gospels								NULL
+Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	042	LUK	001	054	AIONS	g165		NULL
+Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	042	LUK	001	055	SKIP			NULL
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible								NULL
 Holy-Bible---Amo---Amo-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Amo---Amo-Bible								NULL
+Holy-Bible---Apal---Apali-Bible	001	GEN	044	030	SHEOL	h7585		NULL
+Holy-Bible---Apal---Apali-Bible	001	GEN	044	031	SKIP			NULL
+Holy-Bible---Apal---Apali-Bible	041	MAR	003	028	AIONS	g165		NULL
+Holy-Bible---Apal---Apali-Bible	041	MAR	003	029	SKIP			NULL
+Holy-Bible---Apal---Apali-Bible	041	MAR	010	029	AIONS,AIONIAN	g165,g166		NULL
+Holy-Bible---Apal---Apali-Bible	041	MAR	010	030	SKIP			NULL
+Holy-Bible---Apal---Apali-Bible	042	LUK	001	054	AIONS	g165		NULL
+Holy-Bible---Apal---Apali-Bible	042	LUK	001	055	SKIP			NULL
+Holy-Bible---Apal---Apali-Bible	044	ACT	015	017	AIONS	g165		NULL
+Holy-Bible---Apal---Apali-Bible	044	ACT	015	018	SKIP			NULL
+Holy-Bible---Apal---Apali-Bible	046	1CO	002	008	SKIP			NULL
+Holy-Bible---Apal---Apali-Bible	058	HEB	006	001	AIONIAN	g166		NULL
+Holy-Bible---Apal---Apali-Bible	058	HEB	006	002	SKIP			NULL
+Holy-Bible---Apal---Apali-Bible	058	HEB	006	004	AIONS	g165		NULL
+Holy-Bible---Apal---Apali-Bible	058	HEB	006	005	SKIP			NULL
+Holy-Bible---Apal---Apali-Bible	058	HEB	007	020	AIONS	g165		NULL
+Holy-Bible---Apal---Apali-Bible	058	HEB	007	021	SKIP			NULL
+Holy-Bible---Apal---Apali-Bible	066	REV	010	005	AIONS	g165		NULL
+Holy-Bible---Apal---Apali-Bible	066	REV	010	006	SKIP			NULL
+Holy-Bible---Apal---Apali-Bible	066	REV	020	002	ABYSS	g12		NULL
+Holy-Bible---Apal---Apali-Bible	066	REV	020	003	SKIP			NULL
 Holy-Bible---Apal---Apali-Bible								NULL
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible								NULL
@@ -74,6 +97,8 @@ Holy-Bible---Breton---Breton-Gospels	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Breton---Breton-Gospels								NULL
 Holy-Bible---Bu---Bu-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Bu---Bu-Bible								NULL
+Holy-Bible---Bugun---Bugun-Bible	058	HEB	013	020	AIONS,AIONIAN	g165,g166		NULL
+Holy-Bible---Bugun---Bugun-Bible	058	HEB	013	021	SKIP			NULL
 Holy-Bible---Bugun---Bugun-Bible								NULL
 Holy-Bible---Bulgarian---Bulgarian-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Bulgarian---Bulgarian-Bible								NULL
@@ -1598,7 +1623,11 @@ Holy-Bible---Sanskrit---Velthuis-Script	058	HEB	007	021	SKIP			NULL
 Holy-Bible---Sanskrit---Velthuis-Script	058	HEB	007	022	AIONS	g165		NULL
 Holy-Bible---Sanskrit---Velthuis-Script	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Sanskrit---Velthuis-Script								NULL
+Holy-Bible---Sari---Sari-Bible	042	LUK	001	054	AIONS	g165		NULL
+Holy-Bible---Sari---Sari-Bible	042	LUK	001	055	SKIP			NULL
 Holy-Bible---Sari---Sari-Bible								NULL
+Holy-Bible---Satawalese---Satawalese-Bible	042	LUK	001	054	AIONS	g165		NULL
+Holy-Bible---Satawalese---Satawalese-Bible	042	LUK	001	055	SKIP			NULL
 Holy-Bible---Satawalese---Satawalese-Bible								NULL
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark								NULL
