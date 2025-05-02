@@ -1,6 +1,6 @@
 # File Name: TALLY_HO.txt
 # File Size: 23101       
-# File Date: 04/30/2025 01:43:43
+# File Date: 05/01/2025 03:13:42
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -154,7 +154,7 @@ Holy-Bible---French---French-Crampon-Bible-New	31090	31090	31444
 Holy-Bible---French---French-Darby-Bible	31099	31099	31171
 Holy-Bible---French---French-Khan-Bible	23142	23142	23210
 Holy-Bible---French---French-LXX	23005	23005	23149
-Holy-Bible---French---French-LXX-TheoTex	22846	22846	23057
+Holy-Bible---French---French-LXX-TheoTex	22843	22843	23054
 Holy-Bible---French---French-Louis-Segond-1910-Bible	31100	31100	31173
 Holy-Bible---French---French-Martin	31102	31102	31109
 Holy-Bible---French---French-Oltramare-Bible	7955	7955	7955
@@ -389,7 +389,7 @@ Holy-Bible---Turkish---Turkish-Bible	30238	30238	30239
 Holy-Bible---Twi---Akuapem-Twi-Bible	31098	31098	31100
 Holy-Bible---Twi---Asante-Twi-WASNA	31098	31098	31100
 Holy-Bible---Ukrainian---New-Translation	10418	10418	10486
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	31082	31082	31083
+Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	31074	31074	31084
 Holy-Bible---Ukrainian---Ukrainian-NT	7957	7957	7957
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	31094	31094	31164
 Holy-Bible---Urdu---Urdu-Bible	31102	31102	31104

@@ -2,12 +2,12 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	MAP	FLAG
 # File Accuracy: Contact publisher with corrections to file format or content
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
-# File Date: 04/30/2025 01:49:20
+# File Date: 05/01/2025 03:19:51
 # File Generator: ABCMS (alpha)
 # File Location: https://resources.AionianBible.org
 # File Name: BOOKSCHAPTERS.txt
 # File Purpose: Supporting resource for the Aionian Bible project
-# File Size: 1478734     
+# File Size: 1474413     
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	040	MAT	002	010	MISSING	MID
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	040	MAT	014	004	MISSING	MID
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	040	MAT	020	012	MISSING	MID
@@ -526,8 +526,6 @@ Holy-Bible---Apal---Apali-Bible	061	2PE	002	008	MISSING	MID
 Holy-Bible---Apal---Apali-Bible	062	1JO	004	003	MISSING	MID
 Holy-Bible---Apal---Apali-Bible	062	1JO	005	008	MISSING	MID
 Holy-Bible---Apal---Apali-Bible	064	3JO	001	007	MISSING	MID
-Holy-Bible---Apal---Apali-Bible	064	3JO	001	014	MISSING	END*
-Holy-Bible---Apal---Apali-Bible	064	3JO	001	015	EXTRA	END*
 Holy-Bible---Apal---Apali-Bible	066	REV	004	008	MISSING	MID
 Holy-Bible---Apal---Apali-Bible	066	REV	006	017	MISSING	END*
 Holy-Bible---Apal---Apali-Bible	066	REV	007	017	MISSING	END*
@@ -6946,6 +6944,9 @@ Holy-Bible---French---French-LXX-TheoTex	011	1KI	009	023	MISSING	MID-SEQ
 Holy-Bible---French---French-LXX-TheoTex	011	1KI	009	024	MISSING	MID-SEQ
 Holy-Bible---French---French-LXX-TheoTex	011	1KI	009	025	MISSING	MID-SEQ
 Holy-Bible---French---French-LXX-TheoTex	011	1KI	009	026	MISSING	MID-SEQ
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	010	027	MISSING	MID
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	010	028	MISSING	MID-SEQ
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	010	029	MISSING	END-SEQ*
 Holy-Bible---French---French-LXX-TheoTex	011	1KI	011	004	MISSING	MID
 Holy-Bible---French---French-LXX-TheoTex	011	1KI	011	024	MISSING	MID
 Holy-Bible---French---French-LXX-TheoTex	011	1KI	011	025	MISSING	MID-SEQ
@@ -19591,22 +19592,6 @@ Holy-Bible---Twi---Asante-Twi-WASNA	041	MAR	006	023	MISSING	MID
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	001	GEN	003	024	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	001	GEN	006	022	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	001	GEN	048	022	MISSING	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	003	LEV	005	020	EXTRA	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	003	LEV	005	021	EXTRA	END-SEQ*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	003	LEV	005	022	EXTRA	END-SEQ*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	003	LEV	005	023	EXTRA	END-SEQ*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	003	LEV	005	024	EXTRA	END-SEQ*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	003	LEV	005	025	EXTRA	END-SEQ*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	003	LEV	005	026	EXTRA	END-SEQ*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	003	LEV	005	027	EXTRA	END-SEQ*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	003	LEV	006	023	MISSING	MID
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	003	LEV	006	024	MISSING	MID-SEQ
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	003	LEV	006	025	MISSING	MID-SEQ
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	003	LEV	006	026	MISSING	MID-SEQ
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	003	LEV	006	027	MISSING	MID-SEQ
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	003	LEV	006	028	MISSING	MID-SEQ
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	003	LEV	006	029	MISSING	MID-SEQ
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	003	LEV	006	030	MISSING	END-SEQ*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	003	LEV	014	056	MISSING	MID
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	003	LEV	014	057	MISSING	END-SEQ*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	003	LEV	017	016	MISSING	END*
@@ -19615,65 +19600,25 @@ Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	004	NUM	008	026	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	004	NUM	014	045	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	004	NUM	015	041	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	004	NUM	020	029	MISSING	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	004	NUM	023	031	EXTRA	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	004	NUM	025	018	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	004	NUM	027	023	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	005	DEU	016	022	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	005	DEU	024	022	MISSING	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	005	DEU	028	069	EXTRA	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	005	DEU	032	052	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	005	DEU	034	012	MISSING	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	009	1SA	020	043	EXTRA	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	009	1SA	023	029	MISSING	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	009	1SA	024	023	EXTRA	END*
+Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	010	2SA	002	023	MISSING	MID
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	010	2SA	002	033	EXTRA	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	011	1KI	022	054	EXTRA	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	018	JOB	021	034	MISSING	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	018	JOB	039	031	EXTRA	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	018	JOB	039	032	EXTRA	END-SEQ*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	018	JOB	039	033	EXTRA	END-SEQ*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	018	JOB	039	034	EXTRA	END-SEQ*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	018	JOB	039	035	EXTRA	END-SEQ*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	018	JOB	040	025	EXTRA	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	018	JOB	040	026	EXTRA	END-SEQ*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	018	JOB	040	027	EXTRA	END-SEQ*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	018	JOB	041	027	MISSING	MID
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	018	JOB	041	028	MISSING	MID-SEQ
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	018	JOB	041	029	MISSING	MID-SEQ
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	018	JOB	041	030	MISSING	MID-SEQ
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	018	JOB	041	031	MISSING	MID-SEQ
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	018	JOB	041	032	MISSING	MID-SEQ
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	018	JOB	041	033	MISSING	MID-SEQ
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	018	JOB	041	034	MISSING	END-SEQ*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	019	PSA	013	006	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	019	PSA	024	010	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	019	PSA	029	011	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	019	PSA	054	007	MISSING	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	019	PSA	060	013	EXTRA	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	019	PSA	060	014	EXTRA	END-SEQ*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	019	PSA	089	052	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	019	PSA	106	048	MISSING	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	019	PSA	127	006	EXTRA	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	019	PSA	148	014	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	020	PRO	030	033	MISSING	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	021	ECC	004	017	EXTRA	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	021	ECC	005	020	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	022	SOL	001	017	MISSING	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	022	SOL	006	013	MISSING	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	022	SOL	007	014	EXTRA	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	023	ISA	009	022	EXTRA	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	027	DAN	003	031	EXTRA	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	027	DAN	003	032	EXTRA	END-SEQ*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	027	DAN	003	033	EXTRA	END-SEQ*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	027	DAN	004	035	MISSING	MID
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	027	DAN	004	036	MISSING	MID-SEQ
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	027	DAN	004	037	MISSING	END-SEQ*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	028	HOS	013	016	MISSING	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	028	HOS	014	010	EXTRA	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	032	JON	001	017	MISSING	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	032	JON	002	011	EXTRA	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	050	PHI	003	021	MISSING	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	057	PHM	001	025	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	002	EXO	021	032	MISSING	MID
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	003	LEV	027	034	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	004	NUM	031	048	MISSING	MID

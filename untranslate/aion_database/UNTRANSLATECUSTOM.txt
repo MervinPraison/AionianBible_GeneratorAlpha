@@ -669,6 +669,26 @@ Holy-Bible---French---French-LXX	020	PRO	004	027	SWAP			N'incline ni à droite n
 Holy-Bible---French---French-LXX	020	PRO	024	022	SWAP			Car ils punissent inopinément les impies; et qui peut prévoir quelle sera leur vengeance?
 Holy-Bible---French---French-LXX	061	2PE	002	017	NOTE			questioned
 Holy-Bible---French---French-LXX								NULL
+Holy-Bible---French---French-LXX-TheoTex	006	JOS	009	002	SWAP			Ils se réunirent à la fois pour combattre Josué et Israël.
+Holy-Bible---French---French-LXX-TheoTex	006	JOS	021	042	SWAP			Et leurs banlieues ; ils eurent chaque ville avec sa banlieue, et toutes ces villes étaient entourées de banlieues.
+Holy-Bible---French---French-LXX-TheoTex	010	2SA	011	022	SWAP			Le messager de Joab se rendit à Jérusalem, et, selon l’ordre de Joab, il fit au roi le rapport de tout ce qui était arrivé à la guerre ;
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	002	035	SWAP			Le roi, à sa place, donna le commandement de l’armée à Banaïas, et la royauté fut affermie dans Jérusalem. Sadoc fut premier prêtre à la place d’Abiathar.
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	002	046	SWAP			Et le roi donna ses ordres à Banaïas, fils de Joïada, qui sortit avec Sémeï et le tua. Le roi Salomon était doué d'une grande intelligence et d'une grande sagesse.
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	006	001	SWAP			Ce fut en l’an quatre cent quarante de la sortie d’Égypte, pendant le second mois de la quatrième année du règne de Salomon, Que le roi donna l'ordre de prendre des pierres, grandes et chères, pour les fondations du temple, et des pierres parfaitement taillées.
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	008	053	SWAP			Que vos yeux, que vos oreilles, restent ouverts à la prière que vous fait votre serviteur, à la prière que vous fait votre peuple Israël ; écoutez-les en toutes les choses pour lesquelles ils vous invoqueront.
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	012	024	SWAP			Voici ce que dit le Seigneur: Ne partez pas, ne combattez point vos frères, les fils d'Israël; retournez chacun en votre demeure, car cette chose est de moi. Ils obéirent à la parole du Seigneur, et, selon son ordre, ils renoncèrent à marcher.
+Holy-Bible---French---French-LXX-TheoTex	011	1KI	016	028	SWAP			Et Ambri s’endormit avec ses pères ; il fut inhumé à Samarie, et ; son fils Achab régna à sa place.
+Holy-Bible---French---French-LXX-TheoTex	012	2KI	001	018	SWAP			Quant au reste de l’histoire d’Ochozias, n’est-il pas écrit au livre des faits et gestes des rois d’Israël ?
+Holy-Bible---French---French-LXX-TheoTex	014	2CH	035	019	SWAP			Ce fut en la dix-huitième année du règne de Josias, que cette pâque fut célébrée. Or, après tout ce que le roi Josias avait fait dans le temple...
+Holy-Bible---French---French-LXX-TheoTex	014	2CH	036	005	SWAP			Joacim avait vingt-cinq ans lorsqu'il monta sur le trône, et il régna onze ans à Jérusalem;
+Holy-Bible---French---French-LXX-TheoTex	017	EST	001	001	SWAP			Il advint durant les jours d'Artaxerxès, qui régnait depuis l'Inde sur cent vingt-sept contrées:
+Holy-Bible---French---French-LXX-TheoTex	017	EST	003	013	SWAP			Et des courriers portèrent dans tout le royaume le commandement de détruire en un seul jour, le premier du douzième mois, qui est adar, toute la race des Juifs, et de piller leurs biens.
+Holy-Bible---French---French-LXX-TheoTex	017	EST	004	017	SWAP			Et Mardochée, s'étant éloigné, fit ce que lui avait prescrit Esther;
+Holy-Bible---French---French-LXX-TheoTex	017	EST	005	001	SWAP			Le troisième jour, Esther se revêtit de ses atours de reine et se présenta dans la cour intérieure du palais du roi, en face du palais du roi. Celui-ci était assis sur son trône royal, dans le palais de la royauté, vis-à-vis de l’entrée du palais.
+Holy-Bible---French---French-LXX-TheoTex	017	EST	005	002	SWAP			Lorsque le roi aperçut Esther debout dans la cour, elle éveilla sa sympathie, et le roi tendit à Esther le sceptre d’or qu’il tenait en main. Esther s’avança et toucha l’extrémité du sceptre.
+Holy-Bible---French---French-LXX-TheoTex	017	EST	008	012	SWAP			Dans le royaume d’Artaxerxès, le treizième jour du douzième mois qui est adar.
+Holy-Bible---French---French-LXX-TheoTex	017	EST	010	003	SWAP			Et Mardochée fut le lieutenant du roi Artaxerxès, et il fut grand dans le royaume, et il fut glorifié par les Juifs ; et, aimé de tous, il exposa la suite de l’événement à tout son peuple.
+Holy-Bible---French---French-LXX-TheoTex	061	2PE	002	017	NOTE			questioned
 Holy-Bible---French---French-LXX-TheoTex								NULL
 Holy-Bible---French---French-Martin	061	2PE	002	017	NOTE			questioned
 Holy-Bible---French---French-Martin								NULL

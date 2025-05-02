@@ -5984,10 +5984,47 @@ Joshua 24:29 Après ces choses, Josué, fils de Nau, serviteur de Dieu, mourut �
 Joshua 24:30 On l’ensevelit sur les limites de son héritage, en Thamnasarach, dans les montagnes d’Ephraïm, au nord des montagnes de Galaad.
 Joshua 24:31 Israël servit donc le Seigneur durant tous les jours de Josué, et durant tous les jours des anciens dont la vie s’était prolongée avec la sienne, et qui avaient vu toutes les œuvres du Seigneur en faveur d’Israël.
 Joshua 24:32 Les fils d’Israël avaient rapporté de l’Egypte les ossements de Joseph, et ils les inhumèrent à Sichem dans le champ que Jacob avait acheté au prix de cent agneaux, des Amorrhéens qui habitaient Sichem, et qu’il avait donné à Joseph. 
-Joshua 24:33 Ce jour-là, les fils d’Israël, ayant pris l’arche de Dieu, la transportèrent dans leurs rangs. Et Phinées fut prêtre à la place de son père Eléazar, jusqu’à ce que lui-même mourut et fut inhumé dans sa terre de Gabaar.
+Joshua 24:33 Et Phinées fut prêtre à la place de son père Eléazar, jusqu’à ce que lui-même mourut et fut inhumé dans sa terre de Gabaar.
 Judges 1:1 
 EOF;
 if (!($bfile = preg_replace("/Joshua 24:29 (.+?)Judges 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+
+I Kings 5:1 Ainsi, les officiers approvisionnaient le roi Salomon, et chacun avait son mois pour subvenir à ce qui était demandé pour sa table ; et ils n’intervertissaient jamais l’ordre établi.
+I Kings 5:2 Ils faisaient transporter l’orge et la paille pour les chevaux de selle et les attelages du roi, en tout lieu où il se trouvait, chacun selon ce qui lui était prescrit.
+I Kings 5:3 Et voici ce qu’il fallait chaque jour à Salomon : trente mesures de fleur de farine, et soixante mesures de farine pétrie.
+I Kings 5:4 Dix veaux choisis, vingt bœufs pris au pâturage, et cent brebis, et en outre des cerfs, des chevreuils parqués et engraissés.
+I Kings 5:5 Car il était chef de toute la contrée en deçà du fleuve, et la paix régnait tout alentour de ses territoires.
+I Kings 5:6 Et le Seigneur avait doué Salomon d’une grande intelligence, d’une grande sagesse, et d’une richesse de cœur abondante comme le sable du rivage de la mer.
+I Kings 5:7 La sagesse de Salomon s’accrut et surpassa celle des anciens, celle de tous les sages de l’Égypte.
+I Kings 5:8 Et il était le plus sage des hommes ; il était plus sage que Géthan le Zarite, qu’Enan, que Chalcad et que Darala, fils de Mal.
+I Kings 5:9 Et il dit trois mille proverbes et cinq mille cantiques.
+I Kings 5:10 Et il disserta sur tous les arbres, depuis le cèdre du Liban jusqu’à l’hysope qui sort des murailles ; il parla de tous les quadrupèdes, de tous les oiseaux, de tous les reptiles et de tous les poissons.
+I Kings 5:11 Et Salomon avait épousé la fille du Pharaon d’Égypte ; il l’avait amenée dans la ville de David, en attendant qu’il eût achevé le temple du Seigneur, ainsi que son propre palais et les remparts de Jérusalem.
+I Kings 5:12 Alors, le Pharaon vint d’Égypte ; il prit Gazer et il la livra aux flammes ; il extermina le Chananéen qui habitait Mergab, et il donna ces conquêtes à sa fille, femme de Salomon, et Salomon rebâtit Gazer.
+I Kings 5:13 Et tous les peuples venaient pour entendre la sagesse de Salomon ; et combien y eut-il de rois de la terre qui vinrent entendre la sagesse de Salomon !
+I Kings 5:14 Et Salomon avait épousé la fille du Pharaon d’Égypte ; il l’avait amenée dans la ville de David, en attendant qu’il eût achevé le temple du Seigneur, ainsi que son propre palais et les remparts de Jérusalem.
+I Kings 5:15 Alors, le Pharaon vint d’Égypte ; il prit Gazer et il la livra aux flammes ; il extermina le Chananéen qui habitait Mergab, et il donna ces conquêtes à sa fille, femme de Salomon, et Salomon rebâtit Gazer.
+I Kings 5:16 Et Hiram, roi de Tyr, envoya ses serviteurs, sachant que Salomon avait été oint à la place de David, son père ; car Hiram avait aimé David tous les jours de sa vie.
+I Kings 5:17 Salomon envoya aussi des messagers à Hiram, disant :
+I Kings 5:18 Tu sais que David, mon père, n’a pu bâtir un temple au nom du Seigneur mon Dieu, à cause des guerres qui ont éclaté tout alentour, jusqu’à ce que le Seigneur eût abattu ses ennemis sous la plante de ses pieds.
+I Kings 5:19 Maintenant, le Seigneur mon Dieu m’a donné la paix tout alentour ; il n’est point de complot contre moi ni de mauvais desseins.
+I Kings 5:20 Et voilà que j’ai résolu de bâtir un temple au nom du Seigneur mon Dieu, comme le Seigneur Dieu l’a dit à David mon père : C’est ton fils, que je mettrai sur le trône à ta place, qui bâtira un temple à mon nom.
+I Kings 5:21 Donne donc tes ordres, et que l’on coupe des arbres du Liban ; voici mes serviteurs pour aider les tiens, et je te paierai le salaire de tes services comme tu le demanderas ;
+I Kings 5:22 car tu sais que parmi nous personne n’est aussi habile que les Sidoniens à travailler le bois.
+I Kings 5:23 Or, Hiram fut grandement réjoui d’entendre ces paroles, et il dit : Béni soit aujourd’hui le Seigneur, qui a donné à David un fils aussi sage pour gouverner ce peuple nombreux.
+I Kings 5:24 Puis, il envoya dire à Salomon : J’ai ouï toutes les choses au sujet desquelles tu as envoyé près de moi ; je ferai tout ce que tu veux ; cèdres et sapins,
+I Kings 5:25 Mes serviteurs transporteront tout du Liban à la mer ; on en formera des radeaux jusqu’au lieu que tu m’indiqueras ;
+I Kings 5:26 là, je les ferai délier, et tu les enlèveras, et tu feras tout ce que je désire en donnant des vivres à ma maison.
+I Kings 5:27 Hiram donna donc à Salomon des cèdres, des sapins et tout ce qu’il voulut.
+I Kings 5:28 Et Salomon donna à Hiram vingt mille mesures de froment pour alimenter sa maison, et vingt mille mesures d’huile battue ; voilà ce que Salomon donna par an à Hiram.
+I Kings 5:29 Or, le Seigneur avait donné à Salomon la sagesse comme il le lui avait dit.
+I Kings 5:30 Et la paix régnait entre Hiram et Salomon, qui contractèrent entre eux une alliance.
+I Kings 5:31 Le roi imposa une corvée à tout Israël, et il requit pour ce service trente mille hommes.
+I Kings 5:32 Et l’on mit trois ans à préparer les pierres et les bois.
+I Kings 6:1 
+EOF;
+if (!($bfile = preg_replace("/\nI Kings 5:1 (.+?)\nI Kings 6:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 
 I Kings 10:22 Et cela parce que Salomon avait un vaisseau de Tharsis à la mer, avec la flotte d’Hiram ; tous les trois ans un vaisseau venait de Tharsis chargé d’or, d’argent et de pierres rares et travaillées.
@@ -5999,15 +6036,52 @@ I Kings 11:1
 EOF;
 if (!($bfile = preg_replace("/\nI Kings 10:22 (.+?)\nI Kings 11:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Malachi 3:19 Voilà que le jour approche, brûlant comme une fournaise, et il les consumera ; et tous les étrangers et tous ceux qui font le mal seront comme de la paille ; et le jour qui approche les dévorera, dit le Seigneur tout-puissant ; et il ne restera d’eux ni branche ni racine.
-Malachi 3:20 Et le Soleil de justice se lèvera pour vous qui craignez mon nom ; et sur ses ailes Il portera le salut ; et vous sortirez, et vous bondirez comme de jeunes bœufs délivrés de leurs liens.
-Malachi 3:21 Et vous foulerez les impies ; car ils seront sous vos pieds comme de la cendre, le jour que je ferai naître, dit le Seigneur tout-puissant.
-Malachi 3:22 Souvenez-vous de la loi de Moïse, mon serviteur, telle que je la lui ai intimée, en Horeb, devant tout Israël, dans ses commandements et ses préceptes.
-Malachi 3:23 Et voilà que je vous enverrai Élie le Thesbite, avant que vienne ce jour du Seigneur, jour grand et éclatant,
-Malachi 3:24 qui réunira au fils le cœur de son père, à l’homme le cœur de son prochain, de peur que je ne survienne et que je n’anéantisse la terre.
+Job 23:14 C’est pourquoi j’ai eu hâte de le chercher ; ses avertissements ont ramené ma pensée à lui.
+Job 23:15 Mais qu’il s’intéresse à moi sans apparaître ; si je l’aperçois, son aspect me fait trembler.
+Job 23:16 
+EOF;
+if (!($bfile = preg_replace("/Job 23:15 (.+?)Job 23:16 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Job 42:17 et Job mourut très avancé en âge et plein de jours.
+Wisdom 1:1 
+EOF;
+if (!($bfile = preg_replace("/Job 42:17 (.+?)Wisdom 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Proverbs 4:27 N’incline ni à droite ni à gauche, et retire tes pieds de la voie mauvaise ;
+Proverbs 5:1 
+EOF;
+if (!($bfile = preg_replace("/Proverbs 4:27 (.+?)Proverbs 5:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Proverbs 9:18 Or il ne sait pas que les hommes nés sur la terre périssent auprès d’elle, et qu’il met le pied sur le perchoir de l’enfer ;
+Proverbs 10:1 
+EOF;
+if (!($bfile = preg_replace("/Proverbs 9:18 (.+?)Proverbs 10:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Proverbs 27:20 L’enfer et la perdition ne sont jamais rassasiés ; de même les yeux des hommes sont insatiables ;
+Proverbs 27:21 On éprouve par le feu l’or et l’argent ; l’épreuve de l’homme est la bouche de ceux qui le louent.
+Proverbs 27:22 
+EOF;
+if (!($bfile = preg_replace("/Proverbs 27:20 (.+?)Proverbs 27:22 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Isaiah 63:19 Nous sommes redevenus ce que nous étions au commencement, lorsque tu ne régnais pas sur nous, et que ton nom n’était pas encore invoqué pour nous.
+Isaiah 63:20 Lorsque tu ouvriras le ciel, ta crainte, Seigneur, saisira les montagnes, et elles s’écrouleront.  
+Isaiah 64:1 
+EOF;
+if (!($bfile = preg_replace("/Isaiah 63:19 (.+?)Isaiah 64:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Malachi 4:1 Voilà que le jour approche, brûlant comme une fournaise, et il les consumera ; et tous les étrangers et tous ceux qui font le mal seront comme de la paille ; et le jour qui approche les dévorera, dit le Seigneur tout-puissant ; et il ne restera d’eux ni branche ni racine.
+Malachi 4:2 Et le Soleil de justice se lèvera pour vous qui craignez mon nom ; et sur ses ailes Il portera le salut ; et vous sortirez, et vous bondirez comme de jeunes bœufs délivrés de leurs liens.
+Malachi 4:3 Et vous foulerez les impies ; car ils seront sous vos pieds comme de la cendre, le jour que je ferai naître, dit le Seigneur tout-puissant.
+Malachi 4:4 Souvenez-vous de la loi de Moïse, mon serviteur, telle que je la lui ai intimée, en Horeb, devant tout Israël, dans ses commandements et ses préceptes.
+Malachi 4:5 Et voilà que je vous enverrai Élie le Thesbite, avant que vienne ce jour du Seigneur, jour grand et éclatant,
+Malachi 4:6 qui réunira au fils le cœur de son père, à l’homme le cœur de son prochain, de peur que je ne survienne et que je n’anéantisse la terre.
 Isaiah 1:1 
 EOF;
 if (!($bfile = preg_replace("/Malachi 3:19 (.+?)Isaiah 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/[{}]+/us"," ",$bfile,-1,$rnum)) || $rnum!=20) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile_saved = preg_replace("/[{}]+/us"," ",$bfile_saved,-1,$rnum)) || $rnum!=20) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/\([[:alnum:]]{1,2}\)/us"," ",$bfile,-1,$rnum)) || $rnum!=54) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile_saved = preg_replace("/\([[:alnum:]]{1,2}\)/us"," ",$bfile_saved,-1,$rnum)) || $rnum!=68) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 

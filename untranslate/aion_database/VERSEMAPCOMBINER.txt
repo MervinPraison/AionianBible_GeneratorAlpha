@@ -1298,7 +1298,6 @@ Holy-Bible---French---French-LXX-TheoTex	019	PSA	102	001	28	1	end
 Holy-Bible---French---French-LXX-TheoTex	019	PSA	108	001	13	1	end
 Holy-Bible---French---French-LXX-TheoTex	019	PSA	140	001	13	1	end
 Holy-Bible---French---French-LXX-TheoTex	019	PSA	142	001	7	1	end
-Holy-Bible---French---French-LXX-TheoTex	020	PRO	004	027	27	1	end
 Holy-Bible---French---French-LXX-TheoTex							end
 Holy-Bible---French---French-Martin	009	1SA	020	042	42	1	end
 Holy-Bible---French---French-Martin	011	1KI	022	043	53	1	end
@@ -4034,7 +4033,7 @@ Holy-Bible---Ukrainian---New-Translation							end
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	004	NUM	023	017	30	1	end
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	009	1SA	020	042	42	1	end
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	009	1SA	024	001	22	1	end
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	010	2SA	002	001	22	1	end
+Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	010	2SA	002	001	32	1	end
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	011	1KI	022	043	53	1	end
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	019	PSA	060	001	12	2	end
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	019	PSA	127	005	5	1	end

@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
-# File Size: 39341       
-# File Date: 04/30/2025 01:27:01
+# File Size: 39343       
+# File Date: 05/01/2025 02:56:06
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -14,9 +14,9 @@
 #
 BIBLE	HELL_ALL	HELL_OUT	SHEOL	GEHENNA	ELEESE	HADES	ABYSS	TARTARUS	LOF	AION	AIONIAN	AION-2	AIDIOS	AION_OUT	CUSTOM	OUT	IN	VERSE_DO	VERSE_OK	VERSE_SK	VERSE_NO	VERSE_ER	VERSE_CK
 Holy-Bible---Ahirani---Gospels	0	0	0	10	0	2	0	0	0	10	6	4	0	0	0	0	32	30	30	0	234	0	0
-Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	0	0	0	12	1	11	9	1	5	93	63	10	2	0	0	0	207	199	199	0	64	1	0
+Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	200	199	1	64	0	1
 Holy-Bible---Amo---Amo-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
-Holy-Bible---Apal---Apali-Bible	0	0	3	12	1	11	8	1	5	88	62	6	2	0	0	0	199	193	193	0	61	10	0
+Holy-Bible---Apal---Apali-Bible	0	0	4	12	1	11	9	1	5	94	63	8	2	0	10	0	210	203	193	11	60	0	10
 Holy-Bible---Arabic---Arabic-Van-Dyck-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---Arabic---New-Arabic-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---Aramaic---Syriac-Peshitta	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
@@ -41,7 +41,7 @@ Holy-Bible---Bodo-Parja---BOPO-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	20
 Holy-Bible---Borna---Borna-Latin-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	2	0	208	201	199	1	64	0	2
 Holy-Bible---Breton---Breton-Gospels	0	0	0	11	0	4	1	0	0	26	24	10	0	0	0	0	76	71	71	0	193	0	0
 Holy-Bible---Bu---Bu-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
-Holy-Bible---Bugun---Bugun-Bible	0	0	0	12	1	11	9	1	5	93	63	10	2	0	0	0	207	199	199	0	64	1	0
+Holy-Bible---Bugun---Bugun-Bible	0	0	0	12	1	11	9	1	5	93	62	12	2	0	1	0	208	199	199	1	64	0	0
 Holy-Bible---Bulgarian---Bulgarian-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---Calo---Calo-Bible	0	0	0	1	0	2	1	0	0	6	3	2	0	0	0	0	15	14	14	0	250	0	0
 Holy-Bible---Cebuano---Cebuano-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
@@ -348,8 +348,8 @@ Holy-Bible---Sanskrit---Thai-Script	0	0	0	12	1	11	9	1	5	94	63	10	2	0	23	0	208	21
 Holy-Bible---Sanskrit---Tibetan-Script	0	0	0	12	1	11	9	1	5	94	63	10	2	0	23	0	208	212	200	0	64	0	12
 Holy-Bible---Sanskrit---Urdu-Script	0	0	0	12	1	11	9	1	5	94	63	10	2	0	23	0	208	212	200	0	64	0	12
 Holy-Bible---Sanskrit---Velthuis-Script	0	0	0	12	1	11	9	1	5	94	63	10	2	0	23	0	208	212	200	0	64	0	12
-Holy-Bible---Sari---Sari-Bible	0	0	0	12	1	11	9	1	5	93	63	10	2	0	0	0	207	199	199	0	64	1	0
-Holy-Bible---Satawalese---Satawalese-Bible	0	0	0	11	0	4	1	0	0	25	24	10	0	0	0	0	75	70	70	0	193	1	0
+Holy-Bible---Sari---Sari-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	200	199	1	64	0	1
+Holy-Bible---Satawalese---Satawalese-Bible	0	0	0	11	0	4	1	0	0	26	24	10	0	0	1	0	76	71	70	1	193	0	1
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark	0	0	0	3	0	0	0	0	0	2	1	4	0	0	0	0	10	8	8	0	256	0	0
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	0	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---Serbian---Serbian-Ekavski-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1

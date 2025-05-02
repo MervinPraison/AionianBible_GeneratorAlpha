@@ -564,6 +564,7 @@ Holy-Bible---French---French-LXX-TheoTex	DEU22-23
 Holy-Bible---French---French-LXX-TheoTex	DEU28-29
 Holy-Bible---French---French-LXX-TheoTex	1SA20-21
 Holy-Bible---French---French-LXX-TheoTex	1SA23-24
+Holy-Bible---French---French-LXX-TheoTex	2SA18-19
 Holy-Bible---French---French-LXX-TheoTex	1KI4-5
 Holy-Bible---French---French-LXX-TheoTex	1KI20-21
 Holy-Bible---French---French-LXX-TheoTex	2KI11-12
