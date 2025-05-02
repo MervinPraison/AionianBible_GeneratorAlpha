@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1667586     
-# File Date: 05/01/2025 00:50:28
+# File Size: 1667238     
+# File Date: 05/01/2025 22:49:07
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -3877,8 +3877,6 @@ Holy-Bible---French---French-LXX-TheoTex	009	1SA	018	019
 Holy-Bible---French---French-LXX-TheoTex	009	1SA	020	042	Et Jonathan dit à David : Va en paix, que notre mutuel serment subsiste ; car nous avons juré, au nom du Seigneur, quand nous avons dit : Le Seigneur sera témoin pour toujours entre toi et moi, entre ma postérité et la tienne.
 Holy-Bible---French---French-LXX-TheoTex	009	1SA	023	012	
 Holy-Bible---French---French-LXX-TheoTex	011	1KI	003	002	
-Holy-Bible---French---French-LXX-TheoTex	011	1KI	005	009	
-Holy-Bible---French---French-LXX-TheoTex	011	1KI	005	032	
 Holy-Bible---French---French-LXX-TheoTex	011	1KI	006	015	
 Holy-Bible---French---French-LXX-TheoTex	011	1KI	006	019	
 Holy-Bible---French---French-LXX-TheoTex	011	1KI	008	013	
@@ -3981,7 +3979,6 @@ Holy-Bible---French---French-LXX-TheoTex	019	PSA	151	004	Il a envoyé son ange m
 Holy-Bible---French---French-LXX-TheoTex	019	PSA	151	005	Mes frères étaient beaux et forts ; mais le Seigneur n’a pas pris plaisir en eux.
 Holy-Bible---French---French-LXX-TheoTex	019	PSA	151	006	Je suis sorti à la rencontre du Philistin, et il m’a maudit par ses idoles.
 Holy-Bible---French---French-LXX-TheoTex	019	PSA	151	007	Mais j’ai tiré sa propre épée, je l’ai décapité, et ôté l’opprobre des fils d’Israël.
-Holy-Bible---French---French-LXX-TheoTex	020	PRO	004	027	N’incline ni à droite ni à gauche, et retire tes pieds de la voie mauvaise ;  (a) Car Dieu seul connaît les voies de la droite, et celles de la gauche sont tortueuses.
 Holy-Bible---French---French-LXX-TheoTex	024	JER	002	002	
 Holy-Bible---French---French-LXX-TheoTex	024	JER	007	002	
 Holy-Bible---French---French-LXX-TheoTex	024	JER	008	013	

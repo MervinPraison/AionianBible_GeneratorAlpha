@@ -2,12 +2,12 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	MAP	FLAG
 # File Accuracy: Contact publisher with corrections to file format or content
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
-# File Date: 05/01/2025 03:19:51
+# File Date: 05/02/2025 01:06:56
 # File Generator: ABCMS (alpha)
 # File Location: https://resources.AionianBible.org
 # File Name: BOOKSCHAPTERS.txt
 # File Purpose: Supporting resource for the Aionian Bible project
-# File Size: 1474413     
+# File Size: 1472411     
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	040	MAT	002	010	MISSING	MID
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	040	MAT	014	004	MISSING	MID
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	040	MAT	020	012	MISSING	MID
@@ -6914,15 +6914,8 @@ Holy-Bible---French---French-LXX-TheoTex	009	1SA	018	018	MISSING	MID-SEQ
 Holy-Bible---French---French-LXX-TheoTex	009	1SA	018	019	MISSING	MID-SEQ
 Holy-Bible---French---French-LXX-TheoTex	009	1SA	018	030	MISSING	END*
 Holy-Bible---French---French-LXX-TheoTex	009	1SA	023	012	MISSING	MID
-Holy-Bible---French---French-LXX-TheoTex	010	2SA	018	033	MISSING	END*
-Holy-Bible---French---French-LXX-TheoTex	010	2SA	019	044	EXTRA	END*
 Holy-Bible---French---French-LXX-TheoTex	011	1KI	003	002	MISSING	MID
 Holy-Bible---French---French-LXX-TheoTex	011	1KI	004	020	MISSING	MID
-Holy-Bible---French---French-LXX-TheoTex	011	1KI	004	026	MISSING	MID
-Holy-Bible---French---French-LXX-TheoTex	011	1KI	004	027	MISSING	MID-SEQ
-Holy-Bible---French---French-LXX-TheoTex	011	1KI	004	028	MISSING	MID-SEQ
-Holy-Bible---French---French-LXX-TheoTex	011	1KI	004	029	MISSING	MID-SEQ
-Holy-Bible---French---French-LXX-TheoTex	011	1KI	005	018	MISSING	END*
 Holy-Bible---French---French-LXX-TheoTex	011	1KI	006	012	MISSING	MID
 Holy-Bible---French---French-LXX-TheoTex	011	1KI	006	013	MISSING	MID-SEQ
 Holy-Bible---French---French-LXX-TheoTex	011	1KI	006	014	MISSING	MID-SEQ
@@ -7011,15 +7004,9 @@ Holy-Bible---French---French-LXX-TheoTex	016	NEH	012	007	MISSING	MID-SEQ
 Holy-Bible---French---French-LXX-TheoTex	017	EST	004	007	MISSING	MID
 Holy-Bible---French---French-LXX-TheoTex	017	EST	009	006	MISSING	MID
 Holy-Bible---French---French-LXX-TheoTex	017	EST	009	031	MISSING	MID
-Holy-Bible---French---French-LXX-TheoTex	018	JOB	023	014	MISSING	MID
-Holy-Bible---French---French-LXX-TheoTex	018	JOB	042	018	EXTRA	END*
-Holy-Bible---French---French-LXX-TheoTex	018	JOB	042	019	EXTRA	END-SEQ*
 Holy-Bible---French---French-LXX-TheoTex	019	PSA	116	015	MISSING	MID
 Holy-Bible---French---French-LXX-TheoTex	020	PRO	004	007	MISSING	MID
 Holy-Bible---French---French-LXX-TheoTex	020	PRO	008	033	MISSING	MID
-Holy-Bible---French---French-LXX-TheoTex	020	PRO	009	019	EXTRA	END*
-Holy-Bible---French---French-LXX-TheoTex	020	PRO	009	020	EXTRA	END-SEQ*
-Holy-Bible---French---French-LXX-TheoTex	020	PRO	009	021	EXTRA	END-SEQ*
 Holy-Bible---French---French-LXX-TheoTex	020	PRO	011	004	MISSING	MID
 Holy-Bible---French---French-LXX-TheoTex	020	PRO	015	031	MISSING	MID
 Holy-Bible---French---French-LXX-TheoTex	020	PRO	016	001	MISSING	MID
@@ -7044,7 +7031,6 @@ Holy-Bible---French---French-LXX-TheoTex	020	PRO	022	006	MISSING	MID
 Holy-Bible---French---French-LXX-TheoTex	020	PRO	023	023	MISSING	MID
 Holy-Bible---French---French-LXX-TheoTex	023	ISA	002	022	MISSING	END*
 Holy-Bible---French---French-LXX-TheoTex	023	ISA	056	012	MISSING	END*
-Holy-Bible---French---French-LXX-TheoTex	023	ISA	064	001	MISSING	MID
 Holy-Bible---French---French-LXX-TheoTex	024	JER	002	002	MISSING	MID
 Holy-Bible---French---French-LXX-TheoTex	024	JER	007	002	MISSING	MID
 Holy-Bible---French---French-LXX-TheoTex	024	JER	008	012	MISSING	MID
@@ -7477,18 +7463,6 @@ Holy-Bible---French---French-LXX-TheoTex	026	EZE	027	032	MISSING	MID
 Holy-Bible---French---French-LXX-TheoTex	026	EZE	032	020	MISSING	MID
 Holy-Bible---French---French-LXX-TheoTex	026	EZE	033	027	MISSING	MID
 Holy-Bible---French---French-LXX-TheoTex	026	EZE	040	031	MISSING	MID
-Holy-Bible---French---French-LXX-TheoTex	039	MAL	003	019	EXTRA	END*
-Holy-Bible---French---French-LXX-TheoTex	039	MAL	003	020	EXTRA	END-SEQ*
-Holy-Bible---French---French-LXX-TheoTex	039	MAL	003	021	EXTRA	END-SEQ*
-Holy-Bible---French---French-LXX-TheoTex	039	MAL	003	022	EXTRA	END-SEQ*
-Holy-Bible---French---French-LXX-TheoTex	039	MAL	003	023	EXTRA	END-SEQ*
-Holy-Bible---French---French-LXX-TheoTex	039	MAL	003	024	EXTRA	END-SEQ*
-Holy-Bible---French---French-LXX-TheoTex	039	MAL	004	001	MISSING	MID
-Holy-Bible---French---French-LXX-TheoTex	039	MAL	004	002	MISSING	MID-SEQ
-Holy-Bible---French---French-LXX-TheoTex	039	MAL	004	003	MISSING	MID-SEQ
-Holy-Bible---French---French-LXX-TheoTex	039	MAL	004	004	MISSING	MID-SEQ
-Holy-Bible---French---French-LXX-TheoTex	039	MAL	004	005	MISSING	MID-SEQ
-Holy-Bible---French---French-LXX-TheoTex	039	MAL	004	006	MISSING	END-SEQ*
 Holy-Bible---French---French-Oltramare-Bible	041	MAR	009	044	MISSING	MID
 Holy-Bible---French---French-Oltramare-Bible	041	MAR	009	046	MISSING	MID
 Holy-Bible---French---French-Ostervald-Bible	019	PSA	066	001	MISSING	MID
@@ -19607,8 +19581,6 @@ Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	005	DEU	024	022	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	005	DEU	032	052	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	005	DEU	034	012	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	009	1SA	023	029	MISSING	END*
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	010	2SA	002	023	MISSING	MID
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	010	2SA	002	033	EXTRA	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	018	JOB	021	034	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	019	PSA	013	006	MISSING	END*
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	019	PSA	024	010	MISSING	END*

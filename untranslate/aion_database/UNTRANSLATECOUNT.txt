@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
-# File Size: 39343       
-# File Date: 05/01/2025 02:56:06
+# File Size: 39345       
+# File Date: 05/02/2025 00:42:53
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -154,7 +154,7 @@ Holy-Bible---French---French-Crampon-Bible-New	34	1	64	12	1	11	9	1	5	94	63	10	2	
 Holy-Bible---French---French-Darby-Bible	12	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---French---French-Khan-Bible	0	0	64	0	0	0	0	0	0	0	0	0	0	0	0	0	64	64	64	0	200	0	0
 Holy-Bible---French---French-LXX	45	8	64	0	0	0	0	0	0	0	0	0	0	0	27	8	64	91	64	0	200	0	27
-Holy-Bible---French---French-LXX-TheoTex	45	8	64	0	0	0	0	0	0	0	0	0	0	0	0	8	64	64	64	0	200	0	0
+Holy-Bible---French---French-LXX-TheoTex	45	8	64	0	0	0	0	0	0	0	0	0	0	0	19	8	64	83	64	0	200	0	19
 Holy-Bible---French---French-Louis-Segond-1910-Bible	83	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---French---French-Martin	23	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---French---French-Oltramare-Bible	19	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
