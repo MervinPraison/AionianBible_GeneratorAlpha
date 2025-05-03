@@ -1,6 +1,6 @@
 # File Name: ANAVIGATION.txt
-# File Size: 22683       
-# File Date: 05/02/2025 01:24:26
+# File Size: 23246       
+# File Date: 05/02/2025 22:37:26
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -41,6 +41,9 @@ Holy-Bible---Assamese---Assamese-Bible
 Holy-Bible---Azerbaijani---Azerbaijani-Bible		
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	VERSMISS	042-LUK-001-055
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	VERSMISS	044-ACT-015-018
+Holy-Bible---Baiso---Basio-Bible		
+Holy-Bible---Baiso---Basio-Bible	VERSMISS	042-LUK-001-055
+Holy-Bible---Baiso---Basio-Bible	VERSMISS	058-HEB-007-021
 Holy-Bible---Bangwinji---Bangwinji-Bible		
 Holy-Bible---Bareli-Palya---Palya-Bareli-Bible		
 Holy-Bible---Basque---Basque-NT		
@@ -78,6 +81,12 @@ Holy-Bible---Bugun---Bugun-Bible	VERSMISS	058-HEB-013-021
 Holy-Bible---Bulgarian---Bulgarian-Bible		
 Holy-Bible---Calo---Calo-Bible		
 Holy-Bible---Cebuano---Cebuano-Bible		
+Holy-Bible---Cebuano---Cebuano-Open-Bible		
+Holy-Bible---Cebuano---Cebuano-Open-Bible	VERSMISS	019-PSA-018-005
+Holy-Bible---Cebuano---Cebuano-Open-Bible	VERSMISS	020-PRO-023-014
+Holy-Bible---Cebuano---Cebuano-Open-Bible	VERSMISS	042-LUK-001-055
+Holy-Bible---Cebuano---Cebuano-Open-Bible	VERSMISS	058-HEB-009-012
+Holy-Bible---Cebuano---Cebuano-Open-Bible	VERSMISS	066-REV-020-015
 Holy-Bible---Cebuano---Cebuano-Philippine		
 Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms		
 Holy-Bible---Cherokee---Cherokee-New-Testament		
@@ -311,6 +320,7 @@ Holy-Bible---Kiche---Totonicapan
 Holy-Bible---Kiche---Totonicapan	VERSMISS	065-JUD-001-021
 Holy-Bible---Kinga---Mahanji-Bible		
 Holy-Bible---Kisi---Kisi-Bible		
+Holy-Bible---Koda---Koda-Bible		
 Holy-Bible---Korean---Korean-1910		
 Holy-Bible---Korean---Korean-1910	VERSMISS	019-PSA-016-010
 Holy-Bible---Korean---Korean-1910	CHAPMISS	060-1PE-005-010

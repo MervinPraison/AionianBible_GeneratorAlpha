@@ -47,6 +47,11 @@ Holy-Bible---Azerbaijani---Azerbaijani-Bible	042	LUK	001	055	SKIP			NULL
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	044	ACT	015	017	AIONS	g165		NULL
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	044	ACT	015	018	SKIP			NULL
 Holy-Bible---Azerbaijani---Azerbaijani-Bible								NULL
+Holy-Bible---Baiso---Basio-Bible	042	LUK	001	054	AIONS	g165		NULL
+Holy-Bible---Baiso---Basio-Bible	042	LUK	001	055	SKIP			NULL
+Holy-Bible---Baiso---Basio-Bible	058	HEB	007	020	AIONS	g165		NULL
+Holy-Bible---Baiso---Basio-Bible	058	HEB	007	021	SKIP			NULL
+Holy-Bible---Baiso---Basio-Bible								NULL
 Holy-Bible---Bangwinji---Bangwinji-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Bangwinji---Bangwinji-Bible								NULL
 Holy-Bible---Bareli-Palya---Palya-Bareli-Bible								NULL
@@ -105,6 +110,16 @@ Holy-Bible---Bulgarian---Bulgarian-Bible								NULL
 Holy-Bible---Calo---Calo-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Calo---Calo-Bible								NULL
 Holy-Bible---Cebuano---Cebuano-Bible								NULL
+Holy-Bible---Cebuano---Cebuano-Open-Bible	019	PSA	018	004	SHEOL	h7585		NULL
+Holy-Bible---Cebuano---Cebuano-Open-Bible	019	PSA	018	005	SKIP			NULL
+Holy-Bible---Cebuano---Cebuano-Open-Bible	020	PRO	023	013	SHEOL	h7585		NULL
+Holy-Bible---Cebuano---Cebuano-Open-Bible	020	PRO	023	014	SKIP			NULL
+Holy-Bible---Cebuano---Cebuano-Open-Bible	042	LUK	001	054	AIONS	g165		NULL
+Holy-Bible---Cebuano---Cebuano-Open-Bible	042	LUK	001	055	SKIP			NULL
+Holy-Bible---Cebuano---Cebuano-Open-Bible	058	HEB	009	011	AIONIAN	g166		NULL
+Holy-Bible---Cebuano---Cebuano-Open-Bible	058	HEB	009	012	SKIP			NULL
+Holy-Bible---Cebuano---Cebuano-Open-Bible	066	REV	020	015	SKIP			NULL
+Holy-Bible---Cebuano---Cebuano-Open-Bible								NULL
 Holy-Bible---Cebuano---Cebuano-Philippine								NULL
 Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms								NULL
@@ -909,6 +924,7 @@ Holy-Bible---Kinga---Mahanji-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Kinga---Mahanji-Bible								NULL
 Holy-Bible---Kisi---Kisi-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Kisi---Kisi-Bible								NULL
+Holy-Bible---Koda---Koda-Bible								NULL
 Holy-Bible---Korean---Korean-1910								NULL
 Holy-Bible---Korean---Korean-Revised-Version								NULL
 Holy-Bible---Korean---Korean-RV	023	ISA	027	011	SWAP			마르면 꺾이나니 여인이 와서 그것을 불사를 것이라 이 백성이 지각이 없으므로 그들을 지으신 자가 불쌍히 여기지 아니하시며 그들을 조성하신 자가 은혜를 베풀지 아니하시리라

@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
-# File Size: 39345       
-# File Date: 05/02/2025 00:42:53
+# File Size: 39620       
+# File Date: 05/02/2025 22:02:01
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -25,6 +25,7 @@ Holy-Bible---Armenian---Armenian-Bible-Eastern	0	0	4	11	0	4	1	0	0	24	24	10	0	0	0
 Holy-Bible---Armenian---Armenian-Bible-Western	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
 Holy-Bible---Assamese---Assamese-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	2	0	272	264	262	2	0	0	2
+Holy-Bible---Baiso---Basio-Bible	0	0	0	12	1	11	9	1	5	92	63	10	2	0	0	0	206	198	198	0	64	2	0
 Holy-Bible---Bangwinji---Bangwinji-Bible	0	0	0	8	1	11	9	1	5	92	62	6	2	0	1	0	197	192	191	0	73	0	1
 Holy-Bible---Bareli-Palya---Palya-Bareli-Bible	0	0	0	7	0	2	0	0	0	8	5	0	0	0	0	0	22	22	22	0	242	0	0
 Holy-Bible---Basque---Basque-NT	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
@@ -45,6 +46,7 @@ Holy-Bible---Bugun---Bugun-Bible	0	0	0	12	1	11	9	1	5	93	62	12	2	0	1	0	208	199	19
 Holy-Bible---Bulgarian---Bulgarian-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---Calo---Calo-Bible	0	0	0	1	0	2	1	0	0	6	3	2	0	0	0	0	15	14	14	0	250	0	0
 Holy-Bible---Cebuano---Cebuano-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
+Holy-Bible---Cebuano---Cebuano-Open-Bible	0	0	62	12	1	11	9	1	4	93	62	10	2	0	0	0	267	259	259	0	0	5	0
 Holy-Bible---Cebuano---Cebuano-Philippine	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	0	0	15	11	0	6	1	0	0	28	26	10	0	0	0	0	97	92	92	0	172	0	0
 Holy-Bible---Cherokee---Cherokee-New-Testament	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
@@ -91,7 +93,7 @@ Holy-Bible---English---Catholic-Public-Domain	178	6	64	12	1	11	9	1	5	94	63	10	2	
 Holy-Bible---English---Darby-Translation	165	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---English---Douay-Rheims-1899	164	5	64	12	1	11	9	1	5	94	63	10	2	0	2	5	272	266	264	0	0	0	2
 Holy-Bible---English---Family-35-NT	39	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
-Holy-Bible---English---Free-Bible-Version	116	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
+Holy-Bible---English---Free-Bible-Version	122	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---English---Geneva-Bible	109	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---English---Godbey-Bible	36	0	0	11	1	11	9	1	5	94	63	10	2	0	0	0	207	199	199	0	64	1	0
 Holy-Bible---English---Gods-Living-Word	0	0	0	0	0	0	0	0	0	12	21	4	0	0	0	0	37	35	35	0	229	0	0
@@ -248,6 +250,7 @@ Holy-Bible---Kara---Kara-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	
 Holy-Bible---Kiche---Totonicapan	0	0	0	12	1	11	9	1	5	94	63	10	2	0	2	0	208	201	199	1	64	0	2
 Holy-Bible---Kinga---Mahanji-Bible	0	0	0	12	1	11	9	1	5	93	61	10	2	0	1	0	205	198	197	0	67	0	1
 Holy-Bible---Kisi---Kisi-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
+Holy-Bible---Koda---Koda-Bible	0	0	0	4	0	5	1	0	0	24	16	6	0	0	0	0	56	53	53	0	211	0	0
 Holy-Bible---Korean---Korean-1910	0	0	63	12	1	11	9	1	5	93	62	10	2	0	0	0	269	261	261	0	0	3	0
 Holy-Bible---Korean---Korean-RV	0	0	63	12	1	11	9	1	5	94	63	10	2	0	1	0	271	264	263	0	0	1	1
 Holy-Bible---Korean---Korean-Revised-Version	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0

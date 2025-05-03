@@ -1,6 +1,6 @@
 # File Name: TALLY.txt
-# File Size: 23098       
-# File Date: 05/01/2025 22:49:07
+# File Size: 23252       
+# File Date: 05/02/2025 20:15:11
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -25,6 +25,7 @@ Holy-Bible---Armenian---Armenian-Bible-Eastern	6486	6486	6489
 Holy-Bible---Armenian---Armenian-Bible-Western	7955	7955	7956
 Holy-Bible---Assamese---Assamese-Bible	31088	31088	31092
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	31057	31057	31072
+Holy-Bible---Baiso---Basio-Bible	7950	7950	7950
 Holy-Bible---Bangwinji---Bangwinji-Bible	7145	7145	7148
 Holy-Bible---Bareli-Palya---Palya-Bareli-Bible	1071	1071	1071
 Holy-Bible---Basque---Basque-NT	7932	7932	7932
@@ -45,6 +46,7 @@ Holy-Bible---Bugun---Bugun-Bible	7910	7910	7912
 Holy-Bible---Bulgarian---Bulgarian-Bible	31096	31096	31102
 Holy-Bible---Calo---Calo-Bible	1151	1151	1151
 Holy-Bible---Cebuano---Cebuano-Bible	31098	31098	31103
+Holy-Bible---Cebuano---Cebuano-Open-Bible	30552	30552	30552
 Holy-Bible---Cebuano---Cebuano-Philippine	31102	31102	31102
 Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	7246	7246	7246
 Holy-Bible---Cherokee---Cherokee-New-Testament	7957	7957	7957
@@ -248,6 +250,7 @@ Holy-Bible---Kara---Kara-Bible	7950	7950	7955
 Holy-Bible---Kiche---Totonicapan	7955	7955	7957
 Holy-Bible---Kinga---Mahanji-Bible	7905	7905	7908
 Holy-Bible---Kisi---Kisi-Bible	7943	7943	7948
+Holy-Bible---Koda---Koda-Bible	3799	3799	3799
 Holy-Bible---Korean---Korean-1910	31000	31000	31000
 Holy-Bible---Korean---Korean-RV	31011	31011	31039
 Holy-Bible---Korean---Korean-Revised-Version	31084	31084	31085

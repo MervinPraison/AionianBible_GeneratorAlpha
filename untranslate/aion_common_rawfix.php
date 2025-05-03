@@ -6047,6 +6047,16 @@ Wisdom 1:1
 EOF;
 if (!($bfile = preg_replace("/Job 42:17 (.+?)Wisdom 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
+Psalms 12:1 Jusqu’à la Fin, Psaume de David. Jusques à quand, Seigneur, m’oublieras-tu complètement ? Jusques à quand détourneras-tu de moi ta face ?
+Psalms 12:2 Jusques à quand remplirai-je mon âme de délibérations, et mon cœur d’affliction durant tout le jour. Jusques à quand mon ennemi s’élèvera-t-il sur moi ?
+Psalms 12:3 Regarde et écoute-moi, Seigneur mon Dieu. Éclaire mes yeux, de peur que je ne m’endorme dans la mort ;
+Psalms 12:4 De peur que mon ennemi ne vienne à dire : J’ai prévalu contre lui. Ceux qui m’oppriment tressailliront de joie, si je suis ébranlé.
+Psalms 12:5 Et moi, j’ai espéré en ta miséricorde. Mon cœur se réjouira dans le salut qui me viendra de toi.
+Psalms 12:6 Je chanterai le Seigneur, qui m’a accordé ses bienfaits je célébrerai le nom du Seigneur Très-Haut.
+Psalms 13:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 12:1 (.+?)Psalms 13:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 Proverbs 4:27 N’incline ni à droite ni à gauche, et retire tes pieds de la voie mauvaise ;
 Proverbs 5:1 
 EOF;
@@ -6068,6 +6078,21 @@ Isaiah 63:20 Lorsque tu ouvriras le ciel, ta crainte, Seigneur, saisira les mont
 Isaiah 64:1 
 EOF;
 if (!($bfile = preg_replace("/Isaiah 63:19 (.+?)Isaiah 64:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Jeremiah 8:13 Qui en recueilleront les fruits, dit le Seigneur ; il n’y aura pas de raisins dans leurs vignes, pas de figues sur leurs figuiers, et les feuilles en tomberont.
+Jeremiah 8:14 Pourquoi demeurons-nous en repos ? Rassemblons-nous, et retirons-nous dans nos places fortes, et là soyons comme des rebuts, puisque le Seigneur nous a rejetés, et qu’il nous a abreuvés d’eau mêlée de fiel en punition de nos péchés envers lui.
+Jeremiah 8:15 Nous nous sommes réunis pour la paix, et il ne nous est venu rien de bon ; à la guérison, et voilà que c’était la souffrance.
+Jeremiah 8:16 De Dan nous entendons le bruit de leur cavalerie rapide ; toute la terre a tremblé au bruit des hennissements de ses chevaux ; elle viendra, elle dévorera la terre et ses richesses, la ville et ses habitants ;
+Jeremiah 8:17 Car voilà que je vous envoie des serpents mortels contre lesquels il n’est point de charmes, et ils vous mordront,
+Jeremiah 8:18 Sans qu’il y ait de remède, et vous aurez en outre les douleurs de vos cœurs défaillants.
+Jeremiah 8:19 J’entends les cris que jette, en une terre lointaine, la fille de mon peuple : Est-ce que le Seigneur n’est pas à Sion ? est-ce qu’en Sion il n’y a plus de roi ? Non, parce qu’ils m’ont exaspéré avec leurs idoles et leurs dieux étrangers.
+Jeremiah 8:20 L’été est passé, la moisson est finie, et nous ne sommes point sauvés.
+Jeremiah 8:21 En mon angoisse, j’ai pris des vêtements de deuil en voyant l’affliction de la fille de mon peuple ; j’ai été accablé de douleurs telles que celles de l’enfantement.
+Jeremiah 8:22 N’y a-t-il plus de baume en Galaad ? n’y a-t-il plus de médecin ? D’où vient que la fille de mon peuple n’est point encore guérie ?
+Jeremiah 8:23 Qui donnera à ma tête un réservoir d'eau, et à mes yeux une source de larmes ? Et je pleurerai mon peuple nuit et jour, et la mort de la fille de mon peuple.
+Jeremiah 9:1 
+EOF;
+if (!($bfile = preg_replace("/Jeremiah 8:13 (.+?)Jeremiah 9:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 Malachi 4:1 Voilà que le jour approche, brûlant comme une fournaise, et il les consumera ; et tous les étrangers et tous ceux qui font le mal seront comme de la paille ; et le jour qui approche les dévorera, dit le Seigneur tout-puissant ; et il ne restera d’eux ni branche ni racine.
 Malachi 4:2 Et le Soleil de justice se lèvera pour vous qui craignez mon nom ; et sur ses ailes Il portera le salut ; et vous sortirez, et vous bondirez comme de jeunes bœufs délivrés de leurs liens.
@@ -12104,14 +12129,6 @@ EOF;
 if (!($bfile = preg_replace("/REV 19:9 (.+?)REV 19:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
-
-
-
-// RAWFIX BIBLE ********************
-case "Holy-Bible---Kurdish---Sorani-Bible" :
-if (!($bfile = preg_replace("/[\x{231e}\x{231f}]+/us"," ",$bfile,-1,$rnum)) || $rnum!=42) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$bfile_saved = $bfile;
-goto RAWHIDE;
 
 
 

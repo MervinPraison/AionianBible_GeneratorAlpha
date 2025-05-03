@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 922047      
-# File Date: 05/02/2025 01:22:30
+# File Size: 928117      
+# File Date: 05/02/2025 22:35:33
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -122,6 +122,15 @@ Holy-Bible---Azerbaijani---Azerbaijani-Bible	EXO-013-017	Çixiş 13:17	Firon xal
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	MAR-010-045	Mark 10:45	Çünki Bəşər Oğlu gəlmədi ki, Ona xidmət etsinlər, gəldi ki, Özü xidmət etsin və çoxlarını satın almaq üçün Öz canını fidyə versin».
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	ROM-001-001	Romalilara 1:1	İsa Məsihin qulu, həvari olmağa çağırılmış, Allahın Müjdəsini yaymaq üçün seçilmiş mən Pauldan salam!
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	MAT-028-019	Matta 28:19	Beləliklə, gedin, bütün millətləri Mənim şagirdim edin; onları Ata, Oğul və Müqəddəs Ruh adı ilə vəftiz edin;
+Holy-Bible---Baiso---Basio-Bible	JOH-003-016	ያንሳ 3:16	“ኡሱ ካአማነ ዱባ ጅሩ ጅሮማክ ግር ጎጎግሮን ኳሬ ጎጎባኖንኮ ዋ ኤረ ኮ ታስስሮ አላም አዳ. ጌላተራ።
+Holy-Bible---Baiso---Basio-Bible	GEN-003-024		
+Holy-Bible---Baiso---Basio-Bible	LUK-023-034	ሉቃሳ 23:34	የሱሳና፥ “ኣቦኬ! እሶ ካፈላራና ላኮካሳን እሶን ሀሄሶ አምና” አመ። እሶና ሳርስኬሳ ኢጣይ ሄዴዳመን።
+Holy-Bible---Baiso---Basio-Bible	REV-021-002	ራጋ ካያንሳ 21:2-3	ቁሉት ካታማ፥ ታኡሱብት ኢየሩሳለም፥ ኤንተሪ ኬሳምን ታሳርሳተቶ ማሻሸ አን እስ ኤካሳተደ ዳሩርኮ ዋ ዶለኮ ዳጋ ግራን አን ዴ፤ ሃ ታአማታ ታአቲ ያየ ኮርፍንጀኮ ብያግራን አን ማለ፤ “ሂክማ! ዋ ካኮባራራ ምን እባዶነ ዎታ ግራ፤ እሶነ ዎታና ግርናራ፤ እሶና ጎሳኬሳያን፤ ዋ ኡሱን እሶነ ዎታ ሄዶክሶና ልናራ፤
+Holy-Bible---Baiso---Basio-Bible	HEB-011-008	እብራዊ 11:8	አብራመ ብጉረ ርቲ የላይ ታአታይናሮ ባንኤ ጎጎሴሮን ካኮኡማመረ ጎራታ ኤትራ ሴይናሮ ኮና ሱረ ጎአዴስዋተና ሴይን ካኮአጃጃመራ አማኖያ።
+Holy-Bible---Baiso---Basio-Bible	EXO-013-017		
+Holy-Bible---Baiso---Basio-Bible	MAR-010-045	ማርቆሳ 10:45	ኤረ ካእባዶ ሀንዳይና ኔፎቴሳ ካሞጋኑን ዎዶ የል ስሳይን ኤመተራ ኳሬ ጎጎሀንዳይናዉን ላኮኤሜተሮ።”
+Holy-Bible---Baiso---Basio-Bible	ROM-001-001	ካሮም ቶስ 1:1	ካየሱሳ ክርስቶሳ ድይና ካፋራመሮ ሊን ካኡማመሮኮና ዎንጋላ ካዋቱን ዎዩ ካሌሮ ጳዉሎሳኮ ካፋራመሮ ሀንዳያ።
+Holy-Bible---Baiso---Basio-Bible	MAT-028-019	ማቶሳ 28:19	ሃኑን ሴዬንዴን ጎሳ ዱባ ኦዶይ፥ ኤረይና አያና ቁሉኮክ መገይ ጣማቃ እንኮ ኦአጋልሳታራን የላ።
 Holy-Bible---Bangwinji---Bangwinji-Bible	JOH-003-016	Yuhanna 3:16	kwama ciu kale wo ri cin neken bibwe ce wiin cuar, la wo ne bilenke cineneri mani a bwiya ti la wi ki lai dume diriri.
 Holy-Bible---Bangwinji---Bangwinji-Bible	GEN-003-024		
 Holy-Bible---Bangwinji---Bangwinji-Bible	LUK-023-034	Luka 23:34	Yecu yi ki, “kwama, yabcinen wori, ci nyombo dike ci ma tiyeu”. La ciin mer dacen, ciin tikangum belle ceu.
@@ -302,6 +311,15 @@ Holy-Bible---Cebuano---Cebuano-Bible	EXO-013-017	Exodo 13:17	Sa dihang gitugotan
 Holy-Bible---Cebuano---Cebuano-Bible	MAR-010-045	Marcos 10:45	Kay ang Anak sa Tawo wala moanhi aron alagaran, apan sa pag-alagad, ug motugyan sa iyang kinabuhi ingon nga usa ka lukat alang sa kadaghanan.”
 Holy-Bible---Cebuano---Cebuano-Bible	ROM-001-001	Roma 1:1	Si Pablo, usa ka sulugoon ni Jesu-Cristo, gitawag aron mamahimong usa ka apostol, ug gilain alang sa ebanghelyo sa Dios.
 Holy-Bible---Cebuano---Cebuano-Bible	MAT-028-019	Mateo 28:19	Busa panglakaw kamo ug paghimo ug mga disipulo sa tanang kanasoran. Bawtismohi sila sa ngalan sa Amahan, sa Anak, ug sa Balaang Espiritu.
+Holy-Bible---Cebuano---Cebuano-Open-Bible	JOH-003-016	Juan 3:16	Kay gihigugma gayod sa Dios ang kalibotan, mao nga gihatag niya ang iyang bugtong Anak, aron nga si bisan kinsa nga motuo kaniya dili malaglag kondili makaangkon hinuon ug kinabuhi nga walay kataposan.
+Holy-Bible---Cebuano---Cebuano-Open-Bible	GEN-003-024	Genesis 3:24	Sa dihang napapahawa na niya ang tawo, nagbutang ang Ginoong Dios ug mga kerubin sa sidlakang bahin sa tanaman sa Eden. Nagbutang usab siya ug espada nga nagdilaab ug nagtuyok-tuyok aron walay makaduol sa kahoy nga naghatag ug kinabuhi.
+Holy-Bible---Cebuano---Cebuano-Open-Bible	LUK-023-034	Lucas 23:34	Miingon si Jesus, “Amahan, pasayloa sila tungod kay wala sila masayod sa ilang gibuhat.”] Ug naghulbot-hulbot ang mga sundalo aron bahinon ang mga bisti ni Jesus.
+Holy-Bible---Cebuano---Cebuano-Open-Bible	REV-021-002	Gipadayag 21:2-3	Ug nakita ko ang Balaan nga Siyudad, ang bag-o nga Jerusalem, nga gipakanaog sa Dios gikan sa langit. Kini nga siyudad andam na gayod, sama sa kaslonon nga babaye nga nakabistig pangkasal ug andam na sa pagsugat sa iyang pamanhonon. Unya, aduna akoy nadungog nga kusog nga tingog gikan sa trono nga nag-ingon, “Karon, ang puloy-anan sa Dios anaa na sa mga tawo! Magpuyo siya uban kanila, ug sila mahimong iya nang mga tawo. Ang Dios mismo mahimong ilang kauban [ug ilang Dios].
+Holy-Bible---Cebuano---Cebuano-Open-Bible	HEB-011-008	Mga Hebreohanon 11:8	Tungod sa pagtuo, gituman ni Abraham ang gisulti sa Dios nga moadto siya sa lugar nga gisaad kaniya. Gibiyaan niya ang iyang lugar bisan wala siya makahibalo kon asa gayod ang lugar nga gisaad kaniya.
+Holy-Bible---Cebuano---Cebuano-Open-Bible	EXO-013-017	Exodo 13:17	Sa dihang gipalakaw na sa hari ang mga Israelinhon, wala sila giyahi sa Dios ngadto sa dalan nga molatas sa yuta sa mga Filistihanon bisag mao unta kadto ang mas duol nga agianan. Kay miingon ang Dios, “Basig mausab unya ang ilang huna-huna ug mobalik sa Ehipto kon makasinati silag gira.”
+Holy-Bible---Cebuano---Cebuano-Open-Bible	MAR-010-045	Marcos 10:45	Kay bisan pa gani ang Anak sa Tawo wala moanhi dinhi sa kalibotan aron alagaran, kondili aron moalagad ug muhatag sa iyang kinabuhi sa pagtubos sa daghang mga tawo.”
+Holy-Bible---Cebuano---Cebuano-Open-Bible	ROM-001-001	Mga Taga-Roma 1:1	Ako si Pablo nga alagad ni Cristo Jesus ang nagsulat niini. Pinili sa Dios nga mahimong apostol aron magwali sa iyang Maayong Balita.
+Holy-Bible---Cebuano---Cebuano-Open-Bible	MAT-028-019	Mateo 28:19	Busa adtoi ninyo ang mga katawhan sa tanan nga dapit. Ug himoa ninyo sila nga akong mga tinun-an. Bautismohi ninyo sila sa ngalan sa Amahan, sa Anak, ug sa Espiritu Santo.
 Holy-Bible---Cebuano---Cebuano-Philippine	JOH-003-016	Juan 3:16	Kay gihigugma gayud sa Dios ang kalibutan nga tungod niana gihatag niya ang iyang bugtong Anak, aron ang tanan nga mosalig kaniya dili malaglag, kondili may kinabuhing dayon.
 Holy-Bible---Cebuano---Cebuano-Philippine	GEN-003-024	Genesis 3:24	Busa gipapahawa niya ang tawo, ug gibutang niya sa may silangan sa tanaman sa Eden ang mga querubin, ug ang siga sa usa ka espada nga nagalisoliso, aron sa pagbantay sa dalan sa kahoy sa kinabuhi.
 Holy-Bible---Cebuano---Cebuano-Philippine	LUK-023-034	Lucas 23:34	Unya si Jesus miingon, "Amahan, pasayloa sila, kay wala sila makasabut sa ilang ginabuhat." Ug ilang giripahan ang iyang mga bisti aron sa pagbahinbahin niini.
@@ -724,7 +742,7 @@ Holy-Bible---English---Free-Bible-Version	HEB-011-008	Hebrews 11:8	Through trust
 Holy-Bible---English---Free-Bible-Version	EXO-013-017	Exodus 13:17	When Pharaoh let the Israelites leave, God did not lead them along the road through the land of the Philistines, even though that was a shorter way. For God said, “If they are forced to fight, they might change their minds and go back to Egypt.”
 Holy-Bible---English---Free-Bible-Version	MAR-010-045	Mark 10:45	For even the Son of man did not come to be served but to serve, and to give his life as a ransom for many.”
 Holy-Bible---English---Free-Bible-Version	ROM-001-001	Romans 1:1	This letter comes from Paul, a servant of Jesus Christ. I was called to be an apostle by God. God appointed me to announce the good news
-Holy-Bible---English---Free-Bible-Version	MAT-028-019	Matthew 28:19	So go and make disciples of people of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit.
+Holy-Bible---English---Free-Bible-Version	MAT-028-019	Matthew 28:19	So go and make disciples of people of all nations, and baptize them in the name of the Father and of the Son and of the Holy Spirit.
 Holy-Bible---English---Geneva-Bible	JOH-003-016	John 3:16	For God so loued the worlde, that hee hath giuen his onely begotten Sonne, that whosoeuer beleeueth in him, should not perish, but haue euerlasting life.
 Holy-Bible---English---Geneva-Bible	GEN-003-024	Genesis 3:24	Thus he cast out man, and at the East side of the garden of Eden he set the Cherubims, and the blade of a sworde shaken, to keepe the way of the tree of life.
 Holy-Bible---English---Geneva-Bible	LUK-023-034	Luke 23:34	Then sayd Iesus, Father, forgiue them: for they know not what they doe. And they parted his raiment, and cast lottes.
@@ -2129,6 +2147,15 @@ Holy-Bible---Kisi---Kisi-Bible	EXO-013-017
 Holy-Bible---Kisi---Kisi-Bible	MAR-010-045	Marko 10:45	Kwa kujha mwana ghwa Adamu ahidilepi kutumikibhwa bali kutumika, ni kughabhosya maisha gha muene kujha fidia jha bhangi.”
 Holy-Bible---Kisi---Kisi-Bible	ROM-001-001	Bharumi 1:1	Paulo ntumishi ghwa Yesu Kritu jha akutibhu kujha mfalme, ni kutengibhwa kwa ndabha jha injili jha K'yara.
 Holy-Bible---Kisi---Kisi-Bible	MAT-028-019	Matayo 28:19	Henu mulotajhi mukabhabhombayi malaika ghoha kujha bhanafunzi. Mubhabatisiajhi mu lihina lya Tata, ni la Muana, ni la Roho Mtakatifu.
+Holy-Bible---Koda---Koda-Bible	JOH-003-016		
+Holy-Bible---Koda---Koda-Bible	GEN-003-024		
+Holy-Bible---Koda---Koda-Bible	LUK-023-034	লুক 23:34	ইন্তং যীশু গামকিইয়ায়্য়, এ বাঃ, বাবা, ইঙ্কূ ছেমা কুম, এন্তে নিকু দ কিনা চিকায় য়েতানা, কাকু সারিয়া তানা। হেৎদ ইঙ্কূ গুলিবাট/চিটঠি সালাকেৎ তে ইনি রাঃআ কিচি কু হাটিং কেয়া।
+Holy-Bible---Koda---Koda-Bible	REV-021-002		 
+Holy-Bible---Koda---Koda-Bible	HEB-011-008		
+Holy-Bible---Koda---Koda-Bible	EXO-013-017		
+Holy-Bible---Koda---Koda-Bible	MAR-010-045	মার্ক 10:45	চিয়াঃ চি মান্মি হন সেবা নাম নাতিনাং কায় হিচা কানায়, মেন্খান সেবা এমঃঅ হেৎদ মান্মি কুরাঃআ রাঃআ জিউ বদল হেৎদ আয়ায়্য় জিউতে বাঞ্চা নাতিনাং মূল্য এম হিচা কানায়।
+Holy-Bible---Koda---Koda-Bible	ROM-001-001		
+Holy-Bible---Koda---Koda-Bible	MAT-028-019		
 Holy-Bible---Korean---Korean-1910	JOH-003-016	요한복음 3:16	하나님이 세상을 이처럼 사랑하사 독생자를 주셨으니 이는 저를 믿는 자마다 멸망치 않고 영생을 얻게 하려 하심이니라
 Holy-Bible---Korean---Korean-1910	GEN-003-024	창세기 3:24	이같이 하나님이 그 사람을 쫓아 내시고 에덴 동산 동편에 그룹들과 두루 도는 화염검을 두어 생명나무의 길을 지키게 하시니라
 Holy-Bible---Korean---Korean-1910	LUK-023-034	누가복음 23:34	이에 예수께서 가라사대 `아버지여 저희를 사하여 주옵소서 자기의 하는 것을 알지 못함이니이다' 하시더라 저희가 그의 옷을 나눠 제비 뽑을쌔

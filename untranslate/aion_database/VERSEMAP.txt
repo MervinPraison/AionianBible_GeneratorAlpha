@@ -22,6 +22,7 @@ Holy-Bible---Assamese---Assamese-Bible	NONE
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	NONE
 Holy-Bible---Bangwinji---Bangwinji-Bible	NONE
 Holy-Bible---Bareli-Palya---Palya-Bareli-Bible	NONE
+Holy-Bible---Baiso---Basio-Bible	NONE
 Holy-Bible---Basque---Basque-NT	NONE
 Holy-Bible---Beami---Bedamuni-Bible	NONE
 Holy-Bible---Beaver---Beaver-Mark	NONE
@@ -40,6 +41,7 @@ Holy-Bible---Bugun---Bugun-Bible	NONE
 Holy-Bible---Bulgarian---Bulgarian-Bible	NONE
 Holy-Bible---Calo---Calo-Bible	NONE
 Holy-Bible---Cebuano---Cebuano-Bible	NONE
+Holy-Bible---Cebuano---Cebuano-Open-Bible	NONE
 Holy-Bible---Cebuano---Cebuano-Philippine	NONE
 Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	NONE
 Holy-Bible---Cherokee---Cherokee-New-Testament	NONE
@@ -1096,6 +1098,7 @@ Holy-Bible---Kara---Kara-Bible	NONE
 Holy-Bible---Kiche---Totonicapan	NONE
 Holy-Bible---Kinga---Mahanji-Bible	NONE
 Holy-Bible---Kisi---Kisi-Bible	NONE
+Holy-Bible---Koda---Koda-Bible	NONE
 Holy-Bible---Korean---Korean-1910	NUM10
 Holy-Bible---Korean---Korean-1910	JOS10
 Holy-Bible---Korean---Korean-1910	JOS15
