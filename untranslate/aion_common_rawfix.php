@@ -962,6 +962,21 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---Cebuano---Cebuano-Open-Bible" :
+$blockfix = <<<EOF
+2CO 13:12 Pagkumustahay kamo isip managsoon kang Cristo.
+2CO 13:13 Ang tanang katawhan sa Dios dinhi nangumusta kaninyo.
+2CO 13:14 Hinaut nga ang grasya sa atong Ginoong Jesu-Cristo, ang gugma sa Dios, ug ang pagpakig-uban sa Espiritu Santo.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---Cebuano---Cebuano-Philippine" :
 if (!($bfile = preg_replace("/ \d /us",' ',$bfile,-1,$rnum)) || $rnum!=16) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
@@ -10883,15 +10898,15 @@ PRO 1:15
 EOF;
 if (!($bfile = preg_replace("/PRO 1:11 (.+?)PRO 1:15 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-PRO 1:17 Namun, sesungguhnya keserakahan mereka bagai perangkap yang akan membunuh mereka sendiri.
-PRO 1:18 Burung pun tidak akan masuk perangkap kalau melihat jaring dipasang di depan matanya, tetapi orang-orang semacam itu memasang jerat untuk diri sendiri.
+PRO 1:17 Burung pun tidak akan masuk perangkap kalau melihat jaring dipasang di depan matanya, tetapi orang-orang semacam itu memasang jerat untuk diri sendiri.
+PRO 1:18 Namun, sesungguhnya keserakahan mereka bagaikan perangkap yang akan membunuh mereka sendiri.
 PRO 1:19 Perbuatan mereka seperti senjata makan tuan.
 PRO 1:20 
 EOF;
 if (!($bfile = preg_replace("/PRO 1:17 (.+?)PRO 1:20 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-PRO 1:26 Kelak malapetaka akan menyerbu kalian seperti badai dan angin topan, dan bencana yang kalian takutkan akan menimpamu sehingga kalian sangat terjepit dan menderita.
-PRO 1:27 Pada saat itu aku akan tertawa getir atasmu, karena sebelumnya kalian tidak mau mendengar ajaranku yang dapat menyelamatkanmu.
+PRO 1:26 Pada waktu itu aku akan tertawa getir atasmu, karena sebelumnya kalian tidak mau mendengar ajaranku yang dapat menyelamatkanmu.
+PRO 1:27 Kelak malapetaka akan menyerbu kalian seperti badai dan angin topan, dan bencana yang kalian takutkan akan menimpamu sehingga kalian sangat terjepit dan menderita.
 PRO 1:28 
 EOF;
 if (!($bfile = preg_replace("/PRO 1:26 (.+?)PRO 1:28 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -11017,7 +11032,7 @@ $textfix = <<<EOF
 EOF;
 if (!($bfile = preg_replace("/1JO 5:9 (.+?)1JO 5:12 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-REV 1:5 dan dari Kristus Yesus, yang selalu bisa dipercaya dalam seluruh kesaksian-Nya tentang Allah Bapa. Dialah yang pertama mendapatkan hidup kekal sesudah kematian, dan Dialah Raja Agung atas semua raja di dunia. Mulialah Kristus selama-lamanya! Karena kasih-Nya yang sangat luar biasa bagi kita, Dia mencurahkan darah-Nya untuk membersihkan kita dari dosa.
+REV 1:5 dan dari Kristus Yesus, yang selalu bisa dipercaya dalam seluruh kesaksian-Nya tentang Allah Bapa. Dialah Anak Sulung Allah yang pertama dihidupkan kembali dari kematian, dan Dialah Raja Agung atas semua raja di dunia. Mulialah Kristus selama-lamanya! Karena kasih-Nya yang sangat luar biasa bagi kita, Dia mencurahkan darah-Nya untuk membersihkan kita dari dosa.
 REV 1:6 Dengan demikian Dia sudah menjadikan kita warga kerajaan Allah dan imam-imam yang melayani Allah Bapa-Nya secara rohani. Milik Kristuslah segala kuasa sampai selama-lamanya! Amin!
 REV 1:7 
 EOF;

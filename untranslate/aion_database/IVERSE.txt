@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 928117      
-# File Date: 05/02/2025 22:35:33
+# File Size: 928105      
+# File Date: 05/03/2025 23:27:44
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -1958,10 +1958,10 @@ Holy-Bible---Indonesian---New-Indonesian-Translation	EXO-013-017	Keluaran 13:17	
 Holy-Bible---Indonesian---New-Indonesian-Translation	MAR-010-045	Markus 10:45	Karena Anak Manusia juga datang bukan untuk dilayani, melainkan untuk melayani dan untuk memberikan nyawa-Nya menjadi tebusan bagi banyak orang."
 Holy-Bible---Indonesian---New-Indonesian-Translation	ROM-001-001	Roma 1:1	Dari Paulus, hamba Kristus Yesus, yang dipanggil menjadi rasul dan dikuduskan untuk memberitakan Injil Allah.
 Holy-Bible---Indonesian---New-Indonesian-Translation	MAT-028-019	Matius 28:19	Karena itu pergilah, jadikanlah semua bangsa murid-Ku dan baptislah mereka dalam nama Bapa dan Anak dan Roh Kudus,
-Holy-Bible---Indonesian---Simple	JOH-003-016	Yohanes 3:16	Memang kasih Allah sangat luar biasa kepada orang-orang di dunia ini sehingga Dia menyerahkan Anak-Nya satu-satunya, supaya setiap orang yang percaya kepada Anak-Nya itu tidak akan binasa, tetapi menerima hidup yang kekal.
+Holy-Bible---Indonesian---Simple	JOH-003-016	Yohanes 3:16	Memang, kasih Allah sangat luar biasa kepada orang-orang di dunia ini sehingga Dia menyerahkan Anak-Nya satu-satunya, supaya setiap orang yang percaya kepada Anak-Nya itu tidak akan binasa, tetapi menerima hidup yang kekal.
 Holy-Bible---Indonesian---Simple	GEN-003-024	Kejadian 3:24	Sesudah itu, TUHAN menempatkan beberapa malaikat penjaga di pintu masuk Taman Eden, yang terletak di sebelah timur taman itu. TUHAN juga menempatkan sebilah pedang berapi yang dengan sendirinya bergerak menghalangi jalan yang menuju ke pohon kehidupan, sehingga tidak ada orang yang bisa mengambil buahnya.
 Holy-Bible---Indonesian---Simple	LUK-023-034	Lukas 23:34	Kemudian Yesus berkata, “Bapa, ampunilah orang-orang ini, karena mereka tidak tahu apa yang mereka lakukan.” Lalu para tentara itu membagi-bagi pakaian-Nya dengan cara membuang undi.
-Holy-Bible---Indonesian---Simple	REV-021-002	Wahyu 21:2-3	Saya juga melihat kota kudus Allah, yaitu Yerusalem baru, sedang diturunkan dari surga. Kota itu indah sekali. Keindahannya bagai pengantin perempuan yang sudah berdandan bagi pengantin laki-laki pada hari pernikahan mereka. Kemudian saya mendengar suara dari dekat takhta Allah yang berseru, “Mulai sekarang Allah akan tinggal bersama manusia. Maka digenapilah janji Allah yang sudah Dia sampaikan melalui para nabi, ‘Aku sendiri akan tinggal bersama kalian. Kalian akan menjadi umat-Ku, dan Aku akan menjadi Allah kalian.’
+Holy-Bible---Indonesian---Simple	REV-021-002	Wahyu 21:2-3	Saya juga melihat kota kudus Allah, yaitu Yerusalem baru, sedang diturunkan dari surga. Kota itu indah sekali. Keindahannya bagai pengantin perempuan yang sudah berdandan bagi pengantin laki-laki pada hari pernikahan mereka. Kemudian saya mendengar suara dari surga yang berseru, “Mulai sekarang Allah akan tinggal bersama manusia. Maka digenapilah janji Allah yang sudah Dia sampaikan melalui para nabi, ‘Aku sendiri akan tinggal bersama kalian. Kalian akan menjadi umat-Ku, dan Aku akan menjadi Allah kalian.’
 Holy-Bible---Indonesian---Simple	HEB-011-008	Ibrani 11:8	Abraham pun demikian. Dia percaya penuh kepada Allah ketika disuruh pergi ke negeri lain, yaitu negeri yang Allah janjikan untuk diwariskan kepadanya dan keturunannya. Dengan percaya penuh, dia berangkat walaupun belum tahu ke mana dia harus pergi.
 Holy-Bible---Indonesian---Simple	EXO-013-017	Keluaran 13:17	Ketika raja Mesir membiarkan umat Israel pergi, Allah tidak menuntun mereka melalui jalan utama yang melintasi negeri orang Filistin, sekalipun jaraknya lebih dekat. Allah berkata, “Seandainya mereka pergi melalui jalan itu dan diserang musuh, bisa-bisa mereka berubah pikiran dan kembali ke Mesir.”
 Holy-Bible---Indonesian---Simple	MAR-010-045	Markus 10:45	Kalian harus mengikuti teladan-Ku. Biarpun Aku Sang Anak Adam, Aku datang ke dunia ini bukan untuk dilayani, tetapi untuk melayani dan memberikan hidup-Ku sebagai kurban untuk menebus banyak orang dari dosa-dosa mereka.”

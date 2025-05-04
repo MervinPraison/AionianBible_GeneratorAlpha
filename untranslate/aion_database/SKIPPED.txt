@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1667238     
-# File Date: 05/02/2025 20:15:11
+# File Size: 1667540     
+# File Date: 05/03/2025 21:12:08
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -47,6 +47,8 @@ Holy-Bible---Azerbaijani---Azerbaijani-Bible	044	ACT	008	037
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	044	ACT	015	034	
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	044	ACT	028	029	
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	045	ROM	016	024	
+Holy-Bible---Baiso---Basio-Bible	064	3JO	001	014	አን ኤነ ኩ ድን አብድ የላታራ፤ እስደያ አዬስናና።
+Holy-Bible---Baiso---Basio-Bible	066	REV	012	018	ዶቦንሳ ላቡ ግርዲ ጬካሌ ጉት አሌ።
 Holy-Bible---Bangwinji---Bangwinji-Bible	042	LUK	017	036	
 Holy-Bible---Bangwinji---Bangwinji-Bible	042	LUK	022	007	
 Holy-Bible---Bangwinji---Bangwinji-Bible	066	REV	012	018	La drangon nya ti dor yabum, wi kabam wi mam.
@@ -288,6 +290,8 @@ Holy-Bible---Cebuano---Cebuano-Bible	040	MAT	018	011
 Holy-Bible---Cebuano---Cebuano-Bible	045	ROM	016	024	
 Holy-Bible---Cebuano---Cebuano-Bible	064	3JO	001	014	Apan nagdahom ako sa pagpakigkita kanimo sa dili madugay, ug mag-atubangay kita sa pag-istoryahanay sa usag-usa.
 Holy-Bible---Cebuano---Cebuano-Bible	066	REV	012	018	Unya ang dragon mitindog didto sa balas sa baybayon.
+Holy-Bible---Cebuano---Cebuano-Open-Bible	064	3JO	001	014	Hisgotan na lang unya nato kini kon moabot ako diha kay aduna akoy plano nga makigkita kanimo sa labing daling panahon.
+Holy-Bible---Cebuano---Cebuano-Open-Bible	066	REV	012	018	Ug ang dragon mitindog sa baybayon.
 Holy-Bible---Chichewa---Chichewa-Bible	064	3JO	001	014	Ndiyembekezera kufika kwanuko posachedwapa, ndipo tidzakambirana pamaso ndi pamaso.
 Holy-Bible---Chichewa---Chichewa-Bible	066	REV	012	018	Kenaka ndinaona chinjokacho chitayima mʼmbali mwa nyanja.
 Holy-Bible---Chin-Daai---Daai-Chin-Bible	064	3JO	001	014	Sängsäng se ning jah hmuh law vaia ka ngaiki. Acun üng mi püi hmu lü mi ngthuhei be kawm u. Acunüng, akhyang puma mi ngthuei law khaie.
@@ -3981,7 +3985,6 @@ Holy-Bible---French---French-LXX-TheoTex	019	PSA	151	006	Je suis sorti à la ren
 Holy-Bible---French---French-LXX-TheoTex	019	PSA	151	007	Mais j’ai tiré sa propre épée, je l’ai décapité, et ôté l’opprobre des fils d’Israël.
 Holy-Bible---French---French-LXX-TheoTex	024	JER	002	002	
 Holy-Bible---French---French-LXX-TheoTex	024	JER	007	002	
-Holy-Bible---French---French-LXX-TheoTex	024	JER	008	013	
 Holy-Bible---French---French-LXX-TheoTex	024	JER	010	011	
 Holy-Bible---French---French-LXX-TheoTex	024	JER	011	008	
 Holy-Bible---French---French-LXX-TheoTex	024	JER	026	027	
@@ -12293,7 +12296,7 @@ Holy-Bible---Ukrainian---New-Translation	066	REV	012	018	Потім [драко�
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	004	NUM	023	017	І прийшов він до його; і се стоїть він коло всепалення, і князї Моабські з ним.
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	009	1SA	020	042	І каже Йонатан Давидові: Йди в мирі; що ж до того, що ми заприсяглись в імя Господнє, то нехай буде Господь між мною й тобою, як і між моїм і твоїм потомством у вічні часи.
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	009	1SA	024	001	І звідти вийшов Давид і перебував в безпечних місцях в Ен-Гадди.
-Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	010	2SA	002	001	Після сього поспитав Давид у Господа: Чи йти менї в яке місто Юдине? І відказав йому Господь: Ійди. І спитав Давид: Куди йти? А Господь відказав: У Геброн.
+Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	010	2SA	002	004	І прийшли мужі Юдині та й помазали там Давида царем над Юдиним домом.
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	011	1KI	022	043	І ходив він усе дорогою батька свого Аси, не звертав з неї та чинив те, що Господеві до вподоби.
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	019	PSA	060	001	Проводиреві хора: На Шушан-Едут; памятна пісня Давидова, в науку,
 Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	019	PSA	060	002	як він воював з Сирийцями в Мезопотамії і з Сирийцями Зобанськими, і Йоаб, вернувшись, побив Едоміїв на Соляній долинї, двайцять тисяч люда.

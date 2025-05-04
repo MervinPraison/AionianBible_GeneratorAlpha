@@ -1,6 +1,6 @@
 # File Name: TESTWORDS.txt
 # File Size: 259451      
-# File Date: 05/02/2025 22:33:11
+# File Date: 05/03/2025 23:25:30
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -229,7 +229,7 @@ Holy-Bible---Ilocano---Ilocano-Bible	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP
 Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari	0	GROUP=0/0/0	GROUP=0/0/0	neraka=20/16/4, GROUP=20/16/4	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0	GROUP=0/0/0
 Holy-Bible---Indonesian---For-All	0	GROUP=0/0/0	GROUP=0/0/0	neraka=0/0/0, GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0	GROUP=0/0/0
 Holy-Bible---Indonesian---New-Indonesian-Translation	0	GROUP=0/0/0	GROUP=0/0/0	neraka=13/13/0, GROUP=13/13/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0	GROUP=0/0/0
-Holy-Bible---Indonesian---Simple	0	GROUP=0/0/0	GROUP=0/0/0	neraka=36/19/17, GROUP=36/19/17	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0	GROUP=0/0/0
+Holy-Bible---Indonesian---Simple	0	GROUP=0/0/0	GROUP=0/0/0	neraka=35/19/16, GROUP=35/19/16	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0	GROUP=0/0/0
 Holy-Bible---Irish---Odomhnuill-Modern	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0	GROUP=0/0/0
 Holy-Bible---Isanzu---Isanzu-Bible	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0	GROUP=0/0/0
 Holy-Bible---Italian---Conferenza-Episcopale-Italiana	0	GROUP=0/0/0	sempiterno=0/0/0, eterno=62/24/38, eterna=112/56/56, l’eterna=0/0/0, eternas=0/0/0, eterni=7/2/5, dell’eterno=0/0/0, eterne=7/3/4, all’eterno=0/0/0, sempre=487/14/473, secolo=6/4/2, secoli=45/32/13, perpetuo=1/0/1, permanente=0/0/0, antico=15/0/15, mondo=279/32/247, mondi=14/1/13, mondane=0/0/0, dell’età=0/0/0, età=61/0/61, principio=64/0/64, tempi=66/3/63, vera vita=0/0/0, era=1592/5/1587, GROUP=2818/176/2642	inferno=3/3/0, nell’inferno=0/0/0, l’inferno=0/0/0, all’inferno=0/0/0, dell’inferno=0/0/0, dall’inferno=0/0/0, GROUP=3/3/0	inferno=3/3/0, nell’inferno=0/0/0, l’inferno=0/0/0, all’inferno=0/0/0, dell’inferno=0/0/0, dall’inferno=0/0/0, GROUP=3/3/0	inferno=3/3/0, nell’inferno=0/0/0, l’inferno=0/0/0, all’inferno=0/0/0, dell’inferno=0/0/0, dall’inferno=0/0/0, sotterra=1/0/1, sepolcro=79/2/77, GROUP=83/5/78	geenna=12/12/0, GROUP=12/12/0	inferno=3/3/0, nell’inferno=0/0/0, l’inferno=0/0/0, all’inferno=0/0/0, dell’inferno=0/0/0, dall’inferno=0/0/0, GROUP=3/3/0	abissati=0/0/0, GROUP=0/0/0	nell’abisso=0/0/0, dell’abisso=0/0/0, dall’abisso=0/0/0, GROUP=0/0/0	stagno del fuoco=0/0/0, stagno ardente di fuoco=1/1/0, GROUP=1/1/0	NULL=2/0/2, GROUP=2/0/2	GROUP=0/0/0

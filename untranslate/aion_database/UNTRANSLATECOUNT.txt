@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
 # File Size: 39620       
-# File Date: 05/02/2025 22:02:01
+# File Date: 05/03/2025 22:54:47
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -25,7 +25,7 @@ Holy-Bible---Armenian---Armenian-Bible-Eastern	0	0	4	11	0	4	1	0	0	24	24	10	0	0	0
 Holy-Bible---Armenian---Armenian-Bible-Western	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
 Holy-Bible---Assamese---Assamese-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	2	0	272	264	262	2	0	0	2
-Holy-Bible---Baiso---Basio-Bible	0	0	0	12	1	11	9	1	5	92	63	10	2	0	0	0	206	198	198	0	64	2	0
+Holy-Bible---Baiso---Basio-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	2	0	208	200	198	2	64	0	2
 Holy-Bible---Bangwinji---Bangwinji-Bible	0	0	0	8	1	11	9	1	5	92	62	6	2	0	1	0	197	192	191	0	73	0	1
 Holy-Bible---Bareli-Palya---Palya-Bareli-Bible	0	0	0	7	0	2	0	0	0	8	5	0	0	0	0	0	22	22	22	0	242	0	0
 Holy-Bible---Basque---Basque-NT	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
@@ -46,7 +46,7 @@ Holy-Bible---Bugun---Bugun-Bible	0	0	0	12	1	11	9	1	5	93	62	12	2	0	1	0	208	199	19
 Holy-Bible---Bulgarian---Bulgarian-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---Calo---Calo-Bible	0	0	0	1	0	2	1	0	0	6	3	2	0	0	0	0	15	14	14	0	250	0	0
 Holy-Bible---Cebuano---Cebuano-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
-Holy-Bible---Cebuano---Cebuano-Open-Bible	0	0	62	12	1	11	9	1	4	93	62	10	2	0	0	0	267	259	259	0	0	5	0
+Holy-Bible---Cebuano---Cebuano-Open-Bible	0	0	64	12	1	11	9	1	4	94	63	10	2	0	4	0	271	263	259	5	0	0	4
 Holy-Bible---Cebuano---Cebuano-Philippine	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	0	0	15	11	0	6	1	0	0	28	26	10	0	0	0	0	97	92	92	0	172	0	0
 Holy-Bible---Cherokee---Cherokee-New-Testament	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
@@ -229,7 +229,7 @@ Holy-Bible---Ilocano---Ilocano-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	2
 Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari	0	5	64	12	1	11	9	1	5	94	63	10	2	0	0	5	272	264	264	0	0	0	0
 Holy-Bible---Indonesian---For-All	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
 Holy-Bible---Indonesian---New-Indonesian-Translation	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
-Holy-Bible---Indonesian---Simple	0	19	18	12	1	11	9	1	5	94	63	10	2	0	7	19	226	221	218	0	46	0	3
+Holy-Bible---Indonesian---Simple	0	18	32	12	1	11	9	1	5	94	63	10	2	0	7	18	240	235	232	0	32	0	3
 Holy-Bible---Irish---Odomhnuill-Modern	0	0	0	1	0	2	1	0	0	6	3	2	0	0	0	0	15	14	14	0	250	0	0
 Holy-Bible---Isanzu---Isanzu-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
 Holy-Bible---Italian---Conferenza-Episcopale-Italiana	3	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
