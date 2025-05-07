@@ -3392,9 +3392,9 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-715;
 	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-1415;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-206940;
-	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-49902;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-4679.97;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-207832;
+	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-50144;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-4697.81;
 	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-152;
 	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-83;
 	$grandmarker['PDF_PKJO']	= $grandtotal['PDF_PKJO']-16;
