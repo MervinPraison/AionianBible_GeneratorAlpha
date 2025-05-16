@@ -1,6 +1,6 @@
 # File Name: TALLY_HO.txt
 # File Size: 23255       
-# File Date: 05/11/2025 02:17:48
+# File Date: 05/15/2025 10:50:32
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -274,7 +274,7 @@ Holy-Bible---Malagasy---Malagasy-Bible	31088	31088	31171
 Holy-Bible---Malagasy---Tandroy-Mahafaly-Bible	31077	31077	31083
 Holy-Bible---Malayalam---1910-Contemporary	31100	31100	31102
 Holy-Bible---Malayalam---Contemporary	30949	30949	30950
-Holy-Bible---Malayalam---Malayalam-Bible	31095	31095	31097
+Holy-Bible---Malayalam---Malayalam-Bible	31097	31097	31099
 Holy-Bible---Malayalam---Malayalam-Bible-1910	31093	31093	31094
 Holy-Bible---Manipuri---Meitei-Bible	7928	7928	7930
 Holy-Bible---Maori---Maori-Bible	31102	31102	31102

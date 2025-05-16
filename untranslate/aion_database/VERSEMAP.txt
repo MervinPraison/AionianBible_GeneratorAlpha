@@ -1326,10 +1326,8 @@ Holy-Bible---Malayalam---1910-Contemporary	DEU12-13
 Holy-Bible---Malayalam---1910-Contemporary	DEU28-29
 Holy-Bible---Malayalam---1910-Contemporary	SOL6-7
 Holy-Bible---Malayalam---Contemporary	NONE
-Holy-Bible---Malayalam---Malayalam-Bible	DEU12-13
-Holy-Bible---Malayalam---Malayalam-Bible	DEU28-29
-Holy-Bible---Malayalam---Malayalam-Bible	SOL6-7
 Holy-Bible---Malayalam---Malayalam-Bible-1910	NONE
+Holy-Bible---Malayalam---Malayalam-Bible	NONE
 Holy-Bible---Manipuri---Meitei-Bible	NONE
 Holy-Bible---Maori---Maori-Bible	NONE
 Holy-Bible---Marathi---Marathi-Bible	NONE

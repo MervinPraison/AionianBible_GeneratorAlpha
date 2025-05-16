@@ -2,12 +2,12 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	MAP	FLAG
 # File Accuracy: Contact publisher with corrections to file format or content
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
-# File Date: 05/11/2025 02:23:01
+# File Date: 05/15/2025 10:56:08
 # File Generator: ABCMS (alpha)
 # File Location: https://resources.AionianBible.org
 # File Name: BOOKSCHAPTERS.txt
 # File Purpose: Supporting resource for the Aionian Bible project
-# File Size: 1539918     
+# File Size: 1539780     
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	040	MAT	002	010	MISSING	MID
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	040	MAT	014	004	MISSING	MID
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	040	MAT	020	012	MISSING	MID
@@ -13344,9 +13344,7 @@ Holy-Bible---Malayalam---Contemporary	066	REV	010	007	MISSING	MID
 Holy-Bible---Malayalam---Malayalam-Bible	041	MAR	009	044	MISSING	MID
 Holy-Bible---Malayalam---Malayalam-Bible	041	MAR	009	046	MISSING	MID
 Holy-Bible---Malayalam---Malayalam-Bible	041	MAR	009	048	MISSING	MID
-Holy-Bible---Malayalam---Malayalam-Bible	044	ACT	015	029	MISSING	MID
 Holy-Bible---Malayalam---Malayalam-Bible	044	ACT	015	034	MISSING	MID
-Holy-Bible---Malayalam---Malayalam-Bible	044	ACT	028	029	MISSING	MID
 Holy-Bible---Malayalam---Malayalam-Bible	045	ROM	016	024	MISSING	MID
 Holy-Bible---Malayalam---Malayalam-Bible-1910	002	EXO	007	025	MISSING	END*
 Holy-Bible---Malayalam---Malayalam-Bible-1910	005	DEU	012	032	MISSING	END*
