@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
 # File Size: 928120      
-# File Date: 05/18/2025 11:06:10
+# File Date: 05/21/2025 11:12:58
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -411,7 +411,7 @@ Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	MAR-010-045	Mark 10:45	Mihing Tapa si
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	ROM-001-001	Romans 1:1	Jesus Christ i sal, Sawltak a hi tu in a ki samtuam le Pathian lungdamna thupha atu koituam, keima Paul in,
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	MAT-028-019	Matthew 28:19	Tua a hiciang note pai tavun a, minam theampo te hil tavun, Pa, Tapa le Tha Thiangtho min taw tuiphumna pia tavun:
 Holy-Bible---Chin-Thado---Chongthu-Bible	JOH-003-016	John 3:16	Ajeh chu Pathen in hibanga hi vannoi angailut ahin, koi hijongleh Ama tahsan chan chu mangthah louva tonsot hinna anei na dingin, aneisun achapa changkhat chu apetan ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	GEN-003-024	Semtilbu 3:24	Hiti chun Pathenin Adam anodoh jouvin, Eden hon nisolam'a hinna thingphung ngah ding in vantil Cherubim chu achen sah in, chule chemjam kou jeju chu akipei kimvel le sahtan ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	GEN-003-024	Semtilbu 3:24	Hiti chun Elohimin Adam anodoh jouvin, Eden hon nisolam'a hinna thingphung ngah ding in vantil Cherubim chu achen sah in, chule chemjam kou jeju chu akipei kimvel le sahtan ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	LUK-023-034	Luke 23:34	Yeshuan aseitai, “Hepa, ngaidam in, ajeh chu ipi abol'u ahepouve,” ati. Chule sepai hon aponsil chu vang asang'un achang ding akivelhauve.
 Holy-Bible---Chin-Thado---Chongthu-Bible	REV-021-002	Revelation 21:2-3	Chule keiman khopi theng Jerusalem thah chu van Pathena kon'a mou aji dingpa hoitah'a akivon'a ahung kumlhah kamun ahi. Keiman laltouna a kon'a aw hung kisam gin kajan, aseiyin, “Ven, Pathen chenna in chu mihemlah ahung hitai! Ama amahotoh chengkhom intin, chule amaho chu Ama mite hiding ahiuve. Pathen Amatah chun amaho aumpi diu ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	HEB-011-008	Hebrew 11:8	Tahsan jal'in Abraham chu Pathen in a'in dalha dinga akouva chule gouva alodinga ateppehna gam'a che dinga akou chun thun ananung'e. Aman hoilama ache ding jong kihetlouvin anapotdoh jenge.
