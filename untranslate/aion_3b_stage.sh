@@ -57,7 +57,8 @@ foreach( $matches as $ebible ) {
 
 	// license?
 	// https://ebible.org/details.php?id=benirv
-	if (400 <= ($ecode=aion_curl("https://ebible.org/details.php?id=".$ebible[3], $html)) || empty($html)) { AION_ECHO("ERROR! aion_curl(ebible) = {$ecode}, {$ebible[3]}"); }
+	if (400 <= ($ecode=aion_curl("https://ebible.org/details.php?id=".$ebible[3], $html)) || empty($html)) {
+		AION_ECHO("WARN! aion_curl(ebible) = {$ecode}, {$ebible[3]}"); 						$priority = 1; $note = "ERR={$ecode}"; }
 	else if (preg_match("#public[\s]*domain#uis",$html)) { ; }
 	else if (preg_match("#no[\s]*derivative#uis",$html)) {									$priority = 4; $note = "NoDe"; }
 	else if (preg_match("#no[\s]*commercial#uis",$html)) {									$priority = 3; $note = "NoCo"; }

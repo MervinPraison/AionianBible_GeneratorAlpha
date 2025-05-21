@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
 # File Size: 39620       
-# File Date: 05/15/2025 10:36:22
+# File Date: 05/18/2025 10:34:06
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -291,7 +291,7 @@ Holy-Bible---Ndebele---Ndebele-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	2
 Holy-Bible---Ndengereko---Ndengereko-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
 Holy-Bible---Nend---Mark	0	0	0	3	0	0	0	0	0	2	1	4	0	0	0	0	10	8	8	0	256	0	0
 Holy-Bible---Nepali---Nepali-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
-Holy-Bible---Nepali---Nepali-Contemporary	0	4	64	12	1	11	9	1	5	94	63	10	2	0	0	4	272	264	264	0	0	0	0
+Holy-Bible---Nepali---Nepali-Contemporary	0	3	64	12	1	11	9	1	5	94	63	10	2	0	0	3	272	264	264	0	0	0	0
 Holy-Bible---Ngoni---Ngoni-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
 Holy-Bible---Norwegian---Living-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
 Holy-Bible---Norwegian---Norwegian-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0

@@ -1,6 +1,6 @@
 # File Name: TESTWORDS.txt
-# File Size: 259451      
-# File Date: 05/15/2025 11:07:46
+# File Size: 259450      
+# File Date: 05/18/2025 11:04:06
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -291,7 +291,7 @@ Holy-Bible---Ndebele---Ndebele-Bible	0	GROUP=0/0/0	GROUP=0/0/0	esihogweni=29/29/
 Holy-Bible---Ndengereko---Ndengereko-Bible	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0	GROUP=0/0/0
 Holy-Bible---Nend---Mark	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0	GROUP=0/0/0
 Holy-Bible---Nepali---Nepali-Bible	0	GROUP=0/0/0	GROUP=0/0/0	नरकको=3/3/0, नरकमा=8/8/0, GROUP=11/11/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0	GROUP=0/0/0
-Holy-Bible---Nepali---Nepali-Contemporary	0	GROUP=0/0/0	GROUP=0/0/0	नरकको=8/8/0, नरकमा=10/6/4, GROUP=18/14/4	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0	GROUP=0/0/0
+Holy-Bible---Nepali---Nepali-Contemporary	0	GROUP=0/0/0	GROUP=0/0/0	नरकको=8/8/0, नरकमा=9/6/3, GROUP=17/14/3	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0	GROUP=0/0/0
 Holy-Bible---Ngoni---Ngoni-Bible	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0	GROUP=0/0/0
 Holy-Bible---Norwegian---Living-Bible	0	GROUP=0/0/0	GROUP=0/0/0	helvete=12/12/0, helvedes=0/0/0, helvede=1/1/0, GROUP=13/13/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0	GROUP=0/0/0
 Holy-Bible---Norwegian---Norwegian-Bible	0	GROUP=0/0/0	GROUP=0/0/0	helvete=0/0/0, helvedes=4/4/0, helvede=8/8/0, GROUP=12/12/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0	GROUP=0/0/0

@@ -14705,16 +14705,6 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
-case "Holy-Bible---Mwera---Mwera-Bible" :
-if (!($bfile = preg_replace("/([A-Z0-9]{3} \d+:\d+ )\d+/us",'$1',$bfile,-1,$rnum)) || $rnum!=3) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$bfile_saved = $bfile;
-goto RAWHIDE;
-
-
-
-
-
-// RAWFIX BIBLE ********************
 case "Holy-Bible---Myanmar---Burmese-Common-Bible" :
 if (!($bfile = preg_replace("/%/us"," ",$bfile,-1,$rnum)) || $rnum!=100) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
