@@ -44,6 +44,16 @@ if ('Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible'==$bible) {
 if ('Holy-Bible---Portuguese---Portuguese-Trans-Trans'==$bible) {
 	if (!($bfile = preg_replace("/\[([[:punct:][:space:]]+)\]/us",'$1 ', $bfile,-1,$rnum)) || $rnum!=143) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 }
+// Smartquotes “ ” ‘ ’
+if ('Holy-Bible---Duya---Duya-Bible'==$bible ||
+	'Holy-Bible---Ghanongga---Kubokota-Adapt-Bible'==$bible ||
+	'Holy-Bible---Lungga---Lungga-Bible'==$bible ||
+	'Holy-Bible---Ut-Ma-in---Ut-Ma-in-Bible'==$bible) {
+	if (!($bfile = preg_replace("/<</us","“",$bfile,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
+	if (!($bfile = preg_replace("/>>/us","”",$bfile,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
+	if (!($bfile = preg_replace("/</us", "‘",$bfile,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
+	if (!($bfile = preg_replace("/>/us", "’",$bfile,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
+}
 
 
 // REMOVE CHARACTERS
@@ -564,6 +574,64 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---Aruamu---Aruamu-Bible" :
+$blockfix = <<<EOF
+GEN 35:22 Israel kagh ikiavɨra itima, Ruben ghua uan afeziamɨn amuir dozim Bilha koma akui. Ezɨ Israel Ruben amizir bizir kam baraki. Jekop a 12plan otariba iti.
+GEN 35:23 
+EOF;
+if (!($bfile = preg_replace("/GEN 35:22a (.+?)GEN 35:23 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+PSA 93:1 Ikiavɨra Itir God, an atrivimɨn ikia, ziar bar ekiam ikia, gavgavir ekiam iti. A nguazir kam gamizɨ, a uan danganimra ikia bar gavgavigha kamaghɨra iti.
+PSA 93:2 
+EOF;
+if (!($bfile = preg_replace("/PSA 93:1a (.+?)PSA 93:2 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+SOL 5:1 O nan amuim, nɨ bar nan dɨghorimra, kɨ uan azenimɨn izegha gɨfa. Egha nan sanda ko temer eborir mughuriar aghuiba itiba, kɨ da akufa. Kɨ uan hanin aghuim amegha, uan bulmakaun oter eborim ko wainɨn dɨpam amegha gɨfa. Gua namakar aghuimning, gua deravɨra uaning gifongegh, mati gua dagheba ko dɨpaba apa, ghua bar izɨfa.
+SOL 5:2 Kɨ dɨmagarimɨn akuima, nan nɨghnɨzim ingaravɨra iti. Egha kɨ irebamɨn aven uan roroar gumazir kɨ bar ifongezimɨn garima, a nan tiar akam gafughafusi. O nan amuim, nɨ guizɨn bar nan dɨghorim, nɨ kuarazir bunbamɨn mɨn ikia guizbangɨra bar dera. Nɨ tiam kuightɨ kɨ aven izam. Dɨmagarimɨn ghuariam izaghira nan dapanim rue. Ezɨ nan dapanarɨzim kumkumi.
+SOL 5:3 
+EOF;
+if (!($bfile = preg_replace("/SOL 5:1a (.+?)SOL 5:3 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+SOL 6:13 O Sulamɨn ikɨzimɨn amizim, nɨ uamatengegh, nɨ uamatengegh. Nɨ uamategh izɨtɨ, e nɨn ganika! Kɨ Sulamɨn ikɨzimɨn amizim, ia tizim bagh nan gantɨ, kɨ mɨdorozir gumazir okoruar pumuningɨn tongɨn igham gighiam?
+SOL 7:1 
+EOF;
+if (!($bfile = preg_replace("/SOL 6:13a (.+?)SOL 7:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+SOL 8:5 Ia gan. Munar amizir manam gumazamiziba puvatɨzir danganim ategha izi, egha uan roroar gumazir a ifongezim dukuagha aning izi? Ga temer ovɨzir aghuiba itimɨn povimɨn ikiava, kɨ nɨn ifongiam gamizɨ, a dɨkafi. Nɨn amebam temer kamɨn apebamɨn nɨ bate.
+SOL 8:6 
+EOF;
+if (!($bfile = preg_replace("/SOL 8:5a (.+?)SOL 8:6 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+ISA 59:15 Guizɨn arazitam en itir puvatɨ. Eghtɨ gumazitam uan arazir kuraba ateghtɨ, igharaz darazi pazav a damusɨ tuaviba buriam.” Ikiavɨra Itir God garima, gumazamiziba guizɨn arazim gamir puvatɨ, ezɨ a navir aghuim men itir puvatɨ.
+ISA 59:16 
+EOF;
+if (!($bfile = preg_replace("/ISA 59:15a (.+?)ISA 59:16 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+EZE 41:15 Egha a ghua, Godɨn Dɨpenimɨn akɨrangɨn itir dɨpenimɨn abari, dɨpenir kam Godɨn Dɨpenim avɨnizir nguazir kɨnim guam a mɨsuegha iti. A dɨpenir kam ko an dɨpenir ruarir vuem ko vuemɨn itimning, dar ruaribar abarima, dar ababanim uaghan 50 mitan tu.
+EZE 41:16 Godɨn Dɨpenimɨn aven zuir danganim, ko an azuarir faragha itimɨn bɨrim ko Anogoroghezir Danganimɨn bɨrim, ko winduan ruariba ko, 3plan bɨrir tiar akamɨn boroghɨn itiba, me temer arariba isa, ghuriamɨn ikegha ghua winduabar otogha, bɨrir kabar pogha da arɨki. Egha uaghan temer arariba winduaba aven dagh ase.
+EZE 41:17 
+EOF;
+if (!($bfile = preg_replace("/EZE 41:15a (.+?)EZE 41:17 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+EZE 41:21 Anogoroghezir Danganimɨn guarir akɨnimning, 4plan mɨriaba iti. Egha aning magh gari.
+EZE 41:22 Bar Anogoroghezir Danganimɨn aven mangamin tiar akamɨn boroghɨn, bizir mam iti, a ofa gamir dakozir mamɨn mɨn gari. Ofa gamir dakozir kam, me temer araribar an ingari. An tuirivimɨn ababanim, 1 mita ko akuamɨn tu, ezɨ an arozimɨn ababanim, 1 mitan tu, ezɨ an ruarim 1 mitan tu. An mɨkebaba, ko an dɨkɨnim, ko an mɨriaba, me temer araribar dar ingari. Ezɨ gumazir kam kamaghɨn na mɨgei, “Ofa gamir dakozir kam, a zurara Ikiavɨra Itir Godɨn damazimɨn tughav iti.”
+EZE 41:23 
+EOF;
+if (!($bfile = preg_replace("/EZE 41:21a (.+?)EZE 41:23 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2CO 13:12 Eghtɨ mati e Godɨn gumazamiziba ami moghɨn, ia vaghvagh uarira uan agharibar suigh.
+2CO 13:13 Godɨn gumazamizir na ko itiba uan akam isa, ia bagha anemaga ghaze, Afeziam ia ko ikɨ.
+2CO 13:14 Kɨ ia bagha Godɨn azangsɨgha ghaze, Ekiam Krais Iesusɨn apangkuvim, ko God ia gifongezir arazim, ko arazir Godɨn Duam ia gamima ia navir vamɨra itim, da bar moghɨra ian ikɨ.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---Assamese---Assamese-Bible" :
 if (!($bfile = preg_replace("/ˮ/us","”",$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#0x02ee
 goto RAWHIDE;
@@ -1023,7 +1091,6 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Chin-Matu---Matupi-Chin-Bible" :
 if (!($bfile = preg_replace("/\x{200d}/us"," ",$bfile,-1,$rnum)) || $rnum!=10) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#0x200d/1
-//if (!($bfile = preg_replace("#(א|ב|ג|ד|ה|ו|ז|ח|ט|י|כ|ל|מ|נ|ס|ע|פ|צ|ק|ר|ש|ת|/ שׁ|ׂ)#us"," ",$bfile,-1,$rnum)) || $rnum!=24) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 goto RAWHIDE;
 
@@ -1477,6 +1544,20 @@ $blockfix = <<<EOF
 GAL 1:1 
 EOF;
 if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Croatian---Croatian-Open-Bible" :
+$textfix = <<<EOF
+2CO 13:12 Pozdravite jedni druge svetim cjelovom u Gospodinu.
+2CO 13:13 Pozdravljaju vas svi sveti.
+2CO 13:14 Neka milost našega Gospodina Isusa Krista, Božja ljubav i zajednica Svetoga Duha budu sa svima vama!
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -4002,6 +4083,42 @@ GAL 1:4 For Christ, to rescue us from this present wicked age, gave himself for 
 GAL 1:5 
 EOF;
 if (!($bfile = preg_replace("/GAL 1:3 (.+?)GAL 1:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---English---Orthodox-Jewish-Bible" :
+$textfix = <<<EOF
+JOE 2:28 And it shall come to pass afterward, that I will pour out My Ruach upon all basar; and your banim and your banot shall prophesy, your zekenim shall dream chalomot, your bochurim shall see chezyonot [(visions)]:
+JOE 2:29 And also upon the avadim and upon the shefachot in those days will I pour out My Ruach.
+JOE 2:30 And I will show mofetim in the heavens and in the earth, dahm, and eish, and pillars of smoke.
+JOE 2:31 The shemesh shall be turned into choshech, and the yarei'ach into dahm, before the great and terrible Yom Hashem comes.
+JOE 2:32 And it shall come to pass, that whosoever shall call on the Shem of Adonoi shall be saved; for in Mount Tziyon and in Yerushalayim shall be deliverance, as Hashem hath said, and in the seridim whom Hashem shall call.
+JOE 3:1 For, hinei, in those days, and in that time, when I shall restore the fortunes of Yehudah and Yerushalayim,
+JOE 3:2 I will also gather all Goyim, and will bring them down into the valley of Yehoshaphat, and will enter into judgment against them there concerning My people and for My nachalah Yisroel, whom they have scattered among the Goyim, and My land they divided up.
+JOE 3:3 And they have cast lots for My people; and have traded the yeledim as barter for zonot, and sold the yaldah for yayin, that they might drink.
+JOE 3:4 Yea, and what have ye to do with Me, O Tzor, and Tzidon, and all the coasts of Peleshet? Will ye render Me a pay-back? And if ye recompense Me, swiftly and speedily will I return your recompense upon your own rosh;
+JOE 3:5 Because ye have taken My kesef and My zahav, and have carried into your temples My goodly pleasant things:
+JOE 3:6 Also the Bnei Yehudah and the Bnei Yerushalayim have ye sold unto the Yevanim [(Greeks)], that ye might remove them far from their territory.
+JOE 3:7 Hineni, I will raise them out of the place whither ye have sold them, and will return your recompense upon your own rosh;
+JOE 3:8 And I will sell your banim and your banot into the hand of the Bnei Yehudah, and they shall sell them to the Sabeans, to a Goy far off; for Hashem hath spoken it.
+JOE 3:9 Proclaim ye this among the Goyim; Prepare milchamah, wake up the gibborim, let all the anshei hamilchamah draw near and attack;
+JOE 3:10 Beat your plow-blades into charavot [(swords)] and your pruning knives into spears; let the weak say: I am strong.
+JOE 3:11 Assemble yourselves, and come, all ye Goyim, and gather yourselves together round about; Hashem, thither cause Thy gibborim to come down.
+JOE 3:12 Let the Goyim be wakened, and come up to the valley of Yehoshaphat; for there will I sit to judge all the Goyim round about.
+JOE 3:13 Put ye in the sickle, for the katzir is ripe; go in, tread, for the winepress is full; the vats overflow; for their ra'ah is great.
+JOE 3:14 Multitudes, multitudes in the valley of decision; for the Yom Hashem is near in the valley of decision.
+JOE 3:15 The shemesh and the yarei'ach shall be darkened, and the kokhavim shall withdraw their shining.
+JOE 3:16 Hashem also shall roar out of Tziyon, and utter His voice from Yerushalayim; and the heavens and the earth shall shake; but Hashem will be the machseh [(refuge)] of His people, and the maoz of the Bnei Yisroel.
+JOE 3:17 So shall ye have da'as that I am Hashem Eloheichem dwelling in Tziyon, My Har Kodesh; then shall Yerushalayim be kodesh, and there shall no zarim pass through her any more.
+JOE 3:18 And it shall come to pass in that day, that the mountains shall drop down new wine, and the hills shall flow with cholov; and all the ravines of Yehudah shall flow with mayim, and a ma'ayon shall come forth out of the Beis Hashem, and shall water the valley of Sheetim.
+JOE 3:19 Mitzrayim shall be a desolation, and Edom shall be a desolate midbar, for the chamas against the Bnei Yehudah, because they have shed dahm naki [(innocent blood)] in their land.
+JOE 3:20 But Yehudah shall dwell for ever, and Yerushalayim from dor v'dor.
+JOE 3:21 For I will cleanse them of bloodguilt which I have not yet cleansed; for Hashem dwelleth in Tziyon.
+AMO 1:1 
+EOF;
+if (!($bfile = preg_replace("/JOE 3:1 (.+?)AMO 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -8613,6 +8730,16 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---Gofa---Gofa-Bible-Ethiopian" :
+if (!($bfile = preg_replace("/\x{e230}/us"," ",$bfile,-1,$rnum)) || $rnum!=1419) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } 
+if (!($bfile = preg_replace("/\x{e2f8}/us"," ",$bfile,-1,$rnum)) || $rnum!=876) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } 
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---Gourma---Gourma-Bible" :
 if (!($bfile = preg_replace("/_/us"," ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
@@ -9065,6 +9192,43 @@ if (!($bfile = preg_replace('/\'l s="H[[:digit:]]+"\'/us','',$bfile,-1,$rnum)) |
 if (!($bfile = preg_replace('/\'seg type="x-[[:alpha:]]+"\'/us','',$bfile,-1,$rnum)) || $rnum!=11) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace('/\'seg\'/us','',$bfile,-1,$rnum)) || $rnum!=11) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace('/\'\/l\'/us','',$bfile,-1,$rnum)) || $rnum!=11) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia" :
+$textfix = <<<EOF
+JOE 2:28 וְהָיָ֣ה אַֽחֲרֵי־כֵ֗ן אֶשְׁפּ֤וֹךְ אֶת־רוּחִי֙ עַל־כָּל־בָּשָׂ֔ר וְנִבְּא֖וּ בְּנֵיכֶ֣ם וּבְנֽוֹתֵיכֶ֑ם זִקְנֵיכֶם֙ חֲלֹמ֣וֹת יַחֲלֹמ֔וּן בַּח֣וּרֵיכֶ֔ם חֶזְיֹנ֖וֹת יִרְאֽוּ׃
+JOE 2:29 וְגַ֥ם עַל־הָֽעֲבָדִ֖ים וְעַל־הַשְּׁפָח֑וֹת בַּיָּמִ֣ים הָהֵ֔מָּה אֶשְׁפּ֖וֹךְ אֶת־רוּחִֽי׃
+JOE 2:30 וְנָֽתַתִּי֙ מֽוֹפְתִ֔ים בַּשָּׁמַ֖יִם וּבָאָ֑רֶץ דָּ֣ם וָאֵ֔שׁ וְתִֽימֲר֖וֹת עָשָֽׁן׃
+JOE 2:31 הַשֶּׁ֨מֶשׁ֙ יֵהָפֵ֣ךְ לְחֹ֔שֶׁךְ וְהַיָּרֵ֖חַ לְדָ֑ם לִפְנֵ֗י בּ֚וֹא י֣וֹם יְהוָ֔ה הַגָּד֖וֹל וְהַנּוֹרָֽא׃
+JOE 2:32 וְהָיָ֗ה כֹּ֧ל אֲשֶׁר־יִקְרָ֛א בְּשֵׁ֥ם יְהוָ֖ה יִמָּלֵ֑ט כִּ֠י בְּהַר־צִיּ֨וֹן וּבִירוּשָׁלִַ֜ם תִּֽהְיֶ֣ה פְלֵיטָ֗ה כַּֽאֲשֶׁר֙ אָמַ֣ר יְהוָ֔ה וּבַ֨שְּׂרִידִ֔ים אֲשֶׁ֥ר יְהוָ֖ה קֹרֵֽא׃
+JOE 3:1 כִּ֗י הִנֵּ֛ה בַּיָּמִ֥ים הָהֵ֖מָּה וּבָעֵ֣ת הַהִ֑יא אֲשֶׁ֥ר אשוב אֶת־שְׁב֥וּת יְהוּדָ֖ה וִירוּשָׁלִָֽם׃
+JOE 3:2 וְקִבַּצְתִּי֙ אֶת־כָּל־הַגּוֹיִ֔ם וְה֣וֹרַדְתִּ֔ים אֶל־עֵ֖מֶק יְהֽוֹשָׁפָ֑ט וְנִשְׁפַּטְתִּ֨י עִמָּ֜ם שָׁ֗ם עַל־עַמִּ֨י וְנַחֲלָתִ֤י יִשְׂרָאֵל֙ אֲשֶׁ֣ר פִּזְּר֣וּ בַגּוֹיִ֔ם וְאֶת־אַרְצִ֖י חִלֵּֽקוּ׃
+JOE 3:3 וְאֶל־עַמִּ֖י יַדּ֣וּ גוֹרָ֑ל וַיִּתְּנ֤וּ הַיֶּ֨לֶד֙ בַּזּוֹנָ֔ה וְהַיַּלְדָּ֛ה מָכְר֥וּ בַיַּ֖יִן וַיִּשְׁתּֽוּ׃
+JOE 3:4 וְ֠גַם מָה־אַתֶּ֥ם לִי֙ צֹ֣ר וְצִיד֔וֹן וְכֹ֖ל גְּלִיל֣וֹת פְּלָ֑שֶׁת הַגְּמ֗וּל אַתֶּם֙ מְשַׁלְּמִ֣ים עָלָ֔י וְאִם־גֹּמְלִ֤ים אַתֶּם֙ עָלַ֔י קַ֣ל מְהֵרָ֔ה אָשִׁ֥יב גְּמֻלְכֶ֖ם בְּרֹאשְׁכֶֽם׃
+JOE 3:5 אֲשֶׁר־כַּסְפִּ֥י וּזְהָבִ֖י לְקַחְתֶּ֑ם וּמַֽחֲמַדַּי֙ הַטֹּבִ֔ים הֲבֵאתֶ֖ם לְהֵיכְלֵיכֶֽם׃
+JOE 3:6 וּבְנֵ֤י יְהוּדָה֙ וּבְנֵ֣י יְרוּשָׁלִַ֔ם מְכַרְתֶּ֖ם לִבְנֵ֣י הַיְּוָנִ֑ים לְמַ֥עַן הַרְחִיקָ֖ם מֵעַ֥ל גְּבוּלָֽם׃
+JOE 3:7 הִנְנִ֣י מְעִירָ֔ם מִן־הַ֨מָּק֔וֹם אֲשֶׁר־מְכַרְתֶּ֥ם אֹתָ֖ם שָׁ֑מָּה וַהֲשִׁבֹתִ֥י גְמֻלְכֶ֖ם בְּרֹאשְׁכֶֽם׃
+JOE 3:8 וּמָכַרְתִּ֞י אֶת־בְּנֵיכֶ֣ם וְאֶת־בְּנֽוֹתֵיכֶ֗ם בְּיַד֙ בְּנֵ֣י יְהוּדָ֔ה וּמְכָר֥וּם לִשְׁבָאיִ֖ם אֶל־גּ֣וֹי רָח֑וֹק כִּ֥י יְהוָ֖ה דִּבֵּֽר׃ ס
+JOE 3:9 קִרְאוּ־זֹאת֙ בַּגּוֹיִ֔ם קַדְּשׁ֖וּ מִלְחָמָ֑ה הָעִ֨ירוּ֙ הַגִּבּוֹרִ֔ים יִגְּשׁ֣וּ יַֽעֲל֔וּ כֹּ֖ל אַנְשֵׁ֥י הַמִּלְחָמָֽה׃
+JOE 3:10 כֹּ֤תּוּ אִתֵּיכֶם֙ לַֽחֲרָב֔וֹת וּמַזְמְרֹֽתֵיכֶ֖ם לִרְמָחִ֑ים הַֽחַלָּ֔שׁ יֹאמַ֖ר גִּבּ֥וֹר אָֽנִי׃
+JOE 3:11 ע֣וּשׁוּ וָבֹ֧אוּ כָֽל־הַגּוֹיִ֛ם מִסָּבִ֖יב וְנִקְבָּ֑צוּ שָׁ֕מָּה הַֽנְחַ֥ת יְהוָ֖ה גִּבּוֹרֶֽיךָ׃
+JOE 3:12 יֵע֨וֹרוּ֙ וְיַעֲל֣וּ הַגּוֹיִ֔ם אֶל־עֵ֖מֶק יְהֽוֹשָׁפָ֑ט כִּ֣י שָׁ֗ם אֵשֵׁ֛ב לִשְׁפֹּ֥ט אֶת־כָּל־הַגּוֹיִ֖ם מִסָּבִֽיב׃
+JOE 3:13 שִׁלְח֣וּ מַגָּ֔ל כִּ֥י בָשַׁ֖ל קָצִ֑יר בֹּ֤אֽוּ רְדוּ֙ כִּֽי־מָ֣לְאָה גַּ֔ת הֵשִׁ֨יקוּ֙ הַיְקָבִ֔ים כִּ֥י רַבָּ֖ה רָעָתָֽם׃
+JOE 3:14 הֲמוֹנִ֣ים הֲמוֹנִ֔ים בְּעֵ֖מֶק הֶֽחָר֑וּץ כִּ֤י קָרוֹב֙ י֣וֹם יְהוָ֔ה בְּעֵ֖מֶק הֶחָרֽוּץ׃
+JOE 3:15 שֶׁ֥מֶשׁ וְיָרֵ֖חַ קָדָ֑רוּ וְכוֹכָבִ֖ים אָסְפ֥וּ נָגְהָֽם׃
+JOE 3:16 וַיהוָ֞ה מִצִּיּ֣וֹן יִשְׁאָ֗ג וּמִירוּשָׁלִַ֨ם֙ יִתֵּ֣ן קוֹל֔וֹ וְרָעֲשׁ֖וּ שָׁמַ֣יִם וָאָ֑רֶץ וַֽיהוָה֙ מַֽחֲסֶ֣ה לְעַמּ֔וֹ וּמָע֖וֹז לִבְנֵ֥י יִשְׂרָאֵֽל׃
+JOE 3:17 וִֽידַעְתֶּ֗ם כִּ֣י אֲנִ֤י יְהוָה֙ אֱלֹ֣הֵיכֶ֔ם שֹׁכֵ֖ן בְּצִיּ֣וֹן הַר־קָדְשִׁ֑י וְהָיְתָ֤ה יְרוּשָׁלִַ֨ם֙ קֹ֔דֶשׁ וְזָרִ֥ים לֹא־יַֽעַבְרוּ־בָ֖הּ עֽוֹד׃ ס
+JOE 3:18 וְהָיָה֩ בַיּ֨וֹם הַה֜וּא יִטְּפ֧וּ הֶהָרִ֣ים עָסִ֗יס וְהַגְּבָעוֹת֙ תֵּלַ֣כְנָה חָלָ֔ב וְכָל־אֲפִיקֵ֥י יְהוּדָ֖ה יֵ֣לְכוּ מָ֑יִם וּמַעְיָ֗ן מִבֵּ֤ית יְהוָה֙ יֵצֵ֔א וְהִשְׁקָ֖ה אֶת־נַ֥חַל הַשִּׁטִּֽים׃
+JOE 3:19 מִצְרַ֨יִם֙ לִשְׁמָמָ֣ה תִֽהְיֶ֔ה וֶאֱד֕וֹם לְמִדְבַּ֥ר שְׁמָמָ֖ה תִּֽהְיֶ֑ה מֵֽחֲמַס֙ בְּנֵ֣י יְהוּדָ֔ה אֲשֶׁר־שָׁפְכ֥וּ דָם־נָקִ֖יא בְּאַרְצָֽם׃
+JOE 3:20 וִיהוּדָ֖ה לְעוֹלָ֣ם תֵּשֵׁ֑ב וִירוּשָׁלִַ֖ם לְד֥וֹר וָדֽוֹר׃
+JOE 3:21 וְנִקֵּ֖יתִי דָּמָ֣ם לֹֽא־נִקֵּ֑יתִי וַֽיהוָ֖ה שֹׁכֵ֥ן בְּצִיּֽוֹן׃
+AMO 1:1 
+EOF;
+if (!($bfile = preg_replace("/JOE 3:1 (.+?)AMO 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -10842,11 +11006,37 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Ikizu---Ikizu-Bible" :
+$textfix = <<<EOF
+2CO 13:12 Mwikeerye kʉbhʉsɨɨgi bhwa Kiriisitʉ.
+2CO 13:13 Abharɨndu bha Mungu bhʉʉsi bha hanʉ bharabhakeerya.
+2CO 13:14 Ʉrʉbhangʉ rwʉ Ʉmʉkʉrʉ Yɨɨsu Kiriisitʉ, nʉ ʉbhʉsɨɨgi bhwa Mungu, nu ubhugwatani bhwe Ekoro Ɨndɨndu, bhʉbhɨ hamwɨmwɨ na niimwɨ bhʉʉsi.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Ilocano---Ilocano-Bible" :
 if (!($bfile = preg_replace("/2Kalpasanna/us","Kalpasanna",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Ilonggo---Hiligaynon-Free-Bible" :
+$textfix = <<<EOF
+2CO 13:12 Magkamustahanay kamo bilang mag-ulutod kay Cristo.
+2CO 13:13 Ang tanan nga katawhan sang Dios diri nagapangamusta sa inyo.
+2CO 13:14 Kabay pa nga ara sa inyo tanan ang pagpakamaayo sang aton Ginoong Jesu-Cristo, ang gugma sang Dios, kag ang pagpakig-upod sang Espiritu Santo.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -11592,6 +11782,77 @@ $textfix = <<<EOF
 2CO 1:17 
 EOF;
 if (!($bfile = preg_replace("/2CO 1:15 (.+?)2CO 1:17 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Kituba---Kituba-Bible" :
+$textfix = <<<EOF
+JOE 2:28 Na manima ya mambu yina, mu ke mwangisa Mpeve ya munu na bantu nyonso. Bana ya beno ya babakala mpe ya bakento ke bikula. Binunu ya beno ke kuzwa bandosi, mpe bantwenya ya beno ke kuzwa balumoni.
+JOE 2:29 Na bilumbu yina, mu ke mwangisa mpe Mpeve ya munu na bisadi ya babakala mpe ya bakento.
+JOE 2:30 Mu ke sala mambu ya ngitukulu na zulu mpe na ntoto. Ya ke vwanda: menga, tiya, mpe mulinga ke nanguka.
+JOE 2:31 Ntangu ke kuma ndombe, mpe ngonda ke kuma mbwaki mutindu menga. Mambu nyonso yayi ke salama ntete Kilumbu ya Yave kuma, kilumbu ya nene mpe ya nsisi.
+JOE 2:32 Na yina, konso muntu yina ke bokila Nkumbu ya Yave ke vuuka. Ya tsyelika, na zulu ya mongo ya Siyone, na Yelusalemi, ke vwanda na bayina ke vuuka na lufwa, mutindu Yave tubaka yawu. Ni na kati ya bawu Yave ke bokila bayina ke zinga.
+JOE 3:1 Yave me tuba: «Ya tsyelika, na bilumbu yina, ntangu mu ke bongisa dyaka Yuda na Yelusalemi,
+JOE 3:2 mu ke vukisa bayinsi nyonso ya nzenza, mpe mu ke kulumuna bawu na mudimba, yina ba ke bokilaka Yewosafate, yina zola kutuba “Yave ke na kufundisa”. Mpe ni kuna mu ke fundisa bawu, samu na mambu yina ba salaka na Isayeli, bantu ya munu, mpe mvwilu ya munu, samu ti, ba me mwangisa bantu ya munu na bayinsi ya nzenza, mpe ba me kabula yinsi ya munu.
+JOE 3:3 Ba me budila bantu ya munu dzeke. Ba me pesa bana ya fyoti ya babakala samu na kuzwa bakento ya kindumba. Ba me tekisa bana ya fyoti ya bakento samu na vinu yina ba me kunwa.
+JOE 3:4 Beno mpe, beno bantu ya Tile na bantu ya Sidone, mpe bizunga nyonso ya ba-Filiseti, yinki beno ke na kusosila munu? Beno zola kuvutula munu yimbi? Kana beno vutula munu yimbi, na nswalu nyonso, mu ke vutudila beno yimbi yina beno salaka.
+JOE 3:5 Beno bakaka wolo na palata ya munu, bima ya munu ya ntalu mpe ya kitoko, beno kwendaka tula yawu na kati ya bayinzo ya banzambi ya beno.
+JOE 3:6 Ni beno tekisaka bantu ya Yuda mpe ya Yelusalemi na sika ya ba-Ngeleke, samu ti, bawu vwanda ntama na yinsi ya bawu.
+JOE 3:7 Kasi munu, mu ke syamisa bawu samu ti ba basika na kisika yina beno tekisaka bawu. Mpe mu ke vutudila beno yimbi yina beno salaka.
+JOE 3:8 Mu ke tekisa bana ya beno ya babakala mpe ya bakento na sika ya bantu ya Yuda. Mpe bantu ya Yuda ke tekisa bawu na ba-Sabeye, bayina ke zingaka na yinsi yina kele ntama. Ni Yave me tuba yawu.»
+JOE 3:9 Beno zabisa na bantu ya bayinsi ya nzenza mutindu yayi: «Beno kubama samu na mvita, beno kubika bayina ke na kibakala. Bawu telema samu na kukwenda na mvita.
+JOE 3:10 Beno kitula bisengo ya kubalula ntoto na bambele ya mvita, mpe minkwati ya beno na madyonga. Muntu yina kele ve na ngolo, yandi tuba ti, mu ke kinwani yina ke na kibakala.
+JOE 3:11 Beno bantu ya bayinsi yina kele pene-pene, beno kwiza pesa maboko. Beno vukana kisika mosi.» Yave, fidisa bantu ya nge yina ke na kibakala kuna.
+JOE 3:12 «Bika ti bantu ya bayinsi ya nzenza kutelama. Bawu kwenda na mudimba, yina ba ke bokilaka Yewosafate. Ni kuna, mu ke vwanda samu na kufundisa bayinsi nyonso yina kele pene-pene.
+JOE 3:13 Beno baka minkwati ya beno samu ti ntangu ya kuyonzika bambuma me lunga. Beno dyata bambuma ya vinu yina me fuluka na kikamununu. Vinu ke na kufuluka ya kulutila na banzungu ya nene. Ya tsyelika, yimbi ya bawu kele nene.»
+JOE 3:14 Bankonga na bankonga me fuluka na mudimba ya mfundusu. Kilumbu ya Yave me kuma pene-pene na mudimba ya mfundusu.
+JOE 3:15 Ntangu na ngonda me kuma ndombe. Bambwetete ke na kulezima dyaka ve.
+JOE 3:16 Yave ke duma na Siyone. Katuka Yelusalemi, yandi ke wakisa ndinga ya yandi. Na yina, zulu na ntoto ke ningana. Kasi Yave kele kiswamunu samu na bantu ya yandi. Yandi kele kibumbamanu ya ngolo ya bantu ya Isayeli.
+JOE 3:17 «Na yina, beno ke zaba ti, mu kele Yave, Nzambi ya beno, yina ke zingaka na Siyone, mongo ya munu ya longo. Yelusalemi ke kuma kisika ya longo. Mpe banzenza ke banda na kukotaka dyaka ve kuna.»
+JOE 3:18 «Na kilumbu yina, vinu ya mbote ke kulumuka na myongo. Miliki ke kulumuka na myongo ya fyoti. Maza ke banda na kuluta na miila nyonso ya Yuda. Yinto ke basisa maza na Yinzo ya Yave, mpe yawu ke kulumuka na muzumba yina ba ke bokilaka Akasya.
+JOE 3:19 Yinsi ya Ngipiti ke kuma kisika ya kumwangana. Yinsi ya Edome ke kuma ntoto ya kuyuma mpe ya kumwangana, samu na yimbi yina ba salaka bana ya Yuda, na ntangu ba tangisaka, na yinsi ya bawu, menga ya bantu yina salaka kima ve.
+JOE 3:20 Kasi bambandu na bambandu, bantu ke bika ve na kuzinga na Yuda mpe na Yelusalemi.
+JOE 3:21 Mu vwandaka me vutudila ntete ve bawu yimbi yina bawu salaka. Kasi, mu ke vutudila bawu yimbi samu na menga ya bantu yina ba tangisaka. Mpe munu Yave, ke zinga na Siyone.»
+AMO 1:1 
+EOF;
+if (!($bfile = preg_replace("/JOE 3:1 (.+?)AMO 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+2CO 13:12 Beno pesana mbote beno na beno na kubumbasana mutindu bampangi ya luzolo.
+2CO 13:13 Bantu nyonso ya longo me fidisa beno mbote.
+2CO 13:14 Bika ti lusakumunu ya Mfumu Yesu-Klisto, luzolo ya Nzambi, mpe kintwadi ya Mpeve ya Longo kuvwanda na beno nyonso.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Kizalamo---Zaramo-Kizalamo-Bible" :
+$textfix = <<<EOF
+2CO 13:12 Ilamseni wenyego kwa wenyego na mnonelo ung'alile.
+2CO 13:13 Wanhu wose wa Mulungu wowalamsa mweye.
+2CO 13:14 Ngekewa ya Mndewa Yesu Kilisto, noge da Mulungu, na udugu wa Loho wa Mulungu viwe namwe wose.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Konda-Dora---Konda-Porja-Bible" :
+$textfix = <<<EOF
+2CO 13:12 ପବିତ୍ର ଚୁମାଦାନ୍‌ ନିଜେନିଜେଦିଙ୍ଗ୍‌ ମାଡ଼ିସ୍‍ କିଦୁ ।
+2CO 13:13 ୱିଜେରେ ମାପୁରୁଦିଲୋକ୍‍ ମିଙ୍ଗିଁ ମାଡ଼ିସ୍‍ କିଜିନାର୍‍ ।
+2CO 13:14 ପ୍ରବୁ ଜିସୁ କ୍ରିସ୍ତଦି ଦୟା, ମାପୁରୁଦି ଜିବନ୍‌ନୋନିକା ମାରି ପବିତ୍ରଆତ୍ମାଦି ସାହାଜ୍ୟ ମି ୱିଜେରି ୱାଲେ ମାନିତ୍‍ ।
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -14113,6 +14374,31 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Lithuanian---Open-Lithuanian-Bible" :
+$textfix = <<<EOF
+LUK 3:23 Jėzui buvo apie trisdešimt metų, kai Jis pradėjo Savo misiją. Jėzų laikė sūnumi Juozapo, sūnaus Helio,
+LUK 3:24 sūnaus Matato, sūnaus Levio, sūnaus Melchio, sūnaus Janajo, sūnaus Juozapo,
+LUK 3:25 sūnaus Matatijo, sūnaus Amoso, sūnaus Naumo, sūnaus Heslio, sūnaus Nagajo,
+LUK 3:26 sūnaus Maato, sūnaus Matatijo, sūnaus Semejino, sūnaus Josecho, sūnaus Jodos,
+LUK 3:27 sūnaus Joanano, sūnaus Resos, sūnaus Zorobabelio, sūnaus Salatielio, sūnaus Nerio,
+LUK 3:28 sūnaus Melchio, sūnaus Adijo, sūnaus Kosamo, sūnaus Elmadamo, sūnaus Ero,
+LUK 3:29 sūnaus Jėzaus, sūnaus Eliezero, sūnaus Jorimo, sūnaus Matato, sūnaus Levio,
+LUK 3:30 sūnaus Simeono, sūnaus Judo, sūnaus Juozapo, sūnaus Jonos, sūnaus Eliachimo,
+LUK 3:31 sūnaus Melėjo, sūnaus Menos, sūnaus Matatos, sūnaus Natano, sūnaus Dovydo,
+LUK 3:32 sūnaus Jesės, sūnaus Jobedo, sūnaus Boozo, sūnaus Salos, sūnaus Naasono,
+LUK 3:33 sūnaus Aminadabo, sūnaus Admino, sūnaus Arnio, sūnaus Esromo, sūnaus Faro, sūnaus Judo,
+LUK 3:34 sūnaus Jokūbo, sūnaus Izaoko, sūnaus Abraomo, sūnaus Taros, sūnaus Nachoro,
+LUK 3:35 sūnaus Serucho, sūnaus Ragaujo, sūnaus Faleko, sūnaus Ebero, sūnaus Salos,
+LUK 3:36 sūnaus Kainamo, sūnaus Arfaksado, sūnaus Semo, sūnaus Nojaus, sūnaus Lamecho,
+LUK 3:37 sūnaus Matūzalio, sūnaus Henocho, sūnaus Jare to, sūnaus Maleleelio, sūnaus Kainamo,
+LUK 3:38 sūnaus Eno, sūnaus Seto, sūnaus Adomo, kuris buvo Dievo.
+LUK 4:1 
+EOF;
+if (!($bfile = preg_replace("/LUK 3:23 (.+?)LUK 4:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
 
 
 // RAWFIX BIBLE ********************
@@ -14125,6 +14411,20 @@ $textfix = <<<EOF
 2PE 1:20 
 EOF;
 if (!($bfile = preg_replace("/2PE 1:19 (.+?)2PE 1:20 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Makhuwa-Meetto---Makua-Bible" :
+$textfix = <<<EOF
+2CO 13:12 Nshikurianeke kila mmoka wo wooniha wiira mwa attu nnottunana thoko Kuristo chenre awe wo unittuna.
+2CO 13:13 Nlhoko wa atakatifu anottuniya ni Nlhuku uno anouvahani isalamu.
+2CO 13:14 Nnema wa Athithi Yesu Kuristo ni uttuna wa Nlhuku ni unlhoko ni Iphumu ya Nlhuku chikhalhe ni inyu mwaattiva onkhaye.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -14686,6 +14986,27 @@ $textfix = <<<EOF
 EOF;
 if (!($bfile = preg_replace("/2JO 1:1 (.+?)2JO 1:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Melo---Melo-Bible" :
+if (!($bfile = preg_replace("/\x{e2f8}/us"," ",$bfile,-1,$rnum)) || $rnum!=122) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } 
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Mori-Atas---Mori-Atas-Bible" :
+$textfix = <<<EOF
+LUK 9:43 Lowono mia henu hina rahea kombaa mengkiteo pobawaro Ue Ala henu langkai. Tempono lowono mia rahea da mengkombaa akono lowono henu winowauNo Iesu raaꞌa, Iesu mepau la ana guruNo,
+LUK 9:44 
+EOF;
+if (!($bfile = preg_replace("/LUK 9:43a (.+?)LUK 9:44 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
 
 
 
@@ -16336,6 +16657,27 @@ Hebrews 1:2 so hev han i desse siste dagar tala til oss gjenom Sonen.  Honom hev
 Hebrews 1:3 
 EOF;
 if (!($bfile = preg_replace("/Hebrews 1:1 (.+?)Hebrews 1:3 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Oyda---Oyde-Bible-Ethiopic" :
+if (!($bfile = preg_replace("/\x{e230}/us"," ",$bfile,-1,$rnum)) || $rnum!=115) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } 
+if (!($bfile = preg_replace("/\x{e2f8}/us"," ",$bfile,-1,$rnum)) || $rnum!=83) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } 
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Padoe---Padoe-Bible" :
+$textfix = <<<EOF
+LUK 9:43 Lowono mia henu lehea mentengiri kumiteo pabawaRo Ue Ala henu langkai. Tempono mia da mentengiri mengkiteo lowono henu nowowauo i Yesu, Umono mepau ndi anaguruNo,
+LUK 9:44 
+EOF;
+if (!($bfile = preg_replace("/LUK 9:43a (.+?)LUK 9:44 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -20500,6 +20842,29 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Yaka---Ivatan-Bible" :
+$textfix = <<<EOF
+2CO 13:12 Dibihisini beni na beni mu litoono, weti bwafwaana kwaa bangaa imiini.
+2CO 13:13 Bangaa imiini boosi baheeri beni mabwee.
+2CO 13:14 Nyaala bweese ba Pfumu Yiisu Kristo, litoono la Nziaambi na itwaari kia Muheebili wa Ngira biba na beni boosi!
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Yemsa---Yemsa-Bible-Ethiopic" :
+if (!($bfile = preg_replace("/\x{e318}/us"," ",$bfile,-1,$rnum)) || $rnum!=10) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } 
+if (!($bfile = preg_replace("/\x{e31e}/us"," ",$bfile,-1,$rnum)) || $rnum!=4) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } 
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
+
+
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Yombe---Yombe-Bible" :
@@ -20510,6 +20875,20 @@ $bigfix = <<<EOF
 GAL 1:1 
 EOF;
 if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Zaramo---Kizalamo-Bible" :
+$textfix = <<<EOF
+2CO 13:12 Ilamseni wenyego kwa wenyego na mnonelo ung'alile.
+2CO 13:13 Wanhu wose wa Mulungu wowalamsa mweye.
+2CO 13:14 Ngekewa ya Mndewa Yesu Kilisto, noge da Mulungu, na udugu wa Loho wa Mulungu viwe namwe wose.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 

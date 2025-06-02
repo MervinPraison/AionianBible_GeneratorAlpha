@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1667540     
-# File Date: 05/21/2025 08:54:45
+# File Size: 1715444     
+# File Date: 05/31/2025 19:26:40
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -28,6 +28,8 @@ Holy-Bible---Armenian---Armenian-Bible-Eastern	040	MAT	006	009	Եւ արդ, դո
 Holy-Bible---Armenian---Armenian-Bible-Eastern	040	MAT	028	011	Երբ նրանք գնացին, ահա զինուորներից ոմանք քաղաք եկան ու
 Holy-Bible---Armenian---Armenian-Bible-Eastern	043	JOH	006	051	Ես եմ կենդանի հացը, որ երկնքից է իջած.
 Holy-Bible---Armenian---Armenian-Bible-Western	043	JOH	006	051	Ե՛ս եմ կենարար հացը՝ որ իջայ երկինքէն:
+Holy-Bible---Aruamu---Aruamu-Bible	064	3JO	001	014	Kɨ ghaze, kɨ gurumra izɨ nɨ batogh ga uaningɨn gan uaning mɨkɨmam.
+Holy-Bible---Aruamu---Aruamu-Bible	066	REV	012	018	Egha kuruzim ongarir dadarimɨn tughav iti.
 Holy-Bible---Assamese---Assamese-Bible	041	MAR	015	028	
 Holy-Bible---Assamese---Assamese-Bible	044	ACT	015	034	
 Holy-Bible---Assamese---Assamese-Bible	064	3JO	001	014	বৰং আশা কৰোঁ যে, আপোনাক অতি সোনকালে দেখিবলৈ পাম আৰু তেতিয়া মুখা-মুখি হৈ কথা-বতৰা পাতিম।
@@ -292,6 +294,7 @@ Holy-Bible---Cebuano---Cebuano-Bible	064	3JO	001	014	Apan nagdahom ako sa pagpak
 Holy-Bible---Cebuano---Cebuano-Bible	066	REV	012	018	Unya ang dragon mitindog didto sa balas sa baybayon.
 Holy-Bible---Cebuano---Cebuano-Open-Bible	064	3JO	001	014	Hisgotan na lang unya nato kini kon moabot ako diha kay aduna akoy plano nga makigkita kanimo sa labing daling panahon.
 Holy-Bible---Cebuano---Cebuano-Open-Bible	066	REV	012	018	Ug ang dragon mitindog sa baybayon.
+Holy-Bible---Chhattisgarhi---Chhattisgarhi-Bible	064	3JO	001	014	मोला आसा हवय कि तोर संग जल्दी भेंट होही अऊ तब हमन एक संग बईठके गोठियाबो।
 Holy-Bible---Chichewa---Chichewa-Bible	064	3JO	001	014	Ndiyembekezera kufika kwanuko posachedwapa, ndipo tidzakambirana pamaso ndi pamaso.
 Holy-Bible---Chichewa---Chichewa-Bible	066	REV	012	018	Kenaka ndinaona chinjokacho chitayima mʼmbali mwa nyanja.
 Holy-Bible---Chin-Daai---Daai-Chin-Bible	064	3JO	001	014	Sängsäng se ning jah hmuh law vaia ka ngaiki. Acun üng mi püi hmu lü mi ngthuhei be kawm u. Acunüng, akhyang puma mi ngthuei law khaie.
@@ -577,6 +580,10 @@ Holy-Bible---Chinese---Chinese-Union-Version-Simplified	064	3JO	001	014	但盼�
 Holy-Bible---Chinese---Chinese-Union-Version-Simplified	066	REV	012	018	那时龙就站在海边的沙上。
 Holy-Bible---Chinese---Chinese-Union-Version-Traditional	064	3JO	001	014	但盼望快快地見你，我們就當面談論。
 Holy-Bible---Chinese---Chinese-Union-Version-Traditional	066	REV	012	018	那時龍就站在海邊的沙上。
+Holy-Bible---Chinese---Mandarin-Bible-Simplified	064	3JO	001	014	只希望很快见到你，跟你当面畅谈。
+Holy-Bible---Chinese---Mandarin-Bible-Simplified	066	REV	012	018	那时巨龙站在海边的沙地上。
+Holy-Bible---Chinese---Mandarin-Bible-Traditional	064	3JO	001	014	只希望很快見到你，跟你當面暢談。
+Holy-Bible---Chinese---Mandarin-Bible-Traditional	066	REV	012	018	那時巨龍站在海邊的沙地上。
 Holy-Bible---Chiyawo---Yao	064	3JO	001	014	Ngulolela kuti chituwonegane pangakaŵa ni kukunguluka ni ŵanyamwe tuchiloleganaga.
 Holy-Bible---Chiyawo---Yao	066	REV	012	018	Ni lijoka lila lyajimi mmbwani mwa bahali.
 Holy-Bible---Coptic---Coptic-Boharic-NT	041	MAR	009	044	
@@ -921,6 +928,10 @@ Holy-Bible---Croatian---Croatian-Bible	044	ACT	028	029	#
 Holy-Bible---Croatian---Croatian-Bible	045	ROM	016	024	#
 Holy-Bible---Croatian---Croatian-Bible	064	3JO	001	014	Nadam se da ću te uskoro vidjeti pa ćemo iz usta u usta govoriti.
 Holy-Bible---Croatian---Croatian-Bible	066	REV	012	018	I stade na morski žal.
+Holy-Bible---Croatian---Croatian-Open-Bible	064	3JO	001	014	Nadam se da ću te uskoro vidjeti, pa ćemo razgovarati licem u lice.
+Holy-Bible---Cung---Chung-Bible	044	ACT	015	034	
+Holy-Bible---Cung---Chung-Bible	064	3JO	001	014	Mih yɛiŋki a, i jɔbi wi juli wə mih ni dzə yɛiŋ lə wɔ, ma buku wɔ dzaka daŋsi shi bəh shi.
+Holy-Bible---Cung---Chung-Bible	066	REV	012	018	Ayaka wi ka tsə ka numki i kinchwɔ kimbum kpəŋ.
 Holy-Bible---Czech---Czech-Bible-Kralicka	019	PSA	022	001	Přednímu zpěváku k času jitřnímu, žalm Davidův.
 Holy-Bible---Czech---Kralicka	009	1SA	020	042	I řekl Jonata Davidovi: Jdiž u pokoji, a což jsme sobě oba přisáhli ve jménu Hospodinovu, řkouce: Hospodin budiž svědkem mezi mnou a tebou, i mezi semenem mým a mezi semenem tvým, nechť trvá až na věky.
 Holy-Bible---Czech---Kralicka	011	1KI	022	043	I chodil po vší cestě Azy otce svého, aniž se od ní uchýlil, čině, což dobrého bylo před oblíčejem Hospodinovým.
@@ -1016,6 +1027,9 @@ Holy-Bible---Danish---Danish-1931-1907	019	PSA	088	001	En Sang. En Salme af Kora
 Holy-Bible---Danish---Danish-1931-1907	019	PSA	089	001	En Maskil af Ezraiten Etan.
 Holy-Bible---Danish---Danish-1931-1907	064	3JO	001	014	Men jeg haaber snart at se dig, og da skulle vi mundtligt tale sammen.
 Holy-Bible---Danish---Danish-1931-1907	066	REV	012	018	Og jeg stod paa Sandet ved Havet.
+Holy-Bible---Dawro---Dawuro-Bible	042	LUK	023	017	
+Holy-Bible---Dawro---Dawuro-Bible	064	3JO	001	014	Shin taani matan neenanna gakkettanaw k'oppay; he wode nuuni gakettiide haasayana.
+Holy-Bible---Dawro---Dawuro-Bible	066	REV	012	018	biide abbaa doonaan de'iyaa shafiyaan ek'k'eedda.
 Holy-Bible---Desiya---Desiya-Bible	064	3JO	001	014	ମୁଇ ଦାପ୍‌ରେ ତମର୍‌ଟାନେ ଆସିକରି ତମର୍‌ ମୁଆଟେ ସବୁ କାତା କଇବି ।
 Holy-Bible---Desiya---Desiya-Bible	066	REV	012	018	ଆରି ସେ ଅସୁର୍‌ସାଁପ୍‌ ସମ୍‌ଦୁରର୍‌ ବାଲିଉପ୍‌ରେ ଜାଇ ଟିଆ ଅଇଲା ।
 Holy-Bible---Dholuo---Dholuo-Bible	064	3JO	001	014	Ageno nenoi mapiyo, eka wanawuo wangʼ gi wangʼ.
@@ -1444,6 +1458,7 @@ Holy-Bible---Dutch---Statenvertaling	043	JOH	001	038	En Jezus Zich omkerende, en
 Holy-Bible---Dutch---Statenvertaling	045	ROM	007	025	Ik dank God, door Jezus Christus, onzen Heere.
 Holy-Bible---Dutch---Statenvertaling	064	3JO	001	014	Maar ik hoop u haast te zien, en wij zullen mond tot mond spreken.
 Holy-Bible---Dutch---Statenvertaling	066	REV	012	018	En ik stond op het zand der zee.
+Holy-Bible---Duya---Duya-Bible	064	3JO	001	014	Umum ifosi inyã ungo ifefetem, nu umɛn irherhe ra asu adɔka.
 Holy-Bible---English---Aionian-Bible	042	LUK	017	036	
 Holy-Bible---English---Aionian-Bible	044	ACT	008	037	
 Holy-Bible---English---Aionian-Bible	044	ACT	015	034	
@@ -2429,6 +2444,78 @@ Holy-Bible---English---Open-English-Bible-US	044	ACT	028	029
 Holy-Bible---English---Open-English-Bible-US	045	ROM	016	024	
 Holy-Bible---English---Open-English-Bible-US	064	3JO	001	014	I hope to see you soon, and then we will speak face to face.
 Holy-Bible---English---Open-English-Bible-US	066	REV	012	018	and he took his stand on the sea-shore.
+Holy-Bible---English---Orthodox-Jewish-Bible	004	NUM	025	019	And it came to pass after the maggefah [(plague)],
+Holy-Bible---English---Orthodox-Jewish-Bible	009	1SA	020	042	And Yonatan said to Dovid, Go in shalom, forasmuch as we have sworn both of us in the Shem of Hashem, saying, Hashem be between me and thee, and between my zera and thy zera ad olam.
+Holy-Bible---English---Orthodox-Jewish-Bible	011	1KI	022	043	And he walked in kol derech Asa aviv; he turned not aside from it, doing that which was yashar in the eyes of Hashem;
+Holy-Bible---English---Orthodox-Jewish-Bible	013	1CH	012	004	And Yishma'yah the Giv'oni, a gibbor among the Shloshim [(Thirty)], and over the Shloshim; and
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	003	001	(A psalm of Dovid, when he fled from Avshalom bno)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	004	001	(For the one directing. With stringed instruments. Mizmor Dovid)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	005	001	(For the one directing. For the flutes. Mizmor Dovid)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	006	001	(For the one directing. With stringed instruments. Al HaSheminit. Mizmor Dovid)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	007	001	(Shiggayon of Dovid, which he sang unto Hashem, regarding Kush of Binyamin)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	008	001	(For the one directing. According to the gittit. Mizmor of Dovid)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	009	001	(For the one directing. To The Death of the Son. Mizmor of Dovid)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	012	001	(For the one directing. According to the Sheminit. Mizmor Dovid)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	018	001	(For the one directing. Of Dovid Eved Hashem who sang to Hashem the lyrics of this shirah on the day Hashem delivered him from the hand of all his oyevim and from the hand of Sha'ul;
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	019	001	(For the one directing. Mizmor Dovid)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	020	001	(For the one directing. Mizmor Dovid)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	021	001	(For the one directing. Mizmor Dovid)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	022	001	(For the one directing. To the Deer of the Dawn. Mizmor Dovid)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	030	001	(Mizmor. Shir Chanukat HaBeis. Of Dovid)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	031	001	(For the one directing. Mizmor Dovid)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	034	001	(Of Dovid, when he feigned insanity before Avimelech, who drove him away, and he went out)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	036	001	(For the one directing. Of Dovid, the eved Hashem)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	038	001	(Mizmor Dovid. For the memorial portion of the mincha)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	039	001	(For the one directing, even to Yedutun. Mizmor Dovid)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	040	001	(For the one directing, Of Dovid. Mizmor)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	041	001	(For the one directing, Mizmor of Dovid)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	042	001	(For the one directing, Maskil, for the Bnei Korach)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	044	001	(For the one directing. Of the Bnei Korach. A maskil)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	045	001	(For the one directing upon Shoshannim, for the Bnei Korach. A Maskil. Shir yedidot [[a love song]])
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	046	001	(For the one directing. Of the Bnei Korach. Al-alamot. Shir)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	047	001	(For the one directing. Of the Bnei Korach. A Mizmor)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	048	001	(Shir. Mizmor. Of the Bnei Korach)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	049	001	(For the one directing. A Mizmor for the Bnei Korach)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	051	001	(For the one directing. Mizmor Dovid.
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	051	002	When Natan HaNavi confronted him after he went into Bat-Sheva)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	052	001	(For the one directing. A maskil of Dovid.
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	052	002	When Do'eg HaAdomi [[the Edomite]] went to Sha'ul and said to him, Dovid has gone to Bais Achimelech)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	053	001	(For the one directing. According to ma'alot. Maskil of Dovid)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	054	001	(For the director. With stringed instruments. A maskil. For Dovid,
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	054	002	when the Ziphim came and said to Sha'ul, Dovid is in hiding among us)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	055	001	(For the one directing. With Neginos. Maskil of Dovid)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	056	001	(For the director. Set to The Silent, Distant Yonah. Of Dovid. A mikhtam — when the Pelishtim seized him in Gat)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	057	001	(For the one directing. Set to Do Not Destroy. Mikhtam of Dovid, when he had fled from Sha'ul into the me'arah [[cave]])
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	058	001	(For the one directing. Set to Do Not Destroy. Mikhtam Dovid)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	059	001	(For the one directing. Set to Do Not Destroy. Mikhtam Dovid. When Sha'ul sent and they watched [Dovid's] bais to kill him)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	060	001	(For the one directing. Set to The Shushan of the Edut. Mikhtam Dovid to instruct.
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	060	002	When he fought Aram Naharayim and Aram Tzovah and when Yoav returned and struck down 12,000 of Edom in the Gey Melach)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	061	001	(For the one directing. With stringed instruments. Of Dovid)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	062	001	(For the one directing. According to Yedutun. Mizmor of Dovid)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	063	001	(Mizmor Dovid. When he was in the midbar Yehudah)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	064	001	(For the one directing. Mizmor of Dovid)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	065	001	(For the one directing. Mizmor Dovid. Shir)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	067	001	(For the one directing. On Neginot. With stringed instruments. Mizmor. Shir)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	068	001	(For the one directing. Of Dovid. Mizmor. Shir)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	069	001	(For the one directing. Al Shoshanim. Of Dovid)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	070	001	(For the one directing. Mizmor of Dovid. For the memorial portion of the minchah)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	075	001	(For the one directing. Set to Do Not Destroy. Mizmor Asaph. Shir)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	076	001	(For the one directing. On stringed instruments. Mizmor of Asaph. Shir)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	077	001	(For the one directing. Set to Yedutun. Mizmor of Asaph)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	080	001	(For the one directing. Set to The Lilies of the Edut. Of Asaph. Mizmor.)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	081	001	(For the one directing. On the gittis. Of Asaph)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	083	001	(Shir. Mizmor of Asaph)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	084	001	(For the one directing. On the gittit. Mizmor for the Bnei Korach)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	085	001	(For the one directing. Of the Bnei Korach. Mizmor)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	088	001	(Shir. Mizmor of the Bnei Korach. For the one directing. According to Machalat le'annot. Maskil of Heman the Ezrachi)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	089	001	(A maskil of Eitan the Ezrachi)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	092	001	(Mizmor. Shir. For Shabbos)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	102	001	(A tefillah of one afflicted; when he is faint, he pours out his si'akh [[complaint]] before Hashem)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	108	001	(Shir. Mizmor of Dovid)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	140	001	(For the one directing. Mizmor of Dovid)
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	142	001	(Maskil of Dovid; A tefillah when he was in the me'arah)
+Holy-Bible---English---Orthodox-Jewish-Bible	064	3JO	001	014	But I have the tikvah [(hope)] to see you imminently, and we will speak panim el panim [(directly, in person)].
+Holy-Bible---English---Orthodox-Jewish-Bible	066	REV	012	018	And then the Dragon NACHASH took his stand on the seashore sand of the yam [(sea)].
 Holy-Bible---English---Revised-Version	040	MAT	017	021	
 Holy-Bible---English---Revised-Version	040	MAT	018	011	
 Holy-Bible---English---Revised-Version	040	MAT	023	014	
@@ -4532,10 +4619,18 @@ Holy-Bible---French---Vulgate-Glaire	028	HOS	002	023	Je la sèmerai sur la terre
 Holy-Bible---French---Vulgate-Glaire	030	AMO	006	010	Et le parent de l’un l’enlèvera et le brûlera, afin d’emporter ses os de la maison, et il dira à celui qui est au fond de la maison : Est-ce qu’il y a encore quelqu’un chez toi ?
 Holy-Bible---French---Vulgate-Glaire	043	JOH	006	051	Je suis le pain vivant, moi qui suis descendu du ciel.
 Holy-Bible---French---Vulgate-Glaire	066	REV	012	018	Et il s’arrêta sur le sable de la mer.
+Holy-Bible---Gamit---Gamit-Bible	064	3JO	001	014	માન આશા હેય કા તોઆરે જલદીજ મીળહી, તોવે આપા હામ્મે-હામ્મે વાત કોઅહુ.
+Holy-Bible---Gamit---Gamit-Bible	066	REV	012	018	તોવે તો અજગર જાતો રિયો એને દોરિયા મેરાવોય ઉબો રોય ગીયો.
+Holy-Bible---Gamo---Gamo-Bible	064	3JO	001	014	ታ ኔና ማታ ዎዴ ቤያናስ ሂዶታ ኦꬃይስ፤ ሄ ዎዴ ኑ ኢሲፌ ኡቲ ሃሳያና።
+Holy-Bible---Gamo---Gamo-Bible	066	REV	012	018	ዳዌዚካ ኣባ ኣቻን ኣጬ ቦላ ኤቂዴስ።
+Holy-Bible---Gamo---Gamo-Bible-Latin	064	3JO	001	014	Ta nena mata wode beyanaas hidota ooththays; he wode nu issife utti haasayana.
+Holy-Bible---Gamo---Gamo-Bible-Latin	066	REV	012	018	Dawezikka abba achchan ace bolla eqqides.
 Holy-Bible---Gamotso---Gamo	064	3JO	001	014	Ta nena mata wode beyanas ufays oothays, he wode nu isife uti hasa7ana.
 Holy-Bible---Gamotso---Gamo	066	REV	012	018	Dawezika abba achchan ace bolla eqqides.
 Holy-Bible---Gata---Gata-Didayi-Bible	064	3JO	001	014	ନେଙ୍ଗ୍‌ନେ ଆସା ଜେ ଦାପେ ପେନେ ଏତେ କୁଡ଼େଃଏ ବାରି ନେ ସେଃମଁ ଡିଙ୍ଗ୍‌ଚେ ବାଲିର୍‌ବାତା ନେଡିଙ୍ଗ୍‌ ।
 Holy-Bible---Gata---Gata-Didayi-Bible	066	REV	012	018	ସେଲାମ୍ବୁଏନେ ଆତେନ୍‌ ବଂସଣ୍ଡ୍ରେଇଂକେ ବିରଦ୍ ଡିଂନେ ନ୍‌ସା ମେଁ ୱେଚେ କେଣ୍ଡିଆଃନେ ବାଲି ଆଡ଼ାତ୍ରା ତୁଆଁକେ ।
+Holy-Bible---Gayil---Gayl-Bible	064	3JO	001	014	ቅንች የስም ሰድካንታ ጉርም ይድቴ፥ ዎ Ꮊፈርሳን ኮትሰጨናይካ ክክን የካ ኬዝምተሮቴ።
+Holy-Bible---Gayil---Gayl-Bible	066	REV	012	018	ቃርነረ ባሀርንታ ካንተዘን ሻምንዘን ዎእሴ።
 Holy-Bible---German---German-Albrecht	019	PSA	006	001	Dem Sangmeister mit Saitenspielbegleitung, in der achten Tonart . / Ein Psalm Davids.
 Holy-Bible---German---German-Albrecht	019	PSA	009	001	Dem Sangmeister, nach (der Melodie des Liedes:) "Stirb für den Sohn"  . Ein Psalm Davids.
 Holy-Bible---German---German-Albrecht	019	PSA	030	001	Ein Psalm. Nach dem Liede der Hausweihe  . Von David.
@@ -4892,12 +4987,23 @@ Holy-Bible---German---German-Tafel-Bible	019	PSA	102	001	Gebet eines Elenden, de
 Holy-Bible---German---German-Tafel-Bible	019	PSA	108	001	Ein Lied, ein Psalm Davids.
 Holy-Bible---German---German-Tafel-Bible	019	PSA	140	001	Dem Sangmeister. Ein Psalm Davids.
 Holy-Bible---German---German-Tafel-Bible	019	PSA	142	001	Eine Unterweisung von David, da er in der Höhle war; ein Gebet.
+Holy-Bible---Ghanongga---Kubokota-Adapt-Bible	064	3JO	001	014	Qa gilagila valeania ara za mina oqoro zovai za pala mana batigo gu, ko tonai tu tana varigozoro zozoto nari za tana kole makarai varivavakato.
+Holy-Bible---Ghanongga---Kubokota-Adapt-Bible	066	REV	012	018	Ko za kole gu turunana pana nagazana pa nole za na ratovo.
 Holy-Bible---Gofa---Gofa-Bible	064	3JO	001	014	Shin taani matara neera gayttanaw qoppays; he wode nuuni odettana.
 Holy-Bible---Gofa---Gofa-Bible	066	REV	012	018	abbaa gaxan de7iya shafen eqqis.
+Holy-Bible---Gofa---Gofa-Bible-Ethiopian	064	3JO	001	014	ሽን ታኒ ማታራ ኔራ ጋሄታናዉ ቆፓይስ፤ ሄ ዎደ ኑኒ ኦደታና።
+Holy-Bible---Gofa---Gofa-Bible-Ethiopian	066	REV	012	018	አባ ጋፃን ደእያ ሻፍያን ኤቅስ።
+Holy-Bible---Gofa---Gofa-Bible-Latin	064	3JO	001	014	Shin taani matara neera gahetanaw qopayis; he wode nuuni odetana.
+Holy-Bible---Gofa---Gofa-Bible-Latin	066	REV	012	018	Abba gaxan de7iya shafiyan eqis.
 Holy-Bible---Gourma---Gourma-Bible	064	3JO	001	014	N sugini ki la ŋa ke li kan waagi, tin fidi ki boe.
 Holy-Bible---Gourma---Gourma-Bible	066	REV	012	018	O den sedi mi ñincianma jaali tanbiima po.
 Holy-Bible---Gourmantche---Gourmantche-Bible	064	3JO	001	014	N maali ki kan waagi leni min lá ŋa, ke tin ŋanbi ki boe.
 Holy-Bible---Gourmantche---Gourmantche-Bible	066	REV	012	018	Ku bonfuodcincilingu den sedi ku tanbiingu nni, mi ñincianma jaali po.
+Holy-Bible---Gowlan---Gowlan-Bible	064	3JO	001	014	पर मेखे आस हइ कि तरा से जल्दी मील्यु, तब हम आमने-सामने बातचीत कर्या.
+Holy-Bible---Gowlan---Gowlan-Bible	066	REV	012	018	अरु वु नद्दी कि रेती पर खडो हुयो.
+Holy-Bible---Gowli---Gawli-Bible	042	LUK	017	036	
+Holy-Bible---Gowli---Gawli-Bible	064	3JO	001	014	ಮೀ ಬಿಗಿನ್ ಯವುನ್ ತುಲಾ ಬಗಾಯಾ ಮನ್ ಕರ್ತೊ. ತವಾ ಆಮಿ ಯಕಾ ಮಕಾಸಂಗ ಬುಲುಯಾ.
+Holy-Bible---Gowli---Gawli-Bible	066	REV	012	018	ತ್ಯೊ ಖತರ್ನಾಕ್ ಸಾಪ್ ಸಮಿಂದೊರಾಚೆ ದರವ ಉಬಾಹುತ್ತಾ.
 Holy-Bible---Greek---Greek-Byzantine	043	JOH	001	038	στραφεὶς δὲ ὁ Ἰησοῦς καὶ θεασάμενος αὐτοὺς ἀκολουθοῦντας λέγει αὐτοῖς·
 Holy-Bible---Greek---Greek-Byzantine	064	3JO	001	014	ἐλπίζω δὲ εὐθέως ἰδεῖν σε, καὶ στόμα πρὸς στόμα λαλήσομεν.
 Holy-Bible---Greek---Greek-Byzantine	066	REV	015	008	καὶ ἐγεμίσθη ὁ ναὸς ἐκ τοῦ καπνοῦ ἐκ τῆς δόξης τοῦ Θεοῦ καὶ ἐκ τῆς δυνάμεως αὐτοῦ·
@@ -6003,7 +6109,11 @@ Holy-Bible---Greek---Greek-Westcott-Hort	064	3JO	001	014	ελπιζω δε ευ�
 Holy-Bible---Greek---Greek-Westcott-Hort	066	REV	012	018	και εσταθη επι την αμμον της θαλασσης
 Holy-Bible---Gujarati---Gujarati-Bible	064	3JO	001	014	પણ હું તને જલ્દી મળવાની આશા રાખું છું ત્યારે આપણે મુખોમુખ વાત કરીશું.
 Holy-Bible---Gujarati---Gujarati-Bible	066	REV	012	018	અને તે સમુદ્રની રેતી પર ઊભો રહ્યો.
+Holy-Bible---Gujii---Guji-Oromo-Bible	064	3JO	001	014	Dhiko'ottuu akka si dhaggu hin addadha; yennaa san ilaan wol dhagginee hin haasonna.
+Holy-Bible---Gujii---Guji-Oromo-Bible	066	REV	012	018	Jawween sun maansa cinaa abbaaya'aa irra dhaabbatte.
 Holy-Bible---Haitian---Haitian-Creole-Smith	064	3JO	001	014	men mwen espere ke mwen va wè nou toutalè, epi nou va pale fas a fas.
+Holy-Bible---Halbi---Halbi-Bible	064	3JO	001	014	पर मो ख आसा हैं की तो ख सीघ्र भेंट करुगो, तब हम आमने सामे बातचीत करेगों।
+Holy-Bible---Halbi---Halbi-Bible	066	REV	012	018	अर उ समुंदर की रेता पर जा ख खड़ो भयो।
 Holy-Bible---Haryanvi---Haryanvi-Bible	064	3JO	001	014	पर मन्नै उम्मीद सै, के तेरे तै तावळा-ए मिलूँगा, फेर हम आम्ही-स्याम्ही बात करागें।
 Holy-Bible---Haryanvi---Haryanvi-Bible	066	REV	012	018	अर वो समुन्दर कै बालू पै जा खड्या होया।
 Holy-Bible---Hausa---Contemporary	064	3JO	001	014	Ina fata in gan ka nan ba da daɗewa ba, za mu kuwa yi magana fuska da fuska.
@@ -6369,6 +6479,77 @@ Holy-Bible---Hebrew---Modern-Hebrew-Bible	045	ROM	006	014	׃
 Holy-Bible---Hebrew---Modern-Hebrew-Bible	046	1CO	003	011	׃
 Holy-Bible---Hebrew---Modern-Hebrew-Bible	047	2CO	013	013	׃
 Holy-Bible---Hebrew---Modern-Hebrew-Bible	066	REV	003	020	׃
+Holy-Bible---Hebrew---Salkinson-Hebrew-Bible	048	GAL	004	027	כִּי כָתוּב׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	004	NUM	025	019	וַיְהִ֖י אַחֲרֵ֣י הַמַּגֵּפָ֑ה פ
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	009	1SA	020	042	וַיֹּ֧אמֶר יְהוֹנָתָ֛ן לְדָוִ֖ד לֵ֣ךְ לְשָׁל֑וֹם אֲשֶׁר֩ נִשְׁבַּ֨עְנוּ שְׁנֵ֜ינוּ אֲנַ֗חְנוּ בְּשֵׁ֤ם יְהוָה֙ לֵאמֹ֔ר יְהוָ֞ה יִֽהְיֶ֣ה ׀ בֵּינִ֣י וּבֵינֶ֗ךָ וּבֵ֥ין זַרְעִ֛י וּבֵ֥ין זַרְעֲךָ֖ עַד־עוֹלָֽם׃ פ
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	011	1KI	022	043	וַיֵּ֗לֶךְ בְּכָל־דֶּ֛רֶךְ אָסָ֥א אָבִ֖יו לֹא־סָ֣ר מִמֶּ֑נּוּ לַעֲשׂ֥וֹת הַיָּשָׁ֖ר בְּעֵינֵ֥י יְהוָֽה׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	013	1CH	012	004	וְיִֽשְׁמַֽעְיָ֧ה הַגִּבְעוֹנִ֛י גִּבּ֥וֹר בַּשְּׁלֹשִׁ֖ים וְעַל־הַשְּׁלֹשִֽׁים׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	003	001	מִזְמ֥וֹר לְדָוִ֑ד בְּ֝בָרְח֗וֹ מִפְּנֵ֤י ׀ אַבְשָׁל֬וֹם בְּנֽוֹ׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	004	001	לַמְנַצֵּ֥חַ בִּנְגִינ֗וֹת מִזְמ֥וֹר לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	005	001	לַמְנַצֵּ֥חַ אֶֽל־הַנְּחִיל֗וֹת מִזְמ֥וֹר לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	006	001	לַמְנַצֵּ֣חַ בִּ֭נְגִינוֹת עַֽל־הַשְּׁמִינִ֗ית מִזְמ֥וֹר לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	007	001	שִׁגָּי֗וֹן לְדָ֫וִ֥ד אֲשֶׁר־שָׁ֥ר לַיהוָ֑ה עַל־דִּבְרֵי־כ֝֗וּשׁ בֶּן־יְמִינִֽי׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	008	001	לַמְנַצֵּ֥חַ עַֽל־הַגִּתִּ֗ית מִזְמ֥וֹר לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	009	001	לַ֭מְנַצֵּחַ עַלְמ֥וּת לַבֵּ֗ן מִזְמ֥וֹר לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	012	001	לַמְנַצֵּ֥חַ עַֽל־הַשְּׁמִינִ֗ית מִזְמ֥וֹר לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	018	001	לַמְנַצֵּ֤חַ ׀ לְעֶ֥בֶד יְהוָ֗ה לְדָ֫וִ֥ד אֲשֶׁ֤ר דִּבֶּ֨ר ׀ לַיהוָ֗ה אֶת־דִּ֭בְרֵי הַשִּׁירָ֣ה הַזֹּ֑את בְּי֤וֹם הִֽצִּיל־יְהוָ֘ה אוֹת֥וֹ מִכַּ֥ף כָּל־אֹ֝יְבָ֗יו וּמִיַּ֥ד שָׁאֽוּל׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	019	001	לַמְנַצֵּ֗חַ מִזְמ֥וֹר לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	020	001	לַמְנַצֵּ֗חַ מִזְמ֥וֹר לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	021	001	לַמְנַצֵּ֗חַ מִזְמ֥וֹר לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	022	001	לַ֭מְנַצֵּחַ עַל־אַיֶּ֥לֶת הַשַּׁ֗חַר מִזְמ֥וֹר לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	030	001	מִזְמ֡וֹר שִׁיר־חֲנֻכַּ֖ת הַבַּ֣יִת לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	031	001	לַמְנַצֵּ֗חַ מִזְמ֥וֹר לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	034	001	לְדָוִ֗ד בְּשַׁנּוֹת֣וֹ אֶת־טַ֭עְמוֹ לִפְנֵ֣י אֲבִימֶ֑לֶךְ וַֽ֝יְגָרֲשֵׁ֗הוּ וַיֵּלַֽךְ׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	036	001	לַמְנַצֵּ֬חַ ׀ לְעֶֽבֶד־יְהוָ֬ה לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	038	001	מִזְמ֖וֹר לְדָוִ֣ד לְהַזְכִּֽיר׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	039	001	לַמְנַצֵּ֥חַ לידיתון מִזְמ֥וֹר לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	040	001	לַ֝מְנַצֵּ֗חַ לְדָוִ֥ד מִזְמֽוֹר׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	041	001	לַמְנַצֵּ֗חַ מִזְמ֥וֹר לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	042	001	לַמְנַצֵּ֗חַ מַשְׂכִּ֥יל לִבְנֵי־קֹֽרַח׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	044	001	לַמְנַצֵּ֬חַ לִבְנֵי־קֹ֬רַח מַשְׂכִּֽיל׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	045	001	לַמְנַצֵּ֣חַ עַל־שֹׁ֭שַׁנִּים לִבְנֵי־קֹ֑רַח מַ֝שְׂכִּ֗יל שִׁ֣יר יְדִידֹֽת׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	046	001	לַמְנַצֵּ֥חַ לִבְנֵי־קֹ֑רַח עַֽל־עֲלָמ֥וֹת שִֽׁיר׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	047	001	לַמְנַצֵּ֬חַ ׀ לִבְנֵי־קֹ֬רַח מִזְמֽוֹר׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	048	001	שִׁ֥יר מִ֝זְמוֹר לִבְנֵי־קֹֽרַח׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	049	001	לַמְנַצֵּ֬חַ ׀ לִבְנֵי־קֹ֬רַח מִזְמֽוֹר׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	051	001	לַמְנַצֵּ֗חַ מִזְמ֥וֹר לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	051	002	בְּֽבוֹא־אֵ֭לָיו נָתָ֣ן הַנָּבִ֑יא כַּֽאֲשֶׁר־בָּ֝֗א אֶל־בַּת־שָֽׁבַע׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	052	001	לַמְנַצֵּ֗חַ מַשְׂכִּ֥יל לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	052	002	בְּב֤וֹא ׀ דּוֹאֵ֣ג הָאֲדֹמִי֮ וַיַּגֵּ֪ד לְשָׁ֫א֥וּל וַיֹּ֥אמֶר ל֑וֹ בָּ֥א דָ֝וִ֗ד אֶל־בֵּ֥ית אֲחִימֶֽלֶךְ׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	053	001	לַמְנַצֵּ֥חַ עַֽל־מָחֲלַ֗ת מַשְׂכִּ֥יל לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	054	001	לַמְנַצֵּ֥חַ בִּנְגִינֹ֗ת מַשְׂכִּ֥יל לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	054	002	בְּב֣וֹא הַ֭זִּיפִים וַיֹּאמְר֣וּ לְשָׁא֑וּל הֲלֹ֥א דָ֝וִ֗ד מִסְתַּתֵּ֥ר עִמָּֽנוּ׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	055	001	לַמְנַצֵּ֥חַ בִּנְגִינֹ֗ת מַשְׂכִּ֥יל לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	056	001	לַמְנַצֵּ֤חַ ׀ עַל־י֬וֹנַת אֵ֣לֶם רְ֭חֹקִים לְדָוִ֣ד מִכְתָּ֑ם בֶּֽאֱחֹ֨ז אֹת֖וֹ פְלִשְׁתִּ֣ים בְּגַֽת׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	057	001	לַמְנַצֵּ֣חַ אַל־תַּ֭שְׁחֵת לְדָוִ֣ד מִכְתָּ֑ם בְּבָרְח֥וֹ מִפְּנֵי־שָׁ֝א֗וּל בַּמְּעָרָֽה׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	058	001	לַמְנַצֵּ֥חַ אַל־תַּשְׁחֵ֗ת לְדָוִ֥ד מִכְתָּֽם׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	059	001	לַמְנַצֵּ֣חַ אַל־תַּשְׁחֵת֮ לְדָוִ֪ד מִ֫כְתָּ֥ם בִּשְׁלֹ֥חַ שָׁא֑וּל וַֽיִּשְׁמְר֥וּ אֶת־הַ֝בַּ֗יִת לַהֲמִיתֽוֹ׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	060	001	לַ֭מְנַצֵּחַ עַל־שׁוּשַׁ֣ן עֵד֑וּת מִכְתָּ֖ם לְדָוִ֣ד לְלַמֵּֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	060	002	בְּהַצּוֹת֨וֹ ׀ אֶ֥ת אֲרַ֣ם נַהֲרַיִם֮ וְאֶת־אֲרַ֪ם צ֫וֹבָ֥ה וַיָּ֤שָׁב יוֹאָ֗ב וַיַּ֣ךְ אֶת־אֱד֣וֹם בְּגֵיא־מֶ֑לַח שְׁנֵ֖ים עָשָׂ֣ר אָֽלֶף׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	061	001	לַמְנַצֵּ֬חַ ׀ עַֽל־נְגִינַ֬ת לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	062	001	לַמְנַצֵּ֥חַ עַֽל־יְדוּת֗וּן מִזְמ֥וֹר לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	063	001	מִזְמ֥וֹר לְדָוִ֑ד בִּ֝הְיוֹת֗וֹ בְּמִדְבַּ֥ר יְהוּדָֽה׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	064	001	לַמְנַצֵּ֗חַ מִזְמ֥וֹר לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	065	001	לַמְנַצֵּ֥חַ מִזְמ֗וֹר לְדָוִ֥ד שִֽׁיר׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	067	001	לַמְנַצֵּ֥ח בִּנְגִינֹ֗ת מִזְמ֥וֹר שִֽׁיר׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	068	001	לַמְנַצֵּ֥חַ לְדָוִ֗ד מִזְמ֥וֹר שִֽׁיר׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	069	001	לַמְנַצֵּ֬חַ עַֽל־שׁוֹשַׁנִּ֬ים לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	070	001	לַ֝מְנַצֵּ֗חַ לְדָוִ֥ד לְהַזְכִּֽיר׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	075	001	לַמְנַצֵּ֥חַ אַל־תַּשְׁחֵ֑ת מִזְמ֖וֹר לְאָסָ֣ף שִֽׁיר׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	076	001	לַמְנַצֵּ֥חַ בִּנְגִינֹ֑ת מִזְמ֖וֹר לְאָסָ֣ף שִֽׁיר׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	077	001	לַמְנַצֵּ֥חַ עַֽל־ידיתון לְאָסָ֥ף מִזְמֽוֹר׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	080	001	לַמְנַצֵּ֥חַ אֶל־שֹׁשַׁנִּ֑ים עֵד֖וּת לְאָסָ֣ף מִזְמֽוֹר׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	081	001	לַמְנַצֵּ֬חַ ׀ עַֽל־הַגִּתִּ֬ית לְאָסָֽף׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	083	001	שִׁ֖יר מִזְמ֣וֹר לְאָסָֽף׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	084	001	לַמְנַצֵּ֥חַ עַֽל־הַגִּתִּ֑ית לִבְנֵי־קֹ֥רַח מִזְמֽוֹר׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	085	001	לַמְנַצֵּ֬חַ ׀ לִבְנֵי־קֹ֬רַח מִזְמֽוֹר׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	088	001	שִׁ֥יר מִזְמ֗וֹר לִבְנֵ֫י קֹ֥רַח לַמְנַצֵּ֣חַ עַל־מָחֲלַ֣ת לְעַנּ֑וֹת מַ֝שְׂכִּ֗יל לְהֵימָ֥ן הָאֶזְרָחִֽי׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	089	001	מַ֝שְׂכִּ֗יל לְאֵיתָ֥ן הָֽאֶזְרָחִֽי׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	092	001	מִזְמ֥וֹר שִׁ֗יר לְי֣וֹם הַשַּׁבָּֽת׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	102	001	תְּ֭פִלָּה לְעָנִ֣י כִֽי־יַעֲטֹ֑ף וְלִפְנֵ֥י יְ֝הוָ֗ה יִשְׁפֹּ֥ךְ שִׂיחֽוֹ׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	108	001	שִׁ֖יר מִזְמ֣וֹר לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	140	001	לַמְנַצֵּ֗חַ מִזְמ֥וֹר לְדָוִֽד׃
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	142	001	מַשְׂכִּ֥יל לְדָוִ֑ד בִּהְיוֹת֖וֹ בַמְּעָרָ֣ה תְפִלָּֽה׃
 Holy-Bible---Hindi---Contemporary	064	3JO	001	014	मेरी आशा है कि मैं तुमसे बहुत जल्द भेंटकर आमने-सामने आपस में बातचीत करूंगा.
 Holy-Bible---Hindi---Hindi-Bible	064	3JO	001	014	पर मुझे आशा है कि तुझ से शीघ्र भेंट करूँगा: तब हम आमने-सामने बातचीत करेंगे:
 Holy-Bible---Hindi---Hindi-Bible	066	REV	012	018	और वह समुद्र के रेत पर जा खड़ा हुआ।
@@ -6583,6 +6764,8 @@ Holy-Bible---Icelandic---Open-Living-Word	019	PSA	140	001	Ó, Drottinn, frelsað
 Holy-Bible---Icelandic---Open-Living-Word	064	3JO	001	014	því að ég vona að ég muni sjá þig fljótlega og þá getum við rætt saman.
 Holy-Bible---Icelandic---Open-Living-Word	066	REV	012	018	Og drekinn nam staðar á ströndinni.
 Holy-Bible---Igbo---Igbo-Bible	064	3JO	001	014	Ọ bụ olileanya m ịbịa ịhụ gị nʼoge na-adịghị anya. Mgbe ahụ anyị ga-anọdụ ala kwuo ihe niile nʼihu nʼihu.
+Holy-Bible---Ikizu---Ikizu-Bible	064	3JO	001	014	Kutiga gayo niriisega kʉkʉtaarɨra haguhɨbhu na kwibhisirya hamwɨmwɨ.
+Holy-Bible---Ikizu---Ikizu-Bible	066	REV	012	018	Mmbe, ogozoka gukiimɨɨrɨra rusizʉ wɨ ɨnyanza.
 Holy-Bible---Ilocano---Ilocano-Bible	004	NUM	014	036	-
 Holy-Bible---Ilocano---Ilocano-Bible	004	NUM	016	039	-
 Holy-Bible---Ilocano---Ilocano-Bible	013	1CH	004	017	-
@@ -6609,6 +6792,8 @@ Holy-Bible---Ilocano---Ilocano-Bible	044	ACT	024	007
 Holy-Bible---Ilocano---Ilocano-Bible	044	ACT	028	029	
 Holy-Bible---Ilocano---Ilocano-Bible	064	3JO	001	014	Ngem namnamaek a makitaka iti mabiit, ken agsaritatanto iti rupan-rupa.
 Holy-Bible---Ilocano---Ilocano-Bible	066	REV	012	018	Ket nagtakder ti dragon iti kadaratan iti igid ti baybay.
+Holy-Bible---Ilonggo---Hiligaynon-Free-Bible	064	3JO	001	014	Maestoryahanay lang kita ugaling kon mag-abot ako dira, kay nagalaom ako nga makakitaay kita sa labing madali.
+Holy-Bible---Ilonggo---Hiligaynon-Free-Bible	066	REV	012	018	Kag nagtindog ang dragon sa baybayon.
 Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari	001	GEN	001	007	
 Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari	001	GEN	001	015	
 Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari	001	GEN	006	010	
@@ -8329,9 +8514,14 @@ Holy-Bible---Japanese---New-Japanese-New-Testament	066	REV	012	018	そして、�
 Holy-Bible---Juray---Juray-Bible	064	3JO	001	014	ଞେନ୍‌ ଅମଙ୍‌ବେନ୍‌ ଇୟ୍‌ଲାୟ୍‌ ଡେନ୍‌ ଆମ୍ୱେଞ୍ଜି ସରିନ୍‌ ଇୟ୍‌ତାୟ୍‌ କଡାଡ଼ିନାୟ୍‌ ଗାମ୍‌ଲେ ଞେନ୍‌ ଆସାତନାୟ୍‌ ।
 Holy-Bible---Juray---Juray-Bible	066	REV	012	018	ଆରି, ଆନିନ୍‌ ଅନେଙ୍‌ ସମେଁୟ୍‌ଣ୍ଡ୍ରାନ୍‌ ଆ ଲକିୟ୍‍ଲୋଙ୍‍ ତନଙେନ୍‌ ।
 Holy-Bible---Kamano---Kamano-Kafe	064	3JO	001	014	Hianagi mensintfana tamagenakure hu'na nagesa nentahue, magopi mani'neta keaga hanunegu nehue.
+Holy-Bible---Kannada---Indian-Revised-Version	064	3JO	001	014	ನಾನು ಬೇಗನೆ ಬಂದು ನಿನ್ನನ್ನು ನೋಡುವೆನೆಂದು ನಿರೀಕ್ಷಿಸುತ್ತೇನೆ. ಆಗ ನಾವು ಮುಖಾ ಮುಖಿಯಾಗಿ ಮಾತನಾಡೋಣ.
+Holy-Bible---Kannada---Indian-Revised-Version	066	REV	012	018	ಸಮುದ್ರ ತೀರದ ಮರಳಿನ ಮೇಲೆ ನಿಂತನು.
 Holy-Bible---Kannada---Kannada-Bible	064	3JO	001	014	ನಾನು ಬೇಗನೆ ಬಂದು ನಿನ್ನನ್ನು ನೋಡುವೆನೆಂದು ನಿರೀಕ್ಷಿಸುತ್ತೇನೆ. ಆಗ ನಾವು ಮುಖಾ ಮುಖಿಯಾಗಿ ಮಾತನಾಡೋಣ.
 Holy-Bible---Kannada---Kannada-Bible	066	REV	012	018	ಸಮುದ್ರ ತೀರದ ಮರಳಿನ ಮೇಲೆ ನಿಂತನು.
 Holy-Bible---Kannada---Open-Contemporary	064	3JO	001	014	ಬೇಗನೆ ನಿನ್ನನ್ನು ನೋಡುವೆನೆಂದು ನಿರೀಕ್ಷಿಸುತ್ತೇನೆ. ಆಗ ಮುಖಾಮುಖಿಯಾಗಿ ನಾವು ಮಾತನಾಡುವೆವು.
+Holy-Bible---Kannada---Siddi-Bible	042	LUK	017	036	
+Holy-Bible---Kannada---Siddi-Bible	064	3JO	001	014	ಲಗ್ಗುನಾ ಮಿಯಾ ತುಜ್ಯಾಕ್ಡೆ ಯೆತಾ ಮನುನ್ ಮಿಯಾ ಬರೊಸೊ ಕರ್ತಾ; ತನ್ನಾ ಅಮಿ ದೊಗೆ ಜಾನಾ ಮಿಳುನ್ ಬೊಲುವ್ವಾ.
+Holy-Bible---Kannada---Siddi-Bible	066	REV	012	018	ಅನಿ ತೊ ಭಯಾನಕ್ ಸಾಪ್ ಸಮುಂದರಾಚ್ಯಾ ದಂಡೆರ್ ಇಬೆ ರ್‍ಹಾಲೊ.
 Holy-Bible---Kara---Kara-Bible	044	ACT	024	006	
 Holy-Bible---Kara---Kara-Bible	044	ACT	024	007	
 Holy-Bible---Kara---Kara-Bible	045	ROM	016	024	
@@ -8347,6 +8537,85 @@ Holy-Bible---Kisi---Kisi-Bible	040	MAT	023	014
 Holy-Bible---Kisi---Kisi-Bible	044	ACT	028	029	
 Holy-Bible---Kisi---Kisi-Bible	064	3JO	001	014	Bali nitarajila kutubhona karibuni apa, na twibetakumbona kulongela naghwe pamihu kwa pamihu.
 Holy-Bible---Kisi---Kisi-Bible	066	REV	012	018	Kisha lijhoka likajhema panani pa n'sanga mu ufukwe bhwa bahari.
+Holy-Bible---Kituba---Kituba-Bible	004	NUM	025	019	Na manima ya kiyoolo yina,
+Holy-Bible---Kituba---Kituba-Bible	009	1SA	020	042	Yonatane tubaka na Davidi: «Kwenda na kizunu, samu ti beto kudyaka ndefi na Nkumbu ya Yave. Beto tubaka: “Bika Yave kuvwanda bantangu nyonso na kati ya munu na nge. Yandi kuvwanda na kati ya dikanda ya nge mpe dikanda ya munu.”»
+Holy-Bible---Kituba---Kituba-Bible	011	1KI	022	043	Na mambu nyonso, Yosafate vwandaka landa nzila ya tata ya yandi Asa. Yandi bikaka yawu ve mpe vwandaka sadila mambu ya kudedama na mantwala ya Yave.
+Holy-Bible---Kituba---Kituba-Bible	013	1CH	012	004	Isemaya, mu-Ngabawone, yandi vwandaka muntu ya ngolo na kati ya makumi tatu ya binwani mpe, mfumu ya binwani makumi tatu,
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	003	001	Mukunga yina Davidi yimbilaka na ntangu yina yandi vwandaka kima Abesalome, mwana ya yandi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	004	001	Mukunga ya mfumu ya miyimbidi, ba ke yimbilaka yawu na bansambi. Mukunga ya Davidi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	005	001	Mukunga ya mfumu ya miyimbidi, ba ke yimbilaka yawu na matuutu. Mukunga ya Davidi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	006	001	Mukunga ya mfumu ya miyimbidi, ba ke yimbilaka yawu na nsambi, na nsambi ya basinga nana. Mukunga ya Davidi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	007	001	Mukunga ya kyadi ya Davidi yina yandi yimbilaka Yave samu na Kuse, mu-Bezame.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	008	001	Mukunga ya mfumu ya miyimbidi, ba ke yimbilaka yawu na muningu ya nsambi ya Ngate. Mukunga ya Davidi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	009	001	Mukunga ya mfumu ya miyimbidi, ba ke yimbilaka yawu na muningu ya «Mute-Labene.» Mukunga ya Davidi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	012	001	Mukunga ya mfumu ya miyimbidi, ba ke yimbilaka yawu na nsambi ya basinga nana. Mukunga ya Davidi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	018	001	Mukunga ya mfumu ya miyimbidi. Mukunga ya Davidi kisyelo ya Yave. Yandi tangaka mambu yayi na kati ya mukunga, na kilumbu yina Yave kuulaka yandi na maboko ya bambeni ya yandi nyonso mpe na maboko ya Sawule.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	019	001	Mukunga ya mfumu ya miyimbidi. Mukunga ya Davidi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	020	001	Mukunga ya mfumu ya miyimbidi. Mukunga ya Davidi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	021	001	Mukunga ya mfumu ya miyimbidi. Mukunga ya Davidi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	022	001	Mukunga ya mfumu ya miyimbidi. Mukunga ya Davidi. Na muningu ya «Nkabi ya suka-suka.»
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	030	001	Mukunga samu na mukembo ya mbyekolo ya Yinzo ya Yave. Mukunga ya Davidi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	031	001	Mukunga ya mfumu ya miyimbidi. Mukunga ya Davidi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	034	001	Mukunga ya Davidi. Yayi ni mukunga yina Davidi yimbilaka ntangu yandi vunaka bulawu na mantwala ya ntinu Abimeleke. Ntinu bingisaka yandi mpe Davidi kwendaka.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	036	001	Mukunga ya mfumu ya miyimbidi. Mukunga ya Davidi, kisyelo ya Yave.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	038	001	Mukunga ya Davidi, mukunga samu na kubambukaka moyo.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	039	001	Mukunga ya Davidi, mukunga yina ba twadisaka na mfumu ya miyimbidi, mukunga ya Yedutune.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	040	001	Mukunga ya Davidi, mukunga yina ba twadisaka na mfumu ya miyimbidi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	041	001	Mukunga ya Davidi. Mukunga yina ba twadisaka na mfumu ya miyimbidi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	042	001	Mukunga ya bana ya Kole. Mukunga yina ba twadisaka na mfumu ya miyimbidi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	044	001	Mukunga ya bana ya Kole. Mukunga yina ba twadisaka na mfumu ya miyimbidi. Malongi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	045	001	Mukunga ya luzolo. Mukunga ya bana ya Kole yina ba yimbilaka na muningu ya nsambi, na lutwadusu ya mfumu ya miyimbidi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	046	001	Mukunga ya bana ya Kole yina ba yimbilaka na lutwadusu ya mfumu ya miyimbidi. Ba yimbilaka yawu na nsambi yina ke pesaka ndinga ya fyoti.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	047	001	Mukunga ya bana ya Kole yina ba yimbilaka na lutwadusu ya mfumu ya miyimbidi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	048	001	Mukunga ya bana ya Kole.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	049	001	Mukunga ya bana ya Kole yina ba yimbilaka na lutwadusu ya mfumu ya miyimbidi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	051	001	Mukunga ya Davidi, mukunga yina ba twadisaka na mfumu ya miyimbidi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	051	002	Ntinu Davidi vukisaka mfulu na Bateseba. Mumbikudi Natane kwendaka tala Davidi mpe Davidi tubaka:
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	052	001	Mukunga ya Davidi, mukunga yina ba twadisaka na mfumu ya miyimbidi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	052	002	Ntangu Dowenge, mu-Edome kwizaka zabisa Sawule mutindu yayi: «Davidi me kwenda na sika ya Ayimeleke.»
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	053	001	Mukunga ya Davidi. Mukunga yina ba twadisaka na mfumu ya miyimbidi, ba ke yimbilaka yawu na muningu ya dituutu.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	054	001	Mukunga ya Davidi. Mukunga yina ba twadisaka na mfumu ya miyimbidi, ba ke yimbilaka yawu na muningu ya nsambi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	054	002	Ntangu bantu ya Zife kwizaka tuba na Sawule ti: «Davidi kele ya kubumbama na sika ya beto.»
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	055	001	Mukunga ya Davidi. Mukunga yina ba twadisaka na mfumu ya miyimbidi, ba ke yimbilaka yawu na muningu ya nsambi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	056	001	Mukunga ya Davidi. Mukunga yina ba twadisaka na mfumu ya miyimbidi. Ba yimbilaka yawu na muningu ya «Dibembe ya batelembente ya bizunga ya ntama.» Ba yimbilaka yawu ntangu ba-Filiseti simbaka Davidi kuna na Ngate.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	057	001	Mukunga ya Davidi. Mukunga yina ba twadisaka na mfumu ya miyimbidi. Ba yimbilaka yawu na muningu ya mukunga «Kumwangisa ve!» Ntangu Davidi kwendaka bumbama na kati ya ntadi samu na kukima Sawule.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	058	001	Mukunga ya Davidi, mukunga yina ba twadisaka na mfumu ya miyimbidi. Ba yimbilaka yawu na muningu ya mukunga «Kumwangisa ve!»
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	059	001	Mukunga ya Davidi. Mukunga yina ba twadisaka na mfumu ya miyimbidi. Ba yimbilaka yawu na muningu ya mukunga «Kumwangisa ve!» Na ntangu yina Sawule tumisaka bantu na kwenda kengidila yinzo ya Davidi samu na kufwa yandi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	060	001	Mukunga ya Davidi. Mukunga yina ba twadisaka na mfumu ya miyimbidi. Ba yimbilaka yawu na muningu ya nsambi. Mukunga ya kimbangi samu na kulonga bantu,
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	060	002	ntangu yandi nwanisaka bantu ya yinsi ya Alame ya Mezopotami, na ba-Alame ya Soba. Na kuvutuka ya yandi, Yowabe nungaka bantu ya Edome. Yandi kufwaka mafunda kumi na zole   ya bantu, kuna na Mudimba ya Mungwa.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	061	001	Mukunga ya Davidi. Mukunga yina ba twadisaka na mfumu ya miyimbidi, ba ke yimbilaka yawu na muningu ya nsambi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	062	001	Mukunga ya Davidi. Mukunga yina ba twadisaka na mfumu ya miyimbidi. Mukunga ya Yedutune.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	063	001	Mukunga ya Davidi ntangu yandi vwandaka na yinsi ya kuyuma ya Yuda
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	064	001	Mukunga ya Davidi. Mukunga yina ba twadisaka na mfumu ya miyimbidi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	065	001	Mukunga ya Davidi. Mukunga yina ba twadisaka na mfumu ya miyimbidi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	067	001	Mukunga yina ba twadisaka na mfumu ya miyimbidi, ba ke yimbilaka yawu na muningu ya nsambi. Mukunga.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	068	001	Mukunga ya Davidi. Mukunga yina ba twadisaka na mfumu ya miyimbidi. Mukunga.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	069	001	Mukunga ya Davidi. Mukunga yina ba twadisaka na mfumu ya miyimbidi, ba ke yimbilaka yawu na muningu ya mukunga ya Bifulu
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	070	001	Mukunga ya Davidi. Mukunga yina ba twadisaka na mfumu ya miyimbidi. Mukunga samu na kubambukaka Nzambi moyo.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	075	001	Mukunga ya Asafe, mukunga yina ba twadisaka na mfumu ya miyimbidi. «Kumwangisa ve!» Mukunga.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	076	001	Mukunga ya Asafe, mukunga yina ba twadisaka na mfumu ya miyimbidi, ba ke yimbilaka yawu na muningu ya nsambi. Mukunga.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	077	001	Mukunga ya Asafe, mukunga yina ba twadisaka na mfumu ya miyimbidi. Mukunga ya Yedutune.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	080	001	Mukunga ya Asafe, mukunga yina ba twadisaka na mfumu ya miyimbidi, ba yimbilaka yawu na muningu ya nsambi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	081	001	Mukunga ya Asafe, mukunga yina ba twadisaka na mfumu ya miyimbidi, ba yimbilaka yawu na muningu ya nsambi ya Ngate.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	083	001	Mukunga ya Asafe.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	084	001	Mukunga ya bana ya Kole, mukunga yina ba twadisaka na mfumu ya miyimbidi, ba yimbilaka yawu na muningu ya nsambi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	085	001	Mukunga ya bana ya Kole, mukunga yina ba twadisaka na mfumu ya miyimbidi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	088	001	Mukunga ya bana ya Kole. Mukunga yina ba twadisaka na mfumu ya miyimbidi. Ba ke yimbilaka yawu na muningu ya dituutu. Mukunga ya Yemane, mu-Ezelayi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	089	001	Mukunga ya Etane, mu-Ezelayi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	092	001	Mukunga samu na kilumbu ya saba.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	102	001	Lusambulu ya mputu yina me lemba mpe ke na kutalisa mpasi ya yandi na Yave.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	108	001	Mukunga ya Davidi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	140	001	Mukunga ya Davidi. Mukunga yina ba yimbilaka na lutwadusu ya mfumu ya miyimbidi.
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	142	001	Mukunga ya Davidi, ntangu yandi vwandaka ya bumbamaka na kati ya ntadi. Lusambulu.
+Holy-Bible---Kituba---Kituba-Bible	064	3JO	001	014	samu ti mu ke na kivuvu ya kutalana na nge na bilumbu ke kwiza, mpe beto ke solola mbombo na mbombo.
+Holy-Bible---Kituba---Kituba-Bible	066	REV	012	018	Na manima, dalango kwendaka telama na kumu ya mubu.
+Holy-Bible---Kizalamo---Zaramo-Kizalamo-Bible	064	3JO	001	014	Kipigiti kidodo hamwande notamanila kuiting'hana namwe tulongelele kihanga kwa kihanga.
+Holy-Bible---Kizalamo---Zaramo-Kizalamo-Bible	066	REV	012	018	Abaho, dija idizoka dima mulusanga mumgwazo wa ibahali.
+Holy-Bible---Kolami-Southeastern---Kolami-Bible	044	ACT	008	037	
+Holy-Bible---Kolami-Southeastern---Kolami-Bible	064	3JO	001	014	గని అన్ ఇన్ జలాది ఓలతిసా ఆస ఇటడాన్. అప్పుడ్ నేమ్ మొకా ఓల్సా ముట్టం.
+Holy-Bible---Kolami-Southeastern---Kolami-Bible	066	REV	012	018	అదుంఙ్ సటీ ఆ దండి పామ్ సముద్ర డర్డిత్ ఇసుకత్ ఇలుత్ అన్సాద్
+Holy-Bible---Konda-Dora---Konda-Porja-Bible	064	3JO	001	014	ମି ୱାଲେ ବେଟ୍‌ ଆନା ଇଜିନା ଆସା ନାସ୍ତିୱାଲେ ମାଡୁ ସାମ୍‌ନାସାମ୍‌ନି ଆଜି ୱାର୍‌ଗିଜିସାନାଟ୍‌ ।
+Holy-Bible---Konda-Dora---Konda-Porja-Bible	066	REV	012	018	ମାରି ସୟତାନ ସାମୁଦୁର୍‍ଦି ପାଡ଼ି ସଲ୍‍ସି ନିରାନ୍ ।
 Holy-Bible---Korean---Korean-RV	004	NUM	001	038	베냐민 지파의 계수함을 입은 자가 삼만 오천 사백명이었더라
 Holy-Bible---Korean---Korean-RV	004	NUM	001	039	단의 아들들에게서 난 자를 그들의 가족과 종족을 따라 이십세 이상으로 싸움에 나갈 만한 자를 그 명수대로 다 계수하니
 Holy-Bible---Korean---Korean-RV	005	DEU	002	013	이제 너희는 일어나서 세렛 시내를 건너가라 하시기로 우리가 세렛 시내를 건넜으니
@@ -8379,11 +8648,15 @@ Holy-Bible---Korean---Korean-Revised-Version	064	3JO	001	014	속히 보기를 �
 Holy-Bible---Kosraean---Kosraean-Bible	044	ACT	024	007	
 Holy-Bible---Kosraean---Kosraean-Bible	064	3JO	001	014	Nga finsrak mu ngan sun kom ke pacl na fototo, na kut ac fah ngetani ac sramsram.
 Holy-Bible---Kosraean---Kosraean-Bible	066	REV	012	018	Ac dragon el tu fin puk weacn uh.
+Holy-Bible---Koya---Koya-Bible	064	3JO	001	014	ମୀଇ ତଡ଼୍ କାୟ୍‍ଲିତାନ୍‍ ଇଞ୍ଜ୍ ନାୟାଦ୍ ଆଶେ । ଆସୁଙ୍ଗ୍ ବ୍ୟକ୍ତିଗତ ବାବେ ଗଟି ଆଦିକାଡ଼୍‍ ।
+Holy-Bible---Koya---Koya-Bible	066	REV	012	018	ମେଣ୍ଡେ ଅଣ୍ଡ୍‌ ସମୁଦ୍ରତେ ଉସ୍କତ୍‍ ପରୁ ନିତ୍‍ତେ ।
 Holy-Bible---Kuhane---Kuhane-Bible	044	ACT	024	007	
 Holy-Bible---Kuhane---Kuhane-Bible	064	3JO	001	014	Ni libelele ku kuvona lyahanu, mi katuwambe menso cha menso.
 Holy-Bible---Kuhane---Kuhane-Bible	066	REV	012	018	Mi kuzwa aho i dilagoni chilya zimana halusekeseke lwa helizo lye wate.
 Holy-Bible---Kuhane---Kuhane-Bible	066	REV	021	013	
 Holy-Bible---Kurdish---Sorani-Bible	064	3JO	001	014	بەڵکو ئومێدەوارم بەم زووانە بتبینم تاکو ڕووبەڕوو قسە بکەین.
+Holy-Bible---Kutu---Kutu-Bible	064	3JO	001	014	kwavija sambi baha nogesa kukona, na tolonga meso kwa meso.
+Holy-Bible---Kutu---Kutu-Bible	066	REV	012	018	Abaho zoka dijo dima kumgwazo wa bahali.
 Holy-Bible---Kuvi---Kuvi-Bible	064	3JO	001	014	ମା଼ର ମୂମ୍ବୁ ମେସ୍‌ପି ଆ଼ହାନା ଜ଼ଲ୍‌କି ଆୟାଲି ଆ଼ଡିନାୟି ଇଞ୍ଜିଁ ଆ଼ସା କିହିମାଇଁ ।
 Holy-Bible---Kuvi---Kuvi-Bible	066	REV	012	018	ଇଞ୍ଜାଁ ରା଼ଚୁ ସାମ୍‌ଦୁରି ଗାଟୁତି ବାଃଲିତା ନିତେ ।
 Holy-Bible---Latin---Clementine-Vulgate-1598	004	NUM	020	028	Cumque Aaron spoliasset vestibus suis, induit eis Eleazarum filium ejus.
@@ -10535,8 +10808,14 @@ Holy-Bible---Lodhi---Lodhi-Bible	064	3JO	001	014	पर मोख आशा ह�
 Holy-Bible---Lodhi---Lodhi-Bible	066	REV	012	018	अऊर ऊ सांप समुन्दर को किनार पर खड़ो भय गयो।
 Holy-Bible---Luganda---Luganda-Bible	064	3JO	001	014	kubanga nsuubira okukulaba mu bbanga ttono. Kale olwo tuliba na bingi eby’okwogerako ffembi nga tulabaganye amaaso n’amaaso.
 Holy-Bible---Luganda---Luganda-Bible	066	REV	012	018	Ne guyimirira ku lubalama lw’ennyanja.
+Holy-Bible---Lungga---Lungga-Bible	064	3JO	001	014	Qa gigila vatalea ara sa mina oqoro sovai sa kode mana batigo gu, ko tonai tu tana vaigosoro sosoto poni sa tana kole mekarai vaivavakato.
+Holy-Bible---Lungga---Lungga-Bible	066	REV	012	018	Ko sa kole gu turuona pana nagasana pa nole sa na ratovo.
+Holy-Bible---Luyana---Luyana-Bible	064	3JO	001	014	Kame ni nahana oku kumona wangu, mi mba twambola ni wene ni kanwa.
+Holy-Bible---Luyana---Luyana-Bible	066	REV	012	018	mi sebeli siimana ba likamba no liwate.
 Holy-Bible---Mahasu-Pahari---Baghlayani-Bible	064	3JO	001	014	पर माखे उम्मीद ए कि तां साथे चट ई मिलूँगा। तेबे आसा आमणे-सामणे गल्ल-बात करनी।
 Holy-Bible---Mahasu-Pahari---Baghlayani-Bible	066	REV	012	018	और से अजगर समुद्रो रे कनारे पाँदे जायी की खड़ा ऊईगा।
+Holy-Bible---Makhuwa-Meetto---Makua-Bible	064	3JO	001	014	Ukhalhawaya kihokhulhuvelha uwoonani phiyaru, vavawo etu ninowa nolhumacha ni woopa mwaha noonanaka wo miitho.
+Holy-Bible---Makhuwa-Meetto---Makua-Bible	066	REV	012	018	Paahi, inwaa iyo nkayeechemesha vachengweni vachereshere ibahari.
 Holy-Bible---Malagasy---Malagasy-Bible	009	1SA	020	042	Ary hoy Jonatana tamin’ i Davida: Mandehana soa aman-tsara; fa efa nianiana tamin’ ny anaran’ i Jehovah isika roa lahy hoe: Jehovah no vavolombelona amiko sy aminao ary amin’ ny taranako sy ny taranakao mandrakizay.
 Holy-Bible---Malagasy---Malagasy-Bible	011	1KI	022	043	Ary nandeha tamin’ ny lalana rehetra izay nalehan’ i Asa rainy izy ka tsy niala tamin’ izany, fa nanao izay mahitsy eo imason’ i Jehovah;
 Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	003	001	Salamo nataon’ i Davida, fony izy nandositra an’ i Absaloma zanany.
@@ -10632,10 +10911,21 @@ Holy-Bible---Malayalam---Contemporary	064	3JO	001	014	ഉടനെ നിന്�
 Holy-Bible---Malayalam---Malayalam-Bible	064	3JO	001	014	എന്നാൽ ഞാൻ വേഗത്തിൽ നിന്നെ കാണ്മാൻ ആശിക്കുന്നു. അപ്പോൾ നമുക്ക് മുഖാമുഖമായി സംസാരിക്കാം.
 Holy-Bible---Malayalam---Malayalam-Bible	066	REV	012	018	പിന്നെ സർപ്പം കടൽപ്പുറത്തെ മണലിന്മേൽ നിന്നു.
 Holy-Bible---Malayalam---Malayalam-Bible-1910	064	3JO	001	014	വേഗത്തിൽ നിന്നെ കാണ്മാൻ ആശിക്കുന്നു. അപ്പോൾ നമുക്കു മുഖാമുഖമായി സംസാരിക്കാം.
+Holy-Bible---Male---Maale-Bible	064	3JO	001	014	ዑኬ ታ ኔና ዛጋንዳኔ ጌዒ ታ ጉሙርቃኔ፤ ዬኖና ኑ ዎላ ካኣሚ ጌስታንዳኔ።
+Holy-Bible---Male---Maale-Bible	066	REV	012	018	ዼኤፖ ሾኦዣሢ ባዞ ዓጫ ዓኣ፥ ማኣሻላ ዔቄኔ።
 Holy-Bible---Manipuri---Meitei-Bible	064	3JO	001	014	Eina nahakka thuna unagani haina asa toujari aduga eikhoiga maiga maiga unaduna wari sanagani.
 Holy-Bible---Manipuri---Meitei-Bible	066	REV	012	018	Aduga chinglai aduna samudra mapanda leplammi.
 Holy-Bible---Marathi---Marathi-Bible	064	3JO	001	014	त्याऐवजी, तुला लवकर भेटण्याची मला आशा आहे. मग आपल्याला समोरासमोर बोलता येईल.
 Holy-Bible---Marathi---Marathi-Bible	066	REV	012	018	आणि तो अजगर समुद्राच्या वाळूवर उभा राहिला.
+Holy-Bible---Marathi---Marathi-Indian-Bible	064	3JO	001	014	तुमची भेट लवकरच होईल, अशी मला आशा आहे आणि तेव्हा आपण समोरासमोर बोलू.
+Holy-Bible---Marghi-South---Marghi-South-Bible	064	3JO	001	014	Ya vǝr yiwu ya shili ǝnga kusa aga ma sa ndǝr bama ǝnga bama.
+Holy-Bible---Marghi-South---Marghi-South-Bible	066	REV	012	018	Ənggau kǝ pabǝr vuwa ta taˈyi ar mǝshiˈwa nǝ miya dǝla nyi.
+Holy-Bible---Matengo---Amatengu-Bible	064	3JO	001	014	Nhobale kugubona eheno ndi patwiilongila koni tubonana ana kwa ana.
+Holy-Bible---Matengo---Amatengu-Bible	066	REV	012	018	Ndienu, gujoka gola gwajema mu lutengu ju nhanga.
+Holy-Bible---Melo---Melo-Bible	064	3JO	001	014	ዝን ታኒ ኡከር ዎል ሄሊ በአዳይስ ቆፕዛ፤ የ ዎደ ኑኒ ኦድንቶዳይ።
+Holy-Bible---Melo---Melo-Bible	066	REV	012	018	ዳዋይ አባ ላንቀ የዝ ሻፈል ኤቄዛ።
+Holy-Bible---Mpoto---Mpoto-Bible	064	3JO	001	014	Nambu nhobhalela kukubhona henu kateki, na panihapa anatulongila pamihu kwa pamihu.
+Holy-Bible---Mpoto---Mpoto-Bible	066	REV	012	018	Bhela lijoka lela lakajemiki panani ja luhanga lwa mumaheku gha bahali.
 Holy-Bible---Munda---Munda-Bible	064	3JO	001	014	ଆଇଙ୍ଗ୍‌ ଆମାଃଲଃ ଜାଲ୍‌ଦିଗିଇଙ୍ଗ୍‌ ନେପେଲା ମେନ୍ତେଇଙ୍ଗ୍‌ ଆସ୍ରାକାଦା, ଇମ୍‌ତା ଆଲାଙ୍ଗ୍‌ ବାରାନ୍‌କିନ୍‌ ନେପେଲ୍‌ରେଲାଙ୍ଗ୍‌ ଜାଗାରେୟା ମେନ୍ତେଇଙ୍ଗ୍‌ ସାନାଙ୍ଗ୍‌ତାନା ।
 Holy-Bible---Munda---Munda-Bible	066	REV	012	018	ଆଡଃ ଏନ୍‌ ମାରାଙ୍ଗ୍‌ ବିଙ୍ଗ୍‌ ଦରେୟା ଗେନାରେ ତିଙ୍ଗୁୟାନା ।
 Holy-Bible---Mwera---Mwera-Bible	064	3JO	001	014	Ikabheje shitubhonegane nikunguluka, tuli tutemi pamo.
@@ -10875,7 +11165,12 @@ Holy-Bible---Naga-Pidgin---Nagamese-Bible	064	3JO	001	014	Kintu moi tumikhan ke 
 Holy-Bible---Naga-Pidgin---Nagamese-Bible	066	REV	012	018	Titia etu ajgar samundar usorte khara korise.
 Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible	064	3JO	001	014	Nga tuungmaang eje ang lang sen damdoh elaang ih chomui suh ah, eno erah doh seng pupuh damdoh chomui ino ma roongwaan ih.
 Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible	066	REV	012	018	Eno dragoon ah juusih kaang ni chapta.
+Holy-Bible---Ncane---Ncane-Bible	044	ACT	015	034	
+Holy-Bible---Ncane---Ncane-Bible	064	3JO	001	014	N'yɛnɛ lɛ shɛɛ shige nto n'yɛŋ lo wo le, besa wo jɛme muh yɛde muh le bɛ ajii.
+Holy-Bible---Ncane---Ncane-Bible	066	REV	012	018	Yi mo yi gɛɛŋ yi tu yi lɛme ŋgɛɛme yi joo yì baaŋ le.
 Holy-Bible---Ndebele---Accessible-Bible	064	3JO	001	014	Ngithemba ukuthi ngizalibona masinyane lapho esizakhuluma khona ubuso ngobuso.
+Holy-Bible---Ndendeule---Ndendeule-Bible	064	3JO	001	014	Nambo nihobholela kukongana na mwenga pahina naha na peniya ndi natulongela pitupa kubhehe pamonga.
+Holy-Bible---Ndendeule---Ndendeule-Bible	066	REV	012	018	Peniya, lijhoka lyenio ngalijhemita muupele jha umbwane.
 Holy-Bible---Ndengereko---Ndengereko-Bible	040	MAT	018	011	
 Holy-Bible---Ndengereko---Ndengereko-Bible	041	MAR	015	028	
 Holy-Bible---Ndengereko---Ndengereko-Bible	043	JOH	007	053	
@@ -11026,6 +11321,16 @@ Holy-Bible---Norwegian---Norwegian-Student-Bible	019	PSA	142	001	Ein salme til l
 Holy-Bible---Oriya---Oriya-Bible	064	3JO	001	014	ମୋହର ଆଶା ଯେ, ଶୀଘ୍ର ତୁମ୍ଭ ସହିତ ଦେଖା ହେବ, ଆଉ ଆମ୍ଭେମାନେ ମୁଖାମୁଖି ହୋଇ କଥାବାର୍ତ୍ତା କରିବା।
 Holy-Bible---Oriya---Oriya-Bible	066	REV	012	018	ଆଉ ସେ ସମୁଦ୍ରର ବାଲୁକା ଉପରେ ଠିଆ ହେଲା।
 Holy-Bible---Oromo---New-World	064	3JO	001	014	Qooda kanaa ani dhiʼootti si arguuf abdii qaba; nus ifaan ifatti ni haasofna.
+Holy-Bible---Oromo---West-Central-Oromo-Bible	064	3JO	001	014	ቆደ ከና አን ዽኦት ስአርጉፍ አብዲ ቀበ፤ ኑስ እፋን እፈት ንሃሶፍነ።
+Holy-Bible---Oyda---Oyda-Bible-Latin	064	3JO	001	014	Yezin taanii ukkera neera yellinttodes koyane; ye wode neera ohinttoda.
+Holy-Bible---Oyda---Oyda-Bible-Latin	066	REV	012	018	dawize abba gaxa yeze shaftte eqqida.
+Holy-Bible---Oyda---Oyde-Bible-Ethiopic	064	3JO	001	014	የዝን ታኒ ኡከራ ኔራ የልንቶደስ ኮያነ፤ የ ዎደ ኔራ ኦህንቶዳ።
+Holy-Bible---Oyda---Oyde-Bible-Ethiopic	066	REV	012	018	ዳውዘ አባ ጋጻ የዘ ሻፍተ ኤቅዳ።
+Holy-Bible---Palaung-Shwe---Shwe-Palaung-Bible	041	MAR	007	016	
+Holy-Bible---Palaung-Shwe---Shwe-Palaung-Bible	041	MAR	009	044	
+Holy-Bible---Palaung-Shwe---Shwe-Palaung-Bible	041	MAR	009	046	
+Holy-Bible---Palaung-Shwe---Shwe-Palaung-Bible	041	MAR	011	026	
+Holy-Bible---Palaung-Shwe---Shwe-Palaung-Bible	041	MAR	015	028	
 Holy-Bible---Panjabi---Punjabi-Bible	064	3JO	001	014	ਪਰ ਮੈਨੂੰ ਆਸ ਹੈ ਕਿ ਤੈਨੂੰ ਜਲਦੀ ਮਿਲਾਂ। ਫਿਰ ਅਸੀਂ ਆਹਮਣੇ ਸਾਹਮਣੇ ਗੱਲਾਂ ਕਰਾਂਗੇ।
 Holy-Bible---Panjabi---Punjabi-Bible	066	REV	012	018	ਅਤੇ ਸਮੁੰਦਰ ਦੇ ਰੇਤੇ ਉੱਤੇ ਜਾ ਖਲੋਤਾ।
 Holy-Bible---Pengo---Pengo-Bible	064	3JO	001	014	ନା ଆହା ଜେ, ବେଗି ନି ଲାହାଙ୍ଗ୍‌ ହୁଡ଼୍‌କା ଆଦେଂ, ଆରେ ଆସେଙ୍ଗ୍‌ ବେଟା ଆଜ଼ି କାତାବାର୍ତା କିନାସ୍‌ ।
@@ -11148,6 +11453,9 @@ Holy-Bible---Portuguese---Free-for-All	044	ACT	028	029
 Holy-Bible---Portuguese---Free-for-All	045	ROM	016	024	
 Holy-Bible---Portuguese---Free-for-All	064	3JO	001	014	Espero vê-lo muito em breve, para que possamos conversar pessoalmente.
 Holy-Bible---Portuguese---Free-for-All	066	REV	012	018	
+Holy-Bible---Portuguese---Open-New-Bible	007	JDG	005	031	Assim, morram, ó Senhor, todos os seus inimigos! Mas os que amam o Senhor brilhem como brilha a força do sol nascente!”
+Holy-Bible---Portuguese---Open-New-Bible	009	1SA	020	042	Por fim, Jônatas disse a Davi: “Vá em paz, pois temos jurado um ao outro, em nome do Senhor, dizendo: ‘Seja o Senhor testemunha entre mim e você, entre minha descendência e sua descendência para sempre’ ”.
+Holy-Bible---Portuguese---Open-New-Bible	064	3JO	001	014	Pois espero vê-lo em breve, e então teremos muito o que conversar juntos.
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	064	3JO	001	014	Em vez disso espero [ir ]logo visitá-lo. Então poderemos conversar diretamente.
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	066	REV	012	018	O dragão ficou em pé na praia do mar.
 Holy-Bible---Portuguese---World-Portuguese-Bible	042	LUK	017	036	
@@ -11155,6 +11463,8 @@ Holy-Bible---Portuguese---World-Portuguese-Bible	044	ACT	008	037
 Holy-Bible---Portuguese---World-Portuguese-Bible	044	ACT	015	034	
 Holy-Bible---Portuguese---World-Portuguese-Bible	044	ACT	024	007	
 Holy-Bible---Portuguese---World-Portuguese-Bible	045	ROM	016	025	
+Holy-Bible---Rangi---Rangi-Bible	064	3JO	001	014	ˆVyeene nookiilaangya kwiiyona tʉrɨ chaangʉ, aho, lʉʉsɨka tʉrɨ miiso kwa miiso.
+Holy-Bible---Rangi---Rangi-Bible	066	REV	012	018	Maa re ɨro ramʉʉntaɨra rɨkɨɨma mbarɨmbarɨ ya mayɨya.
 Holy-Bible---Romanian---Bayash-Luke	042	LUK	017	036	
 Holy-Bible---Romanian---Bayash-Luke	042	LUK	023	017	
 Holy-Bible---Romanian---Free-Bible	042	LUK	017	036	
@@ -11246,6 +11556,7 @@ Holy-Bible---Safwa---Safwa-Bible	064	3JO	001	014	Ehwanza aje enenze tilolane nka
 Holy-Bible---Safwa---Safwa-Bible	066	REV	012	018	Shesho onzoha ahemeleye pamwanya pesanga mnshenje mnsombi.
 Holy-Bible---Sakachep---Sakachep-Bible	064	3JO	001	014	Nang mu lai rang ka sabeia, hanchu intongin la chong rei.
 Holy-Bible---Sakachep---Sakachep-Bible	066	REV	012	018	Male dragon hah tuikhanglien panga han ânding zoi.
+Holy-Bible---Sankaran-Maninka---Alla-la-Kitabu-Seniman	064	3JO	001	014	N miri ye a la ko a tɛ mɛn ba kɛ n di wa bɔ i fɛ. An di kuma ɲa ni ɲa.
 Holy-Bible---Sanskrit---Assamese-Script	064	3JO	001	014	অচিৰেণ ৎৱাং দ্ৰক্ষ্যামীতি মম প্ৰত্যাশাস্তে তদাৱাং সম্মুখীভূয পৰস্পৰং সম্ভাষিষ্যাৱহে|
 Holy-Bible---Sanskrit---Assamese-Script	066	REV	012	018	
 Holy-Bible---Sanskrit---Bengali-Script	064	3JO	001	014	অচিরেণ ৎৱাং দ্রক্ষ্যামীতি মম প্রত্যাশাস্তে তদাৱাং সম্মুখীভূয পরস্পরং সম্ভাষিষ্যাৱহে|
@@ -12208,6 +12519,8 @@ Holy-Bible---Swedish---Swedish-Bible-1917	044	ACT	024	007
 Holy-Bible---Swedish---Swedish-Bible-1917	045	ROM	016	024	
 Holy-Bible---Swedish---Swedish-Bible-1917	064	3JO	001	014	Ty jag hoppas att rätt snart få se dig, och då skola vi muntligen tala med varandra.
 Holy-Bible---Swedish---Swedish-Bible-1917	066	REV	012	018	Och han ställde sig på sanden invid havet.
+Holy-Bible---Tagakaulo---Tagakaulo-Bible	064	3JO	001	014	Kay kaliman ku magkakita͡ay pa kita aw magkabalawbalaw.
+Holy-Bible---Tagakaulo---Tagakaulo-Bible	066	REV	012	018	Aw nyindeg ya ulud adti pantad dun ni dulug na dagat.
 Holy-Bible---Tagalog---Tagalog-Bible-Unlocked	064	3JO	001	014	Pero ako ay umaasa na makita ka sa lalong madaling panahon, at tayo ay mag-uusap harap-harapan.
 Holy-Bible---Tagalog---Tagalog-Bible-Unlocked	066	REV	012	018	Pagkatapos tumayo ang dragon sa buhangin ng dalampasigan.
 Holy-Bible---Tagin---Tagin-First-Bible	064	3JO	001	014	Nonua ngo baapubv kaarwk sinvpv mvngtin sidu, okv vbvrikubolo ngonuv doorwk sitola atuanying ngv japrwk sipa reku.
@@ -12375,6 +12688,7 @@ Holy-Bible---Ukrainian---Ukrainian-Ogienko	064	3JO	001	014	але маю над�
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	066	REV	012	018	І я став на морсько́му піску́.
 Holy-Bible---Urdu---Urdu-Bible	064	3JO	001	014	बल्कि तुझ से जल्द मिलने की उम्मीद रखता हूँ, उस वक़्त हम रू — ब — रू बातचीत करेंगे।
 Holy-Bible---Urdu---Urdu-Bible	066	REV	012	018	
+Holy-Bible---Ut-Ma-in---Ut-Ma-in-Bible	066	REV	012	018	Se̱ fa-u yat-ya yu̱ yo̱-ya yu̱ne̱ wa do̱'e̱ wa ees u̱-kit m-sa.
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic	009	1SA	021	001	داۋۇت ئەمدى نوبقا كېلىپ ئاخىمەلەك كاھىننىڭ قېشىغا باردى.
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic	011	1KI	022	044	XCOMBINE
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic	064	3JO	001	014	سەن بىلەن پات ئارىدا دىدار كۆرۈشۈشنى ئارزۇ قىلىمەن؛ شۇ چاغدا دەرقەمدە سۆزلىشىمىز.
@@ -12460,6 +12774,18 @@ Holy-Bible---Vwanji---Vwanji-Bible	064	3JO	001	014	Looli nihuvila kukuvona anala
 Holy-Bible---Vwanji---Vwanji-Bible	065	JUD	001	012	
 Holy-Bible---Vwanji---Vwanji-Bible	065	JUD	001	013	
 Holy-Bible---Vwanji---Vwanji-Bible	066	REV	012	018	Kange injoka jikima pakyanya pa lihanga mulubale mu nyanja.
+Holy-Bible---Yaka---Ivatan-Bible	041	MAR	009	044	]
+Holy-Bible---Yaka---Ivatan-Bible	041	MAR	009	046	]
+Holy-Bible---Yaka---Ivatan-Bible	041	MAR	011	026	]»
+Holy-Bible---Yaka---Ivatan-Bible	041	MAR	015	028	]
+Holy-Bible---Yaka---Ivatan-Bible	064	3JO	001	014	Me ndi na ilimbisi, ti mu mwaana a taanga hoolo, bisi a we sa dimonono, na sa ditsuu kiinzi na kiinzi.
+Holy-Bible---Yaka---Ivatan-Bible	066	REV	012	018	Darango atemini nha simi la mubu.
+Holy-Bible---Yemsa---Yemsa-Bible-Ethiopic	064	3JO	001	014	ሀን ታአኖን ኔን አነ ኡጶናማቶ አብድ ዛግፋዉጝዋ፤ ኤስ ካባሲክ ኣፌ ኣፌ ዎል ቢራ ዎሎኒዋ።
+Holy-Bible---Yemsa---Yemsa-Bible-Ethiopic	066	REV	012	018	ዳርቦስ ደይ ባሪሲ ቴሻ ፋ ፉቱስታ የሬ ።
+Holy-Bible---Yemsa---Yemsa-Bible-Latin	064	3JO	001	014	Han ta'anon neen uphonamato abdi zagifawungwa; es kabaasik aafe aafe biira wolloniwa.
+Holy-Bible---Yemsa---Yemsa-Bible-Latin	066	REV	012	018	Darboos dey baarisi tesha fa fuutuusta yere.
 Holy-Bible---Yombe---Yombe-Bible	064	3JO	001	014	Vayi tsidi diana mu vika kumona ; buna bosi tuela solula zizi mu zizi.
 Holy-Bible---Yombe---Yombe-Bible	066	REV	012	018	Buna dalago kitelama va nzielo yi mbu.
 Holy-Bible---Yoruba---Yoruba-Bible	064	3JO	001	014	Mo ni ìrètí láti rí ọ láìpẹ́, tí àwa yóò sì sọ̀rọ̀ lójúkojú.
+Holy-Bible---Zaramo---Kizalamo-Bible	064	3JO	001	014	Kipigiti kidodo hamwande notamanila kuiting'hana namwe tulongelele kihanga kwa kihanga.
+Holy-Bible---Zaramo---Kizalamo-Bible	066	REV	012	018	Abaho, dija idizoka dima mulusanga mumgwazo wa ibahali.

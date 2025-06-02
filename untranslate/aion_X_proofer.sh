@@ -6,33 +6,9 @@ AION_ECHO("PDF PROOFER GENERATION: BEGIN");
 if (!chdir("../www-stageresources")) { AION_ECHO("ERROR! chdir()"); }
 system("cat Holy-Bible*.messages > BIBLE-PROOF.messages");
 
-$NEWBIBLES = array();
-/*
-"Holy-Bible---Bangwinji---Bangwinji-Bible",
-"Holy-Bible---Bareli-Palya---Palya-Bareli-Bible",
-"Holy-Bible---Beami---Bedamuni-Bible",
-"Holy-Bible---Bhattiyali---Bhattiyali-Bible",
-"Holy-Bible---Blackfoot---Matthew",
-"Holy-Bible---Borna---Borna-Latin-Bible",
-"Holy-Bible---Bu---Bu-Bible",
-"Holy-Bible---Chin-Daai---Daai-Chin-Bible",
-"Holy-Bible---Chin-Matu---Matupi-Chin-2019",
-"Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible",
-"Holy-Bible---Dutch---Petrus-Canisius",
-"Holy-Bible---Gata---Gata-Didayi-Bible",
-"Holy-Bible---Janji---Janji-Bible",
-"Holy-Bible---Juray---Juray-Bible",
-"Holy-Bible---Naga-Pidgin---Nagamese-Bible",
-"Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible",
-"Holy-Bible---Nend---Mark",
-"Holy-Bible---Pengo---Pengo-Bible",
-"Holy-Bible---Portuguese---World-Portuguese-Bible",
-"Holy-Bible---Romani-Vlax---Lovaric-Bible",
-"Holy-Bible---Sakachep---Sakachep-Bible",
-"Holy-Bible---Soli---Soli-Bible",
-"Holy-Bible---Tagin---Tagin-First-Bible",
+$NEWBIBLES = array(
+"Holy-Bible---Ajiya---Ajiya-Bible",
 );
-*/
 
 // BUILD PROOFER
 $proofer = array();
@@ -88,7 +64,7 @@ function build_pdftk_flex($proofer, $filename, $pagename) {
 		// skip
 		if (stripos($proof['FILE'],$filename)===FALSE){ continue; }
 		if (stripos($proof['PAGE'],$pagename)===FALSE){ continue; }
-		//if (in_array($proof['BIBLE'], $NEWBIBLES)) { continue; } // checking the new guys only or not new guys
+		//if (!in_array($proof['BIBLE'], $NEWBIBLES)) { continue; } // checking the new guys only or not new guys
 		//setup
 		$file = (0==(int)$proof['NUMB'] ? "BIBLE-PROOF-ABLANK.pdf" : $proof['FILE']);
 		$numb = (0==(int)$proof['NUMB'] ? "1" : $proof['NUMB']);
@@ -134,6 +110,7 @@ system("pdftk *POD_KDP_ALL_COVER.pdf   cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER
 system("pdftk *POD_LULU_HAR_COVER.pdf  cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_HAR.pdf");
 system("pdftk *POD_KDP_NEW_COVER.pdf   cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_NEW.pdf");
 system("pdftk *POD_JOHN_COVER.pdf      cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_JOH.pdf");
+
 AION_ECHO("PDF PROOFER GENERATION: COVERS");
 
 // INTERIOR PDFS

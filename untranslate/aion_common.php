@@ -642,7 +642,7 @@ function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $ski
 		'include'	=> '/---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---.*(Danish).*---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/(Holy-Bible---French---French-LXX-TheoTex|Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible)---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
-		//'include'	=> '/Holy-Bible---([U-Z]{1}).+---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
+		//'include'	=> '/Holy-Bible---([P-Z]{1}).+---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---Kiche---Totonicapan---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
 		//'include'	=> '/Holy-Bible---Chin-Matu---Matupi-Chin-2019---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
 		'destiny'	=> $destiny,
@@ -1910,6 +1910,16 @@ function AION_BIBLES_REMAPPER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 		if ($book=='EST' && $chapter==9 && $verse>=30) {
 			$verse = sprintf('%03d', $verse + 1);
 			$current="WARNING REMAPPED = $bible: SINGLE Esther 9";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
+	/* JOB2-3 */
+	if (isset($database[T_VERSEMAP][$bible.'-JOB2-3'])!==FALSE) {	
+		/* JOB */	
+		if ($book=='JOB' && (($chapter==2 && $verse>=14) || ($chapter==3))) {
+			AION_BIBLES_SLIDE_FORE($bible, 2, 13, 1, $chapter, $verse);
+			$current="WARNING REMAPPED = $bible: SINGLE Job 2-3";
 			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
 			goto YO;
 		}
@@ -3374,36 +3384,36 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 		'foreign'	=> &$foreign,
 		)));
 	$grandmarker = array();
-	$grandmarker['BIBLE_COUNT']	= $grandtotal['BIBLE_COUNT']-393;
-	$grandmarker['LANG_COUNT']	= $grandtotal['LANG_COUNT']-165;
-	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-8434;
-	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-9441;
-	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-293676;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-7817429;
-	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-84384;
+	$grandmarker['BIBLE_COUNT']	= $grandtotal['BIBLE_COUNT']-462;
+	$grandmarker['LANG_COUNT']	= $grandtotal['LANG_COUNT']-217;
+	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-9191;
+	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-10921;
+	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-326312;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-8715718;
+	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-96681;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-473;
-	$grandmarker['LONG']		= $grandtotal['LONG']-1840;
+	$grandmarker['LONG']		= $grandtotal['LONG']-2236;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-13;
-	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-3218;
-	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-1088;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-13928;
-	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-21725;
-	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-10526;
+	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-3474;
+	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-1090;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-14109;
+	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-26218;
+	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-11048;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-715;
-	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-1415;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-207774;
-	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-50146;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-4696.65;
-	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-152;
-	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-83;
+	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-1554;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-233154;
+	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-55096;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-5302.00;
+	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-156;
+	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-85;
 	$grandmarker['PDF_PKJO']	= $grandtotal['PDF_PKJO']-16;
-	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-382;
-	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-178;
-	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-221;
-	$grandmarker['PDF_PLJO']	= $grandtotal['PDF_PLJO']-86;
-	$grandmarker['PDF_PRTL']	= $grandtotal['PDF_PRTL']-251;
-	$grandmarker['TRANS']		= $grandtotal['TRANS']-331;
+	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-451;
+	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-196;
+	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-240;
+	$grandmarker['PDF_PLJO']	= $grandtotal['PDF_PLJO']-90;
+	$grandmarker['PDF_PRTL']	= $grandtotal['PDF_PRTL']-316;
+	$grandmarker['TRANS']		= $grandtotal['TRANS']-399;
 	$grandtotal['LONG']		= ($grandtotal['LONG']		== 0 ? $grandtotal['LONG']		: "<span style='font-weight:bold; color:red;'>".$grandtotal['LONG']."</span>" );
 	$grandtotal['CHAP_NO']	= ($grandtotal['CHAP_NO']	== 0 ? $grandtotal['CHAP_NO']	: "<span style='font-weight:bold; color:red;'>".$grandtotal['CHAP_NO']."</span>" );
 	$grandtotal['VERS_NO']	= ($grandtotal['VERS_NO']	== 0 ? $grandtotal['VERS_NO']	: "<span style='font-weight:bold; color:red;'>".$grandtotal['VERS_NO']."</span>" );
@@ -3445,7 +3455,7 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$debug .= "<td>".$grandtotal['PDF_PRTL']."</td>";
 	$debug .= "<td>".$grandtotal['TRANS']."</td>";
 	$debug .= "</tr>\n";
-	$debug .="<tr><td>BIBLE</td><td>P</td><td>S</td><td>NOT</td><td>B#</td><td>LAN</td><td>OLD</td><td>NEW</td><td>CHP</td><td>VER</td><td>AIO</td><td>QUE</td><td>LON</td><td>CMI</td><td>VMI</td><td>VXT</td><td>VFI</td><td>NOF</td><td>CMA</td><td>VMI</td><td>VME</td><td>CUS</td><td>PAG</td><td>PAN</td><td>PRI</td><td>KDP</td><td>KNT</td><td>LUL</td><td>LNT</td><td>LHC</td><td>WAT</td><td>STA</td></tr>\n";
+	$debug .="<tr><td>BIBLE</td><td>P</td><td>S</td><td>NOT</td><td>B#</td><td>LAN</td><td>OLD</td><td>NEW</td><td>CHP</td><td>VER</td><td>AIO</td><td>QUE</td><td>LON</td><td>CMI</td><td>VMI</td><td>VXT</td><td>VFI</td><td>NOF</td><td>CMA</td><td>VMI</td><td>VME</td><td>CUS</td><td>PAG</td><td>PAN</td><td>PRI</td><td>KDP</td><td>KNT</td><td>KJO</td><td>LUL</td><td>LNT</td><td>LHC</td><td>LJO</td><td>WAT</td><td>STA</td></tr>\n";
 	$debug .="<tr><td>MARKER</td><td></td><td></td><td></td>";
 	$debug .= "<td>".$grandmarker['BIBLE_COUNT']."</td>";
 	$debug .= "<td>".$grandmarker['LANG_COUNT']."</td>";
@@ -4281,7 +4291,7 @@ function AION_LOOP_HTMS_DOIT($args) {
 	$args['debug'].= "<tr><td><a href='/Bibles/$biblename/parallel-English---King-James-Version' target='_blank'>$biblename</a></td><td><a href='/library/$bible.php' target='_blank'>p</a></td><td>$SOURCE</td><td>$note</td><td>$bible_count</td><td>$lang_count</td><td>$BOOK_OT</td><td>$BOOK_NT</td><td>$CHAP_TOTAL</td><td>$VERS_TOTAL</td><td>$VERS_AION</td><td>$VERS_QUES</td><td>$LONG</td><td>$CHAP_NO</td><td>$VERS_NO</td><td>$VERS_EX</td><td>$FIXED</td><td>$NOTFIXED</td><td>$CHAP_RE</td><td>$REVE_NO</td><td>$REVE_EX</td><td>$CUSTO</td><td>$PDFPA</td><td>$PDFPN</td><td>$PDFPIF</td><td>$PDF_PKDP</td><td>$PDF_PKNT</td><td>$PDF_PKJO</td><td>$PDF_PLUL</td><td>$PDF_PLNT</td><td>$PDF_PLHC</td><td>$PDF_PLJO</td><td>$PDF_PRTL</td><td>$ISGOOD</td></tr>\n";
 	
 	if (!($bible_count % 20)) {
-		$args['debug'].="<tr><td>BIBLE</td><td>P</td><td>S</td><td>NOT</td><td>B#</td><td>LAN</td><td>OLD</td><td>NEW</td><td>CHP</td><td>VER</td><td>AIO</td><td>QUE</td><td>LON</td><td>CMI</td><td>VMI</td><td>VXT</td><td>VFI</td><td>NOF</td><td>CMA</td><td>VMI</td><td>VME</td><td>CUS</td><td>PAG</td><td>PAN</td><td>PRI</td><td>KDP</td><td>KNT</td><td>LUL</td><td>LNT</td><td>LHC</td><td>WAT</td><td>STA</td></tr>\n";
+		$args['debug'].="<tr><td>BIBLE</td><td>P</td><td>S</td><td>NOT</td><td>B#</td><td>LAN</td><td>OLD</td><td>NEW</td><td>CHP</td><td>VER</td><td>AIO</td><td>QUE</td><td>LON</td><td>CMI</td><td>VMI</td><td>VXT</td><td>VFI</td><td>NOF</td><td>CMA</td><td>VMI</td><td>VME</td><td>CUS</td><td>PAG</td><td>PAN</td><td>PRI</td><td>KDP</td><td>KNT</td><td>KJO</td><td>LUL</td><td>LNT</td><td>LHC</td><td>LJO</td><td>WAT</td><td>STA</td></tr>\n";
 	}	
 	
 	AION_unset($booksandchaps); $booksandchaps=NULL; unset($booksandchaps);

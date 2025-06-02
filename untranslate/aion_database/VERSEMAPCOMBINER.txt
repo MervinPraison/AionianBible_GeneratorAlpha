@@ -1,5 +1,6 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	TOTAL	COMBINE	END																																																																																														
 Holy-Bible---Ahirani---Gospels							end																																																																																														
+Holy-Bible---Ajiya---Ajiya-Bible							end																																																																																														
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible							end																																																																																														
@@ -22,8 +23,13 @@ Holy-Bible---Armenian---Armenian-Bible-Eastern	043	JOH	006	051	71	1	end
 Holy-Bible---Armenian---Armenian-Bible-Eastern							end																																																																																														
 Holy-Bible---Armenian---Armenian-Bible-Western	043	JOH	006	051	71	1	end																																																																																														
 Holy-Bible---Armenian---Armenian-Bible-Western							end																																																																																														
+Holy-Bible---Aruamu---Aruamu-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Aruamu---Aruamu-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Aruamu---Aruamu-Bible							end																																																																																														
 Holy-Bible---Assamese---Assamese-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Assamese---Assamese-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Assamese---Assamese-Bible							end																																																																																														
+Holy-Bible---Ayta-Ambala---Ayta-Ambala-Bible							end																																																																																														
 Holy-Bible---Baiso---Basio-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Baiso---Basio-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Baiso---Basio-Bible							end																																																																																														
@@ -75,6 +81,8 @@ Holy-Bible---Cebuano---Cebuano-Open-Bible							end
 Holy-Bible---Cebuano---Cebuano-Philippine							end																																																																																														
 Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms							end																																																																																														
 Holy-Bible---Cherokee---Cherokee-New-Testament							end																																																																																														
+Holy-Bible---Chhattisgarhi---Chhattisgarhi-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Chhattisgarhi---Chhattisgarhi-Bible							end																																																																																														
 Holy-Bible---Chichewa---Chichewa-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Chichewa---Chichewa-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Chin-Daai---Daai-Chin-Bible	064	3JO	001	014	14	1	end																																																																																														
@@ -154,6 +162,12 @@ Holy-Bible---Chinese---Chinese-Union-Version-Simplified	064	3JO	001	014	14	1	end
 Holy-Bible---Chinese---Chinese-Union-Version-Simplified	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Chinese---Chinese-Union-Version-Traditional	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Chinese---Chinese-Union-Version-Traditional	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Chinese---Mandarin-Bible-Simplified	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Chinese---Mandarin-Bible-Simplified	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Chinese---Mandarin-Bible-Simplified							end																																																																																														
+Holy-Bible---Chinese---Mandarin-Bible-Traditional	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Chinese---Mandarin-Bible-Traditional	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Chinese---Mandarin-Bible-Traditional							end																																																																																														
 Holy-Bible---Chin-Matu---Matupi-Chin-2019	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Chin-Matu---Matupi-Chin-2019	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Chin-Matu---Matupi-Chin-2019							end																																																																																														
@@ -246,6 +260,11 @@ Holy-Bible---Croatian---Croatian-Bible	019	PSA	150	001	6	1	end
 Holy-Bible---Croatian---Croatian-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Croatian---Croatian-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Croatian---Croatian-Bible							end																																																																																														
+Holy-Bible---Croatian---Croatian-Open-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Croatian---Croatian-Open-Bible							end																																																																																														
+Holy-Bible---Cung---Chung-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Cung---Chung-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Cung---Chung-Bible							end																																																																																														
 Holy-Bible---Czech---Czech-Bible-Kralicka	019	PSA	022	001	31	1	end																																																																																														
 Holy-Bible---Czech---Czech-Bible-Kralicka							end																																																																																														
 Holy-Bible---Czech---Kralicka	009	1SA	020	042	42	1	end																																																																																														
@@ -343,6 +362,9 @@ Holy-Bible---Danish---Danish-1931-1907	064	3JO	001	014	14	1	end
 Holy-Bible---Danish---Danish-1931-1907	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Danish---Danish-1931-1907							end																																																																																														
 Holy-Bible---Danish---Danish-Bible							end																																																																																														
+Holy-Bible---Dawro---Dawuro-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Dawro---Dawuro-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Dawro---Dawuro-Bible							end																																																																																														
 Holy-Bible---Desiya---Desiya-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Desiya---Desiya-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Desiya---Desiya-Bible							end																																																																																														
@@ -486,6 +508,8 @@ Holy-Bible---Dutch---Statenvertaling	045	ROM	007	025	25	1	end
 Holy-Bible---Dutch---Statenvertaling	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Dutch---Statenvertaling	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Dutch---Statenvertaling							end																																																																																														
+Holy-Bible---Duya---Duya-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Duya---Duya-Bible							end																																																																																														
 Holy-Bible---English---A-Conservative-Version							end																																																																																														
 Holy-Bible---English---Aionian-Bible							end																																																																																														
 Holy-Bible---English---American-Standard-Version-1901							end																																																																																														
@@ -714,8 +738,79 @@ Holy-Bible---English---Noyes							end
 Holy-Bible---English---One-Unity-Resource-Bible							end																																																																																														
 Holy-Bible---English---Open-English-Bible-Commonwealth	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---English---Open-English-Bible-Commonwealth	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---English---Open-English-Bible-Commonwealth							end																																																																																														
 Holy-Bible---English---Open-English-Bible-US	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---English---Open-English-Bible-US	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---English---Open-English-Bible-US							end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	004	NUM	025	019	1	-1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	009	1SA	020	042	42	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	011	1KI	022	043	53	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	013	1CH	012	004	40	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	003	001	8	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	004	001	8	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	005	001	12	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	006	001	10	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	007	001	17	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	008	001	9	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	009	001	20	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	012	001	8	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	018	001	50	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	019	001	14	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	020	001	9	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	021	001	13	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	022	001	31	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	030	001	12	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	031	001	24	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	034	001	22	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	036	001	12	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	038	001	22	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	039	001	13	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	040	001	17	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	041	001	13	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	042	001	11	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	044	001	26	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	045	001	17	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	046	001	11	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	047	001	9	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	048	001	14	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	049	001	20	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	051	001	19	2	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	052	001	9	2	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	053	001	6	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	054	001	7	2	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	055	001	23	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	056	001	13	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	057	001	11	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	058	001	11	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	059	001	17	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	060	001	12	2	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	061	001	8	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	062	001	12	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	063	001	11	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	064	001	10	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	065	001	13	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	067	001	7	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	068	001	35	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	069	001	36	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	070	001	5	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	075	001	10	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	076	001	12	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	077	001	20	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	080	001	19	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	081	001	16	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	083	001	18	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	084	001	12	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	085	001	13	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	088	001	18	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	089	001	52	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	092	001	15	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	102	001	28	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	108	001	13	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	140	001	13	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	142	001	7	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---English---Orthodox-Jewish-Bible							end																																																																																														
 Holy-Bible---English---Revised-Version							end																																																																																														
 Holy-Bible---English---Rotherham-Bible							end																																																																																														
 Holy-Bible---English---STEPBible-Amalgamant							end																																																																																														
@@ -1404,12 +1499,24 @@ Holy-Bible---French---Vulgate-Glaire	030	AMO	006	010	14	1	end
 Holy-Bible---French---Vulgate-Glaire	043	JOH	006	051	71	1	end																																																																																														
 Holy-Bible---French---Vulgate-Glaire	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---French---Vulgate-Glaire							end																																																																																														
+Holy-Bible---Gamit---Gamit-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Gamit---Gamit-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Gamit---Gamit-Bible							end																																																																																														
+Holy-Bible---Gamo---Gamo-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Gamo---Gamo-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Gamo---Gamo-Bible							end																																																																																														
+Holy-Bible---Gamo---Gamo-Bible-Latin	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Gamo---Gamo-Bible-Latin	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Gamo---Gamo-Bible-Latin							end																																																																																														
 Holy-Bible---Gamotso---Gamo	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Gamotso---Gamo	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Gamotso---Gamo							end																																																																																														
 Holy-Bible---Gata---Gata-Didayi-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Gata---Gata-Didayi-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Gata---Gata-Didayi-Bible							end																																																																																														
+Holy-Bible---Gayil---Gayl-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Gayil---Gayl-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Gayil---Gayl-Bible							end																																																																																														
 Holy-Bible---German---German-Albrecht	019	PSA	006	001	10	1	end																																																																																														
 Holy-Bible---German---German-Albrecht	019	PSA	009	001	20	1	end																																																																																														
 Holy-Bible---German---German-Albrecht	019	PSA	030	001	12	1	end																																																																																														
@@ -1750,14 +1857,30 @@ Holy-Bible---German---German-Tafel-Bible	019	PSA	102	001	28	1	end
 Holy-Bible---German---German-Tafel-Bible	019	PSA	108	001	13	1	end																																																																																														
 Holy-Bible---German---German-Tafel-Bible	019	PSA	140	001	13	1	end																																																																																														
 Holy-Bible---German---German-Tafel-Bible	019	PSA	142	001	7	1	end																																																																																														
+Holy-Bible---Ghanongga---Kubokota-Adapt-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Ghanongga---Kubokota-Adapt-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Ghanongga---Kubokota-Adapt-Bible							end																																																																																														
 Holy-Bible---Gikuyu---Kikuyu							end																																																																																														
+Holy-Bible---Glavda---Glavda-Bible							end																																																																																														
 Holy-Bible---Gofa---Gofa-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Gofa---Gofa-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Gofa---Gofa-Bible							end																																																																																														
+Holy-Bible---Gofa---Gofa-Bible-Ethiopian	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Gofa---Gofa-Bible-Ethiopian	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Gofa---Gofa-Bible-Ethiopian							end																																																																																														
+Holy-Bible---Gofa---Gofa-Bible-Latin	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Gofa---Gofa-Bible-Latin	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Gofa---Gofa-Bible-Latin							end																																																																																														
 Holy-Bible---Gourma---Gourma-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Gourma---Gourma-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Gourmantche---Gourmantche-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Gourmantche---Gourmantche-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Gowlan---Gowlan-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Gowlan---Gowlan-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Gowlan---Gowlan-Bible							end																																																																																														
+Holy-Bible---Gowli---Gawli-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Gowli---Gawli-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Gowli---Gawli-Bible							end																																																																																														
 Holy-Bible---Greek---Greek-Antoniades							end																																																																																														
 Holy-Bible---Greek---Greek-Byzantine	043	JOH	001	038	51	1	end																																																																																														
 Holy-Bible---Greek---Greek-Byzantine	064	3JO	001	014	14	1	end																																																																																														
@@ -1857,11 +1980,18 @@ Holy-Bible---Greek---Greek-Westcott-Hort	064	3JO	001	014	14	1	end
 Holy-Bible---Greek---Greek-Westcott-Hort	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Greek---Greek-Westcott-Hort							end																																																																																														
 Holy-Bible---Greek---Text-Critical							end																																																																																														
+Holy-Bible---Guduf-Gava---Guduf-Gava-Bible							end																																																																																														
 Holy-Bible---Gujarati---Gujarati-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Gujarati---Gujarati-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Gujii---Guji-Oromo-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Gujii---Guji-Oromo-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Gujii---Guji-Oromo-Bible							end																																																																																														
 Holy-Bible---Haitian---Haitian-Creole-Bible							end																																																																																														
 Holy-Bible---Haitian---Haitian-Creole-Smith	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Haitian---Haitian-Creole-Smith							end																																																																																														
+Holy-Bible---Halbi---Halbi-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Halbi---Halbi-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Halbi---Halbi-Bible							end																																																																																														
 Holy-Bible---Haryanvi---Haryanvi-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Haryanvi---Haryanvi-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Haryanvi---Haryanvi-Bible							end																																																																																														
@@ -2207,10 +2337,80 @@ Holy-Bible---Hebrew---Hebrew-Westminster-Leningrad-Kimball							end
 Holy-Bible---Hebrew---Living-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Hebrew---Living-Bible							end																																																																																														
 Holy-Bible---Hebrew---Modern-Hebrew-Bible							end																																																																																														
+Holy-Bible---Hebrew---Salkinson-Hebrew-Bible	048	GAL	004	027	31	1	end																																																																																														
+Holy-Bible---Hebrew---Salkinson-Hebrew-Bible							end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	004	NUM	025	019	1	-1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	009	1SA	020	042	42	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	011	1KI	022	043	53	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	013	1CH	012	004	40	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	003	001	8	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	004	001	8	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	005	001	12	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	006	001	10	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	007	001	17	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	008	001	9	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	009	001	20	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	012	001	8	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	018	001	50	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	019	001	14	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	020	001	9	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	021	001	13	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	022	001	31	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	030	001	12	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	031	001	24	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	034	001	22	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	036	001	12	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	038	001	22	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	039	001	13	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	040	001	17	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	041	001	13	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	042	001	11	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	044	001	26	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	045	001	17	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	046	001	11	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	047	001	9	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	048	001	14	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	049	001	20	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	051	001	19	2	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	052	001	9	2	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	053	001	6	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	054	001	7	2	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	055	001	23	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	056	001	13	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	057	001	11	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	058	001	11	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	059	001	17	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	060	001	12	2	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	061	001	8	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	062	001	12	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	063	001	11	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	064	001	10	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	065	001	13	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	067	001	7	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	068	001	35	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	069	001	36	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	070	001	5	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	075	001	10	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	076	001	12	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	077	001	20	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	080	001	19	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	081	001	16	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	083	001	18	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	084	001	12	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	085	001	13	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	088	001	18	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	089	001	52	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	092	001	15	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	102	001	28	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	108	001	13	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	140	001	13	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	142	001	7	1	end																																																																																														
+Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia							end																																																																																														
 Holy-Bible---Hindi---Contemporary	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Hindi---Contemporary							end																																																																																														
 Holy-Bible---Hindi---Hindi-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Hindi---Hindi-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Hruso---Hrusso-Angka-Bible							end																																																																																														
 Holy-Bible---Hungarian---Hungarian-Jewish-Bible	009	1SA	020	042	42	1	end																																																																																														
 Holy-Bible---Hungarian---Hungarian-Jewish-Bible	011	1KI	022	043	53	1	end																																																																																														
 Holy-Bible---Hungarian---Hungarian-Jewish-Bible	013	1CH	012	004	40	1	end																																																																																														
@@ -2415,8 +2615,14 @@ Holy-Bible---Icelandic---Open-Living-Word	066	REV	012	018	1	-1	end
 Holy-Bible---Icelandic---Open-Living-Word							end																																																																																														
 Holy-Bible---Igbo---Igbo-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Igbo---Igbo-Bible							end																																																																																														
+Holy-Bible---Ikizu---Ikizu-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Ikizu---Ikizu-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Ikizu---Ikizu-Bible							end																																																																																														
 Holy-Bible---Ilocano---Ilocano-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Ilocano---Ilocano-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Ilonggo---Hiligaynon-Free-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Ilonggo---Hiligaynon-Free-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Ilonggo---Hiligaynon-Free-Bible							end																																																																																														
 Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari							end																																																																																														
 Holy-Bible---Indonesian---For-All	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Indonesian---For-All							end																																																																																														
@@ -2517,15 +2723,22 @@ Holy-Bible---Japanese---Japanese-Raguet-yaku	043	JOH	006	051	70	1	end
 Holy-Bible---Japanese---Japanese-Raguet-yaku							end																																																																																														
 Holy-Bible---Japanese---New-Japanese-New-Testament	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Japanese---New-Japanese-New-Testament	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Jumjum---Jumjum-Bible							end																																																																																														
 Holy-Bible---Juray---Juray-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Juray---Juray-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Juray---Juray-Bible							end																																																																																														
 Holy-Bible---Kamano---Kamano-Kafe	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Kamano---Kamano-Kafe							end																																																																																														
+Holy-Bible---Kannada---Indian-Revised-Version	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Kannada---Indian-Revised-Version	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Kannada---Indian-Revised-Version							end																																																																																														
 Holy-Bible---Kannada---Kannada-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Kannada---Kannada-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Kannada---Open-Contemporary	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Kannada---Open-Contemporary							end																																																																																														
+Holy-Bible---Kannada---Siddi-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Kannada---Siddi-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Kannada---Siddi-Bible							end																																																																																														
 Holy-Bible---Kara---Kara-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Kara---Kara-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Kara---Kara-Bible							end																																																																																														
@@ -2538,7 +2751,85 @@ Holy-Bible---Kinga---Mahanji-Bible							end
 Holy-Bible---Kisi---Kisi-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Kisi---Kisi-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Kisi---Kisi-Bible							end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	004	NUM	025	019	1	-1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	009	1SA	020	042	42	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	011	1KI	022	043	53	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	013	1CH	012	004	40	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	003	001	8	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	004	001	8	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	005	001	12	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	006	001	10	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	007	001	17	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	008	001	9	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	009	001	20	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	012	001	8	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	018	001	50	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	019	001	14	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	020	001	9	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	021	001	13	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	022	001	31	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	030	001	12	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	031	001	24	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	034	001	22	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	036	001	12	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	038	001	22	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	039	001	13	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	040	001	17	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	041	001	13	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	042	001	11	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	044	001	26	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	045	001	17	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	046	001	11	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	047	001	9	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	048	001	14	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	049	001	20	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	051	001	19	2	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	052	001	9	2	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	053	001	6	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	054	001	7	2	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	055	001	23	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	056	001	13	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	057	001	11	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	058	001	11	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	059	001	17	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	060	001	12	2	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	061	001	8	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	062	001	12	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	063	001	11	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	064	001	10	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	065	001	13	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	067	001	7	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	068	001	35	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	069	001	36	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	070	001	5	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	075	001	10	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	076	001	12	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	077	001	20	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	080	001	19	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	081	001	16	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	083	001	18	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	084	001	12	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	085	001	13	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	088	001	18	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	089	001	52	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	092	001	15	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	102	001	28	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	108	001	13	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	140	001	13	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	019	PSA	142	001	7	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Kituba---Kituba-Bible							end																																																																																														
+Holy-Bible---Kizalamo---Zaramo-Kizalamo-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Kizalamo---Zaramo-Kizalamo-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Kizalamo---Zaramo-Kizalamo-Bible							end																																																																																														
 Holy-Bible---Koda---Koda-Bible							end																																																																																														
+Holy-Bible---Kolami-Southeastern---Kolami-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Kolami-Southeastern---Kolami-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Kolami-Southeastern---Kolami-Bible							end																																																																																														
+Holy-Bible---Konda-Dora---Konda-Porja-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Konda-Dora---Konda-Porja-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Konda-Dora---Konda-Porja-Bible							end																																																																																														
 Holy-Bible---Korean---Korean-1910							end																																																																																														
 Holy-Bible---Korean---Korean-Revised-Version	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Korean---Korean-Revised-Version							end																																																																																														
@@ -2560,11 +2851,17 @@ Holy-Bible---Korean---Korean-RV	026	EZE	027	021	36	3	end
 Holy-Bible---Korean---Korean-RV	044	ACT	022	018	30	3	end																																																																																														
 Holy-Bible---Kosraean---Kosraean-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Kosraean---Kosraean-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Koya---Koya-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Koya---Koya-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Koya---Koya-Bible							end																																																																																														
 Holy-Bible---Kuhane---Kuhane-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Kuhane---Kuhane-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Kuhane---Kuhane-Bible							end																																																																																														
 Holy-Bible---Kurdish---Sorani-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Kurdish---Sorani-Bible							end																																																																																														
+Holy-Bible---Kutu---Kutu-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Kutu---Kutu-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Kutu---Kutu-Bible							end																																																																																														
 Holy-Bible---Kuvi---Kuvi-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Kuvi---Kuvi-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Kuvi---Kuvi-Bible							end																																																																																														
@@ -3092,15 +3389,25 @@ Holy-Bible---Lingala---Lingala-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Lingala---Lingala-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Lingala---Lingala-Bible							end																																																																																														
 Holy-Bible---Lithuanian---Believers-Heritage							end																																																																																														
+Holy-Bible---Lithuanian---Open-Lithuanian-Bible							end																																																																																														
 Holy-Bible---Lodhi---Lodhi-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Lodhi---Lodhi-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Lodhi---Lodhi-Bible							end																																																																																														
 Holy-Bible---Luganda---Luganda-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Luganda---Luganda-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Luganda---Luganda-Bible							end																																																																																														
+Holy-Bible---Lungga---Lungga-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Lungga---Lungga-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Lungga---Lungga-Bible							end																																																																																														
+Holy-Bible---Luyana---Luyana-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Luyana---Luyana-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Luyana---Luyana-Bible							end																																																																																														
 Holy-Bible---Mahasu-Pahari---Baghlayani-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Mahasu-Pahari---Baghlayani-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Mahasu-Pahari---Baghlayani-Bible							end																																																																																														
+Holy-Bible---Makhuwa-Meetto---Makua-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Makhuwa-Meetto---Makua-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Makhuwa-Meetto---Makua-Bible							end																																																																																														
 Holy-Bible---Malagasy---Malagasy-Bible	009	1SA	020	042	42	1	end																																																																																														
 Holy-Bible---Malagasy---Malagasy-Bible	011	1KI	022	043	53	1	end																																																																																														
 Holy-Bible---Malagasy---Malagasy-Bible	019	PSA	003	001	8	1	end																																																																																														
@@ -3181,12 +3488,31 @@ Holy-Bible---Malayalam---Malayalam-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Malayalam---Malayalam-Bible							end																																																																																														
 Holy-Bible---Malayalam---Malayalam-Bible-1910	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Malayalam---Malayalam-Bible-1910							end																																																																																														
+Holy-Bible---Male---Maale-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Male---Maale-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Male---Maale-Bible							end																																																																																														
 Holy-Bible---Manipuri---Meitei-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Manipuri---Meitei-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Manipuri---Meitei-Bible							end																																																																																														
 Holy-Bible---Maori---Maori-Bible							end																																																																																														
 Holy-Bible---Marathi---Marathi-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Marathi---Marathi-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Marathi---Marathi-Indian-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Marathi---Marathi-Indian-Bible							end																																																																																														
+Holy-Bible---Marghi-South---Marghi-South-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Marghi-South---Marghi-South-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Marghi-South---Marghi-South-Bible							end																																																																																														
+Holy-Bible---Matengo---Amatengu-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Matengo---Amatengu-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Matengo---Amatengu-Bible							end																																																																																														
+Holy-Bible---Melo---Melo-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Melo---Melo-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Melo---Melo-Bible							end																																																																																														
+Holy-Bible---Mori-Atas---Mori-Atas-Bible							end																																																																																														
+Holy-Bible---Mpoto---Mpoto-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Mpoto---Mpoto-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Mpoto---Mpoto-Bible							end																																																																																														
+Holy-Bible---Mum---Mum-Bible							end																																																																																														
 Holy-Bible---Munda---Munda-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Munda---Munda-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Munda---Munda-Bible							end																																																																																														
@@ -3206,12 +3532,19 @@ Holy-Bible---Naga-Pidgin---Nagamese-Bible							end
 Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible							end																																																																																														
+Holy-Bible---Ncane---Ncane-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Ncane---Ncane-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Ncane---Ncane-Bible							end																																																																																														
 Holy-Bible---Ndebele---Accessible-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Ndebele---Accessible-Bible							end																																																																																														
 Holy-Bible---Ndebele---Ndebele-Bible							end																																																																																														
+Holy-Bible---Ndendeule---Ndendeule-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Ndendeule---Ndendeule-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Ndendeule---Ndendeule-Bible							end																																																																																														
 Holy-Bible---Ndengereko---Ndengereko-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Ndengereko---Ndengereko-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Ndengereko---Ndengereko-Bible							end																																																																																														
+Holy-Bible---Ndonde-Hamba---Ndonde-Hamba-Bible							end																																																																																														
 Holy-Bible---Nend---Mark							end																																																																																														
 Holy-Bible---Nepali---Nepali-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Nepali---Nepali-Bible	066	REV	012	018	1	-1	end																																																																																														
@@ -3221,6 +3554,7 @@ Holy-Bible---Nepali---Nepali-Contemporary							end
 Holy-Bible---Ngoni---Ngoni-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Ngoni---Ngoni-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Ngoni---Ngoni-Bible							end																																																																																														
+Holy-Bible---Nkangala---Nkangala-Bible							end																																																																																														
 Holy-Bible---Norwegian---Living-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Norwegian---Living-Bible							end																																																																																														
 Holy-Bible---Norwegian---Norwegian-Bible	011	1KI	022	043	53	1	end																																																																																														
@@ -3355,6 +3689,16 @@ Holy-Bible---Oriya---Oriya-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Oriya---Oriya-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Oromo---New-World	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Oromo---New-World							end																																																																																														
+Holy-Bible---Oromo---West-Central-Oromo-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Oromo---West-Central-Oromo-Bible							end																																																																																														
+Holy-Bible---Oyda---Oyda-Bible-Latin	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Oyda---Oyda-Bible-Latin	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Oyda---Oyda-Bible-Latin							end																																																																																														
+Holy-Bible---Oyda---Oyde-Bible-Ethiopic	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Oyda---Oyde-Bible-Ethiopic	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Oyda---Oyde-Bible-Ethiopic							end																																																																																														
+Holy-Bible---Padoe---Padoe-Bible							end																																																																																														
+Holy-Bible---Palaung-Shwe---Shwe-Palaung-Bible							end																																																																																														
 Holy-Bible---Panjabi---Punjabi-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Panjabi---Punjabi-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Panjabi---Punjabi-Bible							end																																																																																														
@@ -3453,9 +3797,16 @@ Holy-Bible---Portuguese---Almeida-NewOrthography							end
 Holy-Bible---Portuguese---Biblia-Livre							end																																																																																														
 Holy-Bible---Portuguese---Free-for-All	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Portuguese---Free-for-All							end																																																																																														
+Holy-Bible---Portuguese---Open-New-Bible	007	JDG	005	031	31	1	end																																																																																														
+Holy-Bible---Portuguese---Open-New-Bible	009	1SA	020	042	42	1	end																																																																																														
+Holy-Bible---Portuguese---Open-New-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Portuguese---Open-New-Bible							end																																																																																														
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Portuguese---World-Portuguese-Bible							end																																																																																														
+Holy-Bible---Rangi---Rangi-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Rangi---Rangi-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Rangi---Rangi-Bible							end																																																																																														
 Holy-Bible---Romanian---Bayash-Luke							end																																																																																														
 Holy-Bible---Romanian---BTF-Bible							end																																																																																														
 Holy-Bible---Romanian---Cyrillic							end																																																																																														
@@ -3541,6 +3892,8 @@ Holy-Bible---Safwa---Safwa-Bible							end
 Holy-Bible---Sakachep---Sakachep-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Sakachep---Sakachep-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Sakachep---Sakachep-Bible							end																																																																																														
+Holy-Bible---Sankaran-Maninka---Alla-la-Kitabu-Seniman	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Sankaran-Maninka---Alla-la-Kitabu-Seniman							end																																																																																														
 Holy-Bible---Sanskrit---Assamese-Script	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Sanskrit---Bengali-Script	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Sanskrit---Burmese-Script	064	3JO	001	014	14	1	end																																																																																														
@@ -3945,6 +4298,9 @@ Holy-Bible---Swedish---Swedish-Bible-1917	019	PSA	089	001	52	1	end
 Holy-Bible---Swedish---Swedish-Bible-1917	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Swedish---Swedish-Bible-1917	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Swedish---Swedish-Bible-1917							end																																																																																														
+Holy-Bible---Tagakaulo---Tagakaulo-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Tagakaulo---Tagakaulo-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Tagakaulo---Tagakaulo-Bible							end																																																																																														
 Holy-Bible---Tagalog---Tagalog-Bible-1905							end																																																																																														
 Holy-Bible---Tagalog---Tagalog-Bible-Unlocked	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Tagalog---Tagalog-Bible-Unlocked	066	REV	012	018	1	-1	end																																																																																														
@@ -3958,6 +4314,7 @@ Holy-Bible---Tamil---Tamil-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Tamil---Tamil-Bible							end																																																																																														
 Holy-Bible---Telugu---Telugu-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Telugu---Telugu-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Thur---Leb-Thur-Bible							end																																																																																														
 Holy-Bible---Tongan---Revised-West-Version							end																																																																																														
 Holy-Bible---Tsakhur---Tsakhur-Bible	009	1SA	020	042	42	1	end																																																																																														
 Holy-Bible---Tsakhur---Tsakhur-Bible							end																																																																																														
@@ -4117,6 +4474,8 @@ Holy-Bible---Ukrainian---Ukrainian-Ogienko	066	REV	012	018	1	-1	end
 Holy-Bible---Ukrainian---Ukrainian-Ogienko							end																																																																																														
 Holy-Bible---Urdu---Urdu-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Urdu---Urdu-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Ut-Ma-in---Ut-Ma-in-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Ut-Ma-in---Ut-Ma-in-Bible							end																																																																																														
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic	009	1SA	021	001	15	1	end																																																																																														
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic	011	1KI	022	044	53	1	end																																																																																														
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic	064	3JO	001	014	14	1	end																																																																																														
@@ -4201,8 +4560,20 @@ Holy-Bible---Vietnamese---Vietnamese-Bible-1934							end
 Holy-Bible---Vwanji---Vwanji-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Vwanji---Vwanji-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Vwanji---Vwanji-Bible							end																																																																																														
+Holy-Bible---Yaka---Ivatan-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Yaka---Ivatan-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Yaka---Ivatan-Bible							end																																																																																														
+Holy-Bible---Yemsa---Yemsa-Bible-Ethiopic	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Yemsa---Yemsa-Bible-Ethiopic	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Yemsa---Yemsa-Bible-Ethiopic							end																																																																																														
+Holy-Bible---Yemsa---Yemsa-Bible-Latin	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Yemsa---Yemsa-Bible-Latin	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Yemsa---Yemsa-Bible-Latin							end																																																																																														
 Holy-Bible---Yombe---Yombe-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Yombe---Yombe-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Yombe---Yombe-Bible							end																																																																																														
 Holy-Bible---Yoruba---Yoruba-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Yoruba---Yoruba-Bible							end																																																																																														
+Holy-Bible---Zaramo---Kizalamo-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Zaramo---Kizalamo-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Zaramo---Kizalamo-Bible							end																																																																																														

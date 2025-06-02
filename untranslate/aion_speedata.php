@@ -248,10 +248,10 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---Coptic---Coptic-Boharic-NT---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---(World-English-Bible-Updated|Aionian-Bible)---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Cebuano---Cebuano-Open-Bible).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Oromo).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Gamit).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Baiso---Basio-Bible|Cebuano---Cebuano-Open-Bible|Koda---Koda-Bible).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Haryanvi---Haryanvi-Bible|Alaba-Kabeena---Alaba-Kabeena-Bible|Apal---Apali-Bible|Bekwel---Bekwel-Bible|Bhilali---Bhilali-Bible|Bugun---Bugun-Bible|French---French-LXX-TheoTex|Sari---Sari-Bible|Satawalese---Satawalese-Bible|Ukrainian---Ukrainian-Freedom-Bible).*---Aionian-Edition\.noia$/",
-		'include'	=> "/---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---.*(Yemsa-Bible-Ethiopic).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		'verses66'	=> $verses66,
@@ -3304,6 +3304,22 @@ $loadfontfile = (
  <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"noto-ethiopic-serif-regular.ttf\"/>
  <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"noto-ethiopic-serif-bold.ttf\"/>"
 :
+// Ethiopic
+($font == "EthiopicPlus" ?
+"<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"abyssinicaSIL-regular-plus.ttf\"/>
+ <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"abyssinicaSIL-regular-plus.ttf\"/>
+ <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"abyssinicaSIL-regular-plus.ttf\"/>
+ <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"abyssinicaSIL-regular-plus.ttf\"/>"
+:
+/*
+// Ethiopic geez-manuscript-zemen
+($font == "EthiopicPlus" ?
+"<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"geez-manuscript-zemen.ttf\"/>
+ <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"geez-manuscript-zemen.ttf\"/>
+ <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"geez-manuscript-zemen.ttf\"/>
+ <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"geez-manuscript-zemen.ttf\"/>"
+:
+*/
 // Ezra, Hebrew
 ($font == "Ezra" ?
 "<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"ezra_sil.ttf\"/>
@@ -3332,6 +3348,13 @@ $loadfontfile = (
  <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"notoserifgujarati-regular.ttf\"/>
  <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"notoserifgujarati-bold.ttf\"/>"
 :
+// Gujarati
+($font == "GujaratiPlus" ?
+"<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"notoserifgujarati-regular.ttf\"><Fallback filename=\"gentiumplus-r.ttf\" /></LoadFontfile>
+ <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"notoserifgujarati-bold.ttf\"><Fallback filename=\"gentiumplus-r.ttf\" /></LoadFontfile>
+ <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"notoserifgujarati-regular.ttf\"><Fallback filename=\"gentiumplus-i.ttf\" /></LoadFontfile>
+ <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"notoserifgujarati-bold.ttf\"><Fallback filename=\"gentiumplus-i.ttf\" /></LoadFontfile>"
+:
 // Hindi / Urdu
 ($font == "Hindi" ?
 "<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"akshar_unicode.ttf\"/>
@@ -3345,6 +3368,13 @@ $loadfontfile = (
  <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"notoserifkannada-bold.ttf\"/>
  <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"notoserifkannada-regular.ttf\"/>
  <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"notoserifkannada-bold.ttf\"/>"
+:
+// Kannada
+($font == "KannadaPlus" ?
+"<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"notoserifkannada-regular.ttf\"><Fallback filename=\"gentiumplus-r.ttf\" /></LoadFontfile>
+ <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"notoserifkannada-bold.ttf\"><Fallback filename=\"gentiumplus-r.ttf\" /></LoadFontfile>
+ <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"notoserifkannada-regular.ttf\"><Fallback filename=\"gentiumplus-i.ttf\" /></LoadFontfile>
+ <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"notoserifkannada-bold.ttf\"><Fallback filename=\"gentiumplus-i.ttf\" /></LoadFontfile>"
 :
 // Khmer
 ($font == "Khmer" ?
@@ -3442,6 +3472,13 @@ $loadfontfile = (
  <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"notoseriftelugu-regular.ttf\"/>
  <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"notoseriftelugu-bold.ttf\"/>"
 :
+// Telugu
+($font == "TeluguPlus" ?
+"<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"notoseriftelugu-regular.ttf\"><Fallback filename=\"gentiumplus-r.ttf\" /></LoadFontfile>
+ <LoadFontfile $harfbuzz name=\"FB-BOLD\" filename=\"notoseriftelugu-bold.ttf\"><Fallback filename=\"gentiumplus-r.ttf\" /></LoadFontfile>
+ <LoadFontfile $harfbuzz name=\"FB-ITAL\" filename=\"notoseriftelugu-regular.ttf\"><Fallback filename=\"gentiumplus-i.ttf\" /></LoadFontfile>
+ <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"notoseriftelugu-bold.ttf\"><Fallback filename=\"gentiumplus-i.ttf\" /></LoadFontfile>"
+:
 // Thai
 ($font == "Thai" ?
 "<LoadFontfile $harfbuzz name=\"FB-REGU\" filename=\"notoserifthai_semicondensed.ttf\"/>
@@ -3464,7 +3501,7 @@ $loadfontfile = (
  <LoadFontfile $harfbuzz name=\"FB-BOIT\" filename=\"notosans-basic-bolditalic.ttf\"/>"
 :
 // ERROR
-AION_ECHO("ERROR! Font not found $font")))))))))))))))))))))))))))))))));
+AION_ECHO("ERROR! Font not found $font")))))))))))))))))))))))))))))))))))));
 
 if ($numarialfont) {	$initfont = '<Regular fontface="FT-BOLD"/><Bold fontface="FT-BOLD"/><Italic fontface="FT-BOIT"/><BoldItalic fontface="FT-BOIT"/>';
 						$numbfont = '<Regular fontface="FT-REGU"/><Bold fontface="FT-BOLD"/><Italic fontface="FT-ITAL"/><BoldItalic fontface="FT-BOIT"/>'; }
