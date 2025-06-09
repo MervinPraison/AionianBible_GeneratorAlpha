@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1082978     
-# File Date: 05/31/2025 21:53:22
+# File Size: 1083207     
+# File Date: 06/08/2025 23:52:53
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -1162,7 +1162,7 @@ Holy-Bible---English---Tyndale-Bible	GEN-003-024	Genesis 3:24	And he cast Ada ou
 Holy-Bible---English---Tyndale-Bible	LUK-023-034	Luke 23:34	Then sayde Iesus: father forgeve them for they woot not what they do. And they parted his rayment and cast loottes.
 Holy-Bible---English---Tyndale-Bible	REV-021-002	Revelation 21:2-3	And I Iho sawe that holy cite newe Ierusalem come doune from God oute of heven prepared as a bryde garnysshed for hyr husband. And I herde a grett voyce out of heaven sayinge: beholde the tabernacle of God is with men and he will dwell with the And they shalbe his people and God him sylffe shalbe with the and be their god.
 Holy-Bible---English---Tyndale-Bible	HEB-011-008	Hebrews 11:8	By fayth Abraha whe he was called obeyed to goo out into a place which he shuld afterwarde receave to inheritaunce and he wet out not knowynge whether he shuld goo.
-Holy-Bible---English---Tyndale-Bible	EXO-013-017		
+Holy-Bible---English---Tyndale-Bible	EXO-013-017	Exodus 13:17	when Pharao had let the people goo, God caried them not thorow the londe of the Philistines, though it were a nye waye. For God sayde: the people myghte happly repent when they se warre, and so turne agayne to Egipte:
 Holy-Bible---English---Tyndale-Bible	MAR-010-045	Mark 10:45	For eve the sonne of man came not to be ministred vnto: but to minister and to geve his lyfe for the redempcion of many.
 Holy-Bible---English---Tyndale-Bible	ROM-001-001	Romans 1:1	Paul the seruaut of Iesus Christ called to be an Apostle put a parte to preache the Gospell of God
 Holy-Bible---English---Tyndale-Bible	MAT-028-019	Matthew 28:19	Go therfore and teache all nacions baptysinge them in the name of the father and the sonne and the holy goost:

@@ -2,12 +2,12 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	MAP	FLAG
 # File Accuracy: Contact publisher with corrections to file format or content
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
-# File Date: 05/31/2025 21:40:20
+# File Date: 06/08/2025 23:28:01
 # File Generator: ABCMS (alpha)
 # File Location: https://resources.AionianBible.org
 # File Name: BOOKSCHAPTERS.txt
 # File Purpose: Supporting resource for the Aionian Bible project
-# File Size: 1842247     
+# File Size: 1844010     
 Holy-Bible---Ajiya---Ajiya-Bible	042	LUK	023	051	MISSING	MID
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	040	MAT	002	010	MISSING	MID
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	040	MAT	014	004	MISSING	MID
@@ -8264,8 +8264,35 @@ Holy-Bible---English---Twentieth-Century-NT	044	ACT	015	034	MISSING	MID
 Holy-Bible---English---Twentieth-Century-NT	044	ACT	024	007	MISSING	MID
 Holy-Bible---English---Twentieth-Century-NT	044	ACT	028	029	MISSING	MID
 Holy-Bible---English---Twentieth-Century-NT	045	ROM	016	024	MISSING	MID
+Holy-Bible---English---Tyndale-Bible	001	GEN	022	024	MISSING	END*
+Holy-Bible---English---Tyndale-Bible	001	GEN	034	029	MISSING	MID
+Holy-Bible---English---Tyndale-Bible	001	GEN	041	002	MISSING	MID
+Holy-Bible---English---Tyndale-Bible	002	EXO	021	036	MISSING	END*
+Holy-Bible---English---Tyndale-Bible	002	EXO	029	018	MISSING	MID
+Holy-Bible---English---Tyndale-Bible	002	EXO	030	033	MISSING	MID
+Holy-Bible---English---Tyndale-Bible	002	EXO	040	015	MISSING	MID
+Holy-Bible---English---Tyndale-Bible	003	LEV	014	057	MISSING	END*
+Holy-Bible---English---Tyndale-Bible	003	LEV	027	018	MISSING	MID
+Holy-Bible---English---Tyndale-Bible	004	NUM	007	023	MISSING	MID
+Holy-Bible---English---Tyndale-Bible	005	DEU	001	002	MISSING	MID
+Holy-Bible---English---Tyndale-Bible	005	DEU	004	043	MISSING	MID
 Holy-Bible---English---Tyndale-Bible	041	MAR	011	026	MISSING	MID
 Holy-Bible---English---Tyndale-Bible	042	LUK	017	036	MISSING	MID
+Holy-Bible---English---Tyndale-Bible	043	JOH	005	006	MISSING	MID
+Holy-Bible---English---Tyndale-Bible	043	JOH	005	010	MISSING	MID
+Holy-Bible---English---Tyndale-Bible	043	JOH	005	011	MISSING	MID-SEQ
+Holy-Bible---English---Tyndale-Bible	043	JOH	006	054	MISSING	MID
+Holy-Bible---English---Tyndale-Bible	043	JOH	013	035	MISSING	MID
+Holy-Bible---English---Tyndale-Bible	043	JOH	016	022	MISSING	MID
+Holy-Bible---English---Tyndale-Bible	043	JOH	016	024	MISSING	MID
+Holy-Bible---English---Tyndale-Bible	043	JOH	016	033	MISSING	END*
+Holy-Bible---English---Tyndale-Bible	044	ACT	005	026	MISSING	MID
+Holy-Bible---English---Tyndale-Bible	046	1CO	007	005	MISSING	MID
+Holy-Bible---English---Tyndale-Bible	046	1CO	009	016	MISSING	MID
+Holy-Bible---English---Tyndale-Bible	048	GAL	005	021	MISSING	MID
+Holy-Bible---English---Tyndale-Bible	048	GAL	006	007	MISSING	MID
+Holy-Bible---English---Tyndale-Bible	055	2TI	002	016	MISSING	MID
+Holy-Bible---English---Tyndale-Bible	066	REV	001	009	MISSING	MID
 Holy-Bible---English---Tyndale-Bible	066	REV	021	026	MISSING	MID
 Holy-Bible---English---Unlocked-Literal-Bible	040	MAT	017	021	MISSING	MID
 Holy-Bible---English---Unlocked-Literal-Bible	040	MAT	018	011	MISSING	MID
