@@ -1,6 +1,6 @@
 # File Name: TALLY_HO.txt
-# File Size: 27055       
-# File Date: 06/08/2025 23:18:36
+# File Size: 27478       
+# File Date: 06/19/2025 04:32:37
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -140,7 +140,7 @@ Holy-Bible---English---Syriac-Peshitta-Murdock	7957	7957	7957
 Holy-Bible---English---Text-Critical	7953	7953	7953
 Holy-Bible---English---Trans-Trans	30641	30641	30643
 Holy-Bible---English---Twentieth-Century-NT	7942	7942	7942
-Holy-Bible---English---Tyndale-Bible	13827	13827	13827
+Holy-Bible---English---Tyndale-Bible	13828	13828	13828
 Holy-Bible---English---Unlocked-Literal-Bible	31086	31086	31104
 Holy-Bible---English---Webster-Bible	31102	31102	31102
 Holy-Bible---English---Webster-Bible-Revised	31102	31102	31102
@@ -418,10 +418,13 @@ Holy-Bible---Satawalese---Satawalese-Bible	3770	3770	3770
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark	678	678	678
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	31102	31102	31105
 Holy-Bible---Serbian---Serbian-Ekavski-Bible	31102	31102	31103
+Holy-Bible---Serbian---Serbian-ONSP-Cyrillic	31101	31101	31103
+Holy-Bible---Serbian---Serbian-ONST-Latin	31101	31101	31103
 Holy-Bible---Setswana---Open-Tswana-Living	7620	7620	7621
 Holy-Bible---Shona---Rakasununguka	31102	31102	31103
 Holy-Bible---Shona---Shona-Bible	7957	7957	7957
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	31065	31065	31319
+Holy-Bible---Slovak---Slovak-Bible	7954	7954	7956
 Holy-Bible---Slovene---Slovene-Savli-Bible	31102	31102	31102
 Holy-Bible---Slovene---Slovene-Stritarja-NT	10413	10413	10481
 Holy-Bible---Soli---Soli-Bible	7957	7957	7959
@@ -435,9 +438,11 @@ Holy-Bible---Spanish---Reina-Valera-1909	31102	31102	31115
 Holy-Bible---Spanish---Reina-Valera-NT-1858	7957	7957	7958
 Holy-Bible---Spanish---Sagradas-Escrituras-1569	31102	31102	31102
 Holy-Bible---Spanish---Sencillo-Bible	31102	31102	31102
+Holy-Bible---Spanish---Spanish-New-Open-Bible	29101	29101	29102
 Holy-Bible---Swahili---Contemporary	31102	31102	31103
 Holy-Bible---Swahili---New-Swahili-Bible	31101	31101	31103
 Holy-Bible---Swahili---Swahili-Bible	7853	7853	7853
+Holy-Bible---Swahili---Swahili-Open-Bible	31102	31102	31103
 Holy-Bible---Swedish---Swedish-Bible	31082	31082	31153
 Holy-Bible---Swedish---Swedish-Bible-1873	31102	31102	31170
 Holy-Bible---Swedish---Swedish-Bible-1917	31066	31066	31093
@@ -448,6 +453,7 @@ Holy-Bible---Tagin---Tagin-First-Bible	7920	7920	7922
 Holy-Bible---Tamil---Open-Contemporary	31102	31102	31103
 Holy-Bible---Tamil---Tamil-Bible	31102	31102	31103
 Holy-Bible---Telugu---Telugu-Bible	31038	31038	31041
+Holy-Bible---Telugu---Telugu-Open-Contemporary	30935	30935	30936
 Holy-Bible---Thur---Leb-Thur-Bible	6686	6686	6686
 Holy-Bible---Tongan---Revised-West-Version	31102	31102	31102
 Holy-Bible---Tsakhur---Tsakhur-Bible	5561	5561	5562
@@ -460,6 +466,7 @@ Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	31074	31074	31084
 Holy-Bible---Ukrainian---Ukrainian-NT	7957	7957	7957
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	31094	31094	31164
 Holy-Bible---Urdu---Urdu-Bible	31102	31102	31104
+Holy-Bible---Urdu---Urdu-Free-Contemporary	31098	31098	31099
 Holy-Bible---Ut-Ma-in---Ut-Ma-in-Bible	5254	5254	5255
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic	30822	30822	30825
 Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic	30829	30829	30896

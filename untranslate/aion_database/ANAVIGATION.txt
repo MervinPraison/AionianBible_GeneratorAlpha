@@ -1,6 +1,6 @@
 # File Name: ANAVIGATION.txt
-# File Size: 30887       
-# File Date: 06/08/2025 23:56:13
+# File Size: 31998       
+# File Date: 06/19/2025 05:01:17
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -215,7 +215,6 @@ Holy-Bible---English---Text-Critical
 Holy-Bible---English---Trans-Trans		
 Holy-Bible---English---Twentieth-Century-NT		
 Holy-Bible---English---Tyndale-Bible		
-Holy-Bible---English---Tyndale-Bible	VERSMISS	043-JOH-006-054
 Holy-Bible---English---Unlocked-Literal-Bible		
 Holy-Bible---English---Webster-Bible		
 Holy-Bible---English---Webster-Bible-Revised		
@@ -572,6 +571,8 @@ Holy-Bible---Satawalese---Satawalese-Bible	VERSMISS	042-LUK-001-055
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark		
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script		
 Holy-Bible---Serbian---Serbian-Ekavski-Bible		
+Holy-Bible---Serbian---Serbian-ONSP-Cyrillic		
+Holy-Bible---Serbian---Serbian-ONST-Latin		
 Holy-Bible---Setswana---Open-Tswana-Living		
 Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	040-MAT-012-032
 Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	042-LUK-020-035
@@ -580,6 +581,7 @@ Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	065-JUD-001-025
 Holy-Bible---Shona---Rakasununguka		
 Holy-Bible---Shona---Shona-Bible		
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth		
+Holy-Bible---Slovak---Slovak-Bible		
 Holy-Bible---Slovene---Slovene-Savli-Bible		
 Holy-Bible---Slovene---Slovene-Stritarja-NT		
 Holy-Bible---Soli---Soli-Bible		
@@ -593,9 +595,16 @@ Holy-Bible---Spanish---Reina-Valera-1909
 Holy-Bible---Spanish---Reina-Valera-NT-1858		
 Holy-Bible---Spanish---Sagradas-Escrituras-1569		
 Holy-Bible---Spanish---Sencillo-Bible		
+Holy-Bible---Spanish---Spanish-New-Open-Bible		
+Holy-Bible---Spanish---Spanish-New-Open-Bible	VERSMISS	001-GEN-044-031
+Holy-Bible---Spanish---Spanish-New-Open-Bible	VERSMISS	018-JOB-021-013
+Holy-Bible---Spanish---Spanish-New-Open-Bible	VERSMISS	018-JOB-026-006
+Holy-Bible---Spanish---Spanish-New-Open-Bible	VERSMISS	045-ROM-016-026
+Holy-Bible---Spanish---Spanish-New-Open-Bible	VERSMISS	065-JUD-001-025
 Holy-Bible---Swahili---Contemporary		
 Holy-Bible---Swahili---New-Swahili-Bible		
 Holy-Bible---Swahili---Swahili-Bible		
+Holy-Bible---Swahili---Swahili-Open-Bible		
 Holy-Bible---Swedish---Swedish-Bible		
 Holy-Bible---Swedish---Swedish-Bible-1873		
 Holy-Bible---Swedish---Swedish-Bible-1917		
@@ -607,6 +616,14 @@ Holy-Bible---Tagin---Tagin-First-Bible
 Holy-Bible---Tamil---Open-Contemporary		
 Holy-Bible---Tamil---Tamil-Bible		
 Holy-Bible---Telugu---Telugu-Bible		
+Holy-Bible---Telugu---Telugu-Open-Contemporary		
+Holy-Bible---Telugu---Telugu-Open-Contemporary	VERSMISS	042-LUK-001-055
+Holy-Bible---Telugu---Telugu-Open-Contemporary	VERSMISS	042-LUK-001-070
+Holy-Bible---Telugu---Telugu-Open-Contemporary	VERSMISS	042-LUK-018-030
+Holy-Bible---Telugu---Telugu-Open-Contemporary	VERSMISS	043-JOH-003-015
+Holy-Bible---Telugu---Telugu-Open-Contemporary	VERSMISS	045-ROM-016-026
+Holy-Bible---Telugu---Telugu-Open-Contemporary	VERSMISS	045-ROM-016-027
+Holy-Bible---Telugu---Telugu-Open-Contemporary	VERSMISS	049-EPH-001-021
 Holy-Bible---Thur---Leb-Thur-Bible		
 Holy-Bible---Tongan---Revised-West-Version		
 Holy-Bible---Tsakhur---Tsakhur-Bible		
@@ -619,6 +636,7 @@ Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible
 Holy-Bible---Ukrainian---Ukrainian-NT		
 Holy-Bible---Ukrainian---Ukrainian-Ogienko		
 Holy-Bible---Urdu---Urdu-Bible		
+Holy-Bible---Urdu---Urdu-Free-Contemporary		
 Holy-Bible---Ut-Ma-in---Ut-Ma-in-Bible		
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic		
 Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic		

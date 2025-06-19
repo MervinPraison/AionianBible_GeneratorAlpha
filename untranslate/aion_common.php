@@ -201,7 +201,7 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $allbibles ) {
 		$okay = $destiny.'/'.$version[C_BIBLE];
 		$bpub = $destiny.'/epub/'.$version[C_BIBLE];
 		$boli = $destiny.'/online/'.$version[C_BIBLE];
-		$pwa1 = $destiny.'/pwa/'.$version[C_BIBLE].'---Aionian-Edition.htm';
+		$pwa1 = '../www-production-files/library/pwa/'.$version[C_BIBLE].'---Aionian-Edition.htm';
 
 		// study pack
 		$lang = strtok($version[C_LANGUAGEENGLISH],", ");
@@ -296,7 +296,7 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $allbibles ) {
 		($database[$version[C_BIBLE]][T_VERSIONS]['DOWNLOAD']=='N' ? '' : ( 
 
  		"\n<div class='field-header'><img src='/images/Aionian-Bible-Internet.png' title='Aionian Bible Online'> Online:</div><div class='field-field'><div class='field-links decorated'>".
-		(AION_filesize($pwa1)									?("<a href='/pwa/"			.$version[C_BIBLE]	."---Aionian-Edition/' target='_blank' title='Aionian Bible Progressive Web Application'>PWA App</a>, ") :'').
+		(AION_filesize($pwa1)									?("<a href='https://pwa.aionianbible.org/" .$version[C_BIBLE] ."---Aionian-Edition/' target='_blank' title='Aionian Bible Progressive Web Application'>PWA App</a>, ") :'').
 		"<a href='https://play.google.com/store/apps/details?id=net.signedon.aionianbible.aionianbible' target='_blank' title='Aionian Bible free at Google Play Store'>Android App</a>".
         (is_dir(  $bpub.'---Aionian-Edition')					?(", <a href='/epub/"		.$version[C_BIBLE]	."---Aionian-Edition'  target='_blank' title='Aionian Bible ePub Futurepress'>Futurepress</a>") :'').
         (is_dir(  $bpub.'---Aionian-Edition')					?(", <a href='/Readium/"	.$version[C_BIBLE]	."---Aionian-Edition'  target='_blank' title='Aionian Bible ePub Readium'>Readium</a>") :'').
@@ -3384,36 +3384,36 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 		'foreign'	=> &$foreign,
 		)));
 	$grandmarker = array();
-	$grandmarker['BIBLE_COUNT']	= $grandtotal['BIBLE_COUNT']-462;
-	$grandmarker['LANG_COUNT']	= $grandtotal['LANG_COUNT']-217;
-	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-9196;
-	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-10939;
-	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-326529;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-8721667;
-	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-96741;
-	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-474;
-	$grandmarker['LONG']		= $grandtotal['LONG']-2235;
+	$grandmarker['BIBLE_COUNT']	= $grandtotal['BIBLE_COUNT']-469;
+	$grandmarker['LANG_COUNT']	= $grandtotal['LANG_COUNT']-218;
+	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-9430;
+	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-11128;
+	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-333923;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-8914060;
+	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-98521;
+	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-483;
+	$grandmarker['LONG']		= $grandtotal['LONG']-2296;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-13;
-	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-3463;
+	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-3622;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-1090;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-14125;
-	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-26230;
-	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-11048;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-14136;
+	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-28406;
+	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-11074;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-715;
-	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-1558;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-234020;
-	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-55220;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-5319.32;
-	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-156;
-	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-85;
+	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-1584;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-238964;
+	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-56908;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-5428.11;
+	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-157;
+	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-86;
 	$grandmarker['PDF_PKJO']	= $grandtotal['PDF_PKJO']-16;
-	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-451;
-	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-196;
-	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-240;
-	$grandmarker['PDF_PLJO']	= $grandtotal['PDF_PLJO']-100;
-	$grandmarker['PDF_PRTL']	= $grandtotal['PDF_PRTL']-316;
-	$grandmarker['TRANS']		= $grandtotal['TRANS']-399;
+	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-458;
+	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-202;
+	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-246;
+	$grandmarker['PDF_PLJO']	= $grandtotal['PDF_PLJO']-101;
+	$grandmarker['PDF_PRTL']	= $grandtotal['PDF_PRTL']-322;
+	$grandmarker['TRANS']		= $grandtotal['TRANS']-406;
 	$grandtotal['LONG']		= ($grandtotal['LONG']		== 0 ? $grandtotal['LONG']		: "<span style='font-weight:bold; color:red;'>".$grandtotal['LONG']."</span>" );
 	$grandtotal['CHAP_NO']	= ($grandtotal['CHAP_NO']	== 0 ? $grandtotal['CHAP_NO']	: "<span style='font-weight:bold; color:red;'>".$grandtotal['CHAP_NO']."</span>" );
 	$grandtotal['VERS_NO']	= ($grandtotal['VERS_NO']	== 0 ? $grandtotal['VERS_NO']	: "<span style='font-weight:bold; color:red;'>".$grandtotal['VERS_NO']."</span>" );

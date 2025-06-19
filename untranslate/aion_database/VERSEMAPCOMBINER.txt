@@ -3927,6 +3927,12 @@ Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	064	3JO	001	014	14	1	end
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script							end																																																																																														
 Holy-Bible---Serbian---Serbian-Ekavski-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Serbian---Serbian-Ekavski-Bible							end																																																																																														
+Holy-Bible---Serbian---Serbian-ONSP-Cyrillic	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Serbian---Serbian-ONSP-Cyrillic	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Serbian---Serbian-ONSP-Cyrillic							end																																																																																														
+Holy-Bible---Serbian---Serbian-ONST-Latin	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Serbian---Serbian-ONST-Latin	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Serbian---Serbian-ONST-Latin							end																																																																																														
 Holy-Bible---Setswana---Open-Tswana-Living	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Setswana---Open-Tswana-Living							end																																																																																														
 Holy-Bible---Shona---Rakasununguka	064	3JO	001	014	14	1	end																																																																																														
@@ -3998,6 +4004,9 @@ Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	020	PRO	013	013	25	1	end
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	020	PRO	018	023	24	1	end																																																																																														
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth							end																																																																																														
+Holy-Bible---Slovak---Slovak-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Slovak---Slovak-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Slovak---Slovak-Bible							end																																																																																														
 Holy-Bible---Slovene---Slovene-Savli-Bible							end																																																																																														
 Holy-Bible---Slovene---Slovene-Stritarja-NT	019	PSA	003	001	8	1	end																																																																																														
 Holy-Bible---Slovene---Slovene-Stritarja-NT	019	PSA	004	001	8	1	end																																																																																														
@@ -4148,12 +4157,16 @@ Holy-Bible---Spanish---Reina-Valera-1909							end
 Holy-Bible---Spanish---Reina-Valera-NT-1858	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Spanish---Sagradas-Escrituras-1569							end																																																																																														
 Holy-Bible---Spanish---Sencillo-Bible							end																																																																																														
+Holy-Bible---Spanish---Spanish-New-Open-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Spanish---Spanish-New-Open-Bible							end																																																																																														
 Holy-Bible---Swahili---Contemporary	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Swahili---Contemporary							end																																																																																														
 Holy-Bible---Swahili---New-Swahili-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Swahili---New-Swahili-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Swahili---New-Swahili-Bible							end																																																																																														
 Holy-Bible---Swahili---Swahili-Bible							end																																																																																														
+Holy-Bible---Swahili---Swahili-Open-Bible	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Swahili---Swahili-Open-Bible							end																																																																																														
 Holy-Bible---Swedish---Swedish-Bible	009	1SA	003	021	21	1	end																																																																																														
 Holy-Bible---Swedish---Swedish-Bible	009	1SA	020	042	42	1	end																																																																																														
 Holy-Bible---Swedish---Swedish-Bible	011	1KI	022	043	53	1	end																																																																																														
@@ -4314,6 +4327,8 @@ Holy-Bible---Tamil---Tamil-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Tamil---Tamil-Bible							end																																																																																														
 Holy-Bible---Telugu---Telugu-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Telugu---Telugu-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Telugu---Telugu-Open-Contemporary	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Telugu---Telugu-Open-Contemporary							end																																																																																														
 Holy-Bible---Thur---Leb-Thur-Bible							end																																																																																														
 Holy-Bible---Tongan---Revised-West-Version							end																																																																																														
 Holy-Bible---Tsakhur---Tsakhur-Bible	009	1SA	020	042	42	1	end																																																																																														
@@ -4474,6 +4489,8 @@ Holy-Bible---Ukrainian---Ukrainian-Ogienko	066	REV	012	018	1	-1	end
 Holy-Bible---Ukrainian---Ukrainian-Ogienko							end																																																																																														
 Holy-Bible---Urdu---Urdu-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Urdu---Urdu-Bible	066	REV	012	018	1	-1	end																																																																																														
+Holy-Bible---Urdu---Urdu-Free-Contemporary	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Urdu---Urdu-Free-Contemporary							end																																																																																														
 Holy-Bible---Ut-Ma-in---Ut-Ma-in-Bible	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Ut-Ma-in---Ut-Ma-in-Bible							end																																																																																														
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic	009	1SA	021	001	15	1	end																																																																																														

@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
-# File Size: 46229       
-# File Date: 06/08/2025 22:55:47
+# File Size: 46937       
+# File Date: 06/19/2025 04:10:49
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -140,7 +140,7 @@ Holy-Bible---English---Syriac-Peshitta-Murdock	29	0	0	12	1	11	9	1	5	94	63	10	2	0
 Holy-Bible---English---Text-Critical	39	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
 Holy-Bible---English---Trans-Trans	104	24	64	12	1	11	9	1	5	94	63	10	2	0	1	24	272	265	264	0	0	0	1
 Holy-Bible---English---Twentieth-Century-NT	15	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
-Holy-Bible---English---Tyndale-Bible	44	0	8	12	1	11	9	1	5	94	62	10	2	0	1	0	215	208	207	0	56	1	1
+Holy-Bible---English---Tyndale-Bible	44	0	8	12	1	11	9	1	5	94	63	10	2	0	1	0	216	209	208	0	56	0	1
 Holy-Bible---English---Unlocked-Literal-Bible	161	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---English---Webster-Bible	124	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---English---Webster-Bible-Revised	129	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
@@ -418,10 +418,13 @@ Holy-Bible---Satawalese---Satawalese-Bible	0	0	0	11	0	4	1	0	0	26	24	10	0	0	1	0	7
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark	0	0	0	3	0	0	0	0	0	2	1	4	0	0	0	0	10	8	8	0	256	0	0
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	0	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---Serbian---Serbian-Ekavski-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
+Holy-Bible---Serbian---Serbian-ONSP-Cyrillic	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
+Holy-Bible---Serbian---Serbian-ONST-Latin	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Setswana---Open-Tswana-Living	0	0	0	12	1	11	9	1	5	92	62	12	2	0	4	0	207	199	196	3	64	1	3
 Holy-Bible---Shona---Rakasununguka	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Shona---Shona-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	0	4	64	12	1	11	9	1	5	94	63	10	2	0	15	4	272	279	264	0	0	0	15
+Holy-Bible---Slovak---Slovak-Bible	0	0	0	12	1	11	9	1	5	93	62	12	2	0	2	0	208	200	200	0	64	0	0
 Holy-Bible---Slovene---Slovene-Savli-Bible	0	1	64	12	1	11	9	1	5	94	63	10	2	0	1	1	272	265	264	0	0	0	1
 Holy-Bible---Slovene---Slovene-Stritarja-NT	0	0	15	12	1	11	9	1	5	94	63	10	2	0	1	0	223	216	215	0	49	0	1
 Holy-Bible---Soli---Soli-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
@@ -435,9 +438,11 @@ Holy-Bible---Spanish---Reina-Valera-1909	73	1	64	12	1	11	9	1	5	94	63	10	2	0	1	1	
 Holy-Bible---Spanish---Reina-Valera-NT-1858	36	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
 Holy-Bible---Spanish---Sagradas-Escrituras-1569	69	1	64	12	1	11	9	1	5	94	63	10	2	0	1	1	272	265	264	0	0	0	1
 Holy-Bible---Spanish---Sencillo-Bible	50	1	64	12	1	11	9	1	5	94	63	10	2	0	1	1	272	265	264	0	0	0	1
+Holy-Bible---Spanish---Spanish-New-Open-Bible	58	4	64	12	1	11	9	1	5	94	62	10	2	0	4	4	271	263	259	5	0	0	4
 Holy-Bible---Swahili---Contemporary	41	3	64	12	1	11	9	1	5	94	63	10	2	0	0	3	272	264	264	0	0	0	0
 Holy-Bible---Swahili---New-Swahili-Bible	59	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Swahili---Swahili-Bible	21	2	0	12	1	11	9	1	5	93	63	10	2	0	0	2	207	199	199	1	64	0	0
+Holy-Bible---Swahili---Swahili-Open-Bible	41	2	64	12	1	11	9	1	5	94	63	10	2	0	0	2	272	264	264	0	0	0	0
 Holy-Bible---Swedish---Swedish-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Swedish---Swedish-Bible-1873	0	1	64	12	1	11	9	1	5	94	63	10	2	0	1	1	272	265	264	0	0	0	1
 Holy-Bible---Swedish---Swedish-Bible-1917	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
@@ -448,6 +453,7 @@ Holy-Bible---Tagin---Tagin-First-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	
 Holy-Bible---Tamil---Open-Contemporary	0	2	64	12	1	11	9	1	5	94	63	10	2	0	1	2	272	265	264	0	0	0	1
 Holy-Bible---Tamil---Tamil-Bible	0	0	64	12	1	11	9	1	5	94	62	10	2	0	22	0	271	275	264	0	0	0	11
 Holy-Bible---Telugu---Telugu-Bible	0	1	64	12	1	11	9	1	5	94	62	10	2	0	4	1	271	266	264	0	0	0	2
+Holy-Bible---Telugu---Telugu-Open-Contemporary	0	4	64	12	1	11	9	1	5	93	61	12	2	0	8	4	271	263	257	7	0	0	6
 Holy-Bible---Thur---Leb-Thur-Bible	0	0	5	11	0	5	0	0	0	35	19	4	0	0	0	0	79	77	77	0	187	0	0
 Holy-Bible---Tongan---Revised-West-Version	0	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---Tsakhur---Tsakhur-Bible	0	0	7	8	0	2	0	0	0	18	20	4	0	0	0	0	59	57	57	0	207	0	0
@@ -460,6 +466,7 @@ Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible	0	6	64	12	1	11	9	1	5	94	63	10	2
 Holy-Bible---Ukrainian---Ukrainian-NT	0	1	0	12	1	11	9	1	5	94	63	10	2	0	1	1	208	201	200	0	64	0	1
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	0	4	64	12	1	11	9	1	5	94	63	10	2	0	0	4	272	264	264	0	0	0	0
 Holy-Bible---Urdu---Urdu-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
+Holy-Bible---Urdu---Urdu-Free-Contemporary	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Ut-Ma-in---Ut-Ma-in-Bible	0	0	5	7	1	8	8	0	5	42	20	0	1	0	0	0	97	94	94	0	170	0	0
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic	0	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic	0	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1

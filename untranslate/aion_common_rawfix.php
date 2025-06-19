@@ -18042,6 +18042,33 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---Serbian---Serbian-ONSP-Cyrillic" :
+$jobfix = <<<EOF
+2CO 13:12 Поздравите једни друге светим пољупцем.
+2CO 13:13 Поздрављају вас сви свети.
+2CO 13:14 Милост Господа Исуса Христа, и љубав Божија, и заједништво Духа Светог нека буду са свима вама. Амин.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Serbian---Serbian-ONST-Latin" :
+$jobfix = <<<EOF
+2CO 13:12 Pozdravite jedni druge svetim poljupcem.
+2CO 13:13 Pozdravljaju vas svi sveti.
+2CO 13:14 Milost Gospoda Isusa Hrista, i ljubav Božija, i zajedništvo Duha Svetog neka budu sa svima vama. Amin.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---Setswana---Open-Tswana-Living" :
 $jobfix = <<<EOF
 MAT 8:8 Mme mogolwane a re, “Rra ga ke a lekana go go tseela kwa lwapeng lwa me gape ga go tlhokafale gore o tle. Fa o ka nna fela fa mme wa re, ‘Fola’, motlhanka wa me o tlaa fola!
@@ -18324,6 +18351,20 @@ II Corinthians 13:14 Благодать Господа нашего Иисуса
 Galatians 1:1 
 EOF;
 if (!($bfile = preg_replace("/II Corinthians 13:13 (.+?)Galatians 1:1 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Slovak---Slovak-Bible" :
+$jobfix = <<<EOF
+2CO 13:12 Pozdravte sa navzájom láskavým objatím.
+2CO 13:13 Pozdravujú vás všetci, ktorí patria k Božiemu ľudu.
+2CO 13:14 Nech je s vami všetkými milosť Pána Ježiša Krista, Božia láska a spoločenstvo svätého Ducha.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 

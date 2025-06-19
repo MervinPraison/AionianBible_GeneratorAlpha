@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1715444     
-# File Date: 06/08/2025 19:14:24
+# File Size: 1716885     
+# File Date: 06/19/2025 01:24:16
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -11608,6 +11608,10 @@ Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	009	1SA	020	042	I reèe Jon
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	011	1KI	022	043	I hoðaše putem Ase oca svojega sasvijem, i ne otstupi od njega èineæi sve što je pravo pred Gospodom.
 Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	064	3JO	001	014	Nego se nadam da æu te skoro vidjeti, i iz usta govoriti.
 Holy-Bible---Serbian---Serbian-Ekavski-Bible	064	3JO	001	014	Него се надам да ћу те скоро видети; и из уста говорити.
+Holy-Bible---Serbian---Serbian-ONSP-Cyrillic	064	3JO	001	014	но се надам да ћу те ускоро видети, па ћемо усмено разговарати.
+Holy-Bible---Serbian---Serbian-ONSP-Cyrillic	066	REV	012	018	Аждаја стаде на обалу мора.
+Holy-Bible---Serbian---Serbian-ONST-Latin	064	3JO	001	014	no se nadam da ću te uskoro videti, pa ćemo usmeno razgovarati.
+Holy-Bible---Serbian---Serbian-ONST-Latin	066	REV	012	018	Aždaja stade na obalu mora.
 Holy-Bible---Setswana---Open-Tswana-Living	064	3JO	001	014	gonne ke solofela go go bona mo bogautshwaneng mme ke gone re tlaa buang go le gontsi re le mmogo.
 Holy-Bible---Shona---Rakasununguka	064	3JO	001	014	Ndinovimba kuti ndichakuonai nokukurumidza, uye tichazotaurirana chiso nechiso.
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	006	JOS	024	034	В той день вземше сынове Израилевы кивот Божий, обношаху с собою: и Финеес жречествова вместо Елеазара отца своего, дондеже умре и погребеся в Гаваафе своем.
@@ -11864,6 +11868,8 @@ Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	027	DAN	014	040	Царь
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	027	DAN	014	041	И возопи царь гласом великим и рече: велик еси, Господи, Боже Даниилов, и несть иного разве Тебе.
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	027	DAN	014	042	И исхити его, повинныя же пагубе его вверже в ров, и изядени быша абие пред ним.
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	064	3JO	001	014	уповаю же абие видети тя и усты ко устом глаголати.
+Holy-Bible---Slovak---Slovak-Bible	064	3JO	001	014	lebo dúfam, že sa čoskoro uvidíme a dôkladne sa o všetkom pozhovárame.
+Holy-Bible---Slovak---Slovak-Bible	066	REV	012	018	A drak sa postavil na morskom brehu.
 Holy-Bible---Slovene---Slovene-Stritarja-NT	019	PSA	003	001	Psalm Davidov, ko je bežal pred Absalomom, sinom svojim.
 Holy-Bible---Slovene---Slovene-Stritarja-NT	019	PSA	004	001	Načelniku godbe na strune; psalm Davidov.
 Holy-Bible---Slovene---Slovene-Stritarja-NT	019	PSA	005	001	Načelniku godbe na piščali; psalm Davidov.
@@ -12350,9 +12356,11 @@ Holy-Bible---Spanish---Reina-Valera-1909	018	JOB	040	024
 Holy-Bible---Spanish---Reina-Valera-1909	028	HOS	011	012	
 Holy-Bible---Spanish---Reina-Valera-1909	032	JON	001	017	
 Holy-Bible---Spanish---Reina-Valera-NT-1858	064	3JO	001	014	Porque espero verte en breve, y hablarémos boca á boca.
+Holy-Bible---Spanish---Spanish-New-Open-Bible	064	3JO	001	014	Espero verte pronto y entonces hablaremos en persona.
 Holy-Bible---Swahili---Contemporary	064	3JO	001	014	Badala yake, nataraji kukuona upesi, nasi tutaongea pamoja ana kwa ana.
 Holy-Bible---Swahili---New-Swahili-Bible	064	3JO	001	014	Bali ninatarajia kukuona hivi karibuni, na tutaongea nawe ana kwa ana.
 Holy-Bible---Swahili---New-Swahili-Bible	066	REV	012	018	Kisha joka alisimama juu ya mchanga ufukwe wa bahari.
+Holy-Bible---Swahili---Swahili-Open-Bible	064	3JO	001	014	Badala yake, nataraji kukuona upesi, nasi tutaongea pamoja ana kwa ana.
 Holy-Bible---Swedish---Swedish-Bible	009	1SA	003	021	Och HERREN fortfor att låta se sig i Silo; ty HERREN uppenbarade sig för Samuel i Silo genom HERRENS ord.
 Holy-Bible---Swedish---Swedish-Bible	009	1SA	020	042	Och Jonatan sade till David: "Gå i frid.  Blive det såsom vi båda svuro vid HERRENS namn, när vi sade: 'HERREN vare vittne mellan mig och dig, mellan mina efterkommande och dina, till evig tid.'"
 Holy-Bible---Swedish---Swedish-Bible	011	1KI	022	043	Och han vandrade i allt på sin fader Asas väg, utan att vika av ifrån den; han gjorde nämligen vad rätt var i HERRENS ögon.
@@ -12530,6 +12538,7 @@ Holy-Bible---Tamil---Tamil-Bible	064	3JO	001	014	சீக்கிரமாக 
 Holy-Bible---Telugu---Telugu-Bible	040	MAT	004	014	
 Holy-Bible---Telugu---Telugu-Bible	064	3JO	001	014	కానీ నేను నిన్ను త్వరలోనే చూడగలనని ఆశిస్తున్నాను. అప్పుడు మనం ముఖాముఖీ మాట్లాడుకుందాం.
 Holy-Bible---Telugu---Telugu-Bible	066	REV	012	018	దానికోసం ఆ మహా సర్పం సముద్ర తీరంలో ఇసుక తిన్నెలపై నిలబడింది.
+Holy-Bible---Telugu---Telugu-Open-Contemporary	064	3JO	001	014	త్వరలో నేను నీ దగ్గరకు వచ్చి ముఖాముఖిగా నీతో మాట్లాడాలని నిరీక్షిస్తున్నాను.
 Holy-Bible---Tsakhur---Tsakhur-Bible	009	1SA	020	042	Yonatanee Davuduk'le eyhen: – Vas yugna yəq vuxhena. Zınay ğu Rəbbine doyule sana-sang'us k'ın g'assır, uvhunniy: Rəbb yizdeyiy yiğne, yişde uşaxaaşine yı'q'neenar gırgıne gahbışisda Şahad vorna.
 Holy-Bible---Turkish---Open-Basic-Turkish	064	3JO	001	014	Yakında seni görmeyi umut ediyorum. O zaman yüz yüze konuşacağız.
 Holy-Bible---Turkish---Open-Basic-Turkish	066	REV	012	018	Ejderha gidip deniz kenarında dikilip durdu.
@@ -12688,6 +12697,7 @@ Holy-Bible---Ukrainian---Ukrainian-Ogienko	064	3JO	001	014	але маю над�
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	066	REV	012	018	І я став на морсько́му піску́.
 Holy-Bible---Urdu---Urdu-Bible	064	3JO	001	014	बल्कि तुझ से जल्द मिलने की उम्मीद रखता हूँ, उस वक़्त हम रू — ब — रू बातचीत करेंगे।
 Holy-Bible---Urdu---Urdu-Bible	066	REV	012	018	
+Holy-Bible---Urdu---Urdu-Free-Contemporary	064	3JO	001	014	مُجھے اُمّید ہے کہ تُم سے جلد ہی مُلاقات ہوگی اَور تَب ہم رُوبرو گُفتگو کریں گے۔
 Holy-Bible---Ut-Ma-in---Ut-Ma-in-Bible	066	REV	012	018	Se̱ fa-u yat-ya yu̱ yo̱-ya yu̱ne̱ wa do̱'e̱ wa ees u̱-kit m-sa.
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic	009	1SA	021	001	داۋۇت ئەمدى نوبقا كېلىپ ئاخىمەلەك كاھىننىڭ قېشىغا باردى.
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic	011	1KI	022	044	XCOMBINE

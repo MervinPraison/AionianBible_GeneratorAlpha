@@ -1638,6 +1638,12 @@ Holy-Bible---Serbian---Serbian-Ekavski-Bible	SOL5-6
 Holy-Bible---Serbian---Serbian-Ekavski-Bible	EZE20-21
 Holy-Bible---Serbian---Serbian-Ekavski-Bible	HOS11-12
 Holy-Bible---Serbian---Serbian-Ekavski-Bible	JON1-2
+Holy-Bible---Serbian---Serbian-ONSP-Cyrillic	JOB38-39-40-41
+Holy-Bible---Serbian---Serbian-ONSP-Cyrillic	EZE20-21
+Holy-Bible---Serbian---Serbian-ONSP-Cyrillic	JON1-2
+Holy-Bible---Serbian---Serbian-ONST-Latin	JOB38-39-40-41
+Holy-Bible---Serbian---Serbian-ONST-Latin	EZE20-21
+Holy-Bible---Serbian---Serbian-ONST-Latin	JON1-2
 Holy-Bible---Setswana---Open-Tswana-Living	NONE
 Holy-Bible---Shona---Rakasununguka	NONE
 Holy-Bible---Shona---Shona-Bible	NONE
@@ -1653,6 +1659,7 @@ Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	SOL5-6
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	DAN100
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	HAG1-2
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	ROM14-16
+Holy-Bible---Slovak---Slovak-Bible	NONE
 Holy-Bible---Slovene---Slovene-Savli-Bible	NONE
 Holy-Bible---Slovene---Slovene-Stritarja-NT	NONE
 Holy-Bible---Soli---Soli-Bible	NONE
@@ -1682,9 +1689,11 @@ Holy-Bible---Spanish---Reina-Valera-1909	JON1-2
 Holy-Bible---Spanish---Reina-Valera-NT-1858	NONE
 Holy-Bible---Spanish---Sagradas-Escrituras-1569	NONE
 Holy-Bible---Spanish---Sencillo-Bible	NONE
+Holy-Bible---Spanish---Spanish-New-Open-Bible	NONE
 Holy-Bible---Swahili---Contemporary	NONE
 Holy-Bible---Swahili---New-Swahili-Bible	NONE
 Holy-Bible---Swahili---Swahili-Bible	NONE
+Holy-Bible---Swahili---Swahili-Open-Bible	NONE
 Holy-Bible---Swedish---Swedish-Bible	DAN3-4
 Holy-Bible---Swedish---Swedish-Bible	HAG1-2
 Holy-Bible---Swedish---Swedish-Bible	JOB38-39-40-41
@@ -1713,6 +1722,7 @@ Holy-Bible---Tagin---Tagin-First-Bible	NONE
 Holy-Bible---Tamil---Open-Contemporary	NONE
 Holy-Bible---Tamil---Tamil-Bible	NONE
 Holy-Bible---Telugu---Telugu-Bible	NONE
+Holy-Bible---Telugu---Telugu-Open-Contemporary	NONE
 Holy-Bible---Thur---Leb-Thur-Bible	NONE
 Holy-Bible---Tongan---Revised-West-Version	NONE
 Holy-Bible---Tsakhur---Tsakhur-Bible	1SA23-24
@@ -1767,6 +1777,7 @@ Holy-Bible---Ukrainian---Ukrainian-Ogienko	MIC4-5
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	NAH1-2
 Holy-Bible---Ukrainian---Ukrainian-Ogienko	ZEC1-2
 Holy-Bible---Urdu---Urdu-Bible	NONE
+Holy-Bible---Urdu---Urdu-Free-Contemporary	NONE
 Holy-Bible---Ut-Ma-in---Ut-Ma-in-Bible	NONE
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic	NONE
 Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic	NUM12-13

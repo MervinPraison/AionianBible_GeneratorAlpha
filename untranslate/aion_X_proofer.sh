@@ -7,7 +7,7 @@ if (!chdir("../www-stageresources")) { AION_ECHO("ERROR! chdir()"); }
 system("cat Holy-Bible*.messages > BIBLE-PROOF.messages");
 
 $NEWBIBLES = array(
-"Holy-Bible---Ajiya---Ajiya-Bible",
+"Holy-Bible---Spanish---Spanish-New-Open-Bible",
 );
 
 // BUILD PROOFER
@@ -110,6 +110,9 @@ system("pdftk *POD_KDP_ALL_COVER.pdf   cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER
 system("pdftk *POD_LULU_HAR_COVER.pdf  cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_HAR.pdf");
 system("pdftk *POD_KDP_NEW_COVER.pdf   cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_NEW.pdf");
 system("pdftk *POD_JOHN_COVER.pdf      cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_JOH.pdf");
+
+//system("pdftk Holy-Bible---Serbian---Serbian-ONSP-Cyrillic---POD_KDP_ALL_COVER.pdf Holy-Bible---Serbian---Serbian-ONST-Latin---POD_KDP_ALL_COVER.pdf Holy-Bible---Slovak---Slovak-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Spanish---Spanish-New-Open-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Swahili---Swahili-Open-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Telugu---Telugu-Open-Contemporary---POD_KDP_ALL_COVER.pdf Holy-Bible---Urdu---Urdu-Free-Contemporary---POD_KDP_ALL_COVER.pdf  cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_ALL.pdf");
+
 
 AION_ECHO("PDF PROOFER GENERATION: COVERS");
 
