@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1103216     
-# File Date: 06/19/2025 04:58:31
+# File Size: 1106587     
+# File Date: 06/29/2025 03:31:57
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -3273,7 +3273,7 @@ Holy-Bible---Rangi---Rangi-Bible	MAR-010-045	Maáriki 10:45	Sa baa Mwaana wa Mʉ
 Holy-Bible---Rangi---Rangi-Bible	ROM-001-001	Varúumi 1:1	Barʉ́wa ɨhɨ, yafúmire kʉrɨ nɨɨnɨ Paúli mutumwi wa KirisitʉYéesu. Nɨɨnɨ naanɨrɨrwa, nɨve mutumwi na nakerwa sa nvariyʉle Masáare Maaja ya Mʉlʉʉngʉ.
 Holy-Bible---Rangi---Rangi-Bible	MAT-028-019	Matáayo 28:19	Sa jeyyo, tamanyi mʉkavabweeyye vaantʉ va ɨsɨ joosi kʉva vapooji vaanɨ, mʉndoovabatisa, kwa irina ra Taáta, na ra Mwaana na ra Mʉtɨma Mʉʉja.
 Holy-Bible---Romani---Eastern-Vlakh	JOH-003-016		
-Holy-Bible---Romani---Eastern-Vlakh	GEN-003-024		
+Holy-Bible---Romani---Eastern-Vlakh	GEN-003-024	Англунимос 3:24	Сар о РАЙ витрадя лэ манушэс, Вов стходя по тэсараско риг лэ Эдэмостар лэ херувимонэн и бари ягатери шури, сави марэлас андэ саворэ рига, соп тэ фирин о дром каринг о кашт лэ жувимаско.
 Holy-Bible---Romani---Eastern-Vlakh	LUK-023-034	Лукастар 23:34	Исусо пхэндя: — Дадэ! Эртисар лэн, онэ на жанэн, со терэн. Халавдэ шонас жребиё тай розлэнас машкар пэстэ йида Исусостири.
 Holy-Bible---Romani---Eastern-Vlakh	REV-021-002		 
 Holy-Bible---Romani---Eastern-Vlakh	HEB-011-008		
@@ -3290,26 +3290,26 @@ Holy-Bible---Romani-Vlax---Arli-Luke	EXO-013-017
 Holy-Bible---Romani-Vlax---Arli-Luke	MAR-010-045		
 Holy-Bible---Romani-Vlax---Arli-Luke	ROM-001-001		
 Holy-Bible---Romani-Vlax---Arli-Luke	MAT-028-019		
-Holy-Bible---Romani-Vlax---Chergash-Luke	JOH-003-016		
+Holy-Bible---Romani-Vlax---Chergash-Luke	JOH-003-016	Jovan 3:16	Kaj, o Del gadići volilas akava them kaj dija pire jedino bijande Čhave te ko god paćal ande leste, či propadnil, nego te avel les večno trajo.
 Holy-Bible---Romani-Vlax---Chergash-Luke	GEN-003-024		
 Holy-Bible---Romani-Vlax---Chergash-Luke	LUK-023-034	Luka 23:34	A o Isus phenelas: “Jartosar lenđe, Dade Devla, kaj či džanen so ćeren!” Pale godova e vojnikurja čhudine e kocka thaj gajda podelisardine maškar peste lešće drze.
-Holy-Bible---Romani-Vlax---Chergash-Luke	REV-021-002		 
-Holy-Bible---Romani-Vlax---Chergash-Luke	HEB-011-008		
+Holy-Bible---Romani-Vlax---Chergash-Luke	REV-021-002	Otkrivenje 21:2-3	Dikhlem vi o Sveto gav, o nevo Jerusalim, sar mućel pe katar o nebo e Devlestar, sas ukrasime sago e bori savi lačharda pe pale piro rom. Askal ašundem o baro glaso katar o prestolje sar mothol: “Ake, e Devlesko šator si e manušenca thaj o Del trajila maškar lende. Von avena lesko them thaj o Del korkoro avela maškar lende thaj avela lengo Del.
+Holy-Bible---Romani-Vlax---Chergash-Luke	HEB-011-008	Jevrejenđe 11:8	E paćimava o Avraam kana sas akhardo te džal ando than savo majkasnije primila ando nasledstvo, čhuta kan e Devleste thaj teljardas, vi ako či džanelas kaj džal.
 Holy-Bible---Romani-Vlax---Chergash-Luke	EXO-013-017		
-Holy-Bible---Romani-Vlax---Chergash-Luke	MAR-010-045		
-Holy-Bible---Romani-Vlax---Chergash-Luke	ROM-001-001		
-Holy-Bible---Romani-Vlax---Chergash-Luke	MAT-028-019		
-Holy-Bible---Romani-Vlax---Gurbet-Luke	JOH-003-016		
+Holy-Bible---Romani-Vlax---Chergash-Luke	MAR-010-045	Marko 10:45	Kaj ni me, o Čhavo e Manušesko, či avilem te služin manđe nego te me služiv averenđe, thaj te dav mungro trajo sar poćin pale e but manuša.”
+Holy-Bible---Romani-Vlax---Chergash-Luke	ROM-001-001	Rimljanenđe 1:1	Akava lil ramov tumenđe me, o Pavle, o sluga e Isuse Hristosko, savo sem odvoime te avav apostoli thaj savo sem bičhaldo te propovediv e Devlešći Bahtali nevimata,
+Holy-Bible---Romani-Vlax---Chergash-Luke	MAT-028-019	Matej 28:19	Zato džan thaj ćeren sa e themen te aven mungre učenikurja! Bolen len ando alav e Dadesko thaj e Čhavesko thaj e Sveto Duhosko,
+Holy-Bible---Romani-Vlax---Gurbet-Luke	JOH-003-016	Jovan 3:16	Golese kaj, o Dol gaći manglja o sveto kaj dija pe jekhebijande Čhave te ma bi merola khoni savo pačal ane leste, nego te avol le džuvdipe bizo meripe.
 Holy-Bible---Romani-Vlax---Gurbet-Luke	GEN-003-024		
 Holy-Bible---Romani-Vlax---Gurbet-Luke	LUK-023-034	Luka 23:34	Tegani o Isus vaćarda: “Dade! Oprosti lenđe, golese kaj ni džanen so ćeren.” Pale gova e vojnikura čhudije i kocka te ulaven maškar peste leso fostano.
-Holy-Bible---Romani-Vlax---Gurbet-Luke	REV-021-002		 
-Holy-Bible---Romani-Vlax---Gurbet-Luke	HEB-011-008		
+Holy-Bible---Romani-Vlax---Gurbet-Luke	REV-021-002	Otkrivenje 21:2-3	Dikhljem o sveto foro, o nevo Jerusalim, sar uljol e Devlestar taro nebo, pripremimo sar bori ukrasimi pe romese. Taro presto šundem zuralo glaso sar phenol: “Akh, o šatori e Devleso maškare manuša. O Dol ka bešol maškare lende thaj von ka aven lese manuša. Korkoro o Dol ka avol lencar thaj ka avol lengo Dol.
+Holy-Bible---Romani-Vlax---Gurbet-Luke	HEB-011-008	Jevrejenđe 11:8	Pačajimasa o Avraam šunda e Devle kana akharda le te džal ani phuv savi o Dol dija le te nasledil. Gija, o Avraam đelo, iako ni džanglja kaj džal.
 Holy-Bible---Romani-Vlax---Gurbet-Luke	EXO-013-017		
-Holy-Bible---Romani-Vlax---Gurbet-Luke	MAR-010-045		
-Holy-Bible---Romani-Vlax---Gurbet-Luke	ROM-001-001		
-Holy-Bible---Romani-Vlax---Gurbet-Luke	MAT-028-019		
+Holy-Bible---Romani-Vlax---Gurbet-Luke	MAR-010-045	Marko 10:45	Golese kaj ni me, o Čhavo e manušeso, ni aviljem te služin man, nego aviljem te služiv thaj mo džuvdipe te dav te bi poćinava butenđe.”
+Holy-Bible---Romani-Vlax---Gurbet-Luke	ROM-001-001	Rimljanurenđe 1:1	Kava lil pisiv me, o Pavle, o sluga e Isuseso e Hristeso. O Dol akharda man te avav leso apostoli thaj odredisada man te objaviv e Devleso Lačho Lafi
+Holy-Bible---Romani-Vlax---Gurbet-Luke	MAT-028-019	Matej 28:19	Džan gija thaj ćeren e manušen tare sa e nacije te aven mingre sikade, krstin len ko alav e Dadeso thaj e Čhaveso thaj e Svetone Duxoso
 Holy-Bible---Romani-Vlax---Lovaric-Bible	JOH-003-016		
-Holy-Bible---Romani-Vlax---Lovaric-Bible	GEN-003-024		
+Holy-Bible---Romani-Vlax---Lovaric-Bible	GEN-003-024	Кэздэто 3:24	Кана нашадас лэ манушэс, Вов щютас паш Эдэмоски рэйс, пэ ғайналоски риг, херувимон ай ягало ханро, кай марлас андэ са рига, тэ фирий о дром каринг о копачи лэ траёско.
 Holy-Bible---Romani-Vlax---Lovaric-Bible	LUK-023-034		
 Holy-Bible---Romani-Vlax---Lovaric-Bible	REV-021-002		 
 Holy-Bible---Romani-Vlax---Lovaric-Bible	HEB-011-008		
@@ -3318,7 +3318,7 @@ Holy-Bible---Romani-Vlax---Lovaric-Bible	MAR-010-045
 Holy-Bible---Romani-Vlax---Lovaric-Bible	ROM-001-001		
 Holy-Bible---Romani-Vlax---Lovaric-Bible	MAT-028-019		
 Holy-Bible---Romani-Vlax---Servi-Bible	JOH-003-016		
-Holy-Bible---Romani-Vlax---Servi-Bible	GEN-003-024		
+Holy-Bible---Romani-Vlax---Servi-Bible	GEN-003-024	Англунимо 3:24	Вов вытрадыня манушэ тай тховда пэ востоко садостар Эдэм херувимонэн и бари чюри, сави пхаболас и марэлас дэ всаворэ рига, соб тэ фирисарэ дром, саво лиджял рандятэ, сави дэл джювимо.
 Holy-Bible---Romani-Vlax---Servi-Bible	LUK-023-034	Лукастар 23:34	Исусо пхэнэлас: — Дадэ! Эртисар лэн! Вонэ на джянэн, со терэн. Халавдэ чутэ жребии и розлиле Лэхкири їда.
 Holy-Bible---Romani-Vlax---Servi-Bible	REV-021-002		 
 Holy-Bible---Romani-Vlax---Servi-Bible	HEB-011-008		

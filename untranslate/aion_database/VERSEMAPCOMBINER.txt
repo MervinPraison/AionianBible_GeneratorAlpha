@@ -3814,7 +3814,11 @@ Holy-Bible---Romanian---Free-Bible							end
 Holy-Bible---Romanian---Ludari-Luke							end																																																																																														
 Holy-Bible---Romani---Eastern-Vlakh							end																																																																																														
 Holy-Bible---Romani-Vlax---Arli-Luke							end																																																																																														
+Holy-Bible---Romani-Vlax---Chergash-Luke	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Romani-Vlax---Chergash-Luke	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Romani-Vlax---Chergash-Luke							end																																																																																														
+Holy-Bible---Romani-Vlax---Gurbet-Luke	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Romani-Vlax---Gurbet-Luke	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Romani-Vlax---Gurbet-Luke							end																																																																																														
 Holy-Bible---Romani-Vlax---Lovaric-Bible							end																																																																																														
 Holy-Bible---Romani-Vlax---Servi-Bible							end																																																																																														

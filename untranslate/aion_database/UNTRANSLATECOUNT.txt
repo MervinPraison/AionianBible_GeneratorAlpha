@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
-# File Size: 46937       
-# File Date: 06/19/2025 04:10:49
+# File Size: 46951       
+# File Date: 06/29/2025 02:42:03
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -375,12 +375,12 @@ Holy-Bible---Portuguese---Open-New-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	2
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	34	19	0	12	1	11	9	1	5	94	63	10	2	0	1	19	208	201	200	0	64	0	1
 Holy-Bible---Portuguese---World-Portuguese-Bible	4	0	64	12	1	11	9	1	5	94	63	10	2	1	1	1	272	265	264	0	0	0	1
 Holy-Bible---Rangi---Rangi-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
-Holy-Bible---Romani---Eastern-Vlakh	0	0	1	1	0	4	1	0	0	8	5	2	0	0	1	0	22	21	20	1	243	0	1
+Holy-Bible---Romani---Eastern-Vlakh	0	0	5	1	0	4	1	0	0	8	5	2	0	0	1	0	26	25	24	1	239	0	1
 Holy-Bible---Romani-Vlax---Arli-Luke	0	0	0	1	0	2	1	0	0	6	3	2	0	0	0	0	15	14	14	0	250	0	0
-Holy-Bible---Romani-Vlax---Chergash-Luke	0	0	0	1	0	2	1	0	0	6	3	2	0	0	0	0	15	14	14	0	250	0	0
-Holy-Bible---Romani-Vlax---Gurbet-Luke	0	0	0	1	0	2	1	0	0	6	3	2	0	0	0	0	15	14	14	0	250	0	0
-Holy-Bible---Romani-Vlax---Lovaric-Bible	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	1	0	263	0	0
-Holy-Bible---Romani-Vlax---Servi-Bible	0	0	1	1	0	4	1	0	0	8	5	2	0	0	0	0	22	21	21	0	243	0	0
+Holy-Bible---Romani-Vlax---Chergash-Luke	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
+Holy-Bible---Romani-Vlax---Gurbet-Luke	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
+Holy-Bible---Romani-Vlax---Lovaric-Bible	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	5	5	5	0	259	0	0
+Holy-Bible---Romani-Vlax---Servi-Bible	0	0	5	1	0	4	1	0	0	8	5	2	0	0	0	0	26	25	25	0	239	0	0
 Holy-Bible---Romanian---BTF-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Romanian---Bayash-Luke	0	0	0	1	0	2	1	0	0	6	3	2	0	0	0	0	15	14	14	0	250	0	0
 Holy-Bible---Romanian---Cyrillic	0	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1

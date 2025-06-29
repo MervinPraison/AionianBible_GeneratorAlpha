@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1716885     
-# File Date: 06/19/2025 01:24:16
+# File Size: 1717343     
+# File Date: 06/28/2025 23:41:29
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -11465,6 +11465,10 @@ Holy-Bible---Portuguese---World-Portuguese-Bible	044	ACT	024	007
 Holy-Bible---Portuguese---World-Portuguese-Bible	045	ROM	016	025	
 Holy-Bible---Rangi---Rangi-Bible	064	3JO	001	014	ˆVyeene nookiilaangya kwiiyona tʉrɨ chaangʉ, aho, lʉʉsɨka tʉrɨ miiso kwa miiso.
 Holy-Bible---Rangi---Rangi-Bible	066	REV	012	018	Maa re ɨro ramʉʉntaɨra rɨkɨɨma mbarɨmbarɨ ya mayɨya.
+Holy-Bible---Romani-Vlax---Chergash-Luke	064	3JO	001	014	Nego nadiv man kaj sigo dikhav tut thaj kaj askal ćerasa svato jakha ande jakha.
+Holy-Bible---Romani-Vlax---Chergash-Luke	066	REV	012	018	Thaj e Aždaja ačhili pe obala e morešći.
+Holy-Bible---Romani-Vlax---Gurbet-Luke	064	3JO	001	014	al nadima kaj sigate ka dikhav tut thaj muj mujesa te vaćara.
+Holy-Bible---Romani-Vlax---Gurbet-Luke	066	REV	012	018	Tegani i Aždaja ačhili ki obala e moresi.
 Holy-Bible---Romanian---Bayash-Luke	042	LUK	017	036	
 Holy-Bible---Romanian---Bayash-Luke	042	LUK	023	017	
 Holy-Bible---Romanian---Free-Bible	042	LUK	017	036	
