@@ -4299,13 +4299,6 @@ Luke 18:1
 EOF;
 if (!($bfile = preg_replace("/Luke 17:36 (.+?)Luke 18:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-
-John 6:53 Then Iesus sayde vnto them: Verely verely I saye vnto you except ye eate ye flesshe of ye sonne of man and drinke his bloude ye shall not have lyfe in you
-John 6:54 Whosoever eateth my flesshe and drinketh my bloude hath eternall lyfe: and I will rayse him vp at the last daye.
-John 6:55 
-EOF;
-if (!($bfile = preg_replace("/\nJohn 6:53 (.+?)\nJohn 6:55 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
 Romans 1:22 When they couted them selves wyse they became foles
 Romans 1:23 and turned the glory of the immortall god vnto the similitude of the ymage of mortall man and of byrdes and foure foted beastes and of serpentes.
 Romans 1:24 

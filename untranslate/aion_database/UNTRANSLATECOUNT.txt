@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
-# File Size: 46951       
-# File Date: 06/29/2025 02:42:03
+# File Size: 46953       
+# File Date: 07/02/2025 03:31:58
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -195,7 +195,7 @@ Holy-Bible---German---German-Schlachter	18	1	64	12	1	11	9	1	5	94	63	10	2	0	0	1	2
 Holy-Bible---German---German-Tafel-Bible	62	0	45	12	1	11	9	1	5	94	63	10	2	0	1	0	253	246	245	0	19	0	1
 Holy-Bible---Ghanongga---Kubokota-Adapt-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
 Holy-Bible---Gikuyu---Kikuyu	0	0	64	12	1	11	9	1	5	94	63	10	2	0	3	0	272	266	264	0	0	0	2
-Holy-Bible---Glavda---Glavda-Bible	0	0	0	10	0	3	0	0	0	23	10	4	0	0	0	0	50	48	48	0	216	0	0
+Holy-Bible---Glavda---Glavda-Bible	0	0	0	10	1	3	1	0	0	38	31	8	1	0	0	0	93	89	89	0	175	0	0
 Holy-Bible---Gofa---Gofa-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
 Holy-Bible---Gofa---Gofa-Bible-Ethiopian	0	0	64	12	1	11	9	1	5	94	63	10	2	0	2	0	272	264	262	2	0	0	2
 Holy-Bible---Gofa---Gofa-Bible-Latin	0	0	64	12	1	11	9	1	5	94	63	10	2	0	2	0	272	264	262	2	0	0	2
@@ -224,7 +224,7 @@ Holy-Bible---Greek---Greek-Tischendorf	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	
 Holy-Bible---Greek---Greek-Tregelles	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
 Holy-Bible---Greek---Greek-Westcott-Hort	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
 Holy-Bible---Greek---Text-Critical	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
-Holy-Bible---Guduf-Gava---Guduf-Gava-Bible	0	0	0	7	0	2	0	0	0	8	5	0	0	0	0	0	22	22	22	0	242	0	0
+Holy-Bible---Guduf-Gava---Guduf-Gava-Bible	0	0	0	10	0	2	0	0	0	10	6	4	0	0	0	0	32	30	30	0	234	0	0
 Holy-Bible---Gujarati---Gujarati-Bible	0	0	64	12	1	11	9	1	5	94	62	10	2	0	1	0	271	264	264	0	0	0	0
 Holy-Bible---Gujii---Guji-Oromo-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	264	263	1	0	0	1
 Holy-Bible---Haitian---Haitian-Creole-Bible	0	2	64	12	1	11	9	1	5	94	63	10	2	0	0	2	272	264	264	0	0	0	0

@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1106587     
-# File Date: 06/29/2025 03:31:57
+# File Size: 1107136     
+# File Date: 07/02/2025 04:21:11
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -1652,14 +1652,14 @@ Holy-Bible---Gikuyu---Kikuyu	EXO-013-017	Thaama 13:17	Rĩrĩa Firaũni aarekerei
 Holy-Bible---Gikuyu---Kikuyu	MAR-010-045	Mariko 10:45	Nĩgũkorwo o na Mũrũ wa Mũndũ ndookire gũtungatĩrwo, no ookire gũtungata na arute muoyo wake nĩguo arĩhe thogora wa gũkũũra andũ aingĩ.”
 Holy-Bible---Gikuyu---Kikuyu	ROM-001-001	Aroma 1:1	Nĩ niĩ Paũlũ, ndungata ya Kristũ Jesũ, o niĩ njĩtĩĩtwo nduĩke mũtũmwo, na ngaamũrwo hunjagie Ũhoro-ũrĩa-Mwega wa Ngai,
 Holy-Bible---Gikuyu---Kikuyu	MAT-028-019	Mathayo 28:19	Nĩ ũndũ ũcio thiĩi mũgatũme andũ a ndũrĩrĩ ciothe matuĩke arutwo akwa, mũkĩmabatithagia thĩinĩ wa rĩĩtwa rĩa Ithe na rĩa Mũriũ na rĩa Roho Mũtheru,
-Holy-Bible---Glavda---Glavda-Bible	JOH-003-016		
+Holy-Bible---Glavda---Glavda-Bible	JOH-003-016	John 3:16	“Waighantwaig Daadamazhigǝl kǝ duni ba vaivaiya vǝlda kǝ zǝraan pal ba nǝ iina, baɗǝm dadda kwa fǝdghǝrǝtfǝg tǝ iina da maay ǝmtsǝg biya, da tlǝknatlǝg kǝ shifǝgga tangw damma zǝrazǝra.
 Holy-Bible---Glavda---Glavda-Bible	GEN-003-024		
 Holy-Bible---Glavda---Glavda-Bible	LUK-023-034		
 Holy-Bible---Glavda---Glavda-Bible	REV-021-002		 
 Holy-Bible---Glavda---Glavda-Bible	HEB-011-008		
 Holy-Bible---Glavda---Glavda-Bible	EXO-013-017		
 Holy-Bible---Glavda---Glavda-Bible	MAR-010-045	Markus 10:45	Aɗaba Zǝra Uuda sahi mbakyarvad ɓagvarnǝs kwatnahǝr biya, sahi da ɓa kwatnah nǝ iina, dlaɓa vǝlda kǝ shiffǝgaan kiyava varra uudah baɗyaka.”
-Holy-Bible---Glavda---Glavda-Bible	ROM-001-001		
+Holy-Bible---Glavda---Glavda-Bible	ROM-001-001	Romans 1:1	Bulus, kwatnaha Kǝristi Yesu, kwa ɗahavant kiyava nǝg kǝ zǝr ɓǝlga Yesu, dlaɓa favan ba kǝrkangyakw kiyava taa ǝlbǝg Marawa Daadamazhigǝla.
 Holy-Bible---Glavda---Glavda-Bible	MAT-028-019	Mata 28:19	Mbakyarvad kwaha, damdǝg namtǝrdanǝg kǝ uudaha duni kǝ mbǝzahar baɗǝmma, am ɓagtǝra kǝ tsuufǝg ma ɗaaga Daada, ma ɗaaga Zǝra, ard Shiɗkw Daadamazhigǝla.
 Holy-Bible---Gofa---Gofa-Bible	JOH-003-016	Yohaannisa 3:16	Xoossaa Na7aa ammaniyaa ubbay merinaa de7uwa laattanaappe attin dhayonna mela Xoossay ha alamiya daro dosida gisho ba issi Na7aa immis.
 Holy-Bible---Gofa---Gofa-Bible	GEN-003-024		
@@ -1919,9 +1919,9 @@ Holy-Bible---Guduf-Gava---Guduf-Gava-Bible	LUK-023-034
 Holy-Bible---Guduf-Gava---Guduf-Gava-Bible	REV-021-002		 
 Holy-Bible---Guduf-Gava---Guduf-Gava-Bible	HEB-011-008		
 Holy-Bible---Guduf-Gava---Guduf-Gava-Bible	EXO-013-017		
-Holy-Bible---Guduf-Gava---Guduf-Gava-Bible	MAR-010-045		
+Holy-Bible---Guduf-Gava---Guduf-Gava-Bible	MAR-010-045	Markus 10:45	Wirva itsa ka Zǝr Uda dǝ ghǝrar, a sodagh ba kǝ wirva ɗaba ka ɗaba tsud bi. Ai a sodagh kǝ ɗaba udakh kǝ, zǝ bǝdu safara tsǝka kǝ kat da udakh daghan.
 Holy-Bible---Guduf-Gava---Guduf-Gava-Bible	ROM-001-001		
-Holy-Bible---Guduf-Gava---Guduf-Gava-Bible	MAT-028-019	Matthew 28:19	Wirva yan, dam da nandal udakh ǝn lard daghan kǝ nǝga kǝ furakhar. Paratǝra para kur ǝn ɗakha Dada, zǝ Zǝra, zǝ Sǝɗikw Yazhigǝl.
+Holy-Bible---Guduf-Gava---Guduf-Gava-Bible	MAT-028-019	Mat 28:19	Wirva yan, dam da nandal udakh ǝn lard daghan kǝ nǝga kǝ furakhar. Paratǝra para kur ǝn ɗakha Dada, zǝ Zǝra, zǝ Sǝɗikw Yazhigǝl.
 Holy-Bible---Gujarati---Gujarati-Bible	JOH-003-016	યોહાન ૩:૧૬	કેમ કે ઈશ્વરે માનવજગત પર એટલો બધો પ્રેમ કર્યો કે તેમણે પોતાનો એકનો એક દીકરો આપ્યો, એ સારુ કે જે કોઈ તેમના પર વિશ્વાસ કરે તેનો નાશ ન થાય પણ તે અનંતજીવન પામે.
 Holy-Bible---Gujarati---Gujarati-Bible	GEN-003-024	ઊત્પત્તિ ૩:૨૪	ઈશ્વરે તે માણસને વાડીમાંથી દૂર કર્યો અને જીવનના વૃક્ષની સીમાને સાચવવા તેમણે એદન વાડીની પૂર્વગમ અગ્નિરૂપી તલવાર સાથે કરુબોને ચોકીદાર તરીકે ગોઠવ્યા.
 Holy-Bible---Gujarati---Gujarati-Bible	LUK-023-034	લૂક ૨૩:૩૪	ઈસુએ કહ્યું, ‘હે પિતા, તેઓને માફ કરો, કેમ કે તેઓ જે કરે છે તે તેઓ જાણતા નથી.’ ચિઠ્ઠીઓ નાખીને તેઓએ તેમના વસ્ત્ર અંદરોઅંદર વહેંચી લીધા.

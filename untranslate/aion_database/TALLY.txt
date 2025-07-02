@@ -1,6 +1,6 @@
 # File Name: TALLY.txt
 # File Size: 27478       
-# File Date: 06/28/2025 23:41:29
+# File Date: 07/02/2025 00:11:26
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -140,7 +140,7 @@ Holy-Bible---English---Syriac-Peshitta-Murdock	7957	7957	7957
 Holy-Bible---English---Text-Critical	7953	7953	7953
 Holy-Bible---English---Trans-Trans	30641	30641	30643
 Holy-Bible---English---Twentieth-Century-NT	7942	7942	7942
-Holy-Bible---English---Tyndale-Bible	13828	13828	13828
+Holy-Bible---English---Tyndale-Bible	13846	13846	13846
 Holy-Bible---English---Unlocked-Literal-Bible	31086	31086	31104
 Holy-Bible---English---Webster-Bible	31102	31102	31102
 Holy-Bible---English---Webster-Bible-Revised	31102	31102	31102
@@ -195,7 +195,7 @@ Holy-Bible---German---German-Schlachter	31101	31101	31102
 Holy-Bible---German---German-Tafel-Bible	26076	26076	26143
 Holy-Bible---Ghanongga---Kubokota-Adapt-Bible	7946	7946	7948
 Holy-Bible---Gikuyu---Kikuyu	31101	31101	31101
-Holy-Bible---Glavda---Glavda-Bible	2687	2687	2687
+Holy-Bible---Glavda---Glavda-Bible	3997	3997	3997
 Holy-Bible---Gofa---Gofa-Bible	7930	7930	7932
 Holy-Bible---Gofa---Gofa-Bible-Ethiopian	30975	30975	30977
 Holy-Bible---Gofa---Gofa-Bible-Latin	30975	30975	30977
@@ -224,7 +224,7 @@ Holy-Bible---Greek---Greek-Tischendorf	7937	7937	7940
 Holy-Bible---Greek---Greek-Tregelles	7946	7946	7952
 Holy-Bible---Greek---Greek-Westcott-Hort	7941	7941	7943
 Holy-Bible---Greek---Text-Critical	7953	7953	7953
-Holy-Bible---Guduf-Gava---Guduf-Gava-Bible	1071	1071	1071
+Holy-Bible---Guduf-Gava---Guduf-Gava-Bible	1749	1749	1749
 Holy-Bible---Gujarati---Gujarati-Bible	31102	31102	31104
 Holy-Bible---Gujii---Guji-Oromo-Bible	31066	31066	31068
 Holy-Bible---Haitian---Haitian-Creole-Bible	31102	31102	31102
