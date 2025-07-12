@@ -1,5 +1,7 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	TOTAL	COMBINE	END																																																																																														
 Holy-Bible---Ahirani---Gospels							end																																																																																														
+Holy-Bible---Ahirani---Gospels	064	3JO	001	014	14	1	end																																																																																														
+Holy-Bible---Ahirani---Gospels	066	REV	012	018	1	-1	end																																																																																														
 Holy-Bible---Ajiya---Ajiya-Bible							end																																																																																														
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	064	3JO	001	014	14	1	end																																																																																														
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	066	REV	012	018	1	-1	end																																																																																														

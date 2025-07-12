@@ -1725,6 +1725,7 @@ Holy-Bible---Telugu---Telugu-Bible	NONE
 Holy-Bible---Telugu---Telugu-Open-Contemporary	NONE
 Holy-Bible---Thur---Leb-Thur-Bible	NONE
 Holy-Bible---Tongan---Revised-West-Version	NONE
+Holy-Bible---Tsakhur---Tsakhur-Bible	NUM12-13
 Holy-Bible---Tsakhur---Tsakhur-Bible	1SA23-24
 Holy-Bible---Tsakhur---Tsakhur-Bible	DAN3-4
 Holy-Bible---Tsakhur---Tsakhur-Bible	JON1-2

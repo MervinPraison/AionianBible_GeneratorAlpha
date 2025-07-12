@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1717343     
-# File Date: 07/02/2025 00:11:26
+# File Size: 1717766     
+# File Date: 07/11/2025 17:32:24
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -13,6 +13,8 @@
 # Publisher Facebook: https://www.Facebook.com/AionianBible
 #
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	TEXT
+Holy-Bible---Ahirani---Gospels	064	3JO	001	014	तर मी तुले लवकर भेटसु, अशी माले आशा शे, तवय आपण समक्ष बोलुत.
+Holy-Bible---Ahirani---Gospels	066	REV	012	018	अनी तो अजगर समुद्रना किनारवर जाईसन उभा राहिना.
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	064	3JO	001	014	አን ግደኖ በሬን ደቀሞሄተ ተብሳሃ አኣም፤ ህከ ወክት ሜጡበ እንክ ጉዕመርቹንከ ጠወዕናም።
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	066	REV	012	018	ደህቹንኩ ባር ገበላን ሽፋር አሌን ኡሬእ።
 Holy-Bible---Amo---Amo-Bible	041	MAR	009	046	
@@ -12543,7 +12545,8 @@ Holy-Bible---Telugu---Telugu-Bible	040	MAT	004	014
 Holy-Bible---Telugu---Telugu-Bible	064	3JO	001	014	కానీ నేను నిన్ను త్వరలోనే చూడగలనని ఆశిస్తున్నాను. అప్పుడు మనం ముఖాముఖీ మాట్లాడుకుందాం.
 Holy-Bible---Telugu---Telugu-Bible	066	REV	012	018	దానికోసం ఆ మహా సర్పం సముద్ర తీరంలో ఇసుక తిన్నెలపై నిలబడింది.
 Holy-Bible---Telugu---Telugu-Open-Contemporary	064	3JO	001	014	త్వరలో నేను నీ దగ్గరకు వచ్చి ముఖాముఖిగా నీతో మాట్లాడాలని నిరీక్షిస్తున్నాను.
-Holy-Bible---Tsakhur---Tsakhur-Bible	009	1SA	020	042	Yonatanee Davuduk'le eyhen: – Vas yugna yəq vuxhena. Zınay ğu Rəbbine doyule sana-sang'us k'ın g'assır, uvhunniy: Rəbb yizdeyiy yiğne, yişde uşaxaaşine yı'q'neenar gırgıne gahbışisda Şahad vorna.
+Holy-Bible---Tsakhur---Tsakhur-Bible	009	1SA	020	042	Yonatanee Davuduk'le eyhen: – Vas yugna yəq vuxhena. Zınay ğu Rəbbine doyule sana-sang'us k'ın g'assır, uvhuynniy: Rəbb yizdeyiy yiğne, yişde uşaxaaşine yı'q'neenar gırgıne gahbışisda Şahad vorna.
+Holy-Bible---Tsakhur---Tsakhur-Bible	020	PRO	031	025	
 Holy-Bible---Turkish---Open-Basic-Turkish	064	3JO	001	014	Yakında seni görmeyi umut ediyorum. O zaman yüz yüze konuşacağız.
 Holy-Bible---Turkish---Open-Basic-Turkish	066	REV	012	018	Ejderha gidip deniz kenarında dikilip durdu.
 Holy-Bible---Turkish---Turkish-Bible	066	REV	012	018	Denizin kıyısında dikilip durdu.

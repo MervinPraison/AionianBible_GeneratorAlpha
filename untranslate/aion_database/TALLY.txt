@@ -1,6 +1,6 @@
 # File Name: TALLY.txt
-# File Size: 27478       
-# File Date: 07/02/2025 00:11:26
+# File Size: 27484       
+# File Date: 07/11/2025 17:32:24
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -13,7 +13,7 @@
 # Publisher Facebook: https://www.Facebook.com/AionianBible
 #
 BIBLE	AIONIAN	STANDARD	SOURCE
-Holy-Bible---Ahirani---Gospels	1749	1749	1749
+Holy-Bible---Ahirani---Gospels	14537	14537	14539
 Holy-Bible---Ajiya---Ajiya-Bible	3778	3778	3778
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	7915	7915	7917
 Holy-Bible---Amo---Amo-Bible	7952	7952	7956
@@ -306,7 +306,7 @@ Holy-Bible---Latvian---Latvian-Gluck-Bible	31102	31102	31102
 Holy-Bible---Lingala---Lingala-Bible	31100	31100	31172
 Holy-Bible---Lithuanian---Believers-Heritage	2499	2499	2499
 Holy-Bible---Lithuanian---Open-Lithuanian-Bible	2087	2087	2087
-Holy-Bible---Lodhi---Lodhi-Bible	7956	7956	7958
+Holy-Bible---Lodhi---Lodhi-Bible	14432	14432	14434
 Holy-Bible---Luganda---Luganda-Bible	31102	31102	31104
 Holy-Bible---Lungga---Lungga-Bible	9612	9612	9614
 Holy-Bible---Luyana---Luyana-Bible	7957	7957	7959
@@ -454,9 +454,9 @@ Holy-Bible---Tamil---Open-Contemporary	31102	31102	31103
 Holy-Bible---Tamil---Tamil-Bible	31102	31102	31103
 Holy-Bible---Telugu---Telugu-Bible	31038	31038	31041
 Holy-Bible---Telugu---Telugu-Open-Contemporary	30935	30935	30936
-Holy-Bible---Thur---Leb-Thur-Bible	6686	6686	6686
+Holy-Bible---Thur---Leb-Thur-Bible	9417	9417	9417
 Holy-Bible---Tongan---Revised-West-Version	31102	31102	31102
-Holy-Bible---Tsakhur---Tsakhur-Bible	5561	5561	5562
+Holy-Bible---Tsakhur---Tsakhur-Bible	7002	7002	7004
 Holy-Bible---Turkish---Open-Basic-Turkish	7899	7899	7901
 Holy-Bible---Turkish---Turkish-Bible	30238	30238	30239
 Holy-Bible---Twi---Akuapem-Twi-Bible	31098	31098	31100

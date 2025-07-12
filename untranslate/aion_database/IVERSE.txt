@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1107136     
-# File Date: 07/02/2025 04:21:11
+# File Size: 1112137     
+# File Date: 07/11/2025 21:13:15
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -14,14 +14,14 @@
 #
 BIBLE	REF	TEXT
 BIBLE	REFERENCE	TEXT
-Holy-Bible---Ahirani---Gospels	JOH-003-016		
-Holy-Bible---Ahirani---Gospels	GEN-003-024		
-Holy-Bible---Ahirani---Gospels	LUK-023-034		
-Holy-Bible---Ahirani---Gospels	REV-021-002		 
-Holy-Bible---Ahirani---Gospels	HEB-011-008		
-Holy-Bible---Ahirani---Gospels	EXO-013-017		
+Holy-Bible---Ahirani---Gospels	JOH-003-016	योहान 3:16	देवनी जगवर ईतली प्रिती करी की त्यानी आपला एकुलता एक पोऱ्या दिधा, याकरता की जो कोणी त्यानावर ईश्वास ठेवस त्याना नाश व्हणार नही तर त्याले सार्वकालिक जिवन भेटी.
+Holy-Bible---Ahirani---Gospels	GEN-003-024	उत्पती 3:24	देवनी मानवले बाहेर काढी दिधं अनी जिवनना झाडकडे जाणारा वाटनी राखण कराकरता एदेन बागना पुर्व भागले करूबीम अनं गरागर फिरणारी ज्वालारूपी तलवार ठेई.
+Holy-Bible---Ahirani---Gospels	LUK-023-034	लूक 23:34	तवय येशु बोलना, “हे बाप, यासले क्षमा कर! कारण ह्या काय करतस हाई ह्यासले समजत नही.” “नंतर त्यासनी चिठ्या टाकीसन त्याना कपडा वाटी लिधात.”
+Holy-Bible---Ahirani---Gospels	REV-021-002	प्रकटीकरण 21:2-3	तवय मी पवित्र शहर, नवं यरूशलेम, देवपाईन स्वर्गमातीन उतरतांना दखं. ते नवराकरता सजाडेल नवरीनामायक व्हतं. अनी मी राजासनपाईन येल मोठा आवाज ऐका, तो असा दखा, “देवनं घर लोकससंगे शे, त्यासनासंगे देव राही, त्या त्याना लोक व्हतीन, अनी देव स्वतः त्यासनासंगे राही अनी तो त्यासना देव व्हई.
+Holy-Bible---Ahirani---Gospels	HEB-011-008	इब्री 11:8	अब्राहामले पाचारण व्हवानंतर जे ठिकाण त्याले वतन म्हणीन मिळणार व्हतं तठे जावाकरता तो ईश्वासतीन तयार व्हयना अनी आपण कोणता देशमा जाई राहीनु हाई त्याले माहीत नव्हतं तरी तो निंघी गया.
+Holy-Bible---Ahirani---Gospels	EXO-013-017	निर्गम 13:17	फारोनी लोकसले जाऊ दिधं तवय पलिष्टी लोकसना देशमातीन वाट जोडीनी व्हती तरीबी देवनी त्यासले ती वाटतीन जाऊ दिध नही, कारण युध्द करनं पडी यानी भितीतीन या लोकं परत मिसर देशमा जातीन अस परमेश्वरले वाटनं.
 Holy-Bible---Ahirani---Gospels	MAR-010-045	मार्क 10:45	कारण मनुष्यना पोऱ्या पण सेवा करी लेवाले नही तर सेवा कराले अनी लोकसना पापनं मोल म्हणीन आपला जीव देवाले येल शे.”
-Holy-Bible---Ahirani---Gospels	ROM-001-001		
+Holy-Bible---Ahirani---Gospels	ROM-001-001	रोम 1:1	प्रेषित व्हवाकरता बलायेल, देवना सुवार्ताकरता येगळा करेल ख्रिस्त येशुना दास, पौल याना कडतीन;
 Holy-Bible---Ahirani---Gospels	MAT-028-019	मत्तय 28:19	यामुये तुम्हीन जाईसन सर्वा राष्ट्रमाधला लोकसले शिष्य करा; त्यासले पिता, पुत्र अनं पवित्र आत्माना नावतीन बाप्तिस्मा द्या,
 Holy-Bible---Ajiya---Ajiya-Bible	JOH-003-016	IYahaya 3:16	“Ka Ọnọng yoo ashi nagigang ki ma Anọ nga ka aye, ka aghọmani ama aipang ni ngaa ni, aba kpoo ba, na asa peni ọkyuọ ni ushi wọ na amaa ba.
 Holy-Bible---Ajiya---Ajiya-Bible	GEN-003-024		
@@ -447,7 +447,7 @@ Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	MAR-010-045	Mark 10:45	Mihing Tapa si
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	ROM-001-001	Romans 1:1	Jesus Christ i sal, Sawltak a hi tu in a ki samtuam le Pathian lungdamna thupha atu koituam, keima Paul in,
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	MAT-028-019	Matthew 28:19	Tua a hiciang note pai tavun a, minam theampo te hil tavun, Pa, Tapa le Tha Thiangtho min taw tuiphumna pia tavun:
 Holy-Bible---Chin-Thado---Chongthu-Bible	JOH-003-016	John 3:16	Ajeh chu Pathen in hibanga hi vannoi angailut ahin, koi hijongleh Ama tahsan chan chu mangthah louva tonsot hinna anei na dingin, aneisun achapa changkhat chu apetan ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	GEN-003-024	Semtilbu 3:24	Hiti chun Elohimin Adam anodoh jouvin, Eden hon nisolam'a hinna thingphung ngah ding in vantil Cherubim chu achen sah in, chule chemjam kou jeju chu akipei kimvel le sahtan ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	GEN-003-024	Semtilbu 3:24	Hiti chun Pathen in Adam anodoh jouvin, Eden hon nisolam'a hinna thingphung ngah ding in vantil Cherubim chu achen sah in, chule chemjam kou jeju chu akipei kimvel le sahtan ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	LUK-023-034	Luke 23:34	Yeshuan aseitai, “Hepa, ngaidam in, ajeh chu ipi abol'u ahepouve,” ati. Chule sepai hon aponsil chu vang asang'un achang ding akivelhauve.
 Holy-Bible---Chin-Thado---Chongthu-Bible	REV-021-002	Revelation 21:2-3	Chule keiman khopi theng Jerusalem thah chu van Pathena kon'a mou aji dingpa hoitah'a akivon'a ahung kumlhah kamun ahi. Keiman laltouna a kon'a aw hung kisam gin kajan, aseiyin, “Ven, Pathen chenna in chu mihemlah ahung hitai! Ama amahotoh chengkhom intin, chule amaho chu Ama mite hiding ahiuve. Pathen Amatah chun amaho aumpi diu ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	HEB-011-008	Hebrew 11:8	Tahsan jal'in Abraham chu Pathen in a'in dalha dinga akouva chule gouva alodinga ateppehna gam'a che dinga akou chun thun ananung'e. Aman hoilama ache ding jong kihetlouvin anapotdoh jenge.
@@ -2652,11 +2652,11 @@ Holy-Bible---Lithuanian---Open-Lithuanian-Bible	MAR-010-045
 Holy-Bible---Lithuanian---Open-Lithuanian-Bible	ROM-001-001		
 Holy-Bible---Lithuanian---Open-Lithuanian-Bible	MAT-028-019		
 Holy-Bible---Lodhi---Lodhi-Bible	JOH-003-016	यूहन्ना 3:16	“कहालीकि परमेश्वर न जगत सी असो प्रेम करयो कि ओन अपनो एकलौतो टुरा दे दियो, ताकि जो कोयी ओको पर विश्वास करेंन त ऊ नाश नहीं होयेंन, पर अनन्त जीवन ख प्राप्त करेंन।
-Holy-Bible---Lodhi---Lodhi-Bible	GEN-003-024		
+Holy-Bible---Lodhi---Lodhi-Bible	GEN-003-024	उत्पत्ति 3:24	ओन आदम ख निकाल दियो, ओन जीवन को झाड़ को तरफ जान वालो रस्ता की देखभाल करन लायी अदन को बगीचा की पूर्व दिशा म करूबों अऊर जीन्दो प्रानियों अऊर एक धधकती तलवार ख नियुक्त करयो।
 Holy-Bible---Lodhi---Lodhi-Bible	LUK-023-034	लूका 23:34	तब यीशु न कह्यो, “हे बाप, इन्क माफ कर, कहालीकि हि जानय नहीं कि का कर रह्यो हंय।” अऊर उन्न चिट्ठी डाल क ओको कपड़ा बाट लियो।
-Holy-Bible---Lodhi---Lodhi-Bible	REV-021-002	प्रकाशित वाक्य 21:2-3	फिर मय न पवित्र नगर नयो यरूशलेम ख स्वर्ग सी परमेश्वर को जवर सी उतरतो देख्यो। ऊ नगरी ख जो दुल्हिन को समान होती जो अपनो पति लायी सिंगार करयो होना। फिर मय न सिंहासन म सी कोयी ख ऊचो आवाज सी यो कहतो हुयो सुन्यो, “देखो, अब परमेश्वर को घर आदमियों को बीच म हय। अऊर ऊ उन्को संग रहेंन, अऊर हि ओको लोग होयेंन। अऊर परमेश्वर खुद उन्को संग रहेंन अऊर उन्को परमेश्वर होयेंन।
+Holy-Bible---Lodhi---Lodhi-Bible	REV-021-002	प्रकाशितवाक्य 21:2-3	फिर मय न पवित्र नगर नयो यरूशलेम ख स्वर्ग सी परमेश्वर को जवर सी उतरतो देख्यो। ऊ नगरी ख जो दुल्हिन को समान होती जो अपनो पति लायी सिंगार करयो होना। फिर मय न सिंहासन म सी कोयी ख ऊचो आवाज सी यो कहतो हुयो सुन्यो, “देखो, अब परमेश्वर को घर आदमियों को बीच म हय। अऊर ऊ उन्को संग रहेंन, अऊर हि ओको लोग होयेंन। अऊर परमेश्वर खुद उन्को संग रहेंन अऊर उन्को परमेश्वर होयेंन।
 Holy-Bible---Lodhi---Lodhi-Bible	HEB-011-008	इब्रानियों 11:8	विश्वास सीच परमेश्वर न अब्राहम ख बुलायो त आज्ञा मान क असी जागा निकल गयो जेकी परमेश्वर न प्रतिज्ञा करी होती; अऊर यो नहीं जानत होतो कि ऊ कित जाय रह्यो हय, फिर भी अपनो देश छोड़ दियो।
-Holy-Bible---Lodhi---Lodhi-Bible	EXO-013-017		
+Holy-Bible---Lodhi---Lodhi-Bible	EXO-013-017	निर्गमन 13:17	जब फिरौन राजा न लोगों ख जान की आज्ञा दे दी, परमेश्वर उन्ख पलिश्ती देश म होय क जो रस्ता जावय हय ऊ छोटो होतो; तब भी परमेश्वर न यो सोच्यो कि उन्ख ऊ रस्ता सी नहीं ले गयो कि कहीं असो नहीं होय कि जब हि लोग लड़ाई देखे तब पछताय क मिस्र देश वापस लौट जाय।
 Holy-Bible---Lodhi---Lodhi-Bible	MAR-010-045	मरकुस 10:45	कहालीकि मय आदमी को बेटा येकोलायी नहीं आयो कि अपनी सेवा करावन, बल्की दूसरों कि सेवा करन, अऊर लोगों को पापों की कीमत चुकावन लायी अपनो जीवन देन आयो होतो।”
 Holy-Bible---Lodhi---Lodhi-Bible	ROM-001-001	रोमियों 1:1	पौलुस को तरफ सी जो यीशु मसीह को सेवक हय, अऊर जेख परमेश्वर न प्रेरित होन लायी बुलायो गयो, अऊर परमेश्वर को ऊ सुसमाचार लायी अलग करयो गयो।
 Holy-Bible---Lodhi---Lodhi-Bible	MAT-028-019	मत्ती 28:19	येकोलायी तुम जावो, सब लोगों ख चेला बनावो; अऊर उन्ख बाप, अऊर बेटा, अऊर पवित्र आत्मा को नाम सी बपतिस्मा देवो,
@@ -3983,14 +3983,14 @@ Holy-Bible---Telugu---Telugu-Open-Contemporary	EXO-013-017	నిర్గమక
 Holy-Bible---Telugu---Telugu-Open-Contemporary	MAR-010-045	మార్కు 10:45	ఎందుకంటే మనుష్యకుమారుడు సేవ చేయించుకోడానికి రాలేదు కాని సేవ చేయడానికి, తన ప్రాణాన్ని అనేకులకు విమోచన క్రయధనంగా చెల్లించడానికి వచ్చాడు” అని అన్నారు.
 Holy-Bible---Telugu---Telugu-Open-Contemporary	ROM-001-001	రోమీయులకు 1:1	అపొస్తలునిగా ఉండడానికి పిలువబడి దేవుని సువార్త కోసం ప్రత్యేకపరచబడిన పౌలు అనే నేను క్రీస్తు యేసు దాసుడను.
 Holy-Bible---Telugu---Telugu-Open-Contemporary	MAT-028-019	మత్తయి 28:19	కాబట్టి మీరు వెళ్లి, తండ్రి, కుమార, పరిశుద్ధాత్మ పేరున బాప్తిస్మమిస్తూ, అన్ని దేశాలను శిష్యులుగా చేసి,
-Holy-Bible---Thur---Leb-Thur-Bible	JOH-003-016		
+Holy-Bible---Thur---Leb-Thur-Bible	JOH-003-016	Jon 3:16	“Obanga ömarö jö më lobo ni rwök, cë ömïö Wode acël këkën, ëk dhanö acëlacël na yee ï kome kür öthöö, ëntö onwong kwö na ba thum.
 Holy-Bible---Thur---Leb-Thur-Bible	GEN-003-024	Acaki 3:24	Kinge na dong öryëmö dhanö ökö, ën oketho cerubim yo kukïdë më pwodho më Eden. Ëka oketho pala abadë na lyël mac, wïrë tungi ëka tungi, më gwökö yoo na cïdhö yo yath më kwö.
-Holy-Bible---Thur---Leb-Thur-Bible	LUK-023-034		
+Holy-Bible---Thur---Leb-Thur-Bible	LUK-023-034	Luka 23:34	Yecu ölëgö nï, “Apap, tïm nïgï kïca, pïën gïn ba ngeo ngö na gïn tye ka tïmö.” Cë acikari opoko böng mërë kï bolo kwir.
 Holy-Bible---Thur---Leb-Thur-Bible	REV-021-002		 
 Holy-Bible---Thur---Leb-Thur-Bible	HEB-011-008		
 Holy-Bible---Thur---Leb-Thur-Bible	EXO-013-017		
 Holy-Bible---Thur---Leb-Thur-Bible	MAR-010-045	Marako 10:45	Naka thon Wod ka Dhanö ba obino nï ëk etii nïnë ëntö më tic pï jïï ëka më mïö kwö mërë më kökö jö na pol.”
-Holy-Bible---Thur---Leb-Thur-Bible	ROM-001-001		
+Holy-Bible---Thur---Leb-Thur-Bible	ROM-001-001	Roma 1:1	Waraga ni öya kï both Paulo, atic ka Kiricito Yecu, n'Obanga öyërö më bedo akwëna ëka eoro më tïtö köp më Emuth na Bër k'Obanga.
 Holy-Bible---Thur---Leb-Thur-Bible	MAT-028-019	Matayo 28:19	Pï manön cïdh unu dong ëk ïlök unu jö më rok kïbëc ödök gïnï ëlübköra, baticagï unu kï nyïng Apap, ëka Wod ëka Tipo Naleng,
 Holy-Bible---Tongan---Revised-West-Version	JOH-003-016	Sione 3:16	He naʻe ʻofa pehē ʻae ʻOtua ki māmani, naʻa ne foaki hono ʻAlo pe taha naʻe fakatupu, koeʻuhi ko ia kotoa pē ʻe tui kiate ia ke ʻoua naʻa ʻauha, kae maʻu ʻae moʻui taʻengata.
 Holy-Bible---Tongan---Revised-West-Version	GEN-003-024	Senesi 3:24	Pea naʻa ne kapusi ai ʻae tangata pea ne tuku ki he [potu ]hahake ʻoe ngoue ʻo ʻIteni, ʻae selupimi, mo e heletā ulo, ʻaia naʻe foli fakatakamilo, ke leʻohi ʻae hala ʻoe ʻakau ʻoe moʻui.
@@ -4002,14 +4002,14 @@ Holy-Bible---Tongan---Revised-West-Version	MAR-010-045	Maʻake 10:45	He naʻe ʻ
 Holy-Bible---Tongan---Revised-West-Version	ROM-001-001	Loma 1:1	Ko au Paula ko e tamaioʻeiki ʻa Sisu Kalaisi, kuo fili ko e ʻaposetolo, mo vaheʻi ki he ongoongolelei ʻae ʻOtua,
 Holy-Bible---Tongan---Revised-West-Version	MAT-028-019	Mātiu 28:19	Ko ia ke ʻalu ʻakimoutolu, ʻo fakalotuʻi ʻae ngaahi puleʻanga kotoa pē, ʻo papitaiso ʻakinautolu ʻi he huafa ʻoe Tamai, mo e ʻAlo, mo e Laumālie Māʻoniʻoni:
 Holy-Bible---Tsakhur---Tsakhur-Bible	JOH-003-016	Yəhye 3:16	Allahıs dyunye manimee ıkkiykan, Mang'vee vorna-deşda Cuna sa Dix huvu. Manıd mançil-alla ha'a, Mang'ulqa inyam ha'an nenbıcab hımabat'acenva, manbışiqa gırgıne gahbışisda ı'mı'r vuxhecenva.
-Holy-Bible---Tsakhur---Tsakhur-Bible	GEN-003-024	Ts'etta ıxhaynbı 3:24	Mang'vee Eden bağne şargılqa g'oramişa'an malaaikariy harıne suralqa iliyk'aran ts'ayıkan g'ılınc giyxhe ı'mrene yivelqa əəna yəq avqecenva.
+Holy-Bible---Tsakhur---Tsakhur-Bible	GEN-003-024	Ts'etta 3:24	Mang'vee Eden bağne şargılqa g'oramişa'an malaaikariy gırgıne suralqa iliyk'aran ts'ayıkan g'ılınc giyxhe ı'mrene yivelqa əəna yəq avqecenva.
 Holy-Bible---Tsakhur---Tsakhur-Bible	LUK-023-034		
 Holy-Bible---Tsakhur---Tsakhur-Bible	REV-021-002		 
-Holy-Bible---Tsakhur---Tsakhur-Bible	HEB-011-008		
+Holy-Bible---Tsakhur---Tsakhur-Bible	HEB-011-008	Cühüt'yaaşis 11:8	Allahee qort'uling'a, cun xav g'aleççu, İbrıhım inyam vodva, mirasna alyapt'asde cigeeqa k'ırı alixhxhı, ayk'an. Mang'uk'le nyaqa ı'qqəvacar dya'ts'a yəqqı'lqa qığeç'e.
 Holy-Bible---Tsakhur---Tsakhur-Bible	EXO-013-017	Qığeepç'iy 13:17	Fironee millet g'ayqiyng'a, Allahee manbı Filiştinaaşine cigabışile k'ena yəq cit'aba vuxheyib quvqekka deş. Allahee eyhen: – Maa'ab manbışika muhariba hav'eene, manbışe sayid fıkırbı badal hı'ı Misirqacab siviyk'al.
 Holy-Bible---Tsakhur---Tsakhur-Bible	MAR-010-045		
 Holy-Bible---Tsakhur---Tsakhur-Bible	ROM-001-001		
-Holy-Bible---Tsakhur---Tsakhur-Bible	MAT-028-019	Matta 28:19	Mançil-allab hapk'ın gırgıne milletbışike Yizın telebabı hee'e, manbı Dekkıne, Duxayne, sayıb Muq'addasne Rı'hı'ne doyuka xhineeqa k'yooq'u gicəpxı'ybı aleet'e'e.
+Holy-Bible---Tsakhur---Tsakhur-Bible	MAT-028-019	Matta 28:19	Mançil-allab hapk'ın gırgıne milletbışike Yizın telebabı hee'e, manbı Dekkıne, Dixene, sayıb Muq'addasne Rı'hı'ne doyuka xhineeqa k'yooq'u gicəpxı'ybı aleet'e'e.
 Holy-Bible---Turkish---Open-Basic-Turkish	JOH-003-016	Yuhanna 3:16	Allah dünyayı o kadar sevdi ki, biricik Oğluʼnu verdi. Öyle ki, her kim Oʼna iman ederse mahvolmasın ama sonsuz yaşama kavuşsun.
 Holy-Bible---Turkish---Open-Basic-Turkish	GEN-003-024		
 Holy-Bible---Turkish---Open-Basic-Turkish	LUK-023-034	Luka 23:34	O zaman İsa şöyle dedi: “Baba, onları bağışla. Çünkü ne yaptıklarını bilmiyorlar.” Askerler İsaʼnın elbiselerini aralarında paylaşmak için kura çektiler.

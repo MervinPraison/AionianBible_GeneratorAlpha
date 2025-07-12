@@ -11844,6 +11844,16 @@ goto RAWHIDE;
 
 
 
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Kolami-Southeastern---Kolami-Bible" :
+if (!($bfile = preg_replace("/\x{007F}/us","",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
+
+
+
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Konda-Dora---Konda-Porja-Bible" :
 $textfix = <<<EOF

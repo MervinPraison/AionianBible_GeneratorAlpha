@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
-# File Size: 46953       
-# File Date: 07/02/2025 03:31:58
+# File Size: 46965       
+# File Date: 07/11/2025 20:24:57
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -13,7 +13,7 @@
 # Publisher Facebook: https://www.Facebook.com/AionianBible
 #
 BIBLE	HELL_ALL	HELL_OUT	SHEOL	GEHENNA	ELEESE	HADES	ABYSS	TARTARUS	LOF	AION	AIONIAN	AION-2	AIDIOS	AION_OUT	CUSTOM	OUT	IN	VERSE_DO	VERSE_OK	VERSE_SK	VERSE_NO	VERSE_ER	VERSE_CK
-Holy-Bible---Ahirani---Gospels	0	0	0	10	0	2	0	0	0	10	6	4	0	0	0	0	32	30	30	0	234	0	0
+Holy-Bible---Ahirani---Gospels	0	0	12	12	1	11	9	1	5	94	63	10	2	0	0	0	220	212	212	0	52	0	0
 Holy-Bible---Ajiya---Ajiya-Bible	0	0	0	11	0	4	1	0	0	26	24	10	0	0	0	0	76	71	71	0	193	0	0
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	200	199	1	64	0	1
 Holy-Bible---Amo---Amo-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
@@ -306,7 +306,7 @@ Holy-Bible---Latvian---Latvian-Gluck-Bible	0	1	64	12	1	11	9	1	5	94	63	10	2	0	1	1
 Holy-Bible---Lingala---Lingala-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Lithuanian---Believers-Heritage	0	0	0	1	1	0	1	1	0	38	41	4	2	0	0	0	89	87	87	0	177	0	0
 Holy-Bible---Lithuanian---Open-Lithuanian-Bible	0	0	0	1	0	4	1	0	0	8	5	2	0	0	0	0	21	20	20	0	244	0	0
-Holy-Bible---Lodhi---Lodhi-Bible	0	2	0	12	1	11	9	1	5	94	63	10	2	0	1	2	208	201	200	0	64	0	1
+Holy-Bible---Lodhi---Lodhi-Bible	0	2	12	12	1	11	9	1	5	94	63	10	2	0	1	2	220	213	212	0	52	0	1
 Holy-Bible---Luganda---Luganda-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Lungga---Lungga-Bible	0	0	5	12	1	11	9	1	5	94	63	10	2	0	0	0	213	205	205	0	59	0	0
 Holy-Bible---Luyana---Luyana-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
@@ -454,9 +454,9 @@ Holy-Bible---Tamil---Open-Contemporary	0	2	64	12	1	11	9	1	5	94	63	10	2	0	1	2	272
 Holy-Bible---Tamil---Tamil-Bible	0	0	64	12	1	11	9	1	5	94	62	10	2	0	22	0	271	275	264	0	0	0	11
 Holy-Bible---Telugu---Telugu-Bible	0	1	64	12	1	11	9	1	5	94	62	10	2	0	4	1	271	266	264	0	0	0	2
 Holy-Bible---Telugu---Telugu-Open-Contemporary	0	4	64	12	1	11	9	1	5	93	61	12	2	0	8	4	271	263	257	7	0	0	6
-Holy-Bible---Thur---Leb-Thur-Bible	0	0	5	11	0	5	0	0	0	35	19	4	0	0	0	0	79	77	77	0	187	0	0
+Holy-Bible---Thur---Leb-Thur-Bible	0	0	5	12	1	7	2	0	0	59	46	10	1	0	0	0	143	138	138	0	126	0	0
 Holy-Bible---Tongan---Revised-West-Version	0	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
-Holy-Bible---Tsakhur---Tsakhur-Bible	0	0	7	8	0	2	0	0	0	18	20	4	0	0	0	0	59	57	57	0	207	0	0
+Holy-Bible---Tsakhur---Tsakhur-Bible	0	0	12	8	0	2	0	0	0	18	21	4	0	0	0	0	65	63	63	0	193	8	0
 Holy-Bible---Turkish---Open-Basic-Turkish	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
 Holy-Bible---Turkish---Turkish-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Twi---Akuapem-Twi-Bible	0	2	64	12	1	11	9	1	5	94	63	10	2	0	1	2	272	265	264	0	0	0	1
