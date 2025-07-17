@@ -11727,13 +11727,6 @@ goto RAWHIDE;
 
 
 
-// RAWFIX BIBLE ********************
-case "Holy-Bible---Kannada---Kannada-Bible" :
-if (!($bfile = preg_replace("/:1 1 /us",":1 ",$bfile,-1,$rnum)) || $rnum!=3) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-goto RAWHIDE;
-
-
-
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Kara---Kara-Bible" :

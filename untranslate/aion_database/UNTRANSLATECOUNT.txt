@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
-# File Size: 46965       
-# File Date: 07/15/2025 13:30:29
+# File Size: 46876       
+# File Date: 07/17/2025 03:24:21
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -13,7 +13,7 @@
 # Publisher Facebook: https://www.Facebook.com/AionianBible
 #
 BIBLE	HELL_ALL	HELL_OUT	SHEOL	GEHENNA	ELEESE	HADES	ABYSS	TARTARUS	LOF	AION	AIONIAN	AION-2	AIDIOS	AION_OUT	CUSTOM	OUT	IN	VERSE_DO	VERSE_OK	VERSE_SK	VERSE_NO	VERSE_ER	VERSE_CK
-Holy-Bible---Ahirani---Gospels	0	0	12	12	1	11	9	1	5	94	63	10	2	0	0	0	220	212	212	0	52	0	0
+Holy-Bible---Ahirani---Ahirani-Bible	0	0	12	12	1	11	9	1	5	94	63	10	2	0	0	0	220	212	212	0	52	0	0
 Holy-Bible---Ajiya---Ajiya-Bible	0	0	0	11	0	4	1	0	0	26	24	10	0	0	0	0	76	71	71	0	193	0	0
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	200	199	1	64	0	1
 Holy-Bible---Amo---Amo-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
@@ -275,7 +275,6 @@ Holy-Bible---Jumjum---Jumjum-Bible	0	0	4	7	0	2	0	0	0	8	5	0	0	0	0	0	26	26	26	0	23
 Holy-Bible---Juray---Juray-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
 Holy-Bible---Kamano---Kamano-Kafe	0	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---Kannada---Indian-Revised-Version	0	0	64	12	1	11	9	1	5	93	61	12	2	0	5	0	271	262	258	6	0	0	4
-Holy-Bible---Kannada---Kannada-Bible	0	0	64	12	1	11	9	1	5	93	61	12	2	0	8	0	271	264	258	6	0	0	6
 Holy-Bible---Kannada---Open-Contemporary	0	0	64	12	1	11	9	1	5	94	63	10	2	0	4	0	272	265	262	2	0	0	3
 Holy-Bible---Kannada---Siddi-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
 Holy-Bible---Kara---Kara-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1

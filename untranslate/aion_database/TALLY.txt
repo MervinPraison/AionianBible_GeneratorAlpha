@@ -1,6 +1,6 @@
 # File Name: TALLY.txt
-# File Size: 27484       
-# File Date: 07/15/2025 09:38:31
+# File Size: 27435       
+# File Date: 07/16/2025 23:09:15
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -13,7 +13,7 @@
 # Publisher Facebook: https://www.Facebook.com/AionianBible
 #
 BIBLE	AIONIAN	STANDARD	SOURCE
-Holy-Bible---Ahirani---Gospels	14537	14537	14539
+Holy-Bible---Ahirani---Ahirani-Bible	14537	14537	14539
 Holy-Bible---Ajiya---Ajiya-Bible	3778	3778	3778
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	7915	7915	7917
 Holy-Bible---Amo---Amo-Bible	7952	7952	7956
@@ -275,7 +275,6 @@ Holy-Bible---Jumjum---Jumjum-Bible	2601	2601	2601
 Holy-Bible---Juray---Juray-Bible	7957	7957	7959
 Holy-Bible---Kamano---Kamano-Kafe	31091	31091	31092
 Holy-Bible---Kannada---Indian-Revised-Version	31029	31029	31031
-Holy-Bible---Kannada---Kannada-Bible	31029	31029	31031
 Holy-Bible---Kannada---Open-Contemporary	31089	31089	31090
 Holy-Bible---Kannada---Siddi-Bible	7955	7955	7958
 Holy-Bible---Kara---Kara-Bible	7950	7950	7955

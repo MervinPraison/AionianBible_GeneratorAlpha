@@ -1,6 +1,6 @@
 # File Name: ANAVIGATION.txt
-# File Size: 31998       
-# File Date: 07/15/2025 14:27:10
+# File Size: 31593       
+# File Date: 07/17/2025 04:25:22
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -13,7 +13,7 @@
 # Publisher Facebook: https://www.Facebook.com/AionianBible
 #
 BIBLE	STATUS	MISSING
-Holy-Bible---Ahirani---Gospels		
+Holy-Bible---Ahirani---Ahirani-Bible		
 Holy-Bible---Ajiya---Ajiya-Bible		
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible		
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	VERSMISS	042-LUK-001-055
@@ -387,13 +387,6 @@ Holy-Bible---Kannada---Indian-Revised-Version	VERSMISS	049-EPH-003-011
 Holy-Bible---Kannada---Indian-Revised-Version	VERSMISS	056-TIT-003-007
 Holy-Bible---Kannada---Indian-Revised-Version	VERSMISS	058-HEB-006-002
 Holy-Bible---Kannada---Indian-Revised-Version	VERSMISS	058-HEB-013-021
-Holy-Bible---Kannada---Kannada-Bible		
-Holy-Bible---Kannada---Kannada-Bible	VERSMISS	042-LUK-001-055
-Holy-Bible---Kannada---Kannada-Bible	VERSMISS	045-ROM-016-026
-Holy-Bible---Kannada---Kannada-Bible	VERSMISS	049-EPH-003-011
-Holy-Bible---Kannada---Kannada-Bible	VERSMISS	056-TIT-003-007
-Holy-Bible---Kannada---Kannada-Bible	VERSMISS	058-HEB-006-002
-Holy-Bible---Kannada---Kannada-Bible	VERSMISS	058-HEB-013-021
 Holy-Bible---Kannada---Open-Contemporary		
 Holy-Bible---Kannada---Open-Contemporary	VERSMISS	042-LUK-001-055
 Holy-Bible---Kannada---Open-Contemporary	VERSMISS	042-LUK-001-070

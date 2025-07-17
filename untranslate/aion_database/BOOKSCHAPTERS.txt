@@ -2,13 +2,13 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	MAP	FLAG
 # File Accuracy: Contact publisher with corrections to file format or content
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
-# File Date: 07/15/2025 14:06:00
+# File Date: 07/17/2025 04:01:25
 # File Generator: ABCMS (alpha)
 # File Location: https://resources.AionianBible.org
 # File Name: BOOKSCHAPTERS.txt
 # File Purpose: Supporting resource for the Aionian Bible project
-# File Size: 2347709     
-Holy-Bible---Ahirani---Gospels	047	2CO	001	014	MISSING	MID
+# File Size: 2342960     
+Holy-Bible---Ahirani---Ahirani-Bible	047	2CO	001	014	MISSING	MID
 Holy-Bible---Ajiya---Ajiya-Bible	042	LUK	023	051	MISSING	MID
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	040	MAT	002	010	MISSING	MID
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	040	MAT	014	004	MISSING	MID
@@ -16037,79 +16037,6 @@ Holy-Bible---Kannada---Indian-Revised-Version	066	REV	002	027	MISSING	MID
 Holy-Bible---Kannada---Indian-Revised-Version	066	REV	002	028	MISSING	MID-SEQ
 Holy-Bible---Kannada---Indian-Revised-Version	066	REV	004	011	MISSING	END*
 Holy-Bible---Kannada---Indian-Revised-Version	066	REV	018	010	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	002	EXO	038	015	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	006	JOS	004	016	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	006	JOS	007	021	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	013	1CH	008	024	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	041	MAR	005	004	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	041	MAR	005	028	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	041	MAR	009	044	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	041	MAR	009	046	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	041	MAR	014	058	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	041	MAR	015	010	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	041	MAR	015	029	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	041	MAR	015	041	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	042	LUK	001	055	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	042	LUK	001	073	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	042	LUK	001	075	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	042	LUK	001	078	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	042	LUK	002	005	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	042	LUK	002	014	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	042	LUK	002	023	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	042	LUK	002	031	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	042	LUK	003	005	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	042	LUK	003	006	MISSING	MID-SEQ
-Holy-Bible---Kannada---Kannada-Bible	042	LUK	004	034	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	042	LUK	008	042	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	042	LUK	011	051	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	042	LUK	019	021	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	042	LUK	019	044	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	042	LUK	020	031	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	042	LUK	020	043	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	042	LUK	022	064	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	042	LUK	023	045	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	042	LUK	023	051	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	042	LUK	024	007	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	042	LUK	024	023	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	043	JOH	005	004	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	044	ACT	001	022	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	044	ACT	001	025	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	044	ACT	002	020	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	044	ACT	002	035	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	045	ROM	001	012	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	045	ROM	009	012	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	045	ROM	015	016	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	045	ROM	016	026	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	046	1CO	002	005	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	046	1CO	012	025	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	047	2CO	001	011	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	047	2CO	012	004	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	048	GAL	004	005	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	049	EPH	003	011	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	049	EPH	003	015	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	050	PHI	001	004	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	050	PHI	002	030	MISSING	END*
-Holy-Bible---Kannada---Kannada-Bible	051	COL	002	022	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	052	1TH	001	003	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	052	1TH	004	005	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	054	1TI	001	013	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	054	1TI	005	004	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	054	1TI	006	019	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	055	2TI	004	013	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	056	TIT	003	007	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	058	HEB	006	002	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	058	HEB	007	016	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	058	HEB	010	020	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	058	HEB	011	018	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	058	HEB	012	002	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	058	HEB	012	019	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	058	HEB	013	021	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	060	1PE	001	009	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	060	1PE	003	002	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	066	REV	002	027	MISSING	MID
-Holy-Bible---Kannada---Kannada-Bible	066	REV	002	028	MISSING	MID-SEQ
-Holy-Bible---Kannada---Kannada-Bible	066	REV	004	011	MISSING	END*
-Holy-Bible---Kannada---Kannada-Bible	066	REV	018	010	MISSING	MID
 Holy-Bible---Kannada---Open-Contemporary	011	1KI	008	060	MISSING	MID
 Holy-Bible---Kannada---Open-Contemporary	017	EST	001	011	MISSING	MID
 Holy-Bible---Kannada---Open-Contemporary	020	PRO	026	019	MISSING	MID
