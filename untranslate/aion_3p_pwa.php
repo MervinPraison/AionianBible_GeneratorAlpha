@@ -1226,7 +1226,7 @@ The <span class='notranslate'>Aionian</span>  Bible republishes public domain an
 All versions are available online at <a href='https://www.AionianBible.org/Read' target='_blank' title='The worlds first Holy Bible untranslation'>AionianBible.org</a> in web page, ePub, text, and PDF format.  Also read online with the  <a href='https://www.AionianBible.org/Google-Play' target='_blank' title='Aionian Bible free online at Google Play'><span class='notranslate'>Android</span></a>  and  <a href='https://www.AionianBible.org/Apple-iOS-App' target='_blank' title='Apple iOS App'><span class='notranslate'>Apple iOS App</span></a>.  Buy print Bibles at <a href='https://www.AionianBible.org/Buy' target='_blank' title='Holy Bible Aionian Edition at Amazon.com and Lulu.com'><span class='notranslate'>Amazon.com and Lulu.com</span></a>.<br>
 <br>
 </p><p>
-<b>06/21/25</b>&nbsp;&nbsp;469 translations now available in 230 languages.<br>
+<b>06/21/25</b>&nbsp;&nbsp;468 translations now available in 230 languages.<br>
 </p><p>
 <b>05/27/25</b>&nbsp;&nbsp;462 translations now available in 229 languages.<br>
 </p><p>

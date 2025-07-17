@@ -1,5 +1,5 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	WORD	STRONGS	UNTRANS	TEXT																																	
-Holy-Bible---Ahirani---Gospels								NULL																																	
+Holy-Bible---Ahirani---Ahirani-Bible								NULL																																	
 Holy-Bible---Ajiya---Ajiya-Bible								NULL																																	
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	042	LUK	001	054	AIONS	g165		NULL																																	
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	042	LUK	001	055	SKIP			NULL																																	
@@ -1021,21 +1021,6 @@ Holy-Bible---Kannada---Indian-Revised-Version	058	HEB	006	002	SKIP			NULL
 Holy-Bible---Kannada---Indian-Revised-Version	058	HEB	013	020	AIONS,AIONIAN	g165,g166		NULL																																	
 Holy-Bible---Kannada---Indian-Revised-Version	058	HEB	013	021	SKIP			NULL																																	
 Holy-Bible---Kannada---Indian-Revised-Version								NULL																																	
-Holy-Bible---Kannada---Kannada-Bible	042	LUK	001	054	AIONS	g165		NULL																																	
-Holy-Bible---Kannada---Kannada-Bible	042	LUK	001	055	SKIP			NULL																																	
-Holy-Bible---Kannada---Kannada-Bible	045	ROM	016	026	SKIP			NULL																																	
-Holy-Bible---Kannada---Kannada-Bible	049	EPH	003	010	AIONS	g165		NULL																																	
-Holy-Bible---Kannada---Kannada-Bible	049	EPH	003	011	SKIP			NULL																																	
-Holy-Bible---Kannada---Kannada-Bible	056	TIT	001	002	SKIP			NULL																																	
-Holy-Bible---Kannada---Kannada-Bible	056	TIT	001	003	AIONIAN	g166		NULL																																	
-Holy-Bible---Kannada---Kannada-Bible	056	TIT	003	006	AIONIAN	g166		NULL																																	
-Holy-Bible---Kannada---Kannada-Bible	056	TIT	003	007	SKIP			NULL																																	
-Holy-Bible---Kannada---Kannada-Bible	058	HEB	006	001	AIONIAN	g166		NULL																																	
-Holy-Bible---Kannada---Kannada-Bible	058	HEB	006	002	SKIP			NULL																																	
-Holy-Bible---Kannada---Kannada-Bible	058	HEB	013	020	AIONS,AIONIAN	g165,g166		NULL																																	
-Holy-Bible---Kannada---Kannada-Bible	058	HEB	013	021	SKIP			NULL																																	
-Holy-Bible---Kannada---Kannada-Bible	061	2PE	002	017	NOTE			questioned																																	
-Holy-Bible---Kannada---Kannada-Bible								NULL																																	
 Holy-Bible---Kannada---Open-Contemporary	042	LUK	001	054	AIONS	g165		NULL																																	
 Holy-Bible---Kannada---Open-Contemporary	042	LUK	001	055	SKIP			NULL																																	
 Holy-Bible---Kannada---Open-Contemporary	042	LUK	001	069	AIONS	g165		NULL																																	

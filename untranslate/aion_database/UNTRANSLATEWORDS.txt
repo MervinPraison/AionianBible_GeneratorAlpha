@@ -1,5 +1,5 @@
 BIBLE	NOSPACE	NOETERNAL	ETERNAL	NOHELL	YESHELL	SHEOL	GEHENNA	HADES	TARTARUS	ABYSS	LOF	END																																																																												
-Holy-Bible---Ahirani---Gospels	0											NULL																																																																												
+Holy-Bible---Ahirani---Ahirani-Bible	0											NULL																																																																												
 Holy-Bible---Ajiya---Ajiya-Bible	0											NULL																																																																												
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	0											NULL																																																																												
 Holy-Bible---Amo---Amo-Bible	0											NULL																																																																												
@@ -261,7 +261,6 @@ Holy-Bible---Jumjum---Jumjum-Bible	0											NULL
 Holy-Bible---Juray---Juray-Bible	0											NULL																																																																												
 Holy-Bible---Kamano---Kamano-Kafe	0											NULL																																																																												
 Holy-Bible---Kannada---Indian-Revised-Version	0											NULL																																																																												
-Holy-Bible---Kannada---Kannada-Bible	0			ನರಕ								NULL																																																																												
 Holy-Bible---Kannada---Open-Contemporary	0			ನರಕ								NULL																																																																												
 Holy-Bible---Kannada---Siddi-Bible	0											NULL																																																																												
 Holy-Bible---Kara---Kara-Bible	0											NULL																																																																												

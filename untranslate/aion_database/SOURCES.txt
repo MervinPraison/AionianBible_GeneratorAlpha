@@ -1,9 +1,9 @@
 FILE	FLAG	POST	VALUE	SOURCE	DESTINATION		
 AB-STEPBibleData				https://github.com/STEPBible/STEPBible-Data/archive/refs/heads/master.zip	AB-STEPBibleData.zip		
-Holy-Bible---Ahirani---Gospels				https://ebible.org/epub/ahr.epub	Holy-Bible---Ahirani---Gospels---Source-Edition.epub		
-Holy-Bible---Ahirani---Gospels				https://ebible.org/pdf/ahr/ahr_all.pdf	Holy-Bible---Ahirani---Gospels---Source-Edition.pdf		
-Holy-Bible---Ahirani---Gospels				https://ebible.org/sword/zip/ahr2023eb.zip	Holy-Bible---Ahirani---Gospels---Source-Edition.SWORD.zip		
-Holy-Bible---Ahirani---Gospels				https://ebible.org/Scriptures/ahr_vpl.zip	Holy-Bible---Ahirani---Gospels---Source-Edition.VPL.zip		
+Holy-Bible---Ahirani---Ahirani-Bible				https://ebible.org/epub/ahr.epub	Holy-Bible---Ahirani---Ahirani-Bible---Source-Edition.epub		
+Holy-Bible---Ahirani---Ahirani-Bible				https://ebible.org/pdf/ahr/ahr_all.pdf	Holy-Bible---Ahirani---Ahirani-Bible---Source-Edition.pdf		
+Holy-Bible---Ahirani---Ahirani-Bible				https://ebible.org/sword/zip/ahr2023eb.zip	Holy-Bible---Ahirani---Ahirani-Bible---Source-Edition.SWORD.zip		
+Holy-Bible---Ahirani---Ahirani-Bible				https://ebible.org/Scriptures/ahr_vpl.zip	Holy-Bible---Ahirani---Ahirani-Bible---Source-Edition.VPL.zip		
 Holy-Bible---Ajiya---Ajiya-Bible				https://ebible.org/epub/idc.epub	Holy-Bible---Ajiya---Ajiya-Bible---Source-Edition.epub		
 Holy-Bible---Ajiya---Ajiya-Bible				https://ebible.org/pdf/idc/idc_prt.pdf	Holy-Bible---Ajiya---Ajiya-Bible---Source-Edition.pdf		
 Holy-Bible---Ajiya---Ajiya-Bible				https://ebible.org/sword/zip/idc2025eb.zip	Holy-Bible---Ajiya---Ajiya-Bible---Source-Edition.SWORD.zip		
@@ -775,10 +775,6 @@ Holy-Bible---Kannada---Indian-Revised-Version				https://ebible.org/epub/kanirv.
 Holy-Bible---Kannada---Indian-Revised-Version				https://ebible.org/pdf/kanirv/kanirv_prt.pdf	Holy-Bible---Kannada---Indian-Revised-Version---Source-Edition.pdf		
 Holy-Bible---Kannada---Indian-Revised-Version				https://ebible.org/sword/zip/kan2017eb.zip	Holy-Bible---Kannada---Indian-Revised-Version---Source-Edition.SWORD.zip		
 Holy-Bible---Kannada---Indian-Revised-Version				https://ebible.org/Scriptures/kanirv_vpl.zip	Holy-Bible---Kannada---Indian-Revised-Version---Source-Edition.VPL.zip		
-Holy-Bible---Kannada---Kannada-Bible				https://ebible.org/epub/kan2017.epub	Holy-Bible---Kannada---Kannada-Bible---Source-Edition.epub		
-Holy-Bible---Kannada---Kannada-Bible				https://ebible.org/pdf/kan2017/kan2017_all.pdf	Holy-Bible---Kannada---Kannada-Bible---Source-Edition.pdf		
-Holy-Bible---Kannada---Kannada-Bible				https://ebible.org/sword/zip/kan2017eb.zip	Holy-Bible---Kannada---Kannada-Bible---Source-Edition.SWORD.zip		
-Holy-Bible---Kannada---Kannada-Bible				https://ebible.org/Scriptures/kan2017_vpl.zip	Holy-Bible---Kannada---Kannada-Bible---Source-Edition.VPL.zip		
 Holy-Bible---Kannada---Open-Contemporary				https://ebible.org/epub/kanokcv.epub	Holy-Bible---Kannada---Open-Contemporary---Source-Edition.epub		
 Holy-Bible---Kannada---Open-Contemporary				https://ebible.org/pdf/kanokcv/kanokcv_all.pdf	Holy-Bible---Kannada---Open-Contemporary---Source-Edition.pdf		
 Holy-Bible---Kannada---Open-Contemporary				https://ebible.org/sword/zip/kanokcv2022eb.zip	Holy-Bible---Kannada---Open-Contemporary---Source-Edition.SWORD.zip		

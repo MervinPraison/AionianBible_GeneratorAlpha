@@ -1,5 +1,5 @@
 BIBLE	MAP
-Holy-Bible---Ahirani---Gospels	NONE
+Holy-Bible---Ahirani---Ahirani-Bible	NONE
 Holy-Bible---Ajiya---Ajiya-Bible	NONE
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible	NONE
 Holy-Bible---Amo---Amo-Bible	NONE
@@ -1194,7 +1194,6 @@ Holy-Bible---Jumjum---Jumjum-Bible	NONE
 Holy-Bible---Juray---Juray-Bible	NONE
 Holy-Bible---Kamano---Kamano-Kafe	NONE
 Holy-Bible---Kannada---Indian-Revised-Version	NONE
-Holy-Bible---Kannada---Kannada-Bible	NONE
 Holy-Bible---Kannada---Open-Contemporary	NONE
 Holy-Bible---Kannada---Siddi-Bible	NONE
 Holy-Bible---Kara---Kara-Bible	NONE

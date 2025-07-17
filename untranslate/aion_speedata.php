@@ -200,7 +200,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'source'	=> $source,
 		'q_onebook'	=> FALSE,	// TRUE = only do first bible book, otherwise all
 		'q_rtlhuh'	=> 'ALL',	// 'RTL' = RTL only,  'RTLNO' = Skip RTL, 'ALL' = all
-		'q_allall'	=> TRUE,	// TRUE = do all bibles not marked FALSE -OR- FALSE = do all bibles marked TRUE
+		'q_allall'	=> FALSE,	// TRUE = do all bibles not marked FALSE -OR- FALSE = do all bibles marked TRUE
 		'q_pdfall'	=> TRUE,	// TRUE = do ALL PDFs
 		'q_pdfpo'	=> FALSE,	// TRUE = do KDP PDFs
 		'q_pdfnt'	=> FALSE,	// TRUE = do KDP NT PDFs
@@ -251,7 +251,8 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Gamit).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Baiso---Basio-Bible|Cebuano---Cebuano-Open-Bible|Koda---Koda-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Westminster-Leningrad-Philadelphia|Orthodox-Jewish-Bible).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Urdu-Free).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Sahidic-Bible|Serbian-Ekavski-Bible|English---World-Messianic-Bible|English---World-Messianic-Bible-British-Edition|Glavda---Glavda-Bible|Greek---Text-Critical|Guduf-Gava---Guduf-Gava-Bible|Kolami-Southeastern---Kolami-Bible|Lodhi---Lodhi-Bible|Spanish---Free-for-the-World|Tagin---Tagin-First-Bible|Thur---Leb-Thur-Bible|Tsakhur---Tsakhur-Bible|Ahirani---Gospels|Chin-Siyin---Siyin-Chin-Bible|Chin-Thado---Chongthu-Bible|English---Aionian-Bible|English---Text-Critical|English---Tyndale-Bible|English---World-English-Bible|English---World-English-Bible-British-Edition|English---World-English-Bible-Updated).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Serbian-Ekavski-Bible).*---Aionian-Edition\.noia$/",
 		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,

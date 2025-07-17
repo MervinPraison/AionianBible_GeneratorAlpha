@@ -38,9 +38,12 @@ $output2 = "FILE	FLAG	POST	VALUE	SOURCE	DESTINATION\n";
 
 $group = 'PD';
 $rows = array();
+$tally = 0;
 foreach( $matches as $ebible ) {
-	// last bible
+	// first bible AFTER public domain and CC section, so quit
 	if ('aca' == $ebible[3]) { break; }
+	//if (++$tally > 10) { break; }
+
 	// initial
 	$priority = (in_array($ebible[3],$keepers) ? 0 : 1);
 	$pop = '';
@@ -50,9 +53,8 @@ foreach( $matches as $ebible ) {
 	// Population
 	// https://en.wikipedia.org/wiki/ISO_639:als
 	if (400 <= ($ecode=aion_curl( 'https://en.wikipedia.org/wiki/ISO_639:'.$ebible[1], $html)) || empty($html)) { AION_ECHO("ERROR! aion_curl(lang) = {$ecode}, {$ebible[1]}"); }
-	else if (preg_match("#\.1em 0;\">Native speakers</div></th><td class=\"infobox-data\" style=\"line-height:1\.3em;\">([\d.]+[^&]+)&\#160;#us",$html,$match)) {	$pop = $match[1]; }
-	else if (!preg_match("#<table class=\"infobox vevent\">.+?</table>#us",$html,$match)) {	$pop = 'fail-parse1'; }
-	else if (preg_match_all("#[0-9]{1}[0-9.,]+[ ]+[a-z]+#us",$match[0],$pops)) { $pop = implode(", ", array_slice($pops[0],0,3)); }
+	else if (!preg_match("#<table class=\"infobox vevent.+?</table>#us",$html,$match)) {	$pop = 'fail-parse1'; }
+	else if (preg_match_all("#[0-9]{1}[0-9.,]+(\&nbsp\;|[ ]+)[a-z]*#us",$match[0],$pops)) { $pop = implode(", ", array_slice($pops[0],0,3)); }
 	else { $pop = 'fail-parse2'; }
 
 	// license?

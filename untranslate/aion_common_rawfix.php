@@ -197,6 +197,16 @@ switch($bible) {
 
 
 
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Ahirani---Gospels" :
+if (!($bfile = preg_replace("/\x{097d}/us","?",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
+
+
+
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Amo---Amo-Bible" :
 if (!($bfile = preg_replace("/([A-Z0-9]{3} \d+:\d+ )\d+/us",'$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -4281,6 +4291,8 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---English---Tyndale-Bible" :
+if (!($bfile = preg_replace("/[\x{2e50}\x{2720}]+/us","",$bfile,-1,$rnum)) || $rnum!=8) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
 $textfix = <<<EOF
 Genesis 9:28 And Noe lyved after the floude .iij. hundred and .l. yere:
 Genesis 9:29 So that all the dayes of Noe were ix. hundred and .l. yere ad than he dyed.
