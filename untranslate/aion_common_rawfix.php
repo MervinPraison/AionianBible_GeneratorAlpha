@@ -48,7 +48,20 @@ if ('Holy-Bible---Portuguese---Portuguese-Trans-Trans'==$bible) {
 if ('Holy-Bible---Duya---Duya-Bible'==$bible ||
 	'Holy-Bible---Ghanongga---Kubokota-Adapt-Bible'==$bible ||
 	'Holy-Bible---Lungga---Lungga-Bible'==$bible ||
-	'Holy-Bible---Ut-Ma-in---Ut-Ma-in-Bible'==$bible) {
+	'Holy-Bible---Ut-Ma-in---Ut-Ma-in-Bible'==$bible ||
+	'Holy-Bible---Basa-Gurmana---Basa-Gurmana-Bible'==$bible ||
+	'Holy-Bible---Cishingini---Cishingini-Bible'==$bible ||
+	'Holy-Bible---Ekajuk---Ekajuk-Bible'==$bible ||
+	'Holy-Bible---Etulo---Etulo-Bible'==$bible ||
+	'Holy-Bible---Geji---Geji-Bible'==$bible ||
+	'Holy-Bible---Kurama---Kurama-Akurumi-Bible'==$bible ||
+	'Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible'==$bible ||
+	'Holy-Bible---Mwaghavul---Mwaghavul-Bible'==$bible ||
+	'Holy-Bible---Polci---Polci-Bible'==$bible ||
+	'Holy-Bible---Tarok---Tarok-Nigeria-Bible'==$bible ||
+	'Holy-Bible---Tsikimba---Tsikimba-Bible'==$bible ||
+	'Holy-Bible---Tsishingini---Tsishingini-Bible'==$bible ||
+	'Holy-Bible---Waja---Waja-Bible'==$bible) {
 	if (!($bfile = preg_replace("/<</us","“",$bfile,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
 	if (!($bfile = preg_replace("/>>/us","”",$bfile,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
 	if (!($bfile = preg_replace("/</us", "‘",$bfile,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
@@ -650,6 +663,18 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---Baga-Sitemu---Baga-Sitemu-Bible" :
+$blockfix = <<<EOF
+ACT 19:40 Nəkɛmbərnɛ, bawo antam kəboncɛ su kəsɔŋɛ pəyamayama pampɛ kəyi, teta mes mamɛ mencepər dɛ mɔkɔ mɔ, bawo ali toloku səfɔtam kəsɔtɔ kəloku ntɛ tɔsɔŋɛ afum kəbəpsɛnɛ tantɛ mɔ.»
+ACT 19:41 Ntɛ wəbɛ elip kəloku tatɔkɔ mɔ, k'oloku nwɛ o nwɛ kəlukus nde ndɔrɔn.
+ACT 20:1 
+EOF;
+if (!($bfile = preg_replace("/ACT 19:40 (.+?)ACT 20:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---Basque---Basque-NT" :
 if (!($bfile = preg_replace("/Sem 12 Bain/us","Sem ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }	
 if (!($bfile = preg_replace("/ha1acotz/us","halacotz",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -1237,6 +1262,13 @@ EOF;
 if (!($bfile = preg_replace("/MAR 9:43 (.+?)MAR 9:47 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Cishingini---Cishingini-Bible" :
+if (!($bfile = preg_replace("/ @@@@@@@Ka̱ta̱ /us"," Ka̱ta̱ ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
 
 
 
@@ -2484,6 +2516,18 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Dongxiang---Donxian-Bible" :
+$blockfix = <<<EOF
+2CO 13:12 Ta zhughesene nieniedene kielien asa.
+2CO 13:13 Shentula man tande kielien asazho.
+2CO 13:14 Ezhan Ersa Mexihani nenjien, Hudai oreku, Shenlinni laiwon gieku chan tanre hhantu bi gie!
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Dutch---Statenvertaling":
@@ -2802,6 +2846,20 @@ case "Holy-Bible---Dutch---Schrift" :
 if (!($bfile = preg_replace("/\x{feff}/us","",$bfile,-1,$rnum)) || $rnum!=26) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Ekajuk---Ekajuk-Bible" :
+if (!($bfile = preg_replace("/ agun__ye /us"," agun ye ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+JUD 1:24 Nong, ellub, a agbal, a nsahm, a eko jol ka nne no bahk-n ma fili, ń kꞌgbo, fere ko-n je a nahne go ege esamahr bi ellub ene, eji ń lꞌjol ane ba ki kpi ebi ajehng ajehng, fere jo bel eyebatahng.
+JUD 1:25 Ye wo li Esowo ntahngtahng, bi jolo mahne mahne, bi li anv, bi bahke jolo go njinanjini, ye ji tahr-r no sehng go abo nya Jisos Kraist Ntul ewahre. Emen.
+REV 1:1 
+EOF;
+if (!($bfile = preg_replace("/JUD 1:24 (.+?)REV 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
 
 
 
@@ -5331,6 +5389,15 @@ JOH 14:18
 EOF;
 if (!($bfile = preg_replace("/JOH 14:16 (.+?)JOH 14:18 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Falam---Falam-Chin-Bible" :
+if (!($bfile = preg_replace("/MAR 16:21.+$/us","",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
 
 
 
@@ -12423,6 +12490,15 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Kurama---Kurama-Akurumi-Bible" :
+if (!($bfile = preg_replace("/\x{1429}/us","⁺",$bfile,-1,$rnum)) || $rnum!=599) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
+
+
+
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Latin---Clementine-Vulgate-1598" :
@@ -17507,6 +17583,13 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Rakhine---Rakhine-Bible" :
+if (!($bfile = preg_replace("/MAR 16:21 (.+?)LUK 1:1 /us","LUK 1:1 ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Romanian---Bayash-Luke" :
@@ -17784,6 +17867,19 @@ $bigfix = <<<EOF
 GAL 1:1 
 EOF;
 if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible" :
+$blockfix = <<<EOF
+JUD 1:24 Yakɗaat Kooh yi min ɗu amb po ɗu kafndukuu, yi min tum po, mbehi ɗu tufkan ŋ fiki yaki a yak, ɗu raakuu sikka te ɗu hey sume keeh-keeh.
+JUD 1:25 Yakɗaat Koohi yino-kongi, a yi Mucɗohiŋ ɓoo taamboh ŋ Yeesu Kiristaa, Heɗ ɓoo. A yi yakɗaah, a yi eɗaah cir, a yi Heɗ hatil na nguur, bala Adina raakan na woti na po faw ! Amiin !
+REV 1:1 
+EOF;
+if (!($bfile = preg_replace("/JUD 1:24 (.+?)REV 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -18251,6 +18347,91 @@ EOF;
 if (!($bfile = preg_replace("/REV 1:17 (.+?)REV 1:19 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Shi---Mashi-Bible" :
+if (!($bfile = preg_replace("/\x{02bf}/us","?",$bfile,-1,$rnum)) || $rnum!=109) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+if (!($bfile = preg_replace("/GEN 44:35 (.+?)GEN 45:1 /us","GEN 45:1 ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/2CH 14:15 (.+?)2CH 15:1 /us","2CH 15:1 ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+EST 3:13 Babè bâna, babè bakulu, babè bakazi, mpu baniguzihwe omu lusiku luguma omu nsiku ikumi n’isharhu z’omwêzi gwa kal’ikumi na kabirhi gwo guderhwa mwêzi gwa Adari, mpu banahagule ebintu byâbo byoshi.
+EST 3:14 
+EOF;
+if (!($bfile = preg_replace("/EST 3:13 (.+?)EST 3:14 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+EST 4:17 Mardokeyo ashubira emwâge agend’ijira kulyâla Esteri amubwîraga.
+EST 5:1 
+EOF;
+if (!($bfile = preg_replace("/EST 4:17 (.+?)EST 5:1 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+EST 5:1 Oku lusiku lwa kasharhu lw’omusengero, Esteri ahogola emyambalo yâge y’emishîbo, ayambala eyâge yoshi y’obwamikazi.
+EST 5:2 
+EOF;
+if (!($bfile = preg_replace("/EST 5:1 (.+?)EST 5:2 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+EST 8:12 N’okwôla mpu kujirwe lusiku luguma omu bihugo bya mwâmi Asuerusi byoshi, omu nsiku ikumi n’isharhu z’omwêzi gwa kal’ikumi na kabirhi, gwo mwêzi gwa Adari. 
+EST 8:13 
+EOF;
+if (!($bfile = preg_replace("/EST 8:12 (.+?)EST 8:13 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+EST 10:3 Bulya Omuyahudi Mardokeyo ali akola wa burhanzi enyuma za mwâmi Asuerusi; ali muntu mukulu omu masù g'Abayahudi, ali asîmirwe na bene wâbo mwandu, akazâg’ilonza aminjà g’olubaga lwâge loshi na ngasi mango ebi nwa byâge byàbâga bya murhûla oku ishanja lyâge.
+JOB 1:1 
+EOF;
+if (!($bfile = preg_replace("/EST 10:3 (.+?)JOB 1:1 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+EZE 21:1 Akanwa ka Nyamubâho kanacintindakwo muli ebi binwa: BHS agwerhe milongo 44 yône; kurhenga 45 kuhika 49 o, u WLC yo milongo mirhanzi ya cigabi 21 ou BHS.
+EZE 21:2 
+EOF;
+if (!($bfile = preg_replace("/EZE 21:1a (.+?)EZE 21:2 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+JOE 2:28 «Enyuma ly’aho, nâdubulirakwo ngasi muntu Omûka gwâni. Bagala binyu na bâli binyu bakaz’ilêba, abashosi binyu bakaz’ilôrha ebyâbà, n’emisole yinyu ekaz’ibonekerwa.
+JOE 2:29 “Mw’ezo nsiku, ciru n’abajà n’abajà-kazi, nâbadubulirakwo Mûka gwâni”.
+JOE 2:30 “Nâshub’ijira ebirhangâzo emalunga n’en’igulu, mukò, muliro n’ecitù c’o­mugî”.
+JOE 2:31 “Izûba lyâshuba mwizizi, n’omwêzi guhinduke nka mukò, embere Olusiku lwa Nyakasane luyishe, Lusiku luhamu lwa kujugumya!”
+JOE 2:32 “Ngasi yêshi wâshenge izîno lya Nyakasane, oyo ye wananafulumuke. Nk’oku Nyakasane aderhaga, oku ntondo ya Siyoni kwabà abafulumusire, n’aha Yeruzalemu habà abà Nyakasane ahamagalire okulama”».
+JOE 3:1 Muli ezo nsiku, nâshubiza Yûda na Yeruzalemu omu bwôrhere bwâge bwa burhanzi, kwo Nyakasane adesire.
+JOE 3:2 Nâshûbûza amashanja g’ihanga, ngayandagalize omu lubanda Lwa Yoza­fati. Ho nagajikiza lubanja kw’ebi gajirire olubaga lwâni lw’Israheli: balushandâzire omu mashanja g’ihanga banagabâna ecihugo câni.
+JOE 3:3 Abantu bâni babagabânyire, babayesha cigole, abanarha-bâna babahi­ndula mbaraga, n’abâna-nyere bakaz’ibaguza mamvu bananywa.
+JOE 3:4 Kwâgo kwâgo, mwe bishagala bya Tiri na Sidoni, bici mwandonzakwo? Ninyu mwe bihugo by’Abafilistini, ka mulonzize okucîhôla kuli nie? Mumanyage, mukalonza mpu mwagereza okucîhôla kuli nie, bwo na buno nammushangula amarhwe.
+JOE 3:5 Mwarhôzire ensaranga zâni n’amasholo gâni, obuhirhi bwâni bwinjinjà bwoshi mwazigulira emwinyu, mwajihira omu ngombe z’abazimu binyu.
+JOE 3:6 Abasole b’e Yûda n’ab’e Yeruzalemu mwabaguza bujà emw’abantu b’e Yavâni mpu mubayâse ecihugo câbo.
+JOE 3:7 Lêro nkolaga nâbahamagala eyo munda mwabagulîze, n’obwo buhanya bwoshi nâbudekereza oku irhwe linyu.
+JOE 3:8 Bagala binyu na bâli binyu nâbaguliza bene Yûda, nabo babagulize Abasabeyi babà omu cihugo c’ekulî bwenêne. Ntyo kwo ndesire niono Nyakasane.
+JOE 3:9 Abantu boshi mubabwîre ntya: Mucìrheganye oku matabâro. Hamagali entwâli, bayishe barhereme.
+JOE 3:10 Mutule engôrho n’ebyûma binyu, emigushu yinyu mujiremwo amatumu, engonyi ederhe, erhi: «Ndi ntwâli.»
+JOE 3:11 Bangâduki, nâyisha, mwe bihugo rhubibikînwe, mutwe akacâma hala. (Nnâmahanga, yandagaza entwâli zâwe).
+JOE 3:12 Mucîmoge, mwe lubaga, muyinamukire omu lubanda lwa Yozafati, bulya mwo nâbwârhala, ntwîre amashanja goshi olubanja.
+JOE 3:13 Murhemage, mwayêzize, muhûle, munakande, emikenzi, enkuluba, byayunjwîre.
+JOE 3:14 Musiribulire mula lubanda lw’olubanja, bulya Nnâmahanga aling’itwîra olubanja omu lubanda lw’emihigo.
+JOE 3:15 Izûba n’omwêzi byabîre budufu, enyenyêzi zazima.
+JOE 3:16 Nyamuzinda alumbîre e Siyoni, izù lyâge liyumvikîne kurhenga e Yeruza­lemu, empingu n’igulu byageramwo omusisi. Ci kwône Nnâmahanga abà lwâkiro lw’olubaga lwâge, mpenzi y’abâna b’Israheli.
+JOE 3:17 Ho mwâmanyire oku nie Nyakasane Nyamuzinda winyu, ôbà e Siyoni, ntondo yâni ntagatîfu. Yeruzalemu habà hantu hatagatîfu, ebigolo birhakacihalabarha.
+JOE 3:18 Muli olwo lusiku entondo zahulula mamvu mahyâhya, n’amarhà oku rhurhondo. Emmanda za Yûda zoshi zahululamwo amîshi. Omu nyumpa ya Nnâmahanga mwarhenga enshôko yanywêsa akabanda ka Akasiya.
+JOE 3:19 Mîsiri abà cihugo cihehêrere, na Edomu yacîbêra mpinga bwâmwa, bulya abo bantu barhindibuzize bene Yûda, bàbulaziremwo mukò munji gw’abêru-kwêru.
+JOE 3:20 Ci kwônene Yûda ayûbakamwo ensiku zoshi, na Yeruzalemu agandâze iburha oku lindi.
+JOE 3:21 Nâcîhôlera omukò gwâbo, ntakalembera amabî, na Nyakasane agandika aha Siyoni.
+AMO 1:1 
+EOF;
+if (!($bfile = preg_replace("/JOE 3:1 (.+?)AMO 1:1 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/MAL 3:19 (.+?)MAL 4:1 /us","MAL 4:1 ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+ACT 19:40 Kali ciru ebyabîre olu lusiku lw’ene byanarhuma rhwalegwa obugomi, bulya ntà igwârhiro rhugwêrhe lyankarhuma engabo nyingana aha yalundumana».
+ACT 19:41 Erhi ayûs’iderha ntyo ashandâza erya ndêko y’abantu.
+ACT 20:1 
+EOF;
+if (!($bfile = preg_replace("/ACT 19:40 (.+?)ACT 20:1 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+2CO 13:12 Mulamusanye n’ehinunugurho hitagatîfu.
+2CO 13:13 Abatagatîfu boshi ba­ mmulamusize.
+2CO 13:14 Enshôkano ya Nyakasane Yezu Kristu, n’obuzigire bwa Nyamuzinda, n’omulungano gwa Mûka Mutagatîfu bibè ninyu mweshi!
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
 
 
 
@@ -19503,6 +19684,15 @@ PSA 1:2 யெகோவாவினுடைய சட்டத்திலே �
 PSA 1:3 
 EOF;
 if (!($bfile = preg_replace("/PSA 1:1 (.+?)PSA 1:3 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Tavoyan---Tavoyan-Bible" :
+if (!($bfile = preg_replace("/MAR 16:21 (.+?)LUK 1:1 /us","LUK 1:1 ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -20899,6 +21089,83 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---Wolio---Kitabi-Momangkilona-Bible" :
+$jobfix = <<<EOF
+GEN 24:54 Sapadhana incia sumai, incia apobhawamo tee manga mia akande tee asumpu, kasiimpomo apomalo iwe sumai. Wakutuuna manga incia abhangu saeona mpuu, apogaumo bhatua sumai, "Kuposangapo kumbuli i opuku."
+GEN 24:55 
+EOF;
+if (!($bfile = preg_replace("/GEN 24:54a (.+?)GEN 24:55 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+MAT 12:15 Maka roonamo Isa amataua haejatina manga, kasiimpo adhencumo minaaka iwe sumai. Abhari mpuu mia moosena Isa tee bhari-bharia apauntomea.
+MAT 12:16 
+EOF;
+if (!($bfile = preg_replace("/MAT 12:15a (.+?)MAT 12:16 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+MAR 6:6 Incia amente mpuu roonamo manga mia i kampona karona inda aparacaeaia. Kasiimpo Isa alingka tee atiingi lipu incia sumai minaaka i saangu kampo sakawana i kampo mosagaanana apoose aadhari.
+MAR 6:7 
+EOF;
+if (!($bfile = preg_replace("/MAR 6:6a (.+?)MAR 6:7 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+MAR 15:20 Sapadhana aele-elea, manga incia abungkalemo juba waranaa wungu sumai minaaka i badana Isa, tee apakanaakea pendua o pakeana. Sapadhana incia sumai manga suludadu apepuumo abhawa Isa i sambali to aloea i kau salib.
+MAR 15:21 
+EOF;
+if (!($bfile = preg_replace("/MAR 15:20a (.+?)MAR 15:21 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+LUK 9:43 Bhari-bharia mia iwe sumai atokidha akamata kaogesana Aulataʼala. Wakutuuna manga mia iwe sumai tangasaana atokidha tee bhari-bharia ipewauna Isa, Incia apogau tee manga murina,
+LUK 9:44 
+EOF;
+if (!($bfile = preg_replace("/LUK 9:43a (.+?)LUK 9:44 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+LUK 23:56 Kasiimpo manga incia ambuli, tee apasiapuaka manga rampa tee mina-mina mawondu. I eona Saputuu, manga bhawine sumai aponiunto to ataʼati parintana Aulataʼala mbomo iadhariaka i nuncana Hukumu Taurati.
+LUK 24:1 
+EOF;
+if (!($bfile = preg_replace("/LUK 23:56a (.+?)LUK 24:1 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+JOH 16:4 Maka Iaku padhamo kupaumbaakakomiu manga giu incia sumai, mamudhaakana ande akawa o wakutuuna, ingkomiu uudhania ande o giu incia sumai padhamo kupaumbaakakomiu. Giu incia sumai inda kupaumbaakakomiu minaaka i bhaa-bhaana roonamo dhaangiapo kupobhawa tee ingkomiu.
+JOH 16:5 
+EOF;
+if (!($bfile = preg_replace("/JOH 16:4a (.+?)JOH 16:5 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+JOH 18:38 Apogaumo Pilatus, "Opea o maʼanana kabanara sumai?" Sapadhana apogau mboo sumai, Pilatus alimbamo uka to apokawaaka manga miana Yahudi. Kasiimpo apogau, "Iaku inda kupotibhaaka saangu kasalaha uka minaaka i Incia.
+JOH 18:39 
+EOF;
+if (!($bfile = preg_replace("/JOH 18:38a (.+?)JOH 18:39 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+JOH 19:16 Sabutuna o Pilatus apasarakaakamo Isa i manga incia to aloea i kau salib. Kasiimpo manga incia abhawa Isa.
+JOH 19:17 
+EOF;
+if (!($bfile = preg_replace("/JOH 19:16a (.+?)JOH 19:17 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+ACT 8:1 Saul uka asatuju o Stefanus atopekamate. I eo incia sumai miana Yahudi apepuumo asikisaa manga jamaʼa i Yerusalem, sabutuna bhari-bharia manga incia sumai apogaa-gaamo i saangua lipu Yudea tee Samaria. Soomo manga rasulu momboorena i Yerusalem.
+ACT 8:2 
+EOF;
+if (!($bfile = preg_replace("/ACT 8:1a (.+?)ACT 8:2 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+ACT 9:19 Sapadhana akande ambulimo pendua o kakaana. Saul amboore i Damsyik apobhawa tee manga murina Isa modhaangiana iwe sumai kangengena pia eo.
+ACT 9:20 
+EOF;
+if (!($bfile = preg_replace("/ACT 9:19a (.+?)ACT 9:20 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+1CO 9:12 Ande manga mia mosagaanana akohaku to apotibhaaka kahamba minaaka i ingkomiu, ntaranamo uka tee ingkami? Moomini mboo sumai, ingkami inda tapakea o haku incia sumai. Maka bhari-bharia tatanggoa karomami mamudhaakana inda tajoli-joli mia to atarima Lele Malapena Al Masi.
+1CO 9:13 
+EOF;
+if (!($bfile = preg_replace("/1CO 9:12a (.+?)1CO 9:13 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+PHI 3:1 E manga witinaiku, aahirina ukaunde-undemo i nuncana sarona Kawasana Opu. Inda apokia ande iaku kuburia pendua opea mopadhana ipaumbaakaku to ingkomiu, roonamo manga giu incia sumai ajaganikomiu.
+PHI 3:2 
+EOF;
+if (!($bfile = preg_replace("/PHI 3:1a (.+?)PHI 3:2 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+1TI 6:2 Ande dhaangia o bhatua tee opuna o mia moparacaeana tee Isa, bholi apandaʼentea atawa akura ahoromati opuna rampaakanamo podho-podho witinai saʼagama. Maka manga incia tabeana ahanda amalape alaiani opuna, roonamo opuna ilaianina sii o witinai saʼagama imaasiakana. Adhariakea tee uudhaniakea bhari-bharia giu incia sii.
+1TI 6:3 
+EOF;
+if (!($bfile = preg_replace("/1TI 6:2a (.+?)1TI 6:3 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---Yaka---Ivatan-Bible" :
 $textfix = <<<EOF
 2CO 13:12 Dibihisini beni na beni mu litoono, weti bwafwaana kwaa bangaa imiini.
@@ -20907,6 +21174,80 @@ $textfix = <<<EOF
 GAL 1:1 
 EOF;
 if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Yalunka---Yalunka-Bible" :
+$jobfix = <<<EOF
+JOE 2:28 “Na xanbi ra, n na n ma Nii Sariɲanxin nagodoma nɛn adamadiin birin ma. Ɛ dii xɛmɛne nun ɛ dii tɛmɛne nabiya falane tima nɛn. Ɛ xɛmɛ fonne yi xiye sa. Ɛ banxulanne yi fe toon ti alo xiyena.
+JOE 2:29 Na lɔxɔne yi, n na n ma Nii Sariɲanxin nagodoma nɛn hali konyi xɛmɛne nun konyi gilɛne xun ma.
+JOE 2:30 N kabanako feene yitama nɛn kore xɔnna ma e nun bɔxɔ xɔnna ma, wunla nun tɛɛn nun tɛɛ tuti gbeen minima nɛn.
+JOE 2:31 Sogeni dimima nɛn, kiken yi gbeeli alo wunla, benun Alatalaa lɔxɔ binye gbeen xa a li.
+JOE 2:32 Nba, naxan yo na Alatala maxandi a xinla ra, na kisima nɛn. Nayi, yamaan muxu dɔnxɛna ndee luma nɛn e nii ra Ala na naxanye xili, ne nan xunbama Siyon geyaan fari e nun Yerusalɛn yi alo Alatala a fala kii naxan yi.”
+JOE 3:1 “Amasɔtɔ na lɔxɔne yi, na waxatini, n na fa Yuda nun Yerusalɛn suxu muxune ra waxatin naxan yi,
+JOE 3:2 n siyane birin malanma nɛn, n yi fa e ra Yosafati lanbanni, n na e makitima dɛnaxan yi, lan n ma yamana fe ma, Isirayila. Amasɔtɔ, e e raxuyaxi ayi nɛn siyane yɛ, e yi e bɔxɔni taxun e tagi.
+JOE 3:3 E n ma yamanan muxune yitaxun nɛn e ra, masɛnsɛnna xɔn, e yi dii xɛmɛne mati konyine ra alogo e xa yalundene sara, e yi dii tɛmɛne mati alogo e xa manpaan sara, e yi a min.”
+JOE 3:4 “Ɛ tan Tire kaane nun Sidɔn kaane nun Filisitine birin, nanse xɔli ɛ ma n xili ma? Ɛ gbeen ɲɔxɔn nanse ra n ma? Koni xa ɛ waxi yɛngɛn nakeli feni n xili ma, nayi n na ɛ yɛngɛne raxɛtɛma ɛ ma nɛn mafurɛn!
+JOE 3:5 Ɛ tan naxanye n ma gbetin nun n ma xɛmaan tongoxi, n ma nafulu faɲine, ɛ yi e sa ɛ suxurene batudeni.
+JOE 3:6 Ɛ Yuda nun Yerusalɛn muxune mati nɛn Girɛki muxune ma, ɛ yi e masiga e bɔxɔn na.”
+JOE 3:7 “N tan nan sa e bama na yirene yi ɛ e matixi dɛnaxanye yi. N yi tɔrɔn naxɛtɛ ɛ ma ɛ naxan ɲɔxɔn saxi e fari.
+JOE 3:8 N na ɛ dii xɛmɛne nun ɛ dii tɛmɛne matima nɛn Yuda kaane ma. E fan yi e mati Sabe kaane ma, siya makuyena.” Alatala nan falan tixi!
+JOE 3:9 Ɛ ito fala siyane xa, ɛ naxa, “Ɛ yitɔn yɛngɛn xili yi, ɛ yɛngɛ sone rakeli. Sofane birin xa keli, e yɛngɛn so.
+JOE 3:10 Ɛ ɛ ɲinge kenne bɔnbɔ silanfanne ra, ɛ wɔlitɛne rafala tanbane ra. Sɛnbɛtarene xa a fala, e naxa, ‘Nxu sɛnbɛn gbo.’
+JOE 3:11 Ɛ mafura, ɛ fa, ɛ tan siyaan naxanye birin be rabilinni, ɛ fa ɛ malan be.” Alatala, i ya malekane ragodo e xili ma.
+JOE 3:12 Siyane xa keli, e xa godo Yosafati lanbanni. Amasɔtɔ n dɔxɔma mɛnna nin, n na Isirayila rabilinna siyane birin makiti.
+JOE 3:13 Ɛ wɔlitɛn tongo ɛ bogi seene xaba bayo e bata mɔ. Ɛ fa manpa bogine yibodon, ɛ e igen ba bayo manpa ige baden bata rafe, han a fɛɲɛne yi bɔxɔnɲɛ a ma. E ɲaxuyaan fan gboxi ayi na kii nin.
+JOE 3:14 Yama gbeen bata lu kiti saden lanbanni! Amasɔtɔ Alatalaa lɔxɔn bata maso e ra kiti saden lanbanni.
+JOE 3:15 Sogen nun kikeni dimima nɛn, sarene mi fa dɛgɛma.
+JOE 3:16 Alatala sɔnxɔma nɛn keli Siyon yi, a a xui ramini sɛnbɛni, keli Yerusalɛn yi. Nayi, bɔxɔn nun koren xuruxurunma nɛn, koni Alatala findixi luxunden nan na a yamaan xa, e nun yigiyade makantanxina Isirayila kaane xa.
+JOE 3:17 “Ɛ a kolonma nɛn nayi, a n tan nan Alatala ra, ɛ Ala, naxan dɔxi Siyon yi, n ma geya sariɲanxina. Yerusalɛn sariɲanma nɛn, xɔɲɛne mi fa fuma a ma sɔnɔn!”
+JOE 3:18 “Na lɔxɔni, manpa nɛnɛn minima nɛn geyane yi, yire matexine yi nɔnɔn namini, igen yi lu Yuda baane birin yi. Tigin minima nɛn Alatalaa banxini, a yi kasiya lanbanna ige sa.
+JOE 3:19 Misiran tan findima nɛn bɔxɔ kalaxin na, Edɔn yi findi tonbonna ra e gbalone fe ra e naxanye ligaxi Yuda kaane ra. E bata sɔntarene faxa Yuda yamanani.
+JOE 3:20 Koni muxun luma nɛn Yuda nun Yerusalɛn yi habadan, mayixɛtɛ nun mayixɛtɛ.
+JOE 3:21 N munma n ma yamaan yulubin naxanye xafari e faxa tixine ma, n ne mafeluma nɛn. N tan Alatala, n lu Siyon taani.”
+AMO 1:1 
+EOF;
+if (!($bfile = preg_replace("/JOE 3:1 (.+?)AMO 1:1 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+MAL 4:1 Amasɔtɔ Alatala Sɛnbɛn Birin Kanna naxa, “Na lɔxɔn fama tɛɛn nan na alo sulun tɛɛna. Yɛtɛ yigboone nun fe ɲaxi rabane birin findima sɛxɛ xaren nan na, na lɔxɔn yi findi tɛɛn na e xa. E salen mi luyɛ, hali e siyadina a mi luyɛ.
+MAL 4:2 Koni ɛ tan naxanye n xinla binyaxi, n ma tinxinyaan minima nɛn kɛnɛnni ɛ xa alo sogen na te, a kɛnɛnna yi ɛ rakisi, ɛ xɔrɔyama nɛn, ɛ yi tugan sɛwani alo ɲinge dii lugoxine.”
+MAL 4:3 Alatala Sɛnbɛn Birin Kanna naxa, “Nayi, ɛ muxu ɲaxine yibodonma nɛn, e lu alo xubena ɛ sanna bun, na lɔxɔni, n lɔxɔn naxan yitɔnma.”
+MAL 4:4 N sariyan naxanye so n ma walikɛɛn Musa yii Horebe geyani Isirayila kaane xa, n ma tɔnne nun yamarine, ne fe xa rabira ɛ ma.
+MAL 4:5 N tan yɛtɛɛn Nabi Eli rafama nɛn ɛ ma benun Alatalaa lɔxɔ gbee magaxuxin xa a li.
+MAL 4:6 A yi dii fafane bɔɲɛn nafindi e diine ma, a diine bɔɲɛn nafindi e fafane ma, alogo n nama fa ɛ bɔxɔn halagi.
+MAT 1:1 
+EOF;
+if (!($bfile = preg_replace("/MAL 3:19 (.+?)MAT 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+ACT 19:40 E nama sa en kansun murutɛ feen na to sɔnxɔ sɔnxɔna fe ra.
+ACT 19:41 Bayo en mi nɔɛ dɛntɛgɛ yo sɛ malanni ito ti xunna ma.” A yelinxini ito falɛ, a yamaan nasiga.
+ACT 20:1 
+EOF;
+if (!($bfile = preg_replace("/ACT 19:40 (.+?)ACT 20:1 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$jobfix = <<<EOF
+2CO 13:12 Ɛ bode xɔntɔn ngaxakedenya xɔntɔn sunbuni.
+2CO 13:13 Yama sariɲanxin birin ɛ xɔntɔnma.
+2CO 13:14 Marigi Yesu, Alaa Muxu Sugandixina hinanna nun Alaa xanuntenyaan nun Alaa Nii Sariɲanxin lanna xa lu ɛ birin xɔn.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Yansi---Yansi-Bible" :
+$jobfix = <<<EOF
+2CO 13:12 Làpɛɛl mbɔr u mbwo a ndüür in'kyɛɛl.
+2CO 13:13 Aŋin'kyɛɛl banswà bàmàlapà mbɔr.
+2CO 13:14 Wɛy kab a ngway a Mwol Yɛsu Klistɔ, ukwen a Nzam, anà un'tüüb a Dweelà In'kyɛɛl byàkäl anà bɛ banswà.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 

@@ -115,7 +115,10 @@ function AION_FILE_DATA_GET( $file, $table, &$result, $key, $flip ) {
 		$data = mb_split( '\t', $data );
 		$count_data = count($data);
 		if ( $count_meta != $count_data ) {							AION_ECHO('ERROR! AION_FILE_DATA_GET count(meta-'.$count_meta.' != data-'.$count_data.') line='.$line,' file='.$file); }
-		for ( $newd = array(), $x = 0; $x < $count_data; $x++ ) {	$newd[$meta[$x]] = $data[$x]; }
+		for ( $newd = array(), $x = 0; $x < $count_data; $x++ ) {
+			if(empty($meta[$x])) {									AION_ECHO('ERROR! AION_FILE_DATA_GET !isset() x-'.$x.' columns-'.$count_data.' line='.$line,' file='.$file); }
+			$newd[$meta[$x]] = $data[$x];
+		}
 		if ( $key===FALSE ) {										$result[$table][] = $newd; }
 		else {
 			if (is_array($key)) {	$index=''; foreach($key as $kid) { if (empty($index)) { $index=$data[$kid]; } else { $index.='-'.$data[$kid]; } } }
@@ -642,7 +645,7 @@ function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $ski
 		'include'	=> '/---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---.*(Danish).*---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/(Holy-Bible---French---French-LXX-TheoTex|Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible)---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
-		//'include'	=> '/Holy-Bible---([P-Z]{1}).+---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
+		//'include'	=> '/Holy-Bible---([S-Z]{1}).+---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---Kiche---Totonicapan---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
 		//'include'	=> '/Holy-Bible---Chin-Matu---Matupi-Chin-2019---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
 		'destiny'	=> $destiny,

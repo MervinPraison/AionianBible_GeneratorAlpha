@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1107017     
-# File Date: 07/17/2025 04:22:06
+# File Size: 1207375     
+# File Date: 07/26/2025 07:44:13
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -14,6 +14,15 @@
 #
 BIBLE	REF	TEXT
 BIBLE	REFERENCE	TEXT
+Holy-Bible---Abureni---Abureni-Bible	JOH-003-016		
+Holy-Bible---Abureni---Abureni-Bible	GEN-003-024		
+Holy-Bible---Abureni---Abureni-Bible	LUK-023-034	A̠luk 23:34	[Sa̠ A̠zizo̠s a̠mution okoroko ma̠a̠, “O̠we̠de̠, we̠le̠mane̠ ma̠ i̠karabh d̠awa ma̠ a̠nigha̠ awa! Ezin bho̠, awa iloghom d̠o̠ ma̠ abar awa na̠ egir.”] Sa̠ awa irobh okob̠a̠ ma̠ o̠loghom agu̠o̠ awa ta̠ ebhin e̠ru̠gi̠an ibura̠ d̠o̠yo̠.
+Holy-Bible---Abureni---Abureni-Bible	REV-021-002		 
+Holy-Bible---Abureni---Abureni-Bible	HEB-011-008	Iburu 11:8	Ad̠u̠a d̠a̠ ologi ima̠ra̠ sa̠ Ebraham anagha ma̠ o̠nu̠o̠kpe̠ ta̠ A̠zib̠a̠ ma̠ igiel bho̠ A̠zib̠a̠ a̠bhelegi i̠na ma̠ o̠d̠u̠a o̠gi̠ d̠a̠ a̠de wa̠ i̠na a̠gua̠n a̠nigha̠ o̠yo̠ bho̠. Ebraham ad̠u̠a d̠a̠ ebhugh d̠o̠yo̠ agi̠ ma̠ esi ola̠ i̠na ologhom d̠o̠.
+Holy-Bible---Abureni---Abureni-Bible	EXO-013-017		
+Holy-Bible---Abureni---Abureni-Bible	MAR-010-045	Amaki̠ 10:45	Ezin bho̠, O̠nyi̠ ta̠ O̠ni̠ na̠ oru d̠o̠ ma̠ a̠nwunom o̠ro̠ rob̠a̠ra̠motu d̠o̠yo̠, ya̠a̠ i̠na a̠ru ma̠ o̠ro̠ ob̠a̠ra̠motu onigha̠ a̠nwunom, na̠ onigha̠ a̠ghud̠um d̠o̠yo̠ obhin o̠ta a̠d̠izo ogbo.”
+Holy-Bible---Abureni---Abureni-Bible	ROM-001-001		
+Holy-Bible---Abureni---Abureni-Bible	MAT-028-019	Amatiu 28:19	O̠ku̠a a̠d̠ighi be̠le̠ni̠, i̠gi̠e̠ ka̠ egir agu̠o̠ ola̠ a̠nwunom ta̠ eten ogbo atu̠ghan d̠ami̠ d̠a̠ eb̠la̠ ra̠dede, ma̠ ewur awa ma̠ amu̠m d̠a̠ a̠d̠ien ta̠ O̠we̠de̠ bho̠, na̠ O̠nyi̠ bho̠, na̠ E̠mu̠gh E̠tu̠tu̠ bho̠.
 Holy-Bible---Ahirani---Ahirani-Bible	JOH-003-016	योहान 3:16	देवनी जगवर ईतली प्रिती करी की त्यानी आपला एकुलता एक पोऱ्या दिधा, याकरता की जो कोणी त्यानावर ईश्वास ठेवस त्याना नाश व्हणार नही तर त्याले सार्वकालिक जिवन भेटी.
 Holy-Bible---Ahirani---Ahirani-Bible	GEN-003-024	उत्पती 3:24	देवनी मानवले बाहेर काढी दिधं अनी जिवनना झाडकडे जाणारा वाटनी राखण कराकरता एदेन बागना पुर्व भागले करूबीम अनं गरागर फिरणारी ज्वालारूपी तलवार ठेई.
 Holy-Bible---Ahirani---Ahirani-Bible	LUK-023-034	लूक 23:34	तवय येशु बोलना, “हे बाप, यासले क्षमा कर! कारण ह्या काय करतस हाई ह्यासले समजत नही.” “नंतर त्यासनी चिठ्या टाकीसन त्याना कपडा वाटी लिधात.”
@@ -122,6 +131,15 @@ Holy-Bible---Aruamu---Aruamu-Bible	EXO-013-017	Ua Me Ini 13:17	Atrivim Israelian
 Holy-Bible---Aruamu---Aruamu-Bible	MAR-010-045	Mak 10:45	Ezɨ kamaghɨra Gumazamizibar Otarim iza, gumazamizibar amutɨ me a bagh ingarasa, a izezir pu. Puvatɨ, a me bagh ingarasa ize. A gumazamizir avɨriba bagh ovegh ua me givezegh me iniasa ize.”
 Holy-Bible---Aruamu---Aruamu-Bible	ROM-001-001	Rom 1:1	Kɨ Pol, kɨ ia bagha akɨnafarir kam osiri. Kɨ Krais Iesusɨn ingangarir gumazir mam. Krais Iesus nan diagha ghaze, nɨ Godɨn aposelɨn otogham. Egha a na mɨsevegha Akar Aghuim akunamin ingangarim na ganɨngi.
 Holy-Bible---Aruamu---Aruamu-Bible	MAT-028-019	Matyu 28:19	Kamaghɨn amizɨ, ia nguazimɨn itir nguibaba bar dar mangɨ, ikɨziba bar dar gumazamiziba, me damutɨ, me nan suren gumazamizibar otiv. Eghtɨ ia Afeziamɨn ziam ko, Otarimɨn ziam, ko Godɨn Duamɨn ziamɨn me ru.
+Holy-Bible---Arumanisht---Aromanian-Bible	JOH-003-016		
+Holy-Bible---Arumanisht---Aromanian-Bible	GEN-003-024		
+Holy-Bible---Arumanisht---Aromanian-Bible	LUK-023-034		
+Holy-Bible---Arumanisht---Aromanian-Bible	REV-021-002		 
+Holy-Bible---Arumanisht---Aromanian-Bible	HEB-011-008		
+Holy-Bible---Arumanisht---Aromanian-Bible	EXO-013-017		
+Holy-Bible---Arumanisht---Aromanian-Bible	MAR-010-045	Marcu 10:45	Cã sh-Hiljilu a omlui nu-vini s-lji huzmitipseascã, ma s-huzmitipseascã shi di dari bana a lui ca prets ti acumprarea a multsilor.”
+Holy-Bible---Arumanisht---Aromanian-Bible	ROM-001-001		
+Holy-Bible---Arumanisht---Aromanian-Bible	MAT-028-019	Mateu 28:19	Dutsets-vã sh-nvitsats ucenitsi di tuti fãrili, pãtidzãnda tu numa a Tatãlui, sh-a Hiljiui sh-a Sãmtului Duh,
 Holy-Bible---Assamese---Assamese-Bible	JOH-003-016	যোহন ৩:১৬	কাৰণ ঈশ্বৰে জগতক ইমান প্ৰেম কৰিলে যে, তেওঁ নিজৰ একমাত্ৰ পুত্ৰকে দান কৰিলে, যাতে যি কোনোৱে তেওঁত বিশ্বাস কৰে, তেওঁ নষ্ট নহয়, কিন্তু অনন্ত জীৱন পায়।
 Holy-Bible---Assamese---Assamese-Bible	GEN-003-024	আদিপুস্তক ৩:২৪	এইদৰে ঈশ্বৰে মানুহক এদন বাৰীৰ পৰা খেদাই দিলে; তাৰ পাছত জীৱন-বৃক্ষৰ ওচৰলৈ যোৱাৰ পথ ৰখিবলৈ, এদন বাৰীৰ পুবফালে কৰূবসকলক ৰাখিলে আৰু চাৰিওফালে ঘূৰি থকা এখন জলন্তময় তৰোৱালকো তাত থলে।
 Holy-Bible---Assamese---Assamese-Bible	LUK-023-034	লূক ২৩:৩৪	তেতিয়া যীচুৱে ক’লে, “হে পিতৃ, এওঁলোকক ক্ষমা কৰা; কিয়নো এওঁলোকে কি কৰিছে, সেই বিষয়ে নাজানে।” পাছত তেওঁলোকে চিঠি খেলি তেওঁৰ বস্ত্ৰ ভগাই ললে।
@@ -149,6 +167,15 @@ Holy-Bible---Azerbaijani---Azerbaijani-Bible	EXO-013-017	Çixiş 13:17	Firon xal
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	MAR-010-045	Mark 10:45	Çünki Bəşər Oğlu gəlmədi ki, Ona xidmət etsinlər, gəldi ki, Özü xidmət etsin və çoxlarını satın almaq üçün Öz canını fidyə versin».
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	ROM-001-001	Romalilara 1:1	İsa Məsihin qulu, həvari olmağa çağırılmış, Allahın Müjdəsini yaymaq üçün seçilmiş mən Pauldan salam!
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	MAT-028-019	Matta 28:19	Beləliklə, gedin, bütün millətləri Mənim şagirdim edin; onları Ata, Oğul və Müqəddəs Ruh adı ilə vəftiz edin;
+Holy-Bible---Baga-Sitemu---Baga-Sitemu-Bible	JOH-003-016		
+Holy-Bible---Baga-Sitemu---Baga-Sitemu-Bible	GEN-003-024	Dəkəcop 3:24	Ntɛ MARIKI Kanu owurɛnɛ fum dalɛ da Edeŋ mɔ, k'ɛncəmbər mɛlɛkɛ kerub ntende dec dɛmpɛ dalɛ da Edeŋ, kɔ dakma ndɛ dencfikəlɛ dɛccɛsəŋɛ nɛnc, ntɛ tɔŋsɔŋɛ ta alɔtərnɛ kətɔk ka kəyinɛ wəyeŋ mɔ.
+Holy-Bible---Baga-Sitemu---Baga-Sitemu-Bible	LUK-023-034	Luk 23:34	Kɔ Yesu oloku: «Papa məŋaŋnɛnɛ ŋa, bawo ŋancərɛ fɛ ntɛ ŋayi kəyɔ mɔ.» Kɔ asɔdar akaŋɛ ŋayerɛnɛ yamos yɔn ŋakotɛ ti yampuŋpuŋ.
+Holy-Bible---Baga-Sitemu---Baga-Sitemu-Bible	REV-021-002		 
+Holy-Bible---Baga-Sitemu---Baga-Sitemu-Bible	HEB-011-008		
+Holy-Bible---Baga-Sitemu---Baga-Sitemu-Bible	EXO-013-017	Kəwur 13:17	Ntɛ firawona ɛsak aka Yisrayel ŋakɔ mɔ, Kanu kəsolnɛnɛ fɛ ŋa dɔpɔ da atɔf ŋa aFilisti, ali ntɛ pənayɔnɛ a dɔpɔ dadɔkɔ dɔlɔtərnɛ mɔ. Bawo Kanu kənalokunɛ: «K'aka Yisrayel ŋanəŋk kəwan-ɛ, ŋaŋaŋnɛ tɛlər kəwur kəŋan Misira, tɔsɔŋɛ ŋa sɔ kəluksərnɛ di.»
+Holy-Bible---Baga-Sitemu---Baga-Sitemu-Bible	MAR-010-045	Mark 10:45	Wan ka Wərkun ender fɛ padebəcɛ kɔ, mba ender kədebəcɛ afum pəsɔŋ sɔ kiyi kɔn wəyeŋ pəwurus kənay ka afum.»
+Holy-Bible---Baga-Sitemu---Baga-Sitemu-Bible	ROM-001-001		
+Holy-Bible---Baga-Sitemu---Baga-Sitemu-Bible	MAT-028-019	Matiye 28:19	Nəkɔ, nəsɔŋɛ afum a tɔf ya doru fəp kəyɔnɛ acɛpsɛ em darəŋ, nəcgbət ŋa dəromun tewe ta Kas, ta Wan kɔ t'Amera Ŋecempi,
 Holy-Bible---Baiso---Basio-Bible	JOH-003-016	ያንሳ 3:16	“ኡሱ ካአማነ ዱባ ጅሩ ጅሮማክ ግር ጎጎግሮን ኳሬ ጎጎባኖንኮ ዋ ኤረ ኮ ታስስሮ አላም አዳ. ጌላተራ።
 Holy-Bible---Baiso---Basio-Bible	GEN-003-024		
 Holy-Bible---Baiso---Basio-Bible	LUK-023-034	ሉቃሳ 23:34	የሱሳና፥ “ኣቦኬ! እሶ ካፈላራና ላኮካሳን እሶን ሀሄሶ አምና” አመ። እሶና ሳርስኬሳ ኢጣይ ሄዴዳመን።
@@ -176,6 +203,15 @@ Holy-Bible---Bareli-Palya---Palya-Bareli-Bible	EXO-013-017
 Holy-Bible---Bareli-Palya---Palya-Bareli-Bible	MAR-010-045		
 Holy-Bible---Bareli-Palya---Palya-Bareli-Bible	ROM-001-001		
 Holy-Bible---Bareli-Palya---Palya-Bareli-Bible	MAT-028-019	मत्‌ती 28:19	आनीन करीन तमु जावो, आखा राज्‌य ना माणहु ने चेला बणावो; अने तीमने बाह, अने सोरा, अने चोखली आत्‌मा नी नाम सी बपतीस्‌मा आपो,
+Holy-Bible---Basa-Gurmana---Basa-Gurmana-Bible	JOH-003-016		
+Holy-Bible---Basa-Gurmana---Basa-Gurmana-Bible	GEN-003-024		
+Holy-Bible---Basa-Gurmana---Basa-Gurmana-Bible	LUK-023-034		
+Holy-Bible---Basa-Gurmana---Basa-Gurmana-Bible	REV-021-002		 
+Holy-Bible---Basa-Gurmana---Basa-Gurmana-Bible	HEB-011-008		
+Holy-Bible---Basa-Gurmana---Basa-Gurmana-Bible	EXO-013-017		
+Holy-Bible---Basa-Gurmana---Basa-Gurmana-Bible	MAR-010-045		
+Holy-Bible---Basa-Gurmana---Basa-Gurmana-Bible	ROM-001-001		
+Holy-Bible---Basa-Gurmana---Basa-Gurmana-Bible	MAT-028-019	Mata 28:19	Nadea̱nno hura̱ ba ki bishi ato na kanniyan ca an dope, ke de an de ga ato na moma'anga na̱mi, ke na'an dangaga ga o baptisma n rira̱'i re Ashawa n rira̱'i re Ba'a wo Onhon n rya re benhyan be Onhon.
 Holy-Bible---Basque---Basque-NT	JOH-003-016	Joan 3:16	Ecen hala Iaincoac onhetsi vkan du mundua, non bere Seme bakoitza eman vkan baitu, hura baithan sinhesten duenic gal eztadin, baina vicitze eternala duençát.
 Holy-Bible---Basque---Basque-NT	GEN-003-024		
 Holy-Bible---Basque---Basque-NT	LUK-023-034	Lukas 23:34	Eta Iesusec erraiten çuen, Aitá, barka iecec: ecen etzeaquie cer eguiten dutén. Guero haren abillamenduac partituric, çorte egotz ceçaten.
@@ -275,6 +311,24 @@ Holy-Bible---Bodo-Parja---BOPO-Bible	EXO-013-017
 Holy-Bible---Bodo-Parja---BOPO-Bible	MAR-010-045	ମାର୍କ 10:45	କାୟ୍‌ତାକ୍‌ବଃଲେକ୍‌ ନଃରାର୍‌ ହୟ୍‌ସି ହେଁ ସେବା ହାଉଁକ୍‌ ନାସେ, ମଃତର୍‌ ସେବା କଃରୁକେ ଆର୍‌ ଗାଦେକ୍‌ ଲକାର୍‌ ଗିନେ ମୁକ୍ଳାଉତା ମଲ୍‌ ହର୍‌ ଅଃହ୍‌ଣାର୍‌ ଜିବନ୍ ଦେଉଁକେ ଆସି ଆଚେ ।”
 Holy-Bible---Bodo-Parja---BOPO-Bible	ROM-001-001	ରମିୟ 1:1	ପାଉଲ୍‌, କ୍ରିସ୍ଟ ଜିସୁର୍‌ ଗତିଦଃଙ୍ଗ୍‌ଳା ଆର୍‌ କୁଦ୍‌ଲାର୍‌ ଗଟ୍‌ ପେରିତ୍‌, ଆର୍‌ ଅଃହ୍‌ଣାର୍‌ ହୟ୍‌ସି ଅଃମାର୍‌ ମାପ୍ରୁ ଜିସୁ କ୍ରିସ୍ଟର୍‌ ବିସୟେ ନିଜାର୍‌ ଜୁୟ୍‌ ନିକ କବୁର୍‌ ଦଃର୍ମସାସ୍ତରେ ଅଃହ୍‌ଣାର୍‌ ବାବ୍‌ବାଦି ମଃନ୍‌କାର୍‌ ତଃୟ୍‌ ହୁର୍ବେ ସଃୟ୍‌ତ୍‌ କଃରିରିଲା, ସେ ନିକ କବୁର୍‌ ।
 Holy-Bible---Bodo-Parja---BOPO-Bible	MAT-028-019	ମାତିଉ 28:19	ତଃବେ ତୁମିମଃନ୍ ଜାୟ୍‌ ସଃବୁ ବାସାର୍‌ ରିଲା ଲକ୍‌ମଃନ୍‌କେ ଉବା, ହଅ ଆର୍‌ ପବିତ୍ର ଆତ୍ମାର୍‌ ନାଉଁଏ ବାପ୍ତିସମ୍‌ ଦଃୟ୍‌, ସେମଃନ୍‌କେ ଚେଲା କଃରା ।
+Holy-Bible---Boga---Boga-Bible	JOH-003-016		
+Holy-Bible---Boga---Boga-Bible	GEN-003-024		
+Holy-Bible---Boga---Boga-Bible	LUK-023-034		
+Holy-Bible---Boga---Boga-Bible	REV-021-002		 
+Holy-Bible---Boga---Boga-Bible	HEB-011-008		
+Holy-Bible---Boga---Boga-Bible	EXO-013-017		
+Holy-Bible---Boga---Boga-Bible	MAR-010-045	Markus 10:45	Kǝthlǝm chika hweya nifa a ɓu kǝ sang fichǝ torwa, ɓakǝn kǝ saǝn tora nofcha, paɗ kǝ fǝrǝn shisshingtǝ'en kǝ thlǝn nofchandǝ oi."
+Holy-Bible---Boga---Boga-Bible	ROM-001-001		
+Holy-Bible---Boga---Boga-Bible	MAT-028-019		
+Holy-Bible---Bondei---Bondei-Bible	JOH-003-016	Yohana 3:16	Kwaviya Muungu kaikundisa inusi ata akamlavya mwanawe wa ikedu, ili kia mntu endae amzumiiye asekwaga, iya awe na ugima wa misi yose kwesiho kisiikizi.
+Holy-Bible---Bondei---Bondei-Bible	GEN-003-024		
+Holy-Bible---Bondei---Bondei-Bible	LUK-023-034	Luka 23:34	Yesu akamba, “Tate, waekee kwa viya khawamanya wagosoado.” Naho wakapangana magwanda yakwe kwa kuyatoeya kula.
+Holy-Bible---Bondei---Bondei-Bible	REV-021-002		 
+Holy-Bible---Bondei---Bondei-Bible	HEB-011-008		
+Holy-Bible---Bondei---Bondei-Bible	EXO-013-017		
+Holy-Bible---Bondei---Bondei-Bible	MAR-010-045	Maliko 10:45	Kwaviya Mwana wa Mntu khekweza kugosoewa ndima, iya keza kugosoea wantu ndima na kulavya ugima wakwe kwajii ya kuohoa wantu wangi.”
+Holy-Bible---Bondei---Bondei-Bible	ROM-001-001		
+Holy-Bible---Bondei---Bondei-Bible	MAT-028-019	Matayo 28:19	Hitani mkawagosoe wantu wa si zose wawe wahina wangu, mkawabatiiza kwa zina da Tate na da Mwana na Muye wa Muungu.
 Holy-Bible---Borna---Borna-Latin-Bible	JOH-003-016	Yohans Dooshishiyo 3:16	«Bín amanit jametswots dúre dúri beyo b́ daatsituwok'owa bako b́ t'afrawok'o Ik'o datsu ayidek't b́shuntsotse ik s'uzo b́naayi b́ imi.
 Holy-Bible---Borna---Borna-Latin-Bible	GEN-003-024		
 Holy-Bible---Borna---Borna-Latin-Bible	LUK-023-034	Luk'as Dooshishiyo 23:34	Maniyehakon Iyesus, «T niho! bo k'aliruwo bodanawotse boosh orowa eree!» bíet. Kes' kes'fuwotsu Iyesus tahats it'o oorsht kaybodek'i.
@@ -293,6 +347,15 @@ Holy-Bible---Breton---Breton-Gospels	EXO-013-017
 Holy-Bible---Breton---Breton-Gospels	MAR-010-045	Marc 10:45	Rak Mab an den n'eo ket deuet evit bezañ servijet, met evit servijañ hag evit reiñ e vuhez e daspren evit kalz.
 Holy-Bible---Breton---Breton-Gospels	ROM-001-001		
 Holy-Bible---Breton---Breton-Gospels	MAT-028-019	Matthieu 28:19	It eta, grit diskibien eus an holl vroadoù, o vadeziñ anezho en anv an Tad, ar Mab hag ar Spered-Santel,
+Holy-Bible---Bu---Bauchi-Bu-Bible	JOH-003-016		
+Holy-Bible---Bu---Bauchi-Bu-Bible	GEN-003-024		
+Holy-Bible---Bu---Bauchi-Bu-Bible	LUK-023-034		
+Holy-Bible---Bu---Bauchi-Bu-Bible	REV-021-002		 
+Holy-Bible---Bu---Bauchi-Bu-Bible	HEB-011-008		
+Holy-Bible---Bu---Bauchi-Bu-Bible	EXO-013-017		
+Holy-Bible---Bu---Bauchi-Bu-Bible	MAR-010-045	Malkus 10:45	Gaki yakǝn mbalǝn ma tǝ mbǝni sǝppǝli'bǝna ɗawai, gaki tima tǝppǝl bǝnaɗani, abbǝl dlǝwasi gaki diɓǝl mbalǝn.”
+Holy-Bible---Bu---Bauchi-Bu-Bible	ROM-001-001		
+Holy-Bible---Bu---Bauchi-Bu-Bible	MAT-028-019		
 Holy-Bible---Bu---Bu-Bible	JOH-003-016	Yohana 3:16	niwa irji a lo suron ni gbungbulua kpukpome na ban ivren ma riri no wa a ka suron ma no wa ka que na kason ni viri hi ni tuntur
 Holy-Bible---Bu---Bu-Bible	GEN-003-024		
 Holy-Bible---Bu---Bu-Bible	LUK-023-034	Luke 23:34	Yesu tre “Itie, kpa wruhle ni bawu, don bana toh kpe wa ba tie na.” Ba lu ni ta chacha, na yaba inklon ga.
@@ -320,6 +383,15 @@ Holy-Bible---Bulgarian---Bulgarian-Bible	EXO-013-017	Изход 13:17	А ког�
 Holy-Bible---Bulgarian---Bulgarian-Bible	MAR-010-045	Марко 10:45	Защото наистина Човешкият Син не дойде да Му служат, но да служи, и да даде живота Си откуп за мнозина.
 Holy-Bible---Bulgarian---Bulgarian-Bible	ROM-001-001	Римляни 1:1	Павел, слуга Исус Христов, призван за апостол, отделен да проповядва благовестието от Бога,
 Holy-Bible---Bulgarian---Bulgarian-Bible	MAT-028-019	Матей 28:19	Идете, прочее, научете всичките народи, и кръщавайте ги в името на Отца и Сина и Святия Дух,
+Holy-Bible---Bwile---Bwile-Bible	JOH-003-016		
+Holy-Bible---Bwile---Bwile-Bible	GEN-003-024		
+Holy-Bible---Bwile---Bwile-Bible	LUK-023-034		
+Holy-Bible---Bwile---Bwile-Bible	REV-021-002		 
+Holy-Bible---Bwile---Bwile-Bible	HEB-011-008		
+Holy-Bible---Bwile---Bwile-Bible	EXO-013-017		
+Holy-Bible---Bwile---Bwile-Bible	MAR-010-045		
+Holy-Bible---Bwile---Bwile-Bible	ROM-001-001		
+Holy-Bible---Bwile---Bwile-Bible	MAT-028-019	Mateyo 28:19	Kabiyeni muleyalenga abantu bonse ukuba abasambi bandi, mulebabatisya mwisina lyakwa Tata, ilya Mwana, nelyakwa Mupasi wamusilo,
 Holy-Bible---Calo---Calo-Bible	JOH-003-016		
 Holy-Bible---Calo---Calo-Bible	GEN-003-024		
 Holy-Bible---Calo---Calo-Bible	LUK-023-034	Lucas 23:34	Tami Jesus penaba: Dada, ojabesalos: presas na chanelan, ma querelan. Y dividiendo desqueres talalorés, bucháron sustirias.
@@ -527,6 +599,15 @@ Holy-Bible---Chiyawo---Yao	EXO-013-017
 Holy-Bible---Chiyawo---Yao	MAR-010-045	Maliko 10:45	Pakuŵa Mwana jwa Mundu nganaika kukutumichilwa, nambo aiche kukutumichila ni kuutyosya umi wao kwa kwawombola ŵandu ŵajinji.”
 Holy-Bible---Chiyawo---Yao	ROM-001-001	Ŵaloma 1:1	Une che Paolo, jwakutumichila ju Che Yesu Kilisito, nguchilemba chikalata chi. Akunnungu amilasile me nduna ni asagwile naalalichile ŵandu Ngani jao Jambone.
 Holy-Bible---Chiyawo---Yao	MAT-028-019	Matayo 28:19	Nipele njaule, nkaatende ŵandu ŵa ilambo yose aŵe ŵakulijiganya ŵangu, nchabatisyaga kwa liina lya Atati ni lya Mwana ni lya Mbumu jwa Akunnungu.
+Holy-Bible---Cishingini---Cishingini-Bible	JOH-003-016		
+Holy-Bible---Cishingini---Cishingini-Bible	GEN-003-024	Ugiti 3:24	Ana u lokoi vuma va, ɗa u zuwai ɗe corobi a̱ na̱shi punu a kashina ka a uɓon u kasana, n otokobi a akina a kulyaꞋa una̱ u re dem adama a na a̱ sa̱nka̱ vuma va kuꞋuwa a kashina ka.
+Holy-Bible---Cishingini---Cishingini-Bible	LUK-023-034		
+Holy-Bible---Cishingini---Cishingini-Bible	REV-021-002		 
+Holy-Bible---Cishingini---Cishingini-Bible	HEB-011-008		
+Holy-Bible---Cishingini---Cishingini-Bible	EXO-013-017	Kuta̱ 13:17	Ana FiriꞋauna u ka̱sukpa̱i uma a lazai, Ka̱shile ka̱ ka̱sukpa̱ le o tono n uye wa asuvu ba, u na u walai a iɗika ya aza a̱ Filisitiya. Adama a na Ka̱shile ka dana ta̱, “I ta̱ a kufuɗa kusabaꞋa a̱ɗu e le ka̱ta̱ a suma o kubono a Masar ayin a na baci e enei kuvon.”
+Holy-Bible---Cishingini---Cishingini-Bible	MAR-010-045		
+Holy-Bible---Cishingini---Cishingini-Bible	ROM-001-001		
+Holy-Bible---Cishingini---Cishingini-Bible	MAT-028-019		
 Holy-Bible---Coptic---Coptic-Boharic-NT	JOH-003-016	ⲒⲰⲀⲚⲚⲎⲚ ⲅ̅:ⲓ̅ⲋ̅	ⲠⲀⲒⲢⲎϮ ⲄⲀⲢ ⲀⲪⲚⲞⲨϮ ⲘⲈⲚⲢⲈ ⲠⲒⲔⲞⲤⲘⲞⲤ ϨⲰⲤⲦⲈ ⲠⲈϤϢⲎⲢⲒ ⲘⲘⲀⲨⲀⲦϤ ⲚⲦⲈϤⲦⲎⲒϤ ϨⲒⲚⲀ ⲞⲨⲞⲚ ⲚⲒⲂⲈⲚ ⲈⲐⲚⲀϨϮ ⲈⲢⲞϤ ⲚⲦⲈϤϢⲦⲈⲘⲦⲀⲔⲞ ⲀⲖⲖⲀ ⲚⲦⲈϤϬⲒ ⲚⲞⲨⲰⲚϦ ⲚⲈⲚⲈϨ.
 Holy-Bible---Coptic---Coptic-Boharic-NT	GEN-003-024		
 Holy-Bible---Coptic---Coptic-Boharic-NT	LUK-023-034	ⲖⲞⲨⲔⲞⲚ ⲕ̅ⲅ̅:ⲗ̅ⲇ̅	ⲒⲎⲤⲞⲨⲤ ⲆⲈ ⲠⲈϪⲀϤ ϪⲈ ⲠⲀⲒⲰⲦ ⲬⲰ ⲚⲰⲞⲨ ⲈⲂⲞⲖ ϪⲈ ⲘⲠⲞⲨⲈⲘⲒ ⲈⲚⲎ ⲈⲦⲞⲨⲒⲢⲒ ⲘⲘⲞϤ.
@@ -662,6 +743,15 @@ Holy-Bible---Desiya---Desiya-Bible	EXO-013-017
 Holy-Bible---Desiya---Desiya-Bible	MAR-010-045	ମାର୍‌କ ୧୦:୪୫	କାଇକେ ବଇଲେ ପର୍‌ମେସର୍‌ଟାନେଅନି ଆସିରଇବା ନର୍‌ପିଲା ମୁଇ, ବିନ୍‌ ଲକ୍‌ମନର୍‌ଟାନେଅନି ମକେ ସେବା ମିଲ ବଲି ଆସି ନାଇ, ମାତର୍‌ ସେବା କର୍‌ବାକେ ଆସି ଆଚି । ଆରି ମୁଇ ଜିବନ୍‌ ଦେବାର୍‍ ଲାଗି, ବେସି ଲକ୍‌ ଦସି ବଲି ଏଜାଇ ନ ଅଇ, ପାପେଅନି ରକିଆ ପାଇବାଇ ।”
 Holy-Bible---Desiya---Desiya-Bible	ROM-001-001	ରମିୟ ୧:୧	ମୁଇ ପାଉଲ୍‌ ଏଟା ଲେକ୍‌ଲିନି, ମୁଇ କିରିସ୍‌ଟ ଜିସୁର୍‌ ଗଟେକ୍‌ ସେବାକାରିଆ । ପର୍‌ମେସର୍‌ ମକେ ବାଚ୍‌ଲା ଆରି ତାର୍‌ ନିମାନ୍‌ କବର୍‌ ଜାନାଇବାକେ ସର୍‌ପିଦେଲା । ରମ୍‌ ରାଇଜେ ରଇବା ତମର୍‌ ସବୁଲକର୍‌ପାଇ ମୁଇ ଏ ଚିଟି ପାଟାଇଲିନି ।
 Holy-Bible---Desiya---Desiya-Bible	MAT-028-019	ମାତିଉ ୨୮:୧୯	ତେବେ ତମେ ଦେସ୍‌ମନ୍‌କେ ରଇବା ସବୁ ବାସାର୍‌ ଲକ୍‌ମନର୍‌ ଲଗେ ଜାଇ, ସେମନ୍‌କେ ମର୍‌ ସିସ୍‌ କରାଆ । ବାବା, ପଅ ଆରି ସୁକଲ୍‌ ଆତ୍‌ମାର୍‌ ନାଉଁଦାରି ସେମନ୍‌କେ ଡୁବନ୍‌ ଦିଆସ୍‌ ।
+Holy-Bible---Dhanki---Dhanki-Devanagari-Bible	JOH-003-016	यहुन्ना 3:16	“काहकि यहोवा–भगवान जगत साथे ओसलो मोंग राखे कि उका आपनो एकखुळीयो पोर्‍य आप दिदो, ताकि उका पर जु कुन विश्वास करे त्यो नष्ट नी हुयो, पुन अमरकाय जीवन जड़से।
+Holy-Bible---Dhanki---Dhanki-Devanagari-Bible	GEN-003-024	उत्पत्ति 3:24	ओतरान कोरिन आदम क हुयो निकाळ देदो आरु जिवन क झाड़ क वाट क पेहरो देने क लिय अदन क वाड़ी क उगेवनो भिनी करुबो क, आरु च्यारु मेर फिरनेवाऴा आगठा जोसो तलवार क वी नेवाड़ कोर देदो।
+Holy-Bible---Dhanki---Dhanki-Devanagari-Bible	LUK-023-034	लूका 23:34	तव ईशु कयो, “हे बास, इनुक माफ कर, काहकि यो जानता नी कि काय कर रया छे।” आरू त्या चिठ्ठया नाखीन ओका छिंदरा वाट लेदा।
+Holy-Bible---Dhanki---Dhanki-Devanagari-Bible	REV-021-002	प्रकाशितवाक्य 21:2-3	ओळी हाव चुखलो गाँव आरू नवलो यरूशलेम क सोरगदूत सी यहोवा–भगवान क साते सी आवतो देख्यो, आरू चौ तिनी लुगाई क सारकी होती, जो आपसा दुल्हा क जुगु तियार होयली होय। ओळी हाव राजगाद्दी मा सी कोय काजे मोटा बुल छे यो कयता सुन्यो, देख यहोवा–भगवानन डेरो मानसोन विच मा छे; आरू चे ओको लोगहन होय जायछे, आरू यहोवा–भगवान आपसु तिन्दरे साते रहछे; आरू ओका यहोवा–भगवान होय जाछे।
+Holy-Bible---Dhanki---Dhanki-Devanagari-Bible	HEB-011-008	इब्रानियों 11:8	विश्वास ही छे अब्राहम जव बुलाया गया तो हुकुम मानीन ओसी धरतीम निकवीन गया जिनाक मीरास मा लेनेवावा हुता; आरू यो नी जानता हुता कि हाव काह जाता छे, तोभी निकवी गया।
+Holy-Bible---Dhanki---Dhanki-Devanagari-Bible	EXO-013-017	निर्गमन 13:17	जव फिरोन लोगहन को जानेन हुकुम दियो, तव कदाम पलिश्तियान देश मा हईन जो रस्तो जाय त्यो नानलो हुतो; ते बी योहोवा भगवान यो सोचीन उनी वाट सी नी ली गयो कि असो नी हुय जाय कि जव या लोगहन लड़ाई देखे ती कदाम मिसर मा पछा जात रये।
+Holy-Bible---Dhanki---Dhanki-Devanagari-Bible	MAR-010-045	मरकुस 10:45	काहकि मानुस क पोर्‍या मतलब मखे इनीये करता नी आश की ओकी सेवा टहल की जाय, पर अतरान करीन आश की सेवा टहल करे, आरू घोणा क छुटकारा क करता आपसो जीव आपे”
+Holy-Bible---Dhanki---Dhanki-Devanagari-Bible	ROM-001-001	रोमियो 1:1	पौलुसन तरफ छे जु ईशु मसीहन दास छे, आरू जिनाक प्रेरित हुयने करता बुलाया हुता, आरू यहोवा–भगवानन काजे ओको खुश खबर करता अलग कर्‍या गया छे।
+Holy-Bible---Dhanki---Dhanki-Devanagari-Bible	MAT-028-019	मत्ती 28:19	अतरानकरीन करिन या से जाईन सब राष्ट्रन लोगहन क म्हारा चेला बनावो आरू त्या लोगहन क बास, बेटा आरू चुखली आत्मान नाव से बपतिस्मा देयो।
 Holy-Bible---Dholuo---Dholuo-Bible	JOH-003-016	Johana 3:16	“Nikech Nyasaye nohero piny ahinya, omiyo nochiwo Wuode ma miderma, mondo ngʼato angʼata moyie kuome kik lal, to obed gi ngima mochwere.
 Holy-Bible---Dholuo---Dholuo-Bible	GEN-003-024	Chakruok 3:24	Bangʼ kane oseriembo Adam oko, ne oketo kerubi gi ligangla mamil koni gi koni yo wuok chiengʼ mar Puodho Mar Eden mondo orit yo mochomo yadh ngima.
 Holy-Bible---Dholuo---Dholuo-Bible	LUK-023-034	Luka 23:34	Yesu nowacho niya, “Wuora, wenegi, nikech gikia gima gitimo!” To ne gipogore lepe ka gigoyo ombulu.
@@ -680,6 +770,15 @@ Holy-Bible---Dombe---Dombe-Bible	EXO-013-017
 Holy-Bible---Dombe---Dombe-Bible	MAR-010-045	Makko 10:45	Nkambo Mwana aMuntu takazida kuzofutulwa pe, pele kufutula, alimwi akupa buumi bwakwe kukwangununa biingi.”
 Holy-Bible---Dombe---Dombe-Bible	ROM-001-001	Ba Loma 1:1	Pawulo, mulanda waJesu Kkilisito, wakayitwa kuti abe mu positoli, alimwi wakasalilwa kukuchita mulimu waLeza.
 Holy-Bible---Dombe---Dombe-Bible	MAT-028-019	Mateyo 28:19	Aboobo amwinke alimwi mukachite basikwiiya bamisyoobo yoonse. Mukaba bbabbatizye muzina lya Taata, lya Mwana, alya Muuya Uusalala.
+Holy-Bible---Dongxiang---Donxian-Bible	JOH-003-016	Yaheiya 3:16	Huda duyani kunlade olon orezhi lien niekozi kewonneliuzhe ogiwo. Ingiese jien hhei xianxin giesan kunlai ulie widaghazhi chanqiku amin ogine giezho.
+Holy-Bible---Dongxiang---Donxian-Bible	GEN-003-024		
+Holy-Bible---Dongxiang---Donxian-Bible	LUK-023-034	Lujia 23:34	Ersa kieliewo, "Adaya, hhelai mienlie. Hhela yan giesanne ulie mejiene." Buduila fendan qianguzhi Ersai jienni ghughazho.
+Holy-Bible---Dongxiang---Donxian-Bible	REV-021-002	Mejieghasan 21:2-3	Bi pse chanlase zhiguitu chenshi shini Yelusalen asimanyi Hudai hhense bouzhezho. Hoxian shini bierei zhanguijidene oluzhi dabala goudasei xianli. Bi pse sonosuse fugie shenqi baozose khizhezhi kieliezho, "Uzhe, Hudai zhanfan kun dunda wo! Huda kunlare hhantu soune. Hhela hhende bexin danlane. Huda qinsi hhelare hhantu wine.
+Holy-Bible---Dongxiang---Donxian-Bible	HEB-011-008	Xibolai 11:8	Huda Iburaheimui urukude hhe xianxin giekughala minlinyi zunjizhi jianlai caichan gieku oronde khizhewoma, echikude khala echikui ulie mejiene.
+Holy-Bible---Dongxiang---Donxian-Bible	EXO-013-017		
+Holy-Bible---Dongxiang---Donxian-Bible	MAR-010-045	Make 10:45	Kunnikewon irekushi kunlai ushilaghale ese irezho. Kharei kunlai ushilazhi aminne sheidene olon kunlade shuiku Jiage danlale irezho."
+Holy-Bible---Dongxiang---Donxian-Bible	ROM-001-001	Loma 1:1	Bishi Ersa Mexihani hoji Baolo wo. Hudai gouxioxini zhomen chonjighane giezhi mii uruzhi iredene shitu danlaghawo.
+Holy-Bible---Dongxiang---Donxian-Bible	MAT-028-019	Matai 28:19	Ingiese ta echidene soyuji minzuni kunlai Ada, Kewon, Shenlinni niereghala xili gieghazhi tuji gholugha.
 Holy-Bible---Dutch---Canisiusvertaling	JOH-003-016	Johannes 3:16	Want zo lief heeft God de wereld gehad, dat Hij zijn eengeboren Zoon heeft gegeven: opdat allen die in Hem geloven, niet verloren zouden gaan, maar het eeuwige leven zouden hebben.
 Holy-Bible---Dutch---Canisiusvertaling	GEN-003-024	Genesis 3:24	Hij joeg den mens weg, en plaatste ten oosten van Edens tuin de cherubs met de vlam van het bliksemende zwaard, om de weg naar de levensboom te bewaken.
 Holy-Bible---Dutch---Canisiusvertaling	LUK-023-034	Lukas 23:34	En Jesus zeide: Vader, vergeef het hun; want ze weten niet, wat ze doen. En ze verdeelden zijn klederen bij het lot.
@@ -716,6 +815,15 @@ Holy-Bible---Duya---Duya-Bible	EXO-013-017
 Holy-Bible---Duya---Duya-Bible	MAR-010-045	Umarku 10:45	Ungwɛ̃-Ner asi ibanga umbɔ atɔ̃we unga itser, bɔr unga awuri iwu ugãrhã, na adzowe urhɛnga afɔrh anera arhɛrhɛ.”
 Holy-Bible---Duya---Duya-Bible	ROM-001-001	Uroma 1:1	Idzeku umum Uburhu, uner itser Ukiristo Uyesu. Umbɔ aka ayisa umum iwe uner itser Uyesu, atsũ umum idũwũ Isarhe Iyiki Ize iyi Unum.
 Holy-Bible---Duya---Duya-Bible	MAT-028-019	Umatta 28:19	Nggee àka azĩ akũ anera kishoo ru upfunga aba adɔsa umum. Àka asorhuwe umbɔ ubɔtisima ri itsok Utɛ nu iki Ungwɛ̃ nu iki Ipfu Isarsatangge.
+Holy-Bible---Ekajuk---Ekajuk-Bible	JOH-003-016	Jon 3:16	Esowo njini kor-e na, wo, á rodo Mmon mmon awohng ewe ka re, nne awohng awohng no lꞌtaame tv-e, á nehm tiki kpo tan, á kpi elkpin ni li go njinanjini.
+Holy-Bible---Ekajuk---Ekajuk-Bible	GEN-003-024	Mbomannahb 3:24	Eji Esowo kame nne yehke etahngga, á kehm bumu enjel nyi bo kpo lung-e Serubim go ejang ero nfam bi etahngga ji Eden, a ekahngkahng bi jo fokko enyahng enyahng jo se agun, baabe mbang nyi li rehng go eti ji elkpin.
+Holy-Bible---Ekajuk---Ekajuk-Bible	LUK-023-034	Luk 23:34	Jisos kehm bungu re, “Nsoo, tahm ka bo, tibre bo nehme kahn ji bo kpꞌlimi.” Bo kehm tubu elfaange, eji bo lꞌkahn ana bo bahke baange nsol ebjing enye.
+Holy-Bible---Ekajuk---Ekajuk-Bible	REV-021-002	Ell 21:2-3	Owo n kehm kpe nyehn mbarebare ejahbe, Jeusalem ji nfenfe kpꞌbadde go ejahbetul Esowo abake. Á toobo ebjing, fere liibi ana nkalanne liibi re, á song kpiri nlumanne. N wuku ellum ni bungu wahre wahre go eti etul jio re, “Anv, Esowo bahke kake elsi ene goji ane. Á bahke lene tob bo. Bo bahke jolo ane ebe. Yefono antahng bahke jolo a bo, fere jol Esowo ebo.
+Holy-Bible---Ekajuk---Ekajuk-Bible	HEB-011-008	Hib 11:8	Eltaame ni wahnge Ebraham wuku Esowo, eji á tong-e re, á lohng song go edi ndi ji á bahk-e kake ana ejum elehke elkv. Á kehm lohngo go ege ejahbe asongo. Á joom kahn edi ji á fi fi.
+Holy-Bible---Ekajuk---Ekajuk-Bible	EXO-013-017		
+Holy-Bible---Ekajuk---Ekajuk-Bible	MAR-010-045	Mak 10:45	Tibre Mmon no nne baam re bo jo lok-e, á ba re á ba loko na, fere ka elkpin ene, tahre ane gbalee yake.”
+Holy-Bible---Ekajuk---Ekajuk-Bible	ROM-001-001	Rom 1:1	Me Pol, me wo kpꞌnyono nwer nyia, me ji li nlokeltum no Jisos Kraist, ji Esowo lung-m no re me n jol ntiingetib, fere yehk-m re me n tiingi nnoobo etib bi Esowo,
+Holy-Bible---Ekajuk---Ekajuk-Bible	MAT-028-019	Mat 28:19	Songen fvfo go njini kpee, wahn song lim ane, bo jol abatꞌtoono ebame go ejahbe ajehng ajehng. Wohngen bo alahb go mbing nyi Nsoo, a Mmon, a Etingi Etohko,
 Holy-Bible---English---A-Conservative-Version	JOH-003-016	John 3:16	For God so loved the world, that he gave his only begotten Son, so that every man who believes in him would not perish, but have eternal life.
 Holy-Bible---English---A-Conservative-Version	GEN-003-024	Genesis 3:24	So he drove out the man. And he placed at the east of the garden of Eden the cherubim, and the flame of a sword which turned every way, to guard the way of the tree of life.
 Holy-Bible---English---A-Conservative-Version	LUK-023-034	Luke 23:34	And Jesus said, Father, forgive them, for they know not what they are doing. And dividing his garments, they cast a lot.
@@ -1301,6 +1409,15 @@ Holy-Bible---Estonian---For-All	EXO-013-017
 Holy-Bible---Estonian---For-All	MAR-010-045	Markus 10:45	Sest isegi inimese Poeg ei tulnud selleks, et lasta ennast teenida, vaid ise teenima ja andma oma elu lunarahaks paljude eest.“
 Holy-Bible---Estonian---For-All	ROM-001-001	Roomlased 1:1	See kiri on Pauluselt, Jeesuse Kristuse sulaselt. Mind kutsus apostliks Jumal. Jumal määras mind kuulutama head sõnumit,
 Holy-Bible---Estonian---For-All	MAT-028-019	Matteus 28:19	Nii et minge ja tehke jüngreid kõigist rahvustest inimesi ning ristige neid Isa ja Poja ja Püha Vaimu nimesse.
+Holy-Bible---Etulo---Etulo-Bible	JOH-003-016	iJɔn 3:16	“Lubana Imgbasho di ɛsɛ nɛ kpan itukwu jo o kye Ongwan onyi kpokpo nu, gbɛɛ ali inggisɛ nnun oyɛyɛ ta no ka dzili ba, kpaa no tu oshishe igyegwu.
+Holy-Bible---Etulo---Etulo-Bible	GEN-003-024		
+Holy-Bible---Etulo---Etulo-Bible	LUK-023-034	iLuku 23:34	Nɛ iYesu gbɛɛ, “Otsani, dzamata, bana a ye ungwɔ ngwi a le kyɔ ba.” Man a kyen angwuto kye ghalu mi efa ogboogbo.
+Holy-Bible---Etulo---Etulo-Bible	REV-021-002	Iba 21:2-3	Ani di Ogalu Osaan, iJerosalin ofufɛ nani, tɔ mbi Imgbasho kyɛ esho le ba esɛ, a man dafi ongyaa ofufɛ ngwu meewo sunse saan mi ikye oban mani. Man ani fwo ela okwukwo kyɛ mi itsuutɔ na gbɛɛ, “Onɛnɛ osɔɔsɔ mgbi Imgbasho dzɛ yi inggisɛ, o dika dzɛ yi ama. A ka li emidan, Imgbasho abuon ka dzɛ yi ama dika li Imgbasho mgbi ama.
+Holy-Bible---Etulo---Etulo-Bible	HEB-011-008	Emi iHibru 11:8	Abrahan noyɛyɛ di fwo Imgbasho. A nyan gbɛɛ no lu imbe ngwi o kawa gyokwudan, ngwi Abrahan nu Imgbasho oyɛyɛ nɛ, o ye ɛsɛ na ba kpaa o lu.
+Holy-Bible---Etulo---Etulo-Bible	EXO-013-017		
+Holy-Bible---Etulo---Etulo-Bible	MAR-010-045	iMaki 10:45	Bana Ongwɛ Inggisɛ abuon ba ikyegbɛɛ nu ma wa kyɔn idɔ ba, kpaa owa kyɔɔkyidɔ, odi kye oshishe mgban nu ikye onagbɛ ibyi inggisɛ.”
+Holy-Bible---Etulo---Etulo-Bible	ROM-001-001	Emi iRoma 1:1	Afɛ nɛ kyɛ mbi iPol, ongbidɔ mgbi iKrestu iYesu, ongwu a kwun ela non gbikye iYesu, ngwu a di dulun dzɛkɛ ikye ogbɔ Esɔ Osuse mgbi Imgbasho nani.
+Holy-Bible---Etulo---Etulo-Bible	MAT-028-019	iMatiu 28:19	Nghanɛ lu dika nu inggisɛ mi ɛsɛ duu yɛɛ engwafɔ mgbi ani, kyɔ ma iBatisima mi iyi mgbi Otsɛ yi Ongwɛ bɛyi Onodzi Osaan,
 Holy-Bible---Ewe---Word-of-Life	JOH-003-016	Yohanes 3:16	Elabena Mawu lɔ̃a xexea me ale gbegbe be wòtsɔ eya ŋutɔ Via ɖeka hɔ̃ɔ la na, be ame sia ame si axɔ edzi ase la, nagatsrɔ̃ o, ke boŋ wòakpɔ agbe mavɔ.
 Holy-Bible---Ewe---Word-of-Life	GEN-003-024	Mose 1 3:24	Ale Mawu nya ame la, eye wòtsɔ mawudɔla sesẽ siwo wòde yi dadzowo asi na la da ɖe Edenbɔ la ƒe ɣedzeƒe lɔƒo be woadzɔ mɔ woato aɖo ta agbeti la gbɔ la nu.
 Holy-Bible---Ewe---Word-of-Life	LUK-023-034	Luka 23:34	Sẽe la, Yesu do ɣli sesĩe be, “Fofo tsɔ ame siawo ƒe nu vɔ̃wo ke wo, elabena womenya nu si wɔm wole la o.” Asrafowo ɖe eƒe awuwo le eŋu, eye woda akɔ ɖe ɖe sia ɖe dzi hemae.
@@ -1310,6 +1427,15 @@ Holy-Bible---Ewe---Word-of-Life	EXO-013-017	Mose 2 13:17	Esi Farao ɖe asi le am
 Holy-Bible---Ewe---Word-of-Life	MAR-010-045	Marko 10:45	elabena Amegbetɔ Vi la meva be ame aɖeke nasubɔ ye o. Ke boŋ be wòasubɔ amewo, eye be yeatsɔ yeƒe agbe ana ɖe ame geɖewo ƒe ɖeɖekpɔkpɔ ta.”
 Holy-Bible---Ewe---Word-of-Life	ROM-001-001	Romatɔwo 1:1	Nye Paulo, Yesu Kristo ƒe dɔla, ame si wotia be wòanye mawunyadɔgbedela, eye wodɔe be wòaɖe gbeƒã Mawu ƒe nyanyui la.
 Holy-Bible---Ewe---Word-of-Life	MAT-028-019	Mateo 28:19	eya ta miyi ɖawɔ amewo le dukɔ ɖe sia ɖe me woanye nye nusrɔ̃lawo; miade mawutsi ta na wo le Fofo la, Vi la kple Gbɔgbɔ Kɔkɔe la ƒe ŋkɔ me.
+Holy-Bible---Falam---Falam-Chin-Bible	JOH-003-016		
+Holy-Bible---Falam---Falam-Chin-Bible	GEN-003-024		
+Holy-Bible---Falam---Falam-Chin-Bible	LUK-023-034		
+Holy-Bible---Falam---Falam-Chin-Bible	REV-021-002		 
+Holy-Bible---Falam---Falam-Chin-Bible	HEB-011-008		
+Holy-Bible---Falam---Falam-Chin-Bible	EXO-013-017		
+Holy-Bible---Falam---Falam-Chin-Bible	MAR-010-045	Marka 10:45	Zangahtihle Minung Fapa hman riatmi i dingah a tiang lo, riantu i dingah le mi tamngai tlatnak hrangah a nunnak pe ding sawn ah a tiang,” tiah a ti.
+Holy-Bible---Falam---Falam-Chin-Bible	ROM-001-001		
+Holy-Bible---Falam---Falam-Chin-Bible	MAT-028-019		
 Holy-Bible---Finnish---Finnish-Bible	JOH-003-016	Johanneksen 3:16	Sillä niin on Jumala maailmaa rakastanut, että hän antoi ainoan Poikansa, että jokainen, joka uskoo hänen päällensä, ei pidä hukkuman, mutta ijankaikkisen elämän saaman.
 Holy-Bible---Finnish---Finnish-Bible	GEN-003-024	1 Mooseksen 3:24	Ja ajoi Adamin ulos, ja pani idän puolelle Edenin Paradisia Kerubimin paljaalla, lyöväisellä miekalla elämän puun tietä vartioitsemaan.
 Holy-Bible---Finnish---Finnish-Bible	LUK-023-034	Luukkaan 23:34	Niin sanoi Jesus: Isä, anna heille anteeksi, sillä ei he tiedä, mitä he tekevät. Ja he jakoivat hänen vaatteensa ja heittivät niistä arpaa.
@@ -1535,6 +1661,15 @@ Holy-Bible---Gayil---Gayl-Bible	EXO-013-017
 Holy-Bible---Gayil---Gayl-Bible	MAR-010-045	ማርቆስ 10:45	ኤደት ይንች ዎራ ፍክስካንተኬ ይንታ ሰንፔንም በድንከስካንታ ቆትማ ማስሶ እማካንታ Ꮊዳ ዳት ክትካንታ ፍግዝድንግንዳ Ꮊዳክዬ።”
 Holy-Bible---Gayil---Gayl-Bible	ROM-001-001	ሮማ 1:1	የሱስ ክርስቶሰታ ፍክስንባብ ማችባብዘንኬ፥ ኦይትምስባብ ማትካንታ ኤልምስባብዘንካ፥ ሳብተረ ክላ ኬዘንም ኤስስካንታ እድምስባብ ጳውሎስዘንካ ኦይትምሳንዳ ክታ።
 Holy-Bible---Gayil---Gayl-Bible	MAT-028-019	ማቶስ 28:19	ይና ፍጫሙደንዘን ዶቅድን ዎርሳ ሙደንደር አይከቴ፥ ሳብ ባቤንታ፥ ሳብ ይንችንተኬ አያን ጭልንታ ላምካ ከትም ስእሰረቶ እስታ ካርንካ ጎርስምድባብ ማስስከቴ።
+Holy-Bible---Geji---Geji-Bible	JOH-003-016	Yohana 3:16	“Ten ɗe Nya lam dii atl i'e yek ta̱ ba̱l Yen ɗe na̱m gwe ba̱ wunda̱l gwas ni ɗa̱ sowu, ten ɗe ta̱ mas ma̱lgwe nga̱sti tenti go ba̱s lil ka̱ so ama ta̱s mbi mbadl ma̱n la̱shi pakti.
+Holy-Bible---Geji---Geji-Bible	GEN-003-024		
+Holy-Bible---Geji---Geji-Bible	LUK-023-034	Lukka 23:34	Yek Yesu wule, “Aba, taasi ma̱jin byas wul jwasa̱n ka, na̱k ɗe ba̱sa̱ yis ilgwe sa̱ na̱ma pa̱lti wu sowu.” Yek sa̱ huul luka̱l ga̱ Yesu ka̱ dlo gwasa̱n ten botlti ga̱ ma̱lgwe a kan wu.
+Holy-Bible---Geji---Geji-Bible	REV-021-002		 
+Holy-Bible---Geji---Geji-Bible	HEB-011-008		
+Holy-Bible---Geji---Geji-Bible	EXO-013-017		
+Holy-Bible---Geji---Geji-Bible	MAR-010-045		
+Holy-Bible---Geji---Geji-Bible	ROM-001-001	Roma 1:1	Lishti ga̱n go tet mal ami Bulus zhel ga̱ Yesu Almasihu ɗe sa̱ mbe ɗe ta da̱m ɗe yen shinti ga̱ Yesu, yek sa̱ za̱n ka ten ɗe ta lak icin ten ga̱ɓa ma̱n ta̱mti ga̱ Nya wu ka̱n.
+Holy-Bible---Geji---Geji-Bible	MAT-028-019	Matiyu 28:19	Ten na̱k gwisi, ningo sak hwi mas mbala̱n ji dii atl ɗe ta̱s koɓa̱nni, laka̱nsi ta̱s da̱m ɗe mil lishti jini, aka̱a̱ nisi ma pa̱lti baptisma na̱ shin ga̱ Aba suk ga̱ Yen suk ga̱ Shishi ga̱ Nya.
 Holy-Bible---German---German-Albrecht	JOH-003-016	Johannes 3:16	Denn so sehr hat Gott die Welt geliebt, daß er seinen eingeborenen Sohn gegeben hat, damit jeder, der an ihn glaubt, nicht verlorengehe, sondern das ewige Leben habe.
 Holy-Bible---German---German-Albrecht	GEN-003-024		
 Holy-Bible---German---German-Albrecht	LUK-023-034	Lukas 23:34	Da sprach Jesus: "Vater, vergib ihnen; denn sie wissen nicht, was sie tun!" Dann verteilten sie seine Kleider unter sich, indem sie das Los darüber warfen.
@@ -1994,6 +2129,15 @@ Holy-Bible---Hausa---Hausa-Bible	EXO-013-017
 Holy-Bible---Hausa---Hausa-Bible	MAR-010-045	Markus 10:45	Saboda haka ne Dan mutum ya zo ba domin a bauta masa ba, sai dai domin shi yayi bautar, ya kuma ba da ransa fansa saboda da mutane da yawa.”
 Holy-Bible---Hausa---Hausa-Bible	ROM-001-001	Romawa 1:1	Bulus, bawan Yesu Almasihu, kirayayye ya zama manzo, kuma kebabbe domin bisharar Allah.
 Holy-Bible---Hausa---Hausa-Bible	MAT-028-019	Mattiyu 28:19	Sai kuje ku almajirantar da dukan al'ummai. Kuna yi masu baftisma cikin sunan Uba da na Da da na Ruhu Mai Tsarki.
+Holy-Bible---Havu---Havu-Bible	JOH-003-016		
+Holy-Bible---Havu---Havu-Bible	GEN-003-024		
+Holy-Bible---Havu---Havu-Bible	LUK-023-034	Luuka 23:34	[Yeesu aderha ntya: «Daarha, obababalire, kwenge barhamenyere echi bali baajira.»] Abasoda bagabaana emyambalo yaage omu kuyeesha esimbi.
+Holy-Bible---Havu---Havu-Bible	REV-021-002		 
+Holy-Bible---Havu---Havu-Bible	HEB-011-008		
+Holy-Bible---Havu---Havu-Bible	EXO-013-017		
+Holy-Bible---Havu---Havu-Bible	MAR-010-045		
+Holy-Bible---Havu---Havu-Bible	ROM-001-001		
+Holy-Bible---Havu---Havu-Bible	MAT-028-019		
 Holy-Bible---Hawaiian---Hawaiian-Bible-1868	JOH-003-016	Ioane 3:16	No ka mea, na aloha nui mai ke Akua i ko ke ao nei, nolaila, ua haawi mai oia i kana Keiki hiwahiwa, i ole e make ka mea manaoio ia ia, aka, e loaa ia ia ke ola mau loa.
 Holy-Bible---Hawaiian---Hawaiian-Bible-1868	GEN-003-024	Kinohi 3:24	Pela oia i kipaku ai i ke kanaka; a hoonoho iho la ma ka hikina o ka mahinaai o Edena i na kerubima, a me ka pahi wakawaka e ka ana io ia nei i maluhia'i ke ala ma ka laau ola.
 Holy-Bible---Hawaiian---Hawaiian-Bible-1868	LUK-023-034	Luka 23:34	Alaila olelo aku la o Iesu, E ka Makua, e kala iho oe i ko lakou nei hewa; no ka mea, aole o lakou ike i ka lakou mea e hana nei. Puunaue ae la lakou i kona mau kapa, hailona iho la.
@@ -2390,6 +2534,15 @@ Holy-Bible---Kannada---Siddi-Bible	EXO-013-017
 Holy-Bible---Kannada---Siddi-Bible	MAR-010-045	ಮಾರ್ಕ್ 10:45	ತಸೆಚ್ ಮಾನ್ಸಾಚೊ ಲೆಕ್ ಲೊಕಾನಿಕ್ನಾ ಸೆವಾ ಕರುನ್ ಘೆವ್ಕ್ ಯೆವ್ಕ್ ನಾ, ಸೆವಾ ಕರುಕ್ ಅನಿ ಅಪ್ನಾಚೊ ಜಿವ್ ದಿವ್ನ್ ಸುಮಾರ್ ಜನಾಕ್ನಿ ಸುಟ್ಕಾ ಕರುಕ್ ಮನುನ್ ಯೆಲಾ”.
 Holy-Bible---Kannada---Siddi-Bible	ROM-001-001	ರೊಮ್‍ಕಾರಾ 1:1	ಮಿಯಾ ಪಾವ್ಲು ಜೆಜು ಕ್ರಿಸ್ತಾಚೊ ಎಕ್ ಸೆವಕ್ ಅನಿ ಅಪ್ನಾಚಿ ಬರಿ ಖಬರ್ ಸಾಂಗುಕ್ ಮನುನ್ ದೆವಾನ್ ಎಚುನ್ ಕಾಡಲ್ಲೊ ಎಕ್ ಅಪೊಸ್ತಲ್.
 Holy-Bible---Kannada---Siddi-Bible	MAT-028-019	ಮಾತೆವ್ 28:19	ತಸೆಮನುನ್ ತುಮಿ ಸಗ್ಳ್ಯಾಕ್ಡೆ ಸಗ್ಳ್ಯಾ ದೆಸಾಂಚ್ಯಾ ಲೊಕಾನಿಕ್ನಿ ಜಾವಾ ಅನಿ ತೆಂಕಾ ಮಾಜಿ ಶಿಸಾ ಕರಾ: ಅನಿ ತೆಂಕಾ ಬಾಬಾಚ್ಯಾ ಲೆಕಾಚ್ಯಾ ಅನಿ ಪವಿತ್ರ್ ಆತ್ಮ್ಯಾಚ್ಯಾ ನಾವಾನ್ ಬಾಲ್ತಿಮ್ ದಿವಾ.
+Holy-Bible---Kapin---Kapin-Bible	JOH-003-016	Yoan 3:16	“En Anutu lalei vind xomaxoneing wei tembuing sapa yo omek wong emaxow Neu Moux tixemou tateis on, en kandek eti yeiw wei wongis e eno se mey, qe xel a qou deing mapieing luta luta.
+Holy-Bible---Kapin---Kapin-Bible	GEN-003-024		
+Holy-Bible---Kapin---Kapin-Bible	LUK-023-034	Lukas 23:34	De Yesu neil embei, “Mang, wa semaleeng sewokeing wei xel o, en xel se woulek vati wei xel di wong ne.” De xel vevek di nex qakous dee me pum e xe teimb wouma.
+Holy-Bible---Kapin---Kapin-Bible	REV-021-002	Qayeeng yeip yaing 21:2-3	A xei beyeeng vambuing wei Yerusalem vako yo, eno toundei is Anutu me di lam axone veil tyoung gheyapu nambei vex wei embei mendei leya yo eno vunekwou xow atax wo nimza en leya. De a ngo vya taxeing ti nanghei siaking eno neil, “Wei! Anutu beeng eno toundei is xomaxoneing me e mindei is xel. Xel xomaxoneing on e xe, me tyek Anutu venaxow na toumendei is xel me mendei nambei xel xe Anutu.
+Holy-Bible---Kapin---Kapin-Bible	HEB-011-008		
+Holy-Bible---Kapin---Kapin-Bible	EXO-013-017		
+Holy-Bible---Kapin---Kapin-Bible	MAR-010-045	Malaka 10:45	En Xomaxoneing Neu Moux se lam bei xomaxoneing bo xuk wou e me devind e qe lam bei bong xuk me devind xomaxoneing ngenong me bong mapieing wei e yo nambei malew me na bey xel ngenong.”
+Holy-Bible---Kapin---Kapin-Bible	ROM-001-001		
+Holy-Bible---Kapin---Kapin-Bible	MAT-028-019	Matai 28:19	Nambei nyon xam ghe na bong xomaxoneing wei tembuing sapa ne bong ambei a xe betiyeing, me ghe zipek xel eivek Mang lei me Neu lei me Laweeng Vambuing lei,
 Holy-Bible---Kara---Kara-Bible	JOH-003-016	Yoana 3:16	Kwo kubha nikwo kutyo Nyamuanga achendele echalo ati namusosha Omwana wae umwila, Koleleki bhuli munu wona wona amwikilishe ataja kubhula nawe abhe no bhuanga bwa kajanende.
 Holy-Bible---Kara---Kara-Bible	GEN-003-024		
 Holy-Bible---Kara---Kara-Bible	LUK-023-034	Luka 23:34	Yesu naikati,”Rata, ubhasasile, kulwokubha bhatakumenya chinu abhakola.”Nibhagabhana emyenda jae kwa jikula.
@@ -2525,6 +2678,15 @@ Holy-Bible---Kuhane---Kuhane-Bible	EXO-013-017
 Holy-Bible---Kuhane---Kuhane-Bible	MAR-010-045	Mareka 10:45	Mukuti Mwana Muntu kena avakezi ku kutendelwa, kono kukutenda, ni kwiza kuha vuhalo bwakwe kulukulula vaangi.”
 Holy-Bible---Kuhane---Kuhane-Bible	ROM-001-001	Maroma 1:1	Paulusi, muhikana wa Jesu Kreste, yava sumpwa kuva mu Apositola, niku kauhanyezwa hembali che ivangeli ye Ireeza.
 Holy-Bible---Kuhane---Kuhane-Bible	MAT-028-019	Mateu 28:19	Linu muyende, muka pange balutwani ba machaba onse. Mu ba kolobeze mwi ziina lya Tayo, lya Mwana mane ni lya Luhuho lu Jolola.
+Holy-Bible---Kurama---Kurama-Akurumi-Bible	JOH-003-016		
+Holy-Bible---Kurama---Kurama-Akurumi-Bible	GEN-003-024		
+Holy-Bible---Kurama---Kurama-Akurumi-Bible	LUK-023-034		
+Holy-Bible---Kurama---Kurama-Akurumi-Bible	REV-021-002		 
+Holy-Bible---Kurama---Kurama-Akurumi-Bible	HEB-011-008	aBiraniyawa 11:8	Wərike une wo iruwa, Ibirahem sa ˂akagaaseke-wo niya ne aninkaa sa uta unanke a ukpaa acuge hawo, ˂ukuyane apuwa sa ⁺akunan kewo, ⁺uduura ne ukuna ˂ukutiya-wo tiya sa ˂ukuyaaze ne.
+Holy-Bible---Kurama---Kurama-Akurumi-Bible	EXO-013-017		
+Holy-Bible---Kurama---Kurama-Akurumi-Bible	MAR-010-045		
+Holy-Bible---Kurama---Kurama-Akurumi-Bible	ROM-001-001		
+Holy-Bible---Kurama---Kurama-Akurumi-Bible	MAT-028-019		
 Holy-Bible---Kurdish---Sorani-Bible	JOH-003-016	یۆحەنا 3:16	لەبەر ئەوەی خودا ئەوەندە جیهانی خۆشویست، تەنانەت کوڕە تاقانەکەی بەختکرد، تاکو هەرکەسێک باوەڕی پێ بهێنێت لەناو نەچێت، بەڵکو ژیانی هەتاهەتایی هەبێت،
 Holy-Bible---Kurdish---Sorani-Bible	GEN-003-024	پەیدابوون 3:24	دوای ئەوەی مرۆڤی دەرکرد، بۆ پاسەوانی ڕێگای درەختی ژیان لە دیوی ڕۆژهەڵاتی باخچەی عەدەن کەڕوبەکانی دانا، لەگەڵ شمشێری گڕدار کە بە هەموو لایەکدا دەسووڕایەوە.
 Holy-Bible---Kurdish---Sorani-Bible	LUK-023-034	لۆقا 23:34	عیساش فەرمووی: «باوکە، لێیان خۆشبە، چونکە نازانن چی دەکەن.» ئینجا بە تیروپشک جلەکانیان دابەش کرد.
@@ -2543,6 +2705,15 @@ Holy-Bible---Kutu---Kutu-Bible	EXO-013-017
 Holy-Bible---Kutu---Kutu-Bible	MAR-010-045	Maluko 10:45	Kwavija Mwana wa Munhu hezile kusang'hanilwa, lakini keza kuwasang'hanila wanhu na kuulava ugima wake kwa kuwakombola wanhu wengi.”
 Holy-Bible---Kutu---Kutu-Bible	ROM-001-001	Walumi 1:1	Niye Paulo, na mtumwa wa Yesu Kilisito na mtumigwa, nisaguligwe na ng'hemigwe na Mulungu niwapetele wanhu Mbuli yake Inogile.
 Holy-Bible---Kutu---Kutu-Bible	MAT-028-019	Matayo 28:19	Avo gendeni mkawatende wanhu wa isi zose wawe wanahina zangu, muwabatize kwa twaga da Tata na Mwana na Loho Yang'alile,
+Holy-Bible---Kuturmi---Kuturmi-Bible	JOH-003-016		
+Holy-Bible---Kuturmi---Kuturmi-Bible	GEN-003-024		
+Holy-Bible---Kuturmi---Kuturmi-Bible	LUK-023-034	Iluk 23:34	Iyesu kasani, “Ɛkpɛri, pʊnamɔ ʊyamɔ ngɛ, kii ɛnɛ kpɛrhimɔ imisini akʊsa.” Aka kǝkaa igbɛ ngɛ kǝ fer atari orong iyaa nʊ kpara ikina ni.
+Holy-Bible---Kuturmi---Kuturmi-Bible	REV-021-002		 
+Holy-Bible---Kuturmi---Kuturmi-Bible	HEB-011-008		
+Holy-Bible---Kuturmi---Kuturmi-Bible	EXO-013-017		
+Holy-Bible---Kuturmi---Kuturmi-Bible	MAR-010-045		
+Holy-Bible---Kuturmi---Kuturmi-Bible	ROM-001-001		
+Holy-Bible---Kuturmi---Kuturmi-Bible	MAT-028-019		
 Holy-Bible---Kuvi---Kuvi-Bible	JOH-003-016	ଜହ ୩:୧୬	ଇଚିହିଁ ମାହାପୂରୁ ଦାର୍‌ତିତି ଏଚେକା ଜୀୱୁ ନ଼ତେସି, ଏ଼ୱାସି ତାନି ରଣ୍ତିଏ ମୀର୍‌ଏଣାଇଁ ଦା଼ନା ହୀତେସି, ଏ଼ନିଇଚିହିଁ ଏ଼ୱାଣି ତା଼ଣା ନାମିନାସି ନା଼ସା ଆ଼ଆନା କା଼ଲାକା଼ଲାତି ଜୀୱୁ ବେଟା ଆ଼ନେସି ।
 Holy-Bible---Kuvi---Kuvi-Bible	GEN-003-024		
 Holy-Bible---Kuvi---Kuvi-Bible	LUK-023-034	ଲୂକ ୨୩:୩୪	ଏଚିବେ଼ଲା ଜୀସୁ ଏଲେଇଚେସି, “ଏ଼ ଆ଼ବା ଏ଼ୱାରି ଦ଼ହ ଆହ୍‌ଆନି, ଇଚିହିଁ ଏ଼ୱାରି ଏ଼ନାଆଁ କିହିମାନେରି ଏ଼ଦାଆଁ ପୁଞ୍ଜାହିଲଅରି ।” ଅ଼ଡ଼େ ଏ଼ୱାରି ଏ଼ୱାଣି ହିମ୍ବରି ବା଼ଟିକିହାଲି ପାଦି କିତେରି ।
@@ -2813,6 +2984,33 @@ Holy-Bible---Matengo---Amatengu-Bible	EXO-013-017
 Holy-Bible---Matengo---Amatengu-Bible	MAR-010-045	Maluko 10:45	Ndaba Mwana waka Mundu ngasejwahika kuntumakila, ila kwaatumikii bandu nukuboa womi waki ili kwaagombo bandu bingi.”
 Holy-Bible---Matengo---Amatengu-Bible	ROM-001-001	Aloma 1:1	Nepani Pauli ntumisi waka Yesu Kilisitu, nunhandaki balua jenze. Sapanga junhagwi kuba ntumisi nukunhenga nandila Lijambu la Amboni lejumbeki Sapanga.
 Holy-Bible---Matengo---Amatengu-Bible	MAT-028-019	Matei 28:19	Nzendania kwa bandu boti bupundema mwakaatenda bandu boti abia banafunzi bangu, mwakaabatisa kwiliina la Atati na laka Mwana na laka Loho jaka Sapanga,
+Holy-Bible---Matumbi---Matumbi-Bible	JOH-003-016	Yoani 3:16	Kwa mwanjaa Nnu'ngu' aaipendi dunia, ngaampiya mwana wake wa kisake, li'nga kila mundu ywamwu'bi'lya aakaneoba, ila abe na ukoto wangayomoka.
+Holy-Bible---Matumbi---Matumbi-Bible	GEN-003-024		
+Holy-Bible---Matumbi---Matumbi-Bible	LUK-023-034	Luka 23:34	Yesu ngabaya, “Tati', mwasami, kwa mwanjaa batangiteli lyabalipanga.” Bu'kapo, ngababagana magu'bo gake kwo ng'andya mpumbe.
+Holy-Bible---Matumbi---Matumbi-Bible	REV-021-002		 
+Holy-Bible---Matumbi---Matumbi-Bible	HEB-011-008		
+Holy-Bible---Matumbi---Matumbi-Bible	EXO-013-017		
+Holy-Bible---Matumbi---Matumbi-Bible	MAR-010-045	Maluko 10:45	Kwa mwanjaa Mwana wa Mundu aaisili li'nga tumikilwa, ila tumikia na kuupiya bwu'mi wake ube mali'po ga kwakombwa bandu baingi li'nga bakosopolelwe.”
+Holy-Bible---Matumbi---Matumbi-Bible	ROM-001-001		
+Holy-Bible---Matumbi---Matumbi-Bible	MAT-028-019	Matei 28:19	Bai, mwayendeli bandu boti li'nga bapate panga banamasi' bangu', na kwabatisa kwa lina lya Tati', na Mwana na Loo Mpeleteu,
+Holy-Bible---Mbe---Mbe-Bible	JOH-003-016		
+Holy-Bible---Mbe---Mbe-Bible	GEN-003-024	Ittẹwọr 3:24	Mada Ibinọkpaabyi okhubhi Adam, ohok achẹrubim k'okhubha kw'ewuchen em-eyin k'owoni kw'Iden, ọmaana ọkkangkkaang kw'ode mach'okpondaak kw'ọwọm bi wuruwuru, ọbhakhi iriring okkeri k'ibe kpenamkpen, ifha bẹ akpa eden ch'echin k'echi nduma ch'ẹnangi akpen.
+Holy-Bible---Mbe---Mbe-Bible	LUK-023-034		
+Holy-Bible---Mbe---Mbe-Bible	REV-021-002		 
+Holy-Bible---Mbe---Mbe-Bible	HEB-011-008		
+Holy-Bible---Mbe---Mbe-Bible	EXO-013-017	Nnwẹr kw'Orenga 13:17	Mada Phero on-otte anọng mba ọbọhk bẹ afona, wa Ibinọkpaabyi bẹ kotzim orenga k'ẹkhọma cha Philistiya, kw'eden ekhum-okhuma, da iwa Ibinọkpaabyi ochibhi bi, “Idikha bẹ attem egbong abẹ k'eden, bẹ afha abhona achibhi pabẹ, akpa nnam k'Ijip.”
+Holy-Bible---Mbe---Mbe-Bible	MAR-010-045		
+Holy-Bible---Mbe---Mbe-Bible	ROM-001-001		
+Holy-Bible---Mbe---Mbe-Bible	MAT-028-019		
+Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	JOH-003-016	Yohana 3:16	“Ɓakuli ka earce ɓanza kǝ̀rkǝ́r, sǝ yi pâ kǝ̀ Muna male mwashat ace mǝnana ɓwa mana kat pà ɓamúrì a baní ka ɓǝ̀ kǝa kìɗìkì ɓǝ̀ ueɓà ɗàng, ɓǝ̀ kum yilǝmu mǝnana málá male pà kàm raka.
+Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	GEN-003-024	Tite 3:24	Anzǝm mǝnana pǝrna ɓwabure pusǝni ka, Mǝtalabangŋo Ɓakuli pǝlǝa tamsǝ acerup, akanggǝrang amǝ'yál ban mala Ɓakuli, nǝ njar-takuli a ɓaban mala anggun a Iden, sǝ tsǝk nggeabyau mǝnana kǝ earki nǝ lasǝ-bǝsa sǝ kǝ pǝlǝki a koya buì ka, ɓǝà kǝ yál njargula ká aban nggun-yilǝmu.
+Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	LUK-023-034	Luka 23:34	Pǝlǝa Yesu na ama, “Dâ, twalia wia banì, acemǝnana à súrǝ̀ gir mana à pakkiyi ka ɗàng.” Pǝlǝa asoje kocàca amur agir-nggūrǝu male, à gakkia rǝia.
+Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	REV-021-002	Sǝna 21:2-3	Sǝ ǝn sǝn Nggea-là Mǝfele, yì bǝsa Urǝshalima. Ən sǝni puro a ban Ɓakuli a kùli, sǝ kǝ sulǝo aban yiu. À gilǝkini pepè kǝla māfela mǝnana à gilǝkì wi rǝì aɓa ɓoarnsari ace ká a ban burí ka. Ən ok ɓè giu mǝgule pur nǝban buno-murǝm mala Ɓakuli, nacau ama: Wu sǝni, ban-do mala Ɓakuli adyan ngga, nda a ban aɓwana male! Yì ka, nǝ̀ do andǝia, sǝ yia ka, à nǝ̀ duk aɓwana male. Ɓakuli nǝ nggearǝì nǝ̀ do ateà.
+Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	HEB-011-008	Amǝ Ibǝru 11:8	Paɓamuru mala Ibǝrayim aban Ɓakuli na tsǝì sǝ okî Ɓakuli, yì mǝnana Ɓakuli tunǝi ɓǝ̀ purî nzali male, ɓǝ̀ o a ɓè nzali mǝnana bang ama nǝ̀ nggá pe wi, ɓǝ̀ duk girkuma male ka. Sǝ nying nzali-lá male aban o, kat andǝ amani ama súrǝ̀ ban mǝno kákiyi kam ngga raka.
+Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	EXO-013-017	Puro 13:17	Lang Firona murǝm Masar nyingŋǝna amǝ Isǝrayila ɓǝà u ka, Ɓakuli pǝlǝ nǝia ɓǝà kǝa kàr nǝ njargula kún nggeamùr mǝnana kútí nǝ ɓá nzali mala amǝ Filisti ka ɗàng, kat andǝ amani ama mǝno ka nda njar mǝnana kasǝ tù aban ká a nzali Kan'ana ka. Ɓakuli ɗenyi ama, “Pà mǝ nǝ earce aɓwana mem nggaɗi ɓabumia ace nyar a Masar, ɓǝ̀ lwa kasǝ a kunia a njar ka ɗàng.”
+Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	MAR-010-045	Markus 10:45	Ko nggearǝ Muna mala Ɓwa ka yiu ace mǝnana nǝ̀ do sǝ ɓǝ̀ aɓwana pakki wi túró ka ɗàng. Yì ka, yiu ace mǝnana nǝ̀ pakki aɓwana túró, sǝ ɓǝ̀ pà yilǝmi ace amsǝɓwabundǝa pas.”
+Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	ROM-001-001	Amǝ Roma 1:1	Mǝnia yì cauterǝa ka pur nǝban Bulǝs, guro mala Kǝrǝsti Yesu, mǝnana Ɓakuli tunǝi ɓǝ̀ duk mǝ'mishan, sǝ tàrrì ace túró hamnǝ bǝsa Cau Mǝɓoarne mala Ɓakuli ka.
+Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	MAT-028-019	Matiu 28:19	Ace mǝno ka, wu kyane a ban ɓwapǝndǝa arǝ anzali kat, wu yinǝia ɓǝà pǝlǝ amǝkpatam. Wu pakkia wia batisǝma aɓa lullǝ Ɓakuli Tárrû, andǝ mala Muni, andǝ mala Bangŋo Mǝfele.
 Holy-Bible---Melo---Melo-Bible	JOH-003-016	ዋንሳ 3:16	ጾሳይ Ꮊ አላመ ቃꬌዝ ግሾስ ፋ ናአ ፐታ ኣꬅ እንጎድ ሄሎዳይስ ጨር ዶሴዛይ ኤዛ አማንዛ ኡቢታይ መꬍና ደኦ ላቶዳይ ጋርከፕ አትን ꬋባማይ ጋርከ።
 Holy-Bible---Melo---Melo-Bible	GEN-003-024		
 Holy-Bible---Melo---Melo-Bible	LUK-023-034	ሉቃሳ 23:34	የሱሳ፥ «ታ አዳዮ፥ ኡ አብ ኦꬅዛኮ ኤሮዋ ግሾስ ኔኒ ኡንትስ አቶ ጎባ» ዬጌዛ። ኡ ኤ አፍላይል አፋ እጻ ኦሊ ሻክንቲ ኤኬዛ።
@@ -2858,6 +3056,15 @@ Holy-Bible---Munda---Munda-Bible	EXO-013-017
 Holy-Bible---Munda---Munda-Bible	MAR-010-045	ମାର୍କ ୧୦:୪୫	ଆଇଙ୍ଗ୍‌ ମାନୱାହନ୍‌, ସୁସାର୍‌ନାମେ ନାଗେନ୍ତେଦ କା, ମେନ୍‌ଦ ସୁସାର୍‌ ନାଗେନ୍ତେ ଆଡଃ ଆଇଁୟାଃ ଜୀଉ ପୁରାଃ ହଡ଼କଆଃ ଦାଣେଁ ଗନଙ୍ଗ୍‌ ଏମ୍‌ପୁରା ନାଗେନ୍ତେଇଙ୍ଗ୍‌ ହିଜୁଃକାନା ।”
 Holy-Bible---Munda---Munda-Bible	ROM-001-001	ରୋମି ୧:୧	ପାଉଲୁସ୍‌, ଖ୍ରୀଷ୍ଟ୍‌ ୟୀଶୁଆଃ ଦାସି ଆଡଃ ସାଲାକେଦ୍‌ତେ କୁଲାକାନ୍‌ନିଃ ଆଡଃ ସୁକୁକାଜି ଉଦୁବ୍‌ ନାଗେନ୍ତେ ପାର୍‌ମେଶ୍ୱାର୍‌ତେ କେଡ଼ାକାନ୍‌ନିଃ ତାନିଃ ।
 Holy-Bible---Munda---Munda-Bible	MAT-028-019	ମାଥିଉ ୨୮:୧୯	ଏନାମେନ୍ତେ ସେନଃପେ ଆଡଃ ଅତେଦିଶୁମ୍‌ରେନ୍‌ ସବେନ୍‌ ହଡ଼କକେ ଆଇଁୟାଃ ଚେଲା ବାଇକପେ ଆଡଃ ଇନ୍‌କୁକେ ଆପୁ, ହନ୍‌ ଆଡଃ ପାବିତାର୍‌ ଆତ୍ମାରାଃ ନୁତୁମ୍‌ତେ ବାପ୍ତିସ୍ମାକପେ ।
+Holy-Bible---Mwaghavul---Mwaghavul-Bible	JOH-003-016		
+Holy-Bible---Mwaghavul---Mwaghavul-Bible	GEN-003-024		
+Holy-Bible---Mwaghavul---Mwaghavul-Bible	LUK-023-034		
+Holy-Bible---Mwaghavul---Mwaghavul-Bible	REV-021-002	Suun 21:2-3	Wen naa yil ɗeɓang, Jerusalem ɗepwoo, nǝ sham put ndǝǝn ɗengnaan pee Naan ɗǝ. Mo tap ɗak war a kaa matpoo ɗe war lep lée rǝret mbǝ kaat kǝ mish war sǝ. Ɗangɓǝ nghan kǝlǝng mee ɗoo put a peetong mǝ mulki nǝ, nǝ sat nǝnee, “Wu naa! Peetong Naan nǝ ashak kǝ gurum mo, wur ntong ashak kǝ mo. Mo mbǝ ɗee a nen wur mo, kǝ Naan wur shikáa fǝn ntong ashak kǝ mo, nwur nɗee a Naan mo zak.
+Holy-Bible---Mwaghavul---Mwaghavul-Bible	HEB-011-008		
+Holy-Bible---Mwaghavul---Mwaghavul-Bible	EXO-013-017		
+Holy-Bible---Mwaghavul---Mwaghavul-Bible	MAR-010-045	Maak 10:45	Baa Làa Gurum wur jì a mbǝkǝ gurum mo cìn ɗak ɗe nwur kas, amma a mbǝkǝ wur cìn ɗak ɗe ngurum mo, kǝ wur shin seen fir ɗi mbe ang gurum mo ɗes zak.”
+Holy-Bible---Mwaghavul---Mwaghavul-Bible	ROM-001-001		
+Holy-Bible---Mwaghavul---Mwaghavul-Bible	MAT-028-019		
 Holy-Bible---Mwera---Mwera-Bible	JOH-003-016	Yowana 3:16	Pabha a Nnungu bhashinkwaapinganga bhandu pa shilambolyo, mpaka gubhampeleshe mwanagwabho jwa jika, nkupinga jojowe shankulupalile anaobhe, ikabhe akole gumi gwa pitipiti.
 Holy-Bible---Mwera---Mwera-Bible	GEN-003-024		
 Holy-Bible---Mwera---Mwera-Bible	LUK-023-034	Luka 23:34	A Yeshu gubhashite, “Atati mwaaleshelelanje, pabha bhakakwimanyanga ibhatendanga.” Gubhagebhenenje nngubho yabho kwa tendela shikoma.
@@ -2966,6 +3173,15 @@ Holy-Bible---Ndonde-Hamba---Ndonde-Hamba-Bible	EXO-013-017
 Holy-Bible---Ndonde-Hamba---Ndonde-Hamba-Bible	MAR-010-045		
 Holy-Bible---Ndonde-Hamba---Ndonde-Hamba-Bible	ROM-001-001		
 Holy-Bible---Ndonde-Hamba---Ndonde-Hamba-Bible	MAT-028-019	Amatayo 28:19	Nyaulange, nkaatendange bhandu bha hilambo yoha bhabhee bhabhachijigana bhangu, mmikwabatichanga kwa lihina lya Atati, na lya Amwana, na lya Mboomo ja Annoongo.
+Holy-Bible---Ndwewe---Ndwewe-Bible	JOH-003-016	Yohane 3:16	“Kiyaha Chapanga kakighupala nnima mbaka kakimmuha Mwana ghwake ghwa kighweka, ngati kila mundu ywakanhyubhalila kakotoke kuhobha, ngati kabheghe na ubhumi ghwa manjubha ghoha ghanga pela!”
+Holy-Bible---Ndwewe---Ndwewe-Bible	GEN-003-024		
+Holy-Bible---Ndwewe---Ndwewe-Bible	LUK-023-034	Lukasi 23:34	Yesu kakilongela, “Tate ghubhalekekehe kiyaha bhangumanya ng'obhe kila kyabhaatenda!” Mbole bhakigabhana mapinda ghake kwa kutenda simbi.
+Holy-Bible---Ndwewe---Ndwewe-Bible	REV-021-002	Uhwimulo 21:2-3	Mbole ya apo, nikikibhona kitami kila king'anyimo, ndo Yelusalemu ya hyono, paghuhuluka kuhuma kunani kwa Chapanga, kibhikwa kala handa nndala yunakutolelwa ywakalembelwite kwakya nngwana ghwake. Mbole nikiyihwa lilobhe likulu kuhuma mukiteho kya utabhala, palilongela, “Hinu, pala pakatama Chapanga katatama papamu na bhandu bhake naywo katatama nkati yabhe. Naywo kaatama papamu na bhombe, na bhombe bhaatendekwa bhandu bhake. Naywo Chapanga mwene kaabhegha papamu na bhombe, kaabhegha Chapanga ghwabhe.
+Holy-Bible---Ndwewe---Ndwewe-Bible	HEB-011-008	Akaaebulania 11:8	Kuhyubhalila kwake Abulahimu kukintenda kannyitile Chgapanga pala pakanng'ombilite kabhuke na kakimanya ng'obhe kula kwakapala kughenda.
+Holy-Bible---Ndwewe---Ndwewe-Bible	EXO-013-017		
+Holy-Bible---Ndwewe---Ndwewe-Bible	MAR-010-045	Maliki 10:45	Kiyaha hata Mwana ghwa Mundu kakihika kutendelwa lihengo ng'obhe, ngati kakihika kutenda lihengo na kuubhuha ubhumi ghwake ghubheghe ukombohi kwa bhandu ayoloho.”
+Holy-Bible---Ndwewe---Ndwewe-Bible	ROM-001-001	Akaaloma 1:1	Nenga Paulo, nndumitumi ghwa Kilisito Yesu, na nndumila yunuhaghulitwe na kukemwa kwa kya kubhalandamiha bhandu Nhalo ghwa Maha ghwa Chapanga.
+Holy-Bible---Ndwewe---Ndwewe-Bible	MAT-028-019	Matayu 28:19	Basi, nng'ende mukaatende bhandu bha milima hyoha abheghe ahundwa bhangu, pamuabatisa kwa lihina lya Tate, na lya Mwana na lya Nhuki ywa Chapanga.
 Holy-Bible---Nend---Mark	JOH-003-016		
 Holy-Bible---Nend---Mark	GEN-003-024		
 Holy-Bible---Nend---Mark	LUK-023-034		
@@ -3164,6 +3380,15 @@ Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet	EXO-013-017
 Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet	MAR-010-045	Markuj 10:45	Pwe pil Nain aramaj jota kotido, pwe en papa i, a pwen papa on irail, kida maur i wiliandi me toto.
 Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet	ROM-001-001	Men Rom 1:1	PAULUJ ladun Iejuj Krijtuj men, me paeker, en wiala wanporon amen, me katoror on papa ronamau en Kot,
 Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet	MAT-028-019	Matäuj 28:19	Komail ari kola o padaki on toun jappa karoj o paptaij ir ala ni mar en Jam o Na o Nen jaraui.
+Holy-Bible---Polci---Polci-Bible	JOH-003-016	Yohana 3:16	“Domici Yam ndu atl kundǝrǝndlip naaro, ar ni tǝ bi nya gǝs nǝm kan ra bom gwa, den'e muntu kup ngǝsh den tiwo, ba dǝ tǝ liika katl da'a ama tǝ zam ge mbatl tu kan baa pa dagwa.
+Holy-Bible---Polci---Polci-Bible	GEN-003-024		
+Holy-Bible---Polci---Polci-Bible	LUK-023-034	Luka 23:34	Yesu wule, “Bǝba, gafarte wuri, domici wu mom argon tu wu den pi gwa da'a.” Kan wu pi caca den lulur gǝs wu rabe.
+Holy-Bible---Polci---Polci-Bible	REV-021-002		 
+Holy-Bible---Polci---Polci-Bible	HEB-011-008		
+Holy-Bible---Polci---Polci-Bible	EXO-013-017		
+Holy-Bible---Polci---Polci-Bible	MAR-010-045	Markus 10:45	Domici Nya Mbarǝm ma tǝ sur ni dǝ bote ti da'a, ama tǝ pi bota ni, tǝ pa bi ge mbatl gǝs domici ɗǝli mbarǝm na womti.”
+Holy-Bible---Polci---Polci-Bible	ROM-001-001		
+Holy-Bible---Polci---Polci-Bible	MAT-028-019	Matiyu 28:19	Ra'untuwo, rii pi ni mbarǝm kǝ atl kup wazu, kǝ pi wur ni batisma gip sun kǝ Bǝba, na kǝ Nya, na kǝ Ruhu kǝ Yami,
 Holy-Bible---Polish---Open-Access-Word-of-Life	JOH-003-016	Jana 3:16	Tak bowiem Bóg ukochał świat, że oddał swojego jedynego Syna, aby każdy, kto Mu uwierzy, nie zginął, ale miał życie wieczne.
 Holy-Bible---Polish---Open-Access-Word-of-Life	GEN-003-024		
 Holy-Bible---Polish---Open-Access-Word-of-Life	LUK-023-034	Łukasza 23:34	Jezus modlił się: —Ojcze, przebacz im, bo nie wiedzą, co robią. Ci zaś, którzy Go ukrzyżowali, rzucili losy o Jego ubranie, aby ustalić, co kto ma wziąć.
@@ -3254,6 +3479,24 @@ Holy-Bible---Portuguese---World-Portuguese-Bible	EXO-013-017	Êxodo 13:17	Quando
 Holy-Bible---Portuguese---World-Portuguese-Bible	MAR-010-045	Marcos 10:45	Pois o Filho do Homem também não veio para ser servido, mas para servir, e para dar sua vida em resgate por muitos”.
 Holy-Bible---Portuguese---World-Portuguese-Bible	ROM-001-001	Romanos 1:1	Paulo, um servo de Jesus Cristo, chamado a ser apóstolo, separado para a Boa Nova de Deus,
 Holy-Bible---Portuguese---World-Portuguese-Bible	MAT-028-019	Mateus 28:19	Ide e fazei discípulos de todas as nações, batizando-os em nome do Pai e do Filho e do Espírito Santo,
+Holy-Bible---Powari---Powari-Bible	JOH-003-016	योहन 3:16	काहेका परमेस्वर ना संसार लक एतरो माया राखियो, का वोना आपरो चहतो एकच टूरा ला दे देईस। एकोलाय जोन कोनी वोको पर भरोसा राखेत, उ नास नही होहेत पर अमर जीवन पाहेत।
+Holy-Bible---Powari---Powari-Bible	GEN-003-024		
+Holy-Bible---Powari---Powari-Bible	LUK-023-034	लूका 23:34	यीसु ना कहीस, हे बाबूजी इनला, छिमा कर काहेका यो नही जानासे, का यो काजक कर रहीसेत, तबा उनना चिठ्ठी टाक केना यीसु का कपरा ला आपस मा बाट लेइन।
+Holy-Bible---Powari---Powari-Bible	REV-021-002		 
+Holy-Bible---Powari---Powari-Bible	HEB-011-008		
+Holy-Bible---Powari---Powari-Bible	EXO-013-017		
+Holy-Bible---Powari---Powari-Bible	MAR-010-045	मरकुस 10:45	काहे की मानूस को टूरा आपरी सेवा करान लाय नही, पर सेवा करन ला अना सबको लाय पाप को दाम चुकावन अना सूटकारा देवन आयो से। अना लगत लोक गीनला सोड़ान को लाय आपरो परान देदे।”
+Holy-Bible---Powari---Powari-Bible	ROM-001-001	रोमियो 1:1	पौलुस को यो चिठ्ठी से। जोनला यीसु मसीह ना सेवक अना पेरीत को नाता लक निवड़ले आहेत। अना परमेस्वर को साजरा बारता सांगन लाय बुलायो सेत।
+Holy-Bible---Powari---Powari-Bible	MAT-028-019	मत्ती 28:19	यो काजी तुमी जाओ, अना सब गैर यहुदी लोक गीन ला चेला बनाओ। अना उनला, परमेस्वर बाबूजी अना टूरा यीसु मसीह, अना पवीतर आतमा को नाव लक, पानी मा बप्तिस्मा देवो।
+Holy-Bible---Rakhine---Rakhine-Bible	JOH-003-016	ယောဟန် 3:16	ဘုရားသခင်သည် လောကသားရို့ကို လွန်စွာချစ်တော်မူသဖြင့် မိမိ၌ တစ်ပါးတည်းသောသားတော်ကို ပီးတော်မူ၏။ အကြောင်းမူကား ထိုသားတော်ကို ယုံကြည်သော သူရို့သည် ပျက်စီးခြင်းသို့ မရောက်ဘဲ ထာဝရအသက်ကို ရစီခြင်းငှာဖြစ်၏။
+Holy-Bible---Rakhine---Rakhine-Bible	GEN-003-024		
+Holy-Bible---Rakhine---Rakhine-Bible	LUK-023-034	လုကာ 23:34	ယေသျှုက “အိုအဖ၊ သူရို့၏ အပြစ်ကို ခွင့်ရွှတ်တော်မူပါ။ သူရို့သည် ကိုယ်ပြုနိန်သောအမှုကို မသိကတ်ပါ” ဟု မြွက်ဆိုတော်မူ၏။ ထိုသူရို့သည် ကိုယ်တော်၏အဝတ်တော်ကို မဲချ၍ ဝီယူကြ၏။
+Holy-Bible---Rakhine---Rakhine-Bible	REV-021-002	ဗျာဒိတ်တော် 21:2-3	ဘုရားသခင်၏ သန့်ယှင်းသောမြို့တည်းဟူသော ယေရုဆလင်မြို့သစ်ကို ငါမြင်၏။ ထိုမြို့သည် သတို့သားအဖို့ လှပစွာ ဆင်ယင်ထားသည့် သတို့သမီးကဲ့သို့ အဆင်သင့် ပျင်ဆင်လျက်၊ ဘုရားသခင်ထံတော် ကောင်းကင်ဘုံမှ ဆင်းသက်လာသည်ကို ငါမြင်ရ၏။ ငါသည် ပလ္လင်တော်မှ ကျယ်လောင်သော အသံတစ်သံကို ကြားရ၏။ ထိုအသံကား “အဂုအခါ ဘုရားသခင်သည် လူသားရို့၌ ကိန်းဝပ်တော်မူယာ။ ကိုယ်တော်သည် သူရို့နှင့်အတူ ကိန်းဝပ်တော်မူလိမ့်မည်။ ထိုသူရို့သည် ကိုယ်တော်၏လူတိ ဖြစ်ကြလိမ့်မည်။ ဘုရားသခင် ကိုယ်တော်တိုင်ပင်လျှင် သူရို့နှင့်အတူ ဟိနိန်တော်မူပြီး သူရို့၏ဘုရားဖြစ်လိမ့်မည်။
+Holy-Bible---Rakhine---Rakhine-Bible	HEB-011-008	ဟေဗြဲ 11:8	အာဗြဟံသည် မိမိအား ပီးမည်ဟု ဘုရားသခင် ကတိပြုထားသောပြည်သို့ ထွက်ခွာရန် ဘုရားသခင်က သူ့အား ခေါ်တော်မူသောအခါ သူသည်ယုံကြည်ခြင်းအားဖြင့် နာခံလျက် မိမိမည်သည့်အရပ်သို့ လားရမည်ကို မသိသော်လည်း ဇာတိပြည်မှ ထွက်လားလေ၏။
+Holy-Bible---Rakhine---Rakhine-Bible	EXO-013-017		
+Holy-Bible---Rakhine---Rakhine-Bible	MAR-010-045	မာကု 10:45	အကြောင်းမူကား လူသားပင်လျှင် သူတစ်ပါးကို ခိုင်းစီဖို့ရန် လာသည် မဟုတ်၊ သူတစ်ပါး၏ အခိုင်းအစီကို ခံခြင်းငှာ လည်းကောင်း၊ မိမိအသက်ကို စွန့်၍ လူတိကို ရွီးနုတ်ခြင်းငှာလည်းကောင်း ကြွလာခြင်းဖြစ်၏” ဟု မိန့်တော်မူ၏။
+Holy-Bible---Rakhine---Rakhine-Bible	ROM-001-001	ရောမ 1:1	ဘုရားသခင်၏ သတင်းကောင်း တရားကို ဟောပြောခြင်းငှာ ဘုရားသခင်ရွီးချယ်၍ ခေါ်တော်မူထားသော တမန်တော်တစ်ယောက်ဖြစ်သည့် ခရစ်တော်ယေသျှု၏အစီခံ ငါ ပေါလုသည် စာရီးလိုက်ပါ၏။
+Holy-Bible---Rakhine---Rakhine-Bible	MAT-028-019	မဿဲ 28:19	ထို့ကြောင့် သင်ရို့သည် လား၍ လူမျိုးအားလုံးကို ငါ့တပည့် ဖြစ်စီလျက်၊ ခမည်းတော်၊ သားတော်၊ သန့်ယှင်းသောဝိညာဉ်တော်၏ နာမ၌ ဗတ္တိဇံကို ပီးကြလော့။
 Holy-Bible---Rangi---Rangi-Bible	JOH-003-016	Yooháani 3:16	Sa viintʉ Mʉlʉʉngʉ ˆeenda weerʉ mʉnʉmʉʉnʉ, amʉtoola Mwaana waachwe wa mpeke Yéesu, na kɨra mʉʉntʉ ˆarɨ muruma Yéesu sɨ arɨ malwa tʉkʉ, maa kaa, kʉva arɨ na nkaasʉ ya sikʉ ˆjisiina ʉhero.
 Holy-Bible---Rangi---Rangi-Bible	GEN-003-024		
 Holy-Bible---Rangi---Rangi-Bible	LUK-023-034	Lʉ́ka 23:34	Yéesu akasea, “Taáta, vasee ʉvɨ waavo wasírire sa sɨ vootaanga kɨra ˆvootʉmama tʉkʉ.” Vakiigavɨra ɨngo jaachwe ko jivaɨra mbare.
@@ -3263,6 +3506,42 @@ Holy-Bible---Rangi---Rangi-Bible	EXO-013-017
 Holy-Bible---Rangi---Rangi-Bible	MAR-010-045	Maáriki 10:45	Sa baa Mwaana wa Mʉʉntʉ, sɨ ʉʉja jo tʉmamɨrwa tʉkʉ. Kɨrɨ vyoova jeyyo, ʉʉja sa jɨ avatʉmamɨre vaantʉ, kei atoole nkaasʉ yaachwe kʉva ununuuli sa vaantʉ ˆvarɨ foo.”
 Holy-Bible---Rangi---Rangi-Bible	ROM-001-001	Varúumi 1:1	Barʉ́wa ɨhɨ, yafúmire kʉrɨ nɨɨnɨ Paúli mutumwi wa KirisitʉYéesu. Nɨɨnɨ naanɨrɨrwa, nɨve mutumwi na nakerwa sa nvariyʉle Masáare Maaja ya Mʉlʉʉngʉ.
 Holy-Bible---Rangi---Rangi-Bible	MAT-028-019	Matáayo 28:19	Sa jeyyo, tamanyi mʉkavabweeyye vaantʉ va ɨsɨ joosi kʉva vapooji vaanɨ, mʉndoovabatisa, kwa irina ra Taáta, na ra Mwaana na ra Mʉtɨma Mʉʉja.
+Holy-Bible---Reli---Reli-Bible	JOH-003-016		
+Holy-Bible---Reli---Reli-Bible	GEN-003-024		
+Holy-Bible---Reli---Reli-Bible	LUK-023-034		
+Holy-Bible---Reli---Reli-Bible	REV-021-002	ప్రకటన 21:2-3	ఈనె మీ నోటయీల యెరూసలేము బుల్ల సే పరిసుద్ద పట్నము తా గొయిత కోసం అలంకరించికిరితల్ల కొనియపిల్లపనికిరి సిద్దపొడికిరి పరలొకొరె తల్లా పురువుతీకిరి ఒల్లికిరి అయిలాట దిగించి. సెత్తిలె ఇత్తొ పురువురొ నివాసము మనమానె సంగరంకా అచ్చి, సే తంకెసంగరె మిసికిరి తాసి. తంకె తా ప్రజలీకిరి తాసె, పురువు తంక పురువు యీకిరి తంకు తోడు యీకిరి తాసి.
+Holy-Bible---Reli---Reli-Bible	HEB-011-008	హెబ్రీ 11:8	పురువు అబ్రాహాము డక్కిలాబెల్లె విస్వాసము సంగరె సె డక్కకు లోబొడికిరి సెయ్యె స్వాస్ద్యముగా కడిగిల్లా చోటుకు బయలుదేరికిరి జేసి. ఈనె కేటికి జెమ్మంచో సెడ నా తెలిసిగీకుంటా బయలుదేరికిరి జేసి.
+Holy-Bible---Reli---Reli-Bible	EXO-013-017		
+Holy-Bible---Reli---Reli-Bible	MAR-010-045		
+Holy-Bible---Reli---Reli-Bible	ROM-001-001		
+Holy-Bible---Reli---Reli-Bible	MAT-028-019	మత్తయి 28:19	ఈనె జాండి తొమె సొబ్బి దెసోనుకు జేకిరి, తంకు మో సిస్యునెగా కొరొండి. బో నారె, పో నారె, పవిత్రాత్మ నారె తంకు బాప్టీసం దేండి.
+Holy-Bible---Rohingya---Kitabul-Mukaddos-Bible	JOH-003-016	Yohánna 3:16	“Kiyólla-hoilé Alla ye duniyair maincóre etó muhábbot goijjé, Íba ye Nizor lehár ek Fua dan gorífelaiye; zeéne zee kiyé hé Fuar uore iman ané yóggwa nac no, bólke ofúrani zindigi faa.
+Holy-Bible---Rohingya---Kitabul-Mukaddos-Bible	GEN-003-024		
+Holy-Bible---Rohingya---Kitabul-Mukaddos-Bible	LUK-023-034	Lukás 23:34	Isá ye hoór de, “Ó Baf, itará re maf goró; kiyólla-hoilé itará kii gorér de híyan itará no zane.” Baade ítara loṭári mari ítarar bútore Íbar hoorsuor ore bák goijjé.
+Holy-Bible---Rohingya---Kitabul-Mukaddos-Bible	REV-021-002	Zahéri 21:2-3	Tarfore añí deikkí de, pak cóor gán, yáni noya Jerúsalem mán asman ottu Allar hañsóttu lami aiyér; híyan ore dulí re dulá lla háñza fángori háñza gíyeh. Baade añí toktó gán ottu eggwá ḍoóñr abas fúinni, eén hoór de, “Soó, Alla tákibar zaga yala insán or bútore. Íba ítarar fúañti tákibo, aar ítara Íbar bonda óibo. Alla Nize ítarar fúañti óibo edde ítarar Alla óibo.
+Holy-Bible---Rohingya---Kitabul-Mukaddos-Bible	HEB-011-008	Hibraniól 11:8	Imane beh Ibrahíme Allar hotá mainníl, zeñtté yóggwa re matai oh zagat zaito howá gíyl ziyán yóggwa ye miras ísafe faibo. Yóggwa hoṛé zaar no zani rowana óil.
+Holy-Bible---Rohingya---Kitabul-Mukaddos-Bible	EXO-013-017		
+Holy-Bible---Rohingya---Kitabul-Mukaddos-Bible	MAR-010-045	Markus 10:45	Kiyólla-hoilé Manúc or Fua yó toh hédmot faito aiccé de no, bólke aiccé de hédmot goittó, edde boóut zon or bodol Nizor zan dito.”
+Holy-Bible---Rohingya---Kitabul-Mukaddos-Bible	ROM-001-001	Romiól 1:1	Añí Pául, Mosih Isár éggwa gulam, zibá re sáhabi ói bolla ḍaka giyéh edde Allar kúchóbor or tobolik olla basílowa gíyeh,
+Holy-Bible---Rohingya---Kitabul-Mukaddos-Bible	MAT-028-019	Moti 28:19	Hétolla zoo, tamám koum ókkol ore Añr ummot banogoi; ítara re Baf or, Fuar edde Pak-Ruhr name bápṭisma díyo,
+Holy-Bible---Rohingya---Rohingya-Bible	JOH-003-016	Yuhunna 3:16	Kiyollahoile Allaye duniyaire eto beši ador goijje ze, hibar he lehar ek Futore diye, zene, ze kiye hibar uwore biššaš ane hite dongšo no o, bolke akeri zibon fa.
+Holy-Bible---Rohingya---Rohingya-Bible	GEN-003-024	Torah 3:24	Endilla gori hibaye manušware hentu niyolai diye, edde zibon gasor heṛe zaibar fõtot fahara dibolla Eden baganor fuk ḍakottu Karubi firista okkolore raikke, ar he fũwati heṛe ekkan zolonto toluwar raikke ziyan azibon guri guri taikke.
+Holy-Bible---Rohingya---Rohingya-Bible	LUK-023-034	Luk 23:34	Hetunot Isaye Allare hodde: "Ya Bab, itarare maf goro, kiyollahoile itara ki gorer hin itara no zane." Bade šena okkole Isar horgunore loṭari kelai bag goijje.
+Holy-Bible---Rohingya---Rohingya-Bible	REV-021-002		 
+Holy-Bible---Rohingya---Rohingya-Bible	HEB-011-008		
+Holy-Bible---Rohingya---Rohingya-Bible	EXO-013-017		
+Holy-Bible---Rohingya---Rohingya-Bible	MAR-010-045	Mark 10:45	kiyollahoile Adomor Fut udda šeba faibolla nu aiye, bolke šeba goitto aišše edde bout mainšor azadir dam hisabe hibar foran dibolla aišše."
+Holy-Bible---Rohingya---Rohingya-Bible	ROM-001-001		
+Holy-Bible---Rohingya---Rohingya-Bible	MAT-028-019		
+Holy-Bible---Romani---Balkans-Arli-Bible	JOH-003-016	Jovan 3:16	Adalese so, o Devel edobor volinđa e manušen taro sveto da dinđa ple jekhore Čhave, da svako kova verujini ano leste te na merel, nego te ovel le večno dživdipe.
+Holy-Bible---Romani---Balkans-Arli-Bible	GEN-003-024		
+Holy-Bible---Romani---Balkans-Arli-Bible	LUK-023-034	Luka 23:34	O Isus phenđa: “Dade, oprostin lenđe, adalese so na džanen so ćerena!” Tegani o vojnici frdinde barbuti hem ađahar delinde maškara pumende e Isusesere šeja.
+Holy-Bible---Romani---Balkans-Arli-Bible	REV-021-002	Otkrivenje 21:2-3	Dikhljum i Sveto diz, o Nevo Jerusalim, sar huljela taro nebo e Devlestar. Inele pripremime sar i nevesta koja ukrasinđa pe zako plo rom. I šunđum zoralo glaso taro prestolje sar vaćeri: “Ače, e Devlesoroi šatori maškaro manuša hem ka živini olencar, a on ka oven lesoro narodo, hem korkoro o Devel ka ovel olencar hem ka ovel lengoro Devel!
+Holy-Bible---Romani---Balkans-Arli-Bible	HEB-011-008	Jevrejenđe 11:8	Veraja o Avraam, kad inele vičime te džal ko than savo posle ka primini ano nasledstvo, inele poslušno e Devlese hem dželo, iako na džanđa kaj džala.
+Holy-Bible---Romani---Balkans-Arli-Bible	EXO-013-017		
+Holy-Bible---Romani---Balkans-Arli-Bible	MAR-010-045	Marko 10:45	Adalese so ni o Čhavo e manušesoro na alo te kanden le, nego te kandel hem te del plo dživdipe sar otkup butenđe.”
+Holy-Bible---Romani---Balkans-Arli-Bible	ROM-001-001	Rimljanenđe 1:1	Pisinava tumenđe me o Pavle, o sluga e Isuse Hristesoro, e Devlestar vičime sar apostoli hem odvojime te propovedinav o evanđelje,
+Holy-Bible---Romani---Balkans-Arli-Bible	MAT-028-019	Matej 28:19	Adalese džan hem ćeren e manušen oto sa o nacije te oven mle učenici, ađahar so ka krstinen len ano anav e Dadesoro hem e Čhavesoro hem e Svetone Duhosoro
 Holy-Bible---Romani---Eastern-Vlakh	JOH-003-016		
 Holy-Bible---Romani---Eastern-Vlakh	GEN-003-024	Англунимос 3:24	Сар о РАЙ витрадя лэ манушэс, Вов стходя по тэсараско риг лэ Эдэмостар лэ херувимонэн и бари ягатери шури, сави марэлас андэ саворэ рига, соп тэ фирин о дром каринг о кашт лэ жувимаско.
 Holy-Bible---Romani---Eastern-Vlakh	LUK-023-034	Лукастар 23:34	Исусо пхэндя: — Дадэ! Эртисар лэн, онэ на жанэн, со терэн. Халавдэ шонас жребиё тай розлэнас машкар пэстэ йида Исусостири.
@@ -3380,6 +3659,15 @@ Holy-Bible---Russian---Russian-Synodal-Translation	EXO-013-017	Исход 13:17	
 Holy-Bible---Russian---Russian-Synodal-Translation	MAR-010-045	От Марка 10:45	Ибо и Сын Человеческий не для того пришел, чтобы Ему служили, но чтобы послужить и отдать душу Свою для искупления многих.
 Holy-Bible---Russian---Russian-Synodal-Translation	ROM-001-001	К Римлянам 1:1	Павел, раб Иисуса Христа, призванный Апостол, избранный к благовестию Божию,
 Holy-Bible---Russian---Russian-Synodal-Translation	MAT-028-019	От Матфея 28:19	Итак идите, научите все народы, крестя их во имя Отца и Сына и Святаго Духа,
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	JOH-003-016	Saaŋ 3:16	Kooh waaɗiɗ adinaani po a eɗohha Kuɓkiŋ ɗe yino-kongi ne ɓo' nu kos Kuɓki ɗah, fu sooƴuu, waaye fu raak kipes ki heyɗi reehe.
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	GEN-003-024	Camba 3:24	Wa a aañ ɓo', a ɗaakka ŋ pulohaaɗ-nohaŋ nguuka, niiɗoh ci na woyse seruben na ndang yongkaah wi na mbiliirke ɓak nu ɓak ne ɓa sangoh waasa kaɗ ŋ kidga na onohe kipes.
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	LUK-023-034	Luk 23:34	Yeesu woosa ne: « Baab ɗaasaa ɓa, ɓa inahɗi ini ɓa na haɓɗe. » Ɓa piilohha kulɓaacaŋ ɗe ne ɓa paysoh ca.
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	REV-021-002	Teeɓ ki 21:2-3	Ŋ hotta kur-taahi hooliɗi, Yerusalemi asi puloh ŋ Kooh. Wa ruhsohha Eel ci, wa hayeeɗa, haɓɗukiɗ po haa kilooki na tokse. Weɗ ŋ kerhoh hooso meeɓuuɗ puloh ŋ ɓoofoha-buuri woyiɗ ne: « Genohaaniŋ Kooh weɗi ŋ harmban ɓooɓi kotii! A genan na ɓa te ɓa hey nike cuuɓ ciŋ ɗe. Kooh ŋ haf ce hey nike na ɓa [a nik Koohiŋ ɓa].
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	HEB-011-008	Heber ci 11:8	A kos tah po, wa Ibrahiima ɓeeɗku, a teyɗukka kaɗ kur ka a joyee rahas lamaah lamu te a inahɗi ɗiska a kaɗe.
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	EXO-013-017	Pula 13:17	Wa Firawna faɗis Israayel ca ne ɓa coot, Kooh woyee ne: « Israayel ci miniɗ raak hiñoh ŋ waasi, inwaaso amb ɓa nga, ɓa gurid Misra. » Weɗ tah a yurhiɗɗi ɓa ŋ waasa kaɗ ŋ kur kaŋ Filistiica ŋ ina wa uupe reɓ jen.
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	MAR-010-045	Maarko 10:45	Kuɓkiŋ ɓoyi sah, hayɗi ne a raak surga, a hay ne a nik surga te a eɗoh kipes kiŋ ɗe ne a tos ɓo' laayiɗ. »
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	ROM-001-001	Ɓi Rom 1:1	Mi yii kañiɗ ɗu, ɗu ɓi nik ŋ Rom, mi yi Pool, ñaamiŋKiristaani Yeesu. Ŋ ɓeeɗkuuɗ ne ŋ nik Apootar te ŋ kooɗuuɗ ne ŋ woo Yegɗohiŋ Kooh ŋ ini kaɗ ŋ muci.
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	MAT-028-019	Macce 28:19	Kaɗaat ŋ cuuɓ ciŋ adinaani jen, ɗu tum ɓooɓi taalube, ɗu ɓokit ɓa ŋ tiikiŋ Baabi na Kuɓki na Fuuɗsi Hoolohngaani,
 Holy-Bible---Safwa---Safwa-Bible	JOH-003-016	Yohana 3:16	Hunamna ene Ongolobhe aigene insi, paka afumizye omwana wakwe waje umuntu wowonti wai humweteha aganje teje mowomi we wila wila.
 Holy-Bible---Safwa---Safwa-Bible	GEN-003-024		
 Holy-Bible---Safwa---Safwa-Bible	LUK-023-034	Luka 23:34	U Yesu waga, “Baba, ubhasajile afwanaje sebhemenge lyabhabhomba bhagabhanya amenda gakwe, bhakhoma ekora.
@@ -3398,6 +3686,15 @@ Holy-Bible---Sakachep---Sakachep-Bible	EXO-013-017
 Holy-Bible---Sakachep---Sakachep-Bible	MAR-010-045	Mark 10:45	Miriem Nâipasal luo mana mîn a sin an tho pe rangin juong maka; mi sin tho pe rangin le mi tamtak ngei ratan ranga a ringna pêk rangin ke a juong ani” a tia.
 Holy-Bible---Sakachep---Sakachep-Bible	ROM-001-001	Rom 1:1	Paul renga, Jisua Khrista tîrlâm le tîrton ranga thang, Pathien'n a Thurchi Sa ngei misîr ranga koi.
 Holy-Bible---Sakachep---Sakachep-Bible	MAT-028-019	Matthew 28:19	Hanchu, muntina mingei murdi kôm se ungla, ku ruoisîn sin ngei ungla: Pa, Nâipasal le Ratha Inthieng rimingin Baptis ngei ungla,
+Holy-Bible---Sanga---Sanga-Bible	JOH-003-016		
+Holy-Bible---Sanga---Sanga-Bible	GEN-003-024		
+Holy-Bible---Sanga---Sanga-Bible	LUK-023-034	Luka 23:34	Na Yeso bekaana, “Ate, kwizǝ epa e buru ana o nyana ong, o bena neta rosa na mana mi ne.” Ane eke madibi ma kai a tera one nane laka mana waya jeka.
+Holy-Bible---Sanga---Sanga-Bible	REV-021-002		 
+Holy-Bible---Sanga---Sanga-Bible	HEB-011-008		
+Holy-Bible---Sanga---Sanga-Bible	EXO-013-017		
+Holy-Bible---Sanga---Sanga-Bible	MAR-010-045		
+Holy-Bible---Sanga---Sanga-Bible	ROM-001-001		
+Holy-Bible---Sanga---Sanga-Bible	MAT-028-019	Mat 28:19	Azaa nyimi, ale na ka e baale pate aromo lerambo ka ne tareng, e eza ne batisma a nyimi le ze Ate, ka Kena, ka Obere o Ashili,
 Holy-Bible---Sankaran-Maninka---Alla-la-Kitabu-Seniman	JOH-003-016	John 3:16	Baa, Alla ka dunuɲa mɔɔilu kanin kosɛbɛ, wo rɔ, a ka a Dencɛ kelen pe di, kosa mɔɔ si wa lemɛniya a ma wo kana halaki, kɔni a ri ɲenemaya banbali sɔrɔn.
 Holy-Bible---Sankaran-Maninka---Alla-la-Kitabu-Seniman	GEN-003-024	Genesis 3:24	Nba, Allabatala Alla ka Adama ni Hawa gbɛn ɲa wo le ma. A ka mɛlɛkailu lalɔ nakɔ ɲuma donda la telebɔ fan fɛ. A ka fanmuru fanan bila ye, ta ye mɛnɛnna mɛn na. Fanmuru tama wo ye mininmininna tuma bɛɛ. A ka woilu bila le ye, kosa mɔɔ si kana tamin ka wa ɲenemaya jiri ma.
 Holy-Bible---Sankaran-Maninka---Alla-la-Kitabu-Seniman	LUK-023-034	Luke 23:34	Ka Isa gbɔngbɔnni to jiri kan, a ka a fɔ ko: «N Fa, i ye ii makoto, ka a masɔrɔn ii ra ko mɛn kɛ, ii ma wo lɔn.» Wo tuma, kɛlɛdenlu ka kalabɛn kɛ ka a la faanin dafara.
@@ -3599,7 +3896,7 @@ Holy-Bible---Sanskrit---Urdu-Script	MAT-028-019	مَتھِح 28:19	اَتو یُ
 Holy-Bible---Sanskrit---Velthuis-Script	JOH-003-016	yohana.h 3:16	ii"svara ittha. m jagadadayata yat svamadvitiiya. m tanaya. m praadadaat tato ya. h ka"scit tasmin vi"svasi. syati so. avinaa"sya. h san anantaayu. h praapsyati|
 Holy-Bible---Sanskrit---Velthuis-Script	GEN-003-024		
 Holy-Bible---Sanskrit---Velthuis-Script	LUK-023-034	luuka.h 23:34	tadaa yii"surakathayat, he pitaretaan k. samasva yata ete yat karmma kurvvanti tan na vidu. h; pa"scaatte gu. tikaapaata. m k. rtvaa tasya vastraa. ni vibhajya jag. rhu. h|
-Holy-Bible---Sanskrit---Velthuis-Script	REV-021-002	prakaasita.m 21:2-3	apara. m svargaad avarohantii pavitraa nagarii, arthato naviinaa yiruu"saalamapurii mayaa d. r.s. taa, saa varaaya vibhuu. sitaa kanyeva susajjitaasiit| anantara. m svargaad e. sa mahaaravo mayaa "sruta. h pa"syaaya. m maanavai. h saarddham ii"svarasyaavaasa. h, sa tai. h saarddha. m vatsyati te ca tasya prajaa bhavi. syanti, ii"svara"sca svaya. m te. saam ii"svaro bhuutvaa tai. h saarddha. m sthaasyati|
+Holy-Bible---Sanskrit---Velthuis-Script	REV-021-002	prakaa sita.m 21:2-3	apara. m svargaad avarohantii pavitraa nagarii, arthato naviinaa yiruu"saalamapurii mayaa d. r.s. taa, saa varaaya vibhuu. sitaa kanyeva susajjitaasiit| anantara. m svargaad e. sa mahaaravo mayaa "sruta. h pa"syaaya. m maanavai. h saarddham ii"svarasyaavaasa. h, sa tai. h saarddha. m vatsyati te ca tasya prajaa bhavi. syanti, ii"svara"sca svaya. m te. saam ii"svaro bhuutvaa tai. h saarddha. m sthaasyati|
 Holy-Bible---Sanskrit---Velthuis-Script	HEB-011-008	ibri.na.h 11:8	vi"svaasenebraahiim aahuuta. h san aaj naa. m g. rhiitvaa yasya sthaanasyaadhikaarastena praaptavyastat sthaana. m prasthitavaan kintu prasthaanasamaye kka yaamiiti naajaanaat|
 Holy-Bible---Sanskrit---Velthuis-Script	EXO-013-017		
 Holy-Bible---Sanskrit---Velthuis-Script	MAR-010-045	maarka.h 10:45	yato manu. syaputra. h sevyo bhavitu. m naagata. h sevaa. m karttaa. m tathaaneke. saa. m paritraa. nasya muulyaruupasvapraa. na. m daatu ncaagata. h|
@@ -3677,6 +3974,24 @@ Holy-Bible---Setswana---Open-Tswana-Living	EXO-013-017
 Holy-Bible---Setswana---Open-Tswana-Living	MAR-010-045	Mareko 10:45	Gonne le nna tota, Mesia, ga ke fano go tla go direlwa fa e se go thusa ba bangwe, le go ntsha botshelo jwa me gore e nne thekololo ya batho ba le bantsi.”
 Holy-Bible---Setswana---Open-Tswana-Living	ROM-001-001	Baroma 1:1	Ditsala tse di rategang mo Roma, Lokwalo lo lo tswa kwa go Paulo, motlhanka wa ga Jesu Keresete, yo o tlhophilweng go nna morongwa, ebile a romilwe go rera Mafoko a Modimo a a Molemo.
 Holy-Bible---Setswana---Open-Tswana-Living	MAT-028-019	Mathaio 28:19	Ke gone tsamayang mme lo dire barutwa mo merafeng yotlhe, lo ba kolobetse mo ineng la ga Rara le la Morwa le la Mowa o o Boitshepo.
+Holy-Bible---Shi---Mashi-Bible	JOH-003-016	Yowane 3:16	“Nêci, Nnâmahanga azigîre igulu, kuhika abâna Omugala cûsha, mpu ngasi yêshi wâmuyêmêra alek’ihera, ci abone obuzîne bw’ensiku n’amango”.
+Holy-Bible---Shi---Mashi-Bible	GEN-003-024	Murhondêro 3:24	Ahimva omuntu anahira bakerubini n’engulumira y’engôrho yalaza ebushoshôkero bw’ishwa ly’amasîma, lyo balanga enjira ejà ebwa murhi gw’obuzîne (lyo bahagalika omuntu arhahume oku murhi gw’obuzîne).
+Holy-Bible---Shi---Mashi-Bible	LUK-023-034	Luka 23:34	Yezu anaciderha, erhi: «Larha, obafe bwonjo, bulya barhamanyiri eci ba­dwîrhe bajira». Bagabâna emyambalo yâge, bayiyesha cigole.
+Holy-Bible---Shi---Mashi-Bible	REV-021-002	Mafulûlo 21:2-3	Nabona Ecishagala citagatîfu, Yeruzalemu muhyâhya, camanuka emalunga, emwa Nyamuzinda, erhi ciyambîrhe nka muhya odwîrhe alinga îba. Nayumva n’izù linene lyarhenga ebwa ntebe, lyaderha, erhi: «Alagi ecirâlo ca Nyamuzinda bo n’abantu: akolaga ahanda haguma nabo, babè lubaga lwâge, naye Nyamuzinda yêne abè haguma nabo».
+Holy-Bible---Shi---Mashi-Bible	HEB-011-008	Bahabraniya 11:8	Buyêmêre bwarhumaga Abrahamu ayumva izù lya Nnâmahanga lyàmubwîraga mpu agende, ajè omu cihugo ali ayish’iyîmamwo. Agenda arhanamanyiri aha ajà.
+Holy-Bible---Shi---Mashi-Bible	EXO-013-017	Lubungo 13:17	Erhi Faraoni mwâmi w’e Mîsiri àlîka olubaga mpu lugende, Nyamuzinda àrhalugezagya omu njira y’ecihugo c’Abafilistini, n’obwo yo yali njira ya hôfi. Nyamuzinda aderha, erhi: «Kurhakwânîni hano olubaga lubugâna entambala, lurhînye, obone lwamâcîshubirira e Mîsiri: »
+Holy-Bible---Shi---Mashi-Bible	MAR-010-045	Marko 10:45	Ntyo Mwene-omuntu arhayishaga mpu arhumikirwe, ci mpu arhumikire abandi, anahâne obuzîne bwâge lyo acungula banji».
+Holy-Bible---Shi---Mashi-Bible	ROM-001-001	Barom 1:1	Paolo, mwambali wa Yezu Kristu, wahamagalagwa mpu abè ntumwa, aberûlwa mpu amanyîse Emyanzi y’Akalembe ka Nnâmahanga,
+Holy-Bible---Shi---Mashi-Bible	MAT-028-019	Mateyo 28:19	Gendagi, muyigîrize abantu b’amashanja goshi, mu­babatize oku izîno ly’Îshe n’Omugala na Mûka Mutagatîfu.
+Holy-Bible---Sholaga---Sholaga-Bible	JOH-003-016	ಯೊಹಾನ 3:16	ಹೊ, ಕ್ಹುದಾ ದುನಿಯಾನೆ ಕೆಕ್ಲಿಕೆ ಮಯಾ ಕರಿನ ತಿನಾ ಯಕ್ಕಜ಼ ದಿಕ್ರಾನೆ ದಿದ್ಯೊ; ತಿನೆ ಬರೊಕ್ಹೊ ಕರಾಲೊ ಯಕ್ಲೊಬಿ ಹಾಳ ಥಯಾವಾಚಿ ಕ್ಹಾರಾ ಜ಼ನಾ ಹಮೆಶಾನೊ ಜ಼ಲಮ ವ್ಹಂದಿಲ್ಯು ಕೈನ ತಿನೆ ದಿದ್ಯೊ.
+Holy-Bible---Sholaga---Sholaga-Bible	GEN-003-024		
+Holy-Bible---Sholaga---Sholaga-Bible	LUK-023-034	ಲುಕ 23:34	ತೆಳಾಮ ಯೆಸು, ಬಾ, ಅವ್ನೊನೆ ಮಾಫ ಕರ. ಅವನೆ ಸು ಕರಾಡಾಸ ತಿಳದ್ಯಾ ನತ್ತಿ "ಕೈನ ಪ್ರಾಥನಾ ಕರ‍್ಯೊ. ಸೈನಿಕೊ ಚಿಟಿಯೊ ಘಾಲಿನ ಯೆಸುನಾ ವಣ್ಣಾ ಕಿನೆ-ಕಿನೆ ವಾಟಿಲಿದ್ಯಾ.
+Holy-Bible---Sholaga---Sholaga-Bible	REV-021-002	ಪ್ರಕಟನೆ 21:2-3	ಪರಿಶುದ್ಧ ಗಾಮ ಸ್ವರಗತು ಕ್ಹುದಾಕಂತು ಉತ್ರಿನ ಅವಾನು ಮಿ ದೆಕ್ಯೊ. ತೆ ಪರಿಶುದ್ಧ ಗಾಮಜ಼ ನೌ ಯೆರುಸೆಲೆಮ ವ್ಹೈ. ನೌರಿ ತಿನಿ ನೌರಾನಾ ಹುತಿ ತೆ ತಯ್ಯಾರ ಥಯಲ ಲಿಂಗತ ತಿನೆ ತಯ್ಯಾರ ಕರ‍್ಯಾತಾ. ಸಿಂಹಾಸನಕಂತು ಯಕ್ಕ ಝೊರ ಅವಾಜ಼ ಮಿ ಐಕ್ಯೊ. ತೆ ಅವಾಜ಼ ಕ್ಹುದಾನು ಘರ ಮನಕ್ಹೊನಾ ಕ್ಹಾತೆ ಛೆ. ತೆ ತ್ಯುನಾ ಕ್ಹಾತೆ ರ‍್ಹವಸ. ತ್ಯುನೆ ತಿನಾ ಥೈನ ರ‍್ಹವಸ. ಕ್ಹುದಾಜ಼ ತ್ಯುನಾ ಕ್ಹಾತೆ ರ‍್ಹವಸ. ವರಿ ತ್ಯುನೊ ಕ್ಹುದಾ ಥೈನ ರ‍್ಹವಸ.
+Holy-Bible---Sholaga---Sholaga-Bible	HEB-011-008	ಇಬ್ರಿಯ 11:8	ಕ್ಹುದಾ ತೆ ದಿವ್ಸ ಕೈನ ಕದಲ ವಾಗ್ದಾನ ಕರಲ ಜ಼ಗಾಕನ ಜಾ಼ವಾನಾ ಹುತಿ ಅಬ್ರಹಾಮನೆ ಬಲಾಯೊ. ತೆ ಜ಼ಗಾ ಅಬ್ರಹಾಮನೆ ಕಿಜ್ಗಾ಼ ಛೆ ಕವಾನು ಗ್ವತ್ತ ನ್ಹೊತು. ಅಬ್ರಹಾಮಮಾ ಬರೊಕ್ಹೊ ರ‍್ಹಯಲಹುತಿ, ಕ್ಹುದಾನೆ ವಿಧೆಯ ಥೈನ ತೆ ಜ಼ಗಾಪರ ಜಾ಼ವಾನೆ ತಯ್ಯಾರ ಥಯೊ.
+Holy-Bible---Sholaga---Sholaga-Bible	EXO-013-017		
+Holy-Bible---Sholaga---Sholaga-Bible	MAR-010-045	ಮಾರ್ಕ 10:45	ಮನಕ್ಹನೊ ದಿಕ್ರೊಬಿ ಸೆವಾ ಕರೈಲಿವಾನೆ ನತ್ತಿ ಆಯೊ. ಸೆವಾ ಕರಾನೆ. ವರಿ ತೆ ಜ಼ಲಮ ದಿನ್ನ ಘನ್ನಾಜ಼ನಾವೊನೆ ಛೊಡಾವಾನೆ ಆಯೊಸ ಕದ್ಯೊ.
+Holy-Bible---Sholaga---Sholaga-Bible	ROM-001-001	ರೊಮಾಪುರ 1:1	ಯೆಸು ಕ್ರಿಸ್ತನೊ ಸೆವಕ ಥಯಲ ಪೌಲಾ ಬರ್ದಾನು ಪತ್ರ. ಕ್ಹುದಾ ಮನೆ ಅಪೊಸ್ತಲ ಥಾವಾನಾ ಹುತಿ ಮನೆ ಬಲಾಯೊ. ಕ್ಹುದಾನಿ ಸುವಾರ್ತೆ ಕ್ಹಾರಾ ಮನಕ್ಹೊಕನ ಕವಾನಾ ಹುತಿ ಮನೆ ಇನಿಲಿದ್ಯೊ.
+Holy-Bible---Sholaga---Sholaga-Bible	MAT-028-019	ಮತ್ತಾಯ 28:19	ತಿನಾಹುತಿ ತುಮೆ ಗೈನ, ದುನಿಯಾಮಾ ರ‍್ಹವಾನಾ ಕ್ಹಾರಾ ಮನಕ್ಹೊನೆ ಮಾರಾ ಶಿಶ್ಯಾ ಕರೊ. ಬಾನಾ, ದಿಕ್ರಾನಾ ವರಿ ಪವಿತ್ರ ಆತ್ಮಾನಾ ನಾಮಪರ ತ್ಯುನೊನೆ ಬಾಪ್ತಿಸ್ಮಾ ಕರಾವೊ.
 Holy-Bible---Shona---Rakasununguka	JOH-003-016	Johani 3:16	“Nokuti Mwari akada nyika nokudaro, kuti akapa Mwanakomana wake mumwe oga, kuti ani naani anotenda kwaari arege kufa asi ave noupenyu husingaperi.
 Holy-Bible---Shona---Rakasununguka	GEN-003-024	Genesisi 3:24	Mushure mokunge adzinga munhu, akaisa makerubhi kurutivi rwokumabvazuva kweBindu reEdheni nomunondo unopfuta uye uchivheyeswa mberi neshure kuti urinde nzira inoenda kumuti woupenyu.
 Holy-Bible---Shona---Rakasununguka	LUK-023-034	Ruka 23:34	Jesu akati, “Baba, varegererei, nokuti havazivi zvavari kuita.” Vakagovana nguo dzake vachikanda mijenya.
@@ -3749,6 +4064,15 @@ Holy-Bible---Somali---Somali-Bible	EXO-013-017	Baxniintii 13:17	Oo markii Fircoo
 Holy-Bible---Somali---Somali-Bible	MAR-010-045	Markos 10:45	Waayo, Wiilka Aadanahu uma iman in loo adeego laakiin inuu adeego iyo inuu naftiisa dad badan furashadooda u bixiyo.
 Holy-Bible---Somali---Somali-Bible	ROM-001-001	Rooma 1:1	Waxaa warqaddan qoraya Bawlos oo ah addoonkii Ciise Masiix, oo loogu yeedhay inuu rasuul ahaado, oo gooni looga dhigay injiilka Ilaah.
 Holy-Bible---Somali---Somali-Bible	MAT-028-019	Matayos 28:19	Haddaba taga, oo quruumaha oo dhan xer ka dhiga, oo ku baabtiisa magaca Aabbaha iyo Wiilka iyo Ruuxa Quduuskaa,
+Holy-Bible---Somau-Karia---Somau-Karia-Bible	JOH-003-016		
+Holy-Bible---Somau-Karia---Somau-Karia-Bible	GEN-003-024		
+Holy-Bible---Somau-Karia---Somau-Karia-Bible	LUK-023-034	Luke 23:34	Kakeri Yesusue kunauna, “Xauwa, ne ninipo xunu weterinike. Mua kapia kaketeneaia nini sipa xuwe xati kakineri,” xetai. Xomatuae Yesusupo nekei xuru niko utei tepure satu nerawoteneai.
+Holy-Bible---Somau-Karia---Somau-Karia-Bible	REV-021-002		 
+Holy-Bible---Somau-Karia---Somau-Karia-Bible	HEB-011-008		
+Holy-Bible---Somau-Karia---Somau-Karia-Bible	EXO-013-017		
+Holy-Bible---Somau-Karia---Somau-Karia-Bible	MAR-010-045		
+Holy-Bible---Somau-Karia---Somau-Karia-Bible	ROM-001-001		
+Holy-Bible---Somau-Karia---Somau-Karia-Bible	MAT-028-019		
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	JOH-003-016	Juan 3:16	Porque así amó Dios al mundo: hasta dar su Hijo único, para que todo aquel que cree en Él no se pierda, sino que tenga vida eterna.
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	GEN-003-024	Génesis 3:24	Y habiendo expulsado a Adán puso delante del jardín de Edén querubines, y la fulgurante espada que se agitaba, a fin de guardar el camino del árbol de la vida.
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	LUK-023-034	San Lucas 23:34	Y Jesús decía: “Padre, perdónalos, porque no saben lo que hacen”. Entretanto, hacían porciones de sus ropas y echaron suertes.
@@ -3902,6 +4226,15 @@ Holy-Bible---Swedish---Swedish-Bible-1917	EXO-013-017	2 Mosebok 13:17	När Farao
 Holy-Bible---Swedish---Swedish-Bible-1917	MAR-010-045	Markus 10:45	Också Människosonen har ju kommit, icke för att låta tjäna sig, utan för att tjäna och giva sitt liv till lösen för många.»
 Holy-Bible---Swedish---Swedish-Bible-1917	ROM-001-001	Romarbrevet 1:1	Paulus, Jesu Kristi tjänare, kallad till apostel, avskild till att förkunna Guds evangelium,
 Holy-Bible---Swedish---Swedish-Bible-1917	MAT-028-019	Matteus 28:19	Gån fördenskull ut och gören alla folk till lärjungar, döpande dem i Faderns och Sonens och den helige Andes namn,
+Holy-Bible---Taabwa---Kitaabua-Bible	JOH-003-016		
+Holy-Bible---Taabwa---Kitaabua-Bible	GEN-003-024	Kutendeka 3:24	Leza lu-aamukumbile Adamu mu bukaba, waabiikile makerubi pa nghingililo ya ku kabanga ka bukaba bwa mu Edeni, ni kipanga kya mulilo kyaali kyazyunguluka konse konse kusakilila nzila ya kuya ku kimuti kya bukose.
+Holy-Bible---Taabwa---Kitaabua-Bible	LUK-023-034		
+Holy-Bible---Taabwa---Kitaabua-Bible	REV-021-002		 
+Holy-Bible---Taabwa---Kitaabua-Bible	HEB-011-008		
+Holy-Bible---Taabwa---Kitaabua-Bible	EXO-013-017	Kufuma 13:17	Farao lu-aitabiizie bantu kuya, Leza taabalombwele kuti baye bapite mu kyalo kya Bafilistini anzia kine i yaali nzila iipipiisie. Leza waalandile nangue, “Kine baba bantu basakukilua, kuti ba-alulula malanga abo ni kubwelela ku Misri.”
+Holy-Bible---Taabwa---Kitaabua-Bible	MAR-010-045		
+Holy-Bible---Taabwa---Kitaabua-Bible	ROM-001-001		
+Holy-Bible---Taabwa---Kitaabua-Bible	MAT-028-019		
 Holy-Bible---Tagakaulo---Tagakaulo-Bible	JOH-003-016	John 3:16	Pigginawa͡an to-o na Tyumanem ya kadég na manga utaw, aw yan ya du-an na pig-atag nan ya kanan Ise' na tamisa pada pangkay singalan ya gayed mangintu-u kanan dili' ka-eletan lekat adti Tyumanem aw dili' sakanan pa-emel-emelen, manang makatagtun baling sa ginawa na wala' ya katigkasan.
 Holy-Bible---Tagakaulo---Tagakaulo-Bible	GEN-003-024		
 Holy-Bible---Tagakaulo---Tagakaulo-Bible	LUK-023-034	Lukas 23:34	Aw miglong si Jisus, “Kay Ma', pasinsiyayi silan kay wala' nilan ka-ede-i kun unu ya pig-imo' nilan.” Aw migbunutbunut ya manga sundalu kun singalan kanilan ya makatagtun sa tagsambuksambuk na kadégkadég ni Jisus.
@@ -3956,6 +4289,33 @@ Holy-Bible---Tamil---Tamil-Bible	EXO-013-017	யாத்திராகமம�
 Holy-Bible---Tamil---Tamil-Bible	MAR-010-045	மாற்கு ௧0:௪௫	அப்படியே, மனிதகுமாரனும் மற்றவர்களிடம் ஊழியம் பெற வராமல், ஊழியம் செய்யவும், அநேகரை மீட்கத் தம்முடைய ஜீவனைக் கொடுக்கவும் வந்தார் என்றார்.
 Holy-Bible---Tamil---Tamil-Bible	ROM-001-001	ரோமர் ௧:௧	இயேசுகிறிஸ்துவின் ஊழியக்காரனும், அப்போஸ்தலனாக இருப்பதற்காக அழைக்கப்பட்டவனும், தேவனுடைய நற்செய்திக்காகப் பிரித்தெடுக்கப்பட்டவனுமாகிய பவுல்,
 Holy-Bible---Tamil---Tamil-Bible	MAT-028-019	மத்தேயு ௨௮:௧௯	ஆகவே, நீங்கள் புறப்பட்டுப்போய், எல்லா தேசத்து மக்களையும் சீடராக்கி, பிதா குமாரன் பரிசுத்த ஆவியின் நாமத்தினாலே அவர்களுக்கு ஞானஸ்நானங்கொடுத்து,
+Holy-Bible---Tarok---Tarok-Nigeria-Bible	JOH-003-016		
+Holy-Bible---Tarok---Tarok-Nigeria-Bible	GEN-003-024		
+Holy-Bible---Tarok---Tarok-Nigeria-Bible	LUK-023-034		
+Holy-Bible---Tarok---Tarok-Nigeria-Bible	REV-021-002		 
+Holy-Bible---Tarok---Tarok-Nigeria-Bible	HEB-011-008	AIbərahim 11:8	Ka̱kul nna nnandər na te, uIbərahim kpak nnap nnəm Înan ka̱ apal ishi awór va̱ Inan wór na pa̱ a re mbin wò a ga atak ro va i ga nta̱l ajini. Uza̱ re nzhi, uza̱ nyi atak va̱ uza̱ ka̱ ngga ka̱ ka̱t.
+Holy-Bible---Tarok---Tarok-Nigeria-Bible	EXO-013-017	Nfa 13:17	Nva̱ngva̱ uFirona re onəm va̱ ta ga te, Inan wòl ká̱ oza̱ ka̱ asa̱l va̱ watar ka̱ ashe mbin oFilitti ka̱t, káp ká̱ nva̱ nna asa̱l adatdat á. Ka̱kul Inan là pa̱, “A yà pa̱ onəm á ya ìkum te, i ga̱ɓa̱n igwak oza̱, i le aMasar.”
+Holy-Bible---Tarok---Tarok-Nigeria-Bible	MAR-010-045		
+Holy-Bible---Tarok---Tarok-Nigeria-Bible	ROM-001-001	ARom 1:1	Awasika va̱ ta̱ fa ka̱ atak aBulus uzwal aYesu kəristi. Uzwal uwórwór va ma va̱n fa ka̱ ashe onəm ka̱kul inok nla nnap-nlà Inan ngga nchang nfe.
+Holy-Bible---Tarok---Tarok-Nigeria-Bible	MAT-028-019		
+Holy-Bible---Tavoyan---Tavoyan-Bible	JOH-003-016	ယောဟန် 3:16	ဘုရားသခင်ဟှာ လောကသားလေဟှို ရရာတိုင်း ရှစ်ဟှူကြောန့် သူ့ရဲ့ တပါးဒဲရှိဟှူ သားတော်ဟှို ပေးလေဟှယ်။ အယ်ကြောန့် သားတော်ဟှို ယောင်ကြည်ဟှူ လူတိုင်းဟှာ ပျစ်စီးဘဲ့န ထာဝရသတ်ဟှို ရမယ်။
+Holy-Bible---Tavoyan---Tavoyan-Bible	GEN-003-024		
+Holy-Bible---Tavoyan---Tavoyan-Bible	LUK-023-034	လုကာ 23:34	ယေရှုဟှ “ဖ! သူးနို့လေဟှာ သူးနို့ ဖြားလောက်ဟှယ် ဆိုဇာဟှို သိဂေ့ဘဲဟှူကြောန့် သူးနို့လေဟှို ခွမ့်လွှတ်တော်မူပါ” ဆိုဘီး ပြောလေဟှယ်။ သူးနို့လေဟှာ ကိုယ်တော်ရဲ့ ဝတ်စားလေဟှို မဲနှိုက်ဘီး ခွဲဝီယူဂေ့ဟှယ်။
+Holy-Bible---Tavoyan---Tavoyan-Bible	REV-021-002	ဗျာဒိတ်တော် 21:2-3	အယ်ဘီးဟှာ သန့်ရှင်းဟှူ ယေရုရှလင်ဗြို့သစ်ဟှာ ဒို့သားတွပ် တန်ဆာဆင်ဟှားဟှူ ဒို့သမီးမျိုး ပြင်ဆင်ဘီး ဘုရားသခင်နားဟှ ကောန်းဂန်ဘောင်ဟှ ဆင်းလာဇာဟှို ငါဗြင်ရဟှယ်။ အယ်ဘီးန ပလ္လင်ထဲဟှ ရရာတိုင်း က္လယ်ဟှူသံဟှ “ကေ့ကေ့ပါ။ ဘုရားသခင်နေဟှူ တဲတော်ဟှာ လူလေထဲမာရှိဘီး ကိုယ်တော်ဟှာ သူးနို့နတူးဒူ စံမြန်းမယ်။ သူးနို့ဟှလည်း ကိုယ်တော်ရဲ့ လူမျိုးတော်ဖြစ်ဂေ့ဘီး၊ ဘုရားသခင်ကိုယ်တိုင် သူးနို့လေနရှိဘီး သူးနို့လေရဲ့ ဘုရားသခင် ဖြစ်တော်မူမယ်။
+Holy-Bible---Tavoyan---Tavoyan-Bible	HEB-011-008	ဟေဗြဲ 11:8	အာဗြဟံဟှာ သူမွီခံရမယ့် ပြည်ဟှို ထွပ်ဟှားဟှို့တွပ် ဘုရားသခင် ခေါ်တော်မူဟှူ ခီမာ သူသွားဟှူ ရပ်ဒေသဟှို သူကိုယ်တိုင် သိဘဲန ယောင်ကြည်ရှင်းအားဖြင့် နာခံဘီး ထွပ်ဟှားလေဟှယ်။
+Holy-Bible---Tavoyan---Tavoyan-Bible	EXO-013-017		
+Holy-Bible---Tavoyan---Tavoyan-Bible	MAR-010-045	မာကု 10:45	ဖြားဖြစ်ကြောန့်နူးဆိုဟှာ လူ့ရဲ့သားဟှာလည်း ခိုင်းစားဟှို့လာဇာ မှုဟှ။ သူဟှာ စေခံဟှို့န သူ့သတ်ဟှို စွန့်ဘီး လူလေဟှို ဝီးနုတွပ် လာဟှယ်” ဆိုဘီး မိန့်တော်မူလေဟှယ်။
+Holy-Bible---Tavoyan---Tavoyan-Bible	ROM-001-001	ရောမ 1:1	ဒန်းကောန်းဟှို ဟောပြောဟှို့တွပ် တမန်တော်ဖြစ်န ဘုရားသခင်ဝီးကော့‑က်ဘီး ခန့်အပ်ခံရဟှူ ခရစ်တော်ယေရှုရဲ့ စေခံ ငါပေါလုဟှာ အယ်စာဟှို ရေးလိုက်ပါဟှယ်။
+Holy-Bible---Tavoyan---Tavoyan-Bible	MAT-028-019	မဿဲ 28:19	အယ်ကြောန့် နန်းနို့လေဟှာ သွားဘီး လူဘောန်းဇောင်ဟှို ငါ့တဗဲ့ဖြစ်စေဘီးဟှာ ဖ၊ သားတော်၊ သန့်ရှင်းဟှူဝိညာဉ်တော်ရဲ့ နာမတော်ထဲမာ ဗတ္တိဇံပေးဂေ့ပါ။
+Holy-Bible---Teke-Tyee---Teke-Tyee-Bible	JOH-003-016	Dzã 3:16	Mu obo, Nzaami bu ábvulu dzyi nsie, ágwi Mwana a nde wu a mbunu, mpaala nswe mbwuru wu aasa kana mu nde anyaã okpa, lo abagha laama lili mibvu ya mibvu.
+Holy-Bible---Teke-Tyee---Teke-Tyee-Bible	GEN-003-024		
+Holy-Bible---Teke-Tyee---Teke-Tyee-Bible	LUK-023-034	Luke 23:34	[Yiisu ályele bu: «Taara, sa bo kolokolo, mu kuulu bo ka bali mu ogyahaba mi bali mu okagyighili o.»] Báti empa kii nga a bwehe, ya bákaba biko bi nde.
+Holy-Bible---Teke-Tyee---Teke-Tyee-Bible	REV-021-002	Apokalipese 21:2-3	Ya me áamono bvulu lili ngili, Yerusaleme li linyaghara li lífi ku yulu kundaa Nzaami, líkayasughuru ŋa nsie ti anga mukaha wu bàakie, wu baabwehe mu nkooro a mulumu a nde. Me áangyughu likyi lili mpini li lípala ŋa likubu líkalyele ti: «Mono nzo a Nzaami yili ŋa kara li baara! Nde sa akala ya bo, bo sa bakala baara ba nde ya nde ŋa kara li bo sa akala Nzaami a bo.
+Holy-Bible---Teke-Tyee---Teke-Tyee-Bible	HEB-011-008	Ba-Eebere 11:8	Mu kana, Abarahame bu akihi mbili yi ágyughu nde, nde ágyene ku nsie yi áfaana nde ogyagha ti pfa, ya nde ágyene gwene osoolo ku ákagye.
+Holy-Bible---Teke-Tyee---Teke-Tyee-Bible	EXO-013-017		
+Holy-Bible---Teke-Tyee---Teke-Tyee-Bible	MAR-010-045	Mareke 10:45	Mu kuulu Mwana a mbwuru ka aagyi mu kuulu baara basalala nde o, lo mu osalala baara ya mu ogwa laama li nde mu ofiri ekolo mu baara balagha.»
+Holy-Bible---Teke-Tyee---Teke-Tyee-Bible	ROM-001-001	Rome 1:1	Me Poole, musala a Yiisu-Kriste, wu báti mbili mu okala ntumu ya wu básuolo mu otsala Nsia yi Mbwe yi a Nzaami.
+Holy-Bible---Teke-Tyee---Teke-Tyee-Bible	MAT-028-019	Matye 28:19	Mu obo, bu liigye, lisa ti bikaana byehene bikala binduono bi me, liboghoro bo mu nkwumu yi a Taara, ya yi a Mwana, ya yi a Mufulu a Ngili.
 Holy-Bible---Telugu---Telugu-Bible	JOH-003-016	యోహాను ౩:౧౬	“దేవుడు లోకాన్ని ఎంతో ప్రేమించాడు. అందుకే ఆయన తన ఏకైక కుమారుణ్ణి ఈ లోకానికి ఇచ్చాడు. తద్వారా ఆయనలో విశ్వాసం ఉంచే ప్రతి వాడూ నశించకుండా నిత్యజీవం పొందుతాడు.
 Holy-Bible---Telugu---Telugu-Bible	GEN-003-024	ఆదికాండము ౩:౨౪	కాబట్టి దేవుడు ఏదెను తోటలోనుంచి ఆదామును వెళ్ళగొట్టి, ఏదెను తోటకు తూర్పు వైపు కెరూబులు, జీవవృక్షానికి వెళ్ళే దారిని కాపలా కాయడానికి ఇటు అటు తిరిగే అగ్నిఖడ్గం నిలబెట్టాడు.
 Holy-Bible---Telugu---Telugu-Bible	LUK-023-034	లూకా ౨౩:౩౪	అప్పుడు యేసు, “తండ్రీ, వీళ్ళేం చేస్తున్నారో వీళ్ళకి తెలియదు. కాబట్టి వీళ్ళను క్షమించు” అని చెప్పాడు. వారు ఆయన బట్టలు పంచుకోడానికి చీట్లు వేసుకున్నారు.
@@ -3974,6 +4334,15 @@ Holy-Bible---Telugu---Telugu-Open-Contemporary	EXO-013-017	నిర్గమక
 Holy-Bible---Telugu---Telugu-Open-Contemporary	MAR-010-045	మార్కు 10:45	ఎందుకంటే మనుష్యకుమారుడు సేవ చేయించుకోడానికి రాలేదు కాని సేవ చేయడానికి, తన ప్రాణాన్ని అనేకులకు విమోచన క్రయధనంగా చెల్లించడానికి వచ్చాడు” అని అన్నారు.
 Holy-Bible---Telugu---Telugu-Open-Contemporary	ROM-001-001	రోమీయులకు 1:1	అపొస్తలునిగా ఉండడానికి పిలువబడి దేవుని సువార్త కోసం ప్రత్యేకపరచబడిన పౌలు అనే నేను క్రీస్తు యేసు దాసుడను.
 Holy-Bible---Telugu---Telugu-Open-Contemporary	MAT-028-019	మత్తయి 28:19	కాబట్టి మీరు వెళ్లి, తండ్రి, కుమార, పరిశుద్ధాత్మ పేరున బాప్తిస్మమిస్తూ, అన్ని దేశాలను శిష్యులుగా చేసి,
+Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	JOH-003-016	यूहन्ना 3:16	“काहैकि परमेस्वर जौ दुनिया से ऐसो प्यार करी कि बौ अपनो इकलौतो लौड़ा दै दई, ताकी जो कोई बाके ऊपर बिस्वास करै, बौ नास ना होबै, बल्किन अनंत जिंदगी पाबै।
+Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	GEN-003-024		
+Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	LUK-023-034	लूका 23:34	तौ ईसु कही, “दऊवा! इनकै माफ कर दे, काहैकि जे ना जानथैं कि जे का कर रै हैं।” बे पासा डारकै बाके लत्ता आपस मैं बाँट लईं।
+Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	REV-021-002	प्रकासितवाक्य 21:2-3	फिर मैं पवित्र सहर, नया यरूसलेम कै परमेस्वर के झोने से स्वर्ग से उतरत देखो, जो एक दुल्हेन के हानी रहै, जो अपने दुल्हा से मिलन के ताहीं तैयार और तैयार रहै। मैं सिंहासन से ऊँची अबाज से बोलत भइ सुनो: “परमेस्वर के घर मैं रहन बारी जघा अब लोगन के बीच है! बौ उनके संग रैहगो, और बे बाके लोग होंगे, और परमेस्वर खुद उनके संग रहगो; और बौ उनको परमेस्वर होगो।
+Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	HEB-011-008	इब्रानियों 11:8	बिस्वास से अब्राहम जब बुलाओ गौ तौ आग्या मानकै ऐसी जघा निकर गौ जोकै बौ अपने हक मैं लेन बारो रहे, और जौ नाय जानत रहे, कि मैं कितै जाथौं; तहुँओं निकर गौ।
+Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	EXO-013-017		
+Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	MAR-010-045	मरकुस 10:45	इंसान को लौड़ा जाके ताहीं नाय आओ है कि बाकी सेवा करी जाबै, बल्कि जाके ताहीं आओ कि बौ खुद सेवा करै, और दुसरेन कै छुड़ान ताहीं अपनी ज्यान देबै।”
+Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	ROM-001-001	रोमियों 1:1	पौलुस के घाँईं से जो ईसु मसीह को सेवक है, और प्रेरित होन के ताहीं मस्काओ गौ, और परमेस्वर के बौ सुसमाचार के ताहीं अलग करो गौ है।
+Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	MAT-028-019	मत्ती 28:19	तौ, सब जघा सब आदमिन के झोने जाबौ और उनकै मेरे चेला बनाबौ: दऊवा, लौड़ा और पवित्र आत्मा के नाओं से बपतिस्मा देबौ,
 Holy-Bible---Thur---Leb-Thur-Bible	JOH-003-016	Jon 3:16	“Obanga ömarö jö më lobo ni rwök, cë ömïö Wode acël këkën, ëk dhanö acëlacël na yee ï kome kür öthöö, ëntö onwong kwö na ba thum.
 Holy-Bible---Thur---Leb-Thur-Bible	GEN-003-024	Acaki 3:24	Kinge na dong öryëmö dhanö ökö, ën oketho cerubim yo kukïdë më pwodho më Eden. Ëka oketho pala abadë na lyël mac, wïrë tungi ëka tungi, më gwökö yoo na cïdhö yo yath më kwö.
 Holy-Bible---Thur---Leb-Thur-Bible	LUK-023-034	Luka 23:34	Yecu ölëgö nï, “Apap, tïm nïgï kïca, pïën gïn ba ngeo ngö na gïn tye ka tïmö.” Cë acikari opoko böng mërë kï bolo kwir.
@@ -3983,6 +4352,15 @@ Holy-Bible---Thur---Leb-Thur-Bible	EXO-013-017
 Holy-Bible---Thur---Leb-Thur-Bible	MAR-010-045	Marako 10:45	Naka thon Wod ka Dhanö ba obino nï ëk etii nïnë ëntö më tic pï jïï ëka më mïö kwö mërë më kökö jö na pol.”
 Holy-Bible---Thur---Leb-Thur-Bible	ROM-001-001	Roma 1:1	Waraga ni öya kï both Paulo, atic ka Kiricito Yecu, n'Obanga öyërö më bedo akwëna ëka eoro më tïtö köp më Emuth na Bër k'Obanga.
 Holy-Bible---Thur---Leb-Thur-Bible	MAT-028-019	Matayo 28:19	Pï manön cïdh unu dong ëk ïlök unu jö më rok kïbëc ödök gïnï ëlübköra, baticagï unu kï nyïng Apap, ëka Wod ëka Tipo Naleng,
+Holy-Bible---Tichurong---Tichurong-Bible	JOH-003-016	युहान्ना 3:16	“चिचालानाना कजसुबे संसारला धि च्वरा करि क्याइसोङ, कि खोला रेँ पिजा चिक्पा तेहाङ पिन्देलो, हति क्याइरे सुइ याङ खोला हिछे किङान सुवाङ मासि मायोङ नाइरे, हिन्नाङ नामयाङ मिसिनयाप मिजे खु।
+Holy-Bible---Tichurong---Tichurong-Bible	GEN-003-024		
+Holy-Bible---Tichurong---Tichurong-Bible	LUK-023-034		
+Holy-Bible---Tichurong---Tichurong-Bible	REV-021-002		 
+Holy-Bible---Tichurong---Tichurong-Bible	HEB-011-008		
+Holy-Bible---Tichurong---Tichurong-Bible	EXO-013-017		
+Holy-Bible---Tichurong---Tichurong-Bible	MAR-010-045		
+Holy-Bible---Tichurong---Tichurong-Bible	ROM-001-001		
+Holy-Bible---Tichurong---Tichurong-Bible	MAT-028-019		
 Holy-Bible---Tongan---Revised-West-Version	JOH-003-016	Sione 3:16	He naʻe ʻofa pehē ʻae ʻOtua ki māmani, naʻa ne foaki hono ʻAlo pe taha naʻe fakatupu, koeʻuhi ko ia kotoa pē ʻe tui kiate ia ke ʻoua naʻa ʻauha, kae maʻu ʻae moʻui taʻengata.
 Holy-Bible---Tongan---Revised-West-Version	GEN-003-024	Senesi 3:24	Pea naʻa ne kapusi ai ʻae tangata pea ne tuku ki he [potu ]hahake ʻoe ngoue ʻo ʻIteni, ʻae selupimi, mo e heletā ulo, ʻaia naʻe foli fakatakamilo, ke leʻohi ʻae hala ʻoe ʻakau ʻoe moʻui.
 Holy-Bible---Tongan---Revised-West-Version	LUK-023-034	Luke 23:34	Pea toki pehē ʻe Sisu, “ʻE Tamai, fakamolemole ʻakinautolu; he ʻoku ʻikai te nau ʻilo ʻaia ʻoku nau fai.” Pea naʻa nau vahevahe ʻa hono ngaahi kofu, ʻo talotalo.
@@ -4001,6 +4379,24 @@ Holy-Bible---Tsakhur---Tsakhur-Bible	EXO-013-017	Qığeepç'iy 13:17	Fironee mil
 Holy-Bible---Tsakhur---Tsakhur-Bible	MAR-010-045		
 Holy-Bible---Tsakhur---Tsakhur-Bible	ROM-001-001		
 Holy-Bible---Tsakhur---Tsakhur-Bible	MAT-028-019	Matta 28:19	Mançil-allab hapk'ın gırgıne milletbışike Yizın telebabı hee'e, manbı Dekkıne, Dixene, sayıb Muq'addasne Rı'hı'ne doyuka xhineeqa k'yooq'u gicəpxı'ybı aleet'e'e.
+Holy-Bible---Tsikimba---Tsikimba-Bible	JOH-003-016		
+Holy-Bible---Tsikimba---Tsikimba-Bible	GEN-003-024		
+Holy-Bible---Tsikimba---Tsikimba-Bible	LUK-023-034		
+Holy-Bible---Tsikimba---Tsikimba-Bible	REV-021-002		 
+Holy-Bible---Tsikimba---Tsikimba-Bible	HEB-011-008		
+Holy-Bible---Tsikimba---Tsikimba-Bible	EXO-013-017		
+Holy-Bible---Tsikimba---Tsikimba-Bible	MAR-010-045		
+Holy-Bible---Tsikimba---Tsikimba-Bible	ROM-001-001		
+Holy-Bible---Tsikimba---Tsikimba-Bible	MAT-028-019		
+Holy-Bible---Tsishingini---Tsishingini-Bible	JOH-003-016		
+Holy-Bible---Tsishingini---Tsishingini-Bible	GEN-003-024		
+Holy-Bible---Tsishingini---Tsishingini-Bible	LUK-023-034		
+Holy-Bible---Tsishingini---Tsishingini-Bible	REV-021-002		 
+Holy-Bible---Tsishingini---Tsishingini-Bible	HEB-011-008		
+Holy-Bible---Tsishingini---Tsishingini-Bible	EXO-013-017		
+Holy-Bible---Tsishingini---Tsishingini-Bible	MAR-010-045		
+Holy-Bible---Tsishingini---Tsishingini-Bible	ROM-001-001		
+Holy-Bible---Tsishingini---Tsishingini-Bible	MAT-028-019		
 Holy-Bible---Turkish---Open-Basic-Turkish	JOH-003-016	Yuhanna 3:16	Allah dünyayı o kadar sevdi ki, biricik Oğluʼnu verdi. Öyle ki, her kim Oʼna iman ederse mahvolmasın ama sonsuz yaşama kavuşsun.
 Holy-Bible---Turkish---Open-Basic-Turkish	GEN-003-024		
 Holy-Bible---Turkish---Open-Basic-Turkish	LUK-023-034	Luka 23:34	O zaman İsa şöyle dedi: “Baba, onları bağışla. Çünkü ne yaptıklarını bilmiyorlar.” Askerler İsaʼnın elbiselerini aralarında paylaşmak için kura çektiler.
@@ -4136,6 +4532,33 @@ Holy-Bible---Uyghur---Uyghur-Bible-Pinyin	EXO-013-017	Misirdin qiⱪix 13:17	Əm
 Holy-Bible---Uyghur---Uyghur-Bible-Pinyin	MAR-010-045	Markus 10:45	Qünki Insan’oƣlimu dǝrwǝⱪǝ xu yolda kɵpqilik mening hizmitimdǝ bolsun demǝy, bǝlki kɵpqilikning hizmitidǝ bolay wǝ jenimni pida ⱪilix bǝdiligǝ nurƣun adǝmlǝrni ⱨɵrlükkǝ qiⱪiray dǝp kǝldi.
 Holy-Bible---Uyghur---Uyghur-Bible-Pinyin	ROM-001-001	Rimliⱪlarƣa 1:1	Rosulluⱪⱪa tallap qaⱪirilƣan, Hudaning hux hǝwirini jakarlaxⱪa ayrip tǝyinlǝngǝn, Mǝsiⱨ Əysaning ⱪuli bolƣan mǝnki Pawlustin salam!
 Holy-Bible---Uyghur---Uyghur-Bible-Pinyin	MAT-028-019	Matta 28:19	Xuning üqün, berip pütkül ǝllǝrni [ɵzümgǝ] muhlis ⱪilip yetixtürünglar, xundaⱪla ularni Ata, Oƣul wǝ Muⱪǝddǝs Roⱨning namiƣa tǝwǝ ⱪilip qɵmüldürüp,
+Holy-Bible---Vaagri-Booli---Vaagri-Booli-Bible	JOH-003-016	ಯೋಹಾನ 3:16	ದೇವ್ನೆ ಆ ಜಗತ್‌ನು ಅದ್ಮಿನ ಕೆತ್ರೇಸ್ಕಿ ಜಾ಼ಖ್ಹತ್ ಪ್ಯಾರ್ ಕರೀನ್, ಇನೊ ಏಕ್‍ನೊ-ಎಕ್ಕಸ್ ಛಿಯ್ಯಾನ ದಿದೊ; ಇನ ನಂಬವಾಳು ಏಕ್‌ಬಿ ಮರ‍್ನುನಾತೆ ಹರೇಕ್ನ ಹಮೇಶಾನಿ ಜಿ಼ಂದ್‌ಗಿ ಮಳ್‌ಣು ಕರಿ ಇನ ದಿದೊ.
+Holy-Bible---Vaagri-Booli---Vaagri-Booli-Bible	GEN-003-024		
+Holy-Bible---Vaagri-Booli---Vaagri-Booli-Bible	LUK-023-034	ಲೂಕ 23:34	ತದೆ ಯೇಸುನೆ, “ಬಾ, ಅವ್ಣುನ ಮಾಪ್‌ಕರ್‌! ಅವ್ಣೆ ಶಾತ್‌ ಕರುಕರಸ್ ಕರಿ ಅವ್ಣುನಾಸ್‌ ಮಾಲುಮ್‌ ಕೊಯ್ನಿ” ಕರಿ ಬೋಲ್ಯೊ. ಸಿಪಾಯಿಖ್ಹಾರು ಚೀಟಿ ನಾಖಿನ್, ಯೇಸುನ ಲುಂಗ್ಡಾವ್‍ನ ಇವ್ಣ-ಇವ್ಣಾಮಸ್ ವಾಟ ಪಾಡಿಲಿದು.
+Holy-Bible---Vaagri-Booli---Vaagri-Booli-Bible	REV-021-002	ಪ್ರಕಾಶಿತ್ 21:2-3	ಅತ್ರೇಸ್ ಕಾಹೆತೆ ಸೊರ್ಗಾಥು ಪರಿಶುದ್ ನಂಗರ್ ಯೆರೂಸಲೇಮ್ ದೇವ್‌ಕಂಥು ಉತ್ರಿ ಆವನು ಮೇ ದೇಖ್ಯೊ. ಯೋ ಇನ ಬಾವ್ರಿನಖ್ಹಾಜೆ ತಯಾರ್ ಹುಯಿರ‍್ಹವಾಳಿ ವ್ಯತುಲ್ಡಿನಿ ಘೋಣಿ ಶನ್‌ಗಾರ್ ಹುಯಿರ‍್ಹುಥು. ಆ ನಾಹುಯಿನ್ ಸಿಂಹಾಸನ್‌ಥು ಏಕ್‌ ಮೋಟು ಅವಾಜ಼್ ಮೆ ಖ್ಹಮ್‌ಜೊ. ಯೊ ಅವಾಜ಼್ ದೇಖೊ, ದೇವ್ನು ಘರ್‌ ಅದ್ಮಿನಿ ಜೋ಼ಡ್ಮ ಛಾ಼. ಯೊ ಇವ್ಣಿ ಜೋ಼ಡ್‌ಮರ‍್ಹಿಷೆ. ಇವ್ಣೆ ಇನವಾಳ ಹುಯಿರ‍್ಹಿಷೆ ಅಜು಼ ಯೊ ಇವ್ಣೊ ದೇವ್ ಹುಯಿರ‍್ಹಿಷೆ.
+Holy-Bible---Vaagri-Booli---Vaagri-Booli-Bible	HEB-011-008	ಇಬ್ರಿ 11:8	ವಿಶ್ವಾಸ್‌ಥೀಸ್ ದೇವ್ನೆ ವಾಗ್ದಾನ್ ಕರ‍್ಯೊತೆ ದೇಖ್ಹ್‌ನ ಇನೆ ಲೀಲೇವ್ಣುಕರಿ ಅಬ್ರಹಾಮ್‌ನೆ ವಿಧೇಯ ಹುವಾಳೊ ಹುಯಿನ್ ಯೋ ಹಕ್‌ಥಿ ಲೇವ್ಣುಥೂತೆ ದೇಖ್ಹ್‌ನ ನಿಕ್ಳಿಗಯೊ. ಇನೆ ಕಿಜ್ಜಾ಼ ಜಾ಼ವ್ಣುಕರಿ ಸೋಚ್ಯೊ ಕೊಯ್ನಿತೇಬಿ ಚ಼ಲೆಗಯೊ.
+Holy-Bible---Vaagri-Booli---Vaagri-Booli-Bible	EXO-013-017		
+Holy-Bible---Vaagri-Booli---Vaagri-Booli-Bible	MAR-010-045	ಮಾರ್ಕ 10:45	ಅದ್ಮಿನೊ ಛಿಯ್ಯೋಬಿ ಸೇವೆ ಕರೈಲ್ಯವಾನಖ್ಹಾಜೆ ಕೋ ಆಯೋನಿ; ಬಿಜಾ಼ನಿ ಸೇವೆ ಕರಾನ ಅಜು಼ ಇನೊ ಜಾನ್ನ ದೀನ್ ಕೈಯೆಕ್ಕಿ ಅದ್ಮಿನ ಛೋ಼ಡೈಲ್ಯವಾನಖ್ಹಾಜೆ ಆಯೊ” ಕರಿ ಬೋಲ್ಯೊ.
+Holy-Bible---Vaagri-Booli---Vaagri-Booli-Bible	ROM-001-001	ರೋಮ 1:1	ಯೇಸು ಕ್ರಿಸ್ತನೊ ದಾಸಬಿ ಅಪೊಸ್ತಲ ಹುವಾನಖ್ಹಾಜೆ ಬುಲಾಯೊಹುಯೋಬಿ ದೇವ್ನು ಸುವಾರ್ತೆನ ಬೋಲಾನಖ್ಹಾಜೆ ಚೂ಼ಣಾಯೊಹುಯೊ ಪೌಲ,
+Holy-Bible---Vaagri-Booli---Vaagri-Booli-Bible	MAT-028-019	ಮತ್ತಾಯ 28:19	ಇನಖ್ಹಾಜೆ ತುಮೆ ಜೈ಼ನ್, ಖ್ಹಾರ ದೇಖ್ಹ್‌ಮ ಛಾ಼ತೆ ಅಲಕ್ ಅಲಕ್ ವಾತೆ ಬೋಲಾವಳು ಅದ್ಮಿ ಖ್ಹಾರಾನ ಮಾರ ಶಿಷ್ಯರ್‌ ಬಣಾವೊ: ಇವ್ಣುನ ಬಾ, ಛಿಯ್ಯೊ ಅಜು಼ ಪವಿತ್ರಾತ್ಮನ ನಾಮ್‌ಪರ್‌ ಬ್ಯಾಪ್ತಿಸ್ಮ ದೆವೊ.
+Holy-Bible---Vaghri---Vaghri-Bible	JOH-003-016	యోహా 3:16	దేవ్ ఆ ములక్నా కెత్రూకి ఫ్యార్‍కర్యో, ఇనటెకె యో ఇను ఏక్నాఏక్‍ ఛియ్యోని గోణి ప్హైయిదాహుయుతె ఇనపార్‍ విష్వాసం రఖావాలు హార్యేజను నాషనం నాహోనుకరి, ఇవ్నే నిత్యజీవుణు మల్ను కరి ఇనా అనుగ్రహించి రాక్యొస్‍
+Holy-Bible---Vaghri---Vaghri-Bible	GEN-003-024		
+Holy-Bible---Vaghri---Vaghri-Bible	LUK-023-034	లూకా 23:34	యేసు ఆమ్‍ బోల్యొ, “భా ఆవ్నే ష్యాత్‍ కరుకరస్‍కీ అవ్నాస్‍ మాలంకోయిని అవ్నా క్చమించ్‍” కరి బోల్యొ. యూవ్నే చీట్లునాఖిన్‍ యేసును లుంగ్డాన ఫాడీన్‍ భాగ్‍ పళ్లిధా.
+Holy-Bible---Vaghri---Vaghri-Bible	REV-021-002	ప్రక 21:2-3	బుజు మే నవూహుయూతె యెరూషలేమ్‍ కరి యోపరిసుద్ధను నంగర్నా ఇను బావ్రీనాహాఃజె ఓఢిపేర్లీన్‍ఛాతె య్హాను చొరీనిఘోని సిద్ధపఢీన్‍ స్వర్గంమాఛాతె దేవ్ కంతూ ఉత్రీన్‍ ఆవనూ దేక్యొథొ. తెదె హదేక్‍ దేవ్ను నివాసమ్‍ అద్మియేతిబి ఛా. ఇను ఇవ్నేతి మలీన్‍ర్హాసె. ఇవ్నేయినూ జనాభొహుయీన్‍ ర్హాసె, దేవ్‍ యోస్‍ ఇవ్నూ దేవ్‍హుయీన్‍ రయీన్‍ ఇవ్నా కేడెహుయీన్‍ ర్హాసె.
+Holy-Bible---Vaghri---Vaghri-Bible	HEB-011-008	హెబ్రీ 11:8	దేవ్ అబ్రాహామ్‍నా బోలయోతెదే యో విష్వాసంనబట్టిన్‍ యో బులావట్న లోబడ్యో, ఇను వారసత్వంన పొందజాసేతె జొగోమా గయో. యో కెజ్గాజానుకి మాలంకొయిన్తిం ఛాలిగో.
+Holy-Bible---Vaghri---Vaghri-Bible	EXO-013-017		
+Holy-Bible---Vaghri---Vaghri-Bible	MAR-010-045	మార్కు 10:45	అద్మినఛియ్యో, “సేవా కర్యాయ్‍ లేవనటేకె కోఆయోని, పన్కి హాఃరవ్‍నా సేవ కరనాటేకె, బుజు హాఃరవ్నా చొఢావ్నటేకె ఇను జాన్నా దెవ్వానటేకె ఆయోకరి” బోల్యొ.
+Holy-Bible---Vaghri---Vaghri-Bible	ROM-001-001	రోమా 1:1	యేసు క్రీస్తు దాసుడ్‍, అపొస్తల్‍నితరా ర్హావనటేకె బులాయుమంగాహుయోబి, దేవ్ను సువార్తనటేకె ప్రత్యేకించుహుయోతె
+Holy-Bible---Vaghri---Vaghri-Bible	MAT-028-019	మత్త 28:19	ఇనటేకె తుమె హాఃరసమస్త ములక్‍మా జైన్‍, అద్మియేనా సిష్యుల్నితరా కరొ భాన నామ్‍హో, ఛియ్యానూ నామ్ హో, పవిత్రాత్మానా నామ్తి, ఇవ్నా బాప్తిస్మమ్‍ దెవో.
+Holy-Bible---Vidunda---Vidunda-Bible	JOH-003-016	Yohana 3:16	Nguluwi nakawagana wanhu wa isi, mbaka kamigala Mwanage yaliyeng'ha leka chila munhu yomkunda yaleche kubagama ila yawe na ukomu wa mazuwa gose ne kuduma.
+Holy-Bible---Vidunda---Vidunda-Bible	GEN-003-024	Mwaluko 3:24	Nakamuwinga kunze, na kuwawika wamizi wahilisi nzingo kolilawilaga isanya kuli kamgunda ka Edeni na sengo ya chiluli ilinguhinduka ako na ako, nakwamila nzila ilingulutila kuli mgodi wa ukomu.
+Holy-Bible---Vidunda---Vidunda-Bible	LUK-023-034	Lukasi 23:34	Yesu nakalonga, “Mhaza uwalechele kwa vila hawavizelele hebu chowalingudita.” Wahola nguwo zonayavalaga kwa kuzitowela simbi.
+Holy-Bible---Vidunda---Vidunda-Bible	REV-021-002	Ugubulo 21:2-3	Ndiwona muji welile, Yelusalemu inyale, udulika kulawa kwa Nguluwi kilanga. Nawali uwichigwe goya kota mdala yahesigwe yenolije kiting'hana na mlume wa heye. Kulawa baho nanyulika lizi likulu kulawa kuli chigoda cha undewa ilonga, “Gwela yoo! Hakaye ha Nguluwi ndo hamwe na wanhu. Kochikala hamwe na hewo, na hewo wowa wanhu wa heye, na heye kowa Nguluwi wa hewo.
+Holy-Bible---Vidunda---Vidunda-Bible	HEB-011-008	Waebulaniya 11:8	Kwa makundo Abulahamu nakamhulichiza Nguluwi loyachemigwe yalute kuli isi iwele Nguluwi yalonjile khoma iwe ya heye. Abulahamu nakoka, hanga nahavizelele koyali yoluta.
+Holy-Bible---Vidunda---Vidunda-Bible	EXO-013-017	Kulawa 13:17	Falao naloyawalechele wanhu awo walute, Nguluwi nahawalongoze kuli nzila ya isi ya Wafilisti, hanga nayali habehi. Mina Nguluwi nakalonga kota waleche kugozola aho wanhu awa lowoting'hana na ngondo na kuhiluka Misili.
+Holy-Bible---Vidunda---Vidunda-Bible	MAR-010-045	Malichi 10:45	Mina Mwana wa Munhu hoyile kukolelwa mijito, ila kuwakolelamijito na kuulavya ukomu wa heye, kwa chiwalo cha ulohozi wa wanhu wenji.”
+Holy-Bible---Vidunda---Vidunda-Bible	ROM-001-001	Waloma 1:1	Heni Paoli, chitumagwa wa Yesu Kilistu. Nguluwi nakanyhema ndiwe mtumigwa na kunyagula ndiwe ndiwadamlila wanhu Mbuli Inojile ya heye.
+Holy-Bible---Vidunda---Vidunda-Bible	MAT-028-019	Matei 28:19	Luteni lelo, mkawadite wanhu wa isi zeng'ha wawe walanguswa wa heni, muwabatize kwa itagwa lya Mhaza na lya Mwana na lya Muhe Yelile.
 Holy-Bible---Vietnamese---Contemporary	JOH-003-016	Giăng 3:16	Vì Đức Chúa Trời yêu thương nhân loại đến nỗi hy sinh Con Một của Ngài, để tất cả những người tin nhận Con đều không bị hư vong nhưng được sự sống vĩnh cửu.
 Holy-Bible---Vietnamese---Contemporary	GEN-003-024	Sáng Thế 3:24	Khi đuổi hai người ra, Đức Chúa Trời Hằng Hữu đặt các thiên thần cầm gươm chói lòa tại phía đông vườn Ê-đen, để canh giữ con đường dẫn đến cây sự sống.
 Holy-Bible---Vietnamese---Contemporary	LUK-023-034	Lu-ca 23:34	Chúa Giê-xu cầu nguyện: “Thưa Cha, xin tha tội cho họ, vì họ không biết mình làm điều gì.” Rồi bọn lính gieo súc sắc chia nhau bộ áo của Ngài.
@@ -4172,6 +4595,33 @@ Holy-Bible---Vwanji---Vwanji-Bible	EXO-013-017
 Holy-Bible---Vwanji---Vwanji-Bible	MAR-010-045	Malika 10:45	Na juune ne Mwana ghwa Muunhu nanilisile kuvombelua, looli nilisile kukuvavombela avange na kuhumia uvwumi vwango kuuti nivavange vinga.”
 Holy-Bible---Vwanji---Vwanji-Bible	ROM-001-001	varumi 1:1	uPaulo unsung'ua ghwa Yesu Kilisite, juno akemhelilue kuva nsung'ua, na kubaghulua vwimila ilivangili lya Nguluve.
 Holy-Bible---Vwanji---Vwanji-Bible	MAT-028-019	Mataayi 28:19	Lino, mulutaghe muvalungikaghe avaanhu mu iisi sooni, vaave vavulanisivua vango, muvofughaghe mu litavua ilya Nhaata, ni lya Mwanaake ni lya Nhepo u Mwimike.
+Holy-Bible---Waddar---Waddar-Bible	JOH-003-016		
+Holy-Bible---Waddar---Waddar-Bible	GEN-003-024		
+Holy-Bible---Waddar---Waddar-Bible	LUK-023-034	लूक 23:34	आंटेका, येशुड आन्या, “हे अब्बा, वारनी क्षमा शेय इन्का वार येम शेस्तार इदी वारीक तेलवाद.” वार चिठ्ठ्याल येशीर वान्द बट्टाल फन्ची तीस्कुनीर.
+Holy-Bible---Waddar---Waddar-Bible	REV-021-002		 
+Holy-Bible---Waddar---Waddar-Bible	HEB-011-008		
+Holy-Bible---Waddar---Waddar-Bible	EXO-013-017		
+Holy-Bible---Waddar---Waddar-Bible	MAR-010-045	मार्क 10:45	येनटीक की मनशी कोडकु पण सेवा शेस्कुनदेंक दालेद तर सेवा शेशेदेंक वच्चीनाड, शेंगेम मंदी सूटकारा कस्रोम स्वताद जेम इद्देंक वच्चीनाड.”
+Holy-Bible---Waddar---Waddar-Bible	ROM-001-001		
+Holy-Bible---Waddar---Waddar-Bible	MAT-028-019		
+Holy-Bible---Waja---Waja-Bible	JOH-003-016		
+Holy-Bible---Waja---Waja-Bible	GEN-003-024		
+Holy-Bible---Waja---Waja-Bible	LUK-023-034		
+Holy-Bible---Waja---Waja-Bible	REV-021-002		 
+Holy-Bible---Waja---Waja-Bible	HEB-011-008		
+Holy-Bible---Waja---Waja-Bible	EXO-013-017		
+Holy-Bible---Waja---Waja-Bible	MAR-010-045		
+Holy-Bible---Waja---Waja-Bible	ROM-001-001		
+Holy-Bible---Waja---Waja-Bible	MAT-028-019	Matayo 28:19	Di̱ngi̱n to̱no̱ bu ambi̱ra a kana pi̱yau̱ mi̱ri̱nggi̱ si̱ma bu yi̱we̱ nu̱wa mwa mwa ba yo̱o̱ kwati̱mba muwa, bu ni̱ngaman pma bati̱si̱ma mi̱ri̱nggi̱ din Mbaate̱ yi̱ du Bwi̱ya yi̱ du Bawei du Walwal.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	JOH-003-016	Yahya 3:16	Tapanamo kaasina Aulataʼala to dunia sii, sabutuna Incia adhawuakea o Ana Sakaro-karona sumai mamudhaakana bhari-bharia mia moparacaeana i Ana inda abinasa, maka apotibhaaka dhadhi saʼumurua.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	GEN-003-024	Bhaa-bhaana 3:24	Incia awulu maanusia sumai alimba, kasiimpomo i wetana timbu i Inawuna Eden tee adhikaakea rua mia malaaʼekatina kerub tee samata hancu mokarore-rorena tee mopekapatiina i sagala rope to mojaganina dhala moporopena i puu idhadhiaka sumai.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	LUK-023-034	Lukas 23:34	Kasiimpo Isa apogau, "E Uma, amponia manga incia, roonamo manga incia inda amataua opea ipewauna." Kasiimpo manga suludadu atudhaaka dadu to apodhawu-dhawuaka pakeana Isa.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	REV-021-002	Wahiyuu 21:2-3	Iaku uka kukamata Kota Momangkilo, siitumo Yerusalem mobhaau, asapo minaaka i sorogaa, minaaka i Aulataʼala. Incia apamakanua tee apapoajoa mboomo samia panganti bhawine to apokawa tee panganti umane. Iaku kurango suara momakaa minaaka i saripina kauncuramakana Aulataʼala mopogauna, "Kamatea, sii-sii kemana Aulataʼala akakaro i tanga-tangana uumatina dunia tee Incia bheamboore apobhawa-bhawa tee maanusia. Tee mboo sumai amondomo janjina Aulataʼala mopadhana ipakawaakana alaloi manga nabii, 'Iaku bhekumboore tee ingkomiu, ingkomiu bheumembali uumatiku, tee Iaku bhekumembali Aulataʼalamiu.'
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	HEB-011-008		
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	EXO-013-017	Limbaana 13:17	Sapadhana Firaun ataroaka miana Israel alingka, Aulataʼala inda atonda manga incia alalo i dhala moporopena i lipuna miana Filistin, moomini dhala sumai amakasu roonamo Aulataʼala afirimani, "Tapalaka manga mia sumai asoso ande ahumbunia manga musuna sabutuna manga ambuli pendua i Mesir."
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	MAR-010-045	Markus 10:45	Roonamo Anana Maanusia aumba mencuana to atolaiani, maka to alaiani mia mosagaanana tee apasaraakaaka inyawana to amembali katolosina mia bhari."
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	ROM-001-001		
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	MAT-028-019	Matius 28:19	Rampaakanamo sumai ulingkamo, tee bhari-bharia lipu upamembalia muriku tee upapebhahoa i nuncana sarona o Ama tee Anana tee Rohina Aulataʼala Momangkilo,
 Holy-Bible---Yaka---Ivatan-Bible	JOH-003-016	Yowani 3:16	Ka mbii bu Nziaambi atooni tsi, nde aheeri Mwaana a nde ndila mosi, paa pasi wu usa imiini mu nde, a budusu pe, ka sa abaa moonyi wa bilimi na bilimi.
 Holy-Bible---Yaka---Ivatan-Bible	GEN-003-024		
 Holy-Bible---Yaka---Ivatan-Bible	LUK-023-034	Luka 23:34	[Tumake, Yiisu aleeli: «Taata, sa bo kolokolo, ka a bayaaba pe mi bo bali mu uyiluu.»] Bo bati zeke mu ukaba bikutu bia nde.
@@ -4181,6 +4631,42 @@ Holy-Bible---Yaka---Ivatan-Bible	EXO-013-017
 Holy-Bible---Yaka---Ivatan-Bible	MAR-010-045	Malako 10:45	Mundaa ti Mwaana a muutu a ayiri pe paa bamubaasila, ka mu ubaasila baata, na uha moonyi a nde weti kori mu uha bunyanga kwaa babalayi.»
 Holy-Bible---Yaka---Ivatan-Bible	ROM-001-001	Looma 1:1	Me Pawuli booyi la Yiisu Kristo. Nziaambi ati me mbila mu uba tumu, na asiooli me mu uyaabisa Ndaa Yimbwe ya Nziaambi.
 Holy-Bible---Yaka---Ivatan-Bible	MAT-028-019	Mataayi 28:19	Ni mu buu, diyene kwaa baata ba bifuumbu bioosi. Diyiisi bo paa bo baba miyii mia me. Diababootuu mu kuumbu a Taayi, na ya Mwaana, na ya Muheebili wa Ngira.
+Holy-Bible---Yaka---Yaka-Bible	JOH-003-016	Yowani 3:16	Mukuma Nzambi watoma zola tsi, wáhana Mwana wandi mosi, ndangu wosu wuna wukwikidini mwena yandi, katotaku kaasi katambula moya wa mvula yi mvula.
+Holy-Bible---Yaka---Yaka-Bible	GEN-003-024		
+Holy-Bible---Yaka---Yaka-Bible	LUK-023-034	Luka 23:34	[Yesu kakala zimbula: «Tata, balolula mukuma bazayimoku mana babati sala.»] Basanzani miledi myandi mu kubetilamya phi zeki.
+Holy-Bible---Yaka---Yaka-Bible	REV-021-002		 
+Holy-Bible---Yaka---Yaka-Bible	HEB-011-008	Hebelu 11:8	Mu nzila ya lukwikilu, Bulahami kálemvwakila ku mbila ya Nzambi: wátambwasa mu kukwenda ku tsi yina kakhana muheka Nzambi. Mbatanana kákonda zaya kuna kakala kwenda.
+Holy-Bible---Yaka---Yaka-Bible	EXO-013-017		
+Holy-Bible---Yaka---Yaka-Bible	MAR-010-045	Malaku 10:45	Mukuma keti yandi meni Mwana wa mutu kísaku ndangu bamusadila, kaasi kikuma kya kusadila yi kulambula luzingu lwandi mu phila ya kukatula batu balawu mu kihika.»
+Holy-Bible---Yaka---Yaka-Bible	ROM-001-001	Loma 1:1	Meni Pholu, muhika wa Kidisitu Yesu, wuna bátela amana básya mu kingenga mu kukala thumwa, kikuma kya kusamuna Musamu wandi wa Bukheti wa Nzambi.
+Holy-Bible---Yaka---Yaka-Bible	MAT-028-019	Mathayi 28:19	Disongidila alwendenu, kitulenu batu ba makanda moosu balonguki bama; babotikenu mu khumbu ya Tata yi ya Mwana yi Kitembu Kyatoma;
+Holy-Bible---Yalunka---Yalunka-Bible	JOH-003-016	Yoni 3:16	Amasɔtɔ Ala bata dunuɲa xanu han a bata a Dii Xɛmɛ keden peen fi en ma, alogo muxu yo na dɛnkɛlɛya a ma, na nama halagi fɔ a habadan nii rakisin sɔtɔ.
+Holy-Bible---Yalunka---Yalunka-Bible	GEN-003-024	Dunuɲa Fɔlɔna 3:24	A to Adama kedi, Ala yi maleka gubugubu kanne ti Eden sogeteden binna ra. A mɔn yi silanfanna tɛɛ daxin lu mɛnni naxan a firifirima na longonni kiraan kantan xinla ma siga siimaya wudin yireni.
+Holy-Bible---Yalunka---Yalunka-Bible	LUK-023-034	Luka 23:34	Yesu naxa, “N Fafe, e mafelu, amasɔtɔ e naxan ligama e mi na kolon.” Awa, e yi masɛnsɛnna ti lan a dugine yitaxun feen ma.
+Holy-Bible---Yalunka---Yalunka-Bible	REV-021-002	Lankɛnɛmayana 21:2-3	Awa, n yi Alaa Taa Sariɲanxin to godɛ keli ariyanna yi Ala fɛma, Yerusalɛn nɛnɛna, a yitɔnxi alo ɲaxalandin naxan a yitɔnxi siga a xɛmɛn nalandeni. N yi fala xui gbeen mɛ manga gbɛdɛni, a naxa, “Ala dɔxɔden bata lu adamadiine tagi! A luma nɛn e fɛma, e findi a yamaan na. Ala yɛtɛɛn luma nɛn e fɛma, a findi e Ala ra.
+Holy-Bible---Yalunka---Yalunka-Bible	HEB-011-008	Heburune 11:8	Dɛnkɛlɛyaan xɔn, Ala to Iburahima xili, a yi a falan suxu, a siga na yamanani, a yi naxan sɔtɔma a kɛɛn na, hali a to mi yi a kolon a sigan dɛnaxan yi.
+Holy-Bible---Yalunka---Yalunka-Bible	EXO-013-017	Xɔrɔyana 13:17	Firawona to tin yamaan xa siga, Ala mi e ramini Filisitine yamanan kira yisoxin xɔn, bayo Ala a fala nɛn, a naxa, “E na yɛngɛn to, e nɔɛ e miriyane maxɛtɛ nɛn, e xɛtɛ Misiran yi.”
+Holy-Bible---Yalunka---Yalunka-Bible	MAR-010-045	Maraka 10:45	Amasɔtɔ hali n tan Muxuna Dii Xɛmɛna, n mi faxi fa fala muxe xa wali n xa, koni alogo n tan xa wali, n yi n niin fi muxu wuyaxi xunbaan na.”
+Holy-Bible---Yalunka---Yalunka-Bible	ROM-001-001	Romi Kaane 1:1	N tan Pɔli, Alaa Muxu Sugandixina Yesu a walikɛna, Ala bata naxan xili alogo n xa findi a xɛraan na, a yi n yɛba alogo n xa Alaa falan Xibaru Faɲin nali, n bata ito sɛbɛ ɛ ma.
+Holy-Bible---Yalunka---Yalunka-Bible	MAT-028-019	Matiyu 28:19	Nayi, ɛ siga, ɛ sa siyane birin findi n ma xarandiine ra, ɛ yi e rafu igeni n Fafe Ala nun a Dii Xɛmɛn nun a Nii Sariɲanxin xinli,
+Holy-Bible---Yamap---Yamap-Bible	JOH-003-016		
+Holy-Bible---Yamap---Yamap-Bible	GEN-003-024		
+Holy-Bible---Yamap---Yamap-Bible	LUK-023-034	Luk 23:34	Me Yisu henang nena, “Wakamik, nôŋgêv loho ning kambom vê vômbê nena loho thông paling be evong.” Yôvêm me ŋa vovak îmbî valu vo injê nena opalête tem nimbua ya thôp.
+Holy-Bible---Yamap---Yamap-Bible	REV-021-002		 
+Holy-Bible---Yamap---Yamap-Bible	HEB-011-008		
+Holy-Bible---Yamap---Yamap-Bible	EXO-013-017		
+Holy-Bible---Yamap---Yamap-Bible	MAR-010-045	Mak 10:45	hîtôm Anô Ya Nakandung atu hevong bêng yom. Me mî ya halêm vo avîlanô pîk embong yînîng ku amî. Metom ya halêm vo yambong avîlanô pîk ining ku. Ya halêm vo yambua loho vê injêk malêing lêk ya tak yînîng lêkmala vo nêŋgêv avîlanô bêng anông livung.”
+Holy-Bible---Yamap---Yamap-Bible	ROM-001-001		
+Holy-Bible---Yamap---Yamap-Bible	MAT-028-019	Matyu 28:19	Bêng be môlô nu pîk nômbêng iti sapêng me môlôndông avîlanô vo imbutak îtôm yînîng ŋa esopa ya. Me uthik loho îndôk ŋanam ethak Lambô ya athêng me Nakandung ya athêng me Lovak Matheng ya athêng.
+Holy-Bible---Yansi---Yansi-Bible	JOH-003-016	YWAN 3:16	Abun Nzam kàkwen mɛɛn mbɔɔn, lalan kàpɛ nde Mwan baal ande mwɛy mpɛl, ntɔn mbuur wanswà asà làkwikilà amu nde ukɔ̈ɔ̈n akyà bwà, wɛɛ nde ukäl anà mɔ̈ɔ̈ a mbul a in'tye.
+Holy-Bible---Yansi---Yansi-Bible	GEN-003-024		
+Holy-Bible---Yansi---Yansi-Bible	LUK-023-034	LUKÀ 23:34	Waa Yɛsu kàtɛn naa: « Taa, adwääl nkul, ntɔn ba bàyöb anki ndaa bàkyerà ba. » Ba bàkäb ipfɛy ande mutà löb.
+Holy-Bible---Yansi---Yansi-Bible	REV-021-002	IMƐƐY 21:2-3	Mɛ kàmɛn sye bul in'kyɛɛl, Yɛlusàlɛm akün, làfü du apà Nzam, asànaa un'kyay kan'sà ntwɛn ntɔn un'dim ande. Mɛ kàwem ndaa mwɛy yàngwal yan'too u kir a imwol yàmutɛn naa: « Le ikal a Nzam anà baar a mɔ̈ɔ̈! Nde asàkal anà ba, anà ba bàsàkal in'sɛŋ ande. Nzam ŋakwo asàkal anà ba, nde asàkal Nzam aba.
+Holy-Bible---Yansi---Yansi-Bible	HEB-011-008	ƐBƐLYƆ 11:8	U mbwo a làkwikilà, Abàlam kàkyey làbeel a Nzam awà kun'swɛŋ mukyà nsi ayà kàlàkàwal nde kwal, nde kàkyen ukɔɔn ayöb naa nde ken ukyà.
+Holy-Bible---Yansi---Yansi-Bible	EXO-013-017		
+Holy-Bible---Yansi---Yansi-Bible	MAR-010-045	MALAKƆ 10:45	Lalan Mwan a mbuur kàyi anki ntɔn bun'syääl, wɛɛ nde kàyi ntɔn musyääl anà mupà mɔ̈ɔ̈ ande asànaa nkwiy ntɔn baar mbɔɔn. »
+Holy-Bible---Yansi---Yansi-Bible	ROM-001-001	LƆMÀ 1:1	Pɔl, un'syääl a Klistɔ Yɛsu, bun'bel mukal ntööm anà bun'si ukɔl ntɔn mukyään Làsaŋ a Nzam.
+Holy-Bible---Yansi---Yansi-Bible	MAT-028-019	MÀTAY 28:19	Làkyen akà in'sɛŋ myanswà, labuul alɔŋki, ladümà kà ikɔb a Taa, anà kyà Mwan, anà kyà Dweelà In'kyɛɛl,
 Holy-Bible---Yemsa---Yemsa-Bible-Ethiopic	JOH-003-016	ዮሀኒስ 3:16	ባሪክ አማነፌ ባር ዙታምባሴ ኮእባ ፎንቶ ካ ዳናናክታኖ ትሹኖይናማቶ ሀኦስ እሳ ናዉባ ባር ባሪን ኣትራ እማ ሀን ዳሶን ባክ ኬሽቴዋ።
 Holy-Bible---Yemsa---Yemsa-Bible-Ethiopic	GEN-003-024		
 Holy-Bible---Yemsa---Yemsa-Bible-Ethiopic	LUK-023-034	ሉቃስ 23:34	ኤሴን ኦርፎ የሱስ፦ «አባታሶ፥ ዛግሴፌ ባሮን ኣነ አሪሶቶ ስንና ቦርአ ፌሹን ኡዋ» ይ። ሜያ ታርኦን ሜያ ደይ ማይባስታ እጣ ሀሴሬ ሃኤሴቴ።
@@ -4199,6 +4685,24 @@ Holy-Bible---Yemsa---Yemsa-Bible-Latin	EXO-013-017
 Holy-Bible---Yemsa---Yemsa-Bible-Latin	MAR-010-045	Marqos 10:45	Esiisimato Asuni Naasnu wostonaknawa kaabaason showoni meyanon furok aatire imanaktano barik wostosonekna aane yowewa.»
 Holy-Bible---Yemsa---Yemsa-Bible-Latin	ROM-001-001	Roome 1:1	Kiristoos Yesusni wostinynya dey wosi sinanak teegtere Ha'oosi misirachchuni kaamanon makonak kortere fe Phawulosnikin woste wosiya.
 Holy-Bible---Yemsa---Yemsa-Bible-Latin	MAT-028-019	Matewos 28:19	Ese hamfaat han daasta fe daraasin zuutira aba, Naa, Korto Ayyanaasi sunak haphqira ta nawo zaguti;
+Holy-Bible---Yiddish-Eastern---Eastern-Yiddish-Bible	JOH-003-016	יוחנן 3:16	ווארום ה׳ האט אזוי ליב געהאט די וועלט, אז ער האט געגעבן זיין בן יחיד, כדי יעדער איינער, וואס גלויבט אין אים, זאל נישט פארלוירן ווערן, נאר האבן אייביק לעבן.
+Holy-Bible---Yiddish-Eastern---Eastern-Yiddish-Bible	GEN-003-024		
+Holy-Bible---Yiddish-Eastern---Eastern-Yiddish-Bible	LUK-023-034	לוקאס 23:34	יהושע/ישוע אבער האט געזאגט: פאטער, פארגיב זיי, ווארום זיי ווייסן נישט, וואס זיי טאן! זיי אבער האבן זיך צעטיילט זיינע קליידער און געווארפן גורל. (תהלים כב, יח.)
+Holy-Bible---Yiddish-Eastern---Eastern-Yiddish-Bible	REV-021-002	די אנטפלעקונג 21:2-3	און די הייליקע שטאט ירושלים האב איך געזען אראפנידערן ביי אויס דעם הימל פון ה׳, צוגעגרייט ווי א כלה אויסגעצירט פאר איר מאן. און האב געהערט א הויך קול פון דעם כסא הכבוד, אזוי צו זאגן: זע, דאס משכן פון ה׳ איז מיט די מענטשן, און ער וועט וואוינען צווישן זיי, און זיי וועלן זיין זיינע פעלקער, און ה׳ אליין וועט זיין מיט זיי,
+Holy-Bible---Yiddish-Eastern---Eastern-Yiddish-Bible	HEB-011-008	בריוו צו די יידן 11:8	דורך אמונה האט אברהם געהארכט, ווען ער איז גערופן געווארן, ארויסצוגיין צו אן ארט, וואס ער האט געזאלט באקומען פאר א ירושה; און איז ארויסגעגאנגען, נישט וויסנדיק, וואואהין ער גייט.
+Holy-Bible---Yiddish-Eastern---Eastern-Yiddish-Bible	EXO-013-017		
+Holy-Bible---Yiddish-Eastern---Eastern-Yiddish-Bible	MAR-010-045	מארקוס 10:45	ווארום אפילו דער בר אנש איז נישט געקומען באדינט צו ווערן, נאר צו דינען, און צו געבן זיין לעבן ווי אן אויסלייז פאר פילע.
+Holy-Bible---Yiddish-Eastern---Eastern-Yiddish-Bible	ROM-001-001	רוימער בריוו 1:1	פוילוס, א קנעכט פון יהושע/ישוע המשיחן, בארופן צו זיין א שליח, אפגעשיידט פאר דער בשורה טובה פון ה׳,
+Holy-Bible---Yiddish-Eastern---Eastern-Yiddish-Bible	MAT-028-019	מתתיהו 28:19	גייט דעריבער און מאכט אלע פעלקער פאר תלמידים, און זיי מיט דער מקווה געגאנגען אונטער די וואסער אין דעם נאמען פון דעם פאטער און דעם זון און דעם רוח הקודש,
+Holy-Bible---Yipunu---Punu-Bible	JOH-003-016		
+Holy-Bible---Yipunu---Punu-Bible	GEN-003-024		
+Holy-Bible---Yipunu---Punu-Bible	LUK-023-034	Luke 23:34	[Mwa pesu temu, Djesu akevose rye: «Tate, batandi mumbari baghedjabi adi bévayi.»] Baghore beni bakesole mutu mu udjabe anyi odile yikutu yi Djesu. Mu uyidile, bakevaghe dusolu du yese.
+Holy-Bible---Yipunu---Punu-Bible	REV-021-002		 
+Holy-Bible---Yipunu---Punu-Bible	HEB-011-008		
+Holy-Bible---Yipunu---Punu-Bible	EXO-013-017		
+Holy-Bible---Yipunu---Punu-Bible	MAR-010-045		
+Holy-Bible---Yipunu---Punu-Bible	ROM-001-001		
+Holy-Bible---Yipunu---Punu-Bible	MAT-028-019		
 Holy-Bible---Yombe---Yombe-Bible	JOH-003-016	John 3:16	Bila Nzambi wuzodila ngolo batu va nza, diawu kavanina Muanꞌandi wumosi kaka muingi woso mutu wukunwilukila kabika bungana vayi kabaka luzingu lukalumani.
 Holy-Bible---Yombe---Yombe-Bible	GEN-003-024		
 Holy-Bible---Yombe---Yombe-Bible	LUK-023-034	Luke 23:34	Buna Yesu wutuba: —A tata, bika wuba lemvukila bila basi zaba ko mambu balembu vangi. Babula zeki mu diambu di kabana minledi miandi.
@@ -4217,6 +4721,15 @@ Holy-Bible---Yoruba---Yoruba-Bible	EXO-013-017	Exodus 13:17	Ní ìgbà tí Farao
 Holy-Bible---Yoruba---Yoruba-Bible	MAR-010-045	Mark 10:45	Nítorí, Èmi, Ọmọ Ènìyàn kò wá sí ayé kí ẹ lè ṣe ìránṣẹ́ fún mi, ṣùgbọ́n láti lè ṣe ìránṣẹ́ fun àwọn ẹlòmíràn, àti láti fi ẹ̀mí rẹ̀ ṣe ìràpadà ọ̀pọ̀ ènìyàn.”
 Holy-Bible---Yoruba---Yoruba-Bible	ROM-001-001	Romans 1:1	Paulu, ìránṣẹ́ Jesu Kristi, ẹni tí a ti pè láti jẹ́ aposteli, tí a sì ti yà sọ́tọ̀ láti wàásù ìyìnrere Ọlọ́run,
 Holy-Bible---Yoruba---Yoruba-Bible	MAT-028-019	Matthew 28:19	Nítorí náà, ẹ lọ, ẹ sọ wọ́n di ọmọ-ẹ̀yìn orílẹ̀-èdè gbogbo, ẹ máa bamitiisi wọn ní orúkọ Baba àti ti Ọmọ àti ti Ẹ̀mí Mímọ́.
+Holy-Bible---Zapotec-Loxicha---Loxicha-Zapotec-Bible	JOH-003-016	Xa' nak Juan 3:16	’Lo ta jwanꞌ toz nkeꞌ lazoꞌ Dios reta men, jwanꞌ nasa mdaꞌ Dios thib nya Xinꞌ Dios, sa reta men jwanꞌ ndli lazonꞌ Xinꞌ Dios, naꞌtyapta men, cheꞌla keno men yalnaban adiꞌ.
+Holy-Bible---Zapotec-Loxicha---Loxicha-Zapotec-Bible	GEN-003-024		
+Holy-Bible---Zapotec-Loxicha---Loxicha-Zapotec-Bible	LUK-023-034	Lucas 23:34	Zyasa nchab Jesus: —Xud na, btonꞌ xken xaꞌ, tak naꞌnyed xaꞌ jwanꞌ ndli xaꞌ. Nde re sondad, mblibe' xaꞌ xis xab Jesus sa nyenꞌ xanya xaꞌ ndinꞌ yan'noy.
+Holy-Bible---Zapotec-Loxicha---Loxicha-Zapotec-Bible	REV-021-002	Apocalipsis 21:2-3	Nde mbwiꞌn yez nayon, Jerusalén yez kub, ndela mbroꞌ lo beꞌ, tenꞌ ndob Dios. Jwinka ndokwaꞌy, xaja ndokwaꞌ thi mzaꞌ ta kayaꞌ tsalꞌ na. Nde mbin na ne toz mni ti xa' lo beꞌ nchab xaꞌ: —Wiꞌ nea, liz Dios ndob xij re men naya. Yono Dios xaꞌ nde ak xaꞌ yez Dios, nde yub Dios tyono xaꞌ nde ak Dios, Dios xaꞌ.
+Holy-Bible---Zapotec-Loxicha---Loxicha-Zapotec-Bible	HEB-011-008	Hebreos 11:8	Tak lo mbli lazoꞌ Abraham Dios, senꞌ mbrez Dios xaꞌ, mbin xaꞌ diꞌs ro Dios, mbroꞌ xaꞌ tya nda xaꞌ tenꞌ kayaꞌ xaꞌ ak chanꞌ xaꞌ. Mbroꞌte xaꞌ las xaꞌ teꞌnye naꞌnyed xaꞌ plo nda xaꞌ.
+Holy-Bible---Zapotec-Loxicha---Loxicha-Zapotec-Bible	EXO-013-017		
+Holy-Bible---Zapotec-Loxicha---Loxicha-Zapotec-Bible	MAR-010-045	Marcos 10:45	Tak na Xinꞌ Mbiꞌ mbyeꞌd lo izyo reꞌ, na'ndalta na sa li men sinꞌ lon, na ndal sa lin sinꞌ lo men nde tob na yalnaban chanꞌ na, sa lyaꞌ re men lo xken men.
+Holy-Bible---Zapotec-Loxicha---Loxicha-Zapotec-Bible	ROM-001-001	Romanos 1:1	Na Pab, men ndli sinꞌ lo Jesucrist, mbrez Dios na, nak na apóst, mblo'xa' Dios na sa tej na diꞌs wen chanꞌ Dios,
+Holy-Bible---Zapotec-Loxicha---Loxicha-Zapotec-Bible	MAT-028-019	Mateo 28:19	Jwanꞌ nasa, wa goꞌ, nde ptoteꞌd goꞌ men dib nax izyo, sa ak xaꞌ xinꞌteꞌd na nde kole goꞌ xaꞌ kon le Xud goꞌ Dios, kon le Xinꞌ Xaꞌ, nde kon le Mbi Nayon,
 Holy-Bible---Zaramo---Kizalamo-Bible	JOH-003-016	YOHANA 3:16	Kwavija Mulungu kaunogela ulumwengu avo kamulava Mwanage imwe yeiyeka, giladi yoyose yondayamtogole sambiyadanganhike, ila yawe na ugima wa digunge.
 Holy-Bible---Zaramo---Kizalamo-Bible	GEN-003-024		
 Holy-Bible---Zaramo---Kizalamo-Bible	LUK-023-034	LUKA 23:34	Yesu kalonga, “Tata, wagele kumgongo kwavija hawagatangile gaja gowotenda.” Waigolela vivalo vake mkutoa kula.
@@ -4226,3 +4739,12 @@ Holy-Bible---Zaramo---Kizalamo-Bible	EXO-013-017
 Holy-Bible---Zaramo---Kizalamo-Bible	MAR-010-045	MALUKO 10:45	Kwavija hata nie, Mwana wa Munhu, sizile kusang'hanikiligwa, ila niza kusang'hanika na kulava ugima wangu giladi niwakombole wanhu bwando.”
 Holy-Bible---Zaramo---Kizalamo-Bible	ROM-001-001	WALOMA 1:1	Lupwilili luno lolawa ha Paulo, mtumigwa wa Yesu Kilisto, yasaguligwe na Mulungu kuwa mtumigwa wa Kilisto na kutumigwa yakaupete Usenga Unogile wa Mulungu,
 Holy-Bible---Zaramo---Kizalamo-Bible	MAT-028-019	MATAYO 28:19	Avo gendeni mkawatende wanhu wa isi zose wawe wanahina, na kuwabatiza mtwaga da Tata, na Mwana, na Loho wa Mulungu,
+Holy-Bible---Zinza---Zinza-Bible	JOH-003-016	Yohana 3:16	Ensoonga Múungu akabéenda bwooli abaantu bóona be éensi ezi. Niyo entaahililo akamusohoza Omutábani nyakámo kwiiza omu nsi ezi, kuba buli muuntu óogwo alikumwiíkiliza atasiingaálika, náho aábe no obulami bwo obucha no obuchiile.
+Holy-Bible---Zinza---Zinza-Bible	GEN-003-024		
+Holy-Bible---Zinza---Zinza-Bible	LUK-023-034	Luka 23:34	Yeézu yaágaamba, “Íiwe Táata! Obaganyile! Habwo kuba aga gi balikukola, tibakugasoombookelwa.” Abalwaanila ngoma abo baáyesa olweeso lwi ibaando aha kubagana ebizwáalo bya Yeézu.
+Holy-Bible---Zinza---Zinza-Bible	REV-021-002	Okusuululilwa 21:2-3	Niho naábona echikaali echo echitakatíifu, nicho Yeruzaléemu eénsha, nichihanaántuka kuluga omu igulu owa Múungu. Echikaali echo chikaba chiloonziibwe nko óokwo chisweélwa achumwaho habwe eéba. Naáhulila iláka liháango kuluga aha chitébe cho obutégeki, niligaámba liti, “Huliiliza! Obwiikalo bwa Múungu ni hamo na abaantu. Naayikala hamo na abaantu, nábo baláaba abaantu boómwe, náwe aláaba Múungu wáabo.
+Holy-Bible---Zinza---Zinza-Bible	HEB-011-008	Abahebrania 11:8	Okwiikiliza kukaleetelela Ibrahímu yaámugomookela Múungu, obuchilo óobwo akamugaambila nka nikwo alugemo omu nsi yoómwe, azeénde omu nsi éezo Múungu akalagana kumúha. Ibrahímu akalugamo omu nsi yoómwe, no óobu talasoombookilwe áaho akaba naazeénda.
+Holy-Bible---Zinza---Zinza-Bible	EXO-013-017		
+Holy-Bible---Zinza---Zinza-Bible	MAR-010-045	Mariko 10:45	Habwo kuba neenye Mutábani wo Omuuntu, tiíndeezile mbone kukolelwa, náho nnyizile kubakolela abaantu no kusohoza obulami bwaanze, mbone kubakomoolola abaantu béenzi.”
+Holy-Bible---Zinza---Zinza-Bible	ROM-001-001	Abarúumi 1:1	Olwaandiko olu ndwaandikile íinye Paulo, omuzáana wa Kristu Yeézu. Íinye nkéetwa kúba entumwa yoómwe, naátóozibwa iímbe niinyolekeelela Empola Nzima kuluga ahali Múungu.
+Holy-Bible---Zinza---Zinza-Bible	MAT-028-019	Matayo 28:19	Ha bwéecho mbwéenu, nimuzeénde omu baantu ba amahaánga góona no kuboólekeelela babe abaheémba baanze. Muzile mútyo aha kubabatiza omu izíina lya Táata, ne lyo Omutábani ne lyo Omwooyo Mutakatíifu.

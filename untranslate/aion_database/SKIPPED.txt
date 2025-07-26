@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1717353     
-# File Date: 07/16/2025 23:09:15
+# File Size: 1787307     
+# File Date: 07/26/2025 02:43:06
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -32,6 +32,7 @@ Holy-Bible---Armenian---Armenian-Bible-Eastern	043	JOH	006	051	Ես եմ կեն�
 Holy-Bible---Armenian---Armenian-Bible-Western	043	JOH	006	051	Ե՛ս եմ կենարար հացը՝ որ իջայ երկինքէն:
 Holy-Bible---Aruamu---Aruamu-Bible	064	3JO	001	014	Kɨ ghaze, kɨ gurumra izɨ nɨ batogh ga uaningɨn gan uaning mɨkɨmam.
 Holy-Bible---Aruamu---Aruamu-Bible	066	REV	012	018	Egha kuruzim ongarir dadarimɨn tughav iti.
+Holy-Bible---Arumanisht---Aromanian-Bible	064	3JO	001	014	Ma nãdãescu s-ti ved curundã shi si zburãm di aproapi.
 Holy-Bible---Assamese---Assamese-Bible	041	MAR	015	028	
 Holy-Bible---Assamese---Assamese-Bible	044	ACT	015	034	
 Holy-Bible---Assamese---Assamese-Bible	064	3JO	001	014	বৰং আশা কৰোঁ যে, আপোনাক অতি সোনকালে দেখিবলৈ পাম আৰু তেতিয়া মুখা-মুখি হৈ কথা-বতৰা পাতিম।
@@ -51,6 +52,15 @@ Holy-Bible---Azerbaijani---Azerbaijani-Bible	044	ACT	008	037
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	044	ACT	015	034	
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	044	ACT	028	029	
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	045	ROM	016	024	
+Holy-Bible---Baga-Sitemu---Baga-Sitemu-Bible	004	NUM	025	019	Ntɛ pəcuy pɔpɔŋ pencepər mɔ, kɔ MARIKI oloku ŋa sɔ moloku.
+Holy-Bible---Baga-Sitemu---Baga-Sitemu-Bible	040	MAT	017	021	]
+Holy-Bible---Baga-Sitemu---Baga-Sitemu-Bible	040	MAT	018	011	
+Holy-Bible---Baga-Sitemu---Baga-Sitemu-Bible	040	MAT	023	014	]
+Holy-Bible---Baga-Sitemu---Baga-Sitemu-Bible	041	MAR	009	044	
+Holy-Bible---Baga-Sitemu---Baga-Sitemu-Bible	041	MAR	009	046	
+Holy-Bible---Baga-Sitemu---Baga-Sitemu-Bible	041	MAR	011	026	
+Holy-Bible---Baga-Sitemu---Baga-Sitemu-Bible	041	MAR	015	028	
+Holy-Bible---Baga-Sitemu---Baga-Sitemu-Bible	064	3JO	001	014	Intola ta pəwon sɔ sənəŋkɛnɛ, mba iŋgbɛkər amera kəkɔnəŋk un, ilok-lokər nu patɛfərɛnɛ.
 Holy-Bible---Baiso---Basio-Bible	064	3JO	001	014	አን ኤነ ኩ ድን አብድ የላታራ፤ እስደያ አዬስናና።
 Holy-Bible---Baiso---Basio-Bible	066	REV	012	018	ዶቦንሳ ላቡ ግርዲ ጬካሌ ጉት አሌ።
 Holy-Bible---Bangwinji---Bangwinji-Bible	042	LUK	017	036	
@@ -1034,11 +1044,15 @@ Holy-Bible---Dawro---Dawuro-Bible	064	3JO	001	014	Shin taani matan neenanna gakk
 Holy-Bible---Dawro---Dawuro-Bible	066	REV	012	018	biide abbaa doonaan de'iyaa shafiyaan ek'k'eedda.
 Holy-Bible---Desiya---Desiya-Bible	064	3JO	001	014	ମୁଇ ଦାପ୍‌ରେ ତମର୍‌ଟାନେ ଆସିକରି ତମର୍‌ ମୁଆଟେ ସବୁ କାତା କଇବି ।
 Holy-Bible---Desiya---Desiya-Bible	066	REV	012	018	ଆରି ସେ ଅସୁର୍‌ସାଁପ୍‌ ସମ୍‌ଦୁରର୍‌ ବାଲିଉପ୍‌ରେ ଜାଇ ଟିଆ ଅଇଲା ।
+Holy-Bible---Dhanki---Dhanki-Devanagari-Bible	064	3JO	001	014	पर मखे आश छे कि तुखे छे शीघ्र भेंट करीस, तव हामु आमने सामने वातचीत करसु।
+Holy-Bible---Dhanki---Dhanki-Devanagari-Bible	066	REV	012	018	आरू चो दरिया क रेत पर जाईन ऊबो हुयो।
 Holy-Bible---Dholuo---Dholuo-Bible	064	3JO	001	014	Ageno nenoi mapiyo, eka wanawuo wangʼ gi wangʼ.
 Holy-Bible---Dombe---Dombe-Bible	041	MAR	007	016	
 Holy-Bible---Dombe---Dombe-Bible	042	LUK	023	017	
 Holy-Bible---Dombe---Dombe-Bible	064	3JO	001	014	Pesi ndilangila kuzokubona lino lino, elyo tuzowambuula katulangene.
 Holy-Bible---Dombe---Dombe-Bible	066	REV	012	018	Mpawo Simwaaba wakayimikila museele lyakumbali alwizi
+Holy-Bible---Dongxiang---Donxian-Bible	064	3JO	001	014	Bi xiwon giese ghujighan chii chujieghedene danmien kielieku duran wo.
+Holy-Bible---Dongxiang---Donxian-Bible	066	REV	012	018	Qingiekude lun haibienzini shazi jiere beizho.
 Holy-Bible---Dutch---Canisiusvertaling	001	GEN	049	018	—
 Holy-Bible---Dutch---Canisiusvertaling	003	LEV	011	025	—
 Holy-Bible---Dutch---Canisiusvertaling	006	JOS	003	012	—
@@ -1461,6 +1475,8 @@ Holy-Bible---Dutch---Statenvertaling	045	ROM	007	025	Ik dank God, door Jezus Chr
 Holy-Bible---Dutch---Statenvertaling	064	3JO	001	014	Maar ik hoop u haast te zien, en wij zullen mond tot mond spreken.
 Holy-Bible---Dutch---Statenvertaling	066	REV	012	018	En ik stond op het zand der zee.
 Holy-Bible---Duya---Duya-Bible	064	3JO	001	014	Umum ifosi inyã ungo ifefetem, nu umɛn irherhe ra asu adɔka.
+Holy-Bible---Ekajuk---Ekajuk-Bible	064	3JO	001	014	N kpꞌbumu re, m bahk-a gulu elnyehne, e fere bung atemtem.
+Holy-Bible---Ekajuk---Ekajuk-Bible	066	REV	012	018	Edꞌragon jio yiimi go erikehndi ji li go egbuk agburu aya.
 Holy-Bible---English---Aionian-Bible	042	LUK	017	036	
 Holy-Bible---English---Aionian-Bible	044	ACT	008	037	
 Holy-Bible---English---Aionian-Bible	044	ACT	015	034	
@@ -2959,7 +2975,14 @@ Holy-Bible---Estonian---For-All	042	LUK	017	036
 Holy-Bible---Estonian---For-All	042	LUK	023	017	
 Holy-Bible---Estonian---For-All	043	JOH	005	004	
 Holy-Bible---Estonian---For-All	045	ROM	016	024	
+Holy-Bible---Etulo---Etulo-Bible	064	3JO	001	014	N weka odi abu dzikan-dzikan ta eyi ka gbɔdzɛ inɛ-inɛ.
+Holy-Bible---Etulo---Etulo-Bible	066	REV	012	018	Man ozumenyi na si kwudzɛkɛ mfyan mi onekyoo.
 Holy-Bible---Ewe---Word-of-Life	064	3JO	001	014	Mele mɔ kpɔm be míado go kpuie, eye míaƒo nu ŋkume kple ŋkume.
+Holy-Bible---Falam---Falam-Chin-Bible	041	MAR	007	016	
+Holy-Bible---Falam---Falam-Chin-Bible	041	MAR	009	044	
+Holy-Bible---Falam---Falam-Chin-Bible	041	MAR	009	046	
+Holy-Bible---Falam---Falam-Chin-Bible	041	MAR	011	026	
+Holy-Bible---Falam---Falam-Chin-Bible	041	MAR	015	028	
 Holy-Bible---Finnish---Open-Living-News	064	3JO	001	014	Toivon, että tapaamme pian ja saamme puhua kaikesta.
 Holy-Bible---Finnish---Open-Living-News	066	REV	012	018	Se jäi väijymään valtameren rantaan.
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible	043	JOH	008	059	
@@ -8522,6 +8545,7 @@ Holy-Bible---Kannada---Open-Contemporary	064	3JO	001	014	ಬೇಗನೆ ನಿ�
 Holy-Bible---Kannada---Siddi-Bible	042	LUK	017	036	
 Holy-Bible---Kannada---Siddi-Bible	064	3JO	001	014	ಲಗ್ಗುನಾ ಮಿಯಾ ತುಜ್ಯಾಕ್ಡೆ ಯೆತಾ ಮನುನ್ ಮಿಯಾ ಬರೊಸೊ ಕರ್ತಾ; ತನ್ನಾ ಅಮಿ ದೊಗೆ ಜಾನಾ ಮಿಳುನ್ ಬೊಲುವ್ವಾ.
 Holy-Bible---Kannada---Siddi-Bible	066	REV	012	018	ಅನಿ ತೊ ಭಯಾನಕ್ ಸಾಪ್ ಸಮುಂದರಾಚ್ಯಾ ದಂಡೆರ್ ಇಬೆ ರ್‍ಹಾಲೊ.
+Holy-Bible---Kapin---Kapin-Bible	066	REV	012	018	Me wex ngandoung on toungale wou mamileeng nenyawes.
 Holy-Bible---Kara---Kara-Bible	044	ACT	024	006	
 Holy-Bible---Kara---Kara-Bible	044	ACT	024	007	
 Holy-Bible---Kara---Kara-Bible	045	ROM	016	024	
@@ -8654,6 +8678,7 @@ Holy-Bible---Kuhane---Kuhane-Bible	044	ACT	024	007
 Holy-Bible---Kuhane---Kuhane-Bible	064	3JO	001	014	Ni libelele ku kuvona lyahanu, mi katuwambe menso cha menso.
 Holy-Bible---Kuhane---Kuhane-Bible	066	REV	012	018	Mi kuzwa aho i dilagoni chilya zimana halusekeseke lwa helizo lye wate.
 Holy-Bible---Kuhane---Kuhane-Bible	066	REV	021	013	
+Holy-Bible---Kurama---Kurama-Akurumi-Bible	064	3JO	001	014	⁺Nwuna iruwa nta nnay-bo ne aməmo aye cim, wərike tiyane anaza ne bo ayizi ayate ayizi.
 Holy-Bible---Kurdish---Sorani-Bible	064	3JO	001	014	بەڵکو ئومێدەوارم بەم زووانە بتبینم تاکو ڕووبەڕوو قسە بکەین.
 Holy-Bible---Kutu---Kutu-Bible	064	3JO	001	014	kwavija sambi baha nogesa kukona, na tolonga meso kwa meso.
 Holy-Bible---Kutu---Kutu-Bible	066	REV	012	018	Abaho zoka dijo dima kumgwazo wa bahali.
@@ -10922,12 +10947,16 @@ Holy-Bible---Marghi-South---Marghi-South-Bible	064	3JO	001	014	Ya vǝr yiwu ya s
 Holy-Bible---Marghi-South---Marghi-South-Bible	066	REV	012	018	Ənggau kǝ pabǝr vuwa ta taˈyi ar mǝshiˈwa nǝ miya dǝla nyi.
 Holy-Bible---Matengo---Amatengu-Bible	064	3JO	001	014	Nhobale kugubona eheno ndi patwiilongila koni tubonana ana kwa ana.
 Holy-Bible---Matengo---Amatengu-Bible	066	REV	012	018	Ndienu, gujoka gola gwajema mu lutengu ju nhanga.
+Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	064	3JO	001	014	Mǝ ndanǝ tsǝkɓalǝu mǝ nǝ yiu a bano banì pà nǝ̀ sau ɗang, sǝ sǝm nǝ̀ yia nacau a kúnarǝ sǝm.
+Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	066	REV	012	018	[Dǝragon pǝlǝa yi came a sala a kun nggeamùr.]
 Holy-Bible---Melo---Melo-Bible	064	3JO	001	014	ዝን ታኒ ኡከር ዎል ሄሊ በአዳይስ ቆፕዛ፤ የ ዎደ ኑኒ ኦድንቶዳይ።
 Holy-Bible---Melo---Melo-Bible	066	REV	012	018	ዳዋይ አባ ላንቀ የዝ ሻፈል ኤቄዛ።
 Holy-Bible---Mpoto---Mpoto-Bible	064	3JO	001	014	Nambu nhobhalela kukubhona henu kateki, na panihapa anatulongila pamihu kwa pamihu.
 Holy-Bible---Mpoto---Mpoto-Bible	066	REV	012	018	Bhela lijoka lela lakajemiki panani ja luhanga lwa mumaheku gha bahali.
 Holy-Bible---Munda---Munda-Bible	064	3JO	001	014	ଆଇଙ୍ଗ୍‌ ଆମାଃଲଃ ଜାଲ୍‌ଦିଗିଇଙ୍ଗ୍‌ ନେପେଲା ମେନ୍ତେଇଙ୍ଗ୍‌ ଆସ୍ରାକାଦା, ଇମ୍‌ତା ଆଲାଙ୍ଗ୍‌ ବାରାନ୍‌କିନ୍‌ ନେପେଲ୍‌ରେଲାଙ୍ଗ୍‌ ଜାଗାରେୟା ମେନ୍ତେଇଙ୍ଗ୍‌ ସାନାଙ୍ଗ୍‌ତାନା ।
 Holy-Bible---Munda---Munda-Bible	066	REV	012	018	ଆଡଃ ଏନ୍‌ ମାରାଙ୍ଗ୍‌ ବିଙ୍ଗ୍‌ ଦରେୟା ଗେନାରେ ତିଙ୍ଗୁୟାନା ।
+Holy-Bible---Mwaghavul---Mwaghavul-Bible	064	3JO	001	014	Wen kǝ lepan nǝ, an naa ngha, ɗangɓǝ mun leshap kǝ shak yit kǝ yit.
+Holy-Bible---Mwaghavul---Mwaghavul-Bible	066	REV	012	018	kut am nǝ ɗar nkaa pwoo ɗyees mǝ am baahar ne.
 Holy-Bible---Mwera---Mwera-Bible	064	3JO	001	014	Ikabheje shitubhonegane nikunguluka, tuli tutemi pamo.
 Holy-Bible---Mwera---Mwera-Bible	066	REV	012	018	Bhai, lijoka lila gulijimi nnyenje bhaali.
 Holy-Bible---Myanmar---Burmese-Common-Bible	022	SOL	001	017	
@@ -11178,6 +11207,8 @@ Holy-Bible---Ndengereko---Ndengereko-Bible	044	ACT	024	006
 Holy-Bible---Ndengereko---Ndengereko-Bible	044	ACT	028	029	
 Holy-Bible---Ndengereko---Ndengereko-Bible	064	3JO	001	014	Balo masoba masene, twaisa bonagana nawe minyo kwa minyo.
 Holy-Bible---Ndengereko---Ndengereko-Bible	066	REV	012	018	Boka po ling'ambo latiyema kunani ya miangi ufukweni mwa bahari.
+Holy-Bible---Ndwewe---Ndwewe-Bible	064	3JO	001	014	Mbole yaki, ninguhyubhalila ndakubhona mbole ya manjubha machoko na twaalongela kibhungi kwa kibhungi.
+Holy-Bible---Ndwewe---Ndwewe-Bible	066	REV	012	018	Lila lijabali likiyima kuluhingu lwa lihibha.
 Holy-Bible---Nepali---Nepali-Bible	064	3JO	001	014	तर तिमीलाई छिट्टै भेट्ने आशा गर्छु, र हामी आमने सामने कुरा गर्नेछौँ ।
 Holy-Bible---Nepali---Nepali-Bible	066	REV	012	018	तब त्यो अजिङ्गर समुद्र किनारको बालुवामाथि उभियो ।
 Holy-Bible---Nepali---Nepali-Contemporary	064	3JO	001	014	म तिमीलाई चाँडै नै भेट्ने आशा गर्दछु, तब हामी आमने-सामने भएर कुरा गर्नेछौँ।
@@ -11346,6 +11377,7 @@ Holy-Bible---Pogolo---Pogoro-Bible	064	3JO	001	014	Ntumbira kukuwona mashaka gal
 Holy-Bible---Pogolo---Pogoro-Bible	066	REV	012	018	Su njoka kagoloka mumpeku mwa bahali.
 Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet	064	3JO	001	014	A i kaporoporeki, me koren, me i pan kilang uk, kita ap pan kasokasoi pena.
 Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet	064	3JO	001	014	A i kaporoporeki, me koren, me i pan kilan uk, kita ap pan kajokajoi pena.
+Holy-Bible---Polci---Polci-Bible	042	LUK	023	017	
 Holy-Bible---Polish---Open-Access-Word-of-Life	064	3JO	001	014	mam bowiem nadzieję, że niebawem cię odwiedzę, a wtedy porozmawiamy o wszystkim osobiście.
 Holy-Bible---Polish---Polish-Gdansk	011	1KI	022	043	I chodził po wszystkiej drodze Azy, ojca swego, a nie odchylał się od niej, czyniąc to, co było dobrego przed oczyma Pańskiemi.
 Holy-Bible---Polish---Polish-Gdansk	019	PSA	003	001	Psalm Dawidowy, gdy uciekał przed Absalomem, synem swoim.
@@ -11463,8 +11495,33 @@ Holy-Bible---Portuguese---World-Portuguese-Bible	044	ACT	008	037
 Holy-Bible---Portuguese---World-Portuguese-Bible	044	ACT	015	034	
 Holy-Bible---Portuguese---World-Portuguese-Bible	044	ACT	024	007	
 Holy-Bible---Portuguese---World-Portuguese-Bible	045	ROM	016	025	
+Holy-Bible---Rakhine---Rakhine-Bible	040	MAT	017	021	
+Holy-Bible---Rakhine---Rakhine-Bible	040	MAT	018	011	
+Holy-Bible---Rakhine---Rakhine-Bible	040	MAT	021	044	
+Holy-Bible---Rakhine---Rakhine-Bible	040	MAT	023	014	
+Holy-Bible---Rakhine---Rakhine-Bible	041	MAR	007	016	
+Holy-Bible---Rakhine---Rakhine-Bible	041	MAR	009	044	
+Holy-Bible---Rakhine---Rakhine-Bible	041	MAR	009	046	
+Holy-Bible---Rakhine---Rakhine-Bible	041	MAR	011	026	
+Holy-Bible---Rakhine---Rakhine-Bible	041	MAR	015	028	
+Holy-Bible---Rakhine---Rakhine-Bible	042	LUK	017	036	
+Holy-Bible---Rakhine---Rakhine-Bible	042	LUK	023	017	
+Holy-Bible---Rakhine---Rakhine-Bible	043	JOH	005	004	
+Holy-Bible---Rakhine---Rakhine-Bible	044	ACT	008	037	
+Holy-Bible---Rakhine---Rakhine-Bible	044	ACT	015	034	
+Holy-Bible---Rakhine---Rakhine-Bible	044	ACT	024	007	
+Holy-Bible---Rakhine---Rakhine-Bible	044	ACT	028	029	
+Holy-Bible---Rakhine---Rakhine-Bible	045	ROM	016	024	
+Holy-Bible---Rakhine---Rakhine-Bible	064	3JO	001	014	ငါသည် သင့်ပါးသို့ မကြာခင် ရောက်လာ၍ သင်နှင့် မျက်နှာချင်းဆိုင် တွိ့ဆုံကာ စကားပြောဆိုနိုင်လိမ့်မည်ဟု မျှော်လင့်၏။
+Holy-Bible---Rakhine---Rakhine-Bible	066	REV	012	018	နဂါးသည် ပင်လယ်ကမ်းခြီတွင် ရပ်နိန်၏။
 Holy-Bible---Rangi---Rangi-Bible	064	3JO	001	014	ˆVyeene nookiilaangya kwiiyona tʉrɨ chaangʉ, aho, lʉʉsɨka tʉrɨ miiso kwa miiso.
 Holy-Bible---Rangi---Rangi-Bible	066	REV	012	018	Maa re ɨro ramʉʉntaɨra rɨkɨɨma mbarɨmbarɨ ya mayɨya.
+Holy-Bible---Reli---Reli-Bible	040	MAT	018	011	
+Holy-Bible---Reli---Reli-Bible	064	3JO	001	014	బేగా తొత్తె దిగితందుకు ఎదురుదిగిలించి సెల్లె మూకు మూ కొతలగ్గిమ్మండి.
+Holy-Bible---Reli---Reli-Bible	066	REV	012	018	సెతెలె సె రెక్కనె సంగరె తల్లా సప్పొ సొంద్రొ ఒడ్డురె టారెకిరి అచ్చి.
+Holy-Bible---Rohingya---Kitabul-Mukaddos-Bible	064	3JO	001	014	Añr ttu acá asé de, añí tuáñre bicí hára dekíyum, aar añára muámuikka ói hotá hoiyúm.
+Holy-Bible---Romani---Balkans-Arli-Bible	064	3JO	001	014	nego nadinav man da ka dikhav tut sigate, hem ka vaćera muj mujeja.
+Holy-Bible---Romani---Balkans-Arli-Bible	066	REV	012	018	I Aždaja ačhili ki obala e moresiri.
 Holy-Bible---Romani-Vlax---Chergash-Luke	064	3JO	001	014	Nego nadiv man kaj sigo dikhav tut thaj kaj askal ćerasa svato jakha ande jakha.
 Holy-Bible---Romani-Vlax---Chergash-Luke	066	REV	012	018	Thaj e Aždaja ačhili pe obala e morešći.
 Holy-Bible---Romani-Vlax---Gurbet-Luke	064	3JO	001	014	al nadima kaj sigate ka dikhav tut thaj muj mujesa te vaćara.
@@ -11551,6 +11608,20 @@ Holy-Bible---Russian---Russian-Synodal-Translation	020	PRO	004	028	потому 
 Holy-Bible---Russian---Russian-Synodal-Translation	020	PRO	004	029	Он же прямыми сделает пути твои, и шествия твои в мире устроит.
 Holy-Bible---Russian---Russian-Synodal-Translation	020	PRO	013	013	Кто пренебрегает словом, тот причиняет вред себе; а кто боится заповеди, тому воздается.
 Holy-Bible---Russian---Russian-Synodal-Translation	064	3JO	001	014	а надеюсь скоро увидеть тебя и поговорить устами к устам.
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	040	MAT	017	021	
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	040	MAT	018	011	]
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	040	MAT	023	014	]
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	041	MAR	009	044	]
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	041	MAR	009	046	]
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	041	MAR	011	026	
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	041	MAR	015	028	]
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	042	LUK	017	036	]
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	042	LUK	023	017	]
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	043	JOH	005	004	]
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	044	ACT	028	029	]
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	045	ROM	016	024	]
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	064	3JO	001	014	Ŋ oolkiɗ ne ŋ hey ɗa hote maañaaɗi te ɓoo hey woye ɓo' na ɓo'.
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	066	REV	012	018	Iiña tufukka ŋ sereendaŋ cookma.
 Holy-Bible---Safwa---Safwa-Bible	041	MAR	011	026	
 Holy-Bible---Safwa---Safwa-Bible	041	MAR	015	028	
 Holy-Bible---Safwa---Safwa-Bible	044	ACT	024	007	
@@ -11617,6 +11688,252 @@ Holy-Bible---Serbian---Serbian-ONSP-Cyrillic	066	REV	012	018	Аждаја ста
 Holy-Bible---Serbian---Serbian-ONST-Latin	064	3JO	001	014	no se nadam da ću te uskoro videti, pa ćemo usmeno razgovarati.
 Holy-Bible---Serbian---Serbian-ONST-Latin	066	REV	012	018	Aždaja stade na obalu mora.
 Holy-Bible---Setswana---Open-Tswana-Living	064	3JO	001	014	gonne ke solofela go go bona mo bogautshwaneng mme ke gone re tlaa buang go le gontsi re le mmogo.
+Holy-Bible---Shi---Mashi-Bible	009	1SA	020	042	Yônatani anacibwîra Daudi, erhi: «Ogendage n’omurhûla. Binabâge kulya rhwagashanaga oku izîno lya Nyamubâho galya mango rhuderha nti: Nyamubâho abè haguma na nâni na nâwe, abè haguma n’iburha lyâni n’iburha lyâwe, emyâka n’emyâka».
+Holy-Bible---Shi---Mashi-Bible	011	1KI	022	043	Ashimba loshi enjira y’îshe Asa, arhanayirhengagamwo akaz’iyôrha ajira okushingânîne omu masù ga Nyakasane.
+Holy-Bible---Shi---Mashi-Bible	013	1CH	012	004	Yishemaya, w’e Gabaoni, w’omu barhambo b’abarhabâzi ntwâli makumi asharhu.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	003	001	Lulanga. Lwa Daudi. Amango al’iyasire omugala Absalomi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	004	001	Gwârhi omukulu w’abimbiza. Oku luzihwa lusâlikwa n’emisî: Lulanga lwa Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	005	001	Gwârhi omukulu w’abimbiza. Oku rhurhêra. Lulanga lwa Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	006	001	Gwârhi omukulu w’abimbiza. Oku nzihwa zishwêkwa n’emisî. Oku izù lya kali munâni. Lulanga. Lwa Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	007	001	Endûlù ya Daudi, àyiyimbiraga Nyakasane erhi Kushi w’omu bûko bwa Benyamini orhumire.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	008	001	Gwârhi omukulu w’abimbiza. Oku izîno lya Gati. Lulanga. Lwa Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	009	001	Gwârhi omukulu w’abimbiza. Nzihwa y’omu karhêra erhi lulanga. Lulanga. Lwa Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	012	001	Oku mukulu w’abimbiza. Nzihwa y’omu lulanga lwa misî munâni. Lulanga. Lwa Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	018	001	Gwârhi omukulu w’abimbiza. Lwa Daudi, mwambali wa Nyamuzinda, àyimbiraga Nyakasane ebinwa by’olu lwimbo amango Nnâmahanga àmulîkuzagya omu maboko g’abanzi bâge n’aga Saulu.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	019	001	Gwârhi omukulu w’abimbiza. Lulanga. Lwa Daudi
+Holy-Bible---Shi---Mashi-Bible	019	PSA	020	001	Gwârhi omukulu w’abimbiza. Lulanga. Lwa Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	021	001	Gwârhi omukulu w’abimbiza. Lulanga. Lwa Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	022	001	Gwârhi omukulu w’abimbiza. Oku «burhwâli bw’omucêracêra.» Lulanga. Lwa Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	030	001	Lulanga. Lwimbo lw’omugisho gw’aka-Nyamuzinda. Lwa Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	031	001	Gwârhi omukulu w’abimbiza. Lulanga. Lwa Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	034	001	Lwa Daudi. Amango àcisingiraga isirhe embere za Abimeleki, ayêmêra amulibirhakwo anacîgendera.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	036	001	Gwârhi omukulu w’abimbiza. Lwa mwambali wa Nyamuzinda. Lwa Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	038	001	Lulanga. Lwa Daudi. Lwa kukengêza.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	039	001	Gwârhi omukulu w’abimbiza. Lw’e Yedutuni. Lulanga Lwa Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	040	001	Gwârhi omukulu w’abimbiza. Lwa Daudi. Lulanga.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	041	001	Gwârhi omukulu w’abimbiza. Lulanga. Lwa Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	042	001	Gwârhi omukulu w’abimbiza. Lwimbo lwa Nyigîrizo. Lwa bene Korè.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	044	001	Gwârhi omukulu w’abimbiza. Lwimbo lwa Nyigîrizo. Lwa bene Korè.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	045	001	Gwârhi omukulu w’abimbiza. Lwa kuzihirwa oku «Liliya». Lwa bene Korè. Lwimbo lwa buzigire.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	046	001	Gwârhi omukulu w’abimbiza. Lwa bene Korè. Oku izù ly’abanyere­ bashugi. Lwimbo.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	047	001	Gwârhi omukulu w’abimbiza. Lwa bene Korè. Lulanga.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	048	001	Lwimbo. Lulanga. Lwa bene Korè.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	049	001	Gwârhi omukulu w’abimbiza. Lwa bene Korè. Lulanga.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	051	001	Gwârhi omukulu w’abimbiza. Lulanga. Lwa Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	051	002	Amango omulêbi Natani àjaga emunda Daudi ali kulya kubà anacîhemwîre kuli Betiseba.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	052	001	Gwarhi omukulu w’abimbiza. Nyigîrizo. Za Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	052	002	Amango Dwege w’e Edomu àyishig’ibwîra Saulu, erhi: «Daudi ajìre omu mwa Abimeleki».
+Holy-Bible---Shi---Mashi-Bible	019	PSA	053	001	Gwârhi omukulu w’abimbiza. Oku ndwâla. Lwimbo. Lwa Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	054	001	Gwârhi omukulu w’abimbiza. Oku nzihwa z’emisî. Nyigîrizo. Za Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	054	002	Amango abantu b’e Zif bàlibwîra Saulu, mpu: «Ka Daudi arhali e mwîrhu acîfulisire obu?»
+Holy-Bible---Shi---Mashi-Bible	019	PSA	055	001	Oku mukulu w’abimbiza. Oku nzihwa y’emirya. Nyigîrizo. Za Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	056	001	Gwârhi omukulu w’abimbiza. «Ak’engûkù y’omu mirhi y’ihanga». Lwa Daudi. N’izù linyinyi. Amango Daudi àbaga amâgwârhirwa e Gati n’Abafilistini.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	057	001	Gwârhi omukulu w’abimbiza. N’izù lisungunu. Ya Daudi. Kwo eyimbwa aka «Shukira orhashâbe». Ayizihaga amango àyâkiraga Saulu omu lwâla.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	058	001	Gwârhi omukulu w’abimbiza. Luzihwa aka «omanye washâba». N’izù linyinyi. Ya Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	059	001	Gwârhi omukulu w’abimbiza. Luyimbwa aka «Shukira orhashâbe». Lwa Daudi. N’izù linyinyi. Amango Saulu arhumaga abantu mpu baj’ilanga enyumpa ya Daudi, mpu bamunige.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	060	001	Gwârhi omukulu w’abimbiza. Luzihwa aka «Bwâso bw’irhegeko». N’izù linyinyi. Ya Daudi. Oku kuyigîriza.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	060	002	Amango Daudi arhêra Aramu Naharayimu bona Aramu w’e Soba, n’erhi Yowabu àrhabâluka amâyûs’ihimira Edomu omu kabanda ka Nyamunyu, bantu bihumbi ikumi na bibirhi
+Holy-Bible---Shi---Mashi-Bible	019	PSA	061	001	Gwârhi omukulu w’abimbiza. Oku nzihwa z’emisî. Lwa Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	062	001	Gwârhi omukulu w’abimbiza. Luyimbwa aka Yedutuni. Lulanga. Lwa Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	063	001	Lulanga. Lwa Daudi. Amango àli omu irungu lya Yûda.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	064	001	Oku mukulu w’abimbiza. Lulanga. Lwa Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	065	001	Gwârhi omukulu w’abimbiza. Lwa Daudi. Lwimbo.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	067	001	Gwârhi omukulu w’abimbiza. Oku nzihwa z’emisî. Lulanga. Lwimbo.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	068	001	Gwârhi omukulu w’abimbiza. Lulanga. Lwimbo. Lwa Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	069	001	Gwârhi omukulu w’abimbiza. Luzihwa aka «Liliya». Lwa Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	070	001	Gwârhi omukulu w’abimbiza. Lwa Daudi. Aha kushwinja.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	075	001	Gwârhi omukulu w’abimbiza. «Shukira orhashâbe». Lulanga. Lwa Azafi. Lwimbo.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	076	001	Gwârhi omukulu w’abimbiza. Oku nzihwa z’emisî. Lulanga. Lwa Azafi. Lwimbo.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	077	001	Gwârhi omukulu w’abimbiza. Yedutuni. Lwa Azafi. Lulanga.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	080	001	Gwârhi omukulu w’abimbiza. Luyimbwa aka «Amarhegeko ga Nyakasane». Lwa Azafi. Lulanga.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	083	001	Lwimbo. Lulunga. Lwa Azafi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	084	001	Gwârhi omukulu w’abimbiza. Luyimbwa aka Gati. Lwa bene Korè. Lulanga.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	085	001	Gwârhi omukulu w’abimbiza. Lulanga. Lwa bene Korè.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	088	001	Lwimbo. Lulanga. Lwa bene Korè. Oku mukulu w’abimbiza. Luyimbwa aka «Mahalat.» Lwigânwa. Lwa Hemani w’Ezra.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	089	001	Obulyo bw’okuherha bwa Etani w’e Ezra.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	092	001	Lulanga. Lwimbo. Lwa kuyimbwa olusiku lwa Sabato.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	102	001	Musengero gw’omuntu ohanyagîre. Mw’obwo buhanya bwâge, Nyakasane ye arhuzirekwo emirenge yâge.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	108	001	Lwimbo. Lulanga. Lwa Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	140	001	Gwârhi omukulu w’abimbiza. Lulanga. Lwa Daudi.
+Holy-Bible---Shi---Mashi-Bible	019	PSA	142	001	Lwigânwa. Lwa Daudi. Amango àli omu lukunda. Lulanga.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	024	Bajà balambagira omwôla ngulumira y’omuliro, bajà bakuza Nyamuzinda­da banaharâmya Nyakasane.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	025	Azariasi ayimanga aderha ogu musengero; erhi abumbûla akanwa anali muli eyôla ngulumira y’omuliro aderha erhi:
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	026	Oyagirwe Nyakasane Nyamuzinda wa Bashakulûza; izîno lyâwe likuzibwe linaje irenge ensiku zoshi.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	027	Bulya oli mushinganyanya muli ebi warhujirîre byoshi, n’emikolo yâwe eri y’okuli n’enjira zâwe zishingânîne, n’obucîranuzi bwâwe buli bw’okuli.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	028	Bulya wahanyire obucîranuzi bw’okunali muli oku wanarhujirîre kwoshi kuguma n’okuwajiriraga olugo lutagatîfu lwa larha, Yeruzalemu; wajira okwôla kunali kunashingânîne koshi erhi byâha bîrhu birhuma.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	029	Bulya rhwajizire ecâha rhwanahemuka embere zâwe rhwanayunjula amabî goshi.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	030	Rhurhashimbaga amarhegeko gâwe goshi, rhurhagabîkiriraga rhurhanagakulikiraga nk’oku wanali orhegesire lyo rhubona iragi.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	031	Empîmbo warhuhimbwîre zoshi na ngasi kundi warhujirîre, okwôla kwoshi wakujizire n’obushinganyanya.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	032	Wàrhuhanyire emwa abashombanyi bagalugalu, abapagani babî bwenêne, emwa omwâmi orhîshi bushinganyanya, alushire abà hano igulu lyoshi bubî.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	033	Na bunôla rhurhacicîshomya nti rhwabumbûla akanwa; enshonyi n’ebihamba byayisire bambali bâwe, kuguma na ngasi bandi banakuharâmya.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	034	Yâgirwa orharhulekereraga omu maboko g’abashombanyi bîrhu erhi izîno lyâwe lirhuma, orhanavunaga endagâno yâwe.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	035	Yâgirwa orharhurhenzagya kwo obwonjo bwâwe oku makwânane gw’o­mwîra wâwe Abrahamu, n’aga mwambali wâwe Izaki n’omutagatîfu wâwe Israheli.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	036	Abà walaganyagya mpu waluza iburha lyâbo nka enyenyêzi z’oku nkuba, na nka mushenyi g’omu nyanja.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	037	Bulya, yâgirwa Nyakasane rhwe rhukola banyi kulusha omu gandi mashanja goshi, rhunalibusire buno omu igulu lyoshi erhi byâha bîrhu birhuma.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	038	Bunôla ntà mwâmi, ntà murhambo, ntà mulêbi rhucijira; ntà nterekêro rhucijira ôli ez’okukuza, ôli ez’enkalangè, ciru n’okutumbûsa enshangi, rhurhacijira ciru aha rhwakakurhûlira eby’omu mburho zîrhu lyo rhurhona emu­nda oli.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	039	Ci, Yâgirwa nîrhu rhuyankirirwe n’omurhima gw’obucîyunjuze gunayunjwîre bwîrhôhye.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	040	Rhubè nk’abadwîrhe enterekêro z’ensirîra z’engandabuzi n’ez’empanzi, nîsi erhi nk’abadwîrhe ez’ebihumbi by’ebibuzi bishushagîre; ntyôla kwo ebâge ene eyi nterekêro rhukurhûzire bunôla, enabè nyimâna embere zâwe, bulya ntâko bankabulabula abakulangâlira.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	041	Yâgirwa we rhukulikîre bunôla n’okukurhînya n’omurhima gwîrhu goshi, rhwayisha rhwalongereza obusù bwâwe.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	042	Orharhubonêse nshonyi. Ci, Yâgirwa orhujirire nk’oku obutûdu bwâwe bunali na nk’oku obwonjo bwâwe bunji bunali.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	043	Orhulîkûze n’ebirhangâzo byâwe n’izîno lyâwe lij’irenge, yâgirwa Nyakasane.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	044	Barhungwe n’obwôba ngasi balibuza olubaga lwâwe, enshonyi zibabu­mbè omu kuhoza obuhashe n’irenge bagwêrhe n’emisî ebahwêre.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	045	Banamanye oku wêne we Nyakasane, wêne we Nyamuzinda oyunjuzize igulu irenge!
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	046	Ci kwônene balya barhumisi ba mwâmi bakwêbaga balya bantu basharhu omu ndugurhira y’omuliro barhahusagya okuyidukumbya omu kuhiramwo ebitoro, ebikundukundu by’ecimoge, amagoba g’eyindi mirhi gayâka nka mavurha n’amashami g’emizâbîbu.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	047	Engulumira yakazihika omu nkuba-karhî, ya makano makumi anni na mwenda oku nyanya ly’endugurhira y’omuliro.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	048	Lêro omuliro gwalandira gwanayôca Abanya-Kaldeya boshi bali eburhambi bw’endugurhira y’omuliro.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	049	Ci malahika wa Nyakasane ali amâbungulukira omu itanuru, abêra boshi na Azariasi n’abâbo, akazirhenza omwôla ndugurhira ezôla ngulumira ndârhi z’omuliro.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	050	Omwôla ndugurhira ahiramwo empûsi y’ehibohôlolo, empûsi y’ecishuhaha, ntyo omuliro gurhabahikagakwo ciru n’eriguma, gurhabababazagya gurhanabajiraga akantu.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	051	Okubundi abôla bantu basharhu nka muntu muguma, banacijà omu ka­nwa baharâmya, bacîshinga banakuza Nyamuzinda omwôla ndugurhira y’omuliro baderha, mpu:
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	052	«Osûhirwe Nyakasane Nyamuzinda wa bashakulûza, okuzibwe onaj’irenge emyâka n’emyâka. Lisûhirwe izîno ly’irenge lyâwe litagatîfu, Okuzibwe onajè irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	053	Osûhirwe omu nyumpa ntagatîfu y’irenge lyâwe. Okuzwe onaj’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	054	Osûhirwe oku ntebe y’obwâmi bwâwe, Okuzibwe onaj’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	055	Osûhirwe we fukûla emisima, we na bwârhîre kuli bakerûbini oganze onagandâze emyâka n’emyâka yoshi.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	056	Osûhirwe omu cirêre c’oku nkuba, oganze onagandâze emyâka n’emyâka yoshi.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	057	Mwe biremwa bya Nyakasane mukuze Nyakasane, kuzagyi ye munamuhè irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	058	Mwe bamalahika ba Nyakasane, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka, n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	059	Mwe malunga ga Nyakasane, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	060	Mwe mîshi g’oku nkuba, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	061	Mwe mahashe goshi, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	062	Ninyu mwe izûba n’omwêzi, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	063	Mwe nyenyêzi z’emalunga, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	064	Mwe nkuba, ninyu mwe lumè, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	065	Mwe mpûsi mweshi, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	066	Mwe muliro n’idûrhu, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	067	Mwe mpondo n’ecanda, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	068	Mwe lumè n’amahuhira, mukuze Nyakasane, kui ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	069	Mwe mboho n’emisirûla, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	070	Mwe bibuye n’olubula lw’oku nkuba, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	071	Ninyu mwe budufu n’omûshi, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	072	Mwe bumoleke n’omwizimya, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	073	Mwe milazô n’ebitù, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	074	lgulu likuze Nyakasane, limukuze linamuhe irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	075	Mwe ntondo n’orhurhondo, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	076	Mwe mburho z’omw’idaho mweshi, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	077	Mwe maliba mweshi, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	078	Mwe nyanja n’enyîshi, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	079	Mwe mpirahira na ngasi hindi binyagasi by’omu mîshi, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	080	Mwe nyunyi z’emalunga, mukuze mweshi Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	081	Mwe nsimba z’erubala, ninyu bishwêkwa by’eka, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	082	Mwe bene abantu, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	083	Wâni Israheli, kuza Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	084	Mwe badâhwa ba Nyakasane, mukuze Nyakasane, kuli ye obuhashe n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	085	Mwe bambali ba Nyakasane, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	086	Mwe mirhima n’amaroho g’abashinganyanya, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	087	Mwe batagatîfu n’abîrhôhye b’omurhima, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	088	Ananiasi, Azariasi na Misaheli, mukuze Nyakasane, kuli ye obukuze n’irenge emyâka n’emyâka. Bulya arhufumize ecihenama, anarhuyâsa olufù; amârhufumya oku ngulumira y’omu ndugurhira y’omuliro, amârhukûla omu karhî k’omu­ liro n’engulumira zâgwo.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	089	Vugagi Nyakasane omunkwa bulya ali mwinjà; bulya obuzigire bwâge buli bw’ensiku n’amango.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	003	090	Mweshi mwe mumuharâmya, mukuze Nyakasane Nyamuzinda wa ba­ nyamuzinda, mumukuze munamuvuge omunkwa, bulya obuzigire bwâge buli bw’e­ nsiku n’amango.»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	001	Hali muntu muguma wayûbakaga e Babiloni, n’izîno lyâge ye Yowaki­mu.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	002	Anaciyanka omukazi izîno lyâge ye Suzana, mwâli wa Helkiyasi, ali mukazi mwinjinjà na mukazi orhînya Nnâmahanga.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	003	Bulya ababusi bâge bàbâga bashinganyanya, balera mwâli wâbo omu kushimba oburhegesi bwa Mûsa.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	004	Yowakimu ali muntu mugale bwenêne, anali agwêrhe obusâni aha burhambi bw’enyumpa yâge, n’Abayahudi banji bakazâgijà aha mwâge bulya ali wa lukengwa kulusha abandi boshi.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	005	Muli ogwo mwâka bâli bacîshozire bagula babirhi omu lubaga b’okutwa emmanja, bâli bantu akâla kanwa ka Nnâmahanga kayêrekîre erhi: «Obubî e Babiloni buhubusire, budwirhwe n’abashosi batwa emmanja, abalolwa nka barhegesi b’olubaga.»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	006	Bàkomeraga aha mwa Yowaki­mu na ngasi boshi bâli bagwêrhe emmanja ho bakazâg’ibashimâna.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	007	Mûshi, erhi olubaga lwabâga lwamâgenda, Suzana anaj’ilambagira omu busâni bw’ibà.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	008	Abo bashosi babirhi bakazâg’imubona ngasi lusiku ali cîlambagiza, barhondêra okukaz’iyumva omwîfinjo kuli ye.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	009	Bahûrha obukengêre, bàkaz’iyûbika amasù barhagilola enyanya, ciru n’okukengêra emanja zishingânîne.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	010	Bombi omurhima gwakaz’ibalya erhi ye orhuma ci barhabwîranaga ezôla ntanya,
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	011	bulya bakazâgiyumva enshonyi z’okumanyîsa oku bacîfinja okumuyanka, cikwône
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	012	bakazâg’igungêza ngasi lusiku amango bankarhinda kuli ye.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	013	Lêro lusiku luguma basêzerana ntya: «Rhujage emwabirhwe gakola mango ga kulya emidi ganôla.» Kandi banagenda burhagenda.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	014	Ci erhi bagaluka bashimânana n’omu kucîdôsa cici cirhuma, balinda bamanyisanya bwinjinjà kurhi bamwifinja. Okubundi banaciyumvanya oku mango bankahash’imubugâna ali yêne.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	015	Abo bakazâg’igungêza amango gakwânîne. Ka lêro Suzana arhamânayisha nk’oku anakômerera okujira enzindi nsiku erhi analusibwe na bananyere babirhi bônene; alonza okucishukira mulya busâni ebwa kubà idûrhu lyàli linji.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	016	Ntà wundi muntu wali mwo okuleka balya bashosi babirhi bàli bacîfulisire banadwîrhe bamugungêza.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	017	Anacibwîra balya bananyere erhi: «kanyi muj’i­ nderhera amavurha n’ensabuni, munayigale enyumvi z’obusâni ncishuke.»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	018	Banacijira nk’oku anahunyire, n’erhi babà bamayigala enyumvi z’omu busâni, bagerera omu gundi muhango gwàli e burhambi, mpu baj’imulerhera ebi anabahunyire; barhàli bamanyire oku abôla bashosi bàli bacîfulisire.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	019	Erhi balya banyere babà bamâhuluka, balya bashosi bombi banacipamu­ka, banacicîhunika kuli Suzana n’okumubwîra mpu:
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	020	«Lolà enyumvi ezîra ziri mpamike na ntâye odwîrhe arhubona, rhunadwîrhe rhwakwifinja, yêmêra o­kwo rhukuhûnyire, oleke rhukuyanke.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	021	Okalahira rhwaj’ihamîriza rhuderhe oku omwâna w’omusole anali haguma na nâwe, n’oku co carhumaga ohulusa balya bananyere.»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	022	Suzana ayîsa aderha erhi: «Obuhanya bwamanyishira ngasi lunda. Njizire ntyo nfîre, ndahîre nalyo ntamufumiri.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	023	Ci kwônene okuli kukulu kuli nie, nfîre omu maboko ginyu buzira kujira akantu, ahâli h’okuhemuka omu masù ga Nyakasane.»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	024	Oku bundi Suzana anaciyâkûza n’izù linene, nabo balya bashosi bamuhamagaliza nk’okwôla anahamagazagya.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	025	Muguma muli bo alibirhira ebwa nyumvi z’obusâni aziyigula.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	026	Erhi abàli omu nyumpa bayumva olwo lubî omu busâni, baciloha embuga kugerera omu muhango gw’eburhambi mpu bagend’ilola ecabîre.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	027	Erhi balya bashosi bayûsa okuganîra, enshonyi zagwârha abashizi, bulya ntà mango ciru n’eliguma bakola bayumvîrhe kwa bene okwôla kuli Suzana.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	028	Erhi buca, erhi olubaga lubà lwamalundumana aha mwa Yowakimu, ibà wa Suzana, balya bashosi babirhi nabo bayisha ci erhi n’omurhima gwâbo guyunjwîre nkengêro mbî z’okuyîsa Suzana.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	029	Banacibwîra olubaga mpu: Murhumize, bajilêrha Suzana mwâli wa Helkiyasi, mukà Yowakimu. Banacimurhumiza.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	030	Naye ayisha analusibwe n’ababusi bâge n’abâna bâge na bene wâbo boshi.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	031	Ci Suzana àli w’iranga licire na mwinjinjà bwenêne.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	032	Kulya kubà ali acîhundikire obusù, abôla bîsi barhegeka mpu bamurhenze akôla kirhubo, kwàli kulonza okucîsîmîsa n’obwinjà bwâge.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	033	Ci bene wâbo boshi na ngasi ba­ndi bâli bamumanyire bakaz’imulakira.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	034	Oku handi balya bashosi bombi banaciyimuka bajà eruhya, bamulambûlira amaboko oku irhwe.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	035	Naye, oku alaka, anagalamira enyanya emalu­nga ebwa kubà omurhima gwâge gwàli gucîkubagire Nyakasane.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	036	Balya bashosi banaciderha mpu: «Rhwayîshaga rhwalambagira rhwêne omu busâni, oyu mukazi anaciyisha boshi na bananyere babirhi, ene ayûsibabwîra mpu bahamike enyumvi z’omu busâni, anacibayôza.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	037	Omwânarhabana wali ocîfulisire ej’emunda ali, banagwishira boshi naye.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	038	Agôla mango erhi rhuli oku kafendefende k’obusâni, ene rhubona ebirhankaderhwa rhwakanyîriza aha bàli.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	039	Rhwanashimana bayankîne. Nyamurhabâna rhurhahashire mugwârha, arhulusha misî, ene àbà amâyigula olumvi àrhufuma.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	040	Naye oyûla, ene rhubà rhwamamugwârha, rhwamudôsa olya mwânarhabana ye ndi.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	041	Ci arhalonzize okumuderha. Byo binwa bîrhu rhuhamîrîze ebyôla.» Endêko yabayêmêra bulya bâli bagula bo banali batwi b’emmanja, banacitwîra Suzana okufà.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	042	Oku bundi Suzana anaciyâkûza n’izù linene aderha, erhi: «Nyamuzinda w’ensiku n’amango, we oyishi ehifulike, we bona ngasi ka­ntu embere kabè,
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	043	omanyire oku bunywesi obu bampamîrîze; lolà niono nafà n’obwo ntâco najizire muli ebîra byoshi banshobesire oku kunyîrha.»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	044	Nyakasane ayumva omusengero gwâge.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	045	Erhi bakola bali omu njira y’okuj’imuyîrha, Nyakasane azûsa enkengêro nyinjà omu murhima gwa mwânarhabana muguma, izîno lyâge ye Daniyeli.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	046	Ayâkûza n’izù linene aderha erhi: «Niehe ndi mwêru kwêru oku mukò gw’oyûla mukazi!»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	047	Olubaga lwahindamukira emunda ali, lwamudosa mpu: «Kwo kuderha kuci okwôla odesire?»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	048	Oku bundi, Daniyeli ayimanga ekarhî kâbo, aderha erhi: «Bene Israheli, ka musirahire obûla mwamatwira oyûla mwâli w’Israheli okufà buzira kurhang’idôsa mwenene ngahi okuli kuli?
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	049	Kanyi mushubirhangira olubanja ekagombe bulya kunywerha bamunywerhîre.»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	050	Oku bundi, olubaga lwagaluka dubaduba, abagula banacibwira Daniyeli, mpu: «Yisha nâwe rhujè ekagombe rhweshi, orhuyumvise bulya Nyamuzinda akuhîre obukulu b’okutwa emmanja».
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	051	Daniyeli anacibabwira erhi: «Mubaye­gûle, ngasi muguma kulî n’owâbo, mbasambîse».
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	052	Erhi babà bamayûsibakûla haguma, Daniyelia nacihamagala owaburhanzi anacimubwîra erhi: «We muntu washosihaliraga omu bubî, ebyâha wakazâg’ijira mîra byamajaga byayulubuka.»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	053	Wakazâg’itwa emmanja kubî, wakazirhuma bahana abêru-kwêru n’okufungira abâli omu bubî, n’obwo Nyakasane arhegesire mpu: «Orhahîra okatwîra omuntu mwêru-kwêru erhi omushinganyanya okufà.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	054	“Akabà wamubwîne, rhubwîrage aha burhambi bwa murhi muci wamubonaga bo naye haguma?”» Nyamulume anacishuza erhi: «Aha mutudu».
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	055	Daniyeli anacimubwîra erhi: «nêci, bunywesi bwâwe bwanakuheza; lolà oku mîra malahika wa Nyakasane ahâbagwa obuhashe mpu bakutwemwo kabirhi».
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	056	Erhi abà amâyûs’irhegeka mpu bamuyegûle, arhumiza mpu balêrhe owâbo, anacimu­bwîra erhi: «Wâni iburha lya Kanâni ci lirhali lya Yûda, iranga lyakurhebire n’amîru mabî gàhûsize omurhima gwâwe!
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	057	“Ntyâla kwo wakazâgijirira bâli b’Israheli, obwôba bwakarhuma bagwîshira na ninyu ci mwâli wa Yûda yêhe arhalembîre obubî bwinyu”.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	058	“Mbwîraga aha murhi muci wabagwârhiraga bagwîshîre haguma? Anacishuza, erhi: Aha nshebeyi.”»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	059	Daniyeli amubwîra erhi: Nâwe wamanywerha okurhalusire na bulenzi bwâwe bwakuyîrha, bulya malahika wa Nyamuzinda adwîrhe akulinga n’engôrho yâge mpu akuberemwo mpande ibirhi, akuherêrekeze.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	060	Oku bundi, endêko yoshi yabanda akahababo, yakuza Nyamuzinda ociza abamulangâlira.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	061	Kandi, bakwâma balya bashosi bombi Daniyeli anayagîriza­gya erhi binwa byâbo by’obunywesi birhuma.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	062	Acibagalulira galya mabî bâli balongîze omulungu wâbo. Ntyo banacibajirira nk’oku oburhegesi bwa Mûsa bwanalibudesire, banacirhegeka ababayîrha, ntyo omukò mwêru-kwêru gwafuma olwôla lusiku.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	063	Helkiyasi boshi na mukâge bakuza Nyamuzinda erhi okwôla kucira kwa mwâli wâbo Suzana kurhuma, kuguma n’ibà Yowakimu n’abalungu bâge, bulya ntà bubî bwabonekîne kuli ye.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	013	064	Daniyeli akuzibwa bwenêne embere z’olubaga kurhenga agôla mango n’omu gandi mango gakulikiraga.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	001	Erhi mwâmi Astiyage aba amashimana b’îshe banyakwigendera ekuzi­mu, Sirusi w’e Persi ahàbwa obwâmi. Daniyeli ali omu barhonyi ba mwâmi ye wanali wa lukengwa kulusha abandi boshi.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	002	Abantu b’e Babiloni bajiraga omuzimu wâbo bakazâg’ikenga bwenêne ye Beli. Ngasi lusiku bakâg’imurherekêra ngega ikumi n’ibirhi za nshâno, bibuzi makumi ani na rhubindi ndarhu rhw’idivayi.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	003	Mwâmi naye amukengaga bwenêne na ngasi lusiku akazâg’ija emunda ali aj’imuharâmya; ci Daniyeli yehe akaz’iharâmya Nyamuzinda wâge.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	004	Mwâmi anacimubwîra erhi: Cirhuma weki orhaharâmya Beli? Daniyeli ashuza erhi: «Bulya ntaharâmya abazimu bajiragwa n’okuboko k’omuntu, ci mparâmya Nyamuzinda Ozîne, ye walemaga empingu n’igulu, ye onali mukulu wa ngasi ciremwa coshi.»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	005	Mwâmi amubwîra erhi: «Ka weki orhabona bula oku Beli aba nyamuzinda ozîne. Ka orhabona ebi alya n’ebi anywa ngasi lusiku?»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	006	Daniyeli acimwe­mwêsa ashuza erhi: «Orhacirhebaga woliha, mwâmi; Beli liri ibumba omu ndalâlà na mushige omulinga e mugongo, ntà mango asagilya erhi okunywa.»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	007	Mwâmi, omu kukunira, ahamagala abadâhwa ba Beli anacibabwîra erhi: Akabà murhambwîziri ndi okazilya ebiryo by’enterekêro, mwâfà mweshi na mukanyêreka oku Beli onabirya, Daniyeli anafe ebwa kubà amahemukira Beli. Daniyeli anacishuza Mwâmi erhi: «kwo binabâge ntyôla nk’okwo odesire.»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	008	Abadâhwa ba Beli bàli makumi gali nda, buzira kuganja abakazi n’aba­na.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	009	Mwâmi boshi na Daniyeli banacija omu ka-Beli. Abadâhwa ba Beli banaciderha mpu lolà oku rhukola rhwahuluka rhuje embuga, nâwe we oyôla yâgirwa nnawîrhu, ojire bahire ebiryo n’idivayi livange omu ka-Beli kandi wanayigala olumvi onahire kwo enaniko y’ehigondo hyâwe.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	010	N’irhondo sêzi ojà munôla ka-Beli okashimâna ebiryo byoshi birhàlirwe na Beli rhunafe; n’akabirya erhi Daniyeli orhuderhîre eby’obunywesi, ye wâfà.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	011	Bàli bama­nyire ehijira bakazâg’igereramwo idako ly’amêza, hirhanali himanyirwe, hyo bakazâg’iyombôkamwo, bayishe barhôle enterekêro zoshi.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	012	Erhi babà ba­mâyus’ihuluka n’erhi mwâmi abà amayûs’idêkereza ebiryo embere za Beli,
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	013	Daniyeli arhegeka mpu abarhumisi balêrhe oluvù, banacilugalagaliza omu bululi boshi erhi na mwâmi yêne adwîrhe abona. Kandi banacihuluka, bahami­ka olumvi banacihira kwo ehinanîzo hy’ehigondo hya mwâmi, banacigenda.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	014	Erhi bubà bwàyizire, abadâhwa bàyongoberera omu nyumpa nk’oku bana­ komêreraga boshi na bakâbo n’abâna bâbo balya bananywa byoshi.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	015	Mwâmi anacizukiriza sêzi sêzi boshi na Daniyeli.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	016	Anacidôsa, erhi: «Ka orhunanîzo rhuli rhugumaguma wâni Daniyeli?» Naye ashuza, erhi: «Nêci woliha, rhuli rhugumagumà.»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	017	Erhi bayûs’iyigula olumvi n’okulola oku mêza, mwâmi aha­magaza n’izù linene, erhi: Oli mukulu mushâna Beli, ntà bunywesi bukuba­kwo.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	018	Daniyeli asheka anacihanza mwâmi mpu arhashubig’ija kuli kulusha.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	019	Mwâmi anacishuza, erhi: «Namâbona enshando z’abalume n’ez’abakazi n’e­ z’abâna.»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	020	Mwâmi omu kukunira bwenêne anacirhuma abagend’igwârha abadâhwa kuguma na bakâbo n’abâna bâbo, banacimuyêreka omuhango bakazâg’igereramwo bakola baj’ilya ebiri oku mêza.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	021	Anacirhegeka babani­gûza boshi, aha na Daniyeli olya Beli, naye amuvungunyula n’enyumpa yâge.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	022	Habâga n’enjoka nnene bwenêne, n’abantu b’e Babiloni bakazâg’iyike­nga nka muzimu wâbo.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	023	Mwâmi anacibwîra Daniyeli, erhi: «Ka kandi wâde­rha mpu oyûla naye ali wa mulinga? Lolà oku azîne, na kulya alya, ananywe: o­rhankaderha mpu arhali nyamuzinda ozîne, harâmya ye!»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	024	Daniyeli ashuza, erhi: «Niono mparâmya Nyamuzinda bulya ye obà Nyamuzinda ozîne, eyira e­rhali nyamuzinda ozîne. Okalonza onyêmêrere yâgirwa mwâmi wabona oku nayîrha eyi njoka buzira ngôrho nîsi erhi karhi.»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	025	Mwâmi anacishuza, erhi: «Nkuhîre yo.»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	026	Okubundi Daniyeli anaciyanka obulembo bwîru, n’amavurha n’obôya anacibidêkera omu mîshi àjiramwo emibumbuli miburunguse akaz’iyi­kweba omu kanwa k’enjoka. Erhi enjoka eyûs’ilya yafà. Daniyeli anacimu­bwîra, erhi: «Alaga oyu muharâmya!»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	027	Abantu b’e Babiloni erhi bamanya o­gwôla mwanzi bagaya bwenêne banacihigira mwâmi. Banakaderha, mpu: «Mwâmi akola Muyahudi, mpu kali ashabwîre Beli, ayîrha n’abadâhwa abani­gûza.»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	028	Banaciyisha bajà emunda mwâmi ali banacimubwîra, mpu: «Orhuhè Daniyeli n’okalahira rhwakuyîrha rhunaherêrekeze enyumpa yâwe».
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	029	Mwâmi erhi abona kurhi bamugosire, banadwîrhe bahagaza, ayôboha, asezibwa oku­ baha Daniyeli.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	030	Banacimukwêba omu bulumba bw’entale, anacibêramwo nsiku ndarhu.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	031	Omwôla bulumba mwàli ntale nda, ngasi lusiku zakazâg’ihâbwa mirhumba ibirhi ya bantu na bibuzi bibirhi. Ci lêro barhabahaga bici ezo nsiku mpu lyo zi­lya Daniyeli.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	032	Muli agôla mango erhi omulêbi Habakuki àli e Yûda; erhi aba amarhega­nya empana n’omugati, abishana omu cirhimbiri mpu akola ashegula abadwîrhe barhema emburho omu mashwa.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	033	Malahika wa Nyakasane anacibwîra Habakuki, erhi: «Ohêke ebyôla biryo e Babiloni, obihêkere Daniyeli omu bulumba bw’entale».
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	034	Habakuki anacishuza, erhi: «Yâgirwa Nyakasane, ntishi e Babiloni ntanamanyiri obwôla bulumba ngahi buli.»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	035	Okubundi malahika anacimugwârhira oku irhwe, amugwârhira omu mvîri amuzurundukana aj’imu­dêkereza e Babiloni oku nyanya lya bulya bulumba yeshi anayisha ahumagira.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	036	Habakuki anaciyâkuza, erhi: «Daniyeli, Daniyeli, yanka ebiryo Nyamuzinda akurhumîrel»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	037	Daniyeli anaciderha, erhi: «Wamankengera, yâgirwa Nyamuzinda, orhanalekêrera abakuzigira.»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	038	Daniyeli ayimuka, anacirho­ndêra alya na malahika wa Nyakasane ashub’iyanka Habakuki amushubiza ho na halya emwâge.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	039	Oku lusiku lwa kali nda, mwâmi ayisha akola al’ilakira Daniyeli; anacihika aha bulumba, anacilâba, abona oku Daniyeli abwârhîre.
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	040	Anacihamagaza n’izù linene, erhi: «Oli mukulu, Nyakasane Nyamuzinda wa Daniyeli na ntà wundi Nyamuzinda ohabà okuleka we!»
+Holy-Bible---Shi---Mashi-Bible	027	DAN	014	041	Anacirhenza Daniyeli mulya bulu­mbà. Arhegeka mpu balya bàli balonzize okumuyîrha babe bo bahira omwôla bulumba; oku banabakwêbamwo ntya, entale zabamaka zabafonfomera erhi na mwâmi banadwîrhe balola.
+Holy-Bible---Shi---Mashi-Bible	044	ACT	015	034	]
+Holy-Bible---Shi---Mashi-Bible	064	3JO	001	014	Nnangâlîre nti rhuli hôfi rhubonane, rhushambâle n’akanwa.
+Holy-Bible---Shi---Mashi-Bible	066	REV	012	018	Anaciyimanga oku mushenyi gw’enyanja obwo.
+Holy-Bible---Sholaga---Sholaga-Bible	042	LUK	017	036	
+Holy-Bible---Sholaga---Sholaga-Bible	064	3JO	001	014	ಮಿ ಭೆಗಿನ ಐನ ದೆಕುಸ ಕೈನ ಆಸ ಮ್ಹೆಲುಸ. ತೆಳಾಮಾ ಅಪೆ ಕ್ಹಾಮಾಜ಼ ಬೊಲಿಯೆ.
+Holy-Bible---Sholaga---Sholaga-Bible	066	REV	012	018	ತೆ ಮ್ಹೊಟೊ ಕ್ಹಾಪ ಸಮುಂದರನಿ ದಂಡಿಪರ ಹುಬ್ರಯೊತೊ.
 Holy-Bible---Shona---Rakasununguka	064	3JO	001	014	Ndinovimba kuti ndichakuonai nokukurumidza, uye tichazotaurirana chiso nechiso.
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	006	JOS	024	034	В той день вземше сынове Израилевы кивот Божий, обношаху с собою: и Финеес жречествова вместо Елеазара отца своего, дондеже умре и погребеся в Гаваафе своем.
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	006	JOS	024	035	Сынове же Израилевы отидоша кийждо в место свое и в свой град.
@@ -11945,6 +12262,7 @@ Holy-Bible---Slovene---Slovene-Stritarja-NT	064	3JO	001	014	Upam pa videti te sk
 Holy-Bible---Soli---Soli-Bible	064	3JO	001	014	Ndayeyenga kwisa kwambeti tukabandike nkatuli twalangana.
 Holy-Bible---Soli---Soli-Bible	066	REV	012	018	Nomba cinjoka calakemana mulombe lwa lwenje.
 Holy-Bible---Somali---Somali-Bible	064	3JO	001	014	Laakiin waxaan rajaynayaa inaan dhowaan ku arko, oo aynu afkeenna iskula hadli doonno.
+Holy-Bible---Somau-Karia---Somau-Karia-Bible	064	3JO	001	014	Xenene xuwena ye utune xekenitia xirini kunakunawaxauxi nanune.
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	006	JOS	005	014	Él respondió: “No, sino que soy el príncipe del ejército de Yahvé, que acabo de llegar.”
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	011	1KI	022	043	Anduvo en todos los caminos de su padre Asá, sin apartarse de ellos, haciendo lo que era recto a los ojos de Yahvé.
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	017	EST	010	004	Entonces Mardoqueo dijo: “Esto es obra de Dios.
@@ -12539,10 +12857,36 @@ Holy-Bible---Tagin---Tagin-First-Bible	064	3JO	001	014	Nonua ngo baapubv kaarwk 
 Holy-Bible---Tagin---Tagin-First-Bible	066	REV	012	018	Okv svmasa gv agumai lo Sichingpanv angv ridudakdu.
 Holy-Bible---Tamil---Open-Contemporary	064	3JO	001	014	உன்னை விரைவில் சந்திப்பேன் என எதிர்பார்க்கிறேன். அப்பொழுது, நாம் நேரடியாகவே பேசிக்கொள்ளலாம். உனக்கு சமாதானம் உண்டாவதாக.
 Holy-Bible---Tamil---Tamil-Bible	064	3JO	001	014	சீக்கிரமாக உன்னைப் பார்க்கலாம் என்று நம்பியிருக்கிறேன், அப்பொழுது முகமுகமாகப் பேசிக்கொள்ளுவோம்.
+Holy-Bible---Tavoyan---Tavoyan-Bible	040	MAT	017	021	
+Holy-Bible---Tavoyan---Tavoyan-Bible	040	MAT	018	011	
+Holy-Bible---Tavoyan---Tavoyan-Bible	040	MAT	021	044	
+Holy-Bible---Tavoyan---Tavoyan-Bible	040	MAT	023	014	
+Holy-Bible---Tavoyan---Tavoyan-Bible	041	MAR	007	016	
+Holy-Bible---Tavoyan---Tavoyan-Bible	041	MAR	009	044	
+Holy-Bible---Tavoyan---Tavoyan-Bible	041	MAR	009	046	
+Holy-Bible---Tavoyan---Tavoyan-Bible	041	MAR	011	026	
+Holy-Bible---Tavoyan---Tavoyan-Bible	041	MAR	015	028	
+Holy-Bible---Tavoyan---Tavoyan-Bible	042	LUK	017	036	
+Holy-Bible---Tavoyan---Tavoyan-Bible	042	LUK	023	017	
+Holy-Bible---Tavoyan---Tavoyan-Bible	043	JOH	005	004	
+Holy-Bible---Tavoyan---Tavoyan-Bible	044	ACT	008	037	
+Holy-Bible---Tavoyan---Tavoyan-Bible	044	ACT	015	034	
+Holy-Bible---Tavoyan---Tavoyan-Bible	044	ACT	024	007	
+Holy-Bible---Tavoyan---Tavoyan-Bible	044	ACT	028	029	
+Holy-Bible---Tavoyan---Tavoyan-Bible	045	ROM	016	024	
+Holy-Bible---Tavoyan---Tavoyan-Bible	064	3JO	001	014	ငါဟှာ နန့်နားဟှို ကြာခန်ရော့‑က်လာဘီး နန့်န မျစ်နှာချင်းဆိုင် စကားပြောဆိုနိုင်လေ့မယ် ဆိုဘီး မျှော်လင့်ဟှယ်။
+Holy-Bible---Tavoyan---Tavoyan-Bible	066	REV	012	018	နဂါးဟှာ ပန်လယ်ရဲ့ သဲပ္လန်မာ ရပ်နေဟှယ်။
+Holy-Bible---Teke-Tyee---Teke-Tyee-Bible	041	MAR	009	044	]
+Holy-Bible---Teke-Tyee---Teke-Tyee-Bible	041	MAR	009	046	]
+Holy-Bible---Teke-Tyee---Teke-Tyee-Bible	041	MAR	011	026	
+Holy-Bible---Teke-Tyee---Teke-Tyee-Bible	064	3JO	001	014	Mu kuulu me ndi a kana ti me sa mono we mu bitsughu bibi nkulu, ya me meme sa mbili ya be. Me ndi a kana lili ofirimono we mu bitsughu bibi nkulu, ya me meme sa mbili ya we.
+Holy-Bible---Teke-Tyee---Teke-Tyee-Bible	066	REV	012	018	Ŋa mbihi, nde átemene ŋa yulu a dzyele lili mu mukogho a mubu.
 Holy-Bible---Telugu---Telugu-Bible	040	MAT	004	014	
 Holy-Bible---Telugu---Telugu-Bible	064	3JO	001	014	కానీ నేను నిన్ను త్వరలోనే చూడగలనని ఆశిస్తున్నాను. అప్పుడు మనం ముఖాముఖీ మాట్లాడుకుందాం.
 Holy-Bible---Telugu---Telugu-Bible	066	REV	012	018	దానికోసం ఆ మహా సర్పం సముద్ర తీరంలో ఇసుక తిన్నెలపై నిలబడింది.
 Holy-Bible---Telugu---Telugu-Open-Contemporary	064	3JO	001	014	త్వరలో నేను నీ దగ్గరకు వచ్చి ముఖాముఖిగా నీతో మాట్లాడాలని నిరీక్షిస్తున్నాను.
+Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	064	3JO	001	014	मोकै आसा है कि तोसे जल्दियै भेंटा होगो, और फिर हम आमने-सामने बातचीत करंगे।
+Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	066	REV	012	018	और बौ अजगर समुंदर के किनारे ठाड़गौ।
 Holy-Bible---Tsakhur---Tsakhur-Bible	009	1SA	020	042	Yonatanee Davuduk'le eyhen: – Vas yugna yəq vuxhena. Zınay ğu Rəbbine doyule sana-sang'us k'ın g'assır, uvhuynniy: Rəbb yizdeyiy yiğne, yişde uşaxaaşine yı'q'neenar gırgıne gahbışisda Şahad vorna.
 Holy-Bible---Tsakhur---Tsakhur-Bible	020	PRO	031	025	
 Holy-Bible---Turkish---Open-Basic-Turkish	064	3JO	001	014	Yakında seni görmeyi umut ediyorum. O zaman yüz yüze konuşacağız.
@@ -12780,6 +13124,13 @@ Holy-Bible---Uyghur---Uyghur-Bible-Latin	064	3JO	001	014	Sen bilen pat arida did
 Holy-Bible---Uyghur---Uyghur-Bible-Pinyin	009	1SA	021	001	Dawut ǝmdi Nobⱪa kelip Ahimǝlǝk kaⱨinning ⱪexiƣa bardi.
 Holy-Bible---Uyghur---Uyghur-Bible-Pinyin	011	1KI	022	044	XCOMBINE
 Holy-Bible---Uyghur---Uyghur-Bible-Pinyin	064	3JO	001	014	Sǝn bilǝn pat arida didar kɵrüxüxni arzu ⱪilimǝn; xu qaƣda dǝrⱪǝmdǝ sɵzliximiz.
+Holy-Bible---Vaagri-Booli---Vaagri-Booli-Bible	064	3JO	001	014	ಮೆ ಜ಼ಲ್‌ದಿ ಆಯಿನ್ ತುನ ದೆಖಿಶ್‍ಕರಿ ಭರೋಖ್ಹೊ ಕರುಸ್. ತದೆ ಅಪ್ಣೆ ಆಮೆಖ್ಹಾಮೆಥಿ ವಾತೆ ಬೊಲಿಯೆ.
+Holy-Bible---Vaagri-Booli---Vaagri-Booli-Bible	066	REV	012	018	ದರ‍್ಯಾವ್ನ ಕನಾರಿನ ರೇತ್‌ಪರ್ ಭೀರಿಗಯೊ.
+Holy-Bible---Vaghri---Vaghri-Bible	044	ACT	028	029	
+Holy-Bible---Vaghri---Vaghri-Bible	064	3JO	001	014	ఎగ్గీస్‍ తునా దేక్నుకరి నిరీక్చణతి చౌవ్‍. తెదె మోఢను హాఃమె హాఃమేస్‍ వాత్‍ బొల్లీసు. తునా సమాధానంహువదా.
+Holy-Bible---Vaghri---Vaghri-Bible	066	REV	012	018	తెదే పాక్డీవాలు హాఃప్‍ ధర్యాయ్‍ను కనారీనా ఉబ్రూ.
+Holy-Bible---Vidunda---Vidunda-Bible	064	3JO	001	014	Ndangutumbila kukona mazuwa mado hela, na baho todogola goloko.
+Holy-Bible---Vidunda---Vidunda-Bible	066	REV	012	018	Hamba izoka nalima hafungo mwa bahali.
 Holy-Bible---Vietnamese---Contemporary	064	3JO	001	014	Mong sớm gặp anh để trực tiếp nói chuyện thì tốt hơn.
 Holy-Bible---Vietnamese---Contemporary	066	REV	012	018	Rồng đứng rình bên bờ biển.
 Holy-Bible---Vwanji---Vwanji-Bible	042	LUK	023	017	
@@ -12789,18 +13140,171 @@ Holy-Bible---Vwanji---Vwanji-Bible	064	3JO	001	014	Looli nihuvila kukuvona anala
 Holy-Bible---Vwanji---Vwanji-Bible	065	JUD	001	012	
 Holy-Bible---Vwanji---Vwanji-Bible	065	JUD	001	013	
 Holy-Bible---Vwanji---Vwanji-Bible	066	REV	012	018	Kange injoka jikima pakyanya pa lihanga mulubale mu nyanja.
+Holy-Bible---Waja---Waja-Bible	064	3JO	001	014	N danggi̱gu̱ n kaca muwe pi̱na yi̱ jo̱r banyi̱na, yi ce̱ ci̱ye̱i̱ nunge yi̱ nunge.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	003	001	Zaburuna Daud, wakutuu incia apalaiaka karona minaaka i anana mokosarona Absalom.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	004	001	To kapalana molaguna. Tee kagasiana gambusu. Zaburuna Daud.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	005	001	To kapalana molaguna. Tee kagasiana suli. Zaburuna Daud.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	006	001	To kapalana molaguna, tee kagasiana gambusu. Mboomo lagu: I walu anguna. Zaburuna Daud.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	007	001	Lagu kaporona incana Daud, ilaguakana to KAWASANA OPU roonamo Kus, miana Binyamin sumai.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	008	001	To kapalana molaguna. Mboomo lagu Gitit. Zaburuna Daud.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	009	001	To kapalana molaguna. Mboomo lagu: Matena Samia Ana. Zaburuna Daud.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	012	001	To kapalana molaguna. Mboomo lagu: I walu anguna. Zaburuna Daud.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	018	001	To kapalana molaguna. Minaaka i bhatuana KAWASANA OPU, siitumo o Daud, mopakawaakana lagu incia sii to KAWASANA OPU, wakutuuna KAWASANA OPU arambasaka Daud minaaka i limana Saul tee minaaka i manga musuna. Incia apogau,
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	019	001	To kapalana molaguna. Zaburuna Daud.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	020	001	To kapalana lagu. Zaburuna Daud.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	021	001	To kapalana molaguna. Zaburuna Daud.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	022	001	To kapalana molaguna. Mboomo lagu: Rusa i wakutuuna raneeo. Zaburuna Daud.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	030	001	Zaburuna Daud to alaguaka wakutuuna lipuna Israel alimbaisi Bhanua Mangkilo.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	031	001	To kapalana molaguna. Zaburuna Daud.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	034	001	Zaburuna Daud, wakutuuna incia apara-para amagila i aroana Abimelekh, sabutuna incia atopadhencu, kasiimpo alingka.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	036	001	To kapalana molaguna. Zaburuna Daud, o bhatuana KAWASANA OPU.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	038	001	Zaburuna Daud. Zikiri i wakutuuna pasombaana kurubanina kaudhania.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	039	001	To kapalana molaguna. To Yedutun. Zaburuna Daud.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	040	001	To kapalana molaguna. Zaburuna Daud.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	041	001	To kapalana molaguna. Zaburuna Daud.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	042	001	To kapalana molaguna. Lagu kaadharina miana Korah.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	044	001	To kapalana molaguna. Zaburuna miana Korah. Laguna kaadhari.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	045	001	To kapalana molaguna. Aose lagu: Kamba-kamba Bakung. Zaburuna miana Korah. Laguna kaadhari; laguna kaasi.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	046	001	To kapalana molaguna. Laguna miana Korah; alaguakea tee suara momalanga.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	047	001	To kapalana molaguna. Zaburu minaaka i miana Korah.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	048	001	Zaburuna miana Korah to lagu.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	049	001	To kapalana molaguna. Zaburuna miana Korah.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	051	001	To kapalana molaguna. Zaburuna Daud.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	051	002	I wakutuuna Nabii Natan audhaniaka Raja Daud sapadhana incia apewau zinaa tee Batsyeba.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	052	001	To kapalana molaguna. Lagu kaadharina Daud,
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	052	002	wakutuuna Doʼeg, miana Edom sumai, aumba apokawa tee Saul tee apaumbaaka ande o Daud akawamo i bhanuana Abimelekh.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	053	001	To kapalana molaguna. Mboomo laguna kanarakaa. Lagu kaadharina Daud.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	054	001	To kapalana molaguna. Tee kagasiana kecapi. Lagu kaadharina Daud
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	054	002	wakutuuna miana Zifi aumba apogauaka i Raja Saul, "Daud apeopo i ingkami."
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	055	001	To kapalana molaguna. Tee kagasiana kecapi. Lagu kaadharina Daud.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	056	001	To kapalana molaguna. Mboomo lagu: Manu-manu jarajara mopopoteona i puuna kau tarbantin momaridho. Zaburuna Daud wakutuuna miana Filistin arako incia i Gat.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	057	001	To kapalana molaguna. Mboomo lagu: Bholi upahancuru. Zaburuna Daud, wakutuuna incia apalaiaka Saul tee aopo i nuncana lia.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	058	001	To kapalana molaguna. Mboomo lagu: Bholi upahancuru. Zaburuna Daud.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	059	001	To kapalana molaguna. Mboomo lagu: Bholi upahancuru. Zaburuna Daud, siitumo wakutuuna Raja Saul atumpu mia to alibu bhanuana Daud tee ahaejati to apekamatea.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	060	001	To kapalana molaguna. Aose lagu: Kamba Bakung Kasakusii. Zaburuna Daud, to atoadhariaka
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	060	002	wakutuuna incia aewangi miana Aram-Naharaim tee miana Aram-Zoba, tee wakutuuna Yoab ambuli sapadhana apekamate 12.000 miana Edom i Mbolongana Asin.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	061	001	To kapalana molaguna. Tee kagasiana kecapi. Zaburuna Daud.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	062	001	To kapalana molaguna. Mboomo: Yedutun. Zaburuna Daud.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	063	001	Zaburuna Daud wakutuuna incia adhaangia i Tana Matuuna Yuda.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	064	001	To kapalana molaguna. Zaburuna Daud.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	065	001	To kapalana molaguna. Zaburuna Daud. Laguna.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	067	001	To kapalana molaguna. Tee kagasiana kecapi. Laguna Zaburu.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	068	001	To kapalana molaguna. Zaburuna Daud. Laguna.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	069	001	To kapalana molaguna. Aose lagu: Kamba-kamba Bakung. Zaburuna Daud.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	070	001	To kapalana molaguna. Zaburuna Daud. Zikiri i wakutuuna pasombaana kurubanina kaudhania.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	075	001	To kapalana molaguna. Zaburuna Asaf to lagu: Bholi Upahancurua.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	076	001	To kapalana molaguna. Tee atikiakea kecapi. Zaburuna Asaf to lagu.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	077	001	To kapalana molaguna. Zaburuna Asaf to Yedutun.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	080	001	To kapalana molaguna. Aose lagu: Kamba-kamba Bakung. Laguna kasakusii. Zaburuna Asaf.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	081	001	To kapalana molaguna. Mboomo lagu Gitit. Zaburuna Asaf.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	083	001	Zaburuna Asaf to saangu lagu.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	084	001	To kapalana molaguna. Mboomo lagu Gitit. Zaburuna miana Korah.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	085	001	To kapalana molaguna. Zaburuna miana Korah.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	088	001	Doʼa to kapalana molaguna. Zaburuna miana Korah. Mboomo lagu: Kasukarana Kanarakaa. Lagu kaadharina Heman, miana Ezrahi.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	089	001	Lagu kaadharina Etan, miana Ezrahi.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	092	001	Zaburuna saangu lagu to eona Saputuu.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	102	001	Doʼana samia monarakaana, i wakutuuna amangule tee amalute apeenci i aroana KAWASANA OPU.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	108	001	Lagu. Zaburuna Daud.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	140	001	To kapalana molaguna. Zaburuna Daud.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	142	001	Lagu kaadharina Daud wakutuuna incia apalaiaka Saul tee aopo i nuncana lia. Saangu doʼa.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	040	MAT	023	014	
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	042	LUK	017	036	
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	042	LUK	023	017	
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	064	3JO	001	014	Iaku kuharapu indamo amangenge kupokawa lausaka tee ingkoo, mamudhaakana tapogau tapoaro rou.
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	066	REV	012	018	Kasiimpo naga sumai akabhale-bhale i bhiwina tawo.
 Holy-Bible---Yaka---Ivatan-Bible	041	MAR	009	044	]
 Holy-Bible---Yaka---Ivatan-Bible	041	MAR	009	046	]
 Holy-Bible---Yaka---Ivatan-Bible	041	MAR	011	026	]»
 Holy-Bible---Yaka---Ivatan-Bible	041	MAR	015	028	]
 Holy-Bible---Yaka---Ivatan-Bible	064	3JO	001	014	Me ndi na ilimbisi, ti mu mwaana a taanga hoolo, bisi a we sa dimonono, na sa ditsuu kiinzi na kiinzi.
 Holy-Bible---Yaka---Ivatan-Bible	066	REV	012	018	Darango atemini nha simi la mubu.
+Holy-Bible---Yaka---Yaka-Bible	064	3JO	001	014	Tsini kivuvu ni ka thama ku yikṵ́mona amana twaménasana ha munwa munwa.
+Holy-Bible---Yalunka---Yalunka-Bible	004	NUM	025	019	Na fitina furen yi dangu.
+Holy-Bible---Yalunka---Yalunka-Bible	009	1SA	020	042	Yonatan yi a fala Dawuda xa, a naxa, “Siga bɔɲɛ xunbenli. A kolon, en bata en ma xɔyiyaan nakɔlɔ Alatala xinli, en yi a fala, ‘Alatala nan seren na, i tan nun n tan tagi e nun n bɔnsɔnna nun i bɔnsɔnna tagi habadan!’ ”
+Holy-Bible---Yalunka---Yalunka-Bible	011	1KI	022	043	A yi sigan ti tinxinni alo a fafe Asa, a mi a kiraan beɲin, a fe faɲin liga Alatala yɛɛ ra yi.
+Holy-Bible---Yalunka---Yalunka-Bible	013	1CH	012	004	Gabayon kaan Yisemaya naxan findi sofa gbeen na sofa wɛkilɛxi tonge saxanne yɛ, a fan yi findi kuntigin na e tagi.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	003	001	Dawudaa bɛtina, a to a gi a dii Abisalomi bun.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	004	001	Dawudaa bɛtina, bɛti baane kuntigin xa. A xa ba maxase luti kanne ra.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	005	001	Dawudaa bɛtina, bɛti baane kuntigin xa. A xa ba xulenna ra.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	006	001	Dawudaa bɛtina, bɛti baane kuntigin xa. A xa ba maxase luti kanne ra e nun kondenna luti solomasɛxɛ kanna ra.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	007	001	Dawudaa mawugan bɛtina, a naxan baxi Alatala xa Kusi Bunyamin kaana fe ra.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	008	001	Dawudaa bɛtina, bɛti baane kuntigin xa. A xa ba Gati kaane kondenna ra.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	009	001	Dawudaa bɛtina, bɛti baane kuntigin xa. A xa ba alo “Dii Xɛmɛ Faxan” bɛtina.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	012	001	Dawudaa bɛtina, bɛti baane kuntigin xa. A xa ba kondenna luti solomasɛxɛn na.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	018	001	Alatalaa walikɛɛn Dawudaa bɛtin bɛti baane kuntigin xa. A bɛtini ito baxi nɛn Alatala to a ba a yaxune birin yii e nun Sɔli yii.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	019	001	Dawudaa bɛtina, bɛti baane kuntigin xa.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	020	001	Dawudaa bɛtina, bɛti baane kuntigin xa.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	021	001	Dawudaa bɛtina, bɛti baane kuntigin xa.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	022	001	Dawudaa bɛtina, bɛti baane kuntigin xa. A xa ba alo bɛtin naxan xili: “Xɔtɔnna Xɛli Gilɛna.”
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	030	001	Dawudaa bɛtina. Sigi sariɲanxina. Batu Banxin nasariɲan bɛtina.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	031	001	Dawudaa bɛtina, bɛti baane kuntigin xa.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	034	001	Dawuda gbeena. A to a yɛtɛ findi fatɔɔn na Abimeleki fɛma, naxan a kedi.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	036	001	Alatalaa walikɛɛn Dawudaa bɛtina, bɛti baane kuntigin xa.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	038	001	Dawudaa bɛtina. Maxandina.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	039	001	Dawudaa bɛtina, bɛti baane kuntigin xa, Yedutun xa.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	040	001	Dawudaa bɛtina, bɛti baane kuntigin xa.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	041	001	Dawudaa bɛtina, bɛti baane kuntigin xa.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	042	001	Koraa diine fala ɲaxumɛna. Bɛti baane kuntigin xa.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	044	001	Koraa diine fala ɲaxumɛna, bɛti baane kuntigin xa.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	045	001	Koraa diine fala ɲaxumɛna, bɛti baane kuntigin xa. A xa ba alo bɛtin naxan xili: “Fuge Faɲine.” Xanuntenya sigina.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	046	001	Koraa diine Ala tantun sigina, bɛti baane kuntigin xa. Sungutunne xa a ba.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	047	001	Koraa diine bɛtina, bɛti baane kuntigin xa.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	048	001	Koraa diine bɛtina. Sigi sariɲanxina.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	049	001	Koraa diine bɛtina, bɛti baane kuntigin xa.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	051	001	Dawudaa bɛtina, bɛti baane kuntigin xa.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	051	002	A naxan ba Nabi Natan to fa a fɛma a yalunyaan ligaxina e nun Batiseba.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	052	001	Dawudaa fala ɲaxumɛna, bɛti baane kuntigin xa.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	052	002	A naxan ba, Dowegi Edɔn kaan to siga Sɔli fɛma, a naxa, “Dawuda bata siga Aximeleki a banxini.”
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	053	001	Dawudaa fala ɲaxumɛna, bɛti baane kuntigin xa. A xa ba xulenna ra.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	054	001	Dawudaa fala ɲaxumɛna, bɛti baane kuntigin xa. A xa ba kondenne ra.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	054	002	Dawuda bɛti naxan ba, Sifi kaane to siga Sɔli fɛma e naxa, “Dawuda luxunxi nxu tagi.”
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	055	001	Dawudaa fala ɲaxumɛna, bɛti baane kuntigin xa. A xa ba kondenne ra.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	056	001	Dawudaa maxandi ɲaxumɛna. Bɛti baane kuntigin xa: a xa ba alo bɛtin naxan xili, “Ganban Wudi Makuyeni” a naxan ba Filisitine to a suxu Gati taani.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	057	001	Dawudaa maxandi ɲaxumɛna, bɛti baane kuntigin xa. A xa ba alo bɛtin naxan xili, “I Nama Halagin Ti” Dawuda naxan ba a to a gi Sɔli bun, a sa a so faran yinla ra.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	058	001	Dawudaa maxandi ɲaxumɛna, bɛti baane kuntigin xa. A xa ba alo bɛtin naxan xili: “I Nama Halagin Ti.”
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	059	001	Dawudaa maxandi ɲaxumɛna, bɛti baane kuntigin xa. A xa ba alo bɛtin naxan xili: “I Nama Halagin Ti,” a naxan ba Sɔli to sofane xɛ e xa sa e luxun Dawuda yɛɛ ra a banxini a faxa xinla ma.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	060	001	Dawudaa maxandi ɲaxumɛna, bɛti baane kuntigin xa, a xa ba alo bɛtin naxan xili: “Gabalan Fugaxina Sereyana.” A xa ba xaran feen na.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	060	002	Dawuda bɛtini ito nan ba a to Arami kaane yɛngɛ naxanye keli Mesopotamiya yamanan nun Soba yamanani, Yowaba yi xɛtɛ, a Edɔn kaa wuli fu nun firin faxa Fɔxɔ Lanbanni.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	061	001	Dawudaa bɛtina, bɛti baane kuntigin xa. A xa ba kondenne ra.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	062	001	Dawudaa bɛtina, bɛti baane kuntigin xa Yedutun xa.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	063	001	Dawudaa bɛtina, a yi Yuda tonbon yireni waxatin naxan yi.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	064	001	Dawudaa bɛtina, bɛti baane kuntigin xa.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	065	001	Dawudaa bɛtina, bɛti baane kuntigin xa. Sigi sariɲanxina.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	067	001	Tantun bɛtina, bɛti baane kuntigin xa. A xa ba kondenne ra. Sigi sariɲanxina.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	068	001	Dawudaa bɛtina, bɛti baane kuntigin xa. Sigi sariɲanxina.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	069	001	Dawudaa bɛtina, bɛti baane kuntigin xa. A xa ba alo bɛtin naxan xili: “Fuge Faɲine.”
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	070	001	Dawudaa bɛtina, bɛti baane kuntigin xa. Maxandina.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	075	001	Asafi a bɛtina, bɛti baane kuntigin xa, a xa ba alo bɛtin naxan xili, “I Nama Halagin Ti.” Sigi sariɲanxina.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	076	001	Asafi a bɛtina, bɛti baane kuntigin xa. A xa ba kondenne ra. Sigi sariɲanxina.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	077	001	Asafi a bɛtina, bɛti baane kuntigin xa, Yedutun xa.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	080	001	Asafi a bɛtina bɛti baane kuntigin xa, sereyana, a xa ba alo bɛtin naxan xili: “Fuge Faɲine.”
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	081	001	Asafi gbeena, bɛti baane kuntigin xa. A xa ba Gati kaane kondenna ra.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	083	001	Sigi sariɲanxina. Asafi a bɛtina.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	084	001	Koraa diine tantun bɛtina, bɛti baane kuntigin xa. A xa ba Gati kaane kondenna ra.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	085	001	Koraa diine tantun bɛtina, bɛti baane kuntigin xa.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	088	001	Sigi sariɲanxina. Koraa diine tantun bɛtina, bɛti baane kuntigin xa. A xa ba xulenna ra. Esira yixɛtɛna nde Heman ma fala ɲaxumɛna.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	089	001	Esira yixɛtɛna nde Etani a fala ɲaxumɛna.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	092	001	Tantun bɛtina. Sigi sariɲanxina. A xa ba Matabu Lɔxɔni.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	102	001	Tɔrɔ muxuna Ala maxandina sɔxɔlɛni, a a mawuga Alatala xa.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	108	001	Dawudaa bɛtina. Sigi sariɲanxina.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	140	001	Dawudaa bɛtina, bɛti baane kuntigin xa.
+Holy-Bible---Yalunka---Yalunka-Bible	019	PSA	142	001	Dawudaa fala ɲaxumɛna, a yi faranna ra waxatin naxan yi. Ala maxandina.
+Holy-Bible---Yalunka---Yalunka-Bible	064	3JO	001	014	Koni a xɔnla n ma n xa i to sinma alogo en xa falan ti yɛɛ nun yɛɛ.
+Holy-Bible---Yalunka---Yalunka-Bible	066	REV	012	018	Ninginangan yi sa ti fɔxɔ igen dɛ.
+Holy-Bible---Yansi---Yansi-Bible	064	3JO	001	014	Ntɔn, mɛ in'sii mukaman itaan a mbɔɔn tɛy anà bi, bi ikyer asàyäm u ndaa a duu.
+Holy-Bible---Yansi---Yansi-Bible	066	REV	012	018	Ungö apan dalàgɔ làkàmbar kà un'kɔɔl a ngyäl.
 Holy-Bible---Yemsa---Yemsa-Bible-Ethiopic	064	3JO	001	014	ሀን ታአኖን ኔን አነ ኡጶናማቶ አብድ ዛግፋዉጝዋ፤ ኤስ ካባሲክ ኣፌ ኣፌ ዎል ቢራ ዎሎኒዋ።
 Holy-Bible---Yemsa---Yemsa-Bible-Ethiopic	066	REV	012	018	ዳርቦስ ደይ ባሪሲ ቴሻ ፋ ፉቱስታ የሬ ።
 Holy-Bible---Yemsa---Yemsa-Bible-Latin	064	3JO	001	014	Han ta'anon neen uphonamato abdi zagifawungwa; es kabaasik aafe aafe biira wolloniwa.
 Holy-Bible---Yemsa---Yemsa-Bible-Latin	066	REV	012	018	Darboos dey baarisi tesha fa fuutuusta yere.
+Holy-Bible---Yiddish-Eastern---Eastern-Yiddish-Bible	064	3JO	001	014	איך האף אבער דיך צו זען אין גיכן, און (דעמאלט) וועלן מיר רעדן מויל צו מויל.
+Holy-Bible---Yiddish-Eastern---Eastern-Yiddish-Bible	066	REV	012	018	און זי (די שלאנג) האט זיך געשטעלט אויף דעם זאמד ביים ים.
 Holy-Bible---Yombe---Yombe-Bible	064	3JO	001	014	Vayi tsidi diana mu vika kumona ; buna bosi tuela solula zizi mu zizi.
 Holy-Bible---Yombe---Yombe-Bible	066	REV	012	018	Buna dalago kitelama va nzielo yi mbu.
 Holy-Bible---Yoruba---Yoruba-Bible	064	3JO	001	014	Mo ni ìrètí láti rí ọ láìpẹ́, tí àwa yóò sì sọ̀rọ̀ lójúkojú.
+Holy-Bible---Zapotec-Loxicha---Loxicha-Zapotec-Bible	064	3JO	001	014	tak ndlin xgab yatwiꞌn la lenꞌ wiz reꞌ, sa todiꞌs rop naꞌ.
+Holy-Bible---Zapotec-Loxicha---Loxicha-Zapotec-Bible	066	REV	012	018	Jesucrist.
 Holy-Bible---Zaramo---Kizalamo-Bible	064	3JO	001	014	Kipigiti kidodo hamwande notamanila kuiting'hana namwe tulongelele kihanga kwa kihanga.
 Holy-Bible---Zaramo---Kizalamo-Bible	066	REV	012	018	Abaho, dija idizoka dima mulusanga mumgwazo wa ibahali.
+Holy-Bible---Zinza---Zinza-Bible	064	3JO	001	014	Niintegeza nka nikwo zuba zuba óobu niinyíza kukuyeélela no kuhooya neewe butúnu.
+Holy-Bible---Zinza---Zinza-Bible	066	REV	012	018	Mbwéenu, izóka lyeémeelela aha chaambo che enziba.

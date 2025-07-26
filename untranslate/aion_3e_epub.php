@@ -1206,6 +1206,8 @@ $G_COMMENT
 
 <p>The Aionian Bible republishes public domain and Creative Common Bible texts that are 100% free to copy and print. All versions are available online at <a href='https://www.Aionianbible.org/Read' target='_blank' title='The worlds first Holy Bible untranslation'>AionianBible.org</a> in web page, ePub, text, and PDF format.  Also read online with the  <a href='https://www.Aionianbible.org/Google-Play' target='_blank' title='Aionian Bible free online at Google Play'>Android</a>  and  <a href='https://www.Aionianbible.org/Apple-iOS-App' target='_blank' title='Apple iOS App'>Apple iOS App</a>.  Buy print Bibles at <a href='https://www.Aionianbible.org/Buy' target='_blank' title='Holy Bible Aionian Edition at Amazon.com and Lulu.com'>Amazon.com and Lulu.com</a>.<br /><br /></p>
 
+<p><b>08/01/25</b> 526 translations now available in 287 languages.<br /></p>
+
 <p><b>06/21/25</b> 468 translations now available in 230 languages.<br /></p>
 
 <p><b>05/27/25</b> 462 translations now available in 229 languages.<br /></p>

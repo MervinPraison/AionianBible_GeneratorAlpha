@@ -1,6 +1,6 @@
 # File Name: ANAVIGATION.txt
-# File Size: 31593       
-# File Date: 07/17/2025 04:25:22
+# File Size: 34635       
+# File Date: 07/26/2025 07:47:04
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -13,6 +13,7 @@
 # Publisher Facebook: https://www.Facebook.com/AionianBible
 #
 BIBLE	STATUS	MISSING
+Holy-Bible---Abureni---Abureni-Bible		
 Holy-Bible---Ahirani---Ahirani-Bible		
 Holy-Bible---Ajiya---Ajiya-Bible		
 Holy-Bible---Alaba-Kabeena---Alaba-Kabeena-Bible		
@@ -50,16 +51,19 @@ Holy-Bible---Aruamu---Aruamu-Bible	VERSMISS	048-GAL-006-008
 Holy-Bible---Aruamu---Aruamu-Bible	VERSMISS	058-HEB-006-002
 Holy-Bible---Aruamu---Aruamu-Bible	VERSMISS	058-HEB-006-005
 Holy-Bible---Aruamu---Aruamu-Bible	VERSMISS	060-1PE-001-025
+Holy-Bible---Arumanisht---Aromanian-Bible		
 Holy-Bible---Assamese---Assamese-Bible		
 Holy-Bible---Ayta-Ambala---Ayta-Ambala-Bible		
 Holy-Bible---Azerbaijani---Azerbaijani-Bible		
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	VERSMISS	042-LUK-001-055
 Holy-Bible---Azerbaijani---Azerbaijani-Bible	VERSMISS	044-ACT-015-018
+Holy-Bible---Baga-Sitemu---Baga-Sitemu-Bible		
 Holy-Bible---Baiso---Basio-Bible		
 Holy-Bible---Baiso---Basio-Bible	VERSMISS	042-LUK-001-055
 Holy-Bible---Baiso---Basio-Bible	VERSMISS	058-HEB-007-021
 Holy-Bible---Bangwinji---Bangwinji-Bible		
 Holy-Bible---Bareli-Palya---Palya-Bareli-Bible		
+Holy-Bible---Basa-Gurmana---Basa-Gurmana-Bible		
 Holy-Bible---Basque---Basque-NT		
 Holy-Bible---Beami---Bedamuni-Bible		
 Holy-Bible---Beami---Bedamuni-Bible	VERSMISS	001-GEN-044-031
@@ -86,13 +90,17 @@ Holy-Bible---Bhattiyali---Bhattiyali-Bible	VERSMISS	066-REV-020-015
 Holy-Bible---Bhilali---Bhilali-Bible		
 Holy-Bible---Blackfoot---Matthew		
 Holy-Bible---Bodo-Parja---BOPO-Bible		
+Holy-Bible---Boga---Boga-Bible		
+Holy-Bible---Bondei---Bondei-Bible		
 Holy-Bible---Borna---Borna-Latin-Bible		
 Holy-Bible---Borna---Borna-Latin-Bible	VERSMISS	042-LUK-001-055
 Holy-Bible---Breton---Breton-Gospels		
+Holy-Bible---Bu---Bauchi-Bu-Bible		
 Holy-Bible---Bu---Bu-Bible		
 Holy-Bible---Bugun---Bugun-Bible		
 Holy-Bible---Bugun---Bugun-Bible	VERSMISS	058-HEB-013-021
 Holy-Bible---Bulgarian---Bulgarian-Bible		
+Holy-Bible---Bwile---Bwile-Bible		
 Holy-Bible---Calo---Calo-Bible		
 Holy-Bible---Cebuano---Cebuano-Bible		
 Holy-Bible---Cebuano---Cebuano-Open-Bible		
@@ -125,6 +133,7 @@ Holy-Bible---Chinese---Mandarin-Bible-Simplified	VERSMISS	065-JUD-001-025
 Holy-Bible---Chinese---Mandarin-Bible-Traditional		
 Holy-Bible---Chinese---Mandarin-Bible-Traditional	VERSMISS	065-JUD-001-025
 Holy-Bible---Chiyawo---Yao		
+Holy-Bible---Cishingini---Cishingini-Bible		
 Holy-Bible---Coptic---Coptic-Boharic-NT		
 Holy-Bible---Coptic---Coptic-NT		
 Holy-Bible---Coptic---Sahidic-Bible		
@@ -158,12 +167,16 @@ Holy-Bible---Dawro---Dawuro-Bible	VERSMISS	058-HEB-006-005
 Holy-Bible---Dawro---Dawuro-Bible	VERSMISS	063-2JO-001-002
 Holy-Bible---Dawro---Dawuro-Bible	VERSMISS	065-JUD-001-025
 Holy-Bible---Desiya---Desiya-Bible		
+Holy-Bible---Dhanki---Dhanki-Devanagari-Bible		
 Holy-Bible---Dholuo---Dholuo-Bible		
 Holy-Bible---Dombe---Dombe-Bible		
+Holy-Bible---Dongxiang---Donxian-Bible		
+Holy-Bible---Dongxiang---Donxian-Bible	VERSMISS	058-HEB-006-002
 Holy-Bible---Dutch---Canisiusvertaling		
 Holy-Bible---Dutch---Schrift		
 Holy-Bible---Dutch---Statenvertaling		
 Holy-Bible---Duya---Duya-Bible		
+Holy-Bible---Ekajuk---Ekajuk-Bible		
 Holy-Bible---English---A-Conservative-Version		
 Holy-Bible---English---Aionian-Bible		
 Holy-Bible---English---American-Standard-Version-1901		
@@ -230,7 +243,9 @@ Holy-Bible---English---Youngs-Literal-Translation
 Holy-Bible---Esperanto---Esperanto-Bible		
 Holy-Bible---Estonian---Contemporary		
 Holy-Bible---Estonian---For-All		
+Holy-Bible---Etulo---Etulo-Bible		
 Holy-Bible---Ewe---Word-of-Life		
+Holy-Bible---Falam---Falam-Chin-Bible		
 Holy-Bible---Finnish---Finnish-Bible		
 Holy-Bible---Finnish---Finnish-Pyha-Raamattu		
 Holy-Bible---Finnish---Open-Living-News		
@@ -268,6 +283,8 @@ Holy-Bible---Gamotso---Gamo
 Holy-Bible---Gamotso---Gamo	VERSMISS	066-REV-022-005
 Holy-Bible---Gata---Gata-Didayi-Bible		
 Holy-Bible---Gayil---Gayl-Bible		
+Holy-Bible---Geji---Geji-Bible		
+Holy-Bible---Geji---Geji-Bible	VERSMISS	042-LUK-001-055
 Holy-Bible---German---German-Albrecht		
 Holy-Bible---German---German-Elberfelder-1871		
 Holy-Bible---German---German-Elberfelder-1905		
@@ -328,6 +345,7 @@ Holy-Bible---Halbi---Halbi-Bible
 Holy-Bible---Haryanvi---Haryanvi-Bible		
 Holy-Bible---Hausa---Contemporary		
 Holy-Bible---Hausa---Hausa-Bible		
+Holy-Bible---Havu---Havu-Bible		
 Holy-Bible---Hawaiian---Hawaiian-Bible-1868		
 Holy-Bible---Hebrew---Hebrew-Aleppo-Codex		
 Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah		
@@ -391,6 +409,7 @@ Holy-Bible---Kannada---Open-Contemporary
 Holy-Bible---Kannada---Open-Contemporary	VERSMISS	042-LUK-001-055
 Holy-Bible---Kannada---Open-Contemporary	VERSMISS	042-LUK-001-070
 Holy-Bible---Kannada---Siddi-Bible		
+Holy-Bible---Kapin---Kapin-Bible		
 Holy-Bible---Kara---Kara-Bible		
 Holy-Bible---Kiche---Totonicapan		
 Holy-Bible---Kiche---Totonicapan	VERSMISS	065-JUD-001-021
@@ -413,8 +432,10 @@ Holy-Bible---Korean---Korean-Revised-Version
 Holy-Bible---Kosraean---Kosraean-Bible		
 Holy-Bible---Koya---Koya-Bible		
 Holy-Bible---Kuhane---Kuhane-Bible		
+Holy-Bible---Kurama---Kurama-Akurumi-Bible		
 Holy-Bible---Kurdish---Sorani-Bible		
 Holy-Bible---Kutu---Kutu-Bible		
+Holy-Bible---Kuturmi---Kuturmi-Bible		
 Holy-Bible---Kuvi---Kuvi-Bible		
 Holy-Bible---Latin---Clementine-Vulgate-1598		
 Holy-Bible---Latin---Clementine-Vulgate-Conte		
@@ -452,12 +473,17 @@ Holy-Bible---Marathi---Marathi-Indian-Bible	VERSMISS	054-1TI-006-016
 Holy-Bible---Marathi---Marathi-Indian-Bible	VERSMISS	066-REV-001-018
 Holy-Bible---Marghi-South---Marghi-South-Bible		
 Holy-Bible---Matengo---Amatengu-Bible		
+Holy-Bible---Matumbi---Matumbi-Bible		
+Holy-Bible---Mbe---Mbe-Bible		
+Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible		
+Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	VERSMISS	058-HEB-013-021
 Holy-Bible---Melo---Melo-Bible		
 Holy-Bible---Melo---Melo-Bible	VERSMISS	043-JOH-003-015
 Holy-Bible---Mori-Atas---Mori-Atas-Bible		
 Holy-Bible---Mpoto---Mpoto-Bible		
 Holy-Bible---Mum---Mum-Bible		
 Holy-Bible---Munda---Munda-Bible		
+Holy-Bible---Mwaghavul---Mwaghavul-Bible		
 Holy-Bible---Mwera---Mwera-Bible		
 Holy-Bible---Myanmar---Burmese-Common-Bible		
 Holy-Bible---Myanmar---Burmese-Judson		
@@ -473,6 +499,7 @@ Holy-Bible---Ndebele---Ndebele-Bible
 Holy-Bible---Ndendeule---Ndendeule-Bible		
 Holy-Bible---Ndengereko---Ndengereko-Bible		
 Holy-Bible---Ndonde-Hamba---Ndonde-Hamba-Bible		
+Holy-Bible---Ndwewe---Ndwewe-Bible		
 Holy-Bible---Nend---Mark		
 Holy-Bible---Nepali---Nepali-Bible		
 Holy-Bible---Nepali---Nepali-Contemporary		
@@ -503,6 +530,7 @@ Holy-Bible---Persian---Open-Contemporary	VERSMISS	066-REV-020-003
 Holy-Bible---Pogolo---Pogoro-Bible		
 Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet		
 Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet		
+Holy-Bible---Polci---Polci-Bible		
 Holy-Bible---Polish---Open-Access-Word-of-Life		
 Holy-Bible---Polish---Open-Access-Word-of-Life	VERSMISS	042-LUK-001-070
 Holy-Bible---Polish---Open-Access-Word-of-Life	VERSMISS	058-HEB-013-021
@@ -515,7 +543,14 @@ Holy-Bible---Portuguese---Free-for-All
 Holy-Bible---Portuguese---Open-New-Bible		
 Holy-Bible---Portuguese---Portuguese-Trans-Trans		
 Holy-Bible---Portuguese---World-Portuguese-Bible		
+Holy-Bible---Powari---Powari-Bible		
+Holy-Bible---Rakhine---Rakhine-Bible		
 Holy-Bible---Rangi---Rangi-Bible		
+Holy-Bible---Reli---Reli-Bible		
+Holy-Bible---Reli---Reli-Bible	VERSMISS	056-TIT-003-007
+Holy-Bible---Rohingya---Kitabul-Mukaddos-Bible		
+Holy-Bible---Rohingya---Rohingya-Bible		
+Holy-Bible---Romani---Balkans-Arli-Bible		
 Holy-Bible---Romani---Eastern-Vlakh		
 Holy-Bible---Romani---Eastern-Vlakh	VERSMISS	042-LUK-001-055
 Holy-Bible---Romani-Vlax---Arli-Luke		
@@ -531,9 +566,12 @@ Holy-Bible---Romanian---Ludari-Luke
 Holy-Bible---Rote-Dela---Rote-Dela-Bible		
 Holy-Bible---Rote-Dela---Rote-Dela-Bible	VERSMISS	058-HEB-013-021
 Holy-Bible---Russian---Russian-Synodal-Translation		
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible		
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	VERSMISS	058-HEB-006-005
 Holy-Bible---Safwa---Safwa-Bible		
 Holy-Bible---Sakachep---Sakachep-Bible		
 Holy-Bible---Sakachep---Sakachep-Bible	VERSMISS	058-HEB-013-021
+Holy-Bible---Sanga---Sanga-Bible		
 Holy-Bible---Sankaran-Maninka---Alla-la-Kitabu-Seniman		
 Holy-Bible---Sanskrit---Assamese-Script		
 Holy-Bible---Sanskrit---Bengali-Script		
@@ -571,6 +609,8 @@ Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	040-MAT-012-032
 Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	042-LUK-020-035
 Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	058-HEB-013-021
 Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	065-JUD-001-025
+Holy-Bible---Shi---Mashi-Bible		
+Holy-Bible---Sholaga---Sholaga-Bible		
 Holy-Bible---Shona---Rakasununguka		
 Holy-Bible---Shona---Shona-Bible		
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth		
@@ -579,6 +619,8 @@ Holy-Bible---Slovene---Slovene-Savli-Bible
 Holy-Bible---Slovene---Slovene-Stritarja-NT		
 Holy-Bible---Soli---Soli-Bible		
 Holy-Bible---Somali---Somali-Bible		
+Holy-Bible---Somau-Karia---Somau-Karia-Bible		
+Holy-Bible---Somau-Karia---Somau-Karia-Bible	VERSMISS	044-ACT-015-018
 Holy-Bible---Spanish---Biblia-Platense-Straubinger		
 Holy-Bible---Spanish---Free-Bible		
 Holy-Bible---Spanish---Free-for-the-World		
@@ -601,6 +643,7 @@ Holy-Bible---Swahili---Swahili-Open-Bible
 Holy-Bible---Swedish---Swedish-Bible		
 Holy-Bible---Swedish---Swedish-Bible-1873		
 Holy-Bible---Swedish---Swedish-Bible-1917		
+Holy-Bible---Taabwa---Kitaabua-Bible		
 Holy-Bible---Tagakaulo---Tagakaulo-Bible		
 Holy-Bible---Tagakaulo---Tagakaulo-Bible	VERSMISS	040-MAT-005-030
 Holy-Bible---Tagalog---Tagalog-Bible-1905		
@@ -608,6 +651,9 @@ Holy-Bible---Tagalog---Tagalog-Bible-Unlocked
 Holy-Bible---Tagin---Tagin-First-Bible		
 Holy-Bible---Tamil---Open-Contemporary		
 Holy-Bible---Tamil---Tamil-Bible		
+Holy-Bible---Tarok---Tarok-Nigeria-Bible		
+Holy-Bible---Tavoyan---Tavoyan-Bible		
+Holy-Bible---Teke-Tyee---Teke-Tyee-Bible		
 Holy-Bible---Telugu---Telugu-Bible		
 Holy-Bible---Telugu---Telugu-Open-Contemporary		
 Holy-Bible---Telugu---Telugu-Open-Contemporary	VERSMISS	042-LUK-001-055
@@ -617,9 +663,13 @@ Holy-Bible---Telugu---Telugu-Open-Contemporary	VERSMISS	043-JOH-003-015
 Holy-Bible---Telugu---Telugu-Open-Contemporary	VERSMISS	045-ROM-016-026
 Holy-Bible---Telugu---Telugu-Open-Contemporary	VERSMISS	045-ROM-016-027
 Holy-Bible---Telugu---Telugu-Open-Contemporary	VERSMISS	049-EPH-001-021
+Holy-Bible---Tharu-Rana---Rana-Tharu-Bible		
 Holy-Bible---Thur---Leb-Thur-Bible		
+Holy-Bible---Tichurong---Tichurong-Bible		
 Holy-Bible---Tongan---Revised-West-Version		
 Holy-Bible---Tsakhur---Tsakhur-Bible		
+Holy-Bible---Tsikimba---Tsikimba-Bible		
+Holy-Bible---Tsishingini---Tsishingini-Bible		
 Holy-Bible---Turkish---Open-Basic-Turkish		
 Holy-Bible---Turkish---Turkish-Bible		
 Holy-Bible---Twi---Akuapem-Twi-Bible		
@@ -635,12 +685,25 @@ Holy-Bible---Uyghur---Uyghur-Bible-Arabic
 Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic		
 Holy-Bible---Uyghur---Uyghur-Bible-Latin		
 Holy-Bible---Uyghur---Uyghur-Bible-Pinyin		
+Holy-Bible---Vaagri-Booli---Vaagri-Booli-Bible		
+Holy-Bible---Vaagri-Booli---Vaagri-Booli-Bible	VERSMISS	041-MAR-004-019
+Holy-Bible---Vaghri---Vaghri-Bible		
+Holy-Bible---Vaghri---Vaghri-Bible	VERSMISS	042-LUK-001-055
+Holy-Bible---Vidunda---Vidunda-Bible		
 Holy-Bible---Vietnamese---Contemporary		
 Holy-Bible---Vietnamese---Vietnamese-Bible		
 Holy-Bible---Vietnamese---Vietnamese-Bible-1934		
 Holy-Bible---Vwanji---Vwanji-Bible		
 Holy-Bible---Vwanji---Vwanji-Bible	VERSMISS	065-JUD-001-013
+Holy-Bible---Waddar---Waddar-Bible		
+Holy-Bible---Waja---Waja-Bible		
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible		
+Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	VERSMISS	001-GEN-044-031
 Holy-Bible---Yaka---Ivatan-Bible		
+Holy-Bible---Yaka---Yaka-Bible		
+Holy-Bible---Yalunka---Yalunka-Bible		
+Holy-Bible---Yamap---Yamap-Bible		
+Holy-Bible---Yansi---Yansi-Bible		
 Holy-Bible---Yemsa---Yemsa-Bible-Ethiopic		
 Holy-Bible---Yemsa---Yemsa-Bible-Ethiopic	VERSMISS	042-LUK-001-055
 Holy-Bible---Yemsa---Yemsa-Bible-Ethiopic	VERSMISS	042-LUK-001-070
@@ -651,6 +714,12 @@ Holy-Bible---Yemsa---Yemsa-Bible-Latin	VERSMISS	042-LUK-001-055
 Holy-Bible---Yemsa---Yemsa-Bible-Latin	VERSMISS	042-LUK-001-070
 Holy-Bible---Yemsa---Yemsa-Bible-Latin	VERSMISS	042-LUK-018-030
 Holy-Bible---Yemsa---Yemsa-Bible-Latin	VERSMISS	044-ACT-015-018
+Holy-Bible---Yiddish-Eastern---Eastern-Yiddish-Bible		
+Holy-Bible---Yipunu---Punu-Bible		
 Holy-Bible---Yombe---Yombe-Bible		
 Holy-Bible---Yoruba---Yoruba-Bible		
+Holy-Bible---Zapotec-Loxicha---Loxicha-Zapotec-Bible		
 Holy-Bible---Zaramo---Kizalamo-Bible		
+Holy-Bible---Zinza---Zinza-Bible		
+Holy-Bible---Zinza---Zinza-Bible	VERSMISS	058-HEB-007-021
+Holy-Bible---Zinza---Zinza-Bible	VERSMISS	066-REV-020-003
