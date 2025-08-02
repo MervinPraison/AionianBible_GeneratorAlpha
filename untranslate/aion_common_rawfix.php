@@ -212,7 +212,7 @@ switch($bible) {
 
 
 // RAWFIX BIBLE ********************
-case "Holy-Bible---Ahirani---Gospels" :
+case "Holy-Bible---Ahirani---Ahirani-Bible" :
 if (!($bfile = preg_replace("/\x{097d}/us","?",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 goto RAWHIDE;
