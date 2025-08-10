@@ -78,7 +78,7 @@ function AION_LOOP_EPUBY($source, $destiny_unzip, $destiny_zip) {
 		//'include'		=> "/Holy-Bible---.*(Aionian-Bible|Tsak).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.+(Basic).+---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.*(Azerb|Gaelic|Somali).*---Aionian-Edition\.noia$/",
-		//'include'		=> "/Holy-Bible---.*(STEPBible).*---Aionian-Edition\.noia$/",
+		//'include'		=> "/Holy-Bible---Tsak.*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---Gamotso---Gamo---Aionian-Edition\.noia$/",
 		'include'		=> "/---Aionian-Edition\.noia$/",
@@ -334,7 +334,12 @@ EOF;
 			$chap_number	= $args['database']['T_NUMBERS'][$bible][$last_chaN];
 			$book_format	= "<h2 $cssbok>$book_foreign $chap_number</h2>\n<div class='chapnav'>\n<a href='../index.xhtml' title='View Table of Contents'>TOC</a>\n";
 			if ($last_chaN!=1) {
-				$book_format .= ", <a href='$last_indx-$last_book-001.xhtml' class='ff' $G_ISO $G_RTL title='View book chapter index'>Chapters</a>\n";
+				if (file_exists("$FOLDEPUB/chapters/$last_indx-$last_book-001.xhtml")) {
+					$book_format .= ", <a href='$last_indx-$last_book-001.xhtml' class='ff' $G_ISO $G_RTL title='View book chapter index'>Chapters</a>\n";
+				}
+				else {
+					AION_ECHO("WARN! 'Chapters' link missing $FOLDEPUB/chapters/$last_indx-$last_book-001.xhtml");
+				}
 			}
 			else if (($book_chapters = $args['database']['T_BOOKS']['CHAPTERS'][array_search($last_book,$args['database']['T_BOOKS']['CODE'])])>1) {
 				$book_format .= ", Chapter \n";
@@ -922,6 +927,7 @@ $versionCC_CP = "Copyright: ".
  $G_VERSIONS['ABCOPYRIGHT']))."<br />";
 $langlink = "<a href='https://en.wikipedia.org/wiki/ISO_639:".$G_VERSIONS['LANGUAGECODE']."' target='_blank' title='Ethnologue language description'>".$G_VERSIONS['LANGUAGECODE']."</a>";
 $versionLA_CP = "Language: ".$G_VERSIONS['LANGUAGEENGLISH'].($G_VERSIONS['LANGUAGEENGLISH']==$G_VERSIONS['LANGUAGE'] ? "<br />" : " [ <span $css>".$G_VERSIONS['LANGUAGE']."</span> ] $langlink<br />");
+$versionLO_CP = (empty($G_VERSIONS['COUNTRY']) ? "" : "Locations: ".$G_VERSIONS['COUNTRY']."<br />");
 $versionDE_CP = (empty($G_VERSIONS['DESCRIPTION']) ? "" : "<br />".$G_VERSIONS['DESCRIPTION']."<br />");
 $versionSS_CP  = "Source: ".$G_VERSIONS['SOURCE'].(empty($G_VERSIONS['YEAR']) ? "" : ", ".$G_VERSIONS['YEAR'])."<br />";
 $versionSS_CP .= "Source copyright: ".$G_VERSIONS['COPYRIGHT']."<br />";
@@ -963,6 +969,7 @@ All profits are given to <a href='https://CoolCup.org' target='_blank' title='Co
 Publisher: Nainoia Inc<br />
 $versionCC_CP
 $versionLA_CP
+$versionLO_CP
 Formatted: ABCMS on $rundate<br />
 Online: <a href='$onlinelink' target='_blank' title='Read online'>Read</a> and <a href='$onionlink' target='_blank' title='Read TOR anonymously'>TOR Anonymously</a><br />
 Download: 

@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1207375     
-# File Date: 08/01/2025 12:50:07
+# File Size: 1207374     
+# File Date: 08/09/2025 22:35:03
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -482,7 +482,7 @@ Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	EXO-013-017	Exodus 13:17	F
 Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	MAR-010-045	Marka 10:45	Kami Capa loe minawk toksaksak hanah angzo ai, minawk ih tok to sak pae moe, paroeai kaminawk akrang hanah a hinghaih paek han ih ni angzoh, tiah a naa.
 Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	ROM-001-001	Rom 1:1	Pawl, Jesu Kri ih tamna, Sithaw tamthanglok hoih pongah, pahoe ih kami ah kaom, patoeh ih kami ah kawk ih kami mah,
 Holy-Bible---Chin-Eastern-Khumi---Asang-Khongca-Bible	MAT-028-019	Mathai 28:19	To pongah caeh oh loe, acaengnawk boih to patuk oh, nihcae to Ampa, Capa, Kacai Muithla ih ahmin hoiah tuinuemhaih to paek oh:
-Holy-Bible---Chin-Matu---Matupi-Chin-2019	JOH-003-016	Johan 3:16	Pathen loh diklai a lungnah tangloeng tih khueh duen capa te a paek. Amah aka tangnah boeih tah poci pawt vetih dungyan hingnah a dang ni.
+Holy-Bible---Chin-Matu---Matupi-Chin-2019	JOH-003-016	Johan 3:16	Pathen loh Diklai a lungnah tangloeng tih khueh duen capa te a paek. Amah aka tangnah boeih tah poci pawt vetih dungyan hingnah a dang ni.
 Holy-Bible---Chin-Matu---Matupi-Chin-2019	GEN-003-024	Suencuek 3:24	Hlang te khaw a haek coeng tih hingnah thingkung longpuei aka hung ham cherubim neh hmaitak cunghang aka tinghil te Eden dum kah khothoeng ah a khueh.
 Holy-Bible---Chin-Matu---Matupi-Chin-2019	LUK-023-034	Luka 23:34	Te vaengah Jesuh loh, “A pa, amih he tholh hlah mai, a saii uh he khaw a ming uh moenih,” a ti. Te phoeiah a himbai te a phen uh tih hmulung a naan thil uh.
 Holy-Bible---Chin-Matu---Matupi-Chin-2019	REV-021-002	Olphong 21:2-3	A cim kho thai Jerusalem te khaw a va ham aka rhuengphong tih aka thoeihcam vasakung bangla vaan Pathen taeng lamkah ha suntla te ka hmuh. Te vaengah ngolkhoel lamkah ol ue ka yaak. “Pathen kah dap tah hlang rhoek taengah om coeng ke. Te dongah amih taengah rhaeh vetih amih khaw a pilnam la om uh ni. Pathen amah khaw amih taengah om vetih amih kah Pathen la om ni.
@@ -512,7 +512,7 @@ Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible	MAT-028-019	Matthai 28:19	Cedaw
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	JOH-003-016	John 3:16	Banghangziam cile Pathian in leitung mite it mama ahikom a Tapa neisun pia hi, akuamapo Ama a um peuma kisia ngawl tu a, nuntak tawntungna nei hi.
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	GEN-003-024		
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	LUK-023-034	Luke 23:34	Jesus in, Pa awng, amate maisak in; banghangziam cile, amate in bang ka vawt uh ci zong a he bua uh hi, ci hi. Taciang amate in a puan zong ai-san in hawm uh hi.
-Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	REV-021-002	Thupualakna 21:2-3	Khuapi thiangtho, Jerusalem thak sia a pasal atu a kipua khol monu bang in Pathian kung, vantung pan a tuaksuk, keima John in ka mu hi. Taciang van pan in aw ngingtak taw hibang in ci hi, En vun, Pathian i biakbuk sia mihing te tung ah om a, Ama sia mihing te taw om tu hi, amate sia Pathian i mihing te hi tu uh a, Pathian Ama tatak in a mite ompui in, amate i Pathian hi tu hi.
+Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	REV-021-002	Thupualakna 21:2-3	Khuapi thiangtho, Jerusalem thak sia a pasal atu a kipua khol monu bang in Pathian kung, vantung pan a tuaksuk, keima John in ka mu hi. Taciang van pan in aw ngingtak taw hibang in ci hi, En vun, Pathian i biakbuk sia mihing te tungah om a, Ama sia mihing te taw om tu hi, amate sia Pathian i mihing te hi tu uh a, Pathian Ama tatak in a mite ompui in, amate i Pathian hi tu hi.
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	HEB-011-008	Hebrews 11:8	Upna tungtawn in Abraham sia a ngamlua tu mun ah pai tu in, Pathian in a sap ciang in, a pai natu mun he ngawl napi; thu ni in pai hi.
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	EXO-013-017		
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	MAR-010-045	Mark 10:45	Mihing Tapa sia ngual a sawl tu in hongpai ngawl hi, ngual atu seam tu in le mi tampi tatkhiat natu a nuntakna pia tu in hongpai hi, ci hi.

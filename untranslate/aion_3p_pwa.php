@@ -121,7 +121,8 @@ function AION_LOOP_PWA_DOIT($args) {
 	$csslan = "class='ff lan' $cssiso $cssdir";
 	
 	// PREPARE FIELDS
-	$G_PWA->bible_lang = (empty($G_VERSIONS['LANGUAGE']) || $G_VERSIONS['LANGUAGE']=="English" ? "English" : "{$G_VERSIONS['LANGUAGEENGLISH']} / <span $csslan>{$G_VERSIONS['LANGUAGE']}</span>");
+	$G_PWA->bible_lang = (empty($G_VERSIONS['LANGUAGE']) || $G_VERSIONS['LANGUAGE']=="English" ? "English" : ("{$G_VERSIONS['LANGUAGEENGLISH']}" . ($G_VERSIONS['LANGUAGE'] == $G_VERSIONS['LANGUAGEENGLISH'] ? "" : " / <span $csslan>{$G_VERSIONS['LANGUAGE']}</span>")));
+	$G_PWA->bible_locs = (empty($G_VERSIONS['COUNTRY']) ? $G_PWA->bible_lang : $G_VERSIONS['COUNTRY']);
 	$G_PWA->bible_title = ($G_VERSIONS['NAMEENGLISH'] == $G_VERSIONS['NAME'] ? $G_VERSIONS['NAME'] : "{$G_VERSIONS['NAMEENGLISH']}<br><span $csslan>{$G_VERSIONS['NAME']}</span>");
 	
 	// PREPARE Language Headings
@@ -1086,6 +1087,7 @@ Copyright
 Publisher: Nainoia Inc<br>
 Copyright: <a href='https://creativecommons.org/licenses/by/4.0/' target='_blank'>Creative Commons Attribution 4.0 International, 2018-2024</a><br>
 Language: {$G_PWA->bible_lang}<br>
+Locations: {$G_PWA->bible_locs}<br>
 Formatted: ABCMS <a href='https://en.wikipedia.org/wiki/Progressive_web_app' target='_blank' title='Web pages designed for off-line viewing'>Progressive Web Application</a> on {$G_PWA->modified}<br>
 Formats:
 <a href='https://www.AionianBible.org/Bibles/{$G_PWA->bible_basic}' target='_blank' title='Read online'>Online</a>,

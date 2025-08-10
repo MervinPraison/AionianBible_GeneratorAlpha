@@ -252,7 +252,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Baiso---Basio-Bible|Cebuano---Cebuano-Open-Bible|Koda---Koda-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Westminster-Leningrad-Philadelphia|Orthodox-Jewish-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Sahidic-Bible|Serbian-Ekavski-Bible|English---World-Messianic-Bible|English---World-Messianic-Bible-British-Edition|Glavda---Glavda-Bible|Greek---Text-Critical|Guduf-Gava---Guduf-Gava-Bible|Kolami-Southeastern---Kolami-Bible|Lodhi---Lodhi-Bible|Spanish---Free-for-the-World|Tagin---Tagin-First-Bible|Thur---Leb-Thur-Bible|Tsakhur---Tsakhur-Bible|Ahirani---Gospels|Chin-Siyin---Siyin-Chin-Bible|Chin-Thado---Chongthu-Bible|English---Aionian-Bible|English---Text-Critical|English---Tyndale-Bible|English---World-English-Bible|English---World-English-Bible-British-Edition|English---World-English-Bible-Updated).*---Aionian-Edition\.noia$/",
-		'include'	=> "/Holy-Bible---(Ahirani|[T-Z]+).*---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---(Ahirani).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
@@ -973,6 +973,7 @@ global $speedata_version;
 // settings	
 $langforeign= (!empty($versions['LANGUAGE'])		? trim($versions['LANGUAGE']): NULL						);
 $langenglish= (!empty($versions['LANGUAGEENGLISH'])	? trim($versions['LANGUAGEENGLISH']): NULL				);
+$country	= (!empty($versions['COUNTRY'])			? trim($versions['COUNTRY']): NULL						);
 $language	= trim(!empty($forprint['LANGUAGE'])	? $forprint['LANGUAGE']		: $default['LANGUAGE']		);
 $langspeed	= trim(!empty($forprint['LANGSPEED'])	? "language='".$forprint['LANGSPEED']."'"	: ""		);
 $langchap	= trim(!empty($forprint['LANGCHAP'])	? "language='".$forprint['LANGCHAP']."'"	: ""		);
@@ -1184,7 +1185,7 @@ $loff		= foreignlink($default['W_DESTINY'],$w_dest,	"",		$w_font,	$langforeign,	
 $verses		= foreignlink($default['W_VERSES'],	$w_verses,	"",		$w_font,	$langforeign,	$langenglish,	$verses,	$langspeed, $rtl);
 // add the PDF hyperlinks
 $bibleurl = preg_replace("/Holy-Bible---/","",$versions['BIBLE']);
-$link_tor = "<Value>TOR Anonymously</Value><Br />";
+$link_tor = "<Value>TOR Anonymously and </Value>";
 $link_ab = "<U><Value>https://AionianBible.or</Value></U><Value>g</Value>";
 $link_na = "<U><Value>https://Nainoia-Inc.si</Value></U><Value>g</Value><U><Value>nedon.net</Value></U>";
 $link_cc = "<U><Value>https://CoolCup.or</Value></U><Value>g</Value>";
@@ -1197,7 +1198,7 @@ if (($format=="READ" || $format=="STUDY")) {
 	hyperlink($glos1);
 	hyperlink($glos3,"https://www.AionianBible.org/Bibles/$bibleurl/Noted");
 	hyperlink($loff);
-	$link_tor = "<A href='https://www.AionianBible.org/TOR'><U><Value>TOR Anonymousl</Value></U><Value>y</Value></A><Br />";
+	$link_tor = "<A href='https://www.AionianBible.org/TOR'><U><Value>TOR Anonymousl</Value></U><Value>y</Value></A><Value> and </Value>";
 	$link_ab = "<A href='https://www.AionianBible.org'><U><Value>https://AionianBible.or</Value></U><Value>g</Value></A>";
 	$link_na = "<A href='https://Nainoia-Inc.signedon.net'><U><Value>https://Nainoia-Inc.si</Value></U><Value>g</Value><U><Value>nedon.net</Value></U></A>";
 	$link_cc = "<A href='https://CoolCup.org'><U><Value>https://CoolCup.or</Value></U><Value>g</Value></A>";
@@ -1569,7 +1570,7 @@ if ($rtl=="TRUE") {
 }
 
 // help needed
-$helpneeded = "<Value>We pray for a modern Creative Commons translation in every language</Value><Br /><Value>Translator resources at </Value>$link_tr<Br /><Value>Report content and format concerns to Nainoia Inc</Value><Br /><Value>Volunteer help is welcome and appreciated!</Value>";
+$helpneeded = "<Value>We pray for a modern Creative Commons translation in every language</Value><Br /><Value>Translator resources at </Value>$link_tr<Br /><Value>Volunteer help and comments are welcome and appreciated!</Value>";
 
 return <<<EOT
 <?xml version="1.0" encoding="UTF-8"?>
@@ -1807,13 +1808,14 @@ $fonts
 			$versionFO_CP
 			$versionEN_CP
 			$versionNT_CP
+			<Br /><Value>Language: $langenglish</Value>
+			<Br /><Value>$country</Value>
 		</Fontface></Paragraph><Paragraph textformat="centerpad"><Fontface fontfamily='FF-Copy'>
 			$versionSS_CP
 		</Fontface></Paragraph><Paragraph textformat="centerpad"><Fontface fontfamily='FF-Copy'>
 			<Value>Formatted by $speedata_version</Value><Br />
 			<Value>100% Free to Copy and Print</Value><Br />
-			$link_tor
-			$link_ab
+			$link_tor $link_ab
 		</Fontface></Paragraph><Paragraph textformat="centerpad"><Fontface fontfamily='FF-Copy'>
 			<Value>Published by Nainoia Inc, </Value>$link_na<Br />
 			<Value>All profits are given to </Value>$link_cc
@@ -2464,7 +2466,9 @@ function AION_LOOP_PDF_POD_LAYOUT_COPY($versions,$forprint,$default,$newtonly,$n
 global $speedata_version;
 // settings	
 $language	= trim(!empty($forprint['LANGUAGE'])	? $forprint['LANGUAGE']		: $default['LANGUAGE']		);
+$langenglish= (!empty($versions['LANGUAGEENGLISH'])	? trim($versions['LANGUAGEENGLISH']): NULL				);
 $langspeed	= trim(!empty($forprint['LANGSPEED'])	? "language='".$forprint['LANGSPEED']."'"	: ""		);
+$country	= (!empty($versions['COUNTRY'])			? trim($versions['COUNTRY']): NULL						);
 $yesnew		= trim(!empty($forprint['YESNEW'])		? $forprint['YESNEW']		: $default['YESNEW']		);
 $rtl		= trim(!empty($forprint['RTL'])			? $forprint['RTL']			: $default['RTL']			);
 $font		= trim(!empty($forprint['FONT'])		? $forprint['FONT']			: $default['FONT']			);
@@ -2535,7 +2539,7 @@ $MARGIN_SINGLE_WIDTH		= '78';
 $MARGIN_SINGLE_HEIGHT		= '134';
 
 // help needed
-$helpneeded = "<Value>We pray for a modern Creative Commons translation in every language</Value><Br /><Value>Translator resources at </Value><U><Value>https://AionianBible.or</Value></U><Value>g</Value><U><Value>/Third-Part</Value></U><Value>y</Value><U><Value>-Publisher-Resources</Value></U><Br /><Value>Report content and format concerns to Nainoia Inc</Value><Br /><Value>Volunteer help is welcome and appreciated!</Value>";
+$helpneeded = "<Value>We pray for a modern Creative Commons translation in every language</Value><Br /><Value>Translator resources at </Value><U><Value>https://AionianBible.or</Value></U><Value>g</Value><U><Value>/Third-Part</Value></U><Value>y</Value><U><Value>-Publisher-Resources</Value></U><Br /><Value>Volunteer help and comments are welcome and appreciated!</Value>";
 
 
 return <<<EOT
@@ -2581,13 +2585,14 @@ $fonts
 			$versionFO_CP
 			$versionEN_CP
 			$versionNT_CP
+			<Br /><Value>Language: $langenglish</Value>
+			<Br /><Value>$country</Value>
 		</Fontface></Paragraph><Paragraph textformat="centerpad"><Fontface fontfamily='FF-Copy'>
 			$versionSS_CP
 		</Fontface></Paragraph><Paragraph textformat="centerpad"><Fontface fontfamily='FF-Copy'>
 			<Value>Formatted by $speedata_version</Value><Br />
 			<Value>100% Free to Copy and Print</Value><Br />
-			<Value>TOR Anonymously</Value><Br />
-			<U><Value>AionianBible.or</Value></U><Value>g</Value>
+			<Value>TOR Anonymously and </Value><U><Value>AionianBible.or</Value></U><Value>g</Value>
 		</Fontface></Paragraph><Paragraph textformat="centerpad"><Fontface fontfamily='FF-Copy'>
 			<Value>Published by Nainoia Inc, </Value><U><Value>https://Nainoia-Inc.si</Value></U><Value>g</Value><U><Value>nedon.net</Value></U><Br />
 			<Value>All profits are given to </Value><U><Value>https://CoolCup.or</Value></U><Value>g</Value>
