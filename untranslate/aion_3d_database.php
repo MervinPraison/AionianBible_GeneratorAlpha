@@ -40,16 +40,16 @@ return;
 // LOOP
 function AION_LOOP_DATABASE() {
 	$database = array();
-	if (FALSE === ($fd = fopen('./aion_database/BIBLE.txt', 'w'))) { AION_ECHO("ERROR! fopen('./aion_database/BIBLE.txt')"); }
-	if (FALSE === fwrite(
-		$fd,
-		"BIBLE\t".
-		"INDEX\t".	
-		"BOOK\t".	
-		"CHAPTER\t".	
-		"VERSE\t".	
-		"TEXT\r\n")) { AION_ECHO("ERROR! fwrite({$bible} / $verse)"); }
 	AION_FILE_DATA_GET( './aion_database/KEY.txt', 'T_KEY', $database, 'BIBLE', FALSE );
+	$count = count($database['T_KEY']);
+	$count = (int)($count / 20);
+	$fd = array();
+	$head = "BIBLE\tINDEX\tBOOK\tCHAPTER\tVERSE\tTEXT\r\n";
+	for($x=0; $x<=$count; ++$x) {
+		$xpad = str_pad($x, 2, '0', STR_PAD_LEFT);
+		if (FALSE === ($fd[$x] = fopen("./aion_database/BIBLE-$xpad.txt", 'w'))) { AION_ECHO("ERROR! fopen('./aion_database/BIBLE.txt')"); }
+		if (FALSE === fwrite($fd[$x], $head)) { AION_ECHO("ERROR! fwrite-1({$bible} / $verse)"); }
+	}
 	AION_LOOP( array(
 		'function'		=> 'AION_LOOP_DATABASE_DOIT',
 		'source'		=> '/home/inmoti55/public_html/domain.aionianbible.org/www-stageresources',
@@ -58,7 +58,7 @@ function AION_LOOP_DATABASE() {
 		'destiny'		=> './aion_database',
 		'fd'			=> $fd,
 		) );
-	fclose($fd);
+	foreach($fd as $f) { fclose($f); }
 	AION_unset($database); unset($database);
 	AION_ECHO("DONE DID IT!");
 }
@@ -68,15 +68,14 @@ function AION_LOOP_DATABASE() {
 function AION_LOOP_DATABASE_DOIT($args) {
 	if (!preg_match("/\/(Holy-Bible---.*)---Aionian-Edition\.noia/", $args['filepath'], $matches)) {	AION_ECHO("ERROR! Failed to preg_match(Holy-Bible): ".$args['filepath']); }
 	$bible = $matches[1];
-	//error_log(print_r($args['database']['T_KEY'][$bible],TRUE));
-	//exit;
 	if (empty($args['database']['T_KEY'][$bible]['KEY'])) {	AION_ECHO("ERROR! KEY not found for {$bible}"); }
 	$key = $args['database']['T_KEY'][$bible]['KEY'];
+	if (empty($args['fd'][$key/20])) {	AION_ECHO("ERROR! FD not found for {$bible}"); }
 	$database = array();
 	AION_FILE_DATA_GET( $args['filepath'], 'T_BIBLE', $database, FALSE, FALSE );
 	foreach($database['T_BIBLE'] as $verse) { // grab the questioned verses
 		if (FALSE === fwrite(
-			$args['fd'],
+			$args['fd'][$key/20],
 			(int)$key."\t".
 			(int)$verse['INDEX']."\t".	
 			$verse['BOOK']."\t".	

@@ -69,6 +69,7 @@ AION_FILE_DATA_GET(			'./aion_database/BOOKS.txt',	'T_BOOKS',		$database, 'BIBLE
 AION_FILE_DATA_GET(			'./aion_database/NUMBERS.txt',	'T_NUMBERS',	$database, 'BIBLE', TRUE );
 AION_FILE_DATABASE_BOOKS(	$database );
 AION_FILE_DATABASE_PUT(		$database, '../www-resources', "$LIVE/library", FALSE);
+if (!copy("./aion_customize_index/.htaccess", "$LIVE/.htaccess")) {				AION_ECHO("ERROR! copy failed: $LIVE/.htaccess"); }
 
 
 /*** go live ***/
@@ -81,11 +82,11 @@ system("rm -rf $TEMP");
 
 
 /*** replace temp backup with new backup ***/
-system("rm -rf $BACK");					if (is_dir($BACK)) {				AION_ECHO("ERROR! rm failed: $BACK"); }
-system("mv $BACK2 $BACK");				if (!is_dir($BACK)) {				AION_ECHO("ERROR! mv failed: $BACK2"); }
-if (!chmod($BACK,0755)) {													AION_ECHO("ERROR! chmod failed: $BACK"); }
-if (!chmod("$BACK/library",0755)) {											AION_ECHO("ERROR! chmod failed: $BACK/library"); }
-if (!chmod("$BACK/library/pwa",0755)) {										AION_ECHO("ERROR! chmod failed: $BACK/library/pwa"); }
+system("rm -rf $BACK");					if (is_dir($BACK)) {					AION_ECHO("ERROR! rm failed: $BACK"); }
+system("mv $BACK2 $BACK");				if (!is_dir($BACK)) {					AION_ECHO("ERROR! mv failed: $BACK2"); }
+if (!chmod($BACK,0755)) {														AION_ECHO("ERROR! chmod failed: $BACK"); }
+if (!chmod("$BACK/library",0755)) {												AION_ECHO("ERROR! chmod failed: $BACK/library"); }
+if (!chmod("$BACK/library/pwa",0755)) {											AION_ECHO("ERROR! chmod failed: $BACK/library/pwa"); }
 
 /*** diff after deploy, should be no differences! ***/
 AION_LOOP_DIFF(	'../www-stage/library', 	'../www-production/library',	'../diff-www-stage-with-www-production-AFTER-DEPLOY',			'/\.php$/', '', 'stageresources','resources');
