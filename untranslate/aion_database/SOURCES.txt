@@ -2,7 +2,7 @@ FILE	FLAG	POST	VALUE	SOURCE	DESTINATION
 AB-STEPBibleData				https://github.com/STEPBible/STEPBible-Data/archive/refs/heads/master.zip	AB-STEPBibleData.zip		
 Holy-Bible---Abureni---Abureni-Bible				https://ebible.org/epub/mgj.epub	Holy-Bible---Abureni---Abureni-Bible---Source-Edition.epub		
 Holy-Bible---Abureni---Abureni-Bible				https://ebible.org/pdf/mgj/mgj_prt.pdf	Holy-Bible---Abureni---Abureni-Bible---Source-Edition.pdf		
-Holy-Bible---Abureni---Abureni-Bible				https://ebible.org/sword/zip/mgj2022eb.zip	Holy-Bible---Abureni---Abureni-Bible---Source-Edition.SWORD.zip		
+Holy-Bible---Abureni---Abureni-Bible				https://ebible.org/sword/zip/mgj2025eb.zip	Holy-Bible---Abureni---Abureni-Bible---Source-Edition.SWORD.zip		
 Holy-Bible---Abureni---Abureni-Bible				https://ebible.org/Scriptures/mgj_vpl.zip	Holy-Bible---Abureni---Abureni-Bible---Source-Edition.VPL.zip		
 Holy-Bible---Ahirani---Ahirani-Bible				https://ebible.org/epub/ahr.epub	Holy-Bible---Ahirani---Ahirani-Bible---Source-Edition.epub		
 Holy-Bible---Ahirani---Ahirani-Bible				https://ebible.org/pdf/ahr/ahr_all.pdf	Holy-Bible---Ahirani---Ahirani-Bible---Source-Edition.pdf		
@@ -285,7 +285,7 @@ Holy-Bible---Desiya---Desiya-Bible				https://ebible.org/sword/zip/dso2020eb.zip
 Holy-Bible---Desiya---Desiya-Bible				https://ebible.org/Scriptures/dso_vpl.zip	Holy-Bible---Desiya---Desiya-Bible---Source-Edition.VPL.zip		
 Holy-Bible---Dhanki---Dhanki-Devanagari-Bible				https://ebible.org/epub/dhn.epub	Holy-Bible---Dhanki---Dhanki-Devanagari-Bible---Source-Edition.epub		
 Holy-Bible---Dhanki---Dhanki-Devanagari-Bible				https://ebible.org/pdf/dhn/dhn_prt.pdf	Holy-Bible---Dhanki---Dhanki-Devanagari-Bible---Source-Edition.pdf		
-Holy-Bible---Dhanki---Dhanki-Devanagari-Bible				https://ebible.org/sword/zip/dhn2025eb.zip	Holy-Bible---Dhanki---Dhanki-Devanagari-Bible---Source-Edition.SWORD.zip		
+Holy-Bible---Dhanki---Dhanki-Devanagari-Bible				https://ebible.org/sword/zip/dhn2020eb.zip	Holy-Bible---Dhanki---Dhanki-Devanagari-Bible---Source-Edition.SWORD.zip		
 Holy-Bible---Dhanki---Dhanki-Devanagari-Bible				https://ebible.org/Scriptures/dhn_vpl.zip	Holy-Bible---Dhanki---Dhanki-Devanagari-Bible---Source-Edition.VPL.zip		
 Holy-Bible---Dholuo---Dholuo-Bible				https://ebible.org/epub/luo.epub	Holy-Bible---Dholuo---Dholuo-Bible---Source-Edition.epub		
 Holy-Bible---Dholuo---Dholuo-Bible				https://ebible.org/pdf/luo/luo_all.pdf	Holy-Bible---Dholuo---Dholuo-Bible---Source-Edition.pdf		
@@ -1017,7 +1017,7 @@ Holy-Bible---Matengo---Amatengu-Bible				https://ebible.org/sword/zip/mgv2020eb.
 Holy-Bible---Matengo---Amatengu-Bible				https://ebible.org/Scriptures/mgv_vpl.zip	Holy-Bible---Matengo---Amatengu-Bible---Source-Edition.VPL.zip		
 Holy-Bible---Matumbi---Matumbi-Bible				https://ebible.org/epub/mgw.epub	Holy-Bible---Matumbi---Matumbi-Bible---Source-Edition.epub		
 Holy-Bible---Matumbi---Matumbi-Bible				https://ebible.org/pdf/mgw/mgw_prt.pdf	Holy-Bible---Matumbi---Matumbi-Bible---Source-Edition.pdf		
-Holy-Bible---Matumbi---Matumbi-Bible				https://ebible.org/sword/zip/mgw2019eb.zip	Holy-Bible---Matumbi---Matumbi-Bible---Source-Edition.SWORD.zip		
+Holy-Bible---Matumbi---Matumbi-Bible				https://ebible.org/sword/zip/mgw2017eb.zip	Holy-Bible---Matumbi---Matumbi-Bible---Source-Edition.SWORD.zip		
 Holy-Bible---Matumbi---Matumbi-Bible				https://ebible.org/Scriptures/mgw_vpl.zip	Holy-Bible---Matumbi---Matumbi-Bible---Source-Edition.VPL.zip		
 Holy-Bible---Mbe---Mbe-Bible				https://ebible.org/epub/mfo.epub	Holy-Bible---Mbe---Mbe-Bible---Source-Edition.epub		
 Holy-Bible---Mbe---Mbe-Bible				https://ebible.org/pdf/mfo/mfo_prt.pdf	Holy-Bible---Mbe---Mbe-Bible---Source-Edition.pdf		
