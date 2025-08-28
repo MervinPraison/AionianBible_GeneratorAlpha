@@ -26,6 +26,11 @@ if ('Holy-Bible---English---Trans-Trans'==$bible) {
 	if (!($bfile = preg_replace("/</us",'(',$bfile,-1,$rnum)) || $rnum!=27) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 	if (!($bfile = preg_replace("/>/us",')',$bfile,-1,$rnum)) || $rnum!=27) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 }
+if ('Holy-Bible---German---Zurich-Bible'==$bible) {
+	if (!($bfile = preg_replace("/^([^:\d]+ \d+:\d+ \([a-z1-9]{1,1})\)/um",'$1.)',$bfile,-1,$rnum)) || $rnum!=27) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+	if (!($bfile = preg_replace("/^([^:\d]+ \d+:\d+ \(a\.\)[^(]+\(b)\)/um",'$1.)',$bfile,-1,$rnum)) || $rnum!=15) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+	if (!($bfile = preg_replace("/\([a-z1-9]{1,1}\).+$/um","",$bfile,-1,$rnum)) || $rnum!=10112) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+}
 if ('Holy-Bible---Greek---Greek-Nestle'==$bible) {
 	if (!($bfile = preg_replace("/[<>]+/us"," ",$bfile,-1,$rnum)) || $rnum!=6) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 }
@@ -107,6 +112,7 @@ case 'Holy-Bible---Gamotso---Gamo' :
 	break;
 case 'Holy-Bible---Chinese---Chinese-Union-Version-Simplified' :
 case 'Holy-Bible---Chinese---Chinese-Union-Version-Traditional' :
+case 'Holy-Bible---Dutch---Leuvense-Bible' :
 case 'Holy-Bible---French---French-Darby-Bible' :
 case 'Holy-Bible---Japanese---Japanese-Bungo-yaku' :
 case 'Holy-Bible---Japanese---Japanese-Electronic-Network-Bible' :
@@ -2830,6 +2836,337 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---Dutch---Leuvense-Bible" :
+if (!($bfile = preg_replace("/✴/us","",$bfile,-1,$rnum)) || $rnum!=367) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/✣/us","",$bfile,-1,$rnum)) || $rnum!=350) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+$blockfix = <<<EOF
+Exodus 40:16 Ende Moyses heuet al ghedaen dat hem die Heere gheboden hadde.
+Exodus 40:17 Aldus dan in die ierste maent vanden tweeden iare, opden iersten dach der maent, soo es dat tabernakel ghestelt.
+Exodus 40:18 Ende Moyses heeft dat opghericht, ende hy heeft die plancken, basementen ende rijchelen ghestelt,
+Exodus 40:19 ende hy heeft die columnen ooc opghericht, ende hy heeft het dack ghespannen ouer dat tabernakel, ende het decsel daer op gheleyt, also die Heere beuolen hadde.
+Exodus 40:20 Ende hy heeft dat getuyghenis ooc in die arcke gheleyt, ende daer onder die handboomen ghesteken, ende den stoel der ghenaden, daer bouen gheleut.
+Exodus 40:21 Ende als hy die arcke bracht hadde in dat tabernakel, soe heeft hi voor haer een voordecsel ghehanghen, dat hy Gods ghebodt volbrenghen soude.
+Exodus 40:22 Hy heeft ooc die tafel ghestelt in dat tabernakel des ghetuyghenissen, aen die noortsijde, buyten die gordijne,
+Exodus 40:23 ende schicte daer op die brooden der voorlegginghen, ghelijc die Heere Moysi beuolen hadde.
+Exodus 40:24 Hy heeft den candelaer ooc ghestelt in dat tabernakel des ghetuyghenis tseghen ouer die tafel, aen die suytsijde,
+Exodus 40:25 daer op stellende die lampen veruolghens nae des Heeren ghebodt.
+Exodus 40:26 Ende hy heeft den gulden outaer gestelt onder dat dack des ghetuyghenis teghen dat voorhancsel,
+Exodus 40:27 ende hy heeft daer op onsteken den welriekenden offer der specerien, ghelijc die Heere Moysi beuolen hadde.
+Exodus 40:28 Ende hy heeft ooc een voorhancsel gestelt aen den inganc van dat tabernakel der ghetuyghenis,
+Exodus 40:29 ende den brantoffers outaer in dat portael des ghetuyghenis, offerende daer op brantoffere ende sacrificien, als die Heere gheboden hadde.
+Exodus 40:30 Ende hy heeft oock het waschuat ghestelt tusschen dat tabernakel des ghetuyghenis, ende den outaer vullende dat met water.
+Exodus 40:31 Ende daer hebben haer handen ende voeten in ghewasschen Moyses ende Aaron ende sijn sonen,
+Exodus 40:32 als sij in tabernakel der verbonts ghinghen, ende totten outaer ghinghen, alsoo die Heere Moysen beuolen hadde.
+Exodus 40:33 Ende hy rechte ooc op dat voorhof rontsomme den tabernakel ende den outaer, ende hy spande een voorhancsel voor den inganck.
+Exodus 40:34 Alst al volmaect was, soe heeft een wolcke dat tabernakel des ghetuyghenissen bedect, ende des Heeren glorie heeft dat veruult,
+Exodus 40:35 Ende Moyses en conste in dat dack des verbonts niet gaen die wijle dat die wolcke dat al bedecte, ende die maiesteyt des Heeren daer blincte, want die wolcke haddet al bedect.
+Exodus 40:36 Ende als die wolcke van dat tabernakel sceyde, soe reysden die kinderen van Israhel voerts na haren heyrscaren,
+Exodus 40:37 maer als sij daer binen hinck, so bleuen sij in die selue plaetse.
+Exodus 40:38 Want des Heeren wolcke ruste des daechs op dat tabernakel, ende het vier des nachts, daert alle die kinderen van Israhel saghen, in allen haer woonsteden. ¶ Hier voleynt dat tweede boeck Moysi Exodus ghenaemt. 
+Leviticus 1:1 
+EOF;
+if (!($bfile = preg_replace("/Exodus 40:14 (.+?)Leviticus 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Joshua 21:38 Van Gads gheslachte die toeuluchtsteden, Ramoth in Galaad, ende Manaim, ende Hesebon, ende Iazer, vier steden, met haren voorsteden,
+Joshua 21:39 Van Rubens gheslachte ouer die iordane teghen ouer Iericho sijn ghegheuen die toeuluchtsteden Bosor in die woestijne Misor, ende Iazer ende Iechson, ende Mephaath vier steden met haren voorsteden,
+Joshua 21:40 Alle die steden der kinderen van Merari bi haren familien, ende maesscappen, waren twaelue.
+Joshua 21:41 Aldus alle die steden der Leuiten int midden der besittinghen der kinderen van Israhel waren achtenveertich
+Joshua 21:42 met haren voorsteden, Die welcke al besonder waren ghedeelt nae die familien.
+Joshua 21:43 Ende die Heere Godt heeft Israhel ghegheuen alle dat lant dat hy haren vaderen ghesworen hadde, dat hi hen dat gheuen soude, ende si hebben dat beseten, ende daer in ghewoont,
+Joshua 21:44 ende daer is van hen pays ghegheuen in alle die natien rontsomme, ende niemant vanden vianden en heeft hen dorren wederstaen, maer sij sijn alle gader onder hen heerscappie comen,
+Joshua 21:45 Daer en was niet een woort te vergheefs van alle tghene dat hy hen belooft hadde te gheuen, maer this al metten wercken volbracht gheweest. 
+Joshua 22:1 
+EOF;
+if (!($bfile = preg_replace("/Joshua 21:36 (.+?)Joshua 22:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+
+I Chronicles 8:25 ende Iephdaia, ende Phanuel waren Sesars sonen.
+I Chronicles 8:26 Ende Samsari, ende Sohoria, ende Otholia,
+I Chronicles 8:27 ende Iersia, ende Elia ende Zechri waren Ierohams sonen,
+I Chronicles 8:28 dese waren die ouerste vaders ende princen der gheslachten die woonden in Ierusalem.
+I Chronicles 8:29 Ende in Gabaon hebben ghewoont Abigabaon ende sijns huysvrouwen naem was Maacha,
+I Chronicles 8:30 ende sijn ierste gheboren sone Abdon, ende Sur, ende Cis, ende Baal ende Nadab
+I Chronicles 8:31 Gedor ooc, ende Ahio, ende Zacher,
+I Chronicles 8:32 ende Macelloth. Ende Macelloth heeft ghewonnen Samaa, ende sij hebben ghewoont teghen ouer hen broeders in Ierusalem met haren broeders.
+I Chronicles 8:33 Maer Ner heeft ghewonnen Cis, ende Cis heeft ghewonnen Saul, Maer Saul heeft ghewonnen Ionathan, ende Melchisua ende Abinadab, ende Esbaal.
+I Chronicles 8:34 Ende Ionathans sone was Merib-baal, ende Merib-baal heeft ghewonnen Micha,
+I Chronicles 8:35 Die sonen van Micha waren Phiton, ende Melech, ende Tharaa, ende Ahaz,
+I Chronicles 8:36 Ende Ahaz heeft ghewonnen Ioada, ende Ioada heeft ghewonnen Alamath, ende Azmoth ende Zamri. Ende Zamri heeft gewonnen Mosa
+I Chronicles 8:37 ende Mosa heeft gewonnen Banaa, wiens sone was Rapha, daer af geboren es Elasa die ghewonnen heeft Asel.
+I Chronicles 8:38 Maer Asel hadde ses sonen aldus genaemt, Ezrican, Bochru, Ismahel, Saria, Obdia ende Hanan, alle dese waren Asels sonen.
+I Chronicles 8:39 Ende Esec sijns broeders sonen waren Vlam sijn ierste gheboren, ende Iehus die tweede, ende Eliphalet die derde.
+I Chronicles 8:40 Ende die sonen van Vlam waren seer stercke mannen, ende met grooter macht den boghe spannende, ende sij hadden veel kinderen, ende kints kinderen, tot hondert ende vijftich duysent toe. Alle dese waren Beniamins kinderen. 
+I Chronicles 9:1 
+EOF;
+if (!($bfile = preg_replace("/\nI Chronicles 8:24 (.+?)I Chronicles 9:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Nehemiah 12:33 ende Azarias Esdras, ende Mosollam,
+Nehemiah 12:34 Iuda, ende Beniamin, ende Semeias, ende Ieremias,
+Nehemiah 12:35 Ende van den kinderen der priesters met trompetten Zacharias die sone Ionathan die sone Semeie, die sone Mathanie, die sone Michaie, die sone Zechur, die sone Asaph,
+Nehemiah 12:36 ende sijn broeders, Semeia, ende Azareel, Malalai, Galalai, Maai, Nathanael, ende Iuda, ende Hanani met die instrumenten der sanghen Dauids des mans Gods, Ende Esdras die scrijuer voor hen in die fonteynpoorte,
+Nehemiah 12:37 Ende teghen hen ouer sijn opgheghaen op die trappen van Dauids stadt inden opganck vanden muer op thuys van Dauid ende tot der wateren poorte ten oosten,
+Nehemiah 12:38 Ende den tweeden choor der dancsanghers ghinck teghen ouer ende ick achter hen, ende die helicht vanden volcke was opden muer ende op der ouens torre, ende totten alder breedtsten muer,
+Nehemiah 12:39 ende op die poorte van Ephraim ende op die oude poorte, ende op die vischpoorte, ende den torre Hananeel, ende den torre Emath, ende tot die poorte der cudden ende sij stonden in die poorte der bewaringhen,
+Nehemiah 12:40 ende daer stonden twee chooren der lofsanghers in dat huys Gods, ende ick ende die helicht vanden wethouderen met my,
+Nehemiah 12:41 Ende die priesters Eliacim, Maasia, Miamin, Michea, Elioenai, Sacharia, Hanania met trompetten,
+Nehemiah 12:42 ende Maasia, ende Semeia, ende Eleasar, ende Azzi, ende Iohanan, ende Melchia, ende Elam, ende Ezer, Ende die sanghers songhen claerlijck, ende Iezraia die ouerste,
+Nehemiah 12:43 ende sij hebben op dien dach gheoffert groote slachofferanden, ende sij hebben blijde gheweest, Want God haddese verblijt met grooter blijscappen, Ende hen huysvrouwen ende hen kinderen hebben ooc blijde gheweest, ende die blijscap van Ierusalem is verre ghehoort,
+Nehemiah 12:44 Ende sij hebben oock ghetelt op dien dach mannen ouer die scatcameren des tresoors tot die vochtighe offeranden ende tot die offeranden der ierster vruchten ende tot die thienden, dat die princen der stadt door hen inbrenghen souden, met eerlijcheyt van dancsegghinghen die priesters ende Leuiten, want Iuda is blijde gheworden, door die priesteren ende Leuiten daer by staende,
+Nehemiah 12:45 Ende sij hebben bewaert die bewaringhen haers Gods, ende die bewaringhe der suyueringhen, ende die sanghers ende doorwaerders, nae Dauids ghebodt ende Salomons sijns soons,
+Nehemiah 12:46 want in die daghen van Dauid ende Asaph, waren vanden beghinsel princen ghestelt der sanghers met liedekens Godt louende ende belijdende,
+Nehemiah 12:47 Ende alle Israel in die daghen van Zorobabel ende in die daghen Nehemie ghauen deelen den sanghers, ende doorwaerders, tot elcken daghe, ende sij heylichden die Leuiten, ende die Leuiten heylichden den kinderen van Aaron. 
+Nehemiah 13:1 
+EOF;
+if (!($bfile = preg_replace("/Nehemiah 12:33 (.+?)Nehemiah 13:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Job 42:16 Ende Iob heeft nae dese ghesciedenissen gheleeft hondert ende veertich iaren, ende heeft sijn kinderen ghesien, ende die kinderen van sijnen kinderen totter vierder generatien toe, ende hy is ghestoruen out, ende vol daghen.
+Job 42:17 Hier eyndt dat boeck van Iob.
+Psalms 1:1 
+EOF;
+if (!($bfile = preg_replace("/Job 42:16 (.+?)Psalms 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 5:11 Ende laetse blijde sijn alle die in v hopen, inder eewicheyt sullen sij hen verhueghen, ende ghy suldt in hen woonen. Ende sij sullen in v glorieren alle die uwen naem liefhebben,
+Psalms 5:12 want ghy sult ghebenedijden den rechtuerdighen. Heere, als mette n scilt van uwen goeden wille hebdy ons ghecroont.
+Psalms 6:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 5:11 (.+?)Psalms 6:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 43:21 En sal Godt dit niet versueken? want hy kent die verborghentheden des herten.
+Psalms 43:22 Want om v worden wy ghedoot alle den dach, wy sijn gheacht als slachscapen.
+Psalms 43:23 Staet op waerom slaepti Heere? staet op, ende en verstoot niet tot eynde toe.
+Psalms 43:24 Waer om keerdi v aensicht aff, waerom vergheet ghy onse armoeden, ende onse tribulatie?
+Psalms 43:25 Want ons ziele is in dat stoff der aerden vernedert, onsen buyck cleeft aen die aerde.
+Psalms 43:26 Staet op Heere, ende helpt ons, ende verlost ons om ws naems wille. 
+Psalms 44:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 43:21 (.+?)Psalms 44:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 55:10 In Gode sal ick dwoert louen, inden Heere sal ick die redene prijsen,
+Psalms 55:11 in Gode heb ick ghehoept ick en sal niet ontsien, wat my die mensch doet.
+Psalms 55:12 In my sijn o Godt v beloften die ick v tot louinghen sal wedergheuen.
+Psalms 55:13 Want ghy hebt mijn ziele vander doot verlost, ende mijn voeten vanden valle, op dat ick behaghen mach voer Gode int licht der leuender. 
+Psalms 56:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 55:10 (.+?)Psalms 56:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 71:1 GOdt gheeft v ordeel den coninck, ende uwe rechtuerdicheyt des conincs sone.
+Psalms 71:2 Om te ordeelen v volck in rechtuerdicheden, ende v arme in dat rechte vonnisse.
+Psalms 71:3 Laet die berghen vrede ontfanghen den volcke ende die hueuelen die rechtuerdicheyt.
+Psalms 71:4 Hy sal ordeelen die arme des volcs ende verlossen die kinderen der armen, ende vernederen den valschen beclapper.
+Psalms 71:5 Ende hy sal blijuen metter sonnen ende voer die mane, van gheslachte tot gheslachte.
+Psalms 71:6 Hy sal nederdalen als den reghen in dat vlies, ende ghelijck die druppelen druyppende op die aerde.
+Psalms 71:7 In zijnen daghen sal opgaen die rechtuerdicheyt, ende die ouervloedicheyt des vredes, tot dat die mane sal wechghenomen worden.
+Psalms 71:8 Ende hy sal heerscappie hebben vander zee totter zee, ende vanden vloet tot aen die eynden van den omganck des aertrijcs.
+Psalms 71:9 Voer hem sullen nederuallen die morianen, ende sijn vianden sullen die aerde lecken.
+Psalms 71:10 Die coninghen van Tharsis ende die eylanden sullen ghiften offeren, die coninghen van Arabien ende Saba sullen gauen aenbrenghen.
+Psalms 71:11 Ende hem sullen aenbidden alle die coninghen, alle die Heydenen sullen hem dienen.
+Psalms 71:12 Want hy sal verlossen den armen vanden machtighen, ende den armen den welcken gheen helper en was.
+Psalms 71:13 Hy sal sparen den armen ende behoeuighen, ende die zielen der armen sal hy behouden.
+Psalms 71:14 Van die woeckerien ende onrechtuerdicheden sal hy hen zielen verlossen, ende eerlijck sal haren naem sijn voer hem.
+Psalms 71:15 Ende hy sal leuen, ende hem sal ghegheuen worden van tgout van Arabien, ende sij sullen daer mede aenbidden altijt, alle den dach sullen sij hem ghebenedijden.
+Psalms 71:16 Ende daer sal een vasticheyt wesen op die aerde, op doppersten vanden berghen, zijn vrucht sal verhauen worden bouen Libanus berch, ende sij sullen bloeyen vander stadt ghelijck dat gras der aerden.
+Psalms 71:17 Sijnen naem sij ghebenedijt inder eewicheyt, voer die sonne blijft sijnen naem. Ende in hem sullen ghebenedijt worden alle die gheslachten der werelt, alle die Heydenen sullen hem groot maken.
+Psalms 71:18 Ghebenedijt sij die Heere die Godt van Israel die wonderlijcke dinghen doet alleene.
+Psalms 71:19 Ende ghebenedijt sij den naem van sijnder maiesteyt inder eewicheyt, ende van zijnder maiesteyt sal veruult worden alle die aerde, dat ghesciede, dat ghesciede. 
+Psalms 72:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 71:1 (.+?)Psalms 72:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 99:1 IVbileert den Heere gheheel aertrijck, dient den Heere in blijscap.
+Psalms 99:2 Gaet in sijn aenscouwen, met verhueghen.
+Psalms 99:3 Weet dat die Heere selue Godt is, hy heeft ons ghemaect, ende niet wij ons seluen. Ghy sijn volck ende scapen sijnder weyden
+Psalms 99:4 ghaet in sijn poorten met belijdinghe in sijn voorhouen met lofsanck belijdt hem. Loeft sijnen naem
+Psalms 99:5 want die Heere is soete, inder eewicheyt is sijn bermherticheyt, ende van gheslachte tot gheslachte is sijn waerheyt. 
+Psalms 100:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 99:1 (.+?)Psalms 100:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 108:1 GOdt en verswijcht mijnen loff niet,
+Psalms 108:2 want den mont des sondaers, ende den mont des bedrieghers is ouer my gheopent.
+Psalms 108:3 Sy hebben teghen my ghesproken, met een bedrieghelijcke tonghe met hatighen woerden hebben sij my omuanghen, ende my bestreden sonder sake.
+Psalms 108:4 Voer tghene dat sij my bemint hebben souden, soe hebben zij my ghelastert, maer ick badt.
+Psalms 108:5 Ende sij hebben teghen my ghestelt quade dinghen voer goede, ende haet voer mijn liefde.
+Psalms 108:6 Stelt ouer hem den sondaer, ende die duyuel stae te sijnder rechter hant.
+Psalms 108:7 Als hy gheordeelt wort soe laet hem verdoemt wt gaen, ende sijn ghebedt worde tot sonde gheacht.
+Psalms 108:8 Luttel moeten sijn daghen worden, ende sijn bisdom moet een ander ontfanghen.
+Psalms 108:9 Laet sijn kinderen weesen worden, ende sijn huysvrouwe weduwe.
+Psalms 108:10 Sijn kinderen moeten onghestadich wech ghevoert worden, ende broot bidden ende sij moeten wt ghedreuen worden van hen woninghen.
+Psalms 108:11 Laet den woekenaer alle sijn goet doersoeken, ende die vremde moeten alle sijnen arbeyt beroouen.
+Psalms 108:12 Hem en sij gheen helper, noch daer en sij niemant die sijnder weesen bermherticheyt doe.
+Psalms 108:13 Laet sijn kinderen te niet worden, in een gheboerte soe laet sijnen naem vergaen.
+Psalms 108:14 Ter ghedenckenisse laet comen sijnder vaderen boosheyt in daenschouwen des Heeren, ende sijnder moeder sonden en laet niet wtghevaecht worden.
+Psalms 108:15 Laetse altijt sijn teghen den Heere, ende laet vander eerden hen ghedenckenisse vergaen,
+Psalms 108:16 om dat hy niet en is ghedachtich gheweest bermherticheyt te doene.
+Psalms 108:17 Ende hy heeft veruolcht eenen armen mensch, ende eenen bedelaer, ende den bedructen van herten om te dooden.
+Psalms 108:18 Ende hy heeft die vermaledijnghe bemint, ende sij sal hem comen, ende hy en heeft die benedijnghe niet ghewilt ende sij sal verre van hem gaen. Ende hy heeft die maledijnghe aenghedaen als een cleedt, ende sij is inghegaen als water in sijn binnenste, ende ghelijck olie in sijn beenderen.
+Psalms 108:19 Laetse hem worden als een cleedt daer hi mede ghedect wort, ende als eenen riem daer hy altijt mede omgort wordt.
+Psalms 108:20 Dats hen werck die my lasteren by den Heere, ende die quaet spreken teghen mijn ziele.
+Psalms 108:21 Ende ghy Heere Heere doet met my om uwen naem, want suet is v bermherticheyt. Verlost my
+Psalms 108:22 want ic ben behoeuich ende arme, ende mijn herte es heel verbaest binnen my.
+Psalms 108:23 Ghelijck een scaduwe als sij nederdaelt soe ben ic wech ghenomen, ende ick ben wtghestooten als die sprinchanen.
+Psalms 108:24 Mijn knyen sijn cranck gheworden vant vasten, ende mijn vleesch is verandert om die olie.
+Psalms 108:25 Ende ick ben hen versmaetheyt gheworden, sij hebben my ghesien ende hen hoofden ghescudt.
+Psalms 108:26 Helpt my Heere mijn Godt, maect my salich na uwe bermherticheyt.
+Psalms 108:27 Ende laet hen weten dat dit v hant is, ende dat ghy Heere die ghedaen hebt.
+Psalms 108:28 Sy sullen vermalendijden ende ghy sult benedijden, laetse bescaemt worden die teghen my opstaen, maer v dienaer sal hem verblijden.
+Psalms 108:29 Laetse aenghedaen worden met bescaemptheden die my lasteren, ende laetse met hen scande ouerdect worden als met een dobbel cleedt.
+Psalms 108:30 Ick sal den Heere wtermaten seer belijden doer mijnen mont, ende int midden van veel menschen sal ick hem louen.
+Psalms 108:31 Want hy ghestaen heeft ter rechter sijden vanden armen, dat hy vanden veruolghers mijn ziele verlossen soude. 
+Psalms 109:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 108:1 (.+?)Psalms 109:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 145:1 MYn ziele louet den Heere,
+Psalms 145:2 ick sal den Heere louen in mijn leuen, ic sal den Heere lofsinghen soe lange als ick wesen sal.
+Psalms 145:3 En wilt v niet betrouwen op die princen, in die kinderen der menschen daer gheen salicheyt in en is.
+Psalms 145:4 Sijnen gheest sal wtgaen ende sal wederkeeren in sijn lant, in dien dach sullen alle hen ghedachten vergaen.
+Psalms 145:5 Salich is hy wiens helper is die Godt van Iacob, wiens hope is inden Heere sijnen Godt
+Psalms 145:6 die ghemaect heeft hemel ende eerde die zee ende alle dat daer in es.
+Psalms 145:7 Die de waerheyt bewaert inder eewicheyt, die den ghenen die onrecht lijden recht doet, die den hongherighen spijse gheeft. Die Heere ontbindt die gheueterde,
+Psalms 145:8 die Heere verlicht die blinde. Die Heere richt op die neder ghestooten sijn, die Heere bemint die rechtuerdighe.
+Psalms 145:9 Die Heere bewaert die vreemdelinghen, die weese ende weduwe sal hy ontfanghen, ende die weghen der sondaren sal hy vernielen.
+Psalms 145:10 Die Heere sal regneren inder eewicheyt v Godt Sion, van gheslachte tot gheslachte. 
+Psalms 146:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 145:1 (.+?)Psalms 146:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Proverbs 2:4 eest dat ghy die soect ghelijck ghelt, ende dat ghy die als scatten wtgraeft,
+Proverbs 2:5 dan suldi verstaen die vreese Gods, ende Gods kennisse vinden,
+Proverbs 2:6 want die Heere gheeft wijsheyt, ende wt sijnen mont comen verstandicheyt ende wetenheyt.
+Proverbs 2:7 Hy sal bewaren die salicheyt vanden oprechten, ende bescermen die ghene die simpelijck wandelen,
+Proverbs 2:8 onderhoudende die paden der rechtuerdicheyt, ende der heylighen weghen bewarende,
+Proverbs 2:9 dan suldy verstaen die rechtuerdicheyt ende dat ordeel ende gherechticheyt, ende alle goede paden.
+Proverbs 2:10 Eest dat die wijsheit in v herte gaet ende dat die kennisse uwer zielen behaghet,
+Proverbs 2:11 soo sal den raet v bewaren, ende die voorsichticheyt v behouden,
+Proverbs 2:12 dat ghy sult verlost worden vanden quaden wech,
+Proverbs 2:13 ende vanden mensche die verkeerde dinghen spreect, die daer verlaten die rechte bane, ende wandelen door duyster weghen,
+Proverbs 2:14 die hen verblijden als sij qualijc ghedaen hebben, ende verhueghen hen in die quaetste dinghen,
+Proverbs 2:15 der welcker weghen verkeert sijn, ende hen ganghen van quade famen,
+Proverbs 2:16 Op dat ghy moecht verlost worden vander vreemder vrouwen, ende die van buyten is, die haer woorden saechte maect,
+Proverbs 2:17 ende verlaet den leytsman van haerder iongher iuecht,
+Proverbs 2:18 ende die tverbont haers Gods vergheten heeft, want haer huys is ter doot gheneycht, ende ter hellenwaerts haer paden,
+Proverbs 2:19 alle die tot haer ingaen die en sullen niet wederkeeren, noch sij en sullen die paden des leuens niet aennemen,
+Proverbs 2:20 Op dat ghy moecht wandelen inden goeden wech, ende die paden der rechtuerdigher bewaren,
+Proverbs 2:21 want die oprecht sijn sullen op die aerde woonen, ende die simpele sullen daer op blijuen woonende,
+Proverbs 2:22 Maer die ongoddelijcke sullen vander eerden vernielt worden, ende die booslijc doen sullen daer af ghenomen worden. 
+Proverbs 3:1 
+EOF;
+if (!($bfile = preg_replace("/Proverbs 2:3 (.+?)Proverbs 3:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Song of Solomon 1:2 HY cusse mi met dat cussen sijns monts, want v borsten sijn beter dan wijn,
+Song of Solomon 1:3 welriekende nae die alderbeste saluen. Wtghestorte olie is uwen naem, daer om hebben v die ionghe dochterkens lief ghehadt.
+Song of Solomon 1:4 Trect my, wy sullen nae v loopen inden rueck van uwe saluen. Die coninck heeft my binnen gheleyt in sijn kelderen wy sullen ons verhueghen ende verblijden in v, ghedachtich uwer borsten bouen den wijn, die oprechte hebben v lief.
+Song of Solomon 1:5 Ick ben swart maer schoon van ghedaente, ghy dochteren van Ierusalem ghelijck die tabernakelen van Cedar, als Salomons vellen.
+Song of Solomon 1:6 En wilt my niet aenmercken dat ick bruyn ben, want die sonne heeft my ontverwet. Mijns moeders kinderen hebben teghen my ghestreden, sij hebben my een bewaerdersse der wijngaerden ghestelt, ick en heb mijnen wijngaert niet bewaert.
+Song of Solomon 1:7 Gheeft my te kennen ghy den welcken mijn ziele bemint, waer ghy weydet, waer ghy rustet inden middach, op dat ick niet en beghinne herwaerts ende derwaerts woestelijck te loopen, nae die cudden uwer ghesellen.
+Song of Solomon 1:8 Eest dat ghy v seluen niet en kent o alderschoonste onder die vrouwen, soe gaet wt ende volcht achter die voetstappen der cudden, ende weydt v bocken by die tabernakelen der herderen.
+Song of Solomon 1:9 By mijnder rijdinghen in Pharaos waghenen heb ick v gheleken mijn vriendinne.
+Song of Solomon 1:10 Schoon sijn v wanghen als eender tortelduyuen, uwen hals is ghelijck hals cieraeten.
+Song of Solomon 1:11 Gulden ghewronghen ketenkens sullen wy v maken, ghescakiert met siluer.
+Song of Solomon 1:12 Doen die coninck in sijn ruste was, soe heeft mijnen nardus haren rueck ghegheuen.
+Song of Solomon 1:13 Een bondelken myrrhen es mijn lief my, tusschem mijn borsten sal hi woonen.
+Song of Solomon 1:14 Eenen druyf van Cypers es mijn lief my, in die wijngaerden van Engaddi.
+Song of Solomon 1:15 Siet ghy sijt schoone mijn vriendinne, siet ghy sijt schoone, v ooghen sijn als der duyuen.
+Song of Solomon 1:16 Siet ghy sijt schoone mijn lief ende cierlijck. Ons beddeken is bloemich,
+Song of Solomon 1:17 die keyers van onsen huysen sijn van Cederen, die haenbalken van Cypressen. 
+Song of Solomon 2:1 
+EOF;
+if (!($bfile = preg_replace("/Song of Solomon 1:1 (.+?)Song of Solomon 2:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Jeremiah 37:4 Ende Ieremias wandelde vrijlijc int midden des volcs, want si en hadden hem in die gheuanghenisse der kerkers niet ghesteken.
+Jeremiah 37:5 Aldus is Pharaos heyr ghetrocken wt Egipten, ende die Chaldeen die Ierusalem beleyden hoorende alsulcke tijdinghe, zijn van Ierusalem affghetrocken.
+Jeremiah 37:6 Ende des Heeren woort is tot Ieremiam den propheet ghesciet segghende.
+Jeremiah 37:7 Dit seyt die Heere die Godt van Israel. Aldus suldi den coninck van Iuda segghen die v ghesonden heeft om my te vraghen. Siet Pharaos heyr dat wtghetrocken is tot uwer helpen sal wederom keeren in zijn lant in Egipten,
+Jeremiah 37:8 Ende die Chaldeen sullen wederom comen ende strijden teghen dese stadt, ende si sullen die innemen ende die metten vier verbranden.
+Jeremiah 37:9 Dit seydt die Heere. En wilt v zielen niet bedrieghen, segghende. Die Chaldeen sullen gaende wechgaen, ende die Chaldeen sullen van ons gaen, want si en sullen niet wech gaen.
+Jeremiah 37:10 Ende al waert oock dat ghy alle theyr der Chaldeen versloecht die teghen v strijden, ende datter van dien achter ghelaten worden eenighe ghewonde, die sullen elck wt hen tenten opstaen, ende si sullen dese stadt metten viere ontsteken.
+Jeremiah 37:11 Hierom doen der Chaldeen heyr wech gheghaen was van Ierusalem om Pharaos heyr,
+Jeremiah 37:12 Soo is Ieremias van Ierusalem wt ghegaen dat hy gaen soude int lant van Beniamin, ende dat hy daer die besittinge deylen soude inder borgers aenschouwen.
+Jeremiah 37:13 Ende als hy ghecomen was tot Beniamins poorte, soo was daer poortier by boerten een ghenaemt Ierias die sone Selemie des soons Hananie, ende hy heeft Ieremiam den prophete aenueerdt segghende. Ghy vliedt tot die Chaldeen.
+Jeremiah 37:14 Ende Ieremias heeft gheantwoort. Tis loghen, ic en vliede tot die Chaldeen niet. Ende hy en heeft hem niet ghehoort, maer Ierias heeft Ieremiam ghegrepen, ende hem ghebracht tot die princen.
+Jeremiah 37:15 Waerom die princen ghestoort zijnde teghen Ieremiam hebben hem gheslaghen doen steken inden kercker die in Ionathan des scrijuers huys was, want hy was die ouerste van den kercker.
+Jeremiah 37:16 Aldus is Ieremias gheghaen int huys vanden poel ende in die gheuanghenisse, ende Ieremias heeft daer gheseten veel daghen,
+Jeremiah 37:17 Maer Sedecias die coninck sendende heeft hem doen halen, ende hy heeft hem in zijn huys int heymelijc gheuraecht ende gheseyt. Meyndy oock datter eenich woort is vanden Heere? Ende Ieremias heeft gheseyt. Iaet Ende hi seyde. In des conincs van Babilonien hant suldi gheleuert worden.
+Jeremiah 37:18 Ende Ieremias heeft gheseyt totten coninc Sedeciam. Wat heb ick v misdaen, ende uwen knechten, ende uwen volcke, dat ghi my in des kerckers huys ghesteken hebt?
+Jeremiah 37:19 waer zijn v lieder propheten die v lieden propheteerden ende seyden. Die coninc van Babilonien en sal op v lieden niet comen, ende op dit lant?
+Jeremiah 37:20 Daerom hoort nv (bid ic) mijn heere die coninc laet mijn ghebedt van weerden zijn in v aensicht, ende en sendt mi niet wederom in Ionathas des scrijuers huys dat ick daer niet en sterue.
+Jeremiah 37:21 Hierom heeft die coninc Sedecias gheboden dat Ieremias soude gheleuert worden in dat voorbucht des kerckers, ende datmen hem eenen wronc broots gheuen soude alle daghe, sonder die toespijse, tot dat alle die brooden vander stadt soude verteert zijn, ende Ieremias is gebleuen in die voorbucht des kerckers. 
+Jeremiah 38:1 
+EOF;
+if (!($bfile = preg_replace("/Jeremiah 37:4 (.+?)Jeremiah 38:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Matthew 17:14 Ende doen hy by die scare ghecomen was, soe is tot hem comen een mensch op sijn knyen voor hem nedergheuallen, segghende, Heere ontfermt v mijns soens,
+Matthew 17:15 want hy is maensuchtich, ende is qualijck te passe, want dicmael valt hy int vier, ende dicmael int water,
+Matthew 17:16 ende ic hebben voer v discipelen ghebracht, ende sij en hebben hem niet connen ghenesen,
+Matthew 17:17 Iesus antwoerdende heeft gheseyt, O ghy ongheloouich ende verkeert gheslachte, hoe langhe sal ick met v lieden wesen? Hoe langhe sal ick v lijden? Brengt hem her waerts tot my.
+Matthew 17:18 Ende Iesus heeft dien ghestraft, ende die duyuel is daer wtghegaen ende tkint is ghenesen gheweest van dier vren,
+Matthew 17:19 Doen sijn die discipelen secretelijck ghecomen tot Iesum ende hebben gheseyt, Waer om en hebben wy dien niet connen wtworpen?
+Matthew 17:20 Iesus heeft hen gheseyt, Om uwer ongheloouicheyt wille. Want voerwaer ick segghe v lieden, eest dat ghi ghelooue hebt als een mostaerts saet, soe suldi segghen tot desen berch, gaet van hier ouer derwaerts ende hy sal daer ouergaen, ende niet en sal v onmoghelijck sijn.
+Matthew 17:21 Maer desen aert en wort niet wt gheworpen dan doer bidden ende vasten.
+Matthew 17:22 Ende doen sij verkeerden in Galileen, soe heeft Iesus tot hen gheseyt. Die sone des menschen sal gheleuert worden in die handen der menschen,
+Matthew 17:23 ende sij sullen hem dooden, ende ten derden daghe sal hy verrijsen. Ende sij sijn seer bedroeft gheworden.
+Matthew 17:24 Ende doen sij te Capharnaum ghecomen waren, soe quamen tot Petrum die den tolpenninck ontfinghen ende sij hebben tot hem gheseyt, V meester en betaelt hy den tolpenninck niet?
+Matthew 17:25 Hy seyde, Iae hy. Ende doen hy in huys ghecomen was, soe voerquam hem Iesus segghende, Wat dunct v Simon? Die coninghen der aerden van wien nemen sij tribuyt oft chijns? Van haren kinderen oft van die vreemde.
+Matthew 17:26 Ende hy seyde, Van die vreemde, Iesus seyde tot hem. Soe sijn die kinderen dan vrij.
+Matthew 17:27 Maer op dat wy hen niet en verargheren, gaet henen ter zee ende worpt eenen henghel wt, ende den visch die ten iersten op coemt, dien neemt, ende sijnen mont openghedaen hebbende suldi eenen stater penninck vinden, dien nemende gheeft hen lieden voor my ende v.
+Matthew 18:1 
+EOF;
+if (!($bfile = preg_replace("/Matthew 17:14 (.+?)Matthew 18:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Acts 7:55 Maer want hy vol was vanden heylighen gheest, soe heeft hy ten hemelwaerts siende die glorie Gods ghesien, ende Iesum staende ter rechter zijden Godts.
+Acts 7:56 Ende hy seyde. Siet ick sie die hemelen open, ende den sone des menschen staende aen die rechte zijde Gods.
+Acts 7:57 Ende luyde roepende met grooter stemmen hebben sij hen ooren ghestopt, ende hebben eendrachtelijck eenen oploop teghen hem ghemaect.
+Acts 7:58 Ende stootende hem buyten der stadt, steenden sij hem, ende die ghetuyghen hebben hen cleederen afgheleyt by die voeten van eenen ionghelinck ghenoemt Saulus.
+Acts 7:59 Ende sij steenden Stephanum die daer aenriep ende seyde, Heere Iesu ontfanct mijnen gheest.
+Acts 7:60 Ende met ghebuychde knyen heeft hy gheroepen met grooter stemmen segghende, Heere en rekent hen dit niet tot sonde. Ende doen hy dat gheseyt hadde, soe is hy ontslapen. Ende Saulus was consenteerende in zijn doot.
+Acts 8:1 
+EOF;
+if (!($bfile = preg_replace("/Acts 7:55 (.+?)Acts 8:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Acts 14:8 Ende een man sadt te Listren cranck in die voeten, cruepel van sijns moeders lichaem, die noyt ghewandelt en hadde.
+Acts 14:9 Dese heeft Paulum ghehoort sprekende. Die welck hem aensiende ende siende dat hy tghelooue hadde om salich te worden,
+Acts 14:10 soe heeft hy gheseyt met luyder stemmen, Staet recht op v voeten. Ende hy is opghespronghen ende heeft ghewandelt.
+Acts 14:11 Ende als die scaren ghesien hadden dat Paulus ghedaen hadde, hebben sij haer stemme opghehauen in die Licaonische sprake segghende, Die goden den menschen ghelijck gheworden sijn nederghedaelt tot ons.
+Acts 14:12 Ende sij noemden Barnabam Iouem, maer Paulum Mercurium, want hy was die voerder des woerts.
+Acts 14:13 Ende Iupiters priesters die voer die stadt was brenghende stieren ende croonen voer die dooren, wilde metten volcke sacrificie doen.
+Acts 14:14 Dwelck als die Apostelen ghehoort hebben Barnabas ende Paulus, soe sijn sij met haren ghescoerden cleederen wtghespronghen onder die scaren roepende
+Acts 14:15 ende segghende, Ghy mannen waer om doedi dese dinghen? Wy sijn ooc ws ghelijck sterffelijcke menschen, vercondighende v lieden, dat ghy v bekeeren soudt van dese ydelheden totten leuenden Godt, die ghemaect heeft den hemel, ende die eerde ende die zee, ende alle datter in is,
+Acts 14:16 die welcke in die voerleden gheboerten alle die heydenen heeft laten wandelen hen weghen.
+Acts 14:17 Ende hy en heeft sij seluen voerwaer sonder ghetuyghenisse niet ghelaten, wel doende van den hemel, gheuende reghenen, ende vruchtbarighe tijden, veruullende met spijse ende blijscap onse herten.
+Acts 14:18 Ende dit segghende hebben sij nauwelijcs die scaren connen gheswichten, dat sij hen niet en souden sacrificie doen.
+Acts 14:19 Maer daer sijn sommighe Ioden ouerghecomen van Antiochien ende van Iconien, die welcke (nae dat sij die scaren omghekeert hadden) hebben Paulum ghesteent ende ghetrocken wter stadt, meynende dat hy doot was.
+Acts 14:20 Maer als hem die discipelen omringhelden, soe is hy opstaende in die stadt ghegaen, ende des anderen daechs is hy met Barnabas ghereyst tot in Derben.
+Acts 14:21 Ende als sij dier stadt het euangelie ghepreect hadden, ende vele menschen gheleert hadden, soe sijn sij wederom ghecomen te Lystren, ende Iconien, ende Antiochien,
+Acts 14:22 versterckende die zielen der discipelen, ende vermanende dat sij blijuen souden int ghelooue, ende dat wi moeten doer veel tribulacien comen int rijck Gods.
+Acts 14:23 Ende als sij hen lieden priesters ghestelt hadden tot elcker kercken, ende ghebeden hadden met vastenen, soe hebben sij hen den Heere beuolen inden welcken sij ghelooft hadden.
+Acts 14:24 Ende voerts doergaende doer Pisidien, sijn sij ghecomen in Pamphilien,
+Acts 14:25 ende sprekende het woert des Heeren in Pergen, sijn si nederwaerts ghegaen in Attalien,
+Acts 14:26 ende van daer sijn sij te scepe gheuaren na Antiochien, Van waer sij ouerghegheuen waren der gratien Godts, tot dat werck dwelck sij volbrocht hebben.
+Acts 14:27 Maer doen sij ghecomen waren ende vergadert hadden die kercke, soe hebben sij vertelt hoe groote dinghen dat Godt met hen ghedaen hadde, ende dat hy den heydenen gheopent hadde die doore des gheloofs,
+Acts 14:28 ende sij hebben daer eenen langhen tijt ghewoont by die discipelen. 
+Acts 15:1 
+EOF;
+if (!($bfile = preg_replace("/Acts 14:7 (.+?)Acts 15:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Acts 19:40 Want wij sijn int perikel van beclaecht te worden vanden oploop van heden hoewel datter niemant sculdich en is, vanden welcke n wij ons mochten verantwoorden van desen oploop,
+Acts 19:41 En de doen hy dit gheseyt hadde, soo heeft hy die vergaderinghe laten gaen.
+Acts 20:1 
+EOF;
+if (!($bfile = preg_replace("/Acts 19:40 (.+?)Acts 20:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+II Corinthians 13:12 Groet malcanderen met een heylich cussen.
+II Corinthians 13:13 Het groeten v alle die heylighen.
+II Corinthians 13:14 Die gratie ons Heeren Iesu Christi, en de die liefde Gods en de die ghemeynscap des heylichs gheests sij met v allen. Amen. Hier voleynt die tweede Epistel van sinte Pauwels totten Corinthien.
+Galatians 1:1 
+EOF;
+if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---Dutch---Petrus-Canisius" :
 $blockfix = <<<EOF
 REV 6:7 Toen het Lam het vierde zegel opende, hoorde ik de stem van het vierde Dier roepen: “Kom uit!”
@@ -2909,7 +3246,7 @@ $replacements = array(
 	"#you’ve#us"	=>"you have",
 	"#You’ve#us"	=>"You have",
 	);
-if (!($bfile=preg_replace(array_keys($replacements), $replacements, $bfile, -1, $rnum)) || $rnum!=4644) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile=preg_replace(array_keys($replacements), $replacements, $bfile, -1, $rnum)) || $rnum!=4645) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -5541,6 +5878,50 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---French---Bonnet-Bovet-Bible" :
+$textfix = <<<EOF
+Deuteronomy 23:25 Quand tu entreras dans la vigne de ton prochain, tu mangeras des raisins selon ton appétit et t’en rassasieras, mais tu n’en mettras pas dans ton panier.
+Deuteronomy 23:26 Quand tu entreras dans les blés de ton prochain, tu arracheras des épis avec la main, mais tu ne porteras pas la faucille sur les blés de ton prochain.
+Deuteronomy 24:1 
+EOF;
+if (!($bfile = preg_replace("/Deuteronomy 23:25 (.+?)Deuteronomy 24:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+II Kings 11:21 Joas avait sept ans lorsqu’il devint roi.
+II Kings 12:1 Joas devint roi la septième année de Jéhu, et il régna quarante ans à Jérusalem. Le nom de sa mère était Tsibia, de Béerséba.
+II Kings 12:2 
+EOF;
+if (!($bfile = preg_replace("/II Kings 12:0 (.+?)II Kings 12:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Jonah 2:10 Mais moi je t’offrirai mon sacrifice, en disant ta louange. Ce que j’ai voué, je le rendrai. Le salut est à l’Éternel.
+Jonah 2:11 Et l’Éternel parla au poisson, qui vomit Jonas sur le sec.
+Jonah 3:1 
+EOF;
+if (!($bfile = preg_replace("/Jonah 2:10 (.+?)Jonah 3:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Micah 4:13 Lève-toi et foule, fille de Sion ! Car je ferai que ta corne sera de fer et tes sabots d’airain, et tu broieras des peuples nombreux ; et je vouerai leurs gains à l’Éternel et leurs richesses au Seigneur de toute la terre.
+Micah 4:14 Maintenant rassemble tes troupes, fille de troupes ! On a mis le siège contre nous, on frappe de la verge sur la joue le juge d’Israël !
+Micah 5:1 
+EOF;
+if (!($bfile = preg_replace("/Micah 4:13 (.+?)Micah 5:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Acts 19:40 Car nous sommes même en danger d’être accusés de sédition pour ce qui s’est passé aujourd’hui, puisqu’il n’existe aucun motif que nous puissions invoquer pour rendre raison de cet attroupement.
+Acts 19:41 Et ayant dit cela, il congédia l’assemblée.
+Acts 20:1 
+EOF;
+if (!($bfile = preg_replace("/Acts 19:40 (.+?)Acts 20:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+II Corinthians 13:12 Saluez-vous les uns les autres par un saint baiser.
+II Corinthians 13:13 Tous les saints vous saluent.
+II Corinthians 13:14 La grâce du Seigneur Jésus-Christ, et l’amour de Dieu, et la communion du Saint-Esprit, soient avec vous tous.
+Galatians 1:1 
+EOF;
+if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---French---French-Crampon-Bible" :
@@ -6678,6 +7059,27 @@ Revelation of John 1:7
 EOF;
 if (!($bfile = preg_replace("/Revelation of John 1:5 (.+?)Revelation of John 1:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---French---Geneva-Bible" :
+$textfix = <<<EOF
+Acts 19:40 Car nous ſommes en danger d’eſtre accuſez de ſedition pour ce jourd’hui : veu qu’il n’y a cauſe aucune pour laquelle nous puiſſions rendre raiſon de cette eſmeute.
+Acts 19:41 Et quand il eut dit ces choſes , il bailla congé à l’aſſemblée.
+Acts 20:1 
+EOF;
+if (!($bfile = preg_replace("/Acts 19:40 (.+?)Acts 20:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+II Corinthians 13:12 Saluëz-vous l’un l’autre d’un ſaint baiſer.
+II Corinthians 13:13 Tous les Saints vous ſaluënt.
+II Corinthians 13:14 La grace du Seigneur Jeſus Chriſt ,  la dilection de Dieu ,  la communication du Saint Eſprit ſoit avec vous tous. Amen.
+Galatians 1:1 
+EOF;
+if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
 
 
 
@@ -8788,6 +9190,160 @@ goto RAWHIDE;
 
 
 
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---German---Open-Bible" :
+if (!($bfile = preg_replace("/\x{2605}/us","",$bfile,-1,$rnum)) || $rnum!=9) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---German---Zurich-Bible" :
+if (!($bfile = preg_replace("/\+/us",'$1.)',$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+$blockfix = <<<EOF
+Numbers 13:33 Und sie berichteten den Israeliten schlimme Dinge von dem Lande, das sie ausgekundschaftet hatten, und sprachen: Das Land, das wir durchzogen haben, um es auszukundschaften, verzehrt seine Bewohner, und das ganze Volk, das wir darin sahen, besteht aus hochgewachsenen Leuten.
+Numbers 13:34 Wir sahen dort auch die Riesen, die Enakiter aus dem Riesengeschlecht, und wir kamen uns vor wie Heuschrecken, und so erschienen wir auch ihnen.
+Numbers 14:1 
+EOF;
+if (!($bfile = preg_replace("/Numbers 13:33 (.+?)Numbers 14:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Numbers 30:16 Wenn er sie aber (erst einige Zeit), nachdem er davon gehört hat, aufhebt, so hat er ihre Schuld zu tragen.
+Numbers 30:17 Das sind die Satzungen, die der Herr dem Mose geboten hat, damit sie gelten zwischen Mann und Weib und zwischen Vater und Tochter, solange sie noch ledig im Hause ihres Vaters ist.
+Numbers 31:1 
+EOF;
+if (!($bfile = preg_replace("/Numbers 30:16 (.+?)Numbers 31:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+
+I Samuel 24:22 So schwöre mir denn bei dem Herrn, dass du meine Nachkommen nach meinem Tode nicht ausrotten und meinen Namen aus meines Vaters Hause nicht austilgen wirst.
+I Samuel 24:23 Und David schwur Saul. Dann zog Saul heim, David aber und seine Leute stiegen auf die Bergfeste.
+I Samuel 25:1 
+EOF;
+if (!($bfile = preg_replace("/\nI Samuel 24:22 (.+?)I Samuel 25:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+II Samuel 19:43 Da antworteten alle Männer Judas denen von Israel: Weil der König uns verwandt ist! Und warum zürnt ihr deswegen? Haben wir etwa ein Stück vom König gefressen, oder ist er von uns weggenommen worden?
+II Samuel 19:44 Aber die Männer Israels entgegneten denen von Juda: Wir haben zehnfach Anteil am König; dazu sind wir auch als die Erstgeborenen euch voraus! Warum habt ihr uns verachtet? Und haben wir denn nicht zuerst davon geredet, unsern König heimzuholen? Die von Juda aber redeten noch heftiger als die von Israel.
+II Samuel 20:1 
+EOF;
+if (!($bfile = preg_replace("/II Samuel 19:43 (.+?)II Samuel 20:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+
+I Kings 5:18 Nun aber hat mir der Herr, mein Gott, auf allen Seiten Ruhe gegeben; kein Widersacher ist mehr da, kein Missgeschick.
+I Kings 5:19 So gedenke ich denn nun dem Namen des Herrn, meines Gottes, ein Haus zu bauen, wie der Herr meinem Vater David verheissen hat: "Dein Sohn, den ich an deiner Statt auf deinen Thron setzen werde, der soll meinem Namen das Haus bauen." (a) 2Sa 7:13; 1Ch 22:10
+I Kings 5:20 So gebiete nun, dass man mir Zedern fälle auf dem Libanon; meine Knechte sollen deinen Knechten helfen, und den Lohn für deine Knechte will ich dir bezahlen, ganz wie du es verlangst. Du weisst ja, dass niemand unter uns ist, der Holz zu fällen versteht wie die Sidonier. 
+I Kings 5:21 Als nun Hiram die Botschaft Salomos hörte, war er hocherfreut und sprach: Gepriesen sei heute der Herr, der dem David einen weisen Sohn gegeben hat über dieses grosse Volk!
+I Kings 5:22 Dann sandte Hiram zu Salomo und liess ihm sagen: Ich habe gehört, was du mir entboten hast; ich will all dein Begehren nach Zedern- und Zypressenstämmen erfüllen.
+I Kings 5:23 Meine Knechte sollen sie vom Libanon ins Meer hinabschaffen; darnach will ich sie auf dem Meere flössen lassen bis an den Ort, den du mir bestimmen wirst. Dort will ich sie wieder auseinandernehmen, und du lässest sie dann holen. Du aber sollst auch mein Begehren erfüllen und meinem Hofe Speise liefern.
+I Kings 5:24 Also lieferte Hiram dem Salomo Zedern- und Zypressenholz, soviel er haben wollte.
+I Kings 5:25 Salomo aber lieferte dem Hiram 20 000 Kor Weizen zum Unterhalt für seinen Hof und 20 000 Bath vom feinsten Öl. So viel lieferte Salomo dem Hiram Jahr für Jahr.
+I Kings 5:26 Und der Herr gab Salomo Weisheit, wie er ihm verheissen hatte; und es war Friede zwischen Hiram und Salomo, und sie schlossen einen Vertrag miteinander.
+I Kings 5:27 Der König Salomo aber hob aus ganz Israel Fronarbeiter aus; es waren ihrer 30 000.
+I Kings 5:28 Und er sandte sie abwechselnd auf den Libanon, jeden Monat zehntausend Mann: einen Monat waren sie auf dem Libanon und zwei Monate daheim. Und Adoniram war über die Fronarbeiter gesetzt. (a) 1Kön 4:6
+I Kings 5:29 Auch hatte Salomo 70 000 Lastträger und 80 000 Steinmetzen im Gebirge (Juda),
+I Kings 5:30 ohne die Aufseher Salomos, die über die Arbeit gesetzt waren, nämlich 3 300, die den Arbeitern zu gebieten hatten.
+I Kings 5:31 Und sie brachen auf Geheiss des Königs grosse, kostbare Steine, um den Grund des Tempels mit Quadern zu legen.
+I Kings 5:32 Die Bauleute Salomos und die Bauleute Hirams und die Leute von Gebal behieben sie dann und richteten Holz und Steine zum Bau des Tempels her.
+I Kings 6:1 
+EOF;
+if (!($bfile = preg_replace("/\nI Kings 5:18 (.+?)I Kings 6:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Job 39:30 Und seine Jungen schlürfen Blut; / und wo Erschlagene sind, da ist er.
+Job 39:31 Und der Herr wandte sich an Hiob und sprach:
+Job 39:32 Hadern will der Tadler mit dem Allmächtigen? Der Gott zurechtwies, gebe darauf Antwort!
+Job 39:33 Da antwortete Hiob dem Herrn und sprach:
+Job 39:34 Siehe, ich bin zu gering, was soll ich dir antworten? Ich lege die Hand auf meinen Mund.
+Job 39:35 Einmal habe ich geredet und wiederhole es nicht, zweimal, und tue es nicht wieder.
+Job 40:1 
+EOF;
+if (!($bfile = preg_replace("/Job 39:30 (.+?)Job 40:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Job 40:24 Spielst du mit ihm wie mit einem Vogel und bindest du es an für deine Mädchen?
+Job 40:25 Feilschen darum die Zunftgenossen, verteilen sie es unter die Händler?
+Job 40:26 Kannst du seine Haut mit Stacheln spicken und mit Fischharpunen seinen Kopf?
+Job 40:27 Lege nur deine Hand daran - denke an den Kampf! - du tust es nicht wieder.
+Job 40:28 Sieh, deine Hoffnung wäre betrogen; / schon bei seinem Anblick würde einer hingestreckt.
+Job 41:1 
+EOF;
+if (!($bfile = preg_replace("/Job 40:24 (.+?)Job 41:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Ecclesiastes 4:16 Da war kein Ende all des Volkes, / all derer, an deren Spitze er stand; / doch die Späteren werden sich nicht an ihm freuen. / Denn auch das ist nichtig und ein Haschen nach Wind.
+Ecclesiastes 4:17 SEI behutsam, wenn du zum Hause Gottes gehst: / Hintreten, um zu hören, ist besser, / als wenn die Toren Opfer bringen; / denn sie wissen nichts als Böses zu tun. / (a) 1Sa 15:22; Spr 15:8
+Ecclesiastes 5:1 
+EOF;
+if (!($bfile = preg_replace("/Ecclesiastes 4:16 (.+?)Ecclesiastes 5:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Ecclesiastes 7:29 Was meine Seele immerfort suchte / und was ich nicht fand, ist dies: / unter tausend habe ich wohl einen Mann gefunden, / aber ein Weib unter diesen allen fand ich nicht.
+Ecclesiastes 7:30 Nur habe ich, siehe, das gefunden, / dass Gott die Menschen recht geschaffen hat; / sie aber suchen viele Künste.
+Ecclesiastes 8:1 
+EOF;
+if (!($bfile = preg_replace("/Ecclesiastes 7:29 (.+?)Ecclesiastes 8:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Song of Solomon 7:13 am Morgen früh nach den Weingärten sehen, / ob der Weinstock gesprosst, / ob die Blüten sich aufgeschlossen, / ob die Granaten im Bluste stehen. / Dort will ich dir meine Liebe schenken. 
+Song of Solomon 7:14 Es duften die Liebesäpfel, / vor unsern Türen sind köstliche Früchte, / frische zusammen mit jährigen; / die habe ich, mein Geliebter, dir aufgespart.
+Song of Solomon 8:1 
+EOF;
+if (!($bfile = preg_replace("/Song of Solomon 7:13 (.+?)Song of Solomon 8:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Isaiah 63:19 Warum sind wir geworden wie solche, die du nie beherrscht hast, die nicht nach deinem Namen benannt sind?
+Isaiah 63:20 O dass du den Himmel zerrissest und führest herab, dass vor dir die Berge erbebten,
+Isaiah 64:1 
+EOF;
+if (!($bfile = preg_replace("/Isaiah 63:19 (.+?)Isaiah 64:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Ezekiel 21:32 Trümmer, Trümmer, Trümmer will ich aus der Stadt machen! Wehe ihr! so soll sie bleiben, bis der kommt, dem das Recht zusteht und dem ich sie übergebe.
+Ezekiel 21:33 Du aber, Menschensohn, weissage und sprich: So spricht Gott der Herr von den Ammonitern und ihrem Höhnen. Sprich: Ein Schwert, ein Schwert ist gezückt zum Morden, blankgefegt, dass es blitzt
+Ezekiel 21:34 während man dir Truggesichte verkündete, dir Lügen wahrsagte -, um an den Hals der Frevelentweihten gelegt zu werden, deren Tag kommt zur Zeit der Endstrafe.
+Ezekiel 21:35 Kehre um, verweile nicht! An dem Orte, wo du erschaffen wurdest, im Lande deines Ursprungs, will ich dich richten.
+Ezekiel 21:36 Und ich will meinen Grimm über dich ausschütten, das Feuer meines Zornes wider dich anfachen und dich rohen Menschen ausliefern, welche Verderben schmieden.
+Ezekiel 21:37 Dem Feuer sollst du zum Frasse werden, dein Blut soll tief von der Erde bedeckt sein, man wird deiner nicht mehr gedenken; denn ich, der Herr, habe es geredet.
+Ezekiel 22:1 
+EOF;
+if (!($bfile = preg_replace("/Ezekiel 21:32 (.+?)Ezekiel 22:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Daniel 3:30 Und der König setzte hierauf Sadrach, Mesach und Abed-Nego wieder in ihre Würde ein in der Provinz Babel.
+Daniel 3:31 DER König Nebukadnezar an die Völker aller Nationen und Zungen, die auf der ganzen Erde wohnen: Heil euch in Fülle!
+Daniel 3:32 Es hat mir gefallen, die Zeichen und Wunder kundzutun, die der höchste Gott an mir getan hat.
+Daniel 3:33 Wie sind seine Zeichen so gross und seine Wunder so gewaltig! Sein Reich ist ein ewiges Reich, und seine Herrschaft währt von Geschlecht zu Geschlecht. (a) Da 2:44; Ps 145:13
+Daniel 4:1 
+EOF;
+if (!($bfile = preg_replace("/Daniel 3:30 (.+?)Daniel 4:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Hosea 12:14 Und durch einen Propheten führte der Herr Israel aus Ägypten herauf, und durch einen Propheten ward es behütet.
+Hosea 12:15 Bittern Groll hat Ephraim erregt; darum wird ihr Herr ihre Blutschuld auf sie werfen, ihnen ihr schmachvolles Treiben vergelten.
+Hosea 13:1 
+EOF;
+if (!($bfile = preg_replace("/Hosea 12:14 (.+?)Hosea 13:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Jonah 2:10 Ich aber will mit lautem Danken / dir Opfer bringen; / was ich gelobt habe, will ich erfüllen! / Die Hilfe steht bei dem Herrn.
+Jonah 2:11 Und der Herr gebot dem Fisch, und er spie Jona ans Land.
+Jonah 3:1 
+EOF;
+if (!($bfile = preg_replace("/Jonah 2:10 (.+?)Jonah 3:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Nahum 2:13 der Löwe, der raubte, dass seine Jungen genug hatten, der für seine Löwinnen würgte, der mit Raub seine Höhlen füllte und seine Lagerstätten mit zerrissener Beute!
+Nahum 2:14 Siehe, ich will an dich, spricht der Herr der Heerscharen; ich lasse dein Lager in Rauch aufgehen, das Schwert soll deine Jungleuen fressen! Ich mache deinem Rauben auf Erden ein Ende, und die Stimme deiner Boten wird nicht mehr gehört! 
+Nahum 3:1 
+EOF;
+if (!($bfile = preg_replace("/Nahum 2:13 (.+?)Nahum 3:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Acts 19:40 Denn wir stehen in Gefahr, des Aufruhrs angeklagt zu werden wegen des heutigen Tages, weil kein Grund vorhanden ist, mit dem wir über diese Zusammenrottung Rechenschaft ablegen könnten.
+Acts 19:41 Und mit diesen Worten löste er die Versammlung auf.
+Acts 20:1 
+EOF;
+if (!($bfile = preg_replace("/Acts 19:40 (.+?)Acts 20:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+II Corinthians 13:12 Grüsset einander mit dem heiligen Kuss!
+II Corinthians 13:13 Es grüssen euch die Heiligen alle.
+II Corinthians 13:14 Die Gnade des Herrn Jesus Christus und die Liebe Gottes und die Gemeinschaft des heiligen Geistes sei mit euch allen!
+Galatians 1:1 
+EOF;
+if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Gikuyu---Kikuyu" :
 if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )[\d.]+/mus",'$1',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -9327,6 +9883,20 @@ case "Holy-Bible---Hindi---Hindi-Bible" :
 if (!($bfile = preg_replace("/\([^()]+[[:digit:]]+[[:punct:]]*\)/us"," ",$bfile,-1,$rnum)) || $rnum!=2534) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;		
 goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Hre---Hre-Bible" :
+$textfix = <<<EOF
+2CO 13:12 Yŏc nà hìp hadroèh đòeq hu hmàih dabau.
+2CO 13:13 Dìq dŏng mangai da Boc Plình tagùng kô i bàu bòch hmàih ka oh daq.
+2CO 13:14 Waiq kan tabàih dech da Chuaq Jesus Christ, kan loq waq da Boc Plình, kan taqmùt da Yiang Hadròeh oe dìq ti oh daq.
+GAL 1:1 
+EOF;
+if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
 
 
 // RAWFIX BIBLE ********************
@@ -18350,6 +18920,15 @@ goto RAWHIDE;
 
 
 
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Sgaw-Karen---Mason-Bible" :
+if (!($bfile = preg_replace('/\\\\f(.+?)\\\\f/u','',$bfile,-1,$rnum)) || $rnum!=3) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
+
+
+
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Shi---Mashi-Bible" :
@@ -18995,6 +19574,97 @@ $textfix = <<<EOF
 48N	1	1	
 EOF;
 if (!($bfile = preg_replace("/47N	13	12	(.+?)48N	1	1	/us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Swedish---Swedish-Bible-1703" :
+$textfix = <<<EOF
+Numbers 13:33 Och de förtalade landet, som de skådat hade, för Israels barnom, och sade: Landet, som vi igenomgångit hafve till att bespeja det, uppfräter sina inbyggare; och allt det folk, som vi derinne sågo, är ganska långt folk.
+Numbers 13:34 Vi såge der ock tyranner, Enaks barn af de tyranner; och vi vorom för vår ögon såsom gräshoppor, och så vorom vi ock för deras ögon.
+Numbers 14:1 
+EOF;
+if (!($bfile = preg_replace("/Numbers 13:33 (.+?)Numbers 14:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Numbers 30:16 Om han efteråt ryggar det, sedan han det hört hafver, så skall han bära missgerningena.
+Numbers 30:17 Desse äro de stadgar, som Herren hafver budit Mose emellan man och hustru, emellan fader och dotter, medan hon en piga är i sins faders huse.
+Numbers 31:1 
+EOF;
+if (!($bfile = preg_replace("/Numbers 30:16 (.+?)Numbers 31:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+
+I Samuel 24:22 Så svär mig nu vid Herran, att du icke utrotar min säd efter mig, och icke utskrapar mitt namn utu mins faders hus.
+I Samuel 24:23 Och David svor Saul; och så drog Saul hem; men David och hans män drogo upp på borgena.
+I Samuel 25:1 
+EOF;
+if (!($bfile = preg_replace("/\nI Samuel 24:22 (.+?)I Samuel 25:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Job 39:30 Flyger örnen så högt af din befallning, att han gör sitt näste i höjdene?
+Job 39:31 I bergklippon bor han, och blifver i bergskrefvom, och i fast rum.
+Job 39:32 Dädan af skådar han efter mat, och hans ögon se långt bort.
+Job 39:33 Hans ungar supa blod, och hvar en åtel är, der är han.
+Job 39:34 Och Herren svarade Job, och sade:
+Job 39:35 Den som vill träta med den Allsmägtiga, skulle han draga sig undan? Och den som vill straffa Gud, måste han icke svara?
+Job 39:36 Job svarade Herranom, och sade:
+Job 39:37 Si, jag hafver bannats, hvad skall jag svara? Jag vill lägga mina hand uppå min mun.
+Job 39:38 Jag hafver en gång talat, derföre vill jag icke mer svara; på en annan tid vill jag icke göra det mer.
+Job 40:1 
+EOF;
+if (!($bfile = preg_replace("/Job 39:30 (.+?)Job 40:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Job 40:24 Kan du spela med honom såsom med en fogel; eller binda honom dinom pigom?
+Job 40:25 Menar du, att sällskapet skola skära honom sönder, att han blifver utdelad ibland köpmännerna?
+Job 40:26 Kan du fylla ena not med hans hud, och någon fiskaryssjo med hans hufvud?
+Job 40:27 När du kommer dina hand vid honom, så kom ihåg, att det en strid är, den du icke uthålla kan.
+Job 40:28 Si, hans hopp skall fela honom, och han skall uppenbarligen fördrifven varda.
+Job 41:1 
+EOF;
+if (!($bfile = preg_replace("/Job 40:24 (.+?)Job 41:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Song of Solomon 5:16 Hans hals är söt och ganska lustig: En sådana är min wän; min wän är sådana, J Jerusalems döttrar.
+Song of Solomon 5:17 Hwart är då din wän gången, o du dägeligasta ibland qwinnor? Hwart hafwer din wän wändt sig, så wilje wi honom söka med dig.
+Song of Solomon 6:1  
+EOF;
+if (!($bfile = preg_replace("/Song of Solomon 5:16 (.+?)Song of Solomon 6:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Daniel 3:30 Och Konungen gaf Sadrach, Mesach och AbedNego, stort wälde i Babels land.
+Daniel 3:31 Konung NebucadNezar, allom landom, folkom och tungomålom: Gud gifwe eder mycken frid!
+Daniel 3:32 Mig synes godt wara, at jag förkunnar de tekn och under, som Gud den högste med mig gjort hafwer;
+Daniel 3:33 Ty hans tekn äro stor, och hans under äro mägtig, och hans rike är et ewigt rike, och hans wälde warar ifrå slägte til slägte.
+Daniel 4:1 
+EOF;
+if (!($bfile = preg_replace("/Daniel 3:30 (.+?)Daniel 4:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Jonah 2:10 Men jag will offra med tacksägelse. Min löfte will jag betala HErranom, att han mig hulpit hafwer.
+Jonah 2:11 Och HErren sade till fisken, och han utsputade Jona in uppå landet.
+Jonah 3:1  
+EOF;
+if (!($bfile = preg_replace("/Jonah 2:10 (.+?)Jonah 3:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Acts 13:51 Men de skuddade stoftet af sina fötter på dem, och kommo till Iconien.
+Acts 13:52 Och Lärlingarna vordo uppfyllde med f röj d och den Helga Anda.
+Acts 14:1 
+EOF;
+if (!($bfile = preg_replace("/Acts 13:51 (.+?)Acts 14:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Acts 19:40 Ty det är fara att vi komme i skuld, för det upplopp som i dag skedt är, efter ingen sak på färde är, der vi kunne någon skäl af taga till detta upplopp.
+Acts 19:41 Och då han det sagt hade, lat han folket gå.
+Acts 20:1 
+EOF;
+if (!($bfile = preg_replace("/Acts 19:40 (.+?)Acts 20:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Romans 11:36 Ty af honom, och igenom honom, och i honom äro all ting; honom vare ära i evighet. Amen. Ty af honom, och igenom honom, och i honom äro all ting; honom vare ära i evighet. Amen.
+Romans 12:1 
+EOF;
+if (!($bfile = preg_replace("/Romans 11:35 (.+?)Romans 12:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+II Corinthians 13:12 Helser eder inbördes med en helig kyss;
+II Corinthians 13:13 helsa eder all helgon.
+II Corinthians 13:14 Vårs Herras Jesu Christi nåd, och Guds kärlek, och den Helga Andas delaktighet vare med eder allom. Amen. Den andra Epistel till de Corinthier, sänd af Philippis i Macedonien, med Tito och Luca.
+Ephesians 1:1 
+EOF;
+if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Ephesians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 

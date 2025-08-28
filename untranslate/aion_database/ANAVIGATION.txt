@@ -1,6 +1,6 @@
 # File Name: ANAVIGATION.txt
-# File Size: 34635       
-# File Date: 08/17/2025 15:19:40
+# File Size: 41172       
+# File Date: 08/28/2025 03:04:20
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -173,6 +173,7 @@ Holy-Bible---Dombe---Dombe-Bible
 Holy-Bible---Dongxiang---Donxian-Bible		
 Holy-Bible---Dongxiang---Donxian-Bible	VERSMISS	058-HEB-006-002
 Holy-Bible---Dutch---Canisiusvertaling		
+Holy-Bible---Dutch---Leuvense-Bible		
 Holy-Bible---Dutch---Schrift		
 Holy-Bible---Dutch---Statenvertaling		
 Holy-Bible---Duya---Duya-Bible		
@@ -206,6 +207,7 @@ Holy-Bible---English---LXX2012-U-S-English
 Holy-Bible---English---Leeser-Tanakh		
 Holy-Bible---English---Literal-Standard		
 Holy-Bible---English---Living-Oracles-NT		
+Holy-Bible---English---Majority-Standard-Bible		
 Holy-Bible---English---Montgomery-NT		
 Holy-Bible---English---New-Heart-Aramaic		
 Holy-Bible---English---New-Heart-Jehovah		
@@ -250,6 +252,7 @@ Holy-Bible---Finnish---Finnish-Bible
 Holy-Bible---Finnish---Finnish-Pyha-Raamattu		
 Holy-Bible---Finnish---Open-Living-News		
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible		
+Holy-Bible---French---Bonnet-Bovet-Bible		
 Holy-Bible---French---Free-for-the-World		
 Holy-Bible---French---French-Crampon-Bible		
 Holy-Bible---French---French-Crampon-Bible-New		
@@ -264,6 +267,7 @@ Holy-Bible---French---French-Ostervald-Bible
 Holy-Bible---French---French-Perret-Gentil-Rilliet		
 Holy-Bible---French---French-Stapfer-Bible		
 Holy-Bible---French---French-Synodale-Bible		
+Holy-Bible---French---Geneva-Bible		
 Holy-Bible---French---Vulgate-Glaire		
 Holy-Bible---Gamit---Gamit-Bible		
 Holy-Bible---Gamit---Gamit-Bible	VERSMISS	066-REV-004-010
@@ -296,6 +300,94 @@ Holy-Bible---German---German-Menge
 Holy-Bible---German---German-Reinhardt-Bible		
 Holy-Bible---German---German-Schlachter		
 Holy-Bible---German---German-Tafel-Bible		
+Holy-Bible---German---Open-Bible		
+Holy-Bible---German---Open-Bible	CHAPMISS	001-GEN-042-038
+Holy-Bible---German---Open-Bible	CHAPMISS	004-NUM-016-030
+Holy-Bible---German---Open-Bible	CHAPMISS	004-NUM-016-033
+Holy-Bible---German---Open-Bible	CHAPMISS	018-JOB-007-009
+Holy-Bible---German---Open-Bible	CHAPMISS	018-JOB-011-008
+Holy-Bible---German---Open-Bible	CHAPMISS	018-JOB-014-013
+Holy-Bible---German---Open-Bible	CHAPMISS	018-JOB-017-013
+Holy-Bible---German---Open-Bible	CHAPMISS	018-JOB-017-016
+Holy-Bible---German---Open-Bible	CHAPMISS	018-JOB-021-013
+Holy-Bible---German---Open-Bible	CHAPMISS	018-JOB-024-019
+Holy-Bible---German---Open-Bible	CHAPMISS	018-JOB-026-006
+Holy-Bible---German---Open-Bible	CHAPMISS	019-PSA-049-014
+Holy-Bible---German---Open-Bible	CHAPMISS	019-PSA-049-015
+Holy-Bible---German---Open-Bible	CHAPMISS	019-PSA-055-015
+Holy-Bible---German---Open-Bible	CHAPMISS	019-PSA-086-013
+Holy-Bible---German---Open-Bible	CHAPMISS	019-PSA-089-048
+Holy-Bible---German---Open-Bible	CHAPMISS	019-PSA-116-003
+Holy-Bible---German---Open-Bible	CHAPMISS	019-PSA-139-008
+Holy-Bible---German---Open-Bible	CHAPMISS	019-PSA-141-007
+Holy-Bible---German---Open-Bible	CHAPMISS	040-MAT-019-016
+Holy-Bible---German---Open-Bible	CHAPMISS	040-MAT-019-029
+Holy-Bible---German---Open-Bible	CHAPMISS	040-MAT-021-019
+Holy-Bible---German---Open-Bible	VERSMISS	040-MAT-023-033
+Holy-Bible---German---Open-Bible	CHAPMISS	040-MAT-024-003
+Holy-Bible---German---Open-Bible	VERSMISS	042-LUK-001-033
+Holy-Bible---German---Open-Bible	VERSMISS	042-LUK-001-070
+Holy-Bible---German---Open-Bible	CHAPMISS	042-LUK-008-031
+Holy-Bible---German---Open-Bible	CHAPMISS	042-LUK-010-015
+Holy-Bible---German---Open-Bible	CHAPMISS	042-LUK-012-005
+Holy-Bible---German---Open-Bible	VERSMISS	042-LUK-016-023
+Holy-Bible---German---Open-Bible	VERSMISS	042-LUK-020-034
+Holy-Bible---German---Open-Bible	VERSMISS	042-LUK-020-035
+Holy-Bible---German---Open-Bible	CHAPMISS	044-ACT-003-021
+Holy-Bible---German---Open-Bible	CHAPMISS	044-ACT-013-046
+Holy-Bible---German---Open-Bible	CHAPMISS	044-ACT-013-048
+Holy-Bible---German---Open-Bible	CHAPMISS	044-ACT-015-018
+Holy-Bible---German---Open-Bible	CHAPMISS	045-ROM-011-036
+Holy-Bible---German---Open-Bible	CHAPMISS	045-ROM-012-002
+Holy-Bible---German---Open-Bible	CHAPMISS	045-ROM-016-025
+Holy-Bible---German---Open-Bible	CHAPMISS	045-ROM-016-026
+Holy-Bible---German---Open-Bible	CHAPMISS	045-ROM-016-027
+Holy-Bible---German---Open-Bible	CHAPMISS	046-1CO-008-013
+Holy-Bible---German---Open-Bible	VERSMISS	046-1CO-010-011
+Holy-Bible---German---Open-Bible	VERSMISS	046-1CO-015-055
+Holy-Bible---German---Open-Bible	CHAPMISS	047-2CO-009-009
+Holy-Bible---German---Open-Bible	CHAPMISS	048-GAL-006-008
+Holy-Bible---German---Open-Bible	CHAPMISS	049-EPH-006-012
+Holy-Bible---German---Open-Bible	VERSMISS	058-HEB-001-008
+Holy-Bible---German---Open-Bible	CHAPMISS	058-HEB-005-006
+Holy-Bible---German---Open-Bible	CHAPMISS	058-HEB-005-009
+Holy-Bible---German---Open-Bible	CHAPMISS	058-HEB-006-002
+Holy-Bible---German---Open-Bible	CHAPMISS	058-HEB-006-005
+Holy-Bible---German---Open-Bible	CHAPMISS	058-HEB-006-020
+Holy-Bible---German---Open-Bible	CHAPMISS	058-HEB-007-017
+Holy-Bible---German---Open-Bible	CHAPMISS	058-HEB-007-021
+Holy-Bible---German---Open-Bible	CHAPMISS	058-HEB-007-024
+Holy-Bible---German---Open-Bible	CHAPMISS	058-HEB-007-028
+Holy-Bible---German---Open-Bible	CHAPMISS	058-HEB-009-012
+Holy-Bible---German---Open-Bible	CHAPMISS	058-HEB-009-014
+Holy-Bible---German---Open-Bible	CHAPMISS	058-HEB-013-021
+Holy-Bible---German---Open-Bible	VERSMISS	060-1PE-001-023
+Holy-Bible---German---Open-Bible	VERSMISS	060-1PE-001-025
+Holy-Bible---German---Open-Bible	CHAPMISS	060-1PE-004-011
+Holy-Bible---German---Open-Bible	CHAPMISS	061-2PE-002-004
+Holy-Bible---German---Open-Bible	CHAPMISS	061-2PE-003-018
+Holy-Bible---German---Open-Bible	CHAPMISS	066-REV-006-008
+Holy-Bible---German---Open-Bible	CHAPMISS	066-REV-009-001
+Holy-Bible---German---Open-Bible	CHAPMISS	066-REV-009-002
+Holy-Bible---German---Open-Bible	CHAPMISS	066-REV-009-011
+Holy-Bible---German---Open-Bible	CHAPMISS	066-REV-010-006
+Holy-Bible---German---Open-Bible	CHAPMISS	066-REV-011-007
+Holy-Bible---German---Open-Bible	CHAPMISS	066-REV-011-015
+Holy-Bible---German---Open-Bible	CHAPMISS	066-REV-014-006
+Holy-Bible---German---Open-Bible	CHAPMISS	066-REV-014-011
+Holy-Bible---German---Open-Bible	CHAPMISS	066-REV-015-007
+Holy-Bible---German---Open-Bible	CHAPMISS	066-REV-017-008
+Holy-Bible---German---Open-Bible	CHAPMISS	066-REV-019-003
+Holy-Bible---German---Open-Bible	CHAPMISS	066-REV-019-020
+Holy-Bible---German---Open-Bible	CHAPMISS	066-REV-020-001
+Holy-Bible---German---Open-Bible	CHAPMISS	066-REV-020-003
+Holy-Bible---German---Open-Bible	CHAPMISS	066-REV-020-010
+Holy-Bible---German---Open-Bible	CHAPMISS	066-REV-020-013
+Holy-Bible---German---Open-Bible	CHAPMISS	066-REV-020-014
+Holy-Bible---German---Open-Bible	CHAPMISS	066-REV-020-015
+Holy-Bible---German---Open-Bible	CHAPMISS	066-REV-021-008
+Holy-Bible---German---Open-Bible	CHAPMISS	066-REV-022-005
+Holy-Bible---German---Zurich-Bible		
 Holy-Bible---Ghanongga---Kubokota-Adapt-Bible		
 Holy-Bible---Gikuyu---Kikuyu		
 Holy-Bible---Glavda---Glavda-Bible		
@@ -364,6 +456,8 @@ Holy-Bible---Hebrew---Salkinson-Hebrew-Bible
 Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia		
 Holy-Bible---Hindi---Contemporary		
 Holy-Bible---Hindi---Hindi-Bible		
+Holy-Bible---Hona---Hwana-Bible		
+Holy-Bible---Hre---Hre-Bible		
 Holy-Bible---Hruso---Hrusso-Angka-Bible		
 Holy-Bible---Hungarian---Hungarian-Jewish-Bible		
 Holy-Bible---Hungarian---Hungarian-Karoli		
@@ -540,9 +634,11 @@ Holy-Bible---Portuguese---Almeida-Bible-1911
 Holy-Bible---Portuguese---Almeida-NewOrthography		
 Holy-Bible---Portuguese---Biblia-Livre		
 Holy-Bible---Portuguese---Free-for-All		
+Holy-Bible---Portuguese---New-Open-Access		
 Holy-Bible---Portuguese---Open-New-Bible		
 Holy-Bible---Portuguese---Portuguese-Trans-Trans		
 Holy-Bible---Portuguese---World-Portuguese-Bible		
+Holy-Bible---Potawatomi---Potawatomi-Bible		
 Holy-Bible---Powari---Powari-Bible		
 Holy-Bible---Rakhine---Rakhine-Bible		
 Holy-Bible---Rangi---Rangi-Bible		
@@ -609,6 +705,7 @@ Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	040-MAT-012-032
 Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	042-LUK-020-035
 Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	058-HEB-013-021
 Holy-Bible---Setswana---Open-Tswana-Living	VERSMISS	065-JUD-001-025
+Holy-Bible---Sgaw-Karen---Mason-Bible		
 Holy-Bible---Shi---Mashi-Bible		
 Holy-Bible---Sholaga---Sholaga-Bible		
 Holy-Bible---Shona---Rakasununguka		
@@ -641,6 +738,23 @@ Holy-Bible---Swahili---New-Swahili-Bible
 Holy-Bible---Swahili---Swahili-Bible		
 Holy-Bible---Swahili---Swahili-Open-Bible		
 Holy-Bible---Swedish---Swedish-Bible		
+Holy-Bible---Swedish---Swedish-Bible-1703		
+Holy-Bible---Swedish---Swedish-Bible-1703	CHAPMISS	019-PSA-006-005
+Holy-Bible---Swedish---Swedish-Bible-1703	CHAPMISS	019-PSA-009-017
+Holy-Bible---Swedish---Swedish-Bible-1703	CHAPMISS	019-PSA-016-010
+Holy-Bible---Swedish---Swedish-Bible-1703	CHAPMISS	019-PSA-018-005
+Holy-Bible---Swedish---Swedish-Bible-1703	CHAPMISS	019-PSA-030-003
+Holy-Bible---Swedish---Swedish-Bible-1703	CHAPMISS	019-PSA-049-014
+Holy-Bible---Swedish---Swedish-Bible-1703	CHAPMISS	019-PSA-049-015
+Holy-Bible---Swedish---Swedish-Bible-1703	CHAPMISS	019-PSA-055-015
+Holy-Bible---Swedish---Swedish-Bible-1703	CHAPMISS	019-PSA-086-013
+Holy-Bible---Swedish---Swedish-Bible-1703	CHAPMISS	019-PSA-088-003
+Holy-Bible---Swedish---Swedish-Bible-1703	CHAPMISS	019-PSA-089-048
+Holy-Bible---Swedish---Swedish-Bible-1703	CHAPMISS	019-PSA-116-003
+Holy-Bible---Swedish---Swedish-Bible-1703	CHAPMISS	019-PSA-139-008
+Holy-Bible---Swedish---Swedish-Bible-1703	CHAPMISS	019-PSA-141-007
+Holy-Bible---Swedish---Swedish-Bible-1703	VERSMISS	045-ROM-016-026
+Holy-Bible---Swedish---Swedish-Bible-1703	VERSMISS	055-2TI-004-018
 Holy-Bible---Swedish---Swedish-Bible-1873		
 Holy-Bible---Swedish---Swedish-Bible-1917		
 Holy-Bible---Taabwa---Kitaabua-Bible		

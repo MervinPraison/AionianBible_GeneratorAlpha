@@ -2108,3 +2108,15 @@ Holy-Bible---Zinza---Zinza-Bible	058	HEB	007	021	SKIP			NULL
 Holy-Bible---Zinza---Zinza-Bible	066	REV	020	002	ABYSS	g12		NULL
 Holy-Bible---Zinza---Zinza-Bible	066	REV	020	003	SKIP			NULL
 Holy-Bible---Zinza---Zinza-Bible								NULL
+Holy-Bible---Dutch---Leuvense-Bible								NULL
+Holy-Bible---French---Bonnet-Bovet-Bible								NULL
+Holy-Bible---French---Geneva-Bible								NULL
+Holy-Bible---German---Open-Bible								NULL
+Holy-Bible---German---Zurich-Bible								NULL
+Holy-Bible---Portuguese---New-Open-Access								NULL
+Holy-Bible---Potawatomi---Potawatomi-Bible								NULL
+Holy-Bible---Sgaw-Karen---Mason-Bible								NULL
+Holy-Bible---Swedish---Swedish-Bible-1703								NULL
+Holy-Bible---English---Majority-Standard-Bible								NULL
+Holy-Bible---Hona---Hwana-Bible								NULL
+Holy-Bible---Hre---Hre-Bible								NULL

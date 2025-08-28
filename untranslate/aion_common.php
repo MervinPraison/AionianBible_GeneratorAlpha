@@ -102,7 +102,10 @@ function AION_FILE_DATA_GET( $file, $table, &$result, $key, $flip ) {
 	mb_internal_encoding("UTF-8");
 	$lines = mb_split( '[\r\n]', $contents );
 	while( ($meta = mb_split( '\t', ($thisline=array_shift($lines)))) && (empty($thisline) || $meta[0][0]=='#') ) ;
-	foreach( $meta as $meti ) { if (!defined('C_'.$meti)) { define('C_'.$meti, $meti); } }
+	foreach( $meta as $meti ) {
+		if (empty(trim($meti))) {									AION_ECHO('ERROR! AION_FILE_DATA_GET empty(meti) '.$file); }
+		if (!defined('C_'.$meti)) { define('C_'.$meti, $meti); }
+	}
 	$count_meta = count($meta);
 	if ( $key!==FALSE ) {
 		if (is_array($key)) {	$tmp=array(); foreach($key as $kid) { for($x=0; $x<$count_meta; $x++) { if ((is_numeric($kid) && $kid==$x) || $kid==$meta[$x]) { $tmp[]=$x; break; } } } $key=(count($tmp) ? $tmp : FALSE ); }
@@ -645,9 +648,9 @@ function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $ski
 		'source'	=> $source,
 		'uniusage'	=> $uniusage,
 		'include'	=> '/---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
-		//'include'	=> '/Holy-Bible---.*(Danish).*---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
+		//'include'	=> '/Holy-Bible---.*Zurich.*---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/(Holy-Bible---French---French-LXX-TheoTex|Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible)---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
-		//'include'	=> '/Holy-Bible---([S-Z]{1}).+---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
+		//'include'	=> '/Holy-Bible---([G-Z]{1}).+---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---Kiche---Totonicapan---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
 		//'include'	=> '/Holy-Bible---Chin-Matu---Matupi-Chin-2019---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
 		'destiny'	=> $destiny,
@@ -2126,6 +2129,23 @@ function AION_BIBLES_REMAPPER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 			goto YO;
 		}
 	}
+	/* PSA150D */
+	if (isset($database[T_VERSEMAP][$bible.'-PSA150D'])!==FALSE) {
+		/* 9=9&10,113=114&115,114&115=116,146&147=147 */
+		if ($book=='PSA' && $chapter>=9 && $chapter<=147) {
+			if ($chapter==9 && $verse>=21) {						$chapter = sprintf('%03d', $chapter+1);		$verse = sprintf('%03d', $verse-20); }
+			else if ($chapter>=10 && $chapter<=112) {				$chapter = sprintf('%03d', $chapter+1); }
+			else if ($chapter==113 && $verse<=8) {					$chapter = sprintf('%03d', $chapter+1); }
+			else if ($chapter==113) {								$chapter = sprintf('%03d', $chapter+2); 	$verse = sprintf('%03d', $verse-8); }
+			else if ($chapter==114) {								$chapter = sprintf('%03d', $chapter+2); }
+			else if ($chapter==115) {								$chapter = sprintf('%03d', $chapter+1); 	$verse = sprintf('%03d', $verse+9); }
+			else if ($chapter>=116 && $chapter<=146) {				$chapter = sprintf('%03d', $chapter+1); }
+			else if ($chapter==147) {																			$verse = sprintf('%03d', $verse+11); }
+			$current="WARNING REMAPPED = $bible: SINGLE Psalms ALL Chapters";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
 	/* PSA94 */
 	if (isset($database[T_VERSEMAP][$bible.'-PSA94'])!==FALSE) {
 		if ($book=='PSA' && $chapter==94 && $verse>=5) {
@@ -3389,36 +3409,36 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 		'foreign'	=> &$foreign,
 		)));
 	$grandmarker = array();
-	$grandmarker['BIBLE_COUNT']	= $grandtotal['BIBLE_COUNT']-526;
-	$grandmarker['LANG_COUNT']	= $grandtotal['LANG_COUNT']-275;
-	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-9653;
-	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-12065;
-	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-348620;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-9352268;
-	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-105784;
-	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-482;
-	$grandmarker['LONG']		= $grandtotal['LONG']-2323;
-	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-22;
-	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-4005;
+	$grandmarker['BIBLE_COUNT']	= $grandtotal['BIBLE_COUNT']-538;
+	$grandmarker['LANG_COUNT']	= $grandtotal['LANG_COUNT']-279;
+	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-9943;
+	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-12353;
+	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-357829;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-9594849;
+	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-108335;
+	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-485;
+	$grandmarker['LONG']		= $grandtotal['LONG']-2338;
+	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-178;
+	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-7014;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-1096;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-14303;
-	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-33768;
-	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-11491;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-14672;
+	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-57767;
+	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-11684;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-715;
 	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-1592;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-254644;
-	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-58274;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-5822.46;
-	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-157;
-	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-86;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-261152;
+	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-60484;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-5969.62;
+	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-165;
+	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-93;
 	$grandmarker['PDF_PKJO']	= $grandtotal['PDF_PKJO']-16;
-	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-515;
-	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-207;
-	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-251;
+	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-527;
+	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-215;
+	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-259;
 	$grandmarker['PDF_PLJO']	= $grandtotal['PDF_PLJO']-101;
-	$grandmarker['PDF_PRTL']	= $grandtotal['PDF_PRTL']-379;
-	$grandmarker['TRANS']		= $grandtotal['TRANS']-463;
+	$grandmarker['PDF_PRTL']	= $grandtotal['PDF_PRTL']-383;
+	$grandmarker['TRANS']		= $grandtotal['TRANS']-474;
 	$grandtotal['LONG']		= ($grandtotal['LONG']		== 0 ? $grandtotal['LONG']		: "<span style='font-weight:bold; color:red;'>".$grandtotal['LONG']."</span>" );
 	$grandtotal['CHAP_NO']	= ($grandtotal['CHAP_NO']	== 0 ? $grandtotal['CHAP_NO']	: "<span style='font-weight:bold; color:red;'>".$grandtotal['CHAP_NO']."</span>" );
 	$grandtotal['VERS_NO']	= ($grandtotal['VERS_NO']	== 0 ? $grandtotal['VERS_NO']	: "<span style='font-weight:bold; color:red;'>".$grandtotal['VERS_NO']."</span>" );
@@ -4103,6 +4123,9 @@ function AION_LOOP_HTMS_DOIT($args) {
 	$htm .= "<? } ?>\n";
 	$htm .= "</table>\n";
 	$htm .= "<? } ?>\n";
+	$htm .= "<div id='google_translate_element'></div>\n";
+	$htm .= "<script>function googleTranslateElementInit() { new google.translate.TranslateElement({pageLanguage: 'xx' }, 'google_translate_element'); }</script>\n";
+	$htm .= "<script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>\n";
 	$htm .= "</body>\n</html>\n";
 	if (!file_put_contents($newfile, $htm)) { AION_ECHO("ERROR! HTM Debug file problem: $newfile"); }
 	unset($htm);

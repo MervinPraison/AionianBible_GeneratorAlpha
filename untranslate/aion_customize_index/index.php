@@ -93,8 +93,8 @@ $modified = date("n/j/Y", filemtime("./index.php"));
 <div id='aion'>Aionian Life!</div>
 <div id='moto'>
 The world's first Holy Bible <u>untranslation</u><br>
-Two hundred eighty-seven languages<br>
-Five hundred twenty-six versions<br>
+Two hundred ninety-one languages<br>
+Five hundred thirty-eight versions<br>
 Anonymous on TOR network<br>
 100% free to copy &amp; print<br>
 Updated <? echo $modified; ?><br>

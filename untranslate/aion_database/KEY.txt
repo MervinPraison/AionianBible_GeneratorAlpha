@@ -525,3 +525,15 @@ Holy-Bible---Yoruba---Yoruba-Bible	523
 Holy-Bible---Zapotec-Loxicha---Loxicha-Zapotec-Bible	524
 Holy-Bible---Zaramo---Kizalamo-Bible	525
 Holy-Bible---Zinza---Zinza-Bible	526
+Holy-Bible---Dutch---Leuvense-Bible	527
+Holy-Bible---French---Bonnet-Bovet-Bible	528
+Holy-Bible---French---Geneva-Bible	529
+Holy-Bible---German---Open-Bible	530
+Holy-Bible---German---Zurich-Bible	531
+Holy-Bible---Portuguese---New-Open-Access	532
+Holy-Bible---Potawatomi---Potawatomi-Bible	533
+Holy-Bible---Sgaw-Karen---Mason-Bible	534
+Holy-Bible---Swedish---Swedish-Bible-1703	535
+Holy-Bible---English---Majority-Standard-Bible	536
+Holy-Bible---Hona---Hwana-Bible	537
+Holy-Bible---Hre---Hre-Bible	538

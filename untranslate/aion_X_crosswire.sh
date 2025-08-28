@@ -99,6 +99,7 @@ echo "========================"; wget -O - https://crosswire.org/sword/modules/M
 echo "========================"; wget -O - https://crosswire.org/sword/modules/ModInfo.jsp?modName=NHEB
 echo "========================"; wget -O - https://crosswire.org/sword/modules/ModInfo.jsp?modName=NHEBJE
 echo "========================"; wget -O - https://crosswire.org/sword/modules/ModInfo.jsp?modName=NHEBME
+echo "========================"; wget -O - https://crosswire.org/sword/modules/ModInfo.jsp?modName=NldLeuv1548
 echo "========================"; wget -O - https://crosswire.org/sword/modules/ModInfo.jsp?modName=NorBroed
 echo "========================"; wget -O - https://crosswire.org/sword/modules/ModInfo.jsp?modName=Norsk
 echo "========================"; wget -O - https://crosswire.org/sword/modules/ModInfo.jsp?modName=NorthernAzeri

@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1787307     
-# File Date: 08/17/2025 11:04:23
+# File Size: 1876190     
+# File Date: 08/27/2025 22:34:44
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -1401,6 +1401,302 @@ Holy-Bible---Dutch---Canisiusvertaling	040	MAT	018	011
 Holy-Bible---Dutch---Canisiusvertaling	041	MAR	011	026	
 Holy-Bible---Dutch---Canisiusvertaling	042	LUK	017	036	
 Holy-Bible---Dutch---Canisiusvertaling	066	REV	012	018	Hij ging staan aan het strand van de zee.
+Holy-Bible---Dutch---Leuvense-Bible	004	NUM	020	028	Ende als hi Aaron berooft hadde van sijnen cleederen, soo heeft hi daer mede ghecleet Eleazarus sijnen sone,
+Holy-Bible---Dutch---Leuvense-Bible	006	JOS	004	023	als die Heere onse God die wateren van die verdroochde voor ons aensicht tot dat ghy door waert gegaen,
+Holy-Bible---Dutch---Leuvense-Bible	006	JOS	005	014	Ende hi antwoorde, Gheensins, maer ic ben een prince van des Heeren heyr, ende ic coem nv.
+Holy-Bible---Dutch---Leuvense-Bible	007	JDG	005	031	O Heere alsoo moeten vergaen allen v vianden, maer alle die v lief hebben die moeten blincken als die sonne in haren opganck schijnt.
+Holy-Bible---Dutch---Leuvense-Bible	009	1SA	020	042	Aldus so heeft Ionathas tot Dauid gheseyt, Gaet henen in vrede, Al dat wij beyde ghesworen hebben in den naem des Heeren segghende, Die Heere sij tusschen my ende v, ende tusschen v saet ende mijn saet, tot inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	011	1KI	022	043	Ende hy heeft ghewandelt in alle die weghen van Asa sijnen vader, ende hy en is daer niet af gheghaen, ende hy heeft ghedaen dat recht was voor des Heeren aensicht.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	010	004	Ende Mardocheus heeft gheseyt. Van Gode sijn dese dinghen ghedaen.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	010	005	Ick ben ghedachtich gheworden des drooms dien ick ghesien hadde, dese selue dinghen beteekende, ende daer en is niet van dien voorby ghegaen.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	010	006	Een cleyn fonteyne die ghewassen is tot een riuiere, ende is in dat licht ende sonne verkeert, ende heeft tot veel wateren ouergheuloeydt, dats Esther welck die coninc heeft tot een huysvrouwe ghenomen, ende heeft ghewilt datse coninghinne sijn soude,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	010	007	Ende die twee draken, dat ben ic, ende Aman.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	010	008	Die luyden die daer vergadert waren sijn die ghene die arbeydden om der Ioden naem te niet te brenghen,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	010	009	Ende mijn volc dat is Israhel, dwelck heeft gheroepen totten Heere, ende die Heere heeft sijn volc behouden, ende ons verlost van allen quaden, ende hy heeft groote teekenen ende wonderlijcke wercken ghedaen onder die Heydenen,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	010	010	ende hi heeft gheboden datter twee loten sijn souden, het een van Gods volck, ende het ander van allen den Heydenen
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	010	011	Ende beyde die loten sijn comen tot eenen ghesetten dach van dien tijt voorts voor Godt alle den Heydenen.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	010	012	Ende die Heere heeft sijns volcs ghedachtich gheweest, ende heeft bermhertich geweest sijnder erffenissen.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	010	013	Ende dese dagen sullen onderhouden worden in die maent Adar, opden veerthiensten ende vijfthiensten dach der seluer maent, met alder neersticheyt ende vrolijcheyt, in een gemeynte van dat vergadert volck, in allen die gheslachten voortaen des volcs van Israel.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	011	001	INt vierde iaer als regneerden Ptolomeus ende Cleopatra hebben ghebracht Dositheus, die hem seyde te wesen een priester ende vander Leuiten gheslachte, ende Ptolomeus sijn sone desen brief Phurim den welcken sij seyden, dat ouerghestelt hadde Lysimachus Ptolomeus sone, in Ierusalem.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	011	002	Int tweede iaer als regneerde Artaxerses die aldermeeste, opden iersten dach der maent Nisan heeft eenen droom ghesien Mardocheus die sone Iairi, des soons Semei, des soons Cis, van Beniamins gheslachte,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	011	003	een Ioetsch mensch, die in die stadt Susis woonde een groot man ende onder dierste van des conincs hof,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	011	004	Ende hy was vanden ghetale der gheuangenen die Nabugodonosor die coninck van Babilonien ouerghehaelt hadde van Ierusalem met Iechonia den coninc van Iuda,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	011	005	ende dit was sijnen droom. Daer openbaerden stemmen, ende gheruchten, ende donderen, ende aertbeuinghen, ende verstooringhen opder aerden,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	011	006	Ende siet twee groote draken ende bereydt teghen malcanderen ten strijde,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	011	007	tot welcker gheroep alle die natien vergadert sijn, om te strijden teghen dat volck der rechtuerdigher,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	011	008	Ende dien dach was eenen dach der duysternissen ende der perikelen, des lijdens ende der benautheyt, ende grooten grouwel opder eerden.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	011	009	Ende tvolck der rechtuerdiger is verstoort gheweest, vreesende hen quaet ende bereydt ter doot, Ende sij hebben tot Godt gheroepen,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	011	010	ende die wijle dat sij riepen, soo is een cleyn fonteyne ghewassen tot eenen seer grooten vloet, ende heeft tot veel wateren oueruloedich gheweest.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	011	011	Dat licht ende die sonne is opghestaen, ende die ootmoedighe sijn verheuen, ende sij hebben die heerlijcke verslonden.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	011	012	Het welcke als Mardocheus ghesien hadde ende opgestaen was van sijn beddestadt, soo dachte hy wat God doen  wilde, ende hy hadde dat vast in sijn ghedachte begheerende te weten wat den droom beteekende.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	012	001	ENde hy woonde op dien tijt in des conincks hof, met Bagatha ende Thara des conincs ghesneden dienaers, die des pallays doorwaerders waren, Ende als hy hen ghedachten verstaen hadde ende hen sorchuuldicheden neerstelijc doorsien hadde,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	012	002	soo heeft hy vernomen dat sij arbeyden om die handen te slaen aenden coninck Artaxerses, ende hy heeft daer af den coninck die wete ghedaen.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	012	003	Die welcke (alsser van beyde ondersueck ghedaen was, ende sij dat bekent hadden) heeftse doen ter doot leyden,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	012	004	Ende die coninc heeft tgene datter ghesciet was doen scrijuen in die cronijcken, ende Mardocheus heeft oock die ghedenckenisse van dese dinghe bescreuen,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	012	005	Ende die coninc heeft hem beuolen, dat hy in die sale des pallays soude woonen gheuende hem ghiften voor dat ouerbrenghen.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	012	006	Maer Aman die sone van Amadathi die Bugeus, was die alder gloriooste voor den coninc, ende hy heeft Mardocheo willen arch doen, ende sijnen volcke, om die twee ghesneden dienaers des conincs die ghedoot waren.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	013	001	Die alder grootste coninc Artaxerses van Iudeen totten Morianen landt den princen ende vorsten van hondert ende vijfentseuentich lantscappen, die onder sijn heerlijcheyt ligghen, salicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	013	002	Als ick ouer veel volcs heerscappie hadde, ende alle die werelt onder mijn heerlijcheyt ghebracht hadde, soo en heb ic geensins die grootheyt mijnder macht willen misbruycken maer met goedertierenheyt ende saechtmoedicheyt mijn ondersaten regeren, op dat sij sonder eenighe vreese hen leuen stillijck ouerbrenghende, souden vrede gebruycken welc van allen menschen begheert wort.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	013	003	Ende doen ick vraechde van mijnen raetsheeren, hoe dat dit soude moghen volbrocht worden, soo heefter een die in wijsheyt ende ghetrouwicheyt die andere te bouen ghinc, ende was den coninc die tweeste, Aman ghenoemt
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	013	004	my te kennen ghegheuen, dat in alle den omganck des aertrijcs een volc verstroeyt was, het welc ghebruycte nieuwe wetten, ende dat teghen alle der volcken ghewoonte doende versmaedde der coninghen gheboden, ende brack die eendrachticheyt van allen volcken door hen tweedrachticheyt.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	013	005	Het welck als wi vernomen hadden, siende dat dit een volc wederspannich tegen allen geslachten der menschen verkeerde wetten ghebruycte, ende dede teghen onse gheboden, ende verstoorde den vrede ende eendrachticheyt der lantschappen die onder ons gheleghen sijn,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	013	006	soo hebben wij gheboden, dat alle die ghene die Aman (die ouerste is ouer alle die lantscappen, ende die tweede naest den coninck, ende dien wi in die plaetse van onsen vader eeren) toonen sal, sullen vernielt worden met haer huysvrouwen ende kinderen van haren vianden, ende niemant en sal haerlieder ontfermen opden veerthiensten dach der twaelfster maent Adar, des teghenwoordichs iaers,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	013	007	op dat die boose menschen op eenen dach ter ter hellen nederdalende, onsen rijcke vrede moghen wederom gheuen, den welcken sij verstoort hadden.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	013	008	Ende Mardocheus heeft den Heere ghebeden, ghedachtich sijnde alle sijnder wercken, ende heeft gheseyt.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	013	009	Heere Heere coninc almachtich, want onder v heerlijcheyt sijn alle dingen ghestelt, ende daer en is niemant die uwen wille soude moghen wederstaen, eest dat ghy voorghenomen hebt Israel te behouden,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	013	010	Want ghy hebt ghemaect hemel ende aerde, ende aldat inden omganc des hemels begrepen wort,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	013	011	ghi sijt die Heere van al, ende daer en is niemant die uwer maiesteyt wederstaen mach.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	013	012	Ghy kent alle dinghen, ende ghy weet dat ict niet en heb ghedaen wt houerdien ende versmaetheyt, ende eerghiericheyt, dat ick den alder hoouerdichste Aman niet en aenbadt,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	013	013	Want ick soude gheerne voor die salicheyt van Israel bereedt sijn oock die voetstappen van sijnen voeten te cussen,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	013	014	maer ic vreesde dat ic mijns Godts eere, soude ouerdraghen tot eenen mensche, ende dat ick niemant aenbidden en soude wtghenomen mijnen Godt.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	013	015	Ende nv Heere coninc God van Abraham ontfermt ws volcs, Want ons vianden willen ons vernielen ende uwe erffenisse te niet doen.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	013	016	En versmaet v deel niet dwelc ghy voor v verlost hebt wt Egipten,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	013	017	Verhoort mijn ghebedt, ende sijt ghenadich uwen deele ende seelken ende verkeert onsen druc in blijscap, dat wij leuende moghen louen uwen naem Heere, ende en sluyt den mont niet, der gheender die v lof singhen,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	013	018	Ende gheheel Israel heeft met ghelijcker meyninghen, ende bedinghen gheroepen totten Heere, om dat hen die doot sekerlijck aenstaende was.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	014	001	ESther die coninghinne is oock totten Heere gheuloden, vreesende tperikel datter aenstaende was,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	014	002	Ende als sij die coninclijcke cleederen afgheleydt hadde, soo heeft sij cleederen aenghedaen die tot weenen ende rouwe bequaem waren, ende voor verscheyden costelijcke olien, heeft sij haer hooft bedect met asschen ende dreck, ende haer lichaem met vasten verootmoedicht, ende alle die plaetsen daer in dat sij te voren plach blijscap te hanteren, dien heeft sij met wtghetrocken hayr veruult,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	014	003	Ende sij badt den Heere den Godt van Israel seggende. Mijn Heere die ons coninc sijt alleen, helpt een verlaten vrouwe, ende wien (sonder v) gheen ander helper en is,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	014	004	Mijn perikel is in mijnen handen.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	014	005	Ick heb van mijnen vader ghehoort dat ghy Heere Israel hebt genomen wt allen die volcken, ende onse vaderen wt alle hen voorleden ouderen, dat ghi die besitten soudt tot een eewige erffenisse, ende ghi hebt hen ghedaen ghelijck ghy ghesproken hebt.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	014	006	Wij hebben ghesondicht in v aenschijn, ende daerom hebdi ons gheleuert in die hant van onsen vianden,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	014	007	want wij hebben hen goden ghedient, Heere ghy sijt rechtuerdich
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	014	008	Ende nv en eest hen niet ghenoech, dat sij ons met die swaerste slauernie verdrucken,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	014	009	maer die cracht haerder handen der afgoden macht toe scrijuende willen sij v gheloften veranderen, ende v erffenisse te niet doen, ende sluyten die monden der gheender die v louen ende te niet doen die glorie ws tempels ende outaers,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	014	010	om dat si der Heydenen monden souden open doen, ende louen der afgoden stercheyt, ende prijsen den vleeschelijcken coninck tot inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	014	011	En leuert Heere uwen  scepter niet den ghenen die niet en sijn, dat sij niet en lachen tot onse valle, Maer keert haerlieder raet op hen seluen, ende den ghenen die op ons begonst heeft wreet te sijne, verderft,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	014	012	Weest ghedachtich Heere ende toont v ons inden tijt ons lijdens, ende gheeft my betrouwen Heere coninck der Goden ende van alle machtighen,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	014	013	gheeft een welghemaect woort in mijnen mont in daenschijn vanden leeuw, ende verkeert sijn herte totten hate van onsen viant, op dat hy ooc mach vergaen ende alle die met hem consenteren,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	014	014	Maer verlost ons door v hant, ende helpt my, die gheen ander helpe en hebbe, dan v Heere,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	014	015	die kennisse hebt van allen dinghen, ende wel weet dat ick die glorie der booser menschen hate, ende dat bedde vanden onbesnedenen veronwaerde, ende van allen vreemden mannen.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	014	016	Ghy weet mijnen noot dat ick verfoeye dat teeken van mijnder houerdien ende glorien, het welck op mijn hooft is, in die daghen mijnder vertooninghen, ende hoe dat ict versmade ghelijck dlaken van een maensuchtighe vrouwe, ende dat ict niet en draghe in die daghen mijns swijghens,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	014	017	ende dat ick aen Amans tafel niet gheten en hebbe, ende dat my ooc niet behaecht en heeft des conincs maeltijt, ende dat ick niet ghedroncken en hebbe den wijn vander afgoden offerande,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	014	018	ende dat v dienstvrouwe noyt verblijt en is gheweest, van dat ick herwaerts ouer ghebracht ben tot op desen dach toe, dan in v Heere Abrahams Godt
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	014	019	o sterck God bouen al, verhoort die stemme der gheender die anders gheen hope en hebben, ende verlost ons wt die hant der booser, ende verlost my van mijnder vreesen.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	015	001	ENde hy gheboodt haer (sonder twijfel Mardocheus Estheren) dat sij tot den coninc ingaen soude, ende bidden voor haer volc ende voor haer lant.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	015	002	Ghedenct (sprac hy) der daghen uwer nederheyt hoe dat ghy opgheuoet sijt onder mijn hant,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	015	003	want Aman die tweede naest den coninck heeft teghen ons ghesproken om te dooden, ende aenroept ghy den Heere, ende spreect den coninck voor ons, ende verlost ons vander doot.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	015	004	Maer opden derden dach heeft sij afgheleydt die cleederen van haren rouwe, ende heeft haer glorie aenghedaen,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	015	005	Ende als sij met coninclijc habijt schoon blincte, ende aengheroepen hadde Godt den regeerder ende behouder van al, soo heeft sij twee dienstioncfrouwen mede ghenomen,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	015	006	ende op die een leende sij, recht oft sij van weelden ende grooter teederheyt haer lichaem niet draghen en mocht,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	015	007	ende die ander dienstioncfrouwe volchde haer vrouwe, ophoudende haer cleederen die op die aerde neder sleypten,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	015	008	Ende met een rosette verwe ouer haer aensicht blosende, ende met aenghenaem ende blinckende ooghen bedect sij haren droeuighen ende met te seer groote vreese benauden moet.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	015	009	Aldus is sij door alle die doeren deen nae dander ingheghaen, ende stont teghen ouer den coninc, daer hy sadt opden stoel sijns rijcs, ghecleet met coninclijcke cleederen, ende blinckende van goude ende costelijcke ghesteente, ende hi was veruaerlijck van aensien.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	015	010	Ende als hy sijn aensicht opgehauen hadde ende met berrenden ooghen die rasende gramscap sijns herten te kennen ghegeuen hadde, soo viel die coninghinne neder, ende veranderende haer verwe in bleecheyt, heeft si haer vermoeyt hooft op haer dienstioncfrouwe nedergheleyt.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	015	011	Ende Godt heeft des conincs gheest in saechtmoedicheyt verkeert, ende haestende ende vreesende spranck hy wt sijnen coninclijcken stoel, ende onderhoudende haer met sijnen armen, tot dat sij tot haer seluen quam, heeft hy haer met desen woorden suetelijc aenghesproken.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	015	012	Wat hebdi Esther, Ick ben v broeder,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	015	013	en wilt niet vreesen. Ghy en sult niet steruen, Want dese wet en is voor v niet, maer voor alle dandere ghestelt,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	015	014	Daerom coemt naerder ende raect den scepter,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	015	015	Ende doen sij sweech, soo heeft hy die gulden roede ghenomen, ende die op haren hals gheleyt, ende hy heeft haer ghecust, ende seyde. Waerom en spreect ghy my niet aen?
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	015	016	Die welcke heeft gheantwoort. Ic heb v ghesien heere als Gods Enghel, ende mijn herte worde verscrict van die vreese uwer glorien,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	015	017	Want ghi sijt seer wonderlijck heere, ende v aensicht is vol gratien
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	015	018	Ende die wijle dat sij sprack soo is sij wederom gheuallen, ende gaf by nae haren gheest,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	015	019	Ende die coninck was verbaest, ende alle sijn dienaers troosten haer.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	016	001	DIe groote coninc Artaxerses van Indien aen totten Morianen lant, den vorsten ende princen van hondert ende seuenentwintich lantscappen die onsen gheboden onderdanich sijn, seyt salicheyt,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	016	002	Veel menschen hebben der princen goetheyt ende eere die hen aenghedaen is misbruyct tot hoouerdien,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	016	003	ende si arbeyden om te verdrucken niet alleen die ghene die den coningen onderdanich sijn, maer ooc niet moghende draghen die glorie welck hen ghegeuen is, legghen laghen teghen die ghene die hen dese glorie ghegeuen hebben,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	016	004	Ende ten is hen niet ghenoech dat sij niet dancbaer en sijn voor die weldaden, ende dat sij in hen seluen breken die rechten der beleeftheyt, maer sij meynen oock te ontulieden Godts sentencie diet al siet.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	016	005	Ende sij sijn tot soo grooten dulheyt comen, dat sij die ghene die naerstelijck onderhouden die diensten welck hen betrout sijn, ende alle dinghen alsoo doen dat sij alderley lof weerdich sijn, soecken met bedecte behendicheden te verderuen.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	016	006	Als sij die simpele ooren der princen, die wt hen natuere ander menschen achten met listich bedroch bedrieghen,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	016	007	het welcke oock wt die oude hystorien ghetoont wort, ende wt die dinghen die daghelijcs ghescieden, hoe dat door tquaet ingheuen vanden sommighen, der coningen naerstighe opsetten verargert worden,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	016	008	waerom eest datmen moet voorsien tot den vrede van allen lantscappen,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	016	009	Ende ghy en behoort niet te meynen (al eest dat wij contrarie dingen ghebieden) dat dit coemt wt onser herten lichtuaerdicheyt, maer dat wij (nae die gelegentheyt ende nootsakelijcheyt der tijden alst profijt vander ghemeynten wtheyscht) vonnis gheuen.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	016	010	Ende op dat ghy openbaerlijcker verstaen moecht dat wij seggen. Aman die sone van Amadathi van moede ende van gheslachte een Macedoniaen ende vreemt vander Persen bloet, ende onse goedertierenheyt met sijnder wreetheyt besmettende, is een wtlander van ons ontfangen gheweest
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	016	011	ende heeft in si seluen onse groote beleeftheyt alsoo gheuonden, dat hy ons vader ghenoemt worde, ende worden aenbeden van alle menschen naest den coninc die tweede,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	016	012	die welcke is tot so groote opgeblasen vermetelijcheyt opghericht gheweest,  dat hy ghearbeydt heeft om ons te beroouen van onsen rijcke, ende van onsen leuen,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	016	013	Want Mardocheum door wiens trouwe ende weldaden wij leuen, ende die ghesellinne ons rijcs Esther met allen haren volcke, heeft hy met nieuwe ende onghehoorde listicheden begheert te dooden,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	016	014	Denckende dat hy (als hy dese ghedoot hadde) oock onser verlatentheyt listighen laghen legghen soude, ende het rijck der Persen ouersetten tot die Macedonianen,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	016	015	Maer wij en hebben die Ioden (die door den alderquaetsten der menschen ter doodt ghescict waren) in gheen scult met allen beuonden, maer ter contrarien ghebruyckende rechtuerdighe wetten,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	016	016	ende des alderhoochsten, ende grootsten, ende altijts leuende Gods kinderen, door wiens weldaet onsen vaderen ende ons het conincrijck ghegheuen is, ende tot heden toe bewaert wort.
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	016	017	Daerom weet dat die brieuen die hy onder onsen naem ghesonden hadde van onweerden sijn,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	016	018	Voor welcke groote misdaet, hy die dit opghestelt heeft, ende alle sijn gheslachte voor die poorten van deser stadt welck is Susan hanghen aen galghen, Niet dat wij, maer dat Godt hem betaelt heeft, nae dat hy verdient hadde,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	016	019	Maer dit ghebodt dat wij nv senden, doet ophanghen in alle steden, op dat den Ioden gheoorloft sij hen wetten te ghebruycken Den welcken ghy moet helpen, dat sij die ghene moghen dooden, die hen tot haerlieder doot bereyt hadden opden derthiensten dach der twaelfster maent die Adar ghenaemt is,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	016	020	Want desen dach des drucs ende weenens
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	016	021	heeft die almachtighe Godt hen verkeert in blijscap,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	016	022	Daerom ghy, onder die ander feestdaghen, hebt desen dach oock, ende viert dien met allen blijscap, op dat namaels mach gheweten worden, dat alle die den Persen onderdanich sijn, waerdighen loon voor die ghetrouwicheyt ontfaen,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	016	023	maer die ghene die haren rijcke laghen legghen, vergaen voor die misdaet,
+Holy-Bible---Dutch---Leuvense-Bible	017	EST	016	024	Ende alle lantschap ende stadt die deser feesten niet en wilt deelachtich sijn, vergae metten sweerde, ende viere, ende worde alsoo te niet ghedaen, dat die niet alleen den menschen maer ooc den beesten onbewandelt blijue inder eewicheyt, voor een exempel des versmadens ende der onghehoorsaemheyt.  Hier eyndet dat boeck Esther.
+Holy-Bible---Dutch---Leuvense-Bible	018	JOB	016	004	Ick soude ooc wel hebben mogen spreken der ghelijcke dingen als ghy, ende och oft v lieder ziele in mijnder zielen stadt ware.
+Holy-Bible---Dutch---Leuvense-Bible	019	PSA	002	012	Aenveert die leeringhe, op dat die Heere bij auontueren niet gram en worde, ende dat ghy niet en vergaet vanden rechtuerdighen wech.
+Holy-Bible---Dutch---Leuvense-Bible	019	PSA	004	008	Inden vrede sal ick te samen slapen ende rusten.
+Holy-Bible---Dutch---Leuvense-Bible	019	PSA	053	001	DIe onwijse heeft gheseyt in sijn herte, Godt en is niet.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	024	Ende sij wandelden int midden der vlammen Godt louende, ende den Heere ghebenedijdende.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	025	Ende Azarias staende heeft aldus ghebeden, ende opendoende sijnen mont int midden des viers heeft hy gheseyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	026	Ghebenedijt sijdi Heere Godt onser vaderen, ende loffelijck ende glorioos is uwen naem inder eewicheyt,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	027	want ghy sijt rechtuerdich in alle dat ghy ons ghedaen hebt, ende alle uwe wercken zijn warachtich, ende v weghen zijn recht, ende alle uwe ordeelen zijn warachtich.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	028	Want ghy hebt recht ordeelen ghedaen, nae alle die dinghen die ghy ghebracht hebt op ons, ende op onser vaderen heylighe stadt van Ierusalem. Want in die waerheyt ende int ordeel hebdi alle dese dinghen op ons ghebracht om onser sonden wille.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	029	Want wy hebben ghesondicht, ende booslijck ghedaen van v sceydende, ende wy hebben in al misdaen,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	030	ende v gheboden en hebben wy niet ghehoort, noch onderhouden, noch wy en hebben niet ghedaen ghelijck ghy ons gheboden hadt, dat ons wel sijn soude.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	031	Daerom alle dat ghy op ons ghebracht hebt, ende alle dat ghy ons ghedaen hebt, dat hebdi met warachtich ordeel ghedaen,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	032	ende ghy hebt ons gheleuert in onser booser, ende alderquaetster vianden handen, ende der ouertreders, ende den onrechtuerdighen ende alderquaetsten coninck ouer gheheel eertrijck.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	033	Ende nu en moghen wy onsen mont niet opendoen, wy sijn een scande ende versmaetheyt gheworden uwen dienaren, ende den ghenen die v eeren.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	034	En wilt ons (bidden wy) niet leueren inder eewicheyt om uwen naem, ende en breect v testament niet,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	035	noch en neemt v bermherticheyt van ons niet om Abraham uwen beminden, ende om Isaac uwen dienaer, ende Israel uwe heylighen,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	036	den welcken ghi ghesproken hebt belouende dat ghy hen saet vermenichfuldigen soudt, als die sterren des hemels, ende ghelijck tsandt dat aen den oeuer der zee is.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	037	Want Heere wy zijn vermindert meer dan alle die Heydenen, ende wy zijn vernedert in gheheel aertrijck heden om onse sonden.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	038	Ende in desen tijt en is noch prince noch vorst, noch Propheet, noch brantoffer, noch sacrificie, noch offerande, noch welriekenden offer, noch plaetse der ierster vruchten voer v,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	039	dat wy souden moghen v bermherticheyt vinden, maer laet ons in eenen bedructen moet, ende in den gheest der ootmoedicheyt ontfanghen worden.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	040	Als in die brantofferande der rammen ende der stieren, ende ghelijck in die duysenden der vetter lammeren, alsoo moet ons sacrificie worden voer v aensicht heden, op dat v behaghe, want daer en is gheen bescaemtheyt den ghenen die in v betrouwen.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	041	Ende nu volghen wy v met gheheel der herten, ende wy vreesen v, ende soecken v aensicht.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	042	En wilt ons niet bescamen, maer doet met ons nae uwe saechtmoedicheyt, ende nae die menichfuldicheyt uwer bermherticheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	043	Ende verlost ons doer uwe wonderlijcheden, ende gheeft uwen naem glorie Heere,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	044	ende laetse bescaemt worden alle die uwen knechten quade dinghen toonen, laetse bescaemt wordeu in alle macht, ende laet hen macht ghebroken werden,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	045	ende laet hen weten dat ghy alleen die Heere Godt sijt, ende glorioos ouer alle daertrijck.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	046	Ende des conincs dienaers diese gheworpen hadde, en hielden niet op dat forneys te ontsteken met Naptha, ende groff werck, ende peck, ende rijseren,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	047	ende die vlamme is wtgheslagen bouen dat forneys tot neghen ende veertich cubitus,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	048	ende sij is wtgheborsten, ende heeft verbrant die sij vondt by dat forneys, van den Chaldeen.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	049	Ende die enghel des Heeren is nederghedaelt met Azaria ende zijn ghesellen int forneys, ende hy heeft die vlamme des viers wten forneyse gheslaghen,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	050	ende hy heeft het midden des forneys ghemaect als eenen blasenden wint des dans, ende het vier en heeft hen gheenssins gheraect, noch bedroeft, oft eenich verdriet aenghedaen.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	051	Doen loefden dese drij als wt eenen mont ende glorificeerden, ende ghebenedijden Godt int forneys segghende.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	052	Ghebenedijt sijdi Heere Godt onser vaderen, ende loffelijck ende seer hooch verheuen inder eewicheyt, ende ghebenedijt is den naem uwer glorien, heylich ende loffelijck, ende seer hooch verheuen in alle die eewen.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	053	Ghebenedijt sijdi inden heylighen tempel uwer glorien, ende ouerloffelijck, ende ouer glorioos inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	054	Ghebenedijt sijdi inden throon ws rijcs, ende ouerloffelijck, ende ouerglorioos inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	055	Ghebenedijt sijdi die de affgronden doersiet, ende sidt op die cherubim, ende loffelijck, ende seer hooch verhauen inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	056	Ghebenedijt sijdi int firmament des hemels, ende loffelijck ende glorioos inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	057	Ghebenedijt den Heere alle die wercken des Heeren, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	058	Ghebenedijt den Heere ghy enghelen des Heeren, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	059	Ghebenedijt den Heere ghi hemelen, loeft ende verheft hen alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	060	Ghebenedijt den Heere alle wateren die bouen die hemelen sijt, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	061	Ghebenedijt den Heere alle crachten des Heeren, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	062	Ghebenedijt den Heere sonne ende mane, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	063	Ghebenedijt den Heere ghy sterren des hemels, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	064	Ghebenedijt den Heere alle reghen ende dauwe, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	065	Ghebenedijt den Heere alle gheest Godts, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	066	Ghebenedijt den Heere vier ende hitte, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	067	Ghebenedijt den Heere coude ende somer, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	068	Ghebenedijt den Heere dauwe ende hijsel, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	069	Ghebenedijt den Heere vorst ende coude, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	070	Ghebenedijt den Heere ys ende sneu, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	071	Ghebenedijt den Heere nachten ende daghen, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	072	Ghebenedijt den Heere licht ende donckerheyt, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	073	Ghebenedijt den Heere blixemen ende wolcken, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	074	Ghebenedijden moet den Heere die eerde, sij loue ende verheffe hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	075	Ghebenedijt den Heere ghi berghen ende hueuelen, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	076	Ghebenedijt den Heere alle dat op deerde groeynde is, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	077	Ghebenedijt den Heere ghy fonteynen, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	078	Ghebenedijt den Heere ghy zee ende vloeden, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	079	Ghebenedijt den Heere waluisschen, ende alle dat hem in die wateren roert, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	080	Ghebenedijt den Heere alle voghelen des hemels, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	081	Ghebenedijt den Heere alle beesten ende cleyn vee, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	082	Ghebenedijt den Heere kinderen der menschen, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	083	Ghebenedijden moet Israel den Heere, hy loue ende verheffe hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	084	Ghebenedijt den Heere Priesters des Heeren, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	085	Ghebenedijt den Heere dienaers des Heeren, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	086	Ghebenedijt den Heere gheesten ende zielen der rechtuerdigher, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	087	Ghebenedijt den Heere ghy heylighe ende ootmoedighe van herten, loeft ende verheft hem alderhoochst inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	088	Ghebenedijt den Heere Anania, Azaria, Misael, loeft ende verheft hem alderhoochst inder eewicheyt, want hy heeft ons verlost van die helle, ende hi heeft ons behouden van die hant der doot, ende hy heeft ons bevrijdt, wt het midden van die berrende vlamme, ende wt het midden des viers heeft hy ons wt ghetrocken.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	089	Belijdt den Heere want hy is goet, want inder eewicheyt is sijn bermherticheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	003	090	Ghebenedijt den Godt der goden alle godtvruchtighe des Heeren, loeft ende belijdt hem, want zijn bermherticheyt is inder eewicheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	001	ENde daer was een man woonende in Babilonien, ende sijnen naem was Ioacim.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	002	Ende hy heeft een huysvrouwe ghenomen Susanna ghenaemt, Helchias dochter wtermaten scoone, ende Godt vreesende,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	003	want haer ouders, om dat sij rechtuerdich waren, hebben hen dochter gheleert na Moyses wet.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	004	Ende Ioacim was seer rijck, ende hi hadde eenen boomgaert neffens sijn huys, ende tot hem verghaderden die Ioden, om dat hy die eerlijcste van alle was.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	005	Ende op dat iaer sijnder twee oude rechters ghemaect van die welcke die Heere ghesproken heeft. Dat die  ongerechticheyt wt Babilonien ghecomen is van die oude richters, die tvolc schenen te regeren.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	006	Dese verkeerden dicmaels in Ioacims huys, ende alle die ordeelen hadden die quamen tot hen,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	007	maer als het volck wederom ghekeert was ten middage, so ghinc Susanna, ende wandelende in haers mans boomgaert.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	008	Ende die ouders saghense dagelijcs ingaende ende wandelde, ende si ontstaken in oncuyscher begeerlijcheyt tot haer,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	009	ende sij hebben haerlieden sin omghekeert, ende si hebben hen ooghen affgeweken dat si den hemel niet sien en souden, noch ghedachtich wesen der rechtuerdiger ordeelen.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	010	Aldus waren si beyde ghewont met haer liefde, ende si en hebben malcanderen hen lijden niet te kennen ghegeuen,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	011	want sij scaemdens hen malcanderen hen begeerlijcheyt te openbaren, willende met haer versamen,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	012	ende si wachten dagelijcs sorchuuldichlijc om haer te sien. Ende deen seyde totten anderen.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	013	Laet ons thuys gaen, want het is die vre vanden noenmael. Ende wtghegaen sijnde, sijn si van malcanderen ghesceyden.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	014	Ende als sij wederom comen waren, soo sijn si weder op een plaetse gecomen, ende vraghende van malcanderen die sake, hebben si hen begeerlijcheyt beleden, ende doen hebben si int ghemeyn te samen eenen tijt ghestelt als si haer souden moghen alleen vinden.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	015	Ende tis ghesciet als si eenen bequamen dach wachteden, dat si op eenen tijt inghegaen is ghelijc ghisteren ende eerghisteren, met twee ionghe dochters alleen, ende si wilde ghewasschen sijn inden boomgaert want het was heet,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	016	ende daer en was niemant sonder die twee ouders verborghen, ende haer aenscouwende.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	017	Aldus heeft si den ionghen dochters geseyt. Haelt mi olie, ende seepe, ende sluyt die doeren vanden boomgaert dat ic ghewasschen worde.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	018	Ende si hebben ghedaen alsoo si gheboden hadde, ende si hebben die doeren vanden boomgaert ghesloten, ende si sijn wt gegaen door die achter doere, dat si halen souden dat si beuolen hadde, ende si en wisten niet dat die ouders daer binnen verborghen waren.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	019	Ende doen die ionge dochters wtghegaen waren, soo sijn die twee ouders opgestaen ende si hebben tot haer gheloopen ende gheseyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	020	Siet, die doeren vanden boomgaert zijn ghesloten, ende niemant en siet ons, ende wij hebben lust tuwaerts, daerom consenteert ons, ende versaemt v met ons.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	021	Ist dat ghy niet en wilt, soo sullen wij teghen v ghetuygenis seggen datter een ionghelinc met v gheweest heeft, ende dat ghy om dese sake die ionge dochters van v wtghesonden hebt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	022	Susanna heeft gesucht ende geseyt. Van allen sijden heb ic benautheden, want ist dat ic dit doe, so ist my diedoot, maer ist dat ics niet en doe, soo en sal ick uwe handen niet ontgaen,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	023	maer tis my beter sonder werc te vallen in v handen, dan te sondighen in des Heeren aensicht,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	024	Ende Susanna heeft met luyder stemmen gheroepen, ende die ouders hebben ooc luyde gheroepen teghen haer.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	025	Ende daer is een gheloopen tot die doeren des boomgaerts ende heeft die open ghedaen.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	026	Als dan die knechten des huys het gheroep ghehoort hadden inden boomgaert, soo zijn si daer ingheuallen door die achter doere, dat si sien souden wat dat ware.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	027	Maer na dat die ouders ghesproken hebben, so hebben die knechten hen seer ghescaemt, want noeyt en was sulc woort gheseyt van Susanna. Ende den dach van morghen is comen.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	028	Ende als het volc ghecomen was tot Ioacim haren man, soo sijn die twee ouders ooc ghecomen vol boose ghedachten teghen Susannam dat si haer dooden souden.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	029	Ende si hebben geseyt voor tvolc. Sendt tot Susannam Helchias dochter Ioacims huysvrouwe. Ende si hebben ter stont ghesonden,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	030	ende si is ghecomen met haeren ouders ende kinderen, ende met allen haren maghen,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	031	maer Susanna was seer teeder ende schoon van aensien.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	032	Ende die boose hebben gheboden datmense ontdecken soude (want sij was bedect) op dat sij lieden te minsten alsoo souden versaedt worden van haer schoonheyt.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	033	Aldus hebben die hare gheweent, ende alle die haer kenden.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	034	Ende die twee ouders opstaende int midden des volcs hebben hen handen gheleyt op haer hooft.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	035	Die welcke weenende heeft ten hemel opwaerts ghesien, want haer herte hadde betrouwen inden Heere.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	036	Ende die ouders hebben gheseyt. Als wij wandelden inden boomgaert alleen, soo is dese inghegaen met twee ionghe dochters, ende si heeft die doeren vanden boomgaert ghesloten, ende heeft die ionghe dochters van haer wech ghesonden.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	037	Ende tot haer is ghecomen een ionghelinck die daer verborghen was, ende hi heeft hem met haer versaemt,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	038	Maer wij, doen wij waren inden hoec vanden boomgaert, siende die boosheyt, sijn tot hen gheloopen, ende wij hebbense ghesien tsamen boeleren.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	039	Ende dien en consten wy voorwaer niet ghegrijpen want hy was stercker dan wij, ende die doeren open ghedaen hebbende is hy wt ghespronghen,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	040	maer doen wij dese ghegrepen hadden, soo hebben wi haer gheuraecht, wie die ionghelinc was, ende si en heues ons niet willen te kennen gheuen, dees dincs sijn wij ghetuyghen.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	041	Die menichte heeft henlieden ghelooft als den ouders, ende rechters des volcks, ende sij hebben haer ter doot ghedoemt,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	042	maer Susanna heeft met een groote stemme luyde gheroepen ende gheseyt. Eewich Godt die der verholender dinghen kender zijt, die alle dinghen weet eer si ghescieden,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	043	ghy weet dat si valsch ghetuyghenis teghen my ghegheuen hebben, ende siet ick sterue, hoe wel ick gheen van desen dinghen ghedaen en hebbe, die dese valschelijck versiert hebben teghen my.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	044	Ende die Heere heeft haer stemme verhoort.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	045	Ende als sij ter doot gheleydt werde, soo heeft die Heere den heylighen gheest verwect eens ionghe kints, wiens naem was Daniel,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	046	ende hi heeft gheroepen met luyder stemmen. Ic ben suyuer van deser bloet.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	047	Ende alle tvolc omghekeert sijnde tot hem heeft gheseyt. Wat redene is dit, die ghy ghesproken hebt?
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	048	Die welcke als ghestaen was int midden van henlieden heeft gheseyt. Sijt ghy kinderen van Israhel soo dwaes dat ghy niet ordeelende noch bekennende dat warachtich is die dochter van Israel verdoemt hebt?
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	049	Keert wederom ten ordeele, want sij hebben valsch ghetuyghenisse teghen haer ghesproken.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	050	Hierom ist volc wederom ghekeert met haesten, ende die ouders hebben tot hem gheseyt. Coemt ende sidt int midden van ons, ende gheuet ons te kennen, want God heeft v die eere des  ouderdoms ghegheuen.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	051	Ende Daniel heeft tot hen gheseyt. Sceytse verre van malcanderen, ende ic salse ondersceyden ordeelen.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	052	Als sij dan versceyden waren van malcanderen, soo heeft hy den eenen van dien gheroepen, ende heeft tot hem gheseyt. Ghy verouder der quader daghen, nv zijn v sonden ghecomen die ghy te voren wracht,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	053	ordeelende onrechtuerdige ordeelen, die onnoosele verdruckende, ende die misdadighe vrij latende. Daer die Heere seydt. Ghy en sult den onnooselen, ende rechtuerdighen niet dooden.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	054	Nv dan ist dat ghy haer ghesien hebt, segt onder wat boom dat ghijse hebt sien met malcanderen spreken. Die welcke heeft gheseyt onder eenen schinus boom
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	055	Ende Daniel heeft gheseyt. Te recht hebdy gheloghen teghen v hooft, want siet die enghel Gods hebbende die sentencie van hem, sal v te midden van een snijden.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	056	Ende als die wech ghedaen was, soo heeft hy den anderen doen comen, ende heeft hem gheseyt. Ghy saet van Chanaan ende niet van Iuda, die schoonheyt heeft v bedroghen, ende die begheerlijcheyt heeft v herte verkeert,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	057	alsoo dedy den dochteren van Israel, ende die vreesende spraken tot v lieden, maer die dochter van Iuda en heeft v boosheyt niet verdraghen,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	058	Nv dan segt my onder wat boom hebdijse beuonden malcanderen toe sprekende. Die welcke heeft gheseyt, onder eenen primus boom.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	059	Ende Daniel heeft hem gheseyt Te recht hebdi ooc gheloghen teghen v hooft, want die enghel Gods blijft hebbende een sweert, dat hy v int midden van een deyle, ende v lieden doode.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	060	Aldus heeft alle die vergaderinghe gheroepen met luyder stemmen, ende sij hebben Godt ghebenedijt, die behoudt die ghene die in hem hopen.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	061	Ende si zijn te samen opghestaen teghen die twee ouders (want Daniel haddese verwonnen wt haren monde dat si valsch ghetuyghenisse gheseyt hadden) ende si hebben hen ghedaen ghelijc sij qualijc ghedaen hadden teghen haren naeste,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	062	dat si doen souden nae Moyses wet, ende si hebbense ghedoot, ende het onnoosel bloet is behouden gheweest op dien dach.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	063	Maer Helcias ende sijn huysvrouwe hebben Godt gheloeft voor hen dochter Susanna, met Ioacim haren man ende allen haer maghen, om datter gheen scandelijc dinck aen haer geuonden en was.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	064	Ende Daniel is groot gheworden int aenscouwen des volcs, van dien dach ende voortaen.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	013	065	Ende die coninck Astiages is versaemt tot sijnen vaderen, ende Cyrus van Persen heeft zijn rijc ontfanghen.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	001	ENde Daniel was des conincs tafel ghenoot ende gheeert bouen alle zijn vrinden.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	002	Ende daer was eenen affgodt by die van Babilonien Bel ghenoemt, ende daer aen werden verdaen tot elcken daghe twaelf vaten bloem van meel, ende veertich scapen, ende ses groote cruycken wijns,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	003	Ende die coninck diende oock dien, ende hi ghinc alle daghe dien aenbidden, maer Daniel aenbadt sijnen Godt. Ende die coninck heeft tot hem gheseyt. Waerom en aenbidt ghi Bel niet?
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	004	Die welcke heeft antwoordende hem gheseyt. Want ic en aenbidde die affgoden niet die met handen ghemaect zijn, maer den leuenden God die ghescapen heeft hemel ende eerde, ende macht heeft van alle vleesche.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	005	Ende die coninck heeft tot hem gheseyt. En dunct v niet dat Bel een leuende godt is? en siedi niet hoe veel dat hi eedt ende drinct alle daghe?
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	006	Ende Daniel hem toelacchende heeft gheseyt. Coninc en wilt niet dolen, want dese is binnen van eerden, ende buyten van metael, ende hy en heeft noeyt gheten,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	007	ende die coninck gram wesende heeft zijn priesters gheroepen, ende tot hen gheseyt. Ten si dat ghy my segghet, wie dat is die dese costen etet so suldi steruen,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	008	Maer ist dat ghy my thoont dat Bel dese dinghen etet, soo sal Daniel steruen, want hy heeft gheblasphemeert teghen Bel. Ende Daniel heeft totten coninck gheseyt. Het ghesciede nae v woort.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	009	Ende die priesters van Bel waren tseuentich, sonder die huysvrouwen ende die cleyn kinderen ende die sonen. Ende die coninc is met Daniel ghecomen in Bels tempel,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	010	Ende Bels priesters hebben gheseyt. Siet wij gaen buyten wt, ende ghi coninc stelt die spijsen, ende mengt den wijn, ende sluyt die doere ende teekent die met uwen rinck,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	011	ende als ghy binnen ghecomen sult zijn morghen vroech, ten sij dat ghijt al vint gheten van Bel, soo sullen wi die doot steruen oft Daniel die teghen ons gheloghen heeft.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	012	Ende si en achtens niet, want sij hadden onder die tafele eenen heymelijcken verborghen inganc ghemaect, ende door dien ghinghen si altijt inne, ende sij verslinden die dinghen.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	013	Aldus ist gheschiet nae dat si wt gheghaen waren, ende die coninck die spijsen ghestelt heeft voor Bel, dat Daniel sijnen knechten beuolen heeft, ende si hebben asschen ghebrocht, ende hy heeft die ghesift den heelen tempel door, voor den coninck, ende wt ghegaen sijnde hebben si die doeren ghesloten, ende beseghelende die met des conincs rinck sijn si wech gheghaen.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	014	Ende die priesters zijn des nachts daer inghegaen nae hen ghewoonte, ende hen huysvrouwen ende hen kinderen, ende sij hebbent al gheten ende ghedroncken.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	015	Ende die coninc is opghestaen inden iersten dagheraet ende Daniel met hem.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	016	Ende die coninc heeft gheseyt. Sijn die seghelen oock gansch gheheel Daniel? Die welke heeft gheantwoort. Sij zijn gansch gheheel o coninck.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	017	Ende ter stont als hi die doere open ghedaen heeft, soo heeft die coninc die tafel aensiende gheroepen met luyder stemmen. Bel ghy zijn groot, ende by v en is gheen bedroch.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	018	Ende Daniel heeft ghelacchen, ende den coninck ghehouden dat hy daer binnen niet gaen en soude, ende hy heeft geseyt. Siet het paueytsel, aenmerct wiens voetstappen dat dit zijn.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	019	Ende die coninck heeft gheseydt, ick sie hier voetstappen van mannen ende vrouwen, ende cleynder kinderen Ende die coninck is gram gheworden.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	020	Doen heeft hy die priesters ghegrepen, ende hen huysvrouwen ende kinderen, ende si hebben hem ghetoont die verborghen heymelijcke doorkens, waer door dat si in quamen, ende verteerden datter op die tafel was.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	021	Hierom heeftse die coninc ghedoodt, ende hy heeft Bel in Daniels macht gheleuert, die welcke heeft hem omgheworpen ende sijnen tempel.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	022	Ende daer was eenen grooten  draeck in die plaetse, ende die van Babilonien eerden hem.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	023	Ende die coninck heeft tot Daniel gheseyt. Siet ghy en moecht nv niet segghen, dat dit gheenen leuende godt en is, daerom aenbidt hem.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	024	Ende Daniel heeft gheseyt, ick aenbidde den Heere mijnen Godt, want hy is een leuende God,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	025	maer ghy coninc gheeft my die macht, ende ick sal den draec dooden sonder sweert oft stock. Ende die coninc heeft gheseyt. Ick gheefse v
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	026	Hierop heeft Daniel ghehaelt peck ende smeer, ende hair ende hy heeft die tsamen ghesoden, ende hy heeft daer clonten af ghemaect, ende heeftse ghegheuen in des draecs muyl, ende den draec is gheborsten. Ende hy heeft gheseyt. Siet den ghenen die ghy eerdet,
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	027	Het welc als die van Babilonien ghehoort hebben, soo sijn sij seer verbolghen gheweest, ende teghen den coninc vergadert sijnde hebben si gheseyt. Die coninc is een Iode gheworden, Hi heeft Bel verdoruen ende den draec ghedoot, ende die priesters verslaghen.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	028	Ende sij hebben gheseyt als sij tot den coninck ghecomen waren. Levert ons Danielem, oft anders sullen wij v dooden, ende v huys.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	029	Aldus heeft die coninc ghesien dat si hem crachtelijck oueruielen, ende midts noot bedwonghen sijnde heeft hy hen Danielem gheleuert.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	030	Die welcke hebben hem gheworpen inden cuyl der leeuwen, ende hy was daer ses daghen.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	031	Ende inden cuyl waren seven leeuwen, ende hen werden daghelijcs twee lichamen ghegheuen, ende twee scapen, ende doen en sijnse hen niet ghegheuen, op dat si Danielem verslinden souden.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	032	Ende Habacuc was een propheet in Iudeen, ende hy hadde een pottagie ghecoect, ende hy hadde broot ghebroct in een potteken, ende ghinck te veldewaerts dat hijt sijnen maeyers draghen soude.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	033	Ende die enghel des Heeren heeft tot Habacuc geseyt. Draecht die noenspijse die ghy hebt in Babilonien Danieli, die inder leeuwen cuyl is.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	034	Ende Habacuc heeft gheseyt. Heere ick en heb Babilonien niet ghesien, ende den cuyl en ken ick niet.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	035	Ende die enghel des Heeren heeft hem ghegrepen met den top sijns hoofts, ende heeft hem ghedraghen metten haire sijns hoofts, ende heeft hem in Babilonien ghestelt opden cuyl int ghewelt sijns gheests.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	036	Ende Habacuc heeft gheroepen seggende, Daniel neemt die noenspijse die v God ghesonden heeft.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	037	Ende Daniel seyde. God ghy hebt mijns ghedachtich gheweest, ende ghy en hebtse niet verlaten die v lief hebben.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	038	Ende Daniel opstaende heeft ghegeten, Maer die enghel des Heeren heeft Habacuc ter stont wederom ghestelt in sijn plaetse.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	039	Hierom is die coninck ghecomen opden seuensten dach, dat hi Danielem beweenen soude, ende hy is totten cuyl ghecomen, ende hy heeft binnen ghesien, ende siet Daniel was daer sittende.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	040	Ende die coninck heeft gheroepen met een groote stemme segghende. Groot sij di Heere Daniels Godt. Ende hi heeft hem wtghetrocken.
+Holy-Bible---Dutch---Leuvense-Bible	027	DAN	014	041	Maer die ghene die de sake van sijnder verderffenisse gheweest hadden heeft hy inden cuyl gheworpen, ende sij werden verslonden in corter stont voor hem.  Hier voleyndt die Propheet Daniel.
+Holy-Bible---Dutch---Leuvense-Bible	028	HOS	002	023	Ende ick salse my besaeyen tot een lant, ende ic sal haers ontfermen die gheweest heeft sonder ontfermherticheyt.
+Holy-Bible---Dutch---Leuvense-Bible	030	AMO	006	010	Ende zijn naeste sal hem nemen, ende hy sal hem verbranden, dat hy die beenderen wten huyse draghe, ende hy sal hem segghen die int binnenste des huys is. Isser noch iemant by v?
+Holy-Bible---Dutch---Leuvense-Bible	043	JOH	006	051	Ick ben dleuende broot, die vanden hemel comen ben.
+Holy-Bible---Dutch---Leuvense-Bible	064	3JO	001	014	Ick hope cortelijck v te sien ende dan sullen wij mont aen mont spreken,
+Holy-Bible---Dutch---Leuvense-Bible	066	REV	012	018	Ende hy heeft ghestaen op dat sandt der zee.
 Holy-Bible---Dutch---Statenvertaling	009	1SA	020	042	Toen zeide Jonathan tot David: Ga in vrede; hetgeen wij beiden in den Naam des HEEREN gezworen Hebben, zeggende: De HEERE zij tussen mij en tussen u, en tussen mijn zaad en tussen uw zaad, zij tot in eeuwigheid!
 Holy-Bible---Dutch---Statenvertaling	011	1KI	022	043	En hij wandelde in al den weg van zijn vader Asa; hij week niet daarvan, doende dat recht was in de ogen des HEEREN.
 Holy-Bible---Dutch---Statenvertaling	016	NEH	007	073	En de priesters, en de Levieten, en de poortiers, en de zangers, en sommigen van het volk, en de Nethinim, en gans Israel, woonden in hun steden.
@@ -2346,6 +2642,10 @@ Holy-Bible---English---Literal-Standard	064	3JO	001	015	-
 Holy-Bible---English---Literal-Standard	066	REV	012	018	-
 Holy-Bible---English---Living-Oracles-NT	042	LUK	017	036	
 Holy-Bible---English---Living-Oracles-NT	044	ACT	008	037	
+Holy-Bible---English---Majority-Standard-Bible	042	LUK	017	036	
+Holy-Bible---English---Majority-Standard-Bible	044	ACT	008	037	
+Holy-Bible---English---Majority-Standard-Bible	044	ACT	015	034	
+Holy-Bible---English---Majority-Standard-Bible	044	ACT	024	007	
 Holy-Bible---English---Montgomery-NT	041	MAR	011	026	
 Holy-Bible---English---Montgomery-NT	043	JOH	017	016	
 Holy-Bible---English---New-Heart-Aramaic	040	MAT	017	021	
@@ -2988,6 +3288,77 @@ Holy-Bible---Finnish---Open-Living-News	066	REV	012	018	Se jäi väijymään val
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible	043	JOH	008	059	
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible	064	3JO	001	014	doch ik hoop u spoedig te zien, en dan zullen wij van mond tot mond spreken.
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible	066	REV	012	018	En hij ging staan bij den oever der zee,
+Holy-Bible---French---Bonnet-Bovet-Bible	009	1SA	020	042	Et Jonathan dit à David : Va en paix, maintenant que nous avons juré l’un et l’autre, au nom de l’Éternel, en disant : Que l’Éternel soit entre moi et toi, entre ma postérité et ta postérité à jamais !
+Holy-Bible---French---Bonnet-Bovet-Bible	011	1KI	022	043	Et il marcha dans toute la voie d’Asa, son père ; il ne s’en détourna pas, faisant ce qui est droit aux yeux de l’Éternel.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	003	001	Psaume de David, quand il fuyait devant Absalom, son fils.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	004	001	Au maître chantre. Avec instruments à cordes. Psaume de David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	005	001	Au maître chantre. Avec les flûtes. Psaume de David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	006	001	Au maître chantre. Avec instruments à cordes. Sur l’octave. Psaume de David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	007	001	Dithyrambe de David, qu’il chanta à l’Éternel au sujet des paroles de Cusch, Benjamite.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	008	001	Au maître chantre. Sur Guitthith. Psaume de David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	009	001	Au maître chantre. Sur Meurs pour le fils. Psaume de David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	012	001	Au maître chantre. Sur l’octave. Psaume de David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	018	001	Au maître chantre. Du serviteur de l’Éternel, de David, qui adressa à l’Éternel les paroles de ce cantique, lorsque l’Éternel l’eut délivré de la main de tous ses ennemis et de la main de Saül.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	019	001	Au maître chantre. Psaume de David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	020	001	Au maître chantre. Psaume de David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	021	001	Au maître chantre. Psaume de David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	022	001	Au maître chantre. Sur Biche de l’aurore. Psaume de David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	030	001	Psaume. Cantique de dédicace de la maison. De David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	031	001	Au maître chantre. Psaume de David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	034	001	De David, lorsqu’il contrefit l’insensé en présence d’Abimélec, qui le chassa, et il s’en alla.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	036	001	Au maître chantre. Du serviteur de l’Éternel, de David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	038	001	Psaume de David. Pour mémorial.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	039	001	Au maître chantre, à Jéduthun. Psaume de David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	040	001	Au maître chantre. De David. Psaume.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	041	001	Au maître chantre. Psaume de David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	042	001	Au maître chantre. Méditation des fils de Koré.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	044	001	Au maître chantre. Des fils de Koré. Méditation.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	045	001	Au maître chantre. Sur les lis. Des fils de Koré. Méditation. Chant nuptial.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	046	001	Au maître chantre Des fils de Koré. Pour voix de soprano. Cantique.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	047	001	Au maître chantre. Des fils de Koré. Psaume.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	048	001	Cantique. Psaume des fils de Koré.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	049	001	Au maître chantre. Des fils de Koré. Psaume.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	051	001	Au maître chantre. Psaume de David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	051	002	Lorsque Nathan, le prophète, vint à lui, après qu’il fut allé vers Bathséba.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	052	001	Au maître chantre. Méditation de David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	052	002	À l’occasion du rapport que Doëg, l’Édomite, vint faire à Saül, en lui disant : David s’est rendu dans la maison d’Ahimélec.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	053	001	Au maître chantre. Sur un mode triste. Méditation de David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	054	001	Au maître chantre. Avec instruments à cordes. Méditation de David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	054	002	Lorsque les Ziphiens allèrent dire à Saül : David ne se tient-il pas caché parmi nous ?
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	055	001	Au maître chantre. Avec instruments à cordes. Méditation de David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	056	001	Au maître chantre. Sur Colombe des térébinthes lointains. Écrit de David, lorsque les Philistins le saisirent à Gath.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	057	001	Au maître chantre. Ne détruis pas. Écrit de David, quand il s’enfuit de devant Saül dans la caverne.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	058	001	Au maître chantre. Ne détruis pas. Écrit de David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	059	001	Au maître chantre. Ne détruis pas. Écrit de David, lorsque Saül envoya garder la maison, pour le faire mourir.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	060	001	Au maître chantre. Sur le lis du témoignage. Écrit de David, destiné à être enseigné.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	060	002	Lorsqu’il fit la guerre contre les Syriens de Mésopotamie et contre les Syriens de Tsoba, et que Joab revint et battit les Édomites dans la vallée du Sel, au nombre de douze mille.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	061	001	Au maître chantre. Sur instruments à cordes. De David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	062	001	Au maître chantre. Selon Jéduthun. Psaume de David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	063	001	Psaume de David. Lorsqu’il était dans le désert de Juda.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	064	001	Au maître chantre. Psaume de David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	065	001	Au maître chantre. Psaume de David. Cantique.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	067	001	Au, maître chantre. Avec instruments à cordes. Psaume. Cantique.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	068	001	Au maître chantre. De David. Psaume. Cantique.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	069	001	Au maître chantre. Sur les lis. De David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	070	001	Au maître chantre. De David. Pour mémorial.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	075	001	Au maître chantre. Ne détruis pas. Psaume d’Asaph. Cantique.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	076	001	Au maître chantre. Avec instruments à cordes. Psaume d’Asaph. Cantique.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	077	001	Au maître chantre. Selon Jeduthun. D’Asaph. Psaume.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	080	001	Au maître chantre. Psaume d’Asaph, Sur les lis du témoignage.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	081	001	Au maître chantre. Sur Guitthith. D’Asaph.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	083	001	Cantique. Psaume d’Asaph.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	084	001	Au maître chantre. Sur Guitthith. Psaume des fils de Koré.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	085	001	Au maître chantre. Psaume des fils de Koré.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	088	001	Cantique. Psaume des fils de Koré. Au maître chantre. Sur un mode triste ; pour des temps d’accablement. Méditation de Héman, l’Ezrachite.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	089	001	Méditation d’Ethan, l’Ezrachite.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	092	001	Psaume. Cantique pour le jour du sabbat.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	102	001	Prière d’un affligé, lorsque, près de défaillir, il répand sa plainte devant l’Éternel.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	108	001	Cantique. Psaume de David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	140	001	Au maître chantre. Psaume de David.
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	142	001	Méditation de David, quand il était dans la caverne ; prière.
+Holy-Bible---French---Bonnet-Bovet-Bible	041	MAR	010	052	Et Jésus lui dit : Va, ta foi t’a sauvé.
+Holy-Bible---French---Bonnet-Bovet-Bible	064	3JO	001	014	j’espère te voir bientôt, et nous parlerons bouche à bouche.
+Holy-Bible---French---Bonnet-Bovet-Bible	066	REV	012	018	Et il se tint sur le sable de la mer.
 Holy-Bible---French---Free-for-the-World	042	LUK	017	036	
 Holy-Bible---French---Free-for-the-World	044	ACT	008	037	
 Holy-Bible---French---Free-for-the-World	044	ACT	015	034	
@@ -4278,6 +4649,11 @@ Holy-Bible---French---French-Ostervald-Bible	019	PSA	054	001	Lorsque les Ziphien
 Holy-Bible---French---French-Ostervald-Bible	019	PSA	060	001	Lorsqu'il fit la guerre avec les Syriens de Mésopotamie et avec les Syriens de Tsoba, et que Joab revint et défit douze mille Édomites dans la vallée du Sel.
 Holy-Bible---French---French-Ostervald-Bible	064	3JO	001	014	Car j'espère te voir bientôt, et nous parlerons bouche à bouche. La paix soit avec toi
 Holy-Bible---French---French-Ostervald-Bible	066	REV	012	018	Et je me tins debout sur le sable de la mer;
+Holy-Bible---French---Geneva-Bible	041	MAR	009	050	C’eſt une bonne choſe que le ſel : mais ſi le ſel perd ſa ſaveur , dequoi lui rendra-t’on ſa ſaveur?
+Holy-Bible---French---Geneva-Bible	041	MAR	010	052	Et Jeſus lui dit , Va-t’en , ta foi t’a ſauvé.
+Holy-Bible---French---Geneva-Bible	044	ACT	024	018	Et comme je vaquois à cela , ils m’ont trouvé purifié au temple , non point avec troupe ni tumulte.
+Holy-Bible---French---Geneva-Bible	064	3JO	001	014	mais j’eſpere de te voir en bref ,  nous parlerons bouche à bouche.
+Holy-Bible---French---Geneva-Bible	066	REV	012	018	Et je me tins ſur le ſable de la mer.
 Holy-Bible---French---Vulgate-Glaire	004	NUM	020	028	Et lorsqu’il eut dépouillé Aaron de ses vêtements il en revêtit Eléazar son fils.
 Holy-Bible---French---Vulgate-Glaire	006	JOS	004	023	Le Seigneur votre Dieu ayant séché les eaux en votre présence jusqu’à ce que vous eussiez passé,
 Holy-Bible---French---Vulgate-Glaire	006	JOS	005	014	Il répondit : Nullement, mais je suis le prince de l’armée du Seigneur, et maintenant je viens.
@@ -5012,6 +5388,384 @@ Holy-Bible---German---German-Tafel-Bible	019	PSA	102	001	Gebet eines Elenden, de
 Holy-Bible---German---German-Tafel-Bible	019	PSA	108	001	Ein Lied, ein Psalm Davids.
 Holy-Bible---German---German-Tafel-Bible	019	PSA	140	001	Dem Sangmeister. Ein Psalm Davids.
 Holy-Bible---German---German-Tafel-Bible	019	PSA	142	001	Eine Unterweisung von David, da er in der Höhle war; ein Gebet.
+Holy-Bible---German---Open-Bible	001	GEN	025	034	
+Holy-Bible---German---Open-Bible	001	GEN	026	034	
+Holy-Bible---German---Open-Bible	001	GEN	029	035	
+Holy-Bible---German---Open-Bible	001	GEN	042	038	
+Holy-Bible---German---Open-Bible	001	GEN	048	022	
+Holy-Bible---German---Open-Bible	001	GEN	050	026	
+Holy-Bible---German---Open-Bible	002	EXO	004	031	
+Holy-Bible---German---Open-Bible	002	EXO	006	030	
+Holy-Bible---German---Open-Bible	002	EXO	013	022	
+Holy-Bible---German---Open-Bible	002	EXO	016	036	
+Holy-Bible---German---Open-Bible	002	EXO	018	027	
+Holy-Bible---German---Open-Bible	002	EXO	020	026	
+Holy-Bible---German---Open-Bible	002	EXO	025	040	
+Holy-Bible---German---Open-Bible	002	EXO	030	038	
+Holy-Bible---German---Open-Bible	002	EXO	031	018	
+Holy-Bible---German---Open-Bible	002	EXO	040	038	
+Holy-Bible---German---Open-Bible	003	LEV	004	035	
+Holy-Bible---German---Open-Bible	003	LEV	006	023	
+Holy-Bible---German---Open-Bible	003	LEV	007	038	
+Holy-Bible---German---Open-Bible	003	LEV	008	036	
+Holy-Bible---German---Open-Bible	003	LEV	011	047	
+Holy-Bible---German---Open-Bible	003	LEV	012	008	
+Holy-Bible---German---Open-Bible	003	LEV	013	059	
+Holy-Bible---German---Open-Bible	003	LEV	014	057	
+Holy-Bible---German---Open-Bible	003	LEV	015	033	
+Holy-Bible---German---Open-Bible	003	LEV	017	016	
+Holy-Bible---German---Open-Bible	003	LEV	019	037	
+Holy-Bible---German---Open-Bible	003	LEV	020	027	
+Holy-Bible---German---Open-Bible	003	LEV	021	024	
+Holy-Bible---German---Open-Bible	003	LEV	022	033	
+Holy-Bible---German---Open-Bible	003	LEV	023	044	
+Holy-Bible---German---Open-Bible	003	LEV	024	023	
+Holy-Bible---German---Open-Bible	003	LEV	026	046	
+Holy-Bible---German---Open-Bible	003	LEV	027	034	
+Holy-Bible---German---Open-Bible	004	NUM	001	054	
+Holy-Bible---German---Open-Bible	004	NUM	002	034	
+Holy-Bible---German---Open-Bible	004	NUM	003	051	
+Holy-Bible---German---Open-Bible	004	NUM	004	049	
+Holy-Bible---German---Open-Bible	004	NUM	005	031	
+Holy-Bible---German---Open-Bible	004	NUM	006	027	
+Holy-Bible---German---Open-Bible	004	NUM	008	026	
+Holy-Bible---German---Open-Bible	004	NUM	009	023	
+Holy-Bible---German---Open-Bible	004	NUM	010	036	
+Holy-Bible---German---Open-Bible	004	NUM	013	033	
+Holy-Bible---German---Open-Bible	004	NUM	014	045	
+Holy-Bible---German---Open-Bible	004	NUM	015	041	
+Holy-Bible---German---Open-Bible	004	NUM	016	035	
+Holy-Bible---German---Open-Bible	004	NUM	018	032	
+Holy-Bible---German---Open-Bible	004	NUM	019	022	
+Holy-Bible---German---Open-Bible	004	NUM	020	029	
+Holy-Bible---German---Open-Bible	004	NUM	021	035	
+Holy-Bible---German---Open-Bible	004	NUM	022	041	
+Holy-Bible---German---Open-Bible	004	NUM	026	065	
+Holy-Bible---German---Open-Bible	004	NUM	028	031	
+Holy-Bible---German---Open-Bible	004	NUM	031	054	
+Holy-Bible---German---Open-Bible	004	NUM	033	056	
+Holy-Bible---German---Open-Bible	004	NUM	034	029	
+Holy-Bible---German---Open-Bible	004	NUM	035	034	
+Holy-Bible---German---Open-Bible	005	DEU	005	033	
+Holy-Bible---German---Open-Bible	005	DEU	006	025	
+Holy-Bible---German---Open-Bible	005	DEU	008	020	
+Holy-Bible---German---Open-Bible	005	DEU	012	031	
+Holy-Bible---German---Open-Bible	005	DEU	016	021	
+Holy-Bible---German---Open-Bible	005	DEU	032	052	
+Holy-Bible---German---Open-Bible	006	JOS	001	018	
+Holy-Bible---German---Open-Bible	007	JDG	009	057	
+Holy-Bible---German---Open-Bible	009	1SA	001	028	
+Holy-Bible---German---Open-Bible	009	1SA	002	003	
+Holy-Bible---German---Open-Bible	009	1SA	002	004	
+Holy-Bible---German---Open-Bible	009	1SA	002	005	
+Holy-Bible---German---Open-Bible	009	1SA	002	010	
+Holy-Bible---German---Open-Bible	009	1SA	002	036	
+Holy-Bible---German---Open-Bible	009	1SA	003	021	
+Holy-Bible---German---Open-Bible	009	1SA	009	027	
+Holy-Bible---German---Open-Bible	009	1SA	010	027	
+Holy-Bible---German---Open-Bible	009	1SA	017	058	
+Holy-Bible---German---Open-Bible	009	1SA	020	042	
+Holy-Bible---German---Open-Bible	011	1KI	001	053	
+Holy-Bible---German---Open-Bible	011	1KI	008	066	
+Holy-Bible---German---Open-Bible	012	2KI	004	044	
+Holy-Bible---German---Open-Bible	012	2KI	005	027	
+Holy-Bible---German---Open-Bible	012	2KI	022	020	
+Holy-Bible---German---Open-Bible	013	1CH	021	030	
+Holy-Bible---German---Open-Bible	015	EZR	006	022	
+Holy-Bible---German---Open-Bible	015	EZR	007	011	„
+Holy-Bible---German---Open-Bible	015	EZR	007	028	
+Holy-Bible---German---Open-Bible	018	JOB	001	022	
+Holy-Bible---German---Open-Bible	018	JOB	018	021	
+Holy-Bible---German---Open-Bible	018	JOB	019	029	
+Holy-Bible---German---Open-Bible	019	PSA	033	001	
+Holy-Bible---German---Open-Bible	019	PSA	033	002	
+Holy-Bible---German---Open-Bible	019	PSA	033	003	
+Holy-Bible---German---Open-Bible	019	PSA	033	004	
+Holy-Bible---German---Open-Bible	019	PSA	033	005	
+Holy-Bible---German---Open-Bible	019	PSA	033	007	
+Holy-Bible---German---Open-Bible	019	PSA	033	008	
+Holy-Bible---German---Open-Bible	019	PSA	033	009	
+Holy-Bible---German---Open-Bible	019	PSA	033	010	
+Holy-Bible---German---Open-Bible	019	PSA	033	011	
+Holy-Bible---German---Open-Bible	019	PSA	033	012	
+Holy-Bible---German---Open-Bible	019	PSA	033	013	
+Holy-Bible---German---Open-Bible	019	PSA	033	014	
+Holy-Bible---German---Open-Bible	019	PSA	033	015	
+Holy-Bible---German---Open-Bible	019	PSA	033	016	
+Holy-Bible---German---Open-Bible	019	PSA	033	017	
+Holy-Bible---German---Open-Bible	019	PSA	033	018	
+Holy-Bible---German---Open-Bible	019	PSA	033	019	
+Holy-Bible---German---Open-Bible	019	PSA	033	020	
+Holy-Bible---German---Open-Bible	019	PSA	033	021	
+Holy-Bible---German---Open-Bible	019	PSA	033	022	
+Holy-Bible---German---Open-Bible	019	PSA	042	006	
+Holy-Bible---German---Open-Bible	019	PSA	042	007	
+Holy-Bible---German---Open-Bible	019	PSA	042	008	
+Holy-Bible---German---Open-Bible	019	PSA	042	009	
+Holy-Bible---German---Open-Bible	019	PSA	042	010	
+Holy-Bible---German---Open-Bible	019	PSA	042	011	
+Holy-Bible---German---Open-Bible	019	PSA	050	002	
+Holy-Bible---German---Open-Bible	019	PSA	050	003	
+Holy-Bible---German---Open-Bible	019	PSA	050	004	
+Holy-Bible---German---Open-Bible	019	PSA	050	005	
+Holy-Bible---German---Open-Bible	019	PSA	050	006	
+Holy-Bible---German---Open-Bible	019	PSA	050	007	
+Holy-Bible---German---Open-Bible	019	PSA	050	008	
+Holy-Bible---German---Open-Bible	019	PSA	050	009	
+Holy-Bible---German---Open-Bible	019	PSA	050	010	
+Holy-Bible---German---Open-Bible	019	PSA	050	011	
+Holy-Bible---German---Open-Bible	019	PSA	050	012	
+Holy-Bible---German---Open-Bible	019	PSA	050	013	
+Holy-Bible---German---Open-Bible	019	PSA	050	014	
+Holy-Bible---German---Open-Bible	019	PSA	050	015	
+Holy-Bible---German---Open-Bible	019	PSA	050	016	
+Holy-Bible---German---Open-Bible	019	PSA	050	017	
+Holy-Bible---German---Open-Bible	019	PSA	050	018	
+Holy-Bible---German---Open-Bible	019	PSA	050	019	
+Holy-Bible---German---Open-Bible	019	PSA	050	020	
+Holy-Bible---German---Open-Bible	019	PSA	050	021	
+Holy-Bible---German---Open-Bible	019	PSA	050	022	
+Holy-Bible---German---Open-Bible	019	PSA	050	023	
+Holy-Bible---German---Open-Bible	019	PSA	091	016	
+Holy-Bible---German---Open-Bible	019	PSA	094	012	
+Holy-Bible---German---Open-Bible	019	PSA	094	013	
+Holy-Bible---German---Open-Bible	019	PSA	094	014	
+Holy-Bible---German---Open-Bible	019	PSA	094	015	
+Holy-Bible---German---Open-Bible	019	PSA	094	016	
+Holy-Bible---German---Open-Bible	019	PSA	094	017	
+Holy-Bible---German---Open-Bible	019	PSA	094	018	
+Holy-Bible---German---Open-Bible	019	PSA	094	019	
+Holy-Bible---German---Open-Bible	019	PSA	094	020	
+Holy-Bible---German---Open-Bible	019	PSA	094	021	
+Holy-Bible---German---Open-Bible	019	PSA	094	022	
+Holy-Bible---German---Open-Bible	019	PSA	094	023	
+Holy-Bible---German---Open-Bible	019	PSA	097	002	
+Holy-Bible---German---Open-Bible	019	PSA	097	003	
+Holy-Bible---German---Open-Bible	019	PSA	097	004	
+Holy-Bible---German---Open-Bible	019	PSA	097	005	
+Holy-Bible---German---Open-Bible	019	PSA	097	006	
+Holy-Bible---German---Open-Bible	019	PSA	097	007	
+Holy-Bible---German---Open-Bible	019	PSA	097	008	
+Holy-Bible---German---Open-Bible	019	PSA	097	009	
+Holy-Bible---German---Open-Bible	019	PSA	097	010	
+Holy-Bible---German---Open-Bible	019	PSA	097	011	
+Holy-Bible---German---Open-Bible	019	PSA	097	012	
+Holy-Bible---German---Open-Bible	019	PSA	109	001	
+Holy-Bible---German---Open-Bible	019	PSA	109	002	
+Holy-Bible---German---Open-Bible	019	PSA	109	003	
+Holy-Bible---German---Open-Bible	019	PSA	109	008	
+Holy-Bible---German---Open-Bible	019	PSA	109	009	
+Holy-Bible---German---Open-Bible	019	PSA	109	010	
+Holy-Bible---German---Open-Bible	019	PSA	109	011	
+Holy-Bible---German---Open-Bible	019	PSA	109	012	
+Holy-Bible---German---Open-Bible	019	PSA	109	013	
+Holy-Bible---German---Open-Bible	019	PSA	109	014	
+Holy-Bible---German---Open-Bible	019	PSA	109	015	
+Holy-Bible---German---Open-Bible	019	PSA	109	016	
+Holy-Bible---German---Open-Bible	019	PSA	109	017	
+Holy-Bible---German---Open-Bible	019	PSA	109	018	
+Holy-Bible---German---Open-Bible	019	PSA	109	019	
+Holy-Bible---German---Open-Bible	019	PSA	109	020	
+Holy-Bible---German---Open-Bible	019	PSA	109	021	
+Holy-Bible---German---Open-Bible	019	PSA	109	022	
+Holy-Bible---German---Open-Bible	019	PSA	109	023	
+Holy-Bible---German---Open-Bible	019	PSA	109	024	
+Holy-Bible---German---Open-Bible	019	PSA	109	025	
+Holy-Bible---German---Open-Bible	019	PSA	109	026	
+Holy-Bible---German---Open-Bible	019	PSA	109	027	
+Holy-Bible---German---Open-Bible	019	PSA	109	028	
+Holy-Bible---German---Open-Bible	019	PSA	109	029	
+Holy-Bible---German---Open-Bible	019	PSA	109	030	
+Holy-Bible---German---Open-Bible	019	PSA	109	031	
+Holy-Bible---German---Open-Bible	020	PRO	002	022	
+Holy-Bible---German---Open-Bible	020	PRO	012	028	
+Holy-Bible---German---Open-Bible	020	PRO	014	035	
+Holy-Bible---German---Open-Bible	020	PRO	019	029	
+Holy-Bible---German---Open-Bible	020	PRO	020	030	
+Holy-Bible---German---Open-Bible	020	PRO	024	034	
+Holy-Bible---German---Open-Bible	020	PRO	025	028	
+Holy-Bible---German---Open-Bible	020	PRO	026	028	
+Holy-Bible---German---Open-Bible	020	PRO	028	028	
+Holy-Bible---German---Open-Bible	020	PRO	029	027	
+Holy-Bible---German---Open-Bible	022	SOL	008	001	
+Holy-Bible---German---Open-Bible	022	SOL	008	002	
+Holy-Bible---German---Open-Bible	022	SOL	008	003	
+Holy-Bible---German---Open-Bible	022	SOL	008	004	
+Holy-Bible---German---Open-Bible	022	SOL	008	005	
+Holy-Bible---German---Open-Bible	022	SOL	008	007	
+Holy-Bible---German---Open-Bible	022	SOL	008	008	
+Holy-Bible---German---Open-Bible	022	SOL	008	009	
+Holy-Bible---German---Open-Bible	022	SOL	008	010	
+Holy-Bible---German---Open-Bible	022	SOL	008	011	
+Holy-Bible---German---Open-Bible	022	SOL	008	012	
+Holy-Bible---German---Open-Bible	022	SOL	008	013	
+Holy-Bible---German---Open-Bible	022	SOL	008	014	
+Holy-Bible---German---Open-Bible	023	ISA	001	031	
+Holy-Bible---German---Open-Bible	023	ISA	005	030	
+Holy-Bible---German---Open-Bible	023	ISA	009	020	
+Holy-Bible---German---Open-Bible	023	ISA	011	016	
+Holy-Bible---German---Open-Bible	023	ISA	014	032	
+Holy-Bible---German---Open-Bible	023	ISA	038	022	
+Holy-Bible---German---Open-Bible	023	ISA	041	029	
+Holy-Bible---German---Open-Bible	023	ISA	043	028	
+Holy-Bible---German---Open-Bible	023	ISA	044	028	
+Holy-Bible---German---Open-Bible	023	ISA	045	025	
+Holy-Bible---German---Open-Bible	023	ISA	046	013	
+Holy-Bible---German---Open-Bible	023	ISA	050	003	
+Holy-Bible---German---Open-Bible	023	ISA	050	011	
+Holy-Bible---German---Open-Bible	023	ISA	052	012	
+Holy-Bible---German---Open-Bible	023	ISA	058	001	
+Holy-Bible---German---Open-Bible	023	ISA	058	002	
+Holy-Bible---German---Open-Bible	023	ISA	058	003	
+Holy-Bible---German---Open-Bible	023	ISA	058	004	
+Holy-Bible---German---Open-Bible	023	ISA	058	005	
+Holy-Bible---German---Open-Bible	023	ISA	058	006	
+Holy-Bible---German---Open-Bible	023	ISA	058	013	
+Holy-Bible---German---Open-Bible	023	ISA	058	014	
+Holy-Bible---German---Open-Bible	023	ISA	060	022	
+Holy-Bible---German---Open-Bible	023	ISA	066	024	
+Holy-Bible---German---Open-Bible	024	JER	004	031	
+Holy-Bible---German---Open-Bible	024	JER	007	034	
+Holy-Bible---German---Open-Bible	024	JER	008	003	
+Holy-Bible---German---Open-Bible	024	JER	008	008	
+Holy-Bible---German---Open-Bible	024	JER	008	010	
+Holy-Bible---German---Open-Bible	024	JER	008	011	
+Holy-Bible---German---Open-Bible	024	JER	008	012	
+Holy-Bible---German---Open-Bible	024	JER	008	013	
+Holy-Bible---German---Open-Bible	024	JER	008	014	
+Holy-Bible---German---Open-Bible	024	JER	008	015	
+Holy-Bible---German---Open-Bible	024	JER	008	016	
+Holy-Bible---German---Open-Bible	024	JER	008	017	
+Holy-Bible---German---Open-Bible	024	JER	008	018	
+Holy-Bible---German---Open-Bible	024	JER	008	019	
+Holy-Bible---German---Open-Bible	024	JER	008	020	
+Holy-Bible---German---Open-Bible	024	JER	008	021	
+Holy-Bible---German---Open-Bible	024	JER	008	022	
+Holy-Bible---German---Open-Bible	024	JER	010	025	
+Holy-Bible---German---Open-Bible	024	JER	020	018	
+Holy-Bible---German---Open-Bible	024	JER	023	040	
+Holy-Bible---German---Open-Bible	024	JER	029	032	
+Holy-Bible---German---Open-Bible	025	LAM	003	001	
+Holy-Bible---German---Open-Bible	025	LAM	003	002	
+Holy-Bible---German---Open-Bible	025	LAM	003	003	
+Holy-Bible---German---Open-Bible	025	LAM	003	004	
+Holy-Bible---German---Open-Bible	025	LAM	003	005	
+Holy-Bible---German---Open-Bible	025	LAM	003	006	
+Holy-Bible---German---Open-Bible	025	LAM	003	007	
+Holy-Bible---German---Open-Bible	025	LAM	003	008	
+Holy-Bible---German---Open-Bible	025	LAM	003	009	
+Holy-Bible---German---Open-Bible	025	LAM	003	010	
+Holy-Bible---German---Open-Bible	025	LAM	003	011	
+Holy-Bible---German---Open-Bible	025	LAM	003	012	
+Holy-Bible---German---Open-Bible	025	LAM	003	013	
+Holy-Bible---German---Open-Bible	025	LAM	003	014	
+Holy-Bible---German---Open-Bible	025	LAM	003	015	
+Holy-Bible---German---Open-Bible	025	LAM	003	016	
+Holy-Bible---German---Open-Bible	025	LAM	003	017	
+Holy-Bible---German---Open-Bible	025	LAM	003	018	
+Holy-Bible---German---Open-Bible	025	LAM	003	019	
+Holy-Bible---German---Open-Bible	025	LAM	003	020	
+Holy-Bible---German---Open-Bible	025	LAM	003	021	
+Holy-Bible---German---Open-Bible	025	LAM	003	028	
+Holy-Bible---German---Open-Bible	025	LAM	003	029	
+Holy-Bible---German---Open-Bible	025	LAM	003	030	
+Holy-Bible---German---Open-Bible	025	LAM	003	031	
+Holy-Bible---German---Open-Bible	025	LAM	003	032	
+Holy-Bible---German---Open-Bible	025	LAM	003	033	
+Holy-Bible---German---Open-Bible	025	LAM	003	034	
+Holy-Bible---German---Open-Bible	025	LAM	003	035	
+Holy-Bible---German---Open-Bible	025	LAM	003	036	
+Holy-Bible---German---Open-Bible	025	LAM	003	037	
+Holy-Bible---German---Open-Bible	025	LAM	003	038	
+Holy-Bible---German---Open-Bible	025	LAM	003	039	
+Holy-Bible---German---Open-Bible	025	LAM	003	040	
+Holy-Bible---German---Open-Bible	025	LAM	003	041	
+Holy-Bible---German---Open-Bible	025	LAM	003	042	
+Holy-Bible---German---Open-Bible	025	LAM	003	043	
+Holy-Bible---German---Open-Bible	025	LAM	003	044	
+Holy-Bible---German---Open-Bible	025	LAM	003	045	
+Holy-Bible---German---Open-Bible	025	LAM	003	046	
+Holy-Bible---German---Open-Bible	025	LAM	003	047	
+Holy-Bible---German---Open-Bible	025	LAM	003	048	
+Holy-Bible---German---Open-Bible	025	LAM	003	049	
+Holy-Bible---German---Open-Bible	025	LAM	003	050	
+Holy-Bible---German---Open-Bible	025	LAM	003	051	
+Holy-Bible---German---Open-Bible	025	LAM	003	052	
+Holy-Bible---German---Open-Bible	025	LAM	003	053	
+Holy-Bible---German---Open-Bible	025	LAM	003	054	
+Holy-Bible---German---Open-Bible	025	LAM	003	055	
+Holy-Bible---German---Open-Bible	025	LAM	003	056	
+Holy-Bible---German---Open-Bible	025	LAM	003	057	
+Holy-Bible---German---Open-Bible	025	LAM	003	058	
+Holy-Bible---German---Open-Bible	025	LAM	003	059	
+Holy-Bible---German---Open-Bible	025	LAM	003	060	
+Holy-Bible---German---Open-Bible	025	LAM	003	061	
+Holy-Bible---German---Open-Bible	025	LAM	003	062	
+Holy-Bible---German---Open-Bible	025	LAM	003	063	
+Holy-Bible---German---Open-Bible	025	LAM	003	064	
+Holy-Bible---German---Open-Bible	025	LAM	003	065	
+Holy-Bible---German---Open-Bible	025	LAM	003	066	
+Holy-Bible---German---Open-Bible	026	EZE	009	011	
+Holy-Bible---German---Open-Bible	027	DAN	004	034	
+Holy-Bible---German---Open-Bible	028	HOS	013	015	
+Holy-Bible---German---Open-Bible	030	AMO	004	013	
+Holy-Bible---German---Open-Bible	030	AMO	006	014	
+Holy-Bible---German---Open-Bible	033	MIC	001	016	
+Holy-Bible---German---Open-Bible	036	ZEP	001	018	
+Holy-Bible---German---Open-Bible	039	MAL	001	014	
+Holy-Bible---German---Open-Bible	040	MAT	021	046	
+Holy-Bible---German---Open-Bible	040	MAT	022	046	
+Holy-Bible---German---Open-Bible	040	MAT	023	039	
+Holy-Bible---German---Open-Bible	042	LUK	001	080	
+Holy-Bible---German---Open-Bible	042	LUK	002	052	
+Holy-Bible---German---Open-Bible	042	LUK	004	044	
+Holy-Bible---German---Open-Bible	042	LUK	005	039	
+Holy-Bible---German---Open-Bible	042	LUK	006	049	
+Holy-Bible---German---Open-Bible	042	LUK	009	062	
+Holy-Bible---German---Open-Bible	042	LUK	010	042	
+Holy-Bible---German---Open-Bible	042	LUK	011	054	
+Holy-Bible---German---Open-Bible	042	LUK	012	059	
+Holy-Bible---German---Open-Bible	042	LUK	013	035	
+Holy-Bible---German---Open-Bible	042	LUK	014	035	
+Holy-Bible---German---Open-Bible	042	LUK	016	031	
+Holy-Bible---German---Open-Bible	042	LUK	017	037	
+Holy-Bible---German---Open-Bible	042	LUK	018	043	
+Holy-Bible---German---Open-Bible	042	LUK	020	047	
+Holy-Bible---German---Open-Bible	042	LUK	021	038	
+Holy-Bible---German---Open-Bible	042	LUK	023	056	
+Holy-Bible---German---Open-Bible	042	LUK	024	052	
+Holy-Bible---German---Open-Bible	044	ACT	004	037	
+Holy-Bible---German---Open-Bible	044	ACT	005	042	
+Holy-Bible---German---Open-Bible	044	ACT	019	040	
+Holy-Bible---German---Open-Bible	045	ROM	007	025	
+Holy-Bible---German---Open-Bible	045	ROM	008	039	
+Holy-Bible---German---Open-Bible	045	ROM	010	021	
+Holy-Bible---German---Open-Bible	045	ROM	011	036	
+Holy-Bible---German---Open-Bible	045	ROM	014	023	
+Holy-Bible---German---Open-Bible	046	1CO	006	020	
+Holy-Bible---German---Open-Bible	046	1CO	010	033	
+Holy-Bible---German---Open-Bible	046	1CO	011	034	
+Holy-Bible---German---Open-Bible	046	1CO	012	031	
+Holy-Bible---German---Open-Bible	046	1CO	015	058	
+Holy-Bible---German---Open-Bible	047	2CO	003	018	
+Holy-Bible---German---Open-Bible	047	2CO	012	021	
+Holy-Bible---German---Open-Bible	048	GAL	005	026	
+Holy-Bible---German---Open-Bible	048	GAL	006	018	
+Holy-Bible---German---Open-Bible	051	COL	003	025	
+Holy-Bible---German---Open-Bible	052	1TH	002	020	
+Holy-Bible---German---Open-Bible	053	2TH	003	018	
+Holy-Bible---German---Open-Bible	054	1TI	001	020	
+Holy-Bible---German---Open-Bible	054	1TI	002	015	
+Holy-Bible---German---Open-Bible	058	HEB	001	014	
+Holy-Bible---German---Open-Bible	058	HEB	011	040	
+Holy-Bible---German---Open-Bible	058	HEB	012	029	
+Holy-Bible---German---Open-Bible	058	HEB	013	025	
+Holy-Bible---German---Open-Bible	060	1PE	001	025	
+Holy-Bible---German---Open-Bible	061	2PE	001	021	
+Holy-Bible---German---Open-Bible	061	2PE	003	018	
+Holy-Bible---German---Open-Bible	066	REV	003	022	
+Holy-Bible---German---Zurich-Bible	064	3JO	001	014	Ich hoffe vielmehr, dich recht bald zu sehen; dann wollen wir mündlich reden.
+Holy-Bible---German---Zurich-Bible	066	REV	012	018	UND ich trat auf den Sand des Meeres.
 Holy-Bible---Ghanongga---Kubokota-Adapt-Bible	064	3JO	001	014	Qa gilagila valeania ara za mina oqoro zovai za pala mana batigo gu, ko tonai tu tana varigozoro zozoto nari za tana kole makarai varivavakato.
 Holy-Bible---Ghanongga---Kubokota-Adapt-Bible	066	REV	012	018	Ko za kole gu turunana pana nagazana pa nole za na ratovo.
 Holy-Bible---Gofa---Gofa-Bible	064	3JO	001	014	Shin taani matara neera gayttanaw qoppays; he wode nuuni odettana.
@@ -6578,6 +7332,14 @@ Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	019	PSA	142	001	מַש�
 Holy-Bible---Hindi---Contemporary	064	3JO	001	014	मेरी आशा है कि मैं तुमसे बहुत जल्द भेंटकर आमने-सामने आपस में बातचीत करूंगा.
 Holy-Bible---Hindi---Hindi-Bible	064	3JO	001	014	पर मुझे आशा है कि तुझ से शीघ्र भेंट करूँगा: तब हम आमने-सामने बातचीत करेंगे:
 Holy-Bible---Hindi---Hindi-Bible	066	REV	012	018	और वह समुद्र के रेत पर जा खड़ा हुआ।
+Holy-Bible---Hona---Hwana-Bible	044	ACT	015	034	
+Holy-Bible---Hona---Hwana-Bible	044	ACT	024	007	
+Holy-Bible---Hona---Hwana-Bible	064	3JO	001	014	Tsǝɓaku na minna sǝ a na sa ni, ndǝn nǝm a tsǝ laɓaara nda yirha tǝ yirha.
+Holy-Bible---Hona---Hwana-Bible	066	REV	012	018	Tǝrgha sheetan ishgha a ten chehwedɗi na mii wuri aamɗi. Tǝrgha ǝnkaheedɗi ishgha a mii ƙǝƙǝshɓang nda wuri aamɗi.
+Holy-Bible---Hre---Hre-Bible	041	MAR	009	050	Boh aih ngè lem, mahaq tàng boh aih pi xang, aih èh yŏc cleq hu broq haq xang hlài.
+Holy-Bible---Hre---Hre-Bible	044	ACT	015	034	-
+Holy-Bible---Hre---Hre-Bible	064	3JO	001	014	au toq ngèh ka rênh jah trùh hmàih ka ìh dôq ba jah tangèa hu hatuàng ti dabau.
+Holy-Bible---Hre---Hre-Bible	066	REV	012	018	Bìh yòng ta braih diac raxìq.
 Holy-Bible---Hungarian---Hungarian-Jewish-Bible	009	1SA	020	042	És mondta Jónátán Dávidnak: Menj békével! Amit esküdtünk mi ketten az Örökkévaló nevében, mondván: az Örökkévaló legyen köztem és közted, magzatom és magzatod közt mindörökké!
 Holy-Bible---Hungarian---Hungarian-Jewish-Bible	011	1KI	022	043	És járt atyjánal Ászának minden útja szerint, nem tért le arról, cselekedvén azt ami helyes az Örökkévaló szemeiben.
 Holy-Bible---Hungarian---Hungarian-Jewish-Bible	019	PSA	003	001	Zsoltár Dávidtól, midőn elmenekült fia Absalóm elől.
@@ -11485,6 +12247,21 @@ Holy-Bible---Portuguese---Free-for-All	044	ACT	028	029
 Holy-Bible---Portuguese---Free-for-All	045	ROM	016	024	
 Holy-Bible---Portuguese---Free-for-All	064	3JO	001	014	Espero vê-lo muito em breve, para que possamos conversar pessoalmente.
 Holy-Bible---Portuguese---Free-for-All	066	REV	012	018	
+Holy-Bible---Portuguese---New-Open-Access	040	MAT	017	021	
+Holy-Bible---Portuguese---New-Open-Access	040	MAT	018	011	
+Holy-Bible---Portuguese---New-Open-Access	041	MAR	007	016	
+Holy-Bible---Portuguese---New-Open-Access	041	MAR	009	044	.
+Holy-Bible---Portuguese---New-Open-Access	041	MAR	009	046	.
+Holy-Bible---Portuguese---New-Open-Access	041	MAR	011	026	.
+Holy-Bible---Portuguese---New-Open-Access	041	MAR	015	028	
+Holy-Bible---Portuguese---New-Open-Access	042	LUK	017	036	.
+Holy-Bible---Portuguese---New-Open-Access	042	LUK	023	017	.
+Holy-Bible---Portuguese---New-Open-Access	043	JOH	005	004	
+Holy-Bible---Portuguese---New-Open-Access	044	ACT	008	037	--
+Holy-Bible---Portuguese---New-Open-Access	044	ACT	028	029	
+Holy-Bible---Portuguese---New-Open-Access	045	ROM	016	024	
+Holy-Bible---Portuguese---New-Open-Access	064	3JO	001	014	Mas espero te ver em breve, e falaremos face a face.
+Holy-Bible---Portuguese---New-Open-Access	066	REV	012	018	Então o dragão se pôs em pé na areia do mar.
 Holy-Bible---Portuguese---Open-New-Bible	007	JDG	005	031	Assim, morram, ó Senhor, todos os seus inimigos! Mas os que amam o Senhor brilhem como brilha a força do sol nascente!”
 Holy-Bible---Portuguese---Open-New-Bible	009	1SA	020	042	Por fim, Jônatas disse a Davi: “Vá em paz, pois temos jurado um ao outro, em nome do Senhor, dizendo: ‘Seja o Senhor testemunha entre mim e você, entre minha descendência e sua descendência para sempre’ ”.
 Holy-Bible---Portuguese---Open-New-Bible	064	3JO	001	014	Pois espero vê-lo em breve, e então teremos muito o que conversar juntos.
@@ -11688,6 +12465,7 @@ Holy-Bible---Serbian---Serbian-ONSP-Cyrillic	066	REV	012	018	Аждаја ста
 Holy-Bible---Serbian---Serbian-ONST-Latin	064	3JO	001	014	no se nadam da ću te uskoro videti, pa ćemo usmeno razgovarati.
 Holy-Bible---Serbian---Serbian-ONST-Latin	066	REV	012	018	Aždaja stade na obalu mora.
 Holy-Bible---Setswana---Open-Tswana-Living	064	3JO	001	014	gonne ke solofela go go bona mo bogautshwaneng mme ke gone re tlaa buang go le gontsi re le mmogo.
+Holy-Bible---Sgaw-Karen---Mason-Bible	040	MAT	017	021	
 Holy-Bible---Shi---Mashi-Bible	009	1SA	020	042	Yônatani anacibwîra Daudi, erhi: «Ogendage n’omurhûla. Binabâge kulya rhwagashanaga oku izîno lya Nyamubâho galya mango rhuderha nti: Nyamubâho abè haguma na nâni na nâwe, abè haguma n’iburha lyâni n’iburha lyâwe, emyâka n’emyâka».
 Holy-Bible---Shi---Mashi-Bible	011	1KI	022	043	Ashimba loshi enjira y’îshe Asa, arhanayirhengagamwo akaz’iyôrha ajira okushingânîne omu masù ga Nyakasane.
 Holy-Bible---Shi---Mashi-Bible	013	1CH	012	004	Yishemaya, w’e Gabaoni, w’omu barhambo b’abarhabâzi ntwâli makumi asharhu.
