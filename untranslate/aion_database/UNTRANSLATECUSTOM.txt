@@ -249,6 +249,9 @@ Holy-Bible---Dongxiang---Donxian-Bible	058	HEB	006	001	AIONIAN	g166		NULL
 Holy-Bible---Dongxiang---Donxian-Bible	058	HEB	006	002	SKIP			NULL
 Holy-Bible---Dongxiang---Donxian-Bible								NULL
 Holy-Bible---Dutch---Canisiusvertaling								NULL
+Holy-Bible---Dutch---Leuvense-Bible	066	REV	020	009	LOF	g3041 g4442		NULL
+Holy-Bible---Dutch---Leuvense-Bible	066	REV	020	010	AIONS	g165		NULL
+Holy-Bible---Dutch---Leuvense-Bible								NULL
 Holy-Bible---Dutch---Schrift	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Dutch---Schrift								NULL
 Holy-Bible---Dutch---Statenvertaling	061	2PE	002	017	NOTE			questioned
@@ -658,6 +661,7 @@ Holy-Bible---English---LXX2012-U-S-English	020	PRO	004	027	SWAP			Turn not aside
 Holy-Bible---English---LXX2012-U-S-English	020	PRO	024	022	SWAP			For they will suddenly punish the ungodly, and who can know the vengeance [inflicted] by both?
 Holy-Bible---English---LXX2012-U-S-English	061	2PE	002	017	NOTE			questioned
 Holy-Bible---English---LXX2012-U-S-English								NULL
+Holy-Bible---English---Majority-Standard-Bible								NULL
 Holy-Bible---English---Montgomery-NT								NULL
 Holy-Bible---English---New-Heart-Aramaic								NULL
 Holy-Bible---English---New-Heart-Jehovah								NULL
@@ -717,6 +721,11 @@ Holy-Bible---Finnish---Finnish-Bible								NULL
 Holy-Bible---Finnish---Finnish-Pyha-Raamattu								NULL
 Holy-Bible---Finnish---Open-Living-News								NULL
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible								NULL
+Holy-Bible---French---Bonnet-Bovet-Bible	041	MAR	011	013	AIONS	g165		NULL
+Holy-Bible---French---Bonnet-Bovet-Bible	041	MAR	011	014	SKIP			NULL
+Holy-Bible---French---Bonnet-Bovet-Bible	066	REV	014	011	SKIP			NULL
+Holy-Bible---French---Bonnet-Bovet-Bible	066	REV	014	012	AIONS	g165		NULL
+Holy-Bible---French---Bonnet-Bovet-Bible								NULL
 Holy-Bible---French---Free-for-the-World	061	2PE	002	017	NOTE			questioned
 Holy-Bible---French---Free-for-the-World								NULL
 Holy-Bible---French---French-Crampon-Bible								NULL
@@ -784,6 +793,7 @@ Holy-Bible---French---French-Ostervald-Bible								NULL
 Holy-Bible---French---French-Perret-Gentil-Rilliet								NULL
 Holy-Bible---French---French-Stapfer-Bible								NULL
 Holy-Bible---French---French-Synodale-Bible								NULL
+Holy-Bible---French---Geneva-Bible								NULL
 Holy-Bible---French---Vulgate-Glaire	042	LUK	016	022	HADES	g86		NULL
 Holy-Bible---French---Vulgate-Glaire	042	LUK	016	023	SKIP			NULL
 Holy-Bible---French---Vulgate-Glaire								NULL
@@ -837,6 +847,8 @@ Holy-Bible---German---German-Reinhardt-Bible								NULL
 Holy-Bible---German---German-Schlachter								NULL
 Holy-Bible---German---German-Tafel-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---German---German-Tafel-Bible								NULL
+Holy-Bible---German---Open-Bible								NULL
+Holy-Bible---German---Zurich-Bible								NULL
 Holy-Bible---Ghanongga---Kubokota-Adapt-Bible								NULL
 Holy-Bible---Gikuyu---Kikuyu	041	MAR	009	043	SKIP			NULL
 Holy-Bible---Gikuyu---Kikuyu	041	MAR	009	044	GEHENNA	g1067		NULL
@@ -969,6 +981,8 @@ Holy-Bible---Hindi---Contemporary	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Hindi---Contemporary								NULL
 Holy-Bible---Hindi---Hindi-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Hindi---Hindi-Bible								NULL
+Holy-Bible---Hona---Hwana-Bible								NULL
+Holy-Bible---Hre---Hre-Bible								NULL
 Holy-Bible---Hruso---Hrusso-Angka-Bible								NULL
 Holy-Bible---Hungarian---Hungarian-Jewish-Bible								NULL
 Holy-Bible---Hungarian---Hungarian-Karoli	061	2PE	002	017	NOTE			questioned
@@ -1297,11 +1311,13 @@ Holy-Bible---Portuguese---Biblia-Livre	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Portuguese---Biblia-Livre								NULL
 Holy-Bible---Portuguese---Free-for-All	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Portuguese---Free-for-All								NULL
+Holy-Bible---Portuguese---New-Open-Access								NULL
 Holy-Bible---Portuguese---Open-New-Bible								NULL
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Portuguese---Portuguese-Trans-Trans								NULL
 Holy-Bible---Portuguese---World-Portuguese-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Portuguese---World-Portuguese-Bible								NULL
+Holy-Bible---Potawatomi---Potawatomi-Bible								NULL
 Holy-Bible---Powari---Powari-Bible								NULL
 Holy-Bible---Rakhine---Rakhine-Bible								NULL
 Holy-Bible---Rangi---Rangi-Bible								NULL
@@ -1896,6 +1912,7 @@ Holy-Bible---Setswana---Open-Tswana-Living	058	HEB	013	021	SKIP			NULL
 Holy-Bible---Setswana---Open-Tswana-Living	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Setswana---Open-Tswana-Living	065	JUD	001	024	AIONS	g165		NULL
 Holy-Bible---Setswana---Open-Tswana-Living	065	JUD	001	025	SKIP			NULL
+Holy-Bible---Sgaw-Karen---Mason-Bible								NULL
 Holy-Bible---Shi---Mashi-Bible								NULL
 Holy-Bible---Sholaga---Sholaga-Bible								NULL
 Holy-Bible---Shona---Rakasununguka								NULL
@@ -1963,6 +1980,7 @@ Holy-Bible---Swahili---Swahili-Bible	050	PHI	004	020	SKIP			NULL
 Holy-Bible---Swahili---Swahili-Bible								NULL
 Holy-Bible---Swahili---Swahili-Open-Bible								NULL
 Holy-Bible---Swedish---Swedish-Bible								NULL
+Holy-Bible---Swedish---Swedish-Bible-1703								NULL
 Holy-Bible---Swedish---Swedish-Bible-1873	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Swedish---Swedish-Bible-1873								NULL
 Holy-Bible---Swedish---Swedish-Bible-1917								NULL
@@ -2108,15 +2126,3 @@ Holy-Bible---Zinza---Zinza-Bible	058	HEB	007	021	SKIP			NULL
 Holy-Bible---Zinza---Zinza-Bible	066	REV	020	002	ABYSS	g12		NULL
 Holy-Bible---Zinza---Zinza-Bible	066	REV	020	003	SKIP			NULL
 Holy-Bible---Zinza---Zinza-Bible								NULL
-Holy-Bible---Dutch---Leuvense-Bible								NULL
-Holy-Bible---French---Bonnet-Bovet-Bible								NULL
-Holy-Bible---French---Geneva-Bible								NULL
-Holy-Bible---German---Open-Bible								NULL
-Holy-Bible---German---Zurich-Bible								NULL
-Holy-Bible---Portuguese---New-Open-Access								NULL
-Holy-Bible---Potawatomi---Potawatomi-Bible								NULL
-Holy-Bible---Sgaw-Karen---Mason-Bible								NULL
-Holy-Bible---Swedish---Swedish-Bible-1703								NULL
-Holy-Bible---English---Majority-Standard-Bible								NULL
-Holy-Bible---Hona---Hwana-Bible								NULL
-Holy-Bible---Hre---Hre-Bible								NULL

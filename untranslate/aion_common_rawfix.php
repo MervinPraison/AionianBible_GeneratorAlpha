@@ -9194,14 +9194,60 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---German---Open-Bible" :
 if (!($bfile = preg_replace("/\x{2605}/us","",$bfile,-1,$rnum)) || $rnum!=9) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/'''/us","'",$bfile,-1,$rnum)) || $rnum!=72) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/''/us","'",$bfile,-1,$rnum)) || $rnum!=192) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
+$blockfix = <<<EOF
+Psalms 6:10 Gehört (erhört) hat JHWH mein Bitten;JHWH wird mein Gebet (Bittgebet) annehmen:
+Psalms 6:11 All meine Feinde werden (sollen) sich schämen (zunichte werden) und sehr erschrecken (vergehen),Sie werden (sollen) umkehren (von mir ablassen, wieder?, sterben?) [und] sich plötzlich schämen (zunichte werden).  
+Psalms 7:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 6:10 (.+?)Psalms 7:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 9:20 Erhebe dich, JHWH! Menschlein (Menschen) sollen nicht stark sein!Die Nationen sollen gerichtet werden vor dir!
+Psalms 9:21 Setze, JHWH, Furcht in sie (ihnen einen Lehrer vor, gib ihnen eine Lehre)!Es sollen wissen Nationen, dass sie [nur] Menschlein (Menschen) sind! {Selah}
+Psalms 10:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 9:20 (.+?)Psalms 10:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 18:50 Darum will ich dich preisen, JHWH, [mitten] unter den Heiden,
+Psalms 18:51 Und deinem Namen singen, Der groß macht das Heil seines KönigsUnd seinem Gesalbten Bundestreue erweist,David und seinen Nachkommen auf ewig. “ 
+Psalms 19:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 18:50 (.+?)Psalms 19:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 30:12 Da hast du (du hast) mir mein Klagen in Tanzen verwandelt, hast mir die Trauerkleidung ausgezogen und mich mit Freude bekleidet (gegürtet).
+Psalms 30:13 Darum (so dass, damit) will ich ([meine] Leber, [meine] Herrlichkeit, [meine] Seele) dich besingen und nie (nicht) verstummen (schweigen); JHWH, mein Gott, auf ewig will ich dich preisen!  
+Psalms 31:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 30:12 (.+?)Psalms 31:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 31:24 JHWH liebt all seine Getreuen. Die Getreuen behütet JHWH, doch über den Rest vergilt er dem, der Hochmut übt.
+Psalms 31:25 Seid stark, dass er euer Herz stärke, ihr alle, die ihr hofft auf JHWH.
+
+EOF;
+if (!($bfile = preg_replace("/Psalms 31:24 (.+?)\n/u",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 88:18 Sie umfließen (umgeben, umkreisen) mich wie Wasser den ganzen Tag, sie umringen mich alle zusammen (allesamt, beisammen).
+Psalms 88:19 Du hast von mir entfernt [liebenden] Freund und [nahen] Verwandten (Stammesgenosse, Freund). Meine Vertrauten [sind] Finsternis.  
+
+EOF;
+if (!($bfile = preg_replace("/Psalms 88:18 (.+?)\n/u",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Jonah 2:10 Ich aber will mit der Stimme des Dankes Dir opfern,Was ich gelobt habe, will ich vollenden,Rettung [ist] bei JHWH!
+Jonah 2:11 Da sprach JHWH zu dem Fisch, und er spie {den} Jona aus auf das trockene Land (Festland).  
+Jonah 3:1 
+EOF;
+if (!($bfile = preg_replace("/Jonah 2:10 (.+?)Jonah 3:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
+
 
 
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---German---Zurich-Bible" :
 if (!($bfile = preg_replace("/\+/us",'$1.)',$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/\//us",'',$bfile,-1,$rnum)) || $rnum!=11752) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 $blockfix = <<<EOF
 Numbers 13:33 Und sie berichteten den Israeliten schlimme Dinge von dem Lande, das sie ausgekundschaftet hatten, und sprachen: Das Land, das wir durchzogen haben, um es auszukundschaften, verzehrt seine Bewohner, und das ganze Volk, das wir darin sahen, besteht aus hochgewachsenen Leuten.
@@ -9231,7 +9277,7 @@ if (!($bfile = preg_replace("/II Samuel 19:43 (.+?)II Samuel 20:1 /us",$blockfix
 $blockfix = <<<EOF
 
 I Kings 5:18 Nun aber hat mir der Herr, mein Gott, auf allen Seiten Ruhe gegeben; kein Widersacher ist mehr da, kein Missgeschick.
-I Kings 5:19 So gedenke ich denn nun dem Namen des Herrn, meines Gottes, ein Haus zu bauen, wie der Herr meinem Vater David verheissen hat: "Dein Sohn, den ich an deiner Statt auf deinen Thron setzen werde, der soll meinem Namen das Haus bauen." (a) 2Sa 7:13; 1Ch 22:10
+I Kings 5:19 So gedenke ich denn nun dem Namen des Herrn, meines Gottes, ein Haus zu bauen, wie der Herr meinem Vater David verheissen hat: "Dein Sohn, den ich an deiner Statt auf deinen Thron setzen werde, der soll meinem Namen das Haus bauen." 
 I Kings 5:20 So gebiete nun, dass man mir Zedern fälle auf dem Libanon; meine Knechte sollen deinen Knechten helfen, und den Lohn für deine Knechte will ich dir bezahlen, ganz wie du es verlangst. Du weisst ja, dass niemand unter uns ist, der Holz zu fällen versteht wie die Sidonier. 
 I Kings 5:21 Als nun Hiram die Botschaft Salomos hörte, war er hocherfreut und sprach: Gepriesen sei heute der Herr, der dem David einen weisen Sohn gegeben hat über dieses grosse Volk!
 I Kings 5:22 Dann sandte Hiram zu Salomo und liess ihm sagen: Ich habe gehört, was du mir entboten hast; ich will all dein Begehren nach Zedern- und Zypressenstämmen erfüllen.
@@ -9240,7 +9286,7 @@ I Kings 5:24 Also lieferte Hiram dem Salomo Zedern- und Zypressenholz, soviel er
 I Kings 5:25 Salomo aber lieferte dem Hiram 20 000 Kor Weizen zum Unterhalt für seinen Hof und 20 000 Bath vom feinsten Öl. So viel lieferte Salomo dem Hiram Jahr für Jahr.
 I Kings 5:26 Und der Herr gab Salomo Weisheit, wie er ihm verheissen hatte; und es war Friede zwischen Hiram und Salomo, und sie schlossen einen Vertrag miteinander.
 I Kings 5:27 Der König Salomo aber hob aus ganz Israel Fronarbeiter aus; es waren ihrer 30 000.
-I Kings 5:28 Und er sandte sie abwechselnd auf den Libanon, jeden Monat zehntausend Mann: einen Monat waren sie auf dem Libanon und zwei Monate daheim. Und Adoniram war über die Fronarbeiter gesetzt. (a) 1Kön 4:6
+I Kings 5:28 Und er sandte sie abwechselnd auf den Libanon, jeden Monat zehntausend Mann: einen Monat waren sie auf dem Libanon und zwei Monate daheim. Und Adoniram war über die Fronarbeiter gesetzt. 
 I Kings 5:29 Auch hatte Salomo 70 000 Lastträger und 80 000 Steinmetzen im Gebirge (Juda),
 I Kings 5:30 ohne die Aufseher Salomos, die über die Arbeit gesetzt waren, nämlich 3 300, die den Arbeitern zu gebieten hatten.
 I Kings 5:31 Und sie brachen auf Geheiss des Königs grosse, kostbare Steine, um den Grund des Tempels mit Quadern zu legen.
@@ -9249,7 +9295,7 @@ I Kings 6:1
 EOF;
 if (!($bfile = preg_replace("/\nI Kings 5:18 (.+?)I Kings 6:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $blockfix = <<<EOF
-Job 39:30 Und seine Jungen schlürfen Blut; / und wo Erschlagene sind, da ist er.
+Job 39:30 Und seine Jungen schlürfen Blut; und wo Erschlagene sind, da ist er.
 Job 39:31 Und der Herr wandte sich an Hiob und sprach:
 Job 39:32 Hadern will der Tadler mit dem Allmächtigen? Der Gott zurechtwies, gebe darauf Antwort!
 Job 39:33 Da antwortete Hiob dem Herrn und sprach:
@@ -9263,25 +9309,85 @@ Job 40:24 Spielst du mit ihm wie mit einem Vogel und bindest du es an für deine
 Job 40:25 Feilschen darum die Zunftgenossen, verteilen sie es unter die Händler?
 Job 40:26 Kannst du seine Haut mit Stacheln spicken und mit Fischharpunen seinen Kopf?
 Job 40:27 Lege nur deine Hand daran - denke an den Kampf! - du tust es nicht wieder.
-Job 40:28 Sieh, deine Hoffnung wäre betrogen; / schon bei seinem Anblick würde einer hingestreckt.
+Job 40:28 Sieh, deine Hoffnung wäre betrogen; schon bei seinem Anblick würde einer hingestreckt.
 Job 41:1 
 EOF;
 if (!($bfile = preg_replace("/Job 40:24 (.+?)Job 41:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $blockfix = <<<EOF
-Ecclesiastes 4:16 Da war kein Ende all des Volkes, / all derer, an deren Spitze er stand; / doch die Späteren werden sich nicht an ihm freuen. / Denn auch das ist nichtig und ein Haschen nach Wind.
-Ecclesiastes 4:17 SEI behutsam, wenn du zum Hause Gottes gehst: / Hintreten, um zu hören, ist besser, / als wenn die Toren Opfer bringen; / denn sie wissen nichts als Böses zu tun. / (a) 1Sa 15:22; Spr 15:8
+Psalms 6:10 der Herr hat mein Flehen gehört, der Herr nimmt an mein Gebet.
+Psalms 6:11 Es werden zuschanden, es erschrecken alle meine Feinde; und abermals werden sie zuschanden im Nu.
+Psalms 7:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 6:10 (.+?)Psalms 7:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 9:20 Stehe auf, o Herr, dass nicht der Mensch obsiege, dass die Heiden vor dir gerichtet werden.
+Psalms 9:21 Lege, o Herr, einen Schrecken auf sie; es sollen die Heiden erkennen, dass sie Menschen sind. 
+Psalms 10:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 9:20 (.+?)Psalms 10:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 18:50 Darum will ich dich preisen unter den Völkern, o Herr, und deinem Namen lobsingen,
+Psalms 18:51 Der du deinem König grosses Heil verleihst und deinem Gesalbten Huld erweisest, David und seinem Hause ewiglich.
+Psalms 19:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 18:50 (.+?)Psalms 19:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 30:12 da hast du mir meine Klage in Reigen verwandelt, mein Trauerkleid gelöst, mich mit Freude gegürtet,
+Psalms 30:13 auf dass meine Seele dir lobsinge und nicht schweige. Herr, mein Gott, in Ewigkeit will ich dich preisen. 
+Psalms 31:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 30:12 (.+?)Psalms 31:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 31:24 Liebet den Herrn, all seine Frommen! Die Getreuen behütet der Herr, doch reichlich vergilt er dem, der Hochmut übt.
+Psalms 31:25 Seid mir getrost und unverzagt, ihr alle, die ihr des Herrn harret! 
+Psalms 32:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 31:24 (.+?)Psalms 32:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 49:20 sie kommt doch zu der Wohnung seiner Väter, die das Licht nimmermehr schauen.
+Psalms 49:21 Der Mensch in Pracht, doch ohne Verstand, wird gleich dem Vieh, das abgetan wird. 
+Psalms 50:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 49:20 (.+?)Psalms 50:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 55:23 Wirf dein Anliegen auf den Herrn, er wird dich versorgen; er lässt den Gerechten nimmer wanken.
+Psalms 55:24 Doch du, o Gott, wirst sie hinabstossen in die Tiefe der Grube; die Blutgierigen und Falschen werden ihre Tage nicht auf die Hälfte bringen. Ich aber vertraue auf dich. 
+Psalms 56:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 55:23 (.+?)Psalms 56:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 88:18 Sie umfluten mich wie Wasser allezeit, sie umringen mich allzumal.
+Psalms 88:19 Den Freund und Genossen hast du mir entfremdet, mein Vertrauter ist die Finsternis. 
+Psalms 89:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 88:18 (.+?)Psalms 89:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 89:52 womit deine Feinde schmähen, o Herr, womit sie schmähen die Fußstapfen deines Gesalbten!
+Psalms 89:53 Gelobt sei der Herr in Ewigkeit! Amen, Amen. 
+Psalms 90:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 89:52 (.+?)Psalms 90:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 141:6 Sind ihre Richter in die Felsspalte gestürzt, so wird man hören, daß meine Reden lieblich sind.
+Psalms 141:7 Wie man Samen in die aufgebrochene Erde streut, so unsre Gebeine in den Rachen des Totenreichs.
+Psalms 141:8 
+EOF;
+if (!($bfile = preg_replace("/Psalms 141:6 (.+?)Psalms 141:8 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Ecclesiastes 4:16 Da war kein Ende all des Volkes, all derer, an deren Spitze er stand; doch die Späteren werden sich nicht an ihm freuen. Denn auch das ist nichtig und ein Haschen nach Wind.
+Ecclesiastes 4:17 SEI behutsam, wenn du zum Hause Gottes gehst: Hintreten, um zu hören, ist besser, als wenn die Toren Opfer bringen; denn sie wissen nichts als Böses zu tun. / 
 Ecclesiastes 5:1 
 EOF;
 if (!($bfile = preg_replace("/Ecclesiastes 4:16 (.+?)Ecclesiastes 5:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $blockfix = <<<EOF
-Ecclesiastes 7:29 Was meine Seele immerfort suchte / und was ich nicht fand, ist dies: / unter tausend habe ich wohl einen Mann gefunden, / aber ein Weib unter diesen allen fand ich nicht.
-Ecclesiastes 7:30 Nur habe ich, siehe, das gefunden, / dass Gott die Menschen recht geschaffen hat; / sie aber suchen viele Künste.
+Ecclesiastes 7:29 Was meine Seele immerfort suchte und was ich nicht fand, ist dies: unter tausend habe ich wohl einen Mann gefunden, aber ein Weib unter diesen allen fand ich nicht.
+Ecclesiastes 7:30 Nur habe ich, siehe, das gefunden, dass Gott die Menschen recht geschaffen hat; sie aber suchen viele Künste.
 Ecclesiastes 8:1 
 EOF;
 if (!($bfile = preg_replace("/Ecclesiastes 7:29 (.+?)Ecclesiastes 8:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $blockfix = <<<EOF
-Song of Solomon 7:13 am Morgen früh nach den Weingärten sehen, / ob der Weinstock gesprosst, / ob die Blüten sich aufgeschlossen, / ob die Granaten im Bluste stehen. / Dort will ich dir meine Liebe schenken. 
-Song of Solomon 7:14 Es duften die Liebesäpfel, / vor unsern Türen sind köstliche Früchte, / frische zusammen mit jährigen; / die habe ich, mein Geliebter, dir aufgespart.
+Song of Solomon 7:13 am Morgen früh nach den Weingärten sehen, ob der Weinstock gesprosst, ob die Blüten sich aufgeschlossen, ob die Granaten im Bluste stehen. Dort will ich dir meine Liebe schenken. 
+Song of Solomon 7:14 Es duften die Liebesäpfel, vor unsern Türen sind köstliche Früchte, frische zusammen mit jährigen; die habe ich, mein Geliebter, dir aufgespart.
 Song of Solomon 8:1 
 EOF;
 if (!($bfile = preg_replace("/Song of Solomon 7:13 (.+?)Song of Solomon 8:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -9305,7 +9411,7 @@ $blockfix = <<<EOF
 Daniel 3:30 Und der König setzte hierauf Sadrach, Mesach und Abed-Nego wieder in ihre Würde ein in der Provinz Babel.
 Daniel 3:31 DER König Nebukadnezar an die Völker aller Nationen und Zungen, die auf der ganzen Erde wohnen: Heil euch in Fülle!
 Daniel 3:32 Es hat mir gefallen, die Zeichen und Wunder kundzutun, die der höchste Gott an mir getan hat.
-Daniel 3:33 Wie sind seine Zeichen so gross und seine Wunder so gewaltig! Sein Reich ist ein ewiges Reich, und seine Herrschaft währt von Geschlecht zu Geschlecht. (a) Da 2:44; Ps 145:13
+Daniel 3:33 Wie sind seine Zeichen so gross und seine Wunder so gewaltig! Sein Reich ist ein ewiges Reich, und seine Herrschaft währt von Geschlecht zu Geschlecht. 
 Daniel 4:1 
 EOF;
 if (!($bfile = preg_replace("/Daniel 3:30 (.+?)Daniel 4:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -9316,7 +9422,7 @@ Hosea 13:1
 EOF;
 if (!($bfile = preg_replace("/Hosea 12:14 (.+?)Hosea 13:1 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $blockfix = <<<EOF
-Jonah 2:10 Ich aber will mit lautem Danken / dir Opfer bringen; / was ich gelobt habe, will ich erfüllen! / Die Hilfe steht bei dem Herrn.
+Jonah 2:10 Ich aber will mit lautem Danken dir Opfer bringen; was ich gelobt habe, will ich erfüllen! Die Hilfe steht bei dem Herrn.
 Jonah 2:11 Und der Herr gebot dem Fisch, und er spie Jona ans Land.
 Jonah 3:1 
 EOF;
@@ -19621,6 +19727,12 @@ Job 40:28 Si, hans hopp skall fela honom, och han skall uppenbarligen fördrifve
 Job 41:1 
 EOF;
 if (!($bfile = preg_replace("/Job 40:24 (.+?)Job 41:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$blockfix = <<<EOF
+Psalms 31:24 Älsker HERran, alle hans helige: HERren bewarar de trogna, och wedergäller dem rikeliga, som högmod öfwa.
+Psalms 31:25 Warer tröste och oförfärade, alle J, som HERran förbiden.
+
+EOF;
+if (!($bfile = preg_replace("/Psalms 31:24 (.+?)\n/u",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 Song of Solomon 5:16 Hans hals är söt och ganska lustig: En sådana är min wän; min wän är sådana, J Jerusalems döttrar.
 Song of Solomon 5:17 Hwart är då din wän gången, o du dägeligasta ibland qwinnor? Hwart hafwer din wän wändt sig, så wilje wi honom söka med dig.

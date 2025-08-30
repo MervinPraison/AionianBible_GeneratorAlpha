@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1876190     
-# File Date: 08/27/2025 22:34:44
+# File Size: 1878416     
+# File Date: 08/30/2025 03:01:04
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -5477,6 +5477,11 @@ Holy-Bible---German---Open-Bible	015	EZR	007	028
 Holy-Bible---German---Open-Bible	018	JOB	001	022	
 Holy-Bible---German---Open-Bible	018	JOB	018	021	
 Holy-Bible---German---Open-Bible	018	JOB	019	029	
+Holy-Bible---German---Open-Bible	019	PSA	006	001	'Für den Chorleiter  (Dirigenten, Singenden, Musizierenden) '. 'Zum Saitenspiel  (auf Saiteninstrumenten)   [vorzutragen]  von Basstimmen' 'Ein Psalm  (begleitetes Lied)  von  (für, über, nach Art von)  David.'
+Holy-Bible---German---Open-Bible	019	PSA	009	001	'Für den Chorleiter  (Dirigenten, Singenden, Musizierenden) '. `almut labben ' ( [Vorzutragen vom]  Vorsteher  [über das Ritual]  „`almut labben“) ' 'Ein Psalm  (begleitetes Lied)  von  (für, über, nach Art von)  David.'
+Holy-Bible---German---Open-Bible	019	PSA	018	001	'Für den Chorleiter. Vom Diener  JHWH s, von David, welcher sprach zu JHWH die Worte dieses Lieds am Tag, als JHWH ihn rettete aus der Handfläche all seiner Feinde und aus der Hand Sauls.'
+Holy-Bible---German---Open-Bible	019	PSA	030	001	Ein Psalm  (begleitetes Lied) . Ein Lied zur Tempelweihe  (Einweihung des Hauses)  von  (für, über, nach Art von)  David
+Holy-Bible---German---Open-Bible	019	PSA	031	001	Für den Chormeister. Ein Psalm  (begleitetes Lied)  von  (für)  David.
 Holy-Bible---German---Open-Bible	019	PSA	033	001	
 Holy-Bible---German---Open-Bible	019	PSA	033	002	
 Holy-Bible---German---Open-Bible	019	PSA	033	003	
@@ -5526,6 +5531,7 @@ Holy-Bible---German---Open-Bible	019	PSA	050	020
 Holy-Bible---German---Open-Bible	019	PSA	050	021	
 Holy-Bible---German---Open-Bible	019	PSA	050	022	
 Holy-Bible---German---Open-Bible	019	PSA	050	023	
+Holy-Bible---German---Open-Bible	019	PSA	088	001	Ein Gesang. Ein Lied. Von den Söhnen des Korach. Für den Musikleiter. Zu singen nach Machalat. Ein Maskil. Von Heman, dem Esrachiter.
 Holy-Bible---German---Open-Bible	019	PSA	091	016	
 Holy-Bible---German---Open-Bible	019	PSA	094	012	
 Holy-Bible---German---Open-Bible	019	PSA	094	013	
@@ -5764,6 +5770,15 @@ Holy-Bible---German---Open-Bible	060	1PE	001	025
 Holy-Bible---German---Open-Bible	061	2PE	001	021	
 Holy-Bible---German---Open-Bible	061	2PE	003	018	
 Holy-Bible---German---Open-Bible	066	REV	003	022	
+Holy-Bible---German---Zurich-Bible	019	PSA	006	001	EIN Psalm Davids.
+Holy-Bible---German---Zurich-Bible	019	PSA	009	001	EIN Psalm Davids.
+Holy-Bible---German---Zurich-Bible	019	PSA	018	001	VON David, dem Knecht des Herrn, der dem Herrn die Worte dieses Liedes sang zur Zeit, als der Herr ihn aus der Hand aller seiner Feinde und aus der Hand Sauls errettet hatte;
+Holy-Bible---German---Zurich-Bible	019	PSA	030	001	EIN Psalm. Lied zur Tempelweihe. Von David.
+Holy-Bible---German---Zurich-Bible	019	PSA	031	001	EIN Psalm Davids.
+Holy-Bible---German---Zurich-Bible	019	PSA	049	001	EIN Psalm der Korahiten.
+Holy-Bible---German---Zurich-Bible	019	PSA	055	001	EIN Lied Davids.
+Holy-Bible---German---Zurich-Bible	019	PSA	088	001	EIN Lied, ein Psalm der Korahiten, ein Lied des Esrahiten Heman.
+Holy-Bible---German---Zurich-Bible	019	PSA	089	001	EIN Lied Ethans, des Esrahiten.
 Holy-Bible---German---Zurich-Bible	064	3JO	001	014	Ich hoffe vielmehr, dich recht bald zu sehen; dann wollen wir mündlich reden.
 Holy-Bible---German---Zurich-Bible	066	REV	012	018	UND ich trat auf den Sand des Meeres.
 Holy-Bible---Ghanongga---Kubokota-Adapt-Bible	064	3JO	001	014	Qa gilagila valeania ara za mina oqoro zovai za pala mana batigo gu, ko tonai tu tana varigozoro zozoto nari za tana kole makarai varivavakato.
@@ -13532,6 +13547,7 @@ Holy-Bible---Swedish---Swedish-Bible	019	PSA	140	001	För sångmästaren; en psa
 Holy-Bible---Swedish---Swedish-Bible	019	PSA	142	001	En sång av David; en bön, när han var i grottan.
 Holy-Bible---Swedish---Swedish-Bible	064	3JO	001	014	Ty jag hoppas att rätt snart få se dig, och då skola vi muntligen tala med varandra.
 Holy-Bible---Swedish---Swedish-Bible	066	REV	012	018	Och han ställde sig på sanden invid havet.
+Holy-Bible---Swedish---Swedish-Bible-1703	019	PSA	031	001	En Psalm Davids, til at föresjunga.
 Holy-Bible---Swedish---Swedish-Bible-1873	011	1KI	022	043	Och vandrade uti allom sins faders Asa väg, och gick icke derifrå, och gjorde det  Herranom  behagade.
 Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	003	001	En Psalm Davids, då han flydde för sin son Absalom.
 Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	004	001	En Psalm Davids, till att föresjunga på strängaspel.

@@ -1,6 +1,6 @@
 # File Name: TALLY_HO.txt
 # File Size: 31207       
-# File Date: 08/28/2025 02:32:10
+# File Date: 08/30/2025 07:03:59
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -212,8 +212,8 @@ Holy-Bible---German---German-Menge	31096	31096	31169
 Holy-Bible---German---German-Reinhardt-Bible	3774	3774	3774
 Holy-Bible---German---German-Schlachter	31101	31101	31102
 Holy-Bible---German---German-Tafel-Bible	26076	26076	26143
-Holy-Bible---German---Open-Bible	7918	7918	8294
-Holy-Bible---German---Zurich-Bible	31102	31102	31104
+Holy-Bible---German---Open-Bible	7919	7919	8301
+Holy-Bible---German---Zurich-Bible	31102	31102	31113
 Holy-Bible---Ghanongga---Kubokota-Adapt-Bible	7946	7946	7948
 Holy-Bible---Gikuyu---Kikuyu	31101	31101	31101
 Holy-Bible---Glavda---Glavda-Bible	3997	3997	3997
@@ -490,7 +490,7 @@ Holy-Bible---Swahili---New-Swahili-Bible	31101	31101	31103
 Holy-Bible---Swahili---Swahili-Bible	7853	7853	7853
 Holy-Bible---Swahili---Swahili-Open-Bible	31102	31102	31103
 Holy-Bible---Swedish---Swedish-Bible	31082	31082	31153
-Holy-Bible---Swedish---Swedish-Bible-1703	22172	22172	22172
+Holy-Bible---Swedish---Swedish-Bible-1703	22172	22172	22173
 Holy-Bible---Swedish---Swedish-Bible-1873	31102	31102	31170
 Holy-Bible---Swedish---Swedish-Bible-1917	31066	31066	31093
 Holy-Bible---Taabwa---Kitaabua-Bible	5061	5061	5061

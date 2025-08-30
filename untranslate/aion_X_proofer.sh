@@ -7,64 +7,18 @@ if (!chdir("../www-stageresources")) { AION_ECHO("ERROR! chdir()"); }
 system("cat Holy-Bible*.messages > BIBLE-PROOF.messages");
 
 $NEWBIBLES = array(
-"Holy-Bible---Abureni---Abureni-Bible",
-"Holy-Bible---Arumanisht---Aromanian-Bible",
-"Holy-Bible---Baga-Sitemu---Baga-Sitemu-Bible",
-"Holy-Bible---Basa-Gurmana---Basa-Gurmana-Bible",
-"Holy-Bible---Boga---Boga-Bible",
-"Holy-Bible---Bondei---Bondei-Bible",
-"Holy-Bible---Bu---Bauchi-Bu-Bible",
-"Holy-Bible---Bwile---Bwile-Bible",
-"Holy-Bible---Cishingini---Cishingini-Bible",
-"Holy-Bible---Dhanki---Dhanki-Devanagari-Bible",
-"Holy-Bible---Dongxiang---Donxian-Bible",
-"Holy-Bible---Ekajuk---Ekajuk-Bible",
-"Holy-Bible---Etulo---Etulo-Bible",
-"Holy-Bible---Falam---Falam-Chin-Bible",
-"Holy-Bible---Geji---Geji-Bible",
-"Holy-Bible---Havu---Havu-Bible",
-"Holy-Bible---Kapin---Kapin-Bible",
-"Holy-Bible---Kurama---Kurama-Akurumi-Bible",
-"Holy-Bible---Kuturmi---Kuturmi-Bible",
-"Holy-Bible---Matumbi---Matumbi-Bible",
-"Holy-Bible---Mbe---Mbe-Bible",
-"Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible",
-"Holy-Bible---Mwaghavul---Mwaghavul-Bible",
-"Holy-Bible---Ndwewe---Ndwewe-Bible",
-"Holy-Bible---Polci---Polci-Bible",
-"Holy-Bible---Powari---Powari-Bible",
-"Holy-Bible---Rakhine---Rakhine-Bible",
-"Holy-Bible---Reli---Reli-Bible",
-"Holy-Bible---Rohingya---Kitabul-Mukaddos-Bible",
-"Holy-Bible---Rohingya---Rohingya-Bible",
-"Holy-Bible---Romani---Balkans-Arli-Bible",
-"Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible",
-"Holy-Bible---Sanga---Sanga-Bible",
-"Holy-Bible---Shi---Mashi-Bible",
-"Holy-Bible---Sholaga---Sholaga-Bible",
-"Holy-Bible---Somau-Karia---Somau-Karia-Bible",
-"Holy-Bible---Taabwa---Kitaabua-Bible",
-"Holy-Bible---Tarok---Tarok-Nigeria-Bible",
-"Holy-Bible---Tavoyan---Tavoyan-Bible",
-"Holy-Bible---Teke-Tyee---Teke-Tyee-Bible",
-"Holy-Bible---Tharu-Rana---Rana-Tharu-Bible",
-"Holy-Bible---Tichurong---Tichurong-Bible",
-"Holy-Bible---Tsikimba---Tsikimba-Bible",
-"Holy-Bible---Tsishingini---Tsishingini-Bible",
-"Holy-Bible---Vaagri-Booli---Vaagri-Booli-Bible",
-"Holy-Bible---Vaghri---Vaghri-Bible",
-"Holy-Bible---Vidunda---Vidunda-Bible",
-"Holy-Bible---Waddar---Waddar-Bible",
-"Holy-Bible---Waja---Waja-Bible",
-"Holy-Bible---Wolio---Kitabi-Momangkilona-Bible",
-"Holy-Bible---Yaka---Yaka-Bible",
-"Holy-Bible---Yalunka---Yalunka-Bible",
-"Holy-Bible---Yamap---Yamap-Bible",
-"Holy-Bible---Yansi---Yansi-Bible",
-"Holy-Bible---Yiddish-Eastern---Eastern-Yiddish-Bible",
-"Holy-Bible---Yipunu---Punu-Bible",
-"Holy-Bible---Zapotec-Loxicha---Loxicha-Zapotec-Bible",
-"Holy-Bible---Zinza---Zinza-Bible",
+"Holy-Bible---Dutch---Leuvense-Bible",
+"Holy-Bible---French---Bonnet-Bovet-Bible",
+"Holy-Bible---French---Geneva-Bible",
+"Holy-Bible---German---Open-Bible",
+"Holy-Bible---German---Zurich-Bible",
+"Holy-Bible---Portuguese---New-Open-Access",
+"Holy-Bible---Potawatomi---Potawatomi-Bible",
+"Holy-Bible---Sgaw-Karen---Mason-Bible",
+"Holy-Bible---Swedish---Swedish-Bible-1703",
+"Holy-Bible---English---Majority-Standard-Bible",
+"Holy-Bible---Hona---Hwana-Bible",
+"Holy-Bible---Hre---Hre-Bible",
 );
 
 // BUILD PROOFER
@@ -121,7 +75,7 @@ function build_pdftk_flex($proofer, $filename, $pagename) {
 		// skip
 		if (stripos($proof['FILE'],$filename)===FALSE){ continue; }
 		if (stripos($proof['PAGE'],$pagename)===FALSE){ continue; }
-		//if (!in_array($proof['BIBLE'], $NEWBIBLES)) { continue; } // checking the new guys only or not new guys
+		if (!in_array($proof['BIBLE'], $NEWBIBLES)) { continue; } // checking the new guys only or not new guys
 		//setup
 		$file = (0==(int)$proof['NUMB'] ? "BIBLE-PROOF-ABLANK.pdf" : $proof['FILE']);
 		$numb = (0==(int)$proof['NUMB'] ? "1" : $proof['NUMB']);
@@ -163,12 +117,12 @@ if (file_exists("./AB-PROOFS/BIBLE-PROOF-ACOVER_ALL.pdf"))	{ unlink("./AB-PROOFS
 if (file_exists("./AB-PROOFS/BIBLE-PROOF-ACOVER_HAR.pdf"))	{ unlink("./AB-PROOFS/BIBLE-PROOF-ACOVER_HAR.pdf"); }
 if (file_exists("./AB-PROOFS/BIBLE-PROOF-ACOVER_NEW.pdf"))	{ unlink("./AB-PROOFS/BIBLE-PROOF-ACOVER_NEW.pdf"); }
 if (file_exists("./AB-PROOFS/BIBLE-PROOF-ACOVER_JOH.pdf"))	{ unlink("./AB-PROOFS/BIBLE-PROOF-ACOVER_JOH.pdf"); }
-system("pdftk *POD_KDP_ALL_COVER.pdf   cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_ALL.pdf");
-system("pdftk *POD_LULU_HAR_COVER.pdf  cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_HAR.pdf");
-system("pdftk *POD_KDP_NEW_COVER.pdf   cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_NEW.pdf");
-system("pdftk *POD_JOHN_COVER.pdf      cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_JOH.pdf");
+//system("pdftk *POD_KDP_ALL_COVER.pdf   cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_ALL.pdf");
+//system("pdftk *POD_LULU_HAR_COVER.pdf  cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_HAR.pdf");
+//system("pdftk *POD_KDP_NEW_COVER.pdf   cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_NEW.pdf");
+//system("pdftk *POD_JOHN_COVER.pdf      cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_JOH.pdf");
 
-//system("pdftk Holy-Bible---Abureni---Abureni-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Arumanisht---Aromanian-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Baga-Sitemu---Baga-Sitemu-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Basa-Gurmana---Basa-Gurmana-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Boga---Boga-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Bondei---Bondei-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Bu---Bauchi-Bu-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Bwile---Bwile-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Cishingini---Cishingini-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Dhanki---Dhanki-Devanagari-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Dongxiang---Donxian-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Ekajuk---Ekajuk-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Etulo---Etulo-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Falam---Falam-Chin-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Geji---Geji-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Havu---Havu-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Kapin---Kapin-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Kurama---Kurama-Akurumi-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Kuturmi---Kuturmi-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Matumbi---Matumbi-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Mbe---Mbe-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Mwaghavul---Mwaghavul-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Ndwewe---Ndwewe-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Polci---Polci-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Powari---Powari-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Rakhine---Rakhine-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Reli---Reli-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Rohingya---Kitabul-Mukaddos-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Rohingya---Rohingya-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Romani---Balkans-Arli-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Sanga---Sanga-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Shi---Mashi-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Sholaga---Sholaga-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Somau-Karia---Somau-Karia-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Taabwa---Kitaabua-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Tarok---Tarok-Nigeria-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Tavoyan---Tavoyan-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Teke-Tyee---Teke-Tyee-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Tharu-Rana---Rana-Tharu-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Tichurong---Tichurong-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Tsikimba---Tsikimba-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Tsishingini---Tsishingini-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Vaagri-Booli---Vaagri-Booli-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Vaghri---Vaghri-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Vidunda---Vidunda-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Waddar---Waddar-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Waja---Waja-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Wolio---Kitabi-Momangkilona-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Yaka---Yaka-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Yalunka---Yalunka-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Yamap---Yamap-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Yansi---Yansi-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Yiddish-Eastern---Eastern-Yiddish-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Yipunu---Punu-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Zapotec-Loxicha---Loxicha-Zapotec-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Zinza---Zinza-Bible---POD_KDP_ALL_COVER.pdf  cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_ALL.pdf");
+system("pdftk Holy-Bible---Dutch---Leuvense-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---French---Bonnet-Bovet-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---French---Geneva-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---German---Open-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---German---Zurich-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Portuguese---New-Open-Access---POD_KDP_ALL_COVER.pdf Holy-Bible---Potawatomi---Potawatomi-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Sgaw-Karen---Mason-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Swedish---Swedish-Bible-1703---POD_KDP_ALL_COVER.pdf Holy-Bible---English---Majority-Standard-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Hona---Hwana-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Hre---Hre-Bible---POD_KDP_ALL_COVER.pdf cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_ALL.pdf");
 
 
 AION_ECHO("PDF PROOFER GENERATION: COVERS");

@@ -457,6 +457,22 @@ Holy-Bible---Dutch---Canisiusvertaling	019	PSA	140	001	13	1	end
 Holy-Bible---Dutch---Canisiusvertaling	019	PSA	142	001	7	1	end
 Holy-Bible---Dutch---Canisiusvertaling	066	REV	012	018	1	-1	end
 Holy-Bible---Dutch---Canisiusvertaling							end
+Holy-Bible---Dutch---Leuvense-Bible	004	NUM	020	028	29	1	end
+Holy-Bible---Dutch---Leuvense-Bible	006	JOS	004	023	24	1	end
+Holy-Bible---Dutch---Leuvense-Bible	006	JOS	005	014	15	1	end
+Holy-Bible---Dutch---Leuvense-Bible	007	JDG	005	031	31	1	end
+Holy-Bible---Dutch---Leuvense-Bible	009	1SA	020	042	42	1	end
+Holy-Bible---Dutch---Leuvense-Bible	011	1KI	022	043	53	1	end
+Holy-Bible---Dutch---Leuvense-Bible	018	JOB	016	004	22	1	end
+Holy-Bible---Dutch---Leuvense-Bible	019	PSA	002	012	12	1	end
+Holy-Bible---Dutch---Leuvense-Bible	019	PSA	004	008	8	1	end
+Holy-Bible---Dutch---Leuvense-Bible	019	PSA	053	001	6	1	end
+Holy-Bible---Dutch---Leuvense-Bible	028	HOS	002	023	23	1	end
+Holy-Bible---Dutch---Leuvense-Bible	030	AMO	006	010	14	1	end
+Holy-Bible---Dutch---Leuvense-Bible	043	JOH	006	051	71	1	end
+Holy-Bible---Dutch---Leuvense-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Dutch---Leuvense-Bible	066	REV	012	018	1	-1	end
+Holy-Bible---Dutch---Leuvense-Bible							end
 Holy-Bible---Dutch---Schrift							end
 Holy-Bible---Dutch---Statenvertaling	009	1SA	020	042	42	1	end
 Holy-Bible---Dutch---Statenvertaling	011	1KI	022	043	53	1	end
@@ -744,6 +760,7 @@ Holy-Bible---English---LXX2012-U-S-English	019	PSA	011	001	7	1	end
 Holy-Bible---English---LXX2012-U-S-English	028	HOS	006	001	11	1	end
 Holy-Bible---English---LXX2012-U-S-English	030	AMO	006	010	14	1	end
 Holy-Bible---English---LXX2012-U-S-English	038	ZEC	003	002	10	1	end
+Holy-Bible---English---Majority-Standard-Bible							end
 Holy-Bible---English---Montgomery-NT							end
 Holy-Bible---English---New-Heart-Aramaic	066	REV	012	018	1	-1	end
 Holy-Bible---English---New-Heart-Aramaic							end
@@ -950,6 +967,74 @@ Holy-Bible---Finnish---Open-Living-News	066	REV	012	018	1	-1	end
 Holy-Bible---Finnish---Open-Living-News							end
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible	066	REV	012	018	1	-1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	009	1SA	020	042	42	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	011	1KI	022	043	53	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	003	001	8	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	004	001	8	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	005	001	12	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	006	001	10	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	007	001	17	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	008	001	9	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	009	001	20	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	012	001	8	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	018	001	50	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	019	001	14	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	020	001	9	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	021	001	13	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	022	001	31	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	030	001	12	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	031	001	24	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	034	001	22	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	036	001	12	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	038	001	22	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	039	001	13	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	040	001	17	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	041	001	13	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	042	001	11	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	044	001	26	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	045	001	17	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	046	001	11	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	047	001	9	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	048	001	14	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	049	001	20	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	051	001	19	2	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	052	001	9	2	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	053	001	6	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	054	001	7	2	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	055	001	23	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	056	001	13	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	057	001	11	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	058	001	11	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	059	001	17	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	060	001	12	2	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	061	001	8	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	062	001	12	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	063	001	11	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	064	001	10	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	065	001	13	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	067	001	7	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	068	001	35	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	069	001	36	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	070	001	5	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	075	001	10	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	076	001	12	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	077	001	20	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	080	001	19	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	081	001	16	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	083	001	18	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	084	001	12	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	085	001	13	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	088	001	18	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	089	001	52	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	092	001	15	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	102	001	28	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	108	001	13	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	140	001	13	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	142	001	7	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	041	MAR	010	052	52	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---French---Bonnet-Bovet-Bible	066	REV	012	018	1	-1	end
+Holy-Bible---French---Bonnet-Bovet-Bible							end
 Holy-Bible---French---Free-for-the-World							end
 Holy-Bible---French---French-Crampon-Bible	007	JDG	005	031	31	1	end
 Holy-Bible---French---French-Crampon-Bible	009	1SA	002	001	36	1	end
@@ -1445,6 +1530,12 @@ Holy-Bible---French---French-Ostervald-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---French---French-Perret-Gentil-Rilliet							end
 Holy-Bible---French---French-Stapfer-Bible							end
 Holy-Bible---French---French-Synodale-Bible							end
+Holy-Bible---French---Geneva-Bible	041	MAR	009	050	50	1	end
+Holy-Bible---French---Geneva-Bible	041	MAR	010	052	52	1	end
+Holy-Bible---French---Geneva-Bible	044	ACT	024	018	27	1	end
+Holy-Bible---French---Geneva-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---French---Geneva-Bible	066	REV	012	018	1	-1	end
+Holy-Bible---French---Geneva-Bible							end
 Holy-Bible---French---Vulgate-Glaire	004	NUM	020	028	29	1	end
 Holy-Bible---French---Vulgate-Glaire	006	JOS	004	023	24	1	end
 Holy-Bible---French---Vulgate-Glaire	006	JOS	005	014	15	1	end
@@ -1885,6 +1976,25 @@ Holy-Bible---German---German-Tafel-Bible	019	PSA	102	001	28	1	end
 Holy-Bible---German---German-Tafel-Bible	019	PSA	108	001	13	1	end
 Holy-Bible---German---German-Tafel-Bible	019	PSA	140	001	13	1	end
 Holy-Bible---German---German-Tafel-Bible	019	PSA	142	001	7	1	end
+Holy-Bible---German---Open-Bible	019	PSA	006	001	10	1	end
+Holy-Bible---German---Open-Bible	019	PSA	009	001	20	1	end
+Holy-Bible---German---Open-Bible	019	PSA	018	001	50	1	end
+Holy-Bible---German---Open-Bible	019	PSA	030	001	12	1	end
+Holy-Bible---German---Open-Bible	019	PSA	031	001	24	1	end
+Holy-Bible---German---Open-Bible	019	PSA	088	001	18	1	end
+Holy-Bible---German---Open-Bible							end
+Holy-Bible---German---Zurich-Bible	019	PSA	006	001	10	1	end
+Holy-Bible---German---Zurich-Bible	019	PSA	009	001	20	1	end
+Holy-Bible---German---Zurich-Bible	019	PSA	018	001	50	1	end
+Holy-Bible---German---Zurich-Bible	019	PSA	030	001	12	1	end
+Holy-Bible---German---Zurich-Bible	019	PSA	031	001	24	1	end
+Holy-Bible---German---Zurich-Bible	019	PSA	049	001	20	1	end
+Holy-Bible---German---Zurich-Bible	019	PSA	055	001	23	1	end
+Holy-Bible---German---Zurich-Bible	019	PSA	088	001	18	1	end
+Holy-Bible---German---Zurich-Bible	019	PSA	089	001	52	1	end
+Holy-Bible---German---Zurich-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---German---Zurich-Bible	066	REV	012	018	1	-1	end
+Holy-Bible---German---Zurich-Bible							end
 Holy-Bible---Ghanongga---Kubokota-Adapt-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Ghanongga---Kubokota-Adapt-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Ghanongga---Kubokota-Adapt-Bible							end
@@ -2439,6 +2549,13 @@ Holy-Bible---Hindi---Contemporary	064	3JO	001	014	14	1	end
 Holy-Bible---Hindi---Contemporary							end
 Holy-Bible---Hindi---Hindi-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Hindi---Hindi-Bible	066	REV	012	018	1	-1	end
+Holy-Bible---Hona---Hwana-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Hona---Hwana-Bible	066	REV	012	018	1	-1	end
+Holy-Bible---Hona---Hwana-Bible							end
+Holy-Bible---Hre---Hre-Bible	041	MAR	009	050	50	1	end
+Holy-Bible---Hre---Hre-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Hre---Hre-Bible	066	REV	012	018	1	-1	end
+Holy-Bible---Hre---Hre-Bible							end
 Holy-Bible---Hruso---Hrusso-Angka-Bible							end
 Holy-Bible---Hungarian---Hungarian-Jewish-Bible	009	1SA	020	042	42	1	end
 Holy-Bible---Hungarian---Hungarian-Jewish-Bible	011	1KI	022	043	53	1	end
@@ -3841,6 +3958,9 @@ Holy-Bible---Portuguese---Almeida-NewOrthography							end
 Holy-Bible---Portuguese---Biblia-Livre							end
 Holy-Bible---Portuguese---Free-for-All	064	3JO	001	014	14	1	end
 Holy-Bible---Portuguese---Free-for-All							end
+Holy-Bible---Portuguese---New-Open-Access	064	3JO	001	014	14	1	end
+Holy-Bible---Portuguese---New-Open-Access	066	REV	012	018	1	-1	end
+Holy-Bible---Portuguese---New-Open-Access							end
 Holy-Bible---Portuguese---Open-New-Bible	007	JDG	005	031	31	1	end
 Holy-Bible---Portuguese---Open-New-Bible	009	1SA	020	042	42	1	end
 Holy-Bible---Portuguese---Open-New-Bible	064	3JO	001	014	14	1	end
@@ -3848,6 +3968,7 @@ Holy-Bible---Portuguese---Open-New-Bible							end
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	064	3JO	001	014	14	1	end
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	066	REV	012	018	1	-1	end
 Holy-Bible---Portuguese---World-Portuguese-Bible							end
+Holy-Bible---Potawatomi---Potawatomi-Bible							end
 Holy-Bible---Powari---Powari-Bible							end
 Holy-Bible---Rakhine---Rakhine-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Rakhine---Rakhine-Bible	066	REV	012	018	1	-1	end
@@ -4000,6 +4121,7 @@ Holy-Bible---Serbian---Serbian-ONST-Latin	066	REV	012	018	1	-1	end
 Holy-Bible---Serbian---Serbian-ONST-Latin							end
 Holy-Bible---Setswana---Open-Tswana-Living	064	3JO	001	014	14	1	end
 Holy-Bible---Setswana---Open-Tswana-Living							end
+Holy-Bible---Sgaw-Karen---Mason-Bible							end
 Holy-Bible---Shi---Mashi-Bible	009	1SA	020	042	42	1	end
 Holy-Bible---Shi---Mashi-Bible	011	1KI	022	043	53	1	end
 Holy-Bible---Shi---Mashi-Bible	013	1CH	012	004	40	1	end
@@ -4372,6 +4494,8 @@ Holy-Bible---Swedish---Swedish-Bible	019	PSA	142	001	7	1	end
 Holy-Bible---Swedish---Swedish-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Swedish---Swedish-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Swedish---Swedish-Bible							end
+Holy-Bible---Swedish---Swedish-Bible-1703	019	PSA	031	001	24	1	end
+Holy-Bible---Swedish---Swedish-Bible-1703							end
 Holy-Bible---Swedish---Swedish-Bible-1873	011	1KI	022	043	53	1	end
 Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	003	001	8	1	end
 Holy-Bible---Swedish---Swedish-Bible-1873	019	PSA	004	001	8	1	end
@@ -4907,111 +5031,3 @@ Holy-Bible---Zaramo---Kizalamo-Bible							end
 Holy-Bible---Zinza---Zinza-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Zinza---Zinza-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Zinza---Zinza-Bible							end
-Holy-Bible---Dutch---Leuvense-Bible	004	NUM	020	028	29	1	end
-Holy-Bible---Dutch---Leuvense-Bible	006	JOS	004	023	24	1	end
-Holy-Bible---Dutch---Leuvense-Bible	006	JOS	005	014	15	1	end
-Holy-Bible---Dutch---Leuvense-Bible	007	JDG	005	031	31	1	end
-Holy-Bible---Dutch---Leuvense-Bible	009	1SA	020	042	42	1	end
-Holy-Bible---Dutch---Leuvense-Bible	011	1KI	022	043	53	1	end
-Holy-Bible---Dutch---Leuvense-Bible	018	JOB	016	004	22	1	end
-Holy-Bible---Dutch---Leuvense-Bible	019	PSA	002	012	12	1	end
-Holy-Bible---Dutch---Leuvense-Bible	019	PSA	004	008	8	1	end
-Holy-Bible---Dutch---Leuvense-Bible	019	PSA	053	001	6	1	end
-Holy-Bible---Dutch---Leuvense-Bible	028	HOS	002	023	23	1	end
-Holy-Bible---Dutch---Leuvense-Bible	030	AMO	006	010	14	1	end
-Holy-Bible---Dutch---Leuvense-Bible	043	JOH	006	051	71	1	end
-Holy-Bible---Dutch---Leuvense-Bible	064	3JO	001	014	14	1	end
-Holy-Bible---Dutch---Leuvense-Bible	066	REV	012	018	1	-1	end
-Holy-Bible---Dutch---Leuvense-Bible							end
-Holy-Bible---French---Bonnet-Bovet-Bible	009	1SA	020	042	42	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	011	1KI	022	043	53	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	003	001	8	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	004	001	8	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	005	001	12	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	006	001	10	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	007	001	17	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	008	001	9	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	009	001	20	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	012	001	8	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	018	001	50	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	019	001	14	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	020	001	9	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	021	001	13	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	022	001	31	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	030	001	12	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	031	001	24	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	034	001	22	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	036	001	12	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	038	001	22	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	039	001	13	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	040	001	17	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	041	001	13	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	042	001	11	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	044	001	26	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	045	001	17	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	046	001	11	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	047	001	9	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	048	001	14	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	049	001	20	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	051	001	19	2	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	052	001	9	2	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	053	001	6	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	054	001	7	2	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	055	001	23	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	056	001	13	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	057	001	11	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	058	001	11	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	059	001	17	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	060	001	12	2	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	061	001	8	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	062	001	12	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	063	001	11	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	064	001	10	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	065	001	13	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	067	001	7	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	068	001	35	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	069	001	36	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	070	001	5	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	075	001	10	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	076	001	12	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	077	001	20	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	080	001	19	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	081	001	16	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	083	001	18	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	084	001	12	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	085	001	13	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	088	001	18	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	089	001	52	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	092	001	15	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	102	001	28	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	108	001	13	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	140	001	13	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	142	001	7	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	041	MAR	010	052	52	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	064	3JO	001	014	14	1	end
-Holy-Bible---French---Bonnet-Bovet-Bible	066	REV	012	018	1	-1	end
-Holy-Bible---French---Bonnet-Bovet-Bible							end
-Holy-Bible---French---Geneva-Bible	041	MAR	009	050	50	1	end
-Holy-Bible---French---Geneva-Bible	041	MAR	010	052	52	1	end
-Holy-Bible---French---Geneva-Bible	044	ACT	024	018	27	1	end
-Holy-Bible---French---Geneva-Bible	064	3JO	001	014	14	1	end
-Holy-Bible---French---Geneva-Bible	066	REV	012	018	1	-1	end
-Holy-Bible---French---Geneva-Bible							end
-Holy-Bible---German---Open-Bible							end
-Holy-Bible---German---Zurich-Bible	064	3JO	001	014	14	1	end
-Holy-Bible---German---Zurich-Bible	066	REV	012	018	1	-1	end
-Holy-Bible---German---Zurich-Bible							end
-Holy-Bible---Portuguese---New-Open-Access	064	3JO	001	014	14	1	end
-Holy-Bible---Portuguese---New-Open-Access	066	REV	012	018	1	-1	end
-Holy-Bible---Portuguese---New-Open-Access							end
-Holy-Bible---Potawatomi---Potawatomi-Bible							end
-Holy-Bible---Sgaw-Karen---Mason-Bible							end
-Holy-Bible---Swedish---Swedish-Bible-1703							end
-Holy-Bible---English---Majority-Standard-Bible							end
-Holy-Bible---Hona---Hwana-Bible	064	3JO	001	014	14	1	end
-Holy-Bible---Hona---Hwana-Bible	066	REV	012	018	1	-1	end
-Holy-Bible---Hona---Hwana-Bible							end
-Holy-Bible---Hre---Hre-Bible	041	MAR	009	050	50	1	end
-Holy-Bible---Hre---Hre-Bible	064	3JO	001	014	14	1	end
-Holy-Bible---Hre---Hre-Bible	066	REV	012	018	1	-1	end
-Holy-Bible---Hre---Hre-Bible							end

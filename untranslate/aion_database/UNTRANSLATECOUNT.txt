@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
 # File Size: 53448       
-# File Date: 08/28/2025 02:09:24
+# File Date: 08/30/2025 06:38:58
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -99,7 +99,7 @@ Holy-Bible---Dholuo---Dholuo-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265
 Holy-Bible---Dombe---Dombe-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
 Holy-Bible---Dongxiang---Donxian-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	200	199	1	64	0	1
 Holy-Bible---Dutch---Canisiusvertaling	0	2	64	12	1	11	9	1	5	94	63	10	2	0	0	2	272	264	264	0	0	0	0
-Holy-Bible---Dutch---Leuvense-Bible	0	1	64	12	1	11	9	1	5	94	63	10	2	0	0	1	272	264	264	0	0	0	0
+Holy-Bible---Dutch---Leuvense-Bible	0	1	64	12	1	11	9	1	5	94	63	10	2	0	2	1	272	265	264	0	0	0	1
 Holy-Bible---Dutch---Schrift	0	1	64	12	1	11	9	1	5	94	63	10	2	0	1	1	272	265	264	0	0	0	1
 Holy-Bible---Dutch---Statenvertaling	0	1	64	12	1	11	9	1	5	94	63	10	2	0	1	1	272	265	264	0	0	0	1
 Holy-Bible---Duya---Duya-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
@@ -177,7 +177,7 @@ Holy-Bible---Finnish---Finnish-Bible	73	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	
 Holy-Bible---Finnish---Finnish-Pyha-Raamattu	12	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Finnish---Open-Living-News	8	1	0	12	1	11	9	1	5	94	63	10	2	0	0	1	208	200	200	0	64	0	0
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
-Holy-Bible---French---Bonnet-Bovet-Bible	37	2	64	12	1	11	9	1	5	94	63	10	2	0	0	2	272	264	264	0	0	0	0
+Holy-Bible---French---Bonnet-Bovet-Bible	37	2	64	12	1	11	9	1	5	94	63	10	2	0	4	2	272	266	264	0	0	0	2
 Holy-Bible---French---Free-for-the-World	77	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---French---French-Crampon-Bible	34	1	64	12	1	11	9	1	5	94	63	10	2	0	0	1	272	264	264	0	0	0	0
 Holy-Bible---French---French-Crampon-Bible-New	34	1	64	12	1	11	9	1	5	94	63	10	2	0	0	1	272	264	264	0	0	0	0

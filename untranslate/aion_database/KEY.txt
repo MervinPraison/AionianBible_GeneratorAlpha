@@ -85,6 +85,7 @@ Holy-Bible---Dholuo---Dholuo-Bible	83
 Holy-Bible---Dombe---Dombe-Bible	84
 Holy-Bible---Dongxiang---Donxian-Bible	85
 Holy-Bible---Dutch---Canisiusvertaling	86
+Holy-Bible---Dutch---Leuvense-Bible	527
 Holy-Bible---Dutch---Schrift	87
 Holy-Bible---Dutch---Statenvertaling	88
 Holy-Bible---Duya---Duya-Bible	89
@@ -117,6 +118,7 @@ Holy-Bible---English---Leeser-Tanakh	115
 Holy-Bible---English---Literal-Standard	116
 Holy-Bible---English---Living-Oracles-NT	117
 Holy-Bible---English---LXX2012-U-S-English	118
+Holy-Bible---English---Majority-Standard-Bible	536
 Holy-Bible---English---Montgomery-NT	119
 Holy-Bible---English---New-Heart-Aramaic	120
 Holy-Bible---English---New-Heart-Jehovah	121
@@ -161,6 +163,7 @@ Holy-Bible---Finnish---Finnish-Bible	159
 Holy-Bible---Finnish---Finnish-Pyha-Raamattu	160
 Holy-Bible---Finnish---Open-Living-News	161
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible	162
+Holy-Bible---French---Bonnet-Bovet-Bible	528
 Holy-Bible---French---Free-for-the-World	163
 Holy-Bible---French---French-Crampon-Bible	164
 Holy-Bible---French---French-Crampon-Bible-New	165
@@ -175,6 +178,7 @@ Holy-Bible---French---French-Ostervald-Bible	173
 Holy-Bible---French---French-Perret-Gentil-Rilliet	174
 Holy-Bible---French---French-Stapfer-Bible	175
 Holy-Bible---French---French-Synodale-Bible	176
+Holy-Bible---French---Geneva-Bible	529
 Holy-Bible---French---Vulgate-Glaire	177
 Holy-Bible---Gamit---Gamit-Bible	178
 Holy-Bible---Gamo---Gamo-Bible	179
@@ -194,6 +198,8 @@ Holy-Bible---German---German-Menge	192
 Holy-Bible---German---German-Reinhardt-Bible	193
 Holy-Bible---German---German-Schlachter	194
 Holy-Bible---German---German-Tafel-Bible	195
+Holy-Bible---German---Open-Bible	530
+Holy-Bible---German---Zurich-Bible	531
 Holy-Bible---Ghanongga---Kubokota-Adapt-Bible	196
 Holy-Bible---Gikuyu---Kikuyu	197
 Holy-Bible---Glavda---Glavda-Bible	198
@@ -248,6 +254,8 @@ Holy-Bible---Hebrew---Salkinson-Hebrew-Bible	246
 Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	247
 Holy-Bible---Hindi---Contemporary	248
 Holy-Bible---Hindi---Hindi-Bible	249
+Holy-Bible---Hona---Hwana-Bible	537
+Holy-Bible---Hre---Hre-Bible	538
 Holy-Bible---Hruso---Hrusso-Angka-Bible	250
 Holy-Bible---Hungarian---Hungarian-Jewish-Bible	251
 Holy-Bible---Hungarian---Hungarian-Karoli	252
@@ -381,9 +389,11 @@ Holy-Bible---Portuguese---Almeida-Bible-1911	379
 Holy-Bible---Portuguese---Almeida-NewOrthography	380
 Holy-Bible---Portuguese---Biblia-Livre	381
 Holy-Bible---Portuguese---Free-for-All	382
+Holy-Bible---Portuguese---New-Open-Access	532
 Holy-Bible---Portuguese---Open-New-Bible	383
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	384
 Holy-Bible---Portuguese---World-Portuguese-Bible	385
+Holy-Bible---Potawatomi---Potawatomi-Bible	533
 Holy-Bible---Powari---Powari-Bible	386
 Holy-Bible---Rakhine---Rakhine-Bible	387
 Holy-Bible---Rangi---Rangi-Bible	388
@@ -439,6 +449,7 @@ Holy-Bible---Serbian---Serbian-Ekavski-Bible	437
 Holy-Bible---Serbian---Serbian-ONSP-Cyrillic	438
 Holy-Bible---Serbian---Serbian-ONST-Latin	439
 Holy-Bible---Setswana---Open-Tswana-Living	440
+Holy-Bible---Sgaw-Karen---Mason-Bible	534
 Holy-Bible---Shi---Mashi-Bible	441
 Holy-Bible---Sholaga---Sholaga-Bible	442
 Holy-Bible---Shona---Rakasununguka	443
@@ -465,6 +476,7 @@ Holy-Bible---Swahili---New-Swahili-Bible	463
 Holy-Bible---Swahili---Swahili-Bible	464
 Holy-Bible---Swahili---Swahili-Open-Bible	465
 Holy-Bible---Swedish---Swedish-Bible	466
+Holy-Bible---Swedish---Swedish-Bible-1703	535
 Holy-Bible---Swedish---Swedish-Bible-1873	467
 Holy-Bible---Swedish---Swedish-Bible-1917	468
 Holy-Bible---Taabwa---Kitaabua-Bible	469
@@ -525,15 +537,3 @@ Holy-Bible---Yoruba---Yoruba-Bible	523
 Holy-Bible---Zapotec-Loxicha---Loxicha-Zapotec-Bible	524
 Holy-Bible---Zaramo---Kizalamo-Bible	525
 Holy-Bible---Zinza---Zinza-Bible	526
-Holy-Bible---Dutch---Leuvense-Bible	527
-Holy-Bible---French---Bonnet-Bovet-Bible	528
-Holy-Bible---French---Geneva-Bible	529
-Holy-Bible---German---Open-Bible	530
-Holy-Bible---German---Zurich-Bible	531
-Holy-Bible---Portuguese---New-Open-Access	532
-Holy-Bible---Potawatomi---Potawatomi-Bible	533
-Holy-Bible---Sgaw-Karen---Mason-Bible	534
-Holy-Bible---Swedish---Swedish-Bible-1703	535
-Holy-Bible---English---Majority-Standard-Bible	536
-Holy-Bible---Hona---Hwana-Bible	537
-Holy-Bible---Hre---Hre-Bible	538
