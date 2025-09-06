@@ -75,7 +75,7 @@ function build_pdftk_flex($proofer, $filename, $pagename) {
 		// skip
 		if (stripos($proof['FILE'],$filename)===FALSE){ continue; }
 		if (stripos($proof['PAGE'],$pagename)===FALSE){ continue; }
-		if (!in_array($proof['BIBLE'], $NEWBIBLES)) { continue; } // checking the new guys only or not new guys
+		//if (!in_array($proof['BIBLE'], $NEWBIBLES)) { continue; } // checking the new guys only or not new guys
 		//setup
 		$file = (0==(int)$proof['NUMB'] ? "BIBLE-PROOF-ABLANK.pdf" : $proof['FILE']);
 		$numb = (0==(int)$proof['NUMB'] ? "1" : $proof['NUMB']);
@@ -117,12 +117,12 @@ if (file_exists("./AB-PROOFS/BIBLE-PROOF-ACOVER_ALL.pdf"))	{ unlink("./AB-PROOFS
 if (file_exists("./AB-PROOFS/BIBLE-PROOF-ACOVER_HAR.pdf"))	{ unlink("./AB-PROOFS/BIBLE-PROOF-ACOVER_HAR.pdf"); }
 if (file_exists("./AB-PROOFS/BIBLE-PROOF-ACOVER_NEW.pdf"))	{ unlink("./AB-PROOFS/BIBLE-PROOF-ACOVER_NEW.pdf"); }
 if (file_exists("./AB-PROOFS/BIBLE-PROOF-ACOVER_JOH.pdf"))	{ unlink("./AB-PROOFS/BIBLE-PROOF-ACOVER_JOH.pdf"); }
-//system("pdftk *POD_KDP_ALL_COVER.pdf   cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_ALL.pdf");
-//system("pdftk *POD_LULU_HAR_COVER.pdf  cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_HAR.pdf");
-//system("pdftk *POD_KDP_NEW_COVER.pdf   cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_NEW.pdf");
-//system("pdftk *POD_JOHN_COVER.pdf      cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_JOH.pdf");
+system("pdftk *POD_KDP_ALL_COVER.pdf   cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_ALL.pdf");
+system("pdftk *POD_LULU_HAR_COVER.pdf  cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_HAR.pdf");
+system("pdftk *POD_KDP_NEW_COVER.pdf   cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_NEW.pdf");
+system("pdftk *POD_JOHN_COVER.pdf      cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_JOH.pdf");
 
-system("pdftk Holy-Bible---Dutch---Leuvense-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---French---Bonnet-Bovet-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---French---Geneva-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---German---Open-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---German---Zurich-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Portuguese---New-Open-Access---POD_KDP_ALL_COVER.pdf Holy-Bible---Potawatomi---Potawatomi-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Sgaw-Karen---Mason-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Swedish---Swedish-Bible-1703---POD_KDP_ALL_COVER.pdf Holy-Bible---English---Majority-Standard-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Hona---Hwana-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Hre---Hre-Bible---POD_KDP_ALL_COVER.pdf cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_ALL.pdf");
+//system("pdftk Holy-Bible---Dutch---Leuvense-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---French---Bonnet-Bovet-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---French---Geneva-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---German---Open-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---German---Zurich-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Portuguese---New-Open-Access---POD_KDP_ALL_COVER.pdf Holy-Bible---Potawatomi---Potawatomi-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Sgaw-Karen---Mason-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Swedish---Swedish-Bible-1703---POD_KDP_ALL_COVER.pdf Holy-Bible---English---Majority-Standard-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Hona---Hwana-Bible---POD_KDP_ALL_COVER.pdf Holy-Bible---Hre---Hre-Bible---POD_KDP_ALL_COVER.pdf cat output ./AB-PROOFS/BIBLE-PROOF-ACOVER_ALL.pdf");
 
 
 AION_ECHO("PDF PROOFER GENERATION: COVERS");
