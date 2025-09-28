@@ -30,6 +30,8 @@ echo
 echo "*** MAGA Check Execution ***"
 ./aion_6_check.sh 2>&1 > aion_6_check.sh.aionian.out
 diff ./aion_diffout/aion_6_check.sh.aionian.out aion_6_check.sh.aionian.out 2>&1 | tee aion_6_check.sh.diff.aionian.out
+./aion_6p_check.sh 2>&1 > aion_6p_check.sh.aionian.out
+diff ./aion_diffout/aion_6p_check.sh.aionian.out aion_6p_check.sh.aionian.out 2>&1 | tee aion_6p_check.sh.diff.aionian.out
 
 echo
 echo "*** MAGA Analysis Execution ***"

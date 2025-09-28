@@ -24,6 +24,7 @@ $commands = array(
 	'6'  => 'aion_6_check.sh',
 	'6m' => 'aion_6m_check.sh',
 	'6n' => 'aion_6n_check.sh',
+	'6p' => 'aion_6p_check.sh',
 	'6q' => 'aion_6q_check.sh',
 	'6w' => 'aion_6w_check.sh',
 	'7'  => 'aion_7_deploy.sh',

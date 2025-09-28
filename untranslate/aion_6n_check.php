@@ -82,7 +82,7 @@ function AION_LOOP_ANALYSIS_DOIT($args) {
 	$byte_aionian2 = strlen($data_aionian);
 	$char_original2= mb_strlen($data_original);
 	$char_aionian2 = mb_strlen($data_aionian);
-	
+
 	// HEADER
 	$analysis  =
 		"# File Name: Holy-Bible---$bible---Analysis.txt\n" .

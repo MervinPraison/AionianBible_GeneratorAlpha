@@ -649,9 +649,9 @@ function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $ski
 		'uniusage'	=> $uniusage,
 		'include'	=> '/---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---German---(Open|Zurich).*---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
-		//'include'	=> '/(Holy-Bible---French---French-LXX-TheoTex|Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible)---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
-		//'include'	=> '/Holy-Bible---([G-Z]{1}).+---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
-		//'include'	=> '/Holy-Bible---Kiche---Totonicapan---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
+		//'include'	=> '/(Holy-Bible---Urdu---Urdu-Free-Contemporary)---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
+		//'include'	=> '/Holy-Bible---([S-Z]{1}).+---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
+		//'include'	=> '/Holy-Bible---French---French-Ostervald-Bible---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
 		//'include'	=> '/Holy-Bible---Chin-Matu---Matupi-Chin-2019---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
 		'destiny'	=> $destiny,
 		'raw_orig'	=> $raw_orig,
@@ -939,7 +939,6 @@ function AION_TEXT_REPAIR($string,$errline,$bible,$trueifrawtext, &$textrepair,$
 		$string = preg_replace('/8/ui', 'З', $saved=$string); if(is_array($textrepair) && $string!=$saved) { $textrepair[] = array($errline."\t".$string); } // note the repair
 		$string = preg_replace('/^1 /ui', 'І ', $saved=$string); if(is_array($textrepair) && $string!=$saved) { $textrepair[] = array($errline."\t".$string); } // note the repair
 	}
-
 	// weird number warning and fixes
 	if (preg_match('/[[:space:]]*‘[[:digit:]]+’[[:space:]]*/ui', $string)) {			AION_ECHO("WARNING!!! WEIRD NUMBERS! $errline:\t$string"); }
 	// fix punctuation
@@ -952,39 +951,72 @@ function AION_TEXT_REPAIR($string,$errline,$bible,$trueifrawtext, &$textrepair,$
 	// remove spaces
 	$string = trim($string);															// remove leading / trailing spaces
 	$string = preg_replace('/[[:space:]]+/ui', ' ', $string);							// reduce all whitespace to one space
-	if ( // „word“ and „word”
-		"Holy-Bible---Czech---Living-Bible"==$bible ||
-		"Holy-Bible---Danish---Danish-1871-1907"==$bible ||
-		"Holy-Bible---Danish---Danish-1931-1907"==$bible ||
+	// SPACES FIXED
+	if ("Holy-Bible---Latvian---Latvian-Gluck-Bible"==$bible ||
+		"Holy-Bible---Portuguese---Portuguese-Trans-Trans"==$bible) {
+		$space_punc		= array('/ \?/', '/ ,/', '/ !/', '/ ;/', '/ :/', '/„ /');
+		$space_punc2	= array(   '?',    ',',    '!',    ';',    ':',   '„');
+		$string = preg_replace($space_punc, $space_punc2, $string);							// remove space before punctuation, „word“
+	}
+	else if ("Holy-Bible---Czech---Living-Bible"==$bible ||
+		"Holy-Bible---Estonian---Contemporary"==$bible ||
 		"Holy-Bible---Estonian---For-All"==$bible ||
-		"Holy-Bible---Flemish---Flemish-De-Jonge-Bible"==$bible ||
-		"Holy-Bible---French---French-Khan-Bible"==$bible ||
-		"Holy-Bible---Hungarian---Hungarian-Karoli"==$bible ||
+		"Holy-Bible---German---Open-Bible"==$bible ||
 		"Holy-Bible---Hungarian---Magyar-Bible"==$bible ||
 		"Holy-Bible---Icelandic---Open-Living-Word"==$bible ||
-		"Holy-Bible---Latvian---Latvian-Gluck-Bible"==$bible ||
+		"Holy-Bible---Lithuanian---Believers-Heritage"==$bible ||
+		"Holy-Bible---Lithuanian---Open-Lithuanian-Bible"==$bible ||
+		"Holy-Bible---Serbian---Serbian-ONSP-Cyrillic"==$bible ||
+		"Holy-Bible---Serbian---Serbian-ONST-Latin"==$bible ||
+		"Holy-Bible---Slovak---Slovak-Bible"==$bible ||
+		"Holy-Bible---Tsakhur---Tsakhur-Bible"==$bible ||
+		"Holy-Bible---Ukrainian---New-Translation"==$bible ||
+		"Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible"==$bible ||
+		"Holy-Bible---Ukrainian---Ukrainian-Ogienko"==$bible) {
+		$space_punc		= array('/ \?/', '/ ,/', '/ !/', '/ ;/', '/ :/', '/„ /', '/ “/');
+		$space_punc2	= array(   '?',    ',',    '!',    ';',    ':',   '„',     '“');
+		$string = preg_replace($space_punc, $space_punc2, $string);							// remove space before punctuation, „word“
+	}
+	else if ("Holy-Bible---Danish---Danish-1871-1907"==$bible ||
+		"Holy-Bible---Danish---Danish-1931-1907"==$bible ||
+		"Holy-Bible---Flemish---Flemish-De-Jonge-Bible"==$bible ||
+		"Holy-Bible---Hungarian---Hungarian-Karoli"==$bible ||
 		"Holy-Bible---Polish---Open-Access-Word-of-Life"==$bible ||
 		"Holy-Bible---Polish---Polish-Updated-Gdansk"==$bible ||
-		"Holy-Bible---Portuguese---Portuguese-Trans-Trans"==$bible ||
-		"Holy-Bible---Romanian---Cyrillic"==$bible ||
-		"Holy-Bible---Slovene---Slovene-Savli-Bible"==$bible ||
-		"Holy-Bible---Ukrainian---New-Translation"==$bible ||
-		"Holy-Bible---Ukrainian---Ukrainian-Ogienko"==$bible) { // public domain
-		static $space_punc	= array(' ?', ' ,', ' !', ' ;', ' :');
-		static $space_punc2	= array( '?',  ',',  '!',  ';',  ':');
-		$string = str_replace($space_punc, $space_punc2, $string);							// remove space before punctuation, „word“
+		"Holy-Bible---Romanian---BTF-Bible"==$bible) {
+		$space_punc		= array('/ \?/', '/ ,/', '/ !/', '/ ;/', '/ :/', '/„ /', '/ ”/');
+		$space_punc2	= array(   '?',    ',',    '!',    ';',    ':',   '„',     '”');
+		$string = preg_replace($space_punc, $space_punc2, $string);							// remove space before punctuation, „word”
 	}
-	else if ("Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet"==$bible || // public domain
-		"Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet"==$bible) { // public domain
-		static $space_punc	= array(' ?', ' ,', ' !', ' ;', ' :', ' ”', '‘ ', '“ ');
-		static $space_punc2	= array( '?',  ',',  '!',  ';',  ':',  '”', '‘',  '“');
-		$string = str_replace($space_punc, $space_punc2, $string);							// remove space before punctuation
-
+	else if ("Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet"==$bible ||
+		"Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-Old-Alphabet"==$bible) {
+		$space_punc		= array('/ \?/', '/ ,/', '/ !/', '/ ;/', '/ :/', '/„ /', '/“ /', '/ ”/', '/‘ /');
+		$space_punc2	= array(   '?',    ',',    '!',    ';',    ':',   '„',    '“',     '”',   '‘');
+		$string = preg_replace($space_punc, $space_punc2, $string);							// remove space before punctuation
 	}
 	else {
-		static $space_punc	= array(' ?', ' ,', ' !', ' ;', ' :', ' ’', ' ”', '‘ ', '“ ');
-		static $space_punc2	= array( '?',  ',',  '!',  ';',  ':',  '’',  '”', '‘',  '“');
-		$string = str_replace($space_punc, $space_punc2, $string);							// remove space before punctuation
+		$space_punc		= array('/ \?/', '/ ,/', '/ !/', '/ ;/', '/ :/', '/„ /', '/“ /', '/ ”/', '/‘ /', '/ ’/');
+		$space_punc2	= array(   '?',    ',',    '!',    ';',    ':',   '„',    '“',     '”',   '‘',     '’');
+		$string = preg_replace($space_punc, $space_punc2, $string);							// remove space before punctuation
+	}
+	// enclosures
+	if ("Holy-Bible---Swedish---Swedish-Bible-1917"==$bible ||
+		"Holy-Bible---Armenian---Armenian-Bible-Eastern"==$bible ||
+		"Holy-Bible---Finnish---Open-Living-News"==$bible ||
+		"Holy-Bible---Persian---Old-Persion-Version-Bible"==$bible) {
+		$string = preg_replace('/([\<\(\[\{]{1}) /us', '$1', $string);
+		$string = preg_replace('/ ([\>\)\]\}]{1})/us', '$1', $string);
+	}
+	else if ("Holy-Bible---Danish---Danish-1931-1907"==$bible ||
+		"Holy-Bible---German---German-Menge"==$bible ||
+		"Holy-Bible---Hungarian---Magyar-Bible"==$bible ||
+		"Holy-Bible---Slovene---Slovene-Savli-Bible"==$bible) {
+		$string = preg_replace('/([\<\(\[\{\»\›]{1}) /us', '$1', $string);
+		$string = preg_replace('/ ([\>\)\]\}\«\‹]{1})/us', '$1', $string);
+	}
+	else {
+		$string = preg_replace('/([\<\(\[\{\«\‹]{1}) /us', '$1', $string);
+		$string = preg_replace('/ ([\>\)\]\}\»\›]{1})/us', '$1', $string);
 	}
 	// warning punctuation errors
 	if ('Holy-Bible---Hebrew---Hebrew-Aleppo-Codex'==$bible) {
@@ -1020,7 +1052,6 @@ function AION_TEXT_REPAIR($string,$errline,$bible,$trueifrawtext, &$textrepair,$
 		if (preg_match('/[(\[]{1}[ [:digit:]]+.{0,9}[)\]]{1}/ui',$string)) {	AION_ECHO("WARNING!!! BRACKET PROBLEM! $errline:\t$string"); }
 	}
 	// spaces
-	//$string = preg_replace('/([.?!]{1}[\'"”’]*)[ ]+/ui', '$1  ', $string);				// two space after if any spaces
 	if ("Holy-Bible---Coptic---Coptic-NT"!=$bible) {
 		$string = preg_replace('/([^.]{1})([.?!]{1})([[:upper:]]{1})/u', '$1$2 $3', $string); // space if no space before uppercase!
 	}
@@ -1034,7 +1065,45 @@ function AION_TEXT_REPAIR($string,$errline,$bible,$trueifrawtext, &$textrepair,$
 		!preg_match('/[ap]{1}\.m\./ui', $string)) {
 		$string = preg_replace('/([^.]{1})([.?!]{1})([[:alpha:]]{1})/ui', '$1$2 $3', $string); // one space if no spaces before alpha!
 	}
-	$string = preg_replace('/([^\d]{1}[,:;]{1})[ ]*([^”’"\' ]{1})/ui', '$1 $2', $string);	// one space after for non-digits, not quoted
+	// spaces after punct
+	if ("Holy-Bible---Beami---Bedamuni-Bible"==$bible) {
+		$string = preg_replace('/([^\d]{1}[,;]{1})([^‘“"\',:;\)\]\}\>\»\› ]{1})/ui', '$1 $2', $string);	// one space after for non-digits, not quoted
+	}
+	else if ("Holy-Bible---Portuguese---Portuguese-Trans-Trans"==$bible) {
+		$string = preg_replace('/([^\d]{1}[,:;]{1})([^"\',:;\)\]\}\>\»\› ]{1})/ui', '$1 $2', $string);	// one space after for non-digits, not quoted
+	}
+	else if ("Holy-Bible---Latvian---Latvian-Gluck-Bible"==$bible) {
+		$string = preg_replace('/([^\d]{1}[,:;]{1})([^’"\',:;\)\]\}\>\»\› ]{1})/ui', '$1 $2', $string);	// one space after for non-digits, not quoted
+	}
+	else if ("Holy-Bible---Danish---Danish-1931-1907"==$bible ||
+		"Holy-Bible---German---German-Menge"==$bible ||
+		"Holy-Bible---Hungarian---Magyar-Bible"==$bible ||
+		"Holy-Bible---Slovene---Slovene-Savli-Bible"==$bible) {
+		$string = preg_replace('/([^\d]{1}[,:;]{1})([^’”"\',:;\)\]\}\>\«\‹ ]{1})/ui', '$1 $2', $string);	// one space after for non-digits, not quoted
+	}
+	else if ("Holy-Bible---Czech---Living-Bible"==$bible ||
+		"Holy-Bible---Estonian---Contemporary"==$bible ||
+		"Holy-Bible---Estonian---For-All"==$bible ||
+		"Holy-Bible---German---Open-Bible"==$bible ||
+		"Holy-Bible---Hungarian---Magyar-Bible"==$bible ||
+		"Holy-Bible---Icelandic---Open-Living-Word"==$bible ||
+		"Holy-Bible---Lithuanian---Believers-Heritage"==$bible ||
+		"Holy-Bible---Lithuanian---Open-Lithuanian-Bible"==$bible ||
+		"Holy-Bible---Serbian---Serbian-ONSP-Cyrillic"==$bible ||
+		"Holy-Bible---Serbian---Serbian-ONST-Latin"==$bible ||
+		"Holy-Bible---Slovak---Slovak-Bible"==$bible ||
+		"Holy-Bible---Tsakhur---Tsakhur-Bible"==$bible ||
+		"Holy-Bible---Ukrainian---New-Translation"==$bible ||
+		"Holy-Bible---Ukrainian---Ukrainian-Freedom-Bible"==$bible ||
+		"Holy-Bible---Ukrainian---Ukrainian-Ogienko"==$bible) {
+		$string = preg_replace('/([^\d]{1}[,:;]{1})([^‘“"\',:;\)\]\}\>\»\› ]{1})/ui', '$1 $2', $string);	// one space after for non-digits, not quoted
+	}
+	else if ("Holy-Bible---Persian---Old-Persion-Version-Bible"==$bible) {
+		$string = preg_replace('/([^\d]{1}[,:;]{1})([^’”"\',:;\)\]\}\> ]{1})/ui', '$1 $2', $string);	// one space after for non-digits, not quoted
+	}
+	else {
+		$string = preg_replace('/([^\d]{1}[,:;]{1})([^’”"\',:;\)\]\}\>\»\› ]{1})/ui', '$1 $2', $string);	// one space after for non-digits, not quoted
+	}
 	$string = trim($string);													// trim
 	// skip blank
 	if (preg_match('/^[✠[:digit:][:punct:][:space:]]*$/ui', $string)) {
@@ -3417,24 +3486,24 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-9594850;
 	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-108336;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-485;
-	$grandmarker['LONG']		= $grandtotal['LONG']-2338;
+	$grandmarker['LONG']		= $grandtotal['LONG']-2327;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-178;
 	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-7013;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-1096;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-14710;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-14707;
 	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-57766;
 	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-11702;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-715;
 	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-1598;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-261174;
-	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-60454;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-5970.06;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-261264;
+	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-60252;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-5971.86;
 	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-165;
-	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-93;
+	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-92;
 	$grandmarker['PDF_PKJO']	= $grandtotal['PDF_PKJO']-16;
 	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-527;
-	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-215;
+	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-214;
 	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-259;
 	$grandmarker['PDF_PLJO']	= $grandtotal['PDF_PLJO']-101;
 	$grandmarker['PDF_PRTL']	= $grandtotal['PDF_PRTL']-383;

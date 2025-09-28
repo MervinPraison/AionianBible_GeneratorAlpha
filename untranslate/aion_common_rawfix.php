@@ -11,9 +11,13 @@ function AION_BIBLES_RAWFIX($args, $bible, $type, $file, $vpl, $sword, $unbound,
 if (!($bfile = file_get_contents($file))) { AION_ECHO("ERROR! Problem reading: $file"); }
 $bfile = Encoding::toUTF8($bfile);
 
+
+// ONE SPACE
+$bfile = preg_replace('/[ ]+/ui', ' ', $bfile);
+
+
 // REMOVE COMMENTS
-if (!($bfile = preg_replace("/\n## [^\n]*/us","", $bfile,-1,$rnum))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-if (!($bfile = preg_replace("/^## [^\n]*/us","", $bfile,-1,$rnum))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/^##.*$/mu","", $bfile,-1,$rnum))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 
 
 // BEFORE REMOVE CHARACTERS
@@ -43,7 +47,8 @@ if ('Holy-Bible---Greek---Greek-Westcott-Hort'==$bible) {
 	if (!($bfile = preg_replace("/>/us",')',$bfile,-1,$rnum)) || $rnum!=29) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 }
 if ('Holy-Bible---Naga-Tutsa---Tutsa-Naga-Bible'==$bible) {
-	if (!($bfile = preg_replace("/[<]+/us","[",$bfile,-1,$rnum)) || $rnum!=440) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+	if (!($bfile = preg_replace("/ <<([^[:punct:]\n\r]+)[<]+/us",' [$1] ',$bfile,-1,$rnum)) || $rnum!=19) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }	
+	if (!($bfile = preg_replace("/[<]+/us","[",$bfile,-1,$rnum)) || $rnum!=402) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 	if (!($bfile = preg_replace("/[>]+/us","]",$bfile,-1,$rnum)) || $rnum!=349) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 }
 if ('Holy-Bible---Portuguese---Portuguese-Trans-Trans'==$bible) {
@@ -110,10 +115,27 @@ case 'Holy-Bible---Gamotso---Gamo' :
 	if (!($bfile = preg_replace("/</us","(",$bfile,-1,$rnum)) || $rnum!=102) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 	if (!($bfile = preg_replace("/>/us",")",$bfile,-1,$rnum)) || $rnum!=99) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 	break;
+case 'Holy-Bible---Basque---Basque-NT' :
+case 'Holy-Bible---Chinese---Chinese-Sigao-Bible' :
 case 'Holy-Bible---Chinese---Chinese-Union-Version-Simplified' :
 case 'Holy-Bible---Chinese---Chinese-Union-Version-Traditional' :
+case 'Holy-Bible---Czech---Czech-Bible-Kralicka' :
 case 'Holy-Bible---Dutch---Leuvense-Bible' :
+case 'Holy-Bible---English---Anderson-Bible' :
+case 'Holy-Bible---English---Catholic-Public-Domain' :
+case 'Holy-Bible---English---King-James-Version-Cambridge' :
+case 'Holy-Bible---English---King-James-Version-Revised' :
+case 'Holy-Bible---English---Rotherham-Bible' :
+case 'Holy-Bible---English---Worsley-Bible' :
+case 'Holy-Bible---French---French-Crampon-Bible' :
 case 'Holy-Bible---French---French-Darby-Bible' :
+case 'Holy-Bible---French---French-Khan-Bible' :
+case 'Holy-Bible---French---French-Perret-Gentil-Rilliet' :
+case 'Holy-Bible---French---Geneva-Bible' :
+case 'Holy-Bible---French---Vulgate-Glaire' :
+case 'Holy-Bible---Greek---Greek-Tregelles' :
+case 'Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah' :
+case 'Holy-Bible---Irish---Odomhnuill-Modern' :
 case 'Holy-Bible---Japanese---Japanese-Bungo-yaku' :
 case 'Holy-Bible---Japanese---Japanese-Electronic-Network-Bible' :
 case 'Holy-Bible---Japanese---Japanese-Kougo-yaku' :
@@ -121,14 +143,17 @@ case 'Holy-Bible---Japanese---Japanese-Meiji-yaku' :
 case 'Holy-Bible---Japanese---Japanese-Raguet-yaku' :
 case 'Holy-Bible---Japanese---New-Japanese-New-Testament' :
 case 'Holy-Bible---Korean---Korean-RV' :
-case 'Holy-Bible---English---Rotherham-Bible' :
-case 'Holy-Bible---Swedish---Swedish-Bible' :
-case 'Holy-Bible---Chinese---Chinese-Sigao-Bible' :
-case 'Holy-Bible---English---King-James-Version-Cambridge' :
-case 'Holy-Bible---English---Worsley-Bible' :
-case 'Holy-Bible---French---French-Perret-Gentil-Rilliet' :
 case 'Holy-Bible---Ndebele---Ndebele-Bible' :
 case 'Holy-Bible---Shona---Shona-Bible' :
+case 'Holy-Bible---Slovene---Slovene-Savli-Bible' :
+case 'Holy-Bible---Slovene---Slovene-Stritarja-NT' :
+case 'Holy-Bible---Spanish---Biblia-Platense-Straubinger' :
+case 'Holy-Bible---Spanish---Reina-Valera-1865' :
+case 'Holy-Bible---Spanish---Sagradas-Escrituras-1569' :
+case 'Holy-Bible---Swedish---Swedish-Bible' :
+case 'Holy-Bible---Swedish---Swedish-Bible-1873' :
+case 'Holy-Bible---Ukrainian---Ukrainian-NT' :
+case 'Holy-Bible---Ukrainian---Ukrainian-Ogienko' :
 	$rnum = 0;
 	if (!($bfile = preg_replace('/<[^<>\n]*>/us','',$bfile,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
 	if (!($bfile = preg_replace('/<[^<>\n]*>/us','',$bfile,-1,$rnum))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
@@ -136,39 +161,40 @@ case 'Holy-Bible---Shona---Shona-Bible' :
 	break;
 /*	replace <tag> without space on 4/1/24 and difference only in these Bibles
 	with space is safer, so change only if solid reason. yes = no space, no,ok = stick with space
+	replace <tag> without space on 9/6/25 and difference only in these Bibles
 
-Holy-Bible---Basque---Basque-NT								ok - 30 verses better and worse so hold
-Holy-Bible---Cherokee---Cherokee-New-Testament				ok - spaced brackets and parens - leave it
-Holy-Bible---Chinese---Chinese-Sigao-Bible					yes - better, no spaces for Chinese
-Holy-Bible---Coptic---Sahidic-Coptic-Horner					ok - spaced dots . might be better, but nominal improvement
-Holy-Bible---Czech---Czech-Bible-Kralicka					ok - can't tell, some punctuation improvement
-Holy-Bible---English---Anderson-Bible						ok - only 1 of 1 verse better
-Holy-Bible---English---Catholic-Public-Domain				ok - only 1 of 1 verse better
-Holy-Bible---English---King-James-Version-Cambridge			yes - better punctuation and possessive '
-Holy-Bible---English---King-James-Version-Restored-Name		no - worse, so hold
-Holy-Bible---English---King-James-Version-Revised			ok - hallelujah fixed and spaced parens, but hold for now
-Holy-Bible---English---Webster-Bible-Revised				no - worse - joined words
-Holy-Bible---English---Worsley-Bible						yes - better punctuation and hyphenation
-Holy-Bible---French---French-Khan-Bible						ok - 10 verses mix better and worse so hold
-Holy-Bible---French---French-Perret-Gentil-Rilliet			yes - better puncuation and apostrophe
-Holy-Bible---German---German-Katholiche-Riessler			no - worse, words joined
-Holy-Bible---German---German-Menge							no - 10 verses miss (selah)
-Holy-Bible---Greek---Greek-Antoniades						ok - spaced brackets, leave it
-Holy-Bible---Greek---Greek-Textus-Receptus-Elzevir			ok - 10 verses with spaced/non-spaced brackets
-Holy-Bible---Greek---Greek-Tregelles						ok - cannot tell, hold for now
-Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah			ok - hard to tell, safe to leave the space
-Holy-Bible---Malayalam---Malayalam-Bible-1910				no - 2 verses need the space to find selah!
-Holy-Bible---Ndebele---Ndebele-Bible						yes - stop splitting words
-Holy-Bible---Shona---Shona-Bible							yes - stop splitting words
-Holy-Bible---Slovene---Slovene-Savli-Bible					no - other problems with space after opening quote „
-Holy-Bible---Slovene---Slovene-Stritarja-NT					ok - only 2 of 2 verses better
-Holy-Bible---Spanish---Biblia-Platense-Straubinger			ok - spaced brackets and parens - leave it
-Holy-Bible---Spanish---Reina-Valera-1865					ok - not sure, hold for now
-Holy-Bible---Spanish---Sagradas-Escrituras-1569				ok - mainly spaced parens, leave it
-Holy-Bible---Swedish---Swedish-Bible-1873					ok - parens without spaces better, but hold
-Holy-Bible---Swedish---Swedish-Bible-1917					no - 10 verses worse with quotes
-Holy-Bible---Ukrainian---Ukrainian-NT						ok - only 1 of 1 verse better
-Holy-Bible---Ukrainian---Ukrainian-Ogienko					no - other problems with space after opening quote „
+Holy-Bible---Basque---Basque-NT								YES > better hyphen, paren, and ok joined words
+Holy-Bible---Cherokee---Cherokee-New-Testament				ok > evenly spaced brackets, parens, hyphens - leave it
+Holy-Bible---Coptic---Sahidic-Coptic-Horner					ok > spaced dots . might be better, but also super long word
+Holy-Bible---Czech---Czech-Bible-Kralicka					YES > paren improved, "ne" joined with word
+Holy-Bible---English---Anderson-Bible						YES > 1 of 1 verse better
+Holy-Bible---English---Catholic-Public-Domain				YES > 1 of 1 verse better
+Holy-Bible---English---King-James-Version-Restored-Name		no > worse, hold
+Holy-Bible---English---King-James-Version-Revised			YES > hallelujah fixed and spaced parens
+Holy-Bible---English---Webster-Bible-Revised				no > worse - joined words
+Holy-Bible---French---French-Crampon-Bible					YES > better hyphen, bracket space, apostrophe join
+Holy-Bible---French---French-Khan-Bible						YES > 10 verses seem better
+Holy-Bible---French---Geneva-Bible							YES > Join apostrophe and a few words
+Holy-Bible---French---Vulgate-Glaire						YES > join hyphen, apostrophe, and paren
+Holy-Bible---German---German-Katholiche-Riessler			no > worse, words joined
+Holy-Bible---German---German-Menge							no > 10 verses miss (selah)
+Holy-Bible---German---Open-Bible							no > bracket spacing, leave alone
+Holy-Bible---Greek---Greek-Antoniades						ok > spaced brackets, leave it, fixed later with space removal
+Holy-Bible---Greek---Greek-Textus-Receptus-Elzevir			ok > spaced brackets, leave it, fixed later with space removal
+Holy-Bible---Greek---Greek-Tregelles						YES > join word parts <milestone>
+Holy-Bible---Hebrew---Hebrew-Aleppo-Miqra-Mesorah			YES > remove space with <seg>
+Holy-Bible---Irish---Odomhnuill-Modern						YES > join word parts
+Holy-Bible---Malayalam---Malayalam-Bible-1910				no > 2 verses need the space to find selah!
+Holy-Bible---Slovene---Slovene-Savli-Bible					YES > <TransChange> before opening quote
+Holy-Bible---Slovene---Slovene-Stritarja-NT					YES > 2 of 2 verses better
+Holy-Bible---Spanish---Biblia-Platense-Straubinger			YES > spaced brackets and parens
+Holy-Bible---Spanish---Reina-Valera-1865					YES > Word part <TransChange>
+Holy-Bible---Spanish---Sagradas-Escrituras-1569				YES > <i> and punctuation fix
+Holy-Bible---Swedish---Swedish-Bible-1873					YES > <transchange> with paren
+Holy-Bible---Swedish---Swedish-Bible-1917					no > 10 verses worse with quote spacing
+Holy-Bible---Ukrainian---Ukrainian-NT						yes > 1 of 1 verse better
+Holy-Bible---Ukrainian---Ukrainian-Ogienko					yes > 50 quotes better, hyphens better, 20 words joined (ok)
+
 */
 default:
 	$rnum = 0;
@@ -4280,6 +4306,16 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---English---Leeser-Tanakh" :
+if (!($bfile = preg_replace('/\[\[/us','[',$bfile,-1,$rnum)) || $rnum!=35) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/\]\]/us',']',$bfile,-1,$rnum)) || $rnum!=35) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---English---Montgomery-NT" :
 if (!($bfile = preg_replace('/\\\\ul1/us',' ',$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace('/\\\\ul0/us',' ',$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -4444,6 +4480,8 @@ goto RAWHIDE;
 case "Holy-Bible---English---Noyes" :
 if (!($bfile = preg_replace('/[{]+/us','(',$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace('/[}]+/us',')',$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/\[\[/us','[',$bfile,-1,$rnum)) || $rnum!=237) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/\]\]/us',']',$bfile,-1,$rnum)) || $rnum!=237) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 goto RAWHIDE;
 
@@ -4453,7 +4491,6 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---English---One-Unity-Resource-Bible" :
 if (!($bfile = preg_replace('/\([^()\n]*Maftir[^()\n]*\)[ \t\r]*\n/us'," \n",$bfile,-1,$rnum)) || $rnum!=56) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-
 if (!($bfile = preg_replace('/ 3I /us',' I ',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace('/ wickednessis /us',' wickedness is ',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace('/ wickednes, /us',' wickedness, ',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -4472,7 +4509,6 @@ if (!($bfile = preg_replace('/cleanzing/us','cleansing',$bfile,-1,$rnum)) || $rn
 if (!($bfile = preg_replace('/bearor/us','bearer',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace('/bearly/us','barely',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace('/cameled/us','weaned',$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-
 $bfile_saved = $bfile;
 goto RAWHIDE;
 
@@ -4494,6 +4530,11 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---English---Orthodox-Jewish-Bible" :
+if (!($bfile = preg_replace('/\[[ ]*\([ ]*/us','[',$bfile,-1,$rnum)) || $rnum!=23440) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/[ ]*\)[ ]*\]/us',']',$bfile,-1,$rnum)) || $rnum!=23366) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/\([ ]*\[[ ]*/us','[',$bfile,-1,$rnum)) || $rnum!=3) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/[ ]*\][ ]*\)/us',']',$bfile,-1,$rnum)) || $rnum!=27) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
 $textfix = <<<EOF
 JOE 2:28 And it shall come to pass afterward, that I will pour out My Ruach upon all basar; and your banim and your banot shall prophesy, your zekenim shall dream chalomot, your bochurim shall see chezyonot [(visions)]:
 JOE 2:29 And also upon the avadim and upon the shefachot in those days will I pour out My Ruach.
@@ -4532,7 +4573,7 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---English---Revised-Version" :
 if (!($bfile = preg_replace("/go1d/us","gold",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-if (!($bfile = preg_replace("/[ ]+]/us","] ",$bfile,-1,$rnum)) || $rnum!=4180) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/\]([^ \r\n[:punct:]]+)/us",'] $1',$bfile,-1,$rnum)) || $rnum!=3286) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 goto RAWHIDE;
 
@@ -6363,6 +6404,7 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---French---French-Khan-Bible" :
 if (!($bfile = preg_replace("/_/us"," ",$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/„/us",",",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 $textfix = <<<EOF
 Exodus 20:2 "Je suis l’Éternel, ton Dieu, qui t’ai fait sortir du pays d’Égypte, d’une maison d’esclavage.
@@ -15087,6 +15129,7 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Latvian---Latvian-Gluck-Bible" :
+if (!($bfile = preg_replace("/’/us","”",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/ 2\. /us","",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/ \d+, /us"," ",$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;	
@@ -18232,6 +18275,7 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Portuguese---Portuguese-Trans-Trans" :
+if (!($bfile = preg_replace("/ \]/us", "] ",$bfile,-1,$rnum)) || $rnum!=13713) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/◄/us","(",$bfile,-1,$rnum)) || $rnum!=5) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%E2%97%84/1
 if (!($bfile = preg_replace("/►/us",")",$bfile,-1,$rnum)) || $rnum!=5) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%E2%96%BA/1
 if (!($bfile = preg_replace("/\{a quem chamei]/ui","[a quem chamei]", $bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -19028,6 +19072,8 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Sgaw-Karen---Mason-Bible" :
+if (!($bfile = preg_replace('/\(/u',' (',$bfile,-1,$rnum)) || $rnum!=298) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/\)/u',') ',$bfile,-1,$rnum)) || $rnum!=300) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace('/\\\\f(.+?)\\\\f/u','',$bfile,-1,$rnum)) || $rnum!=3) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 goto RAWHIDE;
@@ -19273,13 +19319,13 @@ if (!($bfile = preg_replace("/Romans 16:25 (.+?)\nI Corinthians 1:1 /us",$textfi
 $textfix = <<<EOF
 II Corinthians 13:12 Pozdravite eden drugega v svetem poljubku.
 II Corinthians 13:13 Pozdravljajo vas sveti vsi.
-II Corinthians 13:14 Milost Gospoda Jezusa Kristusa in ljubezen Božja in občinstvo svetega Duha z vsemi vami. Amen.  Druga poslanica Korinčanom je bila napisana iz Filipov, mesta v Makedoniji, po Titu in Luku.
+II Corinthians 13:14 Milost Gospoda Jezusa Kristusa in ljubezen Božja in občinstvo svetega Duha z vsemi vami. Amen. Druga poslanica Korinčanom je bila napisana iz Filipov, mesta v Makedoniji, po Titu in Luku.
 Galatians 1:1 
 EOF;
 if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 
-I Timothy 6:21 Katero spoznavajoč so nekateri izgrešili vero.  Milost s teboj! Amen. Timoteju list prvi pisan iz Laodiceje, katera jo glavno mesto Frigije Pakacijane.
+I Timothy 6:21 Katero spoznavajoč so nekateri izgrešili vero. Milost s teboj! Amen. Timoteju list prvi pisan iz Laodiceje, katera jo glavno mesto Frigije Pakacijane.
 II Timothy 1:1 
 EOF;
 if (!($bfile = preg_replace("/\nI Timothy 6:21 (.+?)II Timothy 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -19297,7 +19343,7 @@ if (!($bfile = preg_replace("/Titus 1:10 (.+?)Titus 2:1 /us",$textfix,$bfile,-1,
 $textfix = <<<EOF
 Philemon 1:23 Pozdravljajo vas Epafra, sojetnik moj v Kristusu Jezusu,
 Philemon 1:24 Mark, Aristarh, Dema, Luka, sodelalci moji.
-Philemon 1:25 Milost Gospoda našega Jezusa Kristusa z duhom vašim! Amen.   Filomenu pisano iz Rima po Onezimu hišniku.
+Philemon 1:25 Milost Gospoda našega Jezusa Kristusa z duhom vašim! Amen. Filomenu pisano iz Rima po Onezimu hišniku.
 Hebrews 1:1 
 EOF;
 if (!($bfile = preg_replace("/Philemon 1:23 (.+?)Hebrews 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -19421,6 +19467,8 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Spanish---Gods-Word-for-You" :
 if (!($bfile = preg_replace("/[[\]]{2,}/us","",$bfile,-1,$rnum)) || $rnum!=45) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/\]([^ \r\n[:punct:]]+)/us",'] $1',$bfile,-1,$rnum)) || $rnum!=375) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/[ ]+\]/us","]",$bfile,-1,$rnum)) || $rnum!=379) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 $textfix = <<<EOF
 2CO 13:12 Salúdense unos a otros con un beso santo.
@@ -19440,7 +19488,7 @@ $textfix = <<<EOF
 
 I Chronicles 3:22 Hijo de Sequenías fue Semeías. Y los hijos de Semeías fueron Harus, Jegaal, Barias, Naarias, Safat, seis.
 I Chronicles 3:23 Los hijos de Naarias fueron estos tres, Elioenai, Ezequías, y Ezricam.
-I Chronicles 3:24 Los hijos de Elioenai fueron estos siete, Oduias, Eliasub, Pelaías, Accub, Johanán, Dalaias, Anani.  
+I Chronicles 3:24 Los hijos de Elioenai fueron estos siete, Oduias, Eliasub, Pelaías, Accub, Johanán, Dalaias, Anani.
 I Chronicles 4:1 
 EOF;
 if (!($bfile = preg_replace("/\nI Chronicles 3:22 (.+?)\nI Chronicles 4:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -19460,19 +19508,19 @@ II Chronicles 33:21 De veinte y dos años era Amón, cuando comenzó a reinar, y
 II Chronicles 33:22 E hizo lo malo en ojos de Jehová, como había hecho Manasés su padre: porque a todos los ídolos que su padre Manasés había hecho, sacrificó y sirvió Amón.
 II Chronicles 33:23 Mas nunca se humilló delante de Jehová, como Manasés su padre se humilló, antes aumentó el pecado.
 II Chronicles 33:24 Y conspiraron contra él sus siervos, y matáronle en su casa.
-II Chronicles 33:25 Mas el pueblo de la tierra hirió a todos los que habían conspirado contra el rey Amón: y el pueblo de la tierra puso por rey en su lugar a Josías su hijo.  
+II Chronicles 33:25 Mas el pueblo de la tierra hirió a todos los que habían conspirado contra el rey Amón: y el pueblo de la tierra puso por rey en su lugar a Josías su hijo.
 II Chronicles 34:1 
 EOF;
 if (!($bfile = preg_replace("/II Chronicles 33:10 (.+?)II Chronicles 34:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 Psalms 13:5 Mas yo en tu misericordia he confiado: alegrarse ha mi corazón en tu salud.
-Psalms 13:6 Cantaré a Jehová; porque me ha hecho bien.  
+Psalms 13:6 Cantaré a Jehová; porque me ha hecho bien.
 Psalms 14:1 
 EOF;
 if (!($bfile = preg_replace("/Psalms 13:5 (.+?)Psalms 14:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 Jeremiah 39:17 Y en aquel día yo te libraré, dijo Jehová, y no serás entregado en mano de aquellos de quien tú tienes temor;
-Jeremiah 39:18 porque escapando te escaparé, y no caerás a espada, y tu vida te será por despojo, porque tuviste confianza en mí, dijo Jehová.  
+Jeremiah 39:18 porque escapando te escaparé, y no caerás a espada, y tu vida te será por despojo, porque tuviste confianza en mí, dijo Jehová.
 Jeremiah 40:1 
 EOF;
 if (!($bfile = preg_replace("/Jeremiah 39:17 (.+?)Jeremiah 40:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -19623,6 +19671,15 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---Spanish---Spanish-New-Open-Bible" :
+if (!($bfile = preg_replace("/»/us","» ",$bfile,-1,$rnum)) || $rnum!=4113) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#0x200d/1
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---Swahili---New-Swahili-Bible" :
 if (!($bfile = preg_replace("/\(KISWAHILI[^)]+\)/us"," ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/ali\[owapiga/us","ali owapiga",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -19659,7 +19716,7 @@ goto RAWHIDE;
 case "Holy-Bible---Swedish---Swedish-Bible" :
 if (!($bfile = preg_replace("/»/us",'"',$bfile,-1,$rnum)) || $rnum!=11391) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%C2%BB/1
 $bfile_saved = $bfile;
-if (!($bfile = preg_replace("/22O	3	5		176410	5\.  -- Brudtåget beskrives v\.  6--11\.(.+?)22O	3	1/us","22O	3	1",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/22O	3	5		176410	5\. -- Brudtåget beskrives v\. 6--11\.(.+?)22O	3	1/us","22O	3	1",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 19O	49	19		146980	Om han ock prisar sig välsignad under sitt liv, ja, om man än berömmer dig, när du gör goda dagar,
 19O	49	20		146985	så skall dock vars och ens själ gå till hans fäders släkte, till dem som aldrig mer se ljuset.
@@ -19802,14 +19859,14 @@ if (!($bfile = preg_replace("/Numbers 30:16 (.+?)Numbers 31:1 /us",$textfix,$bfi
 $textfix = <<<EOF
 
 I Samuel 24:22 Så svär mig nu vid Herran, att du icke utrotar min säd efter mig, och icke utskrapar mitt namn utu mins faders hus.
-I Samuel 24:23 Och David svor Saul; och så drog Saul hem; men David och hans män drogo upp på borgena.  
+I Samuel 24:23 Och David svor Saul; och så drog Saul hem; men David och hans män drogo upp på borgena.
 I Samuel 25:1 
 EOF;
 if (!($bfile = preg_replace("/\nI Samuel 24:22 (.+?)\nI Samuel 25:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 
 I Kings 22:53 Och gjorde det ondt var för Herranom, och vandrade i sins faders och sine moders väg, och i Jerobeams, Nebats sons, väg, hvilken Israel kom till att synda.
-I Kings 22:54 Och han tjente Baal, och tillbad honom, och förtörnade Herran Israels Gud, såsom hans fader gjorde.   
+I Kings 22:54 Och han tjente Baal, och tillbad honom, och förtörnade Herran Israels Gud, såsom hans fader gjorde.
 II Kings 1:1 
 EOF;
 if (!($bfile = preg_replace("/\nI Kings 22:53 (.+?)\nII Kings 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -20219,7 +20276,7 @@ EOF;
 if (!($bfile = preg_replace("/Psalms 142:7 (.+?)Psalms 143:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bigfix = <<<EOF
 Ecclesiastes 4:16 Och på folket, som för honom gick, var ingen ände; och de som efter honom gingo, gladdes dock intet vid honom; det är ju ock intet annat, än fåfängelighet och jämmer.
-Ecclesiastes 4:17 Bevara din fot, när du går till Guds hus, och kom till att höra; det är bättre, än de dårars offer; ty de veta icke hvad ondt de göra.  
+Ecclesiastes 4:17 Bevara din fot, när du går till Guds hus, och kom till att höra; det är bättre, än de dårars offer; ty de veta icke hvad ondt de göra.
 Ecclesiastes 5:1 
 EOF;
 if (!($bfile = preg_replace("/Ecclesiastes 4:16 (.+?)Ecclesiastes 5:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -20231,7 +20288,7 @@ EOF;
 if (!($bfile = preg_replace("/Ecclesiastes 7:29 (.+?)Ecclesiastes 8:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bigfix = <<<EOF
 Song of Solomon 5:16 Hans hals är söt och ganska lustig: En sådana är min vän; min vän är sådana, I Jerusalems döttrar.
-Song of Solomon 5:17 Hvart är då din vän gången, o du dägeligasta ibland qvinnor? Hvart hafver din vän vändt sig, så vilje vi honom söka med dig.  
+Song of Solomon 5:17 Hvart är då din vän gången, o du dägeligasta ibland qvinnor? Hvart hafver din vän vändt sig, så vilje vi honom söka med dig.
 Song of Solomon 6:1 
 EOF;
 if (!($bfile = preg_replace("/Song of Solomon 5:16 (.+?)Song of Solomon 6:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -20239,44 +20296,44 @@ $bigfix = <<<EOF
 Daniel 3:30 Och Konungen gaf Sadrach, Mesach och AbedNego, stort välde i Babels land.
 Daniel 3:31 Konung NebucadNezar, allom landom, folkom och tungomålom: Gud gifve eder mycken frid!
 Daniel 3:32 Mig synes godt vara, att jag förkunnar de tecken och under, som Gud den Högste med mig gjort hafver;
-Daniel 3:33 Ty hans tecken äro stor, och hans under äro mägtig, och hans rike är ett evigt rike, och hans välde varar ifrå slägte till slägte.  
+Daniel 3:33 Ty hans tecken äro stor, och hans under äro mägtig, och hans rike är ett evigt rike, och hans välde varar ifrå slägte till slägte.
 Daniel 4:1 
 EOF;
 if (!($bfile = preg_replace("/Daniel 3:30 (.+?)Daniel 4:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bigfix = <<<EOF
 Hosea 14:9 Ephraim, bort med de afgudar. Jag skall bönhöra honom, och leda honom; jag vill vara såsom ett grönt furoträ; på mig skall man finna dina frukt.
-Hosea 14:10 Ho är vis, den detta förstår, och klok, den detta märker? Ty Herrans vägar äro rätte, och de rättfärdige vandra deruppå; men öfverträdarena falla deruppå.   
+Hosea 14:10 Ho är vis, den detta förstår, och klok, den detta märker? Ty Herrans vägar äro rätte, och de rättfärdige vandra deruppå; men öfverträdarena falla deruppå.
 Joel 1:1 
 EOF;
 if (!($bfile = preg_replace("/Hosea 14:9 (.+?)Joel 1:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bigfix = <<<EOF
 Jonah 2:10 Men jag vill offra med tacksägelse. Min löfte vill jag betala Herranom, att han mig hulpit hafver.
-Jonah 2:11 Och Herren sade till fisken, och han utsputade Jona in uppå landet.  
+Jonah 2:11 Och Herren sade till fisken, och han utsputade Jona in uppå landet.
 Jonah 3:1 
 EOF;
 if (!($bfile = preg_replace("/Jonah 2:10 (.+?)Jonah 3:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bigfix = <<<EOF
 Haggai 2:23 Och skall omstörta rikens säten, och förgöra de mägtiga Hedningarnas rike, och skall omstörta både vagn och resenär; så att både häst och man skola nederfalla, hvar och en genom den andras svärd.
-Haggai 2:24 På den samma tiden, säger Herren Zebaoth, skall jag taga dig, Serubbabel, Sealthiels son, min tjenare, säger Herren, och vill hålla dig såsom en signetsring; ty jag hafver utvalt dig, säger Herren Zebaoth.   
+Haggai 2:24 På den samma tiden, säger Herren Zebaoth, skall jag taga dig, Serubbabel, Sealthiels son, min tjenare, säger Herren, och vill hålla dig såsom en signetsring; ty jag hafver utvalt dig, säger Herren Zebaoth.
 Zechariah 1:1 
 EOF;
 if (!($bfile = preg_replace("/Haggai 2:23 (.+?)Zechariah 1:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bigfix = <<<EOF
 Acts 13:51 Men de skuddade stoftet af sina fötter på dem, och kommo till Iconien.
-Acts 13:52 Och Lärjungarna vordo uppfyllde med fröjd och den Helga Anda.  
+Acts 13:52 Och Lärjungarna vordo uppfyllde med fröjd och den Helga Anda.
 Acts 14:1 
 EOF;
 if (!($bfile = preg_replace("/Acts 13:51 (.+?)Acts 14:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bigfix = <<<EOF
 Acts 19:40 Ty det är fara att vi komme i skuld, för det upplopp som i dag skedt är, efter ingen sak på färde är, der vi kunne någon skäl af taga till detta upplopp.
-Acts 19:41 Och då han det sagt hade, lät han folket gå.  
+Acts 19:41 Och då han det sagt hade, lät han folket gå.
 Acts 20:1 
 EOF;
 if (!($bfile = preg_replace("/Acts 19:40 (.+?)Acts 20:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bigfix = <<<EOF
 II Corinthians 13:12 Helser eder inbördes med en helig kyss;
 II Corinthians 13:13 helsa eder all helgon.
-II Corinthians 13:14 Vårs Herras Jesu Christi nåd, och Guds kärlek, och den Helga Andas delaktighet vare med eder allom. Amen.  
+II Corinthians 13:14 Vårs Herras Jesu Christi nåd, och Guds kärlek, och den Helga Andas delaktighet vare med eder allom. Amen.
 Galatians 1:1 
 EOF;
 if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -20701,6 +20758,16 @@ REV 18:10 ఆమె తగలబడి పోతుంటే వచ్చే ప
 REV 18:11 
 EOF;
 if (!($bfile = preg_replace("/REV 18:9 (.+?)REV 18:11 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Tongan---Revised-West-Version" :
+if (!($bfile = preg_replace("/ \]/us", "] ",$bfile,-1,$rnum)) || $rnum!=1048) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
 goto RAWHIDE;
 
 

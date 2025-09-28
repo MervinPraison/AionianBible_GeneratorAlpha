@@ -1,6 +1,6 @@
 # File Name: TEXTREPAIR.txt
-# File Size: 5503        
-# File Date: 09/06/2025 09:14:56
+# File Size: 5499        
+# File Date: 09/26/2025 10:04:15
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -22,9 +22,9 @@ Holy-Bible---Greek---Greek-Byzantine-Majority	044	ACT	008	036	ως δε επορ
 Holy-Bible---Greek---Greek-Byzantine-Majority	044	ACT	015	033	ποιησαντες δε χρονον απελυθησαν μετ ειρηνης απο των αδελφων προς τους αποστολους  
 Holy-Bible---Greek---Greek-Byzantine-Majority	044	ACT	024	006	ος και το ιερον επειρασεν βεβηλωσαι ον και εκρατησαμεν  
 Holy-Bible---Ukrainian---Ukrainian-NT	040	MAT	001	023	Ось дїва матиме в утробі, і вродить сина, і дадуть йому імя Емануіл, що перекладом є: З нами Бог.
-Holy-Bible---Ukrainian---Ukrainian-NT	040	MAT	004	017	З того часу почав Ісус проповідувати й глаголати:  Покайтесь, наближилось бо царство небесне.
-Holy-Bible---Ukrainian---Ukrainian-NT	040	MAT	021	025	Хрещеннє Иоанове звідкіля було: з неба, чи від людей?  Вони ж міркували собі, говорячи: Коли скажемо: З неба, то скаже нам: Чом же ви не вірували йому?
-Holy-Bible---Ukrainian---Ukrainian-NT	041	MAR	009	021	І спитав батька його:  З якого се часу, що так сталось йому?  Він же казав: З малку.
+Holy-Bible---Ukrainian---Ukrainian-NT	040	MAT	004	017	З того часу почав Ісус проповідувати й глаголати: Покайтесь, наближилось бо царство небесне.
+Holy-Bible---Ukrainian---Ukrainian-NT	040	MAT	021	025	Хрещеннє Иоанове звідкіля було: з неба, чи від людей? Вони ж міркували собі, говорячи: Коли скажемо: З неба, то скаже нам: Чом же ви не вірували йому?
+Holy-Bible---Ukrainian---Ukrainian-NT	041	MAR	009	021	І спитав батька його: З якого се часу, що так сталось йому? Він же казав: З малку.
 Holy-Bible---Ukrainian---Ukrainian-NT	041	MAR	011	031	І міркували між собою, говорячи: Коди скажемо: З неба, то скаже: Чом же не поняли віри йому?
 Holy-Bible---Ukrainian---Ukrainian-NT	042	LUK	019	022	Рече ж йому: З уст твоїх судити му тебе, лукавий слуго. Знав єси, що я чоловік жорстокий: беру, чого не клав, і жну, чого не сїяв;
 Holy-Bible---Ukrainian---Ukrainian-NT	043	JOH	001	046	І каже Натанаїл до него: З Назарету хиба може що добре бути? Каже йому Филип: Іди та й подивись!
