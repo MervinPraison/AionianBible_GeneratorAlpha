@@ -21260,7 +21260,7 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Uyghur---Uyghur-Bible-Latin" :
-if (!($bfile = preg_replace("/\x{2c67}/us",'H',$bfile,-1,$rnum)) || $rnum!=20) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/\x{2c67}/us",'H',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/([A-Z0-9]{3} \d+:\d+ )\d+/us",'$1',$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("#[|]*(א|ב|ג|ד|ה|ו|ז|ח|ט|י|כ|ל|מ|נ|ס|ע|פ|צ|ק|ר|ש|ת|/ שׁ|ׂ)[|]*#us"," ",$bfile,-1,$rnum)) || $rnum!=199) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
