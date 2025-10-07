@@ -1,6 +1,6 @@
 # File Name: TALLY_HO.txt
 # File Size: 31207       
-# File Date: 09/26/2025 15:18:30
+# File Date: 10/06/2025 15:36:31
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -181,7 +181,7 @@ Holy-Bible---French---Bonnet-Bovet-Bible	31094	31094	31165
 Holy-Bible---French---Free-for-the-World	31098	31098	31102
 Holy-Bible---French---French-Crampon-Bible	31102	31102	31456
 Holy-Bible---French---French-Crampon-Bible-New	31090	31090	31444
-Holy-Bible---French---French-Darby-Bible	31099	31099	31171
+Holy-Bible---French---French-Darby-Bible	31099	31099	31170
 Holy-Bible---French---French-Khan-Bible	23142	23142	23210
 Holy-Bible---French---French-LXX	23005	23005	23149
 Holy-Bible---French---French-LXX-TheoTex	22846	22846	23053
@@ -523,10 +523,10 @@ Holy-Bible---Ukrainian---Ukrainian-Ogienko	31094	31094	31164
 Holy-Bible---Urdu---Urdu-Bible	31102	31102	31104
 Holy-Bible---Urdu---Urdu-Free-Contemporary	31098	31098	31099
 Holy-Bible---Ut-Ma-in---Ut-Ma-in-Bible	5254	5254	5255
-Holy-Bible---Uyghur---Uyghur-Bible-Arabic	30822	30822	30825
-Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic	30829	30829	30896
-Holy-Bible---Uyghur---Uyghur-Bible-Latin	30829	30829	30832
-Holy-Bible---Uyghur---Uyghur-Bible-Pinyin	30828	30828	30831
+Holy-Bible---Uyghur---Uyghur-Bible-Arabic	30822	30822	30826
+Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic	30831	30831	30898
+Holy-Bible---Uyghur---Uyghur-Bible-Latin	30829	30829	30833
+Holy-Bible---Uyghur---Uyghur-Bible-Pinyin	30828	30828	30832
 Holy-Bible---Vaagri-Booli---Vaagri-Booli-Bible	7934	7934	7936
 Holy-Bible---Vaghri---Vaghri-Bible	7947	7947	7950
 Holy-Bible---Vidunda---Vidunda-Bible	22629	22629	22631

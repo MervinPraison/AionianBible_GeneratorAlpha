@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1877655     
-# File Date: 09/26/2025 10:04:15
+# File Size: 1877770     
+# File Date: 10/06/2025 08:43:35
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -4140,7 +4140,6 @@ Holy-Bible---French---French-Darby-Bible	019	PSA	102	001	Prière de l’affligé
 Holy-Bible---French---French-Darby-Bible	019	PSA	108	001	Cantique. Psaume de David.
 Holy-Bible---French---French-Darby-Bible	019	PSA	140	001	Au chef de musique. Psaume de David.
 Holy-Bible---French---French-Darby-Bible	019	PSA	142	001	Instruction de David ; lorsqu’il était dans la caverne. Prière.
-Holy-Bible---French---French-Darby-Bible	040	MAT	023	014	 
 Holy-Bible---French---French-Darby-Bible	064	3JO	001	014	mais j’espère te voir bientôt et nous parlerons bouche à bouche.
 Holy-Bible---French---French-Darby-Bible	066	REV	012	018	Et je me tins sur le sable de la mer ;
 Holy-Bible---French---French-Khan-Bible	011	1KI	022	043	Il suivit en tout la voie d’Asa, son père, sans s’en détourner; il fit le bien aux yeux de l’Eternel.
@@ -13844,6 +13843,7 @@ Holy-Bible---Urdu---Urdu-Free-Contemporary	064	3JO	001	014	مُجھے اُمّی
 Holy-Bible---Ut-Ma-in---Ut-Ma-in-Bible	066	REV	012	018	Se̱ fa-u yat-ya yu̱ yo̱-ya yu̱ne̱ wa do̱'e̱ wa ees u̱-kit m-sa.
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic	009	1SA	021	001	داۋۇت ئەمدى نوبقا كېلىپ ئاخىمەلەك كاھىننىڭ قېشىغا باردى.
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic	011	1KI	022	044	XCOMBINE
+Holy-Bible---Uyghur---Uyghur-Bible-Arabic	019	PSA	077	002	
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic	064	3JO	001	014	سەن بىلەن پات ئارىدا دىدار كۆرۈشۈشنى ئارزۇ قىلىمەن؛ شۇ چاغدا دەرقەمدە سۆزلىشىمىز.
 Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic	009	1SA	020	043	Давут әнди Нобқа келип Ахимәләк каһинниң қешиға барди.
 Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic	011	1KI	022	044	XCOMBINE
@@ -13914,9 +13914,11 @@ Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic	019	PSA	108	002	XCOMBINE
 Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic	064	3JO	001	014	Сән билән пат арида дидар көрүшүшни арзу қилимән; шу чағда дәқәмдәдә сөзлишимиз.
 Holy-Bible---Uyghur---Uyghur-Bible-Latin	009	1SA	021	001	Dawut emdi Nobqa kélip Aximelek kahinning qéshigha bardi.
 Holy-Bible---Uyghur---Uyghur-Bible-Latin	011	1KI	022	044	XCOMBINE
+Holy-Bible---Uyghur---Uyghur-Bible-Latin	019	PSA	077	002	
 Holy-Bible---Uyghur---Uyghur-Bible-Latin	064	3JO	001	014	Sen bilen pat arida didar körüshüshni arzu qilimen; shu chaghda derqemde sözlishimiz.
 Holy-Bible---Uyghur---Uyghur-Bible-Pinyin	009	1SA	021	001	Dawut ǝmdi Nobⱪa kelip Ahimǝlǝk kaⱨinning ⱪexiƣa bardi.
 Holy-Bible---Uyghur---Uyghur-Bible-Pinyin	011	1KI	022	044	XCOMBINE
+Holy-Bible---Uyghur---Uyghur-Bible-Pinyin	019	PSA	077	002	
 Holy-Bible---Uyghur---Uyghur-Bible-Pinyin	064	3JO	001	014	Sǝn bilǝn pat arida didar kɵrüxüxni arzu ⱪilimǝn; xu qaƣda dǝrⱪǝmdǝ sɵzliximiz.
 Holy-Bible---Vaagri-Booli---Vaagri-Booli-Bible	064	3JO	001	014	ಮೆ ಜ಼ಲ್‌ದಿ ಆಯಿನ್ ತುನ ದೆಖಿಶ್‍ಕರಿ ಭರೋಖ್ಹೊ ಕರುಸ್. ತದೆ ಅಪ್ಣೆ ಆಮೆಖ್ಹಾಮೆಥಿ ವಾತೆ ಬೊಲಿಯೆ.
 Holy-Bible---Vaagri-Booli---Vaagri-Booli-Bible	066	REV	012	018	ದರ‍್ಯಾವ್ನ ಕನಾರಿನ ರೇತ್‌ಪರ್ ಭೀರಿಗಯೊ.

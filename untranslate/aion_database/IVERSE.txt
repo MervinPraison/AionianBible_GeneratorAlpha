@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1232523     
-# File Date: 09/26/2025 15:49:17
+# File Size: 1232528     
+# File Date: 10/06/2025 16:14:43
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -518,13 +518,13 @@ Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	EXO-013-017
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	MAR-010-045	Mark 10:45	Mihing Tapa sia ngual a sawl tu in hongpai ngawl hi, ngual atu seam tu in le mi tampi tatkhiat natu a nuntakna pia tu in hongpai hi, ci hi.
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	ROM-001-001	Romans 1:1	Jesus Christ i sal, Sawltak a hi tu in a ki samtuam le Pathian lungdamna thupha atu koituam, keima Paul in,
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	MAT-028-019	Matthew 28:19	Tua a hiciang note pai tavun a, minam theampo te hil tavun, Pa, Tapa le Tha Thiangtho min taw tuiphumna pia tavun:
-Holy-Bible---Chin-Thado---Chongthu-Bible	JOH-003-016	John 3:16	Ajeh chu Pathenin hibanga hi vannoi angailut ahin, koi hijongleh Ama tahsan chan chu mangthah louva tonsot hinna anei na dingin, aneisun achapa changkhat chu apetan ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	GEN-003-024	Semtilbu 3:24	Hiti chun Pathenin Adam anodoh jouvin, Eden hon nisolam'a hinna thingphung ngah dingin vantil Cherubim chu achen sah in, chule chemjam kou jeju chu akipei kimvel le sahtan ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	LUK-023-034	Luke 23:34	Jesun aseitai, “Hepa, ngaidam in, ajeh chu ipi abol'u ahepouve,” ati. Chule sepai hon aponsil chu vang asang'un achang ding akivelhauve.
-Holy-Bible---Chin-Thado---Chongthu-Bible	REV-021-002	Revelation 21:2-3	Chule keiman khopi theng Jerusalem thah chu van Pathena kon'a mou aji dingpa hoitah'a akivon'a ahung kumlhah kamun ahi. Keiman laltouna a kon'a aw hung kisam gin kajan, aseiyin, “Ven, Pathen chenna in chu mihemlah ahung hitai! Ama amahotoh chengkhom intin, chule amaho chu Ama mite hi ding ahiuve. Pathen Amatah chun amaho aumpi diu ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	HEB-011-008	Hebrew 11:8	Tahsan jal'in Abraham chu Pathenin a'in dalha dinga akouva chule gouva alodinga ateppehna gam'a che dinga akou chun thun ananung'e. Aman hoilama ache ding jong kihetlouvin anapotdoh jenge.
+Holy-Bible---Chin-Thado---Chongthu-Bible	JOH-003-016	John 3:16	Ajeh chu Pathen'in hibanga hi vannoi angailut ahin, koi hijongleh Ama tahsan chan chu mangthah louva tonsot hinna aneina dingin, aneisun achapa changkhat chu apetan ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	GEN-003-024	Semtilbu 3:24	Hiti chun Pathen'in Adam anodoh jouvin, Eden hon nisolam'a hinna thingphung ngah dingin vantil Cherubim chu achen sah in, chule chemjam kou jeju chu akipei kimvel le sahtan ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	LUK-023-034	Luke 23:34	Jesun aseitai, “Hepa, ngaidam in, ajeh chu ipi abol'u ahepouve,” ati. Chule sepai hon aponsil chu vang asang'un achang ding akive lhauve.
+Holy-Bible---Chin-Thado---Chongthu-Bible	REV-021-002	Revelation 21:2-3	Chule keiman khopi theng Jerusalem thah chu van Pathen a kon'a mou aji dingpa hoitah'a akivon'a ahung kumlhah kamun ahi. Keiman laltouna a kon'a aw hung kisam gin kajan, aseiyin, “Ven, Pathen chenna in chu mihemlah ahung hitai! Ama amahotoh chengkhom intin, chule amaho chu Ama mite hi ding ahiuve. Pathen Ama tah chun amaho aumpi diu ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	HEB-011-008	Hebrew 11:8	Tahsan jal'in Abraham chu Pathen'in a'in dalha dinga akouva chule gouva alodinga ateppehna gam'a che dinga akou chun thun ananung'e. Aman hoilama ache ding jong kihetlouvin anapotdoh jenge.
 Holy-Bible---Chin-Thado---Chongthu-Bible	EXO-013-017	Potdohbu 13:17	Ajonan Pharaoh vin Israel mite ahin soldoh tan ahile, gamtepna lamlhun'na naicha ahi vang chun, Pathen'in Philistine galbol hojih chun lampia ahinpui pouvin ahi. Pathen'in aseiye, “Kamite hon galtoh khata le alung heikhao vintin Egypt lam'a kile ding ahiuve,” ati.
-Holy-Bible---Chin-Thado---Chongthu-Bible	MAR-010-045	Mark 10:45	Ijeh inem iti leh Mihem Chapa tah jong chu jen dinga hung hilouvin mijenle ding le mitampi lhatdohna dinga ahinna tohdoh ding joh a hung ahibouve,” ati.
+Holy-Bible---Chin-Thado---Chongthu-Bible	MAR-010-045	Mark 10:45	Ijeh inem iti leh Mihem Chapa tah jong chu jen dinga hung hilouvin mijenle ding le mitampi lhatdohna dinga ahinna tohdoh ding joh a hung ahi bouve,” ati.
 Holy-Bible---Chin-Thado---Chongthu-Bible	ROM-001-001	Rome 1:1	Hiche lekhathot hi Christa Jesu soh, solchah hi dinga Pathen lhendoh, Ama Kipana Thupha seiphong dinga kisoldoh, Paul'a kon ahi:
 Holy-Bible---Chin-Thado---Chongthu-Bible	MAT-028-019	Matthew 28:19	Hijeh chun, nangho cheuvin chule namtin jouse seijuiyin gasemun, amaho chu Pa le Chapa chule Lhagao Theng min-in Twilutsah uvin.
 Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	JOH-003-016	Jawhan 3:16	Cathut ni a Capa tawntoe e pasoung ditouh talaivan a lungpataw. Capa ka yuem e tami pueng teh rawk laipalah a yungyoe hringnae a tawn awh nahane doeh.
@@ -2139,7 +2139,7 @@ Holy-Bible---Haitian---Haitian-Creole-Bible	MAR-010-045	Mak 10:45	Paske, mwen me
 Holy-Bible---Haitian---Haitian-Creole-Bible	ROM-001-001	Ròm 1:1	Se mwen menm Pòl, sèvitè Jezikri, yon nonm Bondye rele pou sèvi li apòt, yon nonm li mete apa pou anonse bon nouvèl li a, k'ap ekri nou tout kretyen ki nan lavil Wòm.
 Holy-Bible---Haitian---Haitian-Creole-Bible	MAT-028-019	Matye 28:19	Ale fè disip pou mwen nan tout nasyon, batize yo nan non Papa a, Pitit la ak Sentespri a.
 Holy-Bible---Haitian---Haitian-Creole-Smith	JOH-003-016	Jan 3:16	“Paske Bondye te tèlman renmen lemond, ke Li te bay sèl Fis inik Li pou nenpòt moun ki kwè nan Li pa ta peri, men ta gen lavi etènèl.
-Holy-Bible---Haitian---Haitian-Creole-Smith	GEN-003-024	Jenèz 3:24	Alò, Li te pouse lòm nan deyò; epi nan lès jaden Eden nan, Li te estasyone cheriben nan avèk nepe ak flanm ki te vire nan tout direksyon pou veye chemen vè ab lavi a.
+Holy-Bible---Haitian---Haitian-Creole-Smith	GEN-003-024	Jenèz 3:24	Alò, Li te pouse lòm nan deyò; epi nan lès jaden Eden nan, Li te estasyone cheriben an avèk nepe ak flanm ki te vire nan tout direksyon pou veye chemen vè ab lavi a.
 Holy-Bible---Haitian---Haitian-Creole-Smith	LUK-023-034	Lik 23:34	Men Jésus t ap di: “Papa, padone yo; paske yo pa konnen kisa y ap fè.” Epi yo te tire osò pou divize vètman Li pami yo menm.
 Holy-Bible---Haitian---Haitian-Creole-Smith	REV-021-002	Revelasyon 21:2-3	Mwen te wè vil sen an, Jérusalem tounèf la, desann sòti nan syèl la kote Bondye. Li te prepare tankou yon lamarye ki abiye pou mari li. Epi konsa, mwen te tande yon gwo vwa sòti nan twòn nan ki t ap di: “Gade, tabènak Bondye a pami lèzòm, e Li va rete pami yo. Yo va pèp Li, e Li va Bondye yo. Li menm, va pami yo tankou Bondye yo.
 Holy-Bible---Haitian---Haitian-Creole-Smith	HEB-011-008	Ebre 11:8	Pa lafwa Abraham, lè l te rele, li te obeyi lè l te sòti pou ale yon kote ke li te dwe resevwa pou eritaj. Li te soti malgre li pa t menm konnen ki kote li t ap prale.

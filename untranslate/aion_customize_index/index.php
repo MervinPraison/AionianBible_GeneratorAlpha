@@ -95,7 +95,7 @@ $modified = date("n/j/Y", filemtime("./index.php"));
 The world's first Holy Bible <u>untranslation</u><br>
 Two hundred ninety-one languages<br>
 Five hundred thirty-eight versions<br>
-9,594,850 Scripture verses total<br>
+9,594,852 Scripture verses total<br>
 Anonymous on TOR network<br>
 100% free to copy &amp; print<br>
 Updated <? echo $modified; ?><br>

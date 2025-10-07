@@ -4770,6 +4770,7 @@ Holy-Bible---Ut-Ma-in---Ut-Ma-in-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Ut-Ma-in---Ut-Ma-in-Bible							end
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic	009	1SA	021	001	15	1	end
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic	011	1KI	022	044	53	1	end
+Holy-Bible---Uyghur---Uyghur-Bible-Arabic	019	PSA	077	002	19	1	end
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic	064	3JO	001	014	14	1	end
 Holy-Bible---Uyghur---Uyghur-Bible-Arabic							end
 Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic	009	1SA	020	043	1	-1	end
@@ -4838,10 +4839,12 @@ Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic	064	3JO	001	014	14	1	end
 Holy-Bible---Uyghur---Uyghur-Bible-Cyrillic							end
 Holy-Bible---Uyghur---Uyghur-Bible-Latin	009	1SA	021	001	15	1	end
 Holy-Bible---Uyghur---Uyghur-Bible-Latin	011	1KI	022	044	53	1	end
+Holy-Bible---Uyghur---Uyghur-Bible-Latin	019	PSA	077	002	19	1	end
 Holy-Bible---Uyghur---Uyghur-Bible-Latin	064	3JO	001	014	14	1	end
 Holy-Bible---Uyghur---Uyghur-Bible-Latin							end
 Holy-Bible---Uyghur---Uyghur-Bible-Pinyin	009	1SA	021	001	15	1	end
 Holy-Bible---Uyghur---Uyghur-Bible-Pinyin	011	1KI	022	044	53	1	end
+Holy-Bible---Uyghur---Uyghur-Bible-Pinyin	019	PSA	077	002	19	1	end
 Holy-Bible---Uyghur---Uyghur-Bible-Pinyin	064	3JO	001	014	14	1	end
 Holy-Bible---Uyghur---Uyghur-Bible-Pinyin							end
 Holy-Bible---Vaagri-Booli---Vaagri-Booli-Bible	064	3JO	001	014	14	1	end
