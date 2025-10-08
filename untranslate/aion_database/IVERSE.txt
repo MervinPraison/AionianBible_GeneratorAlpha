@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1232528     
-# File Date: 10/06/2025 16:14:43
+# File Size: 1232532     
+# File Date: 10/08/2025 04:36:22
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -522,7 +522,7 @@ Holy-Bible---Chin-Thado---Chongthu-Bible	JOH-003-016	John 3:16	Ajeh chu Pathen'i
 Holy-Bible---Chin-Thado---Chongthu-Bible	GEN-003-024	Semtilbu 3:24	Hiti chun Pathen'in Adam anodoh jouvin, Eden hon nisolam'a hinna thingphung ngah dingin vantil Cherubim chu achen sah in, chule chemjam kou jeju chu akipei kimvel le sahtan ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	LUK-023-034	Luke 23:34	Jesun aseitai, “Hepa, ngaidam in, ajeh chu ipi abol'u ahepouve,” ati. Chule sepai hon aponsil chu vang asang'un achang ding akive lhauve.
 Holy-Bible---Chin-Thado---Chongthu-Bible	REV-021-002	Revelation 21:2-3	Chule keiman khopi theng Jerusalem thah chu van Pathen a kon'a mou aji dingpa hoitah'a akivon'a ahung kumlhah kamun ahi. Keiman laltouna a kon'a aw hung kisam gin kajan, aseiyin, “Ven, Pathen chenna in chu mihemlah ahung hitai! Ama amahotoh chengkhom intin, chule amaho chu Ama mite hi ding ahiuve. Pathen Ama tah chun amaho aumpi diu ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	HEB-011-008	Hebrew 11:8	Tahsan jal'in Abraham chu Pathen'in a'in dalha dinga akouva chule gouva alodinga ateppehna gam'a che dinga akou chun thun ananung'e. Aman hoilama ache ding jong kihetlouvin anapotdoh jenge.
+Holy-Bible---Chin-Thado---Chongthu-Bible	HEB-011-008	Hebrew 11:8	Tahsan jal'in Abraham chu Pathen'in a'in dalha dinga akouva chule gouva alo dinga ateppehna gam'a che dinga akou chun thun ana nung'e. Aman hoilama ache ding jong kihet louvin ana potdoh jenge.
 Holy-Bible---Chin-Thado---Chongthu-Bible	EXO-013-017	Potdohbu 13:17	Ajonan Pharaoh vin Israel mite ahin soldoh tan ahile, gamtepna lamlhun'na naicha ahi vang chun, Pathen'in Philistine galbol hojih chun lampia ahinpui pouvin ahi. Pathen'in aseiye, “Kamite hon galtoh khata le alung heikhao vintin Egypt lam'a kile ding ahiuve,” ati.
 Holy-Bible---Chin-Thado---Chongthu-Bible	MAR-010-045	Mark 10:45	Ijeh inem iti leh Mihem Chapa tah jong chu jen dinga hung hilouvin mijenle ding le mitampi lhatdohna dinga ahinna tohdoh ding joh a hung ahi bouve,” ati.
 Holy-Bible---Chin-Thado---Chongthu-Bible	ROM-001-001	Rome 1:1	Hiche lekhathot hi Christa Jesu soh, solchah hi dinga Pathen lhendoh, Ama Kipana Thupha seiphong dinga kisoldoh, Paul'a kon ahi:
