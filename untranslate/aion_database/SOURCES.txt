@@ -1584,7 +1584,7 @@ Holy-Bible---Tharu-Rana---Rana-Tharu-Bible				https://ebible.org/Scriptures/thr_
 Holy-Bible---Thur---Leb-Thur-Bible				https://ebible.org/epub/lth.epub	Holy-Bible---Thur---Leb-Thur-Bible---Source-Edition.epub
 Holy-Bible---Thur---Leb-Thur-Bible				https://ebible.org/pdf/lth/lth_prt.pdf	Holy-Bible---Thur---Leb-Thur-Bible---Source-Edition.pdf
 Holy-Bible---Thur---Leb-Thur-Bible				https://ebible.org/sword/zip/lth2024eb.zip	Holy-Bible---Thur---Leb-Thur-Bible---Source-Edition.SWORD.zip
-Holy-Bible---Thur---Leb-Thur-Bible				https://ebible.org/Scriptures/lth_vpl.zip	Holy-Bible---Thur---Leb-Thur-Bible---Source-Edition.VPL.zip
+Holy-Bible---Thur---Leb-Thur-Bible				./aion_source/Holy-Bible---Thur---Leb-Thur-Bible---Source-Edition.VPL.zip	Holy-Bible---Thur---Leb-Thur-Bible---Source-Edition.VPL.zip
 Holy-Bible---Tichurong---Tichurong-Bible				https://ebible.org/epub/tcn.epub	Holy-Bible---Tichurong---Tichurong-Bible---Source-Edition.epub
 Holy-Bible---Tichurong---Tichurong-Bible				https://ebible.org/pdf/tcn/tcn_prt.pdf	Holy-Bible---Tichurong---Tichurong-Bible---Source-Edition.pdf
 Holy-Bible---Tichurong---Tichurong-Bible				https://ebible.org/sword/zip/tcn2025eb.zip	Holy-Bible---Tichurong---Tichurong-Bible---Source-Edition.SWORD.zip
