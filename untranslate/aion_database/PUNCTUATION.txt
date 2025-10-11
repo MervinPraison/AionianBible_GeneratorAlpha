@@ -230,7 +230,7 @@ Holy-Bible---Greek---Greek-Textus-Receptus-Elzevir	202	202	0	0	14	14	0	0	0	0	0	0
 Holy-Bible---Greek---Greek-Tischendorf	201	201	0	0	6	6	0	0	0	0	0	0	0	1219	0	0	0	2	974	9895	5693	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	·
 Holy-Bible---Greek---Greek-Tregelles	269	269	0	0	481	481	0	0	0	0	0	0	0	0	0	0	0	2	1019	13085	5614	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	·
 Holy-Bible---Greek---Greek-Westcott-Hort	230	230	2310	2310	896	898	0	0	0	0	0	0	0	0	0	0	0	2312	0	8	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Holy-Bible---Greek---Text-Critical	202	202	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	1006	15085	6235	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	· —
+Holy-Bible---Greek---Text-Critical	202	202	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	1006	15084	6233	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	· —
 Holy-Bible---Guduf-Gava---Guduf-Gava-Bible	45	44	0	0	2	3	0	0	0	0	0	0	136	136	711	582	0	2	3	3749	2775	330	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
 Holy-Bible---Gujarati---Gujarati-Bible	442	442	0	0	0	0	0	0	0	0	0	0	2415	2331	4552	5548	0	843	7128	37934	38883	3377	955	0	0	629	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
 Holy-Bible---Gujii---Guji-Oromo-Bible	267	267	0	0	34	34	0	0	7988	6533	50479	0	0	0	0	0	0	874	15979	46674	32680	3294	2949	0	0	1497	0	0	0	0	0	0	0	0	0	0	0	0	0	0	‹ ›
