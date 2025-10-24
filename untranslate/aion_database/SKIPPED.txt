@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1877770     
-# File Date: 10/13/2025 10:08:54
+# File Size: 1877771     
+# File Date: 10/24/2025 00:24:42
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -319,7 +319,7 @@ Holy-Bible---Chin-Matu---Matupi-Chin-Bible	066	REV	012	018	Tedae tuitunli kah la
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	064	3JO	001	014	Ahihang hai ngawl in hong mu tu in ki um khi hi, maitang kisi in i ki paupui tu hi.
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	066	REV	012	018	Pathian thupiak te a zui nupi nu i suan a tanglai te do tu in kuankhia hi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	022	SOL	006	013	Zailom: Hung kile in, hung kile kit tan, O Shulam nungahnu. Hung kinung heijin, hung kit in, i-kimuto kit theina diuvin.
-Holy-Bible---Chin-Thado---Chongthu-Bible	064	3JO	001	014	Ajeh chu nangma toh kimaitoa kimuto vahding kakinemin ahi. Chuphat leh kimaitoa ikihoulim ding ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	064	3JO	001	014	Ajeh chu nangma toh kimaitoa kimuto vah ding kakinemin ahi. Chuphat leh kimaitoa ikihoulim ding ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	066	REV	012	018	Chujouvin dragon chu twikhanglen pam'a chun adingin ahi.
 Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	064	3JO	001	014	Palang kâhmo roi pawiteh buet touh hoi buet touh lawk kâpan han telah ngaihawi hoi ka o.
 Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	066	REV	012	018	tuipui teng thingyei dawk a kangdue.
