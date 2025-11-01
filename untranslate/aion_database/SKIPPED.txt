@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1877771     
-# File Date: 10/24/2025 00:24:42
+# File Size: 1877769     
+# File Date: 10/31/2025 16:42:12
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -6904,7 +6904,7 @@ Holy-Bible---Gujarati---Gujarati-Bible	064	3JO	001	014	પણ હું તન�
 Holy-Bible---Gujarati---Gujarati-Bible	066	REV	012	018	અને તે સમુદ્રની રેતી પર ઊભો રહ્યો.
 Holy-Bible---Gujii---Guji-Oromo-Bible	064	3JO	001	014	Dhiko'ottuu akka si dhaggu hin addadha; yennaa san ilaan wol dhagginee hin haasonna.
 Holy-Bible---Gujii---Guji-Oromo-Bible	066	REV	012	018	Jawween sun maansa cinaa abbaaya'aa irra dhaabbatte.
-Holy-Bible---Haitian---Haitian-Creole-Smith	064	3JO	001	014	men mwen espere ke mwen va wè nou toutalè, epi nou va pale fas a fas.
+Holy-Bible---Haitian---Haitian-Creole-Smith	064	3JO	001	014	men mwen espere ke mwen va wè nou toutalè, epi nou va pale fasafas.
 Holy-Bible---Halbi---Halbi-Bible	064	3JO	001	014	पर मो ख आसा हैं की तो ख सीघ्र भेंट करुगो, तब हम आमने सामे बातचीत करेगों।
 Holy-Bible---Halbi---Halbi-Bible	066	REV	012	018	अर उ समुंदर की रेता पर जा ख खड़ो भयो।
 Holy-Bible---Haryanvi---Haryanvi-Bible	064	3JO	001	014	पर मन्नै उम्मीद सै, के तेरे तै तावळा-ए मिलूँगा, फेर हम आम्ही-स्याम्ही बात करागें।

@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
 # File Size: 1232534     
-# File Date: 10/24/2025 06:06:35
+# File Date: 10/31/2025 22:04:13
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -4127,10 +4127,10 @@ Holy-Bible---Slovak---Slovak-Bible	EXO-013-017
 Holy-Bible---Slovak---Slovak-Bible	MAR-010-045	Marek 10:45	Veď ani Syn človeka neprišiel na svet preto, aby mu ostatní slúžili, ale aby slúžil a dal svoj život ako výkupné za všetkých.“
 Holy-Bible---Slovak---Slovak-Bible	ROM-001-001	Rimanom 1:1	Ja, Pavol, som služobníkom Ježiša Krista, ktorý si ma povolal za svojho apoštola a poveril ma, aby som šíril Božiu dobrú správu.
 Holy-Bible---Slovak---Slovak-Bible	MAT-028-019	Matúš 28:19	Preto choďte a získavajte mi nasledovníkov vo všetkých národoch a krstite ich v mene Otca, Syna i Ducha Svätého.
-Holy-Bible---Slovene---Slovene-Savli-Bible	JOH-003-016	Janez 3:16	Kajti Bog je tako ljubil svet, da je dal svojega edinorojenega Sina, da kdorkoli veruje vanj, se ne bo pogubil, temveč bo imel večno življenje.
+Holy-Bible---Slovene---Slovene-Savli-Bible	JOH-003-016	Janez 3:16	Kajti Bog je tako ljubil svét, da je dal svojega edinorojenega Sina, da se, kdorkoli veruje vanj, ne bi pogubil, temveč bi imel večno življenje.
 Holy-Bible---Slovene---Slovene-Savli-Bible	GEN-003-024	1 Mojzes 3:24	Tako je izgnal človeka in na vzhodu edenskega vrta namestil kerube in ognjen meč, ki obrača vsako pot, da varuje pot drevesa življenja.
 Holy-Bible---Slovene---Slovene-Savli-Bible	LUK-023-034	Luka 23:34	Potem je Jezus rekel: »Oče, odpusti jim, kajti ne vedo, kaj delajo.« Oni pa so si razdelili njegova oblačila ter metali žrebe.
-Holy-Bible---Slovene---Slovene-Savli-Bible	REV-021-002	Razodetje 21:2-3	In jaz, Janez, sem videl sveto mesto, novi Jeruzalem, prihajati dol od Boga, iz nebes, pripravljeno, kakor je nevesta okrašena za svojega soproga. In zaslišal sem močan glas z neba, rekoč: »Glej, šotorsko svetišče Boga je z ljudmi in prebival bo z njimi in oni bodo njegovi ljudje in sam Bog bo z njimi in bo njihov Bog.
+Holy-Bible---Slovene---Slovene-Savli-Bible	REV-021-002	Razodetje 21:2-3	In jaz, Janez, sem videl svéto mesto, novi Jeruzalem, prihajati dol od Boga, iz nebes, pripravljeno kakor je nevesta okrašena za svojega moža. In zaslišal sem močan glas z neba, rekoč: »Glej, šotorsko svetišče Boga je z ljudmi in prebival bo z njimi in oni bodo njegovi ljudje in sam Bog bo z njimi in bo njihov Bog.
 Holy-Bible---Slovene---Slovene-Savli-Bible	HEB-011-008	Hebrejcem 11:8	Po veri je Abraham ubogal, ko je bil poklican, da gre ven, na kraj, ki naj bi ga kasneje prejel v dediščino; in odšel je ven, ne vedoč kam je šel.
 Holy-Bible---Slovene---Slovene-Savli-Bible	EXO-013-017	2 Mojzes 13:17	Pripetilo se je, ko je faraon ljudstvu pustil oditi, da jih Bog ni vodil po poti dežele Filistejcev, čeprav je bila ta blizu, kajti Bog je rekel: »Da se ne bi morda ljudstvo pokesalo, ko zagleda vojno in se vrnejo v Egipt,«
 Holy-Bible---Slovene---Slovene-Savli-Bible	MAR-010-045	Marko 10:45	Kajti celo Sin človekov ni prišel, da bi mu služili, temveč, da služi in da svoje življenje daruje v odkupnino za mnoge.«

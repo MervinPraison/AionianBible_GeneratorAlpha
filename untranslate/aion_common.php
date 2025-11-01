@@ -650,7 +650,7 @@ function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $ski
 		'include'	=> '/---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---German---(Open|Zurich).*---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/(Holy-Bible---Urdu---Urdu-Free-Contemporary)---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
-		//'include'	=> '/Holy-Bible---([U-Z]{1}).+---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
+		//'include'	=> '/Holy-Bible---([S-Z]{1}).+---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/Holy-Bible---French---French-Ostervald-Bible---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
 		//'include'	=> '/Holy-Bible---Chin-Matu---Matupi-Chin-2019---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
 		'destiny'	=> $destiny,
@@ -3483,7 +3483,7 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-9943;
 	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-12353;
 	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-357829;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-9594852;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-9594853;
 	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-108336;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-485;
 	$grandmarker['LONG']		= $grandtotal['LONG']-2327;
@@ -3491,7 +3491,7 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-7013;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-1096;
 	$grandmarker['FIXED']		= $grandtotal['FIXED']-14708;
-	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-57764;
+	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-57763;
 	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-11705;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-715;

@@ -1,6 +1,6 @@
 # File Name: TESTWORDS.txt
-# File Size: 289282      
-# File Date: 10/24/2025 06:02:07
+# File Size: 289276      
+# File Date: 10/31/2025 21:59:46
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -470,7 +470,7 @@ Holy-Bible---Shona---Rakasununguka	0	GROUP=0/0/0	GROUP=0/0/0	gehena=1/1/0, wegeh
 Holy-Bible---Shona---Shona-Bible	0	GROUP=0/0/0	GROUP=0/0/0	gehena=0/0/0, wegehena=1/1/0, mugehena=11/11/0, kugehena=0/0/0, negehena=3/3/0, yegehena=1/1/0, egehena=1/1/0, kwegehena=1/1/0, negehena=3/3/0, dzegehena=1/1/0, GROUP=22/22/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---SlavonicChurch---Church-Slavonic-Elizabeth	0	GROUP=0/0/0	GROUP=0/0/0	аде=16/14/2, ада=14/9/5, адского=0/0/0, преисподнюю=0/0/0, геенне=2/2/0, геенны=2/2/0, геенну=6/6/0, адского=0/0/0, преисподней=0/0/0, преисподняя=1/0/1, преисподнею=0/0/0, GROUP=41/33/8	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Slovak---Slovak-Bible	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
-Holy-Bible---Slovene---Slovene-Savli-Bible	0	GROUP=0/0/0	GROUP=0/0/0	pekel=24/23/1, pekla=17/17/0, peklu=7/7/0, peklenski=2/2/0, GROUP=50/49/1	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
+Holy-Bible---Slovene---Slovene-Savli-Bible	0	GROUP=0/0/0	GROUP=0/0/0	pekel=1/0/1, pekla=1/1/0, peklu=0/0/0, peklenski=2/2/0, GROUP=4/3/1	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Slovene---Slovene-Stritarja-NT	0	GROUP=0/0/0	GROUP=0/0/0	pekel=13/13/0, pekla=3/3/0, peklu=4/4/0, peklenski=1/1/0, GROUP=21/21/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Soli---Soli-Bible	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Somali---Somali-Bible	0	GROUP=0/0/0	GROUP=0/0/0	jahannamada=11/11/0, GROUP=11/11/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0

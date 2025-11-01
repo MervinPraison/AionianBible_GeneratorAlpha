@@ -2,12 +2,12 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	MAP	FLAG
 # File Accuracy: Contact publisher with corrections to file format or content
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
-# File Date: 10/24/2025 05:43:25
+# File Date: 10/31/2025 21:40:54
 # File Generator: ABCMS (alpha)
 # File Location: https://resources.AionianBible.org
 # File Name: BOOKSCHAPTERS.txt
 # File Purpose: Supporting resource for the Aionian Bible project
-# File Size: 3955866     
+# File Size: 3955797     
 Holy-Bible---Abureni---Abureni-Bible	041	MAR	009	044	MISSING	MID
 Holy-Bible---Abureni---Abureni-Bible	041	MAR	009	046	MISSING	MID
 Holy-Bible---Ahirani---Ahirani-Bible	047	2CO	001	014	MISSING	MID
@@ -4466,7 +4466,6 @@ Holy-Bible---Chinese---Mandarin-Bible-Traditional	066	REV	001	005	MISSING	MID
 Holy-Bible---Chinese---Mandarin-Bible-Traditional	066	REV	002	027	MISSING	MID
 Holy-Bible---Chinese---Mandarin-Bible-Traditional	066	REV	021	013	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	001	GEN	037	003	MISSING	MID
-Holy-Bible---Chin-Thado---Chongthu-Bible	001	GEN	044	026	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	002	EXO	015	016	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	002	EXO	025	021	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	002	EXO	027	007	MISSING	MID
