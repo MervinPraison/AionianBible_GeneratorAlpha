@@ -7128,16 +7128,16 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---French---Vulgate-Glaire" :
 $textfix = <<<EOF
-Genesis 5:1 Voici le livre de la génération d’Adam. Au jour que Dieu créa l’homme, c’est à la ressemblance de Dieu qu’il le fit.
-Genesis 5:2 Il créa un homme et une femme, et il les bénit : et il les appela du nom d’Adam, au jour où ils furent créés.
-Genesis 5:3 
-EOF;
-if (!($bfile = preg_replace("/Genesis 5:1 (.+?)Genesis 5:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
 Psalms 4:9 Dans la paix je m’endormirai et je reposerai tout à la fois, Parce que vous, Seigneur, vous seul m’avez établi dans l’espérance.
 Psalms 5:1 
 EOF;
 if (!($bfile = preg_replace("/Psalms 4:9 (.+?)Psalms 5:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Psalms 5:7 Vous haïssez tous ceux qui opèrent l’iniquité ; vous perdrez tous ceux qui profèrent le mensonge. Le Seigneur aura en abomination un homme de sang et un fourbe.
+Psalms 5:8 Mais moi, grâce à la multitude de vos miséricordes, j’entrerai dans votre maison ; j’adorerai en approchant de votre saint temple, pénétré de votre crainte.
+Psalms 5:9 
+EOF;
+if (!($bfile = preg_replace("/Psalms 5:7 (.+?)Psalms 5:9 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 Psalms 12:6 Mais moi, j’ai espéré dans votre miséricorde. Mon cœur tressaillira d’allégresse dans votre salut ;
 Psalms 12:7 je chanterai le Seigneur qui m’a comblé de biens ; je chanterai le nom du Dieu Très-Haut. 

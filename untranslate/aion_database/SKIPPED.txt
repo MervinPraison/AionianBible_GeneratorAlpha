@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1877769     
-# File Date: 10/31/2025 16:42:12
+# File Size: 1877772     
+# File Date: 11/12/2025 01:32:49
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -4653,7 +4653,7 @@ Holy-Bible---French---Geneva-Bible	041	MAR	010	052	Et Jeſus lui dit , Va-t’
 Holy-Bible---French---Geneva-Bible	044	ACT	024	018	Et comme je vaquois à cela , ils m’ont trouvé purifié au temple , non point avec troupe ni tumulte.
 Holy-Bible---French---Geneva-Bible	064	3JO	001	014	mais j’eſpere de te voir en bref , nous parlerons bouche à bouche.
 Holy-Bible---French---Geneva-Bible	066	REV	012	018	Et je me tins ſur le ſable de la mer.
-Holy-Bible---French---Vulgate-Glaire	004	NUM	020	028	Et lorsqu’il eut dépouillé Aaron de ses vêtements il en revêtit Eléazar son fils.
+Holy-Bible---French---Vulgate-Glaire	004	NUM	020	028	Et lorsqu’il eut dépouillé Aaron de ses vêtements il en revêtit Éléazar son fils.
 Holy-Bible---French---Vulgate-Glaire	006	JOS	004	023	Le Seigneur votre Dieu ayant séché les eaux en votre présence jusqu’à ce que vous eussiez passé,
 Holy-Bible---French---Vulgate-Glaire	006	JOS	005	014	Il répondit : Nullement, mais je suis le prince de l’armée du Seigneur, et maintenant je viens.
 Holy-Bible---French---Vulgate-Glaire	007	JDG	005	031	Ainsi périssent tous vos ennemis. Seigneur ! mais que ceux qui vous aiment, brillent, comme le soleil resplendit à son lever.
@@ -4834,7 +4834,7 @@ Holy-Bible---French---Vulgate-Glaire	019	PSA	085	001	Pour la fin, aux fils de Co
 Holy-Bible---French---Vulgate-Glaire	019	PSA	088	001	Des fils de Coré, pour la fin, pour Maheleth, pour répondre, intelligence d’Eman l’Ezrahite.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	089	001	Intelligence d’Ethan l’Ezrahite.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	092	001	Au jour du sabbat.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	102	001	Oraison du pauvre.  Lorsqu’il est dans l’anxiété, et qu’en présence du Seigneur il répand sa prière.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	102	001	Oraison du pauvre.   Lorsqu’il est dans l’anxiété, et qu’en présence du Seigneur il répand sa prière.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	108	001	Cantique de psaume, de David lui-même.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	126	006	Allant, ils allaient et pleuraient, jetant leurs semences :
 Holy-Bible---French---Vulgate-Glaire	019	PSA	136	026	Glorifiez le Dieu du ciel, parce qu’éternelle est sa miséricorde.
@@ -4856,7 +4856,7 @@ Holy-Bible---French---Vulgate-Glaire	027	DAN	003	035	Et ne retirez pas votre mis
 Holy-Bible---French---Vulgate-Glaire	027	DAN	003	036	Auxquels vous avez parlé, promettant que vous multiplieriez leur race comme les étoiles du ciel et comme le sable qui est sur le rivage de la mer ;
 Holy-Bible---French---Vulgate-Glaire	027	DAN	003	037	Parce que, Seigneur, nous avons été diminués plus que toutes les nations, et nous sommes humiliés sur toute la terre aujourd’hui, à cause de nos péchés.
 Holy-Bible---French---Vulgate-Glaire	027	DAN	003	038	Et il n’est en ce temps-ci parmi nous ni prince, ni chef, ni prophète, ni holocauste, ni sacrifice, ni oblation, ni encens, ni lieu pour offrir des prémices devant vous,
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	039	Afin que nous puissions obtenir votre miséricorde, mais que nous soyons reçus dans notre cœur contrit et notice esprit humilié.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	039	Afin que nous puissions obtenir votre miséricorde, mais que nous soyons reçus dans notre cœur contrit et notre esprit humilié.
 Holy-Bible---French---Vulgate-Glaire	027	DAN	003	040	Que comme dans un holocauste de béliers et de taureaux, et comme dans l’immolation de milliers d’agneaux gras, ainsi soit offert aujourd’hui notre sacrifice en votre présence, et qu’il vous plaise, parce qu’il n’est point de confusion pour ceux qui se confient en vous.
 Holy-Bible---French---Vulgate-Glaire	027	DAN	003	041	Et maintenant nous vous suivons de tout notre cœur, et nous vous craignons, et nous cherchons votre face.
 Holy-Bible---French---Vulgate-Glaire	027	DAN	003	042	Ne nous confondez pas, mais faites-nous selon votre mansuétude et la grandeur de votre miséricorde ;
@@ -4889,7 +4889,7 @@ Holy-Bible---French---Vulgate-Glaire	027	DAN	003	068	Bénissez le Seigneur, ros�
 Holy-Bible---French---Vulgate-Glaire	027	DAN	003	069	Bénissez le Seigneur, gelée et froid ; louez, et exaltez-le souverainement dans les siècles.
 Holy-Bible---French---Vulgate-Glaire	027	DAN	003	070	Bénissez le Seigneur, glaces et neiges ; louez, et exaltez-le souverainement dans les siècles.
 Holy-Bible---French---Vulgate-Glaire	027	DAN	003	071	Bénissez le Seigneur, nuits et jours ; louez, et exaltez-le souverainement dans les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	072	Bénissez le Seigneur, lumière et ténèbres ;louez, et exaltez-le souverainement dans les siècles.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	072	Bénissez le Seigneur, lumière et ténèbres ; louez, et exaltez-le souverainement dans les siècles.
 Holy-Bible---French---Vulgate-Glaire	027	DAN	003	073	Bénissez le Seigneur, éclairs et nuées ; louez, et exaltez-le souverainement dans les siècles.
 Holy-Bible---French---Vulgate-Glaire	027	DAN	003	074	Que la terre bénisse le Seigneur, qu’elle le loue et l’exalte souverainement dans les siècles.
 Holy-Bible---French---Vulgate-Glaire	027	DAN	003	075	Bénissez le Seigneur, montagnes et collines ; louez, et exaltez-le souverainement dans les siècles.
@@ -4905,7 +4905,7 @@ Holy-Bible---French---Vulgate-Glaire	027	DAN	003	084	Bénissez le Seigneur, prê
 Holy-Bible---French---Vulgate-Glaire	027	DAN	003	085	Bénissez le Seigneur, serviteurs du Seigneur ; louez, et exaltez-le souverainement dans les siècles.
 Holy-Bible---French---Vulgate-Glaire	027	DAN	003	086	Bénissez le Seigneur, esprits et âmes des justes ; louez, et exaltez-le souverainement dans les siècles.
 Holy-Bible---French---Vulgate-Glaire	027	DAN	003	087	Bénissez le Seigneur, vous, saints et humbles de cœur ; louez, et exaltez-le souverainement dans les siècles.
-Holy-Bible---French---Vulgate-Glaire	027	DAN	003	088	Bénissez le Seigneur, Ananias, Azarias, Misaël ; louez, et exaltez-le souverainement dans les siècles. Parce qu’il nous a arrachés à l’enfer, et qu’il nous a sauves de la main de la mort ; et qu’il nous a délivrés du milieu de la flamme ardente, et qu’il nous a retirés du milieu du feu.
+Holy-Bible---French---Vulgate-Glaire	027	DAN	003	088	Bénissez le Seigneur, Ananias, Azarias, Misaël ; louez, et exaltez-le souverainement dans les siècles. Parce qu’il nous a arrachés à l’enfer, et qu’il nous a sauvés de la main de la mort ; et qu’il nous a délivrés du milieu de la flamme ardente, et qu’il nous a retirés du milieu du feu.
 Holy-Bible---French---Vulgate-Glaire	027	DAN	003	089	Louez le Seigneur, parce qu’il est bon, parce que pour jamais est sa miséricorde.
 Holy-Bible---French---Vulgate-Glaire	027	DAN	003	090	Bénissez le Seigneur, le Dieu des dieux, vous tous, hommes religieux ; louez et célébrez-le, parce que dans tous les siècles est sa miséricorde.
 Holy-Bible---French---Vulgate-Glaire	027	DAN	013	001	Or il y avait un homme habitant à Babylone, et son nom était Joakim.

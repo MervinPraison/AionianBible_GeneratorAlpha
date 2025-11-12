@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1232534     
-# File Date: 10/31/2025 22:04:13
+# File Size: 1232536     
+# File Date: 11/12/2025 05:31:07
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -1639,9 +1639,9 @@ Holy-Bible---French---Vulgate-Glaire	GEN-003-024	Genèse 3:24	Il renvoya donc Ad
 Holy-Bible---French---Vulgate-Glaire	LUK-023-034	Luc 23:34	Mais Jésus disait: Mon Père, pardonnez-leur, car ils ne savent ce qu’ils font. Partageant ensuite ses vêtements, ils y jetèrent le sort.
 Holy-Bible---French---Vulgate-Glaire	REV-021-002	Apocalypse 21:2-3	Et moi, Jean, je vis la sainte cité, la nouvelle Jérusalem, descendant du ciel, d’auprès de Dieu, parée comme une épouse et ornée pour son époux. Et j’entendis une voix forte sortie du trône, disant: Voici le tabernacle de Dieu avec les hommes, et il demeurera avec eux. Et eux seront son peuple, et lui-même, Dieu, au milieu d’eux, sera leur Dieu.
 Holy-Bible---French---Vulgate-Glaire	HEB-011-008	Hébreux 11:8	C’est par la foi que celui qui est appelé Abraham obéit et partit sans savoir où il allait.
-Holy-Bible---French---Vulgate-Glaire	EXO-013-017	Exode 13:17	Or, quand Pharaon eut laissé aller le peuple. Dieu ne les conduisit point par le chemin de la terre des Philistins qui est voisine, pensant que peut-être il se repentirait, s’il voyait des guerres s’élever contre lui, et qu’il retournerait en Egypte.
+Holy-Bible---French---Vulgate-Glaire	EXO-013-017	Exode 13:17	Or, quand Pharaon eut laissé aller le peuple. Dieu ne les conduisit point par le chemin de la terre des Philistins qui est voisine, pensant que peut-être il se repentirait, s’il voyait des guerres s’élever contre lui, et qu’il retournerait en Égypte.
 Holy-Bible---French---Vulgate-Glaire	MAR-010-045	Marc 10:45	Car le Fils de l’homme même n’est pas venu pour être servi, mais pour servir, et donner sa vie pour la rédemption d’un grand nombre.
-Holy-Bible---French---Vulgate-Glaire	ROM-001-001	Romains 1:1	Paul, serviteur de Jésus-Christ, appelé à l’apostolat, choisi pour l’Evangile de Dieu,
+Holy-Bible---French---Vulgate-Glaire	ROM-001-001	Romains 1:1	Paul, serviteur de Jésus-Christ, appelé à l’apostolat, choisi pour l’Évangile de Dieu,
 Holy-Bible---French---Vulgate-Glaire	MAT-028-019	Matthieu 28:19	Allez donc, enseignez toutes les nations, les baptisant au nom du Père, et du Fils, et du Saint-Esprit;
 Holy-Bible---Gamit---Gamit-Bible	JOH-003-016	યોહાન 3:16	“પોરમેહેરે દુનિયા લોકહાવોય ઓહડા મહાન પ્રેમ કોઅયા, યા લીદે ચ્યા યોકને-યોક પોહાલ બલિદાન કોઇ દેનો, યાહાટી કા જીં કાદાં માઅહું ચ્ચાવોય બોરહો કોઅહે, ચ્યા નાશ નાંય ઓઅય, બાકી ચ્યાલ અનંતજીવન મીળે.
 Holy-Bible---Gamit---Gamit-Bible	GEN-003-024		
