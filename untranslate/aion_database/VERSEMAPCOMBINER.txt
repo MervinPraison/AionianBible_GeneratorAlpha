@@ -857,6 +857,7 @@ Holy-Bible---English---STEPBible-Amalgamant							end
 Holy-Bible---English---STEPBible-Concordant							end
 Holy-Bible---English---Syriac-Peshitta-Etheridge							end
 Holy-Bible---English---Syriac-Peshitta-Murdock							end
+Holy-Bible---English---Text-Critical	064	3JO	001	014	14	1	end
 Holy-Bible---English---Text-Critical							end
 Holy-Bible---English---Trans-Trans	064	3JO	001	014	14	1	end
 Holy-Bible---English---Trans-Trans	066	REV	012	018	1	-1	end
@@ -2117,6 +2118,7 @@ Holy-Bible---Greek---Greek-TR-Stephanus-Scrivener							end
 Holy-Bible---Greek---Greek-Westcott-Hort	064	3JO	001	014	14	1	end
 Holy-Bible---Greek---Greek-Westcott-Hort	066	REV	012	018	1	-1	end
 Holy-Bible---Greek---Greek-Westcott-Hort							end
+Holy-Bible---Greek---Text-Critical	064	3JO	001	014	14	1	end
 Holy-Bible---Greek---Text-Critical							end
 Holy-Bible---Guduf-Gava---Guduf-Gava-Bible							end
 Holy-Bible---Gujarati---Gujarati-Bible	064	3JO	001	014	14	1	end

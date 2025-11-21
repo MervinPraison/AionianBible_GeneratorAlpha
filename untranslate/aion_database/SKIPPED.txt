@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1877772     
-# File Date: 11/12/2025 01:32:49
+# File Size: 1878046     
+# File Date: 11/20/2025 21:47:17
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -2854,6 +2854,7 @@ Holy-Bible---English---Rotherham-Bible	040	MAT	017	021
 Holy-Bible---English---Rotherham-Bible	041	MAR	011	026	
 Holy-Bible---English---Rotherham-Bible	044	ACT	028	029	
 Holy-Bible---English---Rotherham-Bible	045	ROM	016	024	
+Holy-Bible---English---Text-Critical	064	3JO	001	014	I hope to see yoʋ soon, and we will speak face to face.
 Holy-Bible---English---Trans-Trans	064	3JO	001	014	Instead, I expect to [come and] see you soon. Then we will talk directly with one another.
 Holy-Bible---English---Trans-Trans	066	REV	012	018	The dragon stood on the ocean shore.
 Holy-Bible---English---Unlocked-Literal-Bible	040	MAT	017	021	
@@ -6900,6 +6901,7 @@ Holy-Bible---Greek---Greek-Tregelles	064	3JO	001	014	ἐλπίζω δὲ εὐθ
 Holy-Bible---Greek---Greek-Tregelles	066	REV	012	018	Καὶ ἐστάθη ἐπὶ τὴν ἄμμον τῆς θαλάσσης.
 Holy-Bible---Greek---Greek-Westcott-Hort	064	3JO	001	014	ελπιζω δε ευθεως σε ιδειν και στομα προς στομα λαλησομεν
 Holy-Bible---Greek---Greek-Westcott-Hort	066	REV	012	018	και εσταθη επι την αμμον της θαλασσης
+Holy-Bible---Greek---Text-Critical	064	3JO	001	014	ἐλπίζω δὲ εὐθέως ἰδεῖν σε, καὶ στόμα πρὸς στόμα λαλήσομεν.
 Holy-Bible---Gujarati---Gujarati-Bible	064	3JO	001	014	પણ હું તને જલ્દી મળવાની આશા રાખું છું ત્યારે આપણે મુખોમુખ વાત કરીશું.
 Holy-Bible---Gujarati---Gujarati-Bible	066	REV	012	018	અને તે સમુદ્રની રેતી પર ઊભો રહ્યો.
 Holy-Bible---Gujii---Guji-Oromo-Bible	064	3JO	001	014	Dhiko'ottuu akka si dhaggu hin addadha; yennaa san ilaan wol dhagginee hin haasonna.
