@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
 # File Size: 1232536     
-# File Date: 11/21/2025 01:59:44
+# File Date: 11/26/2025 22:01:18
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -523,10 +523,10 @@ Holy-Bible---Chin-Thado---Chongthu-Bible	GEN-003-024	Semtilbu 3:24	Hiti chun Pat
 Holy-Bible---Chin-Thado---Chongthu-Bible	LUK-023-034	Luke 23:34	Jesun aseitai, “Hepa, ngaidam in, ajeh chu ipi abol'u ahepouve,” ati. Chule sepai hon aponsil chu vang asang'un achang ding akive lhauve.
 Holy-Bible---Chin-Thado---Chongthu-Bible	REV-021-002	Revelation 21:2-3	Chule keiman khopi theng Jerusalem thah chu van Pathen a kon'a mou aji dingpa hoitah a akivon'a ahung kumlhah kamun ahi. Keiman laltouna a kon'a aw hung kisam gin kajan, aseiyin, “Ven, Pathen chenna in chu mihem lah ahung hitai! Ama amaho toh chengkhom intin, chule amaho chu Ama mite hi ding ahiuve. Pathen Ama tah chun amaho aumpi diu ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	HEB-011-008	Hebrew 11:8	Tahsan jal'in Abraham chu Pathen'in a'in dalha dinga akouva chule gouva alo dinga ateppehna gam'a che dinga akou chun thun ana nung'e. Aman hoilama ache ding jong kihet louvin ana potdoh jenge.
-Holy-Bible---Chin-Thado---Chongthu-Bible	EXO-013-017	Potdohbu 13:17	Ajonan Pharaoh vin Israel mite ahin soldoh tan ahile, gamtepna lamlhun'na naicha ahi vang chun, Pathen'in Philistine galbol hojih chun lampia ahinpui pouvin ahi. Pathen'in aseiye, “Kamite hon galtoh khata le alung heikhao vintin Egypt lam'a kile ding ahiuve,” ati.
+Holy-Bible---Chin-Thado---Chongthu-Bible	EXO-013-017	Potdohbu 13:17	Ajonan Pharaoh in Israel mite ahin soldoh tan ahile, gamtepna lam lhunna naicha ahi vang chun, Pathen'in Philistine galbol ho jeh chun lampia ahinpui pouvin ahi. Pathen'in aseiye, “Kamite hon gal tohkha ta le alung heikhao vintin Egypt lam'a kile ding ahiuve,” ati.
 Holy-Bible---Chin-Thado---Chongthu-Bible	MAR-010-045	Mark 10:45	Ijeh inem iti leh Mihem Chapa tah jong chu jen dinga hung hilouvin mijenle ding le mitampi lhatdohna dinga ahinna tohdoh ding joh a hung ahi bouve,” ati.
 Holy-Bible---Chin-Thado---Chongthu-Bible	ROM-001-001	Rome 1:1	Hiche lekhathot hi Christa Jesu soh, solchah hi dinga Pathen lhendoh, Ama Kipana Thupha seiphong dinga kisoldoh, Paul'a kon ahi:
-Holy-Bible---Chin-Thado---Chongthu-Bible	MAT-028-019	Matthew 28:19	Hijeh chun, nangho cheuvin chule namtin jouse seijuiyin gasemun, amaho chu Pa le Chapa chule Lhagao Theng min-in Twilutsah uvin.
+Holy-Bible---Chin-Thado---Chongthu-Bible	MAT-028-019	Matthew 28:19	Hijeh chun, nangho cheuvin chule namtin jouse seijuiyin gasemun, amaho chu Pa le Chapa chule Lhagao Theng minin Twilutsah uvin.
 Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	JOH-003-016	Jawhan 3:16	Cathut ni a Capa tawntoe e pasoung ditouh talaivan a lungpataw. Capa ka yuem e tami pueng teh rawk laipalah a yungyoe hringnae a tawn awh nahane doeh.
 Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	GEN-003-024	Kamtawngnae 3:24	Hottelah, tami hah a pâlei hnukkhu, avoivang kamrit thai e tahloi hoi Cherubim hah, hringnae thingkung lamthung ka ring hanelah, Eden takha kanîtholah a hruek.
 Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	LUK-023-034	Luk 23:34	Jisuh ni, a Pa, ahnimae yon ngaithoum haw, bangmaw ka sak tie panuek awh hoeh, telah ati. Ahnimouh ni cungpam a rayu awh teh angki a kâravei awh.
