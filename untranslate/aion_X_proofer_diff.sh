@@ -34,7 +34,7 @@ foreach($files as $file) {
 	if (!preg_match("#---Aionian-Edition\.pdf$#",$file)) { continue; }
 	//if (preg_match("#^(Holy-Bible---[A-R]+.+)#",$file)) { continue; } // skip some if needed
 	//if (preg_match("#^(Holy-Bible---[A-D].+|Holy-Bible---English---[A-R].+)#",$file)) { continue; } // skip some if needed
-	//if (!preg_match("#^Holy-Bible---(Coptic|Myanmar---Burmese-Common|Sanskrit---Burmese|Sanskrit---Cologne|Sanskrit---Harvard|Sanskrit---IAST|Sanskrit---ISO|Sanskrit---ITRANS|Sanskrit---Tamil|Sanskrit---Velthuis).+#",$file)) { continue; }
+	//if (!preg_match("#^Holy-Bible---(Bul|Bwi|[C-Z]+)#",$file)) { continue; }
 
 	$revised = AION_PDF_PAGECOUNT("../www-stageresources/$file");
 	$current = AION_PDF_PAGECOUNT("../www-resources/$file");

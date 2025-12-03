@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1232536     
-# File Date: 11/26/2025 22:01:18
+# File Size: 1232539     
+# File Date: 12/03/2025 05:25:25
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -518,7 +518,7 @@ Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	EXO-013-017
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	MAR-010-045	Mark 10:45	Mihing Tapa sia ngual a sawl tu in hongpai ngawl hi, ngual atu seam tu in le mi tampi tatkhiat natu a nuntakna pia tu in hongpai hi, ci hi.
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	ROM-001-001	Romans 1:1	Jesus Christ i sal, Sawltak a hi tu in a ki samtuam le Pathian lungdamna thupha atu koituam, keima Paul in,
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	MAT-028-019	Matthew 28:19	Tua a hiciang note pai tavun a, minam theampo te hil tavun, Pa, Tapa le Tha Thiangtho min taw tuiphumna pia tavun:
-Holy-Bible---Chin-Thado---Chongthu-Bible	JOH-003-016	John 3:16	Ajeh chu Pathen'in hibanga hi vannoi angailut ahin, koi hijongleh Ama tahsan chan chu mangthah louva tonsot hinna aneina dingin, aneisun achapa changkhat chu apetan ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	JOH-003-016	John 3:16	“Ajeh chu Pathen'in hibanga hi vannoi angailut ahin: Koi hijongleh Ama tahsan chan chu mangthah louva tonsot hinna aneina dingin, aneisun achapa changkhat chu apetan ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	GEN-003-024	Semtilbu 3:24	Hiti chun Pathen'in Adam anodoh jouvin, Eden hon nisolam'a hinna thingphung ngah dingin vantil Cherubim chu achen sah in, chule chemjam kou jeju chu akipei kimvel le sahtan ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	LUK-023-034	Luke 23:34	Jesun aseitai, “Hepa, ngaidam in, ajeh chu ipi abol'u ahepouve,” ati. Chule sepai hon aponsil chu vang asang'un achang ding akive lhauve.
 Holy-Bible---Chin-Thado---Chongthu-Bible	REV-021-002	Revelation 21:2-3	Chule keiman khopi theng Jerusalem thah chu van Pathen a kon'a mou aji dingpa hoitah a akivon'a ahung kumlhah kamun ahi. Keiman laltouna a kon'a aw hung kisam gin kajan, aseiyin, “Ven, Pathen chenna in chu mihem lah ahung hitai! Ama amaho toh chengkhom intin, chule amaho chu Ama mite hi ding ahiuve. Pathen Ama tah chun amaho aumpi diu ahi.
